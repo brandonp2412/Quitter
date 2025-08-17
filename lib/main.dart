@@ -8,7 +8,7 @@ import 'package:quitter/settings_page.dart';
 import 'package:quitter/smoking_page.dart';
 import 'package:quitter/vaping_page.dart';
 
-// Settings Provider
+// Settings Provider - simplified and robust
 class SettingsProvider extends ChangeNotifier {
   static const String _themeKey = 'theme_mode';
   static const String _colorSchemeKey = 'color_scheme';
@@ -18,7 +18,6 @@ class SettingsProvider extends ChangeNotifier {
   static const String _opioidsKey = 'show_opioids';
 
   SharedPreferences? _prefs;
-  bool _isInitialized = false;
 
   ThemeMode _themeMode = ThemeMode.system;
   ColorSchemeType _colorSchemeType = ColorSchemeType.dynamic;
@@ -34,25 +33,10 @@ class SettingsProvider extends ChangeNotifier {
   bool get showVaping => _showVaping;
   bool get showSmoking => _showSmoking;
   bool get showOpioids => _showOpioids;
-  bool get isInitialized => _isInitialized;
 
-  // Initialize preferences
-  Future<void> init() async {
-    if (_isInitialized) return;
-
-    try {
-      _prefs = await SharedPreferences.getInstance();
-      _loadSettings();
-      _isInitialized = true;
-    } catch (e) {
-      _isInitialized =
-          true; // Still mark as initialized to prevent infinite loading
-      print('Error initializing settings: $e');
-    }
-  }
-
-  void _loadSettings() {
-    if (_prefs == null) return;
+  // Initialize preferences - called once at app start
+  Future<void> loadPreferences() async {
+    _prefs = await SharedPreferences.getInstance();
 
     _themeMode =
         ThemeMode.values[_prefs!.getInt(_themeKey) ?? ThemeMode.system.index];
@@ -64,48 +48,40 @@ class SettingsProvider extends ChangeNotifier {
     _showSmoking = _prefs!.getBool(_smokingKey) ?? true;
     _showOpioids = _prefs!.getBool(_opioidsKey) ?? true;
 
-    if (_isInitialized) {
-      notifyListeners();
-    }
+    notifyListeners();
   }
 
   Future<void> setThemeMode(ThemeMode mode) async {
-    if (_themeMode == mode) return;
     _themeMode = mode;
     await _prefs?.setInt(_themeKey, mode.index);
     notifyListeners();
   }
 
   Future<void> setColorSchemeType(ColorSchemeType type) async {
-    if (_colorSchemeType == type) return;
     _colorSchemeType = type;
     await _prefs?.setInt(_colorSchemeKey, type.index);
     notifyListeners();
   }
 
   Future<void> setShowAlcohol(bool show) async {
-    if (_showAlcohol == show) return;
     _showAlcohol = show;
     await _prefs?.setBool(_alcoholKey, show);
     notifyListeners();
   }
 
   Future<void> setShowVaping(bool show) async {
-    if (_showVaping == show) return;
     _showVaping = show;
     await _prefs?.setBool(_vapingKey, show);
     notifyListeners();
   }
 
   Future<void> setShowSmoking(bool show) async {
-    if (_showSmoking == show) return;
     _showSmoking = show;
     await _prefs?.setBool(_smokingKey, show);
     notifyListeners();
   }
 
   Future<void> setShowOpioids(bool show) async {
-    if (_showOpioids == show) return;
     _showOpioids = show;
     await _prefs?.setBool(_opioidsKey, show);
     notifyListeners();
@@ -195,33 +171,29 @@ class _HomePageState extends State<HomePage> {
   }
 
   void _loadQuitDays() async {
-    try {
-      final prefs = await SharedPreferences.getInstance();
-      final now = DateTime.now();
+    final prefs = await SharedPreferences.getInstance();
+    final now = DateTime.now();
 
-      final quitSmoking = prefs.getString('smoking');
-      final quitVaping = prefs.getString('vaping');
-      final quitAlcohol = prefs.getString('alcohol');
-      final quitOpioids = prefs.getString('opioids');
+    final quitSmoking = prefs.getString('smoking');
+    final quitVaping = prefs.getString('vaping');
+    final quitAlcohol = prefs.getString('alcohol');
+    final quitOpioids = prefs.getString('opioids');
 
-      if (mounted) {
-        setState(() {
-          smokingDays = quitSmoking != null
-              ? now.difference(DateTime.parse(quitSmoking)).inDays
-              : 0;
-          alcoholDays = quitAlcohol != null
-              ? now.difference(DateTime.parse(quitAlcohol)).inDays
-              : 0;
-          vapingDays = quitVaping != null
-              ? now.difference(DateTime.parse(quitVaping)).inDays
-              : 0;
-          opioidDays = quitOpioids != null
-              ? now.difference(DateTime.parse(quitOpioids)).inDays
-              : 0;
-        });
-      }
-    } catch (e) {
-      print('Error loading quit days: $e');
+    if (mounted) {
+      setState(() {
+        smokingDays = quitSmoking != null
+            ? now.difference(DateTime.parse(quitSmoking)).inDays
+            : 0;
+        alcoholDays = quitAlcohol != null
+            ? now.difference(DateTime.parse(quitAlcohol)).inDays
+            : 0;
+        vapingDays = quitVaping != null
+            ? now.difference(DateTime.parse(quitVaping)).inDays
+            : 0;
+        opioidDays = quitOpioids != null
+            ? now.difference(DateTime.parse(quitOpioids)).inDays
+            : 0;
+      });
     }
   }
 
@@ -235,11 +207,6 @@ class _HomePageState extends State<HomePage> {
       ),
       body: Consumer<SettingsProvider>(
         builder: (context, settings, child) {
-          // Show loading if settings aren't initialized yet
-          if (!settings.isInitialized) {
-            return const Center(child: CircularProgressIndicator());
-          }
-
           return ListView(
             children: [
               if (settings.showAlcohol)
@@ -247,10 +214,14 @@ class _HomePageState extends State<HomePage> {
                   title: const Text("Alcohol"),
                   subtitle: Text("Day $alcoholDays"),
                   leading: const Icon(Icons.water_drop),
-                  onTap: () => _navigateToPage(
-                    AlcoholPage(),
-                    (value) => alcoholDays = value ?? alcoholDays,
-                  ),
+                  onTap: () async {
+                    final result = await Navigator.of(context).push(
+                      MaterialPageRoute(builder: (context) => AlcoholPage()),
+                    );
+                    if (result != null && mounted) {
+                      setState(() => alcoholDays = result);
+                    }
+                  },
                 ),
 
               if (settings.showVaping)
@@ -258,10 +229,14 @@ class _HomePageState extends State<HomePage> {
                   title: const Text("Vaping"),
                   subtitle: Text("Day $vapingDays"),
                   leading: const Icon(Icons.air),
-                  onTap: () => _navigateToPage(
-                    VapingPage(),
-                    (value) => vapingDays = value ?? vapingDays,
-                  ),
+                  onTap: () async {
+                    final result = await Navigator.of(context).push(
+                      MaterialPageRoute(builder: (context) => VapingPage()),
+                    );
+                    if (result != null && mounted) {
+                      setState(() => vapingDays = result);
+                    }
+                  },
                 ),
 
               if (settings.showSmoking)
@@ -269,10 +244,14 @@ class _HomePageState extends State<HomePage> {
                   title: const Text("Smoking"),
                   subtitle: Text("Day $smokingDays"),
                   leading: const Icon(Icons.eco),
-                  onTap: () => _navigateToPage(
-                    SmokingPage(),
-                    (value) => smokingDays = value ?? smokingDays,
-                  ),
+                  onTap: () async {
+                    final result = await Navigator.of(context).push(
+                      MaterialPageRoute(builder: (context) => SmokingPage()),
+                    );
+                    if (result != null && mounted) {
+                      setState(() => smokingDays = result);
+                    }
+                  },
                 ),
 
               if (settings.showOpioids)
@@ -280,10 +259,14 @@ class _HomePageState extends State<HomePage> {
                   title: const Text("Opioids"),
                   subtitle: Text("Day $opioidDays"),
                   leading: const Icon(Icons.medication),
-                  onTap: () => _navigateToPage(
-                    OpioidPage(),
-                    (value) => opioidDays = value ?? opioidDays,
-                  ),
+                  onTap: () async {
+                    final result = await Navigator.of(context).push(
+                      MaterialPageRoute(builder: (context) => OpioidPage()),
+                    );
+                    if (result != null && mounted) {
+                      setState(() => opioidDays = result);
+                    }
+                  },
                 ),
             ],
           );
@@ -294,29 +277,29 @@ class _HomePageState extends State<HomePage> {
           await Navigator.of(
             context,
           ).push(MaterialPageRoute(builder: (context) => const SettingsPage()));
-          _loadQuitDays(); // Refresh days when returning from settings
+          _loadQuitDays();
         },
         label: const Text("Settings"),
         icon: const Icon(Icons.settings),
       ),
     );
   }
-
-  void _navigateToPage(Widget page, Function(int?) updateDays) async {
-    final result = await Navigator.of(
-      context,
-    ).push(MaterialPageRoute(builder: (context) => page));
-
-    if (mounted) {
-      setState(() {
-        updateDays(result);
-      });
-    }
-  }
 }
 
-void main() {
-  runApp(const QuitterApp());
+// Main app initialization
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  // Create and initialize the settings provider
+  final settingsProvider = SettingsProvider();
+  await settingsProvider.loadPreferences();
+
+  runApp(
+    ChangeNotifierProvider.value(
+      value: settingsProvider,
+      child: const QuitterApp(),
+    ),
+  );
 }
 
 class QuitterApp extends StatelessWidget {
@@ -324,58 +307,37 @@ class QuitterApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ChangeNotifierProvider(
-      create: (context) => SettingsProvider()..init(),
-      child: Consumer<SettingsProvider>(
-        builder: (context, settings, child) {
-          // Show loading screen until settings are initialized
-          if (!settings.isInitialized) {
-            return MaterialApp(
-              home: Scaffold(
-                body: Center(
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      CircularProgressIndicator(),
-                      SizedBox(height: 16),
-                      Text('Loading...'),
-                    ],
-                  ),
-                ),
-              ),
+    return Consumer<SettingsProvider>(
+      builder: (context, settings, child) {
+        return DynamicColorBuilder(
+          builder: (ColorScheme? lightDynamic, ColorScheme? darkDynamic) {
+            final lightColorScheme = ColorSchemeHelper.getColorScheme(
+              settings.colorSchemeType,
+              Brightness.light,
+              lightDynamic,
             );
-          }
+            final darkColorScheme = ColorSchemeHelper.getColorScheme(
+              settings.colorSchemeType,
+              Brightness.dark,
+              darkDynamic,
+            );
 
-          return DynamicColorBuilder(
-            builder: (ColorScheme? lightDynamic, ColorScheme? darkDynamic) {
-              final lightColorScheme = ColorSchemeHelper.getColorScheme(
-                settings.colorSchemeType,
-                Brightness.light,
-                lightDynamic,
-              );
-              final darkColorScheme = ColorSchemeHelper.getColorScheme(
-                settings.colorSchemeType,
-                Brightness.dark,
-                darkDynamic,
-              );
-
-              return MaterialApp(
-                title: 'Quitter',
-                themeMode: settings.themeMode,
-                theme: ThemeData(
-                  colorScheme: lightColorScheme,
-                  useMaterial3: true,
-                ),
-                darkTheme: ThemeData(
-                  colorScheme: darkColorScheme,
-                  useMaterial3: true,
-                ),
-                home: const HomePage(),
-              );
-            },
-          );
-        },
-      ),
+            return MaterialApp(
+              title: 'Quitter',
+              themeMode: settings.themeMode,
+              theme: ThemeData(
+                colorScheme: lightColorScheme,
+                useMaterial3: true,
+              ),
+              darkTheme: ThemeData(
+                colorScheme: darkColorScheme,
+                useMaterial3: true,
+              ),
+              home: const HomePage(),
+            );
+          },
+        );
+      },
     );
   }
 }

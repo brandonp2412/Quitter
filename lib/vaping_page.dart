@@ -146,7 +146,7 @@ class _VapingPageState extends State<VapingPage> {
                 ),
                 const SizedBox(height: 8),
                 Text(
-                  'Breaking free from the cloud! ☁️→🌟',
+                  'Breaking free from the cloud! ☁️ 🌟',
                   style: TextStyle(
                     fontSize: 16,
                     color: colorScheme.onPrimary.withOpacity(0.7),
