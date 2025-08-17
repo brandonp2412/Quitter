@@ -110,7 +110,7 @@ class _OpioidPageState extends State<OpioidPage> {
         leading: IconButton(
           onPressed: () => Navigator.of(context).pop(currentDay),
           icon: Icon(Icons.arrow_back),
-          color: Colors.white,
+          color: Theme.of(context).colorScheme.surface,
         ),
         title: Text(
           'Recovery journey',

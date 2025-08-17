@@ -109,7 +109,7 @@ class _SmokingPageState extends State<SmokingPage> {
         leading: IconButton(
           onPressed: () => Navigator.of(context).pop(currentDay),
           icon: Icon(Icons.arrow_back),
-          color: Colors.white,
+          color: Theme.of(context).colorScheme.surface,
         ),
         title: Text(
           'Quit smoking journey',
