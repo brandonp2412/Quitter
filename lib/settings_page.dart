@@ -1,69 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:quitter/main.dart';
+import 'package:quitter/color_scheme_helper.dart';
+import 'package:quitter/color_scheme_type.dart';
+import 'package:quitter/settings_provider.dart';
 
-class ColorSchemeHelper {
-  static ColorScheme getColorScheme(
-    ColorSchemeType type,
-    Brightness brightness,
-    ColorScheme? dynamicScheme,
-  ) {
-    switch (type) {
-      case ColorSchemeType.dynamic:
-        return dynamicScheme ??
-            ColorScheme.fromSeed(
-              seedColor: Colors.blue,
-              brightness: brightness,
-            );
-      case ColorSchemeType.blue:
-        return ColorScheme.fromSeed(
-          seedColor: Colors.blue,
-          brightness: brightness,
-        );
-      case ColorSchemeType.green:
-        return ColorScheme.fromSeed(
-          seedColor: Colors.green,
-          brightness: brightness,
-        );
-      case ColorSchemeType.red:
-        return ColorScheme.fromSeed(
-          seedColor: Colors.red,
-          brightness: brightness,
-        );
-      case ColorSchemeType.purple:
-        return ColorScheme.fromSeed(
-          seedColor: Colors.purple,
-          brightness: brightness,
-        );
-      case ColorSchemeType.orange:
-        return ColorScheme.fromSeed(
-          seedColor: Colors.orange,
-          brightness: brightness,
-        );
-    }
-  }
-
-  static String getColorSchemeName(ColorSchemeType type) {
-    switch (type) {
-      case ColorSchemeType.dynamic:
-        return 'Dynamic Colors';
-      case ColorSchemeType.blue:
-        return 'Blue';
-      case ColorSchemeType.green:
-        return 'Green';
-      case ColorSchemeType.red:
-        return 'Red';
-      case ColorSchemeType.purple:
-        return 'Purple';
-      case ColorSchemeType.orange:
-        return 'Orange';
-    }
-  }
-}
-
-// Settings Page
 class SettingsPage extends StatelessWidget {
-  const SettingsPage({Key? key}) : super(key: key);
+  const SettingsPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -74,11 +16,9 @@ class SettingsPage extends StatelessWidget {
           return ListView(
             padding: const EdgeInsets.all(16.0),
             children: [
-              // Theme Section
               _buildSectionHeader('Appearance'),
               const SizedBox(height: 8),
 
-              // Theme Mode
               Card(
                 child: ListTile(
                   leading: const Icon(Icons.brightness_6),
@@ -105,7 +45,6 @@ class SettingsPage extends StatelessWidget {
 
               const SizedBox(height: 24),
 
-              // Main Screen Items Section
               _buildSectionHeader('Main Screen Items'),
               const SizedBox(height: 8),
 

@@ -1,155 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:dynamic_color/dynamic_color.dart';
+import 'package:quitter/color_scheme_helper.dart';
+import 'package:quitter/settings_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:quitter/alcohol_page.dart';
 import 'package:quitter/opioid_page.dart';
 import 'package:quitter/settings_page.dart';
 import 'package:quitter/smoking_page.dart';
 import 'package:quitter/vaping_page.dart';
-
-// Settings Provider - simplified and robust
-class SettingsProvider extends ChangeNotifier {
-  static const String _themeKey = 'theme_mode';
-  static const String _colorSchemeKey = 'color_scheme';
-  static const String _alcoholKey = 'show_alcohol';
-  static const String _vapingKey = 'show_vaping';
-  static const String _smokingKey = 'show_smoking';
-  static const String _opioidsKey = 'show_opioids';
-
-  SharedPreferences? _prefs;
-
-  ThemeMode _themeMode = ThemeMode.system;
-  ColorSchemeType _colorSchemeType = ColorSchemeType.dynamic;
-  bool _showAlcohol = true;
-  bool _showVaping = true;
-  bool _showSmoking = true;
-  bool _showOpioids = true;
-
-  // Getters
-  ThemeMode get themeMode => _themeMode;
-  ColorSchemeType get colorSchemeType => _colorSchemeType;
-  bool get showAlcohol => _showAlcohol;
-  bool get showVaping => _showVaping;
-  bool get showSmoking => _showSmoking;
-  bool get showOpioids => _showOpioids;
-
-  // Initialize preferences - called once at app start
-  Future<void> loadPreferences() async {
-    _prefs = await SharedPreferences.getInstance();
-
-    _themeMode =
-        ThemeMode.values[_prefs!.getInt(_themeKey) ?? ThemeMode.system.index];
-    _colorSchemeType =
-        ColorSchemeType.values[_prefs!.getInt(_colorSchemeKey) ??
-            ColorSchemeType.dynamic.index];
-    _showAlcohol = _prefs!.getBool(_alcoholKey) ?? true;
-    _showVaping = _prefs!.getBool(_vapingKey) ?? true;
-    _showSmoking = _prefs!.getBool(_smokingKey) ?? true;
-    _showOpioids = _prefs!.getBool(_opioidsKey) ?? true;
-
-    notifyListeners();
-  }
-
-  Future<void> setThemeMode(ThemeMode mode) async {
-    _themeMode = mode;
-    await _prefs?.setInt(_themeKey, mode.index);
-    notifyListeners();
-  }
-
-  Future<void> setColorSchemeType(ColorSchemeType type) async {
-    _colorSchemeType = type;
-    await _prefs?.setInt(_colorSchemeKey, type.index);
-    notifyListeners();
-  }
-
-  Future<void> setShowAlcohol(bool show) async {
-    _showAlcohol = show;
-    await _prefs?.setBool(_alcoholKey, show);
-    notifyListeners();
-  }
-
-  Future<void> setShowVaping(bool show) async {
-    _showVaping = show;
-    await _prefs?.setBool(_vapingKey, show);
-    notifyListeners();
-  }
-
-  Future<void> setShowSmoking(bool show) async {
-    _showSmoking = show;
-    await _prefs?.setBool(_smokingKey, show);
-    notifyListeners();
-  }
-
-  Future<void> setShowOpioids(bool show) async {
-    _showOpioids = show;
-    await _prefs?.setBool(_opioidsKey, show);
-    notifyListeners();
-  }
-}
-
-// Enum for color scheme types
-enum ColorSchemeType { dynamic, blue, green, red, purple, orange }
-
-// Color scheme helper
-class ColorSchemeHelper {
-  static ColorScheme getColorScheme(
-    ColorSchemeType type,
-    Brightness brightness,
-    ColorScheme? dynamicScheme,
-  ) {
-    switch (type) {
-      case ColorSchemeType.dynamic:
-        return dynamicScheme ??
-            ColorScheme.fromSeed(
-              seedColor: const Color(0xFF2E8B57),
-              brightness: brightness,
-            );
-      case ColorSchemeType.blue:
-        return ColorScheme.fromSeed(
-          seedColor: Colors.blue,
-          brightness: brightness,
-        );
-      case ColorSchemeType.green:
-        return ColorScheme.fromSeed(
-          seedColor: const Color(0xFF2E8B57),
-          brightness: brightness,
-        );
-      case ColorSchemeType.red:
-        return ColorScheme.fromSeed(
-          seedColor: Colors.red,
-          brightness: brightness,
-        );
-      case ColorSchemeType.purple:
-        return ColorScheme.fromSeed(
-          seedColor: Colors.purple,
-          brightness: brightness,
-        );
-      case ColorSchemeType.orange:
-        return ColorScheme.fromSeed(
-          seedColor: Colors.orange,
-          brightness: brightness,
-        );
-    }
-  }
-
-  static String getColorSchemeName(ColorSchemeType type) {
-    switch (type) {
-      case ColorSchemeType.dynamic:
-        return 'Dynamic Colors';
-      case ColorSchemeType.blue:
-        return 'Blue';
-      case ColorSchemeType.green:
-        return 'Green';
-      case ColorSchemeType.red:
-        return 'Red';
-      case ColorSchemeType.purple:
-        return 'Purple';
-      case ColorSchemeType.orange:
-        return 'Orange';
-    }
-  }
-}
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -197,6 +56,61 @@ class _HomePageState extends State<HomePage> {
     }
   }
 
+  void _showHideBottomSheet(String title, VoidCallback onConfirm) {
+    showModalBottomSheet(
+      context: context,
+      builder: (BuildContext context) {
+        return Container(
+          padding: const EdgeInsets.all(20),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Icon(
+                Icons.visibility_off,
+                size: 48,
+                color: Theme.of(context).colorScheme.primary,
+              ),
+              const SizedBox(height: 16),
+              Text(
+                'Hide $title?',
+                style: Theme.of(context).textTheme.headlineSmall,
+                textAlign: TextAlign.center,
+              ),
+              const SizedBox(height: 8),
+              Text(
+                'This will hide the $title option from your home screen. You can show it again in Settings.',
+                style: Theme.of(context).textTheme.bodyMedium,
+                textAlign: TextAlign.center,
+              ),
+              const SizedBox(height: 24),
+              Row(
+                children: [
+                  Expanded(
+                    child: OutlinedButton(
+                      onPressed: () => Navigator.pop(context),
+                      child: const Text('Cancel'),
+                    ),
+                  ),
+                  const SizedBox(width: 16),
+                  Expanded(
+                    child: FilledButton(
+                      onPressed: () {
+                        Navigator.pop(context);
+                        onConfirm();
+                      },
+                      child: const Text('Hide'),
+                    ),
+                  ),
+                ],
+              ),
+              const SizedBox(height: 16),
+            ],
+          ),
+        );
+      },
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -228,6 +142,11 @@ class _HomePageState extends State<HomePage> {
                       setState(() => alcoholDays = result);
                     }
                   },
+                  onLongPress: () {
+                    _showHideBottomSheet('Alcohol', () {
+                      settings.setShowAlcohol(false);
+                    });
+                  },
                 ),
 
               if (settings.showVaping)
@@ -242,6 +161,11 @@ class _HomePageState extends State<HomePage> {
                     if (result != null && mounted) {
                       setState(() => vapingDays = result);
                     }
+                  },
+                  onLongPress: () {
+                    _showHideBottomSheet('Vaping', () {
+                      settings.setShowVaping(false);
+                    });
                   },
                 ),
 
@@ -258,6 +182,11 @@ class _HomePageState extends State<HomePage> {
                       setState(() => smokingDays = result);
                     }
                   },
+                  onLongPress: () {
+                    _showHideBottomSheet('Smoking', () {
+                      settings.setShowSmoking(false);
+                    });
+                  },
                 ),
 
               if (settings.showOpioids)
@@ -272,6 +201,11 @@ class _HomePageState extends State<HomePage> {
                     if (result != null && mounted) {
                       setState(() => opioidDays = result);
                     }
+                  },
+                  onLongPress: () {
+                    _showHideBottomSheet('Opioids', () {
+                      settings.setShowOpioids(false);
+                    });
                   },
                 ),
             ],
@@ -292,11 +226,9 @@ class _HomePageState extends State<HomePage> {
   }
 }
 
-// Main app initialization
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  // Create and initialize the settings provider
   final settingsProvider = SettingsProvider();
   await settingsProvider.loadPreferences();
 
