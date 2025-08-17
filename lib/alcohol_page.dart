@@ -110,9 +110,9 @@ class _AlcoholPageState extends State<AlcoholPage> {
           icon: Icon(Icons.arrow_back),
           color: Theme.of(context).colorScheme.surface,
         ),
-        title: const Text(
+        title: Text(
           'Quit alcohol journey',
-          style: TextStyle(color: Colors.white),
+          style: TextStyle(color: Theme.of(context).colorScheme.surface),
         ),
         backgroundColor: Theme.of(context).colorScheme.primary,
         elevation: 0,
@@ -133,16 +133,19 @@ class _AlcoholPageState extends State<AlcoholPage> {
               children: [
                 Text(
                   'Day $currentDay',
-                  style: const TextStyle(
+                  style: TextStyle(
                     fontSize: 32,
                     fontWeight: FontWeight.bold,
-                    color: Colors.white,
+                    color: Theme.of(context).colorScheme.surface,
                   ),
                 ),
                 const SizedBox(height: 8),
-                const Text(
+                Text(
                   'Every day is a victory! 🎉',
-                  style: TextStyle(fontSize: 16, color: Colors.white70),
+                  style: TextStyle(
+                    fontSize: 16,
+                    color: Theme.of(context).colorScheme.surface,
+                  ),
                 ),
                 const SizedBox(height: 16),
                 Row(
@@ -162,21 +165,27 @@ class _AlcoholPageState extends State<AlcoholPage> {
                           hintStyle: TextStyle(color: Colors.white70),
                           border: OutlineInputBorder(
                             borderRadius: BorderRadius.all(Radius.circular(12)),
-                            borderSide: BorderSide(color: Colors.white),
+                            borderSide: BorderSide(
+                              color: Theme.of(context).colorScheme.surface,
+                            ),
                           ),
                           enabledBorder: OutlineInputBorder(
                             borderRadius: BorderRadius.all(Radius.circular(12)),
-                            borderSide: BorderSide(color: Colors.white),
+                            borderSide: BorderSide(
+                              color: Theme.of(context).colorScheme.surface,
+                            ),
                           ),
                           focusedBorder: OutlineInputBorder(
                             borderRadius: BorderRadius.all(Radius.circular(12)),
                             borderSide: BorderSide(
-                              color: Colors.white,
+                              color: Theme.of(context).colorScheme.surface,
                               width: 2,
                             ),
                           ),
                         ),
-                        style: const TextStyle(color: Colors.white),
+                        style: TextStyle(
+                          color: Theme.of(context).colorScheme.surface,
+                        ),
                         keyboardType: TextInputType.number,
                         onChanged: (value) async {
                           setState(() {

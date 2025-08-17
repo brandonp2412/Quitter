@@ -144,10 +144,7 @@ class _SmokingPageState extends State<SmokingPage> {
                 const SizedBox(height: 8),
                 Text(
                   'Smoke-free and loving it! ✨',
-                  style: TextStyle(
-                    fontSize: 16,
-                    color: colorScheme.onPrimary.withOpacity(0.7),
-                  ),
+                  style: TextStyle(fontSize: 16, color: colorScheme.onPrimary),
                 ),
                 const SizedBox(height: 16),
                 Row(

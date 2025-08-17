@@ -145,10 +145,7 @@ class _OpioidPageState extends State<OpioidPage> {
                 const SizedBox(height: 8),
                 Text(
                   'Healing one day at a time 💜',
-                  style: TextStyle(
-                    fontSize: 16,
-                    color: colorScheme.onPrimary.withOpacity(0.7),
-                  ),
+                  style: TextStyle(fontSize: 16, color: colorScheme.onPrimary),
                 ),
                 const SizedBox(height: 16),
                 Row(

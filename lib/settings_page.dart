@@ -189,6 +189,7 @@ class SettingsPage extends StatelessWidget {
             return RadioListTile<ThemeMode>(
               title: Text(_getThemeModeText(mode)),
               value: mode,
+              groupValue: settings.themeMode,
               onChanged: (value) {
                 if (value != null) {
                   settings.setThemeMode(value);
