@@ -91,11 +91,8 @@ class _VapingPageState extends State<VapingPage> {
       final quitOn = prefs.getString('vaping');
       if (quitOn == null) return;
 
-      final quitDate = DateTime.parse(quitOn);
-      final now = DateTime.now();
-
       setState(() {
-        currentDay = now.difference(quitDate).inDays;
+        currentDay = daysCeil(quitOn);
         controller.text = currentDay.toString();
       });
     });

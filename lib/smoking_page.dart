@@ -88,11 +88,8 @@ class _SmokingPageState extends State<SmokingPage> {
       final quitOn = prefs.getString('smoking');
       if (quitOn == null) return;
 
-      final quitDate = DateTime.parse(quitOn);
-      final now = DateTime.now();
-
       setState(() {
-        currentDay = now.difference(quitDate).inDays;
+        currentDay = daysCeil(quitOn);
         controller.text = currentDay.toString();
       });
     });

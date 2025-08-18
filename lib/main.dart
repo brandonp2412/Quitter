@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 import 'package:dynamic_color/dynamic_color.dart';
 import 'package:quitter/color_scheme_helper.dart';
 import 'package:quitter/settings_provider.dart';
+import 'package:quitter/utils.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:quitter/alcohol_page.dart';
 import 'package:quitter/opioid_page.dart';
@@ -31,7 +32,6 @@ class _HomePageState extends State<HomePage> {
 
   void _loadQuitDays() async {
     final prefs = await SharedPreferences.getInstance();
-    final now = DateTime.now();
 
     final quitSmoking = prefs.getString('smoking');
     final quitVaping = prefs.getString('vaping');
@@ -40,18 +40,10 @@ class _HomePageState extends State<HomePage> {
 
     if (mounted) {
       setState(() {
-        smokingDays = quitSmoking != null
-            ? now.difference(DateTime.parse(quitSmoking)).inDays
-            : 0;
-        alcoholDays = quitAlcohol != null
-            ? now.difference(DateTime.parse(quitAlcohol)).inDays
-            : 0;
-        vapingDays = quitVaping != null
-            ? now.difference(DateTime.parse(quitVaping)).inDays
-            : 0;
-        opioidDays = quitOpioids != null
-            ? now.difference(DateTime.parse(quitOpioids)).inDays
-            : 0;
+        smokingDays = daysCeil(quitSmoking);
+        alcoholDays = daysCeil(quitAlcohol);
+        vapingDays = daysCeil(quitVaping);
+        opioidDays = daysCeil(quitOpioids);
       });
     }
   }
