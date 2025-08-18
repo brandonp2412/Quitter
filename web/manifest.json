@@ -1,11 +1,11 @@
 {
-    "name": "quitter",
-    "short_name": "quitter",
+    "name": "Quitter",
+    "short_name": "Quitter",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Record your quitting journey with a Free and Open Source app.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

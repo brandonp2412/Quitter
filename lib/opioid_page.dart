@@ -108,7 +108,7 @@ class _OpioidPageState extends State<OpioidPage> {
       backgroundColor: colorScheme.surface,
       appBar: AppBar(
         leading: IconButton(
-          onPressed: () => Navigator.of(context).pop(currentDay),
+          onPressed: () => Navigator.of(context).pop(),
           icon: Icon(Icons.arrow_back),
           color: Theme.of(context).colorScheme.surface,
         ),

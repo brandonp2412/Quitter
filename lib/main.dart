@@ -135,11 +135,11 @@ class _HomePageState extends State<HomePage> {
                   subtitle: Text("Day $alcoholDays"),
                   leading: const Icon(Icons.water_drop),
                   onTap: () async {
-                    final result = await Navigator.of(context).push(
+                    await Navigator.of(context).push(
                       MaterialPageRoute(builder: (context) => AlcoholPage()),
                     );
-                    if (result != null && mounted) {
-                      setState(() => alcoholDays = result);
+                    if (mounted) {
+                      _loadQuitDays();
                     }
                   },
                   onLongPress: () {
@@ -155,11 +155,11 @@ class _HomePageState extends State<HomePage> {
                   subtitle: Text("Day $vapingDays"),
                   leading: const Icon(Icons.air),
                   onTap: () async {
-                    final result = await Navigator.of(context).push(
+                    await Navigator.of(context).push(
                       MaterialPageRoute(builder: (context) => VapingPage()),
                     );
-                    if (result != null && mounted) {
-                      setState(() => vapingDays = result);
+                    if (mounted) {
+                      _loadQuitDays();
                     }
                   },
                   onLongPress: () {
@@ -175,11 +175,11 @@ class _HomePageState extends State<HomePage> {
                   subtitle: Text("Day $smokingDays"),
                   leading: const Icon(Icons.eco),
                   onTap: () async {
-                    final result = await Navigator.of(context).push(
+                    await Navigator.of(context).push(
                       MaterialPageRoute(builder: (context) => SmokingPage()),
                     );
-                    if (result != null && mounted) {
-                      setState(() => smokingDays = result);
+                    if (mounted) {
+                      _loadQuitDays();
                     }
                   },
                   onLongPress: () {
@@ -195,11 +195,11 @@ class _HomePageState extends State<HomePage> {
                   subtitle: Text("Day $opioidDays"),
                   leading: const Icon(Icons.medication),
                   onTap: () async {
-                    final result = await Navigator.of(context).push(
+                    await Navigator.of(context).push(
                       MaterialPageRoute(builder: (context) => OpioidPage()),
                     );
-                    if (result != null && mounted) {
-                      setState(() => opioidDays = result);
+                    if (mounted) {
+                      _loadQuitDays();
                     }
                   },
                   onLongPress: () {
