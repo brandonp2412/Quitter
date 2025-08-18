@@ -1,0 +1,128 @@
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:flutter_test/flutter_test.dart';
+import 'package:integration_test/integration_test.dart';
+import 'package:provider/provider.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+
+import 'package:quitter/main.dart' as app;
+import 'package:quitter/alcohol_page.dart';
+import 'package:quitter/opioid_page.dart';
+import 'package:quitter/settings_page.dart';
+import 'package:quitter/smoking_page.dart';
+import 'package:quitter/vaping_page.dart';
+import 'package:quitter/settings_provider.dart';
+
+Future<void> appWrapper() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  final settingsProvider = SettingsProvider();
+  await settingsProvider.loadPreferences();
+  runApp(
+    ChangeNotifierProvider.value(
+      value: settingsProvider,
+      child: const app.QuitterApp(),
+    ),
+  );
+}
+
+void navigateTo({required BuildContext context, required Widget page}) {
+  Navigator.of(context).push(MaterialPageRoute(builder: (context) => page));
+}
+
+Future<void> generateScreenshot({
+  required IntegrationTestWidgetsFlutterBinding binding,
+  required WidgetTester tester,
+  required String screenshotName,
+  Future<void> Function(BuildContext context)? navigateToPage,
+  bool skipSettle = false,
+}) async {
+  await appWrapper();
+  await tester.pumpAndSettle();
+
+  if (navigateToPage != null) {
+    final BuildContext context = tester.element(find.byType(app.HomePage));
+    await navigateToPage(context);
+  }
+
+  skipSettle ? await tester.pump() : await tester.pumpAndSettle();
+  await binding.convertFlutterSurfaceToImage();
+  skipSettle ? await tester.pump() : await tester.pumpAndSettle();
+  await binding.takeScreenshot(screenshotName);
+}
+
+void main() {
+  IntegrationTestWidgetsFlutterBinding binding =
+      IntegrationTestWidgetsFlutterBinding.ensureInitialized();
+
+  setUpAll(() async {
+    // Clear SharedPreferences for a clean test state
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.clear();
+  });
+
+  group("Generate Quitter App Screenshots", () {
+    testWidgets(
+      "HomePage",
+      (tester) async => await generateScreenshot(
+        binding: binding,
+        tester: tester,
+        screenshotName: '1_home_page_en-US',
+      ),
+    );
+
+    testWidgets(
+      "AlcoholPage",
+      (tester) async => await generateScreenshot(
+        binding: binding,
+        tester: tester,
+        screenshotName: '2_alcohol_page_en-US',
+        navigateToPage: (context) async =>
+            navigateTo(context: context, page: AlcoholPage()),
+      ),
+    );
+
+    testWidgets(
+      "SmokingPage",
+      (tester) async => await generateScreenshot(
+        binding: binding,
+        tester: tester,
+        screenshotName: '3_smoking_page_en-US',
+        navigateToPage: (context) async =>
+            navigateTo(context: context, page: SmokingPage()),
+      ),
+    );
+
+    testWidgets(
+      "VapingPage",
+      (tester) async => await generateScreenshot(
+        binding: binding,
+        tester: tester,
+        screenshotName: '4_vaping_page_en-US',
+        navigateToPage: (context) async =>
+            navigateTo(context: context, page: VapingPage()),
+      ),
+    );
+
+    testWidgets(
+      "OpioidPage",
+      (tester) async => await generateScreenshot(
+        binding: binding,
+        tester: tester,
+        screenshotName: '5_opioid_page_en-US',
+        navigateToPage: (context) async =>
+            navigateTo(context: context, page: OpioidPage()),
+      ),
+    );
+
+    testWidgets(
+      "SettingsPage",
+      (tester) async => await generateScreenshot(
+        binding: binding,
+        tester: tester,
+        screenshotName: '6_settings_page_en-US',
+        navigateToPage: (context) async =>
+            navigateTo(context: context, page: const SettingsPage()),
+      ),
+    );
+  });
+}

@@ -2,6 +2,20 @@
 
 Record your quitting journey with a Free and Open Source app.
 
+<p float="left">
+    <a href="https://github.com/brandonp2412/Quitter/releases/latest"><img alt="GitHub Release" src="https://img.shields.io/github/v/release/brandonp2412/quitter?style=for-the-badge&logoColor=d3bcfd&labelColor=d3bcfd&color=151218"></a>
+    <a href="#"><img alt="Release downloads" src="https://img.shields.io/github/downloads/brandonp2412/Quitter/total.svg?style=for-the-badge&logoColor=d3bcfd&labelColor=d3bcfd&color=151218"></a>
+</p>
+
+<p class="float-left">
+    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/1_home_page_en-US.png" alt="Home" height="600" alt="Home page">
+    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/2_alcohol_page_en-US.png" alt="Alcohol" height="600" alt="Alcohol page">
+    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/3_smoking_page_en-US.png" alt="Smoking" height="600" alt="Smoking page">
+    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/4_vaping_page_en-US.png" alt="Vaping" height="600" alt="Vaping page">
+    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/5_opioid_page_en-US.png" alt="Opioid" height="600" alt="Opioid page">
+    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/6_settings_page_en-US.png" alt="Settings" height="600" alt="Settings page">
+</p>
+
 ## About
 
 Quitter is a mobile application designed to help individuals track and manage their journey to quit various habits, such as smoking, vaping, alcohol, or opioids. It provides a simple and intuitive interface to record milestones, track progress, and stay motivated.

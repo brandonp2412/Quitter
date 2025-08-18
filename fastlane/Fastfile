@@ -1,0 +1,44 @@
+# This file contains the fastlane lanes.
+# More information about fastlane can be found here:
+# https://docs.fastlane.tools
+
+default_platform(:ios)
+
+platform :ios do
+  desc "Description of your lane"
+  lane :beta do
+    # add actions here: https://docs.fastlane.tools/actions
+  end
+end
+
+platform :android do
+  desc "Deploy to Google Play"
+  lane :deploy do |options|
+    supply(
+      aab: options[:aab],
+      json_key: options[:json_key],
+      package_name: "com.presley.quitter",
+      track: "production",
+      skip_upload_images: true,
+      skip_upload_screenshots: true
+    )
+  end
+
+  desc "Generate screenshots for Android"
+  lane :screenshots do |options|
+    # This lane is called from the GitHub Actions workflow
+    # It expects the device_type to be passed in via the device_type parameter
+    # Example:
+    # flutter_drive(
+    #   driver: "test_driver/integration_test.dart",
+    #   target: "integration_test/screenshot_test.dart",
+    #   device_id: "emulator-5554",
+    #   dart_defines: {
+    #     "QUITTER_DEVICE_TYPE" => options[:device_type]
+    #   }
+    # )
+    # copy_screenshots(
+    #   output_directory: "fastlane/screenshots/android/#{options[:device_type]}"
+    # )
+  end
+end

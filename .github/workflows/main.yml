@@ -164,7 +164,7 @@ jobs:
       - name: Generate Android screenshots
         uses: reactivecircus/android-emulator-runner@v2
         env:
-          FLEXIFY_DEVICE_TYPE: phoneScreenshots
+          QUITTER_DEVICE_TYPE: phoneScreenshots
         with:
           api-level: 30
           target: google_apis
@@ -174,7 +174,7 @@ jobs:
           emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
           disable-animations: true
           script: |
-            flutter drive --profile --driver=test_driver/integration_test.dart --target=integration_test/screenshot_test.dart --dart-define=FLEXIFY_DEVICE_TYPE=phoneScreenshots -d emulator-5554
+            bundle exec fastlane android screenshots device_type:phoneScreenshots
 
       - name: Commit version bump, screenshots and create tag
         run: |
@@ -223,7 +223,7 @@ jobs:
           echo "storeFile=keystore.jks" >> android/key.properties
           flutter build apk --split-per-abi
           flutter build apk
-          mv build/app/outputs/flutter-apk/app-release.apk build/app/outputs/flutter-apk/fitbook.apk
+          mv build/app/outputs/flutter-apk/app-release.apk build/app/outputs/flutter-apk/quitter.apk
           flutter build appbundle
           mkdir -p "${GITHUB_WORKSPACE}/build"
           mv build/* "${GITHUB_WORKSPACE}/build"
@@ -234,7 +234,7 @@ jobs:
           name: android-builds
           path: |
            build/app/outputs/flutter-apk/app-*-release.apk
-           build/app/outputs/flutter-apk/fitbook.apk
+           build/app/outputs/flutter-apk/quitter.apk
            build/app/outputs/bundle/release/app-release.aab
 
   build-linux:
@@ -267,13 +267,13 @@ jobs:
       - name: Create Linux zip
         run: |
           cd build/linux/x64/release/bundle
-          zip -r fitbook-linux.zip .
+          zip -r quitter-linux.zip .
 
       - name: Upload Linux artifacts
         uses: actions/upload-artifact@v4
         with:
           name: linux-builds
-          path: build/linux/x64/release/bundle/fitbook-linux.zip
+          path: build/linux/x64/release/bundle/quitter-linux.zip
 
   build-windows:
     needs: [version-and-prepare]
@@ -299,16 +299,15 @@ jobs:
 
       - name: Create Windows zip
         run: |
-          Compress-Archive -Path ./build/windows/x64/runner/Release/* -DestinationPath ./fitbook-windows.zip
+          Compress-Archive -Path ./build/windows/x64/runner/Release/* -DestinationPath ./quitter-windows.zip
 
       - name: Upload Windows artifacts
         uses: actions/upload-artifact@v4
         with:
           name: windows-builds
           path: |
-            fitbook-windows.zip
+            quitter-windows.zip
 
-  # New job for building and deploying Flutter Web to GitHub Pages
   build-and-deploy-web:
     needs: [version-and-prepare]
     runs-on: ubuntu-latest
@@ -370,9 +369,9 @@ jobs:
           body: ${{ needs.version-and-prepare.outputs.changelog }}
           files: |
             android-builds/flutter-apk/app-*-release.apk
-            android-builds/flutter-apk/fitbook.apk
-            linux-builds/fitbook-linux.zip
-            windows-builds/fitbook-windows.zip
+            android-builds/flutter-apk/quitter.apk
+            linux-builds/quitter-linux.zip
+            windows-builds/quitter-windows.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -439,10 +438,6 @@ jobs:
 
       - name: Deploy to Google Play
         run: |
-          bundle exec fastlane supply \
-            --aab bundle/release/app-release.aab \
-            --json_key google-play-key.json \
-            --package_name com.presley.fit_book \
-            --track production \
-            --skip_upload_images \
-            --skip_upload_screenshots
+          bundle exec fastlane android deploy \
+            aab: bundle/release/app-release.aab \
+            json_key: google-play-key.json

@@ -22,28 +22,10 @@ dev_dependencies:
 
   flutter_lints: ^6.0.0
   flutter_launcher_icons: ^0.13.1 # Add this line
+  integration_test:
+    sdk: flutter
+  flutter_driver:
+    sdk: flutter
 
 flutter:
   uses-material-design: true
-
-# Add this configuration for flutter_launcher_icons
-flutter_launcher_icons:
-  android: "launcher_icon"
-  ios: true
-  image_path: "assets/icon/ic_launcher-playstore.png" # Placeholder, will generate this image
-  adaptive_icon_background: "#2E4057" # White background for adaptive icon
-  adaptive_icon_foreground: "assets/icon/ic_launcher-playstore.png" # Placeholder for adaptive icon foreground
-  web:
-    generate: true
-    image_path: "assets/icon/ic_launcher-playstore.png"
-    favicon_path: "web/favicon.png"
-  macos:
-    generate: true
-    image_path: "assets/icon/ic_launcher-playstore.png"
-  windows:
-    generate: true
-    image_path: "assets/icon/ic_launcher-playstore.png"
-    icon_size: 48 # min:48, max:256, default: 48
-  linux:
-    generate: true
-    image_path: "assets/icon/ic_launcher-playstore.png"

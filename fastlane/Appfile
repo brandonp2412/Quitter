@@ -1,0 +1,2 @@
+app_identifier("com.presley.quitter") # The bundle identifier of your app
+# apple_id("your-apple-id@example.com") # Your Apple ID
