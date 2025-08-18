@@ -14,6 +14,7 @@ class VapingPage extends StatefulWidget {
 class _VapingPageState extends State<VapingPage> {
   int currentDay = 0;
   final controller = TextEditingController(text: '0');
+  final ScrollController _scrollController = ScrollController();
 
   final List<QuitMilestone> milestones = [
     QuitMilestone(
@@ -95,6 +96,17 @@ class _VapingPageState extends State<VapingPage> {
         currentDay = daysCeil(quitOn);
         controller.text = currentDay.toString();
       });
+
+      final index = milestones.indexWhere((m) => currentDay < m.day);
+      final targetIndex = index == -1 ? milestones.length - 1 : index;
+
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        _scrollController.animateTo(
+          targetIndex * 270,
+          duration: const Duration(milliseconds: 500),
+          curve: Curves.easeInOut,
+        );
+      });
     });
   }
 
@@ -109,7 +121,7 @@ class _VapingPageState extends State<VapingPage> {
         leading: IconButton(
           onPressed: () => Navigator.of(context).pop(),
           icon: Icon(Icons.arrow_back),
-          color: Theme.of(context).colorScheme.surface,
+          color: colorScheme.surface,
         ),
         title: Text(
           'Quit vaping journey',
@@ -120,7 +132,6 @@ class _VapingPageState extends State<VapingPage> {
       ),
       body: Column(
         children: [
-          // Progress Header
           Container(
             width: double.infinity,
             padding: const EdgeInsets.all(24.0),
@@ -156,35 +167,26 @@ class _VapingPageState extends State<VapingPage> {
                         decoration: InputDecoration(
                           labelText: 'Enter your current day',
                           labelStyle: TextStyle(
-                            color: Theme.of(context).colorScheme.onPrimary
-                                .withAlpha((255 * 0.7).round()),
+                            color: colorScheme.onPrimary.withAlpha(180),
                           ),
                           hintText: 'Enter your current day',
                           hintStyle: TextStyle(
-                            color: colorScheme.onPrimary.withAlpha(
-                              (255 * 0.7).round(),
-                            ),
+                            color: colorScheme.onPrimary.withAlpha(180),
                           ),
                           border: OutlineInputBorder(
-                            borderRadius: const BorderRadius.all(
-                              Radius.circular(12),
-                            ),
+                            borderRadius: BorderRadius.circular(12),
                             borderSide: BorderSide(
                               color: colorScheme.onPrimary,
                             ),
                           ),
                           enabledBorder: OutlineInputBorder(
-                            borderRadius: const BorderRadius.all(
-                              Radius.circular(12),
-                            ),
+                            borderRadius: BorderRadius.circular(12),
                             borderSide: BorderSide(
                               color: colorScheme.onPrimary,
                             ),
                           ),
                           focusedBorder: OutlineInputBorder(
-                            borderRadius: const BorderRadius.all(
-                              Radius.circular(12),
-                            ),
+                            borderRadius: BorderRadius.circular(12),
                             borderSide: BorderSide(
                               color: colorScheme.onPrimary,
                               width: 2,
@@ -203,6 +205,19 @@ class _VapingPageState extends State<VapingPage> {
                           );
                           final prefs = await SharedPreferences.getInstance();
                           prefs.setString('vaping', quitOn.toIso8601String());
+
+                          final index = milestones.indexWhere(
+                            (m) => currentDay < m.day,
+                          );
+                          final targetIndex = index == -1
+                              ? milestones.length - 1
+                              : index;
+
+                          _scrollController.animateTo(
+                            targetIndex * 150.0,
+                            duration: const Duration(milliseconds: 500),
+                            curve: Curves.easeInOut,
+                          );
                         },
                       ),
                     ),
@@ -211,9 +226,9 @@ class _VapingPageState extends State<VapingPage> {
               ],
             ),
           ),
-          // Timeline
           Expanded(
             child: ListView.builder(
+              controller: _scrollController,
               padding: const EdgeInsets.all(16.0),
               itemCount: milestones.length,
               itemBuilder: (context, index) {
@@ -236,16 +251,4 @@ class _VapingPageState extends State<VapingPage> {
       ),
     );
   }
-}
-
-void main() {
-  runApp(
-    MaterialApp(
-      home: const VapingPage(),
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
-        useMaterial3: true,
-      ),
-    ),
-  );
 }

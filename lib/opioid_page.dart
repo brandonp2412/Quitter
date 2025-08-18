@@ -14,6 +14,7 @@ class OpioidPage extends StatefulWidget {
 class _OpioidPageState extends State<OpioidPage> {
   int currentDay = 0;
   final controller = TextEditingController(text: '0');
+  final ScrollController _scrollController = ScrollController();
 
   final List<QuitMilestone> milestones = [
     QuitMilestone(
@@ -92,6 +93,17 @@ class _OpioidPageState extends State<OpioidPage> {
       setState(() {
         currentDay = daysCeil(quitOn);
         controller.text = currentDay.toString();
+      });
+
+      final index = milestones.indexWhere((m) => currentDay < m.day);
+      final targetIndex = index == -1 ? milestones.length - 1 : index;
+
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        _scrollController.animateTo(
+          targetIndex * 270,
+          duration: const Duration(milliseconds: 500),
+          curve: Curves.easeInOut,
+        );
       });
     });
   }
@@ -202,6 +214,19 @@ class _OpioidPageState extends State<OpioidPage> {
                           );
                           final prefs = await SharedPreferences.getInstance();
                           prefs.setString('opioids', quitOn.toIso8601String());
+
+                          final index = milestones.indexWhere(
+                            (m) => currentDay < m.day,
+                          );
+                          final targetIndex = index == -1
+                              ? milestones.length - 1
+                              : index;
+
+                          _scrollController.animateTo(
+                            targetIndex * 150.0,
+                            duration: const Duration(milliseconds: 500),
+                            curve: Curves.easeInOut,
+                          );
                         },
                       ),
                     ),
@@ -241,6 +266,7 @@ class _OpioidPageState extends State<OpioidPage> {
           // Timeline
           Expanded(
             child: ListView.builder(
+              controller: _scrollController,
               padding: const EdgeInsets.all(16.0),
               itemCount: milestones.length,
               itemBuilder: (context, index) {
