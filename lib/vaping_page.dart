@@ -159,13 +159,14 @@ class _VapingPageState extends State<VapingPage> {
                         decoration: InputDecoration(
                           labelText: 'Enter your current day',
                           labelStyle: TextStyle(
-                            color: Theme.of(
-                              context,
-                            ).colorScheme.onPrimary.withOpacity(0.7),
+                            color: Theme.of(context).colorScheme.onPrimary
+                                .withAlpha((255 * 0.7).round()),
                           ),
                           hintText: 'Enter your current day',
                           hintStyle: TextStyle(
-                            color: colorScheme.onPrimary.withOpacity(0.7),
+                            color: colorScheme.onPrimary.withAlpha(
+                              (255 * 0.7).round(),
+                            ),
                           ),
                           border: OutlineInputBorder(
                             borderRadius: const BorderRadius.all(

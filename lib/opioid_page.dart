@@ -157,11 +157,15 @@ class _OpioidPageState extends State<OpioidPage> {
                         decoration: InputDecoration(
                           labelText: 'Enter your current day',
                           labelStyle: TextStyle(
-                            color: colorScheme.onPrimary.withOpacity(0.7),
+                            color: colorScheme.onPrimary.withAlpha(
+                              (255 * 0.7).round(),
+                            ),
                           ),
                           hintText: 'Enter your current day',
                           hintStyle: TextStyle(
-                            color: colorScheme.onPrimary.withOpacity(0.7),
+                            color: colorScheme.onPrimary.withAlpha(
+                              (255 * 0.7).round(),
+                            ),
                           ),
                           border: OutlineInputBorder(
                             borderRadius: const BorderRadius.all(
@@ -210,7 +214,7 @@ class _OpioidPageState extends State<OpioidPage> {
                 Container(
                   padding: const EdgeInsets.all(12),
                   decoration: BoxDecoration(
-                    color: colorScheme.onPrimary.withOpacity(0.1),
+                    color: colorScheme.onPrimary.withAlpha((255 * 0.1).round()),
                     borderRadius: BorderRadius.circular(8),
                   ),
                   child: Row(

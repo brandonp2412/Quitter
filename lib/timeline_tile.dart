@@ -38,7 +38,7 @@ class TimelineTile extends StatelessWidget {
                         ? colorScheme.primary
                         : isNext
                         ? colorScheme.secondary
-                        : colorScheme.outline.withOpacity(0.3),
+                        : colorScheme.outline.withAlpha((255 * 0.3).round()),
                     border: Border.all(
                       color: isCompleted
                           ? colorScheme.primary
@@ -71,7 +71,9 @@ class TimelineTile extends StatelessWidget {
                       decoration: BoxDecoration(
                         color: isCompleted
                             ? colorScheme.primary
-                            : colorScheme.outline.withOpacity(0.3),
+                            : colorScheme.outline.withAlpha(
+                                (255 * 0.3).round(),
+                              ),
                         borderRadius: BorderRadius.circular(2),
                       ),
                     ),
@@ -90,14 +92,18 @@ class TimelineTile extends StatelessWidget {
                 borderRadius: BorderRadius.circular(12),
                 boxShadow: [
                   BoxShadow(
-                    color: colorScheme.shadow.withOpacity(0.05),
+                    color: colorScheme.shadow.withAlpha((255 * 0.05).round()),
                     blurRadius: 10,
                     offset: const Offset(0, 2),
                   ),
                 ],
                 border: isNext
                     ? Border.all(color: colorScheme.secondary, width: 2)
-                    : Border.all(color: colorScheme.outline.withOpacity(0.1)),
+                    : Border.all(
+                        color: colorScheme.outline.withAlpha(
+                          (255 * 0.1).round(),
+                        ),
+                      ),
               ),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -114,7 +120,9 @@ class TimelineTile extends StatelessWidget {
                               ? colorScheme.primary
                               : isNext
                               ? colorScheme.secondary
-                              : colorScheme.outline.withOpacity(0.3),
+                              : colorScheme.outline.withAlpha(
+                                  (255 * 0.3).round(),
+                                ),
                           borderRadius: BorderRadius.circular(12),
                         ),
                         child: Text(

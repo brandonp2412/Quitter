@@ -157,10 +157,14 @@ class _SmokingPageState extends State<SmokingPage> {
                           hintText: 'Enter your current day',
                           labelText: 'Enter your current day',
                           labelStyle: TextStyle(
-                            color: colorScheme.onPrimary.withOpacity(0.7),
+                            color: colorScheme.onPrimary.withAlpha(
+                              (255 * 0.7).round(),
+                            ),
                           ),
                           hintStyle: TextStyle(
-                            color: colorScheme.onPrimary.withOpacity(0.7),
+                            color: colorScheme.onPrimary.withAlpha(
+                              (255 * 0.7).round(),
+                            ),
                           ),
                           border: OutlineInputBorder(
                             borderRadius: const BorderRadius.all(

@@ -1,40 +1,49 @@
-import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
+import 'package:flutter/material.dart' as flutter_material;
+import 'package:provider/provider.dart' show Consumer;
 import 'package:quitter/color_scheme_helper.dart';
 import 'package:quitter/color_scheme_type.dart';
 import 'package:quitter/settings_provider.dart';
+import 'package:quitter/radio_group.dart';
 
-class SettingsPage extends StatelessWidget {
+class SettingsPage extends flutter_material.StatelessWidget {
   const SettingsPage({super.key});
 
   @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: const Text('Settings')),
+  flutter_material.Widget build(flutter_material.BuildContext context) {
+    return flutter_material.Scaffold(
+      appBar: flutter_material.AppBar(
+        title: const flutter_material.Text('Settings'),
+      ),
       body: Consumer<SettingsProvider>(
         builder: (context, settings, child) {
-          return ListView(
-            padding: const EdgeInsets.all(16.0),
+          return flutter_material.ListView(
+            padding: const flutter_material.EdgeInsets.all(16.0),
             children: [
               _buildSectionHeader('Appearance'),
-              const SizedBox(height: 8),
+              const flutter_material.SizedBox(height: 8),
 
-              Card(
-                child: ListTile(
-                  leading: const Icon(Icons.brightness_6),
-                  title: const Text('Theme'),
-                  subtitle: Text(_getThemeModeText(settings.themeMode)),
+              flutter_material.Card(
+                child: flutter_material.ListTile(
+                  leading: const flutter_material.Icon(
+                    flutter_material.Icons.brightness_6,
+                  ),
+                  title: const flutter_material.Text('Theme'),
+                  subtitle: flutter_material.Text(
+                    _getThemeModeText(settings.themeMode),
+                  ),
                   onTap: () => _showThemeModeDialog(context, settings),
                 ),
               ),
 
-              const SizedBox(height: 8),
+              const flutter_material.SizedBox(height: 8),
 
-              Card(
-                child: ListTile(
-                  leading: const Icon(Icons.palette),
-                  title: const Text('Color Scheme'),
-                  subtitle: Text(
+              flutter_material.Card(
+                child: flutter_material.ListTile(
+                  leading: const flutter_material.Icon(
+                    flutter_material.Icons.palette,
+                  ),
+                  title: const flutter_material.Text('Color Scheme'),
+                  subtitle: flutter_material.Text(
                     ColorSchemeHelper.getColorSchemeName(
                       settings.colorSchemeType,
                     ),
@@ -43,41 +52,49 @@ class SettingsPage extends StatelessWidget {
                 ),
               ),
 
-              const SizedBox(height: 24),
+              const flutter_material.SizedBox(height: 24),
 
               _buildSectionHeader('Main Screen Items'),
-              const SizedBox(height: 8),
+              const flutter_material.SizedBox(height: 8),
 
-              Card(
-                child: Column(
+              flutter_material.Card(
+                child: flutter_material.Column(
                   children: [
-                    CheckboxListTile(
-                      title: const Text('Alcohol'),
-                      subtitle: const Text('Show alcohol tracking'),
+                    flutter_material.CheckboxListTile(
+                      title: const flutter_material.Text('Alcohol'),
+                      subtitle: const flutter_material.Text(
+                        'Show alcohol tracking',
+                      ),
                       value: settings.showAlcohol,
                       onChanged: (value) =>
                           settings.setShowAlcohol(value ?? false),
                     ),
-                    const Divider(height: 1),
-                    CheckboxListTile(
-                      title: const Text('Vaping'),
-                      subtitle: const Text('Show vaping tracking'),
+                    const flutter_material.Divider(height: 1),
+                    flutter_material.CheckboxListTile(
+                      title: const flutter_material.Text('Vaping'),
+                      subtitle: const flutter_material.Text(
+                        'Show vaping tracking',
+                      ),
                       value: settings.showVaping,
                       onChanged: (value) =>
                           settings.setShowVaping(value ?? false),
                     ),
-                    const Divider(height: 1),
-                    CheckboxListTile(
-                      title: const Text('Smoking'),
-                      subtitle: const Text('Show smoking tracking'),
+                    const flutter_material.Divider(height: 1),
+                    flutter_material.CheckboxListTile(
+                      title: const flutter_material.Text('Smoking'),
+                      subtitle: const flutter_material.Text(
+                        'Show smoking tracking',
+                      ),
                       value: settings.showSmoking,
                       onChanged: (value) =>
                           settings.setShowSmoking(value ?? false),
                     ),
-                    const Divider(height: 1),
-                    CheckboxListTile(
-                      title: const Text('Opioids'),
-                      subtitle: const Text('Show opioids tracking'),
+                    const flutter_material.Divider(height: 1),
+                    flutter_material.CheckboxListTile(
+                      title: const flutter_material.Text('Opioids'),
+                      subtitle: const flutter_material.Text(
+                        'Show opioids tracking',
+                      ),
                       value: settings.showOpioids,
                       onChanged: (value) =>
                           settings.setShowOpioids(value ?? false),
@@ -92,88 +109,105 @@ class SettingsPage extends StatelessWidget {
     );
   }
 
-  Widget _buildSectionHeader(String title) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
-      child: Text(
+  flutter_material.Widget _buildSectionHeader(String title) {
+    return flutter_material.Padding(
+      padding: const flutter_material.EdgeInsets.symmetric(
+        horizontal: 16.0,
+        vertical: 8.0,
+      ),
+      child: flutter_material.Text(
         title,
-        style: const TextStyle(
+        style: const flutter_material.TextStyle(
           fontSize: 14,
-          fontWeight: FontWeight.w600,
-          color: Colors.grey,
+          fontWeight: flutter_material.FontWeight.w600,
+          color: flutter_material.Colors.grey,
         ),
       ),
     );
   }
 
-  String _getThemeModeText(ThemeMode mode) {
+  String _getThemeModeText(flutter_material.ThemeMode mode) {
     switch (mode) {
-      case ThemeMode.light:
+      case flutter_material.ThemeMode.light:
         return 'Light';
-      case ThemeMode.dark:
+      case flutter_material.ThemeMode.dark:
         return 'Dark';
-      case ThemeMode.system:
+      case flutter_material.ThemeMode.system:
         return 'System';
     }
   }
 
-  void _showThemeModeDialog(BuildContext context, SettingsProvider settings) {
-    showDialog(
+  void _showThemeModeDialog(
+    flutter_material.BuildContext context,
+    SettingsProvider settings,
+  ) {
+    flutter_material.showDialog(
       context: context,
-      builder: (context) => AlertDialog(
-        title: const Text('Theme Mode'),
-        content: Column(
-          mainAxisSize: MainAxisSize.min,
-          children: ThemeMode.values.map((mode) {
-            return RadioListTile<ThemeMode>(
-              title: Text(_getThemeModeText(mode)),
+      builder: (context) => flutter_material.AlertDialog(
+        title: const flutter_material.Text('Theme Mode'),
+        content: RadioGroup<flutter_material.ThemeMode>(
+          value: settings.themeMode,
+          onChanged: (value) {
+            if (value != null) {
+              settings.setThemeMode(value);
+              flutter_material.Navigator.pop(context);
+            }
+          },
+          children: flutter_material.ThemeMode.values.map((mode) {
+            return flutter_material.RadioListTile<flutter_material.ThemeMode>(
+              title: flutter_material.Text(_getThemeModeText(mode)),
               value: mode,
+              // ignore: deprecated_member_use
               groupValue: settings.themeMode,
-              onChanged: (value) {
-                if (value != null) {
-                  settings.setThemeMode(value);
-                  Navigator.pop(context);
-                }
-              },
+              // ignore: deprecated_member_use
+              onChanged: (value) {}, // Handled by RadioGroup
               selected: settings.themeMode == mode,
             );
           }).toList(),
         ),
         actions: [
-          TextButton(
-            onPressed: () => Navigator.pop(context),
-            child: const Text('Cancel'),
+          flutter_material.TextButton(
+            onPressed: () => flutter_material.Navigator.pop(context),
+            child: const flutter_material.Text('Cancel'),
           ),
         ],
       ),
     );
   }
 
-  void _showColorSchemeDialog(BuildContext context, SettingsProvider settings) {
-    showDialog(
+  void _showColorSchemeDialog(
+    flutter_material.BuildContext context,
+    SettingsProvider settings,
+  ) {
+    flutter_material.showDialog(
       context: context,
-      builder: (context) => AlertDialog(
-        title: const Text('Color Scheme'),
-        content: Column(
-          mainAxisSize: MainAxisSize.min,
+      builder: (context) => flutter_material.AlertDialog(
+        title: const flutter_material.Text('Color Scheme'),
+        content: RadioGroup<ColorSchemeType>(
+          value: settings.colorSchemeType,
+          onChanged: (value) {
+            if (value != null) {
+              settings.setColorSchemeType(value);
+              flutter_material.Navigator.pop(context);
+            }
+          },
           children: ColorSchemeType.values.map((type) {
-            return RadioListTile<ColorSchemeType>(
-              title: Text(ColorSchemeHelper.getColorSchemeName(type)),
+            return flutter_material.RadioListTile<ColorSchemeType>(
+              title: flutter_material.Text(
+                ColorSchemeHelper.getColorSchemeName(type),
+              ),
               value: type,
+              // ignore: deprecated_member_use
               groupValue: settings.colorSchemeType,
-              onChanged: (value) {
-                if (value != null) {
-                  settings.setColorSchemeType(value);
-                  Navigator.pop(context);
-                }
-              },
+              // ignore: deprecated_member_use
+              onChanged: (value) {}, // Handled by RadioGroup
             );
           }).toList(),
         ),
         actions: [
-          TextButton(
-            onPressed: () => Navigator.pop(context),
-            child: const Text('Cancel'),
+          flutter_material.TextButton(
+            onPressed: () => flutter_material.Navigator.pop(context),
+            child: const flutter_material.Text('Cancel'),
           ),
         ],
       ),
