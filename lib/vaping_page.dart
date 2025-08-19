@@ -102,7 +102,7 @@ class _VapingPageState extends State<VapingPage> {
 
       WidgetsBinding.instance.addPostFrameCallback((_) {
         _scrollController.animateTo(
-          targetIndex * 270 - 197,
+          targetIndex * 270 - 180,
           duration: const Duration(milliseconds: 500),
           curve: Curves.easeInOut,
         );
