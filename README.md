@@ -3,8 +3,8 @@
 Record your quitting journey with a Free and Open Source app.
 
 <p float="left">
-    <a href="https://github.com/brandonp2412/Quitter/releases/latest"><img alt="GitHub Release" src="https://img.shields.io/github/v/release/brandonp2412/quitter?style=for-the-badge&logoColor=d3bcfd&labelColor=d3bcfd&color=151218"></a>
-    <a href="#"><img alt="Release downloads" src="https://img.shields.io/github/downloads/brandonp2412/Quitter/total.svg?style=for-the-badge&logoColor=d3bcfd&labelColor=d3bcfd&color=151218"></a>
+    <a href="https://github.com/brandonp2412/Quitter/releases/latest"><img alt="GitHub Release" src="https://img.shields.io/github/v/release/brandonp2412/quitter?style=for-the-badge&logoColor=d3bcfd&labelColor=2e4057&color=151218"></a>
+    <a href="#"><img alt="Release downloads" src="https://img.shields.io/github/downloads/brandonp2412/Quitter/total.svg?style=for-the-badge&logoColor=d3bcfd&labelColor=2e4057&color=151218"></a>
 </p>
 
 <p class="float-left">
