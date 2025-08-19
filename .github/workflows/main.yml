@@ -223,8 +223,6 @@ jobs:
           flutter build apk
           mv build/app/outputs/flutter-apk/app-release.apk build/app/outputs/flutter-apk/quitter.apk
           flutter build appbundle
-          mkdir -p "${GITHUB_WORKSPACE}/build"
-          mv build/* "${GITHUB_WORKSPACE}/build"
 
       - name: Upload Android artifacts
         uses: actions/upload-artifact@v4
