@@ -99,7 +99,7 @@ class _SmokingPageState extends State<SmokingPage> {
 
       WidgetsBinding.instance.addPostFrameCallback((_) {
         _scrollController.animateTo(
-          targetIndex * 270,
+          targetIndex * 270 - 197,
           duration: const Duration(milliseconds: 500),
           curve: Curves.easeInOut,
         );

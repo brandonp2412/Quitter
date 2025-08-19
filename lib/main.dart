@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/svg.dart';
 import 'package:provider/provider.dart';
 import 'package:dynamic_color/dynamic_color.dart';
 import 'package:quitter/color_scheme_helper.dart';
@@ -111,9 +112,12 @@ class _HomePageState extends State<HomePage> {
           'Quitter',
           style: TextStyle(color: Theme.of(context).colorScheme.surface),
         ),
-        leading: Icon(
-          Icons.sunny,
-          color: Theme.of(context).colorScheme.surface,
+        leading: Padding(
+          padding: const EdgeInsets.all(4.0),
+          child: SvgPicture.asset(
+            'assets/icon/neurology.svg',
+            color: Theme.of(context).colorScheme.surface,
+          ),
         ),
         backgroundColor: Theme.of(context).colorScheme.primary,
       ),
