@@ -61,7 +61,6 @@ jobs:
           echo "storeFile=keystore.jks" >> android/key.properties
           flutter build apk --split-per-abi
           flutter build apk
-          mv build/app/outputs/flutter-apk/app-release.apk build/app/outputs/flutter-apk/quitter.apk
           flutter build appbundle
 
       - name: Upload Android artifacts
@@ -70,7 +69,6 @@ jobs:
           name: android-builds
           path: |
            build/app/outputs/flutter-apk/app-*-release.apk
-           build/app/outputs/flutter-apk/quitter.apk
            build/app/outputs/bundle/release/app-release.aab
 
   build-linux:
@@ -193,8 +191,7 @@ jobs:
           name: ${{ needs.get-version-info.outputs.version }}
           generate_release_notes: true
           files: |
-            android-builds/app-*-release.apk
-            android-builds/quitter.apk
+            android-builds/flutter-apk/app-*-release.apk
             linux-builds/quitter-linux.zip
             windows-builds/quitter-windows.zip
         env:
