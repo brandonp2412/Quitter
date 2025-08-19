@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:provider/provider.dart';
@@ -11,6 +12,8 @@ import 'package:quitter/opioid_page.dart';
 import 'package:quitter/settings_page.dart';
 import 'package:quitter/smoking_page.dart';
 import 'package:quitter/vaping_page.dart';
+import 'package:quitter/reminders.dart';
+import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -227,6 +230,26 @@ void main() async {
 
   final settingsProvider = SettingsProvider();
   await settingsProvider.loadPreferences();
+
+  setupReminders();
+
+  if (kDebugMode && defaultTargetPlatform == TargetPlatform.android) {
+    // For testing purposes, trigger a mobile reminder immediately on startup
+    // This is separate from the Workmanager periodic task.
+    final FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin =
+        FlutterLocalNotificationsPlugin();
+    const AndroidInitializationSettings initializationSettingsAndroid =
+        AndroidInitializationSettings('neurology');
+    const DarwinInitializationSettings initializationSettingsDarwin =
+        DarwinInitializationSettings();
+    const InitializationSettings initializationSettings =
+        InitializationSettings(
+          android: initializationSettingsAndroid,
+          iOS: initializationSettingsDarwin,
+        );
+    await flutterLocalNotificationsPlugin.initialize(initializationSettings);
+    await notifyProgress(flutterLocalNotificationsPlugin);
+  }
 
   runApp(
     ChangeNotifierProvider.value(

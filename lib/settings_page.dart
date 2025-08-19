@@ -45,7 +45,6 @@ class SettingsPage extends StatelessWidget {
               ),
 
               const SizedBox(height: 24),
-
               sectionHeader('Main Screen Items'),
               const SizedBox(height: 8),
 
@@ -82,6 +81,68 @@ class SettingsPage extends StatelessWidget {
                       value: settings.showOpioids,
                       onChanged: (value) =>
                           settings.setShowOpioids(value ?? false),
+                    ),
+                  ],
+                ),
+              ),
+
+              const SizedBox(height: 24),
+              sectionHeader('Notifications'),
+              const SizedBox(height: 8),
+
+              Card(
+                child: Column(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 16.0),
+                      child: TextField(
+                        controller: TextEditingController(
+                          text: settings.notifyEvery.toString(),
+                        ),
+                        keyboardType: TextInputType.number,
+                        decoration: const InputDecoration(
+                          labelText: 'Notify every',
+                          suffixText: 'day(s)',
+                        ),
+                        onChanged: (value) {
+                          final days = int.tryParse(value);
+                          if (days != null && days > 0) {
+                            settings.setNotifyEvery(days);
+                          }
+                        },
+                      ),
+                    ),
+                    const Divider(height: 1),
+                    CheckboxListTile(
+                      title: const Text('Alcohol'),
+                      subtitle: const Text('Notify alcohol quitting progress'),
+                      value: settings.notifyAlcohol,
+                      onChanged: (value) =>
+                          settings.setNotifyAlcohol(value ?? false),
+                    ),
+                    const Divider(height: 1),
+                    CheckboxListTile(
+                      title: const Text('Vaping'),
+                      subtitle: const Text('Notify vaping quitting progress'),
+                      value: settings.notifyVaping,
+                      onChanged: (value) =>
+                          settings.setNotifyVaping(value ?? false),
+                    ),
+                    const Divider(height: 1),
+                    CheckboxListTile(
+                      title: const Text('Smoking'),
+                      subtitle: const Text('Notify smoking quitting progress'),
+                      value: settings.notifySmoking,
+                      onChanged: (value) =>
+                          settings.setNotifySmoking(value ?? false),
+                    ),
+                    const Divider(height: 1),
+                    CheckboxListTile(
+                      title: const Text('Opioids'),
+                      subtitle: const Text('Notify opioids quitting progress'),
+                      value: settings.notifyOpioids,
+                      onChanged: (value) =>
+                          settings.setNotifyOpioids(value ?? false),
                     ),
                   ],
                 ),
