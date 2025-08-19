@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class RadioGroup<T> extends StatelessWidget {
-  const RadioGroup({
+class AppRadioGroup<T> extends StatelessWidget {
+  const AppRadioGroup({
     super.key,
     required this.value,
     required this.onChanged,
