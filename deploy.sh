@@ -183,13 +183,17 @@ else
     android_available=false
 fi
 
-if [ "$android_available" = true ]; then
-    # Check if the phoneScreenshots AVD exists
-    if command -v emulator &> /dev/null && emulator -list-avds | grep -q "phoneScreenshots"; then
-        print_step "Launching Android emulator 'phoneScreenshots'"
+# Function to generate screenshots for a given AVD
+generate_screenshots() {
+    local avd_name=$1
+    local device_type=$2 # e.g., phoneScreenshots, sevenInchScreenshots, tenInchScreenshots
+
+    print_step "Checking for Android emulator '$avd_name'"
+    if command -v emulator &> /dev/null && emulator -list-avds | grep -q "$avd_name"; then
+        print_step "Launching Android emulator '$avd_name'"
         
         # Start the emulator in background
-        emulator -avd phoneScreenshots -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none &
+        emulator -avd "$avd_name" -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none &
         emulator_pid=$!
         
         # Wait for emulator to boot
@@ -208,45 +212,51 @@ if [ "$android_available" = true ]; then
         done
         
         if [ $elapsed -ge $timeout ]; then
-            print_error "Emulator failed to boot within timeout"
+            print_error "Emulator '$avd_name' failed to boot within timeout"
             kill $emulator_pid 2>/dev/null || true
         else
             # Wait a bit more for the system to settle
             echo "Waiting for system to settle..."
             sleep 10
             
-            print_step "Generating Android screenshots"
-            export QUITTER_DEVICE_TYPE=phoneScreenshots
+            print_step "Generating Android screenshots for '$avd_name'"
+            export QUITTER_DEVICE_TYPE="$device_type"
             
             # Try to generate screenshots
             if flutter drive --profile --driver=test_driver/integration_test.dart --target=integration_test/screenshot_test.dart; then
-                print_success "Screenshots generated successfully"
+                print_success "Screenshots generated successfully for '$avd_name'"
             else
-                print_warning "Screenshot generation failed"
+                print_warning "Screenshot generation failed for '$avd_name'"
             fi
             
             # Stop the emulator
-            print_step "Stopping emulator"
+            print_step "Stopping emulator '$avd_name'"
             adb -s emulator-5554 emu kill 2>/dev/null || kill $emulator_pid 2>/dev/null || true
-            print_success "Emulator stopped"
+            print_success "Emulator '$avd_name' stopped"
         fi
     elif flutter devices | grep -q "emulator"; then
-        print_step "Using existing running emulator for screenshots"
-        export QUITTER_DEVICE_TYPE=phoneScreenshots
+        print_step "Using existing running emulator for screenshots for '$avd_name'"
+        export QUITTER_DEVICE_TYPE="$device_type"
         
         # Try to generate screenshots
         if flutter drive --profile --driver=test_driver/integration_test.dart --target=integration_test/screenshot_test.dart; then
-            print_success "Screenshots generated successfully"
+            print_success "Screenshots generated successfully for '$avd_name'"
         else
-            print_warning "Screenshot generation failed or skipped"
+            print_warning "Screenshot generation failed or skipped for '$avd_name'"
         fi
     else
-        print_warning "No 'phoneScreenshots' AVD found and no running emulator detected."
-        echo "To generate screenshots, either:"
-        echo "1. Create an AVD named 'phoneScreenshots' with Pixel 5 profile and API 30"
+        print_warning "No '$avd_name' AVD found and no running emulator detected."
+        echo "To generate screenshots for '$avd_name', either:"
+        echo "1. Create an AVD named '$avd_name' with appropriate profile and API 30"
         echo "2. Start any Android emulator manually"
         echo "Then run: flutter drive --profile --driver=test_driver/integration_test.dart --target=integration_test/screenshot_test.dart"
     fi
+}
+
+if [ "$android_available" = true ]; then
+    generate_screenshots "phoneScreenshots" "phoneScreenshots"
+    generate_screenshots "sevenInchScreenshots" "sevenInchScreenshots"
+    generate_screenshots "tenInchScreenshots" "tenInchScreenshots"
 else
     print_warning "Android SDK not properly configured. Skipping screenshot generation."
     echo "Make sure Android SDK and emulator tools are in your PATH"
