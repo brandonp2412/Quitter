@@ -207,9 +207,9 @@ jobs:
         run: |
           export PATH="$PATH:$PWD/flutter/bin"
           echo "$PWD/flutter/bin" >> $GITHUB_PATH
-          flutter --version
-          flutter config --no-analytics
-          flutter precache
+          ./flutter/bin/flutter --version
+          ./flutter/bin/flutter config --no-analytics
+          ./flutter/bin/flutter precache
 
       - name: Decode Android keystore
         run: |
