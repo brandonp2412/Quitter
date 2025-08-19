@@ -205,11 +205,9 @@ jobs:
           
       - name: Setup Flutter from submodule
         run: |
-          export PATH="$PATH:$PWD/flutter/bin"
-          echo "$PWD/flutter/bin" >> $GITHUB_PATH
-          ./flutter/bin/flutter --version
-          ./flutter/bin/flutter config --no-analytics
-          ./flutter/bin/flutter precache
+          git submodule update --init --recursive flutter
+          echo "${{ github.workspace }}/flutter/bin" >> $GITHUB_PATH
+          flutter/bin/flutter config --no-analytics
 
       - name: Decode Android keystore
         run: |
