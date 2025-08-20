@@ -1,7 +1,7 @@
 name: quitter
 description: "Quit addictions with Free and Open Source software"
 publish_to: 'none'
-version: 1.0.8+9
+version: 1.0.9+10
 environment:
   sdk: ^3.9.0
 dependencies:
@@ -29,4 +29,4 @@ flutter:
   assets:
     - assets/icon/
 msix_config:
-  msix_version: null..8.
+  msix_version: null..9.
