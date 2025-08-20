@@ -19,6 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       version: ${{ steps.version.outputs.version }}
+      build_number: ${{ steps.version.outputs.build_number }}
     steps:
       - name: Get version from tag
         id: version
@@ -26,6 +27,8 @@ jobs:
           version=${GITHUB_REF#refs/tags/}
           echo "version=$version" >> $GITHUB_OUTPUT
           echo "Release version: $version"
+          BUILD_NUMBER=$(grep '^version:' pubspec.yaml | sed 's/.*+//')
+          echo "build_number=$BUILD_NUMBER" >> $GITHUB_OUTPUT
 
   build-android:
     needs: [get-version-info]
@@ -59,9 +62,23 @@ jobs:
           echo "keyPassword=${{ secrets.ANDROID_KEY_PASSWORD }}" >> android/key.properties
           echo "keyAlias=${{ secrets.ANDROID_KEY_ALIAS }}" >> android/key.properties
           echo "storeFile=keystore.jks" >> android/key.properties
-          flutter build apk --split-per-abi
-          flutter build apk
           flutter build appbundle
+      
+      - name: Build APK for x86_64
+        run: |
+          BUILD_NUMBER=$(( ${{ needs.get-version-info.outputs.build_number }} * 10 + 1 ))
+          flutter build apk --release --build-number=$BUILD_NUMBER --target-platform android-x64 --split-per-abi
+
+      - name: Build APK for armeabi-v7a
+        run: |
+          BUILD_NUMBER=$(( ${{ needs.get-version-info.outputs.build_number }} * 10 + 2 ))
+          flutter build apk --release --build-number=$BUILD_NUMBER --target-platform android-arm --split-per-abi
+
+      - name: Build APK for arm64
+        run: |
+          BUILD_NUMBER=$(( ${{ needs.get-version-info.outputs.build_number }} * 10 + 3 ))
+          flutter build apk --release --build-number=$BUILD_NUMBER --target-platform android-arm64 --split-per-abi
+
 
       - name: Upload Android artifacts
         uses: actions/upload-artifact@v4
