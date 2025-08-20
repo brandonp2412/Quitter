@@ -29,21 +29,14 @@ android {
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName
-    }
-    
-    // Conditionally enable ABI splits only for APK builds
-    if (project.gradle.startParameter.taskNames.any { it.contains("assemble") && !it.contains("bundle") }) {
-        splits {
-            abi {
-                isEnable = true
-                reset()
-                include("x86_64", "armeabi-v7a", "arm64-v8a")
-                isUniversalApk = false
-            }
+        
+        // Remove any NDK abiFilters to avoid conflicts
+        ndk {
+            abiFilters.clear()
         }
     }
     
-    // Override version codes for each ABI (APK only)
+    // Override version codes for split APKs only (when ABI filters are present)
     applicationVariants.all {
         outputs.all {
             val baseVersionCode = flutter.versionCode
@@ -55,7 +48,7 @@ android {
                 "arm64-v8a" to 3
             )
             
-            // Only apply to APK outputs, not AAB (App Bundle)
+            // Only apply to split APK outputs (when ABI filter exists)
             if (this is com.android.build.gradle.internal.api.ApkVariantOutputImpl) {
                 val output = this as com.android.build.gradle.internal.api.ApkVariantOutputImpl
                 val abiName = output.filters.find { it.filterType == "ABI" }?.identifier
@@ -79,7 +72,7 @@ android {
             keyAlias = keyProperties["keyAlias"] as String?
             keyPassword = keyProperties["keyPassword"] as String?
             storeFile = if (keyProperties["storeFile"] != null) {
-                rootProject.file(keyProperties["storeFile"] as String)
+                rootProject.file("app/" + keyProperties["storeFile"] as String)
             } else {
                 null
             }
