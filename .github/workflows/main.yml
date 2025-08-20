@@ -66,23 +66,8 @@ jobs:
           echo "keyAlias=${{ secrets.ANDROID_KEY_ALIAS }}" >> android/key.properties
           echo "storeFile=keystore.jks" >> android/key.properties
           flutter build appbundle
+          flutter build apk --split-per-abi
       
-      - name: Build APK for x86_64
-        run: |
-          BUILD_NUMBER=$(( ${{ needs.get-version-info.outputs.build_number }} * 10 + 1 ))
-          flutter build apk --release --build-number=$BUILD_NUMBER --target-platform android-x64 --split-per-abi
-
-      - name: Build APK for armeabi-v7a
-        run: |
-          BUILD_NUMBER=$(( ${{ needs.get-version-info.outputs.build_number }} * 10 + 2 ))
-          flutter build apk --release --build-number=$BUILD_NUMBER --target-platform android-arm --split-per-abi
-
-      - name: Build APK for arm64
-        run: |
-          BUILD_NUMBER=$(( ${{ needs.get-version-info.outputs.build_number }} * 10 + 3 ))
-          flutter build apk --release --build-number=$BUILD_NUMBER --target-platform android-arm64 --split-per-abi
-
-
       - name: Upload Android artifacts
         uses: actions/upload-artifact@v4
         with:

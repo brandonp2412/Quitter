@@ -1,7 +1,7 @@
 name: quitter
 description: "Quit addictions with Free and Open Source software"
 publish_to: 'none'
-version: 1.0.9+10
+version: 1.0.9+11
 environment:
   sdk: ^3.9.0
 dependencies:
