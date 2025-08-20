@@ -253,7 +253,9 @@ generate_screenshots() {
     fi
 }
 
-if [ "$android_available" = true ]; then
+if [[ "$*" == *"-n"* ]]; then
+    print_warning "Skipping screenshots"
+elif [ "$android_available" = true ]; then
     generate_screenshots "phoneScreenshots" "phoneScreenshots"
     generate_screenshots "sevenInchScreenshots" "sevenInchScreenshots"
     generate_screenshots "tenInchScreenshots" "tenInchScreenshots"
