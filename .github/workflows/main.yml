@@ -261,6 +261,9 @@ jobs:
 
       - name: Deploy to Google Play
         run: |
-          bundle exec fastlane android deploy \
-            aab: bundle/release/app-release.aab \
-            json_key: google-play-key.json
+          bundle exec fastlane supply \
+            --aab bundle/release/app-release.aab \
+            --json_key google-play-key.json \
+            --package_name com.quitter.app \
+            --track production
+
