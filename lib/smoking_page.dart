@@ -165,6 +165,37 @@ class _SmokingPageState extends State<SmokingPage> {
                         decoration: InputDecoration(
                           hintText: 'Enter your current day',
                           labelText: 'Enter your current day',
+                          suffixIcon: IconButton(
+                            onPressed: () async {
+                              final current = DateTime.now().subtract(
+                                Duration(days: currentDay),
+                              );
+                              final date = await showDatePicker(
+                                context: context,
+                                initialDate: current,
+                                firstDate: DateTime(0),
+                                lastDate: DateTime.now(),
+                              );
+                              if (date == null) return;
+                              setState(() {
+                                currentDay = daysCeil(date.toIso8601String());
+                              });
+                              controller.text = currentDay.toString();
+
+                              final prefs =
+                                  await SharedPreferences.getInstance();
+                              prefs.setString(
+                                'smoking',
+                                date.toIso8601String(),
+                              );
+                            },
+                            icon: Icon(
+                              currentDay > 7
+                                  ? Icons.calendar_month
+                                  : Icons.calendar_today,
+                              color: Colors.white,
+                            ),
+                          ),
                           labelStyle: TextStyle(
                             color: colorScheme.onPrimary.withAlpha(
                               (255 * 0.7).round(),
