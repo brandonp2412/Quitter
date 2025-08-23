@@ -8,6 +8,7 @@ class SettingsProvider extends ChangeNotifier {
   static const String _colorSchemeKey = 'color_scheme';
   static const String _notifyEveryKey = 'notify_every';
   static const String _alcoholKey = 'show_alcohol';
+  static const String _nicotinePouchesKey = 'show_nicotine_pouches';
   static const String _vapingKey = 'show_vaping';
   static const String _smokingKey = 'show_smoking';
   static const String _opioidsKey = 'show_opioids';
@@ -24,6 +25,7 @@ class SettingsProvider extends ChangeNotifier {
   bool _showAlcohol = true;
   bool _showVaping = true;
   bool _showSmoking = true;
+  bool _showNicotinePouches = true;
   bool _showOpioids = true;
   bool _notifyAlcohol = true;
   bool _notifyVaping = true;
@@ -35,6 +37,7 @@ class SettingsProvider extends ChangeNotifier {
   bool get showAlcohol => _showAlcohol;
   bool get showVaping => _showVaping;
   bool get showSmoking => _showSmoking;
+  bool get showNicotinePouches => _showNicotinePouches;
   int get notifyEvery => _notifyEvery;
   bool get showOpioids => _showOpioids;
   bool get notifyAlcohol => _notifyAlcohol;
@@ -80,6 +83,12 @@ class SettingsProvider extends ChangeNotifier {
   Future<void> setColorSchemeType(ColorSchemeType type) async {
     _colorSchemeType = type;
     await _prefs?.setInt(_colorSchemeKey, type.index);
+    notifyListeners();
+  }
+
+  Future<void> setShowNicotinePouches(bool show) async {
+    _showNicotinePouches = show;
+    await _prefs?.setBool(_nicotinePouchesKey, show);
     notifyListeners();
   }
 

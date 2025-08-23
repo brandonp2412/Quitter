@@ -1,9 +1,9 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:provider/provider.dart';
 import 'package:dynamic_color/dynamic_color.dart';
 import 'package:quitter/color_scheme_helper.dart';
+import 'package:quitter/nicotine_pouches.dart';
 import 'package:quitter/settings_provider.dart';
 import 'package:quitter/utils.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -13,7 +13,6 @@ import 'package:quitter/settings_page.dart';
 import 'package:quitter/smoking_page.dart';
 import 'package:quitter/vaping_page.dart';
 import 'package:quitter/reminders.dart';
-import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -26,6 +25,7 @@ class _HomePageState extends State<HomePage> {
   var alcoholDays = 0;
   var vapingDays = 0;
   var smokingDays = 0;
+  var pouchesDays = 0;
   var opioidDays = 0;
 
   @override
@@ -184,6 +184,28 @@ class _HomePageState extends State<HomePage> {
                   onLongPress: () {
                     _showHideBottomSheet('Smoking', () {
                       settings.setShowSmoking(false);
+                    });
+                  },
+                ),
+
+              if (settings.showNicotinePouches)
+                ListTile(
+                  title: const Text("Nicotine pouches"),
+                  subtitle: Text("Day $pouchesDays"),
+                  leading: const Icon(Icons.scatter_plot),
+                  onTap: () async {
+                    await Navigator.of(context).push(
+                      MaterialPageRoute(
+                        builder: (context) => NicotinePouchesPage(),
+                      ),
+                    );
+                    if (mounted) {
+                      _loadQuitDays();
+                    }
+                  },
+                  onLongPress: () {
+                    _showHideBottomSheet('Nicotine pouches', () {
+                      settings.setShowNicotinePouches(false);
                     });
                   },
                 ),
