@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:quitter/quit_milestone.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class TimelineTile extends StatelessWidget {
   final QuitMilestone milestone;
@@ -84,115 +85,118 @@ class TimelineTile extends StatelessWidget {
           const SizedBox(width: 16),
           // Content
           Expanded(
-            child: Container(
-              margin: const EdgeInsets.only(bottom: 24),
-              padding: const EdgeInsets.all(16),
-              decoration: BoxDecoration(
-                color: colorScheme.surface,
-                borderRadius: BorderRadius.circular(12),
-                boxShadow: [
-                  BoxShadow(
-                    color: colorScheme.shadow.withAlpha((255 * 0.05).round()),
-                    blurRadius: 10,
-                    offset: const Offset(0, 2),
-                  ),
-                ],
-                border: isNext
-                    ? Border.all(color: colorScheme.secondary, width: 2)
-                    : Border.all(
-                        color: colorScheme.outline.withAlpha(
-                          (255 * 0.1).round(),
-                        ),
-                      ),
-              ),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Row(
-                    children: [
-                      Container(
-                        padding: const EdgeInsets.symmetric(
-                          horizontal: 8,
-                          vertical: 4,
-                        ),
-                        decoration: BoxDecoration(
-                          color: isCompleted
-                              ? colorScheme.primary
-                              : isNext
-                              ? colorScheme.secondary
-                              : colorScheme.outline.withAlpha(
-                                  (255 * 0.3).round(),
-                                ),
-                          borderRadius: BorderRadius.circular(12),
-                        ),
-                        child: Text(
-                          milestone.day >= 365
-                              ? '${(milestone.day / 365).toStringAsFixed(0)} Year${milestone.day >= 730 ? 's' : ''}'
-                              : 'Day ${milestone.day}',
-                          style: TextStyle(
-                            fontSize: 12,
-                            fontWeight: FontWeight.bold,
-                            color: isCompleted
-                                ? colorScheme.onPrimary
-                                : isNext
-                                ? colorScheme.onSecondary
-                                : colorScheme.onSurfaceVariant,
+            child: GestureDetector(
+              onTap: () => launchUrl(Uri.parse(milestone.link)),
+              child: Container(
+                margin: const EdgeInsets.only(bottom: 24),
+                padding: const EdgeInsets.all(16),
+                decoration: BoxDecoration(
+                  color: colorScheme.surface,
+                  borderRadius: BorderRadius.circular(12),
+                  boxShadow: [
+                    BoxShadow(
+                      color: colorScheme.shadow.withAlpha((255 * 0.05).round()),
+                      blurRadius: 10,
+                      offset: const Offset(0, 2),
+                    ),
+                  ],
+                  border: isNext
+                      ? Border.all(color: colorScheme.secondary, width: 2)
+                      : Border.all(
+                          color: colorScheme.outline.withAlpha(
+                            (255 * 0.1).round(),
                           ),
                         ),
-                      ),
-                    ],
-                  ),
-                  const SizedBox(height: 8),
-                  Text(
-                    milestone.title,
-                    style: TextStyle(
-                      fontSize: 18,
-                      fontWeight: FontWeight.bold,
-                      color: isCompleted
-                          ? colorScheme.primary
-                          : isNext
-                          ? colorScheme.secondary
-                          : colorScheme.onSurfaceVariant,
-                    ),
-                  ),
-                  const SizedBox(height: 8),
-                  Text(
-                    milestone.description,
-                    style: TextStyle(
-                      fontSize: 14,
-                      height: 1.4,
-                      color: colorScheme.onSurface,
-                    ),
-                  ),
-                  const SizedBox(height: 12),
-                  Container(
-                    padding: const EdgeInsets.all(8),
-                    decoration: BoxDecoration(
-                      color: colorScheme.surfaceContainerHighest,
-                      borderRadius: BorderRadius.circular(8),
-                    ),
-                    child: Row(
+                ),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Row(
                       children: [
-                        Icon(
-                          Icons.science,
-                          size: 16,
-                          color: colorScheme.onSurfaceVariant,
-                        ),
-                        const SizedBox(width: 6),
-                        Expanded(
+                        Container(
+                          padding: const EdgeInsets.symmetric(
+                            horizontal: 8,
+                            vertical: 4,
+                          ),
+                          decoration: BoxDecoration(
+                            color: isCompleted
+                                ? colorScheme.primary
+                                : isNext
+                                ? colorScheme.secondary
+                                : colorScheme.outline.withAlpha(
+                                    (255 * 0.3).round(),
+                                  ),
+                            borderRadius: BorderRadius.circular(12),
+                          ),
                           child: Text(
-                            'Study: ${milestone.reference}',
+                            milestone.day >= 365
+                                ? '${(milestone.day / 365).toStringAsFixed(0)} Year${milestone.day >= 730 ? 's' : ''}'
+                                : 'Day ${milestone.day}',
                             style: TextStyle(
                               fontSize: 12,
-                              color: colorScheme.onSurfaceVariant,
-                              fontStyle: FontStyle.italic,
+                              fontWeight: FontWeight.bold,
+                              color: isCompleted
+                                  ? colorScheme.onPrimary
+                                  : isNext
+                                  ? colorScheme.onSecondary
+                                  : colorScheme.onSurfaceVariant,
                             ),
                           ),
                         ),
                       ],
                     ),
-                  ),
-                ],
+                    const SizedBox(height: 8),
+                    Text(
+                      milestone.title,
+                      style: TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
+                        color: isCompleted
+                            ? colorScheme.primary
+                            : isNext
+                            ? colorScheme.secondary
+                            : colorScheme.onSurfaceVariant,
+                      ),
+                    ),
+                    const SizedBox(height: 8),
+                    Text(
+                      milestone.description,
+                      style: TextStyle(
+                        fontSize: 14,
+                        height: 1.4,
+                        color: colorScheme.onSurface,
+                      ),
+                    ),
+                    const SizedBox(height: 12),
+                    Container(
+                      padding: const EdgeInsets.all(8),
+                      decoration: BoxDecoration(
+                        color: colorScheme.surfaceContainerHighest,
+                        borderRadius: BorderRadius.circular(8),
+                      ),
+                      child: Row(
+                        children: [
+                          Icon(
+                            Icons.science,
+                            size: 16,
+                            color: colorScheme.onSurfaceVariant,
+                          ),
+                          const SizedBox(width: 6),
+                          Expanded(
+                            child: Text(
+                              'Study: ${milestone.reference}',
+                              style: TextStyle(
+                                fontSize: 12,
+                                color: colorScheme.onSurfaceVariant,
+                                fontStyle: FontStyle.italic,
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
               ),
             ),
           ),
