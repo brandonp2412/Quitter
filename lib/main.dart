@@ -233,24 +233,6 @@ void main() async {
 
   setupReminders();
 
-  if (kDebugMode && defaultTargetPlatform == TargetPlatform.android) {
-    // For testing purposes, trigger a mobile reminder immediately on startup
-    // This is separate from the Workmanager periodic task.
-    final FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin =
-        FlutterLocalNotificationsPlugin();
-    const AndroidInitializationSettings initializationSettingsAndroid =
-        AndroidInitializationSettings('neurology');
-    const DarwinInitializationSettings initializationSettingsDarwin =
-        DarwinInitializationSettings();
-    const InitializationSettings initializationSettings =
-        InitializationSettings(
-          android: initializationSettingsAndroid,
-          iOS: initializationSettingsDarwin,
-        );
-    await flutterLocalNotificationsPlugin.initialize(initializationSettings);
-    await notifyProgress(flutterLocalNotificationsPlugin);
-  }
-
   runApp(
     ChangeNotifierProvider.value(
       value: settingsProvider,
