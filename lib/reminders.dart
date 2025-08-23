@@ -26,15 +26,11 @@ Future<void> setupReminders() async {
     Workmanager().registerPeriodicTask(
       "reminders",
       "reminders",
-      frequency: kDebugMode
-          ? const Duration(minutes: 15)
-          : Duration(days: notifyEveryDays),
+      frequency: Duration(days: notifyEveryDays),
     );
   } else {
     timer = Timer.periodic(
-      kDebugMode
-          ? const Duration(minutes: 15)
-          : Duration(days: notifyEveryDays),
+      Duration(days: notifyEveryDays),
       (timer) => doDesktopReminders(),
     );
   }
