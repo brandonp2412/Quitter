@@ -14,6 +14,7 @@ void main() {
         title: title,
         description: description,
         reference: reference,
+        link: reference,
       );
 
       expect(milestone.day, day);

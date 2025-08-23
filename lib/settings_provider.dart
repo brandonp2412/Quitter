@@ -16,6 +16,7 @@ class SettingsProvider extends ChangeNotifier {
   static const String _notifyVapingKey = 'notify_vaping';
   static const String _notifySmokingKey = 'notify_smoking';
   static const String _notifyOpioidsKey = 'notify_opioids';
+  static const String _notifyPouchesKey = 'notify_nicotine_pouches';
 
   SharedPreferences? _prefs;
 
@@ -31,6 +32,7 @@ class SettingsProvider extends ChangeNotifier {
   bool _notifyVaping = true;
   bool _notifySmoking = true;
   bool _notifyOpioids = true;
+  bool _notifyPouches = true;
 
   ThemeMode get themeMode => _themeMode;
   ColorSchemeType get colorSchemeType => _colorSchemeType;
@@ -44,6 +46,7 @@ class SettingsProvider extends ChangeNotifier {
   bool get notifyVaping => _notifyVaping;
   bool get notifySmoking => _notifySmoking;
   bool get notifyOpioids => _notifyOpioids;
+  bool get notifyPouches => _notifyPouches;
 
   Future<void> loadPreferences() async {
     _prefs = await SharedPreferences.getInstance();
@@ -113,6 +116,12 @@ class SettingsProvider extends ChangeNotifier {
   Future<void> setShowOpioids(bool show) async {
     _showOpioids = show;
     await _prefs?.setBool(_opioidsKey, show);
+    notifyListeners();
+  }
+
+  Future<void> setNotifyPouches(bool notify) async {
+    _notifyPouches = notify;
+    await _prefs?.setBool(_notifyPouchesKey, notify);
     notifyListeners();
   }
 

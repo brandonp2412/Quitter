@@ -17,136 +17,11 @@ class SettingsPage extends StatelessWidget {
           return ListView(
             padding: const EdgeInsets.all(16.0),
             children: [
-              sectionHeader('Appearance'),
-              const SizedBox(height: 8),
-
-              Card(
-                child: ListTile(
-                  leading: const Icon(Icons.brightness_6),
-                  title: const Text('Theme'),
-                  subtitle: Text(getTheme(settings.themeMode)),
-                  onTap: () => themeDialog(context, settings),
-                ),
-              ),
-
-              const SizedBox(height: 8),
-
-              Card(
-                child: ListTile(
-                  leading: const Icon(Icons.palette),
-                  title: const Text('Color Scheme'),
-                  subtitle: Text(
-                    ColorSchemeHelper.getColorSchemeName(
-                      settings.colorSchemeType,
-                    ),
-                  ),
-                  onTap: () => colorDialog(context, settings),
-                ),
-              ),
-
+              _buildAppearanceSection(context, settings),
               const SizedBox(height: 24),
-              sectionHeader('Main Screen Items'),
-              const SizedBox(height: 8),
-
-              Card(
-                child: Column(
-                  children: [
-                    CheckboxListTile(
-                      title: const Text('Alcohol'),
-                      subtitle: const Text('Show alcohol tracking'),
-                      value: settings.showAlcohol,
-                      onChanged: (value) =>
-                          settings.setShowAlcohol(value ?? false),
-                    ),
-                    const Divider(height: 1),
-                    CheckboxListTile(
-                      title: const Text('Vaping'),
-                      subtitle: const Text('Show vaping tracking'),
-                      value: settings.showVaping,
-                      onChanged: (value) =>
-                          settings.setShowVaping(value ?? false),
-                    ),
-                    const Divider(height: 1),
-                    CheckboxListTile(
-                      title: const Text('Smoking'),
-                      subtitle: const Text('Show smoking tracking'),
-                      value: settings.showSmoking,
-                      onChanged: (value) =>
-                          settings.setShowSmoking(value ?? false),
-                    ),
-                    const Divider(height: 1),
-                    CheckboxListTile(
-                      title: const Text('Opioids'),
-                      subtitle: const Text('Show opioids tracking'),
-                      value: settings.showOpioids,
-                      onChanged: (value) =>
-                          settings.setShowOpioids(value ?? false),
-                    ),
-                  ],
-                ),
-              ),
-
+              _buildMainScreenItemsSection(settings, context),
               const SizedBox(height: 24),
-              sectionHeader('Notifications'),
-              const SizedBox(height: 8),
-
-              Card(
-                child: Column(
-                  children: [
-                    Padding(
-                      padding: const EdgeInsets.symmetric(horizontal: 16.0),
-                      child: TextField(
-                        controller: TextEditingController(
-                          text: settings.notifyEvery.toString(),
-                        ),
-                        keyboardType: TextInputType.number,
-                        decoration: const InputDecoration(
-                          labelText: 'Notify every',
-                          suffixText: 'day(s)',
-                        ),
-                        onChanged: (value) {
-                          final days = int.tryParse(value);
-                          if (days != null && days > 0) {
-                            settings.setNotifyEvery(days);
-                          }
-                        },
-                      ),
-                    ),
-                    const Divider(height: 1),
-                    CheckboxListTile(
-                      title: const Text('Alcohol'),
-                      subtitle: const Text('Notify alcohol quitting progress'),
-                      value: settings.notifyAlcohol,
-                      onChanged: (value) =>
-                          settings.setNotifyAlcohol(value ?? false),
-                    ),
-                    const Divider(height: 1),
-                    CheckboxListTile(
-                      title: const Text('Vaping'),
-                      subtitle: const Text('Notify vaping quitting progress'),
-                      value: settings.notifyVaping,
-                      onChanged: (value) =>
-                          settings.setNotifyVaping(value ?? false),
-                    ),
-                    const Divider(height: 1),
-                    CheckboxListTile(
-                      title: const Text('Smoking'),
-                      subtitle: const Text('Notify smoking quitting progress'),
-                      value: settings.notifySmoking,
-                      onChanged: (value) =>
-                          settings.setNotifySmoking(value ?? false),
-                    ),
-                    const Divider(height: 1),
-                    CheckboxListTile(
-                      title: const Text('Opioids'),
-                      subtitle: const Text('Notify opioids quitting progress'),
-                      value: settings.notifyOpioids,
-                      onChanged: (value) =>
-                          settings.setNotifyOpioids(value ?? false),
-                    ),
-                  ],
-                ),
-              ),
+              _buildNotificationsSection(context, settings),
             ],
           );
         },
@@ -154,21 +29,189 @@ class SettingsPage extends StatelessWidget {
     );
   }
 
-  Widget sectionHeader(String title) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
-      child: Text(
-        title,
-        style: const TextStyle(
-          fontSize: 14,
-          fontWeight: FontWeight.w600,
-          color: Colors.grey,
+  Widget _buildAppearanceSection(
+    BuildContext context,
+    SettingsProvider settings,
+  ) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        _sectionHeader('Appearance', context),
+        const SizedBox(height: 8),
+        Card(
+          child: Column(
+            children: [
+              ListTile(
+                leading: const Icon(Icons.brightness_6),
+                title: const Text('Theme'),
+                subtitle: Text(_getTheme(settings.themeMode)),
+                onTap: () => _showThemeDialog(context, settings),
+              ),
+              const Divider(height: 1),
+              ListTile(
+                leading: const Icon(Icons.palette),
+                title: const Text('Color Scheme'),
+                subtitle: Text(
+                  ColorSchemeHelper.getColorSchemeName(
+                    settings.colorSchemeType,
+                  ),
+                ),
+                onTap: () => _showColorDialog(context, settings),
+              ),
+            ],
+          ),
         ),
-      ),
+      ],
     );
   }
 
-  String getTheme(ThemeMode mode) {
+  Widget _buildMainScreenItemsSection(SettingsProvider settings, context) {
+    final items = [
+      _ToggleItem(
+        icon: Icons.local_bar,
+        title: 'Alcohol',
+        subtitle: 'Show alcohol tracking',
+        value: settings.showAlcohol,
+        onChanged: settings.setShowAlcohol,
+      ),
+      _ToggleItem(
+        icon: Icons.air,
+        title: 'Vaping',
+        subtitle: 'Show vaping tracking',
+        value: settings.showVaping,
+        onChanged: settings.setShowVaping,
+      ),
+      _ToggleItem(
+        icon: Icons.eco,
+        title: 'Smoking',
+        subtitle: 'Show smoking tracking',
+        value: settings.showSmoking,
+        onChanged: settings.setShowSmoking,
+      ),
+      _ToggleItem(
+        icon: Icons.scatter_plot,
+        title: 'Nicotine pouches',
+        subtitle: 'Show nicotine pouches tracking',
+        value: settings.showNicotinePouches,
+        onChanged: settings.setShowNicotinePouches,
+      ),
+      _ToggleItem(
+        icon: Icons.medication,
+        title: 'Opioids',
+        subtitle: 'Show opioids tracking',
+        value: settings.showOpioids,
+        onChanged: settings.setShowOpioids,
+      ),
+    ];
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        _sectionHeader('Main Screen Items', context),
+        const SizedBox(height: 8),
+        Card(child: Column(children: _buildToggleList(items))),
+      ],
+    );
+  }
+
+  Widget _buildNotificationsSection(
+    BuildContext context,
+    SettingsProvider settings,
+  ) {
+    final notificationItems = [
+      _ToggleItem(
+        icon: Icons.local_bar,
+        title: 'Alcohol',
+        subtitle: 'Notify alcohol quitting progress',
+        value: settings.notifyAlcohol,
+        onChanged: settings.setNotifyAlcohol,
+      ),
+      _ToggleItem(
+        icon: Icons.air,
+        title: 'Vaping',
+        subtitle: 'Notify vaping quitting progress',
+        value: settings.notifyVaping,
+        onChanged: settings.setNotifyVaping,
+      ),
+      _ToggleItem(
+        icon: Icons.eco,
+        title: 'Smoking',
+        subtitle: 'Notify smoking quitting progress',
+        value: settings.notifySmoking,
+        onChanged: settings.setNotifySmoking,
+      ),
+      _ToggleItem(
+        icon: Icons.scatter_plot,
+        title: 'Nicotine pouches',
+        subtitle: 'Notify nicotine pouches quitting progress',
+        value: settings.notifyPouches,
+        onChanged: settings.setNotifyPouches,
+      ),
+      _ToggleItem(
+        icon: Icons.medication,
+        title: 'Opioids',
+        subtitle: 'Notify opioids quitting progress',
+        value: settings.notifyOpioids,
+        onChanged: settings.setNotifyOpioids,
+      ),
+    ];
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        _sectionHeader('Notifications', context),
+        const SizedBox(height: 8),
+        Card(
+          child: Column(
+            children: [
+              ListTile(
+                leading: const Icon(Icons.schedule),
+                title: const Text('Notification Frequency'),
+                subtitle: Text('Every ${settings.notifyEvery} day(s)'),
+                onTap: () =>
+                    _showNotificationFrequencyDialog(context, settings),
+              ),
+              const Divider(height: 1),
+              ..._buildToggleList(notificationItems),
+            ],
+          ),
+        ),
+      ],
+    );
+  }
+
+  List<Widget> _buildToggleList(List<_ToggleItem> items) {
+    final List<Widget> widgets = [];
+
+    for (int i = 0; i < items.length; i++) {
+      final item = items[i];
+      widgets.add(
+        SwitchListTile(
+          secondary: Icon(item.icon),
+          title: Text(item.title),
+          subtitle: Text(item.subtitle),
+          value: item.value,
+          onChanged: (value) => item.onChanged(value),
+        ),
+      );
+
+      // Add divider between items (but not after the last one)
+      if (i < items.length - 1) {
+        widgets.add(const Divider(height: 1));
+      }
+    }
+
+    return widgets;
+  }
+
+  Widget _sectionHeader(String title, BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
+      child: Text(title, style: Theme.of(context).textTheme.headlineSmall),
+    );
+  }
+
+  String _getTheme(ThemeMode mode) {
     switch (mode) {
       case ThemeMode.light:
         return 'Light';
@@ -179,28 +222,55 @@ class SettingsPage extends StatelessWidget {
     }
   }
 
-  void themeDialog(BuildContext context, SettingsProvider settings) {
+  void _showThemeDialog(BuildContext context, SettingsProvider settings) {
+    _showSelectionDialog<ThemeMode>(
+      context: context,
+      title: 'Theme Mode',
+      currentValue: settings.themeMode,
+      options: ThemeMode.values,
+      getDisplayName: _getTheme,
+      onChanged: settings.setThemeMode,
+    );
+  }
+
+  void _showColorDialog(BuildContext context, SettingsProvider settings) {
+    _showSelectionDialog<ColorSchemeType>(
+      context: context,
+      title: 'Color Scheme',
+      currentValue: settings.colorSchemeType,
+      options: ColorSchemeType.values,
+      getDisplayName: ColorSchemeHelper.getColorSchemeName,
+      onChanged: settings.setColorSchemeType,
+    );
+  }
+
+  void _showSelectionDialog<T>({
+    required BuildContext context,
+    required String title,
+    required T currentValue,
+    required List<T> options,
+    required String Function(T) getDisplayName,
+    required void Function(T) onChanged,
+  }) {
     showDialog(
       context: context,
       builder: (context) => AlertDialog(
-        title: const Text('Theme Mode'),
-        content: AppRadioGroup<ThemeMode>(
-          value: settings.themeMode,
+        title: Text(title),
+        content: AppRadioGroup<T>(
+          value: currentValue,
           onChanged: (value) {
             if (value != null) {
-              settings.setThemeMode(value);
+              onChanged(value);
               Navigator.pop(context);
             }
           },
-          children: ThemeMode.values.map((mode) {
-            return RadioListTile<ThemeMode>(
-              title: Text(getTheme(mode)),
-              value: mode,
-              // ignore: deprecated_member_use
-              groupValue: settings.themeMode,
-              // ignore: deprecated_member_use
+          children: options.map((option) {
+            return RadioListTile<T>(
+              title: Text(getDisplayName(option)),
+              value: option,
+              groupValue: currentValue,
               onChanged: (value) {}, // Handled by RadioGroup
-              selected: settings.themeMode == mode,
+              selected: currentValue == option,
             );
           }).toList(),
         ),
@@ -214,37 +284,63 @@ class SettingsPage extends StatelessWidget {
     );
   }
 
-  void colorDialog(BuildContext context, SettingsProvider settings) {
+  void _showNotificationFrequencyDialog(
+    BuildContext context,
+    SettingsProvider settings,
+  ) {
     showDialog(
       context: context,
-      builder: (context) => AlertDialog(
-        title: const Text('Color Scheme'),
-        content: AppRadioGroup<ColorSchemeType>(
-          value: settings.colorSchemeType,
-          onChanged: (value) {
-            if (value != null) {
-              settings.setColorSchemeType(value);
-              Navigator.pop(context);
-            }
-          },
-          children: ColorSchemeType.values.map((type) {
-            return RadioListTile<ColorSchemeType>(
-              title: Text(ColorSchemeHelper.getColorSchemeName(type)),
-              value: type,
-              // ignore: deprecated_member_use
-              groupValue: settings.colorSchemeType,
-              // ignore: deprecated_member_use
-              onChanged: (value) {}, // Handled by RadioGroup
-            );
-          }).toList(),
-        ),
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.pop(context),
-            child: const Text('Cancel'),
+      builder: (context) {
+        final controller = TextEditingController(
+          text: settings.notifyEvery.toString(),
+        );
+
+        return AlertDialog(
+          title: const Text('Notification Frequency'),
+          content: TextField(
+            controller: controller,
+            keyboardType: TextInputType.number,
+            decoration: const InputDecoration(
+              labelText: 'Notify every',
+              suffixText: 'day(s)',
+              border: OutlineInputBorder(),
+            ),
+            autofocus: true,
           ),
-        ],
-      ),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.pop(context),
+              child: const Text('Cancel'),
+            ),
+            TextButton(
+              onPressed: () {
+                final days = int.tryParse(controller.text);
+                if (days != null && days > 0) {
+                  settings.setNotifyEvery(days);
+                  Navigator.pop(context);
+                }
+              },
+              child: const Text('Save'),
+            ),
+          ],
+        );
+      },
     );
   }
+}
+
+class _ToggleItem {
+  final IconData icon;
+  final String title;
+  final String subtitle;
+  final bool value;
+  final void Function(bool) onChanged;
+
+  const _ToggleItem({
+    required this.icon,
+    required this.title,
+    required this.subtitle,
+    required this.value,
+    required this.onChanged,
+  });
 }
