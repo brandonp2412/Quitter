@@ -132,7 +132,7 @@ class _HomePageState extends State<HomePage> {
                 ListTile(
                   title: const Text("Alcohol"),
                   subtitle: Text("Day $alcoholDays"),
-                  leading: const Icon(Icons.water_drop),
+                  leading: const Icon(Icons.local_bar),
                   onTap: () async {
                     await Navigator.of(context).push(
                       MaterialPageRoute(builder: (context) => AlcoholPage()),
