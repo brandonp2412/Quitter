@@ -18,7 +18,9 @@ Record your quitting journey with a Free and Open Source app.
 
 ## About
 
-Quitter is a mobile application designed to help individuals track and manage their journey to quit various habits, such as smoking, vaping, alcohol, or opioids. It provides a simple and intuitive interface to record milestones, track progress, and stay motivated.
+Quitter makes it easy to remember how long it's been since you've dropped a bad habit.
+Automatically calculate the # of days since your quit date, and see beautiful infographics
+on your quitting journey.
 
 ## Features
 

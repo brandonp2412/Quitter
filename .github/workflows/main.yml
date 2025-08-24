@@ -235,7 +235,7 @@ jobs:
 
       - name: Publish to Microsoft Store
         run: |
-          msstore publish --inputDirectory build/windows/x64/runner/Release --appId ${{ secrets.PRODUCT_ID }}
+          msstore publish --inputDirectory build/windows/x64/runner/Release --appId 9PKVZWDG3FGC
 
   deploy-google-play:
     needs: [get-version-info, build-android]

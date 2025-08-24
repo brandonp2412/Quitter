@@ -16,6 +16,7 @@ dependencies:
   permission_handler: ^12.0.1
   workmanager: ^0.9.0+2
   url_launcher: ^6.3.2
+  msix: ^3.16.12
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -30,4 +31,12 @@ flutter:
   assets:
     - assets/icon/
 msix_config:
-  msix_version: null..13.
+  msstore_appId: 9PKVZWDG3FGC
+  display_name: Quitter - Addiction recovery tracker
+  publisher_display_name: Brandon Dick
+  identity_name: FrisbeeSoftware.Quitter-Addictionrecoverytracker
+  msix_version: 1.0.0.0
+  logo_path: assets/icon/ic_launcher-playstore.png
+  trim_logo: false
+  publisher: CN=BB0811CB-EED5-441C-BE1B-D31F391F76DE
+  store: true
