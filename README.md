@@ -14,7 +14,7 @@ Record your quitting journey with a Free and Open Source app.
 *   **User-Friendly Interface:** Clean and intuitive design for easy navigation.
 *   **Open Source:** Transparent and community-driven development.
 
-<a href='https://play.google.com/store/apps/details?id=com.quitter.app'><img alt='Get it on Google Play' height="75" src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
+<a href='https://play.google.com/store/apps/details?id=com.quitter.app'><img alt='Get it on Google Play' height="75" src='./docs/get-it-on-google-play.png'/></a>
 
 <p class="float-left">
     <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/1_home_page_en-US.png" alt="Home" height="600" alt="Home page">
