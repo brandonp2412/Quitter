@@ -7,6 +7,15 @@ Record your quitting journey with a Free and Open Source app.
     <a href="#"><img alt="Release downloads" src="https://img.shields.io/github/downloads/brandonp2412/Quitter/total.svg?style=for-the-badge&logoColor=d3bcfd&labelColor=2e4057&color=151218"></a>
 </p>
 
+## Features
+
+*   **Track Multiple Quitting Journeys:** Monitor progress for different habits simultaneously.
+*   **Milestone Tracking:** Record and celebrate key achievements in your quitting journey.
+*   **User-Friendly Interface:** Clean and intuitive design for easy navigation.
+*   **Open Source:** Transparent and community-driven development.
+
+<a href='https://play.google.com/store/apps/details?id=com.quitter.app'><img alt='Get it on Google Play' height="75" src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
+
 <p class="float-left">
     <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/1_home_page_en-US.png" alt="Home" height="600" alt="Home page">
     <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/2_alcohol_page_en-US.png" alt="Alcohol" height="600" alt="Alcohol page">
@@ -21,13 +30,6 @@ Record your quitting journey with a Free and Open Source app.
 Quitter makes it easy to remember how long it's been since you've dropped a bad habit.
 Automatically calculate the # of days since your quit date, and see beautiful infographics
 on your quitting journey.
-
-## Features
-
-*   **Track Multiple Quitting Journeys:** Monitor progress for different habits simultaneously.
-*   **Milestone Tracking:** Record and celebrate key achievements in your quitting journey.
-*   **User-Friendly Interface:** Clean and intuitive design for easy navigation.
-*   **Open Source:** Transparent and community-driven development.
 
 ## Getting Started
 
