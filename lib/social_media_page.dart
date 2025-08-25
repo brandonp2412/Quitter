@@ -129,7 +129,7 @@ class _SocialMediaPageState extends State<SocialMediaPage> {
       currentDay = 1;
       started = true;
       showConfetti = true;
-      controller.text = '0';
+      controller.text = '1';
     });
 
     SharedPreferences.getInstance().then((prefs) {
