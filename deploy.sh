@@ -223,7 +223,7 @@ generate_screenshots() {
             export QUITTER_DEVICE_TYPE="$device_type"
             
             # Try to generate screenshots
-            if flutter drive --profile --driver=test_driver/integration_test.dart --target=integration_test/screenshot_test.dart; then
+            if flutter drive --profile --driver=test_driver/integration_test.dart --target=integration_test/screenshot_test.dart -d $avd_name; then
                 print_success "Screenshots generated successfully for '$avd_name'"
             else
                 print_warning "Screenshot generation failed for '$avd_name'"
