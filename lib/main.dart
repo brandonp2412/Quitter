@@ -11,6 +11,7 @@ import 'package:quitter/alcohol_page.dart';
 import 'package:quitter/opioid_page.dart';
 import 'package:quitter/settings_page.dart';
 import 'package:quitter/smoking_page.dart';
+import 'package:quitter/social_media_page.dart';
 import 'package:quitter/vaping_page.dart';
 import 'package:quitter/reminders.dart';
 
@@ -27,6 +28,7 @@ class _HomePageState extends State<HomePage> {
   int? smokingDays;
   int? pouchesDays;
   int? opioidDays;
+  int? socialMediaDays;
 
   @override
   void initState() {
@@ -42,6 +44,7 @@ class _HomePageState extends State<HomePage> {
     final quitAlcohol = prefs.getString('alcohol');
     final quitOpioids = prefs.getString('opioids');
     final quitPouches = prefs.getString('nicotine_pouches');
+    final quitSocialMedia = prefs.getString('social_media');
 
     if (mounted) {
       setState(() {
@@ -50,6 +53,8 @@ class _HomePageState extends State<HomePage> {
         if (quitVaping != null) vapingDays = daysCeil(quitVaping);
         if (quitOpioids != null) opioidDays = daysCeil(quitOpioids);
         if (quitPouches != null) pouchesDays = daysCeil(quitPouches);
+        if (quitSocialMedia != null)
+          socialMediaDays = daysCeil(quitSocialMedia);
       });
     }
   }
@@ -234,6 +239,30 @@ class _HomePageState extends State<HomePage> {
                   onLongPress: () {
                     _showHideBottomSheet('Opioids', () {
                       settings.setShowOpioids(false);
+                    });
+                  },
+                ),
+
+              if (settings.showSocialMedia)
+                ListTile(
+                  title: const Text("Social Media"),
+                  subtitle: socialMediaDays != null
+                      ? Text("Day $socialMediaDays")
+                      : null,
+                  leading: const Icon(Icons.public),
+                  onTap: () async {
+                    await Navigator.of(context).push(
+                      MaterialPageRoute(
+                        builder: (context) => const SocialMediaPage(),
+                      ),
+                    );
+                    if (mounted) {
+                      _loadQuitDays();
+                    }
+                  },
+                  onLongPress: () {
+                    _showHideBottomSheet('Social Media', () {
+                      settings.setShowSocialMedia(false);
                     });
                   },
                 ),

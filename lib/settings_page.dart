@@ -113,6 +113,13 @@ class SettingsPage extends StatelessWidget {
         value: settings.showOpioids,
         onChanged: settings.setShowOpioids,
       ),
+      _ToggleItem(
+        icon: Icons.public,
+        title: 'Social Media',
+        subtitle: 'Show social media tracking',
+        value: settings.showSocialMedia,
+        onChanged: settings.setShowSocialMedia,
+      ),
     ];
 
     return Column(
@@ -164,6 +171,13 @@ class SettingsPage extends StatelessWidget {
         subtitle: 'Notify opioids quitting progress',
         value: settings.notifyOpioids,
         onChanged: settings.setNotifyOpioids,
+      ),
+      _ToggleItem(
+        icon: Icons.public,
+        title: 'Social Media',
+        subtitle: 'Notify social media quitting progress',
+        value: settings.notifySocialMedia,
+        onChanged: settings.setNotifySocialMedia,
       ),
     ];
 

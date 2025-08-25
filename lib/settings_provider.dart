@@ -12,11 +12,13 @@ class SettingsProvider extends ChangeNotifier {
   static const String _vapingKey = 'show_vaping';
   static const String _smokingKey = 'show_smoking';
   static const String _opioidsKey = 'show_opioids';
+  static const String _socialMediaKey = 'show_social_media';
   static const String _notifyAlcoholKey = 'notify_alcohol';
   static const String _notifyVapingKey = 'notify_vaping';
   static const String _notifySmokingKey = 'notify_smoking';
   static const String _notifyOpioidsKey = 'notify_opioids';
   static const String _notifyPouchesKey = 'notify_nicotine_pouches';
+  static const String _notifySocialMediaKey = 'notify_social_media';
 
   SharedPreferences? _prefs;
 
@@ -28,11 +30,13 @@ class SettingsProvider extends ChangeNotifier {
   bool _showSmoking = true;
   bool _showNicotinePouches = true;
   bool _showOpioids = true;
+  bool _showSocialMedia = true;
   bool _notifyAlcohol = true;
   bool _notifyVaping = true;
   bool _notifySmoking = true;
   bool _notifyOpioids = true;
   bool _notifyPouches = true;
+  bool _notifySocialMedia = true;
 
   ThemeMode get themeMode => _themeMode;
   ColorSchemeType get colorSchemeType => _colorSchemeType;
@@ -42,11 +46,13 @@ class SettingsProvider extends ChangeNotifier {
   bool get showNicotinePouches => _showNicotinePouches;
   int get notifyEvery => _notifyEvery;
   bool get showOpioids => _showOpioids;
+  bool get showSocialMedia => _showSocialMedia;
   bool get notifyAlcohol => _notifyAlcohol;
   bool get notifyVaping => _notifyVaping;
   bool get notifySmoking => _notifySmoking;
   bool get notifyOpioids => _notifyOpioids;
   bool get notifyPouches => _notifyPouches;
+  bool get notifySocialMedia => _notifySocialMedia;
 
   Future<void> loadPreferences() async {
     _prefs = await SharedPreferences.getInstance();
@@ -61,10 +67,12 @@ class SettingsProvider extends ChangeNotifier {
     _showVaping = _prefs!.getBool(_vapingKey) ?? true;
     _showSmoking = _prefs!.getBool(_smokingKey) ?? true;
     _showOpioids = _prefs!.getBool(_opioidsKey) ?? true;
+    _showSocialMedia = _prefs!.getBool(_socialMediaKey) ?? true;
     _notifyAlcohol = _prefs!.getBool(_notifyAlcoholKey) ?? true;
     _notifyVaping = _prefs!.getBool(_notifyVapingKey) ?? true;
     _notifySmoking = _prefs!.getBool(_notifySmokingKey) ?? true;
     _notifyOpioids = _prefs!.getBool(_notifyOpioidsKey) ?? true;
+    _notifySocialMedia = _prefs!.getBool(_notifySocialMediaKey) ?? true;
     _showNicotinePouches = _prefs!.getBool(_nicotinePouchesKey) ?? true;
 
     notifyListeners();
@@ -120,6 +128,12 @@ class SettingsProvider extends ChangeNotifier {
     notifyListeners();
   }
 
+  Future<void> setShowSocialMedia(bool show) async {
+    _showSocialMedia = show;
+    await _prefs?.setBool(_socialMediaKey, show);
+    notifyListeners();
+  }
+
   Future<void> setNotifyPouches(bool notify) async {
     _notifyPouches = notify;
     await _prefs?.setBool(_notifyPouchesKey, notify);
@@ -147,6 +161,12 @@ class SettingsProvider extends ChangeNotifier {
   Future<void> setNotifyOpioids(bool notify) async {
     _notifyOpioids = notify;
     await _prefs?.setBool(_notifyOpioidsKey, notify);
+    notifyListeners();
+  }
+
+  Future<void> setNotifySocialMedia(bool notify) async {
+    _notifySocialMedia = notify;
+    await _prefs?.setBool(_notifySocialMediaKey, notify);
     notifyListeners();
   }
 }
