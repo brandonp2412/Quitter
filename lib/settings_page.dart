@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart' show Consumer;
+import 'package:quitter/about_page.dart';
 import 'package:quitter/color_scheme_helper.dart';
 import 'package:quitter/color_scheme_type.dart';
 import 'package:quitter/settings_provider.dart';
@@ -22,6 +23,16 @@ class SettingsPage extends StatelessWidget {
               _buildMainScreenItemsSection(settings, context),
               const SizedBox(height: 24),
               _buildNotificationsSection(context, settings),
+              const SizedBox(height: 24),
+              Card(
+                child: ListTile(
+                  title: Text("About"),
+                  leading: Icon(Icons.info_outline),
+                  onTap: () => Navigator.of(
+                    context,
+                  ).push(MaterialPageRoute(builder: (context) => AboutPage())),
+                ),
+              ),
             ],
           );
         },
