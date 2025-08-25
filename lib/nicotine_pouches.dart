@@ -14,7 +14,7 @@ class NicotinePouchesPage extends StatefulWidget {
 
 class _NicotinePouchesPageState extends State<NicotinePouchesPage> {
   int currentDay = 1;
-  bool started = false;
+  bool started = true;
   bool showConfetti = false;
   final controller = TextEditingController();
   final ScrollController _scrollController = ScrollController();
@@ -100,10 +100,12 @@ class _NicotinePouchesPageState extends State<NicotinePouchesPage> {
     super.initState();
     SharedPreferences.getInstance().then((prefs) {
       final quitOn = prefs.getString('nicotine_pouches');
-      if (quitOn == null) return;
+      if (quitOn == null)
+        return setState(() {
+          started = false;
+        });
 
       setState(() {
-        started = true;
         currentDay = daysCeil(quitOn);
         controller.text = currentDay.toString();
       });
@@ -111,13 +113,7 @@ class _NicotinePouchesPageState extends State<NicotinePouchesPage> {
       final index = milestones.indexWhere((m) => currentDay < m.day);
       final targetIndex = index == -1 ? milestones.length - 1 : index;
 
-      WidgetsBinding.instance.addPostFrameCallback((_) {
-        _scrollController.animateTo(
-          targetIndex * 270 - 230,
-          duration: const Duration(milliseconds: 500),
-          curve: Curves.easeInOut,
-        );
-      });
+      _scrollController.jumpTo(targetIndex * 270 - 180);
     });
   }
 
@@ -144,20 +140,24 @@ class _NicotinePouchesPageState extends State<NicotinePouchesPage> {
 
   @override
   Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final colorScheme = theme.colorScheme;
+
     return ConfettiWidget(
       isActive: showConfetti,
       child: Scaffold(
+        backgroundColor: colorScheme.surface,
         appBar: AppBar(
           leading: IconButton(
             onPressed: () => Navigator.of(context).pop(),
             icon: Icon(Icons.arrow_back),
-            color: Theme.of(context).colorScheme.surface,
+            color: colorScheme.surface,
           ),
           title: Text(
             'Quit pouches journey',
-            style: TextStyle(color: Theme.of(context).colorScheme.surface),
+            style: TextStyle(color: colorScheme.onPrimary),
           ),
-          backgroundColor: Theme.of(context).colorScheme.primary,
+          backgroundColor: colorScheme.primary,
           elevation: 0,
         ),
         body: Column(
@@ -166,8 +166,8 @@ class _NicotinePouchesPageState extends State<NicotinePouchesPage> {
               width: double.infinity,
               padding: const EdgeInsets.all(24.0),
               decoration: BoxDecoration(
-                color: Theme.of(context).colorScheme.primary,
-                borderRadius: BorderRadius.only(
+                color: colorScheme.primary,
+                borderRadius: const BorderRadius.only(
                   bottomLeft: Radius.circular(24),
                   bottomRight: Radius.circular(24),
                 ),
@@ -176,10 +176,8 @@ class _NicotinePouchesPageState extends State<NicotinePouchesPage> {
                 children: [
                   Text(
                     started ? 'Day $currentDay' : 'This is just the Beginning',
-                    style: TextStyle(
-                      fontSize: 32,
-                      fontWeight: FontWeight.bold,
-                      color: Theme.of(context).colorScheme.surface,
+                    style: Theme.of(context).textTheme.headlineMedium?.copyWith(
+                      color: colorScheme.onPrimary,
                     ),
                   ),
                   const SizedBox(height: 8),
@@ -189,7 +187,7 @@ class _NicotinePouchesPageState extends State<NicotinePouchesPage> {
                         : 'Your journey starts with a single step! 🌟',
                     style: TextStyle(
                       fontSize: 16,
-                      color: Theme.of(context).colorScheme.surface,
+                      color: colorScheme.onPrimary,
                     ),
                   ),
                   const SizedBox(height: 16),
@@ -202,8 +200,7 @@ class _NicotinePouchesPageState extends State<NicotinePouchesPage> {
                           decoration: InputDecoration(
                             labelText: 'Enter your current day',
                             labelStyle: TextStyle(
-                              color: Theme.of(context).colorScheme.onPrimary
-                                  .withAlpha((255 * 0.7).round()),
+                              color: colorScheme.onPrimary.withAlpha(180),
                             ),
                             suffixIcon: IconButton(
                               onPressed: () async {
@@ -237,34 +234,26 @@ class _NicotinePouchesPageState extends State<NicotinePouchesPage> {
                               ),
                             ),
                             border: OutlineInputBorder(
-                              borderRadius: BorderRadius.all(
-                                Radius.circular(12),
-                              ),
+                              borderRadius: BorderRadius.circular(12),
                               borderSide: BorderSide(
-                                color: Theme.of(context).colorScheme.surface,
+                                color: colorScheme.onPrimary,
                               ),
                             ),
                             enabledBorder: OutlineInputBorder(
-                              borderRadius: BorderRadius.all(
-                                Radius.circular(12),
-                              ),
+                              borderRadius: BorderRadius.circular(12),
                               borderSide: BorderSide(
-                                color: Theme.of(context).colorScheme.surface,
+                                color: colorScheme.onPrimary,
                               ),
                             ),
                             focusedBorder: OutlineInputBorder(
-                              borderRadius: BorderRadius.all(
-                                Radius.circular(12),
-                              ),
+                              borderRadius: BorderRadius.circular(12),
                               borderSide: BorderSide(
-                                color: Theme.of(context).colorScheme.surface,
+                                color: colorScheme.onPrimary,
                                 width: 2,
                               ),
                             ),
                           ),
-                          style: TextStyle(
-                            color: Theme.of(context).colorScheme.surface,
-                          ),
+                          style: TextStyle(color: colorScheme.onPrimary),
                           keyboardType: TextInputType.number,
                           onChanged: (value) async {
                             setState(() {

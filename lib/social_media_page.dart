@@ -14,7 +14,7 @@ class SocialMediaPage extends StatefulWidget {
 
 class _SocialMediaPageState extends State<SocialMediaPage> {
   int currentDay = 1;
-  bool started = false;
+  bool started = true;
   bool showConfetti = false;
   final controller = TextEditingController();
   final ScrollController _scrollController = ScrollController();
@@ -103,10 +103,12 @@ class _SocialMediaPageState extends State<SocialMediaPage> {
     super.initState();
     SharedPreferences.getInstance().then((prefs) {
       final quitOn = prefs.getString('social_media');
-      if (quitOn == null) return;
+      if (quitOn == null)
+        return setState(() {
+          started = false;
+        });
 
       setState(() {
-        started = true;
         currentDay = daysCeil(quitOn);
         controller.text = currentDay.toString();
       });
@@ -114,13 +116,7 @@ class _SocialMediaPageState extends State<SocialMediaPage> {
       final index = milestones.indexWhere((m) => currentDay < m.day);
       final targetIndex = index == -1 ? milestones.length - 1 : index;
 
-      WidgetsBinding.instance.addPostFrameCallback((_) {
-        _scrollController.animateTo(
-          targetIndex * 270 - 197,
-          duration: const Duration(milliseconds: 500),
-          curve: Curves.easeInOut,
-        );
-      });
+      _scrollController.jumpTo(targetIndex * 270 - 180);
     });
   }
 
@@ -158,7 +154,7 @@ class _SocialMediaPageState extends State<SocialMediaPage> {
           leading: IconButton(
             onPressed: () => Navigator.of(context).pop(),
             icon: Icon(Icons.arrow_back),
-            color: Theme.of(context).colorScheme.surface,
+            color: colorScheme.surface,
           ),
           title: Text(
             'Quit social media journey',
@@ -184,9 +180,7 @@ class _SocialMediaPageState extends State<SocialMediaPage> {
                 children: [
                   Text(
                     started ? 'Day $currentDay' : 'This is just the Beginning',
-                    style: TextStyle(
-                      fontSize: 32,
-                      fontWeight: FontWeight.bold,
+                    style: Theme.of(context).textTheme.headlineMedium?.copyWith(
                       color: colorScheme.onPrimary,
                     ),
                   ),
@@ -241,35 +235,22 @@ class _SocialMediaPageState extends State<SocialMediaPage> {
                               ),
                             ),
                             labelStyle: TextStyle(
-                              color: colorScheme.onPrimary.withAlpha(
-                                (255 * 0.7).round(),
-                              ),
-                            ),
-                            hintStyle: TextStyle(
-                              color: colorScheme.onPrimary.withAlpha(
-                                (255 * 0.7).round(),
-                              ),
+                              color: colorScheme.onPrimary.withAlpha(180),
                             ),
                             border: OutlineInputBorder(
-                              borderRadius: const BorderRadius.all(
-                                Radius.circular(12),
-                              ),
+                              borderRadius: BorderRadius.circular(12),
                               borderSide: BorderSide(
                                 color: colorScheme.onPrimary,
                               ),
                             ),
                             enabledBorder: OutlineInputBorder(
-                              borderRadius: const BorderRadius.all(
-                                Radius.circular(12),
-                              ),
+                              borderRadius: BorderRadius.circular(12),
                               borderSide: BorderSide(
                                 color: colorScheme.onPrimary,
                               ),
                             ),
                             focusedBorder: OutlineInputBorder(
-                              borderRadius: const BorderRadius.all(
-                                Radius.circular(12),
-                              ),
+                              borderRadius: BorderRadius.circular(12),
                               borderSide: BorderSide(
                                 color: colorScheme.onPrimary,
                                 width: 2,

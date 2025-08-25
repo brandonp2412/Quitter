@@ -15,7 +15,7 @@ class AlcoholPage extends StatefulWidget {
 
 class _AlcoholPageState extends State<AlcoholPage> {
   int currentDay = 1;
-  bool started = false;
+  bool started = true;
   bool showConfetti = false;
   final controller = TextEditingController(text: '');
   final ScrollController _scrollController = ScrollController();
@@ -103,10 +103,12 @@ class _AlcoholPageState extends State<AlcoholPage> {
     super.initState();
     SharedPreferences.getInstance().then((prefs) {
       final quitOn = prefs.getString('alcohol');
-      if (quitOn == null) return;
+      if (quitOn == null)
+        return setState(() {
+          started = false;
+        });
 
       setState(() {
-        started = true;
         currentDay = daysCeil(quitOn);
         controller.text = currentDay.toString();
       });
@@ -114,13 +116,7 @@ class _AlcoholPageState extends State<AlcoholPage> {
       final index = milestones.indexWhere((m) => currentDay < m.day);
       final targetIndex = index == -1 ? milestones.length - 1 : index;
 
-      WidgetsBinding.instance.addPostFrameCallback((_) {
-        _scrollController.animateTo(
-          targetIndex * 270 - 230,
-          duration: const Duration(milliseconds: 500),
-          curve: Curves.easeInOut,
-        );
-      });
+      _scrollController.jumpTo(targetIndex * 270 - 230);
     });
   }
 
@@ -179,8 +175,7 @@ class _AlcoholPageState extends State<AlcoholPage> {
                 children: [
                   Text(
                     started ? 'Day $currentDay' : 'This is just the Beginning',
-                    style: TextStyle(
-                      fontSize: 32,
+                    style: Theme.of(context).textTheme.headlineMedium?.copyWith(
                       color: Theme.of(context).colorScheme.surface,
                     ),
                   ),

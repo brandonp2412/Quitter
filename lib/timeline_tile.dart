@@ -148,9 +148,7 @@ class TimelineTile extends StatelessWidget {
                     const SizedBox(height: 8),
                     Text(
                       milestone.title,
-                      style: TextStyle(
-                        fontSize: 18,
-                        fontWeight: FontWeight.bold,
+                      style: Theme.of(context).textTheme.titleMedium?.copyWith(
                         color: isCompleted
                             ? colorScheme.primary
                             : isNext

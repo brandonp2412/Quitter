@@ -14,7 +14,7 @@ class VapingPage extends StatefulWidget {
 
 class _VapingPageState extends State<VapingPage> {
   int currentDay = 1;
-  bool started = false;
+  bool started = true;
   bool showConfetti = false;
   final controller = TextEditingController();
   final ScrollController _scrollController = ScrollController();
@@ -109,10 +109,12 @@ class _VapingPageState extends State<VapingPage> {
 
     SharedPreferences.getInstance().then((prefs) {
       final quitOn = prefs.getString('vaping');
-      if (quitOn == null) return;
+      if (quitOn == null)
+        return setState(() {
+          started = false;
+        });
 
       setState(() {
-        started = true;
         currentDay = daysCeil(quitOn);
         controller.text = currentDay.toString();
       });
@@ -120,13 +122,7 @@ class _VapingPageState extends State<VapingPage> {
       final index = milestones.indexWhere((m) => currentDay < m.day);
       final targetIndex = index == -1 ? milestones.length - 1 : index;
 
-      WidgetsBinding.instance.addPostFrameCallback((_) {
-        _scrollController.animateTo(
-          targetIndex * 270 - 180,
-          duration: const Duration(milliseconds: 500),
-          curve: Curves.easeInOut,
-        );
-      });
+      _scrollController.jumpTo(targetIndex * 270 - 180);
     });
   }
 
@@ -189,9 +185,7 @@ class _VapingPageState extends State<VapingPage> {
                 children: [
                   Text(
                     started ? 'Day $currentDay' : 'This is just the Beginning',
-                    style: TextStyle(
-                      fontSize: 32,
-                      fontWeight: FontWeight.bold,
+                    style: Theme.of(context).textTheme.headlineMedium?.copyWith(
                       color: colorScheme.onPrimary,
                     ),
                   ),
