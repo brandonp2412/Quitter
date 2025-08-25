@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:quitter/confetti_widget.dart';
 import 'package:quitter/quit_milestone.dart';
 import 'package:quitter/timeline_tile.dart';
 import 'package:quitter/utils.dart';
@@ -13,7 +14,9 @@ class SmokingPage extends StatefulWidget {
 
 class _SmokingPageState extends State<SmokingPage> {
   int currentDay = 0;
-  final controller = TextEditingController(text: '0');
+  bool started = false;
+  bool showConfetti = false;
+  final controller = TextEditingController();
   final ScrollController _scrollController = ScrollController();
 
   final List<QuitMilestone> milestones = [
@@ -103,6 +106,7 @@ class _SmokingPageState extends State<SmokingPage> {
       if (quitOn == null) return;
 
       setState(() {
+        started = true;
         currentDay = daysCeil(quitOn);
         controller.text = currentDay.toString();
       });
@@ -120,187 +124,231 @@ class _SmokingPageState extends State<SmokingPage> {
     });
   }
 
+  void _handleStartPressed() {
+    setState(() {
+      currentDay = 0;
+      started = true;
+      showConfetti = true;
+      controller.text = '0';
+    });
+
+    SharedPreferences.getInstance().then((prefs) {
+      prefs.setString('smoking', DateTime.now().toIso8601String());
+    });
+
+    Future.delayed(const Duration(milliseconds: 2500), () {
+      if (mounted) {
+        setState(() {
+          showConfetti = false;
+        });
+      }
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final colorScheme = theme.colorScheme;
 
-    return Scaffold(
-      backgroundColor: colorScheme.surface,
-      appBar: AppBar(
-        leading: IconButton(
-          onPressed: () => Navigator.of(context).pop(),
-          icon: Icon(Icons.arrow_back),
-          color: Theme.of(context).colorScheme.surface,
+    return ConfettiWidget(
+      isActive: showConfetti,
+      child: Scaffold(
+        backgroundColor: colorScheme.surface,
+        appBar: AppBar(
+          leading: IconButton(
+            onPressed: () => Navigator.of(context).pop(),
+            icon: Icon(Icons.arrow_back),
+            color: Theme.of(context).colorScheme.surface,
+          ),
+          title: Text(
+            'Quit smoking journey',
+            style: TextStyle(color: colorScheme.onPrimary),
+          ),
+          backgroundColor: colorScheme.primary,
+          elevation: 0,
         ),
-        title: Text(
-          'Quit smoking journey',
-          style: TextStyle(color: colorScheme.onPrimary),
-        ),
-        backgroundColor: colorScheme.primary,
-        elevation: 0,
-      ),
-      body: Column(
-        children: [
-          // Progress Header
-          Container(
-            width: double.infinity,
-            padding: const EdgeInsets.all(24.0),
-            decoration: BoxDecoration(
-              color: colorScheme.primary,
-              borderRadius: const BorderRadius.only(
-                bottomLeft: Radius.circular(24),
-                bottomRight: Radius.circular(24),
+        body: Column(
+          children: [
+            // Progress Header
+            Container(
+              width: double.infinity,
+              padding: const EdgeInsets.all(24.0),
+              decoration: BoxDecoration(
+                color: colorScheme.primary,
+                borderRadius: const BorderRadius.only(
+                  bottomLeft: Radius.circular(24),
+                  bottomRight: Radius.circular(24),
+                ),
+              ),
+              child: Column(
+                children: [
+                  Text(
+                    started ? 'Day $currentDay' : 'This is just the Beginning',
+                    style: TextStyle(
+                      fontSize: 32,
+                      fontWeight: FontWeight.bold,
+                      color: colorScheme.onPrimary,
+                    ),
+                  ),
+                  const SizedBox(height: 8),
+                  Text(
+                    started
+                        ? 'Smoke-free and loving it! ✨'
+                        : 'Your journey starts with a single step! 🌟',
+                    style: TextStyle(
+                      fontSize: 16,
+                      color: colorScheme.onPrimary,
+                    ),
+                  ),
+                  const SizedBox(height: 16),
+                  Row(
+                    children: [
+                      Expanded(
+                        child: TextField(
+                          onTap: () => selectAll(controller),
+                          controller: controller,
+                          decoration: InputDecoration(
+                            labelText: 'Enter your current day',
+                            suffixIcon: IconButton(
+                              onPressed: () async {
+                                final current = DateTime.now().subtract(
+                                  Duration(days: currentDay),
+                                );
+                                final date = await showDatePicker(
+                                  context: context,
+                                  initialDate: current,
+                                  firstDate: DateTime(0),
+                                  lastDate: DateTime.now(),
+                                );
+                                if (date == null) return;
+                                setState(() {
+                                  currentDay = daysCeil(date.toIso8601String());
+                                });
+                                controller.text = currentDay.toString();
+
+                                final prefs =
+                                    await SharedPreferences.getInstance();
+                                prefs.setString(
+                                  'smoking',
+                                  date.toIso8601String(),
+                                );
+                              },
+                              icon: Icon(
+                                currentDay > 7
+                                    ? Icons.calendar_month
+                                    : Icons.calendar_today,
+                                color: Colors.white,
+                              ),
+                            ),
+                            labelStyle: TextStyle(
+                              color: colorScheme.onPrimary.withAlpha(
+                                (255 * 0.7).round(),
+                              ),
+                            ),
+                            hintStyle: TextStyle(
+                              color: colorScheme.onPrimary.withAlpha(
+                                (255 * 0.7).round(),
+                              ),
+                            ),
+                            border: OutlineInputBorder(
+                              borderRadius: const BorderRadius.all(
+                                Radius.circular(12),
+                              ),
+                              borderSide: BorderSide(
+                                color: colorScheme.onPrimary,
+                              ),
+                            ),
+                            enabledBorder: OutlineInputBorder(
+                              borderRadius: const BorderRadius.all(
+                                Radius.circular(12),
+                              ),
+                              borderSide: BorderSide(
+                                color: colorScheme.onPrimary,
+                              ),
+                            ),
+                            focusedBorder: OutlineInputBorder(
+                              borderRadius: const BorderRadius.all(
+                                Radius.circular(12),
+                              ),
+                              borderSide: BorderSide(
+                                color: colorScheme.onPrimary,
+                                width: 2,
+                              ),
+                            ),
+                          ),
+                          style: TextStyle(color: colorScheme.onPrimary),
+                          keyboardType: TextInputType.number,
+                          onChanged: (value) async {
+                            setState(() {
+                              currentDay = int.tryParse(value) ?? 0;
+                            });
+
+                            final quitOn = DateTime.now().subtract(
+                              Duration(days: currentDay),
+                            );
+                            final prefs = await SharedPreferences.getInstance();
+                            prefs.setString(
+                              'smoking',
+                              quitOn.toIso8601String(),
+                            );
+
+                            final index = milestones.indexWhere(
+                              (m) => currentDay < m.day,
+                            );
+                            final targetIndex = index == -1
+                                ? milestones.length - 1
+                                : index;
+
+                            _scrollController.animateTo(
+                              targetIndex * 150.0,
+                              duration: const Duration(milliseconds: 500),
+                              curve: Curves.easeInOut,
+                            );
+                          },
+                        ),
+                      ),
+                    ],
+                  ),
+                ],
               ),
             ),
-            child: Column(
-              children: [
-                Text(
-                  'Day $currentDay',
-                  style: TextStyle(
-                    fontSize: 32,
-                    fontWeight: FontWeight.bold,
-                    color: colorScheme.onPrimary,
-                  ),
-                ),
-                const SizedBox(height: 8),
-                Text(
-                  'Smoke-free and loving it! ✨',
-                  style: TextStyle(fontSize: 16, color: colorScheme.onPrimary),
-                ),
-                const SizedBox(height: 16),
-                Row(
-                  children: [
-                    Expanded(
-                      child: TextField(
-                        onTap: () => selectAll(controller),
-                        controller: controller,
-                        decoration: InputDecoration(
-                          hintText: 'Enter your current day',
-                          labelText: 'Enter your current day',
-                          suffixIcon: IconButton(
-                            onPressed: () async {
-                              final current = DateTime.now().subtract(
-                                Duration(days: currentDay),
-                              );
-                              final date = await showDatePicker(
-                                context: context,
-                                initialDate: current,
-                                firstDate: DateTime(0),
-                                lastDate: DateTime.now(),
-                              );
-                              if (date == null) return;
-                              setState(() {
-                                currentDay = daysCeil(date.toIso8601String());
-                              });
-                              controller.text = currentDay.toString();
+            // Timeline
+            Expanded(
+              child: ListView.builder(
+                controller: _scrollController,
+                padding: const EdgeInsets.all(16.0),
+                itemCount: milestones.length,
+                itemBuilder: (context, index) {
+                  final milestone = milestones[index];
+                  final isCompleted = currentDay >= milestone.day;
+                  final isNext =
+                      !isCompleted &&
+                      (index == 0 || currentDay >= milestones[index - 1].day);
 
-                              final prefs =
-                                  await SharedPreferences.getInstance();
-                              prefs.setString(
-                                'smoking',
-                                date.toIso8601String(),
-                              );
-                            },
-                            icon: Icon(
-                              currentDay > 7
-                                  ? Icons.calendar_month
-                                  : Icons.calendar_today,
-                              color: Colors.white,
-                            ),
-                          ),
-                          labelStyle: TextStyle(
-                            color: colorScheme.onPrimary.withAlpha(
-                              (255 * 0.7).round(),
-                            ),
-                          ),
-                          hintStyle: TextStyle(
-                            color: colorScheme.onPrimary.withAlpha(
-                              (255 * 0.7).round(),
-                            ),
-                          ),
-                          border: OutlineInputBorder(
-                            borderRadius: const BorderRadius.all(
-                              Radius.circular(12),
-                            ),
-                            borderSide: BorderSide(
-                              color: colorScheme.onPrimary,
-                            ),
-                          ),
-                          enabledBorder: OutlineInputBorder(
-                            borderRadius: const BorderRadius.all(
-                              Radius.circular(12),
-                            ),
-                            borderSide: BorderSide(
-                              color: colorScheme.onPrimary,
-                            ),
-                          ),
-                          focusedBorder: OutlineInputBorder(
-                            borderRadius: const BorderRadius.all(
-                              Radius.circular(12),
-                            ),
-                            borderSide: BorderSide(
-                              color: colorScheme.onPrimary,
-                              width: 2,
-                            ),
-                          ),
-                        ),
-                        style: TextStyle(color: colorScheme.onPrimary),
-                        keyboardType: TextInputType.number,
-                        onChanged: (value) async {
-                          setState(() {
-                            currentDay = int.tryParse(value) ?? 0;
-                          });
-
-                          final quitOn = DateTime.now().subtract(
-                            Duration(days: currentDay),
-                          );
-                          final prefs = await SharedPreferences.getInstance();
-                          prefs.setString('smoking', quitOn.toIso8601String());
-
-                          final index = milestones.indexWhere(
-                            (m) => currentDay < m.day,
-                          );
-                          final targetIndex = index == -1
-                              ? milestones.length - 1
-                              : index;
-
-                          _scrollController.animateTo(
-                            targetIndex * 150.0,
-                            duration: const Duration(milliseconds: 500),
-                            curve: Curves.easeInOut,
-                          );
-                        },
-                      ),
-                    ),
-                  ],
-                ),
-              ],
+                  return TimelineTile(
+                    milestone: milestone,
+                    isCompleted: isCompleted,
+                    isNext: isNext,
+                    isLast: index == milestones.length - 1,
+                  );
+                },
+              ),
             ),
-          ),
-          // Timeline
-          Expanded(
-            child: ListView.builder(
-              controller: _scrollController,
-              padding: const EdgeInsets.all(16.0),
-              itemCount: milestones.length,
-              itemBuilder: (context, index) {
-                final milestone = milestones[index];
-                final isCompleted = currentDay >= milestone.day;
-                final isNext =
-                    !isCompleted &&
-                    (index == 0 || currentDay >= milestones[index - 1].day);
-
-                return TimelineTile(
-                  milestone: milestone,
-                  isCompleted: isCompleted,
-                  isNext: isNext,
-                  isLast: index == milestones.length - 1,
-                );
-              },
-            ),
-          ),
-        ],
+          ],
+        ),
+        floatingActionButton: AnimatedSwitcher(
+          duration: const Duration(milliseconds: 150),
+          transitionBuilder: (child, animation) =>
+              ScaleTransition(scale: animation, child: child),
+          child: started
+              ? null
+              : FloatingActionButton.extended(
+                  key: ValueKey('start_fab'),
+                  onPressed: _handleStartPressed,
+                  label: Text("Start Your Journey"),
+                  icon: Icon(Icons.rocket_launch),
+                ),
+        ),
       ),
     );
   }

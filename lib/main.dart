@@ -22,11 +22,11 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  var alcoholDays = 0;
-  var vapingDays = 0;
-  var smokingDays = 0;
-  var pouchesDays = 0;
-  var opioidDays = 0;
+  int? alcoholDays;
+  int? vapingDays;
+  int? smokingDays;
+  int? pouchesDays;
+  int? opioidDays;
 
   @override
   void initState() {
@@ -41,13 +41,15 @@ class _HomePageState extends State<HomePage> {
     final quitVaping = prefs.getString('vaping');
     final quitAlcohol = prefs.getString('alcohol');
     final quitOpioids = prefs.getString('opioids');
+    final quitPouches = prefs.getString('nicotine_pouches');
 
     if (mounted) {
       setState(() {
-        smokingDays = daysCeil(quitSmoking);
-        alcoholDays = daysCeil(quitAlcohol);
-        vapingDays = daysCeil(quitVaping);
-        opioidDays = daysCeil(quitOpioids);
+        if (quitSmoking != null) smokingDays = daysCeil(quitSmoking);
+        if (quitAlcohol != null) alcoholDays = daysCeil(quitAlcohol);
+        if (quitVaping != null) vapingDays = daysCeil(quitVaping);
+        if (quitOpioids != null) opioidDays = daysCeil(quitOpioids);
+        if (quitPouches != null) pouchesDays = daysCeil(quitPouches);
       });
     }
   }
@@ -131,7 +133,9 @@ class _HomePageState extends State<HomePage> {
               if (settings.showAlcohol)
                 ListTile(
                   title: const Text("Alcohol"),
-                  subtitle: Text("Day $alcoholDays"),
+                  subtitle: alcoholDays != null
+                      ? Text("Day $alcoholDays")
+                      : null,
                   leading: const Icon(Icons.local_bar),
                   onTap: () async {
                     await Navigator.of(context).push(
@@ -151,7 +155,7 @@ class _HomePageState extends State<HomePage> {
               if (settings.showVaping)
                 ListTile(
                   title: const Text("Vaping"),
-                  subtitle: Text("Day $vapingDays"),
+                  subtitle: vapingDays != null ? Text("Day $vapingDays") : null,
                   leading: const Icon(Icons.air),
                   onTap: () async {
                     await Navigator.of(context).push(
@@ -171,7 +175,9 @@ class _HomePageState extends State<HomePage> {
               if (settings.showSmoking)
                 ListTile(
                   title: const Text("Smoking"),
-                  subtitle: Text("Day $smokingDays"),
+                  subtitle: smokingDays != null
+                      ? Text("Day $smokingDays")
+                      : null,
                   leading: const Icon(Icons.eco),
                   onTap: () async {
                     await Navigator.of(context).push(
@@ -191,7 +197,9 @@ class _HomePageState extends State<HomePage> {
               if (settings.showNicotinePouches)
                 ListTile(
                   title: const Text("Nicotine pouches"),
-                  subtitle: Text("Day $pouchesDays"),
+                  subtitle: pouchesDays != null
+                      ? Text("Day $pouchesDays")
+                      : null,
                   leading: const Icon(Icons.scatter_plot),
                   onTap: () async {
                     await Navigator.of(context).push(
@@ -213,7 +221,7 @@ class _HomePageState extends State<HomePage> {
               if (settings.showOpioids)
                 ListTile(
                   title: const Text("Opioids"),
-                  subtitle: Text("Day $opioidDays"),
+                  subtitle: opioidDays != null ? Text("Day $opioidDays") : null,
                   leading: const Icon(Icons.medication),
                   onTap: () async {
                     await Navigator.of(context).push(

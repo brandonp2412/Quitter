@@ -74,7 +74,7 @@ Future<void> notifyProgress(FlutterLocalNotificationsPlugin plugin) async {
 
   final selectedJourney = activeJourneys[random.nextInt(activeJourneys.length)];
   final quitDateString = prefs.getString(selectedJourney['key']!);
-  final days = daysCeil(quitDateString);
+  final days = daysCeil(quitDateString!);
 
   final randomMessage = messages[random.nextInt(messages.length)];
   final notificationTitle =
