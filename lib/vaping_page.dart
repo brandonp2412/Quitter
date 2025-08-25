@@ -273,6 +273,7 @@ class _VapingPageState extends State<VapingPage> {
                           onChanged: (value) async {
                             setState(() {
                               currentDay = int.tryParse(value) ?? 0;
+                              started = true;
                             });
 
                             final quitOn = DateTime.now().subtract(

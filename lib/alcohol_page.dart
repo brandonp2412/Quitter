@@ -259,6 +259,7 @@ class _AlcoholPageState extends State<AlcoholPage> {
                     onChanged: (value) async {
                       setState(() {
                         currentDay = int.tryParse(value) ?? 0;
+                        started = true;
                       });
 
                       final quitOn = DateTime.now().subtract(
