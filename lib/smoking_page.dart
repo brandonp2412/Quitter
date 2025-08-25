@@ -13,7 +13,7 @@ class SmokingPage extends StatefulWidget {
 }
 
 class _SmokingPageState extends State<SmokingPage> {
-  int currentDay = 0;
+  int currentDay = 1;
   bool started = false;
   bool showConfetti = false;
   final controller = TextEditingController();
@@ -126,7 +126,7 @@ class _SmokingPageState extends State<SmokingPage> {
 
   void _handleStartPressed() {
     setState(() {
-      currentDay = 0;
+      currentDay = 1;
       started = true;
       showConfetti = true;
       controller.text = '0';

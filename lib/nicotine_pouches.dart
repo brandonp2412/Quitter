@@ -13,7 +13,7 @@ class NicotinePouchesPage extends StatefulWidget {
 }
 
 class _NicotinePouchesPageState extends State<NicotinePouchesPage> {
-  int currentDay = 0;
+  int currentDay = 1;
   bool started = false;
   bool showConfetti = false;
   final controller = TextEditingController();
@@ -123,7 +123,7 @@ class _NicotinePouchesPageState extends State<NicotinePouchesPage> {
 
   void _handleStartPressed() {
     setState(() {
-      currentDay = 0;
+      currentDay = 1;
       started = true;
       showConfetti = true;
       controller.text = '0';

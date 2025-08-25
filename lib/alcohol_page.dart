@@ -14,7 +14,7 @@ class AlcoholPage extends StatefulWidget {
 }
 
 class _AlcoholPageState extends State<AlcoholPage> {
-  int currentDay = 0;
+  int currentDay = 1;
   bool started = false;
   bool showConfetti = false;
   final controller = TextEditingController(text: '');
@@ -126,7 +126,7 @@ class _AlcoholPageState extends State<AlcoholPage> {
 
   void _handleStartPressed() {
     setState(() {
-      currentDay = 0;
+      currentDay = 1;
       started = true;
       showConfetti = true;
       controller.text = '0';
