@@ -10,5 +10,8 @@ int daysCeil(String dateStr) {
 
   final quitDateOnly = DateTime(quitDate.year, quitDate.month, quitDate.day);
   final nowDateOnly = DateTime(now.year, now.month, now.day);
-  return nowDateOnly.difference(quitDateOnly).inDays + 1;
+  final result = nowDateOnly.difference(quitDateOnly).inDays;
+
+  if (result == 0) return 1;
+  return result;
 }
