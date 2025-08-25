@@ -65,7 +65,7 @@ class SettingsProvider extends ChangeNotifier {
     _notifyVaping = _prefs!.getBool(_notifyVapingKey) ?? true;
     _notifySmoking = _prefs!.getBool(_notifySmokingKey) ?? true;
     _notifyOpioids = _prefs!.getBool(_notifyOpioidsKey) ?? true;
-    _showNicotinePouches = _prefs!.getBool(_notifyPouchesKey) ?? true;
+    _showNicotinePouches = _prefs!.getBool(_nicotinePouchesKey) ?? true;
 
     notifyListeners();
   }
