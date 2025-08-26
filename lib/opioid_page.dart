@@ -274,7 +274,7 @@ class _OpioidPageState extends State<OpioidPage> {
                           keyboardType: TextInputType.number,
                           onChanged: (value) async {
                             setState(() {
-                              currentDay = int.tryParse(value) ?? 0;
+                              currentDay = int.tryParse(value) ?? 1;
                               started = true;
                             });
 
