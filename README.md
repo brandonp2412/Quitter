@@ -20,6 +20,8 @@ Record your quitting journey with a Free and Open Source app.
 	<img src="./docs/download-msstore.svg" style="height: 86px !important"/>
 </a>
 
+# Screenshots
+
 <p class="float-left">
     <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/1_home_page_en-US.png" alt="Home" height="600" alt="Home page">
     <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/2_alcohol_page_en-US.png" alt="Alcohol" height="600" alt="Alcohol page">
