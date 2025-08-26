@@ -194,6 +194,7 @@ class _AlcoholPageState extends State<AlcoholPage> {
                     onTap: () => selectAll(controller),
                     controller: controller,
                     decoration: InputDecoration(
+                      floatingLabelBehavior: FloatingLabelBehavior.always,
                       labelText: 'Enter your current day',
                       labelStyle: TextStyle(
                         color: Theme.of(

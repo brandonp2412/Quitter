@@ -202,6 +202,7 @@ class _SmokingPageState extends State<SmokingPage> {
                           onTap: () => selectAll(controller),
                           controller: controller,
                           decoration: InputDecoration(
+                            floatingLabelBehavior: FloatingLabelBehavior.always,
                             labelText: 'Enter your current day',
                             suffixIcon: IconButton(
                               onPressed: () async {

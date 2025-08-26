@@ -198,6 +198,7 @@ class _NicotinePouchesPageState extends State<NicotinePouchesPage> {
                           onTap: () => selectAll(controller),
                           controller: controller,
                           decoration: InputDecoration(
+                            floatingLabelBehavior: FloatingLabelBehavior.always,
                             labelText: 'Enter your current day',
                             labelStyle: TextStyle(
                               color: colorScheme.onPrimary.withAlpha(180),

@@ -326,9 +326,6 @@ class QuitterApp extends StatelessWidget {
               theme: ThemeData(
                 colorScheme: lightColorScheme,
                 useMaterial3: true,
-                inputDecorationTheme: InputDecorationTheme(
-                  floatingLabelBehavior: FloatingLabelBehavior.always,
-                ),
               ),
               darkTheme: ThemeData(
                 colorScheme: darkColorScheme,
