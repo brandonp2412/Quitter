@@ -232,7 +232,7 @@ class _SmokingPageState extends State<SmokingPage> {
                                 currentDay > 7
                                     ? Icons.calendar_month
                                     : Icons.calendar_today,
-                                color: Colors.white,
+                                color: Theme.of(context).colorScheme.surface,
                               ),
                             ),
                             labelStyle: TextStyle(

@@ -231,7 +231,7 @@ class _NicotinePouchesPageState extends State<NicotinePouchesPage> {
                                 currentDay > 7
                                     ? Icons.calendar_month
                                     : Icons.calendar_today,
-                                color: Colors.white,
+                                color: Theme.of(context).colorScheme.surface,
                               ),
                             ),
                             border: OutlineInputBorder(
