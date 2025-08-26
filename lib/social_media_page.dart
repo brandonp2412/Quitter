@@ -1,25 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:quitter/confetti_widget.dart';
 import 'package:quitter/quit_milestone.dart';
-import 'package:quitter/timeline_tile.dart';
-import 'package:quitter/utils.dart';
-import 'package:shared_preferences/shared_preferences.dart';
+import 'package:quitter/quit_page_template.dart';
 
-class SocialMediaPage extends StatefulWidget {
+class SocialMediaPage extends StatelessWidget {
   const SocialMediaPage({super.key});
 
-  @override
-  State<SocialMediaPage> createState() => _SocialMediaPageState();
-}
-
-class _SocialMediaPageState extends State<SocialMediaPage> {
-  int currentDay = 1;
-  bool started = true;
-  bool showConfetti = false;
-  final controller = TextEditingController();
-  final ScrollController _scrollController = ScrollController();
-
-  final List<QuitMilestone> milestones = [
+  final List<QuitMilestone> milestones = const [
     QuitMilestone(
       day: 1,
       title: "Digital Detox Day One! 🎯",
@@ -99,247 +85,17 @@ class _SocialMediaPageState extends State<SocialMediaPage> {
   ];
 
   @override
-  void initState() {
-    super.initState();
-    SharedPreferences.getInstance().then((prefs) {
-      final quitOn = prefs.getString('social_media');
-      if (quitOn == null)
-        return setState(() {
-          started = false;
-        });
-
-      setState(() {
-        currentDay = daysCeil(quitOn);
-        controller.text = currentDay.toString();
-      });
-
-      final index = milestones.indexWhere((m) => currentDay < m.day);
-      final targetIndex = index == -1 ? milestones.length - 1 : index;
-
-      _scrollController.jumpTo(targetIndex * 270 - 180);
-    });
-  }
-
-  void _handleStartPressed() {
-    setState(() {
-      currentDay = 1;
-      started = true;
-      showConfetti = true;
-      controller.text = '1';
-    });
-
-    SharedPreferences.getInstance().then((prefs) {
-      prefs.setString('social_media', DateTime.now().toIso8601String());
-    });
-
-    Future.delayed(const Duration(milliseconds: 2500), () {
-      if (mounted) {
-        setState(() {
-          showConfetti = false;
-        });
-      }
-    });
-  }
-
-  @override
   Widget build(BuildContext context) {
-    final theme = Theme.of(context);
-    final colorScheme = theme.colorScheme;
-
-    return ConfettiWidget(
-      isActive: showConfetti,
-      child: Scaffold(
-        backgroundColor: colorScheme.surface,
-        appBar: AppBar(
-          leading: IconButton(
-            onPressed: () => Navigator.of(context).pop(),
-            icon: Icon(Icons.arrow_back),
-            color: colorScheme.surface,
-          ),
-          title: Text(
-            'Digital Detox Delight!',
-            style: TextStyle(color: colorScheme.onPrimary),
-          ),
-          backgroundColor: colorScheme.primary,
-          elevation: 0,
-        ),
-        body: Column(
-          children: [
-            // Progress Header
-            Container(
-              width: double.infinity,
-              padding: const EdgeInsets.all(24.0),
-              decoration: BoxDecoration(
-                color: colorScheme.primary,
-                borderRadius: const BorderRadius.only(
-                  bottomLeft: Radius.circular(24),
-                  bottomRight: Radius.circular(24),
-                ),
-              ),
-              child: Column(
-                children: [
-                  Text(
-                    started
-                        ? 'Day $currentDay: Unplug & Play!'
-                        : 'Your Fresh Start!',
-                    style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                      color: colorScheme.onPrimary,
-                    ),
-                  ),
-                  const SizedBox(height: 8),
-                  Text(
-                    started
-                        ? 'Real life is the best feed! 💖'
-                        : 'Ready to reclaim your time? 🚀',
-                    style: TextStyle(
-                      fontSize: 16,
-                      color: colorScheme.onPrimary,
-                    ),
-                  ),
-                  const SizedBox(height: 16),
-                  Row(
-                    children: [
-                      Expanded(
-                        child: TextField(
-                          onTap: () => selectAll(controller),
-                          controller: controller,
-                          decoration: InputDecoration(
-                            hintText: '1',
-                            hintStyle: TextStyle(
-                              color: Theme.of(context).colorScheme.onPrimary
-                                  .withAlpha((255 * 0.7).round()),
-                            ),
-                            floatingLabelBehavior: FloatingLabelBehavior.always,
-                            labelText: 'Enter your current day',
-                            suffixIcon: IconButton(
-                              onPressed: () async {
-                                final current = DateTime.now().subtract(
-                                  Duration(days: currentDay),
-                                );
-                                final date = await showDatePicker(
-                                  context: context,
-                                  initialDate: current,
-                                  firstDate: DateTime(0),
-                                  lastDate: DateTime.now(),
-                                );
-                                if (date == null) return;
-                                setState(() {
-                                  currentDay = daysCeil(date.toIso8601String());
-                                });
-                                controller.text = currentDay.toString();
-
-                                final prefs =
-                                    await SharedPreferences.getInstance();
-                                prefs.setString(
-                                  'social_media',
-                                  date.toIso8601String(),
-                                );
-                              },
-                              icon: Icon(
-                                currentDay > 7
-                                    ? Icons.calendar_month
-                                    : Icons.calendar_today,
-                                color: Theme.of(context).colorScheme.surface,
-                              ),
-                            ),
-                            labelStyle: TextStyle(
-                              color: colorScheme.onPrimary.withAlpha(180),
-                            ),
-                            border: OutlineInputBorder(
-                              borderRadius: BorderRadius.circular(12),
-                              borderSide: BorderSide(
-                                color: colorScheme.onPrimary,
-                              ),
-                            ),
-                            enabledBorder: OutlineInputBorder(
-                              borderRadius: BorderRadius.circular(12),
-                              borderSide: BorderSide(
-                                color: colorScheme.onPrimary,
-                              ),
-                            ),
-                            focusedBorder: OutlineInputBorder(
-                              borderRadius: BorderRadius.circular(12),
-                              borderSide: BorderSide(
-                                color: colorScheme.onPrimary,
-                                width: 2,
-                              ),
-                            ),
-                          ),
-                          style: TextStyle(color: colorScheme.onPrimary),
-                          keyboardType: TextInputType.number,
-                          onChanged: (value) async {
-                            setState(() {
-                              currentDay = int.tryParse(value) ?? 1;
-                              started = true;
-                            });
-
-                            final quitOn = DateTime.now().subtract(
-                              Duration(days: currentDay),
-                            );
-                            final prefs = await SharedPreferences.getInstance();
-                            prefs.setString(
-                              'social_media',
-                              quitOn.toIso8601String(),
-                            );
-
-                            final index = milestones.indexWhere(
-                              (m) => currentDay < m.day,
-                            );
-                            final targetIndex = index == -1
-                                ? milestones.length - 1
-                                : index;
-
-                            _scrollController.animateTo(
-                              targetIndex * 150.0,
-                              duration: const Duration(milliseconds: 500),
-                              curve: Curves.easeInOut,
-                            );
-                          },
-                        ),
-                      ),
-                    ],
-                  ),
-                ],
-              ),
-            ),
-            // Timeline
-            Expanded(
-              child: ListView.builder(
-                controller: _scrollController,
-                padding: const EdgeInsets.all(16.0),
-                itemCount: milestones.length,
-                itemBuilder: (context, index) {
-                  final milestone = milestones[index];
-                  final isCompleted = currentDay >= milestone.day;
-                  final isNext =
-                      !isCompleted &&
-                      (index == 0 || currentDay >= milestones[index - 1].day);
-
-                  return TimelineTile(
-                    milestone: milestone,
-                    isCompleted: isCompleted,
-                    isNext: isNext,
-                    isLast: index == milestones.length - 1,
-                  );
-                },
-              ),
-            ),
-          ],
-        ),
-        floatingActionButton: AnimatedSwitcher(
-          duration: const Duration(milliseconds: 150),
-          transitionBuilder: (child, animation) =>
-              ScaleTransition(scale: animation, child: child),
-          child: started
-              ? null
-              : FloatingActionButton.extended(
-                  key: ValueKey('start_fab'),
-                  onPressed: _handleStartPressed,
-                  label: Text("Start Your Journey"),
-                  icon: Icon(Icons.rocket_launch),
-                ),
-        ),
-      ),
+    return QuitPageTemplate(
+      title: 'Digital Detox Delight!',
+      storageKey: 'social_media',
+      milestones: milestones,
+      headerTextStartedBuilder: (currentDay) =>
+          'Day $currentDay: Unplug & Play!',
+      headerTextNotStarted: 'Your Fresh Start!',
+      headerSubtitleStartedBuilder: (currentDay) =>
+          'Real life is the best feed! 💖',
+      headerSubtitleNotStarted: 'Ready to reclaim your time? 🚀',
     );
   }
 }

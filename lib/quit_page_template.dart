@@ -1,0 +1,321 @@
+import 'package:flutter/material.dart';
+import 'package:quitter/confetti_widget.dart';
+import 'package:quitter/quit_milestone.dart';
+import 'package:quitter/timeline_tile.dart';
+import 'package:quitter/utils.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+
+class QuitPageTemplate extends StatefulWidget {
+  final String title;
+  final String storageKey;
+  final List<QuitMilestone> milestones;
+  final String Function(int currentDay) headerTextStartedBuilder;
+  final String headerTextNotStarted;
+  final String Function(int currentDay) headerSubtitleStartedBuilder;
+  final String headerSubtitleNotStarted;
+  final String? infoBoxMessage;
+
+  const QuitPageTemplate({
+    super.key,
+    required this.title,
+    required this.storageKey,
+    required this.milestones,
+    required this.headerTextStartedBuilder,
+    required this.headerTextNotStarted,
+    required this.headerSubtitleStartedBuilder,
+    required this.headerSubtitleNotStarted,
+    this.infoBoxMessage,
+  });
+
+  @override
+  State<QuitPageTemplate> createState() => _QuitPageTemplateState();
+}
+
+class _QuitPageTemplateState extends State<QuitPageTemplate> {
+  int currentDay = 1;
+  bool started = true;
+  bool showConfetti = false;
+  final controller = TextEditingController();
+  final ScrollController _scrollController = ScrollController();
+
+  @override
+  void initState() {
+    super.initState();
+    SharedPreferences.getInstance().then((prefs) {
+      final quitOn = prefs.getString(widget.storageKey);
+      if (quitOn == null) {
+        return setState(() {
+          started = false;
+        });
+      }
+
+      setState(() {
+        currentDay = daysCeil(quitOn);
+        controller.text = currentDay.toString();
+      });
+
+      if (_scrollController.hasClients) {
+        final index = widget.milestones.indexWhere((m) => currentDay < m.day);
+        final targetIndex = index == -1 ? widget.milestones.length - 1 : index;
+        // Adjust scroll position based on the item height and desired offset
+        _scrollController.jumpTo(
+          targetIndex * 270 - 230,
+        ); // Standardized scroll position
+      }
+    });
+  }
+
+  void _handleStartPressed() {
+    setState(() {
+      currentDay = 1;
+      started = true;
+      showConfetti = true;
+      controller.text = '1';
+    });
+
+    SharedPreferences.getInstance().then((prefs) {
+      prefs.setString(widget.storageKey, DateTime.now().toIso8601String());
+    });
+
+    Future.delayed(const Duration(milliseconds: 2500), () {
+      if (mounted) {
+        setState(() {
+          showConfetti = false;
+        });
+      }
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final colorScheme = theme.colorScheme;
+
+    return ConfettiWidget(
+      isActive: showConfetti,
+      child: Scaffold(
+        backgroundColor: colorScheme.surface,
+        appBar: AppBar(
+          leading: IconButton(
+            onPressed: () => Navigator.of(context).pop(),
+            icon: Icon(Icons.arrow_back),
+            color: colorScheme.surface,
+          ),
+          title: Text(
+            widget.title,
+            style: TextStyle(color: colorScheme.onPrimary),
+          ),
+          backgroundColor: colorScheme.primary,
+          elevation: 0,
+        ),
+        body: Column(
+          children: [
+            Container(
+              width: double.infinity,
+              padding: const EdgeInsets.all(24.0),
+              decoration: BoxDecoration(
+                color: colorScheme.primary,
+                borderRadius: const BorderRadius.only(
+                  bottomLeft: Radius.circular(24),
+                  bottomRight: Radius.circular(24),
+                ),
+              ),
+              child: Column(
+                children: [
+                  Text(
+                    started
+                        ? widget.headerTextStartedBuilder(currentDay)
+                        : widget.headerTextNotStarted,
+                    style: Theme.of(context).textTheme.headlineMedium?.copyWith(
+                      color: colorScheme.onPrimary,
+                    ),
+                  ),
+                  const SizedBox(height: 8),
+                  Text(
+                    started
+                        ? widget.headerSubtitleStartedBuilder(currentDay)
+                        : widget.headerSubtitleNotStarted,
+                    style: TextStyle(
+                      fontSize: 16,
+                      color: colorScheme.onPrimary,
+                    ),
+                  ),
+                  const SizedBox(height: 16),
+                  Row(
+                    children: [
+                      Expanded(
+                        child: TextField(
+                          onTap: () => selectAll(controller),
+                          controller: controller,
+                          decoration: InputDecoration(
+                            hintText: '1',
+                            hintStyle: TextStyle(
+                              color: Theme.of(context).colorScheme.onPrimary
+                                  .withAlpha((255 * 0.7).round()),
+                            ),
+                            floatingLabelBehavior: FloatingLabelBehavior.always,
+                            labelText: 'Enter your current day',
+                            labelStyle: TextStyle(
+                              color: colorScheme.onPrimary.withAlpha(180),
+                            ),
+                            suffixIcon: IconButton(
+                              onPressed: () async {
+                                final current = DateTime.now().subtract(
+                                  Duration(days: currentDay),
+                                );
+                                final date = await showDatePicker(
+                                  context: context,
+                                  initialDate: current,
+                                  firstDate: DateTime(0),
+                                  lastDate: DateTime.now(),
+                                );
+                                if (date == null) return;
+                                setState(() {
+                                  currentDay = daysCeil(date.toIso8601String());
+                                });
+                                controller.text = currentDay.toString();
+
+                                final prefs =
+                                    await SharedPreferences.getInstance();
+                                prefs.setString(
+                                  widget.storageKey,
+                                  date.toIso8601String(),
+                                );
+                              },
+                              icon: Icon(
+                                currentDay > 7
+                                    ? Icons.calendar_month
+                                    : Icons.calendar_today,
+                                color: Theme.of(context).colorScheme.surface,
+                              ),
+                            ),
+                            border: OutlineInputBorder(
+                              borderRadius: BorderRadius.circular(12),
+                              borderSide: BorderSide(
+                                color: colorScheme.onPrimary,
+                              ),
+                            ),
+                            enabledBorder: OutlineInputBorder(
+                              borderRadius: BorderRadius.circular(12),
+                              borderSide: BorderSide(
+                                color: colorScheme.onPrimary,
+                              ),
+                            ),
+                            focusedBorder: OutlineInputBorder(
+                              borderRadius: BorderRadius.circular(12),
+                              borderSide: BorderSide(
+                                color: colorScheme.onPrimary,
+                                width: 2,
+                              ),
+                            ),
+                          ),
+                          style: TextStyle(color: colorScheme.onPrimary),
+                          keyboardType: TextInputType.number,
+                          onChanged: (value) async {
+                            setState(() {
+                              currentDay = int.tryParse(value) ?? 1;
+                              started = true;
+                            });
+
+                            final quitOn = DateTime.now().subtract(
+                              Duration(days: currentDay),
+                            );
+                            final prefs = await SharedPreferences.getInstance();
+                            prefs.setString(
+                              widget.storageKey,
+                              quitOn.toIso8601String(),
+                            );
+
+                            final index = widget.milestones.indexWhere(
+                              (m) => currentDay < m.day,
+                            );
+                            final targetIndex = index == -1
+                                ? widget.milestones.length - 1
+                                : index;
+
+                            _scrollController.animateTo(
+                              targetIndex * 150.0,
+                              duration: const Duration(milliseconds: 500),
+                              curve: Curves.easeInOut,
+                            );
+                          },
+                        ),
+                      ),
+                    ],
+                  ),
+                  if (widget.infoBoxMessage != null) ...[
+                    const SizedBox(height: 16),
+                    Container(
+                      padding: const EdgeInsets.all(12),
+                      decoration: BoxDecoration(
+                        color: colorScheme.onPrimary.withAlpha(
+                          (255 * 0.1).round(),
+                        ),
+                        borderRadius: BorderRadius.circular(8),
+                      ),
+                      child: Row(
+                        children: [
+                          Icon(
+                            Icons.health_and_safety,
+                            size: 16,
+                            color: colorScheme.onPrimary,
+                          ),
+                          const SizedBox(width: 8),
+                          Expanded(
+                            child: Text(
+                              widget.infoBoxMessage!,
+                              style: TextStyle(
+                                fontSize: 12,
+                                color: colorScheme.onPrimary,
+                                fontWeight: FontWeight.w500,
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ],
+              ),
+            ),
+            Expanded(
+              child: ListView.builder(
+                controller: _scrollController,
+                padding: const EdgeInsets.all(16.0),
+                itemCount: widget.milestones.length,
+                itemBuilder: (context, index) {
+                  final milestone = widget.milestones[index];
+                  final isCompleted = currentDay >= milestone.day;
+                  final isNext =
+                      !isCompleted &&
+                      (index == 0 ||
+                          currentDay >= widget.milestones[index - 1].day);
+
+                  return TimelineTile(
+                    milestone: milestone,
+                    isCompleted: isCompleted,
+                    isNext: isNext,
+                    isLast: index == widget.milestones.length - 1,
+                  );
+                },
+              ),
+            ),
+          ],
+        ),
+        floatingActionButton: AnimatedSwitcher(
+          duration: const Duration(milliseconds: 150),
+          transitionBuilder: (child, animation) =>
+              ScaleTransition(scale: animation, child: child),
+          child: started
+              ? null
+              : FloatingActionButton.extended(
+                  key: ValueKey('start_fab'),
+                  onPressed: _handleStartPressed,
+                  label: Text("Start Your Journey"),
+                  icon: Icon(Icons.rocket_launch),
+                ),
+        ),
+      ),
+    );
+  }
+}

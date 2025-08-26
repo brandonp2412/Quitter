@@ -5,7 +5,7 @@ class QuitMilestone {
   final String reference;
   final String link;
 
-  QuitMilestone({
+  const QuitMilestone({
     required this.day,
     required this.title,
     required this.description,
