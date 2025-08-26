@@ -16,7 +16,7 @@ class AboutPage extends StatelessWidget {
           SizedBox(
             height: 100,
             child: SvgPicture.asset(
-              'assets/icon/neurology.svg',
+              'assets/neurology.svg',
               color: Theme.of(context).colorScheme.onSurface,
             ),
           ),

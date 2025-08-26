@@ -125,7 +125,7 @@ class _HomePageState extends State<HomePage> {
         leading: Padding(
           padding: const EdgeInsets.all(4.0),
           child: SvgPicture.asset(
-            'assets/icon/neurology.svg',
+            'assets/neurology.svg',
             color: Theme.of(context).colorScheme.surface,
           ),
         ),
