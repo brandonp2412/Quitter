@@ -18,6 +18,7 @@ dependencies:
   url_launcher: ^6.3.2
   msix: ^3.16.12
   package_info_plus: ^8.3.1
+  intl: ^0.20.2
 dev_dependencies:
   flutter_test:
     sdk: flutter

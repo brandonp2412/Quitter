@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
 import 'package:dynamic_color/dynamic_color.dart';
 import 'package:quitter/color_scheme_helper.dart';
@@ -29,6 +30,12 @@ class _HomePageState extends State<HomePage> {
   int? pouchesDays;
   int? opioidDays;
   int? socialMediaDays;
+  String? quitAlcohol;
+  String? quitVaping;
+  String? quitSmoking;
+  String? quitPouches;
+  String? quitOpioids;
+  String? quitSocialMedia;
 
   @override
   void initState() {
@@ -39,22 +46,24 @@ class _HomePageState extends State<HomePage> {
   void _loadQuitDays() async {
     final prefs = await SharedPreferences.getInstance();
 
-    final quitSmoking = prefs.getString('smoking');
-    final quitVaping = prefs.getString('vaping');
-    final quitAlcohol = prefs.getString('alcohol');
-    final quitOpioids = prefs.getString('opioids');
-    final quitPouches = prefs.getString('nicotine_pouches');
-    final quitSocialMedia = prefs.getString('social_media');
+    setState(() {
+      quitSmoking = prefs.getString('smoking');
+      quitVaping = prefs.getString('vaping');
+      quitAlcohol = prefs.getString('alcohol');
+      quitOpioids = prefs.getString('opioids');
+      quitPouches = prefs.getString('nicotine_pouches');
+      quitSocialMedia = prefs.getString('social_media');
+    });
 
     if (mounted) {
       setState(() {
-        if (quitSmoking != null) smokingDays = daysCeil(quitSmoking);
-        if (quitAlcohol != null) alcoholDays = daysCeil(quitAlcohol);
-        if (quitVaping != null) vapingDays = daysCeil(quitVaping);
-        if (quitOpioids != null) opioidDays = daysCeil(quitOpioids);
-        if (quitPouches != null) pouchesDays = daysCeil(quitPouches);
+        if (quitSmoking != null) smokingDays = daysCeil(quitSmoking!);
+        if (quitAlcohol != null) alcoholDays = daysCeil(quitAlcohol!);
+        if (quitVaping != null) vapingDays = daysCeil(quitVaping!);
+        if (quitOpioids != null) opioidDays = daysCeil(quitOpioids!);
+        if (quitPouches != null) pouchesDays = daysCeil(quitPouches!);
         if (quitSocialMedia != null)
-          socialMediaDays = daysCeil(quitSocialMedia);
+          socialMediaDays = daysCeil(quitSocialMedia!);
       });
     }
   }
@@ -142,6 +151,12 @@ class _HomePageState extends State<HomePage> {
                       ? Text("Day $alcoholDays")
                       : null,
                   leading: const Icon(Icons.local_bar),
+                  trailing: Text(
+                    quitAlcohol != null
+                        ? DateFormat.yMd().format(DateTime.parse(quitAlcohol!))
+                        : "",
+                    style: Theme.of(context).textTheme.bodySmall,
+                  ),
                   onTap: () async {
                     await Navigator.of(context).push(
                       MaterialPageRoute(builder: (context) => AlcoholPage()),
@@ -162,6 +177,12 @@ class _HomePageState extends State<HomePage> {
                   title: const Text("Vaping"),
                   subtitle: vapingDays != null ? Text("Day $vapingDays") : null,
                   leading: const Icon(Icons.air),
+                  trailing: Text(
+                    quitVaping != null
+                        ? DateFormat.yMd().format(DateTime.parse(quitVaping!))
+                        : "",
+                    style: Theme.of(context).textTheme.bodySmall,
+                  ),
                   onTap: () async {
                     await Navigator.of(context).push(
                       MaterialPageRoute(builder: (context) => VapingPage()),
@@ -184,6 +205,12 @@ class _HomePageState extends State<HomePage> {
                       ? Text("Day $smokingDays")
                       : null,
                   leading: const Icon(Icons.eco),
+                  trailing: Text(
+                    quitSmoking != null
+                        ? DateFormat.yMd().format(DateTime.parse(quitVaping!))
+                        : "",
+                    style: Theme.of(context).textTheme.bodySmall,
+                  ),
                   onTap: () async {
                     await Navigator.of(context).push(
                       MaterialPageRoute(builder: (context) => SmokingPage()),
@@ -205,6 +232,12 @@ class _HomePageState extends State<HomePage> {
                   subtitle: pouchesDays != null
                       ? Text("Day $pouchesDays")
                       : null,
+                  trailing: Text(
+                    quitPouches != null
+                        ? DateFormat.yMd().format(DateTime.parse(quitPouches!))
+                        : "",
+                    style: Theme.of(context).textTheme.bodySmall,
+                  ),
                   leading: const Icon(Icons.scatter_plot),
                   onTap: () async {
                     await Navigator.of(context).push(
@@ -228,6 +261,12 @@ class _HomePageState extends State<HomePage> {
                   title: const Text("Opioids"),
                   subtitle: opioidDays != null ? Text("Day $opioidDays") : null,
                   leading: const Icon(Icons.medication),
+                  trailing: Text(
+                    quitOpioids != null
+                        ? DateFormat.yMd().format(DateTime.parse(quitOpioids!))
+                        : "",
+                    style: Theme.of(context).textTheme.bodySmall,
+                  ),
                   onTap: () async {
                     await Navigator.of(context).push(
                       MaterialPageRoute(builder: (context) => OpioidPage()),
@@ -250,6 +289,14 @@ class _HomePageState extends State<HomePage> {
                       ? Text("Day $socialMediaDays")
                       : null,
                   leading: const Icon(Icons.public),
+                  trailing: Text(
+                    quitSocialMedia != null
+                        ? DateFormat.yMd().format(
+                            DateTime.parse(quitSocialMedia!),
+                          )
+                        : "",
+                    style: Theme.of(context).textTheme.bodySmall,
+                  ),
                   onTap: () async {
                     await Navigator.of(context).push(
                       MaterialPageRoute(
