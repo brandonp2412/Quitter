@@ -1,5 +1,1 @@
-• Customize titles and subtitles
-• Generate icons again
-• Prevent label animations
-• Prevent version mismatch when developing locally
-• Use surface color for calendar picker button
+
