@@ -163,7 +163,7 @@ class _VapingPageState extends State<VapingPage> {
             color: colorScheme.surface,
           ),
           title: Text(
-            'Quit vaping journey',
+            'Vape-Free Victory!',
             style: TextStyle(color: colorScheme.onPrimary),
           ),
           backgroundColor: colorScheme.primary,
@@ -184,7 +184,9 @@ class _VapingPageState extends State<VapingPage> {
               child: Column(
                 children: [
                   Text(
-                    started ? 'Day $currentDay' : 'This is just the Beginning',
+                    started
+                        ? 'Day $currentDay: Clear Skies Ahead!'
+                        : 'Your Fresh Start!',
                     style: Theme.of(context).textTheme.headlineMedium?.copyWith(
                       color: colorScheme.onPrimary,
                     ),
@@ -192,8 +194,8 @@ class _VapingPageState extends State<VapingPage> {
                   const SizedBox(height: 8),
                   Text(
                     started
-                        ? 'Breaking free from the cloud! ☁️ 🌟'
-                        : 'Your journey starts with a single step! 🌟',
+                        ? 'Breathing easy, living free! 🌬️'
+                        : 'Ready to ditch the vape? ✨',
                     style: TextStyle(
                       fontSize: 16,
                       color: colorScheme.onPrimary,

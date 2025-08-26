@@ -153,7 +153,7 @@ class _AlcoholPageState extends State<AlcoholPage> {
             color: Theme.of(context).colorScheme.surface,
           ),
           title: Text(
-            'Quit alcohol journey',
+            'Sober & Sparkling!',
             style: TextStyle(color: Theme.of(context).colorScheme.surface),
           ),
           backgroundColor: Theme.of(context).colorScheme.primary,
@@ -174,7 +174,9 @@ class _AlcoholPageState extends State<AlcoholPage> {
               child: Column(
                 children: [
                   Text(
-                    started ? 'Day $currentDay' : 'This is just the Beginning',
+                    started
+                        ? 'Day $currentDay: Cheers to You!'
+                        : 'Your Fresh Start!',
                     style: Theme.of(context).textTheme.headlineMedium?.copyWith(
                       color: Theme.of(context).colorScheme.surface,
                     ),
@@ -182,8 +184,8 @@ class _AlcoholPageState extends State<AlcoholPage> {
                   const SizedBox(height: 8),
                   Text(
                     started
-                        ? 'Every day is a victory! 🎉'
-                        : 'Your journey starts with a single step! 🌟',
+                        ? 'Every day is a win! 🥳'
+                        : 'Ready for a brighter you? ✨',
                     style: TextStyle(
                       fontSize: 16,
                       color: Theme.of(context).colorScheme.surface,

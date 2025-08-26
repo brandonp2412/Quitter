@@ -157,7 +157,7 @@ class _SmokingPageState extends State<SmokingPage> {
             color: colorScheme.surface,
           ),
           title: Text(
-            'Quit smoking journey',
+            'Smoke-Free & Soaring!',
             style: TextStyle(color: colorScheme.onPrimary),
           ),
           backgroundColor: colorScheme.primary,
@@ -179,7 +179,9 @@ class _SmokingPageState extends State<SmokingPage> {
               child: Column(
                 children: [
                   Text(
-                    started ? 'Day $currentDay' : 'This is just the Beginning',
+                    started
+                        ? 'Day $currentDay: Breathe Easy!'
+                        : 'Your Fresh Start!',
                     style: Theme.of(context).textTheme.headlineMedium?.copyWith(
                       color: colorScheme.onPrimary,
                     ),
@@ -187,8 +189,8 @@ class _SmokingPageState extends State<SmokingPage> {
                   const SizedBox(height: 8),
                   Text(
                     started
-                        ? 'Smoke-free and loving it! ✨'
-                        : 'Your journey starts with a single step! 🌟',
+                        ? 'Every puff-free day is a win! 🚭'
+                        : 'Ready to reclaim your health? ✨',
                     style: TextStyle(
                       fontSize: 16,
                       color: colorScheme.onPrimary,

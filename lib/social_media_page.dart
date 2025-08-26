@@ -157,7 +157,7 @@ class _SocialMediaPageState extends State<SocialMediaPage> {
             color: colorScheme.surface,
           ),
           title: Text(
-            'Quit social media journey',
+            'Digital Detox Delight!',
             style: TextStyle(color: colorScheme.onPrimary),
           ),
           backgroundColor: colorScheme.primary,
@@ -179,7 +179,9 @@ class _SocialMediaPageState extends State<SocialMediaPage> {
               child: Column(
                 children: [
                   Text(
-                    started ? 'Day $currentDay' : 'This is just the Beginning',
+                    started
+                        ? 'Day $currentDay: Unplug & Play!'
+                        : 'Your Fresh Start!',
                     style: Theme.of(context).textTheme.headlineMedium?.copyWith(
                       color: colorScheme.onPrimary,
                     ),
@@ -187,8 +189,8 @@ class _SocialMediaPageState extends State<SocialMediaPage> {
                   const SizedBox(height: 8),
                   Text(
                     started
-                        ? 'Social media-free and thriving! ✨'
-                        : 'Your journey starts with a single step! 🌟',
+                        ? 'Real life is the best feed! 💖'
+                        : 'Ready to reclaim your time? 🚀',
                     style: TextStyle(
                       fontSize: 16,
                       color: colorScheme.onPrimary,

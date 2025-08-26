@@ -154,7 +154,7 @@ class _NicotinePouchesPageState extends State<NicotinePouchesPage> {
             color: colorScheme.surface,
           ),
           title: Text(
-            'Quit pouches journey',
+            'Pouch-Free Power!',
             style: TextStyle(color: colorScheme.onPrimary),
           ),
           backgroundColor: colorScheme.primary,
@@ -175,7 +175,9 @@ class _NicotinePouchesPageState extends State<NicotinePouchesPage> {
               child: Column(
                 children: [
                   Text(
-                    started ? 'Day $currentDay' : 'This is just the Beginning',
+                    started
+                        ? 'Day $currentDay: Fresh & Free!'
+                        : 'Your Fresh Start!',
                     style: Theme.of(context).textTheme.headlineMedium?.copyWith(
                       color: colorScheme.onPrimary,
                     ),
@@ -183,8 +185,8 @@ class _NicotinePouchesPageState extends State<NicotinePouchesPage> {
                   const SizedBox(height: 8),
                   Text(
                     started
-                        ? 'Breaking free, one day at a time! 💪'
-                        : 'Your journey starts with a single step! 🌟',
+                        ? 'Embrace a brighter, healthier you! ✨'
+                        : 'Ready to ditch the pouches? 🚀',
                     style: TextStyle(
                       fontSize: 16,
                       color: colorScheme.onPrimary,

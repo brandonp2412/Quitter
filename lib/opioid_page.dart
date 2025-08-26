@@ -162,7 +162,7 @@ class _OpioidPageState extends State<OpioidPage> {
             color: colorScheme.surface,
           ),
           title: Text(
-            'Recovery journey',
+            'Path to Peace!',
             style: TextStyle(color: colorScheme.onPrimary),
           ),
           backgroundColor: colorScheme.primary,
@@ -184,7 +184,9 @@ class _OpioidPageState extends State<OpioidPage> {
               child: Column(
                 children: [
                   Text(
-                    started ? 'Day $currentDay' : 'This is just the Beginning',
+                    started
+                        ? 'Day $currentDay: Stronger Every Day!'
+                        : 'Your Fresh Start!',
                     style: Theme.of(context).textTheme.headlineMedium?.copyWith(
                       color: colorScheme.onPrimary,
                     ),
@@ -192,8 +194,8 @@ class _OpioidPageState extends State<OpioidPage> {
                   const SizedBox(height: 8),
                   Text(
                     started
-                        ? 'Healing one day at a time 💜'
-                        : 'Your journey starts with a single step! 🌟',
+                        ? 'Embrace your strength! 💪'
+                        : 'Ready to reclaim your life? 💖',
                     style: TextStyle(
                       fontSize: 16,
                       color: colorScheme.onPrimary,
