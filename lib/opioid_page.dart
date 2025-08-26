@@ -209,6 +209,11 @@ class _OpioidPageState extends State<OpioidPage> {
                           onTap: () => selectAll(controller),
                           controller: controller,
                           decoration: InputDecoration(
+                            hintText: '1',
+                            hintStyle: TextStyle(
+                              color: Theme.of(context).colorScheme.onPrimary
+                                  .withAlpha((255 * 0.7).round()),
+                            ),
                             floatingLabelBehavior: FloatingLabelBehavior.always,
                             labelText: 'Enter your current day',
                             labelStyle: TextStyle(

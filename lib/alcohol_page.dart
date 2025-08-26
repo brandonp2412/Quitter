@@ -197,6 +197,12 @@ class _AlcoholPageState extends State<AlcoholPage> {
                     controller: controller,
                     decoration: InputDecoration(
                       floatingLabelBehavior: FloatingLabelBehavior.always,
+                      hintText: '1',
+                      hintStyle: TextStyle(
+                        color: Theme.of(
+                          context,
+                        ).colorScheme.onPrimary.withAlpha((255 * 0.7).round()),
+                      ),
                       labelText: 'Enter your current day',
                       labelStyle: TextStyle(
                         color: Theme.of(
