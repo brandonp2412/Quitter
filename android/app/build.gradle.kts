@@ -1,13 +1,11 @@
 import java.util.Properties
 import java.io.FileInputStream
-
 plugins {
     id("com.android.application")
     id("kotlin-android")
     // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
     id("dev.flutter.flutter-gradle-plugin")
 }
-
 android {
     namespace = "com.quitter.app"
     compileSdk = flutter.compileSdkVersion
@@ -36,7 +34,7 @@ android {
         }
     }
     
-    // Override version codes for split APKs only (when ABI filters are present)
+    // Override version codes for split APKs and universal APKs
     applicationVariants.all {
         outputs.all {
             val baseVersionCode = flutter.versionCode
@@ -48,15 +46,20 @@ android {
                 "arm64-v8a" to 3
             )
             
-            // Only apply to split APK outputs (when ABI filter exists)
             if (this is com.android.build.gradle.internal.api.ApkVariantOutputImpl) {
                 val output = this as com.android.build.gradle.internal.api.ApkVariantOutputImpl
                 val abiName = output.filters.find { it.filterType == "ABI" }?.identifier
                 
                 if (abiName != null && abiVersionCodes.containsKey(abiName)) {
+                    // Split APK with specific ABI
                     val newVersionCode = baseVersionCode * 10 + abiVersionCodes[abiName]!!
                     output.versionCodeOverride = newVersionCode
                     println("Setting version code for $abiName APK: $newVersionCode")
+                } else {
+                    // Universal APK (no ABI filter) - use highest suffix (3)
+                    val universalVersionCode = baseVersionCode * 10 + 3
+                    output.versionCodeOverride = universalVersionCode
+                    println("Setting version code for UNIVERSAL APK: $universalVersionCode")
                 }
             }
         }
@@ -84,6 +87,14 @@ android {
         release {
             signingConfig = signingConfigs.getByName("release")
         }
+        debug {
+            // Use release signing if available, otherwise fall back to default debug
+            signingConfig = if (signingConfigs.getByName("release").storeFile != null) {
+                signingConfigs.getByName("release")
+            } else {
+                signingConfigs.getByName("debug")
+            }
+        }
     }
     
     dependenciesInfo {
@@ -91,11 +102,9 @@ android {
         includeInBundle = false
     }
 }
-
 flutter {
     source = "../.."
 }
-
 dependencies {
     coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.1.4")
     implementation("androidx.work:work-runtime-ktx:2.7.0")
