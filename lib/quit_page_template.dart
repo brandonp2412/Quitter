@@ -212,15 +212,24 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
                           style: TextStyle(color: colorScheme.onPrimary),
                           keyboardType: TextInputType.number,
                           onChanged: (value) async {
-                            setState(() {
-                              currentDay = int.tryParse(value) ?? 1;
-                              started = true;
-                            });
+                            final prefs = await SharedPreferences.getInstance();
+
+                            final parsed = int.tryParse(value);
+                            if (parsed != null)
+                              setState(() {
+                                currentDay = parsed;
+                                started = true;
+                              });
+                            else
+                              return setState(() {
+                                currentDay = 1;
+                                started = false;
+                                prefs.remove(widget.storageKey);
+                              });
 
                             final quitOn = DateTime.now().subtract(
                               Duration(days: currentDay),
                             );
-                            final prefs = await SharedPreferences.getInstance();
                             prefs.setString(
                               widget.storageKey,
                               quitOn.toIso8601String(),
