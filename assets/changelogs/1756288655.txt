@@ -1,0 +1,2 @@
+• Reduce logging in gradle build
+• Restyle the homepage
