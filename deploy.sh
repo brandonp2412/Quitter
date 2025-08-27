@@ -77,46 +77,25 @@ echo "Changelog number: $changelog_number"
 print_step "Generating changelog"
 changelog_file="fastlane/metadata/android/en-US/changelogs/$changelog_number.txt"
 
-# Use existing changelog if it exists
-if [ -f "$changelog_file" ]; then
-    print_warning "Using existing changelog file: $changelog_file"
-    cat "$changelog_file"
-    changelog=$(cat "$changelog_file")
-    mkdir -p fastlane/metadata/en-AU
-    echo "$changelog" > fastlane/metadata/en-AU/release_notes.txt
-else
-    # Generate new changelog
-    mkdir -p "$(dirname "$changelog_file")"
-    
-    last_tag=$(git describe --tags --abbrev=0 2>/dev/null || echo "")
-    if [ -z "$last_tag" ]; then
-        echo "• Initial release" > "$changelog_file"
-        print_success "Generated initial release changelog"
-        cat "$changelog_file"
-        changelog=$(cat "$changelog_file")
-        mkdir -p fastlane/metadata/en-AU
-        echo "$changelog" > fastlane/metadata/en-AU/release_notes.txt
-    else
-        # Generate changelog from git commits
-        print_step "Generating changelog from git commits since $last_tag"
-        git --no-pager log --pretty=format:'%s' "$last_tag"..HEAD | \
-            sort -u | \
-            grep -v "^Merge " | \
-            grep -v "^Release " | \
-            grep -v "^Bump " | \
-            grep -v "^Update " | \
-            grep -v "^[0-9]\+\.[0-9]\+\.[0-9]\+" | \
-            head -10 | \
-            sed 's/^/• /' > "$changelog_file"
-        
-        changelog=$(cat "$changelog_file")
-        mkdir -p fastlane/metadata/en-AU
-        echo "$changelog" > fastlane/metadata/en-AU/release_notes.txt
-        
-        print_success "Generated changelog:"
-        cat "$changelog_file"
-    fi
-fi
+# Generate new changelog
+mkdir -p "$(dirname "$changelog_file")"
+
+last_tag=$(git describe --tags --abbrev=0 2>/dev/null || echo "")
+print_step "Generating changelog from git commits since $last_tag"
+
+git --no-pager log --pretty=format:'%s' "$last_tag"..HEAD | \
+    sort -u | \
+    grep -v "^Merge " | \
+    grep -v "^Release " | \
+    grep -v "^Bump " | \
+    grep -v "^Update " | \
+    grep -v "^[0-9]\+\.[0-9]\+\.[0-9]\+" | \
+    head -10 | \
+    sed 's/^/• /' > "$changelog_file"
+
+changelog=$(cat "$changelog_file")
+print_success "Generated changelog:"
+cat "$changelog_file"
 
 # Setup Flutter
 print_step "Setting up Flutter from submodule"

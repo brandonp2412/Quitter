@@ -1,3 +1,0 @@
-• Add dates to trailing list
-• Only sign builds if the keys exist
-• Refresh days on app focus

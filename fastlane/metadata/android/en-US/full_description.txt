@@ -1,0 +1,8 @@
+Easily track your journey towards freedom with Quitter.
+
+See how long it's been since you've quit one of many addictions.
+Be notified (at a frequency of your choice) when you reach certain milestones.
+Get educated on the benefits of quitting!
+
+Our app is completely Free and Open Source. That means no ads, and no tracking, ever! 
+If you notice any bugs or want to suggest features, please feel free to visit us at https://github.com/brandonp2412/Quitter/issues
