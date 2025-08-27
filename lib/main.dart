@@ -86,16 +86,29 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
   void _showHideBottomSheet(String title, VoidCallback onConfirm) {
     showModalBottomSheet(
       context: context,
+      backgroundColor: Colors.transparent,
       builder: (BuildContext context) {
         return Container(
-          padding: const EdgeInsets.all(20),
+          margin: const EdgeInsets.all(16),
+          padding: const EdgeInsets.all(24),
+          decoration: BoxDecoration(
+            color: Theme.of(context).colorScheme.surface,
+            borderRadius: BorderRadius.circular(20),
+          ),
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              Icon(
-                Icons.visibility_off,
-                size: 48,
-                color: Theme.of(context).colorScheme.primary,
+              Container(
+                padding: const EdgeInsets.all(16),
+                decoration: BoxDecoration(
+                  color: Theme.of(context).colorScheme.primary.withOpacity(0.1),
+                  shape: BoxShape.circle,
+                ),
+                child: Icon(
+                  Icons.visibility_off,
+                  size: 32,
+                  color: Theme.of(context).colorScheme.primary,
+                ),
               ),
               const SizedBox(height: 16),
               Text(
@@ -106,7 +119,11 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
               const SizedBox(height: 8),
               Text(
                 'This will hide the $title option from your home screen. You can show it again in Settings.',
-                style: Theme.of(context).textTheme.bodyMedium,
+                style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                  color: Theme.of(
+                    context,
+                  ).colorScheme.onSurface.withOpacity(0.7),
+                ),
                 textAlign: TextAlign.center,
               ),
               const SizedBox(height: 24),
@@ -115,6 +132,12 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                   Expanded(
                     child: OutlinedButton(
                       onPressed: () => Navigator.pop(context),
+                      style: OutlinedButton.styleFrom(
+                        padding: const EdgeInsets.symmetric(vertical: 12),
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                      ),
                       child: const Text('Cancel'),
                     ),
                   ),
@@ -125,16 +148,159 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                         Navigator.pop(context);
                         onConfirm();
                       },
+                      style: FilledButton.styleFrom(
+                        padding: const EdgeInsets.symmetric(vertical: 12),
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                      ),
                       child: const Text('Hide'),
                     ),
                   ),
                 ],
               ),
-              const SizedBox(height: 16),
             ],
           ),
         );
       },
+    );
+  }
+
+  Widget _buildQuitCard({
+    required String title,
+    required IconData icon,
+    required List<Color> gradientColors,
+    int? days,
+    String? quitDate,
+    required VoidCallback onTap,
+    required VoidCallback onLongPress,
+  }) {
+    return Hero(
+      tag: title,
+      child: Card(
+        elevation: 0,
+        margin: EdgeInsets.zero,
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+        clipBehavior: Clip.antiAlias,
+        child: Container(
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              colors: gradientColors,
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+            ),
+            boxShadow: [
+              BoxShadow(
+                color: gradientColors.first.withOpacity(0.3),
+                blurRadius: 8,
+                offset: const Offset(0, 4),
+              ),
+            ],
+          ),
+          child: Material(
+            color: Colors.transparent,
+            child: InkWell(
+              onTap: onTap,
+              onLongPress: onLongPress,
+              borderRadius: BorderRadius.circular(20),
+              splashColor: Colors.white.withOpacity(0.3),
+              highlightColor: Colors.white.withOpacity(0.1),
+              child: Container(
+                padding: const EdgeInsets.all(20),
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(20),
+                  color: Theme.of(context).colorScheme.surface.withOpacity(0.9),
+                ),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Row(
+                      children: [
+                        Container(
+                          padding: const EdgeInsets.all(12),
+                          decoration: BoxDecoration(
+                            gradient: LinearGradient(
+                              colors: gradientColors,
+                              begin: Alignment.topLeft,
+                              end: Alignment.bottomRight,
+                            ),
+                            borderRadius: BorderRadius.circular(12),
+                          ),
+                          child: Icon(icon, color: Colors.white, size: 24),
+                        ),
+                        const Spacer(),
+                        if (quitDate != null)
+                          Container(
+                            padding: const EdgeInsets.symmetric(
+                              horizontal: 8,
+                              vertical: 4,
+                            ),
+                            decoration: BoxDecoration(
+                              color: Theme.of(
+                                context,
+                              ).colorScheme.primary.withOpacity(0.1),
+                              borderRadius: BorderRadius.circular(8),
+                            ),
+                            child: Text(
+                              DateFormat.MMMd().format(
+                                DateTime.parse(quitDate),
+                              ),
+                              style: Theme.of(context).textTheme.bodySmall
+                                  ?.copyWith(
+                                    color: Theme.of(
+                                      context,
+                                    ).colorScheme.primary,
+                                    fontWeight: FontWeight.w500,
+                                  ),
+                            ),
+                          ),
+                      ],
+                    ),
+                    const SizedBox(height: 16),
+                    Text(
+                      title,
+                      style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
+                    const SizedBox(height: 4),
+                    if (days != null) ...[
+                      RichText(
+                        text: TextSpan(
+                          style: Theme.of(context).textTheme.headlineSmall
+                              ?.copyWith(fontWeight: FontWeight.bold),
+                          children: [
+                            TextSpan(text: '$days'),
+                            TextSpan(
+                              text: days == 1 ? ' day' : ' days',
+                              style: Theme.of(context).textTheme.bodyLarge
+                                  ?.copyWith(
+                                    color: Theme.of(
+                                      context,
+                                    ).colorScheme.onSurface.withOpacity(0.7),
+                                  ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ] else ...[
+                      Text(
+                        'Tap to start',
+                        style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                          color: Theme.of(
+                            context,
+                          ).colorScheme.onSurface.withOpacity(0.6),
+                          fontStyle: FontStyle.italic,
+                        ),
+                      ),
+                    ],
+                  ],
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
     );
   }
 
@@ -144,7 +310,10 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
       appBar: AppBar(
         title: Text(
           'Quitter',
-          style: TextStyle(color: Theme.of(context).colorScheme.surface),
+          style: TextStyle(
+            color: Theme.of(context).colorScheme.surface,
+            fontSize: 32,
+          ),
         ),
         leading: Padding(
           padding: const EdgeInsets.all(4.0),
@@ -155,182 +324,194 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
         ),
         backgroundColor: Theme.of(context).colorScheme.primary,
       ),
-      body: Consumer<SettingsProvider>(
-        builder: (context, settings, child) {
-          return ListView(
-            children: [
-              if (settings.showAlcohol)
-                ListTile(
-                  title: const Text("Alcohol"),
-                  subtitle: alcoholDays != null
-                      ? Text("Day $alcoholDays")
-                      : null,
-                  leading: const Icon(Icons.local_bar),
-                  trailing: Text(
-                    quitAlcohol != null
-                        ? DateFormat.yMd().format(DateTime.parse(quitAlcohol!))
-                        : "",
-                    style: Theme.of(context).textTheme.bodySmall,
-                  ),
-                  onTap: () async {
-                    await Navigator.of(context).push(
-                      MaterialPageRoute(builder: (context) => AlcoholPage()),
-                    );
-                    if (mounted) {
-                      _loadQuitDays();
-                    }
-                  },
-                  onLongPress: () {
-                    _showHideBottomSheet('Alcohol', () {
-                      settings.setShowAlcohol(false);
-                    });
-                  },
-                ),
+      body: CustomScrollView(
+        slivers: [
+          SliverPadding(
+            padding: const EdgeInsets.all(16),
+            sliver: Consumer<SettingsProvider>(
+              builder: (context, settings, child) {
+                final cards = <Widget>[];
 
-              if (settings.showVaping)
-                ListTile(
-                  title: const Text("Vaping"),
-                  subtitle: vapingDays != null ? Text("Day $vapingDays") : null,
-                  leading: const Icon(Icons.air),
-                  trailing: Text(
-                    quitVaping != null
-                        ? DateFormat.yMd().format(DateTime.parse(quitVaping!))
-                        : "",
-                    style: Theme.of(context).textTheme.bodySmall,
-                  ),
-                  onTap: () async {
-                    await Navigator.of(context).push(
-                      MaterialPageRoute(builder: (context) => VapingPage()),
-                    );
-                    if (mounted) {
-                      _loadQuitDays();
-                    }
-                  },
-                  onLongPress: () {
-                    _showHideBottomSheet('Vaping', () {
-                      settings.setShowVaping(false);
-                    });
-                  },
-                ),
+                if (settings.showAlcohol) {
+                  cards.add(
+                    _buildQuitCard(
+                      title: 'Alcohol',
+                      icon: Icons.local_bar,
+                      gradientColors: [
+                        const Color(0xFF6366F1),
+                        const Color(0xFF8B5CF6),
+                      ],
+                      days: alcoholDays,
+                      quitDate: quitAlcohol,
+                      onTap: () async {
+                        await Navigator.of(context).push(
+                          MaterialPageRoute(
+                            builder: (context) => AlcoholPage(),
+                          ),
+                        );
+                        if (mounted) _loadQuitDays();
+                      },
+                      onLongPress: () {
+                        _showHideBottomSheet('Alcohol', () {
+                          settings.setShowAlcohol(false);
+                        });
+                      },
+                    ),
+                  );
+                }
 
-              if (settings.showSmoking)
-                ListTile(
-                  title: const Text("Smoking"),
-                  subtitle: smokingDays != null
-                      ? Text("Day $smokingDays")
-                      : null,
-                  leading: const Icon(Icons.eco),
-                  trailing: Text(
-                    quitSmoking != null
-                        ? DateFormat.yMd().format(DateTime.parse(quitVaping!))
-                        : "",
-                    style: Theme.of(context).textTheme.bodySmall,
-                  ),
-                  onTap: () async {
-                    await Navigator.of(context).push(
-                      MaterialPageRoute(builder: (context) => SmokingPage()),
-                    );
-                    if (mounted) {
-                      _loadQuitDays();
-                    }
-                  },
-                  onLongPress: () {
-                    _showHideBottomSheet('Smoking', () {
-                      settings.setShowSmoking(false);
-                    });
-                  },
-                ),
+                if (settings.showVaping) {
+                  cards.add(
+                    _buildQuitCard(
+                      title: 'Vaping',
+                      icon: Icons.air,
+                      gradientColors: [
+                        const Color(0xFF06B6D4),
+                        const Color(0xFF0EA5E9),
+                      ],
+                      days: vapingDays,
+                      quitDate: quitVaping,
+                      onTap: () async {
+                        await Navigator.of(context).push(
+                          MaterialPageRoute(builder: (context) => VapingPage()),
+                        );
+                        if (mounted) _loadQuitDays();
+                      },
+                      onLongPress: () {
+                        _showHideBottomSheet('Vaping', () {
+                          settings.setShowVaping(false);
+                        });
+                      },
+                    ),
+                  );
+                }
 
-              if (settings.showNicotinePouches)
-                ListTile(
-                  title: const Text("Nicotine pouches"),
-                  subtitle: pouchesDays != null
-                      ? Text("Day $pouchesDays")
-                      : null,
-                  trailing: Text(
-                    quitPouches != null
-                        ? DateFormat.yMd().format(DateTime.parse(quitPouches!))
-                        : "",
-                    style: Theme.of(context).textTheme.bodySmall,
-                  ),
-                  leading: const Icon(Icons.scatter_plot),
-                  onTap: () async {
-                    await Navigator.of(context).push(
-                      MaterialPageRoute(
-                        builder: (context) => NicotinePouchesPage(),
-                      ),
-                    );
-                    if (mounted) {
-                      _loadQuitDays();
-                    }
-                  },
-                  onLongPress: () {
-                    _showHideBottomSheet('Nicotine pouches', () {
-                      settings.setShowNicotinePouches(false);
-                    });
-                  },
-                ),
+                if (settings.showSmoking) {
+                  cards.add(
+                    _buildQuitCard(
+                      title: 'Smoking',
+                      icon: Icons.eco,
+                      gradientColors: [
+                        const Color(0xFF10B981),
+                        const Color(0xFF059669),
+                      ],
+                      days: smokingDays,
+                      quitDate: quitSmoking,
+                      onTap: () async {
+                        await Navigator.of(context).push(
+                          MaterialPageRoute(
+                            builder: (context) => SmokingPage(),
+                          ),
+                        );
+                        if (mounted) _loadQuitDays();
+                      },
+                      onLongPress: () {
+                        _showHideBottomSheet('Smoking', () {
+                          settings.setShowSmoking(false);
+                        });
+                      },
+                    ),
+                  );
+                }
 
-              if (settings.showOpioids)
-                ListTile(
-                  title: const Text("Opioids"),
-                  subtitle: opioidDays != null ? Text("Day $opioidDays") : null,
-                  leading: const Icon(Icons.medication),
-                  trailing: Text(
-                    quitOpioids != null
-                        ? DateFormat.yMd().format(DateTime.parse(quitOpioids!))
-                        : "",
-                    style: Theme.of(context).textTheme.bodySmall,
-                  ),
-                  onTap: () async {
-                    await Navigator.of(context).push(
-                      MaterialPageRoute(builder: (context) => OpioidPage()),
-                    );
-                    if (mounted) {
-                      _loadQuitDays();
-                    }
-                  },
-                  onLongPress: () {
-                    _showHideBottomSheet('Opioids', () {
-                      settings.setShowOpioids(false);
-                    });
-                  },
-                ),
+                if (settings.showNicotinePouches) {
+                  cards.add(
+                    _buildQuitCard(
+                      title: 'Nicotine Pouches',
+                      icon: Icons.scatter_plot,
+                      gradientColors: [
+                        const Color(0xFFF59E0B),
+                        const Color(0xFFEF4444),
+                      ],
+                      days: pouchesDays,
+                      quitDate: quitPouches,
+                      onTap: () async {
+                        await Navigator.of(context).push(
+                          MaterialPageRoute(
+                            builder: (context) => NicotinePouchesPage(),
+                          ),
+                        );
+                        if (mounted) _loadQuitDays();
+                      },
+                      onLongPress: () {
+                        _showHideBottomSheet('Nicotine pouches', () {
+                          settings.setShowNicotinePouches(false);
+                        });
+                      },
+                    ),
+                  );
+                }
 
-              if (settings.showSocialMedia)
-                ListTile(
-                  title: const Text("Social Media"),
-                  subtitle: socialMediaDays != null
-                      ? Text("Day $socialMediaDays")
-                      : null,
-                  leading: const Icon(Icons.public),
-                  trailing: Text(
-                    quitSocialMedia != null
-                        ? DateFormat.yMd().format(
-                            DateTime.parse(quitSocialMedia!),
-                          )
-                        : "",
-                    style: Theme.of(context).textTheme.bodySmall,
+                if (settings.showOpioids) {
+                  cards.add(
+                    _buildQuitCard(
+                      title: 'Opioids',
+                      icon: Icons.medication,
+                      gradientColors: [
+                        const Color(0xFFEC4899),
+                        const Color(0xFFBE185D),
+                      ],
+                      days: opioidDays,
+                      quitDate: quitOpioids,
+                      onTap: () async {
+                        await Navigator.of(context).push(
+                          MaterialPageRoute(builder: (context) => OpioidPage()),
+                        );
+                        if (mounted) _loadQuitDays();
+                      },
+                      onLongPress: () {
+                        _showHideBottomSheet('Opioids', () {
+                          settings.setShowOpioids(false);
+                        });
+                      },
+                    ),
+                  );
+                }
+
+                if (settings.showSocialMedia) {
+                  cards.add(
+                    _buildQuitCard(
+                      title: 'Social Media',
+                      icon: Icons.public,
+                      gradientColors: [
+                        const Color(0xFF8B5CF6),
+                        const Color(0xFF7C3AED),
+                      ],
+                      days: socialMediaDays,
+                      quitDate: quitSocialMedia,
+                      onTap: () async {
+                        await Navigator.of(context).push(
+                          MaterialPageRoute(
+                            builder: (context) => const SocialMediaPage(),
+                          ),
+                        );
+                        if (mounted) _loadQuitDays();
+                      },
+                      onLongPress: () {
+                        _showHideBottomSheet('Social Media', () {
+                          settings.setShowSocialMedia(false);
+                        });
+                      },
+                    ),
+                  );
+                }
+
+                return SliverGrid(
+                  gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                    crossAxisCount: 2,
+                    childAspectRatio: 0.85,
+                    crossAxisSpacing: 16,
+                    mainAxisSpacing: 16,
                   ),
-                  onTap: () async {
-                    await Navigator.of(context).push(
-                      MaterialPageRoute(
-                        builder: (context) => const SocialMediaPage(),
-                      ),
-                    );
-                    if (mounted) {
-                      _loadQuitDays();
-                    }
-                  },
-                  onLongPress: () {
-                    _showHideBottomSheet('Social Media', () {
-                      settings.setShowSocialMedia(false);
-                    });
-                  },
-                ),
-            ],
-          );
-        },
+                  delegate: SliverChildBuilderDelegate(
+                    (context, index) => cards[index],
+                    childCount: cards.length,
+                  ),
+                );
+              },
+            ),
+          ),
+        ],
       ),
       floatingActionButton: FloatingActionButton.extended(
         onPressed: () async {
@@ -341,6 +522,8 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
         },
         label: const Text("Settings"),
         icon: const Icon(Icons.settings),
+        backgroundColor: Theme.of(context).colorScheme.primary,
+        foregroundColor: Theme.of(context).colorScheme.onPrimary,
       ),
     );
   }
