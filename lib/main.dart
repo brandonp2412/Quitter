@@ -497,9 +497,11 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                 }
 
                 return SliverGrid(
-                  gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                    crossAxisCount: 2,
-                    childAspectRatio: 0.85,
+                  gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                    crossAxisCount: MediaQuery.of(context).size.width > 600
+                        ? 3
+                        : 2,
+                    mainAxisExtent: 200, // Fixed height
                     crossAxisSpacing: 16,
                     mainAxisSpacing: 16,
                   ),
