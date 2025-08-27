@@ -54,12 +54,10 @@ android {
                     // Split APK with specific ABI
                     val newVersionCode = baseVersionCode * 10 + abiVersionCodes[abiName]!!
                     output.versionCodeOverride = newVersionCode
-                    println("Setting version code for $abiName APK: $newVersionCode")
                 } else {
                     // Universal APK (no ABI filter) - use highest suffix (3)
                     val universalVersionCode = baseVersionCode * 10 + 3
                     output.versionCodeOverride = universalVersionCode
-                    println("Setting version code for UNIVERSAL APK: $universalVersionCode")
                 }
             }
         }
