@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -ex  # Exit on any error
+set -e  # Exit on any error
 
 echo "🚀 Starting local build and version process..."
 
