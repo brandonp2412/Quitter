@@ -194,7 +194,7 @@ jobs:
         with:
           tag_name: ${{ needs.get-version-info.outputs.version }}
           name: ${{ needs.get-version-info.outputs.version }}
-          generate_release_notes: true
+          body_path: fastlane/metadata/android/en-US/changelogs/${{ needs.get-version-info.outputs.build_number }}.txt
           files: |
             android-builds/flutter-apk/app-*-release.apk
             linux-builds/quitter-linux.zip
