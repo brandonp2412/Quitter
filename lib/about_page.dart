@@ -28,47 +28,36 @@ class AboutPage extends StatelessWidget {
               builder: (context, snapshot) =>
                   Text(snapshot.data?.version ?? "1.0.0"),
             ),
-            onTap: () async {
-              const url =
-                  'https://github.com/brandonp2412/Quitter/releases/latest';
-              if (await canLaunchUrlString(url)) await launchUrlString(url);
-            },
+            onTap: () => launchUrlString(
+              'https://github.com/brandonp2412/Quitter/releases/latest',
+            ),
           ),
           ListTile(
             title: const Text("Author"),
             leading: const Icon(Icons.person),
             subtitle: const Text("Brandon Dick"),
-            onTap: () async {
-              const url = 'https://github.com/brandonp2412';
-              if (await canLaunchUrlString(url)) await launchUrlString(url);
-            },
+            onTap: () => launchUrlString('https://github.com/brandonp2412'),
           ),
           ListTile(
             title: const Text("License"),
             leading: const Icon(Icons.balance),
             subtitle: const Text("MIT"),
-            onTap: () async {
-              const url =
-                  'https://github.com/brandonp2412/Quitter?tab=MIT-1-ov-file#readme';
-              if (await canLaunchUrlString(url)) await launchUrlString(url);
-            },
+            onTap: () => launchUrlString(
+              'https://github.com/brandonp2412/Quitter?tab=MIT-1-ov-file#readme',
+            ),
           ),
           ListTile(
             title: const Text("Donate"),
             leading: const Icon(Icons.favorite_outline),
             subtitle: const Text("Help support this project"),
-            onTap: () async {
-              const url = 'https://github.com/sponsors/brandonp2412';
-              if (await canLaunchUrlString(url)) await launchUrlString(url);
-            },
+            onTap: () =>
+                launchUrlString('https://github.com/sponsors/brandonp2412'),
           ),
           ListTile(
             title: const Text("Source code"),
             leading: const Icon(Icons.code),
-            onTap: () async {
-              const url = 'https://github.com/brandonp2412/Quitter';
-              if (await canLaunchUrlString(url)) await launchUrlString(url);
-            },
+            onTap: () =>
+                launchUrlString('https://github.com/brandonp2412/Quitter'),
           ),
         ],
       ),
