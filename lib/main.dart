@@ -308,21 +308,14 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(
-          'Quitter',
-          style: TextStyle(
-            color: Theme.of(context).colorScheme.surface,
-            fontSize: 32,
-          ),
-        ),
+        title: Text('Quitter', style: TextStyle(fontSize: 32)),
         leading: Padding(
-          padding: const EdgeInsets.all(4.0),
+          padding: const EdgeInsets.all(2),
           child: SvgPicture.asset(
             'assets/neurology.svg',
-            color: Theme.of(context).colorScheme.surface,
+            color: Theme.of(context).colorScheme.onSurface,
           ),
         ),
-        backgroundColor: Theme.of(context).colorScheme.primary,
       ),
       body: CustomScrollView(
         slivers: [
