@@ -1,0 +1,4 @@
+• Add section header to About
+• Embed changelog into github release notes
+• Fix links on about page
+• Reduce logging of deployments
