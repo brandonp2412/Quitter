@@ -24,6 +24,8 @@ class SettingsPage extends StatelessWidget {
               const SizedBox(height: 24),
               _buildNotificationsSection(context, settings),
               const SizedBox(height: 24),
+              _sectionHeader('System', context),
+              const SizedBox(height: 8),
               Card(
                 child: ListTile(
                   title: Text("About"),
