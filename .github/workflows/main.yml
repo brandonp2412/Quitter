@@ -31,6 +31,7 @@ jobs:
           echo "version=$version" >> $GITHUB_OUTPUT
           echo "Release version: $version"
           BUILD_NUMBER=$(grep '^version:' pubspec.yaml | sed 's/.*+//')
+          BUILD_NUMBER=$((BUILD_NUMBER * 10 + 3))
           echo "build_number=$BUILD_NUMBER" >> $GITHUB_OUTPUT
 
   build-android:
