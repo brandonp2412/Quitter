@@ -1,0 +1,2 @@
+• Fix creating github releases
+• Remove app bar coloring
