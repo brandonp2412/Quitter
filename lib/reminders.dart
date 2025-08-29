@@ -21,7 +21,12 @@ Future<void> setupReminders() async {
 
   if (notifyEveryDays == 0) return cancelReminders();
   if (Platform.isAndroid || Platform.isIOS) {
-    Permission.notification.request();
+    final permission = await Permission.notification.request();
+    if (permission.isDenied) {
+      settingsProvider.setNotifyEvery(0);
+      return;
+    }
+
     Workmanager().initialize(doMobileReminders);
     Workmanager().registerPeriodicTask(
       "reminders",
