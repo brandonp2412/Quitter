@@ -310,7 +310,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
       appBar: AppBar(
         title: Text('Quitter', style: TextStyle(fontSize: 32)),
         leading: Padding(
-          padding: const EdgeInsets.all(2),
+          padding: const EdgeInsets.only(left: 16),
           child: SvgPicture.asset(
             'assets/neurology.svg',
             color: Theme.of(context).colorScheme.onSurface,
