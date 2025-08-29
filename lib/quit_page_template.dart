@@ -99,7 +99,7 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
           leading: IconButton(
             onPressed: () => Navigator.of(context).pop(),
             icon: Icon(Icons.arrow_back),
-            color: colorScheme.surface,
+            color: colorScheme.onPrimary,
           ),
           title: Text(
             widget.title,
