@@ -95,26 +95,13 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
       isActive: showConfetti,
       child: Scaffold(
         backgroundColor: colorScheme.surface,
-        appBar: AppBar(
-          leading: IconButton(
-            onPressed: () => Navigator.of(context).pop(),
-            icon: Icon(Icons.arrow_back),
-            color: colorScheme.onPrimary,
-          ),
-          title: Text(
-            widget.title,
-            style: TextStyle(color: colorScheme.onPrimary),
-          ),
-          backgroundColor: colorScheme.primary,
-          elevation: 0,
-        ),
+        appBar: AppBar(title: Text(widget.title)),
         body: Column(
           children: [
             Container(
               width: double.infinity,
               padding: const EdgeInsets.all(24.0),
               decoration: BoxDecoration(
-                color: colorScheme.primary,
                 borderRadius: const BorderRadius.only(
                   bottomLeft: Radius.circular(24),
                   bottomRight: Radius.circular(24),
@@ -127,7 +114,7 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
                         ? widget.headerTextStartedBuilder(currentDay)
                         : widget.headerTextNotStarted,
                     style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                      color: colorScheme.onPrimary,
+                      color: theme.appBarTheme.titleTextStyle?.color,
                     ),
                   ),
                   const SizedBox(height: 8),
@@ -137,7 +124,7 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
                         : widget.headerSubtitleNotStarted,
                     style: TextStyle(
                       fontSize: 16,
-                      color: colorScheme.onPrimary,
+                      color: theme.appBarTheme.titleTextStyle?.color,
                     ),
                   ),
                   const SizedBox(height: 16),
@@ -149,15 +136,8 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
                           controller: controller,
                           decoration: InputDecoration(
                             hintText: '1',
-                            hintStyle: TextStyle(
-                              color: Theme.of(context).colorScheme.onPrimary
-                                  .withAlpha((255 * 0.7).round()),
-                            ),
                             floatingLabelBehavior: FloatingLabelBehavior.always,
                             labelText: 'Enter your current day',
-                            labelStyle: TextStyle(
-                              color: colorScheme.onPrimary.withAlpha(180),
-                            ),
                             suffixIcon: IconButton(
                               onPressed: () async {
                                 final current = DateTime.now().subtract(
@@ -186,30 +166,26 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
                                 currentDay > 7
                                     ? Icons.calendar_month
                                     : Icons.calendar_today,
-                                color: Theme.of(context).colorScheme.surface,
-                              ),
-                            ),
-                            border: OutlineInputBorder(
-                              borderRadius: BorderRadius.circular(12),
-                              borderSide: BorderSide(
-                                color: colorScheme.onPrimary,
+                                color: theme.appBarTheme.iconTheme?.color,
                               ),
                             ),
                             enabledBorder: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(12),
                               borderSide: BorderSide(
-                                color: colorScheme.onPrimary,
+                                color: colorScheme.onSurface,
                               ),
                             ),
                             focusedBorder: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(12),
                               borderSide: BorderSide(
-                                color: colorScheme.onPrimary,
+                                color: colorScheme.onSurface,
                                 width: 2,
                               ),
                             ),
                           ),
-                          style: TextStyle(color: colorScheme.onPrimary),
+                          style: TextStyle(
+                            color: theme.appBarTheme.titleTextStyle?.color,
+                          ),
                           keyboardType: TextInputType.number,
                           onChanged: (value) async {
                             final prefs = await SharedPreferences.getInstance();
@@ -257,9 +233,8 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
                     Container(
                       padding: const EdgeInsets.all(12),
                       decoration: BoxDecoration(
-                        color: colorScheme.onPrimary.withAlpha(
-                          (255 * 0.1).round(),
-                        ),
+                        color: theme.appBarTheme.titleTextStyle?.color
+                            ?.withAlpha((255 * 0.1).round()),
                         borderRadius: BorderRadius.circular(8),
                       ),
                       child: Row(
@@ -267,7 +242,7 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
                           Icon(
                             Icons.health_and_safety,
                             size: 16,
-                            color: colorScheme.onPrimary,
+                            color: theme.appBarTheme.titleTextStyle?.color,
                           ),
                           const SizedBox(width: 8),
                           Expanded(
@@ -275,7 +250,7 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
                               widget.infoBoxMessage!,
                               style: TextStyle(
                                 fontSize: 12,
-                                color: colorScheme.onPrimary,
+                                color: theme.appBarTheme.titleTextStyle?.color,
                                 fontWeight: FontWeight.w500,
                               ),
                             ),
