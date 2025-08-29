@@ -1,0 +1,2 @@
+• Fix main app header spacing
+• Only ask for permissions once
