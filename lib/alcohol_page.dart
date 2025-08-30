@@ -8,9 +8,9 @@ class AlcoholPage extends StatelessWidget {
   final List<QuitMilestone> milestones = const [
     QuitMilestone(
       day: 1,
-      title: "Sleep Quality Improves",
+      title: "Sleep Quality Begins to Improve",
       description:
-          "Your REM sleep cycles are already starting to normalize. No more tossing and turning like a rotisserie chicken! While alcohol might knock you out initially, it's terrible for deep sleep quality.",
+          "Your REM sleep cycles start to normalize within the first day. While alcohol might help you fall asleep initially, it disrupts deep sleep and REM cycles throughout the night, causing fragmented sleep.",
       reference: "WebMD - What Happens When You Quit Drinking",
       link:
           "https://www.webmd.com/mental-health/addiction/ss/slideshow-quit-alcohol-effects",
@@ -19,71 +19,71 @@ class AlcoholPage extends StatelessWidget {
       day: 3,
       title: "Hydration Levels Restore",
       description:
-          "Your kidneys are finally getting a break from processing alcohol's diuretic effects. Say goodbye to that perpetual hangover thirst and hello to actually glowing skin!",
-      reference: "Healthline - What Happens When You Stop Drinking Alcohol",
-      link: "https://www.healthline.com/health/quit-drinking-alcohol",
+          "Your kidneys are recovering from alcohol's diuretic effects. Alcohol suppresses antidiuretic hormone, leading to increased urination and dehydration. By day 3, your body's fluid balance is improving significantly.",
+      reference: "The retreat NZ - What Happens When You Stop Drinking",
+      link:
+          "https://www.theretreatnz.org.nz/what-happens-when-you-stop-drinking-alcohol/#:~:text=Alcohol%20is%20a%20diuretic%20which,risk%20of%20infections%20and%20illnesses.",
     ),
     QuitMilestone(
       day: 7,
       title: "Immune System Strengthens",
       description:
-          "Your white blood cells are back on patrol duty! Alcohol suppresses immune function, so after a week, your body's defense system is already getting back to fighting form.",
-      reference: "Medical News Today - Benefits of Not Drinking Alcohol",
+          "Your white blood cells are recovering their function. Even a single bout of heavy drinking can impair immune function for up to 24 hours, and chronic drinking significantly weakens your body's ability to fight infections.",
+      reference: "WebMD - What Happens When You Quit Drinking",
       link:
-          "https://www.medicalnewstoday.com/articles/benefits-of-not-drinking-alcohol",
+          "https://www.webmd.com/mental-health/addiction/ss/slideshow-quit-alcohol-effects",
     ),
     QuitMilestone(
       day: 14,
-      title: "Mental Clarity Returns",
+      title: "Brain Volume Recovery Begins",
       description:
-          "Brain fog, begone! Alcohol affects neurotransmitter balance and cognitive function. Two weeks in, and your mental sharpness is making a comeback worthy of a superhero montage.",
-      reference: "Cleveland Clinic - Alcohol Withdrawal Symptoms",
-      link: "https://my.clevelandclinic.org/health/diseases/alcohol-withdrawal",
+          "Rapid recovery of brain volume begins within the first two weeks of abstinence. Research shows evidence of brain tissue recovery starting around 14 days, though full cognitive function continues improving over months.",
+      reference: "Priory Group - Brain Recovery After Alcohol Abuse",
+      link:
+          "https://www.priorygroup.com/blog/how-long-does-brain-recovery-take-after-alcohol-abuse",
     ),
     QuitMilestone(
       day: 30,
       title: "Blood Pressure Normalizes",
       description:
-          "Your cardiovascular system is sending thank-you cards. Regular alcohol consumption elevates blood pressure, but a month sober and your heart is already working more efficiently.",
-      reference:
-          "The Conversation - Timeline of Health Benefits When You Stop Drinking",
+          "Your cardiovascular system shows significant improvement. Regular alcohol consumption elevates blood pressure, but abstinence for about a month can help bring blood pressure back to healthier levels.",
+      reference: "WebMD - What Happens When You Quit Drinking",
       link:
-          "https://theconversation.com/even-a-day-off-alcohol-makes-a-difference-our-timeline-maps-the-health-benefits-when-you-stop-drinking-249272",
+          "https://www.webmd.com/mental-health/addiction/ss/slideshow-quit-alcohol-effects",
     ),
     QuitMilestone(
       day: 60,
       title: "Liver Function Improves",
       description:
-          "Your liver is practically doing cartwheels! This amazing organ can regenerate, and after two months, liver enzymes and fat accumulation show significant improvement.",
-      reference: "Cleveland Clinic - How Long to Detox From Alcohol",
-      link: "https://health.clevelandclinic.org/detox-liver-from-alcohol",
+          "Your liver shows measurable improvement in function. This regenerative organ can recover significantly from alcohol-induced damage, with liver enzymes and fat accumulation showing improvement within 2 months of abstinence.",
+      reference: "WebMD - What Happens When You Quit Drinking",
+      link:
+          "https://www.webmd.com/mental-health/addiction/ss/slideshow-quit-alcohol-effects",
     ),
     QuitMilestone(
       day: 90,
-      title: "Memory Enhancement",
+      title: "Cognitive Function Substantially Improves",
       description:
-          "Remember when you couldn't remember things? Your hippocampus is recovering from alcohol's neurotoxic effects. Three months in, and your memory formation is significantly improved.",
-      reference: "Addiction Center - First Year After You Stop Drinking",
-      link:
-          "https://www.addictioncenter.com/community/first-year-after-you-stop-drinking/",
+          "Significant cognitive recovery occurs over the first 3 months. Studies show people who maintain abstinence continue to recover cognitive function over several months, with measurable improvements in memory, concentration, and decision-making.",
+      reference: "Rehabs.com - Alcohol and Brain Fog Treatment",
+      link: "https://rehabs.com/alcohol/effects/brain-fog/",
     ),
     QuitMilestone(
       day: 180,
-      title: "Neuroplasticity Increases",
+      title: "Brain Volume and Function Continue Recovery",
       description:
-          "Your brain is literally rewiring itself for the better! Six months of sobriety allows for significant neural recovery and increased brain plasticity. It's like a software update for your mind.",
-      reference: "Priory Group - Benefits of Giving Up Alcohol for a Month",
-      link:
-          "https://www.priorygroup.com/blog/benefits-of-giving-up-alcohol-for-a-month",
+          "Six months of sobriety allows for continued neural recovery. Research indicates that brain volume continues to increase and cognitive abilities continue improving significantly during this period of sustained abstinence.",
+      reference: "Rehabs.com - Alcohol and Brain Fog Treatment",
+      link: "https://rehabs.com/alcohol/effects/brain-fog/",
     ),
     QuitMilestone(
       day: 365,
-      title: "Cancer Risk Reduction",
+      title: "Cancer Risk Reduction May Begin",
       description:
-          "A full year smoke-free from the bottle! Your risk for alcohol-related cancers (liver, breast, colorectal) begins to decrease significantly. Your cells are throwing a celebration party.",
-      reference: "NHS - Alcohol-Related Liver Disease Treatment",
+          "One year of abstinence may begin to reduce cancer risk. While alcohol clearly increases risk for several cancers (liver, breast, colorectal, esophageal), research on risk reduction timeline is still emerging and varies by cancer type.",
+      reference: "WebMD - What Happens When You Quit Drinking",
       link:
-          "https://www.nhs.uk/conditions/alcohol-related-liver-disease-arld/treatment/",
+          "https://www.webmd.com/mental-health/addiction/ss/slideshow-quit-alcohol-effects",
     ),
   ];
 
