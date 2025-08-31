@@ -181,6 +181,13 @@ class SettingsPage extends StatelessWidget {
         value: settings.notifySocialMedia,
         onChanged: settings.setNotifySocialMedia,
       ),
+      _ToggleItem(
+        icon: Icons.reset_tv,
+        title: 'Reset messages',
+        subtitle: 'Show positive reinforcement after relapses',
+        value: settings.notifyRelapse,
+        onChanged: settings.setNotifyRelapse,
+      ),
     ];
 
     return Column(

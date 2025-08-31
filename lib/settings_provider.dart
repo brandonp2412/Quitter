@@ -18,6 +18,7 @@ class SettingsProvider extends ChangeNotifier {
   static const String _notifySmokingKey = 'notify_smoking';
   static const String _notifyOpioidsKey = 'notify_opioids';
   static const String _notifyPouchesKey = 'notify_nicotine_pouches';
+  static const String _notifyRelapseKey = 'notify_relapse';
   static const String _notifySocialMediaKey = 'notify_social_media';
 
   SharedPreferences? _prefs;
@@ -37,6 +38,7 @@ class SettingsProvider extends ChangeNotifier {
   bool _notifyOpioids = true;
   bool _notifyPouches = true;
   bool _notifySocialMedia = true;
+  bool _notifyRelapse = true;
 
   ThemeMode get themeMode => _themeMode;
   ColorSchemeType get colorSchemeType => _colorSchemeType;
@@ -53,6 +55,7 @@ class SettingsProvider extends ChangeNotifier {
   bool get notifyOpioids => _notifyOpioids;
   bool get notifyPouches => _notifyPouches;
   bool get notifySocialMedia => _notifySocialMedia;
+  bool get notifyRelapse => _notifyRelapse;
 
   Future<void> loadPreferences() async {
     _prefs = await SharedPreferences.getInstance();
@@ -131,6 +134,12 @@ class SettingsProvider extends ChangeNotifier {
   Future<void> setShowSocialMedia(bool show) async {
     _showSocialMedia = show;
     await _prefs?.setBool(_socialMediaKey, show);
+    notifyListeners();
+  }
+
+  Future<void> setNotifyRelapse(bool notify) async {
+    _notifyRelapse = notify;
+    await _prefs?.setBool(_notifyRelapseKey, notify);
     notifyListeners();
   }
 

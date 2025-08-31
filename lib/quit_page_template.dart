@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'package:quitter/confetti_widget.dart';
 import 'package:quitter/quit_milestone.dart';
+import 'package:quitter/settings_provider.dart';
 import 'package:quitter/timeline_tile.dart';
 import 'package:quitter/utils.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -305,6 +307,9 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
                     setState(() {
                       controller.text = '1';
                     });
+
+                    final settings = context.read<SettingsProvider>();
+                    if (settings.notifyRelapse == false) return;
 
                     final message = getRelapseEncouragementMessage();
                     toast(
