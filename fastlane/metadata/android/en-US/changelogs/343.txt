@@ -1,0 +1,7 @@
+• Add reset button
+• Add setting for disabling relapse messages
+• Add setting to hide/show reset buttons
+• Change relapse button icon
+• Fix references on alcohol page
+• Only open websites when tapping references
+• Re-word quitting pages
