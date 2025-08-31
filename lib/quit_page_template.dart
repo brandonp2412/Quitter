@@ -291,7 +291,43 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
           transitionBuilder: (child, animation) =>
               ScaleTransition(scale: animation, child: child),
           child: started
-              ? null
+              ? FloatingActionButton.extended(
+                  onPressed: () async {
+                    final prefs = await SharedPreferences.getInstance();
+                    if (!context.mounted) return;
+
+                    final quit = prefs.getString(widget.storageKey);
+                    prefs.setString(
+                      widget.storageKey,
+                      DateTime.now().toIso8601String(),
+                    );
+
+                    setState(() {
+                      controller.text = '1';
+                    });
+
+                    final message = getRelapseEncouragementMessage();
+                    toast(
+                      context,
+                      message,
+                      SnackBarAction(
+                        label: 'Undo',
+                        onPressed: () {
+                          if (quit == null) return;
+                          prefs.setString(widget.storageKey, quit);
+
+                          setState(() {
+                            started = true;
+                            currentDay = daysCeil(quit);
+                            controller.text = currentDay.toString();
+                          });
+                        },
+                      ),
+                    );
+                  },
+                  label: Text("Reset"),
+                  icon: Icon(Icons.reset_tv),
+                )
               : FloatingActionButton.extended(
                   key: ValueKey('start_fab'),
                   onPressed: _handleStartPressed,
