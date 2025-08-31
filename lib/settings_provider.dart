@@ -9,6 +9,7 @@ class SettingsProvider extends ChangeNotifier {
   static const String _notifyEveryKey = 'notify_every';
   static const String _alcoholKey = 'show_alcohol';
   static const String _nicotinePouchesKey = 'show_nicotine_pouches';
+  static const String _showResetKey = 'show_reset';
   static const String _vapingKey = 'show_vaping';
   static const String _smokingKey = 'show_smoking';
   static const String _opioidsKey = 'show_opioids';
@@ -39,10 +40,12 @@ class SettingsProvider extends ChangeNotifier {
   bool _notifyPouches = true;
   bool _notifySocialMedia = true;
   bool _notifyRelapse = true;
+  bool _showReset = true;
 
   ThemeMode get themeMode => _themeMode;
   ColorSchemeType get colorSchemeType => _colorSchemeType;
   bool get showAlcohol => _showAlcohol;
+  bool get showReset => _showReset;
   bool get showVaping => _showVaping;
   bool get showSmoking => _showSmoking;
   bool get showNicotinePouches => _showNicotinePouches;
@@ -98,6 +101,12 @@ class SettingsProvider extends ChangeNotifier {
   Future<void> setColorSchemeType(ColorSchemeType type) async {
     _colorSchemeType = type;
     await _prefs?.setInt(_colorSchemeKey, type.index);
+    notifyListeners();
+  }
+
+  Future<void> setShowReset(bool show) async {
+    _showReset = show;
+    await _prefs?.setBool(_showResetKey, show);
     notifyListeners();
   }
 

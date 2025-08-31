@@ -92,6 +92,53 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final colorScheme = theme.colorScheme;
+    final settings = context.watch<SettingsProvider>();
+
+    Widget? fab = FloatingActionButton.extended(
+      key: ValueKey('start_fab'),
+      onPressed: _handleStartPressed,
+      label: Text("Start Your Journey"),
+      icon: Icon(Icons.rocket_launch),
+    );
+    if (started)
+      fab = FloatingActionButton.extended(
+        onPressed: () async {
+          final prefs = await SharedPreferences.getInstance();
+          if (!context.mounted) return;
+
+          final quit = prefs.getString(widget.storageKey);
+          prefs.setString(widget.storageKey, DateTime.now().toIso8601String());
+
+          setState(() {
+            controller.text = '1';
+          });
+
+          final settings = context.read<SettingsProvider>();
+          if (settings.notifyRelapse == false) return;
+
+          final message = getRelapseEncouragementMessage();
+          toast(
+            context,
+            message,
+            SnackBarAction(
+              label: 'Undo',
+              onPressed: () {
+                if (quit == null) return;
+                prefs.setString(widget.storageKey, quit);
+
+                setState(() {
+                  started = true;
+                  currentDay = daysCeil(quit);
+                  controller.text = currentDay.toString();
+                });
+              },
+            ),
+          );
+        },
+        label: Text("Reset"),
+        icon: Icon(Icons.restart_alt),
+      );
+    if (settings.showReset == false) fab = null;
 
     return ConfettiWidget(
       isActive: showConfetti,
@@ -292,53 +339,7 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
           duration: const Duration(milliseconds: 150),
           transitionBuilder: (child, animation) =>
               ScaleTransition(scale: animation, child: child),
-          child: started
-              ? FloatingActionButton.extended(
-                  onPressed: () async {
-                    final prefs = await SharedPreferences.getInstance();
-                    if (!context.mounted) return;
-
-                    final quit = prefs.getString(widget.storageKey);
-                    prefs.setString(
-                      widget.storageKey,
-                      DateTime.now().toIso8601String(),
-                    );
-
-                    setState(() {
-                      controller.text = '1';
-                    });
-
-                    final settings = context.read<SettingsProvider>();
-                    if (settings.notifyRelapse == false) return;
-
-                    final message = getRelapseEncouragementMessage();
-                    toast(
-                      context,
-                      message,
-                      SnackBarAction(
-                        label: 'Undo',
-                        onPressed: () {
-                          if (quit == null) return;
-                          prefs.setString(widget.storageKey, quit);
-
-                          setState(() {
-                            started = true;
-                            currentDay = daysCeil(quit);
-                            controller.text = currentDay.toString();
-                          });
-                        },
-                      ),
-                    );
-                  },
-                  label: Text("Reset"),
-                  icon: Icon(Icons.restart_alt),
-                )
-              : FloatingActionButton.extended(
-                  key: ValueKey('start_fab'),
-                  onPressed: _handleStartPressed,
-                  label: Text("Start Your Journey"),
-                  icon: Icon(Icons.rocket_launch),
-                ),
+          child: fab,
         ),
       ),
     );
