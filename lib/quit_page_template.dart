@@ -331,7 +331,7 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
                     );
                   },
                   label: Text("Reset"),
-                  icon: Icon(Icons.reset_tv),
+                  icon: Icon(Icons.restart_alt),
                 )
               : FloatingActionButton.extended(
                   key: ValueKey('start_fab'),
