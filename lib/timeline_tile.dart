@@ -85,88 +85,88 @@ class TimelineTile extends StatelessWidget {
           const SizedBox(width: 16),
           // Content
           Expanded(
-            child: GestureDetector(
-              onTap: () => launchUrl(Uri.parse(milestone.link)),
-              child: Container(
-                margin: const EdgeInsets.only(bottom: 24),
-                padding: const EdgeInsets.all(16),
-                decoration: BoxDecoration(
-                  color: colorScheme.surface,
-                  borderRadius: BorderRadius.circular(12),
-                  boxShadow: [
-                    BoxShadow(
-                      color: colorScheme.shadow.withAlpha((255 * 0.05).round()),
-                      blurRadius: 10,
-                      offset: const Offset(0, 2),
-                    ),
-                  ],
-                  border: isNext
-                      ? Border.all(color: colorScheme.secondary, width: 2)
-                      : Border.all(
-                          color: colorScheme.outline.withAlpha(
-                            (255 * 0.1).round(),
-                          ),
+            child: Container(
+              margin: const EdgeInsets.only(bottom: 24),
+              padding: const EdgeInsets.all(16),
+              decoration: BoxDecoration(
+                color: colorScheme.surface,
+                borderRadius: BorderRadius.circular(12),
+                boxShadow: [
+                  BoxShadow(
+                    color: colorScheme.shadow.withAlpha((255 * 0.05).round()),
+                    blurRadius: 10,
+                    offset: const Offset(0, 2),
+                  ),
+                ],
+                border: isNext
+                    ? Border.all(color: colorScheme.secondary, width: 2)
+                    : Border.all(
+                        color: colorScheme.outline.withAlpha(
+                          (255 * 0.1).round(),
                         ),
-                ),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Row(
-                      children: [
-                        Container(
-                          padding: const EdgeInsets.symmetric(
-                            horizontal: 8,
-                            vertical: 4,
-                          ),
-                          decoration: BoxDecoration(
+                      ),
+              ),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    children: [
+                      Container(
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: 8,
+                          vertical: 4,
+                        ),
+                        decoration: BoxDecoration(
+                          color: isCompleted
+                              ? colorScheme.primary
+                              : isNext
+                              ? colorScheme.secondary
+                              : colorScheme.outline.withAlpha(
+                                  (255 * 0.3).round(),
+                                ),
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                        child: Text(
+                          milestone.day >= 365
+                              ? '${(milestone.day / 365).toStringAsFixed(0)} Year${milestone.day >= 730 ? 's' : ''}'
+                              : 'Day ${milestone.day}',
+                          style: TextStyle(
+                            fontSize: 12,
+                            fontWeight: FontWeight.bold,
                             color: isCompleted
-                                ? colorScheme.primary
+                                ? colorScheme.onPrimary
                                 : isNext
-                                ? colorScheme.secondary
-                                : colorScheme.outline.withAlpha(
-                                    (255 * 0.3).round(),
-                                  ),
-                            borderRadius: BorderRadius.circular(12),
-                          ),
-                          child: Text(
-                            milestone.day >= 365
-                                ? '${(milestone.day / 365).toStringAsFixed(0)} Year${milestone.day >= 730 ? 's' : ''}'
-                                : 'Day ${milestone.day}',
-                            style: TextStyle(
-                              fontSize: 12,
-                              fontWeight: FontWeight.bold,
-                              color: isCompleted
-                                  ? colorScheme.onPrimary
-                                  : isNext
-                                  ? colorScheme.onSecondary
-                                  : colorScheme.onSurfaceVariant,
-                            ),
+                                ? colorScheme.onSecondary
+                                : colorScheme.onSurfaceVariant,
                           ),
                         ),
-                      ],
-                    ),
-                    const SizedBox(height: 8),
-                    Text(
-                      milestone.title,
-                      style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                        color: isCompleted
-                            ? colorScheme.primary
-                            : isNext
-                            ? colorScheme.secondary
-                            : colorScheme.onSurfaceVariant,
                       ),
+                    ],
+                  ),
+                  const SizedBox(height: 8),
+                  Text(
+                    milestone.title,
+                    style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                      color: isCompleted
+                          ? colorScheme.primary
+                          : isNext
+                          ? colorScheme.secondary
+                          : colorScheme.onSurfaceVariant,
                     ),
-                    const SizedBox(height: 8),
-                    Text(
-                      milestone.description,
-                      style: TextStyle(
-                        fontSize: 14,
-                        height: 1.4,
-                        color: colorScheme.onSurface,
-                      ),
+                  ),
+                  const SizedBox(height: 8),
+                  Text(
+                    milestone.description,
+                    style: TextStyle(
+                      fontSize: 14,
+                      height: 1.4,
+                      color: colorScheme.onSurface,
                     ),
-                    const SizedBox(height: 12),
-                    Container(
+                  ),
+                  const SizedBox(height: 12),
+                  GestureDetector(
+                    onTap: () => launchUrl(Uri.parse(milestone.link)),
+                    child: Container(
                       padding: const EdgeInsets.all(8),
                       decoration: BoxDecoration(
                         color: colorScheme.surfaceContainerHighest,
@@ -193,8 +193,8 @@ class TimelineTile extends StatelessWidget {
                         ],
                       ),
                     ),
-                  ],
-                ),
+                  ),
+                ],
               ),
             ),
           ),
