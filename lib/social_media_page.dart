@@ -87,14 +87,13 @@ class SocialMediaPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return QuitPageTemplate(
-      title: 'Digital Detox Delight!',
+      title: 'Digital Detox Delight',
       storageKey: 'social_media',
       milestones: milestones,
-      headerTextStartedBuilder: (currentDay) =>
-          'Day $currentDay: Unplug & Play!',
+      headerTextStartedBuilder: (currentDay) => 'Unplug & Play!',
       headerTextNotStarted: 'Your Fresh Start!',
       headerSubtitleStartedBuilder: (currentDay) =>
-          'Real life is the best feed! 💖',
+          'Real life is the best feed 💖',
       headerSubtitleNotStarted: 'Ready to reclaim your time? 🚀',
     );
   }

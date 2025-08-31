@@ -90,13 +90,12 @@ class AlcoholPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return QuitPageTemplate(
-      title: 'Sober & Sparkling!',
+      title: 'Sober & Sparkling',
       storageKey: 'alcohol',
       milestones: milestones,
-      headerTextStartedBuilder: (currentDay) =>
-          'Day $currentDay: Cheers to You!',
+      headerTextStartedBuilder: (currentDay) => 'Cheers to You!',
       headerTextNotStarted: 'Your Fresh Start!',
-      headerSubtitleStartedBuilder: (currentDay) => 'Every day is a win! 🥳',
+      headerSubtitleStartedBuilder: (currentDay) => 'Every day is a win 🥳',
       headerSubtitleNotStarted: 'Ready for a brighter you? ✨',
     );
   }
