@@ -20,9 +20,8 @@ class VapingPage extends StatelessWidget {
       title: "Breathing Improves",
       description:
           "Your lungs are doing a happy dance! Bronchial tubes begin to relax and lung capacity starts improving. That tight chest feeling from vaping is already beginning to ease up.",
-      reference: "NHS - Managing Nicotine Withdrawal Symptoms",
-      link:
-          "https://www.nhs.uk/better-health/quit-smoking/staying-smoke-free/managing-nicotine-withdrawal-symptoms/",
+      reference: "Healthline - What Are the Beefits of Quitting Vaping?",
+      link: "https://www.healthline.com/health/benefits-of-quitting-vaping",
     ),
     QuitMilestone(
       day: 7,
@@ -46,17 +45,18 @@ class VapingPage extends StatelessWidget {
       title: "Lung Function Recovery",
       description:
           "Your lungs are practically throwing a celebration parade! Cilia (tiny lung cleaners) have regenerated and lung function has improved significantly. That morning cough is history!",
-      reference: "CDC - Benefits of Quitting Smoking",
-      link: "https://www.cdc.gov/tobacco/about/benefits-of-quitting.html",
+      reference: "Medical News Today - Can your lungs heal from vaping?",
+      link:
+          "https://www.medicalnewstoday.com/articles/effects-of-vaping-on-lungs",
     ),
     QuitMilestone(
       day: 60,
       title: "Anxiety Levels Normalize",
       description:
           "Plot twist: vaping was making your anxiety problems worse, not better! Two months in and your baseline anxiety levels are significantly lower. Your nervous system is finally chilling out.",
-      reference: "Healthline - Nicotine Withdrawal Timeline",
-      link:
-          "https://www.healthline.com/health/quit-smoking/nicotine-withdrawal-timeline",
+      reference:
+          "Charlie Health - The Vaping Withdrawal Timeline (and What to Expect When You Quit)",
+      link: "https://www.charliehealth.com/post/vaping-withdrawal-timeline",
     ),
     QuitMilestone(
       day: 90,
@@ -72,9 +72,10 @@ class VapingPage extends StatelessWidget {
       title: "Oral Health Recovery",
       description:
           "Your mouth is sending thank-you cards! Six months vape-free and gum inflammation decreases, tooth staining fades, and your risk of oral health issues drops substantially.",
-      reference: "American Heart Association - Is Vaping Better Than Smoking?",
+      reference:
+          "Hobsonville Point Dental - The effects of vaping on your oral health",
       link:
-          "https://www.heart.org/en/healthy-living/healthy-lifestyle/quit-smoking-tobacco/is-vaping-safer-than-smoking",
+          "https://www.hobsonvillepointdental.co.nz/blog/news/the-effects-vaping-has-on-your-oral-health.html",
     ),
     QuitMilestone(
       day: 365,
