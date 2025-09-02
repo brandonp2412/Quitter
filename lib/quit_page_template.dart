@@ -333,6 +333,7 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
                 },
               ),
             ),
+            SizedBox(height: 36),
           ],
         ),
         floatingActionButton: AnimatedSwitcher(
