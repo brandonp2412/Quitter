@@ -182,7 +182,7 @@ class TimelineTile extends StatelessWidget {
                           const SizedBox(width: 6),
                           Expanded(
                             child: Text(
-                              'Study: ${milestone.reference}',
+                              milestone.reference,
                               style: TextStyle(
                                 fontSize: 12,
                                 color: colorScheme.onSurfaceVariant,
