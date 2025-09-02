@@ -20,18 +20,19 @@ class OpioidPage extends StatelessWidget {
       title: "Physical Symptoms Peak & Begin Declining",
       description:
           "You've made it through the storm! The worst physical withdrawal symptoms typically peak around days 3-5 and start declining by day 7. Your body is working hard to restore its natural balance.",
-      reference: "Cleveland Clinic - Substance Use Disorder Treatment",
+      reference: "Medical News Today - Opioid Withdrawal Timeline",
       link:
-          "https://my.clevelandclinic.org/health/diseases/16652-drug-addiction-substance-use-disorder-sud",
+          "https://www.medicalnewstoday.com/articles/opioid-withdrawal-timeline",
     ),
     QuitMilestone(
       day: 14,
       title: "Sleep Patterns Start Improving",
       description:
           "Sweet dreams are making a comeback! Two weeks in, your natural sleep architecture begins to restore. Opioids disrupt REM sleep, but your brain is learning to dream naturally again.",
-      reference: "Hazelden Betty Ford - Post-Acute Withdrawal Syndrome",
+      reference:
+          "Bidirectional Relationship between Opioids and Disrupted Sleep: Putative Mechanisms",
       link:
-          "https://www.hazeldenbettyford.org/articles/post-acute-withdrawal-syndrome",
+          "https://molpharm.aspetjournals.org/article/S0026-895X(24)01026-5/fulltext",
     ),
     QuitMilestone(
       day: 30,
@@ -64,17 +65,19 @@ class OpioidPage extends StatelessWidget {
       title: "Immune System Strengthens",
       description:
           "Your immune system is back on patrol duty! Six months of recovery and your body's natural defenses have significantly strengthened. You're better equipped to fight off infections and illness.",
-      reference: "Alcohol and Drug Foundation - Brain Recovery After AOD Use",
-      link: "https://adf.org.au/insights/brain-recovery-after-aod/",
+      reference:
+          "Effects of opioid tolerance and withdrawal on the immune system",
+      link: "https://pubmed.ncbi.nlm.nih.gov/18040801/",
     ),
     QuitMilestone(
       day: 365,
       title: "Neural Plasticity & Brain Structure Improve",
       description:
           "Your brain has been busy renovating! One full year of recovery shows significant improvements in brain structure and neural plasticity. The changes from chronic opioid use are healing beautifully.",
-      reference: "Mayo Clinic - Drug Addiction Treatment",
+      reference:
+          "Neuroplasticity of the extended amygdala in opioid withdrawal and prolonged opioid abstinence",
       link:
-          "https://www.mayoclinic.org/diseases-conditions/drug-addiction/diagnosis-treatment/drc-20365113",
+          "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2023.1253736/full",
     ),
     QuitMilestone(
       day: 730,
