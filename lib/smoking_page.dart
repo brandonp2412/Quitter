@@ -20,8 +20,8 @@ class SmokingPage extends StatelessWidget {
       description:
           "The nicotine monster is at its angriest, but you're winning the battle! All nicotine has left your system. The worst cravings happen now, but they're also your ticket to freedom on the other side.",
       reference:
-          "PMC - Optimal Carbon Monoxide Criteria for 24-hr Smoking Abstinence",
-      link: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3733388/",
+          'McLaughlin, Ian, et al. "Nicotine withdrawal." Current Topics in Behavioral Neurosciences',
+      link: "https://pubmed.ncbi.nlm.nih.gov/25638335/",
     ),
     QuitMilestone(
       day: 7,
@@ -61,10 +61,9 @@ class SmokingPage extends StatelessWidget {
       title: "Immune System Strengthens",
       description:
           "Your immune system just got a superhero upgrade! Six months without smoking and your white blood cells are back to full strength, fighting infections like the champions they were born to be.",
-      reference:
-          "American Cancer Society - Health Benefits of Quitting Smoking",
+      reference: "Smoke Free NZ - The benefits of quitting",
       link:
-          "https://www.cancer.org/cancer/risk-prevention/tobacco/guide-quitting-smoking/benefits-of-quitting-smoking-over-time.html",
+          "https://www.smokefree.org.nz/quit/tips-and-advice/the-benefits-of-quitting",
     ),
     QuitMilestone(
       day: 365,

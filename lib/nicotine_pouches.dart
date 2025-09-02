@@ -11,34 +11,36 @@ class NicotinePouchesPage extends StatelessWidget {
       title: "Taste & Smell Begin Recovery",
       description:
           "Nicotine dulls your taste buds and smell receptors. After just 24 hours without pouches, these senses start their comeback tour! Food is about to taste amazing again.",
-      reference: "Medical News Today - Nicotine Withdrawal Timeline",
-      link:
-          "https://www.medicalnewstoday.com/articles/nicotine-withdrawal-timeline",
+      reference:
+          "Tomassini, S., Cuoghi, V., Catalani, E., Casini, G., & Bigiani, A. (2007) - Long term effects of nicotine on rat fungiform taste buds",
+      link: "https://pubmed.ncbi.nlm.nih.gov/17560039/",
     ),
     QuitMilestone(
       day: 3,
       title: "Nicotine Completely Cleared",
       description:
           "Your body has officially evicted all nicotine! While withdrawal symptoms might peak around now, remember - this is your brain rewiring itself for freedom. The hardest part is almost over.",
-      reference: "Cleveland Clinic - Nicotine Withdrawal",
-      link:
-          "https://my.clevelandclinic.org/health/diseases/21587-nicotine-withdrawal",
+      reference:
+          "Ian McLaughlin, John A Dani, Mariella De Biasi - Nicotine withdrawal",
+      link: "https://pubmed.ncbi.nlm.nih.gov/25638335/",
     ),
     QuitMilestone(
       day: 7,
       title: "Oral Health Improves",
       description:
           "Your gums are throwing a celebration! Nicotine pouches can cause gum irritation and recession. After a week, blood flow to your gums normalizes and healing begins.",
-      reference: "Cleveland Clinic - Smokeless Tobacco Effects",
-      link: "https://my.clevelandclinic.org/health/articles/smokeless-tobacco",
+      reference:
+          "Arvind Muthukrishnan, Saman Warnakulasuriya - Oral health consequences of smokeless tobacco use",
+      link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC6172921/",
     ),
     QuitMilestone(
       day: 14,
       title: "Circulation Enhancement",
       description:
           "Your blood vessels are doing a happy dance! Nicotine constricts blood vessels, but two weeks free and your circulation is significantly improved. Hello, warmer hands and feet!",
-      reference: "WebMD - Nicotine Pouches Use and Risks",
-      link: "https://www.webmd.com/smoking-cessation/nicotine-pouches",
+      reference:
+          "Cardiovascular Toxicity of Nicotine: Implications for Electronic Cigarette Use",
+      link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4958544/",
     ),
     QuitMilestone(
       day: 30,
@@ -54,9 +56,9 @@ class NicotinePouchesPage extends StatelessWidget {
       title: "Sleep Quality Improves",
       description:
           "Sweet dreams are made of... no nicotine! While nicotine seems relaxing, it actually disrupts sleep architecture. Two months in, and your REM cycles are beautifully restored.",
-      reference: "National Cancer Institute - Nicotine Withdrawal Tips",
+      reference: "Sleep foundation - Nicotine and Sleep",
       link:
-          "https://www.cancer.gov/about-cancer/causes-prevention/risk/tobacco/withdrawal-fact-sheet",
+          "https://www.sleepfoundation.org/physical-health/nicotine-and-sleep",
     ),
     QuitMilestone(
       day: 90,
