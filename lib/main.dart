@@ -14,6 +14,7 @@ import 'package:quitter/settings_page.dart';
 import 'package:quitter/smoking_page.dart';
 import 'package:quitter/social_media_page.dart';
 import 'package:quitter/vaping_page.dart';
+import 'package:quitter/pornography_page.dart';
 import 'package:quitter/reminders.dart';
 
 class HomePage extends StatefulWidget {
@@ -30,12 +31,14 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
   int? pouchesDays;
   int? opioidDays;
   int? socialMediaDays;
+  int? pornographyDays;
   String? quitAlcohol;
   String? quitVaping;
   String? quitSmoking;
   String? quitPouches;
   String? quitOpioids;
   String? quitSocialMedia;
+  String? quitPornography;
 
   @override
   void initState() {
@@ -68,6 +71,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
       quitOpioids = prefs.getString('opioids');
       quitPouches = prefs.getString('nicotine_pouches');
       quitSocialMedia = prefs.getString('social_media');
+      quitPornography = prefs.getString('pornography');
     });
 
     if (mounted) {
@@ -79,6 +83,8 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
         if (quitPouches != null) pouchesDays = daysCeil(quitPouches!);
         if (quitSocialMedia != null)
           socialMediaDays = daysCeil(quitSocialMedia!);
+        if (quitPornography != null)
+          pornographyDays = daysCeil(quitPornography!);
       });
     }
   }
@@ -483,6 +489,34 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                       onLongPress: () {
                         _showHideBottomSheet('Social Media', () {
                           settings.setShowSocialMedia(false);
+                        });
+                      },
+                    ),
+                  );
+                }
+
+                if (settings.showPornography) {
+                  cards.add(
+                    _buildQuitCard(
+                      title: 'Pornography',
+                      icon: Icons.block,
+                      gradientColors: [
+                        const Color(0xFFF43F5E),
+                        const Color(0xFFE11D48),
+                      ],
+                      days: pornographyDays,
+                      quitDate: quitPornography,
+                      onTap: () async {
+                        await Navigator.of(context).push(
+                          MaterialPageRoute(
+                            builder: (context) => const PornographyPage(),
+                          ),
+                        );
+                        if (mounted) _loadQuitDays();
+                      },
+                      onLongPress: () {
+                        _showHideBottomSheet('Pornography', () {
+                          settings.setShowPornography(false);
                         });
                       },
                     ),

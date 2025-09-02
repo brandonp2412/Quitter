@@ -130,6 +130,13 @@ class SettingsPage extends StatelessWidget {
         value: settings.showSocialMedia,
         onChanged: settings.setShowSocialMedia,
       ),
+      _ToggleItem(
+        icon: Icons.block,
+        title: 'Pornography',
+        subtitle: 'Show pornography tracking',
+        value: settings.showPornography,
+        onChanged: settings.setShowPornography,
+      ),
     ];
 
     return Column(
@@ -188,6 +195,13 @@ class SettingsPage extends StatelessWidget {
         subtitle: 'Notify social media quitting progress',
         value: settings.notifySocialMedia,
         onChanged: settings.setNotifySocialMedia,
+      ),
+      _ToggleItem(
+        icon: Icons.block,
+        title: 'Pornography',
+        subtitle: 'Notify pornography quitting progress',
+        value: settings.notifyPornography,
+        onChanged: settings.setNotifyPornography,
       ),
       _ToggleItem(
         icon: Icons.reset_tv,
