@@ -94,7 +94,7 @@ class AlcoholPage extends StatelessWidget {
       storageKey: 'alcohol',
       milestones: milestones,
       headerTextStartedBuilder: (currentDay) => 'Cheers to You!',
-      headerTextNotStarted: 'Your Fresh Start!',
+      headerTextNotStarted: 'Sober Journey Ahead!',
       headerSubtitleStartedBuilder: (currentDay) => 'Every day is a win 🥳',
       headerSubtitleNotStarted: 'Ready for a brighter you? ✨',
     );

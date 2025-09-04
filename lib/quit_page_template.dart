@@ -171,9 +171,9 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
                     started
                         ? widget.headerSubtitleStartedBuilder(currentDay)
                         : widget.headerSubtitleNotStarted,
-                    style: TextStyle(
-                      fontSize: 16,
+                    style: Theme.of(context).textTheme.titleMedium?.copyWith(
                       color: theme.appBarTheme.titleTextStyle?.color,
+                      fontWeight: FontWeight.w500,
                     ),
                   ),
                   const SizedBox(height: 16),

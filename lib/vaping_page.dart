@@ -96,7 +96,7 @@ class VapingPage extends StatelessWidget {
       storageKey: 'vaping',
       milestones: milestones,
       headerTextStartedBuilder: (currentDay) => 'Clear Skies Ahead!',
-      headerTextNotStarted: 'Your Fresh Start!',
+      headerTextNotStarted: 'Vape-Free Living!',
       headerSubtitleStartedBuilder: (currentDay) =>
           'Breathing easy, living free 🌬️',
       headerSubtitleNotStarted: 'Ready to ditch the vape? ✨',

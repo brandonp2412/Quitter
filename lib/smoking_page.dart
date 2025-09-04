@@ -90,7 +90,7 @@ class SmokingPage extends StatelessWidget {
       storageKey: 'smoking',
       milestones: milestones,
       headerTextStartedBuilder: (currentDay) => 'Breathe Easy!',
-      headerTextNotStarted: 'Your Fresh Start!',
+      headerTextNotStarted: 'Smoke-Free Journey!',
       headerSubtitleStartedBuilder: (currentDay) =>
           'Every puff-free day is a win 🚭',
       headerSubtitleNotStarted: 'Ready to reclaim your health? ✨',

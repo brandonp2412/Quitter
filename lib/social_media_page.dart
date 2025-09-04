@@ -91,7 +91,7 @@ class SocialMediaPage extends StatelessWidget {
       storageKey: 'social_media',
       milestones: milestones,
       headerTextStartedBuilder: (currentDay) => 'Unplug & Play!',
-      headerTextNotStarted: 'Your Fresh Start!',
+      headerTextNotStarted: 'Digital Detox Journey!',
       headerSubtitleStartedBuilder: (currentDay) =>
           'Real life is the best feed 💖',
       headerSubtitleNotStarted: 'Ready to reclaim your time? 🚀',

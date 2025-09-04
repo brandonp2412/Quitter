@@ -91,7 +91,7 @@ class PornographyPage extends StatelessWidget {
       storageKey: 'pornography',
       milestones: milestones,
       headerTextStartedBuilder: (currentDay) => 'Reclaiming Your Mind!',
-      headerTextNotStarted: 'Your Recovery Journey!',
+      headerTextNotStarted: 'Freedom From Pornography!',
       headerSubtitleStartedBuilder: (currentDay) =>
           'Building authentic connections 🧠✨',
       headerSubtitleNotStarted: 'Ready to break free and rebuild? 💪',

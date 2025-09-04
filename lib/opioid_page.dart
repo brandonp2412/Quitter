@@ -97,7 +97,7 @@ class OpioidPage extends StatelessWidget {
       storageKey: 'opioids',
       milestones: milestones,
       headerTextStartedBuilder: (currentDay) => 'Stronger Every Day!',
-      headerTextNotStarted: 'Your Fresh Start!',
+      headerTextNotStarted: 'Road to Recovery!',
       headerSubtitleStartedBuilder: (currentDay) => 'Embrace your strength 💪',
       headerSubtitleNotStarted: 'Ready to reclaim your life? 💖',
       infoBoxMessage:
