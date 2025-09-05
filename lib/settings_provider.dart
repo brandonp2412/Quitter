@@ -77,6 +77,7 @@ class SettingsProvider extends ChangeNotifier {
     _notifyEvery = _prefs!.getInt(_notifyEveryKey) ?? 1;
     _showAlcohol = _prefs!.getBool(_alcoholKey) ?? true;
     _showVaping = _prefs!.getBool(_vapingKey) ?? true;
+    _showReset = _prefs!.getBool(_showResetKey) ?? true;
     _showSmoking = _prefs!.getBool(_smokingKey) ?? true;
     _showOpioids = _prefs!.getBool(_opioidsKey) ?? true;
     _showSocialMedia = _prefs!.getBool(_socialMediaKey) ?? true;
