@@ -1,0 +1,2 @@
+• Customize headlines for not started
+• Fix app not remembering show/hide reset button
