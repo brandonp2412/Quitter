@@ -19,6 +19,8 @@ Record your quitting journey with a Free and Open Source app.
 	<img src="./docs/download-msstore.svg" style="height: 80px !important"/>
 </a>
 
+[F-droid submission](https://gitlab.com/fdroid/fdroiddata/-/merge_requests/26379)
+
 # Screenshots
 
 <p class="float-left">
