@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:provider/provider.dart';
@@ -71,7 +72,9 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
   void _handleStartPressed() async {
     if (!context.mounted) return;
     final settingsProvider = context.read<SettingsProvider>();
-    if (settingsProvider.notifyEvery > 0) {
+    if (settingsProvider.notifyEvery > 0 &&
+        (defaultTargetPlatform == TargetPlatform.android ||
+            defaultTargetPlatform == TargetPlatform.iOS)) {
       final permission = await Permission.notification.request();
       if (permission.isDenied && context.mounted) {
         settingsProvider.setNotifyEvery(0);
