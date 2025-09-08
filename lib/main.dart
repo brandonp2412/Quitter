@@ -67,6 +67,8 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
   void _whatsNew() async {
     final prefs = await SharedPreferences.getInstance();
     final lastVersion = prefs.getInt('last_build_number') ?? 0;
+    if (lastVersion == 0) return;
+
     final info = await PackageInfo.fromPlatform();
     final currentVersion = int.parse(info.buildNumber);
 
