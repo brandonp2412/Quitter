@@ -3,7 +3,6 @@ import 'package:permission_handler/permission_handler.dart';
 import 'package:provider/provider.dart';
 import 'package:quitter/confetti_widget.dart';
 import 'package:quitter/quit_milestone.dart';
-import 'package:quitter/reminders.dart';
 import 'package:quitter/settings_provider.dart';
 import 'package:quitter/timeline_tile.dart';
 import 'package:quitter/utils.dart';
