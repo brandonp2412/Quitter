@@ -135,7 +135,9 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
               Container(
                 padding: const EdgeInsets.all(16),
                 decoration: BoxDecoration(
-                  color: Theme.of(context).colorScheme.primary.withOpacity(0.1),
+                  color: Theme.of(
+                    context,
+                  ).colorScheme.primary.withValues(alpha: 0.1),
                   shape: BoxShape.circle,
                 ),
                 child: Icon(
@@ -156,7 +158,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                 style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                   color: Theme.of(
                     context,
-                  ).colorScheme.onSurface.withOpacity(0.7),
+                  ).colorScheme.onSurface.withValues(alpha: 0.7),
                 ),
                 textAlign: TextAlign.center,
               ),
@@ -225,7 +227,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
             ),
             boxShadow: [
               BoxShadow(
-                color: gradientColors.first.withOpacity(0.3),
+                color: gradientColors.first.withValues(alpha: 0.3),
                 blurRadius: 8,
                 offset: const Offset(0, 4),
               ),
@@ -237,13 +239,15 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
               onTap: onTap,
               onLongPress: onLongPress,
               borderRadius: BorderRadius.circular(20),
-              splashColor: Colors.white.withOpacity(0.3),
-              highlightColor: Colors.white.withOpacity(0.1),
+              splashColor: Colors.white.withValues(alpha: 0.3),
+              highlightColor: Colors.white.withValues(alpha: 0.1),
               child: Container(
                 padding: const EdgeInsets.all(20),
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(20),
-                  color: Theme.of(context).colorScheme.surface.withOpacity(0.9),
+                  color: Theme.of(
+                    context,
+                  ).colorScheme.surface.withValues(alpha: 0.9),
                 ),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -272,7 +276,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                             decoration: BoxDecoration(
                               color: Theme.of(
                                 context,
-                              ).colorScheme.primary.withOpacity(0.1),
+                              ).colorScheme.primary.withValues(alpha: 0.1),
                               borderRadius: BorderRadius.circular(8),
                             ),
                             child: Text(
@@ -309,9 +313,10 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                               text: days == 1 ? ' day' : ' days',
                               style: Theme.of(context).textTheme.bodyLarge
                                   ?.copyWith(
-                                    color: Theme.of(
-                                      context,
-                                    ).colorScheme.onSurface.withOpacity(0.7),
+                                    color: Theme.of(context)
+                                        .colorScheme
+                                        .onSurface
+                                        .withValues(alpha: 0.7),
                                   ),
                             ),
                           ],
@@ -323,7 +328,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                         style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                           color: Theme.of(
                             context,
-                          ).colorScheme.onSurface.withOpacity(0.6),
+                          ).colorScheme.onSurface.withValues(alpha: 0.6),
                           fontStyle: FontStyle.italic,
                         ),
                       ),
