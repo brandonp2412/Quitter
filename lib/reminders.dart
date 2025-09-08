@@ -4,7 +4,6 @@ import 'dart:math';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
-import 'package:permission_handler/permission_handler.dart';
 import 'package:workmanager/workmanager.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:quitter/utils.dart';
@@ -21,12 +20,6 @@ Future<void> setupReminders() async {
 
   if (notifyEveryDays == 0) return cancelReminders();
   if (Platform.isAndroid || Platform.isIOS) {
-    final permission = await Permission.notification.request();
-    if (permission.isDenied) {
-      settingsProvider.setNotifyEvery(0);
-      return;
-    }
-
     Workmanager().initialize(doMobileReminders);
     Workmanager().registerPeriodicTask(
       "reminders",

@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:permission_handler/permission_handler.dart';
 import 'package:provider/provider.dart';
 import 'package:quitter/confetti_widget.dart';
 import 'package:quitter/quit_milestone.dart';
+import 'package:quitter/reminders.dart';
 import 'package:quitter/settings_provider.dart';
 import 'package:quitter/timeline_tile.dart';
 import 'package:quitter/utils.dart';
@@ -67,7 +69,16 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
     });
   }
 
-  void _handleStartPressed() {
+  void _handleStartPressed() async {
+    if (!context.mounted) return;
+    final settingsProvider = context.read<SettingsProvider>();
+    if (settingsProvider.notifyEvery > 0) {
+      final permission = await Permission.notification.request();
+      if (permission.isDenied && context.mounted) {
+        settingsProvider.setNotifyEvery(0);
+      }
+    }
+
     setState(() {
       currentDay = 1;
       started = true;
@@ -246,6 +257,17 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
                                 started = false;
                                 prefs.remove(widget.storageKey);
                               });
+
+                            if (!context.mounted) return;
+                            final settingsProvider = context
+                                .read<SettingsProvider>();
+                            if (settingsProvider.notifyEvery > 0) {
+                              final permission = await Permission.notification
+                                  .request();
+                              if (permission.isDenied && context.mounted) {
+                                settingsProvider.setNotifyEvery(0);
+                              }
+                            }
 
                             final quitOn = DateTime.now().subtract(
                               Duration(days: currentDay),
