@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:intl/intl.dart';
+import 'package:package_info_plus/package_info_plus.dart';
 import 'package:provider/provider.dart';
 import 'package:dynamic_color/dynamic_color.dart';
 import 'package:quitter/color_scheme_helper.dart';
 import 'package:quitter/nicotine_pouches.dart';
 import 'package:quitter/settings_provider.dart';
 import 'package:quitter/utils.dart';
+import 'package:quitter/whats_new.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:quitter/alcohol_page.dart';
 import 'package:quitter/opioid_page.dart';
@@ -44,6 +46,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
   void initState() {
     super.initState();
     _loadQuitDays();
+    _whatsNew();
     WidgetsBinding.instance.addObserver(this);
   }
 
@@ -58,6 +61,29 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
     super.didChangeAppLifecycleState(state);
     if (state == AppLifecycleState.resumed) {
       _loadQuitDays();
+    }
+  }
+
+  void _whatsNew() async {
+    final prefs = await SharedPreferences.getInstance();
+    final lastVersion = prefs.getInt('last_build_number') ?? 0;
+    final info = await PackageInfo.fromPlatform();
+    final currentVersion = int.parse(info.buildNumber);
+
+    if (currentVersion > lastVersion) {
+      if (mounted) {
+        toast(
+          context,
+          "New version ${info.version}",
+          SnackBarAction(
+            label: 'Changes',
+            onPressed: () => Navigator.of(
+              context,
+            ).push(MaterialPageRoute(builder: (context) => const WhatsNew())),
+          ),
+        );
+      }
+      await prefs.setInt('last_build_number', currentVersion);
     }
   }
 
@@ -555,6 +581,17 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
         foregroundColor: Theme.of(context).colorScheme.onPrimary,
       ),
     );
+  }
+
+  bool isNewerVersion(String lastVersion, currentVersion) {
+    final lastParts = lastVersion.split('.').map(int.parse).toList();
+    final currentParts = currentVersion.split('.').map(int.parse).toList();
+
+    for (int i = 0; i < 3; i++) {
+      if (currentParts[i] > lastParts[i]) return true;
+      if (currentParts[i] < lastParts[i]) return false;
+    }
+    return false;
   }
 }
 

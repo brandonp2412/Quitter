@@ -5,6 +5,7 @@ import 'package:quitter/color_scheme_helper.dart';
 import 'package:quitter/color_scheme_type.dart';
 import 'package:quitter/settings_provider.dart';
 import 'package:quitter/radio_group.dart';
+import 'package:quitter/whats_new.dart';
 
 class SettingsPage extends StatelessWidget {
   const SettingsPage({super.key});
@@ -27,12 +28,24 @@ class SettingsPage extends StatelessWidget {
               _sectionHeader('System', context),
               const SizedBox(height: 8),
               Card(
-                child: ListTile(
-                  title: Text("About"),
-                  leading: Icon(Icons.info_outline),
-                  onTap: () => Navigator.of(
-                    context,
-                  ).push(MaterialPageRoute(builder: (context) => AboutPage())),
+                child: Column(
+                  children: [
+                    ListTile(
+                      title: Text("About"),
+                      leading: Icon(Icons.info_outline),
+                      onTap: () => Navigator.of(context).push(
+                        MaterialPageRoute(builder: (context) => AboutPage()),
+                      ),
+                    ),
+                    Divider(height: 1),
+                    ListTile(
+                      title: Text("What's new"),
+                      leading: const Icon(Icons.change_circle_outlined),
+                      onTap: () => Navigator.of(context).push(
+                        MaterialPageRoute(builder: (context) => WhatsNew()),
+                      ),
+                    ),
+                  ],
                 ),
               ),
             ],

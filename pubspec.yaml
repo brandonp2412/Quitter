@@ -32,6 +32,7 @@ flutter:
   uses-material-design: true
   assets:
     - assets/
+    - assets/changelogs/
 msix_config:
   msstore_appId: 9PKVZWDG3FGC
   display_name: Quitter - Addiction recovery tracker

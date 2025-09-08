@@ -162,19 +162,14 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
                     started
                         ? widget.headerTextStartedBuilder(currentDay)
                         : widget.headerTextNotStarted,
-                    style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                      color: theme.appBarTheme.titleTextStyle?.color,
-                    ),
+                    style: Theme.of(context).textTheme.headlineMedium,
                   ),
                   const SizedBox(height: 8),
                   Text(
                     started
                         ? widget.headerSubtitleStartedBuilder(currentDay)
                         : widget.headerSubtitleNotStarted,
-                    style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                      color: theme.appBarTheme.titleTextStyle?.color,
-                      fontWeight: FontWeight.w500,
-                    ),
+                    style: Theme.of(context).textTheme.titleMedium,
                   ),
                   const SizedBox(height: 16),
                   Row(
@@ -300,7 +295,6 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
                               style: TextStyle(
                                 fontSize: 12,
                                 color: theme.appBarTheme.titleTextStyle?.color,
-                                fontWeight: FontWeight.w500,
                               ),
                             ),
                           ),
