@@ -6,10 +6,10 @@ import 'package:quitter/color_scheme_type.dart';
 import 'package:quitter/settings_provider.dart';
 import 'package:quitter/radio_group.dart';
 import 'dart:io';
-import 'package:path_provider/path_provider.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:quitter/whats_new.dart';
+import 'dart:typed_data';
 
 class SettingsPage extends StatefulWidget {
   const SettingsPage({super.key});
@@ -106,13 +106,17 @@ class _SettingsPageState extends State<SettingsPage> {
           .map((key) => '$key=${prefs.get(key)}')
           .join('\n');
 
-      final directory = await getApplicationDocumentsDirectory();
-      final file = File('${directory.path}/quitter_data.txt');
-      await file.writeAsString(data);
+      String? outputFile = await FilePicker.platform.saveFile(
+        dialogTitle: 'Save Data To',
+        fileName: 'quitter_data.txt',
+        type: FileType.custom,
+        allowedExtensions: ['txt'],
+        bytes: Uint8List.fromList(data.codeUnits),
+      );
 
       ScaffoldMessenger.of(
         context,
-      ).showSnackBar(SnackBar(content: Text('Data exported to ${file.path}')));
+      ).showSnackBar(SnackBar(content: Text('Data exported to $outputFile')));
     } catch (e) {
       ScaffoldMessenger.of(
         context,
