@@ -4,7 +4,7 @@
     android:minHeight="40dp"
     android:targetCellWidth="2"
     android:targetCellHeight="1"
-    android:updatePeriodMillis="3600000"
+    android:updatePeriodMillis="14400000"
     android:initialLayout="@layout/quit_tracker_widget"
     android:description="@string/widget_description"
     android:resizeMode="horizontal|vertical"
