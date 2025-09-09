@@ -5,6 +5,7 @@ import 'package:package_info_plus/package_info_plus.dart';
 import 'package:provider/provider.dart';
 import 'package:dynamic_color/dynamic_color.dart';
 import 'package:quitter/color_scheme_helper.dart';
+import 'package:quitter/marijuana_page.dart';
 import 'package:quitter/nicotine_pouches.dart';
 import 'package:quitter/settings_provider.dart';
 import 'package:quitter/utils.dart';
@@ -34,6 +35,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
   int? opioidDays;
   int? socialMediaDays;
   int? pornographyDays;
+  int? marijuanaDays;
   String? quitAlcohol;
   String? quitVaping;
   String? quitSmoking;
@@ -41,6 +43,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
   String? quitOpioids;
   String? quitSocialMedia;
   String? quitPornography;
+  String? quitMarijuana;
 
   @override
   void initState() {
@@ -100,11 +103,13 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
       quitPouches = prefs.getString('nicotine_pouches');
       quitSocialMedia = prefs.getString('social_media');
       quitPornography = prefs.getString('pornography');
+      quitMarijuana = prefs.getString('marijuana');
     });
 
     if (mounted) {
       setState(() {
         if (quitSmoking != null) smokingDays = daysCeil(quitSmoking!);
+        if (quitMarijuana != null) marijuanaDays = daysCeil(quitMarijuana!);
         if (quitAlcohol != null) alcoholDays = daysCeil(quitAlcohol!);
         if (quitVaping != null) vapingDays = daysCeil(quitVaping!);
         if (quitOpioids != null) opioidDays = daysCeil(quitOpioids!);
@@ -446,6 +451,33 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                   );
                 }
 
+                if (settings.showMarijuana) {
+                  cards.add(
+                    _buildQuitCard(
+                      title: 'Marijuana',
+                      icon: Icons.grass,
+                      gradientColors: [
+                        const Color.fromARGB(255, 132, 230, 128),
+                        const Color.fromARGB(255, 30, 87, 3),
+                      ],
+                      days: marijuanaDays,
+                      quitDate: quitMarijuana,
+                      onTap: () async {
+                        await Navigator.of(context).push(
+                          MaterialPageRoute(
+                            builder: (context) => MarijuanaPage(),
+                          ),
+                        );
+                        if (mounted) _loadQuitDays();
+                      },
+                      onLongPress: () {
+                        _showHideBottomSheet('Marijuana', () {
+                          settings.setShowMarijuana(false);
+                        });
+                      },
+                    ),
+                  );
+                }
                 if (settings.showNicotinePouches) {
                   cards.add(
                     _buildQuitCard(

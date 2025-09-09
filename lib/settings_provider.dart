@@ -9,6 +9,7 @@ class SettingsProvider extends ChangeNotifier {
   static const String _notifyEveryKey = 'notify_every';
   static const String _alcoholKey = 'show_alcohol';
   static const String _nicotinePouchesKey = 'show_nicotine_pouches';
+  static const String _marijuanaKey = 'show_marijuana';
   static const String _showResetKey = 'show_reset';
   static const String _vapingKey = 'show_vaping';
   static const String _smokingKey = 'show_smoking';
@@ -16,6 +17,7 @@ class SettingsProvider extends ChangeNotifier {
   static const String _socialMediaKey = 'show_social_media';
   static const String _pornographyKey = 'show_pornography';
   static const String _notifyAlcoholKey = 'notify_alcohol';
+  static const String _notifyMarijuanaKey = 'notify_marijuana';
   static const String _notifyVapingKey = 'notify_vaping';
   static const String _notifySmokingKey = 'notify_smoking';
   static const String _notifyOpioidsKey = 'notify_opioids';
@@ -44,6 +46,8 @@ class SettingsProvider extends ChangeNotifier {
   bool _notifySocialMedia = true;
   bool _notifyPornography = true;
   bool _notifyRelapse = true;
+  bool _notifyMarijuana = true;
+  bool _showMarijuana = true;
   bool _showReset = true;
 
   ThemeMode get themeMode => _themeMode;
@@ -53,6 +57,7 @@ class SettingsProvider extends ChangeNotifier {
   bool get showVaping => _showVaping;
   bool get showSmoking => _showSmoking;
   bool get showNicotinePouches => _showNicotinePouches;
+  bool get showMarijuana => _showMarijuana;
   int get notifyEvery => _notifyEvery;
   bool get showOpioids => _showOpioids;
   bool get showSocialMedia => _showSocialMedia;
@@ -65,6 +70,7 @@ class SettingsProvider extends ChangeNotifier {
   bool get notifySocialMedia => _notifySocialMedia;
   bool get notifyPornography => _notifyPornography;
   bool get notifyRelapse => _notifyRelapse;
+  bool get notifyMarijuana => _notifyMarijuana;
 
   Future<void> loadPreferences() async {
     _prefs = await SharedPreferences.getInstance();
@@ -88,7 +94,9 @@ class SettingsProvider extends ChangeNotifier {
     _notifyOpioids = _prefs!.getBool(_notifyOpioidsKey) ?? true;
     _notifySocialMedia = _prefs!.getBool(_notifySocialMediaKey) ?? true;
     _notifyPornography = _prefs!.getBool(_notifyPornographyKey) ?? true;
+    _notifyMarijuana = _prefs!.getBool(_notifyMarijuanaKey) ?? true;
     _showNicotinePouches = _prefs!.getBool(_nicotinePouchesKey) ?? true;
+    _showMarijuana = _prefs!.getBool(_marijuanaKey) ?? true;
 
     notifyListeners();
   }
@@ -110,6 +118,12 @@ class SettingsProvider extends ChangeNotifier {
   Future<void> setColorSchemeType(ColorSchemeType type) async {
     _colorSchemeType = type;
     await _prefs?.setInt(_colorSchemeKey, type.index);
+    notifyListeners();
+  }
+
+  Future<void> setShowMarijuana(bool show) async {
+    _showMarijuana = show;
+    await _prefs?.setBool(_marijuanaKey, show);
     notifyListeners();
   }
 
@@ -176,6 +190,12 @@ class SettingsProvider extends ChangeNotifier {
   Future<void> setNotifyAlcohol(bool notify) async {
     _notifyAlcohol = notify;
     await _prefs?.setBool(_notifyAlcoholKey, notify);
+    notifyListeners();
+  }
+
+  Future<void> setNotifyMarijuana(bool notify) async {
+    _notifyMarijuana = notify;
+    await _prefs?.setBool(_notifyMarijuanaKey, notify);
     notifyListeners();
   }
 
