@@ -11,64 +11,87 @@ import 'package:file_picker/file_picker.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:quitter/whats_new.dart';
 
-class SettingsPage extends StatelessWidget {
+class SettingsPage extends StatefulWidget {
   const SettingsPage({super.key});
+
+  @override
+  State<SettingsPage> createState() => _SettingsPageState();
+}
+
+class _SettingsPageState extends State<SettingsPage> {
+  final TextEditingController _searchController = TextEditingController();
+  final FocusNode _searchFocusNode = FocusNode();
+  String _searchQuery = '';
+  bool _isSearching = false;
+
+  @override
+  void initState() {
+    super.initState();
+    _searchController.addListener(_onSearchChanged);
+  }
+
+  @override
+  void dispose() {
+    _searchController.removeListener(_onSearchChanged);
+    _searchController.dispose();
+    _searchFocusNode.dispose();
+    super.dispose();
+  }
+
+  void _onSearchChanged() {
+    setState(() {
+      _searchQuery = _searchController.text;
+    });
+  }
+
+  void _toggleSearch() {
+    setState(() {
+      _isSearching = !_isSearching;
+      if (!_isSearching) {
+        _searchController.clear();
+        _searchFocusNode.unfocus();
+      } else {
+        _searchFocusNode.requestFocus();
+      }
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Settings')),
+      appBar: AppBar(
+        title: _isSearching
+            ? TextField(
+                controller: _searchController,
+                focusNode: _searchFocusNode,
+                decoration: const InputDecoration(
+                  hintText: 'Search settings...',
+                  border: InputBorder.none,
+                ),
+              )
+            : const Text('Settings'),
+        actions: [
+          IconButton(
+            icon: Icon(_isSearching ? Icons.close : Icons.search),
+            onPressed: _toggleSearch,
+          ),
+        ],
+      ),
       body: Consumer<SettingsProvider>(
         builder: (context, settings, child) {
+          final List<Widget> allSettingsItems = _buildAllSettingsItems(
+            context,
+            settings,
+          );
+          final List<Widget> filteredItems = _searchQuery.isEmpty
+              ? allSettingsItems
+              : allSettingsItems
+                    .where((item) => _matchesSearch(item, _searchQuery))
+                    .toList();
+
           return ListView(
             padding: const EdgeInsets.all(16.0),
-            children: [
-              _buildAppearanceSection(context, settings),
-              const SizedBox(height: 24),
-              _buildMainScreenItemsSection(settings, context),
-              const SizedBox(height: 24),
-              _buildNotificationsSection(context, settings),
-              const SizedBox(height: 24),
-              _sectionHeader('System', context),
-              const SizedBox(height: 8),
-              Card(
-                child: Column(
-                  children: [
-                    ListTile(
-                      title: const Text("About"),
-                      leading: const Icon(Icons.info_outline),
-                      onTap: () => Navigator.of(context).push(
-                        MaterialPageRoute(
-                          builder: (context) => const AboutPage(),
-                        ),
-                      ),
-                    ),
-                    const Divider(height: 1),
-                    ListTile(
-                      title: const Text("What's new"),
-                      leading: const Icon(Icons.change_circle_outlined),
-                      onTap: () => Navigator.of(context).push(
-                        MaterialPageRoute(
-                          builder: (context) => const WhatsNew(),
-                        ),
-                      ),
-                    ),
-                    const Divider(height: 1),
-                    ListTile(
-                      title: const Text("Export Data"),
-                      leading: const Icon(Icons.upload_file),
-                      onTap: () => _exportData(context),
-                    ),
-                    const Divider(height: 1),
-                    ListTile(
-                      title: const Text("Import Data"),
-                      leading: const Icon(Icons.file_download),
-                      onTap: () => _importData(context),
-                    ),
-                  ],
-                ),
-              ),
-            ],
+            children: filteredItems,
           );
         },
       ),
@@ -141,51 +164,42 @@ class SettingsPage extends StatelessWidget {
     }
   }
 
-  Widget _buildAppearanceSection(
+  List<Widget> _buildAppearanceSectionItems(
     BuildContext context,
     SettingsProvider settings,
   ) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        _sectionHeader('Appearance', context),
-        const SizedBox(height: 8),
-        Card(
-          child: Column(
-            children: [
-              ListTile(
-                leading: const Icon(Icons.brightness_6),
-                title: const Text('Theme'),
-                subtitle: Text(_getTheme(settings.themeMode)),
-                onTap: () => _showThemeDialog(context, settings),
-              ),
-              const Divider(height: 1),
-              ListTile(
-                leading: const Icon(Icons.palette),
-                title: const Text('Color Scheme'),
-                subtitle: Text(
-                  ColorSchemeHelper.getColorSchemeName(
-                    settings.colorSchemeType,
-                  ),
-                ),
-                onTap: () => _showColorDialog(context, settings),
-              ),
-              const Divider(height: 1),
-              SwitchListTile(
-                secondary: Icon(Icons.restart_alt),
-                title: Text('Reset buttons'),
-                subtitle: Text('Show reset buttons on quit pages'),
-                value: settings.showReset,
-                onChanged: settings.setShowReset,
-              ),
-            ],
-          ),
+    return [
+      _sectionHeader('Appearance', context),
+      ListTile(
+        leading: const Icon(Icons.brightness_6),
+        title: const Text('Theme'),
+        subtitle: Text(_getTheme(settings.themeMode)),
+        onTap: () => _showThemeDialog(context, settings),
+      ),
+      const Divider(height: 1),
+      ListTile(
+        leading: const Icon(Icons.palette),
+        title: const Text('Color Scheme'),
+        subtitle: Text(
+          ColorSchemeHelper.getColorSchemeName(settings.colorSchemeType),
         ),
-      ],
-    );
+        onTap: () => _showColorDialog(context, settings),
+      ),
+      const Divider(height: 1),
+      SwitchListTile(
+        secondary: const Icon(Icons.restart_alt),
+        title: const Text('Reset buttons'),
+        subtitle: const Text('Show reset buttons on quit pages'),
+        value: settings.showReset,
+        onChanged: settings.setShowReset,
+      ),
+    ];
   }
 
-  Widget _buildMainScreenItemsSection(SettingsProvider settings, context) {
+  List<Widget> _buildMainScreenItemsSectionItems(
+    SettingsProvider settings,
+    BuildContext context,
+  ) {
     final items = [
       _ToggleItem(
         icon: Icons.local_bar,
@@ -238,17 +252,13 @@ class SettingsPage extends StatelessWidget {
       ),
     ];
 
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        _sectionHeader('Main Screen Items', context),
-        const SizedBox(height: 8),
-        Card(child: Column(children: _buildToggleList(items))),
-      ],
-    );
+    return [
+      _sectionHeader('Main Screen Items', context),
+      ..._buildToggleList(items),
+    ];
   }
 
-  Widget _buildNotificationsSection(
+  List<Widget> _buildNotificationsSectionItems(
     BuildContext context,
     SettingsProvider settings,
   ) {
@@ -311,52 +321,95 @@ class SettingsPage extends StatelessWidget {
       ),
     ];
 
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        _sectionHeader('Notifications', context),
-        const SizedBox(height: 8),
-        Card(
-          child: Column(
-            children: [
-              ListTile(
-                leading: const Icon(Icons.schedule),
-                title: const Text('Notification Frequency'),
-                subtitle: Text('Every ${settings.notifyEvery} day(s)'),
-                onTap: () =>
-                    _showNotificationFrequencyDialog(context, settings),
-              ),
-              const Divider(height: 1),
-              ..._buildToggleList(notificationItems),
-            ],
-          ),
-        ),
-      ],
-    );
+    return [
+      _sectionHeader('Notifications', context),
+      ListTile(
+        leading: const Icon(Icons.schedule),
+        title: const Text('Notification Frequency'),
+        subtitle: Text('Every ${settings.notifyEvery} day(s)'),
+        onTap: () => _showNotificationFrequencyDialog(context, settings),
+      ),
+      const Divider(height: 1),
+      ..._buildToggleList(notificationItems),
+    ];
   }
 
-  List<Widget> _buildToggleList(List<_ToggleItem> items) {
-    final List<Widget> widgets = [];
+  List<Widget> _buildSystemSectionItems(
+    BuildContext context,
+    SettingsProvider settings,
+  ) {
+    return [
+      _sectionHeader('System', context),
+      ListTile(
+        title: const Text("About"),
+        leading: const Icon(Icons.info_outline),
+        onTap: () => Navigator.of(
+          context,
+        ).push(MaterialPageRoute(builder: (context) => const AboutPage())),
+      ),
+      const Divider(height: 1),
+      ListTile(
+        title: const Text("What's new"),
+        leading: const Icon(Icons.change_circle_outlined),
+        onTap: () => Navigator.of(
+          context,
+        ).push(MaterialPageRoute(builder: (context) => const WhatsNew())),
+      ),
+      const Divider(height: 1),
+      ListTile(
+        title: const Text("Export Data"),
+        leading: const Icon(Icons.upload_file),
+        onTap: () => _exportData(context),
+      ),
+      const Divider(height: 1),
+      ListTile(
+        title: const Text("Import Data"),
+        leading: const Icon(Icons.file_download),
+        onTap: () => _importData(context),
+      ),
+    ];
+  }
 
-    for (int i = 0; i < items.length; i++) {
-      final item = items[i];
-      widgets.add(
-        SwitchListTile(
-          secondary: Icon(item.icon),
-          title: Text(item.title),
-          subtitle: Text(item.subtitle),
-          value: item.value,
-          onChanged: (value) => item.onChanged(value),
-        ),
-      );
+  List<Widget> _buildAllSettingsItems(
+    BuildContext context,
+    SettingsProvider settings,
+  ) {
+    return [
+      ..._buildAppearanceSectionItems(context, settings),
+      const SizedBox(height: 24), // Add spacing between sections
+      ..._buildMainScreenItemsSectionItems(settings, context),
+      const SizedBox(height: 24), // Add spacing between sections
+      ..._buildNotificationsSectionItems(context, settings),
+      const SizedBox(height: 24), // Add spacing between sections
+      ..._buildSystemSectionItems(context, settings),
+    ];
+  }
 
-      // Add divider between items (but not after the last one)
-      if (i < items.length - 1) {
-        widgets.add(const Divider(height: 1));
+  bool _matchesSearch(Widget item, String query) {
+    if (query.isEmpty) return true;
+
+    final lowerCaseQuery = query.toLowerCase();
+
+    if (item is Padding && item.child is Text) {
+      final text = item.child as Text;
+      if (text.data != null &&
+          text.data!.toLowerCase().contains(lowerCaseQuery)) {
+        return true;
+      }
+    } else if (item is ListTile) {
+      final title = (item.title as Text).data?.toLowerCase() ?? '';
+      final subtitle = (item.subtitle as Text?)?.data?.toLowerCase() ?? '';
+      if (title.contains(lowerCaseQuery) || subtitle.contains(lowerCaseQuery)) {
+        return true;
+      }
+    } else if (item is SwitchListTile) {
+      final title = (item.title as Text).data?.toLowerCase() ?? '';
+      final subtitle = (item.subtitle as Text?)?.data?.toLowerCase() ?? '';
+      if (title.contains(lowerCaseQuery) || subtitle.contains(lowerCaseQuery)) {
+        return true;
       }
     }
-
-    return widgets;
+    return false;
   }
 
   Widget _sectionHeader(String title, BuildContext context) {
@@ -481,6 +534,30 @@ class SettingsPage extends StatelessWidget {
         );
       },
     );
+  }
+
+  List<Widget> _buildToggleList(List<_ToggleItem> items) {
+    final List<Widget> widgets = [];
+
+    for (int i = 0; i < items.length; i++) {
+      final item = items[i];
+      widgets.add(
+        SwitchListTile(
+          secondary: Icon(item.icon),
+          title: Text(item.title),
+          subtitle: Text(item.subtitle),
+          value: item.value,
+          onChanged: (value) => item.onChanged(value),
+        ),
+      );
+
+      // Add divider between items (but not after the last one)
+      if (i < items.length - 1) {
+        widgets.add(const Divider(height: 1));
+      }
+    }
+
+    return widgets;
   }
 }
 
