@@ -5,6 +5,10 @@ import 'package:quitter/color_scheme_helper.dart';
 import 'package:quitter/color_scheme_type.dart';
 import 'package:quitter/settings_provider.dart';
 import 'package:quitter/radio_group.dart';
+import 'dart:io';
+import 'package:path_provider/path_provider.dart';
+import 'package:file_picker/file_picker.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:quitter/whats_new.dart';
 
 class SettingsPage extends StatelessWidget {
@@ -31,19 +35,35 @@ class SettingsPage extends StatelessWidget {
                 child: Column(
                   children: [
                     ListTile(
-                      title: Text("About"),
-                      leading: Icon(Icons.info_outline),
+                      title: const Text("About"),
+                      leading: const Icon(Icons.info_outline),
                       onTap: () => Navigator.of(context).push(
-                        MaterialPageRoute(builder: (context) => AboutPage()),
+                        MaterialPageRoute(
+                          builder: (context) => const AboutPage(),
+                        ),
                       ),
                     ),
-                    Divider(height: 1),
+                    const Divider(height: 1),
                     ListTile(
-                      title: Text("What's new"),
+                      title: const Text("What's new"),
                       leading: const Icon(Icons.change_circle_outlined),
                       onTap: () => Navigator.of(context).push(
-                        MaterialPageRoute(builder: (context) => WhatsNew()),
+                        MaterialPageRoute(
+                          builder: (context) => const WhatsNew(),
+                        ),
                       ),
+                    ),
+                    const Divider(height: 1),
+                    ListTile(
+                      title: const Text("Export Data"),
+                      leading: const Icon(Icons.upload_file),
+                      onTap: () => _exportData(context),
+                    ),
+                    const Divider(height: 1),
+                    ListTile(
+                      title: const Text("Import Data"),
+                      leading: const Icon(Icons.file_download),
+                      onTap: () => _importData(context),
                     ),
                   ],
                 ),
@@ -53,6 +73,72 @@ class SettingsPage extends StatelessWidget {
         },
       ),
     );
+  }
+
+  Future<void> _exportData(BuildContext context) async {
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      final data = prefs
+          .getKeys()
+          .map((key) => '$key=${prefs.get(key)}')
+          .join('\n');
+
+      final directory = await getApplicationDocumentsDirectory();
+      final file = File('${directory.path}/quitter_data.txt');
+      await file.writeAsString(data);
+
+      ScaffoldMessenger.of(
+        context,
+      ).showSnackBar(SnackBar(content: Text('Data exported to ${file.path}')));
+    } catch (e) {
+      ScaffoldMessenger.of(
+        context,
+      ).showSnackBar(SnackBar(content: Text('Error exporting data: $e')));
+    }
+  }
+
+  Future<void> _importData(BuildContext context) async {
+    try {
+      FilePickerResult? result = await FilePicker.platform.pickFiles(
+        type: FileType.custom,
+        allowedExtensions: ['txt'],
+      );
+      if (result == null) return;
+
+      File file = File(result.files.single.path!);
+      String contents = await file.readAsString();
+
+      final prefs = await SharedPreferences.getInstance();
+      await prefs.clear();
+
+      for (var line in contents.split('\n')) {
+        if (line.isEmpty) continue;
+
+        final parts = line.split('=');
+        if (parts.length < 2) continue;
+
+        final key = parts[0];
+        final value = parts.sublist(1).join('=');
+
+        if (value == 'true' || value == 'false') {
+          await prefs.setBool(key, value == 'true');
+        } else if (int.tryParse(value) != null) {
+          await prefs.setInt(key, int.parse(value));
+        } else if (double.tryParse(value) != null) {
+          await prefs.setDouble(key, double.parse(value));
+        } else {
+          await prefs.setString(key, value);
+        }
+      }
+
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('Data imported successfully!')),
+      );
+    } catch (e) {
+      ScaffoldMessenger.of(
+        context,
+      ).showSnackBar(SnackBar(content: Text('Error importing data: $e')));
+    }
   }
 
   Widget _buildAppearanceSection(
