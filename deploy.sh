@@ -222,10 +222,10 @@ generate_screenshots() {
     fi
     
     print_step "Running screenshot tests on $emulator_id for device type '$avd_name'"
-    export FLEXIFY_DEVICE_TYPE="$avd_name"
+    export QUITTER_DEVICE_TYPE="$avd_name"
     
     if flutter drive --profile --driver=test_driver/integration_test.dart \
-        --dart-define=FLEXIFY_DEVICE_TYPE=$avd_name \
+        --dart-define=QUITTER_DEVICE_TYPE=$avd_name \
         --target=integration_test/screenshot_test.dart -d "$emulator_id"; then
         print_success "Screenshots generated successfully for '$avd_name'"
     else
