@@ -24,12 +24,14 @@ Record your quitting journey with a Free and Open Source app.
 # Screenshots
 
 <p class="float-left">
-    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/1_home_page_en-US.png" alt="Home" height="600" alt="Home page">
-    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/2_alcohol_page_en-US.png" alt="Alcohol" height="600" alt="Alcohol page">
-    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/3_smoking_page_en-US.png" alt="Smoking" height="600" alt="Smoking page">
-    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/4_vaping_page_en-US.png" alt="Vaping" height="600" alt="Vaping page">
-    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/5_opioid_page_en-US.png" alt="Opioid" height="600" alt="Opioid page">
-    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/6_settings_page_en-US.png" alt="Settings" height="600" alt="Settings page">
+    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/1_home_page_en-US.png" height="600" alt="Home page">
+    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/2_alcohol_page_en-US.png" height="600" alt="Alcohol page">
+    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/3_smoking_page_en-US.png" height="600" alt="Smoking page">
+    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/4_vaping_page_en-US.png" height="600" alt="Vaping page">
+    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/5_opioid_page_en-US.png" height="600" alt="Opioid page">
+    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/6_marijuana_page_en-US.png" height="600" alt="Marijuana page">
+    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/7_nicotine_pouches_page_en-US.png" height="600" alt="Nicotine pouches page">
+    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/8_settings_page_en-US.png" height="600" alt="Settings page">
 </p>
 
 ## About
