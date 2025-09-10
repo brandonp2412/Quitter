@@ -1,6 +1,8 @@
+import 'dart:convert';
 import 'package:flutter/material.dart';
-import 'package:quitter/color_scheme_type.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:quitter/color_scheme_type.dart';
+import 'package:quitter/custom_quit_entry.dart';
 import 'package:quitter/reminders.dart';
 
 class SettingsProvider extends ChangeNotifier {
@@ -25,6 +27,7 @@ class SettingsProvider extends ChangeNotifier {
   static const String _notifyRelapseKey = 'notify_relapse';
   static const String _notifySocialMediaKey = 'notify_social_media';
   static const String _notifyPornographyKey = 'notify_pornography';
+  static const String _customEntriesKey = 'custom_quit_entries';
 
   SharedPreferences? _prefs;
 
@@ -49,6 +52,7 @@ class SettingsProvider extends ChangeNotifier {
   bool _notifyMarijuana = true;
   bool _showMarijuana = true;
   bool _showReset = true;
+  List<CustomQuitEntry> _customEntries = [];
 
   ThemeMode get themeMode => _themeMode;
   ColorSchemeType get colorSchemeType => _colorSchemeType;
@@ -71,6 +75,7 @@ class SettingsProvider extends ChangeNotifier {
   bool get notifyPornography => _notifyPornography;
   bool get notifyRelapse => _notifyRelapse;
   bool get notifyMarijuana => _notifyMarijuana;
+  List<CustomQuitEntry> get customEntries => _customEntries;
 
   Future<void> loadPreferences() async {
     _prefs = await SharedPreferences.getInstance();
@@ -98,6 +103,42 @@ class SettingsProvider extends ChangeNotifier {
     _showNicotinePouches = _prefs!.getBool(_nicotinePouchesKey) ?? true;
     _showMarijuana = _prefs!.getBool(_marijuanaKey) ?? true;
 
+    final String? customEntriesJson = _prefs!.getString(_customEntriesKey);
+    if (customEntriesJson != null) {
+      final List<dynamic> decodedData = json.decode(customEntriesJson);
+      _customEntries = decodedData
+          .map((item) => CustomQuitEntry.fromJson(item as Map<String, dynamic>))
+          .toList();
+    }
+
+    notifyListeners();
+  }
+
+  Future<void> _saveCustomEntries() async {
+    final List<Map<String, dynamic>> jsonList = _customEntries
+        .map((entry) => entry.toJson())
+        .toList();
+    await _prefs?.setString(_customEntriesKey, json.encode(jsonList));
+  }
+
+  Future<void> addCustomEntry(CustomQuitEntry entry) async {
+    _customEntries.add(entry);
+    await _saveCustomEntries();
+    notifyListeners();
+  }
+
+  Future<void> updateCustomEntry(CustomQuitEntry entry) async {
+    final index = _customEntries.indexWhere((e) => e.id == entry.id);
+    if (index != -1) {
+      _customEntries[index] = entry;
+      await _saveCustomEntries();
+      notifyListeners();
+    }
+  }
+
+  Future<void> deleteCustomEntry(String id) async {
+    _customEntries.removeWhere((entry) => entry.id == id);
+    await _saveCustomEntries();
     notifyListeners();
   }
 

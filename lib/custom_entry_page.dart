@@ -1,0 +1,228 @@
+import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:intl/intl.dart';
+import 'package:quitter/color_scheme_helper.dart';
+import 'package:quitter/custom_quit_entry.dart';
+import 'package:quitter/settings_provider.dart';
+import 'package:quitter/utils.dart';
+import 'package:uuid/uuid.dart';
+
+class CustomEntryPage extends StatefulWidget {
+  final CustomQuitEntry? entry;
+
+  const CustomEntryPage({super.key, this.entry});
+
+  @override
+  State<CustomEntryPage> createState() => _CustomEntryPageState();
+}
+
+class _CustomEntryPageState extends State<CustomEntryPage> {
+  final _formKey = GlobalKey<FormState>();
+  final _quitDateController = TextEditingController();
+  late TextEditingController _titleController;
+  late DateTime _quitDate;
+  late Color _selectedColor;
+
+  @override
+  void initState() {
+    super.initState();
+    _titleController = TextEditingController(text: widget.entry?.title ?? '');
+    _quitDate = widget.entry?.quitDate ?? DateTime.now();
+    _selectedColor = widget.entry?.color ?? Colors.blue;
+  }
+
+  @override
+  void dispose() {
+    _titleController.dispose();
+    super.dispose();
+  }
+
+  void _presentDatePicker() {
+    showDatePicker(
+      context: context,
+      initialDate: _quitDate,
+      firstDate: DateTime(2000),
+      lastDate: DateTime.now(),
+    ).then((pickedDate) {
+      if (pickedDate == null) {
+        return;
+      }
+      setState(() {
+        _quitDate = pickedDate;
+      });
+    });
+  }
+
+  void _saveEntry() {
+    if (_formKey.currentState!.validate()) {
+      final settingsProvider = Provider.of<SettingsProvider>(
+        context,
+        listen: false,
+      );
+      if (widget.entry == null) {
+        // Add new entry
+        final newEntry = CustomQuitEntry(
+          id: const Uuid().v4(),
+          title: _titleController.text,
+          quitDate: _quitDate,
+          color: _selectedColor,
+        );
+        settingsProvider.addCustomEntry(newEntry);
+      } else {
+        // Update existing entry
+        final updatedEntry = CustomQuitEntry(
+          id: widget.entry!.id,
+          title: _titleController.text,
+          quitDate: _quitDate,
+          color: _selectedColor,
+        );
+        settingsProvider.updateCustomEntry(updatedEntry);
+      }
+      Navigator.of(context).pop();
+    }
+  }
+
+  void _deleteEntry() {
+    if (widget.entry != null) {
+      showDialog(
+        context: context,
+        builder: (ctx) => AlertDialog(
+          title: const Text('Are you sure?'),
+          content: const Text('Do you really want to delete this entry?'),
+          actions: [
+            TextButton(
+              onPressed: () {
+                Navigator.of(ctx).pop(false);
+              },
+              child: const Text('No'),
+            ),
+            TextButton(
+              onPressed: () {
+                Navigator.of(ctx).pop(true);
+              },
+              child: const Text('Yes'),
+            ),
+          ],
+        ),
+      ).then((confirmed) {
+        if (confirmed != null && confirmed) {
+          final settingsProvider = Provider.of<SettingsProvider>(
+            context,
+            listen: false,
+          );
+          settingsProvider.deleteCustomEntry(widget.entry!.id);
+          Navigator.of(context).pop(); // Pop the entry page after deletion
+        }
+      });
+    }
+  }
+
+  Color _getContrastColor(Color backgroundColor) {
+    // Calculate luminance to determine if we should use light or dark text
+    final luminance = backgroundColor.computeLuminance();
+    return luminance > 0.5 ? Colors.black : Colors.white;
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(
+          widget.entry == null ? 'Add Custom Entry' : 'Edit Custom Entry',
+        ),
+        actions: [
+          if (widget.entry != null)
+            IconButton(icon: const Icon(Icons.delete), onPressed: _deleteEntry),
+        ],
+      ),
+      body: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Form(
+          key: _formKey,
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              TextFormField(
+                controller: _titleController,
+                decoration: const InputDecoration(
+                  labelText: 'Title',
+                  border: OutlineInputBorder(),
+                ),
+                validator: (value) {
+                  if (value == null || value.isEmpty) {
+                    return 'Please enter a title';
+                  }
+                  return null;
+                },
+              ),
+              const SizedBox(height: 20),
+              TextFormField(
+                readOnly: true,
+                controller: TextEditingController(
+                  text:
+                      '${DateFormat.yMMMd().format(_quitDate)} (${DateTime.now().difference(_quitDate).inDays} days)',
+                ),
+                decoration: InputDecoration(
+                  labelText: 'Quit Date',
+                  border: const OutlineInputBorder(),
+                  suffixIcon: IconButton(
+                    icon: const Icon(Icons.calendar_today),
+                    onPressed: _presentDatePicker,
+                  ),
+                ),
+                onTap: _presentDatePicker,
+              ),
+              const SizedBox(height: 20),
+              Text(
+                'Select Color:',
+                style: Theme.of(context).textTheme.titleMedium,
+              ),
+              const SizedBox(height: 10),
+              Wrap(
+                spacing: 10,
+                runSpacing: 10,
+                children: Colors.primaries.map((color) {
+                  final bool isSelected =
+                      _selectedColor.toARGB32() == color.toARGB32();
+                  return GestureDetector(
+                    onTap: () {
+                      setState(() {
+                        _selectedColor = color;
+                      });
+                    },
+                    child: Container(
+                      width: 40,
+                      height: 40,
+                      decoration: BoxDecoration(
+                        color: color,
+                        shape: BoxShape.circle,
+                        border: isSelected
+                            ? Border.all(
+                                color: Theme.of(context).colorScheme.primary,
+                                width: 3,
+                              )
+                            : null,
+                      ),
+                      child: isSelected
+                          ? Icon(
+                              Icons.check,
+                              color: _getContrastColor(color),
+                              size: 20,
+                            )
+                          : null,
+                    ),
+                  );
+                }).toList(),
+              ),
+            ],
+          ),
+        ),
+      ),
+      floatingActionButton: FloatingActionButton.extended(
+        onPressed: _saveEntry,
+        label: Text('Save'),
+        icon: Icon(Icons.save),
+      ),
+    );
+  }
+}
