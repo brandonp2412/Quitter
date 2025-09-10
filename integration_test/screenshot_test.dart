@@ -106,8 +106,10 @@ void main() {
         binding: binding,
         tester: tester,
         screenshotName: '2_alcohol_page_en-US',
-        navigateToPage: (context) async =>
-            navigateTo(context: context, page: AlcoholPage()),
+        navigateToPage: (context) async => navigateTo(
+          context: context,
+          page: const AlcoholPage(initialStarted: true),
+        ),
       ),
     );
 
@@ -117,8 +119,10 @@ void main() {
         binding: binding,
         tester: tester,
         screenshotName: '3_smoking_page_en-US',
-        navigateToPage: (context) async =>
-            navigateTo(context: context, page: SmokingPage()),
+        navigateToPage: (context) async => navigateTo(
+          context: context,
+          page: const SmokingPage(initialStarted: true),
+        ),
       ),
     );
 
@@ -128,8 +132,10 @@ void main() {
         binding: binding,
         tester: tester,
         screenshotName: '4_vaping_page_en-US',
-        navigateToPage: (context) async =>
-            navigateTo(context: context, page: VapingPage()),
+        navigateToPage: (context) async => navigateTo(
+          context: context,
+          page: const VapingPage(initialStarted: true),
+        ),
       ),
     );
 
@@ -139,8 +145,10 @@ void main() {
         binding: binding,
         tester: tester,
         screenshotName: '5_opioid_page_en-US',
-        navigateToPage: (context) async =>
-            navigateTo(context: context, page: OpioidPage()),
+        navigateToPage: (context) async => navigateTo(
+          context: context,
+          page: const OpioidPage(initialStarted: true),
+        ),
       ),
     );
 
@@ -150,8 +158,10 @@ void main() {
         binding: binding,
         tester: tester,
         screenshotName: '6_marijuana_page_en-US',
-        navigateToPage: (context) async =>
-            navigateTo(context: context, page: const MarijuanaPage()),
+        navigateToPage: (context) async => navigateTo(
+          context: context,
+          page: const MarijuanaPage(initialStarted: true),
+        ),
       ),
     );
 
@@ -161,8 +171,10 @@ void main() {
         binding: binding,
         tester: tester,
         screenshotName: '7_nicotine_pouches_page_en-US',
-        navigateToPage: (context) async =>
-            navigateTo(context: context, page: const NicotinePouchesPage()),
+        navigateToPage: (context) async => navigateTo(
+          context: context,
+          page: const NicotinePouchesPage(initialStarted: true),
+        ),
       ),
     );
 

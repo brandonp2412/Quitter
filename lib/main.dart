@@ -79,23 +79,23 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
     if (lastVersion == 0) return;
 
     if (currentVersion > lastVersion) {
-      if (mounted) {
-        toast(
-          context,
-          "New version ${info.version}",
-          SnackBarAction(
-            label: 'Changes',
-            onPressed: () => Navigator.of(
-              context,
-            ).push(MaterialPageRoute(builder: (context) => const WhatsNew())),
-          ),
-        );
-      }
+      if (!mounted) return;
+      toast(
+        context,
+        "New version ${info.version}",
+        SnackBarAction(
+          label: 'Changes',
+          onPressed: () => Navigator.of(
+            context,
+          ).push(MaterialPageRoute(builder: (context) => const WhatsNew())),
+        ),
+      );
     }
   }
 
   void _loadQuitDays() async {
     final prefs = await SharedPreferences.getInstance();
+    if (!mounted) return;
     final settingsProvider = Provider.of<SettingsProvider>(
       context,
       listen: false,
@@ -148,7 +148,9 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
               Container(
                 padding: const EdgeInsets.all(16),
                 decoration: BoxDecoration(
-                  color: Theme.of(context).colorScheme.primary.withOpacity(0.1),
+                  color: Theme.of(
+                    context,
+                  ).colorScheme.primary.withAlpha(255 ~/ (1 / 0.1)),
                   shape: BoxShape.circle,
                 ),
                 child: Icon(
@@ -169,7 +171,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                 style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                   color: Theme.of(
                     context,
-                  ).colorScheme.onSurface.withOpacity(0.7),
+                  ).colorScheme.onSurface.withAlpha(255 ~/ (1 / 0.7)),
                 ),
                 textAlign: TextAlign.center,
               ),
@@ -238,7 +240,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
             ),
             boxShadow: [
               BoxShadow(
-                color: gradientColors.first.withOpacity(0.3),
+                color: gradientColors.first.withAlpha(255 ~/ (1 / 0.3)),
                 blurRadius: 8,
                 offset: const Offset(0, 4),
               ),
@@ -250,13 +252,15 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
               onTap: onTap,
               onLongPress: onLongPress,
               borderRadius: BorderRadius.circular(20),
-              splashColor: Colors.white.withOpacity(0.3),
-              highlightColor: Colors.white.withOpacity(0.1),
+              splashColor: Colors.white.withAlpha(255 ~/ (1 / 0.3)),
+              highlightColor: Colors.white.withAlpha(255 ~/ (1 / 0.1)),
               child: Container(
                 padding: const EdgeInsets.all(20),
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(20),
-                  color: Theme.of(context).colorScheme.surface.withOpacity(0.9),
+                  color: Theme.of(
+                    context,
+                  ).colorScheme.surface.withAlpha(255 ~/ (1 / 0.9)),
                 ),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -285,7 +289,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                             decoration: BoxDecoration(
                               color: Theme.of(
                                 context,
-                              ).colorScheme.primary.withOpacity(0.1),
+                              ).colorScheme.primary.withAlpha(255 ~/ (1 / 0.1)),
                               borderRadius: BorderRadius.circular(8),
                             ),
                             child: Text(
@@ -322,9 +326,10 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                               text: days == 1 ? ' day' : ' days',
                               style: Theme.of(context).textTheme.bodyLarge
                                   ?.copyWith(
-                                    color: Theme.of(
-                                      context,
-                                    ).colorScheme.onSurface.withOpacity(0.7),
+                                    color: Theme.of(context)
+                                        .colorScheme
+                                        .onSurface
+                                        .withAlpha(255 ~/ (1 / 0.7)),
                                   ),
                             ),
                           ],
@@ -336,7 +341,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                         style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                           color: Theme.of(
                             context,
-                          ).colorScheme.onSurface.withOpacity(0.6),
+                          ).colorScheme.onSurface.withAlpha(255 ~/ (1 / 0.6)),
                           fontStyle: FontStyle.italic,
                         ),
                       ),
@@ -400,7 +405,9 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                       onTap: () async {
                         await Navigator.of(context).push(
                           MaterialPageRoute(
-                            builder: (context) => AlcoholPage(),
+                            builder: (context) => AlcoholPage(
+                              initialStarted: alcoholDays != null,
+                            ),
                           ),
                         );
                         if (mounted) _loadQuitDays();
@@ -427,7 +434,10 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                       quitDate: quitVaping,
                       onTap: () async {
                         await Navigator.of(context).push(
-                          MaterialPageRoute(builder: (context) => VapingPage()),
+                          MaterialPageRoute(
+                            builder: (context) =>
+                                VapingPage(initialStarted: vapingDays != null),
+                          ),
                         );
                         if (mounted) _loadQuitDays();
                       },
@@ -454,7 +464,9 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                       onTap: () async {
                         await Navigator.of(context).push(
                           MaterialPageRoute(
-                            builder: (context) => SmokingPage(),
+                            builder: (context) => SmokingPage(
+                              initialStarted: smokingDays != null,
+                            ),
                           ),
                         );
                         if (mounted) _loadQuitDays();
@@ -482,7 +494,9 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                       onTap: () async {
                         await Navigator.of(context).push(
                           MaterialPageRoute(
-                            builder: (context) => MarijuanaPage(),
+                            builder: (context) => MarijuanaPage(
+                              initialStarted: marijuanaDays != null,
+                            ),
                           ),
                         );
                         if (mounted) _loadQuitDays();
@@ -509,7 +523,9 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                       onTap: () async {
                         await Navigator.of(context).push(
                           MaterialPageRoute(
-                            builder: (context) => NicotinePouchesPage(),
+                            builder: (context) => NicotinePouchesPage(
+                              initialStarted: pouchesDays != null,
+                            ),
                           ),
                         );
                         if (mounted) _loadQuitDays();
@@ -536,7 +552,10 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                       quitDate: quitOpioids,
                       onTap: () async {
                         await Navigator.of(context).push(
-                          MaterialPageRoute(builder: (context) => OpioidPage()),
+                          MaterialPageRoute(
+                            builder: (context) =>
+                                OpioidPage(initialStarted: opioidDays != null),
+                          ),
                         );
                         if (mounted) _loadQuitDays();
                       },
@@ -563,7 +582,9 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                       onTap: () async {
                         await Navigator.of(context).push(
                           MaterialPageRoute(
-                            builder: (context) => const SocialMediaPage(),
+                            builder: (context) => SocialMediaPage(
+                              initialStarted: socialMediaDays != null,
+                            ),
                           ),
                         );
                         if (mounted) _loadQuitDays();
@@ -591,7 +612,9 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                       onTap: () async {
                         await Navigator.of(context).push(
                           MaterialPageRoute(
-                            builder: (context) => const PornographyPage(),
+                            builder: (context) => PornographyPage(
+                              initialStarted: pornographyDays != null,
+                            ),
                           ),
                         );
                         if (mounted) _loadQuitDays();
@@ -612,7 +635,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                       icon: Icons.star, // Generic icon for custom entries
                       gradientColors: [
                         entry.color,
-                        entry.color.withOpacity(0.7),
+                        entry.color.withValues(alpha: 0.7),
                       ],
                       days: daysCeil(entry.quitDate.toIso8601String()),
                       quitDate: entry.quitDate.toIso8601String(),

@@ -18,6 +18,7 @@ class QuitPageTemplate extends StatefulWidget {
   final String Function(int currentDay) headerSubtitleStartedBuilder;
   final String headerSubtitleNotStarted;
   final String? infoBoxMessage;
+  final bool initialStarted; // New parameter
 
   const QuitPageTemplate({
     super.key,
@@ -29,6 +30,7 @@ class QuitPageTemplate extends StatefulWidget {
     required this.headerSubtitleStartedBuilder,
     required this.headerSubtitleNotStarted,
     this.infoBoxMessage,
+    required this.initialStarted, // Initialize new parameter
   });
 
   @override
@@ -37,7 +39,7 @@ class QuitPageTemplate extends StatefulWidget {
 
 class _QuitPageTemplateState extends State<QuitPageTemplate> {
   int currentDay = 1;
-  bool started = true;
+  late bool started; // Will be initialized from widget.initialStarted
   bool showConfetti = false;
   final controller = TextEditingController();
   final ScrollController _scrollController = ScrollController();
@@ -45,28 +47,27 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
   @override
   void initState() {
     super.initState();
-    SharedPreferences.getInstance().then((prefs) {
-      final quitOn = prefs.getString(widget.storageKey);
-      if (quitOn == null) {
-        return setState(() {
-          started = false;
-        });
-      }
-
-      setState(() {
-        currentDay = daysCeil(quitOn);
-        controller.text = currentDay.toString();
+    started = widget.initialStarted; // Use the initialStarted value
+    if (started) {
+      SharedPreferences.getInstance().then((prefs) {
+        final quitOn = prefs.getString(widget.storageKey);
+        if (quitOn != null) {
+          setState(() {
+            currentDay = daysCeil(quitOn);
+            controller.text = currentDay.toString();
+          });
+          if (_scrollController.hasClients) {
+            final index = widget.milestones.indexWhere(
+              (m) => currentDay < m.day,
+            );
+            final targetIndex = index == -1
+                ? widget.milestones.length - 1
+                : index;
+            _scrollController.jumpTo(targetIndex * 270 - 230);
+          }
+        }
       });
-
-      if (_scrollController.hasClients) {
-        final index = widget.milestones.indexWhere((m) => currentDay < m.day);
-        final targetIndex = index == -1 ? widget.milestones.length - 1 : index;
-        // Adjust scroll position based on the item height and desired offset
-        _scrollController.jumpTo(
-          targetIndex * 270 - 230,
-        ); // Standardized scroll position
-      }
-    });
+    }
   }
 
   void _handleStartPressed() async {
@@ -107,13 +108,16 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
     final colorScheme = theme.colorScheme;
     final settings = context.watch<SettingsProvider>();
 
-    Widget? fab = FloatingActionButton.extended(
-      key: ValueKey('start_fab'),
-      onPressed: _handleStartPressed,
-      label: Text("Start Your Journey"),
-      icon: Icon(Icons.rocket_launch),
-    );
-    if (started)
+    Widget? fab;
+    if (!started) {
+      fab = FloatingActionButton.extended(
+        key: const ValueKey('start_fab'),
+        onPressed: _handleStartPressed,
+        label: const Text("Start"),
+        icon: const Icon(Icons.rocket_launch),
+      );
+    } else {
+      // started == true
       fab = FloatingActionButton.extended(
         onPressed: () async {
           final prefs = await SharedPreferences.getInstance();
@@ -148,9 +152,11 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
             ),
           );
         },
-        label: Text("Reset"),
-        icon: Icon(Icons.restart_alt),
+        label: const Text("Reset"),
+        icon: const Icon(Icons.restart_alt),
       );
+    }
+
     if (settings.showReset == false) fab = null;
 
     return ConfettiWidget(

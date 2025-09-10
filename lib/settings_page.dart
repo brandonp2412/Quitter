@@ -114,10 +114,12 @@ class _SettingsPageState extends State<SettingsPage> {
         bytes: Uint8List.fromList(data.codeUnits),
       );
 
+      if (!context.mounted) return;
       ScaffoldMessenger.of(
         context,
       ).showSnackBar(SnackBar(content: Text('Data exported to $outputFile')));
     } catch (e) {
+      if (!mounted) return;
       ScaffoldMessenger.of(
         context,
       ).showSnackBar(SnackBar(content: Text('Error exporting data: $e')));
@@ -158,10 +160,12 @@ class _SettingsPageState extends State<SettingsPage> {
         }
       }
 
+      if (!context.mounted) return;
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(content: Text('Data imported successfully!')),
       );
     } catch (e) {
+      if (!mounted) return;
       ScaffoldMessenger.of(
         context,
       ).showSnackBar(SnackBar(content: Text('Error importing data: $e')));

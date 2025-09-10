@@ -17,7 +17,7 @@ class CustomQuitEntry {
     'id': id,
     'title': title,
     'quitDate': quitDate.toIso8601String(),
-    'color': color.value,
+    'color': color.toARGB32(),
   };
 
   factory CustomQuitEntry.fromJson(Map<String, dynamic> json) =>

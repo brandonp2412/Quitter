@@ -17,7 +17,10 @@ class AboutPage extends StatelessWidget {
             height: 100,
             child: SvgPicture.asset(
               'assets/neurology.svg',
-              color: Theme.of(context).colorScheme.onSurface,
+              colorFilter: ColorFilter.mode(
+                Theme.of(context).colorScheme.onSurface,
+                BlendMode.srcIn,
+              ),
             ),
           ),
           ListTile(

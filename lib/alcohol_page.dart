@@ -3,7 +3,12 @@ import 'package:quitter/quit_milestone.dart';
 import 'package:quitter/quit_page_template.dart';
 
 class AlcoholPage extends StatelessWidget {
-  const AlcoholPage({super.key});
+  final bool initialStarted; // New parameter
+
+  const AlcoholPage({
+    super.key,
+    required this.initialStarted,
+  }); // Initialize new parameter
 
   final List<QuitMilestone> milestones = const [
     QuitMilestone(
@@ -97,6 +102,7 @@ class AlcoholPage extends StatelessWidget {
       headerTextNotStarted: 'Sober Journey Ahead!',
       headerSubtitleStartedBuilder: (currentDay) => 'Every day is a win 🥳',
       headerSubtitleNotStarted: 'Ready for a brighter you? ✨',
+      initialStarted: initialStarted, // Pass the new parameter
     );
   }
 }

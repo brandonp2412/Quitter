@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:intl/intl.dart';
-import 'package:quitter/color_scheme_helper.dart';
 import 'package:quitter/custom_quit_entry.dart';
 import 'package:quitter/settings_provider.dart';
-import 'package:quitter/utils.dart';
 import 'package:uuid/uuid.dart';
 
 class CustomEntryPage extends StatefulWidget {
@@ -18,7 +16,6 @@ class CustomEntryPage extends StatefulWidget {
 
 class _CustomEntryPageState extends State<CustomEntryPage> {
   final _formKey = GlobalKey<FormState>();
-  final _quitDateController = TextEditingController();
   late TextEditingController _titleController;
   late DateTime _quitDate;
   late Color _selectedColor;
@@ -78,6 +75,7 @@ class _CustomEntryPageState extends State<CustomEntryPage> {
         );
         settingsProvider.updateCustomEntry(updatedEntry);
       }
+      if (!mounted) return;
       Navigator.of(context).pop();
     }
   }
@@ -105,12 +103,13 @@ class _CustomEntryPageState extends State<CustomEntryPage> {
           ],
         ),
       ).then((confirmed) {
-        if (confirmed != null && confirmed) {
+        if (confirmed != null && confirmed && mounted) {
           final settingsProvider = Provider.of<SettingsProvider>(
             context,
             listen: false,
           );
           settingsProvider.deleteCustomEntry(widget.entry!.id);
+          if (!mounted) return;
           Navigator.of(context).pop(); // Pop the entry page after deletion
         }
       });
