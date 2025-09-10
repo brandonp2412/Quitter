@@ -3,6 +3,8 @@ import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:integration_test/integration_test.dart';
 import 'package:provider/provider.dart';
+import 'package:quitter/marijuana_page.dart';
+import 'package:quitter/nicotine_pouches.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'package:quitter/main.dart' as app;
@@ -115,11 +117,33 @@ void main() {
     );
 
     testWidgets(
+      "MarijuanaPage",
+      (tester) async => await generateScreenshot(
+        binding: binding,
+        tester: tester,
+        screenshotName: '6_marijuana_page_en-US',
+        navigateToPage: (context) async =>
+            navigateTo(context: context, page: const MarijuanaPage()),
+      ),
+    );
+
+    testWidgets(
+      "NicotinePouchesPage",
+      (tester) async => await generateScreenshot(
+        binding: binding,
+        tester: tester,
+        screenshotName: '7_nicotine_pouches_page_en-US',
+        navigateToPage: (context) async =>
+            navigateTo(context: context, page: const NicotinePouchesPage()),
+      ),
+    );
+
+    testWidgets(
       "SettingsPage",
       (tester) async => await generateScreenshot(
         binding: binding,
         tester: tester,
-        screenshotName: '6_settings_page_en-US',
+        screenshotName: '8_settings_page_en-US',
         navigateToPage: (context) async =>
             navigateTo(context: context, page: const SettingsPage()),
       ),
