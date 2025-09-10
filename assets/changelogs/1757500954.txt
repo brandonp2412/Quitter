@@ -1,0 +1,3 @@
+• Add CONTRIBUTING.md
+• Add custom entries
+• Prevent fab flickering
