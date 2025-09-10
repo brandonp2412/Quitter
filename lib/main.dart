@@ -70,10 +70,10 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
   void _whatsNew() async {
     final prefs = await SharedPreferences.getInstance();
     final lastVersion = prefs.getInt('last_build_number') ?? 0;
-    if (lastVersion == 0) return;
-
     final info = await PackageInfo.fromPlatform();
     final currentVersion = int.parse(info.buildNumber);
+    await prefs.setInt('last_build_number', currentVersion);
+    if (lastVersion == 0) return;
 
     if (currentVersion > lastVersion) {
       if (mounted) {
@@ -88,7 +88,6 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
           ),
         );
       }
-      await prefs.setInt('last_build_number', currentVersion);
     }
   }
 
