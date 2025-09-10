@@ -57,9 +57,37 @@ void main() {
       IntegrationTestWidgetsFlutterBinding.ensureInitialized();
 
   setUpAll(() async {
-    // Clear SharedPreferences for a clean test state
     final prefs = await SharedPreferences.getInstance();
     await prefs.clear();
+    await prefs.setInt('notify_every', 0);
+    await prefs.setString(
+      'vaping',
+      DateTime.now().subtract(const Duration(days: 3)).toIso8601String(),
+    );
+    await prefs.setString(
+      'smoking',
+      DateTime.now().subtract(const Duration(days: 7)).toIso8601String(),
+    );
+    await prefs.setString(
+      'marijuana',
+      DateTime.now().subtract(const Duration(days: 14)).toIso8601String(),
+    );
+    await prefs.setString(
+      'nicotine_pouches',
+      DateTime.now().subtract(const Duration(days: 30)).toIso8601String(),
+    );
+    await prefs.setString(
+      'opioids',
+      DateTime.now().subtract(const Duration(days: 60)).toIso8601String(),
+    );
+    await prefs.setString(
+      'social_media',
+      DateTime.now().subtract(const Duration(days: 90)).toIso8601String(),
+    );
+    await prefs.setString(
+      'pornography',
+      DateTime.now().subtract(const Duration(days: 180)).toIso8601String(),
+    );
   });
 
   group("Generate Quitter App Screenshots", () {
