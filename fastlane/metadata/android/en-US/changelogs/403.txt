@@ -1,0 +1,10 @@
+• Add backup/import feature
+• Add home screen widget
+• Add marijuana tracking
+• Add search bar to settings
+• Fix env var in deploy
+• Fix starting journey on desktop
+• Fix updating all screenshots on deployments
+• Fix what's new never showing
+• Link shields.io in downloads badge count
+• Pick output file for backup
