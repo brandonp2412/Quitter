@@ -18,7 +18,7 @@ class QuitPageTemplate extends StatefulWidget {
   final String Function(int currentDay) headerSubtitleStartedBuilder;
   final String headerSubtitleNotStarted;
   final String? infoBoxMessage;
-  final bool initialStarted; // New parameter
+  final bool initialStarted;
 
   const QuitPageTemplate({
     super.key,
@@ -30,7 +30,7 @@ class QuitPageTemplate extends StatefulWidget {
     required this.headerSubtitleStartedBuilder,
     required this.headerSubtitleNotStarted,
     this.infoBoxMessage,
-    required this.initialStarted, // Initialize new parameter
+    required this.initialStarted,
   });
 
   @override
@@ -39,7 +39,7 @@ class QuitPageTemplate extends StatefulWidget {
 
 class _QuitPageTemplateState extends State<QuitPageTemplate> {
   int currentDay = 1;
-  late bool started; // Will be initialized from widget.initialStarted
+  late bool started;
   bool showConfetti = false;
   final controller = TextEditingController();
   final ScrollController _scrollController = ScrollController();
@@ -47,7 +47,7 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
   @override
   void initState() {
     super.initState();
-    started = widget.initialStarted; // Use the initialStarted value
+    started = widget.initialStarted;
     if (started) {
       SharedPreferences.getInstance().then((prefs) {
         final quitOn = prefs.getString(widget.storageKey);
@@ -117,7 +117,6 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
         icon: const Icon(Icons.rocket_launch),
       );
     } else {
-      // started == true
       fab = FloatingActionButton.extended(
         onPressed: () async {
           final prefs = await SharedPreferences.getInstance();

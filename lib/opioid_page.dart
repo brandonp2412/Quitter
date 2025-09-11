@@ -3,12 +3,9 @@ import 'package:quitter/quit_milestone.dart';
 import 'package:quitter/quit_page_template.dart';
 
 class OpioidPage extends StatelessWidget {
-  final bool initialStarted; // New parameter
+  final bool initialStarted;
 
-  const OpioidPage({
-    super.key,
-    required this.initialStarted,
-  }); // Initialize new parameter
+  const OpioidPage({super.key, required this.initialStarted});
 
   final List<QuitMilestone> milestones = const [
     QuitMilestone(
@@ -107,7 +104,7 @@ class OpioidPage extends StatelessWidget {
       headerSubtitleNotStarted: 'Ready to reclaim your life? 💖',
       infoBoxMessage:
           'Recovery is a medical process. Always consult healthcare professionals.',
-      initialStarted: initialStarted, // Pass the new parameter
+      initialStarted: initialStarted,
     );
   }
 }

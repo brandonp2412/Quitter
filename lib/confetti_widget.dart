@@ -73,7 +73,7 @@ class _ConfettiWidgetState extends State<ConfettiWidget>
             color: _getRandomColor(),
             size: random.nextDouble() * 6 + 3,
             velocityX: (random.nextDouble() - 0.5) * 8,
-            velocityY: -(random.nextDouble() * 8 + 5), // Negative to go up
+            velocityY: -(random.nextDouble() * 8 + 5),
             rotation: random.nextDouble() * 2 * pi,
             rotationSpeed: (random.nextDouble() - 0.5) * 0.3,
             gravity: 0.2,
@@ -153,7 +153,7 @@ class ConfettiPiece {
     x += velocityX;
     y += velocityY;
     velocityY += gravity;
-    velocityX *= 0.99; // Air resistance
+    velocityX *= 0.99;
     rotation += rotationSpeed;
   }
 }
@@ -190,7 +190,6 @@ class ConfettiPainter extends CustomPainter {
           canvas.drawCircle(Offset.zero, piece.size / 2, paint);
           break;
         case 2:
-          // Triangle
           final path = Path();
           path.moveTo(0, -piece.size / 2);
           path.lineTo(-piece.size / 2, piece.size / 2);

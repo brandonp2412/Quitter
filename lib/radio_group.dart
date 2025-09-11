@@ -20,9 +20,9 @@ class AppRadioGroup<T> extends StatelessWidget {
         return RadioListTile<T>(
           title: radioListTile.title,
           value: radioListTile.value,
-          // ignore: deprecated_member_use
+
           groupValue: value,
-          // ignore: deprecated_member_use
+
           onChanged: onChanged,
           selected: radioListTile.selected,
         );

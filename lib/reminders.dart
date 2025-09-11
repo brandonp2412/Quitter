@@ -7,7 +7,7 @@ import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:workmanager/workmanager.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:quitter/utils.dart';
-import 'package:quitter/settings_provider.dart'; // Import SettingsProvider
+import 'package:quitter/settings_provider.dart';
 
 Timer? timer;
 

@@ -384,11 +384,11 @@ class _SettingsPageState extends State<SettingsPage> {
   ) {
     return [
       ..._buildAppearanceSectionItems(context, settings),
-      const SizedBox(height: 24), // Add spacing between sections
+      const SizedBox(height: 24),
       ..._buildMainScreenItemsSectionItems(settings, context),
-      const SizedBox(height: 24), // Add spacing between sections
+      const SizedBox(height: 24),
       ..._buildNotificationsSectionItems(context, settings),
-      const SizedBox(height: 24), // Add spacing between sections
+      const SizedBox(height: 24),
       ..._buildSystemSectionItems(context, settings),
     ];
   }
@@ -485,7 +485,7 @@ class _SettingsPageState extends State<SettingsPage> {
               title: Text(getDisplayName(option)),
               value: option,
               groupValue: currentValue,
-              onChanged: (value) {}, // Handled by RadioGroup
+              onChanged: (value) {},
               selected: currentValue == option,
             );
           }).toList(),
@@ -559,7 +559,6 @@ class _SettingsPageState extends State<SettingsPage> {
         ),
       );
 
-      // Add divider between items (but not after the last one)
       if (i < items.length - 1) {
         widgets.add(const Divider(height: 1));
       }

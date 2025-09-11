@@ -632,7 +632,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                   cards.add(
                     _buildQuitCard(
                       title: entry.title,
-                      icon: Icons.star, // Generic icon for custom entries
+                      icon: Icons.star,
                       gradientColors: [
                         entry.color,
                         entry.color.withValues(alpha: 0.7),
@@ -648,7 +648,6 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                         if (mounted) _loadQuitDays();
                       },
                       onLongPress: () {
-                        // No hide option for custom entries, directly edit/delete
                         Navigator.of(context).push(
                           MaterialPageRoute(
                             builder: (context) => CustomEntryPage(entry: entry),
@@ -664,7 +663,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                     crossAxisCount: MediaQuery.of(context).size.width > 600
                         ? 3
                         : 2,
-                    mainAxisExtent: 200, // Fixed height
+                    mainAxisExtent: 200,
                     crossAxisSpacing: 16,
                     mainAxisSpacing: 16,
                   ),

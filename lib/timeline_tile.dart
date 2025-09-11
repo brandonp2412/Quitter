@@ -24,12 +24,10 @@ class TimelineTile extends StatelessWidget {
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          // Timeline line and checkbox
           SizedBox(
             width: 40,
             child: Column(
               children: [
-                // Checkbox
                 Container(
                   width: 24,
                   height: 24,
@@ -63,7 +61,7 @@ class TimelineTile extends StatelessWidget {
                         )
                       : null,
                 ),
-                // Connecting line
+
                 if (!isLast)
                   Expanded(
                     child: Container(
@@ -83,7 +81,7 @@ class TimelineTile extends StatelessWidget {
             ),
           ),
           const SizedBox(width: 16),
-          // Content
+
           Expanded(
             child: Container(
               margin: const EdgeInsets.only(bottom: 24),

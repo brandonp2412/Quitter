@@ -57,7 +57,6 @@ class _CustomEntryPageState extends State<CustomEntryPage> {
         listen: false,
       );
       if (widget.entry == null) {
-        // Add new entry
         final newEntry = CustomQuitEntry(
           id: const Uuid().v4(),
           title: _titleController.text,
@@ -66,7 +65,6 @@ class _CustomEntryPageState extends State<CustomEntryPage> {
         );
         settingsProvider.addCustomEntry(newEntry);
       } else {
-        // Update existing entry
         final updatedEntry = CustomQuitEntry(
           id: widget.entry!.id,
           title: _titleController.text,
@@ -110,14 +108,13 @@ class _CustomEntryPageState extends State<CustomEntryPage> {
           );
           settingsProvider.deleteCustomEntry(widget.entry!.id);
           if (!mounted) return;
-          Navigator.of(context).pop(); // Pop the entry page after deletion
+          Navigator.of(context).pop();
         }
       });
     }
   }
 
   Color _getContrastColor(Color backgroundColor) {
-    // Calculate luminance to determine if we should use light or dark text
     final luminance = backgroundColor.computeLuminance();
     return luminance > 0.5 ? Colors.black : Colors.white;
   }
