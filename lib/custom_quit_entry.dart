@@ -5,12 +5,14 @@ class CustomQuitEntry {
   String title;
   DateTime quitDate;
   Color color;
+  List<int> daysAchieved; // New field to store days achieved before reset
 
   CustomQuitEntry({
     required this.id,
     required this.title,
     required this.quitDate,
     required this.color,
+    this.daysAchieved = const [], // Initialize with an empty list
   });
 
   Map<String, dynamic> toJson() => {
@@ -18,6 +20,7 @@ class CustomQuitEntry {
     'title': title,
     'quitDate': quitDate.toIso8601String(),
     'color': color.toARGB32(),
+    'daysAchieved': daysAchieved, // Add to JSON serialization
   };
 
   factory CustomQuitEntry.fromJson(Map<String, dynamic> json) =>
@@ -26,5 +29,10 @@ class CustomQuitEntry {
         title: json['title'] as String,
         quitDate: DateTime.parse(json['quitDate'] as String),
         color: Color(json['color'] as int),
+        daysAchieved:
+            (json['daysAchieved'] as List<dynamic>?)
+                ?.map((e) => e as int)
+                .toList() ??
+            const [], // Deserialize daysAchieved
       );
 }

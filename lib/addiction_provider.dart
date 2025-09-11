@@ -16,6 +16,7 @@ class AddictionProvider extends ChangeNotifier {
   String? _quitMarijuana;
 
   List<CustomQuitEntry> customEntries = [];
+  Map<String, List<int>> _predefinedDaysAchieved = {};
 
   Future<void> loadAddictions() async {
     _prefs = await SharedPreferences.getInstance();
@@ -35,6 +36,20 @@ class AddictionProvider extends ChangeNotifier {
       customEntries = decodedData
           .map((item) => CustomQuitEntry.fromJson(item as Map<String, dynamic>))
           .toList();
+    }
+
+    // Load predefined days achieved
+    final String? predefinedDaysJson = _prefs!.getString(
+      'predefined_days_achieved',
+    );
+    if (predefinedDaysJson != null) {
+      final Map<String, dynamic> decodedData = json.decode(predefinedDaysJson);
+      _predefinedDaysAchieved = decodedData.map(
+        (key, value) => MapEntry(
+          key,
+          (value as List<dynamic>).map((e) => e as int).toList(),
+        ),
+      );
     }
 
     notifyListeners();
@@ -133,6 +148,50 @@ class AddictionProvider extends ChangeNotifier {
   Future<void> deleteCustomEntry(String id) async {
     customEntries.removeWhere((entry) => entry.id == id);
     await _saveCustomEntries();
+    notifyListeners();
+  }
+
+  Future<void> resetCustomEntry(String id) async {
+    final index = customEntries.indexWhere((e) => e.id == id);
+    if (index != -1) {
+      final entry = customEntries[index];
+      final days = DateTime.now().difference(entry.quitDate).inDays;
+      if (days > 0) {
+        entry.daysAchieved.add(days);
+      }
+      entry.quitDate = DateTime.now(); // Reset quit date to today
+      await _saveCustomEntries();
+      notifyListeners();
+    }
+  }
+
+  Future<void> _savePredefinedDaysAchieved() async {
+    await _prefs?.setString(
+      'predefined_days_achieved',
+      json.encode(_predefinedDaysAchieved),
+    );
+  }
+
+  List<int> getPredefinedDaysAchieved(String key) {
+    return _predefinedDaysAchieved[key] ?? const [];
+  }
+
+  Future<void> resetPredefinedAddiction(String key, DateTime quitDate) async {
+    final days = DateTime.now().difference(quitDate).inDays;
+    if (days > 0) {
+      _predefinedDaysAchieved.update(
+        key,
+        (value) => [...value, days],
+        ifAbsent: () => [days],
+      );
+      await _savePredefinedDaysAchieved();
+    }
+    setAddiction(key, DateTime.now().toIso8601String());
+  }
+
+  void clearPredefined() async {
+    await _prefs?.remove('predefined_days_achieved');
+    _predefinedDaysAchieved = {};
     notifyListeners();
   }
 }

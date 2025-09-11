@@ -119,10 +119,17 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
     } else {
       fab = FloatingActionButton.extended(
         onPressed: () async {
-          addictions.setAddiction(
-            widget.storageKey,
-            DateTime.now().toIso8601String(),
-          );
+          if (quit != null) {
+            addictions.resetPredefinedAddiction(
+              widget.storageKey,
+              DateTime.parse(quit),
+            );
+          } else {
+            addictions.setAddiction(
+              widget.storageKey,
+              DateTime.now().toIso8601String(),
+            );
+          }
 
           setState(() {
             controller.text = '1';
@@ -265,7 +272,9 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
                             if (!context.mounted) return;
                             final settingsProvider = context
                                 .read<SettingsProvider>();
-                            if (settingsProvider.notifyEvery > 0) {
+                            if (settingsProvider.notifyEvery > 0 &&
+                                defaultTargetPlatform ==
+                                    TargetPlatform.android) {
                               final permission = await Permission.notification
                                   .request();
                               if (permission.isDenied && context.mounted) {
@@ -344,11 +353,34 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
                       (index == 0 ||
                           currentDay >= widget.milestones[index - 1].day);
 
+                  final allDaysAchieved = addictions.getPredefinedDaysAchieved(
+                    widget.storageKey,
+                  );
+
+                  // Collect all milestone days that correspond to the achieved days
+                  final List<int> milestoneDaysToMark = [];
+                  for (int achievedDay in allDaysAchieved) {
+                    int closestMilestoneDay = 0;
+                    for (QuitMilestone m in widget.milestones) {
+                      if (m.day <= achievedDay) {
+                        closestMilestoneDay = m.day;
+                      } else {
+                        // Milestones are sorted, so if m.day > achievedDay,
+                        // the previous one was the closest.
+                        break;
+                      }
+                    }
+                    if (closestMilestoneDay > 0) {
+                      milestoneDaysToMark.add(closestMilestoneDay);
+                    }
+                  }
+
                   return TimelineTile(
                     milestone: milestone,
                     isCompleted: isCompleted,
                     isNext: isNext,
                     isLast: index == widget.milestones.length - 1,
+                    daysAchieved: milestoneDaysToMark,
                   );
                 },
               ),

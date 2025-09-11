@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart' show Consumer;
+import 'package:provider/provider.dart' show Consumer, ReadContext;
 import 'package:quitter/about_page.dart';
+import 'package:quitter/addiction_provider.dart';
 import 'package:quitter/color_scheme_helper.dart';
 import 'package:quitter/color_scheme_type.dart';
 import 'package:quitter/settings_provider.dart';
@@ -342,6 +343,32 @@ class _SettingsPageState extends State<SettingsPage> {
     ];
   }
 
+  void _clearHistory(BuildContext context) {
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('Clear History'),
+        content: const Text(
+          'Are you sure you want to clear all quitting history? This action cannot be undone.',
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(context).pop(),
+            child: const Text('Cancel'),
+          ),
+          TextButton(
+            onPressed: () {
+              Navigator.of(context).pop();
+              final addictions = context.read<AddictionProvider>();
+              addictions.clearPredefined();
+            },
+            child: const Text('Clear'),
+          ),
+        ],
+      ),
+    );
+  }
+
   List<Widget> _buildSystemSectionItems(
     BuildContext context,
     SettingsProvider settings,
@@ -374,6 +401,12 @@ class _SettingsPageState extends State<SettingsPage> {
         title: const Text("Import Data"),
         leading: const Icon(Icons.file_download),
         onTap: () => _importData(context),
+      ),
+      const Divider(height: 1),
+      ListTile(
+        title: const Text("Clear history"),
+        leading: const Icon(Icons.delete),
+        onTap: () => _clearHistory(context),
       ),
     ];
   }
