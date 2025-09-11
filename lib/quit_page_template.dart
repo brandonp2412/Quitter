@@ -48,26 +48,23 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
   void initState() {
     super.initState();
     started = widget.initialStarted;
-    if (started) {
-      SharedPreferences.getInstance().then((prefs) {
-        final quitOn = prefs.getString(widget.storageKey);
-        if (quitOn != null) {
-          setState(() {
-            currentDay = daysCeil(quitOn);
-            controller.text = currentDay.toString();
-          });
-          if (_scrollController.hasClients) {
-            final index = widget.milestones.indexWhere(
-              (m) => currentDay < m.day,
-            );
-            final targetIndex = index == -1
-                ? widget.milestones.length - 1
-                : index;
-            _scrollController.jumpTo(targetIndex * 270 - 230);
-          }
-        }
+    if (!started) return;
+
+    SharedPreferences.getInstance().then((prefs) {
+      final quitOn = prefs.getString(widget.storageKey);
+      if (quitOn == null) return;
+
+      setState(() {
+        currentDay = daysCeil(quitOn);
+        controller.text = currentDay.toString();
       });
-    }
+
+      if (!_scrollController.hasClients) return;
+
+      final index = widget.milestones.indexWhere((m) => currentDay < m.day);
+      final targetIndex = index == -1 ? widget.milestones.length - 1 : index;
+      _scrollController.jumpTo(targetIndex * 270 - 230);
+    });
   }
 
   void _handleStartPressed() async {
