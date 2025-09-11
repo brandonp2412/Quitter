@@ -38,7 +38,6 @@ class QuitPageTemplate extends StatefulWidget {
 }
 
 class _QuitPageTemplateState extends State<QuitPageTemplate> {
-  int currentDay = 1;
   late bool started;
   bool showConfetti = false;
   final controller = TextEditingController();
@@ -53,9 +52,9 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
 
     final quitOn = addictions.getAddiction(widget.storageKey);
     if (quitOn == null) return;
+    final currentDay = daysCeil(quitOn);
 
     setState(() {
-      currentDay = daysCeil(quitOn);
       controller.text = currentDay.toString();
     });
 
@@ -80,7 +79,6 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
     }
 
     setState(() {
-      currentDay = 1;
       started = true;
       showConfetti = true;
       controller.text = '1';
@@ -106,6 +104,9 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
     final colorScheme = theme.colorScheme;
     final settings = context.watch<SettingsProvider>();
     final addictions = context.watch<AddictionProvider>();
+    final quit = addictions.getAddiction(widget.storageKey);
+    int currentDay = 1;
+    if (quit != null) currentDay = daysCeil(quit);
 
     Widget? fab;
     if (!started) {
@@ -118,7 +119,6 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
     } else {
       fab = FloatingActionButton.extended(
         onPressed: () async {
-          final quit = addictions.getAddiction(widget.storageKey);
           addictions.setAddiction(
             widget.storageKey,
             DateTime.now().toIso8601String(),
@@ -143,7 +143,6 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
 
                 setState(() {
                   started = true;
-                  currentDay = daysCeil(quit);
                   controller.text = currentDay.toString();
                 });
               },
