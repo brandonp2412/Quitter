@@ -199,7 +199,7 @@ class _SettingsPageState extends State<SettingsPage> {
         title: const Text('Reset buttons'),
         subtitle: const Text('Show reset buttons on quit pages'),
         value: settings.showReset,
-        onChanged: settings.setShowReset,
+        onChanged: (value) => settings.showReset = value,
       ),
     ];
   }
@@ -214,49 +214,49 @@ class _SettingsPageState extends State<SettingsPage> {
         title: 'Alcohol',
         subtitle: 'Show alcohol tracking',
         value: settings.showAlcohol,
-        onChanged: settings.setShowAlcohol,
+        onChanged: (value) => settings.showAlcohol = value,
       ),
       _ToggleItem(
         icon: Icons.air,
         title: 'Vaping',
         subtitle: 'Show vaping tracking',
         value: settings.showVaping,
-        onChanged: settings.setShowVaping,
+        onChanged: (value) => settings.showVaping = value,
       ),
       _ToggleItem(
         icon: Icons.eco,
         title: 'Smoking',
         subtitle: 'Show smoking tracking',
         value: settings.showSmoking,
-        onChanged: settings.setShowSmoking,
+        onChanged: (value) => settings.showSmoking = value,
       ),
       _ToggleItem(
         icon: Icons.scatter_plot,
         title: 'Nicotine pouches',
         subtitle: 'Show nicotine pouches tracking',
         value: settings.showNicotinePouches,
-        onChanged: settings.setShowNicotinePouches,
+        onChanged: (value) => settings.showNicotinePouches = value,
       ),
       _ToggleItem(
         icon: Icons.medication,
         title: 'Opioids',
         subtitle: 'Show opioids tracking',
         value: settings.showOpioids,
-        onChanged: settings.setShowOpioids,
+        onChanged: (value) => settings.showOpioids = value,
       ),
       _ToggleItem(
         icon: Icons.public,
         title: 'Social Media',
         subtitle: 'Show social media tracking',
         value: settings.showSocialMedia,
-        onChanged: settings.setShowSocialMedia,
+        onChanged: (value) => settings.showSocialMedia = value,
       ),
       _ToggleItem(
         icon: Icons.block,
         title: 'Pornography',
         subtitle: 'Show pornography tracking',
         value: settings.showPornography,
-        onChanged: settings.setShowPornography,
+        onChanged: (value) => settings.showPornography = value,
       ),
     ];
 
@@ -276,56 +276,56 @@ class _SettingsPageState extends State<SettingsPage> {
         title: 'Alcohol',
         subtitle: 'Notify alcohol quitting progress',
         value: settings.notifyAlcohol,
-        onChanged: settings.setNotifyAlcohol,
+        onChanged: (value) => settings.notifyAlcohol = value,
       ),
       _ToggleItem(
         icon: Icons.air,
         title: 'Vaping',
         subtitle: 'Notify vaping quitting progress',
         value: settings.notifyVaping,
-        onChanged: settings.setNotifyVaping,
+        onChanged: (value) => settings.notifyVaping = value,
       ),
       _ToggleItem(
         icon: Icons.eco,
         title: 'Smoking',
         subtitle: 'Notify smoking quitting progress',
         value: settings.notifySmoking,
-        onChanged: settings.setNotifySmoking,
+        onChanged: (value) => settings.notifySmoking = value,
       ),
       _ToggleItem(
         icon: Icons.scatter_plot,
         title: 'Nicotine pouches',
         subtitle: 'Notify nicotine pouches quitting progress',
         value: settings.notifyPouches,
-        onChanged: settings.setNotifyPouches,
+        onChanged: (value) => settings.notifyPouches = value,
       ),
       _ToggleItem(
         icon: Icons.medication,
         title: 'Opioids',
         subtitle: 'Notify opioids quitting progress',
         value: settings.notifyOpioids,
-        onChanged: settings.setNotifyOpioids,
+        onChanged: (value) => settings.notifyOpioids = value,
       ),
       _ToggleItem(
         icon: Icons.public,
         title: 'Social Media',
         subtitle: 'Notify social media quitting progress',
         value: settings.notifySocialMedia,
-        onChanged: settings.setNotifySocialMedia,
+        onChanged: (value) => settings.notifySocialMedia = value,
       ),
       _ToggleItem(
         icon: Icons.block,
         title: 'Pornography',
         subtitle: 'Notify pornography quitting progress',
         value: settings.notifyPornography,
-        onChanged: settings.setNotifyPornography,
+        onChanged: (value) => settings.notifyPornography = value,
       ),
       _ToggleItem(
         icon: Icons.reset_tv,
         title: 'Reset messages',
         subtitle: 'Show positive reinforcement after relapses',
         value: settings.notifyRelapse,
-        onChanged: settings.setNotifyRelapse,
+        onChanged: (value) => settings.notifyRelapse = value,
       ),
     ];
 
@@ -445,7 +445,7 @@ class _SettingsPageState extends State<SettingsPage> {
       currentValue: settings.themeMode,
       options: ThemeMode.values,
       getDisplayName: _getTheme,
-      onChanged: settings.setThemeMode,
+      onChanged: (value) => settings.themeMode = value,
     );
   }
 
@@ -456,7 +456,7 @@ class _SettingsPageState extends State<SettingsPage> {
       currentValue: settings.colorSchemeType,
       options: ColorSchemeType.values,
       getDisplayName: ColorSchemeHelper.getColorSchemeName,
-      onChanged: settings.setColorSchemeType,
+      onChanged: (value) => settings.colorSchemeType = value,
     );
   }
 
@@ -532,7 +532,7 @@ class _SettingsPageState extends State<SettingsPage> {
               onPressed: () {
                 final days = int.tryParse(controller.text);
                 if (days != null && days > 0) {
-                  settings.setNotifyEvery(days);
+                  settings.notifyEvery = days;
                   Navigator.pop(context);
                 }
               },

@@ -23,43 +23,43 @@ void main() {
       expect(provider.showOpioids, true);
     });
 
-    test('setThemeMode updates theme mode', () async {
-      await provider.setThemeMode(ThemeMode.dark);
+    test('themeMode setter updates theme mode', () async {
+      provider.themeMode = ThemeMode.dark;
       expect(provider.themeMode, ThemeMode.dark);
       final SharedPreferences prefs = await SharedPreferences.getInstance();
       expect(prefs.getInt('theme_mode'), ThemeMode.dark.index);
     });
 
-    test('setColorSchemeType updates color scheme type', () async {
-      await provider.setColorSchemeType(ColorSchemeType.blue);
+    test('colorSchemeType setter updates color scheme type', () async {
+      provider.colorSchemeType = ColorSchemeType.blue;
       expect(provider.colorSchemeType, ColorSchemeType.blue);
       final SharedPreferences prefs = await SharedPreferences.getInstance();
       expect(prefs.getInt('color_scheme'), ColorSchemeType.blue.index);
     });
 
-    test('setShowAlcohol updates show alcohol setting', () async {
-      await provider.setShowAlcohol(false);
+    test('showAlcohol setter updates show alcohol setting', () async {
+      provider.showAlcohol = false;
       expect(provider.showAlcohol, false);
       final SharedPreferences prefs = await SharedPreferences.getInstance();
       expect(prefs.getBool('show_alcohol'), false);
     });
 
-    test('setShowVaping updates show vaping setting', () async {
-      await provider.setShowVaping(false);
+    test('showVaping setter updates show vaping setting', () async {
+      provider.showVaping = false;
       expect(provider.showVaping, false);
       final SharedPreferences prefs = await SharedPreferences.getInstance();
       expect(prefs.getBool('show_vaping'), false);
     });
 
-    test('setShowSmoking updates show smoking setting', () async {
-      await provider.setShowSmoking(false);
+    test('showSmoking setter updates show smoking setting', () async {
+      provider.showSmoking = false;
       expect(provider.showSmoking, false);
       final SharedPreferences prefs = await SharedPreferences.getInstance();
       expect(prefs.getBool('show_smoking'), false);
     });
 
-    test('setShowOpioids updates show opioids setting', () async {
-      await provider.setShowOpioids(false);
+    test('showOpioids setter updates show opioids setting', () async {
+      provider.showOpioids = false;
       expect(provider.showOpioids, false);
       final SharedPreferences prefs = await SharedPreferences.getInstance();
       expect(prefs.getBool('show_opioids'), false);

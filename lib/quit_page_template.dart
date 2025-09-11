@@ -78,7 +78,7 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
             defaultTargetPlatform == TargetPlatform.iOS)) {
       final permission = await Permission.notification.request();
       if (permission.isDenied && context.mounted) {
-        settingsProvider.setNotifyEvery(0);
+        settingsProvider.notifyEvery = 0;
       }
     }
 
@@ -273,7 +273,7 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
                               final permission = await Permission.notification
                                   .request();
                               if (permission.isDenied && context.mounted) {
-                                settingsProvider.setNotifyEvery(0);
+                                settingsProvider.notifyEvery = 0;
                               }
                             }
 

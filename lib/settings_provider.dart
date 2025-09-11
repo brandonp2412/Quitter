@@ -142,131 +142,131 @@ class SettingsProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-  Future<void> setThemeMode(ThemeMode mode) async {
+  set themeMode(ThemeMode mode) {
     _themeMode = mode;
-    await _prefs?.setInt(_themeKey, mode.index);
+    _prefs?.setInt(_themeKey, mode.index);
     notifyListeners();
   }
 
-  Future<void> setNotifyEvery(int days) async {
+  set notifyEvery(int days) {
     _notifyEvery = days;
-    await _prefs?.setInt(_notifyEveryKey, days);
+    _prefs?.setInt(_notifyEveryKey, days);
     notifyListeners();
     cancelReminders();
-    await setupReminders();
+    setupReminders();
   }
 
-  Future<void> setColorSchemeType(ColorSchemeType type) async {
+  set colorSchemeType(ColorSchemeType type) {
     _colorSchemeType = type;
-    await _prefs?.setInt(_colorSchemeKey, type.index);
+    _prefs?.setInt(_colorSchemeKey, type.index);
     notifyListeners();
   }
 
-  Future<void> setShowMarijuana(bool show) async {
+  set showMarijuana(bool show) {
     _showMarijuana = show;
-    await _prefs?.setBool(_marijuanaKey, show);
+    _prefs?.setBool(_marijuanaKey, show);
     notifyListeners();
   }
 
-  Future<void> setShowReset(bool show) async {
+  set showReset(bool show) {
     _showReset = show;
-    await _prefs?.setBool(_showResetKey, show);
+    _prefs?.setBool(_showResetKey, show);
     notifyListeners();
   }
 
-  Future<void> setShowNicotinePouches(bool show) async {
+  set showNicotinePouches(bool show) {
     _showNicotinePouches = show;
-    await _prefs?.setBool(_nicotinePouchesKey, show);
+    _prefs?.setBool(_nicotinePouchesKey, show);
     notifyListeners();
   }
 
-  Future<void> setShowAlcohol(bool show) async {
+  set showAlcohol(bool show) {
     _showAlcohol = show;
-    await _prefs?.setBool(_alcoholKey, show);
+    _prefs?.setBool(_alcoholKey, show);
     notifyListeners();
   }
 
-  Future<void> setShowVaping(bool show) async {
+  set showVaping(bool show) {
     _showVaping = show;
-    await _prefs?.setBool(_vapingKey, show);
+    _prefs?.setBool(_vapingKey, show);
     notifyListeners();
   }
 
-  Future<void> setShowSmoking(bool show) async {
+  set showSmoking(bool show) {
     _showSmoking = show;
-    await _prefs?.setBool(_smokingKey, show);
+    _prefs?.setBool(_smokingKey, show);
     notifyListeners();
   }
 
-  Future<void> setShowOpioids(bool show) async {
+  set showOpioids(bool show) {
     _showOpioids = show;
-    await _prefs?.setBool(_opioidsKey, show);
+    _prefs?.setBool(_opioidsKey, show);
     notifyListeners();
   }
 
-  Future<void> setShowSocialMedia(bool show) async {
+  set showSocialMedia(bool show) {
     _showSocialMedia = show;
-    await _prefs?.setBool(_socialMediaKey, show);
+    _prefs?.setBool(_socialMediaKey, show);
     notifyListeners();
   }
 
-  Future<void> setShowPornography(bool show) async {
+  set showPornography(bool show) {
     _showPornography = show;
-    await _prefs?.setBool(_pornographyKey, show);
+    _prefs?.setBool(_pornographyKey, show);
     notifyListeners();
   }
 
-  Future<void> setNotifyRelapse(bool notify) async {
+  set notifyRelapse(bool notify) {
     _notifyRelapse = notify;
-    await _prefs?.setBool(_notifyRelapseKey, notify);
+    _prefs?.setBool(_notifyRelapseKey, notify);
     notifyListeners();
   }
 
-  Future<void> setNotifyPouches(bool notify) async {
+  set notifyPouches(bool notify) {
     _notifyPouches = notify;
-    await _prefs?.setBool(_notifyPouchesKey, notify);
+    _prefs?.setBool(_notifyPouchesKey, notify);
     notifyListeners();
   }
 
-  Future<void> setNotifyAlcohol(bool notify) async {
+  set notifyAlcohol(bool notify) {
     _notifyAlcohol = notify;
-    await _prefs?.setBool(_notifyAlcoholKey, notify);
+    _prefs?.setBool(_notifyAlcoholKey, notify);
     notifyListeners();
   }
 
-  Future<void> setNotifyMarijuana(bool notify) async {
+  set notifyMarijuana(bool notify) {
     _notifyMarijuana = notify;
-    await _prefs?.setBool(_notifyMarijuanaKey, notify);
+    _prefs?.setBool(_notifyMarijuanaKey, notify);
     notifyListeners();
   }
 
-  Future<void> setNotifyVaping(bool notify) async {
+  set notifyVaping(bool notify) {
     _notifyVaping = notify;
-    await _prefs?.setBool(_notifyVapingKey, notify);
+    _prefs?.setBool(_notifyVapingKey, notify);
     notifyListeners();
   }
 
-  Future<void> setNotifySmoking(bool notify) async {
+  set notifySmoking(bool notify) {
     _notifySmoking = notify;
-    await _prefs?.setBool(_notifySmokingKey, notify);
+    _prefs?.setBool(_notifySmokingKey, notify);
     notifyListeners();
   }
 
-  Future<void> setNotifyOpioids(bool notify) async {
+  set notifyOpioids(bool notify) {
     _notifyOpioids = notify;
-    await _prefs?.setBool(_notifyOpioidsKey, notify);
+    _prefs?.setBool(_notifyOpioidsKey, notify);
     notifyListeners();
   }
 
-  Future<void> setNotifySocialMedia(bool notify) async {
+  set notifySocialMedia(bool notify) {
     _notifySocialMedia = notify;
-    await _prefs?.setBool(_notifySocialMediaKey, notify);
+    _prefs?.setBool(_notifySocialMediaKey, notify);
     notifyListeners();
   }
 
-  Future<void> setNotifyPornography(bool notify) async {
+  set notifyPornography(bool notify) {
     _notifyPornography = notify;
-    await _prefs?.setBool(_notifyPornographyKey, notify);
+    _prefs?.setBool(_notifyPornographyKey, notify);
     notifyListeners();
   }
 }

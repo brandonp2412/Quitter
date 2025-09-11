@@ -414,7 +414,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                       },
                       onLongPress: () {
                         _showHideBottomSheet('Alcohol', () {
-                          settings.setShowAlcohol(false);
+                          settings.showAlcohol = false;
                         });
                       },
                     ),
@@ -443,7 +443,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                       },
                       onLongPress: () {
                         _showHideBottomSheet('Vaping', () {
-                          settings.setShowVaping(false);
+                          settings.showVaping = false;
                         });
                       },
                     ),
@@ -473,7 +473,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                       },
                       onLongPress: () {
                         _showHideBottomSheet('Smoking', () {
-                          settings.setShowSmoking(false);
+                          settings.showSmoking = false;
                         });
                       },
                     ),
@@ -503,7 +503,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                       },
                       onLongPress: () {
                         _showHideBottomSheet('Marijuana', () {
-                          settings.setShowMarijuana(false);
+                          settings.showMarijuana = false;
                         });
                       },
                     ),
@@ -532,7 +532,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                       },
                       onLongPress: () {
                         _showHideBottomSheet('Nicotine pouches', () {
-                          settings.setShowNicotinePouches(false);
+                          settings.showNicotinePouches = false;
                         });
                       },
                     ),
@@ -561,7 +561,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                       },
                       onLongPress: () {
                         _showHideBottomSheet('Opioids', () {
-                          settings.setShowOpioids(false);
+                          settings.showOpioids = false;
                         });
                       },
                     ),
@@ -591,7 +591,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                       },
                       onLongPress: () {
                         _showHideBottomSheet('Social Media', () {
-                          settings.setShowSocialMedia(false);
+                          settings.showSocialMedia = false;
                         });
                       },
                     ),
@@ -621,7 +621,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                       },
                       onLongPress: () {
                         _showHideBottomSheet('Pornography', () {
-                          settings.setShowPornography(false);
+                          settings.showPornography = false;
                         });
                       },
                     ),
