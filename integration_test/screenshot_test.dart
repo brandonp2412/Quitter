@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:integration_test/integration_test.dart';
 import 'package:provider/provider.dart';
+import 'package:quitter/addiction_provider.dart';
 import 'package:quitter/marijuana_page.dart';
 import 'package:quitter/nicotine_pouches.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -18,9 +19,15 @@ Future<void> appWrapper() async {
   WidgetsFlutterBinding.ensureInitialized();
   final settingsProvider = SettingsProvider();
   await settingsProvider.loadPreferences();
+  final addictionProvider = AddictionProvider();
+  await addictionProvider.loadAddictions();
+
   runApp(
-    ChangeNotifierProvider.value(
-      value: settingsProvider,
+    MultiProvider(
+      providers: [
+        ChangeNotifierProvider(create: (context) => settingsProvider),
+        ChangeNotifierProvider(create: (context) => addictionProvider),
+      ],
       child: const app.QuitterApp(),
     ),
   );
