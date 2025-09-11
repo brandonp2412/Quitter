@@ -214,13 +214,6 @@ generate_screenshots() {
     echo "Waiting for system to settle..."
     sleep 15
     
-    # Verify emulator is still available
-    if ! adb devices | grep -q "$emulator_id.*device"; then
-        print_error "Emulator $emulator_id disappeared"
-        kill $emulator_pid 2>/dev/null || true
-        exit 1
-    fi
-    
     print_step "Running screenshot tests on $emulator_id for device type '$avd_name'"
     export QUITTER_DEVICE_TYPE="$avd_name"
     
