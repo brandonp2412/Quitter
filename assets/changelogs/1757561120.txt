@@ -1,0 +1,4 @@
+• Delete slop AI comments
+• Improve performance
+• Refactor quit page template
+• Use setters instead of set methods for settings provider
