@@ -3,8 +3,8 @@
 Record your quitting journey with a Free and Open Source app.
 
 <p float="left">
-    <a href="https://github.com/brandonp2412/Quitter/releases/latest"><img alt="GitHub Release" src="https://img.shields.io/github/v/release/brandonp2412/quitter?style=for-the-badge&logoColor=d3bcfd&labelColor=2e4057&color=151218"></a>
-    <a href="https://shields.io/badges/git-hub-downloads-all-assets-all-releases"><img alt="Release downloads" src="https://img.shields.io/github/downloads/brandonp2412/Quitter/total.svg?style=for-the-badge&logoColor=d3bcfd&labelColor=2e4057&color=151218"></a>
+    <a href="https://github.com/brandonp2412/Quitter/releases/latest"><img alt="Current release number badge" src="https://img.shields.io/github/v/release/brandonp2412/quitter?style=for-the-badge&logoColor=d3bcfd&labelColor=2e4057&color=151218"></a>
+    <a href="https://shields.io/badges/git-hub-downloads-all-assets-all-releases"><img alt="Number of release downloads badge" src="https://img.shields.io/github/downloads/brandonp2412/Quitter/total.svg?style=for-the-badge&logoColor=d3bcfd&labelColor=2e4057&color=151218"></a>
 </p>
 
 ## Features
@@ -14,9 +14,9 @@ Record your quitting journey with a Free and Open Source app.
 *   **User-Friendly Interface:** Clean and intuitive design for easy navigation.
 *   **Open Source:** Transparent and community-driven development.
 
-<a href='https://play.google.com/store/apps/details?id=com.quitter.app'><img alt='Get it on Google Play' height="80" src='./docs/get-it-on-google-play.png'/></a>
+<a href='https://play.google.com/store/apps/details?id=com.quitter.app'><img alt='Get it on Google Play badge' height="80" src='./docs/get-it-on-google-play.png'/></a>
 <a href="https://apps.microsoft.com/detail/9PKVZWDG3FGC?referrer=appbadge&mode=direct">
-	<img src="./docs/download-msstore.svg" style="height: 80px !important"/>
+	<img src="./docs/download-msstore.svg" style="height: 80px !important" alt="Download from the Microsoft Store badge"/>
 </a>
 
 [F-droid submission](https://gitlab.com/fdroid/fdroiddata/-/merge_requests/26379)
@@ -24,14 +24,14 @@ Record your quitting journey with a Free and Open Source app.
 # Screenshots
 
 <p class="float-left">
-    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/1_home_page_en-US.png" height="600" alt="Home page">
-    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/2_alcohol_page_en-US.png" height="600" alt="Alcohol page">
-    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/3_smoking_page_en-US.png" height="600" alt="Smoking page">
-    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/4_vaping_page_en-US.png" height="600" alt="Vaping page">
-    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/5_opioid_page_en-US.png" height="600" alt="Opioid page">
-    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/6_marijuana_page_en-US.png" height="600" alt="Marijuana page">
-    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/7_nicotine_pouches_page_en-US.png" height="600" alt="Nicotine pouches page">
-    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/8_settings_page_en-US.png" height="600" alt="Settings page">
+    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/1_home_page_en-US.png" height="600" alt="Home page for the mobile app showing tiles for Alcohol, Vaping, Smoking, Marijuana, Nicotine pouches, Opioids and Social Media">
+    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/2_alcohol_page_en-US.png" height="600" alt="Alcohol quitting page on mobile at day 1 showing some infographics">
+    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/3_smoking_page_en-US.png" height="600" alt="Smoking quitting page on mobile at day 7 of your quitting journey">
+    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/4_vaping_page_en-US.png" height="600" alt="Vaping quitting page (mobile) on day 3 of your quitting journey">
+    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/5_opioid_page_en-US.png" height="600" alt="Opioid quitting page on mobile at day 60">
+    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/6_marijuana_page_en-US.png" height="600" alt="Marijuana quitting page on mobile at day 14">
+    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/7_nicotine_pouches_page_en-US.png" height="600" alt="Nicotine quitting page on mobile at day 30">
+    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/8_settings_page_en-US.png" height="600" alt="Settings page on mobile showing appearance configurations and main screen items to show/hide">
 </p>
 
 ## About
