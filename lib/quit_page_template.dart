@@ -41,7 +41,7 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
   late bool started;
   bool showConfetti = false;
   final controller = TextEditingController();
-  final ScrollController _scrollController = ScrollController();
+  ScrollController _scrollController = ScrollController();
 
   @override
   void initState() {
@@ -58,11 +58,11 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
       controller.text = currentDay.toString();
     });
 
-    if (!_scrollController.hasClients) return;
-
     final index = widget.milestones.indexWhere((m) => currentDay < m.day);
     final targetIndex = index == -1 ? widget.milestones.length - 1 : index;
-    _scrollController.jumpTo(targetIndex * 270 - 230);
+    _scrollController = ScrollController(
+      initialScrollOffset: targetIndex * 270 - 230,
+    );
   }
 
   void _handleStartPressed() async {
