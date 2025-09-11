@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:intl/intl.dart';
+import 'package:quitter/addiction_provider.dart';
 import 'package:quitter/custom_quit_entry.dart';
-import 'package:quitter/settings_provider.dart';
 import 'package:uuid/uuid.dart';
 
 class CustomEntryPage extends StatefulWidget {
@@ -52,10 +52,7 @@ class _CustomEntryPageState extends State<CustomEntryPage> {
 
   void _saveEntry() {
     if (_formKey.currentState!.validate()) {
-      final settingsProvider = Provider.of<SettingsProvider>(
-        context,
-        listen: false,
-      );
+      final addictions = context.read<AddictionProvider>();
       if (widget.entry == null) {
         final newEntry = CustomQuitEntry(
           id: const Uuid().v4(),
@@ -63,7 +60,7 @@ class _CustomEntryPageState extends State<CustomEntryPage> {
           quitDate: _quitDate,
           color: _selectedColor,
         );
-        settingsProvider.addCustomEntry(newEntry);
+        addictions.addCustomEntry(newEntry);
       } else {
         final updatedEntry = CustomQuitEntry(
           id: widget.entry!.id,
@@ -71,7 +68,7 @@ class _CustomEntryPageState extends State<CustomEntryPage> {
           quitDate: _quitDate,
           color: _selectedColor,
         );
-        settingsProvider.updateCustomEntry(updatedEntry);
+        addictions.updateCustomEntry(updatedEntry);
       }
       if (!mounted) return;
       Navigator.of(context).pop();
@@ -102,11 +99,8 @@ class _CustomEntryPageState extends State<CustomEntryPage> {
         ),
       ).then((confirmed) {
         if (confirmed != null && confirmed && mounted) {
-          final settingsProvider = Provider.of<SettingsProvider>(
-            context,
-            listen: false,
-          );
-          settingsProvider.deleteCustomEntry(widget.entry!.id);
+          final addictions = context.read<AddictionProvider>();
+          addictions.deleteCustomEntry(widget.entry!.id);
           if (!mounted) return;
           Navigator.of(context).pop();
         }

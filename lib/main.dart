@@ -4,6 +4,7 @@ import 'package:intl/intl.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:provider/provider.dart';
 import 'package:dynamic_color/dynamic_color.dart';
+import 'package:quitter/addiction_provider.dart';
 import 'package:quitter/color_scheme_helper.dart';
 import 'package:quitter/marijuana_page.dart';
 import 'package:quitter/nicotine_pouches.dart';
@@ -19,7 +20,6 @@ import 'package:quitter/social_media_page.dart';
 import 'package:quitter/vaping_page.dart';
 import 'package:quitter/pornography_page.dart';
 import 'package:quitter/reminders.dart';
-import 'package:quitter/custom_quit_entry.dart';
 import 'package:quitter/custom_entry_page.dart';
 
 class HomePage extends StatefulWidget {
@@ -30,24 +30,6 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
-  int? alcoholDays;
-  int? vapingDays;
-  int? smokingDays;
-  int? pouchesDays;
-  int? opioidDays;
-  int? socialMediaDays;
-  int? pornographyDays;
-  int? marijuanaDays;
-  String? quitAlcohol;
-  String? quitVaping;
-  String? quitSmoking;
-  String? quitPouches;
-  String? quitOpioids;
-  String? quitSocialMedia;
-  String? quitPornography;
-  String? quitMarijuana;
-  List<CustomQuitEntry> customEntries = [];
-
   @override
   void initState() {
     super.initState();
@@ -94,40 +76,10 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
   }
 
   void _loadQuitDays() async {
-    final prefs = await SharedPreferences.getInstance();
-    if (!mounted) return;
-    final settingsProvider = Provider.of<SettingsProvider>(
-      context,
-      listen: false,
-    );
+    final settingsProvider = context.read<SettingsProvider>();
+    final addictionsProvider = context.read<AddictionProvider>();
     await settingsProvider.loadPreferences();
-
-    setState(() {
-      quitSmoking = prefs.getString('smoking');
-      quitVaping = prefs.getString('vaping');
-      quitAlcohol = prefs.getString('alcohol');
-      quitOpioids = prefs.getString('opioids');
-      quitPouches = prefs.getString('nicotine_pouches');
-      quitSocialMedia = prefs.getString('social_media');
-      quitPornography = prefs.getString('pornography');
-      quitMarijuana = prefs.getString('marijuana');
-      customEntries = settingsProvider.customEntries;
-    });
-
-    if (mounted) {
-      setState(() {
-        if (quitSmoking != null) smokingDays = daysCeil(quitSmoking!);
-        if (quitMarijuana != null) marijuanaDays = daysCeil(quitMarijuana!);
-        if (quitAlcohol != null) alcoholDays = daysCeil(quitAlcohol!);
-        if (quitVaping != null) vapingDays = daysCeil(quitVaping!);
-        if (quitOpioids != null) opioidDays = daysCeil(quitOpioids!);
-        if (quitPouches != null) pouchesDays = daysCeil(quitPouches!);
-        if (quitSocialMedia != null)
-          socialMediaDays = daysCeil(quitSocialMedia!);
-        if (quitPornography != null)
-          pornographyDays = daysCeil(quitPornography!);
-      });
-    }
+    await addictionsProvider.loadAddictions();
   }
 
   void _showHideBottomSheet(String title, VoidCallback onConfirm) {
@@ -219,11 +171,13 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
     required String title,
     required IconData icon,
     required List<Color> gradientColors,
-    int? days,
     String? quitDate,
     required VoidCallback onTap,
     required VoidCallback onLongPress,
   }) {
+    int? days;
+    if (quitDate != null) days = daysCeil(quitDate);
+
     return Hero(
       tag: title,
       child: Card(
@@ -387,8 +341,8 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
         slivers: [
           SliverPadding(
             padding: const EdgeInsets.all(16),
-            sliver: Consumer<SettingsProvider>(
-              builder: (context, settings, child) {
+            sliver: Consumer2<SettingsProvider, AddictionProvider>(
+              builder: (context, settings, addictions, child) {
                 final cards = <Widget>[];
 
                 if (settings.showAlcohol) {
@@ -400,13 +354,12 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                         const Color(0xFF6366F1),
                         const Color(0xFF8B5CF6),
                       ],
-                      days: alcoholDays,
-                      quitDate: quitAlcohol,
+                      quitDate: addictions.quitAlcohol,
                       onTap: () async {
                         await Navigator.of(context).push(
                           MaterialPageRoute(
                             builder: (context) => AlcoholPage(
-                              initialStarted: alcoholDays != null,
+                              initialStarted: addictions.quitAlcohol != null,
                             ),
                           ),
                         );
@@ -430,13 +383,13 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                         const Color(0xFF06B6D4),
                         const Color(0xFF0EA5E9),
                       ],
-                      days: vapingDays,
-                      quitDate: quitVaping,
+                      quitDate: addictions.quitVaping,
                       onTap: () async {
                         await Navigator.of(context).push(
                           MaterialPageRoute(
-                            builder: (context) =>
-                                VapingPage(initialStarted: vapingDays != null),
+                            builder: (context) => VapingPage(
+                              initialStarted: addictions.quitVaping != null,
+                            ),
                           ),
                         );
                         if (mounted) _loadQuitDays();
@@ -459,13 +412,12 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                         const Color(0xFF10B981),
                         const Color(0xFF059669),
                       ],
-                      days: smokingDays,
-                      quitDate: quitSmoking,
+                      quitDate: addictions.quitSmoking,
                       onTap: () async {
                         await Navigator.of(context).push(
                           MaterialPageRoute(
                             builder: (context) => SmokingPage(
-                              initialStarted: smokingDays != null,
+                              initialStarted: addictions.quitSmoking != null,
                             ),
                           ),
                         );
@@ -489,13 +441,12 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                         const Color.fromARGB(255, 132, 230, 128),
                         const Color.fromARGB(255, 30, 87, 3),
                       ],
-                      days: marijuanaDays,
-                      quitDate: quitMarijuana,
+                      quitDate: addictions.quitMarijuana,
                       onTap: () async {
                         await Navigator.of(context).push(
                           MaterialPageRoute(
                             builder: (context) => MarijuanaPage(
-                              initialStarted: marijuanaDays != null,
+                              initialStarted: addictions.quitMarijuana != null,
                             ),
                           ),
                         );
@@ -518,13 +469,12 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                         const Color(0xFFF59E0B),
                         const Color(0xFFEF4444),
                       ],
-                      days: pouchesDays,
-                      quitDate: quitPouches,
+                      quitDate: addictions.quitPouches,
                       onTap: () async {
                         await Navigator.of(context).push(
                           MaterialPageRoute(
                             builder: (context) => NicotinePouchesPage(
-                              initialStarted: pouchesDays != null,
+                              initialStarted: addictions.quitPouches != null,
                             ),
                           ),
                         );
@@ -548,13 +498,13 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                         const Color(0xFFEC4899),
                         const Color(0xFFBE185D),
                       ],
-                      days: opioidDays,
-                      quitDate: quitOpioids,
+                      quitDate: addictions.quitOpioids,
                       onTap: () async {
                         await Navigator.of(context).push(
                           MaterialPageRoute(
-                            builder: (context) =>
-                                OpioidPage(initialStarted: opioidDays != null),
+                            builder: (context) => OpioidPage(
+                              initialStarted: addictions.quitOpioids != null,
+                            ),
                           ),
                         );
                         if (mounted) _loadQuitDays();
@@ -577,13 +527,13 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                         const Color(0xFF8B5CF6),
                         const Color(0xFF7C3AED),
                       ],
-                      days: socialMediaDays,
-                      quitDate: quitSocialMedia,
+                      quitDate: addictions.quitSocialMedia,
                       onTap: () async {
                         await Navigator.of(context).push(
                           MaterialPageRoute(
                             builder: (context) => SocialMediaPage(
-                              initialStarted: socialMediaDays != null,
+                              initialStarted:
+                                  addictions.quitSocialMedia != null,
                             ),
                           ),
                         );
@@ -607,13 +557,13 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                         const Color(0xFFF43F5E),
                         const Color(0xFFE11D48),
                       ],
-                      days: pornographyDays,
-                      quitDate: quitPornography,
+                      quitDate: addictions.quitPornography,
                       onTap: () async {
                         await Navigator.of(context).push(
                           MaterialPageRoute(
                             builder: (context) => PornographyPage(
-                              initialStarted: pornographyDays != null,
+                              initialStarted:
+                                  addictions.quitPornography != null,
                             ),
                           ),
                         );
@@ -628,7 +578,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                   );
                 }
 
-                for (var entry in customEntries) {
+                for (var entry in addictions.customEntries) {
                   cards.add(
                     _buildQuitCard(
                       title: entry.title,
@@ -637,7 +587,6 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                         entry.color,
                         entry.color.withValues(alpha: 0.7),
                       ],
-                      days: daysCeil(entry.quitDate.toIso8601String()),
                       quitDate: entry.quitDate.toIso8601String(),
                       onTap: () async {
                         await Navigator.of(context).push(
@@ -708,12 +657,17 @@ void main() async {
 
   final settingsProvider = SettingsProvider();
   await settingsProvider.loadPreferences();
+  final addictionProvider = AddictionProvider();
+  await addictionProvider.loadAddictions();
 
   setupReminders();
 
   runApp(
-    ChangeNotifierProvider.value(
-      value: settingsProvider,
+    MultiProvider(
+      providers: [
+        ChangeNotifierProvider(create: (context) => settingsProvider),
+        ChangeNotifierProvider(create: (context) => addictionProvider),
+      ],
       child: const QuitterApp(),
     ),
   );

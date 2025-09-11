@@ -2,12 +2,12 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:provider/provider.dart';
+import 'package:quitter/addiction_provider.dart';
 import 'package:quitter/confetti_widget.dart';
 import 'package:quitter/quit_milestone.dart';
 import 'package:quitter/settings_provider.dart';
 import 'package:quitter/timeline_tile.dart';
 import 'package:quitter/utils.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 
 class QuitPageTemplate extends StatefulWidget {
   final String title;
@@ -49,25 +49,25 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
     super.initState();
     started = widget.initialStarted;
     if (!started) return;
+    final addictions = context.read<AddictionProvider>();
 
-    SharedPreferences.getInstance().then((prefs) {
-      final quitOn = prefs.getString(widget.storageKey);
-      if (quitOn == null) return;
+    final quitOn = addictions.getAddiction(widget.storageKey);
+    if (quitOn == null) return;
 
-      setState(() {
-        currentDay = daysCeil(quitOn);
-        controller.text = currentDay.toString();
-      });
-
-      if (!_scrollController.hasClients) return;
-
-      final index = widget.milestones.indexWhere((m) => currentDay < m.day);
-      final targetIndex = index == -1 ? widget.milestones.length - 1 : index;
-      _scrollController.jumpTo(targetIndex * 270 - 230);
+    setState(() {
+      currentDay = daysCeil(quitOn);
+      controller.text = currentDay.toString();
     });
+
+    if (!_scrollController.hasClients) return;
+
+    final index = widget.milestones.indexWhere((m) => currentDay < m.day);
+    final targetIndex = index == -1 ? widget.milestones.length - 1 : index;
+    _scrollController.jumpTo(targetIndex * 270 - 230);
   }
 
   void _handleStartPressed() async {
+    final addictions = context.read<AddictionProvider>();
     if (!context.mounted) return;
     final settingsProvider = context.read<SettingsProvider>();
     if (settingsProvider.notifyEvery > 0 &&
@@ -86,9 +86,10 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
       controller.text = '1';
     });
 
-    SharedPreferences.getInstance().then((prefs) {
-      prefs.setString(widget.storageKey, DateTime.now().toIso8601String());
-    });
+    addictions.setAddiction(
+      widget.storageKey,
+      DateTime.now().toIso8601String(),
+    );
 
     Future.delayed(const Duration(milliseconds: 2500), () {
       if (mounted) {
@@ -104,6 +105,7 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
     final theme = Theme.of(context);
     final colorScheme = theme.colorScheme;
     final settings = context.watch<SettingsProvider>();
+    final addictions = context.watch<AddictionProvider>();
 
     Widget? fab;
     if (!started) {
@@ -116,11 +118,11 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
     } else {
       fab = FloatingActionButton.extended(
         onPressed: () async {
-          final prefs = await SharedPreferences.getInstance();
-          if (!context.mounted) return;
-
-          final quit = prefs.getString(widget.storageKey);
-          prefs.setString(widget.storageKey, DateTime.now().toIso8601String());
+          final quit = addictions.getAddiction(widget.storageKey);
+          addictions.setAddiction(
+            widget.storageKey,
+            DateTime.now().toIso8601String(),
+          );
 
           setState(() {
             controller.text = '1';
@@ -137,7 +139,7 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
               label: 'Undo',
               onPressed: () {
                 if (quit == null) return;
-                prefs.setString(widget.storageKey, quit);
+                addictions.setAddiction(widget.storageKey, quit);
 
                 setState(() {
                   started = true;
@@ -214,9 +216,7 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
                                 });
                                 controller.text = currentDay.toString();
 
-                                final prefs =
-                                    await SharedPreferences.getInstance();
-                                prefs.setString(
+                                addictions.setAddiction(
                                   widget.storageKey,
                                   date.toIso8601String(),
                                 );
@@ -247,8 +247,6 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
                           ),
                           keyboardType: TextInputType.number,
                           onChanged: (value) async {
-                            final prefs = await SharedPreferences.getInstance();
-
                             final parsed = int.tryParse(value);
                             if (parsed != null)
                               setState(() {
@@ -259,7 +257,10 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
                               return setState(() {
                                 currentDay = 1;
                                 started = false;
-                                prefs.remove(widget.storageKey);
+                                addictions.setAddiction(
+                                  widget.storageKey,
+                                  null,
+                                );
                               });
 
                             if (!context.mounted) return;
@@ -276,7 +277,7 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
                             final quitOn = DateTime.now().subtract(
                               Duration(days: currentDay),
                             );
-                            prefs.setString(
+                            addictions.setAddiction(
                               widget.storageKey,
                               quitOn.toIso8601String(),
                             );
