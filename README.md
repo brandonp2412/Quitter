@@ -9,10 +9,10 @@ Record your quitting journey with a Free and Open Source app.
 
 ## Features
 
-*   **Track Multiple Quitting Journeys:** Monitor progress for different habits simultaneously.
-*   **Milestone Tracking:** Record and celebrate key achievements in your quitting journey.
-*   **User-Friendly Interface:** Clean and intuitive design for easy navigation.
-*   **Open Source:** Transparent and community-driven development.
+*   **Multiple journeys:** Monitor progress for different habits simultaneously.
+*   **Milestone tracking:** Record and celebrate key achievements in your quitting journey.
+*   **Notifications:** Be encouraged with progress notifications.
+*   **Completely custom:** Toggle features on/off, change colors & themes with settings.
 
 <a href='https://play.google.com/store/apps/details?id=com.quitter.app'><img alt='Get it on Google Play badge' height="80" src='./docs/get-it-on-google-play.png'/></a>
 <a href="https://apps.microsoft.com/detail/9PKVZWDG3FGC?referrer=appbadge&mode=direct">
@@ -34,25 +34,24 @@ Record your quitting journey with a Free and Open Source app.
     <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/8_settings_page_en-US.png" height="600" alt="Settings page on mobile showing appearance configurations and main screen items to show/hide">
 </p>
 
-## About
+# About
 
 Quitter makes it easy to remember how long it's been since you've dropped a bad habit.
-Automatically calculate the # of days since your quit date, and see beautiful infographics
-on your quitting journey.
+Automatically calculate the number of days since you quit, and see beautiful infographics on your journey.
 
-## Getting Started
+# Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### Prerequisites
+## Prerequisites
 
 This project is built with Flutter. Ensure you have Flutter installed on your system. If not, follow the official Flutter installation guide: [https://flutter.dev/docs/get-started/install](https://flutter.dev/docs/get-started/install)
 
-### Installation
+## Installation
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/brandonp2412/quitter.git
+    git clone https://github.com/brandonp2412/Quitter.git quitter
     cd quitter
     ```
 
@@ -61,7 +60,7 @@ This project is built with Flutter. Ensure you have Flutter installed on your sy
     flutter pub get
     ```
 
-### Running the App
+## Running the App
 
 To run the app on a connected device or emulator:
 
@@ -69,6 +68,6 @@ To run the app on a connected device or emulator:
 flutter run
 ```
 
-## License
+# License
 
 This project is licensed under the MIT License - see the `LICENSE` file for details.
