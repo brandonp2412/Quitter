@@ -148,13 +148,13 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
       showConfetti = true;
     });
 
+    final day = int.tryParse(controller.text) ?? 0;
+    final date = DateTime.now().subtract(Duration(days: day));
+
     if (widget.onQuitDateChanged != null) {
-      widget.onQuitDateChanged!(DateTime.now());
+      widget.onQuitDateChanged!(date);
     } else {
-      addictions.setAddiction(
-        widget.storageKey,
-        DateTime.now().toIso8601String(),
-      );
+      addictions.setAddiction(widget.storageKey, date.toIso8601String());
     }
 
     Future.delayed(const Duration(milliseconds: 2500), () {
