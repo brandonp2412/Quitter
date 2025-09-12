@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
+import 'package:quitter/utils.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:quitter/custom_quit_entry.dart';
 
@@ -61,63 +62,17 @@ class AddictionProvider extends ChangeNotifier {
       _pref?.setString(key, value);
     }
     loadAddictions();
+    widgetChannel.invokeMethod('updateWidget');
   }
 
   String? get quitAlcohol => _alcohol;
-  set quitAlcohol(String? value) {
-    _pref?.setString('alcohol', value ?? '');
-    _alcohol = value;
-    notifyListeners();
-  }
-
   String? get quitVaping => _vaping;
-  set quitVaping(String? value) {
-    _pref?.setString('vaping', value ?? '');
-    _vaping = value;
-    notifyListeners();
-  }
-
   String? get quitSmoking => _smoking;
-  set quitSmoking(String? value) {
-    _pref?.setString('smoking', value ?? '');
-    _smoking = value;
-    notifyListeners();
-  }
-
   String? get quitPouches => _pouches;
-  set quitPouches(String? value) {
-    _pref?.setString('nicotine_pouches', value ?? '');
-    _pouches = value;
-    notifyListeners();
-  }
-
   String? get quitOpioids => _opioids;
-  set quitOpioids(String? value) {
-    _pref?.setString('opioids', value ?? '');
-    _opioids = value;
-    notifyListeners();
-  }
-
   String? get quitSocialMedia => _socialMedia;
-  set quitSocialMedia(String? value) {
-    _pref?.setString('social_media', value ?? '');
-    _socialMedia = value;
-    notifyListeners();
-  }
-
   String? get quitPornography => _pornography;
-  set quitPornography(String? value) {
-    _pref?.setString('pornography', value ?? '');
-    _pornography = value;
-    notifyListeners();
-  }
-
   String? get quitMarijuana => _marijuana;
-  set quitMarijuana(String? value) {
-    _pref?.setString('marijuana', value ?? '');
-    _marijuana = value;
-    notifyListeners();
-  }
 
   Future<void> _saveEntries() async {
     final List<Map<String, dynamic>> list = entries

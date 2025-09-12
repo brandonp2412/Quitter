@@ -1,6 +1,9 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+
+const widgetChannel = MethodChannel("android.widget");
 
 void selectAll(TextEditingController ctrl) {
   ctrl.selection = TextSelection(baseOffset: 0, extentOffset: ctrl.text.length);

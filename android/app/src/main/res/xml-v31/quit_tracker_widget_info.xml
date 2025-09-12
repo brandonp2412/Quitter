@@ -2,6 +2,8 @@
 <appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
     android:minWidth="110dp"
     android:minHeight="40dp"
+    android:targetCellWidth="2"
+    android:targetCellHeight="1"
     android:updatePeriodMillis="14400000"
     android:initialLayout="@layout/quit_tracker_widget"
     android:description="@string/widget_description"

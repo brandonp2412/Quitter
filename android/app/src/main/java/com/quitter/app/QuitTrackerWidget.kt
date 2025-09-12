@@ -9,6 +9,7 @@ import android.widget.RemoteViews
 import java.time.LocalDate
 import java.time.LocalDateTime
 import java.time.temporal.ChronoUnit
+import kotlin.math.ceil
 
 /**
  * Implementation of App Widget functionality.
@@ -37,14 +38,17 @@ class QuitTrackerWidget : AppWidgetProvider() {
         private fun daysCeil(isoDateString: String?): Long {
             if (isoDateString == null) return 0
 
-            val quitDate = if (isoDateString.contains('T')) {
-                LocalDateTime.parse(isoDateString).toLocalDate()
+            val quitDateTime = if (isoDateString.contains('T')) {
+                LocalDateTime.parse(isoDateString)
             } else {
-                LocalDate.parse(isoDateString)
+                LocalDate.parse(isoDateString).atStartOfDay()
             }
 
-            val now = LocalDate.now()
-            return ChronoUnit.DAYS.between(quitDate, now)
+            val now = LocalDateTime.now()
+            val totalSeconds = ChronoUnit.SECONDS.between(quitDateTime, now)
+            val exactDays = totalSeconds / (24.0 * 60.0 * 60.0)
+
+            return ceil(exactDays).toLong()
         }
 
         fun updateAppWidget(
@@ -155,13 +159,7 @@ class QuitTrackerWidget : AppWidgetProvider() {
 
             android.util.Log.d("QuitTrackerWidget", "Found quit date for $selectedAddiction: $quitDate")
             val days = daysCeil(quitDate)
-            val widgetText = if (days > 0) {
-                "$days ${if (days == 1L) "day" else "days"}"
-            } else if (days == 0L) {
-                "Today!"
-            } else {
-                "Future date?"
-            }
+            val widgetText = "$days ${if (days == 1L) "day" else "days"}"
             views.setTextViewText(R.id.widget_days, widgetText)
 
             val mainIntent = Intent(context, MainActivity::class.java)
