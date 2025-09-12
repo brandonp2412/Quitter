@@ -8,6 +8,7 @@ import 'package:quitter/quit_milestone.dart';
 import 'package:quitter/settings_provider.dart';
 import 'package:quitter/timeline_tile.dart';
 import 'package:quitter/utils.dart';
+import 'package:share_plus/share_plus.dart';
 
 class QuitPageTemplate extends StatefulWidget {
   final String title;
@@ -167,7 +168,22 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
       isActive: showConfetti,
       child: Scaffold(
         backgroundColor: colorScheme.surface,
-        appBar: AppBar(title: Text(widget.title)),
+        appBar: AppBar(
+          title: Text(widget.title),
+          actions: [
+            IconButton(
+              icon: const Icon(Icons.share),
+              onPressed: () {
+                SharePlus.instance.share(
+                  ShareParams(
+                    text:
+                        "I'm $currentDay days clean from ${widget.storageKey.replaceAll('_', ' ')}!",
+                  ),
+                );
+              },
+            ),
+          ],
+        ),
         body: Column(
           children: [
             Container(
