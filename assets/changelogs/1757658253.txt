@@ -1,0 +1,10 @@
+• Add share button to announce your progress
+• Clean up duplicated changelogs
+• Fix deploy.sh
+• Fix quit pages not scrolling to current milestone
+• Fix remembering the # of days you quit in the past
+• Fix share text on custom share menu
+• Fix timeline progress when resetting
+• Refactor code
+• Show dots indicating quitting history
+• Show similar milestones in custom entries
