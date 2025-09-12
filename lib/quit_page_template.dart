@@ -226,10 +226,7 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
           if (widget.onResetPressed != null) {
             widget.onResetPressed!(displayCurrentDay);
           } else {
-            addictions.resetPredefinedAddiction(
-              widget.storageKey,
-              displayCurrentDay,
-            );
+            addictions.resetAddiction(widget.storageKey, displayCurrentDay);
           }
 
           setState(() {
@@ -265,7 +262,7 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
     if (settings.showReset == false) fab = null;
 
     return ConfettiWidget(
-      isActive: showConfetti,
+      active: showConfetti,
       child: Scaffold(
         backgroundColor: colorScheme.surface,
         appBar: AppBar(
@@ -464,7 +461,7 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
 
                   final allDaysAchieved = widget.customDaysAchieved.isNotEmpty
                       ? widget.customDaysAchieved
-                      : addictions.getPredefinedDaysAchieved(widget.storageKey);
+                      : addictions.getDays(widget.storageKey);
 
                   // Collect all milestone days that correspond to the achieved days
                   final List<int> milestoneDaysToMark = [];

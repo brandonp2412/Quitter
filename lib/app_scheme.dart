@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:quitter/color_scheme_type.dart';
 
-class ColorSchemeHelper {
+class AppScheme {
   static ColorScheme getColorScheme(
     ColorSchemeType type,
     Brightness brightness,
@@ -42,7 +42,7 @@ class ColorSchemeHelper {
     }
   }
 
-  static String getColorSchemeName(ColorSchemeType type) {
+  static String getName(ColorSchemeType type) {
     switch (type) {
       case ColorSchemeType.dynamic:
         return 'Dynamic Colors';

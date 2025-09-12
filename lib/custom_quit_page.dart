@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart'; // Added import
-import 'package:quitter/addiction_provider.dart'; // Added import
+import 'package:provider/provider.dart';
+import 'package:quitter/addiction_provider.dart';
 import 'package:quitter/custom_quit_entry.dart';
 import 'package:quitter/quit_milestone.dart';
 import 'package:quitter/quit_page_template.dart';
 
 class CustomQuitPage extends StatefulWidget {
-  final CustomQuitEntry entry;
+  final Entry entry;
 
   const CustomQuitPage({super.key, required this.entry});
 
@@ -16,10 +16,8 @@ class CustomQuitPage extends StatefulWidget {
 
 class _CustomQuitPageState extends State<CustomQuitPage> {
   List<QuitMilestone> _generateMilestones() {
-    List<QuitMilestone> milestones = [];
-    // Example: Generate milestones for 1, 7, 30, 90, 180, 365 days
-    // You can customize this logic based on desired milestones for custom entries
-    milestones.add(
+    List<QuitMilestone> miles = [];
+    miles.add(
       const QuitMilestone(
         day: 1,
         title: 'First Day',
@@ -28,7 +26,7 @@ class _CustomQuitPageState extends State<CustomQuitPage> {
         link: '',
       ),
     );
-    milestones.add(
+    miles.add(
       const QuitMilestone(
         day: 7,
         title: 'One Week',
@@ -37,7 +35,7 @@ class _CustomQuitPageState extends State<CustomQuitPage> {
         link: '',
       ),
     );
-    milestones.add(
+    miles.add(
       const QuitMilestone(
         day: 30,
         title: 'One Month',
@@ -46,7 +44,7 @@ class _CustomQuitPageState extends State<CustomQuitPage> {
         link: '',
       ),
     );
-    milestones.add(
+    miles.add(
       const QuitMilestone(
         day: 90,
         title: 'Three Months',
@@ -55,7 +53,7 @@ class _CustomQuitPageState extends State<CustomQuitPage> {
         link: '',
       ),
     );
-    milestones.add(
+    miles.add(
       const QuitMilestone(
         day: 180,
         title: 'Six Months',
@@ -64,7 +62,7 @@ class _CustomQuitPageState extends State<CustomQuitPage> {
         link: '',
       ),
     );
-    milestones.add(
+    miles.add(
       const QuitMilestone(
         day: 365,
         title: 'One Year',
@@ -73,38 +71,37 @@ class _CustomQuitPageState extends State<CustomQuitPage> {
         link: '',
       ),
     );
-    return milestones;
+    return miles;
   }
 
   @override
   Widget build(BuildContext context) {
-    return Selector<AddictionProvider, CustomQuitEntry>(
-      selector: (context, addictions) => addictions.customEntries.firstWhere(
+    return Selector<AddictionProvider, Entry>(
+      selector: (context, addictions) => addictions.entries.firstWhere(
         (e) => e.id == widget.entry.id,
-        orElse: () => widget.entry, // Fallback to initial entry if not found
+        orElse: () => widget.entry,
       ),
-      builder: (context, currentEntry, child) {
-        final addictions = context
-            .read<AddictionProvider>(); // Use read for actions
+      builder: (context, entry, child) {
+        final addictions = context.read<AddictionProvider>();
 
         return QuitPageTemplate(
-          title: currentEntry.title,
-          storageKey: currentEntry.id,
-          shareTitle: currentEntry.title,
+          title: entry.title,
+          storageKey: entry.id,
+          shareTitle: entry.title,
           milestones: _generateMilestones(),
-          headerTextStartedBuilder: (currentDay) => '$currentDay Days',
+          headerTextStartedBuilder: (day) => '$day Days',
           headerTextNotStarted: 'Not Started',
-          headerSubtitleStartedBuilder: (currentDay) => 'You are doing great!',
+          headerSubtitleStartedBuilder: (day) => 'You are doing great!',
           headerSubtitleNotStarted: 'Tap "Start" to begin your journey',
-          initialStarted: currentEntry.quitDate.isBefore(DateTime.now()),
-          customDaysAchieved: currentEntry.daysAchieved,
-          quitDateOverride: currentEntry.quitDate.toIso8601String(),
-          onQuitDateChanged: (newDate) async {
-            final updatedEntry = currentEntry.copyWith(quitDate: newDate);
-            await addictions.updateCustomEntry(updatedEntry);
+          initialStarted: entry.quitDate.isBefore(DateTime.now()),
+          customDaysAchieved: entry.daysAchieved,
+          quitDateOverride: entry.quitDate.toIso8601String(),
+          onQuitDateChanged: (date) async {
+            final updated = entry.copyWith(quitDate: date);
+            await addictions.updateEntry(updated);
           },
           onResetPressed: (days) async {
-            await addictions.resetCustomEntry(currentEntry.id, days);
+            await addictions.resetEntry(entry.id, days);
           },
         );
       },

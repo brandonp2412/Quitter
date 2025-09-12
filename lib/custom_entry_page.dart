@@ -6,7 +6,7 @@ import 'package:quitter/custom_quit_entry.dart';
 import 'package:uuid/uuid.dart';
 
 class CustomEntryPage extends StatefulWidget {
-  final CustomQuitEntry? entry;
+  final Entry? entry;
 
   const CustomEntryPage({super.key, this.entry});
 
@@ -54,21 +54,21 @@ class _CustomEntryPageState extends State<CustomEntryPage> {
     if (_formKey.currentState!.validate()) {
       final addictions = context.read<AddictionProvider>();
       if (widget.entry == null) {
-        final newEntry = CustomQuitEntry(
+        final newEntry = Entry(
           id: const Uuid().v4(),
           title: _titleController.text,
           quitDate: _quitDate,
           color: _selectedColor,
         );
-        addictions.addCustomEntry(newEntry);
+        addictions.addEntry(newEntry);
       } else {
-        final updatedEntry = CustomQuitEntry(
+        final updatedEntry = Entry(
           id: widget.entry!.id,
           title: _titleController.text,
           quitDate: _quitDate,
           color: _selectedColor,
         );
-        addictions.updateCustomEntry(updatedEntry);
+        addictions.updateEntry(updatedEntry);
       }
       if (!mounted) return;
       Navigator.of(context).pop();
@@ -100,7 +100,7 @@ class _CustomEntryPageState extends State<CustomEntryPage> {
       ).then((confirmed) {
         if (confirmed != null && confirmed && mounted) {
           final addictions = context.read<AddictionProvider>();
-          addictions.deleteCustomEntry(widget.entry!.id);
+          addictions.deleteEntry(widget.entry!.id);
           if (!mounted) return;
           Navigator.of(context).pop();
         }

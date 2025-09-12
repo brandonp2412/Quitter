@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class CustomQuitEntry {
+class Entry {
   String id;
   String title;
   DateTime quitDate;
   Color color;
   List<int> daysAchieved; // New field to store days achieved before reset
 
-  CustomQuitEntry({
+  Entry({
     required this.id,
     required this.title,
     required this.quitDate,
@@ -15,14 +15,14 @@ class CustomQuitEntry {
     this.daysAchieved = const [], // Initialize with an empty list
   });
 
-  CustomQuitEntry copyWith({
+  Entry copyWith({
     String? id,
     String? title,
     DateTime? quitDate,
     Color? color,
     List<int>? daysAchieved,
   }) {
-    return CustomQuitEntry(
+    return Entry(
       id: id ?? this.id,
       title: title ?? this.title,
       quitDate: quitDate ?? this.quitDate,
@@ -39,16 +39,15 @@ class CustomQuitEntry {
     'daysAchieved': daysAchieved, // Add to JSON serialization
   };
 
-  factory CustomQuitEntry.fromJson(Map<String, dynamic> json) =>
-      CustomQuitEntry(
-        id: json['id'] as String,
-        title: json['title'] as String,
-        quitDate: DateTime.parse(json['quitDate'] as String),
-        color: Color(json['color'] as int),
-        daysAchieved:
-            (json['daysAchieved'] as List<dynamic>?)
-                ?.map((e) => e as int)
-                .toList() ??
-            const [], // Deserialize daysAchieved
-      );
+  factory Entry.fromJson(Map<String, dynamic> json) => Entry(
+    id: json['id'] as String,
+    title: json['title'] as String,
+    quitDate: DateTime.parse(json['quitDate'] as String),
+    color: Color(json['color'] as int),
+    daysAchieved:
+        (json['daysAchieved'] as List<dynamic>?)
+            ?.map((e) => e as int)
+            .toList() ??
+        const [], // Deserialize daysAchieved
+  );
 }

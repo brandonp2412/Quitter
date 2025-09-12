@@ -3,9 +3,9 @@ import 'package:quitter/quit_milestone.dart';
 import 'package:quitter/quit_page_template.dart';
 
 class SocialMediaPage extends StatelessWidget {
-  final bool initialStarted;
+  final bool started;
 
-  const SocialMediaPage({super.key, required this.initialStarted});
+  const SocialMediaPage({super.key, required this.started});
 
   final List<QuitMilestone> milestones = const [
     QuitMilestone(
@@ -97,7 +97,7 @@ class SocialMediaPage extends StatelessWidget {
       headerSubtitleStartedBuilder: (currentDay) =>
           'Real life is the best feed 💖',
       headerSubtitleNotStarted: 'Ready to reclaim your time? 🚀',
-      initialStarted: initialStarted,
+      initialStarted: started,
     );
   }
 }

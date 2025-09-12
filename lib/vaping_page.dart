@@ -3,9 +3,9 @@ import 'package:quitter/quit_milestone.dart';
 import 'package:quitter/quit_page_template.dart';
 
 class VapingPage extends StatelessWidget {
-  final bool initialStarted;
+  final bool started;
 
-  const VapingPage({super.key, required this.initialStarted});
+  const VapingPage({super.key, required this.started});
 
   final List<QuitMilestone> milestones = const [
     QuitMilestone(
@@ -102,7 +102,7 @@ class VapingPage extends StatelessWidget {
       headerSubtitleStartedBuilder: (currentDay) =>
           'Breathing easy, living free 🌬️',
       headerSubtitleNotStarted: 'Ready to ditch the vape? ✨',
-      initialStarted: initialStarted,
+      initialStarted: started,
     );
   }
 }

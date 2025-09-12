@@ -4,51 +4,46 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:quitter/custom_quit_entry.dart';
 
 class AddictionProvider extends ChangeNotifier {
-  SharedPreferences? _prefs;
+  SharedPreferences? _pref;
 
-  String? _quitSmoking;
-  String? _quitVaping;
-  String? _quitAlcohol;
-  String? _quitOpioids;
-  String? _quitPouches;
-  String? _quitSocialMedia;
-  String? _quitPornography;
-  String? _quitMarijuana;
+  String? _smoking;
+  String? _vaping;
+  String? _alcohol;
+  String? _opioids;
+  String? _pouches;
+  String? _socialMedia;
+  String? _pornography;
+  String? _marijuana;
 
-  List<CustomQuitEntry> customEntries = [];
-  Map<String, List<int>> _predefinedDaysAchieved = {};
+  List<Entry> entries = [];
+  Map<String, List<int>> _days = {};
 
   Future<void> loadAddictions() async {
-    _prefs = await SharedPreferences.getInstance();
+    _pref = await SharedPreferences.getInstance();
 
-    _quitSmoking = _prefs!.getString('smoking');
-    _quitVaping = _prefs!.getString('vaping');
-    _quitAlcohol = _prefs!.getString('alcohol');
-    _quitOpioids = _prefs!.getString('opioids');
-    _quitPouches = _prefs!.getString('nicotine_pouches');
-    _quitSocialMedia = _prefs!.getString('social_media');
-    _quitPornography = _prefs!.getString('pornography');
-    _quitMarijuana = _prefs!.getString('marijuana');
+    _smoking = _pref!.getString('smoking');
+    _vaping = _pref!.getString('vaping');
+    _alcohol = _pref!.getString('alcohol');
+    _opioids = _pref!.getString('opioids');
+    _pouches = _pref!.getString('nicotine_pouches');
+    _socialMedia = _pref!.getString('social_media');
+    _pornography = _pref!.getString('pornography');
+    _marijuana = _pref!.getString('marijuana');
 
-    final String? customEntriesJson = _prefs!.getString('custom_quit_entries');
-    if (customEntriesJson != null) {
-      final List<dynamic> decodedData = json.decode(customEntriesJson);
-      customEntries = decodedData
-          .map((item) => CustomQuitEntry.fromJson(item as Map<String, dynamic>))
+    final String? entriesJson = _pref!.getString('entries');
+    if (entriesJson != null) {
+      final List<dynamic> data = json.decode(entriesJson);
+      entries = data
+          .map((item) => Entry.fromJson(item as Map<String, dynamic>))
           .toList();
     }
 
-    // Load predefined days achieved
-    final String? predefinedDaysJson = _prefs!.getString(
-      'predefined_days_achieved',
-    );
-    if (predefinedDaysJson != null) {
-      final Map<String, dynamic> decodedData = json.decode(predefinedDaysJson);
-      _predefinedDaysAchieved = decodedData.map(
-        (key, value) => MapEntry(
-          key,
-          (value as List<dynamic>).map((e) => e as int).toList(),
-        ),
+    final String? daysJson = _pref!.getString('days');
+    if (daysJson != null) {
+      final Map<String, dynamic> data = json.decode(daysJson);
+      _days = data.map(
+        (key, val) =>
+            MapEntry(key, (val as List<dynamic>).map((e) => e as int).toList()),
       );
     }
 
@@ -56,136 +51,128 @@ class AddictionProvider extends ChangeNotifier {
   }
 
   String? getAddiction(String key) {
-    return _prefs?.getString(key);
+    return _pref?.getString(key);
   }
 
   void setAddiction(String key, String? value) {
-    if (value == null)
-      _prefs?.remove(key);
-    else
-      _prefs?.setString(key, value);
+    if (value == null) {
+      _pref?.remove(key);
+    } else {
+      _pref?.setString(key, value);
+    }
     loadAddictions();
   }
 
-  String? get quitAlcohol => _quitAlcohol;
+  String? get quitAlcohol => _alcohol;
   set quitAlcohol(String? value) {
-    _prefs?.setString('alcohol', value ?? '');
-    _quitAlcohol = value;
+    _pref?.setString('alcohol', value ?? '');
+    _alcohol = value;
     notifyListeners();
   }
 
-  String? get quitVaping => _quitVaping;
+  String? get quitVaping => _vaping;
   set quitVaping(String? value) {
-    _prefs?.setString('vaping', value ?? '');
-    _quitVaping = value;
+    _pref?.setString('vaping', value ?? '');
+    _vaping = value;
     notifyListeners();
   }
 
-  String? get quitSmoking => _quitSmoking;
+  String? get quitSmoking => _smoking;
   set quitSmoking(String? value) {
-    _prefs?.setString('smoking', value ?? '');
-    _quitSmoking = value;
+    _pref?.setString('smoking', value ?? '');
+    _smoking = value;
     notifyListeners();
   }
 
-  String? get quitPouches => _quitPouches;
+  String? get quitPouches => _pouches;
   set quitPouches(String? value) {
-    _prefs?.setString('nicotine_pouches', value ?? '');
-    _quitPouches = value;
+    _pref?.setString('nicotine_pouches', value ?? '');
+    _pouches = value;
     notifyListeners();
   }
 
-  String? get quitOpioids => _quitOpioids;
+  String? get quitOpioids => _opioids;
   set quitOpioids(String? value) {
-    _prefs?.setString('opioids', value ?? '');
-    _quitOpioids = value;
+    _pref?.setString('opioids', value ?? '');
+    _opioids = value;
     notifyListeners();
   }
 
-  String? get quitSocialMedia => _quitSocialMedia;
+  String? get quitSocialMedia => _socialMedia;
   set quitSocialMedia(String? value) {
-    _prefs?.setString('social_media', value ?? '');
-    _quitSocialMedia = value;
+    _pref?.setString('social_media', value ?? '');
+    _socialMedia = value;
     notifyListeners();
   }
 
-  String? get quitPornography => _quitPornography;
+  String? get quitPornography => _pornography;
   set quitPornography(String? value) {
-    _prefs?.setString('pornography', value ?? '');
-    _quitPornography = value;
+    _pref?.setString('pornography', value ?? '');
+    _pornography = value;
     notifyListeners();
   }
 
-  String? get quitMarijuana => _quitMarijuana;
+  String? get quitMarijuana => _marijuana;
   set quitMarijuana(String? value) {
-    _prefs?.setString('marijuana', value ?? '');
-    _quitMarijuana = value;
+    _pref?.setString('marijuana', value ?? '');
+    _marijuana = value;
     notifyListeners();
   }
 
-  Future<void> _saveCustomEntries() async {
-    final List<Map<String, dynamic>> jsonList = customEntries
-        .map((entry) => entry.toJson())
+  Future<void> _saveEntries() async {
+    final List<Map<String, dynamic>> list = entries
+        .map((e) => e.toJson())
         .toList();
-    await _prefs?.setString('custom_quit_entries', json.encode(jsonList));
+    await _pref?.setString('entries', json.encode(list));
   }
 
-  Future<void> addCustomEntry(CustomQuitEntry entry) async {
-    customEntries.add(entry);
-    await _saveCustomEntries();
+  Future<void> addEntry(Entry e) async {
+    entries.add(e);
+    await _saveEntries();
     notifyListeners();
   }
 
-  Future<void> updateCustomEntry(CustomQuitEntry entry) async {
-    final index = customEntries.indexWhere((e) => e.id == entry.id);
-    if (index != -1) {
-      customEntries[index] = entry;
-      await _saveCustomEntries();
-      notifyListeners();
-    }
-  }
-
-  Future<void> deleteCustomEntry(String id) async {
-    customEntries.removeWhere((entry) => entry.id == id);
-    await _saveCustomEntries();
+  Future<void> updateEntry(Entry e) async {
+    final index = entries.indexWhere((entry) => entry.id == e.id);
+    if (index == -1) return;
+    entries[index] = e;
+    await _saveEntries();
     notifyListeners();
   }
 
-  Future<void> resetCustomEntry(String id, int days) async {
-    final index = customEntries.indexWhere((e) => e.id == id);
-    if (index != -1) {
-      final entry = customEntries[index];
-      entry.daysAchieved.add(days);
-      entry.quitDate = DateTime.now(); // Reset quit date to today
-      await _saveCustomEntries();
-      notifyListeners();
-    }
+  Future<void> deleteEntry(String id) async {
+    entries.removeWhere((e) => e.id == id);
+    await _saveEntries();
+    notifyListeners();
   }
 
-  Future<void> _savePredefinedDaysAchieved() async {
-    await _prefs?.setString(
-      'predefined_days_achieved',
-      json.encode(_predefinedDaysAchieved),
-    );
+  Future<void> resetEntry(String id, int days) async {
+    final index = entries.indexWhere((e) => e.id == id);
+    if (index == -1) return;
+    final e = entries[index];
+    e.daysAchieved.add(days);
+    e.quitDate = DateTime.now();
+    await _saveEntries();
+    notifyListeners();
   }
 
-  List<int> getPredefinedDaysAchieved(String key) {
-    return _predefinedDaysAchieved[key] ?? const [];
+  Future<void> _saveDays() async {
+    await _pref?.setString('days', json.encode(_days));
   }
 
-  Future<void> resetPredefinedAddiction(String key, int days) async {
-    _predefinedDaysAchieved.update(
-      key,
-      (value) => [...value, days],
-      ifAbsent: () => [days],
-    );
-    await _savePredefinedDaysAchieved();
+  List<int> getDays(String key) {
+    return _days[key] ?? const [];
+  }
+
+  Future<void> resetAddiction(String key, int days) async {
+    _days.update(key, (val) => [...val, days], ifAbsent: () => [days]);
+    await _saveDays();
     setAddiction(key, DateTime.now().toIso8601String());
   }
 
-  void clearPredefined() async {
-    await _prefs?.remove('predefined_days_achieved');
-    _predefinedDaysAchieved = {};
+  void clearDays() async {
+    await _pref?.remove('days');
+    _days = {};
     notifyListeners();
   }
 }

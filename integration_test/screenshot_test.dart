@@ -17,45 +17,45 @@ import 'package:quitter/settings_provider.dart';
 
 Future<void> appWrapper() async {
   WidgetsFlutterBinding.ensureInitialized();
-  final settingsProvider = SettingsProvider();
-  await settingsProvider.loadPreferences();
-  final addictionProvider = AddictionProvider();
-  await addictionProvider.loadAddictions();
+  final settings = SettingsProvider();
+  await settings.loadPreferences();
+  final addictions = AddictionProvider();
+  await addictions.loadAddictions();
 
   runApp(
     MultiProvider(
       providers: [
-        ChangeNotifierProvider(create: (context) => settingsProvider),
-        ChangeNotifierProvider(create: (context) => addictionProvider),
+        ChangeNotifierProvider(create: (context) => settings),
+        ChangeNotifierProvider(create: (context) => addictions),
       ],
       child: const app.QuitterApp(),
     ),
   );
 }
 
-void navigateTo({required BuildContext context, required Widget page}) {
+void navigate({required BuildContext context, required Widget page}) {
   Navigator.of(context).push(MaterialPageRoute(builder: (context) => page));
 }
 
-Future<void> generateScreenshot({
+Future<void> screenshot({
   required IntegrationTestWidgetsFlutterBinding binding,
   required WidgetTester tester,
-  required String screenshotName,
-  Future<void> Function(BuildContext context)? navigateToPage,
-  bool skipSettle = false,
+  required String name,
+  Future<void> Function(BuildContext context)? goToPage,
+  bool settle = false,
 }) async {
   await appWrapper();
   await tester.pumpAndSettle();
 
-  if (navigateToPage != null) {
+  if (goToPage != null) {
     final BuildContext context = tester.element(find.byType(app.HomePage));
-    await navigateToPage(context);
+    if (context.mounted) await goToPage(context);
   }
 
-  skipSettle ? await tester.pump() : await tester.pumpAndSettle();
+  settle ? await tester.pump() : await tester.pumpAndSettle();
   await binding.convertFlutterSurfaceToImage();
-  skipSettle ? await tester.pump() : await tester.pumpAndSettle();
-  await binding.takeScreenshot(screenshotName);
+  settle ? await tester.pump() : await tester.pumpAndSettle();
+  await binding.takeScreenshot(name);
 }
 
 void main() {
@@ -99,99 +99,91 @@ void main() {
   group("Generate Quitter App Screenshots", () {
     testWidgets(
       "HomePage",
-      (tester) async => await generateScreenshot(
+      (tester) async => await screenshot(
         binding: binding,
         tester: tester,
-        screenshotName: '1_home_page_en-US',
+        name: '1_home_page_en-US',
       ),
     );
 
     testWidgets(
       "AlcoholPage",
-      (tester) async => await generateScreenshot(
+      (tester) async => await screenshot(
         binding: binding,
         tester: tester,
-        screenshotName: '2_alcohol_page_en-US',
-        navigateToPage: (context) async => navigateTo(
-          context: context,
-          page: const AlcoholPage(initialStarted: true),
-        ),
+        name: '2_alcohol_page_en-US',
+        goToPage: (context) async =>
+            navigate(context: context, page: const AlcoholPage(started: true)),
       ),
     );
 
     testWidgets(
       "SmokingPage",
-      (tester) async => await generateScreenshot(
+      (tester) async => await screenshot(
         binding: binding,
         tester: tester,
-        screenshotName: '3_smoking_page_en-US',
-        navigateToPage: (context) async => navigateTo(
-          context: context,
-          page: const SmokingPage(initialStarted: true),
-        ),
+        name: '3_smoking_page_en-US',
+        goToPage: (context) async =>
+            navigate(context: context, page: const SmokingPage(started: true)),
       ),
     );
 
     testWidgets(
       "VapingPage",
-      (tester) async => await generateScreenshot(
+      (tester) async => await screenshot(
         binding: binding,
         tester: tester,
-        screenshotName: '4_vaping_page_en-US',
-        navigateToPage: (context) async => navigateTo(
-          context: context,
-          page: const VapingPage(initialStarted: true),
-        ),
+        name: '4_vaping_page_en-US',
+        goToPage: (context) async =>
+            navigate(context: context, page: const VapingPage(started: true)),
       ),
     );
 
     testWidgets(
       "OpioidPage",
-      (tester) async => await generateScreenshot(
+      (tester) async => await screenshot(
         binding: binding,
         tester: tester,
-        screenshotName: '5_opioid_page_en-US',
-        navigateToPage: (context) async => navigateTo(
-          context: context,
-          page: const OpioidPage(initialStarted: true),
-        ),
+        name: '5_opioid_page_en-US',
+        goToPage: (context) async =>
+            navigate(context: context, page: const OpioidPage(started: true)),
       ),
     );
 
     testWidgets(
       "MarijuanaPage",
-      (tester) async => await generateScreenshot(
+      (tester) async => await screenshot(
         binding: binding,
         tester: tester,
-        screenshotName: '6_marijuana_page_en-US',
-        navigateToPage: (context) async => navigateTo(
+        name: '6_marijuana_page_en-US',
+        goToPage: (context) async => navigate(
           context: context,
-          page: const MarijuanaPage(initialStarted: true),
+          page: const MarijuanaPage(started: true),
         ),
       ),
     );
 
     testWidgets(
       "NicotinePouchesPage",
-      (tester) async => await generateScreenshot(
+      (tester) async => await screenshot(
         binding: binding,
         tester: tester,
-        screenshotName: '7_nicotine_pouches_page_en-US',
-        navigateToPage: (context) async => navigateTo(
+        name: '7_nicotine_pouches_page_en-US',
+        goToPage: (context) async => navigate(
           context: context,
-          page: const NicotinePouchesPage(initialStarted: true),
+          page: const NicotinePouchesPage(started: true),
         ),
       ),
     );
 
     testWidgets(
       "SettingsPage",
-      (tester) async => await generateScreenshot(
+      (tester) async => await screenshot(
         binding: binding,
         tester: tester,
-        screenshotName: '8_settings_page_en-US',
-        navigateToPage: (context) async =>
-            navigateTo(context: context, page: const SettingsPage()),
+        name: '8_settings_page_en-US',
+        goToPage: (context) async =>
+            navigate(context: context, page: const SettingsPage()),
       ),
     );
   });

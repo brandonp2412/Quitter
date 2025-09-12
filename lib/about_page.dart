@@ -8,7 +8,7 @@ class AboutPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final pkgInfo = PackageInfo.fromPlatform();
+    final info = PackageInfo.fromPlatform();
     return Scaffold(
       appBar: AppBar(title: const Text("About")),
       body: ListView(
@@ -27,9 +27,8 @@ class AboutPage extends StatelessWidget {
             leading: const Icon(Icons.info_outline),
             title: const Text("Version"),
             subtitle: FutureBuilder(
-              future: pkgInfo,
-              builder: (context, snapshot) =>
-                  Text(snapshot.data?.version ?? "1.0.0"),
+              future: info,
+              builder: (context, snap) => Text(snap.data?.version ?? "1.0.0"),
             ),
             onTap: () => launchUrlString(
               'https://github.com/brandonp2412/Quitter/releases/latest',

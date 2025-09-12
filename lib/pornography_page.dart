@@ -3,9 +3,9 @@ import 'package:quitter/quit_milestone.dart';
 import 'package:quitter/quit_page_template.dart';
 
 class PornographyPage extends StatelessWidget {
-  final bool initialStarted;
+  final bool started;
 
-  const PornographyPage({super.key, required this.initialStarted});
+  const PornographyPage({super.key, required this.started});
 
   final List<QuitMilestone> milestones = const [
     QuitMilestone(
@@ -97,7 +97,7 @@ class PornographyPage extends StatelessWidget {
       headerSubtitleStartedBuilder: (currentDay) =>
           'Building authentic connections 🧠✨',
       headerSubtitleNotStarted: 'Ready to break free and rebuild? 💪',
-      initialStarted: initialStarted,
+      initialStarted: started,
     );
   }
 }

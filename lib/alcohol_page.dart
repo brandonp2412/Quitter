@@ -3,11 +3,11 @@ import 'package:quitter/quit_milestone.dart';
 import 'package:quitter/quit_page_template.dart';
 
 class AlcoholPage extends StatelessWidget {
-  final bool initialStarted;
+  final bool started;
 
-  const AlcoholPage({super.key, required this.initialStarted});
+  const AlcoholPage({super.key, required this.started});
 
-  final List<QuitMilestone> milestones = const [
+  final List<QuitMilestone> miles = const [
     QuitMilestone(
       day: 1,
       title: "Sleep Quality Begins to Improve",
@@ -94,12 +94,12 @@ class AlcoholPage extends StatelessWidget {
     return QuitPageTemplate(
       title: 'Sober & Sparkling',
       storageKey: 'alcohol',
-      milestones: milestones,
-      headerTextStartedBuilder: (currentDay) => 'Cheers to You!',
+      milestones: miles,
+      headerTextStartedBuilder: (day) => 'Cheers to You!',
       headerTextNotStarted: 'Sober Journey Ahead!',
-      headerSubtitleStartedBuilder: (currentDay) => 'Every day is a win 🥳',
+      headerSubtitleStartedBuilder: (day) => 'Every day is a win 🥳',
       headerSubtitleNotStarted: 'Ready for a brighter you? ✨',
-      initialStarted: initialStarted,
+      initialStarted: started,
     );
   }
 }

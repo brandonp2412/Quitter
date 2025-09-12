@@ -4,13 +4,13 @@ import 'package:flutter/material.dart';
 
 class ConfettiWidget extends StatefulWidget {
   final Widget child;
-  final bool isActive;
+  final bool active;
   final VoidCallback? onAnimationComplete;
 
   const ConfettiWidget({
     super.key,
     required this.child,
-    this.isActive = false,
+    this.active = false,
     this.onAnimationComplete,
   });
 
@@ -53,7 +53,7 @@ class _ConfettiWidgetState extends State<ConfettiWidget>
   @override
   void didUpdateWidget(ConfettiWidget oldWidget) {
     super.didUpdateWidget(oldWidget);
-    if (widget.isActive && !oldWidget.isActive) {
+    if (widget.active && !oldWidget.active) {
       _startConfetti();
     }
   }

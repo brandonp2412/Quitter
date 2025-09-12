@@ -7,7 +7,7 @@ class TimelineTile extends StatelessWidget {
   final bool isCompleted;
   final bool isNext;
   final bool isLast;
-  final List<int> daysAchieved; // New parameter
+  final List<int> daysAchieved;
 
   const TimelineTile({
     super.key,
@@ -15,7 +15,7 @@ class TimelineTile extends StatelessWidget {
     required this.isCompleted,
     required this.isNext,
     required this.isLast,
-    this.daysAchieved = const [], // Initialize with an empty list
+    this.daysAchieved = const [],
   });
 
   @override
@@ -142,7 +142,6 @@ class TimelineTile extends StatelessWidget {
                         ),
                       ),
                       const SizedBox(width: 8),
-                      // Display dots for days achieved
                       if (daysAchieved.isNotEmpty)
                         Row(
                           children: daysAchieved

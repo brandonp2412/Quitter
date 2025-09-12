@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart' show Consumer, ReadContext;
 import 'package:quitter/about_page.dart';
 import 'package:quitter/addiction_provider.dart';
-import 'package:quitter/color_scheme_helper.dart';
+import 'package:quitter/app_scheme.dart';
 import 'package:quitter/color_scheme_type.dart';
 import 'package:quitter/settings_provider.dart';
 import 'package:quitter/radio_group.dart';
@@ -189,9 +189,7 @@ class _SettingsPageState extends State<SettingsPage> {
       ListTile(
         leading: const Icon(Icons.palette),
         title: const Text('Color Scheme'),
-        subtitle: Text(
-          ColorSchemeHelper.getColorSchemeName(settings.colorSchemeType),
-        ),
+        subtitle: Text(AppScheme.getName(settings.colorSchemeType)),
         onTap: () => _showColorDialog(context, settings),
       ),
       const Divider(height: 1),
@@ -360,7 +358,7 @@ class _SettingsPageState extends State<SettingsPage> {
             onPressed: () {
               Navigator.of(context).pop();
               final addictions = context.read<AddictionProvider>();
-              addictions.clearPredefined();
+              addictions.clearDays();
             },
             child: const Text('Clear'),
           ),
@@ -488,7 +486,7 @@ class _SettingsPageState extends State<SettingsPage> {
       title: 'Color Scheme',
       currentValue: settings.colorSchemeType,
       options: ColorSchemeType.values,
-      getDisplayName: ColorSchemeHelper.getColorSchemeName,
+      getDisplayName: AppScheme.getName,
       onChanged: (value) => settings.colorSchemeType = value,
     );
   }
