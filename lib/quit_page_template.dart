@@ -20,6 +20,7 @@ class QuitPageTemplate extends StatefulWidget {
   final String headerSubtitleNotStarted;
   final String? infoBoxMessage;
   final bool initialStarted;
+  final List<int> customDaysAchieved;
 
   const QuitPageTemplate({
     super.key,
@@ -32,6 +33,7 @@ class QuitPageTemplate extends StatefulWidget {
     required this.headerSubtitleNotStarted,
     this.infoBoxMessage,
     required this.initialStarted,
+    this.customDaysAchieved = const [],
   });
 
   @override
@@ -369,9 +371,9 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
                       (index == 0 ||
                           currentDay >= widget.milestones[index - 1].day);
 
-                  final allDaysAchieved = addictions.getPredefinedDaysAchieved(
-                    widget.storageKey,
-                  );
+                  final allDaysAchieved = widget.customDaysAchieved.isNotEmpty
+                      ? widget.customDaysAchieved
+                      : addictions.getPredefinedDaysAchieved(widget.storageKey);
 
                   // Collect all milestone days that correspond to the achieved days
                   final List<int> milestoneDaysToMark = [];

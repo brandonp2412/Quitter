@@ -210,8 +210,8 @@ class _CustomEntryPageState extends State<CustomEntryPage> {
       ),
       floatingActionButton: FloatingActionButton.extended(
         onPressed: _saveEntry,
-        label: Text('Save'),
-        icon: Icon(Icons.save),
+        label: const Text('Save'),
+        icon: const Icon(Icons.save),
       ),
     );
   }

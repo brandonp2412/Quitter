@@ -21,6 +21,7 @@ import 'package:quitter/vaping_page.dart';
 import 'package:quitter/pornography_page.dart';
 import 'package:quitter/reminders.dart';
 import 'package:quitter/custom_entry_page.dart';
+import 'package:quitter/custom_quit_page.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -591,7 +592,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                       onTap: () async {
                         await Navigator.of(context).push(
                           MaterialPageRoute(
-                            builder: (context) => CustomEntryPage(entry: entry),
+                            builder: (context) => CustomQuitPage(entry: entry),
                           ),
                         );
                         if (mounted) _loadQuitDays();
