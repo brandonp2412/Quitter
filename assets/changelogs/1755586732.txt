@@ -1,4 +1,0 @@
-• Add notifications
-• Fiddle with scrolling on alcohol & vaping
-• Fix flutter setup for build-android
-• Fix wack code in settings page

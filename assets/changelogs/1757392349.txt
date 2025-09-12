@@ -1,6 +1,0 @@
-• Add backup/import feature
-• Add home screen widget
-• Add marijuana tracking
-• Add search bar to settings
-• Fix starting journey on desktop
-• Pick output file for backup
