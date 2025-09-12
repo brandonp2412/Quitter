@@ -19,6 +19,7 @@ class QuitPageTemplate extends StatefulWidget {
   final String Function(int currentDay) headerSubtitleStartedBuilder;
   final String headerSubtitleNotStarted;
   final String? infoBoxMessage;
+  final String? shareTitle;
   final bool initialStarted;
   final List<int> customDaysAchieved;
 
@@ -32,6 +33,7 @@ class QuitPageTemplate extends StatefulWidget {
     required this.headerSubtitleStartedBuilder,
     required this.headerSubtitleNotStarted,
     this.infoBoxMessage,
+    this.shareTitle,
     required this.initialStarted,
     this.customDaysAchieved = const [],
   });
@@ -176,10 +178,21 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
             IconButton(
               icon: const Icon(Icons.share),
               onPressed: () {
+                if (widget.shareTitle != null &&
+                    widget.shareTitle!.isNotEmpty) {
+                  SharePlus.instance.share(
+                    ShareParams(
+                      text:
+                          "I'm $currentDay day${currentDay > 1 ? 's' : ''} clean from ${widget.shareTitle}!",
+                    ),
+                  );
+                  return;
+                }
+
                 SharePlus.instance.share(
                   ShareParams(
                     text:
-                        "I'm $currentDay days clean from ${widget.storageKey.replaceAll('_', ' ')}!",
+                        "I'm $currentDay day${currentDay > 1 ? 's' : ''} clean from ${widget.storageKey.replaceAll('_', ' ')}!",
                   ),
                 );
               },

@@ -73,7 +73,8 @@ class CustomQuitPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return QuitPageTemplate(
       title: entry.title,
-      storageKey: entry.id, // Use entry ID as storage key
+      storageKey: entry.id,
+      shareTitle: entry.title,
       milestones: _generateMilestones(),
       headerTextStartedBuilder: (currentDay) => '$currentDay Days',
       headerTextNotStarted: 'Not Started',
