@@ -1,13 +1,20 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart'; // Added import
+import 'package:quitter/addiction_provider.dart'; // Added import
 import 'package:quitter/custom_quit_entry.dart';
 import 'package:quitter/quit_milestone.dart';
 import 'package:quitter/quit_page_template.dart';
 
-class CustomQuitPage extends StatelessWidget {
+class CustomQuitPage extends StatefulWidget {
   final CustomQuitEntry entry;
 
   const CustomQuitPage({super.key, required this.entry});
 
+  @override
+  State<CustomQuitPage> createState() => _CustomQuitPageState();
+}
+
+class _CustomQuitPageState extends State<CustomQuitPage> {
   List<QuitMilestone> _generateMilestones() {
     List<QuitMilestone> milestones = [];
     // Example: Generate milestones for 1, 7, 30, 90, 180, 365 days
@@ -71,17 +78,36 @@ class CustomQuitPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return QuitPageTemplate(
-      title: entry.title,
-      storageKey: entry.id,
-      shareTitle: entry.title,
-      milestones: _generateMilestones(),
-      headerTextStartedBuilder: (currentDay) => '$currentDay Days',
-      headerTextNotStarted: 'Not Started',
-      headerSubtitleStartedBuilder: (currentDay) => 'You are doing great!',
-      headerSubtitleNotStarted: 'Tap "Start" to begin your journey',
-      initialStarted: entry.quitDate.isBefore(DateTime.now()),
-      customDaysAchieved: entry.daysAchieved, // Pass custom days achieved
+    return Selector<AddictionProvider, CustomQuitEntry>(
+      selector: (context, addictions) => addictions.customEntries.firstWhere(
+        (e) => e.id == widget.entry.id,
+        orElse: () => widget.entry, // Fallback to initial entry if not found
+      ),
+      builder: (context, currentEntry, child) {
+        final addictions = context
+            .read<AddictionProvider>(); // Use read for actions
+
+        return QuitPageTemplate(
+          title: currentEntry.title,
+          storageKey: currentEntry.id,
+          shareTitle: currentEntry.title,
+          milestones: _generateMilestones(),
+          headerTextStartedBuilder: (currentDay) => '$currentDay Days',
+          headerTextNotStarted: 'Not Started',
+          headerSubtitleStartedBuilder: (currentDay) => 'You are doing great!',
+          headerSubtitleNotStarted: 'Tap "Start" to begin your journey',
+          initialStarted: currentEntry.quitDate.isBefore(DateTime.now()),
+          customDaysAchieved: currentEntry.daysAchieved,
+          quitDateOverride: currentEntry.quitDate.toIso8601String(),
+          onQuitDateChanged: (newDate) async {
+            final updatedEntry = currentEntry.copyWith(quitDate: newDate);
+            await addictions.updateCustomEntry(updatedEntry);
+          },
+          onResetPressed: (days) async {
+            await addictions.resetCustomEntry(currentEntry.id, days);
+          },
+        );
+      },
     );
   }
 }

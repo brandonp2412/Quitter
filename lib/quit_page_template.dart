@@ -22,6 +22,9 @@ class QuitPageTemplate extends StatefulWidget {
   final String? shareTitle;
   final bool initialStarted;
   final List<int> customDaysAchieved;
+  final String? quitDateOverride;
+  final Function(DateTime)? onQuitDateChanged; // New callback
+  final Function(int days)? onResetPressed; // New callback
 
   const QuitPageTemplate({
     super.key,
@@ -36,6 +39,9 @@ class QuitPageTemplate extends StatefulWidget {
     this.shareTitle,
     required this.initialStarted,
     this.customDaysAchieved = const [],
+    this.quitDateOverride,
+    this.onQuitDateChanged, // Initialize new callback
+    this.onResetPressed, // Initialize new callback
   });
 
   @override
@@ -43,31 +49,95 @@ class QuitPageTemplate extends StatefulWidget {
 }
 
 class _QuitPageTemplateState extends State<QuitPageTemplate> {
-  late bool started;
   bool showConfetti = false;
-  final controller = TextEditingController();
+  final TextEditingController controller = TextEditingController();
+  final FocusNode _textFieldFocusNode = FocusNode(); // Add FocusNode
   ScrollController _scrollController = ScrollController();
+  late int _currentDay; // Make currentDay a state variable
 
   @override
   void initState() {
     super.initState();
-    started = widget.initialStarted;
-    if (!started) return;
+    _initializeCurrentDay();
+    _updateControllerText();
+    _initScrollController();
+    _textFieldFocusNode.addListener(_onFocusChanged); // Listen to focus changes
+  }
+
+  @override
+  void dispose() {
+    _textFieldFocusNode.removeListener(_onFocusChanged);
+    _textFieldFocusNode.dispose();
+    controller.dispose();
+    _scrollController.dispose();
+    super.dispose();
+  }
+
+  void _onFocusChanged() {
+    if (!_textFieldFocusNode.hasFocus) {
+      // If focus is lost, update the provider with the current value in the text field
+      final parsed = int.tryParse(controller.text);
+      if (parsed != null && parsed != _currentDay) {
+        _updateQuitDateFromDay(parsed);
+      } else if (parsed == null && _currentDay != 1) {
+        // If text is cleared or invalid, reset to 1 day (today)
+        _updateQuitDateFromDay(1);
+      }
+      // After losing focus, ensure the controller text reflects the actual _currentDay
+      _updateControllerText();
+    }
+  }
+
+  @override
+  void didUpdateWidget(covariant QuitPageTemplate oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    // Only update if the underlying quitDateOverride from the widget changes,
+    // and not if the user is actively typing.
+    if (widget.quitDateOverride != oldWidget.quitDateOverride) {
+      // Only re-initialize _currentDay and update controller text if not focused,
+      // to avoid interrupting user input.
+      if (!_textFieldFocusNode.hasFocus) {
+        _initializeCurrentDay(); // Re-calculate _currentDay from widget.quitDateOverride
+        _updateControllerText();
+      }
+    }
+  }
+
+  void _initializeCurrentDay() {
     final addictions = context.read<AddictionProvider>();
+    final quitOn =
+        widget.quitDateOverride ?? addictions.getAddiction(widget.storageKey);
 
-    final quitOn = addictions.getAddiction(widget.storageKey);
-    if (quitOn == null) return;
-    final currentDay = daysCeil(quitOn);
+    if (quitOn == null || !widget.initialStarted) {
+      _currentDay = 1;
+    } else {
+      _currentDay = daysCeil(quitOn);
+    }
+  }
 
-    setState(() {
-      controller.text = currentDay.toString();
-    });
+  void _updateControllerText() {
+    // Only update controller text if it's not currently being edited by the user
+    // or if the value from the widget is different from the controller's text.
+    if (controller.text != _currentDay.toString()) {
+      controller.text = _currentDay.toString();
+    }
+  }
 
-    final index = widget.milestones.indexWhere((m) => currentDay < m.day);
-    final targetIndex = index == -1 ? widget.milestones.length - 1 : index;
-    _scrollController = ScrollController(
-      initialScrollOffset: targetIndex * 270 - 230,
-    );
+  void _initScrollController() {
+    final addictions = context.read<AddictionProvider>();
+    final quitOn =
+        widget.quitDateOverride ?? addictions.getAddiction(widget.storageKey);
+
+    if (quitOn != null && widget.initialStarted) {
+      final currentDayFromQuitOn = daysCeil(quitOn);
+      final index = widget.milestones.indexWhere(
+        (m) => currentDayFromQuitOn < m.day,
+      );
+      final targetIndex = index == -1 ? widget.milestones.length - 1 : index;
+      _scrollController = ScrollController(
+        initialScrollOffset: targetIndex * 270 - 230,
+      );
+    }
   }
 
   void _handleStartPressed() async {
@@ -84,15 +154,19 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
     }
 
     setState(() {
-      started = true;
       showConfetti = true;
+      _currentDay = 1; // Update local state
       controller.text = '1';
     });
 
-    addictions.setAddiction(
-      widget.storageKey,
-      DateTime.now().toIso8601String(),
-    );
+    if (widget.onQuitDateChanged != null) {
+      widget.onQuitDateChanged!(DateTime.now());
+    } else {
+      addictions.setAddiction(
+        widget.storageKey,
+        DateTime.now().toIso8601String(),
+      );
+    }
 
     Future.delayed(const Duration(milliseconds: 2500), () {
       if (mounted) {
@@ -103,18 +177,43 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
     });
   }
 
+  // Function to update the provider with the new day
+  void _updateQuitDateFromDay(int day) async {
+    final addictions = context.read<AddictionProvider>();
+    final quitOn = DateTime.now().subtract(Duration(days: day));
+
+    if (widget.onQuitDateChanged != null) {
+      widget.onQuitDateChanged!(quitOn);
+    } else {
+      addictions.setAddiction(widget.storageKey, quitOn.toIso8601String());
+    }
+
+    // Scroll to the relevant milestone
+    final index = widget.milestones.indexWhere((m) => day < m.day);
+    final targetIndex = index == -1 ? widget.milestones.length - 1 : index;
+
+    _scrollController.animateTo(
+      targetIndex * 150.0,
+      duration: const Duration(milliseconds: 500),
+      curve: Curves.easeInOut,
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final colorScheme = theme.colorScheme;
     final settings = context.watch<SettingsProvider>();
     final addictions = context.watch<AddictionProvider>();
-    final quit = addictions.getAddiction(widget.storageKey);
-    int currentDay = 1;
-    if (quit != null) currentDay = daysCeil(quit);
+    final quit =
+        widget.quitDateOverride ?? addictions.getAddiction(widget.storageKey);
+    // The displayCurrentDay should always reflect the local _currentDay state,
+    // which is updated by the TextField's onChanged and onSubmitted,
+    // or by external changes to quitDateOverride when not focused.
+    int displayCurrentDay = _currentDay;
 
     Widget? fab;
-    if (!started) {
+    if (quit == null) {
       fab = FloatingActionButton.extended(
         key: const ValueKey('start_fab'),
         onPressed: _handleStartPressed,
@@ -124,19 +223,17 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
     } else {
       fab = FloatingActionButton.extended(
         onPressed: () async {
-          if (quit != null) {
+          if (widget.onResetPressed != null) {
+            widget.onResetPressed!(displayCurrentDay);
+          } else {
             addictions.resetPredefinedAddiction(
               widget.storageKey,
-              DateTime.parse(quit),
-            );
-          } else {
-            addictions.setAddiction(
-              widget.storageKey,
-              DateTime.now().toIso8601String(),
+              displayCurrentDay,
             );
           }
 
           setState(() {
+            _currentDay = 1; // Update local state
             controller.text = '1';
           });
 
@@ -150,12 +247,11 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
             SnackBarAction(
               label: 'Undo',
               onPressed: () {
-                if (quit == null) return;
                 addictions.setAddiction(widget.storageKey, quit);
 
                 setState(() {
-                  started = true;
-                  controller.text = currentDay.toString();
+                  _currentDay = daysCeil(quit); // Update local state
+                  controller.text = _currentDay.toString();
                 });
               },
             ),
@@ -183,7 +279,7 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
                   SharePlus.instance.share(
                     ShareParams(
                       text:
-                          "I'm $currentDay day${currentDay > 1 ? 's' : ''} clean from ${widget.shareTitle}!",
+                          "I'm $displayCurrentDay day${displayCurrentDay > 1 ? 's' : ''} clean from ${widget.shareTitle}!",
                     ),
                   );
                   return;
@@ -192,7 +288,7 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
                 SharePlus.instance.share(
                   ShareParams(
                     text:
-                        "I'm $currentDay day${currentDay > 1 ? 's' : ''} clean from ${widget.storageKey.replaceAll('_', ' ')}!",
+                        "I'm $displayCurrentDay day${displayCurrentDay > 1 ? 's' : ''} clean from ${widget.storageKey.replaceAll('_', ' ')}!",
                   ),
                 );
               },
@@ -213,15 +309,15 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
               child: Column(
                 children: [
                   Text(
-                    started
-                        ? widget.headerTextStartedBuilder(currentDay)
+                    quit != null
+                        ? widget.headerTextStartedBuilder(displayCurrentDay)
                         : widget.headerTextNotStarted,
                     style: Theme.of(context).textTheme.headlineMedium,
                   ),
                   const SizedBox(height: 8),
                   Text(
-                    started
-                        ? widget.headerSubtitleStartedBuilder(currentDay)
+                    quit != null
+                        ? widget.headerSubtitleStartedBuilder(displayCurrentDay)
                         : widget.headerSubtitleNotStarted,
                     style: Theme.of(context).textTheme.titleMedium,
                   ),
@@ -230,6 +326,7 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
                     children: [
                       Expanded(
                         child: TextField(
+                          focusNode: _textFieldFocusNode, // Add focusNode
                           onTap: () => selectAll(controller),
                           controller: controller,
                           decoration: InputDecoration(
@@ -239,7 +336,7 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
                             suffixIcon: IconButton(
                               onPressed: () async {
                                 final current = DateTime.now().subtract(
-                                  Duration(days: currentDay),
+                                  Duration(days: _currentDay),
                                 );
                                 final date = await showDatePicker(
                                   context: context,
@@ -249,17 +346,23 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
                                 );
                                 if (date == null) return;
                                 setState(() {
-                                  currentDay = daysCeil(date.toIso8601String());
+                                  _currentDay = daysCeil(
+                                    date.toIso8601String(),
+                                  );
                                 });
-                                controller.text = currentDay.toString();
+                                controller.text = _currentDay.toString();
 
-                                addictions.setAddiction(
-                                  widget.storageKey,
-                                  date.toIso8601String(),
-                                );
+                                if (widget.onQuitDateChanged != null) {
+                                  widget.onQuitDateChanged!(date);
+                                } else {
+                                  addictions.setAddiction(
+                                    widget.storageKey,
+                                    date.toIso8601String(),
+                                  );
+                                }
                               },
                               icon: Icon(
-                                currentDay > 7
+                                _currentDay > 7
                                     ? Icons.calendar_month
                                     : Icons.calendar_today,
                                 color: theme.appBarTheme.iconTheme?.color,
@@ -283,56 +386,27 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
                             color: theme.appBarTheme.titleTextStyle?.color,
                           ),
                           keyboardType: TextInputType.number,
-                          onChanged: (value) async {
+                          onChanged: (value) {
                             final parsed = int.tryParse(value);
-                            if (parsed != null)
-                              setState(() {
-                                currentDay = parsed;
-                                started = true;
-                              });
-                            else
-                              return setState(() {
-                                currentDay = 1;
-                                started = false;
+                            setState(() {
+                              _currentDay = parsed ?? 1;
+                            });
+                          },
+                          onSubmitted: (value) async {
+                            final parsed = int.tryParse(value);
+                            if (parsed != null) {
+                              _updateQuitDateFromDay(parsed);
+                            } else {
+                              // If text is cleared or invalid, reset to today
+                              if (widget.onQuitDateChanged != null) {
+                                widget.onQuitDateChanged!(DateTime.now());
+                              } else {
                                 addictions.setAddiction(
                                   widget.storageKey,
                                   null,
                                 );
-                              });
-
-                            if (!context.mounted) return;
-                            final settingsProvider = context
-                                .read<SettingsProvider>();
-                            if (settingsProvider.notifyEvery > 0 &&
-                                defaultTargetPlatform ==
-                                    TargetPlatform.android) {
-                              final permission = await Permission.notification
-                                  .request();
-                              if (permission.isDenied && context.mounted) {
-                                settingsProvider.notifyEvery = 0;
                               }
                             }
-
-                            final quitOn = DateTime.now().subtract(
-                              Duration(days: currentDay),
-                            );
-                            addictions.setAddiction(
-                              widget.storageKey,
-                              quitOn.toIso8601String(),
-                            );
-
-                            final index = widget.milestones.indexWhere(
-                              (m) => currentDay < m.day,
-                            );
-                            final targetIndex = index == -1
-                                ? widget.milestones.length - 1
-                                : index;
-
-                            _scrollController.animateTo(
-                              targetIndex * 150.0,
-                              duration: const Duration(milliseconds: 500),
-                              curve: Curves.easeInOut,
-                            );
                           },
                         ),
                       ),
@@ -378,11 +452,15 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
                 itemCount: widget.milestones.length,
                 itemBuilder: (context, index) {
                   final milestone = widget.milestones[index];
-                  final isCompleted = currentDay >= milestone.day;
+                  final isCompleted =
+                      _currentDay >= milestone.day; // Use _currentDay
                   final isNext =
                       !isCompleted &&
                       (index == 0 ||
-                          currentDay >= widget.milestones[index - 1].day);
+                          _currentDay >=
+                              widget
+                                  .milestones[index - 1]
+                                  .day); // Use _currentDay
 
                   final allDaysAchieved = widget.customDaysAchieved.isNotEmpty
                       ? widget.customDaysAchieved

@@ -151,14 +151,11 @@ class AddictionProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-  Future<void> resetCustomEntry(String id) async {
+  Future<void> resetCustomEntry(String id, int days) async {
     final index = customEntries.indexWhere((e) => e.id == id);
     if (index != -1) {
       final entry = customEntries[index];
-      final days = DateTime.now().difference(entry.quitDate).inDays;
-      if (days > 0) {
-        entry.daysAchieved.add(days);
-      }
+      entry.daysAchieved.add(days);
       entry.quitDate = DateTime.now(); // Reset quit date to today
       await _saveCustomEntries();
       notifyListeners();
@@ -176,16 +173,13 @@ class AddictionProvider extends ChangeNotifier {
     return _predefinedDaysAchieved[key] ?? const [];
   }
 
-  Future<void> resetPredefinedAddiction(String key, DateTime quitDate) async {
-    final days = DateTime.now().difference(quitDate).inDays;
-    if (days > 0) {
-      _predefinedDaysAchieved.update(
-        key,
-        (value) => [...value, days],
-        ifAbsent: () => [days],
-      );
-      await _savePredefinedDaysAchieved();
-    }
+  Future<void> resetPredefinedAddiction(String key, int days) async {
+    _predefinedDaysAchieved.update(
+      key,
+      (value) => [...value, days],
+      ifAbsent: () => [days],
+    );
+    await _savePredefinedDaysAchieved();
     setAddiction(key, DateTime.now().toIso8601String());
   }
 

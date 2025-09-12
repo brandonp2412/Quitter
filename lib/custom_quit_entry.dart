@@ -15,6 +15,22 @@ class CustomQuitEntry {
     this.daysAchieved = const [], // Initialize with an empty list
   });
 
+  CustomQuitEntry copyWith({
+    String? id,
+    String? title,
+    DateTime? quitDate,
+    Color? color,
+    List<int>? daysAchieved,
+  }) {
+    return CustomQuitEntry(
+      id: id ?? this.id,
+      title: title ?? this.title,
+      quitDate: quitDate ?? this.quitDate,
+      color: color ?? this.color,
+      daysAchieved: daysAchieved ?? this.daysAchieved,
+    );
+  }
+
   Map<String, dynamic> toJson() => {
     'id': id,
     'title': title,
