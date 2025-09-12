@@ -1,0 +1,1 @@
+• Fix bug with start button always making days = 1
