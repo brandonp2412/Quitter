@@ -1,5 +1,4 @@
 import 'dart:async';
-import 'dart:io';
 import 'dart:math';
 
 import 'package:flutter/foundation.dart';
@@ -16,22 +15,25 @@ Future<void> setupReminders() async {
 
   final settingsProvider = SettingsProvider();
   await settingsProvider.loadPreferences();
-  final notifyEveryDays = settingsProvider.notifyEvery;
+  final notifyDays = settingsProvider.notifyEvery;
 
-  if (notifyEveryDays == 0) return cancelReminders();
-  if (Platform.isAndroid || Platform.isIOS) {
+  if (notifyDays == 0) return cancelReminders();
+
+  if (defaultTargetPlatform == TargetPlatform.android ||
+      defaultTargetPlatform == TargetPlatform.iOS) {
     Workmanager().initialize(doMobileReminders);
     Workmanager().registerPeriodicTask(
       "reminders",
       "reminders",
-      frequency: Duration(days: notifyEveryDays),
+      frequency: Duration(days: notifyDays),
     );
-  } else {
-    timer = Timer.periodic(
-      Duration(days: notifyEveryDays),
-      (timer) => doDesktopReminders(),
-    );
+    return;
   }
+
+  timer = Timer.periodic(
+    Duration(days: notifyDays),
+    (timer) => doDesktopReminders(),
+  );
 }
 
 Future<void> notifyProgress(FlutterLocalNotificationsPlugin plugin) async {
@@ -66,17 +68,15 @@ Future<void> notifyProgress(FlutterLocalNotificationsPlugin plugin) async {
       )
       .toList();
 
-  if (activeJourneys.isEmpty) {
-    return;
-  }
+  if (activeJourneys.isEmpty) return;
 
   final selectedJourney = activeJourneys[random.nextInt(activeJourneys.length)];
   final quitDateString = prefs.getString(selectedJourney['key']!);
-  final days = daysCeil(quitDateString!);
+  final daysCount = daysCeil(quitDateString!);
 
   final randomMessage = messages[random.nextInt(messages.length)];
   final notificationTitle =
-      "No ${selectedJourney['name']!.toLowerCase()} for $days days";
+      "No ${selectedJourney['name']!.toLowerCase()} for $daysCount days";
   final notificationBody = randomMessage;
 
   final notificationDetails = NotificationDetails(
@@ -89,6 +89,9 @@ Future<void> notifyProgress(FlutterLocalNotificationsPlugin plugin) async {
       icon: 'neurology',
     ),
     iOS: DarwinNotificationDetails(),
+    linux: LinuxNotificationDetails(),
+    macOS: DarwinNotificationDetails(),
+    windows: WindowsNotificationDetails(),
   );
 
   await plugin.show(
@@ -100,13 +103,22 @@ Future<void> notifyProgress(FlutterLocalNotificationsPlugin plugin) async {
 }
 
 Future<void> doDesktopReminders() async {
-  const linux = LinuxInitializationSettings(
+  const linuxSettings = LinuxInitializationSettings(
     defaultActionName: 'Open notification',
   );
-  const darwin = DarwinInitializationSettings();
-  const init = InitializationSettings(linux: linux, macOS: darwin);
+  const darwinSettings = DarwinInitializationSettings();
+  const windowsSettings = WindowsInitializationSettings(
+    appName: 'Quitter',
+    appUserModelId: 'com.quitter.app',
+    guid: '{00000000-0000-0000-0000-000000000000}',
+  );
+  const initSettings = InitializationSettings(
+    linux: linuxSettings,
+    macOS: darwinSettings,
+    windows: windowsSettings,
+  );
   final plugin = FlutterLocalNotificationsPlugin();
-  await plugin.initialize(init);
+  await plugin.initialize(initSettings);
 
   await notifyProgress(plugin);
 }
@@ -114,45 +126,48 @@ Future<void> doDesktopReminders() async {
 void cancelReminders() {
   if (kIsWeb) return;
 
-  if (Platform.isAndroid || Platform.isIOS) {
+  if (defaultTargetPlatform == TargetPlatform.android ||
+      defaultTargetPlatform == TargetPlatform.iOS) {
     Workmanager().cancelByUniqueName('reminders');
-  } else {
-    timer?.cancel();
+    return;
   }
+
+  timer?.cancel();
 }
 
-/// This is used by WorkManager so you can't reference any external variables.
 @pragma('vm:entry-point')
 void doMobileReminders() {
   Workmanager().executeTask((task, inputData) async {
     try {
-      const AndroidNotificationChannel channel = AndroidNotificationChannel(
+      const androidChannel = AndroidNotificationChannel(
         'reminders_channel_id',
         'Reminders',
         description: 'Notifications for daily progress reminders',
         importance: Importance.high,
       );
 
-      final FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin =
-          FlutterLocalNotificationsPlugin();
+      final plugin = FlutterLocalNotificationsPlugin();
 
-      await flutterLocalNotificationsPlugin
+      await plugin
           .resolvePlatformSpecificImplementation<
             AndroidFlutterLocalNotificationsPlugin
           >()
-          ?.createNotificationChannel(channel);
+          ?.createNotificationChannel(androidChannel);
 
-      const darwin = DarwinInitializationSettings();
-      const android = AndroidInitializationSettings('neurology');
-      const init = InitializationSettings(iOS: darwin, android: android);
-      await flutterLocalNotificationsPlugin.initialize(init);
+      const darwinSettings = DarwinInitializationSettings();
+      const androidSettings = AndroidInitializationSettings('neurology');
+      const initSettings = InitializationSettings(
+        iOS: darwinSettings,
+        android: androidSettings,
+      );
+      await plugin.initialize(initSettings);
 
-      await notifyProgress(flutterLocalNotificationsPlugin);
+      await notifyProgress(plugin);
 
       print('[Workmanager] Task "reminders" completed successfully.');
       return Future.value(true);
-    } catch (e, stacktrace) {
-      print('[Workmanager] Error executing task "reminders": $e');
+    } catch (error, stacktrace) {
+      print('[Workmanager] Error executing task "reminders": $error');
       print('[Workmanager] Stacktrace: $stacktrace');
       return Future.value(false);
     }
