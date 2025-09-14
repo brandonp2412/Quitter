@@ -8,6 +8,7 @@ import 'package:quitter/settings_provider.dart';
 import 'package:quitter/radio_group.dart';
 import 'dart:io';
 import 'package:file_picker/file_picker.dart';
+import 'package:quitter/utils.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:quitter/whats_new.dart';
 import 'dart:typed_data';
@@ -116,14 +117,10 @@ class _SettingsPageState extends State<SettingsPage> {
       );
 
       if (!context.mounted) return;
-      ScaffoldMessenger.of(
-        context,
-      ).showSnackBar(SnackBar(content: Text('Data exported to $outputFile')));
+      toast(context, 'Data exported to $outputFile');
     } catch (e) {
       if (!mounted) return;
-      ScaffoldMessenger.of(
-        context,
-      ).showSnackBar(SnackBar(content: Text('Error exporting data: $e')));
+      toast(context, 'Error exporting data: $e');
     }
   }
 
@@ -161,14 +158,10 @@ class _SettingsPageState extends State<SettingsPage> {
       }
 
       if (!context.mounted) return;
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Data imported successfully!')),
-      );
+      toast(context, 'Data imported successfully!');
     } catch (e) {
       if (!mounted) return;
-      ScaffoldMessenger.of(
-        context,
-      ).showSnackBar(SnackBar(content: Text('Error importing data: $e')));
+      toast(context, 'Error importing data: $e');
     }
   }
 
