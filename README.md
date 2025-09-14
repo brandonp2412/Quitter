@@ -21,6 +21,8 @@ Record your quitting journey with a Free and Open Source app.
 	<img src="./docs/download-msstore.svg" style="height: 80px !important" alt="Download from the Microsoft Store badge"/>
 </a>
 
+[Quitter Web](https://brandonp2412.github.io/Quitter/)
+
 [F-droid submission](https://gitlab.com/fdroid/fdroiddata/-/merge_requests/26379)
 
 # Screenshots
