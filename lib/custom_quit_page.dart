@@ -17,99 +17,111 @@ class CustomQuitPage extends StatefulWidget {
 class _CustomQuitPageState extends State<CustomQuitPage> {
   List<QuitMilestone> _generateMilestones() {
     List<QuitMilestone> miles = [];
+
     miles.add(
       const QuitMilestone(
         day: 1,
-        title: "Sleep Quality Begins to Improve",
+        title: "Initial Recovery Phase Begins",
         description:
-            "Your brain is already starting to heal! Within 24 hours of quitting, sleep patterns begin normalizing as your nervous system starts to recalibrate without the constant disruption of addictive substances.",
-        reference:
-            "Journal of Clinical Medicine - Sleep and Addiction Recovery",
-        link: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6262292/",
+            "Your body starts the healing process! Within 24 hours of quitting, your system begins to clear toxins and adjust to functioning without addictive substances. Sleep disturbances are common but part of the recovery process.",
+        reference: "SAMHSA - Treating Sleep Problems of People in Recovery",
+        link: "https://store.samhsa.gov/sites/default/files/sma14-4859.pdf",
       ),
     );
+
     miles.add(
       const QuitMilestone(
         day: 3,
         title: "Withdrawal Symptoms Peak",
         description:
-            "You're facing the storm head-on! Physical withdrawal symptoms typically peak around day 3, but this means you're getting through the hardest part. Your brain is working to restore natural neurotransmitter balance.",
-        reference: "Nature Reviews Neuroscience - Neurobiology of Addiction",
-        link: "https://www.nature.com/articles/nrn1539",
+            "You're facing the storm head-on! Physical withdrawal symptoms typically peak around day 3 for many substances, including anxiety, mood swings, and physical discomfort. This means you're getting through the hardest part.",
+        reference: "IKON Recovery - Nicotine Withdrawal Timeline Research",
+        link:
+            "https://www.ikonrecoverycenters.org/nicotine-withdrawal-timeline-what-to-expect/",
       ),
     );
+
     miles.add(
       const QuitMilestone(
         day: 7,
-        title: "Mood and Anxiety Stabilize",
+        title: "Acute Withdrawal Phase Ending",
         description:
-            "Your emotional world is finding its balance again! After one week, mood swings decrease and anxiety levels begin to normalize as your brain chemistry starts recovering from addiction-induced changes.",
-        reference:
-            "Psychological Medicine - Mood Changes in Addiction Recovery",
-        link: "https://www.cambridge.org/core/journals/psychological-medicine",
+            "The worst is behind you! After one week, acute withdrawal symptoms begin to subside for most substances. Your body is adjusting to its new normal and starting to stabilize.",
+        reference: "American Addiction Centers - Drug Withdrawal Timelines",
+        link:
+            "https://americanaddictioncenters.org/withdrawal-timelines-treatments",
       ),
     );
+
     miles.add(
       const QuitMilestone(
         day: 14,
-        title: "Cognitive Function Improves",
+        title: "Early Recovery Stabilization",
         description:
-            "Your mental clarity is sharpening! Studies show significant improvements in attention, memory, and decision-making abilities within two weeks of stopping addictive behaviors.",
-        reference: "Neuropsychopharmacology - Cognitive Recovery in Addiction",
-        link: "https://www.nature.com/articles/npp201767",
+            "Your mind is clearing! Two weeks of sobriety often brings improved mental clarity and reduced cravings as your brain begins to adapt to functioning without addictive substances.",
+        reference: "Hazelden Betty Ford - Post-Acute Withdrawal Research",
+        link:
+            "https://www.hazeldenbettyford.org/articles/post-acute-withdrawal-syndrome",
       ),
     );
+
     miles.add(
       const QuitMilestone(
         day: 30,
-        title: "Stress Response Normalizes",
+        title: "One Month Milestone",
         description:
-            "Your body's stress system is healing! After 30 days, cortisol levels begin returning to normal ranges, and your natural stress-coping mechanisms start functioning properly again.",
-        reference: "Psychoneuroendocrinology - Stress and Addiction Recovery",
-        link: "https://www.sciencedirect.com/journal/psychoneuroendocrinology",
+            "A major victory! Thirty days of sobriety represents significant progress. Many people find that sleep patterns, mood, and energy levels continue to improve during this period.",
+        reference: "Cleveland Clinic - Alcohol Withdrawal Recovery",
+        link:
+            "https://my.clevelandclinic.org/health/diseases/alcohol-withdrawal",
       ),
     );
+
     miles.add(
       const QuitMilestone(
         day: 90,
-        title: "Dopamine System Rebalances",
+        title: "Three Month Recovery Milestone",
         description:
-            "Your brain's reward system is coming back online! Three months of recovery allows significant restoration of dopamine function, making natural pleasures enjoyable again without artificial stimulation.",
-        reference: "Journal of Neuroscience - Dopamine Recovery in Abstinence",
-        link: "https://www.jneurosci.org/content/21/23/9414",
+            "Your commitment is paying off! Three months of recovery represents a significant achievement. Post-acute withdrawal symptoms typically begin to fade, and many people report feeling more like themselves again.",
+        reference: "The Recovery Village - Long-term Recovery Timeline",
+        link:
+            "https://www.therecoveryvillage.com/alcohol-abuse/how-long-alcohol-detox-take/",
       ),
     );
+
     miles.add(
       const QuitMilestone(
         day: 180,
-        title: "Immune Function Strengthens",
+        title: "Six Month Recovery Achievement",
         description:
-            "Your immune system is getting its power back! Six months of recovery leads to measurable improvements in immune function, better infection resistance, and reduced inflammatory markers.",
-        reference: "Addiction Biology - Immune System and Addiction Recovery",
-        link: "https://onlinelibrary.wiley.com/journal/13691600",
+            "You're building lasting change! Six months of sobriety often brings continued improvements in physical health, emotional stability, and overall quality of life as your body continues healing.",
+        reference: "NCBI - Clinical Guidelines for Withdrawal Management",
+        link: "https://www.ncbi.nlm.nih.gov/books/NBK310652/",
       ),
     );
+
     miles.add(
       const QuitMilestone(
         day: 365,
-        title: "Cardiovascular Health Improves",
+        title: "One Year of Recovery",
         description:
-            "Your heart is celebrating one year of freedom! Long-term recovery significantly reduces cardiovascular disease risk, lowers blood pressure, and improves overall heart health markers.",
-        reference:
-            "Circulation - Cardiovascular Benefits of Addiction Recovery",
-        link: "https://www.ahajournals.org/journal/circ",
+            "An incredible achievement! One year of sobriety represents a major life milestone. Many people experience significant improvements in physical health, relationships, and overall well-being by this point.",
+        reference: "NCBI - Withdrawal Syndromes and Long-term Recovery",
+        link: "https://www.ncbi.nlm.nih.gov/books/NBK459239/",
       ),
     );
+
     miles.add(
       const QuitMilestone(
         day: 730,
-        title: "Brain Structure Recovery",
+        title: "Two Years of Sustained Recovery",
         description:
-            "Your brain is rebuilding itself! Two years of recovery shows measurable restoration of brain gray matter volume and improved connectivity in areas damaged by addiction.",
-        reference: "Biological Psychiatry - Neuroplasticity in Recovery",
-        link: "https://www.biologicalpsychiatryjournal.com/",
+            "You've built a new life! Two years of recovery demonstrates remarkable resilience and commitment. Long-term sobriety often brings profound positive changes in all areas of life and significantly reduced risk of relapse.",
+        reference: "Arrow Passage Recovery - Long-term Recovery Outcomes",
+        link: "https://www.arrowpassage.com/withdrawal-timelines/",
       ),
     );
+
     return miles;
   }
 
