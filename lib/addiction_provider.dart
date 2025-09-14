@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:quitter/utils.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -62,7 +63,8 @@ class AddictionProvider extends ChangeNotifier {
       _pref?.setString(key, value);
     }
     loadAddictions();
-    widgetChannel.invokeMethod('updateWidget');
+    if (defaultTargetPlatform == TargetPlatform.android)
+      widgetChannel.invokeMethod('updateWidget');
   }
 
   String? get quitAlcohol => _alcohol;
