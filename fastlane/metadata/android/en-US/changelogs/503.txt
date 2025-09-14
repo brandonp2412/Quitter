@@ -1,0 +1,6 @@
+• Add missing plugin configurations for reminders
+• Add more thorough milestones for custom quitting pages
+• Fix error on non-android platforms
+• Fix number of days calculation
+• Fix # of days calculation
+• Use consistent snackbars for data operations on settings page
