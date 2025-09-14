@@ -9,10 +9,12 @@ Record your quitting journey with a Free and Open Source app.
 
 ## Features
 
-*   **Multiple journeys:** Monitor progress for different habits simultaneously.
-*   **Milestone tracking:** Record and celebrate key achievements in your quitting journey.
-*   **Notifications:** Be encouraged with progress notifications.
-*   **Completely custom:** Toggle features on/off, change colors & themes with settings.
+*   🕵️ **No tracking** We don't save any of your user data. Everything is stored locally.
+*   🌍 **No internet** Our app doesn't request internet access, at all.
+*   🚀 **Multiple journeys** Monitor progress for different habits simultaneously.
+*   🎯 **Milestone tracking** Record and celebrate key achievements in your quitting journey.
+*   🔔 **Notifications** Be encouraged with progress notifications.
+*   ⚙️ **Completely custom** Toggle features on/off, change colors & themes with settings.
 
 <a href='https://play.google.com/store/apps/details?id=com.quitter.app'><img alt='Get it on Google Play badge' height="80" src='./docs/get-it-on-google-play.png'/></a>
 <a href="https://apps.microsoft.com/detail/9PKVZWDG3FGC?referrer=appbadge&mode=direct">
