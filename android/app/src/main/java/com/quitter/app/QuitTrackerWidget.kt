@@ -35,7 +35,7 @@ class QuitTrackerWidget : AppWidgetProvider() {
     }
 
     companion object {
-        private fun daysCeil(isoDateString: String?): Long {
+        private fun daysCeil(isoDateString: String?): Int {
             if (isoDateString == null) return 0
 
             val quitDateTime = if (isoDateString.contains('T')) {
@@ -48,7 +48,7 @@ class QuitTrackerWidget : AppWidgetProvider() {
             val totalSeconds = ChronoUnit.SECONDS.between(quitDateTime, now)
             val exactDays = totalSeconds / (24.0 * 60.0 * 60.0)
 
-            return ceil(exactDays).toLong()
+            return ceil(exactDays).toInt()
         }
 
         fun updateAppWidget(
@@ -158,8 +158,9 @@ class QuitTrackerWidget : AppWidgetProvider() {
             }
 
             android.util.Log.d("QuitTrackerWidget", "Found quit date for $selectedAddiction: $quitDate")
-            val days = daysCeil(quitDate)
-            val widgetText = "$days ${if (days == 1L) "day" else "days"}"
+            var days = daysCeil(quitDate)
+            if (days == 0) days = 1
+            val widgetText = "$days ${if (days == 1) "day" else "days"}"
             views.setTextViewText(R.id.widget_days, widgetText)
 
             val mainIntent = Intent(context, MainActivity::class.java)
