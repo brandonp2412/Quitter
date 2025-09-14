@@ -10,13 +10,11 @@ void selectAll(TextEditingController ctrl) {
 }
 
 int daysCeil(String dateStr) {
-  final quitDate = DateTime.parse(dateStr);
+  final quitDateTime = DateTime.parse(dateStr);
   final now = DateTime.now();
-
-  final quitDateOnly = DateTime(quitDate.year, quitDate.month, quitDate.day);
-  final nowDateOnly = DateTime(now.year, now.month, now.day);
-  final result = nowDateOnly.difference(quitDateOnly).inHours / 24;
-  return result.ceil();
+  final totalSeconds = now.difference(quitDateTime).inSeconds;
+  final exactDays = totalSeconds / (24.0 * 60.0 * 60.0);
+  return exactDays.ceil();
 }
 
 void toast(BuildContext context, String message, [SnackBarAction? action]) {
