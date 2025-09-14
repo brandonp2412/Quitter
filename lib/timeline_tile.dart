@@ -21,6 +21,9 @@ class TimelineTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final colorScheme = Theme.of(context).colorScheme;
+    final achievements = daysAchieved
+        .where((days) => days == milestone.day)
+        .toList();
 
     return IntrinsicHeight(
       child: Row(
@@ -142,7 +145,8 @@ class TimelineTile extends StatelessWidget {
                         ),
                       ),
                       const SizedBox(width: 8),
-                      if (daysAchieved.isNotEmpty)
+                      if (achievements.isNotEmpty &&
+                          achievements.length <= 5) ...[
                         Row(
                           children: daysAchieved
                               .where((days) => days == milestone.day)
@@ -151,15 +155,31 @@ class TimelineTile extends StatelessWidget {
                                   padding: const EdgeInsets.symmetric(
                                     horizontal: 2.0,
                                   ),
-                                  child: Icon(
-                                    Icons.circle,
-                                    size: 8,
-                                    color: colorScheme.tertiary,
-                                  ),
+                                  child: Icon(Icons.history, size: 16),
                                 ),
                               )
                               .toList(),
                         ),
+                      ] else if (achievements.length > 5) ...[
+                        Row(
+                          mainAxisSize: MainAxisSize.min,
+                          children: [
+                            Icon(
+                              Icons.history,
+                              size: 16,
+                              color: colorScheme.tertiary,
+                            ),
+                            const SizedBox(width: 2),
+                            Text(
+                              '${achievements.length}',
+                              style: TextStyle(
+                                fontSize: 11,
+                                fontWeight: FontWeight.w600,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ],
                     ],
                   ),
                   const SizedBox(height: 8),
