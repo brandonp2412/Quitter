@@ -203,41 +203,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  deploy-windows-store:
-    needs: [get-version-info, build-windows]
-    runs-on: windows-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Setup Flutter from submodule
-        run: |
-          git submodule update --init --recursive flutter
-          echo "${{ github.workspace }}\flutter\bin" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
-          flutter\bin\flutter config --no-analytics
-
-      - name: Get Flutter dependencies
-        run: flutter pub get
-
-      - name: Build MSIX
-        run: flutter pub run msix:create
-
-      - name: Setup .NET 9.0
-        uses: actions/setup-dotnet@v4
-        with:
-          dotnet-version: "9.0.x"
-
-      - name: Setup Microsoft Store CLI
-        uses: microsoft/setup-msstore-cli@v1
-
-      - name: Configure Microsoft Store CLI
-        run: |
-          msstore reconfigure --tenantId ${{ secrets.AZURE_TENANT_ID }} --clientId ${{ secrets.AZURE_CLIENT_ID }} --clientSecret ${{ secrets.AZURE_CLIENT_SECRET }} --sellerId ${{ secrets.MSSTORE_SELLER_ID }}
-
-      - name: Publish to Microsoft Store
-        run: |
-          msstore publish --inputDirectory build/windows/x64/runner/Release --appId 9PKVZWDG3FGC
-
   deploy-google-play:
     needs: [get-version-info, build-android]
     runs-on: ubuntu-latest
