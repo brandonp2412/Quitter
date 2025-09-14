@@ -15,10 +15,8 @@ int daysCeil(String dateStr) {
 
   final quitDateOnly = DateTime(quitDate.year, quitDate.month, quitDate.day);
   final nowDateOnly = DateTime(now.year, now.month, now.day);
-  final result = nowDateOnly.difference(quitDateOnly).inDays;
-
-  if (result == 0) return 1;
-  return result;
+  final result = nowDateOnly.difference(quitDateOnly).inHours / 24;
+  return result.ceil();
 }
 
 void toast(BuildContext context, String message, [SnackBarAction? action]) {
