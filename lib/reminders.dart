@@ -110,7 +110,7 @@ Future<void> doDesktopReminders() async {
   const windowsSettings = WindowsInitializationSettings(
     appName: 'Quitter',
     appUserModelId: 'com.quitter.app',
-    guid: '{00000000-0000-0000-0000-000000000000}',
+    guid: '32562a7f-d398-4ae3-9ff9-35496b6f60ed',
   );
   const initSettings = InitializationSettings(
     linux: linuxSettings,
@@ -137,6 +137,14 @@ void cancelReminders() {
 
 @pragma('vm:entry-point')
 void doMobileReminders() {
+  if (defaultTargetPlatform != TargetPlatform.android &&
+      defaultTargetPlatform != TargetPlatform.iOS) {
+    print(
+      '[Workmanager] doMobileReminders called on unsupported platform: $defaultTargetPlatform',
+    );
+    return;
+  }
+
   Workmanager().executeTask((task, inputData) async {
     try {
       const androidChannel = AndroidNotificationChannel(
