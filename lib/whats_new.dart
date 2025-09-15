@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:intl/intl.dart';
-import 'package:url_launcher/url_launcher_string.dart';
+import 'package:quitter/enjoying_page.dart';
 
 class WhatsNew extends StatefulWidget {
   const WhatsNew({super.key});
@@ -97,11 +97,10 @@ class _WhatsNewState extends State<WhatsNew> {
       ),
       floatingActionButton: FloatingActionButton.extended(
         icon: const Icon(Icons.favorite_outline),
-        onPressed: () async {
-          const url = 'https://github.com/sponsors/brandonp2412';
-          if (await canLaunchUrlString(url)) await launchUrlString(url);
-        },
-        label: const Text("Donate"),
+        onPressed: () => Navigator.of(
+          context,
+        ).push(MaterialPageRoute(builder: (context) => const EnjoyingPage())),
+        label: const Text("Enjoying the app?"),
       ),
     );
   }
