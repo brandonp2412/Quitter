@@ -13,9 +13,7 @@ class EnjoyingPage extends StatelessWidget {
     } else {
       const url =
           'https://play.google.com/store/apps/details?id=com.quitter.app&showAllReviews=true';
-      if (await canLaunchUrlString(url)) {
-        await launchUrlString(url);
-      }
+      await launchUrlString(url);
     }
   }
 
@@ -37,7 +35,7 @@ class EnjoyingPage extends StatelessWidget {
             leading: const Icon(Icons.star_outline),
             onTap: () async {
               const url = 'https://github.com/brandonp2412/Quitter';
-              if (await canLaunchUrlString(url)) await launchUrlString(url);
+              await launchUrlString(url);
             },
           ),
           ListTile(
@@ -46,7 +44,7 @@ class EnjoyingPage extends StatelessWidget {
             leading: const Icon(Icons.favorite_outline),
             onTap: () async {
               const url = 'https://github.com/sponsors/brandonp2412';
-              if (await canLaunchUrlString(url)) await launchUrlString(url);
+              await launchUrlString(url);
             },
           ),
         ],

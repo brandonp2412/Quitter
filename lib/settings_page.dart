@@ -4,6 +4,7 @@ import 'package:quitter/about_page.dart';
 import 'package:quitter/addiction_provider.dart';
 import 'package:quitter/app_scheme.dart';
 import 'package:quitter/color_scheme_type.dart';
+import 'package:quitter/enjoying_page.dart';
 import 'package:quitter/settings_provider.dart';
 import 'package:quitter/radio_group.dart';
 import 'dart:io';
@@ -379,6 +380,14 @@ class _SettingsPageState extends State<SettingsPage> {
         onTap: () => Navigator.of(
           context,
         ).push(MaterialPageRoute(builder: (context) => const WhatsNew())),
+      ),
+      const Divider(height: 1),
+      ListTile(
+        title: const Text("Enjoying the app?"),
+        leading: const Icon(Icons.favorite_outline),
+        onTap: () => Navigator.of(
+          context,
+        ).push(MaterialPageRoute(builder: (context) => const EnjoyingPage())),
       ),
       const Divider(height: 1),
       ListTile(
