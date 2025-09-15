@@ -1,5 +1,6 @@
 package com.quitter.app
 
+import android.app.AlarmManager
 import android.app.PendingIntent
 import android.appwidget.AppWidgetManager
 import android.appwidget.AppWidgetProvider
@@ -9,7 +10,7 @@ import android.widget.RemoteViews
 import java.time.LocalDate
 import java.time.LocalDateTime
 import java.time.temporal.ChronoUnit
-import kotlin.math.ceil
+import java.util.Calendar
 
 /**
  * Implementation of App Widget functionality.
@@ -20,35 +21,70 @@ class QuitTrackerWidget : AppWidgetProvider() {
         appWidgetManager: AppWidgetManager,
         appWidgetIds: IntArray
     ) {
-        // There may be multiple widgets active, so update all of them
         for (appWidgetId in appWidgetIds) {
             updateAppWidget(context, appWidgetManager, appWidgetId)
         }
     }
 
+    private fun scheduleDailyUpdate(context: Context) {
+        val alarmManager = context.getSystemService(Context.ALARM_SERVICE) as AlarmManager
+        val intent = Intent(context, QuitTrackerWidget::class.java).apply {
+            action = AppWidgetManager.ACTION_APPWIDGET_UPDATE
+        }
+        val pendingIntent = PendingIntent.getBroadcast(
+            context,
+            0,
+            intent,
+            PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
+        )
+
+        val calendar = Calendar.getInstance().apply {
+            add(Calendar.DAY_OF_YEAR, 1)
+            set(Calendar.HOUR_OF_DAY, 0)
+            set(Calendar.MINUTE, 0)
+            set(Calendar.SECOND, 0)
+            set(Calendar.MILLISECOND, 0)
+        }
+
+        alarmManager.setRepeating(
+            AlarmManager.RTC_WAKEUP,
+            calendar.timeInMillis,
+            AlarmManager.INTERVAL_DAY,
+            pendingIntent
+        )
+    }
+
     override fun onEnabled(context: Context?) {
-        // Enter relevant functionality for when the first widget is created
+        if (context != null) scheduleDailyUpdate(context)
+    }
+
+    private fun cancelDailyUpdate(context: Context) {
+        val alarmManager = context.getSystemService(Context.ALARM_SERVICE) as AlarmManager
+        val intent = Intent(context, QuitTrackerWidget::class.java)
+        val pendingIntent = PendingIntent.getBroadcast(
+            context,
+            0,
+            intent,
+            PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
+        )
+        alarmManager.cancel(pendingIntent)
     }
 
     override fun onDisabled(context: Context?) {
-        // Enter relevant functionality for when the last widget is disabled
+        if (context != null) cancelDailyUpdate(context)
     }
 
     companion object {
         private fun daysCeil(isoDateString: String?): Int {
             if (isoDateString == null) return 0
-
-            val quitDateTime = if (isoDateString.contains('T')) {
-                LocalDateTime.parse(isoDateString)
+            val quitDate = if (isoDateString.contains('T')) {
+                LocalDateTime.parse(isoDateString).toLocalDate()
             } else {
-                LocalDate.parse(isoDateString).atStartOfDay()
+                LocalDate.parse(isoDateString)
             }
-
-            val now = LocalDateTime.now()
-            val totalSeconds = ChronoUnit.SECONDS.between(quitDateTime, now)
-            val exactDays = totalSeconds / (24.0 * 60.0 * 60.0)
-
-            return ceil(exactDays).toInt()
+            val today = LocalDate.now()
+            val daysBetween = ChronoUnit.DAYS.between(quitDate, today)
+            return (daysBetween + 1).toInt()
         }
 
         fun updateAppWidget(

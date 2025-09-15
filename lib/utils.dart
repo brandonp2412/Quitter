@@ -11,10 +11,16 @@ void selectAll(TextEditingController ctrl) {
 
 int daysCeil(String dateStr) {
   final quitDateTime = DateTime.parse(dateStr);
-  final now = DateTime.now();
-  final totalSeconds = now.difference(quitDateTime).inSeconds;
-  final exactDays = totalSeconds / (24.0 * 60.0 * 60.0);
-  return exactDays.ceil();
+  final quitDate = DateTime(
+    quitDateTime.year,
+    quitDateTime.month,
+    quitDateTime.day,
+  );
+  final today = DateTime.now();
+  final currentDate = DateTime(today.year, today.month, today.day);
+
+  final daysBetween = currentDate.difference(quitDate).inDays;
+  return daysBetween + 1;
 }
 
 void toast(BuildContext context, String message, [SnackBarAction? action]) {
