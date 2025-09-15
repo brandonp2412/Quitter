@@ -88,11 +88,11 @@ class SmokingPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return QuitPageTemplate(
-      title: 'Smoke-Free & Soaring',
+      title: 'Smoke-free & soaring',
       storageKey: 'smoking',
       milestones: milestones,
-      headerTextStartedBuilder: (currentDay) => 'Breathe Easy!',
-      headerTextNotStarted: 'Smoke-Free Journey!',
+      headerTextStartedBuilder: (currentDay) => 'Breathe easy!',
+      headerTextNotStarted: 'Smoke-free journey!',
       headerSubtitleStartedBuilder: (currentDay) =>
           'Every puff-free day is a win 🚭',
       headerSubtitleNotStarted: 'Ready to reclaim your health? ✨',

@@ -94,11 +94,11 @@ class VapingPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return QuitPageTemplate(
-      title: 'Vape-Free Victory',
+      title: 'Vape-free victory',
       storageKey: 'vaping',
       milestones: milestones,
-      headerTextStartedBuilder: (currentDay) => 'Clear Skies Ahead!',
-      headerTextNotStarted: 'Vape-Free Living!',
+      headerTextStartedBuilder: (currentDay) => 'Clear skies ahead!',
+      headerTextNotStarted: 'Vape-free living!',
       headerSubtitleStartedBuilder: (currentDay) =>
           'Breathing easy, living free 🌬️',
       headerSubtitleNotStarted: 'Ready to ditch the vape? ✨',

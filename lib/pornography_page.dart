@@ -89,11 +89,11 @@ class PornographyPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return QuitPageTemplate(
-      title: 'Pure & Powerful',
+      title: 'Pure & powerful',
       storageKey: 'pornography',
       milestones: milestones,
-      headerTextStartedBuilder: (currentDay) => 'Reclaiming Your Mind!',
-      headerTextNotStarted: 'Freedom From Pornography!',
+      headerTextStartedBuilder: (currentDay) => 'Reclaiming your mind!',
+      headerTextNotStarted: 'Freedom from pornography!',
       headerSubtitleStartedBuilder: (currentDay) =>
           'Building authentic connections 🧠✨',
       headerSubtitleNotStarted: 'Ready to break free and rebuild? 💪',

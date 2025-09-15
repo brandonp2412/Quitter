@@ -95,11 +95,11 @@ class OpioidPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return QuitPageTemplate(
-      title: 'Path to Peace',
+      title: 'Path to peace',
       storageKey: 'opioids',
       milestones: milestones,
-      headerTextStartedBuilder: (currentDay) => 'Stronger Every Day!',
-      headerTextNotStarted: 'Road to Recovery!',
+      headerTextStartedBuilder: (currentDay) => 'Stronger every day!',
+      headerTextNotStarted: 'Road to recovery!',
       headerSubtitleStartedBuilder: (currentDay) => 'Embrace your strength 💪',
       headerSubtitleNotStarted: 'Ready to reclaim your life? 💖',
       infoBoxMessage:
