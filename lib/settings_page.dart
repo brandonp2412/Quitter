@@ -81,23 +81,25 @@ class _SettingsPageState extends State<SettingsPage> {
           ),
         ],
       ),
-      body: Consumer<SettingsProvider>(
-        builder: (context, settings, child) {
-          final List<Widget> allSettingsItems = _buildAllSettingsItems(
-            context,
-            settings,
-          );
-          final List<Widget> filteredItems = _searchQuery.isEmpty
-              ? allSettingsItems
-              : allSettingsItems
-                    .where((item) => _matchesSearch(item, _searchQuery))
-                    .toList();
+      body: SafeArea(
+        child: Consumer<SettingsProvider>(
+          builder: (context, settings, child) {
+            final List<Widget> allSettingsItems = _buildAllSettingsItems(
+              context,
+              settings,
+            );
+            final List<Widget> filteredItems = _searchQuery.isEmpty
+                ? allSettingsItems
+                : allSettingsItems
+                      .where((item) => _matchesSearch(item, _searchQuery))
+                      .toList();
 
-          return ListView(
-            padding: const EdgeInsets.all(16.0),
-            children: filteredItems,
-          );
-        },
+            return ListView(
+              padding: const EdgeInsets.all(16.0),
+              children: filteredItems,
+            );
+          },
+        ),
       ),
     );
   }

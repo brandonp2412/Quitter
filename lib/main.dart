@@ -338,292 +338,296 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
           ),
         ],
       ),
-      body: CustomScrollView(
-        slivers: [
-          SliverPadding(
-            padding: const EdgeInsets.all(16),
-            sliver: Consumer2<SettingsProvider, AddictionProvider>(
-              builder: (context, settings, addictions, child) {
-                final cards = <Widget>[];
+      body: SafeArea(
+        child: CustomScrollView(
+          slivers: [
+            SliverPadding(
+              padding: const EdgeInsets.all(16),
+              sliver: Consumer2<SettingsProvider, AddictionProvider>(
+                builder: (context, settings, addictions, child) {
+                  final cards = <Widget>[];
 
-                if (settings.showAlcohol) {
-                  cards.add(
-                    _buildQuitCard(
-                      title: 'Alcohol',
-                      icon: Icons.local_bar,
-                      gradientColors: [
-                        const Color(0xFF6366F1),
-                        const Color(0xFF8B5CF6),
-                      ],
-                      quitDate: addictions.quitAlcohol,
-                      onTap: () async {
-                        await Navigator.of(context).push(
-                          MaterialPageRoute(
-                            builder: (context) => AlcoholPage(
-                              started: addictions.quitAlcohol != null,
+                  if (settings.showAlcohol) {
+                    cards.add(
+                      _buildQuitCard(
+                        title: 'Alcohol',
+                        icon: Icons.local_bar,
+                        gradientColors: [
+                          const Color(0xFF6366F1),
+                          const Color(0xFF8B5CF6),
+                        ],
+                        quitDate: addictions.quitAlcohol,
+                        onTap: () async {
+                          await Navigator.of(context).push(
+                            MaterialPageRoute(
+                              builder: (context) => AlcoholPage(
+                                started: addictions.quitAlcohol != null,
+                              ),
                             ),
-                          ),
-                        );
-                        if (mounted) _loadQuitDays();
-                      },
-                      onLongPress: () {
-                        _showHideBottomSheet('Alcohol', () {
-                          settings.showAlcohol = false;
-                        });
-                      },
-                    ),
-                  );
-                }
+                          );
+                          if (mounted) _loadQuitDays();
+                        },
+                        onLongPress: () {
+                          _showHideBottomSheet('Alcohol', () {
+                            settings.showAlcohol = false;
+                          });
+                        },
+                      ),
+                    );
+                  }
 
-                if (settings.showVaping) {
-                  cards.add(
-                    _buildQuitCard(
-                      title: 'Vaping',
-                      icon: Icons.air,
-                      gradientColors: [
-                        const Color(0xFF06B6D4),
-                        const Color(0xFF0EA5E9),
-                      ],
-                      quitDate: addictions.quitVaping,
-                      onTap: () async {
-                        await Navigator.of(context).push(
-                          MaterialPageRoute(
-                            builder: (context) => VapingPage(
-                              started: addictions.quitVaping != null,
+                  if (settings.showVaping) {
+                    cards.add(
+                      _buildQuitCard(
+                        title: 'Vaping',
+                        icon: Icons.air,
+                        gradientColors: [
+                          const Color(0xFF06B6D4),
+                          const Color(0xFF0EA5E9),
+                        ],
+                        quitDate: addictions.quitVaping,
+                        onTap: () async {
+                          await Navigator.of(context).push(
+                            MaterialPageRoute(
+                              builder: (context) => VapingPage(
+                                started: addictions.quitVaping != null,
+                              ),
                             ),
-                          ),
-                        );
-                        if (mounted) _loadQuitDays();
-                      },
-                      onLongPress: () {
-                        _showHideBottomSheet('Vaping', () {
-                          settings.showVaping = false;
-                        });
-                      },
-                    ),
-                  );
-                }
+                          );
+                          if (mounted) _loadQuitDays();
+                        },
+                        onLongPress: () {
+                          _showHideBottomSheet('Vaping', () {
+                            settings.showVaping = false;
+                          });
+                        },
+                      ),
+                    );
+                  }
 
-                if (settings.showSmoking) {
-                  cards.add(
-                    _buildQuitCard(
-                      title: 'Smoking',
-                      icon: Icons.eco,
-                      gradientColors: [
-                        const Color(0xFF10B981),
-                        const Color(0xFF059669),
-                      ],
-                      quitDate: addictions.quitSmoking,
-                      onTap: () async {
-                        await Navigator.of(context).push(
-                          MaterialPageRoute(
-                            builder: (context) => SmokingPage(
-                              started: addictions.quitSmoking != null,
+                  if (settings.showSmoking) {
+                    cards.add(
+                      _buildQuitCard(
+                        title: 'Smoking',
+                        icon: Icons.eco,
+                        gradientColors: [
+                          const Color(0xFF10B981),
+                          const Color(0xFF059669),
+                        ],
+                        quitDate: addictions.quitSmoking,
+                        onTap: () async {
+                          await Navigator.of(context).push(
+                            MaterialPageRoute(
+                              builder: (context) => SmokingPage(
+                                started: addictions.quitSmoking != null,
+                              ),
                             ),
-                          ),
-                        );
-                        if (mounted) _loadQuitDays();
-                      },
-                      onLongPress: () {
-                        _showHideBottomSheet('Smoking', () {
-                          settings.showSmoking = false;
-                        });
-                      },
-                    ),
-                  );
-                }
+                          );
+                          if (mounted) _loadQuitDays();
+                        },
+                        onLongPress: () {
+                          _showHideBottomSheet('Smoking', () {
+                            settings.showSmoking = false;
+                          });
+                        },
+                      ),
+                    );
+                  }
 
-                if (settings.showMarijuana) {
-                  cards.add(
-                    _buildQuitCard(
-                      title: 'Marijuana',
-                      icon: Icons.grass,
-                      gradientColors: [
-                        const Color.fromARGB(255, 132, 230, 128),
-                        const Color.fromARGB(255, 30, 87, 3),
-                      ],
-                      quitDate: addictions.quitMarijuana,
-                      onTap: () async {
-                        await Navigator.of(context).push(
-                          MaterialPageRoute(
-                            builder: (context) => MarijuanaPage(
-                              started: addictions.quitMarijuana != null,
+                  if (settings.showMarijuana) {
+                    cards.add(
+                      _buildQuitCard(
+                        title: 'Marijuana',
+                        icon: Icons.grass,
+                        gradientColors: [
+                          const Color.fromARGB(255, 132, 230, 128),
+                          const Color.fromARGB(255, 30, 87, 3),
+                        ],
+                        quitDate: addictions.quitMarijuana,
+                        onTap: () async {
+                          await Navigator.of(context).push(
+                            MaterialPageRoute(
+                              builder: (context) => MarijuanaPage(
+                                started: addictions.quitMarijuana != null,
+                              ),
                             ),
-                          ),
-                        );
-                        if (mounted) _loadQuitDays();
-                      },
-                      onLongPress: () {
-                        _showHideBottomSheet('Marijuana', () {
-                          settings.showMarijuana = false;
-                        });
-                      },
-                    ),
-                  );
-                }
-                if (settings.showNicotinePouches) {
-                  cards.add(
-                    _buildQuitCard(
-                      title: 'Nicotine Pouches',
-                      icon: Icons.scatter_plot,
-                      gradientColors: [
-                        const Color(0xFFF59E0B),
-                        const Color(0xFFEF4444),
-                      ],
-                      quitDate: addictions.quitPouches,
-                      onTap: () async {
-                        await Navigator.of(context).push(
-                          MaterialPageRoute(
-                            builder: (context) => NicotinePouchesPage(
-                              started: addictions.quitPouches != null,
+                          );
+                          if (mounted) _loadQuitDays();
+                        },
+                        onLongPress: () {
+                          _showHideBottomSheet('Marijuana', () {
+                            settings.showMarijuana = false;
+                          });
+                        },
+                      ),
+                    );
+                  }
+                  if (settings.showNicotinePouches) {
+                    cards.add(
+                      _buildQuitCard(
+                        title: 'Nicotine Pouches',
+                        icon: Icons.scatter_plot,
+                        gradientColors: [
+                          const Color(0xFFF59E0B),
+                          const Color(0xFFEF4444),
+                        ],
+                        quitDate: addictions.quitPouches,
+                        onTap: () async {
+                          await Navigator.of(context).push(
+                            MaterialPageRoute(
+                              builder: (context) => NicotinePouchesPage(
+                                started: addictions.quitPouches != null,
+                              ),
                             ),
-                          ),
-                        );
-                        if (mounted) _loadQuitDays();
-                      },
-                      onLongPress: () {
-                        _showHideBottomSheet('Nicotine pouches', () {
-                          settings.showNicotinePouches = false;
-                        });
-                      },
-                    ),
-                  );
-                }
+                          );
+                          if (mounted) _loadQuitDays();
+                        },
+                        onLongPress: () {
+                          _showHideBottomSheet('Nicotine pouches', () {
+                            settings.showNicotinePouches = false;
+                          });
+                        },
+                      ),
+                    );
+                  }
 
-                if (settings.showOpioids) {
-                  cards.add(
-                    _buildQuitCard(
-                      title: 'Opioids',
-                      icon: Icons.medication,
-                      gradientColors: [
-                        const Color(0xFFEC4899),
-                        const Color(0xFFBE185D),
-                      ],
-                      quitDate: addictions.quitOpioids,
-                      onTap: () async {
-                        await Navigator.of(context).push(
-                          MaterialPageRoute(
-                            builder: (context) => OpioidPage(
-                              started: addictions.quitOpioids != null,
+                  if (settings.showOpioids) {
+                    cards.add(
+                      _buildQuitCard(
+                        title: 'Opioids',
+                        icon: Icons.medication,
+                        gradientColors: [
+                          const Color(0xFFEC4899),
+                          const Color(0xFFBE185D),
+                        ],
+                        quitDate: addictions.quitOpioids,
+                        onTap: () async {
+                          await Navigator.of(context).push(
+                            MaterialPageRoute(
+                              builder: (context) => OpioidPage(
+                                started: addictions.quitOpioids != null,
+                              ),
                             ),
-                          ),
-                        );
-                        if (mounted) _loadQuitDays();
-                      },
-                      onLongPress: () {
-                        _showHideBottomSheet('Opioids', () {
-                          settings.showOpioids = false;
-                        });
-                      },
-                    ),
-                  );
-                }
+                          );
+                          if (mounted) _loadQuitDays();
+                        },
+                        onLongPress: () {
+                          _showHideBottomSheet('Opioids', () {
+                            settings.showOpioids = false;
+                          });
+                        },
+                      ),
+                    );
+                  }
 
-                if (settings.showSocialMedia) {
-                  cards.add(
-                    _buildQuitCard(
-                      title: 'Social Media',
-                      icon: Icons.public,
-                      gradientColors: [
-                        const Color(0xFF8B5CF6),
-                        const Color(0xFF7C3AED),
-                      ],
-                      quitDate: addictions.quitSocialMedia,
-                      onTap: () async {
-                        await Navigator.of(context).push(
-                          MaterialPageRoute(
-                            builder: (context) => SocialMediaPage(
-                              started: addictions.quitSocialMedia != null,
+                  if (settings.showSocialMedia) {
+                    cards.add(
+                      _buildQuitCard(
+                        title: 'Social Media',
+                        icon: Icons.public,
+                        gradientColors: [
+                          const Color(0xFF8B5CF6),
+                          const Color(0xFF7C3AED),
+                        ],
+                        quitDate: addictions.quitSocialMedia,
+                        onTap: () async {
+                          await Navigator.of(context).push(
+                            MaterialPageRoute(
+                              builder: (context) => SocialMediaPage(
+                                started: addictions.quitSocialMedia != null,
+                              ),
                             ),
-                          ),
-                        );
-                        if (mounted) _loadQuitDays();
-                      },
-                      onLongPress: () {
-                        _showHideBottomSheet('Social Media', () {
-                          settings.showSocialMedia = false;
-                        });
-                      },
-                    ),
-                  );
-                }
+                          );
+                          if (mounted) _loadQuitDays();
+                        },
+                        onLongPress: () {
+                          _showHideBottomSheet('Social Media', () {
+                            settings.showSocialMedia = false;
+                          });
+                        },
+                      ),
+                    );
+                  }
 
-                if (settings.showPornography) {
-                  cards.add(
-                    _buildQuitCard(
-                      title: 'Pornography',
-                      icon: Icons.block,
-                      gradientColors: [
-                        const Color(0xFFF43F5E),
-                        const Color(0xFFE11D48),
-                      ],
-                      quitDate: addictions.quitPornography,
-                      onTap: () async {
-                        await Navigator.of(context).push(
-                          MaterialPageRoute(
-                            builder: (context) => PornographyPage(
-                              started: addictions.quitPornography != null,
+                  if (settings.showPornography) {
+                    cards.add(
+                      _buildQuitCard(
+                        title: 'Pornography',
+                        icon: Icons.block,
+                        gradientColors: [
+                          const Color(0xFFF43F5E),
+                          const Color(0xFFE11D48),
+                        ],
+                        quitDate: addictions.quitPornography,
+                        onTap: () async {
+                          await Navigator.of(context).push(
+                            MaterialPageRoute(
+                              builder: (context) => PornographyPage(
+                                started: addictions.quitPornography != null,
+                              ),
                             ),
-                          ),
-                        );
-                        if (mounted) _loadQuitDays();
-                      },
-                      onLongPress: () {
-                        _showHideBottomSheet('Pornography', () {
-                          settings.showPornography = false;
-                        });
-                      },
+                          );
+                          if (mounted) _loadQuitDays();
+                        },
+                        onLongPress: () {
+                          _showHideBottomSheet('Pornography', () {
+                            settings.showPornography = false;
+                          });
+                        },
+                      ),
+                    );
+                  }
+
+                  for (var entry in addictions.entries) {
+                    cards.add(
+                      _buildQuitCard(
+                        title: entry.title,
+                        icon: Icons.star,
+                        gradientColors: [
+                          entry.color,
+                          entry.color.withValues(alpha: 0.7),
+                        ],
+                        quitDate: entry.quitDate.toIso8601String(),
+                        onTap: () async {
+                          await Navigator.of(context).push(
+                            MaterialPageRoute(
+                              builder: (context) =>
+                                  CustomQuitPage(entry: entry),
+                            ),
+                          );
+                          if (mounted) _loadQuitDays();
+                        },
+                        onLongPress: () {
+                          Navigator.of(context).push(
+                            MaterialPageRoute(
+                              builder: (context) =>
+                                  CustomEntryPage(entry: entry),
+                            ),
+                          );
+                        },
+                      ),
+                    );
+                  }
+
+                  return SliverGrid(
+                    gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                      crossAxisCount: MediaQuery.of(context).size.width > 600
+                          ? 3
+                          : 2,
+                      mainAxisExtent: 200,
+                      crossAxisSpacing: 16,
+                      mainAxisSpacing: 16,
+                    ),
+                    delegate: SliverChildBuilderDelegate(
+                      (context, index) => cards[index],
+                      childCount: cards.length,
                     ),
                   );
-                }
-
-                for (var entry in addictions.entries) {
-                  cards.add(
-                    _buildQuitCard(
-                      title: entry.title,
-                      icon: Icons.star,
-                      gradientColors: [
-                        entry.color,
-                        entry.color.withValues(alpha: 0.7),
-                      ],
-                      quitDate: entry.quitDate.toIso8601String(),
-                      onTap: () async {
-                        await Navigator.of(context).push(
-                          MaterialPageRoute(
-                            builder: (context) => CustomQuitPage(entry: entry),
-                          ),
-                        );
-                        if (mounted) _loadQuitDays();
-                      },
-                      onLongPress: () {
-                        Navigator.of(context).push(
-                          MaterialPageRoute(
-                            builder: (context) => CustomEntryPage(entry: entry),
-                          ),
-                        );
-                      },
-                    ),
-                  );
-                }
-
-                return SliverGrid(
-                  gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                    crossAxisCount: MediaQuery.of(context).size.width > 600
-                        ? 3
-                        : 2,
-                    mainAxisExtent: 200,
-                    crossAxisSpacing: 16,
-                    mainAxisSpacing: 16,
-                  ),
-                  delegate: SliverChildBuilderDelegate(
-                    (context, index) => cards[index],
-                    childCount: cards.length,
-                  ),
-                );
-              },
+                },
+              ),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
       floatingActionButton: FloatingActionButton.extended(
         onPressed: () async {

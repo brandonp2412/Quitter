@@ -88,12 +88,14 @@ class _WhatsNewState extends State<WhatsNew> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text("What's new?")),
-      body: ListView.builder(
-        itemBuilder: (context, index) => ListTile(
-          title: Text(changelogs[index].created),
-          subtitle: Text(changelogs[index].content),
+      body: SafeArea(
+        child: ListView.builder(
+          itemBuilder: (context, index) => ListTile(
+            title: Text(changelogs[index].created),
+            subtitle: Text(changelogs[index].content),
+          ),
+          itemCount: changelogs.length,
         ),
-        itemCount: changelogs.length,
       ),
       floatingActionButton: FloatingActionButton.extended(
         icon: const Icon(Icons.favorite_outline),

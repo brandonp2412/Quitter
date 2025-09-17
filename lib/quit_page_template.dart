@@ -277,196 +277,203 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
             ),
           ],
         ),
-        body: Column(
-          children: [
-            Container(
-              width: double.infinity,
-              padding: const EdgeInsets.all(24.0),
-              decoration: BoxDecoration(
-                borderRadius: const BorderRadius.only(
-                  bottomLeft: Radius.circular(24),
-                  bottomRight: Radius.circular(24),
+        body: SafeArea(
+          child: Column(
+            children: [
+              Container(
+                width: double.infinity,
+                padding: const EdgeInsets.all(24.0),
+                decoration: BoxDecoration(
+                  borderRadius: const BorderRadius.only(
+                    bottomLeft: Radius.circular(24),
+                    bottomRight: Radius.circular(24),
+                  ),
                 ),
-              ),
-              child: Column(
-                children: [
-                  Text(
-                    quit != null
-                        ? widget.headerTextStartedBuilder(displayCurrentDay)
-                        : widget.headerTextNotStarted,
-                    style: Theme.of(context).textTheme.headlineMedium,
-                  ),
-                  const SizedBox(height: 8),
-                  Text(
-                    quit != null
-                        ? widget.headerSubtitleStartedBuilder(displayCurrentDay)
-                        : widget.headerSubtitleNotStarted,
-                    style: Theme.of(context).textTheme.titleMedium,
-                  ),
-                  const SizedBox(height: 16),
-                  Row(
-                    children: [
-                      Expanded(
-                        child: TextField(
-                          focusNode: _textNode,
-                          onTap: () => selectAll(controller),
-                          controller: controller,
-                          decoration: InputDecoration(
-                            hintText: '1',
-                            floatingLabelBehavior: FloatingLabelBehavior.always,
-                            labelText: 'Enter your current day',
-                            suffixIcon: IconButton(
-                              onPressed: () async {
-                                final current = DateTime.now().subtract(
-                                  Duration(days: _day),
-                                );
-                                final date = await showDatePicker(
-                                  context: context,
-                                  initialDate: current,
-                                  firstDate: DateTime(0),
-                                  lastDate: DateTime.now(),
-                                );
-                                if (date == null) return;
-                                setState(() {
-                                  _day = daysCeil(date.toIso8601String());
-                                });
-                                controller.text = _day.toString();
+                child: Column(
+                  children: [
+                    Text(
+                      quit != null
+                          ? widget.headerTextStartedBuilder(displayCurrentDay)
+                          : widget.headerTextNotStarted,
+                      style: Theme.of(context).textTheme.headlineMedium,
+                    ),
+                    const SizedBox(height: 8),
+                    Text(
+                      quit != null
+                          ? widget.headerSubtitleStartedBuilder(
+                              displayCurrentDay,
+                            )
+                          : widget.headerSubtitleNotStarted,
+                      style: Theme.of(context).textTheme.titleMedium,
+                    ),
+                    const SizedBox(height: 16),
+                    Row(
+                      children: [
+                        Expanded(
+                          child: TextField(
+                            focusNode: _textNode,
+                            onTap: () => selectAll(controller),
+                            controller: controller,
+                            decoration: InputDecoration(
+                              hintText: '1',
+                              floatingLabelBehavior:
+                                  FloatingLabelBehavior.always,
+                              labelText: 'Enter your current day',
+                              suffixIcon: IconButton(
+                                onPressed: () async {
+                                  final current = DateTime.now().subtract(
+                                    Duration(days: _day),
+                                  );
+                                  final date = await showDatePicker(
+                                    context: context,
+                                    initialDate: current,
+                                    firstDate: DateTime(0),
+                                    lastDate: DateTime.now(),
+                                  );
+                                  if (date == null) return;
+                                  setState(() {
+                                    _day = daysCeil(date.toIso8601String());
+                                  });
+                                  controller.text = _day.toString();
 
+                                  if (widget.onQuitDateChanged != null) {
+                                    widget.onQuitDateChanged!(date);
+                                  } else {
+                                    addictions.setAddiction(
+                                      widget.storageKey,
+                                      date.toIso8601String(),
+                                    );
+                                  }
+                                },
+                                icon: Icon(
+                                  _day > 7
+                                      ? Icons.calendar_month
+                                      : Icons.calendar_today,
+                                  color: theme.appBarTheme.iconTheme?.color,
+                                ),
+                              ),
+                              enabledBorder: OutlineInputBorder(
+                                borderRadius: BorderRadius.circular(12),
+                                borderSide: BorderSide(
+                                  color: colorScheme.onSurface,
+                                ),
+                              ),
+                              focusedBorder: OutlineInputBorder(
+                                borderRadius: BorderRadius.circular(12),
+                                borderSide: BorderSide(
+                                  color: colorScheme.onSurface,
+                                  width: 2,
+                                ),
+                              ),
+                            ),
+                            style: TextStyle(
+                              color: theme.appBarTheme.titleTextStyle?.color,
+                            ),
+                            keyboardType: TextInputType.number,
+                            onChanged: (value) {
+                              final parsed = int.tryParse(value);
+                              setState(() {
+                                _day = parsed ?? 1;
+                              });
+                            },
+                            onSubmitted: (value) async {
+                              final parsed = int.tryParse(value);
+                              if (parsed != null) {
+                                _updateQuitDateFromDay(parsed);
+                              } else {
                                 if (widget.onQuitDateChanged != null) {
-                                  widget.onQuitDateChanged!(date);
+                                  widget.onQuitDateChanged!(DateTime.now());
                                 } else {
                                   addictions.setAddiction(
                                     widget.storageKey,
-                                    date.toIso8601String(),
+                                    null,
                                   );
                                 }
-                              },
-                              icon: Icon(
-                                _day > 7
-                                    ? Icons.calendar_month
-                                    : Icons.calendar_today,
-                                color: theme.appBarTheme.iconTheme?.color,
-                              ),
-                            ),
-                            enabledBorder: OutlineInputBorder(
-                              borderRadius: BorderRadius.circular(12),
-                              borderSide: BorderSide(
-                                color: colorScheme.onSurface,
-                              ),
-                            ),
-                            focusedBorder: OutlineInputBorder(
-                              borderRadius: BorderRadius.circular(12),
-                              borderSide: BorderSide(
-                                color: colorScheme.onSurface,
-                                width: 2,
-                              ),
-                            ),
-                          ),
-                          style: TextStyle(
-                            color: theme.appBarTheme.titleTextStyle?.color,
-                          ),
-                          keyboardType: TextInputType.number,
-                          onChanged: (value) {
-                            final parsed = int.tryParse(value);
-                            setState(() {
-                              _day = parsed ?? 1;
-                            });
-                          },
-                          onSubmitted: (value) async {
-                            final parsed = int.tryParse(value);
-                            if (parsed != null) {
-                              _updateQuitDateFromDay(parsed);
-                            } else {
-                              if (widget.onQuitDateChanged != null) {
-                                widget.onQuitDateChanged!(DateTime.now());
-                              } else {
-                                addictions.setAddiction(
-                                  widget.storageKey,
-                                  null,
-                                );
                               }
-                            }
-                          },
+                            },
+                          ),
+                        ),
+                      ],
+                    ),
+                    if (widget.infoBoxMessage != null) ...[
+                      const SizedBox(height: 16),
+                      Container(
+                        padding: const EdgeInsets.all(12),
+                        decoration: BoxDecoration(
+                          color: theme.appBarTheme.titleTextStyle?.color
+                              ?.withAlpha((255 * 0.1).round()),
+                          borderRadius: BorderRadius.circular(8),
+                        ),
+                        child: Row(
+                          children: [
+                            Icon(
+                              Icons.health_and_safety,
+                              size: 16,
+                              color: theme.appBarTheme.titleTextStyle?.color,
+                            ),
+                            const SizedBox(width: 8),
+                            Expanded(
+                              child: Text(
+                                widget.infoBoxMessage!,
+                                style: TextStyle(
+                                  fontSize: 12,
+                                  color:
+                                      theme.appBarTheme.titleTextStyle?.color,
+                                ),
+                              ),
+                            ),
+                          ],
                         ),
                       ),
                     ],
-                  ),
-                  if (widget.infoBoxMessage != null) ...[
-                    const SizedBox(height: 16),
-                    Container(
-                      padding: const EdgeInsets.all(12),
-                      decoration: BoxDecoration(
-                        color: theme.appBarTheme.titleTextStyle?.color
-                            ?.withAlpha((255 * 0.1).round()),
-                        borderRadius: BorderRadius.circular(8),
-                      ),
-                      child: Row(
-                        children: [
-                          Icon(
-                            Icons.health_and_safety,
-                            size: 16,
-                            color: theme.appBarTheme.titleTextStyle?.color,
-                          ),
-                          const SizedBox(width: 8),
-                          Expanded(
-                            child: Text(
-                              widget.infoBoxMessage!,
-                              style: TextStyle(
-                                fontSize: 12,
-                                color: theme.appBarTheme.titleTextStyle?.color,
-                              ),
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
                   ],
-                ],
+                ),
               ),
-            ),
-            Expanded(
-              child: ListView.builder(
-                controller: _scroll,
-                padding: const EdgeInsets.all(16.0),
-                itemCount: widget.milestones.length,
-                itemBuilder: (context, index) {
-                  final milestone = widget.milestones[index];
-                  final isCompleted = _day >= milestone.day;
-                  final isNext =
-                      !isCompleted &&
-                      (index == 0 || _day >= widget.milestones[index - 1].day);
+              Expanded(
+                child: ListView.builder(
+                  controller: _scroll,
+                  padding: const EdgeInsets.all(16.0),
+                  itemCount: widget.milestones.length,
+                  itemBuilder: (context, index) {
+                    final milestone = widget.milestones[index];
+                    final isCompleted = _day >= milestone.day;
+                    final isNext =
+                        !isCompleted &&
+                        (index == 0 ||
+                            _day >= widget.milestones[index - 1].day);
 
-                  final allDaysAchieved = widget.customDaysAchieved.isNotEmpty
-                      ? widget.customDaysAchieved
-                      : addictions.getDays(widget.storageKey);
+                    final allDaysAchieved = widget.customDaysAchieved.isNotEmpty
+                        ? widget.customDaysAchieved
+                        : addictions.getDays(widget.storageKey);
 
-                  final List<int> milestoneDaysToMark = [];
-                  for (int achievedDay in allDaysAchieved) {
-                    int closestMilestoneDay = 0;
-                    for (QuitMilestone m in widget.milestones) {
-                      if (m.day <= achievedDay) {
-                        closestMilestoneDay = m.day;
-                      } else {
-                        break;
+                    final List<int> milestoneDaysToMark = [];
+                    for (int achievedDay in allDaysAchieved) {
+                      int closestMilestoneDay = 0;
+                      for (QuitMilestone m in widget.milestones) {
+                        if (m.day <= achievedDay) {
+                          closestMilestoneDay = m.day;
+                        } else {
+                          break;
+                        }
+                      }
+                      if (closestMilestoneDay > 0) {
+                        milestoneDaysToMark.add(closestMilestoneDay);
                       }
                     }
-                    if (closestMilestoneDay > 0) {
-                      milestoneDaysToMark.add(closestMilestoneDay);
-                    }
-                  }
 
-                  return TimelineTile(
-                    milestone: milestone,
-                    isCompleted: isCompleted,
-                    isNext: isNext,
-                    isLast: index == widget.milestones.length - 1,
-                    daysAchieved: milestoneDaysToMark,
-                  );
-                },
+                    return TimelineTile(
+                      milestone: milestone,
+                      isCompleted: isCompleted,
+                      isNext: isNext,
+                      isLast: index == widget.milestones.length - 1,
+                      daysAchieved: milestoneDaysToMark,
+                    );
+                  },
+                ),
               ),
-            ),
-            SizedBox(height: 36),
-          ],
+              SizedBox(height: 36),
+            ],
+          ),
         ),
         floatingActionButton: AnimatedSwitcher(
           duration: const Duration(milliseconds: 150),

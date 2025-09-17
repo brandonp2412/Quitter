@@ -21,33 +21,35 @@ class EnjoyingPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text("Enjoying the app?")),
-      body: ListView(
-        children: [
-          ListTile(
-            title: const Text("Leave a review"),
-            subtitle: const Text("Let me know what you think!"),
-            leading: const Icon(Icons.reviews_outlined),
-            onTap: _requestReview,
-          ),
-          ListTile(
-            title: const Text("Give us a star"),
-            subtitle: const Text("Show your support on GitHub"),
-            leading: const Icon(Icons.star_outline),
-            onTap: () async {
-              const url = 'https://github.com/brandonp2412/Quitter';
-              await launchUrlString(url);
-            },
-          ),
-          ListTile(
-            title: const Text("Donate"),
-            subtitle: const Text("Support development"),
-            leading: const Icon(Icons.favorite_outline),
-            onTap: () async {
-              const url = 'https://github.com/sponsors/brandonp2412';
-              await launchUrlString(url);
-            },
-          ),
-        ],
+      body: SafeArea(
+        child: ListView(
+          children: [
+            ListTile(
+              title: const Text("Leave a review"),
+              subtitle: const Text("Let me know what you think!"),
+              leading: const Icon(Icons.reviews_outlined),
+              onTap: _requestReview,
+            ),
+            ListTile(
+              title: const Text("Give us a star"),
+              subtitle: const Text("Show your support on GitHub"),
+              leading: const Icon(Icons.star_outline),
+              onTap: () async {
+                const url = 'https://github.com/brandonp2412/Quitter';
+                await launchUrlString(url);
+              },
+            ),
+            ListTile(
+              title: const Text("Donate"),
+              subtitle: const Text("Support development"),
+              leading: const Icon(Icons.favorite_outline),
+              onTap: () async {
+                const url = 'https://github.com/sponsors/brandonp2412';
+                await launchUrlString(url);
+              },
+            ),
+          ],
+        ),
       ),
     );
   }

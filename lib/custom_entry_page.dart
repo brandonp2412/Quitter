@@ -126,90 +126,92 @@ class _CustomEntryPageState extends State<CustomEntryPage> {
             IconButton(icon: const Icon(Icons.delete), onPressed: _deleteEntry),
         ],
       ),
-      body: Padding(
-        padding: const EdgeInsets.all(16.0),
-        child: Form(
-          key: _formKey,
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              TextFormField(
-                textCapitalization: TextCapitalization.sentences,
-                controller: _titleController,
-                decoration: const InputDecoration(
-                  labelText: 'Title',
-                  border: OutlineInputBorder(),
-                ),
-                validator: (value) {
-                  if (value == null || value.isEmpty) {
-                    return 'Please enter a title';
-                  }
-                  return null;
-                },
-              ),
-              const SizedBox(height: 20),
-              TextFormField(
-                readOnly: true,
-                controller: TextEditingController(
-                  text:
-                      '${DateFormat.yMMMd().format(_quitDate)} (${daysCeil(_quitDate.toIso8601String())} days)',
-                ),
-                decoration: InputDecoration(
-                  labelText: 'Quit Date',
-                  border: const OutlineInputBorder(),
-                  suffixIcon: IconButton(
-                    icon: const Icon(Icons.calendar_today),
-                    onPressed: _presentDatePicker,
+      body: SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: Form(
+            key: _formKey,
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                TextFormField(
+                  textCapitalization: TextCapitalization.sentences,
+                  controller: _titleController,
+                  decoration: const InputDecoration(
+                    labelText: 'Title',
+                    border: OutlineInputBorder(),
                   ),
+                  validator: (value) {
+                    if (value == null || value.isEmpty) {
+                      return 'Please enter a title';
+                    }
+                    return null;
+                  },
                 ),
-                onTap: _presentDatePicker,
-              ),
-              const SizedBox(height: 20),
-              Text(
-                'Select Color:',
-                style: Theme.of(context).textTheme.titleMedium,
-              ),
-              const SizedBox(height: 10),
-              Wrap(
-                spacing: 10,
-                runSpacing: 10,
-                children: Colors.primaries.map((color) {
-                  final bool isSelected =
-                      _selectedColor.toARGB32() == color.toARGB32();
-                  return GestureDetector(
-                    onTap: () {
-                      setState(() {
-                        _selectedColor = color;
-                      });
-                    },
-                    child: Container(
-                      width: 40,
-                      height: 40,
-                      decoration: BoxDecoration(
-                        color: color,
-                        shape: BoxShape.circle,
-                        boxShadow: isSelected
-                            ? [
-                                BoxShadow(
-                                  color: Colors.black26,
-                                  blurRadius: 8,
-                                  offset: const Offset(2, 2),
-                                ),
-                              ]
+                const SizedBox(height: 20),
+                TextFormField(
+                  readOnly: true,
+                  controller: TextEditingController(
+                    text:
+                        '${DateFormat.yMMMd().format(_quitDate)} (${daysCeil(_quitDate.toIso8601String())} days)',
+                  ),
+                  decoration: InputDecoration(
+                    labelText: 'Quit Date',
+                    border: const OutlineInputBorder(),
+                    suffixIcon: IconButton(
+                      icon: const Icon(Icons.calendar_today),
+                      onPressed: _presentDatePicker,
+                    ),
+                  ),
+                  onTap: _presentDatePicker,
+                ),
+                const SizedBox(height: 20),
+                Text(
+                  'Select Color:',
+                  style: Theme.of(context).textTheme.titleMedium,
+                ),
+                const SizedBox(height: 10),
+                Wrap(
+                  spacing: 10,
+                  runSpacing: 10,
+                  children: Colors.primaries.map((color) {
+                    final bool isSelected =
+                        _selectedColor.toARGB32() == color.toARGB32();
+                    return GestureDetector(
+                      onTap: () {
+                        setState(() {
+                          _selectedColor = color;
+                        });
+                      },
+                      child: Container(
+                        width: 40,
+                        height: 40,
+                        decoration: BoxDecoration(
+                          color: color,
+                          shape: BoxShape.circle,
+                          boxShadow: isSelected
+                              ? [
+                                  BoxShadow(
+                                    color: Colors.black26,
+                                    blurRadius: 8,
+                                    offset: const Offset(2, 2),
+                                  ),
+                                ]
+                              : null,
+                        ),
+                        child: isSelected
+                            ? Icon(
+                                Icons.check,
+                                color: _getContrastColor(color),
+                                size: 22,
+                              )
                             : null,
                       ),
-                      child: isSelected
-                          ? Icon(
-                              Icons.check,
-                              color: _getContrastColor(color),
-                              size: 22,
-                            )
-                          : null,
-                    ),
-                  );
-                }).toList(),
-              ),
-            ],
+                    );
+                  }).toList(),
+                ),
+              ],
+            ),
           ),
         ),
       ),
