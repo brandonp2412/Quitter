@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:permission_handler/permission_handler.dart';
 import 'package:provider/provider.dart' show Consumer, ReadContext;
 import 'package:quitter/about_page.dart';
 import 'package:quitter/addiction_provider.dart';
@@ -160,9 +161,27 @@ class _SettingsPageState extends State<SettingsPage> {
 
       if (!context.mounted) return;
       toast(context, 'Data imported successfully!');
-    } catch (e) {
+
+      final addictions = context.read<AddictionProvider>();
+      await addictions.loadAddictions();
+      if (!context.mounted) return;
+
+      final settings = context.read<SettingsProvider>();
+      if (settings.notifyEvery == 0) return;
+      if (addictions.quitAlcohol == null &&
+          addictions.quitMarijuana == null &&
+          addictions.quitPouches == null &&
+          addictions.quitOpioids == null &&
+          addictions.quitPornography == null &&
+          addictions.quitSmoking == null &&
+          addictions.quitSocialMedia == null &&
+          addictions.quitVaping == null)
+        return;
+
+      Permission.notification.request();
+    } catch (error) {
       if (!mounted) return;
-      toast(context, 'Error importing data: $e');
+      toast(context, 'Error importing data: $error');
     }
   }
 
