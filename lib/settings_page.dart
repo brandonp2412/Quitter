@@ -223,6 +223,13 @@ class _SettingsPageState extends State<SettingsPage> {
         onChanged: (value) => settings.showSmoking = value,
       ),
       _ToggleItem(
+        icon: Icons.grass,
+        title: 'Marijuana',
+        subtitle: 'Show marijuana tracking',
+        value: settings.showMarijuana,
+        onChanged: (value) => settings.showMarijuana = value,
+      ),
+      _ToggleItem(
         icon: Icons.scatter_plot,
         title: 'Nicotine pouches',
         subtitle: 'Show nicotine pouches tracking',
@@ -283,6 +290,13 @@ class _SettingsPageState extends State<SettingsPage> {
         subtitle: 'Notify smoking quitting progress',
         value: settings.notifySmoking,
         onChanged: (value) => settings.notifySmoking = value,
+      ),
+      _ToggleItem(
+        icon: Icons.grass,
+        title: 'Marijuana',
+        subtitle: 'Notify marijuana quitting progress',
+        value: settings.notifyMarijuana,
+        onChanged: (value) => settings.notifyMarijuana = value,
       ),
       _ToggleItem(
         icon: Icons.scatter_plot,

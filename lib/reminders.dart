@@ -44,7 +44,11 @@ Future<void> notifyProgress(FlutterLocalNotificationsPlugin plugin) async {
     {'key': 'alcohol', 'name': 'Alcohol'},
     {'key': 'vaping', 'name': 'Vaping'},
     {'key': 'smoking', 'name': 'Smoking'},
+    {'key': 'marijuana', 'name': 'Marijuana'},
     {'key': 'opioids', 'name': 'Opioids'},
+    {'key': 'nicotine_pouches', 'name': 'Nicotine pouches'},
+    {'key': 'social_media', 'name': 'Social media'},
+    {'key': 'pornography', 'name': 'Pornography'},
   ];
 
   final List<String> messages = [
