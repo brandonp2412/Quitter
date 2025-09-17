@@ -119,7 +119,7 @@ class _CustomEntryPageState extends State<CustomEntryPage> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          widget.entry == null ? 'Add Custom Entry' : 'Edit Custom Entry',
+          widget.entry == null ? 'Add custom entry' : 'Edit custom entry',
         ),
         actions: [
           if (widget.entry != null)

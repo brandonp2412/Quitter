@@ -45,7 +45,7 @@ class AppScheme {
   static String getName(ColorSchemeType type) {
     switch (type) {
       case ColorSchemeType.dynamic:
-        return 'Dynamic Colors';
+        return 'Dynamic colors';
       case ColorSchemeType.blue:
         return 'Blue';
       case ColorSchemeType.green:

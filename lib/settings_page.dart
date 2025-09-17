@@ -432,13 +432,13 @@ class _SettingsPageState extends State<SettingsPage> {
       ),
       const Divider(height: 1),
       ListTile(
-        title: const Text("Export Data"),
+        title: const Text("Export data"),
         leading: const Icon(Icons.upload_file),
         onTap: () => _exportData(context),
       ),
       const Divider(height: 1),
       ListTile(
-        title: const Text("Import Data"),
+        title: const Text("Import data"),
         leading: const Icon(Icons.file_download),
         onTap: () => _importData(context),
       ),
