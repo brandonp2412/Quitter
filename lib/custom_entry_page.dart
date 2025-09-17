@@ -199,13 +199,16 @@ class _CustomEntryPageState extends State<CustomEntryPage> {
                                 ]
                               : null,
                         ),
-                        child: isSelected
-                            ? Icon(
-                                Icons.check,
-                                color: _getContrastColor(color),
-                                size: 50,
-                              )
-                            : null,
+                        child: AnimatedScale(
+                          scale: isSelected ? 1 : 0,
+                          duration: const Duration(milliseconds: 300),
+                          curve: Curves.elasticOut,
+                          child: Icon(
+                            Icons.check,
+                            color: _getContrastColor(color),
+                            size: 50,
+                          ),
+                        ),
                       ),
                     );
                   }).toList(),
