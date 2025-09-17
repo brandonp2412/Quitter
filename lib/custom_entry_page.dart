@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 import 'package:intl/intl.dart';
 import 'package:quitter/addiction_provider.dart';
 import 'package:quitter/custom_quit_entry.dart';
+import 'package:quitter/utils.dart';
 import 'package:uuid/uuid.dart';
 
 class CustomEntryPage extends StatefulWidget {
@@ -150,7 +151,7 @@ class _CustomEntryPageState extends State<CustomEntryPage> {
                 readOnly: true,
                 controller: TextEditingController(
                   text:
-                      '${DateFormat.yMMMd().format(_quitDate)} (${DateTime.now().difference(_quitDate).inDays} days)',
+                      '${DateFormat.yMMMd().format(_quitDate)} (${daysCeil(_quitDate.toIso8601String())} days)',
                 ),
                 decoration: InputDecoration(
                   labelText: 'Quit Date',

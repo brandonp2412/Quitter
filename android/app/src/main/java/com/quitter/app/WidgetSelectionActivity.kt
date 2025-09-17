@@ -60,8 +60,8 @@ class WidgetSelectionActivity : Activity() {
     }
 
     private fun selectAddiction(addictionKey: String) {
-        val prefs = getSharedPreferences("FlutterSharedPreferences", MODE_PRIVATE)
-        prefs.edit { putString("flutter.selected_$appWidgetId", addictionKey) }
+        val prefs = getSharedPreferences("QuitTrackerWidget", MODE_PRIVATE)
+        prefs.edit().putString("selected_$appWidgetId", addictionKey).apply()
 
         val appWidgetManager = AppWidgetManager.getInstance(this)
         QuitTrackerWidget.updateAppWidget(this, appWidgetManager, appWidgetId)
