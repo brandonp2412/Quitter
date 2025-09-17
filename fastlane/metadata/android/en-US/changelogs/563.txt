@@ -1,0 +1,3 @@
+• Fix # of days being wrong by 1
+• Make color pickers way bigger
+• Sentence case a bunch of stuff
