@@ -66,7 +66,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
       toast(
         context,
         "New version ${info.version}",
-        SnackBarAction(
+        action: SnackBarAction(
           label: 'Changes',
           onPressed: () => Navigator.of(
             context,

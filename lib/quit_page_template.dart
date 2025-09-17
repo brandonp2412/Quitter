@@ -226,7 +226,7 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
           toast(
             context,
             message,
-            SnackBarAction(
+            action: SnackBarAction(
               label: 'Undo',
               onPressed: () {
                 addictions.setAddiction(widget.storageKey, quit);

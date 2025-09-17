@@ -23,7 +23,12 @@ int daysCeil(String dateStr) {
   return daysBetween + 1;
 }
 
-void toast(BuildContext context, String message, [SnackBarAction? action]) {
+void toast(
+  BuildContext context,
+  String message, {
+  SnackBarAction? action,
+  Duration? duration,
+}) {
   final def = SnackBarAction(label: 'OK', onPressed: () {});
 
   ScaffoldMessenger.of(context).showSnackBar(
@@ -32,6 +37,7 @@ void toast(BuildContext context, String message, [SnackBarAction? action]) {
       behavior: SnackBarBehavior.floating,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(24)),
       action: action ?? def,
+      duration: duration ?? const Duration(seconds: 4),
     ),
   );
 }

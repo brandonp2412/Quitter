@@ -110,19 +110,23 @@ class _SettingsPageState extends State<SettingsPage> {
           .map((key) => '$key=${prefs.get(key)}')
           .join('\n');
 
-      String? outputFile = await FilePicker.platform.saveFile(
+      final path = await FilePicker.platform.saveFile(
         dialogTitle: 'Save Data To',
-        fileName: 'quitter_data.txt',
+        fileName: 'quitter.txt',
         type: FileType.custom,
         allowedExtensions: ['txt'],
         bytes: Uint8List.fromList(data.codeUnits),
       );
 
-      if (!context.mounted) return;
-      toast(context, 'Data exported to $outputFile');
+      if (!context.mounted || path == null) return;
+      toast(context, 'Data exported!');
     } catch (e) {
       if (!mounted) return;
-      toast(context, 'Error exporting data: $e');
+      toast(
+        context,
+        'Error exporting data: $e',
+        duration: const Duration(seconds: 10),
+      );
     }
   }
 
@@ -181,7 +185,11 @@ class _SettingsPageState extends State<SettingsPage> {
       Permission.notification.request();
     } catch (error) {
       if (!mounted) return;
-      toast(context, 'Error importing data: $error');
+      toast(
+        context,
+        'Error importing data: $error',
+        duration: const Duration(seconds: 10),
+      );
     }
   }
 
