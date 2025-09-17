@@ -134,6 +134,7 @@ class _CustomEntryPageState extends State<CustomEntryPage> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               TextFormField(
+                textCapitalization: TextCapitalization.sentences,
                 controller: _titleController,
                 decoration: const InputDecoration(
                   labelText: 'Title',

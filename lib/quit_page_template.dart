@@ -311,7 +311,6 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
                           focusNode: _textNode,
                           onTap: () => selectAll(controller),
                           controller: controller,
-                          textCapitalization: TextCapitalization.sentences,
                           decoration: InputDecoration(
                             hintText: '1',
                             floatingLabelBehavior: FloatingLabelBehavior.always,
