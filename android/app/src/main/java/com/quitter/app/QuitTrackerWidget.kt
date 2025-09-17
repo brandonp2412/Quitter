@@ -84,7 +84,8 @@ class QuitTrackerWidget : AppWidgetProvider() {
             }
             val today = LocalDate.now()
             val daysBetween = ChronoUnit.DAYS.between(quitDate, today)
-            return (daysBetween + 1).toInt()
+            if (daysBetween < 1) return 1
+            return (daysBetween).toInt()
         }
 
         fun updateAppWidget(
