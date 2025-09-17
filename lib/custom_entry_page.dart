@@ -184,8 +184,8 @@ class _CustomEntryPageState extends State<CustomEntryPage> {
                         });
                       },
                       child: Container(
-                        width: 40,
-                        height: 40,
+                        width: 80,
+                        height: 80,
                         decoration: BoxDecoration(
                           color: color,
                           shape: BoxShape.circle,
@@ -203,7 +203,7 @@ class _CustomEntryPageState extends State<CustomEntryPage> {
                             ? Icon(
                                 Icons.check,
                                 color: _getContrastColor(color),
-                                size: 22,
+                                size: 50,
                               )
                             : null,
                       ),
