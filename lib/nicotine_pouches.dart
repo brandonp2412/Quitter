@@ -92,11 +92,11 @@ class NicotinePouchesPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return QuitPageTemplate(
-      title: 'Pouch-Free Power',
+      title: 'Pouch-free Power',
       storageKey: 'nicotine_pouches',
       milestones: milestones,
-      headerTextStartedBuilder: (currentDay) => 'Fresh & Free!',
-      headerTextNotStarted: 'Pouches-Free Progress!',
+      headerTextStartedBuilder: (currentDay) => 'Fresh & free!',
+      headerTextNotStarted: 'Pouch-free progress!',
       headerSubtitleStartedBuilder: (currentDay) =>
           'Embrace a brighter, healthier you ✨',
       headerSubtitleNotStarted: 'Ready to ditch the pouches? 🚀',

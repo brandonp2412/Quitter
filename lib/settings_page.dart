@@ -113,7 +113,7 @@ class _SettingsPageState extends State<SettingsPage> {
           .join('\n');
 
       final path = await FilePicker.platform.saveFile(
-        dialogTitle: 'Save Data To',
+        dialogTitle: 'Save data to',
         fileName: 'quitter.txt',
         type: FileType.custom,
         allowedExtensions: ['txt'],

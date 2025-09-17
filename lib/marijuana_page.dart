@@ -89,11 +89,11 @@ class MarijuanaPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return QuitPageTemplate(
-      title: 'Cannabis-Free Journey',
+      title: 'Cannabis-free journey',
       storageKey: 'marijuana',
       milestones: milestones,
-      headerTextStartedBuilder: (currentDay) => 'Clear Mind Rising!',
-      headerTextNotStarted: 'Cannabis-Free Living!',
+      headerTextStartedBuilder: (currentDay) => 'Clear mind rising!',
+      headerTextNotStarted: 'Cannabis-free living!',
       headerSubtitleStartedBuilder: (currentDay) =>
           'Building mental clarity, one day at a time 🧠',
       headerSubtitleNotStarted: 'Ready for a clearer tomorrow? 🌱',

@@ -156,7 +156,7 @@ class _CustomEntryPageState extends State<CustomEntryPage> {
                         '${DateFormat.yMMMd().format(_quitDate)} (${daysCeil(_quitDate.toIso8601String())} days)',
                   ),
                   decoration: InputDecoration(
-                    labelText: 'Quit Date',
+                    labelText: 'Quit date',
                     border: const OutlineInputBorder(),
                     suffixIcon: IconButton(
                       icon: const Icon(Icons.calendar_today),
@@ -167,7 +167,7 @@ class _CustomEntryPageState extends State<CustomEntryPage> {
                 ),
                 const SizedBox(height: 20),
                 Text(
-                  'Select Color:',
+                  'Select color:',
                   style: Theme.of(context).textTheme.titleMedium,
                 ),
                 const SizedBox(height: 10),

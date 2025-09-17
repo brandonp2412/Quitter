@@ -141,7 +141,7 @@ class _CustomQuitPageState extends State<CustomQuitPage> {
           shareTitle: entry.title,
           milestones: _generateMilestones(),
           headerTextStartedBuilder: (day) => '$day Days',
-          headerTextNotStarted: 'Not Started',
+          headerTextNotStarted: 'Not started',
           headerSubtitleStartedBuilder: (day) => 'You are doing great!',
           headerSubtitleNotStarted: 'Tap "Start" to begin your journey',
           initialStarted: entry.quitDate.isBefore(DateTime.now()),

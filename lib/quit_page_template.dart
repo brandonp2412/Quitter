@@ -186,6 +186,25 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
     );
   }
 
+  void onShare(int day) {
+    if (widget.shareTitle != null && widget.shareTitle!.isNotEmpty) {
+      SharePlus.instance.share(
+        ShareParams(
+          text:
+              "I'm $day day${day > 1 ? 's' : ''} clean from ${widget.shareTitle}!",
+        ),
+      );
+      return;
+    }
+
+    SharePlus.instance.share(
+      ShareParams(
+        text:
+            "I'm $day day${day > 1 ? 's' : ''} clean from ${widget.storageKey.replaceAll('_', ' ')}!",
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
@@ -255,25 +274,7 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
           actions: [
             IconButton(
               icon: const Icon(Icons.share),
-              onPressed: () {
-                if (widget.shareTitle != null &&
-                    widget.shareTitle!.isNotEmpty) {
-                  SharePlus.instance.share(
-                    ShareParams(
-                      text:
-                          "I'm $displayCurrentDay day${displayCurrentDay > 1 ? 's' : ''} clean from ${widget.shareTitle}!",
-                    ),
-                  );
-                  return;
-                }
-
-                SharePlus.instance.share(
-                  ShareParams(
-                    text:
-                        "I'm $displayCurrentDay day${displayCurrentDay > 1 ? 's' : ''} clean from ${widget.storageKey.replaceAll('_', ' ')}!",
-                  ),
-                );
-              },
+              onPressed: () => onShare(displayCurrentDay),
             ),
           ],
         ),
