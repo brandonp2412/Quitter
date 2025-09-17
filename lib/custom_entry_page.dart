@@ -188,18 +188,21 @@ class _CustomEntryPageState extends State<CustomEntryPage> {
                       decoration: BoxDecoration(
                         color: color,
                         shape: BoxShape.circle,
-                        border: isSelected
-                            ? Border.all(
-                                color: Theme.of(context).colorScheme.primary,
-                                width: 3,
-                              )
+                        boxShadow: isSelected
+                            ? [
+                                BoxShadow(
+                                  color: Colors.black26,
+                                  blurRadius: 8,
+                                  offset: const Offset(2, 2),
+                                ),
+                              ]
                             : null,
                       ),
                       child: isSelected
                           ? Icon(
                               Icons.check,
                               color: _getContrastColor(color),
-                              size: 20,
+                              size: 22,
                             )
                           : null,
                     ),
