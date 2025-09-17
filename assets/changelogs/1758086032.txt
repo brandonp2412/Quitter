@@ -1,0 +1,10 @@
+• Add get it on web badge
+• Add marijuana to the settings page
+• Auto-capitalize custom entries
+• Change toast messages when exporting/importing
+• Fix custom entry auto capitalization
+• Fix # of days calculation editing custom entries
+• Hide reset button if you're on day 1
+• Only show quit addictions when picking widget
+• Refresh homescreen widget more often
+• Request notifications after import
