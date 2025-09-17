@@ -205,7 +205,7 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
         label: const Text("Start"),
         icon: const Icon(Icons.rocket_launch),
       );
-    } else {
+    } else if (controller.text != '1') {
       fab = FloatingActionButton.extended(
         onPressed: () async {
           if (widget.onResetPressed != null) {
