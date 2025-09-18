@@ -26,14 +26,14 @@ Record your quitting journey with a Free and Open Source app.
 # Screenshots
 
 <p class="float-left">
-    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/1_en-US.png" height="600" alt="Home page for the mobile app showing tiles for Alcohol, Vaping, Smoking, Marijuana, Nicotine pouches, Opioids and Social Media">
-    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/2_en-US.png" height="600" alt="Alcohol quitting page on mobile at day 1 showing some infographics">
-    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/3_en-US.png" height="600" alt="Smoking quitting page on mobile at day 7 of your quitting journey">
-    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/4_en-US.png" height="600" alt="Vaping quitting page (mobile) on day 3 of your quitting journey">
-    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/5_en-US.png" height="600" alt="Opioid quitting page on mobile at day 60">
-    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/6_en-US.png" height="600" alt="Marijuana quitting page on mobile at day 14">
-    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/7_en-US.png" height="600" alt="Nicotine quitting page on mobile at day 30">
-    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/8_en-US.png" height="600" alt="Settings page on mobile showing appearance configurations and main screen items to show/hide">
+    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/1_en-US.png" height="600" alt="Home page for the mobile app showing tiles for Alcohol, Vaping, Smoking, Marijuana, Nicotine pouches, Opioids and Social Media. Bottom right button for adding custom entries">
+    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/2_en-US.png" height="600" alt="Alcohol quitting page on mobile at day 1 showing some infographics. A start button is on the bottom right">
+    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/3_en-US.png" height="600" alt="Smoking quitting page on mobile at day 7 of your quitting journey. A reset button is on the bottom right to trigger a relapse">
+    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/4_en-US.png" height="600" alt="Custom entry page editing on mobile. A title field, quit date field, and color pickers are visible. A save button is on the bottom right">
+    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/5_en-US.png" height="600" alt="The home page indicating what happens when you long press the Smoking tile. It shows a bottom sheet asking whether you want to hide Smoking or not.">
+    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/6_en-US.png" height="600" alt="Marijuana quitting page on mobile at day 14. A reset button is on the bottom right.">
+    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/7_en-US.png" height="600" alt="The settings page showing several appearance options and some main screen toggles">
+    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/8_en-US.png" height="600" alt="The settings page showing system settings and operational buttons">
 </p>
 
 # About
