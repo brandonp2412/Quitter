@@ -35,9 +35,8 @@ class _CustomQuitPageState extends State<CustomQuitPage> {
         title: "Withdrawal Symptoms Peak",
         description:
             "You're facing the storm head-on! Physical withdrawal symptoms typically peak around day 3 for many substances, including anxiety, mood swings, and physical discomfort. This means you're getting through the hardest part.",
-        reference: "IKON Recovery - Nicotine Withdrawal Timeline Research",
-        link:
-            "https://www.ikonrecoverycenters.org/nicotine-withdrawal-timeline-what-to-expect/",
+        reference: "NCBI - Withdrawal Syndromes Clinical Guidelines",
+        link: "https://www.ncbi.nlm.nih.gov/books/NBK459239/",
       ),
     );
 
@@ -47,7 +46,7 @@ class _CustomQuitPageState extends State<CustomQuitPage> {
         title: "Acute Withdrawal Phase Ending",
         description:
             "The worst is behind you! After one week, acute withdrawal symptoms begin to subside for most substances. Your body is adjusting to its new normal and starting to stabilize.",
-        reference: "American Addiction Centers - Drug Withdrawal Timelines",
+        reference: "American Addiction Centers - General Withdrawal Management",
         link:
             "https://americanaddictioncenters.org/withdrawal-timelines-treatments",
       ),
@@ -59,9 +58,8 @@ class _CustomQuitPageState extends State<CustomQuitPage> {
         title: "Early Recovery Stabilization",
         description:
             "Your mind is clearing! Two weeks of sobriety often brings improved mental clarity and reduced cravings as your brain begins to adapt to functioning without addictive substances.",
-        reference: "Hazelden Betty Ford - Post-Acute Withdrawal Research",
-        link:
-            "https://www.hazeldenbettyford.org/articles/post-acute-withdrawal-syndrome",
+        reference: "NCBI - Post-Acute Withdrawal Research",
+        link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9798382/",
       ),
     );
 
@@ -71,9 +69,9 @@ class _CustomQuitPageState extends State<CustomQuitPage> {
         title: "One Month Milestone",
         description:
             "A major victory! Thirty days of sobriety represents significant progress. Many people find that sleep patterns, mood, and energy levels continue to improve during this period.",
-        reference: "Cleveland Clinic - Alcohol Withdrawal Recovery",
+        reference: "High Focus Centers - 30-Day Recovery Benefits Research",
         link:
-            "https://my.clevelandclinic.org/health/diseases/alcohol-withdrawal",
+            "https://pa.highfocuscenters.com/the-benefits-of-staying-30-60-and-90-days-sober-a-path-to-lasting-recovery/",
       ),
     );
 
@@ -83,9 +81,9 @@ class _CustomQuitPageState extends State<CustomQuitPage> {
         title: "Three Month Recovery Milestone",
         description:
             "Your commitment is paying off! Three months of recovery represents a significant achievement. Post-acute withdrawal symptoms typically begin to fade, and many people report feeling more like themselves again.",
-        reference: "The Recovery Village - Long-term Recovery Timeline",
+        reference: "East Coast Recovery - 90-Day Sobriety Research",
         link:
-            "https://www.therecoveryvillage.com/alcohol-abuse/how-long-alcohol-detox-take/",
+            "https://eastcoastrecovery.com/what-happens-during-and-after-the-first-90-days-sober/",
       ),
     );
 
@@ -106,8 +104,8 @@ class _CustomQuitPageState extends State<CustomQuitPage> {
         title: "One Year of Recovery",
         description:
             "An incredible achievement! One year of sobriety represents a major life milestone. Many people experience significant improvements in physical health, relationships, and overall well-being by this point.",
-        reference: "NCBI - Withdrawal Syndromes and Long-term Recovery",
-        link: "https://www.ncbi.nlm.nih.gov/books/NBK459239/",
+        reference: "PMC - Recovery Attempts and Successful Outcomes Study",
+        link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC6602820/",
       ),
     );
 
@@ -117,8 +115,8 @@ class _CustomQuitPageState extends State<CustomQuitPage> {
         title: "Two Years of Sustained Recovery",
         description:
             "You've built a new life! Two years of recovery demonstrates remarkable resilience and commitment. Long-term sobriety often brings profound positive changes in all areas of life and significantly reduced risk of relapse.",
-        reference: "Arrow Passage Recovery - Long-term Recovery Outcomes",
-        link: "https://www.arrowpassage.com/withdrawal-timelines/",
+        reference: "Addiction Group - Long-term Sobriety Milestone Research",
+        link: "https://www.addictiongroup.org/resources/sobriety-milestones/",
       ),
     );
 
