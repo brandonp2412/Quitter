@@ -118,9 +118,7 @@ class _CustomEntryPageState extends State<CustomEntryPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(
-          widget.entry == null ? 'Add custom entry' : 'Edit custom entry',
-        ),
+        title: Text(widget.entry == null ? 'Add entry' : 'Edit entry'),
         actions: [
           if (widget.entry != null)
             IconButton(icon: const Icon(Icons.delete), onPressed: _deleteEntry),
@@ -168,7 +166,7 @@ class _CustomEntryPageState extends State<CustomEntryPage> {
                 const SizedBox(height: 20),
                 Text(
                   'Select color:',
-                  style: Theme.of(context).textTheme.titleMedium,
+                  style: Theme.of(context).textTheme.titleLarge,
                 ),
                 const SizedBox(height: 10),
                 Wrap(
