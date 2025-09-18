@@ -7,14 +7,12 @@ import android.appwidget.AppWidgetProvider
 import android.content.Context
 import android.content.Intent
 import android.widget.RemoteViews
+import org.json.JSONArray
 import java.time.LocalDate
 import java.time.LocalDateTime
 import java.time.temporal.ChronoUnit
 import java.util.Calendar
 
-/**
- * Implementation of App Widget functionality.
- */
 class QuitTrackerWidget : AppWidgetProvider() {
     override fun onUpdate(
         context: Context,
@@ -26,7 +24,8 @@ class QuitTrackerWidget : AppWidgetProvider() {
         }
     }
 
-    private fun scheduleDailyUpdate(context: Context) {
+    override fun onEnabled(context: Context?) {
+        if (context == null) return
         val alarmManager = context.getSystemService(Context.ALARM_SERVICE) as AlarmManager
         val intent = Intent(context, QuitTrackerWidget::class.java).apply {
             action = AppWidgetManager.ACTION_APPWIDGET_UPDATE
@@ -52,10 +51,6 @@ class QuitTrackerWidget : AppWidgetProvider() {
             AlarmManager.INTERVAL_DAY,
             pendingIntent
         )
-    }
-
-    override fun onEnabled(context: Context?) {
-        if (context != null) scheduleDailyUpdate(context)
     }
 
     private fun cancelDailyUpdate(context: Context) {
@@ -92,8 +87,10 @@ class QuitTrackerWidget : AppWidgetProvider() {
             context: Context, appWidgetManager: AppWidgetManager,
             appWidgetId: Int
         ) {
-            val prefs = context.getSharedPreferences("FlutterSharedPreferences", Context.MODE_PRIVATE)
-            val widgetPrefs = context.getSharedPreferences("QuitTrackerWidget", Context.MODE_PRIVATE)
+            val prefs =
+                context.getSharedPreferences("FlutterSharedPreferences", Context.MODE_PRIVATE)
+            val widgetPrefs =
+                context.getSharedPreferences("QuitTrackerWidget", Context.MODE_PRIVATE)
             val selectedAddiction = widgetPrefs.getString("selected_$appWidgetId", null)
 
             val addictionData = mapOf(
@@ -149,57 +146,24 @@ class QuitTrackerWidget : AppWidgetProvider() {
 
             val views: RemoteViews
 
+            val selectIntent = Intent(context, WidgetSelectionActivity::class.java)
+            selectIntent.putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, appWidgetId)
+            val pendingSelect = PendingIntent.getActivity(
+                context,
+                appWidgetId,
+                selectIntent,
+                PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
+            )
+
             if (selectedAddiction == null) {
                 views = RemoteViews(context.packageName, R.layout.quit_tracker_widget_selector)
-                val intent = Intent(context, WidgetSelectionActivity::class.java)
-                intent.putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, appWidgetId)
-                val pendingIntent = PendingIntent.getActivity(
-                    context,
-                    appWidgetId,
-                    intent,
-                    PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
-                )
-                views.setOnClickPendingIntent(R.id.widget_container, pendingIntent)
+                views.setOnClickPendingIntent(R.id.widget_container, pendingSelect)
                 return appWidgetManager.updateAppWidget(appWidgetId, views)
             }
 
             views = RemoteViews(context.packageName, R.layout.quit_tracker_widget)
             val addictionInfo = addictionData[selectedAddiction]
             val quitDate = prefs.getString("flutter.$selectedAddiction", null)
-
-            if (addictionInfo == null) {
-                views.setTextViewText(R.id.widget_title, "Unknown")
-                views.setTextViewText(R.id.widget_days, "Error")
-                return appWidgetManager.updateAppWidget(appWidgetId, views)
-            }
-
-            views.setTextViewText(R.id.widget_title, addictionInfo.title)
-            views.setImageViewResource(R.id.widget_icon, addictionInfo.iconRes)
-
-            if (quitDate == null) {
-                android.util.Log.d("QuitTrackerWidget", "No quit date found for key: flutter.$selectedAddiction")
-                views.setTextViewText(R.id.widget_days, "Not set")
-                val allKeys = prefs.all.keys
-                android.util.Log.d("QuitTrackerWidget", "Available SharedPreferences keys: ${allKeys.joinToString(", ")}")
-
-                val selectIntent = Intent(context, WidgetSelectionActivity::class.java)
-                selectIntent.putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, appWidgetId)
-                val selectPendingIntent = PendingIntent.getActivity(
-                    context,
-                    appWidgetId + 10000,
-                    selectIntent,
-                    PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
-                )
-                views.setOnClickPendingIntent(R.id.widget_container, selectPendingIntent)
-                return appWidgetManager.updateAppWidget(appWidgetId, views)
-            }
-
-            android.util.Log.d("QuitTrackerWidget", "Found quit date for $selectedAddiction: $quitDate")
-            var days = daysCeil(quitDate)
-            if (days == 0) days = 1
-            val widgetText = "$days ${if (days == 1) "day" else "days"}"
-            views.setTextViewText(R.id.widget_days, widgetText)
-
             val mainIntent = Intent(context, MainActivity::class.java)
             val mainPendingIntent = PendingIntent.getActivity(
                 context,
@@ -207,6 +171,59 @@ class QuitTrackerWidget : AppWidgetProvider() {
                 mainIntent,
                 PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
             )
+
+            if (addictionInfo == null) {
+                val entriesJson = prefs.getString("flutter.entries", null)
+                if (entriesJson == null) {
+                    views.setTextViewText(R.id.widget_title, "Unknown")
+                    views.setTextViewText(R.id.widget_days, "Error")
+                } else {
+                    val jsonArray = JSONArray(entriesJson)
+                    for (i in 0 until jsonArray.length()) {
+                        val entryObject = jsonArray.getJSONObject(i)
+                        val id = entryObject.getString("id")
+                        if (selectedAddiction != id) continue
+                        val title = entryObject.getString("title")
+                        val quitDate = entryObject.getString("quitDate")
+                        val days = daysCeil(quitDate)
+                        val widgetText = "$days ${if (days == 1) "day" else "days"}"
+                        views.setTextViewText(R.id.widget_title, title)
+                        views.setTextViewText(R.id.widget_days, widgetText)
+                        views.setImageViewResource(R.id.widget_icon, R.drawable.star)
+                        views.setOnClickPendingIntent(R.id.widget_container, mainPendingIntent)
+                    }
+                }
+
+                return appWidgetManager.updateAppWidget(appWidgetId, views)
+            }
+
+            views.setTextViewText(R.id.widget_title, addictionInfo.title)
+            views.setImageViewResource(R.id.widget_icon, addictionInfo.iconRes)
+
+            if (quitDate == null) {
+                android.util.Log.d(
+                    "QuitTrackerWidget",
+                    "No quit date found for key: flutter.$selectedAddiction"
+                )
+                views.setTextViewText(R.id.widget_days, "Not set")
+                val allKeys = prefs.all.keys
+                android.util.Log.d(
+                    "QuitTrackerWidget",
+                    "Available SharedPreferences keys: ${allKeys.joinToString(", ")}"
+                )
+                views.setOnClickPendingIntent(R.id.widget_container, pendingSelect)
+                return appWidgetManager.updateAppWidget(appWidgetId, views)
+            }
+
+            android.util.Log.d(
+                "QuitTrackerWidget",
+                "Found quit date for $selectedAddiction: $quitDate"
+            )
+            var days = daysCeil(quitDate)
+            if (days == 0) days = 1
+            val widgetText = "$days ${if (days == 1) "day" else "days"}"
+            views.setTextViewText(R.id.widget_days, widgetText)
+
             views.setOnClickPendingIntent(R.id.widget_container, mainPendingIntent)
 
             appWidgetManager.updateAppWidget(appWidgetId, views)

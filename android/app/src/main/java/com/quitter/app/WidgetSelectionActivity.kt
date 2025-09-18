@@ -7,6 +7,8 @@ import android.os.Bundle
 import androidx.core.content.edit
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import org.json.JSONArray
+
 
 class WidgetSelectionActivity : Activity() {
     private var appWidgetId = AppWidgetManager.INVALID_APPWIDGET_ID
@@ -50,18 +52,33 @@ class WidgetSelectionActivity : Activity() {
         )
 
         val prefs = getSharedPreferences("FlutterSharedPreferences", MODE_PRIVATE)
-        val quitAddictions = addictions.filter { addiction -> 
-            prefs.getString("flutter.${addiction.key}", null) != null 
+        val quitAddictions = addictions.filter { addiction ->
+            prefs.getString("flutter.${addiction.key}", null) != null
         }
 
-        recyclerView.adapter = AddictionAdapter(quitAddictions) { addiction ->
+
+        val entriesJson = prefs.getString("flutter.entries", null)
+        val entriesList = mutableListOf<AddictionItem>()
+        if (entriesJson != null) {
+            val jsonArray = JSONArray(entriesJson)
+            for (i in 0 until jsonArray.length()) {
+                val entryObject = jsonArray.getJSONObject(i)
+                val id = entryObject.getString("id")
+                val title = entryObject.getString("title")
+                val color = entryObject.getInt("color")
+                entriesList.add(AddictionItem(id, title, R.drawable.star, color))
+            }
+        }
+
+
+        recyclerView.adapter = AddictionAdapter(quitAddictions.plus(entriesList)) { addiction ->
             selectAddiction(addiction.key)
         }
     }
 
     private fun selectAddiction(addictionKey: String) {
         val prefs = getSharedPreferences("QuitTrackerWidget", MODE_PRIVATE)
-        prefs.edit().putString("selected_$appWidgetId", addictionKey).apply()
+        prefs.edit { putString("selected_$appWidgetId", addictionKey) }
 
         val appWidgetManager = AppWidgetManager.getInstance(this)
         QuitTrackerWidget.updateAppWidget(this, appWidgetManager, appWidgetId)
