@@ -164,52 +164,76 @@ class _CustomEntryPageState extends State<CustomEntryPage> {
                   onTap: _presentDatePicker,
                 ),
                 const SizedBox(height: 20),
-                Text(
-                  'Select color:',
-                  style: Theme.of(context).textTheme.titleLarge,
-                ),
-                const SizedBox(height: 10),
-                Wrap(
-                  spacing: 10,
-                  runSpacing: 10,
-                  children: Colors.primaries.map((color) {
-                    final bool isSelected =
-                        _selectedColor.toARGB32() == color.toARGB32();
-                    return GestureDetector(
-                      onTap: () {
-                        setState(() {
-                          _selectedColor = color;
-                        });
-                      },
-                      child: Container(
-                        width: 80,
-                        height: 80,
-                        decoration: BoxDecoration(
-                          color: color,
-                          shape: BoxShape.circle,
-                          boxShadow: isSelected
-                              ? [
-                                  BoxShadow(
-                                    color: Colors.black26,
-                                    blurRadius: 8,
-                                    offset: const Offset(2, 2),
-                                  ),
-                                ]
-                              : null,
-                        ),
-                        child: AnimatedScale(
-                          scale: isSelected ? 1 : 0,
-                          duration: const Duration(milliseconds: 300),
-                          curve: Curves.elasticOut,
-                          child: Icon(
-                            Icons.check,
-                            color: _getContrastColor(color),
-                            size: 50,
+                FocusableActionDetector(
+                  onFocusChange: (hasFocus) {
+                    setState(() {}); // Rebuild to update the border
+                  },
+                  child: Builder(
+                    builder: (context) {
+                      final bool hasFocus = Focus.of(context).hasFocus;
+                      return InputDecorator(
+                        decoration: InputDecoration(
+                          labelText: 'Color',
+                          border: const OutlineInputBorder(),
+                          focusedBorder: OutlineInputBorder(
+                            borderSide: BorderSide(
+                              color: Theme.of(context).colorScheme.primary,
+                              width: 2,
+                            ),
                           ),
                         ),
-                      ),
-                    );
-                  }).toList(),
+                        isFocused: hasFocus,
+                        child: Padding(
+                          padding: const EdgeInsets.symmetric(vertical: 8),
+                          child: Wrap(
+                            spacing: 10,
+                            runSpacing: 10,
+                            children: Colors.primaries.map((color) {
+                              final bool isSelected =
+                                  _selectedColor.toARGB32() == color.toARGB32();
+                              return GestureDetector(
+                                onTap: () {
+                                  Focus.of(
+                                    context,
+                                  ).requestFocus(); // Request focus when tapping a color
+                                  setState(() {
+                                    _selectedColor = color;
+                                  });
+                                },
+                                child: Container(
+                                  width: 80,
+                                  height: 80,
+                                  decoration: BoxDecoration(
+                                    color: color,
+                                    shape: BoxShape.circle,
+                                    boxShadow: isSelected
+                                        ? [
+                                            BoxShadow(
+                                              color: Colors.black26,
+                                              blurRadius: 8,
+                                              offset: const Offset(2, 2),
+                                            ),
+                                          ]
+                                        : null,
+                                  ),
+                                  child: AnimatedScale(
+                                    scale: isSelected ? 1 : 0,
+                                    duration: const Duration(milliseconds: 300),
+                                    curve: Curves.elasticOut,
+                                    child: Icon(
+                                      Icons.check,
+                                      color: _getContrastColor(color),
+                                      size: 50,
+                                    ),
+                                  ),
+                                ),
+                              );
+                            }).toList(),
+                          ),
+                        ),
+                      );
+                    },
+                  ),
                 ),
               ],
             ),
