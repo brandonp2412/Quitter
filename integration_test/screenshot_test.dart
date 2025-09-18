@@ -3,16 +3,15 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:integration_test/integration_test.dart';
 import 'package:provider/provider.dart';
 import 'package:quitter/addiction_provider.dart';
+import 'package:quitter/custom_entry_page.dart';
+import 'package:quitter/custom_quit_entry.dart';
 import 'package:quitter/marijuana_page.dart';
-import 'package:quitter/nicotine_pouches.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'package:quitter/main.dart' as app;
 import 'package:quitter/alcohol_page.dart';
-import 'package:quitter/opioid_page.dart';
 import 'package:quitter/settings_page.dart';
 import 'package:quitter/smoking_page.dart';
-import 'package:quitter/vaping_page.dart';
 import 'package:quitter/settings_provider.dart';
 
 Future<void> appWrapper() async {
@@ -99,11 +98,8 @@ void main() {
   group("Generate Quitter App Screenshots", () {
     testWidgets(
       "HomePage",
-      (tester) async => await screenshot(
-        binding: binding,
-        tester: tester,
-        name: '1_home_page_en-US',
-      ),
+      (tester) async =>
+          await screenshot(binding: binding, tester: tester, name: '1_en-US'),
     );
 
     testWidgets(
@@ -111,7 +107,7 @@ void main() {
       (tester) async => await screenshot(
         binding: binding,
         tester: tester,
-        name: '2_alcohol_page_en-US',
+        name: '2_en-US',
         goToPage: (context) async =>
             navigate(context: context, page: const AlcoholPage(started: true)),
       ),
@@ -122,31 +118,43 @@ void main() {
       (tester) async => await screenshot(
         binding: binding,
         tester: tester,
-        name: '3_smoking_page_en-US',
+        name: '3_en-US',
         goToPage: (context) async =>
             navigate(context: context, page: const SmokingPage(started: true)),
       ),
     );
 
     testWidgets(
-      "VapingPage",
+      "CustomEntryPage",
       (tester) async => await screenshot(
         binding: binding,
         tester: tester,
-        name: '4_vaping_page_en-US',
-        goToPage: (context) async =>
-            navigate(context: context, page: const VapingPage(started: true)),
+        name: '4_en-US',
+        goToPage: (context) async => navigate(
+          context: context,
+          page: CustomEntryPage(
+            entry: Entry(
+              id: 'fake',
+              color: Colors.purple,
+              quitDate: DateTime.now().subtract(const Duration(days: 3)),
+              title: 'Touching bro',
+            ),
+          ),
+        ),
       ),
     );
 
     testWidgets(
-      "OpioidPage",
+      "HomePageLongPress",
       (tester) async => await screenshot(
         binding: binding,
         tester: tester,
-        name: '5_opioid_page_en-US',
-        goToPage: (context) async =>
-            navigate(context: context, page: const OpioidPage(started: true)),
+        name: '5_en-US',
+        goToPage: (context) async {
+          await tester.pumpAndSettle();
+          await tester.longPress(find.text('Smoking'));
+          await tester.pumpAndSettle();
+        },
       ),
     );
 
@@ -155,23 +163,10 @@ void main() {
       (tester) async => await screenshot(
         binding: binding,
         tester: tester,
-        name: '6_marijuana_page_en-US',
+        name: '6_en-US',
         goToPage: (context) async => navigate(
           context: context,
           page: const MarijuanaPage(started: true),
-        ),
-      ),
-    );
-
-    testWidgets(
-      "NicotinePouchesPage",
-      (tester) async => await screenshot(
-        binding: binding,
-        tester: tester,
-        name: '7_nicotine_pouches_page_en-US',
-        goToPage: (context) async => navigate(
-          context: context,
-          page: const NicotinePouchesPage(started: true),
         ),
       ),
     );
@@ -181,9 +176,24 @@ void main() {
       (tester) async => await screenshot(
         binding: binding,
         tester: tester,
-        name: '8_settings_page_en-US',
+        name: '7_en-US',
         goToPage: (context) async =>
             navigate(context: context, page: const SettingsPage()),
+      ),
+    );
+
+    testWidgets(
+      "SettingsPageClear",
+      (tester) async => await screenshot(
+        binding: binding,
+        tester: tester,
+        name: '8_en-US',
+        goToPage: (context) async {
+          navigate(context: context, page: const SettingsPage());
+          await tester.pumpAndSettle();
+          await tester.scrollUntilVisible(find.text('Clear history'), 80);
+          await tester.pumpAndSettle();
+        },
       ),
     );
   });
