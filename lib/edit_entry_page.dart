@@ -2,20 +2,20 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:intl/intl.dart';
 import 'package:quitter/addiction_provider.dart';
-import 'package:quitter/custom_quit_entry.dart';
+import 'package:quitter/entry.dart';
 import 'package:quitter/utils.dart';
 import 'package:uuid/uuid.dart';
 
-class CustomEntryPage extends StatefulWidget {
+class EditEntryPage extends StatefulWidget {
   final Entry? entry;
 
-  const CustomEntryPage({super.key, this.entry});
+  const EditEntryPage({super.key, this.entry});
 
   @override
-  State<CustomEntryPage> createState() => _CustomEntryPageState();
+  State<EditEntryPage> createState() => _EditEntryPageState();
 }
 
-class _CustomEntryPageState extends State<CustomEntryPage> {
+class _EditEntryPageState extends State<EditEntryPage> {
   final _formKey = GlobalKey<FormState>();
   late TextEditingController _titleController;
   late DateTime _quitDate;
@@ -129,8 +129,7 @@ class _CustomEntryPageState extends State<CustomEntryPage> {
           padding: const EdgeInsets.all(16.0),
           child: Form(
             key: _formKey,
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
+            child: ListView(
               children: [
                 TextFormField(
                   textCapitalization: TextCapitalization.sentences,
@@ -201,8 +200,8 @@ class _CustomEntryPageState extends State<CustomEntryPage> {
                                   });
                                 },
                                 child: Container(
-                                  width: 80,
-                                  height: 80,
+                                  width: 70,
+                                  height: 70,
                                   decoration: BoxDecoration(
                                     color: color,
                                     shape: BoxShape.circle,

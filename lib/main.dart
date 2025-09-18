@@ -20,8 +20,8 @@ import 'package:quitter/social_media_page.dart';
 import 'package:quitter/vaping_page.dart';
 import 'package:quitter/pornography_page.dart';
 import 'package:quitter/reminders.dart';
-import 'package:quitter/custom_entry_page.dart';
-import 'package:quitter/custom_quit_page.dart';
+import 'package:quitter/edit_entry_page.dart';
+import 'package:quitter/entry_page.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -590,8 +590,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                         onTap: () async {
                           await Navigator.of(context).push(
                             MaterialPageRoute(
-                              builder: (context) =>
-                                  CustomQuitPage(entry: entry),
+                              builder: (context) => EntryPage(entry: entry),
                             ),
                           );
                           if (mounted) _loadQuitDays();
@@ -599,8 +598,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                         onLongPress: () {
                           Navigator.of(context).push(
                             MaterialPageRoute(
-                              builder: (context) =>
-                                  CustomEntryPage(entry: entry),
+                              builder: (context) => EditEntryPage(entry: entry),
                             ),
                           );
                         },
@@ -631,7 +629,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
       floatingActionButton: FloatingActionButton.extended(
         onPressed: () async {
           await Navigator.of(context).push(
-            MaterialPageRoute(builder: (context) => const CustomEntryPage()),
+            MaterialPageRoute(builder: (context) => const EditEntryPage()),
           );
           _loadQuitDays();
         },

@@ -5,14 +5,14 @@ class Entry {
   String title;
   DateTime quitDate;
   Color color;
-  List<int> daysAchieved; // New field to store days achieved before reset
+  List<int> daysAchieved;
 
   Entry({
     required this.id,
     required this.title,
     required this.quitDate,
     required this.color,
-    this.daysAchieved = const [], // Initialize with an empty list
+    this.daysAchieved = const [],
   });
 
   Entry copyWith({

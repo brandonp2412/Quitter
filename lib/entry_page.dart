@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:quitter/addiction_provider.dart';
-import 'package:quitter/custom_quit_entry.dart';
+import 'package:quitter/entry.dart';
 import 'package:quitter/quit_milestone.dart';
 import 'package:quitter/quit_page_template.dart';
 
-class CustomQuitPage extends StatefulWidget {
+class EntryPage extends StatefulWidget {
   final Entry entry;
 
-  const CustomQuitPage({super.key, required this.entry});
+  const EntryPage({super.key, required this.entry});
 
   @override
-  State<CustomQuitPage> createState() => _CustomQuitPageState();
+  State<EntryPage> createState() => _EntryPageState();
 }
 
-class _CustomQuitPageState extends State<CustomQuitPage> {
+class _EntryPageState extends State<EntryPage> {
   List<QuitMilestone> _generateMilestones() {
     List<QuitMilestone> miles = [];
 

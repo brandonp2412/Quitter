@@ -3,8 +3,8 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:integration_test/integration_test.dart';
 import 'package:provider/provider.dart';
 import 'package:quitter/addiction_provider.dart';
-import 'package:quitter/custom_entry_page.dart';
-import 'package:quitter/custom_quit_entry.dart';
+import 'package:quitter/edit_entry_page.dart';
+import 'package:quitter/entry.dart';
 import 'package:quitter/marijuana_page.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -132,7 +132,7 @@ void main() {
         name: '4_en-US',
         goToPage: (context) async => navigate(
           context: context,
-          page: CustomEntryPage(
+          page: EditEntryPage(
             entry: Entry(
               id: 'fake',
               color: Colors.purple,

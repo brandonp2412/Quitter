@@ -3,7 +3,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:quitter/utils.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:quitter/custom_quit_entry.dart';
+import 'package:quitter/entry.dart';
 
 class AddictionProvider extends ChangeNotifier {
   SharedPreferences? _pref;
