@@ -61,8 +61,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
     await prefs.setInt('last_build_number', currentVersion);
     if (lastVersion == 0) return;
 
-    if (currentVersion > lastVersion) {
-      if (!mounted) return;
+    if (currentVersion > lastVersion && mounted) {
       toast(
         context,
         "New version ${info.version}",
