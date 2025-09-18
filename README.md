@@ -19,10 +19,6 @@ Record your quitting journey with a Free and Open Source app.
 <a href='https://play.google.com/store/apps/details?id=com.quitter.app'><img alt='Get it on Google Play badge' height="80" src='./docs/get-it-on-google-play.png'/></a>
 <a href='https://brandonp2412.github.io/Quitter/'><img alt='Get it on web' height="80" src='./docs/get-it-on-web.png'/></a>
 
-[Quitter Web](https://brandonp2412.github.io/Quitter/)
-
-[F-droid submission](https://gitlab.com/fdroid/fdroiddata/-/merge_requests/26379)
-
 # Screenshots
 
 <p class="float-left">
