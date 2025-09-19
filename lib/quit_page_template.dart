@@ -1,5 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:provider/provider.dart';
 import 'package:quitter/addiction_provider.dart';
@@ -205,6 +206,28 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
     );
   }
 
+  void pickDate() async {
+    final current = DateTime.now().subtract(Duration(days: _day));
+    final date = await showDatePicker(
+      context: context,
+      initialDate: current,
+      firstDate: DateTime(0),
+      lastDate: DateTime.now(),
+    );
+    if (date == null) return;
+    setState(() {
+      _day = daysCeil(date.toIso8601String());
+    });
+    controller.text = _day.toString();
+
+    if (widget.onQuitDateChanged != null) {
+      widget.onQuitDateChanged!(date);
+    } else {
+      final addictions = context.read<AddictionProvider>();
+      addictions.setAddiction(widget.storageKey, date.toIso8601String());
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
@@ -264,6 +287,7 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
     }
 
     if (settings.showReset == false) fab = null;
+    final quitDate = DateTime.parse(quit ?? DateTime.now().toIso8601String());
 
     return ConfettiWidget(
       active: showConfetti,
@@ -283,7 +307,7 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
             children: [
               Container(
                 width: double.infinity,
-                padding: const EdgeInsets.all(24.0),
+                padding: const EdgeInsets.symmetric(horizontal: 24.0),
                 decoration: BoxDecoration(
                   borderRadius: const BorderRadius.only(
                     bottomLeft: Radius.circular(24),
@@ -308,93 +332,23 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
                       style: Theme.of(context).textTheme.titleMedium,
                     ),
                     const SizedBox(height: 16),
-                    Row(
-                      children: [
-                        Expanded(
-                          child: TextField(
-                            focusNode: _textNode,
-                            onTap: () => selectAll(controller),
-                            controller: controller,
-                            decoration: InputDecoration(
-                              hintText: '1',
-                              floatingLabelBehavior:
-                                  FloatingLabelBehavior.always,
-                              labelText: 'Enter your current day',
-                              suffixIcon: IconButton(
-                                onPressed: () async {
-                                  final current = DateTime.now().subtract(
-                                    Duration(days: _day),
-                                  );
-                                  final date = await showDatePicker(
-                                    context: context,
-                                    initialDate: current,
-                                    firstDate: DateTime(0),
-                                    lastDate: DateTime.now(),
-                                  );
-                                  if (date == null) return;
-                                  setState(() {
-                                    _day = daysCeil(date.toIso8601String());
-                                  });
-                                  controller.text = _day.toString();
-
-                                  if (widget.onQuitDateChanged != null) {
-                                    widget.onQuitDateChanged!(date);
-                                  } else {
-                                    addictions.setAddiction(
-                                      widget.storageKey,
-                                      date.toIso8601String(),
-                                    );
-                                  }
-                                },
-                                icon: Icon(
-                                  _day > 7
-                                      ? Icons.calendar_month
-                                      : Icons.calendar_today,
-                                  color: theme.appBarTheme.iconTheme?.color,
-                                ),
-                              ),
-                              enabledBorder: OutlineInputBorder(
-                                borderRadius: BorderRadius.circular(12),
-                                borderSide: BorderSide(
-                                  color: colorScheme.onSurface,
-                                ),
-                              ),
-                              focusedBorder: OutlineInputBorder(
-                                borderRadius: BorderRadius.circular(12),
-                                borderSide: BorderSide(
-                                  color: colorScheme.onSurface,
-                                  width: 2,
-                                ),
-                              ),
-                            ),
-                            style: TextStyle(
-                              color: theme.appBarTheme.titleTextStyle?.color,
-                            ),
-                            keyboardType: TextInputType.number,
-                            onChanged: (value) {
-                              final parsed = int.tryParse(value);
-                              setState(() {
-                                _day = parsed ?? 1;
-                              });
-                            },
-                            onSubmitted: (value) async {
-                              final parsed = int.tryParse(value);
-                              if (parsed != null) {
-                                _updateQuitDateFromDay(parsed);
-                              } else {
-                                if (widget.onQuitDateChanged != null) {
-                                  widget.onQuitDateChanged!(DateTime.now());
-                                } else {
-                                  addictions.setAddiction(
-                                    widget.storageKey,
-                                    null,
-                                  );
-                                }
-                              }
-                            },
-                          ),
+                    TextFormField(
+                      readOnly: true,
+                      controller: TextEditingController(
+                        text:
+                            '${DateFormat.yMMMd().format(quitDate)} (${daysCeil(quitDate.toIso8601String())} days)',
+                      ),
+                      decoration: InputDecoration(
+                        labelText: 'Quit date',
+                        border: const OutlineInputBorder(),
+                        suffixIcon: IconButton(
+                          icon: _day > 7
+                              ? const Icon(Icons.calendar_month)
+                              : const Icon(Icons.calendar_today),
+                          onPressed: pickDate,
                         ),
-                      ],
+                      ),
+                      onTap: pickDate,
                     ),
                     if (widget.infoBoxMessage != null) ...[
                       const SizedBox(height: 16),

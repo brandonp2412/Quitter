@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:intl/intl.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:provider/provider.dart';
 import 'package:dynamic_color/dynamic_color.dart';
@@ -8,6 +7,7 @@ import 'package:quitter/addiction_provider.dart';
 import 'package:quitter/app_scheme.dart';
 import 'package:quitter/marijuana_page.dart';
 import 'package:quitter/nicotine_pouches.dart';
+import 'package:quitter/quit_card.dart';
 import 'package:quitter/settings_provider.dart';
 import 'package:quitter/utils.dart';
 import 'package:quitter/whats_new.dart';
@@ -167,149 +167,6 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
     );
   }
 
-  Widget _buildQuitCard({
-    required String title,
-    required IconData icon,
-    required List<Color> gradientColors,
-    String? quitDate,
-    required VoidCallback onTap,
-    required VoidCallback onLongPress,
-  }) {
-    int? days;
-    if (quitDate != null) days = daysCeil(quitDate);
-
-    return Hero(
-      tag: title,
-      child: Card(
-        elevation: 0,
-        margin: EdgeInsets.zero,
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-        clipBehavior: Clip.antiAlias,
-        child: Container(
-          decoration: BoxDecoration(
-            gradient: LinearGradient(
-              colors: gradientColors,
-              begin: Alignment.topLeft,
-              end: Alignment.bottomRight,
-            ),
-            boxShadow: [
-              BoxShadow(
-                color: gradientColors.first.withAlpha(255 ~/ (1 / 0.3)),
-                blurRadius: 8,
-                offset: const Offset(0, 4),
-              ),
-            ],
-          ),
-          child: Material(
-            color: Colors.transparent,
-            child: InkWell(
-              onTap: onTap,
-              onLongPress: onLongPress,
-              borderRadius: BorderRadius.circular(20),
-              splashColor: Colors.white.withAlpha(255 ~/ (1 / 0.3)),
-              highlightColor: Colors.white.withAlpha(255 ~/ (1 / 0.1)),
-              child: Container(
-                padding: const EdgeInsets.all(20),
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(20),
-                  color: Theme.of(
-                    context,
-                  ).colorScheme.surface.withAlpha(255 ~/ (1 / 0.9)),
-                ),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Row(
-                      children: [
-                        Container(
-                          padding: const EdgeInsets.all(12),
-                          decoration: BoxDecoration(
-                            gradient: LinearGradient(
-                              colors: gradientColors,
-                              begin: Alignment.topLeft,
-                              end: Alignment.bottomRight,
-                            ),
-                            borderRadius: BorderRadius.circular(12),
-                          ),
-                          child: Icon(icon, color: Colors.white, size: 24),
-                        ),
-                        const Spacer(),
-                        if (quitDate != null)
-                          Container(
-                            padding: const EdgeInsets.symmetric(
-                              horizontal: 8,
-                              vertical: 4,
-                            ),
-                            decoration: BoxDecoration(
-                              color: Theme.of(
-                                context,
-                              ).colorScheme.primary.withAlpha(255 ~/ (1 / 0.1)),
-                              borderRadius: BorderRadius.circular(8),
-                            ),
-                            child: Text(
-                              DateFormat.MMMd().format(
-                                DateTime.parse(quitDate),
-                              ),
-                              style: Theme.of(context).textTheme.bodySmall
-                                  ?.copyWith(
-                                    color: Theme.of(
-                                      context,
-                                    ).colorScheme.primary,
-                                    fontWeight: FontWeight.w500,
-                                  ),
-                            ),
-                          ),
-                      ],
-                    ),
-                    const SizedBox(height: 16),
-                    Text(
-                      title,
-                      style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                        fontWeight: FontWeight.w600,
-                      ),
-                    ),
-                    const SizedBox(height: 4),
-                    if (days != null) ...[
-                      RichText(
-                        text: TextSpan(
-                          style: Theme.of(context).textTheme.headlineSmall
-                              ?.copyWith(fontWeight: FontWeight.bold),
-                          children: [
-                            TextSpan(text: '$days'),
-                            TextSpan(
-                              text: days == 1 ? ' day' : ' days',
-                              style: Theme.of(context).textTheme.bodyLarge
-                                  ?.copyWith(
-                                    color: Theme.of(context)
-                                        .colorScheme
-                                        .onSurface
-                                        .withAlpha(255 ~/ (1 / 0.7)),
-                                  ),
-                            ),
-                          ],
-                        ),
-                      ),
-                    ] else ...[
-                      Text(
-                        'Tap to start',
-                        style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                          color: Theme.of(
-                            context,
-                          ).colorScheme.onSurface.withAlpha(255 ~/ (1 / 0.6)),
-                          fontStyle: FontStyle.italic,
-                        ),
-                      ),
-                    ],
-                  ],
-                ),
-              ),
-            ),
-          ),
-        ),
-      ),
-    );
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -348,7 +205,8 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
 
                   if (settings.showAlcohol) {
                     cards.add(
-                      _buildQuitCard(
+                      QuitCard(
+                        context: context,
                         title: 'Alcohol',
                         icon: Icons.local_bar,
                         gradientColors: [
@@ -377,7 +235,8 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
 
                   if (settings.showVaping) {
                     cards.add(
-                      _buildQuitCard(
+                      QuitCard(
+                        context: context,
                         title: 'Vaping',
                         icon: Icons.air,
                         gradientColors: [
@@ -406,7 +265,8 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
 
                   if (settings.showSmoking) {
                     cards.add(
-                      _buildQuitCard(
+                      QuitCard(
+                        context: context,
                         title: 'Smoking',
                         icon: Icons.eco,
                         gradientColors: [
@@ -435,7 +295,8 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
 
                   if (settings.showMarijuana) {
                     cards.add(
-                      _buildQuitCard(
+                      QuitCard(
+                        context: context,
                         title: 'Marijuana',
                         icon: Icons.grass,
                         gradientColors: [
@@ -463,7 +324,8 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                   }
                   if (settings.showNicotinePouches) {
                     cards.add(
-                      _buildQuitCard(
+                      QuitCard(
+                        context: context,
                         title: 'Nicotine Pouches',
                         icon: Icons.scatter_plot,
                         gradientColors: [
@@ -492,7 +354,8 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
 
                   if (settings.showOpioids) {
                     cards.add(
-                      _buildQuitCard(
+                      QuitCard(
+                        context: context,
                         title: 'Opioids',
                         icon: Icons.medication,
                         gradientColors: [
@@ -521,7 +384,8 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
 
                   if (settings.showSocialMedia) {
                     cards.add(
-                      _buildQuitCard(
+                      QuitCard(
+                        context: context,
                         title: 'Social Media',
                         icon: Icons.public,
                         gradientColors: [
@@ -550,7 +414,8 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
 
                   if (settings.showPornography) {
                     cards.add(
-                      _buildQuitCard(
+                      QuitCard(
+                        context: context,
                         title: 'Pornography',
                         icon: Icons.block,
                         gradientColors: [
@@ -579,7 +444,8 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
 
                   for (var entry in addictions.entries) {
                     cards.add(
-                      _buildQuitCard(
+                      QuitCard(
+                        context: context,
                         title: entry.title,
                         icon: Icons.star,
                         gradientColors: [
@@ -611,7 +477,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                       crossAxisCount: MediaQuery.of(context).size.width > 600
                           ? 3
                           : 2,
-                      mainAxisExtent: 200,
+                      mainAxisExtent: 220,
                       crossAxisSpacing: 16,
                       mainAxisSpacing: 16,
                     ),
