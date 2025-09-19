@@ -95,6 +95,7 @@ class SettingsProvider extends ChangeNotifier {
     _notifySocialMedia = _prefs!.getBool(_notifySocialMediaKey) ?? true;
     _notifyPornography = _prefs!.getBool(_notifyPornographyKey) ?? true;
     _notifyMarijuana = _prefs!.getBool(_notifyMarijuanaKey) ?? true;
+    _notifyPouches = _prefs!.getBool(_notifyPouchesKey) ?? true;
     _showNicotinePouches = _prefs!.getBool(_nicotinePouchesKey) ?? true;
     _showMarijuana = _prefs!.getBool(_marijuanaKey) ?? true;
 
