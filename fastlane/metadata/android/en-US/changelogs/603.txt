@@ -1,0 +1,4 @@
+• Add spacing above title on quit page tracker
+• Fix scrolling on edit entry page
+• Show full date including year
+• Try to fix homescreen widget updates
