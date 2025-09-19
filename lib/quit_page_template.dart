@@ -316,6 +316,7 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
                 ),
                 child: Column(
                   children: [
+                    const SizedBox(height: 8),
                     Text(
                       quit != null
                           ? widget.headerTextStartedBuilder(displayCurrentDay)
