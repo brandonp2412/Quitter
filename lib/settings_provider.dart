@@ -6,7 +6,6 @@ import 'package:quitter/reminders.dart';
 class SettingsProvider extends ChangeNotifier {
   static const String _themeKey = 'theme_mode';
   static const String _colorSchemeKey = 'color_scheme';
-  static const String _notifyEveryKey = 'notify_every';
   static const String _alcoholKey = 'show_alcohol';
   static const String _nicotinePouchesKey = 'show_nicotine_pouches';
   static const String _marijuanaKey = 'show_marijuana';
@@ -16,6 +15,8 @@ class SettingsProvider extends ChangeNotifier {
   static const String _opioidsKey = 'show_opioids';
   static const String _socialMediaKey = 'show_social_media';
   static const String _pornographyKey = 'show_pornography';
+
+  static const String _notifyEveryKey = 'notify_every';
   static const String _notifyAlcoholKey = 'notify_alcohol';
   static const String _notifyMarijuanaKey = 'notify_marijuana';
   static const String _notifyVapingKey = 'notify_vaping';
@@ -30,7 +31,6 @@ class SettingsProvider extends ChangeNotifier {
 
   ThemeMode _themeMode = ThemeMode.system;
   ColorSchemeType _colorSchemeType = ColorSchemeType.dynamic;
-  int _notifyEvery = 1;
   bool _showAlcohol = true;
   bool _showVaping = true;
   bool _showSmoking = true;
@@ -38,6 +38,10 @@ class SettingsProvider extends ChangeNotifier {
   bool _showOpioids = true;
   bool _showSocialMedia = true;
   bool _showPornography = true;
+  bool _showMarijuana = true;
+  bool _showReset = true;
+
+  int _notifyEvery = 1;
   bool _notifyAlcohol = true;
   bool _notifyVaping = true;
   bool _notifySmoking = true;
@@ -47,8 +51,6 @@ class SettingsProvider extends ChangeNotifier {
   bool _notifyPornography = true;
   bool _notifyRelapse = true;
   bool _notifyMarijuana = true;
-  bool _showMarijuana = true;
-  bool _showReset = true;
 
   ThemeMode get themeMode => _themeMode;
   ColorSchemeType get colorSchemeType => _colorSchemeType;
@@ -80,7 +82,7 @@ class SettingsProvider extends ChangeNotifier {
     _colorSchemeType =
         ColorSchemeType.values[_prefs!.getInt(_colorSchemeKey) ??
             ColorSchemeType.dynamic.index];
-    _notifyEvery = _prefs!.getInt(_notifyEveryKey) ?? 1;
+
     _showAlcohol = _prefs!.getBool(_alcoholKey) ?? true;
     _showVaping = _prefs!.getBool(_vapingKey) ?? true;
     _showReset = _prefs!.getBool(_showResetKey) ?? true;
@@ -88,6 +90,10 @@ class SettingsProvider extends ChangeNotifier {
     _showOpioids = _prefs!.getBool(_opioidsKey) ?? true;
     _showSocialMedia = _prefs!.getBool(_socialMediaKey) ?? true;
     _showPornography = _prefs!.getBool(_pornographyKey) ?? true;
+    _showNicotinePouches = _prefs!.getBool(_nicotinePouchesKey) ?? true;
+    _showMarijuana = _prefs!.getBool(_marijuanaKey) ?? true;
+
+    _notifyEvery = _prefs!.getInt(_notifyEveryKey) ?? 1;
     _notifyAlcohol = _prefs!.getBool(_notifyAlcoholKey) ?? true;
     _notifyVaping = _prefs!.getBool(_notifyVapingKey) ?? true;
     _notifySmoking = _prefs!.getBool(_notifySmokingKey) ?? true;
@@ -96,8 +102,6 @@ class SettingsProvider extends ChangeNotifier {
     _notifyPornography = _prefs!.getBool(_notifyPornographyKey) ?? true;
     _notifyMarijuana = _prefs!.getBool(_notifyMarijuanaKey) ?? true;
     _notifyPouches = _prefs!.getBool(_notifyPouchesKey) ?? true;
-    _showNicotinePouches = _prefs!.getBool(_nicotinePouchesKey) ?? true;
-    _showMarijuana = _prefs!.getBool(_marijuanaKey) ?? true;
 
     notifyListeners();
   }
