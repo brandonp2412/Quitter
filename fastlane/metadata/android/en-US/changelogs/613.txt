@@ -1,0 +1,5 @@
+• Fix not remembering nicotine pouches notifications
+• Keep reset button on quit milestones page
+• Organize code in settings provider
+• Refactor quit milestones page
+• Refactor quit page template
