@@ -11,7 +11,7 @@ import 'package:quitter/timeline_tile.dart';
 import 'package:quitter/utils.dart';
 import 'package:share_plus/share_plus.dart';
 
-class QuitPageTemplate extends StatefulWidget {
+class ViewEntryPage extends StatefulWidget {
   final String title;
   final String storageKey;
   final List<QuitMilestone> milestones;
@@ -27,7 +27,7 @@ class QuitPageTemplate extends StatefulWidget {
   final Function(DateTime)? onQuitDateChanged;
   final Function(int days)? onResetPressed;
 
-  const QuitPageTemplate({
+  const ViewEntryPage({
     super.key,
     required this.title,
     required this.storageKey,
@@ -46,10 +46,10 @@ class QuitPageTemplate extends StatefulWidget {
   });
 
   @override
-  State<QuitPageTemplate> createState() => _QuitPageTemplateState();
+  State<ViewEntryPage> createState() => _ViewEntryPageState();
 }
 
-class _QuitPageTemplateState extends State<QuitPageTemplate> {
+class _ViewEntryPageState extends State<ViewEntryPage> {
   bool showConfetti = false;
   final TextEditingController controller = TextEditingController();
   final FocusNode _textNode = FocusNode();
@@ -88,7 +88,7 @@ class _QuitPageTemplateState extends State<QuitPageTemplate> {
   }
 
   @override
-  void didUpdateWidget(covariant QuitPageTemplate oldWidget) {
+  void didUpdateWidget(covariant ViewEntryPage oldWidget) {
     super.didUpdateWidget(oldWidget);
 
     if (widget.quitDateOverride != oldWidget.quitDateOverride) {

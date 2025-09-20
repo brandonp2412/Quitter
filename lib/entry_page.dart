@@ -3,7 +3,7 @@ import 'package:provider/provider.dart';
 import 'package:quitter/addiction_provider.dart';
 import 'package:quitter/entry.dart';
 import 'package:quitter/quit_milestone.dart';
-import 'package:quitter/quit_page_template.dart';
+import 'package:quitter/view_entry_page.dart';
 
 class EntryPage extends StatefulWidget {
   final Entry entry;
@@ -133,7 +133,7 @@ class _EntryPageState extends State<EntryPage> {
       builder: (context, entry, child) {
         final addictions = context.read<AddictionProvider>();
 
-        return QuitPageTemplate(
+        return ViewEntryPage(
           title: entry.title,
           storageKey: entry.id,
           shareTitle: entry.title,

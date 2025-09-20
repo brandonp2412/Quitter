@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:quitter/quit_milestone.dart';
-import 'package:quitter/quit_page_template.dart';
+import 'package:quitter/view_entry_page.dart';
 
 class PornographyPage extends StatelessWidget {
   final bool started;
@@ -88,7 +88,7 @@ class PornographyPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return QuitPageTemplate(
+    return ViewEntryPage(
       title: 'Pure & powerful',
       storageKey: 'pornography',
       milestones: milestones,
