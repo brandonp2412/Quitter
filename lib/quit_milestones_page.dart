@@ -247,7 +247,7 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
         label: const Text("Start"),
         icon: const Icon(Icons.rocket_launch),
       );
-    } else if (controller.text != '1') {
+    } else {
       fab = FloatingActionButton.extended(
         onPressed: () async {
           if (widget.onResetPressed != null) {
