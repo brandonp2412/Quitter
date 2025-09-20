@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:quitter/quit_milestone.dart';
-import 'package:quitter/view_entry_page.dart';
+import 'package:quitter/quit_milestones_page.dart';
 
 class OpioidPage extends StatelessWidget {
   final bool started;
@@ -94,7 +94,7 @@ class OpioidPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ViewEntryPage(
+    return QuitMilestonesPage(
       title: 'Path to peace',
       storageKey: 'opioids',
       milestones: milestones,
