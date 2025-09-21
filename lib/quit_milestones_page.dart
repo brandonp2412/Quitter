@@ -427,7 +427,6 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
                   },
                 ),
               ),
-              SizedBox(height: 36),
             ],
           ),
         ),
