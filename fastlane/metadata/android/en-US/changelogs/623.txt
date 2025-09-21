@@ -1,0 +1,5 @@
+• Fix clearing milestone days
+• Fix # of quit days being wrong by 1
+• Fix resetting milestones
+• Long press milestones to clear history
+• Remove spacing at end of milestones page
