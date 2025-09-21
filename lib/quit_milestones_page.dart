@@ -68,7 +68,7 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
     });
 
     controller.text =
-        '${DateFormat.yMMMd().format(quitDate!)} (${daysCeil(quitDate!.toIso8601String())} days)';
+        '${DateFormat.yMMMd().format(quitDate)} (${daysCeil(quitDate.toIso8601String())} days)';
 
     if (quitOn != null && widget.initialStarted) {
       final currentDayFromQuitOn = daysCeil(quitOn);
@@ -153,7 +153,7 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
       quitDate = date;
     });
     controller.text =
-        '${DateFormat.yMMMd().format(quitDate!)} (${daysCeil(quitDate!.toIso8601String())} days)';
+        '${DateFormat.yMMMd().format(quitDate)} (${daysCeil(quitDate.toIso8601String())} days)';
 
     if (!mounted) return;
     if (widget.onQuitDateChanged != null) {
@@ -305,7 +305,7 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
           });
 
           controller.text =
-              '${DateFormat.yMMMd().format(quitDate!)} (${daysCeil(quitDate!.toIso8601String())} days)';
+              '${DateFormat.yMMMd().format(quitDate)} (${daysCeil(quitDate.toIso8601String())} days)';
 
           final settings = context.read<SettingsProvider>();
           if (settings.notifyRelapse == false) return;
@@ -326,7 +326,7 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
                   quitDate = quit;
                 });
                 controller.text =
-                    '${DateFormat.yMMMd().format(quitDate!)} (${daysCeil(quitDate!.toIso8601String())} days)';
+                    '${DateFormat.yMMMd().format(quitDate)} (${daysCeil(quitDate.toIso8601String())} days)';
               },
             ),
           );
