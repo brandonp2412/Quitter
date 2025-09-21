@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:quitter/color_scheme_type.dart';
 import 'package:quitter/reminders.dart';
+import 'package:quitter/app_theme_mode.dart';
 
 class SettingsProvider extends ChangeNotifier {
   static const String _themeKey = 'theme_mode';
@@ -35,7 +36,7 @@ class SettingsProvider extends ChangeNotifier {
 
   SharedPreferences? _prefs;
 
-  ThemeMode _themeMode = ThemeMode.system;
+  AppThemeMode _themeMode = AppThemeMode.system;
   ColorSchemeType _colorSchemeType = ColorSchemeType.dynamic;
   int _notifyEvery = 1;
   int _notifyAt = 8 * 60;
@@ -48,7 +49,7 @@ class SettingsProvider extends ChangeNotifier {
     for (String key in _notifyKeys.keys) key: true,
   };
 
-  ThemeMode get themeMode => _themeMode;
+  AppThemeMode get themeMode => _themeMode;
   ColorSchemeType get colorSchemeType => _colorSchemeType;
   int get notifyEvery => _notifyEvery;
   int get notifyAt => _notifyAt;
@@ -76,8 +77,8 @@ class SettingsProvider extends ChangeNotifier {
   Future<void> loadPreferences() async {
     _prefs = await SharedPreferences.getInstance();
 
-    _themeMode =
-        ThemeMode.values[_prefs!.getInt(_themeKey) ?? ThemeMode.system.index];
+    _themeMode = AppThemeMode
+        .values[_prefs!.getInt(_themeKey) ?? AppThemeMode.system.index];
     _colorSchemeType =
         ColorSchemeType.values[_prefs!.getInt(_colorSchemeKey) ??
             ColorSchemeType.dynamic.index];
@@ -106,7 +107,7 @@ class SettingsProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-  set themeMode(ThemeMode mode) {
+  set themeMode(AppThemeMode mode) {
     _themeMode = mode;
     _prefs?.setInt(_themeKey, mode.index);
     notifyListeners();

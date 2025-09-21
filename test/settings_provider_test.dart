@@ -3,6 +3,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:quitter/color_scheme_type.dart';
 import 'package:quitter/settings_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:quitter/app_theme_mode.dart';
 
 void main() {
   group('SettingsProvider', () {
@@ -15,7 +16,7 @@ void main() {
     });
 
     test('initial values are correct', () {
-      expect(provider.themeMode, ThemeMode.system);
+      expect(provider.themeMode, AppThemeMode.system);
       expect(provider.colorSchemeType, ColorSchemeType.dynamic);
       expect(provider.showAlcohol, true);
       expect(provider.showVaping, true);
@@ -24,10 +25,10 @@ void main() {
     });
 
     test('themeMode setter updates theme mode', () async {
-      provider.themeMode = ThemeMode.dark;
-      expect(provider.themeMode, ThemeMode.dark);
+      provider.themeMode = AppThemeMode.dark;
+      expect(provider.themeMode, AppThemeMode.dark);
       final SharedPreferences prefs = await SharedPreferences.getInstance();
-      expect(prefs.getInt('theme_mode'), ThemeMode.dark.index);
+      expect(prefs.getInt('theme_mode'), AppThemeMode.dark.index);
     });
 
     test('colorSchemeType setter updates color scheme type', () async {
@@ -67,7 +68,7 @@ void main() {
 
     test('loadPreferences loads saved values', () async {
       SharedPreferences.setMockInitialValues({
-        'theme_mode': ThemeMode.dark.index,
+        'theme_mode': AppThemeMode.dark.index,
         'color_scheme': ColorSchemeType.red.index,
         'show_alcohol': false,
         'show_vaping': false,
@@ -77,7 +78,7 @@ void main() {
       provider = SettingsProvider();
       await provider.loadPreferences();
 
-      expect(provider.themeMode, ThemeMode.dark);
+      expect(provider.themeMode, AppThemeMode.dark);
       expect(provider.colorSchemeType, ColorSchemeType.red);
       expect(provider.showAlcohol, false);
       expect(provider.showVaping, false);

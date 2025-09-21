@@ -14,6 +14,7 @@ import 'package:quitter/utils.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:quitter/whats_new.dart';
 import 'dart:typed_data';
+import 'package:quitter/app_theme_mode.dart';
 
 class SettingsPage extends StatefulWidget {
   const SettingsPage({super.key});
@@ -504,23 +505,25 @@ class _SettingsPageState extends State<SettingsPage> {
     );
   }
 
-  String _getTheme(ThemeMode mode) {
+  String _getTheme(AppThemeMode mode) {
     switch (mode) {
-      case ThemeMode.light:
+      case AppThemeMode.light:
         return 'Light';
-      case ThemeMode.dark:
+      case AppThemeMode.dark:
         return 'Dark';
-      case ThemeMode.system:
+      case AppThemeMode.system:
         return 'System';
+      case AppThemeMode.pureBlack:
+        return 'Pure Black';
     }
   }
 
   void _showThemeDialog(BuildContext context, SettingsProvider settings) {
-    _showSelectionDialog<ThemeMode>(
+    _showSelectionDialog<AppThemeMode>(
       context: context,
       title: 'Theme Mode',
       currentValue: settings.themeMode,
-      options: ThemeMode.values,
+      options: AppThemeMode.values,
       getDisplayName: _getTheme,
       onChanged: (value) => settings.themeMode = value,
     );

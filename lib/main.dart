@@ -6,6 +6,7 @@ import 'package:quitter/app_scheme.dart';
 import 'package:quitter/home_page.dart';
 import 'package:quitter/settings_provider.dart';
 import 'package:quitter/reminders.dart';
+import 'package:quitter/app_theme_mode.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -42,15 +43,29 @@ class QuitterApp extends StatelessWidget {
               Brightness.light,
               lightDynamic,
             );
-            final darkColorScheme = AppScheme.getColorScheme(
+            ColorScheme darkColorScheme = AppScheme.getColorScheme(
               settings.colorSchemeType,
               Brightness.dark,
               darkDynamic,
             );
 
+            if (settings.themeMode == AppThemeMode.pureBlack) {
+              darkColorScheme = darkColorScheme.copyWith(
+                surface: Colors.black,
+                surfaceContainer: const Color(0xFF0A0A0A),
+                surfaceContainerLow: Colors.black,
+                surfaceContainerLowest: Colors.black,
+                surfaceContainerHigh: const Color(0xFF151515),
+                surfaceContainerHighest: const Color(0xFF1A1A1A),
+                onSurface: Colors.white,
+                outline: const Color(0xFF404040),
+                outlineVariant: const Color(0xFF303030),
+              );
+            }
+
             return MaterialApp(
               title: 'Quitter',
-              themeMode: settings.themeMode,
+              themeMode: settings.themeMode.toThemeMode(),
               theme: ThemeData(
                 colorScheme: lightColorScheme,
                 useMaterial3: true,
@@ -58,6 +73,10 @@ class QuitterApp extends StatelessWidget {
               darkTheme: ThemeData(
                 colorScheme: darkColorScheme,
                 useMaterial3: true,
+                scaffoldBackgroundColor:
+                    settings.themeMode == AppThemeMode.pureBlack
+                    ? Colors.black
+                    : null,
               ),
               home: const HomePage(),
             );
