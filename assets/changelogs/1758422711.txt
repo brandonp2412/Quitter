@@ -1,0 +1,3 @@
+• Fix journeys not yet started
+• Fix lints
+• Scroll quicker on screenshot test
