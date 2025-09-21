@@ -51,6 +51,7 @@ class QuitMilestonesPage extends StatefulWidget {
 
 class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
   bool showConfetti = false;
+  bool started = false;
   ScrollController _scroll = ScrollController();
   final controller = TextEditingController();
   DateTime quitDate = DateTime.now();
@@ -65,13 +66,14 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
 
     setState(() {
       if (quitOn != null) quitDate = DateTime.parse(quitOn);
+      started = widget.initialStarted;
     });
 
     controller.text =
         '${DateFormat.yMMMd().format(quitDate)} (${daysCeil(quitDate.toIso8601String())} days)';
 
-    if (quitOn != null && widget.initialStarted) {
-      final currentDayFromQuitOn = daysCeil(quitOn);
+    if (started) {
+      final currentDayFromQuitOn = daysCeil(quitDate.toIso8601String());
       final index = widget.milestones.indexWhere(
         (m) => currentDayFromQuitOn < m.day,
       );
@@ -102,15 +104,13 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
 
     setState(() {
       showConfetti = true;
+      started = true;
     });
 
-    final day = int.tryParse(controller.text) ?? 0;
-    final date = DateTime.now().subtract(Duration(days: day));
-
     if (widget.onQuitDateChanged != null) {
-      widget.onQuitDateChanged!(date);
+      widget.onQuitDateChanged!(quitDate);
     } else {
-      addictions.setAddiction(widget.storageKey, date.toIso8601String());
+      addictions.setAddiction(widget.storageKey, quitDate.toIso8601String());
     }
 
     Future.delayed(const Duration(milliseconds: 2500), () {
@@ -151,6 +151,7 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
     if (date == null) return;
     setState(() {
       quitDate = date;
+      started = true;
     });
     controller.text =
         '${DateFormat.yMMMd().format(quitDate)} (${daysCeil(quitDate.toIso8601String())} days)';
@@ -161,6 +162,7 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
     } else {
       final addictions = context.read<AddictionProvider>();
       addictions.setAddiction(widget.storageKey, date.toIso8601String());
+      addictions.loadAddictions();
     }
   }
 
@@ -283,7 +285,7 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
     final days = daysCeil(quitDate.toIso8601String());
 
     Widget? fab;
-    if (widget.initialStarted == false) {
+    if (started == false) {
       fab = FloatingActionButton.extended(
         key: const ValueKey('start_fab'),
         onPressed: _handleStartPressed,
@@ -367,14 +369,14 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
                   children: [
                     const SizedBox(height: 8),
                     Text(
-                      widget.initialStarted
+                      started
                           ? widget.headerTextStartedBuilder(days)
                           : widget.headerTextNotStarted,
                       style: Theme.of(context).textTheme.headlineMedium,
                     ),
                     const SizedBox(height: 8),
                     Text(
-                      widget.initialStarted
+                      started
                           ? widget.headerSubtitleStartedBuilder(days)
                           : widget.headerSubtitleNotStarted,
                       style: Theme.of(context).textTheme.titleMedium,
