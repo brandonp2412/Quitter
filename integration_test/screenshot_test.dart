@@ -191,7 +191,7 @@ void main() {
         goToPage: (context) async {
           navigate(context: context, page: const SettingsPage());
           await tester.pumpAndSettle();
-          await tester.scrollUntilVisible(find.text('Clear history'), 80);
+          await tester.scrollUntilVisible(find.text('Clear history'), 200);
           await tester.pumpAndSettle();
         },
       ),
