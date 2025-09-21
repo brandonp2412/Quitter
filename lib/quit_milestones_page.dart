@@ -53,7 +53,7 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
   bool showConfetti = false;
   ScrollController _scroll = ScrollController();
   final controller = TextEditingController();
-  late DateTime? quitDate;
+  DateTime quitDate = DateTime.now();
 
   @override
   void initState() {
@@ -280,12 +280,10 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
     final colorScheme = theme.colorScheme;
     final settings = context.watch<SettingsProvider>();
     final addictions = context.watch<AddictionProvider>();
-    final days = daysCeil(
-      quitDate?.toIso8601String() ?? DateTime.now().toIso8601String(),
-    );
+    final days = daysCeil(quitDate.toIso8601String());
 
     Widget? fab;
-    if (quitDate == null) {
+    if (widget.initialStarted == false) {
       fab = FloatingActionButton.extended(
         key: const ValueKey('start_fab'),
         onPressed: _handleStartPressed,
