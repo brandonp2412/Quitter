@@ -19,9 +19,7 @@ int daysCeil(String dateStr) {
   final today = DateTime.now();
   final currentDate = DateTime(today.year, today.month, today.day);
 
-  var daysBetween = currentDate.difference(quitDate).inDays;
-  if (daysBetween == 0) daysBetween = 1;
-  return daysBetween;
+  return currentDate.difference(quitDate).inDays + 1;
 }
 
 void toast(
