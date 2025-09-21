@@ -229,9 +229,31 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
                     child: FilledButton(
                       onPressed: () {
                         Navigator.pop(context);
+                        final allDaysAchieved =
+                            widget.customDaysAchieved.isNotEmpty
+                            ? widget.customDaysAchieved
+                            : context.read<AddictionProvider>().getDays(
+                                widget.storageKey,
+                              );
+
+                        final List<int> daysToClear = [];
+                        for (int achievedDay in allDaysAchieved) {
+                          int closestMilestoneDay = 0;
+                          for (QuitMilestone m in widget.milestones) {
+                            if (m.day <= achievedDay) {
+                              closestMilestoneDay = m.day;
+                            } else {
+                              break;
+                            }
+                          }
+                          if (closestMilestoneDay == milestone.day) {
+                            daysToClear.add(achievedDay);
+                          }
+                        }
+
                         context.read<AddictionProvider>().clearMilestoneDays(
                           widget.storageKey,
-                          milestone.day,
+                          daysToClear,
                         );
                       },
                       style: FilledButton.styleFrom(
