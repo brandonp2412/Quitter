@@ -9,6 +9,15 @@ void selectAll(TextEditingController ctrl) {
   ctrl.selection = TextSelection(baseOffset: 0, extentOffset: ctrl.text.length);
 }
 
+String getTimeString(int totalMinutes) {
+  final hours = totalMinutes ~/ 60;
+  final minutes = totalMinutes % 60;
+  final hour12 = hours == 0 ? 12 : (hours > 12 ? hours - 12 : hours);
+  final amPm = hours < 12 ? 'AM' : 'PM';
+  final minutesStr = minutes.toString().padLeft(2, '0');
+  return '$hour12:$minutesStr $amPm';
+}
+
 int daysCeil(String dateStr) {
   final quitDateTime = DateTime.parse(dateStr);
   final quitDate = DateTime(

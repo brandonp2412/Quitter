@@ -369,7 +369,9 @@ class _SettingsPageState extends State<SettingsPage> {
       ListTile(
         leading: const Icon(Icons.schedule),
         title: const Text('Notification Frequency'),
-        subtitle: Text('Every ${settings.notifyEvery} day(s)'),
+        subtitle: Text(
+          'Every ${settings.notifyEvery} day(s) at ${getTimeString(settings.notifyAt)}',
+        ),
         onTap: () => _showNotificationFrequencyDialog(context, settings),
       ),
       const Divider(height: 1),
@@ -582,21 +584,55 @@ class _SettingsPageState extends State<SettingsPage> {
     showDialog(
       context: context,
       builder: (context) {
-        final controller = TextEditingController(
+        final everyCtrl = TextEditingController(
           text: settings.notifyEvery.toString(),
+        );
+
+        final atCtrl = TextEditingController(
+          text: getTimeString(settings.notifyAt),
         );
 
         return AlertDialog(
           title: const Text('Notification Frequency'),
-          content: TextField(
-            controller: controller,
-            keyboardType: TextInputType.number,
-            decoration: const InputDecoration(
-              labelText: 'Notify every',
-              suffixText: 'day(s)',
-              border: OutlineInputBorder(),
+          content: SingleChildScrollView(
+            child: Column(
+              children: [
+                TextField(
+                  controller: everyCtrl,
+                  keyboardType: TextInputType.number,
+                  decoration: const InputDecoration(
+                    labelText: 'Notify every',
+                    suffixText: 'day(s)',
+                    border: OutlineInputBorder(),
+                  ),
+                  autofocus: true,
+                ),
+                const SizedBox(height: 16),
+                TextField(
+                  controller: atCtrl,
+                  keyboardType: TextInputType.number,
+                  decoration: const InputDecoration(
+                    labelText: 'At',
+                    border: OutlineInputBorder(),
+                  ),
+                  autofocus: true,
+                  onTap: () async {
+                    final hours = settings.notifyAt ~/ 60;
+                    final minutes = settings.notifyAt % 60;
+                    final result = await showTimePicker(
+                      context: context,
+                      initialTime: TimeOfDay(hour: hours, minute: minutes),
+                    );
+
+                    if (result != null) {
+                      final totalMinutes = result.hour * 60 + result.minute;
+                      atCtrl.text = getTimeString(totalMinutes);
+                      settings.notifyAt = totalMinutes;
+                    }
+                  },
+                ),
+              ],
             ),
-            autofocus: true,
           ),
           actions: [
             TextButton(
@@ -605,7 +641,7 @@ class _SettingsPageState extends State<SettingsPage> {
             ),
             TextButton(
               onPressed: () {
-                final days = int.tryParse(controller.text);
+                final days = int.tryParse(everyCtrl.text);
                 if (days != null && days > 0) {
                   settings.notifyEvery = days;
                   Navigator.pop(context);

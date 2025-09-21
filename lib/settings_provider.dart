@@ -17,6 +17,7 @@ class SettingsProvider extends ChangeNotifier {
   static const String _pornographyKey = 'show_pornography';
 
   static const String _notifyEveryKey = 'notify_every';
+  static const String _notifyAtKey = 'notify_at';
   static const String _notifyAlcoholKey = 'notify_alcohol';
   static const String _notifyMarijuanaKey = 'notify_marijuana';
   static const String _notifyVapingKey = 'notify_vaping';
@@ -42,6 +43,7 @@ class SettingsProvider extends ChangeNotifier {
   bool _showReset = true;
 
   int _notifyEvery = 1;
+  int _notifyAt = 8 * 60;
   bool _notifyAlcohol = true;
   bool _notifyVaping = true;
   bool _notifySmoking = true;
@@ -61,6 +63,7 @@ class SettingsProvider extends ChangeNotifier {
   bool get showNicotinePouches => _showNicotinePouches;
   bool get showMarijuana => _showMarijuana;
   int get notifyEvery => _notifyEvery;
+  int get notifyAt => _notifyAt;
   bool get showOpioids => _showOpioids;
   bool get showSocialMedia => _showSocialMedia;
   bool get showPornography => _showPornography;
@@ -93,6 +96,7 @@ class SettingsProvider extends ChangeNotifier {
     _showNicotinePouches = _prefs!.getBool(_nicotinePouchesKey) ?? true;
     _showMarijuana = _prefs!.getBool(_marijuanaKey) ?? true;
 
+    _notifyAt = _prefs!.getInt(_notifyAtKey) ?? (8 * 60);
     _notifyEvery = _prefs!.getInt(_notifyEveryKey) ?? 1;
     _notifyAlcohol = _prefs!.getBool(_notifyAlcoholKey) ?? true;
     _notifyVaping = _prefs!.getBool(_notifyVapingKey) ?? true;
@@ -110,6 +114,14 @@ class SettingsProvider extends ChangeNotifier {
     _themeMode = mode;
     _prefs?.setInt(_themeKey, mode.index);
     notifyListeners();
+  }
+
+  set notifyAt(int value) {
+    _notifyAt = value;
+    _prefs?.setInt(_notifyAtKey, value);
+    notifyListeners();
+    cancelReminders();
+    setupReminders();
   }
 
   set notifyEvery(int days) {

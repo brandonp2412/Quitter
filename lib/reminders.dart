@@ -13,11 +13,20 @@ Timer? timer;
 Future<void> setupReminders() async {
   if (kIsWeb) return;
 
-  final settingsProvider = SettingsProvider();
-  await settingsProvider.loadPreferences();
-  final notifyDays = settingsProvider.notifyEvery;
+  final settings = SettingsProvider();
+  await settings.loadPreferences();
+  final notifyDays = settings.notifyEvery;
 
   if (notifyDays == 0) return cancelReminders();
+
+  final hours = settings.notifyAt ~/ 60;
+  final minutes = settings.notifyAt % 60;
+  final now = DateTime.now();
+  var nextRun = DateTime(now.year, now.month, now.day, hours, minutes);
+  if (now.isAfter(nextRun)) {
+    nextRun = nextRun.add(Duration(days: notifyDays));
+  }
+  final initialDelay = nextRun.difference(now);
 
   if (defaultTargetPlatform == TargetPlatform.android ||
       defaultTargetPlatform == TargetPlatform.iOS) {
@@ -26,6 +35,7 @@ Future<void> setupReminders() async {
       "reminders",
       "reminders",
       frequency: Duration(days: notifyDays),
+      initialDelay: initialDelay,
     );
     return;
   }
