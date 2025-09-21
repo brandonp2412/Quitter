@@ -6,76 +6,72 @@ import 'package:quitter/reminders.dart';
 class SettingsProvider extends ChangeNotifier {
   static const String _themeKey = 'theme_mode';
   static const String _colorSchemeKey = 'color_scheme';
-  static const String _alcoholKey = 'show_alcohol';
-  static const String _nicotinePouchesKey = 'show_nicotine_pouches';
-  static const String _marijuanaKey = 'show_marijuana';
-  static const String _showResetKey = 'show_reset';
-  static const String _vapingKey = 'show_vaping';
-  static const String _smokingKey = 'show_smoking';
-  static const String _opioidsKey = 'show_opioids';
-  static const String _socialMediaKey = 'show_social_media';
-  static const String _pornographyKey = 'show_pornography';
-
   static const String _notifyEveryKey = 'notify_every';
   static const String _notifyAtKey = 'notify_at';
-  static const String _notifyAlcoholKey = 'notify_alcohol';
-  static const String _notifyMarijuanaKey = 'notify_marijuana';
-  static const String _notifyVapingKey = 'notify_vaping';
-  static const String _notifySmokingKey = 'notify_smoking';
-  static const String _notifyOpioidsKey = 'notify_opioids';
-  static const String _notifyPouchesKey = 'notify_nicotine_pouches';
-  static const String _notifyRelapseKey = 'notify_relapse';
-  static const String _notifySocialMediaKey = 'notify_social_media';
-  static const String _notifyPornographyKey = 'notify_pornography';
+
+  static const Map<String, String> _showKeys = {
+    'alcohol': 'show_alcohol',
+    'nicotinePouches': 'show_nicotine_pouches',
+    'marijuana': 'show_marijuana',
+    'reset': 'show_reset',
+    'vaping': 'show_vaping',
+    'smoking': 'show_smoking',
+    'opioids': 'show_opioids',
+    'socialMedia': 'show_social_media',
+    'pornography': 'show_pornography',
+  };
+
+  static const Map<String, String> _notifyKeys = {
+    'alcohol': 'notify_alcohol',
+    'marijuana': 'notify_marijuana',
+    'vaping': 'notify_vaping',
+    'smoking': 'notify_smoking',
+    'opioids': 'notify_opioids',
+    'pouches': 'notify_nicotine_pouches',
+    'relapse': 'notify_relapse',
+    'socialMedia': 'notify_social_media',
+    'pornography': 'notify_pornography',
+  };
 
   SharedPreferences? _prefs;
 
   ThemeMode _themeMode = ThemeMode.system;
   ColorSchemeType _colorSchemeType = ColorSchemeType.dynamic;
-  bool _showAlcohol = true;
-  bool _showVaping = true;
-  bool _showSmoking = true;
-  bool _showNicotinePouches = true;
-  bool _showOpioids = true;
-  bool _showSocialMedia = true;
-  bool _showPornography = true;
-  bool _showMarijuana = true;
-  bool _showReset = true;
-
   int _notifyEvery = 1;
   int _notifyAt = 8 * 60;
-  bool _notifyAlcohol = true;
-  bool _notifyVaping = true;
-  bool _notifySmoking = true;
-  bool _notifyOpioids = true;
-  bool _notifyPouches = true;
-  bool _notifySocialMedia = true;
-  bool _notifyPornography = true;
-  bool _notifyRelapse = true;
-  bool _notifyMarijuana = true;
+
+  final Map<String, bool> _showSettings = {
+    for (String key in _showKeys.keys) key: true,
+  };
+
+  final Map<String, bool> _notifySettings = {
+    for (String key in _notifyKeys.keys) key: true,
+  };
 
   ThemeMode get themeMode => _themeMode;
   ColorSchemeType get colorSchemeType => _colorSchemeType;
-  bool get showAlcohol => _showAlcohol;
-  bool get showReset => _showReset;
-  bool get showVaping => _showVaping;
-  bool get showSmoking => _showSmoking;
-  bool get showNicotinePouches => _showNicotinePouches;
-  bool get showMarijuana => _showMarijuana;
   int get notifyEvery => _notifyEvery;
   int get notifyAt => _notifyAt;
-  bool get showOpioids => _showOpioids;
-  bool get showSocialMedia => _showSocialMedia;
-  bool get showPornography => _showPornography;
-  bool get notifyAlcohol => _notifyAlcohol;
-  bool get notifyVaping => _notifyVaping;
-  bool get notifySmoking => _notifySmoking;
-  bool get notifyOpioids => _notifyOpioids;
-  bool get notifyPouches => _notifyPouches;
-  bool get notifySocialMedia => _notifySocialMedia;
-  bool get notifyPornography => _notifyPornography;
-  bool get notifyRelapse => _notifyRelapse;
-  bool get notifyMarijuana => _notifyMarijuana;
+
+  bool get showAlcohol => _showSettings['alcohol']!;
+  bool get showReset => _showSettings['reset']!;
+  bool get showVaping => _showSettings['vaping']!;
+  bool get showSmoking => _showSettings['smoking']!;
+  bool get showNicotinePouches => _showSettings['nicotinePouches']!;
+  bool get showMarijuana => _showSettings['marijuana']!;
+  bool get showOpioids => _showSettings['opioids']!;
+  bool get showSocialMedia => _showSettings['socialMedia']!;
+  bool get showPornography => _showSettings['pornography']!;
+
+  bool get notifyAlcohol => _notifySettings['alcohol']!;
+  bool get notifyVaping => _notifySettings['vaping']!;
+  bool get notifySmoking => _notifySettings['smoking']!;
+  bool get notifyOpioids => _notifySettings['opioids']!;
+  bool get notifyPouches => _notifySettings['pouches']!;
+  bool get notifySocialMedia => _notifySettings['socialMedia']!;
+  bool get notifyPornography => _notifySettings['pornography']!;
+  bool get notifyRelapse => _notifySettings['relapse']!;
+  bool get notifyMarijuana => _notifySettings['marijuana']!;
 
   Future<void> loadPreferences() async {
     _prefs = await SharedPreferences.getInstance();
@@ -85,34 +81,40 @@ class SettingsProvider extends ChangeNotifier {
     _colorSchemeType =
         ColorSchemeType.values[_prefs!.getInt(_colorSchemeKey) ??
             ColorSchemeType.dynamic.index];
-
-    _showAlcohol = _prefs!.getBool(_alcoholKey) ?? true;
-    _showVaping = _prefs!.getBool(_vapingKey) ?? true;
-    _showReset = _prefs!.getBool(_showResetKey) ?? true;
-    _showSmoking = _prefs!.getBool(_smokingKey) ?? true;
-    _showOpioids = _prefs!.getBool(_opioidsKey) ?? true;
-    _showSocialMedia = _prefs!.getBool(_socialMediaKey) ?? true;
-    _showPornography = _prefs!.getBool(_pornographyKey) ?? true;
-    _showNicotinePouches = _prefs!.getBool(_nicotinePouchesKey) ?? true;
-    _showMarijuana = _prefs!.getBool(_marijuanaKey) ?? true;
-
     _notifyAt = _prefs!.getInt(_notifyAtKey) ?? (8 * 60);
     _notifyEvery = _prefs!.getInt(_notifyEveryKey) ?? 1;
-    _notifyAlcohol = _prefs!.getBool(_notifyAlcoholKey) ?? true;
-    _notifyVaping = _prefs!.getBool(_notifyVapingKey) ?? true;
-    _notifySmoking = _prefs!.getBool(_notifySmokingKey) ?? true;
-    _notifyOpioids = _prefs!.getBool(_notifyOpioidsKey) ?? true;
-    _notifySocialMedia = _prefs!.getBool(_notifySocialMediaKey) ?? true;
-    _notifyPornography = _prefs!.getBool(_notifyPornographyKey) ?? true;
-    _notifyMarijuana = _prefs!.getBool(_notifyMarijuanaKey) ?? true;
-    _notifyPouches = _prefs!.getBool(_notifyPouchesKey) ?? true;
 
+    _showKeys.forEach((key, prefKey) {
+      _showSettings[key] = _prefs!.getBool(prefKey) ?? true;
+    });
+
+    _notifyKeys.forEach((key, prefKey) {
+      _notifySettings[key] = _prefs!.getBool(prefKey) ?? true;
+    });
+
+    notifyListeners();
+  }
+
+  void _updateBoolSetting(
+    Map<String, bool> settings,
+    Map<String, String> keys,
+    String key,
+    bool value,
+  ) {
+    settings[key] = value;
+    _prefs?.setBool(keys[key]!, value);
     notifyListeners();
   }
 
   set themeMode(ThemeMode mode) {
     _themeMode = mode;
     _prefs?.setInt(_themeKey, mode.index);
+    notifyListeners();
+  }
+
+  set colorSchemeType(ColorSchemeType type) {
+    _colorSchemeType = type;
+    _prefs?.setInt(_colorSchemeKey, type.index);
     notifyListeners();
   }
 
@@ -132,117 +134,41 @@ class SettingsProvider extends ChangeNotifier {
     setupReminders();
   }
 
-  set colorSchemeType(ColorSchemeType type) {
-    _colorSchemeType = type;
-    _prefs?.setInt(_colorSchemeKey, type.index);
-    notifyListeners();
-  }
+  set showAlcohol(bool show) =>
+      _updateBoolSetting(_showSettings, _showKeys, 'alcohol', show);
+  set showReset(bool show) =>
+      _updateBoolSetting(_showSettings, _showKeys, 'reset', show);
+  set showVaping(bool show) =>
+      _updateBoolSetting(_showSettings, _showKeys, 'vaping', show);
+  set showSmoking(bool show) =>
+      _updateBoolSetting(_showSettings, _showKeys, 'smoking', show);
+  set showNicotinePouches(bool show) =>
+      _updateBoolSetting(_showSettings, _showKeys, 'nicotinePouches', show);
+  set showMarijuana(bool show) =>
+      _updateBoolSetting(_showSettings, _showKeys, 'marijuana', show);
+  set showOpioids(bool show) =>
+      _updateBoolSetting(_showSettings, _showKeys, 'opioids', show);
+  set showSocialMedia(bool show) =>
+      _updateBoolSetting(_showSettings, _showKeys, 'socialMedia', show);
+  set showPornography(bool show) =>
+      _updateBoolSetting(_showSettings, _showKeys, 'pornography', show);
 
-  set showMarijuana(bool show) {
-    _showMarijuana = show;
-    _prefs?.setBool(_marijuanaKey, show);
-    notifyListeners();
-  }
-
-  set showReset(bool show) {
-    _showReset = show;
-    _prefs?.setBool(_showResetKey, show);
-    notifyListeners();
-  }
-
-  set showNicotinePouches(bool show) {
-    _showNicotinePouches = show;
-    _prefs?.setBool(_nicotinePouchesKey, show);
-    notifyListeners();
-  }
-
-  set showAlcohol(bool show) {
-    _showAlcohol = show;
-    _prefs?.setBool(_alcoholKey, show);
-    notifyListeners();
-  }
-
-  set showVaping(bool show) {
-    _showVaping = show;
-    _prefs?.setBool(_vapingKey, show);
-    notifyListeners();
-  }
-
-  set showSmoking(bool show) {
-    _showSmoking = show;
-    _prefs?.setBool(_smokingKey, show);
-    notifyListeners();
-  }
-
-  set showOpioids(bool show) {
-    _showOpioids = show;
-    _prefs?.setBool(_opioidsKey, show);
-    notifyListeners();
-  }
-
-  set showSocialMedia(bool show) {
-    _showSocialMedia = show;
-    _prefs?.setBool(_socialMediaKey, show);
-    notifyListeners();
-  }
-
-  set showPornography(bool show) {
-    _showPornography = show;
-    _prefs?.setBool(_pornographyKey, show);
-    notifyListeners();
-  }
-
-  set notifyRelapse(bool notify) {
-    _notifyRelapse = notify;
-    _prefs?.setBool(_notifyRelapseKey, notify);
-    notifyListeners();
-  }
-
-  set notifyPouches(bool notify) {
-    _notifyPouches = notify;
-    _prefs?.setBool(_notifyPouchesKey, notify);
-    notifyListeners();
-  }
-
-  set notifyAlcohol(bool notify) {
-    _notifyAlcohol = notify;
-    _prefs?.setBool(_notifyAlcoholKey, notify);
-    notifyListeners();
-  }
-
-  set notifyMarijuana(bool notify) {
-    _notifyMarijuana = notify;
-    _prefs?.setBool(_notifyMarijuanaKey, notify);
-    notifyListeners();
-  }
-
-  set notifyVaping(bool notify) {
-    _notifyVaping = notify;
-    _prefs?.setBool(_notifyVapingKey, notify);
-    notifyListeners();
-  }
-
-  set notifySmoking(bool notify) {
-    _notifySmoking = notify;
-    _prefs?.setBool(_notifySmokingKey, notify);
-    notifyListeners();
-  }
-
-  set notifyOpioids(bool notify) {
-    _notifyOpioids = notify;
-    _prefs?.setBool(_notifyOpioidsKey, notify);
-    notifyListeners();
-  }
-
-  set notifySocialMedia(bool notify) {
-    _notifySocialMedia = notify;
-    _prefs?.setBool(_notifySocialMediaKey, notify);
-    notifyListeners();
-  }
-
-  set notifyPornography(bool notify) {
-    _notifyPornography = notify;
-    _prefs?.setBool(_notifyPornographyKey, notify);
-    notifyListeners();
-  }
+  set notifyAlcohol(bool notify) =>
+      _updateBoolSetting(_notifySettings, _notifyKeys, 'alcohol', notify);
+  set notifyVaping(bool notify) =>
+      _updateBoolSetting(_notifySettings, _notifyKeys, 'vaping', notify);
+  set notifySmoking(bool notify) =>
+      _updateBoolSetting(_notifySettings, _notifyKeys, 'smoking', notify);
+  set notifyOpioids(bool notify) =>
+      _updateBoolSetting(_notifySettings, _notifyKeys, 'opioids', notify);
+  set notifyPouches(bool notify) =>
+      _updateBoolSetting(_notifySettings, _notifyKeys, 'pouches', notify);
+  set notifySocialMedia(bool notify) =>
+      _updateBoolSetting(_notifySettings, _notifyKeys, 'socialMedia', notify);
+  set notifyPornography(bool notify) =>
+      _updateBoolSetting(_notifySettings, _notifyKeys, 'pornography', notify);
+  set notifyRelapse(bool notify) =>
+      _updateBoolSetting(_notifySettings, _notifyKeys, 'relapse', notify);
+  set notifyMarijuana(bool notify) =>
+      _updateBoolSetting(_notifySettings, _notifyKeys, 'marijuana', notify);
 }
