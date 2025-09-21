@@ -5,9 +5,9 @@ import 'package:provider/provider.dart';
 import 'package:quitter/addiction_provider.dart';
 import 'package:quitter/edit_entry_page.dart';
 import 'package:quitter/entry.dart';
+import 'package:quitter/home_page.dart';
 import 'package:quitter/marijuana_page.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-
 import 'package:quitter/main.dart' as app;
 import 'package:quitter/alcohol_page.dart';
 import 'package:quitter/settings_page.dart';
@@ -47,7 +47,7 @@ Future<void> screenshot({
   await tester.pumpAndSettle();
 
   if (goToPage != null) {
-    final BuildContext context = tester.element(find.byType(app.HomePage));
+    final BuildContext context = tester.element(find.byType(HomePage));
     if (context.mounted) await goToPage(context);
   }
 
