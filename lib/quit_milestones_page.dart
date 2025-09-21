@@ -319,7 +319,7 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
               onPressed: () {
                 addictions.setAddiction(
                   widget.storageKey,
-                  quit?.toIso8601String(),
+                  quit.toIso8601String(),
                 );
 
                 setState(() {
@@ -367,14 +367,14 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
                   children: [
                     const SizedBox(height: 8),
                     Text(
-                      quitDate != null
+                      widget.initialStarted
                           ? widget.headerTextStartedBuilder(days)
                           : widget.headerTextNotStarted,
                       style: Theme.of(context).textTheme.headlineMedium,
                     ),
                     const SizedBox(height: 8),
                     Text(
-                      quitDate != null
+                      widget.initialStarted
                           ? widget.headerSubtitleStartedBuilder(days)
                           : widget.headerSubtitleNotStarted,
                       style: Theme.of(context).textTheme.titleMedium,
