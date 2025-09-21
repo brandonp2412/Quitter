@@ -12,38 +12,48 @@ Timer? timer;
 
 Future<void> setupReminders() async {
   if (kIsWeb) return;
-
   final settings = SettingsProvider();
   await settings.loadPreferences();
-  final notifyDays = settings.notifyEvery;
-
-  if (notifyDays == 0) return cancelReminders();
+  if (settings.notifyEvery == 0) return cancelReminders();
 
   final hours = settings.notifyAt ~/ 60;
   final minutes = settings.notifyAt % 60;
   final now = DateTime.now();
   var nextRun = DateTime(now.year, now.month, now.day, hours, minutes);
+
   if (now.isAfter(nextRun)) {
-    nextRun = nextRun.add(Duration(days: notifyDays));
+    nextRun = nextRun.add(Duration(days: settings.notifyEvery));
   }
+
   final initialDelay = nextRun.difference(now);
 
   if (defaultTargetPlatform == TargetPlatform.android ||
       defaultTargetPlatform == TargetPlatform.iOS) {
     Workmanager().initialize(doMobileReminders);
+
+    Workmanager().registerOneOffTask(
+      "reminder_oneoff",
+      "reminders",
+      initialDelay: initialDelay,
+    );
+
     Workmanager().registerPeriodicTask(
       "reminders",
       "reminders",
-      frequency: Duration(days: notifyDays),
-      initialDelay: initialDelay,
+      frequency: Duration(days: settings.notifyEvery),
+      initialDelay: initialDelay + Duration(days: settings.notifyEvery),
     );
     return;
   }
 
-  timer = Timer.periodic(
-    Duration(days: notifyDays),
-    (timer) => doDesktopReminders(),
-  );
+  Timer(initialDelay, () => doDesktopReminders());
+
+  Timer(initialDelay + Duration(days: settings.notifyEvery), () {
+    timer = Timer.periodic(
+      Duration(days: settings.notifyEvery),
+      (timer) => doDesktopReminders(),
+    );
+  });
 }
 
 Future<void> notifyProgress(FlutterLocalNotificationsPlugin plugin) async {
