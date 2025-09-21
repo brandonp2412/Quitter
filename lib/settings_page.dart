@@ -610,7 +610,7 @@ class _SettingsPageState extends State<SettingsPage> {
                 const SizedBox(height: 16),
                 TextField(
                   controller: atCtrl,
-                  keyboardType: TextInputType.number,
+                  readOnly: true,
                   decoration: const InputDecoration(
                     labelText: 'At',
                     border: OutlineInputBorder(),
