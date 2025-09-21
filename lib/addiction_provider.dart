@@ -127,6 +127,14 @@ class AddictionProvider extends ChangeNotifier {
     setAddiction(key, DateTime.now().toIso8601String());
   }
 
+  Future<void> clearMilestoneDays(String key, int milestoneDay) async {
+    if (_days.containsKey(key)) {
+      _days[key]?.removeWhere((day) => day == milestoneDay);
+      await _saveDays();
+      notifyListeners();
+    }
+  }
+
   void clearDays() async {
     await _pref?.remove('days');
     _days = {};
