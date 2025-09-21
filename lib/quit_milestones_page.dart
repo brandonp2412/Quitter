@@ -51,76 +51,24 @@ class QuitMilestonesPage extends StatefulWidget {
 
 class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
   bool showConfetti = false;
-  final TextEditingController controller = TextEditingController();
-  final FocusNode _textNode = FocusNode();
   ScrollController _scroll = ScrollController();
-  late int _day;
+  final controller = TextEditingController();
+  late DateTime? quitDate;
 
   @override
   void initState() {
     super.initState();
-    _initializeCurrentDay();
-    _updateControllerText();
-    _initScrollController();
-    _textNode.addListener(_onFocusChanged);
-  }
 
-  @override
-  void dispose() {
-    _textNode.removeListener(_onFocusChanged);
-    _textNode.dispose();
-    controller.dispose();
-    _scroll.dispose();
-    super.dispose();
-  }
-
-  void _onFocusChanged() {
-    if (!_textNode.hasFocus) {
-      final parsed = int.tryParse(controller.text);
-      if (parsed != null && parsed != _day) {
-        _updateQuitDateFromDay(parsed);
-      } else if (parsed == null && _day != 1) {
-        _updateQuitDateFromDay(1);
-      }
-
-      _updateControllerText();
-    }
-  }
-
-  @override
-  void didUpdateWidget(covariant QuitMilestonesPage oldWidget) {
-    super.didUpdateWidget(oldWidget);
-
-    if (widget.quitDateOverride != oldWidget.quitDateOverride) {
-      if (!_textNode.hasFocus) {
-        _initializeCurrentDay();
-        _updateControllerText();
-      }
-    }
-  }
-
-  void _initializeCurrentDay() {
     final addictions = context.read<AddictionProvider>();
-    final quitOn =
+    var quitOn =
         widget.quitDateOverride ?? addictions.getAddiction(widget.storageKey);
 
-    if (quitOn == null || !widget.initialStarted) {
-      _day = 1;
-    } else {
-      _day = daysCeil(quitOn);
-    }
-  }
+    setState(() {
+      if (quitOn != null) quitDate = DateTime.parse(quitOn);
+    });
 
-  void _updateControllerText() {
-    if (controller.text != _day.toString()) {
-      controller.text = _day.toString();
-    }
-  }
-
-  void _initScrollController() {
-    final addictions = context.read<AddictionProvider>();
-    final quitOn =
-        widget.quitDateOverride ?? addictions.getAddiction(widget.storageKey);
+    controller.text =
+        '${DateFormat.yMMMd().format(quitDate!)} (${daysCeil(quitDate!.toIso8601String())} days)';
 
     if (quitOn != null && widget.initialStarted) {
       final currentDayFromQuitOn = daysCeil(quitOn);
@@ -130,6 +78,13 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
       final targetIndex = index == -1 ? widget.milestones.length - 1 : index;
       _scroll = ScrollController(initialScrollOffset: targetIndex * 270 - 230);
     }
+  }
+
+  @override
+  void dispose() {
+    controller.dispose();
+    _scroll.dispose();
+    super.dispose();
   }
 
   void _handleStartPressed() async {
@@ -167,26 +122,6 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
     });
   }
 
-  void _updateQuitDateFromDay(int day) async {
-    final addictions = context.read<AddictionProvider>();
-    final quitOn = DateTime.now().subtract(Duration(days: day));
-
-    if (widget.onQuitDateChanged != null) {
-      widget.onQuitDateChanged!(quitOn);
-    } else {
-      addictions.setAddiction(widget.storageKey, quitOn.toIso8601String());
-    }
-
-    final index = widget.milestones.indexWhere((m) => day < m.day);
-    final targetIndex = index == -1 ? widget.milestones.length - 1 : index;
-
-    _scroll.animateTo(
-      targetIndex * 150.0,
-      duration: const Duration(milliseconds: 500),
-      curve: Curves.easeInOut,
-    );
-  }
-
   void onShare(int day) {
     if (widget.shareTitle != null && widget.shareTitle!.isNotEmpty) {
       SharePlus.instance.share(
@@ -207,19 +142,20 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
   }
 
   void pickDate() async {
-    final current = DateTime.now().subtract(Duration(days: _day));
     final date = await showDatePicker(
       context: context,
-      initialDate: current,
+      initialDate: quitDate,
       firstDate: DateTime(0),
       lastDate: DateTime.now(),
     );
     if (date == null) return;
     setState(() {
-      _day = daysCeil(date.toIso8601String());
+      quitDate = date;
     });
-    controller.text = _day.toString();
+    controller.text =
+        '${DateFormat.yMMMd().format(quitDate!)} (${daysCeil(quitDate!.toIso8601String())} days)';
 
+    if (!mounted) return;
     if (widget.onQuitDateChanged != null) {
       widget.onQuitDateChanged!(date);
     } else {
@@ -322,13 +258,12 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
     final colorScheme = theme.colorScheme;
     final settings = context.watch<SettingsProvider>();
     final addictions = context.watch<AddictionProvider>();
-    final quit =
-        widget.quitDateOverride ?? addictions.getAddiction(widget.storageKey);
-
-    int displayCurrentDay = _day;
+    final days = daysCeil(
+      quitDate?.toIso8601String() ?? DateTime.now().toIso8601String(),
+    );
 
     Widget? fab;
-    if (quit == null) {
+    if (quitDate == null) {
       fab = FloatingActionButton.extended(
         key: const ValueKey('start_fab'),
         onPressed: _handleStartPressed,
@@ -339,15 +274,18 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
       fab = FloatingActionButton.extended(
         onPressed: () async {
           if (widget.onResetPressed != null) {
-            widget.onResetPressed!(displayCurrentDay);
+            widget.onResetPressed!(days);
           } else {
-            addictions.resetAddiction(widget.storageKey, displayCurrentDay);
+            addictions.resetAddiction(widget.storageKey, days);
           }
 
+          final quit = quitDate;
           setState(() {
-            _day = 1;
-            controller.text = '1';
+            quitDate = DateTime.now();
           });
+
+          controller.text =
+              '${DateFormat.yMMMd().format(quitDate!)} (${daysCeil(quitDate!.toIso8601String())} days)';
 
           final settings = context.read<SettingsProvider>();
           if (settings.notifyRelapse == false) return;
@@ -359,12 +297,16 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
             action: SnackBarAction(
               label: 'Undo',
               onPressed: () {
-                addictions.setAddiction(widget.storageKey, quit);
+                addictions.setAddiction(
+                  widget.storageKey,
+                  quit?.toIso8601String(),
+                );
 
                 setState(() {
-                  _day = daysCeil(quit);
-                  controller.text = _day.toString();
+                  quitDate = quit;
                 });
+                controller.text =
+                    '${DateFormat.yMMMd().format(quitDate!)} (${daysCeil(quitDate!.toIso8601String())} days)';
               },
             ),
           );
@@ -375,7 +317,6 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
     }
 
     if (settings.showReset == false) fab = null;
-    final quitDate = DateTime.parse(quit ?? DateTime.now().toIso8601String());
 
     return ConfettiWidget(
       active: showConfetti,
@@ -386,7 +327,7 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
           actions: [
             IconButton(
               icon: const Icon(Icons.share),
-              onPressed: () => onShare(displayCurrentDay),
+              onPressed: () => onShare(days),
             ),
           ],
         ),
@@ -406,32 +347,27 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
                   children: [
                     const SizedBox(height: 8),
                     Text(
-                      quit != null
-                          ? widget.headerTextStartedBuilder(displayCurrentDay)
+                      quitDate != null
+                          ? widget.headerTextStartedBuilder(days)
                           : widget.headerTextNotStarted,
                       style: Theme.of(context).textTheme.headlineMedium,
                     ),
                     const SizedBox(height: 8),
                     Text(
-                      quit != null
-                          ? widget.headerSubtitleStartedBuilder(
-                              displayCurrentDay,
-                            )
+                      quitDate != null
+                          ? widget.headerSubtitleStartedBuilder(days)
                           : widget.headerSubtitleNotStarted,
                       style: Theme.of(context).textTheme.titleMedium,
                     ),
                     const SizedBox(height: 16),
                     TextFormField(
                       readOnly: true,
-                      controller: TextEditingController(
-                        text:
-                            '${DateFormat.yMMMd().format(quitDate)} (${daysCeil(quitDate.toIso8601String())} days)',
-                      ),
+                      controller: controller,
                       decoration: InputDecoration(
                         labelText: 'Quit date',
                         border: const OutlineInputBorder(),
                         suffixIcon: IconButton(
-                          icon: _day > 7
+                          icon: days > 7
                               ? const Icon(Icons.calendar_month)
                               : const Icon(Icons.calendar_today),
                           onPressed: pickDate,
@@ -480,11 +416,11 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
                   itemCount: widget.milestones.length,
                   itemBuilder: (context, index) {
                     final milestone = widget.milestones[index];
-                    final isCompleted = _day >= milestone.day;
+                    final isCompleted = days >= milestone.day;
                     final isNext =
                         !isCompleted &&
                         (index == 0 ||
-                            _day >= widget.milestones[index - 1].day);
+                            days >= widget.milestones[index - 1].day);
 
                     final allDaysAchieved = widget.customDaysAchieved.isNotEmpty
                         ? widget.customDaysAchieved
