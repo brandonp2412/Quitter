@@ -1,0 +1,5 @@
+• Allow scheduling time of day for notifications
+• Fix reminders skipping tomorrows notifications
+• Make notify at read-only
+• Reduce duplication in settings provider
+• Split out home page and main.dart
