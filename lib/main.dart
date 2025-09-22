@@ -4,6 +4,7 @@ import 'package:dynamic_color/dynamic_color.dart';
 import 'package:quitter/addiction_provider.dart';
 import 'package:quitter/app_scheme.dart';
 import 'package:quitter/home_page.dart';
+import 'package:quitter/home_widget.dart';
 import 'package:quitter/settings_provider.dart';
 import 'package:quitter/reminders.dart';
 import 'package:quitter/app_theme_mode.dart';
@@ -17,6 +18,7 @@ void main() async {
   await addiction.loadAddictions();
 
   setupReminders();
+  setupHomeWidget();
 
   runApp(
     MultiProvider(
