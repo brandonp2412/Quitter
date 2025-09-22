@@ -126,11 +126,12 @@ class _EditEntryPageState extends State<EditEntryPage> {
       ),
       body: SafeArea(
         child: Padding(
-          padding: const EdgeInsets.all(16.0),
+          padding: const EdgeInsets.only(left: 16.0, right: 16.0),
           child: Form(
             key: _formKey,
             child: ListView(
               children: [
+                SizedBox(height: 8),
                 TextFormField(
                   textCapitalization: TextCapitalization.sentences,
                   controller: _titleController,
@@ -165,7 +166,7 @@ class _EditEntryPageState extends State<EditEntryPage> {
                 const SizedBox(height: 20),
                 FocusableActionDetector(
                   onFocusChange: (hasFocus) {
-                    setState(() {}); // Rebuild to update the border
+                    setState(() {});
                   },
                   child: Builder(
                     builder: (context) {
@@ -192,9 +193,7 @@ class _EditEntryPageState extends State<EditEntryPage> {
                                   _selectedColor.toARGB32() == color.toARGB32();
                               return GestureDetector(
                                 onTap: () {
-                                  Focus.of(
-                                    context,
-                                  ).requestFocus(); // Request focus when tapping a color
+                                  Focus.of(context).requestFocus();
                                   setState(() {
                                     _selectedColor = color;
                                   });
@@ -243,7 +242,7 @@ class _EditEntryPageState extends State<EditEntryPage> {
                         title: const Text("Pick an icon"),
                         content: SizedBox(
                           width: double.maxFinite,
-                          height: 400, // Adjust height as needed
+                          height: 400,
                           child: IconPickerWidget(
                             selectedIcon: _selectedIcon,
                             iconColor: _selectedColor,
