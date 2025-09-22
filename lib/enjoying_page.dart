@@ -1,21 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:in_app_review/in_app_review.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 
 class EnjoyingPage extends StatelessWidget {
   const EnjoyingPage({super.key});
-
-  Future<void> _requestReview() async {
-    final InAppReview inAppReview = InAppReview.instance;
-
-    if (await inAppReview.isAvailable()) {
-      await inAppReview.requestReview();
-    } else {
-      const url =
-          'https://play.google.com/store/apps/details?id=com.quitter.app&showAllReviews=true';
-      await launchUrlString(url);
-    }
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -28,7 +15,9 @@ class EnjoyingPage extends StatelessWidget {
               title: const Text("Leave a review"),
               subtitle: const Text("Let me know what you think!"),
               leading: const Icon(Icons.reviews_outlined),
-              onTap: _requestReview,
+              onTap: () => launchUrlString(
+                'https://play.google.com/store/apps/details?id=com.quitter.app&showAllReviews=true',
+              ),
             ),
             ListTile(
               title: const Text("Give us a star"),
