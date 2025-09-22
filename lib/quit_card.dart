@@ -80,7 +80,7 @@ class QuitCard extends StatelessWidget {
                       ),
                       child: Icon(
                         icon,
-                        color: getContrastingColor(gradientColors.first),
+                        color: getContrastingColor(gradientColors.last),
                         size: 24,
                       ),
                     ),
