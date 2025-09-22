@@ -22,6 +22,9 @@ class Changelog {
 
 class _WhatsNewState extends State<WhatsNew> {
   List<Changelog> changelogs = [];
+  List<Changelog> filtered = [];
+  bool searching = false;
+  FocusNode node = FocusNode();
 
   @override
   void initState() {
@@ -33,6 +36,7 @@ class _WhatsNewState extends State<WhatsNew> {
     final logs = await getChangelogFiles(context);
     setState(() {
       changelogs = logs;
+      filtered = logs;
     });
   }
 
@@ -80,14 +84,49 @@ class _WhatsNewState extends State<WhatsNew> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("What's new?")),
+      appBar: AppBar(
+        title: searching
+            ? TextField(
+                focusNode: node,
+                decoration: const InputDecoration(
+                  hintText: 'Search...',
+                  border: InputBorder.none,
+                ),
+                onChanged: (terms) => setState(() {
+                  filtered = changelogs
+                      .where(
+                        (changelog) => changelog.content.toLowerCase().contains(
+                          terms.toLowerCase(),
+                        ),
+                      )
+                      .toList();
+                }),
+              )
+            : const Text("What's new?"),
+        actions: [
+          IconButton(
+            onPressed: () {
+              setState(() {
+                searching = !searching;
+              });
+              if (searching)
+                node.requestFocus();
+              else
+                setState(() {
+                  filtered = changelogs;
+                });
+            },
+            icon: Icon(searching ? Icons.close : Icons.search),
+          ),
+        ],
+      ),
       body: SafeArea(
         child: ListView.builder(
           itemBuilder: (context, index) => ListTile(
-            title: Text(changelogs[index].created),
-            subtitle: Text(changelogs[index].content),
+            title: Text(filtered[index].created),
+            subtitle: Text(filtered[index].content),
           ),
-          itemCount: changelogs.length,
+          itemCount: filtered.length,
         ),
       ),
       floatingActionButton: FloatingActionButton.extended(
