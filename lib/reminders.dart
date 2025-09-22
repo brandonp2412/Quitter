@@ -3,6 +3,7 @@ import 'dart:math';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
+import 'package:quitter/addiction_provider.dart';
 import 'package:workmanager/workmanager.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:quitter/utils.dart';
@@ -92,16 +93,26 @@ Future<void> notifyProgress(FlutterLocalNotificationsPlugin plugin) async {
       )
       .toList();
 
-  if (activeJourneys.isEmpty) return;
+  final addiction = AddictionProvider();
+  await addiction.loadAddictions();
 
-  final selectedJourney = activeJourneys[random.nextInt(activeJourneys.length)];
-  final quitDateString = prefs.getString(selectedJourney['key']!);
-  final daysCount = daysCeil(quitDateString!);
+  if (activeJourneys.isEmpty && addiction.entries.isEmpty) return;
+
+  final randomEntry =
+      addiction.entries[random.nextInt(addiction.entries.length)];
+  final randomJourney = activeJourneys[random.nextInt(activeJourneys.length)];
+  final journeyDate = prefs.getString(randomJourney['key']!);
+  final journeyCount = daysCeil(journeyDate!);
+  final entryCount = daysCeil(randomEntry.quitDate.toIso8601String());
 
   final randomMessage = messages[random.nextInt(messages.length)];
-  final notificationTitle =
-      "No ${selectedJourney['name']!.toLowerCase()} for $daysCount days";
+  var notificationTitle =
+      "No ${randomJourney['name']!.toLowerCase()} for $journeyCount days";
   final notificationBody = randomMessage;
+
+  if (random.nextBool()) {
+    notificationTitle = "No ${randomEntry.title} for $entryCount days";
+  }
 
   final notificationDetails = NotificationDetails(
     android: AndroidNotificationDetails(
