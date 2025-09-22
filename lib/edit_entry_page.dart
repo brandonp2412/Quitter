@@ -114,11 +114,6 @@ class _EditEntryPageState extends State<EditEntryPage> {
     }
   }
 
-  Color _getContrastColor(Color backgroundColor) {
-    final luminance = backgroundColor.computeLuminance();
-    return luminance > 0.5 ? Colors.black : Colors.white;
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -226,7 +221,7 @@ class _EditEntryPageState extends State<EditEntryPage> {
                                     curve: Curves.elasticOut,
                                     child: Icon(
                                       Icons.check,
-                                      color: _getContrastColor(color),
+                                      color: getContrastingColor(color),
                                       size: 50,
                                     ),
                                   ),

@@ -10,12 +10,7 @@ void selectAll(TextEditingController ctrl) {
 }
 
 Color getContrastingColor(Color backgroundColor) {
-  final double luminance =
-      (0.2126 * backgroundColor.red +
-          0.7152 * backgroundColor.green +
-          0.0722 * backgroundColor.blue) /
-      255;
-
+  final luminance = backgroundColor.computeLuminance();
   return luminance > 0.5 ? Colors.black : Colors.white;
 }
 
