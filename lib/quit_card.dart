@@ -78,7 +78,11 @@ class QuitCard extends StatelessWidget {
                         ),
                         borderRadius: BorderRadius.circular(12),
                       ),
-                      child: Icon(icon, color: Colors.white, size: 24),
+                      child: Icon(
+                        icon,
+                        color: getContrastingColor(gradientColors.first),
+                        size: 24,
+                      ),
                     ),
                     const SizedBox(height: 16),
                     Text(

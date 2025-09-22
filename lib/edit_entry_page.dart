@@ -251,6 +251,7 @@ class _EditEntryPageState extends State<EditEntryPage> {
                           height: 400, // Adjust height as needed
                           child: IconPickerWidget(
                             selectedIcon: _selectedIcon,
+                            iconColor: _selectedColor,
                             onIconSelected: (icon) {
                               Navigator.of(context).pop(icon);
                             },

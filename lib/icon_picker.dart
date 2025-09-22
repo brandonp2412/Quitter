@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:quitter/cupertino_icons.dart';
+import 'package:quitter/utils.dart';
 
 class IconPickerWidget extends StatefulWidget {
   final IconData? selectedIcon;
@@ -74,15 +75,7 @@ class _IconPickerWidgetState extends State<IconPickerWidget> {
         // Icon grid
         Expanded(
           child: filteredIcons.isEmpty
-              ? const Center(
-                  child: Text(
-                    'No icons found',
-                    style: TextStyle(
-                      fontSize: 16,
-                      color: CupertinoColors.secondaryLabel,
-                    ),
-                  ),
-                )
+              ? const Center(child: Text('No icons found'))
               : GridView.builder(
                   padding: const EdgeInsets.all(16.0),
                   gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
@@ -101,9 +94,18 @@ class _IconPickerWidgetState extends State<IconPickerWidget> {
                       child: Container(
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(8.0),
+                          gradient: LinearGradient(
+                            colors: [
+                              widget.iconColor ?? Colors.purple,
+                              widget.iconColor?.withValues(alpha: 0.7) ??
+                                  Colors.purple.withValues(alpha: 0.7),
+                            ],
+                            begin: Alignment.topLeft,
+                            end: Alignment.bottomRight,
+                          ),
                           border: isSelected
                               ? Border.all(
-                                  color: CupertinoColors.activeBlue,
+                                  color: Theme.of(context).colorScheme.primary,
                                   width: 2.0,
                                 )
                               : null,
@@ -111,9 +113,9 @@ class _IconPickerWidgetState extends State<IconPickerWidget> {
                         child: Icon(
                           icon,
                           size: widget.iconSize,
-                          color:
-                              widget.iconColor ??
-                              Theme.of(context).colorScheme.onSurface,
+                          color: getContrastingColor(
+                            widget.iconColor ?? Colors.purple,
+                          ),
                         ),
                       ),
                     );

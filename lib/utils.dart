@@ -9,6 +9,16 @@ void selectAll(TextEditingController ctrl) {
   ctrl.selection = TextSelection(baseOffset: 0, extentOffset: ctrl.text.length);
 }
 
+Color getContrastingColor(Color backgroundColor) {
+  final double luminance =
+      (0.2126 * backgroundColor.red +
+          0.7152 * backgroundColor.green +
+          0.0722 * backgroundColor.blue) /
+      255;
+
+  return luminance > 0.5 ? Colors.black : Colors.white;
+}
+
 String getTimeString(int totalMinutes) {
   final hours = totalMinutes ~/ 60;
   final minutes = totalMinutes % 60;
