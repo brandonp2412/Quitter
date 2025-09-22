@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:quitter/cupertino_icons.dart';
+
+final Map<IconData, String> _cupertinoIconsReverseLookup = allCupertinoIcons
+    .map((key, value) => MapEntry(value, key));
 
 class Entry {
   String id;
@@ -6,6 +10,7 @@ class Entry {
   DateTime quitDate;
   Color color;
   List<int> daysAchieved;
+  IconData? icon;
 
   Entry({
     required this.id,
@@ -13,6 +18,7 @@ class Entry {
     required this.quitDate,
     required this.color,
     this.daysAchieved = const [],
+    this.icon,
   });
 
   Entry copyWith({
@@ -21,6 +27,7 @@ class Entry {
     DateTime? quitDate,
     Color? color,
     List<int>? daysAchieved,
+    IconData? icon,
   }) {
     return Entry(
       id: id ?? this.id,
@@ -28,6 +35,7 @@ class Entry {
       quitDate: quitDate ?? this.quitDate,
       color: color ?? this.color,
       daysAchieved: daysAchieved ?? this.daysAchieved,
+      icon: icon ?? this.icon,
     );
   }
 
@@ -37,6 +45,7 @@ class Entry {
     'quitDate': quitDate.toIso8601String(),
     'color': color.toARGB32(),
     'daysAchieved': daysAchieved, // Add to JSON serialization
+    'icon': icon != null ? _cupertinoIconsReverseLookup[icon] : null,
   };
 
   factory Entry.fromJson(Map<String, dynamic> json) => Entry(
@@ -48,6 +57,9 @@ class Entry {
         (json['daysAchieved'] as List<dynamic>?)
             ?.map((e) => e as int)
             .toList() ??
-        const [], // Deserialize daysAchieved
+        const [],
+    icon: json['icon'] != null
+        ? allCupertinoIcons[json['icon'] as String]
+        : null,
   );
 }

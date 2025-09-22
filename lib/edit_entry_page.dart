@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 import 'package:intl/intl.dart';
 import 'package:quitter/addiction_provider.dart';
 import 'package:quitter/entry.dart';
+import 'package:quitter/icon_picker.dart';
 import 'package:quitter/utils.dart';
 import 'package:uuid/uuid.dart';
 
@@ -20,6 +21,7 @@ class _EditEntryPageState extends State<EditEntryPage> {
   late TextEditingController _titleController;
   late DateTime _quitDate;
   late Color _selectedColor;
+  late IconData _selectedIcon;
 
   @override
   void initState() {
@@ -27,6 +29,7 @@ class _EditEntryPageState extends State<EditEntryPage> {
     _titleController = TextEditingController(text: widget.entry?.title ?? '');
     _quitDate = widget.entry?.quitDate ?? DateTime.now();
     _selectedColor = widget.entry?.color ?? Colors.blue;
+    _selectedIcon = widget.entry?.icon ?? Icons.star;
   }
 
   @override
@@ -60,6 +63,7 @@ class _EditEntryPageState extends State<EditEntryPage> {
           title: _titleController.text,
           quitDate: _quitDate,
           color: _selectedColor,
+          icon: _selectedIcon,
         );
         addictions.addEntry(newEntry);
       } else {
@@ -68,6 +72,7 @@ class _EditEntryPageState extends State<EditEntryPage> {
           title: _titleController.text,
           quitDate: _quitDate,
           color: _selectedColor,
+          icon: _selectedIcon,
         );
         addictions.updateEntry(updatedEntry);
       }
@@ -233,6 +238,35 @@ class _EditEntryPageState extends State<EditEntryPage> {
                       );
                     },
                   ),
+                ),
+                const SizedBox(height: 20),
+                TextButton.icon(
+                  onPressed: () {
+                    showDialog<IconData>(
+                      context: context,
+                      builder: (context) => AlertDialog(
+                        title: const Text("Pick an icon"),
+                        content: SizedBox(
+                          width: double.maxFinite,
+                          height: 400, // Adjust height as needed
+                          child: IconPickerWidget(
+                            selectedIcon: _selectedIcon,
+                            onIconSelected: (icon) {
+                              Navigator.of(context).pop(icon);
+                            },
+                          ),
+                        ),
+                      ),
+                    ).then((icon) {
+                      if (icon != null) {
+                        setState(() {
+                          _selectedIcon = icon;
+                        });
+                      }
+                    });
+                  },
+                  label: Text("Icon"),
+                  icon: Icon(_selectedIcon),
                 ),
               ],
             ),

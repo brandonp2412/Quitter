@@ -444,7 +444,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                       QuitCard(
                         context: context,
                         title: entry.title,
-                        icon: Icons.star,
+                        icon: entry.icon ?? Icons.star,
                         gradientColors: [
                           entry.color,
                           entry.color.withValues(alpha: 0.7),
