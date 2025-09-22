@@ -95,10 +95,10 @@ class AlcoholPage extends StatelessWidget {
       title: 'Sober & sparkling',
       storageKey: 'alcohol',
       milestones: miles,
-      headerTextStartedBuilder: (day) => 'Cheers to you!',
-      headerTextNotStarted: 'Sober journey ahead!',
-      headerSubtitleStartedBuilder: (day) => 'Every day is a win 🥳',
-      headerSubtitleNotStarted: 'Ready for a brighter you? ✨',
+      headerStarted: 'Cheers to you!',
+      headerNotStarted: 'Sober journey ahead!',
+      subtitleStarted: 'Every day is a win 🥳',
+      subtitleNotStarted: 'Ready for a brighter you? ✨',
       initialStarted: started,
     );
   }

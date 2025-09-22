@@ -92,11 +92,10 @@ class MarijuanaPage extends StatelessWidget {
       title: 'Cannabis-free journey',
       storageKey: 'marijuana',
       milestones: milestones,
-      headerTextStartedBuilder: (currentDay) => 'Clear mind rising!',
-      headerTextNotStarted: 'Cannabis-free living!',
-      headerSubtitleStartedBuilder: (currentDay) =>
-          'Building mental clarity, one day at a time 🧠',
-      headerSubtitleNotStarted: 'Ready for a clearer tomorrow? 🌱',
+      headerStarted: 'Clear mind rising!',
+      headerNotStarted: 'Cannabis-free living!',
+      subtitleStarted: 'Building mental clarity, one day at a time 🧠',
+      subtitleNotStarted: 'Ready for a clearer tomorrow? 🌱',
       initialStarted: started,
     );
   }

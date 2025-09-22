@@ -92,11 +92,10 @@ class SocialMediaPage extends StatelessWidget {
       title: 'Digital detox delight',
       storageKey: 'social_media',
       milestones: milestones,
-      headerTextStartedBuilder: (currentDay) => 'Unplug & play!',
-      headerTextNotStarted: 'Digital detox journey!',
-      headerSubtitleStartedBuilder: (currentDay) =>
-          'Real life is the best feed 💖',
-      headerSubtitleNotStarted: 'Ready to reclaim your time? 🚀',
+      headerStarted: 'Unplug & play!',
+      headerNotStarted: 'Digital detox journey!',
+      subtitleStarted: 'Real life is the best feed 💖',
+      subtitleNotStarted: 'Ready to reclaim your time? 🚀',
       initialStarted: started,
     );
   }

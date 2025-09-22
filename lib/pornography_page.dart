@@ -92,11 +92,10 @@ class PornographyPage extends StatelessWidget {
       title: 'Pure & powerful',
       storageKey: 'pornography',
       milestones: milestones,
-      headerTextStartedBuilder: (currentDay) => 'Reclaiming your mind!',
-      headerTextNotStarted: 'Freedom from pornography!',
-      headerSubtitleStartedBuilder: (currentDay) =>
-          'Building authentic connections 🧠✨',
-      headerSubtitleNotStarted: 'Ready to break free and rebuild? 💪',
+      headerStarted: 'Reclaiming your mind!',
+      headerNotStarted: 'Freedom from pornography!',
+      subtitleStarted: 'Building authentic connections 🧠✨',
+      subtitleNotStarted: 'Ready to break free and rebuild? 💪',
       initialStarted: started,
     );
   }

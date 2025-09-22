@@ -15,10 +15,10 @@ class QuitMilestonesPage extends StatefulWidget {
   final String title;
   final String storageKey;
   final List<QuitMilestone> milestones;
-  final String Function(int currentDay) headerTextStartedBuilder;
-  final String headerTextNotStarted;
-  final String Function(int currentDay) headerSubtitleStartedBuilder;
-  final String headerSubtitleNotStarted;
+  final String headerStarted;
+  final String headerNotStarted;
+  final String subtitleStarted;
+  final String subtitleNotStarted;
   final String? infoBoxMessage;
   final String? shareTitle;
   final bool initialStarted;
@@ -32,10 +32,10 @@ class QuitMilestonesPage extends StatefulWidget {
     required this.title,
     required this.storageKey,
     required this.milestones,
-    required this.headerTextStartedBuilder,
-    required this.headerTextNotStarted,
-    required this.headerSubtitleStartedBuilder,
-    required this.headerSubtitleNotStarted,
+    required this.headerStarted,
+    required this.headerNotStarted,
+    required this.subtitleStarted,
+    required this.subtitleNotStarted,
     this.infoBoxMessage,
     this.shareTitle,
     required this.initialStarted,
@@ -369,16 +369,14 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
                   children: [
                     const SizedBox(height: 8),
                     Text(
-                      started
-                          ? widget.headerTextStartedBuilder(days)
-                          : widget.headerTextNotStarted,
+                      started ? widget.headerStarted : widget.headerNotStarted,
                       style: Theme.of(context).textTheme.headlineMedium,
                     ),
                     const SizedBox(height: 8),
                     Text(
                       started
-                          ? widget.headerSubtitleStartedBuilder(days)
-                          : widget.headerSubtitleNotStarted,
+                          ? widget.subtitleStarted
+                          : widget.subtitleNotStarted,
                       style: Theme.of(context).textTheme.titleMedium,
                     ),
                     const SizedBox(height: 16),

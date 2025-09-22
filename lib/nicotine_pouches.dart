@@ -95,11 +95,10 @@ class NicotinePouchesPage extends StatelessWidget {
       title: 'Pouch-free Power',
       storageKey: 'nicotine_pouches',
       milestones: milestones,
-      headerTextStartedBuilder: (currentDay) => 'Fresh & free!',
-      headerTextNotStarted: 'Pouch-free progress!',
-      headerSubtitleStartedBuilder: (currentDay) =>
-          'Embrace a brighter, healthier you ✨',
-      headerSubtitleNotStarted: 'Ready to ditch the pouches? 🚀',
+      headerStarted: 'Fresh & free!',
+      headerNotStarted: 'Pouch-free progress!',
+      subtitleStarted: 'Embrace a brighter, healthier you ✨',
+      subtitleNotStarted: 'Ready to ditch the pouches? 🚀',
       initialStarted: started,
     );
   }
