@@ -596,19 +596,19 @@ class _SettingsPageState extends State<SettingsPage> {
         );
 
         return AlertDialog(
-          title: const Text('Notification Frequency'),
+          title: const Text('Notification frequency'),
           content: SingleChildScrollView(
             child: Column(
               children: [
                 TextField(
                   controller: everyCtrl,
                   keyboardType: TextInputType.number,
+                  onTap: () => selectAll(everyCtrl),
                   decoration: const InputDecoration(
                     labelText: 'Notify every',
                     suffixText: 'day(s)',
                     border: OutlineInputBorder(),
                   ),
-                  autofocus: true,
                 ),
                 const SizedBox(height: 16),
                 TextField(
