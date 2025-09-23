@@ -1,0 +1,9 @@
+• Add custom icon picker
+• Add search filter to What's new page
+• Change notification frequency dialog
+• Favor lighter icon contrast
+• Fix padding on edit custom entries page
+• Improve icon color contrast
+• Make contrast colors consistent
+• Make homescreen widgets update daily
+• Refactor page templates
