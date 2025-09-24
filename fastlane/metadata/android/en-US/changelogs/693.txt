@@ -1,0 +1,3 @@
+• Fix lint warnings
+• Try fix homescreen widget updates
+• Try to fix home widget updates
