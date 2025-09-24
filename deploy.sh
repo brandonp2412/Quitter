@@ -143,25 +143,6 @@ for file in fastlane/metadata/android/en-US/changelogs/*.txt; do
     fi
 done
 
-# Check if Android emulator is available for screenshots
-print_step "Checking for Android emulator"
-echo "Checking Flutter availability..."
-if command -v flutter &> /dev/null; then
-    echo "Flutter found, checking Android setup..."
-    
-    # Check if Android SDK is available without hanging on licenses
-    if flutter doctor | grep -q "Android toolchain" && ! flutter doctor | grep -q "\[!\].*Android toolchain"; then
-        echo "Android toolchain appears to be configured"
-        android_available=true
-    else
-        echo "Android toolchain not properly configured"
-        android_available=false
-    fi
-else
-    echo "Flutter not found"
-    android_available=false
-fi
-
 generate_screenshots() {
     local avd_name=$1
 
@@ -237,13 +218,10 @@ generate_screenshots() {
 
 if [[ "$*" == *"-n"* ]]; then
     print_warning "Skipping screenshots"
-elif [ "$android_available" = true ]; then
+else
     generate_screenshots "phoneScreenshots"
     generate_screenshots "sevenInchScreenshots"
     generate_screenshots "tenInchScreenshots"
-else
-    print_warning "Android SDK not properly configured. Skipping screenshot generation."
-    echo "Make sure Android SDK and emulator tools are in your PATH"
 fi
 
 # Commit changes and create tag
