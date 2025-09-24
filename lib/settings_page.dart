@@ -7,7 +7,6 @@ import 'package:quitter/app_scheme.dart';
 import 'package:quitter/color_scheme_type.dart';
 import 'package:quitter/enjoying_page.dart';
 import 'package:quitter/settings_provider.dart';
-import 'package:quitter/radio_group.dart';
 import 'dart:io';
 import 'package:file_picker/file_picker.dart';
 import 'package:quitter/utils.dart';
@@ -552,23 +551,25 @@ class _SettingsPageState extends State<SettingsPage> {
       context: context,
       builder: (context) => AlertDialog(
         title: Text(title),
-        content: AppRadioGroup<T>(
-          value: currentValue,
-          onChanged: (value) {
-            if (value != null) {
-              onChanged(value);
-              Navigator.pop(context);
-            }
-          },
-          children: options.map((option) {
-            return RadioListTile<T>(
-              title: Text(getDisplayName(option)),
-              value: option,
-              groupValue: currentValue,
-              onChanged: (value) {},
-              selected: currentValue == option,
-            );
-          }).toList(),
+        content: SingleChildScrollView(
+          child: RadioGroup<T>(
+            groupValue: currentValue,
+            onChanged: (value) {
+              if (value != null) {
+                onChanged(value);
+                Navigator.pop(context);
+              }
+            },
+            child: Column(
+              children: options.map((option) {
+                return RadioListTile<T>(
+                  title: Text(getDisplayName(option)),
+                  value: option,
+                  selected: currentValue == option,
+                );
+              }).toList(),
+            ),
+          ),
         ),
         actions: [
           TextButton(
