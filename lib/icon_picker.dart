@@ -64,12 +64,20 @@ class _IconPickerWidgetState extends State<IconPickerWidget> {
     return Column(
       children: [
         // Search bar
-        Padding(
-          padding: const EdgeInsets.all(16.0),
-          child: CupertinoSearchTextField(
-            controller: _searchController,
-            placeholder: 'Search icons...',
-          ),
+        SearchBar(
+          leading: Icon(Icons.search),
+          controller: _searchController,
+          hintText: 'Search icons...',
+          trailing: _searchController.text.isNotEmpty
+              ? [
+                  IconButton(
+                    onPressed: () {
+                      _searchController.text = '';
+                    },
+                    icon: Icon(Icons.clear),
+                  ),
+                ]
+              : null,
         ),
 
         // Icon grid
@@ -94,28 +102,26 @@ class _IconPickerWidgetState extends State<IconPickerWidget> {
                       child: Container(
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(8.0),
-                          gradient: LinearGradient(
-                            colors: [
-                              widget.iconColor ?? Colors.purple,
-                              widget.iconColor?.withValues(alpha: 0.7) ??
-                                  Colors.purple.withValues(alpha: 0.7),
-                            ],
-                            begin: Alignment.topLeft,
-                            end: Alignment.bottomRight,
-                          ),
-                          border: isSelected
-                              ? Border.all(
-                                  color: Theme.of(context).colorScheme.primary,
-                                  width: 2.0,
+                          gradient: isSelected
+                              ? LinearGradient(
+                                  colors: [
+                                    widget.iconColor ?? Colors.purple,
+                                    widget.iconColor?.withValues(alpha: 0.7) ??
+                                        Colors.purple.withValues(alpha: 0.7),
+                                  ],
+                                  begin: Alignment.topLeft,
+                                  end: Alignment.bottomRight,
                                 )
                               : null,
                         ),
                         child: Icon(
                           icon,
                           size: widget.iconSize,
-                          color: getContrastingColor(
-                            widget.iconColor ?? Colors.purple,
-                          ),
+                          color: isSelected
+                              ? getContrastingColor(
+                                  widget.iconColor ?? Colors.purple,
+                                )
+                              : null,
                         ),
                       ),
                     );

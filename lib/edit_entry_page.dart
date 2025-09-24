@@ -3,9 +3,10 @@ import 'package:provider/provider.dart';
 import 'package:intl/intl.dart';
 import 'package:quitter/addiction_provider.dart';
 import 'package:quitter/entry.dart';
-import 'package:quitter/icon_picker.dart';
 import 'package:quitter/utils.dart';
 import 'package:uuid/uuid.dart';
+
+import 'package:quitter/icon_picker.dart';
 
 class EditEntryPage extends StatefulWidget {
   final Entry? entry;
@@ -234,34 +235,44 @@ class _EditEntryPageState extends State<EditEntryPage> {
                   ),
                 ),
                 const SizedBox(height: 20),
-                TextButton.icon(
-                  onPressed: () {
-                    showDialog<IconData>(
-                      context: context,
-                      builder: (context) => AlertDialog(
-                        title: const Text("Pick an icon"),
-                        content: SizedBox(
-                          width: double.maxFinite,
-                          height: 400,
-                          child: IconPickerWidget(
-                            selectedIcon: _selectedIcon,
-                            iconColor: _selectedColor,
-                            onIconSelected: (icon) {
-                              Navigator.of(context).pop(icon);
-                            },
+                FocusableActionDetector(
+                  onFocusChange: (hasFocus) {
+                    setState(() {});
+                  },
+                  child: Builder(
+                    builder: (context) {
+                      final bool hasFocus = Focus.of(context).hasFocus;
+                      return InputDecorator(
+                        decoration: InputDecoration(
+                          labelText: 'Icon',
+                          border: const OutlineInputBorder(),
+                          focusedBorder: OutlineInputBorder(
+                            borderSide: BorderSide(
+                              color: Theme.of(context).colorScheme.primary,
+                              width: 2,
+                            ),
                           ),
                         ),
-                      ),
-                    ).then((icon) {
-                      if (icon != null) {
-                        setState(() {
-                          _selectedIcon = icon;
-                        });
-                      }
-                    });
-                  },
-                  label: Text("Icon"),
-                  icon: Icon(_selectedIcon),
+                        isFocused: hasFocus,
+                        child: Padding(
+                          padding: const EdgeInsets.symmetric(vertical: 8),
+                          child: SizedBox(
+                            height: 350, // Fixed height for the icon picker
+                            child: IconPickerWidget(
+                              selectedIcon: _selectedIcon,
+                              iconColor: _selectedColor,
+                              onIconSelected: (icon) {
+                                Focus.of(context).requestFocus();
+                                setState(() {
+                                  _selectedIcon = icon;
+                                });
+                              },
+                            ),
+                          ),
+                        ),
+                      );
+                    },
+                  ),
                 ),
               ],
             ),
