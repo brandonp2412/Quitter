@@ -2,6 +2,7 @@ import 'dart:async';
 import 'dart:math';
 
 import 'package:flutter/foundation.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:quitter/addiction_provider.dart';
 import 'package:workmanager/workmanager.dart';
@@ -11,45 +12,66 @@ import 'package:quitter/settings_provider.dart';
 
 Timer? timer;
 
-Future<void> setupReminders() async {
+Future<void> setupTasks() async {
   if (kIsWeb) return;
+
+  final now = DateTime.now();
+
+  if (defaultTargetPlatform == TargetPlatform.android) {
+    Workmanager().initialize(taskHandler);
+    var nextWidget = DateTime(now.year, now.month, now.day, 0, 0);
+    if (now.isAfter(nextWidget)) {
+      nextWidget = nextWidget.add(Duration(days: 1));
+    }
+    final widgetDelay = nextWidget.difference(now);
+    Workmanager().registerOneOffTask(
+      "widget_oneoff",
+      "widgets",
+      initialDelay: widgetDelay,
+    );
+    Workmanager().registerPeriodicTask(
+      "widgets",
+      "widgets",
+      frequency: Duration(days: 1),
+      initialDelay: widgetDelay + Duration(days: 1),
+    );
+  }
+
   final settings = SettingsProvider();
   await settings.loadPreferences();
   if (settings.notifyEvery == 0) return cancelReminders();
 
   final hours = settings.notifyAt ~/ 60;
   final minutes = settings.notifyAt % 60;
-  final now = DateTime.now();
-  var nextRun = DateTime(now.year, now.month, now.day, hours, minutes);
+  var nextReminder = DateTime(now.year, now.month, now.day, hours, minutes);
 
-  if (now.isAfter(nextRun)) {
-    nextRun = nextRun.add(Duration(days: settings.notifyEvery));
+  if (now.isAfter(nextReminder)) {
+    nextReminder = nextReminder.add(Duration(days: settings.notifyEvery));
   }
 
-  final initialDelay = nextRun.difference(now);
+  final reminderDelay = nextReminder.difference(now);
 
   if (defaultTargetPlatform == TargetPlatform.android ||
       defaultTargetPlatform == TargetPlatform.iOS) {
-    Workmanager().initialize(doMobileReminders);
-
     Workmanager().registerOneOffTask(
       "reminder_oneoff",
       "reminders",
-      initialDelay: initialDelay,
+      initialDelay: reminderDelay,
     );
 
     Workmanager().registerPeriodicTask(
       "reminders",
       "reminders",
       frequency: Duration(days: settings.notifyEvery),
-      initialDelay: initialDelay + Duration(days: settings.notifyEvery),
+      initialDelay: reminderDelay + Duration(days: settings.notifyEvery),
     );
+
     return;
   }
 
-  Timer(initialDelay, () => doDesktopReminders());
+  Timer(reminderDelay, () => doDesktopReminders());
 
-  Timer(initialDelay + Duration(days: settings.notifyEvery), () {
+  Timer(reminderDelay + Duration(days: settings.notifyEvery), () {
     timer = Timer.periodic(
       Duration(days: settings.notifyEvery),
       (timer) => doDesktopReminders(),
@@ -171,7 +193,7 @@ void cancelReminders() {
 }
 
 @pragma('vm:entry-point')
-void doMobileReminders() {
+void taskHandler() {
   if (defaultTargetPlatform != TargetPlatform.android &&
       defaultTargetPlatform != TargetPlatform.iOS) {
     print(
@@ -181,38 +203,41 @@ void doMobileReminders() {
   }
 
   Workmanager().executeTask((task, inputData) async {
-    try {
-      const androidChannel = AndroidNotificationChannel(
-        'reminders_channel_id',
-        'Reminders',
-        description: 'Notifications for daily progress reminders',
-        importance: Importance.high,
-      );
+    switch (task) {
+      case 'reminders':
+        const androidChannel = AndroidNotificationChannel(
+          'reminders_channel_id',
+          'Reminders',
+          description: 'Notifications for daily progress reminders',
+          importance: Importance.high,
+        );
 
-      final plugin = FlutterLocalNotificationsPlugin();
+        final plugin = FlutterLocalNotificationsPlugin();
 
-      await plugin
-          .resolvePlatformSpecificImplementation<
-            AndroidFlutterLocalNotificationsPlugin
-          >()
-          ?.createNotificationChannel(androidChannel);
+        await plugin
+            .resolvePlatformSpecificImplementation<
+              AndroidFlutterLocalNotificationsPlugin
+            >()
+            ?.createNotificationChannel(androidChannel);
 
-      const darwinSettings = DarwinInitializationSettings();
-      const androidSettings = AndroidInitializationSettings('neurology');
-      const initSettings = InitializationSettings(
-        iOS: darwinSettings,
-        android: androidSettings,
-      );
-      await plugin.initialize(initSettings);
+        const darwinSettings = DarwinInitializationSettings();
+        const androidSettings = AndroidInitializationSettings('neurology');
+        const initSettings = InitializationSettings(
+          iOS: darwinSettings,
+          android: androidSettings,
+        );
+        await plugin.initialize(initSettings);
 
-      await notifyProgress(plugin);
+        await notifyProgress(plugin);
 
-      print('[Workmanager] Task "reminders" completed successfully.');
-      return Future.value(true);
-    } catch (error, stacktrace) {
-      print('[Workmanager] Error executing task "reminders": $error');
-      print('[Workmanager] Stacktrace: $stacktrace');
-      return Future.value(false);
+        print('[Workmanager] Task "reminders" completed successfully.');
+        return Future.value(true);
+      case 'widgets':
+        const widgetChannel = MethodChannel("android.widget");
+        await widgetChannel.invokeMethod('updateWidget');
+        return Future.value(true);
+      default:
+        return Future.value(false);
     }
   });
 }

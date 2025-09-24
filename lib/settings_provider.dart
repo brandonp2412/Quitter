@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:quitter/color_scheme_type.dart';
-import 'package:quitter/reminders.dart';
+import 'package:quitter/tasks.dart';
 import 'package:quitter/app_theme_mode.dart';
 
 class SettingsProvider extends ChangeNotifier {
@@ -124,7 +124,7 @@ class SettingsProvider extends ChangeNotifier {
     _prefs?.setInt(_notifyAtKey, value);
     notifyListeners();
     cancelReminders();
-    setupReminders();
+    setupTasks();
   }
 
   set notifyEvery(int days) {
@@ -132,7 +132,7 @@ class SettingsProvider extends ChangeNotifier {
     _prefs?.setInt(_notifyEveryKey, days);
     notifyListeners();
     cancelReminders();
-    setupReminders();
+    setupTasks();
   }
 
   set showAlcohol(bool show) =>
