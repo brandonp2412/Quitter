@@ -123,7 +123,7 @@ class SettingsProvider extends ChangeNotifier {
     _notifyAt = value;
     _prefs?.setInt(_notifyAtKey, value);
     notifyListeners();
-    cancelReminders();
+    cancelTasks();
     setupTasks();
   }
 
@@ -131,7 +131,7 @@ class SettingsProvider extends ChangeNotifier {
     _notifyEvery = days;
     _prefs?.setInt(_notifyEveryKey, days);
     notifyListeners();
-    cancelReminders();
+    cancelTasks();
     setupTasks();
   }
 

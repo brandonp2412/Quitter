@@ -16,6 +16,7 @@ void main() async {
   final addiction = AddictionProvider();
   await addiction.loadAddictions();
 
+  cancelTasks();
   setupTasks();
 
   runApp(

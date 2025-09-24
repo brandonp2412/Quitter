@@ -4,6 +4,7 @@ import 'dart:math';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
+import 'package:home_widget/home_widget.dart';
 import 'package:quitter/addiction_provider.dart';
 import 'package:workmanager/workmanager.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -39,7 +40,7 @@ Future<void> setupTasks() async {
 
   final settings = SettingsProvider();
   await settings.loadPreferences();
-  if (settings.notifyEvery == 0) return cancelReminders();
+  if (settings.notifyEvery == 0) return cancelTasks();
 
   final hours = settings.notifyAt ~/ 60;
   final minutes = settings.notifyAt % 60;
@@ -180,12 +181,15 @@ Future<void> doDesktopReminders() async {
   await notifyProgress(plugin);
 }
 
-void cancelReminders() {
+void cancelTasks() {
   if (kIsWeb) return;
 
   if (defaultTargetPlatform == TargetPlatform.android ||
       defaultTargetPlatform == TargetPlatform.iOS) {
     Workmanager().cancelByUniqueName('reminders');
+    Workmanager().cancelByUniqueName('reminder_oneoff');
+    Workmanager().cancelByUniqueName('widgets');
+    Workmanager().cancelByUniqueName('widget_oneoff');
     return;
   }
 
@@ -203,6 +207,7 @@ void taskHandler() {
   }
 
   Workmanager().executeTask((task, inputData) async {
+    print('[Workmanager] task received $task');
     switch (task) {
       case 'reminders':
         const androidChannel = AndroidNotificationChannel(
@@ -233,8 +238,7 @@ void taskHandler() {
         print('[Workmanager] Task "reminders" completed successfully.');
         return Future.value(true);
       case 'widgets':
-        const widgetChannel = MethodChannel("android.widget");
-        await widgetChannel.invokeMethod('updateWidget');
+        await HomeWidget.updateWidget(name: 'QuitTrackerWidget');
         return Future.value(true);
       default:
         return Future.value(false);
