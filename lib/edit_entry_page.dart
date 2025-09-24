@@ -257,7 +257,7 @@ class _EditEntryPageState extends State<EditEntryPage> {
                         child: Padding(
                           padding: const EdgeInsets.symmetric(vertical: 8),
                           child: SizedBox(
-                            height: 350, // Fixed height for the icon picker
+                            height: 438,
                             child: IconPickerWidget(
                               selectedIcon: _selectedIcon,
                               iconColor: _selectedColor,

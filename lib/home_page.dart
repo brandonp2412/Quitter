@@ -498,7 +498,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
         },
         label: const Text("Add"),
         icon: const Icon(Icons.add),
-        tooltip: 'Add a custom quit entry',
+        tooltip: 'Create your own custom addiction to quit',
       ),
     );
   }
