@@ -188,13 +188,13 @@ class _JournalPageState extends State<JournalPage> {
                       Positioned(
                         right: 4,
                         top: 4,
-                        child: Icon(Icons.check_circle, size: 20),
+                        child: Icon(Icons.check_circle, size: 16),
                       ),
                     if (isToday)
                       Positioned(
                         right: 4,
                         top: 4,
-                        child: Icon(Icons.circle_outlined, size: 20),
+                        child: Icon(Icons.circle_outlined, size: 16),
                       ),
                     if (hasEntry)
                       Positioned(
@@ -203,6 +203,7 @@ class _JournalPageState extends State<JournalPage> {
                         child: Icon(
                           Icons.memory,
                           color: Theme.of(context).colorScheme.primary,
+                          size: 16,
                         ),
                       ),
                     Container(
@@ -237,46 +238,45 @@ class _JournalPageState extends State<JournalPage> {
         ),
         title: const Text('Journal', style: TextStyle(fontSize: 32)),
       ),
-      body: Column(
+      body: ListView(
         children: [
           _buildCalendarGrid(),
-          Expanded(
-            child: Container(
-              padding: EdgeInsets.symmetric(horizontal: 16),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    'How was your day?',
-                    style: Theme.of(context).textTheme.titleMedium,
-                  ),
-                  SizedBox(height: 16),
-                  Expanded(
-                    child: TextField(
-                      onChanged: (value) => _saveEntry(),
-                      controller: _entryController,
-                      maxLines: null,
-                      expands: true,
-                      textAlignVertical: TextAlignVertical.top,
-                      decoration: InputDecoration(
-                        hintText:
-                            'Write about your day, thoughts, feelings, or anything you want to remember...',
-                        border: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(12),
-                        ),
-                        focusedBorder: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(12),
-                          borderSide: BorderSide(
-                            color: Theme.of(context).primaryColor,
-                            width: 2,
-                          ),
-                        ),
-                        contentPadding: EdgeInsets.all(16),
+          Container(
+            padding: EdgeInsets.symmetric(horizontal: 16),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  'How was your day?',
+                  style: Theme.of(context).textTheme.titleMedium,
+                ),
+                SizedBox(height: 16),
+                SizedBox(
+                  height: 300,
+                  child: TextField(
+                    onChanged: (value) => _saveEntry(),
+                    controller: _entryController,
+                    maxLines: null,
+                    expands: true,
+                    textAlignVertical: TextAlignVertical.top,
+                    decoration: InputDecoration(
+                      hintText:
+                          'Write about your day, thoughts, feelings, or anything you want to remember...',
+                      border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(12),
                       ),
+                      focusedBorder: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(12),
+                        borderSide: BorderSide(
+                          color: Theme.of(context).primaryColor,
+                          width: 2,
+                        ),
+                      ),
+                      contentPadding: EdgeInsets.all(16),
                     ),
                   ),
-                ],
-              ),
+                ),
+              ],
             ),
           ),
         ],
