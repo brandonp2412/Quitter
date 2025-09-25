@@ -2,16 +2,18 @@ import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:intl/intl.dart';
 
-class NotesPage extends StatefulWidget {
-  const NotesPage({super.key});
+class JournalPage extends StatefulWidget {
+  const JournalPage({super.key});
 
   @override
-  createState() => _NotesPageState();
+  createState() => _JournalPageState();
 }
 
-class _NotesPageState extends State<NotesPage> {
+class _JournalPageState extends State<JournalPage> {
   final TextEditingController _entryController = TextEditingController();
   DateTime _selectedDate = DateTime.now();
+  DateTime _displayedMonth =
+      DateTime.now(); // Add this to track displayed month
   List<DateTime> _datesWithEntries = [];
 
   @override
@@ -89,25 +91,63 @@ class _NotesPageState extends State<NotesPage> {
     if (picked != null && !_isSameDay(picked, _selectedDate)) {
       setState(() {
         _selectedDate = picked;
+        _displayedMonth = DateTime(
+          picked.year,
+          picked.month,
+          1,
+        ); // Update displayed month
       });
       await _loadEntry();
     }
   }
 
+  void _changeMonth(int monthDelta) {
+    setState(() {
+      _displayedMonth = DateTime(
+        _displayedMonth.year,
+        _displayedMonth.month + monthDelta,
+        1,
+      );
+    });
+  }
+
   Widget _buildCalendarGrid() {
-    final now = DateTime.now();
-    final firstDayOfMonth = DateTime(now.year, now.month, 1);
-    final lastDayOfMonth = DateTime(now.year, now.month + 1, 0);
+    final firstDayOfMonth = DateTime(
+      _displayedMonth.year,
+      _displayedMonth.month,
+      1,
+    );
+    final lastDayOfMonth = DateTime(
+      _displayedMonth.year,
+      _displayedMonth.month + 1,
+      0,
+    );
     final daysInMonth = lastDayOfMonth.day;
     final firstWeekday = firstDayOfMonth.weekday % 7;
+    final now = DateTime.now();
 
     return Container(
       padding: EdgeInsets.all(16),
       child: Column(
         children: [
-          Text(
-            DateFormat('MMMM yyyy').format(now),
-            style: Theme.of(context).textTheme.titleLarge,
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              IconButton(
+                onPressed: () => _changeMonth(-1),
+                icon: Icon(Icons.chevron_left, size: 30),
+                tooltip: 'Previous Month',
+              ),
+              Text(
+                DateFormat('MMMM yyyy').format(_displayedMonth),
+                style: Theme.of(context).textTheme.titleLarge,
+              ),
+              IconButton(
+                onPressed: () => _changeMonth(1),
+                icon: Icon(Icons.chevron_right, size: 30),
+                tooltip: 'Next Month',
+              ),
+            ],
           ),
           SizedBox(height: 16),
           GridView.builder(
@@ -124,7 +164,11 @@ class _NotesPageState extends State<NotesPage> {
               }
 
               final day = index - firstWeekday + 1;
-              final date = DateTime(now.year, now.month, day);
+              final date = DateTime(
+                _displayedMonth.year,
+                _displayedMonth.month,
+                day,
+              );
               final hasEntry = _datesWithEntries.any(
                 (d) => _isSameDay(d, date),
               );
