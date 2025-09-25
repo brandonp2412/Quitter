@@ -13,6 +13,7 @@ Record your quitting journey with a Free and Open Source app.
 *   🌍 **No internet** Our app doesn't request internet access, at all.
 *   🚀 **Multiple journeys** Monitor progress for different habits simultaneously.
 *   🎯 **Milestone tracking** Record and celebrate key achievements in your quitting journey.
+*   📔 **Journaling** Write your thoughts and feelings as you progress.
 *   🔔 **Notifications** Be encouraged with progress notifications.
 *   ⚙️ **Completely custom** Toggle features on/off, change colors & themes with settings.
 
