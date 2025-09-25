@@ -3,9 +3,11 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:integration_test/integration_test.dart';
 import 'package:provider/provider.dart';
 import 'package:quitter/addiction_provider.dart';
+import 'package:quitter/app_theme_mode.dart';
 import 'package:quitter/edit_entry_page.dart';
 import 'package:quitter/entry.dart';
 import 'package:quitter/home_page.dart';
+import 'package:quitter/journal_page.dart';
 import 'package:quitter/marijuana_page.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:quitter/main.dart' as app;
@@ -108,8 +110,11 @@ void main() {
         binding: binding,
         tester: tester,
         name: '2_en-US',
-        goToPage: (context) async =>
-            navigate(context: context, page: const AlcoholPage(started: true)),
+        goToPage: (context) async {
+          navigate(context: context, page: const AlcoholPage(started: true));
+          final settings = context.read<SettingsProvider>();
+          settings.themeMode = AppThemeMode.light;
+        },
       ),
     );
 
@@ -119,8 +124,11 @@ void main() {
         binding: binding,
         tester: tester,
         name: '3_en-US',
-        goToPage: (context) async =>
-            navigate(context: context, page: const SmokingPage(started: true)),
+        goToPage: (context) async {
+          navigate(context: context, page: const SmokingPage(started: true));
+          final settings = context.read<SettingsProvider>();
+          settings.themeMode = AppThemeMode.dark;
+        },
       ),
     );
 
@@ -130,17 +138,21 @@ void main() {
         binding: binding,
         tester: tester,
         name: '4_en-US',
-        goToPage: (context) async => navigate(
-          context: context,
-          page: EditEntryPage(
-            entry: Entry(
-              id: 'fake',
-              color: Colors.purple,
-              quitDate: DateTime.now().subtract(const Duration(days: 3)),
-              title: 'Touching bro',
+        goToPage: (context) async {
+          navigate(
+            context: context,
+            page: EditEntryPage(
+              entry: Entry(
+                id: 'fake',
+                color: Colors.purple,
+                quitDate: DateTime.now().subtract(const Duration(days: 3)),
+                title: 'Touching bro',
+              ),
             ),
-          ),
-        ),
+          );
+          final settings = context.read<SettingsProvider>();
+          settings.themeMode = AppThemeMode.dark;
+        },
       ),
     );
 
@@ -151,6 +163,8 @@ void main() {
         tester: tester,
         name: '5_en-US',
         goToPage: (context) async {
+          final settings = context.read<SettingsProvider>();
+          settings.themeMode = AppThemeMode.dark;
           await tester.pumpAndSettle();
           await tester.longPress(find.text('Smoking'));
           await tester.pumpAndSettle();
@@ -164,10 +178,11 @@ void main() {
         binding: binding,
         tester: tester,
         name: '6_en-US',
-        goToPage: (context) async => navigate(
-          context: context,
-          page: const MarijuanaPage(started: true),
-        ),
+        goToPage: (context) async {
+          final settings = context.read<SettingsProvider>();
+          settings.themeMode = AppThemeMode.light;
+          navigate(context: context, page: const MarijuanaPage(started: true));
+        },
       ),
     );
 
@@ -177,21 +192,29 @@ void main() {
         binding: binding,
         tester: tester,
         name: '7_en-US',
-        goToPage: (context) async =>
-            navigate(context: context, page: const SettingsPage()),
+        goToPage: (context) async {
+          final settings = context.read<SettingsProvider>();
+          settings.themeMode = AppThemeMode.pureBlack;
+          navigate(context: context, page: const SettingsPage());
+        },
       ),
     );
 
     testWidgets(
-      "SettingsPageClear",
+      "JournalPage",
       (tester) async => await screenshot(
         binding: binding,
         tester: tester,
         name: '8_en-US',
         goToPage: (context) async {
-          navigate(context: context, page: const SettingsPage());
+          navigate(context: context, page: const app.QuitterApp());
+          final settings = context.read<SettingsProvider>();
+          settings.themeMode = AppThemeMode.light;
           await tester.pumpAndSettle();
-          await tester.scrollUntilVisible(find.text('Clear history'), 200);
+          final TabController tabController = tester
+              .widget<TabBar>(find.byType(TabBar))
+              .controller!;
+          tabController.animateTo(1); // Move to Journal tab
           await tester.pumpAndSettle();
         },
       ),
