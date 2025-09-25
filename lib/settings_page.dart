@@ -26,7 +26,6 @@ class _SettingsPageState extends State<SettingsPage> {
   final TextEditingController _searchController = TextEditingController();
   final FocusNode _searchFocusNode = FocusNode();
   String _searchQuery = '';
-  bool _isSearching = false;
 
   @override
   void initState() {
@@ -48,39 +47,9 @@ class _SettingsPageState extends State<SettingsPage> {
     });
   }
 
-  void _toggleSearch() {
-    setState(() {
-      _isSearching = !_isSearching;
-      if (!_isSearching) {
-        _searchController.clear();
-        _searchFocusNode.unfocus();
-      } else {
-        _searchFocusNode.requestFocus();
-      }
-    });
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: _isSearching
-            ? TextField(
-                controller: _searchController,
-                focusNode: _searchFocusNode,
-                decoration: const InputDecoration(
-                  hintText: 'Search settings...',
-                  border: InputBorder.none,
-                ),
-              )
-            : const Text('Settings'),
-        actions: [
-          IconButton(
-            icon: Icon(_isSearching ? Icons.close : Icons.search),
-            onPressed: _toggleSearch,
-          ),
-        ],
-      ),
       body: SafeArea(
         child: Consumer<SettingsProvider>(
           builder: (context, settings, child) {
@@ -94,9 +63,24 @@ class _SettingsPageState extends State<SettingsPage> {
                       .where((item) => _matchesSearch(item, _searchQuery))
                       .toList();
 
-            return ListView(
-              padding: const EdgeInsets.all(16.0),
-              children: filteredItems,
+            return Column(
+              children: [
+                Padding(
+                  padding: const EdgeInsets.only(left: 16, right: 16, top: 16),
+                  child: SearchBar(
+                    leading: Icon(Icons.search),
+                    controller: _searchController,
+                    focusNode: _searchFocusNode,
+                    hintText: 'Search...',
+                  ),
+                ),
+                Expanded(
+                  child: ListView(
+                    padding: const EdgeInsets.all(16.0),
+                    children: filteredItems,
+                  ),
+                ),
+              ],
             );
           },
         ),

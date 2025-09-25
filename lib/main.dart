@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/svg.dart';
 import 'package:provider/provider.dart';
 import 'package:dynamic_color/dynamic_color.dart';
 import 'package:quitter/addiction_provider.dart';
 import 'package:quitter/app_scheme.dart';
 import 'package:quitter/home_page.dart';
 import 'package:quitter/journal_page.dart';
+import 'package:quitter/settings_page.dart';
 import 'package:quitter/settings_provider.dart';
 import 'package:quitter/tasks.dart';
 import 'package:quitter/app_theme_mode.dart';
@@ -31,8 +33,27 @@ void main() async {
   );
 }
 
-class QuitterApp extends StatelessWidget {
+class QuitterApp extends StatefulWidget {
   const QuitterApp({super.key});
+
+  @override
+  State<QuitterApp> createState() => _QuitterAppState();
+}
+
+class _QuitterAppState extends State<QuitterApp> with TickerProviderStateMixin {
+  late TabController _tabController;
+
+  @override
+  void initState() {
+    super.initState();
+    _tabController = TabController(length: 3, vsync: this);
+  }
+
+  @override
+  void dispose() {
+    _tabController.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -80,15 +101,40 @@ class QuitterApp extends StatelessWidget {
                     ? Colors.black
                     : null,
               ),
-              home: DefaultTabController(
-                length: 2,
-                child: Scaffold(
-                  body: TabBarView(children: [HomePage(), JournalPage()]),
-                  bottomNavigationBar: TabBar(
-                    tabs: [
-                      Tab(icon: Icon(Icons.home), text: 'Home'),
-                      Tab(icon: Icon(Icons.note_alt), text: 'Journal'),
-                    ],
+              home: Scaffold(
+                body: TabBarView(
+                  controller: _tabController,
+                  children: [HomePage(), JournalPage(), SettingsPage()],
+                ),
+                appBar: AppBar(
+                  title: AnimatedBuilder(
+                    animation: _tabController,
+                    builder: (context, child) {
+                      return TabBar(
+                        indicatorPadding: EdgeInsetsGeometry.only(bottom: 32),
+                        controller: _tabController,
+                        tabs: [
+                          Tab(
+                            icon: SvgPicture.asset(
+                              'assets/neurology.svg',
+                              width: 24,
+                              height: 24,
+                              colorFilter: ColorFilter.mode(
+                                _tabController.index == 0
+                                    ? Theme.of(context).colorScheme.primary
+                                    : Theme.of(
+                                        context,
+                                      ).colorScheme.onSurfaceVariant,
+                                BlendMode.srcIn,
+                              ),
+                            ),
+                            text: 'Quitter',
+                          ),
+                          Tab(icon: Icon(Icons.menu_book), text: 'Journal'),
+                          Tab(icon: Icon(Icons.settings), text: 'Settings'),
+                        ],
+                      );
+                    },
                   ),
                 ),
               ),

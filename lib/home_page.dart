@@ -167,30 +167,6 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Quitter', style: TextStyle(fontSize: 32)),
-        leading: Padding(
-          padding: const EdgeInsets.only(left: 16),
-          child: SvgPicture.asset(
-            'assets/neurology.svg',
-            colorFilter: ColorFilter.mode(
-              Theme.of(context).colorScheme.onSurface,
-              BlendMode.srcIn,
-            ),
-          ),
-        ),
-        actions: [
-          IconButton(
-            icon: const Icon(Icons.settings),
-            onPressed: () async {
-              await Navigator.of(context).push(
-                MaterialPageRoute(builder: (context) => const SettingsPage()),
-              );
-              _loadQuitDays();
-            },
-          ),
-        ],
-      ),
       body: SafeArea(
         child: CustomScrollView(
           slivers: [
