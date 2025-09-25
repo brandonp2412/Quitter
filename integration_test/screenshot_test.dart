@@ -151,7 +151,7 @@ void main() {
             ),
           );
           final settings = context.read<SettingsProvider>();
-          settings.themeMode = AppThemeMode.dark;
+          settings.themeMode = AppThemeMode.light;
         },
       ),
     );
