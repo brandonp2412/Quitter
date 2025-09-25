@@ -117,6 +117,10 @@ class _EditEntryPageState extends State<EditEntryPage> {
 
   @override
   Widget build(BuildContext context) {
+    final days = daysCeil(_quitDate.toIso8601String());
+    final quitText =
+        '${DateFormat.yMMMd().format(_quitDate)} ($days day${days > 1 ? 's' : ''})';
+
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.entry == null ? 'Add entry' : 'Edit entry'),
@@ -150,10 +154,7 @@ class _EditEntryPageState extends State<EditEntryPage> {
                 const SizedBox(height: 20),
                 TextFormField(
                   readOnly: true,
-                  controller: TextEditingController(
-                    text:
-                        '${DateFormat.yMMMd().format(_quitDate)} (${daysCeil(_quitDate.toIso8601String())} days)',
-                  ),
+                  controller: TextEditingController(text: quitText),
                   decoration: InputDecoration(
                     labelText: 'Quit date',
                     border: const OutlineInputBorder(),
