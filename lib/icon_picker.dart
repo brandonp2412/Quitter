@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:quitter/cupertino_icons.dart';
 import 'package:quitter/utils.dart';
