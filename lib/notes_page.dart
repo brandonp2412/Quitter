@@ -1,0 +1,248 @@
+import 'package:flutter/material.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+import 'package:intl/intl.dart';
+
+class NotesPage extends StatefulWidget {
+  const NotesPage({super.key});
+
+  @override
+  createState() => _NotesPageState();
+}
+
+class _NotesPageState extends State<NotesPage> {
+  final TextEditingController _entryController = TextEditingController();
+  DateTime _selectedDate = DateTime.now();
+  List<DateTime> _datesWithEntries = [];
+
+  @override
+  void initState() {
+    super.initState();
+    _loadEntry();
+    _loadDatesWithEntries();
+  }
+
+  Future<void> _loadEntry() async {
+    final prefs = await SharedPreferences.getInstance();
+    final dateKey = _formatDateKey(_selectedDate);
+    final entry = prefs.getString('journal_$dateKey') ?? '';
+
+    setState(() {
+      _entryController.text = entry;
+    });
+  }
+
+  Future<void> _saveEntry() async {
+    final prefs = await SharedPreferences.getInstance();
+    final dateKey = _formatDateKey(_selectedDate);
+
+    if (_entryController.text.trim().isNotEmpty) {
+      await prefs.setString('journal_$dateKey', _entryController.text);
+
+      if (!_datesWithEntries.any((date) => _isSameDay(date, _selectedDate))) {
+        _datesWithEntries.add(_selectedDate);
+        await _saveDatesWithEntries();
+      }
+    } else {
+      await prefs.remove('journal_$dateKey');
+      _datesWithEntries.removeWhere((date) => _isSameDay(date, _selectedDate));
+      await _saveDatesWithEntries();
+    }
+  }
+
+  Future<void> _loadDatesWithEntries() async {
+    final prefs = await SharedPreferences.getInstance();
+    final datesString = prefs.getStringList('journal_dates') ?? [];
+
+    setState(() {
+      _datesWithEntries = datesString
+          .map((dateStr) => DateTime.parse(dateStr))
+          .toList();
+    });
+  }
+
+  Future<void> _saveDatesWithEntries() async {
+    final prefs = await SharedPreferences.getInstance();
+    final datesString = _datesWithEntries
+        .map((date) => date.toIso8601String())
+        .toList();
+    await prefs.setStringList('journal_dates', datesString);
+  }
+
+  String _formatDateKey(DateTime date) {
+    return DateFormat('yyyy-MM-dd').format(date);
+  }
+
+  bool _isSameDay(DateTime date1, DateTime date2) {
+    return date1.year == date2.year &&
+        date1.month == date2.month &&
+        date1.day == date2.day;
+  }
+
+  Future<void> _selectDate(BuildContext context) async {
+    final DateTime? picked = await showDatePicker(
+      context: context,
+      initialDate: _selectedDate,
+      firstDate: DateTime(2020),
+      lastDate: DateTime.now().add(Duration(days: 365)),
+    );
+
+    if (picked != null && !_isSameDay(picked, _selectedDate)) {
+      setState(() {
+        _selectedDate = picked;
+      });
+      await _loadEntry();
+    }
+  }
+
+  Widget _buildCalendarGrid() {
+    final now = DateTime.now();
+    final firstDayOfMonth = DateTime(now.year, now.month, 1);
+    final lastDayOfMonth = DateTime(now.year, now.month + 1, 0);
+    final daysInMonth = lastDayOfMonth.day;
+    final firstWeekday = firstDayOfMonth.weekday % 7;
+
+    return Container(
+      padding: EdgeInsets.all(16),
+      child: Column(
+        children: [
+          Text(
+            DateFormat('MMMM yyyy').format(now),
+            style: Theme.of(context).textTheme.titleLarge,
+          ),
+          SizedBox(height: 16),
+          GridView.builder(
+            shrinkWrap: true,
+            physics: NeverScrollableScrollPhysics(),
+            gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+              crossAxisCount: 7,
+              childAspectRatio: 1,
+            ),
+            itemCount: firstWeekday + daysInMonth,
+            itemBuilder: (context, index) {
+              if (index < firstWeekday) {
+                return Container();
+              }
+
+              final day = index - firstWeekday + 1;
+              final date = DateTime(now.year, now.month, day);
+              final hasEntry = _datesWithEntries.any(
+                (d) => _isSameDay(d, date),
+              );
+              final isSelected = _isSameDay(date, _selectedDate);
+              final isToday = _isSameDay(date, now);
+
+              return GestureDetector(
+                onTap: () {
+                  setState(() {
+                    _selectedDate = date;
+                  });
+                  _loadEntry();
+                },
+                child: Stack(
+                  children: [
+                    if (isSelected)
+                      Positioned(
+                        right: 4,
+                        top: 4,
+                        child: Icon(Icons.check_circle, size: 20),
+                      ),
+                    if (isToday)
+                      Positioned(
+                        right: 4,
+                        top: 4,
+                        child: Icon(Icons.circle_outlined, size: 20),
+                      ),
+                    if (hasEntry)
+                      Positioned(
+                        right: 4,
+                        bottom: 4,
+                        child: Icon(
+                          Icons.memory,
+                          color: Theme.of(context).colorScheme.primary,
+                        ),
+                      ),
+                    Container(
+                      margin: EdgeInsets.all(2),
+                      decoration: BoxDecoration(
+                        border: Border.all(
+                          color: Theme.of(context).colorScheme.onSurface,
+                          width: 2,
+                        ),
+                        borderRadius: BorderRadius.circular(8),
+                      ),
+                      child: Center(child: Text('$day')),
+                    ),
+                  ],
+                ),
+              );
+            },
+          ),
+        ],
+      ),
+    );
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        leading: IconButton(
+          icon: Icon(Icons.calendar_today, size: 30),
+          onPressed: () => _selectDate(context),
+          tooltip: 'Select Date',
+        ),
+        title: const Text('Journal', style: TextStyle(fontSize: 32)),
+      ),
+      body: Column(
+        children: [
+          _buildCalendarGrid(),
+          Expanded(
+            child: Container(
+              padding: EdgeInsets.symmetric(horizontal: 16),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    'How was your day?',
+                    style: Theme.of(context).textTheme.titleMedium,
+                  ),
+                  SizedBox(height: 16),
+                  Expanded(
+                    child: TextField(
+                      onChanged: (value) => _saveEntry(),
+                      controller: _entryController,
+                      maxLines: null,
+                      expands: true,
+                      textAlignVertical: TextAlignVertical.top,
+                      decoration: InputDecoration(
+                        hintText:
+                            'Write about your day, thoughts, feelings, or anything you want to remember...',
+                        border: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                        focusedBorder: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(12),
+                          borderSide: BorderSide(
+                            color: Theme.of(context).primaryColor,
+                            width: 2,
+                          ),
+                        ),
+                        contentPadding: EdgeInsets.all(16),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  @override
+  void dispose() {
+    _entryController.dispose();
+    super.dispose();
+  }
+}

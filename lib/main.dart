@@ -4,6 +4,7 @@ import 'package:dynamic_color/dynamic_color.dart';
 import 'package:quitter/addiction_provider.dart';
 import 'package:quitter/app_scheme.dart';
 import 'package:quitter/home_page.dart';
+import 'package:quitter/notes_page.dart';
 import 'package:quitter/settings_provider.dart';
 import 'package:quitter/tasks.dart';
 import 'package:quitter/app_theme_mode.dart';
@@ -79,7 +80,18 @@ class QuitterApp extends StatelessWidget {
                     ? Colors.black
                     : null,
               ),
-              home: const HomePage(),
+              home: DefaultTabController(
+                length: 2,
+                child: Scaffold(
+                  body: TabBarView(children: [HomePage(), NotesPage()]),
+                  bottomNavigationBar: TabBar(
+                    tabs: [
+                      Tab(icon: Icon(Icons.home), text: 'Home'),
+                      Tab(icon: Icon(Icons.note_alt), text: 'Journal'),
+                    ],
+                  ),
+                ),
+              ),
             );
           },
         );
