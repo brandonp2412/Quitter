@@ -1,0 +1,7 @@
+• Add journaling to feature list in README
+• Auto capitalize journal entries
+• Clean up readme [skip ci]
+• Fix # of days in screenshots
+• Fix pluralization of days in custom entries
+• Make icon picker easier to scroll
+• Use light theme for edit entry screenshots
