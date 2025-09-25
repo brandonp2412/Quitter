@@ -73,27 +73,11 @@ void main() {
     );
     await prefs.setString(
       'smoking',
-      DateTime.now().subtract(const Duration(days: 7)).toIso8601String(),
+      DateTime.now().subtract(const Duration(days: 6)).toIso8601String(),
     );
     await prefs.setString(
       'marijuana',
-      DateTime.now().subtract(const Duration(days: 14)).toIso8601String(),
-    );
-    await prefs.setString(
-      'nicotine_pouches',
-      DateTime.now().subtract(const Duration(days: 30)).toIso8601String(),
-    );
-    await prefs.setString(
-      'opioids',
-      DateTime.now().subtract(const Duration(days: 60)).toIso8601String(),
-    );
-    await prefs.setString(
-      'social_media',
-      DateTime.now().subtract(const Duration(days: 90)).toIso8601String(),
-    );
-    await prefs.setString(
-      'pornography',
-      DateTime.now().subtract(const Duration(days: 180)).toIso8601String(),
+      DateTime.now().subtract(const Duration(days: 13)).toIso8601String(),
     );
   });
 
