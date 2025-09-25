@@ -1,0 +1,6 @@
+• Add journal tab
+• Add pagination to journal page
+• Alternate screenshot themes
+• Fix scrolling on journal page
+• Put tabs in the app bar
+• Remove unused imports
