@@ -404,7 +404,6 @@ class _JournalPageState extends State<JournalPage> {
                     ),
                   ),
                   SizedBox(height: 16),
-                  // Text field
                   Container(
                     decoration: BoxDecoration(
                       color: Theme.of(context).colorScheme.surface,
@@ -419,6 +418,7 @@ class _JournalPageState extends State<JournalPage> {
                     child: SizedBox(
                       height: 300,
                       child: TextField(
+                        textCapitalization: TextCapitalization.sentences,
                         onChanged: (value) => _saveEntry(),
                         controller: _entryController,
                         maxLines: null,
