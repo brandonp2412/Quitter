@@ -61,8 +61,8 @@ class _IconPickerWidgetState extends State<IconPickerWidget> {
   @override
   Widget build(BuildContext context) {
     return Column(
+      mainAxisSize: MainAxisSize.min,
       children: [
-        // Search bar
         SearchBar(
           leading: Icon(Icons.search),
           controller: _searchController,
@@ -79,54 +79,51 @@ class _IconPickerWidgetState extends State<IconPickerWidget> {
               : null,
         ),
 
-        // Icon grid
-        Expanded(
-          child: filteredIcons.isEmpty
-              ? const Center(child: Text('No icons found'))
-              : GridView.builder(
-                  padding: const EdgeInsets.all(16.0),
-                  gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                    crossAxisCount: 6,
-                    mainAxisSpacing: 8.0,
-                    crossAxisSpacing: 8.0,
-                    childAspectRatio: 1.0,
-                  ),
-                  itemCount: filteredIcons.length,
-                  itemBuilder: (context, index) {
-                    final icon = filteredIcons[index];
-                    final isSelected = widget.selectedIcon == icon;
+        const SizedBox(height: 16),
 
-                    return GestureDetector(
-                      onTap: () => widget.onIconSelected(icon),
-                      child: Container(
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(8.0),
-                          gradient: isSelected
-                              ? LinearGradient(
-                                  colors: [
-                                    widget.iconColor ?? Colors.purple,
-                                    widget.iconColor?.withValues(alpha: 0.7) ??
-                                        Colors.purple.withValues(alpha: 0.7),
-                                  ],
-                                  begin: Alignment.topLeft,
-                                  end: Alignment.bottomRight,
-                                )
-                              : null,
-                        ),
-                        child: Icon(
-                          icon,
-                          size: widget.iconSize,
-                          color: isSelected
-                              ? getContrastingColor(
+        filteredIcons.isEmpty
+            ? const Padding(
+                padding: EdgeInsets.all(32.0),
+                child: Text('No icons found'),
+              )
+            : Wrap(
+                spacing: 8.0,
+                runSpacing: 8.0,
+                children: filteredIcons.map((icon) {
+                  final isSelected = widget.selectedIcon == icon;
+
+                  return GestureDetector(
+                    onTap: () => widget.onIconSelected(icon),
+                    child: Container(
+                      width: 48.0,
+                      height: 48.0,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(8.0),
+                        gradient: isSelected
+                            ? LinearGradient(
+                                colors: [
                                   widget.iconColor ?? Colors.purple,
-                                )
-                              : null,
-                        ),
+                                  widget.iconColor?.withValues(alpha: 0.7) ??
+                                      Colors.purple.withValues(alpha: 0.7),
+                                ],
+                                begin: Alignment.topLeft,
+                                end: Alignment.bottomRight,
+                              )
+                            : null,
                       ),
-                    );
-                  },
-                ),
-        ),
+                      child: Icon(
+                        icon,
+                        size: widget.iconSize,
+                        color: isSelected
+                            ? getContrastingColor(
+                                widget.iconColor ?? Colors.purple,
+                              )
+                            : null,
+                      ),
+                    ),
+                  );
+                }).toList(),
+              ),
       ],
     );
   }

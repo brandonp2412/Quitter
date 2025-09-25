@@ -256,18 +256,15 @@ class _EditEntryPageState extends State<EditEntryPage> {
                         isFocused: hasFocus,
                         child: Padding(
                           padding: const EdgeInsets.symmetric(vertical: 8),
-                          child: SizedBox(
-                            height: 438,
-                            child: IconPickerWidget(
-                              selectedIcon: _selectedIcon,
-                              iconColor: _selectedColor,
-                              onIconSelected: (icon) {
-                                Focus.of(context).requestFocus();
-                                setState(() {
-                                  _selectedIcon = icon;
-                                });
-                              },
-                            ),
+                          child: IconPickerWidget(
+                            selectedIcon: _selectedIcon,
+                            iconColor: _selectedColor,
+                            onIconSelected: (icon) {
+                              Focus.of(context).requestFocus();
+                              setState(() {
+                                _selectedIcon = icon;
+                              });
+                            },
                           ),
                         ),
                       );
