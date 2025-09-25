@@ -33,11 +33,6 @@ Record your quitting journey with a Free and Open Source app.
     <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/8_en-US.png" height="600" alt="The settings page showing system settings and operational buttons">
 </p>
 
-# About
-
-Quitter makes it easy to remember how long it's been since you've dropped a bad habit.
-Automatically calculate the number of days since you quit, and see beautiful infographics on your journey.
-
 # Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
@@ -66,7 +61,3 @@ To run the app on a connected device or emulator:
 ```bash
 flutter run
 ```
-
-# License
-
-This project is licensed under the MIT License - see the `LICENSE` file for details.
