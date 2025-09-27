@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:package_info_plus/package_info_plus.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:provider/provider.dart' show Consumer, ReadContext;
 import 'package:quitter/about_page.dart';
@@ -14,6 +15,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:quitter/whats_new.dart';
 import 'dart:typed_data';
 import 'package:quitter/app_theme_mode.dart';
+import 'package:url_launcher/url_launcher_string.dart';
 
 class SettingsPage extends StatefulWidget {
   const SettingsPage({super.key});
@@ -417,6 +419,17 @@ class _SettingsPageState extends State<SettingsPage> {
         onTap: () => Navigator.of(
           context,
         ).push(MaterialPageRoute(builder: (context) => const EnjoyingPage())),
+      ),
+      const Divider(height: 1),
+      ListTile(
+        title: const Text("Report a bug"),
+        leading: const Icon(Icons.bug_report),
+        onTap: () async {
+          final info = await PackageInfo.fromPlatform();
+          launchUrlString(
+            "https://github.com/brandonp2412/Quitter/issues/new?body=App version: ${info.version}",
+          );
+        },
       ),
       const Divider(height: 1),
       ListTile(
