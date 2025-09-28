@@ -33,7 +33,21 @@ int daysCeil(String dateStr) {
   final today = DateTime.now();
   final currentDate = DateTime(today.year, today.month, today.day);
 
-  return currentDate.difference(quitDate).inDays + 1;
+  // Calculate the difference in days like Kotlin does
+  final daysDifference = currentDate.difference(quitDate).inDays;
+
+  // But let's manually verify: count actual calendar days between dates
+  var tempDate = quitDate;
+  var dayCount = 0;
+  while (tempDate.isBefore(currentDate)) {
+    tempDate = tempDate.add(Duration(days: 1));
+    dayCount++;
+  }
+
+  print("Dart manual count: $dayCount");
+  print("Dart difference().inDays: $daysDifference");
+
+  return dayCount + 1; // Add 1 for inclusive counting
 }
 
 void toast(
