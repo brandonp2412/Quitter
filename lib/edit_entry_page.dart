@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:intl/intl.dart';
@@ -29,8 +31,12 @@ class _EditEntryPageState extends State<EditEntryPage> {
     super.initState();
     _titleController = TextEditingController(text: widget.entry?.title ?? '');
     _quitDate = widget.entry?.quitDate ?? DateTime.now();
-    _selectedColor = widget.entry?.color ?? Colors.blue;
     _selectedIcon = widget.entry?.icon ?? Icons.star;
+
+    final random = Random();
+    _selectedColor =
+        widget.entry?.color ??
+        Colors.primaries.elementAt(random.nextInt(Colors.primaries.length));
   }
 
   @override
