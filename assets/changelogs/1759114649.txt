@@ -1,0 +1,4 @@
+• Add "Report a bug" button
+• Fix calculating day differences
+• Optimize day difference calculations
+• Randomize default color for new custom entries
