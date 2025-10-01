@@ -27,9 +27,10 @@ class _JournalPageState extends State<JournalPage> {
     final dateKey = _formatDateKey(_selectedDate);
     final entry = prefs.getString('journal_$dateKey') ?? '';
 
-    setState(() {
-      _entryController.text = entry;
-    });
+    if (mounted)
+      setState(() {
+        _entryController.text = entry;
+      });
   }
 
   Future<void> _saveEntry() async {
@@ -54,11 +55,12 @@ class _JournalPageState extends State<JournalPage> {
     final prefs = await SharedPreferences.getInstance();
     final datesString = prefs.getStringList('journal_dates') ?? [];
 
-    setState(() {
-      _datesWithEntries = datesString
-          .map((dateStr) => DateTime.parse(dateStr))
-          .toList();
-    });
+    if (mounted)
+      setState(() {
+        _datesWithEntries = datesString
+            .map((dateStr) => DateTime.parse(dateStr))
+            .toList();
+      });
   }
 
   Future<void> _saveDatesWithEntries() async {
@@ -87,7 +89,7 @@ class _JournalPageState extends State<JournalPage> {
       lastDate: DateTime.now().add(Duration(days: 365)),
     );
 
-    if (picked != null && !_isSameDay(picked, _selectedDate)) {
+    if (picked != null && !_isSameDay(picked, _selectedDate) && mounted) {
       setState(() {
         _selectedDate = picked;
         _displayedMonth = DateTime(picked.year, picked.month, 1);
@@ -97,13 +99,14 @@ class _JournalPageState extends State<JournalPage> {
   }
 
   void _changeMonth(int monthDelta) {
-    setState(() {
-      _displayedMonth = DateTime(
-        _displayedMonth.year,
-        _displayedMonth.month + monthDelta,
-        1,
-      );
-    });
+    if (mounted)
+      setState(() {
+        _displayedMonth = DateTime(
+          _displayedMonth.year,
+          _displayedMonth.month + monthDelta,
+          1,
+        );
+      });
   }
 
   Widget _buildCalendarGrid() {
