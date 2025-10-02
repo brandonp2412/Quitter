@@ -1,0 +1,2 @@
+• Add swipe between tabs setting
+• Prevent errors in journal page
