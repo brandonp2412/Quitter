@@ -104,6 +104,9 @@ class _QuitterAppState extends State<QuitterApp> with TickerProviderStateMixin {
               home: Scaffold(
                 body: TabBarView(
                   controller: _tabController,
+                  physics: settings.swipeTabs
+                      ? AlwaysScrollableScrollPhysics()
+                      : NeverScrollableScrollPhysics(),
                   children: [HomePage(), JournalPage(), SettingsPage()],
                 ),
                 appBar: AppBar(

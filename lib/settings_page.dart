@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:permission_handler/permission_handler.dart';
@@ -208,6 +209,18 @@ class _SettingsPageState extends State<SettingsPage> {
         value: settings.showReset,
         onChanged: (value) => settings.showReset = value,
       ),
+      if (defaultTargetPlatform == TargetPlatform.android) ...[
+        const Divider(height: 1),
+        SwitchListTile(
+          secondary: const Icon(Icons.swipe),
+          title: const Text('Swipe between tabs'),
+          subtitle: const Text(
+            'Dragging your finger moves between Journal, Homepage & Settings',
+          ),
+          value: settings.swipeTabs,
+          onChanged: (value) => settings.swipeTabs = value,
+        ),
+      ],
     ];
   }
 

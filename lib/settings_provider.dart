@@ -20,6 +20,7 @@ class SettingsProvider extends ChangeNotifier {
     'opioids': 'show_opioids',
     'socialMedia': 'show_social_media',
     'pornography': 'show_pornography',
+    'swipeTabs': 'swipe_tabs',
   };
 
   static const Map<String, String> _notifyKeys = {
@@ -56,6 +57,7 @@ class SettingsProvider extends ChangeNotifier {
 
   bool get showAlcohol => _showSettings['alcohol']!;
   bool get showReset => _showSettings['reset']!;
+  bool get swipeTabs => _showSettings['swipeTabs']!;
   bool get showVaping => _showSettings['vaping']!;
   bool get showSmoking => _showSettings['smoking']!;
   bool get showNicotinePouches => _showSettings['nicotinePouches']!;
@@ -137,6 +139,8 @@ class SettingsProvider extends ChangeNotifier {
 
   set showAlcohol(bool show) =>
       _updateBoolSetting(_showSettings, _showKeys, 'alcohol', show);
+  set swipeTabs(bool show) =>
+      _updateBoolSetting(_showSettings, _showKeys, 'swipeTabs', show);
   set showReset(bool show) =>
       _updateBoolSetting(_showSettings, _showKeys, 'reset', show);
   set showVaping(bool show) =>
