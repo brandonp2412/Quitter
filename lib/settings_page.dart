@@ -384,7 +384,7 @@ class _SettingsPageState extends State<SettingsPage> {
       builder: (context) => AlertDialog(
         title: const Text('Clear History'),
         content: const Text(
-          'Are you sure you want to clear all quitting history? This action cannot be undone.',
+          'Are you sure you want to clear all quitting history? Relapse indicators on all addictions will dissapear. This action cannot be undone.',
         ),
         actions: [
           TextButton(
@@ -398,6 +398,60 @@ class _SettingsPageState extends State<SettingsPage> {
               addictions.clearDays();
             },
             child: const Text('Clear'),
+          ),
+        ],
+      ),
+    );
+  }
+
+  void _clearJournal(BuildContext context) {
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('Clear journal'),
+        content: const Text(
+          'Are you sure you delete all journal entries? This action cannot be undone.',
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(context).pop(),
+            child: const Text('Cancel'),
+          ),
+          TextButton(
+            onPressed: () async {
+              Navigator.of(context).pop();
+              final prefs = await SharedPreferences.getInstance();
+              final keys = prefs.getKeys();
+              for (var key in keys)
+                if (key.startsWith('journal_')) await prefs.remove(key);
+            },
+            child: const Text('Clear'),
+          ),
+        ],
+      ),
+    );
+  }
+
+  void _deleteEverything(BuildContext context) {
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('Delete everything'),
+        content: const Text(
+          'Are you sure you delete everything? This action cannot be undone.',
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(context).pop(),
+            child: const Text('Cancel'),
+          ),
+          TextButton(
+            onPressed: () async {
+              Navigator.of(context).pop();
+              final prefs = await SharedPreferences.getInstance();
+              prefs.clear();
+            },
+            child: const Text('DELETE!'),
           ),
         ],
       ),
@@ -458,9 +512,39 @@ class _SettingsPageState extends State<SettingsPage> {
       ),
       const Divider(height: 1),
       ListTile(
-        title: const Text("Clear history"),
+        title: Row(
+          children: [
+            const Text("Clear history"),
+            SizedBox(width: 8),
+            Icon(Icons.history),
+          ],
+        ),
         leading: const Icon(Icons.delete),
         onTap: () => _clearHistory(context),
+      ),
+      const Divider(height: 1),
+      ListTile(
+        title: Row(
+          children: [
+            const Text("Clear journal"),
+            SizedBox(width: 8),
+            Icon(Icons.menu_book),
+          ],
+        ),
+        leading: const Icon(Icons.delete),
+        onTap: () => _clearJournal(context),
+      ),
+      const Divider(height: 1),
+      ListTile(
+        title: Row(
+          children: [
+            const Text("Delete everything"),
+            SizedBox(width: 8),
+            Icon(Icons.all_inclusive),
+          ],
+        ),
+        leading: const Icon(Icons.delete),
+        onTap: () => _deleteEverything(context),
       ),
     ];
   }
