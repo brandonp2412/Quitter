@@ -209,6 +209,16 @@ class _SettingsPageState extends State<SettingsPage> {
         value: settings.showReset,
         onChanged: (value) => settings.showReset = value,
       ),
+      const Divider(height: 1),
+      SwitchListTile(
+        secondary: const Icon(Icons.menu_book),
+        title: const Text('Show journal'),
+        subtitle: const Text(
+          'Enable the journal tab for logging your thoughts',
+        ),
+        value: settings.showJournal,
+        onChanged: (value) => settings.showJournal = value,
+      ),
       if (defaultTargetPlatform == TargetPlatform.android) ...[
         const Divider(height: 1),
         SwitchListTile(

@@ -46,7 +46,11 @@ class _QuitterAppState extends State<QuitterApp> with TickerProviderStateMixin {
   @override
   void initState() {
     super.initState();
-    _tabController = TabController(length: 3, vsync: this);
+    final settings = context.read<SettingsProvider>();
+    if (settings.showJournal)
+      _tabController = TabController(length: 3, vsync: this);
+    else
+      _tabController = TabController(length: 2, vsync: this);
   }
 
   @override
@@ -59,6 +63,11 @@ class _QuitterAppState extends State<QuitterApp> with TickerProviderStateMixin {
   Widget build(BuildContext context) {
     return Consumer<SettingsProvider>(
       builder: (context, settings, child) {
+        if (settings.showJournal && _tabController.length != 3)
+          _tabController = TabController(length: 3, vsync: this);
+        if (!settings.showJournal && _tabController.length != 2)
+          _tabController = TabController(length: 2, vsync: this);
+
         return DynamicColorBuilder(
           builder: (ColorScheme? lightDynamic, ColorScheme? darkDynamic) {
             final lightColorScheme = AppScheme.getColorScheme(
@@ -107,7 +116,11 @@ class _QuitterAppState extends State<QuitterApp> with TickerProviderStateMixin {
                   physics: settings.swipeTabs
                       ? AlwaysScrollableScrollPhysics()
                       : NeverScrollableScrollPhysics(),
-                  children: [HomePage(), JournalPage(), SettingsPage()],
+                  children: [
+                    HomePage(),
+                    if (settings.showJournal) JournalPage(),
+                    SettingsPage(),
+                  ],
                 ),
                 appBar: AppBar(
                   title: AnimatedBuilder(
@@ -133,7 +146,8 @@ class _QuitterAppState extends State<QuitterApp> with TickerProviderStateMixin {
                             ),
                             text: 'Quitter',
                           ),
-                          Tab(icon: Icon(Icons.menu_book), text: 'Journal'),
+                          if (settings.showJournal)
+                            Tab(icon: Icon(Icons.menu_book), text: 'Journal'),
                           Tab(icon: Icon(Icons.settings), text: 'Settings'),
                         ],
                       );
