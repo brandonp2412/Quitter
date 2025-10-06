@@ -120,6 +120,12 @@ class AddictionProvider extends ChangeNotifier {
     return _days[key] ?? const [];
   }
 
+  Future<void> popDays(String key) async {
+    _days.update(key, (val) => val.sublist(0, val.length - 1));
+    await _saveDays();
+    notifyListeners();
+  }
+
   Future<void> resetAddiction(String key, int days) async {
     _days.update(key, (val) => [...val, days], ifAbsent: () => [days]);
     await _saveDays();

@@ -329,6 +329,7 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
                 });
                 controller.text =
                     '${DateFormat.yMMMd().format(quitDate)} (${daysCeil(quitDate.toIso8601String())} days)';
+                addictions.popDays(widget.storageKey);
               },
             ),
           );
