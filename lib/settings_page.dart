@@ -14,7 +14,6 @@ import 'package:file_picker/file_picker.dart';
 import 'package:quitter/utils.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:quitter/whats_new.dart';
-import 'dart:typed_data';
 import 'package:quitter/app_theme_mode.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 
