@@ -7,7 +7,6 @@ import 'package:quitter/app_theme_mode.dart';
 import 'package:quitter/edit_entry_page.dart';
 import 'package:quitter/entry.dart';
 import 'package:quitter/home_page.dart';
-import 'package:quitter/journal_page.dart';
 import 'package:quitter/marijuana_page.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:quitter/main.dart' as app;
