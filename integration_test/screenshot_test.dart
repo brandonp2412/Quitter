@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:integration_test/integration_test.dart';
@@ -55,7 +56,8 @@ Future<void> screenshot({
   settle ? await tester.pump() : await tester.pumpAndSettle();
   await binding.convertFlutterSurfaceToImage();
   settle ? await tester.pump() : await tester.pumpAndSettle();
-  await binding.takeScreenshot(name);
+  if (defaultTargetPlatform != TargetPlatform.linux)
+    await binding.takeScreenshot(name);
 }
 
 void main() {
