@@ -93,7 +93,6 @@ git --no-pager log --pretty=format:'%s' "$last_tag"..HEAD | \
     head -10 | \
     sed 's/^/• /' > "$changelog_file"
 
-changelog=$(cat "$changelog_file")
 print_success "Generated changelog:"
 cat "$changelog_file"
 
@@ -111,6 +110,7 @@ export PATH="$PWD/flutter/bin:$PATH"
 # Run tests and analysis
 print_step "Running tests and analysis"
 flutter test
+flutter test -d linux integration_test
 print_success "Tests passed"
 
 dart analyze lib
