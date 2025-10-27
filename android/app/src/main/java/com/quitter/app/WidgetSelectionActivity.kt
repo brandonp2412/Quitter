@@ -48,7 +48,7 @@ class WidgetSelectionActivity : Activity() {
             ),
             AddictionItem("opioids", "Opioids", R.drawable.ic_medication, 0xFFEC4899.toInt()),
             AddictionItem("social_media", "Social Media", R.drawable.ic_public, 0xFF8B5CF6.toInt()),
-            AddictionItem("pornography", "Pornography", R.drawable.ic_block, 0xFFF43F5E.toInt())
+            AddictionItem("pornography", "Adult content", R.drawable.ic_block, 0xFFF43F5E.toInt())
         )
 
         val prefs = getSharedPreferences("FlutterSharedPreferences", MODE_PRIVATE)

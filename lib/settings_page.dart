@@ -290,8 +290,8 @@ class _SettingsPageState extends State<SettingsPage> {
       ),
       _ToggleItem(
         icon: Icons.block,
-        title: 'Pornography',
-        subtitle: 'Show pornography tracking',
+        title: 'AC',
+        subtitle: 'Show adult content tracking',
         value: settings.showPornography,
         onChanged: (value) => settings.showPornography = value,
       ),
@@ -359,8 +359,8 @@ class _SettingsPageState extends State<SettingsPage> {
       ),
       _ToggleItem(
         icon: Icons.block,
-        title: 'Pornography',
-        subtitle: 'Notify pornography quitting progress',
+        title: 'Adult content',
+        subtitle: 'Notify adult content quitting progress',
         value: settings.notifyPornography,
         onChanged: (value) => settings.notifyPornography = value,
       ),

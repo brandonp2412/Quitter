@@ -131,7 +131,7 @@ void main() {
         expect(find.text('Nicotine Pouches'), findsOneWidget);
         expect(find.text('Opioids'), findsOneWidget);
         expect(find.text('Social Media'), findsOneWidget);
-        expect(find.text('Pornography'), findsOneWidget);
+        expect(find.text('AC'), findsOneWidget);
       },
     );
   });

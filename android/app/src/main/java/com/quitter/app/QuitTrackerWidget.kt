@@ -96,7 +96,7 @@ class QuitTrackerWidget : AppWidgetProvider() {
                                     ),
                             "pornography" to
                                     AddictionInfo(
-                                            "Pornography",
+                                            "Adult content",
                                             R.drawable.ic_block,
                                             0xFFF43F5E,
                                             0xFFE11D48

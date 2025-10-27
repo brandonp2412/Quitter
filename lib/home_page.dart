@@ -387,7 +387,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                     cards.add(
                       QuitCard(
                         context: context,
-                        title: 'Pornography',
+                        title: 'AC',
                         icon: Icons.block,
                         gradientColors: [
                           const Color(0xFFF43F5E),
@@ -405,7 +405,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                           if (mounted) _loadQuitDays();
                         },
                         onLongPress: () {
-                          _showHideBottomSheet('Pornography', () {
+                          _showHideBottomSheet('AC', () {
                             settings.showPornography = false;
                           });
                         },
