@@ -400,7 +400,7 @@ void main() {
       final initialValue = settingsProvider.showPornography;
 
       final pornographySwitch = find.ancestor(
-        of: find.text('Show pornography tracking'),
+        of: find.text('Show adult content tracking'),
         matching: find.byType(SwitchListTile),
       );
 
@@ -600,7 +600,7 @@ void main() {
       final initialValue = settingsProvider.notifyPornography;
 
       final notifyPornographySwitch = find.ancestor(
-        of: find.text('Notify pornography quitting progress'),
+        of: find.text('Notify adult content quitting progress'),
         matching: find.byType(SwitchListTile),
       );
 
