@@ -11,6 +11,7 @@ import 'package:quitter/enjoying_page.dart';
 import 'package:quitter/settings_provider.dart';
 import 'dart:io';
 import 'package:file_picker/file_picker.dart';
+import 'package:quitter/tasks.dart';
 import 'package:quitter/utils.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:quitter/whats_new.dart';
@@ -387,60 +388,6 @@ class _SettingsPageState extends State<SettingsPage> {
     ];
   }
 
-  void _clearHistory(BuildContext context) {
-    showDialog(
-      context: context,
-      builder: (context) => AlertDialog(
-        title: const Text('Clear History'),
-        content: const Text(
-          'Are you sure you want to clear all quitting history? Relapse indicators on all addictions will dissapear. This action cannot be undone.',
-        ),
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.of(context).pop(),
-            child: const Text('Cancel'),
-          ),
-          TextButton(
-            onPressed: () {
-              Navigator.of(context).pop();
-              final addictions = context.read<AddictionProvider>();
-              addictions.clearDays();
-            },
-            child: const Text('Clear'),
-          ),
-        ],
-      ),
-    );
-  }
-
-  void _clearJournal(BuildContext context) {
-    showDialog(
-      context: context,
-      builder: (context) => AlertDialog(
-        title: const Text('Clear journal'),
-        content: const Text(
-          'Are you sure you delete all journal entries? This action cannot be undone.',
-        ),
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.of(context).pop(),
-            child: const Text('Cancel'),
-          ),
-          TextButton(
-            onPressed: () async {
-              Navigator.of(context).pop();
-              final prefs = await SharedPreferences.getInstance();
-              final keys = prefs.getKeys();
-              for (var key in keys)
-                if (key.startsWith('journal_')) await prefs.remove(key);
-            },
-            child: const Text('Clear'),
-          ),
-        ],
-      ),
-    );
-  }
-
   void _deleteEverything(BuildContext context) {
     showDialog(
       context: context,
@@ -718,11 +665,15 @@ class _SettingsPageState extends State<SettingsPage> {
               child: const Text('Cancel'),
             ),
             TextButton(
-              onPressed: () {
+              onPressed: () async {
                 final days = int.tryParse(everyCtrl.text);
                 if (days != null && days > 0) {
                   settings.notifyEvery = days;
-                  Navigator.pop(context);
+                  if (defaultTargetPlatform == TargetPlatform.android)
+                    await doMobileReminders();
+                  else if (defaultTargetPlatform == TargetPlatform.linux)
+                    await doDesktopReminders();
+                  if (context.mounted) Navigator.pop(context);
                 }
               },
               child: const Text('Save'),
