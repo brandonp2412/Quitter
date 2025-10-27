@@ -669,10 +669,11 @@ class _SettingsPageState extends State<SettingsPage> {
                 final days = int.tryParse(everyCtrl.text);
                 if (days != null && days > 0) {
                   settings.notifyEvery = days;
-                  if (defaultTargetPlatform == TargetPlatform.android)
-                    await doMobileReminders();
-                  else if (defaultTargetPlatform == TargetPlatform.linux)
-                    await doDesktopReminders();
+                  await testNotification(
+                    title: 'Positive affirmation',
+                    body:
+                        'You will see a notification like this every $days day congratulating you on your progress!',
+                  );
                   if (context.mounted) Navigator.pop(context);
                 }
               },

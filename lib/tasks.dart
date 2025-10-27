@@ -79,6 +79,87 @@ Future<void> setupTasks() async {
   });
 }
 
+/// Test method to send a notification with custom title and body
+/// Call this from anywhere in your app to test notifications
+Future<void> testNotification({
+  required String title,
+  required String body,
+}) async {
+  final plugin = await _initializeNotificationPlugin();
+  await _showNotification(plugin, title, body);
+}
+
+/// Initialize notification plugin based on platform
+Future<FlutterLocalNotificationsPlugin> _initializeNotificationPlugin() async {
+  final plugin = FlutterLocalNotificationsPlugin();
+
+  if (defaultTargetPlatform == TargetPlatform.android ||
+      defaultTargetPlatform == TargetPlatform.iOS) {
+    const androidChannel = AndroidNotificationChannel(
+      'reminders_channel_id',
+      'Reminders',
+      description: 'Notifications for daily progress reminders',
+      importance: Importance.high,
+    );
+
+    await plugin
+        .resolvePlatformSpecificImplementation<
+          AndroidFlutterLocalNotificationsPlugin
+        >()
+        ?.createNotificationChannel(androidChannel);
+
+    const darwinSettings = DarwinInitializationSettings();
+    const androidSettings = AndroidInitializationSettings('neurology');
+    const initSettings = InitializationSettings(
+      iOS: darwinSettings,
+      android: androidSettings,
+    );
+    await plugin.initialize(initSettings);
+  } else {
+    const linuxSettings = LinuxInitializationSettings(
+      defaultActionName: 'Open notification',
+    );
+    const darwinSettings = DarwinInitializationSettings();
+    const windowsSettings = WindowsInitializationSettings(
+      appName: 'Quitter',
+      appUserModelId: 'com.quitter.app',
+      guid: '32562a7f-d398-4ae3-9ff9-35496b6f60ed',
+    );
+    const initSettings = InitializationSettings(
+      linux: linuxSettings,
+      macOS: darwinSettings,
+      windows: windowsSettings,
+    );
+    await plugin.initialize(initSettings);
+  }
+
+  return plugin;
+}
+
+/// Show a notification with given title and body
+Future<void> _showNotification(
+  FlutterLocalNotificationsPlugin plugin,
+  String title,
+  String body,
+) async {
+  final notificationDetails = NotificationDetails(
+    android: AndroidNotificationDetails(
+      'reminders_channel_id',
+      'Reminders',
+      channelDescription: 'Notifications for daily progress reminders',
+      importance: Importance.high,
+      priority: Priority.high,
+      icon: 'neurology',
+    ),
+    iOS: DarwinNotificationDetails(),
+    linux: LinuxNotificationDetails(),
+    macOS: DarwinNotificationDetails(),
+    windows: WindowsNotificationDetails(),
+  );
+
+  await plugin.show(Random().nextInt(1000), title, body, notificationDetails);
+}
+
 Future<void> notifyProgress(FlutterLocalNotificationsPlugin plugin) async {
   final prefs = await SharedPreferences.getInstance();
   final random = Random();
@@ -136,47 +217,11 @@ Future<void> notifyProgress(FlutterLocalNotificationsPlugin plugin) async {
     notificationTitle = "No ${randomEntry.title} for $entryCount days";
   }
 
-  final notificationDetails = NotificationDetails(
-    android: AndroidNotificationDetails(
-      'reminders_channel_id',
-      'Reminders',
-      channelDescription: 'Notifications for daily progress reminders',
-      importance: Importance.high,
-      priority: Priority.high,
-      icon: 'neurology',
-    ),
-    iOS: DarwinNotificationDetails(),
-    linux: LinuxNotificationDetails(),
-    macOS: DarwinNotificationDetails(),
-    windows: WindowsNotificationDetails(),
-  );
-
-  await plugin.show(
-    random.nextInt(1000),
-    notificationTitle,
-    notificationBody,
-    notificationDetails,
-  );
+  await _showNotification(plugin, notificationTitle, notificationBody);
 }
 
 Future<void> doDesktopReminders() async {
-  const linuxSettings = LinuxInitializationSettings(
-    defaultActionName: 'Open notification',
-  );
-  const darwinSettings = DarwinInitializationSettings();
-  const windowsSettings = WindowsInitializationSettings(
-    appName: 'Quitter',
-    appUserModelId: 'com.quitter.app',
-    guid: '32562a7f-d398-4ae3-9ff9-35496b6f60ed',
-  );
-  const initSettings = InitializationSettings(
-    linux: linuxSettings,
-    macOS: darwinSettings,
-    windows: windowsSettings,
-  );
-  final plugin = FlutterLocalNotificationsPlugin();
-  await plugin.initialize(initSettings);
-
+  final plugin = await _initializeNotificationPlugin();
   await notifyProgress(plugin);
 }
 
@@ -196,29 +241,7 @@ void cancelTasks() {
 }
 
 Future<void> doMobileReminders() async {
-  const androidChannel = AndroidNotificationChannel(
-    'reminders_channel_id',
-    'Reminders',
-    description: 'Notifications for daily progress reminders',
-    importance: Importance.high,
-  );
-
-  final plugin = FlutterLocalNotificationsPlugin();
-
-  await plugin
-      .resolvePlatformSpecificImplementation<
-        AndroidFlutterLocalNotificationsPlugin
-      >()
-      ?.createNotificationChannel(androidChannel);
-
-  const darwinSettings = DarwinInitializationSettings();
-  const androidSettings = AndroidInitializationSettings('neurology');
-  const initSettings = InitializationSettings(
-    iOS: darwinSettings,
-    android: androidSettings,
-  );
-  await plugin.initialize(initSettings);
-
+  final plugin = await _initializeNotificationPlugin();
   await notifyProgress(plugin);
 }
 
