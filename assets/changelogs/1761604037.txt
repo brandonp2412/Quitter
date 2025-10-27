@@ -1,0 +1,6 @@
+• Add "Get it on Microsoft Store" badge
+• Fix broken notifications with no custom entries
+• Fix journal page on desktop
+• Remove all the different delete buttons
+• Remove unused code in settings page
+• Show sample notification when setting the frequency
