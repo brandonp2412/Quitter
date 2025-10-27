@@ -520,38 +520,9 @@ class _SettingsPageState extends State<SettingsPage> {
         onTap: () => _importData(context),
       ),
       const Divider(height: 1),
-      ListTile(
-        title: Row(
-          children: [
-            const Text("Clear history"),
-            SizedBox(width: 8),
-            Icon(Icons.history),
-          ],
-        ),
-        leading: const Icon(Icons.delete),
-        onTap: () => _clearHistory(context),
-      ),
       const Divider(height: 1),
       ListTile(
-        title: Row(
-          children: [
-            const Text("Clear journal"),
-            SizedBox(width: 8),
-            Icon(Icons.menu_book),
-          ],
-        ),
-        leading: const Icon(Icons.delete),
-        onTap: () => _clearJournal(context),
-      ),
-      const Divider(height: 1),
-      ListTile(
-        title: Row(
-          children: [
-            const Text("Delete everything"),
-            SizedBox(width: 8),
-            Icon(Icons.all_inclusive),
-          ],
-        ),
+        title: const Text("Delete everything"),
         leading: const Icon(Icons.delete),
         onTap: () => _deleteEverything(context),
       ),
