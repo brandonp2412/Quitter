@@ -120,19 +120,19 @@ Future<void> notifyProgress(FlutterLocalNotificationsPlugin plugin) async {
 
   if (activeJourneys.isEmpty && addiction.entries.isEmpty) return;
 
-  final randomEntry =
-      addiction.entries[random.nextInt(addiction.entries.length)];
   final randomJourney = activeJourneys[random.nextInt(activeJourneys.length)];
   final journeyDate = prefs.getString(randomJourney['key']!);
   final journeyCount = daysCeil(journeyDate!);
-  final entryCount = daysCeil(randomEntry.quitDate.toIso8601String());
 
   final randomMessage = messages[random.nextInt(messages.length)];
   var notificationTitle =
       "No ${randomJourney['name']!.toLowerCase()} for $journeyCount days";
   final notificationBody = randomMessage;
 
-  if (random.nextBool()) {
+  if (addiction.entries.isNotEmpty && random.nextBool()) {
+    final randomEntry =
+        addiction.entries[random.nextInt(addiction.entries.length)];
+    final entryCount = daysCeil(randomEntry.quitDate.toIso8601String());
     notificationTitle = "No ${randomEntry.title} for $entryCount days";
   }
 
@@ -195,6 +195,33 @@ void cancelTasks() {
   timer?.cancel();
 }
 
+Future<void> doMobileReminders() async {
+  const androidChannel = AndroidNotificationChannel(
+    'reminders_channel_id',
+    'Reminders',
+    description: 'Notifications for daily progress reminders',
+    importance: Importance.high,
+  );
+
+  final plugin = FlutterLocalNotificationsPlugin();
+
+  await plugin
+      .resolvePlatformSpecificImplementation<
+        AndroidFlutterLocalNotificationsPlugin
+      >()
+      ?.createNotificationChannel(androidChannel);
+
+  const darwinSettings = DarwinInitializationSettings();
+  const androidSettings = AndroidInitializationSettings('neurology');
+  const initSettings = InitializationSettings(
+    iOS: darwinSettings,
+    android: androidSettings,
+  );
+  await plugin.initialize(initSettings);
+
+  await notifyProgress(plugin);
+}
+
 @pragma('vm:entry-point')
 void taskHandler() {
   if (defaultTargetPlatform != TargetPlatform.android &&
@@ -209,31 +236,7 @@ void taskHandler() {
     print('[Workmanager] task received $task');
     switch (task) {
       case 'reminders':
-        const androidChannel = AndroidNotificationChannel(
-          'reminders_channel_id',
-          'Reminders',
-          description: 'Notifications for daily progress reminders',
-          importance: Importance.high,
-        );
-
-        final plugin = FlutterLocalNotificationsPlugin();
-
-        await plugin
-            .resolvePlatformSpecificImplementation<
-              AndroidFlutterLocalNotificationsPlugin
-            >()
-            ?.createNotificationChannel(androidChannel);
-
-        const darwinSettings = DarwinInitializationSettings();
-        const androidSettings = AndroidInitializationSettings('neurology');
-        const initSettings = InitializationSettings(
-          iOS: darwinSettings,
-          android: androidSettings,
-        );
-        await plugin.initialize(initSettings);
-
-        await notifyProgress(plugin);
-
+        await doMobileReminders();
         print('[Workmanager] Task "reminders" completed successfully.');
         return Future.value(true);
       case 'widgets':
