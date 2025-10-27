@@ -18,6 +18,7 @@ Record your quitting journey with a Free and Open Source app.
 *   ⚙️ **Completely custom** Toggle features on/off, change colors & themes with settings.
 
 <a href='https://play.google.com/store/apps/details?id=com.quitter.app'><img alt='Get it on Google Play badge' height="80" src='./docs/get-it-on-google-play.png'/></a>
+<a href="https://apps.microsoft.com/detail/9PKVZWDG3FGC?referrer=appbadge&mode=direct"><img src="./docs/download-msstore.svg" style="height: 80px !important" alt="Download from the Microsoft Store badge"/></a>
 <a href='https://brandonp2412.github.io/Quitter/'><img alt='Get it on web' height="80" src='./docs/get-it-on-web.png'/></a>
 
 # Screenshots
