@@ -88,10 +88,10 @@ class AddictionProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-  Future<void> updateEntry(Entry e) async {
-    final index = entries.indexWhere((entry) => entry.id == e.id);
+  Future<void> updateEntry(Entry entry) async {
+    final index = entries.indexWhere((e) => e.id == entry.id);
     if (index == -1) return;
-    entries[index] = e;
+    entries[index] = entry;
     await _saveEntries();
     notifyListeners();
   }
@@ -105,9 +105,9 @@ class AddictionProvider extends ChangeNotifier {
   Future<void> resetEntry(String id, int days) async {
     final index = entries.indexWhere((e) => e.id == id);
     if (index == -1) return;
-    final e = entries[index];
-    e.daysAchieved.add(days);
-    e.quitDate = DateTime.now();
+    final entry = entries[index];
+    entry.daysAchieved.add(days);
+    entry.quitDate = DateTime.now();
     await _saveEntries();
     notifyListeners();
   }
@@ -136,8 +136,15 @@ class AddictionProvider extends ChangeNotifier {
     if (_days.containsKey(key)) {
       _days[key]?.removeWhere((day) => daysToClear.contains(day));
       await _saveDays();
-      notifyListeners();
+    } else {
+      final entry = entries.firstWhere((entry) => entry.id == key);
+      entry.daysAchieved = entry.daysAchieved
+          .where((day) => !daysToClear.contains(day))
+          .toList();
+      await _saveEntries();
     }
+
+    notifyListeners();
   }
 
   void clearDays() async {
