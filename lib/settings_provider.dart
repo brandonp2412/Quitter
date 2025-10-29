@@ -1,3 +1,6 @@
+import 'dart:convert';
+
+import 'package:crypto/crypto.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:quitter/color_scheme_type.dart';
@@ -9,6 +12,11 @@ class SettingsProvider extends ChangeNotifier {
   static const String _colorSchemeKey = 'color_scheme';
   static const String _notifyEveryKey = 'notify_every';
   static const String _notifyAtKey = 'notify_at';
+  static const _pinHashKey = 'pin_hash';
+  static const _pinEnabledKey = 'pin_enabled';
+
+  bool _isUnlocked = false;
+  bool get isUnlocked => _isUnlocked;
 
   static const Map<String, String> _showKeys = {
     'alcohol': 'show_alcohol',
@@ -35,6 +43,9 @@ class SettingsProvider extends ChangeNotifier {
     'socialMedia': 'notify_social_media',
     'pornography': 'notify_pornography',
   };
+
+  bool _isPinEnabled = false;
+  bool get isPinEnabled => _isPinEnabled;
 
   final FlutterSecureStorage _storage = const FlutterSecureStorage();
 
@@ -78,6 +89,20 @@ class SettingsProvider extends ChangeNotifier {
   bool get notifyRelapse => _notifySettings['relapse']!;
   bool get notifyMarijuana => _notifySettings['marijuana']!;
 
+  Future<bool> unlock(String pin) async {
+    if (await verifyPin(pin)) {
+      _isUnlocked = true;
+      notifyListeners();
+      return true;
+    }
+    return false;
+  }
+
+  void lockApp() {
+    _isUnlocked = false;
+    notifyListeners();
+  }
+
   Future<void> loadPreferences() async {
     final themeValue = await _storage.read(key: _themeKey);
     _themeMode = themeValue != null
@@ -105,7 +130,32 @@ class SettingsProvider extends ChangeNotifier {
       _notifySettings[entry.key] = value != null ? value == 'true' : true;
     }
 
+    final enabled = await _storage.read(key: _pinEnabledKey);
+    _isPinEnabled = enabled == 'true';
+
     notifyListeners();
+  }
+
+  Future<void> setPinEnabled(bool enabled, String? pin) async {
+    if (enabled && pin != null) {
+      final hash = sha256.convert(utf8.encode(pin)).toString();
+      await _storage.write(key: _pinHashKey, value: hash);
+      await _storage.write(key: _pinEnabledKey, value: 'true');
+      _isPinEnabled = true;
+    } else {
+      await _storage.delete(key: _pinHashKey);
+      await _storage.write(key: _pinEnabledKey, value: 'false');
+      _isPinEnabled = false;
+    }
+    notifyListeners();
+  }
+
+  Future<bool> verifyPin(String pin) async {
+    final storedHash = await _storage.read(key: _pinHashKey);
+    if (storedHash == null) return false;
+
+    final inputHash = sha256.convert(utf8.encode(pin)).toString();
+    return inputHash == storedHash;
   }
 
   Future<void> _updateBoolSetting(

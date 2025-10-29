@@ -166,6 +166,124 @@ class _SettingsPageState extends State<SettingsPage> {
     }
   }
 
+  List<Widget> _buildSecuritySectionItems(
+    BuildContext context,
+    SettingsProvider settings,
+  ) {
+    return [
+      _sectionHeader('Security', context),
+      SwitchListTile(
+        secondary: const Icon(Icons.lock),
+        title: const Text('PIN Lock'),
+        subtitle: const Text('Require PIN to open app'),
+        value: settings.isPinEnabled,
+        onChanged: (value) async {
+          if (value) {
+            final pin = await _showSetPinDialog(context);
+            if (pin != null) {
+              await settings.setPinEnabled(true, pin);
+            }
+          } else {
+            final confirmed = await _showVerifyPinDialog(context);
+            if (confirmed) {
+              await settings.setPinEnabled(false, null);
+            }
+          }
+        },
+      ),
+    ];
+  }
+
+  Future<String?> _showSetPinDialog(BuildContext context) async {
+    final controller = TextEditingController();
+    final confirmController = TextEditingController();
+
+    return showDialog<String>(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('Set PIN'),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            TextField(
+              controller: controller,
+              obscureText: true,
+              keyboardType: TextInputType.number,
+              maxLength: 6,
+              decoration: const InputDecoration(
+                labelText: 'Enter PIN',
+                counterText: '',
+              ),
+            ),
+            const SizedBox(height: 16),
+            TextField(
+              controller: confirmController,
+              obscureText: true,
+              keyboardType: TextInputType.number,
+              maxLength: 6,
+              decoration: const InputDecoration(
+                labelText: 'Confirm PIN',
+                counterText: '',
+              ),
+            ),
+          ],
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: const Text('Cancel'),
+          ),
+          TextButton(
+            onPressed: () {
+              if (controller.text == confirmController.text &&
+                  controller.text.isNotEmpty) {
+                Navigator.pop(context, controller.text);
+              } else {
+                ScaffoldMessenger.of(context).showSnackBar(
+                  const SnackBar(content: Text('PINs do not match')),
+                );
+              }
+            },
+            child: const Text('Set'),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Future<bool> _showVerifyPinDialog(BuildContext context) async {
+    final controller = TextEditingController();
+
+    final result = await showDialog<String>(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('Enter PIN'),
+        content: TextField(
+          controller: controller,
+          obscureText: true,
+          keyboardType: TextInputType.number,
+          maxLength: 6,
+          decoration: const InputDecoration(labelText: 'PIN', counterText: ''),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: const Text('Cancel'),
+          ),
+          TextButton(
+            onPressed: () => Navigator.pop(context, controller.text),
+            child: const Text('OK'),
+          ),
+        ],
+      ),
+    );
+
+    if (result == null || !context.mounted) return false;
+
+    final settings = context.read<SettingsProvider>();
+    return await settings.verifyPin(result);
+  }
+
   List<Widget> _buildAppearanceSectionItems(
     BuildContext context,
     SettingsProvider settings,
@@ -470,6 +588,8 @@ class _SettingsPageState extends State<SettingsPage> {
   ) {
     return [
       ..._buildAppearanceSectionItems(context, settings),
+      const SizedBox(height: 24),
+      ..._buildSecuritySectionItems(context, settings),
       const SizedBox(height: 24),
       ..._buildMainScreenItemsSectionItems(settings, context),
       const SizedBox(height: 24),

@@ -6,6 +6,7 @@ import 'package:quitter/addiction_provider.dart';
 import 'package:quitter/app_scheme.dart';
 import 'package:quitter/home_page.dart';
 import 'package:quitter/journal_page.dart';
+import 'package:quitter/pin_lock_screen.dart';
 import 'package:quitter/settings_page.dart';
 import 'package:quitter/settings_provider.dart';
 import 'package:quitter/storage_migration.dart';
@@ -42,7 +43,8 @@ class QuitterApp extends StatefulWidget {
   State<QuitterApp> createState() => _QuitterAppState();
 }
 
-class _QuitterAppState extends State<QuitterApp> with TickerProviderStateMixin {
+class _QuitterAppState extends State<QuitterApp>
+    with TickerProviderStateMixin, WidgetsBindingObserver {
   late TabController _tabController;
 
   @override
@@ -53,12 +55,23 @@ class _QuitterAppState extends State<QuitterApp> with TickerProviderStateMixin {
       _tabController = TabController(length: 3, vsync: this);
     else
       _tabController = TabController(length: 2, vsync: this);
+
+    WidgetsBinding.instance.addObserver(this);
   }
 
   @override
   void dispose() {
     _tabController.dispose();
+    WidgetsBinding.instance.removeObserver(this);
     super.dispose();
+  }
+
+  @override
+  void didChangeAppLifecycleState(AppLifecycleState state) {
+    if (state == AppLifecycleState.paused ||
+        state == AppLifecycleState.inactive) {
+      context.read<SettingsProvider>().lockApp();
+    }
   }
 
   @override
@@ -112,51 +125,63 @@ class _QuitterAppState extends State<QuitterApp> with TickerProviderStateMixin {
                     ? Colors.black
                     : null,
               ),
-              home: Scaffold(
-                body: TabBarView(
-                  controller: _tabController,
-                  physics: settings.swipeTabs
-                      ? AlwaysScrollableScrollPhysics()
-                      : NeverScrollableScrollPhysics(),
-                  children: [
-                    HomePage(),
-                    if (settings.showJournal) JournalPage(),
-                    SettingsPage(),
-                  ],
-                ),
-                appBar: AppBar(
-                  title: AnimatedBuilder(
-                    animation: _tabController,
-                    builder: (context, child) {
-                      return TabBar(
-                        indicatorPadding: EdgeInsetsGeometry.only(bottom: 32),
+              home: settings.isPinEnabled && !settings.isUnlocked
+                  ? PinLockScreen()
+                  : Scaffold(
+                      body: TabBarView(
                         controller: _tabController,
-                        tabs: [
-                          Tab(
-                            icon: SvgPicture.asset(
-                              'assets/neurology.svg',
-                              width: 24,
-                              height: 24,
-                              colorFilter: ColorFilter.mode(
-                                _tabController.index == 0
-                                    ? Theme.of(context).colorScheme.primary
-                                    : Theme.of(
-                                        context,
-                                      ).colorScheme.onSurfaceVariant,
-                                BlendMode.srcIn,
-                              ),
-                            ),
-                            text: 'Quitter',
-                          ),
-                          if (settings.showJournal)
-                            Tab(icon: Icon(Icons.menu_book), text: 'Journal'),
-                          Tab(icon: Icon(Icons.settings), text: 'Settings'),
+                        physics: settings.swipeTabs
+                            ? AlwaysScrollableScrollPhysics()
+                            : NeverScrollableScrollPhysics(),
+                        children: [
+                          HomePage(),
+                          if (settings.showJournal) JournalPage(),
+                          SettingsPage(),
                         ],
-                      );
-                    },
-                  ),
-                ),
-              ),
+                      ),
+                      appBar: AppBar(
+                        title: AnimatedBuilder(
+                          animation: _tabController,
+                          builder: (context, child) {
+                            return TabBar(
+                              indicatorPadding: EdgeInsetsGeometry.only(
+                                bottom: 32,
+                              ),
+                              controller: _tabController,
+                              tabs: [
+                                Tab(
+                                  icon: SvgPicture.asset(
+                                    'assets/neurology.svg',
+                                    width: 24,
+                                    height: 24,
+                                    colorFilter: ColorFilter.mode(
+                                      _tabController.index == 0
+                                          ? Theme.of(
+                                              context,
+                                            ).colorScheme.primary
+                                          : Theme.of(
+                                              context,
+                                            ).colorScheme.onSurfaceVariant,
+                                      BlendMode.srcIn,
+                                    ),
+                                  ),
+                                  text: 'Quitter',
+                                ),
+                                if (settings.showJournal)
+                                  Tab(
+                                    icon: Icon(Icons.menu_book),
+                                    text: 'Journal',
+                                  ),
+                                Tab(
+                                  icon: Icon(Icons.settings),
+                                  text: 'Settings',
+                                ),
+                              ],
+                            );
+                          },
+                        ),
+                      ),
+                    ),
             );
           },
         );
