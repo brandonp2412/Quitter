@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:provider/provider.dart';
 import 'package:quitter/pin_page.dart';
 import 'package:quitter/settings_provider.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {
   late SettingsProvider settingsProvider;
 
   setUp(() async {
-    FlutterSecureStorage.setMockInitialValues({});
+    SharedPreferences.setMockInitialValues({});
     settingsProvider = SettingsProvider();
     await settingsProvider.loadPreferences();
   });
