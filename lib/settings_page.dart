@@ -792,7 +792,7 @@ class _SettingsPageState extends State<SettingsPage> {
                   await testNotification(
                     title: 'Positive affirmation',
                     body:
-                        'You will see a notification like this every $days day congratulating you on your progress!',
+                        'You will see a notification like this every $days day${days > 0 ? 's' : ''} congratulating you on your progress!',
                   );
                   if (context.mounted) Navigator.pop(context);
                 }
