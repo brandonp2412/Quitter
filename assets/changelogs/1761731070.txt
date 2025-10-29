@@ -1,0 +1,9 @@
+• Add PIN locking setting
+• Add unit tests for pin page
+• Fix importing data from settings page
+• Fix pluralization of notify every setting notification
+• Fix settings page unit tests
+• Fix unit tests
+• Revert "Remove windows store deployment from github action"
+• Revert "Use secure storage for all sensitive information"
+• Use secure storage for all sensitive information
