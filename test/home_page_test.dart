@@ -5,7 +5,6 @@ import 'package:provider/provider.dart';
 import 'package:quitter/addiction_provider.dart';
 import 'package:quitter/home_page.dart';
 import 'package:quitter/settings_provider.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {
   late SettingsProvider settingsProvider;

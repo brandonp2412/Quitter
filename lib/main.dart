@@ -6,7 +6,7 @@ import 'package:quitter/addiction_provider.dart';
 import 'package:quitter/app_scheme.dart';
 import 'package:quitter/home_page.dart';
 import 'package:quitter/journal_page.dart';
-import 'package:quitter/pin_lock_screen.dart';
+import 'package:quitter/pin_page.dart';
 import 'package:quitter/settings_page.dart';
 import 'package:quitter/settings_provider.dart';
 import 'package:quitter/storage_migration.dart';
@@ -126,7 +126,7 @@ class _QuitterAppState extends State<QuitterApp>
                     : null,
               ),
               home: settings.isPinEnabled && !settings.isUnlocked
-                  ? PinLockScreen()
+                  ? PinPage()
                   : Scaffold(
                       body: TabBarView(
                         controller: _tabController,
