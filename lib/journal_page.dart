@@ -1,5 +1,7 @@
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
-import 'package:shared_preferences/shared_preferences.dart';
+import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:intl/intl.dart';
 
 class JournalPage extends StatefulWidget {
@@ -11,6 +13,7 @@ class JournalPage extends StatefulWidget {
 
 class _JournalPageState extends State<JournalPage> {
   final TextEditingController _entryController = TextEditingController();
+  final storage = FlutterSecureStorage();
   DateTime _selectedDate = DateTime.now();
   DateTime _displayedMonth = DateTime.now();
   List<DateTime> _datesWithEntries = [];
@@ -23,9 +26,8 @@ class _JournalPageState extends State<JournalPage> {
   }
 
   Future<void> _loadEntry() async {
-    final prefs = await SharedPreferences.getInstance();
     final dateKey = _formatDateKey(_selectedDate);
-    final entry = prefs.getString('journal_$dateKey') ?? '';
+    final entry = await storage.read(key: 'journal_$dateKey') ?? '';
 
     if (mounted)
       setState(() {
@@ -34,41 +36,41 @@ class _JournalPageState extends State<JournalPage> {
   }
 
   Future<void> _saveEntry() async {
-    final prefs = await SharedPreferences.getInstance();
     final dateKey = _formatDateKey(_selectedDate);
 
     if (_entryController.text.trim().isNotEmpty) {
-      await prefs.setString('journal_$dateKey', _entryController.text);
+      await storage.write(
+        key: 'journal_$dateKey',
+        value: _entryController.text,
+      );
 
       if (!_datesWithEntries.any((date) => _isSameDay(date, _selectedDate))) {
         _datesWithEntries.add(_selectedDate);
         await _saveDatesWithEntries();
       }
     } else {
-      await prefs.remove('journal_$dateKey');
+      await storage.delete(key: 'journal_$dateKey');
       _datesWithEntries.removeWhere((date) => _isSameDay(date, _selectedDate));
       await _saveDatesWithEntries();
     }
   }
 
   Future<void> _loadDatesWithEntries() async {
-    final prefs = await SharedPreferences.getInstance();
-    final datesString = prefs.getStringList('journal_dates') ?? [];
+    final datesString = await storage.read(key: 'journal_dates') ?? '[]';
 
     if (mounted)
       setState(() {
-        _datesWithEntries = datesString
-            .map((dateStr) => DateTime.parse(dateStr))
+        _datesWithEntries = (jsonDecode(datesString) as List)
+            .map((dateStr) => DateTime.parse(dateStr as String))
             .toList();
       });
   }
 
   Future<void> _saveDatesWithEntries() async {
-    final prefs = await SharedPreferences.getInstance();
     final datesString = _datesWithEntries
         .map((date) => date.toIso8601String())
         .toList();
-    await prefs.setStringList('journal_dates', datesString);
+    await storage.write(key: 'journal_dates', value: jsonEncode(datesString));
   }
 
   String _formatDateKey(DateTime date) {

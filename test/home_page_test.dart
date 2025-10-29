@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:provider/provider.dart';
 import 'package:quitter/addiction_provider.dart';
@@ -11,15 +12,15 @@ void main() {
   late AddictionProvider addictionProvider;
 
   setUp(() async {
-    SharedPreferences.setMockInitialValues({
-      'show_alcohol': false,
-      'show_vaping': false,
-      'show_smoking': false,
-      'show_marijuana': false,
-      'show_nicotine_pouches': false,
-      'show_opioids': false,
-      'show_social_media': false,
-      'show_pornography': false,
+    FlutterSecureStorage.setMockInitialValues({
+      'show_alcohol': 'false',
+      'show_vaping': 'false',
+      'show_smoking': 'false',
+      'show_marijuana': 'false',
+      'show_nicotine_pouches': 'false',
+      'show_opioids': 'false',
+      'show_social_media': 'false',
+      'show_pornography': 'false',
     });
     settingsProvider = SettingsProvider();
     addictionProvider = AddictionProvider();
@@ -52,10 +53,10 @@ void main() {
     testWidgets(
       'should display grid of addiction cards when settings are enabled',
       (WidgetTester tester) async {
-        SharedPreferences.setMockInitialValues({
-          'show_alcohol': true,
-          'show_vaping': true,
-          'show_smoking': true,
+        FlutterSecureStorage.setMockInitialValues({
+          'show_alcohol': 'true',
+          'show_vaping': 'true',
+          'show_smoking': 'true',
         });
         final testSettings = SettingsProvider();
         await testSettings.loadPreferences();
@@ -96,15 +97,15 @@ void main() {
     testWidgets(
       'should display all addiction types when all settings are enabled',
       (WidgetTester tester) async {
-        SharedPreferences.setMockInitialValues({
-          'show_alcohol': true,
-          'show_vaping': true,
-          'show_smoking': true,
-          'show_marijuana': true,
-          'show_nicotine_pouches': true,
-          'show_opioids': true,
-          'show_social_media': true,
-          'show_pornography': true,
+        FlutterSecureStorage.setMockInitialValues({
+          'show_alcohol': 'true',
+          'show_vaping': 'true',
+          'show_smoking': 'true',
+          'show_marijuana': 'true',
+          'show_nicotine_pouches': 'true',
+          'show_opioids': 'true',
+          'show_social_media': 'true',
+          'show_pornography': 'true',
         });
         final testSettings = SettingsProvider();
         await testSettings.loadPreferences();
@@ -140,7 +141,7 @@ void main() {
     testWidgets('should show hide bottom sheet on card long press', (
       WidgetTester tester,
     ) async {
-      SharedPreferences.setMockInitialValues({'show_alcohol': true});
+      FlutterSecureStorage.setMockInitialValues({'show_alcohol': 'true'});
       final testSettings = SettingsProvider();
       await testSettings.loadPreferences();
 
@@ -168,7 +169,7 @@ void main() {
     testWidgets('should cancel hide action when Cancel is pressed', (
       WidgetTester tester,
     ) async {
-      SharedPreferences.setMockInitialValues({'show_alcohol': true});
+      FlutterSecureStorage.setMockInitialValues({'show_alcohol': 'true'});
       final testSettings = SettingsProvider();
       await testSettings.loadPreferences();
 
@@ -198,7 +199,7 @@ void main() {
     testWidgets('should hide card when Hide is confirmed', (
       WidgetTester tester,
     ) async {
-      SharedPreferences.setMockInitialValues({'show_alcohol': true});
+      FlutterSecureStorage.setMockInitialValues({'show_alcohol': 'true'});
       final testSettings = SettingsProvider();
       await testSettings.loadPreferences();
 
@@ -240,7 +241,7 @@ void main() {
     testWidgets('should navigate to addiction page when card is tapped', (
       WidgetTester tester,
     ) async {
-      SharedPreferences.setMockInitialValues({'show_alcohol': true});
+      FlutterSecureStorage.setMockInitialValues({'show_alcohol': 'true'});
       final testSettings = SettingsProvider();
       await testSettings.loadPreferences();
 

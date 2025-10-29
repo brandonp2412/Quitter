@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:intl/intl.dart';
 import 'package:quitter/journal_page.dart';
@@ -7,7 +8,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 void main() {
   group('JournalPage', () {
     setUp(() {
-      SharedPreferences.setMockInitialValues({});
+      FlutterSecureStorage.setMockInitialValues({});
     });
 
     testWidgets('displays current month and year', (WidgetTester tester) async {

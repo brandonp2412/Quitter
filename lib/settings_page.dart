@@ -1,5 +1,8 @@
+import 'dart:convert';
+
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:provider/provider.dart' show Consumer, ReadContext;
@@ -28,6 +31,7 @@ class SettingsPage extends StatefulWidget {
 class _SettingsPageState extends State<SettingsPage> {
   final TextEditingController _searchController = TextEditingController();
   final FocusNode _searchFocusNode = FocusNode();
+  final storage = FlutterSecureStorage();
   String _searchQuery = '';
 
   @override
@@ -93,17 +97,13 @@ class _SettingsPageState extends State<SettingsPage> {
 
   Future<void> _exportData(BuildContext context) async {
     try {
-      final prefs = await SharedPreferences.getInstance();
-      final data = prefs
-          .getKeys()
-          .map((key) => '$key=${prefs.get(key)}')
-          .join('\n');
+      final data = jsonEncode(await storage.readAll());
 
       final path = await FilePicker.platform.saveFile(
         dialogTitle: 'Save data to',
-        fileName: 'quitter.txt',
+        fileName: 'quitter.json',
         type: FileType.custom,
-        allowedExtensions: ['txt'],
+        allowedExtensions: ['json'],
         bytes: Uint8List.fromList(data.codeUnits),
       );
 
@@ -123,33 +123,17 @@ class _SettingsPageState extends State<SettingsPage> {
     try {
       FilePickerResult? result = await FilePicker.platform.pickFiles(
         type: FileType.any,
+        allowedExtensions: ['json'],
       );
       if (result == null) return;
 
       File file = File(result.files.single.path!);
       String contents = await file.readAsString();
 
-      final prefs = await SharedPreferences.getInstance();
-      await prefs.clear();
+      final Map<String, dynamic> data = jsonDecode(contents);
 
-      for (var line in contents.split('\n')) {
-        if (line.isEmpty) continue;
-
-        final parts = line.split('=');
-        if (parts.length < 2) continue;
-
-        final key = parts[0];
-        final value = parts.sublist(1).join('=');
-
-        if (value == 'true' || value == 'false') {
-          await prefs.setBool(key, value == 'true');
-        } else if (int.tryParse(value) != null) {
-          await prefs.setInt(key, int.parse(value));
-        } else if (double.tryParse(value) != null) {
-          await prefs.setDouble(key, double.parse(value));
-        } else {
-          await prefs.setString(key, value);
-        }
+      for (final entry in data.entries) {
+        await storage.write(key: entry.key, value: entry.value as String);
       }
 
       if (!context.mounted) return;
@@ -207,7 +191,7 @@ class _SettingsPageState extends State<SettingsPage> {
         title: const Text('Reset buttons'),
         subtitle: const Text('Show reset buttons on quit pages'),
         value: settings.showReset,
-        onChanged: (value) => settings.showReset = value,
+        onChanged: (value) => settings.setShowReset(value),
       ),
       const Divider(height: 1),
       SwitchListTile(
@@ -217,7 +201,7 @@ class _SettingsPageState extends State<SettingsPage> {
           'Enable the journal tab for logging your thoughts',
         ),
         value: settings.showJournal,
-        onChanged: (value) => settings.showJournal = value,
+        onChanged: (value) => settings.setShowJournal(value),
       ),
       if (defaultTargetPlatform == TargetPlatform.android) ...[
         const Divider(height: 1),
@@ -228,7 +212,7 @@ class _SettingsPageState extends State<SettingsPage> {
             'Dragging your finger moves between Journal, Homepage & Settings',
           ),
           value: settings.swipeTabs,
-          onChanged: (value) => settings.swipeTabs = value,
+          onChanged: (value) => settings.setSwipeTabs(value),
         ),
       ],
     ];
@@ -244,56 +228,56 @@ class _SettingsPageState extends State<SettingsPage> {
         title: 'Alcohol',
         subtitle: 'Show alcohol tracking',
         value: settings.showAlcohol,
-        onChanged: (value) => settings.showAlcohol = value,
+        onChanged: (value) => settings.setShowAlcohol(value),
       ),
       _ToggleItem(
         icon: Icons.air,
         title: 'Vaping',
         subtitle: 'Show vaping tracking',
         value: settings.showVaping,
-        onChanged: (value) => settings.showVaping = value,
+        onChanged: (value) => settings.setShowVaping(value),
       ),
       _ToggleItem(
         icon: Icons.eco,
         title: 'Smoking',
         subtitle: 'Show smoking tracking',
         value: settings.showSmoking,
-        onChanged: (value) => settings.showSmoking = value,
+        onChanged: (value) => settings.setShowSmoking(value),
       ),
       _ToggleItem(
         icon: Icons.grass,
         title: 'Marijuana',
         subtitle: 'Show marijuana tracking',
         value: settings.showMarijuana,
-        onChanged: (value) => settings.showMarijuana = value,
+        onChanged: (value) => settings.setShowMarijuana(value),
       ),
       _ToggleItem(
         icon: Icons.scatter_plot,
         title: 'Nicotine pouches',
         subtitle: 'Show nicotine pouches tracking',
         value: settings.showNicotinePouches,
-        onChanged: (value) => settings.showNicotinePouches = value,
+        onChanged: (value) => settings.setShowNicotinePouches(value),
       ),
       _ToggleItem(
         icon: Icons.medication,
         title: 'Opioids',
         subtitle: 'Show opioids tracking',
         value: settings.showOpioids,
-        onChanged: (value) => settings.showOpioids = value,
+        onChanged: (value) => settings.setShowOpioids(value),
       ),
       _ToggleItem(
         icon: Icons.public,
         title: 'Social Media',
         subtitle: 'Show social media tracking',
         value: settings.showSocialMedia,
-        onChanged: (value) => settings.showSocialMedia = value,
+        onChanged: (value) => settings.setShowSocialMedia(value),
       ),
       _ToggleItem(
         icon: Icons.block,
         title: 'AC',
         subtitle: 'Show adult content tracking',
         value: settings.showPornography,
-        onChanged: (value) => settings.showPornography = value,
+        onChanged: (value) => settings.setShowPornography(value),
       ),
     ];
 
@@ -313,63 +297,63 @@ class _SettingsPageState extends State<SettingsPage> {
         title: 'Alcohol',
         subtitle: 'Notify alcohol quitting progress',
         value: settings.notifyAlcohol,
-        onChanged: (value) => settings.notifyAlcohol = value,
+        onChanged: (value) => settings.setNotifyAlcohol(value),
       ),
       _ToggleItem(
         icon: Icons.air,
         title: 'Vaping',
         subtitle: 'Notify vaping quitting progress',
         value: settings.notifyVaping,
-        onChanged: (value) => settings.notifyVaping = value,
+        onChanged: (value) => settings.setNotifyVaping(value),
       ),
       _ToggleItem(
         icon: Icons.eco,
         title: 'Smoking',
         subtitle: 'Notify smoking quitting progress',
         value: settings.notifySmoking,
-        onChanged: (value) => settings.notifySmoking = value,
+        onChanged: (value) => settings.setNotifySmoking(value),
       ),
       _ToggleItem(
         icon: Icons.grass,
         title: 'Marijuana',
         subtitle: 'Notify marijuana quitting progress',
         value: settings.notifyMarijuana,
-        onChanged: (value) => settings.notifyMarijuana = value,
+        onChanged: (value) => settings.setNotifyMarijuana(value),
       ),
       _ToggleItem(
         icon: Icons.scatter_plot,
         title: 'Nicotine pouches',
         subtitle: 'Notify nicotine pouches quitting progress',
         value: settings.notifyPouches,
-        onChanged: (value) => settings.notifyPouches = value,
+        onChanged: (value) => settings.setNotifyPouches(value),
       ),
       _ToggleItem(
         icon: Icons.medication,
         title: 'Opioids',
         subtitle: 'Notify opioids quitting progress',
         value: settings.notifyOpioids,
-        onChanged: (value) => settings.notifyOpioids = value,
+        onChanged: (value) => settings.setNotifyOpioids(value),
       ),
       _ToggleItem(
         icon: Icons.public,
         title: 'Social Media',
         subtitle: 'Notify social media quitting progress',
         value: settings.notifySocialMedia,
-        onChanged: (value) => settings.notifySocialMedia = value,
+        onChanged: (value) => settings.setNotifySocialMedia(value),
       ),
       _ToggleItem(
         icon: Icons.block,
         title: 'Adult content',
         subtitle: 'Notify adult content quitting progress',
         value: settings.notifyPornography,
-        onChanged: (value) => settings.notifyPornography = value,
+        onChanged: (value) => settings.setNotifyPornography(value),
       ),
       _ToggleItem(
         icon: Icons.reset_tv,
         title: 'Reset messages',
         subtitle: 'Show positive reinforcement after relapses',
         value: settings.notifyRelapse,
-        onChanged: (value) => settings.notifyRelapse = value,
+        onChanged: (value) => settings.setNotifyRelapse(value),
       ),
     ];
 
@@ -403,9 +387,13 @@ class _SettingsPageState extends State<SettingsPage> {
           ),
           TextButton(
             onPressed: () async {
-              Navigator.of(context).pop();
-              final prefs = await SharedPreferences.getInstance();
-              prefs.clear();
+              storage.deleteAll();
+              final addictions = context.read<AddictionProvider>();
+              await addictions.loadAddictions();
+              if (!context.mounted) return;
+              final settings = context.read<SettingsProvider>();
+              await settings.loadPreferences();
+              if (context.mounted) Navigator.of(context).pop();
             },
             child: const Text('DELETE!'),
           ),
@@ -545,7 +533,7 @@ class _SettingsPageState extends State<SettingsPage> {
       currentValue: settings.themeMode,
       options: AppThemeMode.values,
       getDisplayName: _getTheme,
-      onChanged: (value) => settings.themeMode = value,
+      onChanged: (value) => settings.setThemeMode(value),
     );
   }
 
@@ -556,7 +544,7 @@ class _SettingsPageState extends State<SettingsPage> {
       currentValue: settings.colorSchemeType,
       options: ColorSchemeType.values,
       getDisplayName: AppScheme.getName,
-      onChanged: (value) => settings.colorSchemeType = value,
+      onChanged: (value) => settings.setColorSchemeType(value),
     );
   }
 
@@ -652,7 +640,7 @@ class _SettingsPageState extends State<SettingsPage> {
                     if (result != null) {
                       final totalMinutes = result.hour * 60 + result.minute;
                       atCtrl.text = getTimeString(totalMinutes);
-                      settings.notifyAt = totalMinutes;
+                      settings.setNotifyAt(totalMinutes);
                     }
                   },
                 ),
@@ -668,7 +656,7 @@ class _SettingsPageState extends State<SettingsPage> {
               onPressed: () async {
                 final days = int.tryParse(everyCtrl.text);
                 if (days != null && days > 0) {
-                  settings.notifyEvery = days;
+                  settings.setNotifyEvery(days);
                   await testNotification(
                     title: 'Positive affirmation',
                     body:

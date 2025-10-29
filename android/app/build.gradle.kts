@@ -119,10 +119,9 @@ dependencies {
     implementation("androidx.constraintlayout:constraintlayout:2.2.1")
     implementation("androidx.navigation:navigation-fragment:2.6.0")
     implementation("androidx.navigation:navigation-ui:2.6.0")
-    coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.1.4")
     implementation("androidx.work:work-runtime-ktx:2.7.0")
-    // If you need GCM support (for older devices or specific use cases), uncomment the line below:
-    // implementation("androidx.work:work-gcm:2.2.0")
-    
+    implementation("androidx.security:security-crypto:1.0.0")
     implementation(kotlin("stdlib-jdk8"))
+
+    coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.1.4")
 }
