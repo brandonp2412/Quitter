@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:provider/provider.dart';
 import 'package:quitter/addiction_provider.dart';
@@ -17,6 +16,7 @@ import 'package:quitter/social_media_page.dart';
 import 'package:quitter/utils.dart';
 import 'package:quitter/vaping_page.dart';
 import 'package:quitter/whats_new.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -49,17 +49,12 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
   }
 
   void _whatsNew() async {
-    final storage = FlutterSecureStorage();
-    final lastVersion = int.tryParse(
-      await storage.read(key: 'last_build_number') ?? '0',
-    );
+    final prefs = await SharedPreferences.getInstance();
+    final lastVersion = prefs.getInt('last_build_number') ?? 0;
     final info = await PackageInfo.fromPlatform();
     final currentVersion = int.parse(info.buildNumber);
-    await storage.write(
-      key: 'last_build_number',
-      value: currentVersion.toString(),
-    );
-    if (lastVersion == 0 || lastVersion == null) return;
+    await prefs.setInt('last_build_number', currentVersion);
+    if (lastVersion == 0) return;
 
     if (currentVersion > lastVersion && mounted) {
       toast(
@@ -202,7 +197,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                         },
                         onLongPress: () {
                           _showHideBottomSheet('Alcohol', () {
-                            settings.setShowAlcohol(false);
+                            settings.showAlcohol = false;
                           });
                         },
                       ),
@@ -232,7 +227,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                         },
                         onLongPress: () {
                           _showHideBottomSheet('Vaping', () {
-                            settings.setShowVaping(false);
+                            settings.showVaping = false;
                           });
                         },
                       ),
@@ -262,7 +257,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                         },
                         onLongPress: () {
                           _showHideBottomSheet('Smoking', () {
-                            settings.setShowSmoking(false);
+                            settings.showSmoking = false;
                           });
                         },
                       ),
@@ -292,7 +287,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                         },
                         onLongPress: () {
                           _showHideBottomSheet('Marijuana', () {
-                            settings.setShowMarijuana(false);
+                            settings.showMarijuana = false;
                           });
                         },
                       ),
@@ -321,7 +316,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                         },
                         onLongPress: () {
                           _showHideBottomSheet('Nicotine pouches', () {
-                            settings.setShowNicotinePouches(false);
+                            settings.showNicotinePouches = false;
                           });
                         },
                       ),
@@ -351,7 +346,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                         },
                         onLongPress: () {
                           _showHideBottomSheet('Opioids', () {
-                            settings.setShowOpioids(false);
+                            settings.showOpioids = false;
                           });
                         },
                       ),
@@ -381,7 +376,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                         },
                         onLongPress: () {
                           _showHideBottomSheet('Social Media', () {
-                            settings.setShowSocialMedia(false);
+                            settings.showSocialMedia = false;
                           });
                         },
                       ),
@@ -411,7 +406,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                         },
                         onLongPress: () {
                           _showHideBottomSheet('AC', () {
-                            settings.setShowPornography(false);
+                            settings.showPornography = false;
                           });
                         },
                       ),

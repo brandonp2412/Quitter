@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:crypto/crypto.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_secure_storage/flutter_secure_storage.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:quitter/color_scheme_type.dart';
 import 'package:quitter/tasks.dart';
 import 'package:quitter/app_theme_mode.dart';
@@ -46,8 +46,7 @@ class SettingsProvider extends ChangeNotifier {
 
   bool _isPinEnabled = false;
   bool get isPinEnabled => _isPinEnabled;
-
-  final FlutterSecureStorage _storage = const FlutterSecureStorage();
+  SharedPreferences? _prefs;
 
   AppThemeMode _themeMode = AppThemeMode.system;
   ColorSchemeType _colorSchemeType = ColorSchemeType.dynamic;
@@ -104,34 +103,26 @@ class SettingsProvider extends ChangeNotifier {
   }
 
   Future<void> loadPreferences() async {
-    final themeValue = await _storage.read(key: _themeKey);
-    _themeMode = themeValue != null
-        ? AppThemeMode.values[int.parse(themeValue)]
-        : AppThemeMode.system;
+    _prefs = await SharedPreferences.getInstance();
 
-    final colorSchemeValue = await _storage.read(key: _colorSchemeKey);
-    _colorSchemeType = colorSchemeValue != null
-        ? ColorSchemeType.values[int.parse(colorSchemeValue)]
-        : ColorSchemeType.dynamic;
+    _themeMode = AppThemeMode
+        .values[_prefs!.getInt(_themeKey) ?? AppThemeMode.system.index];
+    _colorSchemeType =
+        ColorSchemeType.values[_prefs!.getInt(_colorSchemeKey) ??
+            ColorSchemeType.dynamic.index];
+    _notifyAt = _prefs!.getInt(_notifyAtKey) ?? (8 * 60);
+    _notifyEvery = _prefs!.getInt(_notifyEveryKey) ?? 1;
 
-    final notifyAtValue = await _storage.read(key: _notifyAtKey);
-    _notifyAt = notifyAtValue != null ? int.parse(notifyAtValue) : (8 * 60);
+    _showKeys.forEach((key, prefKey) {
+      _showSettings[key] = _prefs!.getBool(prefKey) ?? true;
+    });
 
-    final notifyEveryValue = await _storage.read(key: _notifyEveryKey);
-    _notifyEvery = notifyEveryValue != null ? int.parse(notifyEveryValue) : 1;
+    _notifyKeys.forEach((key, prefKey) {
+      _notifySettings[key] = _prefs!.getBool(prefKey) ?? true;
+    });
 
-    for (final entry in _showKeys.entries) {
-      final value = await _storage.read(key: entry.value);
-      _showSettings[entry.key] = value != null ? value == 'true' : true;
-    }
-
-    for (final entry in _notifyKeys.entries) {
-      final value = await _storage.read(key: entry.value);
-      _notifySettings[entry.key] = value != null ? value == 'true' : true;
-    }
-
-    final enabled = await _storage.read(key: _pinEnabledKey);
-    _isPinEnabled = enabled == 'true';
+    final enabled = _prefs?.getBool(_pinEnabledKey);
+    _isPinEnabled = enabled == true;
 
     notifyListeners();
   }
@@ -139,123 +130,103 @@ class SettingsProvider extends ChangeNotifier {
   Future<void> setPinEnabled(bool enabled, String? pin) async {
     if (enabled && pin != null) {
       final hash = sha256.convert(utf8.encode(pin)).toString();
-      await _storage.write(key: _pinHashKey, value: hash);
-      await _storage.write(key: _pinEnabledKey, value: 'true');
+      await _prefs?.setString(_pinHashKey, hash);
+      await _prefs?.setBool(_pinEnabledKey, true);
       _isPinEnabled = true;
     } else {
-      await _storage.delete(key: _pinHashKey);
-      await _storage.write(key: _pinEnabledKey, value: 'false');
+      await _prefs?.remove(_pinHashKey);
+      await _prefs?.setBool(_pinEnabledKey, false);
       _isPinEnabled = false;
     }
     notifyListeners();
   }
 
   Future<bool> verifyPin(String pin) async {
-    final storedHash = await _storage.read(key: _pinHashKey);
+    final storedHash = _prefs?.getString(_pinHashKey);
     if (storedHash == null) return false;
 
     final inputHash = sha256.convert(utf8.encode(pin)).toString();
     return inputHash == storedHash;
   }
 
-  Future<void> _updateBoolSetting(
+  void _updateBoolSetting(
     Map<String, bool> settings,
     Map<String, String> keys,
     String key,
     bool value,
-  ) async {
+  ) {
     settings[key] = value;
-    await _storage.write(key: keys[key]!, value: value.toString());
+    _prefs?.setBool(keys[key]!, value);
     notifyListeners();
   }
 
-  Future<void> setThemeMode(AppThemeMode mode) async {
+  set themeMode(AppThemeMode mode) {
     _themeMode = mode;
-    await _storage.write(key: _themeKey, value: mode.index.toString());
+    _prefs?.setInt(_themeKey, mode.index);
     notifyListeners();
   }
 
-  Future<void> setColorSchemeType(ColorSchemeType type) async {
+  set colorSchemeType(ColorSchemeType type) {
     _colorSchemeType = type;
-    await _storage.write(key: _colorSchemeKey, value: type.index.toString());
+    _prefs?.setInt(_colorSchemeKey, type.index);
     notifyListeners();
   }
 
-  Future<void> setNotifyAt(int value) async {
+  set notifyAt(int value) {
     _notifyAt = value;
-    await _storage.write(key: _notifyAtKey, value: value.toString());
+    _prefs?.setInt(_notifyAtKey, value);
     notifyListeners();
     cancelTasks();
     setupTasks();
   }
 
-  Future<void> setNotifyEvery(int days) async {
+  set notifyEvery(int days) {
     _notifyEvery = days;
-    await _storage.write(key: _notifyEveryKey, value: days.toString());
+    _prefs?.setInt(_notifyEveryKey, days);
     notifyListeners();
     cancelTasks();
     setupTasks();
   }
 
-  Future<void> setShowAlcohol(bool show) async =>
-      await _updateBoolSetting(_showSettings, _showKeys, 'alcohol', show);
-  Future<void> setSwipeTabs(bool show) async =>
-      await _updateBoolSetting(_showSettings, _showKeys, 'swipeTabs', show);
-  Future<void> setShowReset(bool show) async =>
-      await _updateBoolSetting(_showSettings, _showKeys, 'reset', show);
-  Future<void> setShowJournal(bool show) async =>
-      await _updateBoolSetting(_showSettings, _showKeys, 'journal', show);
-  Future<void> setShowVaping(bool show) async =>
-      await _updateBoolSetting(_showSettings, _showKeys, 'vaping', show);
-  Future<void> setShowSmoking(bool show) async =>
-      await _updateBoolSetting(_showSettings, _showKeys, 'smoking', show);
-  Future<void> setShowNicotinePouches(bool show) async =>
-      await _updateBoolSetting(
-        _showSettings,
-        _showKeys,
-        'nicotinePouches',
-        show,
-      );
-  Future<void> setShowMarijuana(bool show) async =>
-      await _updateBoolSetting(_showSettings, _showKeys, 'marijuana', show);
-  Future<void> setShowOpioids(bool show) async =>
-      await _updateBoolSetting(_showSettings, _showKeys, 'opioids', show);
-  Future<void> setShowSocialMedia(bool show) async =>
-      await _updateBoolSetting(_showSettings, _showKeys, 'socialMedia', show);
-  Future<void> setShowPornography(bool show) async =>
-      await _updateBoolSetting(_showSettings, _showKeys, 'pornography', show);
+  set showAlcohol(bool show) =>
+      _updateBoolSetting(_showSettings, _showKeys, 'alcohol', show);
+  set swipeTabs(bool show) =>
+      _updateBoolSetting(_showSettings, _showKeys, 'swipeTabs', show);
+  set showReset(bool show) =>
+      _updateBoolSetting(_showSettings, _showKeys, 'reset', show);
+  set showJournal(bool show) =>
+      _updateBoolSetting(_showSettings, _showKeys, 'journal', show);
+  set showVaping(bool show) =>
+      _updateBoolSetting(_showSettings, _showKeys, 'vaping', show);
+  set showSmoking(bool show) =>
+      _updateBoolSetting(_showSettings, _showKeys, 'smoking', show);
+  set showNicotinePouches(bool show) =>
+      _updateBoolSetting(_showSettings, _showKeys, 'nicotinePouches', show);
+  set showMarijuana(bool show) =>
+      _updateBoolSetting(_showSettings, _showKeys, 'marijuana', show);
+  set showOpioids(bool show) =>
+      _updateBoolSetting(_showSettings, _showKeys, 'opioids', show);
+  set showSocialMedia(bool show) =>
+      _updateBoolSetting(_showSettings, _showKeys, 'socialMedia', show);
+  set showPornography(bool show) =>
+      _updateBoolSetting(_showSettings, _showKeys, 'pornography', show);
 
-  Future<void> setNotifyAlcohol(bool notify) async =>
-      await _updateBoolSetting(_notifySettings, _notifyKeys, 'alcohol', notify);
-  Future<void> setNotifyVaping(bool notify) async =>
-      await _updateBoolSetting(_notifySettings, _notifyKeys, 'vaping', notify);
-  Future<void> setNotifySmoking(bool notify) async =>
-      await _updateBoolSetting(_notifySettings, _notifyKeys, 'smoking', notify);
-  Future<void> setNotifyOpioids(bool notify) async =>
-      await _updateBoolSetting(_notifySettings, _notifyKeys, 'opioids', notify);
-  Future<void> setNotifyPouches(bool notify) async =>
-      await _updateBoolSetting(_notifySettings, _notifyKeys, 'pouches', notify);
-  Future<void> setNotifySocialMedia(bool notify) async =>
-      await _updateBoolSetting(
-        _notifySettings,
-        _notifyKeys,
-        'socialMedia',
-        notify,
-      );
-  Future<void> setNotifyPornography(bool notify) async =>
-      await _updateBoolSetting(
-        _notifySettings,
-        _notifyKeys,
-        'pornography',
-        notify,
-      );
-  Future<void> setNotifyRelapse(bool notify) async =>
-      await _updateBoolSetting(_notifySettings, _notifyKeys, 'relapse', notify);
-  Future<void> setNotifyMarijuana(bool notify) async =>
-      await _updateBoolSetting(
-        _notifySettings,
-        _notifyKeys,
-        'marijuana',
-        notify,
-      );
+  set notifyAlcohol(bool notify) =>
+      _updateBoolSetting(_notifySettings, _notifyKeys, 'alcohol', notify);
+  set notifyVaping(bool notify) =>
+      _updateBoolSetting(_notifySettings, _notifyKeys, 'vaping', notify);
+  set notifySmoking(bool notify) =>
+      _updateBoolSetting(_notifySettings, _notifyKeys, 'smoking', notify);
+  set notifyOpioids(bool notify) =>
+      _updateBoolSetting(_notifySettings, _notifyKeys, 'opioids', notify);
+  set notifyPouches(bool notify) =>
+      _updateBoolSetting(_notifySettings, _notifyKeys, 'pouches', notify);
+  set notifySocialMedia(bool notify) =>
+      _updateBoolSetting(_notifySettings, _notifyKeys, 'socialMedia', notify);
+  set notifyPornography(bool notify) =>
+      _updateBoolSetting(_notifySettings, _notifyKeys, 'pornography', notify);
+  set notifyRelapse(bool notify) =>
+      _updateBoolSetting(_notifySettings, _notifyKeys, 'relapse', notify);
+  set notifyMarijuana(bool notify) =>
+      _updateBoolSetting(_notifySettings, _notifyKeys, 'marijuana', notify);
 }

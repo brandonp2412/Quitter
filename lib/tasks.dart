@@ -3,7 +3,6 @@ import 'dart:math';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
-import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:home_widget/home_widget.dart';
 import 'package:quitter/addiction_provider.dart';
 import 'package:workmanager/workmanager.dart';
@@ -162,7 +161,7 @@ Future<void> _showNotification(
 }
 
 Future<void> notifyProgress(FlutterLocalNotificationsPlugin plugin) async {
-  final storage = FlutterSecureStorage();
+  final prefs = await SharedPreferences.getInstance();
   final random = Random();
 
   final List<Map<String, String>> journeys = [
@@ -189,12 +188,13 @@ Future<void> notifyProgress(FlutterLocalNotificationsPlugin plugin) async {
     "Stay strong!",
   ];
 
-  List<Map<String, String>> activeJourneys = [];
-  for (final journey in journeys) {
-    if (await storage.read(key: journey['key'] ?? '') != null &&
-        await storage.read(key: "notify_${journey['key']}") != 'false')
-      activeJourneys.add(journey);
-  }
+  final activeJourneys = journeys
+      .where(
+        (journey) =>
+            prefs.getString(journey['key']!) != null &&
+            prefs.getBool("notify_${journey['key']}") != false,
+      )
+      .toList();
 
   final addiction = AddictionProvider();
   await addiction.loadAddictions();
@@ -202,7 +202,7 @@ Future<void> notifyProgress(FlutterLocalNotificationsPlugin plugin) async {
   if (activeJourneys.isEmpty && addiction.entries.isEmpty) return;
 
   final randomJourney = activeJourneys[random.nextInt(activeJourneys.length)];
-  final journeyDate = await storage.read(key: randomJourney['key']!);
+  final journeyDate = prefs.getString(randomJourney['key']!);
   final journeyCount = daysCeil(journeyDate!);
 
   final randomMessage = messages[random.nextInt(messages.length)];

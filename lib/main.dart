@@ -9,14 +9,12 @@ import 'package:quitter/journal_page.dart';
 import 'package:quitter/pin_page.dart';
 import 'package:quitter/settings_page.dart';
 import 'package:quitter/settings_provider.dart';
-import 'package:quitter/storage_migration.dart';
 import 'package:quitter/tasks.dart';
 import 'package:quitter/app_theme_mode.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  await StorageMigration.migrateToSecureStorage();
   final settings = SettingsProvider();
   await settings.loadPreferences();
   final addiction = AddictionProvider();

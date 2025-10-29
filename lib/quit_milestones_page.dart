@@ -59,14 +59,10 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
   @override
   void initState() {
     super.initState();
-    initAsync();
-  }
 
-  Future<void> initAsync() async {
     final addictions = context.read<AddictionProvider>();
     var quitOn =
-        widget.quitDateOverride ??
-        await addictions.getAddiction(widget.storageKey);
+        widget.quitDateOverride ?? addictions.getAddiction(widget.storageKey);
 
     setState(() {
       if (quitOn != null) quitDate = DateTime.parse(quitOn);
@@ -102,7 +98,7 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
             defaultTargetPlatform == TargetPlatform.iOS)) {
       final permission = await Permission.notification.request();
       if (permission.isDenied && context.mounted) {
-        settingsProvider.setNotifyEvery(0);
+        settingsProvider.notifyEvery = 0;
       }
     }
 

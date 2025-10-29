@@ -7,9 +7,8 @@ import android.os.Bundle
 import androidx.core.content.edit
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import androidx.security.crypto.EncryptedSharedPreferences
-import androidx.security.crypto.MasterKey
 import org.json.JSONArray
+
 
 class WidgetSelectionActivity : Activity() {
     private var appWidgetId = AppWidgetManager.INVALID_APPWIDGET_ID
@@ -32,20 +31,6 @@ class WidgetSelectionActivity : Activity() {
         setupRecyclerView()
     }
 
-    private fun getSecurePreferences(): android.content.SharedPreferences {
-        val masterKey = MasterKey.Builder(this)
-                .setKeyScheme(MasterKey.KeyScheme.AES256_GCM)
-                .build()
-
-        return EncryptedSharedPreferences.create(
-                this,
-                "FlutterSecureStorage",
-                masterKey,
-                EncryptedSharedPreferences.PrefKeyEncryptionScheme.AES256_SIV,
-                EncryptedSharedPreferences.PrefValueEncryptionScheme.AES256_GCM
-        )
-    }
-
     private fun setupRecyclerView() {
         val recyclerView = findViewById<RecyclerView>(R.id.addiction_grid)
         recyclerView.layoutManager = GridLayoutManager(this, 2)
@@ -66,12 +51,13 @@ class WidgetSelectionActivity : Activity() {
             AddictionItem("pornography", "Adult content", R.drawable.ic_block, 0xFFF43F5E.toInt())
         )
 
-        val prefs = getSecurePreferences()
+        val prefs = getSharedPreferences("FlutterSharedPreferences", MODE_PRIVATE)
         val quitAddictions = addictions.filter { addiction ->
-            prefs.getString(addiction.key, null) != null
+            prefs.getString("flutter.${addiction.key}", null) != null
         }
 
-        val entriesJson = prefs.getString("entries", null)
+
+        val entriesJson = prefs.getString("flutter.entries", null)
         val entriesList = mutableListOf<AddictionItem>()
         if (entriesJson != null) {
             val jsonArray = JSONArray(entriesJson)
@@ -83,6 +69,7 @@ class WidgetSelectionActivity : Activity() {
                 entriesList.add(AddictionItem(id, title, R.drawable.star, color))
             }
         }
+
 
         recyclerView.adapter = AddictionAdapter(quitAddictions.plus(entriesList)) { addiction ->
             selectAddiction(addiction.key)

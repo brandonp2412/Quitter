@@ -1,11 +1,11 @@
 import 'dart:convert';
 import 'package:flutter/foundation.dart';
-import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:home_widget/home_widget.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:quitter/entry.dart';
 
 class AddictionProvider extends ChangeNotifier {
-  final FlutterSecureStorage _storage = const FlutterSecureStorage();
+  SharedPreferences? _pref;
 
   String? _smoking;
   String? _vaping;
@@ -20,16 +20,18 @@ class AddictionProvider extends ChangeNotifier {
   Map<String, List<int>> _days = {};
 
   Future<void> loadAddictions() async {
-    _smoking = await _storage.read(key: 'smoking');
-    _vaping = await _storage.read(key: 'vaping');
-    _alcohol = await _storage.read(key: 'alcohol');
-    _opioids = await _storage.read(key: 'opioids');
-    _pouches = await _storage.read(key: 'nicotine_pouches');
-    _socialMedia = await _storage.read(key: 'social_media');
-    _pornography = await _storage.read(key: 'pornography');
-    _marijuana = await _storage.read(key: 'marijuana');
+    _pref = await SharedPreferences.getInstance();
 
-    final String? entriesJson = await _storage.read(key: 'entries');
+    _smoking = _pref!.getString('smoking');
+    _vaping = _pref!.getString('vaping');
+    _alcohol = _pref!.getString('alcohol');
+    _opioids = _pref!.getString('opioids');
+    _pouches = _pref!.getString('nicotine_pouches');
+    _socialMedia = _pref!.getString('social_media');
+    _pornography = _pref!.getString('pornography');
+    _marijuana = _pref!.getString('marijuana');
+
+    final String? entriesJson = _pref!.getString('entries');
     if (entriesJson != null) {
       final List<dynamic> data = json.decode(entriesJson);
       entries = data
@@ -37,7 +39,7 @@ class AddictionProvider extends ChangeNotifier {
           .toList();
     }
 
-    final String? daysJson = await _storage.read(key: 'days');
+    final String? daysJson = _pref!.getString('days');
     if (daysJson != null) {
       final Map<String, dynamic> data = json.decode(daysJson);
       _days = data.map(
@@ -49,17 +51,17 @@ class AddictionProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-  Future<String?> getAddiction(String key) async {
-    return await _storage.read(key: key);
+  String? getAddiction(String key) {
+    return _pref?.getString(key);
   }
 
-  Future<void> setAddiction(String key, String? value) async {
+  void setAddiction(String key, String? value) {
     if (value == null) {
-      await _storage.delete(key: key);
+      _pref?.remove(key);
     } else {
-      await _storage.write(key: key, value: value);
+      _pref?.setString(key, value);
     }
-    await loadAddictions();
+    loadAddictions();
     if (defaultTargetPlatform == TargetPlatform.android)
       HomeWidget.updateWidget(name: 'QuitTrackerWidget');
   }
@@ -77,7 +79,7 @@ class AddictionProvider extends ChangeNotifier {
     final List<Map<String, dynamic>> list = entries
         .map((e) => e.toJson())
         .toList();
-    await _storage.write(key: 'entries', value: json.encode(list));
+    await _pref?.setString('entries', json.encode(list));
   }
 
   Future<void> addEntry(Entry e) async {
@@ -111,7 +113,7 @@ class AddictionProvider extends ChangeNotifier {
   }
 
   Future<void> _saveDays() async {
-    await _storage.write(key: 'days', value: json.encode(_days));
+    await _pref?.setString('days', json.encode(_days));
   }
 
   List<int> getDays(String key) {
@@ -127,7 +129,7 @@ class AddictionProvider extends ChangeNotifier {
   Future<void> resetAddiction(String key, int days) async {
     _days.update(key, (val) => [...val, days], ifAbsent: () => [days]);
     await _saveDays();
-    await setAddiction(key, DateTime.now().toIso8601String());
+    setAddiction(key, DateTime.now().toIso8601String());
   }
 
   Future<void> clearMilestoneDays(String key, List<int> daysToClear) async {
@@ -145,8 +147,8 @@ class AddictionProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-  Future<void> clearDays() async {
-    await _storage.delete(key: 'days');
+  void clearDays() async {
+    await _pref?.remove('days');
     _days = {};
     notifyListeners();
   }

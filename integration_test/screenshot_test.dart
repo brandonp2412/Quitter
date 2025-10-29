@@ -1,6 +1,5 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:integration_test/integration_test.dart';
 import 'package:provider/provider.dart';
@@ -66,22 +65,20 @@ void main() {
       IntegrationTestWidgetsFlutterBinding.ensureInitialized();
 
   setUpAll(() async {
-    final storage = FlutterSecureStorage();
-    await storage.deleteAll();
-    await storage.write(key: 'notify_every', value: '0');
-    await storage.write(
-      key: 'vaping',
-      value: DateTime.now().subtract(const Duration(days: 3)).toIso8601String(),
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.clear();
+    await prefs.setInt('notify_every', 0);
+    await prefs.setString(
+      'vaping',
+      DateTime.now().subtract(const Duration(days: 3)).toIso8601String(),
     );
-    await storage.write(
-      key: 'smoking',
-      value: DateTime.now().subtract(const Duration(days: 6)).toIso8601String(),
+    await prefs.setString(
+      'smoking',
+      DateTime.now().subtract(const Duration(days: 6)).toIso8601String(),
     );
-    await storage.write(
-      key: 'marijuana',
-      value: DateTime.now()
-          .subtract(const Duration(days: 13))
-          .toIso8601String(),
+    await prefs.setString(
+      'marijuana',
+      DateTime.now().subtract(const Duration(days: 13)).toIso8601String(),
     );
   });
 
@@ -101,7 +98,7 @@ void main() {
         goToPage: (context) async {
           navigate(context: context, page: const AlcoholPage(started: true));
           final settings = context.read<SettingsProvider>();
-          settings.setThemeMode(AppThemeMode.light);
+          settings.themeMode = AppThemeMode.light;
         },
       ),
     );
@@ -115,7 +112,7 @@ void main() {
         goToPage: (context) async {
           navigate(context: context, page: const SmokingPage(started: true));
           final settings = context.read<SettingsProvider>();
-          settings.setThemeMode(AppThemeMode.dark);
+          settings.themeMode = AppThemeMode.dark;
         },
       ),
     );
@@ -139,7 +136,7 @@ void main() {
             ),
           );
           final settings = context.read<SettingsProvider>();
-          settings.setThemeMode(AppThemeMode.light);
+          settings.themeMode = AppThemeMode.light;
         },
       ),
     );
@@ -152,7 +149,7 @@ void main() {
         name: '5_en-US',
         goToPage: (context) async {
           final settings = context.read<SettingsProvider>();
-          settings.setThemeMode(AppThemeMode.dark);
+          settings.themeMode = AppThemeMode.dark;
           await tester.pumpAndSettle();
           await tester.longPress(find.text('Smoking'));
           await tester.pumpAndSettle();
@@ -168,7 +165,7 @@ void main() {
         name: '6_en-US',
         goToPage: (context) async {
           final settings = context.read<SettingsProvider>();
-          settings.setThemeMode(AppThemeMode.light);
+          settings.themeMode = AppThemeMode.light;
           navigate(context: context, page: const MarijuanaPage(started: true));
         },
       ),
@@ -182,7 +179,7 @@ void main() {
         name: '7_en-US',
         goToPage: (context) async {
           final settings = context.read<SettingsProvider>();
-          settings.setThemeMode(AppThemeMode.pureBlack);
+          settings.themeMode = AppThemeMode.pureBlack;
           navigate(context: context, page: const SettingsPage());
         },
       ),
@@ -197,7 +194,7 @@ void main() {
         goToPage: (context) async {
           navigate(context: context, page: const app.QuitterApp());
           final settings = context.read<SettingsProvider>();
-          settings.setThemeMode(AppThemeMode.light);
+          settings.themeMode = AppThemeMode.light;
           await tester.pumpAndSettle();
           final TabController tabController = tester
               .widget<TabBar>(find.byType(TabBar))

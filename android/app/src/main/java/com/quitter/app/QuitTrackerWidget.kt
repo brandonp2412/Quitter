@@ -7,8 +7,6 @@ import android.content.Context
 import android.content.Intent
 import android.util.Log
 import android.widget.RemoteViews
-import androidx.security.crypto.EncryptedSharedPreferences
-import androidx.security.crypto.MasterKey
 import org.json.JSONArray
 import java.time.LocalDate
 import java.time.LocalDateTime
@@ -32,20 +30,6 @@ class QuitTrackerWidget : AppWidgetProvider() {
             return (daysBetween + 1).toInt()
         }
 
-        private fun getSecurePreferences(context: Context): android.content.SharedPreferences {
-            val masterKey = MasterKey.Builder(context)
-                    .setKeyScheme(MasterKey.KeyScheme.AES256_GCM)
-                    .build()
-
-            return EncryptedSharedPreferences.create(
-                    context,
-                    "FlutterSecureStorage",
-                    masterKey,
-                    EncryptedSharedPreferences.PrefKeyEncryptionScheme.AES256_SIV,
-                    EncryptedSharedPreferences.PrefValueEncryptionScheme.AES256_GCM
-            )
-        }
-
         fun updateAppWidget(
                 context: Context,
                 appWidgetManager: AppWidgetManager,
@@ -53,7 +37,8 @@ class QuitTrackerWidget : AppWidgetProvider() {
         ) {
             Log.d(TAG, "Updating widget $appWidgetId")
 
-            val prefs = getSecurePreferences(context)
+            val prefs =
+                    context.getSharedPreferences("FlutterSharedPreferences", Context.MODE_PRIVATE)
             val widgetPrefs =
                     context.getSharedPreferences("QuitTrackerWidget", Context.MODE_PRIVATE)
             val selectedAddiction = widgetPrefs.getString("selected_$appWidgetId", null)
@@ -138,7 +123,7 @@ class QuitTrackerWidget : AppWidgetProvider() {
 
             views = RemoteViews(context.packageName, R.layout.quit_tracker_widget)
             val addictionInfo = addictionData[selectedAddiction]
-            var quitDate = prefs.getString(selectedAddiction, null)
+            var quitDate = prefs.getString("flutter.$selectedAddiction", null)
             val mainIntent = Intent(context, MainActivity::class.java)
             val mainPendingIntent =
                     PendingIntent.getActivity(
@@ -150,9 +135,9 @@ class QuitTrackerWidget : AppWidgetProvider() {
 
             if (addictionInfo == null) {
                 Log.d(TAG, "Addiction info not found, checking entries for $selectedAddiction")
-                val entriesJson = prefs.getString("entries", null)
+                val entriesJson = prefs.getString("flutter.entries", null)
                 if (entriesJson == null) {
-                    Log.w(TAG, "No entries found in secure storage")
+                    Log.w(TAG, "No entries found in SharedPreferences")
                     views.setTextViewText(R.id.widget_title, "Unknown")
                     views.setTextViewText(R.id.widget_days, "Error")
                 } else {
@@ -180,10 +165,10 @@ class QuitTrackerWidget : AppWidgetProvider() {
             views.setImageViewResource(R.id.widget_icon, addictionInfo.iconRes)
 
             if (quitDate == null) {
-                Log.w(TAG, "No quit date found for key: $selectedAddiction")
+                Log.w(TAG, "No quit date found for key: flutter.$selectedAddiction")
                 views.setTextViewText(R.id.widget_days, "Not set")
                 val allKeys = prefs.all.keys
-                Log.d(TAG, "Available secure storage keys: ${allKeys.joinToString(", ")}")
+                Log.d(TAG, "Available SharedPreferences keys: ${allKeys.joinToString(", ")}")
                 views.setOnClickPendingIntent(R.id.widget_container, pendingSelect)
                 return appWidgetManager.updateAppWidget(appWidgetId, views)
             }
