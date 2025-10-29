@@ -42,6 +42,11 @@ void main() {
     ) async {
       await tester.pumpWidget(createTestWidget());
 
+      await tester.dragUntilVisible(
+        find.text('Main Screen Items'),
+        find.byType(ListView),
+        const Offset(0, -300),
+      );
       expect(find.text('Main Screen Items'), findsOneWidget);
     });
 
@@ -85,6 +90,11 @@ void main() {
     ) async {
       await tester.pumpWidget(createTestWidget());
 
+      await tester.dragUntilVisible(
+        find.text('Alcohol'),
+        find.byType(ListView),
+        const Offset(0, -300),
+      );
       expect(find.text('Alcohol'), findsOneWidget);
       await tester.dragUntilVisible(
         find.text('Vaping'),
@@ -93,6 +103,11 @@ void main() {
       );
       expect(find.text('Vaping'), findsOneWidget);
       expect(find.text('Smoking'), findsOneWidget);
+      await tester.dragUntilVisible(
+        find.text('Marijuana'),
+        find.byType(ListView),
+        const Offset(0, -300),
+      );
       expect(find.text('Marijuana'), findsOneWidget);
 
       await tester.dragUntilVisible(
@@ -116,6 +131,11 @@ void main() {
 
       expect(find.text('About'), findsOneWidget);
       expect(find.text("What's new"), findsOneWidget);
+      await tester.dragUntilVisible(
+        find.text('Enjoying the app?'),
+        find.byType(ListView),
+        const Offset(0, -300),
+      );
       expect(find.text('Enjoying the app?'), findsOneWidget);
       expect(find.text('Report a bug'), findsOneWidget);
       expect(find.text('Export data'), findsOneWidget);
