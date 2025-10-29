@@ -122,7 +122,7 @@ class _SettingsPageState extends State<SettingsPage> {
   Future<void> _importData(BuildContext context) async {
     try {
       FilePickerResult? result = await FilePicker.platform.pickFiles(
-        type: FileType.any,
+        type: FileType.custom,
         allowedExtensions: ['json'],
       );
       if (result == null) return;
