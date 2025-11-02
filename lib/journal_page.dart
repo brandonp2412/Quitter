@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 import 'package:intl/intl.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class JournalPage extends StatefulWidget {
   const JournalPage({super.key});
@@ -125,8 +125,8 @@ class _JournalPageState extends State<JournalPage> {
     final now = DateTime.now();
 
     final calendarGradient = [
-      Theme.of(context).primaryColor,
-      Theme.of(context).primaryColor.withValues(alpha: 0.7),
+      Theme.of(context).colorScheme.primary,
+      Theme.of(context).colorScheme.primary.withValues(alpha: 0.7),
     ];
 
     return Center(
@@ -140,24 +140,14 @@ class _JournalPageState extends State<JournalPage> {
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
             ),
-            borderRadius: BorderRadius.circular(20),
-            boxShadow: [
-              BoxShadow(
-                color: Theme.of(
-                  context,
-                ).primaryColor.withAlpha(255 ~/ (1 / 0.3)),
-                blurRadius: 8,
-                offset: const Offset(0, 4),
-              ),
-            ],
+            borderRadius: BorderRadius.circular(36),
           ),
           child: Container(
-            padding: EdgeInsets.all(16),
+            padding: EdgeInsets.all(20),
             decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(20),
               color: Theme.of(
                 context,
-              ).colorScheme.surface.withAlpha(255 ~/ (1 / 0.95)),
+              ).colorScheme.surface.withAlpha(255 ~/ (1 / 0.9)),
             ),
             child: Column(
               mainAxisSize: MainAxisSize.min,
@@ -166,21 +156,21 @@ class _JournalPageState extends State<JournalPage> {
                 GestureDetector(
                   onTap: () => _selectDate(context),
                   child: Container(
-                    padding: EdgeInsets.symmetric(horizontal: 8, vertical: 12),
+                    padding: EdgeInsets.all(12),
                     decoration: BoxDecoration(
                       gradient: LinearGradient(
                         colors: calendarGradient,
                         begin: Alignment.topLeft,
                         end: Alignment.bottomRight,
                       ),
-                      borderRadius: BorderRadius.circular(16),
+                      borderRadius: BorderRadius.circular(20),
                     ),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Container(
                           decoration: BoxDecoration(
-                            color: Colors.white.withAlpha(255 ~/ (1 / 0.2)),
+                            color: Theme.of(context).colorScheme.onPrimary.withAlpha(255 ~/ (1 / 0.2)),
                             borderRadius: BorderRadius.circular(12),
                           ),
                           child: IconButton(
@@ -188,7 +178,7 @@ class _JournalPageState extends State<JournalPage> {
                             icon: Icon(
                               Icons.chevron_left,
                               size: 28,
-                              color: Colors.white,
+                              color: Theme.of(context).colorScheme.onPrimary,
                             ),
                             tooltip: 'Previous Month',
                           ),
@@ -197,13 +187,13 @@ class _JournalPageState extends State<JournalPage> {
                           DateFormat('MMMM yyyy').format(_displayedMonth),
                           style: Theme.of(context).textTheme.titleLarge
                               ?.copyWith(
-                                color: Colors.white,
+                                color: Theme.of(context).colorScheme.onPrimary,
                                 fontWeight: FontWeight.bold,
                               ),
                         ),
                         Container(
                           decoration: BoxDecoration(
-                            color: Colors.white.withAlpha(255 ~/ (1 / 0.2)),
+                            color: Theme.of(context).colorScheme.onPrimary.withAlpha(255 ~/ (1 / 0.2)),
                             borderRadius: BorderRadius.circular(12),
                           ),
                           child: IconButton(
@@ -211,7 +201,7 @@ class _JournalPageState extends State<JournalPage> {
                             icon: Icon(
                               Icons.chevron_right,
                               size: 28,
-                              color: Colors.white,
+                              color: Theme.of(context).colorScheme.onPrimary,
                             ),
                             tooltip: 'Next Month',
                           ),
@@ -293,7 +283,7 @@ class _JournalPageState extends State<JournalPage> {
                                   width: 2,
                                 )
                               : null,
-                          borderRadius: BorderRadius.circular(12),
+                          borderRadius: BorderRadius.circular(300),
                         ),
                         child: Stack(
                           children: [
@@ -302,7 +292,7 @@ class _JournalPageState extends State<JournalPage> {
                                 '$day',
                                 style: TextStyle(
                                   color: isSelected
-                                      ? Colors.white
+                                      ? Theme.of(context).colorScheme.onPrimary
                                       : Theme.of(context).colorScheme.onSurface,
                                   fontWeight: isSelected || isToday
                                       ? FontWeight.bold
@@ -358,14 +348,7 @@ class _JournalPageState extends State<JournalPage> {
                   begin: Alignment.topLeft,
                   end: Alignment.bottomRight,
                 ),
-                borderRadius: BorderRadius.circular(20),
-                boxShadow: [
-                  BoxShadow(
-                    color: journalGradient.first.withAlpha(255 ~/ (1 / 0.3)),
-                    blurRadius: 8,
-                    offset: const Offset(0, 4),
-                  ),
-                ],
+                borderRadius: BorderRadius.circular(36),
               ),
               child: Container(
                 padding: EdgeInsets.all(20),
@@ -373,7 +356,7 @@ class _JournalPageState extends State<JournalPage> {
                   borderRadius: BorderRadius.circular(20),
                   color: Theme.of(
                     context,
-                  ).colorScheme.surface.withAlpha(255 ~/ (1 / 0.95)),
+                  ).colorScheme.surface.withAlpha(255 ~/ (1 / 0.9)),
                 ),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -394,7 +377,11 @@ class _JournalPageState extends State<JournalPage> {
                       ),
                       child: Row(
                         children: [
-                          Icon(Icons.edit_note, color: Colors.white, size: 24),
+                          Icon(
+                            Icons.edit_note,
+                            color: Theme.of(context).colorScheme.onTertiary,
+                            size: 24,
+                          ),
                           SizedBox(width: 12),
                           Expanded(
                             child: Column(
@@ -404,7 +391,7 @@ class _JournalPageState extends State<JournalPage> {
                                   'How was your day?',
                                   style: Theme.of(context).textTheme.titleMedium
                                       ?.copyWith(
-                                        color: Colors.white,
+                                        color: Theme.of(context).colorScheme.onTertiary,
                                         fontWeight: FontWeight.bold,
                                       ),
                                 ),
@@ -414,7 +401,7 @@ class _JournalPageState extends State<JournalPage> {
                                   ).format(_selectedDate),
                                   style: Theme.of(context).textTheme.bodySmall
                                       ?.copyWith(
-                                        color: Colors.white.withAlpha(
+                                        color: Theme.of(context).colorScheme.onTertiary.withAlpha(
                                           255 ~/ (1 / 0.8),
                                         ),
                                       ),
