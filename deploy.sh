@@ -30,16 +30,8 @@ print_error() {
 
 # Check if yq is installed and is the correct version (mikefarah's Go version)
 if ! command -v yq &> /dev/null; then
-    print_step "Installing yq (Go version by mikefarah)"
-    if [[ "$OSTYPE" == "darwin"* ]]; then
-        brew install yq
-    elif [[ "$OSTYPE" == "linux-gnu"* ]]; then
-        sudo wget -qO /usr/local/bin/yq https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64
-        sudo chmod +x /usr/local/bin/yq
-    else
-        print_error "Please install yq manually: https://github.com/mikefarah/yq#install"
-        exit 1
-    fi
+      print_error "Please install yq"
+      exit 1
 elif ! yq --version 2>/dev/null | grep -q "mikefarah"; then
     print_error "Wrong version of yq detected. This script requires mikefarah's Go version of yq."
     echo "You appear to have the Python version installed."
