@@ -1,0 +1,3 @@
+• Fix version codes of split abis
+• Generate screenshots for all screens
+• Match app colors for badges

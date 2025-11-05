@@ -1,0 +1,3 @@
+• frontend: Fixed journal_page.dart darkmode visuals
+• Reformat lib
+• Remove yq installation from deploy.sh
