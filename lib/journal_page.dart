@@ -170,7 +170,9 @@ class _JournalPageState extends State<JournalPage> {
                       children: [
                         Container(
                           decoration: BoxDecoration(
-                            color: Theme.of(context).colorScheme.onPrimary.withAlpha(255 ~/ (1 / 0.2)),
+                            color: Theme.of(
+                              context,
+                            ).colorScheme.onPrimary.withAlpha(255 ~/ (1 / 0.2)),
                             borderRadius: BorderRadius.circular(12),
                           ),
                           child: IconButton(
@@ -193,7 +195,9 @@ class _JournalPageState extends State<JournalPage> {
                         ),
                         Container(
                           decoration: BoxDecoration(
-                            color: Theme.of(context).colorScheme.onPrimary.withAlpha(255 ~/ (1 / 0.2)),
+                            color: Theme.of(
+                              context,
+                            ).colorScheme.onPrimary.withAlpha(255 ~/ (1 / 0.2)),
                             borderRadius: BorderRadius.circular(12),
                           ),
                           child: IconButton(
@@ -391,7 +395,9 @@ class _JournalPageState extends State<JournalPage> {
                                   'How was your day?',
                                   style: Theme.of(context).textTheme.titleMedium
                                       ?.copyWith(
-                                        color: Theme.of(context).colorScheme.onTertiary,
+                                        color: Theme.of(
+                                          context,
+                                        ).colorScheme.onTertiary,
                                         fontWeight: FontWeight.bold,
                                       ),
                                 ),
@@ -401,9 +407,10 @@ class _JournalPageState extends State<JournalPage> {
                                   ).format(_selectedDate),
                                   style: Theme.of(context).textTheme.bodySmall
                                       ?.copyWith(
-                                        color: Theme.of(context).colorScheme.onTertiary.withAlpha(
-                                          255 ~/ (1 / 0.8),
-                                        ),
+                                        color: Theme.of(context)
+                                            .colorScheme
+                                            .onTertiary
+                                            .withAlpha(255 ~/ (1 / 0.8)),
                                       ),
                                 ),
                               ],
