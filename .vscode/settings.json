@@ -13,5 +13,4 @@
     "**/Thumbs.db": true,
     "flutter/": true
   },
-  "dart.flutterSdkPath": "./flutter"
 }
