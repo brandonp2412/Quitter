@@ -77,9 +77,17 @@ class _QuitterAppState extends State<QuitterApp>
     return Consumer<SettingsProvider>(
       builder: (context, settings, child) {
         if (settings.showJournal && _tabController.length != 3)
-          _tabController = TabController(length: 3, vsync: this, initialIndex: 2);
+          _tabController = TabController(
+            length: 3,
+            vsync: this,
+            initialIndex: 2,
+          );
         if (!settings.showJournal && _tabController.length != 2)
-          _tabController = TabController(length: 2, vsync: this, initialIndex: 1);
+          _tabController = TabController(
+            length: 2,
+            vsync: this,
+            initialIndex: 1,
+          );
 
         return DynamicColorBuilder(
           builder: (ColorScheme? lightDynamic, ColorScheme? darkDynamic) {
