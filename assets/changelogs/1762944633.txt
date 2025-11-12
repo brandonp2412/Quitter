@@ -1,0 +1,7 @@
+• Add slop code to allegedly finalize msstore deployments
+• Create ru/full_description.txt
+• Create ru/short_description.txt
+• Format lib/main.dart
+• Remove flutter sdk path config from vscode
+• Stay on settings page when toggling journal page
+• Use json format for export/import
