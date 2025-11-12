@@ -238,6 +238,31 @@ jobs:
         run: |
           msstore publish --inputDirectory build/windows/x64/runner/Release --appId 9PKVZWDG3FGC
 
+      - name: Azure Login
+        uses: azure/login@v1
+        with:
+          creds: |
+            {
+              "clientId": "${{ secrets.AZURE_CLIENT_ID }}",
+              "clientSecret": "${{ secrets.AZURE_CLIENT_SECRET }}",
+              "tenantId": "${{ secrets.AZURE_TENANT_ID }}"
+            }
+
+      - name: Get Pending Submission
+        id: get_submission
+        run: |
+          $token = (az account get-access-token --resource https://manage.devcenter.microsoft.com --query accessToken -o tsv)
+          $headers = @{Authorization = "Bearer $token"}
+          $submission = Invoke-RestMethod -Uri "https://manage.devcenter.microsoft.com/v1.0/my/applications/9PKVZWDG3FGC/submissions" -Headers $headers
+          $submissionId = $submission.value[0].id
+          echo "submission_id=$submissionId" >> $env:GITHUB_OUTPUT
+
+      - name: Finalize Package Rollout
+        run: |
+          $token = (az account get-access-token --resource https://manage.devcenter.microsoft.com --query accessToken -o tsv)
+          $headers = @{Authorization = "Bearer $token"}
+          Invoke-RestMethod -Method Post -Uri "https://manage.devcenter.microsoft.com/v1.0/my/applications/9PKVZWDG3FGC/submissions/${{ steps.get_submission.outputs.submission_id }}/finalizepackagerollout" -Headers $headers
+
   deploy-google-play:
     needs: [get-version-info, build-android]
     runs-on: ubuntu-latest
