@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:package_info_plus/package_info_plus.dart';
@@ -92,94 +94,80 @@ class _SettingsPageState extends State<SettingsPage> {
   }
 
   Future<void> _exportData(BuildContext context) async {
-    try {
-      final prefs = await SharedPreferences.getInstance();
-      final data = prefs
-          .getKeys()
-          .map((key) => '$key=${prefs.get(key)}')
-          .join('\n');
-
-      final path = await FilePicker.platform.saveFile(
-        dialogTitle: 'Save data to',
-        fileName: 'quitter.txt',
-        type: FileType.custom,
-        allowedExtensions: ['txt'],
-        bytes: Uint8List.fromList(data.codeUnits),
-      );
-
-      if (!context.mounted || path == null) return;
-      toast(context, 'Data exported!');
-    } catch (e) {
-      if (!mounted) return;
-      toast(
-        context,
-        'Error exporting data: $e',
-        duration: const Duration(seconds: 10),
-      );
+    final prefs = await SharedPreferences.getInstance();
+    Map<String, dynamic> data = {};
+    for (String key in prefs.getKeys()) {
+      data[key] = prefs.get(key);
     }
+
+    final json = jsonEncode(data);
+
+    final path = await FilePicker.platform.saveFile(
+      dialogTitle: 'Save data to',
+      fileName: 'quitter.json',
+      type: FileType.custom,
+      allowedExtensions: ['json'],
+      bytes: Uint8List.fromList(json.codeUnits),
+    );
+
+    if (defaultTargetPlatform == TargetPlatform.linux) {
+      final file = File(path!);
+      await file.writeAsString(json);
+    }
+
+    if (!context.mounted || path == null) return;
+    toast(context, 'Data exported!');
   }
 
   Future<void> _importData(BuildContext context) async {
-    try {
-      FilePickerResult? result = await FilePicker.platform.pickFiles(
-        type: FileType.any,
-      );
-      if (result == null) return;
+    FilePickerResult? result = await FilePicker.platform.pickFiles(
+      type: FileType.custom,
+      allowedExtensions: ['json'],
+    );
+    if (result == null) return;
 
-      File file = File(result.files.single.path!);
-      String contents = await file.readAsString();
+    File file = File(result.files.single.path!);
+    String contents = await file.readAsString();
+    Map<String, dynamic> data = jsonDecode(contents);
 
-      final prefs = await SharedPreferences.getInstance();
-      await prefs.clear();
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.clear();
 
-      for (var line in contents.split('\n')) {
-        if (line.isEmpty) continue;
-
-        final parts = line.split('=');
-        if (parts.length < 2) continue;
-
-        final key = parts[0];
-        final value = parts.sublist(1).join('=');
-
-        if (value == 'true' || value == 'false') {
-          await prefs.setBool(key, value == 'true');
-        } else if (int.tryParse(value) != null) {
-          await prefs.setInt(key, int.parse(value));
-        } else if (double.tryParse(value) != null) {
-          await prefs.setDouble(key, double.parse(value));
-        } else {
-          await prefs.setString(key, value);
-        }
+    for (final entry in data.entries) {
+      final key = entry.key;
+      final value = entry.value;
+      if (value is bool) {
+        await prefs.setBool(key, value);
+      } else if (value is int) {
+        await prefs.setInt(key, value);
+      } else if (value is double) {
+        await prefs.setDouble(key, value);
+      } else if (value is String) {
+        await prefs.setString(key, value);
       }
-
-      if (!context.mounted) return;
-      toast(context, 'Data imported successfully!');
-
-      final addictions = context.read<AddictionProvider>();
-      await addictions.loadAddictions();
-      if (!context.mounted) return;
-
-      final settings = context.read<SettingsProvider>();
-      if (settings.notifyEvery == 0) return;
-      if (addictions.quitAlcohol == null &&
-          addictions.quitMarijuana == null &&
-          addictions.quitPouches == null &&
-          addictions.quitOpioids == null &&
-          addictions.quitPornography == null &&
-          addictions.quitSmoking == null &&
-          addictions.quitSocialMedia == null &&
-          addictions.quitVaping == null)
-        return;
-
-      Permission.notification.request();
-    } catch (error) {
-      if (!mounted) return;
-      toast(
-        context,
-        'Error importing data: $error',
-        duration: const Duration(seconds: 10),
-      );
     }
+
+    if (!context.mounted) return;
+    toast(context, 'Data imported successfully!');
+
+    final addictions = context.read<AddictionProvider>();
+    await addictions.loadAddictions();
+    if (!context.mounted || defaultTargetPlatform == TargetPlatform.linux)
+      return;
+
+    final settings = context.read<SettingsProvider>();
+    if (settings.notifyEvery == 0) return;
+    if (addictions.quitAlcohol == null &&
+        addictions.quitMarijuana == null &&
+        addictions.quitPouches == null &&
+        addictions.quitOpioids == null &&
+        addictions.quitPornography == null &&
+        addictions.quitSmoking == null &&
+        addictions.quitSocialMedia == null &&
+        addictions.quitVaping == null)
+      return;
+
+    Permission.notification.request();
   }
 
   List<Widget> _buildSecuritySectionItems(
