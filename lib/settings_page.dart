@@ -29,6 +29,7 @@ class SettingsPage extends StatefulWidget {
 
 class _SettingsPageState extends State<SettingsPage> {
   final TextEditingController _searchController = TextEditingController();
+  final _pinTimeoutController = TextEditingController();
   final FocusNode _searchFocusNode = FocusNode();
   String _searchQuery = '';
 
@@ -36,6 +37,8 @@ class _SettingsPageState extends State<SettingsPage> {
   void initState() {
     super.initState();
     _searchController.addListener(_onSearchChanged);
+    final settings = context.read<SettingsProvider>();
+    _pinTimeoutController.text = settings.pinTimeout.toString();
   }
 
   @override
@@ -178,7 +181,7 @@ class _SettingsPageState extends State<SettingsPage> {
       _sectionHeader('Security', context),
       SwitchListTile(
         secondary: const Icon(Icons.lock),
-        title: const Text('PIN Lock'),
+        title: const Text('PIN lock'),
         subtitle: const Text('Require PIN to open app'),
         value: settings.isPinEnabled,
         onChanged: (value) async {
@@ -194,6 +197,18 @@ class _SettingsPageState extends State<SettingsPage> {
             }
           }
         },
+      ),
+      ListTile(
+        leading: Icon(Icons.timer_outlined),
+        title: TextField(
+          controller: _pinTimeoutController,
+          decoration: InputDecoration(
+            labelText: 'PIN timeout (seconds)',
+            hintText: '15',
+          ),
+          onChanged: (value) =>
+              settings.setPinTimeout(int.tryParse(value) ?? 0),
+        ),
       ),
     ];
   }
@@ -303,7 +318,7 @@ class _SettingsPageState extends State<SettingsPage> {
       const Divider(height: 1),
       ListTile(
         leading: const Icon(Icons.palette),
-        title: const Text('Color Scheme'),
+        title: const Text('Color scheme'),
         subtitle: Text(AppScheme.getName(settings.colorSchemeType)),
         onTap: () => _showColorDialog(context, settings),
       ),
@@ -483,7 +498,7 @@ class _SettingsPageState extends State<SettingsPage> {
       _sectionHeader('Notifications', context),
       ListTile(
         leading: const Icon(Icons.schedule),
-        title: const Text('Notification Frequency'),
+        title: const Text('Notification frequency'),
         subtitle: Text(
           'Every ${settings.notifyEvery} day(s) at ${getTimeString(settings.notifyAt)}',
         ),

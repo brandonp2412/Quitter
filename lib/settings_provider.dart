@@ -14,6 +14,7 @@ class SettingsProvider extends ChangeNotifier {
   static const String _notifyAtKey = 'notify_at';
   static const _pinHashKey = 'pin_hash';
   static const _pinEnabledKey = 'pin_enabled';
+  static const _pinTimeoutKey = 'pin_timeout';
 
   bool _isUnlocked = false;
   bool get isUnlocked => _isUnlocked;
@@ -46,6 +47,8 @@ class SettingsProvider extends ChangeNotifier {
 
   bool _isPinEnabled = false;
   bool get isPinEnabled => _isPinEnabled;
+  int _pinTimeout = 15;
+  int get pinTimeout => _pinTimeout;
   SharedPreferences? _prefs;
 
   AppThemeMode _themeMode = AppThemeMode.system;
@@ -112,6 +115,7 @@ class SettingsProvider extends ChangeNotifier {
             ColorSchemeType.dynamic.index];
     _notifyAt = _prefs!.getInt(_notifyAtKey) ?? (8 * 60);
     _notifyEvery = _prefs!.getInt(_notifyEveryKey) ?? 1;
+    _pinTimeout = _prefs!.getInt(_pinTimeoutKey) ?? 15;
 
     _showKeys.forEach((key, prefKey) {
       _showSettings[key] = _prefs!.getBool(prefKey) ?? true;
@@ -125,6 +129,12 @@ class SettingsProvider extends ChangeNotifier {
     _isPinEnabled = enabled == true;
 
     notifyListeners();
+  }
+
+  Future<void> setPinTimeout(int timeout) async {
+    _pinTimeout = timeout;
+    notifyListeners();
+    await _prefs?.setInt(_pinTimeoutKey, timeout);
   }
 
   Future<void> setPinEnabled(bool enabled, String? pin) async {

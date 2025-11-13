@@ -44,6 +44,7 @@ class QuitterApp extends StatefulWidget {
 class _QuitterAppState extends State<QuitterApp>
     with TickerProviderStateMixin, WidgetsBindingObserver {
   late TabController _tabController;
+  DateTime? _pausedTime;
 
   @override
   void initState() {
@@ -68,7 +69,14 @@ class _QuitterAppState extends State<QuitterApp>
   void didChangeAppLifecycleState(AppLifecycleState state) {
     if (state == AppLifecycleState.paused ||
         state == AppLifecycleState.inactive) {
-      context.read<SettingsProvider>().lockApp();
+      _pausedTime = DateTime.now();
+    } else if (state == AppLifecycleState.resumed && _pausedTime != null) {
+      final now = DateTime.now();
+      final elapsed = now.difference(_pausedTime!);
+      final settings = context.read<SettingsProvider>();
+      if (settings.pinTimeout < elapsed.inSeconds) return;
+
+      settings.lockApp();
     }
   }
 
