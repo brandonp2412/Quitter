@@ -67,14 +67,13 @@ class _QuitterAppState extends State<QuitterApp>
 
   @override
   void didChangeAppLifecycleState(AppLifecycleState state) {
-    if (state == AppLifecycleState.paused ||
-        state == AppLifecycleState.inactive) {
+    if (state == AppLifecycleState.paused) {
       _pausedTime = DateTime.now();
     } else if (state == AppLifecycleState.resumed && _pausedTime != null) {
       final now = DateTime.now();
       final elapsed = now.difference(_pausedTime!);
       final settings = context.read<SettingsProvider>();
-      if (settings.pinTimeout < elapsed.inSeconds) return;
+      if (elapsed.inSeconds < settings.pinTimeout) return;
 
       settings.lockApp();
     }
