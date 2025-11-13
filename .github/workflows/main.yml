@@ -238,15 +238,9 @@ jobs:
         run: |
           msstore publish --inputDirectory build/windows/x64/runner/Release --appId 9PKVZWDG3FGC
 
-      - name: Azure Login
-        uses: azure/login@v1
-        with:
-          creds: |
-            {
-              "clientId": "${{ secrets.AZURE_CLIENT_ID }}",
-              "clientSecret": "${{ secrets.AZURE_CLIENT_SECRET }}",
-              "tenantId": "${{ secrets.AZURE_TENANT_ID }}"
-            }
+      - name: Azure CLI Login
+        run: |
+          az login --service-principal --username ${{ secrets.AZURE_CLIENT_ID }} --password ${{ secrets.AZURE_CLIENT_SECRET }} --tenant ${{ secrets.AZURE_TENANT_ID }} --allow-no-subscriptions
 
       - name: Get Pending Submission
         id: get_submission
@@ -255,13 +249,13 @@ jobs:
           $headers = @{Authorization = "Bearer $token"}
           $submission = Invoke-RestMethod -Uri "https://manage.devcenter.microsoft.com/v1.0/my/applications/9PKVZWDG3FGC/submissions" -Headers $headers
           $submissionId = $submission.value[0].id
-          echo "submission_id=$submissionId" >> $env:GITHUB_OUTPUT
+          echo "SUBMISSION_ID=$submissionId" >> $env:GITHUB_ENV
 
       - name: Finalize Package Rollout
         run: |
           $token = (az account get-access-token --resource https://manage.devcenter.microsoft.com --query accessToken -o tsv)
           $headers = @{Authorization = "Bearer $token"}
-          Invoke-RestMethod -Method Post -Uri "https://manage.devcenter.microsoft.com/v1.0/my/applications/9PKVZWDG3FGC/submissions/${{ steps.get_submission.outputs.submission_id }}/finalizepackagerollout" -Headers $headers
+          Invoke-RestMethod -Method Post -Uri "https://manage.devcenter.microsoft.com/v1.0/my/applications/9PKVZWDG3FGC/submissions/$env:SUBMISSION_ID/finalizepackagerollout" -Headers $headersRetryClaude can make mistakes. Please double-check cited sources.
 
   deploy-google-play:
     needs: [get-version-info, build-android]
