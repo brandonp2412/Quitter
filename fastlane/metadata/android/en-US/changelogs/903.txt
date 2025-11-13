@@ -1,0 +1,4 @@
+• Add claude slop for azure package finalization
+• Add more slop to allegedly finalize msstore deployments
+• Move snackbar
+• Skip integration tests with -n
