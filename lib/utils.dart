@@ -45,12 +45,14 @@ void toast(
   String message, {
   SnackBarAction? action,
   Duration? duration,
+  double? bottomBorder,
 }) {
   final def = SnackBarAction(label: 'OK', onPressed: () {});
 
   ScaffoldMessenger.of(context).showSnackBar(
     SnackBar(
       content: Text(message),
+      margin: EdgeInsets.only(bottom: bottomBorder ?? 16, left: 16, right: 16),
       behavior: SnackBarBehavior.floating,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(24)),
       action: action ?? def,
