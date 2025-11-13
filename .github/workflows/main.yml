@@ -236,72 +236,26 @@ jobs:
 
       - name: Publish to Microsoft Store
         run: |
-          msstore publish --inputDirectory build/windows/x64/runner/Release --appId 9PKVZWDG3FGC
+          msstore publish --inputDirectory build/windows/x64/runner/Release --appId 9PKVZWDG3FGC --packageRolloutPercentage 100
 
       - name: Azure CLI Login
-        shell: pwsh
         run: |
-          az login --service-principal --username $Env:AZURE_CLIENT_ID --password $Env:AZURE_CLIENT_SECRET --tenant $Env:AZURE_TENANT_ID --allow-no-subscriptions
+          az login --service-principal --username ${{ secrets.AZURE_CLIENT_ID }} --password ${{ secrets.AZURE_CLIENT_SECRET }} --tenant ${{ secrets.AZURE_TENANT_ID }} --allow-no-subscriptions
 
-      - name: Debug - get token and list app (diagnostic)
+      - name: Get Pending Submission
         id: get_submission
-        shell: pwsh
         run: |
-          $resource = "https://manage.devcenter.microsoft.com"
-          Write-Host "Requesting token for resource: $resource"
-          $token = az account get-access-token --resource $resource --tenant $Env:AZURE_TENANT_ID --query accessToken -o tsv
-          if (-not $token) { throw "Failed to obtain access token." }
-          $headers = @{ Authorization = "Bearer $token"; "Content-Type" = "application/json" }
-
-          $appId = "9PKVZWDG3FGC"  # replace if needed
-          $url = "https://manage.devcenter.microsoft.com/v1.0/my/applications/$appId/submissions"
-
-          Write-Host "GET $url"
-          try {
-            $submissionResp = Invoke-RestMethod -Uri $url -Headers $headers -Method Get -ErrorAction Stop
-            Write-Host "Got submissions object:"
-            $submissionResp | ConvertTo-Json -Depth 6 | Write-Host
-            if ($submissionResp.value -and $submissionResp.value.Count -gt 0) {
-              $submissionId = $submissionResp.value[0].id
-              Write-Host "Using submissionId: $submissionId"
-              Write-Output "SUBMISSION_ID=$submissionId" | Out-File -FilePath $env:GITHUB_ENV -Encoding ascii -Append
-            } else {
-              Write-Host "No submissions returned for app. Check that app exists in Partner Center and that the SP has access."
-              exit 1
-            }
-          } catch {
-            Write-Host "ERROR calling submissions endpoint: $($_.Exception.Response.StatusCode) - $($_.Exception.Message)"
-            if ($_.Exception.Response) {
-              $text = $_.Exception.Response.GetResponseStream() | % { (New-Object System.IO.StreamReader($_)).ReadToEnd() }
-              Write-Host "Response body: $text"
-            }
-            exit 1
-          }
+          $token = (az account get-access-token --resource https://manage.devcenter.microsoft.com --query accessToken -o tsv)
+          $headers = @{Authorization = "Bearer $token"}
+          $app = Invoke-RestMethod -Uri "https://manage.devcenter.microsoft.com/v1.0/my/applications/9PKVZWDG3FGC" -Headers $headers
+          $submissionId = $app.pendingApplicationSubmission.id
+          echo "SUBMISSION_ID=$submissionId" >> $env:GITHUB_ENV
 
       - name: Finalize Package Rollout
-        shell: pwsh
         run: |
-          $resource = "https://manage.devcenter.microsoft.com"
-          $token = az account get-access-token --resource $resource --tenant $Env:AZURE_TENANT_ID --query accessToken -o tsv
-          $headers = @{ Authorization = "Bearer $token"; "Content-Type" = "application/json" }
-          if (-not $Env:SUBMISSION_ID) { throw "SUBMISSION_ID missing; aborting." }
-
-          $appId = "9PKVZWDG3FGC"
-          $submissionId = $Env:SUBMISSION_ID
-          $url = "https://manage.devcenter.microsoft.com/v1.0/my/applications/$appId/submissions/$submissionId/finalizepackagerollout"
-          Write-Host "POST $url"
-          try {
-            $resp = Invoke-RestMethod -Method Post -Uri $url -Headers $headers -ErrorAction Stop
-            Write-Host "Finalize response:"
-            $resp | ConvertTo-Json -Depth 6 | Write-Host
-          } catch {
-            Write-Host "Finalize failed: $($_.Exception.Message)"
-            if ($_.Exception.Response) {
-              $text = $_.Exception.Response.GetResponseStream() | % { (New-Object System.IO.StreamReader($_)).ReadToEnd() }
-              Write-Host "Response body: $text"
-            }
-            exit 1
-          }
+          $token = (az account get-access-token --resource https://manage.devcenter.microsoft.com --query accessToken -o tsv)
+          $headers = @{Authorization = "Bearer $token"}
+          Invoke-RestMethod -Method Post -Uri "https://manage.devcenter.microsoft.com/v1.0/my/applications/9PKVZWDG3FGC/submissions/$env:SUBMISSION_ID/finalizepackagerollout" -Headers $headers
 
   deploy-google-play:
     needs: [get-version-info, build-android]
