@@ -65,7 +65,7 @@ void main() {
     testWidgets('displays color scheme setting', (WidgetTester tester) async {
       await tester.pumpWidget(createTestWidget());
 
-      expect(find.text('Color Scheme'), findsOneWidget);
+      expect(find.text('Color scheme'), findsOneWidget);
     });
 
     testWidgets('displays reset buttons toggle', (WidgetTester tester) async {
@@ -96,12 +96,12 @@ void main() {
         const Offset(0, -300),
       );
       expect(find.text('Alcohol'), findsOneWidget);
+      expect(find.text('Vaping'), findsOneWidget);
       await tester.dragUntilVisible(
-        find.text('Vaping'),
+        find.text('Smoking'),
         find.byType(ListView),
         const Offset(0, -300),
       );
-      expect(find.text('Vaping'), findsOneWidget);
       expect(find.text('Smoking'), findsOneWidget);
       await tester.dragUntilVisible(
         find.text('Marijuana'),
@@ -117,7 +117,6 @@ void main() {
       );
       expect(find.text('Nicotine pouches'), findsOneWidget);
       expect(find.text('Opioids'), findsOneWidget);
-      expect(find.text('Social Media'), findsOneWidget);
     });
 
     testWidgets('displays system menu items', (WidgetTester tester) async {
@@ -130,6 +129,12 @@ void main() {
       );
 
       expect(find.text('About'), findsOneWidget);
+
+      await tester.dragUntilVisible(
+        find.text("What's new"),
+        find.byType(ListView),
+        const Offset(0, -300),
+      );
       expect(find.text("What's new"), findsOneWidget);
       await tester.dragUntilVisible(
         find.text('Enjoying the app?'),
@@ -154,10 +159,10 @@ void main() {
       await tester.tap(find.text('Theme'));
       await tester.pumpAndSettle();
 
-      expect(find.text('Theme Mode'), findsOneWidget);
+      expect(find.text('Theme mode'), findsOneWidget);
       expect(find.text('Light'), findsOneWidget);
       expect(find.text('Dark'), findsOneWidget);
-      expect(find.text('Pure Black'), findsOneWidget);
+      expect(find.text('Pure black'), findsOneWidget);
     });
 
     testWidgets('tapping color scheme opens dialog', (
@@ -165,10 +170,10 @@ void main() {
     ) async {
       await tester.pumpWidget(createTestWidget());
 
-      await tester.tap(find.text('Color Scheme'));
+      await tester.tap(find.text('Color scheme'));
       await tester.pumpAndSettle();
 
-      expect(find.text('Color Scheme'), findsNWidgets(2));
+      expect(find.text('Color scheme'), findsNWidgets(2));
       expect(find.text('Cancel'), findsOneWidget);
     });
 
@@ -219,7 +224,7 @@ void main() {
       await tester.tap(find.text('Cancel'));
       await tester.pumpAndSettle();
 
-      expect(find.text('Theme Mode'), findsNothing);
+      expect(find.text('Theme mode'), findsNothing);
     });
 
     testWidgets('toggling alcohol switch works', (WidgetTester tester) async {

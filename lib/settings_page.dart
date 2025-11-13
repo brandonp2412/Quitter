@@ -404,7 +404,7 @@ class _SettingsPageState extends State<SettingsPage> {
       ),
       _ToggleItem(
         icon: Icons.public,
-        title: 'Social Media',
+        title: 'Social media',
         subtitle: 'Show social media tracking',
         value: settings.showSocialMedia,
         onChanged: (value) => settings.showSocialMedia = value,
@@ -473,7 +473,7 @@ class _SettingsPageState extends State<SettingsPage> {
       ),
       _ToggleItem(
         icon: Icons.public,
-        title: 'Social Media',
+        title: 'Social media',
         subtitle: 'Notify social media quitting progress',
         value: settings.notifySocialMedia,
         onChanged: (value) => settings.notifySocialMedia = value,
@@ -657,14 +657,14 @@ class _SettingsPageState extends State<SettingsPage> {
       case AppThemeMode.system:
         return 'System';
       case AppThemeMode.pureBlack:
-        return 'Pure Black';
+        return 'Pure black';
     }
   }
 
   void _showThemeDialog(BuildContext context, SettingsProvider settings) {
     _showSelectionDialog<AppThemeMode>(
       context: context,
-      title: 'Theme Mode',
+      title: 'Theme mode',
       currentValue: settings.themeMode,
       options: AppThemeMode.values,
       getDisplayName: _getTheme,
@@ -675,7 +675,7 @@ class _SettingsPageState extends State<SettingsPage> {
   void _showColorDialog(BuildContext context, SettingsProvider settings) {
     _showSelectionDialog<ColorSchemeType>(
       context: context,
-      title: 'Color Scheme',
+      title: 'Color scheme',
       currentValue: settings.colorSchemeType,
       options: ColorSchemeType.values,
       getDisplayName: AppScheme.getName,
