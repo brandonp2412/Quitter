@@ -58,40 +58,38 @@ class _SettingsPageState extends State<SettingsPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SafeArea(
-        child: Consumer<SettingsProvider>(
-          builder: (context, settings, child) {
-            final List<Widget> allSettingsItems = _buildAllSettingsItems(
-              context,
-              settings,
-            );
-            final List<Widget> filteredItems = _searchQuery.isEmpty
-                ? allSettingsItems
-                : allSettingsItems
-                      .where((item) => _matchesSearch(item, _searchQuery))
-                      .toList();
+      body: Consumer<SettingsProvider>(
+        builder: (context, settings, child) {
+          final List<Widget> allSettingsItems = _buildAllSettingsItems(
+            context,
+            settings,
+          );
+          final List<Widget> filteredItems = _searchQuery.isEmpty
+              ? allSettingsItems
+              : allSettingsItems
+                    .where((item) => _matchesSearch(item, _searchQuery))
+                    .toList();
 
-            return Column(
-              children: [
-                Padding(
-                  padding: const EdgeInsets.only(left: 16, right: 16, top: 16),
-                  child: SearchBar(
-                    leading: Icon(Icons.search),
-                    controller: _searchController,
-                    focusNode: _searchFocusNode,
-                    hintText: 'Search...',
-                  ),
+          return Column(
+            children: [
+              Padding(
+                padding: const EdgeInsets.only(left: 16, right: 16, top: 16),
+                child: SearchBar(
+                  leading: Icon(Icons.search),
+                  controller: _searchController,
+                  focusNode: _searchFocusNode,
+                  hintText: 'Search...',
                 ),
-                Expanded(
-                  child: ListView(
-                    padding: const EdgeInsets.all(16.0),
-                    children: filteredItems,
-                  ),
+              ),
+              Expanded(
+                child: ListView(
+                  padding: const EdgeInsets.all(16.0),
+                  children: filteredItems,
                 ),
-              ],
-            );
-          },
-        ),
+              ),
+            ],
+          );
+        },
       ),
     );
   }
