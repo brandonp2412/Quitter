@@ -254,8 +254,11 @@ jobs:
       - name: Finalize Package Rollout
         run: |
           $token = (az account get-access-token --resource https://manage.devcenter.microsoft.com --query accessToken -o tsv)
-          $headers = @{Authorization = "Bearer $token"}
-          Invoke-RestMethod -Method Post -Uri "https://manage.devcenter.microsoft.com/v1.0/my/applications/9PKVZWDG3FGC/submissions/$env:SUBMISSION_ID/finalizepackagerollout" -Headers $headers
+          $headers = @{
+            Authorization = "Bearer $token"
+            "Content-Type" = "application/json"
+          }
+          Invoke-RestMethod -Method Post -Uri "https://manage.devcenter.microsoft.com/v1.0/my/applications/9PKVZWDG3FGC/submissions/$env:SUBMISSION_ID/finalizepackagerollout" -Headers $headers -Body "{}"
 
   deploy-google-play:
     needs: [get-version-info, build-android]
