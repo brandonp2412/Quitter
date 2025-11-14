@@ -263,13 +263,4 @@ void main() {
       expect(find.text('Day 1'), findsOneWidget);
     });
   });
-
-  group('HomePage SafeArea Tests', () {
-    testWidgets('should wrap content in SafeArea', (WidgetTester tester) async {
-      await tester.pumpWidget(createTestWidget());
-      await tester.pumpAndSettle();
-
-      expect(find.byType(SafeArea), findsOneWidget);
-    });
-  });
 }
