@@ -2,6 +2,7 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:quitter/main.dart';
 
 const widgetChannel = MethodChannel("android.widget");
 
@@ -40,23 +41,16 @@ int daysCeil(String dateStr) {
   return (currentDays - quitDays) + 1;
 }
 
-void toast(
-  BuildContext context,
-  String message, {
-  SnackBarAction? action,
-  Duration? duration,
-  double? bottomBorder,
-}) {
+void toast(String message, {SnackBarAction? action}) {
   final def = SnackBarAction(label: 'OK', onPressed: () {});
 
-  ScaffoldMessenger.of(context).showSnackBar(
+  rootScaffoldMessenger.currentState!.showSnackBar(
     SnackBar(
       content: Text(message),
-      margin: EdgeInsets.only(bottom: bottomBorder ?? 16, left: 16, right: 16),
       behavior: SnackBarBehavior.floating,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(24)),
       action: action ?? def,
-      duration: duration ?? const Duration(seconds: 4),
+      duration: const Duration(seconds: 4),
     ),
   );
 }

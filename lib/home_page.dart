@@ -58,7 +58,6 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
 
     if (currentVersion > lastVersion && mounted) {
       toast(
-        context,
         "New version ${info.version}",
         action: SnackBarAction(
           label: 'Changes',

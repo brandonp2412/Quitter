@@ -119,7 +119,7 @@ class _SettingsPageState extends State<SettingsPage> {
     }
 
     if (!context.mounted || path == null) return;
-    toast(context, 'Data exported!');
+    toast('Data exported!');
   }
 
   Future<void> _importData(BuildContext context) async {
@@ -151,7 +151,7 @@ class _SettingsPageState extends State<SettingsPage> {
     }
 
     if (!context.mounted) return;
-    toast(context, 'Data imported successfully!');
+    toast('Data imported successfully!');
 
     final addictions = context.read<AddictionProvider>();
     await addictions.loadAddictions();

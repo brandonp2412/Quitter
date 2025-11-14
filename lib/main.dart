@@ -12,6 +12,8 @@ import 'package:quitter/settings_provider.dart';
 import 'package:quitter/tasks.dart';
 import 'package:quitter/app_theme_mode.dart';
 
+final rootScaffoldMessenger = GlobalKey<ScaffoldMessengerState>();
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
@@ -125,6 +127,7 @@ class _QuitterAppState extends State<QuitterApp>
 
             return MaterialApp(
               title: 'Quitter',
+              scaffoldMessengerKey: rootScaffoldMessenger,
               themeMode: settings.themeMode.toThemeMode(),
               theme: ThemeData(
                 colorScheme: lightColorScheme,
@@ -140,60 +143,64 @@ class _QuitterAppState extends State<QuitterApp>
               ),
               home: settings.isPinEnabled && !settings.isUnlocked
                   ? PinPage()
-                  : Scaffold(
-                      body: TabBarView(
-                        controller: _tabController,
-                        physics: settings.swipeTabs
-                            ? AlwaysScrollableScrollPhysics()
-                            : NeverScrollableScrollPhysics(),
-                        children: [
-                          HomePage(),
-                          if (settings.showJournal) JournalPage(),
-                          SettingsPage(),
-                        ],
-                      ),
-                      appBar: AppBar(
-                        title: AnimatedBuilder(
-                          animation: _tabController,
-                          builder: (context, child) {
-                            return TabBar(
-                              indicatorPadding: EdgeInsetsGeometry.only(
-                                bottom: 32,
-                              ),
-                              controller: _tabController,
-                              tabs: [
-                                Tab(
-                                  icon: SvgPicture.asset(
-                                    'assets/neurology.svg',
-                                    width: 24,
-                                    height: 24,
-                                    colorFilter: ColorFilter.mode(
-                                      _tabController.index == 0
-                                          ? Theme.of(
-                                              context,
-                                            ).colorScheme.primary
-                                          : Theme.of(
-                                              context,
-                                            ).colorScheme.onSurfaceVariant,
-                                      BlendMode.srcIn,
-                                    ),
-                                  ),
-                                  text: 'Quitter',
+                  : Column(
+                      children: [
+                        AppBar(
+                          title: AnimatedBuilder(
+                            animation: _tabController,
+                            builder: (context, child) {
+                              return TabBar(
+                                indicatorPadding: EdgeInsetsGeometry.only(
+                                  bottom: 32,
                                 ),
-                                if (settings.showJournal)
+                                controller: _tabController,
+                                tabs: [
                                   Tab(
-                                    icon: Icon(Icons.menu_book),
-                                    text: 'Journal',
+                                    icon: SvgPicture.asset(
+                                      'assets/neurology.svg',
+                                      width: 24,
+                                      height: 24,
+                                      colorFilter: ColorFilter.mode(
+                                        _tabController.index == 0
+                                            ? Theme.of(
+                                                context,
+                                              ).colorScheme.primary
+                                            : Theme.of(
+                                                context,
+                                              ).colorScheme.onSurfaceVariant,
+                                        BlendMode.srcIn,
+                                      ),
+                                    ),
+                                    text: 'Quitter',
                                   ),
-                                Tab(
-                                  icon: Icon(Icons.settings),
-                                  text: 'Settings',
-                                ),
-                              ],
-                            );
-                          },
+                                  if (settings.showJournal)
+                                    Tab(
+                                      icon: Icon(Icons.menu_book),
+                                      text: 'Journal',
+                                    ),
+                                  Tab(
+                                    icon: Icon(Icons.settings),
+                                    text: 'Settings',
+                                  ),
+                                ],
+                              );
+                            },
+                          ),
                         ),
-                      ),
+                        Expanded(
+                          child: TabBarView(
+                            controller: _tabController,
+                            physics: settings.swipeTabs
+                                ? AlwaysScrollableScrollPhysics()
+                                : NeverScrollableScrollPhysics(),
+                            children: [
+                              HomePage(),
+                              if (settings.showJournal) JournalPage(),
+                              SettingsPage(),
+                            ],
+                          ),
+                        ),
+                      ],
                     ),
             );
           },

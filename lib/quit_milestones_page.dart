@@ -314,7 +314,6 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
 
           final message = getRelapseEncouragementMessage();
           toast(
-            context,
             message,
             action: SnackBarAction(
               label: 'Undo',
