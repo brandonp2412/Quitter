@@ -1,0 +1,2 @@
+• Add missing Content-Type header to azure finalization
+• Clean up deploy script
