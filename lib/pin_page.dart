@@ -76,7 +76,7 @@ class _PinPageState extends State<PinPage> {
             child: ListView(
               shrinkWrap: true,
               children: [
-                const Icon(Icons.lock_outline, size: 80, color: Colors.grey),
+                Icon(Icons.lock_outline, size: 80, color: Theme.of(context).colorScheme.primary),
                 const SizedBox(height: 32),
                 Center(
                   child: const Text(
@@ -94,7 +94,7 @@ class _PinPageState extends State<PinPage> {
                     ),
                     decoration: BoxDecoration(
                       border: Border.all(
-                        color: _isError ? Colors.red : Colors.grey.shade300,
+                        color: _isError ? Theme.of(context).colorScheme.error : Theme.of(context).colorScheme.primary,
                         width: 2,
                       ),
                       borderRadius: BorderRadius.circular(12),
@@ -104,7 +104,7 @@ class _PinPageState extends State<PinPage> {
                       style: TextStyle(
                         fontSize: 32,
                         letterSpacing: 8,
-                        color: _isError ? Colors.red : Colors.black,
+                        color: _isError ? Theme.of(context).colorScheme.error : Theme.of(context).colorScheme.primary
                       ),
                     ),
                   ),
@@ -116,7 +116,7 @@ class _PinPageState extends State<PinPage> {
                       _failedAttempts >= 3
                           ? 'Too many attempts. Wait 30 seconds.'
                           : 'Incorrect PIN',
-                      style: const TextStyle(color: Colors.red, fontSize: 14),
+                      style: TextStyle(color: Theme.of(context).colorScheme.error, fontSize: 14),
                     ),
                   ),
                 ],
@@ -157,7 +157,6 @@ class _PinPageState extends State<PinPage> {
                               _pin.isNotEmpty
                           ? _onSubmit
                           : null,
-                      color: Colors.green,
                     ),
                   ],
                 ),
@@ -179,7 +178,7 @@ class _NumberButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Material(
-      color: Colors.grey.shade200,
+      color: Theme.of(context).colorScheme.secondary,
       borderRadius: BorderRadius.circular(12),
       child: InkWell(
         onTap: onTap,
@@ -187,7 +186,11 @@ class _NumberButton extends StatelessWidget {
         child: Center(
           child: Text(
             number,
-            style: const TextStyle(fontSize: 24, fontWeight: FontWeight.w500),
+            style: TextStyle(
+              fontSize: 24,
+              fontWeight: FontWeight.w500,
+              color: Theme.of(context).colorScheme.onSecondary,
+            ),
           ),
         ),
       ),
@@ -205,12 +208,12 @@ class _IconButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Material(
-      color: color?.withOpacity(0.1) ?? Colors.grey.shade200,
+      color: Theme.of(context).colorScheme.secondary,
       borderRadius: BorderRadius.circular(12),
       child: InkWell(
         onTap: onTap,
         borderRadius: BorderRadius.circular(12),
-        child: Center(child: Icon(icon, size: 28, color: color)),
+        child: Center(child: Icon(icon, size: 28, color: Theme.of(context).colorScheme.onSecondary)),
       ),
     );
   }
