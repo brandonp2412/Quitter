@@ -76,7 +76,11 @@ class _PinPageState extends State<PinPage> {
             child: ListView(
               shrinkWrap: true,
               children: [
-                Icon(Icons.lock_outline, size: 80, color: Theme.of(context).colorScheme.primary),
+                Icon(
+                  Icons.lock_outline,
+                  size: 80,
+                  color: Theme.of(context).colorScheme.primary,
+                ),
                 const SizedBox(height: 32),
                 Center(
                   child: const Text(
@@ -94,7 +98,9 @@ class _PinPageState extends State<PinPage> {
                     ),
                     decoration: BoxDecoration(
                       border: Border.all(
-                        color: _isError ? Theme.of(context).colorScheme.error : Theme.of(context).colorScheme.primary,
+                        color: _isError
+                            ? Theme.of(context).colorScheme.error
+                            : Theme.of(context).colorScheme.primary,
                         width: 2,
                       ),
                       borderRadius: BorderRadius.circular(12),
@@ -104,7 +110,9 @@ class _PinPageState extends State<PinPage> {
                       style: TextStyle(
                         fontSize: 32,
                         letterSpacing: 8,
-                        color: _isError ? Theme.of(context).colorScheme.error : Theme.of(context).colorScheme.primary
+                        color: _isError
+                            ? Theme.of(context).colorScheme.error
+                            : Theme.of(context).colorScheme.primary,
                       ),
                     ),
                   ),
@@ -116,7 +124,10 @@ class _PinPageState extends State<PinPage> {
                       _failedAttempts >= 3
                           ? 'Too many attempts. Wait 30 seconds.'
                           : 'Incorrect PIN',
-                      style: TextStyle(color: Theme.of(context).colorScheme.error, fontSize: 14),
+                      style: TextStyle(
+                        color: Theme.of(context).colorScheme.error,
+                        fontSize: 14,
+                      ),
                     ),
                   ),
                 ],
@@ -201,9 +212,8 @@ class _NumberButton extends StatelessWidget {
 class _IconButton extends StatelessWidget {
   final IconData icon;
   final VoidCallback? onTap;
-  final Color? color;
 
-  const _IconButton({required this.icon, this.onTap, this.color});
+  const _IconButton({required this.icon, this.onTap});
 
   @override
   Widget build(BuildContext context) {
@@ -213,7 +223,13 @@ class _IconButton extends StatelessWidget {
       child: InkWell(
         onTap: onTap,
         borderRadius: BorderRadius.circular(12),
-        child: Center(child: Icon(icon, size: 28, color: Theme.of(context).colorScheme.onSecondary)),
+        child: Center(
+          child: Icon(
+            icon,
+            size: 28,
+            color: Theme.of(context).colorScheme.onSecondary,
+          ),
+        ),
       ),
     );
   }
