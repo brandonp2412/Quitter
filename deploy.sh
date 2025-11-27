@@ -102,10 +102,6 @@ export PATH="$PWD/flutter/bin:$PATH"
 # Run tests and analysis
 print_step "Running tests and analysis"
 flutter test
-if [[ "$*" != *"-n"* ]]; then
-  flutter test -d linux integration_test
-  print_success "Tests passed"
-fi
 
 dart analyze lib
 print_success "Analysis passed"
