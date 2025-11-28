@@ -192,7 +192,6 @@ void main() {
         tester: tester,
         name: '8_en-US',
         goToPage: (context) async {
-          navigate(context: context, page: const app.QuitterApp());
           final settings = context.read<SettingsProvider>();
           settings.themeMode = AppThemeMode.light;
           await tester.pumpAndSettle();
