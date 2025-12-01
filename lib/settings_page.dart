@@ -102,10 +102,11 @@ class _SettingsPageState extends State<SettingsPage> {
     }
 
     final json = jsonEncode(data);
+    final timestamp = DateTime.now().millisecondsSinceEpoch;
 
     final path = await FilePicker.platform.saveFile(
       dialogTitle: 'Save data to',
-      fileName: 'quitter.json',
+      fileName: 'quitter-$timestamp.json',
       type: FileType.custom,
       allowedExtensions: ['json'],
       bytes: Uint8List.fromList(json.codeUnits),
