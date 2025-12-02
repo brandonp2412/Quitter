@@ -312,7 +312,7 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
           final settings = context.read<SettingsProvider>();
           if (settings.notifyRelapse == false) return;
 
-          final message = getRelapseEncouragementMessage();
+          final message = getRelapseEncouragementMessage(context);
           toast(
             message,
             action: SnackBarAction(

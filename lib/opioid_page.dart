@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:quitter/quit_milestone.dart';
 import 'package:quitter/quit_milestones_page.dart';
 
@@ -94,16 +95,17 @@ class OpioidPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
+
     return QuitMilestonesPage(
-      title: 'Path to peace',
+      title: l10n.opioidsPageTitle,
       storageKey: 'opioids',
       milestones: milestones,
-      headerStarted: 'Stronger every day!',
-      headerNotStarted: 'Road to recovery!',
-      subtitleStarted: 'Embrace your strength 💪',
-      subtitleNotStarted: 'Ready to reclaim your life? 💖',
-      infoBoxMessage:
-          'Recovery is a medical process. Always consult healthcare professionals.',
+      headerStarted: l10n.opioidsHeaderStarted,
+      headerNotStarted: l10n.opioidsHeaderNotStarted,
+      subtitleStarted: l10n.opioidsSubtitleStarted,
+      subtitleNotStarted: l10n.opioidsSubtitleNotStarted,
+      infoBoxMessage: l10n.opioidsInfoBox,
       initialStarted: started,
     );
   }

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:provider/provider.dart';
 import 'package:quitter/settings_provider.dart';
 
@@ -83,8 +84,8 @@ class _PinPageState extends State<PinPage> {
                 ),
                 const SizedBox(height: 32),
                 Center(
-                  child: const Text(
-                    'Enter PIN',
+                  child: Text(
+                    AppLocalizations.of(context)!.pinPageEnterPIN,
                     style: TextStyle(fontSize: 24, fontWeight: FontWeight.w500),
                   ),
                 ),
@@ -122,8 +123,8 @@ class _PinPageState extends State<PinPage> {
                   Center(
                     child: Text(
                       _failedAttempts >= 3
-                          ? 'Too many attempts. Wait 30 seconds.'
-                          : 'Incorrect PIN',
+                          ? AppLocalizations.of(context)!.pinPageTooManyAttempts
+                          : AppLocalizations.of(context)!.pinPageIncorrectPIN,
                       style: TextStyle(
                         color: Theme.of(context).colorScheme.error,
                         fontSize: 14,

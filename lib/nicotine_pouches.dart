@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:quitter/quit_milestone.dart';
 import 'package:quitter/quit_milestones_page.dart';
 
@@ -91,14 +92,16 @@ class NicotinePouchesPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
+
     return QuitMilestonesPage(
-      title: 'Pouch-free Power',
+      title: l10n.nicotinePouchesPageTitle,
       storageKey: 'nicotine_pouches',
       milestones: milestones,
-      headerStarted: 'Fresh & free!',
-      headerNotStarted: 'Pouch-free progress!',
-      subtitleStarted: 'Embrace a brighter, healthier you ✨',
-      subtitleNotStarted: 'Ready to ditch the pouches? 🚀',
+      headerStarted: l10n.nicotinePouchesHeaderStarted,
+      headerNotStarted: l10n.nicotinePouchesHeaderNotStarted,
+      subtitleStarted: l10n.nicotinePouchesSubtitleStarted,
+      subtitleNotStarted: l10n.nicotinePouchesSubtitleNotStarted,
       initialStarted: started,
     );
   }

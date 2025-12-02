@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:intl/intl.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -182,7 +183,7 @@ class _JournalPageState extends State<JournalPage> {
                               size: 28,
                               color: Theme.of(context).colorScheme.onPrimary,
                             ),
-                            tooltip: 'Previous Month',
+                            tooltip: AppLocalizations.of(context)!.journalPreviousMonth,
                           ),
                         ),
                         Text(
@@ -207,7 +208,7 @@ class _JournalPageState extends State<JournalPage> {
                               size: 28,
                               color: Theme.of(context).colorScheme.onPrimary,
                             ),
-                            tooltip: 'Next Month',
+                            tooltip: AppLocalizations.of(context)!.journalNextMonth,
                           ),
                         ),
                       ],
@@ -392,7 +393,7 @@ class _JournalPageState extends State<JournalPage> {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  'How was your day?',
+                                  AppLocalizations.of(context)!.journalHowWasYourDay,
                                   style: Theme.of(context).textTheme.titleMedium
                                       ?.copyWith(
                                         color: Theme.of(
@@ -442,7 +443,7 @@ class _JournalPageState extends State<JournalPage> {
                           textAlignVertical: TextAlignVertical.top,
                           decoration: InputDecoration(
                             hintText:
-                                'Write about your day, thoughts, feelings, or anything you want to remember...',
+                                AppLocalizations.of(context)!.journalPlaceholder,
                             hintStyle: TextStyle(
                               color: Theme.of(context).colorScheme.onSurface
                                   .withAlpha(255 ~/ (1 / 0.5)),
@@ -488,7 +489,7 @@ class _JournalPageState extends State<JournalPage> {
                             ),
                             SizedBox(width: 8),
                             Text(
-                              '${_entryController.text.trim().split(' ').length} words',
+                              AppLocalizations.of(context)!.journalWordCount(_entryController.text.trim().split(' ').length),
                               style: Theme.of(context).textTheme.bodySmall
                                   ?.copyWith(
                                     color: journalGradient.first,

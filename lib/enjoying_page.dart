@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 
 class EnjoyingPage extends StatelessWidget {
@@ -7,21 +8,21 @@ class EnjoyingPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("Enjoying the app?")),
+      appBar: AppBar(title: Text(AppLocalizations.of(context)!.enjoyingPageTitle)),
       body: SafeArea(
         child: ListView(
           children: [
             ListTile(
-              title: const Text("Leave a review"),
-              subtitle: const Text("Let me know what you think!"),
+              title: Text(AppLocalizations.of(context)!.enjoyingLeaveReview),
+              subtitle: Text(AppLocalizations.of(context)!.enjoyingLeaveReviewSubtitle),
               leading: const Icon(Icons.reviews_outlined),
               onTap: () => launchUrlString(
                 'https://play.google.com/store/apps/details?id=com.quitter.app&showAllReviews=true',
               ),
             ),
             ListTile(
-              title: const Text("Give us a star"),
-              subtitle: const Text("Show your support on GitHub"),
+              title: Text(AppLocalizations.of(context)!.enjoyingGiveStar),
+              subtitle: Text(AppLocalizations.of(context)!.enjoyingGiveStarSubtitle),
               leading: const Icon(Icons.star_outline),
               onTap: () async {
                 const url = 'https://github.com/brandonp2412/Quitter';
@@ -29,8 +30,8 @@ class EnjoyingPage extends StatelessWidget {
               },
             ),
             ListTile(
-              title: const Text("Donate"),
-              subtitle: const Text("Support development"),
+              title: Text(AppLocalizations.of(context)!.enjoyingDonate),
+              subtitle: Text(AppLocalizations.of(context)!.enjoyingDonateSubtitle),
               leading: const Icon(Icons.favorite_outline),
               onTap: () async {
                 const url = 'https://github.com/sponsors/brandonp2412';

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:quitter/quit_milestone.dart';
 import 'package:quitter/quit_milestones_page.dart';
 
@@ -88,14 +89,16 @@ class PornographyPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
+
     return QuitMilestonesPage(
-      title: 'Pure & powerful',
+      title: l10n.pornographyPageTitle,
       storageKey: 'pornography',
       milestones: milestones,
-      headerStarted: 'Reclaiming your mind!',
-      headerNotStarted: 'Start your journey!',
-      subtitleStarted: 'Building authentic connections 🧠✨',
-      subtitleNotStarted: 'Ready to break free and rebuild? 💪',
+      headerStarted: l10n.pornographyHeaderStarted,
+      headerNotStarted: l10n.pornographyHeaderNotStarted,
+      subtitleStarted: l10n.pornographySubtitleStarted,
+      subtitleNotStarted: l10n.pornographySubtitleNotStarted,
       initialStarted: started,
     );
   }

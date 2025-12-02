@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:quitter/quit_milestone.dart';
 import 'package:quitter/quit_milestones_page.dart';
 
@@ -88,14 +89,16 @@ class SocialMediaPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
+
     return QuitMilestonesPage(
-      title: 'Digital detox delight',
+      title: l10n.socialMediaPageTitle,
       storageKey: 'social_media',
       milestones: milestones,
-      headerStarted: 'Unplug & play!',
-      headerNotStarted: 'Digital detox journey!',
-      subtitleStarted: 'Real life is the best feed 💖',
-      subtitleNotStarted: 'Ready to reclaim your time? 🚀',
+      headerStarted: l10n.socialMediaHeaderStarted,
+      headerNotStarted: l10n.socialMediaHeaderNotStarted,
+      subtitleStarted: l10n.socialMediaSubtitleStarted,
+      subtitleNotStarted: l10n.socialMediaSubtitleNotStarted,
       initialStarted: started,
     );
   }

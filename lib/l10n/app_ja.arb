@@ -1,0 +1,407 @@
+{
+  "@@locale": "ja",
+
+  "appTitle": "Quitter",
+
+  "tabQuitter": "Quitter",
+
+  "tabJournal": "日記",
+
+  "tabSettings": "設定",
+
+  "homeAddButton": "追加",
+
+  "homeAddTooltip": "独自のカスタム依存を作成して克服しましょう",
+
+  "newVersionToast": "新しいバージョン {version}",
+
+  "changesAction": "変更履歴",
+
+  "hideDialogTitle": "{title}を非表示にしますか?",
+
+  "hideDialogMessage": "これにより、ホーム画面から{title}オプションが非表示になります。設定から再び表示できます。",
+
+  "cancel": "キャンセル",
+
+  "hide": "非表示",
+
+  "addictionAlcohol": "アルコール",
+
+  "addictionVaping": "ベイピング",
+
+  "addictionSmoking": "喫煙",
+
+  "addictionMarijuana": "マリファナ",
+
+  "addictionNicotinePouches": "ニコチンパウチ",
+
+  "addictionOpioids": "オピオイド",
+
+  "addictionSocialMedia": "ソーシャルメディア",
+
+  "addictionAC": "AC",
+
+  "addictionAdultContent": "アダルトコンテンツ",
+
+  "settingsSearchHint": "検索...",
+
+  "settingsSectionAppearance": "外観",
+
+  "settingsSectionSecurity": "セキュリティ",
+
+  "settingsSectionMainScreenItems": "メイン画面の項目",
+
+  "settingsSectionNotifications": "通知",
+
+  "settingsSectionSystem": "システム",
+
+  "settingsPinLock": "PINロック",
+
+  "settingsPinLockSubtitle": "アプリを開く際にPINを要求する",
+
+  "settingsPinTimeout": "PINタイムアウト(秒)",
+
+  "settingsPinTimeoutHint": "15",
+
+  "settingsTheme": "テーマ",
+
+  "settingsColorScheme": "配色",
+
+  "settingsResetButtons": "リセットボタン",
+
+  "settingsResetButtonsSubtitle": "禁止ページにリセットボタンを表示する",
+
+  "settingsShowJournal": "日記を表示",
+
+  "settingsShowJournalSubtitle": "考えを記録するための日記タブを有効にする",
+
+  "settingsSwipeBetweenTabs": "タブ間のスワイプ",
+
+  "settingsSwipeBetweenTabsSubtitle": "指をドラッグして日記、ホームページ、設定の間を移動する",
+
+  "settingsShowAlcoholTracking": "アルコール追跡を表示",
+
+  "settingsShowVapingTracking": "ベイピング追跡を表示",
+
+  "settingsShowSmokingTracking": "喫煙追跡を表示",
+
+  "settingsShowMarijuanaTracking": "マリファナ追跡を表示",
+
+  "settingsShowNicotinePouchesTracking": "ニコチンパウチ追跡を表示",
+
+  "settingsShowOpioidsTracking": "オピオイド追跡を表示",
+
+  "settingsShowSocialMediaTracking": "ソーシャルメディア追跡を表示",
+
+  "settingsShowAdultContentTracking": "アダルトコンテンツ追跡を表示",
+
+  "settingsNotificationFrequency": "通知頻度",
+
+  "settingsNotificationFrequencySubtitle": "{days}日ごと {time}",
+
+  "settingsNotifyAlcohol": "アルコール禁止の進捗を通知",
+
+  "settingsNotifyVaping": "ベイピング禁止の進捗を通知",
+
+  "settingsNotifySmoking": "喫煙禁止の進捗を通知",
+
+  "settingsNotifyMarijuana": "マリファナ禁止の進捗を通知",
+
+  "settingsNotifyNicotinePouches": "ニコチンパウチ禁止の進捗を通知",
+
+  "settingsNotifyOpioids": "オピオイド禁止の進捗を通知",
+
+  "settingsNotifySocialMedia": "ソーシャルメディア禁止の進捗を通知",
+
+  "settingsNotifyAdultContent": "アダルトコンテンツ禁止の進捗を通知",
+
+  "settingsResetMessages": "リセットメッセージ",
+
+  "settingsResetMessagesSubtitle": "再発後にポジティブなメッセージを表示する",
+
+  "settingsAbout": "このアプリについて",
+
+  "settingsWhatsNew": "新機能",
+
+  "settingsEnjoyingApp": "アプリを気に入っていただけましたか?",
+
+  "settingsReportBug": "バグを報告",
+
+  "settingsExportData": "データをエクスポート",
+
+  "settingsImportData": "データをインポート",
+
+  "settingsDeleteEverything": "すべてを削除",
+
+  "themeLight": "ライト",
+
+  "themeDark": "ダーク",
+
+  "themeSystem": "システム",
+
+  "themePureBlack": "純黒",
+
+  "themeMode": "テーマモード",
+
+  "pinDialogSetTitle": "PINを設定",
+
+  "pinDialogEnterPIN": "PINを入力",
+
+  "pinDialogConfirmPIN": "PINを確認",
+
+  "pinDialogSet": "設定",
+
+  "pinDialogPINsDoNotMatch": "PINが一致しません",
+
+  "pinDialogPIN": "PIN",
+
+  "pinDialogOK": "OK",
+
+  "notificationFrequencyDialogTitle": "通知頻度",
+
+  "notificationFrequencyNotifyEvery": "通知間隔",
+
+  "notificationFrequencyDays": "日",
+
+  "notificationFrequencyAt": "時刻",
+
+  "notificationFrequencySave": "保存",
+
+  "notificationTestTitle": "ポジティブな励まし",
+
+  "notificationTestBody": "{days}日{plural}ごとに、あなたの進捗を祝福する通知が届きます!",
+
+  "deleteEverythingDialogTitle": "すべてを削除",
+
+  "deleteEverythingDialogMessage": "本当にすべてを削除しますか?この操作は取り消せません。",
+
+  "deleteEverythingConfirm": "削除する!",
+
+  "dataExported": "データをエクスポートしました!",
+
+  "dataImported": "データを正常にインポートしました!",
+
+  "journalHowWasYourDay": "今日はどうでしたか?",
+
+  "journalPlaceholder": "今日のこと、思考、感情、覚えておきたいことなど、何でも書いてみましょう...",
+
+  "journalWordCount": "{count} 文字",
+
+  "journalPreviousMonth": "前の月",
+
+  "journalNextMonth": "次の月",
+
+  "quitMilestonesStart": "スタート",
+
+  "quitMilestonesReset": "リセット",
+
+  "quitMilestonesQuitDate": "禁止開始日",
+
+  "quitMilestonesClearTitle": "{days}日のマイルストーンをクリアしますか?",
+
+  "quitMilestonesClearMessage": "これにより、{days}日のマイルストーンを達成した過去の記録がすべてクリアされます。",
+
+  "quitMilestonesClear": "クリア",
+
+  "quitMilestonesShareMessage": "{title}をやめて{days}日{plural}クリーンな状態です!",
+
+  "entryPageHeaderStarted": "一歩ずつ強くなっています",
+
+  "entryPageHeaderNotStarted": "未開始",
+
+  "entryPageSubtitleStarted": "素晴らしいですよ!",
+
+  "entryPageSubtitleNotStarted": "「スタート」をタップして旅を始めましょう",
+
+  "editEntryAddTitle": "エントリーを追加",
+
+  "editEntryEditTitle": "エントリーを編集",
+
+  "editEntryTitle": "タイトル",
+
+  "editEntryTitleError": "タイトルを入力してください",
+
+  "editEntryColor": "色",
+
+  "editEntryIcon": "アイコン",
+
+  "editEntrySave": "保存",
+
+  "editEntryDeleteDialogTitle": "本当によろしいですか?",
+
+  "editEntryDeleteDialogMessage": "本当にこのエントリーを削除しますか?",
+
+  "editEntryDeleteNo": "いいえ",
+
+  "editEntryDeleteYes": "はい",
+
+  "pinPageEnterPIN": "PINを入力",
+
+  "pinPageIncorrectPIN": "PINが正しくありません",
+
+  "pinPageTooManyAttempts": "試行回数が多すぎます。30秒待ってください。",
+
+  "aboutPageTitle": "このアプリについて",
+
+  "aboutVersion": "バージョン",
+
+  "aboutAuthor": "作成者",
+
+  "aboutAuthorName": "Brandon Dick",
+
+  "aboutLicense": "ライセンス",
+
+  "aboutLicenseMIT": "MIT",
+
+  "aboutDonate": "寄付",
+
+  "aboutDonateSubtitle": "このプロジェクトをサポート",
+
+  "aboutSourceCode": "ソースコード",
+
+  "whatsNewTitle": "新機能",
+
+  "whatsNewSearchHint": "検索...",
+
+  "whatsNewEnjoyingButton": "アプリを気に入っていただけましたか?",
+
+  "enjoyingPageTitle": "アプリを気に入っていただけましたか?",
+
+  "enjoyingLeaveReview": "レビューを書く",
+
+  "enjoyingLeaveReviewSubtitle": "ご感想をお聞かせください!",
+
+  "enjoyingGiveStar": "スターをつける",
+
+  "enjoyingGiveStarSubtitle": "GitHubでサポートを表明",
+
+  "enjoyingDonate": "寄付",
+
+  "enjoyingDonateSubtitle": "開発をサポート",
+
+  "alcoholPageTitle": "お酒のない輝く日々",
+
+  "alcoholHeaderStarted": "よく頑張りました!",
+
+  "alcoholHeaderNotStarted": "クリーンな旅の始まり!",
+
+  "alcoholSubtitleStarted": "毎日が勝利です 🥳",
+
+  "alcoholSubtitleNotStarted": "輝く自分になる準備はできていますか? ✨",
+
+  "vapingPageTitle": "ベイプフリーの勝利",
+
+  "vapingHeaderStarted": "晴れやかな未来へ!",
+
+  "vapingHeaderNotStarted": "ベイプのない生活!",
+
+  "vapingSubtitleStarted": "楽に呼吸、自由に生きる 🌬️",
+
+  "vapingSubtitleNotStarted": "ベイプをやめる準備はできていますか? ✨",
+
+  "smokingPageTitle": "禁煙と飛躍",
+
+  "smokingHeaderStarted": "楽に呼吸を!",
+
+  "smokingHeaderNotStarted": "禁煙の旅!",
+
+  "smokingSubtitleStarted": "タバコのない毎日が勝利です 🚭",
+
+  "smokingSubtitleNotStarted": "健康を取り戻す準備はできていますか? ✨",
+
+  "marijuanaPageTitle": "大麻フリーの旅",
+
+  "marijuanaHeaderStarted": "クリアな心の目覚め!",
+
+  "marijuanaHeaderNotStarted": "大麻のない生活!",
+
+  "marijuanaSubtitleStarted": "一日ずつ、心の明晰さを築いていきましょう 🧠",
+
+  "marijuanaSubtitleNotStarted": "クリアな明日への準備はできていますか? 🌱",
+
+  "nicotinePouchesPageTitle": "パウチフリーのパワー",
+
+  "nicotinePouchesHeaderStarted": "爽快で自由!",
+
+  "nicotinePouchesHeaderNotStarted": "パウチフリーの進歩!",
+
+  "nicotinePouchesSubtitleStarted": "より明るく健康的な自分を受け入れましょう ✨",
+
+  "nicotinePouchesSubtitleNotStarted": "パウチをやめる準備はできていますか? 🚀",
+
+  "opioidsPageTitle": "平安への道",
+
+  "opioidsHeaderStarted": "毎日強くなっています!",
+
+  "opioidsHeaderNotStarted": "回復への道!",
+
+  "opioidsSubtitleStarted": "あなたの強さを受け入れましょう 💪",
+
+  "opioidsSubtitleNotStarted": "人生を取り戻す準備はできていますか? 💖",
+
+  "opioidsInfoBox": "回復は医療プロセスです。必ず医療専門家に相談してください。",
+
+  "socialMediaPageTitle": "デジタルデトックスの喜び",
+
+  "socialMediaHeaderStarted": "オフラインで楽しもう!",
+
+  "socialMediaHeaderNotStarted": "デジタルデトックスの旅!",
+
+  "socialMediaSubtitleStarted": "現実の生活が最高のフィードです 💖",
+
+  "socialMediaSubtitleNotStarted": "時間を取り戻す準備はできていますか? 🚀",
+
+  "pornographyPageTitle": "純粋で力強く",
+
+  "pornographyHeaderStarted": "心を取り戻しています!",
+
+  "pornographyHeaderNotStarted": "旅を始めましょう!",
+
+  "pornographySubtitleStarted": "本物のつながりを築いていきます 🧠✨",
+
+  "pornographySubtitleNotStarted": "解放され、再構築する準備はできていますか? 💪",
+
+  "relapseMessage1": "回復は直線的ではありません。すべての前進が大切で、この一歩も含まれます。",
+
+  "relapseMessage2": "あなたはここにいて、努力しています。それには本当の勇気が必要です。",
+
+  "relapseMessage3": "後退はあなたの進歩を消すものではありません。あなたは学び、成長しています。",
+
+  "relapseMessage4": "再スタートはあなたの強さの証であり、弱さのサインではありません。",
+
+  "relapseMessage5": "明日は新しいスタートです。あなたならできます。",
+
+  "relapseMessage6": "あなたの価値は完璧な記録では決まりません。あなたには価値があります。",
+
+  "relapseMessage7": "回復は山と谷のある旅です。歩き続けましょう。",
+
+  "relapseMessage8": "以前スタートする強さがあったのだから、今もまたその強さがあります。",
+
+  "relapseMessage9": "一瞬があなたの未来の旅全体を決めるわけではありません。",
+
+  "relapseMessage10": "ここにいることは、諦めていない証です。それは強力です。",
+
+  "relapseMessage11": "進歩とは完璧さではなく、粘り強さです。",
+
+  "relapseMessage12": "あなたは試みるたびに回復力を築いています。築き続けましょう。",
+
+  "relapseMessage13": "再び挑戦することへのあなたのコミットメントは、すでに勝利です。",
+
+  "relapseMessage14": "癒しは一瞬では起きませんが、あなたの選択一つ一つで起きています。",
+
+  "relapseMessage15": "最初からやり直しているのではなく、より多くの知恵を持って続けているのです。",
+
+  "relapseMessage16": "すべての専門家はかつて初心者でした。すべてのプロはかつて素人でした。",
+
+  "relapseMessage17": "回復は一日ずつ、時には一時間ずつ起こります。",
+
+  "relapseMessage18": "あなたは復活のストーリーを書いています。これはただの一章です。",
+
+  "relapseMessage19": "あなたがここにいるという事実は、自分自身を大切にしている証拠です。それを忘れないで。",
+
+  "relapseMessage20": "正しい方向への小さな一歩も、前進です。",
+
+  "undo": "取り消す",
+
+  "ok": "OK"
+}

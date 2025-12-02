@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:provider/provider.dart' show Consumer, ReadContext;
@@ -57,6 +58,7 @@ class _SettingsPageState extends State<SettingsPage> {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
     return Scaffold(
       body: Consumer<SettingsProvider>(
         builder: (context, settings, child) {
@@ -78,7 +80,7 @@ class _SettingsPageState extends State<SettingsPage> {
                   leading: Icon(Icons.search),
                   controller: _searchController,
                   focusNode: _searchFocusNode,
-                  hintText: 'Search...',
+                  hintText: l10n.settingsSearchHint,
                 ),
               ),
               Expanded(
@@ -95,6 +97,7 @@ class _SettingsPageState extends State<SettingsPage> {
   }
 
   Future<void> _exportData(BuildContext context) async {
+    final l10n = AppLocalizations.of(context)!;
     final prefs = await SharedPreferences.getInstance();
     Map<String, dynamic> data = {};
     for (String key in prefs.getKeys()) {
@@ -118,10 +121,11 @@ class _SettingsPageState extends State<SettingsPage> {
     }
 
     if (!context.mounted || path == null) return;
-    toast('Data exported!');
+    toast(l10n.dataExported);
   }
 
   Future<void> _importData(BuildContext context) async {
+    final l10n = AppLocalizations.of(context)!;
     FilePickerResult? result = await FilePicker.platform.pickFiles(
       type: FileType.custom,
       allowedExtensions: ['json'],
@@ -150,7 +154,7 @@ class _SettingsPageState extends State<SettingsPage> {
     }
 
     if (!context.mounted) return;
-    toast('Data imported successfully!');
+    toast(l10n.dataImported);
 
     final addictions = context.read<AddictionProvider>();
     await addictions.loadAddictions();
@@ -176,12 +180,13 @@ class _SettingsPageState extends State<SettingsPage> {
     BuildContext context,
     SettingsProvider settings,
   ) {
+    final l10n = AppLocalizations.of(context)!;
     return [
-      _sectionHeader('Security', context),
+      _sectionHeader(l10n.settingsSectionSecurity, context),
       SwitchListTile(
         secondary: const Icon(Icons.lock),
-        title: const Text('PIN lock'),
-        subtitle: const Text('Require PIN to open app'),
+        title: Text(l10n.settingsPinLock),
+        subtitle: Text(l10n.settingsPinLockSubtitle),
         value: settings.isPinEnabled,
         onChanged: (value) async {
           if (value) {
@@ -202,8 +207,8 @@ class _SettingsPageState extends State<SettingsPage> {
         title: TextField(
           controller: _pinTimeoutController,
           decoration: InputDecoration(
-            labelText: 'PIN timeout (seconds)',
-            hintText: '15',
+            labelText: l10n.settingsPinTimeout,
+            hintText: l10n.settingsPinTimeoutHint,
           ),
           onChanged: (value) =>
               settings.setPinTimeout(int.tryParse(value) ?? 0),
@@ -218,54 +223,57 @@ class _SettingsPageState extends State<SettingsPage> {
 
     return showDialog<String>(
       context: context,
-      builder: (context) => AlertDialog(
-        title: const Text('Set PIN'),
-        content: Column(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            TextField(
-              controller: controller,
-              obscureText: true,
-              keyboardType: TextInputType.number,
-              maxLength: 6,
-              decoration: const InputDecoration(
-                labelText: 'Enter PIN',
-                counterText: '',
+      builder: (context) {
+        final l10n = AppLocalizations.of(context)!;
+        return AlertDialog(
+          title: Text(l10n.pinDialogSetTitle),
+          content: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              TextField(
+                controller: controller,
+                obscureText: true,
+                keyboardType: TextInputType.number,
+                maxLength: 6,
+                decoration: InputDecoration(
+                  labelText: l10n.pinDialogEnterPIN,
+                  counterText: '',
+                ),
               ),
+              const SizedBox(height: 16),
+              TextField(
+                controller: confirmController,
+                obscureText: true,
+                keyboardType: TextInputType.number,
+                maxLength: 6,
+                decoration: InputDecoration(
+                  labelText: l10n.pinDialogConfirmPIN,
+                  counterText: '',
+                ),
+              ),
+            ],
+          ),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.pop(context),
+              child: Text(l10n.cancel),
             ),
-            const SizedBox(height: 16),
-            TextField(
-              controller: confirmController,
-              obscureText: true,
-              keyboardType: TextInputType.number,
-              maxLength: 6,
-              decoration: const InputDecoration(
-                labelText: 'Confirm PIN',
-                counterText: '',
-              ),
+            TextButton(
+              onPressed: () {
+                if (controller.text == confirmController.text &&
+                    controller.text.isNotEmpty) {
+                  Navigator.pop(context, controller.text);
+                } else {
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    SnackBar(content: Text(l10n.pinDialogPINsDoNotMatch)),
+                  );
+                }
+              },
+              child: Text(l10n.pinDialogSet),
             ),
           ],
-        ),
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.pop(context),
-            child: const Text('Cancel'),
-          ),
-          TextButton(
-            onPressed: () {
-              if (controller.text == confirmController.text &&
-                  controller.text.isNotEmpty) {
-                Navigator.pop(context, controller.text);
-              } else {
-                ScaffoldMessenger.of(context).showSnackBar(
-                  const SnackBar(content: Text('PINs do not match')),
-                );
-              }
-            },
-            child: const Text('Set'),
-          ),
-        ],
-      ),
+        );
+      },
     );
   }
 
@@ -274,26 +282,32 @@ class _SettingsPageState extends State<SettingsPage> {
 
     final result = await showDialog<String>(
       context: context,
-      builder: (context) => AlertDialog(
-        title: const Text('Enter PIN'),
-        content: TextField(
-          controller: controller,
-          obscureText: true,
-          keyboardType: TextInputType.number,
-          maxLength: 6,
-          decoration: const InputDecoration(labelText: 'PIN', counterText: ''),
-        ),
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.pop(context),
-            child: const Text('Cancel'),
+      builder: (context) {
+        final l10n = AppLocalizations.of(context)!;
+        return AlertDialog(
+          title: Text(l10n.pinDialogEnterPIN),
+          content: TextField(
+            controller: controller,
+            obscureText: true,
+            keyboardType: TextInputType.number,
+            maxLength: 6,
+            decoration: InputDecoration(
+              labelText: l10n.pinDialogPIN,
+              counterText: '',
+            ),
           ),
-          TextButton(
-            onPressed: () => Navigator.pop(context, controller.text),
-            child: const Text('OK'),
-          ),
-        ],
-      ),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.pop(context),
+              child: Text(l10n.cancel),
+            ),
+            TextButton(
+              onPressed: () => Navigator.pop(context, controller.text),
+              child: Text(l10n.pinDialogOK),
+            ),
+          ],
+        );
+      },
     );
 
     if (result == null || !context.mounted) return false;
@@ -306,36 +320,35 @@ class _SettingsPageState extends State<SettingsPage> {
     BuildContext context,
     SettingsProvider settings,
   ) {
+    final l10n = AppLocalizations.of(context)!;
     return [
-      _sectionHeader('Appearance', context),
+      _sectionHeader(l10n.settingsSectionAppearance, context),
       ListTile(
         leading: const Icon(Icons.brightness_6),
-        title: const Text('Theme'),
-        subtitle: Text(_getTheme(settings.themeMode)),
+        title: Text(l10n.settingsTheme),
+        subtitle: Text(_getTheme(settings.themeMode, context)),
         onTap: () => _showThemeDialog(context, settings),
       ),
       const Divider(height: 1),
       ListTile(
         leading: const Icon(Icons.palette),
-        title: const Text('Color scheme'),
+        title: Text(l10n.settingsColorScheme),
         subtitle: Text(AppScheme.getName(settings.colorSchemeType)),
         onTap: () => _showColorDialog(context, settings),
       ),
       const Divider(height: 1),
       SwitchListTile(
         secondary: const Icon(Icons.restart_alt),
-        title: const Text('Reset buttons'),
-        subtitle: const Text('Show reset buttons on quit pages'),
+        title: Text(l10n.settingsResetButtons),
+        subtitle: Text(l10n.settingsResetButtonsSubtitle),
         value: settings.showReset,
         onChanged: (value) => settings.showReset = value,
       ),
       const Divider(height: 1),
       SwitchListTile(
         secondary: const Icon(Icons.menu_book),
-        title: const Text('Show journal'),
-        subtitle: const Text(
-          'Enable the journal tab for logging your thoughts',
-        ),
+        title: Text(l10n.settingsShowJournal),
+        subtitle: Text(l10n.settingsShowJournalSubtitle),
         value: settings.showJournal,
         onChanged: (value) => settings.showJournal = value,
       ),
@@ -343,10 +356,8 @@ class _SettingsPageState extends State<SettingsPage> {
         const Divider(height: 1),
         SwitchListTile(
           secondary: const Icon(Icons.swipe),
-          title: const Text('Swipe between tabs'),
-          subtitle: const Text(
-            'Dragging your finger moves between Journal, Homepage & Settings',
-          ),
+          title: Text(l10n.settingsSwipeBetweenTabs),
+          subtitle: Text(l10n.settingsSwipeBetweenTabsSubtitle),
           value: settings.swipeTabs,
           onChanged: (value) => settings.swipeTabs = value,
         ),
@@ -358,67 +369,68 @@ class _SettingsPageState extends State<SettingsPage> {
     SettingsProvider settings,
     BuildContext context,
   ) {
+    final l10n = AppLocalizations.of(context)!;
     final items = [
       _ToggleItem(
         icon: Icons.local_bar,
-        title: 'Alcohol',
-        subtitle: 'Show alcohol tracking',
+        title: l10n.addictionAlcohol,
+        subtitle: l10n.settingsShowAlcoholTracking,
         value: settings.showAlcohol,
         onChanged: (value) => settings.showAlcohol = value,
       ),
       _ToggleItem(
         icon: Icons.air,
-        title: 'Vaping',
-        subtitle: 'Show vaping tracking',
+        title: l10n.addictionVaping,
+        subtitle: l10n.settingsShowVapingTracking,
         value: settings.showVaping,
         onChanged: (value) => settings.showVaping = value,
       ),
       _ToggleItem(
         icon: Icons.eco,
-        title: 'Smoking',
-        subtitle: 'Show smoking tracking',
+        title: l10n.addictionSmoking,
+        subtitle: l10n.settingsShowSmokingTracking,
         value: settings.showSmoking,
         onChanged: (value) => settings.showSmoking = value,
       ),
       _ToggleItem(
         icon: Icons.grass,
-        title: 'Marijuana',
-        subtitle: 'Show marijuana tracking',
+        title: l10n.addictionMarijuana,
+        subtitle: l10n.settingsShowMarijuanaTracking,
         value: settings.showMarijuana,
         onChanged: (value) => settings.showMarijuana = value,
       ),
       _ToggleItem(
         icon: Icons.scatter_plot,
-        title: 'Nicotine pouches',
-        subtitle: 'Show nicotine pouches tracking',
+        title: l10n.addictionNicotinePouches,
+        subtitle: l10n.settingsShowNicotinePouchesTracking,
         value: settings.showNicotinePouches,
         onChanged: (value) => settings.showNicotinePouches = value,
       ),
       _ToggleItem(
         icon: Icons.medication,
-        title: 'Opioids',
-        subtitle: 'Show opioids tracking',
+        title: l10n.addictionOpioids,
+        subtitle: l10n.settingsShowOpioidsTracking,
         value: settings.showOpioids,
         onChanged: (value) => settings.showOpioids = value,
       ),
       _ToggleItem(
         icon: Icons.public,
-        title: 'Social media',
-        subtitle: 'Show social media tracking',
+        title: l10n.addictionSocialMedia,
+        subtitle: l10n.settingsShowSocialMediaTracking,
         value: settings.showSocialMedia,
         onChanged: (value) => settings.showSocialMedia = value,
       ),
       _ToggleItem(
         icon: Icons.block,
-        title: 'AC',
-        subtitle: 'Show adult content tracking',
+        title: l10n.addictionAC,
+        subtitle: l10n.settingsShowAdultContentTracking,
         value: settings.showPornography,
         onChanged: (value) => settings.showPornography = value,
       ),
     ];
 
     return [
-      _sectionHeader('Main Screen Items', context),
+      _sectionHeader(l10n.settingsSectionMainScreenItems, context),
       ..._buildToggleList(items),
     ];
   }
@@ -427,79 +439,83 @@ class _SettingsPageState extends State<SettingsPage> {
     BuildContext context,
     SettingsProvider settings,
   ) {
+    final l10n = AppLocalizations.of(context)!;
     final notificationItems = [
       _ToggleItem(
         icon: Icons.local_bar,
-        title: 'Alcohol',
-        subtitle: 'Notify alcohol quitting progress',
+        title: l10n.addictionAlcohol,
+        subtitle: l10n.settingsNotifyAlcohol,
         value: settings.notifyAlcohol,
         onChanged: (value) => settings.notifyAlcohol = value,
       ),
       _ToggleItem(
         icon: Icons.air,
-        title: 'Vaping',
-        subtitle: 'Notify vaping quitting progress',
+        title: l10n.addictionVaping,
+        subtitle: l10n.settingsNotifyVaping,
         value: settings.notifyVaping,
         onChanged: (value) => settings.notifyVaping = value,
       ),
       _ToggleItem(
         icon: Icons.eco,
-        title: 'Smoking',
-        subtitle: 'Notify smoking quitting progress',
+        title: l10n.addictionSmoking,
+        subtitle: l10n.settingsNotifySmoking,
         value: settings.notifySmoking,
         onChanged: (value) => settings.notifySmoking = value,
       ),
       _ToggleItem(
         icon: Icons.grass,
-        title: 'Marijuana',
-        subtitle: 'Notify marijuana quitting progress',
+        title: l10n.addictionMarijuana,
+        subtitle: l10n.settingsNotifyMarijuana,
         value: settings.notifyMarijuana,
         onChanged: (value) => settings.notifyMarijuana = value,
       ),
       _ToggleItem(
         icon: Icons.scatter_plot,
-        title: 'Nicotine pouches',
-        subtitle: 'Notify nicotine pouches quitting progress',
+        title: l10n.addictionNicotinePouches,
+        subtitle: l10n.settingsNotifyNicotinePouches,
         value: settings.notifyPouches,
         onChanged: (value) => settings.notifyPouches = value,
       ),
       _ToggleItem(
         icon: Icons.medication,
-        title: 'Opioids',
-        subtitle: 'Notify opioids quitting progress',
+        title: l10n.addictionOpioids,
+        subtitle: l10n.settingsNotifyOpioids,
         value: settings.notifyOpioids,
         onChanged: (value) => settings.notifyOpioids = value,
       ),
       _ToggleItem(
         icon: Icons.public,
-        title: 'Social media',
-        subtitle: 'Notify social media quitting progress',
+        title: l10n.addictionSocialMedia,
+        subtitle: l10n.settingsNotifySocialMedia,
         value: settings.notifySocialMedia,
         onChanged: (value) => settings.notifySocialMedia = value,
       ),
       _ToggleItem(
         icon: Icons.block,
-        title: 'Adult content',
-        subtitle: 'Notify adult content quitting progress',
+        title: l10n.addictionAdultContent,
+        subtitle: l10n.settingsNotifyAdultContent,
         value: settings.notifyPornography,
         onChanged: (value) => settings.notifyPornography = value,
       ),
       _ToggleItem(
         icon: Icons.reset_tv,
-        title: 'Reset messages',
-        subtitle: 'Show positive reinforcement after relapses',
+        title: l10n.settingsResetMessages,
+        subtitle: l10n.settingsResetMessagesSubtitle,
         value: settings.notifyRelapse,
         onChanged: (value) => settings.notifyRelapse = value,
       ),
     ];
 
     return [
-      _sectionHeader('Notifications', context),
+      _sectionHeader(l10n.settingsSectionNotifications, context),
       ListTile(
         leading: const Icon(Icons.schedule),
-        title: const Text('Notification frequency'),
+        title: Text(l10n.settingsNotificationFrequency),
         subtitle: Text(
-          'Every ${settings.notifyEvery} day(s) at ${getTimeString(settings.notifyAt)}',
+          l10n.settingsNotificationFrequencySubtitle(
+            settings.notifyEvery,
+            getTimeString(settings.notifyAt),
+          ),
         ),
         onTap: () => _showNotificationFrequencyDialog(context, settings),
       ),
@@ -511,26 +527,27 @@ class _SettingsPageState extends State<SettingsPage> {
   void _deleteEverything(BuildContext context) {
     showDialog(
       context: context,
-      builder: (context) => AlertDialog(
-        title: const Text('Delete everything'),
-        content: const Text(
-          'Are you sure you delete everything? This action cannot be undone.',
-        ),
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.of(context).pop(),
-            child: const Text('Cancel'),
-          ),
-          TextButton(
-            onPressed: () async {
-              Navigator.of(context).pop();
-              final prefs = await SharedPreferences.getInstance();
-              prefs.clear();
-            },
-            child: const Text('DELETE!'),
-          ),
-        ],
-      ),
+      builder: (context) {
+        final l10n = AppLocalizations.of(context)!;
+        return AlertDialog(
+          title: Text(l10n.settingsDeleteEverything),
+          content: Text(l10n.deleteEverythingDialogMessage),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.of(context).pop(),
+              child: Text(l10n.cancel),
+            ),
+            TextButton(
+              onPressed: () async {
+                Navigator.of(context).pop();
+                final prefs = await SharedPreferences.getInstance();
+                prefs.clear();
+              },
+              child: Text(l10n.deleteEverythingConfirm),
+            ),
+          ],
+        );
+      },
     );
   }
 
@@ -538,10 +555,11 @@ class _SettingsPageState extends State<SettingsPage> {
     BuildContext context,
     SettingsProvider settings,
   ) {
+    final l10n = AppLocalizations.of(context)!;
     return [
-      _sectionHeader('System', context),
+      _sectionHeader(l10n.settingsSectionSystem, context),
       ListTile(
-        title: const Text("About"),
+        title: Text(l10n.settingsAbout),
         leading: const Icon(Icons.info_outline),
         onTap: () => Navigator.of(
           context,
@@ -549,7 +567,7 @@ class _SettingsPageState extends State<SettingsPage> {
       ),
       const Divider(height: 1),
       ListTile(
-        title: const Text("What's new"),
+        title: Text(l10n.settingsWhatsNew),
         leading: const Icon(Icons.change_circle_outlined),
         onTap: () => Navigator.of(
           context,
@@ -557,7 +575,7 @@ class _SettingsPageState extends State<SettingsPage> {
       ),
       const Divider(height: 1),
       ListTile(
-        title: const Text("Enjoying the app?"),
+        title: Text(l10n.settingsEnjoyingApp),
         leading: const Icon(Icons.favorite_outline),
         onTap: () => Navigator.of(
           context,
@@ -565,7 +583,7 @@ class _SettingsPageState extends State<SettingsPage> {
       ),
       const Divider(height: 1),
       ListTile(
-        title: const Text("Report a bug"),
+        title: Text(l10n.settingsReportBug),
         leading: const Icon(Icons.bug_report),
         onTap: () async {
           final info = await PackageInfo.fromPlatform();
@@ -576,20 +594,20 @@ class _SettingsPageState extends State<SettingsPage> {
       ),
       const Divider(height: 1),
       ListTile(
-        title: const Text("Export data"),
+        title: Text(l10n.settingsExportData),
         leading: const Icon(Icons.upload_file),
         onTap: () => _exportData(context),
       ),
       const Divider(height: 1),
       ListTile(
-        title: const Text("Import data"),
+        title: Text(l10n.settingsImportData),
         leading: const Icon(Icons.file_download),
         onTap: () => _importData(context),
       ),
       const Divider(height: 1),
       const Divider(height: 1),
       ListTile(
-        title: const Text("Delete everything"),
+        title: Text(l10n.settingsDeleteEverything),
         leading: const Icon(Icons.delete),
         onTap: () => _deleteEverything(context),
       ),
@@ -647,34 +665,37 @@ class _SettingsPageState extends State<SettingsPage> {
     );
   }
 
-  String _getTheme(AppThemeMode mode) {
+  String _getTheme(AppThemeMode mode, BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
     switch (mode) {
       case AppThemeMode.light:
-        return 'Light';
+        return l10n.themeLight;
       case AppThemeMode.dark:
-        return 'Dark';
+        return l10n.themeDark;
       case AppThemeMode.system:
-        return 'System';
+        return l10n.themeSystem;
       case AppThemeMode.pureBlack:
-        return 'Pure black';
+        return l10n.themePureBlack;
     }
   }
 
   void _showThemeDialog(BuildContext context, SettingsProvider settings) {
+    final l10n = AppLocalizations.of(context)!;
     _showSelectionDialog<AppThemeMode>(
       context: context,
-      title: 'Theme mode',
+      title: l10n.themeMode,
       currentValue: settings.themeMode,
       options: AppThemeMode.values,
-      getDisplayName: _getTheme,
+      getDisplayName: (mode) => _getTheme(mode, context),
       onChanged: (value) => settings.themeMode = value,
     );
   }
 
   void _showColorDialog(BuildContext context, SettingsProvider settings) {
+    final l10n = AppLocalizations.of(context)!;
     _showSelectionDialog<ColorSchemeType>(
       context: context,
-      title: 'Color scheme',
+      title: l10n.settingsColorScheme,
       currentValue: settings.colorSchemeType,
       options: ColorSchemeType.values,
       getDisplayName: AppScheme.getName,
@@ -690,6 +711,7 @@ class _SettingsPageState extends State<SettingsPage> {
     required String Function(T) getDisplayName,
     required void Function(T) onChanged,
   }) {
+    final l10n = AppLocalizations.of(context)!;
     showDialog(
       context: context,
       builder: (context) => AlertDialog(
@@ -717,7 +739,7 @@ class _SettingsPageState extends State<SettingsPage> {
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(context),
-            child: const Text('Cancel'),
+            child: Text(l10n.cancel),
           ),
         ],
       ),
@@ -731,6 +753,7 @@ class _SettingsPageState extends State<SettingsPage> {
     showDialog(
       context: context,
       builder: (context) {
+        final l10n = AppLocalizations.of(context)!;
         final everyCtrl = TextEditingController(
           text: settings.notifyEvery.toString(),
         );
@@ -740,7 +763,7 @@ class _SettingsPageState extends State<SettingsPage> {
         );
 
         return AlertDialog(
-          title: const Text('Notification frequency'),
+          title: Text(l10n.settingsNotificationFrequency),
           content: SingleChildScrollView(
             child: Column(
               children: [
@@ -748,9 +771,9 @@ class _SettingsPageState extends State<SettingsPage> {
                   controller: everyCtrl,
                   keyboardType: TextInputType.number,
                   onTap: () => selectAll(everyCtrl),
-                  decoration: const InputDecoration(
-                    labelText: 'Notify every',
-                    suffixText: 'day(s)',
+                  decoration: InputDecoration(
+                    labelText: l10n.notificationFrequencyNotifyEvery,
+                    suffixText: l10n.notificationFrequencyDays,
                     border: OutlineInputBorder(),
                   ),
                 ),
@@ -758,8 +781,8 @@ class _SettingsPageState extends State<SettingsPage> {
                 TextField(
                   controller: atCtrl,
                   readOnly: true,
-                  decoration: const InputDecoration(
-                    labelText: 'At',
+                  decoration: InputDecoration(
+                    labelText: l10n.notificationFrequencyAt,
                     border: OutlineInputBorder(),
                   ),
                   autofocus: true,
@@ -784,7 +807,7 @@ class _SettingsPageState extends State<SettingsPage> {
           actions: [
             TextButton(
               onPressed: () => Navigator.pop(context),
-              child: const Text('Cancel'),
+              child: Text(l10n.cancel),
             ),
             TextButton(
               onPressed: () async {
@@ -792,14 +815,13 @@ class _SettingsPageState extends State<SettingsPage> {
                 if (days != null && days > 0) {
                   settings.notifyEvery = days;
                   await testNotification(
-                    title: 'Positive affirmation',
-                    body:
-                        'You will see a notification like this every $days day${days > 0 ? 's' : ''} congratulating you on your progress!',
+                    title: l10n.notificationTestTitle,
+                    body: l10n.notificationTestBody(days, days > 1 ? 's' : ''),
                   );
                   if (context.mounted) Navigator.pop(context);
                 }
               },
-              child: const Text('Save'),
+              child: Text(l10n.notificationFrequencySave),
             ),
           ],
         );

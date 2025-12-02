@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:url_launcher/url_launcher_string.dart';
@@ -10,7 +11,7 @@ class AboutPage extends StatelessWidget {
   Widget build(BuildContext context) {
     final info = PackageInfo.fromPlatform();
     return Scaffold(
-      appBar: AppBar(title: const Text("About")),
+      appBar: AppBar(title: Text(AppLocalizations.of(context)!.aboutPageTitle)),
       body: SafeArea(
         child: ListView(
           children: [
@@ -26,7 +27,7 @@ class AboutPage extends StatelessWidget {
             ),
             ListTile(
               leading: const Icon(Icons.info_outline),
-              title: const Text("Version"),
+              title: Text(AppLocalizations.of(context)!.aboutVersion),
               subtitle: FutureBuilder(
                 future: info,
                 builder: (context, snap) => Text(snap.data?.version ?? "1.0.0"),
@@ -36,28 +37,28 @@ class AboutPage extends StatelessWidget {
               ),
             ),
             ListTile(
-              title: const Text("Author"),
+              title: Text(AppLocalizations.of(context)!.aboutAuthor),
               leading: const Icon(Icons.person),
-              subtitle: const Text("Brandon Dick"),
+              subtitle: Text(AppLocalizations.of(context)!.aboutAuthorName),
               onTap: () => launchUrlString('https://github.com/brandonp2412'),
             ),
             ListTile(
-              title: const Text("License"),
+              title: Text(AppLocalizations.of(context)!.aboutLicense),
               leading: const Icon(Icons.balance),
-              subtitle: const Text("MIT"),
+              subtitle: Text(AppLocalizations.of(context)!.aboutLicenseMIT),
               onTap: () => launchUrlString(
                 'https://github.com/brandonp2412/Quitter?tab=MIT-1-ov-file#readme',
               ),
             ),
             ListTile(
-              title: const Text("Donate"),
+              title: Text(AppLocalizations.of(context)!.aboutDonate),
               leading: const Icon(Icons.favorite_outline),
-              subtitle: const Text("Help support this project"),
+              subtitle: Text(AppLocalizations.of(context)!.aboutDonateSubtitle),
               onTap: () =>
                   launchUrlString('https://github.com/sponsors/brandonp2412'),
             ),
             ListTile(
-              title: const Text("Source code"),
+              title: Text(AppLocalizations.of(context)!.aboutSourceCode),
               leading: const Icon(Icons.code),
               onTap: () =>
                   launchUrlString('https://github.com/brandonp2412/Quitter'),

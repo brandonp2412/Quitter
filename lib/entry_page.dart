@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:provider/provider.dart';
 import 'package:quitter/addiction_provider.dart';
 import 'package:quitter/entry.dart';
@@ -125,6 +126,8 @@ class _EntryPageState extends State<EntryPage> {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
+
     return Selector<AddictionProvider, Entry>(
       selector: (context, addictions) => addictions.entries.firstWhere(
         (e) => e.id == widget.entry.id,
@@ -138,10 +141,10 @@ class _EntryPageState extends State<EntryPage> {
           storageKey: entry.id,
           shareTitle: entry.title,
           milestones: _generateMilestones(),
-          headerStarted: 'One step stronger',
-          headerNotStarted: 'Not started',
-          subtitleStarted: 'You are doing great!',
-          subtitleNotStarted: 'Tap "Start" to begin your journey',
+          headerStarted: l10n.entryPageHeaderStarted,
+          headerNotStarted: l10n.entryPageHeaderNotStarted,
+          subtitleStarted: l10n.entryPageSubtitleStarted,
+          subtitleNotStarted: l10n.entryPageSubtitleNotStarted,
           initialStarted: entry.quitDate.isBefore(DateTime.now()),
           customDaysAchieved: entry.daysAchieved,
           quitDateOverride: entry.quitDate.toIso8601String(),

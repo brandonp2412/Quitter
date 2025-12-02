@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:quitter/quit_milestone.dart';
 import 'package:quitter/quit_milestones_page.dart';
 
@@ -91,14 +92,16 @@ class AlcoholPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
+
     return QuitMilestonesPage(
-      title: 'Sober & sparkling',
+      title: l10n.alcoholPageTitle,
       storageKey: 'alcohol',
       milestones: miles,
-      headerStarted: 'Cheers to you!',
-      headerNotStarted: 'Sober journey ahead!',
-      subtitleStarted: 'Every day is a win 🥳',
-      subtitleNotStarted: 'Ready for a brighter you? ✨',
+      headerStarted: l10n.alcoholHeaderStarted,
+      headerNotStarted: l10n.alcoholHeaderNotStarted,
+      subtitleStarted: l10n.alcoholSubtitleStarted,
+      subtitleNotStarted: l10n.alcoholSubtitleNotStarted,
       initialStarted: started,
     );
   }

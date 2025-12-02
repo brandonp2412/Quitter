@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:intl/intl.dart';
 import 'package:quitter/enjoying_page.dart';
 
@@ -88,8 +89,8 @@ class _WhatsNewState extends State<WhatsNew> {
         title: searching
             ? TextField(
                 focusNode: node,
-                decoration: const InputDecoration(
-                  hintText: 'Search...',
+                decoration: InputDecoration(
+                  hintText: AppLocalizations.of(context)!.whatsNewSearchHint,
                   border: InputBorder.none,
                 ),
                 onChanged: (terms) => setState(() {
@@ -102,7 +103,7 @@ class _WhatsNewState extends State<WhatsNew> {
                       .toList();
                 }),
               )
-            : const Text("What's new?"),
+            : Text(AppLocalizations.of(context)!.whatsNewTitle),
         actions: [
           IconButton(
             onPressed: () {
@@ -134,7 +135,7 @@ class _WhatsNewState extends State<WhatsNew> {
         onPressed: () => Navigator.of(
           context,
         ).push(MaterialPageRoute(builder: (context) => const EnjoyingPage())),
-        label: const Text("Enjoying the app?"),
+        label: Text(AppLocalizations.of(context)!.whatsNewEnjoyingButton),
       ),
     );
   }

@@ -2,6 +2,7 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:quitter/main.dart';
 
 const widgetChannel = MethodChannel("android.widget");
@@ -55,30 +56,31 @@ void toast(String message, {SnackBarAction? action}) {
   );
 }
 
-String getRelapseEncouragementMessage() {
+String getRelapseEncouragementMessage(BuildContext context) {
   final Random random = Random();
+  final l10n = AppLocalizations.of(context)!;
 
   final List<String> messages = [
-    "Recovery isn't linear. Every step forward matters, including this one.",
-    "You're here, you're trying, and that takes real courage.",
-    "Setbacks don't erase your progress. You're learning and growing.",
-    "Each restart is proof of your strength, not a sign of weakness.",
-    "Tomorrow is a fresh start. You've got this.",
-    "Your worth isn't defined by perfect streaks. You matter.",
-    "Recovery is a journey with hills and valleys. Keep walking.",
-    "You had the strength to start before, and you have it again now.",
-    "One moment doesn't define your entire journey forward.",
-    "Being here shows you haven't given up. That's powerful.",
-    "Progress isn't about perfection—it's about persistence.",
-    "You're building resilience with every attempt. Keep building.",
-    "Your commitment to trying again is already a victory.",
-    "Healing isn't instant, but it's happening with each choice you make.",
-    "You're not starting over—you're continuing with more wisdom.",
-    "Every expert was once a beginner. Every pro was once an amateur.",
-    "Recovery happens one day at a time, sometimes one hour at a time.",
-    "You're writing a comeback story. This is just one chapter.",
-    "The fact that you're here means you care about yourself. Hold onto that.",
-    "Small steps in the right direction are still steps forward.",
+    l10n.relapseMessage1,
+    l10n.relapseMessage2,
+    l10n.relapseMessage3,
+    l10n.relapseMessage4,
+    l10n.relapseMessage5,
+    l10n.relapseMessage6,
+    l10n.relapseMessage7,
+    l10n.relapseMessage8,
+    l10n.relapseMessage9,
+    l10n.relapseMessage10,
+    l10n.relapseMessage11,
+    l10n.relapseMessage12,
+    l10n.relapseMessage13,
+    l10n.relapseMessage14,
+    l10n.relapseMessage15,
+    l10n.relapseMessage16,
+    l10n.relapseMessage17,
+    l10n.relapseMessage18,
+    l10n.relapseMessage19,
+    l10n.relapseMessage20,
   ];
 
   return messages[random.nextInt(messages.length)];

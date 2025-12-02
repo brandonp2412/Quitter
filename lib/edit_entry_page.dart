@@ -1,6 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:provider/provider.dart';
 import 'package:intl/intl.dart';
 import 'package:quitter/addiction_provider.dart';
@@ -93,20 +94,20 @@ class _EditEntryPageState extends State<EditEntryPage> {
       showDialog(
         context: context,
         builder: (ctx) => AlertDialog(
-          title: const Text('Are you sure?'),
-          content: const Text('Do you really want to delete this entry?'),
+          title: Text(AppLocalizations.of(context)!.editEntryDeleteDialogTitle),
+          content: Text(AppLocalizations.of(context)!.editEntryDeleteDialogMessage),
           actions: [
             TextButton(
               onPressed: () {
                 Navigator.of(ctx).pop(false);
               },
-              child: const Text('No'),
+              child: Text(AppLocalizations.of(context)!.editEntryDeleteNo),
             ),
             TextButton(
               onPressed: () {
                 Navigator.of(ctx).pop(true);
               },
-              child: const Text('Yes'),
+              child: Text(AppLocalizations.of(context)!.editEntryDeleteYes),
             ),
           ],
         ),
@@ -129,7 +130,7 @@ class _EditEntryPageState extends State<EditEntryPage> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.entry == null ? 'Add entry' : 'Edit entry'),
+        title: Text(widget.entry == null ? AppLocalizations.of(context)!.editEntryAddTitle : AppLocalizations.of(context)!.editEntryEditTitle),
         actions: [
           if (widget.entry != null)
             IconButton(icon: const Icon(Icons.delete), onPressed: _deleteEntry),
@@ -146,13 +147,13 @@ class _EditEntryPageState extends State<EditEntryPage> {
                 TextFormField(
                   textCapitalization: TextCapitalization.sentences,
                   controller: _titleController,
-                  decoration: const InputDecoration(
-                    labelText: 'Title',
+                  decoration: InputDecoration(
+                    labelText: AppLocalizations.of(context)!.editEntryTitle,
                     border: OutlineInputBorder(),
                   ),
                   validator: (value) {
                     if (value == null || value.isEmpty) {
-                      return 'Please enter a title';
+                      return AppLocalizations.of(context)!.editEntryTitleError;
                     }
                     return null;
                   },
@@ -162,7 +163,7 @@ class _EditEntryPageState extends State<EditEntryPage> {
                   readOnly: true,
                   controller: TextEditingController(text: quitText),
                   decoration: InputDecoration(
-                    labelText: 'Quit date',
+                    labelText: AppLocalizations.of(context)!.quitMilestonesQuitDate,
                     border: const OutlineInputBorder(),
                     suffixIcon: IconButton(
                       icon: const Icon(Icons.calendar_today),
@@ -181,7 +182,7 @@ class _EditEntryPageState extends State<EditEntryPage> {
                       final bool hasFocus = Focus.of(context).hasFocus;
                       return InputDecorator(
                         decoration: InputDecoration(
-                          labelText: 'Color',
+                          labelText: AppLocalizations.of(context)!.editEntryColor,
                           border: const OutlineInputBorder(),
                           focusedBorder: OutlineInputBorder(
                             borderSide: BorderSide(
@@ -251,7 +252,7 @@ class _EditEntryPageState extends State<EditEntryPage> {
                       final bool hasFocus = Focus.of(context).hasFocus;
                       return InputDecorator(
                         decoration: InputDecoration(
-                          labelText: 'Icon',
+                          labelText: AppLocalizations.of(context)!.editEntryIcon,
                           border: const OutlineInputBorder(),
                           focusedBorder: OutlineInputBorder(
                             borderSide: BorderSide(
@@ -285,7 +286,7 @@ class _EditEntryPageState extends State<EditEntryPage> {
       ),
       floatingActionButton: FloatingActionButton.extended(
         onPressed: _saveEntry,
-        label: const Text('Save'),
+        label: Text(AppLocalizations.of(context)!.editEntrySave),
         icon: const Icon(Icons.save),
       ),
     );

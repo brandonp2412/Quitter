@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:quitter/quit_milestone.dart';
 import 'package:quitter/quit_milestones_page.dart';
 
@@ -93,14 +94,16 @@ class VapingPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
+
     return QuitMilestonesPage(
-      title: 'Vape-free victory',
+      title: l10n.vapingPageTitle,
       storageKey: 'vaping',
       milestones: milestones,
-      headerStarted: 'Clear skies ahead!',
-      headerNotStarted: 'Vape-free living!',
-      subtitleStarted: 'Breathing easy, living free 🌬️',
-      subtitleNotStarted: 'Ready to ditch the vape? ✨',
+      headerStarted: l10n.vapingHeaderStarted,
+      headerNotStarted: l10n.vapingHeaderNotStarted,
+      subtitleStarted: l10n.vapingSubtitleStarted,
+      subtitleNotStarted: l10n.vapingSubtitleNotStarted,
       initialStarted: started,
     );
   }

@@ -7,6 +7,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter
   cupertino_icons: ^1.0.8
   shared_preferences: ^2.5.3
   provider: ^6.1.5
@@ -35,6 +37,7 @@ dev_dependencies:
   flutter_driver:
     sdk: flutter
 flutter:
+  generate: true
   uses-material-design: true
   assets:
     - assets/

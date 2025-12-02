@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:provider/provider.dart';
 import 'package:dynamic_color/dynamic_color.dart';
@@ -128,6 +130,16 @@ class _QuitterAppState extends State<QuitterApp>
             return MaterialApp(
               title: 'Quitter',
               scaffoldMessengerKey: rootScaffoldMessenger,
+              localizationsDelegates: const [
+                AppLocalizations.delegate,
+                GlobalMaterialLocalizations.delegate,
+                GlobalWidgetsLocalizations.delegate,
+                GlobalCupertinoLocalizations.delegate,
+              ],
+              supportedLocales: const [
+                Locale('en'),
+                Locale('ja'),
+              ],
               themeMode: settings.themeMode.toThemeMode(),
               theme: ThemeData(
                 colorScheme: lightColorScheme,
@@ -171,16 +183,16 @@ class _QuitterAppState extends State<QuitterApp>
                                         BlendMode.srcIn,
                                       ),
                                     ),
-                                    text: 'Quitter',
+                                    text: AppLocalizations.of(context)!.tabQuitter,
                                   ),
                                   if (settings.showJournal)
                                     Tab(
                                       icon: Icon(Icons.menu_book),
-                                      text: 'Journal',
+                                      text: AppLocalizations.of(context)!.tabJournal,
                                     ),
                                   Tab(
                                     icon: Icon(Icons.settings),
-                                    text: 'Settings',
+                                    text: AppLocalizations.of(context)!.tabSettings,
                                   ),
                                 ],
                               );

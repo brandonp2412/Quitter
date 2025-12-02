@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:provider/provider.dart';
 import 'package:quitter/addiction_provider.dart';
@@ -57,10 +58,11 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
     if (lastVersion == 0) return;
 
     if (currentVersion > lastVersion && mounted) {
+      final l10n = AppLocalizations.of(context)!;
       toast(
-        "New version ${info.version}",
+        l10n.newVersionToast(info.version),
         action: SnackBarAction(
-          label: 'Changes',
+          label: l10n.changesAction,
           onPressed: () => Navigator.of(
             context,
           ).push(MaterialPageRoute(builder: (context) => const WhatsNew())),
@@ -77,6 +79,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
   }
 
   void _showHideBottomSheet(String title, VoidCallback onConfirm) {
+    final l10n = AppLocalizations.of(context)!;
     showModalBottomSheet(
       context: context,
       backgroundColor: Colors.transparent,
@@ -107,13 +110,13 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
               ),
               const SizedBox(height: 16),
               Text(
-                'Hide $title?',
+                l10n.hideDialogTitle(title),
                 style: Theme.of(context).textTheme.headlineSmall,
                 textAlign: TextAlign.center,
               ),
               const SizedBox(height: 8),
               Text(
-                'This will hide the $title option from your home screen. You can show it again in Settings.',
+                l10n.hideDialogMessage(title),
                 style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                   color: Theme.of(
                     context,
@@ -133,7 +136,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                           borderRadius: BorderRadius.circular(12),
                         ),
                       ),
-                      child: const Text('Cancel'),
+                      child: Text(l10n.cancel),
                     ),
                   ),
                   const SizedBox(width: 16),
@@ -149,7 +152,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                           borderRadius: BorderRadius.circular(12),
                         ),
                       ),
-                      child: const Text('Hide'),
+                      child: Text(l10n.hide),
                     ),
                   ),
                 ],
@@ -163,6 +166,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
     return Scaffold(
       body: CustomScrollView(
         slivers: [
@@ -176,7 +180,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                   cards.add(
                     QuitCard(
                       context: context,
-                      title: 'Alcohol',
+                      title: l10n.addictionAlcohol,
                       icon: Icons.local_bar,
                       gradientColors: [
                         const Color(0xFF6366F1),
@@ -194,7 +198,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                         if (mounted) _loadQuitDays();
                       },
                       onLongPress: () {
-                        _showHideBottomSheet('Alcohol', () {
+                        _showHideBottomSheet(l10n.addictionAlcohol, () {
                           settings.showAlcohol = false;
                         });
                       },
@@ -206,7 +210,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                   cards.add(
                     QuitCard(
                       context: context,
-                      title: 'Vaping',
+                      title: l10n.addictionVaping,
                       icon: Icons.air,
                       gradientColors: [
                         const Color(0xFF06B6D4),
@@ -224,7 +228,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                         if (mounted) _loadQuitDays();
                       },
                       onLongPress: () {
-                        _showHideBottomSheet('Vaping', () {
+                        _showHideBottomSheet(l10n.addictionVaping, () {
                           settings.showVaping = false;
                         });
                       },
@@ -236,7 +240,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                   cards.add(
                     QuitCard(
                       context: context,
-                      title: 'Smoking',
+                      title: l10n.addictionSmoking,
                       icon: Icons.eco,
                       gradientColors: [
                         const Color(0xFF10B981),
@@ -254,7 +258,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                         if (mounted) _loadQuitDays();
                       },
                       onLongPress: () {
-                        _showHideBottomSheet('Smoking', () {
+                        _showHideBottomSheet(l10n.addictionSmoking, () {
                           settings.showSmoking = false;
                         });
                       },
@@ -266,7 +270,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                   cards.add(
                     QuitCard(
                       context: context,
-                      title: 'Marijuana',
+                      title: l10n.addictionMarijuana,
                       icon: Icons.grass,
                       gradientColors: [
                         const Color.fromARGB(255, 132, 230, 128),
@@ -284,7 +288,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                         if (mounted) _loadQuitDays();
                       },
                       onLongPress: () {
-                        _showHideBottomSheet('Marijuana', () {
+                        _showHideBottomSheet(l10n.addictionMarijuana, () {
                           settings.showMarijuana = false;
                         });
                       },
@@ -295,7 +299,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                   cards.add(
                     QuitCard(
                       context: context,
-                      title: 'Nicotine Pouches',
+                      title: l10n.addictionNicotinePouches,
                       icon: Icons.scatter_plot,
                       gradientColors: [
                         const Color(0xFFF59E0B),
@@ -313,7 +317,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                         if (mounted) _loadQuitDays();
                       },
                       onLongPress: () {
-                        _showHideBottomSheet('Nicotine pouches', () {
+                        _showHideBottomSheet(l10n.addictionNicotinePouches, () {
                           settings.showNicotinePouches = false;
                         });
                       },
@@ -325,7 +329,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                   cards.add(
                     QuitCard(
                       context: context,
-                      title: 'Opioids',
+                      title: l10n.addictionOpioids,
                       icon: Icons.medication,
                       gradientColors: [
                         const Color(0xFFEC4899),
@@ -343,7 +347,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                         if (mounted) _loadQuitDays();
                       },
                       onLongPress: () {
-                        _showHideBottomSheet('Opioids', () {
+                        _showHideBottomSheet(l10n.addictionOpioids, () {
                           settings.showOpioids = false;
                         });
                       },
@@ -355,7 +359,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                   cards.add(
                     QuitCard(
                       context: context,
-                      title: 'Social Media',
+                      title: l10n.addictionSocialMedia,
                       icon: Icons.public,
                       gradientColors: [
                         const Color(0xFF8B5CF6),
@@ -373,7 +377,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                         if (mounted) _loadQuitDays();
                       },
                       onLongPress: () {
-                        _showHideBottomSheet('Social Media', () {
+                        _showHideBottomSheet(l10n.addictionSocialMedia, () {
                           settings.showSocialMedia = false;
                         });
                       },
@@ -385,7 +389,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                   cards.add(
                     QuitCard(
                       context: context,
-                      title: 'AC',
+                      title: l10n.addictionAC,
                       icon: Icons.block,
                       gradientColors: [
                         const Color(0xFFF43F5E),
@@ -403,7 +407,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                         if (mounted) _loadQuitDays();
                       },
                       onLongPress: () {
-                        _showHideBottomSheet('AC', () {
+                        _showHideBottomSheet(l10n.addictionAC, () {
                           settings.showPornography = false;
                         });
                       },
@@ -467,9 +471,9 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
           );
           _loadQuitDays();
         },
-        label: const Text("Add"),
+        label: Text(l10n.homeAddButton),
         icon: const Icon(Icons.add),
-        tooltip: 'Create your own custom addiction to quit',
+        tooltip: l10n.homeAddTooltip,
       ),
     );
   }
