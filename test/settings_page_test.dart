@@ -100,34 +100,25 @@ void main() {
       WidgetTester tester,
     ) async {
       await tester.pumpWidget(createTestWidget());
+      await tester.pumpAndSettle();
 
-      await tester.dragUntilVisible(
-        find.text('Alcohol'),
-        find.byType(ListView),
-        const Offset(0, -300),
-      );
-      expect(find.text('Alcohol'), findsOneWidget);
-      expect(find.text('Vaping'), findsOneWidget);
-      await tester.dragUntilVisible(
-        find.text('Smoking'),
-        find.byType(ListView),
-        const Offset(0, -300),
-      );
-      expect(find.text('Smoking'), findsOneWidget);
-      await tester.dragUntilVisible(
-        find.text('Marijuana'),
-        find.byType(ListView),
-        const Offset(0, -300),
-      );
-      expect(find.text('Marijuana'), findsOneWidget);
+      final items = [
+        'Alcohol',
+        'Vaping',
+        'Smoking',
+        'Marijuana',
+        'Nicotine pouches',
+        'Opioids',
+      ];
 
-      await tester.dragUntilVisible(
-        find.text('Nicotine pouches'),
-        find.byType(ListView),
-        const Offset(0, -300),
-      );
-      expect(find.text('Nicotine pouches'), findsOneWidget);
-      expect(find.text('Opioids'), findsOneWidget);
+      for (final item in items) {
+        await tester.dragUntilVisible(
+          find.text(item),
+          find.byType(ListView),
+          const Offset(0, -50),
+        );
+        expect(find.text(item), findsOneWidget);
+      }
     });
 
     testWidgets('displays system menu items', (WidgetTester tester) async {
