@@ -642,7 +642,14 @@ class _SettingsPageState extends State<SettingsPage> {
           text.data!.toLowerCase().contains(lowerCaseQuery)) {
         return true;
       }
-    } else if (item is ListTile) {
+    } else if (item is ListTile && item.title is TextField) {
+      final title =
+          (item.title as TextField).decoration?.labelText?.toLowerCase() ?? '';
+      final subtitle = (item.subtitle as Text?)?.data?.toLowerCase() ?? '';
+      if (title.contains(lowerCaseQuery) || subtitle.contains(lowerCaseQuery)) {
+        return true;
+      }
+    } else if (item is ListTile && item.title is Text) {
       final title = (item.title as Text).data?.toLowerCase() ?? '';
       final subtitle = (item.subtitle as Text?)?.data?.toLowerCase() ?? '';
       if (title.contains(lowerCaseQuery) || subtitle.contains(lowerCaseQuery)) {
