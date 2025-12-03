@@ -35,8 +35,9 @@ class _WhatsNewState extends State<WhatsNew> {
   }
 
   Future<List<Changelog>> getChangelogFiles(BuildContext context) async {
-    final manifest =
-        await AssetManifest.loadFromAssetBundle(DefaultAssetBundle.of(context));
+    final manifest = await AssetManifest.loadFromAssetBundle(
+      DefaultAssetBundle.of(context),
+    );
 
     final files = manifest
         .listAssets()
@@ -80,9 +81,7 @@ class _WhatsNewState extends State<WhatsNew> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("What's new?"),
-      ),
+      appBar: AppBar(title: const Text("What's new?")),
       body: ListView.builder(
         itemBuilder: (context, index) => ListTile(
           title: Text(changelogs[index].created),
