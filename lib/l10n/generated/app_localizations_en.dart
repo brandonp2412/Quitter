@@ -63,7 +63,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get addictionMarijuana => 'Marijuana';
 
   @override
-  String get addictionNicotinePouches => 'Nicotine Pouches';
+  String get addictionNicotinePouches => 'Nicotine pouches';
 
   @override
   String get addictionOpioids => 'Opioids';

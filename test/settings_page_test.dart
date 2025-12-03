@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:provider/provider.dart';
+import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:quitter/settings_page.dart';
 import 'package:quitter/settings_provider.dart';
 import 'package:quitter/addiction_provider.dart';
@@ -24,7 +26,16 @@ void main() {
           value: addictionProvider,
         ),
       ],
-      child: const MaterialApp(home: SettingsPage()),
+      child: const MaterialApp(
+        localizationsDelegates: [
+          AppLocalizations.delegate,
+          GlobalMaterialLocalizations.delegate,
+          GlobalWidgetsLocalizations.delegate,
+          GlobalCupertinoLocalizations.delegate,
+        ],
+        supportedLocales: AppLocalizations.supportedLocales,
+        home: SettingsPage(),
+      ),
     );
   }
 

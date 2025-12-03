@@ -197,7 +197,7 @@ abstract class AppLocalizations {
   /// Name of the nicotine pouches addiction type
   ///
   /// In en, this message translates to:
-  /// **'Nicotine Pouches'**
+  /// **'Nicotine pouches'**
   String get addictionNicotinePouches;
 
   /// Name of the opioids addiction type

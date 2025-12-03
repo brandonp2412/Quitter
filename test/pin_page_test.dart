@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:provider/provider.dart';
+import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:quitter/pin_page.dart';
 import 'package:quitter/settings_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -20,6 +22,13 @@ void main() {
         ChangeNotifierProvider<SettingsProvider>.value(value: settingsProvider),
       ],
       child: const MaterialApp(
+        localizationsDelegates: [
+          AppLocalizations.delegate,
+          GlobalMaterialLocalizations.delegate,
+          GlobalWidgetsLocalizations.delegate,
+          GlobalCupertinoLocalizations.delegate,
+        ],
+        supportedLocales: AppLocalizations.supportedLocales,
         home: SizedBox(height: 1000.0, child: PinPage()),
       ),
     );

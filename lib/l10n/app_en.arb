@@ -96,7 +96,7 @@
     "description": "Name of the marijuana addiction type"
   },
 
-  "addictionNicotinePouches": "Nicotine Pouches",
+  "addictionNicotinePouches": "Nicotine pouches",
   "@addictionNicotinePouches": {
     "description": "Name of the nicotine pouches addiction type"
   },

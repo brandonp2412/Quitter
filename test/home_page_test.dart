@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:provider/provider.dart';
 import 'package:quitter/addiction_provider.dart';
 import 'package:quitter/home_page.dart';
+import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:quitter/settings_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -35,7 +37,16 @@ void main() {
           value: addictionProvider,
         ),
       ],
-      child: const MaterialApp(home: HomePage()),
+      child: const MaterialApp(
+        localizationsDelegates: [
+          AppLocalizations.delegate,
+          GlobalMaterialLocalizations.delegate,
+          GlobalWidgetsLocalizations.delegate,
+          GlobalCupertinoLocalizations.delegate,
+        ],
+        supportedLocales: AppLocalizations.supportedLocales,
+        home: HomePage(),
+      ),
     );
   }
 
@@ -52,27 +63,11 @@ void main() {
     testWidgets(
       'should display grid of addiction cards when settings are enabled',
       (WidgetTester tester) async {
-        SharedPreferences.setMockInitialValues({
-          'show_alcohol': true,
-          'show_vaping': true,
-          'show_smoking': true,
-        });
-        final testSettings = SettingsProvider();
-        await testSettings.loadPreferences();
+        settingsProvider.showAlcohol = true;
+        settingsProvider.showVaping = true;
+        settingsProvider.showSmoking = true;
+        await tester.pumpWidget(createTestWidget());
 
-        await tester.pumpWidget(
-          MultiProvider(
-            providers: [
-              ChangeNotifierProvider<SettingsProvider>.value(
-                value: testSettings,
-              ),
-              ChangeNotifierProvider<AddictionProvider>.value(
-                value: addictionProvider,
-              ),
-            ],
-            child: const MaterialApp(home: HomePage()),
-          ),
-        );
         await tester.pumpAndSettle();
 
         expect(find.text('Alcohol'), findsOneWidget);
@@ -106,29 +101,15 @@ void main() {
           'show_social_media': true,
           'show_pornography': true,
         });
-        final testSettings = SettingsProvider();
-        await testSettings.loadPreferences();
 
-        await tester.pumpWidget(
-          MultiProvider(
-            providers: [
-              ChangeNotifierProvider<SettingsProvider>.value(
-                value: testSettings,
-              ),
-              ChangeNotifierProvider<AddictionProvider>.value(
-                value: addictionProvider,
-              ),
-            ],
-            child: const MaterialApp(home: HomePage()),
-          ),
-        );
+        await tester.pumpWidget(createTestWidget());
         await tester.pumpAndSettle();
 
         expect(find.text('Alcohol'), findsOneWidget);
         expect(find.text('Vaping'), findsOneWidget);
         expect(find.text('Smoking'), findsOneWidget);
         expect(find.text('Marijuana'), findsOneWidget);
-        expect(find.text('Nicotine Pouches'), findsOneWidget);
+        expect(find.text('Nicotine pouches'), findsOneWidget);
         expect(find.text('Opioids'), findsOneWidget);
         expect(find.text('Social Media'), findsOneWidget);
         expect(find.text('AC'), findsOneWidget);
@@ -141,20 +122,8 @@ void main() {
       WidgetTester tester,
     ) async {
       SharedPreferences.setMockInitialValues({'show_alcohol': true});
-      final testSettings = SettingsProvider();
-      await testSettings.loadPreferences();
 
-      await tester.pumpWidget(
-        MultiProvider(
-          providers: [
-            ChangeNotifierProvider<SettingsProvider>.value(value: testSettings),
-            ChangeNotifierProvider<AddictionProvider>.value(
-              value: addictionProvider,
-            ),
-          ],
-          child: const MaterialApp(home: HomePage()),
-        ),
-      );
+      await tester.pumpWidget(createTestWidget());
       await tester.pumpAndSettle();
 
       await tester.longPress(find.text('Alcohol'));
@@ -169,20 +138,8 @@ void main() {
       WidgetTester tester,
     ) async {
       SharedPreferences.setMockInitialValues({'show_alcohol': true});
-      final testSettings = SettingsProvider();
-      await testSettings.loadPreferences();
 
-      await tester.pumpWidget(
-        MultiProvider(
-          providers: [
-            ChangeNotifierProvider<SettingsProvider>.value(value: testSettings),
-            ChangeNotifierProvider<AddictionProvider>.value(
-              value: addictionProvider,
-            ),
-          ],
-          child: const MaterialApp(home: HomePage()),
-        ),
-      );
+      await tester.pumpWidget(createTestWidget());
       await tester.pumpAndSettle();
 
       await tester.longPress(find.text('Alcohol'));
@@ -202,17 +159,7 @@ void main() {
       final testSettings = SettingsProvider();
       await testSettings.loadPreferences();
 
-      await tester.pumpWidget(
-        MultiProvider(
-          providers: [
-            ChangeNotifierProvider<SettingsProvider>.value(value: testSettings),
-            ChangeNotifierProvider<AddictionProvider>.value(
-              value: addictionProvider,
-            ),
-          ],
-          child: const MaterialApp(home: HomePage()),
-        ),
-      );
+      await tester.pumpWidget(createTestWidget());
       await tester.pumpAndSettle();
 
       await tester.longPress(find.text('Alcohol'));
@@ -244,17 +191,7 @@ void main() {
       final testSettings = SettingsProvider();
       await testSettings.loadPreferences();
 
-      await tester.pumpWidget(
-        MultiProvider(
-          providers: [
-            ChangeNotifierProvider<SettingsProvider>.value(value: testSettings),
-            ChangeNotifierProvider<AddictionProvider>.value(
-              value: addictionProvider,
-            ),
-          ],
-          child: const MaterialApp(home: HomePage()),
-        ),
-      );
+      await tester.pumpWidget(createTestWidget());
       await tester.pumpAndSettle();
 
       await tester.tap(find.text('Alcohol'));

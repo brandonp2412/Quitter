@@ -136,10 +136,7 @@ class _QuitterAppState extends State<QuitterApp>
                 GlobalWidgetsLocalizations.delegate,
                 GlobalCupertinoLocalizations.delegate,
               ],
-              supportedLocales: const [
-                Locale('en'),
-                Locale('ja'),
-              ],
+              supportedLocales: const [Locale('en'), Locale('ja')],
               themeMode: settings.themeMode.toThemeMode(),
               theme: ThemeData(
                 colorScheme: lightColorScheme,
@@ -183,16 +180,22 @@ class _QuitterAppState extends State<QuitterApp>
                                         BlendMode.srcIn,
                                       ),
                                     ),
-                                    text: AppLocalizations.of(context)!.tabQuitter,
+                                    text: AppLocalizations.of(
+                                      context,
+                                    )!.tabQuitter,
                                   ),
                                   if (settings.showJournal)
                                     Tab(
                                       icon: Icon(Icons.menu_book),
-                                      text: AppLocalizations.of(context)!.tabJournal,
+                                      text: AppLocalizations.of(
+                                        context,
+                                      )!.tabJournal,
                                     ),
                                   Tab(
                                     icon: Icon(Icons.settings),
-                                    text: AppLocalizations.of(context)!.tabSettings,
+                                    text: AppLocalizations.of(
+                                      context,
+                                    )!.tabSettings,
                                   ),
                                 ],
                               );
