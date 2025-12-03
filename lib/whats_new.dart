@@ -1,10 +1,7 @@
-import 'dart:convert';
-
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:intl/intl.dart';
-import 'package:quitter/enjoying_page.dart';
+import 'package:url_launcher/url_launcher_string.dart';
 
 class WhatsNew extends StatefulWidget {
   const WhatsNew({super.key});
@@ -23,9 +20,6 @@ class Changelog {
 
 class _WhatsNewState extends State<WhatsNew> {
   List<Changelog> changelogs = [];
-  List<Changelog> filtered = [];
-  bool searching = false;
-  FocusNode node = FocusNode();
 
   @override
   void initState() {
@@ -37,15 +31,15 @@ class _WhatsNewState extends State<WhatsNew> {
     final logs = await getChangelogFiles(context);
     setState(() {
       changelogs = logs;
-      filtered = logs;
     });
   }
 
   Future<List<Changelog>> getChangelogFiles(BuildContext context) async {
-    final manifestContent = await rootBundle.loadString('AssetManifest.json');
-    final manifestMap = json.decode(manifestContent) as Map<String, dynamic>;
+    final manifest =
+        await AssetManifest.loadFromAssetBundle(DefaultAssetBundle.of(context));
 
-    final files = manifestMap.keys
+    final files = manifest
+        .listAssets()
         .where((key) => key.startsWith('assets/changelogs/'))
         .toList();
 
@@ -59,26 +53,27 @@ class _WhatsNewState extends State<WhatsNew> {
 
     final result = <Changelog>[];
     for (final path in files) {
-      final content = await rootBundle.loadString(path);
-      final filename = path.split('/').last.replaceAll('.txt', '');
-      final timestamp = int.tryParse(filename);
-
-      if (timestamp == null || filename.isEmpty) {
-        print('Skipping invalid changelog file: $path');
-        continue;
-      }
-
-      result.add(
-        Changelog(
-          name: filename,
-          created: DateFormat.yMMMd().format(
-            DateTime.fromMillisecondsSinceEpoch(timestamp * 1000),
+      try {
+        final content = await rootBundle.loadString(path);
+        final filename = path.split('/').last.replaceAll('.txt', '');
+        final timestamp = int.tryParse(filename);
+        if (timestamp == null || filename.isEmpty) {
+          print('Skipping invalid changelog file: $path');
+          continue;
+        }
+        result.add(
+          Changelog(
+            name: filename,
+            created: DateFormat.yMMMd().format(
+              DateTime.fromMillisecondsSinceEpoch(timestamp * 1000),
+            ),
+            content: content,
           ),
-          content: content,
-        ),
-      );
+        );
+      } catch (e) {
+        print('Error loading changelog file $path: $e');
+      }
     }
-
     return result;
   }
 
@@ -86,56 +81,22 @@ class _WhatsNewState extends State<WhatsNew> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: searching
-            ? TextField(
-                focusNode: node,
-                decoration: InputDecoration(
-                  hintText: AppLocalizations.of(context)!.whatsNewSearchHint,
-                  border: InputBorder.none,
-                ),
-                onChanged: (terms) => setState(() {
-                  filtered = changelogs
-                      .where(
-                        (changelog) => changelog.content.toLowerCase().contains(
-                          terms.toLowerCase(),
-                        ),
-                      )
-                      .toList();
-                }),
-              )
-            : Text(AppLocalizations.of(context)!.whatsNewTitle),
-        actions: [
-          IconButton(
-            onPressed: () {
-              setState(() {
-                searching = !searching;
-              });
-              if (searching)
-                node.requestFocus();
-              else
-                setState(() {
-                  filtered = changelogs;
-                });
-            },
-            icon: Icon(searching ? Icons.close : Icons.search),
-          ),
-        ],
+        title: const Text("What's new?"),
       ),
-      body: SafeArea(
-        child: ListView.builder(
-          itemBuilder: (context, index) => ListTile(
-            title: Text(filtered[index].created),
-            subtitle: Text(filtered[index].content),
-          ),
-          itemCount: filtered.length,
+      body: ListView.builder(
+        itemBuilder: (context, index) => ListTile(
+          title: Text(changelogs[index].created),
+          subtitle: Text(changelogs[index].content),
         ),
+        itemCount: changelogs.length,
       ),
       floatingActionButton: FloatingActionButton.extended(
         icon: const Icon(Icons.favorite_outline),
-        onPressed: () => Navigator.of(
-          context,
-        ).push(MaterialPageRoute(builder: (context) => const EnjoyingPage())),
-        label: Text(AppLocalizations.of(context)!.whatsNewEnjoyingButton),
+        onPressed: () async {
+          const url = 'https://github.com/sponsors/brandonp2412';
+          if (await canLaunchUrlString(url)) await launchUrlString(url);
+        },
+        label: const Text("Donate"),
       ),
     );
   }

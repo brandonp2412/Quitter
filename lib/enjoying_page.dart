@@ -8,13 +8,17 @@ class EnjoyingPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text(AppLocalizations.of(context)!.enjoyingPageTitle)),
+      appBar: AppBar(
+        title: Text(AppLocalizations.of(context)!.enjoyingPageTitle),
+      ),
       body: SafeArea(
         child: ListView(
           children: [
             ListTile(
               title: Text(AppLocalizations.of(context)!.enjoyingLeaveReview),
-              subtitle: Text(AppLocalizations.of(context)!.enjoyingLeaveReviewSubtitle),
+              subtitle: Text(
+                AppLocalizations.of(context)!.enjoyingLeaveReviewSubtitle,
+              ),
               leading: const Icon(Icons.reviews_outlined),
               onTap: () => launchUrlString(
                 'https://play.google.com/store/apps/details?id=com.quitter.app&showAllReviews=true',
@@ -22,7 +26,9 @@ class EnjoyingPage extends StatelessWidget {
             ),
             ListTile(
               title: Text(AppLocalizations.of(context)!.enjoyingGiveStar),
-              subtitle: Text(AppLocalizations.of(context)!.enjoyingGiveStarSubtitle),
+              subtitle: Text(
+                AppLocalizations.of(context)!.enjoyingGiveStarSubtitle,
+              ),
               leading: const Icon(Icons.star_outline),
               onTap: () async {
                 const url = 'https://github.com/brandonp2412/Quitter';
@@ -31,7 +37,9 @@ class EnjoyingPage extends StatelessWidget {
             ),
             ListTile(
               title: Text(AppLocalizations.of(context)!.enjoyingDonate),
-              subtitle: Text(AppLocalizations.of(context)!.enjoyingDonateSubtitle),
+              subtitle: Text(
+                AppLocalizations.of(context)!.enjoyingDonateSubtitle,
+              ),
               leading: const Icon(Icons.favorite_outline),
               onTap: () async {
                 const url = 'https://github.com/sponsors/brandonp2412';

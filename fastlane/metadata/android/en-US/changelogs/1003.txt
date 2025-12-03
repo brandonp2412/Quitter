@@ -1,0 +1,6 @@
+• Allow manually setting the locale
+• feat: Add Japanese localization for all milestones
+• feat: Add Japanese localization support
+• Fix settings page unit tests
+• Fix unit tests
+• fix: Update l10n config for Flutter 3.38+ compatibility

@@ -183,7 +183,9 @@ class _JournalPageState extends State<JournalPage> {
                               size: 28,
                               color: Theme.of(context).colorScheme.onPrimary,
                             ),
-                            tooltip: AppLocalizations.of(context)!.journalPreviousMonth,
+                            tooltip: AppLocalizations.of(
+                              context,
+                            )!.journalPreviousMonth,
                           ),
                         ),
                         Text(
@@ -208,7 +210,9 @@ class _JournalPageState extends State<JournalPage> {
                               size: 28,
                               color: Theme.of(context).colorScheme.onPrimary,
                             ),
-                            tooltip: AppLocalizations.of(context)!.journalNextMonth,
+                            tooltip: AppLocalizations.of(
+                              context,
+                            )!.journalNextMonth,
                           ),
                         ),
                       ],
@@ -393,7 +397,9 @@ class _JournalPageState extends State<JournalPage> {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  AppLocalizations.of(context)!.journalHowWasYourDay,
+                                  AppLocalizations.of(
+                                    context,
+                                  )!.journalHowWasYourDay,
                                   style: Theme.of(context).textTheme.titleMedium
                                       ?.copyWith(
                                         color: Theme.of(
@@ -442,8 +448,9 @@ class _JournalPageState extends State<JournalPage> {
                           expands: true,
                           textAlignVertical: TextAlignVertical.top,
                           decoration: InputDecoration(
-                            hintText:
-                                AppLocalizations.of(context)!.journalPlaceholder,
+                            hintText: AppLocalizations.of(
+                              context,
+                            )!.journalPlaceholder,
                             hintStyle: TextStyle(
                               color: Theme.of(context).colorScheme.onSurface
                                   .withAlpha(255 ~/ (1 / 0.5)),
@@ -489,7 +496,9 @@ class _JournalPageState extends State<JournalPage> {
                             ),
                             SizedBox(width: 8),
                             Text(
-                              AppLocalizations.of(context)!.journalWordCount(_entryController.text.trim().split(' ').length),
+                              AppLocalizations.of(context)!.journalWordCount(
+                                _entryController.text.trim().split(' ').length,
+                              ),
                               style: Theme.of(context).textTheme.bodySmall
                                   ?.copyWith(
                                     color: journalGradient.first,

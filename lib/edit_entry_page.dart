@@ -95,7 +95,9 @@ class _EditEntryPageState extends State<EditEntryPage> {
         context: context,
         builder: (ctx) => AlertDialog(
           title: Text(AppLocalizations.of(context)!.editEntryDeleteDialogTitle),
-          content: Text(AppLocalizations.of(context)!.editEntryDeleteDialogMessage),
+          content: Text(
+            AppLocalizations.of(context)!.editEntryDeleteDialogMessage,
+          ),
           actions: [
             TextButton(
               onPressed: () {
@@ -130,7 +132,11 @@ class _EditEntryPageState extends State<EditEntryPage> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.entry == null ? AppLocalizations.of(context)!.editEntryAddTitle : AppLocalizations.of(context)!.editEntryEditTitle),
+        title: Text(
+          widget.entry == null
+              ? AppLocalizations.of(context)!.editEntryAddTitle
+              : AppLocalizations.of(context)!.editEntryEditTitle,
+        ),
         actions: [
           if (widget.entry != null)
             IconButton(icon: const Icon(Icons.delete), onPressed: _deleteEntry),
@@ -163,7 +169,9 @@ class _EditEntryPageState extends State<EditEntryPage> {
                   readOnly: true,
                   controller: TextEditingController(text: quitText),
                   decoration: InputDecoration(
-                    labelText: AppLocalizations.of(context)!.quitMilestonesQuitDate,
+                    labelText: AppLocalizations.of(
+                      context,
+                    )!.quitMilestonesQuitDate,
                     border: const OutlineInputBorder(),
                     suffixIcon: IconButton(
                       icon: const Icon(Icons.calendar_today),
@@ -182,7 +190,9 @@ class _EditEntryPageState extends State<EditEntryPage> {
                       final bool hasFocus = Focus.of(context).hasFocus;
                       return InputDecorator(
                         decoration: InputDecoration(
-                          labelText: AppLocalizations.of(context)!.editEntryColor,
+                          labelText: AppLocalizations.of(
+                            context,
+                          )!.editEntryColor,
                           border: const OutlineInputBorder(),
                           focusedBorder: OutlineInputBorder(
                             borderSide: BorderSide(
@@ -252,7 +262,9 @@ class _EditEntryPageState extends State<EditEntryPage> {
                       final bool hasFocus = Focus.of(context).hasFocus;
                       return InputDecorator(
                         decoration: InputDecoration(
-                          labelText: AppLocalizations.of(context)!.editEntryIcon,
+                          labelText: AppLocalizations.of(
+                            context,
+                          )!.editEntryIcon,
                           border: const OutlineInputBorder(),
                           focusedBorder: OutlineInputBorder(
                             borderSide: BorderSide(
