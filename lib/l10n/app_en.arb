@@ -96,6 +96,32 @@
     "description": "Name of the marijuana addiction type"
   },
 
+  "settingsLocaleUnsupported": "Unsupported",
+  "@settingsLocaleUnsupported": {
+    "description": "An error occurred. This setting is not supported."
+  },
+
+  "settingsLocaleJapanese": "Japanese",
+  "@settingsLocaleJapanese": {
+    "description": "Show app in Japanese"
+  },
+
+  "settingsLocaleEnglish": "English",
+  "@settingsLocaleEnglish": {
+    "description": "Show app in English"
+  },
+
+  "settingsLocaleSystem": "System",
+  "@settingsLocaleSystem": {
+    "description": "Follows the device locale"
+  },
+
+  "settingsLocale": "Locale",
+  "@settingsLocale": {
+    "description": "Language for the text in Quitter"
+  },
+
+
   "addictionNicotinePouches": "Nicotine pouches",
   "@addictionNicotinePouches": {
     "description": "Name of the nicotine pouches addiction type"

@@ -337,6 +337,13 @@ class _SettingsPageState extends State<SettingsPage> {
         onTap: () => _showColorDialog(context, settings),
       ),
       const Divider(height: 1),
+      ListTile(
+        leading: const Icon(Icons.language),
+        title: Text(l10n.settingsLocale),
+        subtitle: Text(settings.locale),
+        onTap: () => _showLocaleDialog(context, settings),
+      ),
+      const Divider(height: 1),
       SwitchListTile(
         secondary: const Icon(Icons.restart_alt),
         title: Text(l10n.settingsResetButtons),
@@ -695,6 +702,26 @@ class _SettingsPageState extends State<SettingsPage> {
       options: AppThemeMode.values,
       getDisplayName: (mode) => _getTheme(mode, context),
       onChanged: (value) => settings.themeMode = value,
+    );
+  }
+
+  void _showLocaleDialog(BuildContext context, SettingsProvider settings) {
+    final l10n = AppLocalizations.of(context)!;
+    _showSelectionDialog<String?>(
+      context: context,
+      title: l10n.settingsLocale,
+      currentValue: settings.locale,
+      options: ['system', 'en', 'ja'],
+      getDisplayName: (value) {
+        if (value == 'system')
+          return l10n.settingsLocaleSystem;
+        else if (value == 'en')
+          return l10n.settingsLocaleEnglish;
+        else if (value == 'ja')
+          return l10n.settingsLocaleJapanese;
+        return l10n.settingsLocaleUnsupported;
+      },
+      onChanged: (value) => settings.locale = value ?? 'system',
     );
   }
 

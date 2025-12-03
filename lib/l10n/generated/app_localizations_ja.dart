@@ -63,6 +63,21 @@ class AppLocalizationsJa extends AppLocalizations {
   String get addictionMarijuana => 'マリファナ';
 
   @override
+  String get settingsLocaleUnsupported => 'Unsupported';
+
+  @override
+  String get settingsLocaleJapanese => 'Japanese';
+
+  @override
+  String get settingsLocaleEnglish => 'English';
+
+  @override
+  String get settingsLocaleSystem => 'System';
+
+  @override
+  String get settingsLocale => 'Locale';
+
+  @override
   String get addictionNicotinePouches => 'ニコチンパウチ';
 
   @override

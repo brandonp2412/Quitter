@@ -194,6 +194,36 @@ abstract class AppLocalizations {
   /// **'Marijuana'**
   String get addictionMarijuana;
 
+  /// An error occurred. This setting is not supported.
+  ///
+  /// In en, this message translates to:
+  /// **'Unsupported'**
+  String get settingsLocaleUnsupported;
+
+  /// Show app in Japanese
+  ///
+  /// In en, this message translates to:
+  /// **'Japanese'**
+  String get settingsLocaleJapanese;
+
+  /// Show app in English
+  ///
+  /// In en, this message translates to:
+  /// **'English'**
+  String get settingsLocaleEnglish;
+
+  /// Follows the device locale
+  ///
+  /// In en, this message translates to:
+  /// **'System'**
+  String get settingsLocaleSystem;
+
+  /// Language for the text in Quitter
+  ///
+  /// In en, this message translates to:
+  /// **'Locale'**
+  String get settingsLocale;
+
   /// Name of the nicotine pouches addiction type
   ///
   /// In en, this message translates to:

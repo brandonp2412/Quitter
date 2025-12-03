@@ -15,6 +15,7 @@ class SettingsProvider extends ChangeNotifier {
   static const _pinHashKey = 'pin_hash';
   static const _pinEnabledKey = 'pin_enabled';
   static const _pinTimeoutKey = 'pin_timeout';
+  static const _localeKey = 'locale';
 
   bool _isUnlocked = false;
   bool get isUnlocked => _isUnlocked;
@@ -49,6 +50,8 @@ class SettingsProvider extends ChangeNotifier {
   bool get isPinEnabled => _isPinEnabled;
   int _pinTimeout = 15;
   int get pinTimeout => _pinTimeout;
+  String _locale = 'system';
+  String get locale => _locale;
   SharedPreferences? _prefs;
 
   AppThemeMode _themeMode = AppThemeMode.system;
@@ -116,6 +119,7 @@ class SettingsProvider extends ChangeNotifier {
     _notifyAt = _prefs!.getInt(_notifyAtKey) ?? (8 * 60);
     _notifyEvery = _prefs!.getInt(_notifyEveryKey) ?? 1;
     _pinTimeout = _prefs!.getInt(_pinTimeoutKey) ?? 15;
+    _locale = _prefs!.getString(_localeKey) ?? 'system';
 
     _showKeys.forEach((key, prefKey) {
       _showSettings[key] = _prefs!.getBool(prefKey) ?? true;
@@ -129,6 +133,12 @@ class SettingsProvider extends ChangeNotifier {
     _isPinEnabled = enabled == true;
 
     notifyListeners();
+  }
+
+  set locale(String locale) {
+    _locale = locale;
+    notifyListeners();
+    _prefs?.setString(_localeKey, locale);
   }
 
   Future<void> setPinTimeout(int timeout) async {
