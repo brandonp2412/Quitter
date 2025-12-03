@@ -16,112 +16,75 @@ class EntryPage extends StatefulWidget {
 }
 
 class _EntryPageState extends State<EntryPage> {
-  List<QuitMilestone> _generateMilestones() {
-    List<QuitMilestone> miles = [];
-
-    miles.add(
-      const QuitMilestone(
+  List<QuitMilestone> _getMilestones(AppLocalizations l10n) {
+    return [
+      QuitMilestone(
         day: 1,
-        title: "Initial Recovery Phase Begins",
-        description:
-            "Your body starts the healing process! Within 24 hours of quitting, your system begins to clear toxins and adjust to functioning without addictive substances. Sleep disturbances are common but part of the recovery process.",
+        title: l10n.customMilestone1Title,
+        description: l10n.customMilestone1Description,
         reference: "SAMHSA - Treating Sleep Problems of People in Recovery",
         link: "https://store.samhsa.gov/sites/default/files/sma14-4859.pdf",
       ),
-    );
-
-    miles.add(
-      const QuitMilestone(
+      QuitMilestone(
         day: 3,
-        title: "Withdrawal Symptoms Peak",
-        description:
-            "You're facing the storm head-on! Physical withdrawal symptoms typically peak around day 3 for many substances, including anxiety, mood swings, and physical discomfort. This means you're getting through the hardest part.",
+        title: l10n.customMilestone3Title,
+        description: l10n.customMilestone3Description,
         reference: "NCBI - Withdrawal Syndromes Clinical Guidelines",
         link: "https://www.ncbi.nlm.nih.gov/books/NBK459239/",
       ),
-    );
-
-    miles.add(
-      const QuitMilestone(
+      QuitMilestone(
         day: 7,
-        title: "Acute Withdrawal Phase Ending",
-        description:
-            "The worst is behind you! After one week, acute withdrawal symptoms begin to subside for most substances. Your body is adjusting to its new normal and starting to stabilize.",
+        title: l10n.customMilestone7Title,
+        description: l10n.customMilestone7Description,
         reference: "American Addiction Centers - General Withdrawal Management",
         link:
             "https://americanaddictioncenters.org/withdrawal-timelines-treatments",
       ),
-    );
-
-    miles.add(
-      const QuitMilestone(
+      QuitMilestone(
         day: 14,
-        title: "Early Recovery Stabilization",
-        description:
-            "Your mind is clearing! Two weeks of sobriety often brings improved mental clarity and reduced cravings as your brain begins to adapt to functioning without addictive substances.",
+        title: l10n.customMilestone14Title,
+        description: l10n.customMilestone14Description,
         reference: "NCBI - Post-Acute Withdrawal Research",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9798382/",
       ),
-    );
-
-    miles.add(
-      const QuitMilestone(
+      QuitMilestone(
         day: 30,
-        title: "One Month Milestone",
-        description:
-            "A major victory! Thirty days of sobriety represents significant progress. Many people find that sleep patterns, mood, and energy levels continue to improve during this period.",
+        title: l10n.customMilestone30Title,
+        description: l10n.customMilestone30Description,
         reference: "High Focus Centers - 30-Day Recovery Benefits Research",
         link:
             "https://pa.highfocuscenters.com/the-benefits-of-staying-30-60-and-90-days-sober-a-path-to-lasting-recovery/",
       ),
-    );
-
-    miles.add(
-      const QuitMilestone(
+      QuitMilestone(
         day: 90,
-        title: "Three Month Recovery Milestone",
-        description:
-            "Your commitment is paying off! Three months of recovery represents a significant achievement. Post-acute withdrawal symptoms typically begin to fade, and many people report feeling more like themselves again.",
+        title: l10n.customMilestone90Title,
+        description: l10n.customMilestone90Description,
         reference: "East Coast Recovery - 90-Day Sobriety Research",
         link:
             "https://eastcoastrecovery.com/what-happens-during-and-after-the-first-90-days-sober/",
       ),
-    );
-
-    miles.add(
-      const QuitMilestone(
+      QuitMilestone(
         day: 180,
-        title: "Six Month Recovery Achievement",
-        description:
-            "You're building lasting change! Six months of sobriety often brings continued improvements in physical health, emotional stability, and overall quality of life as your body continues healing.",
+        title: l10n.customMilestone180Title,
+        description: l10n.customMilestone180Description,
         reference: "NCBI - Clinical Guidelines for Withdrawal Management",
         link: "https://www.ncbi.nlm.nih.gov/books/NBK310652/",
       ),
-    );
-
-    miles.add(
-      const QuitMilestone(
+      QuitMilestone(
         day: 365,
-        title: "One Year of Recovery",
-        description:
-            "An incredible achievement! One year of sobriety represents a major life milestone. Many people experience significant improvements in physical health, relationships, and overall well-being by this point.",
+        title: l10n.customMilestone365Title,
+        description: l10n.customMilestone365Description,
         reference: "PMC - Recovery Attempts and Successful Outcomes Study",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC6602820/",
       ),
-    );
-
-    miles.add(
-      const QuitMilestone(
+      QuitMilestone(
         day: 730,
-        title: "Two Years of Sustained Recovery",
-        description:
-            "You've built a new life! Two years of recovery demonstrates remarkable resilience and commitment. Long-term sobriety often brings profound positive changes in all areas of life and significantly reduced risk of relapse.",
+        title: l10n.customMilestone730Title,
+        description: l10n.customMilestone730Description,
         reference: "Addiction Group - Long-term Sobriety Milestone Research",
         link: "https://www.addictiongroup.org/resources/sobriety-milestones/",
       ),
-    );
-
-    return miles;
+    ];
   }
 
   @override
@@ -140,7 +103,7 @@ class _EntryPageState extends State<EntryPage> {
           title: entry.title,
           storageKey: entry.id,
           shareTitle: entry.title,
-          milestones: _generateMilestones(),
+          milestones: _getMilestones(l10n),
           headerStarted: l10n.entryPageHeaderStarted,
           headerNotStarted: l10n.entryPageHeaderNotStarted,
           subtitleStarted: l10n.entryPageSubtitleStarted,
