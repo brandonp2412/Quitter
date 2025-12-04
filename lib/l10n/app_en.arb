@@ -111,6 +111,11 @@
     "description": "Show app in English"
   },
 
+  "settingsLocaleSimplifiedChinese": "Chinese",
+  "@settingsLocaleSimplifiedChinese": {
+    "description": "Show app in Simplified Chinese"
+  },
+
   "settingsLocaleSystem": "System",
   "@settingsLocaleSystem": {
     "description": "Follows the device locale"

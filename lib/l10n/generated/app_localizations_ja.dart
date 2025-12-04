@@ -72,6 +72,9 @@ class AppLocalizationsJa extends AppLocalizations {
   String get settingsLocaleEnglish => 'English';
 
   @override
+  String get settingsLocaleSimplifiedChinese => 'Chinese';
+
+  @override
   String get settingsLocaleSystem => 'System';
 
   @override

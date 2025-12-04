@@ -711,7 +711,7 @@ class _SettingsPageState extends State<SettingsPage> {
       context: context,
       title: l10n.settingsLocale,
       currentValue: settings.locale,
-      options: ['system', 'en', 'ja'],
+      options: ['system', 'en', 'ja', 'zh'],
       getDisplayName: (value) {
         if (value == 'system')
           return l10n.settingsLocaleSystem;
@@ -719,6 +719,8 @@ class _SettingsPageState extends State<SettingsPage> {
           return l10n.settingsLocaleEnglish;
         else if (value == 'ja')
           return l10n.settingsLocaleJapanese;
+        else if (value == 'zh')
+          return l10n.settingsLocaleSimplifiedChinese;
         return l10n.settingsLocaleUnsupported;
       },
       onChanged: (value) => settings.locale = value ?? 'system',
