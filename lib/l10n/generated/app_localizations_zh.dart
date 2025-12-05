@@ -27,6 +27,9 @@ class AppLocalizationsZh extends AppLocalizations {
   String get homeAddTooltip => '创建自定义戒瘾项目';
 
   @override
+  String get quitCardSubtitle => '点击开始';
+
+  @override
   String newVersionToast(String version) {
     return '新版本 $version';
   }

@@ -27,6 +27,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get homeAddTooltip => 'Create your own custom addiction to quit';
 
   @override
+  String get quitCardSubtitle => 'Tap to start';
+
+  @override
   String newVersionToast(String version) {
     return 'New version $version';
   }

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
+import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:quitter/utils.dart';
 
 class QuitCard extends StatelessWidget {
@@ -114,7 +115,8 @@ class QuitCard extends StatelessWidget {
                       ),
                     ] else ...[
                       Text(
-                        'Tap to start',
+                        AppLocalizations.of(context)?.quitCardSubtitle ??
+                            'Tap to start',
                         style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                           color: Theme.of(
                             context,

@@ -31,6 +31,11 @@
     "description": "Tooltip for the add custom addiction button"
   },
 
+  "quitCardSubtitle": "Tap to start",
+  "@quitCardSubtitle": {
+    "description": "Prompt displayed on the quit card"
+  },
+
   "newVersionToast": "New version {version}",
   "@newVersionToast": {
     "description": "Toast message shown when app is updated",

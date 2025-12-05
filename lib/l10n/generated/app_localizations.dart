@@ -136,6 +136,12 @@ abstract class AppLocalizations {
   /// **'Create your own custom addiction to quit'**
   String get homeAddTooltip;
 
+  /// Prompt displayed on the quit card
+  ///
+  /// In en, this message translates to:
+  /// **'Tap to start'**
+  String get quitCardSubtitle;
+
   /// Toast message shown when app is updated
   ///
   /// In en, this message translates to:

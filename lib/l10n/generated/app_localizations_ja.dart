@@ -27,6 +27,9 @@ class AppLocalizationsJa extends AppLocalizations {
   String get homeAddTooltip => '独自のカスタム依存を作成して克服しましょう';
 
   @override
+  String get quitCardSubtitle => 'Tap to start';
+
+  @override
   String newVersionToast(String version) {
     return '新しいバージョン $version';
   }
