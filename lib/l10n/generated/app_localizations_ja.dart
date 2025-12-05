@@ -486,6 +486,16 @@ class AppLocalizationsJa extends AppLocalizations {
   String get alcoholPageTitle => 'お酒のない輝く日々';
 
   @override
+  String alcoholPageQuitDateDisplay(DateTime quitDate, int days) {
+    final intl.DateFormat quitDateDateFormat = intl.DateFormat.yMMMd(
+      localeName,
+    );
+    final String quitDateString = quitDateDateFormat.format(quitDate);
+
+    return '$quitDateString ($days days)';
+  }
+
+  @override
   String get alcoholHeaderStarted => 'よく頑張りました!';
 
   @override

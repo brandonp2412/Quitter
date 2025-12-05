@@ -153,6 +153,7 @@
     "enjoyingDonate": "捐赠",
     "enjoyingDonateSubtitle": "支持开发",
     "alcoholPageTitle": "清醒与闪耀",
+    "alcoholPageQuitDateDisplay": "{quitDate}（共{days}天）",
     "alcoholHeaderStarted": "为你喝彩！",
     "alcoholHeaderNotStarted": "清醒之旅就在前方！",
     "alcoholSubtitleStarted": "每一天都是胜利 🥳",

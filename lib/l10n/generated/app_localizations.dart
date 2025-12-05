@@ -1018,6 +1018,12 @@ abstract class AppLocalizations {
   /// **'Sober & sparkling'**
   String get alcoholPageTitle;
 
+  /// Display quit date with elapsed days.
+  ///
+  /// In en, this message translates to:
+  /// **'{quitDate} ({days} days)'**
+  String alcoholPageQuitDateDisplay(DateTime quitDate, int days);
+
   /// Header for started alcohol quit journey
   ///
   /// In en, this message translates to:

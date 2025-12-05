@@ -824,6 +824,22 @@
     "description": "Page title for alcohol tracking"
   },
 
+  "alcoholPageQuitDateDisplay": "{quitDate} ({days} days)",
+  "@alcoholPageQuitDateDisplay": {
+    "description": "Display quit date with elapsed days.",
+    "placeholders": {
+      "quitDate": {
+        "type": "DateTime",
+        "format": "yMMMd",
+        "description": "Quit date"
+      },
+      "days": {
+        "type": "int",
+        "description": "Number of days since the quit date"
+      }
+    }
+  },
+
   "alcoholHeaderStarted": "Cheers to you!",
   "@alcoholHeaderStarted": {
     "description": "Header for started alcohol quit journey"

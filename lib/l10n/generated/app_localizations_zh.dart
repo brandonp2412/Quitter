@@ -486,6 +486,16 @@ class AppLocalizationsZh extends AppLocalizations {
   String get alcoholPageTitle => '清醒与闪耀';
 
   @override
+  String alcoholPageQuitDateDisplay(DateTime quitDate, int days) {
+    final intl.DateFormat quitDateDateFormat = intl.DateFormat.yMMMd(
+      localeName,
+    );
+    final String quitDateString = quitDateDateFormat.format(quitDate);
+
+    return '$quitDateString（共$days天）';
+  }
+
+  @override
   String get alcoholHeaderStarted => '为你喝彩！';
 
   @override
