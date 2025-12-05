@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:quitter/color_scheme_type.dart';
+import 'package:quitter/l10n/generated/app_localizations.dart';
 
 class AppScheme {
   static ColorScheme getColorScheme(
@@ -42,20 +43,20 @@ class AppScheme {
     }
   }
 
-  static String getName(ColorSchemeType type) {
+  static String getName(ColorSchemeType type, [AppLocalizations? l10n]) {
     switch (type) {
       case ColorSchemeType.dynamic:
-        return 'Dynamic colors';
+        return l10n?.settingsDynamicColorScheme ?? 'Dynamic colors';
       case ColorSchemeType.blue:
-        return 'Blue';
+        return l10n?.settingsBlueColorScheme ?? 'Blue';
       case ColorSchemeType.green:
-        return 'Green';
+        return l10n?.settingsGreenColorScheme ?? 'Green';
       case ColorSchemeType.red:
-        return 'Red';
+        return l10n?.settingsRedColorScheme ?? 'Red';
       case ColorSchemeType.purple:
-        return 'Purple';
+        return l10n?.settingsPurpleColorScheme ?? 'Purple';
       case ColorSchemeType.orange:
-        return 'Orange';
+        return l10n?.settingsOrangeColorScheme ?? 'Orange';
     }
   }
 }

@@ -36,19 +36,19 @@ class WidgetSelectionActivity : Activity() {
         recyclerView.layoutManager = GridLayoutManager(this, 2)
 
         val addictions = listOf(
-            AddictionItem("alcohol", "Alcohol", R.drawable.ic_local_bar, 0xFF6366F1.toInt()),
-            AddictionItem("vaping", "Vaping", R.drawable.ic_air, 0xFF06B6D4.toInt()),
-            AddictionItem("smoking", "Smoking", R.drawable.ic_eco, 0xFF10B981.toInt()),
-            AddictionItem("marijuana", "Marijuana", R.drawable.ic_grass, 0xFF84E680.toInt()),
+            AddictionItem("alcohol", getString(R.string.addiction_alcohol), R.drawable.ic_local_bar, 0xFF6366F1.toInt()),
+            AddictionItem("vaping", getString(R.string.addiction_vaping), R.drawable.ic_air, 0xFF06B6D4.toInt()),
+            AddictionItem("smoking", getString(R.string.addiction_smoking), R.drawable.ic_eco, 0xFF10B981.toInt()),
+            AddictionItem("marijuana", getString(R.string.addiction_marijuana), R.drawable.ic_grass, 0xFF84E680.toInt()),
             AddictionItem(
                 "nicotine_pouches",
-                "Nicotine Pouches",
+                getString(R.string.addiction_nicotine_pouches),
                 R.drawable.ic_scatter_plot,
                 0xFFF59E0B.toInt()
             ),
-            AddictionItem("opioids", "Opioids", R.drawable.ic_medication, 0xFFEC4899.toInt()),
-            AddictionItem("social_media", "Social Media", R.drawable.ic_public, 0xFF8B5CF6.toInt()),
-            AddictionItem("pornography", "Adult content", R.drawable.ic_block, 0xFFF43F5E.toInt())
+            AddictionItem("opioids", getString(R.string.addiction_opioids), R.drawable.ic_medication, 0xFFEC4899.toInt()),
+            AddictionItem("social_media", getString(R.string.addiction_social_media), R.drawable.ic_public, 0xFF8B5CF6.toInt()),
+            AddictionItem("pornography", getString(R.string.addiction_pornography), R.drawable.ic_block, 0xFFF43F5E.toInt())
         )
 
         val prefs = getSharedPreferences("FlutterSharedPreferences", MODE_PRIVATE)

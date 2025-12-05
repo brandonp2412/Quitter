@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="appwidget_text">Tap to start tracking</string>
-    <string name="add_widget">Add widget</string>
-    <string name="app_widget_description">This is an app widget description</string>
-    <string name="widget_description">Quit tracker</string>
-    <string name="loading">Loading...</string>
-    <string name="app_launcher_foreground">App launcher foreground</string>
+    <string name="appwidget_text">点击开始追踪</string>
+    <string name="add_widget">添加小部件</string>
+    <string name="app_widget_description">这是一个应用小部件描述</string>
+    <string name="widget_description">戒瘾追踪器</string>
+    <string name="loading">加载中...</string>
+    <string name="app_launcher_foreground">应用启动器前景</string>
     <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
+    <string name="first_fragment_label">第一个片段</string>
+    <string name="second_fragment_label">第二个片段</string>
+    <string name="next">下一个</string>
+    <string name="previous">上一个</string>
     <!-- Widget selection activity -->
-    <string name="widget_selection_title">Choose what to track</string>
-    <string name="widget_selection_subtitle">Count the days since you\'ve quit on the home screen</string>
+    <string name="widget_selection_title">选择要追踪的项目</string>
+    <string name="widget_selection_subtitle">在主屏幕上显示您戒除以来的天数</string>
     <!-- Addiction names for widgets -->
-    <string name="addiction_alcohol">Alcohol</string>
-    <string name="addiction_vaping">Vaping</string>
-    <string name="addiction_smoking">Smoking</string>
-    <string name="addiction_marijuana">Marijuana</string>
-    <string name="addiction_nicotine_pouches">Nicotine Pouches</string>
-    <string name="addiction_opioids">Opioids</string>
-    <string name="addiction_social_media">Social Media</string>
-    <string name="addiction_pornography">Adult content</string>
+    <string name="addiction_alcohol">酒精</string>
+    <string name="addiction_vaping">电子烟</string>
+    <string name="addiction_smoking">吸烟</string>
+    <string name="addiction_marijuana">大麻</string>
+    <string name="addiction_nicotine_pouches">尼古丁袋</string>
+    <string name="addiction_opioids">阿片类药物</string>
+    <string name="addiction_social_media">社交媒体</string>
+    <string name="addiction_pornography">成人内容</string>
     <!-- Widget text -->
-    <string name="widget_day_singular">day</string>
-    <string name="widget_day_plural">days</string>
-    <string name="widget_not_set">Not set</string>
-    <string name="widget_unknown">Unknown</string>
-    <string name="widget_error">Error</string>
+    <string name="widget_day_singular">天</string>
+    <string name="widget_day_plural">天</string>
+    <string name="widget_not_set">未设置</string>
+    <string name="widget_unknown">未知</string>
+    <string name="widget_error">错误</string>
     <!-- Widget setup text -->
-    <string name="widget_setup_text">Tap to\nSetup</string>
+    <string name="widget_setup_text">点击设置</string>
 
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris

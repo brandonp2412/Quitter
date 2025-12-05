@@ -189,7 +189,10 @@ class _JournalPageState extends State<JournalPage> {
                           ),
                         ),
                         Text(
-                          DateFormat('MMMM yyyy').format(_displayedMonth),
+                          DateFormat(
+                            'MMMM yyyy',
+                            AppLocalizations.of(context)?.localeName,
+                          ).format(_displayedMonth),
                           style: Theme.of(context).textTheme.titleLarge
                               ?.copyWith(
                                 color: Theme.of(context).colorScheme.onPrimary,

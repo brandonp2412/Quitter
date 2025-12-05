@@ -10,7 +10,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Choose what to track"
+        android:text="@string/widget_selection_title"
         android:textSize="24sp"
         android:textStyle="bold"
         android:layout_marginTop="8dp"
@@ -21,7 +21,7 @@
         android:layout_width="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_height="wrap_content"
-        android:text="Count the days since you've quit on the home screen"
+        android:text="@string/widget_selection_subtitle"
         android:textSize="16sp"
         android:layout_marginBottom="24dp" />
 

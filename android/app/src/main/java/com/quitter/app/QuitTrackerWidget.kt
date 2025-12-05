@@ -47,56 +47,56 @@ class QuitTrackerWidget : AppWidgetProvider() {
                     mapOf(
                             "alcohol" to
                                     AddictionInfo(
-                                            "Alcohol",
+                                            context.getString(R.string.addiction_alcohol),
                                             R.drawable.ic_local_bar,
                                             0xFF6366F1,
                                             0xFF8B5CF6
                                     ),
                             "vaping" to
                                     AddictionInfo(
-                                            "Vaping",
+                                            context.getString(R.string.addiction_vaping),
                                             R.drawable.ic_air,
                                             0xFF06B6D4,
                                             0xFF0EA5E9
                                     ),
                             "smoking" to
                                     AddictionInfo(
-                                            "Smoking",
+                                            context.getString(R.string.addiction_smoking),
                                             R.drawable.ic_eco,
                                             0xFF10B981,
                                             0xFF059669
                                     ),
                             "marijuana" to
                                     AddictionInfo(
-                                            "Marijuana",
+                                            context.getString(R.string.addiction_marijuana),
                                             R.drawable.ic_grass,
                                             0xFF84E680,
                                             0xFF1E5703
                                     ),
                             "nicotine_pouches" to
                                     AddictionInfo(
-                                            "Nicotine Pouches",
+                                            context.getString(R.string.addiction_nicotine_pouches),
                                             R.drawable.ic_scatter_plot,
                                             0xFFF59E0B,
                                             0xFFEF4444
                                     ),
                             "opioids" to
                                     AddictionInfo(
-                                            "Opioids",
+                                            context.getString(R.string.addiction_opioids),
                                             R.drawable.ic_medication,
                                             0xFFEC4899,
                                             0xFFBE185D
                                     ),
                             "social_media" to
                                     AddictionInfo(
-                                            "Social Media",
+                                            context.getString(R.string.addiction_social_media),
                                             R.drawable.ic_public,
                                             0xFF8B5CF6,
                                             0xFF7C3AED
                                     ),
                             "pornography" to
                                     AddictionInfo(
-                                            "Adult content",
+                                            context.getString(R.string.addiction_pornography),
                                             R.drawable.ic_block,
                                             0xFFF43F5E,
                                             0xFFE11D48
@@ -138,8 +138,8 @@ class QuitTrackerWidget : AppWidgetProvider() {
                 val entriesJson = prefs.getString("flutter.entries", null)
                 if (entriesJson == null) {
                     Log.w(TAG, "No entries found in SharedPreferences")
-                    views.setTextViewText(R.id.widget_title, "Unknown")
-                    views.setTextViewText(R.id.widget_days, "Error")
+                    views.setTextViewText(R.id.widget_title, context.getString(R.string.widget_unknown))
+                    views.setTextViewText(R.id.widget_days, context.getString(R.string.widget_error))
                 } else {
                     val jsonArray = JSONArray(entriesJson)
                     for (i in 0 until jsonArray.length()) {
@@ -149,7 +149,8 @@ class QuitTrackerWidget : AppWidgetProvider() {
                         val title = entryObject.getString("title")
                         quitDate = entryObject.getString("quitDate")
                         val days = daysCeil(quitDate)
-                        val widgetText = "$days ${if (days == 1) "day" else "days"}"
+                        val daysText = if (days == 1) context.getString(R.string.widget_day_singular) else context.getString(R.string.widget_day_plural)
+                        val widgetText = "$days $daysText"
                         Log.d(TAG, "Updated widget with custom entry: $title, $days days")
                         views.setTextViewText(R.id.widget_title, title)
                         views.setTextViewText(R.id.widget_days, widgetText)
@@ -166,7 +167,7 @@ class QuitTrackerWidget : AppWidgetProvider() {
 
             if (quitDate == null) {
                 Log.w(TAG, "No quit date found for key: flutter.$selectedAddiction")
-                views.setTextViewText(R.id.widget_days, "Not set")
+                views.setTextViewText(R.id.widget_days, context.getString(R.string.widget_not_set))
                 val allKeys = prefs.all.keys
                 Log.d(TAG, "Available SharedPreferences keys: ${allKeys.joinToString(", ")}")
                 views.setOnClickPendingIntent(R.id.widget_container, pendingSelect)
@@ -176,7 +177,8 @@ class QuitTrackerWidget : AppWidgetProvider() {
             Log.d(TAG, "Found quit date for $selectedAddiction: $quitDate")
             var days = daysCeil(quitDate)
             if (days == 0) days = 1
-            val widgetText = "$days ${if (days == 1) "day" else "days"}"
+            val daysText = if (days == 1) context.getString(R.string.widget_day_singular) else context.getString(R.string.widget_day_plural)
+            val widgetText = "$days $daysText"
             Log.d(TAG, "Calculated days: $days for quit date: $quitDate")
             views.setTextViewText(R.id.widget_days, widgetText)
             views.setOnClickPendingIntent(R.id.widget_container, mainPendingIntent)
