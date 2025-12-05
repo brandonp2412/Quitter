@@ -6,6 +6,8 @@
     "tabSettings": "设置",
     "homeAddButton": "添加",
     "homeAddTooltip": "创建自定义戒瘾项目",
+    "quitStartButton": "开始",
+    "quitResetButton": "重置",
     "quitCardSubtitle": "点击开始",
     "newVersionToast": "新版本 {version}",
     "changesAction": "变更",

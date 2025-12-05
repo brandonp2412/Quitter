@@ -136,6 +136,18 @@ abstract class AppLocalizations {
   /// **'Create your own custom addiction to quit'**
   String get homeAddTooltip;
 
+  /// Floating action button label on quit page (start button)
+  ///
+  /// In en, this message translates to:
+  /// **'Start'**
+  String get quitStartButton;
+
+  /// Floating action button label on quit page (reset button)
+  ///
+  /// In en, this message translates to:
+  /// **'Start'**
+  String get quitResetButton;
+
   /// Prompt displayed on the quit card
   ///
   /// In en, this message translates to:

@@ -27,6 +27,12 @@ class AppLocalizationsJa extends AppLocalizations {
   String get homeAddTooltip => '独自のカスタム依存を作成して克服しましょう';
 
   @override
+  String get quitStartButton => 'Start';
+
+  @override
+  String get quitResetButton => 'Start';
+
+  @override
   String get quitCardSubtitle => 'Tap to start';
 
   @override

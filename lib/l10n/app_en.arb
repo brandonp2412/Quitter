@@ -31,6 +31,16 @@
     "description": "Tooltip for the add custom addiction button"
   },
 
+  "quitStartButton": "Start",
+  "@quitStartButton": {
+    "description": "Floating action button label on quit page (start button)"
+  },
+
+  "quitResetButton": "Start",
+  "@quitResetButton": {
+    "description": "Floating action button label on quit page (reset button)"
+  },
+
   "quitCardSubtitle": "Tap to start",
   "@quitCardSubtitle": {
     "description": "Prompt displayed on the quit card"
