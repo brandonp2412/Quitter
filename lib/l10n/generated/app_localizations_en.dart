@@ -132,6 +132,24 @@ class AppLocalizationsEn extends AppLocalizations {
   String get settingsColorScheme => 'Color scheme';
 
   @override
+  String get settingsDynamicColorScheme => 'Dynamic colors';
+
+  @override
+  String get settingsBlueColorScheme => 'Blue';
+
+  @override
+  String get settingsGreenColorScheme => 'Green';
+
+  @override
+  String get settingsRedColorScheme => 'Red';
+
+  @override
+  String get settingsPurpleColorScheme => 'Purple';
+
+  @override
+  String get settingsOrangeColorScheme => 'Orange';
+
+  @override
   String get settingsResetButtons => 'Reset buttons';
 
   @override

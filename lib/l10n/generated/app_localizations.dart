@@ -334,6 +334,42 @@ abstract class AppLocalizations {
   /// **'Color scheme'**
   String get settingsColorScheme;
 
+  /// Use the dynamic color scheme from Material 3
+  ///
+  /// In en, this message translates to:
+  /// **'Dynamic colors'**
+  String get settingsDynamicColorScheme;
+
+  /// Use the blue-based color scheme.
+  ///
+  /// In en, this message translates to:
+  /// **'Blue'**
+  String get settingsBlueColorScheme;
+
+  /// Use the green-based color scheme.
+  ///
+  /// In en, this message translates to:
+  /// **'Green'**
+  String get settingsGreenColorScheme;
+
+  /// Use the red-based color scheme.
+  ///
+  /// In en, this message translates to:
+  /// **'Red'**
+  String get settingsRedColorScheme;
+
+  /// Use the purple-based color scheme.
+  ///
+  /// In en, this message translates to:
+  /// **'Purple'**
+  String get settingsPurpleColorScheme;
+
+  /// Use the orange-based color scheme.
+  ///
+  /// In en, this message translates to:
+  /// **'Orange'**
+  String get settingsOrangeColorScheme;
+
   /// Setting title for reset buttons visibility
   ///
   /// In en, this message translates to:

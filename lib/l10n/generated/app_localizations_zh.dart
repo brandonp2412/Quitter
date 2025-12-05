@@ -132,6 +132,24 @@ class AppLocalizationsZh extends AppLocalizations {
   String get settingsColorScheme => '配色方案';
 
   @override
+  String get settingsDynamicColorScheme => '动态';
+
+  @override
+  String get settingsBlueColorScheme => '蓝色';
+
+  @override
+  String get settingsGreenColorScheme => '绿色';
+
+  @override
+  String get settingsRedColorScheme => '红色';
+
+  @override
+  String get settingsPurpleColorScheme => '紫色';
+
+  @override
+  String get settingsOrangeColorScheme => '橙色';
+
+  @override
   String get settingsResetButtons => '重置按钮';
 
   @override

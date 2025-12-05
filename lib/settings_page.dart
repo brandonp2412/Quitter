@@ -333,7 +333,7 @@ class _SettingsPageState extends State<SettingsPage> {
       ListTile(
         leading: const Icon(Icons.palette),
         title: Text(l10n.settingsColorScheme),
-        subtitle: Text(AppScheme.getName(settings.colorSchemeType)),
+        subtitle: Text(AppScheme.getName(settings.colorSchemeType, l10n)),
         onTap: () => _showColorDialog(context, settings),
       ),
       const Divider(height: 1),
@@ -734,7 +734,7 @@ class _SettingsPageState extends State<SettingsPage> {
       title: l10n.settingsColorScheme,
       currentValue: settings.colorSchemeType,
       options: ColorSchemeType.values,
-      getDisplayName: AppScheme.getName,
+      getDisplayName:(type) => AppScheme.getName(type, l10n),
       onChanged: (value) => settings.colorSchemeType = value,
     );
   }

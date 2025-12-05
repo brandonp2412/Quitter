@@ -212,6 +212,36 @@
     "description": "Setting title for color scheme selection"
   },
 
+  "settingsDynamicColorScheme": "Dynamic colors",
+  "@settingsDynamicColorScheme": {
+    "description": "Use the dynamic color scheme from Material 3"
+  },
+
+  "settingsBlueColorScheme": "Blue",
+  "@settingsBlueColorScheme": {
+    "description": "Use the blue-based color scheme."
+  },
+
+  "settingsGreenColorScheme": "Green",
+  "@settingsGreenColorScheme": {
+    "description": "Use the green-based color scheme."
+  },
+
+  "settingsRedColorScheme": "Red",
+  "@settingsRedColorScheme": {
+    "description": "Use the red-based color scheme."
+  },
+
+  "settingsPurpleColorScheme": "Purple",
+  "@settingsPurpleColorScheme": {
+    "description": "Use the purple-based color scheme."
+  },
+
+  "settingsOrangeColorScheme": "Orange",
+  "@settingsOrangeColorScheme": {
+    "description": "Use the orange-based color scheme."
+  },
+
   "settingsResetButtons": "Reset buttons",
   "@settingsResetButtons": {
     "description": "Setting title for reset buttons visibility"
