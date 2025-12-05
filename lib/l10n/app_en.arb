@@ -46,6 +46,17 @@
     "description": "Prompt displayed on the quit card"
   },
 
+  "quitCardKeepDays": "{days, plural, =1 { day} other { days}}",
+  "@quitCardKeepDays": {
+    "description": "Kepp days on Quit card",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "description": "Number of days"
+      }
+    }
+  },
+
   "newVersionToast": "New version {version}",
   "@newVersionToast": {
     "description": "Toast message shown when app is updated",
@@ -834,7 +845,7 @@
     "description": "Page title for alcohol tracking"
   },
 
-  "alcoholPageQuitDateDisplay": "{quitDate} ({days} days)",
+  "alcoholPageQuitDateDisplay": "{quitDate} ({days, plural, =1 {{days} day} other {{days} days}})",
   "@alcoholPageQuitDateDisplay": {
     "description": "Display quit date with elapsed days.",
     "placeholders": {

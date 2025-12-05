@@ -301,7 +301,7 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
       fab = FloatingActionButton.extended(
         key: const ValueKey('start_fab'),
         onPressed: _handleStartPressed,
-        label:  Text(AppLocalizations.of(context)?.quitStartButton ?? "Start"),
+        label: Text(AppLocalizations.of(context)?.quitStartButton ?? "Start"),
         icon: const Icon(Icons.rocket_launch),
       );
     } else {

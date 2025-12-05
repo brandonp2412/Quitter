@@ -36,6 +36,17 @@ class AppLocalizationsJa extends AppLocalizations {
   String get quitCardSubtitle => 'Tap to start';
 
   @override
+  String quitCardKeepDays(int days) {
+    String _temp0 = intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
+      other: ' days',
+      one: ' day',
+    );
+    return '$_temp0';
+  }
+
+  @override
   String newVersionToast(String version) {
     return '新しいバージョン $version';
   }
@@ -498,7 +509,13 @@ class AppLocalizationsJa extends AppLocalizations {
     );
     final String quitDateString = quitDateDateFormat.format(quitDate);
 
-    return '$quitDateString ($days days)';
+    String _temp0 = intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
+      other: '$days days',
+      one: '$days day',
+    );
+    return '$quitDateString ($_temp0)';
   }
 
   @override

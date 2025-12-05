@@ -154,6 +154,12 @@ abstract class AppLocalizations {
   /// **'Tap to start'**
   String get quitCardSubtitle;
 
+  /// Kepp days on Quit card
+  ///
+  /// In en, this message translates to:
+  /// **'{days, plural, =1 { day} other { days}}'**
+  String quitCardKeepDays(int days);
+
   /// Toast message shown when app is updated
   ///
   /// In en, this message translates to:
@@ -1033,7 +1039,7 @@ abstract class AppLocalizations {
   /// Display quit date with elapsed days.
   ///
   /// In en, this message translates to:
-  /// **'{quitDate} ({days} days)'**
+  /// **'{quitDate} ({days, plural, =1 {{days} day} other {{days} days}})'**
   String alcoholPageQuitDateDisplay(DateTime quitDate, int days);
 
   /// Header for started alcohol quit journey

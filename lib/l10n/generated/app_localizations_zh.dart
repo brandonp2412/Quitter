@@ -36,6 +36,11 @@ class AppLocalizationsZh extends AppLocalizations {
   String get quitCardSubtitle => '点击开始';
 
   @override
+  String quitCardKeepDays(int days) {
+    return ' 天';
+  }
+
+  @override
   String newVersionToast(String version) {
     return '新版本 $version';
   }

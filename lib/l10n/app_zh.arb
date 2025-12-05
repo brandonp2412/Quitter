@@ -9,6 +9,7 @@
     "quitStartButton": "开始",
     "quitResetButton": "重置",
     "quitCardSubtitle": "点击开始",
+    "quitCardKeepDays": " 天",
     "newVersionToast": "新版本 {version}",
     "changesAction": "变更",
     "hideDialogTitle": "隐藏 {title}?",
