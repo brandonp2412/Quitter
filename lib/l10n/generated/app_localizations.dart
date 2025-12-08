@@ -7,6 +7,7 @@ import 'package:intl/intl.dart' as intl;
 
 import 'app_localizations_en.dart';
 import 'app_localizations_ja.dart';
+import 'app_localizations_zh.dart';
 
 // ignore_for_file: type=lint
 
@@ -96,6 +97,7 @@ abstract class AppLocalizations {
   static const List<Locale> supportedLocales = <Locale>[
     Locale('en'),
     Locale('ja'),
+    Locale('zh'),
   ];
 
   /// The main application title
@@ -139,6 +141,30 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Create your own custom addiction to quit'**
   String get homeAddTooltip;
+
+  /// Floating action button label on quit page (start button)
+  ///
+  /// In en, this message translates to:
+  /// **'Start'**
+  String get quitStartButton;
+
+  /// Floating action button label on quit page (reset button)
+  ///
+  /// In en, this message translates to:
+  /// **'Start'**
+  String get quitResetButton;
+
+  /// Prompt displayed on the quit card
+  ///
+  /// In en, this message translates to:
+  /// **'Tap to start'**
+  String get quitCardSubtitle;
+
+  /// Kepp days on Quit card
+  ///
+  /// In en, this message translates to:
+  /// **'{days, plural, =1 { day} other { days}}'**
+  String quitCardKeepDays(int days);
 
   /// Toast message shown when app is updated
   ///
@@ -217,6 +243,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'English'**
   String get settingsLocaleEnglish;
+
+  /// Show app in Simplified Chinese
+  ///
+  /// In en, this message translates to:
+  /// **'Chinese'**
+  String get settingsLocaleSimplifiedChinese;
 
   /// Follows the device locale
   ///
@@ -331,6 +363,42 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Color scheme'**
   String get settingsColorScheme;
+
+  /// Use the dynamic color scheme from Material 3
+  ///
+  /// In en, this message translates to:
+  /// **'Dynamic colors'**
+  String get settingsDynamicColorScheme;
+
+  /// Use the blue-based color scheme.
+  ///
+  /// In en, this message translates to:
+  /// **'Blue'**
+  String get settingsBlueColorScheme;
+
+  /// Use the green-based color scheme.
+  ///
+  /// In en, this message translates to:
+  /// **'Green'**
+  String get settingsGreenColorScheme;
+
+  /// Use the red-based color scheme.
+  ///
+  /// In en, this message translates to:
+  /// **'Red'**
+  String get settingsRedColorScheme;
+
+  /// Use the purple-based color scheme.
+  ///
+  /// In en, this message translates to:
+  /// **'Purple'**
+  String get settingsPurpleColorScheme;
+
+  /// Use the orange-based color scheme.
+  ///
+  /// In en, this message translates to:
+  /// **'Orange'**
+  String get settingsOrangeColorScheme;
 
   /// Setting title for reset buttons visibility
   ///
@@ -973,6 +1041,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Sober & sparkling'**
   String get alcoholPageTitle;
+
+  /// Display quit date with elapsed days.
+  ///
+  /// In en, this message translates to:
+  /// **'{quitDate} ({days, plural, =1 {{days} day} other {{days} days}})'**
+  String alcoholPageQuitDateDisplay(DateTime quitDate, int days);
 
   /// Header for started alcohol quit journey
   ///
@@ -2330,7 +2404,7 @@ class _AppLocalizationsDelegate
 
   @override
   bool isSupported(Locale locale) =>
-      <String>['en', 'ja'].contains(locale.languageCode);
+      <String>['en', 'ja', 'zh'].contains(locale.languageCode);
 
   @override
   bool shouldReload(_AppLocalizationsDelegate old) => false;
@@ -2343,6 +2417,8 @@ AppLocalizations lookupAppLocalizations(Locale locale) {
       return AppLocalizationsEn();
     case 'ja':
       return AppLocalizationsJa();
+    case 'zh':
+      return AppLocalizationsZh();
   }
 
   throw FlutterError(

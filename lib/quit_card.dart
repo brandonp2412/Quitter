@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
+import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:quitter/utils.dart';
 
 class QuitCard extends StatelessWidget {
@@ -100,7 +101,11 @@ class QuitCard extends StatelessWidget {
                           children: [
                             TextSpan(text: '$days'),
                             TextSpan(
-                              text: days == 1 ? ' day' : ' days',
+                              text:
+                                  AppLocalizations.of(
+                                    context,
+                                  )?.quitCardKeepDays(days) ??
+                                  (days == 1 ? ' day' : ' days'),
                               style: Theme.of(context).textTheme.bodyLarge
                                   ?.copyWith(
                                     color: Theme.of(context)
@@ -114,7 +119,8 @@ class QuitCard extends StatelessWidget {
                       ),
                     ] else ...[
                       Text(
-                        'Tap to start',
+                        AppLocalizations.of(context)?.quitCardSubtitle ??
+                            'Tap to start',
                         style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                           color: Theme.of(
                             context,
@@ -138,7 +144,9 @@ class QuitCard extends StatelessWidget {
                           borderRadius: BorderRadius.circular(8),
                         ),
                         child: Text(
-                          DateFormat.yMMMd().format(DateTime.parse(quitDate!)),
+                          DateFormat.yMMMd(
+                            AppLocalizations.of(context)?.localeName,
+                          ).format(DateTime.parse(quitDate!)),
                           style: Theme.of(context).textTheme.bodySmall
                               ?.copyWith(
                                 color: Theme.of(context).colorScheme.primary,

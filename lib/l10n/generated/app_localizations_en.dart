@@ -30,6 +30,26 @@ class AppLocalizationsEn extends AppLocalizations {
   String get homeAddTooltip => 'Create your own custom addiction to quit';
 
   @override
+  String get quitStartButton => 'Start';
+
+  @override
+  String get quitResetButton => 'Start';
+
+  @override
+  String get quitCardSubtitle => 'Tap to start';
+
+  @override
+  String quitCardKeepDays(int days) {
+    String _temp0 = intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
+      other: ' days',
+      one: ' day',
+    );
+    return '$_temp0';
+  }
+
+  @override
   String newVersionToast(String version) {
     return 'New version $version';
   }
@@ -73,6 +93,9 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get settingsLocaleEnglish => 'English';
+
+  @override
+  String get settingsLocaleSimplifiedChinese => 'Chinese';
 
   @override
   String get settingsLocaleSystem => 'System';
@@ -130,6 +153,24 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get settingsColorScheme => 'Color scheme';
+
+  @override
+  String get settingsDynamicColorScheme => 'Dynamic colors';
+
+  @override
+  String get settingsBlueColorScheme => 'Blue';
+
+  @override
+  String get settingsGreenColorScheme => 'Green';
+
+  @override
+  String get settingsRedColorScheme => 'Red';
+
+  @override
+  String get settingsPurpleColorScheme => 'Purple';
+
+  @override
+  String get settingsOrangeColorScheme => 'Orange';
 
   @override
   String get settingsResetButtons => 'Reset buttons';
@@ -474,6 +515,22 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get alcoholPageTitle => 'Sober & sparkling';
+
+  @override
+  String alcoholPageQuitDateDisplay(DateTime quitDate, int days) {
+    final intl.DateFormat quitDateDateFormat = intl.DateFormat.yMMMd(
+      localeName,
+    );
+    final String quitDateString = quitDateDateFormat.format(quitDate);
+
+    String _temp0 = intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
+      other: '$days days',
+      one: '$days day',
+    );
+    return '$quitDateString ($_temp0)';
+  }
 
   @override
   String get alcoholHeaderStarted => 'Cheers to you!';

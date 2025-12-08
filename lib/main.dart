@@ -139,7 +139,7 @@ class _QuitterAppState extends State<QuitterApp>
                 GlobalWidgetsLocalizations.delegate,
                 GlobalCupertinoLocalizations.delegate,
               ],
-              supportedLocales: const [Locale('en'), Locale('ja')],
+              supportedLocales: const [Locale('en'), Locale('ja'), Locale('zh')],
               themeMode: settings.themeMode.toThemeMode(),
               theme: ThemeData(
                 colorScheme: lightColorScheme,

@@ -30,6 +30,26 @@ class AppLocalizationsJa extends AppLocalizations {
   String get homeAddTooltip => '独自のカスタム依存を作成して克服しましょう';
 
   @override
+  String get quitStartButton => 'Start';
+
+  @override
+  String get quitResetButton => 'Start';
+
+  @override
+  String get quitCardSubtitle => 'Tap to start';
+
+  @override
+  String quitCardKeepDays(int days) {
+    String _temp0 = intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
+      other: ' days',
+      one: ' day',
+    );
+    return '$_temp0';
+  }
+
+  @override
   String newVersionToast(String version) {
     return '新しいバージョン $version';
   }
@@ -73,6 +93,9 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get settingsLocaleEnglish => 'English';
+
+  @override
+  String get settingsLocaleSimplifiedChinese => 'Chinese';
 
   @override
   String get settingsLocaleSystem => 'System';
@@ -130,6 +153,24 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get settingsColorScheme => '配色';
+
+  @override
+  String get settingsDynamicColorScheme => 'Dynamic colors';
+
+  @override
+  String get settingsBlueColorScheme => 'Blue';
+
+  @override
+  String get settingsGreenColorScheme => 'Green';
+
+  @override
+  String get settingsRedColorScheme => 'Red';
+
+  @override
+  String get settingsPurpleColorScheme => 'Purple';
+
+  @override
+  String get settingsOrangeColorScheme => 'Orange';
 
   @override
   String get settingsResetButtons => 'リセットボタン';
@@ -463,6 +504,22 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get alcoholPageTitle => 'お酒のない輝く日々';
+
+  @override
+  String alcoholPageQuitDateDisplay(DateTime quitDate, int days) {
+    final intl.DateFormat quitDateDateFormat = intl.DateFormat.yMMMd(
+      localeName,
+    );
+    final String quitDateString = quitDateDateFormat.format(quitDate);
+
+    String _temp0 = intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
+      other: '$days days',
+      one: '$days day',
+    );
+    return '$quitDateString ($_temp0)';
+  }
 
   @override
   String get alcoholHeaderStarted => 'よく頑張りました!';

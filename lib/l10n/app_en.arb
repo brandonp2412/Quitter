@@ -36,6 +36,32 @@
     "description": "Tooltip for the add custom addiction button"
   },
 
+  "quitStartButton": "Start",
+  "@quitStartButton": {
+    "description": "Floating action button label on quit page (start button)"
+  },
+
+  "quitResetButton": "Start",
+  "@quitResetButton": {
+    "description": "Floating action button label on quit page (reset button)"
+  },
+
+  "quitCardSubtitle": "Tap to start",
+  "@quitCardSubtitle": {
+    "description": "Prompt displayed on the quit card"
+  },
+
+  "quitCardKeepDays": "{days, plural, =1 { day} other { days}}",
+  "@quitCardKeepDays": {
+    "description": "Kepp days on Quit card",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "description": "Number of days"
+      }
+    }
+  },
+
   "newVersionToast": "New version {version}",
   "@newVersionToast": {
     "description": "Toast message shown when app is updated",
@@ -114,6 +140,11 @@
   "settingsLocaleEnglish": "English",
   "@settingsLocaleEnglish": {
     "description": "Show app in English"
+  },
+
+  "settingsLocaleSimplifiedChinese": "Chinese",
+  "@settingsLocaleSimplifiedChinese": {
+    "description": "Show app in Simplified Chinese"
   },
 
   "settingsLocaleSystem": "System",
@@ -210,6 +241,36 @@
   "settingsColorScheme": "Color scheme",
   "@settingsColorScheme": {
     "description": "Setting title for color scheme selection"
+  },
+
+  "settingsDynamicColorScheme": "Dynamic colors",
+  "@settingsDynamicColorScheme": {
+    "description": "Use the dynamic color scheme from Material 3"
+  },
+
+  "settingsBlueColorScheme": "Blue",
+  "@settingsBlueColorScheme": {
+    "description": "Use the blue-based color scheme."
+  },
+
+  "settingsGreenColorScheme": "Green",
+  "@settingsGreenColorScheme": {
+    "description": "Use the green-based color scheme."
+  },
+
+  "settingsRedColorScheme": "Red",
+  "@settingsRedColorScheme": {
+    "description": "Use the red-based color scheme."
+  },
+
+  "settingsPurpleColorScheme": "Purple",
+  "@settingsPurpleColorScheme": {
+    "description": "Use the purple-based color scheme."
+  },
+
+  "settingsOrangeColorScheme": "Orange",
+  "@settingsOrangeColorScheme": {
+    "description": "Use the orange-based color scheme."
   },
 
   "settingsResetButtons": "Reset buttons",
@@ -787,6 +848,22 @@
   "alcoholPageTitle": "Sober & sparkling",
   "@alcoholPageTitle": {
     "description": "Page title for alcohol tracking"
+  },
+
+  "alcoholPageQuitDateDisplay": "{quitDate} ({days, plural, =1 {{days} day} other {{days} days}})",
+  "@alcoholPageQuitDateDisplay": {
+    "description": "Display quit date with elapsed days.",
+    "placeholders": {
+      "quitDate": {
+        "type": "DateTime",
+        "format": "yMMMd",
+        "description": "Quit date"
+      },
+      "days": {
+        "type": "int",
+        "description": "Number of days since the quit date"
+      }
+    }
   },
 
   "alcoholHeaderStarted": "Cheers to you!",

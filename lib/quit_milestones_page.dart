@@ -70,9 +70,6 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
       started = widget.initialStarted;
     });
 
-    controller.text =
-        '${DateFormat.yMMMd().format(quitDate)} (${daysCeil(quitDate.toIso8601String())} days)';
-
     if (started) {
       final currentDayFromQuitOn = daysCeil(quitDate.toIso8601String());
       final index = widget.milestones.indexWhere(
@@ -84,10 +81,25 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
   }
 
   @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    _updateQuitDate(quitDate);
+  }
+
+  @override
   void dispose() {
     controller.dispose();
     _scroll.dispose();
     super.dispose();
+  }
+
+  void _updateQuitDate(DateTime quitDate) {
+    if (!mounted) return;
+    final l10n = AppLocalizations.of(context);
+    final days = daysCeil(quitDate.toIso8601String());
+    controller.text =
+        l10n?.alcoholPageQuitDateDisplay(quitDate, days) ??
+        '${DateFormat.yMMMd().format(quitDate)} ($days days)';
   }
 
   void _handleStartPressed() async {
@@ -154,8 +166,7 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
       quitDate = date;
       started = true;
     });
-    controller.text =
-        '${DateFormat.yMMMd().format(quitDate)} (${daysCeil(quitDate.toIso8601String())} days)';
+    _updateQuitDate(quitDate);
 
     if (!mounted) return;
     if (widget.onQuitDateChanged != null) {
@@ -291,7 +302,7 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
       fab = FloatingActionButton.extended(
         key: const ValueKey('start_fab'),
         onPressed: _handleStartPressed,
-        label: Text(l10n.start),
+        label: Text(AppLocalizations.of(context)?.quitStartButton ?? "Start"),
         icon: const Icon(Icons.rocket_launch),
       );
     } else {
@@ -308,8 +319,7 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
             quitDate = DateTime.now();
           });
 
-          controller.text =
-              '${DateFormat.yMMMd().format(quitDate)} (${daysCeil(quitDate.toIso8601String())} days)';
+          _updateQuitDate(quitDate);
 
           final settings = context.read<SettingsProvider>();
           if (settings.notifyRelapse == false) return;
@@ -329,14 +339,13 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
                   setState(() {
                     quitDate = quit;
                   });
-                controller.text =
-                    '${DateFormat.yMMMd().format(quitDate)} (${daysCeil(quitDate.toIso8601String())} days)';
+                _updateQuitDate(quitDate);
                 addictions.popDays(widget.storageKey);
               },
             ),
           );
         },
-        label: Text(l10n.quitMilestonesReset),
+        label: Text(AppLocalizations.of(context)?.quitResetButton ?? "Reset"),
         icon: const Icon(Icons.restart_alt),
       );
     }
