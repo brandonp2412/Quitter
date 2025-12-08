@@ -1,0 +1,2 @@
+• feat: add chinese(sc) translation
+• Fix toasts never dismissing
