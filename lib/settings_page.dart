@@ -734,7 +734,7 @@ class _SettingsPageState extends State<SettingsPage> {
       title: l10n.settingsColorScheme,
       currentValue: settings.colorSchemeType,
       options: ColorSchemeType.values,
-      getDisplayName:(type) => AppScheme.getName(type, l10n),
+      getDisplayName: (type) => AppScheme.getName(type, l10n),
       onChanged: (value) => settings.colorSchemeType = value,
     );
   }
