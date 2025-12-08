@@ -6,6 +6,11 @@
     "description": "The main application title"
   },
 
+  "start": "Start",
+  "@tabQuitter": {
+    "description": "The start button for beginning a quitting journey."
+  },
+
   "tabQuitter": "Quitter",
   "@tabQuitter": {
     "description": "Tab label for the main Quitter tab"

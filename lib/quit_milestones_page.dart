@@ -5,6 +5,7 @@ import 'package:permission_handler/permission_handler.dart';
 import 'package:provider/provider.dart';
 import 'package:quitter/addiction_provider.dart';
 import 'package:quitter/confetti_widget.dart';
+import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:quitter/quit_milestone.dart';
 import 'package:quitter/settings_provider.dart';
 import 'package:quitter/timeline_tile.dart';
@@ -283,13 +284,14 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
     final settings = context.watch<SettingsProvider>();
     final addictions = context.watch<AddictionProvider>();
     final days = daysCeil(quitDate.toIso8601String());
+    final l10n = AppLocalizations.of(context)!;
 
     Widget? fab;
     if (started == false) {
       fab = FloatingActionButton.extended(
         key: const ValueKey('start_fab'),
         onPressed: _handleStartPressed,
-        label: const Text("Start"),
+        label: Text(l10n.start),
         icon: const Icon(Icons.rocket_launch),
       );
     } else {
@@ -316,16 +318,17 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
           toast(
             message,
             action: SnackBarAction(
-              label: 'Undo',
+              label: l10n.undo,
               onPressed: () {
                 addictions.setAddiction(
                   widget.storageKey,
                   quit.toIso8601String(),
                 );
 
-                setState(() {
-                  quitDate = quit;
-                });
+                if (mounted)
+                  setState(() {
+                    quitDate = quit;
+                  });
                 controller.text =
                     '${DateFormat.yMMMd().format(quitDate)} (${daysCeil(quitDate.toIso8601String())} days)';
                 addictions.popDays(widget.storageKey);
@@ -333,7 +336,7 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
             ),
           );
         },
-        label: const Text("Reset"),
+        label: Text(l10n.quitMilestonesReset),
         icon: const Icon(Icons.restart_alt),
       );
     }

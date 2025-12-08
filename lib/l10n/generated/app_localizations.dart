@@ -104,6 +104,12 @@ abstract class AppLocalizations {
   /// **'Quitter'**
   String get appTitle;
 
+  /// No description provided for @start.
+  ///
+  /// In en, this message translates to:
+  /// **'Start'**
+  String get start;
+
   /// Tab label for the main Quitter tab
   ///
   /// In en, this message translates to:

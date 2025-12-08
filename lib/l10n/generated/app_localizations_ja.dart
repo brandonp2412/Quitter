@@ -12,6 +12,9 @@ class AppLocalizationsJa extends AppLocalizations {
   String get appTitle => 'Quitter';
 
   @override
+  String get start => 'Start';
+
+  @override
   String get tabQuitter => 'Quitter';
 
   @override
