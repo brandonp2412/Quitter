@@ -236,29 +236,7 @@ jobs:
 
       - name: Publish to Microsoft Store
         run: |
-          msstore publish --inputDirectory build/windows/x64/runner/Release --appId 9PKVZWDG3FGC --packageRolloutPercentage 100
-
-      - name: Azure CLI Login
-        run: |
-          az login --service-principal --username ${{ secrets.AZURE_CLIENT_ID }} --password ${{ secrets.AZURE_CLIENT_SECRET }} --tenant ${{ secrets.AZURE_TENANT_ID }} --allow-no-subscriptions
-
-      - name: Get Pending Submission
-        id: get_submission
-        run: |
-          $token = (az account get-access-token --resource https://manage.devcenter.microsoft.com --query accessToken -o tsv)
-          $headers = @{Authorization = "Bearer $token"}
-          $app = Invoke-RestMethod -Uri "https://manage.devcenter.microsoft.com/v1.0/my/applications/9PKVZWDG3FGC" -Headers $headers
-          $submissionId = $app.pendingApplicationSubmission.id
-          echo "SUBMISSION_ID=$submissionId" >> $env:GITHUB_ENV
-
-      - name: Finalize Package Rollout
-        run: |
-          $token = (az account get-access-token --resource https://manage.devcenter.microsoft.com --query accessToken -o tsv)
-          $headers = @{
-            Authorization = "Bearer $token"
-            "Content-Type" = "application/json"
-          }
-          Invoke-RestMethod -Method Post -Uri "https://manage.devcenter.microsoft.com/v1.0/my/applications/9PKVZWDG3FGC/submissions/$env:SUBMISSION_ID/finalizepackagerollout" -Headers $headers -Body "{}"
+          msstore publish --inputDirectory build/windows/x64/runner/Release --appId 9PKVZWDG3FGC
 
   deploy-google-play:
     needs: [get-version-info, build-android]
