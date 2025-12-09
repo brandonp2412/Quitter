@@ -2,15 +2,10 @@ project_id_env: CROWDIN_PROJECT_ID
 api_token_env: CROWDIN_PERSONAL_TOKEN
 
 files:
-  # Flutter ARB files
   - source: /lib/l10n/app_en.arb
     translation: /lib/l10n/app_%locale_with_underscore%.arb
-    languages_mapping:
-      locale_with_underscore:
-        zh_CN: zh_CN
-        ja: ja
+    update_option: update_as_unapproved
   
-  # Fastlane metadata for F-Droid/Play Store
   - source: /fastlane/metadata/android/en-US/*.txt
     translation: /fastlane/metadata/android/%locale%/%original_file_name%
     update_option: update_as_unapproved
