@@ -1,5 +1,7 @@
 name: Crowdin Sync
 on:
+  schedule:
+    - cron: '0 0 * * 0'  # Every Sunday at midnight UTC
   push:
     paths:
       - 'lib/l10n/app_en.arb'
