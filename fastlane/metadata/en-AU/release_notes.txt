@@ -1,2 +1,2 @@
-• feat: add chinese(sc) translation
-• Fix toasts never dismissing
+• Add themed app icon support
+• Remove rollout stuff from CI/CD

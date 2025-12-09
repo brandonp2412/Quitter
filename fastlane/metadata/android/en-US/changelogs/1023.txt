@@ -1,0 +1,1 @@
+• Add themed app icon support
