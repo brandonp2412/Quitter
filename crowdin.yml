@@ -9,6 +9,7 @@ files:
   - source: /fastlane/metadata/android/en-US/*.txt
     translation: /fastlane/metadata/android/%locale%/%original_file_name%
     update_option: update_as_unapproved
+    skip_untranslated_files: true
     ignore:
       - /**/keywords.txt
       - /**/video.txt
