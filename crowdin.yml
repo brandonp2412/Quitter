@@ -6,9 +6,6 @@ files:
     translation: /lib/l10n/app_%locale_with_underscore%.arb
     update_option: update_as_unapproved
     skip_untranslated_files: true
-    excluded_target_languages:
-      - en
-      - en-US
     languages_mapping:
       locale_with_underscore:
         ja: ja
@@ -18,9 +15,6 @@ files:
     translation: /fastlane/metadata/android/%locale%/%original_file_name%
     update_option: update_as_unapproved
     skip_untranslated_files: true
-    excluded_target_languages:
-      - en
-      - en-US
     ignore:
       - /**/keywords.txt
       - /**/video.txt
