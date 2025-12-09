@@ -236,7 +236,7 @@ jobs:
 
       - name: Publish to Microsoft Store
         run: |
-          msstore publish --inputDirectory build/windows/x64/runner/Release --appId 9PKVZWDG3FGC
+          msstore publish --inputDirectory build/windows/x64/runner/Release --appId 9PKVZWDG3FGC || true
 
   deploy-google-play:
     needs: [get-version-info, build-android]
