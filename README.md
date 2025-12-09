@@ -34,6 +34,12 @@ Record your quitting journey with a Free and Open Source app.
     <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/8_en-US.png" height="600" alt="The journal page showing how to log your thoughts & feelings for the day">
 </p>
 
+# Translations
+
+Quitter uses [Crowdin](https://crowdin.com/project/quitter) for it's translations. If you're interested in contributing, please click the badge below.
+
+<a href="https://crowdin.com/project/quitter" rel="nofollow"><img style="width:140;height:40px" src="https://badges.crowdin.net/badge/dark/crowdin-on-light.png" srcset="https://badges.crowdin.net/badge/dark/crowdin-on-light.png 1x,https://badges.crowdin.net/badge/dark/crowdin-on-light@2x.png 2x"  alt="Crowdin | Agile localization for tech companies" /></a>
+
 # Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.

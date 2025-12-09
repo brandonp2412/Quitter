@@ -1,0 +1,41 @@
+name: Crowdin Sync
+on:
+  push:
+    paths:
+      - 'lib/l10n/app_en.arb'
+      - 'fastlane/metadata/android/en-US/*.txt'
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+      
+      - uses: crowdin/github-action@v2
+        with:
+          upload_sources: true
+          download_translations: true
+          create_pull_request: true
+          pull_request_title: 'New translations from Crowdin'
+          localization_branch_name: l10n_crowdin
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+      
+      - name: Generate l10n files
+        run: flutter gen-l10n
+        
+      - name: Commit generated files
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "Generate l10n files" || echo "No changes to commit"
+          git push
