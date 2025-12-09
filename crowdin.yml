@@ -5,7 +5,6 @@ files:
   - source: /lib/l10n/app_en.arb
     translation: /lib/l10n/app_%locale_with_underscore%.arb
     update_option: update_as_unapproved
-    skip_untranslated_files: true
     languages_mapping:
       locale_with_underscore:
         ja: ja
