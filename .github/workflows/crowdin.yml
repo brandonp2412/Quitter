@@ -1,19 +1,25 @@
 name: Crowdin Sync
 on:
-  schedule:
-    - cron: '0 0 * * 0'  # Every Sunday at midnight UTC
   push:
     paths:
       - 'lib/l10n/app_en.arb'
       - 'fastlane/metadata/android/en-US/*.txt'
     branches: [main]
   workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * 0'
+
+permissions:
+  contents: write
+  pull-requests: write
 
 jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       
       - uses: subosito/flutter-action@v2
         with:
@@ -31,6 +37,9 @@ jobs:
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
           CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
       
+      - name: Checkout the branch Crowdin created
+        run: git checkout l10n_crowdin
+        
       - name: Generate l10n files
         run: flutter gen-l10n
         
@@ -39,5 +48,5 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add .
-          git commit -m "Generate l10n files" || echo "No changes to commit"
-          git push
+          git diff --staged --quiet || git commit -m "Generate l10n files"
+          git push origin l10n_crowdin
