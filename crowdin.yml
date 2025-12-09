@@ -9,6 +9,10 @@ files:
     excluded_target_languages:
       - en
       - en-US
+    languages_mapping:
+      locale_with_underscore:
+        ja: ja
+        zh-CN: zh_CN
   
   - source: /fastlane/metadata/android/en-US/*.txt
     translation: /fastlane/metadata/android/%locale%/%original_file_name%
