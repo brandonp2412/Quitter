@@ -6,7 +6,7 @@ files:
     translation: /lib/l10n/app_%two_letters_code%.arb
     update_option: update_as_unapproved
     languages_mapping:
-      locale_with_underscore:
+      two_letters_code:
         zh-CN: zh
         en-US: en
   
