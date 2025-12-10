@@ -1,5 +1,5 @@
 {
-  "@@locale": "zh-CN",
+  "@@locale": "en",
   "appTitle": "Quitter",
   "@appTitle": {
     "description": "The main application title"
@@ -8,32 +8,32 @@
   "@tabQuitter": {
     "description": "Tab label for the main Quitter tab"
   },
-  "tabQuitter": "戒瘾",
-  "tabJournal": "日记",
+  "tabQuitter": "Quitter",
+  "tabJournal": "Journal",
   "@tabJournal": {
     "description": "Tab label for the Journal tab"
   },
-  "tabSettings": "设置",
+  "tabSettings": "Settings",
   "@tabSettings": {
     "description": "Tab label for the Settings tab"
   },
-  "homeAddButton": "添加",
+  "homeAddButton": "Add",
   "@homeAddButton": {
     "description": "Floating action button label on home page"
   },
-  "homeAddTooltip": "创建自定义戒瘾项目",
+  "homeAddTooltip": "Create your own custom addiction to quit",
   "@homeAddTooltip": {
     "description": "Tooltip for the add custom addiction button"
   },
-  "quitStartButton": "开始",
+  "quitStartButton": "Start",
   "@quitStartButton": {
     "description": "Floating action button label on quit page (start button)"
   },
-  "quitResetButton": "重置",
+  "quitResetButton": "Start",
   "@quitResetButton": {
     "description": "Floating action button label on quit page (reset button)"
   },
-  "quitCardSubtitle": "点击开始",
+  "quitCardSubtitle": "Tap to start",
   "@quitCardSubtitle": {
     "description": "Prompt displayed on the quit card"
   },
@@ -47,7 +47,7 @@
       }
     }
   },
-  "newVersionToast": "新版本 {version}",
+  "newVersionToast": "New version {version}",
   "@newVersionToast": {
     "description": "Toast message shown when app is updated",
     "placeholders": {
@@ -56,11 +56,11 @@
       }
     }
   },
-  "changesAction": "变更",
+  "changesAction": "Changes",
   "@changesAction": {
     "description": "Action button text to view changelog"
   },
-  "hideDialogTitle": "隐藏 {title}?",
+  "hideDialogTitle": "Hide {title}?",
   "@hideDialogTitle": {
     "description": "Title for hide addiction confirmation dialog",
     "placeholders": {
@@ -69,7 +69,7 @@
       }
     }
   },
-  "hideDialogMessage": "这将从主屏幕隐藏 {title} 选项。您可以在设置中再次显示它。",
+  "hideDialogMessage": "This will hide the {title} option from your home screen. You can show it again in Settings.",
   "@hideDialogMessage": {
     "description": "Message explaining what hiding an addiction does",
     "placeholders": {
@@ -78,107 +78,107 @@
       }
     }
   },
-  "cancel": "取消",
+  "cancel": "Cancel",
   "@cancel": {
     "description": "Cancel button text used throughout the app"
   },
-  "hide": "隐藏",
+  "hide": "Hide",
   "@hide": {
     "description": "Hide button text in hide addiction dialog"
   },
-  "addictionAlcohol": "酒精",
+  "addictionAlcohol": "Alcohol",
   "@addictionAlcohol": {
     "description": "Name of the alcohol addiction type"
   },
-  "addictionVaping": "电子烟",
+  "addictionVaping": "Vaping",
   "@addictionVaping": {
     "description": "Name of the vaping addiction type"
   },
-  "addictionSmoking": "吸烟",
+  "addictionSmoking": "Smoking",
   "@addictionSmoking": {
     "description": "Name of the smoking addiction type"
   },
-  "addictionMarijuana": "大麻",
+  "addictionMarijuana": "Marijuana",
   "@addictionMarijuana": {
     "description": "Name of the marijuana addiction type"
   },
-  "settingsLocaleUnsupported": "不支持",
+  "settingsLocaleUnsupported": "Unsupported",
   "@settingsLocaleUnsupported": {
     "description": "An error occurred. This setting is not supported."
   },
-  "settingsLocaleJapanese": "日语",
+  "settingsLocaleJapanese": "Japanese",
   "@settingsLocaleJapanese": {
     "description": "Show app in Japanese"
   },
-  "settingsLocaleEnglish": "英语",
+  "settingsLocaleEnglish": "English",
   "@settingsLocaleEnglish": {
     "description": "Show app in English"
   },
-  "settingsLocaleSimplifiedChinese": "简体中文",
+  "settingsLocaleSimplifiedChinese": "Chinese",
   "@settingsLocaleSimplifiedChinese": {
     "description": "Show app in Simplified Chinese"
   },
-  "settingsLocaleSystem": "跟随系统",
+  "settingsLocaleSystem": "System",
   "@settingsLocaleSystem": {
     "description": "Follows the device locale"
   },
-  "settingsLocale": "语言",
+  "settingsLocale": "Locale",
   "@settingsLocale": {
     "description": "Language for the text in Quitter"
   },
-  "addictionNicotinePouches": "尼古丁袋",
+  "addictionNicotinePouches": "Nicotine pouches",
   "@addictionNicotinePouches": {
     "description": "Name of the nicotine pouches addiction type"
   },
-  "addictionOpioids": "阿片类药物",
+  "addictionOpioids": "Opioids",
   "@addictionOpioids": {
     "description": "Name of the opioids addiction type"
   },
-  "addictionSocialMedia": "社交媒体",
+  "addictionSocialMedia": "Social Media",
   "@addictionSocialMedia": {
     "description": "Name of the social media addiction type"
   },
-  "addictionAC": "成人内容",
+  "addictionAC": "AC",
   "@addictionAC": {
     "description": "Short name for adult content addiction (displayed as AC)"
   },
-  "addictionAdultContent": "成人内容",
+  "addictionAdultContent": "Adult content",
   "@addictionAdultContent": {
     "description": "Full name for adult content addiction (used in settings)"
   },
-  "settingsSearchHint": "搜索...",
+  "settingsSearchHint": "Search...",
   "@settingsSearchHint": {
     "description": "Hint text for settings search bar"
   },
-  "settingsSectionAppearance": "外观",
+  "settingsSectionAppearance": "Appearance",
   "@settingsSectionAppearance": {
     "description": "Section header for appearance settings"
   },
-  "settingsSectionSecurity": "安全",
+  "settingsSectionSecurity": "Security",
   "@settingsSectionSecurity": {
     "description": "Section header for security settings"
   },
-  "settingsSectionMainScreenItems": "主屏幕项目",
+  "settingsSectionMainScreenItems": "Main Screen Items",
   "@settingsSectionMainScreenItems": {
     "description": "Section header for main screen items settings"
   },
-  "settingsSectionNotifications": "通知",
+  "settingsSectionNotifications": "Notifications",
   "@settingsSectionNotifications": {
     "description": "Section header for notification settings"
   },
-  "settingsSectionSystem": "系统",
+  "settingsSectionSystem": "System",
   "@settingsSectionSystem": {
     "description": "Section header for system settings"
   },
-  "settingsPinLock": "PIN 锁定",
+  "settingsPinLock": "PIN lock",
   "@settingsPinLock": {
     "description": "Setting title for PIN lock feature"
   },
-  "settingsPinLockSubtitle": "打开应用需要 PIN 码",
+  "settingsPinLockSubtitle": "Require PIN to open app",
   "@settingsPinLockSubtitle": {
     "description": "Subtitle explaining PIN lock setting"
   },
-  "settingsPinTimeout": "PIN 超时 (秒)",
+  "settingsPinTimeout": "PIN timeout (seconds)",
   "@settingsPinTimeout": {
     "description": "Label for PIN timeout setting"
   },
@@ -186,99 +186,99 @@
   "@settingsPinTimeoutHint": {
     "description": "Hint text for PIN timeout field"
   },
-  "settingsTheme": "主题",
+  "settingsTheme": "Theme",
   "@settingsTheme": {
     "description": "Setting title for theme selection"
   },
-  "settingsColorScheme": "配色方案",
+  "settingsColorScheme": "Color scheme",
   "@settingsColorScheme": {
     "description": "Setting title for color scheme selection"
   },
-  "settingsDynamicColorScheme": "动态",
+  "settingsDynamicColorScheme": "Dynamic colors",
   "@settingsDynamicColorScheme": {
     "description": "Use the dynamic color scheme from Material 3"
   },
-  "settingsBlueColorScheme": "蓝色",
+  "settingsBlueColorScheme": "Blue",
   "@settingsBlueColorScheme": {
     "description": "Use the blue-based color scheme."
   },
-  "settingsGreenColorScheme": "绿色",
+  "settingsGreenColorScheme": "Green",
   "@settingsGreenColorScheme": {
     "description": "Use the green-based color scheme."
   },
-  "settingsRedColorScheme": "红色",
+  "settingsRedColorScheme": "Red",
   "@settingsRedColorScheme": {
     "description": "Use the red-based color scheme."
   },
-  "settingsPurpleColorScheme": "紫色",
+  "settingsPurpleColorScheme": "Purple",
   "@settingsPurpleColorScheme": {
     "description": "Use the purple-based color scheme."
   },
-  "settingsOrangeColorScheme": "橙色",
+  "settingsOrangeColorScheme": "Orange",
   "@settingsOrangeColorScheme": {
     "description": "Use the orange-based color scheme."
   },
-  "settingsResetButtons": "重置按钮",
+  "settingsResetButtons": "Reset buttons",
   "@settingsResetButtons": {
     "description": "Setting title for reset buttons visibility"
   },
-  "settingsResetButtonsSubtitle": "在戒瘾页面显示重置按钮",
+  "settingsResetButtonsSubtitle": "Show reset buttons on quit pages",
   "@settingsResetButtonsSubtitle": {
     "description": "Subtitle explaining reset buttons setting"
   },
-  "settingsShowJournal": "显示日记",
+  "settingsShowJournal": "Show journal",
   "@settingsShowJournal": {
     "description": "Setting title for journal visibility"
   },
-  "settingsShowJournalSubtitle": "启用日记标签页以记录您的想法",
+  "settingsShowJournalSubtitle": "Enable the journal tab for logging your thoughts",
   "@settingsShowJournalSubtitle": {
     "description": "Subtitle explaining show journal setting"
   },
-  "settingsSwipeBetweenTabs": "标签页之间滑动",
+  "settingsSwipeBetweenTabs": "Swipe between tabs",
   "@settingsSwipeBetweenTabs": {
     "description": "Setting title for swipe between tabs feature"
   },
-  "settingsSwipeBetweenTabsSubtitle": "手指滑动可在日记、主页和设置之间切换",
+  "settingsSwipeBetweenTabsSubtitle": "Dragging your finger moves between Journal, Homepage & Settings",
   "@settingsSwipeBetweenTabsSubtitle": {
     "description": "Subtitle explaining swipe between tabs setting"
   },
-  "settingsShowAlcoholTracking": "显示酒精追踪",
+  "settingsShowAlcoholTracking": "Show alcohol tracking",
   "@settingsShowAlcoholTracking": {
     "description": "Setting subtitle for showing alcohol tracking"
   },
-  "settingsShowVapingTracking": "显示电子烟追踪",
+  "settingsShowVapingTracking": "Show vaping tracking",
   "@settingsShowVapingTracking": {
     "description": "Setting subtitle for showing vaping tracking"
   },
-  "settingsShowSmokingTracking": "显示吸烟追踪",
+  "settingsShowSmokingTracking": "Show smoking tracking",
   "@settingsShowSmokingTracking": {
     "description": "Setting subtitle for showing smoking tracking"
   },
-  "settingsShowMarijuanaTracking": "显示大麻追踪",
+  "settingsShowMarijuanaTracking": "Show marijuana tracking",
   "@settingsShowMarijuanaTracking": {
     "description": "Setting subtitle for showing marijuana tracking"
   },
-  "settingsShowNicotinePouchesTracking": "显示尼古丁袋追踪",
+  "settingsShowNicotinePouchesTracking": "Show nicotine pouches tracking",
   "@settingsShowNicotinePouchesTracking": {
     "description": "Setting subtitle for showing nicotine pouches tracking"
   },
-  "settingsShowOpioidsTracking": "显示阿片类药物追踪",
+  "settingsShowOpioidsTracking": "Show opioids tracking",
   "@settingsShowOpioidsTracking": {
     "description": "Setting subtitle for showing opioids tracking"
   },
-  "settingsShowSocialMediaTracking": "显示社交媒体追踪",
+  "settingsShowSocialMediaTracking": "Show social media tracking",
   "@settingsShowSocialMediaTracking": {
     "description": "Setting subtitle for showing social media tracking"
   },
-  "settingsShowAdultContentTracking": "显示成人内容追踪",
+  "settingsShowAdultContentTracking": "Show adult content tracking",
   "@settingsShowAdultContentTracking": {
     "description": "Setting subtitle for showing adult content tracking"
   },
-  "settingsNotificationFrequency": "通知频率",
+  "settingsNotificationFrequency": "Notification frequency",
   "@settingsNotificationFrequency": {
     "description": "Setting title for notification frequency"
   },
-  "settingsNotificationFrequencySubtitle": "每 {days} 天 {time}",
+  "settingsNotificationFrequencySubtitle": "Every {days} day(s) at {time}",
   "@settingsNotificationFrequencySubtitle": {
     "description": "Subtitle showing notification frequency",
     "placeholders": {
@@ -290,111 +290,111 @@
       }
     }
   },
-  "settingsNotifyAlcohol": "通知戒酒进度",
+  "settingsNotifyAlcohol": "Notify alcohol quitting progress",
   "@settingsNotifyAlcohol": {
     "description": "Setting subtitle for alcohol notifications"
   },
-  "settingsNotifyVaping": "通知戒电子烟进度",
+  "settingsNotifyVaping": "Notify vaping quitting progress",
   "@settingsNotifyVaping": {
     "description": "Setting subtitle for vaping notifications"
   },
-  "settingsNotifySmoking": "通知戒烟进度",
+  "settingsNotifySmoking": "Notify smoking quitting progress",
   "@settingsNotifySmoking": {
     "description": "Setting subtitle for smoking notifications"
   },
-  "settingsNotifyMarijuana": "通知戒大麻进度",
+  "settingsNotifyMarijuana": "Notify marijuana quitting progress",
   "@settingsNotifyMarijuana": {
     "description": "Setting subtitle for marijuana notifications"
   },
-  "settingsNotifyNicotinePouches": "通知戒尼古丁袋进度",
+  "settingsNotifyNicotinePouches": "Notify nicotine pouches quitting progress",
   "@settingsNotifyNicotinePouches": {
     "description": "Setting subtitle for nicotine pouches notifications"
   },
-  "settingsNotifyOpioids": "通知戒阿片类药物进度",
+  "settingsNotifyOpioids": "Notify opioids quitting progress",
   "@settingsNotifyOpioids": {
     "description": "Setting subtitle for opioids notifications"
   },
-  "settingsNotifySocialMedia": "通知戒社交媒体进度",
+  "settingsNotifySocialMedia": "Notify social media quitting progress",
   "@settingsNotifySocialMedia": {
     "description": "Setting subtitle for social media notifications"
   },
-  "settingsNotifyAdultContent": "通知戒成人内容进度",
+  "settingsNotifyAdultContent": "Notify adult content quitting progress",
   "@settingsNotifyAdultContent": {
     "description": "Setting subtitle for adult content notifications"
   },
-  "settingsResetMessages": "重置消息",
+  "settingsResetMessages": "Reset messages",
   "@settingsResetMessages": {
     "description": "Setting title for reset messages"
   },
-  "settingsResetMessagesSubtitle": "复发后显示积极强化消息",
+  "settingsResetMessagesSubtitle": "Show positive reinforcement after relapses",
   "@settingsResetMessagesSubtitle": {
     "description": "Subtitle explaining reset messages setting"
   },
-  "settingsAbout": "关于",
+  "settingsAbout": "About",
   "@settingsAbout": {
     "description": "Setting title for about page"
   },
-  "settingsWhatsNew": "新功能",
+  "settingsWhatsNew": "What's new",
   "@settingsWhatsNew": {
     "description": "Setting title for what's new page"
   },
-  "settingsEnjoyingApp": "喜欢这个应用吗？",
+  "settingsEnjoyingApp": "Enjoying the app?",
   "@settingsEnjoyingApp": {
     "description": "Setting title for enjoying the app page"
   },
-  "settingsReportBug": "报告错误",
+  "settingsReportBug": "Report a bug",
   "@settingsReportBug": {
     "description": "Setting title for reporting a bug"
   },
-  "settingsExportData": "导出数据",
+  "settingsExportData": "Export data",
   "@settingsExportData": {
     "description": "Setting title for exporting data"
   },
-  "settingsImportData": "导入数据",
+  "settingsImportData": "Import data",
   "@settingsImportData": {
     "description": "Setting title for importing data"
   },
-  "settingsDeleteEverything": "删除所有数据",
+  "settingsDeleteEverything": "Delete everything",
   "@settingsDeleteEverything": {
     "description": "Setting title for deleting all data"
   },
-  "themeLight": "浅色",
+  "themeLight": "Light",
   "@themeLight": {
     "description": "Light theme option"
   },
-  "themeDark": "深色",
+  "themeDark": "Dark",
   "@themeDark": {
     "description": "Dark theme option"
   },
-  "themeSystem": "系统",
+  "themeSystem": "System",
   "@themeSystem": {
     "description": "System theme option"
   },
-  "themePureBlack": "纯黑",
+  "themePureBlack": "Pure black",
   "@themePureBlack": {
     "description": "Pure black theme option for OLED displays"
   },
-  "themeMode": "主题模式",
+  "themeMode": "Theme mode",
   "@themeMode": {
     "description": "Dialog title for theme mode selection"
   },
-  "pinDialogSetTitle": "设置 PIN",
+  "pinDialogSetTitle": "Set PIN",
   "@pinDialogSetTitle": {
     "description": "Dialog title for setting a PIN"
   },
-  "pinDialogEnterPIN": "输入 PIN",
+  "pinDialogEnterPIN": "Enter PIN",
   "@pinDialogEnterPIN": {
     "description": "Label for PIN entry field"
   },
-  "pinDialogConfirmPIN": "确认 PIN",
+  "pinDialogConfirmPIN": "Confirm PIN",
   "@pinDialogConfirmPIN": {
     "description": "Label for PIN confirmation field"
   },
-  "pinDialogSet": "设置",
+  "pinDialogSet": "Set",
   "@pinDialogSet": {
     "description": "Button to confirm setting PIN"
   },
-  "pinDialogPINsDoNotMatch": "PIN 不匹配",
+  "pinDialogPINsDoNotMatch": "PINs do not match",
   "@pinDialogPINsDoNotMatch": {
     "description": "Error message when PINs don't match"
   },
@@ -402,35 +402,35 @@
   "@pinDialogPIN": {
     "description": "Label for PIN field in verification dialog"
   },
-  "pinDialogOK": "确定",
+  "pinDialogOK": "OK",
   "@pinDialogOK": {
     "description": "OK button in PIN dialog"
   },
-  "notificationFrequencyDialogTitle": "通知频率",
+  "notificationFrequencyDialogTitle": "Notification frequency",
   "@notificationFrequencyDialogTitle": {
     "description": "Dialog title for notification frequency settings"
   },
-  "notificationFrequencyNotifyEvery": "通知间隔",
+  "notificationFrequencyNotifyEvery": "Notify every",
   "@notificationFrequencyNotifyEvery": {
     "description": "Label for notification frequency field"
   },
-  "notificationFrequencyDays": "天",
+  "notificationFrequencyDays": "day(s)",
   "@notificationFrequencyDays": {
     "description": "Suffix text for days in notification frequency"
   },
-  "notificationFrequencyAt": "时间",
+  "notificationFrequencyAt": "At",
   "@notificationFrequencyAt": {
     "description": "Label for notification time field"
   },
-  "notificationFrequencySave": "保存",
+  "notificationFrequencySave": "Save",
   "@notificationFrequencySave": {
     "description": "Save button in notification frequency dialog"
   },
-  "notificationTestTitle": "积极肯定",
+  "notificationTestTitle": "Positive affirmation",
   "@notificationTestTitle": {
     "description": "Title for test notification"
   },
-  "notificationTestBody": "您将每 {days} 天看到这样一条通知，祝贺您的进步！",
+  "notificationTestBody": "You will see a notification like this every {days} day{plural} congratulating you on your progress!",
   "@notificationTestBody": {
     "description": "Body text for test notification",
     "placeholders": {
@@ -442,35 +442,35 @@
       }
     }
   },
-  "deleteEverythingDialogTitle": "删除所有数据",
+  "deleteEverythingDialogTitle": "Delete everything",
   "@deleteEverythingDialogTitle": {
     "description": "Dialog title for delete everything confirmation"
   },
-  "deleteEverythingDialogMessage": "确定要删除所有数据吗？此操作无法撤销。",
+  "deleteEverythingDialogMessage": "Are you sure you delete everything? This action cannot be undone.",
   "@deleteEverythingDialogMessage": {
     "description": "Message warning about deleting all data"
   },
-  "deleteEverythingConfirm": "删除！",
+  "deleteEverythingConfirm": "DELETE!",
   "@deleteEverythingConfirm": {
     "description": "Button to confirm deleting everything"
   },
-  "dataExported": "数据已导出！",
+  "dataExported": "Data exported!",
   "@dataExported": {
     "description": "Toast message when data is exported successfully"
   },
-  "dataImported": "数据导入成功！",
+  "dataImported": "Data imported successfully!",
   "@dataImported": {
     "description": "Toast message when data is imported successfully"
   },
-  "journalHowWasYourDay": "今天过得怎么样？",
+  "journalHowWasYourDay": "How was your day?",
   "@journalHowWasYourDay": {
     "description": "Header text in journal entry section"
   },
-  "journalPlaceholder": "写下您的一天、想法、感受或任何您想记住的事情...",
+  "journalPlaceholder": "Write about your day, thoughts, feelings, or anything you want to remember...",
   "@journalPlaceholder": {
     "description": "Placeholder text for journal entry field"
   },
-  "journalWordCount": "{count} 字",
+  "journalWordCount": "{count} words",
   "@journalWordCount": {
     "description": "Word count display in journal",
     "placeholders": {
@@ -479,27 +479,27 @@
       }
     }
   },
-  "journalPreviousMonth": "上个月",
+  "journalPreviousMonth": "Previous Month",
   "@journalPreviousMonth": {
     "description": "Tooltip for previous month button in calendar"
   },
-  "journalNextMonth": "下个月",
+  "journalNextMonth": "Next Month",
   "@journalNextMonth": {
     "description": "Tooltip for next month button in calendar"
   },
-  "quitMilestonesStart": "开始",
+  "quitMilestonesStart": "Start",
   "@quitMilestonesStart": {
     "description": "Button to start quit journey"
   },
-  "quitMilestonesReset": "重置",
+  "quitMilestonesReset": "Reset",
   "@quitMilestonesReset": {
     "description": "Button to reset quit journey"
   },
-  "quitMilestonesQuitDate": "戒除日期",
+  "quitMilestonesQuitDate": "Quit date",
   "@quitMilestonesQuitDate": {
     "description": "Label for quit date field"
   },
-  "quitMilestonesClearTitle": "清除 {days} 天的里程碑？",
+  "quitMilestonesClearTitle": "Clear milestone for {days} days?",
   "@quitMilestonesClearTitle": {
     "description": "Dialog title for clearing milestone",
     "placeholders": {
@@ -508,7 +508,7 @@
       }
     }
   },
-  "quitMilestonesClearMessage": "这将清除您过去所有达到 {days} 天里程碑的记录。",
+  "quitMilestonesClearMessage": "This will clear all past times you achieved the {days} day milestone.",
   "@quitMilestonesClearMessage": {
     "description": "Message explaining what clearing a milestone does",
     "placeholders": {
@@ -517,11 +517,11 @@
       }
     }
   },
-  "quitMilestonesClear": "清除",
+  "quitMilestonesClear": "Clear",
   "@quitMilestonesClear": {
     "description": "Button to clear milestone"
   },
-  "quitMilestonesShareMessage": "我已经戒除 {title} {days} 天了！",
+  "quitMilestonesShareMessage": "I'm {days} day{plural} clean from {title}!",
   "@quitMilestonesShareMessage": {
     "description": "Message template for sharing progress",
     "placeholders": {
@@ -536,87 +536,87 @@
       }
     }
   },
-  "entryPageHeaderStarted": "更进一步",
+  "entryPageHeaderStarted": "One step stronger",
   "@entryPageHeaderStarted": {
     "description": "Header text for started custom entry"
   },
-  "entryPageHeaderNotStarted": "未开始",
+  "entryPageHeaderNotStarted": "Not started",
   "@entryPageHeaderNotStarted": {
     "description": "Header text for not started custom entry"
   },
-  "entryPageSubtitleStarted": "你做得很好！",
+  "entryPageSubtitleStarted": "You are doing great!",
   "@entryPageSubtitleStarted": {
     "description": "Subtitle text for started custom entry"
   },
-  "entryPageSubtitleNotStarted": "点击“开始”开启您的旅程",
+  "entryPageSubtitleNotStarted": "Tap \"Start\" to begin your journey",
   "@entryPageSubtitleNotStarted": {
     "description": "Subtitle text for not started custom entry"
   },
-  "editEntryAddTitle": "添加条目",
+  "editEntryAddTitle": "Add entry",
   "@editEntryAddTitle": {
     "description": "Page title when adding a new entry"
   },
-  "editEntryEditTitle": "编辑条目",
+  "editEntryEditTitle": "Edit entry",
   "@editEntryEditTitle": {
     "description": "Page title when editing an entry"
   },
-  "editEntryTitle": "标题",
+  "editEntryTitle": "Title",
   "@editEntryTitle": {
     "description": "Label for entry title field"
   },
-  "editEntryTitleError": "请输入标题",
+  "editEntryTitleError": "Please enter a title",
   "@editEntryTitleError": {
     "description": "Error message when title is empty"
   },
-  "editEntryColor": "颜色",
+  "editEntryColor": "Color",
   "@editEntryColor": {
     "description": "Label for color selection"
   },
-  "editEntryIcon": "图标",
+  "editEntryIcon": "Icon",
   "@editEntryIcon": {
     "description": "Label for icon selection"
   },
-  "editEntrySave": "保存",
+  "editEntrySave": "Save",
   "@editEntrySave": {
     "description": "Save button in edit entry page"
   },
-  "editEntryDeleteDialogTitle": "确定吗？",
+  "editEntryDeleteDialogTitle": "Are you sure?",
   "@editEntryDeleteDialogTitle": {
     "description": "Dialog title for delete entry confirmation"
   },
-  "editEntryDeleteDialogMessage": "您真的要删除此条目吗？",
+  "editEntryDeleteDialogMessage": "Do you really want to delete this entry?",
   "@editEntryDeleteDialogMessage": {
     "description": "Message asking for delete confirmation"
   },
-  "editEntryDeleteNo": "不",
+  "editEntryDeleteNo": "No",
   "@editEntryDeleteNo": {
     "description": "No button in delete dialog"
   },
-  "editEntryDeleteYes": "是",
+  "editEntryDeleteYes": "Yes",
   "@editEntryDeleteYes": {
     "description": "Yes button in delete dialog"
   },
-  "pinPageEnterPIN": "输入 PIN",
+  "pinPageEnterPIN": "Enter PIN",
   "@pinPageEnterPIN": {
     "description": "Title text on PIN entry page"
   },
-  "pinPageIncorrectPIN": "PIN 错误",
+  "pinPageIncorrectPIN": "Incorrect PIN",
   "@pinPageIncorrectPIN": {
     "description": "Error message for incorrect PIN"
   },
-  "pinPageTooManyAttempts": "尝试次数过多。请等待 30 秒。",
+  "pinPageTooManyAttempts": "Too many attempts. Wait 30 seconds.",
   "@pinPageTooManyAttempts": {
     "description": "Error message when too many failed PIN attempts"
   },
-  "aboutPageTitle": "关于",
+  "aboutPageTitle": "About",
   "@aboutPageTitle": {
     "description": "Title for about page"
   },
-  "aboutVersion": "版本",
+  "aboutVersion": "Version",
   "@aboutVersion": {
     "description": "Label for app version"
   },
-  "aboutAuthor": "作者",
+  "aboutAuthor": "Author",
   "@aboutAuthor": {
     "description": "Label for app author"
   },
@@ -624,7 +624,7 @@
   "@aboutAuthorName": {
     "description": "Name of the app author"
   },
-  "aboutLicense": "许可证",
+  "aboutLicense": "License",
   "@aboutLicense": {
     "description": "Label for app license"
   },
@@ -632,59 +632,59 @@
   "@aboutLicenseMIT": {
     "description": "License type"
   },
-  "aboutDonate": "捐赠",
+  "aboutDonate": "Donate",
   "@aboutDonate": {
     "description": "Label for donate option"
   },
-  "aboutDonateSubtitle": "帮助支持此项目",
+  "aboutDonateSubtitle": "Help support this project",
   "@aboutDonateSubtitle": {
     "description": "Subtitle for donate option"
   },
-  "aboutSourceCode": "源代码",
+  "aboutSourceCode": "Source code",
   "@aboutSourceCode": {
     "description": "Label for source code link"
   },
-  "whatsNewTitle": "新功能？",
+  "whatsNewTitle": "What's new?",
   "@whatsNewTitle": {
     "description": "Title for what's new page"
   },
-  "whatsNewSearchHint": "搜索...",
+  "whatsNewSearchHint": "Search...",
   "@whatsNewSearchHint": {
     "description": "Hint text for changelog search"
   },
-  "whatsNewEnjoyingButton": "喜欢这个应用吗？",
+  "whatsNewEnjoyingButton": "Enjoying the app?",
   "@whatsNewEnjoyingButton": {
     "description": "Button text to go to enjoying page from what's new"
   },
-  "enjoyingPageTitle": "喜欢这个应用吗？",
+  "enjoyingPageTitle": "Enjoying the app?",
   "@enjoyingPageTitle": {
     "description": "Title for enjoying the app page"
   },
-  "enjoyingLeaveReview": "留下评论",
+  "enjoyingLeaveReview": "Leave a review",
   "@enjoyingLeaveReview": {
     "description": "Option to leave a review"
   },
-  "enjoyingLeaveReviewSubtitle": "告诉我们您的想法！",
+  "enjoyingLeaveReviewSubtitle": "Let me know what you think!",
   "@enjoyingLeaveReviewSubtitle": {
     "description": "Subtitle for leave a review option"
   },
-  "enjoyingGiveStar": "给我们点星",
+  "enjoyingGiveStar": "Give us a star",
   "@enjoyingGiveStar": {
     "description": "Option to star on GitHub"
   },
-  "enjoyingGiveStarSubtitle": "在 GitHub 上支持我们",
+  "enjoyingGiveStarSubtitle": "Show your support on GitHub",
   "@enjoyingGiveStarSubtitle": {
     "description": "Subtitle for give star option"
   },
-  "enjoyingDonate": "捐赠",
+  "enjoyingDonate": "Donate",
   "@enjoyingDonate": {
     "description": "Option to donate"
   },
-  "enjoyingDonateSubtitle": "支持开发",
+  "enjoyingDonateSubtitle": "Support development",
   "@enjoyingDonateSubtitle": {
     "description": "Subtitle for donate option"
   },
-  "alcoholPageTitle": "清醒与闪耀",
+  "alcoholPageTitle": "Sober & sparkling",
   "@alcoholPageTitle": {
     "description": "Page title for alcohol tracking"
   },
@@ -703,899 +703,899 @@
       }
     }
   },
-  "alcoholHeaderStarted": "为你喝彩！",
+  "alcoholHeaderStarted": "Cheers to you!",
   "@alcoholHeaderStarted": {
     "description": "Header for started alcohol quit journey"
   },
-  "alcoholHeaderNotStarted": "清醒之旅就在前方！",
+  "alcoholHeaderNotStarted": "Sober journey ahead!",
   "@alcoholHeaderNotStarted": {
     "description": "Header for not started alcohol quit journey"
   },
-  "alcoholSubtitleStarted": "每一天都是胜利 🥳",
+  "alcoholSubtitleStarted": "Every day is a win 🥳",
   "@alcoholSubtitleStarted": {
     "description": "Subtitle for started alcohol quit journey"
   },
-  "alcoholSubtitleNotStarted": "准备好迎接更光明的自己了吗？ ✨",
+  "alcoholSubtitleNotStarted": "Ready for a brighter you? ✨",
   "@alcoholSubtitleNotStarted": {
     "description": "Subtitle for not started alcohol quit journey"
   },
-  "vapingPageTitle": "无烟胜利",
+  "vapingPageTitle": "Vape-free victory",
   "@vapingPageTitle": {
     "description": "Page title for vaping tracking"
   },
-  "vapingHeaderStarted": "前方晴空万里！",
+  "vapingHeaderStarted": "Clear skies ahead!",
   "@vapingHeaderStarted": {
     "description": "Header for started vaping quit journey"
   },
-  "vapingHeaderNotStarted": "无烟生活！",
+  "vapingHeaderNotStarted": "Vape-free living!",
   "@vapingHeaderNotStarted": {
     "description": "Header for not started vaping quit journey"
   },
-  "vapingSubtitleStarted": "呼吸顺畅，自由生活 🌬️",
+  "vapingSubtitleStarted": "Breathing easy, living free 🌬️",
   "@vapingSubtitleStarted": {
     "description": "Subtitle for started vaping quit journey"
   },
-  "vapingSubtitleNotStarted": "准备好戒掉电子烟了吗？ ✨",
+  "vapingSubtitleNotStarted": "Ready to ditch the vape? ✨",
   "@vapingSubtitleNotStarted": {
     "description": "Subtitle for not started vaping quit journey"
   },
-  "smokingPageTitle": "无烟飞翔",
+  "smokingPageTitle": "Smoke-free & soaring",
   "@smokingPageTitle": {
     "description": "Page title for smoking tracking"
   },
-  "smokingHeaderStarted": "呼吸顺畅！",
+  "smokingHeaderStarted": "Breathe easy!",
   "@smokingHeaderStarted": {
     "description": "Header for started smoking quit journey"
   },
-  "smokingHeaderNotStarted": "无烟之旅！",
+  "smokingHeaderNotStarted": "Smoke-free journey!",
   "@smokingHeaderNotStarted": {
     "description": "Header for not started smoking quit journey"
   },
-  "smokingSubtitleStarted": "每一天不吸烟都是胜利 🚭",
+  "smokingSubtitleStarted": "Every puff-free day is a win 🚭",
   "@smokingSubtitleStarted": {
     "description": "Subtitle for started smoking quit journey"
   },
-  "smokingSubtitleNotStarted": "准备好重获健康了吗？ ✨",
+  "smokingSubtitleNotStarted": "Ready to reclaim your health? ✨",
   "@smokingSubtitleNotStarted": {
     "description": "Subtitle for not started smoking quit journey"
   },
-  "marijuanaPageTitle": "无大麻之旅",
+  "marijuanaPageTitle": "Cannabis-free journey",
   "@marijuanaPageTitle": {
     "description": "Page title for marijuana tracking"
   },
-  "marijuanaHeaderStarted": "头脑清醒！",
+  "marijuanaHeaderStarted": "Clear mind rising!",
   "@marijuanaHeaderStarted": {
     "description": "Header for started marijuana quit journey"
   },
-  "marijuanaHeaderNotStarted": "无大麻生活！",
+  "marijuanaHeaderNotStarted": "Cannabis-free living!",
   "@marijuanaHeaderNotStarted": {
     "description": "Header for not started marijuana quit journey"
   },
-  "marijuanaSubtitleStarted": "建立清晰的头脑，一天接一天 🧠",
+  "marijuanaSubtitleStarted": "Building mental clarity, one day at a time 🧠",
   "@marijuanaSubtitleStarted": {
     "description": "Subtitle for started marijuana quit journey"
   },
-  "marijuanaSubtitleNotStarted": "准备好迎接更清晰的明天了吗？ 🌱",
+  "marijuanaSubtitleNotStarted": "Ready for a clearer tomorrow? 🌱",
   "@marijuanaSubtitleNotStarted": {
     "description": "Subtitle for not started marijuana quit journey"
   },
-  "nicotinePouchesPageTitle": "无袋力量",
+  "nicotinePouchesPageTitle": "Pouch-free Power",
   "@nicotinePouchesPageTitle": {
     "description": "Page title for nicotine pouches tracking"
   },
-  "nicotinePouchesHeaderStarted": "清新自由！",
+  "nicotinePouchesHeaderStarted": "Fresh & free!",
   "@nicotinePouchesHeaderStarted": {
     "description": "Header for started nicotine pouches quit journey"
   },
-  "nicotinePouchesHeaderNotStarted": "无袋进步！",
+  "nicotinePouchesHeaderNotStarted": "Pouch-free progress!",
   "@nicotinePouchesHeaderNotStarted": {
     "description": "Header for not started nicotine pouches quit journey"
   },
-  "nicotinePouchesSubtitleStarted": "拥抱更光明、更健康的自己 ✨",
+  "nicotinePouchesSubtitleStarted": "Embrace a brighter, healthier you ✨",
   "@nicotinePouchesSubtitleStarted": {
     "description": "Subtitle for started nicotine pouches quit journey"
   },
-  "nicotinePouchesSubtitleNotStarted": "准备好丢掉尼古丁袋了吗？ 🚀",
+  "nicotinePouchesSubtitleNotStarted": "Ready to ditch the pouches? 🚀",
   "@nicotinePouchesSubtitleNotStarted": {
     "description": "Subtitle for not started nicotine pouches quit journey"
   },
-  "opioidsPageTitle": "通往和平之路",
+  "opioidsPageTitle": "Path to peace",
   "@opioidsPageTitle": {
     "description": "Page title for opioids tracking"
   },
-  "opioidsHeaderStarted": "每天都在变强！",
+  "opioidsHeaderStarted": "Stronger every day!",
   "@opioidsHeaderStarted": {
     "description": "Header for started opioids quit journey"
   },
-  "opioidsHeaderNotStarted": "康复之路！",
+  "opioidsHeaderNotStarted": "Road to recovery!",
   "@opioidsHeaderNotStarted": {
     "description": "Header for not started opioids quit journey"
   },
-  "opioidsSubtitleStarted": "拥抱你的力量 💪",
+  "opioidsSubtitleStarted": "Embrace your strength 💪",
   "@opioidsSubtitleStarted": {
     "description": "Subtitle for started opioids quit journey"
   },
-  "opioidsSubtitleNotStarted": "准备好重获新生了吗？ 💖",
+  "opioidsSubtitleNotStarted": "Ready to reclaim your life? 💖",
   "@opioidsSubtitleNotStarted": {
     "description": "Subtitle for not started opioids quit journey"
   },
-  "opioidsInfoBox": "康复是一个医疗过程。请务必咨询医疗专业人员。",
+  "opioidsInfoBox": "Recovery is a medical process. Always consult healthcare professionals.",
   "@opioidsInfoBox": {
     "description": "Important information box message for opioids recovery"
   },
-  "socialMediaPageTitle": "数字排毒的快乐",
+  "socialMediaPageTitle": "Digital detox delight",
   "@socialMediaPageTitle": {
     "description": "Page title for social media tracking"
   },
-  "socialMediaHeaderStarted": "拔掉插头，尽情玩耍！",
+  "socialMediaHeaderStarted": "Unplug & play!",
   "@socialMediaHeaderStarted": {
     "description": "Header for started social media quit journey"
   },
-  "socialMediaHeaderNotStarted": "数字排毒之旅！",
+  "socialMediaHeaderNotStarted": "Digital detox journey!",
   "@socialMediaHeaderNotStarted": {
     "description": "Header for not started social media quit journey"
   },
-  "socialMediaSubtitleStarted": "现实生活是最好的动态 💖",
+  "socialMediaSubtitleStarted": "Real life is the best feed 💖",
   "@socialMediaSubtitleStarted": {
     "description": "Subtitle for started social media quit journey"
   },
-  "socialMediaSubtitleNotStarted": "准备好重获时间了吗？ 🚀",
+  "socialMediaSubtitleNotStarted": "Ready to reclaim your time? 🚀",
   "@socialMediaSubtitleNotStarted": {
     "description": "Subtitle for not started social media quit journey"
   },
-  "pornographyPageTitle": "纯净与强大",
+  "pornographyPageTitle": "Pure & powerful",
   "@pornographyPageTitle": {
     "description": "Page title for adult content tracking"
   },
-  "pornographyHeaderStarted": "重获思想！",
+  "pornographyHeaderStarted": "Reclaiming your mind!",
   "@pornographyHeaderStarted": {
     "description": "Header for started adult content quit journey"
   },
-  "pornographyHeaderNotStarted": "开始你的旅程！",
+  "pornographyHeaderNotStarted": "Start your journey!",
   "@pornographyHeaderNotStarted": {
     "description": "Header for not started adult content quit journey"
   },
-  "pornographySubtitleStarted": "建立真实的连接 🧠✨",
+  "pornographySubtitleStarted": "Building authentic connections 🧠✨",
   "@pornographySubtitleStarted": {
     "description": "Subtitle for started adult content quit journey"
   },
-  "pornographySubtitleNotStarted": "准备好挣脱束缚并重建自我了吗？ 💪",
+  "pornographySubtitleNotStarted": "Ready to break free and rebuild? 💪",
   "@pornographySubtitleNotStarted": {
     "description": "Subtitle for not started adult content quit journey"
   },
-  "relapseMessage1": "康复不是线性的。每一步前进都很重要，包括这一步。",
+  "relapseMessage1": "Recovery isn't linear. Every step forward matters, including this one.",
   "@relapseMessage1": {
     "description": "Encouragement message for relapse"
   },
-  "relapseMessage2": "你在这里，你在尝试，这需要真正的勇气。",
+  "relapseMessage2": "You're here, you're trying, and that takes real courage.",
   "@relapseMessage2": {
     "description": "Encouragement message for relapse"
   },
-  "relapseMessage3": "挫折不会抹去你的进步。你在学习和成长。",
+  "relapseMessage3": "Setbacks don't erase your progress. You're learning and growing.",
   "@relapseMessage3": {
     "description": "Encouragement message for relapse"
   },
-  "relapseMessage4": "每一次重新开始都是你力量的证明，而不是软弱的迹象。",
+  "relapseMessage4": "Each restart is proof of your strength, not a sign of weakness.",
   "@relapseMessage4": {
     "description": "Encouragement message for relapse"
   },
-  "relapseMessage5": "明天是一个新的开始。你能行的。",
+  "relapseMessage5": "Tomorrow is a fresh start. You've got this.",
   "@relapseMessage5": {
     "description": "Encouragement message for relapse"
   },
-  "relapseMessage6": "你的价值不是由完美的连胜定义的。你很重要。",
+  "relapseMessage6": "Your worth isn't defined by perfect streaks. You matter.",
   "@relapseMessage6": {
     "description": "Encouragement message for relapse"
   },
-  "relapseMessage7": "康复是一段有起有落的旅程。继续前行。",
+  "relapseMessage7": "Recovery is a journey with hills and valleys. Keep walking.",
   "@relapseMessage7": {
     "description": "Encouragement message for relapse"
   },
-  "relapseMessage8": "你以前有力量开始，现在你依然拥有。",
+  "relapseMessage8": "You had the strength to start before, and you have it again now.",
   "@relapseMessage8": {
     "description": "Encouragement message for relapse"
   },
-  "relapseMessage9": "一瞬间并不能定义你未来的整个旅程。",
+  "relapseMessage9": "One moment doesn't define your entire journey forward.",
   "@relapseMessage9": {
     "description": "Encouragement message for relapse"
   },
-  "relapseMessage10": "在这里表明你没有放弃。这很有力量。",
+  "relapseMessage10": "Being here shows you haven't given up. That's powerful.",
   "@relapseMessage10": {
     "description": "Encouragement message for relapse"
   },
-  "relapseMessage11": "进步不在于完美，而在于坚持。",
+  "relapseMessage11": "Progress isn't about perfection—it's about persistence.",
   "@relapseMessage11": {
     "description": "Encouragement message for relapse"
   },
-  "relapseMessage12": "每一次尝试都在建立韧性。继续建立。",
+  "relapseMessage12": "You're building resilience with every attempt. Keep building.",
   "@relapseMessage12": {
     "description": "Encouragement message for relapse"
   },
-  "relapseMessage13": "你再次尝试的承诺本身就是一种胜利。",
+  "relapseMessage13": "Your commitment to trying again is already a victory.",
   "@relapseMessage13": {
     "description": "Encouragement message for relapse"
   },
-  "relapseMessage14": "治愈不是瞬间的，而是伴随着你做出的每一个选择发生的。",
+  "relapseMessage14": "Healing isn't instant, but it's happening with each choice you make.",
   "@relapseMessage14": {
     "description": "Encouragement message for relapse"
   },
-  "relapseMessage15": "你不是从头开始——你是带着更多的智慧继续。",
+  "relapseMessage15": "You're not starting over—you're continuing with more wisdom.",
   "@relapseMessage15": {
     "description": "Encouragement message for relapse"
   },
-  "relapseMessage16": "每一位专家都曾是初学者。每一位职业选手都曾是业余爱好者。",
+  "relapseMessage16": "Every expert was once a beginner. Every pro was once an amateur.",
   "@relapseMessage16": {
     "description": "Encouragement message for relapse"
   },
-  "relapseMessage17": "康复是一天一天发生的，有时是一小时一小时发生的。",
+  "relapseMessage17": "Recovery happens one day at a time, sometimes one hour at a time.",
   "@relapseMessage17": {
     "description": "Encouragement message for relapse"
   },
-  "relapseMessage18": "你正在书写一个东山再起的故事。这只是其中一章。",
+  "relapseMessage18": "You're writing a comeback story. This is just one chapter.",
   "@relapseMessage18": {
     "description": "Encouragement message for relapse"
   },
-  "relapseMessage19": "你在这里这一事实意味着你在乎自己。坚持住。",
+  "relapseMessage19": "The fact that you're here means you care about yourself. Hold onto that.",
   "@relapseMessage19": {
     "description": "Encouragement message for relapse"
   },
-  "relapseMessage20": "朝着正确方向迈出的一小步仍然是前进。",
+  "relapseMessage20": "Small steps in the right direction are still steps forward.",
   "@relapseMessage20": {
     "description": "Encouragement message for relapse"
   },
-  "undo": "撤销",
+  "undo": "Undo",
   "@undo": {
     "description": "Undo button text in reset snackbar"
   },
-  "ok": "确定",
+  "ok": "OK",
   "@ok": {
     "description": "OK button text used in toast messages"
   },
-  "alcoholMilestone1Title": "睡眠质量开始改善",
+  "alcoholMilestone1Title": "Sleep Quality Begins to Improve",
   "@alcoholMilestone1Title": {
     "description": "Alcohol milestone day 1 title"
   },
-  "alcoholMilestone1Description": "您的快速眼动睡眠周期在第一天内开始正常化。虽然酒精最初可能帮助您入睡，但它会扰乱整晚的深度睡眠和快速眼动周期，导致睡眠碎片化。",
+  "alcoholMilestone1Description": "Your REM sleep cycles start to normalize within the first day. While alcohol might help you fall asleep initially, it disrupts deep sleep and REM cycles throughout the night, causing fragmented sleep.",
   "@alcoholMilestone1Description": {
     "description": "Alcohol milestone day 1 description"
   },
-  "alcoholMilestone3Title": "水分水平恢复",
+  "alcoholMilestone3Title": "Hydration Levels Restore",
   "@alcoholMilestone3Title": {
     "description": "Alcohol milestone day 3 title"
   },
-  "alcoholMilestone3Description": "您的肾脏正在从酒精的利尿作用中恢复。酒精会抑制抗利尿激素，导致排尿增加和脱水。到第3天，您体内的液体平衡将显著改善。",
+  "alcoholMilestone3Description": "Your kidneys are recovering from alcohol's diuretic effects. Alcohol suppresses antidiuretic hormone, leading to increased urination and dehydration. By day 3, your body's fluid balance is improving significantly.",
   "@alcoholMilestone3Description": {
     "description": "Alcohol milestone day 3 description"
   },
-  "alcoholMilestone7Title": "免疫系统增强",
+  "alcoholMilestone7Title": "Immune System Strengthens",
   "@alcoholMilestone7Title": {
     "description": "Alcohol milestone day 7 title"
   },
-  "alcoholMilestone7Description": "您的白细胞正在恢复其功能。即使是一次大量饮酒也会损害免疫功能长达24小时，而长期饮酒会严重削弱身体抵抗感染的能力。",
+  "alcoholMilestone7Description": "Your white blood cells are recovering their function. Even a single bout of heavy drinking can impair immune function for up to 24 hours, and chronic drinking significantly weakens your body's ability to fight infections.",
   "@alcoholMilestone7Description": {
     "description": "Alcohol milestone day 7 description"
   },
-  "alcoholMilestone14Title": "脑容量开始恢复",
+  "alcoholMilestone14Title": "Brain Volume Recovery Begins",
   "@alcoholMilestone14Title": {
     "description": "Alcohol milestone day 14 title"
   },
-  "alcoholMilestone14Description": "在戒酒的前两周内，脑容量开始迅速恢复。研究表明，脑组织恢复的迹象始于14天左右，尽管完全的认知功能会在数月内持续改善。",
+  "alcoholMilestone14Description": "Rapid recovery of brain volume begins within the first two weeks of abstinence. Research shows evidence of brain tissue recovery starting around 14 days, though full cognitive function continues improving over months.",
   "@alcoholMilestone14Description": {
     "description": "Alcohol milestone day 14 description"
   },
-  "alcoholMilestone30Title": "血压正常化",
+  "alcoholMilestone30Title": "Blood Pressure Normalizes",
   "@alcoholMilestone30Title": {
     "description": "Alcohol milestone day 30 title"
   },
-  "alcoholMilestone30Description": "您的心血管系统显示出显著改善。经常饮酒会升高血压，但戒酒一个月左右有助于将血压恢复到更健康的水平。",
+  "alcoholMilestone30Description": "Your cardiovascular system shows significant improvement. Regular alcohol consumption elevates blood pressure, but abstinence for about a month can help bring blood pressure back to healthier levels.",
   "@alcoholMilestone30Description": {
     "description": "Alcohol milestone day 30 description"
   },
-  "alcoholMilestone60Title": "肝功能改善",
+  "alcoholMilestone60Title": "Liver Function Improves",
   "@alcoholMilestone60Title": {
     "description": "Alcohol milestone day 60 title"
   },
-  "alcoholMilestone60Description": "您的肝功能显示出可测量的改善。这个再生器官可以从酒精引起的损伤中显著恢复，肝酶和脂肪堆积在戒酒2个月内显示出改善。",
+  "alcoholMilestone60Description": "Your liver shows measurable improvement in function. This regenerative organ can recover significantly from alcohol-induced damage, with liver enzymes and fat accumulation showing improvement within 2 months of abstinence.",
   "@alcoholMilestone60Description": {
     "description": "Alcohol milestone day 60 description"
   },
-  "alcoholMilestone90Title": "认知功能显著改善",
+  "alcoholMilestone90Title": "Cognitive Function Substantially Improves",
   "@alcoholMilestone90Title": {
     "description": "Alcohol milestone day 90 title"
   },
-  "alcoholMilestone90Description": "在前3个月内发生显著的认知恢复。研究表明，保持戒酒的人在几个月内认知功能继续恢复，记忆力、注意力和决策能力有可测量的改善。",
+  "alcoholMilestone90Description": "Significant cognitive recovery occurs over the first 3 months. Studies show people who maintain abstinence continue to recover cognitive function over several months, with measurable improvements in memory, concentration, and decision-making.",
   "@alcoholMilestone90Description": {
     "description": "Alcohol milestone day 90 description"
   },
-  "alcoholMilestone180Title": "脑容量和功能继续恢复",
+  "alcoholMilestone180Title": "Brain Volume and Function Continue Recovery",
   "@alcoholMilestone180Title": {
     "description": "Alcohol milestone day 180 title"
   },
-  "alcoholMilestone180Description": "六个月的清醒允许持续的神经恢复。研究表明，在这段持续戒酒期间，脑容量继续增加，认知能力继续显著提高。",
+  "alcoholMilestone180Description": "Six months of sobriety allows for continued neural recovery. Research indicates that brain volume continues to increase and cognitive abilities continue improving significantly during this period of sustained abstinence.",
   "@alcoholMilestone180Description": {
     "description": "Alcohol milestone day 180 description"
   },
-  "alcoholMilestone365Title": "癌症风险可能开始降低",
+  "alcoholMilestone365Title": "Cancer Risk Reduction May Begin",
   "@alcoholMilestone365Title": {
     "description": "Alcohol milestone day 365 title"
   },
-  "alcoholMilestone365Description": "戒酒一年可能开始降低癌症风险。虽然酒精明显增加几种癌症（肝癌、乳腺癌、结直肠癌、食道癌）的风险，但关于风险降低时间表的研究仍在进行中，并因癌症类型而异。",
+  "alcoholMilestone365Description": "One year of abstinence may begin to reduce cancer risk. While alcohol clearly increases risk for several cancers (liver, breast, colorectal, esophageal), research on risk reduction timeline is still emerging and varies by cancer type.",
   "@alcoholMilestone365Description": {
     "description": "Alcohol milestone day 365 description"
   },
-  "smokingMilestone1Title": "一氧化碳清除",
+  "smokingMilestone1Title": "Carbon Monoxide Clears",
   "@smokingMilestone1Title": {
     "description": "Smoking milestone day 1 title"
   },
-  "smokingMilestone1Description": "您的血液再次呼吸了！在24小时内，一氧化碳水平降至正常，氧气水平增加。您的心脏不再需要加班加点地将中毒的血液泵送到全身。",
+  "smokingMilestone1Description": "Your blood is breathing again! Within 24 hours, carbon monoxide levels drop to normal and oxygen levels increase. Your heart doesn't have to work overtime anymore to pump poisoned blood around your body.",
   "@smokingMilestone1Description": {
     "description": "Smoking milestone day 1 description"
   },
-  "smokingMilestone3Title": "尼古丁戒断达到顶峰",
+  "smokingMilestone3Title": "Nicotine Withdrawal Peaks",
   "@smokingMilestone3Title": {
     "description": "Smoking milestone day 3 title"
   },
-  "smokingMilestone3Description": "尼古丁怪兽最愤怒的时候，但您正在赢得战斗！所有尼古丁都已离开您的系统。最强烈的渴望现在发生，但它们也是您通往另一边自由的门票。",
+  "smokingMilestone3Description": "The nicotine monster is at its angriest, but you're winning the battle! All nicotine has left your system. The worst cravings happen now, but they're also your ticket to freedom on the other side.",
   "@smokingMilestone3Description": {
     "description": "Smoking milestone day 3 description"
   },
-  "smokingMilestone7Title": "味觉和嗅觉显著改善",
+  "smokingMilestone7Title": "Taste & Smell Dramatically Improve",
   "@smokingMilestone7Title": {
     "description": "Smoking milestone day 7 title"
   },
-  "smokingMilestone7Description": "食物将再次成为一种冒险！吸烟会破坏味蕾和嗅觉受体。一周后，您正在重新发现您忘记存在的味道。准备好认真欣赏食物吧！",
+  "smokingMilestone7Description": "Food is about to become an adventure again! Smoking destroys taste buds and smell receptors. One week in, and you're rediscovering flavors you forgot existed. Prepare for some serious food appreciation!",
   "@smokingMilestone7Description": {
     "description": "Smoking milestone day 7 description"
   },
-  "smokingMilestone14Title": "血液循环和行走能力改善",
+  "smokingMilestone14Title": "Circulation & Walking Improve",
   "@smokingMilestone14Title": {
     "description": "Smoking milestone day 14 title"
   },
-  "smokingMilestone14Description": "您的双腿每走一步都在感谢您！血液循环显著改善，使行走和锻炼变得明显更容易。那些楼梯看起来不再那么令人生畏了，是吗？",
+  "smokingMilestone14Description": "Your legs are thanking you with every step! Blood circulation improves dramatically, making walking and exercise noticeably easier. Those stairs aren't looking so intimidating anymore, are they?",
   "@smokingMilestone14Description": {
     "description": "Smoking milestone day 14 description"
   },
-  "smokingMilestone30Title": "肺功能增加",
+  "smokingMilestone30Title": "Lung Function Increases",
   "@smokingMilestone30Title": {
     "description": "Smoking milestone day 30 title"
   },
-  "smokingMilestone30Description": "您的肺正在举行复出派对！纤毛已经再生，正在扫除多年的焦油和碎片。肺活量显著增加，吸烟者的咳嗽已成为历史。",
+  "smokingMilestone30Description": "Your lungs are throwing a comeback party! Cilia have regrown and are sweeping out years of tar and debris. Lung capacity increases significantly, and that smoker's cough is history.",
   "@smokingMilestone30Description": {
     "description": "Smoking milestone day 30 description"
   },
-  "smokingMilestone90Title": "心脏病发作风险显著降低",
+  "smokingMilestone90Title": "Heart Attack Risk Drops Significantly",
   "@smokingMilestone90Title": {
     "description": "Smoking milestone day 90 title"
   },
-  "smokingMilestone90Description": "您的心脏正在发送情书！三个月无烟，您的心血管风险已经大幅下降。您的心血管系统愈合速度比您想象的要快。",
+  "smokingMilestone90Description": "Your heart is sending love letters! Three months smoke-free and your cardiovascular risk has already dropped substantially. Your cardiovascular system is healing faster than you might think possible.",
   "@smokingMilestone90Description": {
     "description": "Smoking milestone day 90 description"
   },
-  "smokingMilestone180Title": "免疫系统增强",
+  "smokingMilestone180Title": "Immune System Strengthens",
   "@smokingMilestone180Title": {
     "description": "Smoking milestone day 180 title"
   },
-  "smokingMilestone180Description": "您的免疫系统刚刚获得了超级英雄升级！六个月不吸烟，您的白细胞恢复了全部力量，像天生的冠军一样对抗感染。",
+  "smokingMilestone180Description": "Your immune system just got a superhero upgrade! Six months without smoking and your white blood cells are back to full strength, fighting infections like the champions they were born to be.",
   "@smokingMilestone180Description": {
     "description": "Smoking milestone day 180 description"
   },
-  "smokingMilestone365Title": "中风风险显著降低",
+  "smokingMilestone365Title": "Stroke Risk Reduces Significantly",
   "@smokingMilestone365Title": {
     "description": "Smoking milestone day 365 title"
   },
-  "smokingMilestone365Description": "整整一年的自由！您的中风风险已大幅降低，您的血管正在美丽地愈合。您正式给了您的大脑更好的循环和保护的礼物。",
+  "smokingMilestone365Description": "One full year of freedom! Your stroke risk has decreased substantially, and your blood vessels are healing beautifully. You've officially given your brain the gift of better circulation and protection.",
   "@smokingMilestone365Description": {
     "description": "Smoking milestone day 365 description"
   },
-  "smokingMilestone1825Title": "癌症风险骤降（5年）",
+  "smokingMilestone1825Title": "Cancer Risk Plummets (5 Years)",
   "@smokingMilestone1825Title": {
     "description": "Smoking milestone day 1825 title"
   },
-  "smokingMilestone1825Description": "五年的胜利！您患口腔癌、喉癌、食道癌和膀胱癌的风险降低了一半。肺癌风险也显著降低。您的细胞有时间进行修复和再生。",
+  "smokingMilestone1825Description": "Five years of victory! Your risk of mouth, throat, esophagus, and bladder cancers has dropped by half. Lung cancer risk has decreased significantly too. Your cells have had time to repair and regenerate.",
   "@smokingMilestone1825Description": {
     "description": "Smoking milestone day 1825 description"
   },
-  "vapingMilestone1Title": "尼古丁渴望达到顶峰",
+  "vapingMilestone1Title": "Nicotine Cravings Peak",
   "@vapingMilestone1Title": {
     "description": "Vaping milestone day 1 title"
   },
-  "vapingMilestone1Description": "您的大脑正在发尼古丁脾气，但您已经赢了！在24小时内，尼古丁水平急剧下降。最糟糕的渴望现在发生，但它们也是最需要克服的。",
+  "vapingMilestone1Description": "Your brain is throwing a nicotine tantrum, but you're already winning! Within 24 hours, nicotine levels drop dramatically. The worst cravings happen now, but they're also the most important to push through.",
   "@vapingMilestone1Description": {
     "description": "Vaping milestone day 1 description"
   },
-  "vapingMilestone3Title": "呼吸改善",
+  "vapingMilestone3Title": "Breathing Improves",
   "@vapingMilestone3Title": {
     "description": "Vaping milestone day 3 title"
   },
-  "vapingMilestone3Description": "您的肺正在跳快乐的舞蹈！支气管开始放松，肺活量开始改善。吸电子烟引起的胸闷感已经开始缓解。",
+  "vapingMilestone3Description": "Your lungs are doing a happy dance! Bronchial tubes begin to relax and lung capacity starts improving. That tight chest feeling from vaping is already beginning to ease up.",
   "@vapingMilestone3Description": {
     "description": "Vaping milestone day 3 description"
   },
-  "vapingMilestone7Title": "味觉和嗅觉恢复",
+  "vapingMilestone7Title": "Taste & Smell Return",
   "@vapingMilestone7Title": {
     "description": "Vaping milestone day 7 title"
   },
-  "vapingMilestone7Description": "食物的味道又要变得美妙了！尼古丁会抑制味蕾和嗅觉受体。一周后，您的感官超能力正在巡回回归。",
+  "vapingMilestone7Description": "Food is about to taste amazing again! Nicotine dampens taste buds and smell receptors. A week in, and your sensory superpowers are making their comeback tour.",
   "@vapingMilestone7Description": {
     "description": "Vaping milestone day 7 description"
   },
-  "vapingMilestone14Title": "血液循环改善",
+  "vapingMilestone14Title": "Circulation Improves",
   "@vapingMilestone14Title": {
     "description": "Vaping milestone day 14 title"
   },
-  "vapingMilestone14Description": "您的血液像冠军一样流动！尼古丁收缩血管，但两周无烟，您的循环显著改善。手脚冰凉，走开！",
+  "vapingMilestone14Description": "Your blood is flowing like a champion! Nicotine constricts blood vessels, but two weeks smoke-free and your circulation is dramatically improving. Cold hands and feet, begone!",
   "@vapingMilestone14Description": {
     "description": "Vaping milestone day 14 description"
   },
-  "vapingMilestone30Title": "肺功能恢复",
+  "vapingMilestone30Title": "Lung Function Recovery",
   "@vapingMilestone30Title": {
     "description": "Vaping milestone day 30 title"
   },
-  "vapingMilestone30Description": "您的肺实际上正在举行庆祝游行！纤毛（微小的肺部清洁工）已经再生，肺功能显著改善。那早晨的咳嗽已成为历史！",
+  "vapingMilestone30Description": "Your lungs are practically throwing a celebration parade! Cilia (tiny lung cleaners) have regenerated and lung function has improved significantly. That morning cough is history!",
   "@vapingMilestone30Description": {
     "description": "Vaping milestone day 30 description"
   },
-  "vapingMilestone60Title": "焦虑水平正常化",
+  "vapingMilestone60Title": "Anxiety Levels Normalize",
   "@vapingMilestone60Title": {
     "description": "Vaping milestone day 60 title"
   },
-  "vapingMilestone60Description": "剧情反转：吸电子烟实际上让您的焦虑问题变得更糟，而不是更好！两个月后，您的基线焦虑水平显著降低。您的神经系统终于冷静下来了。",
+  "vapingMilestone60Description": "Plot twist: vaping was making your anxiety problems worse, not better! Two months in and your baseline anxiety levels are significantly lower. Your nervous system is finally chilling out.",
   "@vapingMilestone60Description": {
     "description": "Vaping milestone day 60 description"
   },
-  "vapingMilestone90Title": "认知功能变得敏锐",
+  "vapingMilestone90Title": "Cognitive Function Sharpens",
   "@vapingMilestone90Title": {
     "description": "Vaping milestone day 90 title"
   },
-  "vapingMilestone90Description": "脑雾已正式离场！三个月没有尼古丁，您的认知功能、注意力和记忆力显著改善。这就像升级了您的心理内存。",
+  "vapingMilestone90Description": "Brain fog has officially left the building! Three months without nicotine and your cognitive function, focus, and memory are significantly improved. It's like upgrading your mental RAM.",
   "@vapingMilestone90Description": {
     "description": "Vaping milestone day 90 description"
   },
-  "vapingMilestone180Title": "口腔健康恢复",
+  "vapingMilestone180Title": "Oral Health Recovery",
   "@vapingMilestone180Title": {
     "description": "Vaping milestone day 180 title"
   },
-  "vapingMilestone180Description": "您的嘴巴正在发送感谢卡！六个月无电子烟，牙龈炎症减少，牙齿染色消退，口腔健康问题的风险大幅下降。",
+  "vapingMilestone180Description": "Your mouth is sending thank-you cards! Six months vape-free and gum inflammation decreases, tooth staining fades, and your risk of oral health issues drops substantially.",
   "@vapingMilestone180Description": {
     "description": "Vaping milestone day 180 description"
   },
-  "vapingMilestone365Title": "心血管风险降低",
+  "vapingMilestone365Title": "Cardiovascular Risk Reduction",
   "@vapingMilestone365Title": {
     "description": "Vaping milestone day 365 title"
   },
-  "vapingMilestone365Description": "您的心脏真的变强了！整整一年，您患心脏病的风险显著下降。您的心血管系统已经从尼古丁的日常攻击中恢复过来。",
+  "vapingMilestone365Description": "Your heart is literally stronger! One full year and your risk of heart disease has dropped significantly. Your cardiovascular system has recovered from nicotine's daily assault course.",
   "@vapingMilestone365Description": {
     "description": "Vaping milestone day 365 description"
   },
-  "marijuanaMilestone1Title": "戒断症状开始",
+  "marijuanaMilestone1Title": "Withdrawal Symptoms Begin",
   "@marijuanaMilestone1Title": {
     "description": "Marijuana milestone day 1 title"
   },
-  "marijuanaMilestone1Description": "您的大脑正在适应没有 THC 的生活！在24-48小时内，您可能会经历易怒、焦虑或睡眠困难。这是完全正常的——您的大麻素受体正在开始重置。",
+  "marijuanaMilestone1Description": "Your brain is adjusting to life without THC! Within 24-48 hours, you might experience irritability, anxiety, or sleep difficulties. This is completely normal - your cannabinoid receptors are starting to reset.",
   "@marijuanaMilestone1Description": {
     "description": "Marijuana milestone day 1 description"
   },
-  "marijuanaMilestone3Title": "身体症状达到顶峰",
+  "marijuanaMilestone3Title": "Physical Symptoms Peak",
   "@marijuanaMilestone3Title": {
     "description": "Marijuana milestone day 3 title"
   },
-  "marijuanaMilestone3Description": "您正处于最艰难的时刻，但从现在开始都是上坡路！第2-6天通常会出现戒断症状的高峰，包括头痛、出汗和情绪变化。您的身体正在努力重新平衡自己。",
+  "marijuanaMilestone3Description": "You're at the toughest point, but it's all uphill from here! Days 2-6 typically see peak withdrawal symptoms including headaches, sweating, and mood changes. Your body is working hard to rebalance itself.",
   "@marijuanaMilestone3Description": {
     "description": "Marijuana milestone day 3 description"
   },
-  "marijuanaMilestone7Title": "睡眠模式改善",
+  "marijuanaMilestone7Title": "Sleep Patterns Improve",
   "@marijuanaMilestone7Title": {
     "description": "Marijuana milestone day 7 title"
   },
-  "marijuanaMilestone7Description": "美梦正在回归！在没有大麻的一周后，您的自然睡眠结构开始正常化。快速眼动睡眠反弹，导致更生动的梦境和更好的休息质量。",
+  "marijuanaMilestone7Description": "Sweet dreams are making a comeback! After a week without cannabis, your natural sleep architecture begins to normalize. REM sleep rebounds, leading to more vivid dreams and better rest quality.",
   "@marijuanaMilestone7Description": {
     "description": "Marijuana milestone day 7 description"
   },
-  "marijuanaMilestone14Title": "急性戒断结束",
+  "marijuanaMilestone14Title": "Acute Withdrawal Ends",
   "@marijuanaMilestone14Title": {
     "description": "Marijuana milestone day 14 title"
   },
-  "marijuanaMilestone14Description": "风暴已经过去！大多数身体戒断症状在两周后显著减少。您的情绪正在稳定，日常功能变得更容易管理。最难的部分已经过去了。",
+  "marijuanaMilestone14Description": "The storm has passed! Most physical withdrawal symptoms significantly decrease after two weeks. Your mood is stabilizing and daily functioning becomes much easier. The hardest part is behind you.",
   "@marijuanaMilestone14Description": {
     "description": "Marijuana milestone day 14 description"
   },
-  "marijuanaMilestone30Title": "记忆功能改善",
+  "marijuanaMilestone30Title": "Memory Function Improves",
   "@marijuanaMilestone30Title": {
     "description": "Marijuana milestone day 30 title"
   },
-  "marijuanaMilestone30Description": "您的脑雾正在消散！研究表明，停止使用大麻后，语言学习和记忆力开始显著改善。对记忆形成至关重要的海马体开始更好地运作。",
+  "marijuanaMilestone30Description": "Your brain fog is clearing! Research shows that verbal learning and memory begin improving significantly after stopping cannabis use. The hippocampus, crucial for memory formation, starts functioning better.",
   "@marijuanaMilestone30Description": {
     "description": "Marijuana milestone day 30 description"
   },
-  "marijuanaMilestone60Title": "注意力变得敏锐",
+  "marijuanaMilestone60Title": "Concentration Sharpens",
   "@marijuanaMilestone60Title": {
     "description": "Marijuana milestone day 60 title"
   },
-  "marijuanaMilestone60Description": "专注模式：已激活！两个月没有大麻，您的注意力和保持注意力的能力显示出明显的改善。工作任务和学习变得明显更容易管理。",
+  "marijuanaMilestone60Description": "Focus mode: activated! Two months without cannabis and your ability to concentrate and maintain attention shows marked improvement. Work tasks and studying become noticeably easier to manage.",
   "@marijuanaMilestone60Description": {
     "description": "Marijuana milestone day 60 description"
   },
-  "marijuanaMilestone90Title": "情绪稳定性恢复",
+  "marijuanaMilestone90Title": "Mood Stability Returns",
   "@marijuanaMilestone90Title": {
     "description": "Marijuana milestone day 90 title"
   },
-  "marijuanaMilestone90Description": "情绪平衡恢复！三个月的禁欲带来了情绪调节的显著改善，焦虑水平降低，压力管理更好。您的情绪基线正在正常化。",
+  "marijuanaMilestone90Description": "Emotional equilibrium restored! Three months of abstinence brings significant improvements in mood regulation, decreased anxiety levels, and better stress management. Your emotional baseline is normalizing.",
   "@marijuanaMilestone90Description": {
     "description": "Marijuana milestone day 90 description"
   },
-  "marijuanaMilestone180Title": "执行功能恢复",
+  "marijuanaMilestone180Title": "Executive Function Recovery",
   "@marijuanaMilestone180Title": {
     "description": "Marijuana milestone day 180 title"
   },
-  "marijuanaMilestone180Description": "您的心理 CEO 回来了！六个月没有大麻显示出执行功能的实质性改善——计划、决策和解决问题的能力显著增强。",
+  "marijuanaMilestone180Description": "Your mental CEO is back in charge! Six months without cannabis shows substantial improvement in executive functions - planning, decision-making, and problem-solving abilities are significantly enhanced.",
   "@marijuanaMilestone180Description": {
     "description": "Marijuana milestone day 180 description"
   },
-  "marijuanaMilestone365Title": "脑结构修复",
+  "marijuanaMilestone365Title": "Brain Structure Restoration",
   "@marijuanaMilestone365Title": {
     "description": "Marijuana milestone day 365 title"
   },
-  "marijuanaMilestone365Description": "神经架构重建！一年的禁欲允许受长期大麻使用影响的大脑区域显著恢复。认知改善成为您的新常态，对学习和记忆有持久的好处。",
+  "marijuanaMilestone365Description": "Neural architecture rebuilt! One year of abstinence allows significant recovery of brain regions affected by chronic cannabis use. Cognitive improvements become your new normal, with lasting benefits to learning and memory.",
   "@marijuanaMilestone365Description": {
     "description": "Marijuana milestone day 365 description"
   },
-  "opioidMilestone1Title": "急性戒断开始",
+  "opioidMilestone1Title": "Acute Withdrawal Begins",
   "@opioidMilestone1Title": {
     "description": "Opioid milestone day 1 title"
   },
-  "opioidMilestone1Description": "最艰难的部分现在开始，但您并不孤单。急性戒断症状在前24-72小时内达到顶峰。这是您的身体开始愈合过程。在此阶段，专业的医疗支持至关重要。",
+  "opioidMilestone1Description": "The hardest part starts now, but you're not alone. Acute withdrawal symptoms peak in the first 24-72 hours. This is your body beginning the healing process. Professional medical support is crucial during this phase.",
   "@opioidMilestone1Description": {
     "description": "Opioid milestone day 1 description"
   },
-  "opioidMilestone7Title": "身体症状达到顶峰并开始下降",
+  "opioidMilestone7Title": "Physical Symptoms Peak & Begin Declining",
   "@opioidMilestone7Title": {
     "description": "Opioid milestone day 7 title"
   },
-  "opioidMilestone7Description": "您已经度过了风暴！最严重的身体戒断症状通常在第3-5天达到顶峰，并在第7天开始下降。您的身体正在努力恢复其自然平衡。",
+  "opioidMilestone7Description": "You've made it through the storm! The worst physical withdrawal symptoms typically peak around days 3-5 and start declining by day 7. Your body is working hard to restore its natural balance.",
   "@opioidMilestone7Description": {
     "description": "Opioid milestone day 7 description"
   },
-  "opioidMilestone14Title": "睡眠模式开始改善",
+  "opioidMilestone14Title": "Sleep Patterns Start Improving",
   "@opioidMilestone14Title": {
     "description": "Opioid milestone day 14 title"
   },
-  "opioidMilestone14Description": "美梦正在回归！两周后，您的自然睡眠结构开始恢复。阿片类药物会扰乱快速眼动睡眠，但您的大脑正在学习再次自然地做梦。",
+  "opioidMilestone14Description": "Sweet dreams are making a comeback! Two weeks in, your natural sleep architecture begins to restore. Opioids disrupt REM sleep, but your brain is learning to dream naturally again.",
   "@opioidMilestone14Description": {
     "description": "Opioid milestone day 14 description"
   },
-  "opioidMilestone30Title": "认知功能开始恢复",
+  "opioidMilestone30Title": "Cognitive Function Begins Recovery",
   "@opioidMilestone30Title": {
     "description": "Opioid milestone day 30 title"
   },
-  "opioidMilestone30Description": "脑雾开始消散！清醒一个月，您的认知功能、决策和记忆力开始改善。您的前额叶皮层正在从阿片类药物引起的变化中愈合。",
+  "opioidMilestone30Description": "Brain fog is starting to lift! One month clean and your cognitive function, decision-making, and memory are beginning to improve. Your prefrontal cortex is healing from opioid-induced changes.",
   "@opioidMilestone30Description": {
     "description": "Opioid milestone day 30 description"
   },
-  "opioidMilestone60Title": "情绪调节改善",
+  "opioidMilestone60Title": "Emotional Regulation Improves",
   "@opioidMilestone60Title": {
     "description": "Opioid milestone day 60 title"
   },
-  "opioidMilestone60Description": "您的情绪再次找到自然的节奏。康复两个月，您的大脑奖励系统开始对日常快乐做出反应。情绪过山车正在稳定下来。",
+  "opioidMilestone60Description": "Your emotions are finding their natural rhythm again. Two months in recovery and your brain's reward system is starting to respond to everyday pleasures. The emotional rollercoaster is stabilizing.",
   "@opioidMilestone60Description": {
     "description": "Opioid milestone day 60 description"
   },
-  "opioidMilestone90Title": "多巴胺功能显著恢复",
+  "opioidMilestone90Title": "Dopamine Function Significantly Recovers",
   "@opioidMilestone90Title": {
     "description": "Opioid milestone day 90 title"
   },
-  "opioidMilestone90Description": "您的大脑奖励系统正在举行欢迎回归派对！清醒三个月，多巴胺功能显著改善。自然活动开始感觉有回报——食物、音乐、人际关系。",
+  "opioidMilestone90Description": "Your brain's reward system is throwing a welcome-back party! Three months clean and dopamine function has significantly improved. Natural activities start feeling rewarding again - food, music, relationships.",
   "@opioidMilestone90Description": {
     "description": "Opioid milestone day 90 description"
   },
-  "opioidMilestone180Title": "免疫系统增强",
+  "opioidMilestone180Title": "Immune System Strengthens",
   "@opioidMilestone180Title": {
     "description": "Opioid milestone day 180 title"
   },
-  "opioidMilestone180Description": "您的免疫系统重新开始巡逻！六个月的康复，您身体的自然防御能力显著增强。您更有能力抵抗感染和疾病。",
+  "opioidMilestone180Description": "Your immune system is back on patrol duty! Six months of recovery and your body's natural defenses have significantly strengthened. You're better equipped to fight off infections and illness.",
   "@opioidMilestone180Description": {
     "description": "Opioid milestone day 180 description"
   },
-  "opioidMilestone365Title": "神经可塑性和脑结构改善",
+  "opioidMilestone365Title": "Neural Plasticity & Brain Structure Improve",
   "@opioidMilestone365Title": {
     "description": "Opioid milestone day 365 title"
   },
-  "opioidMilestone365Description": "您的大脑一直在忙着装修！整整一年的康复显示出脑结构和神经可塑性的显著改善。长期使用阿片类药物带来的变化正在美丽地愈合。",
+  "opioidMilestone365Description": "Your brain has been busy renovating! One full year of recovery shows significant improvements in brain structure and neural plasticity. The changes from chronic opioid use are healing beautifully.",
   "@opioidMilestone365Description": {
     "description": "Opioid milestone day 365 description"
   },
-  "opioidMilestone730Title": "长期康复稳定性（2年）",
+  "opioidMilestone730Title": "Long-term Recovery Stability (2 Years)",
   "@opioidMilestone730Title": {
     "description": "Opioid milestone day 730 title"
   },
-  "opioidMilestone730Description": "两年的力量和韧性！您已经建立了新的神经通路、应对策略和生活模式。研究表明，达到这一里程碑会大大降低复发风险。您是康复战士！",
+  "opioidMilestone730Description": "Two years of strength and resilience! You've built new neural pathways, coping strategies, and life patterns. Research shows that reaching this milestone dramatically reduces relapse risk. You're a recovery warrior!",
   "@opioidMilestone730Description": {
     "description": "Opioid milestone day 730 description"
   },
-  "socialMediaMilestone1Title": "数字排毒第一天！ 🎯",
+  "socialMediaMilestone1Title": "Digital Detox Day One! 🎯",
   "@socialMediaMilestone1Title": {
     "description": "Social media milestone day 1 title"
   },
-  "socialMediaMilestone1Description": "您已正式开始重新连接您的大脑！研究表明，即使想查看社交媒体也会触发与成瘾相同的神经通路。但您已经在打破循环——加油！",
+  "socialMediaMilestone1Description": "You've officially started rewiring your brain! Research shows that even thinking about checking social media triggers the same neural pathways as addiction. But you're already breaking the cycle - go you!",
   "@socialMediaMilestone1Description": {
     "description": "Social media milestone day 1 description"
   },
-  "socialMediaMilestone3Title": "错失恐惧症？不存在的！ 😎",
+  "socialMediaMilestone3Title": "FOMO? More Like FO-NO! 😎",
   "@socialMediaMilestone3Title": {
     "description": "Social media milestone day 3 title"
   },
-  "socialMediaMilestone3Description": "三天过去了，那些焦虑的“我错过了什么？”的想法已经开始消退。您正在训练您的大脑，现实生活比精心策划的动态更有趣！",
+  "socialMediaMilestone3Description": "Three days in and those anxious 'what am I missing?' thoughts are already fading. You're training your brain that real life is way more interesting than curated feeds!",
   "@socialMediaMilestone3Description": {
     "description": "Social media milestone day 3 description"
   },
-  "socialMediaMilestone7Title": "注意力跨度：金鱼 → 人类 🧠",
+  "socialMediaMilestone7Title": "Attention Span: Goldfish → Human 🧠",
   "@socialMediaMilestone7Title": {
     "description": "Social media milestone day 7 title"
   },
-  "socialMediaMilestone7Description": "第一周完成！您不每隔几分钟检查手机就能集中注意力的能力已经在提高。研究表明，我们的大脑渴望来自通知的多巴胺冲击——但您正在教您的脑在其他地方寻找回报！",
+  "socialMediaMilestone7Description": "Week one complete! Your ability to focus without checking your phone every few minutes is already improving. Studies show our brains crave the dopamine hits from notifications - but you're teaching yours to find rewards elsewhere!",
   "@socialMediaMilestone7Description": {
     "description": "Social media milestone day 7 description"
   },
-  "socialMediaMilestone14Title": "睡得像个婴儿（而不是僵尸） 😴",
+  "socialMediaMilestone14Title": "Sleep Like a Baby (Not a Zombie) 😴",
   "@socialMediaMilestone14Title": {
     "description": "Social media milestone day 14 title"
   },
-  "socialMediaMilestone14Description": "睡前两周不刷屏 = 更好的睡眠质量！屏幕发出的蓝光会抑制褪黑激素的产生，但您的自然睡眠节律正在美丽地反弹。",
+  "socialMediaMilestone14Description": "Two weeks without scrolling before bed = better sleep quality! The blue light from screens suppresses melatonin production, but your natural sleep rhythms are bouncing back beautifully.",
   "@socialMediaMilestone14Description": {
     "description": "Social media milestone day 14 description"
   },
-  "socialMediaMilestone30Title": "真正的朋友 > 虚假的赞 💝",
+  "socialMediaMilestone30Title": "Real Friends > Fake Likes 💝",
   "@socialMediaMilestone30Title": {
     "description": "Social media milestone day 30 title"
   },
-  "socialMediaMilestone30Description": "离线一个月 = 孤独感和抑郁感显著减少！研究证明，限制社交媒体可以带来重大的心理健康改善。您已经走得更远了！",
+  "socialMediaMilestone30Description": "One month offline = significant reductions in loneliness and depression! Research proves that limiting social media creates major mental health improvements. You've gone even further!",
   "@socialMediaMilestone30Description": {
     "description": "Social media milestone day 30 description"
   },
-  "socialMediaMilestone60Title": "比较陷阱：逃脱！ ✨",
+  "socialMediaMilestone60Title": "Comparison Trap: ESCAPED! ✨",
   "@socialMediaMilestone60Title": {
     "description": "Social media milestone day 60 title"
   },
-  "socialMediaMilestone60Description": "两个月没有不断的社会比较 = 自信心爆棚！研究一致表明，社交媒体的使用与自尊心下降有关，尤其是来自向上的社会比较。您已经摆脱了比较陷阱！",
+  "socialMediaMilestone60Description": "Two months without constant social comparison = confidence through the roof! Research consistently shows that social media use correlates with decreased self-esteem, especially from upward social comparisons. You've broken free from the comparison trap!",
   "@socialMediaMilestone60Description": {
     "description": "Social media milestone day 60 description"
   },
-  "socialMediaMilestone90Title": "爱好收藏家等级：专家 🎨",
+  "socialMediaMilestone90Title": "Hobby Collector Level: Expert 🎨",
   "@socialMediaMilestone90Title": {
     "description": "Social media milestone day 90 title"
   },
-  "socialMediaMilestone90Description": "三个月 = 大约收回了270+小时！这足够学习一项新技能，阅读15+本书，或掌握您一直说“总有一天”会尝试的爱好。神经可塑性研究表明，您的大脑实际上正在为这些新的好习惯重新连接！",
+  "socialMediaMilestone90Description": "Three months = roughly 270+ hours reclaimed! That's enough time to learn a new skill, read 15+ books, or master that hobby you always said you'd try 'someday.' Neuroplasticity research shows your brain is literally rewiring for these new awesome habits!",
   "@socialMediaMilestone90Description": {
     "description": "Social media milestone day 90 description"
   },
-  "socialMediaMilestone180Title": "心理健康焕然一新 🌟",
+  "socialMediaMilestone180Title": "Mental Health Glow-Up Complete 🌟",
   "@socialMediaMilestone180Title": {
     "description": "Social media milestone day 180 title"
   },
-  "socialMediaMilestone180Description": "离线六个月，您正式茁壮成长！长期研究表明，减少社交媒体的使用会导致幸福感、自尊心和生活满意度的持续改善。您是现实世界生活更美好的活生生的证明！",
+  "socialMediaMilestone180Description": "Six months offline and you're officially thriving! Long-term studies show that reducing social media use leads to sustained improvements in wellbeing, self-esteem, and life satisfaction. You're living proof that life's better in the real world!",
   "@socialMediaMilestone180Description": {
     "description": "Social media milestone day 180 description"
   },
-  "socialMediaMilestone365Title": "达成数字禅师成就 🏆",
+  "socialMediaMilestone365Title": "Digital Zen Master Achieved 🏆",
   "@socialMediaMilestone365Title": {
     "description": "Social media milestone day 365 title"
   },
-  "socialMediaMilestone365Description": "整整一年的有意生活！您已经收回了1000+小时，建立了更深的人际关系，并证明了生活中最好的时刻不是为了分享——而是为了体验。您正式成为数字健康传奇！",
+  "socialMediaMilestone365Description": "One full year of intentional living! You've reclaimed 1,000+ hours, formed deeper relationships, and proved that the best moments in life aren't meant for sharing - they're meant for experiencing. You're officially a digital wellness legend!",
   "@socialMediaMilestone365Description": {
     "description": "Social media milestone day 365 description"
   },
-  "nicotinePouchesMilestone1Title": "味觉和嗅觉开始恢复",
+  "nicotinePouchesMilestone1Title": "Taste & Smell Begin Recovery",
   "@nicotinePouchesMilestone1Title": {
     "description": "Nicotine pouches milestone day 1 title"
   },
-  "nicotinePouchesMilestone1Description": "尼古丁会使您的味蕾和嗅觉受体迟钝。在没有袋子仅仅24小时后，这些感官开始巡回回归！食物的味道又要变得美妙了。",
+  "nicotinePouchesMilestone1Description": "Nicotine dulls your taste buds and smell receptors. After just 24 hours without pouches, these senses start their comeback tour! Food is about to taste amazing again.",
   "@nicotinePouchesMilestone1Description": {
     "description": "Nicotine pouches milestone day 1 description"
   },
-  "nicotinePouchesMilestone3Title": "尼古丁完全清除",
+  "nicotinePouchesMilestone3Title": "Nicotine Completely Cleared",
   "@nicotinePouchesMilestone3Title": {
     "description": "Nicotine pouches milestone day 3 title"
   },
-  "nicotinePouchesMilestone3Description": "您的身体已正式驱逐所有尼古丁！虽然戒断症状可能在现在达到顶峰，但请记住——这是您的大脑正在为自由重新连接自己。最难的部分快结束了。",
+  "nicotinePouchesMilestone3Description": "Your body has officially evicted all nicotine! While withdrawal symptoms might peak around now, remember - this is your brain rewiring itself for freedom. The hardest part is almost over.",
   "@nicotinePouchesMilestone3Description": {
     "description": "Nicotine pouches milestone day 3 description"
   },
-  "nicotinePouchesMilestone7Title": "口腔健康改善",
+  "nicotinePouchesMilestone7Title": "Oral Health Improves",
   "@nicotinePouchesMilestone7Title": {
     "description": "Nicotine pouches milestone day 7 title"
   },
-  "nicotinePouchesMilestone7Description": "您的牙龈正在举行庆祝活动！尼古丁袋会导致牙龈刺激和萎缩。一周后，流向牙龈的血液正常化，愈合开始。",
+  "nicotinePouchesMilestone7Description": "Your gums are throwing a celebration! Nicotine pouches can cause gum irritation and recession. After a week, blood flow to your gums normalizes and healing begins.",
   "@nicotinePouchesMilestone7Description": {
     "description": "Nicotine pouches milestone day 7 description"
   },
-  "nicotinePouchesMilestone14Title": "血液循环增强",
+  "nicotinePouchesMilestone14Title": "Circulation Enhancement",
   "@nicotinePouchesMilestone14Title": {
     "description": "Nicotine pouches milestone day 14 title"
   },
-  "nicotinePouchesMilestone14Description": "您的血管正在跳快乐的舞蹈！尼古丁收缩血管，但两周自由后，您的循环显著改善。你好，更暖和的手和脚！",
+  "nicotinePouchesMilestone14Description": "Your blood vessels are doing a happy dance! Nicotine constricts blood vessels, but two weeks free and your circulation is significantly improved. Hello, warmer hands and feet!",
   "@nicotinePouchesMilestone14Description": {
     "description": "Nicotine pouches milestone day 14 description"
   },
-  "nicotinePouchesMilestone30Title": "应激反应正常化",
+  "nicotinePouchesMilestone30Title": "Stress Response Normalizes",
   "@nicotinePouchesMilestone30Title": {
     "description": "Nicotine pouches milestone day 30 title"
   },
-  "nicotinePouchesMilestone30Description": "剧情反转：尼古丁实际上增加了使用之间的压力！您的皮质醇水平和应激反应现在正在恢复基线。真正的放松，而不是尼古丁的假象。",
+  "nicotinePouchesMilestone30Description": "Plot twist: nicotine actually increases stress between uses! Your cortisol levels and stress response are now returning to baseline. Real relaxation, not the nicotine fake-out.",
   "@nicotinePouchesMilestone30Description": {
     "description": "Nicotine pouches milestone day 30 description"
   },
-  "nicotinePouchesMilestone60Title": "睡眠质量改善",
+  "nicotinePouchesMilestone60Title": "Sleep Quality Improves",
   "@nicotinePouchesMilestone60Title": {
     "description": "Nicotine pouches milestone day 60 title"
   },
-  "nicotinePouchesMilestone60Description": "美梦是由...没有尼古丁构成的！虽然尼古丁看起来很放松，但它实际上会扰乱睡眠结构。两个月后，您的快速眼动周期得到了美丽的恢复。",
+  "nicotinePouchesMilestone60Description": "Sweet dreams are made of... no nicotine! While nicotine seems relaxing, it actually disrupts sleep architecture. Two months in, and your REM cycles are beautifully restored.",
   "@nicotinePouchesMilestone60Description": {
     "description": "Nicotine pouches milestone day 60 description"
   },
-  "nicotinePouchesMilestone90Title": "多巴胺受体恢复",
+  "nicotinePouchesMilestone90Title": "Dopamine Receptors Recover",
   "@nicotinePouchesMilestone90Title": {
     "description": "Nicotine pouches milestone day 90 title"
   },
-  "nicotinePouchesMilestone90Description": "您的大脑奖励系统重新上线！尼古丁劫持多巴胺通路，使正常的快乐显得沉闷。三个月自由，生活的自然乐趣再次充满活力。",
+  "nicotinePouchesMilestone90Description": "Your brain's reward system is back online! Nicotine hijacks dopamine pathways, making normal pleasures seem dull. Three months free, and life's natural joys are vibrant again.",
   "@nicotinePouchesMilestone90Description": {
     "description": "Nicotine pouches milestone day 90 description"
   },
-  "nicotinePouchesMilestone180Title": "心血管风险降低",
+  "nicotinePouchesMilestone180Title": "Cardiovascular Risk Drops",
   "@nicotinePouchesMilestone180Title": {
     "description": "Nicotine pouches milestone day 180 title"
   },
-  "nicotinePouchesMilestone180Description": "您的心脏正在发送情书！六个月没有尼古丁显著降低了心血管疾病的风险。您的血压和心率变异性得到了极大的改善。",
+  "nicotinePouchesMilestone180Description": "Your heart is sending love letters! Six months without nicotine significantly reduces cardiovascular disease risk. Your blood pressure and heart rate variability are vastly improved.",
   "@nicotinePouchesMilestone180Description": {
     "description": "Nicotine pouches milestone day 180 description"
   },
-  "nicotinePouchesMilestone365Title": "长期健康得到保障",
+  "nicotinePouchesMilestone365Title": "Long-term Health Secured",
   "@nicotinePouchesMilestone365Title": {
     "description": "Nicotine pouches milestone day 365 title"
   },
-  "nicotinePouchesMilestone365Description": "一年的自由！您患尼古丁相关健康问题的风险继续骤降。您已经打破了成瘾循环并收回了您的自主权。这真是英雄！ 🏆",
+  "nicotinePouchesMilestone365Description": "One year of freedom! Your risk of nicotine-related health issues continues to plummet. You've broken the addiction cycle and reclaimed your autonomy. That's genuinely heroic! 🏆",
   "@nicotinePouchesMilestone365Description": {
     "description": "Nicotine pouches milestone day 365 description"
   },
-  "pornographyMilestone1Title": "打破循环",
+  "pornographyMilestone1Title": "Breaking the Cycle",
   "@pornographyMilestone1Title": {
     "description": "Pornography milestone day 1 title"
   },
-  "pornographyMilestone1Description": "您已经迈出了最艰难的一步！第一天是关于打破自动反应模式。您的大脑已经开始注意到它所期待的多巴胺峰值的缺失。",
+  "pornographyMilestone1Description": "You've taken the hardest step! Day one is about breaking the automatic response pattern. Your brain is already starting to notice the absence of the dopamine spike it was expecting.",
   "@pornographyMilestone1Description": {
     "description": "Pornography milestone day 1 description"
   },
-  "pornographyMilestone3Title": "戒断症状达到顶峰",
+  "pornographyMilestone3Title": "Withdrawal Symptoms Peak",
   "@pornographyMilestone3Title": {
     "description": "Pornography milestone day 3 title"
   },
-  "pornographyMilestone3Description": "平静前的风暴。渴望、不安和情绪波动现在最强烈。您的大脑正在努力重新连接自己。这种不适实际上是您的神经通路正在愈合！",
+  "pornographyMilestone3Description": "The storm before the calm. Cravings, restlessness, and mood swings are at their strongest now. Your brain is working hard to rewire itself. This discomfort is actually your neural pathways healing!",
   "@pornographyMilestone3Description": {
     "description": "Pornography milestone day 3 description"
   },
-  "pornographyMilestone7Title": "睡眠质量改善",
+  "pornographyMilestone7Title": "Sleep Quality Improves",
   "@pornographyMilestone7Title": {
     "description": "Pornography milestone day 7 title"
   },
-  "pornographyMilestone7Description": "美梦就是这样构成的！随着您大脑的奖励系统开始重新平衡，您的睡眠周期正在稳定。许多人报告说睡眠更深、更恢复精力，睡眠障碍更少。",
+  "pornographyMilestone7Description": "Sweet dreams are made of this! Your sleep cycles are stabilizing as your brain's reward system begins to rebalance. Many people report deeper, more restorative sleep and fewer sleep disturbances.",
   "@pornographyMilestone7Description": {
     "description": "Pornography milestone day 7 description"
   },
-  "pornographyMilestone14Title": "动力和精力恢复",
+  "pornographyMilestone14Title": "Motivation & Energy Return",
   "@pornographyMilestone14Title": {
     "description": "Pornography milestone day 14 title"
   },
-  "pornographyMilestone14Description": "迷雾正在消散！许多人注意到动力增加、思维更清晰，以及对现实世界活动的精力更多。您大脑的自然奖励系统开始在日常体验中再次找到乐趣。",
+  "pornographyMilestone14Description": "The fog is lifting! Many people notice increased motivation, clearer thinking, and more energy for real-world activities. Your brain's natural reward system is starting to find pleasure in everyday experiences again.",
   "@pornographyMilestone14Description": {
     "description": "Pornography milestone day 14 description"
   },
-  "pornographyMilestone30Title": "自信和自控力增长",
+  "pornographyMilestone30Title": "Confidence & Self-Control Grow",
   "@pornographyMilestone30Title": {
     "description": "Pornography milestone day 30 title"
   },
-  "pornographyMilestone30Description": "您正在建立心理肌肉！一个月的禁欲通常会带来自信心的增加、更好的情绪调节以及更强的个人控制感。您正在向自己证明您可以克服挑战。",
+  "pornographyMilestone30Description": "You're building mental muscle! One month of abstinence often brings increased self-confidence, better emotional regulation, and a stronger sense of personal control. You're proving to yourself that you can overcome challenges.",
   "@pornographyMilestone30Description": {
     "description": "Pornography milestone day 30 description"
   },
-  "pornographyMilestone90Title": "脑功能稳定",
+  "pornographyMilestone90Title": "Brain Function Stabilizes",
   "@pornographyMilestone90Title": {
     "description": "Pornography milestone day 90 title"
   },
-  "pornographyMilestone90Description": "您的大脑正在找到平衡！三个月允许在注意力、决策和情绪调节方面有显著改善。强迫性的冲动正变得更容易管理。",
+  "pornographyMilestone90Description": "Your brain is finding its balance! Three months allows significant improvements in focus, decision-making, and emotional regulation. The compulsive urges are becoming much more manageable.",
   "@pornographyMilestone90Description": {
     "description": "Pornography milestone day 90 description"
   },
-  "pornographyMilestone180Title": "人际关系和社交技巧改善",
+  "pornographyMilestone180Title": "Relationship & Social Skills Improve",
   "@pornographyMilestone180Title": {
     "description": "Pornography milestone day 180 title"
   },
-  "pornographyMilestone180Description": "连接现在是您的超能力！六个月通常会带来建立真正连接的能力提高、更好的眼神交流、社交焦虑减少以及与他人更真实的关系。",
+  "pornographyMilestone180Description": "Connection is your superpower now! Six months often brings improved ability to form genuine connections, better eye contact, reduced social anxiety, and more authentic relationships with others.",
   "@pornographyMilestone180Description": {
     "description": "Pornography milestone day 180 description"
   },
-  "pornographyMilestone365Title": "神经通路完全重置",
+  "pornographyMilestone365Title": "Complete Neural Pathway Reset",
   "@pornographyMilestone365Title": {
     "description": "Pornography milestone day 365 title"
   },
-  "pornographyMilestone365Description": "您已经重新连接了您的大脑！一年允许实质性的神经通路改变。许多人报告说，他们看待人际关系、亲密关系和个人成就感的方式发生了彻底的转变。您已经建立了一个新的您！",
+  "pornographyMilestone365Description": "You've rewired your brain! One year allows for substantial neural pathway changes. Many report complete transformation in how they view relationships, intimacy, and personal fulfillment. You've built a new you!",
   "@pornographyMilestone365Description": {
     "description": "Pornography milestone day 365 description"
   },
-  "pornographyMilestone1825Title": "持久的人生转变（5年）",
+  "pornographyMilestone1825Title": "Lasting Life Transformation (5 Years)",
   "@pornographyMilestone1825Title": {
     "description": "Pornography milestone day 1825 title"
   },
-  "pornographyMilestone1825Description": "五年的自由！您已经建立了全新的神经模式和生活习惯。研究表明，大脑重新连接可能需要1-60个月，具体取决于成瘾的严重程度，而您已经超过了那个里程碑。",
+  "pornographyMilestone1825Description": "Five years of freedom! You've established completely new neural patterns and life habits. Research suggests brain rewiring can take 1-60 months depending on addiction severity, and you've surpassed that milestone.",
   "@pornographyMilestone1825Description": {
     "description": "Pornography milestone day 1825 description"
   },
-  "customMilestone1Title": "初始康复阶段开始",
+  "customMilestone1Title": "Initial Recovery Phase Begins",
   "@customMilestone1Title": {
     "description": "Custom milestone day 1 title"
   },
-  "customMilestone1Description": "您的身体开始愈合过程！在戒除后的24小时内，您的系统开始清除毒素并适应在没有成瘾物质的情况下运作。睡眠障碍很常见，但也是康复过程的一部分。",
+  "customMilestone1Description": "Your body starts the healing process! Within 24 hours of quitting, your system begins to clear toxins and adjust to functioning without addictive substances. Sleep disturbances are common but part of the recovery process.",
   "@customMilestone1Description": {
     "description": "Custom milestone day 1 description"
   },
-  "customMilestone3Title": "戒断症状达到顶峰",
+  "customMilestone3Title": "Withdrawal Symptoms Peak",
   "@customMilestone3Title": {
     "description": "Custom milestone day 3 title"
   },
-  "customMilestone3Description": "您正在正面迎战风暴！对于许多物质，身体戒断症状通常在第3天左右达到顶峰，包括焦虑、情绪波动和身体不适。这意味着您正在度过最艰难的部分。",
+  "customMilestone3Description": "You're facing the storm head-on! Physical withdrawal symptoms typically peak around day 3 for many substances, including anxiety, mood swings, and physical discomfort. This means you're getting through the hardest part.",
   "@customMilestone3Description": {
     "description": "Custom milestone day 3 description"
   },
-  "customMilestone7Title": "急性戒断阶段结束",
+  "customMilestone7Title": "Acute Withdrawal Phase Ending",
   "@customMilestone7Title": {
     "description": "Custom milestone day 7 title"
   },
-  "customMilestone7Description": "最糟糕的已经过去了！一周后，大多数物质的急性戒断症状开始消退。您的身体正在适应新的常态并开始稳定。",
+  "customMilestone7Description": "The worst is behind you! After one week, acute withdrawal symptoms begin to subside for most substances. Your body is adjusting to its new normal and starting to stabilize.",
   "@customMilestone7Description": {
     "description": "Custom milestone day 7 description"
   },
-  "customMilestone14Title": "早期康复稳定",
+  "customMilestone14Title": "Early Recovery Stabilization",
   "@customMilestone14Title": {
     "description": "Custom milestone day 14 title"
   },
-  "customMilestone14Description": "您的头脑正在变得清晰！两周的清醒通常会带来心理清晰度的提高和渴望的减少，因为您的大脑开始适应在没有成瘾物质的情况下运作。",
+  "customMilestone14Description": "Your mind is clearing! Two weeks of sobriety often brings improved mental clarity and reduced cravings as your brain begins to adapt to functioning without addictive substances.",
   "@customMilestone14Description": {
     "description": "Custom milestone day 14 description"
   },
-  "customMilestone30Title": "一个月里程碑",
+  "customMilestone30Title": "One Month Milestone",
   "@customMilestone30Title": {
     "description": "Custom milestone day 30 title"
   },
-  "customMilestone30Description": "一个重大的胜利！三十天的清醒代表了显著的进步。许多人发现睡眠模式、情绪和能量水平在此期间继续改善。",
+  "customMilestone30Description": "A major victory! Thirty days of sobriety represents significant progress. Many people find that sleep patterns, mood, and energy levels continue to improve during this period.",
   "@customMilestone30Description": {
     "description": "Custom milestone day 30 description"
   },
-  "customMilestone90Title": "三个月康复里程碑",
+  "customMilestone90Title": "Three Month Recovery Milestone",
   "@customMilestone90Title": {
     "description": "Custom milestone day 90 title"
   },
-  "customMilestone90Description": "您的承诺正在得到回报！三个月的康复代表了一个显著的成就。急性后戒断症状通常开始消退，许多人报告说感觉更像自己了。",
+  "customMilestone90Description": "Your commitment is paying off! Three months of recovery represents a significant achievement. Post-acute withdrawal symptoms typically begin to fade, and many people report feeling more like themselves again.",
   "@customMilestone90Description": {
     "description": "Custom milestone day 90 description"
   },
-  "customMilestone180Title": "六个月康复成就",
+  "customMilestone180Title": "Six Month Recovery Achievement",
   "@customMilestone180Title": {
     "description": "Custom milestone day 180 title"
   },
-  "customMilestone180Description": "您正在建立持久的改变！六个月的清醒通常会带来身体健康、情绪稳定和整体生活质量的持续改善，因为您的身体继续愈合。",
+  "customMilestone180Description": "You're building lasting change! Six months of sobriety often brings continued improvements in physical health, emotional stability, and overall quality of life as your body continues healing.",
   "@customMilestone180Description": {
     "description": "Custom milestone day 180 description"
   },
-  "customMilestone365Title": "一年康复",
+  "customMilestone365Title": "One Year of Recovery",
   "@customMilestone365Title": {
     "description": "Custom milestone day 365 title"
   },
-  "customMilestone365Description": "一个不可思议的成就！一年的清醒代表了一个重大的人生里程碑。许多人到此时在身体健康、人际关系和整体幸福感方面经历了显著的改善。",
+  "customMilestone365Description": "An incredible achievement! One year of sobriety represents a major life milestone. Many people experience significant improvements in physical health, relationships, and overall well-being by this point.",
   "@customMilestone365Description": {
     "description": "Custom milestone day 365 description"
   },
-  "customMilestone730Title": "两年持续康复",
+  "customMilestone730Title": "Two Years of Sustained Recovery",
   "@customMilestone730Title": {
     "description": "Custom milestone day 730 title"
   },
-  "customMilestone730Description": "您已经建立了新生活！两年的康复展示了非凡的韧性和承诺。长期清醒通常会带来生活各个方面的深刻积极变化，并显著降低复发风险。",
+  "customMilestone730Description": "You've built a new life! Two years of recovery demonstrates remarkable resilience and commitment. Long-term sobriety often brings profound positive changes in all areas of life and significantly reduced risk of relapse.",
   "@customMilestone730Description": {
     "description": "Custom milestone day 730 description"
   }
