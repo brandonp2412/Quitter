@@ -6,11 +6,10 @@ files:
     translation: /lib/l10n/app_%locale_with_underscore%.arb
     update_option: update_as_unapproved
     languages_mapping:
-      two_letters_code:
-        'en-US': 'en'
       locale_with_underscore:
         ja: ja
         zh-CN: zh_CN
+        en_US: 'en'
   
   - source: /fastlane/metadata/android/en-US/*.txt
     translation: /fastlane/metadata/android/%locale%/%original_file_name%
