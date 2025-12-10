@@ -3,13 +3,12 @@ api_token_env: CROWDIN_PERSONAL_TOKEN
 
 files:
   - source: /lib/l10n/app_en.arb
-    translation: /lib/l10n/app_%locale_with_underscore%.arb
+    translation: /lib/l10n/app_%two_letters_code%.arb
     update_option: update_as_unapproved
     languages_mapping:
       locale_with_underscore:
-        ja: ja
-        zh-CN: zh_CN
-        en_US: 'en'
+        zh-CN: zh
+        en-US: en
   
   - source: /fastlane/metadata/android/en-US/*.txt
     translation: /fastlane/metadata/android/%locale%/%original_file_name%
