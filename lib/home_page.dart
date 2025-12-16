@@ -171,7 +171,12 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
       body: CustomScrollView(
         slivers: [
           SliverPadding(
-            padding: const EdgeInsets.all(16),
+            padding: EdgeInsets.only(
+              left: 16,
+              right: 16,
+              top: 16,
+              bottom: 16 + MediaQuery.of(context).padding.bottom,
+            ),
             sliver: Consumer2<SettingsProvider, AddictionProvider>(
               builder: (context, settings, addictions, child) {
                 final cards = <Widget>[];

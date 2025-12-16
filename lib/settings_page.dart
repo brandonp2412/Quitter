@@ -89,6 +89,7 @@ class _SettingsPageState extends State<SettingsPage> {
                   children: filteredItems,
                 ),
               ),
+              SizedBox(height: MediaQuery.of(context).padding.bottom),
             ],
           );
         },
