@@ -1,2 +1,10 @@
-• Add themed app icon support
-• Remove rollout stuff from CI/CD
+• Add crowdin setup
+• Add extra padding to bottom for system nav
+• Add zh fallback
+• Change crowdin.yml
+• Change locale name formats for crowdin.yml
+• Exclude english from Crowdin
+• Fix crowdin allegedly
+• Fix crowdin workflow permissions
+• Fix crowdin.yml
+• Fix name of language mapping in crowdin.yml
