@@ -1,0 +1,4 @@
+• Add cocaine addiction tracking
+• Add get it on f-droid badge
+• Add meth tracking
+• Add search bar

@@ -1,10 +1,9 @@
-• Add crowdin setup
-• Add extra padding to bottom for system nav
-• Add zh fallback
-• Change crowdin.yml
-• Change locale name formats for crowdin.yml
-• Exclude english from Crowdin
-• Fix crowdin allegedly
-• Fix crowdin workflow permissions
-• Fix crowdin.yml
-• Fix name of language mapping in crowdin.yml
+• Add cocaine addiction tracking
+• Add get it on f-droid badge
+• Add meth tracking
+• Add search bar
+• Automatically close stale feature requests
+• Change some of the titles
+• Fix titles not center aligning
+• Run l10n generate
+• Try separating f-droid from the others
