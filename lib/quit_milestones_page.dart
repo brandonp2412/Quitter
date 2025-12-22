@@ -383,6 +383,7 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
                     Text(
                       started ? widget.headerStarted : widget.headerNotStarted,
                       style: Theme.of(context).textTheme.headlineMedium,
+                      textAlign: TextAlign.center,
                     ),
                     const SizedBox(height: 8),
                     Text(
@@ -390,6 +391,7 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
                           ? widget.subtitleStarted
                           : widget.subtitleNotStarted,
                       style: Theme.of(context).textTheme.titleMedium,
+                      textAlign: TextAlign.center,
                     ),
                     const SizedBox(height: 16),
                     TextFormField(
