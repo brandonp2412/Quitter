@@ -29,16 +29,25 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
+  final TextEditingController _searchController = TextEditingController();
+  String _searchQuery = '';
+
   @override
   void initState() {
     super.initState();
     _loadQuitDays();
     _whatsNew();
     WidgetsBinding.instance.addObserver(this);
+    _searchController.addListener(() {
+      setState(() {
+        _searchQuery = _searchController.text.toLowerCase();
+      });
+    });
   }
 
   @override
   void dispose() {
+    _searchController.dispose();
     super.dispose();
     WidgetsBinding.instance.removeObserver(this);
   }
@@ -166,24 +175,101 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
     );
   }
 
+  bool _matchesSearch(String title) {
+    if (_searchQuery.isEmpty) return true;
+    return title.toLowerCase().contains(_searchQuery);
+  }
+
   @override
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context)!;
     return Scaffold(
       body: CustomScrollView(
         slivers: [
+          SliverAppBar(
+            floating: true,
+            snap: true,
+            backgroundColor: Colors.transparent,
+            elevation: 0,
+            toolbarHeight: 80,
+            flexibleSpace: Container(
+              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+              child: Center(
+                child: Container(
+                  decoration: BoxDecoration(
+                    gradient: LinearGradient(
+                      colors: [
+                        Theme.of(context).colorScheme.primaryContainer,
+                        Theme.of(context).colorScheme.secondaryContainer,
+                      ],
+                      begin: Alignment.topLeft,
+                      end: Alignment.bottomRight,
+                    ),
+                    borderRadius: BorderRadius.circular(30),
+                    boxShadow: [
+                      BoxShadow(
+                        color: Theme.of(
+                          context,
+                        ).colorScheme.primary.withAlpha(51),
+                        blurRadius: 12,
+                        offset: const Offset(0, 4),
+                      ),
+                    ],
+                  ),
+                  child: TextField(
+                    controller: _searchController,
+                    style: TextStyle(
+                      color: Theme.of(context).colorScheme.onPrimaryContainer,
+                      fontSize: 16,
+                    ),
+                    decoration: InputDecoration(
+                      hintText: 'Search addictions...',
+                      hintStyle: TextStyle(
+                        color: Theme.of(
+                          context,
+                        ).colorScheme.onPrimaryContainer.withAlpha(153),
+                      ),
+                      prefixIcon: Icon(
+                        Icons.search,
+                        color: Theme.of(context).colorScheme.onPrimaryContainer,
+                      ),
+                      suffixIcon: _searchQuery.isNotEmpty
+                          ? IconButton(
+                              icon: Icon(
+                                Icons.clear,
+                                color: Theme.of(
+                                  context,
+                                ).colorScheme.onPrimaryContainer,
+                              ),
+                              onPressed: () {
+                                _searchController.clear();
+                              },
+                            )
+                          : null,
+                      border: InputBorder.none,
+                      contentPadding: const EdgeInsets.symmetric(
+                        horizontal: 20,
+                        vertical: 16,
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+            ),
+          ),
           SliverPadding(
             padding: EdgeInsets.only(
               left: 16,
               right: 16,
-              top: 16,
+              top: 8,
               bottom: 56 + MediaQuery.of(context).padding.bottom,
             ),
             sliver: Consumer2<SettingsProvider, AddictionProvider>(
               builder: (context, settings, addictions, child) {
                 final cards = <Widget>[];
 
-                if (settings.showAlcohol) {
+                if (settings.showAlcohol &&
+                    _matchesSearch(l10n.addictionAlcohol)) {
                   cards.add(
                     QuitCard(
                       context: context,
@@ -213,7 +299,8 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                   );
                 }
 
-                if (settings.showVaping) {
+                if (settings.showVaping &&
+                    _matchesSearch(l10n.addictionVaping)) {
                   cards.add(
                     QuitCard(
                       context: context,
@@ -243,7 +330,8 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                   );
                 }
 
-                if (settings.showSmoking) {
+                if (settings.showSmoking &&
+                    _matchesSearch(l10n.addictionSmoking)) {
                   cards.add(
                     QuitCard(
                       context: context,
@@ -273,7 +361,8 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                   );
                 }
 
-                if (settings.showMarijuana) {
+                if (settings.showMarijuana &&
+                    _matchesSearch(l10n.addictionMarijuana)) {
                   cards.add(
                     QuitCard(
                       context: context,
@@ -302,7 +391,8 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                     ),
                   );
                 }
-                if (settings.showNicotinePouches) {
+                if (settings.showNicotinePouches &&
+                    _matchesSearch(l10n.addictionNicotinePouches)) {
                   cards.add(
                     QuitCard(
                       context: context,
@@ -332,7 +422,8 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                   );
                 }
 
-                if (settings.showOpioids) {
+                if (settings.showOpioids &&
+                    _matchesSearch(l10n.addictionOpioids)) {
                   cards.add(
                     QuitCard(
                       context: context,
@@ -362,7 +453,8 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                   );
                 }
 
-                if (settings.showSocialMedia) {
+                if (settings.showSocialMedia &&
+                    _matchesSearch(l10n.addictionSocialMedia)) {
                   cards.add(
                     QuitCard(
                       context: context,
@@ -392,7 +484,8 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                   );
                 }
 
-                if (settings.showPornography) {
+                if (settings.showPornography &&
+                    _matchesSearch(l10n.addictionAC)) {
                   cards.add(
                     QuitCard(
                       context: context,
@@ -422,7 +515,8 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                   );
                 }
 
-                if (settings.showCocaine) {
+                if (settings.showCocaine &&
+                    _matchesSearch(l10n.addictionCocaine)) {
                   cards.add(
                     QuitCard(
                       context: context,
@@ -452,7 +546,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                   );
                 }
 
-                if (settings.showMeth) {
+                if (settings.showMeth && _matchesSearch(l10n.addictionMeth)) {
                   cards.add(
                     QuitCard(
                       context: context,
@@ -482,31 +576,62 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                 }
 
                 for (var entry in addictions.entries) {
-                  cards.add(
-                    QuitCard(
-                      context: context,
-                      title: entry.title,
-                      icon: entry.icon ?? Icons.star,
-                      gradientColors: [
-                        entry.color,
-                        entry.color.withValues(alpha: 0.7),
-                      ],
-                      quitDate: entry.quitDate.toIso8601String(),
-                      onTap: () async {
-                        await Navigator.of(context).push(
-                          MaterialPageRoute(
-                            builder: (context) => EntryPage(entry: entry),
+                  if (_matchesSearch(entry.title)) {
+                    cards.add(
+                      QuitCard(
+                        context: context,
+                        title: entry.title,
+                        icon: entry.icon ?? Icons.star,
+                        gradientColors: [
+                          entry.color,
+                          entry.color.withValues(alpha: 0.7),
+                        ],
+                        quitDate: entry.quitDate.toIso8601String(),
+                        onTap: () async {
+                          await Navigator.of(context).push(
+                            MaterialPageRoute(
+                              builder: (context) => EntryPage(entry: entry),
+                            ),
+                          );
+                          if (mounted) _loadQuitDays();
+                        },
+                        onLongPress: () {
+                          Navigator.of(context).push(
+                            MaterialPageRoute(
+                              builder: (context) => EditEntryPage(entry: entry),
+                            ),
+                          );
+                        },
+                      ),
+                    );
+                  }
+                }
+
+                if (cards.isEmpty) {
+                  return SliverFillRemaining(
+                    child: Center(
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Icon(
+                            Icons.search_off,
+                            size: 64,
+                            color: Theme.of(
+                              context,
+                            ).colorScheme.onSurface.withAlpha(128),
                           ),
-                        );
-                        if (mounted) _loadQuitDays();
-                      },
-                      onLongPress: () {
-                        Navigator.of(context).push(
-                          MaterialPageRoute(
-                            builder: (context) => EditEntryPage(entry: entry),
+                          const SizedBox(height: 16),
+                          Text(
+                            'No matches found',
+                            style: Theme.of(context).textTheme.titleLarge
+                                ?.copyWith(
+                                  color: Theme.of(
+                                    context,
+                                  ).colorScheme.onSurface.withAlpha(128),
+                                ),
                           ),
-                        );
-                      },
+                        ],
+                      ),
                     ),
                   );
                 }
