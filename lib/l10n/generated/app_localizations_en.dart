@@ -27,14 +27,14 @@ class AppLocalizationsEn extends AppLocalizations {
   String get methHeaderStarted => 'Your Recovery Journey';
 
   @override
-  String get methHeaderNotStarted => 'Ready to Start Your Recovery?';
+  String get methHeaderNotStarted => 'Drop the Glass';
 
   @override
   String get methSubtitleStarted =>
       'Track your progress and celebrate each milestone';
 
   @override
-  String get methSubtitleNotStarted => 'See what positive changes await you';
+  String get methSubtitleNotStarted => 'Freedom is within your grasp';
 
   @override
   String get methMilestone1Title => 'First 24 Hours - The Crash Begins';
@@ -109,7 +109,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get cocaineHeaderStarted => 'Your Recovery Journey';
 
   @override
-  String get cocaineHeaderNotStarted => 'Ready to Start Your Recovery?';
+  String get cocaineHeaderNotStarted => 'Ready to Start?';
 
   @override
   String get cocaineSubtitleStarted =>

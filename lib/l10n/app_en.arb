@@ -20,9 +20,9 @@
   "addictionMeth": "Meth",
   "methPageTitle": "Meth Recovery",
   "methHeaderStarted": "Your Recovery Journey",
-  "methHeaderNotStarted": "Ready to Start Your Recovery?",
+  "methHeaderNotStarted": "Drop the Glass",
   "methSubtitleStarted": "Track your progress and celebrate each milestone",
-  "methSubtitleNotStarted": "See what positive changes await you",
+  "methSubtitleNotStarted": "Freedom is within your grasp",
   
   "methMilestone1Title": "First 24 Hours - The Crash Begins",
   "methMilestone1Description": "The initial crash phase starts with profound fatigue and increased appetite as your body begins recovery. You may experience depression and sleep heavily as your system starts to stabilize from the intense stimulation.",
@@ -54,7 +54,7 @@
   "addictionCocaine": "Cocaine",
   "cocainePageTitle": "Cocaine Recovery",
   "cocaineHeaderStarted": "Your Recovery Journey",
-  "cocaineHeaderNotStarted": "Ready to Start Your Recovery?",
+  "cocaineHeaderNotStarted": "Ready to Start?",
   "cocaineSubtitleStarted": "Track your progress and celebrate each milestone",
   "cocaineSubtitleNotStarted": "See what positive changes await you",
   

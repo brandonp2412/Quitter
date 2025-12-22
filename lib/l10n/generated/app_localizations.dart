@@ -139,7 +139,7 @@ abstract class AppLocalizations {
   /// No description provided for @methHeaderNotStarted.
   ///
   /// In en, this message translates to:
-  /// **'Ready to Start Your Recovery?'**
+  /// **'Drop the Glass'**
   String get methHeaderNotStarted;
 
   /// No description provided for @methSubtitleStarted.
@@ -151,7 +151,7 @@ abstract class AppLocalizations {
   /// No description provided for @methSubtitleNotStarted.
   ///
   /// In en, this message translates to:
-  /// **'See what positive changes await you'**
+  /// **'Freedom is within your grasp'**
   String get methSubtitleNotStarted;
 
   /// No description provided for @methMilestone1Title.
@@ -283,7 +283,7 @@ abstract class AppLocalizations {
   /// No description provided for @cocaineHeaderNotStarted.
   ///
   /// In en, this message translates to:
-  /// **'Ready to Start Your Recovery?'**
+  /// **'Ready to Start?'**
   String get cocaineHeaderNotStarted;
 
   /// No description provided for @cocaineSubtitleStarted.
