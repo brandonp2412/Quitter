@@ -442,6 +442,13 @@ class _SettingsPageState extends State<SettingsPage> {
         value: settings.showCocaine,
         onChanged: (value) => settings.showCocaine = value,
       ),
+      _ToggleItem(
+        icon: Icons.battery_charging_full,
+        title: l10n.addictionMeth,
+        subtitle: l10n.settingsShowMethTracking,
+        value: settings.showMeth,
+        onChanged: (value) => settings.showMeth = value,
+      ),
     ];
 
     return [
@@ -518,6 +525,13 @@ class _SettingsPageState extends State<SettingsPage> {
         subtitle: l10n.settingsNotifyCocaine,
         value: settings.notifyCocaine,
         onChanged: (value) => settings.notifyCocaine = value,
+      ),
+      _ToggleItem(
+        icon: Icons.battery_charging_full,
+        title: l10n.addictionMeth,
+        subtitle: l10n.settingsNotifyMeth,
+        value: settings.notifyMeth,
+        onChanged: (value) => settings.notifyMeth = value,
       ),
       _ToggleItem(
         icon: Icons.reset_tv,

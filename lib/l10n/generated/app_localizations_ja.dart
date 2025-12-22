@@ -18,6 +18,88 @@ class AppLocalizationsJa extends AppLocalizations {
   String get tabQuitter => 'Quitter';
 
   @override
+  String get addictionMeth => 'Meth';
+
+  @override
+  String get methPageTitle => 'Meth Recovery';
+
+  @override
+  String get methHeaderStarted => 'Your Recovery Journey';
+
+  @override
+  String get methHeaderNotStarted => 'Ready to Start Your Recovery?';
+
+  @override
+  String get methSubtitleStarted =>
+      'Track your progress and celebrate each milestone';
+
+  @override
+  String get methSubtitleNotStarted => 'See what positive changes await you';
+
+  @override
+  String get methMilestone1Title => 'First 24 Hours - The Crash Begins';
+
+  @override
+  String get methMilestone1Description =>
+      'The initial crash phase starts with profound fatigue and increased appetite as your body begins recovery. You may experience depression and sleep heavily as your system starts to stabilize from the intense stimulation.';
+
+  @override
+  String get methMilestone3Title => 'Day 3 - Peak Withdrawal';
+
+  @override
+  String get methMilestone3Description =>
+      'Cravings intensify significantly during this period as your body adjusts. You may experience increased energy compared to the crash phase, which can make cravings feel stronger. This is a critical time for relapse prevention and support.';
+
+  @override
+  String get methMilestone7Title => 'One Week - Physical Symptoms Ease';
+
+  @override
+  String get methMilestone7Description =>
+      'Acute withdrawal symptoms begin to subside, though psychological challenges remain. Your sleep patterns start normalizing and physical discomfort decreases. This marks the transition from acute to post-acute withdrawal.';
+
+  @override
+  String get methMilestone30Title => 'One Month - Emerging Stability';
+
+  @override
+  String get methMilestone30Description =>
+      'The honeymoon phase begins as your body heals and cravings start to fade. Energy levels increase and mood improves as your brain chemistry begins rebalancing. However, remain vigilant as challenges can still arise.';
+
+  @override
+  String get methMilestone90Title => 'Three Months - Brain Healing Begins';
+
+  @override
+  String get methMilestone90Description =>
+      'Your brain is actively working to restore normal function. Cognitive improvements become noticeable in areas like attention and decision-making. This period marks significant neurological recovery as your reward system starts to normalize.';
+
+  @override
+  String get methMilestone180Title => 'Six Months - Cardiovascular Recovery';
+
+  @override
+  String get methMilestone180Description =>
+      'Heart function shows measurable improvement with abstinence. Studies show cardiac function can recover significantly during this period when combined with medical support. Blood pressure and heart rhythm continue stabilizing.';
+
+  @override
+  String get methMilestone365Title => 'One Year - Major Brain Recovery';
+
+  @override
+  String get methMilestone365Description =>
+      'Dopamine system recovery reaches significant milestones. Your brain\'s ability to experience pleasure from natural rewards improves substantially. Cognitive function, mood regulation, and decision-making show marked improvements.';
+
+  @override
+  String get methMilestone420Title => '14 Months - Dopamine Normalization';
+
+  @override
+  String get methMilestone420Description =>
+      'Brain imaging studies show dopamine transporter levels approaching normal at this stage. This represents the most significant phase of neurological recovery, with improvements in memory, motivation, and the ability to feel pleasure from everyday activities.';
+
+  @override
+  String get methMilestone730Title => 'Two Years - Sustained Recovery';
+
+  @override
+  String get methMilestone730Description =>
+      'Long-term abstinence allows for continued brain healing. Attention and mood typically rebound within 12-18 months for most people. Your cognitive function, emotional regulation, and overall quality of life continue improving with sustained recovery.';
+
+  @override
   String get addictionCocaine => 'Cocaine';
 
   @override
@@ -297,6 +379,9 @@ class AppLocalizationsJa extends AppLocalizations {
   String get settingsShowCocaineTracking => 'Show cocaine tracking';
 
   @override
+  String get settingsShowMethTracking => 'Show meth tracking';
+
+  @override
   String get settingsShowAdultContentTracking => 'アダルトコンテンツ追跡を表示';
 
   @override
@@ -330,6 +415,9 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get settingsNotifyCocaine => 'Notify cocaine quitting progress';
+
+  @override
+  String get settingsNotifyMeth => 'Notify meth quitting progress';
 
   @override
   String get settingsNotifyAdultContent => 'アダルトコンテンツ禁止の進捗を通知';

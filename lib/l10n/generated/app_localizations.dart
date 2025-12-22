@@ -118,6 +118,150 @@ abstract class AppLocalizations {
   /// **'Quitter'**
   String get tabQuitter;
 
+  /// No description provided for @addictionMeth.
+  ///
+  /// In en, this message translates to:
+  /// **'Meth'**
+  String get addictionMeth;
+
+  /// No description provided for @methPageTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Meth Recovery'**
+  String get methPageTitle;
+
+  /// No description provided for @methHeaderStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Your Recovery Journey'**
+  String get methHeaderStarted;
+
+  /// No description provided for @methHeaderNotStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Ready to Start Your Recovery?'**
+  String get methHeaderNotStarted;
+
+  /// No description provided for @methSubtitleStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Track your progress and celebrate each milestone'**
+  String get methSubtitleStarted;
+
+  /// No description provided for @methSubtitleNotStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'See what positive changes await you'**
+  String get methSubtitleNotStarted;
+
+  /// No description provided for @methMilestone1Title.
+  ///
+  /// In en, this message translates to:
+  /// **'First 24 Hours - The Crash Begins'**
+  String get methMilestone1Title;
+
+  /// No description provided for @methMilestone1Description.
+  ///
+  /// In en, this message translates to:
+  /// **'The initial crash phase starts with profound fatigue and increased appetite as your body begins recovery. You may experience depression and sleep heavily as your system starts to stabilize from the intense stimulation.'**
+  String get methMilestone1Description;
+
+  /// No description provided for @methMilestone3Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Day 3 - Peak Withdrawal'**
+  String get methMilestone3Title;
+
+  /// No description provided for @methMilestone3Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Cravings intensify significantly during this period as your body adjusts. You may experience increased energy compared to the crash phase, which can make cravings feel stronger. This is a critical time for relapse prevention and support.'**
+  String get methMilestone3Description;
+
+  /// No description provided for @methMilestone7Title.
+  ///
+  /// In en, this message translates to:
+  /// **'One Week - Physical Symptoms Ease'**
+  String get methMilestone7Title;
+
+  /// No description provided for @methMilestone7Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Acute withdrawal symptoms begin to subside, though psychological challenges remain. Your sleep patterns start normalizing and physical discomfort decreases. This marks the transition from acute to post-acute withdrawal.'**
+  String get methMilestone7Description;
+
+  /// No description provided for @methMilestone30Title.
+  ///
+  /// In en, this message translates to:
+  /// **'One Month - Emerging Stability'**
+  String get methMilestone30Title;
+
+  /// No description provided for @methMilestone30Description.
+  ///
+  /// In en, this message translates to:
+  /// **'The honeymoon phase begins as your body heals and cravings start to fade. Energy levels increase and mood improves as your brain chemistry begins rebalancing. However, remain vigilant as challenges can still arise.'**
+  String get methMilestone30Description;
+
+  /// No description provided for @methMilestone90Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Three Months - Brain Healing Begins'**
+  String get methMilestone90Title;
+
+  /// No description provided for @methMilestone90Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Your brain is actively working to restore normal function. Cognitive improvements become noticeable in areas like attention and decision-making. This period marks significant neurological recovery as your reward system starts to normalize.'**
+  String get methMilestone90Description;
+
+  /// No description provided for @methMilestone180Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Six Months - Cardiovascular Recovery'**
+  String get methMilestone180Title;
+
+  /// No description provided for @methMilestone180Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Heart function shows measurable improvement with abstinence. Studies show cardiac function can recover significantly during this period when combined with medical support. Blood pressure and heart rhythm continue stabilizing.'**
+  String get methMilestone180Description;
+
+  /// No description provided for @methMilestone365Title.
+  ///
+  /// In en, this message translates to:
+  /// **'One Year - Major Brain Recovery'**
+  String get methMilestone365Title;
+
+  /// No description provided for @methMilestone365Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Dopamine system recovery reaches significant milestones. Your brain\'s ability to experience pleasure from natural rewards improves substantially. Cognitive function, mood regulation, and decision-making show marked improvements.'**
+  String get methMilestone365Description;
+
+  /// No description provided for @methMilestone420Title.
+  ///
+  /// In en, this message translates to:
+  /// **'14 Months - Dopamine Normalization'**
+  String get methMilestone420Title;
+
+  /// No description provided for @methMilestone420Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Brain imaging studies show dopamine transporter levels approaching normal at this stage. This represents the most significant phase of neurological recovery, with improvements in memory, motivation, and the ability to feel pleasure from everyday activities.'**
+  String get methMilestone420Description;
+
+  /// No description provided for @methMilestone730Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Two Years - Sustained Recovery'**
+  String get methMilestone730Title;
+
+  /// No description provided for @methMilestone730Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Long-term abstinence allows for continued brain healing. Attention and mood typically rebound within 12-18 months for most people. Your cognitive function, emotional regulation, and overall quality of life continue improving with sustained recovery.'**
+  String get methMilestone730Description;
+
   /// No description provided for @addictionCocaine.
   ///
   /// In en, this message translates to:
@@ -628,6 +772,12 @@ abstract class AppLocalizations {
   /// **'Show cocaine tracking'**
   String get settingsShowCocaineTracking;
 
+  /// No description provided for @settingsShowMethTracking.
+  ///
+  /// In en, this message translates to:
+  /// **'Show meth tracking'**
+  String get settingsShowMethTracking;
+
   /// Setting subtitle for showing adult content tracking
   ///
   /// In en, this message translates to:
@@ -693,6 +843,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Notify cocaine quitting progress'**
   String get settingsNotifyCocaine;
+
+  /// No description provided for @settingsNotifyMeth.
+  ///
+  /// In en, this message translates to:
+  /// **'Notify meth quitting progress'**
+  String get settingsNotifyMeth;
 
   /// Setting subtitle for adult content notifications
   ///

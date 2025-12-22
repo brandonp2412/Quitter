@@ -8,6 +8,7 @@ import 'package:quitter/alcohol_page.dart';
 import 'package:quitter/edit_entry_page.dart';
 import 'package:quitter/entry_page.dart';
 import 'package:quitter/marijuana_page.dart';
+import 'package:quitter/meth_page.dart';
 import 'package:quitter/nicotine_pouches.dart';
 import 'package:quitter/opioid_page.dart';
 import 'package:quitter/pornography_page.dart';
@@ -445,6 +446,35 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                       onLongPress: () {
                         _showHideBottomSheet(l10n.addictionCocaine, () {
                           settings.showCocaine = false;
+                        });
+                      },
+                    ),
+                  );
+                }
+
+                if (settings.showMeth) {
+                  cards.add(
+                    QuitCard(
+                      context: context,
+                      title: l10n.addictionMeth,
+                      icon: Icons.battery_charging_full,
+                      gradientColors: [
+                        const Color(0xFF14B8A6),
+                        const Color(0xFF0D9488),
+                      ],
+                      quitDate: addictions.quitMeth,
+                      onTap: () async {
+                        await Navigator.of(context).push(
+                          MaterialPageRoute(
+                            builder: (context) =>
+                                MethPage(started: addictions.quitMeth != null),
+                          ),
+                        );
+                        if (mounted) _loadQuitDays();
+                      },
+                      onLongPress: () {
+                        _showHideBottomSheet(l10n.addictionMeth, () {
+                          settings.showMeth = false;
                         });
                       },
                     ),

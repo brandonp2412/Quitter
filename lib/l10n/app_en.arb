@@ -16,6 +16,41 @@
     "description": "Tab label for the main Quitter tab"
   },
   
+  
+  "addictionMeth": "Meth",
+  "methPageTitle": "Meth Recovery",
+  "methHeaderStarted": "Your Recovery Journey",
+  "methHeaderNotStarted": "Ready to Start Your Recovery?",
+  "methSubtitleStarted": "Track your progress and celebrate each milestone",
+  "methSubtitleNotStarted": "See what positive changes await you",
+  
+  "methMilestone1Title": "First 24 Hours - The Crash Begins",
+  "methMilestone1Description": "The initial crash phase starts with profound fatigue and increased appetite as your body begins recovery. You may experience depression and sleep heavily as your system starts to stabilize from the intense stimulation.",
+  
+  "methMilestone3Title": "Day 3 - Peak Withdrawal",
+  "methMilestone3Description": "Cravings intensify significantly during this period as your body adjusts. You may experience increased energy compared to the crash phase, which can make cravings feel stronger. This is a critical time for relapse prevention and support.",
+  
+  "methMilestone7Title": "One Week - Physical Symptoms Ease",
+  "methMilestone7Description": "Acute withdrawal symptoms begin to subside, though psychological challenges remain. Your sleep patterns start normalizing and physical discomfort decreases. This marks the transition from acute to post-acute withdrawal.",
+  
+  "methMilestone30Title": "One Month - Emerging Stability",
+  "methMilestone30Description": "The honeymoon phase begins as your body heals and cravings start to fade. Energy levels increase and mood improves as your brain chemistry begins rebalancing. However, remain vigilant as challenges can still arise.",
+  
+  "methMilestone90Title": "Three Months - Brain Healing Begins",
+  "methMilestone90Description": "Your brain is actively working to restore normal function. Cognitive improvements become noticeable in areas like attention and decision-making. This period marks significant neurological recovery as your reward system starts to normalize.",
+  
+  "methMilestone180Title": "Six Months - Cardiovascular Recovery",
+  "methMilestone180Description": "Heart function shows measurable improvement with abstinence. Studies show cardiac function can recover significantly during this period when combined with medical support. Blood pressure and heart rhythm continue stabilizing.",
+  
+  "methMilestone365Title": "One Year - Major Brain Recovery",
+  "methMilestone365Description": "Dopamine system recovery reaches significant milestones. Your brain's ability to experience pleasure from natural rewards improves substantially. Cognitive function, mood regulation, and decision-making show marked improvements.",
+  
+  "methMilestone420Title": "14 Months - Dopamine Normalization",
+  "methMilestone420Description": "Brain imaging studies show dopamine transporter levels approaching normal at this stage. This represents the most significant phase of neurological recovery, with improvements in memory, motivation, and the ability to feel pleasure from everyday activities.",
+  
+  "methMilestone730Title": "Two Years - Sustained Recovery",
+  "methMilestone730Description": "Long-term abstinence allows for continued brain healing. Attention and mood typically rebound within 12-18 months for most people. Your cognitive function, emotional regulation, and overall quality of life continue improving with sustained recovery.",
+  
   "addictionCocaine": "Cocaine",
   "cocainePageTitle": "Cocaine Recovery",
   "cocaineHeaderStarted": "Your Recovery Journey",
@@ -373,6 +408,7 @@
   },
 
   "settingsShowCocaineTracking": "Show cocaine tracking",
+  "settingsShowMethTracking": "Show meth tracking",
 
   "settingsShowAdultContentTracking": "Show adult content tracking",
   "@settingsShowAdultContentTracking": {
@@ -433,6 +469,7 @@
   },
 
   "settingsNotifyCocaine": "Notify cocaine quitting progress",
+  "settingsNotifyMeth": "Notify meth quitting progress",
   "settingsNotifyAdultContent": "Notify adult content quitting progress",
   "@settingsNotifyAdultContent": {
     "description": "Setting subtitle for adult content notifications"
