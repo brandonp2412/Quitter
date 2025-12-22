@@ -118,6 +118,150 @@ abstract class AppLocalizations {
   /// **'Quitter'**
   String get tabQuitter;
 
+  /// No description provided for @addictionCocaine.
+  ///
+  /// In en, this message translates to:
+  /// **'Cocaine'**
+  String get addictionCocaine;
+
+  /// No description provided for @cocainePageTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Cocaine Recovery'**
+  String get cocainePageTitle;
+
+  /// No description provided for @cocaineHeaderStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Your Recovery Journey'**
+  String get cocaineHeaderStarted;
+
+  /// No description provided for @cocaineHeaderNotStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Ready to Start Your Recovery?'**
+  String get cocaineHeaderNotStarted;
+
+  /// No description provided for @cocaineSubtitleStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Track your progress and celebrate each milestone'**
+  String get cocaineSubtitleStarted;
+
+  /// No description provided for @cocaineSubtitleNotStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'See what positive changes await you'**
+  String get cocaineSubtitleNotStarted;
+
+  /// No description provided for @cocaineMilestone1Title.
+  ///
+  /// In en, this message translates to:
+  /// **'First 24 Hours - The Beginning'**
+  String get cocaineMilestone1Title;
+
+  /// No description provided for @cocaineMilestone1Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Your body begins adjusting as dopamine levels start to stabilize. You may experience fatigue, mood changes, and strong cravings, but your cardiovascular system is already beginning to recover.'**
+  String get cocaineMilestone1Description;
+
+  /// No description provided for @cocaineMilestone3Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Day 3 - Peak Challenge'**
+  String get cocaineMilestone3Title;
+
+  /// No description provided for @cocaineMilestone3Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Withdrawal symptoms often peak around this time. You may experience intense cravings, irritability, anxiety, and exhaustion. This is temporary - your brain is working hard to rebalance itself.'**
+  String get cocaineMilestone3Description;
+
+  /// No description provided for @cocaineMilestone7Title.
+  ///
+  /// In en, this message translates to:
+  /// **'One Week - Physical Recovery Begins'**
+  String get cocaineMilestone7Title;
+
+  /// No description provided for @cocaineMilestone7Description.
+  ///
+  /// In en, this message translates to:
+  /// **'The most intense physical symptoms are beginning to subside. Your heart rate and blood pressure are stabilizing. While psychological cravings may persist, your body is healing.'**
+  String get cocaineMilestone7Description;
+
+  /// No description provided for @cocaineMilestone14Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Two Weeks - Finding Stability'**
+  String get cocaineMilestone14Title;
+
+  /// No description provided for @cocaineMilestone14Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Many people start feeling more stable emotionally. Your energy levels are improving, and acute withdrawal symptoms are easing. Your cardiovascular health continues to improve significantly.'**
+  String get cocaineMilestone14Description;
+
+  /// No description provided for @cocaineMilestone60Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Two Months - Sleep and Mood Improve'**
+  String get cocaineMilestone60Title;
+
+  /// No description provided for @cocaineMilestone60Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Your sleep quality is noticeably better as your brain chemistry continues normalizing. You may find yourself feeling more rested and experiencing more stable moods throughout the day.'**
+  String get cocaineMilestone60Description;
+
+  /// No description provided for @cocaineMilestone90Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Three Months - Brain Restoration'**
+  String get cocaineMilestone90Title;
+
+  /// No description provided for @cocaineMilestone90Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Your brain is actively restoring dopamine receptors and neural pathways. You\'ll likely notice improvements in focus, decision-making, and emotional regulation. Cognitive function is significantly improved.'**
+  String get cocaineMilestone90Description;
+
+  /// No description provided for @cocaineMilestone180Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Six Months - Cognitive Gains'**
+  String get cocaineMilestone180Title;
+
+  /// No description provided for @cocaineMilestone180Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Brain imaging studies show increased gray matter volume in the prefrontal cortex at this stage. Your executive function, memory, and impulse control continue to strengthen. You\'re thinking more clearly.'**
+  String get cocaineMilestone180Description;
+
+  /// No description provided for @cocaineMilestone365Title.
+  ///
+  /// In en, this message translates to:
+  /// **'One Year - Cardiovascular Health'**
+  String get cocaineMilestone365Title;
+
+  /// No description provided for @cocaineMilestone365Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Your heart and cardiovascular system have made remarkable recovery. Blood pressure and heart rate are normalized. Risk of heart attack and stroke has decreased significantly. Your body is healing.'**
+  String get cocaineMilestone365Description;
+
+  /// No description provided for @cocaineMilestone730Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Two Years - Sustained Recovery'**
+  String get cocaineMilestone730Title;
+
+  /// No description provided for @cocaineMilestone730Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Brain healing continues with sustained improvements in memory, focus, and emotional regulation. Your neural pathways have significantly reorganized, supporting healthier patterns and better overall wellbeing.'**
+  String get cocaineMilestone730Description;
+
   /// Tab label for the Journal tab
   ///
   /// In en, this message translates to:
@@ -151,7 +295,7 @@ abstract class AppLocalizations {
   /// Floating action button label on quit page (reset button)
   ///
   /// In en, this message translates to:
-  /// **'Start'**
+  /// **'Reset'**
   String get quitResetButton;
 
   /// Prompt displayed on the quit card
@@ -478,6 +622,12 @@ abstract class AppLocalizations {
   /// **'Show social media tracking'**
   String get settingsShowSocialMediaTracking;
 
+  /// No description provided for @settingsShowCocaineTracking.
+  ///
+  /// In en, this message translates to:
+  /// **'Show cocaine tracking'**
+  String get settingsShowCocaineTracking;
+
   /// Setting subtitle for showing adult content tracking
   ///
   /// In en, this message translates to:
@@ -537,6 +687,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Notify social media quitting progress'**
   String get settingsNotifySocialMedia;
+
+  /// No description provided for @settingsNotifyCocaine.
+  ///
+  /// In en, this message translates to:
+  /// **'Notify cocaine quitting progress'**
+  String get settingsNotifyCocaine;
 
   /// Setting subtitle for adult content notifications
   ///

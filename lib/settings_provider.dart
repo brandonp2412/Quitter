@@ -30,6 +30,7 @@ class SettingsProvider extends ChangeNotifier {
     'opioids': 'show_opioids',
     'socialMedia': 'show_social_media',
     'pornography': 'show_pornography',
+    'cocaine': 'show_cocaine',
     'swipeTabs': 'swipe_tabs',
     'journal': 'show_journal',
   };
@@ -44,6 +45,7 @@ class SettingsProvider extends ChangeNotifier {
     'relapse': 'notify_relapse',
     'socialMedia': 'notify_social_media',
     'pornography': 'notify_pornography',
+    'cocaine': 'notify_cocaine',
   };
 
   bool _isPinEnabled = false;
@@ -83,6 +85,7 @@ class SettingsProvider extends ChangeNotifier {
   bool get showOpioids => _showSettings['opioids']!;
   bool get showSocialMedia => _showSettings['socialMedia']!;
   bool get showPornography => _showSettings['pornography']!;
+  bool get showCocaine => _showSettings['cocaine']!;
 
   bool get notifyAlcohol => _notifySettings['alcohol']!;
   bool get notifyVaping => _notifySettings['vaping']!;
@@ -91,6 +94,7 @@ class SettingsProvider extends ChangeNotifier {
   bool get notifyPouches => _notifySettings['pouches']!;
   bool get notifySocialMedia => _notifySettings['socialMedia']!;
   bool get notifyPornography => _notifySettings['pornography']!;
+  bool get notifyCocaine => _notifySettings['cocaine']!;
   bool get notifyRelapse => _notifySettings['relapse']!;
   bool get notifyMarijuana => _notifySettings['marijuana']!;
 
@@ -228,6 +232,8 @@ class SettingsProvider extends ChangeNotifier {
       _updateBoolSetting(_showSettings, _showKeys, 'opioids', show);
   set showSocialMedia(bool show) =>
       _updateBoolSetting(_showSettings, _showKeys, 'socialMedia', show);
+  set showCocaine(bool show) =>
+      _updateBoolSetting(_showSettings, _showKeys, 'cocaine', show);
   set showPornography(bool show) =>
       _updateBoolSetting(_showSettings, _showKeys, 'pornography', show);
 
@@ -243,6 +249,8 @@ class SettingsProvider extends ChangeNotifier {
       _updateBoolSetting(_notifySettings, _notifyKeys, 'pouches', notify);
   set notifySocialMedia(bool notify) =>
       _updateBoolSetting(_notifySettings, _notifyKeys, 'socialMedia', notify);
+  set notifyCocaine(bool notify) =>
+      _updateBoolSetting(_notifySettings, _notifyKeys, 'cocaine', notify);
   set notifyPornography(bool notify) =>
       _updateBoolSetting(_notifySettings, _notifyKeys, 'pornography', notify);
   set notifyRelapse(bool notify) =>

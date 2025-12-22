@@ -15,6 +15,40 @@
   "@tabQuitter": {
     "description": "Tab label for the main Quitter tab"
   },
+  
+  "addictionCocaine": "Cocaine",
+  "cocainePageTitle": "Cocaine Recovery",
+  "cocaineHeaderStarted": "Your Recovery Journey",
+  "cocaineHeaderNotStarted": "Ready to Start Your Recovery?",
+  "cocaineSubtitleStarted": "Track your progress and celebrate each milestone",
+  "cocaineSubtitleNotStarted": "See what positive changes await you",
+  
+  "cocaineMilestone1Title": "First 24 Hours - The Beginning",
+  "cocaineMilestone1Description": "Your body begins adjusting as dopamine levels start to stabilize. You may experience fatigue, mood changes, and strong cravings, but your cardiovascular system is already beginning to recover.",
+  
+  "cocaineMilestone3Title": "Day 3 - Peak Challenge",
+  "cocaineMilestone3Description": "Withdrawal symptoms often peak around this time. You may experience intense cravings, irritability, anxiety, and exhaustion. This is temporary - your brain is working hard to rebalance itself.",
+  
+  "cocaineMilestone7Title": "One Week - Physical Recovery Begins",
+  "cocaineMilestone7Description": "The most intense physical symptoms are beginning to subside. Your heart rate and blood pressure are stabilizing. While psychological cravings may persist, your body is healing.",
+  
+  "cocaineMilestone14Title": "Two Weeks - Finding Stability",
+  "cocaineMilestone14Description": "Many people start feeling more stable emotionally. Your energy levels are improving, and acute withdrawal symptoms are easing. Your cardiovascular health continues to improve significantly.",
+  
+  "cocaineMilestone60Title": "Two Months - Sleep and Mood Improve",
+  "cocaineMilestone60Description": "Your sleep quality is noticeably better as your brain chemistry continues normalizing. You may find yourself feeling more rested and experiencing more stable moods throughout the day.",
+  
+  "cocaineMilestone90Title": "Three Months - Brain Restoration",
+  "cocaineMilestone90Description": "Your brain is actively restoring dopamine receptors and neural pathways. You'll likely notice improvements in focus, decision-making, and emotional regulation. Cognitive function is significantly improved.",
+  
+  "cocaineMilestone180Title": "Six Months - Cognitive Gains",
+  "cocaineMilestone180Description": "Brain imaging studies show increased gray matter volume in the prefrontal cortex at this stage. Your executive function, memory, and impulse control continue to strengthen. You're thinking more clearly.",
+  
+  "cocaineMilestone365Title": "One Year - Cardiovascular Health",
+  "cocaineMilestone365Description": "Your heart and cardiovascular system have made remarkable recovery. Blood pressure and heart rate are normalized. Risk of heart attack and stroke has decreased significantly. Your body is healing.",
+  
+  "cocaineMilestone730Title": "Two Years - Sustained Recovery",
+  "cocaineMilestone730Description": "Brain healing continues with sustained improvements in memory, focus, and emotional regulation. Your neural pathways have significantly reorganized, supporting healthier patterns and better overall wellbeing.",
 
   "tabJournal": "Journal",
   "@tabJournal": {
@@ -41,7 +75,7 @@
     "description": "Floating action button label on quit page (start button)"
   },
 
-  "quitResetButton": "Start",
+  "quitResetButton": "Reset",
   "@quitResetButton": {
     "description": "Floating action button label on quit page (reset button)"
   },
@@ -338,6 +372,8 @@
     "description": "Setting subtitle for showing social media tracking"
   },
 
+  "settingsShowCocaineTracking": "Show cocaine tracking",
+
   "settingsShowAdultContentTracking": "Show adult content tracking",
   "@settingsShowAdultContentTracking": {
     "description": "Setting subtitle for showing adult content tracking"
@@ -396,6 +432,7 @@
     "description": "Setting subtitle for social media notifications"
   },
 
+  "settingsNotifyCocaine": "Notify cocaine quitting progress",
   "settingsNotifyAdultContent": "Notify adult content quitting progress",
   "@settingsNotifyAdultContent": {
     "description": "Setting subtitle for adult content notifications"

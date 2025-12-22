@@ -18,6 +18,88 @@ class AppLocalizationsZh extends AppLocalizations {
   String get tabQuitter => '戒瘾';
 
   @override
+  String get addictionCocaine => 'Cocaine';
+
+  @override
+  String get cocainePageTitle => 'Cocaine Recovery';
+
+  @override
+  String get cocaineHeaderStarted => 'Your Recovery Journey';
+
+  @override
+  String get cocaineHeaderNotStarted => 'Ready to Start Your Recovery?';
+
+  @override
+  String get cocaineSubtitleStarted =>
+      'Track your progress and celebrate each milestone';
+
+  @override
+  String get cocaineSubtitleNotStarted => 'See what positive changes await you';
+
+  @override
+  String get cocaineMilestone1Title => 'First 24 Hours - The Beginning';
+
+  @override
+  String get cocaineMilestone1Description =>
+      'Your body begins adjusting as dopamine levels start to stabilize. You may experience fatigue, mood changes, and strong cravings, but your cardiovascular system is already beginning to recover.';
+
+  @override
+  String get cocaineMilestone3Title => 'Day 3 - Peak Challenge';
+
+  @override
+  String get cocaineMilestone3Description =>
+      'Withdrawal symptoms often peak around this time. You may experience intense cravings, irritability, anxiety, and exhaustion. This is temporary - your brain is working hard to rebalance itself.';
+
+  @override
+  String get cocaineMilestone7Title => 'One Week - Physical Recovery Begins';
+
+  @override
+  String get cocaineMilestone7Description =>
+      'The most intense physical symptoms are beginning to subside. Your heart rate and blood pressure are stabilizing. While psychological cravings may persist, your body is healing.';
+
+  @override
+  String get cocaineMilestone14Title => 'Two Weeks - Finding Stability';
+
+  @override
+  String get cocaineMilestone14Description =>
+      'Many people start feeling more stable emotionally. Your energy levels are improving, and acute withdrawal symptoms are easing. Your cardiovascular health continues to improve significantly.';
+
+  @override
+  String get cocaineMilestone60Title => 'Two Months - Sleep and Mood Improve';
+
+  @override
+  String get cocaineMilestone60Description =>
+      'Your sleep quality is noticeably better as your brain chemistry continues normalizing. You may find yourself feeling more rested and experiencing more stable moods throughout the day.';
+
+  @override
+  String get cocaineMilestone90Title => 'Three Months - Brain Restoration';
+
+  @override
+  String get cocaineMilestone90Description =>
+      'Your brain is actively restoring dopamine receptors and neural pathways. You\'ll likely notice improvements in focus, decision-making, and emotional regulation. Cognitive function is significantly improved.';
+
+  @override
+  String get cocaineMilestone180Title => 'Six Months - Cognitive Gains';
+
+  @override
+  String get cocaineMilestone180Description =>
+      'Brain imaging studies show increased gray matter volume in the prefrontal cortex at this stage. Your executive function, memory, and impulse control continue to strengthen. You\'re thinking more clearly.';
+
+  @override
+  String get cocaineMilestone365Title => 'One Year - Cardiovascular Health';
+
+  @override
+  String get cocaineMilestone365Description =>
+      'Your heart and cardiovascular system have made remarkable recovery. Blood pressure and heart rate are normalized. Risk of heart attack and stroke has decreased significantly. Your body is healing.';
+
+  @override
+  String get cocaineMilestone730Title => 'Two Years - Sustained Recovery';
+
+  @override
+  String get cocaineMilestone730Description =>
+      'Brain healing continues with sustained improvements in memory, focus, and emotional regulation. Your neural pathways have significantly reorganized, supporting healthier patterns and better overall wellbeing.';
+
+  @override
   String get tabJournal => '日记';
 
   @override
@@ -206,6 +288,9 @@ class AppLocalizationsZh extends AppLocalizations {
   String get settingsShowSocialMediaTracking => '显示社交媒体追踪';
 
   @override
+  String get settingsShowCocaineTracking => 'Show cocaine tracking';
+
+  @override
   String get settingsShowAdultContentTracking => '显示成人内容追踪';
 
   @override
@@ -236,6 +321,9 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get settingsNotifySocialMedia => '通知戒社交媒体进度';
+
+  @override
+  String get settingsNotifyCocaine => 'Notify cocaine quitting progress';
 
   @override
   String get settingsNotifyAdultContent => '通知戒成人内容进度';

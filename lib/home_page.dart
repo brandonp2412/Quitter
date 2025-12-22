@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:quitter/cocaine_page.dart';
 import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:provider/provider.dart';
@@ -175,7 +176,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
               left: 16,
               right: 16,
               top: 16,
-              bottom: 16 + MediaQuery.of(context).padding.bottom,
+              bottom: 56 + MediaQuery.of(context).padding.bottom,
             ),
             sliver: Consumer2<SettingsProvider, AddictionProvider>(
               builder: (context, settings, addictions, child) {
@@ -414,6 +415,36 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                       onLongPress: () {
                         _showHideBottomSheet(l10n.addictionAC, () {
                           settings.showPornography = false;
+                        });
+                      },
+                    ),
+                  );
+                }
+
+                if (settings.showCocaine) {
+                  cards.add(
+                    QuitCard(
+                      context: context,
+                      title: l10n.addictionCocaine,
+                      icon: Icons.bolt,
+                      gradientColors: [
+                        const Color(0xFF3B82F6),
+                        const Color(0xFF1D4ED8),
+                      ],
+                      quitDate: addictions.quitCocaine,
+                      onTap: () async {
+                        await Navigator.of(context).push(
+                          MaterialPageRoute(
+                            builder: (context) => CocainePage(
+                              started: addictions.quitCocaine != null,
+                            ),
+                          ),
+                        );
+                        if (mounted) _loadQuitDays();
+                      },
+                      onLongPress: () {
+                        _showHideBottomSheet(l10n.addictionCocaine, () {
+                          settings.showCocaine = false;
                         });
                       },
                     ),

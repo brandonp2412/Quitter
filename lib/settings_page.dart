@@ -435,6 +435,13 @@ class _SettingsPageState extends State<SettingsPage> {
         value: settings.showPornography,
         onChanged: (value) => settings.showPornography = value,
       ),
+      _ToggleItem(
+        icon: Icons.bolt,
+        title: l10n.addictionCocaine,
+        subtitle: l10n.settingsShowCocaineTracking,
+        value: settings.showCocaine,
+        onChanged: (value) => settings.showCocaine = value,
+      ),
     ];
 
     return [
@@ -504,6 +511,13 @@ class _SettingsPageState extends State<SettingsPage> {
         subtitle: l10n.settingsNotifyAdultContent,
         value: settings.notifyPornography,
         onChanged: (value) => settings.notifyPornography = value,
+      ),
+      _ToggleItem(
+        icon: Icons.bolt,
+        title: l10n.addictionCocaine,
+        subtitle: l10n.settingsNotifyCocaine,
+        value: settings.notifyCocaine,
+        onChanged: (value) => settings.notifyCocaine = value,
       ),
       _ToggleItem(
         icon: Icons.reset_tv,
