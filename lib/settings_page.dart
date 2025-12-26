@@ -384,70 +384,100 @@ class _SettingsPageState extends State<SettingsPage> {
         title: l10n.addictionAlcohol,
         subtitle: l10n.settingsShowAlcoholTracking,
         value: settings.showAlcohol,
-        onChanged: (value) => settings.showAlcohol = value,
+        onChanged: (value) {
+          settings.showAlcohol = value;
+          settings.notifyAlcohol = value;
+        },
       ),
       _ToggleItem(
         icon: Icons.air,
         title: l10n.addictionVaping,
         subtitle: l10n.settingsShowVapingTracking,
         value: settings.showVaping,
-        onChanged: (value) => settings.showVaping = value,
+        onChanged: (value) {
+          settings.showVaping = value;
+          settings.notifyVaping = value;
+        },
       ),
       _ToggleItem(
         icon: Icons.eco,
         title: l10n.addictionSmoking,
         subtitle: l10n.settingsShowSmokingTracking,
         value: settings.showSmoking,
-        onChanged: (value) => settings.showSmoking = value,
+        onChanged: (value) {
+          settings.showSmoking = value;
+          settings.notifySmoking = value;
+        },
       ),
       _ToggleItem(
         icon: Icons.grass,
         title: l10n.addictionMarijuana,
         subtitle: l10n.settingsShowMarijuanaTracking,
         value: settings.showMarijuana,
-        onChanged: (value) => settings.showMarijuana = value,
+        onChanged: (value) {
+          settings.showMarijuana = value;
+          settings.notifyMarijuana = value;
+        },
       ),
       _ToggleItem(
         icon: Icons.scatter_plot,
         title: l10n.addictionNicotinePouches,
         subtitle: l10n.settingsShowNicotinePouchesTracking,
         value: settings.showNicotinePouches,
-        onChanged: (value) => settings.showNicotinePouches = value,
+        onChanged: (value) {
+          settings.showNicotinePouches = value;
+          settings.notifyPouches = value;
+        },
       ),
       _ToggleItem(
         icon: Icons.medication,
         title: l10n.addictionOpioids,
         subtitle: l10n.settingsShowOpioidsTracking,
         value: settings.showOpioids,
-        onChanged: (value) => settings.showOpioids = value,
+        onChanged: (value) {
+          settings.showOpioids = value;
+          settings.notifyOpioids = value;
+        },
       ),
       _ToggleItem(
         icon: Icons.public,
         title: l10n.addictionSocialMedia,
         subtitle: l10n.settingsShowSocialMediaTracking,
         value: settings.showSocialMedia,
-        onChanged: (value) => settings.showSocialMedia = value,
+        onChanged: (value) {
+          settings.showSocialMedia = value;
+          settings.notifySocialMedia = value;
+        },
       ),
       _ToggleItem(
         icon: Icons.block,
         title: l10n.addictionAC,
         subtitle: l10n.settingsShowAdultContentTracking,
         value: settings.showPornography,
-        onChanged: (value) => settings.showPornography = value,
+        onChanged: (value) {
+          settings.showPornography = value;
+          settings.notifyPornography = value;
+        },
       ),
       _ToggleItem(
         icon: Icons.bolt,
         title: l10n.addictionCocaine,
         subtitle: l10n.settingsShowCocaineTracking,
         value: settings.showCocaine,
-        onChanged: (value) => settings.showCocaine = value,
+        onChanged: (value) {
+          settings.showCocaine = value;
+          settings.notifyCocaine = value;
+        },
       ),
       _ToggleItem(
         icon: Icons.battery_charging_full,
         title: l10n.addictionMeth,
         subtitle: l10n.settingsShowMethTracking,
         value: settings.showMeth,
-        onChanged: (value) => settings.showMeth = value,
+        onChanged: (value) {
+          settings.showMeth = value;
+          settings.notifyMeth = value;
+        },
       ),
     ];
 
