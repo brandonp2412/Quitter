@@ -18,6 +18,18 @@ class AppLocalizationsZh extends AppLocalizations {
   String get tabQuitter => '戒瘾';
 
   @override
+  String get showAllItems => 'Show all items';
+
+  @override
+  String get showAllSubtitle => 'Enable or disable all main screen items';
+
+  @override
+  String get enableNotifications => 'Enable all notifications';
+
+  @override
+  String get enableNotificationsSubtitle => 'Turn on or off all notifications';
+
+  @override
   String get heroinPageTitle => 'Heroin Recovery';
 
   @override

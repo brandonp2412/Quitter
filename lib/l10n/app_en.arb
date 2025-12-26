@@ -16,6 +16,12 @@
     "description": "Tab label for the main Quitter tab"
   },
   
+  "showAllItems": "Show all items",
+  "showAllSubtitle": "Enable or disable all main screen items",
+
+  "enableNotifications": "Enable all notifications",
+  "enableNotificationsSubtitle": "Turn on or off all notifications",
+  
   "heroinPageTitle": "Heroin Recovery",
   "heroinHeaderStarted": "Your Recovery Journey",
   "heroinHeaderNotStarted": "Benefits of Quitting Heroin",

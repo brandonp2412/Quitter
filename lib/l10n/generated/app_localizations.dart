@@ -118,6 +118,30 @@ abstract class AppLocalizations {
   /// **'Quitter'**
   String get tabQuitter;
 
+  /// No description provided for @showAllItems.
+  ///
+  /// In en, this message translates to:
+  /// **'Show all items'**
+  String get showAllItems;
+
+  /// No description provided for @showAllSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Enable or disable all main screen items'**
+  String get showAllSubtitle;
+
+  /// No description provided for @enableNotifications.
+  ///
+  /// In en, this message translates to:
+  /// **'Enable all notifications'**
+  String get enableNotifications;
+
+  /// No description provided for @enableNotificationsSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Turn on or off all notifications'**
+  String get enableNotificationsSubtitle;
+
   /// No description provided for @heroinPageTitle.
   ///
   /// In en, this message translates to:
