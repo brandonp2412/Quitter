@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:quitter/cocaine_page.dart';
+import 'package:quitter/heroin_page.dart';
 import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:provider/provider.dart';
@@ -569,6 +570,37 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                       onLongPress: () {
                         _showHideBottomSheet(l10n.addictionMeth, () {
                           settings.showMeth = false;
+                        });
+                      },
+                    ),
+                  );
+                }
+
+                if (settings.showHeroin &&
+                    _matchesSearch(l10n.addictionHeroin)) {
+                  cards.add(
+                    QuitCard(
+                      context: context,
+                      title: l10n.addictionHeroin,
+                      icon: Icons.vaccines,
+                      gradientColors: [
+                        const Color.fromARGB(255, 133, 14, 163),
+                        const Color.fromARGB(255, 201, 5, 250),
+                      ],
+                      quitDate: addictions.quitHeroin,
+                      onTap: () async {
+                        await Navigator.of(context).push(
+                          MaterialPageRoute(
+                            builder: (context) => HeroinPage(
+                              started: addictions.quitHeroin != null,
+                            ),
+                          ),
+                        );
+                        if (mounted) _loadQuitDays();
+                      },
+                      onLongPress: () {
+                        _showHideBottomSheet(l10n.addictionHeroin, () {
+                          settings.showHeroin = false;
                         });
                       },
                     ),

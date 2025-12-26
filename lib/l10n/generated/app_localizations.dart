@@ -118,11 +118,155 @@ abstract class AppLocalizations {
   /// **'Quitter'**
   String get tabQuitter;
 
+  /// No description provided for @heroinPageTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Heroin Recovery'**
+  String get heroinPageTitle;
+
+  /// No description provided for @heroinHeaderStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Your Recovery Journey'**
+  String get heroinHeaderStarted;
+
+  /// No description provided for @heroinHeaderNotStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Benefits of Quitting Heroin'**
+  String get heroinHeaderNotStarted;
+
+  /// No description provided for @heroinSubtitleStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Track your progress and celebrate each milestone'**
+  String get heroinSubtitleStarted;
+
+  /// No description provided for @heroinSubtitleNotStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'See what happens when you quit'**
+  String get heroinSubtitleNotStarted;
+
+  /// No description provided for @heroinMilestone1Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Withdrawal Begins'**
+  String get heroinMilestone1Title;
+
+  /// No description provided for @heroinMilestone1Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Your body starts the detox process. Early withdrawal symptoms like anxiety, sweating, and muscle aches may begin within 6-24 hours. This is your body beginning to heal.'**
+  String get heroinMilestone1Description;
+
+  /// No description provided for @heroinMilestone3Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Peak Withdrawal'**
+  String get heroinMilestone3Title;
+
+  /// No description provided for @heroinMilestone3Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Acute withdrawal symptoms typically peak around days 2-3. While challenging, this marks the most intense phase. Physical symptoms include nausea, vomiting, body aches, and insomnia. Support is crucial during this time.'**
+  String get heroinMilestone3Description;
+
+  /// No description provided for @heroinMilestone7Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Acute Symptoms Subside'**
+  String get heroinMilestone7Title;
+
+  /// No description provided for @heroinMilestone7Description.
+  ///
+  /// In en, this message translates to:
+  /// **'The most severe physical withdrawal symptoms begin to fade. Your body is adjusting to functioning without heroin. Sleep may still be disrupted, but you\'re through the hardest physical phase.'**
+  String get heroinMilestone7Description;
+
+  /// No description provided for @heroinMilestone30Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Physical Health Normalizes'**
+  String get heroinMilestone30Title;
+
+  /// No description provided for @heroinMilestone30Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Your sleep patterns, appetite, and energy levels start returning to normal. Physical health improvements become noticeable. Your body\'s natural systems are beginning to regulate themselves again.'**
+  String get heroinMilestone30Description;
+
+  /// No description provided for @heroinMilestone90Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Immune System Recovery'**
+  String get heroinMilestone90Title;
+
+  /// No description provided for @heroinMilestone90Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Your immune system begins significant recovery after months of suppression. You\'ll likely get sick less often and fight off infections more effectively. Cardiovascular health continues to improve.'**
+  String get heroinMilestone90Description;
+
+  /// No description provided for @heroinMilestone180Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Cognitive Improvements'**
+  String get heroinMilestone180Title;
+
+  /// No description provided for @heroinMilestone180Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Notable improvements in memory, attention, and decision-making abilities. Brain imaging studies show measurable recovery in areas affected by heroin use. Mental clarity continues to increase.'**
+  String get heroinMilestone180Description;
+
+  /// No description provided for @heroinMilestone365Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Major Brain Healing'**
+  String get heroinMilestone365Title;
+
+  /// No description provided for @heroinMilestone365Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Significant restoration of brain function and emotional regulation. Dopamine receptors continue to normalize, making natural rewards more satisfying. Many experience improved relationships and life satisfaction.'**
+  String get heroinMilestone365Description;
+
+  /// No description provided for @heroinMilestone540Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Continued Cognitive Recovery'**
+  String get heroinMilestone540Title;
+
+  /// No description provided for @heroinMilestone540Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Executive function, impulse control, and emotional stability continue to improve. The brain\'s reward system becomes increasingly balanced. Long-term abstinence strengthens neural pathways for healthy decision-making.'**
+  String get heroinMilestone540Description;
+
+  /// No description provided for @heroinMilestone730Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Long-Term Brain Recovery'**
+  String get heroinMilestone730Title;
+
+  /// No description provided for @heroinMilestone730Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Two years of recovery brings substantial neuroplasticity and brain healing. Cognitive function approaches pre-addiction levels. You\'ve built a strong foundation for sustained recovery and a healthier future.'**
+  String get heroinMilestone730Description;
+
   /// No description provided for @addictionMeth.
   ///
   /// In en, this message translates to:
   /// **'Meth'**
   String get addictionMeth;
+
+  /// No description provided for @addictionHeroin.
+  ///
+  /// In en, this message translates to:
+  /// **'Heroin'**
+  String get addictionHeroin;
 
   /// No description provided for @methPageTitle.
   ///
