@@ -49,8 +49,42 @@
   "heroinMilestone730Title": "Long-Term Brain Recovery",
   "heroinMilestone730Description": "Two years of recovery brings substantial neuroplasticity and brain healing. Cognitive function approaches pre-addiction levels. You've built a strong foundation for sustained recovery and a healthier future.",
   
+  "benzoPageTitle": "Benzodiazepine Recovery",
+  "benzoHeaderStarted": "Your Recovery Journey",
+  "benzoHeaderNotStarted": "Benefits of Quitting Benzodiazepines",
+  "benzoSubtitleStarted": "Track your progress and celebrate each milestone",
+  "benzoSubtitleNotStarted": "See what happens when you quit",
+  
+  "benzoMilestone7Title": "Early Withdrawal Phase",
+  "benzoMilestone7Description": "After completing a gradual taper, early withdrawal symptoms like rebound anxiety and insomnia may appear. This is your nervous system beginning to readjust. Medical support during this phase is crucial for safety and comfort.",
+  
+  "benzoMilestone14Title": "Acute Withdrawal Peak",
+  "benzoMilestone14Description": "Acute withdrawal symptoms typically peak within the first two weeks. You may experience anxiety, sleep disturbances, and physical discomfort. These symptoms, while challenging, indicate your brain is starting to heal and rebalance.",
+  
+  "benzoMilestone60Title": "Sleep Architecture Improves",
+  "benzoMilestone60Description": "Studies show that after 2 months, your natural sleep patterns begin to restore. Slow-wave sleep increases and sleep quality improves compared to when taking benzodiazepines, even though overall sleep efficiency may still be recovering.",
+  
+  "benzoMilestone90Title": "Physical Health Stabilizes",
+  "benzoMilestone90Description": "Around 3 months, many physical withdrawal symptoms have significantly improved. Your body is continuing to adjust to functioning without medication. Anxiety and mood may still fluctuate, but overall functioning improves.",
+  
+  "benzoMilestone180Title": "Cognitive Function Begins Recovery",
+  "benzoMilestone180Description": "At 6 months, noticeable improvements in memory, attention, and cognitive function begin to emerge. Research shows modest recovery in many cognitive areas, though full restoration takes longer. Your brain's natural abilities are gradually returning.",
+  
+  "benzoMilestone365Title": "One Year of Healing",
+  "benzoMilestone365Description": "After one year, significant improvements in mental and physical wellbeing become apparent. Many report reduced anxiety, better sleep quality, and improved overall health compared to when taking benzodiazepines long-term. Brain healing continues.",
+  
+  "benzoMilestone540Title": "Continued Brain Recovery",
+  "benzoMilestone540Description": "At 18 months, continued cognitive improvements occur. GABA receptor function normalizes within 2-6 months of cessation, and brain structure begins recovering. Neuroplasticity allows your brain to form new, healthier neural pathways.",
+  
+  "benzoMilestone730Title": "Two Years: Major Progress",
+  "benzoMilestone730Description": "Two years marks substantial recovery. Most people experience significant improvements in cognitive function, emotional regulation, and quality of life. While some may still experience gradual improvements, many have returned to pre-benzodiazepine functioning.",
+  
+  "benzoMilestone1095Title": "Three Years: Long-Term Recovery",
+  "benzoMilestone1095Description": "At three years, physical brain structure recovery reaches completion for most individuals. Hippocampal and amygdala volumes continue normalizing through neuroplasticity. You've achieved lasting recovery and rebuilt a healthier foundation for life.",
+  
   "addictionMeth": "Meth",
   "addictionHeroin": "Heroin",
+  "addictionBenzos": "Benzos",
   "methPageTitle": "Meth Recovery",
   "methHeaderStarted": "Your Recovery Journey",
   "methHeaderNotStarted": "Drop the Glass",
@@ -390,6 +424,9 @@
     "description": "Setting title for journal visibility"
   },
 
+  "settingsShowHeroinSubtitle": "Show heroin tracking",
+  "settingsShowBenzosSubtitle": "Show benzos tracking",
+
   "settingsShowJournalSubtitle": "Enable the journal tab for logging your thoughts",
   "@settingsShowJournalSubtitle": {
     "description": "Subtitle explaining show journal setting"
@@ -491,6 +528,8 @@
     "description": "Setting subtitle for nicotine pouches notifications"
   },
 
+  "settingsNotifyHeroin": "Notify heroin quitting progress",
+  "settingsNotifyBenzos": "Notify benzos quitting progress",
   "settingsNotifyOpioids": "Notify opioids quitting progress",
   "@settingsNotifyOpioids": {
     "description": "Setting subtitle for opioids notifications"

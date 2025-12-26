@@ -97,10 +97,92 @@ class AppLocalizationsEn extends AppLocalizations {
       'Two years of recovery brings substantial neuroplasticity and brain healing. Cognitive function approaches pre-addiction levels. You\'ve built a strong foundation for sustained recovery and a healthier future.';
 
   @override
+  String get benzoPageTitle => 'Benzodiazepine Recovery';
+
+  @override
+  String get benzoHeaderStarted => 'Your Recovery Journey';
+
+  @override
+  String get benzoHeaderNotStarted => 'Benefits of Quitting Benzodiazepines';
+
+  @override
+  String get benzoSubtitleStarted =>
+      'Track your progress and celebrate each milestone';
+
+  @override
+  String get benzoSubtitleNotStarted => 'See what happens when you quit';
+
+  @override
+  String get benzoMilestone7Title => 'Early Withdrawal Phase';
+
+  @override
+  String get benzoMilestone7Description =>
+      'After completing a gradual taper, early withdrawal symptoms like rebound anxiety and insomnia may appear. This is your nervous system beginning to readjust. Medical support during this phase is crucial for safety and comfort.';
+
+  @override
+  String get benzoMilestone14Title => 'Acute Withdrawal Peak';
+
+  @override
+  String get benzoMilestone14Description =>
+      'Acute withdrawal symptoms typically peak within the first two weeks. You may experience anxiety, sleep disturbances, and physical discomfort. These symptoms, while challenging, indicate your brain is starting to heal and rebalance.';
+
+  @override
+  String get benzoMilestone60Title => 'Sleep Architecture Improves';
+
+  @override
+  String get benzoMilestone60Description =>
+      'Studies show that after 2 months, your natural sleep patterns begin to restore. Slow-wave sleep increases and sleep quality improves compared to when taking benzodiazepines, even though overall sleep efficiency may still be recovering.';
+
+  @override
+  String get benzoMilestone90Title => 'Physical Health Stabilizes';
+
+  @override
+  String get benzoMilestone90Description =>
+      'Around 3 months, many physical withdrawal symptoms have significantly improved. Your body is continuing to adjust to functioning without medication. Anxiety and mood may still fluctuate, but overall functioning improves.';
+
+  @override
+  String get benzoMilestone180Title => 'Cognitive Function Begins Recovery';
+
+  @override
+  String get benzoMilestone180Description =>
+      'At 6 months, noticeable improvements in memory, attention, and cognitive function begin to emerge. Research shows modest recovery in many cognitive areas, though full restoration takes longer. Your brain\'s natural abilities are gradually returning.';
+
+  @override
+  String get benzoMilestone365Title => 'One Year of Healing';
+
+  @override
+  String get benzoMilestone365Description =>
+      'After one year, significant improvements in mental and physical wellbeing become apparent. Many report reduced anxiety, better sleep quality, and improved overall health compared to when taking benzodiazepines long-term. Brain healing continues.';
+
+  @override
+  String get benzoMilestone540Title => 'Continued Brain Recovery';
+
+  @override
+  String get benzoMilestone540Description =>
+      'At 18 months, continued cognitive improvements occur. GABA receptor function normalizes within 2-6 months of cessation, and brain structure begins recovering. Neuroplasticity allows your brain to form new, healthier neural pathways.';
+
+  @override
+  String get benzoMilestone730Title => 'Two Years: Major Progress';
+
+  @override
+  String get benzoMilestone730Description =>
+      'Two years marks substantial recovery. Most people experience significant improvements in cognitive function, emotional regulation, and quality of life. While some may still experience gradual improvements, many have returned to pre-benzodiazepine functioning.';
+
+  @override
+  String get benzoMilestone1095Title => 'Three Years: Long-Term Recovery';
+
+  @override
+  String get benzoMilestone1095Description =>
+      'At three years, physical brain structure recovery reaches completion for most individuals. Hippocampal and amygdala volumes continue normalizing through neuroplasticity. You\'ve achieved lasting recovery and rebuilt a healthier foundation for life.';
+
+  @override
   String get addictionMeth => 'Meth';
 
   @override
   String get addictionHeroin => 'Heroin';
+
+  @override
+  String get addictionBenzos => 'Benzos';
 
   @override
   String get methPageTitle => 'Meth Recovery';
@@ -428,6 +510,12 @@ class AppLocalizationsEn extends AppLocalizations {
   String get settingsShowJournal => 'Show journal';
 
   @override
+  String get settingsShowHeroinSubtitle => 'Show heroin tracking';
+
+  @override
+  String get settingsShowBenzosSubtitle => 'Show benzos tracking';
+
+  @override
   String get settingsShowJournalSubtitle =>
       'Enable the journal tab for logging your thoughts';
 
@@ -492,6 +580,12 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get settingsNotifyNicotinePouches =>
       'Notify nicotine pouches quitting progress';
+
+  @override
+  String get settingsNotifyHeroin => 'Notify heroin quitting progress';
+
+  @override
+  String get settingsNotifyBenzos => 'Notify benzos quitting progress';
 
   @override
   String get settingsNotifyOpioids => 'Notify opioids quitting progress';

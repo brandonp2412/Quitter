@@ -18,6 +18,7 @@ class AddictionProvider extends ChangeNotifier {
   String? _meth;
   String? _heroin;
   String? _marijuana;
+  String? _benzos;
 
   List<Entry> entries = [];
   Map<String, List<int>> _days = {};
@@ -36,6 +37,7 @@ class AddictionProvider extends ChangeNotifier {
     _cocaine = _pref!.getString('cocaine');
     _meth = _pref!.getString('meth');
     _heroin = _pref!.getString('heroin');
+    _benzos = _pref!.getString('benzos');
 
     final String? entriesJson = _pref!.getString('entries');
     if (entriesJson != null) {
@@ -81,6 +83,7 @@ class AddictionProvider extends ChangeNotifier {
   String? get quitPornography => _pornography;
   String? get quitMeth => _meth;
   String? get quitHeroin => _heroin;
+  String? get quitBenzos => _benzos;
   String? get quitCocaine => _cocaine;
   String? get quitMarijuana => _marijuana;
 
