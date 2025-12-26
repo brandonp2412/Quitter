@@ -18,7 +18,89 @@ class AppLocalizationsEn extends AppLocalizations {
   String get tabQuitter => 'Quitter';
 
   @override
+  String get heroinPageTitle => 'Heroin Recovery';
+
+  @override
+  String get heroinHeaderStarted => 'Your Recovery Journey';
+
+  @override
+  String get heroinHeaderNotStarted => 'Benefits of Quitting Heroin';
+
+  @override
+  String get heroinSubtitleStarted =>
+      'Track your progress and celebrate each milestone';
+
+  @override
+  String get heroinSubtitleNotStarted => 'See what happens when you quit';
+
+  @override
+  String get heroinMilestone1Title => 'Withdrawal Begins';
+
+  @override
+  String get heroinMilestone1Description =>
+      'Your body starts the detox process. Early withdrawal symptoms like anxiety, sweating, and muscle aches may begin within 6-24 hours. This is your body beginning to heal.';
+
+  @override
+  String get heroinMilestone3Title => 'Peak Withdrawal';
+
+  @override
+  String get heroinMilestone3Description =>
+      'Acute withdrawal symptoms typically peak around days 2-3. While challenging, this marks the most intense phase. Physical symptoms include nausea, vomiting, body aches, and insomnia. Support is crucial during this time.';
+
+  @override
+  String get heroinMilestone7Title => 'Acute Symptoms Subside';
+
+  @override
+  String get heroinMilestone7Description =>
+      'The most severe physical withdrawal symptoms begin to fade. Your body is adjusting to functioning without heroin. Sleep may still be disrupted, but you\'re through the hardest physical phase.';
+
+  @override
+  String get heroinMilestone30Title => 'Physical Health Normalizes';
+
+  @override
+  String get heroinMilestone30Description =>
+      'Your sleep patterns, appetite, and energy levels start returning to normal. Physical health improvements become noticeable. Your body\'s natural systems are beginning to regulate themselves again.';
+
+  @override
+  String get heroinMilestone90Title => 'Immune System Recovery';
+
+  @override
+  String get heroinMilestone90Description =>
+      'Your immune system begins significant recovery after months of suppression. You\'ll likely get sick less often and fight off infections more effectively. Cardiovascular health continues to improve.';
+
+  @override
+  String get heroinMilestone180Title => 'Cognitive Improvements';
+
+  @override
+  String get heroinMilestone180Description =>
+      'Notable improvements in memory, attention, and decision-making abilities. Brain imaging studies show measurable recovery in areas affected by heroin use. Mental clarity continues to increase.';
+
+  @override
+  String get heroinMilestone365Title => 'Major Brain Healing';
+
+  @override
+  String get heroinMilestone365Description =>
+      'Significant restoration of brain function and emotional regulation. Dopamine receptors continue to normalize, making natural rewards more satisfying. Many experience improved relationships and life satisfaction.';
+
+  @override
+  String get heroinMilestone540Title => 'Continued Cognitive Recovery';
+
+  @override
+  String get heroinMilestone540Description =>
+      'Executive function, impulse control, and emotional stability continue to improve. The brain\'s reward system becomes increasingly balanced. Long-term abstinence strengthens neural pathways for healthy decision-making.';
+
+  @override
+  String get heroinMilestone730Title => 'Long-Term Brain Recovery';
+
+  @override
+  String get heroinMilestone730Description =>
+      'Two years of recovery brings substantial neuroplasticity and brain healing. Cognitive function approaches pre-addiction levels. You\'ve built a strong foundation for sustained recovery and a healthier future.';
+
+  @override
   String get addictionMeth => 'Meth';
+
+  @override
+  String get addictionHeroin => 'Heroin';
 
   @override
   String get methPageTitle => 'Meth Recovery';

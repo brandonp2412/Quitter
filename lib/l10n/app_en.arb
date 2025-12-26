@@ -16,8 +16,41 @@
     "description": "Tab label for the main Quitter tab"
   },
   
+  "heroinPageTitle": "Heroin Recovery",
+  "heroinHeaderStarted": "Your Recovery Journey",
+  "heroinHeaderNotStarted": "Benefits of Quitting Heroin",
+  "heroinSubtitleStarted": "Track your progress and celebrate each milestone",
+  "heroinSubtitleNotStarted": "See what happens when you quit",
+  
+  "heroinMilestone1Title": "Withdrawal Begins",
+  "heroinMilestone1Description": "Your body starts the detox process. Early withdrawal symptoms like anxiety, sweating, and muscle aches may begin within 6-24 hours. This is your body beginning to heal.",
+  
+  "heroinMilestone3Title": "Peak Withdrawal",
+  "heroinMilestone3Description": "Acute withdrawal symptoms typically peak around days 2-3. While challenging, this marks the most intense phase. Physical symptoms include nausea, vomiting, body aches, and insomnia. Support is crucial during this time.",
+  
+  "heroinMilestone7Title": "Acute Symptoms Subside",
+  "heroinMilestone7Description": "The most severe physical withdrawal symptoms begin to fade. Your body is adjusting to functioning without heroin. Sleep may still be disrupted, but you're through the hardest physical phase.",
+  
+  "heroinMilestone30Title": "Physical Health Normalizes",
+  "heroinMilestone30Description": "Your sleep patterns, appetite, and energy levels start returning to normal. Physical health improvements become noticeable. Your body's natural systems are beginning to regulate themselves again.",
+  
+  "heroinMilestone90Title": "Immune System Recovery",
+  "heroinMilestone90Description": "Your immune system begins significant recovery after months of suppression. You'll likely get sick less often and fight off infections more effectively. Cardiovascular health continues to improve.",
+  
+  "heroinMilestone180Title": "Cognitive Improvements",
+  "heroinMilestone180Description": "Notable improvements in memory, attention, and decision-making abilities. Brain imaging studies show measurable recovery in areas affected by heroin use. Mental clarity continues to increase.",
+  
+  "heroinMilestone365Title": "Major Brain Healing",
+  "heroinMilestone365Description": "Significant restoration of brain function and emotional regulation. Dopamine receptors continue to normalize, making natural rewards more satisfying. Many experience improved relationships and life satisfaction.",
+  
+  "heroinMilestone540Title": "Continued Cognitive Recovery",
+  "heroinMilestone540Description": "Executive function, impulse control, and emotional stability continue to improve. The brain's reward system becomes increasingly balanced. Long-term abstinence strengthens neural pathways for healthy decision-making.",
+  
+  "heroinMilestone730Title": "Long-Term Brain Recovery",
+  "heroinMilestone730Description": "Two years of recovery brings substantial neuroplasticity and brain healing. Cognitive function approaches pre-addiction levels. You've built a strong foundation for sustained recovery and a healthier future.",
   
   "addictionMeth": "Meth",
+  "addictionHeroin": "Heroin",
   "methPageTitle": "Meth Recovery",
   "methHeaderStarted": "Your Recovery Journey",
   "methHeaderNotStarted": "Drop the Glass",
