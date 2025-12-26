@@ -523,8 +523,8 @@ class _SettingsPageState extends State<SettingsPage> {
 
       SwitchListTile(
         secondary: const Icon(Icons.select_all),
-        title: Text("Show all items"),
-        subtitle: Text("Enable or disable all main screen items"),
+        title: Text(l10n.showAllItems),
+        subtitle: Text(l10n.showAllSubtitle),
         value: allEnabled,
         onChanged: (value) {
           settings.showAlcohol = value;
@@ -685,8 +685,8 @@ class _SettingsPageState extends State<SettingsPage> {
       // MASTER NOTIFICATION TOGGLE
       SwitchListTile(
         secondary: const Icon(Icons.notifications_active),
-        title: const Text("Enable all notifications"),
-        subtitle: const Text("Turn on or off all notification types"),
+        title: Text(l10n.enableNotifications),
+        subtitle: Text(l10n.enableNotificationsSubtitle),
         value: [
           settings.notifyAlcohol,
           settings.notifyVaping,
