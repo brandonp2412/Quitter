@@ -256,6 +256,144 @@ abstract class AppLocalizations {
   /// **'Two years of recovery brings substantial neuroplasticity and brain healing. Cognitive function approaches pre-addiction levels. You\'ve built a strong foundation for sustained recovery and a healthier future.'**
   String get heroinMilestone730Description;
 
+  /// No description provided for @benzoPageTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Benzodiazepine Recovery'**
+  String get benzoPageTitle;
+
+  /// No description provided for @benzoHeaderStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Your Recovery Journey'**
+  String get benzoHeaderStarted;
+
+  /// No description provided for @benzoHeaderNotStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Benefits of Quitting Benzodiazepines'**
+  String get benzoHeaderNotStarted;
+
+  /// No description provided for @benzoSubtitleStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Track your progress and celebrate each milestone'**
+  String get benzoSubtitleStarted;
+
+  /// No description provided for @benzoSubtitleNotStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'See what happens when you quit'**
+  String get benzoSubtitleNotStarted;
+
+  /// No description provided for @benzoMilestone7Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Early Withdrawal Phase'**
+  String get benzoMilestone7Title;
+
+  /// No description provided for @benzoMilestone7Description.
+  ///
+  /// In en, this message translates to:
+  /// **'After completing a gradual taper, early withdrawal symptoms like rebound anxiety and insomnia may appear. This is your nervous system beginning to readjust. Medical support during this phase is crucial for safety and comfort.'**
+  String get benzoMilestone7Description;
+
+  /// No description provided for @benzoMilestone14Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Acute Withdrawal Peak'**
+  String get benzoMilestone14Title;
+
+  /// No description provided for @benzoMilestone14Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Acute withdrawal symptoms typically peak within the first two weeks. You may experience anxiety, sleep disturbances, and physical discomfort. These symptoms, while challenging, indicate your brain is starting to heal and rebalance.'**
+  String get benzoMilestone14Description;
+
+  /// No description provided for @benzoMilestone60Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Sleep Architecture Improves'**
+  String get benzoMilestone60Title;
+
+  /// No description provided for @benzoMilestone60Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Studies show that after 2 months, your natural sleep patterns begin to restore. Slow-wave sleep increases and sleep quality improves compared to when taking benzodiazepines, even though overall sleep efficiency may still be recovering.'**
+  String get benzoMilestone60Description;
+
+  /// No description provided for @benzoMilestone90Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Physical Health Stabilizes'**
+  String get benzoMilestone90Title;
+
+  /// No description provided for @benzoMilestone90Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Around 3 months, many physical withdrawal symptoms have significantly improved. Your body is continuing to adjust to functioning without medication. Anxiety and mood may still fluctuate, but overall functioning improves.'**
+  String get benzoMilestone90Description;
+
+  /// No description provided for @benzoMilestone180Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Cognitive Function Begins Recovery'**
+  String get benzoMilestone180Title;
+
+  /// No description provided for @benzoMilestone180Description.
+  ///
+  /// In en, this message translates to:
+  /// **'At 6 months, noticeable improvements in memory, attention, and cognitive function begin to emerge. Research shows modest recovery in many cognitive areas, though full restoration takes longer. Your brain\'s natural abilities are gradually returning.'**
+  String get benzoMilestone180Description;
+
+  /// No description provided for @benzoMilestone365Title.
+  ///
+  /// In en, this message translates to:
+  /// **'One Year of Healing'**
+  String get benzoMilestone365Title;
+
+  /// No description provided for @benzoMilestone365Description.
+  ///
+  /// In en, this message translates to:
+  /// **'After one year, significant improvements in mental and physical wellbeing become apparent. Many report reduced anxiety, better sleep quality, and improved overall health compared to when taking benzodiazepines long-term. Brain healing continues.'**
+  String get benzoMilestone365Description;
+
+  /// No description provided for @benzoMilestone540Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Continued Brain Recovery'**
+  String get benzoMilestone540Title;
+
+  /// No description provided for @benzoMilestone540Description.
+  ///
+  /// In en, this message translates to:
+  /// **'At 18 months, continued cognitive improvements occur. GABA receptor function normalizes within 2-6 months of cessation, and brain structure begins recovering. Neuroplasticity allows your brain to form new, healthier neural pathways.'**
+  String get benzoMilestone540Description;
+
+  /// No description provided for @benzoMilestone730Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Two Years: Major Progress'**
+  String get benzoMilestone730Title;
+
+  /// No description provided for @benzoMilestone730Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Two years marks substantial recovery. Most people experience significant improvements in cognitive function, emotional regulation, and quality of life. While some may still experience gradual improvements, many have returned to pre-benzodiazepine functioning.'**
+  String get benzoMilestone730Description;
+
+  /// No description provided for @benzoMilestone1095Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Three Years: Long-Term Recovery'**
+  String get benzoMilestone1095Title;
+
+  /// No description provided for @benzoMilestone1095Description.
+  ///
+  /// In en, this message translates to:
+  /// **'At three years, physical brain structure recovery reaches completion for most individuals. Hippocampal and amygdala volumes continue normalizing through neuroplasticity. You\'ve achieved lasting recovery and rebuilt a healthier foundation for life.'**
+  String get benzoMilestone1095Description;
+
   /// No description provided for @addictionMeth.
   ///
   /// In en, this message translates to:
@@ -267,6 +405,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Heroin'**
   String get addictionHeroin;
+
+  /// No description provided for @addictionBenzos.
+  ///
+  /// In en, this message translates to:
+  /// **'Benzos'**
+  String get addictionBenzos;
 
   /// No description provided for @methPageTitle.
   ///
@@ -850,6 +994,18 @@ abstract class AppLocalizations {
   /// **'Show journal'**
   String get settingsShowJournal;
 
+  /// No description provided for @settingsShowHeroinSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Show heroin tracking'**
+  String get settingsShowHeroinSubtitle;
+
+  /// No description provided for @settingsShowBenzosSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Show benzos tracking'**
+  String get settingsShowBenzosSubtitle;
+
   /// Subtitle explaining show journal setting
   ///
   /// In en, this message translates to:
@@ -969,6 +1125,18 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Notify nicotine pouches quitting progress'**
   String get settingsNotifyNicotinePouches;
+
+  /// No description provided for @settingsNotifyHeroin.
+  ///
+  /// In en, this message translates to:
+  /// **'Notify heroin quitting progress'**
+  String get settingsNotifyHeroin;
+
+  /// No description provided for @settingsNotifyBenzos.
+  ///
+  /// In en, this message translates to:
+  /// **'Notify benzos quitting progress'**
+  String get settingsNotifyBenzos;
 
   /// Setting subtitle for opioids notifications
   ///

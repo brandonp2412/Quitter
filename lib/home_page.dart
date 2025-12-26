@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:quitter/benzodiazepine_page.dart';
 import 'package:quitter/cocaine_page.dart';
 import 'package:quitter/heroin_page.dart';
 import 'package:quitter/l10n/generated/app_localizations.dart';
@@ -601,6 +602,34 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                       onLongPress: () {
                         _showHideBottomSheet(l10n.addictionHeroin, () {
                           settings.showHeroin = false;
+                        });
+                      },
+                    ),
+                  );
+                }
+
+                if (settings.showBenzos &&
+                    _matchesSearch(l10n.addictionBenzos)) {
+                  cards.add(
+                    QuitCard(
+                      context: context,
+                      title: l10n.addictionBenzos,
+                      icon: Icons.bedtime,
+                      gradientColors: [Color(0xFF6D5DD3), Color(0xFF1E1B4B)],
+                      quitDate: addictions.quitBenzos,
+                      onTap: () async {
+                        await Navigator.of(context).push(
+                          MaterialPageRoute(
+                            builder: (context) => BenzodiazepinePage(
+                              started: addictions.quitBenzos != null,
+                            ),
+                          ),
+                        );
+                        if (mounted) _loadQuitDays();
+                      },
+                      onLongPress: () {
+                        _showHideBottomSheet(l10n.addictionBenzos, () {
+                          settings.showBenzos = false;
                         });
                       },
                     ),

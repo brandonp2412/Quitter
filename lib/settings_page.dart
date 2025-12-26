@@ -479,6 +479,26 @@ class _SettingsPageState extends State<SettingsPage> {
           settings.notifyMeth = value;
         },
       ),
+      _ToggleItem(
+        icon: Icons.vaccines,
+        title: l10n.addictionHeroin,
+        subtitle: l10n.settingsShowHeroinSubtitle,
+        value: settings.showHeroin,
+        onChanged: (value) {
+          settings.showHeroin = value;
+          settings.notifyHeroin = value;
+        },
+      ),
+      _ToggleItem(
+        icon: Icons.bedtime,
+        title: l10n.addictionBenzos,
+        subtitle: l10n.settingsShowBenzosSubtitle,
+        value: settings.showBenzos,
+        onChanged: (value) {
+          settings.showBenzos = value;
+          settings.notifyBenzos = value;
+        },
+      ),
     ];
 
     return [
@@ -555,6 +575,20 @@ class _SettingsPageState extends State<SettingsPage> {
         subtitle: l10n.settingsNotifyCocaine,
         value: settings.notifyCocaine,
         onChanged: (value) => settings.notifyCocaine = value,
+      ),
+      _ToggleItem(
+        icon: Icons.vaccines,
+        title: l10n.addictionHeroin,
+        subtitle: l10n.settingsNotifyHeroin,
+        value: settings.notifyHeroin,
+        onChanged: (value) => settings.notifyHeroin = value,
+      ),
+      _ToggleItem(
+        icon: Icons.bedtime,
+        title: l10n.addictionBenzos,
+        subtitle: l10n.settingsNotifyBenzos,
+        value: settings.notifyBenzos,
+        onChanged: (value) => settings.notifyBenzos = value,
       ),
       _ToggleItem(
         icon: Icons.battery_charging_full,
