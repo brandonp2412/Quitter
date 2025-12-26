@@ -378,6 +378,23 @@ class _SettingsPageState extends State<SettingsPage> {
     BuildContext context,
   ) {
     final l10n = AppLocalizations.of(context)!;
+
+    // MASTER TOGGLE STATE
+    final allEnabled = [
+      settings.showAlcohol,
+      settings.showVaping,
+      settings.showSmoking,
+      settings.showMarijuana,
+      settings.showNicotinePouches,
+      settings.showOpioids,
+      settings.showSocialMedia,
+      settings.showPornography,
+      settings.showCocaine,
+      settings.showMeth,
+      settings.showHeroin,
+      settings.showBenzos,
+    ].every((v) => v == true);
+
     final items = [
       _ToggleItem(
         icon: Icons.local_bar,
@@ -503,6 +520,51 @@ class _SettingsPageState extends State<SettingsPage> {
 
     return [
       _sectionHeader(l10n.settingsSectionMainScreenItems, context),
+
+      SwitchListTile(
+        secondary: const Icon(Icons.select_all),
+        title: Text("Show all items"),
+        subtitle: Text("Enable or disable all main screen items"),
+        value: allEnabled,
+        onChanged: (value) {
+          settings.showAlcohol = value;
+          settings.notifyAlcohol = value;
+
+          settings.showVaping = value;
+          settings.notifyVaping = value;
+
+          settings.showSmoking = value;
+          settings.notifySmoking = value;
+
+          settings.showMarijuana = value;
+          settings.notifyMarijuana = value;
+
+          settings.showNicotinePouches = value;
+          settings.notifyPouches = value;
+
+          settings.showOpioids = value;
+          settings.notifyOpioids = value;
+
+          settings.showSocialMedia = value;
+          settings.notifySocialMedia = value;
+
+          settings.showPornography = value;
+          settings.notifyPornography = value;
+
+          settings.showCocaine = value;
+          settings.notifyCocaine = value;
+
+          settings.showMeth = value;
+          settings.notifyMeth = value;
+
+          settings.showHeroin = value;
+          settings.notifyHeroin = value;
+
+          settings.showBenzos = value;
+          settings.notifyBenzos = value;
+        },
+      ),
+
       ..._buildToggleList(items),
     ];
   }
@@ -618,6 +680,43 @@ class _SettingsPageState extends State<SettingsPage> {
           ),
         ),
         onTap: () => _showNotificationFrequencyDialog(context, settings),
+      ),
+      const Divider(height: 1),
+      // MASTER NOTIFICATION TOGGLE
+      SwitchListTile(
+        secondary: const Icon(Icons.notifications_active),
+        title: const Text("Enable all notifications"),
+        subtitle: const Text("Turn on or off all notification types"),
+        value: [
+          settings.notifyAlcohol,
+          settings.notifyVaping,
+          settings.notifySmoking,
+          settings.notifyMarijuana,
+          settings.notifyPouches,
+          settings.notifyOpioids,
+          settings.notifySocialMedia,
+          settings.notifyPornography,
+          settings.notifyCocaine,
+          settings.notifyHeroin,
+          settings.notifyBenzos,
+          settings.notifyMeth,
+          settings.notifyRelapse,
+        ].every((v) => v == true),
+        onChanged: (value) {
+          settings.notifyAlcohol = value;
+          settings.notifyVaping = value;
+          settings.notifySmoking = value;
+          settings.notifyMarijuana = value;
+          settings.notifyPouches = value;
+          settings.notifyOpioids = value;
+          settings.notifySocialMedia = value;
+          settings.notifyPornography = value;
+          settings.notifyCocaine = value;
+          settings.notifyHeroin = value;
+          settings.notifyBenzos = value;
+          settings.notifyMeth = value;
+          settings.notifyRelapse = value;
+        },
       ),
       const Divider(height: 1),
       ..._buildToggleList(notificationItems),
