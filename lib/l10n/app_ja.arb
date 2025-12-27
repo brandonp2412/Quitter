@@ -1,650 +1,1710 @@
 {
   "@@locale": "ja",
-
   "appTitle": "Quitter",
-
+  "@appTitle": {
+    "description": "The main application title"
+  },
+  "start": "始める",
+  "@tabQuitter": {
+    "description": "Tab label for the main Quitter tab"
+  },
   "tabQuitter": "Quitter",
-
+  "showAllItems": "Show all items",
+  "showAllSubtitle": "Enable or disable all main screen items",
+  "enableNotifications": "Enable all notifications",
+  "enableNotificationsSubtitle": "Turn on or off all notifications",
+  "heroinPageTitle": "Heroin Recovery",
+  "heroinHeaderStarted": "Your Recovery Journey",
+  "heroinHeaderNotStarted": "Benefits of Quitting Heroin",
+  "heroinSubtitleStarted": "Track your progress and celebrate each milestone",
+  "heroinSubtitleNotStarted": "See what happens when you quit",
+  "heroinMilestone1Title": "Withdrawal Begins",
+  "heroinMilestone1Description": "Your body starts the detox process. Early withdrawal symptoms like anxiety, sweating, and muscle aches may begin within 6-24 hours. This is your body beginning to heal.",
+  "heroinMilestone3Title": "Peak Withdrawal",
+  "heroinMilestone3Description": "Acute withdrawal symptoms typically peak around days 2-3. While challenging, this marks the most intense phase. Physical symptoms include nausea, vomiting, body aches, and insomnia. Support is crucial during this time.",
+  "heroinMilestone7Title": "Acute Symptoms Subside",
+  "heroinMilestone7Description": "The most severe physical withdrawal symptoms begin to fade. Your body is adjusting to functioning without heroin. Sleep may still be disrupted, but you're through the hardest physical phase.",
+  "heroinMilestone30Title": "Physical Health Normalizes",
+  "heroinMilestone30Description": "Your sleep patterns, appetite, and energy levels start returning to normal. Physical health improvements become noticeable. Your body's natural systems are beginning to regulate themselves again.",
+  "heroinMilestone90Title": "Immune System Recovery",
+  "heroinMilestone90Description": "Your immune system begins significant recovery after months of suppression. You'll likely get sick less often and fight off infections more effectively. Cardiovascular health continues to improve.",
+  "heroinMilestone180Title": "Cognitive Improvements",
+  "heroinMilestone180Description": "Notable improvements in memory, attention, and decision-making abilities. Brain imaging studies show measurable recovery in areas affected by heroin use. Mental clarity continues to increase.",
+  "heroinMilestone365Title": "Major Brain Healing",
+  "heroinMilestone365Description": "Significant restoration of brain function and emotional regulation. Dopamine receptors continue to normalize, making natural rewards more satisfying. Many experience improved relationships and life satisfaction.",
+  "heroinMilestone540Title": "Continued Cognitive Recovery",
+  "heroinMilestone540Description": "Executive function, impulse control, and emotional stability continue to improve. The brain's reward system becomes increasingly balanced. Long-term abstinence strengthens neural pathways for healthy decision-making.",
+  "heroinMilestone730Title": "Long-Term Brain Recovery",
+  "heroinMilestone730Description": "Two years of recovery brings substantial neuroplasticity and brain healing. Cognitive function approaches pre-addiction levels. You've built a strong foundation for sustained recovery and a healthier future.",
+  "benzoPageTitle": "Benzodiazepine Recovery",
+  "benzoHeaderStarted": "Your Recovery Journey",
+  "benzoHeaderNotStarted": "Benefits of Quitting Benzodiazepines",
+  "benzoSubtitleStarted": "Track your progress and celebrate each milestone",
+  "benzoSubtitleNotStarted": "See what happens when you quit",
+  "benzoMilestone7Title": "Early Withdrawal Phase",
+  "benzoMilestone7Description": "After completing a gradual taper, early withdrawal symptoms like rebound anxiety and insomnia may appear. This is your nervous system beginning to readjust. Medical support during this phase is crucial for safety and comfort.",
+  "benzoMilestone14Title": "Acute Withdrawal Peak",
+  "benzoMilestone14Description": "Acute withdrawal symptoms typically peak within the first two weeks. You may experience anxiety, sleep disturbances, and physical discomfort. These symptoms, while challenging, indicate your brain is starting to heal and rebalance.",
+  "benzoMilestone60Title": "Sleep Architecture Improves",
+  "benzoMilestone60Description": "Studies show that after 2 months, your natural sleep patterns begin to restore. Slow-wave sleep increases and sleep quality improves compared to when taking benzodiazepines, even though overall sleep efficiency may still be recovering.",
+  "benzoMilestone90Title": "Physical Health Stabilizes",
+  "benzoMilestone90Description": "Around 3 months, many physical withdrawal symptoms have significantly improved. Your body is continuing to adjust to functioning without medication. Anxiety and mood may still fluctuate, but overall functioning improves.",
+  "benzoMilestone180Title": "Cognitive Function Begins Recovery",
+  "benzoMilestone180Description": "At 6 months, noticeable improvements in memory, attention, and cognitive function begin to emerge. Research shows modest recovery in many cognitive areas, though full restoration takes longer. Your brain's natural abilities are gradually returning.",
+  "benzoMilestone365Title": "One Year of Healing",
+  "benzoMilestone365Description": "After one year, significant improvements in mental and physical wellbeing become apparent. Many report reduced anxiety, better sleep quality, and improved overall health compared to when taking benzodiazepines long-term. Brain healing continues.",
+  "benzoMilestone540Title": "Continued Brain Recovery",
+  "benzoMilestone540Description": "At 18 months, continued cognitive improvements occur. GABA receptor function normalizes within 2-6 months of cessation, and brain structure begins recovering. Neuroplasticity allows your brain to form new, healthier neural pathways.",
+  "benzoMilestone730Title": "Two Years: Major Progress",
+  "benzoMilestone730Description": "Two years marks substantial recovery. Most people experience significant improvements in cognitive function, emotional regulation, and quality of life. While some may still experience gradual improvements, many have returned to pre-benzodiazepine functioning.",
+  "benzoMilestone1095Title": "Three Years: Long-Term Recovery",
+  "benzoMilestone1095Description": "At three years, physical brain structure recovery reaches completion for most individuals. Hippocampal and amygdala volumes continue normalizing through neuroplasticity. You've achieved lasting recovery and rebuilt a healthier foundation for life.",
+  "addictionMeth": "Meth",
+  "addictionHeroin": "Heroin",
+  "addictionBenzos": "Benzos",
+  "methPageTitle": "Meth Recovery",
+  "methHeaderStarted": "Your Recovery Journey",
+  "methHeaderNotStarted": "Drop the Glass",
+  "methSubtitleStarted": "Track your progress and celebrate each milestone",
+  "methSubtitleNotStarted": "Freedom is within your grasp",
+  "methMilestone1Title": "First 24 Hours - The Crash Begins",
+  "methMilestone1Description": "The initial crash phase starts with profound fatigue and increased appetite as your body begins recovery. You may experience depression and sleep heavily as your system starts to stabilize from the intense stimulation.",
+  "methMilestone3Title": "Day 3 - Peak Withdrawal",
+  "methMilestone3Description": "Cravings intensify significantly during this period as your body adjusts. You may experience increased energy compared to the crash phase, which can make cravings feel stronger. This is a critical time for relapse prevention and support.",
+  "methMilestone7Title": "One Week - Physical Symptoms Ease",
+  "methMilestone7Description": "Acute withdrawal symptoms begin to subside, though psychological challenges remain. Your sleep patterns start normalizing and physical discomfort decreases. This marks the transition from acute to post-acute withdrawal.",
+  "methMilestone30Title": "One Month - Emerging Stability",
+  "methMilestone30Description": "The honeymoon phase begins as your body heals and cravings start to fade. Energy levels increase and mood improves as your brain chemistry begins rebalancing. However, remain vigilant as challenges can still arise.",
+  "methMilestone90Title": "Three Months - Brain Healing Begins",
+  "methMilestone90Description": "Your brain is actively working to restore normal function. Cognitive improvements become noticeable in areas like attention and decision-making. This period marks significant neurological recovery as your reward system starts to normalize.",
+  "methMilestone180Title": "Six Months - Cardiovascular Recovery",
+  "methMilestone180Description": "Heart function shows measurable improvement with abstinence. Studies show cardiac function can recover significantly during this period when combined with medical support. Blood pressure and heart rhythm continue stabilizing.",
+  "methMilestone365Title": "One Year - Major Brain Recovery",
+  "methMilestone365Description": "Dopamine system recovery reaches significant milestones. Your brain's ability to experience pleasure from natural rewards improves substantially. Cognitive function, mood regulation, and decision-making show marked improvements.",
+  "methMilestone420Title": "14 Months - Dopamine Normalization",
+  "methMilestone420Description": "Brain imaging studies show dopamine transporter levels approaching normal at this stage. This represents the most significant phase of neurological recovery, with improvements in memory, motivation, and the ability to feel pleasure from everyday activities.",
+  "methMilestone730Title": "Two Years - Sustained Recovery",
+  "methMilestone730Description": "Long-term abstinence allows for continued brain healing. Attention and mood typically rebound within 12-18 months for most people. Your cognitive function, emotional regulation, and overall quality of life continue improving with sustained recovery.",
+  "addictionCocaine": "Cocaine",
+  "cocainePageTitle": "Cocaine Recovery",
+  "cocaineHeaderStarted": "Your Recovery Journey",
+  "cocaineHeaderNotStarted": "Ready to Start?",
+  "cocaineSubtitleStarted": "Track your progress and celebrate each milestone",
+  "cocaineSubtitleNotStarted": "See what positive changes await you",
+  "cocaineMilestone1Title": "First 24 Hours - The Beginning",
+  "cocaineMilestone1Description": "Your body begins adjusting as dopamine levels start to stabilize. You may experience fatigue, mood changes, and strong cravings, but your cardiovascular system is already beginning to recover.",
+  "cocaineMilestone3Title": "Day 3 - Peak Challenge",
+  "cocaineMilestone3Description": "Withdrawal symptoms often peak around this time. You may experience intense cravings, irritability, anxiety, and exhaustion. This is temporary - your brain is working hard to rebalance itself.",
+  "cocaineMilestone7Title": "One Week - Physical Recovery Begins",
+  "cocaineMilestone7Description": "The most intense physical symptoms are beginning to subside. Your heart rate and blood pressure are stabilizing. While psychological cravings may persist, your body is healing.",
+  "cocaineMilestone14Title": "Two Weeks - Finding Stability",
+  "cocaineMilestone14Description": "Many people start feeling more stable emotionally. Your energy levels are improving, and acute withdrawal symptoms are easing. Your cardiovascular health continues to improve significantly.",
+  "cocaineMilestone60Title": "Two Months - Sleep and Mood Improve",
+  "cocaineMilestone60Description": "Your sleep quality is noticeably better as your brain chemistry continues normalizing. You may find yourself feeling more rested and experiencing more stable moods throughout the day.",
+  "cocaineMilestone90Title": "Three Months - Brain Restoration",
+  "cocaineMilestone90Description": "Your brain is actively restoring dopamine receptors and neural pathways. You'll likely notice improvements in focus, decision-making, and emotional regulation. Cognitive function is significantly improved.",
+  "cocaineMilestone180Title": "Six Months - Cognitive Gains",
+  "cocaineMilestone180Description": "Brain imaging studies show increased gray matter volume in the prefrontal cortex at this stage. Your executive function, memory, and impulse control continue to strengthen. You're thinking more clearly.",
+  "cocaineMilestone365Title": "One Year - Cardiovascular Health",
+  "cocaineMilestone365Description": "Your heart and cardiovascular system have made remarkable recovery. Blood pressure and heart rate are normalized. Risk of heart attack and stroke has decreased significantly. Your body is healing.",
+  "cocaineMilestone730Title": "Two Years - Sustained Recovery",
+  "cocaineMilestone730Description": "Brain healing continues with sustained improvements in memory, focus, and emotional regulation. Your neural pathways have significantly reorganized, supporting healthier patterns and better overall wellbeing.",
   "tabJournal": "日記",
-
+  "@tabJournal": {
+    "description": "Tab label for the Journal tab"
+  },
   "tabSettings": "設定",
-
+  "@tabSettings": {
+    "description": "Tab label for the Settings tab"
+  },
   "homeAddButton": "追加",
-
+  "@homeAddButton": {
+    "description": "Floating action button label on home page"
+  },
   "homeAddTooltip": "独自のカスタム依存を作成して克服しましょう",
-
+  "@homeAddTooltip": {
+    "description": "Tooltip for the add custom addiction button"
+  },
+  "quitStartButton": "Start",
+  "@quitStartButton": {
+    "description": "Floating action button label on quit page (start button)"
+  },
+  "quitResetButton": "Reset",
+  "@quitResetButton": {
+    "description": "Floating action button label on quit page (reset button)"
+  },
+  "quitCardSubtitle": "Tap to start",
+  "@quitCardSubtitle": {
+    "description": "Prompt displayed on the quit card"
+  },
+  "quitCardKeepDays": "{days, plural, =1 { day} other { days}}",
+  "@quitCardKeepDays": {
+    "description": "Kepp days on Quit card",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "description": "Number of days"
+      }
+    }
+  },
   "newVersionToast": "新しいバージョン {version}",
-
+  "@newVersionToast": {
+    "description": "Toast message shown when app is updated",
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
   "changesAction": "変更履歴",
-
+  "@changesAction": {
+    "description": "Action button text to view changelog"
+  },
   "hideDialogTitle": "{title}を非表示にしますか?",
-
+  "@hideDialogTitle": {
+    "description": "Title for hide addiction confirmation dialog",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
   "hideDialogMessage": "これにより、ホーム画面から{title}オプションが非表示になります。設定から再び表示できます。",
-
+  "@hideDialogMessage": {
+    "description": "Message explaining what hiding an addiction does",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
   "cancel": "キャンセル",
-
+  "@cancel": {
+    "description": "Cancel button text used throughout the app"
+  },
   "hide": "非表示",
-
+  "@hide": {
+    "description": "Hide button text in hide addiction dialog"
+  },
   "addictionAlcohol": "アルコール",
-
+  "@addictionAlcohol": {
+    "description": "Name of the alcohol addiction type"
+  },
   "addictionVaping": "ベイピング",
-
+  "@addictionVaping": {
+    "description": "Name of the vaping addiction type"
+  },
   "addictionSmoking": "喫煙",
-
+  "@addictionSmoking": {
+    "description": "Name of the smoking addiction type"
+  },
   "addictionMarijuana": "マリファナ",
-
+  "@addictionMarijuana": {
+    "description": "Name of the marijuana addiction type"
+  },
+  "settingsLocaleUnsupported": "Unsupported",
+  "@settingsLocaleUnsupported": {
+    "description": "An error occurred. This setting is not supported."
+  },
+  "settingsLocaleJapanese": "日本語",
+  "@settingsLocaleJapanese": {
+    "description": "Show app in Japanese"
+  },
+  "settingsLocaleEnglish": "英語",
+  "@settingsLocaleEnglish": {
+    "description": "Show app in English"
+  },
+  "settingsLocaleSimplifiedChinese": "Chinese",
+  "@settingsLocaleSimplifiedChinese": {
+    "description": "Show app in Simplified Chinese"
+  },
+  "settingsLocaleSystem": "System",
+  "@settingsLocaleSystem": {
+    "description": "Follows the device locale"
+  },
+  "settingsLocale": "Locale",
+  "@settingsLocale": {
+    "description": "Language for the text in Quitter"
+  },
   "addictionNicotinePouches": "ニコチンパウチ",
-
+  "@addictionNicotinePouches": {
+    "description": "Name of the nicotine pouches addiction type"
+  },
   "addictionOpioids": "オピオイド",
-
+  "@addictionOpioids": {
+    "description": "Name of the opioids addiction type"
+  },
   "addictionSocialMedia": "ソーシャルメディア",
-
+  "@addictionSocialMedia": {
+    "description": "Name of the social media addiction type"
+  },
   "addictionAC": "AC",
-
+  "@addictionAC": {
+    "description": "Short name for adult content addiction (displayed as AC)"
+  },
   "addictionAdultContent": "アダルトコンテンツ",
-
+  "@addictionAdultContent": {
+    "description": "Full name for adult content addiction (used in settings)"
+  },
   "settingsSearchHint": "検索...",
-
+  "@settingsSearchHint": {
+    "description": "Hint text for settings search bar"
+  },
   "settingsSectionAppearance": "外観",
-
+  "@settingsSectionAppearance": {
+    "description": "Section header for appearance settings"
+  },
   "settingsSectionSecurity": "セキュリティ",
-
+  "@settingsSectionSecurity": {
+    "description": "Section header for security settings"
+  },
   "settingsSectionMainScreenItems": "メイン画面の項目",
-
+  "@settingsSectionMainScreenItems": {
+    "description": "Section header for main screen items settings"
+  },
   "settingsSectionNotifications": "通知",
-
+  "@settingsSectionNotifications": {
+    "description": "Section header for notification settings"
+  },
   "settingsSectionSystem": "システム",
-
+  "@settingsSectionSystem": {
+    "description": "Section header for system settings"
+  },
   "settingsPinLock": "PINロック",
-
+  "@settingsPinLock": {
+    "description": "Setting title for PIN lock feature"
+  },
   "settingsPinLockSubtitle": "アプリを開く際にPINを要求する",
-
+  "@settingsPinLockSubtitle": {
+    "description": "Subtitle explaining PIN lock setting"
+  },
   "settingsPinTimeout": "PINタイムアウト(秒)",
-
+  "@settingsPinTimeout": {
+    "description": "Label for PIN timeout setting"
+  },
   "settingsPinTimeoutHint": "15",
-
+  "@settingsPinTimeoutHint": {
+    "description": "Hint text for PIN timeout field"
+  },
   "settingsTheme": "テーマ",
-
+  "@settingsTheme": {
+    "description": "Setting title for theme selection"
+  },
   "settingsColorScheme": "配色",
-
+  "@settingsColorScheme": {
+    "description": "Setting title for color scheme selection"
+  },
+  "settingsDynamicColorScheme": "Dynamic colors",
+  "@settingsDynamicColorScheme": {
+    "description": "Use the dynamic color scheme from Material 3"
+  },
+  "settingsBlueColorScheme": "Blue",
+  "@settingsBlueColorScheme": {
+    "description": "Use the blue-based color scheme."
+  },
+  "settingsGreenColorScheme": "Green",
+  "@settingsGreenColorScheme": {
+    "description": "Use the green-based color scheme."
+  },
+  "settingsRedColorScheme": "Red",
+  "@settingsRedColorScheme": {
+    "description": "Use the red-based color scheme."
+  },
+  "settingsPurpleColorScheme": "Purple",
+  "@settingsPurpleColorScheme": {
+    "description": "Use the purple-based color scheme."
+  },
+  "settingsOrangeColorScheme": "Orange",
+  "@settingsOrangeColorScheme": {
+    "description": "Use the orange-based color scheme."
+  },
   "settingsResetButtons": "リセットボタン",
-
+  "@settingsResetButtons": {
+    "description": "Setting title for reset buttons visibility"
+  },
   "settingsResetButtonsSubtitle": "禁止ページにリセットボタンを表示する",
-
+  "@settingsResetButtonsSubtitle": {
+    "description": "Subtitle explaining reset buttons setting"
+  },
   "settingsShowJournal": "日記を表示",
-
+  "@settingsShowJournal": {
+    "description": "Setting title for journal visibility"
+  },
+  "settingsShowHeroinSubtitle": "Show heroin tracking",
+  "settingsShowBenzosSubtitle": "Show benzos tracking",
   "settingsShowJournalSubtitle": "考えを記録するための日記タブを有効にする",
-
+  "@settingsShowJournalSubtitle": {
+    "description": "Subtitle explaining show journal setting"
+  },
   "settingsSwipeBetweenTabs": "タブ間のスワイプ",
-
+  "@settingsSwipeBetweenTabs": {
+    "description": "Setting title for swipe between tabs feature"
+  },
   "settingsSwipeBetweenTabsSubtitle": "指をドラッグして日記、ホームページ、設定の間を移動する",
-
+  "@settingsSwipeBetweenTabsSubtitle": {
+    "description": "Subtitle explaining swipe between tabs setting"
+  },
   "settingsShowAlcoholTracking": "アルコール追跡を表示",
-
+  "@settingsShowAlcoholTracking": {
+    "description": "Setting subtitle for showing alcohol tracking"
+  },
   "settingsShowVapingTracking": "ベイピング追跡を表示",
-
+  "@settingsShowVapingTracking": {
+    "description": "Setting subtitle for showing vaping tracking"
+  },
   "settingsShowSmokingTracking": "喫煙追跡を表示",
-
+  "@settingsShowSmokingTracking": {
+    "description": "Setting subtitle for showing smoking tracking"
+  },
   "settingsShowMarijuanaTracking": "マリファナ追跡を表示",
-
+  "@settingsShowMarijuanaTracking": {
+    "description": "Setting subtitle for showing marijuana tracking"
+  },
   "settingsShowNicotinePouchesTracking": "ニコチンパウチ追跡を表示",
-
+  "@settingsShowNicotinePouchesTracking": {
+    "description": "Setting subtitle for showing nicotine pouches tracking"
+  },
   "settingsShowOpioidsTracking": "オピオイド追跡を表示",
-
+  "@settingsShowOpioidsTracking": {
+    "description": "Setting subtitle for showing opioids tracking"
+  },
   "settingsShowSocialMediaTracking": "ソーシャルメディア追跡を表示",
-
+  "@settingsShowSocialMediaTracking": {
+    "description": "Setting subtitle for showing social media tracking"
+  },
+  "settingsShowCocaineTracking": "Show cocaine tracking",
+  "settingsShowMethTracking": "Show meth tracking",
   "settingsShowAdultContentTracking": "アダルトコンテンツ追跡を表示",
-
+  "@settingsShowAdultContentTracking": {
+    "description": "Setting subtitle for showing adult content tracking"
+  },
   "settingsNotificationFrequency": "通知頻度",
-
+  "@settingsNotificationFrequency": {
+    "description": "Setting title for notification frequency"
+  },
   "settingsNotificationFrequencySubtitle": "{days}日ごと {time}",
-
+  "@settingsNotificationFrequencySubtitle": {
+    "description": "Subtitle showing notification frequency",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
   "settingsNotifyAlcohol": "アルコール禁止の進捗を通知",
-
+  "@settingsNotifyAlcohol": {
+    "description": "Setting subtitle for alcohol notifications"
+  },
   "settingsNotifyVaping": "ベイピング禁止の進捗を通知",
-
+  "@settingsNotifyVaping": {
+    "description": "Setting subtitle for vaping notifications"
+  },
   "settingsNotifySmoking": "喫煙禁止の進捗を通知",
-
+  "@settingsNotifySmoking": {
+    "description": "Setting subtitle for smoking notifications"
+  },
   "settingsNotifyMarijuana": "マリファナ禁止の進捗を通知",
-
+  "@settingsNotifyMarijuana": {
+    "description": "Setting subtitle for marijuana notifications"
+  },
   "settingsNotifyNicotinePouches": "ニコチンパウチ禁止の進捗を通知",
-
+  "@settingsNotifyNicotinePouches": {
+    "description": "Setting subtitle for nicotine pouches notifications"
+  },
+  "settingsNotifyHeroin": "Notify heroin quitting progress",
+  "settingsNotifyBenzos": "Notify benzos quitting progress",
   "settingsNotifyOpioids": "オピオイド禁止の進捗を通知",
-
+  "@settingsNotifyOpioids": {
+    "description": "Setting subtitle for opioids notifications"
+  },
   "settingsNotifySocialMedia": "ソーシャルメディア禁止の進捗を通知",
-
+  "@settingsNotifySocialMedia": {
+    "description": "Setting subtitle for social media notifications"
+  },
+  "settingsNotifyCocaine": "Notify cocaine quitting progress",
+  "settingsNotifyMeth": "Notify meth quitting progress",
   "settingsNotifyAdultContent": "アダルトコンテンツ禁止の進捗を通知",
-
+  "@settingsNotifyAdultContent": {
+    "description": "Setting subtitle for adult content notifications"
+  },
   "settingsResetMessages": "リセットメッセージ",
-
+  "@settingsResetMessages": {
+    "description": "Setting title for reset messages"
+  },
   "settingsResetMessagesSubtitle": "再発後にポジティブなメッセージを表示する",
-
+  "@settingsResetMessagesSubtitle": {
+    "description": "Subtitle explaining reset messages setting"
+  },
   "settingsAbout": "このアプリについて",
-
+  "@settingsAbout": {
+    "description": "Setting title for about page"
+  },
   "settingsWhatsNew": "新機能",
-
+  "@settingsWhatsNew": {
+    "description": "Setting title for what's new page"
+  },
   "settingsEnjoyingApp": "アプリを気に入っていただけましたか?",
-
+  "@settingsEnjoyingApp": {
+    "description": "Setting title for enjoying the app page"
+  },
   "settingsReportBug": "バグを報告",
-
+  "@settingsReportBug": {
+    "description": "Setting title for reporting a bug"
+  },
   "settingsExportData": "データをエクスポート",
-
+  "@settingsExportData": {
+    "description": "Setting title for exporting data"
+  },
   "settingsImportData": "データをインポート",
-
+  "@settingsImportData": {
+    "description": "Setting title for importing data"
+  },
   "settingsDeleteEverything": "すべてを削除",
-
+  "@settingsDeleteEverything": {
+    "description": "Setting title for deleting all data"
+  },
   "themeLight": "ライト",
-
+  "@themeLight": {
+    "description": "Light theme option"
+  },
   "themeDark": "ダーク",
-
+  "@themeDark": {
+    "description": "Dark theme option"
+  },
   "themeSystem": "システム",
-
+  "@themeSystem": {
+    "description": "System theme option"
+  },
   "themePureBlack": "純黒",
-
+  "@themePureBlack": {
+    "description": "Pure black theme option for OLED displays"
+  },
   "themeMode": "テーマモード",
-
+  "@themeMode": {
+    "description": "Dialog title for theme mode selection"
+  },
   "pinDialogSetTitle": "PINを設定",
-
+  "@pinDialogSetTitle": {
+    "description": "Dialog title for setting a PIN"
+  },
   "pinDialogEnterPIN": "PINを入力",
-
+  "@pinDialogEnterPIN": {
+    "description": "Label for PIN entry field"
+  },
   "pinDialogConfirmPIN": "PINを確認",
-
+  "@pinDialogConfirmPIN": {
+    "description": "Label for PIN confirmation field"
+  },
   "pinDialogSet": "設定",
-
+  "@pinDialogSet": {
+    "description": "Button to confirm setting PIN"
+  },
   "pinDialogPINsDoNotMatch": "PINが一致しません",
-
+  "@pinDialogPINsDoNotMatch": {
+    "description": "Error message when PINs don't match"
+  },
   "pinDialogPIN": "PIN",
-
+  "@pinDialogPIN": {
+    "description": "Label for PIN field in verification dialog"
+  },
   "pinDialogOK": "OK",
-
+  "@pinDialogOK": {
+    "description": "OK button in PIN dialog"
+  },
   "notificationFrequencyDialogTitle": "通知頻度",
-
+  "@notificationFrequencyDialogTitle": {
+    "description": "Dialog title for notification frequency settings"
+  },
   "notificationFrequencyNotifyEvery": "通知間隔",
-
+  "@notificationFrequencyNotifyEvery": {
+    "description": "Label for notification frequency field"
+  },
   "notificationFrequencyDays": "日",
-
+  "@notificationFrequencyDays": {
+    "description": "Suffix text for days in notification frequency"
+  },
   "notificationFrequencyAt": "時刻",
-
+  "@notificationFrequencyAt": {
+    "description": "Label for notification time field"
+  },
   "notificationFrequencySave": "保存",
-
+  "@notificationFrequencySave": {
+    "description": "Save button in notification frequency dialog"
+  },
   "notificationTestTitle": "ポジティブな励まし",
-
+  "@notificationTestTitle": {
+    "description": "Title for test notification"
+  },
   "notificationTestBody": "{days}日{plural}ごとに、あなたの進捗を祝福する通知が届きます!",
-
+  "@notificationTestBody": {
+    "description": "Body text for test notification",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      },
+      "plural": {
+        "type": "String"
+      }
+    }
+  },
   "deleteEverythingDialogTitle": "すべてを削除",
-
+  "@deleteEverythingDialogTitle": {
+    "description": "Dialog title for delete everything confirmation"
+  },
   "deleteEverythingDialogMessage": "本当にすべてを削除しますか?この操作は取り消せません。",
-
+  "@deleteEverythingDialogMessage": {
+    "description": "Message warning about deleting all data"
+  },
   "deleteEverythingConfirm": "削除する!",
-
+  "@deleteEverythingConfirm": {
+    "description": "Button to confirm deleting everything"
+  },
   "dataExported": "データをエクスポートしました!",
-
+  "@dataExported": {
+    "description": "Toast message when data is exported successfully"
+  },
   "dataImported": "データを正常にインポートしました!",
-
+  "@dataImported": {
+    "description": "Toast message when data is imported successfully"
+  },
   "journalHowWasYourDay": "今日はどうでしたか?",
-
+  "@journalHowWasYourDay": {
+    "description": "Header text in journal entry section"
+  },
   "journalPlaceholder": "今日のこと、思考、感情、覚えておきたいことなど、何でも書いてみましょう...",
-
+  "@journalPlaceholder": {
+    "description": "Placeholder text for journal entry field"
+  },
   "journalWordCount": "{count} 文字",
-
+  "@journalWordCount": {
+    "description": "Word count display in journal",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "journalPreviousMonth": "前の月",
-
+  "@journalPreviousMonth": {
+    "description": "Tooltip for previous month button in calendar"
+  },
   "journalNextMonth": "次の月",
-
+  "@journalNextMonth": {
+    "description": "Tooltip for next month button in calendar"
+  },
   "quitMilestonesStart": "スタート",
-
+  "@quitMilestonesStart": {
+    "description": "Button to start quit journey"
+  },
   "quitMilestonesReset": "リセット",
-
+  "@quitMilestonesReset": {
+    "description": "Button to reset quit journey"
+  },
   "quitMilestonesQuitDate": "禁止開始日",
-
+  "@quitMilestonesQuitDate": {
+    "description": "Label for quit date field"
+  },
   "quitMilestonesClearTitle": "{days}日のマイルストーンをクリアしますか?",
-
+  "@quitMilestonesClearTitle": {
+    "description": "Dialog title for clearing milestone",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
   "quitMilestonesClearMessage": "これにより、{days}日のマイルストーンを達成した過去の記録がすべてクリアされます。",
-
+  "@quitMilestonesClearMessage": {
+    "description": "Message explaining what clearing a milestone does",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
   "quitMilestonesClear": "クリア",
-
+  "@quitMilestonesClear": {
+    "description": "Button to clear milestone"
+  },
   "quitMilestonesShareMessage": "{title}をやめて{days}日{plural}クリーンな状態です!",
-
+  "@quitMilestonesShareMessage": {
+    "description": "Message template for sharing progress",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      },
+      "plural": {
+        "type": "String"
+      },
+      "title": {
+        "type": "String"
+      }
+    }
+  },
   "entryPageHeaderStarted": "一歩ずつ強くなっています",
-
+  "@entryPageHeaderStarted": {
+    "description": "Header text for started custom entry"
+  },
   "entryPageHeaderNotStarted": "未開始",
-
+  "@entryPageHeaderNotStarted": {
+    "description": "Header text for not started custom entry"
+  },
   "entryPageSubtitleStarted": "素晴らしいですよ!",
-
+  "@entryPageSubtitleStarted": {
+    "description": "Subtitle text for started custom entry"
+  },
   "entryPageSubtitleNotStarted": "「スタート」をタップして旅を始めましょう",
-
+  "@entryPageSubtitleNotStarted": {
+    "description": "Subtitle text for not started custom entry"
+  },
   "editEntryAddTitle": "エントリーを追加",
-
+  "@editEntryAddTitle": {
+    "description": "Page title when adding a new entry"
+  },
   "editEntryEditTitle": "エントリーを編集",
-
+  "@editEntryEditTitle": {
+    "description": "Page title when editing an entry"
+  },
   "editEntryTitle": "タイトル",
-
+  "@editEntryTitle": {
+    "description": "Label for entry title field"
+  },
   "editEntryTitleError": "タイトルを入力してください",
-
+  "@editEntryTitleError": {
+    "description": "Error message when title is empty"
+  },
   "editEntryColor": "色",
-
+  "@editEntryColor": {
+    "description": "Label for color selection"
+  },
   "editEntryIcon": "アイコン",
-
+  "@editEntryIcon": {
+    "description": "Label for icon selection"
+  },
   "editEntrySave": "保存",
-
+  "@editEntrySave": {
+    "description": "Save button in edit entry page"
+  },
   "editEntryDeleteDialogTitle": "本当によろしいですか?",
-
+  "@editEntryDeleteDialogTitle": {
+    "description": "Dialog title for delete entry confirmation"
+  },
   "editEntryDeleteDialogMessage": "本当にこのエントリーを削除しますか?",
-
+  "@editEntryDeleteDialogMessage": {
+    "description": "Message asking for delete confirmation"
+  },
   "editEntryDeleteNo": "いいえ",
-
+  "@editEntryDeleteNo": {
+    "description": "No button in delete dialog"
+  },
   "editEntryDeleteYes": "はい",
-
+  "@editEntryDeleteYes": {
+    "description": "Yes button in delete dialog"
+  },
   "pinPageEnterPIN": "PINを入力",
-
+  "@pinPageEnterPIN": {
+    "description": "Title text on PIN entry page"
+  },
   "pinPageIncorrectPIN": "PINが正しくありません",
-
+  "@pinPageIncorrectPIN": {
+    "description": "Error message for incorrect PIN"
+  },
   "pinPageTooManyAttempts": "試行回数が多すぎます。30秒待ってください。",
-
+  "@pinPageTooManyAttempts": {
+    "description": "Error message when too many failed PIN attempts"
+  },
   "aboutPageTitle": "このアプリについて",
-
+  "@aboutPageTitle": {
+    "description": "Title for about page"
+  },
   "aboutVersion": "バージョン",
-
+  "@aboutVersion": {
+    "description": "Label for app version"
+  },
   "aboutAuthor": "作成者",
-
+  "@aboutAuthor": {
+    "description": "Label for app author"
+  },
   "aboutAuthorName": "Brandon Dick",
-
+  "@aboutAuthorName": {
+    "description": "Name of the app author"
+  },
   "aboutLicense": "ライセンス",
-
+  "@aboutLicense": {
+    "description": "Label for app license"
+  },
   "aboutLicenseMIT": "MIT",
-
+  "@aboutLicenseMIT": {
+    "description": "License type"
+  },
   "aboutDonate": "寄付",
-
+  "@aboutDonate": {
+    "description": "Label for donate option"
+  },
   "aboutDonateSubtitle": "このプロジェクトをサポート",
-
+  "@aboutDonateSubtitle": {
+    "description": "Subtitle for donate option"
+  },
   "aboutSourceCode": "ソースコード",
-
+  "@aboutSourceCode": {
+    "description": "Label for source code link"
+  },
   "whatsNewTitle": "新機能",
-
+  "@whatsNewTitle": {
+    "description": "Title for what's new page"
+  },
   "whatsNewSearchHint": "検索...",
-
+  "@whatsNewSearchHint": {
+    "description": "Hint text for changelog search"
+  },
   "whatsNewEnjoyingButton": "アプリを気に入っていただけましたか?",
-
+  "@whatsNewEnjoyingButton": {
+    "description": "Button text to go to enjoying page from what's new"
+  },
   "enjoyingPageTitle": "アプリを気に入っていただけましたか?",
-
+  "@enjoyingPageTitle": {
+    "description": "Title for enjoying the app page"
+  },
   "enjoyingLeaveReview": "レビューを書く",
-
+  "@enjoyingLeaveReview": {
+    "description": "Option to leave a review"
+  },
   "enjoyingLeaveReviewSubtitle": "ご感想をお聞かせください!",
-
+  "@enjoyingLeaveReviewSubtitle": {
+    "description": "Subtitle for leave a review option"
+  },
   "enjoyingGiveStar": "スターをつける",
-
+  "@enjoyingGiveStar": {
+    "description": "Option to star on GitHub"
+  },
   "enjoyingGiveStarSubtitle": "GitHubでサポートを表明",
-
+  "@enjoyingGiveStarSubtitle": {
+    "description": "Subtitle for give star option"
+  },
   "enjoyingDonate": "寄付",
-
+  "@enjoyingDonate": {
+    "description": "Option to donate"
+  },
   "enjoyingDonateSubtitle": "開発をサポート",
-
+  "@enjoyingDonateSubtitle": {
+    "description": "Subtitle for donate option"
+  },
   "alcoholPageTitle": "お酒のない輝く日々",
-
+  "@alcoholPageTitle": {
+    "description": "Page title for alcohol tracking"
+  },
+  "alcoholPageQuitDateDisplay": "{quitDate} ({days, plural, =1 {{days} day} other {{days} days}})",
+  "@alcoholPageQuitDateDisplay": {
+    "description": "Display quit date with elapsed days.",
+    "placeholders": {
+      "quitDate": {
+        "type": "DateTime",
+        "format": "yMMMd",
+        "description": "Quit date"
+      },
+      "days": {
+        "type": "int",
+        "description": "Number of days since the quit date"
+      }
+    }
+  },
   "alcoholHeaderStarted": "よく頑張りました!",
-
+  "@alcoholHeaderStarted": {
+    "description": "Header for started alcohol quit journey"
+  },
   "alcoholHeaderNotStarted": "クリーンな旅の始まり!",
-
+  "@alcoholHeaderNotStarted": {
+    "description": "Header for not started alcohol quit journey"
+  },
   "alcoholSubtitleStarted": "毎日が勝利です 🥳",
-
+  "@alcoholSubtitleStarted": {
+    "description": "Subtitle for started alcohol quit journey"
+  },
   "alcoholSubtitleNotStarted": "輝く自分になる準備はできていますか? ✨",
-
+  "@alcoholSubtitleNotStarted": {
+    "description": "Subtitle for not started alcohol quit journey"
+  },
   "vapingPageTitle": "ベイプフリーの勝利",
-
+  "@vapingPageTitle": {
+    "description": "Page title for vaping tracking"
+  },
   "vapingHeaderStarted": "晴れやかな未来へ!",
-
+  "@vapingHeaderStarted": {
+    "description": "Header for started vaping quit journey"
+  },
   "vapingHeaderNotStarted": "ベイプのない生活!",
-
+  "@vapingHeaderNotStarted": {
+    "description": "Header for not started vaping quit journey"
+  },
   "vapingSubtitleStarted": "楽に呼吸、自由に生きる 🌬️",
-
+  "@vapingSubtitleStarted": {
+    "description": "Subtitle for started vaping quit journey"
+  },
   "vapingSubtitleNotStarted": "ベイプをやめる準備はできていますか? ✨",
-
+  "@vapingSubtitleNotStarted": {
+    "description": "Subtitle for not started vaping quit journey"
+  },
   "smokingPageTitle": "禁煙と飛躍",
-
+  "@smokingPageTitle": {
+    "description": "Page title for smoking tracking"
+  },
   "smokingHeaderStarted": "楽に呼吸を!",
-
+  "@smokingHeaderStarted": {
+    "description": "Header for started smoking quit journey"
+  },
   "smokingHeaderNotStarted": "禁煙の旅!",
-
+  "@smokingHeaderNotStarted": {
+    "description": "Header for not started smoking quit journey"
+  },
   "smokingSubtitleStarted": "タバコのない毎日が勝利です 🚭",
-
+  "@smokingSubtitleStarted": {
+    "description": "Subtitle for started smoking quit journey"
+  },
   "smokingSubtitleNotStarted": "健康を取り戻す準備はできていますか? ✨",
-
+  "@smokingSubtitleNotStarted": {
+    "description": "Subtitle for not started smoking quit journey"
+  },
   "marijuanaPageTitle": "大麻フリーの旅",
-
+  "@marijuanaPageTitle": {
+    "description": "Page title for marijuana tracking"
+  },
   "marijuanaHeaderStarted": "クリアな心の目覚め!",
-
+  "@marijuanaHeaderStarted": {
+    "description": "Header for started marijuana quit journey"
+  },
   "marijuanaHeaderNotStarted": "大麻のない生活!",
-
+  "@marijuanaHeaderNotStarted": {
+    "description": "Header for not started marijuana quit journey"
+  },
   "marijuanaSubtitleStarted": "一日ずつ、心の明晰さを築いていきましょう 🧠",
-
+  "@marijuanaSubtitleStarted": {
+    "description": "Subtitle for started marijuana quit journey"
+  },
   "marijuanaSubtitleNotStarted": "クリアな明日への準備はできていますか? 🌱",
-
+  "@marijuanaSubtitleNotStarted": {
+    "description": "Subtitle for not started marijuana quit journey"
+  },
   "nicotinePouchesPageTitle": "パウチフリーのパワー",
-
+  "@nicotinePouchesPageTitle": {
+    "description": "Page title for nicotine pouches tracking"
+  },
   "nicotinePouchesHeaderStarted": "爽快で自由!",
-
+  "@nicotinePouchesHeaderStarted": {
+    "description": "Header for started nicotine pouches quit journey"
+  },
   "nicotinePouchesHeaderNotStarted": "パウチフリーの進歩!",
-
+  "@nicotinePouchesHeaderNotStarted": {
+    "description": "Header for not started nicotine pouches quit journey"
+  },
   "nicotinePouchesSubtitleStarted": "より明るく健康的な自分を受け入れましょう ✨",
-
+  "@nicotinePouchesSubtitleStarted": {
+    "description": "Subtitle for started nicotine pouches quit journey"
+  },
   "nicotinePouchesSubtitleNotStarted": "パウチをやめる準備はできていますか? 🚀",
-
+  "@nicotinePouchesSubtitleNotStarted": {
+    "description": "Subtitle for not started nicotine pouches quit journey"
+  },
   "opioidsPageTitle": "平安への道",
-
+  "@opioidsPageTitle": {
+    "description": "Page title for opioids tracking"
+  },
   "opioidsHeaderStarted": "毎日強くなっています!",
-
+  "@opioidsHeaderStarted": {
+    "description": "Header for started opioids quit journey"
+  },
   "opioidsHeaderNotStarted": "回復への道!",
-
+  "@opioidsHeaderNotStarted": {
+    "description": "Header for not started opioids quit journey"
+  },
   "opioidsSubtitleStarted": "あなたの強さを受け入れましょう 💪",
-
+  "@opioidsSubtitleStarted": {
+    "description": "Subtitle for started opioids quit journey"
+  },
   "opioidsSubtitleNotStarted": "人生を取り戻す準備はできていますか? 💖",
-
+  "@opioidsSubtitleNotStarted": {
+    "description": "Subtitle for not started opioids quit journey"
+  },
   "opioidsInfoBox": "回復は医療プロセスです。必ず医療専門家に相談してください。",
-
+  "@opioidsInfoBox": {
+    "description": "Important information box message for opioids recovery"
+  },
   "socialMediaPageTitle": "デジタルデトックスの喜び",
-
+  "@socialMediaPageTitle": {
+    "description": "Page title for social media tracking"
+  },
   "socialMediaHeaderStarted": "オフラインで楽しもう!",
-
+  "@socialMediaHeaderStarted": {
+    "description": "Header for started social media quit journey"
+  },
   "socialMediaHeaderNotStarted": "デジタルデトックスの旅!",
-
+  "@socialMediaHeaderNotStarted": {
+    "description": "Header for not started social media quit journey"
+  },
   "socialMediaSubtitleStarted": "現実の生活が最高のフィードです 💖",
-
+  "@socialMediaSubtitleStarted": {
+    "description": "Subtitle for started social media quit journey"
+  },
   "socialMediaSubtitleNotStarted": "時間を取り戻す準備はできていますか? 🚀",
-
+  "@socialMediaSubtitleNotStarted": {
+    "description": "Subtitle for not started social media quit journey"
+  },
   "pornographyPageTitle": "純粋で力強く",
-
+  "@pornographyPageTitle": {
+    "description": "Page title for adult content tracking"
+  },
   "pornographyHeaderStarted": "心を取り戻しています!",
-
+  "@pornographyHeaderStarted": {
+    "description": "Header for started adult content quit journey"
+  },
   "pornographyHeaderNotStarted": "旅を始めましょう!",
-
+  "@pornographyHeaderNotStarted": {
+    "description": "Header for not started adult content quit journey"
+  },
   "pornographySubtitleStarted": "本物のつながりを築いていきます 🧠✨",
-
+  "@pornographySubtitleStarted": {
+    "description": "Subtitle for started adult content quit journey"
+  },
   "pornographySubtitleNotStarted": "解放され、再構築する準備はできていますか? 💪",
-
+  "@pornographySubtitleNotStarted": {
+    "description": "Subtitle for not started adult content quit journey"
+  },
   "relapseMessage1": "回復は直線的ではありません。すべての前進が大切で、この一歩も含まれます。",
-
+  "@relapseMessage1": {
+    "description": "Encouragement message for relapse"
+  },
   "relapseMessage2": "あなたはここにいて、努力しています。それには本当の勇気が必要です。",
-
+  "@relapseMessage2": {
+    "description": "Encouragement message for relapse"
+  },
   "relapseMessage3": "後退はあなたの進歩を消すものではありません。あなたは学び、成長しています。",
-
+  "@relapseMessage3": {
+    "description": "Encouragement message for relapse"
+  },
   "relapseMessage4": "再スタートはあなたの強さの証であり、弱さのサインではありません。",
-
+  "@relapseMessage4": {
+    "description": "Encouragement message for relapse"
+  },
   "relapseMessage5": "明日は新しいスタートです。あなたならできます。",
-
+  "@relapseMessage5": {
+    "description": "Encouragement message for relapse"
+  },
   "relapseMessage6": "あなたの価値は完璧な記録では決まりません。あなたには価値があります。",
-
+  "@relapseMessage6": {
+    "description": "Encouragement message for relapse"
+  },
   "relapseMessage7": "回復は山と谷のある旅です。歩き続けましょう。",
-
+  "@relapseMessage7": {
+    "description": "Encouragement message for relapse"
+  },
   "relapseMessage8": "以前スタートする強さがあったのだから、今もまたその強さがあります。",
-
+  "@relapseMessage8": {
+    "description": "Encouragement message for relapse"
+  },
   "relapseMessage9": "一瞬があなたの未来の旅全体を決めるわけではありません。",
-
+  "@relapseMessage9": {
+    "description": "Encouragement message for relapse"
+  },
   "relapseMessage10": "ここにいることは、諦めていない証です。それは強力です。",
-
+  "@relapseMessage10": {
+    "description": "Encouragement message for relapse"
+  },
   "relapseMessage11": "進歩とは完璧さではなく、粘り強さです。",
-
+  "@relapseMessage11": {
+    "description": "Encouragement message for relapse"
+  },
   "relapseMessage12": "あなたは試みるたびに回復力を築いています。築き続けましょう。",
-
+  "@relapseMessage12": {
+    "description": "Encouragement message for relapse"
+  },
   "relapseMessage13": "再び挑戦することへのあなたのコミットメントは、すでに勝利です。",
-
+  "@relapseMessage13": {
+    "description": "Encouragement message for relapse"
+  },
   "relapseMessage14": "癒しは一瞬では起きませんが、あなたの選択一つ一つで起きています。",
-
+  "@relapseMessage14": {
+    "description": "Encouragement message for relapse"
+  },
   "relapseMessage15": "最初からやり直しているのではなく、より多くの知恵を持って続けているのです。",
-
+  "@relapseMessage15": {
+    "description": "Encouragement message for relapse"
+  },
   "relapseMessage16": "すべての専門家はかつて初心者でした。すべてのプロはかつて素人でした。",
-
+  "@relapseMessage16": {
+    "description": "Encouragement message for relapse"
+  },
   "relapseMessage17": "回復は一日ずつ、時には一時間ずつ起こります。",
-
+  "@relapseMessage17": {
+    "description": "Encouragement message for relapse"
+  },
   "relapseMessage18": "あなたは復活のストーリーを書いています。これはただの一章です。",
-
+  "@relapseMessage18": {
+    "description": "Encouragement message for relapse"
+  },
   "relapseMessage19": "あなたがここにいるという事実は、自分自身を大切にしている証拠です。それを忘れないで。",
-
+  "@relapseMessage19": {
+    "description": "Encouragement message for relapse"
+  },
   "relapseMessage20": "正しい方向への小さな一歩も、前進です。",
-
+  "@relapseMessage20": {
+    "description": "Encouragement message for relapse"
+  },
   "undo": "取り消す",
-
+  "@undo": {
+    "description": "Undo button text in reset snackbar"
+  },
   "ok": "OK",
-
+  "@ok": {
+    "description": "OK button text used in toast messages"
+  },
   "alcoholMilestone1Title": "睡眠の質が改善し始める",
+  "@alcoholMilestone1Title": {
+    "description": "Alcohol milestone day 1 title"
+  },
   "alcoholMilestone1Description": "初日からREM睡眠のサイクルが正常化し始めます。アルコールは最初は眠りにつくのを助けるかもしれませんが、夜を通して深い睡眠とREMサイクルを乱し、断片的な睡眠を引き起こします。",
-
+  "@alcoholMilestone1Description": {
+    "description": "Alcohol milestone day 1 description"
+  },
   "alcoholMilestone3Title": "水分バランスが回復",
+  "@alcoholMilestone3Title": {
+    "description": "Alcohol milestone day 3 title"
+  },
   "alcoholMilestone3Description": "腎臓がアルコールの利尿作用から回復しています。アルコールは抗利尿ホルモンを抑制し、排尿の増加と脱水を引き起こします。3日目には、体の水分バランスが大幅に改善しています。",
-
+  "@alcoholMilestone3Description": {
+    "description": "Alcohol milestone day 3 description"
+  },
   "alcoholMilestone7Title": "免疫システムが強化",
+  "@alcoholMilestone7Title": {
+    "description": "Alcohol milestone day 7 title"
+  },
   "alcoholMilestone7Description": "白血球の機能が回復しています。たった一度の深酒でも最大24時間免疫機能を低下させ、慢性的な飲酒は感染症と闘う体の能力を著しく弱めます。",
-
+  "@alcoholMilestone7Description": {
+    "description": "Alcohol milestone day 7 description"
+  },
   "alcoholMilestone14Title": "脳の容積回復が始まる",
+  "@alcoholMilestone14Title": {
+    "description": "Alcohol milestone day 14 title"
+  },
   "alcoholMilestone14Description": "禁酒から2週間以内に脳の容積の急速な回復が始まります。研究によると、14日目頃から脳組織の回復の兆候が見られますが、完全な認知機能は数ヶ月かけて改善し続けます。",
-
+  "@alcoholMilestone14Description": {
+    "description": "Alcohol milestone day 14 description"
+  },
   "alcoholMilestone30Title": "血圧が正常化",
+  "@alcoholMilestone30Title": {
+    "description": "Alcohol milestone day 30 title"
+  },
   "alcoholMilestone30Description": "心血管系が大幅に改善しています。定期的なアルコール摂取は血圧を上昇させますが、約1ヶ月の禁酒で血圧をより健康的なレベルに戻すことができます。",
-
+  "@alcoholMilestone30Description": {
+    "description": "Alcohol milestone day 30 description"
+  },
   "alcoholMilestone60Title": "肝機能が改善",
+  "@alcoholMilestone60Title": {
+    "description": "Alcohol milestone day 60 title"
+  },
   "alcoholMilestone60Description": "肝臓の機能に測定可能な改善が見られます。この再生能力のある臓器は、アルコールによるダメージから大幅に回復でき、禁酒2ヶ月以内に肝酵素と脂肪蓄積の改善が見られます。",
-
+  "@alcoholMilestone60Description": {
+    "description": "Alcohol milestone day 60 description"
+  },
   "alcoholMilestone90Title": "認知機能が大幅に改善",
+  "@alcoholMilestone90Title": {
+    "description": "Alcohol milestone day 90 title"
+  },
   "alcoholMilestone90Description": "最初の3ヶ月で重要な認知回復が起こります。研究によると、禁酒を続ける人々は数ヶ月にわたって認知機能を回復し続け、記憶力、集中力、意思決定に測定可能な改善が見られます。",
-
+  "@alcoholMilestone90Description": {
+    "description": "Alcohol milestone day 90 description"
+  },
   "alcoholMilestone180Title": "脳の容積と機能が継続的に回復",
+  "@alcoholMilestone180Title": {
+    "description": "Alcohol milestone day 180 title"
+  },
   "alcoholMilestone180Description": "6ヶ月の禁酒は継続的な神経回復を可能にします。研究によると、この持続的な禁酒期間中、脳の容積は増加し続け、認知能力も大幅に改善し続けます。",
-
+  "@alcoholMilestone180Description": {
+    "description": "Alcohol milestone day 180 description"
+  },
   "alcoholMilestone365Title": "がんリスクの低減が始まる可能性",
+  "@alcoholMilestone365Title": {
+    "description": "Alcohol milestone day 365 title"
+  },
   "alcoholMilestone365Description": "1年間の禁酒でがんリスクの低減が始まる可能性があります。アルコールは明らかにいくつかのがん（肝臓、乳房、大腸、食道）のリスクを高めますが、リスク低減のタイムラインに関する研究はまだ発展途上であり、がんの種類によって異なります。",
-
+  "@alcoholMilestone365Description": {
+    "description": "Alcohol milestone day 365 description"
+  },
   "smokingMilestone1Title": "一酸化炭素が消える",
+  "@smokingMilestone1Title": {
+    "description": "Smoking milestone day 1 title"
+  },
   "smokingMilestone1Description": "血液が再び呼吸しています！24時間以内に一酸化炭素レベルが正常に戻り、酸素レベルが上昇します。心臓はもう毒された血液を体中にポンプする必要がありません。",
-
+  "@smokingMilestone1Description": {
+    "description": "Smoking milestone day 1 description"
+  },
   "smokingMilestone3Title": "ニコチン離脱がピークに",
+  "@smokingMilestone3Title": {
+    "description": "Smoking milestone day 3 title"
+  },
   "smokingMilestone3Description": "ニコチンの怪物は最も怒っていますが、あなたは戦いに勝っています！すべてのニコチンが体から排出されました。最悪の渇望は今起きていますが、それは自由への切符でもあります。",
-
+  "@smokingMilestone3Description": {
+    "description": "Smoking milestone day 3 description"
+  },
   "smokingMilestone7Title": "味覚と嗅覚が劇的に改善",
+  "@smokingMilestone7Title": {
+    "description": "Smoking milestone day 7 title"
+  },
   "smokingMilestone7Description": "食べ物が再び冒険になろうとしています！喫煙は味蕾と嗅覚受容体を破壊します。1週間で、忘れていた味を再発見しています。本格的な食の楽しみの準備をしましょう！",
-
+  "@smokingMilestone7Description": {
+    "description": "Smoking milestone day 7 description"
+  },
   "smokingMilestone14Title": "血行と歩行が改善",
+  "@smokingMilestone14Title": {
+    "description": "Smoking milestone day 14 title"
+  },
   "smokingMilestone14Description": "あなたの足は一歩ごとに感謝しています！血液循環が劇的に改善し、歩行と運動が明らかに楽になります。あの階段ももうそれほど怖くないでしょう？",
-
+  "@smokingMilestone14Description": {
+    "description": "Smoking milestone day 14 description"
+  },
   "smokingMilestone30Title": "肺機能が向上",
+  "@smokingMilestone30Title": {
+    "description": "Smoking milestone day 30 title"
+  },
   "smokingMilestone30Description": "肺がカムバックパーティーを開いています！繊毛が再生し、何年ものタールや破片を掃き出しています。肺活量が大幅に増加し、喫煙者の咳は過去のものになりました。",
-
+  "@smokingMilestone30Description": {
+    "description": "Smoking milestone day 30 description"
+  },
   "smokingMilestone90Title": "心臓発作のリスクが大幅に低下",
+  "@smokingMilestone90Title": {
+    "description": "Smoking milestone day 90 title"
+  },
   "smokingMilestone90Description": "心臓がラブレターを送っています！禁煙3ヶ月で心血管リスクはすでに大幅に低下しています。心血管系は思っている以上に速く回復しています。",
-
+  "@smokingMilestone90Description": {
+    "description": "Smoking milestone day 90 description"
+  },
   "smokingMilestone180Title": "免疫システムが強化",
+  "@smokingMilestone180Title": {
+    "description": "Smoking milestone day 180 title"
+  },
   "smokingMilestone180Description": "免疫システムがスーパーヒーローにアップグレードされました！禁煙6ヶ月で白血球はフルパワーに戻り、生まれながらのチャンピオンのように感染症と戦っています。",
-
+  "@smokingMilestone180Description": {
+    "description": "Smoking milestone day 180 description"
+  },
   "smokingMilestone365Title": "脳卒中リスクが大幅に減少",
+  "@smokingMilestone365Title": {
+    "description": "Smoking milestone day 365 title"
+  },
   "smokingMilestone365Description": "自由の1年間！脳卒中リスクは大幅に減少し、血管は美しく回復しています。脳により良い循環と保護というギフトを正式に与えました。",
-
+  "@smokingMilestone365Description": {
+    "description": "Smoking milestone day 365 description"
+  },
   "smokingMilestone1825Title": "がんリスクが激減（5年）",
+  "@smokingMilestone1825Title": {
+    "description": "Smoking milestone day 1825 title"
+  },
   "smokingMilestone1825Description": "5年間の勝利！口、喉、食道、膀胱がんのリスクは半分に減少しました。肺がんのリスクも大幅に減少しています。細胞は修復と再生の時間を得ました。",
-
+  "@smokingMilestone1825Description": {
+    "description": "Smoking milestone day 1825 description"
+  },
   "vapingMilestone1Title": "ニコチン渇望がピークに",
+  "@vapingMilestone1Title": {
+    "description": "Vaping milestone day 1 title"
+  },
   "vapingMilestone1Description": "脳がニコチンを求めて暴れていますが、あなたはもう勝ち始めています！24時間以内にニコチンレベルは劇的に低下します。最悪の渇望は今起きていますが、乗り越えることが最も重要です。",
-
+  "@vapingMilestone1Description": {
+    "description": "Vaping milestone day 1 description"
+  },
   "vapingMilestone3Title": "呼吸が改善",
+  "@vapingMilestone3Title": {
+    "description": "Vaping milestone day 3 title"
+  },
   "vapingMilestone3Description": "肺が喜びのダンスをしています！気管支がリラックスし始め、肺活量が改善し始めます。ベイピングによる胸の締め付け感がすでに和らぎ始めています。",
-
+  "@vapingMilestone3Description": {
+    "description": "Vaping milestone day 3 description"
+  },
   "vapingMilestone7Title": "味覚と嗅覚が戻る",
+  "@vapingMilestone7Title": {
+    "description": "Vaping milestone day 7 title"
+  },
   "vapingMilestone7Description": "食べ物がまた美味しくなろうとしています！ニコチンは味蕾と嗅覚受容体を鈍らせます。1週間で、あなたの感覚のスーパーパワーがカムバックツアーを開始しています。",
-
+  "@vapingMilestone7Description": {
+    "description": "Vaping milestone day 7 description"
+  },
   "vapingMilestone14Title": "血行が改善",
+  "@vapingMilestone14Title": {
+    "description": "Vaping milestone day 14 title"
+  },
   "vapingMilestone14Description": "血液がチャンピオンのように流れています！ニコチンは血管を収縮させますが、2週間ベイプフリーであなたの血行は劇的に改善しています。冷たい手足よ、さようなら！",
-
+  "@vapingMilestone14Description": {
+    "description": "Vaping milestone day 14 description"
+  },
   "vapingMilestone30Title": "肺機能の回復",
+  "@vapingMilestone30Title": {
+    "description": "Vaping milestone day 30 title"
+  },
   "vapingMilestone30Description": "肺が実質的にお祝いパレードを開いています！繊毛（小さな肺の掃除屋）が再生し、肺機能が大幅に改善しました。朝の咳は過去のものになりました！",
-
+  "@vapingMilestone30Description": {
+    "description": "Vaping milestone day 30 description"
+  },
   "vapingMilestone60Title": "不安レベルが正常化",
+  "@vapingMilestone60Title": {
+    "description": "Vaping milestone day 60 title"
+  },
   "vapingMilestone60Description": "どんでん返し：ベイピングは不安問題を良くするどころか悪化させていました！2ヶ月経ってベースラインの不安レベルは大幅に低下しています。神経系がついにリラックスしています。",
-
+  "@vapingMilestone60Description": {
+    "description": "Vaping milestone day 60 description"
+  },
   "vapingMilestone90Title": "認知機能が鋭くなる",
+  "@vapingMilestone90Title": {
+    "description": "Vaping milestone day 90 title"
+  },
   "vapingMilestone90Description": "脳霧が正式に去りました！ニコチンなしで3ヶ月、認知機能、集中力、記憶力が大幅に改善しました。メンタルRAMをアップグレードしたようなものです。",
-
+  "@vapingMilestone90Description": {
+    "description": "Vaping milestone day 90 description"
+  },
   "vapingMilestone180Title": "口腔の健康が回復",
+  "@vapingMilestone180Title": {
+    "description": "Vaping milestone day 180 title"
+  },
   "vapingMilestone180Description": "あなたの口がお礼状を送っています！ベイプフリー6ヶ月で歯茎の炎症が減少し、歯の着色が薄れ、口腔の健康問題のリスクが大幅に低下します。",
-
+  "@vapingMilestone180Description": {
+    "description": "Vaping milestone day 180 description"
+  },
   "vapingMilestone365Title": "心血管リスクの低減",
+  "@vapingMilestone365Title": {
+    "description": "Vaping milestone day 365 title"
+  },
   "vapingMilestone365Description": "心臓が文字通り強くなりました！丸1年で心臓病のリスクが大幅に低下しました。心血管系がニコチンの日々の攻撃コースから回復しました。",
-
+  "@vapingMilestone365Description": {
+    "description": "Vaping milestone day 365 description"
+  },
   "marijuanaMilestone1Title": "離脱症状が始まる",
+  "@marijuanaMilestone1Title": {
+    "description": "Marijuana milestone day 1 title"
+  },
   "marijuanaMilestone1Description": "脳がTHCのない生活に適応しています！24〜48時間以内に、イライラ、不安、睡眠障害を経験するかもしれません。これは完全に正常です - カンナビノイド受容体がリセットを開始しています。",
-
+  "@marijuanaMilestone1Description": {
+    "description": "Marijuana milestone day 1 description"
+  },
   "marijuanaMilestone3Title": "身体症状がピークに",
+  "@marijuanaMilestone3Title": {
+    "description": "Marijuana milestone day 3 title"
+  },
   "marijuanaMilestone3Description": "最も厳しいポイントにいますが、ここからはすべて上り坂です！2〜6日目は通常、頭痛、発汗、気分の変化を含むピークの離脱症状が見られます。体はバランスを取り戻すために懸命に働いています。",
-
+  "@marijuanaMilestone3Description": {
+    "description": "Marijuana milestone day 3 description"
+  },
   "marijuanaMilestone7Title": "睡眠パターンが改善",
+  "@marijuanaMilestone7Title": {
+    "description": "Marijuana milestone day 7 title"
+  },
   "marijuanaMilestone7Description": "甘い夢がカムバックしています！大麻なしで1週間後、自然な睡眠構造が正常化し始めます。REM睡眠がリバウンドし、より鮮明な夢とより良い休息の質につながります。",
-
+  "@marijuanaMilestone7Description": {
+    "description": "Marijuana milestone day 7 description"
+  },
   "marijuanaMilestone14Title": "急性離脱が終了",
+  "@marijuanaMilestone14Title": {
+    "description": "Marijuana milestone day 14 title"
+  },
   "marijuanaMilestone14Description": "嵐は過ぎ去りました！2週間後、ほとんどの身体的離脱症状は大幅に減少します。気分が安定し、日常生活がはるかに楽になります。最も困難な部分はあなたの後ろにあります。",
-
+  "@marijuanaMilestone14Description": {
+    "description": "Marijuana milestone day 14 description"
+  },
   "marijuanaMilestone30Title": "記憶機能が改善",
+  "@marijuanaMilestone30Title": {
+    "description": "Marijuana milestone day 30 title"
+  },
   "marijuanaMilestone30Description": "脳霧が晴れています！研究によると、大麻の使用を止めた後、言語学習と記憶が大幅に改善し始めます。記憶形成に重要な海馬がより良く機能し始めます。",
-
+  "@marijuanaMilestone30Description": {
+    "description": "Marijuana milestone day 30 description"
+  },
   "marijuanaMilestone60Title": "集中力が鋭くなる",
+  "@marijuanaMilestone60Title": {
+    "description": "Marijuana milestone day 60 title"
+  },
   "marijuanaMilestone60Description": "フォーカスモード：起動！大麻なしで2ヶ月、集中力と注意力を維持する能力が著しく改善されます。仕事のタスクや勉強が明らかに管理しやすくなります。",
-
+  "@marijuanaMilestone60Description": {
+    "description": "Marijuana milestone day 60 description"
+  },
   "marijuanaMilestone90Title": "気分の安定性が戻る",
+  "@marijuanaMilestone90Title": {
+    "description": "Marijuana milestone day 90 title"
+  },
   "marijuanaMilestone90Description": "感情のバランスが回復！3ヶ月の禁欲は、気分調節の大幅な改善、不安レベルの低下、ストレス管理の改善をもたらします。感情のベースラインが正常化しています。",
-
+  "@marijuanaMilestone90Description": {
+    "description": "Marijuana milestone day 90 description"
+  },
   "marijuanaMilestone180Title": "実行機能の回復",
+  "@marijuanaMilestone180Title": {
+    "description": "Marijuana milestone day 180 title"
+  },
   "marijuanaMilestone180Description": "メンタルCEOが再び指揮を執っています！大麻なしで6ヶ月、実行機能 - 計画、意思決定、問題解決能力 - が大幅に向上しています。",
-
+  "@marijuanaMilestone180Description": {
+    "description": "Marijuana milestone day 180 description"
+  },
   "marijuanaMilestone365Title": "脳構造の復元",
+  "@marijuanaMilestone365Title": {
+    "description": "Marijuana milestone day 365 title"
+  },
   "marijuanaMilestone365Description": "神経アーキテクチャが再構築されました！1年間の禁欲により、慢性的な大麻使用の影響を受けた脳領域の大幅な回復が可能になります。認知機能の改善があなたの新しい常態となり、学習と記憶に持続的な恩恵をもたらします。",
-
+  "@marijuanaMilestone365Description": {
+    "description": "Marijuana milestone day 365 description"
+  },
   "opioidMilestone1Title": "急性離脱症状が始まる",
+  "@opioidMilestone1Title": {
+    "description": "Opioid milestone day 1 title"
+  },
   "opioidMilestone1Description": "最も困難な部分が今始まりますが、あなたは一人ではありません。急性離脱症状は最初の24〜72時間でピークに達します。これは体が回復プロセスを開始していることを意味します。この段階では専門的な医療サポートが非常に重要です。",
-
+  "@opioidMilestone1Description": {
+    "description": "Opioid milestone day 1 description"
+  },
   "opioidMilestone7Title": "身体症状がピークを迎え減少し始める",
+  "@opioidMilestone7Title": {
+    "description": "Opioid milestone day 7 title"
+  },
   "opioidMilestone7Description": "嵐を乗り越えました！最悪の身体的離脱症状は通常3〜5日目頃にピークに達し、7日目までに減少し始めます。体は自然なバランスを取り戻すために懸命に働いています。",
-
+  "@opioidMilestone7Description": {
+    "description": "Opioid milestone day 7 description"
+  },
   "opioidMilestone14Title": "睡眠パターンが改善し始める",
+  "@opioidMilestone14Title": {
+    "description": "Opioid milestone day 14 title"
+  },
   "opioidMilestone14Description": "甘い夢がカムバックしています！2週間経つと、自然な睡眠構造が回復し始めます。オピオイドはREM睡眠を乱しますが、脳は再び自然に夢を見ることを学んでいます。",
-
+  "@opioidMilestone14Description": {
+    "description": "Opioid milestone day 14 description"
+  },
   "opioidMilestone30Title": "認知機能が回復し始める",
+  "@opioidMilestone30Title": {
+    "description": "Opioid milestone day 30 title"
+  },
   "opioidMilestone30Description": "脳霧が晴れ始めています！1ヶ月クリーンで、認知機能、意思決定、記憶が改善し始めています。前頭前皮質がオピオイドによる変化から回復しています。",
-
+  "@opioidMilestone30Description": {
+    "description": "Opioid milestone day 30 description"
+  },
   "opioidMilestone60Title": "感情調節が改善",
+  "@opioidMilestone60Title": {
+    "description": "Opioid milestone day 60 title"
+  },
   "opioidMilestone60Description": "感情が自然なリズムを取り戻しています。回復から2ヶ月、脳の報酬系が日常の喜びに反応し始めています。感情のジェットコースターが安定してきています。",
-
+  "@opioidMilestone60Description": {
+    "description": "Opioid milestone day 60 description"
+  },
   "opioidMilestone90Title": "ドーパミン機能が大幅に回復",
+  "@opioidMilestone90Title": {
+    "description": "Opioid milestone day 90 title"
+  },
   "opioidMilestone90Description": "脳の報酬系がウェルカムバックパーティーを開いています！3ヶ月クリーンでドーパミン機能が大幅に改善しました。自然な活動が再び報酬的に感じられるようになります - 食事、音楽、人間関係。",
-
+  "@opioidMilestone90Description": {
+    "description": "Opioid milestone day 90 description"
+  },
   "opioidMilestone180Title": "免疫システムが強化",
+  "@opioidMilestone180Title": {
+    "description": "Opioid milestone day 180 title"
+  },
   "opioidMilestone180Description": "免疫システムが警備任務に復帰しました！6ヶ月の回復で体の自然な防御機能が大幅に強化されました。感染症や病気と戦う準備が整いました。",
-
+  "@opioidMilestone180Description": {
+    "description": "Opioid milestone day 180 description"
+  },
   "opioidMilestone365Title": "神経可塑性と脳構造が改善",
+  "@opioidMilestone365Title": {
+    "description": "Opioid milestone day 365 title"
+  },
   "opioidMilestone365Description": "脳がリノベーション作業を続けてきました！丸1年の回復で脳構造と神経可塑性に大幅な改善が見られます。慢性的なオピオイド使用による変化が美しく回復しています。",
-
+  "@opioidMilestone365Description": {
+    "description": "Opioid milestone day 365 description"
+  },
   "opioidMilestone730Title": "長期回復の安定（2年）",
+  "@opioidMilestone730Title": {
+    "description": "Opioid milestone day 730 title"
+  },
   "opioidMilestone730Description": "2年間の強さと回復力！新しい神経経路、対処戦略、生活パターンを構築しました。研究によると、このマイルストーンに到達すると再発リスクが劇的に減少します。あなたは回復の戦士です！",
-
+  "@opioidMilestone730Description": {
+    "description": "Opioid milestone day 730 description"
+  },
   "socialMediaMilestone1Title": "デジタルデトックス1日目！ 🎯",
+  "@socialMediaMilestone1Title": {
+    "description": "Social media milestone day 1 title"
+  },
   "socialMediaMilestone1Description": "正式に脳のリワイヤリングを開始しました！研究によると、ソーシャルメディアをチェックしようと考えるだけで、依存症と同じ神経経路が活性化されます。しかし、あなたはすでにそのサイクルを断ち切っています - すごい！",
-
+  "@socialMediaMilestone1Description": {
+    "description": "Social media milestone day 1 description"
+  },
   "socialMediaMilestone3Title": "FOMO？むしろFO-NO！ 😎",
+  "@socialMediaMilestone3Title": {
+    "description": "Social media milestone day 3 title"
+  },
   "socialMediaMilestone3Description": "3日目で、あの不安な「何か見逃してるかも？」という考えがすでに薄れてきています。現実の生活がキュレーションされたフィードよりずっと面白いと、脳を訓練しています！",
-
+  "@socialMediaMilestone3Description": {
+    "description": "Social media milestone day 3 description"
+  },
   "socialMediaMilestone7Title": "集中力：金魚 → 人間 🧠",
+  "@socialMediaMilestone7Title": {
+    "description": "Social media milestone day 7 title"
+  },
   "socialMediaMilestone7Description": "1週間完了！数分ごとにスマホをチェックせずに集中する能力がすでに向上しています。研究によると、私たちの脳は通知からのドーパミンを欲しがりますが、あなたは別の場所で報酬を見つけることを教えています！",
-
+  "@socialMediaMilestone7Description": {
+    "description": "Social media milestone day 7 description"
+  },
   "socialMediaMilestone14Title": "赤ちゃんのように眠る（ゾンビではなく） 😴",
+  "@socialMediaMilestone14Title": {
+    "description": "Social media milestone day 14 title"
+  },
   "socialMediaMilestone14Description": "寝る前にスクロールしない2週間 = より良い睡眠の質！画面からのブルーライトはメラトニンの生成を抑制しますが、自然な睡眠リズムが美しく回復しています。",
-
+  "@socialMediaMilestone14Description": {
+    "description": "Social media milestone day 14 description"
+  },
   "socialMediaMilestone30Title": "本当の友達 > 偽のいいね 💝",
+  "@socialMediaMilestone30Title": {
+    "description": "Social media milestone day 30 title"
+  },
   "socialMediaMilestone30Description": "1ヶ月オフライン = 孤独感とうつ病の大幅な減少！研究によると、ソーシャルメディアを制限することで大きなメンタルヘルスの改善が生まれます。あなたはさらに先を行っています！",
-
+  "@socialMediaMilestone30Description": {
+    "description": "Social media milestone day 30 description"
+  },
   "socialMediaMilestone60Title": "比較の罠：脱出成功！ ✨",
+  "@socialMediaMilestone60Title": {
+    "description": "Social media milestone day 60 title"
+  },
   "socialMediaMilestone60Description": "絶え間ない社会的比較なしの2ヶ月 = 自信が急上昇！研究は一貫して、ソーシャルメディアの使用が自尊心の低下と相関していること、特に上方社会比較からのものを示しています。比較の罠から解放されました！",
-
+  "@socialMediaMilestone60Description": {
+    "description": "Social media milestone day 60 description"
+  },
   "socialMediaMilestone90Title": "趣味コレクターレベル：エキスパート 🎨",
+  "@socialMediaMilestone90Title": {
+    "description": "Social media milestone day 90 title"
+  },
   "socialMediaMilestone90Description": "3ヶ月 = 約270時間以上を取り戻しました！これは新しいスキルを学んだり、15冊以上の本を読んだり、「いつか」と言っていた趣味をマスターするのに十分な時間です。神経可塑性研究によると、脳は文字通りこれらの新しい素晴らしい習慣に向けてリワイヤリングしています！",
-
+  "@socialMediaMilestone90Description": {
+    "description": "Social media milestone day 90 description"
+  },
   "socialMediaMilestone180Title": "メンタルヘルスのグロウアップ完了 🌟",
+  "@socialMediaMilestone180Title": {
+    "description": "Social media milestone day 180 title"
+  },
   "socialMediaMilestone180Description": "6ヶ月オフラインで正式に繁栄しています！長期研究によると、ソーシャルメディアの使用を減らすことで、幸福感、自尊心、人生の満足度が持続的に向上します。現実世界での生活がより良いという生きた証拠です！",
-
+  "@socialMediaMilestone180Description": {
+    "description": "Social media milestone day 180 description"
+  },
   "socialMediaMilestone365Title": "デジタル禅マスター達成 🏆",
+  "@socialMediaMilestone365Title": {
+    "description": "Social media milestone day 365 title"
+  },
   "socialMediaMilestone365Description": "丸1年の意図的な生活！1,000時間以上を取り戻し、より深い人間関係を形成し、人生で最高の瞬間は共有するためではなく、体験するためにあることを証明しました。あなたは正式にデジタルウェルネスの伝説です！",
-
+  "@socialMediaMilestone365Description": {
+    "description": "Social media milestone day 365 description"
+  },
   "nicotinePouchesMilestone1Title": "味覚と嗅覚が回復し始める",
+  "@nicotinePouchesMilestone1Title": {
+    "description": "Nicotine pouches milestone day 1 title"
+  },
   "nicotinePouchesMilestone1Description": "ニコチンは味蕾と嗅覚受容体を鈍らせます。パウチなしでわずか24時間後、これらの感覚がカムバックツアーを開始します！食べ物がまた美味しくなろうとしています。",
-
+  "@nicotinePouchesMilestone1Description": {
+    "description": "Nicotine pouches milestone day 1 description"
+  },
   "nicotinePouchesMilestone3Title": "ニコチンが完全に排出",
+  "@nicotinePouchesMilestone3Title": {
+    "description": "Nicotine pouches milestone day 3 title"
+  },
   "nicotinePouchesMilestone3Description": "体が正式にすべてのニコチンを追い出しました！離脱症状は今頃ピークかもしれませんが、覚えておいてください - これはあなたの脳が自由のために自らをリワイヤリングしているのです。最も困難な部分はほぼ終わりです。",
-
+  "@nicotinePouchesMilestone3Description": {
+    "description": "Nicotine pouches milestone day 3 description"
+  },
   "nicotinePouchesMilestone7Title": "口腔の健康が改善",
+  "@nicotinePouchesMilestone7Title": {
+    "description": "Nicotine pouches milestone day 7 title"
+  },
   "nicotinePouchesMilestone7Description": "歯茎がお祝いをしています！ニコチンパウチは歯茎の炎症や後退を引き起こす可能性があります。1週間後、歯茎への血流が正常化し、治癒が始まります。",
-
+  "@nicotinePouchesMilestone7Description": {
+    "description": "Nicotine pouches milestone day 7 description"
+  },
   "nicotinePouchesMilestone14Title": "血行が向上",
+  "@nicotinePouchesMilestone14Title": {
+    "description": "Nicotine pouches milestone day 14 title"
+  },
   "nicotinePouchesMilestone14Description": "血管がハッピーダンスをしています！ニコチンは血管を収縮させますが、2週間フリーであなたの血行は大幅に改善されています。こんにちは、温かい手足！",
-
+  "@nicotinePouchesMilestone14Description": {
+    "description": "Nicotine pouches milestone day 14 description"
+  },
   "nicotinePouchesMilestone30Title": "ストレス反応が正常化",
+  "@nicotinePouchesMilestone30Title": {
+    "description": "Nicotine pouches milestone day 30 title"
+  },
   "nicotinePouchesMilestone30Description": "どんでん返し：ニコチンは実際に使用の間のストレスを増加させます！コルチゾールレベルとストレス反応がベースラインに戻っています。本物のリラクゼーション、ニコチンの偽物ではありません。",
-
+  "@nicotinePouchesMilestone30Description": {
+    "description": "Nicotine pouches milestone day 30 description"
+  },
   "nicotinePouchesMilestone60Title": "睡眠の質が改善",
+  "@nicotinePouchesMilestone60Title": {
+    "description": "Nicotine pouches milestone day 60 title"
+  },
   "nicotinePouchesMilestone60Description": "甘い夢は...ニコチンなしで作られます！ニコチンはリラックスするように見えますが、実際には睡眠構造を乱します。2ヶ月経ち、REMサイクルが美しく回復しました。",
-
+  "@nicotinePouchesMilestone60Description": {
+    "description": "Nicotine pouches milestone day 60 description"
+  },
   "nicotinePouchesMilestone90Title": "ドーパミン受容体が回復",
+  "@nicotinePouchesMilestone90Title": {
+    "description": "Nicotine pouches milestone day 90 title"
+  },
   "nicotinePouchesMilestone90Description": "脳の報酬系がオンラインに戻りました！ニコチンはドーパミン経路をハイジャックし、通常の喜びを鈍く感じさせます。3ヶ月フリーで、人生の自然な喜びが再び鮮やかになりました。",
-
+  "@nicotinePouchesMilestone90Description": {
+    "description": "Nicotine pouches milestone day 90 description"
+  },
   "nicotinePouchesMilestone180Title": "心血管リスクが低下",
+  "@nicotinePouchesMilestone180Title": {
+    "description": "Nicotine pouches milestone day 180 title"
+  },
   "nicotinePouchesMilestone180Description": "心臓がラブレターを送っています！ニコチンなしで6ヶ月、心血管疾患のリスクが大幅に減少しています。血圧と心拍変動性が大幅に改善しました。",
-
+  "@nicotinePouchesMilestone180Description": {
+    "description": "Nicotine pouches milestone day 180 description"
+  },
   "nicotinePouchesMilestone365Title": "長期的な健康を確保",
+  "@nicotinePouchesMilestone365Title": {
+    "description": "Nicotine pouches milestone day 365 title"
+  },
   "nicotinePouchesMilestone365Description": "自由の1年！ニコチン関連の健康問題のリスクは減少し続けています。依存のサイクルを断ち切り、自律性を取り戻しました。これは本当に英雄的です！ 🏆",
-
+  "@nicotinePouchesMilestone365Description": {
+    "description": "Nicotine pouches milestone day 365 description"
+  },
   "pornographyMilestone1Title": "サイクルを断ち切る",
+  "@pornographyMilestone1Title": {
+    "description": "Pornography milestone day 1 title"
+  },
   "pornographyMilestone1Description": "最も難しい一歩を踏み出しました！1日目は自動的な反応パターンを断ち切ることです。脳はすでに期待していたドーパミンの急上昇がないことに気づき始めています。",
-
+  "@pornographyMilestone1Description": {
+    "description": "Pornography milestone day 1 description"
+  },
   "pornographyMilestone3Title": "離脱症状がピークに",
+  "@pornographyMilestone3Title": {
+    "description": "Pornography milestone day 3 title"
+  },
   "pornographyMilestone3Description": "嵐の前の静けさ。渇望、落ち着きのなさ、気分の変動が今最も強くなっています。脳は自らをリワイヤリングするために懸命に働いています。この不快感は実際には神経経路が癒えている証拠です！",
-
+  "@pornographyMilestone3Description": {
+    "description": "Pornography milestone day 3 description"
+  },
   "pornographyMilestone7Title": "睡眠の質が改善",
+  "@pornographyMilestone7Title": {
+    "description": "Pornography milestone day 7 title"
+  },
   "pornographyMilestone7Description": "甘い夢はこうして作られます！脳の報酬系が再バランスし始めると、睡眠サイクルが安定してきます。多くの人がより深く、より回復力のある睡眠と、より少ない睡眠障害を報告しています。",
-
+  "@pornographyMilestone7Description": {
+    "description": "Pornography milestone day 7 description"
+  },
   "pornographyMilestone14Title": "モチベーションとエネルギーが戻る",
+  "@pornographyMilestone14Title": {
+    "description": "Pornography milestone day 14 title"
+  },
   "pornographyMilestone14Description": "霧が晴れています！多くの人がモチベーションの向上、より明確な思考、現実世界の活動へのより多くのエネルギーを感じます。脳の自然な報酬系が日常の経験から再び喜びを見出し始めています。",
-
+  "@pornographyMilestone14Description": {
+    "description": "Pornography milestone day 14 description"
+  },
   "pornographyMilestone30Title": "自信と自制心が育つ",
+  "@pornographyMilestone30Title": {
+    "description": "Pornography milestone day 30 title"
+  },
   "pornographyMilestone30Description": "メンタルの筋肉を鍛えています！1ヶ月の禁欲は、しばしば自信の向上、より良い感情調節、より強い個人的なコントロール感をもたらします。あなたは自分が困難を克服できることを自分自身に証明しています。",
-
+  "@pornographyMilestone30Description": {
+    "description": "Pornography milestone day 30 description"
+  },
   "pornographyMilestone90Title": "脳機能が安定",
+  "@pornographyMilestone90Title": {
+    "description": "Pornography milestone day 90 title"
+  },
   "pornographyMilestone90Description": "脳がバランスを見つけています！3ヶ月で集中力、意思決定、感情調節に大幅な改善が見られます。衝動的な欲求がはるかに管理しやすくなっています。",
-
+  "@pornographyMilestone90Description": {
+    "description": "Pornography milestone day 90 description"
+  },
   "pornographyMilestone180Title": "人間関係と社会的スキルが改善",
+  "@pornographyMilestone180Title": {
+    "description": "Pornography milestone day 180 title"
+  },
   "pornographyMilestone180Description": "つながりがあなたのスーパーパワーになりました！6ヶ月は、本物のつながりを形成する能力の向上、より良いアイコンタクト、社会不安の軽減、より本物の人間関係をもたらすことが多いです。",
-
+  "@pornographyMilestone180Description": {
+    "description": "Pornography milestone day 180 description"
+  },
   "pornographyMilestone365Title": "神経経路の完全リセット",
+  "@pornographyMilestone365Title": {
+    "description": "Pornography milestone day 365 title"
+  },
   "pornographyMilestone365Description": "脳をリワイヤリングしました！1年で大幅な神経経路の変化が可能になります。多くの人が人間関係、親密さ、個人的な充実感の見方が完全に変わったと報告しています。新しいあなたを築きました！",
-
+  "@pornographyMilestone365Description": {
+    "description": "Pornography milestone day 365 description"
+  },
   "pornographyMilestone1825Title": "持続的な人生の変革（5年）",
+  "@pornographyMilestone1825Title": {
+    "description": "Pornography milestone day 1825 title"
+  },
   "pornographyMilestone1825Description": "5年間の自由！まったく新しい神経パターンと生活習慣を確立しました。研究によると、脳のリワイヤリングには依存の重症度によって1〜60ヶ月かかる可能性がありますが、あなたはそのマイルストーンを超えました。",
-
+  "@pornographyMilestone1825Description": {
+    "description": "Pornography milestone day 1825 description"
+  },
   "customMilestone1Title": "回復の初期段階が始まる",
+  "@customMilestone1Title": {
+    "description": "Custom milestone day 1 title"
+  },
   "customMilestone1Description": "体が癒しのプロセスを開始します！やめてから24時間以内に、あなたの体は毒素を排出し、依存物質なしで機能するように調整を始めます。睡眠障害は一般的ですが、回復プロセスの一部です。",
-
+  "@customMilestone1Description": {
+    "description": "Custom milestone day 1 description"
+  },
   "customMilestone3Title": "離脱症状がピークに",
+  "@customMilestone3Title": {
+    "description": "Custom milestone day 3 title"
+  },
   "customMilestone3Description": "嵐に真正面から立ち向かっています！多くの物質において、不安、気分の変動、身体的不快感などの身体的離脱症状は3日目頃にピークを迎えます。これは最も困難な部分を乗り越えているということです。",
-
+  "@customMilestone3Description": {
+    "description": "Custom milestone day 3 description"
+  },
   "customMilestone7Title": "急性離脱期が終わる",
+  "@customMilestone7Title": {
+    "description": "Custom milestone day 7 title"
+  },
   "customMilestone7Description": "最悪の時期は過ぎました！1週間後、ほとんどの物質で急性離脱症状が治まり始めます。体は新しい正常に適応し、安定し始めています。",
-
+  "@customMilestone7Description": {
+    "description": "Custom milestone day 7 description"
+  },
   "customMilestone14Title": "早期回復の安定化",
+  "@customMilestone14Title": {
+    "description": "Custom milestone day 14 title"
+  },
   "customMilestone14Description": "頭がすっきりしてきています！2週間の断酒・断薬は、脳が依存物質なしで機能することに適応し始めるにつれて、精神的な明晰さの向上と渇望の減少をもたらすことが多いです。",
-
+  "@customMilestone14Description": {
+    "description": "Custom milestone day 14 description"
+  },
   "customMilestone30Title": "1ヶ月のマイルストーン",
+  "@customMilestone30Title": {
+    "description": "Custom milestone day 30 title"
+  },
   "customMilestone30Description": "大きな勝利です！30日間の断酒・断薬は重要な進歩を示しています。多くの人が、この期間中に睡眠パターン、気分、エネルギーレベルが改善し続けると感じています。",
-
+  "@customMilestone30Description": {
+    "description": "Custom milestone day 30 description"
+  },
   "customMilestone90Title": "3ヶ月の回復マイルストーン",
+  "@customMilestone90Title": {
+    "description": "Custom milestone day 90 title"
+  },
   "customMilestone90Description": "あなたのコミットメントが報われています！3ヶ月の回復は重要な達成を表しています。急性離脱後の症状は通常薄れ始め、多くの人が再び自分らしく感じると報告しています。",
-
+  "@customMilestone90Description": {
+    "description": "Custom milestone day 90 description"
+  },
   "customMilestone180Title": "6ヶ月の回復達成",
+  "@customMilestone180Title": {
+    "description": "Custom milestone day 180 title"
+  },
   "customMilestone180Description": "持続的な変化を築いています！6ヶ月の断酒・断薬は、体が癒し続けるにつれて、身体的健康、感情的安定性、生活の質全体の継続的な改善をもたらすことが多いです。",
-
+  "@customMilestone180Description": {
+    "description": "Custom milestone day 180 description"
+  },
   "customMilestone365Title": "1年間の回復",
+  "@customMilestone365Title": {
+    "description": "Custom milestone day 365 title"
+  },
   "customMilestone365Description": "信じられない達成です！1年間の断酒・断薬は人生の大きなマイルストーンです。多くの人がこの時点で、身体的健康、人間関係、全体的な幸福感に大きな改善を経験しています。",
-
+  "@customMilestone365Description": {
+    "description": "Custom milestone day 365 description"
+  },
   "customMilestone730Title": "2年間の持続的な回復",
-  "customMilestone730Description": "新しい人生を築きました！2年間の回復は、驚くべき回復力とコミットメントを示しています。長期的な断酒・断薬は、人生のあらゆる分野で深い前向きな変化と、再発リスクの大幅な減少をもたらすことが多いです。"
+  "@customMilestone730Title": {
+    "description": "Custom milestone day 730 title"
+  },
+  "customMilestone730Description": "新しい人生を築きました！2年間の回復は、驚くべき回復力とコミットメントを示しています。長期的な断酒・断薬は、人生のあらゆる分野で深い前向きな変化と、再発リスクの大幅な減少をもたらすことが多いです。",
+  "@customMilestone730Description": {
+    "description": "Custom milestone day 730 description"
+  }
 }

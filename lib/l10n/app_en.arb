@@ -1,93 +1,64 @@
 {
   "@@locale": "en",
-
   "appTitle": "Quitter",
   "@appTitle": {
     "description": "The main application title"
   },
-
   "start": "Start",
-  "@tabQuitter": {
-    "description": "The start button for beginning a quitting journey."
-  },
-
-  "tabQuitter": "Quitter",
   "@tabQuitter": {
     "description": "Tab label for the main Quitter tab"
   },
-  
+  "tabQuitter": "Quitter",
   "showAllItems": "Show all items",
   "showAllSubtitle": "Enable or disable all main screen items",
-
   "enableNotifications": "Enable all notifications",
   "enableNotificationsSubtitle": "Turn on or off all notifications",
-  
   "heroinPageTitle": "Heroin Recovery",
   "heroinHeaderStarted": "Your Recovery Journey",
   "heroinHeaderNotStarted": "Benefits of Quitting Heroin",
   "heroinSubtitleStarted": "Track your progress and celebrate each milestone",
   "heroinSubtitleNotStarted": "See what happens when you quit",
-  
   "heroinMilestone1Title": "Withdrawal Begins",
   "heroinMilestone1Description": "Your body starts the detox process. Early withdrawal symptoms like anxiety, sweating, and muscle aches may begin within 6-24 hours. This is your body beginning to heal.",
-  
   "heroinMilestone3Title": "Peak Withdrawal",
   "heroinMilestone3Description": "Acute withdrawal symptoms typically peak around days 2-3. While challenging, this marks the most intense phase. Physical symptoms include nausea, vomiting, body aches, and insomnia. Support is crucial during this time.",
-  
   "heroinMilestone7Title": "Acute Symptoms Subside",
   "heroinMilestone7Description": "The most severe physical withdrawal symptoms begin to fade. Your body is adjusting to functioning without heroin. Sleep may still be disrupted, but you're through the hardest physical phase.",
-  
   "heroinMilestone30Title": "Physical Health Normalizes",
   "heroinMilestone30Description": "Your sleep patterns, appetite, and energy levels start returning to normal. Physical health improvements become noticeable. Your body's natural systems are beginning to regulate themselves again.",
-  
   "heroinMilestone90Title": "Immune System Recovery",
   "heroinMilestone90Description": "Your immune system begins significant recovery after months of suppression. You'll likely get sick less often and fight off infections more effectively. Cardiovascular health continues to improve.",
-  
   "heroinMilestone180Title": "Cognitive Improvements",
   "heroinMilestone180Description": "Notable improvements in memory, attention, and decision-making abilities. Brain imaging studies show measurable recovery in areas affected by heroin use. Mental clarity continues to increase.",
-  
   "heroinMilestone365Title": "Major Brain Healing",
   "heroinMilestone365Description": "Significant restoration of brain function and emotional regulation. Dopamine receptors continue to normalize, making natural rewards more satisfying. Many experience improved relationships and life satisfaction.",
-  
   "heroinMilestone540Title": "Continued Cognitive Recovery",
   "heroinMilestone540Description": "Executive function, impulse control, and emotional stability continue to improve. The brain's reward system becomes increasingly balanced. Long-term abstinence strengthens neural pathways for healthy decision-making.",
-  
   "heroinMilestone730Title": "Long-Term Brain Recovery",
   "heroinMilestone730Description": "Two years of recovery brings substantial neuroplasticity and brain healing. Cognitive function approaches pre-addiction levels. You've built a strong foundation for sustained recovery and a healthier future.",
-  
   "benzoPageTitle": "Benzodiazepine Recovery",
   "benzoHeaderStarted": "Your Recovery Journey",
   "benzoHeaderNotStarted": "Benefits of Quitting Benzodiazepines",
   "benzoSubtitleStarted": "Track your progress and celebrate each milestone",
   "benzoSubtitleNotStarted": "See what happens when you quit",
-  
   "benzoMilestone7Title": "Early Withdrawal Phase",
   "benzoMilestone7Description": "After completing a gradual taper, early withdrawal symptoms like rebound anxiety and insomnia may appear. This is your nervous system beginning to readjust. Medical support during this phase is crucial for safety and comfort.",
-  
   "benzoMilestone14Title": "Acute Withdrawal Peak",
   "benzoMilestone14Description": "Acute withdrawal symptoms typically peak within the first two weeks. You may experience anxiety, sleep disturbances, and physical discomfort. These symptoms, while challenging, indicate your brain is starting to heal and rebalance.",
-  
   "benzoMilestone60Title": "Sleep Architecture Improves",
   "benzoMilestone60Description": "Studies show that after 2 months, your natural sleep patterns begin to restore. Slow-wave sleep increases and sleep quality improves compared to when taking benzodiazepines, even though overall sleep efficiency may still be recovering.",
-  
   "benzoMilestone90Title": "Physical Health Stabilizes",
   "benzoMilestone90Description": "Around 3 months, many physical withdrawal symptoms have significantly improved. Your body is continuing to adjust to functioning without medication. Anxiety and mood may still fluctuate, but overall functioning improves.",
-  
   "benzoMilestone180Title": "Cognitive Function Begins Recovery",
   "benzoMilestone180Description": "At 6 months, noticeable improvements in memory, attention, and cognitive function begin to emerge. Research shows modest recovery in many cognitive areas, though full restoration takes longer. Your brain's natural abilities are gradually returning.",
-  
   "benzoMilestone365Title": "One Year of Healing",
   "benzoMilestone365Description": "After one year, significant improvements in mental and physical wellbeing become apparent. Many report reduced anxiety, better sleep quality, and improved overall health compared to when taking benzodiazepines long-term. Brain healing continues.",
-  
   "benzoMilestone540Title": "Continued Brain Recovery",
   "benzoMilestone540Description": "At 18 months, continued cognitive improvements occur. GABA receptor function normalizes within 2-6 months of cessation, and brain structure begins recovering. Neuroplasticity allows your brain to form new, healthier neural pathways.",
-  
   "benzoMilestone730Title": "Two Years: Major Progress",
   "benzoMilestone730Description": "Two years marks substantial recovery. Most people experience significant improvements in cognitive function, emotional regulation, and quality of life. While some may still experience gradual improvements, many have returned to pre-benzodiazepine functioning.",
-  
   "benzoMilestone1095Title": "Three Years: Long-Term Recovery",
   "benzoMilestone1095Description": "At three years, physical brain structure recovery reaches completion for most individuals. Hippocampal and amygdala volumes continue normalizing through neuroplasticity. You've achieved lasting recovery and rebuilt a healthier foundation for life.",
-  
   "addictionMeth": "Meth",
   "addictionHeroin": "Heroin",
   "addictionBenzos": "Benzos",
@@ -96,103 +67,76 @@
   "methHeaderNotStarted": "Drop the Glass",
   "methSubtitleStarted": "Track your progress and celebrate each milestone",
   "methSubtitleNotStarted": "Freedom is within your grasp",
-  
   "methMilestone1Title": "First 24 Hours - The Crash Begins",
   "methMilestone1Description": "The initial crash phase starts with profound fatigue and increased appetite as your body begins recovery. You may experience depression and sleep heavily as your system starts to stabilize from the intense stimulation.",
-  
   "methMilestone3Title": "Day 3 - Peak Withdrawal",
   "methMilestone3Description": "Cravings intensify significantly during this period as your body adjusts. You may experience increased energy compared to the crash phase, which can make cravings feel stronger. This is a critical time for relapse prevention and support.",
-  
   "methMilestone7Title": "One Week - Physical Symptoms Ease",
   "methMilestone7Description": "Acute withdrawal symptoms begin to subside, though psychological challenges remain. Your sleep patterns start normalizing and physical discomfort decreases. This marks the transition from acute to post-acute withdrawal.",
-  
   "methMilestone30Title": "One Month - Emerging Stability",
   "methMilestone30Description": "The honeymoon phase begins as your body heals and cravings start to fade. Energy levels increase and mood improves as your brain chemistry begins rebalancing. However, remain vigilant as challenges can still arise.",
-  
   "methMilestone90Title": "Three Months - Brain Healing Begins",
   "methMilestone90Description": "Your brain is actively working to restore normal function. Cognitive improvements become noticeable in areas like attention and decision-making. This period marks significant neurological recovery as your reward system starts to normalize.",
-  
   "methMilestone180Title": "Six Months - Cardiovascular Recovery",
   "methMilestone180Description": "Heart function shows measurable improvement with abstinence. Studies show cardiac function can recover significantly during this period when combined with medical support. Blood pressure and heart rhythm continue stabilizing.",
-  
   "methMilestone365Title": "One Year - Major Brain Recovery",
   "methMilestone365Description": "Dopamine system recovery reaches significant milestones. Your brain's ability to experience pleasure from natural rewards improves substantially. Cognitive function, mood regulation, and decision-making show marked improvements.",
-  
   "methMilestone420Title": "14 Months - Dopamine Normalization",
   "methMilestone420Description": "Brain imaging studies show dopamine transporter levels approaching normal at this stage. This represents the most significant phase of neurological recovery, with improvements in memory, motivation, and the ability to feel pleasure from everyday activities.",
-  
   "methMilestone730Title": "Two Years - Sustained Recovery",
   "methMilestone730Description": "Long-term abstinence allows for continued brain healing. Attention and mood typically rebound within 12-18 months for most people. Your cognitive function, emotional regulation, and overall quality of life continue improving with sustained recovery.",
-  
   "addictionCocaine": "Cocaine",
   "cocainePageTitle": "Cocaine Recovery",
   "cocaineHeaderStarted": "Your Recovery Journey",
   "cocaineHeaderNotStarted": "Ready to Start?",
   "cocaineSubtitleStarted": "Track your progress and celebrate each milestone",
   "cocaineSubtitleNotStarted": "See what positive changes await you",
-  
   "cocaineMilestone1Title": "First 24 Hours - The Beginning",
   "cocaineMilestone1Description": "Your body begins adjusting as dopamine levels start to stabilize. You may experience fatigue, mood changes, and strong cravings, but your cardiovascular system is already beginning to recover.",
-  
   "cocaineMilestone3Title": "Day 3 - Peak Challenge",
   "cocaineMilestone3Description": "Withdrawal symptoms often peak around this time. You may experience intense cravings, irritability, anxiety, and exhaustion. This is temporary - your brain is working hard to rebalance itself.",
-  
   "cocaineMilestone7Title": "One Week - Physical Recovery Begins",
   "cocaineMilestone7Description": "The most intense physical symptoms are beginning to subside. Your heart rate and blood pressure are stabilizing. While psychological cravings may persist, your body is healing.",
-  
   "cocaineMilestone14Title": "Two Weeks - Finding Stability",
   "cocaineMilestone14Description": "Many people start feeling more stable emotionally. Your energy levels are improving, and acute withdrawal symptoms are easing. Your cardiovascular health continues to improve significantly.",
-  
   "cocaineMilestone60Title": "Two Months - Sleep and Mood Improve",
   "cocaineMilestone60Description": "Your sleep quality is noticeably better as your brain chemistry continues normalizing. You may find yourself feeling more rested and experiencing more stable moods throughout the day.",
-  
   "cocaineMilestone90Title": "Three Months - Brain Restoration",
   "cocaineMilestone90Description": "Your brain is actively restoring dopamine receptors and neural pathways. You'll likely notice improvements in focus, decision-making, and emotional regulation. Cognitive function is significantly improved.",
-  
   "cocaineMilestone180Title": "Six Months - Cognitive Gains",
   "cocaineMilestone180Description": "Brain imaging studies show increased gray matter volume in the prefrontal cortex at this stage. Your executive function, memory, and impulse control continue to strengthen. You're thinking more clearly.",
-  
   "cocaineMilestone365Title": "One Year - Cardiovascular Health",
   "cocaineMilestone365Description": "Your heart and cardiovascular system have made remarkable recovery. Blood pressure and heart rate are normalized. Risk of heart attack and stroke has decreased significantly. Your body is healing.",
-  
   "cocaineMilestone730Title": "Two Years - Sustained Recovery",
   "cocaineMilestone730Description": "Brain healing continues with sustained improvements in memory, focus, and emotional regulation. Your neural pathways have significantly reorganized, supporting healthier patterns and better overall wellbeing.",
-
   "tabJournal": "Journal",
   "@tabJournal": {
     "description": "Tab label for the Journal tab"
   },
-
   "tabSettings": "Settings",
   "@tabSettings": {
     "description": "Tab label for the Settings tab"
   },
-
   "homeAddButton": "Add",
   "@homeAddButton": {
     "description": "Floating action button label on home page"
   },
-
   "homeAddTooltip": "Create your own custom addiction to quit",
   "@homeAddTooltip": {
     "description": "Tooltip for the add custom addiction button"
   },
-
   "quitStartButton": "Start",
   "@quitStartButton": {
     "description": "Floating action button label on quit page (start button)"
   },
-
   "quitResetButton": "Reset",
   "@quitResetButton": {
     "description": "Floating action button label on quit page (reset button)"
   },
-
   "quitCardSubtitle": "Tap to start",
   "@quitCardSubtitle": {
     "description": "Prompt displayed on the quit card"
   },
-
   "quitCardKeepDays": "{days, plural, =1 { day} other { days}}",
   "@quitCardKeepDays": {
     "description": "Kepp days on Quit card",
@@ -203,7 +147,6 @@
       }
     }
   },
-
   "newVersionToast": "New version {version}",
   "@newVersionToast": {
     "description": "Toast message shown when app is updated",
@@ -213,12 +156,10 @@
       }
     }
   },
-
   "changesAction": "Changes",
   "@changesAction": {
     "description": "Action button text to view changelog"
   },
-
   "hideDialogTitle": "Hide {title}?",
   "@hideDialogTitle": {
     "description": "Title for hide addiction confirmation dialog",
@@ -228,7 +169,6 @@
       }
     }
   },
-
   "hideDialogMessage": "This will hide the {title} option from your home screen. You can show it again in Settings.",
   "@hideDialogMessage": {
     "description": "Message explaining what hiding an addiction does",
@@ -238,264 +178,210 @@
       }
     }
   },
-
   "cancel": "Cancel",
   "@cancel": {
     "description": "Cancel button text used throughout the app"
   },
-
   "hide": "Hide",
   "@hide": {
     "description": "Hide button text in hide addiction dialog"
   },
-
   "addictionAlcohol": "Alcohol",
   "@addictionAlcohol": {
     "description": "Name of the alcohol addiction type"
   },
-
   "addictionVaping": "Vaping",
   "@addictionVaping": {
     "description": "Name of the vaping addiction type"
   },
-
   "addictionSmoking": "Smoking",
   "@addictionSmoking": {
     "description": "Name of the smoking addiction type"
   },
-
   "addictionMarijuana": "Marijuana",
   "@addictionMarijuana": {
     "description": "Name of the marijuana addiction type"
   },
-
   "settingsLocaleUnsupported": "Unsupported",
   "@settingsLocaleUnsupported": {
     "description": "An error occurred. This setting is not supported."
   },
-
   "settingsLocaleJapanese": "Japanese",
   "@settingsLocaleJapanese": {
     "description": "Show app in Japanese"
   },
-
   "settingsLocaleEnglish": "English",
   "@settingsLocaleEnglish": {
     "description": "Show app in English"
   },
-
   "settingsLocaleSimplifiedChinese": "Chinese",
   "@settingsLocaleSimplifiedChinese": {
     "description": "Show app in Simplified Chinese"
   },
-
   "settingsLocaleSystem": "System",
   "@settingsLocaleSystem": {
     "description": "Follows the device locale"
   },
-
   "settingsLocale": "Locale",
   "@settingsLocale": {
     "description": "Language for the text in Quitter"
   },
-
-
   "addictionNicotinePouches": "Nicotine pouches",
   "@addictionNicotinePouches": {
     "description": "Name of the nicotine pouches addiction type"
   },
-
   "addictionOpioids": "Opioids",
   "@addictionOpioids": {
     "description": "Name of the opioids addiction type"
   },
-
   "addictionSocialMedia": "Social Media",
   "@addictionSocialMedia": {
     "description": "Name of the social media addiction type"
   },
-
   "addictionAC": "AC",
   "@addictionAC": {
     "description": "Short name for adult content addiction (displayed as AC)"
   },
-
   "addictionAdultContent": "Adult content",
   "@addictionAdultContent": {
     "description": "Full name for adult content addiction (used in settings)"
   },
-
   "settingsSearchHint": "Search...",
   "@settingsSearchHint": {
     "description": "Hint text for settings search bar"
   },
-
   "settingsSectionAppearance": "Appearance",
   "@settingsSectionAppearance": {
     "description": "Section header for appearance settings"
   },
-
   "settingsSectionSecurity": "Security",
   "@settingsSectionSecurity": {
     "description": "Section header for security settings"
   },
-
   "settingsSectionMainScreenItems": "Main Screen Items",
   "@settingsSectionMainScreenItems": {
     "description": "Section header for main screen items settings"
   },
-
   "settingsSectionNotifications": "Notifications",
   "@settingsSectionNotifications": {
     "description": "Section header for notification settings"
   },
-
   "settingsSectionSystem": "System",
   "@settingsSectionSystem": {
     "description": "Section header for system settings"
   },
-
   "settingsPinLock": "PIN lock",
   "@settingsPinLock": {
     "description": "Setting title for PIN lock feature"
   },
-
   "settingsPinLockSubtitle": "Require PIN to open app",
   "@settingsPinLockSubtitle": {
     "description": "Subtitle explaining PIN lock setting"
   },
-
   "settingsPinTimeout": "PIN timeout (seconds)",
   "@settingsPinTimeout": {
     "description": "Label for PIN timeout setting"
   },
-
   "settingsPinTimeoutHint": "15",
   "@settingsPinTimeoutHint": {
     "description": "Hint text for PIN timeout field"
   },
-
   "settingsTheme": "Theme",
   "@settingsTheme": {
     "description": "Setting title for theme selection"
   },
-
   "settingsColorScheme": "Color scheme",
   "@settingsColorScheme": {
     "description": "Setting title for color scheme selection"
   },
-
   "settingsDynamicColorScheme": "Dynamic colors",
   "@settingsDynamicColorScheme": {
     "description": "Use the dynamic color scheme from Material 3"
   },
-
   "settingsBlueColorScheme": "Blue",
   "@settingsBlueColorScheme": {
     "description": "Use the blue-based color scheme."
   },
-
   "settingsGreenColorScheme": "Green",
   "@settingsGreenColorScheme": {
     "description": "Use the green-based color scheme."
   },
-
   "settingsRedColorScheme": "Red",
   "@settingsRedColorScheme": {
     "description": "Use the red-based color scheme."
   },
-
   "settingsPurpleColorScheme": "Purple",
   "@settingsPurpleColorScheme": {
     "description": "Use the purple-based color scheme."
   },
-
   "settingsOrangeColorScheme": "Orange",
   "@settingsOrangeColorScheme": {
     "description": "Use the orange-based color scheme."
   },
-
   "settingsResetButtons": "Reset buttons",
   "@settingsResetButtons": {
     "description": "Setting title for reset buttons visibility"
   },
-
   "settingsResetButtonsSubtitle": "Show reset buttons on quit pages",
   "@settingsResetButtonsSubtitle": {
     "description": "Subtitle explaining reset buttons setting"
   },
-
   "settingsShowJournal": "Show journal",
   "@settingsShowJournal": {
     "description": "Setting title for journal visibility"
   },
-
   "settingsShowHeroinSubtitle": "Show heroin tracking",
   "settingsShowBenzosSubtitle": "Show benzos tracking",
-
   "settingsShowJournalSubtitle": "Enable the journal tab for logging your thoughts",
   "@settingsShowJournalSubtitle": {
     "description": "Subtitle explaining show journal setting"
   },
-
   "settingsSwipeBetweenTabs": "Swipe between tabs",
   "@settingsSwipeBetweenTabs": {
     "description": "Setting title for swipe between tabs feature"
   },
-
   "settingsSwipeBetweenTabsSubtitle": "Dragging your finger moves between Journal, Homepage & Settings",
   "@settingsSwipeBetweenTabsSubtitle": {
     "description": "Subtitle explaining swipe between tabs setting"
   },
-
   "settingsShowAlcoholTracking": "Show alcohol tracking",
   "@settingsShowAlcoholTracking": {
     "description": "Setting subtitle for showing alcohol tracking"
   },
-
   "settingsShowVapingTracking": "Show vaping tracking",
   "@settingsShowVapingTracking": {
     "description": "Setting subtitle for showing vaping tracking"
   },
-
   "settingsShowSmokingTracking": "Show smoking tracking",
   "@settingsShowSmokingTracking": {
     "description": "Setting subtitle for showing smoking tracking"
   },
-
   "settingsShowMarijuanaTracking": "Show marijuana tracking",
   "@settingsShowMarijuanaTracking": {
     "description": "Setting subtitle for showing marijuana tracking"
   },
-
   "settingsShowNicotinePouchesTracking": "Show nicotine pouches tracking",
   "@settingsShowNicotinePouchesTracking": {
     "description": "Setting subtitle for showing nicotine pouches tracking"
   },
-
   "settingsShowOpioidsTracking": "Show opioids tracking",
   "@settingsShowOpioidsTracking": {
     "description": "Setting subtitle for showing opioids tracking"
   },
-
   "settingsShowSocialMediaTracking": "Show social media tracking",
   "@settingsShowSocialMediaTracking": {
     "description": "Setting subtitle for showing social media tracking"
   },
-
   "settingsShowCocaineTracking": "Show cocaine tracking",
   "settingsShowMethTracking": "Show meth tracking",
-
   "settingsShowAdultContentTracking": "Show adult content tracking",
   "@settingsShowAdultContentTracking": {
     "description": "Setting subtitle for showing adult content tracking"
   },
-
   "settingsNotificationFrequency": "Notification frequency",
   "@settingsNotificationFrequency": {
     "description": "Setting title for notification frequency"
   },
-
   "settingsNotificationFrequencySubtitle": "Every {days} day(s) at {time}",
   "@settingsNotificationFrequencySubtitle": {
     "description": "Subtitle showing notification frequency",
@@ -508,186 +394,150 @@
       }
     }
   },
-
   "settingsNotifyAlcohol": "Notify alcohol quitting progress",
   "@settingsNotifyAlcohol": {
     "description": "Setting subtitle for alcohol notifications"
   },
-
   "settingsNotifyVaping": "Notify vaping quitting progress",
   "@settingsNotifyVaping": {
     "description": "Setting subtitle for vaping notifications"
   },
-
   "settingsNotifySmoking": "Notify smoking quitting progress",
   "@settingsNotifySmoking": {
     "description": "Setting subtitle for smoking notifications"
   },
-
   "settingsNotifyMarijuana": "Notify marijuana quitting progress",
   "@settingsNotifyMarijuana": {
     "description": "Setting subtitle for marijuana notifications"
   },
-
   "settingsNotifyNicotinePouches": "Notify nicotine pouches quitting progress",
   "@settingsNotifyNicotinePouches": {
     "description": "Setting subtitle for nicotine pouches notifications"
   },
-
   "settingsNotifyHeroin": "Notify heroin quitting progress",
   "settingsNotifyBenzos": "Notify benzos quitting progress",
   "settingsNotifyOpioids": "Notify opioids quitting progress",
   "@settingsNotifyOpioids": {
     "description": "Setting subtitle for opioids notifications"
   },
-
   "settingsNotifySocialMedia": "Notify social media quitting progress",
   "@settingsNotifySocialMedia": {
     "description": "Setting subtitle for social media notifications"
   },
-
   "settingsNotifyCocaine": "Notify cocaine quitting progress",
   "settingsNotifyMeth": "Notify meth quitting progress",
   "settingsNotifyAdultContent": "Notify adult content quitting progress",
   "@settingsNotifyAdultContent": {
     "description": "Setting subtitle for adult content notifications"
   },
-
   "settingsResetMessages": "Reset messages",
   "@settingsResetMessages": {
     "description": "Setting title for reset messages"
   },
-
   "settingsResetMessagesSubtitle": "Show positive reinforcement after relapses",
   "@settingsResetMessagesSubtitle": {
     "description": "Subtitle explaining reset messages setting"
   },
-
   "settingsAbout": "About",
   "@settingsAbout": {
     "description": "Setting title for about page"
   },
-
   "settingsWhatsNew": "What's new",
   "@settingsWhatsNew": {
     "description": "Setting title for what's new page"
   },
-
   "settingsEnjoyingApp": "Enjoying the app?",
   "@settingsEnjoyingApp": {
     "description": "Setting title for enjoying the app page"
   },
-
   "settingsReportBug": "Report a bug",
   "@settingsReportBug": {
     "description": "Setting title for reporting a bug"
   },
-
   "settingsExportData": "Export data",
   "@settingsExportData": {
     "description": "Setting title for exporting data"
   },
-
   "settingsImportData": "Import data",
   "@settingsImportData": {
     "description": "Setting title for importing data"
   },
-
   "settingsDeleteEverything": "Delete everything",
   "@settingsDeleteEverything": {
     "description": "Setting title for deleting all data"
   },
-
   "themeLight": "Light",
   "@themeLight": {
     "description": "Light theme option"
   },
-
   "themeDark": "Dark",
   "@themeDark": {
     "description": "Dark theme option"
   },
-
   "themeSystem": "System",
   "@themeSystem": {
     "description": "System theme option"
   },
-
   "themePureBlack": "Pure black",
   "@themePureBlack": {
     "description": "Pure black theme option for OLED displays"
   },
-
   "themeMode": "Theme mode",
   "@themeMode": {
     "description": "Dialog title for theme mode selection"
   },
-
   "pinDialogSetTitle": "Set PIN",
   "@pinDialogSetTitle": {
     "description": "Dialog title for setting a PIN"
   },
-
   "pinDialogEnterPIN": "Enter PIN",
   "@pinDialogEnterPIN": {
     "description": "Label for PIN entry field"
   },
-
   "pinDialogConfirmPIN": "Confirm PIN",
   "@pinDialogConfirmPIN": {
     "description": "Label for PIN confirmation field"
   },
-
   "pinDialogSet": "Set",
   "@pinDialogSet": {
     "description": "Button to confirm setting PIN"
   },
-
   "pinDialogPINsDoNotMatch": "PINs do not match",
   "@pinDialogPINsDoNotMatch": {
     "description": "Error message when PINs don't match"
   },
-
   "pinDialogPIN": "PIN",
   "@pinDialogPIN": {
     "description": "Label for PIN field in verification dialog"
   },
-
   "pinDialogOK": "OK",
   "@pinDialogOK": {
     "description": "OK button in PIN dialog"
   },
-
   "notificationFrequencyDialogTitle": "Notification frequency",
   "@notificationFrequencyDialogTitle": {
     "description": "Dialog title for notification frequency settings"
   },
-
   "notificationFrequencyNotifyEvery": "Notify every",
   "@notificationFrequencyNotifyEvery": {
     "description": "Label for notification frequency field"
   },
-
   "notificationFrequencyDays": "day(s)",
   "@notificationFrequencyDays": {
     "description": "Suffix text for days in notification frequency"
   },
-
   "notificationFrequencyAt": "At",
   "@notificationFrequencyAt": {
     "description": "Label for notification time field"
   },
-
   "notificationFrequencySave": "Save",
   "@notificationFrequencySave": {
     "description": "Save button in notification frequency dialog"
   },
-
   "notificationTestTitle": "Positive affirmation",
   "@notificationTestTitle": {
     "description": "Title for test notification"
   },
-
   "notificationTestBody": "You will see a notification like this every {days} day{plural} congratulating you on your progress!",
   "@notificationTestBody": {
     "description": "Body text for test notification",
@@ -700,42 +550,34 @@
       }
     }
   },
-
   "deleteEverythingDialogTitle": "Delete everything",
   "@deleteEverythingDialogTitle": {
     "description": "Dialog title for delete everything confirmation"
   },
-
   "deleteEverythingDialogMessage": "Are you sure you delete everything? This action cannot be undone.",
   "@deleteEverythingDialogMessage": {
     "description": "Message warning about deleting all data"
   },
-
   "deleteEverythingConfirm": "DELETE!",
   "@deleteEverythingConfirm": {
     "description": "Button to confirm deleting everything"
   },
-
   "dataExported": "Data exported!",
   "@dataExported": {
     "description": "Toast message when data is exported successfully"
   },
-
   "dataImported": "Data imported successfully!",
   "@dataImported": {
     "description": "Toast message when data is imported successfully"
   },
-
   "journalHowWasYourDay": "How was your day?",
   "@journalHowWasYourDay": {
     "description": "Header text in journal entry section"
   },
-
   "journalPlaceholder": "Write about your day, thoughts, feelings, or anything you want to remember...",
   "@journalPlaceholder": {
     "description": "Placeholder text for journal entry field"
   },
-
   "journalWordCount": "{count} words",
   "@journalWordCount": {
     "description": "Word count display in journal",
@@ -745,32 +587,26 @@
       }
     }
   },
-
   "journalPreviousMonth": "Previous Month",
   "@journalPreviousMonth": {
     "description": "Tooltip for previous month button in calendar"
   },
-
   "journalNextMonth": "Next Month",
   "@journalNextMonth": {
     "description": "Tooltip for next month button in calendar"
   },
-
   "quitMilestonesStart": "Start",
   "@quitMilestonesStart": {
     "description": "Button to start quit journey"
   },
-
   "quitMilestonesReset": "Reset",
   "@quitMilestonesReset": {
     "description": "Button to reset quit journey"
   },
-
   "quitMilestonesQuitDate": "Quit date",
   "@quitMilestonesQuitDate": {
     "description": "Label for quit date field"
   },
-
   "quitMilestonesClearTitle": "Clear milestone for {days} days?",
   "@quitMilestonesClearTitle": {
     "description": "Dialog title for clearing milestone",
@@ -780,7 +616,6 @@
       }
     }
   },
-
   "quitMilestonesClearMessage": "This will clear all past times you achieved the {days} day milestone.",
   "@quitMilestonesClearMessage": {
     "description": "Message explaining what clearing a milestone does",
@@ -790,12 +625,10 @@
       }
     }
   },
-
   "quitMilestonesClear": "Clear",
   "@quitMilestonesClear": {
     "description": "Button to clear milestone"
   },
-
   "quitMilestonesShareMessage": "I'm {days} day{plural} clean from {title}!",
   "@quitMilestonesShareMessage": {
     "description": "Message template for sharing progress",
@@ -811,197 +644,158 @@
       }
     }
   },
-
   "entryPageHeaderStarted": "One step stronger",
   "@entryPageHeaderStarted": {
     "description": "Header text for started custom entry"
   },
-
   "entryPageHeaderNotStarted": "Not started",
   "@entryPageHeaderNotStarted": {
     "description": "Header text for not started custom entry"
   },
-
   "entryPageSubtitleStarted": "You are doing great!",
   "@entryPageSubtitleStarted": {
     "description": "Subtitle text for started custom entry"
   },
-
   "entryPageSubtitleNotStarted": "Tap \"Start\" to begin your journey",
   "@entryPageSubtitleNotStarted": {
     "description": "Subtitle text for not started custom entry"
   },
-
   "editEntryAddTitle": "Add entry",
   "@editEntryAddTitle": {
     "description": "Page title when adding a new entry"
   },
-
   "editEntryEditTitle": "Edit entry",
   "@editEntryEditTitle": {
     "description": "Page title when editing an entry"
   },
-
   "editEntryTitle": "Title",
   "@editEntryTitle": {
     "description": "Label for entry title field"
   },
-
   "editEntryTitleError": "Please enter a title",
   "@editEntryTitleError": {
     "description": "Error message when title is empty"
   },
-
   "editEntryColor": "Color",
   "@editEntryColor": {
     "description": "Label for color selection"
   },
-
   "editEntryIcon": "Icon",
   "@editEntryIcon": {
     "description": "Label for icon selection"
   },
-
   "editEntrySave": "Save",
   "@editEntrySave": {
     "description": "Save button in edit entry page"
   },
-
   "editEntryDeleteDialogTitle": "Are you sure?",
   "@editEntryDeleteDialogTitle": {
     "description": "Dialog title for delete entry confirmation"
   },
-
   "editEntryDeleteDialogMessage": "Do you really want to delete this entry?",
   "@editEntryDeleteDialogMessage": {
     "description": "Message asking for delete confirmation"
   },
-
   "editEntryDeleteNo": "No",
   "@editEntryDeleteNo": {
     "description": "No button in delete dialog"
   },
-
   "editEntryDeleteYes": "Yes",
   "@editEntryDeleteYes": {
     "description": "Yes button in delete dialog"
   },
-
   "pinPageEnterPIN": "Enter PIN",
   "@pinPageEnterPIN": {
     "description": "Title text on PIN entry page"
   },
-
   "pinPageIncorrectPIN": "Incorrect PIN",
   "@pinPageIncorrectPIN": {
     "description": "Error message for incorrect PIN"
   },
-
   "pinPageTooManyAttempts": "Too many attempts. Wait 30 seconds.",
   "@pinPageTooManyAttempts": {
     "description": "Error message when too many failed PIN attempts"
   },
-
   "aboutPageTitle": "About",
   "@aboutPageTitle": {
     "description": "Title for about page"
   },
-
   "aboutVersion": "Version",
   "@aboutVersion": {
     "description": "Label for app version"
   },
-
   "aboutAuthor": "Author",
   "@aboutAuthor": {
     "description": "Label for app author"
   },
-
   "aboutAuthorName": "Brandon Dick",
   "@aboutAuthorName": {
     "description": "Name of the app author"
   },
-
   "aboutLicense": "License",
   "@aboutLicense": {
     "description": "Label for app license"
   },
-
   "aboutLicenseMIT": "MIT",
   "@aboutLicenseMIT": {
     "description": "License type"
   },
-
   "aboutDonate": "Donate",
   "@aboutDonate": {
     "description": "Label for donate option"
   },
-
   "aboutDonateSubtitle": "Help support this project",
   "@aboutDonateSubtitle": {
     "description": "Subtitle for donate option"
   },
-
   "aboutSourceCode": "Source code",
   "@aboutSourceCode": {
     "description": "Label for source code link"
   },
-
   "whatsNewTitle": "What's new?",
   "@whatsNewTitle": {
     "description": "Title for what's new page"
   },
-
   "whatsNewSearchHint": "Search...",
   "@whatsNewSearchHint": {
     "description": "Hint text for changelog search"
   },
-
   "whatsNewEnjoyingButton": "Enjoying the app?",
   "@whatsNewEnjoyingButton": {
     "description": "Button text to go to enjoying page from what's new"
   },
-
   "enjoyingPageTitle": "Enjoying the app?",
   "@enjoyingPageTitle": {
     "description": "Title for enjoying the app page"
   },
-
   "enjoyingLeaveReview": "Leave a review",
   "@enjoyingLeaveReview": {
     "description": "Option to leave a review"
   },
-
   "enjoyingLeaveReviewSubtitle": "Let me know what you think!",
   "@enjoyingLeaveReviewSubtitle": {
     "description": "Subtitle for leave a review option"
   },
-
   "enjoyingGiveStar": "Give us a star",
   "@enjoyingGiveStar": {
     "description": "Option to star on GitHub"
   },
-
   "enjoyingGiveStarSubtitle": "Show your support on GitHub",
   "@enjoyingGiveStarSubtitle": {
     "description": "Subtitle for give star option"
   },
-
   "enjoyingDonate": "Donate",
   "@enjoyingDonate": {
     "description": "Option to donate"
   },
-
   "enjoyingDonateSubtitle": "Support development",
   "@enjoyingDonateSubtitle": {
     "description": "Subtitle for donate option"
   },
-
   "alcoholPageTitle": "Sober & sparkling",
   "@alcoholPageTitle": {
     "description": "Page title for alcohol tracking"
   },
-
   "alcoholPageQuitDateDisplay": "{quitDate} ({days, plural, =1 {{days} day} other {{days} days}})",
   "@alcoholPageQuitDateDisplay": {
     "description": "Display quit date with elapsed days.",
@@ -1017,312 +811,250 @@
       }
     }
   },
-
   "alcoholHeaderStarted": "Cheers to you!",
   "@alcoholHeaderStarted": {
     "description": "Header for started alcohol quit journey"
   },
-
   "alcoholHeaderNotStarted": "Sober journey ahead!",
   "@alcoholHeaderNotStarted": {
     "description": "Header for not started alcohol quit journey"
   },
-
   "alcoholSubtitleStarted": "Every day is a win 🥳",
   "@alcoholSubtitleStarted": {
     "description": "Subtitle for started alcohol quit journey"
   },
-
   "alcoholSubtitleNotStarted": "Ready for a brighter you? ✨",
   "@alcoholSubtitleNotStarted": {
     "description": "Subtitle for not started alcohol quit journey"
   },
-
   "vapingPageTitle": "Vape-free victory",
   "@vapingPageTitle": {
     "description": "Page title for vaping tracking"
   },
-
   "vapingHeaderStarted": "Clear skies ahead!",
   "@vapingHeaderStarted": {
     "description": "Header for started vaping quit journey"
   },
-
   "vapingHeaderNotStarted": "Vape-free living!",
   "@vapingHeaderNotStarted": {
     "description": "Header for not started vaping quit journey"
   },
-
   "vapingSubtitleStarted": "Breathing easy, living free 🌬️",
   "@vapingSubtitleStarted": {
     "description": "Subtitle for started vaping quit journey"
   },
-
   "vapingSubtitleNotStarted": "Ready to ditch the vape? ✨",
   "@vapingSubtitleNotStarted": {
     "description": "Subtitle for not started vaping quit journey"
   },
-
   "smokingPageTitle": "Smoke-free & soaring",
   "@smokingPageTitle": {
     "description": "Page title for smoking tracking"
   },
-
   "smokingHeaderStarted": "Breathe easy!",
   "@smokingHeaderStarted": {
     "description": "Header for started smoking quit journey"
   },
-
   "smokingHeaderNotStarted": "Smoke-free journey!",
   "@smokingHeaderNotStarted": {
     "description": "Header for not started smoking quit journey"
   },
-
   "smokingSubtitleStarted": "Every puff-free day is a win 🚭",
   "@smokingSubtitleStarted": {
     "description": "Subtitle for started smoking quit journey"
   },
-
   "smokingSubtitleNotStarted": "Ready to reclaim your health? ✨",
   "@smokingSubtitleNotStarted": {
     "description": "Subtitle for not started smoking quit journey"
   },
-
   "marijuanaPageTitle": "Cannabis-free journey",
   "@marijuanaPageTitle": {
     "description": "Page title for marijuana tracking"
   },
-
   "marijuanaHeaderStarted": "Clear mind rising!",
   "@marijuanaHeaderStarted": {
     "description": "Header for started marijuana quit journey"
   },
-
   "marijuanaHeaderNotStarted": "Cannabis-free living!",
   "@marijuanaHeaderNotStarted": {
     "description": "Header for not started marijuana quit journey"
   },
-
   "marijuanaSubtitleStarted": "Building mental clarity, one day at a time 🧠",
   "@marijuanaSubtitleStarted": {
     "description": "Subtitle for started marijuana quit journey"
   },
-
   "marijuanaSubtitleNotStarted": "Ready for a clearer tomorrow? 🌱",
   "@marijuanaSubtitleNotStarted": {
     "description": "Subtitle for not started marijuana quit journey"
   },
-
   "nicotinePouchesPageTitle": "Pouch-free Power",
   "@nicotinePouchesPageTitle": {
     "description": "Page title for nicotine pouches tracking"
   },
-
   "nicotinePouchesHeaderStarted": "Fresh & free!",
   "@nicotinePouchesHeaderStarted": {
     "description": "Header for started nicotine pouches quit journey"
   },
-
   "nicotinePouchesHeaderNotStarted": "Pouch-free progress!",
   "@nicotinePouchesHeaderNotStarted": {
     "description": "Header for not started nicotine pouches quit journey"
   },
-
   "nicotinePouchesSubtitleStarted": "Embrace a brighter, healthier you ✨",
   "@nicotinePouchesSubtitleStarted": {
     "description": "Subtitle for started nicotine pouches quit journey"
   },
-
   "nicotinePouchesSubtitleNotStarted": "Ready to ditch the pouches? 🚀",
   "@nicotinePouchesSubtitleNotStarted": {
     "description": "Subtitle for not started nicotine pouches quit journey"
   },
-
   "opioidsPageTitle": "Path to peace",
   "@opioidsPageTitle": {
     "description": "Page title for opioids tracking"
   },
-
   "opioidsHeaderStarted": "Stronger every day!",
   "@opioidsHeaderStarted": {
     "description": "Header for started opioids quit journey"
   },
-
   "opioidsHeaderNotStarted": "Road to recovery!",
   "@opioidsHeaderNotStarted": {
     "description": "Header for not started opioids quit journey"
   },
-
   "opioidsSubtitleStarted": "Embrace your strength 💪",
   "@opioidsSubtitleStarted": {
     "description": "Subtitle for started opioids quit journey"
   },
-
   "opioidsSubtitleNotStarted": "Ready to reclaim your life? 💖",
   "@opioidsSubtitleNotStarted": {
     "description": "Subtitle for not started opioids quit journey"
   },
-
   "opioidsInfoBox": "Recovery is a medical process. Always consult healthcare professionals.",
   "@opioidsInfoBox": {
     "description": "Important information box message for opioids recovery"
   },
-
   "socialMediaPageTitle": "Digital detox delight",
   "@socialMediaPageTitle": {
     "description": "Page title for social media tracking"
   },
-
   "socialMediaHeaderStarted": "Unplug & play!",
   "@socialMediaHeaderStarted": {
     "description": "Header for started social media quit journey"
   },
-
   "socialMediaHeaderNotStarted": "Digital detox journey!",
   "@socialMediaHeaderNotStarted": {
     "description": "Header for not started social media quit journey"
   },
-
   "socialMediaSubtitleStarted": "Real life is the best feed 💖",
   "@socialMediaSubtitleStarted": {
     "description": "Subtitle for started social media quit journey"
   },
-
   "socialMediaSubtitleNotStarted": "Ready to reclaim your time? 🚀",
   "@socialMediaSubtitleNotStarted": {
     "description": "Subtitle for not started social media quit journey"
   },
-
   "pornographyPageTitle": "Pure & powerful",
   "@pornographyPageTitle": {
     "description": "Page title for adult content tracking"
   },
-
   "pornographyHeaderStarted": "Reclaiming your mind!",
   "@pornographyHeaderStarted": {
     "description": "Header for started adult content quit journey"
   },
-
   "pornographyHeaderNotStarted": "Start your journey!",
   "@pornographyHeaderNotStarted": {
     "description": "Header for not started adult content quit journey"
   },
-
   "pornographySubtitleStarted": "Building authentic connections 🧠✨",
   "@pornographySubtitleStarted": {
     "description": "Subtitle for started adult content quit journey"
   },
-
   "pornographySubtitleNotStarted": "Ready to break free and rebuild? 💪",
   "@pornographySubtitleNotStarted": {
     "description": "Subtitle for not started adult content quit journey"
   },
-
   "relapseMessage1": "Recovery isn't linear. Every step forward matters, including this one.",
   "@relapseMessage1": {
     "description": "Encouragement message for relapse"
   },
-
   "relapseMessage2": "You're here, you're trying, and that takes real courage.",
   "@relapseMessage2": {
     "description": "Encouragement message for relapse"
   },
-
   "relapseMessage3": "Setbacks don't erase your progress. You're learning and growing.",
   "@relapseMessage3": {
     "description": "Encouragement message for relapse"
   },
-
   "relapseMessage4": "Each restart is proof of your strength, not a sign of weakness.",
   "@relapseMessage4": {
     "description": "Encouragement message for relapse"
   },
-
   "relapseMessage5": "Tomorrow is a fresh start. You've got this.",
   "@relapseMessage5": {
     "description": "Encouragement message for relapse"
   },
-
   "relapseMessage6": "Your worth isn't defined by perfect streaks. You matter.",
   "@relapseMessage6": {
     "description": "Encouragement message for relapse"
   },
-
   "relapseMessage7": "Recovery is a journey with hills and valleys. Keep walking.",
   "@relapseMessage7": {
     "description": "Encouragement message for relapse"
   },
-
   "relapseMessage8": "You had the strength to start before, and you have it again now.",
   "@relapseMessage8": {
     "description": "Encouragement message for relapse"
   },
-
   "relapseMessage9": "One moment doesn't define your entire journey forward.",
   "@relapseMessage9": {
     "description": "Encouragement message for relapse"
   },
-
   "relapseMessage10": "Being here shows you haven't given up. That's powerful.",
   "@relapseMessage10": {
     "description": "Encouragement message for relapse"
   },
-
   "relapseMessage11": "Progress isn't about perfection—it's about persistence.",
   "@relapseMessage11": {
     "description": "Encouragement message for relapse"
   },
-
   "relapseMessage12": "You're building resilience with every attempt. Keep building.",
   "@relapseMessage12": {
     "description": "Encouragement message for relapse"
   },
-
   "relapseMessage13": "Your commitment to trying again is already a victory.",
   "@relapseMessage13": {
     "description": "Encouragement message for relapse"
   },
-
   "relapseMessage14": "Healing isn't instant, but it's happening with each choice you make.",
   "@relapseMessage14": {
     "description": "Encouragement message for relapse"
   },
-
   "relapseMessage15": "You're not starting over—you're continuing with more wisdom.",
   "@relapseMessage15": {
     "description": "Encouragement message for relapse"
   },
-
   "relapseMessage16": "Every expert was once a beginner. Every pro was once an amateur.",
   "@relapseMessage16": {
     "description": "Encouragement message for relapse"
   },
-
   "relapseMessage17": "Recovery happens one day at a time, sometimes one hour at a time.",
   "@relapseMessage17": {
     "description": "Encouragement message for relapse"
   },
-
   "relapseMessage18": "You're writing a comeback story. This is just one chapter.",
   "@relapseMessage18": {
     "description": "Encouragement message for relapse"
   },
-
   "relapseMessage19": "The fact that you're here means you care about yourself. Hold onto that.",
   "@relapseMessage19": {
     "description": "Encouragement message for relapse"
   },
-
   "relapseMessage20": "Small steps in the right direction are still steps forward.",
   "@relapseMessage20": {
     "description": "Encouragement message for relapse"
   },
-
   "undo": "Undo",
   "@undo": {
     "description": "Undo button text in reset snackbar"
   },
-
   "ok": "OK",
   "@ok": {
     "description": "OK button text used in toast messages"
@@ -1335,7 +1067,6 @@
   "@alcoholMilestone1Description": {
     "description": "Alcohol milestone day 1 description"
   },
-
   "alcoholMilestone3Title": "Hydration Levels Restore",
   "@alcoholMilestone3Title": {
     "description": "Alcohol milestone day 3 title"
@@ -1344,7 +1075,6 @@
   "@alcoholMilestone3Description": {
     "description": "Alcohol milestone day 3 description"
   },
-
   "alcoholMilestone7Title": "Immune System Strengthens",
   "@alcoholMilestone7Title": {
     "description": "Alcohol milestone day 7 title"
@@ -1353,7 +1083,6 @@
   "@alcoholMilestone7Description": {
     "description": "Alcohol milestone day 7 description"
   },
-
   "alcoholMilestone14Title": "Brain Volume Recovery Begins",
   "@alcoholMilestone14Title": {
     "description": "Alcohol milestone day 14 title"
@@ -1362,7 +1091,6 @@
   "@alcoholMilestone14Description": {
     "description": "Alcohol milestone day 14 description"
   },
-
   "alcoholMilestone30Title": "Blood Pressure Normalizes",
   "@alcoholMilestone30Title": {
     "description": "Alcohol milestone day 30 title"
@@ -1371,7 +1099,6 @@
   "@alcoholMilestone30Description": {
     "description": "Alcohol milestone day 30 description"
   },
-
   "alcoholMilestone60Title": "Liver Function Improves",
   "@alcoholMilestone60Title": {
     "description": "Alcohol milestone day 60 title"
@@ -1380,7 +1107,6 @@
   "@alcoholMilestone60Description": {
     "description": "Alcohol milestone day 60 description"
   },
-
   "alcoholMilestone90Title": "Cognitive Function Substantially Improves",
   "@alcoholMilestone90Title": {
     "description": "Alcohol milestone day 90 title"
@@ -1389,7 +1115,6 @@
   "@alcoholMilestone90Description": {
     "description": "Alcohol milestone day 90 description"
   },
-
   "alcoholMilestone180Title": "Brain Volume and Function Continue Recovery",
   "@alcoholMilestone180Title": {
     "description": "Alcohol milestone day 180 title"
@@ -1398,7 +1123,6 @@
   "@alcoholMilestone180Description": {
     "description": "Alcohol milestone day 180 description"
   },
-
   "alcoholMilestone365Title": "Cancer Risk Reduction May Begin",
   "@alcoholMilestone365Title": {
     "description": "Alcohol milestone day 365 title"
@@ -1407,7 +1131,6 @@
   "@alcoholMilestone365Description": {
     "description": "Alcohol milestone day 365 description"
   },
-
   "smokingMilestone1Title": "Carbon Monoxide Clears",
   "@smokingMilestone1Title": {
     "description": "Smoking milestone day 1 title"
@@ -1416,7 +1139,6 @@
   "@smokingMilestone1Description": {
     "description": "Smoking milestone day 1 description"
   },
-
   "smokingMilestone3Title": "Nicotine Withdrawal Peaks",
   "@smokingMilestone3Title": {
     "description": "Smoking milestone day 3 title"
@@ -1425,7 +1147,6 @@
   "@smokingMilestone3Description": {
     "description": "Smoking milestone day 3 description"
   },
-
   "smokingMilestone7Title": "Taste & Smell Dramatically Improve",
   "@smokingMilestone7Title": {
     "description": "Smoking milestone day 7 title"
@@ -1434,7 +1155,6 @@
   "@smokingMilestone7Description": {
     "description": "Smoking milestone day 7 description"
   },
-
   "smokingMilestone14Title": "Circulation & Walking Improve",
   "@smokingMilestone14Title": {
     "description": "Smoking milestone day 14 title"
@@ -1443,7 +1163,6 @@
   "@smokingMilestone14Description": {
     "description": "Smoking milestone day 14 description"
   },
-
   "smokingMilestone30Title": "Lung Function Increases",
   "@smokingMilestone30Title": {
     "description": "Smoking milestone day 30 title"
@@ -1452,7 +1171,6 @@
   "@smokingMilestone30Description": {
     "description": "Smoking milestone day 30 description"
   },
-
   "smokingMilestone90Title": "Heart Attack Risk Drops Significantly",
   "@smokingMilestone90Title": {
     "description": "Smoking milestone day 90 title"
@@ -1461,7 +1179,6 @@
   "@smokingMilestone90Description": {
     "description": "Smoking milestone day 90 description"
   },
-
   "smokingMilestone180Title": "Immune System Strengthens",
   "@smokingMilestone180Title": {
     "description": "Smoking milestone day 180 title"
@@ -1470,7 +1187,6 @@
   "@smokingMilestone180Description": {
     "description": "Smoking milestone day 180 description"
   },
-
   "smokingMilestone365Title": "Stroke Risk Reduces Significantly",
   "@smokingMilestone365Title": {
     "description": "Smoking milestone day 365 title"
@@ -1479,7 +1195,6 @@
   "@smokingMilestone365Description": {
     "description": "Smoking milestone day 365 description"
   },
-
   "smokingMilestone1825Title": "Cancer Risk Plummets (5 Years)",
   "@smokingMilestone1825Title": {
     "description": "Smoking milestone day 1825 title"
@@ -1488,7 +1203,6 @@
   "@smokingMilestone1825Description": {
     "description": "Smoking milestone day 1825 description"
   },
-
   "vapingMilestone1Title": "Nicotine Cravings Peak",
   "@vapingMilestone1Title": {
     "description": "Vaping milestone day 1 title"
@@ -1497,7 +1211,6 @@
   "@vapingMilestone1Description": {
     "description": "Vaping milestone day 1 description"
   },
-
   "vapingMilestone3Title": "Breathing Improves",
   "@vapingMilestone3Title": {
     "description": "Vaping milestone day 3 title"
@@ -1506,7 +1219,6 @@
   "@vapingMilestone3Description": {
     "description": "Vaping milestone day 3 description"
   },
-
   "vapingMilestone7Title": "Taste & Smell Return",
   "@vapingMilestone7Title": {
     "description": "Vaping milestone day 7 title"
@@ -1515,7 +1227,6 @@
   "@vapingMilestone7Description": {
     "description": "Vaping milestone day 7 description"
   },
-
   "vapingMilestone14Title": "Circulation Improves",
   "@vapingMilestone14Title": {
     "description": "Vaping milestone day 14 title"
@@ -1524,7 +1235,6 @@
   "@vapingMilestone14Description": {
     "description": "Vaping milestone day 14 description"
   },
-
   "vapingMilestone30Title": "Lung Function Recovery",
   "@vapingMilestone30Title": {
     "description": "Vaping milestone day 30 title"
@@ -1533,7 +1243,6 @@
   "@vapingMilestone30Description": {
     "description": "Vaping milestone day 30 description"
   },
-
   "vapingMilestone60Title": "Anxiety Levels Normalize",
   "@vapingMilestone60Title": {
     "description": "Vaping milestone day 60 title"
@@ -1542,7 +1251,6 @@
   "@vapingMilestone60Description": {
     "description": "Vaping milestone day 60 description"
   },
-
   "vapingMilestone90Title": "Cognitive Function Sharpens",
   "@vapingMilestone90Title": {
     "description": "Vaping milestone day 90 title"
@@ -1551,7 +1259,6 @@
   "@vapingMilestone90Description": {
     "description": "Vaping milestone day 90 description"
   },
-
   "vapingMilestone180Title": "Oral Health Recovery",
   "@vapingMilestone180Title": {
     "description": "Vaping milestone day 180 title"
@@ -1560,7 +1267,6 @@
   "@vapingMilestone180Description": {
     "description": "Vaping milestone day 180 description"
   },
-
   "vapingMilestone365Title": "Cardiovascular Risk Reduction",
   "@vapingMilestone365Title": {
     "description": "Vaping milestone day 365 title"
@@ -1569,7 +1275,6 @@
   "@vapingMilestone365Description": {
     "description": "Vaping milestone day 365 description"
   },
-
   "marijuanaMilestone1Title": "Withdrawal Symptoms Begin",
   "@marijuanaMilestone1Title": {
     "description": "Marijuana milestone day 1 title"
@@ -1578,7 +1283,6 @@
   "@marijuanaMilestone1Description": {
     "description": "Marijuana milestone day 1 description"
   },
-
   "marijuanaMilestone3Title": "Physical Symptoms Peak",
   "@marijuanaMilestone3Title": {
     "description": "Marijuana milestone day 3 title"
@@ -1587,7 +1291,6 @@
   "@marijuanaMilestone3Description": {
     "description": "Marijuana milestone day 3 description"
   },
-
   "marijuanaMilestone7Title": "Sleep Patterns Improve",
   "@marijuanaMilestone7Title": {
     "description": "Marijuana milestone day 7 title"
@@ -1596,7 +1299,6 @@
   "@marijuanaMilestone7Description": {
     "description": "Marijuana milestone day 7 description"
   },
-
   "marijuanaMilestone14Title": "Acute Withdrawal Ends",
   "@marijuanaMilestone14Title": {
     "description": "Marijuana milestone day 14 title"
@@ -1605,7 +1307,6 @@
   "@marijuanaMilestone14Description": {
     "description": "Marijuana milestone day 14 description"
   },
-
   "marijuanaMilestone30Title": "Memory Function Improves",
   "@marijuanaMilestone30Title": {
     "description": "Marijuana milestone day 30 title"
@@ -1614,7 +1315,6 @@
   "@marijuanaMilestone30Description": {
     "description": "Marijuana milestone day 30 description"
   },
-
   "marijuanaMilestone60Title": "Concentration Sharpens",
   "@marijuanaMilestone60Title": {
     "description": "Marijuana milestone day 60 title"
@@ -1623,7 +1323,6 @@
   "@marijuanaMilestone60Description": {
     "description": "Marijuana milestone day 60 description"
   },
-
   "marijuanaMilestone90Title": "Mood Stability Returns",
   "@marijuanaMilestone90Title": {
     "description": "Marijuana milestone day 90 title"
@@ -1632,7 +1331,6 @@
   "@marijuanaMilestone90Description": {
     "description": "Marijuana milestone day 90 description"
   },
-
   "marijuanaMilestone180Title": "Executive Function Recovery",
   "@marijuanaMilestone180Title": {
     "description": "Marijuana milestone day 180 title"
@@ -1641,7 +1339,6 @@
   "@marijuanaMilestone180Description": {
     "description": "Marijuana milestone day 180 description"
   },
-
   "marijuanaMilestone365Title": "Brain Structure Restoration",
   "@marijuanaMilestone365Title": {
     "description": "Marijuana milestone day 365 title"
@@ -1650,7 +1347,6 @@
   "@marijuanaMilestone365Description": {
     "description": "Marijuana milestone day 365 description"
   },
-
   "opioidMilestone1Title": "Acute Withdrawal Begins",
   "@opioidMilestone1Title": {
     "description": "Opioid milestone day 1 title"
@@ -1659,7 +1355,6 @@
   "@opioidMilestone1Description": {
     "description": "Opioid milestone day 1 description"
   },
-
   "opioidMilestone7Title": "Physical Symptoms Peak & Begin Declining",
   "@opioidMilestone7Title": {
     "description": "Opioid milestone day 7 title"
@@ -1668,7 +1363,6 @@
   "@opioidMilestone7Description": {
     "description": "Opioid milestone day 7 description"
   },
-
   "opioidMilestone14Title": "Sleep Patterns Start Improving",
   "@opioidMilestone14Title": {
     "description": "Opioid milestone day 14 title"
@@ -1677,7 +1371,6 @@
   "@opioidMilestone14Description": {
     "description": "Opioid milestone day 14 description"
   },
-
   "opioidMilestone30Title": "Cognitive Function Begins Recovery",
   "@opioidMilestone30Title": {
     "description": "Opioid milestone day 30 title"
@@ -1686,7 +1379,6 @@
   "@opioidMilestone30Description": {
     "description": "Opioid milestone day 30 description"
   },
-
   "opioidMilestone60Title": "Emotional Regulation Improves",
   "@opioidMilestone60Title": {
     "description": "Opioid milestone day 60 title"
@@ -1695,7 +1387,6 @@
   "@opioidMilestone60Description": {
     "description": "Opioid milestone day 60 description"
   },
-
   "opioidMilestone90Title": "Dopamine Function Significantly Recovers",
   "@opioidMilestone90Title": {
     "description": "Opioid milestone day 90 title"
@@ -1704,7 +1395,6 @@
   "@opioidMilestone90Description": {
     "description": "Opioid milestone day 90 description"
   },
-
   "opioidMilestone180Title": "Immune System Strengthens",
   "@opioidMilestone180Title": {
     "description": "Opioid milestone day 180 title"
@@ -1713,7 +1403,6 @@
   "@opioidMilestone180Description": {
     "description": "Opioid milestone day 180 description"
   },
-
   "opioidMilestone365Title": "Neural Plasticity & Brain Structure Improve",
   "@opioidMilestone365Title": {
     "description": "Opioid milestone day 365 title"
@@ -1722,7 +1411,6 @@
   "@opioidMilestone365Description": {
     "description": "Opioid milestone day 365 description"
   },
-
   "opioidMilestone730Title": "Long-term Recovery Stability (2 Years)",
   "@opioidMilestone730Title": {
     "description": "Opioid milestone day 730 title"
@@ -1731,7 +1419,6 @@
   "@opioidMilestone730Description": {
     "description": "Opioid milestone day 730 description"
   },
-
   "socialMediaMilestone1Title": "Digital Detox Day One! 🎯",
   "@socialMediaMilestone1Title": {
     "description": "Social media milestone day 1 title"
@@ -1740,7 +1427,6 @@
   "@socialMediaMilestone1Description": {
     "description": "Social media milestone day 1 description"
   },
-
   "socialMediaMilestone3Title": "FOMO? More Like FO-NO! 😎",
   "@socialMediaMilestone3Title": {
     "description": "Social media milestone day 3 title"
@@ -1749,7 +1435,6 @@
   "@socialMediaMilestone3Description": {
     "description": "Social media milestone day 3 description"
   },
-
   "socialMediaMilestone7Title": "Attention Span: Goldfish → Human 🧠",
   "@socialMediaMilestone7Title": {
     "description": "Social media milestone day 7 title"
@@ -1758,7 +1443,6 @@
   "@socialMediaMilestone7Description": {
     "description": "Social media milestone day 7 description"
   },
-
   "socialMediaMilestone14Title": "Sleep Like a Baby (Not a Zombie) 😴",
   "@socialMediaMilestone14Title": {
     "description": "Social media milestone day 14 title"
@@ -1767,7 +1451,6 @@
   "@socialMediaMilestone14Description": {
     "description": "Social media milestone day 14 description"
   },
-
   "socialMediaMilestone30Title": "Real Friends > Fake Likes 💝",
   "@socialMediaMilestone30Title": {
     "description": "Social media milestone day 30 title"
@@ -1776,7 +1459,6 @@
   "@socialMediaMilestone30Description": {
     "description": "Social media milestone day 30 description"
   },
-
   "socialMediaMilestone60Title": "Comparison Trap: ESCAPED! ✨",
   "@socialMediaMilestone60Title": {
     "description": "Social media milestone day 60 title"
@@ -1785,7 +1467,6 @@
   "@socialMediaMilestone60Description": {
     "description": "Social media milestone day 60 description"
   },
-
   "socialMediaMilestone90Title": "Hobby Collector Level: Expert 🎨",
   "@socialMediaMilestone90Title": {
     "description": "Social media milestone day 90 title"
@@ -1794,7 +1475,6 @@
   "@socialMediaMilestone90Description": {
     "description": "Social media milestone day 90 description"
   },
-
   "socialMediaMilestone180Title": "Mental Health Glow-Up Complete 🌟",
   "@socialMediaMilestone180Title": {
     "description": "Social media milestone day 180 title"
@@ -1803,7 +1483,6 @@
   "@socialMediaMilestone180Description": {
     "description": "Social media milestone day 180 description"
   },
-
   "socialMediaMilestone365Title": "Digital Zen Master Achieved 🏆",
   "@socialMediaMilestone365Title": {
     "description": "Social media milestone day 365 title"
@@ -1812,7 +1491,6 @@
   "@socialMediaMilestone365Description": {
     "description": "Social media milestone day 365 description"
   },
-
   "nicotinePouchesMilestone1Title": "Taste & Smell Begin Recovery",
   "@nicotinePouchesMilestone1Title": {
     "description": "Nicotine pouches milestone day 1 title"
@@ -1821,7 +1499,6 @@
   "@nicotinePouchesMilestone1Description": {
     "description": "Nicotine pouches milestone day 1 description"
   },
-
   "nicotinePouchesMilestone3Title": "Nicotine Completely Cleared",
   "@nicotinePouchesMilestone3Title": {
     "description": "Nicotine pouches milestone day 3 title"
@@ -1830,7 +1507,6 @@
   "@nicotinePouchesMilestone3Description": {
     "description": "Nicotine pouches milestone day 3 description"
   },
-
   "nicotinePouchesMilestone7Title": "Oral Health Improves",
   "@nicotinePouchesMilestone7Title": {
     "description": "Nicotine pouches milestone day 7 title"
@@ -1839,7 +1515,6 @@
   "@nicotinePouchesMilestone7Description": {
     "description": "Nicotine pouches milestone day 7 description"
   },
-
   "nicotinePouchesMilestone14Title": "Circulation Enhancement",
   "@nicotinePouchesMilestone14Title": {
     "description": "Nicotine pouches milestone day 14 title"
@@ -1848,7 +1523,6 @@
   "@nicotinePouchesMilestone14Description": {
     "description": "Nicotine pouches milestone day 14 description"
   },
-
   "nicotinePouchesMilestone30Title": "Stress Response Normalizes",
   "@nicotinePouchesMilestone30Title": {
     "description": "Nicotine pouches milestone day 30 title"
@@ -1857,7 +1531,6 @@
   "@nicotinePouchesMilestone30Description": {
     "description": "Nicotine pouches milestone day 30 description"
   },
-
   "nicotinePouchesMilestone60Title": "Sleep Quality Improves",
   "@nicotinePouchesMilestone60Title": {
     "description": "Nicotine pouches milestone day 60 title"
@@ -1866,7 +1539,6 @@
   "@nicotinePouchesMilestone60Description": {
     "description": "Nicotine pouches milestone day 60 description"
   },
-
   "nicotinePouchesMilestone90Title": "Dopamine Receptors Recover",
   "@nicotinePouchesMilestone90Title": {
     "description": "Nicotine pouches milestone day 90 title"
@@ -1875,7 +1547,6 @@
   "@nicotinePouchesMilestone90Description": {
     "description": "Nicotine pouches milestone day 90 description"
   },
-
   "nicotinePouchesMilestone180Title": "Cardiovascular Risk Drops",
   "@nicotinePouchesMilestone180Title": {
     "description": "Nicotine pouches milestone day 180 title"
@@ -1884,7 +1555,6 @@
   "@nicotinePouchesMilestone180Description": {
     "description": "Nicotine pouches milestone day 180 description"
   },
-
   "nicotinePouchesMilestone365Title": "Long-term Health Secured",
   "@nicotinePouchesMilestone365Title": {
     "description": "Nicotine pouches milestone day 365 title"
@@ -1893,7 +1563,6 @@
   "@nicotinePouchesMilestone365Description": {
     "description": "Nicotine pouches milestone day 365 description"
   },
-
   "pornographyMilestone1Title": "Breaking the Cycle",
   "@pornographyMilestone1Title": {
     "description": "Pornography milestone day 1 title"
@@ -1902,7 +1571,6 @@
   "@pornographyMilestone1Description": {
     "description": "Pornography milestone day 1 description"
   },
-
   "pornographyMilestone3Title": "Withdrawal Symptoms Peak",
   "@pornographyMilestone3Title": {
     "description": "Pornography milestone day 3 title"
@@ -1911,7 +1579,6 @@
   "@pornographyMilestone3Description": {
     "description": "Pornography milestone day 3 description"
   },
-
   "pornographyMilestone7Title": "Sleep Quality Improves",
   "@pornographyMilestone7Title": {
     "description": "Pornography milestone day 7 title"
@@ -1920,7 +1587,6 @@
   "@pornographyMilestone7Description": {
     "description": "Pornography milestone day 7 description"
   },
-
   "pornographyMilestone14Title": "Motivation & Energy Return",
   "@pornographyMilestone14Title": {
     "description": "Pornography milestone day 14 title"
@@ -1929,7 +1595,6 @@
   "@pornographyMilestone14Description": {
     "description": "Pornography milestone day 14 description"
   },
-
   "pornographyMilestone30Title": "Confidence & Self-Control Grow",
   "@pornographyMilestone30Title": {
     "description": "Pornography milestone day 30 title"
@@ -1938,7 +1603,6 @@
   "@pornographyMilestone30Description": {
     "description": "Pornography milestone day 30 description"
   },
-
   "pornographyMilestone90Title": "Brain Function Stabilizes",
   "@pornographyMilestone90Title": {
     "description": "Pornography milestone day 90 title"
@@ -1947,7 +1611,6 @@
   "@pornographyMilestone90Description": {
     "description": "Pornography milestone day 90 description"
   },
-
   "pornographyMilestone180Title": "Relationship & Social Skills Improve",
   "@pornographyMilestone180Title": {
     "description": "Pornography milestone day 180 title"
@@ -1956,7 +1619,6 @@
   "@pornographyMilestone180Description": {
     "description": "Pornography milestone day 180 description"
   },
-
   "pornographyMilestone365Title": "Complete Neural Pathway Reset",
   "@pornographyMilestone365Title": {
     "description": "Pornography milestone day 365 title"
@@ -1965,7 +1627,6 @@
   "@pornographyMilestone365Description": {
     "description": "Pornography milestone day 365 description"
   },
-
   "pornographyMilestone1825Title": "Lasting Life Transformation (5 Years)",
   "@pornographyMilestone1825Title": {
     "description": "Pornography milestone day 1825 title"
@@ -1974,7 +1635,6 @@
   "@pornographyMilestone1825Description": {
     "description": "Pornography milestone day 1825 description"
   },
-
   "customMilestone1Title": "Initial Recovery Phase Begins",
   "@customMilestone1Title": {
     "description": "Custom milestone day 1 title"
@@ -1983,7 +1643,6 @@
   "@customMilestone1Description": {
     "description": "Custom milestone day 1 description"
   },
-
   "customMilestone3Title": "Withdrawal Symptoms Peak",
   "@customMilestone3Title": {
     "description": "Custom milestone day 3 title"
@@ -1992,7 +1651,6 @@
   "@customMilestone3Description": {
     "description": "Custom milestone day 3 description"
   },
-
   "customMilestone7Title": "Acute Withdrawal Phase Ending",
   "@customMilestone7Title": {
     "description": "Custom milestone day 7 title"
@@ -2001,7 +1659,6 @@
   "@customMilestone7Description": {
     "description": "Custom milestone day 7 description"
   },
-
   "customMilestone14Title": "Early Recovery Stabilization",
   "@customMilestone14Title": {
     "description": "Custom milestone day 14 title"
@@ -2010,7 +1667,6 @@
   "@customMilestone14Description": {
     "description": "Custom milestone day 14 description"
   },
-
   "customMilestone30Title": "One Month Milestone",
   "@customMilestone30Title": {
     "description": "Custom milestone day 30 title"
@@ -2019,7 +1675,6 @@
   "@customMilestone30Description": {
     "description": "Custom milestone day 30 description"
   },
-
   "customMilestone90Title": "Three Month Recovery Milestone",
   "@customMilestone90Title": {
     "description": "Custom milestone day 90 title"
@@ -2028,7 +1683,6 @@
   "@customMilestone90Description": {
     "description": "Custom milestone day 90 description"
   },
-
   "customMilestone180Title": "Six Month Recovery Achievement",
   "@customMilestone180Title": {
     "description": "Custom milestone day 180 title"
@@ -2037,7 +1691,6 @@
   "@customMilestone180Description": {
     "description": "Custom milestone day 180 description"
   },
-
   "customMilestone365Title": "One Year of Recovery",
   "@customMilestone365Title": {
     "description": "Custom milestone day 365 title"
@@ -2046,7 +1699,6 @@
   "@customMilestone365Description": {
     "description": "Custom milestone day 365 description"
   },
-
   "customMilestone730Title": "Two Years of Sustained Recovery",
   "@customMilestone730Title": {
     "description": "Custom milestone day 730 title"
