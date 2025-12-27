@@ -1,0 +1,4 @@
+• Add benzos
+• Add heroin
+• Add toggle all buttons to settings
+• Sync notify settings when you toggle main screen items

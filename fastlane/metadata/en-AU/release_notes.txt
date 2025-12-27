@@ -1,5 +1,10 @@
+• Add adderall
 • Add benzos
+• Add files via upload
 • Add heroin
 • Add missing translations
 • Add toggle all buttons to settings
-• Sync notify settings when you toggle main screen items
+• Finish some localizations for translation
+• Fix formatting in README.md
+• Fix missing benzos notify key
+• removed unused img and made it one line
