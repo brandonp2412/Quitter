@@ -53,6 +53,7 @@ class SettingsProvider extends ChangeNotifier {
     'meth': 'notify_meth',
     'heroin': 'notify_heroin',
     'adderall': 'notify_adderall',
+    'benzos': 'notify_benzos',
   };
 
   bool _isPinEnabled = false;
