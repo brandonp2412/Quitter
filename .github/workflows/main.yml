@@ -15,6 +15,22 @@ env:
   KOTLIN_VERSION: "2.1.0"
 
 jobs:
+  upload-to-crowdin:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Upload sources to Crowdin
+        uses: crowdin/github-action@v2
+        with:
+          upload_sources: true
+          upload_translations: false
+          download_translations: false
+        env:
+          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+
   get-version-info:
     runs-on: ubuntu-latest
     outputs:
@@ -267,4 +283,3 @@ jobs:
             --json_key google-play-key.json \
             --package_name com.quitter.app \
             --track production
-
