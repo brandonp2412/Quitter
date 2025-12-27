@@ -12,10 +12,94 @@ class AppLocalizationsJa extends AppLocalizations {
   String get appTitle => 'Quitter';
 
   @override
-  String get start => 'Start';
+  String get start => '始める';
 
   @override
   String get tabQuitter => 'Quitter';
+
+  @override
+  String get adderallPageTitle => 'Quitting Adderall';
+
+  @override
+  String get adderallHeaderStarted => 'Your Recovery Journey';
+
+  @override
+  String get adderallHeaderNotStarted => 'Ready to Start Your Recovery?';
+
+  @override
+  String get adderallSubtitleStarted =>
+      'Track your progress and celebrate each milestone as your brain heals';
+
+  @override
+  String get adderallSubtitleNotStarted =>
+      'See what happens when you quit Adderall and start your journey to recovery';
+
+  @override
+  String get adderallMilestone1Title => 'First 24 Hours: Withdrawal Begins';
+
+  @override
+  String get adderallMilestone1Description =>
+      'You may feel increased fatigue, depression, and appetite as your body starts adjusting to life without stimulants. This is normal and temporary. Stay hydrated and rest when needed.';
+
+  @override
+  String get adderallMilestone3Title => 'Day 3: Peak Withdrawal';
+
+  @override
+  String get adderallMilestone3Description =>
+      'Withdrawal symptoms reach their peak intensity. You might experience strong fatigue, irritability, and difficulty concentrating. This is the hardest part - but it gets better from here. Consider reaching out to your support system.';
+
+  @override
+  String get adderallMilestone7Title => 'One Week: Physical Symptoms Improving';
+
+  @override
+  String get adderallMilestone7Description =>
+      'The worst of the physical withdrawal symptoms are starting to fade. Sleep patterns begin normalizing and energy levels slowly improve. Your body is adapting to functioning without stimulants.';
+
+  @override
+  String get adderallMilestone14Title =>
+      'Two Weeks: Emotional Stability Returning';
+
+  @override
+  String get adderallMilestone14Description =>
+      'Mood swings and irritability are lessening. You\'re regaining emotional balance as your brain chemistry stabilizes. Many people find this week marks a turning point in their recovery journey.';
+
+  @override
+  String get adderallMilestone30Title =>
+      'One Month: Brain Chemistry Rebalancing';
+
+  @override
+  String get adderallMilestone30Description =>
+      'Your brain is actively healing. Natural dopamine production is improving, and you may notice better focus and motivation without medication. Sleep quality and appetite are returning to normal patterns.';
+
+  @override
+  String get adderallMilestone60Title =>
+      'Two Months: Cognitive Function Improving';
+
+  @override
+  String get adderallMilestone60Description =>
+      'Significant improvements in mental clarity, memory, and mood stability. Your brain\'s reward system is healing, making everyday activities more naturally rewarding. Many people report feeling more like themselves.';
+
+  @override
+  String get adderallMilestone90Title =>
+      'Three Months: Major Recovery Milestone';
+
+  @override
+  String get adderallMilestone90Description =>
+      'Most withdrawal symptoms have resolved. Your brain has made substantial progress in healing. Natural energy levels, focus, and emotional regulation are significantly improved. This is a major achievement worth celebrating.';
+
+  @override
+  String get adderallMilestone180Title => 'Six Months: Brain Healing Continues';
+
+  @override
+  String get adderallMilestone180Description =>
+      'Dopamine receptors continue restoring to normal function. You\'re experiencing sustained improvements in cognitive performance, emotional wellbeing, and overall quality of life. Your brain is getting stronger every day.';
+
+  @override
+  String get adderallMilestone365Title => 'One Year: Near-Complete Recovery';
+
+  @override
+  String get adderallMilestone365Description =>
+      'Your brain\'s dopamine system has largely restored to normal functioning. You\'ve proven your resilience and rebuilt your life without dependence on stimulants. This milestone represents a complete transformation - celebrate how far you\'ve come!';
 
   @override
   String get showAllItems => 'Show all items';
@@ -279,6 +363,9 @@ class AppLocalizationsJa extends AppLocalizations {
   String get addictionCocaine => 'Cocaine';
 
   @override
+  String get addictionAdderall => 'Adderall';
+
+  @override
   String get cocainePageTitle => 'Cocaine Recovery';
 
   @override
@@ -429,10 +516,10 @@ class AppLocalizationsJa extends AppLocalizations {
   String get settingsLocaleUnsupported => 'Unsupported';
 
   @override
-  String get settingsLocaleJapanese => 'Japanese';
+  String get settingsLocaleJapanese => '日本語';
 
   @override
-  String get settingsLocaleEnglish => 'English';
+  String get settingsLocaleEnglish => '英語';
 
   @override
   String get settingsLocaleSimplifiedChinese => 'Chinese';

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:quitter/adderall_page.dart';
 import 'package:quitter/benzodiazepine_page.dart';
 import 'package:quitter/cocaine_page.dart';
 import 'package:quitter/heroin_page.dart';
@@ -542,6 +543,37 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                       onLongPress: () {
                         _showHideBottomSheet(l10n.addictionCocaine, () {
                           settings.showCocaine = false;
+                        });
+                      },
+                    ),
+                  );
+                }
+
+                if (settings.showAdderall &&
+                    _matchesSearch(l10n.addictionAdderall)) {
+                  cards.add(
+                    QuitCard(
+                      context: context,
+                      title: l10n.addictionAdderall,
+                      icon: Icons.lightbulb_outline,
+                      gradientColors: [
+                        const Color(0xFFFF8C42),
+                        const Color(0xFFFF6B35),
+                      ],
+                      quitDate: addictions.quitAdderall,
+                      onTap: () async {
+                        await Navigator.of(context).push(
+                          MaterialPageRoute(
+                            builder: (context) => AdderallPage(
+                              started: addictions.quitAdderall != null,
+                            ),
+                          ),
+                        );
+                        if (mounted) _loadQuitDays();
+                      },
+                      onLongPress: () {
+                        _showHideBottomSheet(l10n.addictionAdderall, () {
+                          settings.showAdderall = false;
                         });
                       },
                     ),

@@ -118,6 +118,144 @@ abstract class AppLocalizations {
   /// **'Quitter'**
   String get tabQuitter;
 
+  /// No description provided for @adderallPageTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Quitting Adderall'**
+  String get adderallPageTitle;
+
+  /// No description provided for @adderallHeaderStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Your Recovery Journey'**
+  String get adderallHeaderStarted;
+
+  /// No description provided for @adderallHeaderNotStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Ready to Start Your Recovery?'**
+  String get adderallHeaderNotStarted;
+
+  /// No description provided for @adderallSubtitleStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Track your progress and celebrate each milestone as your brain heals'**
+  String get adderallSubtitleStarted;
+
+  /// No description provided for @adderallSubtitleNotStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'See what happens when you quit Adderall and start your journey to recovery'**
+  String get adderallSubtitleNotStarted;
+
+  /// No description provided for @adderallMilestone1Title.
+  ///
+  /// In en, this message translates to:
+  /// **'First 24 Hours: Withdrawal Begins'**
+  String get adderallMilestone1Title;
+
+  /// No description provided for @adderallMilestone1Description.
+  ///
+  /// In en, this message translates to:
+  /// **'You may feel increased fatigue, depression, and appetite as your body starts adjusting to life without stimulants. This is normal and temporary. Stay hydrated and rest when needed.'**
+  String get adderallMilestone1Description;
+
+  /// No description provided for @adderallMilestone3Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Day 3: Peak Withdrawal'**
+  String get adderallMilestone3Title;
+
+  /// No description provided for @adderallMilestone3Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Withdrawal symptoms reach their peak intensity. You might experience strong fatigue, irritability, and difficulty concentrating. This is the hardest part - but it gets better from here. Consider reaching out to your support system.'**
+  String get adderallMilestone3Description;
+
+  /// No description provided for @adderallMilestone7Title.
+  ///
+  /// In en, this message translates to:
+  /// **'One Week: Physical Symptoms Improving'**
+  String get adderallMilestone7Title;
+
+  /// No description provided for @adderallMilestone7Description.
+  ///
+  /// In en, this message translates to:
+  /// **'The worst of the physical withdrawal symptoms are starting to fade. Sleep patterns begin normalizing and energy levels slowly improve. Your body is adapting to functioning without stimulants.'**
+  String get adderallMilestone7Description;
+
+  /// No description provided for @adderallMilestone14Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Two Weeks: Emotional Stability Returning'**
+  String get adderallMilestone14Title;
+
+  /// No description provided for @adderallMilestone14Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Mood swings and irritability are lessening. You\'re regaining emotional balance as your brain chemistry stabilizes. Many people find this week marks a turning point in their recovery journey.'**
+  String get adderallMilestone14Description;
+
+  /// No description provided for @adderallMilestone30Title.
+  ///
+  /// In en, this message translates to:
+  /// **'One Month: Brain Chemistry Rebalancing'**
+  String get adderallMilestone30Title;
+
+  /// No description provided for @adderallMilestone30Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Your brain is actively healing. Natural dopamine production is improving, and you may notice better focus and motivation without medication. Sleep quality and appetite are returning to normal patterns.'**
+  String get adderallMilestone30Description;
+
+  /// No description provided for @adderallMilestone60Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Two Months: Cognitive Function Improving'**
+  String get adderallMilestone60Title;
+
+  /// No description provided for @adderallMilestone60Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Significant improvements in mental clarity, memory, and mood stability. Your brain\'s reward system is healing, making everyday activities more naturally rewarding. Many people report feeling more like themselves.'**
+  String get adderallMilestone60Description;
+
+  /// No description provided for @adderallMilestone90Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Three Months: Major Recovery Milestone'**
+  String get adderallMilestone90Title;
+
+  /// No description provided for @adderallMilestone90Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Most withdrawal symptoms have resolved. Your brain has made substantial progress in healing. Natural energy levels, focus, and emotional regulation are significantly improved. This is a major achievement worth celebrating.'**
+  String get adderallMilestone90Description;
+
+  /// No description provided for @adderallMilestone180Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Six Months: Brain Healing Continues'**
+  String get adderallMilestone180Title;
+
+  /// No description provided for @adderallMilestone180Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Dopamine receptors continue restoring to normal function. You\'re experiencing sustained improvements in cognitive performance, emotional wellbeing, and overall quality of life. Your brain is getting stronger every day.'**
+  String get adderallMilestone180Description;
+
+  /// No description provided for @adderallMilestone365Title.
+  ///
+  /// In en, this message translates to:
+  /// **'One Year: Near-Complete Recovery'**
+  String get adderallMilestone365Title;
+
+  /// No description provided for @adderallMilestone365Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Your brain\'s dopamine system has largely restored to normal functioning. You\'ve proven your resilience and rebuilt your life without dependence on stimulants. This milestone represents a complete transformation - celebrate how far you\'ve come!'**
+  String get adderallMilestone365Description;
+
   /// No description provided for @showAllItems.
   ///
   /// In en, this message translates to:
@@ -579,6 +717,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Cocaine'**
   String get addictionCocaine;
+
+  /// No description provided for @addictionAdderall.
+  ///
+  /// In en, this message translates to:
+  /// **'Adderall'**
+  String get addictionAdderall;
 
   /// No description provided for @cocainePageTitle.
   ///

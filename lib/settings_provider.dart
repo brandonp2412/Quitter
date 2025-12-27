@@ -36,6 +36,7 @@ class SettingsProvider extends ChangeNotifier {
     'journal': 'show_journal',
     'heroin': 'show_heroin',
     'benzos': 'show_benzos',
+    'adderall': 'show_adderall',
   };
 
   static const Map<String, String> _notifyKeys = {
@@ -51,7 +52,7 @@ class SettingsProvider extends ChangeNotifier {
     'cocaine': 'notify_cocaine',
     'meth': 'notify_meth',
     'heroin': 'notify_heroin',
-    'benzos': 'notify_benzos',
+    'adderall': 'notify_adderall',
   };
 
   bool _isPinEnabled = false;
@@ -95,6 +96,7 @@ class SettingsProvider extends ChangeNotifier {
   bool get showMeth => _showSettings['meth']!;
   bool get showHeroin => _showSettings['heroin']!;
   bool get showBenzos => _showSettings['benzos']!;
+  bool get showAdderall => _showSettings['adderall']!;
 
   bool get notifyAlcohol => _notifySettings['alcohol']!;
   bool get notifyVaping => _notifySettings['vaping']!;
@@ -107,6 +109,7 @@ class SettingsProvider extends ChangeNotifier {
   bool get notifyMeth => _notifySettings['meth']!;
   bool get notifyHeroin => _notifySettings['heroin']!;
   bool get notifyBenzos => _notifySettings['benzos']!;
+  bool get notifyAdderall => _notifySettings['adderall']!;
   bool get notifyRelapse => _notifySettings['relapse']!;
   bool get notifyMarijuana => _notifySettings['marijuana']!;
 
@@ -248,6 +251,8 @@ class SettingsProvider extends ChangeNotifier {
       _updateBoolSetting(_showSettings, _showKeys, 'meth', show);
   set showHeroin(bool show) =>
       _updateBoolSetting(_showSettings, _showKeys, 'heroin', show);
+  set showAdderall(bool show) =>
+      _updateBoolSetting(_showSettings, _showKeys, 'adderall', show);
   set showBenzos(bool show) =>
       _updateBoolSetting(_showSettings, _showKeys, 'benzos', show);
   set showCocaine(bool show) =>
@@ -271,6 +276,8 @@ class SettingsProvider extends ChangeNotifier {
       _updateBoolSetting(_notifySettings, _notifyKeys, 'meth', notify);
   set notifyHeroin(bool notify) =>
       _updateBoolSetting(_notifySettings, _notifyKeys, 'heroin', notify);
+  set notifyAdderall(bool notify) =>
+      _updateBoolSetting(_notifySettings, _notifyKeys, 'adderall', notify);
   set notifyBenzos(bool notify) =>
       _updateBoolSetting(_notifySettings, _notifyKeys, 'benzos', notify);
   set notifyCocaine(bool notify) =>
