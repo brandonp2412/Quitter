@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:intl/intl.dart';
+import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 
 class WhatsNew extends StatefulWidget {
@@ -80,8 +81,10 @@ class _WhatsNewState extends State<WhatsNew> {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
+
     return Scaffold(
-      appBar: AppBar(title: const Text("What's new?")),
+      appBar: AppBar(title: Text(l10n.whatsNewTitle)),
       body: ListView.builder(
         itemBuilder: (context, index) => ListTile(
           title: Text(changelogs[index].created),
@@ -95,7 +98,7 @@ class _WhatsNewState extends State<WhatsNew> {
           const url = 'https://github.com/sponsors/brandonp2412';
           if (await canLaunchUrlString(url)) await launchUrlString(url);
         },
-        label: const Text("Donate"),
+        label: Text(l10n.aboutDonate),
       ),
     );
   }

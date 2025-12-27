@@ -302,7 +302,7 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
       fab = FloatingActionButton.extended(
         key: const ValueKey('start_fab'),
         onPressed: _handleStartPressed,
-        label: Text(AppLocalizations.of(context)?.quitStartButton ?? "Start"),
+        label: Text(l10n.quitStartButton),
         icon: const Icon(Icons.rocket_launch),
       );
     } else {
@@ -345,7 +345,7 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
             ),
           );
         },
-        label: Text(AppLocalizations.of(context)?.quitResetButton ?? "Reset"),
+        label: Text(l10n.quitResetButton),
         icon: const Icon(Icons.restart_alt),
       );
     }
