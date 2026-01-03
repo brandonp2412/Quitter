@@ -1234,6 +1234,18 @@ abstract class AppLocalizations {
   /// **'Show social media tracking'**
   String get settingsShowSocialMediaTracking;
 
+  /// No description provided for @settingsShowAdderallTracking.
+  ///
+  /// In en, this message translates to:
+  /// **'Show adderall tracking'**
+  String get settingsShowAdderallTracking;
+
+  /// No description provided for @settingsNotifyAdderall.
+  ///
+  /// In en, this message translates to:
+  /// **'Notify adderall quitting progress'**
+  String get settingsNotifyAdderall;
+
   /// No description provided for @settingsShowCocaineTracking.
   ///
   /// In en, this message translates to:

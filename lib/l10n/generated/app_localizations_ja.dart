@@ -645,6 +645,12 @@ class AppLocalizationsJa extends AppLocalizations {
   String get settingsShowSocialMediaTracking => 'ソーシャルメディア追跡を表示';
 
   @override
+  String get settingsShowAdderallTracking => 'Show adderall tracking';
+
+  @override
+  String get settingsNotifyAdderall => 'Notify adderall quitting progress';
+
+  @override
   String get settingsShowCocaineTracking => 'Show cocaine tracking';
 
   @override

@@ -396,6 +396,8 @@
   "@settingsShowSocialMediaTracking": {
     "description": "Setting subtitle for showing social media tracking"
   },
+  "settingsShowAdderallTracking": "Show adderall tracking",
+  "settingsNotifyAdderall": "Notify adderall quitting progress",
   "settingsShowCocaineTracking": "Show cocaine tracking",
   "settingsShowMethTracking": "Show meth tracking",
   "settingsShowAdultContentTracking": "Show adult content tracking",

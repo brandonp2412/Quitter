@@ -393,6 +393,7 @@ class _SettingsPageState extends State<SettingsPage> {
       settings.showMeth,
       settings.showHeroin,
       settings.showBenzos,
+      settings.showAdderall,
     ].every((v) => v == true);
 
     final items = [
@@ -487,6 +488,16 @@ class _SettingsPageState extends State<SettingsPage> {
         },
       ),
       _ToggleItem(
+        icon: Icons.lightbulb_outline,
+        title: l10n.addictionAdderall,
+        subtitle: l10n.settingsShowAdderallTracking,
+        value: settings.showAdderall,
+        onChanged: (value) {
+          settings.showAdderall = value;
+          settings.notifyAdderall = value;
+        },
+      ),
+      _ToggleItem(
         icon: Icons.battery_charging_full,
         title: l10n.addictionMeth,
         subtitle: l10n.settingsShowMethTracking,
@@ -553,6 +564,9 @@ class _SettingsPageState extends State<SettingsPage> {
 
           settings.showCocaine = value;
           settings.notifyCocaine = value;
+
+          settings.showAdderall = value;
+          settings.notifyAdderall = value;
 
           settings.showMeth = value;
           settings.notifyMeth = value;
@@ -639,6 +653,13 @@ class _SettingsPageState extends State<SettingsPage> {
         onChanged: (value) => settings.notifyCocaine = value,
       ),
       _ToggleItem(
+        icon: Icons.lightbulb_outline,
+        title: l10n.addictionAdderall,
+        subtitle: l10n.settingsNotifyAdderall,
+        value: settings.notifyAdderall,
+        onChanged: (value) => settings.notifyAdderall = value,
+      ),
+      _ToggleItem(
         icon: Icons.vaccines,
         title: l10n.addictionHeroin,
         subtitle: l10n.settingsNotifyHeroin,
@@ -701,6 +722,7 @@ class _SettingsPageState extends State<SettingsPage> {
           settings.notifyBenzos,
           settings.notifyMeth,
           settings.notifyRelapse,
+          settings.notifyAdderall,
         ].every((v) => v == true),
         onChanged: (value) {
           settings.notifyAlcohol = value;
@@ -716,6 +738,7 @@ class _SettingsPageState extends State<SettingsPage> {
           settings.notifyBenzos = value;
           settings.notifyMeth = value;
           settings.notifyRelapse = value;
+          settings.notifyAdderall = value;
         },
       ),
       const Divider(height: 1),

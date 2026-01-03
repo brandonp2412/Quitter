@@ -648,6 +648,12 @@ class AppLocalizationsEn extends AppLocalizations {
   String get settingsShowSocialMediaTracking => 'Show social media tracking';
 
   @override
+  String get settingsShowAdderallTracking => 'Show adderall tracking';
+
+  @override
+  String get settingsNotifyAdderall => 'Notify adderall quitting progress';
+
+  @override
   String get settingsShowCocaineTracking => 'Show cocaine tracking';
 
   @override
