@@ -142,7 +142,12 @@ class SettingsProvider extends ChangeNotifier {
     _locale = _prefs!.getString(_localeKey) ?? 'system';
 
     _showKeys.forEach((key, prefKey) {
-      _showSettings[key] = _prefs!.getBool(prefKey) ?? true;
+      final existing = _prefs!.getBool(prefKey);
+      if (existing == null &&
+          ['opioids', 'pornography', 'cocaine', 'meth', 'heroin'].contains(key))
+        _showSettings[key] = _prefs!.getBool(prefKey) ?? false;
+      else
+        _showSettings[key] = _prefs!.getBool(prefKey) ?? true;
     });
 
     _notifyKeys.forEach((key, prefKey) {
