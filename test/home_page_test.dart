@@ -8,6 +8,8 @@ import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:quitter/settings_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import 'test_utils.dart';
+
 void main() {
   late SettingsProvider settingsProvider;
   late AddictionProvider addictionProvider;
@@ -105,14 +107,17 @@ void main() {
         await tester.pumpWidget(createTestWidget());
         await tester.pumpAndSettle();
 
-        expect(find.text('Alcohol'), findsOneWidget);
-        expect(find.text('Vaping'), findsOneWidget);
-        expect(find.text('Smoking'), findsOneWidget);
-        expect(find.text('Marijuana'), findsOneWidget);
-        expect(find.text('Nicotine pouches'), findsOneWidget);
-        expect(find.text('Opioids'), findsOneWidget);
-        expect(find.text('Social Media'), findsOneWidget);
-        expect(find.text('AC'), findsOneWidget);
+        expect(find.text('Alcohol', findRichText: true), findsOneWidget);
+        expect(find.text('Vaping', skipOffstage: false), findsOneWidget);
+        expect(find.text('Smoking', findRichText: true), findsOneWidget);
+        expect(find.text('Marijuana', findRichText: true), findsOneWidget);
+        expect(
+          find.text('Nicotine pouches', findRichText: true),
+          findsOneWidget,
+        );
+        expect(find.text('Opioids', findRichText: true), findsOneWidget);
+        expect(find.text('Social Media', findRichText: true), findsOneWidget);
+        expect(find.text('AC', findRichText: true), findsOneWidget);
       },
     );
   });
