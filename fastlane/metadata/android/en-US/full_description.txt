@@ -1,8 +1,17 @@
-Easily track your journey towards freedom.
+Track your recovery with science-backed milestones
 
-See how long it's been since you've quit one of many addictions.
-Receive notifications when you reach certain milestones.
-Get educated on the benefits of quitting!
+Quitter helps you quit smoking, vaping, alcohol, drugs, adult content, social media, and more—with research-backed health milestones that show exactly what's happening in your body as you recover.
 
-Our app is completely Free and Open Source.
-If you notice any bugs or want to suggest features, please feel free to visit us at https://github.com/brandonp2412/Quitter/issues
+<b>Features:</b>
+- 13 pre-built addiction trackers with cited medical milestones
+- Custom tracker for any addiction
+- Daily journaling to process your journey
+- Milestone notifications to celebrate progress
+- Completely private—no account required
+- 100% free and open source
+
+Every milestone is backed by medical research from sources like the NHS, CDC, and peer-reviewed journals. See real improvements at 1 day, 3 days, 1 week, 1 month, and beyond.
+
+Your data never leaves your device. No ads, no tracking, no subscriptions.
+
+Found a bug or have a feature request? Visit https://github.com/brandonp2412/Quitter/issues
