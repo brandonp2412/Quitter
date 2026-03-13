@@ -1,0 +1,10 @@
+• Add home page unit tests
+• Add more delete buttons
+• Add settings page tests
+• Add tests for journal page
+• Add toggle for journal tab
+• Delete unit tests
+• Fix integration tests targeting linux
+• Remove relapse indicator when you undo
+• Run integration tests on linux before deploying
+• Upgrade flutter to 3.35.5

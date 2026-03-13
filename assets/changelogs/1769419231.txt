@@ -1,0 +1,4 @@
+• Add adderall toggles to settings page
+• Alphabetically sort the home page
+• Alphabetically sort the settings page
+• Hide by default stigmatized addictions
