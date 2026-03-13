@@ -117,7 +117,8 @@ class MethPage extends StatelessWidget {
         day: 90,
         title: l10n.methMilestone90Title,
         description: l10n.methMilestone90Description,
-        reference: "American Journal of Psychiatry - Meth Dependence Treatment (Rawson et al.)",
+        reference:
+            "American Journal of Psychiatry - Meth Dependence Treatment (Rawson et al.)",
         link: "https://psychiatryonline.org/doi/10.1176/appi.ajp.161.2.242",
         referenceDate: "March 2026",
         referenceContent:
@@ -139,7 +140,8 @@ class MethPage extends StatelessWidget {
         day: 180,
         title: l10n.methMilestone180Title,
         description: l10n.methMilestone180Description,
-        reference: "American College of Cardiology - Heart Recovery After Drug Abuse",
+        reference:
+            "American College of Cardiology - Heart Recovery After Drug Abuse",
         link:
             "https://www.acc.org/about-acc/press-releases/2017/05/30/09/59/stopping-drug-abuse-can-reverse-related-heart-damage",
         referenceDate: "March 2026",
@@ -194,7 +196,8 @@ class MethPage extends StatelessWidget {
         day: 420,
         title: l10n.methMilestone420Title,
         description: l10n.methMilestone420Description,
-        reference: "Journal of Neuroscience - Dopamine Transporter Recovery After Meth",
+        reference:
+            "Journal of Neuroscience - Dopamine Transporter Recovery After Meth",
         link: "https://www.jneurosci.org/content/21/23/9414",
         referenceDate: "March 2026",
         referenceContent:

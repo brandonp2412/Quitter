@@ -150,8 +150,7 @@ class VapingPage extends StatelessWidget {
         day: 60,
         title: l10n.vapingMilestone60Title,
         description: l10n.vapingMilestone60Description,
-        reference:
-            "Charlie Health - The Vaping Withdrawal Timeline",
+        reference: "Charlie Health - The Vaping Withdrawal Timeline",
         link: "https://www.charliehealth.com/post/vaping-withdrawal-timeline",
         referenceDate: "March 2026",
         referenceContent:

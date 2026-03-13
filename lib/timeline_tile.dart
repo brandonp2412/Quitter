@@ -210,7 +210,8 @@ class TimelineTile extends StatelessWidget {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (_) => MilestoneReferencePage(milestone: milestone),
+                            builder: (_) =>
+                                MilestoneReferencePage(milestone: milestone),
                           ),
                         );
                       } else {

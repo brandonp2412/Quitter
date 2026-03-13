@@ -40,8 +40,7 @@ class SmokingPage extends StatelessWidget {
         day: 3,
         title: l10n.smokingMilestone3Title,
         description: l10n.smokingMilestone3Description,
-        reference:
-            "McLaughlin, Dani & De Biasi — Nicotine Withdrawal (PubMed)",
+        reference: "McLaughlin, Dani & De Biasi — Nicotine Withdrawal (PubMed)",
         link: "https://pubmed.ncbi.nlm.nih.gov/25638335/",
         referenceDate: "March 2026",
         referenceContent:
