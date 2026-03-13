@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:quitter/milestone_reference_page.dart';
 import 'package:quitter/quit_milestone.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -204,7 +205,18 @@ class TimelineTile extends StatelessWidget {
                   ),
                   const SizedBox(height: 12),
                   GestureDetector(
-                    onTap: () => launchUrl(Uri.parse(milestone.link)),
+                    onTap: () {
+                      if (milestone.referenceContent != null) {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (_) => MilestoneReferencePage(milestone: milestone),
+                          ),
+                        );
+                      } else {
+                        launchUrl(Uri.parse(milestone.link));
+                      }
+                    },
                     child: Container(
                       padding: const EdgeInsets.all(8),
                       decoration: BoxDecoration(

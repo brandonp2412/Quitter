@@ -4,6 +4,8 @@ class QuitMilestone {
   final String description;
   final String reference;
   final String link;
+  final String? referenceContent;
+  final String? referenceDate;
 
   const QuitMilestone({
     required this.day,
@@ -11,5 +13,7 @@ class QuitMilestone {
     required this.description,
     required this.reference,
     required this.link,
+    this.referenceContent,
+    this.referenceDate,
   });
 }
