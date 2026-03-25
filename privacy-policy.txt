@@ -1,3 +1,3 @@
-Privacy policy:
-
-No user data is collected.
+Health Data: Quitter does not access, collect, transmit, or share any health or fitness data. Any habit data you enter is stored exclusively on your device.
+Data Retention: All data is stored locally on your device and retained until you choose to delete it within the app or uninstall the app.
+Data Deletion: You can delete individual entries within the app at any time. Uninstalling the app removes all associated data from your device. No data is stored on external servers, so no deletion request to a third party is necessary.
