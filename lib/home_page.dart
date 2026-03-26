@@ -297,6 +297,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                       onLongPress: () {
                         _showHideBottomSheet(l10n.addictionAdderall, () {
                           settings.showAdderall = false;
+                          settings.notifyAdderall = false;
                         });
                       },
                     ),
@@ -329,6 +330,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                       onLongPress: () {
                         _showHideBottomSheet(l10n.addictionAlcohol, () {
                           settings.showAlcohol = false;
+                          settings.notifyAlcohol = false;
                         });
                       },
                     ),
@@ -358,6 +360,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                       onLongPress: () {
                         _showHideBottomSheet(l10n.addictionBenzos, () {
                           settings.showBenzos = false;
+                          settings.notifyBenzos = false;
                         });
                       },
                     ),
@@ -390,6 +393,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                       onLongPress: () {
                         _showHideBottomSheet(l10n.addictionCocaine, () {
                           settings.showCocaine = false;
+                          settings.notifyCocaine = false;
                         });
                       },
                     ),
@@ -422,6 +426,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                       onLongPress: () {
                         _showHideBottomSheet(l10n.addictionHeroin, () {
                           settings.showHeroin = false;
+                          settings.notifyHeroin = false;
                         });
                       },
                     ),
@@ -454,6 +459,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                       onLongPress: () {
                         _showHideBottomSheet(l10n.addictionMarijuana, () {
                           settings.showMarijuana = false;
+                          settings.notifyMarijuana = false;
                         });
                       },
                     ),
@@ -484,6 +490,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                       onLongPress: () {
                         _showHideBottomSheet(l10n.addictionMeth, () {
                           settings.showMeth = false;
+                          settings.notifyMeth = false;
                         });
                       },
                     ),
@@ -516,6 +523,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                       onLongPress: () {
                         _showHideBottomSheet(l10n.addictionNicotinePouches, () {
                           settings.showNicotinePouches = false;
+                          settings.notifyPouches = false;
                         });
                       },
                     ),
@@ -548,6 +556,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                       onLongPress: () {
                         _showHideBottomSheet(l10n.addictionOpioids, () {
                           settings.showOpioids = false;
+                          settings.notifyOpioids = false;
                         });
                       },
                     ),
@@ -580,6 +589,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                       onLongPress: () {
                         _showHideBottomSheet(l10n.addictionAC, () {
                           settings.showPornography = false;
+                          settings.notifyPornography = false;
                         });
                       },
                     ),
@@ -612,6 +622,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                       onLongPress: () {
                         _showHideBottomSheet(l10n.addictionSmoking, () {
                           settings.showSmoking = false;
+                          settings.notifySmoking = false;
                         });
                       },
                     ),
@@ -644,6 +655,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                       onLongPress: () {
                         _showHideBottomSheet(l10n.addictionSocialMedia, () {
                           settings.showSocialMedia = false;
+                          settings.notifySocialMedia = false;
                         });
                       },
                     ),
@@ -676,6 +688,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                       onLongPress: () {
                         _showHideBottomSheet(l10n.addictionVaping, () {
                           settings.showVaping = false;
+                          settings.notifyVaping = false;
                         });
                       },
                     ),
