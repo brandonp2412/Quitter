@@ -1087,7 +1087,7 @@ abstract class AppLocalizations {
   /// Label for PIN timeout setting
   ///
   /// In en, this message translates to:
-  /// **'PIN timeout (seconds)'**
+  /// **'Initial PIN timeout (seconds)'**
   String get settingsPinTimeout;
 
   /// Hint text for PIN timeout field
@@ -1723,7 +1723,7 @@ abstract class AppLocalizations {
   /// Error message when too many failed PIN attempts
   ///
   /// In en, this message translates to:
-  /// **'Too many attempts. Wait 30 seconds.'**
+  /// **'Too many attempts. Wait for unlock.'**
   String get pinPageTooManyAttempts;
 
   /// Title for about page

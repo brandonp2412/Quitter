@@ -570,7 +570,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get settingsPinLockSubtitle => 'Require PIN to open app';
 
   @override
-  String get settingsPinTimeout => 'PIN timeout (seconds)';
+  String get settingsPinTimeout => 'Initial PIN timeout (seconds)';
 
   @override
   String get settingsPinTimeoutHint => '15';
@@ -911,7 +911,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get pinPageIncorrectPIN => 'Incorrect PIN';
 
   @override
-  String get pinPageTooManyAttempts => 'Too many attempts. Wait 30 seconds.';
+  String get pinPageTooManyAttempts => 'Too many attempts. Wait for unlock.';
 
   @override
   String get aboutPageTitle => 'About';

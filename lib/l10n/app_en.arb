@@ -302,7 +302,7 @@
   "@settingsPinLockSubtitle": {
     "description": "Subtitle explaining PIN lock setting"
   },
-  "settingsPinTimeout": "PIN timeout (seconds)",
+  "settingsPinTimeout": "Initial PIN timeout (seconds)",
   "@settingsPinTimeout": {
     "description": "Label for PIN timeout setting"
   },
@@ -738,7 +738,7 @@
   "@pinPageIncorrectPIN": {
     "description": "Error message for incorrect PIN"
   },
-  "pinPageTooManyAttempts": "Too many attempts. Wait 30 seconds.",
+  "pinPageTooManyAttempts": "Too many attempts. Wait for unlock.",
   "@pinPageTooManyAttempts": {
     "description": "Error message when too many failed PIN attempts"
   },
