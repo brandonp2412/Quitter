@@ -1,0 +1,374 @@
+diff --git a/lib/pin_page.dart b/lib/pin_page.dart
+index b71e54c..0dc0748 100644
+--- a/lib/pin_page.dart
++++ b/lib/pin_page.dart
+@@ -1,3 +1,5 @@
++import 'dart:async';
++
+ import 'package:flutter/material.dart';
+ import 'package:quitter/l10n/generated/app_localizations.dart';
+ import 'package:provider/provider.dart';
+@@ -13,8 +15,49 @@ class PinPage extends StatefulWidget {
+ class _PinPageState extends State<PinPage> {
+   String _pin = '';
+   bool _isError = false;
+-  int _failedAttempts = 0;
+   bool _isVerifying = false;
++  Timer? _lockoutTimer;
++  int? _lockoutSecondsSnapshot;
++
++  @override
++  void initState() {
++    super.initState();
++    _syncLockoutUi();
++  }
++
++  @override
++  void dispose() {
++    _lockoutTimer?.cancel();
++    super.dispose();
++  }
++
++  void _syncLockoutUi() {
++    final settings = context.read<SettingsProvider>();
++    _lockoutTimer?.cancel();
++
++    if (!settings.isPinLockoutActive) {
++      setState(() {
++        _lockoutSecondsSnapshot = null;
++      });
++      return;
++    }
++
++    final remaining = settings.pinLockoutRemainingSeconds;
++    setState(() {
++      _lockoutSecondsSnapshot = remaining;
++    });
++
++    _lockoutTimer = Timer(Duration(seconds: remaining), () async {
++      if (!mounted) return;
++      await context.read<SettingsProvider>().clearExpiredPinLockout();
++      if (!mounted) return;
++      setState(() {
++        _isError = false;
++        _pin = '';
++        _lockoutSecondsSnapshot = null;
++      });
++    });
++  }
+ 
+   void _onNumberTap(String number) {
+     setState(() {
+@@ -47,28 +90,32 @@ class _PinPageState extends State<PinPage> {
+     if (!isValid) {
+       setState(() {
+         _isError = true;
+-        _failedAttempts++;
+         _pin = '';
+         _isVerifying = false;
+       });
+-
+-      if (_failedAttempts >= 3) {
+-        await Future.delayed(const Duration(seconds: 30));
+-        if (mounted) {
+-          setState(() {
+-            _failedAttempts = 0;
+-          });
+-        }
+-      }
++      _syncLockoutUi();
+     } else {
+       setState(() {
++        _isError = false;
++        _pin = '';
+         _isVerifying = false;
+       });
+     }
+   }
+ 
++  String _buildLockoutMessage(SettingsProvider settings) {
++    final base = AppLocalizations.of(context)!.pinPageTooManyAttempts;
++    final remaining = _lockoutSecondsSnapshot ??
++        settings.pinLockoutRemainingSeconds;
++    return '$base ($remaining s left)';
++  }
++
+   @override
+   Widget build(BuildContext context) {
++    final settings = context.watch<SettingsProvider>();
++    final isLockedOut = settings.isPinLockoutActive;
++    final failedAttempts = settings.pinFailedAttempts;
++
+     return Scaffold(
+       body: SafeArea(
+         child: Padding(
+@@ -122,8 +169,8 @@ class _PinPageState extends State<PinPage> {
+                   const SizedBox(height: 16),
+                   Center(
+                     child: Text(
+-                      _failedAttempts >= 3
+-                          ? AppLocalizations.of(context)!.pinPageTooManyAttempts
++                      isLockedOut
++                          ? _buildLockoutMessage(settings)
+                           : AppLocalizations.of(context)!.pinPageIncorrectPIN,
+                       style: TextStyle(
+                         color: Theme.of(context).colorScheme.error,
+@@ -132,6 +179,18 @@ class _PinPageState extends State<PinPage> {
+                     ),
+                   ),
+                 ],
++                if (isLockedOut && !_isError) ...[
++                  const SizedBox(height: 16),
++                  Center(
++                    child: Text(
++                      _buildLockoutMessage(settings),
++                      style: TextStyle(
++                        color: Theme.of(context).colorScheme.error,
++                        fontSize: 14,
++                      ),
++                    ),
++                  ),
++                ],
+                 const SizedBox(height: 64),
+                 // Number pad
+                 GridView.count(
+@@ -144,27 +203,27 @@ class _PinPageState extends State<PinPage> {
+                     ...[1, 2, 3, 4, 5, 6, 7, 8, 9].map(
+                       (number) => _NumberButton(
+                         number: number.toString(),
+-                        onTap: _failedAttempts < 3 && !_isVerifying
++                        onTap: !isLockedOut && !_isVerifying
+                             ? () => _onNumberTap(number.toString())
+                             : null,
+                       ),
+                     ),
+                     _IconButton(
+                       icon: Icons.backspace_outlined,
+-                      onTap: _failedAttempts < 3 && !_isVerifying
++                      onTap: !isLockedOut && !_isVerifying
+                           ? _onBackspace
+                           : null,
+                     ),
+                     _NumberButton(
+                       number: '0',
+-                      onTap: _failedAttempts < 3 && !_isVerifying
++                      onTap: !isLockedOut && !_isVerifying
+                           ? () => _onNumberTap('0')
+                           : null,
+                     ),
+                     _IconButton(
+                       icon: _isVerifying ? Icons.hourglass_empty : Icons.check,
+                       onTap:
+-                          _failedAttempts < 3 &&
++                          !isLockedOut &&
+                               !_isVerifying &&
+                               _pin.isNotEmpty
+                           ? _onSubmit
+@@ -172,6 +231,18 @@ class _PinPageState extends State<PinPage> {
+                     ),
+                   ],
+                 ),
++                if (failedAttempts > 0 && !isLockedOut && !_isError) ...[
++                  const SizedBox(height: 12),
++                  Center(
++                    child: Text(
++                      '$failedAttempts/3',
++                      style: TextStyle(
++                        color: Theme.of(context).colorScheme.onSurfaceVariant,
++                        fontSize: 13,
++                      ),
++                    ),
++                  ),
++                ],
+               ],
+             ),
+           ),
+diff --git a/lib/settings_provider.dart b/lib/settings_provider.dart
+index 1e85249..26d235a 100644
+--- a/lib/settings_provider.dart
++++ b/lib/settings_provider.dart
+@@ -15,6 +15,8 @@ class SettingsProvider extends ChangeNotifier {
+   static const _pinHashKey = 'pin_hash';
+   static const _pinEnabledKey = 'pin_enabled';
+   static const _pinTimeoutKey = 'pin_timeout';
++  static const _pinFailedAttemptsKey = 'pin_failed_attempts';
++  static const _pinLockedUntilKey = 'pin_locked_until_ms';
+   static const _localeKey = 'locale';
+ 
+   bool _isUnlocked = false;
+@@ -60,6 +62,21 @@ class SettingsProvider extends ChangeNotifier {
+   bool get isPinEnabled => _isPinEnabled;
+   int _pinTimeout = 15;
+   int get pinTimeout => _pinTimeout;
++  int _pinFailedAttempts = 0;
++  int get pinFailedAttempts => _pinFailedAttempts;
++  DateTime? _pinLockedUntil;
++  bool get isPinLockoutActive {
++    if (_pinLockedUntil == null) return false;
++    return DateTime.now().isBefore(_pinLockedUntil!);
++  }
++  int get pinLockoutRemainingSeconds {
++    if (_pinLockedUntil == null) return 0;
++    final remainingMs = _pinLockedUntil!
++        .difference(DateTime.now())
++        .inMilliseconds;
++    if (remainingMs <= 0) return 0;
++    return (remainingMs / 1000).ceil();
++  }
+   String _locale = 'system';
+   String get locale => _locale;
+   SharedPreferences? _prefs;
+@@ -115,11 +132,19 @@ class SettingsProvider extends ChangeNotifier {
+   bool get notifyMarijuana => _notifySettings['marijuana']!;
+ 
+   Future<bool> unlock(String pin) async {
++    await clearExpiredPinLockout();
++    if (isPinLockoutActive) {
++      return false;
++    }
++
+     if (await verifyPin(pin)) {
+       _isUnlocked = true;
++      await clearPinFailures();
+       notifyListeners();
+       return true;
+     }
++
++    await registerFailedPinAttempt();
+     return false;
+   }
+ 
+@@ -139,6 +164,12 @@ class SettingsProvider extends ChangeNotifier {
+     _notifyAt = _prefs!.getInt(_notifyAtKey) ?? (8 * 60);
+     _notifyEvery = _prefs!.getInt(_notifyEveryKey) ?? 1;
+     _pinTimeout = _prefs!.getInt(_pinTimeoutKey) ?? 15;
++    _pinFailedAttempts = _prefs!.getInt(_pinFailedAttemptsKey) ?? 0;
++    final lockedUntilMs = _prefs!.getInt(_pinLockedUntilKey);
++    if (lockedUntilMs != null) {
++      _pinLockedUntil = DateTime.fromMillisecondsSinceEpoch(lockedUntilMs);
++    }
++    await clearExpiredPinLockout();
+     _locale = _prefs!.getString(_localeKey) ?? 'system';
+ 
+     _showKeys.forEach((key, prefKey) {
+@@ -178,14 +209,67 @@ class SettingsProvider extends ChangeNotifier {
+       await _prefs?.setString(_pinHashKey, hash);
+       await _prefs?.setBool(_pinEnabledKey, true);
+       _isPinEnabled = true;
++      await clearPinFailures();
+     } else {
+       await _prefs?.remove(_pinHashKey);
+       await _prefs?.setBool(_pinEnabledKey, false);
+       _isPinEnabled = false;
++      await clearPinFailures();
++    }
++    notifyListeners();
++  }
++
++  Future<void> registerFailedPinAttempt() async {
++    await clearExpiredPinLockout();
++    _pinFailedAttempts += 1;
++
++    if (_pinFailedAttempts >= 3) {
++      final seconds = _computeLockoutSeconds(_pinFailedAttempts);
++      _pinLockedUntil = DateTime.now().add(Duration(seconds: seconds));
+     }
++
++    await _persistPinLockoutState();
+     notifyListeners();
+   }
+ 
++  Future<void> clearPinFailures() async {
++    final hadFailures = _pinFailedAttempts != 0 || _pinLockedUntil != null;
++    _pinFailedAttempts = 0;
++    _pinLockedUntil = null;
++    await _persistPinLockoutState();
++
++    if (hadFailures) {
++      notifyListeners();
++    }
++  }
++
++  Future<void> clearExpiredPinLockout() async {
++    if (_pinLockedUntil == null) return;
++    if (DateTime.now().isBefore(_pinLockedUntil!)) return;
++
++    _pinFailedAttempts = 0;
++    _pinLockedUntil = null;
++    await _persistPinLockoutState();
++    notifyListeners();
++  }
++
++  int _computeLockoutSeconds(int failedAttempts) {
++    if (failedAttempts < 3) return 0;
++    return 30;
++  }
++
++  Future<void> _persistPinLockoutState() async {
++    await _prefs?.setInt(_pinFailedAttemptsKey, _pinFailedAttempts);
++    if (_pinLockedUntil == null) {
++      await _prefs?.remove(_pinLockedUntilKey);
++    } else {
++      await _prefs?.setInt(
++        _pinLockedUntilKey,
++        _pinLockedUntil!.millisecondsSinceEpoch,
++      );
++    }
++  }
++
+   Future<bool> verifyPin(String pin) async {
+     final storedHash = _prefs?.getString(_pinHashKey);
+     if (storedHash == null) return false;
+diff --git a/test/pin_page_test.dart b/test/pin_page_test.dart
+index bd72cf7..69f6eff 100644
+--- a/test/pin_page_test.dart
++++ b/test/pin_page_test.dart
+@@ -37,7 +37,7 @@ void main() {
+   group('PinPage', () {
+     testWidgets('should unlock successfully', (WidgetTester tester) async {
+       await tester.binding.setSurfaceSize(const Size(800, 1200));
+-      settingsProvider.setPinEnabled(true, '123');
++      await settingsProvider.setPinEnabled(true, '123');
+ 
+       await tester.pumpWidget(createTestWidget());
+       await tester.pumpAndSettle();
+@@ -58,7 +58,7 @@ void main() {
+ 
+     testWidgets('should reject invalid pin', (WidgetTester tester) async {
+       await tester.binding.setSurfaceSize(const Size(800, 1200));
+-      settingsProvider.setPinEnabled(true, '123');
++      await settingsProvider.setPinEnabled(true, '123');
+ 
+       await tester.pumpWidget(createTestWidget());
+       await tester.pumpAndSettle();
+@@ -76,5 +76,30 @@ void main() {
+ 
+       expect(find.text('Incorrect PIN'), findsOne);
+     });
++
++    testWidgets('should lock out after repeated invalid attempts', (
++      WidgetTester tester,
++    ) async {
++      await tester.binding.setSurfaceSize(const Size(800, 1200));
++      await settingsProvider.setPinEnabled(true, '123');
++
++      await tester.pumpWidget(createTestWidget());
++      await tester.pumpAndSettle();
++
++      for (int i = 0; i < 3; i++) {
++        await tester.tap(find.text('9'));
++        await tester.pumpAndSettle();
++        await tester.tap(find.text('9'));
++        await tester.pumpAndSettle();
++        await tester.tap(find.text('9'));
++        await tester.pumpAndSettle();
++        await tester.tap(find.byIcon(Icons.check));
++        await tester.pumpAndSettle();
++      }
++
++      expect(settingsProvider.isPinLockoutActive, isTrue);
++      expect(find.textContaining('Too many attempts. Wait 30 seconds.'), findsOne);
++      expect(find.textContaining('s left'), findsOne);
++    });
+   });
+ }

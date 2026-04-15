@@ -15,6 +15,8 @@ class SettingsProvider extends ChangeNotifier {
   static const _pinHashKey = 'pin_hash';
   static const _pinEnabledKey = 'pin_enabled';
   static const _pinTimeoutKey = 'pin_timeout';
+  static const _pinFailedAttemptsKey = 'pin_failed_attempts';
+  static const _pinLockedUntilKey = 'pin_locked_until_ms';
   static const _localeKey = 'locale';
 
   bool _isUnlocked = false;
@@ -60,6 +62,21 @@ class SettingsProvider extends ChangeNotifier {
   bool get isPinEnabled => _isPinEnabled;
   int _pinTimeout = 15;
   int get pinTimeout => _pinTimeout;
+  int _pinFailedAttempts = 0;
+  int get pinFailedAttempts => _pinFailedAttempts;
+  DateTime? _pinLockedUntil;
+  bool get isPinLockoutActive {
+    if (_pinLockedUntil == null) return false;
+    return DateTime.now().isBefore(_pinLockedUntil!);
+  }
+  int get pinLockoutRemainingSeconds {
+    if (_pinLockedUntil == null) return 0;
+    final remainingMs = _pinLockedUntil!
+        .difference(DateTime.now())
+        .inMilliseconds;
+    if (remainingMs <= 0) return 0;
+    return (remainingMs / 1000).ceil();
+  }
   String _locale = 'system';
   String get locale => _locale;
   SharedPreferences? _prefs;
@@ -115,11 +132,19 @@ class SettingsProvider extends ChangeNotifier {
   bool get notifyMarijuana => _notifySettings['marijuana']!;
 
   Future<bool> unlock(String pin) async {
+    await clearExpiredPinLockout();
+    if (isPinLockoutActive) {
+      return false;
+    }
+
     if (await verifyPin(pin)) {
       _isUnlocked = true;
+      await clearPinFailures();
       notifyListeners();
       return true;
     }
+
+    await registerFailedPinAttempt();
     return false;
   }
 
@@ -139,6 +164,12 @@ class SettingsProvider extends ChangeNotifier {
     _notifyAt = _prefs!.getInt(_notifyAtKey) ?? (8 * 60);
     _notifyEvery = _prefs!.getInt(_notifyEveryKey) ?? 1;
     _pinTimeout = _prefs!.getInt(_pinTimeoutKey) ?? 15;
+    _pinFailedAttempts = _prefs!.getInt(_pinFailedAttemptsKey) ?? 0;
+    final lockedUntilMs = _prefs!.getInt(_pinLockedUntilKey);
+    if (lockedUntilMs != null) {
+      _pinLockedUntil = DateTime.fromMillisecondsSinceEpoch(lockedUntilMs);
+    }
+    await clearExpiredPinLockout();
     _locale = _prefs!.getString(_localeKey) ?? 'system';
 
     _showKeys.forEach((key, prefKey) {
@@ -178,12 +209,65 @@ class SettingsProvider extends ChangeNotifier {
       await _prefs?.setString(_pinHashKey, hash);
       await _prefs?.setBool(_pinEnabledKey, true);
       _isPinEnabled = true;
+      await clearPinFailures();
     } else {
       await _prefs?.remove(_pinHashKey);
       await _prefs?.setBool(_pinEnabledKey, false);
       _isPinEnabled = false;
+      await clearPinFailures();
     }
     notifyListeners();
+  }
+
+  Future<void> registerFailedPinAttempt() async {
+    await clearExpiredPinLockout();
+    _pinFailedAttempts += 1;
+
+    if (_pinFailedAttempts >= 3) {
+      final seconds = _computeLockoutSeconds(_pinFailedAttempts);
+      _pinLockedUntil = DateTime.now().add(Duration(seconds: seconds));
+    }
+
+    await _persistPinLockoutState();
+    notifyListeners();
+  }
+
+  Future<void> clearPinFailures() async {
+    final hadFailures = _pinFailedAttempts != 0 || _pinLockedUntil != null;
+    _pinFailedAttempts = 0;
+    _pinLockedUntil = null;
+    await _persistPinLockoutState();
+
+    if (hadFailures) {
+      notifyListeners();
+    }
+  }
+
+  Future<void> clearExpiredPinLockout() async {
+    if (_pinLockedUntil == null) return;
+    if (DateTime.now().isBefore(_pinLockedUntil!)) return;
+
+    _pinFailedAttempts = 0;
+    _pinLockedUntil = null;
+    await _persistPinLockoutState();
+    notifyListeners();
+  }
+
+  int _computeLockoutSeconds(int failedAttempts) {
+    if (failedAttempts < 3) return 0;
+    return 30;
+  }
+
+  Future<void> _persistPinLockoutState() async {
+    await _prefs?.setInt(_pinFailedAttemptsKey, _pinFailedAttempts);
+    if (_pinLockedUntil == null) {
+      await _prefs?.remove(_pinLockedUntilKey);
+    } else {
+      await _prefs?.setInt(
+        _pinLockedUntilKey,
+        _pinLockedUntil!.millisecondsSinceEpoch,
+      );
+    }
   }
 
   Future<bool> verifyPin(String pin) async {

@@ -37,7 +37,7 @@ void main() {
   group('PinPage', () {
     testWidgets('should unlock successfully', (WidgetTester tester) async {
       await tester.binding.setSurfaceSize(const Size(800, 1200));
-      settingsProvider.setPinEnabled(true, '123');
+      await settingsProvider.setPinEnabled(true, '123');
 
       await tester.pumpWidget(createTestWidget());
       await tester.pumpAndSettle();
@@ -58,7 +58,7 @@ void main() {
 
     testWidgets('should reject invalid pin', (WidgetTester tester) async {
       await tester.binding.setSurfaceSize(const Size(800, 1200));
-      settingsProvider.setPinEnabled(true, '123');
+      await settingsProvider.setPinEnabled(true, '123');
 
       await tester.pumpWidget(createTestWidget());
       await tester.pumpAndSettle();
@@ -75,6 +75,31 @@ void main() {
       await tester.pumpAndSettle();
 
       expect(find.text('Incorrect PIN'), findsOne);
+    });
+
+    testWidgets('should lock out after repeated invalid attempts', (
+      WidgetTester tester,
+    ) async {
+      await tester.binding.setSurfaceSize(const Size(800, 1200));
+      await settingsProvider.setPinEnabled(true, '123');
+
+      await tester.pumpWidget(createTestWidget());
+      await tester.pumpAndSettle();
+
+      for (int i = 0; i < 3; i++) {
+        await tester.tap(find.text('9'));
+        await tester.pumpAndSettle();
+        await tester.tap(find.text('9'));
+        await tester.pumpAndSettle();
+        await tester.tap(find.text('9'));
+        await tester.pumpAndSettle();
+        await tester.tap(find.byIcon(Icons.check));
+        await tester.pumpAndSettle();
+      }
+
+      expect(settingsProvider.isPinLockoutActive, isTrue);
+      expect(find.textContaining('Too many attempts. Wait 30 seconds.'), findsOne);
+      expect(find.textContaining('s left'), findsOne);
     });
   });
 }
