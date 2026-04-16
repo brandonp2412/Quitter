@@ -16,8 +16,8 @@ class SettingsProvider extends ChangeNotifier {
   static const _pinEnabledKey = 'pin_enabled';
   static const _pinTimeoutKey = 'pin_timeout';
   static const _pinFailedAttemptsKey = 'pin_failed_attempts';
-  static const _pinLockoutCountKey = 'pin_lockout_count';
   static const _pinLockedUntilKey = 'pin_locked_until_ms';
+  static const _numberLockoutsKey = 'number_lockouts';
   static const _localeKey = 'locale';
 
   bool _isUnlocked = false;
@@ -72,6 +72,7 @@ class SettingsProvider extends ChangeNotifier {
     if (_pinLockedUntil == null) return false;
     return DateTime.now().isBefore(_pinLockedUntil!);
   }
+
   int get pinLockoutRemainingSeconds {
     if (_pinLockedUntil == null) return 0;
     final remainingMs = _pinLockedUntil!
@@ -80,6 +81,7 @@ class SettingsProvider extends ChangeNotifier {
     if (remainingMs <= 0) return 0;
     return (remainingMs / 1000).ceil();
   }
+
   String _locale = 'system';
   String get locale => _locale;
   SharedPreferences? _prefs;
@@ -134,8 +136,6 @@ class SettingsProvider extends ChangeNotifier {
   bool get notifyRelapse => _notifySettings['relapse']!;
   bool get notifyMarijuana => _notifySettings['marijuana']!;
 
-
-
   Future<bool> unlock(String pin) async {
     await clearExpiredPinLockout();
     if (isPinLockoutActive) {
@@ -144,9 +144,9 @@ class SettingsProvider extends ChangeNotifier {
 
     if (await verifyPin(pin)) {
       _isUnlocked = true;
+      _numberLockouts = 0;
       await clearPinFailures();
       notifyListeners();
-      _numberLockouts = 0;
       return true;
     }
 
@@ -169,9 +169,9 @@ class SettingsProvider extends ChangeNotifier {
             ColorSchemeType.dynamic.index];
     _notifyAt = _prefs!.getInt(_notifyAtKey) ?? (8 * 60);
     _notifyEvery = _prefs!.getInt(_notifyEveryKey) ?? 1;
+    _numberLockouts = _prefs!.getInt(_numberLockoutsKey) ?? 0;
     _pinTimeout = (_prefs!.getInt(_pinTimeoutKey) ?? 15) + _numberLockouts * 30;
     _pinFailedAttempts = _prefs!.getInt(_pinFailedAttemptsKey) ?? 0;
-    _numberLockouts = _prefs!.getInt(_pinLockoutCountKey) ?? 0;
     final lockedUntilMs = _prefs!.getInt(_pinLockedUntilKey);
     if (lockedUntilMs != null) {
       _pinLockedUntil = DateTime.fromMillisecondsSinceEpoch(lockedUntilMs);
@@ -268,8 +268,7 @@ class SettingsProvider extends ChangeNotifier {
 
   Future<void> _persistPinLockoutState() async {
     await _prefs?.setInt(_pinFailedAttemptsKey, _pinFailedAttempts);
-    await _prefs?.setInt(_pinLockoutCountKey, _numberLockouts); 
-
+    await _prefs?.setInt(_numberLockoutsKey, _numberLockouts);
     if (_pinLockedUntil == null) {
       await _prefs?.remove(_pinLockedUntilKey);
     } else {

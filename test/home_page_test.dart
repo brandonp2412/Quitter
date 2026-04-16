@@ -8,8 +8,6 @@ import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:quitter/settings_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'test_utils.dart';
-
 void main() {
   late SettingsProvider settingsProvider;
   late AddictionProvider addictionProvider;
