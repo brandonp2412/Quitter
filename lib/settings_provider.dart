@@ -16,6 +16,7 @@ class SettingsProvider extends ChangeNotifier {
   static const _pinEnabledKey = 'pin_enabled';
   static const _pinTimeoutKey = 'pin_timeout';
   static const _pinFailedAttemptsKey = 'pin_failed_attempts';
+  static const _pinLockoutCountKey = 'pin_lockout_count';
   static const _pinLockedUntilKey = 'pin_locked_until_ms';
   static const _localeKey = 'locale';
 
@@ -64,6 +65,8 @@ class SettingsProvider extends ChangeNotifier {
   int get pinTimeout => _pinTimeout;
   int _pinFailedAttempts = 0;
   int get pinFailedAttempts => _pinFailedAttempts;
+  int _numberLockouts = 0;
+  int get numberLockouts => _numberLockouts;
   DateTime? _pinLockedUntil;
   bool get isPinLockoutActive {
     if (_pinLockedUntil == null) return false;
@@ -131,7 +134,7 @@ class SettingsProvider extends ChangeNotifier {
   bool get notifyRelapse => _notifySettings['relapse']!;
   bool get notifyMarijuana => _notifySettings['marijuana']!;
 
-  int _numberLockouts = 0;
+
 
   Future<bool> unlock(String pin) async {
     await clearExpiredPinLockout();
@@ -168,6 +171,7 @@ class SettingsProvider extends ChangeNotifier {
     _notifyEvery = _prefs!.getInt(_notifyEveryKey) ?? 1;
     _pinTimeout = (_prefs!.getInt(_pinTimeoutKey) ?? 15) + _numberLockouts * 30;
     _pinFailedAttempts = _prefs!.getInt(_pinFailedAttemptsKey) ?? 0;
+    _numberLockouts = _prefs!.getInt(_pinLockoutCountKey) ?? 0;
     final lockedUntilMs = _prefs!.getInt(_pinLockedUntilKey);
     if (lockedUntilMs != null) {
       _pinLockedUntil = DateTime.fromMillisecondsSinceEpoch(lockedUntilMs);
@@ -264,6 +268,8 @@ class SettingsProvider extends ChangeNotifier {
 
   Future<void> _persistPinLockoutState() async {
     await _prefs?.setInt(_pinFailedAttemptsKey, _pinFailedAttempts);
+    await _prefs?.setInt(_pinLockoutCountKey, _numberLockouts); 
+
     if (_pinLockedUntil == null) {
       await _prefs?.remove(_pinLockedUntilKey);
     } else {
