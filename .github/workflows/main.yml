@@ -62,12 +62,12 @@ jobs:
 
       - name: Checkout code
         uses: actions/checkout@v4
-
-      - name: Setup Flutter
-        uses: subosito/flutter-action@v2
-        with:
-          channel: "stable"
-          cache: true
+          
+      - name: Setup Flutter from submodule
+        run: |
+          git submodule update --init --recursive flutter
+          echo "${{ github.workspace }}/flutter/bin" >> $GITHUB_PATH
+          flutter/bin/flutter config --no-analytics
 
       - name: Get Flutter dependencies
         run: flutter pub get
@@ -84,14 +84,14 @@ jobs:
           echo "storeFile=keystore.jks" >> android/key.properties
           flutter build appbundle
           flutter build apk --split-per-abi
-
+      
       - name: Upload Android artifacts
         uses: actions/upload-artifact@v4
         with:
           name: android-builds
           path: |
-            build/app/outputs/flutter-apk/app-*-release.apk
-            build/app/outputs/bundle/release/app-release.aab
+           build/app/outputs/flutter-apk/app-*-release.apk
+           build/app/outputs/bundle/release/app-release.aab
 
   build-linux:
     needs: [get-version-info]
@@ -100,11 +100,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Setup Flutter
-        uses: subosito/flutter-action@v2
-        with:
-          channel: "stable"
-          cache: true
+      - name: Setup Flutter from submodule
+        run: |
+          git submodule update --init --recursive flutter
+          echo "${{ github.workspace }}/flutter/bin" >> $GITHUB_PATH
+          flutter/bin/flutter config --no-analytics
 
       - name: Get Flutter dependencies
         run: flutter pub get
@@ -135,11 +135,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Setup Flutter
-        uses: subosito/flutter-action@v2
-        with:
-          channel: "stable"
-          cache: true
+      - name: Setup Flutter from submodule
+        run: |
+          git submodule update --init --recursive flutter
+          echo "${{ github.workspace }}\flutter\bin" >> $env:GITHUB_PATH
+          flutter\bin\flutter config --no-analytics
 
       - name: Get Flutter dependencies
         run: flutter pub get
@@ -168,11 +168,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Setup Flutter
-        uses: subosito/flutter-action@v2
-        with:
-          channel: "stable"
-          cache: true
+      - name: Setup Flutter from submodule
+        run: |
+          git submodule update --init --recursive flutter
+          echo "${{ github.workspace }}/flutter/bin" >> $GITHUB_PATH
+          flutter/bin/flutter config --no-analytics
 
       - name: Get Flutter dependencies
         run: flutter pub get
@@ -226,11 +226,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Setup Flutter
-        uses: subosito/flutter-action@v2
-        with:
-          channel: "stable"
-          cache: true
+      - name: Setup Flutter from submodule
+        run: |
+          git submodule update --init --recursive flutter
+          echo "${{ github.workspace }}\flutter\bin" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
+          flutter\bin\flutter config --no-analytics
 
       - name: Get Flutter dependencies
         run: flutter pub get
