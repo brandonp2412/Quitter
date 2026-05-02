@@ -1,59 +1,119 @@
-name: Build and Deploy
+name: Build and Release
 
 on:
   push:
-    tags:
-      - '[0-9]+.[0-9]+.[0-9]+'
-
-permissions:
-  contents: write
-  pages: write
-  id-token: write
+    branches: [main]
+    paths-ignore:
+      - "pubspec.yaml"
+  workflow_dispatch:
 
 env:
   PUB_SUMMARY_ONLY: true
   KOTLIN_VERSION: "2.1.0"
 
 jobs:
-  upload-to-crowdin:
+  quality-checks:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Upload sources to Crowdin
-        uses: crowdin/github-action@v2
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
         with:
-          upload_sources: true
-          upload_translations: false
-          download_translations: false
-        env:
-          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
-          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+          channel: "stable"
+          cache: true
 
-  get-version-info:
+      - name: Get dependencies
+        run: flutter pub get
+
+      - name: Verify formatting
+        run: dart format --set-exit-if-changed lib test
+
+      - name: Analyze code
+        run: dart analyze --no-fatal-warnings lib
+
+      - name: Run tests
+        run: flutter test
+
+  version-bump:
+    needs: quality-checks
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     outputs:
-      version: ${{ steps.version.outputs.version }}
-      build_number: ${{ steps.version.outputs.build_number }}
+      version: ${{ steps.bump.outputs.version }}
+      build_number: ${{ steps.bump.outputs.build_number }}
+      changelog_number: ${{ steps.bump.outputs.changelog_number }}
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Get version from tag
-        id: version
+      - name: Configure Git
         run: |
-          version=${GITHUB_REF#refs/tags/}
-          echo "version=$version" >> $GITHUB_OUTPUT
-          echo "Release version: $version"
-          BUILD_NUMBER=$(grep '^version:' pubspec.yaml | sed 's/.*+//')
-          BUILD_NUMBER=$((BUILD_NUMBER * 10 + 3))
-          echo "build_number=$BUILD_NUMBER" >> $GITHUB_OUTPUT
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+      - name: Bump versions and generate changelog
+        id: bump
+        run: |
+          CURRENT_VERSION=$(grep '^version:' pubspec.yaml | sed 's/version: //' | sed 's/+.*//')
+          CURRENT_BUILD=$(grep '^version:' pubspec.yaml | sed 's/.*+//')
+          CURRENT_MSIX=$(grep 'msix_version:' pubspec.yaml | sed 's/.*msix_version: *//')
+
+          IFS='.' read -ra V <<< "$CURRENT_VERSION"
+          NEW_VERSION="${V[0]}.${V[1]}.$((${V[2]} + 1))"
+          NEW_BUILD=$((CURRENT_BUILD + 1))
+          CHANGELOG_NUMBER=$((NEW_BUILD * 10 + 3))
+
+          IFS='.' read -ra M <<< "$CURRENT_MSIX"
+          NEW_MSIX="${M[0]}.${M[1]}.$((${M[2]} + 1)).${M[3]}"
+
+          echo "version=$NEW_VERSION" >> $GITHUB_OUTPUT
+          echo "build_number=$NEW_BUILD" >> $GITHUB_OUTPUT
+          echo "changelog_number=$CHANGELOG_NUMBER" >> $GITHUB_OUTPUT
+
+          sed -i "s/^version: .*/version: $NEW_VERSION+$NEW_BUILD/" pubspec.yaml
+          sed -i "s/msix_version: .*/msix_version: $NEW_MSIX/" pubspec.yaml
+
+          CHANGELOG_FILE="fastlane/metadata/android/en-US/changelogs/$CHANGELOG_NUMBER.txt"
+          mkdir -p "$(dirname "$CHANGELOG_FILE")"
+
+          LAST_TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "")
+          if [ -n "$LAST_TAG" ]; then
+            git --no-pager log --pretty=format:'%s' "$LAST_TAG"..HEAD
+          else
+            git --no-pager log --pretty=format:'%s'
+          fi | sort -u \
+            | grep -v "^Merge " \
+            | grep -v "^Release " \
+            | grep -v "^Bump " \
+            | grep -v "\[skip ci\]" \
+            | head -10 \
+            | sed 's/^/• /' > "$CHANGELOG_FILE"
+
+          [ -s "$CHANGELOG_FILE" ] || echo "• Bug fixes and improvements" > "$CHANGELOG_FILE"
+
+      - name: Commit and push version bump
+        run: |
+          git add pubspec.yaml fastlane/metadata
+          git commit -m "Release ${{ steps.bump.outputs.version }} [skip ci]"
+          git push origin main
+
+      - name: Create and push tag
+        run: |
+          git tag "${{ steps.bump.outputs.version }}"
+          git push origin "${{ steps.bump.outputs.version }}"
 
   build-android:
-    needs: [get-version-info]
+    needs: version-bump
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
       - name: Setup Java
         uses: actions/setup-java@v4
         with:
@@ -62,7 +122,7 @@ jobs:
 
       - name: Checkout code
         uses: actions/checkout@v4
-          
+
       - name: Setup Flutter from submodule
         run: |
           git submodule update --init --recursive flutter
@@ -73,8 +133,7 @@ jobs:
         run: flutter pub get
 
       - name: Decode Android keystore
-        run: |
-          echo "${{ secrets.ANDROID_KEYSTORE_BASE64 }}" | base64 --decode > android/app/keystore.jks
+        run: echo "${{ secrets.ANDROID_KEYSTORE_BASE64 }}" | base64 --decode > android/app/keystore.jks
 
       - name: Build android
         run: |
@@ -84,21 +143,22 @@ jobs:
           echo "storeFile=keystore.jks" >> android/key.properties
           flutter build appbundle
           flutter build apk --split-per-abi
-      
+
       - name: Upload Android artifacts
         uses: actions/upload-artifact@v4
         with:
           name: android-builds
           path: |
-           build/app/outputs/flutter-apk/app-*-release.apk
-           build/app/outputs/bundle/release/app-release.aab
+            build/app/outputs/flutter-apk/app-*-release.apk
+            build/app/outputs/bundle/release/app-release.aab
 
   build-linux:
-    needs: [get-version-info]
+    needs: version-bump
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Setup Flutter from submodule
         run: |
@@ -129,11 +189,12 @@ jobs:
           path: build/linux/x64/release/bundle/quitter-linux.zip
 
   build-windows:
-    needs: [get-version-info]
+    needs: version-bump
     runs-on: windows-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Setup Flutter from submodule
         run: |
@@ -148,25 +209,28 @@ jobs:
         run: flutter build windows
 
       - name: Create Windows zip
-        run: |
-          Compress-Archive -Path ./build/windows/x64/runner/Release/* -DestinationPath ./quitter-windows.zip
+        run: Compress-Archive -Path ./build/windows/x64/runner/Release/* -DestinationPath ./quitter-windows.zip
 
       - name: Upload Windows artifacts
         uses: actions/upload-artifact@v4
         with:
           name: windows-builds
-          path: |
-            quitter-windows.zip
+          path: quitter-windows.zip
 
   build-and-deploy-web:
-    needs: [get-version-info]
+    needs: version-bump
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Setup Flutter from submodule
         run: |
@@ -181,8 +245,7 @@ jobs:
         run: flutter config --enable-web
 
       - name: Build Flutter web
-        run: |
-          flutter build web --release --base-href /${{ github.event.repository.name }}/
+        run: flutter build web --release --base-href /${{ github.event.repository.name }}/
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -197,11 +260,14 @@ jobs:
         uses: actions/deploy-pages@v4
 
   create-github-release:
-    needs: [get-version-info, build-android, build-linux, build-windows]
+    needs: [version-bump, build-android, build-linux, build-windows]
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Download all artifacts
         uses: actions/download-artifact@v4
@@ -209,9 +275,9 @@ jobs:
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v1
         with:
-          tag_name: ${{ needs.get-version-info.outputs.version }}
-          name: ${{ needs.get-version-info.outputs.version }}
-          body_path: fastlane/metadata/android/en-US/changelogs/${{ needs.get-version-info.outputs.build_number }}.txt
+          tag_name: ${{ needs.version-bump.outputs.version }}
+          name: ${{ needs.version-bump.outputs.version }}
+          body_path: fastlane/metadata/android/en-US/changelogs/${{ needs.version-bump.outputs.changelog_number }}.txt
           files: |
             android-builds/flutter-apk/app-*-release.apk
             linux-builds/quitter-linux.zip
@@ -220,11 +286,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   deploy-windows-store:
-    needs: [get-version-info, build-windows]
+    needs: [version-bump, build-windows]
     runs-on: windows-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Setup Flutter from submodule
         run: |
@@ -247,19 +314,18 @@ jobs:
         uses: microsoft/setup-msstore-cli@v1
 
       - name: Configure Microsoft Store CLI
-        run: |
-          msstore reconfigure --tenantId ${{ secrets.AZURE_TENANT_ID }} --clientId ${{ secrets.AZURE_CLIENT_ID }} --clientSecret ${{ secrets.AZURE_CLIENT_SECRET }} --sellerId ${{ secrets.MSSTORE_SELLER_ID }}
+        run: msstore reconfigure --tenantId ${{ secrets.AZURE_TENANT_ID }} --clientId ${{ secrets.AZURE_CLIENT_ID }} --clientSecret ${{ secrets.AZURE_CLIENT_SECRET }} --sellerId ${{ secrets.MSSTORE_SELLER_ID }}
 
       - name: Publish to Microsoft Store
-        run: |
-          msstore publish --inputDirectory build/windows/x64/runner/Release --appId 9PKVZWDG3FGC || true
+        run: msstore publish --inputDirectory build/windows/x64/runner/Release --appId 9PKVZWDG3FGC || true
 
   deploy-google-play:
-    needs: [get-version-info, build-android]
+    needs: [version-bump, build-android]
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Download Android artifacts
         uses: actions/download-artifact@v4
@@ -273,8 +339,7 @@ jobs:
           bundler-cache: true
 
       - name: Create Google Play JSON key file
-        run: |
-          echo '${{ secrets.GOOGLE_PLAY_JSON_KEY }}' > google-play-key.json
+        run: echo '${{ secrets.GOOGLE_PLAY_JSON_KEY }}' > google-play-key.json
 
       - name: Deploy to Google Play
         run: |
