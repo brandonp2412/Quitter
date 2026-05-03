@@ -13,11 +13,42 @@ import 'package:quitter/settings_page.dart';
 import 'package:quitter/settings_provider.dart';
 import 'package:quitter/tasks.dart';
 import 'package:quitter/app_theme_mode.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 final rootScaffoldMessenger = GlobalKey<ScaffoldMessengerState>();
 
+Future<void> _migrateHiddenToDeleted() async {
+  final prefs = await SharedPreferences.getInstance();
+  if (prefs.getBool('migrated_v2_hide_to_delete') == true) return;
+
+  const pairs = {
+    'show_adderall': 'adderall',
+    'show_alcohol': 'alcohol',
+    'show_benzos': 'benzos',
+    'show_cocaine': 'cocaine',
+    'show_heroin': 'heroin',
+    'show_marijuana': 'marijuana',
+    'show_meth': 'meth',
+    'show_nicotine_pouches': 'nicotine_pouches',
+    'show_opioids': 'opioids',
+    'show_pornography': 'pornography',
+    'show_smoking': 'smoking',
+    'show_social_media': 'social_media',
+    'show_vaping': 'vaping',
+  };
+
+  for (final entry in pairs.entries) {
+    final wasHidden = prefs.getBool(entry.key) == false;
+    if (wasHidden) await prefs.remove(entry.value);
+  }
+
+  await prefs.setBool('migrated_v2_hide_to_delete', true);
+}
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+
+  await _migrateHiddenToDeleted();
 
   final settings = SettingsProvider();
   await settings.loadPreferences();
