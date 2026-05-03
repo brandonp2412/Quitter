@@ -62,15 +62,10 @@ class _SettingsPageState extends State<SettingsPage> {
     return Scaffold(
       body: Consumer<SettingsProvider>(
         builder: (context, settings, child) {
-          final List<Widget> allSettingsItems = _buildAllSettingsItems(
+          final List<Widget> filteredItems = _buildFilteredSettingsItems(
             context,
             settings,
           );
-          final List<Widget> filteredItems = _searchQuery.isEmpty
-              ? allSettingsItems
-              : allSettingsItems
-                    .where((item) => _matchesSearch(item, _searchQuery))
-                    .toList();
 
           return Column(
             children: [
@@ -640,19 +635,39 @@ class _SettingsPageState extends State<SettingsPage> {
     ];
   }
 
-  List<Widget> _buildAllSettingsItems(
+  List<Widget> _buildFilteredSettingsItems(
     BuildContext context,
     SettingsProvider settings,
   ) {
-    return [
-      ..._buildAppearanceSectionItems(context, settings),
-      const SizedBox(height: 24),
-      ..._buildSecuritySectionItems(context, settings),
-      const SizedBox(height: 24),
-      ..._buildNotificationsSectionItems(context, settings),
-      const SizedBox(height: 24),
-      ..._buildSystemSectionItems(context, settings),
+    final sections = [
+      _buildAppearanceSectionItems(context, settings),
+      _buildSecuritySectionItems(context, settings),
+      _buildNotificationsSectionItems(context, settings),
+      _buildSystemSectionItems(context, settings),
     ];
+
+    if (_searchQuery.isEmpty) {
+      final result = <Widget>[];
+      for (int i = 0; i < sections.length; i++) {
+        result.addAll(sections[i]);
+        if (i < sections.length - 1) result.add(const SizedBox(height: 24));
+      }
+      return result;
+    }
+
+    final result = <Widget>[];
+    for (final section in sections) {
+      final header = section.first;
+      final items = section.skip(1).toList();
+      final matching =
+          items.where((item) => _matchesSearch(item, _searchQuery)).toList();
+      if (matching.isNotEmpty) {
+        result.add(header);
+        result.addAll(matching);
+        result.add(const SizedBox(height: 8));
+      }
+    }
+    return result;
   }
 
   bool _matchesSearch(Widget item, String query) {
