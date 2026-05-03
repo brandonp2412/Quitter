@@ -501,6 +501,37 @@ class AppLocalizationsZh extends AppLocalizations {
   String get hide => '隐藏';
 
   @override
+  String stopTrackingDialogTitle(String title) {
+    return '停止追踪$title？';
+  }
+
+  @override
+  String stopTrackingDialogMessage(String title) {
+    return '这将从主屏幕中删除$title。您的里程碑历史记录将被保留。';
+  }
+
+  @override
+  String get stopTracking => '删除';
+
+  @override
+  String get addAddictionTitle => '追踪一个成瘾';
+
+  @override
+  String get addAddictionCustom => '自定义';
+
+  @override
+  String get addAddictionCustomSubtitle => '追踪任何您想戒掉的东西';
+
+  @override
+  String get homeEmptyTitle => '尚未追踪任何内容';
+
+  @override
+  String get homeEmptySubtitle => '点击 + 开始追踪成瘾';
+
+  @override
+  String get addAddictionNoneAvailable => '所有可用的成瘾已在追踪中';
+
+  @override
   String get addictionAlcohol => '酒精';
 
   @override

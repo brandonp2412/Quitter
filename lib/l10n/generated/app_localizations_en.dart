@@ -501,6 +501,38 @@ class AppLocalizationsEn extends AppLocalizations {
   String get hide => 'Hide';
 
   @override
+  String stopTrackingDialogTitle(String title) {
+    return 'Stop tracking $title?';
+  }
+
+  @override
+  String stopTrackingDialogMessage(String title) {
+    return 'This will remove $title from your home screen. Your milestone history will be preserved.';
+  }
+
+  @override
+  String get stopTracking => 'Remove';
+
+  @override
+  String get addAddictionTitle => 'Track an Addiction';
+
+  @override
+  String get addAddictionCustom => 'Custom';
+
+  @override
+  String get addAddictionCustomSubtitle => 'Track anything you want to quit';
+
+  @override
+  String get homeEmptyTitle => 'Nothing tracked yet';
+
+  @override
+  String get homeEmptySubtitle => 'Tap + to start tracking an addiction';
+
+  @override
+  String get addAddictionNoneAvailable =>
+      'All available addictions are already being tracked';
+
+  @override
   String get addictionAlcohol => 'Alcohol';
 
   @override

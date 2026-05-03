@@ -946,6 +946,60 @@ abstract class AppLocalizations {
   /// **'Hide'**
   String get hide;
 
+  /// Title for stop tracking confirmation dialog
+  ///
+  /// In en, this message translates to:
+  /// **'Stop tracking {title}?'**
+  String stopTrackingDialogTitle(String title);
+
+  /// Message for stop tracking confirmation dialog
+  ///
+  /// In en, this message translates to:
+  /// **'This will remove {title} from your home screen. Your milestone history will be preserved.'**
+  String stopTrackingDialogMessage(String title);
+
+  /// Remove button text in stop tracking dialog
+  ///
+  /// In en, this message translates to:
+  /// **'Remove'**
+  String get stopTracking;
+
+  /// Title for the add addiction picker page
+  ///
+  /// In en, this message translates to:
+  /// **'Track an Addiction'**
+  String get addAddictionTitle;
+
+  /// Custom addiction option in addiction picker
+  ///
+  /// In en, this message translates to:
+  /// **'Custom'**
+  String get addAddictionCustom;
+
+  /// Subtitle for custom addiction option
+  ///
+  /// In en, this message translates to:
+  /// **'Track anything you want to quit'**
+  String get addAddictionCustomSubtitle;
+
+  /// Title shown on home when no addictions are being tracked
+  ///
+  /// In en, this message translates to:
+  /// **'Nothing tracked yet'**
+  String get homeEmptyTitle;
+
+  /// Subtitle shown on home when no addictions are being tracked
+  ///
+  /// In en, this message translates to:
+  /// **'Tap + to start tracking an addiction'**
+  String get homeEmptySubtitle;
+
+  /// Message shown when all addictions are already tracked
+  ///
+  /// In en, this message translates to:
+  /// **'All available addictions are already being tracked'**
+  String get addAddictionNoneAvailable;
+
   /// Name of the alcohol addiction type
   ///
   /// In en, this message translates to:

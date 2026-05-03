@@ -186,6 +186,48 @@
   "@hide": {
     "description": "Hide button text in hide addiction dialog"
   },
+  "stopTrackingDialogTitle": "{title}の追跡を停止しますか？",
+  "@stopTrackingDialogTitle": {
+    "description": "Title for stop tracking confirmation dialog",
+    "placeholders": {
+      "title": { "type": "String" }
+    }
+  },
+  "stopTrackingDialogMessage": "{title}をホーム画面から削除します。マイルストーンの履歴は保存されます。",
+  "@stopTrackingDialogMessage": {
+    "description": "Message for stop tracking confirmation dialog",
+    "placeholders": {
+      "title": { "type": "String" }
+    }
+  },
+  "stopTracking": "削除",
+  "@stopTracking": {
+    "description": "Remove button text in stop tracking dialog"
+  },
+  "addAddictionTitle": "依存症を追跡する",
+  "@addAddictionTitle": {
+    "description": "Title for the add addiction picker page"
+  },
+  "addAddictionCustom": "カスタム",
+  "@addAddictionCustom": {
+    "description": "Custom addiction option in addiction picker"
+  },
+  "addAddictionCustomSubtitle": "やめたいものを何でも追跡する",
+  "@addAddictionCustomSubtitle": {
+    "description": "Subtitle for custom addiction option"
+  },
+  "homeEmptyTitle": "まだ追跡していません",
+  "@homeEmptyTitle": {
+    "description": "Title shown on home when no addictions are being tracked"
+  },
+  "homeEmptySubtitle": "+ をタップして依存症の追跡を始めましょう",
+  "@homeEmptySubtitle": {
+    "description": "Subtitle shown on home when no addictions are being tracked"
+  },
+  "addAddictionNoneAvailable": "利用可能な依存症はすべて追跡中です",
+  "@addAddictionNoneAvailable": {
+    "description": "Message shown when all addictions are already tracked"
+  },
   "addictionAlcohol": "アルコール",
   "@addictionAlcohol": {
     "description": "Name of the alcohol addiction type"

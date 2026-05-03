@@ -186,6 +186,48 @@
   "@hide": {
     "description": "Hide button text in hide addiction dialog"
   },
+  "stopTrackingDialogTitle": "停止追踪{title}？",
+  "@stopTrackingDialogTitle": {
+    "description": "Title for stop tracking confirmation dialog",
+    "placeholders": {
+      "title": { "type": "String" }
+    }
+  },
+  "stopTrackingDialogMessage": "这将从主屏幕中删除{title}。您的里程碑历史记录将被保留。",
+  "@stopTrackingDialogMessage": {
+    "description": "Message for stop tracking confirmation dialog",
+    "placeholders": {
+      "title": { "type": "String" }
+    }
+  },
+  "stopTracking": "删除",
+  "@stopTracking": {
+    "description": "Remove button text in stop tracking dialog"
+  },
+  "addAddictionTitle": "追踪一个成瘾",
+  "@addAddictionTitle": {
+    "description": "Title for the add addiction picker page"
+  },
+  "addAddictionCustom": "自定义",
+  "@addAddictionCustom": {
+    "description": "Custom addiction option in addiction picker"
+  },
+  "addAddictionCustomSubtitle": "追踪任何您想戒掉的东西",
+  "@addAddictionCustomSubtitle": {
+    "description": "Subtitle for custom addiction option"
+  },
+  "homeEmptyTitle": "尚未追踪任何内容",
+  "@homeEmptyTitle": {
+    "description": "Title shown on home when no addictions are being tracked"
+  },
+  "homeEmptySubtitle": "点击 + 开始追踪成瘾",
+  "@homeEmptySubtitle": {
+    "description": "Subtitle shown on home when no addictions are being tracked"
+  },
+  "addAddictionNoneAvailable": "所有可用的成瘾已在追踪中",
+  "@addAddictionNoneAvailable": {
+    "description": "Message shown when all addictions are already tracked"
+  },
   "addictionAlcohol": "酒精",
   "@addictionAlcohol": {
     "description": "Name of the alcohol addiction type"

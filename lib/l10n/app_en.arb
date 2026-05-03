@@ -210,6 +210,48 @@
   "@hide": {
     "description": "Hide button text in hide addiction dialog"
   },
+  "stopTrackingDialogTitle": "Stop tracking {title}?",
+  "@stopTrackingDialogTitle": {
+    "description": "Title for stop tracking confirmation dialog",
+    "placeholders": {
+      "title": { "type": "String" }
+    }
+  },
+  "stopTrackingDialogMessage": "This will remove {title} from your home screen. Your milestone history will be preserved.",
+  "@stopTrackingDialogMessage": {
+    "description": "Message for stop tracking confirmation dialog",
+    "placeholders": {
+      "title": { "type": "String" }
+    }
+  },
+  "stopTracking": "Remove",
+  "@stopTracking": {
+    "description": "Remove button text in stop tracking dialog"
+  },
+  "addAddictionTitle": "Track an Addiction",
+  "@addAddictionTitle": {
+    "description": "Title for the add addiction picker page"
+  },
+  "addAddictionCustom": "Custom",
+  "@addAddictionCustom": {
+    "description": "Custom addiction option in addiction picker"
+  },
+  "addAddictionCustomSubtitle": "Track anything you want to quit",
+  "@addAddictionCustomSubtitle": {
+    "description": "Subtitle for custom addiction option"
+  },
+  "homeEmptyTitle": "Nothing tracked yet",
+  "@homeEmptyTitle": {
+    "description": "Title shown on home when no addictions are being tracked"
+  },
+  "homeEmptySubtitle": "Tap + to start tracking an addiction",
+  "@homeEmptySubtitle": {
+    "description": "Subtitle shown on home when no addictions are being tracked"
+  },
+  "addAddictionNoneAvailable": "All available addictions are already being tracked",
+  "@addAddictionNoneAvailable": {
+    "description": "Message shown when all addictions are already tracked"
+  },
   "addictionAlcohol": "Alcohol",
   "@addictionAlcohol": {
     "description": "Name of the alcohol addiction type"

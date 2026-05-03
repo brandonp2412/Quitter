@@ -501,6 +501,37 @@ class AppLocalizationsJa extends AppLocalizations {
   String get hide => '非表示';
 
   @override
+  String stopTrackingDialogTitle(String title) {
+    return '$titleの追跡を停止しますか？';
+  }
+
+  @override
+  String stopTrackingDialogMessage(String title) {
+    return '$titleをホーム画面から削除します。マイルストーンの履歴は保存されます。';
+  }
+
+  @override
+  String get stopTracking => '削除';
+
+  @override
+  String get addAddictionTitle => '依存症を追跡する';
+
+  @override
+  String get addAddictionCustom => 'カスタム';
+
+  @override
+  String get addAddictionCustomSubtitle => 'やめたいものを何でも追跡する';
+
+  @override
+  String get homeEmptyTitle => 'まだ追跡していません';
+
+  @override
+  String get homeEmptySubtitle => '+ をタップして依存症の追跡を始めましょう';
+
+  @override
+  String get addAddictionNoneAvailable => '利用可能な依存症はすべて追跡中です';
+
+  @override
   String get addictionAlcohol => 'アルコール';
 
   @override
