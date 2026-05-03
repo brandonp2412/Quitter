@@ -113,9 +113,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                 Container(
                   padding: const EdgeInsets.all(16),
                   decoration: BoxDecoration(
-                    color: Theme.of(
-                      context,
-                    ).colorScheme.error.withAlpha(26),
+                    color: Theme.of(context).colorScheme.error.withAlpha(26),
                     shape: BoxShape.circle,
                   ),
                   child: Icon(
@@ -297,9 +295,12 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                         if (mounted) _loadQuitDays();
                       },
                       onLongPress: () {
-                        _showStopTrackingBottomSheet(l10n.addictionAdderall, () {
-                          addictions.setAddiction('adderall', null);
-                        });
+                        _showStopTrackingBottomSheet(
+                          l10n.addictionAdderall,
+                          () {
+                            addictions.setAddiction('adderall', null);
+                          },
+                        );
                       },
                     ),
                   );
@@ -447,10 +448,12 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                         if (mounted) _loadQuitDays();
                       },
                       onLongPress: () {
-                        _showStopTrackingBottomSheet(l10n.addictionMarijuana,
-                            () {
-                          addictions.setAddiction('marijuana', null);
-                        });
+                        _showStopTrackingBottomSheet(
+                          l10n.addictionMarijuana,
+                          () {
+                            addictions.setAddiction('marijuana', null);
+                          },
+                        );
                       },
                     ),
                   );
@@ -508,9 +511,11 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                       },
                       onLongPress: () {
                         _showStopTrackingBottomSheet(
-                            l10n.addictionNicotinePouches, () {
-                          addictions.setAddiction('nicotine_pouches', null);
-                        });
+                          l10n.addictionNicotinePouches,
+                          () {
+                            addictions.setAddiction('nicotine_pouches', null);
+                          },
+                        );
                       },
                     ),
                   );
@@ -628,10 +633,12 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                         if (mounted) _loadQuitDays();
                       },
                       onLongPress: () {
-                        _showStopTrackingBottomSheet(l10n.addictionSocialMedia,
-                            () {
-                          addictions.setAddiction('social_media', null);
-                        });
+                        _showStopTrackingBottomSheet(
+                          l10n.addictionSocialMedia,
+                          () {
+                            addictions.setAddiction('social_media', null);
+                          },
+                        );
                       },
                     ),
                   );
@@ -731,13 +738,12 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                             const SizedBox(height: 8),
                             Text(
                               l10n.homeEmptySubtitle,
-                              style: Theme.of(
-                                context,
-                              ).textTheme.bodyMedium?.copyWith(
-                                color: Theme.of(
-                                  context,
-                                ).colorScheme.onSurface.withAlpha(102),
-                              ),
+                              style: Theme.of(context).textTheme.bodyMedium
+                                  ?.copyWith(
+                                    color: Theme.of(
+                                      context,
+                                    ).colorScheme.onSurface.withAlpha(102),
+                                  ),
                             ),
                           ],
                         ],
@@ -768,9 +774,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
       floatingActionButton: FloatingActionButton.extended(
         onPressed: () async {
           await Navigator.of(context).push(
-            MaterialPageRoute(
-              builder: (context) => const AddAddictionPage(),
-            ),
+            MaterialPageRoute(builder: (context) => const AddAddictionPage()),
           );
           _loadQuitDays();
         },

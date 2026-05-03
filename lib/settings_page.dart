@@ -659,8 +659,9 @@ class _SettingsPageState extends State<SettingsPage> {
     for (final section in sections) {
       final header = section.first;
       final items = section.skip(1).toList();
-      final matching =
-          items.where((item) => _matchesSearch(item, _searchQuery)).toList();
+      final matching = items
+          .where((item) => _matchesSearch(item, _searchQuery))
+          .toList();
       if (matching.isNotEmpty) {
         result.add(header);
         result.addAll(matching);

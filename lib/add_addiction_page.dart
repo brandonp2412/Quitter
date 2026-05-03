@@ -42,114 +42,140 @@ class AddAddictionPage extends StatelessWidget {
     final options = <_AddictionOption>[];
 
     if (addictions.quitAdderall == null) {
-      options.add(_AddictionOption(
-        title: l10n.addictionAdderall,
-        icon: Icons.lightbulb_outline,
-        gradientColors: [const Color(0xFFFF8C42), const Color(0xFFFF6B35)],
-        destination: const AdderallPage(started: false),
-      ));
+      options.add(
+        _AddictionOption(
+          title: l10n.addictionAdderall,
+          icon: Icons.lightbulb_outline,
+          gradientColors: [const Color(0xFFFF8C42), const Color(0xFFFF6B35)],
+          destination: const AdderallPage(started: false),
+        ),
+      );
     }
     if (addictions.quitAlcohol == null) {
-      options.add(_AddictionOption(
-        title: l10n.addictionAlcohol,
-        icon: Icons.local_bar,
-        gradientColors: [const Color(0xFF6366F1), const Color(0xFF8B5CF6)],
-        destination: const AlcoholPage(started: false),
-      ));
+      options.add(
+        _AddictionOption(
+          title: l10n.addictionAlcohol,
+          icon: Icons.local_bar,
+          gradientColors: [const Color(0xFF6366F1), const Color(0xFF8B5CF6)],
+          destination: const AlcoholPage(started: false),
+        ),
+      );
     }
     if (addictions.quitBenzos == null) {
-      options.add(_AddictionOption(
-        title: l10n.addictionBenzos,
-        icon: Icons.bedtime,
-        gradientColors: [const Color(0xFF6D5DD3), const Color(0xFF1E1B4B)],
-        destination: const BenzodiazepinePage(started: false),
-      ));
+      options.add(
+        _AddictionOption(
+          title: l10n.addictionBenzos,
+          icon: Icons.bedtime,
+          gradientColors: [const Color(0xFF6D5DD3), const Color(0xFF1E1B4B)],
+          destination: const BenzodiazepinePage(started: false),
+        ),
+      );
     }
     if (addictions.quitCocaine == null) {
-      options.add(_AddictionOption(
-        title: l10n.addictionCocaine,
-        icon: Icons.bolt,
-        gradientColors: [const Color(0xFF3B82F6), const Color(0xFF1D4ED8)],
-        destination: const CocainePage(started: false),
-      ));
+      options.add(
+        _AddictionOption(
+          title: l10n.addictionCocaine,
+          icon: Icons.bolt,
+          gradientColors: [const Color(0xFF3B82F6), const Color(0xFF1D4ED8)],
+          destination: const CocainePage(started: false),
+        ),
+      );
     }
     if (addictions.quitHeroin == null) {
-      options.add(_AddictionOption(
-        title: l10n.addictionHeroin,
-        icon: Icons.vaccines,
-        gradientColors: [
-          const Color.fromARGB(255, 133, 14, 163),
-          const Color.fromARGB(255, 201, 5, 250),
-        ],
-        destination: const HeroinPage(started: false),
-      ));
+      options.add(
+        _AddictionOption(
+          title: l10n.addictionHeroin,
+          icon: Icons.vaccines,
+          gradientColors: [
+            const Color.fromARGB(255, 133, 14, 163),
+            const Color.fromARGB(255, 201, 5, 250),
+          ],
+          destination: const HeroinPage(started: false),
+        ),
+      );
     }
     if (addictions.quitMarijuana == null) {
-      options.add(_AddictionOption(
-        title: l10n.addictionMarijuana,
-        icon: Icons.grass,
-        gradientColors: [
-          const Color.fromARGB(255, 132, 230, 128),
-          const Color.fromARGB(255, 30, 87, 3),
-        ],
-        destination: const MarijuanaPage(started: false),
-      ));
+      options.add(
+        _AddictionOption(
+          title: l10n.addictionMarijuana,
+          icon: Icons.grass,
+          gradientColors: [
+            const Color.fromARGB(255, 132, 230, 128),
+            const Color.fromARGB(255, 30, 87, 3),
+          ],
+          destination: const MarijuanaPage(started: false),
+        ),
+      );
     }
     if (addictions.quitMeth == null) {
-      options.add(_AddictionOption(
-        title: l10n.addictionMeth,
-        icon: Icons.battery_charging_full,
-        gradientColors: [const Color(0xFF14B8A6), const Color(0xFF0D9488)],
-        destination: const MethPage(started: false),
-      ));
+      options.add(
+        _AddictionOption(
+          title: l10n.addictionMeth,
+          icon: Icons.battery_charging_full,
+          gradientColors: [const Color(0xFF14B8A6), const Color(0xFF0D9488)],
+          destination: const MethPage(started: false),
+        ),
+      );
     }
     if (addictions.quitPouches == null) {
-      options.add(_AddictionOption(
-        title: l10n.addictionNicotinePouches,
-        icon: Icons.scatter_plot,
-        gradientColors: [const Color(0xFFF59E0B), const Color(0xFFEF4444)],
-        destination: const NicotinePouchesPage(started: false),
-      ));
+      options.add(
+        _AddictionOption(
+          title: l10n.addictionNicotinePouches,
+          icon: Icons.scatter_plot,
+          gradientColors: [const Color(0xFFF59E0B), const Color(0xFFEF4444)],
+          destination: const NicotinePouchesPage(started: false),
+        ),
+      );
     }
     if (addictions.quitOpioids == null) {
-      options.add(_AddictionOption(
-        title: l10n.addictionOpioids,
-        icon: Icons.medication,
-        gradientColors: [const Color(0xFFEC4899), const Color(0xFFBE185D)],
-        destination: const OpioidPage(started: false),
-      ));
+      options.add(
+        _AddictionOption(
+          title: l10n.addictionOpioids,
+          icon: Icons.medication,
+          gradientColors: [const Color(0xFFEC4899), const Color(0xFFBE185D)],
+          destination: const OpioidPage(started: false),
+        ),
+      );
     }
     if (addictions.quitPornography == null) {
-      options.add(_AddictionOption(
-        title: l10n.addictionAC,
-        icon: Icons.block,
-        gradientColors: [const Color(0xFFF43F5E), const Color(0xFFE11D48)],
-        destination: const PornographyPage(started: false),
-      ));
+      options.add(
+        _AddictionOption(
+          title: l10n.addictionAC,
+          icon: Icons.block,
+          gradientColors: [const Color(0xFFF43F5E), const Color(0xFFE11D48)],
+          destination: const PornographyPage(started: false),
+        ),
+      );
     }
     if (addictions.quitSmoking == null) {
-      options.add(_AddictionOption(
-        title: l10n.addictionSmoking,
-        icon: Icons.eco,
-        gradientColors: [const Color(0xFF10B981), const Color(0xFF059669)],
-        destination: const SmokingPage(started: false),
-      ));
+      options.add(
+        _AddictionOption(
+          title: l10n.addictionSmoking,
+          icon: Icons.eco,
+          gradientColors: [const Color(0xFF10B981), const Color(0xFF059669)],
+          destination: const SmokingPage(started: false),
+        ),
+      );
     }
     if (addictions.quitSocialMedia == null) {
-      options.add(_AddictionOption(
-        title: l10n.addictionSocialMedia,
-        icon: Icons.public,
-        gradientColors: [const Color(0xFF8B5CF6), const Color(0xFF7C3AED)],
-        destination: const SocialMediaPage(started: false),
-      ));
+      options.add(
+        _AddictionOption(
+          title: l10n.addictionSocialMedia,
+          icon: Icons.public,
+          gradientColors: [const Color(0xFF8B5CF6), const Color(0xFF7C3AED)],
+          destination: const SocialMediaPage(started: false),
+        ),
+      );
     }
     if (addictions.quitVaping == null) {
-      options.add(_AddictionOption(
-        title: l10n.addictionVaping,
-        icon: Icons.air,
-        gradientColors: [const Color(0xFF06B6D4), const Color(0xFF0EA5E9)],
-        destination: const VapingPage(started: false),
-      ));
+      options.add(
+        _AddictionOption(
+          title: l10n.addictionVaping,
+          icon: Icons.air,
+          gradientColors: [const Color(0xFF06B6D4), const Color(0xFF0EA5E9)],
+          destination: const VapingPage(started: false),
+        ),
+      );
     }
 
     return Scaffold(
@@ -164,9 +190,7 @@ class AddAddictionPage extends StatelessWidget {
                 l10n.addAddictionNoneAvailable,
                 textAlign: TextAlign.center,
                 style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                  color: Theme.of(
-                    context,
-                  ).colorScheme.onSurface.withAlpha(153),
+                  color: Theme.of(context).colorScheme.onSurface.withAlpha(153),
                 ),
               ),
             ),
