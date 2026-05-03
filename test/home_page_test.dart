@@ -205,4 +205,30 @@ void main() {
       expect(find.text('Day 1'), findsOneWidget);
     });
   });
+
+  group('HomePage Overflow Tests', () {
+    testWidgets(
+      'nicotine pouches card does not overflow on narrow screen',
+      (WidgetTester tester) async {
+        tester.view.physicalSize = const Size(360, 640);
+        tester.view.devicePixelRatio = 1.0;
+        addTearDown(tester.view.resetPhysicalSize);
+        addTearDown(tester.view.resetDevicePixelRatio);
+
+        SharedPreferences.setMockInitialValues({
+          'show_nicotine_pouches': true,
+          'nicotine_pouches': '2026-05-02',
+        });
+        settingsProvider = SettingsProvider();
+        addictionProvider = AddictionProvider();
+        await settingsProvider.loadPreferences();
+        await addictionProvider.loadAddictions();
+
+        await tester.pumpWidget(createTestWidget());
+        await tester.pumpAndSettle();
+
+        expect(find.text('Nicotine pouches', findRichText: true), findsOneWidget);
+      },
+    );
+  });
 }

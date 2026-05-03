@@ -751,7 +751,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                     crossAxisCount: MediaQuery.of(context).size.width > 600
                         ? 3
                         : 2,
-                    mainAxisExtent: 220,
+                    mainAxisExtent: 270,
                     crossAxisSpacing: 16,
                     mainAxisSpacing: 16,
                   ),
