@@ -8,8 +8,6 @@ import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:quitter/settings_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'test_utils.dart';
-
 void main() {
   late SettingsProvider settingsProvider;
   late AddictionProvider addictionProvider;
@@ -65,9 +63,13 @@ void main() {
     testWidgets(
       'should display grid of addiction cards when settings are enabled',
       (WidgetTester tester) async {
-        settingsProvider.showAlcohol = true;
-        settingsProvider.showVaping = true;
-        settingsProvider.showSmoking = true;
+        SharedPreferences.setMockInitialValues({
+          'alcohol': '2024-01-01',
+          'vaping': '2024-01-01',
+          'smoking': '2024-01-01',
+        });
+        addictionProvider = AddictionProvider();
+        await addictionProvider.loadAddictions();
         await tester.pumpWidget(createTestWidget());
 
         await tester.pumpAndSettle();
@@ -75,7 +77,6 @@ void main() {
         expect(find.text('Alcohol'), findsOneWidget);
         expect(find.text('Vaping'), findsOneWidget);
         expect(find.text('Smoking'), findsOneWidget);
-        expect(find.text('Tap to start'), findsWidgets);
       },
     );
 
@@ -94,30 +95,32 @@ void main() {
       'should display all addiction types when all settings are enabled',
       (WidgetTester tester) async {
         SharedPreferences.setMockInitialValues({
-          'show_alcohol': true,
-          'show_vaping': true,
-          'show_smoking': true,
-          'show_marijuana': true,
-          'show_nicotine_pouches': true,
-          'show_opioids': true,
-          'show_social_media': true,
-          'show_pornography': true,
+          'alcohol': '2024-01-01',
+          'vaping': '2024-01-01',
+          'smoking': '2024-01-01',
+          'marijuana': '2024-01-01',
+          'nicotine_pouches': '2024-01-01',
+          'opioids': '2024-01-01',
+          'social_media': '2024-01-01',
+          'pornography': '2024-01-01',
         });
+        addictionProvider = AddictionProvider();
+        await addictionProvider.loadAddictions();
 
         await tester.pumpWidget(createTestWidget());
         await tester.pumpAndSettle();
 
-        expect(find.text('Alcohol', findRichText: true), findsOneWidget);
+        expect(find.text('Alcohol', skipOffstage: false), findsOneWidget);
         expect(find.text('Vaping', skipOffstage: false), findsOneWidget);
-        expect(find.text('Smoking', findRichText: true), findsOneWidget);
-        expect(find.text('Marijuana', findRichText: true), findsOneWidget);
+        expect(find.text('Smoking', skipOffstage: false), findsOneWidget);
+        expect(find.text('Marijuana', skipOffstage: false), findsOneWidget);
         expect(
-          find.text('Nicotine pouches', findRichText: true),
+          find.text('Nicotine pouches', skipOffstage: false),
           findsOneWidget,
         );
-        expect(find.text('Opioids', findRichText: true), findsOneWidget);
-        expect(find.text('Social Media', findRichText: true), findsOneWidget);
-        expect(find.text('AC', findRichText: true), findsOneWidget);
+        expect(find.text('Opioids', skipOffstage: false), findsOneWidget);
+        expect(find.text('Social Media', skipOffstage: false), findsOneWidget);
+        expect(find.text('AC', skipOffstage: false), findsOneWidget);
       },
     );
   });
@@ -126,7 +129,9 @@ void main() {
     testWidgets('should show hide bottom sheet on card long press', (
       WidgetTester tester,
     ) async {
-      SharedPreferences.setMockInitialValues({'show_alcohol': true});
+      SharedPreferences.setMockInitialValues({'alcohol': '2024-01-01'});
+      addictionProvider = AddictionProvider();
+      await addictionProvider.loadAddictions();
 
       await tester.pumpWidget(createTestWidget());
       await tester.pumpAndSettle();
@@ -134,15 +139,17 @@ void main() {
       await tester.longPress(find.text('Alcohol'));
       await tester.pumpAndSettle();
 
-      expect(find.text('Hide Alcohol?'), findsOneWidget);
+      expect(find.text('Stop tracking Alcohol?'), findsOneWidget);
       expect(find.text('Cancel'), findsOneWidget);
-      expect(find.text('Hide'), findsOneWidget);
+      expect(find.text('Remove'), findsOneWidget);
     });
 
     testWidgets('should cancel hide action when Cancel is pressed', (
       WidgetTester tester,
     ) async {
-      SharedPreferences.setMockInitialValues({'show_alcohol': true});
+      SharedPreferences.setMockInitialValues({'alcohol': '2024-01-01'});
+      addictionProvider = AddictionProvider();
+      await addictionProvider.loadAddictions();
 
       await tester.pumpWidget(createTestWidget());
       await tester.pumpAndSettle();
@@ -153,16 +160,16 @@ void main() {
       await tester.tap(find.text('Cancel'));
       await tester.pumpAndSettle();
 
-      expect(find.text('Hide Alcohol?'), findsNothing);
+      expect(find.text('Stop tracking Alcohol?'), findsNothing);
       expect(find.text('Alcohol'), findsOne);
     });
 
     testWidgets('should hide card when Hide is confirmed', (
       WidgetTester tester,
     ) async {
-      SharedPreferences.setMockInitialValues({'show_alcohol': true});
-      final testSettings = SettingsProvider();
-      await testSettings.loadPreferences();
+      SharedPreferences.setMockInitialValues({'alcohol': '2024-01-01'});
+      addictionProvider = AddictionProvider();
+      await addictionProvider.loadAddictions();
 
       await tester.pumpWidget(createTestWidget());
       await tester.pumpAndSettle();
@@ -170,14 +177,14 @@ void main() {
       await tester.longPress(find.text('Alcohol'));
       await tester.pumpAndSettle();
 
-      await tester.tap(find.text('Hide'));
+      await tester.tap(find.text('Remove'));
       await tester.pumpAndSettle();
       expect(find.text('Alcohol'), findsNothing);
     });
   });
 
   group('HomePage Navigation Tests', () {
-    testWidgets('should navigate to EditEntryPage when FAB is tapped', (
+    testWidgets('should navigate to AddAddictionPage when FAB is tapped', (
       WidgetTester tester,
     ) async {
       await tester.pumpWidget(createTestWidget());
@@ -186,15 +193,15 @@ void main() {
       await tester.tap(find.text('Add'));
       await tester.pumpAndSettle();
 
-      expect(find.text('Add entry'), findsOne);
+      expect(find.text('Track an Addiction'), findsOne);
     });
 
     testWidgets('should navigate to addiction page when card is tapped', (
       WidgetTester tester,
     ) async {
-      SharedPreferences.setMockInitialValues({'show_alcohol': true});
-      final testSettings = SettingsProvider();
-      await testSettings.loadPreferences();
+      SharedPreferences.setMockInitialValues({'alcohol': '2024-01-01'});
+      addictionProvider = AddictionProvider();
+      await addictionProvider.loadAddictions();
 
       await tester.pumpWidget(createTestWidget());
       await tester.pumpAndSettle();
@@ -202,7 +209,7 @@ void main() {
       await tester.tap(find.text('Alcohol'));
       await tester.pumpAndSettle();
 
-      expect(find.text('Day 1'), findsOneWidget);
+      expect(find.text('Sober & sparkling'), findsOneWidget);
     });
   });
 
