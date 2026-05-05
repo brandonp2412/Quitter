@@ -1,0 +1,10 @@
+• Add CLAUDE.md
+• Add migrate script
+• Fix bottom nav obscuring new addiction page
+• Fix overflow issue with nicotine pouches
+• Fix tests to match updated home page and settings page UI
+• Format test
+• Improve onboarding of new users
+• Include the title in settings filtering
+• Ran dart format
+• Revert "chore: remove flutter submodule, use global SDK"
