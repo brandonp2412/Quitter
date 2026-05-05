@@ -180,53 +180,57 @@ class AddAddictionPage extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(title: Text(l10n.addAddictionTitle)),
-      body: ListView(
-        padding: const EdgeInsets.symmetric(vertical: 8),
-        children: [
-          if (options.isEmpty)
-            Padding(
-              padding: const EdgeInsets.all(32),
-              child: Text(
-                l10n.addAddictionNoneAvailable,
-                textAlign: TextAlign.center,
-                style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                  color: Theme.of(context).colorScheme.onSurface.withAlpha(153),
+      body: SafeArea(
+        child: ListView(
+          padding: const EdgeInsets.symmetric(vertical: 8),
+          children: [
+            if (options.isEmpty)
+              Padding(
+                padding: const EdgeInsets.all(32),
+                child: Text(
+                  l10n.addAddictionNoneAvailable,
+                  textAlign: TextAlign.center,
+                  style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                    color: Theme.of(
+                      context,
+                    ).colorScheme.onSurface.withAlpha(153),
+                  ),
+                ),
+              ),
+            ...options.map(
+              (option) => _AddictionTile(
+                option: option,
+                onTap: () => Navigator.of(context).pushReplacement(
+                  MaterialPageRoute(builder: (_) => option.destination),
                 ),
               ),
             ),
-          ...options.map(
-            (option) => _AddictionTile(
-              option: option,
+            const Divider(height: 24),
+            ListTile(
+              leading: Container(
+                width: 48,
+                height: 48,
+                decoration: BoxDecoration(
+                  gradient: LinearGradient(
+                    colors: [
+                      Theme.of(context).colorScheme.primary,
+                      Theme.of(context).colorScheme.secondary,
+                    ],
+                    begin: Alignment.topLeft,
+                    end: Alignment.bottomRight,
+                  ),
+                  borderRadius: BorderRadius.circular(12),
+                ),
+                child: const Icon(Icons.add, color: Colors.white),
+              ),
+              title: Text(l10n.addAddictionCustom),
+              subtitle: Text(l10n.addAddictionCustomSubtitle),
               onTap: () => Navigator.of(context).pushReplacement(
-                MaterialPageRoute(builder: (_) => option.destination),
+                MaterialPageRoute(builder: (_) => const EditEntryPage()),
               ),
             ),
-          ),
-          const Divider(height: 24),
-          ListTile(
-            leading: Container(
-              width: 48,
-              height: 48,
-              decoration: BoxDecoration(
-                gradient: LinearGradient(
-                  colors: [
-                    Theme.of(context).colorScheme.primary,
-                    Theme.of(context).colorScheme.secondary,
-                  ],
-                  begin: Alignment.topLeft,
-                  end: Alignment.bottomRight,
-                ),
-                borderRadius: BorderRadius.circular(12),
-              ),
-              child: const Icon(Icons.add, color: Colors.white),
-            ),
-            title: Text(l10n.addAddictionCustom),
-            subtitle: Text(l10n.addAddictionCustomSubtitle),
-            onTap: () => Navigator.of(context).pushReplacement(
-              MaterialPageRoute(builder: (_) => const EditEntryPage()),
-            ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }
