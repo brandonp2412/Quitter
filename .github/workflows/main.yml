@@ -120,9 +120,6 @@ jobs:
           distribution: "zulu"
           java-version: "17"
 
-      - name: Checkout code
-        uses: actions/checkout@v4
-
       - name: Setup Flutter from submodule
         run: |
           git submodule update --init --recursive flutter
