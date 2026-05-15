@@ -51,7 +51,7 @@ void main() {
     testWidgets('displays search bar', (WidgetTester tester) async {
       await tester.pumpWidget(createTestWidget());
 
-      expect(find.text('Search...'), findsOneWidget);
+      expect(find.text('Search settings...'), findsOneWidget);
     });
 
     testWidgets('displays theme setting', (WidgetTester tester) async {

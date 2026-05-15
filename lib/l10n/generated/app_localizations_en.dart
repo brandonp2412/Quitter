@@ -578,7 +578,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get addictionAdultContent => 'Adult content';
 
   @override
-  String get settingsSearchHint => 'Search...';
+  String get settingsSearchHint => 'Search settings...';
 
   @override
   String get settingsSectionAppearance => 'Appearance';
