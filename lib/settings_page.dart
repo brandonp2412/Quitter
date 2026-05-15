@@ -529,31 +529,6 @@ class _SettingsPageState extends State<SettingsPage> {
         onTap: () => _showNotificationFrequencyDialog(context, settings),
       ),
       const Divider(height: 1),
-      SwitchListTile(
-        secondary: const Icon(Icons.notifications_active),
-        title: Text(l10n.enableNotifications),
-        subtitle: Text(l10n.enableNotificationsSubtitle),
-        value: allItems.map((item) => item.value).every((v) => v == true),
-        onChanged: (value) {
-          if (addictions.quitAdderall != null) settings.notifyAdderall = value;
-          if (addictions.quitAlcohol != null) settings.notifyAlcohol = value;
-          if (addictions.quitBenzos != null) settings.notifyBenzos = value;
-          if (addictions.quitCocaine != null) settings.notifyCocaine = value;
-          if (addictions.quitHeroin != null) settings.notifyHeroin = value;
-          if (addictions.quitMarijuana != null) settings.notifyMarijuana = value;
-          if (addictions.quitMeth != null) settings.notifyMeth = value;
-          if (addictions.quitPouches != null) settings.notifyPouches = value;
-          if (addictions.quitOpioids != null) settings.notifyOpioids = value;
-          if (addictions.quitPornography != null)
-            settings.notifyPornography = value;
-          if (addictions.quitSmoking != null) settings.notifySmoking = value;
-          if (addictions.quitSocialMedia != null)
-            settings.notifySocialMedia = value;
-          if (addictions.quitVaping != null) settings.notifyVaping = value;
-          settings.notifyRelapse = value;
-        },
-      ),
-      const Divider(height: 1),
       ..._buildToggleList(allItems),
     ];
   }
