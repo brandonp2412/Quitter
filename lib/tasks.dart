@@ -207,15 +207,15 @@ Future<void> notifyProgress(FlutterLocalNotificationsPlugin plugin) async {
   final journeyCount = daysCeil(journeyDate!);
 
   final randomMessage = messages[random.nextInt(messages.length)];
-  var notificationTitle =
-      "No ${randomJourney['name']!.toLowerCase()} for $journeyCount days";
-  final notificationBody = randomMessage;
+  var notificationTitle = "No ${randomJourney['name']!.toLowerCase()}";
+  var notificationBody = "$journeyCount days clean — $randomMessage";
 
   if (addiction.entries.isNotEmpty && random.nextBool()) {
     final randomEntry =
         addiction.entries[random.nextInt(addiction.entries.length)];
     final entryCount = daysCeil(randomEntry.quitDate.toIso8601String());
-    notificationTitle = "No ${randomEntry.title} for $entryCount days";
+    notificationTitle = "No ${randomEntry.title}";
+    notificationBody = "$entryCount days clean — $randomMessage";
   }
 
   await _showNotification(plugin, notificationTitle, notificationBody);

@@ -200,64 +200,20 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
             flexibleSpace: Container(
               padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
               child: Center(
-                child: Container(
-                  decoration: BoxDecoration(
-                    gradient: LinearGradient(
-                      colors: [
-                        Theme.of(context).colorScheme.primaryContainer,
-                        Theme.of(context).colorScheme.secondaryContainer,
-                      ],
-                      begin: Alignment.topLeft,
-                      end: Alignment.bottomRight,
-                    ),
-                    borderRadius: BorderRadius.circular(30),
-                    boxShadow: [
-                      BoxShadow(
-                        color: Theme.of(
-                          context,
-                        ).colorScheme.primary.withAlpha(51),
-                        blurRadius: 12,
-                        offset: const Offset(0, 4),
-                      ),
-                    ],
-                  ),
-                  child: TextField(
-                    controller: _searchController,
-                    style: TextStyle(
-                      color: Theme.of(context).colorScheme.onPrimaryContainer,
-                      fontSize: 16,
-                    ),
-                    decoration: InputDecoration(
-                      hintText: 'Search addictions...',
-                      hintStyle: TextStyle(
-                        color: Theme.of(
-                          context,
-                        ).colorScheme.onPrimaryContainer.withAlpha(153),
-                      ),
-                      prefixIcon: Icon(
-                        Icons.search,
-                        color: Theme.of(context).colorScheme.onPrimaryContainer,
-                      ),
-                      suffixIcon: _searchQuery.isNotEmpty
-                          ? IconButton(
-                              icon: Icon(
-                                Icons.clear,
-                                color: Theme.of(
-                                  context,
-                                ).colorScheme.onPrimaryContainer,
-                              ),
-                              onPressed: () {
-                                _searchController.clear();
-                              },
-                            )
-                          : null,
-                      border: InputBorder.none,
-                      contentPadding: const EdgeInsets.symmetric(
-                        horizontal: 20,
-                        vertical: 16,
-                      ),
-                    ),
-                  ),
+                child: SearchBar(
+                  controller: _searchController,
+                  leading: const Icon(Icons.search),
+                  hintText: 'Search addictions...',
+                  trailing: _searchQuery.isNotEmpty
+                      ? [
+                          IconButton(
+                            icon: const Icon(Icons.clear),
+                            onPressed: () {
+                              _searchController.clear();
+                            },
+                          ),
+                        ]
+                      : null,
                 ),
               ),
             ),
@@ -752,18 +708,20 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                   );
                 }
 
-                return SliverGrid(
-                  gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                    crossAxisCount: MediaQuery.of(context).size.width > 600
-                        ? 3
-                        : 2,
-                    mainAxisExtent: 270,
-                    crossAxisSpacing: 16,
-                    mainAxisSpacing: 16,
-                  ),
-                  delegate: SliverChildBuilderDelegate(
-                    (context, index) => cards[index],
-                    childCount: cards.length,
+                final columnCount = MediaQuery.of(context).size.width > 600
+                    ? 3
+                    : 2;
+                final availableWidth = MediaQuery.of(context).size.width - 32;
+                final cardWidth =
+                    (availableWidth - 16 * (columnCount - 1)) / columnCount;
+
+                return SliverToBoxAdapter(
+                  child: Wrap(
+                    spacing: 16,
+                    runSpacing: 16,
+                    children: cards
+                        .map((card) => SizedBox(width: cardWidth, child: card))
+                        .toList(),
                   ),
                 );
               },
