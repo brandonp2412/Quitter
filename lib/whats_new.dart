@@ -63,6 +63,10 @@ class _WhatsNewState extends State<WhatsNew> {
           print('Skipping invalid changelog file: $path');
           continue;
         }
+        if (content.trim().isEmpty) {
+          print('Skipping empty changelog file: $path');
+          continue;
+        }
         result.add(
           Changelog(
             name: filename,

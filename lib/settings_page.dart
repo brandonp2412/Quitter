@@ -5,7 +5,8 @@ import 'package:flutter/material.dart';
 import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'package:provider/provider.dart' show Consumer, ReadContext, WatchContext;
+import 'package:provider/provider.dart'
+    show Consumer, ReadContext, WatchContext;
 import 'package:quitter/about_page.dart';
 import 'package:quitter/addiction_provider.dart';
 import 'package:quitter/app_scheme.dart';

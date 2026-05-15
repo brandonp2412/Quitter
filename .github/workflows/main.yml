@@ -90,14 +90,45 @@ jobs:
             | grep -v "^Release " \
             | grep -v "^Bump " \
             | grep -v "\[skip ci\]" \
+            | grep -v "^ci:" \
+            | grep -v "^chore:" \
+            | grep -v "^test:" \
+            | grep -v "^refactor:" \
+            | grep -v "^style:" \
+            | grep -v "^docs:" \
+            | grep -v "^build:" \
+            | grep -v "^Generate " \
+            | grep -v "^Format " \
+            | grep -v "^Ran " \
+            | grep -v "^Run " \
+            | grep -v "^Fix tests" \
+            | grep -v "^Fix unit tests" \
+            | grep -v "^Fix integration" \
+            | grep -v "^Fix lint" \
+            | grep -v "^Add .*test" \
             | head -10 \
+            | sed 's/^feat: //' \
+            | sed 's/^fix: /Fix /' \
+            | sed 's/^perf: //' \
             | sed 's/^/• /' > "$CHANGELOG_FILE"
 
           [ -s "$CHANGELOG_FILE" ] || echo "• Bug fixes and improvements" > "$CHANGELOG_FILE"
 
+          TIMESTAMP=$(date +%s)
+          ASSET_CHANGELOG="assets/changelogs/$TIMESTAMP.txt"
+          CHANGELOG_CONTENT=$(cat "$CHANGELOG_FILE")
+
+          # Only create the assets changelog if content is unique (no existing file has same content)
+          DUPLICATE=$(grep -rl "^$(head -1 "$CHANGELOG_FILE" | sed 's/[.[\*^$()+?{|]/\\&/g')$" assets/changelogs/ 2>/dev/null | head -1)
+          if [ -z "$DUPLICATE" ]; then
+            cp "$CHANGELOG_FILE" "$ASSET_CHANGELOG"
+          else
+            echo "Skipping duplicate asset changelog (matches $DUPLICATE)"
+          fi
+
       - name: Commit and push version bump
         run: |
-          git add pubspec.yaml fastlane/metadata
+          git add pubspec.yaml fastlane/metadata assets/changelogs/
           git commit -m "Release ${{ steps.bump.outputs.version }} [skip ci]"
           git push origin main
 

@@ -1,3 +1,0 @@
-• Format lib/main.dart
-• Remove flutter sdk path config from vscode
-• Stay on settings page when toggling journal page
