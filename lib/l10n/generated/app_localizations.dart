@@ -1093,7 +1093,7 @@ abstract class AppLocalizations {
   /// Hint text for settings search bar
   ///
   /// In en, this message translates to:
-  /// **'Search...'**
+  /// **'Search settings...'**
   String get settingsSearchHint;
 
   /// Section header for appearance settings
