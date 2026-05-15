@@ -1,0 +1,7 @@
+• Make settings search say "search settings"
+• Remove toggle all notifications button
+• Update search settings text
+• filter notification toggles to active addictions only
+• fire preview notification when enabling an addiction toggle
+• Fix clean up what's new log and prevent future duplicates
+• Fix dynamic card heights, flat search bar, shorter notifications
