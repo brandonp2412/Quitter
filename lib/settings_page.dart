@@ -374,111 +374,123 @@ class _SettingsPageState extends State<SettingsPage> {
   ) {
     final l10n = AppLocalizations.of(context)!;
     final notificationItems = [
-      // Adderall
       _ToggleItem(
         icon: Icons.lightbulb_outline,
         title: l10n.addictionAdderall,
         subtitle: l10n.settingsNotifyAdderall,
         value: settings.notifyAdderall,
         onChanged: (value) => settings.notifyAdderall = value,
+        notifyPrefsKey: 'adderall',
+        notifyDisplayName: l10n.addictionAdderall,
       ),
-      // Alcohol
       _ToggleItem(
         icon: Icons.local_bar,
         title: l10n.addictionAlcohol,
         subtitle: l10n.settingsNotifyAlcohol,
         value: settings.notifyAlcohol,
         onChanged: (value) => settings.notifyAlcohol = value,
+        notifyPrefsKey: 'alcohol',
+        notifyDisplayName: l10n.addictionAlcohol,
       ),
-      // Benzodiazepines
       _ToggleItem(
         icon: Icons.bedtime,
         title: l10n.addictionBenzos,
         subtitle: l10n.settingsNotifyBenzos,
         value: settings.notifyBenzos,
         onChanged: (value) => settings.notifyBenzos = value,
+        notifyPrefsKey: 'benzos',
+        notifyDisplayName: l10n.addictionBenzos,
       ),
-      // Cocaine
       _ToggleItem(
         icon: Icons.bolt,
         title: l10n.addictionCocaine,
         subtitle: l10n.settingsNotifyCocaine,
         value: settings.notifyCocaine,
         onChanged: (value) => settings.notifyCocaine = value,
+        notifyPrefsKey: 'cocaine',
+        notifyDisplayName: l10n.addictionCocaine,
       ),
-      // Heroin
       _ToggleItem(
         icon: Icons.vaccines,
         title: l10n.addictionHeroin,
         subtitle: l10n.settingsNotifyHeroin,
         value: settings.notifyHeroin,
         onChanged: (value) => settings.notifyHeroin = value,
+        notifyPrefsKey: 'heroin',
+        notifyDisplayName: l10n.addictionHeroin,
       ),
-      // Marijuana
       _ToggleItem(
         icon: Icons.grass,
         title: l10n.addictionMarijuana,
         subtitle: l10n.settingsNotifyMarijuana,
         value: settings.notifyMarijuana,
         onChanged: (value) => settings.notifyMarijuana = value,
+        notifyPrefsKey: 'marijuana',
+        notifyDisplayName: l10n.addictionMarijuana,
       ),
-      // Methamphetamine
       _ToggleItem(
         icon: Icons.battery_charging_full,
         title: l10n.addictionMeth,
         subtitle: l10n.settingsNotifyMeth,
         value: settings.notifyMeth,
         onChanged: (value) => settings.notifyMeth = value,
+        notifyPrefsKey: 'meth',
+        notifyDisplayName: l10n.addictionMeth,
       ),
-      // Nicotine Pouches
       _ToggleItem(
         icon: Icons.scatter_plot,
         title: l10n.addictionNicotinePouches,
         subtitle: l10n.settingsNotifyNicotinePouches,
         value: settings.notifyPouches,
         onChanged: (value) => settings.notifyPouches = value,
+        notifyPrefsKey: 'nicotine_pouches',
+        notifyDisplayName: l10n.addictionNicotinePouches,
       ),
-      // Opioids
       _ToggleItem(
         icon: Icons.medication,
         title: l10n.addictionOpioids,
         subtitle: l10n.settingsNotifyOpioids,
         value: settings.notifyOpioids,
         onChanged: (value) => settings.notifyOpioids = value,
+        notifyPrefsKey: 'opioids',
+        notifyDisplayName: l10n.addictionOpioids,
       ),
-      // Pornography (Adult Content)
       _ToggleItem(
         icon: Icons.block,
         title: l10n.addictionAdultContent,
         subtitle: l10n.settingsNotifyAdultContent,
         value: settings.notifyPornography,
         onChanged: (value) => settings.notifyPornography = value,
+        notifyPrefsKey: 'pornography',
+        notifyDisplayName: l10n.addictionAdultContent,
       ),
-      // Smoking
       _ToggleItem(
         icon: Icons.eco,
         title: l10n.addictionSmoking,
         subtitle: l10n.settingsNotifySmoking,
         value: settings.notifySmoking,
         onChanged: (value) => settings.notifySmoking = value,
+        notifyPrefsKey: 'smoking',
+        notifyDisplayName: l10n.addictionSmoking,
       ),
-      // Social Media
       _ToggleItem(
         icon: Icons.public,
         title: l10n.addictionSocialMedia,
         subtitle: l10n.settingsNotifySocialMedia,
         value: settings.notifySocialMedia,
         onChanged: (value) => settings.notifySocialMedia = value,
+        notifyPrefsKey: 'social_media',
+        notifyDisplayName: l10n.addictionSocialMedia,
       ),
-      // Vaping
       _ToggleItem(
         icon: Icons.air,
         title: l10n.addictionVaping,
         subtitle: l10n.settingsNotifyVaping,
         value: settings.notifyVaping,
         onChanged: (value) => settings.notifyVaping = value,
+        notifyPrefsKey: 'vaping',
+        notifyDisplayName: l10n.addictionVaping,
       ),
-      // Reset Messages (keeping at the end as it's a different category)
       _ToggleItem(
         icon: Icons.reset_tv,
         title: l10n.settingsResetMessages,
@@ -909,7 +921,17 @@ class _SettingsPageState extends State<SettingsPage> {
           title: Text(item.title),
           subtitle: Text(item.subtitle),
           value: item.value,
-          onChanged: (value) => item.onChanged(value),
+          onChanged: (value) {
+            item.onChanged(value);
+            if (value &&
+                item.notifyPrefsKey != null &&
+                item.notifyDisplayName != null) {
+              testAddictionNotification(
+                item.notifyPrefsKey!,
+                item.notifyDisplayName!,
+              );
+            }
+          },
         ),
       );
 
@@ -929,11 +951,18 @@ class _ToggleItem {
   final bool value;
   final void Function(bool) onChanged;
 
+  /// When set, enabling this toggle fires a preview notification using the real
+  /// days-clean count stored under [notifyPrefsKey] in SharedPreferences.
+  final String? notifyPrefsKey;
+  final String? notifyDisplayName;
+
   const _ToggleItem({
     required this.icon,
     required this.title,
     required this.subtitle,
     required this.value,
     required this.onChanged,
+    this.notifyPrefsKey,
+    this.notifyDisplayName,
   });
 }

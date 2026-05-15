@@ -89,6 +89,25 @@ Future<void> testNotification({
   await _showNotification(plugin, title, body);
 }
 
+/// Fires a preview notification for a specific addiction when its toggle is enabled.
+/// Uses the real days-clean count if the user has a quit date saved, otherwise skips.
+Future<void> testAddictionNotification(
+  String prefsKey,
+  String displayName,
+) async {
+  final prefs = await SharedPreferences.getInstance();
+  final quitDate = prefs.getString(prefsKey);
+  if (quitDate == null) return;
+
+  final days = daysCeil(quitDate);
+  final plugin = await _initializeNotificationPlugin();
+  await _showNotification(
+    plugin,
+    'No ${displayName.toLowerCase()}',
+    '$days days clean — Keep up the amazing work!',
+  );
+}
+
 /// Initialize notification plugin based on platform
 Future<FlutterLocalNotificationsPlugin> _initializeNotificationPlugin() async {
   final plugin = FlutterLocalNotificationsPlugin();
