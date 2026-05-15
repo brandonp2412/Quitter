@@ -312,7 +312,7 @@
   "@addictionAdultContent": {
     "description": "Full name for adult content addiction (used in settings)"
   },
-  "settingsSearchHint": "Search...",
+  "settingsSearchHint": "Search settings...",
   "@settingsSearchHint": {
     "description": "Hint text for settings search bar"
   },
