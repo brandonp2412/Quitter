@@ -12,10 +12,27 @@ void main() {
   late SettingsProvider settingsProvider;
   late AddictionProvider addictionProvider;
 
+  final allAddictions = {
+    'alcohol': DateTime.now().toIso8601String(),
+    'vaping': DateTime.now().toIso8601String(),
+    'smoking': DateTime.now().toIso8601String(),
+    'marijuana': DateTime.now().toIso8601String(),
+    'nicotine_pouches': DateTime.now().toIso8601String(),
+    'opioids': DateTime.now().toIso8601String(),
+    'social_media': DateTime.now().toIso8601String(),
+    'pornography': DateTime.now().toIso8601String(),
+    'cocaine': DateTime.now().toIso8601String(),
+    'heroin': DateTime.now().toIso8601String(),
+    'benzos': DateTime.now().toIso8601String(),
+    'meth': DateTime.now().toIso8601String(),
+    'adderall': DateTime.now().toIso8601String(),
+  };
+
   setUp(() async {
-    SharedPreferences.setMockInitialValues({});
+    SharedPreferences.setMockInitialValues(allAddictions);
     settingsProvider = SettingsProvider();
     addictionProvider = AddictionProvider();
+    await addictionProvider.loadAddictions();
   });
 
   Widget createTestWidget() {

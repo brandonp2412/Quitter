@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'package:provider/provider.dart' show Consumer, ReadContext;
+import 'package:provider/provider.dart' show Consumer, ReadContext, WatchContext;
 import 'package:quitter/about_page.dart';
 import 'package:quitter/addiction_provider.dart';
 import 'package:quitter/app_scheme.dart';
@@ -373,124 +373,139 @@ class _SettingsPageState extends State<SettingsPage> {
     SettingsProvider settings,
   ) {
     final l10n = AppLocalizations.of(context)!;
-    final notificationItems = [
-      _ToggleItem(
-        icon: Icons.lightbulb_outline,
-        title: l10n.addictionAdderall,
-        subtitle: l10n.settingsNotifyAdderall,
-        value: settings.notifyAdderall,
-        onChanged: (value) => settings.notifyAdderall = value,
-        notifyPrefsKey: 'adderall',
-        notifyDisplayName: l10n.addictionAdderall,
-      ),
-      _ToggleItem(
-        icon: Icons.local_bar,
-        title: l10n.addictionAlcohol,
-        subtitle: l10n.settingsNotifyAlcohol,
-        value: settings.notifyAlcohol,
-        onChanged: (value) => settings.notifyAlcohol = value,
-        notifyPrefsKey: 'alcohol',
-        notifyDisplayName: l10n.addictionAlcohol,
-      ),
-      _ToggleItem(
-        icon: Icons.bedtime,
-        title: l10n.addictionBenzos,
-        subtitle: l10n.settingsNotifyBenzos,
-        value: settings.notifyBenzos,
-        onChanged: (value) => settings.notifyBenzos = value,
-        notifyPrefsKey: 'benzos',
-        notifyDisplayName: l10n.addictionBenzos,
-      ),
-      _ToggleItem(
-        icon: Icons.bolt,
-        title: l10n.addictionCocaine,
-        subtitle: l10n.settingsNotifyCocaine,
-        value: settings.notifyCocaine,
-        onChanged: (value) => settings.notifyCocaine = value,
-        notifyPrefsKey: 'cocaine',
-        notifyDisplayName: l10n.addictionCocaine,
-      ),
-      _ToggleItem(
-        icon: Icons.vaccines,
-        title: l10n.addictionHeroin,
-        subtitle: l10n.settingsNotifyHeroin,
-        value: settings.notifyHeroin,
-        onChanged: (value) => settings.notifyHeroin = value,
-        notifyPrefsKey: 'heroin',
-        notifyDisplayName: l10n.addictionHeroin,
-      ),
-      _ToggleItem(
-        icon: Icons.grass,
-        title: l10n.addictionMarijuana,
-        subtitle: l10n.settingsNotifyMarijuana,
-        value: settings.notifyMarijuana,
-        onChanged: (value) => settings.notifyMarijuana = value,
-        notifyPrefsKey: 'marijuana',
-        notifyDisplayName: l10n.addictionMarijuana,
-      ),
-      _ToggleItem(
-        icon: Icons.battery_charging_full,
-        title: l10n.addictionMeth,
-        subtitle: l10n.settingsNotifyMeth,
-        value: settings.notifyMeth,
-        onChanged: (value) => settings.notifyMeth = value,
-        notifyPrefsKey: 'meth',
-        notifyDisplayName: l10n.addictionMeth,
-      ),
-      _ToggleItem(
-        icon: Icons.scatter_plot,
-        title: l10n.addictionNicotinePouches,
-        subtitle: l10n.settingsNotifyNicotinePouches,
-        value: settings.notifyPouches,
-        onChanged: (value) => settings.notifyPouches = value,
-        notifyPrefsKey: 'nicotine_pouches',
-        notifyDisplayName: l10n.addictionNicotinePouches,
-      ),
-      _ToggleItem(
-        icon: Icons.medication,
-        title: l10n.addictionOpioids,
-        subtitle: l10n.settingsNotifyOpioids,
-        value: settings.notifyOpioids,
-        onChanged: (value) => settings.notifyOpioids = value,
-        notifyPrefsKey: 'opioids',
-        notifyDisplayName: l10n.addictionOpioids,
-      ),
-      _ToggleItem(
-        icon: Icons.block,
-        title: l10n.addictionAdultContent,
-        subtitle: l10n.settingsNotifyAdultContent,
-        value: settings.notifyPornography,
-        onChanged: (value) => settings.notifyPornography = value,
-        notifyPrefsKey: 'pornography',
-        notifyDisplayName: l10n.addictionAdultContent,
-      ),
-      _ToggleItem(
-        icon: Icons.eco,
-        title: l10n.addictionSmoking,
-        subtitle: l10n.settingsNotifySmoking,
-        value: settings.notifySmoking,
-        onChanged: (value) => settings.notifySmoking = value,
-        notifyPrefsKey: 'smoking',
-        notifyDisplayName: l10n.addictionSmoking,
-      ),
-      _ToggleItem(
-        icon: Icons.public,
-        title: l10n.addictionSocialMedia,
-        subtitle: l10n.settingsNotifySocialMedia,
-        value: settings.notifySocialMedia,
-        onChanged: (value) => settings.notifySocialMedia = value,
-        notifyPrefsKey: 'social_media',
-        notifyDisplayName: l10n.addictionSocialMedia,
-      ),
-      _ToggleItem(
-        icon: Icons.air,
-        title: l10n.addictionVaping,
-        subtitle: l10n.settingsNotifyVaping,
-        value: settings.notifyVaping,
-        onChanged: (value) => settings.notifyVaping = value,
-        notifyPrefsKey: 'vaping',
-        notifyDisplayName: l10n.addictionVaping,
-      ),
+    final addictions = context.watch<AddictionProvider>();
+
+    final allItems = [
+      if (addictions.quitAdderall != null)
+        _ToggleItem(
+          icon: Icons.lightbulb_outline,
+          title: l10n.addictionAdderall,
+          subtitle: l10n.settingsNotifyAdderall,
+          value: settings.notifyAdderall,
+          onChanged: (value) => settings.notifyAdderall = value,
+          notifyPrefsKey: 'adderall',
+          notifyDisplayName: l10n.addictionAdderall,
+        ),
+      if (addictions.quitAlcohol != null)
+        _ToggleItem(
+          icon: Icons.local_bar,
+          title: l10n.addictionAlcohol,
+          subtitle: l10n.settingsNotifyAlcohol,
+          value: settings.notifyAlcohol,
+          onChanged: (value) => settings.notifyAlcohol = value,
+          notifyPrefsKey: 'alcohol',
+          notifyDisplayName: l10n.addictionAlcohol,
+        ),
+      if (addictions.quitBenzos != null)
+        _ToggleItem(
+          icon: Icons.bedtime,
+          title: l10n.addictionBenzos,
+          subtitle: l10n.settingsNotifyBenzos,
+          value: settings.notifyBenzos,
+          onChanged: (value) => settings.notifyBenzos = value,
+          notifyPrefsKey: 'benzos',
+          notifyDisplayName: l10n.addictionBenzos,
+        ),
+      if (addictions.quitCocaine != null)
+        _ToggleItem(
+          icon: Icons.bolt,
+          title: l10n.addictionCocaine,
+          subtitle: l10n.settingsNotifyCocaine,
+          value: settings.notifyCocaine,
+          onChanged: (value) => settings.notifyCocaine = value,
+          notifyPrefsKey: 'cocaine',
+          notifyDisplayName: l10n.addictionCocaine,
+        ),
+      if (addictions.quitHeroin != null)
+        _ToggleItem(
+          icon: Icons.vaccines,
+          title: l10n.addictionHeroin,
+          subtitle: l10n.settingsNotifyHeroin,
+          value: settings.notifyHeroin,
+          onChanged: (value) => settings.notifyHeroin = value,
+          notifyPrefsKey: 'heroin',
+          notifyDisplayName: l10n.addictionHeroin,
+        ),
+      if (addictions.quitMarijuana != null)
+        _ToggleItem(
+          icon: Icons.grass,
+          title: l10n.addictionMarijuana,
+          subtitle: l10n.settingsNotifyMarijuana,
+          value: settings.notifyMarijuana,
+          onChanged: (value) => settings.notifyMarijuana = value,
+          notifyPrefsKey: 'marijuana',
+          notifyDisplayName: l10n.addictionMarijuana,
+        ),
+      if (addictions.quitMeth != null)
+        _ToggleItem(
+          icon: Icons.battery_charging_full,
+          title: l10n.addictionMeth,
+          subtitle: l10n.settingsNotifyMeth,
+          value: settings.notifyMeth,
+          onChanged: (value) => settings.notifyMeth = value,
+          notifyPrefsKey: 'meth',
+          notifyDisplayName: l10n.addictionMeth,
+        ),
+      if (addictions.quitPouches != null)
+        _ToggleItem(
+          icon: Icons.scatter_plot,
+          title: l10n.addictionNicotinePouches,
+          subtitle: l10n.settingsNotifyNicotinePouches,
+          value: settings.notifyPouches,
+          onChanged: (value) => settings.notifyPouches = value,
+          notifyPrefsKey: 'nicotine_pouches',
+          notifyDisplayName: l10n.addictionNicotinePouches,
+        ),
+      if (addictions.quitOpioids != null)
+        _ToggleItem(
+          icon: Icons.medication,
+          title: l10n.addictionOpioids,
+          subtitle: l10n.settingsNotifyOpioids,
+          value: settings.notifyOpioids,
+          onChanged: (value) => settings.notifyOpioids = value,
+          notifyPrefsKey: 'opioids',
+          notifyDisplayName: l10n.addictionOpioids,
+        ),
+      if (addictions.quitPornography != null)
+        _ToggleItem(
+          icon: Icons.block,
+          title: l10n.addictionAdultContent,
+          subtitle: l10n.settingsNotifyAdultContent,
+          value: settings.notifyPornography,
+          onChanged: (value) => settings.notifyPornography = value,
+          notifyPrefsKey: 'pornography',
+          notifyDisplayName: l10n.addictionAdultContent,
+        ),
+      if (addictions.quitSmoking != null)
+        _ToggleItem(
+          icon: Icons.eco,
+          title: l10n.addictionSmoking,
+          subtitle: l10n.settingsNotifySmoking,
+          value: settings.notifySmoking,
+          onChanged: (value) => settings.notifySmoking = value,
+          notifyPrefsKey: 'smoking',
+          notifyDisplayName: l10n.addictionSmoking,
+        ),
+      if (addictions.quitSocialMedia != null)
+        _ToggleItem(
+          icon: Icons.public,
+          title: l10n.addictionSocialMedia,
+          subtitle: l10n.settingsNotifySocialMedia,
+          value: settings.notifySocialMedia,
+          onChanged: (value) => settings.notifySocialMedia = value,
+          notifyPrefsKey: 'social_media',
+          notifyDisplayName: l10n.addictionSocialMedia,
+        ),
+      if (addictions.quitVaping != null)
+        _ToggleItem(
+          icon: Icons.air,
+          title: l10n.addictionVaping,
+          subtitle: l10n.settingsNotifyVaping,
+          value: settings.notifyVaping,
+          onChanged: (value) => settings.notifyVaping = value,
+          notifyPrefsKey: 'vaping',
+          notifyDisplayName: l10n.addictionVaping,
+        ),
       _ToggleItem(
         icon: Icons.reset_tv,
         title: l10n.settingsResetMessages,
@@ -514,46 +529,32 @@ class _SettingsPageState extends State<SettingsPage> {
         onTap: () => _showNotificationFrequencyDialog(context, settings),
       ),
       const Divider(height: 1),
-      // MASTER NOTIFICATION TOGGLE
       SwitchListTile(
         secondary: const Icon(Icons.notifications_active),
         title: Text(l10n.enableNotifications),
         subtitle: Text(l10n.enableNotificationsSubtitle),
-        value: [
-          settings.notifyAlcohol,
-          settings.notifyVaping,
-          settings.notifySmoking,
-          settings.notifyMarijuana,
-          settings.notifyPouches,
-          settings.notifyOpioids,
-          settings.notifySocialMedia,
-          settings.notifyPornography,
-          settings.notifyCocaine,
-          settings.notifyHeroin,
-          settings.notifyBenzos,
-          settings.notifyMeth,
-          settings.notifyRelapse,
-          settings.notifyAdderall,
-        ].every((v) => v == true),
+        value: allItems.map((item) => item.value).every((v) => v == true),
         onChanged: (value) {
-          settings.notifyAlcohol = value;
-          settings.notifyVaping = value;
-          settings.notifySmoking = value;
-          settings.notifyMarijuana = value;
-          settings.notifyPouches = value;
-          settings.notifyOpioids = value;
-          settings.notifySocialMedia = value;
-          settings.notifyPornography = value;
-          settings.notifyCocaine = value;
-          settings.notifyHeroin = value;
-          settings.notifyBenzos = value;
-          settings.notifyMeth = value;
+          if (addictions.quitAdderall != null) settings.notifyAdderall = value;
+          if (addictions.quitAlcohol != null) settings.notifyAlcohol = value;
+          if (addictions.quitBenzos != null) settings.notifyBenzos = value;
+          if (addictions.quitCocaine != null) settings.notifyCocaine = value;
+          if (addictions.quitHeroin != null) settings.notifyHeroin = value;
+          if (addictions.quitMarijuana != null) settings.notifyMarijuana = value;
+          if (addictions.quitMeth != null) settings.notifyMeth = value;
+          if (addictions.quitPouches != null) settings.notifyPouches = value;
+          if (addictions.quitOpioids != null) settings.notifyOpioids = value;
+          if (addictions.quitPornography != null)
+            settings.notifyPornography = value;
+          if (addictions.quitSmoking != null) settings.notifySmoking = value;
+          if (addictions.quitSocialMedia != null)
+            settings.notifySocialMedia = value;
+          if (addictions.quitVaping != null) settings.notifyVaping = value;
           settings.notifyRelapse = value;
-          settings.notifyAdderall = value;
         },
       ),
       const Divider(height: 1),
-      ..._buildToggleList(notificationItems),
+      ..._buildToggleList(allItems),
     ];
   }
 
