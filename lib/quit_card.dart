@@ -86,10 +86,13 @@ class QuitCard extends StatelessWidget {
                       ),
                     ),
                     const SizedBox(height: 16),
-                    Text(
-                      title,
-                      style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                        fontWeight: FontWeight.w600,
+                    FittedBox(
+                      fit: BoxFit.scaleDown,
+                      alignment: Alignment.centerLeft,
+                      child: Text(
+                        title,
+                        style: Theme.of(context).textTheme.titleMedium
+                            ?.copyWith(fontWeight: FontWeight.w600),
                       ),
                     ),
                     const SizedBox(height: 4),
