@@ -1,0 +1,8 @@
+• add antidepressants as a tracked addiction (#79)
+• add notification toggles for custom entries (#78)
+• Fix persist PIN lockout state and disable app data backup
+• Fix pin glance-appwidget to 1.1.0 to unblock release builds
+• Fix prevent layout shift on PIN error by using fixed-height SizedBox
+• Fix replace broken Mayo Clinic Press link in social media page day 365
+• Fix replace broken optimumjoy.com link in pornography page day 3
+• Fix update broken/redirected reference links across addiction pages
