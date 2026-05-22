@@ -320,11 +320,46 @@ class _SettingsPageState extends State<SettingsPage> {
     final l10n = AppLocalizations.of(context)!;
     return [
       _sectionHeader(l10n.settingsSectionAppearance, context),
-      ListTile(
-        leading: const Icon(Icons.brightness_6),
-        title: Text(l10n.settingsTheme),
-        subtitle: Text(_getTheme(settings.themeMode, context)),
-        onTap: () => _showThemeDialog(context, settings),
+      Padding(
+        padding: const EdgeInsets.fromLTRB(16, 4, 16, 8),
+        child: SegmentedButton<AppThemeMode>(
+          segments: [
+            ButtonSegment(
+              value: AppThemeMode.system,
+              label: Text(l10n.themeSystem),
+              icon: const Icon(Icons.brightness_auto),
+            ),
+            ButtonSegment(
+              value: AppThemeMode.dark,
+              label: Text(l10n.themeDark),
+              icon: const Icon(Icons.dark_mode),
+            ),
+            ButtonSegment(
+              value: AppThemeMode.light,
+              label: Text(l10n.themeLight),
+              icon: const Icon(Icons.light_mode),
+            ),
+          ],
+          selected: {
+            settings.themeMode == AppThemeMode.pureBlack
+                ? AppThemeMode.dark
+                : settings.themeMode,
+          },
+          onSelectionChanged: (selection) {
+            settings.themeMode = selection.first;
+          },
+        ),
+      ),
+      const Divider(height: 1),
+      SwitchListTile(
+        secondary: const Icon(Icons.contrast),
+        title: Text(l10n.themePureBlack),
+        value: settings.themeMode == AppThemeMode.pureBlack,
+        onChanged: (value) {
+          settings.themeMode = value
+              ? AppThemeMode.pureBlack
+              : AppThemeMode.dark;
+        },
       ),
       const Divider(height: 1),
       ListTile(
@@ -718,32 +753,6 @@ class _SettingsPageState extends State<SettingsPage> {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
       child: Text(title, style: Theme.of(context).textTheme.headlineSmall),
-    );
-  }
-
-  String _getTheme(AppThemeMode mode, BuildContext context) {
-    final l10n = AppLocalizations.of(context)!;
-    switch (mode) {
-      case AppThemeMode.light:
-        return l10n.themeLight;
-      case AppThemeMode.dark:
-        return l10n.themeDark;
-      case AppThemeMode.system:
-        return l10n.themeSystem;
-      case AppThemeMode.pureBlack:
-        return l10n.themePureBlack;
-    }
-  }
-
-  void _showThemeDialog(BuildContext context, SettingsProvider settings) {
-    final l10n = AppLocalizations.of(context)!;
-    _showSelectionDialog<AppThemeMode>(
-      context: context,
-      title: l10n.themeMode,
-      currentValue: settings.themeMode,
-      options: AppThemeMode.values,
-      getDisplayName: (mode) => _getTheme(mode, context),
-      onChanged: (value) => settings.themeMode = value,
     );
   }
 

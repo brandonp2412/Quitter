@@ -4,6 +4,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:provider/provider.dart';
 import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:quitter/settings_page.dart';
+import 'package:quitter/app_theme_mode.dart';
 import 'package:quitter/settings_provider.dart';
 import 'package:quitter/addiction_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -74,7 +75,10 @@ void main() {
     testWidgets('displays theme setting', (WidgetTester tester) async {
       await tester.pumpWidget(createTestWidget());
 
-      expect(find.text('Theme'), findsOneWidget);
+      expect(find.byType(SegmentedButton<AppThemeMode>), findsOneWidget);
+      expect(find.text('System'), findsOneWidget);
+      expect(find.text('Dark'), findsOneWidget);
+      expect(find.text('Light'), findsOneWidget);
     });
 
     testWidgets('displays color scheme setting', (WidgetTester tester) async {
@@ -164,16 +168,15 @@ void main() {
       expect(find.text('Import data'), findsOneWidget);
     });
 
-    testWidgets('tapping theme opens dialog', (WidgetTester tester) async {
+    testWidgets('selecting light theme updates settings', (
+      WidgetTester tester,
+    ) async {
       await tester.pumpWidget(createTestWidget());
 
-      await tester.tap(find.text('Theme'));
+      await tester.tap(find.text('Light'));
       await tester.pumpAndSettle();
 
-      expect(find.text('Theme mode'), findsOneWidget);
-      expect(find.text('Light'), findsOneWidget);
-      expect(find.text('Dark'), findsOneWidget);
-      expect(find.text('Pure black'), findsOneWidget);
+      expect(settingsProvider.themeMode, AppThemeMode.light);
     });
 
     testWidgets('tapping color scheme opens dialog', (
@@ -224,18 +227,12 @@ void main() {
       expect(settingsProvider.showJournal, !initialValue);
     });
 
-    testWidgets('canceling theme dialog closes it', (
+    testWidgets('displays pure black AMOLED toggle', (
       WidgetTester tester,
     ) async {
       await tester.pumpWidget(createTestWidget());
 
-      await tester.tap(find.text('Theme'));
-      await tester.pumpAndSettle();
-
-      await tester.tap(find.text('Cancel'));
-      await tester.pumpAndSettle();
-
-      expect(find.text('Theme mode'), findsNothing);
+      expect(find.text('Pure black'), findsOneWidget);
     });
 
     testWidgets('toggling swipe between tabs switch works', (
