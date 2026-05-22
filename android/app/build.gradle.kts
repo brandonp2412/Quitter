@@ -113,6 +113,13 @@ android {
 flutter {
     source = "../.."
 }
+configurations.all {
+    resolutionStrategy {
+        force("androidx.glance:glance:1.1.0")
+        force("androidx.glance:glance-appwidget:1.1.0")
+    }
+}
+
 dependencies {
     implementation("com.google.android.material:material:1.10.0")
     implementation("androidx.appcompat:appcompat:1.7.1")
