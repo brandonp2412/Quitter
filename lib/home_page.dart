@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:quitter/add_addiction_page.dart';
 import 'package:quitter/adderall_page.dart';
+import 'package:quitter/antidepressant_page.dart';
 import 'package:quitter/benzodiazepine_page.dart';
 import 'package:quitter/cocaine_page.dart';
 import 'package:quitter/heroin_page.dart';
@@ -255,6 +256,39 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                           l10n.addictionAdderall,
                           () {
                             addictions.setAddiction('adderall', null);
+                          },
+                        );
+                      },
+                    ),
+                  );
+                }
+
+                if (addictions.quitAntidepressants != null &&
+                    _matchesSearch(l10n.addictionAntidepressants)) {
+                  cards.add(
+                    QuitCard(
+                      context: context,
+                      title: l10n.addictionAntidepressants,
+                      icon: Icons.psychology,
+                      gradientColors: [
+                        const Color(0xFF7C3AED),
+                        const Color(0xFF4F46E5),
+                      ],
+                      quitDate: addictions.quitAntidepressants,
+                      onTap: () async {
+                        await Navigator.of(context).push(
+                          MaterialPageRoute(
+                            builder: (context) =>
+                                const AntidepressantPage(started: true),
+                          ),
+                        );
+                        if (mounted) _loadQuitDays();
+                      },
+                      onLongPress: () {
+                        _showStopTrackingBottomSheet(
+                          l10n.addictionAntidepressants,
+                          () {
+                            addictions.setAddiction('antidepressants', null);
                           },
                         );
                       },

@@ -53,6 +53,7 @@ class SettingsProvider extends ChangeNotifier {
     'heroin': 'show_heroin',
     'benzos': 'show_benzos',
     'adderall': 'show_adderall',
+    'antidepressants': 'show_antidepressants',
   };
 
   static const Map<String, String> _notifyKeys = {
@@ -70,6 +71,7 @@ class SettingsProvider extends ChangeNotifier {
     'heroin': 'notify_heroin',
     'adderall': 'notify_adderall',
     'benzos': 'notify_benzos',
+    'antidepressants': 'notify_antidepressants',
   };
 
   bool _isPinEnabled = false;
@@ -114,6 +116,7 @@ class SettingsProvider extends ChangeNotifier {
   bool get showHeroin => _showSettings['heroin']!;
   bool get showBenzos => _showSettings['benzos']!;
   bool get showAdderall => _showSettings['adderall']!;
+  bool get showAntidepressants => _showSettings['antidepressants']!;
 
   bool get notifyAlcohol => _notifySettings['alcohol']!;
   bool get notifyVaping => _notifySettings['vaping']!;
@@ -129,6 +132,7 @@ class SettingsProvider extends ChangeNotifier {
   bool get notifyAdderall => _notifySettings['adderall']!;
   bool get notifyRelapse => _notifySettings['relapse']!;
   bool get notifyMarijuana => _notifySettings['marijuana']!;
+  bool get notifyAntidepressants => _notifySettings['antidepressants']!;
 
   Future<bool> unlock(String pin) async {
     if (isPinLockoutActive) return false;
@@ -325,6 +329,8 @@ class SettingsProvider extends ChangeNotifier {
       _updateBoolSetting(_showSettings, _showKeys, 'benzos', show);
   set showCocaine(bool show) =>
       _updateBoolSetting(_showSettings, _showKeys, 'cocaine', show);
+  set showAntidepressants(bool show) =>
+      _updateBoolSetting(_showSettings, _showKeys, 'antidepressants', show);
   set showPornography(bool show) =>
       _updateBoolSetting(_showSettings, _showKeys, 'pornography', show);
 
@@ -356,6 +362,12 @@ class SettingsProvider extends ChangeNotifier {
       _updateBoolSetting(_notifySettings, _notifyKeys, 'relapse', notify);
   set notifyMarijuana(bool notify) =>
       _updateBoolSetting(_notifySettings, _notifyKeys, 'marijuana', notify);
+  set notifyAntidepressants(bool notify) => _updateBoolSetting(
+    _notifySettings,
+    _notifyKeys,
+    'antidepressants',
+    notify,
+  );
 
   bool getEntryNotify(String entryId) =>
       _prefs?.getBool('notify_entry_$entryId') ?? true;

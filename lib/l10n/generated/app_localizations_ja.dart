@@ -1768,4 +1768,77 @@ class AppLocalizationsJa extends AppLocalizations {
   @override
   String get customMilestone730Description =>
       '新しい人生を築きました！2年間の回復は、驚くべき回復力とコミットメントを示しています。長期的な断酒・断薬は、人生のあらゆる分野で深い前向きな変化と、再発リスクの大幅な減少をもたらすことが多いです。';
+
+  @override
+  String get addictionAntidepressants => '抗うつ薬';
+
+  @override
+  String get antidepressantsPageTitle => '抗うつ薬からの回復';
+
+  @override
+  String get antidepressantsHeaderStarted => 'あなたの回復の旅';
+
+  @override
+  String get antidepressantsHeaderNotStarted => '抗うつ薬を減薬するメリット';
+
+  @override
+  String get antidepressantsSubtitleStarted => '進捗を記録し、各マイルストーンを祝いましょう';
+
+  @override
+  String get antidepressantsSubtitleNotStarted => '減薬したときに何が起こるかを見てみましょう';
+
+  @override
+  String get antidepressantsMilestone3Title => '3日目：断薬症候群のピーク';
+
+  @override
+  String get antidepressantsMilestone3Description =>
+      '断薬症状は通常2〜4日目にピークを迎えます。インフルエンザ様症状、めまい、不眠、吐き気、「ブレインザップ」と呼ばれる電気ショック感覚を経験するかもしれません。これらは既知の一時的なプロセスの一部です。';
+
+  @override
+  String get antidepressantsMilestone7Title => '1週間：急性期が和らぎ始める';
+
+  @override
+  String get antidepressantsMilestone7Description =>
+      '最も強烈な身体的症状が治まり始めています。脳は薬なしでセロトニンとノルエピネフリンのシグナル伝達を調整し始めています。睡眠と食欲が安定し始めています。';
+
+  @override
+  String get antidepressantsMilestone14Title => '2週間：身体的症状が解消';
+
+  @override
+  String get antidepressantsMilestone14Description =>
+      'ほとんどの急性身体的断薬症状が大幅に軽減または解消されました。ブレインザップ、吐き気、めまいが薄れています。脳が神経伝達物質システムの再バランスを続けているため、感情的な敏感さはまだ高いかもしれません。';
+
+  @override
+  String get antidepressantsMilestone30Title => '1ヶ月：気分とエネルギーが安定';
+
+  @override
+  String get antidepressantsMilestone30Description =>
+      '1ヶ月は重要なマイルストーンです。睡眠の質が改善し、エネルギーレベルが安定し、多くの人が気分が新しい均衡を見つけ始めていることに気づきます。脳は自然な神経伝達物質調節を積極的に回復しています。';
+
+  @override
+  String get antidepressantsMilestone90Title => '3ヶ月：神経化学的再バランス';
+
+  @override
+  String get antidepressantsMilestone90Description =>
+      '3ヶ月は主要な回復のマイルストーンです。セロトニン受容体の感受性が大幅に正常化されています。ほとんどの人は気分、不安、認知機能が意味のある形で改善されていることを実感します。';
+
+  @override
+  String get antidepressantsMilestone180Title => '6ヶ月：長期的な脳の適応';
+
+  @override
+  String get antidepressantsMilestone180Description =>
+      '6ヶ月の回復により、脳は大幅に適応する時間を得ました。セロトニン、ノルエピネフリン、ドーパミンシステムが新しい自然なバランスを見つけています。多くの人がこの段階で感情的に豊かになり、自分の感情とのつながりを感じると報告しています。';
+
+  @override
+  String get antidepressantsMilestone365Title => '1年間：回復達成';
+
+  @override
+  String get antidepressantsMilestone365Description =>
+      '1年間は完全な回復サイクルを示しています。脳は抗うつ薬なしで機能するよう完全に適応しました。この1年間で培った感情的・認知的明晰さは、素晴らしい回復力を示しています。';
+
+  @override
+  String get settingsShowAntidepressantsTracking => '抗うつ薬トラッキングを表示';
+
+  @override
+  String get settingsNotifyAntidepressants => '抗うつ薬禁断進捗を通知';
 }

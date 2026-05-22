@@ -1786,5 +1786,93 @@
   "customMilestone730Description": "You've built a new life! Two years of recovery demonstrates remarkable resilience and commitment. Long-term sobriety often brings profound positive changes in all areas of life and significantly reduced risk of relapse.",
   "@customMilestone730Description": {
     "description": "Custom milestone day 730 description"
+  },
+  "addictionAntidepressants": "Antidepressants",
+  "@addictionAntidepressants": {
+    "description": "Antidepressants addiction name"
+  },
+  "antidepressantsPageTitle": "Antidepressant Recovery",
+  "@antidepressantsPageTitle": {
+    "description": "Antidepressants page title"
+  },
+  "antidepressantsHeaderStarted": "Your Recovery Journey",
+  "@antidepressantsHeaderStarted": {
+    "description": "Antidepressants header when started"
+  },
+  "antidepressantsHeaderNotStarted": "Benefits of Tapering Off Antidepressants",
+  "@antidepressantsHeaderNotStarted": {
+    "description": "Antidepressants header when not started"
+  },
+  "antidepressantsSubtitleStarted": "Track your progress and celebrate each milestone",
+  "@antidepressantsSubtitleStarted": {
+    "description": "Antidepressants subtitle when started"
+  },
+  "antidepressantsSubtitleNotStarted": "See what happens when you taper off",
+  "@antidepressantsSubtitleNotStarted": {
+    "description": "Antidepressants subtitle when not started"
+  },
+  "antidepressantsMilestone3Title": "Day 3: Discontinuation Syndrome Peaks",
+  "@antidepressantsMilestone3Title": {
+    "description": "Antidepressants milestone day 3 title"
+  },
+  "antidepressantsMilestone3Description": "Discontinuation symptoms typically peak around days 2–4. You may experience flu-like symptoms, dizziness, insomnia, nausea, and the characteristic electric shock sensations sometimes called 'brain zaps'. These are a known and temporary part of the process.",
+  "@antidepressantsMilestone3Description": {
+    "description": "Antidepressants milestone day 3 description"
+  },
+  "antidepressantsMilestone7Title": "One Week: Acute Phase Beginning to Ease",
+  "@antidepressantsMilestone7Title": {
+    "description": "Antidepressants milestone day 7 title"
+  },
+  "antidepressantsMilestone7Description": "The most intense physical symptoms are beginning to subside. The brain is starting to adjust its serotonin and norepinephrine signalling to function without the medication. Sleep and appetite are beginning to stabilise.",
+  "@antidepressantsMilestone7Description": {
+    "description": "Antidepressants milestone day 7 description"
+  },
+  "antidepressantsMilestone14Title": "Two Weeks: Physical Symptoms Resolving",
+  "@antidepressantsMilestone14Title": {
+    "description": "Antidepressants milestone day 14 title"
+  },
+  "antidepressantsMilestone14Description": "Most acute physical discontinuation symptoms have significantly reduced or resolved. The brain zaps, nausea, and dizziness are fading. Emotional sensitivity may still be heightened as your brain continues to rebalance its neurotransmitter systems.",
+  "@antidepressantsMilestone14Description": {
+    "description": "Antidepressants milestone day 14 description"
+  },
+  "antidepressantsMilestone30Title": "One Month: Mood and Energy Stabilising",
+  "@antidepressantsMilestone30Title": {
+    "description": "Antidepressants milestone day 30 title"
+  },
+  "antidepressantsMilestone30Description": "One month marks a significant milestone. Sleep quality is improving, energy levels are stabilising, and many people notice their mood beginning to find a new equilibrium. The brain is actively restoring its natural neurotransmitter regulation.",
+  "@antidepressantsMilestone30Description": {
+    "description": "Antidepressants milestone day 30 description"
+  },
+  "antidepressantsMilestone90Title": "Three Months: Neurochemical Rebalancing",
+  "@antidepressantsMilestone90Title": {
+    "description": "Antidepressants milestone day 90 title"
+  },
+  "antidepressantsMilestone90Description": "Three months is a major recovery milestone. Serotonin receptor sensitivity is substantially normalised. Most people find their mood, anxiety, and cognitive function are meaningfully improved. This is an excellent time to consolidate the non-medication coping strategies you have developed.",
+  "@antidepressantsMilestone90Description": {
+    "description": "Antidepressants milestone day 90 description"
+  },
+  "antidepressantsMilestone180Title": "Six Months: Long-Term Brain Adjustment",
+  "@antidepressantsMilestone180Title": {
+    "description": "Antidepressants milestone day 180 title"
+  },
+  "antidepressantsMilestone180Description": "Six months of recovery allows for substantial neurological adjustment. The brain's serotonin, norepinephrine, and dopamine systems have had time to find a new natural balance. Many people report feeling emotionally richer and more connected to their feelings at this stage.",
+  "@antidepressantsMilestone180Description": {
+    "description": "Antidepressants milestone day 180 description"
+  },
+  "antidepressantsMilestone365Title": "One Year: Recovery Achieved",
+  "@antidepressantsMilestone365Title": {
+    "description": "Antidepressants milestone day 365 title"
+  },
+  "antidepressantsMilestone365Description": "One year marks a complete cycle of recovery. Your brain has fully adjusted to functioning without antidepressant medication. The emotional and cognitive clarity you have built through this year demonstrates remarkable resilience.",
+  "@antidepressantsMilestone365Description": {
+    "description": "Antidepressants milestone day 365 description"
+  },
+  "settingsShowAntidepressantsTracking": "Show antidepressants tracking",
+  "@settingsShowAntidepressantsTracking": {
+    "description": "Settings label for showing antidepressants tracking"
+  },
+  "settingsNotifyAntidepressants": "Notify antidepressants quitting progress",
+  "@settingsNotifyAntidepressants": {
+    "description": "Settings label for antidepressants notifications"
   }
 }

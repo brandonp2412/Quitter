@@ -1768,4 +1768,77 @@ class AppLocalizationsZh extends AppLocalizations {
   @override
   String get customMilestone730Description =>
       '您已经建立了新生活！两年的康复展示了非凡的韧性和承诺。长期清醒通常会带来生活各个方面的深刻积极变化，并显著降低复发风险。';
+
+  @override
+  String get addictionAntidepressants => '抗抑郁药';
+
+  @override
+  String get antidepressantsPageTitle => '抗抑郁药康复';
+
+  @override
+  String get antidepressantsHeaderStarted => '您的康复之旅';
+
+  @override
+  String get antidepressantsHeaderNotStarted => '逐渐停用抗抑郁药的好处';
+
+  @override
+  String get antidepressantsSubtitleStarted => '追踪您的进度并庆祝每个里程碑';
+
+  @override
+  String get antidepressantsSubtitleNotStarted => '看看停药后会发生什么';
+
+  @override
+  String get antidepressantsMilestone3Title => '第3天：停药综合征达到峰值';
+
+  @override
+  String get antidepressantsMilestone3Description =>
+      '停药症状通常在第2-4天达到峰值。您可能会经历流感样症状、头晕、失眠、恶心以及特征性的电击感（有时称为\"脑闪\"）。这些都是已知且暂时的过程。';
+
+  @override
+  String get antidepressantsMilestone7Title => '一周：急性期开始缓解';
+
+  @override
+  String get antidepressantsMilestone7Description =>
+      '最强烈的身体症状开始减轻。大脑开始调整血清素和去甲肾上腺素信号传导，以便在没有药物的情况下运作。睡眠和食欲开始稳定。';
+
+  @override
+  String get antidepressantsMilestone14Title => '两周：身体症状消退';
+
+  @override
+  String get antidepressantsMilestone14Description =>
+      '大多数急性身体停药症状已显著减少或消退。脑闪、恶心和头晕正在消失。随着大脑继续重新平衡其神经递质系统，情绪敏感性可能仍然较高。';
+
+  @override
+  String get antidepressantsMilestone30Title => '一个月：情绪和精力趋于稳定';
+
+  @override
+  String get antidepressantsMilestone30Description =>
+      '一个月是一个重要的里程碑。睡眠质量在改善，精力水平在稳定，许多人注意到情绪开始找到新的平衡。大脑正在积极恢复其自然的神经递质调节。';
+
+  @override
+  String get antidepressantsMilestone90Title => '三个月：神经化学重新平衡';
+
+  @override
+  String get antidepressantsMilestone90Description =>
+      '三个月是一个重大的康复里程碑。血清素受体敏感性已大幅正常化。大多数人发现情绪、焦虑和认知功能都有明显改善。';
+
+  @override
+  String get antidepressantsMilestone180Title => '六个月：大脑长期调整';
+
+  @override
+  String get antidepressantsMilestone180Description =>
+      '六个月的康复使大脑有时间进行实质性调整。血清素、去甲肾上腺素和多巴胺系统已经找到了新的自然平衡。许多人在这个阶段报告感觉情感上更丰富，与自己的感受更连接。';
+
+  @override
+  String get antidepressantsMilestone365Title => '一年：康复实现';
+
+  @override
+  String get antidepressantsMilestone365Description =>
+      '一年标志着一个完整的康复周期。您的大脑已完全适应在没有抗抑郁药的情况下运作。这一年中建立的情感和认知清晰度展示了非凡的韧性。';
+
+  @override
+  String get settingsShowAntidepressantsTracking => '显示抗抑郁药追踪';
+
+  @override
+  String get settingsNotifyAntidepressants => '通知抗抑郁药戒断进度';
 }

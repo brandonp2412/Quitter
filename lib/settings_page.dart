@@ -387,6 +387,16 @@ class _SettingsPageState extends State<SettingsPage> {
           notifyPrefsKey: 'adderall',
           notifyDisplayName: l10n.addictionAdderall,
         ),
+      if (addictions.quitAntidepressants != null)
+        _ToggleItem(
+          icon: Icons.psychology,
+          title: l10n.addictionAntidepressants,
+          subtitle: l10n.settingsNotifyAntidepressants,
+          value: settings.notifyAntidepressants,
+          onChanged: (value) => settings.notifyAntidepressants = value,
+          notifyPrefsKey: 'antidepressants',
+          notifyDisplayName: l10n.addictionAntidepressants,
+        ),
       if (addictions.quitAlcohol != null)
         _ToggleItem(
           icon: Icons.local_bar,

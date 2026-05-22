@@ -3255,6 +3255,138 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'You\'ve built a new life! Two years of recovery demonstrates remarkable resilience and commitment. Long-term sobriety often brings profound positive changes in all areas of life and significantly reduced risk of relapse.'**
   String get customMilestone730Description;
+
+  /// Antidepressants addiction name
+  ///
+  /// In en, this message translates to:
+  /// **'Antidepressants'**
+  String get addictionAntidepressants;
+
+  /// Antidepressants page title
+  ///
+  /// In en, this message translates to:
+  /// **'Antidepressant Recovery'**
+  String get antidepressantsPageTitle;
+
+  /// Antidepressants header when started
+  ///
+  /// In en, this message translates to:
+  /// **'Your Recovery Journey'**
+  String get antidepressantsHeaderStarted;
+
+  /// Antidepressants header when not started
+  ///
+  /// In en, this message translates to:
+  /// **'Benefits of Tapering Off Antidepressants'**
+  String get antidepressantsHeaderNotStarted;
+
+  /// Antidepressants subtitle when started
+  ///
+  /// In en, this message translates to:
+  /// **'Track your progress and celebrate each milestone'**
+  String get antidepressantsSubtitleStarted;
+
+  /// Antidepressants subtitle when not started
+  ///
+  /// In en, this message translates to:
+  /// **'See what happens when you taper off'**
+  String get antidepressantsSubtitleNotStarted;
+
+  /// Antidepressants milestone day 3 title
+  ///
+  /// In en, this message translates to:
+  /// **'Day 3: Discontinuation Syndrome Peaks'**
+  String get antidepressantsMilestone3Title;
+
+  /// Antidepressants milestone day 3 description
+  ///
+  /// In en, this message translates to:
+  /// **'Discontinuation symptoms typically peak around days 2–4. You may experience flu-like symptoms, dizziness, insomnia, nausea, and the characteristic electric shock sensations sometimes called \'brain zaps\'. These are a known and temporary part of the process.'**
+  String get antidepressantsMilestone3Description;
+
+  /// Antidepressants milestone day 7 title
+  ///
+  /// In en, this message translates to:
+  /// **'One Week: Acute Phase Beginning to Ease'**
+  String get antidepressantsMilestone7Title;
+
+  /// Antidepressants milestone day 7 description
+  ///
+  /// In en, this message translates to:
+  /// **'The most intense physical symptoms are beginning to subside. The brain is starting to adjust its serotonin and norepinephrine signalling to function without the medication. Sleep and appetite are beginning to stabilise.'**
+  String get antidepressantsMilestone7Description;
+
+  /// Antidepressants milestone day 14 title
+  ///
+  /// In en, this message translates to:
+  /// **'Two Weeks: Physical Symptoms Resolving'**
+  String get antidepressantsMilestone14Title;
+
+  /// Antidepressants milestone day 14 description
+  ///
+  /// In en, this message translates to:
+  /// **'Most acute physical discontinuation symptoms have significantly reduced or resolved. The brain zaps, nausea, and dizziness are fading. Emotional sensitivity may still be heightened as your brain continues to rebalance its neurotransmitter systems.'**
+  String get antidepressantsMilestone14Description;
+
+  /// Antidepressants milestone day 30 title
+  ///
+  /// In en, this message translates to:
+  /// **'One Month: Mood and Energy Stabilising'**
+  String get antidepressantsMilestone30Title;
+
+  /// Antidepressants milestone day 30 description
+  ///
+  /// In en, this message translates to:
+  /// **'One month marks a significant milestone. Sleep quality is improving, energy levels are stabilising, and many people notice their mood beginning to find a new equilibrium. The brain is actively restoring its natural neurotransmitter regulation.'**
+  String get antidepressantsMilestone30Description;
+
+  /// Antidepressants milestone day 90 title
+  ///
+  /// In en, this message translates to:
+  /// **'Three Months: Neurochemical Rebalancing'**
+  String get antidepressantsMilestone90Title;
+
+  /// Antidepressants milestone day 90 description
+  ///
+  /// In en, this message translates to:
+  /// **'Three months is a major recovery milestone. Serotonin receptor sensitivity is substantially normalised. Most people find their mood, anxiety, and cognitive function are meaningfully improved. This is an excellent time to consolidate the non-medication coping strategies you have developed.'**
+  String get antidepressantsMilestone90Description;
+
+  /// Antidepressants milestone day 180 title
+  ///
+  /// In en, this message translates to:
+  /// **'Six Months: Long-Term Brain Adjustment'**
+  String get antidepressantsMilestone180Title;
+
+  /// Antidepressants milestone day 180 description
+  ///
+  /// In en, this message translates to:
+  /// **'Six months of recovery allows for substantial neurological adjustment. The brain\'s serotonin, norepinephrine, and dopamine systems have had time to find a new natural balance. Many people report feeling emotionally richer and more connected to their feelings at this stage.'**
+  String get antidepressantsMilestone180Description;
+
+  /// Antidepressants milestone day 365 title
+  ///
+  /// In en, this message translates to:
+  /// **'One Year: Recovery Achieved'**
+  String get antidepressantsMilestone365Title;
+
+  /// Antidepressants milestone day 365 description
+  ///
+  /// In en, this message translates to:
+  /// **'One year marks a complete cycle of recovery. Your brain has fully adjusted to functioning without antidepressant medication. The emotional and cognitive clarity you have built through this year demonstrates remarkable resilience.'**
+  String get antidepressantsMilestone365Description;
+
+  /// Settings label for showing antidepressants tracking
+  ///
+  /// In en, this message translates to:
+  /// **'Show antidepressants tracking'**
+  String get settingsShowAntidepressantsTracking;
+
+  /// Settings label for antidepressants notifications
+  ///
+  /// In en, this message translates to:
+  /// **'Notify antidepressants quitting progress'**
+  String get settingsNotifyAntidepressants;
 }
 
 class _AppLocalizationsDelegate

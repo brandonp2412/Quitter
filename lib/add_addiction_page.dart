@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 import 'package:quitter/adderall_page.dart';
 import 'package:quitter/addiction_provider.dart';
 import 'package:quitter/alcohol_page.dart';
+import 'package:quitter/antidepressant_page.dart';
 import 'package:quitter/benzodiazepine_page.dart';
 import 'package:quitter/cocaine_page.dart';
 import 'package:quitter/edit_entry_page.dart';
@@ -48,6 +49,16 @@ class AddAddictionPage extends StatelessWidget {
           icon: Icons.lightbulb_outline,
           gradientColors: [const Color(0xFFFF8C42), const Color(0xFFFF6B35)],
           destination: const AdderallPage(started: false),
+        ),
+      );
+    }
+    if (addictions.quitAntidepressants == null) {
+      options.add(
+        _AddictionOption(
+          title: l10n.addictionAntidepressants,
+          icon: Icons.psychology,
+          gradientColors: [const Color(0xFF7C3AED), const Color(0xFF4F46E5)],
+          destination: const AntidepressantPage(started: false),
         ),
       );
     }

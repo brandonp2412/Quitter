@@ -198,6 +198,7 @@ Future<void> notifyProgress(FlutterLocalNotificationsPlugin plugin) async {
   final random = Random();
 
   final List<Map<String, String>> journeys = [
+    {'key': 'antidepressants', 'name': 'Antidepressants'},
     {'key': 'alcohol', 'name': 'Alcohol'},
     {'key': 'vaping', 'name': 'Vaping'},
     {'key': 'smoking', 'name': 'Smoking'},

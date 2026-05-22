@@ -1760,5 +1760,93 @@
   "customMilestone730Description": "新しい人生を築きました！2年間の回復は、驚くべき回復力とコミットメントを示しています。長期的な断酒・断薬は、人生のあらゆる分野で深い前向きな変化と、再発リスクの大幅な減少をもたらすことが多いです。",
   "@customMilestone730Description": {
     "description": "Custom milestone day 730 description"
+  },
+  "addictionAntidepressants": "抗うつ薬",
+  "@addictionAntidepressants": {
+    "description": "Antidepressants addiction name"
+  },
+  "antidepressantsPageTitle": "抗うつ薬からの回復",
+  "@antidepressantsPageTitle": {
+    "description": "Antidepressants page title"
+  },
+  "antidepressantsHeaderStarted": "あなたの回復の旅",
+  "@antidepressantsHeaderStarted": {
+    "description": "Antidepressants header when started"
+  },
+  "antidepressantsHeaderNotStarted": "抗うつ薬を減薬するメリット",
+  "@antidepressantsHeaderNotStarted": {
+    "description": "Antidepressants header when not started"
+  },
+  "antidepressantsSubtitleStarted": "進捗を記録し、各マイルストーンを祝いましょう",
+  "@antidepressantsSubtitleStarted": {
+    "description": "Antidepressants subtitle when started"
+  },
+  "antidepressantsSubtitleNotStarted": "減薬したときに何が起こるかを見てみましょう",
+  "@antidepressantsSubtitleNotStarted": {
+    "description": "Antidepressants subtitle when not started"
+  },
+  "antidepressantsMilestone3Title": "3日目：断薬症候群のピーク",
+  "@antidepressantsMilestone3Title": {
+    "description": "Antidepressants milestone day 3 title"
+  },
+  "antidepressantsMilestone3Description": "断薬症状は通常2〜4日目にピークを迎えます。インフルエンザ様症状、めまい、不眠、吐き気、「ブレインザップ」と呼ばれる電気ショック感覚を経験するかもしれません。これらは既知の一時的なプロセスの一部です。",
+  "@antidepressantsMilestone3Description": {
+    "description": "Antidepressants milestone day 3 description"
+  },
+  "antidepressantsMilestone7Title": "1週間：急性期が和らぎ始める",
+  "@antidepressantsMilestone7Title": {
+    "description": "Antidepressants milestone day 7 title"
+  },
+  "antidepressantsMilestone7Description": "最も強烈な身体的症状が治まり始めています。脳は薬なしでセロトニンとノルエピネフリンのシグナル伝達を調整し始めています。睡眠と食欲が安定し始めています。",
+  "@antidepressantsMilestone7Description": {
+    "description": "Antidepressants milestone day 7 description"
+  },
+  "antidepressantsMilestone14Title": "2週間：身体的症状が解消",
+  "@antidepressantsMilestone14Title": {
+    "description": "Antidepressants milestone day 14 title"
+  },
+  "antidepressantsMilestone14Description": "ほとんどの急性身体的断薬症状が大幅に軽減または解消されました。ブレインザップ、吐き気、めまいが薄れています。脳が神経伝達物質システムの再バランスを続けているため、感情的な敏感さはまだ高いかもしれません。",
+  "@antidepressantsMilestone14Description": {
+    "description": "Antidepressants milestone day 14 description"
+  },
+  "antidepressantsMilestone30Title": "1ヶ月：気分とエネルギーが安定",
+  "@antidepressantsMilestone30Title": {
+    "description": "Antidepressants milestone day 30 title"
+  },
+  "antidepressantsMilestone30Description": "1ヶ月は重要なマイルストーンです。睡眠の質が改善し、エネルギーレベルが安定し、多くの人が気分が新しい均衡を見つけ始めていることに気づきます。脳は自然な神経伝達物質調節を積極的に回復しています。",
+  "@antidepressantsMilestone30Description": {
+    "description": "Antidepressants milestone day 30 description"
+  },
+  "antidepressantsMilestone90Title": "3ヶ月：神経化学的再バランス",
+  "@antidepressantsMilestone90Title": {
+    "description": "Antidepressants milestone day 90 title"
+  },
+  "antidepressantsMilestone90Description": "3ヶ月は主要な回復のマイルストーンです。セロトニン受容体の感受性が大幅に正常化されています。ほとんどの人は気分、不安、認知機能が意味のある形で改善されていることを実感します。",
+  "@antidepressantsMilestone90Description": {
+    "description": "Antidepressants milestone day 90 description"
+  },
+  "antidepressantsMilestone180Title": "6ヶ月：長期的な脳の適応",
+  "@antidepressantsMilestone180Title": {
+    "description": "Antidepressants milestone day 180 title"
+  },
+  "antidepressantsMilestone180Description": "6ヶ月の回復により、脳は大幅に適応する時間を得ました。セロトニン、ノルエピネフリン、ドーパミンシステムが新しい自然なバランスを見つけています。多くの人がこの段階で感情的に豊かになり、自分の感情とのつながりを感じると報告しています。",
+  "@antidepressantsMilestone180Description": {
+    "description": "Antidepressants milestone day 180 description"
+  },
+  "antidepressantsMilestone365Title": "1年間：回復達成",
+  "@antidepressantsMilestone365Title": {
+    "description": "Antidepressants milestone day 365 title"
+  },
+  "antidepressantsMilestone365Description": "1年間は完全な回復サイクルを示しています。脳は抗うつ薬なしで機能するよう完全に適応しました。この1年間で培った感情的・認知的明晰さは、素晴らしい回復力を示しています。",
+  "@antidepressantsMilestone365Description": {
+    "description": "Antidepressants milestone day 365 description"
+  },
+  "settingsShowAntidepressantsTracking": "抗うつ薬トラッキングを表示",
+  "@settingsShowAntidepressantsTracking": {
+    "description": "Settings label for showing antidepressants tracking"
+  },
+  "settingsNotifyAntidepressants": "抗うつ薬禁断進捗を通知",
+  "@settingsNotifyAntidepressants": {
+    "description": "Settings label for antidepressants notifications"
   }
 }

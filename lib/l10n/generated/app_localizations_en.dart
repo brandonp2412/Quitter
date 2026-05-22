@@ -1815,4 +1815,88 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get customMilestone730Description =>
       'You\'ve built a new life! Two years of recovery demonstrates remarkable resilience and commitment. Long-term sobriety often brings profound positive changes in all areas of life and significantly reduced risk of relapse.';
+
+  @override
+  String get addictionAntidepressants => 'Antidepressants';
+
+  @override
+  String get antidepressantsPageTitle => 'Antidepressant Recovery';
+
+  @override
+  String get antidepressantsHeaderStarted => 'Your Recovery Journey';
+
+  @override
+  String get antidepressantsHeaderNotStarted =>
+      'Benefits of Tapering Off Antidepressants';
+
+  @override
+  String get antidepressantsSubtitleStarted =>
+      'Track your progress and celebrate each milestone';
+
+  @override
+  String get antidepressantsSubtitleNotStarted =>
+      'See what happens when you taper off';
+
+  @override
+  String get antidepressantsMilestone3Title =>
+      'Day 3: Discontinuation Syndrome Peaks';
+
+  @override
+  String get antidepressantsMilestone3Description =>
+      'Discontinuation symptoms typically peak around days 2–4. You may experience flu-like symptoms, dizziness, insomnia, nausea, and the characteristic electric shock sensations sometimes called \'brain zaps\'. These are a known and temporary part of the process.';
+
+  @override
+  String get antidepressantsMilestone7Title =>
+      'One Week: Acute Phase Beginning to Ease';
+
+  @override
+  String get antidepressantsMilestone7Description =>
+      'The most intense physical symptoms are beginning to subside. The brain is starting to adjust its serotonin and norepinephrine signalling to function without the medication. Sleep and appetite are beginning to stabilise.';
+
+  @override
+  String get antidepressantsMilestone14Title =>
+      'Two Weeks: Physical Symptoms Resolving';
+
+  @override
+  String get antidepressantsMilestone14Description =>
+      'Most acute physical discontinuation symptoms have significantly reduced or resolved. The brain zaps, nausea, and dizziness are fading. Emotional sensitivity may still be heightened as your brain continues to rebalance its neurotransmitter systems.';
+
+  @override
+  String get antidepressantsMilestone30Title =>
+      'One Month: Mood and Energy Stabilising';
+
+  @override
+  String get antidepressantsMilestone30Description =>
+      'One month marks a significant milestone. Sleep quality is improving, energy levels are stabilising, and many people notice their mood beginning to find a new equilibrium. The brain is actively restoring its natural neurotransmitter regulation.';
+
+  @override
+  String get antidepressantsMilestone90Title =>
+      'Three Months: Neurochemical Rebalancing';
+
+  @override
+  String get antidepressantsMilestone90Description =>
+      'Three months is a major recovery milestone. Serotonin receptor sensitivity is substantially normalised. Most people find their mood, anxiety, and cognitive function are meaningfully improved. This is an excellent time to consolidate the non-medication coping strategies you have developed.';
+
+  @override
+  String get antidepressantsMilestone180Title =>
+      'Six Months: Long-Term Brain Adjustment';
+
+  @override
+  String get antidepressantsMilestone180Description =>
+      'Six months of recovery allows for substantial neurological adjustment. The brain\'s serotonin, norepinephrine, and dopamine systems have had time to find a new natural balance. Many people report feeling emotionally richer and more connected to their feelings at this stage.';
+
+  @override
+  String get antidepressantsMilestone365Title => 'One Year: Recovery Achieved';
+
+  @override
+  String get antidepressantsMilestone365Description =>
+      'One year marks a complete cycle of recovery. Your brain has fully adjusted to functioning without antidepressant medication. The emotional and cognitive clarity you have built through this year demonstrates remarkable resilience.';
+
+  @override
+  String get settingsShowAntidepressantsTracking =>
+      'Show antidepressants tracking';
+
+  @override
+  String get settingsNotifyAntidepressants =>
+      'Notify antidepressants quitting progress';
 }
