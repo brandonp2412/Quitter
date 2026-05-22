@@ -321,7 +321,7 @@ class _SettingsPageState extends State<SettingsPage> {
     return [
       _sectionHeader(l10n.settingsSectionAppearance, context),
       Padding(
-        padding: const EdgeInsets.fromLTRB(16, 4, 16, 8),
+        padding: const EdgeInsets.only(top: 4, bottom: 8),
         child: SegmentedButton<AppThemeMode>(
           segments: [
             ButtonSegment(
