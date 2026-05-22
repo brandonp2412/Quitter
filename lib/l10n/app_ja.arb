@@ -472,6 +472,15 @@
   "@settingsNotifyAdultContent": {
     "description": "Setting subtitle for adult content notifications"
   },
+  "settingsNotifyCustomEntry": "{name}禁止の進捗を通知",
+  "@settingsNotifyCustomEntry": {
+    "description": "Setting subtitle for custom entry notifications",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "settingsResetMessages": "リセットメッセージ",
   "@settingsResetMessages": {
     "description": "Setting title for reset messages"

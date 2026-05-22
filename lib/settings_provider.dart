@@ -356,4 +356,12 @@ class SettingsProvider extends ChangeNotifier {
       _updateBoolSetting(_notifySettings, _notifyKeys, 'relapse', notify);
   set notifyMarijuana(bool notify) =>
       _updateBoolSetting(_notifySettings, _notifyKeys, 'marijuana', notify);
+
+  bool getEntryNotify(String entryId) =>
+      _prefs?.getBool('notify_entry_$entryId') ?? true;
+
+  void setEntryNotify(String entryId, bool value) {
+    _prefs?.setBool('notify_entry_$entryId', value);
+    notifyListeners();
+  }
 }

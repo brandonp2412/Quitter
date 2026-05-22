@@ -507,6 +507,16 @@ class _SettingsPageState extends State<SettingsPage> {
           notifyPrefsKey: 'vaping',
           notifyDisplayName: l10n.addictionVaping,
         ),
+      for (final entry in addictions.entries)
+        _ToggleItem(
+          icon: entry.icon ?? Icons.star_outline,
+          title: entry.title,
+          subtitle: l10n.settingsNotifyCustomEntry(entry.title),
+          value: settings.getEntryNotify(entry.id),
+          onChanged: (value) => settings.setEntryNotify(entry.id, value),
+          notifyDisplayName: entry.title,
+          notifyQuitDate: entry.quitDate.toIso8601String(),
+        ),
       _ToggleItem(
         icon: Icons.reset_tv,
         title: l10n.settingsResetMessages,
@@ -900,13 +910,18 @@ class _SettingsPageState extends State<SettingsPage> {
           value: item.value,
           onChanged: (value) {
             item.onChanged(value);
-            if (value &&
-                item.notifyPrefsKey != null &&
-                item.notifyDisplayName != null) {
-              testAddictionNotification(
-                item.notifyPrefsKey!,
-                item.notifyDisplayName!,
-              );
+            if (value && item.notifyDisplayName != null) {
+              if (item.notifyPrefsKey != null) {
+                testAddictionNotification(
+                  item.notifyPrefsKey!,
+                  item.notifyDisplayName!,
+                );
+              } else if (item.notifyQuitDate != null) {
+                testCustomEntryNotification(
+                  item.notifyDisplayName!,
+                  item.notifyQuitDate!,
+                );
+              }
             }
           },
         ),
@@ -931,7 +946,13 @@ class _ToggleItem {
   /// When set, enabling this toggle fires a preview notification using the real
   /// days-clean count stored under [notifyPrefsKey] in SharedPreferences.
   final String? notifyPrefsKey;
+
+  /// Display name used in the preview notification title.
   final String? notifyDisplayName;
+
+  /// When set (for custom entries), fires a preview notification using this
+  /// quit date ISO string directly instead of loading from SharedPreferences.
+  final String? notifyQuitDate;
 
   const _ToggleItem({
     required this.icon,
@@ -941,5 +962,6 @@ class _ToggleItem {
     required this.onChanged,
     this.notifyPrefsKey,
     this.notifyDisplayName,
+    this.notifyQuitDate,
   });
 }

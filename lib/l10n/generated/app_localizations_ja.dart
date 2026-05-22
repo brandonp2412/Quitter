@@ -735,6 +735,11 @@ class AppLocalizationsJa extends AppLocalizations {
   String get settingsNotifyAdultContent => 'アダルトコンテンツ禁止の進捗を通知';
 
   @override
+  String settingsNotifyCustomEntry(String name) {
+    return '$name禁止の進捗を通知';
+  }
+
+  @override
   String get settingsResetMessages => 'リセットメッセージ';
 
   @override

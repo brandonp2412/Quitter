@@ -735,6 +735,11 @@ class AppLocalizationsZh extends AppLocalizations {
   String get settingsNotifyAdultContent => '通知戒成人内容进度';
 
   @override
+  String settingsNotifyCustomEntry(String name) {
+    return '通知$name戒除进度';
+  }
+
+  @override
   String get settingsResetMessages => '重置消息';
 
   @override

@@ -498,6 +498,15 @@
   "@settingsNotifyAdultContent": {
     "description": "Setting subtitle for adult content notifications"
   },
+  "settingsNotifyCustomEntry": "Notify {name} quitting progress",
+  "@settingsNotifyCustomEntry": {
+    "description": "Setting subtitle for custom entry notifications",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "settingsResetMessages": "Reset messages",
   "@settingsResetMessages": {
     "description": "Setting title for reset messages"

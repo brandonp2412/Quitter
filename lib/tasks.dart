@@ -108,6 +108,20 @@ Future<void> testAddictionNotification(
   );
 }
 
+/// Fires a preview notification for a custom entry using its quit date directly.
+Future<void> testCustomEntryNotification(
+  String displayName,
+  String quitDateIso,
+) async {
+  final days = daysCeil(quitDateIso);
+  final plugin = await _initializeNotificationPlugin();
+  await _showNotification(
+    plugin,
+    'No ${displayName.toLowerCase()}',
+    '$days days clean — Keep up the amazing work!',
+  );
+}
+
 /// Initialize notification plugin based on platform
 Future<FlutterLocalNotificationsPlugin> _initializeNotificationPlugin() async {
   final plugin = FlutterLocalNotificationsPlugin();
@@ -219,19 +233,31 @@ Future<void> notifyProgress(FlutterLocalNotificationsPlugin plugin) async {
   final addiction = AddictionProvider();
   await addiction.loadAddictions();
 
-  if (activeJourneys.isEmpty && addiction.entries.isEmpty) return;
+  final activeEntries = addiction.entries
+      .where((e) => prefs.getBool('notify_entry_${e.id}') != false)
+      .toList();
 
-  final randomJourney = activeJourneys[random.nextInt(activeJourneys.length)];
-  final journeyDate = prefs.getString(randomJourney['key']!);
-  final journeyCount = daysCeil(journeyDate!);
+  if (activeJourneys.isEmpty && activeEntries.isEmpty) return;
 
   final randomMessage = messages[random.nextInt(messages.length)];
-  var notificationTitle = "No ${randomJourney['name']!.toLowerCase()}";
-  var notificationBody = "$journeyCount days clean — $randomMessage";
+  String notificationTitle;
+  String notificationBody;
 
-  if (addiction.entries.isNotEmpty && random.nextBool()) {
-    final randomEntry =
-        addiction.entries[random.nextInt(addiction.entries.length)];
+  if (activeJourneys.isNotEmpty &&
+      activeEntries.isNotEmpty &&
+      random.nextBool()) {
+    final randomEntry = activeEntries[random.nextInt(activeEntries.length)];
+    final entryCount = daysCeil(randomEntry.quitDate.toIso8601String());
+    notificationTitle = "No ${randomEntry.title}";
+    notificationBody = "$entryCount days clean — $randomMessage";
+  } else if (activeJourneys.isNotEmpty) {
+    final randomJourney = activeJourneys[random.nextInt(activeJourneys.length)];
+    final journeyDate = prefs.getString(randomJourney['key']!);
+    final journeyCount = daysCeil(journeyDate!);
+    notificationTitle = "No ${randomJourney['name']!.toLowerCase()}";
+    notificationBody = "$journeyCount days clean — $randomMessage";
+  } else {
+    final randomEntry = activeEntries[random.nextInt(activeEntries.length)];
     final entryCount = daysCeil(randomEntry.quitDate.toIso8601String());
     notificationTitle = "No ${randomEntry.title}";
     notificationBody = "$entryCount days clean — $randomMessage";

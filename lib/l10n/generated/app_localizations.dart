@@ -1402,6 +1402,12 @@ abstract class AppLocalizations {
   /// **'Notify adult content quitting progress'**
   String get settingsNotifyAdultContent;
 
+  /// Setting subtitle for custom entry notifications
+  ///
+  /// In en, this message translates to:
+  /// **'Notify {name} quitting progress'**
+  String settingsNotifyCustomEntry(String name);
+
   /// Setting title for reset messages
   ///
   /// In en, this message translates to:

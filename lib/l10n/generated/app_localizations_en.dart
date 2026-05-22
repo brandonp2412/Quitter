@@ -742,6 +742,11 @@ class AppLocalizationsEn extends AppLocalizations {
       'Notify adult content quitting progress';
 
   @override
+  String settingsNotifyCustomEntry(String name) {
+    return 'Notify $name quitting progress';
+  }
+
+  @override
   String get settingsResetMessages => 'Reset messages';
 
   @override
