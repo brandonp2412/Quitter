@@ -136,7 +136,7 @@ class MarijuanaPage extends StatelessWidget {
         title: l10n.marijuanaMilestone60Title,
         description: l10n.marijuanaMilestone60Description,
         reference: "NCBI - Impact of Abstinence on Cannabis-Related Cognition",
-        link: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7483189/",
+        link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC7483189/",
         referenceDate: "March 2026",
         referenceContent:
             "Two Months Without Cannabis: Concentration Sharpens\n\n"
@@ -159,7 +159,7 @@ class MarijuanaPage extends StatelessWidget {
         title: l10n.marijuanaMilestone90Title,
         description: l10n.marijuanaMilestone90Description,
         reference: "NCBI - Clinical Management of Cannabis Withdrawal",
-        link: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9110555/",
+        link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9110555/",
         referenceDate: "March 2026",
         referenceContent:
             "Three Months Without Cannabis: Mood Stability Returns\n\n"
@@ -182,7 +182,7 @@ class MarijuanaPage extends StatelessWidget {
         title: l10n.marijuanaMilestone180Title,
         description: l10n.marijuanaMilestone180Description,
         reference: "NCBI - Cannabis Effects on Executive Function",
-        link: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3037578/",
+        link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3037578/",
         referenceDate: "March 2026",
         referenceContent:
             "Six Months Without Cannabis: Executive Function Recovery\n\n"

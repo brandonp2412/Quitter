@@ -72,7 +72,7 @@ class PornographyPage extends StatelessWidget {
         description: l10n.pornographyMilestone7Description,
         reference: "Tech Lockdown - Porn Addiction Recovery Timeline Guide",
         link:
-            "https://www.techlockdown.com/guides/porn-addiction-recovery-timeline",
+            "https://www.techlockdown.com/articles/porn-addiction-recovery-timeline",
         referenceDate: "March 2026",
         referenceContent:
             "One Week Without Pornography: Sleep Improves\n\n"

@@ -202,7 +202,7 @@ class VapingPage extends StatelessWidget {
         reference:
             "Hobsonville Point Dental - The Effects of Vaping on Your Oral Health",
         link:
-            "https://www.hobsonvillepointdental.co.nz/blog/news/the-effects-vaping-has-on-your-oral-health.html",
+            "https://www.hobsonvillepointdental.co.nz/blog/the-effects-vaping-has-on-your-oral-health/",
         referenceDate: "March 2026",
         referenceContent:
             "Six Months Without Vaping: Oral Health Recovers\n\n"

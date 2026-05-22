@@ -149,7 +149,7 @@ class SocialMediaPage extends StatelessWidget {
         title: l10n.socialMediaMilestone60Title,
         description: l10n.socialMediaMilestone60Description,
         reference: "McLean Hospital - How Social Media Affects Mental Health",
-        link: "https://www.mcleanhospital.org/essential/social-media",
+        link: "https://deconstructingstigma.org/guides/social-media",
         referenceDate: "March 2026",
         referenceContent:
             "Two Months Without Social Media: Identity and Self-Worth\n\n"
