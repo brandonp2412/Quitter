@@ -40,9 +40,8 @@ class PornographyPage extends StatelessWidget {
         day: 3,
         title: l10n.pornographyMilestone3Title,
         description: l10n.pornographyMilestone3Description,
-        reference: "Optimum Joy - Recognising Porn Withdrawal Symptoms",
-        link:
-            "https://optimumjoy.com/blog/recognizing-porn-withdrawal-symptoms/",
+        reference: "Addiction Help - Porn Withdrawal Symptoms",
+        link: "https://www.addictionhelp.com/porn/withdrawal-symptoms/",
         referenceDate: "March 2026",
         referenceContent:
             "Day Three: Recognising Withdrawal Symptoms\n\n"
