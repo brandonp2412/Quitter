@@ -754,9 +754,12 @@
   "@pinPageIncorrectPIN": {
     "description": "Error message for incorrect PIN"
   },
-  "pinPageTooManyAttempts": "尝试次数过多。请等待 30 秒。",
+  "pinPageTooManyAttempts": "尝试次数过多。请在 {seconds} 秒后重试。",
   "@pinPageTooManyAttempts": {
-    "description": "Error message when too many failed PIN attempts"
+    "description": "Error message when too many failed PIN attempts, showing remaining lockout seconds",
+    "placeholders": {
+      "seconds": { "type": "int" }
+    }
   },
   "aboutPageTitle": "关于",
   "@aboutPageTitle": {

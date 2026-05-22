@@ -1774,11 +1774,11 @@ abstract class AppLocalizations {
   /// **'Incorrect PIN'**
   String get pinPageIncorrectPIN;
 
-  /// Error message when too many failed PIN attempts
+  /// Error message when too many failed PIN attempts, showing remaining lockout seconds
   ///
   /// In en, this message translates to:
-  /// **'Too many attempts. Wait 30 seconds.'**
-  String get pinPageTooManyAttempts;
+  /// **'Too many attempts. Try again in {seconds}s.'**
+  String pinPageTooManyAttempts(int seconds);
 
   /// Title for about page
   ///

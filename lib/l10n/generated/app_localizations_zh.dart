@@ -931,7 +931,9 @@ class AppLocalizationsZh extends AppLocalizations {
   String get pinPageIncorrectPIN => 'PIN 错误';
 
   @override
-  String get pinPageTooManyAttempts => '尝试次数过多。请等待 30 秒。';
+  String pinPageTooManyAttempts(int seconds) {
+    return '尝试次数过多。请在 $seconds 秒后重试。';
+  }
 
   @override
   String get aboutPageTitle => '关于';

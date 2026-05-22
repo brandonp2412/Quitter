@@ -943,7 +943,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get pinPageIncorrectPIN => 'Incorrect PIN';
 
   @override
-  String get pinPageTooManyAttempts => 'Too many attempts. Wait 30 seconds.';
+  String pinPageTooManyAttempts(int seconds) {
+    return 'Too many attempts. Try again in ${seconds}s.';
+  }
 
   @override
   String get aboutPageTitle => 'About';

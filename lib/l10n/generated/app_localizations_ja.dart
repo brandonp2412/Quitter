@@ -931,7 +931,9 @@ class AppLocalizationsJa extends AppLocalizations {
   String get pinPageIncorrectPIN => 'PINが正しくありません';
 
   @override
-  String get pinPageTooManyAttempts => '試行回数が多すぎます。30秒待ってください。';
+  String pinPageTooManyAttempts(int seconds) {
+    return '試行回数が多すぎます。$seconds秒後にお試しください。';
+  }
 
   @override
   String get aboutPageTitle => 'このアプリについて';

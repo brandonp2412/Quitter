@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:provider/provider.dart';
@@ -13,8 +14,37 @@ class PinPage extends StatefulWidget {
 class _PinPageState extends State<PinPage> {
   String _pin = '';
   bool _isError = false;
-  int _failedAttempts = 0;
   bool _isVerifying = false;
+  Timer? _countdownTimer;
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    final settings = context.read<SettingsProvider>();
+    if (settings.isPinLockoutActive && _countdownTimer == null) {
+      _startCountdownTimer(settings);
+    }
+  }
+
+  @override
+  void dispose() {
+    _countdownTimer?.cancel();
+    super.dispose();
+  }
+
+  void _startCountdownTimer(SettingsProvider settings) {
+    _countdownTimer?.cancel();
+    _countdownTimer = Timer.periodic(const Duration(seconds: 1), (_) async {
+      if (!settings.isPinLockoutActive) {
+        await settings.clearExpiredPinLockout();
+        _countdownTimer?.cancel();
+        _countdownTimer = null;
+        if (mounted) setState(() => _isError = false);
+      } else if (mounted) {
+        setState(() {});
+      }
+    });
+  }
 
   void _onNumberTap(String number) {
     setState(() {
@@ -47,18 +77,12 @@ class _PinPageState extends State<PinPage> {
     if (!isValid) {
       setState(() {
         _isError = true;
-        _failedAttempts++;
         _pin = '';
         _isVerifying = false;
       });
 
-      if (_failedAttempts >= 3) {
-        await Future.delayed(const Duration(seconds: 30));
-        if (mounted) {
-          setState(() {
-            _failedAttempts = 0;
-          });
-        }
+      if (settings.isPinLockoutActive) {
+        _startCountdownTimer(settings);
       }
     } else {
       setState(() {
@@ -69,6 +93,10 @@ class _PinPageState extends State<PinPage> {
 
   @override
   Widget build(BuildContext context) {
+    final settings = context.watch<SettingsProvider>();
+    final isLockedOut = settings.isPinLockoutActive;
+    final secondsRemaining = settings.pinLockoutSecondsRemaining;
+
     return Scaffold(
       body: SafeArea(
         child: Padding(
@@ -99,7 +127,7 @@ class _PinPageState extends State<PinPage> {
                     ),
                     decoration: BoxDecoration(
                       border: Border.all(
-                        color: _isError
+                        color: (_isError || isLockedOut)
                             ? Theme.of(context).colorScheme.error
                             : Theme.of(context).colorScheme.primary,
                         width: 2,
@@ -111,19 +139,21 @@ class _PinPageState extends State<PinPage> {
                       style: TextStyle(
                         fontSize: 32,
                         letterSpacing: 8,
-                        color: _isError
+                        color: (_isError || isLockedOut)
                             ? Theme.of(context).colorScheme.error
                             : Theme.of(context).colorScheme.primary,
                       ),
                     ),
                   ),
                 ),
-                if (_isError) ...[
+                if (_isError || isLockedOut) ...[
                   const SizedBox(height: 16),
                   Center(
                     child: Text(
-                      _failedAttempts >= 3
-                          ? AppLocalizations.of(context)!.pinPageTooManyAttempts
+                      isLockedOut
+                          ? AppLocalizations.of(
+                              context,
+                            )!.pinPageTooManyAttempts(secondsRemaining)
                           : AppLocalizations.of(context)!.pinPageIncorrectPIN,
                       style: TextStyle(
                         color: Theme.of(context).colorScheme.error,
@@ -144,29 +174,26 @@ class _PinPageState extends State<PinPage> {
                     ...[1, 2, 3, 4, 5, 6, 7, 8, 9].map(
                       (number) => _NumberButton(
                         number: number.toString(),
-                        onTap: _failedAttempts < 3 && !_isVerifying
+                        onTap: !isLockedOut && !_isVerifying
                             ? () => _onNumberTap(number.toString())
                             : null,
                       ),
                     ),
                     _IconButton(
                       icon: Icons.backspace_outlined,
-                      onTap: _failedAttempts < 3 && !_isVerifying
+                      onTap: !isLockedOut && !_isVerifying
                           ? _onBackspace
                           : null,
                     ),
                     _NumberButton(
                       number: '0',
-                      onTap: _failedAttempts < 3 && !_isVerifying
+                      onTap: !isLockedOut && !_isVerifying
                           ? () => _onNumberTap('0')
                           : null,
                     ),
                     _IconButton(
                       icon: _isVerifying ? Icons.hourglass_empty : Icons.check,
-                      onTap:
-                          _failedAttempts < 3 &&
-                              !_isVerifying &&
-                              _pin.isNotEmpty
+                      onTap: !isLockedOut && !_isVerifying && _pin.isNotEmpty
                           ? _onSubmit
                           : null,
                     ),

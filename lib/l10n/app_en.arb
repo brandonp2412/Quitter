@@ -780,9 +780,12 @@
   "@pinPageIncorrectPIN": {
     "description": "Error message for incorrect PIN"
   },
-  "pinPageTooManyAttempts": "Too many attempts. Wait 30 seconds.",
+  "pinPageTooManyAttempts": "Too many attempts. Try again in {seconds}s.",
   "@pinPageTooManyAttempts": {
-    "description": "Error message when too many failed PIN attempts"
+    "description": "Error message when too many failed PIN attempts, showing remaining lockout seconds",
+    "placeholders": {
+      "seconds": { "type": "int" }
+    }
   },
   "aboutPageTitle": "About",
   "@aboutPageTitle": {
