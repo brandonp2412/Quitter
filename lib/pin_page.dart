@@ -146,23 +146,27 @@ class _PinPageState extends State<PinPage> {
                     ),
                   ),
                 ),
-                if (_isError || isLockedOut) ...[
-                  const SizedBox(height: 16),
-                  Center(
-                    child: Text(
-                      isLockedOut
-                          ? AppLocalizations.of(
-                              context,
-                            )!.pinPageTooManyAttempts(secondsRemaining)
-                          : AppLocalizations.of(context)!.pinPageIncorrectPIN,
-                      style: TextStyle(
-                        color: Theme.of(context).colorScheme.error,
-                        fontSize: 14,
-                      ),
-                    ),
-                  ),
-                ],
-                const SizedBox(height: 64),
+                SizedBox(
+                  height: 48,
+                  child: (_isError || isLockedOut)
+                      ? Center(
+                          child: Text(
+                            isLockedOut
+                                ? AppLocalizations.of(
+                                    context,
+                                  )!.pinPageTooManyAttempts(secondsRemaining)
+                                : AppLocalizations.of(
+                                    context,
+                                  )!.pinPageIncorrectPIN,
+                            style: TextStyle(
+                              color: Theme.of(context).colorScheme.error,
+                              fontSize: 14,
+                            ),
+                          ),
+                        )
+                      : null,
+                ),
+                const SizedBox(height: 16),
                 // Number pad
                 GridView.count(
                   shrinkWrap: true,
