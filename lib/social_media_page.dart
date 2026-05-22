@@ -222,9 +222,9 @@ class SocialMediaPage extends StatelessWidget {
         day: 365,
         title: l10n.socialMediaMilestone365Title,
         description: l10n.socialMediaMilestone365Description,
-        reference: "Mayo Clinic Press - Social Media on Mental Health",
+        reference: "Medical News Today - Social Media and Mental Health",
         link:
-            "https://mcpress.mayoclinic.org/mental-health/the-pros-and-cons-of-social-media-on-mental-health/",
+            "https://www.medicalnewstoday.com/articles/social-media-and-mental-health",
         referenceDate: "March 2026",
         referenceContent:
             "One Year Without Social Media: Long-Term Mental Health\n\n"
