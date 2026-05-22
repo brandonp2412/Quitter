@@ -1,0 +1,3 @@
+• replace theme dialog with SegmentedButton + AMOLED toggle
+• Fix prevent SegmentedButton label wrap by removing double padding
+• Fix prevent card title wrapping on narrow screens
