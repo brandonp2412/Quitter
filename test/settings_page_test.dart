@@ -179,16 +179,13 @@ void main() {
       expect(settingsProvider.themeMode, AppThemeMode.light);
     });
 
-    testWidgets('tapping color scheme opens dialog', (
+    testWidgets('color scheme picker displays colors', (
       WidgetTester tester,
     ) async {
       await tester.pumpWidget(createTestWidget());
 
-      await tester.tap(find.text('Color scheme'));
-      await tester.pumpAndSettle();
-
-      expect(find.text('Color scheme'), findsNWidgets(2));
-      expect(find.text('Cancel'), findsOneWidget);
+      expect(find.text('Color scheme'), findsOneWidget);
+      expect(find.byType(AnimatedContainer), findsWidgets);
     });
 
     testWidgets('toggling reset buttons switch works', (

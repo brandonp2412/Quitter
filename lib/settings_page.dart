@@ -350,7 +350,6 @@ class _SettingsPageState extends State<SettingsPage> {
           },
         ),
       ),
-      const Divider(height: 1),
       SwitchListTile(
         secondary: const Icon(Icons.contrast),
         title: Text(l10n.themePureBlack),
@@ -361,21 +360,13 @@ class _SettingsPageState extends State<SettingsPage> {
               : AppThemeMode.dark;
         },
       ),
-      const Divider(height: 1),
-      ListTile(
-        leading: const Icon(Icons.palette),
-        title: Text(l10n.settingsColorScheme),
-        subtitle: Text(AppScheme.getName(settings.colorSchemeType, l10n)),
-        onTap: () => _showColorDialog(context, settings),
-      ),
-      const Divider(height: 1),
+      _ColorSchemePicker(settings: settings),
       ListTile(
         leading: const Icon(Icons.language),
         title: Text(l10n.settingsLocale),
         subtitle: Text(settings.locale),
         onTap: () => _showLocaleDialog(context, settings),
       ),
-      const Divider(height: 1),
       SwitchListTile(
         secondary: const Icon(Icons.restart_alt),
         title: Text(l10n.settingsResetButtons),
@@ -383,7 +374,6 @@ class _SettingsPageState extends State<SettingsPage> {
         value: settings.showReset,
         onChanged: (value) => settings.showReset = value,
       ),
-      const Divider(height: 1),
       SwitchListTile(
         secondary: const Icon(Icons.menu_book),
         title: Text(l10n.settingsShowJournal),
@@ -392,7 +382,6 @@ class _SettingsPageState extends State<SettingsPage> {
         onChanged: (value) => settings.showJournal = value,
       ),
       if (defaultTargetPlatform == TargetPlatform.android) ...[
-        const Divider(height: 1),
         SwitchListTile(
           secondary: const Icon(Icons.swipe),
           title: Text(l10n.settingsSwipeBetweenTabs),
@@ -584,7 +573,6 @@ class _SettingsPageState extends State<SettingsPage> {
         ),
         onTap: () => _showNotificationFrequencyDialog(context, settings),
       ),
-      const Divider(height: 1),
       ..._buildToggleList(allItems),
     ];
   }
@@ -630,7 +618,6 @@ class _SettingsPageState extends State<SettingsPage> {
           context,
         ).push(MaterialPageRoute(builder: (context) => const AboutPage())),
       ),
-      const Divider(height: 1),
       ListTile(
         title: Text(l10n.settingsWhatsNew),
         leading: const Icon(Icons.change_circle_outlined),
@@ -638,7 +625,6 @@ class _SettingsPageState extends State<SettingsPage> {
           context,
         ).push(MaterialPageRoute(builder: (context) => const WhatsNew())),
       ),
-      const Divider(height: 1),
       ListTile(
         title: Text(l10n.settingsEnjoyingApp),
         leading: const Icon(Icons.favorite_outline),
@@ -646,7 +632,6 @@ class _SettingsPageState extends State<SettingsPage> {
           context,
         ).push(MaterialPageRoute(builder: (context) => const EnjoyingPage())),
       ),
-      const Divider(height: 1),
       ListTile(
         title: Text(l10n.settingsReportBug),
         leading: const Icon(Icons.bug_report),
@@ -657,20 +642,16 @@ class _SettingsPageState extends State<SettingsPage> {
           );
         },
       ),
-      const Divider(height: 1),
       ListTile(
         title: Text(l10n.settingsExportData),
         leading: const Icon(Icons.upload_file),
         onTap: () => _exportData(context),
       ),
-      const Divider(height: 1),
       ListTile(
         title: Text(l10n.settingsImportData),
         leading: const Icon(Icons.file_download),
         onTap: () => _importData(context),
       ),
-      const Divider(height: 1),
-      const Divider(height: 1),
       ListTile(
         title: Text(l10n.settingsDeleteEverything),
         leading: const Icon(Icons.delete),
@@ -775,18 +756,6 @@ class _SettingsPageState extends State<SettingsPage> {
         return l10n.settingsLocaleUnsupported;
       },
       onChanged: (value) => settings.locale = value ?? 'system',
-    );
-  }
-
-  void _showColorDialog(BuildContext context, SettingsProvider settings) {
-    final l10n = AppLocalizations.of(context)!;
-    _showSelectionDialog<ColorSchemeType>(
-      context: context,
-      title: l10n.settingsColorScheme,
-      currentValue: settings.colorSchemeType,
-      options: ColorSchemeType.values,
-      getDisplayName: (type) => AppScheme.getName(type, l10n),
-      onChanged: (value) => settings.colorSchemeType = value,
     );
   }
 
@@ -945,13 +914,92 @@ class _SettingsPageState extends State<SettingsPage> {
           },
         ),
       );
-
-      if (i < items.length - 1) {
-        widgets.add(const Divider(height: 1));
-      }
     }
 
     return widgets;
+  }
+}
+
+class _ColorSchemePicker extends StatelessWidget {
+  static const _seedColors = {
+    ColorSchemeType.blue: Color(0xFF1976D2),
+    ColorSchemeType.green: Color(0xFF2E8B57),
+    ColorSchemeType.red: Color(0xFFD32F2F),
+    ColorSchemeType.purple: Color(0xFF7B1FA2),
+    ColorSchemeType.orange: Color(0xFFF57C00),
+  };
+
+  final SettingsProvider settings;
+
+  const _ColorSchemePicker({required this.settings});
+
+  @override
+  Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(16, 12, 16, 12),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: [
+              const Icon(Icons.palette),
+              const SizedBox(width: 16),
+              Text(
+                l10n.settingsColorScheme,
+                style: Theme.of(context).textTheme.bodyLarge,
+              ),
+            ],
+          ),
+          const SizedBox(height: 12),
+          Wrap(
+            spacing: 10,
+            runSpacing: 10,
+            children: ColorSchemeType.values.map((type) {
+              final isSelected = settings.colorSchemeType == type;
+              final isDynamic = type == ColorSchemeType.dynamic;
+              final seedColor = _seedColors[type];
+              return GestureDetector(
+                onTap: () => settings.colorSchemeType = type,
+                child: Tooltip(
+                  message: AppScheme.getName(type, l10n),
+                  child: AnimatedContainer(
+                    duration: const Duration(milliseconds: 200),
+                    width: 36,
+                    height: 36,
+                    decoration: BoxDecoration(
+                      color: isDynamic ? null : seedColor,
+                      gradient: isDynamic
+                          ? const SweepGradient(
+                              colors: [
+                                Color(0xFFD32F2F),
+                                Color(0xFFF57C00),
+                                Color(0xFF388E3C),
+                                Color(0xFF1976D2),
+                                Color(0xFF7B1FA2),
+                                Color(0xFFD32F2F),
+                              ],
+                            )
+                          : null,
+                      shape: BoxShape.circle,
+                      border: Border.all(
+                        color: isSelected
+                            ? Theme.of(context).colorScheme.onSurface
+                            : Colors.transparent,
+                        width: 3,
+                      ),
+                    ),
+                    child: isSelected
+                        ? const Icon(Icons.check, color: Colors.white, size: 20)
+                        : null,
+                  ),
+                ),
+              );
+            }).toList(),
+          ),
+        ],
+      ),
+    );
   }
 }
 
