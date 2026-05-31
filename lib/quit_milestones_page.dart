@@ -352,6 +352,8 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
 
     if (settings.showReset == false) fab = null;
 
+    final listBottomPadding = fab != null ? 88.0 : 16.0;
+
     return ConfettiWidget(
       active: showConfetti,
       child: Scaffold(
@@ -446,7 +448,12 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
               Expanded(
                 child: ListView.builder(
                   controller: _scroll,
-                  padding: const EdgeInsets.all(16.0),
+                  padding: EdgeInsets.only(
+                    left: 16.0,
+                    right: 16.0,
+                    top: 16.0,
+                    bottom: listBottomPadding,
+                  ),
                   itemCount: widget.milestones.length,
                   itemBuilder: (context, index) {
                     final milestone = widget.milestones[index];
