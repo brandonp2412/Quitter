@@ -828,20 +828,25 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                   );
                 }
 
-                final columnCount = MediaQuery.of(context).size.width > 600
-                    ? 3
-                    : 2;
-                final availableWidth = MediaQuery.of(context).size.width - 32;
-                final cardWidth =
-                    (availableWidth - 16 * (columnCount - 1)) / columnCount;
-
                 return SliverToBoxAdapter(
-                  child: Wrap(
-                    spacing: 16,
-                    runSpacing: 16,
-                    children: cards
-                        .map((card) => SizedBox(width: cardWidth, child: card))
-                        .toList(),
+                  child: LayoutBuilder(
+                    builder: (context, constraints) {
+                      final columnCount =
+                          MediaQuery.of(context).size.width > 600 ? 3 : 2;
+                      final cardWidth =
+                          ((constraints.maxWidth - 16.0 * (columnCount - 1)) /
+                                  columnCount)
+                              .clamp(0.0, double.infinity);
+                      return Wrap(
+                        spacing: 16,
+                        runSpacing: 16,
+                        children: cards
+                            .map(
+                              (card) => SizedBox(width: cardWidth, child: card),
+                            )
+                            .toList(),
+                      );
+                    },
                   ),
                 );
               },
