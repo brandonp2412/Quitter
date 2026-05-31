@@ -1817,86 +1817,310 @@ class AppLocalizationsEn extends AppLocalizations {
       'You\'ve built a new life! Two years of recovery demonstrates remarkable resilience and commitment. Long-term sobriety often brings profound positive changes in all areas of life and significantly reduced risk of relapse.';
 
   @override
-  String get addictionAntidepressants => 'Antidepressants';
+  String get addictionSsri => 'SSRIs';
 
   @override
-  String get antidepressantsPageTitle => 'Antidepressant Recovery';
+  String get ssriPageTitle => 'SSRI Recovery';
 
   @override
-  String get antidepressantsHeaderStarted => 'Your Recovery Journey';
+  String get ssriHeaderStarted => 'Your Recovery Journey';
 
   @override
-  String get antidepressantsHeaderNotStarted =>
-      'Benefits of Tapering Off Antidepressants';
+  String get ssriHeaderNotStarted => 'Benefits of Tapering Off SSRIs';
 
   @override
-  String get antidepressantsSubtitleStarted =>
+  String get ssriSubtitleStarted =>
       'Track your progress and celebrate each milestone';
 
   @override
-  String get antidepressantsSubtitleNotStarted =>
-      'See what happens when you taper off';
+  String get ssriSubtitleNotStarted => 'See what happens when you taper off';
 
   @override
-  String get antidepressantsMilestone3Title =>
-      'Day 3: Discontinuation Syndrome Peaks';
+  String get ssriMilestone3Title => 'Day 3: FINISH Syndrome Peaks';
 
   @override
-  String get antidepressantsMilestone3Description =>
-      'Discontinuation symptoms typically peak around days 2–4. You may experience flu-like symptoms, dizziness, insomnia, nausea, and the characteristic electric shock sensations sometimes called \'brain zaps\'. These are a known and temporary part of the process.';
+  String get ssriMilestone3Description =>
+      'Discontinuation symptoms typically peak around days 2–4. SSRIs block serotonin reuptake; when removed, the brain needs time to restore natural receptor sensitivity. Expect flu-like symptoms, dizziness, insomnia, nausea, and the characteristic \'brain zaps\'. Paroxetine tends to produce the most intense symptoms; fluoxetine, with its very long half-life, self-tapers and is typically the mildest.';
 
   @override
-  String get antidepressantsMilestone7Title =>
-      'One Week: Acute Phase Beginning to Ease';
+  String get ssriMilestone7Title => 'One Week: Acute Phase Beginning to Ease';
 
   @override
-  String get antidepressantsMilestone7Description =>
-      'The most intense physical symptoms are beginning to subside. The brain is starting to adjust its serotonin and norepinephrine signalling to function without the medication. Sleep and appetite are beginning to stabilise.';
+  String get ssriMilestone7Description =>
+      'The most intense physical symptoms are beginning to subside. Your brain is adjusting its serotonin signalling to function without the medication. Sleep and appetite are beginning to stabilise.';
 
   @override
-  String get antidepressantsMilestone14Title =>
-      'Two Weeks: Physical Symptoms Resolving';
+  String get ssriMilestone14Title => 'Two Weeks: Physical Symptoms Resolving';
 
   @override
-  String get antidepressantsMilestone14Description =>
-      'Most acute physical discontinuation symptoms have significantly reduced or resolved. The brain zaps, nausea, and dizziness are fading. Emotional sensitivity may still be heightened as your brain continues to rebalance its neurotransmitter systems.';
+  String get ssriMilestone14Description =>
+      'Most acute physical discontinuation symptoms have significantly reduced or resolved. Brain zaps, nausea, and dizziness are fading. Emotional sensitivity may still be heightened as your brain continues to rebalance its serotonin systems.';
 
   @override
-  String get antidepressantsMilestone30Title =>
-      'One Month: Mood and Energy Stabilising';
+  String get ssriMilestone30Title => 'One Month: Mood and Energy Stabilising';
 
   @override
-  String get antidepressantsMilestone30Description =>
-      'One month marks a significant milestone. Sleep quality is improving, energy levels are stabilising, and many people notice their mood beginning to find a new equilibrium. The brain is actively restoring its natural neurotransmitter regulation.';
+  String get ssriMilestone30Description =>
+      'One month marks a significant milestone. Sleep quality is improving, energy levels are stabilising, and many people notice their mood beginning to find a new equilibrium. The brain is actively restoring its natural serotonin regulation.';
 
   @override
-  String get antidepressantsMilestone90Title =>
-      'Three Months: Neurochemical Rebalancing';
+  String get ssriMilestone90Title =>
+      'Three Months: Serotonin Receptor Recovery';
 
   @override
-  String get antidepressantsMilestone90Description =>
-      'Three months is a major recovery milestone. Serotonin receptor sensitivity is substantially normalised. Most people find their mood, anxiety, and cognitive function are meaningfully improved. This is an excellent time to consolidate the non-medication coping strategies you have developed.';
+  String get ssriMilestone90Description =>
+      'Three months is a major recovery milestone. SERT occupancy returns to baseline within weeks, but post-synaptic 5-HT1A receptor sensitivity takes 2–3 months to substantially recover. Most people find mood, anxiety, and cognitive function are meaningfully improved at this point.';
 
   @override
-  String get antidepressantsMilestone180Title =>
-      'Six Months: Long-Term Brain Adjustment';
+  String get ssriMilestone180Title => 'Six Months: Long-Term Brain Adjustment';
 
   @override
-  String get antidepressantsMilestone180Description =>
-      'Six months of recovery allows for substantial neurological adjustment. The brain\'s serotonin, norepinephrine, and dopamine systems have had time to find a new natural balance. Many people report feeling emotionally richer and more connected to their feelings at this stage.';
+  String get ssriMilestone180Description =>
+      'Six months allows for substantial neurological adjustment. The brain\'s serotonin systems have found their natural balance. Many people report improved emotional range and, for those who experienced it, sexual dysfunction caused by SSRIs has typically resolved.';
 
   @override
-  String get antidepressantsMilestone365Title => 'One Year: Recovery Achieved';
+  String get ssriMilestone365Title => 'One Year: Recovery Achieved';
 
   @override
-  String get antidepressantsMilestone365Description =>
-      'One year marks a complete cycle of recovery. Your brain has fully adjusted to functioning without antidepressant medication. The emotional and cognitive clarity you have built through this year demonstrates remarkable resilience.';
+  String get ssriMilestone365Description =>
+      'One year marks a complete cycle of recovery. Research shows the majority who completed a gradual taper and received psychological support remain well at one year, with quality of life comparable or better than those who remained on medication.';
 
   @override
-  String get settingsShowAntidepressantsTracking =>
-      'Show antidepressants tracking';
+  String get settingsShowSsriTracking => 'Show SSRI tracking';
 
   @override
-  String get settingsNotifyAntidepressants =>
-      'Notify antidepressants quitting progress';
+  String get settingsNotifySsri => 'Notify SSRI quitting progress';
+
+  @override
+  String get addictionSnri => 'SNRIs';
+
+  @override
+  String get snriPageTitle => 'SNRI Recovery';
+
+  @override
+  String get snriHeaderStarted => 'Your Recovery Journey';
+
+  @override
+  String get snriHeaderNotStarted => 'Benefits of Tapering Off SNRIs';
+
+  @override
+  String get snriSubtitleStarted =>
+      'Track your progress and celebrate each milestone';
+
+  @override
+  String get snriSubtitleNotStarted => 'See what happens when you taper off';
+
+  @override
+  String get snriMilestone3Title =>
+      'Day 3: Intense Discontinuation Syndrome Peaks';
+
+  @override
+  String get snriMilestone3Description =>
+      'SNRIs — particularly venlafaxine (Effexor) — are associated with some of the most severe antidepressant discontinuation syndromes. Venlafaxine\'s very short half-life (5 hours) means symptoms can be more intense than with most SSRIs. FINISH symptoms (flu-like feelings, insomnia, nausea, imbalance, sensory disturbances, hyperarousal) affect both serotonin and norepinephrine systems simultaneously.';
+
+  @override
+  String get snriMilestone7Title =>
+      'One Week: Dual Neurotransmitter Adjustment';
+
+  @override
+  String get snriMilestone7Description =>
+      'SNRIs affect both serotonin and norepinephrine reuptake. Both systems are adjusting simultaneously. The most intense physical symptoms are beginning to subside, but the dual mechanism means adjustment can feel more complex than with SSRIs alone.';
+
+  @override
+  String get snriMilestone14Title => 'Two Weeks: Physical Symptoms Fading';
+
+  @override
+  String get snriMilestone14Description =>
+      'Most acute physical discontinuation symptoms have significantly reduced. Brain zaps, nausea, and dizziness are fading. The norepinephrine system\'s readjustment may still be causing some anxiety or blood pressure fluctuations — these typically resolve over coming weeks.';
+
+  @override
+  String get snriMilestone30Title =>
+      'One Month: Norepinephrine System Stabilising';
+
+  @override
+  String get snriMilestone30Description =>
+      'One month marks a significant milestone. Both serotonin and norepinephrine systems are actively rebalancing. Sleep quality and energy levels are stabilising. Many people notice improved emotional range as the medication\'s effect on emotional blunting begins to resolve.';
+
+  @override
+  String get snriMilestone90Title => 'Three Months: Dual System Rebalancing';
+
+  @override
+  String get snriMilestone90Description =>
+      'Three months is a major recovery milestone. Both SERT and NET (norepinephrine transporter) have normalised. Research shows cognitive function, mood regulation, and anxiety are meaningfully improved for the majority of people who completed a supervised taper.';
+
+  @override
+  String get snriMilestone180Title => 'Six Months: Neurological Recovery';
+
+  @override
+  String get snriMilestone180Description =>
+      'Six months allows for substantial readjustment of both serotonin and norepinephrine systems. The HPA axis — which SNRIs influence through norepinephrine — is normalising. Many people report notably improved resilience to everyday stressors at this point.';
+
+  @override
+  String get snriMilestone365Title => 'One Year: Recovery Achieved';
+
+  @override
+  String get snriMilestone365Description =>
+      'One year marks a complete cycle of dual serotonin-norepinephrine recovery. Research consistently shows that people who successfully discontinue SNRIs under medical supervision and with psychological support maintain good outcomes at one year.';
+
+  @override
+  String get settingsShowSnriTracking => 'Show SNRI tracking';
+
+  @override
+  String get settingsNotifySnri => 'Notify SNRI quitting progress';
+
+  @override
+  String get addictionTca => 'TCAs';
+
+  @override
+  String get tcaPageTitle => 'TCA Recovery';
+
+  @override
+  String get tcaHeaderStarted => 'Your Recovery Journey';
+
+  @override
+  String get tcaHeaderNotStarted => 'Benefits of Tapering Off TCAs';
+
+  @override
+  String get tcaSubtitleStarted =>
+      'Track your progress and celebrate each milestone';
+
+  @override
+  String get tcaSubtitleNotStarted => 'See what happens when you taper off';
+
+  @override
+  String get tcaMilestone3Title => 'Day 3: Cholinergic Rebound Peaks';
+
+  @override
+  String get tcaMilestone3Description =>
+      'Tricyclics (TCAs) have strong anticholinergic effects — they block acetylcholine receptors. When stopped, cholinergic rebound occurs as the acetylcholine system becomes temporarily overactive. Symptoms include nausea, diarrhoea, abdominal cramps, excessive sweating, headache, muscle aches, and insomnia — distinct from the SSRI FINISH syndrome and reflecting the anticholinergic mechanism of TCAs.';
+
+  @override
+  String get tcaMilestone7Title => 'One Week: Cholinergic Symptoms Easing';
+
+  @override
+  String get tcaMilestone7Description =>
+      'The cholinergic rebound typically reaches its peak within the first few days and begins to ease by one week. Gastrointestinal symptoms, sweating, and flu-like feelings are reducing. Your autonomic nervous system — which TCAs powerfully affect — is beginning to re-establish its natural balance.';
+
+  @override
+  String get tcaMilestone14Title =>
+      'Two Weeks: Anticholinergic Effects Reversing';
+
+  @override
+  String get tcaMilestone14Description =>
+      'The anticholinergic side effects that TCAs imposed — dry mouth, constipation, urinary hesitancy, blurred vision — are reversing as the acetylcholine system recovers. Many people notice improved cognitive clarity as the brain\'s cholinergic pathways, important for memory and attention, begin to normalise.';
+
+  @override
+  String get tcaMilestone30Title =>
+      'One Month: Autonomic Nervous System Stabilising';
+
+  @override
+  String get tcaMilestone30Description =>
+      'One month marks the stabilisation of your autonomic nervous system. Cardiac rhythm and blood pressure variability are returning to normal. Sleep architecture — which TCAs suppress by reducing REM sleep — is beginning to restore as natural cholinergic activity recovers.';
+
+  @override
+  String get tcaMilestone90Title =>
+      'Three Months: Multiple Neurotransmitter Systems Normalising';
+
+  @override
+  String get tcaMilestone90Description =>
+      'TCAs affect serotonin, norepinephrine, acetylcholine, and histamine systems. Three months allows all of these to substantially recover. Research shows mood, cognitive function, and physical wellbeing are meaningfully improved at the three-month mark.';
+
+  @override
+  String get tcaMilestone180Title =>
+      'Six Months: Cardiac and Cognitive Recovery';
+
+  @override
+  String get tcaMilestone180Description =>
+      'Six months of recovery allows for substantial cardiac and cognitive recovery. QTc interval prolongation caused by TCAs has resolved. The cognitive impairment that TCAs can cause through anticholinergic effects — particularly affecting memory and processing speed — has substantially improved.';
+
+  @override
+  String get tcaMilestone365Title => 'One Year: Recovery Achieved';
+
+  @override
+  String get tcaMilestone365Description =>
+      'One year marks a complete cycle of multi-system recovery. All TCA-affected neurotransmitter systems — cholinergic, noradrenergic, serotonergic, and histaminergic — have had a full cycle to normalise. Complete reversal of anticholinergic cognitive impairment and full cardiac autonomic recovery represent a significant achievement.';
+
+  @override
+  String get settingsShowTcaTracking => 'Show TCA tracking';
+
+  @override
+  String get settingsNotifyTca => 'Notify TCA quitting progress';
+
+  @override
+  String get addictionMaoi => 'MAOIs';
+
+  @override
+  String get maoiPageTitle => 'MAOI Recovery';
+
+  @override
+  String get maoiHeaderStarted => 'Your Recovery Journey';
+
+  @override
+  String get maoiHeaderNotStarted => 'Benefits of Tapering Off MAOIs';
+
+  @override
+  String get maoiSubtitleStarted =>
+      'Track your progress and celebrate each milestone';
+
+  @override
+  String get maoiSubtitleNotStarted => 'See what happens when you taper off';
+
+  @override
+  String get maoiMilestone3Title =>
+      'Day 3: Highest Risk Phase — Medical Supervision Essential';
+
+  @override
+  String get maoiMilestone3Description =>
+      'MAOIs carry the most serious discontinuation risks of any antidepressant class. Abrupt cessation — especially of phenelzine and tranylcypromine — can cause severe agitation, confusion, hallucinations, myoclonus, and hyperthermia. If you are experiencing these symptoms, seek immediate medical attention. MAOIs work by permanently disabling MAO enzymes; recovery requires the body to synthesise new enzyme, a process taking approximately 14 days.';
+
+  @override
+  String get maoiMilestone7Title => 'One Week: MAO Enzyme Synthesis Underway';
+
+  @override
+  String get maoiMilestone7Description =>
+      'MAOIs permanently destroy MAO enzyme molecules; recovery requires synthesising entirely new enzyme. By one week, approximately 50% of normal MAO activity may have recovered. Severe acute discontinuation symptoms (delirium, myoclonus, hyperthermia) are substantially reduced. Close medical supervision remains important.';
+
+  @override
+  String get maoiMilestone14Title =>
+      'Two Weeks: MAO Enzyme Activity Substantially Recovered';
+
+  @override
+  String get maoiMilestone14Description =>
+      'Two weeks is the standard clinical timeframe for MAO enzyme recovery after discontinuation. By approximately day 14, MAO-A and MAO-B activity is largely restored and normal tyramine metabolism is re-established. The dietary restrictions required during MAOI treatment can typically be relaxed in consultation with your prescriber.';
+
+  @override
+  String get maoiMilestone30Title =>
+      'One Month: Neurotransmitter Systems Rebalancing';
+
+  @override
+  String get maoiMilestone30Description =>
+      'One month after MAOI discontinuation, MAO enzyme activity has fully recovered and neurotransmitter systems are under entirely natural regulation. Serotonin, norepinephrine, dopamine, and tyramine are all metabolised normally. Drug interaction risks associated with MAOIs have resolved — though always inform prescribers of previous MAOI use.';
+
+  @override
+  String get maoiMilestone90Title =>
+      'Three Months: Brain Chemistry Normalising';
+
+  @override
+  String get maoiMilestone90Description =>
+      'Three months of natural monoamine regulation has allowed the brain to substantially readjust. Receptor supersensitivity caused by chronically elevated monoamine levels under MAOI treatment is resolving. Mood regulation, energy, and cognitive function are stabilising as natural neurotransmission replaces pharmacological MAO inhibition.';
+
+  @override
+  String get maoiMilestone180Title => 'Six Months: Long-Term Recovery';
+
+  @override
+  String get maoiMilestone180Description =>
+      'Six months represents a substantial period of natural monoamine function. Serotonin, norepinephrine, and dopamine receptor populations have normalised. The phenethylamine (PEA) pathways also affected by MAOIs have restored to natural levels — an often-overlooked aspect of recovery that contributes to emotional normalisation.';
+
+  @override
+  String get maoiMilestone365Title => 'One Year: Recovery Achieved';
+
+  @override
+  String get maoiMilestone365Description =>
+      'One year after MAOI discontinuation is a genuinely significant milestone. MAOIs are the most pharmacologically complex antidepressants, with the broadest effects on neurotransmitter systems and the most demanding discontinuation process. One year demonstrates complete recovery of all monoamine systems and remarkable personal resilience.';
+
+  @override
+  String get settingsShowMaoiTracking => 'Show MAOI tracking';
+
+  @override
+  String get settingsNotifyMaoi => 'Notify MAOI quitting progress';
 }

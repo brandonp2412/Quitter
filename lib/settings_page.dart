@@ -411,15 +411,45 @@ class _SettingsPageState extends State<SettingsPage> {
           notifyPrefsKey: 'adderall',
           notifyDisplayName: l10n.addictionAdderall,
         ),
-      if (addictions.quitAntidepressants != null)
+      if (addictions.quitSsri != null)
         _ToggleItem(
           icon: Icons.psychology,
-          title: l10n.addictionAntidepressants,
-          subtitle: l10n.settingsNotifyAntidepressants,
-          value: settings.notifyAntidepressants,
-          onChanged: (value) => settings.notifyAntidepressants = value,
-          notifyPrefsKey: 'antidepressants',
-          notifyDisplayName: l10n.addictionAntidepressants,
+          title: l10n.addictionSsri,
+          subtitle: l10n.settingsNotifySsri,
+          value: settings.notifySsri,
+          onChanged: (value) => settings.notifySsri = value,
+          notifyPrefsKey: 'ssri',
+          notifyDisplayName: l10n.addictionSsri,
+        ),
+      if (addictions.quitSnri != null)
+        _ToggleItem(
+          icon: Icons.psychology_alt,
+          title: l10n.addictionSnri,
+          subtitle: l10n.settingsNotifySnri,
+          value: settings.notifySnri,
+          onChanged: (value) => settings.notifySnri = value,
+          notifyPrefsKey: 'snri',
+          notifyDisplayName: l10n.addictionSnri,
+        ),
+      if (addictions.quitTca != null)
+        _ToggleItem(
+          icon: Icons.medication_liquid,
+          title: l10n.addictionTca,
+          subtitle: l10n.settingsNotifyTca,
+          value: settings.notifyTca,
+          onChanged: (value) => settings.notifyTca = value,
+          notifyPrefsKey: 'tca',
+          notifyDisplayName: l10n.addictionTca,
+        ),
+      if (addictions.quitMaoi != null)
+        _ToggleItem(
+          icon: Icons.science,
+          title: l10n.addictionMaoi,
+          subtitle: l10n.settingsNotifyMaoi,
+          value: settings.notifyMaoi,
+          onChanged: (value) => settings.notifyMaoi = value,
+          notifyPrefsKey: 'maoi',
+          notifyDisplayName: l10n.addictionMaoi,
         ),
       if (addictions.quitAlcohol != null)
         _ToggleItem(

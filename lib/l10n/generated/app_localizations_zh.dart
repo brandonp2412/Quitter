@@ -1770,75 +1770,294 @@ class AppLocalizationsZh extends AppLocalizations {
       '您已经建立了新生活！两年的康复展示了非凡的韧性和承诺。长期清醒通常会带来生活各个方面的深刻积极变化，并显著降低复发风险。';
 
   @override
-  String get addictionAntidepressants => '抗抑郁药';
+  String get addictionSsri => 'SSRI';
 
   @override
-  String get antidepressantsPageTitle => '抗抑郁药康复';
+  String get ssriPageTitle => 'SSRI康复';
 
   @override
-  String get antidepressantsHeaderStarted => '您的康复之旅';
+  String get ssriHeaderStarted => '您的康复之旅';
 
   @override
-  String get antidepressantsHeaderNotStarted => '逐渐停用抗抑郁药的好处';
+  String get ssriHeaderNotStarted => '逐渐停用SSRI的好处';
 
   @override
-  String get antidepressantsSubtitleStarted => '追踪您的进度并庆祝每个里程碑';
+  String get ssriSubtitleStarted => '追踪您的进度并庆祝每个里程碑';
 
   @override
-  String get antidepressantsSubtitleNotStarted => '看看停药后会发生什么';
+  String get ssriSubtitleNotStarted => '看看停药后会发生什么';
 
   @override
-  String get antidepressantsMilestone3Title => '第3天：停药综合征达到峰值';
+  String get ssriMilestone3Title => '第3天：FINISH综合征达到峰值';
 
   @override
-  String get antidepressantsMilestone3Description =>
-      '停药症状通常在第2-4天达到峰值。您可能会经历流感样症状、头晕、失眠、恶心以及特征性的电击感（有时称为\"脑闪\"）。这些都是已知且暂时的过程。';
+  String get ssriMilestone3Description =>
+      '停药症状通常在第2-4天达到峰值。SSRI阻断血清素再摄取。您可能会经历流感样症状、头晕、失眠、恶心和特征性\"脑闪\"。帕罗西汀症状最严重，氟西汀因半衰期长而最温和。';
 
   @override
-  String get antidepressantsMilestone7Title => '一周：急性期开始缓解';
+  String get ssriMilestone7Title => '一周：急性期开始缓解';
 
   @override
-  String get antidepressantsMilestone7Description =>
-      '最强烈的身体症状开始减轻。大脑开始调整血清素和去甲肾上腺素信号传导，以便在没有药物的情况下运作。睡眠和食欲开始稳定。';
+  String get ssriMilestone7Description =>
+      '最强烈的身体症状开始减轻。大脑开始调整血清素信号传导，以便在没有药物的情况下运作。睡眠和食欲开始稳定。';
 
   @override
-  String get antidepressantsMilestone14Title => '两周：身体症状消退';
+  String get ssriMilestone14Title => '两周：身体症状消退';
 
   @override
-  String get antidepressantsMilestone14Description =>
-      '大多数急性身体停药症状已显著减少或消退。脑闪、恶心和头晕正在消失。随着大脑继续重新平衡其神经递质系统，情绪敏感性可能仍然较高。';
+  String get ssriMilestone14Description =>
+      '大多数急性身体停药症状已显著减少或消退。脑闪、恶心和头晕正在消失。随着大脑继续重新平衡血清素系统，情绪敏感性可能仍然较高。';
 
   @override
-  String get antidepressantsMilestone30Title => '一个月：情绪和精力趋于稳定';
+  String get ssriMilestone30Title => '一个月：情绪和精力趋于稳定';
 
   @override
-  String get antidepressantsMilestone30Description =>
-      '一个月是一个重要的里程碑。睡眠质量在改善，精力水平在稳定，许多人注意到情绪开始找到新的平衡。大脑正在积极恢复其自然的神经递质调节。';
+  String get ssriMilestone30Description =>
+      '一个月是一个重要的里程碑。睡眠质量在改善，精力水平在稳定。大脑正在积极恢复其自然的血清素调节。';
 
   @override
-  String get antidepressantsMilestone90Title => '三个月：神经化学重新平衡';
+  String get ssriMilestone90Title => '三个月：血清素受体恢复';
 
   @override
-  String get antidepressantsMilestone90Description =>
-      '三个月是一个重大的康复里程碑。血清素受体敏感性已大幅正常化。大多数人发现情绪、焦虑和认知功能都有明显改善。';
+  String get ssriMilestone90Description =>
+      '三个月是一个重大的康复里程碑。5-HT1A受体敏感性恢复需要2-3个月。大多数人发现情绪、焦虑和认知功能都有明显改善。';
 
   @override
-  String get antidepressantsMilestone180Title => '六个月：大脑长期调整';
+  String get ssriMilestone180Title => '六个月：大脑长期调整';
 
   @override
-  String get antidepressantsMilestone180Description =>
-      '六个月的康复使大脑有时间进行实质性调整。血清素、去甲肾上腺素和多巴胺系统已经找到了新的自然平衡。许多人在这个阶段报告感觉情感上更丰富，与自己的感受更连接。';
+  String get ssriMilestone180Description =>
+      '六个月使大脑血清素系统找到了自然平衡。许多人报告情绪范围改善，SSRI引起的性功能障碍通常在此时已消退。';
 
   @override
-  String get antidepressantsMilestone365Title => '一年：康复实现';
+  String get ssriMilestone365Title => '一年：康复实现';
 
   @override
-  String get antidepressantsMilestone365Description =>
-      '一年标志着一个完整的康复周期。您的大脑已完全适应在没有抗抑郁药的情况下运作。这一年中建立的情感和认知清晰度展示了非凡的韧性。';
+  String get ssriMilestone365Description =>
+      '一年标志着一个完整的康复周期。研究显示，接受逐渐减药和心理支持的大多数人在一年后仍保持良好状态。';
 
   @override
-  String get settingsShowAntidepressantsTracking => '显示抗抑郁药追踪';
+  String get settingsShowSsriTracking => '显示SSRI追踪';
 
   @override
-  String get settingsNotifyAntidepressants => '通知抗抑郁药戒断进度';
+  String get settingsNotifySsri => '通知SSRI戒断进度';
+
+  @override
+  String get addictionSnri => 'SNRI';
+
+  @override
+  String get snriPageTitle => 'SNRI康复';
+
+  @override
+  String get snriHeaderStarted => '您的康复之旅';
+
+  @override
+  String get snriHeaderNotStarted => '逐渐停用SNRI的好处';
+
+  @override
+  String get snriSubtitleStarted => '追踪您的进度并庆祝每个里程碑';
+
+  @override
+  String get snriSubtitleNotStarted => '看看停药后会发生什么';
+
+  @override
+  String get snriMilestone3Title => '第3天：强烈停药综合征达到峰值';
+
+  @override
+  String get snriMilestone3Description =>
+      'SNRI，特别是文拉法辛（Effexor），与最严重的抗抑郁药停药综合征相关。血清素和去甲肾上腺素两个系统同时受到影响，FINISH症状可能比SSRI更强烈。';
+
+  @override
+  String get snriMilestone7Title => '一周：双重神经递质调整';
+
+  @override
+  String get snriMilestone7Description =>
+      'SNRI影响血清素和去甲肾上腺素两种再摄取。最强烈的身体症状开始减轻，但双重机制可能使调整感觉比单独使用SSRI更复杂。';
+
+  @override
+  String get snriMilestone14Title => '两周：身体症状减轻';
+
+  @override
+  String get snriMilestone14Description =>
+      '大多数急性身体停药症状已显著减少。去甲肾上腺素系统的重新调整可能仍会引起一些焦虑或血压波动，但通常会在几周内消退。';
+
+  @override
+  String get snriMilestone30Title => '一个月：去甲肾上腺素系统稳定';
+
+  @override
+  String get snriMilestone30Description =>
+      '一个月是一个重要的里程碑。血清素和去甲肾上腺素系统都在积极重新平衡。情绪麻木开始消退。';
+
+  @override
+  String get snriMilestone90Title => '三个月：双重系统重新平衡';
+
+  @override
+  String get snriMilestone90Description =>
+      '三个月是一个重大的康复里程碑。SERT和NET都已正常化。认知功能、情绪调节和焦虑都有明显改善。';
+
+  @override
+  String get snriMilestone180Title => '六个月：神经学恢复';
+
+  @override
+  String get snriMilestone180Description =>
+      '六个月使血清素和去甲肾上腺素系统得到实质性重新调整。许多人报告压力耐受性明显改善。';
+
+  @override
+  String get snriMilestone365Title => '一年：康复实现';
+
+  @override
+  String get snriMilestone365Description =>
+      '一年标志着完整的双系统恢复周期。研究显示，在医师监督下逐渐减药的大多数人在一年后仍保持良好转归。';
+
+  @override
+  String get settingsShowSnriTracking => '显示SNRI追踪';
+
+  @override
+  String get settingsNotifySnri => '通知SNRI戒断进度';
+
+  @override
+  String get addictionTca => '三环类抗抑郁药';
+
+  @override
+  String get tcaPageTitle => '三环类抗抑郁药康复';
+
+  @override
+  String get tcaHeaderStarted => '您的康复之旅';
+
+  @override
+  String get tcaHeaderNotStarted => '逐渐停用三环类抗抑郁药的好处';
+
+  @override
+  String get tcaSubtitleStarted => '追踪您的进度并庆祝每个里程碑';
+
+  @override
+  String get tcaSubtitleNotStarted => '看看停药后会发生什么';
+
+  @override
+  String get tcaMilestone3Title => '第3天：胆碱能反弹达到峰值';
+
+  @override
+  String get tcaMilestone3Description =>
+      '三环类抗抑郁药（TCA）具有强烈的抗胆碱能作用。停药后会发生胆碱能反弹，症状包括恶心、腹泻、腹部痉挛、过度出汗、头痛和失眠，与SSRI的FINISH综合征不同。';
+
+  @override
+  String get tcaMilestone7Title => '一周：胆碱能症状减轻';
+
+  @override
+  String get tcaMilestone7Description =>
+      '胆碱能反弹通常在一周内开始显著减轻。消化道症状、出汗和流感样症状在减少。自主神经系统开始恢复其自然平衡。';
+
+  @override
+  String get tcaMilestone14Title => '两周：抗胆碱能效果逆转';
+
+  @override
+  String get tcaMilestone14Description =>
+      'TCA施加的抗胆碱能副作用（口干、便秘、排尿困难、视力模糊）正在逆转。随着大脑胆碱能通路正常化，认知清晰度改善。';
+
+  @override
+  String get tcaMilestone30Title => '一个月：自主神经系统稳定';
+
+  @override
+  String get tcaMilestone30Description =>
+      '一个月标志着自主神经系统的稳定。心律和血压变异性恢复正常。TCA抑制的REM睡眠随着胆碱能活动的恢复而开始恢复。';
+
+  @override
+  String get tcaMilestone90Title => '三个月：多种神经递质系统正常化';
+
+  @override
+  String get tcaMilestone90Description =>
+      'TCA影响血清素、去甲肾上腺素、乙酰胆碱和组胺系统。三个月使所有这些系统得到实质性恢复。情绪、认知功能和身体健康都有明显改善。';
+
+  @override
+  String get tcaMilestone180Title => '六个月：心脏和认知恢复';
+
+  @override
+  String get tcaMilestone180Description =>
+      '六个月的恢复使心脏和认知得到实质性恢复。TCA引起的QTc延长已消退。抗胆碱能效应引起的认知障碍（特别是记忆和处理速度）已大幅改善。';
+
+  @override
+  String get tcaMilestone365Title => '一年：康复实现';
+
+  @override
+  String get tcaMilestone365Description =>
+      '一年标志着完整的多系统恢复。TCA影响的所有神经递质系统都经历了一个完整的正常化周期。';
+
+  @override
+  String get settingsShowTcaTracking => '显示三环类追踪';
+
+  @override
+  String get settingsNotifyTca => '通知三环类抗抑郁药戒断进度';
+
+  @override
+  String get addictionMaoi => 'MAOI';
+
+  @override
+  String get maoiPageTitle => 'MAOI康复';
+
+  @override
+  String get maoiHeaderStarted => '您的康复之旅';
+
+  @override
+  String get maoiHeaderNotStarted => '逐渐停用MAOI的好处';
+
+  @override
+  String get maoiSubtitleStarted => '追踪您的进度并庆祝每个里程碑';
+
+  @override
+  String get maoiSubtitleNotStarted => '看看停药后会发生什么';
+
+  @override
+  String get maoiMilestone3Title => '第3天：最高风险阶段 — 必须医疗监督';
+
+  @override
+  String get maoiMilestone3Description =>
+      'MAOI是所有抗抑郁药类别中停药风险最严重的。突然停药可能导致严重激越、意识混乱、幻觉、肌阵挛和高热。如果出现这些症状，请立即寻求医疗帮助。MAOI永久性地破坏MAO酶，恢复需要约14天合成新酶。';
+
+  @override
+  String get maoiMilestone7Title => '一周：MAO酶合成进行中';
+
+  @override
+  String get maoiMilestone7Description =>
+      'MAOI永久性地破坏MAO酶分子。到一周时，约50%的正常MAO活性可能已经恢复。急性停药症状（谵妄、肌阵挛、高热）已大幅减轻，但仍需密切医疗监督。';
+
+  @override
+  String get maoiMilestone14Title => '两周：MAO酶活性基本恢复';
+
+  @override
+  String get maoiMilestone14Description =>
+      '两周是不可逆MAOI停药后MAO酶恢复的标准临床时间框架。MAO-A和MAO-B活性已大幅恢复，正常酪胺代谢已重新建立。可在医师指导下放宽MAOI治疗期间所需的饮食限制。';
+
+  @override
+  String get maoiMilestone30Title => '一个月：神经递质系统重新平衡';
+
+  @override
+  String get maoiMilestone30Description =>
+      '一个月后，MAO酶活性完全恢复，神经递质系统处于完全自然调节下。血清素、去甲肾上腺素、多巴胺和酪胺均正常代谢。MAOI相关药物相互作用风险已消退，但处方新药时务必告知医生既往MAOI使用史。';
+
+  @override
+  String get maoiMilestone90Title => '三个月：大脑化学物质正常化';
+
+  @override
+  String get maoiMilestone90Description =>
+      '三个月的自然单胺调节使大脑从MAO抑制状态大幅重新调整。MAOI治疗引起的受体超敏感性正在消退。情绪调节、精力和认知功能正在稳定。';
+
+  @override
+  String get maoiMilestone180Title => '六个月：长期恢复';
+
+  @override
+  String get maoiMilestone180Description =>
+      '六个月代表了自然单胺功能的实质性时期。血清素、去甲肾上腺素和多巴胺受体群已正常化。MAOI影响的苯乙胺通路也已恢复到自然水平。';
+
+  @override
+  String get maoiMilestone365Title => '一年：康复实现';
+
+  @override
+  String get maoiMilestone365Description =>
+      'MAOI停药后一年是一个真正重要的里程碑。MAOI是药理学上最复杂的抗抑郁药，具有最广泛的神经递质系统影响和最严苛的停药过程。一年展示了完整的恢复和非凡的个人韧性。';
+
+  @override
+  String get settingsShowMaoiTracking => '显示MAOI追踪';
+
+  @override
+  String get settingsNotifyMaoi => '通知MAOI戒断进度';
 }

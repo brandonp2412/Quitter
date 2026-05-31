@@ -1770,75 +1770,294 @@ class AppLocalizationsJa extends AppLocalizations {
       '新しい人生を築きました！2年間の回復は、驚くべき回復力とコミットメントを示しています。長期的な断酒・断薬は、人生のあらゆる分野で深い前向きな変化と、再発リスクの大幅な減少をもたらすことが多いです。';
 
   @override
-  String get addictionAntidepressants => '抗うつ薬';
+  String get addictionSsri => 'SSRI';
 
   @override
-  String get antidepressantsPageTitle => '抗うつ薬からの回復';
+  String get ssriPageTitle => 'SSRI回復';
 
   @override
-  String get antidepressantsHeaderStarted => 'あなたの回復の旅';
+  String get ssriHeaderStarted => 'あなたの回復の旅';
 
   @override
-  String get antidepressantsHeaderNotStarted => '抗うつ薬を減薬するメリット';
+  String get ssriHeaderNotStarted => 'SSRIを減薬するメリット';
 
   @override
-  String get antidepressantsSubtitleStarted => '進捗を記録し、各マイルストーンを祝いましょう';
+  String get ssriSubtitleStarted => '進捗を記録し、各マイルストーンを祝いましょう';
 
   @override
-  String get antidepressantsSubtitleNotStarted => '減薬したときに何が起こるかを見てみましょう';
+  String get ssriSubtitleNotStarted => '減薬したときに何が起こるかを見てみましょう';
 
   @override
-  String get antidepressantsMilestone3Title => '3日目：断薬症候群のピーク';
+  String get ssriMilestone3Title => '3日目：FINISH症候群のピーク';
 
   @override
-  String get antidepressantsMilestone3Description =>
-      '断薬症状は通常2〜4日目にピークを迎えます。インフルエンザ様症状、めまい、不眠、吐き気、「ブレインザップ」と呼ばれる電気ショック感覚を経験するかもしれません。これらは既知の一時的なプロセスの一部です。';
+  String get ssriMilestone3Description =>
+      '断薬症状は通常2〜4日目にピークを迎えます。SSRIはセロトニン再取り込みをブロックします。インフルエンザ様症状、めまい、不眠、吐き気、「ブレインザップ」を経験するかもしれません。パロキセチンが最も強い症状を引き起こし、フルオキセチンは長い半減期のため最も軽度です。';
 
   @override
-  String get antidepressantsMilestone7Title => '1週間：急性期が和らぎ始める';
+  String get ssriMilestone7Title => '1週間：急性期が和らぎ始める';
 
   @override
-  String get antidepressantsMilestone7Description =>
-      '最も強烈な身体的症状が治まり始めています。脳は薬なしでセロトニンとノルエピネフリンのシグナル伝達を調整し始めています。睡眠と食欲が安定し始めています。';
+  String get ssriMilestone7Description =>
+      '最も強烈な身体的症状が治まり始めています。脳は薬なしでセロトニンシグナル伝達を調整し始めています。睡眠と食欲が安定し始めています。';
 
   @override
-  String get antidepressantsMilestone14Title => '2週間：身体的症状が解消';
+  String get ssriMilestone14Title => '2週間：身体的症状が解消';
 
   @override
-  String get antidepressantsMilestone14Description =>
-      'ほとんどの急性身体的断薬症状が大幅に軽減または解消されました。ブレインザップ、吐き気、めまいが薄れています。脳が神経伝達物質システムの再バランスを続けているため、感情的な敏感さはまだ高いかもしれません。';
+  String get ssriMilestone14Description =>
+      'ほとんどの急性身体的断薬症状が大幅に軽減または解消されました。ブレインザップ、吐き気、めまいが薄れています。脳がセロトニンシステムの再バランスを続けているため、感情的な敏感さはまだ高いかもしれません。';
 
   @override
-  String get antidepressantsMilestone30Title => '1ヶ月：気分とエネルギーが安定';
+  String get ssriMilestone30Title => '1ヶ月：気分とエネルギーが安定';
 
   @override
-  String get antidepressantsMilestone30Description =>
-      '1ヶ月は重要なマイルストーンです。睡眠の質が改善し、エネルギーレベルが安定し、多くの人が気分が新しい均衡を見つけ始めていることに気づきます。脳は自然な神経伝達物質調節を積極的に回復しています。';
+  String get ssriMilestone30Description =>
+      '1ヶ月は重要なマイルストーンです。睡眠の質が改善し、エネルギーレベルが安定しています。脳は自然なセロトニン調節を積極的に回復しています。';
 
   @override
-  String get antidepressantsMilestone90Title => '3ヶ月：神経化学的再バランス';
+  String get ssriMilestone90Title => '3ヶ月：セロトニン受容体の回復';
 
   @override
-  String get antidepressantsMilestone90Description =>
-      '3ヶ月は主要な回復のマイルストーンです。セロトニン受容体の感受性が大幅に正常化されています。ほとんどの人は気分、不安、認知機能が意味のある形で改善されていることを実感します。';
+  String get ssriMilestone90Description =>
+      '3ヶ月は主要な回復のマイルストーンです。5-HT1A受容体の感受性回復には2〜3ヶ月かかります。ほとんどの人は気分、不安、認知機能が意味のある形で改善されていることを実感します。';
 
   @override
-  String get antidepressantsMilestone180Title => '6ヶ月：長期的な脳の適応';
+  String get ssriMilestone180Title => '6ヶ月：長期的な脳の適応';
 
   @override
-  String get antidepressantsMilestone180Description =>
-      '6ヶ月の回復により、脳は大幅に適応する時間を得ました。セロトニン、ノルエピネフリン、ドーパミンシステムが新しい自然なバランスを見つけています。多くの人がこの段階で感情的に豊かになり、自分の感情とのつながりを感じると報告しています。';
+  String get ssriMilestone180Description =>
+      '6ヶ月により、脳のセロトニンシステムが自然なバランスを見つけました。感情的な幅の改善が報告されており、SSRIによる性機能障害は通常この時点までに解消されています。';
 
   @override
-  String get antidepressantsMilestone365Title => '1年間：回復達成';
+  String get ssriMilestone365Title => '1年間：回復達成';
 
   @override
-  String get antidepressantsMilestone365Description =>
-      '1年間は完全な回復サイクルを示しています。脳は抗うつ薬なしで機能するよう完全に適応しました。この1年間で培った感情的・認知的明晰さは、素晴らしい回復力を示しています。';
+  String get ssriMilestone365Description =>
+      '1年間は完全な回復サイクルを示しています。研究によると、段階的な減薬と心理的サポートを受けた大多数の人が1年後も良好な状態を維持しています。';
 
   @override
-  String get settingsShowAntidepressantsTracking => '抗うつ薬トラッキングを表示';
+  String get settingsShowSsriTracking => 'SSRIトラッキングを表示';
 
   @override
-  String get settingsNotifyAntidepressants => '抗うつ薬禁断進捗を通知';
+  String get settingsNotifySsri => 'SSRI禁断進捗を通知';
+
+  @override
+  String get addictionSnri => 'SNRI';
+
+  @override
+  String get snriPageTitle => 'SNRI回復';
+
+  @override
+  String get snriHeaderStarted => 'あなたの回復の旅';
+
+  @override
+  String get snriHeaderNotStarted => 'SNRIを減薬するメリット';
+
+  @override
+  String get snriSubtitleStarted => '進捗を記録し、各マイルストーンを祝いましょう';
+
+  @override
+  String get snriSubtitleNotStarted => '減薬したときに何が起こるかを見てみましょう';
+
+  @override
+  String get snriMilestone3Title => '3日目：激しい断薬症候群のピーク';
+
+  @override
+  String get snriMilestone3Description =>
+      'SNRI、特にベンラファキシン（エフェキサー）は、最も重篤な抗うつ薬断薬症候群と関連しています。セロトニンとノルエピネフリンの両システムが同時に影響を受け、FINISH症状がSSRIよりも激しくなる可能性があります。';
+
+  @override
+  String get snriMilestone7Title => '1週間：二重神経伝達物質の調整';
+
+  @override
+  String get snriMilestone7Description =>
+      'SNRIはセロトニンとノルエピネフリンの両方の再取り込みに影響します。最も強烈な身体的症状が治まり始めていますが、二重メカニズムのため調整が複雑に感じられることがあります。';
+
+  @override
+  String get snriMilestone14Title => '2週間：身体的症状が薄れる';
+
+  @override
+  String get snriMilestone14Description =>
+      'ほとんどの急性身体的断薬症状が大幅に軽減されました。ノルエピネフリンシステムの再調整により、不安や血圧変動がまだ続く場合がありますが、通常は数週間で解消されます。';
+
+  @override
+  String get snriMilestone30Title => '1ヶ月：ノルエピネフリンシステムの安定';
+
+  @override
+  String get snriMilestone30Description =>
+      '1ヶ月は重要なマイルストーンです。セロトニンとノルエピネフリンの両システムが積極的に再バランスを取っています。感情的な麻痺の解消が始まります。';
+
+  @override
+  String get snriMilestone90Title => '3ヶ月：二重システムの再バランス';
+
+  @override
+  String get snriMilestone90Description =>
+      '3ヶ月は主要な回復のマイルストーンです。SERTとNETの両方が正常化されました。認知機能、気分調節、不安が意味のある形で改善されています。';
+
+  @override
+  String get snriMilestone180Title => '6ヶ月：神経学的回復';
+
+  @override
+  String get snriMilestone180Description =>
+      '6ヶ月により、セロトニンとノルエピネフリンの両システムが実質的に再調整されました。多くの人がストレス耐性の改善を報告しています。';
+
+  @override
+  String get snriMilestone365Title => '1年間：回復達成';
+
+  @override
+  String get snriMilestone365Description =>
+      '1年間は完全な二重システム回復サイクルを示しています。研究によると、医師の管理下でSNRIを段階的に減薬した人の大多数が1年後も良好な転帰を維持しています。';
+
+  @override
+  String get settingsShowSnriTracking => 'SNRIトラッキングを表示';
+
+  @override
+  String get settingsNotifySnri => 'SNRI禁断進捗を通知';
+
+  @override
+  String get addictionTca => '三環系抗うつ薬';
+
+  @override
+  String get tcaPageTitle => '三環系抗うつ薬回復';
+
+  @override
+  String get tcaHeaderStarted => 'あなたの回復の旅';
+
+  @override
+  String get tcaHeaderNotStarted => '三環系抗うつ薬を減薬するメリット';
+
+  @override
+  String get tcaSubtitleStarted => '進捗を記録し、各マイルストーンを祝いましょう';
+
+  @override
+  String get tcaSubtitleNotStarted => '減薬したときに何が起こるかを見てみましょう';
+
+  @override
+  String get tcaMilestone3Title => '3日目：コリン作動性リバウンドのピーク';
+
+  @override
+  String get tcaMilestone3Description =>
+      '三環系抗うつ薬（TCA）は強い抗コリン作用があります。中止するとコリン作動性リバウンドが起こります。症状は吐き気、下痢、腹部けいれん、過剰発汗、頭痛、筋肉痛、不眠であり、SSRIのFINISH症候群とは異なります。';
+
+  @override
+  String get tcaMilestone7Title => '1週間：コリン作動性症状が和らぐ';
+
+  @override
+  String get tcaMilestone7Description =>
+      'コリン作動性リバウンドは1週間までに大幅に和らぎ始めます。消化器症状、発汗、インフルエンザ様症状が軽減しています。自律神経系が自然なバランスを取り戻し始めています。';
+
+  @override
+  String get tcaMilestone14Title => '2週間：抗コリン作用の効果が逆転';
+
+  @override
+  String get tcaMilestone14Description =>
+      'TCAが身体に課した抗コリン作用の副作用（口渇、便秘、排尿困難、かすみ目）が逆転しています。脳のコリン作動性経路が正常化し始めるにつれ、認知的明晰さが改善します。';
+
+  @override
+  String get tcaMilestone30Title => '1ヶ月：自律神経系の安定';
+
+  @override
+  String get tcaMilestone30Description =>
+      '1ヶ月は自律神経系の安定を示します。心臓リズムと血圧変動が正常に戻っています。TCAによって抑制されていたREM睡眠が回復し始めています。';
+
+  @override
+  String get tcaMilestone90Title => '3ヶ月：複数の神経伝達物質システムの正常化';
+
+  @override
+  String get tcaMilestone90Description =>
+      'TCAはセロトニン、ノルエピネフリン、アセチルコリン、ヒスタミンシステムに影響します。3ヶ月により、これらすべてが実質的に回復しました。気分、認知機能、身体的健康が意味のある形で改善されています。';
+
+  @override
+  String get tcaMilestone180Title => '6ヶ月：心臓と認知の回復';
+
+  @override
+  String get tcaMilestone180Description =>
+      '6ヶ月の回復により、実質的な心臓と認知の回復が可能になりました。TCAによるQTc延長が解消され、抗コリン作用による認知障害が大幅に改善されています。';
+
+  @override
+  String get tcaMilestone365Title => '1年間：回復達成';
+
+  @override
+  String get tcaMilestone365Description =>
+      '1年間は完全なマルチシステム回復を示しています。TCAが影響したすべての神経伝達物質システムが正常化する完全なサイクルを経ました。';
+
+  @override
+  String get settingsShowTcaTracking => '三環系抗うつ薬トラッキングを表示';
+
+  @override
+  String get settingsNotifyTca => '三環系抗うつ薬禁断進捗を通知';
+
+  @override
+  String get addictionMaoi => 'MAOI';
+
+  @override
+  String get maoiPageTitle => 'MAOI回復';
+
+  @override
+  String get maoiHeaderStarted => 'あなたの回復の旅';
+
+  @override
+  String get maoiHeaderNotStarted => 'MAOIを減薬するメリット';
+
+  @override
+  String get maoiSubtitleStarted => '進捗を記録し、各マイルストーンを祝いましょう';
+
+  @override
+  String get maoiSubtitleNotStarted => '減薬したときに何が起こるかを見てみましょう';
+
+  @override
+  String get maoiMilestone3Title => '3日目：最高リスク段階 — 医師の管理が必須';
+
+  @override
+  String get maoiMilestone3Description =>
+      'MAOIはすべての抗うつ薬クラスの中で最も深刻な断薬リスクを持ちます。突然の中止は重篤な激越、錯乱、幻覚、ミオクローヌス、高体温を引き起こす可能性があります。これらの症状がある場合は直ちに医師に相談してください。';
+
+  @override
+  String get maoiMilestone7Title => '1週間：MAO酵素合成が進行中';
+
+  @override
+  String get maoiMilestone7Description =>
+      'MAOIはMAO酵素分子を永久に破壊します。1週間までに正常なMAO活性の約50%が回復している可能性があります。急性断薬症状が大幅に軽減されています。';
+
+  @override
+  String get maoiMilestone14Title => '2週間：MAO酵素活性が実質的に回復';
+
+  @override
+  String get maoiMilestone14Description =>
+      '2週間はMAO酵素回復の標準的な臨床的タイムフレームです。MAO-AとMAO-Bの活性が大幅に回復し、通常のチラミン代謝が再確立されています。担当医との相談により食事制限を緩和できる場合があります。';
+
+  @override
+  String get maoiMilestone30Title => '1ヶ月：神経伝達物質システムの再バランス';
+
+  @override
+  String get maoiMilestone30Description =>
+      '1ヶ月後、MAO酵素活性が完全に回復し、神経伝達物質システムが自然な調節下にあります。MAOIに関連する薬物相互作用リスクが解消されましたが、新薬が処方される際には必ず以前のMAOI使用を医師に伝えてください。';
+
+  @override
+  String get maoiMilestone90Title => '3ヶ月：脳の化学物質が正常化';
+
+  @override
+  String get maoiMilestone90Description =>
+      '3ヶ月の自然なモノアミン調節により、脳がMAO阻害状態から大幅に再調整されました。受容体過感受性が解消されています。気分調節、エネルギー、認知機能が安定しています。';
+
+  @override
+  String get maoiMilestone180Title => '6ヶ月：長期的な回復';
+
+  @override
+  String get maoiMilestone180Description =>
+      '6ヶ月は自然なモノアミン機能の実質的な期間を示します。セロトニン、ノルエピネフリン、ドーパミン受容体集団が正常化されました。フェネチルアミン経路も自然なレベルに回復しています。';
+
+  @override
+  String get maoiMilestone365Title => '1年間：回復達成';
+
+  @override
+  String get maoiMilestone365Description =>
+      'MAOI中止後の1年間は本当に重要なマイルストーンです。MAOIは最も薬理学的に複雑な抗うつ薬であり、最も厳しい断薬プロセスを持ちます。1年間は完全な回復と素晴らしい個人的回復力を示しています。';
+
+  @override
+  String get settingsShowMaoiTracking => 'MAOIトラッキングを表示';
+
+  @override
+  String get settingsNotifyMaoi => 'MAOI禁断進捗を通知';
 }

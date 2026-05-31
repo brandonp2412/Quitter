@@ -3,8 +3,11 @@ import 'package:provider/provider.dart';
 import 'package:quitter/adderall_page.dart';
 import 'package:quitter/addiction_provider.dart';
 import 'package:quitter/alcohol_page.dart';
-import 'package:quitter/antidepressant_page.dart';
 import 'package:quitter/benzodiazepine_page.dart';
+import 'package:quitter/maoi_page.dart';
+import 'package:quitter/snri_page.dart';
+import 'package:quitter/ssri_page.dart';
+import 'package:quitter/tca_page.dart';
 import 'package:quitter/cocaine_page.dart';
 import 'package:quitter/edit_entry_page.dart';
 import 'package:quitter/heroin_page.dart';
@@ -52,13 +55,43 @@ class AddAddictionPage extends StatelessWidget {
         ),
       );
     }
-    if (addictions.quitAntidepressants == null) {
+    if (addictions.quitSsri == null) {
       options.add(
         _AddictionOption(
-          title: l10n.addictionAntidepressants,
+          title: l10n.addictionSsri,
           icon: Icons.psychology,
           gradientColors: [const Color(0xFF7C3AED), const Color(0xFF4F46E5)],
-          destination: const AntidepressantPage(started: false),
+          destination: const SsriPage(started: false),
+        ),
+      );
+    }
+    if (addictions.quitSnri == null) {
+      options.add(
+        _AddictionOption(
+          title: l10n.addictionSnri,
+          icon: Icons.psychology_alt,
+          gradientColors: [const Color(0xFF6D28D9), const Color(0xFF7C3AED)],
+          destination: const SnriPage(started: false),
+        ),
+      );
+    }
+    if (addictions.quitTca == null) {
+      options.add(
+        _AddictionOption(
+          title: l10n.addictionTca,
+          icon: Icons.medication_liquid,
+          gradientColors: [const Color(0xFF5B21B6), const Color(0xFF6D28D9)],
+          destination: const TcaPage(started: false),
+        ),
+      );
+    }
+    if (addictions.quitMaoi == null) {
+      options.add(
+        _AddictionOption(
+          title: l10n.addictionMaoi,
+          icon: Icons.science,
+          gradientColors: [const Color(0xFF4C1D95), const Color(0xFF5B21B6)],
+          destination: const MaoiPage(started: false),
         ),
       );
     }

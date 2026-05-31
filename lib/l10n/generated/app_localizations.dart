@@ -3256,137 +3256,533 @@ abstract class AppLocalizations {
   /// **'You\'ve built a new life! Two years of recovery demonstrates remarkable resilience and commitment. Long-term sobriety often brings profound positive changes in all areas of life and significantly reduced risk of relapse.'**
   String get customMilestone730Description;
 
-  /// Antidepressants addiction name
+  /// SSRI addiction name
   ///
   /// In en, this message translates to:
-  /// **'Antidepressants'**
-  String get addictionAntidepressants;
+  /// **'SSRIs'**
+  String get addictionSsri;
 
-  /// Antidepressants page title
+  /// No description provided for @ssriPageTitle.
   ///
   /// In en, this message translates to:
-  /// **'Antidepressant Recovery'**
-  String get antidepressantsPageTitle;
+  /// **'SSRI Recovery'**
+  String get ssriPageTitle;
 
-  /// Antidepressants header when started
+  /// No description provided for @ssriHeaderStarted.
   ///
   /// In en, this message translates to:
   /// **'Your Recovery Journey'**
-  String get antidepressantsHeaderStarted;
+  String get ssriHeaderStarted;
 
-  /// Antidepressants header when not started
+  /// No description provided for @ssriHeaderNotStarted.
   ///
   /// In en, this message translates to:
-  /// **'Benefits of Tapering Off Antidepressants'**
-  String get antidepressantsHeaderNotStarted;
+  /// **'Benefits of Tapering Off SSRIs'**
+  String get ssriHeaderNotStarted;
 
-  /// Antidepressants subtitle when started
+  /// No description provided for @ssriSubtitleStarted.
   ///
   /// In en, this message translates to:
   /// **'Track your progress and celebrate each milestone'**
-  String get antidepressantsSubtitleStarted;
+  String get ssriSubtitleStarted;
 
-  /// Antidepressants subtitle when not started
+  /// No description provided for @ssriSubtitleNotStarted.
   ///
   /// In en, this message translates to:
   /// **'See what happens when you taper off'**
-  String get antidepressantsSubtitleNotStarted;
+  String get ssriSubtitleNotStarted;
 
-  /// Antidepressants milestone day 3 title
+  /// No description provided for @ssriMilestone3Title.
   ///
   /// In en, this message translates to:
-  /// **'Day 3: Discontinuation Syndrome Peaks'**
-  String get antidepressantsMilestone3Title;
+  /// **'Day 3: FINISH Syndrome Peaks'**
+  String get ssriMilestone3Title;
 
-  /// Antidepressants milestone day 3 description
+  /// No description provided for @ssriMilestone3Description.
   ///
   /// In en, this message translates to:
-  /// **'Discontinuation symptoms typically peak around days 2–4. You may experience flu-like symptoms, dizziness, insomnia, nausea, and the characteristic electric shock sensations sometimes called \'brain zaps\'. These are a known and temporary part of the process.'**
-  String get antidepressantsMilestone3Description;
+  /// **'Discontinuation symptoms typically peak around days 2–4. SSRIs block serotonin reuptake; when removed, the brain needs time to restore natural receptor sensitivity. Expect flu-like symptoms, dizziness, insomnia, nausea, and the characteristic \'brain zaps\'. Paroxetine tends to produce the most intense symptoms; fluoxetine, with its very long half-life, self-tapers and is typically the mildest.'**
+  String get ssriMilestone3Description;
 
-  /// Antidepressants milestone day 7 title
+  /// No description provided for @ssriMilestone7Title.
   ///
   /// In en, this message translates to:
   /// **'One Week: Acute Phase Beginning to Ease'**
-  String get antidepressantsMilestone7Title;
+  String get ssriMilestone7Title;
 
-  /// Antidepressants milestone day 7 description
+  /// No description provided for @ssriMilestone7Description.
   ///
   /// In en, this message translates to:
-  /// **'The most intense physical symptoms are beginning to subside. The brain is starting to adjust its serotonin and norepinephrine signalling to function without the medication. Sleep and appetite are beginning to stabilise.'**
-  String get antidepressantsMilestone7Description;
+  /// **'The most intense physical symptoms are beginning to subside. Your brain is adjusting its serotonin signalling to function without the medication. Sleep and appetite are beginning to stabilise.'**
+  String get ssriMilestone7Description;
 
-  /// Antidepressants milestone day 14 title
+  /// No description provided for @ssriMilestone14Title.
   ///
   /// In en, this message translates to:
   /// **'Two Weeks: Physical Symptoms Resolving'**
-  String get antidepressantsMilestone14Title;
+  String get ssriMilestone14Title;
 
-  /// Antidepressants milestone day 14 description
+  /// No description provided for @ssriMilestone14Description.
   ///
   /// In en, this message translates to:
-  /// **'Most acute physical discontinuation symptoms have significantly reduced or resolved. The brain zaps, nausea, and dizziness are fading. Emotional sensitivity may still be heightened as your brain continues to rebalance its neurotransmitter systems.'**
-  String get antidepressantsMilestone14Description;
+  /// **'Most acute physical discontinuation symptoms have significantly reduced or resolved. Brain zaps, nausea, and dizziness are fading. Emotional sensitivity may still be heightened as your brain continues to rebalance its serotonin systems.'**
+  String get ssriMilestone14Description;
 
-  /// Antidepressants milestone day 30 title
+  /// No description provided for @ssriMilestone30Title.
   ///
   /// In en, this message translates to:
   /// **'One Month: Mood and Energy Stabilising'**
-  String get antidepressantsMilestone30Title;
+  String get ssriMilestone30Title;
 
-  /// Antidepressants milestone day 30 description
+  /// No description provided for @ssriMilestone30Description.
   ///
   /// In en, this message translates to:
-  /// **'One month marks a significant milestone. Sleep quality is improving, energy levels are stabilising, and many people notice their mood beginning to find a new equilibrium. The brain is actively restoring its natural neurotransmitter regulation.'**
-  String get antidepressantsMilestone30Description;
+  /// **'One month marks a significant milestone. Sleep quality is improving, energy levels are stabilising, and many people notice their mood beginning to find a new equilibrium. The brain is actively restoring its natural serotonin regulation.'**
+  String get ssriMilestone30Description;
 
-  /// Antidepressants milestone day 90 title
+  /// No description provided for @ssriMilestone90Title.
   ///
   /// In en, this message translates to:
-  /// **'Three Months: Neurochemical Rebalancing'**
-  String get antidepressantsMilestone90Title;
+  /// **'Three Months: Serotonin Receptor Recovery'**
+  String get ssriMilestone90Title;
 
-  /// Antidepressants milestone day 90 description
+  /// No description provided for @ssriMilestone90Description.
   ///
   /// In en, this message translates to:
-  /// **'Three months is a major recovery milestone. Serotonin receptor sensitivity is substantially normalised. Most people find their mood, anxiety, and cognitive function are meaningfully improved. This is an excellent time to consolidate the non-medication coping strategies you have developed.'**
-  String get antidepressantsMilestone90Description;
+  /// **'Three months is a major recovery milestone. SERT occupancy returns to baseline within weeks, but post-synaptic 5-HT1A receptor sensitivity takes 2–3 months to substantially recover. Most people find mood, anxiety, and cognitive function are meaningfully improved at this point.'**
+  String get ssriMilestone90Description;
 
-  /// Antidepressants milestone day 180 title
+  /// No description provided for @ssriMilestone180Title.
   ///
   /// In en, this message translates to:
   /// **'Six Months: Long-Term Brain Adjustment'**
-  String get antidepressantsMilestone180Title;
+  String get ssriMilestone180Title;
 
-  /// Antidepressants milestone day 180 description
+  /// No description provided for @ssriMilestone180Description.
   ///
   /// In en, this message translates to:
-  /// **'Six months of recovery allows for substantial neurological adjustment. The brain\'s serotonin, norepinephrine, and dopamine systems have had time to find a new natural balance. Many people report feeling emotionally richer and more connected to their feelings at this stage.'**
-  String get antidepressantsMilestone180Description;
+  /// **'Six months allows for substantial neurological adjustment. The brain\'s serotonin systems have found their natural balance. Many people report improved emotional range and, for those who experienced it, sexual dysfunction caused by SSRIs has typically resolved.'**
+  String get ssriMilestone180Description;
 
-  /// Antidepressants milestone day 365 title
+  /// No description provided for @ssriMilestone365Title.
   ///
   /// In en, this message translates to:
   /// **'One Year: Recovery Achieved'**
-  String get antidepressantsMilestone365Title;
+  String get ssriMilestone365Title;
 
-  /// Antidepressants milestone day 365 description
+  /// No description provided for @ssriMilestone365Description.
   ///
   /// In en, this message translates to:
-  /// **'One year marks a complete cycle of recovery. Your brain has fully adjusted to functioning without antidepressant medication. The emotional and cognitive clarity you have built through this year demonstrates remarkable resilience.'**
-  String get antidepressantsMilestone365Description;
+  /// **'One year marks a complete cycle of recovery. Research shows the majority who completed a gradual taper and received psychological support remain well at one year, with quality of life comparable or better than those who remained on medication.'**
+  String get ssriMilestone365Description;
 
-  /// Settings label for showing antidepressants tracking
+  /// No description provided for @settingsShowSsriTracking.
   ///
   /// In en, this message translates to:
-  /// **'Show antidepressants tracking'**
-  String get settingsShowAntidepressantsTracking;
+  /// **'Show SSRI tracking'**
+  String get settingsShowSsriTracking;
 
-  /// Settings label for antidepressants notifications
+  /// No description provided for @settingsNotifySsri.
   ///
   /// In en, this message translates to:
-  /// **'Notify antidepressants quitting progress'**
-  String get settingsNotifyAntidepressants;
+  /// **'Notify SSRI quitting progress'**
+  String get settingsNotifySsri;
+
+  /// SNRI addiction name
+  ///
+  /// In en, this message translates to:
+  /// **'SNRIs'**
+  String get addictionSnri;
+
+  /// No description provided for @snriPageTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'SNRI Recovery'**
+  String get snriPageTitle;
+
+  /// No description provided for @snriHeaderStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Your Recovery Journey'**
+  String get snriHeaderStarted;
+
+  /// No description provided for @snriHeaderNotStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Benefits of Tapering Off SNRIs'**
+  String get snriHeaderNotStarted;
+
+  /// No description provided for @snriSubtitleStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Track your progress and celebrate each milestone'**
+  String get snriSubtitleStarted;
+
+  /// No description provided for @snriSubtitleNotStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'See what happens when you taper off'**
+  String get snriSubtitleNotStarted;
+
+  /// No description provided for @snriMilestone3Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Day 3: Intense Discontinuation Syndrome Peaks'**
+  String get snriMilestone3Title;
+
+  /// No description provided for @snriMilestone3Description.
+  ///
+  /// In en, this message translates to:
+  /// **'SNRIs — particularly venlafaxine (Effexor) — are associated with some of the most severe antidepressant discontinuation syndromes. Venlafaxine\'s very short half-life (5 hours) means symptoms can be more intense than with most SSRIs. FINISH symptoms (flu-like feelings, insomnia, nausea, imbalance, sensory disturbances, hyperarousal) affect both serotonin and norepinephrine systems simultaneously.'**
+  String get snriMilestone3Description;
+
+  /// No description provided for @snriMilestone7Title.
+  ///
+  /// In en, this message translates to:
+  /// **'One Week: Dual Neurotransmitter Adjustment'**
+  String get snriMilestone7Title;
+
+  /// No description provided for @snriMilestone7Description.
+  ///
+  /// In en, this message translates to:
+  /// **'SNRIs affect both serotonin and norepinephrine reuptake. Both systems are adjusting simultaneously. The most intense physical symptoms are beginning to subside, but the dual mechanism means adjustment can feel more complex than with SSRIs alone.'**
+  String get snriMilestone7Description;
+
+  /// No description provided for @snriMilestone14Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Two Weeks: Physical Symptoms Fading'**
+  String get snriMilestone14Title;
+
+  /// No description provided for @snriMilestone14Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Most acute physical discontinuation symptoms have significantly reduced. Brain zaps, nausea, and dizziness are fading. The norepinephrine system\'s readjustment may still be causing some anxiety or blood pressure fluctuations — these typically resolve over coming weeks.'**
+  String get snriMilestone14Description;
+
+  /// No description provided for @snriMilestone30Title.
+  ///
+  /// In en, this message translates to:
+  /// **'One Month: Norepinephrine System Stabilising'**
+  String get snriMilestone30Title;
+
+  /// No description provided for @snriMilestone30Description.
+  ///
+  /// In en, this message translates to:
+  /// **'One month marks a significant milestone. Both serotonin and norepinephrine systems are actively rebalancing. Sleep quality and energy levels are stabilising. Many people notice improved emotional range as the medication\'s effect on emotional blunting begins to resolve.'**
+  String get snriMilestone30Description;
+
+  /// No description provided for @snriMilestone90Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Three Months: Dual System Rebalancing'**
+  String get snriMilestone90Title;
+
+  /// No description provided for @snriMilestone90Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Three months is a major recovery milestone. Both SERT and NET (norepinephrine transporter) have normalised. Research shows cognitive function, mood regulation, and anxiety are meaningfully improved for the majority of people who completed a supervised taper.'**
+  String get snriMilestone90Description;
+
+  /// No description provided for @snriMilestone180Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Six Months: Neurological Recovery'**
+  String get snriMilestone180Title;
+
+  /// No description provided for @snriMilestone180Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Six months allows for substantial readjustment of both serotonin and norepinephrine systems. The HPA axis — which SNRIs influence through norepinephrine — is normalising. Many people report notably improved resilience to everyday stressors at this point.'**
+  String get snriMilestone180Description;
+
+  /// No description provided for @snriMilestone365Title.
+  ///
+  /// In en, this message translates to:
+  /// **'One Year: Recovery Achieved'**
+  String get snriMilestone365Title;
+
+  /// No description provided for @snriMilestone365Description.
+  ///
+  /// In en, this message translates to:
+  /// **'One year marks a complete cycle of dual serotonin-norepinephrine recovery. Research consistently shows that people who successfully discontinue SNRIs under medical supervision and with psychological support maintain good outcomes at one year.'**
+  String get snriMilestone365Description;
+
+  /// No description provided for @settingsShowSnriTracking.
+  ///
+  /// In en, this message translates to:
+  /// **'Show SNRI tracking'**
+  String get settingsShowSnriTracking;
+
+  /// No description provided for @settingsNotifySnri.
+  ///
+  /// In en, this message translates to:
+  /// **'Notify SNRI quitting progress'**
+  String get settingsNotifySnri;
+
+  /// Tricyclic antidepressant addiction name
+  ///
+  /// In en, this message translates to:
+  /// **'TCAs'**
+  String get addictionTca;
+
+  /// No description provided for @tcaPageTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'TCA Recovery'**
+  String get tcaPageTitle;
+
+  /// No description provided for @tcaHeaderStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Your Recovery Journey'**
+  String get tcaHeaderStarted;
+
+  /// No description provided for @tcaHeaderNotStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Benefits of Tapering Off TCAs'**
+  String get tcaHeaderNotStarted;
+
+  /// No description provided for @tcaSubtitleStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Track your progress and celebrate each milestone'**
+  String get tcaSubtitleStarted;
+
+  /// No description provided for @tcaSubtitleNotStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'See what happens when you taper off'**
+  String get tcaSubtitleNotStarted;
+
+  /// No description provided for @tcaMilestone3Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Day 3: Cholinergic Rebound Peaks'**
+  String get tcaMilestone3Title;
+
+  /// No description provided for @tcaMilestone3Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Tricyclics (TCAs) have strong anticholinergic effects — they block acetylcholine receptors. When stopped, cholinergic rebound occurs as the acetylcholine system becomes temporarily overactive. Symptoms include nausea, diarrhoea, abdominal cramps, excessive sweating, headache, muscle aches, and insomnia — distinct from the SSRI FINISH syndrome and reflecting the anticholinergic mechanism of TCAs.'**
+  String get tcaMilestone3Description;
+
+  /// No description provided for @tcaMilestone7Title.
+  ///
+  /// In en, this message translates to:
+  /// **'One Week: Cholinergic Symptoms Easing'**
+  String get tcaMilestone7Title;
+
+  /// No description provided for @tcaMilestone7Description.
+  ///
+  /// In en, this message translates to:
+  /// **'The cholinergic rebound typically reaches its peak within the first few days and begins to ease by one week. Gastrointestinal symptoms, sweating, and flu-like feelings are reducing. Your autonomic nervous system — which TCAs powerfully affect — is beginning to re-establish its natural balance.'**
+  String get tcaMilestone7Description;
+
+  /// No description provided for @tcaMilestone14Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Two Weeks: Anticholinergic Effects Reversing'**
+  String get tcaMilestone14Title;
+
+  /// No description provided for @tcaMilestone14Description.
+  ///
+  /// In en, this message translates to:
+  /// **'The anticholinergic side effects that TCAs imposed — dry mouth, constipation, urinary hesitancy, blurred vision — are reversing as the acetylcholine system recovers. Many people notice improved cognitive clarity as the brain\'s cholinergic pathways, important for memory and attention, begin to normalise.'**
+  String get tcaMilestone14Description;
+
+  /// No description provided for @tcaMilestone30Title.
+  ///
+  /// In en, this message translates to:
+  /// **'One Month: Autonomic Nervous System Stabilising'**
+  String get tcaMilestone30Title;
+
+  /// No description provided for @tcaMilestone30Description.
+  ///
+  /// In en, this message translates to:
+  /// **'One month marks the stabilisation of your autonomic nervous system. Cardiac rhythm and blood pressure variability are returning to normal. Sleep architecture — which TCAs suppress by reducing REM sleep — is beginning to restore as natural cholinergic activity recovers.'**
+  String get tcaMilestone30Description;
+
+  /// No description provided for @tcaMilestone90Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Three Months: Multiple Neurotransmitter Systems Normalising'**
+  String get tcaMilestone90Title;
+
+  /// No description provided for @tcaMilestone90Description.
+  ///
+  /// In en, this message translates to:
+  /// **'TCAs affect serotonin, norepinephrine, acetylcholine, and histamine systems. Three months allows all of these to substantially recover. Research shows mood, cognitive function, and physical wellbeing are meaningfully improved at the three-month mark.'**
+  String get tcaMilestone90Description;
+
+  /// No description provided for @tcaMilestone180Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Six Months: Cardiac and Cognitive Recovery'**
+  String get tcaMilestone180Title;
+
+  /// No description provided for @tcaMilestone180Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Six months of recovery allows for substantial cardiac and cognitive recovery. QTc interval prolongation caused by TCAs has resolved. The cognitive impairment that TCAs can cause through anticholinergic effects — particularly affecting memory and processing speed — has substantially improved.'**
+  String get tcaMilestone180Description;
+
+  /// No description provided for @tcaMilestone365Title.
+  ///
+  /// In en, this message translates to:
+  /// **'One Year: Recovery Achieved'**
+  String get tcaMilestone365Title;
+
+  /// No description provided for @tcaMilestone365Description.
+  ///
+  /// In en, this message translates to:
+  /// **'One year marks a complete cycle of multi-system recovery. All TCA-affected neurotransmitter systems — cholinergic, noradrenergic, serotonergic, and histaminergic — have had a full cycle to normalise. Complete reversal of anticholinergic cognitive impairment and full cardiac autonomic recovery represent a significant achievement.'**
+  String get tcaMilestone365Description;
+
+  /// No description provided for @settingsShowTcaTracking.
+  ///
+  /// In en, this message translates to:
+  /// **'Show TCA tracking'**
+  String get settingsShowTcaTracking;
+
+  /// No description provided for @settingsNotifyTca.
+  ///
+  /// In en, this message translates to:
+  /// **'Notify TCA quitting progress'**
+  String get settingsNotifyTca;
+
+  /// MAOI addiction name
+  ///
+  /// In en, this message translates to:
+  /// **'MAOIs'**
+  String get addictionMaoi;
+
+  /// No description provided for @maoiPageTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'MAOI Recovery'**
+  String get maoiPageTitle;
+
+  /// No description provided for @maoiHeaderStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Your Recovery Journey'**
+  String get maoiHeaderStarted;
+
+  /// No description provided for @maoiHeaderNotStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Benefits of Tapering Off MAOIs'**
+  String get maoiHeaderNotStarted;
+
+  /// No description provided for @maoiSubtitleStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Track your progress and celebrate each milestone'**
+  String get maoiSubtitleStarted;
+
+  /// No description provided for @maoiSubtitleNotStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'See what happens when you taper off'**
+  String get maoiSubtitleNotStarted;
+
+  /// No description provided for @maoiMilestone3Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Day 3: Highest Risk Phase — Medical Supervision Essential'**
+  String get maoiMilestone3Title;
+
+  /// No description provided for @maoiMilestone3Description.
+  ///
+  /// In en, this message translates to:
+  /// **'MAOIs carry the most serious discontinuation risks of any antidepressant class. Abrupt cessation — especially of phenelzine and tranylcypromine — can cause severe agitation, confusion, hallucinations, myoclonus, and hyperthermia. If you are experiencing these symptoms, seek immediate medical attention. MAOIs work by permanently disabling MAO enzymes; recovery requires the body to synthesise new enzyme, a process taking approximately 14 days.'**
+  String get maoiMilestone3Description;
+
+  /// No description provided for @maoiMilestone7Title.
+  ///
+  /// In en, this message translates to:
+  /// **'One Week: MAO Enzyme Synthesis Underway'**
+  String get maoiMilestone7Title;
+
+  /// No description provided for @maoiMilestone7Description.
+  ///
+  /// In en, this message translates to:
+  /// **'MAOIs permanently destroy MAO enzyme molecules; recovery requires synthesising entirely new enzyme. By one week, approximately 50% of normal MAO activity may have recovered. Severe acute discontinuation symptoms (delirium, myoclonus, hyperthermia) are substantially reduced. Close medical supervision remains important.'**
+  String get maoiMilestone7Description;
+
+  /// No description provided for @maoiMilestone14Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Two Weeks: MAO Enzyme Activity Substantially Recovered'**
+  String get maoiMilestone14Title;
+
+  /// No description provided for @maoiMilestone14Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Two weeks is the standard clinical timeframe for MAO enzyme recovery after discontinuation. By approximately day 14, MAO-A and MAO-B activity is largely restored and normal tyramine metabolism is re-established. The dietary restrictions required during MAOI treatment can typically be relaxed in consultation with your prescriber.'**
+  String get maoiMilestone14Description;
+
+  /// No description provided for @maoiMilestone30Title.
+  ///
+  /// In en, this message translates to:
+  /// **'One Month: Neurotransmitter Systems Rebalancing'**
+  String get maoiMilestone30Title;
+
+  /// No description provided for @maoiMilestone30Description.
+  ///
+  /// In en, this message translates to:
+  /// **'One month after MAOI discontinuation, MAO enzyme activity has fully recovered and neurotransmitter systems are under entirely natural regulation. Serotonin, norepinephrine, dopamine, and tyramine are all metabolised normally. Drug interaction risks associated with MAOIs have resolved — though always inform prescribers of previous MAOI use.'**
+  String get maoiMilestone30Description;
+
+  /// No description provided for @maoiMilestone90Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Three Months: Brain Chemistry Normalising'**
+  String get maoiMilestone90Title;
+
+  /// No description provided for @maoiMilestone90Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Three months of natural monoamine regulation has allowed the brain to substantially readjust. Receptor supersensitivity caused by chronically elevated monoamine levels under MAOI treatment is resolving. Mood regulation, energy, and cognitive function are stabilising as natural neurotransmission replaces pharmacological MAO inhibition.'**
+  String get maoiMilestone90Description;
+
+  /// No description provided for @maoiMilestone180Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Six Months: Long-Term Recovery'**
+  String get maoiMilestone180Title;
+
+  /// No description provided for @maoiMilestone180Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Six months represents a substantial period of natural monoamine function. Serotonin, norepinephrine, and dopamine receptor populations have normalised. The phenethylamine (PEA) pathways also affected by MAOIs have restored to natural levels — an often-overlooked aspect of recovery that contributes to emotional normalisation.'**
+  String get maoiMilestone180Description;
+
+  /// No description provided for @maoiMilestone365Title.
+  ///
+  /// In en, this message translates to:
+  /// **'One Year: Recovery Achieved'**
+  String get maoiMilestone365Title;
+
+  /// No description provided for @maoiMilestone365Description.
+  ///
+  /// In en, this message translates to:
+  /// **'One year after MAOI discontinuation is a genuinely significant milestone. MAOIs are the most pharmacologically complex antidepressants, with the broadest effects on neurotransmitter systems and the most demanding discontinuation process. One year demonstrates complete recovery of all monoamine systems and remarkable personal resilience.'**
+  String get maoiMilestone365Description;
+
+  /// No description provided for @settingsShowMaoiTracking.
+  ///
+  /// In en, this message translates to:
+  /// **'Show MAOI tracking'**
+  String get settingsShowMaoiTracking;
+
+  /// No description provided for @settingsNotifyMaoi.
+  ///
+  /// In en, this message translates to:
+  /// **'Notify MAOI quitting progress'**
+  String get settingsNotifyMaoi;
 }
 
 class _AppLocalizationsDelegate

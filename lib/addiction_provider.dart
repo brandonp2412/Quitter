@@ -20,7 +20,10 @@ class AddictionProvider extends ChangeNotifier {
   String? _marijuana;
   String? _benzos;
   String? _adderall;
-  String? _antidepressants;
+  String? _ssri;
+  String? _snri;
+  String? _tca;
+  String? _maoi;
 
   List<Entry> entries = [];
   Map<String, List<int>> _days = {};
@@ -41,7 +44,10 @@ class AddictionProvider extends ChangeNotifier {
     _heroin = _pref!.getString('heroin');
     _benzos = _pref!.getString('benzos');
     _adderall = _pref!.getString('adderall');
-    _antidepressants = _pref!.getString('antidepressants');
+    _ssri = _pref!.getString('ssri');
+    _snri = _pref!.getString('snri');
+    _tca = _pref!.getString('tca');
+    _maoi = _pref!.getString('maoi');
 
     final String? entriesJson = _pref!.getString('entries');
     if (entriesJson != null) {
@@ -91,7 +97,10 @@ class AddictionProvider extends ChangeNotifier {
   String? get quitAdderall => _adderall;
   String? get quitCocaine => _cocaine;
   String? get quitMarijuana => _marijuana;
-  String? get quitAntidepressants => _antidepressants;
+  String? get quitSsri => _ssri;
+  String? get quitSnri => _snri;
+  String? get quitTca => _tca;
+  String? get quitMaoi => _maoi;
 
   Future<void> _saveEntries() async {
     final List<Map<String, dynamic>> list = entries

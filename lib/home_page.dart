@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:quitter/add_addiction_page.dart';
 import 'package:quitter/adderall_page.dart';
-import 'package:quitter/antidepressant_page.dart';
 import 'package:quitter/benzodiazepine_page.dart';
+import 'package:quitter/maoi_page.dart';
+import 'package:quitter/snri_page.dart';
+import 'package:quitter/ssri_page.dart';
+import 'package:quitter/tca_page.dart';
 import 'package:quitter/cocaine_page.dart';
 import 'package:quitter/heroin_page.dart';
 import 'package:quitter/l10n/generated/app_localizations.dart';
@@ -263,34 +266,117 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                   );
                 }
 
-                if (addictions.quitAntidepressants != null &&
-                    _matchesSearch(l10n.addictionAntidepressants)) {
+                if (addictions.quitSsri != null &&
+                    _matchesSearch(l10n.addictionSsri)) {
                   cards.add(
                     QuitCard(
                       context: context,
-                      title: l10n.addictionAntidepressants,
+                      title: l10n.addictionSsri,
                       icon: Icons.psychology,
                       gradientColors: [
                         const Color(0xFF7C3AED),
                         const Color(0xFF4F46E5),
                       ],
-                      quitDate: addictions.quitAntidepressants,
+                      quitDate: addictions.quitSsri,
                       onTap: () async {
                         await Navigator.of(context).push(
                           MaterialPageRoute(
-                            builder: (context) =>
-                                const AntidepressantPage(started: true),
+                            builder: (context) => const SsriPage(started: true),
                           ),
                         );
                         if (mounted) _loadQuitDays();
                       },
                       onLongPress: () {
-                        _showStopTrackingBottomSheet(
-                          l10n.addictionAntidepressants,
-                          () {
-                            addictions.setAddiction('antidepressants', null);
-                          },
+                        _showStopTrackingBottomSheet(l10n.addictionSsri, () {
+                          addictions.setAddiction('ssri', null);
+                        });
+                      },
+                    ),
+                  );
+                }
+
+                if (addictions.quitSnri != null &&
+                    _matchesSearch(l10n.addictionSnri)) {
+                  cards.add(
+                    QuitCard(
+                      context: context,
+                      title: l10n.addictionSnri,
+                      icon: Icons.psychology_alt,
+                      gradientColors: [
+                        const Color(0xFF6D28D9),
+                        const Color(0xFF7C3AED),
+                      ],
+                      quitDate: addictions.quitSnri,
+                      onTap: () async {
+                        await Navigator.of(context).push(
+                          MaterialPageRoute(
+                            builder: (context) => const SnriPage(started: true),
+                          ),
                         );
+                        if (mounted) _loadQuitDays();
+                      },
+                      onLongPress: () {
+                        _showStopTrackingBottomSheet(l10n.addictionSnri, () {
+                          addictions.setAddiction('snri', null);
+                        });
+                      },
+                    ),
+                  );
+                }
+
+                if (addictions.quitTca != null &&
+                    _matchesSearch(l10n.addictionTca)) {
+                  cards.add(
+                    QuitCard(
+                      context: context,
+                      title: l10n.addictionTca,
+                      icon: Icons.medication_liquid,
+                      gradientColors: [
+                        const Color(0xFF5B21B6),
+                        const Color(0xFF6D28D9),
+                      ],
+                      quitDate: addictions.quitTca,
+                      onTap: () async {
+                        await Navigator.of(context).push(
+                          MaterialPageRoute(
+                            builder: (context) => const TcaPage(started: true),
+                          ),
+                        );
+                        if (mounted) _loadQuitDays();
+                      },
+                      onLongPress: () {
+                        _showStopTrackingBottomSheet(l10n.addictionTca, () {
+                          addictions.setAddiction('tca', null);
+                        });
+                      },
+                    ),
+                  );
+                }
+
+                if (addictions.quitMaoi != null &&
+                    _matchesSearch(l10n.addictionMaoi)) {
+                  cards.add(
+                    QuitCard(
+                      context: context,
+                      title: l10n.addictionMaoi,
+                      icon: Icons.science,
+                      gradientColors: [
+                        const Color(0xFF4C1D95),
+                        const Color(0xFF5B21B6),
+                      ],
+                      quitDate: addictions.quitMaoi,
+                      onTap: () async {
+                        await Navigator.of(context).push(
+                          MaterialPageRoute(
+                            builder: (context) => const MaoiPage(started: true),
+                          ),
+                        );
+                        if (mounted) _loadQuitDays();
+                      },
+                      onLongPress: () {
+                        _showStopTrackingBottomSheet(l10n.addictionMaoi, () {
+                          addictions.setAddiction('maoi', null);
+                        });
                       },
                     ),
                   );
