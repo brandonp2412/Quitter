@@ -56,6 +56,8 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
   ScrollController _scroll = ScrollController();
   final controller = TextEditingController();
   DateTime quitDate = DateTime.now();
+  final _targetTileKey = GlobalKey();
+  int? _targetIndex;
 
   @override
   void initState() {
@@ -75,8 +77,23 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
       final index = widget.milestones.indexWhere(
         (m) => currentDayFromQuitOn < m.day,
       );
-      final targetIndex = index == -1 ? widget.milestones.length - 1 : index;
-      _scroll = ScrollController(initialScrollOffset: targetIndex * 270 - 230);
+      _targetIndex = index == -1 ? widget.milestones.length - 1 : index;
+      // Rough initial offset so the target tile gets built by the first frame.
+      final roughOffset = (_targetIndex! * 270.0 - 230.0).clamp(
+        0.0,
+        double.infinity,
+      );
+      _scroll = ScrollController(initialScrollOffset: roughOffset);
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        final ctx = _targetTileKey.currentContext;
+        if (ctx != null && mounted) {
+          Scrollable.ensureVisible(
+            ctx,
+            alignment: 0.15,
+            duration: const Duration(milliseconds: 200),
+          );
+        }
+      });
     }
   }
 
@@ -483,6 +500,7 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
                     }
 
                     return GestureDetector(
+                      key: index == _targetIndex ? _targetTileKey : null,
                       onLongPress: () =>
                           _showClearMilestoneBottomSheet(milestone),
                       child: TimelineTile(
