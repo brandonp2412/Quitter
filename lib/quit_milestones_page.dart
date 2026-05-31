@@ -352,7 +352,7 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
 
     if (settings.showReset == false) fab = null;
 
-    final listBottomPadding = fab != null ? 88.0 : 16.0;
+    final listBottomPadding = fab != null ? 72.0 : 16.0;
 
     return ConfettiWidget(
       active: showConfetti,
