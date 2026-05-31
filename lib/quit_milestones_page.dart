@@ -57,6 +57,7 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
   final controller = TextEditingController();
   DateTime quitDate = DateTime.now();
   int? _targetIndex;
+  final _targetTileKey = GlobalKey();
 
   @override
   void initState() {
@@ -77,17 +78,16 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
         (m) => currentDayFromQuitOn < m.day,
       );
       _targetIndex = index == -1 ? widget.milestones.length - 1 : index;
-      final targetOffset = (_targetIndex! * 270.0 - 230.0).clamp(
-        0.0,
-        double.infinity,
-      );
       WidgetsBinding.instance.addPostFrameCallback((_) {
-        if (!mounted) return;
-        _scroll.animateTo(
-          targetOffset,
-          duration: const Duration(milliseconds: 500),
-          curve: Curves.easeOut,
-        );
+        final ctx = _targetTileKey.currentContext;
+        if (ctx != null && mounted) {
+          Scrollable.ensureVisible(
+            ctx,
+            alignment: 0.1,
+            duration: const Duration(milliseconds: 500),
+            curve: Curves.easeOut,
+          );
+        }
       });
     }
   }
@@ -458,7 +458,7 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
                 ),
               ),
               Expanded(
-                child: ListView.builder(
+                child: SingleChildScrollView(
                   controller: _scroll,
                   padding: EdgeInsets.only(
                     left: 16.0,
@@ -466,46 +466,50 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
                     top: 16.0,
                     bottom: listBottomPadding,
                   ),
-                  itemCount: widget.milestones.length,
-                  itemBuilder: (context, index) {
-                    final milestone = widget.milestones[index];
-                    final isCompleted = days >= milestone.day;
-                    final isNext =
-                        !isCompleted &&
-                        (index == 0 ||
-                            days >= widget.milestones[index - 1].day);
+                  child: Column(
+                    children: widget.milestones.asMap().entries.map((entry) {
+                      final index = entry.key;
+                      final milestone = entry.value;
+                      final isCompleted = days >= milestone.day;
+                      final isNext =
+                          !isCompleted &&
+                          (index == 0 ||
+                              days >= widget.milestones[index - 1].day);
 
-                    final allDaysAchieved = widget.customDaysAchieved.isNotEmpty
-                        ? widget.customDaysAchieved
-                        : addictions.getDays(widget.storageKey);
+                      final allDaysAchieved =
+                          widget.customDaysAchieved.isNotEmpty
+                          ? widget.customDaysAchieved
+                          : addictions.getDays(widget.storageKey);
 
-                    final List<int> milestoneDaysToMark = [];
-                    for (int achievedDay in allDaysAchieved) {
-                      int closestMilestoneDay = 0;
-                      for (QuitMilestone m in widget.milestones) {
-                        if (m.day <= achievedDay) {
-                          closestMilestoneDay = m.day;
-                        } else {
-                          break;
+                      final List<int> milestoneDaysToMark = [];
+                      for (int achievedDay in allDaysAchieved) {
+                        int closestMilestoneDay = 0;
+                        for (QuitMilestone m in widget.milestones) {
+                          if (m.day <= achievedDay) {
+                            closestMilestoneDay = m.day;
+                          } else {
+                            break;
+                          }
+                        }
+                        if (closestMilestoneDay > 0) {
+                          milestoneDaysToMark.add(closestMilestoneDay);
                         }
                       }
-                      if (closestMilestoneDay > 0) {
-                        milestoneDaysToMark.add(closestMilestoneDay);
-                      }
-                    }
 
-                    return GestureDetector(
-                      onLongPress: () =>
-                          _showClearMilestoneBottomSheet(milestone),
-                      child: TimelineTile(
-                        milestone: milestone,
-                        isCompleted: isCompleted,
-                        isNext: isNext,
-                        isLast: index == widget.milestones.length - 1,
-                        daysAchieved: milestoneDaysToMark,
-                      ),
-                    );
-                  },
+                      return GestureDetector(
+                        key: index == _targetIndex ? _targetTileKey : null,
+                        onLongPress: () =>
+                            _showClearMilestoneBottomSheet(milestone),
+                        child: TimelineTile(
+                          milestone: milestone,
+                          isCompleted: isCompleted,
+                          isNext: isNext,
+                          isLast: index == widget.milestones.length - 1,
+                          daysAchieved: milestoneDaysToMark,
+                        ),
+                      );
+                    }).toList(),
+                  ),
                 ),
               ),
             ],
