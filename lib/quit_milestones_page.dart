@@ -74,10 +74,12 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
 
     if (started) {
       final currentDayFromQuitOn = daysCeil(quitDate.toIso8601String());
-      final index = widget.milestones.indexWhere(
+      final nextIndex = widget.milestones.indexWhere(
         (m) => currentDayFromQuitOn < m.day,
       );
-      _targetIndex = index == -1 ? widget.milestones.length - 1 : index;
+      _targetIndex = nextIndex <= 0
+          ? (nextIndex == -1 ? widget.milestones.length - 1 : 0)
+          : nextIndex - 1;
       WidgetsBinding.instance.addPostFrameCallback((_) {
         final ctx = _targetTileKey.currentContext;
         if (ctx != null && mounted) {
