@@ -222,6 +222,10 @@ class AddAddictionPage extends StatelessWidget {
       );
     }
 
+    options.sort(
+      (a, b) => a.title.toLowerCase().compareTo(b.title.toLowerCase()),
+    );
+
     return Scaffold(
       appBar: AppBar(title: Text(l10n.addAddictionTitle)),
       body: SafeArea(
