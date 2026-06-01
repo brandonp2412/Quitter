@@ -194,7 +194,7 @@ class _QuitterAppState extends State<QuitterApp>
                       children: [
                         AppBar(
                           title: AnimatedBuilder(
-                            animation: _tabController,
+                            animation: _tabController.animation!,
                             builder: (context, child) {
                               return TabBar(
                                 indicatorPadding: EdgeInsetsGeometry.only(
@@ -208,13 +208,14 @@ class _QuitterAppState extends State<QuitterApp>
                                       width: 24,
                                       height: 24,
                                       colorFilter: ColorFilter.mode(
-                                        _tabController.index == 0
-                                            ? Theme.of(
-                                                context,
-                                              ).colorScheme.primary
-                                            : Theme.of(
-                                                context,
-                                              ).colorScheme.onSurfaceVariant,
+                                        Color.lerp(
+                                          Theme.of(context).colorScheme.primary,
+                                          Theme.of(
+                                            context,
+                                          ).colorScheme.onSurfaceVariant,
+                                          (_tabController.animation!.value)
+                                              .clamp(0.0, 1.0),
+                                        )!,
                                         BlendMode.srcIn,
                                       ),
                                     ),
