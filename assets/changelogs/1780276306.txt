@@ -1,0 +1,10 @@
+• Add left padding to search icon
+• Fix bottom padding on milestones
+• long-press rename icon on addiction cards
+• long-press to drag-reorder cards, release shows X delete badges
+• reclassify antidepressants into SSRIs, SNRIs, TCAs, and MAOIs
+• scroll to last completed milestone instead of next upcoming one
+• Fix add bottom padding to milestone list so FAB doesn't cover last item
+• Fix prevent negative card width on home page when viewport is too narrow
+• Fix smooth animate-to instead of instant jump for milestone scroll
+• Fix sort add addiction options alphabetically
