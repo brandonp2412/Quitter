@@ -1861,5 +1861,6 @@
   "maoiMilestone365Description": "MAOI中止後の1年間は本当に重要なマイルストーンです。MAOIは最も薬理学的に複雑な抗うつ薬であり、最も厳しい断薬プロセスを持ちます。1年間は完全な回復と素晴らしい個人的回復力を示しています。",
   "settingsShowMaoiTracking": "MAOIトラッキングを表示",
   "settingsNotifyMaoi": "MAOI禁断進捗を通知",
-  "done": "完了"
+  "done": "完了",
+  "rename": "名前を変更"
 }

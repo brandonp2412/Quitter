@@ -39,6 +39,7 @@ class _CardData {
     this.quitDate,
     required this.onTap,
     required this.onDelete,
+    required this.onRename,
   });
 
   final String key;
@@ -48,6 +49,7 @@ class _CardData {
   final String? quitDate;
   final VoidCallback onTap;
   final VoidCallback onDelete;
+  final VoidCallback onRename;
 }
 
 class HomePage extends StatefulWidget {
@@ -206,6 +208,45 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
     );
   }
 
+  void _showRenameDialog(String currentTitle, void Function(String) onSave) {
+    final l10n = AppLocalizations.of(context)!;
+    final controller = TextEditingController(text: currentTitle);
+    showDialog<void>(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: Text(l10n.rename),
+        content: TextField(
+          controller: controller,
+          autofocus: true,
+          decoration: InputDecoration(labelText: currentTitle),
+          onSubmitted: (value) {
+            final name = value.trim();
+            if (name.isNotEmpty) {
+              onSave(name);
+              Navigator.pop(context);
+            }
+          },
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: Text(l10n.cancel),
+          ),
+          FilledButton(
+            onPressed: () {
+              final name = controller.text.trim();
+              if (name.isNotEmpty) {
+                onSave(name);
+                Navigator.pop(context);
+              }
+            },
+            child: Text(l10n.editEntrySave),
+          ),
+        ],
+      ),
+    );
+  }
+
   bool _matchesSearch(String title) {
     if (_searchQuery.isEmpty) return true;
     return title.toLowerCase().contains(_searchQuery);
@@ -220,13 +261,15 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
 
     void addPreset(
       String key,
-      String title,
+      String defaultTitle,
       IconData icon,
       List<Color> colors,
       String? quitDate,
       Widget Function(BuildContext) page,
     ) {
-      if (quitDate == null || !_matchesSearch(title)) return;
+      if (quitDate == null) return;
+      final title = addictions.customNames[key] ?? defaultTitle;
+      if (!_matchesSearch(title)) return;
       cards.add(
         _CardData(
           key: key,
@@ -241,6 +284,10 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
           onDelete: () => _showStopTrackingBottomSheet(
             title,
             () => addictions.setAddiction(key, null),
+          ),
+          onRename: () => _showRenameDialog(
+            title,
+            (newName) => addictions.setCustomName(key, newName),
           ),
         ),
       );
@@ -408,6 +455,10 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
             entry.title,
             () => addictions.deleteEntry(entry.id),
           ),
+          onRename: () => _showRenameDialog(
+            entry.title,
+            (newName) => addictions.updateEntry(entry.copyWith(title: newName)),
+          ),
         ),
       );
     }
@@ -429,17 +480,21 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context)!;
     return Scaffold(
-      body: CustomScrollView(
-        slivers: [
-          SliverAppBar(
-            floating: true,
-            snap: true,
-            backgroundColor: Colors.transparent,
-            elevation: 0,
-            toolbarHeight: 80,
-            flexibleSpace: Container(
-              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
-              child: Center(
+      body: MediaQuery.removePadding(
+        context: context,
+        removeTop: true,
+        child: CustomScrollView(
+          slivers: [
+            SliverAppBar(
+              floating: true,
+              snap: true,
+              primary: false,
+              backgroundColor: Colors.transparent,
+              elevation: 0,
+              toolbarHeight: 64,
+              flexibleSpace: Container(
+                padding: const EdgeInsets.only(left: 16, right: 16, top: 8),
+                alignment: Alignment.topCenter,
                 child: SearchBar(
                   controller: _searchController,
                   leading: const Icon(Icons.search),
@@ -457,120 +512,122 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                 ),
               ),
             ),
-          ),
-          SliverPadding(
-            padding: EdgeInsets.only(
-              left: 16,
-              right: 16,
-              top: 8,
-              bottom: 56 + MediaQuery.of(context).padding.bottom,
-            ),
-            sliver: Consumer<AddictionProvider>(
-              builder: (context, addictions, child) {
-                final allCards = _buildAllCards(context, addictions, l10n);
-                final cards = _sortByOrder(allCards, addictions.cardOrder);
+            SliverPadding(
+              padding: EdgeInsets.only(
+                left: 16,
+                right: 16,
+                top: 16,
+                bottom: 56 + MediaQuery.of(context).padding.bottom,
+              ),
+              sliver: Consumer<AddictionProvider>(
+                builder: (context, addictions, child) {
+                  final allCards = _buildAllCards(context, addictions, l10n);
+                  final cards = _sortByOrder(allCards, addictions.cardOrder);
 
-                if (cards.isEmpty) {
-                  return SliverFillRemaining(
-                    child: Center(
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Icon(
-                            _searchQuery.isNotEmpty
-                                ? Icons.search_off
-                                : Icons.track_changes,
-                            size: 64,
-                            color: Theme.of(
-                              context,
-                            ).colorScheme.onSurface.withAlpha(128),
-                          ),
-                          const SizedBox(height: 16),
-                          Text(
-                            _searchQuery.isNotEmpty
-                                ? 'No matches found'
-                                : l10n.homeEmptyTitle,
-                            style: Theme.of(context).textTheme.titleLarge
-                                ?.copyWith(
-                                  color: Theme.of(
-                                    context,
-                                  ).colorScheme.onSurface.withAlpha(128),
-                                ),
-                          ),
-                          if (_searchQuery.isEmpty) ...[
-                            const SizedBox(height: 8),
+                  if (cards.isEmpty) {
+                    return SliverFillRemaining(
+                      child: Center(
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Icon(
+                              _searchQuery.isNotEmpty
+                                  ? Icons.search_off
+                                  : Icons.track_changes,
+                              size: 64,
+                              color: Theme.of(
+                                context,
+                              ).colorScheme.onSurface.withAlpha(128),
+                            ),
+                            const SizedBox(height: 16),
                             Text(
-                              l10n.homeEmptySubtitle,
-                              style: Theme.of(context).textTheme.bodyMedium
+                              _searchQuery.isNotEmpty
+                                  ? 'No matches found'
+                                  : l10n.homeEmptyTitle,
+                              style: Theme.of(context).textTheme.titleLarge
                                   ?.copyWith(
                                     color: Theme.of(
                                       context,
-                                    ).colorScheme.onSurface.withAlpha(102),
+                                    ).colorScheme.onSurface.withAlpha(128),
                                   ),
                             ),
+                            if (_searchQuery.isEmpty) ...[
+                              const SizedBox(height: 8),
+                              Text(
+                                l10n.homeEmptySubtitle,
+                                style: Theme.of(context).textTheme.bodyMedium
+                                    ?.copyWith(
+                                      color: Theme.of(
+                                        context,
+                                      ).colorScheme.onSurface.withAlpha(102),
+                                    ),
+                              ),
+                            ],
                           ],
-                        ],
+                        ),
                       ),
+                    );
+                  }
+
+                  return SliverToBoxAdapter(
+                    child: LayoutBuilder(
+                      builder: (context, constraints) {
+                        final columnCount =
+                            MediaQuery.of(context).size.width > 600 ? 3 : 2;
+                        const spacing = 16.0;
+                        final cardWidth =
+                            (constraints.maxWidth -
+                                spacing * (columnCount - 1)) /
+                            columnCount;
+                        // 216dp fits QuitCard: icon(48) + gaps + titleMedium(24) +
+                        // headlineSmall(32) + date-chip(24) + 40dp padding = 204dp.
+                        // Extra 12dp gives breathing room for varying font metrics.
+                        const cardHeight = 216.0;
+
+                        return ReorderableGridView.count(
+                          crossAxisCount: columnCount,
+                          mainAxisSpacing: spacing,
+                          crossAxisSpacing: spacing,
+                          childAspectRatio: cardWidth / cardHeight,
+                          shrinkWrap: true,
+                          physics: const NeverScrollableScrollPhysics(),
+                          dragEnabled: _searchQuery.isEmpty,
+                          onDragStart: (_) {
+                            setState(() => _isEditMode = true);
+                          },
+                          onReorder: (oldIndex, newIndex) {
+                            if (_searchQuery.isNotEmpty) return;
+                            final newOrder = cards.map((c) => c.key).toList();
+                            final item = newOrder.removeAt(oldIndex);
+                            newOrder.insert(newIndex, item);
+                            addictions.saveCardOrder(newOrder);
+                          },
+                          children: cards.map((data) {
+                            return SizedBox(
+                              key: ValueKey(data.key),
+                              child: QuitCard(
+                                context: context,
+                                title: data.title,
+                                icon: data.icon,
+                                gradientColors: data.gradientColors,
+                                quitDate: data.quitDate,
+                                onTap: _isEditMode
+                                    ? () => setState(() => _isEditMode = false)
+                                    : data.onTap,
+                                onDelete: _isEditMode ? data.onDelete : null,
+                                onRename: _isEditMode ? data.onRename : null,
+                              ),
+                            );
+                          }).toList(),
+                        );
+                      },
                     ),
                   );
-                }
-
-                return SliverToBoxAdapter(
-                  child: LayoutBuilder(
-                    builder: (context, constraints) {
-                      final columnCount =
-                          MediaQuery.of(context).size.width > 600 ? 3 : 2;
-                      const spacing = 16.0;
-                      final cardWidth =
-                          (constraints.maxWidth - spacing * (columnCount - 1)) /
-                          columnCount;
-                      // 216dp fits QuitCard: icon(48) + gaps + titleMedium(24) +
-                      // headlineSmall(32) + date-chip(24) + 40dp padding = 204dp.
-                      // Extra 12dp gives breathing room for varying font metrics.
-                      const cardHeight = 216.0;
-
-                      return ReorderableGridView.count(
-                        crossAxisCount: columnCount,
-                        mainAxisSpacing: spacing,
-                        crossAxisSpacing: spacing,
-                        childAspectRatio: cardWidth / cardHeight,
-                        shrinkWrap: true,
-                        physics: const NeverScrollableScrollPhysics(),
-                        dragEnabled: _searchQuery.isEmpty,
-                        onDragStart: (_) {
-                          setState(() => _isEditMode = true);
-                        },
-                        onReorder: (oldIndex, newIndex) {
-                          if (_searchQuery.isNotEmpty) return;
-                          final newOrder = cards.map((c) => c.key).toList();
-                          final item = newOrder.removeAt(oldIndex);
-                          newOrder.insert(newIndex, item);
-                          addictions.saveCardOrder(newOrder);
-                        },
-                        children: cards.map((data) {
-                          return SizedBox(
-                            key: ValueKey(data.key),
-                            child: QuitCard(
-                              context: context,
-                              title: data.title,
-                              icon: data.icon,
-                              gradientColors: data.gradientColors,
-                              quitDate: data.quitDate,
-                              onTap: _isEditMode
-                                  ? () => setState(() => _isEditMode = false)
-                                  : data.onTap,
-                              onDelete: _isEditMode ? data.onDelete : null,
-                            ),
-                          );
-                        }).toList(),
-                      );
-                    },
-                  ),
-                );
-              },
+                },
+              ),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
       floatingActionButton: _isEditMode
           ? FloatingActionButton.extended(

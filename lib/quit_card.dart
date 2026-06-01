@@ -13,6 +13,7 @@ class QuitCard extends StatelessWidget {
     required this.quitDate,
     required this.onTap,
     this.onDelete,
+    this.onRename,
   });
 
   final BuildContext context;
@@ -24,6 +25,9 @@ class QuitCard extends StatelessWidget {
 
   /// When non-null, shows a delete badge in the top-left corner.
   final VoidCallback? onDelete;
+
+  /// When non-null, shows a rename badge in the top-right corner.
+  final VoidCallback? onRename;
 
   @override
   Widget build(BuildContext context) {
@@ -168,29 +172,49 @@ class QuitCard extends StatelessWidget {
       ),
     );
 
-    if (onDelete == null) return card;
+    if (onDelete == null && onRename == null) return card;
 
     return Stack(
+      fit: StackFit.expand,
       clipBehavior: Clip.none,
       children: [
         card,
-        Positioned(
-          top: 6,
-          left: 6,
-          child: GestureDetector(
-            onTap: onDelete,
-            behavior: HitTestBehavior.opaque,
-            child: Container(
-              width: 26,
-              height: 26,
-              decoration: const BoxDecoration(
-                color: Colors.red,
-                shape: BoxShape.circle,
+        if (onDelete != null)
+          Positioned(
+            top: 6,
+            left: 6,
+            child: GestureDetector(
+              onTap: onDelete,
+              behavior: HitTestBehavior.opaque,
+              child: Container(
+                width: 26,
+                height: 26,
+                decoration: const BoxDecoration(
+                  color: Colors.red,
+                  shape: BoxShape.circle,
+                ),
+                child: const Icon(Icons.close, color: Colors.white, size: 16),
               ),
-              child: const Icon(Icons.close, color: Colors.white, size: 16),
             ),
           ),
-        ),
+        if (onRename != null)
+          Positioned(
+            top: 6,
+            right: 6,
+            child: GestureDetector(
+              onTap: onRename,
+              behavior: HitTestBehavior.opaque,
+              child: Container(
+                width: 26,
+                height: 26,
+                decoration: BoxDecoration(
+                  color: Theme.of(context).colorScheme.primary,
+                  shape: BoxShape.circle,
+                ),
+                child: const Icon(Icons.edit, color: Colors.white, size: 14),
+              ),
+            ),
+          ),
       ],
     );
   }

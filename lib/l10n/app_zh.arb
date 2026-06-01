@@ -1861,5 +1861,6 @@
   "maoiMilestone365Description": "MAOI停药后一年是一个真正重要的里程碑。MAOI是药理学上最复杂的抗抑郁药，具有最广泛的神经递质系统影响和最严苛的停药过程。一年展示了完整的恢复和非凡的个人韧性。",
   "settingsShowMaoiTracking": "显示MAOI追踪",
   "settingsNotifyMaoi": "通知MAOI戒断进度",
-  "done": "完成"
+  "done": "完成",
+  "rename": "重命名"
 }

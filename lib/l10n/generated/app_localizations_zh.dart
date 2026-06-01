@@ -2063,4 +2063,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get done => '完成';
+
+  @override
+  String get rename => '重命名';
 }

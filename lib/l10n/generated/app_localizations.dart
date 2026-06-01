@@ -3789,6 +3789,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Done'**
   String get done;
+
+  /// Rename dialog title and badge tooltip
+  ///
+  /// In en, this message translates to:
+  /// **'Rename'**
+  String get rename;
 }
 
 class _AppLocalizationsDelegate

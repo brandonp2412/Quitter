@@ -2063,4 +2063,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get done => '完了';
+
+  @override
+  String get rename => '名前を変更';
 }
