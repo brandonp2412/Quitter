@@ -12,7 +12,7 @@ class QuitCard extends StatelessWidget {
     required this.gradientColors,
     required this.quitDate,
     required this.onTap,
-    required this.onLongPress,
+    this.onDelete,
   });
 
   final BuildContext context;
@@ -21,14 +21,16 @@ class QuitCard extends StatelessWidget {
   final List<Color> gradientColors;
   final String? quitDate;
   final VoidCallback onTap;
-  final VoidCallback onLongPress;
+
+  /// When non-null, shows a delete badge in the top-left corner.
+  final VoidCallback? onDelete;
 
   @override
   Widget build(BuildContext context) {
     int? days;
     if (quitDate != null) days = daysCeil(quitDate!);
 
-    return Hero(
+    final card = Hero(
       tag: title,
       child: Card(
         elevation: 0,
@@ -54,7 +56,6 @@ class QuitCard extends StatelessWidget {
             color: Colors.transparent,
             child: InkWell(
               onTap: onTap,
-              onLongPress: onLongPress,
               borderRadius: BorderRadius.circular(20),
               splashColor: Colors.white.withAlpha(255 ~/ (1 / 0.3)),
               highlightColor: Colors.white.withAlpha(255 ~/ (1 / 0.1)),
@@ -134,7 +135,7 @@ class QuitCard extends StatelessWidget {
                     ],
 
                     if (quitDate != null) ...[
-                      const SizedBox(height: 16),
+                      const Spacer(),
                       Container(
                         padding: const EdgeInsets.symmetric(
                           horizontal: 8,
@@ -165,6 +166,32 @@ class QuitCard extends StatelessWidget {
           ),
         ),
       ),
+    );
+
+    if (onDelete == null) return card;
+
+    return Stack(
+      clipBehavior: Clip.none,
+      children: [
+        card,
+        Positioned(
+          top: 6,
+          left: 6,
+          child: GestureDetector(
+            onTap: onDelete,
+            behavior: HitTestBehavior.opaque,
+            child: Container(
+              width: 26,
+              height: 26,
+              decoration: const BoxDecoration(
+                color: Colors.red,
+                shape: BoxShape.circle,
+              ),
+              child: const Icon(Icons.close, color: Colors.white, size: 16),
+            ),
+          ),
+        ),
+      ],
     );
   }
 }

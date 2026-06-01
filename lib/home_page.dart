@@ -13,7 +13,7 @@ import 'package:package_info_plus/package_info_plus.dart';
 import 'package:provider/provider.dart';
 import 'package:quitter/addiction_provider.dart';
 import 'package:quitter/alcohol_page.dart';
-import 'package:quitter/edit_entry_page.dart';
+import 'package:quitter/entry.dart';
 import 'package:quitter/entry_page.dart';
 import 'package:quitter/marijuana_page.dart';
 import 'package:quitter/meth_page.dart';
@@ -27,7 +27,28 @@ import 'package:quitter/social_media_page.dart';
 import 'package:quitter/utils.dart';
 import 'package:quitter/vaping_page.dart';
 import 'package:quitter/whats_new.dart';
+import 'package:reorderable_grid_view/reorderable_grid_view.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+
+class _CardData {
+  const _CardData({
+    required this.key,
+    required this.title,
+    required this.icon,
+    required this.gradientColors,
+    this.quitDate,
+    required this.onTap,
+    required this.onDelete,
+  });
+
+  final String key;
+  final String title;
+  final IconData icon;
+  final List<Color> gradientColors;
+  final String? quitDate;
+  final VoidCallback onTap;
+  final VoidCallback onDelete;
+}
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -39,6 +60,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
   final TextEditingController _searchController = TextEditingController();
   String _searchQuery = '';
+  bool _isEditMode = false;
 
   @override
   void initState() {
@@ -189,6 +211,220 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
     return title.toLowerCase().contains(_searchQuery);
   }
 
+  List<_CardData> _buildAllCards(
+    BuildContext context,
+    AddictionProvider addictions,
+    AppLocalizations l10n,
+  ) {
+    final cards = <_CardData>[];
+
+    void addPreset(
+      String key,
+      String title,
+      IconData icon,
+      List<Color> colors,
+      String? quitDate,
+      Widget Function(BuildContext) page,
+    ) {
+      if (quitDate == null || !_matchesSearch(title)) return;
+      cards.add(
+        _CardData(
+          key: key,
+          title: title,
+          icon: icon,
+          gradientColors: colors,
+          quitDate: quitDate,
+          onTap: () async {
+            await Navigator.of(context).push(MaterialPageRoute(builder: page));
+            if (mounted) _loadQuitDays();
+          },
+          onDelete: () => _showStopTrackingBottomSheet(
+            title,
+            () => addictions.setAddiction(key, null),
+          ),
+        ),
+      );
+    }
+
+    addPreset(
+      'adderall',
+      l10n.addictionAdderall,
+      Icons.lightbulb_outline,
+      [const Color(0xFFFF8C42), const Color(0xFFFF6B35)],
+      addictions.quitAdderall,
+      (context) => const AdderallPage(started: true),
+    );
+    addPreset(
+      'ssri',
+      l10n.addictionSsri,
+      Icons.psychology,
+      [const Color(0xFF7C3AED), const Color(0xFF4F46E5)],
+      addictions.quitSsri,
+      (context) => const SsriPage(started: true),
+    );
+    addPreset(
+      'snri',
+      l10n.addictionSnri,
+      Icons.psychology_alt,
+      [const Color(0xFF6D28D9), const Color(0xFF7C3AED)],
+      addictions.quitSnri,
+      (context) => const SnriPage(started: true),
+    );
+    addPreset(
+      'tca',
+      l10n.addictionTca,
+      Icons.medication_liquid,
+      [const Color(0xFF5B21B6), const Color(0xFF6D28D9)],
+      addictions.quitTca,
+      (context) => const TcaPage(started: true),
+    );
+    addPreset(
+      'maoi',
+      l10n.addictionMaoi,
+      Icons.science,
+      [const Color(0xFF4C1D95), const Color(0xFF5B21B6)],
+      addictions.quitMaoi,
+      (context) => const MaoiPage(started: true),
+    );
+    addPreset(
+      'alcohol',
+      l10n.addictionAlcohol,
+      Icons.local_bar,
+      [const Color(0xFF6366F1), const Color(0xFF8B5CF6)],
+      addictions.quitAlcohol,
+      (context) => const AlcoholPage(started: true),
+    );
+    addPreset(
+      'benzos',
+      l10n.addictionBenzos,
+      Icons.bedtime,
+      [const Color(0xFF6D5DD3), const Color(0xFF1E1B4B)],
+      addictions.quitBenzos,
+      (context) => const BenzodiazepinePage(started: true),
+    );
+    addPreset(
+      'cocaine',
+      l10n.addictionCocaine,
+      Icons.bolt,
+      [const Color(0xFF3B82F6), const Color(0xFF1D4ED8)],
+      addictions.quitCocaine,
+      (context) => const CocainePage(started: true),
+    );
+    addPreset(
+      'heroin',
+      l10n.addictionHeroin,
+      Icons.vaccines,
+      [
+        const Color.fromARGB(255, 133, 14, 163),
+        const Color.fromARGB(255, 201, 5, 250),
+      ],
+      addictions.quitHeroin,
+      (context) => const HeroinPage(started: true),
+    );
+    addPreset(
+      'marijuana',
+      l10n.addictionMarijuana,
+      Icons.grass,
+      [
+        const Color.fromARGB(255, 132, 230, 128),
+        const Color.fromARGB(255, 30, 87, 3),
+      ],
+      addictions.quitMarijuana,
+      (context) => const MarijuanaPage(started: true),
+    );
+    addPreset(
+      'meth',
+      l10n.addictionMeth,
+      Icons.battery_charging_full,
+      [const Color(0xFF14B8A6), const Color(0xFF0D9488)],
+      addictions.quitMeth,
+      (context) => const MethPage(started: true),
+    );
+    addPreset(
+      'nicotine_pouches',
+      l10n.addictionNicotinePouches,
+      Icons.scatter_plot,
+      [const Color(0xFFF59E0B), const Color(0xFFEF4444)],
+      addictions.quitPouches,
+      (context) => const NicotinePouchesPage(started: true),
+    );
+    addPreset(
+      'opioids',
+      l10n.addictionOpioids,
+      Icons.medication,
+      [const Color(0xFFEC4899), const Color(0xFFBE185D)],
+      addictions.quitOpioids,
+      (context) => const OpioidPage(started: true),
+    );
+    addPreset(
+      'pornography',
+      l10n.addictionAC,
+      Icons.block,
+      [const Color(0xFFF43F5E), const Color(0xFFE11D48)],
+      addictions.quitPornography,
+      (context) => const PornographyPage(started: true),
+    );
+    addPreset(
+      'smoking',
+      l10n.addictionSmoking,
+      Icons.eco,
+      [const Color(0xFF10B981), const Color(0xFF059669)],
+      addictions.quitSmoking,
+      (context) => const SmokingPage(started: true),
+    );
+    addPreset(
+      'social_media',
+      l10n.addictionSocialMedia,
+      Icons.public,
+      [const Color(0xFF8B5CF6), const Color(0xFF7C3AED)],
+      addictions.quitSocialMedia,
+      (context) => const SocialMediaPage(started: true),
+    );
+    addPreset(
+      'vaping',
+      l10n.addictionVaping,
+      Icons.air,
+      [const Color(0xFF06B6D4), const Color(0xFF0EA5E9)],
+      addictions.quitVaping,
+      (context) => const VapingPage(started: true),
+    );
+
+    for (final Entry entry in addictions.entries) {
+      if (!_matchesSearch(entry.title)) continue;
+      cards.add(
+        _CardData(
+          key: entry.id,
+          title: entry.title,
+          icon: entry.icon ?? Icons.star,
+          gradientColors: [entry.color, entry.color.withValues(alpha: 0.7)],
+          quitDate: entry.quitDate.toIso8601String(),
+          onTap: () async {
+            await Navigator.of(context).push(
+              MaterialPageRoute(builder: (context) => EntryPage(entry: entry)),
+            );
+            if (mounted) _loadQuitDays();
+          },
+          onDelete: () => _showStopTrackingBottomSheet(
+            entry.title,
+            () => addictions.deleteEntry(entry.id),
+          ),
+        ),
+      );
+    }
+
+    return cards;
+  }
+
+  List<_CardData> _sortByOrder(List<_CardData> cards, List<String> order) {
+    if (order.isEmpty) return cards;
+    final indexMap = {for (var i = 0; i < order.length; i++) order[i]: i};
+    return [...cards]..sort((a, b) {
+      final ai = indexMap[a.key] ?? cards.length;
+      final bi = indexMap[b.key] ?? cards.length;
+      return ai.compareTo(bi);
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context)!;
@@ -206,10 +442,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
               child: Center(
                 child: SearchBar(
                   controller: _searchController,
-                  leading: Padding(
-                    padding: const EdgeInsets.only(left: 8),
-                    child: const Icon(Icons.search),
-                  ),
+                  leading: const Icon(Icons.search),
                   hintText: 'Search addictions...',
                   trailing: _searchQuery.isNotEmpty
                       ? [
@@ -234,557 +467,8 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
             ),
             sliver: Consumer<AddictionProvider>(
               builder: (context, addictions, child) {
-                final cards = <Widget>[];
-
-                if (addictions.quitAdderall != null &&
-                    _matchesSearch(l10n.addictionAdderall)) {
-                  cards.add(
-                    QuitCard(
-                      context: context,
-                      title: l10n.addictionAdderall,
-                      icon: Icons.lightbulb_outline,
-                      gradientColors: [
-                        const Color(0xFFFF8C42),
-                        const Color(0xFFFF6B35),
-                      ],
-                      quitDate: addictions.quitAdderall,
-                      onTap: () async {
-                        await Navigator.of(context).push(
-                          MaterialPageRoute(
-                            builder: (context) =>
-                                const AdderallPage(started: true),
-                          ),
-                        );
-                        if (mounted) _loadQuitDays();
-                      },
-                      onLongPress: () {
-                        _showStopTrackingBottomSheet(
-                          l10n.addictionAdderall,
-                          () {
-                            addictions.setAddiction('adderall', null);
-                          },
-                        );
-                      },
-                    ),
-                  );
-                }
-
-                if (addictions.quitSsri != null &&
-                    _matchesSearch(l10n.addictionSsri)) {
-                  cards.add(
-                    QuitCard(
-                      context: context,
-                      title: l10n.addictionSsri,
-                      icon: Icons.psychology,
-                      gradientColors: [
-                        const Color(0xFF7C3AED),
-                        const Color(0xFF4F46E5),
-                      ],
-                      quitDate: addictions.quitSsri,
-                      onTap: () async {
-                        await Navigator.of(context).push(
-                          MaterialPageRoute(
-                            builder: (context) => const SsriPage(started: true),
-                          ),
-                        );
-                        if (mounted) _loadQuitDays();
-                      },
-                      onLongPress: () {
-                        _showStopTrackingBottomSheet(l10n.addictionSsri, () {
-                          addictions.setAddiction('ssri', null);
-                        });
-                      },
-                    ),
-                  );
-                }
-
-                if (addictions.quitSnri != null &&
-                    _matchesSearch(l10n.addictionSnri)) {
-                  cards.add(
-                    QuitCard(
-                      context: context,
-                      title: l10n.addictionSnri,
-                      icon: Icons.psychology_alt,
-                      gradientColors: [
-                        const Color(0xFF6D28D9),
-                        const Color(0xFF7C3AED),
-                      ],
-                      quitDate: addictions.quitSnri,
-                      onTap: () async {
-                        await Navigator.of(context).push(
-                          MaterialPageRoute(
-                            builder: (context) => const SnriPage(started: true),
-                          ),
-                        );
-                        if (mounted) _loadQuitDays();
-                      },
-                      onLongPress: () {
-                        _showStopTrackingBottomSheet(l10n.addictionSnri, () {
-                          addictions.setAddiction('snri', null);
-                        });
-                      },
-                    ),
-                  );
-                }
-
-                if (addictions.quitTca != null &&
-                    _matchesSearch(l10n.addictionTca)) {
-                  cards.add(
-                    QuitCard(
-                      context: context,
-                      title: l10n.addictionTca,
-                      icon: Icons.medication_liquid,
-                      gradientColors: [
-                        const Color(0xFF5B21B6),
-                        const Color(0xFF6D28D9),
-                      ],
-                      quitDate: addictions.quitTca,
-                      onTap: () async {
-                        await Navigator.of(context).push(
-                          MaterialPageRoute(
-                            builder: (context) => const TcaPage(started: true),
-                          ),
-                        );
-                        if (mounted) _loadQuitDays();
-                      },
-                      onLongPress: () {
-                        _showStopTrackingBottomSheet(l10n.addictionTca, () {
-                          addictions.setAddiction('tca', null);
-                        });
-                      },
-                    ),
-                  );
-                }
-
-                if (addictions.quitMaoi != null &&
-                    _matchesSearch(l10n.addictionMaoi)) {
-                  cards.add(
-                    QuitCard(
-                      context: context,
-                      title: l10n.addictionMaoi,
-                      icon: Icons.science,
-                      gradientColors: [
-                        const Color(0xFF4C1D95),
-                        const Color(0xFF5B21B6),
-                      ],
-                      quitDate: addictions.quitMaoi,
-                      onTap: () async {
-                        await Navigator.of(context).push(
-                          MaterialPageRoute(
-                            builder: (context) => const MaoiPage(started: true),
-                          ),
-                        );
-                        if (mounted) _loadQuitDays();
-                      },
-                      onLongPress: () {
-                        _showStopTrackingBottomSheet(l10n.addictionMaoi, () {
-                          addictions.setAddiction('maoi', null);
-                        });
-                      },
-                    ),
-                  );
-                }
-
-                if (addictions.quitAlcohol != null &&
-                    _matchesSearch(l10n.addictionAlcohol)) {
-                  cards.add(
-                    QuitCard(
-                      context: context,
-                      title: l10n.addictionAlcohol,
-                      icon: Icons.local_bar,
-                      gradientColors: [
-                        const Color(0xFF6366F1),
-                        const Color(0xFF8B5CF6),
-                      ],
-                      quitDate: addictions.quitAlcohol,
-                      onTap: () async {
-                        await Navigator.of(context).push(
-                          MaterialPageRoute(
-                            builder: (context) =>
-                                const AlcoholPage(started: true),
-                          ),
-                        );
-                        if (mounted) _loadQuitDays();
-                      },
-                      onLongPress: () {
-                        _showStopTrackingBottomSheet(l10n.addictionAlcohol, () {
-                          addictions.setAddiction('alcohol', null);
-                        });
-                      },
-                    ),
-                  );
-                }
-
-                if (addictions.quitBenzos != null &&
-                    _matchesSearch(l10n.addictionBenzos)) {
-                  cards.add(
-                    QuitCard(
-                      context: context,
-                      title: l10n.addictionBenzos,
-                      icon: Icons.bedtime,
-                      gradientColors: [
-                        const Color(0xFF6D5DD3),
-                        const Color(0xFF1E1B4B),
-                      ],
-                      quitDate: addictions.quitBenzos,
-                      onTap: () async {
-                        await Navigator.of(context).push(
-                          MaterialPageRoute(
-                            builder: (context) =>
-                                const BenzodiazepinePage(started: true),
-                          ),
-                        );
-                        if (mounted) _loadQuitDays();
-                      },
-                      onLongPress: () {
-                        _showStopTrackingBottomSheet(l10n.addictionBenzos, () {
-                          addictions.setAddiction('benzos', null);
-                        });
-                      },
-                    ),
-                  );
-                }
-
-                if (addictions.quitCocaine != null &&
-                    _matchesSearch(l10n.addictionCocaine)) {
-                  cards.add(
-                    QuitCard(
-                      context: context,
-                      title: l10n.addictionCocaine,
-                      icon: Icons.bolt,
-                      gradientColors: [
-                        const Color(0xFF3B82F6),
-                        const Color(0xFF1D4ED8),
-                      ],
-                      quitDate: addictions.quitCocaine,
-                      onTap: () async {
-                        await Navigator.of(context).push(
-                          MaterialPageRoute(
-                            builder: (context) =>
-                                const CocainePage(started: true),
-                          ),
-                        );
-                        if (mounted) _loadQuitDays();
-                      },
-                      onLongPress: () {
-                        _showStopTrackingBottomSheet(l10n.addictionCocaine, () {
-                          addictions.setAddiction('cocaine', null);
-                        });
-                      },
-                    ),
-                  );
-                }
-
-                if (addictions.quitHeroin != null &&
-                    _matchesSearch(l10n.addictionHeroin)) {
-                  cards.add(
-                    QuitCard(
-                      context: context,
-                      title: l10n.addictionHeroin,
-                      icon: Icons.vaccines,
-                      gradientColors: [
-                        const Color.fromARGB(255, 133, 14, 163),
-                        const Color.fromARGB(255, 201, 5, 250),
-                      ],
-                      quitDate: addictions.quitHeroin,
-                      onTap: () async {
-                        await Navigator.of(context).push(
-                          MaterialPageRoute(
-                            builder: (context) =>
-                                const HeroinPage(started: true),
-                          ),
-                        );
-                        if (mounted) _loadQuitDays();
-                      },
-                      onLongPress: () {
-                        _showStopTrackingBottomSheet(l10n.addictionHeroin, () {
-                          addictions.setAddiction('heroin', null);
-                        });
-                      },
-                    ),
-                  );
-                }
-
-                if (addictions.quitMarijuana != null &&
-                    _matchesSearch(l10n.addictionMarijuana)) {
-                  cards.add(
-                    QuitCard(
-                      context: context,
-                      title: l10n.addictionMarijuana,
-                      icon: Icons.grass,
-                      gradientColors: [
-                        const Color.fromARGB(255, 132, 230, 128),
-                        const Color.fromARGB(255, 30, 87, 3),
-                      ],
-                      quitDate: addictions.quitMarijuana,
-                      onTap: () async {
-                        await Navigator.of(context).push(
-                          MaterialPageRoute(
-                            builder: (context) =>
-                                const MarijuanaPage(started: true),
-                          ),
-                        );
-                        if (mounted) _loadQuitDays();
-                      },
-                      onLongPress: () {
-                        _showStopTrackingBottomSheet(
-                          l10n.addictionMarijuana,
-                          () {
-                            addictions.setAddiction('marijuana', null);
-                          },
-                        );
-                      },
-                    ),
-                  );
-                }
-
-                if (addictions.quitMeth != null &&
-                    _matchesSearch(l10n.addictionMeth)) {
-                  cards.add(
-                    QuitCard(
-                      context: context,
-                      title: l10n.addictionMeth,
-                      icon: Icons.battery_charging_full,
-                      gradientColors: [
-                        const Color(0xFF14B8A6),
-                        const Color(0xFF0D9488),
-                      ],
-                      quitDate: addictions.quitMeth,
-                      onTap: () async {
-                        await Navigator.of(context).push(
-                          MaterialPageRoute(
-                            builder: (context) => const MethPage(started: true),
-                          ),
-                        );
-                        if (mounted) _loadQuitDays();
-                      },
-                      onLongPress: () {
-                        _showStopTrackingBottomSheet(l10n.addictionMeth, () {
-                          addictions.setAddiction('meth', null);
-                        });
-                      },
-                    ),
-                  );
-                }
-
-                if (addictions.quitPouches != null &&
-                    _matchesSearch(l10n.addictionNicotinePouches)) {
-                  cards.add(
-                    QuitCard(
-                      context: context,
-                      title: l10n.addictionNicotinePouches,
-                      icon: Icons.scatter_plot,
-                      gradientColors: [
-                        const Color(0xFFF59E0B),
-                        const Color(0xFFEF4444),
-                      ],
-                      quitDate: addictions.quitPouches,
-                      onTap: () async {
-                        await Navigator.of(context).push(
-                          MaterialPageRoute(
-                            builder: (context) =>
-                                const NicotinePouchesPage(started: true),
-                          ),
-                        );
-                        if (mounted) _loadQuitDays();
-                      },
-                      onLongPress: () {
-                        _showStopTrackingBottomSheet(
-                          l10n.addictionNicotinePouches,
-                          () {
-                            addictions.setAddiction('nicotine_pouches', null);
-                          },
-                        );
-                      },
-                    ),
-                  );
-                }
-
-                if (addictions.quitOpioids != null &&
-                    _matchesSearch(l10n.addictionOpioids)) {
-                  cards.add(
-                    QuitCard(
-                      context: context,
-                      title: l10n.addictionOpioids,
-                      icon: Icons.medication,
-                      gradientColors: [
-                        const Color(0xFFEC4899),
-                        const Color(0xFFBE185D),
-                      ],
-                      quitDate: addictions.quitOpioids,
-                      onTap: () async {
-                        await Navigator.of(context).push(
-                          MaterialPageRoute(
-                            builder: (context) =>
-                                const OpioidPage(started: true),
-                          ),
-                        );
-                        if (mounted) _loadQuitDays();
-                      },
-                      onLongPress: () {
-                        _showStopTrackingBottomSheet(l10n.addictionOpioids, () {
-                          addictions.setAddiction('opioids', null);
-                        });
-                      },
-                    ),
-                  );
-                }
-
-                if (addictions.quitPornography != null &&
-                    _matchesSearch(l10n.addictionAC)) {
-                  cards.add(
-                    QuitCard(
-                      context: context,
-                      title: l10n.addictionAC,
-                      icon: Icons.block,
-                      gradientColors: [
-                        const Color(0xFFF43F5E),
-                        const Color(0xFFE11D48),
-                      ],
-                      quitDate: addictions.quitPornography,
-                      onTap: () async {
-                        await Navigator.of(context).push(
-                          MaterialPageRoute(
-                            builder: (context) =>
-                                const PornographyPage(started: true),
-                          ),
-                        );
-                        if (mounted) _loadQuitDays();
-                      },
-                      onLongPress: () {
-                        _showStopTrackingBottomSheet(l10n.addictionAC, () {
-                          addictions.setAddiction('pornography', null);
-                        });
-                      },
-                    ),
-                  );
-                }
-
-                if (addictions.quitSmoking != null &&
-                    _matchesSearch(l10n.addictionSmoking)) {
-                  cards.add(
-                    QuitCard(
-                      context: context,
-                      title: l10n.addictionSmoking,
-                      icon: Icons.eco,
-                      gradientColors: [
-                        const Color(0xFF10B981),
-                        const Color(0xFF059669),
-                      ],
-                      quitDate: addictions.quitSmoking,
-                      onTap: () async {
-                        await Navigator.of(context).push(
-                          MaterialPageRoute(
-                            builder: (context) =>
-                                const SmokingPage(started: true),
-                          ),
-                        );
-                        if (mounted) _loadQuitDays();
-                      },
-                      onLongPress: () {
-                        _showStopTrackingBottomSheet(l10n.addictionSmoking, () {
-                          addictions.setAddiction('smoking', null);
-                        });
-                      },
-                    ),
-                  );
-                }
-
-                if (addictions.quitSocialMedia != null &&
-                    _matchesSearch(l10n.addictionSocialMedia)) {
-                  cards.add(
-                    QuitCard(
-                      context: context,
-                      title: l10n.addictionSocialMedia,
-                      icon: Icons.public,
-                      gradientColors: [
-                        const Color(0xFF8B5CF6),
-                        const Color(0xFF7C3AED),
-                      ],
-                      quitDate: addictions.quitSocialMedia,
-                      onTap: () async {
-                        await Navigator.of(context).push(
-                          MaterialPageRoute(
-                            builder: (context) =>
-                                const SocialMediaPage(started: true),
-                          ),
-                        );
-                        if (mounted) _loadQuitDays();
-                      },
-                      onLongPress: () {
-                        _showStopTrackingBottomSheet(
-                          l10n.addictionSocialMedia,
-                          () {
-                            addictions.setAddiction('social_media', null);
-                          },
-                        );
-                      },
-                    ),
-                  );
-                }
-
-                if (addictions.quitVaping != null &&
-                    _matchesSearch(l10n.addictionVaping)) {
-                  cards.add(
-                    QuitCard(
-                      context: context,
-                      title: l10n.addictionVaping,
-                      icon: Icons.air,
-                      gradientColors: [
-                        const Color(0xFF06B6D4),
-                        const Color(0xFF0EA5E9),
-                      ],
-                      quitDate: addictions.quitVaping,
-                      onTap: () async {
-                        await Navigator.of(context).push(
-                          MaterialPageRoute(
-                            builder: (context) =>
-                                const VapingPage(started: true),
-                          ),
-                        );
-                        if (mounted) _loadQuitDays();
-                      },
-                      onLongPress: () {
-                        _showStopTrackingBottomSheet(l10n.addictionVaping, () {
-                          addictions.setAddiction('vaping', null);
-                        });
-                      },
-                    ),
-                  );
-                }
-
-                // Custom entries
-                for (var entry in addictions.entries) {
-                  if (_matchesSearch(entry.title)) {
-                    cards.add(
-                      QuitCard(
-                        context: context,
-                        title: entry.title,
-                        icon: entry.icon ?? Icons.star,
-                        gradientColors: [
-                          entry.color,
-                          entry.color.withValues(alpha: 0.7),
-                        ],
-                        quitDate: entry.quitDate.toIso8601String(),
-                        onTap: () async {
-                          await Navigator.of(context).push(
-                            MaterialPageRoute(
-                              builder: (context) => EntryPage(entry: entry),
-                            ),
-                          );
-                          if (mounted) _loadQuitDays();
-                        },
-                        onLongPress: () {
-                          Navigator.of(context).push(
-                            MaterialPageRoute(
-                              builder: (context) => EditEntryPage(entry: entry),
-                            ),
-                          );
-                        },
-                      ),
-                    );
-                  }
-                }
+                final allCards = _buildAllCards(context, addictions, l10n);
+                final cards = _sortByOrder(allCards, addictions.cardOrder);
 
                 if (cards.isEmpty) {
                   return SliverFillRemaining(
@@ -836,18 +520,49 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                     builder: (context, constraints) {
                       final columnCount =
                           MediaQuery.of(context).size.width > 600 ? 3 : 2;
+                      const spacing = 16.0;
                       final cardWidth =
-                          ((constraints.maxWidth - 16.0 * (columnCount - 1)) /
-                                  columnCount)
-                              .clamp(0.0, double.infinity);
-                      return Wrap(
-                        spacing: 16,
-                        runSpacing: 16,
-                        children: cards
-                            .map(
-                              (card) => SizedBox(width: cardWidth, child: card),
-                            )
-                            .toList(),
+                          (constraints.maxWidth - spacing * (columnCount - 1)) /
+                          columnCount;
+                      // 216dp fits QuitCard: icon(48) + gaps + titleMedium(24) +
+                      // headlineSmall(32) + date-chip(24) + 40dp padding = 204dp.
+                      // Extra 12dp gives breathing room for varying font metrics.
+                      const cardHeight = 216.0;
+
+                      return ReorderableGridView.count(
+                        crossAxisCount: columnCount,
+                        mainAxisSpacing: spacing,
+                        crossAxisSpacing: spacing,
+                        childAspectRatio: cardWidth / cardHeight,
+                        shrinkWrap: true,
+                        physics: const NeverScrollableScrollPhysics(),
+                        dragEnabled: _searchQuery.isEmpty,
+                        onDragStart: (_) {
+                          setState(() => _isEditMode = true);
+                        },
+                        onReorder: (oldIndex, newIndex) {
+                          if (_searchQuery.isNotEmpty) return;
+                          final newOrder = cards.map((c) => c.key).toList();
+                          final item = newOrder.removeAt(oldIndex);
+                          newOrder.insert(newIndex, item);
+                          addictions.saveCardOrder(newOrder);
+                        },
+                        children: cards.map((data) {
+                          return SizedBox(
+                            key: ValueKey(data.key),
+                            child: QuitCard(
+                              context: context,
+                              title: data.title,
+                              icon: data.icon,
+                              gradientColors: data.gradientColors,
+                              quitDate: data.quitDate,
+                              onTap: _isEditMode
+                                  ? () => setState(() => _isEditMode = false)
+                                  : data.onTap,
+                              onDelete: _isEditMode ? data.onDelete : null,
+                            ),
+                          );
+                        }).toList(),
                       );
                     },
                   ),
@@ -857,17 +572,25 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
           ),
         ],
       ),
-      floatingActionButton: FloatingActionButton.extended(
-        onPressed: () async {
-          await Navigator.of(context).push(
-            MaterialPageRoute(builder: (context) => const AddAddictionPage()),
-          );
-          _loadQuitDays();
-        },
-        label: Text(l10n.homeAddButton),
-        icon: const Icon(Icons.add),
-        tooltip: l10n.homeAddTooltip,
-      ),
+      floatingActionButton: _isEditMode
+          ? FloatingActionButton.extended(
+              onPressed: () => setState(() => _isEditMode = false),
+              label: Text(l10n.done),
+              icon: const Icon(Icons.check),
+            )
+          : FloatingActionButton.extended(
+              onPressed: () async {
+                await Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (context) => const AddAddictionPage(),
+                  ),
+                );
+                _loadQuitDays();
+              },
+              label: Text(l10n.homeAddButton),
+              icon: const Icon(Icons.add),
+              tooltip: l10n.homeAddTooltip,
+            ),
     );
   }
 

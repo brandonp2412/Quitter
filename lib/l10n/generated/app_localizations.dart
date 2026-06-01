@@ -3783,6 +3783,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Notify MAOI quitting progress'**
   String get settingsNotifyMaoi;
+
+  /// No description provided for @done.
+  ///
+  /// In en, this message translates to:
+  /// **'Done'**
+  String get done;
 }
 
 class _AppLocalizationsDelegate

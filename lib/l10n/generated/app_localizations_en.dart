@@ -2123,4 +2123,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get settingsNotifyMaoi => 'Notify MAOI quitting progress';
+
+  @override
+  String get done => 'Done';
 }

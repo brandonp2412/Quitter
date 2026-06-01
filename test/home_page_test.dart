@@ -126,7 +126,7 @@ void main() {
   });
 
   group('HomePage Long Press Tests', () {
-    testWidgets('should show hide bottom sheet on card long press', (
+    testWidgets('should show X icons after long press', (
       WidgetTester tester,
     ) async {
       SharedPreferences.setMockInitialValues({'alcohol': '2024-01-01'});
@@ -137,6 +137,25 @@ void main() {
       await tester.pumpAndSettle();
 
       await tester.longPress(find.text('Alcohol'));
+      await tester.pumpAndSettle();
+
+      expect(find.byIcon(Icons.close), findsOneWidget);
+    });
+
+    testWidgets('should show stop tracking sheet when X icon is tapped', (
+      WidgetTester tester,
+    ) async {
+      SharedPreferences.setMockInitialValues({'alcohol': '2024-01-01'});
+      addictionProvider = AddictionProvider();
+      await addictionProvider.loadAddictions();
+
+      await tester.pumpWidget(createTestWidget());
+      await tester.pumpAndSettle();
+
+      await tester.longPress(find.text('Alcohol'));
+      await tester.pumpAndSettle();
+
+      await tester.tap(find.byIcon(Icons.close));
       await tester.pumpAndSettle();
 
       expect(find.text('Stop tracking Alcohol?'), findsOneWidget);
@@ -157,6 +176,9 @@ void main() {
       await tester.longPress(find.text('Alcohol'));
       await tester.pumpAndSettle();
 
+      await tester.tap(find.byIcon(Icons.close));
+      await tester.pumpAndSettle();
+
       await tester.tap(find.text('Cancel'));
       await tester.pumpAndSettle();
 
@@ -164,7 +186,7 @@ void main() {
       expect(find.text('Alcohol'), findsOne);
     });
 
-    testWidgets('should hide card when Hide is confirmed', (
+    testWidgets('should hide card when Remove is confirmed', (
       WidgetTester tester,
     ) async {
       SharedPreferences.setMockInitialValues({'alcohol': '2024-01-01'});
@@ -175,6 +197,9 @@ void main() {
       await tester.pumpAndSettle();
 
       await tester.longPress(find.text('Alcohol'));
+      await tester.pumpAndSettle();
+
+      await tester.tap(find.byIcon(Icons.close));
       await tester.pumpAndSettle();
 
       await tester.tap(find.text('Remove'));

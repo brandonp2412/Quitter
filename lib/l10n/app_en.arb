@@ -1886,5 +1886,6 @@
   "maoiMilestone365Title": "One Year: Recovery Achieved",
   "maoiMilestone365Description": "One year after MAOI discontinuation is a genuinely significant milestone. MAOIs are the most pharmacologically complex antidepressants, with the broadest effects on neurotransmitter systems and the most demanding discontinuation process. One year demonstrates complete recovery of all monoamine systems and remarkable personal resilience.",
   "settingsShowMaoiTracking": "Show MAOI tracking",
-  "settingsNotifyMaoi": "Notify MAOI quitting progress"
+  "settingsNotifyMaoi": "Notify MAOI quitting progress",
+  "done": "Done"
 }

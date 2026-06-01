@@ -2060,4 +2060,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get settingsNotifyMaoi => '通知MAOI戒断进度';
+
+  @override
+  String get done => '完成';
 }

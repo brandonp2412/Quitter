@@ -27,6 +27,7 @@ dependencies:
   share_plus: ^12.0.0
   home_widget: ^0.8.0
   crypto: ^3.0.6
+  reorderable_grid_view: ^2.2.8
 dev_dependencies:
   flutter_test:
     sdk: flutter

@@ -2060,4 +2060,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get settingsNotifyMaoi => 'MAOI禁断進捗を通知';
+
+  @override
+  String get done => '完了';
 }

@@ -26,6 +26,7 @@ class AddictionProvider extends ChangeNotifier {
   String? _maoi;
 
   List<Entry> entries = [];
+  List<String> cardOrder = [];
   Map<String, List<int>> _days = {};
 
   Future<void> loadAddictions() async {
@@ -55,6 +56,11 @@ class AddictionProvider extends ChangeNotifier {
       entries = data
           .map((item) => Entry.fromJson(item as Map<String, dynamic>))
           .toList();
+    }
+
+    final String? orderJson = _pref!.getString('card_order');
+    if (orderJson != null) {
+      cardOrder = List<String>.from(json.decode(orderJson) as List<dynamic>);
     }
 
     final String? daysJson = _pref!.getString('days');
@@ -101,6 +107,12 @@ class AddictionProvider extends ChangeNotifier {
   String? get quitSnri => _snri;
   String? get quitTca => _tca;
   String? get quitMaoi => _maoi;
+
+  Future<void> saveCardOrder(List<String> order) async {
+    cardOrder = order;
+    await _pref?.setString('card_order', json.encode(order));
+    notifyListeners();
+  }
 
   Future<void> _saveEntries() async {
     final List<Map<String, dynamic>> list = entries
