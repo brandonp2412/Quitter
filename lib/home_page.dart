@@ -21,6 +21,7 @@ import 'package:quitter/nicotine_pouches.dart';
 import 'package:quitter/opioid_page.dart';
 import 'package:quitter/pornography_page.dart';
 import 'package:quitter/quit_card.dart';
+import 'package:quitter/settings_page.dart';
 import 'package:quitter/settings_provider.dart';
 import 'package:quitter/smoking_page.dart';
 import 'package:quitter/social_media_page.dart';
@@ -502,16 +503,21 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                     child: const Icon(Icons.search),
                   ),
                   hintText: 'Search addictions...',
-                  trailing: _searchQuery.isNotEmpty
-                      ? [
-                          IconButton(
-                            icon: const Icon(Icons.clear),
-                            onPressed: () {
-                              _searchController.clear();
-                            },
-                          ),
-                        ]
-                      : null,
+                  trailing: [
+                    if (_searchQuery.isNotEmpty)
+                      IconButton(
+                        icon: const Icon(Icons.clear),
+                        onPressed: () => _searchController.clear(),
+                      ),
+                    IconButton(
+                      icon: const Icon(Icons.settings),
+                      onPressed: () => Navigator.of(context).push(
+                        MaterialPageRoute(
+                          builder: (context) => const SettingsPage(),
+                        ),
+                      ),
+                    ),
+                  ],
                 ),
               ),
             ),

@@ -61,6 +61,7 @@ class _SettingsPageState extends State<SettingsPage> {
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context)!;
     return Scaffold(
+      appBar: AppBar(title: Text(l10n.tabSettings)),
       body: Consumer<SettingsProvider>(
         builder: (context, settings, child) {
           final List<Widget> filteredItems = _buildFilteredSettingsItems(
