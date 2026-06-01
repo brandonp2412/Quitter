@@ -73,7 +73,10 @@ class _SettingsPageState extends State<SettingsPage> {
               Padding(
                 padding: const EdgeInsets.only(left: 16, right: 16, top: 16),
                 child: SearchBar(
-                  leading: Icon(Icons.search),
+                  leading: Padding(
+                    padding: const EdgeInsets.only(left: 8),
+                    child: const Icon(Icons.search),
+                  ),
                   controller: _searchController,
                   focusNode: _searchFocusNode,
                   hintText: l10n.settingsSearchHint,

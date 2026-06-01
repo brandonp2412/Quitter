@@ -206,7 +206,10 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
               child: Center(
                 child: SearchBar(
                   controller: _searchController,
-                  leading: const Icon(Icons.search),
+                  leading: Padding(
+                    padding: const EdgeInsets.only(left: 8),
+                    child: const Icon(Icons.search),
+                  ),
                   hintText: 'Search addictions...',
                   trailing: _searchQuery.isNotEmpty
                       ? [

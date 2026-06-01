@@ -64,7 +64,10 @@ class _IconPickerWidgetState extends State<IconPickerWidget> {
       mainAxisSize: MainAxisSize.min,
       children: [
         SearchBar(
-          leading: Icon(Icons.search),
+          leading: Padding(
+            padding: const EdgeInsets.only(left: 8),
+            child: const Icon(Icons.search),
+          ),
           controller: _searchController,
           hintText: 'Search icons...',
           trailing: _searchController.text.isNotEmpty
