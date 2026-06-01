@@ -54,8 +54,18 @@ class _JournalPageState extends State<JournalPage> {
 
   Future<void> _loadDatesWithEntries() async {
     final prefs = await SharedPreferences.getInstance();
-    final datesString = prefs.getStringList('journal_dates') ?? [];
+    // If journal_dates is a String (corrupted/legacy), rebuild the index from
+    // the actual entry keys, which are the source of truth.
+    if (prefs.get('journal_dates') is String) {
+      final rebuilt = prefs
+          .getKeys()
+          .where((k) => k.startsWith('journal_') && k != 'journal_dates')
+          .map((k) => k.substring('journal_'.length))
+          .toList();
+      await prefs.setStringList('journal_dates', rebuilt);
+    }
 
+    final datesString = prefs.getStringList('journal_dates') ?? [];
     if (mounted)
       setState(() {
         _datesWithEntries = datesString
