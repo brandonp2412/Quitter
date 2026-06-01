@@ -189,8 +189,8 @@ class QuitCard extends StatelessWidget {
               child: Container(
                 width: 26,
                 height: 26,
-                decoration: const BoxDecoration(
-                  color: Colors.red,
+                decoration: BoxDecoration(
+                  color: gradientColors.last,
                   shape: BoxShape.circle,
                 ),
                 child: const Icon(Icons.close, color: Colors.white, size: 16),
@@ -199,7 +199,7 @@ class QuitCard extends StatelessWidget {
           ),
         if (onRename != null)
           Positioned(
-            top: 6,
+            bottom: 6,
             right: 6,
             child: GestureDetector(
               onTap: onRename,
@@ -211,7 +211,11 @@ class QuitCard extends StatelessWidget {
                   color: Theme.of(context).colorScheme.primary,
                   shape: BoxShape.circle,
                 ),
-                child: const Icon(Icons.edit, color: Colors.white, size: 14),
+                child: Icon(
+                  Icons.edit,
+                  color: Theme.of(context).colorScheme.onPrimary,
+                  size: 14,
+                ),
               ),
             ),
           ),
