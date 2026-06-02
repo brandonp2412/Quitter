@@ -481,9 +481,8 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context)!;
     return Scaffold(
-      body: MediaQuery.removePadding(
-        context: context,
-        removeTop: true,
+      body: SafeArea(
+        bottom: false,
         child: CustomScrollView(
           slivers: [
             SliverAppBar(
