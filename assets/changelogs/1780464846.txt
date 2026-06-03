@@ -1,0 +1,5 @@
+• Update pubspec.lock
+• Fix add SafeArea to home page to prevent status bar clash when journal is hidden
+• Fix move SafeArea to root to fix double padding with tab bar
+• Fix paint scaffold background behind status bar area
+• Fix use Builder so status bar background reads correct theme
