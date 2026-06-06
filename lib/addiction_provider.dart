@@ -1,8 +1,14 @@
 import 'dart:convert';
 import 'package:flutter/foundation.dart';
+import 'package:flutter/material.dart';
 import 'package:home_widget/home_widget.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:quitter/cupertino_icons.dart';
 import 'package:quitter/entry.dart';
+
+final Map<IconData, String> _iconNames = allCupertinoIcons.map(
+  (name, icon) => MapEntry(icon, name),
+);
 
 class AddictionProvider extends ChangeNotifier {
   SharedPreferences? _pref;
@@ -28,6 +34,8 @@ class AddictionProvider extends ChangeNotifier {
   List<Entry> entries = [];
   List<String> cardOrder = [];
   Map<String, String> customNames = {};
+  Map<String, IconData> customIcons = {};
+  Map<String, Color> customColors = {};
   Map<String, List<int>> _days = {};
 
   Future<void> loadAddictions() async {
@@ -69,6 +77,24 @@ class AddictionProvider extends ChangeNotifier {
       final Map<String, dynamic> data =
           json.decode(customNamesJson) as Map<String, dynamic>;
       customNames = data.map((key, val) => MapEntry(key, val as String));
+    }
+
+    final String? customIconsJson = _pref!.getString('custom_icons');
+    if (customIconsJson != null) {
+      final Map<String, dynamic> data =
+          json.decode(customIconsJson) as Map<String, dynamic>;
+      customIcons = {
+        for (final entry in data.entries)
+          if (allCupertinoIcons[entry.value as String] != null)
+            entry.key: allCupertinoIcons[entry.value as String]!,
+      };
+    }
+
+    final String? customColorsJson = _pref!.getString('custom_colors');
+    if (customColorsJson != null) {
+      final Map<String, dynamic> data =
+          json.decode(customColorsJson) as Map<String, dynamic>;
+      customColors = data.map((key, val) => MapEntry(key, Color(val as int)));
     }
 
     final String? daysJson = _pref!.getString('days');
@@ -125,6 +151,26 @@ class AddictionProvider extends ChangeNotifier {
   Future<void> setCustomName(String key, String name) async {
     customNames[key] = name;
     await _pref?.setString('custom_names', json.encode(customNames));
+    notifyListeners();
+  }
+
+  Future<void> setCustomIcon(String key, IconData icon) async {
+    customIcons[key] = icon;
+    final Map<String, String> serialized = {
+      for (final entry in customIcons.entries)
+        if (_iconNames[entry.value] != null)
+          entry.key: _iconNames[entry.value]!,
+    };
+    await _pref?.setString('custom_icons', json.encode(serialized));
+    notifyListeners();
+  }
+
+  Future<void> setCustomColor(String key, Color color) async {
+    customColors[key] = color;
+    await _pref?.setString(
+      'custom_colors',
+      json.encode(customColors.map((k, v) => MapEntry(k, v.toARGB32()))),
+    );
     notifyListeners();
   }
 

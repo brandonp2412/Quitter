@@ -15,6 +15,7 @@ import 'package:quitter/addiction_provider.dart';
 import 'package:quitter/alcohol_page.dart';
 import 'package:quitter/entry.dart';
 import 'package:quitter/edit_entry_page.dart';
+import 'package:quitter/edit_preset_page.dart';
 import 'package:quitter/entry_page.dart';
 import 'package:quitter/marijuana_page.dart';
 import 'package:quitter/meth_page.dart';
@@ -210,45 +211,6 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
     );
   }
 
-  void _showRenameDialog(String currentTitle, void Function(String) onSave) {
-    final l10n = AppLocalizations.of(context)!;
-    final controller = TextEditingController(text: currentTitle);
-    showDialog<void>(
-      context: context,
-      builder: (context) => AlertDialog(
-        title: Text(l10n.rename),
-        content: TextField(
-          controller: controller,
-          autofocus: true,
-          decoration: InputDecoration(labelText: currentTitle),
-          onSubmitted: (value) {
-            final name = value.trim();
-            if (name.isNotEmpty) {
-              onSave(name);
-              Navigator.pop(context);
-            }
-          },
-        ),
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.pop(context),
-            child: Text(l10n.cancel),
-          ),
-          FilledButton(
-            onPressed: () {
-              final name = controller.text.trim();
-              if (name.isNotEmpty) {
-                onSave(name);
-                Navigator.pop(context);
-              }
-            },
-            child: Text(l10n.editEntrySave),
-          ),
-        ],
-      ),
-    );
-  }
-
   bool _matchesSearch(String title) {
     if (_searchQuery.isEmpty) return true;
     return title.toLowerCase().contains(_searchQuery);
@@ -272,12 +234,17 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
       if (quitDate == null) return;
       final title = addictions.customNames[key] ?? defaultTitle;
       if (!_matchesSearch(title)) return;
+      final effectiveIcon = addictions.customIcons[key] ?? icon;
+      final customColor = addictions.customColors[key];
+      final gradientColors = customColor != null
+          ? [customColor, customColor.withValues(alpha: 0.7)]
+          : colors;
       cards.add(
         _CardData(
           key: key,
           title: title,
-          icon: icon,
-          gradientColors: colors,
+          icon: effectiveIcon,
+          gradientColors: gradientColors,
           quitDate: quitDate,
           onTap: () async {
             await Navigator.of(context).push(MaterialPageRoute(builder: page));
@@ -287,10 +254,19 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
             title,
             () => addictions.setAddiction(key, null),
           ),
-          onRename: () => _showRenameDialog(
-            title,
-            (newName) => addictions.setCustomName(key, newName),
-          ),
+          onRename: () async {
+            await Navigator.of(context).push(
+              MaterialPageRoute(
+                builder: (context) => EditPresetPage(
+                  presetKey: key,
+                  title: title,
+                  icon: effectiveIcon,
+                  color: gradientColors.first,
+                ),
+              ),
+            );
+            if (mounted) _loadQuitDays();
+          },
         ),
       );
     }

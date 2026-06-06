@@ -9,6 +9,7 @@ import 'package:quitter/entry.dart';
 import 'package:quitter/utils.dart';
 import 'package:uuid/uuid.dart';
 
+import 'package:quitter/color_picker.dart';
 import 'package:quitter/icon_picker.dart';
 
 class EditEntryPage extends StatefulWidget {
@@ -204,48 +205,14 @@ class _EditEntryPageState extends State<EditEntryPage> {
                         isFocused: hasFocus,
                         child: Padding(
                           padding: const EdgeInsets.symmetric(vertical: 8),
-                          child: Wrap(
-                            spacing: 10,
-                            runSpacing: 10,
-                            children: Colors.primaries.map((color) {
-                              final bool isSelected =
-                                  _selectedColor.toARGB32() == color.toARGB32();
-                              return GestureDetector(
-                                onTap: () {
-                                  Focus.of(context).requestFocus();
-                                  setState(() {
-                                    _selectedColor = color;
-                                  });
-                                },
-                                child: Container(
-                                  width: 70,
-                                  height: 70,
-                                  decoration: BoxDecoration(
-                                    color: color,
-                                    shape: BoxShape.circle,
-                                    boxShadow: isSelected
-                                        ? [
-                                            BoxShadow(
-                                              color: Colors.black26,
-                                              blurRadius: 8,
-                                              offset: const Offset(2, 2),
-                                            ),
-                                          ]
-                                        : null,
-                                  ),
-                                  child: AnimatedScale(
-                                    scale: isSelected ? 1 : 0,
-                                    duration: const Duration(milliseconds: 300),
-                                    curve: Curves.elasticOut,
-                                    child: Icon(
-                                      Icons.check,
-                                      color: getContrastingColor(color),
-                                      size: 50,
-                                    ),
-                                  ),
-                                ),
-                              );
-                            }).toList(),
+                          child: ColorPickerWidget(
+                            selectedColor: _selectedColor,
+                            onColorSelected: (color) {
+                              Focus.of(context).requestFocus();
+                              setState(() {
+                                _selectedColor = color;
+                              });
+                            },
                           ),
                         ),
                       );
