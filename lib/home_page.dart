@@ -485,178 +485,186 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
   @override
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context)!;
-    return Scaffold(
-      body: CustomScrollView(
-        slivers: [
-          SliverAppBar(
-            floating: true,
-            snap: true,
-            primary: false,
-            backgroundColor: Colors.transparent,
-            elevation: 0,
-            toolbarHeight: 64,
-            flexibleSpace: Container(
-              padding: const EdgeInsets.only(left: 16, right: 16, top: 8),
-              alignment: Alignment.topCenter,
-              child: SearchBar(
-                controller: _searchController,
-                leading: Padding(
-                  padding: const EdgeInsets.only(left: 8),
-                  child: const Icon(Icons.search),
-                ),
-                hintText: 'Search addictions...',
-                trailing: [
-                  if (_searchQuery.isNotEmpty)
+    return PopScope(
+      canPop: !_isEditMode,
+      onPopInvokedWithResult: (didPop, result) {
+        if (didPop) return;
+        if (_isEditMode) setState(() => _isEditMode = false);
+      },
+      child: Scaffold(
+        body: CustomScrollView(
+          slivers: [
+            SliverAppBar(
+              floating: true,
+              snap: true,
+              primary: false,
+              backgroundColor: Colors.transparent,
+              elevation: 0,
+              toolbarHeight: 64,
+              flexibleSpace: Container(
+                padding: const EdgeInsets.only(left: 16, right: 16, top: 8),
+                alignment: Alignment.topCenter,
+                child: SearchBar(
+                  controller: _searchController,
+                  leading: Padding(
+                    padding: const EdgeInsets.only(left: 8),
+                    child: const Icon(Icons.search),
+                  ),
+                  hintText: 'Search addictions...',
+                  trailing: [
+                    if (_searchQuery.isNotEmpty)
+                      IconButton(
+                        icon: const Icon(Icons.clear),
+                        onPressed: () => _searchController.clear(),
+                      ),
                     IconButton(
-                      icon: const Icon(Icons.clear),
-                      onPressed: () => _searchController.clear(),
-                    ),
-                  IconButton(
-                    icon: const Icon(Icons.settings),
-                    onPressed: () => Navigator.of(context).push(
-                      MaterialPageRoute(
-                        builder: (context) => const SettingsPage(),
+                      icon: const Icon(Icons.settings),
+                      onPressed: () => Navigator.of(context).push(
+                        MaterialPageRoute(
+                          builder: (context) => const SettingsPage(),
+                        ),
                       ),
                     ),
-                  ),
-                ],
+                  ],
+                ),
               ),
             ),
-          ),
-          SliverPadding(
-            padding: EdgeInsets.only(
-              left: 16,
-              right: 16,
-              top: 16,
-              bottom: 56 + MediaQuery.of(context).padding.bottom,
-            ),
-            sliver: Consumer<AddictionProvider>(
-              builder: (context, addictions, child) {
-                final allCards = _buildAllCards(context, addictions, l10n);
-                final cards = _sortByOrder(allCards, addictions.cardOrder);
+            SliverPadding(
+              padding: EdgeInsets.only(
+                left: 16,
+                right: 16,
+                top: 16,
+                bottom: 56 + MediaQuery.of(context).padding.bottom,
+              ),
+              sliver: Consumer<AddictionProvider>(
+                builder: (context, addictions, child) {
+                  final allCards = _buildAllCards(context, addictions, l10n);
+                  final cards = _sortByOrder(allCards, addictions.cardOrder);
 
-                if (cards.isEmpty) {
-                  return SliverFillRemaining(
-                    child: Center(
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Icon(
-                            _searchQuery.isNotEmpty
-                                ? Icons.search_off
-                                : Icons.track_changes,
-                            size: 64,
-                            color: Theme.of(
-                              context,
-                            ).colorScheme.onSurface.withAlpha(128),
-                          ),
-                          const SizedBox(height: 16),
-                          Text(
-                            _searchQuery.isNotEmpty
-                                ? 'No matches found'
-                                : l10n.homeEmptyTitle,
-                            style: Theme.of(context).textTheme.titleLarge
-                                ?.copyWith(
-                                  color: Theme.of(
-                                    context,
-                                  ).colorScheme.onSurface.withAlpha(128),
-                                ),
-                          ),
-                          if (_searchQuery.isEmpty) ...[
-                            const SizedBox(height: 8),
+                  if (cards.isEmpty) {
+                    return SliverFillRemaining(
+                      child: Center(
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Icon(
+                              _searchQuery.isNotEmpty
+                                  ? Icons.search_off
+                                  : Icons.track_changes,
+                              size: 64,
+                              color: Theme.of(
+                                context,
+                              ).colorScheme.onSurface.withAlpha(128),
+                            ),
+                            const SizedBox(height: 16),
                             Text(
-                              l10n.homeEmptySubtitle,
-                              style: Theme.of(context).textTheme.bodyMedium
+                              _searchQuery.isNotEmpty
+                                  ? 'No matches found'
+                                  : l10n.homeEmptyTitle,
+                              style: Theme.of(context).textTheme.titleLarge
                                   ?.copyWith(
                                     color: Theme.of(
                                       context,
-                                    ).colorScheme.onSurface.withAlpha(102),
+                                    ).colorScheme.onSurface.withAlpha(128),
                                   ),
                             ),
+                            if (_searchQuery.isEmpty) ...[
+                              const SizedBox(height: 8),
+                              Text(
+                                l10n.homeEmptySubtitle,
+                                style: Theme.of(context).textTheme.bodyMedium
+                                    ?.copyWith(
+                                      color: Theme.of(
+                                        context,
+                                      ).colorScheme.onSurface.withAlpha(102),
+                                    ),
+                              ),
+                            ],
                           ],
-                        ],
+                        ),
                       ),
+                    );
+                  }
+
+                  return SliverToBoxAdapter(
+                    child: LayoutBuilder(
+                      builder: (context, constraints) {
+                        final columnCount =
+                            MediaQuery.of(context).size.width > 600 ? 3 : 2;
+                        const spacing = 16.0;
+                        final cardWidth =
+                            (constraints.maxWidth -
+                                spacing * (columnCount - 1)) /
+                            columnCount;
+                        // 216dp fits QuitCard: icon(48) + gaps + titleMedium(24) +
+                        // headlineSmall(32) + date-chip(24) + 40dp padding = 204dp.
+                        // Extra 12dp gives breathing room for varying font metrics.
+                        const cardHeight = 216.0;
+
+                        return ReorderableGridView.count(
+                          crossAxisCount: columnCount,
+                          mainAxisSpacing: spacing,
+                          crossAxisSpacing: spacing,
+                          childAspectRatio: cardWidth / cardHeight,
+                          shrinkWrap: true,
+                          physics: const NeverScrollableScrollPhysics(),
+                          dragEnabled: _searchQuery.isEmpty,
+                          onDragStart: (_) {
+                            setState(() => _isEditMode = true);
+                          },
+                          onReorder: (oldIndex, newIndex) {
+                            if (_searchQuery.isNotEmpty) return;
+                            final newOrder = cards.map((c) => c.key).toList();
+                            final item = newOrder.removeAt(oldIndex);
+                            newOrder.insert(newIndex, item);
+                            addictions.saveCardOrder(newOrder);
+                          },
+                          children: cards.map((data) {
+                            return SizedBox(
+                              key: ValueKey(data.key),
+                              child: QuitCard(
+                                context: context,
+                                title: data.title,
+                                icon: data.icon,
+                                gradientColors: data.gradientColors,
+                                quitDate: data.quitDate,
+                                onTap: _isEditMode
+                                    ? () => setState(() => _isEditMode = false)
+                                    : data.onTap,
+                                onDelete: _isEditMode ? data.onDelete : null,
+                                onRename: _isEditMode ? data.onRename : null,
+                              ),
+                            );
+                          }).toList(),
+                        );
+                      },
                     ),
                   );
-                }
-
-                return SliverToBoxAdapter(
-                  child: LayoutBuilder(
-                    builder: (context, constraints) {
-                      final columnCount =
-                          MediaQuery.of(context).size.width > 600 ? 3 : 2;
-                      const spacing = 16.0;
-                      final cardWidth =
-                          (constraints.maxWidth - spacing * (columnCount - 1)) /
-                          columnCount;
-                      // 216dp fits QuitCard: icon(48) + gaps + titleMedium(24) +
-                      // headlineSmall(32) + date-chip(24) + 40dp padding = 204dp.
-                      // Extra 12dp gives breathing room for varying font metrics.
-                      const cardHeight = 216.0;
-
-                      return ReorderableGridView.count(
-                        crossAxisCount: columnCount,
-                        mainAxisSpacing: spacing,
-                        crossAxisSpacing: spacing,
-                        childAspectRatio: cardWidth / cardHeight,
-                        shrinkWrap: true,
-                        physics: const NeverScrollableScrollPhysics(),
-                        dragEnabled: _searchQuery.isEmpty,
-                        onDragStart: (_) {
-                          setState(() => _isEditMode = true);
-                        },
-                        onReorder: (oldIndex, newIndex) {
-                          if (_searchQuery.isNotEmpty) return;
-                          final newOrder = cards.map((c) => c.key).toList();
-                          final item = newOrder.removeAt(oldIndex);
-                          newOrder.insert(newIndex, item);
-                          addictions.saveCardOrder(newOrder);
-                        },
-                        children: cards.map((data) {
-                          return SizedBox(
-                            key: ValueKey(data.key),
-                            child: QuitCard(
-                              context: context,
-                              title: data.title,
-                              icon: data.icon,
-                              gradientColors: data.gradientColors,
-                              quitDate: data.quitDate,
-                              onTap: _isEditMode
-                                  ? () => setState(() => _isEditMode = false)
-                                  : data.onTap,
-                              onDelete: _isEditMode ? data.onDelete : null,
-                              onRename: _isEditMode ? data.onRename : null,
-                            ),
-                          );
-                        }).toList(),
-                      );
-                    },
-                  ),
-                );
-              },
+                },
+              ),
             ),
-          ),
-        ],
+          ],
+        ),
+        floatingActionButton: _isEditMode
+            ? FloatingActionButton.extended(
+                onPressed: () => setState(() => _isEditMode = false),
+                label: Text(l10n.done),
+                icon: const Icon(Icons.check),
+              )
+            : FloatingActionButton.extended(
+                onPressed: () async {
+                  await Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => const AddAddictionPage(),
+                    ),
+                  );
+                  _loadQuitDays();
+                },
+                label: Text(l10n.homeAddButton),
+                icon: const Icon(Icons.add),
+                tooltip: l10n.homeAddTooltip,
+              ),
       ),
-      floatingActionButton: _isEditMode
-          ? FloatingActionButton.extended(
-              onPressed: () => setState(() => _isEditMode = false),
-              label: Text(l10n.done),
-              icon: const Icon(Icons.check),
-            )
-          : FloatingActionButton.extended(
-              onPressed: () async {
-                await Navigator.of(context).push(
-                  MaterialPageRoute(
-                    builder: (context) => const AddAddictionPage(),
-                  ),
-                );
-                _loadQuitDays();
-              },
-              label: Text(l10n.homeAddButton),
-              icon: const Icon(Icons.add),
-              tooltip: l10n.homeAddTooltip,
-            ),
     );
   }
 
