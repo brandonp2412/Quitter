@@ -3,12 +3,8 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:home_widget/home_widget.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:quitter/cupertino_icons.dart';
+import 'package:quitter/app_icons.dart';
 import 'package:quitter/entry.dart';
-
-final Map<IconData, String> _iconNames = allCupertinoIcons.map(
-  (name, icon) => MapEntry(icon, name),
-);
 
 class AddictionProvider extends ChangeNotifier {
   SharedPreferences? _pref;
@@ -85,8 +81,8 @@ class AddictionProvider extends ChangeNotifier {
           json.decode(customIconsJson) as Map<String, dynamic>;
       customIcons = {
         for (final entry in data.entries)
-          if (allCupertinoIcons[entry.value as String] != null)
-            entry.key: allCupertinoIcons[entry.value as String]!,
+          if (allIcons[entry.value as String] != null)
+            entry.key: allIcons[entry.value as String]!,
       };
     }
 
@@ -158,8 +154,7 @@ class AddictionProvider extends ChangeNotifier {
     customIcons[key] = icon;
     final Map<String, String> serialized = {
       for (final entry in customIcons.entries)
-        if (_iconNames[entry.value] != null)
-          entry.key: _iconNames[entry.value]!,
+        if (iconNames[entry.value] != null) entry.key: iconNames[entry.value]!,
     };
     await _pref?.setString('custom_icons', json.encode(serialized));
     notifyListeners();

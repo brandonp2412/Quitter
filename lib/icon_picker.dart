@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:quitter/cupertino_icons.dart';
+import 'package:quitter/app_icons.dart';
 import 'package:quitter/utils.dart';
 
 class IconPickerWidget extends StatefulWidget {
@@ -22,15 +22,24 @@ class IconPickerWidget extends StatefulWidget {
 
 class _IconPickerWidgetState extends State<IconPickerWidget> {
   final TextEditingController _searchController = TextEditingController();
+  final GlobalKey _selectedIconKey = GlobalKey();
   List<IconData> filteredIcons = [];
 
   @override
   void initState() {
     super.initState();
-    filteredIcons = allCupertinoIcons.entries
-        .map((entry) => entry.value)
-        .toList();
+    filteredIcons = allIcons.entries.map((entry) => entry.value).toList();
     _searchController.addListener(_filterIcons);
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      final ctx = _selectedIconKey.currentContext;
+      if (ctx == null) return;
+      Scrollable.ensureVisible(
+        ctx,
+        alignment: 0.5,
+        duration: const Duration(milliseconds: 300),
+        curve: Curves.easeInOut,
+      );
+    });
   }
 
   @override
@@ -43,15 +52,13 @@ class _IconPickerWidgetState extends State<IconPickerWidget> {
     String query = _searchController.text.toLowerCase();
     if (query.isEmpty) {
       setState(() {
-        filteredIcons = allCupertinoIcons.entries
-            .map((entry) => entry.value)
-            .toList();
+        filteredIcons = allIcons.entries.map((entry) => entry.value).toList();
       });
       return;
     }
 
     setState(() {
-      filteredIcons = allCupertinoIcons.entries
+      filteredIcons = allIcons.entries
           .where((entry) => entry.key.contains(query))
           .map((entry) => entry.value)
           .toList();
@@ -96,6 +103,7 @@ class _IconPickerWidgetState extends State<IconPickerWidget> {
                   final isSelected = widget.selectedIcon == icon;
 
                   return GestureDetector(
+                    key: isSelected ? _selectedIconKey : null,
                     onTap: () => widget.onIconSelected(icon),
                     child: Container(
                       width: 48.0,
