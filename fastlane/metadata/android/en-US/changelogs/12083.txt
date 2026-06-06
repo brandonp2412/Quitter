@@ -1,0 +1,4 @@
+• Fix toasts never dismissing
+• Move delete icon to top right from top left
+• open full edit page from custom entry edit button
+• Fix exit edit mode on system back instead of leaving home
