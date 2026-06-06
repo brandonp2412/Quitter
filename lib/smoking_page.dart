@@ -91,46 +91,45 @@ class SmokingPage extends StatelessWidget {
         day: 14,
         title: l10n.smokingMilestone14Title,
         description: l10n.smokingMilestone14Description,
-        reference: "Medical News Today - Timeline After Quitting Smoking",
-        link: "https://www.medicalnewstoday.com/articles/317956",
-        referenceDate: "March 2026",
+        reference: "NHS - Quit Smoking Timeline",
+        link: "https://www.nhs.uk/better-health/quit-smoking/",
+        referenceDate: "June 2026",
         referenceContent:
-            "Two Weeks Smoke-Free: Circulation and Exercise Improve\n\n"
-            "Source: Medical News Today\n\n"
-            "The Two-Week Timeline\n"
-            "Medical News Today documents a detailed timeline of what happens in the body after quitting smoking. At two weeks, the improvements span cardiovascular, respiratory, and sensory systems.\n\n"
-            "Circulation\n"
-            "By two weeks, circulation has substantially improved. Nicotine causes vasoconstriction — narrowing of blood vessels — with every cigarette. With two weeks of non-smoking:\n"
-            "• Blood vessels have dilated back to their normal calibre\n"
-            "• Blood flow to hands, feet, and peripheral tissues is meaningfully better\n"
+            "Two to Twelve Weeks Smoke-Free: Circulation Improves\n\n"
+            "Source: NHS Better Health\n\n"
+            "The NHS Timeline\n"
+            "The NHS documents that within 2 to 12 weeks of stopping, your blood circulation improves. This is one of the clearest measurable benefits of the first weeks off cigarettes.\n\n"
+            "Why Circulation Improves\n"
+            "Nicotine causes vasoconstriction — narrowing of the blood vessels — with every cigarette. Once nicotine is gone, the vessels relax back toward their normal calibre and blood flows more freely:\n"
+            "• Blood vessels dilate back toward their normal width\n"
+            "• Blood flow to the hands, feet and peripheral tissues improves\n"
             "• Many people notice warmer hands and feet\n\n"
-            "Exercise Capacity\n"
-            "Medical News Today documents that within 2 weeks to 3 months of quitting, walking becomes easier and exercise capacity improves substantially. The combined improvements in blood oxygen carrying capacity (from resolved CO poisoning), circulation, and early lung recovery contribute to this.\n\n"
-            "Lung Recovery Begins\n"
-            "Cilia — the tiny hair-like structures lining the airways that move mucus and particles out of the lungs — begin recovering within days of stopping and are functioning substantially better at two weeks. This is why many people cough more in early cessation (a healthy sign: the lungs are clearing themselves) before experiencing better breathing.",
+            "What This Means for Activity\n"
+            "Better circulation, combined with carbon monoxide already cleared from the blood in the first day, means oxygen reaches muscles more effectively. Everyday physical activity — walking, climbing stairs — starts to feel easier over this period.\n\n"
+            "Airways Recovering\n"
+            "The cilia — the tiny hair-like structures lining the airways that sweep mucus and particles out of the lungs — recover over these weeks. Many people cough more in early cessation as the lungs clear themselves; this is a normal sign of recovery, not a setback.",
       ),
       QuitMilestone(
         day: 30,
         title: l10n.smokingMilestone30Title,
         description: l10n.smokingMilestone30Description,
-        reference: "PMC - Smoking Cessation for People with COPD",
-        link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC6400424/",
-        referenceDate: "March 2026",
+        reference: "NHS - Quit Smoking Timeline",
+        link: "https://www.nhs.uk/better-health/quit-smoking/",
+        referenceDate: "June 2026",
         referenceContent:
-            "One Month Smoke-Free: Lung Function Increases\n\n"
-            "Source: PMC — Peer-reviewed research on smoking cessation and COPD\n\n"
-            "About This Research\n"
-            "This peer-reviewed review examined the benefits of smoking cessation specifically for people with COPD (Chronic Obstructive Pulmonary Disease), but the lung function improvements documented apply broadly to all smokers who quit.\n\n"
-            "Lung Function at One Month\n"
-            "The research documents measurable improvement in lung function within weeks to months of quitting:\n"
-            "• FEV1 (forced expiratory volume — a key measure of lung function) improves\n"
-            "• Airway inflammation decreases\n"
-            "• Mucus production normalises\n"
-            "• Cilia function continues recovering — more effective airway clearance\n\n"
-            "The Rate of Decline Slows\n"
-            "Smoking accelerates the natural age-related decline in lung function by roughly 2–3 times. The research documents that quitting smoking slows this decline back to the normal rate within months. For those with early COPD, this is transformative — it fundamentally changes the long-term trajectory of the disease.\n\n"
-            "For Healthy Lungs\n"
-            "For smokers without diagnosed lung disease, one month brings concrete improvements: easier breathing, less breathlessness on exertion, reduced morning cough, and better exercise tolerance.",
+            "One Month Smoke-Free: Lung Function Climbs\n\n"
+            "Source: NHS Better Health\n\n"
+            "The NHS Timeline\n"
+            "The NHS documents that as you move through the first months of stopping, breathing becomes easier and lung function improves — increasing by up to 10% across the 3-to-9-month window. By one month you are well into that recovery curve.\n\n"
+            "What Is Happening in the Lungs\n"
+            "• The cilia lining the airways have regrown and are clearing mucus and trapped debris more effectively\n"
+            "• Airway inflammation is settling\n"
+            "• Breathing feels easier and morning cough is reducing\n"
+            "• Exercise tolerance improves as more oxygen reaches the muscles\n\n"
+            "Why the Cough Eases\n"
+            "Many people cough more in the first days and weeks as the recovering cilia push out built-up tar and mucus. By one month this clearing is well underway, and the persistent smoker's cough typically begins to fade.\n\n"
+            "The Bigger Picture\n"
+            "The NHS notes that any coughs, wheezing and breathing problems improve as lung function increases. One month is a meaningful marker on the way to that recovery.",
       ),
       QuitMilestone(
         day: 90,
@@ -163,29 +162,21 @@ class SmokingPage extends StatelessWidget {
         day: 180,
         title: l10n.smokingMilestone180Title,
         description: l10n.smokingMilestone180Description,
-        reference: "Smokefree NZ - The Benefits of Quitting",
-        link:
-            "https://www.smokefree.org.nz/quit/tips-and-advice/the-benefits-of-quitting",
-        referenceDate: "March 2026",
+        reference:
+            "Smoke-free period and recovery of alveolar immune-cell function (PubMed)",
+        link: "https://pubmed.ncbi.nlm.nih.gov/11465626/",
+        referenceDate: "June 2026",
         referenceContent:
-            "Six Months Smoke-Free: Immune System Strengthens\n\n"
-            "Source: Smokefree NZ\n\n"
-            "Six-Month Benefits\n"
-            "Smokefree NZ documents the established timeline of health benefits from quitting smoking. At six months, the improvements span the immune system, respiratory system, and overall physical fitness.\n\n"
-            "Immune System Recovery\n"
-            "Smoking significantly impairs immune function:\n"
-            "• Damages cilia and mucous membranes that are the first line of defence\n"
-            "• Reduces activity of immune cells (neutrophils, macrophages, NK cells)\n"
-            "• Increases susceptibility to respiratory infections\n"
-            "• Impairs vaccine effectiveness\n\n"
-            "By six months, immune function has substantially recovered. The risk of respiratory infections — colds, flu, pneumonia — is meaningfully lower. Vaccine responses are better. The body's defences are operating effectively.\n\n"
-            "Respiratory Benefits at Six Months\n"
-            "Smokefree NZ documents that by 3–9 months:\n"
-            "• Coughs, wheezing, and breathing problems decrease substantially\n"
-            "• Lung function is improved (cilia have largely recovered)\n"
-            "• Shortness of breath on exercise is much reduced\n\n"
-            "Quality of Life\n"
-            "At six months, the improvements in energy, breathing, taste, smell, and immune function compound into a meaningfully better daily quality of life. Many people at this stage say they can't imagine returning to smoking.",
+            "Six Months Smoke-Free: Immune Defences Recover\n\n"
+            "Source: Peer-reviewed study of alveolar immune-cell function after a tobacco-free period\n\n"
+            "About This Research\n"
+            "This study measured the microbicidal and inflammatory functions of alveolar immune cells (the front-line defenders deep in the lungs) in former smokers across abstinence periods of 2 months, 3–5 months, and 6–12 months.\n\n"
+            "Immune Recovery Is Progressive\n"
+            "Smoking suppresses the lung's immune cells — impairing their ability to engulf and kill bacteria. The research found that recovery of these defences is gradual: those abstinent only 2 months showed the most impairment, while function improved progressively with longer abstinence. Around the 6-month mark, pulmonary immune defences have substantially recovered compared with the early weeks after quitting.\n\n"
+            "Why It Matters\n"
+            "As alveolar immune-cell function returns, the lungs are better able to clear inhaled bacteria and particles, lowering susceptibility to respiratory infections such as colds, flu and pneumonia.\n\n"
+            "Recovery Continues\n"
+            "The study is a useful reminder that healing is not instant — immune defences keep improving well beyond six months — but by this stage the body's protection is markedly stronger than it was in the first weeks of quitting.",
       ),
       QuitMilestone(
         day: 365,

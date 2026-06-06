@@ -14,73 +14,74 @@ class MarijuanaPage extends StatelessWidget {
         day: 1,
         title: l10n.marijuanaMilestone1Title,
         description: l10n.marijuanaMilestone1Description,
-        reference: "Cleveland Clinic - Marijuana Withdrawal",
-        link:
-            "https://my.clevelandclinic.org/health/diseases/marijuana-weed-withdrawal",
-        referenceDate: "March 2026",
+        reference: "The Cannabis Withdrawal Syndrome: Current Insights (PMC)",
+        link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC5414724/",
+        referenceDate: "June 2026",
         referenceContent:
             "Marijuana Withdrawal: Day One\n\n"
-            "Source: Cleveland Clinic\n\n"
-            "Does Cannabis Cause Withdrawal?\n"
-            "Yes — contrary to long-held beliefs, regular cannabis use does cause physical and psychological dependence, and stopping causes a recognisable withdrawal syndrome. The Cleveland Clinic documents Cannabis Withdrawal Syndrome as a well-established medical condition that typically affects people who have used cannabis daily or near-daily for several months or more.\n\n"
+            "Source: \"The cannabis withdrawal syndrome: current insights,\" Substance Abuse and Rehabilitation (2017), on PubMed Central\n\n"
+            "Cannabis Withdrawal Is Real\n"
+            "This peer-reviewed review establishes that Cannabis Withdrawal Syndrome (CWS) is a well-validated clinical condition, occurring in roughly half of regular, dependent users after they stop. Its average peak severity is comparable to that of a tobacco withdrawal syndrome.\n\n"
             "Why Withdrawal Happens\n"
-            "THC (cannabis's primary psychoactive compound) acts on the endocannabinoid system — a network of receptors involved in mood, appetite, sleep, memory, and stress regulation. With regular use, the brain reduces its own endocannabinoid production and receptor sensitivity. When cannabis is stopped, this system is temporarily underactive, producing withdrawal symptoms.\n\n"
-            "Day One Symptoms\n"
-            "The Cleveland Clinic documents that cannabis withdrawal typically begins within 24 hours of stopping in daily users:\n"
+            "THC acts on the endocannabinoid system — CB1 receptors involved in mood, appetite, sleep, memory, and stress. With chronic use the brain downregulates this system; when cannabis stops, it is temporarily underactive. The review notes CB1 receptors return to normal functioning within about four weeks of abstinence.\n\n"
+            "Onset on Day One\n"
+            "The review documents that physical symptoms tend to appear first — within 1–3 days of the last use — while psychological symptoms emerge over 2–10 days. Early symptoms include:\n"
             "• Irritability, anxiety, and restlessness\n"
-            "• Difficulty sleeping (insomnia or strange dreams)\n"
-            "• Decreased appetite and nausea\n"
-            "• Headache\n"
-            "• Depressed mood\n"
-            "• Sweating and chills\n\n"
+            "• Difficulty sleeping\n"
+            "• Decreased appetite\n"
+            "• Physical tension, sweating, or chills\n"
+            "• Depressed mood\n\n"
             "Severity\n"
-            "Cannabis withdrawal is not medically dangerous, and symptoms are typically mild to moderate. However, for heavy long-term users, symptoms can be significant enough to make quitting difficult without support.",
+            "CWS is not medically dangerous and symptoms are typically mild to moderate, but the review notes they can be distressing enough to drive relapse — which is why understanding the timeline matters.",
       ),
       QuitMilestone(
         day: 3,
         title: l10n.marijuanaMilestone3Title,
         description: l10n.marijuanaMilestone3Description,
-        reference: "American Addiction Centers - Marijuana Withdrawal Timeline",
-        link:
-            "https://americanaddictioncenters.org/withdrawal-timelines-treatments/weed-marijuana",
-        referenceDate: "March 2026",
+        reference: "Time-Course of DSM-5 Cannabis Withdrawal Symptoms (PMC)",
+        link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4015312/",
+        referenceDate: "June 2026",
         referenceContent:
-            "Cannabis Withdrawal Timeline: Day Three\n\n"
-            "Source: American Addiction Centers\n\n"
-            "Peak Withdrawal\n"
-            "American Addiction Centers document that cannabis withdrawal symptoms typically peak around days 2–4, with day three often being the most challenging. For most people, this is when irritability, anxiety, sleep disruption, and physical discomfort are at their most intense.\n\n"
-            "Withdrawal Timeline\n"
-            "• Days 1–3: Onset and peak — irritability, anxiety, insomnia, appetite loss, physical discomfort\n"
-            "• Days 4–7: Symptoms begin to improve\n"
-            "• Days 8–14: Most acute symptoms resolve\n"
-            "• Weeks 2–4: Residual mood and sleep issues in some users\n"
-            "• Months 1–3: Full recovery for most; some cognitive effects resolve more slowly\n\n"
+            "Cannabis Withdrawal Timeline: The Early Days\n\n"
+            "Source: \"Time-course of the DSM-5 cannabis withdrawal symptoms in poly-substance abusers,\" BMC Psychiatry (2013), on PubMed Central\n\n"
+            "A Measured Time-Course\n"
+            "This study tracked DSM-5 cannabis withdrawal symptoms in 90 patients over four weeks, producing one of the clearest pictures of how symptoms rise and fall. Overall severity followed a curve: rising, then declining over the following weeks.\n\n"
+            "What Peaks Early\n"
+            "Several of the most physically disruptive symptoms peak within the first few days of stopping:\n"
+            "• Insomnia — peaks around day 1\n"
+            "• Nervousness — peaks around day 4\n"
+            "• Depressed mood and physical symptoms — peak around day 5\n"
+            "• Restlessness — peaks around day 6\n\n"
+            "What Peaks Later\n"
+            "The study found that some symptoms emerge and peak later than the first week:\n"
+            "• Vivid, unpleasant dreams — peak around day 11\n"
+            "• Irritability and anger — peak around day 14\n\n"
             "Sleep and Cannabis\n"
-            "Cannabis significantly alters sleep architecture — regular users develop dependence on cannabis for sleep onset and experience dramatically increased REM sleep (with vivid dreams) when they stop. This sleep disruption is one of the most reported challenges in early cannabis withdrawal.\n\n"
-            "Why People Struggle to Quit\n"
-            "The AAC notes that cannabis's slow elimination from the body (THC metabolites are stored in fat and released slowly) means that withdrawal can feel prolonged. Additionally, cannabis is often used to manage anxiety, depression, or insomnia — when it's removed, these underlying conditions can re-emerge.",
+            "The delayed, vivid dreams reflect REM rebound: cannabis suppresses REM sleep during use, and the brain overcompensates once it stops. The authors argue this symptom is common enough to belong among formal withdrawal criteria.\n\n"
+            "The Takeaway for Day Three\n"
+            "By day three you are in the thick of the early physical peak — insomnia, nervousness, and restlessness are near their worst. The consistent, predictable curve is itself reassuring: these symptoms have a known course and they decline from here.",
       ),
       QuitMilestone(
         day: 7,
         title: l10n.marijuanaMilestone7Title,
         description: l10n.marijuanaMilestone7Description,
-        reference: "Medical News Today - Weed Withdrawal Symptoms",
-        link: "https://www.medicalnewstoday.com/articles/324301",
-        referenceDate: "March 2026",
+        reference: "The Cannabis Withdrawal Syndrome: Current Insights (PMC)",
+        link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC5414724/",
+        referenceDate: "June 2026",
         referenceContent:
-            "One Week Without Cannabis: Sleep Patterns Improve\n\n"
-            "Source: Medical News Today\n\n"
-            "Physical Symptoms Mostly Resolved\n"
-            "Medical News Today documents that by the end of the first week, most of the physical symptoms of cannabis withdrawal have resolved or are significantly reduced. Appetite has largely returned, headaches are gone, and the worst of the irritability and anxiety has passed.\n\n"
-            "Sleep at One Week\n"
-            "Sleep is improving — the severe insomnia and strange, vivid dreams of the first few days are becoming less disruptive. However, sleep may not return to normal for several weeks. Cannabis suppresses REM sleep during use, and the brain overcompensates with excess REM sleep (REM rebound) during early withdrawal. This gradually normalises over the first month.\n\n"
-            "Psychological Recovery Ongoing\n"
-            "While physical symptoms are largely resolving, psychological symptoms continue:\n"
-            "• Mood is still somewhat flat or irritable\n"
-            "• Concentration may still be below normal\n"
-            "• Cravings, particularly in familiar environments or social situations\n\n"
-            "What the Science Shows\n"
-            "Research reviewed by Medical News Today confirms that the acute withdrawal syndrome for cannabis is largely resolved within one week, but that subtle cognitive effects (concentration, memory) can persist for weeks to months, particularly in heavy, long-term users.",
+            "One Week Without Cannabis: Through the Worst\n\n"
+            "Source: \"The cannabis withdrawal syndrome: current insights,\" Substance Abuse and Rehabilitation (2017), on PubMed Central\n\n"
+            "Where One Week Sits in the Syndrome\n"
+            "This review documents that the cannabis withdrawal syndrome usually lasts up to about three weeks, with the most distressing period falling between the first and third week. At one week, the earliest physical symptoms — insomnia, appetite loss, restlessness — have typically passed their peak and are easing.\n\n"
+            "What Is Still Settling\n"
+            "The review distinguishes early-peaking physical symptoms from later-peaking psychological ones. At one week:\n"
+            "• Physical discomfort and appetite are largely improving\n"
+            "• Sleep is still disrupted for many, with vivid dreams (REM rebound) often peaking around now\n"
+            "• Irritability and mood can remain elevated, as these tend to peak later in the first two weeks\n\n"
+            "The Neurobiology of Recovery\n"
+            "Underlying these changes, the review notes that downregulated CB1 receptors return toward normal functioning within about four weeks of abstinence. One week in, that re-regulation is well underway — the system is recovering even while some symptoms linger.\n\n"
+            "The Takeaway\n"
+            "Reaching one week means the acute physical peak is behind you. The remaining sleep and mood symptoms are part of a syndrome with a known, finite course that continues to resolve over the next couple of weeks.",
       ),
       QuitMilestone(
         day: 14,
@@ -208,24 +209,21 @@ class MarijuanaPage extends StatelessWidget {
         day: 365,
         title: l10n.marijuanaMilestone365Title,
         description: l10n.marijuanaMilestone365Description,
-        reference: "NutritionFacts.org - Cannabis Brain Damage Reversible",
-        link:
-            "https://nutritionfacts.org/blog/cannabis-brain-damage-reversible-in-adults/",
-        referenceDate: "March 2026",
+        reference:
+            "Hippocampal Harms, Protection and Recovery After Cannabis Use (PMC)",
+        link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC5068875/",
+        referenceDate: "June 2026",
         referenceContent:
-            "One Year Without Cannabis: Brain Structure Restoration\n\n"
-            "Source: NutritionFacts.org — summarising peer-reviewed MRI research\n\n"
-            "Brain Structural Changes from Cannabis\n"
-            "Neuroimaging research has documented structural brain changes in heavy cannabis users, including reduced grey matter volume in regions such as the hippocampus, amygdala, and prefrontal cortex. These changes are associated with the cognitive and emotional effects of chronic cannabis use.\n\n"
-            "The Key Finding: Reversibility in Adults\n"
-            "NutritionFacts.org summarises research using MRI brain imaging showing that in adult-onset cannabis users, these structural brain changes are substantially reversible with sustained abstinence. Studies tracking brain structure over one year of abstinence show meaningful restoration of grey matter volume in affected regions.\n\n"
-            "Brain Recovery at One Year\n"
-            "At one year:\n"
-            "• Hippocampal volume — recovering toward normal, supporting memory function\n"
-            "• Prefrontal cortex — structural recovery correlating with improved executive function\n"
-            "• Amygdala function — normalising, supporting emotional regulation\n\n"
-            "Important Nuance\n"
-            "The reversibility finding applies most strongly to adults who began using cannabis in adulthood. For those who began using heavily during adolescence — when the brain was still developing — recovery may be less complete. This research underscores why adolescent cannabis use carries distinct and serious risks.",
+            "One Year Without Cannabis: Brain Structure Recovers\n\n"
+            "Source: \"Hippocampal harms, protection and recovery following regular cannabis use,\" Translational Psychiatry (2016), on PubMed Central\n\n"
+            "Structural Changes from Cannabis\n"
+            "This neuroimaging study examined the hippocampus — a memory-critical, CB1-receptor-dense region — in cannabis users, former users, and non-users. Current users not exposed to CBD had roughly 11% smaller hippocampal volumes and 15% lower NAA (a marker of neuronal integrity) than controls.\n\n"
+            "The Key Finding: Recovery With Abstinence\n"
+            "Curve-fitting analyses supported a \"protection and recovery\" model. Crucially, former users — abstinent for an average of around 29 months — did not differ from non-using controls on any integrity measure. The authors conclude that THC-related hippocampal harms \"can be recovered with extended periods of abstinence.\"\n\n"
+            "Brain Recovery Over a Year and Beyond\n"
+            "At one year cannabis-free, you are well into this recovery trajectory: hippocampal volume and neuronal integrity move back toward normal, supporting memory and emotional regulation.\n\n"
+            "An Honest Caveat\n"
+            "The authors caution that structural recovery may not fully extend to cognition — some functional deficits can persist even after the hippocampus appears to recover. Other research also finds that very heavy or adolescent-onset use can leave changes detectable after six or more months of abstinence. The trajectory is toward recovery, but its completeness varies between individuals.",
       ),
     ];
   }

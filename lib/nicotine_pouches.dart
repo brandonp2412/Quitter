@@ -142,30 +142,28 @@ class NicotinePouchesPage extends StatelessWidget {
         day: 60,
         title: l10n.nicotinePouchesMilestone60Title,
         description: l10n.nicotinePouchesMilestone60Description,
-        reference: "Sleep Foundation - Nicotine and Sleep",
-        link:
-            "https://www.sleepfoundation.org/physical-health/nicotine-and-sleep",
-        referenceDate: "March 2026",
+        reference:
+            "Nicotine, the CNS and Sleep Quality — Narrative Review (PMC)",
+        link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10733894/",
+        referenceDate: "June 2026",
         referenceContent:
             "Two Months Without Nicotine: Sleep Quality Improves\n\n"
-            "Source: Sleep Foundation\n\n"
+            "Source: \"Effects of Nicotine on the Central Nervous System and Sleep Quality in Relation to Other Stimulants: A Narrative Review,\" Cureus (2023), on PubMed Central\n\n"
             "Nicotine and Sleep: A Problematic Relationship\n"
-            "The Sleep Foundation documents nicotine's significant disruptive effects on sleep. Nicotine is a stimulant that interferes with sleep by:\n"
-            "• Reducing total sleep time\n"
-            "• Suppressing REM sleep\n"
-            "• Causing nocturnal nicotine withdrawal (as blood levels drop during sleep), which fragments sleep and causes early waking\n"
-            "• Activating the sympathetic nervous system, raising arousal\n\n"
-            "Many nicotine pouch users are unaware of how significantly nicotine is degrading their sleep, because the pattern becomes normal over time.\n\n"
-            "Sleep Recovery Timeline\n"
-            "The Sleep Foundation notes that sleep disturbances are common in early nicotine withdrawal (weeks 1–2), as the brain adjusts to functioning without nicotine's stimulation. By 4–8 weeks, sleep typically improves substantially beyond even pre-cessation quality.\n\n"
+            "This peer-reviewed review documents how nicotine — a stimulant — degrades sleep:\n"
+            "• Taken near bedtime, it heightens alertness and delays sleep onset\n"
+            "• A physiological need for nicotine during the night (nocturnal craving) fragments sleep and causes waking\n"
+            "• It is associated with snoring, obstructive sleep apnea, and disrupted circadian rhythms\n\n"
+            "Many nicotine pouch users do not realise how much nicotine degrades their sleep, because the pattern has become normal over time.\n\n"
+            "Why Two Months Matters\n"
+            "The review notes that insufficient sleep and withdrawal feed each other: sleep disturbance is common in early withdrawal (the first weeks), and poor sleep lowers quit confidence and raises relapse risk. Getting past that early phase is a real milestone.\n\n"
             "At Two Months\n"
-            "By 60 days, sleep architecture has meaningfully normalised:\n"
-            "• REM sleep restored to normal proportions\n"
-            "• Nocturnal withdrawal-related awakenings gone\n"
-            "• Sleep onset more natural\n"
-            "• Overall sleep quality meaningfully better than during nicotine use\n\n"
+            "By 60 days the nicotine that delayed sleep onset and triggered nocturnal cravings has been gone for weeks. With those disruptions removed:\n"
+            "• Falling asleep is easier without the stimulant effect\n"
+            "• Night-time awakenings from nicotine craving have stopped\n"
+            "• Overall sleep quality is improving beyond what it was during nicotine use\n\n"
             "The Cascading Benefits\n"
-            "Better sleep at two months compounds the benefits of quitting: improved mood, better cognitive function, lower stress, and stronger immune function are all downstream of better sleep.",
+            "Better sleep compounds the other benefits of quitting: improved mood, sharper thinking, lower stress, and stronger immune function all build on restored sleep.",
       ),
       QuitMilestone(
         day: 90,

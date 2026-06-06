@@ -104,21 +104,21 @@ class SsriPage extends StatelessWidget {
         day: 90,
         title: l10n.ssriMilestone90Title,
         description: l10n.ssriMilestone90Description,
-        reference: "Wikipedia - Antidepressant discontinuation syndrome",
-        link:
-            "https://en.wikipedia.org/wiki/Antidepressant_discontinuation_syndrome",
-        referenceDate: "May 2026",
+        reference:
+            "Antidepressant Withdrawal Syndrome — Therapeutics Letter (NCBI Bookshelf)",
+        link: "https://www.ncbi.nlm.nih.gov/books/NBK598502/",
+        referenceDate: "June 2026",
         referenceContent:
-            "Three Months After SSRIs: Serotonin Receptor Recovery\n\n"
-            "Source: Wikipedia — Antidepressant discontinuation syndrome\n\n"
-            "Serotonin Receptor Recovery\n"
-            "SSRIs work by blocking serotonin reuptake transporters (SERT). Long-term use causes compensatory downregulation of post-synaptic serotonin receptors (particularly 5-HT1A receptors). Brain imaging studies show that SERT occupancy returns to baseline within weeks of discontinuation, but receptor sensitivity restoration takes longer — typically 2–3 months for substantial recovery.\n\n"
-            "Cognitive and Emotional Status at 3 Months\n"
-            "Most people at the three-month mark report:\n"
-            "• Mood that is stable and, for many, meaningfully better than on medication\n"
-            "• Improved emotional range — the emotional blunting that some experience on SSRIs has resolved\n"
-            "• Cognitive clarity, with the 'emotional anaesthesia' effect lifted\n"
-            "• Reduced anxiety, particularly for those engaged in psychological therapy",
+            "Three Months After SSRIs: Well Past Withdrawal\n\n"
+            "Source: \"Antidepressant Withdrawal Syndrome,\" Therapeutics Letter 112 (2018), Therapeutics Initiative, on the NCBI Bookshelf\n\n"
+            "Where Three Months Sits\n"
+            "This evidence review notes that antidepressant withdrawal symptoms 'usually appear within a few days of stopping, or dose reduction,' and that 'most antidepressant withdrawal symptoms resolve within 2 weeks' — though severe cases can last weeks to months. By three months, the acute withdrawal phase is well behind the great majority of people.\n\n"
+            "Why SSRIs Vary\n"
+            "Withdrawal is more likely with shorter half-life SSRIs (such as paroxetine) than with long half-life ones (fluoxetine). The Letter is candid that withdrawal reactions can be substantial — two systematic reviews found them 'very similar' to those from benzodiazepines — and occur in at least a third of people who stop.\n\n"
+            "An Honest Note on 'Receptor Recovery'\n"
+            "You may see confident claims that serotonin receptors 'fully resensitise by 2–3 months.' The robust evidence is about the withdrawal syndrome and its timing, not a precise receptor-recovery clock. What's dependable: by three months the withdrawal phase has typically resolved, and many people notice the emotional blunting and sexual side effects some experience on SSRIs ease after stopping.\n\n"
+            "If Symptoms Linger\n"
+            "The Letter advises distinguishing withdrawal from a genuine return of the underlying condition. If low mood or anxiety persists at three months, that's worth reviewing with your prescriber rather than assuming it's 'just withdrawal.'",
       ),
       QuitMilestone(
         day: 180,

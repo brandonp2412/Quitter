@@ -107,22 +107,21 @@ class SnriPage extends StatelessWidget {
         day: 90,
         title: l10n.snriMilestone90Title,
         description: l10n.snriMilestone90Description,
-        reference: "Wikipedia - Antidepressant discontinuation syndrome",
-        link:
-            "https://en.wikipedia.org/wiki/Antidepressant_discontinuation_syndrome",
-        referenceDate: "May 2026",
+        reference:
+            "Antidepressant Withdrawal Syndrome — Therapeutics Letter (NCBI Bookshelf)",
+        link: "https://www.ncbi.nlm.nih.gov/books/NBK598502/",
+        referenceDate: "June 2026",
         referenceContent:
-            "Three Months After SNRIs: Dual System Rebalancing\n\n"
-            "Three-Month Status\n"
-            "Three months is a significant milestone. Both the serotonin transporter (SERT) and norepinephrine transporter (NET) have had time to normalise, and receptor sensitivity in both systems has substantially recovered.\n\n"
-            "Norepinephrine System at 3 Months\n"
-            "The locus coeruleus — the brain's primary source of norepinephrine — has adapted to functioning without SNRI-mediated blockade of NET. Stress resilience, attention, and the ability to self-regulate anxiety are improving.\n\n"
-            "Cognitive Status\n"
-            "The combination of serotonin and norepinephrine normalisation typically produces:\n"
-            "• Improved focus and sustained attention\n"
-            "• Better working memory\n"
-            "• More stable mood\n"
-            "• Reduced anxiety and improved stress resilience",
+            "Three Months After SNRIs: Well Past Withdrawal\n\n"
+            "Source: \"Antidepressant Withdrawal Syndrome,\" Therapeutics Letter 112 (2018), Therapeutics Initiative, on the NCBI Bookshelf\n\n"
+            "Why SNRIs Deserve Extra Care\n"
+            "This evidence review singles out short half-life antidepressants — including venlafaxine and duloxetine (both SNRIs) — as carrying a higher risk of withdrawal symptoms. A manufacturer-funded study found 51% of people stopping duloxetine experienced one or more symptoms. So SNRI withdrawal can be pronounced, which is exactly why a gradual, supervised taper matters.\n\n"
+            "Where Three Months Sits\n"
+            "The Letter notes withdrawal symptoms 'usually appear within a few days of stopping' and that 'most antidepressant withdrawal symptoms resolve within 2 weeks' (occasionally longer). By three months, the acute withdrawal phase is well behind the great majority of people.\n\n"
+            "An Honest Note on 'Receptor Recovery'\n"
+            "Popular timelines claim the serotonin and norepinephrine systems have 'fully rebalanced' by three months. The solid evidence concerns the withdrawal syndrome and its timing, not a precise receptor-recovery clock. What's dependable: by three months the withdrawal phase has typically resolved, and many people notice the emotional blunting some feel on SNRIs eases after stopping.\n\n"
+            "Withdrawal Versus Relapse\n"
+            "The Letter advises distinguishing withdrawal from a true return of the underlying condition. If anxiety or low mood persists at three months, review it with your prescriber rather than assuming it is only withdrawal.",
       ),
       QuitMilestone(
         day: 180,

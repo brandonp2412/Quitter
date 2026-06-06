@@ -13,224 +13,189 @@ class BenzodiazepinePage extends StatelessWidget {
         day: 7,
         title: l10n.benzoMilestone7Title,
         description: l10n.benzoMilestone7Description,
-        reference: "American Addiction Centers - Benzodiazepine Withdrawal",
-        link:
-            "https://americanaddictioncenters.org/benzodiazepine/length-of-withdrawal",
-        referenceDate: "March 2026",
+        reference:
+            "WHO Clinical Guidelines for Withdrawal Management (NCBI Bookshelf)",
+        link: "https://www.ncbi.nlm.nih.gov/books/NBK310652/",
+        referenceDate: "June 2026",
         referenceContent:
             "Benzodiazepine Withdrawal: The First Week\n\n"
-            "Source: American Addiction Centers\n\n"
+            "Source: \"Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings,\" World Health Organization (2009), on the NCBI Bookshelf\n\n"
             "Note on Benzo Withdrawal Safety\n"
-            "Benzodiazepine withdrawal is one of the few drug withdrawals that can be life-threatening. Abrupt cessation after prolonged use can cause seizures and severe neurological complications. Medical supervision and a tapering schedule are strongly recommended. Do not stop benzodiazepines abruptly without consulting a doctor.\n\n"
-            "Why Benzo Withdrawal Starts Late\n"
-            "Unlike short-acting benzodiazepines (e.g., Xanax, Ativan) where withdrawal can begin within hours, long-acting benzodiazepines (e.g., Valium, Klonopin) have half-lives of 1–4 days, meaning active drug levels remain in the body for several days after the last dose. The first week milestone marks the point at which even long-acting benzos have cleared enough for withdrawal to be in full effect.\n\n"
+            "Benzodiazepine withdrawal can be dangerous. The WHO guidelines are explicit that the safest approach is to give benzodiazepines in gradually decreasing amounts, which 'helps to relieve benzodiazepine withdrawal symptoms and prevent the development of seizures.' Do not stop abruptly after prolonged use — work with a doctor on a taper.\n\n"
+            "When Withdrawal Appears\n"
+            "The WHO timeline depends on the drug's duration of action:\n"
+            "• Short-acting (oxazepam, alprazolam, temazepam): withdrawal begins 1–2 days after the last dose and continues for 2–4 weeks or longer\n"
+            "• Long-acting (diazepam, nitrazepam): withdrawal begins 2–7 days after the last dose and continues for 2–8 weeks or longer\n"
+            "The first-week milestone is the point at which even longer-acting benzodiazepines have cleared enough for withdrawal to be in full effect.\n\n"
             "Early Withdrawal Symptoms\n"
-            "• Rebound anxiety — often more intense than the original anxiety the drug was treating\n"
+            "• Rebound anxiety — often more intense than the original anxiety the drug treated\n"
             "• Insomnia and disturbed sleep\n"
             "• Tremors and muscle tension\n"
-            "• Sweating and heart palpitations\n"
-            "• Headaches and dizziness\n"
+            "• Sweating and palpitations\n"
             "• Heightened sensitivity to light and sound\n\n"
-            "Why These Symptoms Occur\n"
-            "Benzodiazepines work by enhancing GABA — the brain's primary inhibitory (calming) neurotransmitter. Long-term use causes the brain to reduce its own GABA production and receptor sensitivity. When benzos are removed, the brain is left with inadequate inhibitory signalling, resulting in neural overexcitation — the cause of anxiety, tremors, and seizure risk.",
+            "Monitoring\n"
+            "The WHO guidelines note that withdrawal severity 'can fluctuate markedly,' so formal scales are not recommended; instead a clinician should check in every few hours, provide reassurance, and explain symptoms. Benzodiazepines enhance GABA, the brain's main calming signal; long-term use blunts that system, so removing the drug leaves the brain over-excited — the source of the anxiety, tremor, and seizure risk that make a gradual taper essential.",
       ),
       QuitMilestone(
         day: 14,
         title: l10n.benzoMilestone14Title,
         description: l10n.benzoMilestone14Description,
-        reference: "Wikipedia - Benzodiazepine Withdrawal Syndrome",
-        link:
-            "https://en.wikipedia.org/wiki/Benzodiazepine_withdrawal_syndrome",
-        referenceDate: "March 2026",
+        reference:
+            "Protracted Withdrawal Syndromes From Benzodiazepines (PubMed)",
+        link: "https://pubmed.ncbi.nlm.nih.gov/1675688/",
+        referenceDate: "June 2026",
         referenceContent:
-            "Benzodiazepine Withdrawal Syndrome: Two Weeks\n\n"
-            "Source: Wikipedia — Benzodiazepine Withdrawal Syndrome\n\n"
-            "Acute Withdrawal Phase\n"
-            "The acute withdrawal phase for long-acting benzodiazepines typically peaks around days 10–14. This is when the neurological imbalance between GABA (inhibitory) and glutamate (excitatory) systems is at its most pronounced. Symptoms during this phase can include severe anxiety, panic attacks, insomnia, perceptual disturbances, and — in serious cases — seizures.\n\n"
-            "Protracted Withdrawal Syndrome\n"
-            "Wikipedia's article on benzo withdrawal syndrome documents a well-established phenomenon called protracted (or post-acute) withdrawal syndrome (PAWS). A significant proportion of long-term benzodiazepine users — estimated at 10–40% — experience symptoms that persist for months to years after stopping. These include:\n"
-            "• Anxiety and depression\n"
-            "• Cognitive difficulties (memory, concentration)\n"
-            "• Insomnia\n"
-            "• Muscle twitching and tremors\n"
-            "• Tinnitus and sensory disturbances\n\n"
-            "The Ashton Manual\n"
-            "The landmark reference work on benzo withdrawal, developed by Professor Heather Ashton over decades of clinical research, documented that benzo withdrawal is one of the most complex and protracted withdrawal syndromes in psychiatry. Recovery is real but requires patience — symptoms typically improve gradually over months to years.\n\n"
-            "Gradual Taper vs. Abrupt Cessation\n"
-            "The evidence strongly supports a slow, supervised taper as the safest and most effective approach to stopping benzodiazepines, as it allows the brain to gradually adapt to lower GABA activity.",
+            "Benzodiazepine Withdrawal: Two Weeks\n\n"
+            "Source: Ashton, \"Protracted withdrawal syndromes from benzodiazepines,\" Journal of Substance Abuse Treatment (1991), on PubMed\n\n"
+            "Still in Acute Withdrawal\n"
+            "At two weeks, many people — especially those coming off longer-acting benzodiazepines — are still in the acute phase, when the imbalance between the brain's calming (GABA) and excitatory systems is most pronounced. Anxiety, insomnia, and perceptual disturbances are common.\n\n"
+            "Why Benzo Withdrawal Can Drag On\n"
+            "This landmark paper by Professor Heather Ashton describes how acute symptoms 'tend to merge with more persistent symptoms' — a protracted withdrawal syndrome in which problems such as anxiety, insomnia, cognitive difficulty, and sensory disturbances 'may last for many months.' Ashton attributes this to tolerance that 'may be slow to reverse.'\n\n"
+            "An Honest, Hopeful Framing\n"
+            "Ashton characterises these as 'slowly reversible functional changes in the central nervous system' — slow, but reversible. The length of benzo recovery reflects how deeply the drug reshaped the brain's inhibitory system, not a sign that you are failing. Patience is part of the process.\n\n"
+            "Gradual Taper Is Key\n"
+            "The evidence strongly supports a slow, supervised taper as the safest way to stop, letting the brain gradually re-adapt rather than facing a sudden loss of inhibitory signalling.",
       ),
       QuitMilestone(
         day: 60,
         title: l10n.benzoMilestone60Title,
         description: l10n.benzoMilestone60Description,
-        reference: "PubMed - Chronic Benzodiazepine Usage and Withdrawal",
+        reference:
+            "Chronic Benzodiazepine Usage and Withdrawal in Insomnia Patients (PubMed)",
         link: "https://pubmed.ncbi.nlm.nih.gov/15003439/",
-        referenceDate: "March 2026",
+        referenceDate: "June 2026",
         referenceContent:
-            "Chronic Benzodiazepine Use and Sleep Recovery at Two Months\n\n"
-            "Source: Pétursson, H. (1994) — peer-reviewed research on benzodiazepine usage and withdrawal\n\n"
-            "Sleep and Benzodiazepines\n"
-            "Benzodiazepines are widely prescribed for insomnia, but research shows they fundamentally alter sleep architecture. While they reduce time to sleep onset and increase total sleep time, they do so by suppressing deep slow-wave sleep and REM sleep — the most restorative stages. Long-term users lose the benefits of truly restorative sleep even while feeling sedated.\n\n"
-            "Sleep Recovery at 60 Days\n"
-            "By two months of abstinence, sleep architecture is beginning to normalise. The rebound insomnia of early withdrawal (which can be severe) has typically resolved, and the brain is rebuilding its natural sleep-wake regulation systems. Most people at this stage are experiencing meaningfully better quality sleep than they had while taking benzodiazepines — though it may not feel that way compared to the sedated sleep the drug provided.\n\n"
-            "What the Research Found\n"
-            "The peer-reviewed research documented that after withdrawal, sleep quality continues improving for months. GABA receptor function — disrupted by long-term benzo use — shows progressive recovery with sustained abstinence, which directly underlies the improvement in natural sleep.\n\n"
-            "Other Physical Improvements at 60 Days\n"
-            "At the two-month mark, many physical withdrawal symptoms have resolved:\n"
-            "• Muscle tension and tremors significantly reduced or gone\n"
-            "• Cardiovascular symptoms (palpitations, sweating) resolved\n"
-            "• Appetite and digestive function normalised\n"
-            "• Energy levels improving as GABA/glutamate balance restores",
+            "Benzodiazepines and Sleep Recovery by Two Months\n\n"
+            "Source: Poyares et al., \"Chronic benzodiazepine usage and withdrawal in insomnia patients,\" Journal of Psychiatric Research (2004), on PubMed\n\n"
+            "How Benzos Change Sleep\n"
+            "Benzodiazepines are widely prescribed for insomnia, but they alter sleep architecture. In this polysomnography study of patients who had taken benzodiazepines nightly for an average of nearly seven years, chronic use was associated with reduced slow-wave (deep) sleep and more light stage-2 sleep — so users lose restorative deep sleep even while feeling sedated.\n\n"
+            "Deep Sleep Comes Back\n"
+            "The encouraging finding: the study measured sleep again 15 days after withdrawal and found recovery of slow-wave sleep and delta activity compared with the chronic-use nights, along with improved subjective sleep quality. Deep sleep, suppressed by the drug, began returning within about two weeks of stopping.\n\n"
+            "What This Means at 60 Days\n"
+            "If deep sleep is recovering within two weeks, then by two months your brain has had ample time to keep rebuilding natural, restorative sleep. The severe rebound insomnia of early withdrawal has typically settled. The authors were honest that withdrawal worsened sleep at first — which is why a gradual taper matters — but by the end of their protocol, sleep quality had improved over chronic benzodiazepine use.\n\n"
+            "Other Improvements by Two Months\n"
+            "Many early physical withdrawal symptoms — muscle tension, tremor, palpitations, sweating — have typically eased or resolved by the two-month mark as the body re-regulates.",
       ),
       QuitMilestone(
         day: 90,
         title: l10n.benzoMilestone90Title,
         description: l10n.benzoMilestone90Description,
-        reference: "High Focus Centers - Benzodiazepine Withdrawal Timeline",
-        link:
-            "https://www.highfocuscenters.com/2024/07/03/benzodiazepine-withdrawal-duration-timeline-and-symptoms/",
-        referenceDate: "March 2026",
+        reference:
+            "Protracted Withdrawal Syndromes From Benzodiazepines (PubMed)",
+        link: "https://pubmed.ncbi.nlm.nih.gov/1675688/",
+        referenceDate: "June 2026",
         referenceContent:
             "Three Months After Benzodiazepines: Physical Health Stabilises\n\n"
-            "Three months represents a major milestone in benzo recovery. The acute and early post-acute phases are behind you, and the brain is well into its long-term healing process.\n\n"
+            "Source: Ashton, \"Protracted withdrawal syndromes from benzodiazepines,\" Journal of Substance Abuse Treatment (1991), on PubMed\n\n"
             "Physical Stabilisation\n"
-            "By 90 days, most physical withdrawal symptoms have fully resolved for people who completed a managed taper:\n"
-            "• Tremors and muscle spasms resolved\n"
-            "• Cardiovascular symptoms gone\n"
-            "• Headaches resolved\n"
-            "• Gastrointestinal symptoms improved\n"
-            "• Sleep generally stable and improving\n\n"
-            "Ongoing Psychological Symptoms\n"
-            "For many long-term benzo users, psychological symptoms continue beyond the 90-day mark. Anxiety — often more prominent than before starting benzos — continues improving but may not be fully resolved. This is partly because:\n"
-            "1. The brain's GABA system is still recovering toward normal sensitivity\n"
-            "2. The underlying anxiety that led to benzo use is now experienced without a pharmacological buffer\n\n"
-            "Importance of Therapy\n"
-            "The 90-day mark is an excellent point to engage seriously with cognitive-behavioural therapy (CBT) for anxiety. Research shows CBT is highly effective for the anxiety that emerges after benzo discontinuation, and the brain at this stage is neurologically capable of forming new response patterns to anxiety triggers.\n\n"
-            "Protracted Symptoms\n"
-            "For a subset of long-term users, some symptoms — particularly intermittent anxiety, cognitive fog, and sensory disturbances — may continue beyond three months. This is known and expected; it does not mean permanent damage.",
+            "By 90 days, the acute phase is well behind you. For people who completed a managed taper, most of the physical withdrawal symptoms — tremor, palpitations, headaches, and the worst sleep disruption — have eased substantially, and sleep is generally more stable.\n\n"
+            "Why Some Symptoms Persist\n"
+            "Ashton's paper documents that benzo withdrawal symptoms 'may last for many months' as acute symptoms 'merge with more persistent symptoms.' At three months, lingering anxiety — sometimes more prominent than before starting benzos — and intermittent cognitive fog or sensory disturbances are recognised features of this protracted phase, not signs of permanent harm. Ashton frames the underlying changes as 'slowly reversible.'\n\n"
+            "Two Reasons Anxiety Lingers\n"
+            "1. The brain's GABA system is still re-adapting toward normal sensitivity — a slow process\n"
+            "2. Any underlying anxiety that led to benzo use is now felt without a pharmacological buffer\n\n"
+            "A Good Time for Therapy\n"
+            "Because the changes are slowly reversible and the acute storm has passed, three months is a strong point to engage with psychological support such as cognitive-behavioural therapy for anxiety, building durable coping skills as the nervous system continues to settle.",
       ),
       QuitMilestone(
         day: 180,
         title: l10n.benzoMilestone180Title,
         description: l10n.benzoMilestone180Description,
-        reference: "PubMed - Lack of Cognitive Recovery Following Withdrawal",
+        reference:
+            "Lack of Cognitive Recovery Following Withdrawal From Long-Term Benzodiazepine Use (PubMed)",
         link: "https://pubmed.ncbi.nlm.nih.gov/8208885/",
-        referenceDate: "March 2026",
+        referenceDate: "June 2026",
         referenceContent:
-            "Cognitive Recovery at Six Months: What the Research Says\n\n"
-            "Source: Gorenstein, C. et al. (1993) — peer-reviewed cognitive assessment study\n\n"
-            "An Honest Look at Cognitive Recovery\n"
-            "This PubMed study examined cognitive function in patients who had withdrawn from long-term benzodiazepine use and found that, at six months post-withdrawal, some areas of cognitive function — particularly memory and psychomotor speed — had not fully recovered to the levels of non-benzo users. This is one of the most important and honest data points in benzo recovery literature.\n\n"
+            "Cognitive Recovery at Six Months: An Honest Look\n\n"
+            "Source: Tata et al., \"Lack of cognitive recovery following withdrawal from long-term benzodiazepine use,\" Psychological Medicine (1994), on PubMed\n\n"
+            "What the Study Did\n"
+            "This study tested 21 long-term benzodiazepine patients before withdrawal, just after withdrawal, and again at six months of abstinence, comparing them with matched controls. It is one of the most candid data points in the benzo recovery literature.\n\n"
+            "What It Found\n"
+            "At baseline the patients showed 'significant impairment… in verbal learning and memory, psychomotor, visuo-motor and visuo-conceptual abilities.' There was 'no evidence of immediate recovery' right after stopping. By six months, 'modest recovery of certain deficits emerged,' but performance 'remained significantly below' that of controls.\n\n"
             "What This Means\n"
-            "The research does not conclude that cognitive recovery is impossible — it shows that it is slower than previously thought for some functions. Later studies with longer follow-up periods (1–3 years) have documented continued improvement, and many people do achieve full cognitive recovery given enough time.\n\n"
-            "Areas Showing Improvement at 6 Months\n"
-            "Even in studies showing incomplete recovery, significant improvements are documented at six months:\n"
-            "• Verbal learning and recall improving\n"
-            "• Working memory better than at acute withdrawal\n"
-            "• Processing speed recovering\n"
-            "• Overall functional cognition meaningfully better\n\n"
-            "Areas Recovering More Slowly\n"
-            "• Visuospatial memory\n"
-            "• Psychomotor speed and reaction time\n"
-            "• Sustained attention\n\n"
-            "The Takeaway\n"
-            "If you feel mentally foggy at six months, this research validates that experience — and also confirms that continued abstinence is the proven path to further recovery. The brain continues healing beyond this milestone.",
+            "The honest takeaway is twofold. First, recovery is real but slower than many expect — at six months, some cognitive functions are still catching up. Second, the direction is clearly upward: deficits were improving, not fixed. The study's value is in validating that lingering mental fog at six months is a recognised part of benzo recovery, not a personal failing.\n\n"
+            "The Bigger Picture\n"
+            "If you feel foggy at six months, this research says: that is expected, and continued abstinence is the path forward. Longer-term studies show recovery continues well beyond this point — the brain keeps healing.",
       ),
       QuitMilestone(
         day: 365,
         title: l10n.benzoMilestone365Title,
         description: l10n.benzoMilestone365Description,
-        reference: "Wikipedia - Effects of Long-term Benzodiazepine Use",
-        link:
-            "https://en.wikipedia.org/wiki/Effects_of_long-term_benzodiazepine_use",
-        referenceDate: "March 2026",
+        reference:
+            "Persistence of Cognitive Effects After Withdrawal From Long-Term Benzodiazepine Use: A Meta-Analysis (PubMed)",
+        link: "https://pubmed.ncbi.nlm.nih.gov/15033227/",
+        referenceDate: "June 2026",
         referenceContent:
-            "One Year After Benzodiazepines: One Year of Healing\n\n"
-            "Source: Wikipedia — Effects of Long-term Benzodiazepine Use\n\n"
-            "One year represents a major milestone in benzo recovery. Long-term benzodiazepine use causes widespread effects on the brain and body, and one year of abstinence allows substantial healing across all these systems.\n\n"
-            "Cognitive Recovery\n"
-            "Wikipedia's extensive article on long-term benzo effects documents that cognitive impairments — including memory problems, difficulties with concentration, and impaired problem-solving — improve significantly over the first year of abstinence. Studies with one-year follow-up show meaningful recovery in most cognitive domains, though some users with very long-term heavy use may still show residual effects.\n\n"
-            "Neurological Recovery\n"
-            "GABA receptor function — the primary mechanism of benzodiazepine action — shows substantial normalisation at one year. The brain's inhibitory/excitatory balance, profoundly disrupted by long-term benzo use, is largely restored. This underlies improvements in:\n"
-            "• Anxiety management\n"
-            "• Sleep quality\n"
-            "• Emotional regulation\n"
-            "• Sensory processing\n\n"
-            "Physical Health\n"
-            "Physical effects of long-term benzo use (lethargy, respiratory depression, muscle weakness, fall risk) are fully resolved by one year. Cardiovascular and respiratory function are normal.\n\n"
-            "Quality of Life\n"
-            "Research consistently shows that the majority of people who successfully discontinue long-term benzodiazepines report significantly improved quality of life at the one-year mark — including better sleep, reduced anxiety, improved mental clarity, and greater engagement with life — despite the difficult journey to get there.",
+            "One Year After Benzodiazepines: What the Cognition Research Shows\n\n"
+            "Source: Barker et al., \"Persistence of cognitive effects after withdrawal from long-term benzodiazepine use: a meta-analysis,\" Archives of Clinical Neuropsychology (2004), on PubMed\n\n"
+            "The Strongest Evidence We Have\n"
+            "This meta-analysis pooled studies that re-tested long-term benzodiazepine users after at least six months of abstinence — the best available evidence on whether cognition recovers. It asked two questions: does function improve after withdrawal, and is there any residual impairment at follow-up?\n\n"
+            "The Good News\n"
+            "The meta-analysis found that long-term users 'do show recovery of function in many areas after withdrawal.' Around the one-year mark, the broad picture is genuine, measurable cognitive improvement across multiple domains compared with active use.\n\n"
+            "The Honest Part\n"
+            "Recovery was not always complete. The analysis found that previous users could still show impairment in several cognitive areas — including aspects of memory and motor performance — even some years after stopping. The effect tends to be broad rather than confined to one skill.\n\n"
+            "What This Means at One Year\n"
+            "Expect substantial recovery in thinking, memory, and clarity by a year — most people feel markedly sharper than during use. But if some areas still lag, that is consistent with the evidence, not a sign you have stalled. Recovery continues, and a year of abstinence is a major, worthwhile milestone on that path.",
       ),
       QuitMilestone(
         day: 540,
         title: l10n.benzoMilestone540Title,
         description: l10n.benzoMilestone540Description,
-        reference: "Ardu Recovery - Brain Healing After Benzos",
-        link: "https://www.ardurecoverycenter.com/brain-healing-after-benzos/",
-        referenceDate: "March 2026",
+        reference:
+            "Protracted Withdrawal Syndromes From Benzodiazepines (PubMed)",
+        link: "https://pubmed.ncbi.nlm.nih.gov/1675688/",
+        referenceDate: "June 2026",
         referenceContent:
-            "18 Months After Benzodiazepines: Continued Brain Recovery\n\n"
-            "The 18-month mark is when many long-term benzo users who struggled with protracted withdrawal syndrome report the most significant turn in their recovery.\n\n"
-            "Why Benzo Recovery Takes Longer Than Other Substances\n"
-            "Benzodiazepines bind to GABA-A receptors throughout the brain — receptors involved in sleep, anxiety, muscle tone, cognition, and mood. Long-term use causes extensive neuroadaptation across all these systems. Reversing that adaptation is a comprehensive neurological project that, for many people, takes 1–2+ years.\n\n"
-            "What Typically Resolves by 18 Months\n"
-            "Most people who persevere through protracted withdrawal report that by 18 months:\n"
-            "• Sensory disturbances (tinnitus, visual disturbances, hyperacusis) are significantly reduced or gone\n"
-            "• Cognitive function is meaningfully better — concentration, memory, and clarity have substantially improved\n"
-            "• Anxiety has returned to manageable levels, particularly for those engaged in therapy\n"
-            "• Sleep quality is substantially improved and usually reliable\n"
-            "• Depersonalisation and derealisation (common benzo withdrawal symptoms) have resolved\n\n"
-            "The Healing Continues\n"
-            "At 18 months, brain healing is ongoing. Neuroplasticity — the brain's ability to reorganise and rebuild neural connections — is actively working. Many people notice continued improvement month-to-month even at this stage, particularly in emotional regulation and cognitive clarity.\n\n"
-            "Keeping Perspective\n"
-            "The recovery timeline for benzodiazepines is genuinely long compared to most substances. This is not a sign of permanent damage — it reflects the depth and breadth of the neurological changes that long-term benzo use causes, all of which are slowly reversing.",
+            "18 Months After Benzodiazepines: Slow but Real Recovery\n\n"
+            "Source: Ashton, \"Protracted withdrawal syndromes from benzodiazepines,\" Journal of Substance Abuse Treatment (1991), on PubMed\n\n"
+            "Why Benzo Recovery Takes So Long\n"
+            "Benzodiazepines act on GABA-A receptors throughout the brain — receptors involved in sleep, anxiety, muscle tone, cognition, and mood. Ashton's work documents that the resulting tolerance 'may be slow to reverse,' which is why benzo recovery is measured in many months rather than weeks.\n\n"
+            "Where 18 Months Sits\n"
+            "Ashton describes protracted withdrawal symptoms that 'may last for many months' before easing. By 18 months, most people who persevered through that protracted phase find the worst of it well behind them — lingering anxiety, sensory disturbances, and cognitive fog have, for many, substantially settled.\n\n"
+            "Slowly Reversible\n"
+            "Crucially, Ashton frames the underlying changes as 'slowly reversible functional changes in the central nervous system.' Slow, but reversible — the long timeline reflects the depth of the adaptation benzodiazepines caused, not permanent damage in most people.\n\n"
+            "An Honest Note\n"
+            "Ashton also flagged that, occasionally, very long or heavy use may leave more stubborn changes. Recovery for most is real and continuing at 18 months; its completeness and pace vary from person to person, and ongoing support remains worthwhile.",
       ),
       QuitMilestone(
         day: 730,
         title: l10n.benzoMilestone730Title,
         description: l10n.benzoMilestone730Description,
-        reference: "Psychiatric Medication Awareness Group - Recovery Tips",
-        link: "https://psychmedaware.org/recovery_tips.html",
-        referenceDate: "March 2026",
+        reference:
+            "Persistence of Cognitive Effects After Withdrawal From Long-Term Benzodiazepine Use: A Meta-Analysis (PubMed)",
+        link: "https://pubmed.ncbi.nlm.nih.gov/15033227/",
+        referenceDate: "June 2026",
         referenceContent:
-            "Two Years After Benzodiazepines: Major Progress\n\n"
-            "Source: Psychiatric Medication Awareness Group (PMAG)\n\n"
-            "The two-year mark is considered a landmark in benzodiazepine recovery. For those who experienced protracted withdrawal syndrome, two years is when the majority report feeling genuinely well and experiencing sustained improvement.\n\n"
-            "What PMAG Documents\n"
-            "The Psychiatric Medication Awareness Group, which has compiled extensive first-hand accounts of benzo withdrawal and recovery, documents that at the two-year mark, the vast majority of former benzo users who experienced difficult protracted withdrawal are either fully recovered or experiencing only minor residual symptoms that continue to improve.\n\n"
-            "Two-Year Recovery Profile\n"
-            "Most people at two years report:\n"
-            "• Anxiety at or below pre-benzo baseline (often better, especially with therapy)\n"
-            "• Cognitive function fully or largely restored\n"
-            "• Sleep reliable and restorative without medication\n"
-            "• Emotional stability and appropriate emotional range restored\n"
-            "• Sense of self and identity re-established after the disorientation of withdrawal\n\n"
-            "The Challenge of the Journey\n"
-            "PMAG emphasises that the path to two years can be extremely difficult and that people in benzo recovery need validation, support, and patience. The extended timeline is a medical reality, not a personal failing. Many people who reach this milestone describe it as one of the most profound accomplishments of their lives.",
+            "Two Years After Benzodiazepines: Major, Lasting Progress\n\n"
+            "Source: Barker et al., \"Persistence of cognitive effects after withdrawal from long-term benzodiazepine use: a meta-analysis,\" Archives of Clinical Neuropsychology (2004), on PubMed\n\n"
+            "A Landmark in Recovery\n"
+            "Two years is a major milestone, especially for anyone who went through protracted withdrawal. By now the acute and protracted symptom phases are long past, and the gains seen in the first year have had much more time to consolidate.\n\n"
+            "What the Evidence Supports\n"
+            "This meta-analysis found that long-term benzodiazepine users 'show recovery of function in many areas after withdrawal.' At the two-year mark most people report anxiety at or below their pre-benzo baseline, reliable sleep without medication, steadier emotions, and clearer thinking than during use.\n\n"
+            "The Honest Caveat\n"
+            "The same analysis is candid that some residual cognitive effects can persist in a subset of long-term users 'some years after discontinuation,' tending to be broad rather than confined to one domain. For most people this is subtle and continues to improve; it is not a barrier to a full, functional life.\n\n"
+            "Keeping Perspective\n"
+            "The extended benzo timeline is a medical reality, not a personal failing. Reaching two years of sustained recovery — with substantial, evidence-backed improvement across sleep, mood, and cognition — is a profound accomplishment, and healing continues from here.",
       ),
       QuitMilestone(
         day: 1095,
         title: l10n.benzoMilestone1095Title,
         description: l10n.benzoMilestone1095Description,
-        reference: "Ardu Recovery - Brain Damage Recovery Timeline",
-        link: "https://www.ardurecoverycenter.com/brain-healing-after-benzos/",
-        referenceDate: "March 2026",
+        reference:
+            "Persistence of Cognitive Effects After Withdrawal From Long-Term Benzodiazepine Use: A Meta-Analysis (PubMed)",
+        link: "https://pubmed.ncbi.nlm.nih.gov/15033227/",
+        referenceDate: "June 2026",
         referenceContent:
-            "Three Years After Benzodiazepines: Long-term Recovery\n\n"
-            "Three years represents the outer boundary of documented benzo recovery timelines and a milestone that most people — even those with severe protracted withdrawal — have crossed into full or near-full recovery.\n\n"
-            "Research on Long-term Recovery\n"
-            "Long-term follow-up studies of benzodiazepine users who discontinued (such as those by Professor Heather Ashton and the Oxford group) found that the great majority of patients who persisted through the recovery process eventually achieved complete or near-complete resolution of symptoms. The three-year mark is when this outcome is typically achieved even in the most challenging cases.\n\n"
-            "Neurological Healing\n"
-            "By three years, GABA receptor function has substantially normalised in most people. The widespread neuroadaptive changes caused by long-term benzodiazepine use — affecting sleep, anxiety, cognition, sensory processing, and motor function — have largely reversed. The brain has shown remarkable plasticity in recovering from years of pharmacological suppression.\n\n"
-            "Life at Three Years\n"
-            "People who reach the three-year milestone commonly describe:\n"
-            "• A sense of being 'themselves' again — often for the first time in many years\n"
-            "• Cognitive sharpness they had not experienced since before benzos\n"
-            "• Emotional richness and depth restored\n"
-            "• Genuine wellbeing not dependent on medication\n"
-            "• Deep appreciation for life after the difficulty of recovery\n\n"
+            "Three Years After Benzodiazepines: Long-Term Healing\n\n"
+            "Source: Barker et al., \"Persistence of cognitive effects after withdrawal from long-term benzodiazepine use: a meta-analysis,\" Archives of Clinical Neuropsychology (2004), on PubMed\n\n"
+            "The Long View\n"
+            "Three years of abstinence sits at the far end of the documented benzo recovery timeline. For the great majority of people — even those who endured severe protracted withdrawal — this is well past the phase of disruptive symptoms, and quality of life is typically transformed compared with active use.\n\n"
+            "What the Meta-Analysis Found\n"
+            "Pooling studies of withdrawn long-term users, the analysis concluded that they 'show recovery of function in many areas after withdrawal.' The dominant story over years of abstinence is substantial, broad cognitive and functional recovery.\n\n"
+            "An Honest Caveat\n"
+            "The authors are clear-eyed that some residual cognitive effects can remain measurable in a subset of former long-term users even years after discontinuation. For most people these are subtle and do not impede daily life — but honesty matters more than a tidy promise of a complete reset.\n\n"
             "A Message of Hope\n"
-            "The benzo recovery journey is one of the most demanding in medicine. Three years of sustained healing is a profound achievement. If you are still in early recovery, know that the evidence is clear: the brain heals, and people do fully recover.",
+            "The benzo recovery journey is one of the most demanding in medicine, and three years of sustained healing is a profound achievement. The evidence is clear: the brain heals substantially, most people recover their clarity, sleep, and emotional range, and improvement continues with time.",
       ),
     ];
   }

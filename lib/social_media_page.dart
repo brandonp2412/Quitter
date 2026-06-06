@@ -14,238 +14,197 @@ class SocialMediaPage extends StatelessWidget {
         day: 1,
         title: l10n.socialMediaMilestone1Title,
         description: l10n.socialMediaMilestone1Description,
-        reference: "Cleveland Clinic - Social Media Addiction",
-        link:
-            "https://health.clevelandclinic.org/is-it-possible-to-become-addicted-to-social-media",
-        referenceDate: "March 2026",
+        reference:
+            "Taking a One-Week Break From Social Media Improves Well-Being: An RCT (PubMed)",
+        link: "https://pubmed.ncbi.nlm.nih.gov/35512731/",
+        referenceDate: "June 2026",
         referenceContent:
-            "Is Social Media Addictive? What Happens When You Stop\n\n"
-            "Source: Cleveland Clinic\n\n"
-            "Can You Be Addicted to Social Media?\n"
-            "The Cleveland Clinic documents that social media can produce dependency-like patterns in the brain that mirror features of substance addiction. While not formally classified as an addiction in the DSM-5, compulsive social media use activates the same dopamine reward circuits involved in gambling and drug use.\n\n"
-            "The Dopamine Loop\n"
-            "Every notification, like, comment, or new post triggers a small dopamine release. This unpredictable reward pattern — sometimes called a 'variable ratio reinforcement schedule' — is the same mechanism that makes slot machines so compelling. The unpredictability is what drives the compulsive checking behaviour.\n\n"
-            "Signs of Problematic Use\n"
-            "• Spending more time than intended on social media\n"
-            "• Feeling anxious or irritable when unable to check\n"
-            "• Using social media to escape negative feelings\n"
-            "• Neglecting real-world relationships and responsibilities\n"
-            "• Repeatedly trying to cut back and failing\n\n"
+            "Stepping Back From Social Media: Day One\n\n"
+            "Source: Lambert et al., \"Taking a One-Week Break from Social Media Improves Well-Being, Depression, and Anxiety: A Randomized Controlled Trial,\" Cyberpsychology, Behavior, and Social Networking (2022), on PubMed\n\n"
+            "What the Evidence Actually Shows\n"
+            "This randomized controlled trial — a strong study design — asked people to take a one-week break from Facebook, Instagram, Twitter, and TikTok, and compared them with people who used social media as usual. The break group showed significant improvements in well-being and reductions in depression and anxiety. That is real, controlled evidence that stepping back helps.\n\n"
+            "An Honest Framing\n"
+            "'Social media addiction' is not a formal diagnosis in the DSM-5, and popular claims about day-by-day 'dopamine receptor recalibration' go beyond the evidence. What is well-supported is simpler: for many people, compulsive use is linked to lower mood and higher anxiety, and deliberately cutting back measurably improves how they feel.\n\n"
             "Day One: What to Expect\n"
-            "The first day without social media typically involves:\n"
             "• Restlessness and an urge to check\n"
-            "• Phantom notifications (feeling like your phone buzzed when it didn't)\n"
-            "• Boredom as the brain adjusts to lower stimulation\n"
-            "• The beginning of dopamine receptor recalibration\n\n"
-            "The Cleveland Clinic emphasises that recognising the pattern is the first step. The discomfort of day one is real — but it is also temporary, and it is the brain beginning to reset.",
+            "• 'Phantom' notifications — feeling a buzz that didn't happen\n"
+            "• Boredom as you adjust to less constant stimulation\n"
+            "These are normal habit-related sensations, and they are temporary. Recognising the pattern is the first step in changing it.",
       ),
       QuitMilestone(
         day: 3,
         title: l10n.socialMediaMilestone3Title,
         description: l10n.socialMediaMilestone3Description,
-        reference: "Cleveland Clinic - Social Media Effects on Youth",
-        link:
-            "https://health.clevelandclinic.org/dangers-of-social-media-for-youth",
-        referenceDate: "March 2026",
+        reference:
+            "Taking a One-Week Break From Social Media Improves Well-Being: An RCT (PubMed)",
+        link: "https://pubmed.ncbi.nlm.nih.gov/35512731/",
+        referenceDate: "June 2026",
         referenceContent:
             "Three Days Without Social Media: Anxiety and Mood\n\n"
-            "Source: Cleveland Clinic\n\n"
-            "Social Media and Mental Health\n"
-            "The Cleveland Clinic documents the extensive research linking heavy social media use to anxiety, depression, and poor self-image — particularly through the mechanisms of social comparison and the curated highlight-reel nature of online profiles.\n\n"
-            "How Social Media Harms Mental Health\n"
-            "• Constant exposure to others' curated best moments fuels feelings of inadequacy\n"
-            "• Cyberbullying and social exclusion are uniquely persistent and public online\n"
-            "• Social comparison with filtered, idealised images drives body image distress\n"
-            "• The fear of missing out (FOMO) creates persistent low-grade anxiety\n"
-            "• Displacement of sleep and face-to-face social time disrupts wellbeing\n\n"
-            "What Happens at 72 Hours\n"
-            "At three days, the acute phase of social media withdrawal is peaking for many people:\n"
-            "• Strong urges to check — often triggered by habitual situations (waking up, waiting, etc.)\n"
-            "• Possible irritability and restlessness\n"
-            "• Some people notice their anxiety is already beginning to reduce\n"
-            "• Sleep quality often begins improving as the pre-sleep scroll habit breaks\n\n"
-            "The Comparison Trap Begins to Dissolve\n"
-            "Without a daily feed of others' highlight reels, the constant social comparison that fuels anxiety begins to reduce. Three days in, some people already notice they are feeling more comfortable in their own life.",
+            "Source: Lambert et al., \"Taking a One-Week Break from Social Media Improves Well-Being, Depression, and Anxiety: A Randomized Controlled Trial,\" Cyberpsychology, Behavior, and Social Networking (2022), on PubMed\n\n"
+            "Why a Break Helps Mood\n"
+            "In this controlled trial, people randomly assigned to a one-week break from social media ended the week with lower anxiety and depression and higher well-being than those who kept scrolling. Much of the day-to-day distress of heavy use comes from social comparison — measuring your real life against others' curated highlight reels — and from the low-grade pull of fear-of-missing-out.\n\n"
+            "What Happens Around 72 Hours\n"
+            "Early in a break, the habit is still loud:\n"
+            "• Strong urges to check, often triggered by routine moments (waking, waiting in line)\n"
+            "• Some irritability and restlessness\n"
+            "• For some people, the first easing of comparison-driven anxiety\n"
+            "• The pre-sleep scroll habit starting to loosen\n\n"
+            "The Comparison Trap Loosens\n"
+            "Without a constant feed of other people's highlights, the comparison that fuels much social-media anxiety has less fuel. The trial's results suggest that by the end of the first week these early shifts add up to a measurable improvement in mood — so the discomfort at three days is the hard part of a change that pays off.",
       ),
       QuitMilestone(
         day: 7,
         title: l10n.socialMediaMilestone7Title,
         description: l10n.socialMediaMilestone7Description,
-        reference: "WebMD - Digital Detox Benefits",
-        link: "https://www.webmd.com/balance/what-is-digital-detox",
-        referenceDate: "March 2026",
+        reference:
+            "Taking a One-Week Break From Social Media Improves Well-Being: An RCT (PubMed)",
+        link: "https://pubmed.ncbi.nlm.nih.gov/35512731/",
+        referenceDate: "June 2026",
         referenceContent:
-            "One Week Without Social Media: Sleep and Focus Return\n\n"
-            "Source: WebMD\n\n"
-            "What Is a Digital Detox?\n"
-            "WebMD describes a digital detox as a deliberate period of abstinence from digital devices and platforms — particularly social media — to allow the mind to recover from the constant stimulation, comparison, and notification-checking that characterises heavy use.\n\n"
-            "Benefits at One Week\n"
-            "WebMD documents that many people notice meaningful improvements within the first week of a digital detox:\n"
-            "• Better sleep: the absence of late-night scrolling removes both the blue light disruption and the mental stimulation that delays sleep\n"
-            "• Improved focus: the habit of switching attention every few minutes begins reversing; sustained concentration improves\n"
-            "• Reduced anxiety: the constant background hum of social comparison and FOMO begins to quiet\n"
-            "• More time: people are frequently surprised how much time they had been spending on social media\n\n"
-            "Attention Span Recovery\n"
-            "Heavy social media use trains the brain to expect constant novelty and short content bursts. One week without begins reversing this — the capacity for sustained attention on longer, deeper tasks starts recovering. Reading, conversations, and work all benefit.\n\n"
-            "Physical Benefits\n"
-            "WebMD notes that reduced screen time is associated with:\n"
-            "• Less eye strain and headache\n"
-            "• More physical activity (time previously spent scrolling redirected)\n"
-            "• Better posture (less hunching over screens)",
+            "One Week Without Social Media: The Measured Payoff\n\n"
+            "Source: Lambert et al., \"Taking a One-Week Break from Social Media Improves Well-Being, Depression, and Anxiety: A Randomized Controlled Trial,\" Cyberpsychology, Behavior, and Social Networking (2022), on PubMed\n\n"
+            "Exactly One Week — and It Worked\n"
+            "This is the milestone the research speaks to most directly: the trial's intervention was a one-week break. Compared with people who kept using social media, the break group showed significantly higher well-being and significantly lower depression and anxiety after just seven days. Reaching one week is reaching the point at which a controlled study found real benefit.\n\n"
+            "What People Commonly Notice\n"
+            "Alongside the measured mood gains, people often report:\n"
+            "• More reclaimed time — many are surprised how much they had been spending\n"
+            "• Easier focus, as the habit of constant attention-switching loosens\n"
+            "• Calmer evenings and easier sleep without the pre-bed scroll\n"
+            "These last few are commonly reported rather than the trial's primary measured outcomes, but they line up with the improvement in well-being it documented.\n\n"
+            "Keep Going\n"
+            "One week is a genuine, evidence-backed milestone. The mood, time, and attention benefits tend to deepen the longer the healthier pattern holds.",
       ),
       QuitMilestone(
         day: 14,
         title: l10n.socialMediaMilestone14Title,
         description: l10n.socialMediaMilestone14Description,
-        reference: "PMC - Two-Week Social Media Detox Study",
+        reference:
+            "Effects of a Two-Week Social Media Detox on Health-Related Outcomes (PMC)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10740995/",
-        referenceDate: "March 2026",
+        referenceDate: "June 2026",
         referenceContent:
-            "Two Weeks Without Social Media: Wellbeing Measurably Improves\n\n"
-            "Source: PMC — Peer-reviewed study on social media detox and wellbeing\n\n"
-            "About This Research\n"
-            "This peer-reviewed study published on PubMed Central examined the effects of a social media detox on psychological wellbeing. The study measured outcomes including anxiety, depression, self-esteem, and life satisfaction before and after a structured period of social media abstinence.\n\n"
-            "Key Findings at Two Weeks\n"
-            "The research found statistically significant improvements across multiple wellbeing measures after two weeks of reduced or eliminated social media use:\n"
-            "• Anxiety scores decreased meaningfully\n"
-            "• Depression symptoms reduced\n"
-            "• Self-esteem improved\n"
-            "• Life satisfaction increased\n"
-            "• Participants reported feeling more present in their daily lives\n\n"
-            "Why Two Weeks Matters\n"
-            "Two weeks is enough time for the habitual dopamine-seeking loop to substantially weaken. The automatic urge to check — which drives so much of social media use — is becoming less automatic. The brain is recalibrating its baseline stimulation needs downward.\n\n"
-            "Real-World Connection\n"
-            "At two weeks, many people notice they are more present in face-to-face interactions. The mental bandwidth previously consumed by social media is available for real conversations, creative work, and activities that produce genuine satisfaction rather than the shallow reward of a scroll.",
+            "Two Weeks Without Social Media: What Was Actually Measured\n\n"
+            "Source: Coyne & Woodruff, \"Taking a Break: The Effects of Partaking in a Two-Week Social Media Digital Detox… among Young Adults,\" Behavioral Sciences (2023), on PubMed Central\n\n"
+            "About This Study\n"
+            "Young adults limited social media to about 30 minutes a day for two weeks, with usage tracked objectively on their phones (it fell by roughly 78%). It is an honest fit for this milestone — but it was a small, exploratory study (about 31 people, no control group), so its authors caution against over-weighting the results.\n\n"
+            "What Improved\n"
+            "Over the two weeks, participants showed improvements in:\n"
+            "• Sleep — both duration and quality\n"
+            "• Satisfaction with life\n"
+            "• Stress\n"
+            "• Perceived wellness\n"
+            "• Scores on smartphone and social-media addiction scales\n"
+            "Notably, anxiety, depression, and self-esteem were not measured here — so this study supports the sleep, stress, and life-satisfaction gains rather than mood-disorder claims.\n\n"
+            "Watch for Backsliding\n"
+            "The researchers also noticed use creeping back toward baseline afterwards. Two weeks is a real gain, but it highlights why an intentional plan — not just a temporary break — is what keeps the benefits.",
       ),
       QuitMilestone(
         day: 30,
         title: l10n.socialMediaMilestone30Title,
         description: l10n.socialMediaMilestone30Description,
-        reference: "HelpGuide.org - Social Media and Mental Health",
-        link:
-            "https://www.helpguide.org/mental-health/wellbeing/social-media-and-mental-health",
-        referenceDate: "March 2026",
+        reference:
+            "Effects of a Two-Week Social Media Detox on Health-Related Outcomes (PMC)",
+        link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10740995/",
+        referenceDate: "June 2026",
         referenceContent:
             "One Month Without Social Media: Real Connection Deepens\n\n"
-            "Source: HelpGuide.org\n\n"
-            "Social Media's Effect on Relationships\n"
-            "HelpGuide documents the paradox at the heart of social media: designed to connect people, it often produces loneliness. The curated, performative nature of online interaction is a poor substitute for the authentic, reciprocal connection of real relationships. Heavy social media use frequently crowds out the deeper connection it promises.\n\n"
-            "What the Research Shows\n"
-            "• Time on social media is associated with increased loneliness, not reduced loneliness\n"
-            "• Passive scrolling (viewing others' content without engaging) is particularly harmful\n"
-            "• Social media triggers social comparison that damages self-worth\n"
-            "• Face-to-face social interaction produces meaningfully better wellbeing outcomes\n\n"
-            "One Month: The Depth of Connection Shifts\n"
-            "At 30 days, with the habitual pull of social media substantially weakened:\n"
-            "• Conversations with real people are longer, more present, and more meaningful\n"
-            "• Interest in real-world activities and hobbies has increased\n"
-            "• The sense of connection from real relationships feels more genuine and nourishing\n"
-            "• Self-image is less dependent on external validation (likes, comments, followers)\n\n"
-            "HelpGuide's Guidance\n"
-            "HelpGuide recommends using freed time for activities that produce real social connection and personal fulfilment — rather than simply replacing social media with other screen time. The month-one position is ideal for establishing these habits before the novelty of quitting fades.",
+            "Source: Coyne & Woodruff, \"Taking a Break: The Effects of Partaking in a Two-Week Social Media Digital Detox… among Young Adults,\" Behavioral Sciences (2023), on PubMed Central\n\n"
+            "Connection Can Improve When You Step Back\n"
+            "It sounds paradoxical — but in this study, cutting social media right back was associated with improvement in supportive relationships, along with better life satisfaction and lower stress. Time and attention that went to the feed became available for the people actually in your life.\n\n"
+            "What One Month Tends to Bring\n"
+            "By 30 days, with the automatic pull of checking much weaker, many people find:\n"
+            "• Conversations are more present and less interrupted\n"
+            "• More interest in real-world activities and hobbies\n"
+            "• Self-image leaning less on likes, comments, and follower counts\n\n"
+            "An Honest Caveat\n"
+            "The study behind this was small and exploratory, and it tracked two weeks rather than a month — so treat the one-month picture as a reasonable extension of short-term findings, not a precisely measured result. It also found use can drift back toward old levels, which is exactly why the month mark is a good time to lock in replacement habits.\n\n"
+            "Make the Time Count\n"
+            "Aim to fill freed time with activities that build genuine connection and fulfilment, rather than simply swapping one screen for another.",
       ),
       QuitMilestone(
         day: 60,
         title: l10n.socialMediaMilestone60Title,
         description: l10n.socialMediaMilestone60Description,
-        reference: "McLean Hospital - How Social Media Affects Mental Health",
-        link: "https://deconstructingstigma.org/guides/social-media",
-        referenceDate: "March 2026",
+        reference:
+            "Impacts of Digital Social Media Detox for Mental Health: A Systematic Review and Meta-Analysis (PMC)",
+        link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11392003/",
+        referenceDate: "June 2026",
         referenceContent:
-            "Two Months Without Social Media: Identity and Self-Worth\n\n"
-            "Source: McLean Hospital (Harvard Medical School affiliate)\n\n"
-            "McLean Hospital on Social Media\n"
-            "McLean Hospital — a leading psychiatric hospital affiliated with Harvard Medical School — documents the substantial body of research linking social media use to identity disturbance, poor self-image, and mental health difficulties, particularly in young people.\n\n"
-            "Social Media and Identity\n"
-            "Social media encourages users to construct and maintain a public identity — an online persona shaped by what generates engagement. This performative self-presentation can:\n"
-            "• Disconnect people from their authentic values and interests\n"
-            "• Create anxiety about maintaining an image\n"
-            "• Make self-worth dependent on external metrics (likes, followers, views)\n"
-            "• Drive comparison with others' constructed identities\n\n"
-            "Two Months: Who Are You Without It?\n"
-            "At 60 days, something significant has happened: the identity that was partly constructed around social media has begun dissolving, and a more authentic sense of self is emerging. People at this stage often report:\n"
-            "• Clearer sense of their actual values and interests (not what they performed online)\n"
-            "• Self-esteem that is more stable and internally grounded\n"
-            "• Less anxiety about how they appear to others\n"
-            "• Greater comfort with quiet moments and solitude\n\n"
-            "McLean Hospital emphasises that protecting mental health in the digital age requires active, deliberate choices about technology use — not passive consumption driven by platform design.",
+            "Two Months Without Social Media: What the Evidence Supports\n\n"
+            "Source: Ramadhan et al., \"Impacts of digital social media detox for mental health: A systematic review and meta-analysis,\" Narra J (2024), on PubMed Central\n\n"
+            "The Most Reliable Picture\n"
+            "This meta-analysis pooled 10 studies (7 of them randomized controlled trials) of social media detox. Its honest, headline finding: detox 'significantly reduce[s] depressive symptoms.' That is the outcome with the most consistent support — and a meaningful one to have working in your favour by two months.\n\n"
+            "Being Straight About the Rest\n"
+            "The same analysis did not find statistically significant effects on life satisfaction, stress, or overall mental well-being, with results varying a lot between studies. So claims that stepping back from social media reliably overhauls 'identity and self-worth' aren't supported by the strongest evidence. The dependable benefit is on low mood.\n\n"
+            "What Two Months Can Look Like\n"
+            "Many people do report a steadier sense of self and less anxiety about how they appear online — genuine, but individual experiences rather than guaranteed, measured outcomes. With less daily comparison, self-image often leans less on likes and followers.\n\n"
+            "The Practical Takeaway\n"
+            "The evidence rewards intentional, sustained change. Use the two-month point to keep deliberate limits in place rather than drifting back, and to invest in offline sources of meaning and connection.",
       ),
       QuitMilestone(
         day: 90,
         title: l10n.socialMediaMilestone90Title,
         description: l10n.socialMediaMilestone90Description,
-        reference: "Cleveland Clinic - 4 Reasons to Do a Digital Detox",
-        link: "https://health.clevelandclinic.org/digital-detox",
-        referenceDate: "March 2026",
+        reference:
+            "Effects of a Two-Week Social Media Detox on Health-Related Outcomes (PMC)",
+        link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10740995/",
+        referenceDate: "June 2026",
         referenceContent:
             "Three Months Without Social Media: A New Baseline\n\n"
-            "Source: Cleveland Clinic\n\n"
-            "Why Do a Digital Detox?\n"
-            "The Cleveland Clinic identifies four core reasons to step back from social media: to reduce stress and anxiety, to improve sleep, to be more present in real life, and to improve real-world relationships. At three months, all four of these benefits are well established.\n\n"
-            "Stress and Anxiety\n"
-            "The Cleveland Clinic documents that social media is a significant source of stress for many users — through negative news, conflict, comparison, and the pressure to engage. At three months without, chronic low-grade social media anxiety has resolved. The baseline level of ambient stress is meaningfully lower.\n\n"
-            "Sleep\n"
-            "Three months of no pre-sleep scrolling has reset sleep architecture. Melatonin production is no longer being suppressed by late-night blue light and mental stimulation. Sleep quality at 90 days is substantially better than when social media use was at its peak.\n\n"
-            "Presence in Real Life\n"
-            "The habit of reaching for a phone to fill any moment of stillness has weakened substantially. Being present — in conversations, in meals, in moments of quiet — is no longer in constant competition with the pull of the feed.\n\n"
-            "Relationships\n"
-            "Real relationships have deepened as the time and attention that social media consumed has been redirected. Three months of genuine presence with real people produces meaningfully stronger connections than anything social media offered.",
+            "Source: Coyne & Woodruff, \"Taking a Break: The Effects of Partaking in a Two-Week Social Media Digital Detox… among Young Adults,\" Behavioral Sciences (2023), on PubMed Central\n\n"
+            "Sleep Is the Standout\n"
+            "Among this study's clearest findings was improved sleep — both duration and quality — when participants cut social media right back. By three months of a sustained healthier pattern, the late-night scroll that used to eat into sleep has long stopped competing with rest, and better sleep tends to lift mood, focus, and energy with it.\n\n"
+            "What Else Improved\n"
+            "The same study found gains in stress, life satisfaction, perceived wellness, and supportive relationships. At three months these are no longer novelties — they have had time to settle into a new normal.\n\n"
+            "An Honest Note on Mechanism\n"
+            "You'll see claims that three months 'resets sleep architecture' or 'melatonin.' That specific neuroscience wasn't measured here. What the study actually shows is more grounded and just as useful: cutting back on social media is followed by people sleeping better and feeling better.\n\n"
+            "Presence and Relationships\n"
+            "With the reflex to fill every quiet moment with the phone much weaker, being present — in conversations, meals, and downtime — comes more naturally, and the relationships you have invested in over three months tend to feel stronger for it.",
       ),
       QuitMilestone(
         day: 180,
         title: l10n.socialMediaMilestone180Title,
         description: l10n.socialMediaMilestone180Description,
-        reference: "PMC - Digital Social Media Detox Meta-Analysis",
+        reference:
+            "Impacts of Digital Social Media Detox for Mental Health: A Systematic Review and Meta-Analysis (PMC)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11392003/",
-        referenceDate: "March 2026",
+        referenceDate: "June 2026",
         referenceContent:
-            "Six Months Without Social Media: What the Research Shows\n\n"
-            "Source: PMC — Peer-reviewed meta-analysis of social media detox studies\n\n"
-            "About This Research\n"
-            "This meta-analysis published on PubMed Central synthesised findings across multiple studies examining the effects of social media detox interventions on mental health outcomes. Meta-analyses pool data across studies to identify the most reliable effects.\n\n"
-            "Overall Findings\n"
-            "The meta-analysis found consistent, statistically significant benefits from social media detox across studies:\n"
-            "• Reduced anxiety and depression symptoms\n"
-            "• Improved life satisfaction\n"
-            "• Better sleep quality\n"
-            "• Improved self-esteem\n"
-            "• Greater sense of autonomy and control over technology use\n\n"
-            "What Improves Over Longer Durations\n"
-            "The meta-analysis found that longer-duration detox interventions produced stronger benefits. At six months, all the short-term improvements are deeply consolidated:\n"
-            "• A new normal has been established without social media as a coping mechanism\n"
-            "• Alternative sources of social connection, entertainment, and fulfilment are well-established\n"
-            "• The pull of social media has substantially weakened as the habit dissolves\n\n"
-            "An Important Note\n"
-            "The research also highlights that social media isn't uniformly harmful — the harms are concentrated in heavy, passive, compulsive use. The goal of a six-month detox is not permanent abstinence but developing a healthy, intentional relationship with technology rather than a compulsive one.",
+            "Six Months Without Social Media: An Honest Look at the Evidence\n\n"
+            "Source: Ramadhan et al., \"Impacts of digital social media detox for mental health: A systematic review and meta-analysis,\" Narra J (2024), on PubMed Central\n\n"
+            "What Meta-Analysis Adds\n"
+            "Pooling 10 studies (7 randomized controlled trials), this is among the most reliable evidence available — and it paints a 'nuanced and selective' picture rather than a sweeping one.\n\n"
+            "What It Actually Found\n"
+            "• Depression: a statistically significant reduction (the clearest, most consistent benefit)\n"
+            "• Life satisfaction: no significant effect\n"
+            "• Stress: no significant effect\n"
+            "• Overall mental well-being: no significant effect\n"
+            "Results for the last three varied widely between studies, so the honest summary is: detox helps depressive symptoms, while its effect on other measures is uncertain.\n\n"
+            "Why You May Still Feel Broad Benefits\n"
+            "Group averages can hide real individual gains. Plenty of people experience better sleep, focus, and presence — the meta-analysis simply can't confirm those as reliable across-the-board effects, and the authors note short study durations and quality limits may have masked some benefits.\n\n"
+            "The Balanced Goal\n"
+            "Social media isn't uniformly harmful; the problems concentrate in heavy, passive, compulsive use. By six months, the aim is an intentional, sustainable relationship with it — not necessarily permanent abstinence.",
       ),
       QuitMilestone(
         day: 365,
         title: l10n.socialMediaMilestone365Title,
         description: l10n.socialMediaMilestone365Description,
-        reference: "Medical News Today - Social Media and Mental Health",
-        link:
-            "https://www.medicalnewstoday.com/articles/social-media-and-mental-health",
-        referenceDate: "March 2026",
+        reference:
+            "Impacts of Digital Social Media Detox for Mental Health: A Systematic Review and Meta-Analysis (PMC)",
+        link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11392003/",
+        referenceDate: "June 2026",
         referenceContent:
-            "One Year Without Social Media: Long-Term Mental Health\n\n"
-            "Source: Mayo Clinic Press\n\n"
-            "Mayo Clinic's Assessment\n"
-            "Mayo Clinic Press provides a balanced assessment of social media's effects on mental health, documenting both the genuine harms of heavy use and the potential benefits of intentional connection. One year without social media represents a complete renegotiation of the relationship with technology.\n\n"
-            "Documented Harms That Have Now Resolved\n"
-            "The harms Mayo Clinic documents from heavy social media use — that have now had a full year to resolve:\n"
-            "• Anxiety fuelled by social comparison: gone\n"
-            "• Sleep disruption from late-night use: resolved\n"
-            "• Depression linked to passive scrolling: substantially improved\n"
-            "• Self-esteem dependent on social media validation: replaced with internal self-worth\n"
-            "• Attention fragmentation from constant notifications: largely reversed\n\n"
-            "One Year: A Different Life\n"
-            "At one year, the life that has been built without social media is qualitatively different:\n"
-            "• Deeper, more authentic relationships built on real presence\n"
-            "• Hobbies, skills, and interests that fill the hours social media once consumed\n"
-            "• Mental space for genuine reflection, creativity, and meaning-making\n"
-            "• A fundamentally different relationship with technology — intentional rather than compulsive\n\n"
-            "Mayo Clinic's Conclusion\n"
-            "Mayo Clinic emphasises that the key is not technology itself but the relationship with it. One year of deliberate abstinence has reset that relationship. Whatever comes next — whether returning to limited social media use or continuing without — the compulsive loop has been broken.",
+            "One Year Without Social Media: A Renegotiated Relationship\n\n"
+            "Source: Ramadhan et al., \"Impacts of digital social media detox for mental health: A systematic review and meta-analysis,\" Narra J (2024), on PubMed Central\n\n"
+            "Where the Evidence Reaches\n"
+            "It's worth being upfront: the controlled research on social media breaks covers days to a few weeks, not a year. So a one-year claim is an extension of that evidence, not a directly measured result. The most reliable finding from the pooled trials is that stepping back from social media significantly reduces depressive symptoms — a benefit that, sustained over a year, is well worth having.\n\n"
+            "What a Year Builds\n"
+            "Beyond the measured outcomes, a full year lets new patterns become who you are: more time and attention for real relationships, hobbies and skills filling hours the feed once took, and mental space for reflection and creativity. These are the changes people consistently describe, even where group-level studies can't pin them down.\n\n"
+            "An Honest, Balanced View\n"
+            "The same meta-analysis found effects on life satisfaction, stress, and overall well-being were not statistically reliable across studies — a reminder that outcomes vary by person and that social media isn't uniformly harmful. The harm concentrates in heavy, passive, compulsive use.\n\n"
+            "What Comes Next\n"
+            "A year of deliberate change has reset the relationship. Whether you return to limited, intentional use or stay off entirely, the compulsive loop has been broken — and that is the durable win.",
       ),
     ];
   }

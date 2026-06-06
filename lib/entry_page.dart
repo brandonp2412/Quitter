@@ -36,9 +36,9 @@ class _EntryPageState extends State<EntryPage> {
         day: 7,
         title: l10n.customMilestone7Title,
         description: l10n.customMilestone7Description,
-        reference: "American Addiction Centers - General Withdrawal Management",
+        reference: "NIDA - Treatment and Recovery (The Science of Addiction)",
         link:
-            "https://americanaddictioncenters.org/withdrawal-timelines-treatments",
+            "https://nida.nih.gov/publications/drugs-brains-behavior-science-addiction/treatment-recovery",
       ),
       QuitMilestone(
         day: 14,
@@ -51,17 +51,17 @@ class _EntryPageState extends State<EntryPage> {
         day: 30,
         title: l10n.customMilestone30Title,
         description: l10n.customMilestone30Description,
-        reference: "High Focus Centers - 30-Day Recovery Benefits Research",
-        link:
-            "https://pa.highfocuscenters.com/the-benefits-of-staying-30-60-and-90-days-sober-a-path-to-lasting-recovery/",
+        reference: "NIDA - Drug Addiction Treatment",
+        link: "https://nida.nih.gov/research-topics/treatment",
       ),
       QuitMilestone(
         day: 90,
         title: l10n.customMilestone90Title,
         description: l10n.customMilestone90Description,
-        reference: "East Coast Recovery - 90-Day Sobriety Research",
+        reference:
+            "NIDA - Principles of Drug Addiction Treatment (90-Day Threshold)",
         link:
-            "https://eastcoastrecovery.com/what-happens-during-and-after-the-first-90-days-sober/",
+            "https://nida.nih.gov/publications/principles-drug-addiction-treatment",
       ),
       QuitMilestone(
         day: 180,
@@ -81,8 +81,8 @@ class _EntryPageState extends State<EntryPage> {
         day: 730,
         title: l10n.customMilestone730Title,
         description: l10n.customMilestone730Description,
-        reference: "Addiction Group - Long-term Sobriety Milestone Research",
-        link: "https://www.addictiongroup.org/resources/sobriety-milestones/",
+        reference: "PMC - Recovery Attempts and Successful Outcomes Study",
+        link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC6602820/",
       ),
     ];
   }

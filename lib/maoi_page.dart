@@ -103,21 +103,21 @@ class MaoiPage extends StatelessWidget {
         day: 90,
         title: l10n.maoiMilestone90Title,
         description: l10n.maoiMilestone90Description,
-        reference: "Wikipedia - Antidepressant discontinuation syndrome",
-        link:
-            "https://en.wikipedia.org/wiki/Antidepressant_discontinuation_syndrome",
-        referenceDate: "May 2026",
+        reference:
+            "Antidepressant Withdrawal Syndrome — Therapeutics Letter (NCBI Bookshelf)",
+        link: "https://www.ncbi.nlm.nih.gov/books/NBK598502/",
+        referenceDate: "June 2026",
         referenceContent:
-            "Three Months After MAOIs: Brain Chemistry Normalising\n\n"
-            "Three-Month Status\n"
-            "Three months of natural monoamine regulation has allowed the brain to substantially readjust from the MAO-inhibited state.\n\n"
-            "Receptor Supersensitivity Resolution\n"
-            "Chronic MAOI treatment — by elevating synaptic levels of all monoamines — causes the brain's monoamine receptors to downregulate (become less sensitive) as a compensatory response. Now that MAOIs are no longer artificially elevating monoamine levels:\n"
-            "• Receptor sensitivity is normalising across serotonin, norepinephrine, and dopamine systems\n"
-            "• The brain's response to natural monoamine levels is recalibrating\n"
-            "• Mood regulation, energy, and cognitive function are stabilising\n\n"
-            "Emotional and Cognitive Recovery\n"
-            "Most people at three months report meaningful improvements in mood stability, cognitive clarity, and emotional range — with the artificial amplification of monoamine signalling from MAO inhibition replaced by natural, self-regulated neurotransmission.",
+            "Three Months After MAOIs: Well Past Withdrawal\n\n"
+            "Source: \"Antidepressant Withdrawal Syndrome,\" Therapeutics Letter 112 (2018), Therapeutics Initiative, on the NCBI Bookshelf\n\n"
+            "Withdrawal Across the Antidepressant Classes\n"
+            "This evidence review treats antidepressant withdrawal as a real phenomenon of tolerance and dependence — placing antidepressants 'alongside opiates and benzodiazepines.' Its detailed evidence centres on SSRIs and SNRIs, but withdrawal reactions are recognised across antidepressant classes, including after stopping an MAOI. Symptoms 'usually appear within a few days of stopping' and 'most… resolve within 2 weeks,' though some last longer.\n\n"
+            "Where Three Months Sits\n"
+            "By three months, the acute withdrawal phase is well behind the great majority of people, and the body has long readjusted to regulating monoamines without MAO inhibition.\n\n"
+            "An Honest Note on 'Receptor Resensitisation'\n"
+            "Confident claims that serotonin, norepinephrine, and dopamine receptors have all 'resensitised by three months' go beyond what the evidence pins down. What is dependable: the withdrawal phase has typically resolved by now, and for most people mood, energy, and emotional range are stabilising on natural, self-regulated neurotransmission.\n\n"
+            "Withdrawal Versus Relapse\n"
+            "The Letter stresses telling withdrawal apart from a genuine return of the underlying condition. If symptoms persist at three months, review them with your prescriber rather than assuming they are only withdrawal.",
       ),
       QuitMilestone(
         day: 180,

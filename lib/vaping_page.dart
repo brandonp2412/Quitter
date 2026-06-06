@@ -14,244 +14,212 @@ class VapingPage extends StatelessWidget {
         day: 1,
         title: l10n.vapingMilestone1Title,
         description: l10n.vapingMilestone1Description,
-        reference: "Cleveland Clinic - Nicotine Withdrawal Guide",
-        link:
-            "https://my.clevelandclinic.org/health/diseases/21587-nicotine-withdrawal",
-        referenceDate: "March 2026",
+        reference: "McLaughlin, Dani & De Biasi — Nicotine Withdrawal (PubMed)",
+        link: "https://pubmed.ncbi.nlm.nih.gov/25638335/",
+        referenceDate: "June 2026",
         referenceContent:
             "Quitting Vaping: The First 24 Hours of Nicotine Withdrawal\n\n"
-            "Source: Cleveland Clinic\n\n"
-            "Nicotine Withdrawal Is Real\n"
-            "The Cleveland Clinic documents that nicotine withdrawal is a clinically recognised syndrome with both physical and psychological symptoms. Modern vapes deliver nicotine with high efficiency — often more than traditional cigarettes, particularly with nicotine salt formulations — which can produce significant physical dependence.\n\n"
+            "Source: McLaughlin, Dani & De Biasi, \"Nicotine Withdrawal\" (Current Topics in Behavioral Neurosciences), peer-reviewed review on PubMed\n\n"
+            "Nicotine Withdrawal Is a Defined Syndrome\n"
+            "This peer-reviewed review documents that nicotine withdrawal is a well-characterised syndrome driven by neuroadaptation of nicotinic acetylcholine receptors. When nicotine is removed, those upregulated receptors produce both physical and affective symptoms. Vaping delivers nicotine efficiently — pod systems using nicotine salts allow high concentrations (commonly 20–50 mg/mL) to be inhaled smoothly — so physical dependence can be substantial.\n\n"
             "Day One Symptoms\n"
-            "• Nicotine cravings — often intense in the first hours\n"
-            "• Irritability, frustration, and anxiety\n"
+            "The review describes the symptoms that emerge as nicotine leaves the body:\n"
+            "• Craving for nicotine\n"
+            "• Irritability, frustration, and anger\n"
+            "• Anxiety\n"
             "• Difficulty concentrating\n"
-            "• Headache (as blood vessels, previously constricted by nicotine, begin to dilate)\n"
-            "• Increased appetite\n"
-            "• Restlessness\n\n"
-            "What Is Also Happening (The Good)\n"
-            "The Cleveland Clinic documents that positive changes begin within minutes of stopping:\n"
-            "• Within 20 minutes: heart rate and blood pressure begin dropping toward normal\n"
-            "• Within 8 hours: carbon monoxide from any combustion products clears from blood\n"
-            "• Within 24 hours: risk of heart attack is already beginning to decrease\n\n"
-            "The Scale of Nicotine in Vapes\n"
-            "Many modern vapes (particularly pod-based systems using nicotine salts) deliver nicotine concentrations of 20–50mg/mL — significantly higher than cigarettes. The Cleveland Clinic notes this can make vaping harder to quit than cigarettes for some users because the physical dependence can be more intense.",
+            "• Restlessness and impatience\n"
+            "• Increased appetite\n\n"
+            "Why It Happens\n"
+            "The review explains that chronic nicotine exposure upregulates nicotinic receptors in the brain's reward pathways. During abstinence these receptors are no longer occupied, lowering dopamine signalling and producing the negative-affect and craving symptoms that define early withdrawal. The first 24 hours mark the beginning of this re-regulation.\n\n"
+            "The Time Course Is Predictable\n"
+            "Critically, the review notes that withdrawal symptoms follow a predictable course — they begin within hours, intensify over the first days, and then steadily resolve over the following weeks as receptor density returns toward normal. The discomfort of day one is the start of recovery, not a permanent state.",
       ),
       QuitMilestone(
         day: 3,
         title: l10n.vapingMilestone3Title,
         description: l10n.vapingMilestone3Description,
-        reference: "Healthline - What Are the Benefits of Quitting Vaping?",
-        link: "https://www.healthline.com/health/benefits-of-quitting-vaping",
-        referenceDate: "March 2026",
+        reference: "McLaughlin, Dani & De Biasi — Nicotine Withdrawal (PubMed)",
+        link: "https://pubmed.ncbi.nlm.nih.gov/25638335/",
+        referenceDate: "June 2026",
         referenceContent:
-            "Three Days Without Vaping: Nicotine Peaks and Begins to Clear\n\n"
-            "Source: Healthline\n\n"
-            "The 72-Hour Peak\n"
-            "Healthline documents that nicotine withdrawal peaks around 72 hours after quitting — by which time nicotine has been eliminated from the body. This is typically the most difficult period of vaping cessation.\n\n"
-            "Peak Withdrawal Symptoms\n"
-            "• Cravings at their most intense\n"
-            "• Irritability and mood swings\n"
+            "Three Days Without Vaping: Withdrawal at Its Peak\n\n"
+            "Source: McLaughlin, Dani & De Biasi, \"Nicotine Withdrawal\" (Current Topics in Behavioral Neurosciences), peer-reviewed review on PubMed\n\n"
+            "The Peak of Physical Withdrawal\n"
+            "This peer-reviewed review documents that the somatic and affective signs of nicotine withdrawal are most intense in the first days of abstinence, before declining over subsequent weeks. By around 72 hours, nicotine and its main metabolite cotinine have largely cleared the body, and the receptor systems that adapted to constant nicotine are at their most destabilised.\n\n"
+            "Peak Symptoms\n"
+            "• Craving at its most intense\n"
+            "• Irritability, frustration, and anger\n"
+            "• Anxiety and restlessness\n"
             "• Difficulty concentrating\n"
-            "• Anxiety\n"
-            "• Headaches\n"
-            "• Increased appetite and cravings for food\n"
-            "• Possible nausea\n\n"
-            "What Benefits Are Beginning\n"
-            "Healthline also documents the simultaneous benefits beginning at this stage:\n"
-            "• Sense of taste and smell are beginning to recover (damaged by vaping aerosol)\n"
-            "• Airways are beginning to clear from vaping-related irritation\n"
-            "• The body's nicotine receptors are beginning to downregulate back to normal\n\n"
-            "This Is the Hardest Part\n"
-            "Day three is the peak. Understanding that this is the worst it gets — and that symptoms will become meaningfully less intense from here — is important for getting through it. Each craving passes within 3–5 minutes whether you vape or not.",
+            "• Depressed mood\n"
+            "• Increased appetite\n\n"
+            "Why Day Three Is the Hardest\n"
+            "The review describes withdrawal as a state of negative affect produced by reduced dopamine signalling once nicotine is gone. This neuroadaptive imbalance is greatest before the brain begins to recalibrate — which is why the 72-hour mark is typically the most difficult point of cessation.\n\n"
+            "It Improves From Here\n"
+            "The same review emphasises that withdrawal is self-limiting: the receptors downregulate toward their pre-nicotine state over the following weeks, and symptom intensity falls accordingly. Day three is the summit. Individual cravings still pass within minutes whether or not you vape — and from here the overall trajectory is downhill.",
       ),
       QuitMilestone(
         day: 7,
         title: l10n.vapingMilestone7Title,
         description: l10n.vapingMilestone7Description,
-        reference: "Medical News Today - Timeline After Quitting Smoking",
-        link: "https://www.medicalnewstoday.com/articles/317956",
-        referenceDate: "March 2026",
+        reference: "CDC — About E-Cigarettes (Vaping)",
+        link: "https://www.cdc.gov/tobacco/e-cigarettes/about.html",
+        referenceDate: "June 2026",
         referenceContent:
-            "One Week Without Vaping: Taste, Smell, and Breathing Improve\n\n"
-            "Source: Medical News Today\n\n"
-            "The Timeline After Quitting\n"
-            "Medical News Today documents the well-established timeline of health improvements after stopping nicotine use. While originally compiled for smoking cessation, the timeline is applicable to vaping — both deliver nicotine and chemical aerosols that cause the same systemic effects.\n\n"
-            "One Week: Sensory Recovery\n"
-            "Vaping aerosol damages the taste receptors on the tongue and olfactory receptors in the nose through direct chemical irritation. By one week of abstinence:\n"
-            "• Taste is noticeably more vivid — food tastes better\n"
-            "• Smell is sharper and more differentiated\n"
-            "• The sensory dullness caused by constant aerosol exposure is lifting\n\n"
-            "Respiratory Improvements at One Week\n"
-            "• Cilia — tiny hair-like structures in the airways that clear mucus — are recovering function\n"
-            "• Airways are less inflamed and irritated\n"
-            "• Breathing is noticeably easier for many people\n"
-            "• Coughing may temporarily increase as cilia clear accumulated residue from airways (a positive sign)\n\n"
-            "One Week: A Predictor of Success\n"
-            "Medical News Today notes that reaching one week smoke or vape-free is a strong predictor of long-term success. Getting through the first week — the hardest week — means the acute physical withdrawal has largely passed.",
+            "One Week Without Vaping: A Week Free of Aerosol\n\n"
+            "Source: U.S. Centers for Disease Control and Prevention (CDC)\n\n"
+            "What You Have Stopped Inhaling\n"
+            "The CDC documents that e-cigarette aerosol is not the harmless \"water vapor\" it is often assumed to be. After one week without vaping, your airways have had a full week free of:\n"
+            "• Ultrafine particles that are inhaled deep into the lungs\n"
+            "• Flavouring chemicals such as diacetyl, which is linked to serious lung disease\n"
+            "• Heavy metals including nickel, tin, and lead\n"
+            "• Volatile organic compounds and cancer-causing chemicals\n\n"
+            "Why \"Safe to Eat\" Does Not Mean \"Safe to Inhale\"\n"
+            "The CDC stresses that many flavouring compounds approved for food are not safe to breathe, because the lungs process inhaled substances very differently from the gut. Each day without vaping is a day those compounds are no longer being deposited in your airways.\n\n"
+            "Airways Begin to Settle\n"
+            "With the source of chemical irritation removed, the airway lining is no longer being re-injured with every puff. Inflammation begins to subside and many people notice easier breathing and a sharper sense of taste and smell within the first week — the senses dulled by constant aerosol exposure begin to return.\n\n"
+            "The Nicotine Driver Is Gone\n"
+            "The CDC also notes that most e-cigarettes contain nicotine — frequently as nicotine salts, which allow very high nicotine levels to be inhaled smoothly. One week in, the body is no longer receiving that nicotine, and the acute physical withdrawal it drives has largely passed.",
       ),
       QuitMilestone(
         day: 14,
         title: l10n.vapingMilestone14Title,
         description: l10n.vapingMilestone14Description,
-        reference: "Truth Initiative - Benefits of Quitting Smoking or Vaping",
-        link:
-            "https://truthinitiative.org/research-resources/quitting-smoking-vaping/breath-fresh-air-immediate-benefits-quitting-smoking-or",
-        referenceDate: "March 2026",
+        reference:
+            "Vaping & Vascular Function — Randomized Crossover Trial (PMC)",
+        link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC6039507/",
+        referenceDate: "June 2026",
         referenceContent:
-            "Two Weeks Without Vaping: Circulation and Lung Function Improve\n\n"
-            "Source: Truth Initiative\n\n"
-            "About Truth Initiative\n"
-            "Truth Initiative is a major US public health non-profit dedicated to tobacco and vaping prevention. Their benefits timeline applies directly to vaping cessation, and they explicitly address vaping as well as smoking.\n\n"
-            "Cardiovascular Recovery at Two Weeks\n"
-            "Nicotine causes vasoconstriction — narrowing of blood vessels — with every hit. After two weeks without:\n"
-            "• Blood vessels have dilated back to their normal calibre\n"
-            "• Circulation to hands, feet, and peripheral tissues is substantially better\n"
-            "• Blood pressure and heart rate have stabilised at normal levels\n"
-            "• Many people notice warmer extremities and improved wound healing\n\n"
-            "Lung Recovery at Two Weeks\n"
-            "Truth Initiative documents that within 2 weeks to 3 months of quitting:\n"
-            "• Walking and mild exercise become noticeably easier\n"
-            "• Lung capacity and function are measurably improving\n"
-            "• Cilia recovery means the lungs are more effectively clearing themselves\n\n"
-            "Vaping-Specific Note\n"
-            "While vaping aerosol is less damaging than cigarette smoke, it still causes measurable lung injury. Truth Initiative notes that former vapers experience genuine lung recovery when they stop — not merely a halting of additional harm, but actual tissue repair and functional improvement.",
+            "Two Weeks Without Vaping: Circulation Recovers\n\n"
+            "Source: \"Differential Effects of E-Cigarette on Microvascular Endothelial Function, Arterial Stiffness and Oxidative Stress: A Randomized Crossover Trial,\" Scientific Reports (2018), on PubMed Central\n\n"
+            "Isolating What Vaping Does to Blood Vessels\n"
+            "This randomised crossover trial compared vaping with nicotine, vaping without nicotine, and sham-vaping in the same participants. By separating the nicotine from the propylene glycol/glycerol carrier, it pinpointed exactly which cardiovascular harms nicotine causes — and therefore what reverses when you stop.\n\n"
+            "What Nicotine Vaping Did\n"
+            "Compared with the nicotine-free vehicle, vaping with nicotine produced:\n"
+            "• A sustained rise in blood pressure (systolic ~109 → 121 mm Hg, diastolic ~68 → 78 mm Hg)\n"
+            "• A large increase in heart rate (~59 → 77 bpm), lasting around two hours\n"
+            "• Increased arterial stiffness (higher augmentation index and pulse-wave velocity)\n"
+            "• Impaired endothelium-dependent vasodilation — blood vessels less able to relax and widen\n\n"
+            "The Key Finding\n"
+            "The nicotine-free vehicle did not alter blood pressure, heart rate, arterial stiffness, or endothelial function. The authors concluded these effects are \"solely attributable to nicotine.\"\n\n"
+            "Why Two Weeks Matters\n"
+            "Because these are acute, nicotine-driven effects, removing the nicotine removes the driver. After two weeks without vaping, the repeated spikes in blood pressure and heart rate are gone, arterial stiffness eases, and endothelial function — the blood vessels' ability to dilate — recovers. Circulation to the hands, feet, and peripheral tissues improves accordingly.",
       ),
       QuitMilestone(
         day: 30,
         title: l10n.vapingMilestone30Title,
         description: l10n.vapingMilestone30Description,
-        reference: "Medical News Today - Can your lungs heal from vaping?",
-        link:
-            "https://www.medicalnewstoday.com/articles/effects-of-vaping-on-lungs",
-        referenceDate: "March 2026",
+        reference:
+            "Short-Term Benefits of Cessation on Respiratory Function (PMC)",
+        link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10697086/",
+        referenceDate: "June 2026",
         referenceContent:
-            "One Month Without Vaping: Can Your Lungs Heal?\n\n"
-            "Source: Medical News Today\n\n"
-            "The Question of Lung Healing\n"
-            "Medical News Today addresses the critical question former vapers ask: can the lungs actually heal? The answer, documented by research, is yes — with meaningful recovery occurring within weeks to months of stopping.\n\n"
-            "What Vaping Does to the Lungs\n"
-            "• Vaping aerosol causes direct airway inflammation\n"
-            "• Chemical compounds (diacetyl, formaldehyde, acrolein, heavy metals) damage airway tissue\n"
-            "• Flavour compounds have been associated with conditions like 'popcorn lung' (bronchiolitis obliterans)\n"
-            "• EVALI (e-cigarette or vaping product use-associated lung injury) can occur, particularly with vitamin E acetate-containing products\n"
-            "• Reduced cilia function impairs the lungs' self-cleaning ability\n\n"
-            "Lung Recovery at One Month\n"
-            "At 30 days, meaningful lung recovery is underway:\n"
-            "• Airway inflammation is substantially reduced\n"
-            "• Cilia function has largely recovered — the lungs are clearing themselves more effectively\n"
-            "• Breathing is easier and exercise tolerance is improved\n"
-            "• Risk of acute vaping-related lung events is eliminated\n\n"
+            "One Month Without Vaping: Measurable Lung Recovery\n\n"
+            "Source: \"Short-Term Benefits of Smoking Cessation Improve Respiratory Function and Metabolism in Smokers,\" International Journal of COPD (2023), on PubMed Central\n\n"
+            "Recovery You Can Measure in a Month\n"
+            "This study measured lung function and symptoms at baseline and again just one month after stopping inhaled nicotine. Because vaping and smoking both deliver nicotine and an inflammatory aerosol to the airways, the early recovery pattern is directly relevant to quitting vaping.\n\n"
+            "What Improved at One Month\n"
+            "• FEV1 (the volume you can forcibly exhale in one second) rose by ~200 mL\n"
+            "• Small-airway flow (FEF 25–75%) improved, reflecting reduced inflammation\n"
+            "• Gas transfer (DLCO) improved\n"
+            "• Breathlessness scores (mMRC) fell, and symptom burden (CAT) dropped markedly\n"
+            "• Six-minute walking distance increased from ~350 to ~400 metres, with a lower heart rate\n"
+            "• Exhaled carbon monoxide fell sharply\n\n"
+            "Both Large and Small Airways\n"
+            "The authors concluded that quitting produced \"an improvement of all considered parameters … in both large and small airways\" within a short timeframe — evidence that the lungs begin genuine functional repair, not merely a pause in damage.\n\n"
             "The Honest Picture\n"
-            "Medical News Today notes that some vaping-related lung damage may take longer to heal, and severe or long-term damage may not fully reverse. However, the research is clear that stopping is always the right choice — the trajectory of damage reverses immediately upon cessation.",
+            "Long-standing or severe airway damage may take much longer to recover, and some changes can persist. But at one month the trajectory has clearly reversed: inflammation is down, airflow is up, and exercise tolerance is measurably better.",
       ),
       QuitMilestone(
         day: 60,
         title: l10n.vapingMilestone60Title,
         description: l10n.vapingMilestone60Description,
-        reference: "Charlie Health - The Vaping Withdrawal Timeline",
-        link: "https://www.charliehealth.com/post/vaping-withdrawal-timeline",
-        referenceDate: "March 2026",
+        reference: "McLaughlin, Dani & De Biasi — Nicotine Withdrawal (PubMed)",
+        link: "https://pubmed.ncbi.nlm.nih.gov/25638335/",
+        referenceDate: "June 2026",
         referenceContent:
-            "Two Months Without Vaping: Psychological Recovery\n\n"
-            "Source: Charlie Health\n\n"
-            "The Full Vaping Withdrawal Timeline\n"
-            "Charlie Health documents the complete withdrawal timeline from vaping, noting that while physical withdrawal from nicotine typically resolves within 1–4 weeks, the psychological component of the habit can persist considerably longer.\n\n"
-            "Physical Withdrawal (Weeks 1–4)\n"
-            "• Days 1–3: Peak physical symptoms — cravings, irritability, anxiety, headache\n"
-            "• Days 4–7: Physical symptoms begin easing\n"
-            "• Weeks 2–4: Physical withdrawal largely resolved for most people\n\n"
-            "Psychological Withdrawal (Weeks 4–12+)\n"
-            "The habit loop — the automatic reach for a device in response to stress, boredom, meals, or social situations — persists longer than the physical craving. At two months:\n"
-            "• Most trigger-based urges have weakened significantly\n"
-            "• The habitual hand-to-mouth motion is no longer automatic\n"
-            "• Emotional regulation without vaping is becoming established\n\n"
-            "Two Months: Genuine Wellbeing Returns\n"
-            "Charlie Health notes that at 8 weeks, the combination of resolved physical withdrawal and substantially reduced psychological craving means genuine wellbeing is returning. Energy is up, breathing is better, skin is clearer, and the mental load of managing addiction is lifted.",
+            "Two Months Without Vaping: Past Physical Withdrawal\n\n"
+            "Source: McLaughlin, Dani & De Biasi, \"Nicotine Withdrawal\" (Current Topics in Behavioral Neurosciences), peer-reviewed review on PubMed\n\n"
+            "Physical Versus Psychological\n"
+            "This review distinguishes the two halves of nicotine dependence: the physical withdrawal syndrome driven by receptor neuroadaptation, and the learned, cue-driven behaviour that outlasts it. The physical syndrome is time-limited — symptoms peak early and resolve over a few weeks as nicotinic receptors return toward normal density. By two months, the physical component is behind you.\n\n"
+            "What Has Resolved by Now\n"
+            "• Craving driven by nicotine deficit has faded\n"
+            "• Irritability, anxiety, and restlessness have settled\n"
+            "• Concentration and mood have normalised as dopamine signalling recalibrates\n"
+            "• Appetite changes have largely stabilised\n\n"
+            "What Can Linger\n"
+            "The review notes that conditioned associations — the automatic urge to vape in response to stress, boredom, meals, or particular social settings — are learned cues that can persist after the physical withdrawal is over. At two months these are weakening but may still surface.\n\n"
+            "Why This Matters\n"
+            "Understanding that any remaining urges are psychological habit, not physical dependence, is powerful: they are not a sign that your body still needs nicotine, and they continue to fade as the old cues go unrewarded.",
       ),
       QuitMilestone(
         day: 90,
         title: l10n.vapingMilestone90Title,
         description: l10n.vapingMilestone90Description,
-        reference: "WebMD - Understanding Nicotine Withdrawal Symptoms",
-        link:
-            "https://www.webmd.com/smoking-cessation/understanding-nicotine-withdrawal-symptoms",
-        referenceDate: "March 2026",
+        reference: "CDC — Benefits of Quitting",
+        link: "https://www.cdc.gov/tobacco/about/benefits-of-quitting.html",
+        referenceDate: "June 2026",
         referenceContent:
-            "Three Months Without Vaping: Nicotine Dependence Resolved\n\n"
-            "Source: WebMD\n\n"
-            "Nicotine Withdrawal: How Long Does It Last?\n"
-            "WebMD documents the complete timeline of nicotine withdrawal symptoms. At three months, the question 'when will this end?' has been answered: the acute withdrawal ended in week one; the subacute phase ended around weeks 3–4; at 90 days, nicotine dependence is resolved.\n\n"
-            "What Has Resolved by 90 Days\n"
-            "WebMD documents that most nicotine withdrawal symptoms resolve within weeks to months:\n"
-            "• Physical cravings: resolved (the nicotinic acetylcholine receptors have downregulated to normal density)\n"
-            "• Irritability and anxiety: resolved\n"
-            "• Concentration difficulties: fully resolved\n"
-            "• Headaches: resolved\n"
-            "• Increased appetite: largely settled (though weight management may remain a consideration)\n\n"
-            "The 90-Day Mark\n"
-            "Three months is the milestone at which the vast majority of former vapers feel they have broken the addiction. The dopamine pathways that nicotine hijacked have recalibrated. Natural rewards — food, exercise, social connection, achievement — produce normal levels of satisfaction without competition from the artificially elevated dopamine spikes that vaping provided.\n\n"
-            "What Remains at 90 Days\n"
-            "Some trigger-based cravings may still occur at 90 days — particularly in situations strongly associated with past vaping (stress, specific social contexts, alcohol). These are psychological, not physical, and they are manageable and continue to weaken.",
+            "Three Months Without Vaping: Breathing Easier\n\n"
+            "Source: U.S. Centers for Disease Control and Prevention (CDC)\n\n"
+            "The Cessation Timeline\n"
+            "The CDC's benefits-of-quitting timeline tracks how the body recovers after stopping nicotine. The early milestones it lists apply to anyone ending nicotine and inhaled-aerosol exposure, including former vapers:\n"
+            "• Within minutes: heart rate drops\n"
+            "• Within 24 hours: nicotine level in the blood falls to zero\n"
+            "• Within several days: carbon monoxide in the blood returns to a non-user's level\n"
+            "• Within 1 to 12 months: coughing and shortness of breath decrease\n\n"
+            "Where 90 Days Sits\n"
+            "At three months you are well inside the window in which the CDC reports coughing and shortness of breath easing. With nicotine long cleared and the airways no longer exposed to aerosol, breathing and stamina are noticeably better than at quit day.\n\n"
+            "Dependence Has Broken\n"
+            "By 90 days the nicotine that once drove daily cravings has been absent for months, and the receptor systems that adapted to it have re-regulated. The vast majority of people reach this point feeling they have broken the addiction itself — natural rewards like food, exercise, and social connection feel satisfying again without nicotine.\n\n"
+            "What Remains\n"
+            "Occasional cue-triggered urges — tied to stress, certain social settings, or alcohol — can still appear. These are psychological habit, not physical dependence, and they keep weakening the longer you stay vape-free.",
       ),
       QuitMilestone(
         day: 180,
         title: l10n.vapingMilestone180Title,
         description: l10n.vapingMilestone180Description,
         reference:
-            "Hobsonville Point Dental - The Effects of Vaping on Your Oral Health",
-        link:
-            "https://www.hobsonvillepointdental.co.nz/blog/the-effects-vaping-has-on-your-oral-health/",
-        referenceDate: "March 2026",
+            "Impact of E-Cigarettes on Oral Health — Narrative Review (PMC)",
+        link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11675017/",
+        referenceDate: "June 2026",
         referenceContent:
             "Six Months Without Vaping: Oral Health Recovers\n\n"
-            "Source: Hobsonville Point Dental\n\n"
-            "Vaping and Oral Health\n"
-            "Hobsonville Point Dental documents the significant but often underappreciated effects of vaping on oral health. Vaping aerosol causes direct damage to the mouth, gums, and teeth that parallels — and in some ways differs from — the effects of smoking.\n\n"
-            "How Vaping Harms Oral Health\n"
-            "• Nicotine reduces blood flow to gum tissue, causing gum recession and increasing periodontal disease risk\n"
-            "• Aerosol dries the mouth (xerostomia), reducing saliva's protective effect on teeth — saliva neutralises acid and washes away bacteria\n"
-            "• Vaping increases harmful bacteria in the mouth associated with tooth decay and gum disease\n"
-            "• Propylene glycol in vaping aerosol converts to acetic and lactic acid, which damages tooth enamel\n"
-            "• Flavouring compounds further damage enamel in many formulations\n\n"
-            "Oral Health Recovery at Six Months\n"
-            "At six months without vaping:\n"
-            "• Saliva production and mouth hydration have normalised\n"
-            "• Gum blood flow has recovered — gum tissue is healthier and more resilient\n"
-            "• Risk of new decay from vaping-related acid exposure is eliminated\n"
-            "• The oral microbiome is shifting back toward a healthier balance\n"
-            "• Gum inflammation is substantially reduced\n\n"
-            "What a Dentist Will Notice\n"
-            "At a six-month check-up, a dentist will typically observe healthier, less inflamed gum tissue and improved oral hygiene conditions compared to during active vaping.",
+            "Source: \"The Impact of E-Cigarettes on Oral Health — A Narrative Review,\" Dentistry Journal (2024), on PubMed Central\n\n"
+            "How Vaping Affects the Mouth\n"
+            "This peer-reviewed review summarises the evidence on vaping and oral health. Documented effects include:\n"
+            "• Reduced antibacterial and antioxidant properties of saliva, with raised markers of cell damage and inflammation (IL-6, IL-1β, TNF-α)\n"
+            "• Higher clinical attachment loss, pocket depth, and marginal bone loss versus non-users in several studies\n"
+            "• A shift in the oral microbiome that suppresses protective bacteria and favours disease-associated species\n"
+            "• Tooth discoloration and enamel demineralisation, with glycerin and flavourings promoting biofilm formation\n"
+            "• Suppression of gum bleeding — which can mask disease and delay diagnosis\n\n"
+            "Recovery After Stopping\n"
+            "Removing the aerosol removes these ongoing insults. With saliva's protective antibacterial and antioxidant function restored, the mouth better neutralises acid and clears bacteria; gum inflammation subsides; and the microbiome can shift back toward a healthier balance. By six months, a dentist is likely to see healthier, less inflamed gum tissue than during active vaping.\n\n"
+            "An Honest Caveat\n"
+            "The review notes that effects are often less severe than those of conventional cigarettes, that some studies show mixed results, and that long-term longitudinal data are still limited. Stopping removes a documented source of oral-health risk — which is reason enough to quit.",
       ),
       QuitMilestone(
         day: 365,
         title: l10n.vapingMilestone365Title,
         description: l10n.vapingMilestone365Description,
-        reference:
-            "American Cancer Society - Health Benefits of Quitting Over Time",
-        link:
-            "https://www.cancer.org/cancer/risk-prevention/tobacco/guide-quitting-smoking/benefits-of-quitting-smoking-over-time.html",
-        referenceDate: "March 2026",
+        reference: "CDC — Benefits of Quitting",
+        link: "https://www.cdc.gov/tobacco/about/benefits-of-quitting.html",
+        referenceDate: "June 2026",
         referenceContent:
             "One Year Without Vaping: Long-Term Health Restored\n\n"
-            "Source: American Cancer Society\n\n"
-            "The Long-Term Benefits Timeline\n"
-            "The American Cancer Society documents the established long-term health benefits of quitting nicotine use. While originally developed for cigarette cessation, the nicotine-related cardiovascular and cancer risk reductions apply to vaping cessation as well.\n\n"
-            "One Year: Heart Disease Risk Halved\n"
-            "The ACS documents that one year after quitting:\n"
-            "• Risk of coronary heart disease is approximately half that of a continuing user\n"
-            "• This is one of the most powerful and well-evidenced health benefits of cessation\n"
-            "• Blood vessels have fully recovered from nicotine-induced vasoconstriction\n"
-            "• Heart rate and blood pressure have been normal for months\n\n"
-            "Vaping-Specific Cancer Risk\n"
-            "While vaping's long-term cancer risk is less well-established than cigarettes (due to shorter history), vaping aerosol contains known carcinogens including formaldehyde, acetaldehyde, and acrolein. At one year without vaping:\n"
-            "• Exposure to these carcinogens has completely ceased for a full year\n"
-            "• The body's DNA repair mechanisms have had a year of uninterrupted recovery\n"
-            "• Respiratory tract tissue exposed to aerosol has had a full year to heal\n\n"
-            "One Year: A Genuine Transformation\n"
-            "The ACS emphasises that quitting nicotine — whether from cigarettes or vaping — is one of the single most impactful health decisions a person can make. One year in, the cardiovascular, respiratory, and cancer risk benefits are all measurable and significant.",
+            "Source: U.S. Centers for Disease Control and Prevention (CDC)\n\n"
+            "The Long-Term Timeline\n"
+            "The CDC's benefits-of-quitting timeline tracks how risk falls the longer you stay off nicotine. The cardiovascular milestones apply directly to former vapers, because nicotine is the shared driver of raised heart rate, blood pressure, and arterial strain:\n"
+            "• Within 1 to 2 years: risk of heart attack drops sharply\n"
+            "• Within 3 to 6 years: added risk of coronary heart disease drops by half\n"
+            "• Over 5 to 20 years: risks of stroke and several cancers continue to decline toward non-user levels\n\n"
+            "One Year In\n"
+            "At twelve months your heart rate and blood pressure have been free of nicotine's repeated spikes for a year, and your blood vessels have had that long to recover endothelial function. You are entering the window in which the CDC reports heart-attack risk falling sharply.\n\n"
+            "Aerosol Exposure: A Full Year Gone\n"
+            "Vaping aerosol contains cancer-causing chemicals, heavy metals, and volatile organic compounds. One year without it means a full year in which none of those have been deposited in your airways, giving respiratory tissue and DNA-repair processes uninterrupted time to recover.\n\n"
+            "The Bigger Picture\n"
+            "Ending nicotine use — whether from cigarettes or vaping — is among the most impactful health decisions a person can make. One year in, the cardiovascular and respiratory benefits are real and compounding.",
       ),
     ];
   }

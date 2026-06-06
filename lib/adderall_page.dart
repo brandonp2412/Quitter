@@ -15,7 +15,7 @@ class AdderallPage extends StatelessWidget {
         description: l10n.adderallMilestone1Description,
         reference: "MedlinePlus - Substance use - amphetamines",
         link: "https://medlineplus.gov/ency/patientinstructions/000792.htm",
-        referenceDate: "March 2026",
+        referenceDate: "June 2026",
         referenceContent:
             "Amphetamine Withdrawal: What Happens in the First 24 Hours\n\n"
             "Source: MedlinePlus (U.S. National Library of Medicine)\n\n"
@@ -39,178 +39,178 @@ class AdderallPage extends StatelessWidget {
         day: 3,
         title: l10n.adderallMilestone3Title,
         description: l10n.adderallMilestone3Description,
-        reference: "NCBI Bookshelf - Withdrawal Management",
+        reference:
+            "WHO Clinical Guidelines for Withdrawal Management (NCBI Bookshelf)",
         link: "https://www.ncbi.nlm.nih.gov/books/NBK310652/",
-        referenceDate: "March 2026",
+        referenceDate: "June 2026",
         referenceContent:
             "Amphetamine Withdrawal Management: Day 3\n\n"
-            "Source: NCBI Bookshelf — WHO Clinical Guidelines on Withdrawal Management\n\n"
-            "Peak Withdrawal\n"
-            "By day three, amphetamine withdrawal typically reaches its most intense point. The WHO clinical guidelines describe psychostimulant withdrawal as a syndrome characterised by dysphoric mood, fatigue, vivid and unpleasant dreams, insomnia or hypersomnia, increased appetite, and psychomotor retardation or agitation. For heavy users, these symptoms peak around 72 hours after the last dose.\n\n"
-            "Psychological Symptoms Are the Primary Challenge\n"
-            "Unlike opioid or alcohol withdrawal, the clinical guidelines note that amphetamine withdrawal does not involve significant physical symptoms like vomiting or tremors. The primary challenge is psychological: severe depression, anhedonia (inability to feel pleasure), and intense drug cravings driven by the dopamine-depleted state of the brain.\n\n"
-            "Cravings at Their Strongest\n"
-            "Cravings for amphetamines are typically at their most powerful around days 2–4. The brain is urgently signalling a return to the substance that restored its dopamine levels. Understanding that these cravings are a temporary neurological response — not a permanent state — is essential to getting through this phase.\n\n"
+            "Source: \"Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings,\" World Health Organization (2009), on the NCBI Bookshelf\n\n"
+            "Where Day 3 Sits\n"
+            "The WHO guidelines state that stimulant withdrawal symptoms 'begin within 24 hours of last use of stimulants and last for 3–5 days.' Day three is squarely inside this acute phase — typically among the hardest days before symptoms begin to settle.\n\n"
+            "The Symptoms\n"
+            "For amphetamine-type stimulants the guidelines list:\n"
+            "• Agitation and irritability\n"
+            "• Depression\n"
+            "• Increased sleeping and appetite\n"
+            "• Muscle aches\n"
+            "Heavy users may also develop psychotic symptoms such as paranoia, disordered thoughts, or hallucinations.\n\n"
+            "Mostly a Psychological Challenge\n"
+            "Unlike alcohol or opioid withdrawal, stimulant withdrawal does not bring vomiting, tremors, or seizures. The dominant difficulty is psychological — low mood, anhedonia, and craving driven by a dopamine-depleted brain.\n\n"
             "Management Approach\n"
-            "The WHO guidelines recommend a supportive care approach during this phase:\n"
-            "• A safe, calm environment with monitoring\n"
-            "• Adequate nutrition and hydration (appetite may be returning)\n"
-            "• Sleep support — many people alternate between insomnia and excessive sleeping\n"
-            "• Psychological support and reassurance\n"
-            "• No specific medication is universally recommended, though antidepressants may be considered for severe cases",
+            "The WHO guidelines recommend supportive care:\n"
+            "• Drinking at least 2–3 litres of water per day\n"
+            "• Multivitamin supplements with B group vitamins and vitamin C\n"
+            "• Symptomatic medication for aches and anxiety\n"
+            "• For severe agitation, behavioural strategies first, with diazepam sedation only if needed\n\n"
+            "Beyond the Acute Phase\n"
+            "The guidelines note that acute stimulant withdrawal is 'followed by a protracted withdrawal phase of 1–2 months duration' — milder, but a reminder that recovery continues past these first hard days.",
       ),
       QuitMilestone(
         day: 7,
         title: l10n.adderallMilestone7Title,
         description: l10n.adderallMilestone7Description,
-        reference: "BuzzRx - How Long Do Adderall Withdrawals Last?",
-        link:
-            "https://www.buzzrx.com/blog/how-long-do-adderall-withdrawals-last",
-        referenceDate: "March 2026",
+        reference:
+            "Clinical Management of Psychostimulant Withdrawal: Review of the Evidence (Addiction)",
+        link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10069411/",
+        referenceDate: "June 2026",
         referenceContent:
-            "One Week Without Adderall: Physical Symptoms Improving\n\n"
-            "The Acute Phase Is Ending\n"
-            "By the end of the first week, the most intense physical symptoms of Adderall withdrawal are typically resolving. The severe fatigue and hypersomnia of the crash phase give way to more normal energy levels, though most people still feel below their baseline. Sleep is becoming more regular, and appetite — which may have been ravenous in the early days — is stabilising.\n\n"
-            "Withdrawal Timeline Overview\n"
-            "Adderall withdrawal generally follows this pattern:\n"
-            "• Hours 6–24: Crash begins — fatigue, increased appetite, mood drop\n"
-            "• Days 2–4: Peak withdrawal — depression, cravings, irritability, sleep disruption\n"
-            "• Days 5–7: Physical symptoms begin subsiding; emotional symptoms persist\n"
-            "• Weeks 2–4: Post-acute phase — mood gradually improves, energy slowly returns\n"
-            "• Months 1–3: Brain chemistry continues rebalancing\n\n"
-            "What's Still Happening at Day 7\n"
-            "While physical symptoms improve, psychological symptoms often persist into the second week and beyond. Low motivation, difficulty concentrating, and emotional flatness (anhedonia) reflect the ongoing process of dopamine system recovery. These symptoms can feel discouraging but are a normal and temporary part of the brain recalibrating.\n\n"
-            "Factors Affecting Timeline\n"
-            "How long withdrawal lasts depends on:\n"
-            "• Duration and dose of use (longer use = longer recovery)\n"
-            "• Whether the drug was taken as prescribed or in higher doses\n"
-            "• Individual brain chemistry and metabolism\n"
-            "• Whether other substances were also used",
+            "One Week Without Adderall: The Worst Is Passing\n\n"
+            "Source: Li & Shoptaw, \"Clinical Management of Psychostimulant Withdrawal: Review of the Evidence,\" Addiction (2023), on PubMed Central\n\n"
+            "The Acute Phase Resolves\n"
+            "This evidence review describes psychostimulant withdrawal in phases. In the acute phase, symptoms 'peak after the first 2–3 days,' and the 'major discomfort from these symptoms usually resolves within 4–7 days.' By the end of the first week, the hardest part of the crash is behind most people — energy and appetite begin to steady, and sleep starts to regulate.\n\n"
+            "What Comes Next\n"
+            "The review describes an early protracted phase in which, 'over a period of 2–3 weeks, the intensity of most withdrawal symptoms resolves.' So while you are improving at day seven, some milder symptoms are expected to continue easing over the next couple of weeks.\n\n"
+            "What's Still Present at Day 7\n"
+            "Psychological symptoms typically outlast the physical crash:\n"
+            "• Low motivation and anhedonia\n"
+            "• Difficulty concentrating\n"
+            "• Mood that is still below baseline\n"
+            "These reflect a dopamine system that is recalibrating — a normal, temporary part of recovery.\n\n"
+            "An Honest Note\n"
+            "The review is candid that the evidence base is limited and there are no FDA-approved medications for stimulant withdrawal; supportive care, structure, and psychological support remain the mainstays through this phase.",
       ),
       QuitMilestone(
         day: 14,
         title: l10n.adderallMilestone14Title,
         description: l10n.adderallMilestone14Description,
-        reference: "WebMD - Adderall Withdrawal",
-        link: "https://www.webmd.com/add-adhd/adderall-withdrawal",
-        referenceDate: "March 2026",
+        reference:
+            "WHO Clinical Guidelines for Withdrawal Management (NCBI Bookshelf)",
+        link: "https://www.ncbi.nlm.nih.gov/books/NBK310652/",
+        referenceDate: "June 2026",
         referenceContent:
-            "Two Weeks Off Adderall: Emotional Stability Returning\n\n"
-            "The Post-Acute Phase\n"
-            "By the two-week mark, most people have moved through acute withdrawal into what's called the post-acute withdrawal syndrome (PAWS) phase. The physical crash is over, and the focus now shifts to emotional and psychological recovery as the brain's dopamine system continues its slow rebuild.\n\n"
-            "Emotional Symptoms\n"
-            "WebMD notes that the emotional symptoms of Adderall withdrawal — particularly depression, mood swings, and difficulty experiencing pleasure — can persist for weeks to months after stopping. At two weeks, these symptoms are typically less severe than at peak withdrawal, but still present. The brain's natural reward system, suppressed by long-term stimulant use, is gradually reactivating.\n\n"
-            "Sleep Normalisation\n"
-            "Sleep patterns are meaningfully more regular by two weeks. The vivid, unpleasant dreams of early withdrawal are fading, and the pattern of extreme fatigue alternating with insomnia is resolving. Better sleep in turn supports mood, concentration, and energy recovery.\n\n"
-            "Cognitive Function\n"
-            "Many people notice some return of natural concentration and motivation by the two-week mark — though it often doesn't feel as sharp as it did on the medication. This is normal. The brain is recalibrating to function without artificial stimulation, and cognitive function continues improving over the following months.\n\n"
-            "Relapse Risk\n"
-            "The two-week period carries significant relapse risk, particularly if underlying ADHD symptoms return strongly. Speaking with a doctor about managing ADHD without stimulants — or exploring alternative medications — is important during this phase.",
+            "Two Weeks Off Adderall: Into the Protracted Phase\n\n"
+            "Source: \"Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings,\" World Health Organization (2009), on the NCBI Bookshelf\n\n"
+            "Past the Acute Phase\n"
+            "The WHO guidelines put the acute stimulant withdrawal phase at 3–5 days, 'followed by a protracted withdrawal phase of 1–2 months duration.' At two weeks the acute crash is well behind you, and you are in this milder but longer protracted phase.\n\n"
+            "What the Protracted Phase Feels Like\n"
+            "The intense early symptoms — the heavy sleeping, agitation, and muscle aches the guidelines describe for acute withdrawal — have largely settled. What lingers is gentler: low or fluctuating mood, reduced motivation, and on-and-off cravings as the brain's reward system slowly recalibrates.\n\n"
+            "Sleep and Appetite\n"
+            "The increased sleeping and appetite of the acute phase are normalising. As sleep steadies, mood, concentration, and energy tend to follow.\n\n"
+            "Relapse Risk and ADHD\n"
+            "This is still a higher-risk period, particularly if underlying ADHD symptoms return without medication. The WHO guidelines emphasise psychological support and relapse-prevention skills; for people who took Adderall for ADHD, this is a good time to discuss non-stimulant strategies or alternatives with a doctor.",
       ),
       QuitMilestone(
         day: 30,
         title: l10n.adderallMilestone30Title,
         description: l10n.adderallMilestone30Description,
-        reference: "Drugs.com - How long does Adderall withdrawal last?",
-        link:
-            "https://www.drugs.com/medical-answers/long-adderall-withdrawal-3572393/",
-        referenceDate: "March 2026",
+        reference:
+            "Clinical Management of Psychostimulant Withdrawal: Review of the Evidence (Addiction)",
+        link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10069411/",
+        referenceDate: "June 2026",
         referenceContent:
-            "One Month Off Adderall: Brain Chemistry Rebalancing\n\n"
-            "Timeline to Full Withdrawal Resolution\n"
-            "Drugs.com notes that Adderall withdrawal symptoms typically resolve within 1–3 weeks for most users, though people who used high doses for extended periods may experience symptoms for several months. At the 30-day mark, the acute and post-acute withdrawal phases are typically complete or nearly so for moderate users.\n\n"
-            "Dopamine System Recovery\n"
-            "The core process happening at one month is the ongoing recovery of the brain's dopamine system. Long-term amphetamine use causes the brain to downregulate its dopamine receptors — reducing their number and sensitivity — because the drug was providing artificial stimulation. Over weeks to months of abstinence, the brain gradually upregulates these receptors back toward normal levels. At 30 days, this process is well underway.\n\n"
+            "One Month Off Adderall: Most Symptoms Behind You\n\n"
+            "Source: Li & Shoptaw, \"Clinical Management of Psychostimulant Withdrawal: Review of the Evidence,\" Addiction (2023), on PubMed Central\n\n"
+            "Where One Month Sits\n"
+            "This review describes an early protracted phase in which, 'over a period of 2–3 weeks, the intensity of most withdrawal symptoms resolves.' By 30 days you are past that window — the bulk of withdrawal symptoms have eased, and baseline mood and motivation are usually noticeably better than in the first week.\n\n"
+            "The Late Protracted Phase\n"
+            "The review is honest that recovery is not always finished at a month. It describes a late protracted phase that can 'extend from 1 to 6 months after initial abstinence,' sometimes linked to mild cognitive dysfunction — particularly memory and executive function (planning, focus, decision-making). If thinking still feels a step slow at one month, that is consistent with the evidence and expected to keep improving.\n\n"
             "Mood and Motivation\n"
-            "Many people report a noticeable improvement in baseline mood and motivation around the one-month mark compared to early withdrawal. The profound anhedonia of the crash phase has lifted significantly. Activities that felt completely joyless in the first week are beginning to feel rewarding again as natural dopamine signalling recovers.\n\n"
-            "Ongoing Challenges\n"
-            "For people with ADHD who were using Adderall as prescribed medication, this period can be challenging as ADHD symptoms may be more prominent without medication. Working with a healthcare provider to manage these symptoms is important. For people who were misusing Adderall, the brain is doing the work of recalibrating to natural levels of energy and focus — which, though lower than the drug-induced state, are healthy and sustainable.",
+            "The profound anhedonia of the crash has largely lifted by now. Activities that felt joyless in the first week start to feel rewarding again as natural dopamine signalling recovers.\n\n"
+            "For People With ADHD\n"
+            "If Adderall was prescribed for ADHD, underlying symptoms may be more noticeable now. Working with a healthcare provider on non-stimulant strategies or alternatives is important during this stage.",
       ),
       QuitMilestone(
         day: 60,
         title: l10n.adderallMilestone60Title,
         description: l10n.adderallMilestone60Description,
         reference:
-            "Orlando Recovery - Adderall Withdrawal Timeline: Symptoms, Duration and Treatment",
-        link:
-            "https://www.orlandorecovery.com/drug-addiction-resources/adderall/withdrawal-timeline/",
-        referenceDate: "March 2026",
+            "WHO Clinical Guidelines for Withdrawal Management (NCBI Bookshelf)",
+        link: "https://www.ncbi.nlm.nih.gov/books/NBK310652/",
+        referenceDate: "June 2026",
         referenceContent:
-            "Two Months Off Adderall: Cognitive Function Improving\n\n"
-            "By the two-month mark, the brain has had substantial time to recover from the effects of stimulant use. Most people no longer experience acute withdrawal symptoms, and the focus shifts entirely to the longer-term process of neural and cognitive recovery.\n\n"
-            "Cognitive Recovery\n"
-            "Orlando Recovery notes that cognitive improvements — particularly in working memory, attention, and executive function — continue well into the post-withdrawal period. At 60 days, many people notice they can concentrate more naturally without medication, think more clearly, and feel genuinely motivated rather than artificially energised.\n\n"
-            "Dopamine Receptor Sensitivity\n"
-            "Research shows that with sustained abstinence, dopamine receptor density and sensitivity continue recovering over months. At the two-month mark, the reward system is significantly more responsive to natural pleasures — food, social connection, accomplishment, exercise — than it was in early recovery.\n\n"
-            "Emotional Stability\n"
-            "Mood fluctuations that characterised early recovery are much less common by 60 days. Baseline emotional wellbeing is substantially improved for most people. Sleep quality continues to be good, which compounds the improvements in mood, cognition, and energy.\n\n"
+            "Two Months Off Adderall: The Protracted Phase Winds Down\n\n"
+            "Source: \"Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings,\" World Health Organization (2009), on the NCBI Bookshelf\n\n"
+            "Where Two Months Sits\n"
+            "The WHO guidelines describe a protracted stimulant withdrawal phase of '1–2 months duration' following the acute phase. At 60 days you are at the far end of that window — for many people the lingering withdrawal symptoms are largely resolving by now.\n\n"
+            "What Improves\n"
+            "The agitation, depressed mood, and disturbed sleep and appetite the guidelines list for stimulant withdrawal have, for most people, settled substantially:\n"
+            "• Baseline mood is steadier, with fewer of the swings of early recovery\n"
+            "• Sleep and appetite have normalised\n"
+            "• The reward system responds more readily to everyday pleasures — food, exercise, connection\n\n"
+            "An Honest Note\n"
+            "Recovery timelines vary with how long and how heavily the drug was used. Some people — especially after high-dose or long-term use — notice milder cognitive or mood symptoms persisting a little longer; this is normal and continues to improve with sustained abstinence.\n\n"
             "Physical Health\n"
-            "The physical effects of stimulant use — elevated heart rate, reduced appetite, weight loss — have fully reversed. Cardiovascular function is healthy, appetite is stable, and most people have reached a stable weight.",
+            "The stimulant effects on heart rate, appetite, and weight ease as the drug clears from daily life, and cardiovascular strain from stimulant use is relieved.",
       ),
       QuitMilestone(
         day: 90,
         title: l10n.adderallMilestone90Title,
         description: l10n.adderallMilestone90Description,
-        reference: "PMC - Clinical Management of Psychostimulant Withdrawal",
+        reference:
+            "Clinical Management of Psychostimulant Withdrawal: Review of the Evidence (Addiction)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10069411/",
-        referenceDate: "March 2026",
+        referenceDate: "June 2026",
         referenceContent:
-            "Three Months Off Adderall: Major Recovery Milestone\n\n"
-            "Source: PMC (PubMed Central) — Peer-reviewed research on psychostimulant withdrawal\n\n"
-            "What the Research Shows\n"
-            "A systematic review published in PMC examining the clinical management of psychostimulant withdrawal found that the majority of withdrawal symptoms resolve within 1–3 months, with cognitive function showing measurable improvement throughout this period. By 90 days, most people who used stimulants at moderate levels have largely completed their neurological recovery.\n\n"
-            "Protracted Withdrawal\n"
-            "The research notes that a subset of heavy, long-term users may experience protracted withdrawal syndrome — a continuation of milder psychological symptoms (particularly mood instability and concentration difficulties) beyond the 90-day mark. This is less common but known, and typically continues improving with sustained abstinence.\n\n"
-            "Brain Neuroplasticity\n"
-            "By three months, the brain has undergone significant neuroplastic changes: dopamine receptors have largely recovered, neural pathways associated with natural reward are more active, and the prefrontal cortex — which governs self-control and decision-making — shows improved function. These changes compound over time.\n\n"
-            "Treatment Implications\n"
-            "The PMC research emphasises that the 90-day period is when behavioral interventions (therapy, lifestyle changes, exercise) are most effective, as the brain is now neurologically capable of consolidating new patterns and habits. This is a powerful window for building a sustainable life without stimulants.",
+            "Three Months Off Adderall: Through the Worst, Still Healing\n\n"
+            "Source: Li & Shoptaw, \"Clinical Management of Psychostimulant Withdrawal: Review of the Evidence,\" Addiction (2023), on PubMed Central\n\n"
+            "Where 90 Days Sits\n"
+            "This review describes a late protracted phase that can 'extend from 1 to 6 months after initial abstinence.' At three months you are within that window: the acute and early symptoms are long resolved, but recovery is not necessarily finished — and that is normal.\n\n"
+            "An Honest Word on Cognition\n"
+            "The review links the late protracted phase to 'mild cognitive dysfunction,' especially memory and executive function, and notes 'continued deficits when making decisions about risk.' If concentration, memory, or planning still feel a little off at 90 days, the evidence says that can be part of this phase rather than a permanent state — and it continues to improve with sustained abstinence.\n\n"
+            "Why This Window Still Matters\n"
+            "The review is frank that no medications are FDA-approved for stimulant withdrawal and that sustained-abstinence rates are modest, so this is a period to lean on what works: structure, therapy, exercise, sleep, and support. Building those habits now is what carries recovery forward.\n\n"
+            "The Bigger Picture\n"
+            "Three months is a real achievement — the hardest physical and emotional stretches are behind you, and the trajectory from here, with continued abstinence, is one of steady improvement.",
       ),
       QuitMilestone(
         day: 180,
         title: l10n.adderallMilestone180Title,
         description: l10n.adderallMilestone180Description,
-        reference: "NCBI Bookshelf - Withdrawal Syndromes",
+        reference: "Withdrawal Syndromes — StatPearls (NCBI Bookshelf)",
         link: "https://www.ncbi.nlm.nih.gov/books/NBK459239/",
-        referenceDate: "March 2026",
+        referenceDate: "June 2026",
         referenceContent:
-            "Six Months Off Adderall: Brain Healing Continues\n\n"
-            "Source: NCBI Bookshelf — StatPearls clinical reference\n\n"
-            "Six months represents a substantial period of neurological healing. NCBI's clinical overview of withdrawal syndromes confirms that stimulant-related neurological changes continue improving for months to years after cessation, with the first six months being the most active period of recovery.\n\n"
-            "Neurochemical Restoration\n"
-            "The NCBI resource documents that long-term amphetamine use causes lasting changes to the dopaminergic and noradrenergic systems. These changes are largely (though not always completely) reversible with sustained abstinence. At six months, the neurochemical environment of the brain is substantially closer to its pre-drug state. Dopamine receptor sensitivity, serotonin function, and norepinephrine balance have all improved.\n\n"
-            "Cognitive and Emotional State\n"
-            "By six months, most people report:\n"
-            "• Stable, consistent mood without the cycling of early recovery\n"
-            "• Natural concentration and focus that, while different from stimulant-induced focus, is reliable\n"
-            "• Return of motivation driven by genuine interest rather than pharmacological stimulation\n"
-            "• Improved sleep quality sustained over months\n"
-            "• Emotional depth and capacity for pleasure fully restored\n\n"
+            "Six Months Off Adderall: Well Past the Hard Part\n\n"
+            "Source: \"Withdrawal Syndromes,\" StatPearls (NCBI Bookshelf), U.S. National Library of Medicine\n\n"
+            "What StatPearls Says About Stimulants\n"
+            "This clinical reference notes that stimulants like amphetamine 'do not produce withdrawal symptoms by definition' in the way alcohol or opioids do — vital functions are preserved. Instead, stopping brings a recovery period marked by marked depression, excessive sleep, increased hunger, dysphoria, and psychomotor slowing. It describes this recovery as 'generally slow,' with depression that can last 'several weeks,' and a protracted or 'extinction' phase beyond that.\n\n"
+            "Where Six Months Sits\n"
+            "At six months you are far past both the acute period and the several-weeks depressive phase StatPearls describes. The slow recovery it refers to has had substantial time to progress, and for most people baseline mood, sleep, appetite, and motivation are steady and reliable by now.\n\n"
+            "An Honest Note\n"
+            "StatPearls is clear that this recovery is gradual and that a protracted phase can include low mood — even, in some, suicidal thoughts — so ongoing support still matters. Recovery is real and well underway at six months, even if its exact pace varies between individuals.\n\n"
             "Relationship to ADHD\n"
-            "For people who had ADHD, six months of sobriety provides an opportunity for a clear-headed assessment of their current symptoms and whether non-stimulant treatment approaches are working. Many find that lifestyle changes (exercise, sleep hygiene, diet, therapy) significantly reduce ADHD symptoms at this stage.",
+            "For people who took Adderall for ADHD, six months of abstinence is a good point for a clear-headed review with a doctor of current symptoms and whether non-stimulant approaches — exercise, sleep, structure, therapy, or alternative medication — are meeting your needs.",
       ),
       QuitMilestone(
         day: 365,
         title: l10n.adderallMilestone365Title,
         description: l10n.adderallMilestone365Description,
         reference:
-            "PMC - Potential Adverse Effects of Amphetamine Treatment on Brain and Behavior",
+            "Potential Adverse Effects of Amphetamine Treatment on Brain and Behavior: A Review (PMC)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC2670101",
-        referenceDate: "March 2026",
+        referenceDate: "June 2026",
         referenceContent:
-            "One Year Off Adderall: Near-Complete Recovery\n\n"
-            "Source: PMC — Ricaurte et al., review of amphetamine effects on brain and behavior\n\n"
-            "This peer-reviewed review examines the long-term effects of amphetamine treatment on the brain, including evidence for both lasting damage and recovery with sustained abstinence.\n\n"
-            "What the Research Shows\n"
-            "The review documents that high-dose or long-term amphetamine use can cause lasting changes to dopaminergic and serotonergic nerve terminals — particularly in the striatum and prefrontal cortex. However, the research also shows evidence of substantial recovery with prolonged abstinence, with some markers of dopamine function showing near-normalisation at the 12-month mark in imaging studies.\n\n"
-            "Recovery vs. Permanent Change\n"
-            "The research distinguishes between two types of amphetamine-related neural change:\n"
-            "• Functional changes (receptor downregulation, neurotransmitter imbalances) — largely reversible over months to years\n"
-            "• Structural changes at very high doses (axon terminal damage) — partially reversible, with sprouting of new terminals documented over years of abstinence\n\n"
-            "Practical Recovery at One Year\n"
-            "For the vast majority of people who used Adderall at prescribed or moderate doses, one year represents near-complete functional recovery. The brain has rebuilt its natural reward, attention, and motivation systems. Cognitive function — memory, concentration, executive function — is fully operational.\n\n"
-            "Long-term Resilience\n"
-            "At one year, the risk of relapse is substantially lower than in early recovery, though it never reaches zero. The neural pathways associated with stimulant use have been significantly weakened by a year of non-activation, while new, healthier patterns have been strengthened.",
+            "One Year Off Adderall: Substantial Recovery, Honestly Framed\n\n"
+            "Source: Berman et al., \"Potential Adverse Effects of Amphetamine Treatment on Brain and Behavior: A Review,\" Molecular Psychiatry (2008), on PubMed Central\n\n"
+            "About This Review\n"
+            "This is a cautionary review of what high-dose or long-term amphetamine exposure can do to the brain. It is careful not to overstate recovery, which makes its evidence for healing all the more meaningful.\n\n"
+            "What It Says About Recovery\n"
+            "The review notes that 'some degree of recovery after protracted abstinence has been noted' — for example, partial recovery in cingulate blood flow and in striatal dopamine transporters. It cites work finding recovery in thalamic, but not striatal, deficits — the same region-specific, partial pattern seen across stimulant research.\n\n"
+            "The Honest Caveats\n"
+            "The review is candid that recovery can be incomplete: terminal deficits 'can persist for years following cessation,' and it even raises the possibility of some changes emerging early in abstinence. In other words, a year of abstinence brings real, measurable healing, but not necessarily a complete reset — especially after heavy or prolonged high-dose use.\n\n"
+            "What This Means at One Year\n"
+            "For most people — particularly those who took Adderall at prescribed doses — a year of abstinence means natural reward, attention, and motivation systems functioning well day to day. The science simply asks us to be honest: recovery is substantial and continues, while some deeper changes from heavy use may take longer or remain. Relapse risk is much lower than in early recovery, though never zero.",
       ),
     ];
   }
