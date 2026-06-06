@@ -52,6 +52,7 @@ void toast(String message, {SnackBarAction? action}) {
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(24)),
       action: action ?? def,
       duration: const Duration(seconds: 4),
+      persist: false,
     ),
   );
 }
