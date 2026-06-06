@@ -182,7 +182,7 @@ class QuitCard extends StatelessWidget {
         if (onDelete != null)
           Positioned(
             top: 6,
-            left: 6,
+            right: 6,
             child: GestureDetector(
               onTap: onDelete,
               behavior: HitTestBehavior.opaque,
