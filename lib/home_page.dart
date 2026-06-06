@@ -14,6 +14,7 @@ import 'package:provider/provider.dart';
 import 'package:quitter/addiction_provider.dart';
 import 'package:quitter/alcohol_page.dart';
 import 'package:quitter/entry.dart';
+import 'package:quitter/edit_entry_page.dart';
 import 'package:quitter/entry_page.dart';
 import 'package:quitter/marijuana_page.dart';
 import 'package:quitter/meth_page.dart';
@@ -456,10 +457,14 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
             entry.title,
             () => addictions.deleteEntry(entry.id),
           ),
-          onRename: () => _showRenameDialog(
-            entry.title,
-            (newName) => addictions.updateEntry(entry.copyWith(title: newName)),
-          ),
+          onRename: () async {
+            await Navigator.of(context).push(
+              MaterialPageRoute(
+                builder: (context) => EditEntryPage(entry: entry),
+              ),
+            );
+            if (mounted) _loadQuitDays();
+          },
         ),
       );
     }
