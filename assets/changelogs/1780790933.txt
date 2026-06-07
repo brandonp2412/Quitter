@@ -1,0 +1,3 @@
+• add Material icons to picker and scroll selection into view
+• make preset tile icon/color editable
+• generate full Material icon set and make picker lazy
