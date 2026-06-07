@@ -8,12 +8,16 @@ class IconPickerWidget extends StatefulWidget {
   final Color? iconColor;
   final double iconSize;
 
+  /// Height of the scrollable icon grid.
+  final double gridHeight;
+
   const IconPickerWidget({
     super.key,
     this.selectedIcon,
     required this.onIconSelected,
     this.iconColor,
     this.iconSize = 30.0,
+    this.gridHeight = 300.0,
   });
 
   @override
@@ -21,47 +25,60 @@ class IconPickerWidget extends StatefulWidget {
 }
 
 class _IconPickerWidgetState extends State<IconPickerWidget> {
+  static const double _spacing = 8.0;
+  static const double _maxTileExtent = 56.0;
+
   final TextEditingController _searchController = TextEditingController();
-  final GlobalKey _selectedIconKey = GlobalKey();
+  final ScrollController _scrollController = ScrollController();
   List<IconData> filteredIcons = [];
+  bool _didInitialScroll = false;
 
   @override
   void initState() {
     super.initState();
-    filteredIcons = allIcons.entries.map((entry) => entry.value).toList();
+    filteredIcons = allIcons.values.toList();
     _searchController.addListener(_filterIcons);
-    WidgetsBinding.instance.addPostFrameCallback((_) {
-      final ctx = _selectedIconKey.currentContext;
-      if (ctx == null) return;
-      Scrollable.ensureVisible(
-        ctx,
-        alignment: 0.5,
-        duration: const Duration(milliseconds: 300),
-        curve: Curves.easeInOut,
-      );
-    });
   }
 
   @override
   void dispose() {
     _searchController.dispose();
+    _scrollController.dispose();
     super.dispose();
   }
 
   void _filterIcons() {
-    String query = _searchController.text.toLowerCase();
-    if (query.isEmpty) {
-      setState(() {
-        filteredIcons = allIcons.entries.map((entry) => entry.value).toList();
-      });
+    final String query = _searchController.text.toLowerCase();
+    setState(() {
+      filteredIcons = query.isEmpty
+          ? allIcons.values.toList()
+          : allIcons.entries
+                .where((entry) => entry.key.contains(query))
+                .map((entry) => entry.value)
+                .toList();
+    });
+  }
+
+  /// Scrolls the grid so the initially selected icon is roughly centered.
+  ///
+  /// Lazy grids only build visible tiles, so we compute the target offset from
+  /// the layout geometry rather than relying on the tile's BuildContext.
+  void _scrollToSelected(int crossAxisCount, double rowExtent) {
+    if (_didInitialScroll || widget.selectedIcon == null) return;
+    final int index = filteredIcons.indexOf(widget.selectedIcon!);
+    if (index < 0) {
+      _didInitialScroll = true;
       return;
     }
-
-    setState(() {
-      filteredIcons = allIcons.entries
-          .where((entry) => entry.key.contains(query))
-          .map((entry) => entry.value)
-          .toList();
+    _didInitialScroll = true;
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (!_scrollController.hasClients) return;
+      final int row = index ~/ crossAxisCount;
+      final double target =
+          row * rowExtent - (widget.gridHeight - rowExtent) / 2;
+      _scrollController.jumpTo(
+        target.clamp(0.0, _scrollController.position.maxScrollExtent),
+      );
     });
   }
 
@@ -71,70 +88,87 @@ class _IconPickerWidgetState extends State<IconPickerWidget> {
       mainAxisSize: MainAxisSize.min,
       children: [
         SearchBar(
-          leading: Padding(
-            padding: const EdgeInsets.only(left: 8),
-            child: const Icon(Icons.search),
+          leading: const Padding(
+            padding: EdgeInsets.only(left: 8),
+            child: Icon(Icons.search),
           ),
           controller: _searchController,
           hintText: 'Search icons...',
           trailing: _searchController.text.isNotEmpty
               ? [
                   IconButton(
-                    onPressed: () {
-                      _searchController.text = '';
-                    },
-                    icon: Icon(Icons.clear),
+                    onPressed: () => _searchController.clear(),
+                    icon: const Icon(Icons.clear),
                   ),
                 ]
               : null,
         ),
-
         const SizedBox(height: 16),
+        SizedBox(
+          height: widget.gridHeight,
+          child: filteredIcons.isEmpty
+              ? const Center(child: Text('No icons found'))
+              : LayoutBuilder(
+                  builder: (context, constraints) {
+                    final int crossAxisCount =
+                        (constraints.maxWidth / (_maxTileExtent + _spacing))
+                            .floor()
+                            .clamp(1, 12);
+                    final double tileExtent =
+                        (constraints.maxWidth -
+                            _spacing * (crossAxisCount - 1)) /
+                        crossAxisCount;
+                    _scrollToSelected(crossAxisCount, tileExtent + _spacing);
 
-        filteredIcons.isEmpty
-            ? const Padding(
-                padding: EdgeInsets.all(32.0),
-                child: Text('No icons found'),
-              )
-            : Wrap(
-                spacing: 8.0,
-                runSpacing: 8.0,
-                children: filteredIcons.map((icon) {
-                  final isSelected = widget.selectedIcon == icon;
-
-                  return GestureDetector(
-                    key: isSelected ? _selectedIconKey : null,
-                    onTap: () => widget.onIconSelected(icon),
-                    child: Container(
-                      width: 48.0,
-                      height: 48.0,
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(8.0),
-                        gradient: isSelected
-                            ? LinearGradient(
-                                colors: [
-                                  widget.iconColor ?? Colors.purple,
-                                  widget.iconColor?.withValues(alpha: 0.7) ??
-                                      Colors.purple.withValues(alpha: 0.7),
-                                ],
-                                begin: Alignment.topLeft,
-                                end: Alignment.bottomRight,
-                              )
-                            : null,
+                    return GridView.builder(
+                      controller: _scrollController,
+                      padding: EdgeInsets.zero,
+                      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                        crossAxisCount: crossAxisCount,
+                        crossAxisSpacing: _spacing,
+                        mainAxisSpacing: _spacing,
                       ),
-                      child: Icon(
-                        icon,
-                        size: widget.iconSize,
-                        color: isSelected
-                            ? getContrastingColor(
-                                widget.iconColor ?? Colors.purple,
-                              )
-                            : null,
-                      ),
-                    ),
-                  );
-                }).toList(),
-              ),
+                      itemCount: filteredIcons.length,
+                      itemBuilder: (context, index) {
+                        final icon = filteredIcons[index];
+                        final bool isSelected = widget.selectedIcon == icon;
+                        return GestureDetector(
+                          onTap: () => widget.onIconSelected(icon),
+                          child: Container(
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(8.0),
+                              gradient: isSelected
+                                  ? LinearGradient(
+                                      colors: [
+                                        widget.iconColor ?? Colors.purple,
+                                        widget.iconColor?.withValues(
+                                              alpha: 0.7,
+                                            ) ??
+                                            Colors.purple.withValues(
+                                              alpha: 0.7,
+                                            ),
+                                      ],
+                                      begin: Alignment.topLeft,
+                                      end: Alignment.bottomRight,
+                                    )
+                                  : null,
+                            ),
+                            child: Icon(
+                              icon,
+                              size: widget.iconSize,
+                              color: isSelected
+                                  ? getContrastingColor(
+                                      widget.iconColor ?? Colors.purple,
+                                    )
+                                  : null,
+                            ),
+                          ),
+                        );
+                      },
+                    );
+                  },
+                ),
+        ),
       ],
     );
   }
