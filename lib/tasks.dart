@@ -211,6 +211,14 @@ Future<void> notifyProgress(FlutterLocalNotificationsPlugin plugin) async {
     {'key': 'social_media', 'name': 'Social media'},
     {'key': 'pornography', 'name': 'AC'},
     {'key': 'cocaine', 'name': 'Cocaine'},
+    {'key': 'kratom', 'name': 'Kratom'},
+    {'key': 'gabapentinoids', 'name': 'Gabapentin / Pregabalin'},
+    {'key': 'ghb', 'name': 'GHB'},
+    {'key': 'ketamine', 'name': 'Ketamine'},
+    {'key': 'inhalants', 'name': 'Inhalants'},
+    {'key': 'synthetic_cannabinoids', 'name': 'Synthetic cannabinoids'},
+    {'key': 'mdma', 'name': 'MDMA'},
+    {'key': 'steroids', 'name': 'Anabolic steroids'},
   ];
 
   final List<String> messages = [

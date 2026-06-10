@@ -9,6 +9,14 @@ import 'package:quitter/snri_page.dart';
 import 'package:quitter/ssri_page.dart';
 import 'package:quitter/tca_page.dart';
 import 'package:quitter/cocaine_page.dart';
+import 'package:quitter/gabapentinoids_page.dart';
+import 'package:quitter/ghb_page.dart';
+import 'package:quitter/inhalants_page.dart';
+import 'package:quitter/ketamine_page.dart';
+import 'package:quitter/kratom_page.dart';
+import 'package:quitter/mdma_page.dart';
+import 'package:quitter/steroids_page.dart';
+import 'package:quitter/synthetic_cannabinoids_page.dart';
 import 'package:quitter/edit_entry_page.dart';
 import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:quitter/marijuana_page.dart';
@@ -215,6 +223,87 @@ class AddAddictionPage extends StatelessWidget {
           icon: Icons.air,
           gradientColors: [const Color(0xFF06B6D4), const Color(0xFF0EA5E9)],
           destination: const VapingPage(started: false),
+        ),
+      );
+    }
+
+    if (addictions.quitKratom == null) {
+      options.add(
+        _AddictionOption(
+          title: l10n.addictionKratom,
+          icon: Icons.local_florist,
+          gradientColors: [const Color(0xFF6D9F4E), const Color(0xFF3F6B2E)],
+          destination: const KratomPage(started: false),
+        ),
+      );
+    }
+    if (addictions.quitGabapentinoids == null) {
+      options.add(
+        _AddictionOption(
+          title: l10n.addictionGabapentinoid,
+          icon: Icons.medication_outlined,
+          gradientColors: [const Color(0xFF94A3B8), const Color(0xFF475569)],
+          destination: const GabapentinoidPage(started: false),
+        ),
+      );
+    }
+    if (addictions.quitGhb == null) {
+      options.add(
+        _AddictionOption(
+          title: l10n.addictionGhb,
+          icon: Icons.water_drop,
+          gradientColors: [const Color(0xFF60A5FA), const Color(0xFF1E3A8A)],
+          destination: const GhbPage(started: false),
+        ),
+      );
+    }
+    if (addictions.quitKetamine == null) {
+      options.add(
+        _AddictionOption(
+          title: l10n.addictionKetamine,
+          icon: Icons.vaccines,
+          gradientColors: [const Color(0xFF818CF8), const Color(0xFF4338CA)],
+          destination: const KetaminePage(started: false),
+        ),
+      );
+    }
+    if (addictions.quitInhalants == null) {
+      options.add(
+        _AddictionOption(
+          title: l10n.addictionInhalants,
+          icon: Icons.local_gas_station,
+          gradientColors: [const Color(0xFF9CA3AF), const Color(0xFF4B5563)],
+          destination: const InhalantsPage(started: false),
+        ),
+      );
+    }
+    if (addictions.quitSyntheticCannabinoids == null) {
+      options.add(
+        _AddictionOption(
+          title: l10n.addictionSyntheticCannabinoids,
+          icon: Icons.whatshot,
+          gradientColors: [const Color(0xFFA3E635), const Color(0xFF4D7C0F)],
+          destination: const SyntheticCannabinoidsPage(started: false),
+        ),
+      );
+    }
+    if (addictions.quitMdma == null) {
+      options.add(
+        _AddictionOption(
+          title: l10n.addictionMdma,
+          icon: Icons.favorite,
+          gradientColors: [const Color(0xFFF472B6), const Color(0xFFA855F7)],
+          destination: const MdmaPage(started: false),
+        ),
+      );
+    }
+    if (addictions.quitSteroids == null) {
+      options.add(
+        _AddictionOption(
+          title: l10n.addictionSteroids,
+          icon: Icons.fitness_center,
+          gradientColors: [const Color(0xFFEF4444), const Color(0xFF7F1D1D)],
+          destination: const SteroidsPage(started: false),
         ),
       );
     }

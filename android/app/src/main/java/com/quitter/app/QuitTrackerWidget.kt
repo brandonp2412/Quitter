@@ -163,6 +163,62 @@ class QuitTrackerWidget : AppWidgetProvider() {
                                             R.drawable.ic_air,
                                             0xFF38BDF8,
                                             0xFF7DD3FC
+                                    ),
+                            "kratom" to
+                                    AddictionInfo(
+                                            context.getString(R.string.addiction_kratom),
+                                            R.drawable.ic_medication,
+                                            0xFF6D9F4E,
+                                            0xFF3F6B2E
+                                    ),
+                            "gabapentinoids" to
+                                    AddictionInfo(
+                                            context.getString(R.string.addiction_gabapentinoids),
+                                            R.drawable.ic_medication,
+                                            0xFF94A3B8,
+                                            0xFF475569
+                                    ),
+                            "ghb" to
+                                    AddictionInfo(
+                                            context.getString(R.string.addiction_ghb),
+                                            R.drawable.ic_medication,
+                                            0xFF60A5FA,
+                                            0xFF1E3A8A
+                                    ),
+                            "ketamine" to
+                                    AddictionInfo(
+                                            context.getString(R.string.addiction_ketamine),
+                                            R.drawable.ic_medication,
+                                            0xFF818CF8,
+                                            0xFF4338CA
+                                    ),
+                            "inhalants" to
+                                    AddictionInfo(
+                                            context.getString(R.string.addiction_inhalants),
+                                            R.drawable.ic_medication,
+                                            0xFF9CA3AF,
+                                            0xFF4B5563
+                                    ),
+                            "synthetic_cannabinoids" to
+                                    AddictionInfo(
+                                            context.getString(R.string.addiction_synthetic_cannabinoids),
+                                            R.drawable.ic_medication,
+                                            0xFFA3E635,
+                                            0xFF4D7C0F
+                                    ),
+                            "mdma" to
+                                    AddictionInfo(
+                                            context.getString(R.string.addiction_mdma),
+                                            R.drawable.ic_medication,
+                                            0xFFF472B6,
+                                            0xFFA855F7
+                                    ),
+                            "steroids" to
+                                    AddictionInfo(
+                                            context.getString(R.string.addiction_steroids),
+                                            R.drawable.ic_medication,
+                                            0xFFEF4444,
+                                            0xFF7F1D1D
                                     )
                     )
 

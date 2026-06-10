@@ -100,6 +100,1014 @@ abstract class AppLocalizations {
     Locale('zh'),
   ];
 
+  /// No description provided for @kratomPageTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Kratom Recovery'**
+  String get kratomPageTitle;
+
+  /// No description provided for @kratomHeaderStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Your Recovery Journey'**
+  String get kratomHeaderStarted;
+
+  /// No description provided for @kratomHeaderNotStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Benefits of Quitting Kratom'**
+  String get kratomHeaderNotStarted;
+
+  /// No description provided for @kratomSubtitleStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Track your progress and celebrate each milestone'**
+  String get kratomSubtitleStarted;
+
+  /// No description provided for @kratomSubtitleNotStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'See what happens when you quit'**
+  String get kratomSubtitleNotStarted;
+
+  /// No description provided for @kratomInfoBox.
+  ///
+  /// In en, this message translates to:
+  /// **'Kratom acts on opioid receptors, so stopping can produce an opioid-like withdrawal. If you use heavily or alongside other opioids, ask a clinician about medically supervised withdrawal.'**
+  String get kratomInfoBox;
+
+  /// No description provided for @addictionKratom.
+  ///
+  /// In en, this message translates to:
+  /// **'Kratom'**
+  String get addictionKratom;
+
+  /// No description provided for @kratomMilestone1Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Withdrawal Begins'**
+  String get kratomMilestone1Title;
+
+  /// No description provided for @kratomMilestone1Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Kratom acts on opioid receptors, so within 6–12 hours of your last dose you may feel restlessness, anxiety, sweating, runny nose, and muscle aches. This is your nervous system beginning to recalibrate.'**
+  String get kratomMilestone1Description;
+
+  /// No description provided for @kratomMilestone3Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Peak Withdrawal'**
+  String get kratomMilestone3Title;
+
+  /// No description provided for @kratomMilestone3Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Acute symptoms usually peak around days 2–3: stronger aches, insomnia, stomach upset, and low mood. This is the hardest point, and it is temporary.'**
+  String get kratomMilestone3Description;
+
+  /// No description provided for @kratomMilestone7Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Acute Symptoms Subside'**
+  String get kratomMilestone7Title;
+
+  /// No description provided for @kratomMilestone7Description.
+  ///
+  /// In en, this message translates to:
+  /// **'By one week the worst physical symptoms — aches, stomach upset, sweating — have largely faded. Sleep and energy are still recovering.'**
+  String get kratomMilestone7Description;
+
+  /// No description provided for @kratomMilestone14Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Mood and Sleep Recovering'**
+  String get kratomMilestone14Title;
+
+  /// No description provided for @kratomMilestone14Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Two weeks in, sleep is more reliable and mood is steadier as your brain\'s own reward chemistry begins to rebalance.'**
+  String get kratomMilestone14Description;
+
+  /// No description provided for @kratomMilestone30Title.
+  ///
+  /// In en, this message translates to:
+  /// **'One Month Clear'**
+  String get kratomMilestone30Title;
+
+  /// No description provided for @kratomMilestone30Description.
+  ///
+  /// In en, this message translates to:
+  /// **'At a month the body has stabilised: sleep, appetite, and energy are markedly better, and cravings are less frequent.'**
+  String get kratomMilestone30Description;
+
+  /// No description provided for @kratomMilestone90Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Stable Foundation'**
+  String get kratomMilestone90Title;
+
+  /// No description provided for @kratomMilestone90Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Three months of abstinence gives the brain\'s reward and stress circuits extended time to re-regulate. Mood, focus, and motivation are noticeably steadier.'**
+  String get kratomMilestone90Description;
+
+  /// No description provided for @kratomMilestone365Title.
+  ///
+  /// In en, this message translates to:
+  /// **'One Year Free'**
+  String get kratomMilestone365Title;
+
+  /// No description provided for @kratomMilestone365Description.
+  ///
+  /// In en, this message translates to:
+  /// **'A full year free of kratom. The opioid system has long re-regulated, cravings are infrequent, and the habit no longer organises your day.'**
+  String get kratomMilestone365Description;
+
+  /// No description provided for @gabapentinoidsPageTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Gabapentinoid Recovery'**
+  String get gabapentinoidsPageTitle;
+
+  /// No description provided for @gabapentinoidsHeaderStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Your Recovery Journey'**
+  String get gabapentinoidsHeaderStarted;
+
+  /// No description provided for @gabapentinoidsHeaderNotStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Benefits of Quitting Gabapentin / Pregabalin'**
+  String get gabapentinoidsHeaderNotStarted;
+
+  /// No description provided for @gabapentinoidsSubtitleStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Track your progress and celebrate each milestone'**
+  String get gabapentinoidsSubtitleStarted;
+
+  /// No description provided for @gabapentinoidsSubtitleNotStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'See what happens when you quit'**
+  String get gabapentinoidsSubtitleNotStarted;
+
+  /// No description provided for @gabapentinoidsInfoBox.
+  ///
+  /// In en, this message translates to:
+  /// **'Never stop gabapentin or pregabalin abruptly. Sudden discontinuation can trigger seizures — especially if you take them for epilepsy. A gradual, medically supervised taper is essential.'**
+  String get gabapentinoidsInfoBox;
+
+  /// No description provided for @addictionGabapentinoid.
+  ///
+  /// In en, this message translates to:
+  /// **'Gabapentin / Pregabalin'**
+  String get addictionGabapentinoid;
+
+  /// No description provided for @gabapentinoidsMilestone1Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Taper, Don\'t Stop Suddenly'**
+  String get gabapentinoidsMilestone1Title;
+
+  /// No description provided for @gabapentinoidsMilestone1Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Gabapentinoid withdrawal can begin within 12–48 hours. The critical risk is seizures on abrupt cessation, so these drugs must be tapered under medical guidance rather than stopped cold.'**
+  String get gabapentinoidsMilestone1Description;
+
+  /// No description provided for @gabapentinoidsMilestone3Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Peak Withdrawal'**
+  String get gabapentinoidsMilestone3Title;
+
+  /// No description provided for @gabapentinoidsMilestone3Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Symptoms typically peak around day 3: heightened anxiety, insomnia, sweating, nausea, and sometimes confusion. A supervised taper greatly reduces this.'**
+  String get gabapentinoidsMilestone3Description;
+
+  /// No description provided for @gabapentinoidsMilestone7Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Acute Phase Easing'**
+  String get gabapentinoidsMilestone7Title;
+
+  /// No description provided for @gabapentinoidsMilestone7Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Around days 7–10 the acute symptoms substantially decrease. A gradual taper keeps this window manageable.'**
+  String get gabapentinoidsMilestone7Description;
+
+  /// No description provided for @gabapentinoidsMilestone14Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Sleep and Anxiety Settling'**
+  String get gabapentinoidsMilestone14Title;
+
+  /// No description provided for @gabapentinoidsMilestone14Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Two weeks in, sleep and baseline anxiety are improving as the nervous system adapts to functioning without the drug.'**
+  String get gabapentinoidsMilestone14Description;
+
+  /// No description provided for @gabapentinoidsMilestone30Title.
+  ///
+  /// In en, this message translates to:
+  /// **'One Month Clear'**
+  String get gabapentinoidsMilestone30Title;
+
+  /// No description provided for @gabapentinoidsMilestone30Description.
+  ///
+  /// In en, this message translates to:
+  /// **'At a month most people are through withdrawal, with steadier mood, sleep, and clarity. Any lingering symptoms are usually mild.'**
+  String get gabapentinoidsMilestone30Description;
+
+  /// No description provided for @gabapentinoidsMilestone90Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Stable and Adjusted'**
+  String get gabapentinoidsMilestone90Title;
+
+  /// No description provided for @gabapentinoidsMilestone90Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Three months clear, the nervous system has fully readjusted. Most people feel stable, with normal sleep and mood.'**
+  String get gabapentinoidsMilestone90Description;
+
+  /// No description provided for @gabapentinoidsMilestone180Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Half a Year Free'**
+  String get gabapentinoidsMilestone180Title;
+
+  /// No description provided for @gabapentinoidsMilestone180Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Six months free. The drug is long gone from your routine, and any rebound symptoms have resolved.'**
+  String get gabapentinoidsMilestone180Description;
+
+  /// No description provided for @ghbPageTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'GHB Recovery'**
+  String get ghbPageTitle;
+
+  /// No description provided for @ghbHeaderStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Your Recovery Journey'**
+  String get ghbHeaderStarted;
+
+  /// No description provided for @ghbHeaderNotStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Benefits of Quitting GHB'**
+  String get ghbHeaderNotStarted;
+
+  /// No description provided for @ghbSubtitleStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Track your progress and celebrate each milestone'**
+  String get ghbSubtitleStarted;
+
+  /// No description provided for @ghbSubtitleNotStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'See what happens when you quit'**
+  String get ghbSubtitleNotStarted;
+
+  /// No description provided for @ghbInfoBox.
+  ///
+  /// In en, this message translates to:
+  /// **'GHB withdrawal is a medical emergency — it rivals alcohol and benzodiazepine withdrawal and can cause delirium and seizures. Heavy or around-the-clock users should not stop without supervised inpatient detox.'**
+  String get ghbInfoBox;
+
+  /// No description provided for @addictionGhb.
+  ///
+  /// In en, this message translates to:
+  /// **'GHB'**
+  String get addictionGhb;
+
+  /// No description provided for @ghbMilestone1Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Seek Medical Detox'**
+  String get ghbMilestone1Title;
+
+  /// No description provided for @ghbMilestone1Description.
+  ///
+  /// In en, this message translates to:
+  /// **'GHB has a very short half-life, so withdrawal can start 1–6 hours after the last dose with anxiety, tremor, insomnia, and a fast heart rate. This is one of the most dangerous detoxes — get medical help.'**
+  String get ghbMilestone1Description;
+
+  /// No description provided for @ghbMilestone3Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Peak Danger Window'**
+  String get ghbMilestone3Title;
+
+  /// No description provided for @ghbMilestone3Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Symptoms peak around 48–72 hours and can escalate to severe agitation, hallucinations, and delirium. This phase needs medical monitoring.'**
+  String get ghbMilestone3Description;
+
+  /// No description provided for @ghbMilestone7Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Acute Phase Passing'**
+  String get ghbMilestone7Title;
+
+  /// No description provided for @ghbMilestone7Description.
+  ///
+  /// In en, this message translates to:
+  /// **'By around a week the acute syndrome is usually resolving, though delirium can last longer in severe cases. The body is past the most dangerous point.'**
+  String get ghbMilestone7Description;
+
+  /// No description provided for @ghbMilestone14Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Through the Worst'**
+  String get ghbMilestone14Title;
+
+  /// No description provided for @ghbMilestone14Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Two weeks in, even severe withdrawal has usually run its course. Sleep and autonomic stability are returning, though anxiety can linger.'**
+  String get ghbMilestone14Description;
+
+  /// No description provided for @ghbMilestone30Title.
+  ///
+  /// In en, this message translates to:
+  /// **'One Month Stable'**
+  String get ghbMilestone30Title;
+
+  /// No description provided for @ghbMilestone30Description.
+  ///
+  /// In en, this message translates to:
+  /// **'At a month the acute danger is well behind you. Protracted symptoms — anxiety, sleep problems, low mood — may persist but are improving.'**
+  String get ghbMilestone30Description;
+
+  /// No description provided for @ghbMilestone90Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Protracted Symptoms Fading'**
+  String get ghbMilestone90Title;
+
+  /// No description provided for @ghbMilestone90Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Three months on, protracted anxiety, sleep, and mood symptoms are easing as the brain\'s GABA systems re-regulate.'**
+  String get ghbMilestone90Description;
+
+  /// No description provided for @ghbMilestone180Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Half a Year Free'**
+  String get ghbMilestone180Title;
+
+  /// No description provided for @ghbMilestone180Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Six months free of GHB. The protracted withdrawal has largely resolved and your baseline mood, sleep, and cognition are restored.'**
+  String get ghbMilestone180Description;
+
+  /// No description provided for @ketaminePageTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Ketamine Recovery'**
+  String get ketaminePageTitle;
+
+  /// No description provided for @ketamineHeaderStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Your Recovery Journey'**
+  String get ketamineHeaderStarted;
+
+  /// No description provided for @ketamineHeaderNotStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Benefits of Quitting Ketamine'**
+  String get ketamineHeaderNotStarted;
+
+  /// No description provided for @ketamineSubtitleStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Track your progress and celebrate each milestone'**
+  String get ketamineSubtitleStarted;
+
+  /// No description provided for @ketamineSubtitleNotStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'See what happens when you quit'**
+  String get ketamineSubtitleNotStarted;
+
+  /// No description provided for @ketamineInfoBox.
+  ///
+  /// In en, this message translates to:
+  /// **'Ketamine withdrawal is mainly psychological — cravings, low mood, and cognitive fog rather than physical illness. Its biggest physical harm is bladder damage (ketamine cystitis), and stopping is the essential first step toward bladder recovery.'**
+  String get ketamineInfoBox;
+
+  /// No description provided for @addictionKetamine.
+  ///
+  /// In en, this message translates to:
+  /// **'Ketamine'**
+  String get addictionKetamine;
+
+  /// No description provided for @ketamineMilestone1Title.
+  ///
+  /// In en, this message translates to:
+  /// **'System Clearing'**
+  String get ketamineMilestone1Title;
+
+  /// No description provided for @ketamineMilestone1Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Ketamine rarely causes severe physical withdrawal. In the first day you may notice mood swings, cravings, sweating, or palpitations as the drug clears.'**
+  String get ketamineMilestone1Description;
+
+  /// No description provided for @ketamineMilestone7Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Mood and Cravings'**
+  String get ketamineMilestone7Title;
+
+  /// No description provided for @ketamineMilestone7Description.
+  ///
+  /// In en, this message translates to:
+  /// **'The first week is mostly about psychological withdrawal — cravings, low or swinging mood, and cognitive fog — rather than physical symptoms.'**
+  String get ketamineMilestone7Description;
+
+  /// No description provided for @ketamineMilestone14Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Cognitive Fog Lifting'**
+  String get ketamineMilestone14Title;
+
+  /// No description provided for @ketamineMilestone14Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Two weeks in, thinking and memory start to clear and mood steadies as the dissociative effects fully wear off.'**
+  String get ketamineMilestone14Description;
+
+  /// No description provided for @ketamineMilestone30Title.
+  ///
+  /// In en, this message translates to:
+  /// **'One Month — Bladder Healing'**
+  String get ketamineMilestone30Title;
+
+  /// No description provided for @ketamineMilestone30Description.
+  ///
+  /// In en, this message translates to:
+  /// **'At a month, in early-stage cases bladder symptoms often begin to improve with cessation alone. Mood and cognition are clearer.'**
+  String get ketamineMilestone30Description;
+
+  /// No description provided for @ketamineMilestone90Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Three Months On'**
+  String get ketamineMilestone90Title;
+
+  /// No description provided for @ketamineMilestone90Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Three months of abstinence allows continued bladder recovery and steady cognitive and emotional improvement. Cravings are less frequent.'**
+  String get ketamineMilestone90Description;
+
+  /// No description provided for @ketamineMilestone180Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Half a Year Free'**
+  String get ketamineMilestone180Title;
+
+  /// No description provided for @ketamineMilestone180Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Six months free. Bladder symptoms have had extended time to improve, and the psychological pull of ketamine has weakened considerably.'**
+  String get ketamineMilestone180Description;
+
+  /// No description provided for @ketamineMilestone365Title.
+  ///
+  /// In en, this message translates to:
+  /// **'One Year Free'**
+  String get ketamineMilestone365Title;
+
+  /// No description provided for @ketamineMilestone365Description.
+  ///
+  /// In en, this message translates to:
+  /// **'A year free of ketamine. Cognition, mood, and — where damage was caught early — bladder function have had the longest time to recover.'**
+  String get ketamineMilestone365Description;
+
+  /// No description provided for @inhalantsPageTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Inhalants Recovery'**
+  String get inhalantsPageTitle;
+
+  /// No description provided for @inhalantsHeaderStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Your Recovery Journey'**
+  String get inhalantsHeaderStarted;
+
+  /// No description provided for @inhalantsHeaderNotStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Benefits of Quitting Inhalants'**
+  String get inhalantsHeaderNotStarted;
+
+  /// No description provided for @inhalantsSubtitleStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Track your progress and celebrate each milestone'**
+  String get inhalantsSubtitleStarted;
+
+  /// No description provided for @inhalantsSubtitleNotStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'See what happens when you quit'**
+  String get inhalantsSubtitleNotStarted;
+
+  /// No description provided for @inhalantsInfoBox.
+  ///
+  /// In en, this message translates to:
+  /// **'Inhalant withdrawal is shorter than alcohol or opioids but can be intense, with seizure risk in heavy users. Neurological recovery is real but slow — often unfolding over about two years of abstinence.'**
+  String get inhalantsInfoBox;
+
+  /// No description provided for @addictionInhalants.
+  ///
+  /// In en, this message translates to:
+  /// **'Inhalants'**
+  String get addictionInhalants;
+
+  /// No description provided for @inhalantsMilestone1Title.
+  ///
+  /// In en, this message translates to:
+  /// **'System Clearing'**
+  String get inhalantsMilestone1Title;
+
+  /// No description provided for @inhalantsMilestone1Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Inhalant chemicals clear the blood quickly but linger in fatty tissue. In the first day you may feel headache, irritability, nausea, anxiety, or insomnia.'**
+  String get inhalantsMilestone1Description;
+
+  /// No description provided for @inhalantsMilestone7Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Acute Symptoms Subside'**
+  String get inhalantsMilestone7Title;
+
+  /// No description provided for @inhalantsMilestone7Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Acute withdrawal peaks around days 2–5 and largely resolves within one to two weeks. By a week the worst is usually passing.'**
+  String get inhalantsMilestone7Description;
+
+  /// No description provided for @inhalantsMilestone14Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Acute Phase Over'**
+  String get inhalantsMilestone14Title;
+
+  /// No description provided for @inhalantsMilestone14Description.
+  ///
+  /// In en, this message translates to:
+  /// **'By two weeks the acute withdrawal has typically resolved. Mood is steadier, though cognitive fog and fatigue can persist.'**
+  String get inhalantsMilestone14Description;
+
+  /// No description provided for @inhalantsMilestone30Title.
+  ///
+  /// In en, this message translates to:
+  /// **'One Month — Brain Recovering'**
+  String get inhalantsMilestone30Title;
+
+  /// No description provided for @inhalantsMilestone30Description.
+  ///
+  /// In en, this message translates to:
+  /// **'At a month the brain is past acute disruption and beginning the slow work of cognitive recovery. Clarity and mood improve.'**
+  String get inhalantsMilestone30Description;
+
+  /// No description provided for @inhalantsMilestone90Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Three Months On'**
+  String get inhalantsMilestone90Title;
+
+  /// No description provided for @inhalantsMilestone90Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Three months of abstinence supports continued recovery of memory, attention, and motor function. Improvements are gradual but real.'**
+  String get inhalantsMilestone90Description;
+
+  /// No description provided for @inhalantsMilestone365Title.
+  ///
+  /// In en, this message translates to:
+  /// **'One Year — Substantial Recovery'**
+  String get inhalantsMilestone365Title;
+
+  /// No description provided for @inhalantsMilestone365Description.
+  ///
+  /// In en, this message translates to:
+  /// **'A year of abstinence brings substantial neurological recovery for most people, with continued gains expected through the second year.'**
+  String get inhalantsMilestone365Description;
+
+  /// No description provided for @inhalantsMilestone730Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Two Years — Long-Term Healing'**
+  String get inhalantsMilestone730Title;
+
+  /// No description provided for @inhalantsMilestone730Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Two years of abstinence is the window in which studies found substantial recovery of brain function — outside of damage from leaded petrol, which can persist.'**
+  String get inhalantsMilestone730Description;
+
+  /// No description provided for @synthetic_cannabinoidsPageTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Synthetic Cannabinoids Recovery'**
+  String get synthetic_cannabinoidsPageTitle;
+
+  /// No description provided for @synthetic_cannabinoidsHeaderStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Your Recovery Journey'**
+  String get synthetic_cannabinoidsHeaderStarted;
+
+  /// No description provided for @synthetic_cannabinoidsHeaderNotStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Benefits of Quitting Synthetic Cannabinoids'**
+  String get synthetic_cannabinoidsHeaderNotStarted;
+
+  /// No description provided for @synthetic_cannabinoidsSubtitleStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Track your progress and celebrate each milestone'**
+  String get synthetic_cannabinoidsSubtitleStarted;
+
+  /// No description provided for @synthetic_cannabinoidsSubtitleNotStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'See what happens when you quit'**
+  String get synthetic_cannabinoidsSubtitleNotStarted;
+
+  /// No description provided for @synthetic_cannabinoidsInfoBox.
+  ///
+  /// In en, this message translates to:
+  /// **'Synthetic cannabinoids (“Spice”, “K2”) are far more potent than cannabis, and their withdrawal is similar but more severe — with anxiety and a fast heart rate. Heavy users may need medically supported detox.'**
+  String get synthetic_cannabinoidsInfoBox;
+
+  /// No description provided for @addictionSyntheticCannabinoids.
+  ///
+  /// In en, this message translates to:
+  /// **'Synthetic Cannabinoids'**
+  String get addictionSyntheticCannabinoids;
+
+  /// No description provided for @synthetic_cannabinoidsMilestone1Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Withdrawal Begins'**
+  String get synthetic_cannabinoidsMilestone1Title;
+
+  /// No description provided for @synthetic_cannabinoidsMilestone1Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Withdrawal from synthetic cannabinoids can begin within hours to a day or two. Expect anxiety, irritability, a fast heart rate, sweating, and sleep problems.'**
+  String get synthetic_cannabinoidsMilestone1Description;
+
+  /// No description provided for @synthetic_cannabinoidsMilestone3Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Peak Symptoms'**
+  String get synthetic_cannabinoidsMilestone3Title;
+
+  /// No description provided for @synthetic_cannabinoidsMilestone3Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Symptoms tend to peak in the first few days — strongest anxiety, irritability, poor sleep, and cravings. This is the hardest stretch.'**
+  String get synthetic_cannabinoidsMilestone3Description;
+
+  /// No description provided for @synthetic_cannabinoidsMilestone7Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Acute Phase Easing'**
+  String get synthetic_cannabinoidsMilestone7Title;
+
+  /// No description provided for @synthetic_cannabinoidsMilestone7Description.
+  ///
+  /// In en, this message translates to:
+  /// **'By one week the most intense symptoms are easing. Sleep, heart rate, and mood begin to settle.'**
+  String get synthetic_cannabinoidsMilestone7Description;
+
+  /// No description provided for @synthetic_cannabinoidsMilestone14Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Sleep and Mood Settling'**
+  String get synthetic_cannabinoidsMilestone14Title;
+
+  /// No description provided for @synthetic_cannabinoidsMilestone14Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Two weeks in, sleep and mood are steadier and the fast heart rate of early withdrawal has resolved.'**
+  String get synthetic_cannabinoidsMilestone14Description;
+
+  /// No description provided for @synthetic_cannabinoidsMilestone30Title.
+  ///
+  /// In en, this message translates to:
+  /// **'One Month Clear'**
+  String get synthetic_cannabinoidsMilestone30Title;
+
+  /// No description provided for @synthetic_cannabinoidsMilestone30Description.
+  ///
+  /// In en, this message translates to:
+  /// **'At a month most withdrawal symptoms have resolved. Sleep, mood, and clarity are markedly improved.'**
+  String get synthetic_cannabinoidsMilestone30Description;
+
+  /// No description provided for @synthetic_cannabinoidsMilestone90Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Three Months On'**
+  String get synthetic_cannabinoidsMilestone90Title;
+
+  /// No description provided for @synthetic_cannabinoidsMilestone90Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Three months clear, mood and sleep are stable and cravings are infrequent. The brain\'s cannabinoid system has re-regulated.'**
+  String get synthetic_cannabinoidsMilestone90Description;
+
+  /// No description provided for @synthetic_cannabinoidsMilestone180Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Half a Year Free'**
+  String get synthetic_cannabinoidsMilestone180Title;
+
+  /// No description provided for @synthetic_cannabinoidsMilestone180Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Six months free of synthetic cannabinoids. Withdrawal is long resolved and the serious risks of these drugs are behind you.'**
+  String get synthetic_cannabinoidsMilestone180Description;
+
+  /// No description provided for @mdmaPageTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'MDMA Recovery'**
+  String get mdmaPageTitle;
+
+  /// No description provided for @mdmaHeaderStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Your Recovery Journey'**
+  String get mdmaHeaderStarted;
+
+  /// No description provided for @mdmaHeaderNotStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Benefits of Quitting MDMA'**
+  String get mdmaHeaderNotStarted;
+
+  /// No description provided for @mdmaSubtitleStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Track your progress and celebrate each milestone'**
+  String get mdmaSubtitleStarted;
+
+  /// No description provided for @mdmaSubtitleNotStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'See what happens when you quit'**
+  String get mdmaSubtitleNotStarted;
+
+  /// No description provided for @mdmaInfoBox.
+  ///
+  /// In en, this message translates to:
+  /// **'MDMA floods and then depletes serotonin, producing the “comedown” and, after heavy use, withdrawal-like low mood. Serotonin transporter levels recover with sustained abstinence, though heavy use can leave longer-lasting effects.'**
+  String get mdmaInfoBox;
+
+  /// No description provided for @addictionMdma.
+  ///
+  /// In en, this message translates to:
+  /// **'MDMA'**
+  String get addictionMdma;
+
+  /// No description provided for @mdmaMilestone1Title.
+  ///
+  /// In en, this message translates to:
+  /// **'The Comedown'**
+  String get mdmaMilestone1Title;
+
+  /// No description provided for @mdmaMilestone1Description.
+  ///
+  /// In en, this message translates to:
+  /// **'After MDMA, depleted serotonin produces the “comedown”: low mood, fatigue, irritability, and poor sleep for a day or two. Hydration, food, and rest help.'**
+  String get mdmaMilestone1Description;
+
+  /// No description provided for @mdmaMilestone3Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Mood Rebalancing'**
+  String get mdmaMilestone3Title;
+
+  /// No description provided for @mdmaMilestone3Description.
+  ///
+  /// In en, this message translates to:
+  /// **'By a few days the sharpest comedown has passed. Mood and energy begin to rebalance as serotonin is replenished.'**
+  String get mdmaMilestone3Description;
+
+  /// No description provided for @mdmaMilestone7Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Acute Phase Over'**
+  String get mdmaMilestone7Title;
+
+  /// No description provided for @mdmaMilestone7Description.
+  ///
+  /// In en, this message translates to:
+  /// **'After heavier use, withdrawal-like symptoms (low mood, poor focus, cravings) can run about a week before improving.'**
+  String get mdmaMilestone7Description;
+
+  /// No description provided for @mdmaMilestone14Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Two Weeks On'**
+  String get mdmaMilestone14Title;
+
+  /// No description provided for @mdmaMilestone14Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Two weeks of abstinence typically brings clear improvement in mood, sleep, and focus as the serotonin system recovers.'**
+  String get mdmaMilestone14Description;
+
+  /// No description provided for @mdmaMilestone30Title.
+  ///
+  /// In en, this message translates to:
+  /// **'One Month Clear'**
+  String get mdmaMilestone30Title;
+
+  /// No description provided for @mdmaMilestone30Description.
+  ///
+  /// In en, this message translates to:
+  /// **'At a month, mood and cognition are markedly steadier. Serotonin transporter levels recover with continued abstinence.'**
+  String get mdmaMilestone30Description;
+
+  /// No description provided for @mdmaMilestone90Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Three Months On'**
+  String get mdmaMilestone90Title;
+
+  /// No description provided for @mdmaMilestone90Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Three months of abstinence supports continued serotonin-system recovery. Mood and sleep are stable; anxiety eases over the following months.'**
+  String get mdmaMilestone90Description;
+
+  /// No description provided for @mdmaMilestone365Title.
+  ///
+  /// In en, this message translates to:
+  /// **'One Year Free'**
+  String get mdmaMilestone365Title;
+
+  /// No description provided for @mdmaMilestone365Description.
+  ///
+  /// In en, this message translates to:
+  /// **'A year free of MDMA. Serotonin function and mood have had extended time to recover, and anxiety related to use typically resolves by now.'**
+  String get mdmaMilestone365Description;
+
+  /// No description provided for @steroidsPageTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Anabolic Steroid Recovery'**
+  String get steroidsPageTitle;
+
+  /// No description provided for @steroidsHeaderStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Your Recovery Journey'**
+  String get steroidsHeaderStarted;
+
+  /// No description provided for @steroidsHeaderNotStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Benefits of Quitting Anabolic Steroids'**
+  String get steroidsHeaderNotStarted;
+
+  /// No description provided for @steroidsSubtitleStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Track your progress and celebrate each milestone'**
+  String get steroidsSubtitleStarted;
+
+  /// No description provided for @steroidsSubtitleNotStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'See what happens when you quit'**
+  String get steroidsSubtitleNotStarted;
+
+  /// No description provided for @steroidsInfoBox.
+  ///
+  /// In en, this message translates to:
+  /// **'Stopping anabolic steroids leaves the body in a hormone deficit (low testosterone) until the HPTA recovers — usually over months, but sometimes longer. Depression and low libido during this phase are common; severe depression or suicidal thoughts need urgent medical care.'**
+  String get steroidsInfoBox;
+
+  /// No description provided for @addictionSteroids.
+  ///
+  /// In en, this message translates to:
+  /// **'Anabolic Steroids'**
+  String get addictionSteroids;
+
+  /// No description provided for @steroidsMilestone1Title.
+  ///
+  /// In en, this message translates to:
+  /// **'The Hormone Deficit Begins'**
+  String get steroidsMilestone1Title;
+
+  /// No description provided for @steroidsMilestone1Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Anabolic steroids suppress your body\'s own testosterone. On stopping, you enter a hormone deficit, which can bring fatigue, low mood, and low libido. Medical guidance is recommended.'**
+  String get steroidsMilestone1Description;
+
+  /// No description provided for @steroidsMilestone14Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Adjustment Phase'**
+  String get steroidsMilestone14Title;
+
+  /// No description provided for @steroidsMilestone14Description.
+  ///
+  /// In en, this message translates to:
+  /// **'The first weeks are the hardest of the hormone dip — low energy, mood, and libido. This is the phase when many relapse to avoid it; support helps.'**
+  String get steroidsMilestone14Description;
+
+  /// No description provided for @steroidsMilestone30Title.
+  ///
+  /// In en, this message translates to:
+  /// **'One Month — Axis Restarting'**
+  String get steroidsMilestone30Title;
+
+  /// No description provided for @steroidsMilestone30Description.
+  ///
+  /// In en, this message translates to:
+  /// **'At a month the HPTA is beginning to restart. Gonadotropins and testosterone are starting to rise, though symptoms often persist.'**
+  String get steroidsMilestone30Description;
+
+  /// No description provided for @steroidsMilestone90Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Three Months — Hormones Climbing'**
+  String get steroidsMilestone90Title;
+
+  /// No description provided for @steroidsMilestone90Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Three months in, gonadotropins and testosterone are climbing toward normal for most people, and mood and libido begin to follow.'**
+  String get steroidsMilestone90Description;
+
+  /// No description provided for @steroidsMilestone180Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Six Months — Often Recovered'**
+  String get steroidsMilestone180Title;
+
+  /// No description provided for @steroidsMilestone180Description.
+  ///
+  /// In en, this message translates to:
+  /// **'By six months many people have near-complete biochemical recovery, with testosterone and gonadotropins back in range and symptoms resolving.'**
+  String get steroidsMilestone180Description;
+
+  /// No description provided for @steroidsMilestone365Title.
+  ///
+  /// In en, this message translates to:
+  /// **'One Year On'**
+  String get steroidsMilestone365Title;
+
+  /// No description provided for @steroidsMilestone365Description.
+  ///
+  /// In en, this message translates to:
+  /// **'A year off steroids. For most, hormones and mood have normalised; persistent low testosterone past this point warrants specialist assessment.'**
+  String get steroidsMilestone365Description;
+
+  /// No description provided for @steroidsMilestone730Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Two Years — A New Baseline'**
+  String get steroidsMilestone730Title;
+
+  /// No description provided for @steroidsMilestone730Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Two years off steroids. Your hormones reflect your natural baseline; any continued deficit should be managed with a specialist.'**
+  String get steroidsMilestone730Description;
+
   /// The main application title
   ///
   /// In en, this message translates to:

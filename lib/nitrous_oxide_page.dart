@@ -58,8 +58,7 @@ class NitrousOxidePage extends StatelessWidget {
         day: 7,
         title: l10n.nitrousOxideMilestone7Title,
         description: l10n.nitrousOxideMilestone7Description,
-        reference:
-            "Nitrous Oxide Misuse and Vitamin B12 Deficiency — NCBI PMC",
+        reference: "Nitrous Oxide Misuse and Vitamin B12 Deficiency — NCBI PMC",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10580073/",
         referenceDate: "June 2026",
         referenceContent:
@@ -123,8 +122,7 @@ class NitrousOxidePage extends StatelessWidget {
         day: 90,
         title: l10n.nitrousOxideMilestone90Title,
         description: l10n.nitrousOxideMilestone90Description,
-        reference:
-            "Nitrous Oxide Misuse and Vitamin B12 Deficiency — NCBI PMC",
+        reference: "Nitrous Oxide Misuse and Vitamin B12 Deficiency — NCBI PMC",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10580073/",
         referenceDate: "June 2026",
         referenceContent:

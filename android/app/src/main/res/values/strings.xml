@@ -32,6 +32,14 @@
     <string name="addiction_tca">TCA</string>
     <string name="addiction_maoi">MAOI</string>
     <string name="addiction_nitrous_oxide">Nitrous Oxide</string>
+    <string name="addiction_kratom">Kratom</string>
+    <string name="addiction_gabapentinoids">Gabapentin / Pregabalin</string>
+    <string name="addiction_ghb">GHB</string>
+    <string name="addiction_ketamine">Ketamine</string>
+    <string name="addiction_inhalants">Inhalants</string>
+    <string name="addiction_synthetic_cannabinoids">Synthetic Cannabinoids</string>
+    <string name="addiction_mdma">MDMA</string>
+    <string name="addiction_steroids">Anabolic Steroids</string>
     <!-- Widget text -->
     <string name="widget_day_singular">day</string>
     <string name="widget_day_plural">days</string>

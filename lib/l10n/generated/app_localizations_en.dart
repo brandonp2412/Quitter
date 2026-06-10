@@ -9,6 +9,589 @@ class AppLocalizationsEn extends AppLocalizations {
   AppLocalizationsEn([String locale = 'en']) : super(locale);
 
   @override
+  String get kratomPageTitle => 'Kratom Recovery';
+
+  @override
+  String get kratomHeaderStarted => 'Your Recovery Journey';
+
+  @override
+  String get kratomHeaderNotStarted => 'Benefits of Quitting Kratom';
+
+  @override
+  String get kratomSubtitleStarted =>
+      'Track your progress and celebrate each milestone';
+
+  @override
+  String get kratomSubtitleNotStarted => 'See what happens when you quit';
+
+  @override
+  String get kratomInfoBox =>
+      'Kratom acts on opioid receptors, so stopping can produce an opioid-like withdrawal. If you use heavily or alongside other opioids, ask a clinician about medically supervised withdrawal.';
+
+  @override
+  String get addictionKratom => 'Kratom';
+
+  @override
+  String get kratomMilestone1Title => 'Withdrawal Begins';
+
+  @override
+  String get kratomMilestone1Description =>
+      'Kratom acts on opioid receptors, so within 6–12 hours of your last dose you may feel restlessness, anxiety, sweating, runny nose, and muscle aches. This is your nervous system beginning to recalibrate.';
+
+  @override
+  String get kratomMilestone3Title => 'Peak Withdrawal';
+
+  @override
+  String get kratomMilestone3Description =>
+      'Acute symptoms usually peak around days 2–3: stronger aches, insomnia, stomach upset, and low mood. This is the hardest point, and it is temporary.';
+
+  @override
+  String get kratomMilestone7Title => 'Acute Symptoms Subside';
+
+  @override
+  String get kratomMilestone7Description =>
+      'By one week the worst physical symptoms — aches, stomach upset, sweating — have largely faded. Sleep and energy are still recovering.';
+
+  @override
+  String get kratomMilestone14Title => 'Mood and Sleep Recovering';
+
+  @override
+  String get kratomMilestone14Description =>
+      'Two weeks in, sleep is more reliable and mood is steadier as your brain\'s own reward chemistry begins to rebalance.';
+
+  @override
+  String get kratomMilestone30Title => 'One Month Clear';
+
+  @override
+  String get kratomMilestone30Description =>
+      'At a month the body has stabilised: sleep, appetite, and energy are markedly better, and cravings are less frequent.';
+
+  @override
+  String get kratomMilestone90Title => 'Stable Foundation';
+
+  @override
+  String get kratomMilestone90Description =>
+      'Three months of abstinence gives the brain\'s reward and stress circuits extended time to re-regulate. Mood, focus, and motivation are noticeably steadier.';
+
+  @override
+  String get kratomMilestone365Title => 'One Year Free';
+
+  @override
+  String get kratomMilestone365Description =>
+      'A full year free of kratom. The opioid system has long re-regulated, cravings are infrequent, and the habit no longer organises your day.';
+
+  @override
+  String get gabapentinoidsPageTitle => 'Gabapentinoid Recovery';
+
+  @override
+  String get gabapentinoidsHeaderStarted => 'Your Recovery Journey';
+
+  @override
+  String get gabapentinoidsHeaderNotStarted =>
+      'Benefits of Quitting Gabapentin / Pregabalin';
+
+  @override
+  String get gabapentinoidsSubtitleStarted =>
+      'Track your progress and celebrate each milestone';
+
+  @override
+  String get gabapentinoidsSubtitleNotStarted =>
+      'See what happens when you quit';
+
+  @override
+  String get gabapentinoidsInfoBox =>
+      'Never stop gabapentin or pregabalin abruptly. Sudden discontinuation can trigger seizures — especially if you take them for epilepsy. A gradual, medically supervised taper is essential.';
+
+  @override
+  String get addictionGabapentinoid => 'Gabapentin / Pregabalin';
+
+  @override
+  String get gabapentinoidsMilestone1Title => 'Taper, Don\'t Stop Suddenly';
+
+  @override
+  String get gabapentinoidsMilestone1Description =>
+      'Gabapentinoid withdrawal can begin within 12–48 hours. The critical risk is seizures on abrupt cessation, so these drugs must be tapered under medical guidance rather than stopped cold.';
+
+  @override
+  String get gabapentinoidsMilestone3Title => 'Peak Withdrawal';
+
+  @override
+  String get gabapentinoidsMilestone3Description =>
+      'Symptoms typically peak around day 3: heightened anxiety, insomnia, sweating, nausea, and sometimes confusion. A supervised taper greatly reduces this.';
+
+  @override
+  String get gabapentinoidsMilestone7Title => 'Acute Phase Easing';
+
+  @override
+  String get gabapentinoidsMilestone7Description =>
+      'Around days 7–10 the acute symptoms substantially decrease. A gradual taper keeps this window manageable.';
+
+  @override
+  String get gabapentinoidsMilestone14Title => 'Sleep and Anxiety Settling';
+
+  @override
+  String get gabapentinoidsMilestone14Description =>
+      'Two weeks in, sleep and baseline anxiety are improving as the nervous system adapts to functioning without the drug.';
+
+  @override
+  String get gabapentinoidsMilestone30Title => 'One Month Clear';
+
+  @override
+  String get gabapentinoidsMilestone30Description =>
+      'At a month most people are through withdrawal, with steadier mood, sleep, and clarity. Any lingering symptoms are usually mild.';
+
+  @override
+  String get gabapentinoidsMilestone90Title => 'Stable and Adjusted';
+
+  @override
+  String get gabapentinoidsMilestone90Description =>
+      'Three months clear, the nervous system has fully readjusted. Most people feel stable, with normal sleep and mood.';
+
+  @override
+  String get gabapentinoidsMilestone180Title => 'Half a Year Free';
+
+  @override
+  String get gabapentinoidsMilestone180Description =>
+      'Six months free. The drug is long gone from your routine, and any rebound symptoms have resolved.';
+
+  @override
+  String get ghbPageTitle => 'GHB Recovery';
+
+  @override
+  String get ghbHeaderStarted => 'Your Recovery Journey';
+
+  @override
+  String get ghbHeaderNotStarted => 'Benefits of Quitting GHB';
+
+  @override
+  String get ghbSubtitleStarted =>
+      'Track your progress and celebrate each milestone';
+
+  @override
+  String get ghbSubtitleNotStarted => 'See what happens when you quit';
+
+  @override
+  String get ghbInfoBox =>
+      'GHB withdrawal is a medical emergency — it rivals alcohol and benzodiazepine withdrawal and can cause delirium and seizures. Heavy or around-the-clock users should not stop without supervised inpatient detox.';
+
+  @override
+  String get addictionGhb => 'GHB';
+
+  @override
+  String get ghbMilestone1Title => 'Seek Medical Detox';
+
+  @override
+  String get ghbMilestone1Description =>
+      'GHB has a very short half-life, so withdrawal can start 1–6 hours after the last dose with anxiety, tremor, insomnia, and a fast heart rate. This is one of the most dangerous detoxes — get medical help.';
+
+  @override
+  String get ghbMilestone3Title => 'Peak Danger Window';
+
+  @override
+  String get ghbMilestone3Description =>
+      'Symptoms peak around 48–72 hours and can escalate to severe agitation, hallucinations, and delirium. This phase needs medical monitoring.';
+
+  @override
+  String get ghbMilestone7Title => 'Acute Phase Passing';
+
+  @override
+  String get ghbMilestone7Description =>
+      'By around a week the acute syndrome is usually resolving, though delirium can last longer in severe cases. The body is past the most dangerous point.';
+
+  @override
+  String get ghbMilestone14Title => 'Through the Worst';
+
+  @override
+  String get ghbMilestone14Description =>
+      'Two weeks in, even severe withdrawal has usually run its course. Sleep and autonomic stability are returning, though anxiety can linger.';
+
+  @override
+  String get ghbMilestone30Title => 'One Month Stable';
+
+  @override
+  String get ghbMilestone30Description =>
+      'At a month the acute danger is well behind you. Protracted symptoms — anxiety, sleep problems, low mood — may persist but are improving.';
+
+  @override
+  String get ghbMilestone90Title => 'Protracted Symptoms Fading';
+
+  @override
+  String get ghbMilestone90Description =>
+      'Three months on, protracted anxiety, sleep, and mood symptoms are easing as the brain\'s GABA systems re-regulate.';
+
+  @override
+  String get ghbMilestone180Title => 'Half a Year Free';
+
+  @override
+  String get ghbMilestone180Description =>
+      'Six months free of GHB. The protracted withdrawal has largely resolved and your baseline mood, sleep, and cognition are restored.';
+
+  @override
+  String get ketaminePageTitle => 'Ketamine Recovery';
+
+  @override
+  String get ketamineHeaderStarted => 'Your Recovery Journey';
+
+  @override
+  String get ketamineHeaderNotStarted => 'Benefits of Quitting Ketamine';
+
+  @override
+  String get ketamineSubtitleStarted =>
+      'Track your progress and celebrate each milestone';
+
+  @override
+  String get ketamineSubtitleNotStarted => 'See what happens when you quit';
+
+  @override
+  String get ketamineInfoBox =>
+      'Ketamine withdrawal is mainly psychological — cravings, low mood, and cognitive fog rather than physical illness. Its biggest physical harm is bladder damage (ketamine cystitis), and stopping is the essential first step toward bladder recovery.';
+
+  @override
+  String get addictionKetamine => 'Ketamine';
+
+  @override
+  String get ketamineMilestone1Title => 'System Clearing';
+
+  @override
+  String get ketamineMilestone1Description =>
+      'Ketamine rarely causes severe physical withdrawal. In the first day you may notice mood swings, cravings, sweating, or palpitations as the drug clears.';
+
+  @override
+  String get ketamineMilestone7Title => 'Mood and Cravings';
+
+  @override
+  String get ketamineMilestone7Description =>
+      'The first week is mostly about psychological withdrawal — cravings, low or swinging mood, and cognitive fog — rather than physical symptoms.';
+
+  @override
+  String get ketamineMilestone14Title => 'Cognitive Fog Lifting';
+
+  @override
+  String get ketamineMilestone14Description =>
+      'Two weeks in, thinking and memory start to clear and mood steadies as the dissociative effects fully wear off.';
+
+  @override
+  String get ketamineMilestone30Title => 'One Month — Bladder Healing';
+
+  @override
+  String get ketamineMilestone30Description =>
+      'At a month, in early-stage cases bladder symptoms often begin to improve with cessation alone. Mood and cognition are clearer.';
+
+  @override
+  String get ketamineMilestone90Title => 'Three Months On';
+
+  @override
+  String get ketamineMilestone90Description =>
+      'Three months of abstinence allows continued bladder recovery and steady cognitive and emotional improvement. Cravings are less frequent.';
+
+  @override
+  String get ketamineMilestone180Title => 'Half a Year Free';
+
+  @override
+  String get ketamineMilestone180Description =>
+      'Six months free. Bladder symptoms have had extended time to improve, and the psychological pull of ketamine has weakened considerably.';
+
+  @override
+  String get ketamineMilestone365Title => 'One Year Free';
+
+  @override
+  String get ketamineMilestone365Description =>
+      'A year free of ketamine. Cognition, mood, and — where damage was caught early — bladder function have had the longest time to recover.';
+
+  @override
+  String get inhalantsPageTitle => 'Inhalants Recovery';
+
+  @override
+  String get inhalantsHeaderStarted => 'Your Recovery Journey';
+
+  @override
+  String get inhalantsHeaderNotStarted => 'Benefits of Quitting Inhalants';
+
+  @override
+  String get inhalantsSubtitleStarted =>
+      'Track your progress and celebrate each milestone';
+
+  @override
+  String get inhalantsSubtitleNotStarted => 'See what happens when you quit';
+
+  @override
+  String get inhalantsInfoBox =>
+      'Inhalant withdrawal is shorter than alcohol or opioids but can be intense, with seizure risk in heavy users. Neurological recovery is real but slow — often unfolding over about two years of abstinence.';
+
+  @override
+  String get addictionInhalants => 'Inhalants';
+
+  @override
+  String get inhalantsMilestone1Title => 'System Clearing';
+
+  @override
+  String get inhalantsMilestone1Description =>
+      'Inhalant chemicals clear the blood quickly but linger in fatty tissue. In the first day you may feel headache, irritability, nausea, anxiety, or insomnia.';
+
+  @override
+  String get inhalantsMilestone7Title => 'Acute Symptoms Subside';
+
+  @override
+  String get inhalantsMilestone7Description =>
+      'Acute withdrawal peaks around days 2–5 and largely resolves within one to two weeks. By a week the worst is usually passing.';
+
+  @override
+  String get inhalantsMilestone14Title => 'Acute Phase Over';
+
+  @override
+  String get inhalantsMilestone14Description =>
+      'By two weeks the acute withdrawal has typically resolved. Mood is steadier, though cognitive fog and fatigue can persist.';
+
+  @override
+  String get inhalantsMilestone30Title => 'One Month — Brain Recovering';
+
+  @override
+  String get inhalantsMilestone30Description =>
+      'At a month the brain is past acute disruption and beginning the slow work of cognitive recovery. Clarity and mood improve.';
+
+  @override
+  String get inhalantsMilestone90Title => 'Three Months On';
+
+  @override
+  String get inhalantsMilestone90Description =>
+      'Three months of abstinence supports continued recovery of memory, attention, and motor function. Improvements are gradual but real.';
+
+  @override
+  String get inhalantsMilestone365Title => 'One Year — Substantial Recovery';
+
+  @override
+  String get inhalantsMilestone365Description =>
+      'A year of abstinence brings substantial neurological recovery for most people, with continued gains expected through the second year.';
+
+  @override
+  String get inhalantsMilestone730Title => 'Two Years — Long-Term Healing';
+
+  @override
+  String get inhalantsMilestone730Description =>
+      'Two years of abstinence is the window in which studies found substantial recovery of brain function — outside of damage from leaded petrol, which can persist.';
+
+  @override
+  String get synthetic_cannabinoidsPageTitle =>
+      'Synthetic Cannabinoids Recovery';
+
+  @override
+  String get synthetic_cannabinoidsHeaderStarted => 'Your Recovery Journey';
+
+  @override
+  String get synthetic_cannabinoidsHeaderNotStarted =>
+      'Benefits of Quitting Synthetic Cannabinoids';
+
+  @override
+  String get synthetic_cannabinoidsSubtitleStarted =>
+      'Track your progress and celebrate each milestone';
+
+  @override
+  String get synthetic_cannabinoidsSubtitleNotStarted =>
+      'See what happens when you quit';
+
+  @override
+  String get synthetic_cannabinoidsInfoBox =>
+      'Synthetic cannabinoids (“Spice”, “K2”) are far more potent than cannabis, and their withdrawal is similar but more severe — with anxiety and a fast heart rate. Heavy users may need medically supported detox.';
+
+  @override
+  String get addictionSyntheticCannabinoids => 'Synthetic Cannabinoids';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1Title => 'Withdrawal Begins';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1Description =>
+      'Withdrawal from synthetic cannabinoids can begin within hours to a day or two. Expect anxiety, irritability, a fast heart rate, sweating, and sleep problems.';
+
+  @override
+  String get synthetic_cannabinoidsMilestone3Title => 'Peak Symptoms';
+
+  @override
+  String get synthetic_cannabinoidsMilestone3Description =>
+      'Symptoms tend to peak in the first few days — strongest anxiety, irritability, poor sleep, and cravings. This is the hardest stretch.';
+
+  @override
+  String get synthetic_cannabinoidsMilestone7Title => 'Acute Phase Easing';
+
+  @override
+  String get synthetic_cannabinoidsMilestone7Description =>
+      'By one week the most intense symptoms are easing. Sleep, heart rate, and mood begin to settle.';
+
+  @override
+  String get synthetic_cannabinoidsMilestone14Title =>
+      'Sleep and Mood Settling';
+
+  @override
+  String get synthetic_cannabinoidsMilestone14Description =>
+      'Two weeks in, sleep and mood are steadier and the fast heart rate of early withdrawal has resolved.';
+
+  @override
+  String get synthetic_cannabinoidsMilestone30Title => 'One Month Clear';
+
+  @override
+  String get synthetic_cannabinoidsMilestone30Description =>
+      'At a month most withdrawal symptoms have resolved. Sleep, mood, and clarity are markedly improved.';
+
+  @override
+  String get synthetic_cannabinoidsMilestone90Title => 'Three Months On';
+
+  @override
+  String get synthetic_cannabinoidsMilestone90Description =>
+      'Three months clear, mood and sleep are stable and cravings are infrequent. The brain\'s cannabinoid system has re-regulated.';
+
+  @override
+  String get synthetic_cannabinoidsMilestone180Title => 'Half a Year Free';
+
+  @override
+  String get synthetic_cannabinoidsMilestone180Description =>
+      'Six months free of synthetic cannabinoids. Withdrawal is long resolved and the serious risks of these drugs are behind you.';
+
+  @override
+  String get mdmaPageTitle => 'MDMA Recovery';
+
+  @override
+  String get mdmaHeaderStarted => 'Your Recovery Journey';
+
+  @override
+  String get mdmaHeaderNotStarted => 'Benefits of Quitting MDMA';
+
+  @override
+  String get mdmaSubtitleStarted =>
+      'Track your progress and celebrate each milestone';
+
+  @override
+  String get mdmaSubtitleNotStarted => 'See what happens when you quit';
+
+  @override
+  String get mdmaInfoBox =>
+      'MDMA floods and then depletes serotonin, producing the “comedown” and, after heavy use, withdrawal-like low mood. Serotonin transporter levels recover with sustained abstinence, though heavy use can leave longer-lasting effects.';
+
+  @override
+  String get addictionMdma => 'MDMA';
+
+  @override
+  String get mdmaMilestone1Title => 'The Comedown';
+
+  @override
+  String get mdmaMilestone1Description =>
+      'After MDMA, depleted serotonin produces the “comedown”: low mood, fatigue, irritability, and poor sleep for a day or two. Hydration, food, and rest help.';
+
+  @override
+  String get mdmaMilestone3Title => 'Mood Rebalancing';
+
+  @override
+  String get mdmaMilestone3Description =>
+      'By a few days the sharpest comedown has passed. Mood and energy begin to rebalance as serotonin is replenished.';
+
+  @override
+  String get mdmaMilestone7Title => 'Acute Phase Over';
+
+  @override
+  String get mdmaMilestone7Description =>
+      'After heavier use, withdrawal-like symptoms (low mood, poor focus, cravings) can run about a week before improving.';
+
+  @override
+  String get mdmaMilestone14Title => 'Two Weeks On';
+
+  @override
+  String get mdmaMilestone14Description =>
+      'Two weeks of abstinence typically brings clear improvement in mood, sleep, and focus as the serotonin system recovers.';
+
+  @override
+  String get mdmaMilestone30Title => 'One Month Clear';
+
+  @override
+  String get mdmaMilestone30Description =>
+      'At a month, mood and cognition are markedly steadier. Serotonin transporter levels recover with continued abstinence.';
+
+  @override
+  String get mdmaMilestone90Title => 'Three Months On';
+
+  @override
+  String get mdmaMilestone90Description =>
+      'Three months of abstinence supports continued serotonin-system recovery. Mood and sleep are stable; anxiety eases over the following months.';
+
+  @override
+  String get mdmaMilestone365Title => 'One Year Free';
+
+  @override
+  String get mdmaMilestone365Description =>
+      'A year free of MDMA. Serotonin function and mood have had extended time to recover, and anxiety related to use typically resolves by now.';
+
+  @override
+  String get steroidsPageTitle => 'Anabolic Steroid Recovery';
+
+  @override
+  String get steroidsHeaderStarted => 'Your Recovery Journey';
+
+  @override
+  String get steroidsHeaderNotStarted =>
+      'Benefits of Quitting Anabolic Steroids';
+
+  @override
+  String get steroidsSubtitleStarted =>
+      'Track your progress and celebrate each milestone';
+
+  @override
+  String get steroidsSubtitleNotStarted => 'See what happens when you quit';
+
+  @override
+  String get steroidsInfoBox =>
+      'Stopping anabolic steroids leaves the body in a hormone deficit (low testosterone) until the HPTA recovers — usually over months, but sometimes longer. Depression and low libido during this phase are common; severe depression or suicidal thoughts need urgent medical care.';
+
+  @override
+  String get addictionSteroids => 'Anabolic Steroids';
+
+  @override
+  String get steroidsMilestone1Title => 'The Hormone Deficit Begins';
+
+  @override
+  String get steroidsMilestone1Description =>
+      'Anabolic steroids suppress your body\'s own testosterone. On stopping, you enter a hormone deficit, which can bring fatigue, low mood, and low libido. Medical guidance is recommended.';
+
+  @override
+  String get steroidsMilestone14Title => 'Adjustment Phase';
+
+  @override
+  String get steroidsMilestone14Description =>
+      'The first weeks are the hardest of the hormone dip — low energy, mood, and libido. This is the phase when many relapse to avoid it; support helps.';
+
+  @override
+  String get steroidsMilestone30Title => 'One Month — Axis Restarting';
+
+  @override
+  String get steroidsMilestone30Description =>
+      'At a month the HPTA is beginning to restart. Gonadotropins and testosterone are starting to rise, though symptoms often persist.';
+
+  @override
+  String get steroidsMilestone90Title => 'Three Months — Hormones Climbing';
+
+  @override
+  String get steroidsMilestone90Description =>
+      'Three months in, gonadotropins and testosterone are climbing toward normal for most people, and mood and libido begin to follow.';
+
+  @override
+  String get steroidsMilestone180Title => 'Six Months — Often Recovered';
+
+  @override
+  String get steroidsMilestone180Description =>
+      'By six months many people have near-complete biochemical recovery, with testosterone and gonadotropins back in range and symptoms resolving.';
+
+  @override
+  String get steroidsMilestone365Title => 'One Year On';
+
+  @override
+  String get steroidsMilestone365Description =>
+      'A year off steroids. For most, hormones and mood have normalised; persistent low testosterone past this point warrants specialist assessment.';
+
+  @override
+  String get steroidsMilestone730Title => 'Two Years — A New Baseline';
+
+  @override
+  String get steroidsMilestone730Description =>
+      'Two years off steroids. Your hormones reflect your natural baseline; any continued deficit should be managed with a specialist.';
+
+  @override
   String get appTitle => 'Quitter';
 
   @override

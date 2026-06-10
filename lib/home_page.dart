@@ -8,6 +8,14 @@ import 'package:quitter/snri_page.dart';
 import 'package:quitter/ssri_page.dart';
 import 'package:quitter/tca_page.dart';
 import 'package:quitter/cocaine_page.dart';
+import 'package:quitter/gabapentinoids_page.dart';
+import 'package:quitter/ghb_page.dart';
+import 'package:quitter/inhalants_page.dart';
+import 'package:quitter/ketamine_page.dart';
+import 'package:quitter/kratom_page.dart';
+import 'package:quitter/mdma_page.dart';
+import 'package:quitter/steroids_page.dart';
+import 'package:quitter/synthetic_cannabinoids_page.dart';
 import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:provider/provider.dart';
@@ -318,6 +326,70 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
       [const Color(0xFF38BDF8), const Color(0xFF7DD3FC)],
       addictions.quitNitrousOxide,
       (context) => const NitrousOxidePage(started: true),
+    );
+    addPreset(
+      'kratom',
+      l10n.addictionKratom,
+      Icons.local_florist,
+      [const Color(0xFF6D9F4E), const Color(0xFF3F6B2E)],
+      addictions.quitKratom,
+      (context) => const KratomPage(started: true),
+    );
+    addPreset(
+      'gabapentinoids',
+      l10n.addictionGabapentinoid,
+      Icons.medication_outlined,
+      [const Color(0xFF94A3B8), const Color(0xFF475569)],
+      addictions.quitGabapentinoids,
+      (context) => const GabapentinoidPage(started: true),
+    );
+    addPreset(
+      'ghb',
+      l10n.addictionGhb,
+      Icons.water_drop,
+      [const Color(0xFF60A5FA), const Color(0xFF1E3A8A)],
+      addictions.quitGhb,
+      (context) => const GhbPage(started: true),
+    );
+    addPreset(
+      'ketamine',
+      l10n.addictionKetamine,
+      Icons.vaccines,
+      [const Color(0xFF818CF8), const Color(0xFF4338CA)],
+      addictions.quitKetamine,
+      (context) => const KetaminePage(started: true),
+    );
+    addPreset(
+      'inhalants',
+      l10n.addictionInhalants,
+      Icons.local_gas_station,
+      [const Color(0xFF9CA3AF), const Color(0xFF4B5563)],
+      addictions.quitInhalants,
+      (context) => const InhalantsPage(started: true),
+    );
+    addPreset(
+      'synthetic_cannabinoids',
+      l10n.addictionSyntheticCannabinoids,
+      Icons.whatshot,
+      [const Color(0xFFA3E635), const Color(0xFF4D7C0F)],
+      addictions.quitSyntheticCannabinoids,
+      (context) => const SyntheticCannabinoidsPage(started: true),
+    );
+    addPreset(
+      'mdma',
+      l10n.addictionMdma,
+      Icons.favorite,
+      [const Color(0xFFF472B6), const Color(0xFFA855F7)],
+      addictions.quitMdma,
+      (context) => const MdmaPage(started: true),
+    );
+    addPreset(
+      'steroids',
+      l10n.addictionSteroids,
+      Icons.fitness_center,
+      [const Color(0xFFEF4444), const Color(0xFF7F1D1D)],
+      addictions.quitSteroids,
+      (context) => const SteroidsPage(started: true),
     );
     addPreset(
       'alcohol',

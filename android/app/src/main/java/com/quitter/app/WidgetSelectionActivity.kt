@@ -52,7 +52,15 @@ class WidgetSelectionActivity : Activity() {
             "snri" to Triple(getString(R.string.addiction_snri), R.drawable.ic_medication, 0xFF6D28D9.toInt()),
             "tca" to Triple(getString(R.string.addiction_tca), R.drawable.ic_medication, 0xFF5B21B6.toInt()),
             "maoi" to Triple(getString(R.string.addiction_maoi), R.drawable.ic_medication, 0xFF4C1D95.toInt()),
-            "nitrous_oxide" to Triple(getString(R.string.addiction_nitrous_oxide), R.drawable.ic_air, 0xFF38BDF8.toInt())
+            "nitrous_oxide" to Triple(getString(R.string.addiction_nitrous_oxide), R.drawable.ic_air, 0xFF38BDF8.toInt()),
+            "kratom" to Triple(getString(R.string.addiction_kratom), R.drawable.ic_medication, 0xFF6D9F4E.toInt()),
+            "gabapentinoids" to Triple(getString(R.string.addiction_gabapentinoids), R.drawable.ic_medication, 0xFF94A3B8.toInt()),
+            "ghb" to Triple(getString(R.string.addiction_ghb), R.drawable.ic_medication, 0xFF60A5FA.toInt()),
+            "ketamine" to Triple(getString(R.string.addiction_ketamine), R.drawable.ic_medication, 0xFF818CF8.toInt()),
+            "inhalants" to Triple(getString(R.string.addiction_inhalants), R.drawable.ic_medication, 0xFF9CA3AF.toInt()),
+            "synthetic_cannabinoids" to Triple(getString(R.string.addiction_synthetic_cannabinoids), R.drawable.ic_medication, 0xFFA3E635.toInt()),
+            "mdma" to Triple(getString(R.string.addiction_mdma), R.drawable.ic_medication, 0xFFF472B6.toInt()),
+            "steroids" to Triple(getString(R.string.addiction_steroids), R.drawable.ic_medication, 0xFFEF4444.toInt())
         )
 
         val prefs = getSharedPreferences("FlutterSharedPreferences", MODE_PRIVATE)

@@ -26,6 +26,14 @@ class AddictionProvider extends ChangeNotifier {
   String? _tca;
   String? _maoi;
   String? _nitrousOxide;
+  String? _kratom;
+  String? _gabapentinoids;
+  String? _ghb;
+  String? _ketamine;
+  String? _inhalants;
+  String? _syntheticCannabinoids;
+  String? _mdma;
+  String? _steroids;
 
   List<Entry> entries = [];
   List<String> cardOrder = [];
@@ -56,6 +64,14 @@ class AddictionProvider extends ChangeNotifier {
     _tca = _pref!.getString('tca');
     _maoi = _pref!.getString('maoi');
     _nitrousOxide = _pref!.getString('nitrous_oxide');
+    _kratom = _pref!.getString('kratom');
+    _gabapentinoids = _pref!.getString('gabapentinoids');
+    _ghb = _pref!.getString('ghb');
+    _ketamine = _pref!.getString('ketamine');
+    _inhalants = _pref!.getString('inhalants');
+    _syntheticCannabinoids = _pref!.getString('synthetic_cannabinoids');
+    _mdma = _pref!.getString('mdma');
+    _steroids = _pref!.getString('steroids');
 
     final String? entriesJson = _pref!.getString('entries');
     if (entriesJson != null) {
@@ -180,6 +196,14 @@ class AddictionProvider extends ChangeNotifier {
       'tca': _tca,
       'maoi': _maoi,
       'nitrous_oxide': _nitrousOxide,
+      'kratom': _kratom,
+      'gabapentinoids': _gabapentinoids,
+      'ghb': _ghb,
+      'ketamine': _ketamine,
+      'inhalants': _inhalants,
+      'synthetic_cannabinoids': _syntheticCannabinoids,
+      'mdma': _mdma,
+      'steroids': _steroids,
     };
     final activeKeys = allAddictions.entries
         .where((e) => e.value != null)
@@ -220,6 +244,14 @@ class AddictionProvider extends ChangeNotifier {
   String? get quitTca => _tca;
   String? get quitMaoi => _maoi;
   String? get quitNitrousOxide => _nitrousOxide;
+  String? get quitKratom => _kratom;
+  String? get quitGabapentinoids => _gabapentinoids;
+  String? get quitGhb => _ghb;
+  String? get quitKetamine => _ketamine;
+  String? get quitInhalants => _inhalants;
+  String? get quitSyntheticCannabinoids => _syntheticCannabinoids;
+  String? get quitMdma => _mdma;
+  String? get quitSteroids => _steroids;
 
   Future<void> saveCardOrder(List<String> order) async {
     cardOrder = order;

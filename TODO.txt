@@ -1,22 +1,42 @@
 Refactor:
-- Replace heroin with opioids page. Migration should take heroin quitters
-and replace it to just be the opioid entry. I think this makes sense since
-the evidence of quitting differences don't qualify separate opioid entries.
+- [DONE] Heroin merged into the opioids entry. On load, AddictionProvider
+  migrates stored heroin data (quit date, milestone days, custom
+  name/icon/color, card order) onto the opioids key, then drops heroin.
 
 Add:
-- Crack
-- Kratom
-- Gabapentin/Pregabalin
-- GHB
-- Ketamine
-- Inhalants
-- Synthetic cannaboids
-- MDMA
-- Steroids
+- [SKIPPED] Crack — pharmacologically the same drug as cocaine (an existing
+  entry). By the same logic used for heroin -> opioids, crack does not
+  qualify a separate recovery timeline. Recommend folding into Cocaine
+  (optionally mention crack in the cocaine entry's copy).
+- [DONE] Kratom
+- [DONE] Gabapentin/Pregabalin (entry key: gabapentinoids)
+- [DONE] GHB
+- [DONE] Ketamine
+- [DONE] Inhalants
+- [DONE] Synthetic cannabinoids
+- [DONE] MDMA
+- [DONE] Steroids (anabolic-androgenic)
 
-Question:
-- Is there a significant difference (based on scholarly evidence) between
-quitting fentanyl and quitting opioids generally speaking?
-- Is there enough evidence for a different entry for chewing tobacco? what about
-our current entries specifically for vaping/nic pouches/smoking?
-- Should codeine be a separate entry from opioids?
+Question / answers (from scholarly evidence):
+- Fentanyl vs opioids generally: There IS a real, evidence-based clinical
+  difference, but it is in the ACUTE phase, not the long-term recovery
+  timeline. Fentanyl is highly lipophilic and accumulates in adipose tissue,
+  creating a slow-release reservoir that prolongs withdrawal vulnerability and
+  makes buprenorphine induction prone to precipitated withdrawal (clearance is
+  far longer than the ~2-4 days of other short-acting opioids). The months-long
+  recovery arc (dopamine/reward, sleep, immune, cognition) is the same as
+  general opioids. Conclusion: no separate fentanyl ENTRY needed for milestone
+  purposes; the distinction belongs in acute-withdrawal guidance, not the
+  recovery timeline. (Refs: PMC7594258; fentanyl ADME review PMC10593981.)
+- Chewing/smokeless tobacco: Nicotine withdrawal itself is the same as our
+  other nicotine entries. The differentiator would be health-recovery harms,
+  which are oral (gum disease, oral/oesophageal cancer) rather than pulmonary —
+  so it does NOT share smoking's lung/cardio-via-smoke milestones and overlaps
+  heavily with nicotine pouches. Verdict: defensible but low marginal value; if
+  added, model it on nicotine pouches with oral-health milestones, not smoking.
+  Our existing split (smoking vs vaping vs pouches) is justified mainly by
+  differing delivery/health-recovery profiles, less by withdrawal.
+- Codeine vs opioids: No separate entry. Codeine withdrawal follows the general
+  opioid pattern; the real differences are patient population and combination-
+  product toxicity (acetaminophen/aspirin), not the recovery trajectory. Keep
+  under Opioids. (Refs: WHO NBK310652; case series PMID 25545541.)
