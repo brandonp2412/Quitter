@@ -50,7 +50,6 @@ class SettingsProvider extends ChangeNotifier {
     'meth': 'show_meth',
     'swipeTabs': 'swipe_tabs',
     'journal': 'show_journal',
-    'heroin': 'show_heroin',
     'benzos': 'show_benzos',
     'adderall': 'show_adderall',
     'ssri': 'show_ssri',
@@ -71,7 +70,6 @@ class SettingsProvider extends ChangeNotifier {
     'pornography': 'notify_pornography',
     'cocaine': 'notify_cocaine',
     'meth': 'notify_meth',
-    'heroin': 'notify_heroin',
     'adderall': 'notify_adderall',
     'benzos': 'notify_benzos',
     'ssri': 'notify_ssri',
@@ -119,7 +117,6 @@ class SettingsProvider extends ChangeNotifier {
   bool get showPornography => _showSettings['pornography']!;
   bool get showCocaine => _showSettings['cocaine']!;
   bool get showMeth => _showSettings['meth']!;
-  bool get showHeroin => _showSettings['heroin']!;
   bool get showBenzos => _showSettings['benzos']!;
   bool get showAdderall => _showSettings['adderall']!;
   bool get showSsri => _showSettings['ssri']!;
@@ -136,7 +133,6 @@ class SettingsProvider extends ChangeNotifier {
   bool get notifyPornography => _notifySettings['pornography']!;
   bool get notifyCocaine => _notifySettings['cocaine']!;
   bool get notifyMeth => _notifySettings['meth']!;
-  bool get notifyHeroin => _notifySettings['heroin']!;
   bool get notifyBenzos => _notifySettings['benzos']!;
   bool get notifyAdderall => _notifySettings['adderall']!;
   bool get notifyRelapse => _notifySettings['relapse']!;
@@ -222,7 +218,7 @@ class SettingsProvider extends ChangeNotifier {
     _showKeys.forEach((key, prefKey) {
       final existing = _prefs!.getBool(prefKey);
       if (existing == null &&
-          ['opioids', 'pornography', 'cocaine', 'meth', 'heroin'].contains(key))
+          ['opioids', 'pornography', 'cocaine', 'meth'].contains(key))
         _showSettings[key] = _prefs!.getBool(prefKey) ?? false;
       else
         _showSettings[key] = _prefs!.getBool(prefKey) ?? true;
@@ -333,8 +329,6 @@ class SettingsProvider extends ChangeNotifier {
       _updateBoolSetting(_showSettings, _showKeys, 'socialMedia', show);
   set showMeth(bool show) =>
       _updateBoolSetting(_showSettings, _showKeys, 'meth', show);
-  set showHeroin(bool show) =>
-      _updateBoolSetting(_showSettings, _showKeys, 'heroin', show);
   set showAdderall(bool show) =>
       _updateBoolSetting(_showSettings, _showKeys, 'adderall', show);
   set showBenzos(bool show) =>
@@ -366,8 +360,6 @@ class SettingsProvider extends ChangeNotifier {
       _updateBoolSetting(_notifySettings, _notifyKeys, 'socialMedia', notify);
   set notifyMeth(bool notify) =>
       _updateBoolSetting(_notifySettings, _notifyKeys, 'meth', notify);
-  set notifyHeroin(bool notify) =>
-      _updateBoolSetting(_notifySettings, _notifyKeys, 'heroin', notify);
   set notifyAdderall(bool notify) =>
       _updateBoolSetting(_notifySettings, _notifyKeys, 'adderall', notify);
   set notifyBenzos(bool notify) =>

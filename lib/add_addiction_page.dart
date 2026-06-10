@@ -10,11 +10,11 @@ import 'package:quitter/ssri_page.dart';
 import 'package:quitter/tca_page.dart';
 import 'package:quitter/cocaine_page.dart';
 import 'package:quitter/edit_entry_page.dart';
-import 'package:quitter/heroin_page.dart';
 import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:quitter/marijuana_page.dart';
 import 'package:quitter/meth_page.dart';
 import 'package:quitter/nicotine_pouches.dart';
+import 'package:quitter/nitrous_oxide_page.dart';
 import 'package:quitter/opioid_page.dart';
 import 'package:quitter/pornography_page.dart';
 import 'package:quitter/smoking_page.dart';
@@ -125,19 +125,6 @@ class AddAddictionPage extends StatelessWidget {
         ),
       );
     }
-    if (addictions.quitHeroin == null) {
-      options.add(
-        _AddictionOption(
-          title: l10n.addictionHeroin,
-          icon: Icons.vaccines,
-          gradientColors: [
-            const Color.fromARGB(255, 133, 14, 163),
-            const Color.fromARGB(255, 201, 5, 250),
-          ],
-          destination: const HeroinPage(started: false),
-        ),
-      );
-    }
     if (addictions.quitMarijuana == null) {
       options.add(
         _AddictionOption(
@@ -148,6 +135,16 @@ class AddAddictionPage extends StatelessWidget {
             const Color.fromARGB(255, 30, 87, 3),
           ],
           destination: const MarijuanaPage(started: false),
+        ),
+      );
+    }
+    if (addictions.quitNitrousOxide == null) {
+      options.add(
+        _AddictionOption(
+          title: l10n.addictionNitrousOxide,
+          icon: Icons.air_outlined,
+          gradientColors: [const Color(0xFF38BDF8), const Color(0xFF7DD3FC)],
+          destination: const NitrousOxidePage(started: false),
         ),
       );
     }

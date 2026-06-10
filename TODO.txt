@@ -1,0 +1,22 @@
+Refactor:
+- Replace heroin with opioids page. Migration should take heroin quitters
+and replace it to just be the opioid entry. I think this makes sense since
+the evidence of quitting differences don't qualify separate opioid entries.
+
+Add:
+- Crack
+- Kratom
+- Gabapentin/Pregabalin
+- GHB
+- Ketamine
+- Inhalants
+- Synthetic cannaboids
+- MDMA
+- Steroids
+
+Question:
+- Is there a significant difference (based on scholarly evidence) between
+quitting fentanyl and quitting opioids generally speaking?
+- Is there enough evidence for a different entry for chewing tobacco? what about
+our current entries specifically for vaping/nic pouches/smoking?
+- Should codeine be a separate entry from opioids?

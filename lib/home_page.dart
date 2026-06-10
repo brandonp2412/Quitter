@@ -3,11 +3,11 @@ import 'package:quitter/add_addiction_page.dart';
 import 'package:quitter/adderall_page.dart';
 import 'package:quitter/benzodiazepine_page.dart';
 import 'package:quitter/maoi_page.dart';
+import 'package:quitter/nitrous_oxide_page.dart';
 import 'package:quitter/snri_page.dart';
 import 'package:quitter/ssri_page.dart';
 import 'package:quitter/tca_page.dart';
 import 'package:quitter/cocaine_page.dart';
-import 'package:quitter/heroin_page.dart';
 import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:provider/provider.dart';
@@ -312,6 +312,14 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
       (context) => const MaoiPage(started: true),
     );
     addPreset(
+      'nitrous_oxide',
+      l10n.addictionNitrousOxide,
+      Icons.air_outlined,
+      [const Color(0xFF38BDF8), const Color(0xFF7DD3FC)],
+      addictions.quitNitrousOxide,
+      (context) => const NitrousOxidePage(started: true),
+    );
+    addPreset(
       'alcohol',
       l10n.addictionAlcohol,
       Icons.local_bar,
@@ -334,17 +342,6 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
       [const Color(0xFF3B82F6), const Color(0xFF1D4ED8)],
       addictions.quitCocaine,
       (context) => const CocainePage(started: true),
-    );
-    addPreset(
-      'heroin',
-      l10n.addictionHeroin,
-      Icons.vaccines,
-      [
-        const Color.fromARGB(255, 133, 14, 163),
-        const Color.fromARGB(255, 201, 5, 250),
-      ],
-      addictions.quitHeroin,
-      (context) => const HeroinPage(started: true),
     );
     addPreset(
       'marijuana',

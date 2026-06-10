@@ -100,6 +100,69 @@ class QuitTrackerWidget : AppWidgetProvider() {
                                             R.drawable.ic_block,
                                             0xFFF43F5E,
                                             0xFFE11D48
+                                    ),
+                            "cocaine" to
+                                    AddictionInfo(
+                                            context.getString(R.string.addiction_cocaine),
+                                            R.drawable.ic_medication,
+                                            0xFF3B82F6,
+                                            0xFF1D4ED8
+                                    ),
+                            "meth" to
+                                    AddictionInfo(
+                                            context.getString(R.string.addiction_meth),
+                                            R.drawable.ic_medication,
+                                            0xFF14B8A6,
+                                            0xFF0D9488
+                                    ),
+                            "benzos" to
+                                    AddictionInfo(
+                                            context.getString(R.string.addiction_benzos),
+                                            R.drawable.ic_medication,
+                                            0xFF6D5DD3,
+                                            0xFF1E1B4B
+                                    ),
+                            "adderall" to
+                                    AddictionInfo(
+                                            context.getString(R.string.addiction_adderall),
+                                            R.drawable.ic_medication,
+                                            0xFFFF8C42,
+                                            0xFFFF6B35
+                                    ),
+                            "ssri" to
+                                    AddictionInfo(
+                                            context.getString(R.string.addiction_ssri),
+                                            R.drawable.ic_medication,
+                                            0xFF7C3AED,
+                                            0xFF4F46E5
+                                    ),
+                            "snri" to
+                                    AddictionInfo(
+                                            context.getString(R.string.addiction_snri),
+                                            R.drawable.ic_medication,
+                                            0xFF6D28D9,
+                                            0xFF7C3AED
+                                    ),
+                            "tca" to
+                                    AddictionInfo(
+                                            context.getString(R.string.addiction_tca),
+                                            R.drawable.ic_medication,
+                                            0xFF5B21B6,
+                                            0xFF6D28D9
+                                    ),
+                            "maoi" to
+                                    AddictionInfo(
+                                            context.getString(R.string.addiction_maoi),
+                                            R.drawable.ic_medication,
+                                            0xFF4C1D95,
+                                            0xFF5B21B6
+                                    ),
+                            "nitrous_oxide" to
+                                    AddictionInfo(
+                                            context.getString(R.string.addiction_nitrous_oxide),
+                                            R.drawable.ic_air,
+                                            0xFF38BDF8,
+                                            0xFF7DD3FC
                                     )
                     )
 

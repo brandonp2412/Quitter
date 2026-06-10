@@ -23,7 +23,6 @@ void main() {
     'social_media': DateTime.now().toIso8601String(),
     'pornography': DateTime.now().toIso8601String(),
     'cocaine': DateTime.now().toIso8601String(),
-    'heroin': DateTime.now().toIso8601String(),
     'benzos': DateTime.now().toIso8601String(),
     'meth': DateTime.now().toIso8601String(),
     'adderall': DateTime.now().toIso8601String(),

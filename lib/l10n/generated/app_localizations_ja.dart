@@ -114,85 +114,6 @@ class AppLocalizationsJa extends AppLocalizations {
   String get enableNotificationsSubtitle => 'Turn on or off all notifications';
 
   @override
-  String get heroinPageTitle => 'Heroin Recovery';
-
-  @override
-  String get heroinHeaderStarted => 'Your Recovery Journey';
-
-  @override
-  String get heroinHeaderNotStarted => 'Benefits of Quitting Heroin';
-
-  @override
-  String get heroinSubtitleStarted =>
-      'Track your progress and celebrate each milestone';
-
-  @override
-  String get heroinSubtitleNotStarted => 'See what happens when you quit';
-
-  @override
-  String get heroinMilestone1Title => 'Withdrawal Begins';
-
-  @override
-  String get heroinMilestone1Description =>
-      'Your body starts the detox process. Early withdrawal symptoms like anxiety, sweating, and muscle aches may begin within 6-24 hours. This is your body beginning to heal.';
-
-  @override
-  String get heroinMilestone3Title => 'Peak Withdrawal';
-
-  @override
-  String get heroinMilestone3Description =>
-      'Acute withdrawal symptoms typically peak around days 2-3. While challenging, this marks the most intense phase. Physical symptoms include nausea, vomiting, body aches, and insomnia. Support is crucial during this time.';
-
-  @override
-  String get heroinMilestone7Title => 'Acute Symptoms Subside';
-
-  @override
-  String get heroinMilestone7Description =>
-      'The most severe physical withdrawal symptoms begin to fade. Your body is adjusting to functioning without heroin. Sleep may still be disrupted, but you\'re through the hardest physical phase.';
-
-  @override
-  String get heroinMilestone30Title => 'Physical Health Normalizes';
-
-  @override
-  String get heroinMilestone30Description =>
-      'Your sleep patterns, appetite, and energy levels start returning to normal. Physical health improvements become noticeable. Your body\'s natural systems are beginning to regulate themselves again.';
-
-  @override
-  String get heroinMilestone90Title => 'Immune System Recovery';
-
-  @override
-  String get heroinMilestone90Description =>
-      'Your immune system begins significant recovery after months of suppression. You\'ll likely get sick less often and fight off infections more effectively. Cardiovascular health continues to improve.';
-
-  @override
-  String get heroinMilestone180Title => 'Cognitive Improvements';
-
-  @override
-  String get heroinMilestone180Description =>
-      'Notable improvements in memory, attention, and decision-making abilities. Brain imaging studies show measurable recovery in areas affected by heroin use. Mental clarity continues to increase.';
-
-  @override
-  String get heroinMilestone365Title => 'Major Brain Healing';
-
-  @override
-  String get heroinMilestone365Description =>
-      'Significant restoration of brain function and emotional regulation. Dopamine receptors continue to normalize, making natural rewards more satisfying. Many experience improved relationships and life satisfaction.';
-
-  @override
-  String get heroinMilestone540Title => 'Continued Cognitive Recovery';
-
-  @override
-  String get heroinMilestone540Description =>
-      'Executive function, impulse control, and emotional stability continue to improve. The brain\'s reward system becomes increasingly balanced. Long-term abstinence strengthens neural pathways for healthy decision-making.';
-
-  @override
-  String get heroinMilestone730Title => 'Long-Term Brain Recovery';
-
-  @override
-  String get heroinMilestone730Description =>
-      'Two years of recovery brings substantial neuroplasticity and brain healing. Cognitive function approaches pre-addiction levels. You\'ve built a strong foundation for sustained recovery and a healthier future.';
-
-  @override
   String get benzoPageTitle => 'Benzodiazepine Recovery';
 
   @override
@@ -275,9 +196,6 @@ class AppLocalizationsJa extends AppLocalizations {
   String get addictionMeth => 'Meth';
 
   @override
-  String get addictionHeroin => 'Heroin';
-
-  @override
   String get addictionBenzos => 'Benzos';
 
   @override
@@ -358,6 +276,77 @@ class AppLocalizationsJa extends AppLocalizations {
   @override
   String get methMilestone730Description =>
       'Long-term abstinence allows for continued brain healing. Attention and mood typically rebound within 12-18 months for most people. Your cognitive function, emotional regulation, and overall quality of life continue improving with sustained recovery.';
+
+  @override
+  String get addictionNitrousOxide => 'Nitrous Oxide';
+
+  @override
+  String get nitrousOxidePageTitle => 'Nitrous Oxide Recovery';
+
+  @override
+  String get nitrousOxideHeaderStarted => 'Your Recovery Journey';
+
+  @override
+  String get nitrousOxideHeaderNotStarted => 'Ready to Start?';
+
+  @override
+  String get nitrousOxideSubtitleStarted =>
+      'Track your progress and celebrate each milestone';
+
+  @override
+  String get nitrousOxideSubtitleNotStarted =>
+      'See what positive changes await you';
+
+  @override
+  String get nitrousOxideMilestone1Title => 'First 24 Hours - System Clearing';
+
+  @override
+  String get nitrousOxideMilestone1Description =>
+      'The gas leaves your system within minutes, but the healing takes longer. Dizziness settles, headaches ease, and your brain starts recalibrating without the dopamine shortcut. Your B12 recovery begins now.';
+
+  @override
+  String get nitrousOxideMilestone3Title => 'Day 3 - No Physical Withdrawal';
+
+  @override
+  String get nitrousOxideMilestone3Description =>
+      'Here\'s good news: nitrous oxide doesn\'t cause physical withdrawal. The urges you feel are psychological — habit and association, not your body demanding a substance. That makes them manageable.';
+
+  @override
+  String get nitrousOxideMilestone7Title => 'One Week - B12 Rising';
+
+  @override
+  String get nitrousOxideMilestone7Description =>
+      'One week with no new B12 being destroyed. If you\'ve started supplementing, your levels are already climbing. Energy, mood, and focus are all tied to B12 — you should be starting to feel them improve.';
+
+  @override
+  String get nitrousOxideMilestone14Title => 'Two Weeks - Nerves Healing';
+
+  @override
+  String get nitrousOxideMilestone14Description =>
+      'B12 is essential for the protective coating on your nerve fibres. Two weeks in, that repair process is actively underway. Any tingling or numbness you had should be easing — your nervous system is patching itself back together.';
+
+  @override
+  String get nitrousOxideMilestone30Title => 'One Month - Energy Returns';
+
+  @override
+  String get nitrousOxideMilestone30Description =>
+      'B12 plays a key role in red blood cell production, which means oxygen delivery to every cell in your body. One month of recovery and supplementation means meaningfully better energy, clearer thinking, and a more stable mood.';
+
+  @override
+  String get nitrousOxideMilestone90Title =>
+      'Three Months - Neurological Recovery';
+
+  @override
+  String get nitrousOxideMilestone90Description =>
+      'Three months without B12 destruction means three months of nerve repair. The nervous system is resilient — most people who started treatment promptly see significant recovery in tingling, weakness, and brain fog by this point.';
+
+  @override
+  String get nitrousOxideMilestone365Title =>
+      'One Year - Long-Term Health Secured';
+
+  @override
+  String get nitrousOxideMilestone365Description =>
+      'A full year free from nitrous oxide. Your B12 stores are restored, your nervous system has had a year to heal, and the cardiovascular risk from elevated homocysteine has resolved. Your body is operating on its own chemistry again.';
 
   @override
   String get addictionCocaine => 'Cocaine';
@@ -640,9 +629,6 @@ class AppLocalizationsJa extends AppLocalizations {
   String get settingsShowJournal => '日記を表示';
 
   @override
-  String get settingsShowHeroinSubtitle => 'Show heroin tracking';
-
-  @override
   String get settingsShowBenzosSubtitle => 'Show benzos tracking';
 
   @override
@@ -712,9 +698,6 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get settingsNotifyNicotinePouches => 'ニコチンパウチ禁止の進捗を通知';
-
-  @override
-  String get settingsNotifyHeroin => 'Notify heroin quitting progress';
 
   @override
   String get settingsNotifyBenzos => 'Notify benzos quitting progress';

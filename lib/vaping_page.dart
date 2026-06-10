@@ -18,22 +18,17 @@ class VapingPage extends StatelessWidget {
         link: "https://pubmed.ncbi.nlm.nih.gov/25638335/",
         referenceDate: "June 2026",
         referenceContent:
-            "Quitting Vaping: The First 24 Hours of Nicotine Withdrawal\n\n"
-            "Source: McLaughlin, Dani & De Biasi, \"Nicotine Withdrawal\" (Current Topics in Behavioral Neurosciences), peer-reviewed review on PubMed\n\n"
-            "Nicotine Withdrawal Is a Defined Syndrome\n"
-            "This peer-reviewed review documents that nicotine withdrawal is a well-characterised syndrome driven by neuroadaptation of nicotinic acetylcholine receptors. When nicotine is removed, those upregulated receptors produce both physical and affective symptoms. Vaping delivers nicotine efficiently — pod systems using nicotine salts allow high concentrations (commonly 20–50 mg/mL) to be inhaled smoothly — so physical dependence can be substantial.\n\n"
-            "Day One Symptoms\n"
-            "The review describes the symptoms that emerge as nicotine leaves the body:\n"
+            "Day One: Withdrawal Begins\n\n"
+            "Source: McLaughlin, Dani & De Biasi\n\n"
+            "Nicotine withdrawal is a well-characterised syndrome. The brain built extra nicotine receptors during your vaping years; without nicotine, those receptors produce withdrawal symptoms. Vaping delivers nicotine efficiently — pod systems allow high concentrations — so physical dependence can be substantial.\n\n"
+            "Day one symptoms\n"
             "• Craving for nicotine\n"
             "• Irritability, frustration, and anger\n"
             "• Anxiety\n"
             "• Difficulty concentrating\n"
-            "• Restlessness and impatience\n"
+            "• Restlessness\n"
             "• Increased appetite\n\n"
-            "Why It Happens\n"
-            "The review explains that chronic nicotine exposure upregulates nicotinic receptors in the brain's reward pathways. During abstinence these receptors are no longer occupied, lowering dopamine signalling and producing the negative-affect and craving symptoms that define early withdrawal. The first 24 hours mark the beginning of this re-regulation.\n\n"
-            "The Time Course Is Predictable\n"
-            "Critically, the review notes that withdrawal symptoms follow a predictable course — they begin within hours, intensify over the first days, and then steadily resolve over the following weeks as receptor density returns toward normal. The discomfort of day one is the start of recovery, not a permanent state.",
+            "Symptoms follow a predictable course: they begin within hours, peak over the first days, then steadily resolve over the following weeks. Day one is the start of recovery, not a permanent state.",
       ),
       QuitMilestone(
         day: 3,
@@ -43,21 +38,17 @@ class VapingPage extends StatelessWidget {
         link: "https://pubmed.ncbi.nlm.nih.gov/25638335/",
         referenceDate: "June 2026",
         referenceContent:
-            "Three Days Without Vaping: Withdrawal at Its Peak\n\n"
-            "Source: McLaughlin, Dani & De Biasi, \"Nicotine Withdrawal\" (Current Topics in Behavioral Neurosciences), peer-reviewed review on PubMed\n\n"
-            "The Peak of Physical Withdrawal\n"
-            "This peer-reviewed review documents that the somatic and affective signs of nicotine withdrawal are most intense in the first days of abstinence, before declining over subsequent weeks. By around 72 hours, nicotine and its main metabolite cotinine have largely cleared the body, and the receptor systems that adapted to constant nicotine are at their most destabilised.\n\n"
-            "Peak Symptoms\n"
+            "Day Three: Peak Withdrawal\n\n"
+            "Source: McLaughlin, Dani & De Biasi\n\n"
+            "By 72 hours, nicotine and its metabolite cotinine have largely cleared the body. The receptor systems that adapted to constant nicotine are at their most destabilised — this is the hardest day.\n\n"
+            "Peak symptoms\n"
             "• Craving at its most intense\n"
             "• Irritability, frustration, and anger\n"
             "• Anxiety and restlessness\n"
             "• Difficulty concentrating\n"
             "• Depressed mood\n"
             "• Increased appetite\n\n"
-            "Why Day Three Is the Hardest\n"
-            "The review describes withdrawal as a state of negative affect produced by reduced dopamine signalling once nicotine is gone. This neuroadaptive imbalance is greatest before the brain begins to recalibrate — which is why the 72-hour mark is typically the most difficult point of cessation.\n\n"
-            "It Improves From Here\n"
-            "The same review emphasises that withdrawal is self-limiting: the receptors downregulate toward their pre-nicotine state over the following weeks, and symptom intensity falls accordingly. Day three is the summit. Individual cravings still pass within minutes whether or not you vape — and from here the overall trajectory is downhill.",
+            "Withdrawal is self-limiting. The receptors return toward their pre-nicotine state over the following weeks, and symptom intensity falls accordingly. Day three is the summit — from here the trajectory is downhill.",
       ),
       QuitMilestone(
         day: 7,
@@ -67,20 +58,15 @@ class VapingPage extends StatelessWidget {
         link: "https://www.cdc.gov/tobacco/e-cigarettes/about.html",
         referenceDate: "June 2026",
         referenceContent:
-            "One Week Without Vaping: A Week Free of Aerosol\n\n"
-            "Source: U.S. Centers for Disease Control and Prevention (CDC)\n\n"
-            "What You Have Stopped Inhaling\n"
-            "The CDC documents that e-cigarette aerosol is not the harmless \"water vapor\" it is often assumed to be. After one week without vaping, your airways have had a full week free of:\n"
-            "• Ultrafine particles that are inhaled deep into the lungs\n"
-            "• Flavouring chemicals such as diacetyl, which is linked to serious lung disease\n"
+            "One Week: Airways Beginning to Settle\n\n"
+            "Source: CDC\n\n"
+            "E-cigarette aerosol is not harmless water vapour. After one week, your airways have had a full week free of:\n"
+            "• Ultrafine particles inhaled deep into the lungs\n"
+            "• Flavouring chemicals such as diacetyl, linked to serious lung disease\n"
             "• Heavy metals including nickel, tin, and lead\n"
             "• Volatile organic compounds and cancer-causing chemicals\n\n"
-            "Why \"Safe to Eat\" Does Not Mean \"Safe to Inhale\"\n"
-            "The CDC stresses that many flavouring compounds approved for food are not safe to breathe, because the lungs process inhaled substances very differently from the gut. Each day without vaping is a day those compounds are no longer being deposited in your airways.\n\n"
-            "Airways Begin to Settle\n"
-            "With the source of chemical irritation removed, the airway lining is no longer being re-injured with every puff. Inflammation begins to subside and many people notice easier breathing and a sharper sense of taste and smell within the first week — the senses dulled by constant aerosol exposure begin to return.\n\n"
-            "The Nicotine Driver Is Gone\n"
-            "The CDC also notes that most e-cigarettes contain nicotine — frequently as nicotine salts, which allow very high nicotine levels to be inhaled smoothly. One week in, the body is no longer receiving that nicotine, and the acute physical withdrawal it drives has largely passed.",
+            "With the irritation removed, airway inflammation begins to subside. Many people notice easier breathing and a sharper sense of taste and smell within the first week.\n\n"
+            "The acute physical nicotine withdrawal has largely passed.",
       ),
       QuitMilestone(
         day: 14,
@@ -108,6 +94,28 @@ class VapingPage extends StatelessWidget {
       ),
       QuitMilestone(
         day: 30,
+        title: l10n.vapingMilestone60Title,
+        description: l10n.vapingMilestone60Description,
+        reference: "McLaughlin, Dani & De Biasi — Nicotine Withdrawal (PubMed)",
+        link: "https://pubmed.ncbi.nlm.nih.gov/25638335/",
+        referenceDate: "June 2026",
+        referenceContent:
+            "One Month Without Vaping: Anxiety Settles\n\n"
+            "Source: McLaughlin, Dani & De Biasi, \"Nicotine Withdrawal\" (Current Topics in Behavioral Neurosciences), peer-reviewed review on PubMed\n\n"
+            "Physical Versus Psychological\n"
+            "This review distinguishes the two halves of nicotine dependence: the physical withdrawal syndrome driven by receptor neuroadaptation, and the learned, cue-driven behaviour that outlasts it. The physical syndrome is time-limited — symptoms peak early and resolve over a few weeks as nicotinic receptors return toward normal density. By one month, the physical component is largely behind you.\n\n"
+            "What Has Resolved by Now\n"
+            "• Craving driven by nicotine deficit has faded\n"
+            "• Irritability, anxiety, and restlessness have settled\n"
+            "• Concentration and mood have normalised as dopamine signalling recalibrates\n"
+            "• Appetite changes have largely stabilised\n\n"
+            "The Nicotine-Anxiety Trap\n"
+            "Many vapers believed nicotine calmed their anxiety. The reality is that nicotine created a withdrawal anxiety between doses — each vape temporarily relieved the very anxiety it caused. At one month, that cycle is broken. Baseline anxiety is lower than it was during active use.\n\n"
+            "What Can Linger\n"
+            "The review notes that conditioned associations — the automatic urge to vape in response to stress, boredom, meals, or particular social settings — are learned cues that can persist after the physical withdrawal is over. At one month these are weakening but may still surface.",
+      ),
+      QuitMilestone(
+        day: 60,
         title: l10n.vapingMilestone30Title,
         description: l10n.vapingMilestone30Description,
         reference:
@@ -115,11 +123,11 @@ class VapingPage extends StatelessWidget {
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10697086/",
         referenceDate: "June 2026",
         referenceContent:
-            "One Month Without Vaping: Measurable Lung Recovery\n\n"
+            "Two Months Without Vaping: Measurable Lung Recovery\n\n"
             "Source: \"Short-Term Benefits of Smoking Cessation Improve Respiratory Function and Metabolism in Smokers,\" International Journal of COPD (2023), on PubMed Central\n\n"
-            "Recovery You Can Measure in a Month\n"
-            "This study measured lung function and symptoms at baseline and again just one month after stopping inhaled nicotine. Because vaping and smoking both deliver nicotine and an inflammatory aerosol to the airways, the early recovery pattern is directly relevant to quitting vaping.\n\n"
-            "What Improved at One Month\n"
+            "Recovery You Can Measure\n"
+            "This study measured lung function and symptoms at baseline and again after stopping inhaled nicotine. Because vaping and smoking both deliver nicotine and an inflammatory aerosol to the airways, the recovery pattern is directly relevant to quitting vaping.\n\n"
+            "What Improves\n"
             "• FEV1 (the volume you can forcibly exhale in one second) rose by ~200 mL\n"
             "• Small-airway flow (FEF 25–75%) improved, reflecting reduced inflammation\n"
             "• Gas transfer (DLCO) improved\n"
@@ -127,31 +135,9 @@ class VapingPage extends StatelessWidget {
             "• Six-minute walking distance increased from ~350 to ~400 metres, with a lower heart rate\n"
             "• Exhaled carbon monoxide fell sharply\n\n"
             "Both Large and Small Airways\n"
-            "The authors concluded that quitting produced \"an improvement of all considered parameters … in both large and small airways\" within a short timeframe — evidence that the lungs begin genuine functional repair, not merely a pause in damage.\n\n"
+            "The authors concluded that quitting produced \"an improvement of all considered parameters … in both large and small airways\" — evidence that the lungs begin genuine functional repair, not merely a pause in damage.\n\n"
             "The Honest Picture\n"
-            "Long-standing or severe airway damage may take much longer to recover, and some changes can persist. But at one month the trajectory has clearly reversed: inflammation is down, airflow is up, and exercise tolerance is measurably better.",
-      ),
-      QuitMilestone(
-        day: 60,
-        title: l10n.vapingMilestone60Title,
-        description: l10n.vapingMilestone60Description,
-        reference: "McLaughlin, Dani & De Biasi — Nicotine Withdrawal (PubMed)",
-        link: "https://pubmed.ncbi.nlm.nih.gov/25638335/",
-        referenceDate: "June 2026",
-        referenceContent:
-            "Two Months Without Vaping: Past Physical Withdrawal\n\n"
-            "Source: McLaughlin, Dani & De Biasi, \"Nicotine Withdrawal\" (Current Topics in Behavioral Neurosciences), peer-reviewed review on PubMed\n\n"
-            "Physical Versus Psychological\n"
-            "This review distinguishes the two halves of nicotine dependence: the physical withdrawal syndrome driven by receptor neuroadaptation, and the learned, cue-driven behaviour that outlasts it. The physical syndrome is time-limited — symptoms peak early and resolve over a few weeks as nicotinic receptors return toward normal density. By two months, the physical component is behind you.\n\n"
-            "What Has Resolved by Now\n"
-            "• Craving driven by nicotine deficit has faded\n"
-            "• Irritability, anxiety, and restlessness have settled\n"
-            "• Concentration and mood have normalised as dopamine signalling recalibrates\n"
-            "• Appetite changes have largely stabilised\n\n"
-            "What Can Linger\n"
-            "The review notes that conditioned associations — the automatic urge to vape in response to stress, boredom, meals, or particular social settings — are learned cues that can persist after the physical withdrawal is over. At two months these are weakening but may still surface.\n\n"
-            "Why This Matters\n"
-            "Understanding that any remaining urges are psychological habit, not physical dependence, is powerful: they are not a sign that your body still needs nicotine, and they continue to fade as the old cues go unrewarded.",
+            "Long-standing or severe airway damage may take longer to recover, and some changes can persist. But by two months the trajectory has clearly reversed: inflammation is down, airflow is up, and exercise tolerance is measurably better.",
       ),
       QuitMilestone(
         day: 90,

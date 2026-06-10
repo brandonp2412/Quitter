@@ -23,6 +23,15 @@
     <string name="addiction_opioids">Opioids</string>
     <string name="addiction_social_media">Social Media</string>
     <string name="addiction_pornography">Adult content</string>
+    <string name="addiction_cocaine">Cocaine</string>
+    <string name="addiction_meth">Meth</string>
+    <string name="addiction_benzos">Benzodiazepines</string>
+    <string name="addiction_adderall">Adderall</string>
+    <string name="addiction_ssri">SSRI</string>
+    <string name="addiction_snri">SNRI</string>
+    <string name="addiction_tca">TCA</string>
+    <string name="addiction_maoi">MAOI</string>
+    <string name="addiction_nitrous_oxide">Nitrous Oxide</string>
     <!-- Widget text -->
     <string name="widget_day_singular">day</string>
     <string name="widget_day_plural">days</string>

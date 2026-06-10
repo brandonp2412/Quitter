@@ -280,144 +280,6 @@ abstract class AppLocalizations {
   /// **'Turn on or off all notifications'**
   String get enableNotificationsSubtitle;
 
-  /// No description provided for @heroinPageTitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Heroin Recovery'**
-  String get heroinPageTitle;
-
-  /// No description provided for @heroinHeaderStarted.
-  ///
-  /// In en, this message translates to:
-  /// **'Your Recovery Journey'**
-  String get heroinHeaderStarted;
-
-  /// No description provided for @heroinHeaderNotStarted.
-  ///
-  /// In en, this message translates to:
-  /// **'Benefits of Quitting Heroin'**
-  String get heroinHeaderNotStarted;
-
-  /// No description provided for @heroinSubtitleStarted.
-  ///
-  /// In en, this message translates to:
-  /// **'Track your progress and celebrate each milestone'**
-  String get heroinSubtitleStarted;
-
-  /// No description provided for @heroinSubtitleNotStarted.
-  ///
-  /// In en, this message translates to:
-  /// **'See what happens when you quit'**
-  String get heroinSubtitleNotStarted;
-
-  /// No description provided for @heroinMilestone1Title.
-  ///
-  /// In en, this message translates to:
-  /// **'Withdrawal Begins'**
-  String get heroinMilestone1Title;
-
-  /// No description provided for @heroinMilestone1Description.
-  ///
-  /// In en, this message translates to:
-  /// **'Your body starts the detox process. Early withdrawal symptoms like anxiety, sweating, and muscle aches may begin within 6-24 hours. This is your body beginning to heal.'**
-  String get heroinMilestone1Description;
-
-  /// No description provided for @heroinMilestone3Title.
-  ///
-  /// In en, this message translates to:
-  /// **'Peak Withdrawal'**
-  String get heroinMilestone3Title;
-
-  /// No description provided for @heroinMilestone3Description.
-  ///
-  /// In en, this message translates to:
-  /// **'Acute withdrawal symptoms typically peak around days 2-3. While challenging, this marks the most intense phase. Physical symptoms include nausea, vomiting, body aches, and insomnia. Support is crucial during this time.'**
-  String get heroinMilestone3Description;
-
-  /// No description provided for @heroinMilestone7Title.
-  ///
-  /// In en, this message translates to:
-  /// **'Acute Symptoms Subside'**
-  String get heroinMilestone7Title;
-
-  /// No description provided for @heroinMilestone7Description.
-  ///
-  /// In en, this message translates to:
-  /// **'The most severe physical withdrawal symptoms begin to fade. Your body is adjusting to functioning without heroin. Sleep may still be disrupted, but you\'re through the hardest physical phase.'**
-  String get heroinMilestone7Description;
-
-  /// No description provided for @heroinMilestone30Title.
-  ///
-  /// In en, this message translates to:
-  /// **'Physical Health Normalizes'**
-  String get heroinMilestone30Title;
-
-  /// No description provided for @heroinMilestone30Description.
-  ///
-  /// In en, this message translates to:
-  /// **'Your sleep patterns, appetite, and energy levels start returning to normal. Physical health improvements become noticeable. Your body\'s natural systems are beginning to regulate themselves again.'**
-  String get heroinMilestone30Description;
-
-  /// No description provided for @heroinMilestone90Title.
-  ///
-  /// In en, this message translates to:
-  /// **'Immune System Recovery'**
-  String get heroinMilestone90Title;
-
-  /// No description provided for @heroinMilestone90Description.
-  ///
-  /// In en, this message translates to:
-  /// **'Your immune system begins significant recovery after months of suppression. You\'ll likely get sick less often and fight off infections more effectively. Cardiovascular health continues to improve.'**
-  String get heroinMilestone90Description;
-
-  /// No description provided for @heroinMilestone180Title.
-  ///
-  /// In en, this message translates to:
-  /// **'Cognitive Improvements'**
-  String get heroinMilestone180Title;
-
-  /// No description provided for @heroinMilestone180Description.
-  ///
-  /// In en, this message translates to:
-  /// **'Notable improvements in memory, attention, and decision-making abilities. Brain imaging studies show measurable recovery in areas affected by heroin use. Mental clarity continues to increase.'**
-  String get heroinMilestone180Description;
-
-  /// No description provided for @heroinMilestone365Title.
-  ///
-  /// In en, this message translates to:
-  /// **'Major Brain Healing'**
-  String get heroinMilestone365Title;
-
-  /// No description provided for @heroinMilestone365Description.
-  ///
-  /// In en, this message translates to:
-  /// **'Significant restoration of brain function and emotional regulation. Dopamine receptors continue to normalize, making natural rewards more satisfying. Many experience improved relationships and life satisfaction.'**
-  String get heroinMilestone365Description;
-
-  /// No description provided for @heroinMilestone540Title.
-  ///
-  /// In en, this message translates to:
-  /// **'Continued Cognitive Recovery'**
-  String get heroinMilestone540Title;
-
-  /// No description provided for @heroinMilestone540Description.
-  ///
-  /// In en, this message translates to:
-  /// **'Executive function, impulse control, and emotional stability continue to improve. The brain\'s reward system becomes increasingly balanced. Long-term abstinence strengthens neural pathways for healthy decision-making.'**
-  String get heroinMilestone540Description;
-
-  /// No description provided for @heroinMilestone730Title.
-  ///
-  /// In en, this message translates to:
-  /// **'Long-Term Brain Recovery'**
-  String get heroinMilestone730Title;
-
-  /// No description provided for @heroinMilestone730Description.
-  ///
-  /// In en, this message translates to:
-  /// **'Two years of recovery brings substantial neuroplasticity and brain healing. Cognitive function approaches pre-addiction levels. You\'ve built a strong foundation for sustained recovery and a healthier future.'**
-  String get heroinMilestone730Description;
-
   /// No description provided for @benzoPageTitle.
   ///
   /// In en, this message translates to:
@@ -562,12 +424,6 @@ abstract class AppLocalizations {
   /// **'Meth'**
   String get addictionMeth;
 
-  /// No description provided for @addictionHeroin.
-  ///
-  /// In en, this message translates to:
-  /// **'Heroin'**
-  String get addictionHeroin;
-
   /// No description provided for @addictionBenzos.
   ///
   /// In en, this message translates to:
@@ -711,6 +567,126 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Long-term abstinence allows for continued brain healing. Attention and mood typically rebound within 12-18 months for most people. Your cognitive function, emotional regulation, and overall quality of life continue improving with sustained recovery.'**
   String get methMilestone730Description;
+
+  /// No description provided for @addictionNitrousOxide.
+  ///
+  /// In en, this message translates to:
+  /// **'Nitrous Oxide'**
+  String get addictionNitrousOxide;
+
+  /// No description provided for @nitrousOxidePageTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Nitrous Oxide Recovery'**
+  String get nitrousOxidePageTitle;
+
+  /// No description provided for @nitrousOxideHeaderStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Your Recovery Journey'**
+  String get nitrousOxideHeaderStarted;
+
+  /// No description provided for @nitrousOxideHeaderNotStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Ready to Start?'**
+  String get nitrousOxideHeaderNotStarted;
+
+  /// No description provided for @nitrousOxideSubtitleStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Track your progress and celebrate each milestone'**
+  String get nitrousOxideSubtitleStarted;
+
+  /// No description provided for @nitrousOxideSubtitleNotStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'See what positive changes await you'**
+  String get nitrousOxideSubtitleNotStarted;
+
+  /// No description provided for @nitrousOxideMilestone1Title.
+  ///
+  /// In en, this message translates to:
+  /// **'First 24 Hours - System Clearing'**
+  String get nitrousOxideMilestone1Title;
+
+  /// No description provided for @nitrousOxideMilestone1Description.
+  ///
+  /// In en, this message translates to:
+  /// **'The gas leaves your system within minutes, but the healing takes longer. Dizziness settles, headaches ease, and your brain starts recalibrating without the dopamine shortcut. Your B12 recovery begins now.'**
+  String get nitrousOxideMilestone1Description;
+
+  /// No description provided for @nitrousOxideMilestone3Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Day 3 - No Physical Withdrawal'**
+  String get nitrousOxideMilestone3Title;
+
+  /// No description provided for @nitrousOxideMilestone3Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Here\'s good news: nitrous oxide doesn\'t cause physical withdrawal. The urges you feel are psychological — habit and association, not your body demanding a substance. That makes them manageable.'**
+  String get nitrousOxideMilestone3Description;
+
+  /// No description provided for @nitrousOxideMilestone7Title.
+  ///
+  /// In en, this message translates to:
+  /// **'One Week - B12 Rising'**
+  String get nitrousOxideMilestone7Title;
+
+  /// No description provided for @nitrousOxideMilestone7Description.
+  ///
+  /// In en, this message translates to:
+  /// **'One week with no new B12 being destroyed. If you\'ve started supplementing, your levels are already climbing. Energy, mood, and focus are all tied to B12 — you should be starting to feel them improve.'**
+  String get nitrousOxideMilestone7Description;
+
+  /// No description provided for @nitrousOxideMilestone14Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Two Weeks - Nerves Healing'**
+  String get nitrousOxideMilestone14Title;
+
+  /// No description provided for @nitrousOxideMilestone14Description.
+  ///
+  /// In en, this message translates to:
+  /// **'B12 is essential for the protective coating on your nerve fibres. Two weeks in, that repair process is actively underway. Any tingling or numbness you had should be easing — your nervous system is patching itself back together.'**
+  String get nitrousOxideMilestone14Description;
+
+  /// No description provided for @nitrousOxideMilestone30Title.
+  ///
+  /// In en, this message translates to:
+  /// **'One Month - Energy Returns'**
+  String get nitrousOxideMilestone30Title;
+
+  /// No description provided for @nitrousOxideMilestone30Description.
+  ///
+  /// In en, this message translates to:
+  /// **'B12 plays a key role in red blood cell production, which means oxygen delivery to every cell in your body. One month of recovery and supplementation means meaningfully better energy, clearer thinking, and a more stable mood.'**
+  String get nitrousOxideMilestone30Description;
+
+  /// No description provided for @nitrousOxideMilestone90Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Three Months - Neurological Recovery'**
+  String get nitrousOxideMilestone90Title;
+
+  /// No description provided for @nitrousOxideMilestone90Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Three months without B12 destruction means three months of nerve repair. The nervous system is resilient — most people who started treatment promptly see significant recovery in tingling, weakness, and brain fog by this point.'**
+  String get nitrousOxideMilestone90Description;
+
+  /// No description provided for @nitrousOxideMilestone365Title.
+  ///
+  /// In en, this message translates to:
+  /// **'One Year - Long-Term Health Secured'**
+  String get nitrousOxideMilestone365Title;
+
+  /// No description provided for @nitrousOxideMilestone365Description.
+  ///
+  /// In en, this message translates to:
+  /// **'A full year free from nitrous oxide. Your B12 stores are restored, your nervous system has had a year to heal, and the cardiovascular risk from elevated homocysteine has resolved. Your body is operating on its own chemistry again.'**
+  String get nitrousOxideMilestone365Description;
 
   /// No description provided for @addictionCocaine.
   ///
@@ -1216,12 +1192,6 @@ abstract class AppLocalizations {
   /// **'Show journal'**
   String get settingsShowJournal;
 
-  /// No description provided for @settingsShowHeroinSubtitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Show heroin tracking'**
-  String get settingsShowHeroinSubtitle;
-
   /// No description provided for @settingsShowBenzosSubtitle.
   ///
   /// In en, this message translates to:
@@ -1359,12 +1329,6 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Notify nicotine pouches quitting progress'**
   String get settingsNotifyNicotinePouches;
-
-  /// No description provided for @settingsNotifyHeroin.
-  ///
-  /// In en, this message translates to:
-  /// **'Notify heroin quitting progress'**
-  String get settingsNotifyHeroin;
 
   /// No description provided for @settingsNotifyBenzos.
   ///
