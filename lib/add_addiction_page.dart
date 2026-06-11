@@ -339,7 +339,7 @@ class AddAddictionPage extends StatelessWidget {
                 ),
               ),
             ),
-            const Divider(height: 24),
+            const Divider(height: 32),
             ListTile(
               leading: Container(
                 width: 48,
@@ -378,23 +378,26 @@ class _AddictionTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ListTile(
-      leading: Container(
-        width: 48,
-        height: 48,
-        decoration: BoxDecoration(
-          gradient: LinearGradient(
-            colors: option.gradientColors,
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
+    return Padding(
+      padding: const EdgeInsets.only(bottom: 8.0),
+      child: ListTile(
+        leading: Container(
+          width: 48,
+          height: 48,
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              colors: option.gradientColors,
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+            ),
+            borderRadius: BorderRadius.circular(12),
           ),
-          borderRadius: BorderRadius.circular(12),
+          child: Icon(option.icon, color: Colors.white, size: 24),
         ),
-        child: Icon(option.icon, color: Colors.white, size: 24),
+        title: Text(option.title),
+        trailing: const Icon(Icons.chevron_right),
+        onTap: onTap,
       ),
-      title: Text(option.title),
-      trailing: const Icon(Icons.chevron_right),
-      onTap: onTap,
     );
   }
 }
