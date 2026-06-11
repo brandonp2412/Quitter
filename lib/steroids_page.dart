@@ -18,7 +18,7 @@ class SteroidsPage extends StatelessWidget {
         link: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4398624/",
         referenceDate: "June 2026",
         referenceContent:
-            "Stopping Anabolic Steroids: The First Days\n\nSource: \"Prolonged Hypogonadism in Males Following Withdrawal from Anabolic-Androgenic Steroids,\" on PubMed Central\n\nWhy Symptoms Appear\nExogenous anabolic-androgenic steroids (AAS) suppress the hypothalamic-pituitary-testicular (HPTA) axis through negative feedback, shutting down natural testosterone production. When you stop, the body is left in a temporary hormone deficit — anabolic steroid-induced hypogonadism (ASIH).\n\nEarly Symptoms\n• Fatigue and low mood\n• Reduced libido and erectile difficulty\n• Low motivation\n\nA Safety Note\nDepression during steroid withdrawal can be serious. Seek medical care, and urgent help for any thoughts of self-harm. Clinicians often guide recovery; some use medications to support it.",
+            "Stopping Anabolic Steroids: The First Days\n\nSource: \"Prolonged Hypogonadism in Males Following Withdrawal from Anabolic-Androgenic Steroids,\" on PubMed Central\n\nWhy Symptoms Appear\nAnabolic steroids work by telling the body to stop making its own testosterone — the brain detects the steroids and shuts off the hormonal signals that normally drive production. When you stop using them, the body is left in a hormone gap while those signals slowly switch back on.\n\nEarly Symptoms\n• Fatigue and low mood\n• Reduced libido and erectile difficulty\n• Low motivation\n\nA Safety Note\nDepression during steroid withdrawal can be serious. Seek medical care, and urgent help for any thoughts of self-harm. Clinicians often guide recovery; some use medications to support it.",
       ),
       QuitMilestone(
         day: 14,
@@ -28,7 +28,7 @@ class SteroidsPage extends StatelessWidget {
         link: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4398624/",
         referenceDate: "June 2026",
         referenceContent:
-            "Two Weeks Off Anabolic Steroids\n\nSource: \"Prolonged Hypogonadism in Males Following Withdrawal from Anabolic-Androgenic Steroids,\" on PubMed Central\n\nThe Adjustment Phase\nWith natural testosterone still suppressed, the first weeks bring the most noticeable symptoms — fatigue, low mood, reduced libido, and physical weakness compared with being “on.”\n\nA Known Trap\nThe literature notes that some men resume AAS specifically to escape these withdrawal symptoms, entering a cycle of dependence. Knowing the dip is temporary — and getting medical and psychological support — helps break that pattern.",
+            "Two Weeks Off Anabolic Steroids\n\nSource: \"Prolonged Hypogonadism in Males Following Withdrawal from Anabolic-Androgenic Steroids,\" on PubMed Central\n\nThe Adjustment Phase\nWith natural testosterone still suppressed, the first weeks bring the most noticeable symptoms — fatigue, low mood, reduced libido, and physical weakness compared with being “on.”\n\nA Known Trap\nResearch notes that some men go back to using specifically to escape these withdrawal symptoms — a cycle worth breaking with support rather than more steroids. Knowing the dip is temporary helps.",
       ),
       QuitMilestone(
         day: 30,
@@ -39,7 +39,7 @@ class SteroidsPage extends StatelessWidget {
         link: "https://pubmed.ncbi.nlm.nih.gov/37855241/",
         referenceDate: "June 2026",
         referenceContent:
-            "One Month Off Anabolic Steroids\n\nSource: \"Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review,\" on PubMed\n\nThe Axis Restarts\nAfter cessation the HPTA begins to reactivate. The scoping review describes complete gonadotropin recovery as expected over 3–6 months and near-complete testosterone recovery over months — so at one month the process is underway but far from finished.\n\nWhat to Expect\nLow mood, libido, and energy commonly persist while hormones climb back. Recovery depends on age and how heavy and prolonged the use was.",
+            "One Month Off Anabolic Steroids\n\nSource: \"Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review,\" on PubMed\n\nRecovery Begins\nAfter stopping, the hormonal signals that drive testosterone production gradually switch back on. Research suggests they typically recover over 3–6 months and near-complete testosterone recovery over months — so at one month the process is underway but far from finished.\n\nWhat to Expect\nLow mood, libido, and energy commonly persist while hormones climb back. Recovery depends on age and how heavy and prolonged the use was.",
       ),
       QuitMilestone(
         day: 90,
@@ -50,7 +50,7 @@ class SteroidsPage extends StatelessWidget {
         link: "https://pubmed.ncbi.nlm.nih.gov/37855241/",
         referenceDate: "June 2026",
         referenceContent:
-            "Three Months Off Anabolic Steroids\n\nSource: \"Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review,\" on PubMed\n\nHormones Recovering\nThe review places complete gonadotropin recovery in the 3–6 month range, with testosterone recovering over months. By three months many people are well into that window, and mood, energy, and libido begin to follow the hormonal recovery.\n\nAn Honest Caveat\nThe trajectory is highly individual. Testicular size and sperm production can take months to years, and recovery from gynaecomastia is unlikely without specific treatment.",
+            "Three Months Off Anabolic Steroids\n\nSource: \"Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review,\" on PubMed\n\nHormones Recovering\nResearch places the recovery of hormone signals in the 3–6 month range, with testosterone recovering over months. By three months many people are well into that window, and mood, energy, and libido begin to follow the hormonal recovery.\n\nAn Honest Caveat\nThe trajectory is highly individual. Testicular size and sperm production can take months to years, and breast tissue growth (gynaecomastia) is unlikely to reverse without specific treatment.",
       ),
       QuitMilestone(
         day: 180,
@@ -61,7 +61,7 @@ class SteroidsPage extends StatelessWidget {
         link: "https://pubmed.ncbi.nlm.nih.gov/37855241/",
         referenceDate: "June 2026",
         referenceContent:
-            "Six Months Off Anabolic Steroids\n\nSource: \"Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review,\" on PubMed\n\nWhere Six Months Sits\nThe review expects complete gonadotropin recovery and near-complete testosterone recovery over roughly 3–6 months. For many men, six months is the point where bloodwork and symptoms have substantially normalised.\n\nIf You're Not There Yet\nRecovery is immensely variable. A meaningful minority of long-term users have prolonged hypogonadism, so if symptoms persist, ask an endocrinologist or urologist to check your hormone levels rather than assuming it will sort itself out.",
+            "Six Months Off Anabolic Steroids\n\nSource: \"Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review,\" on PubMed\n\nWhere Six Months Sits\nResearch expects full hormone signal recovery and near-complete testosterone recovery over roughly 3–6 months. For many men, six months is the point where bloodwork and symptoms have substantially normalised.\n\nIf You're Not There Yet\nRecovery is immensely variable. A meaningful minority of long-term users have prolonged hypogonadism, so if symptoms persist, ask an endocrinologist or urologist to check your hormone levels rather than assuming it will sort itself out.",
       ),
       QuitMilestone(
         day: 365,
@@ -72,7 +72,7 @@ class SteroidsPage extends StatelessWidget {
         link: "https://pubmed.ncbi.nlm.nih.gov/33887077/",
         referenceDate: "June 2026",
         referenceContent:
-            "One Year Off Anabolic Steroids\n\nSource: \"Anabolic androgenic steroid-induced hypogonadism, a reversible condition in male individuals? A systematic review,\" on PubMed\n\nA Year On\nClassic teaching is that ASIH resolves within 6–12 months, and for most men a year brings normalised hormones, mood, libido, and energy.\n\nAn Honest Caveat\nThe systematic review is sobering: among cases with known outcomes, full HPTA recovery was confirmed in only a minority, and some men have prolonged or possibly permanent hypogonadism — occasionally with persistent symptoms even when testosterone normalises. If you still have low testosterone or hypogonadal symptoms at a year, get specialist endocrine assessment.",
+            "One Year Off Anabolic Steroids\n\nSource: \"Anabolic androgenic steroid-induced hypogonadism, a reversible condition in male individuals? A systematic review,\" on PubMed\n\nA Year On\nClassic teaching is that steroid-induced testosterone deficiency resolves within 6–12 months, and for most men a year brings normalised hormones, mood, libido, and energy.\n\nAn Honest Caveat\nThe systematic review is sobering: among cases with known outcomes, full hormone system recovery was confirmed in only a minority, and some men have prolonged or possibly permanent hypogonadism — occasionally with persistent symptoms even when testosterone normalises. If you still have low testosterone or low-testosterone symptoms at a year, get specialist endocrine assessment.",
       ),
       QuitMilestone(
         day: 730,

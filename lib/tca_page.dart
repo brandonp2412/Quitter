@@ -25,16 +25,16 @@ class TcaPage extends StatelessWidget {
             "TCA Discontinuation: The First Days — Cholinergic Rebound\n\n"
             "Source: Dilsaver & Greden (1984), Psychopharmacology — 'Antidepressant withdrawal phenomena'\n\n"
             "What Makes TCA Discontinuation Different\n"
-            "Tricyclic antidepressants differ fundamentally from SSRIs and SNRIs in their mechanism. In addition to blocking serotonin and norepinephrine reuptake, TCAs have very strong anticholinergic effects — they block muscarinic acetylcholine receptors. When TCAs are discontinued, the acetylcholine system rebounds.\n\n"
+            "Tricyclic antidepressants differ fundamentally from SSRIs and SNRIs in their mechanism. In addition to blocking serotonin and norepinephrine reuptake, TCAs strongly block the body's acetylcholine system. When you stop, that system bounces back.\n\n"
             "Cholinergic Rebound Symptoms\n"
             "Unlike the FINISH syndrome of SSRI discontinuation, TCA discontinuation produces cholinergic rebound:\n"
-            "• Nausea, vomiting, and diarrhoea — gastrointestinal hypermotility\n"
+            "• Nausea, vomiting, and diarrhoea\n"
             "• Excessive salivation and sweating\n"
             "• Headache and muscle aches\n"
             "• Insomnia with vivid or disturbing dreams\n"
             "• Anxiety and restlessness\n\n"
             "Common TCAs and Their Profiles\n"
-            "Amitriptyline and imipramine have the strongest anticholinergic effects and typically produce the most pronounced cholinergic rebound. Nortriptyline has somewhat milder anticholinergic effects. Clomipramine also has significant serotonergic effects alongside its anticholinergic profile.",
+            "Amitriptyline and imipramine have the strongest acetylcholine-blocking effects and typically produce the most pronounced cholinergic rebound. Nortriptyline has somewhat milder anticholinergic effects. Clomipramine also has significant serotonergic effects alongside its anticholinergic profile.",
       ),
       QuitMilestone(
         day: 7,
@@ -47,14 +47,14 @@ class TcaPage extends StatelessWidget {
         referenceContent:
             "One Week After TCAs: Cholinergic Symptoms Easing\n\n"
             "The Cholinergic Recovery\n"
-            "The cholinergic rebound typically reaches its peak within the first few days and begins to ease substantially by one week. As the acetylcholine system returns toward its natural baseline:\n\n"
+            "The acetylcholine rebound typically reaches its peak within the first few days and begins to ease substantially by one week. As the acetylcholine system returns toward its natural baseline:\n\n"
             "What's Improving\n"
             "• Gastrointestinal symptoms (nausea, cramping, diarrhoea) are reducing\n"
             "• Sweating and flu-like symptoms are easing\n"
             "• Sleep, though still disrupted, is beginning to stabilise\n"
             "• The excessive salivation from cholinergic rebound is resolving\n\n"
             "Autonomic Nervous System\n"
-            "TCAs powerfully affect the autonomic nervous system through both their anticholinergic and noradrenergic properties. By one week, the most acute autonomic instability — including postural hypotension and rapid heart rate changes — is beginning to resolve as the nervous system readjusts.",
+            "TCAs affect the body's automatic functions — heart rate, blood pressure, digestion — through several mechanisms. By one week, the most acute autonomic instability — including dizziness when standing and rapid heart rate changes — is beginning to resolve as the nervous system readjusts.",
       ),
       QuitMilestone(
         day: 14,
@@ -66,14 +66,14 @@ class TcaPage extends StatelessWidget {
         referenceContent:
             "Two Weeks After TCAs: Anticholinergic Effects Reversing\n\n"
             "The Anticholinergic Burden Lifts\n"
-            "TCAs impose a significant anticholinergic burden on the body that affects multiple systems. As this burden lifts over the first two weeks:\n\n"
+            "TCAs impose a significant acetylcholine-blocking effects on the body that affects multiple systems. As this burden lifts over the first two weeks:\n\n"
             "Physical Benefits\n"
             "• Dry mouth resolving — salivary gland function returning to normal\n"
             "• Constipation resolving — bowel motility naturally restored\n"
             "• Urinary function normalising — the urinary retention that TCAs can cause is resolving\n"
-            "• Blurred vision clearing — pupillary response and accommodation returning to normal\n\n"
+            "• Blurred vision clearing — eyes adjusting normally to light again\n\n"
             "Cognitive Benefits\n"
-            "The cholinergic system is critically important for memory, attention, and learning. The acetylcholine pathways suppressed by TCAs are recovering:\n"
+            "Acetylcholine is essential for memory, attention, and learning. The acetylcholine pathways suppressed by TCAs are recovering:\n"
             "• Working memory improving\n"
             "• Processing speed increasing\n"
             "• Mental clarity returning\n\n"
@@ -89,13 +89,13 @@ class TcaPage extends StatelessWidget {
         referenceContent:
             "One Month After TCAs: Autonomic Nervous System Stabilising\n\n"
             "Cardiac Recovery\n"
-            "TCAs significantly affect the cardiovascular system through their sodium-channel blocking and anticholinergic properties. At one month:\n"
-            "• QTc interval prolongation caused by TCAs has resolved\n"
+            "TCAs significantly affect the cardiovascular system through their effects on heart rhythm. At one month:\n"
+            "• TCAs can affect heart rhythm; by one month this has resolved\n"
             "• Heart rate variability is returning to natural levels\n"
             "• Blood pressure regulation, previously affected by norepinephrine reuptake blockade, is stabilising\n\n"
             "Sleep Architecture Restoration\n"
-            "TCAs are powerful REM sleep suppressors. As the anticholinergic effect wears off (cholinergic activity is essential for REM sleep):\n"
-            "• REM sleep is returning, often producing a 'REM rebound' with vivid dreams\n"
+            "TCAs strongly suppress dream sleep. As the anticholinergic effect wears off (acetylcholine is needed for dream sleep):\n"
+            "• REM sleep is returning, often producing a surge of vivid dreams as dream sleep returns\n"
             "• Slow-wave (deep) sleep is improving\n"
             "• Overall sleep quality and restoration is meaningfully better than during TCA use",
       ),
@@ -111,10 +111,10 @@ class TcaPage extends StatelessWidget {
             "Three Months After TCAs: Multiple Neurotransmitter Systems Normalising\n\n"
             "The Multi-System Recovery\n"
             "TCAs affect a broader range of neurotransmitter systems than SSRIs or SNRIs:\n"
-            "• Serotonin system: reuptake blockade resolving\n"
-            "• Norepinephrine system: reuptake blockade resolving\n"
-            "• Acetylcholine system: muscarinic receptor sensitivity normalising\n"
-            "• Histamine system: H1 blockade resolving, reducing sedation\n\n"
+            "• Serotonin system: adjusting\n"
+            "• Norepinephrine system: adjusting\n"
+            "• Acetylcholine system: settling back to normal\n"
+            "• Histamine system: the antihistamine-like sedation has resolved\n\n"
             "At three months, all of these systems have had substantial time to recover. The combination typically produces:\n"
             "• Significantly improved cognitive function — particularly memory and attention\n"
             "• Better mood stability\n"
@@ -131,10 +131,10 @@ class TcaPage extends StatelessWidget {
         referenceContent:
             "Six Months After TCAs: Cardiac and Cognitive Recovery\n\n"
             "Cardiovascular Recovery\n"
-            "The sodium-channel blocking and adrenergic effects of TCAs on the heart have fully resolved by six months. Research shows:\n"
-            "• Normal QTc interval maintained without pharmacological influence\n"
-            "• Heart rate variability (a marker of cardiac autonomic health) substantially improved\n"
-            "• Orthostatic hypotension (dizziness on standing) fully resolved\n\n"
+            "TCAs' effects on heart rhythm have fully resolved by six months. Research shows:\n"
+            "• Normal heart rhythm maintained without pharmacological influence\n"
+            "• Heart rate variability (a measure of how well your heart adapts) substantially improved\n"
+            "• Dizziness on standing fully resolved\n\n"
             "Cognitive Recovery\n"
             "The cognitive burden of long-term TCA-induced anticholinergic effects can be significant, particularly in older adults. Research on anticholinergic cognitive burden suggests:\n"
             "• Memory consolidation substantially improved\n"
@@ -152,7 +152,7 @@ class TcaPage extends StatelessWidget {
         referenceContent:
             "One Year After TCAs: Recovery Achieved\n\n"
             "One Year: Complete Multi-System Recovery\n"
-            "One year after completing a TCA taper, all affected neurotransmitter systems — serotonergic, noradrenergic, cholinergic, and histaminergic — have had a complete cycle to normalise.\n\n"
+            "One year after completing a TCA taper, all affected neurotransmitter systems — serotonin, noradrenaline, acetylcholine, and histamine — have had a complete cycle to normalise.\n\n"
             "The Significance of TCA Recovery\n"
             "TCAs impose a broader pharmacological burden than newer antidepressants, affecting more receptor systems simultaneously. Successful discontinuation represents the recovery of multiple systems:\n"
             "• Complete reversal of anticholinergic cognitive impairment\n"

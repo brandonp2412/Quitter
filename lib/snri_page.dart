@@ -28,7 +28,7 @@ class SnriPage extends StatelessWidget {
             "Important Safety Note\n"
             "SNRIs should only be stopped under medical supervision following a gradual taper. Venlafaxine (Effexor) in particular has an extremely short half-life of approximately 5 hours, meaning the drug clears from the body very rapidly and discontinuation symptoms can be severe and sudden.\n\n"
             "Why SNRIs Are Harder to Stop Than SSRIs\n"
-            "SNRIs block both serotonin and norepinephrine reuptake, meaning two neurotransmitter systems need to readjust simultaneously. The FINISH symptoms are often more intense with SNRIs than SSRIs:\n"
+            "SNRIs affect two mood-regulating brain chemicals — serotonin and noradrenaline — meaning both need to readjust when you stop. The discontinuation symptoms are often more intense with SNRIs than SSRIs:\n"
             "• Flu-like symptoms (fatigue, sweating, muscle aches)\n"
             "• Insomnia and disturbed sleep\n"
             "• Nausea — often more pronounced than with SSRIs\n"
@@ -50,14 +50,15 @@ class SnriPage extends StatelessWidget {
             "One Week After SNRIs: Dual Neurotransmitter Adjustment\n\n"
             "Source: NHS — Stopping or coming off antidepressants\n\n"
             "The Dual-System Challenge\n"
-            "Unlike SSRIs which primarily affect serotonin, SNRIs affect both serotonin and norepinephrine simultaneously. By one week, both systems are adjusting:\n\n"
+            "Unlike most antidepressants that affect one system, SNRIs affect both serotonin and noradrenaline. By one week, both systems are adjusting:\n\n"
             "Norepinephrine System Effects\n"
             "The norepinephrine system governs the body's fight-or-flight response, blood pressure regulation, and energy levels. As it readjusts:\n"
             "• Blood pressure fluctuations may occur\n"
             "• Anxiety may feel more physical (racing heart, sweating)\n"
             "• Energy levels may be inconsistent\n\n"
             "Serotonin System Effects\n"
-            "Simultaneously, the serotonin system is adjusting — producing the FINISH symptoms typical of all antidepressant discontinuation. The combination of both systems adjusting can make the first week particularly challenging.",
+            "Simultaneously, the serotonin system is adjusting — producing the discontinuation symptoms typical of all antidepressant discontinuation. The combination of both systems adjusting can make the first week particularly challenging.\n\n"
+            "Physically this often shows as improving blood pressure stability and fewer episodes of dizziness on standing. Emotionally, mood is more variable than it will be at 30 days but no longer in freefall.",
       ),
       QuitMilestone(
         day: 14,
@@ -76,7 +77,7 @@ class SnriPage extends StatelessWidget {
             "• Brain zaps significantly reduced or absent\n"
             "• Nausea and flu-like symptoms resolved\n"
             "• Dizziness and balance issues improving\n"
-            "• Blood pressure and heart rate stabilising as norepinephrine rebalances\n\n"
+            "• Blood pressure and heart rate stabilising as noradrenaline rebalances\n\n"
             "What May Persist\n"
             "• Emotional sensitivity and mood variability\n"
             "• Anxiety — which the norepinephrine system particularly influences\n"
@@ -93,8 +94,9 @@ class SnriPage extends StatelessWidget {
         referenceDate: "May 2026",
         referenceContent:
             "One Month After SNRIs: Dual System Stabilising\n\n"
+            "Source: See clinical literature on antidepressant discontinuation syndrome\n\n"
             "The Stabilisation Phase\n"
-            "One month represents a significant milestone in dual serotonin-norepinephrine recovery. Most acute neurological discontinuation symptoms are now resolved.\n\n"
+            "One month represents a significant milestone in serotonin and noradrenaline recovery. Most acute neurological discontinuation symptoms are now resolved.\n\n"
             "What Typically Improves by One Month\n"
             "• Physical discontinuation symptoms (brain zaps, nausea, dizziness) resolved for most\n"
             "• Blood pressure returning to natural baseline\n"
@@ -134,9 +136,9 @@ class SnriPage extends StatelessWidget {
         referenceContent:
             "Six Months After SNRIs: Neurological Recovery\n\n"
             "Brain Systems Normalised by Six Months\n"
-            "• Serotonin receptor sensitivity: substantially restored\n"
-            "• Norepinephrine receptor sensitivity: normalised, with improved HPA axis regulation\n"
-            "• HPA axis (stress hormone regulation): normalising — the norepinephrine system's influence on cortisol and stress responses is rebalancing\n"
+            "• Serotonin pathways: substantially restored\n"
+            "• Noradrenaline pathways: normalised, with improved HPA axis regulation\n"
+            "• the body's stress hormone system: normalising — the norepinephrine system's influence on cortisol and stress responses is rebalancing\n"
             "• Sleep architecture: fully restored\n"
             "• Sexual function: largely restored (sexual dysfunction is a common SNRI side effect)\n\n"
             "Resilience to Stress\n"
@@ -153,7 +155,7 @@ class SnriPage extends StatelessWidget {
         referenceContent:
             "One Year After SNRIs: Recovery Achieved\n\n"
             "One Year: A Complete Dual-System Recovery\n"
-            "One year after completing an SNRI taper, both the serotonergic and noradrenergic systems have had a complete cycle to adapt and stabilise.\n\n"
+            "One year after completing an SNRI taper, both the serotonin and noradrenaline systems have had a complete cycle to adapt and stabilise.\n\n"
             "What Research Shows at One Year\n"
             "Research following people for one year after SNRI discontinuation finds that:\n"
             "• The majority of those who completed a proper taper and received psychological support remain well\n"

@@ -59,7 +59,7 @@ class MdmaPage extends StatelessWidget {
         link: "https://pubmed.ncbi.nlm.nih.gov/34506649/",
         referenceDate: "June 2026",
         referenceContent:
-            "One Month Off MDMA\n\nSource: \"Serotonin transporter availability, neurocognitive function and their correlation in abstinent MDMA users,\" on PubMed\n\nWhere One Month Sits\nThe acute comedown and withdrawal are well behind you, and mood and cognition are steadier. Imaging research shows MDMA lowers serotonin transporter (SERT) availability, and that SERT availability recovers with sustained abstinence.\n\nAn Honest Note\nThe same research found memory function does not always track SERT recovery, so heavy users may notice lingering memory effects even as mood improves. Continued abstinence gives the best chance of recovery.",
+            "One Month Off MDMA\n\nSource: \"Serotonin transporter availability, neurocognitive function and their correlation in abstinent MDMA users,\" on PubMed\n\nWhere One Month Sits\nThe acute comedown and withdrawal are well behind you, and mood and cognition are steadier. Imaging research shows MDMA reduces the brain's capacity to process serotonin, and that this capacity recovers with sustained abstinence.\n\nAn Honest Note\nThe same research found memory function does not always track SERT recovery, so heavy users may notice lingering memory effects even as mood improves. Continued abstinence gives the best chance of recovery.",
       ),
       QuitMilestone(
         day: 90,
@@ -70,7 +70,7 @@ class MdmaPage extends StatelessWidget {
         link: "https://pubmed.ncbi.nlm.nih.gov/34506649/",
         referenceDate: "June 2026",
         referenceContent:
-            "Three Months Off MDMA\n\nSource: \"Serotonin transporter availability, neurocognitive function and their correlation in abstinent MDMA users,\" on PubMed\n\nContinued Recovery\nWith sustained abstinence the serotonin transporter system continues to recover, especially in subcortical regions. Mood and sleep are stable, and reviews note that anxiety and hostility tend to remit over roughly a year of abstinence.\n\nThe Honest Picture\nRecovery is real but, after heavy use, may be incomplete in some cortical regions and for some memory functions. Staying off gives the brain its best opportunity to heal.",
+            "Three Months Off MDMA\n\nSource: \"Serotonin transporter availability, neurocognitive function and their correlation in abstinent MDMA users,\" on PubMed\n\nContinued Recovery\nWith sustained abstinence the the brain's serotonin system continues to recover, especially in deeper brain regions. Mood and sleep are stable, and reviews note that anxiety and irritability tend to ease over roughly a year of abstinence.\n\nThe Honest Picture\nRecovery is real but, after heavy use, may be incomplete in some some brain regions and for some memory functions. Staying off gives the brain its best opportunity to heal.",
       ),
       QuitMilestone(
         day: 365,
@@ -81,7 +81,7 @@ class MdmaPage extends StatelessWidget {
         link: "https://pubmed.ncbi.nlm.nih.gov/34506649/",
         referenceDate: "June 2026",
         referenceContent:
-            "One Year Off MDMA\n\nSource: \"Serotonin transporter availability, neurocognitive function and their correlation in abstinent MDMA users,\" on PubMed\n\nA Year On\nWith a year of abstinence, serotonin transporter availability has recovered substantially and mood is stable; reviews report that anxiety and hostility associated with use tend to remit around the one-year mark.\n\nAn Honest Caveat\nAfter heavy use, some cognitive (particularly memory) effects and cortical changes can persist, and the research base has limits. The clear direction, though, is genuine recovery — and a year free is strong evidence of it.",
+            "One Year Off MDMA\n\nSource: \"Serotonin transporter availability, neurocognitive function and their correlation in abstinent MDMA users,\" on PubMed\n\nA Year On\nWith a year of abstinence, serotonin transporter availability has recovered substantially and mood is stable; reviews report that anxiety and irritability associated with use tend to remit around the one-year mark.\n\nAn Honest Caveat\nAfter heavy use, some cognitive (particularly memory) effects and cortical changes can persist, and the research base has limits. The clear direction, though, is genuine recovery — and a year free is strong evidence of it.",
       ),
     ];
   }

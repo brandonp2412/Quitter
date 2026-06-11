@@ -18,7 +18,7 @@ class GhbPage extends StatelessWidget {
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC8199158/",
         referenceDate: "June 2026",
         referenceContent:
-            "GHB Withdrawal: The First Hours\n\nSource: \"Characterization of the GHB Withdrawal Syndrome,\" on PubMed Central\n\n⚠ This Is a Medical Emergency\nGHB withdrawal ranks among the most dangerous substance withdrawals, rivalling severe alcohol and benzodiazepine withdrawal. Untreated, it can progress to delirium in over half of cases, with autonomic instability and seizures. Anyone dependent on GHB, GBL, or 1,4-butanediol should seek supervised inpatient detox rather than stopping alone.\n\nWhy It Starts So Fast\nGHB's half-life is only 30–60 minutes, so symptoms can begin 1–6 hours after the last dose — far faster than alcohol.\n\nEarly Symptoms\nAnxiety, insomnia, tremor, sweating, fast heart rate, and rising blood pressure.",
+            "GHB Withdrawal: The First Hours\n\nSource: \"Characterization of the GHB Withdrawal Syndrome,\" on PubMed Central\n\n⚠ This Is a Medical Emergency\nGHB withdrawal ranks among the most dangerous substance withdrawals, rivalling severe alcohol and benzodiazepine withdrawal. Untreated, it can progress to delirium in over half of cases, with dangerous swings in heart rate and blood pressure and seizures. Anyone dependent on GHB, GBL, or 1,4-butanediol should seek supervised inpatient detox rather than stopping alone.\n\nWhy It Starts So Fast\nGHB's half-life is only 30–60 minutes, so symptoms can begin 1–6 hours after the last dose — far faster than alcohol.\n\nEarly Symptoms\nAnxiety, insomnia, tremor, sweating, fast heart rate, and rising blood pressure.",
       ),
       QuitMilestone(
         day: 3,
@@ -28,7 +28,7 @@ class GhbPage extends StatelessWidget {
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC8199158/",
         referenceDate: "June 2026",
         referenceContent:
-            "GHB Withdrawal: Peak\n\nSource: \"Characterization of the GHB Withdrawal Syndrome,\" on PubMed Central\n\nThe Peak\nGHB withdrawal symptoms typically peak around 48–72 hours. This is the most dangerous window, when the syndrome can escalate to a delirium with autonomic instability.\n\nSevere Features\n• Severe agitation and anxiety\n• Auditory and visual hallucinations, paranoia\n• Tremor, sweating, tachycardia, hypertension\n• Risk of seizures\n\nManagement\nThe standard of care is benzodiazepines (often in high doses), sometimes with baclofen or a pharmaceutical GHB taper, under intensive monitoring. This is not safe to manage at home.",
+            "GHB Withdrawal: Peak\n\nSource: \"Characterization of the GHB Withdrawal Syndrome,\" on PubMed Central\n\nThe Peak\nGHB withdrawal symptoms typically peak around 48–72 hours. This is the most dangerous window, when the syndrome can escalate to a delirium with dangerous swings in heart rate and blood pressure.\n\nSevere Features\n• Severe agitation and anxiety\n• Auditory and visual hallucinations, paranoia\n• Tremor, sweating, racing heart, and high blood pressure\n• Risk of seizures\n\nManagement\nThe standard of care is benzodiazepines (often in high doses), sometimes with baclofen or a pharmaceutical GHB taper, under intensive monitoring. This is not safe to manage at home.",
       ),
       QuitMilestone(
         day: 7,
@@ -58,7 +58,7 @@ class GhbPage extends StatelessWidget {
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC8199158/",
         referenceDate: "June 2026",
         referenceContent:
-            "One Month Off GHB\n\nSource: \"Characterization of the GHB Withdrawal Syndrome,\" on PubMed Central\n\nWhere One Month Sits\nThe acute, dangerous phase is long past. What remains is the protracted phase — anxiety, depression, insomnia, cognitive fog, and motor complaints that the literature notes can linger for three to six months.\n\nWhy Support Still Helps\nThese protracted symptoms drive high relapse rates. At one month they are usually milder than early on, and they continue to fade with time, sleep, and treatment.",
+            "One Month Off GHB\n\nSource: \"Characterization of the GHB Withdrawal Syndrome,\" on PubMed Central\n\nWhere One Month Sits\nThe acute, dangerous phase is long past. What remains is the protracted phase — anxiety, depression, insomnia, cognitive fog, and problems with coordination that the literature notes can linger for three to six months.\n\nWhy Support Still Helps\nThese protracted symptoms drive high relapse rates. At one month they are usually milder than early on, and they continue to fade with time, sleep, and treatment.",
       ),
       QuitMilestone(
         day: 90,
@@ -68,7 +68,7 @@ class GhbPage extends StatelessWidget {
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC8199158/",
         referenceDate: "June 2026",
         referenceContent:
-            "Three Months Off GHB\n\nSource: \"Characterization of the GHB Withdrawal Syndrome,\" on PubMed Central\n\nThe Protracted Phase Eases\nThe lingering anxiety, insomnia, and cognitive fog of GHB withdrawal are described as lasting up to three to six months. By three months many people notice clear improvement as the brain's inhibitory (GABA) systems re-regulate.\n\nWhat People Notice\n• Calmer baseline mood\n• More reliable sleep\n• Clearer thinking and fewer cravings",
+            "Three Months Off GHB\n\nSource: \"Characterization of the GHB Withdrawal Syndrome,\" on PubMed Central\n\nThe Protracted Phase Eases\nThe lingering anxiety, insomnia, and cognitive fog of GHB withdrawal are described as lasting up to three to six months. By three months many people notice clear improvement as the brain's calming systems re-regulate.\n\nWhat People Notice\n• Calmer baseline mood\n• More reliable sleep\n• Clearer thinking and fewer cravings",
       ),
       QuitMilestone(
         day: 180,

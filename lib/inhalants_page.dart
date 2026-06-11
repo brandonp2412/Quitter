@@ -20,7 +20,7 @@ class InhalantsPage extends StatelessWidget {
             "https://www.sciencedirect.com/science/article/abs/pii/S0376871611001438",
         referenceDate: "June 2026",
         referenceContent:
-            "Stopping Inhalants: Day One\n\nSource: Research on cognitive recovery during and after treatment for volatile solvent abuse\n\nWhy Withdrawal Happens\nChronic inhalant use causes neuroadaptation — the nervous system comes to expect the substance. Many inhalants act on GABA receptors, so stopping leaves the brain temporarily imbalanced. The chemicals clear the blood fast but are stored in fatty tissue, which can make withdrawal timing unpredictable.\n\nEarly Symptoms\n• Headache and nausea\n• Irritability and anxiety\n• Insomnia\n\nA Safety Note\nHeavy users can have more severe withdrawal, including tremor, sweating, and — rarely — seizures. Medical supervision is wise during detox.",
+            "Stopping Inhalants: Day One\n\nSource: Research on cognitive recovery during and after treatment for volatile solvent abuse\n\nWhy Withdrawal Happens\nChronic inhalant use causes neuroadaptation — the nervous system comes to expect the substance. Many inhalants affect the same brain circuits as alcohol, so stopping leaves the brain temporarily imbalanced. The chemicals clear the blood fast but are stored in body fat, which can make withdrawal timing unpredictable.\n\nEarly Symptoms\n• Headache and nausea\n• Irritability and anxiety\n• Insomnia\n\nA Safety Note\nHeavy users can have more severe withdrawal, including tremor, sweating, and — rarely — seizures. Medical supervision is wise during detox.",
       ),
       QuitMilestone(
         day: 7,
@@ -68,7 +68,7 @@ class InhalantsPage extends StatelessWidget {
             "https://www.sciencedirect.com/science/article/abs/pii/S0376871611001438",
         referenceDate: "June 2026",
         referenceContent:
-            "Three Months Off Inhalants\n\nSource: Research on cognitive recovery during and after treatment for volatile solvent abuse\n\nProgressive Recovery\nStudies describe functional recovery from solvent-related CNS disruption as progressive over abstinence, with the pace tied to how impaired someone was to begin with. Three months in, memory, attention, and motor function are continuing to improve.\n\nStaying the Course\nBecause recovery is gradual and continues for a long time, consistency matters more than speed. Each month of abstinence adds to the gains.",
+            "Three Months Off Inhalants\n\nSource: Research on cognitive recovery during and after treatment for volatile solvent abuse\n\nProgressive Recovery\nStudies describe recovery of brain function from solvent use as progressive over abstinence, with the pace tied to how impaired someone was to begin with. Three months in, memory, attention, and motor function are continuing to improve.\n\nStaying the Course\nBecause recovery is gradual and continues for a long time, consistency matters more than speed. Each month of abstinence adds to the gains.",
       ),
       QuitMilestone(
         day: 365,
@@ -79,7 +79,7 @@ class InhalantsPage extends StatelessWidget {
         link: "https://pubmed.ncbi.nlm.nih.gov/23490054/",
         referenceDate: "June 2026",
         referenceContent:
-            "One Year Off Inhalants\n\nSource: \"A prospective study of neurocognitive changes 15 years after chronic inhalant abuse,\" on PubMed\n\nReal, Measurable Recovery\nA prospective study found that neurological and cognitive deficits from chronic inhalant abuse showed substantial recovery after two years of abstinence, with recovery progressive and dependent on baseline severity. At one year you are well along that curve.\n\nWhat It Means\nMemory, attention, and motor function continue to improve. The honest message is not that everything resets, but that long-term abstinence allows genuine recovery of brain function.",
+            "One Year Off Inhalants\n\nSource: \"A prospective study of neurocognitive changes 15 years after chronic inhalant abuse,\" on PubMed\n\nReal, Measurable Recovery\nA prospective study found that brain and thinking problems from chronic inhalant abuse showed substantial recovery after two years of abstinence, with recovery progressive and dependent on baseline severity. At one year you are well along that curve.\n\nWhat It Means\nMemory, attention, and motor function continue to improve. The honest message is not that everything resets, but that long-term abstinence allows genuine recovery of brain function.",
       ),
       QuitMilestone(
         day: 730,
@@ -90,7 +90,7 @@ class InhalantsPage extends StatelessWidget {
         link: "https://pubmed.ncbi.nlm.nih.gov/23490054/",
         referenceDate: "June 2026",
         referenceContent:
-            "Two Years Off Inhalants\n\nSource: \"A prospective study of neurocognitive changes 15 years after chronic inhalant abuse,\" on PubMed\n\nThe Two-Year Mark\nThis is the key milestone in the research: deficits reflecting CNS disruption from chronic solvent abuse showed substantial recovery after two years of abstinence. The authors concluded that, in the absence of lead encephalopathy, long-term abstinence may allow recovery of normal brain function.\n\nAn Honest Caveat\nThe major exception is damage from leaded petrol abuse, which can cause persistent deficits. Otherwise, two years of abstinence represents the brain's best documented opportunity to heal — alongside a life rebuilt around it.",
+            "Two Years Off Inhalants\n\nSource: \"A prospective study of neurocognitive changes 15 years after chronic inhalant abuse,\" on PubMed\n\nThe Two-Year Mark\nThis is the key milestone in the research: deficits reflecting brain damage from long-term solvent use showed substantial recovery after two years of abstinence. The authors concluded that, in the absence of brain damage from leaded petrol, long-term abstinence may allow recovery of normal brain function.\n\nAn Honest Caveat\nThe major exception is damage from leaded petrol abuse, which can cause persistent deficits. Otherwise, two years of abstinence represents the brain's best documented opportunity to heal — alongside a life rebuilt around it.",
       ),
     ];
   }

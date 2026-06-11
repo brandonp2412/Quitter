@@ -28,7 +28,7 @@ class KetaminePage extends StatelessWidget {
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9476224/",
         referenceDate: "June 2026",
         referenceContent:
-            "One Week Off Ketamine\n\nSource: \"Ketamine-Induced Cystitis: A Comprehensive Review,\" on PubMed Central\n\nThe Psychological Phase\nThe main challenge in early ketamine cessation is psychological: cravings, altered or low mood, and some cognitive fog. Physical withdrawal, when present, is usually mild.\n\nBladder Symptoms\nIf you have ketamine-induced cystitis (urinary urgency, frequency, pain, or blood in urine), stopping now gives the bladder its best chance to heal. Pain can tempt people back to ketamine to self-medicate — a cycle worth breaking with proper pain support instead.",
+            "One Week Off Ketamine\n\nSource: \"Ketamine-Induced Cystitis: A Comprehensive Review,\" on PubMed Central\n\nThe Psychological Phase\nThe main challenge in early ketamine cessation is psychological: cravings, altered or low mood, and some cognitive fog. Physical withdrawal, when present, is usually mild.\n\nCognitive fog is common at this stage — concentration feels effortful, reaction time is slower, and short-term memory may feel unreliable. These effects are temporary and typically clear substantially within the next week or two.\n\nBladder Symptoms\nIf you have ketamine-induced cystitis (urinary urgency, frequency, pain, or blood in urine), stopping now gives the bladder its best chance to heal. Pain can tempt people back to ketamine to self-medicate — a cycle worth breaking with proper pain support instead.",
       ),
       QuitMilestone(
         day: 14,
@@ -38,7 +38,7 @@ class KetaminePage extends StatelessWidget {
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9476224/",
         referenceDate: "June 2026",
         referenceContent:
-            "Two Weeks Off Ketamine\n\nSource: \"Ketamine-Induced Cystitis: A Comprehensive Review,\" on PubMed Central\n\nClearer Thinking\nWith the drug fully cleared, the cognitive dysfunction and dissociation associated with regular ketamine use begin to lift. Memory and concentration improve and mood steadies.\n\nBladder Recovery Beginning\nFor early-stage cystitis, the review notes that simply stopping is often enough — and symptoms reverse in about half of early cases. Two weeks of abstinence is the start of that process.",
+            "Two Weeks Off Ketamine\n\nSource: \"Ketamine-Induced Cystitis: A Comprehensive Review,\" on PubMed Central\n\nClearer Thinking\nWith the drug fully cleared, the mental fog and disconnected thinking associated with regular ketamine use begin to lift. Memory and concentration improve and mood steadies.\n\nBladder Recovery Beginning\nFor early-stage cystitis, the review notes that simply stopping is often enough — and symptoms reverse in about half of early cases. Two weeks of abstinence is the start of that process.",
       ),
       QuitMilestone(
         day: 30,

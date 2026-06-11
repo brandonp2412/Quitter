@@ -19,7 +19,7 @@ class GabapentinoidPage extends StatelessWidget {
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC7686181/",
         referenceDate: "June 2026",
         referenceContent:
-            "Stopping Gabapentinoids: Day One\n\nSource: \"Current Evidence on Abuse and Misuse of Gabapentinoids,\" on PubMed Central\n\n⚠ Critical Safety Note\nGabapentin and pregabalin should never be stopped abruptly. Sudden discontinuation can trigger withdrawal seizures — a particular danger for people who take them for epilepsy — along with severe agitation and confusion. Discontinuation must be done as a gradual taper supervised by a prescriber.\n\nWhy Dependence Develops\nGabapentinoids are GABA analogues that reduce neurotransmitter release; with repeated use the nervous system adapts. The literature documents tolerance and physical dependence with withdrawal symptoms on discontinuation.\n\nEarly Symptoms\nWithdrawal can begin within 12–48 hours: anxiety, insomnia, sweating, nausea, and restlessness.",
+            "Stopping Gabapentinoids: Day One\n\nSource: \"Current Evidence on Abuse and Misuse of Gabapentinoids,\" on PubMed Central\n\n⚠ Critical Safety Note\nGabapentin and pregabalin should never be stopped abruptly. Sudden discontinuation can trigger withdrawal seizures — a particular danger for people who take them for epilepsy — along with severe agitation and confusion. Discontinuation must be done as a gradual taper supervised by a prescriber.\n\nWhy Dependence Develops\nGabapentin and pregabalin work by calming the nervous system's signalling; with repeated use the nervous system adapts. The literature documents tolerance and physical dependence with withdrawal symptoms on discontinuation.\n\nEarly Symptoms\nWithdrawal can begin within 12–48 hours: anxiety, insomnia, sweating, nausea, and restlessness.",
       ),
       QuitMilestone(
         day: 3,
@@ -74,7 +74,7 @@ class GabapentinoidPage extends StatelessWidget {
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC7686181/",
         referenceDate: "June 2026",
         referenceContent:
-            "Three Months Off Gabapentinoids\n\nSource: \"Current Evidence on Abuse and Misuse of Gabapentinoids,\" on PubMed Central\n\nFully Adjusted\nBy three months the brain has long since adapted to functioning without gabapentinoids. Sleep, mood, and cognition are stable.\n\nStaying Free\nBecause gabapentinoids are often misused alongside opioids to potentiate their effects, keeping clear of both — and of the situations that paired them — protects your recovery.",
+            "Three Months Off Gabapentinoids\n\nSource: \"Current Evidence on Abuse and Misuse of Gabapentinoids,\" on PubMed Central\n\nFully Adjusted\nBy three months the brain has long since adapted to functioning without gabapentinoids. Sleep, mood, and cognition are stable.\n\nStaying Free\nBecause gabapentinoids are often misused alongside opioids to strengthen their effects, keeping clear of both — and of the situations that paired them — protects your recovery.",
       ),
       QuitMilestone(
         day: 180,
