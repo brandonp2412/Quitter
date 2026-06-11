@@ -18,7 +18,7 @@ class KratomPage extends StatelessWidget {
         link: "https://nida.nih.gov/research-topics/kratom",
         referenceDate: "June 2026",
         referenceContent:
-            "Kratom Withdrawal: The First Day\n\nSource: National Institute on Drug Abuse (NIDA), \"Kratom\"\n\nWhy Withdrawal Happens\nKratom's active compounds work on the same brain receptors as opioids. With regular use the body adapts, so stopping produces an opioid-like withdrawal. NIDA notes that people who use kratom regularly can develop dependence and report withdrawal symptoms when they stop.\n\nDay One Symptoms\nEarly withdrawal typically begins within 6–12 hours and resembles a milder opioid withdrawal:\n• Restlessness, anxiety, and irritability\n• Muscle aches and runny nose\n• Sweating and watery eyes\n• Cravings\n\nA Safety Note\nIf you have used kratom heavily, or together with opioids, withdrawal can be more intense. Buprenorphine and other opioid treatments have been used under medical supervision to manage kratom withdrawal — worth discussing with a clinician.",
+            "Kratom Withdrawal: The First Day\n\nSource: National Institute on Drug Abuse (NIDA), \"Kratom\"\n\nWhy Withdrawal Happens\nKratom's active compounds work on the same brain receptors as opioids. With regular use the body adapts, so stopping produces an opioid-like withdrawal. NIDA notes that people who use kratom regularly can develop dependence and report withdrawal symptoms when they stop.\n\nDay One Symptoms\nEarly withdrawal typically begins within 6–12 hours and resembles a milder opioid withdrawal:\n• Restlessness, anxiety, and irritability\n• Muscle aches and runny nose\n• Sweating and watery eyes\n• Cravings\n\nA Note on Severity\nWithdrawal is more intense if kratom was used at high doses or alongside opioids. In those cases, supervised medical support is worth seeking — treatments like buprenorphine can be used to manage it.",
       ),
       QuitMilestone(
         day: 3,
@@ -38,7 +38,7 @@ class KratomPage extends StatelessWidget {
         link: "https://nida.nih.gov/research-topics/kratom",
         referenceDate: "June 2026",
         referenceContent:
-            "One Week Off Kratom\n\nSource: National Institute on Drug Abuse (NIDA), \"Kratom\"\n\nEnd of Acute Withdrawal\nKratom's acute withdrawal is generally shorter than that of stronger opioids. By the end of the first week the most intense physical symptoms — muscle aches, sweating, GI upset — have usually settled.\n\nWhat Remains\n• Fatigue and low energy\n• Disrupted sleep that takes time to normalise\n• Low mood and episodic cravings\n\nThis is a common point for relapse, so continued support matters. Because tolerance falls during abstinence, returning to a previous dose — especially of opioids — is dangerous.",
+            "One Week Off Kratom\n\nSource: National Institute on Drug Abuse (NIDA), \"Kratom\"\n\nPast the Peak\nThe acute physical symptoms — muscle aches, sweating, nausea — have mostly settled. What remains is largely psychological: fatigue, disrupted sleep, and a low mood that comes from the opioid receptors adjusting back to running on the body's own natural signals.\n\nA Real Risk\nThis is one of the most common points for relapse — not because symptoms are at their worst, but because tolerance has dropped sharply. Returning to a previous dose, particularly if opioids are involved, is now genuinely dangerous. Getting through this week intact is a significant step.",
       ),
       QuitMilestone(
         day: 14,
@@ -48,7 +48,7 @@ class KratomPage extends StatelessWidget {
         link: "https://nida.nih.gov/research-topics/kratom",
         referenceDate: "June 2026",
         referenceContent:
-            "Two Weeks Off Kratom\n\nSource: National Institute on Drug Abuse (NIDA), \"Kratom\"\n\nThe Post-Acute Phase\nWith the acute syndrome over, the lingering symptoms are the protracted ones — sleep disturbance, variable mood, and intermittent cravings — which are typically milder now than in the first week.\n\nWhat Improves\n• Sleep becomes more reliable\n• Appetite and energy return\n• Mood steadies as the opioid system re-regulates\n\nCravings can still be triggered by stress or cues, so having a plan for them remains useful.",
+            "Two Weeks Off Kratom\n\nSource: National Institute on Drug Abuse (NIDA), \"Kratom\"\n\nRecalibrating\nThe opioid receptors that kratom was stimulating are gradually restoring their sensitivity to the body's own natural signals. That recalibration is the source of both the improving mood and the lingering flatness — the brain is learning to run without artificial stimulation again.\n\nWhat Improves\n• Appetite and energy return noticeably in week two\n• Sleep becomes more reliable\n• Mood steadies, though still variable\n\nCravings are still triggered by stress and familiar cues. Having a plan for them — particularly in the evenings or after poor sleep — remains useful.",
       ),
       QuitMilestone(
         day: 30,
@@ -58,7 +58,7 @@ class KratomPage extends StatelessWidget {
         link: "https://nida.nih.gov/research-topics/kratom",
         referenceDate: "June 2026",
         referenceContent:
-            "One Month Off Kratom\n\nSource: National Institute on Drug Abuse (NIDA), \"Kratom\"\n\nWhere One Month Sits\nThe acute and most of the protracted withdrawal is behind you. The reward system, suppressed by regular opioid-receptor stimulation, is recovering, so ordinary pleasures start to feel rewarding again.\n\nWhat People Notice\n• More stable mood and energy\n• Better sleep\n• Less frequent, more manageable cravings\n\nRelapse risk is lower than in early withdrawal but not gone; ongoing support and avoiding high-risk situations protect your progress.",
+            "One Month Off Kratom\n\nSource: National Institute on Drug Abuse (NIDA), \"Kratom\"\n\nThings Start Feeling Good Again\nThe clearest marker of a month off is hedonic — the return of ordinary pleasure. Food tastes better, activities are more enjoyable, company feels more rewarding. That is the brain's reward system recovering from sustained opioid stimulation.\n\nA Month Builds Structure\nA month of not using has replaced a month of using with something else. Sleep, meals, and routine are more consistent. Cravings arrive less often and feel more manageable when they do. Relapse risk is lower than in early weeks, but high-stress moments remain the most vulnerable ones.",
       ),
       QuitMilestone(
         day: 90,

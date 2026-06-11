@@ -51,13 +51,13 @@ class SnriPage extends StatelessWidget {
             "Source: NHS — Stopping or coming off antidepressants\n\n"
             "The Dual-System Challenge\n"
             "Unlike most antidepressants that affect one system, SNRIs affect both serotonin and noradrenaline. By one week, both systems are adjusting:\n\n"
-            "Norepinephrine System Effects\n"
-            "The norepinephrine system governs the body's fight-or-flight response, blood pressure regulation, and energy levels. As it readjusts:\n"
+            "Noradrenaline System Effects\n"
+            "The noradrenaline system governs the body's fight-or-flight response, blood pressure regulation, and energy levels. As it readjusts:\n"
             "• Blood pressure fluctuations may occur\n"
             "• Anxiety may feel more physical (racing heart, sweating)\n"
             "• Energy levels may be inconsistent\n\n"
             "Serotonin System Effects\n"
-            "Simultaneously, the serotonin system is adjusting — producing the discontinuation symptoms typical of all antidepressant discontinuation. The combination of both systems adjusting can make the first week particularly challenging.\n\n"
+            "Simultaneously, the serotonin system is adjusting — producing the withdrawal symptoms typical of stopping any antidepressant. The combination of both systems adjusting can make the first week particularly challenging.\n\n"
             "Physically this often shows as improving blood pressure stability and fewer episodes of dizziness on standing. Emotionally, mood is more variable than it will be at 30 days but no longer in freefall.",
       ),
       QuitMilestone(
@@ -80,8 +80,8 @@ class SnriPage extends StatelessWidget {
             "• Blood pressure and heart rate stabilising as noradrenaline rebalances\n\n"
             "What May Persist\n"
             "• Emotional sensitivity and mood variability\n"
-            "• Anxiety — which the norepinephrine system particularly influences\n"
-            "• Fatigue, as the norepinephrine system provides alertness and energy\n\n"
+            "• Anxiety — which the noradrenaline system particularly influences\n"
+            "• Fatigue, as the noradrenaline system provides alertness and energy\n\n"
             "Research Context\n"
             "The Lancet Psychiatry systematic review (Davies & Read, 2019) confirmed that SNRI discontinuation effects are among the most severe of any antidepressant class, with venlafaxine associated with particularly high rates of significant withdrawal symptoms.",
       ),
@@ -101,7 +101,7 @@ class SnriPage extends StatelessWidget {
             "• Physical discontinuation symptoms (brain zaps, nausea, dizziness) resolved for most\n"
             "• Blood pressure returning to natural baseline\n"
             "• Sleep quality improving — REM sleep patterns restoring naturally\n"
-            "• Energy levels beginning to stabilise as norepinephrine regulation normalises\n\n"
+            "• Energy levels beginning to stabilise as noradrenaline regulation normalises\n\n"
             "Emotional Blunting Resolution\n"
             "One of the most commonly reported experiences at this stage is the resolution of emotional blunting — many people on SNRIs notice a 'flattened' emotional range. As the drug clears and the brain readjusts, emotional range and sensitivity typically returns.",
       ),
@@ -121,7 +121,7 @@ class SnriPage extends StatelessWidget {
             "Where Three Months Sits\n"
             "The Letter notes withdrawal symptoms 'usually appear within a few days of stopping' and that 'most antidepressant withdrawal symptoms resolve within 2 weeks' (occasionally longer). By three months, the acute withdrawal phase is well behind the great majority of people.\n\n"
             "An Honest Note on 'Receptor Recovery'\n"
-            "Popular timelines claim the serotonin and norepinephrine systems have 'fully rebalanced' by three months. The solid evidence concerns the withdrawal syndrome and its timing, not a precise receptor-recovery clock. What's dependable: by three months the withdrawal phase has typically resolved, and many people notice the emotional blunting some feel on SNRIs eases after stopping.\n\n"
+            "Popular timelines claim the serotonin and noradrenaline systems have 'fully rebalanced' by three months. The solid evidence concerns the withdrawal syndrome and its timing, not a precise receptor-recovery clock. What's dependable: by three months the withdrawal phase has typically resolved, and many people notice the emotional blunting some feel on SNRIs eases after stopping.\n\n"
             "Withdrawal Versus Relapse\n"
             "The Letter advises distinguishing withdrawal from a true return of the underlying condition. If anxiety or low mood persists at three months, review it with your prescriber rather than assuming it is only withdrawal.",
       ),
@@ -137,12 +137,11 @@ class SnriPage extends StatelessWidget {
             "Six Months After SNRIs: Neurological Recovery\n\n"
             "Brain Systems Normalised by Six Months\n"
             "• Serotonin pathways: substantially restored\n"
-            "• Noradrenaline pathways: normalised, with improved HPA axis regulation\n"
-            "• the body's stress hormone system: normalising — the norepinephrine system's influence on cortisol and stress responses is rebalancing\n"
+            "• Noradrenaline pathways: normalised, with the stress response system also settling\n"
             "• Sleep architecture: fully restored\n"
             "• Sexual function: largely restored (sexual dysfunction is a common SNRI side effect)\n\n"
             "Resilience to Stress\n"
-            "Many people at six months report notably improved resilience to everyday stressors. The norepinephrine system's role in maintaining appropriate arousal and stress responses — which SNRIs powerfully modulate — has normalised.",
+            "Many people at six months report notably improved resilience to everyday stressors. The noradrenaline system's role in maintaining appropriate arousal and stress responses — which SNRIs powerfully modulate — has normalised.",
       ),
       QuitMilestone(
         day: 365,

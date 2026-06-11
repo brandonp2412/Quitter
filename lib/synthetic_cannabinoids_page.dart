@@ -18,7 +18,7 @@ class SyntheticCannabinoidsPage extends StatelessWidget {
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4923337/",
         referenceDate: "June 2026",
         referenceContent:
-            "Synthetic Cannabinoid Withdrawal: Day One\n\nSource: \"Adverse Effects of Synthetic Cannabinoids: Management of Acute Toxicity and Withdrawal,\" on PubMed Central\n\nWhy It Is Harsher Than Cannabis\nSynthetic cannabinoid receptor agonists (“Spice”, “K2”) are they bind to the brain's cannabis receptors far more strongly than THC does. The withdrawal syndrome is similar to cannabis withdrawal but more severe, and notably does not improve with THC.\n\nEarly Symptoms\n• Anxiety and irritability\n• Fast heart rate (tachycardia) and sweating\n• Sleep problems\n• Cravings\n\nA Safety Note\nProducts vary widely in composition and potency. Heavy daily users can have intense withdrawal and may need medically supported detox.",
+            "Synthetic Cannabinoid Withdrawal: Day One\n\nSource: \"Adverse Effects of Synthetic Cannabinoids: Management of Acute Toxicity and Withdrawal,\" on PubMed Central\n\nWhy It Is Harsher Than Cannabis\nSynthetic cannabinoid receptor agonists (“Spice”, “K2”) bind to the brain's cannabis receptors far more strongly than THC does. The withdrawal syndrome is similar to cannabis withdrawal but more severe, and notably does not improve with THC.\n\nEarly Symptoms\n• Anxiety and irritability\n• Fast heart rate (tachycardia) and sweating\n• Sleep problems\n• Cravings\n\nA Safety Note\nProducts vary widely in composition and potency. Heavy daily users can have intense withdrawal and may need medically supported detox.",
       ),
       QuitMilestone(
         day: 3,
@@ -68,7 +68,7 @@ class SyntheticCannabinoidsPage extends StatelessWidget {
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4923337/",
         referenceDate: "June 2026",
         referenceContent:
-            "Three Months Off Synthetic Cannabinoids\n\nSource: \"Adverse Effects of Synthetic Cannabinoids: Management of Acute Toxicity and Withdrawal,\" on PubMed Central\n\nA Steadier Baseline\nBy three months the brain's the brain's cannabis receptor system has rebalanced after the intense stimulation of synthetic agonists. Mood and sleep are stable and cravings are infrequent.\n\nThe Bigger Picture\nThree months is a strong foundation. Staying connected to support keeps it secure and makes the rare craving easy to ride out.",
+            "Three Months Off Synthetic Cannabinoids\n\nSource: \"Adverse Effects of Synthetic Cannabinoids: Management of Acute Toxicity and Withdrawal,\" on PubMed Central\n\nA Steadier Baseline\nBy three months the brain's cannabis receptor system has rebalanced after the intense stimulation of synthetic agonists. Mood and sleep are stable and cravings are infrequent.\n\nThe Bigger Picture\nThree months is a strong foundation. Staying connected to support keeps it secure and makes the rare craving easy to ride out.",
       ),
       QuitMilestone(
         day: 180,

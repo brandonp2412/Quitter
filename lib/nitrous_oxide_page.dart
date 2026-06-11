@@ -43,7 +43,7 @@ class NitrousOxidePage extends StatelessWidget {
             "Source: \"Nitrous Oxide Toxicity,\" StatPearls, U.S. National Library of Medicine\n\n"
             "Unlike opioids or alcohol, nitrous oxide does not cause a physical withdrawal syndrome. The urges at three days are psychological — habit, boredom, and association — not the body demanding a substance to function.\n\n"
             "What the Research Says\n"
-            "StatPearls documents that the acute toxicity of nitrous oxide comes from oxygen displacement (causing oxygen deprivation with very heavy use), direct B12 inactivation, and, with chronic use, subacute combined degeneration of the spinal cord (damage to nerve pathways). These risks are stopping now that use has stopped.\n\n"
+            "StatPearls documents that the acute toxicity of nitrous oxide comes from oxygen displacement (causing oxygen deprivation with very heavy use), direct B12 inactivation, and, with chronic use, subacute combined degeneration of the spinal cord (damage to nerve pathways). Those risks stop accumulating the moment use stops.\n\n"
             "Neurological Symptoms — Know the Signs\n"
             "StatPearls lists symptoms of B12-related neurological injury to watch for:\n"
             "• Tingling or numbness in hands or feet\n"
@@ -64,8 +64,8 @@ class NitrousOxidePage extends StatelessWidget {
         referenceContent:
             "One Week: B12 Recovery Underway\n\n"
             "Source: Review of nitrous oxide misuse and vitamin B12 deficiency, PMC (2023)\n\n"
-            "A week without nitrous oxide is a meaningful milestone, particularly for B12 recovery. This review documents the mechanism by which nitrous oxide destroys B12: it chemically destroys B12 molecules so the body cannot repair or reuse them. Since the body cannot reactivate them, recovery depends on absorbing new B12 — either from food or supplements.\n\n"
-            "The B12 Timeline\n"
+            "A week without nitrous oxide means a week with no further vitamin destruction. This review explains the mechanism: nitrous oxide chemically destroys B12 molecules — and since the body cannot repair them, recovery depends on absorbing new B12 from food or supplements.\n\n"
+            "How Long Restoration Takes\n"
             "• Dietary B12 alone takes months to replenish stores in deficient individuals\n"
             "• Oral high-dose supplements (1000 mcg/day) can restore levels over weeks\n"
             "• Intramuscular injections (prescribed by a doctor) are the fastest route\n\n"
@@ -73,7 +73,7 @@ class NitrousOxidePage extends StatelessWidget {
             "Who Is Most at Risk\n"
             "The review identifies those at highest risk of serious deficiency: people who used heavily or frequently, vegans (who start with lower B12), and those with absorption problems. All should have blood levels checked.\n\n"
             "Mental Health\n"
-            "Cravings are typically manageable at one week. Mood may still feel somewhat flat — this is normal and lifts as B12 and general health recover.",
+            "Cravings are typically manageable at one week. Mood may still feel somewhat flat — this is normal and lifts over the coming weeks.",
       ),
       QuitMilestone(
         day: 14,
@@ -107,12 +107,12 @@ class NitrousOxidePage extends StatelessWidget {
         referenceContent:
             "One Month: B12 Levels Climbing\n\n"
             "Source: NHS — Nitrous Oxide\n\n"
-            "One month is a significant milestone in B12 recovery. The NHS explains that regular nitrous oxide use can lead to serious B12 deficiency — and that once use stops, levels can be restored with supplementation.\n\n"
-            "What Should Be Improving at One Month\n"
-            "• Energy levels: B12 is essential for red blood cell production; better B12 means better oxygen delivery and less fatigue\n"
-            "• Nerve function: tingling and numbness should be fading if B12 supplementation was started early\n"
-            "• Mood: B12 is involved in producing serotonin and dopamine; mood typically improves as levels recover\n"
-            "• Concentration and memory: cognitive effects of B12 deficiency lift as levels restore\n\n"
+            "A month in, recovery is moving from the biochemical to the lived — from levels climbing to actually feeling the difference.\n\n"
+            "What People Notice at One Month\n"
+            "• Energy returning: fewer episodes of fatigue or breathlessness with exertion\n"
+            "• Nerve symptoms easing: tingling and numbness, where present, should be fading with early treatment\n"
+            "• Mood lifting: the low mood typical of deficiency settles as recovery progresses\n"
+            "• Sharper thinking: difficulty concentrating and memory fog lift as the deficiency resolves\n\n"
             "Financial and Lifestyle Benefits\n"
             "The NHS notes that the costs of regular nitrous oxide use are significant. At one month, the money saved is real and can be redirected.\n\n"
             "Cravings at One Month\n"
@@ -150,11 +150,11 @@ class NitrousOxidePage extends StatelessWidget {
         referenceContent:
             "One Year: Long-Term Health Secured\n\n"
             "Source: \"Nitrous Oxide Toxicity,\" StatPearls, U.S. National Library of Medicine\n\n"
-            "One year without nitrous oxide means one year without B12 destruction, one year of neurological recovery, and one year of the brain and nervous system healing.\n\n"
+            "A year free means a year of the nervous system healing on its own terms — and for most people, the acute recovery phase is long since complete.\n\n"
             "Where You Are at One Year\n"
             "• B12 levels: fully restored (and should be maintained with diet or ongoing supplementation)\n"
             "• Nervous system: significant healing has occurred; for most people with B12-related symptoms, the worst is behind them\n"
-            "• Bone marrow: blood cell production normalised — no more a type of anaemia\n"
+            "• Bone marrow: blood cell production normalised — any anaemia from the deficiency has resolved\n"
             "• Mood and energy: operating at full capacity without the dopamine loop of regular use\n"
             "• Cardiovascular: nitrous oxide causes elevated homocysteine (a chemical linked to heart disease risk) via B12 depletion — at one year, homocysteine has normalised\n\n"
             "What StatPearls Confirms\n"
