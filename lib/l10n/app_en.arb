@@ -461,6 +461,10 @@
   "@addictionNicotinePouches": {
     "description": "Name of the nicotine pouches addiction type"
   },
+  "addictionHeroin": "Heroin",
+  "@addictionHeroin": {
+    "description": "Name of the heroin addiction type"
+  },
   "addictionOpioids": "Opioids",
   "@addictionOpioids": {
     "description": "Name of the opioids addiction type"

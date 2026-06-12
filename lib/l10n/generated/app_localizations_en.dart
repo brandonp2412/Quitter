@@ -1138,6 +1138,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get addictionNicotinePouches => 'Nicotine pouches';
 
   @override
+  String get addictionHeroin => 'Heroin';
+
+  @override
   String get addictionOpioids => 'Opioids';
 
   @override

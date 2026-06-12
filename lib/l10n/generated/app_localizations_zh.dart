@@ -1137,6 +1137,9 @@ class AppLocalizationsZh extends AppLocalizations {
   String get addictionNicotinePouches => '尼古丁袋';
 
   @override
+  String get addictionHeroin => 'Heroin';
+
+  @override
   String get addictionOpioids => '阿片类药物';
 
   @override

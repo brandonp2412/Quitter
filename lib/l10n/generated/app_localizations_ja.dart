@@ -1137,6 +1137,9 @@ class AppLocalizationsJa extends AppLocalizations {
   String get addictionNicotinePouches => 'ニコチンパウチ';
 
   @override
+  String get addictionHeroin => 'Heroin';
+
+  @override
   String get addictionOpioids => 'オピオイド';
 
   @override

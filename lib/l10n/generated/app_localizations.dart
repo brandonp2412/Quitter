@@ -2050,6 +2050,12 @@ abstract class AppLocalizations {
   /// **'Nicotine pouches'**
   String get addictionNicotinePouches;
 
+  /// Name of the heroin addiction type
+  ///
+  /// In en, this message translates to:
+  /// **'Heroin'**
+  String get addictionHeroin;
+
   /// Name of the opioids addiction type
   ///
   /// In en, this message translates to:

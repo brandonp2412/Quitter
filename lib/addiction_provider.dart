@@ -13,6 +13,7 @@ class AddictionProvider extends ChangeNotifier {
   String? _vaping;
   String? _alcohol;
   String? _opioids;
+  String? _heroin;
   String? _pouches;
   String? _socialMedia;
   String? _pornography;
@@ -45,12 +46,11 @@ class AddictionProvider extends ChangeNotifier {
   Future<void> loadAddictions() async {
     _pref = await SharedPreferences.getInstance();
 
-    await _migrateHeroinToOpioids();
-
     _smoking = _pref!.getString('smoking');
     _vaping = _pref!.getString('vaping');
     _alcohol = _pref!.getString('alcohol');
     _opioids = _pref!.getString('opioids');
+    _heroin = _pref!.getString('heroin');
     _pouches = _pref!.getString('nicotine_pouches');
     _socialMedia = _pref!.getString('social_media');
     _pornography = _pref!.getString('pornography');
@@ -125,64 +125,13 @@ class AddictionProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-  /// Heroin tracking was merged into the general opioids entry, since the
-  /// withdrawal evidence does not justify a separate heroin timeline.
-  /// Moves any stored heroin data (quit date, milestone days, customisations,
-  /// card order) onto the opioids key.
-  Future<void> _migrateHeroinToOpioids() async {
-    final String? heroin = _pref!.getString('heroin');
-    if (heroin != null) {
-      if (_pref!.getString('opioids') == null) {
-        await _pref!.setString('opioids', heroin);
-      }
-      await _pref!.remove('heroin');
-    }
-
-    final String? daysJson = _pref!.getString('days');
-    if (daysJson != null && daysJson.contains('"heroin"')) {
-      final Map<String, dynamic> data =
-          json.decode(daysJson) as Map<String, dynamic>;
-      final heroinDays = data.remove('heroin');
-      if (heroinDays != null) {
-        data['opioids'] = [
-          ...?data['opioids'] as List<dynamic>?,
-          ...heroinDays as List<dynamic>,
-        ];
-      }
-      await _pref!.setString('days', json.encode(data));
-    }
-
-    for (final key in ['custom_names', 'custom_icons', 'custom_colors']) {
-      final String? jsonStr = _pref!.getString(key);
-      if (jsonStr == null || !jsonStr.contains('"heroin"')) continue;
-      final Map<String, dynamic> data =
-          json.decode(jsonStr) as Map<String, dynamic>;
-      final value = data.remove('heroin');
-      if (value != null) data.putIfAbsent('opioids', () => value);
-      await _pref!.setString(key, json.encode(data));
-    }
-
-    final String? orderJson = _pref!.getString('card_order');
-    if (orderJson != null && orderJson.contains('"heroin"')) {
-      final order = List<String>.from(json.decode(orderJson) as List<dynamic>);
-      final index = order.indexOf('heroin');
-      if (index != -1) {
-        if (order.contains('opioids')) {
-          order.removeAt(index);
-        } else {
-          order[index] = 'opioids';
-        }
-        await _pref!.setString('card_order', json.encode(order));
-      }
-    }
-  }
-
   void _writeActiveAddictionKeysForWidget() {
     final allAddictions = <String, String?>{
       'smoking': _smoking,
       'vaping': _vaping,
       'alcohol': _alcohol,
       'opioids': _opioids,
+      'heroin': _heroin,
       'nicotine_pouches': _pouches,
       'social_media': _socialMedia,
       'pornography': _pornography,
@@ -232,6 +181,7 @@ class AddictionProvider extends ChangeNotifier {
   String? get quitSmoking => _smoking;
   String? get quitPouches => _pouches;
   String? get quitOpioids => _opioids;
+  String? get quitHeroin => _heroin;
   String? get quitSocialMedia => _socialMedia;
   String? get quitPornography => _pornography;
   String? get quitMeth => _meth;

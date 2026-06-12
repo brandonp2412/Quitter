@@ -5,8 +5,13 @@ import 'package:quitter/quit_milestones_page.dart';
 
 class OpioidPage extends StatelessWidget {
   final bool started;
+  final String storageKey;
 
-  const OpioidPage({super.key, required this.started});
+  const OpioidPage({
+    super.key,
+    required this.started,
+    this.storageKey = 'opioids',
+  });
 
   List<QuitMilestone> _getMilestones(AppLocalizations l10n) {
     return [
@@ -238,7 +243,7 @@ class OpioidPage extends StatelessWidget {
 
     return QuitMilestonesPage(
       title: l10n.opioidsPageTitle,
-      storageKey: 'opioids',
+      storageKey: storageKey,
       milestones: _getMilestones(l10n),
       headerStarted: l10n.opioidsHeaderStarted,
       headerNotStarted: l10n.opioidsHeaderNotStarted,

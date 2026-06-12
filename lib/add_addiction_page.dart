@@ -176,6 +176,16 @@ class AddAddictionPage extends StatelessWidget {
         ),
       );
     }
+    if (addictions.quitHeroin == null) {
+      options.add(
+        _AddictionOption(
+          title: l10n.addictionHeroin,
+          icon: Icons.medication,
+          gradientColors: [const Color(0xFFEC4899), const Color(0xFFBE185D)],
+          destination: const OpioidPage(started: false, storageKey: 'heroin'),
+        ),
+      );
+    }
     if (addictions.quitOpioids == null) {
       options.add(
         _AddictionOption(
