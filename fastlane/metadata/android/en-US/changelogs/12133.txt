@@ -1,0 +1,7 @@
+• Ignore playwright mcp in gitignore
+• add missing Japanese and Chinese translations
+• add search bar to add addiction page
+• carry home search to add page and add synonym matching
+• consolidate shared milestone groups and add fentanyl/smokeless tobacco
+• Fix replace broken/paywalled links with authoritative scientific URLs
+• Fix translate quitCardKeepDays and alcoholPageQuitDateDisplay to Japanese and Chinese
