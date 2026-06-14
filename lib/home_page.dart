@@ -625,6 +625,23 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                                     ),
                               ),
                             ],
+                            if (_searchQuery.isNotEmpty) ...[
+                              const SizedBox(height: 16),
+                              FilledButton.icon(
+                                onPressed: () async {
+                                  await Navigator.of(context).push(
+                                    MaterialPageRoute(
+                                      builder: (context) => AddAddictionPage(
+                                        initialQuery: _searchQuery,
+                                      ),
+                                    ),
+                                  );
+                                  _loadQuitDays();
+                                },
+                                icon: const Icon(Icons.add),
+                                label: const Text('Track it anyway'),
+                              ),
+                            ],
                           ],
                         ),
                       ),
@@ -700,7 +717,8 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                 onPressed: () async {
                   await Navigator.of(context).push(
                     MaterialPageRoute(
-                      builder: (context) => const AddAddictionPage(),
+                      builder: (context) =>
+                          AddAddictionPage(initialQuery: _searchQuery),
                     ),
                   );
                   _loadQuitDays();
