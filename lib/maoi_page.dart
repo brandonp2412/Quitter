@@ -42,8 +42,7 @@ class MaoiPage extends StatelessWidget {
         title: l10n.maoiMilestone7Title,
         description: l10n.maoiMilestone7Description,
         reference: "NHS - Stopping or coming off antidepressants",
-        link:
-            "https://www.nhs.uk/mental-health/talking-therapies-medicine-treatments/medicines-and-psychiatry/antidepressants/coming-off-antidepressants/",
+        link: "https://www.nhs.uk/medicines/antidepressants/",
         referenceDate: "May 2026",
         referenceContent:
             "One Week After MAOIs: MAO Enzyme Synthesis Underway\n\n"

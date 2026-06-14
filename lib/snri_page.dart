@@ -43,8 +43,7 @@ class SnriPage extends StatelessWidget {
         title: l10n.snriMilestone7Title,
         description: l10n.snriMilestone7Description,
         reference: "NHS - Stopping or coming off antidepressants",
-        link:
-            "https://www.nhs.uk/mental-health/talking-therapies-medicine-treatments/medicines-and-psychiatry/antidepressants/coming-off-antidepressants/",
+        link: "https://www.nhs.uk/medicines/antidepressants/",
         referenceDate: "May 2026",
         referenceContent:
             "One Week After SNRIs: Dual Neurotransmitter Adjustment\n\n"
@@ -65,13 +64,12 @@ class SnriPage extends StatelessWidget {
         title: l10n.snriMilestone14Title,
         description: l10n.snriMilestone14Description,
         reference:
-            "The Lancet Psychiatry - Antidepressant discontinuation reactions",
-        link:
-            "https://www.thelancet.com/journals/lanpsy/article/PIIS2215-0366(19)30032-X/fulltext",
+            "Davies & Read — Antidepressant Withdrawal Systematic Review (PubMed)",
+        link: "https://pubmed.ncbi.nlm.nih.gov/30292574/",
         referenceDate: "May 2026",
         referenceContent:
             "Two Weeks After SNRIs: Physical Symptoms Fading\n\n"
-            "Source: Davies & Read (2019), The Lancet Psychiatry\n\n"
+            "Source: Davies & Read (2019), Addictive Behaviors\n\n"
             "Two-Week Status\n"
             "For most people following a proper taper, the acute physical phase is largely resolved by two weeks:\n"
             "• Brain zaps significantly reduced or absent\n"
@@ -83,7 +81,7 @@ class SnriPage extends StatelessWidget {
             "• Anxiety — which the noradrenaline system particularly influences\n"
             "• Fatigue, as the noradrenaline system provides alertness and energy\n\n"
             "Research Context\n"
-            "The Lancet Psychiatry systematic review (Davies & Read, 2019) confirmed that SNRI discontinuation effects are among the most severe of any antidepressant class, with venlafaxine associated with particularly high rates of significant withdrawal symptoms.",
+            "The Addictive Behaviors systematic review (Davies & Read, 2019) confirmed that SNRI discontinuation effects are among the most severe of any antidepressant class, with venlafaxine associated with particularly high rates of significant withdrawal symptoms.",
       ),
       QuitMilestone(
         day: 30,

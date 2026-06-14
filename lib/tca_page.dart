@@ -41,8 +41,7 @@ class TcaPage extends StatelessWidget {
         title: l10n.tcaMilestone7Title,
         description: l10n.tcaMilestone7Description,
         reference: "NHS - Stopping or coming off antidepressants",
-        link:
-            "https://www.nhs.uk/mental-health/talking-therapies-medicine-treatments/medicines-and-psychiatry/antidepressants/coming-off-antidepressants/",
+        link: "https://www.nhs.uk/medicines/antidepressants/",
         referenceDate: "May 2026",
         referenceContent:
             "One Week After TCAs: Cholinergic Symptoms Easing\n\n"

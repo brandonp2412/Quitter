@@ -43,8 +43,7 @@ class SsriPage extends StatelessWidget {
         title: l10n.ssriMilestone7Title,
         description: l10n.ssriMilestone7Description,
         reference: "NHS - Stopping or coming off antidepressants",
-        link:
-            "https://www.nhs.uk/mental-health/talking-therapies-medicine-treatments/medicines-and-psychiatry/antidepressants/coming-off-antidepressants/",
+        link: "https://www.nhs.uk/medicines/antidepressants/",
         referenceDate: "May 2026",
         referenceContent:
             "One Week After SSRIs: The Acute Phase\n\n"
@@ -64,13 +63,12 @@ class SsriPage extends StatelessWidget {
         title: l10n.ssriMilestone14Title,
         description: l10n.ssriMilestone14Description,
         reference:
-            "The Lancet Psychiatry - Antidepressant discontinuation reactions",
-        link:
-            "https://www.thelancet.com/journals/lanpsy/article/PIIS2215-0366(19)30032-X/fulltext",
+            "Davies & Read — Antidepressant Withdrawal Systematic Review (PubMed)",
+        link: "https://pubmed.ncbi.nlm.nih.gov/30292574/",
         referenceDate: "May 2026",
         referenceContent:
             "Two Weeks After SSRIs: Physical Symptoms Resolving\n\n"
-            "Source: Davies & Read (2019), The Lancet Psychiatry — 'A systematic review into the incidence, severity and duration of antidepressant withdrawal effects'\n\n"
+            "Source: Davies & Read (2019), Addictive Behaviors — 'A systematic review into the incidence, severity and duration of antidepressant withdrawal effects'\n\n"
             "What the Research Found\n"
             "This landmark systematic review found that approximately 56% of people who discontinue antidepressants experience withdrawal effects, and 46% of those describe them as severe. For most people following a proper taper, the acute phase is largely resolved by two weeks:\n"
             "• Brain zaps significantly reduced or absent\n"

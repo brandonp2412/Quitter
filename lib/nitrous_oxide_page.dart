@@ -14,12 +14,12 @@ class NitrousOxidePage extends StatelessWidget {
         day: 1,
         title: l10n.nitrousOxideMilestone1Title,
         description: l10n.nitrousOxideMilestone1Description,
-        reference: "Nitrous Oxide — NHS",
-        link: "https://www.nhs.uk/conditions/recreational-drugs/nitrous-oxide/",
+        reference: "Nitrous Oxide Toxicity — StatPearls (NCBI Bookshelf)",
+        link: "https://www.ncbi.nlm.nih.gov/books/NBK532957/",
         referenceDate: "June 2026",
         referenceContent:
             "Day One: Clearing Your System\n\n"
-            "Source: NHS — Nitrous Oxide\n\n"
+            "Source: \"Nitrous Oxide Toxicity,\" StatPearls, U.S. National Library of Medicine\n\n"
             "Nitrous oxide leaves your body very quickly — within minutes of your last use, the gas itself is gone. But the effects of regular use linger longer than the high.\n\n"
             "What Happens on Day One\n"
             "• Dizziness and light-headedness settle within a few hours\n"
@@ -27,9 +27,9 @@ class NitrousOxidePage extends StatelessWidget {
             "• Ears may ring for a short time (temporary hearing effects are documented)\n"
             "• Mood may feel flat or irritable as the dopamine boost fades\n\n"
             "The B12 Problem\n"
-            "The NHS highlights that nitrous oxide inactivates vitamin B12. A single session causes temporary B12 inactivation; repeated or heavy use causes a significant and lasting deficiency. B12 is essential for nerve function, red blood cell production, and brain health — its depletion is the main long-term risk from regular use.\n\n"
+            "The StatPearls review highlights that nitrous oxide inactivates vitamin B12. A single session causes temporary B12 inactivation; repeated or heavy use causes a significant and lasting deficiency. B12 is essential for nerve function, red blood cell production, and brain health — its depletion is the main long-term risk from regular use.\n\n"
             "What to Do\n"
-            "The NHS recommends starting B12 supplementation promptly if you've been using regularly. Speaking to a GP is advisable — a blood test can check your B12 level and a doctor can prescribe injections if needed.",
+            "StatPearls recommends starting B12 supplementation promptly if you've been using regularly. Speaking to a GP is advisable — a blood test can check your B12 level and a doctor can prescribe injections if needed.",
       ),
       QuitMilestone(
         day: 3,
@@ -101,12 +101,12 @@ class NitrousOxidePage extends StatelessWidget {
         day: 30,
         title: l10n.nitrousOxideMilestone30Title,
         description: l10n.nitrousOxideMilestone30Description,
-        reference: "Nitrous Oxide — NHS",
-        link: "https://www.nhs.uk/conditions/recreational-drugs/nitrous-oxide/",
+        reference: "Nitrous Oxide Toxicity — StatPearls (NCBI Bookshelf)",
+        link: "https://www.ncbi.nlm.nih.gov/books/NBK532957/",
         referenceDate: "June 2026",
         referenceContent:
             "One Month: B12 Levels Climbing\n\n"
-            "Source: NHS — Nitrous Oxide\n\n"
+            "Source: \"Nitrous Oxide Toxicity,\" StatPearls, U.S. National Library of Medicine\n\n"
             "A month in, recovery is moving from the biochemical to the lived — from levels climbing to actually feeling the difference.\n\n"
             "What People Notice at One Month\n"
             "• Energy returning: fewer episodes of fatigue or breathlessness with exertion\n"
@@ -114,7 +114,7 @@ class NitrousOxidePage extends StatelessWidget {
             "• Mood lifting: the low mood typical of deficiency settles as recovery progresses\n"
             "• Sharper thinking: difficulty concentrating and memory fog lift as the deficiency resolves\n\n"
             "Financial and Lifestyle Benefits\n"
-            "The NHS notes that the costs of regular nitrous oxide use are significant. At one month, the money saved is real and can be redirected.\n\n"
+            "StatPearls notes that the costs of regular nitrous oxide use are significant. At one month, the money saved is real and can be redirected.\n\n"
             "Cravings at One Month\n"
             "Psychological cravings are present but manageable for most people at this stage. Identifying and planning for trigger situations (social settings, stress, boredom) remains important.",
       ),

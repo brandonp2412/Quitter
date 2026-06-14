@@ -76,9 +76,8 @@ class OpioidPage extends StatelessWidget {
         title: l10n.opioidMilestone14Title,
         description: l10n.opioidMilestone14Description,
         reference:
-            "Bidirectional Relationship between Opioids and Disrupted Sleep (ASPET)",
-        link:
-            "https://molpharm.aspetjournals.org/article/S0026-895X(24)01026-5/fulltext",
+            "Bidirectional Relationship between Opioids and Disrupted Sleep (PMC)",
+        link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC7562980/",
         referenceDate: "June 2026",
         referenceContent:
             "Two Weeks Off Opioids: Sleep Patterns Starting to Improve\n\n"
