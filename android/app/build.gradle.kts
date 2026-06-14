@@ -2,6 +2,7 @@ import java.util.Properties
 import java.io.FileInputStream
 plugins {
     id("com.android.application")
+    kotlin("android")
     id("dev.flutter.flutter-gradle-plugin")
 }
 android {
@@ -13,10 +14,6 @@ android {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
         isCoreLibraryDesugaringEnabled = true
-    }
-    
-    kotlinOptions {
-        jvmTarget = JavaVersion.VERSION_11.toString()
     }
     
     defaultConfig {
@@ -45,17 +42,16 @@ android {
             )
             
             if (this is com.android.build.gradle.internal.api.ApkVariantOutputImpl) {
-                val output = this as com.android.build.gradle.internal.api.ApkVariantOutputImpl
-                val abiName = output.filters.find { it.filterType == "ABI" }?.identifier
+                val abiName = filters.find { it.filterType == "ABI" }?.identifier
                 
                 if (abiName != null && abiVersionCodes.containsKey(abiName)) {
                     // Split APK with specific ABI
                     val newVersionCode = baseVersionCode * 10 + abiVersionCodes[abiName]!!
-                    output.versionCodeOverride = newVersionCode
+                    versionCodeOverride = newVersionCode
                 } else {
                     // Universal APK (no ABI filter) - use highest suffix (3)
                     val universalVersionCode = baseVersionCode * 10 + 3
-                    output.versionCodeOverride = universalVersionCode
+                    versionCodeOverride = universalVersionCode
                 }
             }
         }
@@ -81,7 +77,6 @@ android {
     
     buildTypes {
         release {
-            val keyProperties = Properties()
             val keyPropertiesFile = rootProject.file("key.properties")
             if (keyPropertiesFile.exists()) {
                 signingConfig = signingConfigs.getByName("release")
@@ -89,7 +84,6 @@ android {
             // If key.properties doesn't exist, signingConfig remains null (unsigned)
         }
         debug {
-            val keyProperties = Properties()
             val keyPropertiesFile = rootProject.file("key.properties")
             // Use release signing if available, otherwise fall back to default debug
             signingConfig = if (keyPropertiesFile.exists() && signingConfigs.getByName("release").storeFile != null) {
@@ -106,6 +100,11 @@ android {
     }
     buildFeatures {
         viewBinding = true
+    }
+}
+kotlin {
+    compilerOptions {
+        jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_11)
     }
 }
 flutter {
