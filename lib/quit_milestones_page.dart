@@ -197,105 +197,107 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
       context: context,
       backgroundColor: Colors.transparent,
       builder: (BuildContext context) {
-        return Container(
-          margin: const EdgeInsets.all(16),
-          padding: const EdgeInsets.all(24),
-          decoration: BoxDecoration(
-            color: Theme.of(context).colorScheme.surface,
-            borderRadius: BorderRadius.circular(20),
-          ),
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              Container(
-                padding: const EdgeInsets.all(16),
-                decoration: BoxDecoration(
-                  color: Theme.of(
-                    context,
-                  ).colorScheme.primary.withAlpha((255 * 0.1).round()),
-                  shape: BoxShape.circle,
-                ),
-                child: Icon(
-                  Icons.clear_all,
-                  size: 32,
-                  color: Theme.of(context).colorScheme.primary,
-                ),
-              ),
-              const SizedBox(height: 16),
-              Text(
-                'Clear milestone for ${milestone.day} days?',
-                style: Theme.of(context).textTheme.headlineSmall,
-                textAlign: TextAlign.center,
-              ),
-              const SizedBox(height: 8),
-              Text(
-                'This will clear all past times you achieved the ${milestone.day} day milestone.',
-                style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                  color: Theme.of(
-                    context,
-                  ).colorScheme.onSurface.withAlpha((255 * 0.7).round()),
-                ),
-                textAlign: TextAlign.center,
-              ),
-              const SizedBox(height: 24),
-              Row(
-                children: [
-                  Expanded(
-                    child: OutlinedButton(
-                      onPressed: () => Navigator.pop(context),
-                      style: OutlinedButton.styleFrom(
-                        padding: const EdgeInsets.symmetric(vertical: 12),
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(12),
-                        ),
-                      ),
-                      child: const Text('Cancel'),
-                    ),
+        return SafeArea(
+          child: Container(
+            margin: const EdgeInsets.all(16),
+            padding: const EdgeInsets.all(24),
+            decoration: BoxDecoration(
+              color: Theme.of(context).colorScheme.surface,
+              borderRadius: BorderRadius.circular(20),
+            ),
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Container(
+                  padding: const EdgeInsets.all(16),
+                  decoration: BoxDecoration(
+                    color: Theme.of(
+                      context,
+                    ).colorScheme.primary.withAlpha((255 * 0.1).round()),
+                    shape: BoxShape.circle,
                   ),
-                  const SizedBox(width: 16),
-                  Expanded(
-                    child: FilledButton(
-                      onPressed: () {
-                        Navigator.pop(context);
-                        final allDaysAchieved =
-                            widget.customDaysAchieved.isNotEmpty
-                            ? widget.customDaysAchieved
-                            : context.read<AddictionProvider>().getDays(
-                                widget.storageKey,
-                              );
+                  child: Icon(
+                    Icons.clear_all,
+                    size: 32,
+                    color: Theme.of(context).colorScheme.primary,
+                  ),
+                ),
+                const SizedBox(height: 16),
+                Text(
+                  'Clear milestone for ${milestone.day} days?',
+                  style: Theme.of(context).textTheme.headlineSmall,
+                  textAlign: TextAlign.center,
+                ),
+                const SizedBox(height: 8),
+                Text(
+                  'This will clear all past times you achieved the ${milestone.day} day milestone.',
+                  style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                    color: Theme.of(
+                      context,
+                    ).colorScheme.onSurface.withAlpha((255 * 0.7).round()),
+                  ),
+                  textAlign: TextAlign.center,
+                ),
+                const SizedBox(height: 24),
+                Row(
+                  children: [
+                    Expanded(
+                      child: OutlinedButton(
+                        onPressed: () => Navigator.pop(context),
+                        style: OutlinedButton.styleFrom(
+                          padding: const EdgeInsets.symmetric(vertical: 12),
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(12),
+                          ),
+                        ),
+                        child: const Text('Cancel'),
+                      ),
+                    ),
+                    const SizedBox(width: 16),
+                    Expanded(
+                      child: FilledButton(
+                        onPressed: () {
+                          Navigator.pop(context);
+                          final allDaysAchieved =
+                              widget.customDaysAchieved.isNotEmpty
+                              ? widget.customDaysAchieved
+                              : context.read<AddictionProvider>().getDays(
+                                  widget.storageKey,
+                                );
 
-                        final List<int> daysToClear = [];
-                        for (int achievedDay in allDaysAchieved) {
-                          int closestMilestoneDay = 0;
-                          for (QuitMilestone m in widget.milestones) {
-                            if (m.day <= achievedDay) {
-                              closestMilestoneDay = m.day;
-                            } else {
-                              break;
+                          final List<int> daysToClear = [];
+                          for (int achievedDay in allDaysAchieved) {
+                            int closestMilestoneDay = 0;
+                            for (QuitMilestone m in widget.milestones) {
+                              if (m.day <= achievedDay) {
+                                closestMilestoneDay = m.day;
+                              } else {
+                                break;
+                              }
+                            }
+                            if (closestMilestoneDay == milestone.day) {
+                              daysToClear.add(achievedDay);
                             }
                           }
-                          if (closestMilestoneDay == milestone.day) {
-                            daysToClear.add(achievedDay);
-                          }
-                        }
 
-                        context.read<AddictionProvider>().clearMilestoneDays(
-                          widget.storageKey,
-                          daysToClear,
-                        );
-                      },
-                      style: FilledButton.styleFrom(
-                        padding: const EdgeInsets.symmetric(vertical: 12),
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(12),
+                          context.read<AddictionProvider>().clearMilestoneDays(
+                            widget.storageKey,
+                            daysToClear,
+                          );
+                        },
+                        style: FilledButton.styleFrom(
+                          padding: const EdgeInsets.symmetric(vertical: 12),
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(12),
+                          ),
                         ),
+                        child: const Text('Clear'),
                       ),
-                      child: const Text('Clear'),
                     ),
-                  ),
-                ],
-              ),
-            ],
+                  ],
+                ),
+              ],
+            ),
           ),
         );
       },
