@@ -1138,6 +1138,12 @@ class AppLocalizationsZh extends AppLocalizations {
   String get addictionAdultContent => '成人内容';
 
   @override
+  String get search => '搜索...';
+
+  @override
+  String get noSearchResults => '未找到结果';
+
+  @override
   String get settingsSearchHint => '搜索...';
 
   @override

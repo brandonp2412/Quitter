@@ -44,8 +44,22 @@ class _AddictionOption {
   });
 }
 
-class AddAddictionPage extends StatelessWidget {
+class AddAddictionPage extends StatefulWidget {
   const AddAddictionPage({super.key});
+
+  @override
+  State<AddAddictionPage> createState() => _AddAddictionPageState();
+}
+
+class _AddAddictionPageState extends State<AddAddictionPage> {
+  final _searchController = TextEditingController();
+  String _query = '';
+
+  @override
+  void dispose() {
+    _searchController.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -345,55 +359,95 @@ class AddAddictionPage extends StatelessWidget {
       (a, b) => a.title.toLowerCase().compareTo(b.title.toLowerCase()),
     );
 
+    final filtered = _query.isEmpty
+        ? options
+        : options
+              .where(
+                (o) => o.title.toLowerCase().contains(_query.toLowerCase()),
+              )
+              .toList();
+
     return Scaffold(
       appBar: AppBar(title: Text(l10n.addAddictionTitle)),
       body: SafeArea(
-        child: ListView(
-          padding: const EdgeInsets.symmetric(vertical: 8),
+        child: Column(
           children: [
-            if (options.isEmpty)
-              Padding(
-                padding: const EdgeInsets.all(32),
-                child: Text(
-                  l10n.addAddictionNoneAvailable,
-                  textAlign: TextAlign.center,
-                  style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                    color: Theme.of(
-                      context,
-                    ).colorScheme.onSurface.withAlpha(153),
+            Padding(
+              padding: const EdgeInsets.fromLTRB(16, 8, 16, 4),
+              child: TextField(
+                controller: _searchController,
+                decoration: InputDecoration(
+                  hintText: l10n.search,
+                  prefixIcon: const Icon(Icons.search),
+                  suffixIcon: _query.isNotEmpty
+                      ? IconButton(
+                          icon: const Icon(Icons.clear),
+                          onPressed: () {
+                            _searchController.clear();
+                            setState(() => _query = '');
+                          },
+                        )
+                      : null,
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(12),
                   ),
+                  isDense: true,
                 ),
-              ),
-            ...options.map(
-              (option) => _AddictionTile(
-                option: option,
-                onTap: () => Navigator.of(context).pushReplacement(
-                  MaterialPageRoute(builder: (_) => option.destination),
-                ),
+                onChanged: (v) => setState(() => _query = v),
               ),
             ),
-            const Divider(height: 32),
-            ListTile(
-              leading: Container(
-                width: 48,
-                height: 48,
-                decoration: BoxDecoration(
-                  gradient: LinearGradient(
-                    colors: [
-                      Theme.of(context).colorScheme.primary,
-                      Theme.of(context).colorScheme.secondary,
-                    ],
-                    begin: Alignment.topLeft,
-                    end: Alignment.bottomRight,
+            Expanded(
+              child: ListView(
+                padding: const EdgeInsets.symmetric(vertical: 8),
+                children: [
+                  if (filtered.isEmpty)
+                    Padding(
+                      padding: const EdgeInsets.all(32),
+                      child: Text(
+                        options.isEmpty
+                            ? l10n.addAddictionNoneAvailable
+                            : l10n.noSearchResults,
+                        textAlign: TextAlign.center,
+                        style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                          color: Theme.of(
+                            context,
+                          ).colorScheme.onSurface.withAlpha(153),
+                        ),
+                      ),
+                    ),
+                  ...filtered.map(
+                    (option) => _AddictionTile(
+                      option: option,
+                      onTap: () => Navigator.of(context).pushReplacement(
+                        MaterialPageRoute(builder: (_) => option.destination),
+                      ),
+                    ),
                   ),
-                  borderRadius: BorderRadius.circular(12),
-                ),
-                child: const Icon(Icons.add, color: Colors.white),
-              ),
-              title: Text(l10n.addAddictionCustom),
-              subtitle: Text(l10n.addAddictionCustomSubtitle),
-              onTap: () => Navigator.of(context).pushReplacement(
-                MaterialPageRoute(builder: (_) => const EditEntryPage()),
+                  const Divider(height: 32),
+                  ListTile(
+                    leading: Container(
+                      width: 48,
+                      height: 48,
+                      decoration: BoxDecoration(
+                        gradient: LinearGradient(
+                          colors: [
+                            Theme.of(context).colorScheme.primary,
+                            Theme.of(context).colorScheme.secondary,
+                          ],
+                          begin: Alignment.topLeft,
+                          end: Alignment.bottomRight,
+                        ),
+                        borderRadius: BorderRadius.circular(12),
+                      ),
+                      child: const Icon(Icons.add, color: Colors.white),
+                    ),
+                    title: Text(l10n.addAddictionCustom),
+                    subtitle: Text(l10n.addAddictionCustomSubtitle),
+                    onTap: () => Navigator.of(context).pushReplacement(
+                      MaterialPageRoute(builder: (_) => const EditEntryPage()),
+                    ),
+                  ),
+                ],
               ),
             ),
           ],

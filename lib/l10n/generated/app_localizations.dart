@@ -2122,6 +2122,18 @@ abstract class AppLocalizations {
   /// **'Adult content'**
   String get addictionAdultContent;
 
+  /// Generic search hint text
+  ///
+  /// In en, this message translates to:
+  /// **'Search...'**
+  String get search;
+
+  /// Shown when a search yields no matches
+  ///
+  /// In en, this message translates to:
+  /// **'No results found'**
+  String get noSearchResults;
+
   /// Hint text for settings search bar
   ///
   /// In en, this message translates to:

@@ -512,6 +512,14 @@
   "@addictionAdultContent": {
     "description": "Full name for adult content addiction (used in settings)"
   },
+  "search": "搜索...",
+  "@search": {
+    "description": "Generic search hint text"
+  },
+  "noSearchResults": "未找到结果",
+  "@noSearchResults": {
+    "description": "Shown when a search yields no matches"
+  },
   "settingsSearchHint": "搜索...",
   "@settingsSearchHint": {
     "description": "Hint text for settings search bar"

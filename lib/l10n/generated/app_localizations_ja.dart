@@ -1140,6 +1140,12 @@ class AppLocalizationsJa extends AppLocalizations {
   String get addictionAdultContent => 'アダルトコンテンツ';
 
   @override
+  String get search => '検索...';
+
+  @override
+  String get noSearchResults => '結果が見つかりません';
+
+  @override
   String get settingsSearchHint => '検索...';
 
   @override
