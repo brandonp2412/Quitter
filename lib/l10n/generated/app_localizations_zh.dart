@@ -1009,12 +1009,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String quitCardKeepDays(int days) {
-    String _temp0 = intl.Intl.pluralLogic(
-      days,
-      locale: localeName,
-      other: ' days',
-      one: ' day',
-    );
+    String _temp0 = intl.Intl.pluralLogic(days, locale: localeName, other: '天');
     return '$_temp0';
   }
 
@@ -1549,8 +1544,7 @@ class AppLocalizationsZh extends AppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       days,
       locale: localeName,
-      other: '$days days',
-      one: '$days day',
+      other: '$days天',
     );
     return '$quitDateString ($_temp0)';
   }

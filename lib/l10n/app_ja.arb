@@ -325,7 +325,7 @@
   "@quitCardSubtitle": {
     "description": "Prompt displayed on the quit card"
   },
-  "quitCardKeepDays": "{days, plural, =1 { day} other { days}}",
+  "quitCardKeepDays": "{days, plural, other {日}}",
   "@quitCardKeepDays": {
     "description": "Kepp days on Quit card",
     "placeholders": {
@@ -1048,7 +1048,7 @@
   "@alcoholPageTitle": {
     "description": "Page title for alcohol tracking"
   },
-  "alcoholPageQuitDateDisplay": "{quitDate} ({days, plural, =1 {{days} day} other {{days} days}})",
+  "alcoholPageQuitDateDisplay": "{quitDate} ({days, plural, other {{days}日}})",
   "@alcoholPageQuitDateDisplay": {
     "description": "Display quit date with elapsed days.",
     "placeholders": {
