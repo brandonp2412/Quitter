@@ -9,587 +9,572 @@ class AppLocalizationsJa extends AppLocalizations {
   AppLocalizationsJa([String locale = 'ja']) : super(locale);
 
   @override
-  String get kratomPageTitle => 'Kratom Recovery';
+  String get kratomPageTitle => 'クラトム回復';
 
   @override
-  String get kratomHeaderStarted => 'Your Recovery Journey';
+  String get kratomHeaderStarted => 'あなたの回復の旅';
 
   @override
-  String get kratomHeaderNotStarted => 'Benefits of Quitting Kratom';
+  String get kratomHeaderNotStarted => 'クラトムをやめるメリット';
 
   @override
-  String get kratomSubtitleStarted =>
-      'Track your progress and celebrate each milestone';
+  String get kratomSubtitleStarted => '進捗を記録し、各マイルストーンを祝いましょう';
 
   @override
-  String get kratomSubtitleNotStarted => 'See what happens when you quit';
+  String get kratomSubtitleNotStarted => 'やめたら何が起きるか見てみましょう';
 
   @override
   String get kratomInfoBox =>
-      'Kratom acts on opioid receptors, so stopping can produce an opioid-like withdrawal. If you use heavily or alongside other opioids, ask a clinician about medically supervised withdrawal.';
+      'クラトムはオピオイド受容体に作用するため、中止するとオピオイド様の離脱症状が生じることがあります。大量使用や他のオピオイドと併用している場合は、医療監督下での離脱について医師に相談してください。';
 
   @override
-  String get addictionKratom => 'Kratom';
+  String get addictionKratom => 'クラトム';
 
   @override
-  String get kratomMilestone1Title => 'Withdrawal Begins';
+  String get kratomMilestone1Title => '離脱症状の始まり';
 
   @override
   String get kratomMilestone1Description =>
-      'Kratom acts on opioid receptors, so within 6–12 hours of your last dose you may feel restlessness, anxiety, sweating, runny nose, and muscle aches. This is your nervous system beginning to recalibrate.';
+      'クラトムはオピオイド受容体に作用するため、最後の服用から6〜12時間以内に落ち着きのなさ、不安、発汗、鼻水、筋肉痛が現れることがあります。これは神経系が再調整を始めている証拠です。';
 
   @override
-  String get kratomMilestone3Title => 'Peak Withdrawal';
+  String get kratomMilestone3Title => '離脱のピーク';
 
   @override
   String get kratomMilestone3Description =>
-      'Acute symptoms usually peak around days 2–3: stronger aches, insomnia, stomach upset, and low mood. This is the hardest point, and it is temporary.';
+      '急性症状は通常2〜3日目にピークを迎えます：より強い痛み、不眠、胃の不調、気分の落ち込み。これが最も辛い時ですが、一時的なものです。';
 
   @override
-  String get kratomMilestone7Title => 'Acute Symptoms Subside';
+  String get kratomMilestone7Title => '急性症状の鎮静';
 
   @override
   String get kratomMilestone7Description =>
-      'By one week the worst physical symptoms — aches, stomach upset, sweating — have largely faded. Sleep and energy are still recovering.';
+      '1週間までに、痛み、胃の不調、発汗などの最悪の身体的症状はほぼ消えています。睡眠とエネルギーはまだ回復途中です。';
 
   @override
-  String get kratomMilestone14Title => 'Mood and Sleep Recovering';
+  String get kratomMilestone14Title => '気分と睡眠の回復';
 
   @override
   String get kratomMilestone14Description =>
-      'Two weeks in, sleep is more reliable and mood is steadier as your brain\'s own reward chemistry begins to rebalance.';
+      '2週間経つと、脳自身の報酬系化学物質が再バランスし始めるにつれて、睡眠がより確実になり気分も安定してきます。';
 
   @override
-  String get kratomMilestone30Title => 'One Month Clear';
+  String get kratomMilestone30Title => '1ヶ月クリーン';
 
   @override
   String get kratomMilestone30Description =>
-      'At a month the body has stabilised: sleep, appetite, and energy are markedly better, and cravings are less frequent.';
+      '1ヶ月で体は安定します：睡眠、食欲、エネルギーが著しく改善し、渇望も少なくなります。';
 
   @override
-  String get kratomMilestone90Title => 'Stable Foundation';
+  String get kratomMilestone90Title => '安定した基盤';
 
   @override
   String get kratomMilestone90Description =>
-      'Three months of abstinence gives the brain\'s reward and stress circuits extended time to re-regulate. Mood, focus, and motivation are noticeably steadier.';
+      '3ヶ月の断ち切りは、脳の報酬系とストレス回路に再調整のための十分な時間を与えます。気分、集中力、モチベーションが目に見えて安定します。';
 
   @override
-  String get kratomMilestone365Title => 'One Year Free';
+  String get kratomMilestone365Title => '1年間の自由';
 
   @override
   String get kratomMilestone365Description =>
-      'A full year free of kratom. The opioid system has long re-regulated, cravings are infrequent, and the habit no longer organises your day.';
+      'クラトムなしの丸1年。オピオイド系は長く再調整され、渇望は稀で、習慣が日々を支配することはなくなりました。';
 
   @override
-  String get gabapentinoidsPageTitle => 'Gabapentinoid Recovery';
+  String get gabapentinoidsPageTitle => 'ガバペンチノイド回復';
 
   @override
-  String get gabapentinoidsHeaderStarted => 'Your Recovery Journey';
+  String get gabapentinoidsHeaderStarted => 'あなたの回復の旅';
 
   @override
-  String get gabapentinoidsHeaderNotStarted =>
-      'Benefits of Quitting Gabapentin / Pregabalin';
+  String get gabapentinoidsHeaderNotStarted => 'ガバペンチン／プレガバリンをやめるメリット';
 
   @override
-  String get gabapentinoidsSubtitleStarted =>
-      'Track your progress and celebrate each milestone';
+  String get gabapentinoidsSubtitleStarted => '進捗を記録し、各マイルストーンを祝いましょう';
 
   @override
-  String get gabapentinoidsSubtitleNotStarted =>
-      'See what happens when you quit';
+  String get gabapentinoidsSubtitleNotStarted => 'やめたら何が起きるか見てみましょう';
 
   @override
   String get gabapentinoidsInfoBox =>
-      'Never stop gabapentin or pregabalin abruptly. Sudden discontinuation can trigger seizures — especially if you take them for epilepsy. A gradual, medically supervised taper is essential.';
+      'ガバペンチンやプレガバリンを急に中止しないでください。突然の中止は発作を引き起こす可能性があります—特にてんかん治療で服用している場合。医師の監督下での段階的な減量が不可欠です。';
 
   @override
-  String get addictionGabapentinoid => 'Gabapentin / Pregabalin';
+  String get addictionGabapentinoid => 'ガバペンチン／プレガバリン';
 
   @override
-  String get gabapentinoidsMilestone1Title => 'Taper, Don\'t Stop Suddenly';
+  String get gabapentinoidsMilestone1Title => '減量、急にやめないで';
 
   @override
   String get gabapentinoidsMilestone1Description =>
-      'Gabapentinoid withdrawal can begin within 12–48 hours. The critical risk is seizures on abrupt cessation, so these drugs must be tapered under medical guidance rather than stopped cold.';
+      'ガバペンチノイドの離脱は12〜48時間以内に始まることがあります。急な中止での重大なリスクは発作であるため、これらの薬は医療指導のもとで徐々に減量する必要があります。';
 
   @override
-  String get gabapentinoidsMilestone3Title => 'Peak Withdrawal';
+  String get gabapentinoidsMilestone3Title => '離脱のピーク';
 
   @override
   String get gabapentinoidsMilestone3Description =>
-      'Symptoms typically peak around day 3: heightened anxiety, insomnia, sweating, nausea, and sometimes confusion. A supervised taper greatly reduces this.';
+      '症状は通常3日目頃にピークを迎えます：強い不安、不眠、発汗、吐き気、時には混乱。監視下での減量はこれを大幅に軽減します。';
 
   @override
-  String get gabapentinoidsMilestone7Title => 'Acute Phase Easing';
+  String get gabapentinoidsMilestone7Title => '急性期の緩和';
 
   @override
   String get gabapentinoidsMilestone7Description =>
-      'Around days 7–10 the acute symptoms substantially decrease. A gradual taper keeps this window manageable.';
+      '7〜10日目頃に急性症状は大幅に減少します。段階的な減量によりこの期間は管理可能になります。';
 
   @override
-  String get gabapentinoidsMilestone14Title => 'Sleep and Anxiety Settling';
+  String get gabapentinoidsMilestone14Title => '睡眠と不安の安定';
 
   @override
   String get gabapentinoidsMilestone14Description =>
-      'Two weeks in, sleep and baseline anxiety are improving as the nervous system adapts to functioning without the drug.';
+      '2週間経つと、神経系が薬なしでの機能に適応するにつれて、睡眠と基礎不安が改善しています。';
 
   @override
-  String get gabapentinoidsMilestone30Title => 'One Month Clear';
+  String get gabapentinoidsMilestone30Title => '1ヶ月クリーン';
 
   @override
   String get gabapentinoidsMilestone30Description =>
-      'At a month most people are through withdrawal, with steadier mood, sleep, and clarity. Any lingering symptoms are usually mild.';
+      '1ヶ月でほとんどの人は離脱を抜け出し、気分、睡眠、明晰さが安定します。残存症状は通常軽度です。';
 
   @override
-  String get gabapentinoidsMilestone90Title => 'Stable and Adjusted';
+  String get gabapentinoidsMilestone90Title => '安定と適応';
 
   @override
   String get gabapentinoidsMilestone90Description =>
-      'Three months clear, the nervous system has fully readjusted. Most people feel stable, with normal sleep and mood.';
+      '3ヶ月クリーンで、神経系は完全に再調整されました。ほとんどの人は安定し、正常な睡眠と気分を取り戻します。';
 
   @override
-  String get gabapentinoidsMilestone180Title => 'Half a Year Free';
+  String get gabapentinoidsMilestone180Title => '半年の自由';
 
   @override
   String get gabapentinoidsMilestone180Description =>
-      'Six months free. The drug is long gone from your routine, and any rebound symptoms have resolved.';
+      '6ヶ月の自由。薬は日常から完全に消え、リバウンド症状も解消されています。';
 
   @override
-  String get ghbPageTitle => 'GHB Recovery';
+  String get ghbPageTitle => 'GHB回復';
 
   @override
-  String get ghbHeaderStarted => 'Your Recovery Journey';
+  String get ghbHeaderStarted => 'あなたの回復の旅';
 
   @override
-  String get ghbHeaderNotStarted => 'Benefits of Quitting GHB';
+  String get ghbHeaderNotStarted => 'GHBをやめるメリット';
 
   @override
-  String get ghbSubtitleStarted =>
-      'Track your progress and celebrate each milestone';
+  String get ghbSubtitleStarted => '進捗を記録し、各マイルストーンを祝いましょう';
 
   @override
-  String get ghbSubtitleNotStarted => 'See what happens when you quit';
+  String get ghbSubtitleNotStarted => 'やめたら何が起きるか見てみましょう';
 
   @override
   String get ghbInfoBox =>
-      'GHB withdrawal is a medical emergency — it rivals alcohol and benzodiazepine withdrawal and can cause delirium and seizures. Heavy or around-the-clock users should not stop without supervised inpatient detox.';
+      'GHBの離脱は医療緊急事態です—アルコールやベンゾジアゼピンの離脱に匹敵し、せん妄や発作を引き起こす可能性があります。大量使用者や24時間使用している人は、入院管理下での解毒なしに中止すべきではありません。';
 
   @override
   String get addictionGhb => 'GHB';
 
   @override
-  String get ghbMilestone1Title => 'Seek Medical Detox';
+  String get ghbMilestone1Title => '医療解毒を求める';
 
   @override
   String get ghbMilestone1Description =>
-      'GHB has a very short half-life, so withdrawal can start 1–6 hours after the last dose with anxiety, tremor, insomnia, and a fast heart rate. This is one of the most dangerous detoxes — get medical help.';
+      'GHBの半減期は非常に短いため、離脱は最後の服用から1〜6時間で始まることがあり、不安、震え、不眠、動悸を伴います。これは最も危険な解毒の一つです—医療の助けを求めてください。';
 
   @override
-  String get ghbMilestone3Title => 'Peak Danger Window';
+  String get ghbMilestone3Title => 'ピーク危険期間';
 
   @override
   String get ghbMilestone3Description =>
-      'Symptoms peak around 48–72 hours and can escalate to severe agitation, hallucinations, and delirium. This phase needs medical monitoring.';
+      '症状は48〜72時間頃にピークを迎え、重度の興奮、幻覚、せん妄に発展する可能性があります。この段階では医療モニタリングが必要です。';
 
   @override
-  String get ghbMilestone7Title => 'Acute Phase Passing';
+  String get ghbMilestone7Title => '急性期の通過';
 
   @override
   String get ghbMilestone7Description =>
-      'By around a week the acute syndrome is usually resolving, though delirium can last longer in severe cases. The body is past the most dangerous point.';
+      '約1週間で急性症候群は通常解消に向かいますが、重症例ではせん妄が長引くこともあります。体は最も危険な地点を過ぎています。';
 
   @override
-  String get ghbMilestone14Title => 'Through the Worst';
+  String get ghbMilestone14Title => '最悪期を脱する';
 
   @override
   String get ghbMilestone14Description =>
-      'Two weeks in, even severe withdrawal has usually run its course. Sleep and autonomic stability are returning, though anxiety can linger.';
+      '2週間経つと、重度の離脱でも通常は経過しています。睡眠と自律神経の安定が戻りつつありますが、不安は残ることがあります。';
 
   @override
-  String get ghbMilestone30Title => 'One Month Stable';
+  String get ghbMilestone30Title => '1ヶ月の安定';
 
   @override
   String get ghbMilestone30Description =>
-      'At a month the acute danger is well behind you. Protracted symptoms — anxiety, sleep problems, low mood — may persist but are improving.';
+      '1ヶ月で急性の危険ははるか後ろにあります。持続症状—不安、睡眠問題、気分の落ち込み—は続くことがありますが改善しています。';
 
   @override
-  String get ghbMilestone90Title => 'Protracted Symptoms Fading';
+  String get ghbMilestone90Title => '持続症状の消退';
 
   @override
   String get ghbMilestone90Description =>
-      'Three months on, protracted anxiety, sleep, and mood symptoms are easing as the brain\'s GABA systems re-regulate.';
+      '3ヶ月経つと、持続的な不安、睡眠、気分の症状が脳のGABA系の再調整とともに和らいでいます。';
 
   @override
-  String get ghbMilestone180Title => 'Half a Year Free';
+  String get ghbMilestone180Title => '半年の自由';
 
   @override
   String get ghbMilestone180Description =>
-      'Six months free of GHB. The protracted withdrawal has largely resolved and your baseline mood, sleep, and cognition are restored.';
+      'GHBなしの6ヶ月。持続的離脱はほぼ解消され、ベースラインの気分、睡眠、認知機能が回復しています。';
 
   @override
-  String get ketaminePageTitle => 'Ketamine Recovery';
+  String get ketaminePageTitle => 'ケタミン回復';
 
   @override
-  String get ketamineHeaderStarted => 'Your Recovery Journey';
+  String get ketamineHeaderStarted => 'あなたの回復の旅';
 
   @override
-  String get ketamineHeaderNotStarted => 'Benefits of Quitting Ketamine';
+  String get ketamineHeaderNotStarted => 'ケタミンをやめるメリット';
 
   @override
-  String get ketamineSubtitleStarted =>
-      'Track your progress and celebrate each milestone';
+  String get ketamineSubtitleStarted => '進捗を記録し、各マイルストーンを祝いましょう';
 
   @override
-  String get ketamineSubtitleNotStarted => 'See what happens when you quit';
+  String get ketamineSubtitleNotStarted => 'やめたら何が起きるか見てみましょう';
 
   @override
   String get ketamineInfoBox =>
-      'Ketamine withdrawal is mainly psychological — cravings, low mood, and cognitive fog rather than physical illness. Its biggest physical harm is bladder damage (ketamine cystitis), and stopping is the essential first step toward bladder recovery.';
+      'ケタミンの離脱は主に心理的です—身体的な病気ではなく、渇望、気分の落ち込み、認知の霧。最大の身体的害は膀胱損傷（ケタミン膀胱炎）であり、中止が膀胱回復への必須の第一歩です。';
 
   @override
-  String get addictionKetamine => 'Ketamine';
+  String get addictionKetamine => 'ケタミン';
 
   @override
-  String get ketamineMilestone1Title => 'System Clearing';
+  String get ketamineMilestone1Title => '体内浄化';
 
   @override
   String get ketamineMilestone1Description =>
-      'Ketamine rarely causes severe physical withdrawal. In the first day you may notice mood swings, cravings, sweating, or palpitations as the drug clears.';
+      'ケタミンが重度の身体的離脱を引き起こすことは稀です。初日は薬が抜けるにつれて気分の変動、渇望、発汗、動悸に気づくかもしれません。';
 
   @override
-  String get ketamineMilestone7Title => 'Mood and Cravings';
+  String get ketamineMilestone7Title => '気分と渇望';
 
   @override
   String get ketamineMilestone7Description =>
-      'The first week is mostly about psychological withdrawal — cravings, low or swinging mood, and cognitive fog — rather than physical symptoms.';
+      '最初の1週間は主に心理的離脱—身体的症状ではなく、渇望、気分の低下や変動、認知の霧—についてです。';
 
   @override
-  String get ketamineMilestone14Title => 'Cognitive Fog Lifting';
+  String get ketamineMilestone14Title => '認知の霧が晴れる';
 
   @override
   String get ketamineMilestone14Description =>
-      'Two weeks in, thinking and memory start to clear and mood steadies as the dissociative effects fully wear off.';
+      '2週間経つと、解離性効果が完全に消えるにつれて思考と記憶がクリアになり、気分が安定します。';
 
   @override
-  String get ketamineMilestone30Title => 'One Month — Bladder Healing';
+  String get ketamineMilestone30Title => '1ヶ月—膀胱の治癒';
 
   @override
   String get ketamineMilestone30Description =>
-      'At a month, in early-stage cases bladder symptoms often begin to improve with cessation alone. Mood and cognition are clearer.';
+      '1ヶ月で、早期の症例では膀胱症状が中止のみで改善し始めることがよくあります。気分と認知はよりクリアになります。';
 
   @override
-  String get ketamineMilestone90Title => 'Three Months On';
+  String get ketamineMilestone90Title => '3ヶ月経過';
 
   @override
   String get ketamineMilestone90Description =>
-      'Three months of abstinence allows continued bladder recovery and steady cognitive and emotional improvement. Cravings are less frequent.';
+      '3ヶ月の断ち切りにより、継続的な膀胱回復と着実な認知的・感情的改善が可能になります。渇望は少なくなります。';
 
   @override
-  String get ketamineMilestone180Title => 'Half a Year Free';
+  String get ketamineMilestone180Title => '半年の自由';
 
   @override
   String get ketamineMilestone180Description =>
-      'Six months free. Bladder symptoms have had extended time to improve, and the psychological pull of ketamine has weakened considerably.';
+      '6ヶ月の自由。膀胱症状は改善するための十分な時間を得ており、ケタミンへの心理的引力はかなり弱まっています。';
 
   @override
-  String get ketamineMilestone365Title => 'One Year Free';
+  String get ketamineMilestone365Title => '1年間の自由';
 
   @override
   String get ketamineMilestone365Description =>
-      'A year free of ketamine. Cognition, mood, and — where damage was caught early — bladder function have had the longest time to recover.';
+      'ケタミンなしの1年。認知、気分、そして—早期に損傷が発見された場合—膀胱機能が回復するための最長の時間を得ています。';
 
   @override
-  String get inhalantsPageTitle => 'Inhalants Recovery';
+  String get inhalantsPageTitle => '吸入剤回復';
 
   @override
-  String get inhalantsHeaderStarted => 'Your Recovery Journey';
+  String get inhalantsHeaderStarted => 'あなたの回復の旅';
 
   @override
-  String get inhalantsHeaderNotStarted => 'Benefits of Quitting Inhalants';
+  String get inhalantsHeaderNotStarted => '吸入剤をやめるメリット';
 
   @override
-  String get inhalantsSubtitleStarted =>
-      'Track your progress and celebrate each milestone';
+  String get inhalantsSubtitleStarted => '進捗を記録し、各マイルストーンを祝いましょう';
 
   @override
-  String get inhalantsSubtitleNotStarted => 'See what happens when you quit';
+  String get inhalantsSubtitleNotStarted => 'やめたら何が起きるか見てみましょう';
 
   @override
   String get inhalantsInfoBox =>
-      'Inhalant withdrawal is shorter than alcohol or opioids but can be intense, with seizure risk in heavy users. Neurological recovery is real but slow — often unfolding over about two years of abstinence.';
+      '吸入剤の離脱はアルコールやオピオイドより短いですが激しい場合があり、大量使用者では発作リスクがあります。神経学的回復は現実的ですが遅く—多くの場合約2年間の断ち切りで展開します。';
 
   @override
-  String get addictionInhalants => 'Inhalants';
+  String get addictionInhalants => '吸入剤';
 
   @override
-  String get inhalantsMilestone1Title => 'System Clearing';
+  String get inhalantsMilestone1Title => '体内浄化';
 
   @override
   String get inhalantsMilestone1Description =>
-      'Inhalant chemicals clear the blood quickly but linger in fatty tissue. In the first day you may feel headache, irritability, nausea, anxiety, or insomnia.';
+      '吸入剤化学物質は血液から素早く排出されますが脂肪組織に残ります。初日は頭痛、イライラ、吐き気、不安、不眠を感じるかもしれません。';
 
   @override
-  String get inhalantsMilestone7Title => 'Acute Symptoms Subside';
+  String get inhalantsMilestone7Title => '急性症状の鎮静';
 
   @override
   String get inhalantsMilestone7Description =>
-      'Acute withdrawal peaks around days 2–5 and largely resolves within one to two weeks. By a week the worst is usually passing.';
+      '急性離脱は2〜5日目頃にピークを迎え、1〜2週間以内にほぼ解消します。1週間までに最悪期は通常過ぎ去ります。';
 
   @override
-  String get inhalantsMilestone14Title => 'Acute Phase Over';
+  String get inhalantsMilestone14Title => '急性期終了';
 
   @override
   String get inhalantsMilestone14Description =>
-      'By two weeks the acute withdrawal has typically resolved. Mood is steadier, though cognitive fog and fatigue can persist.';
+      '2週間までに急性離脱は通常解消しています。気分は安定しますが、認知の霧と疲労は続くことがあります。';
 
   @override
-  String get inhalantsMilestone30Title => 'One Month — Brain Recovering';
+  String get inhalantsMilestone30Title => '1ヶ月—脳の回復';
 
   @override
   String get inhalantsMilestone30Description =>
-      'At a month the brain is past acute disruption and beginning the slow work of cognitive recovery. Clarity and mood improve.';
+      '1ヶ月で脳は急性の混乱を過ぎ、認知回復のゆっくりとした作業を始めています。明晰さと気分が改善します。';
 
   @override
-  String get inhalantsMilestone90Title => 'Three Months On';
+  String get inhalantsMilestone90Title => '3ヶ月経過';
 
   @override
   String get inhalantsMilestone90Description =>
-      'Three months of abstinence supports continued recovery of memory, attention, and motor function. Improvements are gradual but real.';
+      '3ヶ月の断ち切りは記憶、注意、運動機能の継続的な回復を支えます。改善は緩やかですが確かです。';
 
   @override
-  String get inhalantsMilestone365Title => 'One Year — Substantial Recovery';
+  String get inhalantsMilestone365Title => '1年—実質的回復';
 
   @override
   String get inhalantsMilestone365Description =>
-      'A year of abstinence brings substantial neurological recovery for most people, with continued gains expected through the second year.';
+      '1年間の断ち切りはほとんどの人に実質的な神経学的回復をもたらし、2年目を通じて継続的な改善が期待されます。';
 
   @override
-  String get inhalantsMilestone730Title => 'Two Years — Long-Term Healing';
+  String get inhalantsMilestone730Title => '2年—長期治癒';
 
   @override
   String get inhalantsMilestone730Description =>
-      'Two years of abstinence is the window in which studies found substantial recovery of brain function — outside of damage from leaded petrol, which can persist.';
+      '2年間の断ち切りは、研究が脳機能の実質的回復を発見した期間です—ただし有鉛ガソリンによる損傷は持続する可能性があります。';
 
   @override
-  String get synthetic_cannabinoidsPageTitle =>
-      'Synthetic Cannabinoids Recovery';
+  String get synthetic_cannabinoidsPageTitle => '合成カンナビノイド回復';
 
   @override
-  String get synthetic_cannabinoidsHeaderStarted => 'Your Recovery Journey';
+  String get synthetic_cannabinoidsHeaderStarted => 'あなたの回復の旅';
 
   @override
-  String get synthetic_cannabinoidsHeaderNotStarted =>
-      'Benefits of Quitting Synthetic Cannabinoids';
+  String get synthetic_cannabinoidsHeaderNotStarted => '合成カンナビノイドをやめるメリット';
 
   @override
-  String get synthetic_cannabinoidsSubtitleStarted =>
-      'Track your progress and celebrate each milestone';
+  String get synthetic_cannabinoidsSubtitleStarted => '進捗を記録し、各マイルストーンを祝いましょう';
 
   @override
-  String get synthetic_cannabinoidsSubtitleNotStarted =>
-      'See what happens when you quit';
+  String get synthetic_cannabinoidsSubtitleNotStarted => 'やめたら何が起きるか見てみましょう';
 
   @override
   String get synthetic_cannabinoidsInfoBox =>
-      'Synthetic cannabinoids (“Spice”, “K2”) are far more potent than cannabis, and their withdrawal is similar but more severe — with anxiety and a fast heart rate. Heavy users may need medically supported detox.';
+      '合成カンナビノイド（「スパイス」「K2」）は大麻よりもはるかに強力で、離脱は類似していますがより重度です—不安と動悸を伴います。大量使用者は医療サポート下での解毒が必要な場合があります。';
 
   @override
-  String get addictionSyntheticCannabinoids => 'Synthetic Cannabinoids';
+  String get addictionSyntheticCannabinoids => '合成カンナビノイド';
 
   @override
-  String get synthetic_cannabinoidsMilestone1Title => 'Withdrawal Begins';
+  String get synthetic_cannabinoidsMilestone1Title => '離脱症状の始まり';
 
   @override
   String get synthetic_cannabinoidsMilestone1Description =>
-      'Withdrawal from synthetic cannabinoids can begin within hours to a day or two. Expect anxiety, irritability, a fast heart rate, sweating, and sleep problems.';
+      '合成カンナビノイドの離脱は数時間から1〜2日以内に始まることがあります。不安、イライラ、動悸、発汗、睡眠問題が予想されます。';
 
   @override
-  String get synthetic_cannabinoidsMilestone3Title => 'Peak Symptoms';
+  String get synthetic_cannabinoidsMilestone3Title => '症状のピーク';
 
   @override
   String get synthetic_cannabinoidsMilestone3Description =>
-      'Symptoms tend to peak in the first few days — strongest anxiety, irritability, poor sleep, and cravings. This is the hardest stretch.';
+      '症状は最初の数日でピークに達する傾向があります—最も強い不安、イライラ、睡眠不足、渇望。これが最も辛い期間です。';
 
   @override
-  String get synthetic_cannabinoidsMilestone7Title => 'Acute Phase Easing';
+  String get synthetic_cannabinoidsMilestone7Title => '急性期の緩和';
 
   @override
   String get synthetic_cannabinoidsMilestone7Description =>
-      'By one week the most intense symptoms are easing. Sleep, heart rate, and mood begin to settle.';
+      '1週間までに最も激しい症状は和らいでいます。睡眠、心拍数、気分が落ち着き始めます。';
 
   @override
-  String get synthetic_cannabinoidsMilestone14Title =>
-      'Sleep and Mood Settling';
+  String get synthetic_cannabinoidsMilestone14Title => '睡眠と気分の安定';
 
   @override
   String get synthetic_cannabinoidsMilestone14Description =>
-      'Two weeks in, sleep and mood are steadier and the fast heart rate of early withdrawal has resolved.';
+      '2週間経つと、睡眠と気分がより安定し、初期離脱の動悸は解消されています。';
 
   @override
-  String get synthetic_cannabinoidsMilestone30Title => 'One Month Clear';
+  String get synthetic_cannabinoidsMilestone30Title => '1ヶ月クリーン';
 
   @override
   String get synthetic_cannabinoidsMilestone30Description =>
-      'At a month most withdrawal symptoms have resolved. Sleep, mood, and clarity are markedly improved.';
+      '1ヶ月でほとんどの離脱症状は解消されています。睡眠、気分、明晰さが著しく改善しています。';
 
   @override
-  String get synthetic_cannabinoidsMilestone90Title => 'Three Months On';
+  String get synthetic_cannabinoidsMilestone90Title => '3ヶ月経過';
 
   @override
   String get synthetic_cannabinoidsMilestone90Description =>
-      'Three months clear, mood and sleep are stable and cravings are infrequent. The brain\'s cannabinoid system has re-regulated.';
+      '3ヶ月クリーンで、気分と睡眠は安定し渇望は稀です。脳のカンナビノイド系は再調整されています。';
 
   @override
-  String get synthetic_cannabinoidsMilestone180Title => 'Half a Year Free';
+  String get synthetic_cannabinoidsMilestone180Title => '半年の自由';
 
   @override
   String get synthetic_cannabinoidsMilestone180Description =>
-      'Six months free of synthetic cannabinoids. Withdrawal is long resolved and the serious risks of these drugs are behind you.';
+      '合成カンナビノイドなしの6ヶ月。離脱は長く解消され、これらの薬物の深刻なリスクは過去のものです。';
 
   @override
-  String get mdmaPageTitle => 'MDMA Recovery';
+  String get mdmaPageTitle => 'MDMA回復';
 
   @override
-  String get mdmaHeaderStarted => 'Your Recovery Journey';
+  String get mdmaHeaderStarted => 'あなたの回復の旅';
 
   @override
-  String get mdmaHeaderNotStarted => 'Benefits of Quitting MDMA';
+  String get mdmaHeaderNotStarted => 'MDMAをやめるメリット';
 
   @override
-  String get mdmaSubtitleStarted =>
-      'Track your progress and celebrate each milestone';
+  String get mdmaSubtitleStarted => '進捗を記録し、各マイルストーンを祝いましょう';
 
   @override
-  String get mdmaSubtitleNotStarted => 'See what happens when you quit';
+  String get mdmaSubtitleNotStarted => 'やめたら何が起きるか見てみましょう';
 
   @override
   String get mdmaInfoBox =>
-      'MDMA floods and then depletes serotonin, producing the “comedown” and, after heavy use, withdrawal-like low mood. Serotonin transporter levels recover with sustained abstinence, though heavy use can leave longer-lasting effects.';
+      'MDMAはセロトニンを大量放出させ枯渇させ、「カムダウン」と、大量使用後には離脱様の気分低下をもたらします。セロトニントランスポーターレベルは持続的な断ち切りで回復しますが、大量使用は長期的な影響を残す可能性があります。';
 
   @override
   String get addictionMdma => 'MDMA';
 
   @override
-  String get mdmaMilestone1Title => 'The Comedown';
+  String get mdmaMilestone1Title => 'カムダウン';
 
   @override
   String get mdmaMilestone1Description =>
-      'After MDMA, depleted serotonin produces the “comedown”: low mood, fatigue, irritability, and poor sleep for a day or two. Hydration, food, and rest help.';
+      'MDMA後、枯渇したセロトニンが「カムダウン」をもたらします：気分低下、疲労、イライラ、睡眠不足が1〜2日続きます。水分補給、食事、休息が助けになります。';
 
   @override
-  String get mdmaMilestone3Title => 'Mood Rebalancing';
+  String get mdmaMilestone3Title => '気分の再バランス';
 
   @override
   String get mdmaMilestone3Description =>
-      'By a few days the sharpest comedown has passed. Mood and energy begin to rebalance as serotonin is replenished.';
+      '数日で最も激しいカムダウンは過ぎ去ります。セロトニンが補充されるにつれて気分とエネルギーが再バランスし始めます。';
 
   @override
-  String get mdmaMilestone7Title => 'Acute Phase Over';
+  String get mdmaMilestone7Title => '急性期終了';
 
   @override
   String get mdmaMilestone7Description =>
-      'After heavier use, withdrawal-like symptoms (low mood, poor focus, cravings) can run about a week before improving.';
+      '大量使用後、離脱様症状（気分低下、集中力不足、渇望）は改善するまでに約1週間続くことがあります。';
 
   @override
-  String get mdmaMilestone14Title => 'Two Weeks On';
+  String get mdmaMilestone14Title => '2週間経過';
 
   @override
   String get mdmaMilestone14Description =>
-      'Two weeks of abstinence typically brings clear improvement in mood, sleep, and focus as the serotonin system recovers.';
+      '2週間の断ち切りは通常、セロトニン系の回復に伴い気分、睡眠、集中力に明確な改善をもたらします。';
 
   @override
-  String get mdmaMilestone30Title => 'One Month Clear';
+  String get mdmaMilestone30Title => '1ヶ月クリーン';
 
   @override
   String get mdmaMilestone30Description =>
-      'At a month, mood and cognition are markedly steadier. Serotonin transporter levels recover with continued abstinence.';
+      '1ヶ月で、気分と認知は著しく安定しています。セロトニントランスポーターレベルは継続的な断ち切りで回復します。';
 
   @override
-  String get mdmaMilestone90Title => 'Three Months On';
+  String get mdmaMilestone90Title => '3ヶ月経過';
 
   @override
   String get mdmaMilestone90Description =>
-      'Three months of abstinence supports continued serotonin-system recovery. Mood and sleep are stable; anxiety eases over the following months.';
+      '3ヶ月の断ち切りは継続的なセロトニン系の回復を支えます。気分と睡眠は安定しており、不安はその後の数ヶ月で和らぎます。';
 
   @override
-  String get mdmaMilestone365Title => 'One Year Free';
+  String get mdmaMilestone365Title => '1年間の自由';
 
   @override
   String get mdmaMilestone365Description =>
-      'A year free of MDMA. Serotonin function and mood have had extended time to recover, and anxiety related to use typically resolves by now.';
+      'MDMAなしの1年。セロトニン機能と気分は回復するための十分な時間を得ており、使用に関連する不安は通常この頃までに解消します。';
 
   @override
-  String get steroidsPageTitle => 'Anabolic Steroid Recovery';
+  String get steroidsPageTitle => 'アナボリックステロイド回復';
 
   @override
-  String get steroidsHeaderStarted => 'Your Recovery Journey';
+  String get steroidsHeaderStarted => 'あなたの回復の旅';
 
   @override
-  String get steroidsHeaderNotStarted =>
-      'Benefits of Quitting Anabolic Steroids';
+  String get steroidsHeaderNotStarted => 'アナボリックステロイドをやめるメリット';
 
   @override
-  String get steroidsSubtitleStarted =>
-      'Track your progress and celebrate each milestone';
+  String get steroidsSubtitleStarted => '進捗を記録し、各マイルストーンを祝いましょう';
 
   @override
-  String get steroidsSubtitleNotStarted => 'See what happens when you quit';
+  String get steroidsSubtitleNotStarted => 'やめたら何が起きるか見てみましょう';
 
   @override
   String get steroidsInfoBox =>
-      'Stopping anabolic steroids leaves the body in a hormone deficit (low testosterone) until the HPTA recovers — usually over months, but sometimes longer. Depression and low libido during this phase are common; severe depression or suicidal thoughts need urgent medical care.';
+      'アナボリックステロイドを中止すると、HPTAが回復するまで体はホルモン欠乏状態（低テストステロン）になります—通常数ヶ月、時にはそれ以上かかります。この期間中のうつ病と性欲低下は一般的です；重度のうつ病や自殺念慮は緊急の医療ケアが必要です。';
 
   @override
-  String get addictionSteroids => 'Anabolic Steroids';
+  String get addictionSteroids => 'アナボリックステロイド';
 
   @override
-  String get steroidsMilestone1Title => 'The Hormone Deficit Begins';
+  String get steroidsMilestone1Title => 'ホルモン欠乏の始まり';
 
   @override
   String get steroidsMilestone1Description =>
-      'Anabolic steroids suppress your body\'s own testosterone. On stopping, you enter a hormone deficit, which can bring fatigue, low mood, and low libido. Medical guidance is recommended.';
+      'アナボリックステロイドは体自身のテストステロン生成を抑制します。中止するとホルモン欠乏状態に入り、疲労、気分低下、性欲低下をもたらすことがあります。医療指導が推奨されます。';
 
   @override
-  String get steroidsMilestone14Title => 'Adjustment Phase';
+  String get steroidsMilestone14Title => '調整期';
 
   @override
   String get steroidsMilestone14Description =>
-      'The first weeks are the hardest of the hormone dip — low energy, mood, and libido. This is the phase when many relapse to avoid it; support helps.';
+      '最初の数週間はホルモン低下の最も辛い時期です—低いエネルギー、気分、性欲。これを避けるために再発する人が多い段階です；サポートが助けになります。';
 
   @override
-  String get steroidsMilestone30Title => 'One Month — Axis Restarting';
+  String get steroidsMilestone30Title => '1ヶ月—軸の再始動';
 
   @override
   String get steroidsMilestone30Description =>
-      'At a month the HPTA is beginning to restart. Gonadotropins and testosterone are starting to rise, though symptoms often persist.';
+      '1ヶ月でHPTAが再始動し始めています。ゴナドトロピンとテストステロンが上昇し始めていますが、症状はしばしば持続します。';
 
   @override
-  String get steroidsMilestone90Title => 'Three Months — Hormones Climbing';
+  String get steroidsMilestone90Title => '3ヶ月—ホルモン上昇中';
 
   @override
   String get steroidsMilestone90Description =>
-      'Three months in, gonadotropins and testosterone are climbing toward normal for most people, and mood and libido begin to follow.';
+      '3ヶ月経つと、ほとんどの人でゴナドトロピンとテストステロンが正常に向かって上昇しており、気分と性欲もそれに続き始めます。';
 
   @override
-  String get steroidsMilestone180Title => 'Six Months — Often Recovered';
+  String get steroidsMilestone180Title => '6ヶ月—多くの場合回復';
 
   @override
   String get steroidsMilestone180Description =>
-      'By six months many people have near-complete biochemical recovery, with testosterone and gonadotropins back in range and symptoms resolving.';
+      '6ヶ月までに多くの人がほぼ完全な生化学的回復を達成し、テストステロンとゴナドトロピンが正常範囲に戻り症状が解消します。';
 
   @override
-  String get steroidsMilestone365Title => 'One Year On';
+  String get steroidsMilestone365Title => '1年経過';
 
   @override
   String get steroidsMilestone365Description =>
-      'A year off steroids. For most, hormones and mood have normalised; persistent low testosterone past this point warrants specialist assessment.';
+      'ステロイドなしの1年。ほとんどの人でホルモンと気分は正常化しています；この時点以降の持続的な低テストステロンは専門医の評価が必要です。';
 
   @override
-  String get steroidsMilestone730Title => 'Two Years — A New Baseline';
+  String get steroidsMilestone730Title => '2年—新しいベースライン';
 
   @override
   String get steroidsMilestone730Description =>
-      'Two years off steroids. Your hormones reflect your natural baseline; any continued deficit should be managed with a specialist.';
+      'ステロイドなしの2年。ホルモンは自然なベースラインを反映しており、継続的な欠乏は専門医の管理を受けるべきです。';
 
   @override
   String get appTitle => 'Quitter';
@@ -601,420 +586,407 @@ class AppLocalizationsJa extends AppLocalizations {
   String get tabQuitter => 'Quitter';
 
   @override
-  String get adderallPageTitle => 'Quitting Adderall';
+  String get adderallPageTitle => 'アデロールをやめる';
 
   @override
-  String get adderallHeaderStarted => 'Your Recovery Journey';
+  String get adderallHeaderStarted => 'あなたの回復の旅';
 
   @override
-  String get adderallHeaderNotStarted => 'Ready to Start Your Recovery?';
+  String get adderallHeaderNotStarted => '回復を始める準備はできていますか？';
 
   @override
-  String get adderallSubtitleStarted =>
-      'Track your progress and celebrate each milestone as your brain heals';
+  String get adderallSubtitleStarted => '脳が癒えるにつれて進捗を記録し、各マイルストーンを祝いましょう';
 
   @override
-  String get adderallSubtitleNotStarted =>
-      'See what happens when you quit Adderall and start your journey to recovery';
+  String get adderallSubtitleNotStarted => 'アデロールをやめたら何が起きるか見て、回復の旅を始めましょう';
 
   @override
-  String get adderallMilestone1Title => 'First 24 Hours: Withdrawal Begins';
+  String get adderallMilestone1Title => '最初の24時間：離脱の始まり';
 
   @override
   String get adderallMilestone1Description =>
-      'You may feel increased fatigue, depression, and appetite as your body starts adjusting to life without stimulants. This is normal and temporary. Stay hydrated and rest when needed.';
+      '体が刺激物なしの生活に適応し始めるにつれて、疲労、うつ、食欲の増加を感じるかもしれません。これは正常で一時的です。水分を保ち、必要な時に休息を取りましょう。';
 
   @override
-  String get adderallMilestone3Title => 'Day 3: Peak Withdrawal';
+  String get adderallMilestone3Title => '3日目：離脱のピーク';
 
   @override
   String get adderallMilestone3Description =>
-      'Withdrawal symptoms reach their peak intensity. You might experience strong fatigue, irritability, and difficulty concentrating. This is the hardest part - but it gets better from here. Consider reaching out to your support system.';
+      '離脱症状が最大強度に達します。強い疲労、イライラ、集中困難を経験するかもしれません。これが最も辛い部分ですが—ここから良くなります。サポートシステムに連絡することを検討してください。';
 
   @override
-  String get adderallMilestone7Title => 'One Week: Physical Symptoms Improving';
+  String get adderallMilestone7Title => '1週間：身体症状の改善';
 
   @override
   String get adderallMilestone7Description =>
-      'The worst of the physical withdrawal symptoms are starting to fade. Sleep patterns begin normalizing and energy levels slowly improve. Your body is adapting to functioning without stimulants.';
+      '最悪の身体的離脱症状が薄れ始めています。睡眠パターンが正常化し始め、エネルギーレベルがゆっくりと改善します。体は刺激物なしでの機能に適応しています。';
 
   @override
-  String get adderallMilestone14Title =>
-      'Two Weeks: Emotional Stability Returning';
+  String get adderallMilestone14Title => '2週間：感情の安定が戻る';
 
   @override
   String get adderallMilestone14Description =>
-      'Mood swings and irritability are lessening. You\'re regaining emotional balance as your brain chemistry stabilizes. Many people find this week marks a turning point in their recovery journey.';
+      '気分の変動とイライラが和らいでいます。脳の化学物質が安定するにつれて感情のバランスを取り戻しています。多くの人はこの週が回復の旅の転換点だと感じます。';
 
   @override
-  String get adderallMilestone30Title =>
-      'One Month: Brain Chemistry Rebalancing';
+  String get adderallMilestone30Title => '1ヶ月：脳の化学物質の再バランス';
 
   @override
   String get adderallMilestone30Description =>
-      'Your brain is actively healing. Natural dopamine production is improving, and you may notice better focus and motivation without medication. Sleep quality and appetite are returning to normal patterns.';
+      '脳は積極的に癒えています。自然なドーパミン生成が改善し、薬なしでの集中力とモチベーションの向上に気づくかもしれません。睡眠の質と食欲が正常なパターンに戻っています。';
 
   @override
-  String get adderallMilestone60Title =>
-      'Two Months: Cognitive Function Improving';
+  String get adderallMilestone60Title => '2ヶ月：認知機能の改善';
 
   @override
   String get adderallMilestone60Description =>
-      'Significant improvements in mental clarity, memory, and mood stability. Your brain\'s reward system is healing, making everyday activities more naturally rewarding. Many people report feeling more like themselves.';
+      '精神的な明晰さ、記憶、気分の安定性に大幅な改善。脳の報酬系が癒えており、日常活動がより自然に報酬的に感じられるようになります。多くの人がより自分らしく感じられると報告しています。';
 
   @override
-  String get adderallMilestone90Title =>
-      'Three Months: Major Recovery Milestone';
+  String get adderallMilestone90Title => '3ヶ月：主要な回復マイルストーン';
 
   @override
   String get adderallMilestone90Description =>
-      'Most withdrawal symptoms have resolved. Your brain has made substantial progress in healing. Natural energy levels, focus, and emotional regulation are significantly improved. This is a major achievement worth celebrating.';
+      'ほとんどの離脱症状が解消されました。脳は治癒において実質的な進歩を遂げています。自然なエネルギーレベル、集中力、感情調節が大幅に改善しています。これは祝う価値のある大きな成果です。';
 
   @override
-  String get adderallMilestone180Title => 'Six Months: Brain Healing Continues';
+  String get adderallMilestone180Title => '6ヶ月：脳の治癒が続く';
 
   @override
   String get adderallMilestone180Description =>
-      'Dopamine receptors continue restoring to normal function. You\'re experiencing sustained improvements in cognitive performance, emotional wellbeing, and overall quality of life. Your brain is getting stronger every day.';
+      'ドーパミン受容体は正常機能への回復を続けています。認知パフォーマンス、感情的な健康、全体的な生活の質において持続的な改善を経験しています。脳は日々強くなっています。';
 
   @override
-  String get adderallMilestone365Title => 'One Year: Near-Complete Recovery';
+  String get adderallMilestone365Title => '1年：ほぼ完全な回復';
 
   @override
   String get adderallMilestone365Description =>
-      'Your brain\'s dopamine system has largely restored to normal functioning. You\'ve proven your resilience and rebuilt your life without dependence on stimulants. This milestone represents a complete transformation - celebrate how far you\'ve come!';
+      '脳のドーパミン系はほぼ正常な機能に回復しています。回復力を証明し、刺激物への依存なしに人生を再構築しました。このマイルストーンは完全な変革を表しています—どれだけ遠くまで来たかを祝いましょう！';
 
   @override
-  String get showAllItems => 'Show all items';
+  String get showAllItems => 'すべての項目を表示';
 
   @override
-  String get showAllSubtitle => 'Enable or disable all main screen items';
+  String get showAllSubtitle => 'すべてのメイン画面項目を有効または無効にする';
 
   @override
-  String get enableNotifications => 'Enable all notifications';
+  String get enableNotifications => 'すべての通知を有効にする';
 
   @override
-  String get enableNotificationsSubtitle => 'Turn on or off all notifications';
+  String get enableNotificationsSubtitle => 'すべての通知をオンまたはオフにする';
 
   @override
-  String get benzoPageTitle => 'Benzodiazepine Recovery';
+  String get benzoPageTitle => 'ベンゾジアゼピン回復';
 
   @override
-  String get benzoHeaderStarted => 'Your Recovery Journey';
+  String get benzoHeaderStarted => 'あなたの回復の旅';
 
   @override
-  String get benzoHeaderNotStarted => 'Benefits of Quitting Benzodiazepines';
+  String get benzoHeaderNotStarted => 'ベンゾジアゼピンをやめるメリット';
 
   @override
-  String get benzoSubtitleStarted =>
-      'Track your progress and celebrate each milestone';
+  String get benzoSubtitleStarted => '進捗を記録し、各マイルストーンを祝いましょう';
 
   @override
-  String get benzoSubtitleNotStarted => 'See what happens when you quit';
+  String get benzoSubtitleNotStarted => 'やめたら何が起きるか見てみましょう';
 
   @override
-  String get benzoMilestone7Title => 'Early Withdrawal Phase';
+  String get benzoMilestone7Title => '早期離脱期';
 
   @override
   String get benzoMilestone7Description =>
-      'After completing a gradual taper, early withdrawal symptoms like rebound anxiety and insomnia may appear. This is your nervous system beginning to readjust. Medical support during this phase is crucial for safety and comfort.';
+      '段階的減量の完了後、リバウンド不安や不眠などの初期離脱症状が現れることがあります。これは神経系が再調整を始めている証拠です。この期間中の医療サポートは安全性と快適さのために重要です。';
 
   @override
-  String get benzoMilestone14Title => 'Acute Withdrawal Peak';
+  String get benzoMilestone14Title => '急性離脱のピーク';
 
   @override
   String get benzoMilestone14Description =>
-      'Acute withdrawal symptoms typically peak within the first two weeks. You may experience anxiety, sleep disturbances, and physical discomfort. These symptoms, while challenging, indicate your brain is starting to heal and rebalance.';
+      '急性離脱症状は通常最初の2週間以内にピークを迎えます。不安、睡眠障害、身体的不快感を経験するかもしれません。これらの症状は困難ですが、脳が癒え始め再バランスしていることを示しています。';
 
   @override
-  String get benzoMilestone60Title => 'Sleep Architecture Improves';
+  String get benzoMilestone60Title => '睡眠構造の改善';
 
   @override
   String get benzoMilestone60Description =>
-      'Studies show that after 2 months, your natural sleep patterns begin to restore. Slow-wave sleep increases and sleep quality improves compared to when taking benzodiazepines, even though overall sleep efficiency may still be recovering.';
+      '研究によると、2ヶ月後に自然な睡眠パターンが回復し始めます。徐波睡眠が増加し、全体的な睡眠効率はまだ回復中かもしれませんが、ベンゾジアゼピン服用時と比較して睡眠の質が改善します。';
 
   @override
-  String get benzoMilestone90Title => 'Physical Health Stabilizes';
+  String get benzoMilestone90Title => '身体的健康の安定';
 
   @override
   String get benzoMilestone90Description =>
-      'Around 3 months, many physical withdrawal symptoms have significantly improved. Your body is continuing to adjust to functioning without medication. Anxiety and mood may still fluctuate, but overall functioning improves.';
+      '約3ヶ月で、多くの身体的離脱症状が大幅に改善しています。体は薬なしでの機能に適応し続けています。不安や気分はまだ変動するかもしれませんが、全体的な機能は改善します。';
 
   @override
-  String get benzoMilestone180Title => 'Cognitive Function Begins Recovery';
+  String get benzoMilestone180Title => '認知機能の回復開始';
 
   @override
   String get benzoMilestone180Description =>
-      'At 6 months, noticeable improvements in memory, attention, and cognitive function begin to emerge. Research shows modest recovery in many cognitive areas, though full restoration takes longer. Your brain\'s natural abilities are gradually returning.';
+      '6ヶ月で、記憶、注意、認知機能に目に見える改善が現れ始めます。研究は多くの認知領域で緩やかな回復を示していますが、完全な回復にはより長い時間がかかります。脳の自然な能力が徐々に戻っています。';
 
   @override
-  String get benzoMilestone365Title => 'One Year of Healing';
+  String get benzoMilestone365Title => '1年間の治癒';
 
   @override
   String get benzoMilestone365Description =>
-      'After one year, significant improvements in mental and physical wellbeing become apparent. Many report reduced anxiety, better sleep quality, and improved overall health compared to when taking benzodiazepines long-term. Brain healing continues.';
+      '1年後、精神的・身体的な健康に大きな改善が明らかになります。多くの人が、ベンゾジアゼピンを長期服用していた時と比較して、不安の軽減、睡眠の質の向上、全体的な健康の改善を報告しています。脳の治癒は続いています。';
 
   @override
-  String get benzoMilestone540Title => 'Continued Brain Recovery';
+  String get benzoMilestone540Title => '継続的な脳の回復';
 
   @override
   String get benzoMilestone540Description =>
-      'At 18 months, continued cognitive improvements occur. GABA receptor function normalizes within 2-6 months of cessation, and brain structure begins recovering. Neuroplasticity allows your brain to form new, healthier neural pathways.';
+      '18ヶ月で、継続的な認知改善が起こります。GABA受容体機能は中止後2〜6ヶ月以内に正常化し、脳構造が回復し始めます。神経可塑性により、脳は新しいより健康的な神経経路を形成できます。';
 
   @override
-  String get benzoMilestone730Title => 'Two Years: Major Progress';
+  String get benzoMilestone730Title => '2年：大きな進歩';
 
   @override
   String get benzoMilestone730Description =>
-      'Two years marks substantial recovery. Most people experience significant improvements in cognitive function, emotional regulation, and quality of life. While some may still experience gradual improvements, many have returned to pre-benzodiazepine functioning.';
+      '2年は実質的な回復を示します。ほとんどの人が認知機能、感情調節、生活の質に大幅な改善を経験します。一部の人はまだ緩やかな改善を経験するかもしれませんが、多くはベンゾジアゼピン以前の機能に戻っています。';
 
   @override
-  String get benzoMilestone1095Title => 'Three Years: Long-Term Recovery';
+  String get benzoMilestone1095Title => '3年：長期的回復';
 
   @override
   String get benzoMilestone1095Description =>
-      'At three years, physical brain structure recovery reaches completion for most individuals. Hippocampal and amygdala volumes continue normalizing through neuroplasticity. You\'ve achieved lasting recovery and rebuilt a healthier foundation for life.';
+      '3年で、ほとんどの人にとって物理的な脳構造の回復が完了に達します。海馬と扁桃体の体積は神経可塑性を通じて正常化し続けます。持続的な回復を達成し、人生のためのより健康的な基盤を再構築しました。';
 
   @override
-  String get addictionMeth => 'Meth';
+  String get addictionMeth => 'メス';
 
   @override
-  String get addictionBenzos => 'Benzos';
+  String get addictionBenzos => 'ベンゾ';
 
   @override
-  String get methPageTitle => 'Meth Recovery';
+  String get methPageTitle => 'メス回復';
 
   @override
-  String get methHeaderStarted => 'Your Recovery Journey';
+  String get methHeaderStarted => 'あなたの回復の旅';
 
   @override
-  String get methHeaderNotStarted => 'Drop the Glass';
+  String get methHeaderNotStarted => 'ガラスを置く';
 
   @override
-  String get methSubtitleStarted =>
-      'Track your progress and celebrate each milestone';
+  String get methSubtitleStarted => '進捗を記録し、各マイルストーンを祝いましょう';
 
   @override
-  String get methSubtitleNotStarted => 'Freedom is within your grasp';
+  String get methSubtitleNotStarted => '自由は手の届くところにあります';
 
   @override
-  String get methMilestone1Title => 'First 24 Hours - The Crash Begins';
+  String get methMilestone1Title => '最初の24時間—クラッシュの始まり';
 
   @override
   String get methMilestone1Description =>
-      'The initial crash phase starts with profound fatigue and increased appetite as your body begins recovery. You may experience depression and sleep heavily as your system starts to stabilize from the intense stimulation.';
+      '初期のクラッシュ段階は、体が回復を始めるにつれて深い疲労と食欲増進から始まります。激しい刺激からシステムが安定し始めるにつれて、うつ病を経験し、大量に眠ることがあります。';
 
   @override
-  String get methMilestone3Title => 'Day 3 - Peak Withdrawal';
+  String get methMilestone3Title => '3日目—離脱のピーク';
 
   @override
   String get methMilestone3Description =>
-      'Cravings intensify significantly during this period as your body adjusts. You may experience increased energy compared to the crash phase, which can make cravings feel stronger. This is a critical time for relapse prevention and support.';
+      '体が適応するにつれて、この期間中に渇望が著しく強まります。クラッシュ期と比較してエネルギーが増加し、渇望がより強く感じられることがあります。これは再発防止とサポートの重要な時期です。';
 
   @override
-  String get methMilestone7Title => 'One Week - Physical Symptoms Ease';
+  String get methMilestone7Title => '1週間—身体症状の緩和';
 
   @override
   String get methMilestone7Description =>
-      'Acute withdrawal symptoms begin to subside, though psychological challenges remain. Your sleep patterns start normalizing and physical discomfort decreases. This marks the transition from acute to post-acute withdrawal.';
+      '急性離脱症状が和らぎ始めますが、心理的課題は残ります。睡眠パターンが正常化し始め、身体的不快感が減少します。これは急性離脱から後急性離脱への移行を示します。';
 
   @override
-  String get methMilestone30Title => 'One Month - Emerging Stability';
+  String get methMilestone30Title => '1ヶ月—新たな安定性';
 
   @override
   String get methMilestone30Description =>
-      'The honeymoon phase begins as your body heals and cravings start to fade. Energy levels increase and mood improves as your brain chemistry begins rebalancing. However, remain vigilant as challenges can still arise.';
+      '体が癒え、渇望が薄れ始めるにつれてハネムーン期が始まります。脳の化学物質が再バランスし始めるにつれて、エネルギーレベルが上昇し気分が改善します。しかし、課題はまだ発生する可能性があるため警戒を続けてください。';
 
   @override
-  String get methMilestone90Title => 'Three Months - Brain Healing Begins';
+  String get methMilestone90Title => '3ヶ月—脳の治癒開始';
 
   @override
   String get methMilestone90Description =>
-      'Your brain is actively working to restore normal function. Cognitive improvements become noticeable in areas like attention and decision-making. This period marks significant neurological recovery as your reward system starts to normalize.';
+      '脳は正常機能の回復に積極的に取り組んでいます。注意や意思決定などの領域で認知改善が目立つようになります。この期間は、報酬系が正常化し始めるにつれて重要な神経学的回復を示します。';
 
   @override
-  String get methMilestone180Title => 'Six Months - Cardiovascular Recovery';
+  String get methMilestone180Title => '6ヶ月—心血管回復';
 
   @override
   String get methMilestone180Description =>
-      'Heart function shows measurable improvement with abstinence. Studies show cardiac function can recover significantly during this period when combined with medical support. Blood pressure and heart rhythm continue stabilizing.';
+      '心機能は断ち切りで測定可能な改善を示します。研究によると、医療サポートと組み合わせた場合、この期間中に心機能は大幅に回復できます。血圧と心拍リズムは安定し続けます。';
 
   @override
-  String get methMilestone365Title => 'One Year - Major Brain Recovery';
+  String get methMilestone365Title => '1年—主要な脳の回復';
 
   @override
   String get methMilestone365Description =>
-      'Dopamine system recovery reaches significant milestones. Your brain\'s ability to experience pleasure from natural rewards improves substantially. Cognitive function, mood regulation, and decision-making show marked improvements.';
+      'ドーパミン系の回復が重要なマイルストーンに達します。自然な報酬から喜びを感じる脳の能力が大幅に改善します。認知機能、気分調節、意思決定に顕著な改善が見られます。';
 
   @override
-  String get methMilestone420Title => '14 Months - Dopamine Normalization';
+  String get methMilestone420Title => '14ヶ月—ドーパミン正常化';
 
   @override
   String get methMilestone420Description =>
-      'Brain imaging studies show dopamine transporter levels approaching normal at this stage. This represents the most significant phase of neurological recovery, with improvements in memory, motivation, and the ability to feel pleasure from everyday activities.';
+      '脳イメージング研究は、この段階でドーパミントランスポーターレベルが正常に近づいていることを示しています。これは神経学的回復の最も重要な段階を表し、記憶、モチベーション、日常活動から喜びを感じる能力に改善が見られます。';
 
   @override
-  String get methMilestone730Title => 'Two Years - Sustained Recovery';
+  String get methMilestone730Title => '2年—持続的回復';
 
   @override
   String get methMilestone730Description =>
-      'Long-term abstinence allows for continued brain healing. Attention and mood typically rebound within 12-18 months for most people. Your cognitive function, emotional regulation, and overall quality of life continue improving with sustained recovery.';
+      '長期的な断ち切りは継続的な脳の治癒を可能にします。注意と気分は通常、ほとんどの人で12〜18ヶ月以内に回復します。認知機能、感情調節、全体的な生活の質は持続的回復とともに改善し続けます。';
 
   @override
-  String get addictionNitrousOxide => 'Nitrous Oxide';
+  String get addictionNitrousOxide => '亜酸化窒素';
 
   @override
-  String get nitrousOxidePageTitle => 'Nitrous Oxide Recovery';
+  String get nitrousOxidePageTitle => '亜酸化窒素回復';
 
   @override
-  String get nitrousOxideHeaderStarted => 'Your Recovery Journey';
+  String get nitrousOxideHeaderStarted => 'あなたの回復の旅';
 
   @override
-  String get nitrousOxideHeaderNotStarted => 'Ready to Start?';
+  String get nitrousOxideHeaderNotStarted => '始める準備はできていますか？';
 
   @override
-  String get nitrousOxideSubtitleStarted =>
-      'Track your progress and celebrate each milestone';
+  String get nitrousOxideSubtitleStarted => '進捗を記録し、各マイルストーンを祝いましょう';
 
   @override
-  String get nitrousOxideSubtitleNotStarted =>
-      'See what positive changes await you';
+  String get nitrousOxideSubtitleNotStarted => 'どんな良い変化が待っているか見てみましょう';
 
   @override
-  String get nitrousOxideMilestone1Title => 'First 24 Hours - System Clearing';
+  String get nitrousOxideMilestone1Title => '最初の24時間—体内浄化';
 
   @override
   String get nitrousOxideMilestone1Description =>
-      'The gas leaves your system within minutes, but the healing takes longer. Dizziness settles, headaches ease, and your brain starts recalibrating without the dopamine shortcut. Your B12 recovery begins now.';
+      'ガスは数分以内に体内から消えますが、治癒にはより長い時間がかかります。めまいが治まり、頭痛が和らぎ、脳がドーパミンのショートカットなしで再調整を始めます。B12の回復が今始まります。';
 
   @override
-  String get nitrousOxideMilestone3Title => 'Day 3 - No Physical Withdrawal';
+  String get nitrousOxideMilestone3Title => '3日目—身体的離脱なし';
 
   @override
   String get nitrousOxideMilestone3Description =>
-      'Here\'s good news: nitrous oxide doesn\'t cause physical withdrawal. The urges you feel are psychological — habit and association, not your body demanding a substance. That makes them manageable.';
+      '良いニュースがあります：亜酸化窒素は身体的離脱を引き起こしません。感じる衝動は心理的なものです—習慣と関連付けであり、体が物質を要求しているのではありません。それは管理可能にします。';
 
   @override
-  String get nitrousOxideMilestone7Title => 'One Week - B12 Rising';
+  String get nitrousOxideMilestone7Title => '1週間—B12上昇中';
 
   @override
   String get nitrousOxideMilestone7Description =>
-      'One week with no new B12 being destroyed. If you\'ve started supplementing, your levels are already climbing. Energy, mood, and focus are all tied to B12 — you should be starting to feel them improve.';
+      '新しいB12が破壊されない状態で1週間。サプリメントを始めていれば、レベルはすでに上昇しています。エネルギー、気分、集中力はすべてB12と結びついています—それらの改善を感じ始めているはずです。';
 
   @override
-  String get nitrousOxideMilestone14Title => 'Two Weeks - Nerves Healing';
+  String get nitrousOxideMilestone14Title => '2週間—神経の治癒';
 
   @override
   String get nitrousOxideMilestone14Description =>
-      'B12 is essential for the protective coating on your nerve fibres. Two weeks in, that repair process is actively underway. Any tingling or numbness you had should be easing — your nervous system is patching itself back together.';
+      'B12は神経線維の保護被膜に不可欠です。2週間経つと、その修復プロセスが活発に進行中です。あったかもしれないしびれやチクチク感は和らいでいるはずです—神経系が自らを修復しています。';
 
   @override
-  String get nitrousOxideMilestone30Title => 'One Month - Energy Returns';
+  String get nitrousOxideMilestone30Title => '1ヶ月—エネルギーが戻る';
 
   @override
   String get nitrousOxideMilestone30Description =>
-      'B12 plays a key role in red blood cell production, which means oxygen delivery to every cell in your body. One month of recovery and supplementation means meaningfully better energy, clearer thinking, and a more stable mood.';
+      'B12は赤血球生成に重要な役割を果たし、それは体のすべての細胞への酸素供給を意味します。1ヶ月の回復とサプリメント摂取で、意味のあるほど良いエネルギー、より明確な思考、より安定した気分が得られます。';
 
   @override
-  String get nitrousOxideMilestone90Title =>
-      'Three Months - Neurological Recovery';
+  String get nitrousOxideMilestone90Title => '3ヶ月—神経学的回復';
 
   @override
   String get nitrousOxideMilestone90Description =>
-      'Three months without B12 destruction means three months of nerve repair. The nervous system is resilient — most people who started treatment promptly see significant recovery in tingling, weakness, and brain fog by this point.';
+      'B12破壊なしの3ヶ月は3ヶ月の神経修復を意味します。神経系は回復力があります—治療を迅速に開始したほとんどの人は、この時点までにしびれ、脱力感、脳霧に大幅な回復を見せます。';
 
   @override
-  String get nitrousOxideMilestone365Title =>
-      'One Year - Long-Term Health Secured';
+  String get nitrousOxideMilestone365Title => '1年—長期的健康の確保';
 
   @override
   String get nitrousOxideMilestone365Description =>
-      'A full year free from nitrous oxide. Your B12 stores are restored, your nervous system has had a year to heal, and the cardiovascular risk from elevated homocysteine has resolved. Your body is operating on its own chemistry again.';
+      '亜酸化窒素なしの丸1年。B12貯蔵は回復し、神経系は1年間治癒する時間があり、高ホモシステインによる心血管リスクも解消されています。体は再び自身の化学物質で動いています。';
 
   @override
-  String get addictionCocaine => 'Cocaine';
+  String get addictionCocaine => 'コカイン';
 
   @override
-  String get addictionAdderall => 'Adderall';
+  String get addictionAdderall => 'アデロール';
 
   @override
-  String get cocainePageTitle => 'Cocaine Recovery';
+  String get cocainePageTitle => 'コカイン回復';
 
   @override
-  String get cocaineHeaderStarted => 'Your Recovery Journey';
+  String get cocaineHeaderStarted => 'あなたの回復の旅';
 
   @override
-  String get cocaineHeaderNotStarted => 'Ready to Start?';
+  String get cocaineHeaderNotStarted => '始める準備はできていますか？';
 
   @override
-  String get cocaineSubtitleStarted =>
-      'Track your progress and celebrate each milestone';
+  String get cocaineSubtitleStarted => '進捗を記録し、各マイルストーンを祝いましょう';
 
   @override
-  String get cocaineSubtitleNotStarted => 'See what positive changes await you';
+  String get cocaineSubtitleNotStarted => 'どんな良い変化が待っているか見てみましょう';
 
   @override
-  String get cocaineMilestone1Title => 'First 24 Hours - The Beginning';
+  String get cocaineMilestone1Title => '最初の24時間—始まり';
 
   @override
   String get cocaineMilestone1Description =>
-      'Your body begins adjusting as dopamine levels start to stabilize. You may experience fatigue, mood changes, and strong cravings, but your cardiovascular system is already beginning to recover.';
+      'ドーパミンレベルが安定し始めるにつれて体が適応を始めます。疲労、気分の変化、強い渇望を経験するかもしれませんが、心血管系はすでに回復し始めています。';
 
   @override
-  String get cocaineMilestone3Title => 'Day 3 - Peak Challenge';
+  String get cocaineMilestone3Title => '3日目—ピークの挑戦';
 
   @override
   String get cocaineMilestone3Description =>
-      'Withdrawal symptoms often peak around this time. You may experience intense cravings, irritability, anxiety, and exhaustion. This is temporary - your brain is working hard to rebalance itself.';
+      '離脱症状は通常この頃にピークを迎えます。強い渇望、イライラ、不安、疲労を経験するかもしれません。これは一時的です—脳は自己再バランスに懸命に取り組んでいます。';
 
   @override
-  String get cocaineMilestone7Title => 'One Week - Physical Recovery Begins';
+  String get cocaineMilestone7Title => '1週間—身体的回復の始まり';
 
   @override
   String get cocaineMilestone7Description =>
-      'The most intense physical symptoms are beginning to subside. Your heart rate and blood pressure are stabilizing. While psychological cravings may persist, your body is healing.';
+      '最も激しい身体的症状が和らぎ始めています。心拍数と血圧が安定しています。心理的渇望は続くかもしれませんが、体は癒えています。';
 
   @override
-  String get cocaineMilestone14Title => 'Two Weeks - Finding Stability';
+  String get cocaineMilestone14Title => '2週間—安定性の発見';
 
   @override
   String get cocaineMilestone14Description =>
-      'Many people start feeling more stable emotionally. Your energy levels are improving, and acute withdrawal symptoms are easing. Your cardiovascular health continues to improve significantly.';
+      '多くの人が感情的に安定し始めます。エネルギーレベルが改善し、急性離脱症状が和らいでいます。心血管の健康は大幅に改善し続けています。';
 
   @override
-  String get cocaineMilestone60Title => 'Two Months - Sleep and Mood Improve';
+  String get cocaineMilestone60Title => '2ヶ月—睡眠と気分の改善';
 
   @override
   String get cocaineMilestone60Description =>
-      'Your sleep quality is noticeably better as your brain chemistry continues normalizing. You may find yourself feeling more rested and experiencing more stable moods throughout the day.';
+      '脳の化学物質が正常化し続けるにつれて、睡眠の質が目に見えて良くなっています。より休息を感じ、一日を通してより安定した気分を経験することに気づくかもしれません。';
 
   @override
-  String get cocaineMilestone90Title => 'Three Months - Brain Restoration';
+  String get cocaineMilestone90Title => '3ヶ月—脳の修復';
 
   @override
   String get cocaineMilestone90Description =>
-      'Your brain is actively restoring dopamine receptors and neural pathways. You\'ll likely notice improvements in focus, decision-making, and emotional regulation. Cognitive function is significantly improved.';
+      '脳は積極的にドーパミン受容体と神経経路を修復しています。集中力、意思決定、感情調節の改善に気づくでしょう。認知機能は大幅に改善されています。';
 
   @override
-  String get cocaineMilestone180Title => 'Six Months - Cognitive Gains';
+  String get cocaineMilestone180Title => '6ヶ月—認知的向上';
 
   @override
   String get cocaineMilestone180Description =>
-      'Brain imaging studies show increased gray matter volume in the prefrontal cortex at this stage. Your executive function, memory, and impulse control continue to strengthen. You\'re thinking more clearly.';
+      '脳イメージング研究は、この段階で前頭前皮質の灰白質体積の増加を示しています。実行機能、記憶、衝動制御は強化され続けています。より明確に思考しています。';
 
   @override
-  String get cocaineMilestone365Title => 'One Year - Cardiovascular Health';
+  String get cocaineMilestone365Title => '1年—心血管の健康';
 
   @override
   String get cocaineMilestone365Description =>
-      'Your heart and cardiovascular system have made remarkable recovery. Blood pressure and heart rate are normalized. Risk of heart attack and stroke has decreased significantly. Your body is healing.';
+      '心臓と心血管系は驚くべき回復を遂げています。血圧と心拍数は正常化しています。心臓発作と脳卒中のリスクは大幅に減少しています。体は癒えています。';
 
   @override
-  String get cocaineMilestone730Title => 'Two Years - Sustained Recovery';
+  String get cocaineMilestone730Title => '2年—持続的回復';
 
   @override
   String get cocaineMilestone730Description =>
-      'Brain healing continues with sustained improvements in memory, focus, and emotional regulation. Your neural pathways have significantly reorganized, supporting healthier patterns and better overall wellbeing.';
+      '脳の治癒は記憶、集中力、感情調節の持続的改善とともに続いています。神経経路は大幅に再編成され、より健康的なパターンとより良い全体的な健康を支えています。';
 
   @override
   String get tabJournal => '日記';
@@ -1029,13 +1001,13 @@ class AppLocalizationsJa extends AppLocalizations {
   String get homeAddTooltip => '独自のカスタム依存を作成して克服しましょう';
 
   @override
-  String get quitStartButton => 'Start';
+  String get quitStartButton => '開始';
 
   @override
-  String get quitResetButton => 'Reset';
+  String get quitResetButton => 'リセット';
 
   @override
-  String get quitCardSubtitle => 'Tap to start';
+  String get quitCardSubtitle => 'タップして開始';
 
   @override
   String quitCardKeepDays(int days) {
@@ -1116,7 +1088,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get addictionMarijuana => 'マリファナ';
 
   @override
-  String get settingsLocaleUnsupported => 'Unsupported';
+  String get settingsLocaleUnsupported => '非対応';
 
   @override
   String get settingsLocaleJapanese => '日本語';
@@ -1125,19 +1097,19 @@ class AppLocalizationsJa extends AppLocalizations {
   String get settingsLocaleEnglish => '英語';
 
   @override
-  String get settingsLocaleSimplifiedChinese => 'Chinese';
+  String get settingsLocaleSimplifiedChinese => '中国語';
 
   @override
-  String get settingsLocaleSystem => 'System';
+  String get settingsLocaleSystem => 'システム';
 
   @override
-  String get settingsLocale => 'Locale';
+  String get settingsLocale => '言語';
 
   @override
   String get addictionNicotinePouches => 'ニコチンパウチ';
 
   @override
-  String get addictionHeroin => 'Heroin';
+  String get addictionHeroin => 'ヘロイン';
 
   @override
   String get addictionOpioids => 'オピオイド';
@@ -1188,22 +1160,22 @@ class AppLocalizationsJa extends AppLocalizations {
   String get settingsColorScheme => '配色';
 
   @override
-  String get settingsDynamicColorScheme => 'Dynamic colors';
+  String get settingsDynamicColorScheme => 'ダイナミックカラー';
 
   @override
-  String get settingsBlueColorScheme => 'Blue';
+  String get settingsBlueColorScheme => '青';
 
   @override
-  String get settingsGreenColorScheme => 'Green';
+  String get settingsGreenColorScheme => '緑';
 
   @override
-  String get settingsRedColorScheme => 'Red';
+  String get settingsRedColorScheme => '赤';
 
   @override
-  String get settingsPurpleColorScheme => 'Purple';
+  String get settingsPurpleColorScheme => '紫';
 
   @override
-  String get settingsOrangeColorScheme => 'Orange';
+  String get settingsOrangeColorScheme => 'オレンジ';
 
   @override
   String get settingsResetButtons => 'リセットボタン';
@@ -1215,7 +1187,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get settingsShowJournal => '日記を表示';
 
   @override
-  String get settingsShowBenzosSubtitle => 'Show benzos tracking';
+  String get settingsShowBenzosSubtitle => 'ベンゾ追跡を表示';
 
   @override
   String get settingsShowJournalSubtitle => '考えを記録するための日記タブを有効にする';
@@ -1248,16 +1220,16 @@ class AppLocalizationsJa extends AppLocalizations {
   String get settingsShowSocialMediaTracking => 'ソーシャルメディア追跡を表示';
 
   @override
-  String get settingsShowAdderallTracking => 'Show adderall tracking';
+  String get settingsShowAdderallTracking => 'アデロール追跡を表示';
 
   @override
-  String get settingsNotifyAdderall => 'Notify adderall quitting progress';
+  String get settingsNotifyAdderall => 'アデロール禁止の進捗を通知';
 
   @override
-  String get settingsShowCocaineTracking => 'Show cocaine tracking';
+  String get settingsShowCocaineTracking => 'コカイン追跡を表示';
 
   @override
-  String get settingsShowMethTracking => 'Show meth tracking';
+  String get settingsShowMethTracking => 'メス追跡を表示';
 
   @override
   String get settingsShowAdultContentTracking => 'アダルトコンテンツ追跡を表示';
@@ -1286,7 +1258,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get settingsNotifyNicotinePouches => 'ニコチンパウチ禁止の進捗を通知';
 
   @override
-  String get settingsNotifyBenzos => 'Notify benzos quitting progress';
+  String get settingsNotifyBenzos => 'ベンゾ禁止の進捗を通知';
 
   @override
   String get settingsNotifyOpioids => 'オピオイド禁止の進捗を通知';
@@ -1295,10 +1267,10 @@ class AppLocalizationsJa extends AppLocalizations {
   String get settingsNotifySocialMedia => 'ソーシャルメディア禁止の進捗を通知';
 
   @override
-  String get settingsNotifyCocaine => 'Notify cocaine quitting progress';
+  String get settingsNotifyCocaine => 'コカイン禁止の進捗を通知';
 
   @override
-  String get settingsNotifyMeth => 'Notify meth quitting progress';
+  String get settingsNotifyMeth => 'メス禁止の進捗を通知';
 
   @override
   String get settingsNotifyAdultContent => 'アダルトコンテンツ禁止の進捗を通知';
