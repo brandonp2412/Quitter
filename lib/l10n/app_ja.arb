@@ -472,6 +472,34 @@
   "@addictionOpioids": {
     "description": "Name of the opioids addiction type"
   },
+  "addictionFentanyl": "フェンタニル",
+  "@addictionFentanyl": {
+    "description": "Name of the fentanyl addiction type"
+  },
+  "addictionSmokelessTobacco": "嚙みタバコ / 無煙タバコ",
+  "@addictionSmokelessTobacco": {
+    "description": "Name of the smokeless tobacco addiction type"
+  },
+  "smokelessTobaccoPageTitle": "タバコフリー",
+  "@smokelessTobaccoPageTitle": {
+    "description": "Page title for smokeless tobacco quit milestones"
+  },
+  "smokelessTobaccoHeaderStarted": "ニコチンフリーの旅",
+  "@smokelessTobaccoHeaderStarted": {
+    "description": "Header shown when user has started quitting smokeless tobacco"
+  },
+  "smokelessTobaccoHeaderNotStarted": "無煙タバコをやめよう",
+  "@smokelessTobaccoHeaderNotStarted": {
+    "description": "Header shown when user has not started quitting smokeless tobacco"
+  },
+  "smokelessTobaccoSubtitleStarted": "進捗を追跡し、各マイルストーンを祝おう",
+  "@smokelessTobaccoSubtitleStarted": {
+    "description": "Subtitle when smokeless tobacco quit is in progress"
+  },
+  "smokelessTobaccoSubtitleNotStarted": "やめたらどうなるか見てみよう",
+  "@smokelessTobaccoSubtitleNotStarted": {
+    "description": "Subtitle before smokeless tobacco quit starts"
+  },
   "addictionSocialMedia": "ソーシャルメディア",
   "@addictionSocialMedia": {
     "description": "Name of the social media addiction type"

@@ -469,6 +469,34 @@
   "@addictionOpioids": {
     "description": "Name of the opioids addiction type"
   },
+  "addictionFentanyl": "Fentanyl",
+  "@addictionFentanyl": {
+    "description": "Name of the fentanyl addiction type"
+  },
+  "addictionSmokelessTobacco": "Dip / Chewing Tobacco",
+  "@addictionSmokelessTobacco": {
+    "description": "Name of the smokeless tobacco addiction type"
+  },
+  "smokelessTobaccoPageTitle": "Tobacco-Free",
+  "@smokelessTobaccoPageTitle": {
+    "description": "Page title for smokeless tobacco quit milestones"
+  },
+  "smokelessTobaccoHeaderStarted": "Nicotine-free journey",
+  "@smokelessTobaccoHeaderStarted": {
+    "description": "Header shown when user has started quitting smokeless tobacco"
+  },
+  "smokelessTobaccoHeaderNotStarted": "Quit dip & chewing tobacco",
+  "@smokelessTobaccoHeaderNotStarted": {
+    "description": "Header shown when user has not started quitting smokeless tobacco"
+  },
+  "smokelessTobaccoSubtitleStarted": "Track your progress and celebrate each milestone",
+  "@smokelessTobaccoSubtitleStarted": {
+    "description": "Subtitle when smokeless tobacco quit is in progress"
+  },
+  "smokelessTobaccoSubtitleNotStarted": "See what happens when you quit",
+  "@smokelessTobaccoSubtitleNotStarted": {
+    "description": "Subtitle before smokeless tobacco quit starts"
+  },
   "addictionSocialMedia": "Social Media",
   "@addictionSocialMedia": {
     "description": "Name of the social media addiction type"

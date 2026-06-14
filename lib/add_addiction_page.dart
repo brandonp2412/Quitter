@@ -28,6 +28,7 @@ import 'package:quitter/pornography_page.dart';
 import 'package:quitter/smoking_page.dart';
 import 'package:quitter/social_media_page.dart';
 import 'package:quitter/vaping_page.dart';
+import 'package:quitter/smokeless_tobacco_page.dart';
 
 class _AddictionOption {
   final String title;
@@ -314,6 +315,28 @@ class AddAddictionPage extends StatelessWidget {
           icon: Icons.fitness_center,
           gradientColors: [const Color(0xFFEF4444), const Color(0xFF7F1D1D)],
           destination: const SteroidsPage(started: false),
+        ),
+      );
+    }
+
+    if (addictions.quitFentanyl == null) {
+      options.add(
+        _AddictionOption(
+          title: l10n.addictionFentanyl,
+          icon: Icons.medication,
+          gradientColors: [const Color(0xFF7C3AED), const Color(0xFF3B0764)],
+          destination: const OpioidPage(started: false, storageKey: 'fentanyl'),
+        ),
+      );
+    }
+
+    if (addictions.quitSmokelessTobacco == null) {
+      options.add(
+        _AddictionOption(
+          title: l10n.addictionSmokelessTobacco,
+          icon: Icons.grass,
+          gradientColors: [const Color(0xFF78350F), const Color(0xFF451A03)],
+          destination: const SmokelessTobaccoPage(started: false),
         ),
       );
     }

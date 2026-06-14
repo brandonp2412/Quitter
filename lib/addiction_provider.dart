@@ -35,6 +35,8 @@ class AddictionProvider extends ChangeNotifier {
   String? _syntheticCannabinoids;
   String? _mdma;
   String? _steroids;
+  String? _fentanyl;
+  String? _smokelessTobacco;
 
   List<Entry> entries = [];
   List<String> cardOrder = [];
@@ -72,6 +74,8 @@ class AddictionProvider extends ChangeNotifier {
     _syntheticCannabinoids = _pref!.getString('synthetic_cannabinoids');
     _mdma = _pref!.getString('mdma');
     _steroids = _pref!.getString('steroids');
+    _fentanyl = _pref!.getString('fentanyl');
+    _smokelessTobacco = _pref!.getString('smokeless_tobacco');
 
     final String? entriesJson = _pref!.getString('entries');
     if (entriesJson != null) {
@@ -153,6 +157,8 @@ class AddictionProvider extends ChangeNotifier {
       'synthetic_cannabinoids': _syntheticCannabinoids,
       'mdma': _mdma,
       'steroids': _steroids,
+      'fentanyl': _fentanyl,
+      'smokeless_tobacco': _smokelessTobacco,
     };
     final activeKeys = allAddictions.entries
         .where((e) => e.value != null)
@@ -202,6 +208,8 @@ class AddictionProvider extends ChangeNotifier {
   String? get quitSyntheticCannabinoids => _syntheticCannabinoids;
   String? get quitMdma => _mdma;
   String? get quitSteroids => _steroids;
+  String? get quitFentanyl => _fentanyl;
+  String? get quitSmokelessTobacco => _smokelessTobacco;
 
   Future<void> saveCardOrder(List<String> order) async {
     cardOrder = order;

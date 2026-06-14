@@ -1110,6 +1110,27 @@ class AppLocalizationsJa extends AppLocalizations {
   String get addictionOpioids => 'オピオイド';
 
   @override
+  String get addictionFentanyl => 'フェンタニル';
+
+  @override
+  String get addictionSmokelessTobacco => '嚙みタバコ / 無煙タバコ';
+
+  @override
+  String get smokelessTobaccoPageTitle => 'タバコフリー';
+
+  @override
+  String get smokelessTobaccoHeaderStarted => 'ニコチンフリーの旅';
+
+  @override
+  String get smokelessTobaccoHeaderNotStarted => '無煙タバコをやめよう';
+
+  @override
+  String get smokelessTobaccoSubtitleStarted => '進捗を追跡し、各マイルストーンを祝おう';
+
+  @override
+  String get smokelessTobaccoSubtitleNotStarted => 'やめたらどうなるか見てみよう';
+
+  @override
   String get addictionSocialMedia => 'ソーシャルメディア';
 
   @override

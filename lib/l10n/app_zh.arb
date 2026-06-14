@@ -472,6 +472,34 @@
   "@addictionOpioids": {
     "description": "Name of the opioids addiction type"
   },
+  "addictionFentanyl": "芬太尼",
+  "@addictionFentanyl": {
+    "description": "Name of the fentanyl addiction type"
+  },
+  "addictionSmokelessTobacco": "嚼烟 / 无烟烟草",
+  "@addictionSmokelessTobacco": {
+    "description": "Name of the smokeless tobacco addiction type"
+  },
+  "smokelessTobaccoPageTitle": "无烟自由",
+  "@smokelessTobaccoPageTitle": {
+    "description": "Page title for smokeless tobacco quit milestones"
+  },
+  "smokelessTobaccoHeaderStarted": "无尼古丁之旅",
+  "@smokelessTobaccoHeaderStarted": {
+    "description": "Header shown when user has started quitting smokeless tobacco"
+  },
+  "smokelessTobaccoHeaderNotStarted": "戒掉嚼烟和无烟烟草",
+  "@smokelessTobaccoHeaderNotStarted": {
+    "description": "Header shown when user has not started quitting smokeless tobacco"
+  },
+  "smokelessTobaccoSubtitleStarted": "追踪你的进度，庆祝每个里程碑",
+  "@smokelessTobaccoSubtitleStarted": {
+    "description": "Subtitle when smokeless tobacco quit is in progress"
+  },
+  "smokelessTobaccoSubtitleNotStarted": "看看戒掉后会发生什么",
+  "@smokelessTobaccoSubtitleNotStarted": {
+    "description": "Subtitle before smokeless tobacco quit starts"
+  },
   "addictionSocialMedia": "社交媒体",
   "@addictionSocialMedia": {
     "description": "Name of the social media addiction type"

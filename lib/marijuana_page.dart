@@ -5,8 +5,25 @@ import 'package:quitter/quit_milestones_page.dart';
 
 class MarijuanaPage extends StatelessWidget {
   final bool started;
+  final String storageKey;
+  final String? pageTitle;
+  final String? headerStarted;
+  final String? headerNotStarted;
+  final String? subtitleStarted;
+  final String? subtitleNotStarted;
+  final String? infoBoxMessage;
 
-  const MarijuanaPage({super.key, required this.started});
+  const MarijuanaPage({
+    super.key,
+    required this.started,
+    this.storageKey = 'marijuana',
+    this.pageTitle,
+    this.headerStarted,
+    this.headerNotStarted,
+    this.subtitleStarted,
+    this.subtitleNotStarted,
+    this.infoBoxMessage,
+  });
 
   List<QuitMilestone> _getMilestones(AppLocalizations l10n) {
     return [
@@ -233,13 +250,15 @@ class MarijuanaPage extends StatelessWidget {
     final l10n = AppLocalizations.of(context)!;
 
     return QuitMilestonesPage(
-      title: l10n.marijuanaPageTitle,
-      storageKey: 'marijuana',
+      title: pageTitle ?? l10n.marijuanaPageTitle,
+      storageKey: storageKey,
       milestones: _getMilestones(l10n),
-      headerStarted: l10n.marijuanaHeaderStarted,
-      headerNotStarted: l10n.marijuanaHeaderNotStarted,
-      subtitleStarted: l10n.marijuanaSubtitleStarted,
-      subtitleNotStarted: l10n.marijuanaSubtitleNotStarted,
+      headerStarted: headerStarted ?? l10n.marijuanaHeaderStarted,
+      headerNotStarted: headerNotStarted ?? l10n.marijuanaHeaderNotStarted,
+      subtitleStarted: subtitleStarted ?? l10n.marijuanaSubtitleStarted,
+      subtitleNotStarted:
+          subtitleNotStarted ?? l10n.marijuanaSubtitleNotStarted,
+      infoBoxMessage: infoBoxMessage,
       initialStarted: started,
     );
   }

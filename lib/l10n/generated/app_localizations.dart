@@ -2062,6 +2062,48 @@ abstract class AppLocalizations {
   /// **'Opioids'**
   String get addictionOpioids;
 
+  /// Name of the fentanyl addiction type
+  ///
+  /// In en, this message translates to:
+  /// **'Fentanyl'**
+  String get addictionFentanyl;
+
+  /// Name of the smokeless tobacco addiction type
+  ///
+  /// In en, this message translates to:
+  /// **'Dip / Chewing Tobacco'**
+  String get addictionSmokelessTobacco;
+
+  /// Page title for smokeless tobacco quit milestones
+  ///
+  /// In en, this message translates to:
+  /// **'Tobacco-Free'**
+  String get smokelessTobaccoPageTitle;
+
+  /// Header shown when user has started quitting smokeless tobacco
+  ///
+  /// In en, this message translates to:
+  /// **'Nicotine-free journey'**
+  String get smokelessTobaccoHeaderStarted;
+
+  /// Header shown when user has not started quitting smokeless tobacco
+  ///
+  /// In en, this message translates to:
+  /// **'Quit dip & chewing tobacco'**
+  String get smokelessTobaccoHeaderNotStarted;
+
+  /// Subtitle when smokeless tobacco quit is in progress
+  ///
+  /// In en, this message translates to:
+  /// **'Track your progress and celebrate each milestone'**
+  String get smokelessTobaccoSubtitleStarted;
+
+  /// Subtitle before smokeless tobacco quit starts
+  ///
+  /// In en, this message translates to:
+  /// **'See what happens when you quit'**
+  String get smokelessTobaccoSubtitleNotStarted;
+
   /// Name of the social media addiction type
   ///
   /// In en, this message translates to:

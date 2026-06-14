@@ -5,8 +5,25 @@ import 'package:quitter/quit_milestones_page.dart';
 
 class GhbPage extends StatelessWidget {
   final bool started;
+  final String storageKey;
+  final String? pageTitle;
+  final String? headerStarted;
+  final String? headerNotStarted;
+  final String? subtitleStarted;
+  final String? subtitleNotStarted;
+  final String? infoBoxMessage;
 
-  const GhbPage({super.key, required this.started});
+  const GhbPage({
+    super.key,
+    required this.started,
+    this.storageKey = 'ghb',
+    this.pageTitle,
+    this.headerStarted,
+    this.headerNotStarted,
+    this.subtitleStarted,
+    this.subtitleNotStarted,
+    this.infoBoxMessage,
+  });
 
   List<QuitMilestone> _getMilestones(AppLocalizations l10n) {
     return [
@@ -88,14 +105,14 @@ class GhbPage extends StatelessWidget {
     final l10n = AppLocalizations.of(context)!;
 
     return QuitMilestonesPage(
-      title: l10n.ghbPageTitle,
-      storageKey: 'ghb',
+      title: pageTitle ?? l10n.ghbPageTitle,
+      storageKey: storageKey,
       milestones: _getMilestones(l10n),
-      headerStarted: l10n.ghbHeaderStarted,
-      headerNotStarted: l10n.ghbHeaderNotStarted,
-      subtitleStarted: l10n.ghbSubtitleStarted,
-      subtitleNotStarted: l10n.ghbSubtitleNotStarted,
-      infoBoxMessage: l10n.ghbInfoBox,
+      headerStarted: headerStarted ?? l10n.ghbHeaderStarted,
+      headerNotStarted: headerNotStarted ?? l10n.ghbHeaderNotStarted,
+      subtitleStarted: subtitleStarted ?? l10n.ghbSubtitleStarted,
+      subtitleNotStarted: subtitleNotStarted ?? l10n.ghbSubtitleNotStarted,
+      infoBoxMessage: infoBoxMessage ?? l10n.ghbInfoBox,
       initialStarted: started,
     );
   }

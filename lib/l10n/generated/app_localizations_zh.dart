@@ -1108,6 +1108,27 @@ class AppLocalizationsZh extends AppLocalizations {
   String get addictionOpioids => '阿片类药物';
 
   @override
+  String get addictionFentanyl => '芬太尼';
+
+  @override
+  String get addictionSmokelessTobacco => '嚼烟 / 无烟烟草';
+
+  @override
+  String get smokelessTobaccoPageTitle => '无烟自由';
+
+  @override
+  String get smokelessTobaccoHeaderStarted => '无尼古丁之旅';
+
+  @override
+  String get smokelessTobaccoHeaderNotStarted => '戒掉嚼烟和无烟烟草';
+
+  @override
+  String get smokelessTobaccoSubtitleStarted => '追踪你的进度，庆祝每个里程碑';
+
+  @override
+  String get smokelessTobaccoSubtitleNotStarted => '看看戒掉后会发生什么';
+
+  @override
   String get addictionSocialMedia => '社交媒体';
 
   @override

@@ -5,8 +5,23 @@ import 'package:quitter/quit_milestones_page.dart';
 
 class SmokingPage extends StatelessWidget {
   final bool started;
+  final String storageKey;
+  final String? pageTitle;
+  final String? headerStarted;
+  final String? headerNotStarted;
+  final String? subtitleStarted;
+  final String? subtitleNotStarted;
 
-  const SmokingPage({super.key, required this.started});
+  const SmokingPage({
+    super.key,
+    required this.started,
+    this.storageKey = 'smoking',
+    this.pageTitle,
+    this.headerStarted,
+    this.headerNotStarted,
+    this.subtitleStarted,
+    this.subtitleNotStarted,
+  });
 
   List<QuitMilestone> _getMilestones(AppLocalizations l10n) {
     return [
@@ -189,13 +204,13 @@ class SmokingPage extends StatelessWidget {
     final l10n = AppLocalizations.of(context)!;
 
     return QuitMilestonesPage(
-      title: l10n.smokingPageTitle,
-      storageKey: 'smoking',
+      title: pageTitle ?? l10n.smokingPageTitle,
+      storageKey: storageKey,
       milestones: _getMilestones(l10n),
-      headerStarted: l10n.smokingHeaderStarted,
-      headerNotStarted: l10n.smokingHeaderNotStarted,
-      subtitleStarted: l10n.smokingSubtitleStarted,
-      subtitleNotStarted: l10n.smokingSubtitleNotStarted,
+      headerStarted: headerStarted ?? l10n.smokingHeaderStarted,
+      headerNotStarted: headerNotStarted ?? l10n.smokingHeaderNotStarted,
+      subtitleStarted: subtitleStarted ?? l10n.smokingSubtitleStarted,
+      subtitleNotStarted: subtitleNotStarted ?? l10n.smokingSubtitleNotStarted,
       initialStarted: started,
     );
   }

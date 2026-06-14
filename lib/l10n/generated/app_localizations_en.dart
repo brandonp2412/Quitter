@@ -1144,6 +1144,29 @@ class AppLocalizationsEn extends AppLocalizations {
   String get addictionOpioids => 'Opioids';
 
   @override
+  String get addictionFentanyl => 'Fentanyl';
+
+  @override
+  String get addictionSmokelessTobacco => 'Dip / Chewing Tobacco';
+
+  @override
+  String get smokelessTobaccoPageTitle => 'Tobacco-Free';
+
+  @override
+  String get smokelessTobaccoHeaderStarted => 'Nicotine-free journey';
+
+  @override
+  String get smokelessTobaccoHeaderNotStarted => 'Quit dip & chewing tobacco';
+
+  @override
+  String get smokelessTobaccoSubtitleStarted =>
+      'Track your progress and celebrate each milestone';
+
+  @override
+  String get smokelessTobaccoSubtitleNotStarted =>
+      'See what happens when you quit';
+
+  @override
   String get addictionSocialMedia => 'Social Media';
 
   @override
