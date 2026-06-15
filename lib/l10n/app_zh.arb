@@ -301,6 +301,120 @@
   "@tabJournal": {
     "description": "Tab label for the Journal tab"
   },
+  "tabStats": "统计",
+  "@tabStats": {
+    "description": "Tab label for the Stats tab"
+  },
+  "statsTitle": "康复统计",
+  "@statsTitle": {
+    "description": "Heading on the stats page"
+  },
+  "statsNoAddictions": "开始记录成瘾以查看您的统计数据",
+  "@statsNoAddictions": {
+    "description": "Empty state message on the stats page"
+  },
+  "statsJourneyTitle": "你的历程",
+  "@statsJourneyTitle": {
+    "description": "Section title for the overview journey card on stats page"
+  },
+  "statsTotalDays": "{days}天",
+  "@statsTotalDays": {
+    "description": "Total days clean across all addictions",
+    "placeholders": {
+      "days": { "type": "int" }
+    }
+  },
+  "statsAddictionsTracked": "记录{count}项",
+  "@statsAddictionsTracked": {
+    "description": "Number of addictions being tracked",
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "statsMoneySavedTitle": "节省金额",
+  "@statsMoneySavedTitle": {
+    "description": "Section title for the money saved card on stats page"
+  },
+  "statsMoneySavedEstimate": "根据平均使用量估算",
+  "@statsMoneySavedEstimate": {
+    "description": "Disclaimer text on the money saved card"
+  },
+  "statsEquivalentCoffees": "大约{count}杯咖啡",
+  "@statsEquivalentCoffees": {
+    "description": "Fun equivalence for money saved — coffees",
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "statsEquivalentMeals": "大约{count}顿餐厅用餐",
+  "@statsEquivalentMeals": {
+    "description": "Fun equivalence for money saved — restaurant meals",
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "statsEquivalentFlight": "足够买一张机票",
+  "@statsEquivalentFlight": {
+    "description": "Fun equivalence for money saved — a flight ticket"
+  },
+  "statsEquivalentVacation": "足够一次出国旅行",
+  "@statsEquivalentVacation": {
+    "description": "Fun equivalence for money saved — a vacation"
+  },
+  "statsTimeSavedTitle": "重获时间",
+  "@statsTimeSavedTitle": {
+    "description": "Section title for the time saved card on stats page"
+  },
+  "statsHoursSaved": "{hours}小时",
+  "@statsHoursSaved": {
+    "description": "Hours of time saved",
+    "placeholders": {
+      "hours": { "type": "int" }
+    }
+  },
+  "statsEquivalentBooks": "大约可以读{count}本书",
+  "@statsEquivalentBooks": {
+    "description": "Fun equivalence for time saved — books read",
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "statsEquivalentMovies": "大约可以看{count}部电影",
+  "@statsEquivalentMovies": {
+    "description": "Fun equivalence for time saved — movies watched",
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "statsStreaksTitle": "连续记录",
+  "@statsStreaksTitle": {
+    "description": "Section title for the streaks bar chart on stats page"
+  },
+  "statsDaysSuffix": "{days}天",
+  "@statsDaysSuffix": {
+    "description": "Compact days label used in streak bars",
+    "placeholders": {
+      "days": { "type": "int" }
+    }
+  },
+  "statsResilienceTitle": "韧性",
+  "@statsResilienceTitle": {
+    "description": "Section title for the resilience/relapse history card on stats page"
+  },
+  "statsTimesBouncedBack": "{count}次重新振作并继续前行",
+  "@statsTimesBouncedBack": {
+    "description": "Motivational message about number of relapses",
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "statsDaysBeforeRelapse": "每次平均坚持{days}天",
+  "@statsDaysBeforeRelapse": {
+    "description": "Average days achieved before each relapse",
+    "placeholders": {
+      "days": { "type": "int" }
+    }
+  },
   "tabSettings": "设置",
   "@tabSettings": {
     "description": "Tab label for the Settings tab"
@@ -608,6 +722,14 @@
   "settingsShowJournalSubtitle": "启用日记标签页以记录您的想法",
   "@settingsShowJournalSubtitle": {
     "description": "Subtitle explaining show journal setting"
+  },
+  "settingsWeekStartsMonday": "从周一开始一周",
+  "@settingsWeekStartsMonday": {
+    "description": "Setting title for week start day preference"
+  },
+  "settingsWeekStartsMondaySubtitle": "日历周从周一开始，而非周日",
+  "@settingsWeekStartsMondaySubtitle": {
+    "description": "Subtitle explaining week starts on Monday setting"
   },
   "settingsSwipeBetweenTabs": "标签页之间滑动",
   "@settingsSwipeBetweenTabs": {

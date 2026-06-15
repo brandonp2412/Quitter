@@ -1020,6 +1020,89 @@ class AppLocalizationsEn extends AppLocalizations {
   String get tabJournal => 'Journal';
 
   @override
+  String get tabStats => 'Stats';
+
+  @override
+  String get statsTitle => 'Recovery Stats';
+
+  @override
+  String get statsNoAddictions => 'Start tracking addictions to see your stats';
+
+  @override
+  String get statsJourneyTitle => 'Your Journey';
+
+  @override
+  String statsTotalDays(int days) {
+    return '$days total days';
+  }
+
+  @override
+  String statsAddictionsTracked(int count) {
+    return '$count tracked';
+  }
+
+  @override
+  String get statsMoneySavedTitle => 'Money Saved';
+
+  @override
+  String get statsMoneySavedEstimate => 'Estimated based on average usage';
+
+  @override
+  String statsEquivalentCoffees(int count) {
+    return 'That\'s about $count coffees';
+  }
+
+  @override
+  String statsEquivalentMeals(int count) {
+    return 'That\'s about $count restaurant meals';
+  }
+
+  @override
+  String get statsEquivalentFlight => 'That\'s a flight somewhere new';
+
+  @override
+  String get statsEquivalentVacation => 'That\'s a vacation abroad';
+
+  @override
+  String get statsTimeSavedTitle => 'Time Reclaimed';
+
+  @override
+  String statsHoursSaved(int hours) {
+    return '$hours hours';
+  }
+
+  @override
+  String statsEquivalentBooks(int count) {
+    return 'Enough to read about $count books';
+  }
+
+  @override
+  String statsEquivalentMovies(int count) {
+    return 'Enough to watch about $count movies';
+  }
+
+  @override
+  String get statsStreaksTitle => 'Your Streaks';
+
+  @override
+  String statsDaysSuffix(int days) {
+    return '${days}d';
+  }
+
+  @override
+  String get statsResilienceTitle => 'Resilience';
+
+  @override
+  String statsTimesBouncedBack(int count) {
+    return '$count times you\'ve reset and kept going';
+  }
+
+  @override
+  String statsDaysBeforeRelapse(int days) {
+    return '$days days of progress each time';
+  }
+
+  @override
   String get tabSettings => 'Settings';
 
   @override
@@ -1250,6 +1333,13 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get settingsShowJournalSubtitle =>
       'Enable the journal tab for logging your thoughts';
+
+  @override
+  String get settingsWeekStartsMonday => 'Week starts on Monday';
+
+  @override
+  String get settingsWeekStartsMondaySubtitle =>
+      'Calendar week begins on Monday instead of Sunday';
 
   @override
   String get settingsSwipeBetweenTabs => 'Swipe between tabs';

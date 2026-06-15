@@ -301,6 +301,120 @@
   "@tabJournal": {
     "description": "Tab label for the Journal tab"
   },
+  "tabStats": "統計",
+  "@tabStats": {
+    "description": "Tab label for the Stats tab"
+  },
+  "statsTitle": "回復の統計",
+  "@statsTitle": {
+    "description": "Heading on the stats page"
+  },
+  "statsNoAddictions": "依存症を記録して統計を見てみましょう",
+  "@statsNoAddictions": {
+    "description": "Empty state message on the stats page"
+  },
+  "statsJourneyTitle": "あなたの歩み",
+  "@statsJourneyTitle": {
+    "description": "Section title for the overview journey card on stats page"
+  },
+  "statsTotalDays": "{days}日間",
+  "@statsTotalDays": {
+    "description": "Total days clean across all addictions",
+    "placeholders": {
+      "days": { "type": "int" }
+    }
+  },
+  "statsAddictionsTracked": "{count}件記録中",
+  "@statsAddictionsTracked": {
+    "description": "Number of addictions being tracked",
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "statsMoneySavedTitle": "節約した金額",
+  "@statsMoneySavedTitle": {
+    "description": "Section title for the money saved card on stats page"
+  },
+  "statsMoneySavedEstimate": "平均的な使用量に基づく推定値",
+  "@statsMoneySavedEstimate": {
+    "description": "Disclaimer text on the money saved card"
+  },
+  "statsEquivalentCoffees": "コーヒー約{count}杯分",
+  "@statsEquivalentCoffees": {
+    "description": "Fun equivalence for money saved — coffees",
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "statsEquivalentMeals": "レストランでの食事約{count}回分",
+  "@statsEquivalentMeals": {
+    "description": "Fun equivalence for money saved — restaurant meals",
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "statsEquivalentFlight": "飛行機のチケット1枚分",
+  "@statsEquivalentFlight": {
+    "description": "Fun equivalence for money saved — a flight ticket"
+  },
+  "statsEquivalentVacation": "海外旅行1回分",
+  "@statsEquivalentVacation": {
+    "description": "Fun equivalence for money saved — a vacation"
+  },
+  "statsTimeSavedTitle": "取り戻した時間",
+  "@statsTimeSavedTitle": {
+    "description": "Section title for the time saved card on stats page"
+  },
+  "statsHoursSaved": "{hours}時間",
+  "@statsHoursSaved": {
+    "description": "Hours of time saved",
+    "placeholders": {
+      "hours": { "type": "int" }
+    }
+  },
+  "statsEquivalentBooks": "本約{count}冊を読む時間",
+  "@statsEquivalentBooks": {
+    "description": "Fun equivalence for time saved — books read",
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "statsEquivalentMovies": "映画約{count}本分",
+  "@statsEquivalentMovies": {
+    "description": "Fun equivalence for time saved — movies watched",
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "statsStreaksTitle": "連続記録",
+  "@statsStreaksTitle": {
+    "description": "Section title for the streaks bar chart on stats page"
+  },
+  "statsDaysSuffix": "{days}日",
+  "@statsDaysSuffix": {
+    "description": "Compact days label used in streak bars",
+    "placeholders": {
+      "days": { "type": "int" }
+    }
+  },
+  "statsResilienceTitle": "立ち直る力",
+  "@statsResilienceTitle": {
+    "description": "Section title for the resilience/relapse history card on stats page"
+  },
+  "statsTimesBouncedBack": "{count}回立ち直り、続けてきました",
+  "@statsTimesBouncedBack": {
+    "description": "Motivational message about number of relapses",
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "statsDaysBeforeRelapse": "毎回平均{days}日間続けました",
+  "@statsDaysBeforeRelapse": {
+    "description": "Average days achieved before each relapse",
+    "placeholders": {
+      "days": { "type": "int" }
+    }
+  },
   "tabSettings": "設定",
   "@tabSettings": {
     "description": "Tab label for the Settings tab"
@@ -608,6 +722,14 @@
   "settingsShowJournalSubtitle": "考えを記録するための日記タブを有効にする",
   "@settingsShowJournalSubtitle": {
     "description": "Subtitle explaining show journal setting"
+  },
+  "settingsWeekStartsMonday": "週を月曜日から始める",
+  "@settingsWeekStartsMonday": {
+    "description": "Setting title for week start day preference"
+  },
+  "settingsWeekStartsMondaySubtitle": "カレンダーの週が日曜日ではなく月曜日から始まります",
+  "@settingsWeekStartsMondaySubtitle": {
+    "description": "Subtitle explaining week starts on Monday setting"
   },
   "settingsSwipeBetweenTabs": "タブ間のスワイプ",
   "@settingsSwipeBetweenTabs": {

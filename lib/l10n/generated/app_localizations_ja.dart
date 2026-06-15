@@ -992,6 +992,89 @@ class AppLocalizationsJa extends AppLocalizations {
   String get tabJournal => '日記';
 
   @override
+  String get tabStats => '統計';
+
+  @override
+  String get statsTitle => '回復の統計';
+
+  @override
+  String get statsNoAddictions => '依存症を記録して統計を見てみましょう';
+
+  @override
+  String get statsJourneyTitle => 'あなたの歩み';
+
+  @override
+  String statsTotalDays(int days) {
+    return '$days日間';
+  }
+
+  @override
+  String statsAddictionsTracked(int count) {
+    return '$count件記録中';
+  }
+
+  @override
+  String get statsMoneySavedTitle => '節約した金額';
+
+  @override
+  String get statsMoneySavedEstimate => '平均的な使用量に基づく推定値';
+
+  @override
+  String statsEquivalentCoffees(int count) {
+    return 'コーヒー約$count杯分';
+  }
+
+  @override
+  String statsEquivalentMeals(int count) {
+    return 'レストランでの食事約$count回分';
+  }
+
+  @override
+  String get statsEquivalentFlight => '飛行機のチケット1枚分';
+
+  @override
+  String get statsEquivalentVacation => '海外旅行1回分';
+
+  @override
+  String get statsTimeSavedTitle => '取り戻した時間';
+
+  @override
+  String statsHoursSaved(int hours) {
+    return '$hours時間';
+  }
+
+  @override
+  String statsEquivalentBooks(int count) {
+    return '本約$count冊を読む時間';
+  }
+
+  @override
+  String statsEquivalentMovies(int count) {
+    return '映画約$count本分';
+  }
+
+  @override
+  String get statsStreaksTitle => '連続記録';
+
+  @override
+  String statsDaysSuffix(int days) {
+    return '$days日';
+  }
+
+  @override
+  String get statsResilienceTitle => '立ち直る力';
+
+  @override
+  String statsTimesBouncedBack(int count) {
+    return '$count回立ち直り、続けてきました';
+  }
+
+  @override
+  String statsDaysBeforeRelapse(int days) {
+    return '毎回平均$days日間続けました';
+  }
+
+  @override
   String get tabSettings => '設定';
 
   @override
@@ -1213,6 +1296,12 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get settingsShowJournalSubtitle => '考えを記録するための日記タブを有効にする';
+
+  @override
+  String get settingsWeekStartsMonday => '週を月曜日から始める';
+
+  @override
+  String get settingsWeekStartsMondaySubtitle => 'カレンダーの週が日曜日ではなく月曜日から始まります';
 
   @override
   String get settingsSwipeBetweenTabs => 'タブ間のスワイプ';

@@ -1852,6 +1852,132 @@ abstract class AppLocalizations {
   /// **'Journal'**
   String get tabJournal;
 
+  /// Tab label for the Stats tab
+  ///
+  /// In en, this message translates to:
+  /// **'Stats'**
+  String get tabStats;
+
+  /// Heading on the stats page
+  ///
+  /// In en, this message translates to:
+  /// **'Recovery Stats'**
+  String get statsTitle;
+
+  /// Empty state message on the stats page
+  ///
+  /// In en, this message translates to:
+  /// **'Start tracking addictions to see your stats'**
+  String get statsNoAddictions;
+
+  /// Section title for the overview journey card on stats page
+  ///
+  /// In en, this message translates to:
+  /// **'Your Journey'**
+  String get statsJourneyTitle;
+
+  /// Total days clean across all addictions
+  ///
+  /// In en, this message translates to:
+  /// **'{days} total days'**
+  String statsTotalDays(int days);
+
+  /// Number of addictions being tracked
+  ///
+  /// In en, this message translates to:
+  /// **'{count} tracked'**
+  String statsAddictionsTracked(int count);
+
+  /// Section title for the money saved card on stats page
+  ///
+  /// In en, this message translates to:
+  /// **'Money Saved'**
+  String get statsMoneySavedTitle;
+
+  /// Disclaimer text on the money saved card
+  ///
+  /// In en, this message translates to:
+  /// **'Estimated based on average usage'**
+  String get statsMoneySavedEstimate;
+
+  /// Fun equivalence for money saved — coffees
+  ///
+  /// In en, this message translates to:
+  /// **'That\'s about {count} coffees'**
+  String statsEquivalentCoffees(int count);
+
+  /// Fun equivalence for money saved — restaurant meals
+  ///
+  /// In en, this message translates to:
+  /// **'That\'s about {count} restaurant meals'**
+  String statsEquivalentMeals(int count);
+
+  /// Fun equivalence for money saved — a flight ticket
+  ///
+  /// In en, this message translates to:
+  /// **'That\'s a flight somewhere new'**
+  String get statsEquivalentFlight;
+
+  /// Fun equivalence for money saved — a vacation
+  ///
+  /// In en, this message translates to:
+  /// **'That\'s a vacation abroad'**
+  String get statsEquivalentVacation;
+
+  /// Section title for the time saved card on stats page
+  ///
+  /// In en, this message translates to:
+  /// **'Time Reclaimed'**
+  String get statsTimeSavedTitle;
+
+  /// Hours of time saved
+  ///
+  /// In en, this message translates to:
+  /// **'{hours} hours'**
+  String statsHoursSaved(int hours);
+
+  /// Fun equivalence for time saved — books read
+  ///
+  /// In en, this message translates to:
+  /// **'Enough to read about {count} books'**
+  String statsEquivalentBooks(int count);
+
+  /// Fun equivalence for time saved — movies watched
+  ///
+  /// In en, this message translates to:
+  /// **'Enough to watch about {count} movies'**
+  String statsEquivalentMovies(int count);
+
+  /// Section title for the streaks bar chart on stats page
+  ///
+  /// In en, this message translates to:
+  /// **'Your Streaks'**
+  String get statsStreaksTitle;
+
+  /// Compact days label used in streak bars
+  ///
+  /// In en, this message translates to:
+  /// **'{days}d'**
+  String statsDaysSuffix(int days);
+
+  /// Section title for the resilience/relapse history card on stats page
+  ///
+  /// In en, this message translates to:
+  /// **'Resilience'**
+  String get statsResilienceTitle;
+
+  /// Motivational message about number of relapses
+  ///
+  /// In en, this message translates to:
+  /// **'{count} times you\'ve reset and kept going'**
+  String statsTimesBouncedBack(int count);
+
+  /// Average days achieved before each relapse
+  ///
+  /// In en, this message translates to:
+  /// **'{days} days of progress each time'**
+  String statsDaysBeforeRelapse(int days);
+
   /// Tab label for the Settings tab
   ///
   /// In en, this message translates to:
@@ -2271,6 +2397,18 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Enable the journal tab for logging your thoughts'**
   String get settingsShowJournalSubtitle;
+
+  /// Setting title for week start day preference
+  ///
+  /// In en, this message translates to:
+  /// **'Week starts on Monday'**
+  String get settingsWeekStartsMonday;
+
+  /// Subtitle explaining week starts on Monday setting
+  ///
+  /// In en, this message translates to:
+  /// **'Calendar week begins on Monday instead of Sunday'**
+  String get settingsWeekStartsMondaySubtitle;
 
   /// Setting title for swipe between tabs feature
   ///

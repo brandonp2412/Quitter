@@ -8,6 +8,7 @@ import 'package:quitter/addiction_provider.dart';
 import 'package:quitter/app_scheme.dart';
 import 'package:quitter/home_page.dart';
 import 'package:quitter/journal_page.dart';
+import 'package:quitter/stats_page.dart';
 import 'package:quitter/pin_page.dart';
 import 'package:quitter/settings_provider.dart';
 import 'package:quitter/tasks.dart';
@@ -84,10 +85,8 @@ class _QuitterAppState extends State<QuitterApp>
   void initState() {
     super.initState();
     final settings = context.read<SettingsProvider>();
-    if (settings.showJournal)
-      _tabController = TabController(length: 2, vsync: this);
-    else
-      _tabController = TabController(length: 1, vsync: this);
+    final tabCount = settings.showJournal ? 3 : 2;
+    _tabController = TabController(length: tabCount, vsync: this);
 
     WidgetsBinding.instance.addObserver(this);
   }
@@ -117,10 +116,9 @@ class _QuitterAppState extends State<QuitterApp>
   Widget build(BuildContext context) {
     return Consumer<SettingsProvider>(
       builder: (context, settings, child) {
-        if (settings.showJournal && _tabController.length != 2)
-          _tabController = TabController(length: 2, vsync: this);
-        if (!settings.showJournal && _tabController.length != 1)
-          _tabController = TabController(length: 1, vsync: this);
+        final expectedTabCount = settings.showJournal ? 3 : 2;
+        if (_tabController.length != expectedTabCount)
+          _tabController = TabController(length: expectedTabCount, vsync: this);
 
         return DynamicColorBuilder(
           builder: (ColorScheme? lightDynamic, ColorScheme? darkDynamic) {
@@ -188,62 +186,67 @@ class _QuitterAppState extends State<QuitterApp>
                           bottom: false,
                           child: Column(
                             children: [
-                              if (settings.showJournal)
-                                AppBar(
-                                  title: AnimatedBuilder(
-                                    animation: _tabController.animation!,
-                                    builder: (context, child) {
-                                      return TabBar(
-                                        indicatorPadding:
-                                            EdgeInsetsGeometry.only(bottom: 32),
-                                        controller: _tabController,
-                                        tabs: [
-                                          Tab(
-                                            icon: SvgPicture.asset(
-                                              'assets/neurology.svg',
-                                              width: 24,
-                                              height: 24,
-                                              colorFilter: ColorFilter.mode(
-                                                Color.lerp(
-                                                  Theme.of(
-                                                    context,
-                                                  ).colorScheme.primary,
-                                                  Theme.of(context)
-                                                      .colorScheme
-                                                      .onSurfaceVariant,
-                                                  (_tabController
-                                                          .animation!
-                                                          .value)
-                                                      .clamp(0.0, 1.0),
-                                                )!,
-                                                BlendMode.srcIn,
-                                              ),
+                              AppBar(
+                                title: AnimatedBuilder(
+                                  animation: _tabController.animation!,
+                                  builder: (context, child) {
+                                    final l10n = AppLocalizations.of(context)!;
+                                    return TabBar(
+                                      indicatorPadding: EdgeInsetsGeometry.only(
+                                        bottom: 32,
+                                      ),
+                                      controller: _tabController,
+                                      tabs: [
+                                        Tab(
+                                          icon: SvgPicture.asset(
+                                            'assets/neurology.svg',
+                                            width: 24,
+                                            height: 24,
+                                            colorFilter: ColorFilter.mode(
+                                              Color.lerp(
+                                                Theme.of(
+                                                  context,
+                                                ).colorScheme.primary,
+                                                Theme.of(
+                                                  context,
+                                                ).colorScheme.onSurfaceVariant,
+                                                (_tabController
+                                                        .animation!
+                                                        .value)
+                                                    .clamp(0.0, 1.0),
+                                              )!,
+                                              BlendMode.srcIn,
                                             ),
-                                            text: AppLocalizations.of(
-                                              context,
-                                            )!.tabQuitter,
                                           ),
+                                          text: l10n.tabQuitter,
+                                        ),
+                                        Tab(
+                                          icon: const Icon(Icons.bar_chart),
+                                          text: l10n.tabStats,
+                                        ),
+                                        if (settings.showJournal)
                                           Tab(
-                                            icon: Icon(Icons.menu_book),
-                                            text: AppLocalizations.of(
-                                              context,
-                                            )!.tabJournal,
+                                            icon: const Icon(Icons.menu_book),
+                                            text: l10n.tabJournal,
                                           ),
-                                        ],
-                                      );
-                                    },
-                                  ),
+                                      ],
+                                    );
+                                  },
                                 ),
+                              ),
                               Expanded(
-                                child: settings.showJournal
-                                    ? TabBarView(
-                                        controller: _tabController,
-                                        physics: settings.swipeTabs
-                                            ? AlwaysScrollableScrollPhysics()
-                                            : NeverScrollableScrollPhysics(),
-                                        children: [HomePage(), JournalPage()],
-                                      )
-                                    : HomePage(),
+                                child: TabBarView(
+                                  controller: _tabController,
+                                  physics: settings.swipeTabs
+                                      ? const AlwaysScrollableScrollPhysics()
+                                      : const NeverScrollableScrollPhysics(),
+                                  children: [
+                                    const HomePage(),
+                                    const StatsPage(),
+                                    if (settings.showJournal)
+                                      const JournalPage(),
+                                  ],
+                                ),
                               ),
                             ],
                           ),

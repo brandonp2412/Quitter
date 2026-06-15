@@ -151,6 +151,11 @@ void main() {
         const Offset(0, -300),
       );
       expect(find.text('Enjoying the app?'), findsOneWidget);
+      await tester.dragUntilVisible(
+        find.text('Report a bug'),
+        find.byType(ListView),
+        const Offset(0, -300),
+      );
       expect(find.text('Report a bug'), findsOneWidget);
       await tester.dragUntilVisible(
         find.text('Export data'),

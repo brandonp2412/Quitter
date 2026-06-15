@@ -990,6 +990,89 @@ class AppLocalizationsZh extends AppLocalizations {
   String get tabJournal => '日记';
 
   @override
+  String get tabStats => '统计';
+
+  @override
+  String get statsTitle => '康复统计';
+
+  @override
+  String get statsNoAddictions => '开始记录成瘾以查看您的统计数据';
+
+  @override
+  String get statsJourneyTitle => '你的历程';
+
+  @override
+  String statsTotalDays(int days) {
+    return '$days天';
+  }
+
+  @override
+  String statsAddictionsTracked(int count) {
+    return '记录$count项';
+  }
+
+  @override
+  String get statsMoneySavedTitle => '节省金额';
+
+  @override
+  String get statsMoneySavedEstimate => '根据平均使用量估算';
+
+  @override
+  String statsEquivalentCoffees(int count) {
+    return '大约$count杯咖啡';
+  }
+
+  @override
+  String statsEquivalentMeals(int count) {
+    return '大约$count顿餐厅用餐';
+  }
+
+  @override
+  String get statsEquivalentFlight => '足够买一张机票';
+
+  @override
+  String get statsEquivalentVacation => '足够一次出国旅行';
+
+  @override
+  String get statsTimeSavedTitle => '重获时间';
+
+  @override
+  String statsHoursSaved(int hours) {
+    return '$hours小时';
+  }
+
+  @override
+  String statsEquivalentBooks(int count) {
+    return '大约可以读$count本书';
+  }
+
+  @override
+  String statsEquivalentMovies(int count) {
+    return '大约可以看$count部电影';
+  }
+
+  @override
+  String get statsStreaksTitle => '连续记录';
+
+  @override
+  String statsDaysSuffix(int days) {
+    return '$days天';
+  }
+
+  @override
+  String get statsResilienceTitle => '韧性';
+
+  @override
+  String statsTimesBouncedBack(int count) {
+    return '$count次重新振作并继续前行';
+  }
+
+  @override
+  String statsDaysBeforeRelapse(int days) {
+    return '每次平均坚持$days天';
+  }
+
+  @override
   String get tabSettings => '设置';
 
   @override
@@ -1211,6 +1294,12 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get settingsShowJournalSubtitle => '启用日记标签页以记录您的想法';
+
+  @override
+  String get settingsWeekStartsMonday => '从周一开始一周';
+
+  @override
+  String get settingsWeekStartsMondaySubtitle => '日历周从周一开始，而非周日';
 
   @override
   String get settingsSwipeBetweenTabs => '标签页之间滑动';

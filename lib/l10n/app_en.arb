@@ -302,6 +302,120 @@
   "@tabJournal": {
     "description": "Tab label for the Journal tab"
   },
+  "tabStats": "Stats",
+  "@tabStats": {
+    "description": "Tab label for the Stats tab"
+  },
+  "statsTitle": "Recovery Stats",
+  "@statsTitle": {
+    "description": "Heading on the stats page"
+  },
+  "statsNoAddictions": "Start tracking addictions to see your stats",
+  "@statsNoAddictions": {
+    "description": "Empty state message on the stats page"
+  },
+  "statsJourneyTitle": "Your Journey",
+  "@statsJourneyTitle": {
+    "description": "Section title for the overview journey card on stats page"
+  },
+  "statsTotalDays": "{days} total days",
+  "@statsTotalDays": {
+    "description": "Total days clean across all addictions",
+    "placeholders": {
+      "days": { "type": "int" }
+    }
+  },
+  "statsAddictionsTracked": "{count} tracked",
+  "@statsAddictionsTracked": {
+    "description": "Number of addictions being tracked",
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "statsMoneySavedTitle": "Money Saved",
+  "@statsMoneySavedTitle": {
+    "description": "Section title for the money saved card on stats page"
+  },
+  "statsMoneySavedEstimate": "Estimated based on average usage",
+  "@statsMoneySavedEstimate": {
+    "description": "Disclaimer text on the money saved card"
+  },
+  "statsEquivalentCoffees": "That's about {count} coffees",
+  "@statsEquivalentCoffees": {
+    "description": "Fun equivalence for money saved — coffees",
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "statsEquivalentMeals": "That's about {count} restaurant meals",
+  "@statsEquivalentMeals": {
+    "description": "Fun equivalence for money saved — restaurant meals",
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "statsEquivalentFlight": "That's a flight somewhere new",
+  "@statsEquivalentFlight": {
+    "description": "Fun equivalence for money saved — a flight ticket"
+  },
+  "statsEquivalentVacation": "That's a vacation abroad",
+  "@statsEquivalentVacation": {
+    "description": "Fun equivalence for money saved — a vacation"
+  },
+  "statsTimeSavedTitle": "Time Reclaimed",
+  "@statsTimeSavedTitle": {
+    "description": "Section title for the time saved card on stats page"
+  },
+  "statsHoursSaved": "{hours} hours",
+  "@statsHoursSaved": {
+    "description": "Hours of time saved",
+    "placeholders": {
+      "hours": { "type": "int" }
+    }
+  },
+  "statsEquivalentBooks": "Enough to read about {count} books",
+  "@statsEquivalentBooks": {
+    "description": "Fun equivalence for time saved — books read",
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "statsEquivalentMovies": "Enough to watch about {count} movies",
+  "@statsEquivalentMovies": {
+    "description": "Fun equivalence for time saved — movies watched",
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "statsStreaksTitle": "Your Streaks",
+  "@statsStreaksTitle": {
+    "description": "Section title for the streaks bar chart on stats page"
+  },
+  "statsDaysSuffix": "{days}d",
+  "@statsDaysSuffix": {
+    "description": "Compact days label used in streak bars",
+    "placeholders": {
+      "days": { "type": "int" }
+    }
+  },
+  "statsResilienceTitle": "Resilience",
+  "@statsResilienceTitle": {
+    "description": "Section title for the resilience/relapse history card on stats page"
+  },
+  "statsTimesBouncedBack": "{count} times you've reset and kept going",
+  "@statsTimesBouncedBack": {
+    "description": "Motivational message about number of relapses",
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "statsDaysBeforeRelapse": "{days} days of progress each time",
+  "@statsDaysBeforeRelapse": {
+    "description": "Average days achieved before each relapse",
+    "placeholders": {
+      "days": { "type": "int" }
+    }
+  },
   "tabSettings": "Settings",
   "@tabSettings": {
     "description": "Tab label for the Settings tab"
@@ -605,6 +719,14 @@
   "settingsShowJournalSubtitle": "Enable the journal tab for logging your thoughts",
   "@settingsShowJournalSubtitle": {
     "description": "Subtitle explaining show journal setting"
+  },
+  "settingsWeekStartsMonday": "Week starts on Monday",
+  "@settingsWeekStartsMonday": {
+    "description": "Setting title for week start day preference"
+  },
+  "settingsWeekStartsMondaySubtitle": "Calendar week begins on Monday instead of Sunday",
+  "@settingsWeekStartsMondaySubtitle": {
+    "description": "Subtitle explaining week starts on Monday setting"
   },
   "settingsSwipeBetweenTabs": "Swipe between tabs",
   "@settingsSwipeBetweenTabs": {
