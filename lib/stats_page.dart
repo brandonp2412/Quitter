@@ -445,12 +445,8 @@ class _JourneyCard extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(24),
       decoration: BoxDecoration(
-        gradient: LinearGradient(
-          colors: [primary, primary.withValues(alpha: 0.7)],
-          begin: Alignment.topLeft,
-          end: Alignment.bottomRight,
-        ),
         borderRadius: BorderRadius.circular(20),
+        color: primary,
       ),
       child: Row(
         children: [
@@ -461,7 +457,7 @@ class _JourneyCard extends StatelessWidget {
                 Text(
                   l10n.statsJourneyTitle,
                   style: theme.textTheme.titleMedium?.copyWith(
-                    color: Colors.white.withValues(alpha: 0.85),
+                    color: theme.colorScheme.onPrimary,
                     fontWeight: FontWeight.w500,
                   ),
                 ),
@@ -472,7 +468,7 @@ class _JourneyCard extends StatelessWidget {
                     Text(
                       '$totalDays',
                       style: theme.textTheme.displaySmall?.copyWith(
-                        color: Colors.white,
+                        color: theme.colorScheme.onPrimary,
                         fontWeight: FontWeight.bold,
                         height: 1,
                       ),
@@ -483,7 +479,7 @@ class _JourneyCard extends StatelessWidget {
                       child: Text(
                         'days',
                         style: theme.textTheme.titleMedium?.copyWith(
-                          color: Colors.white.withValues(alpha: 0.75),
+                          color: theme.colorScheme.onPrimary,
                         ),
                       ),
                     ),
@@ -493,7 +489,7 @@ class _JourneyCard extends StatelessWidget {
                 Text(
                   l10n.statsAddictionsTracked(addictionCount),
                   style: theme.textTheme.bodyMedium?.copyWith(
-                    color: Colors.white.withValues(alpha: 0.75),
+                    color: theme.colorScheme.onPrimary,
                   ),
                 ),
               ],
@@ -503,7 +499,7 @@ class _JourneyCard extends StatelessWidget {
           Container(
             padding: const EdgeInsets.all(16),
             decoration: BoxDecoration(
-              color: Colors.white.withValues(alpha: 0.15),
+              color: theme.colorScheme.onPrimary,
               shape: BoxShape.circle,
             ),
             child: const Icon(
