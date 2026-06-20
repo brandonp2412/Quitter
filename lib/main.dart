@@ -221,7 +221,7 @@ class _QuitterAppState extends State<QuitterApp>
                                           text: l10n.tabQuitter,
                                         ),
                                         Tab(
-                                          icon: const Icon(Icons.bar_chart),
+                                          icon: const Icon(Icons.insights),
                                           text: l10n.tabStats,
                                         ),
                                         if (settings.showJournal)
