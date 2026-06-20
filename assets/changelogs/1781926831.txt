@@ -1,0 +1,4 @@
+• Fix contrast ratio on stats title
+• Use insights icon for stats page tab
+• add Stats tab with recovery statistics
+• add option to start journal week on Monday
