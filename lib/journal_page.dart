@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'package:quitter/l10n/generated/app_localizations.dart';
+import 'package:quitter/settings_provider.dart';
 import 'package:intl/intl.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -132,7 +134,10 @@ class _JournalPageState extends State<JournalPage> {
       0,
     );
     final daysInMonth = lastDayOfMonth.day;
-    final firstWeekday = firstDayOfMonth.weekday % 7;
+    final weekStartsMonday = context.watch<SettingsProvider>().weekStartsMonday;
+    final firstWeekday = weekStartsMonday
+        ? (firstDayOfMonth.weekday - 1) % 7
+        : firstDayOfMonth.weekday % 7;
     final now = DateTime.now();
 
     final calendarGradient = [
@@ -234,22 +239,25 @@ class _JournalPageState extends State<JournalPage> {
                 ),
                 SizedBox(height: 16),
                 Row(
-                  children: ['S', 'M', 'T', 'W', 'T', 'F', 'S']
-                      .map(
-                        (day) => Expanded(
-                          child: Center(
-                            child: Text(
-                              day,
-                              style: Theme.of(context).textTheme.bodyMedium
-                                  ?.copyWith(
-                                    fontWeight: FontWeight.bold,
-                                    color: calendarGradient.first,
-                                  ),
+                  children:
+                      (weekStartsMonday
+                              ? ['M', 'T', 'W', 'T', 'F', 'S', 'S']
+                              : ['S', 'M', 'T', 'W', 'T', 'F', 'S'])
+                          .map(
+                            (day) => Expanded(
+                              child: Center(
+                                child: Text(
+                                  day,
+                                  style: Theme.of(context).textTheme.bodyMedium
+                                      ?.copyWith(
+                                        fontWeight: FontWeight.bold,
+                                        color: calendarGradient.first,
+                                      ),
+                                ),
+                              ),
                             ),
-                          ),
-                        ),
-                      )
-                      .toList(),
+                          )
+                          .toList(),
                 ),
                 SizedBox(height: 8),
                 GridView.builder(

@@ -18,6 +18,7 @@ class SettingsProvider extends ChangeNotifier {
   static const _pinFailedAttemptsKey = 'pin_failed_attempts';
   static const _pinLockedUntilKey = 'pin_locked_until_ms';
   static const _localeKey = 'locale';
+  static const _weekStartsMondayKey = 'week_starts_monday';
 
   bool _isUnlocked = false;
   bool get isUnlocked => _isUnlocked;
@@ -84,6 +85,8 @@ class SettingsProvider extends ChangeNotifier {
   int get pinTimeout => _pinTimeout;
   String _locale = 'system';
   String get locale => _locale;
+  bool _weekStartsMonday = false;
+  bool get weekStartsMonday => _weekStartsMonday;
   SharedPreferences? _prefs;
 
   AppThemeMode _themeMode = AppThemeMode.system;
@@ -209,6 +212,7 @@ class SettingsProvider extends ChangeNotifier {
     _notifyEvery = _prefs!.getInt(_notifyEveryKey) ?? 1;
     _pinTimeout = _prefs!.getInt(_pinTimeoutKey) ?? 15;
     _locale = _prefs!.getString(_localeKey) ?? 'system';
+    _weekStartsMonday = _prefs!.getBool(_weekStartsMondayKey) ?? false;
     _pinFailedAttempts = _prefs!.getInt(_pinFailedAttemptsKey) ?? 0;
     final lockedUntilMs = _prefs!.getInt(_pinLockedUntilKey);
     _pinLockedUntil = lockedUntilMs != null
@@ -238,6 +242,12 @@ class SettingsProvider extends ChangeNotifier {
     _locale = locale;
     notifyListeners();
     _prefs?.setString(_localeKey, locale);
+  }
+
+  set weekStartsMonday(bool value) {
+    _weekStartsMonday = value;
+    _prefs?.setBool(_weekStartsMondayKey, value);
+    notifyListeners();
   }
 
   Future<void> setPinTimeout(int timeout) async {

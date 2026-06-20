@@ -394,6 +394,13 @@ class _SettingsPageState extends State<SettingsPage> {
           onChanged: (value) => settings.swipeTabs = value,
         ),
       ],
+      SwitchListTile(
+        secondary: const Icon(Icons.calendar_today),
+        title: Text(l10n.settingsWeekStartsMonday),
+        subtitle: Text(l10n.settingsWeekStartsMondaySubtitle),
+        value: settings.weekStartsMonday,
+        onChanged: (value) => settings.weekStartsMonday = value,
+      ),
     ];
   }
 
