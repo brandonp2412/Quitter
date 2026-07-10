@@ -151,6 +151,8 @@ class _SettingsPageState extends State<SettingsPage> {
         await prefs.setDouble(key, value);
       } else if (value is String) {
         await prefs.setString(key, value);
+      } else if (value is List) {
+        await prefs.setStringList(key, value.map((e) => e.toString()).toList());
       }
     }
 
@@ -158,11 +160,14 @@ class _SettingsPageState extends State<SettingsPage> {
     toast(l10n.dataImported);
 
     final addictions = context.read<AddictionProvider>();
-    await addictions.loadAddictions();
+    final settings = context.read<SettingsProvider>();
+    await Future.wait([
+      addictions.loadAddictions(),
+      settings.loadPreferences(),
+    ]);
     if (!context.mounted || defaultTargetPlatform == TargetPlatform.linux)
       return;
 
-    final settings = context.read<SettingsProvider>();
     if (settings.notifyEvery == 0) return;
     if (addictions.quitAlcohol == null &&
         addictions.quitMarijuana == null &&
