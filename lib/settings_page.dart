@@ -108,7 +108,7 @@ class _SettingsPageState extends State<SettingsPage> {
     final json = jsonEncode(data);
     final timestamp = DateTime.now().millisecondsSinceEpoch;
 
-    final path = await FilePicker.platform.saveFile(
+    final path = await FilePicker.saveFile(
       dialogTitle: 'Save data to',
       fileName: 'quitter-$timestamp.json',
       type: FileType.custom,
@@ -127,7 +127,7 @@ class _SettingsPageState extends State<SettingsPage> {
 
   Future<void> _importData(BuildContext context) async {
     final l10n = AppLocalizations.of(context)!;
-    FilePickerResult? result = await FilePicker.platform.pickFiles(
+    FilePickerResult? result = await FilePicker.pickFiles(
       type: FileType.custom,
       allowedExtensions: ['json'],
     );

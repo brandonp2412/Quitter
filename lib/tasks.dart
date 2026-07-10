@@ -147,7 +147,7 @@ Future<FlutterLocalNotificationsPlugin> _initializeNotificationPlugin() async {
       iOS: darwinSettings,
       android: androidSettings,
     );
-    await plugin.initialize(initSettings);
+    await plugin.initialize(settings: initSettings);
   } else {
     const linuxSettings = LinuxInitializationSettings(
       defaultActionName: 'Open notification',
@@ -163,7 +163,7 @@ Future<FlutterLocalNotificationsPlugin> _initializeNotificationPlugin() async {
       macOS: darwinSettings,
       windows: windowsSettings,
     );
-    await plugin.initialize(initSettings);
+    await plugin.initialize(settings: initSettings);
   }
 
   return plugin;
@@ -190,7 +190,7 @@ Future<void> _showNotification(
     windows: WindowsNotificationDetails(),
   );
 
-  await plugin.show(Random().nextInt(1000), title, body, notificationDetails);
+  await plugin.show(id: Random().nextInt(1000), title: title, body: body, notificationDetails: notificationDetails);
 }
 
 Future<void> notifyProgress(FlutterLocalNotificationsPlugin plugin) async {
