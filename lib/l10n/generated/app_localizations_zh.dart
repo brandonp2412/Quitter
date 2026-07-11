@@ -1491,6 +1491,9 @@ class AppLocalizationsZh extends AppLocalizations {
   String get dataImported => '数据导入成功！';
 
   @override
+  String get dataImportFailed => '导入失败';
+
+  @override
   String get journalHowWasYourDay => '今天过得怎么样？';
 
   @override

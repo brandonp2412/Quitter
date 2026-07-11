@@ -2776,6 +2776,12 @@ abstract class AppLocalizations {
   /// **'Data imported successfully!'**
   String get dataImported;
 
+  /// Dialog title shown when data import fails
+  ///
+  /// In en, this message translates to:
+  /// **'Import failed'**
+  String get dataImportFailed;
+
   /// Header text in journal entry section
   ///
   /// In en, this message translates to:

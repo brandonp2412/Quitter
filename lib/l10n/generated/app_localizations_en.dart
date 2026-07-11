@@ -1538,6 +1538,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get dataImported => 'Data imported successfully!';
 
   @override
+  String get dataImportFailed => 'Import failed';
+
+  @override
   String get journalHowWasYourDay => 'How was your day?';
 
   @override

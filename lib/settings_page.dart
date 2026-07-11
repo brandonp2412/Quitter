@@ -133,53 +133,75 @@ class _SettingsPageState extends State<SettingsPage> {
     );
     if (result == null) return;
 
-    File file = File(result.files.single.path!);
-    String contents = await file.readAsString();
-    Map<String, dynamic> data = jsonDecode(contents);
+    try {
+      final pickResult = result.files.single;
+      final bytes = await pickResult.readAsBytes();
+      final contents = utf8.decode(bytes);
 
-    final prefs = await SharedPreferences.getInstance();
-    await prefs.clear();
+      Map<String, dynamic> data = jsonDecode(contents);
 
-    for (final entry in data.entries) {
-      final key = entry.key;
-      final value = entry.value;
-      if (value is bool) {
-        await prefs.setBool(key, value);
-      } else if (value is int) {
-        await prefs.setInt(key, value);
-      } else if (value is double) {
-        await prefs.setDouble(key, value);
-      } else if (value is String) {
-        await prefs.setString(key, value);
-      } else if (value is List) {
-        await prefs.setStringList(key, value.map((e) => e.toString()).toList());
+      final prefs = await SharedPreferences.getInstance();
+      await prefs.clear();
+
+      for (final entry in data.entries) {
+        final key = entry.key;
+        final value = entry.value;
+        if (value is bool) {
+          await prefs.setBool(key, value);
+        } else if (value is int) {
+          await prefs.setInt(key, value);
+        } else if (value is double) {
+          await prefs.setDouble(key, value);
+        } else if (value is String) {
+          await prefs.setString(key, value);
+        } else if (value is List) {
+          await prefs.setStringList(
+            key,
+            value.map((e) => e.toString()).toList(),
+          );
+        }
       }
+
+      if (!context.mounted) return;
+      toast(l10n.dataImported);
+
+      final addictions = context.read<AddictionProvider>();
+      final settings = context.read<SettingsProvider>();
+      await Future.wait([
+        addictions.loadAddictions(),
+        settings.loadPreferences(),
+      ]);
+      if (!context.mounted || defaultTargetPlatform == TargetPlatform.linux)
+        return;
+
+      if (settings.notifyEvery == 0) return;
+      if (addictions.quitAlcohol == null &&
+          addictions.quitMarijuana == null &&
+          addictions.quitPouches == null &&
+          addictions.quitOpioids == null &&
+          addictions.quitPornography == null &&
+          addictions.quitSmoking == null &&
+          addictions.quitSocialMedia == null &&
+          addictions.quitVaping == null)
+        return;
+
+      Permission.notification.request();
+    } catch (e) {
+      if (!context.mounted) return;
+      showDialog(
+        context: context,
+        builder: (ctx) => AlertDialog(
+          title: Text(l10n.dataImportFailed),
+          content: Text(e.toString()),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.pop(ctx),
+              child: const Text('OK'),
+            ),
+          ],
+        ),
+      );
     }
-
-    if (!context.mounted) return;
-    toast(l10n.dataImported);
-
-    final addictions = context.read<AddictionProvider>();
-    final settings = context.read<SettingsProvider>();
-    await Future.wait([
-      addictions.loadAddictions(),
-      settings.loadPreferences(),
-    ]);
-    if (!context.mounted || defaultTargetPlatform == TargetPlatform.linux)
-      return;
-
-    if (settings.notifyEvery == 0) return;
-    if (addictions.quitAlcohol == null &&
-        addictions.quitMarijuana == null &&
-        addictions.quitPouches == null &&
-        addictions.quitOpioids == null &&
-        addictions.quitPornography == null &&
-        addictions.quitSmoking == null &&
-        addictions.quitSocialMedia == null &&
-        addictions.quitVaping == null)
-      return;
-
-    Permission.notification.request();
   }
 
   List<Widget> _buildSecuritySectionItems(

@@ -975,6 +975,10 @@
   "@dataImported": {
     "description": "Toast message when data is imported successfully"
   },
+  "dataImportFailed": "インポートに失敗しました",
+  "@dataImportFailed": {
+    "description": "Dialog title shown when data import fails"
+  },
   "journalHowWasYourDay": "今日はどうでしたか?",
   "@journalHowWasYourDay": {
     "description": "Header text in journal entry section"

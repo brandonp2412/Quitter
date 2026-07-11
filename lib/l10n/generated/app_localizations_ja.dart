@@ -1493,6 +1493,9 @@ class AppLocalizationsJa extends AppLocalizations {
   String get dataImported => 'データを正常にインポートしました!';
 
   @override
+  String get dataImportFailed => 'インポートに失敗しました';
+
+  @override
   String get journalHowWasYourDay => '今日はどうでしたか?';
 
   @override

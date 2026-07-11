@@ -975,6 +975,10 @@
   "@dataImported": {
     "description": "Toast message when data is imported successfully"
   },
+  "dataImportFailed": "导入失败",
+  "@dataImportFailed": {
+    "description": "Dialog title shown when data import fails"
+  },
   "journalHowWasYourDay": "今天过得怎么样？",
   "@journalHowWasYourDay": {
     "description": "Header text in journal entry section"
