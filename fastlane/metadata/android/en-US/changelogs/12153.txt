@@ -1,0 +1,5 @@
+• Fix importing database
+• Update serena
+• Upgrade flutter to 3.44.6
+• Fix add enforce-lockfile CI check to prevent F-Droid build failures
+• Fix use readAsBytes() for import and add error handling
