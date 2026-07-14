@@ -190,7 +190,12 @@ Future<void> _showNotification(
     windows: WindowsNotificationDetails(),
   );
 
-  await plugin.show(id: Random().nextInt(1000), title: title, body: body, notificationDetails: notificationDetails);
+  await plugin.show(
+    id: Random().nextInt(1000),
+    title: title,
+    body: body,
+    notificationDetails: notificationDetails,
+  );
 }
 
 Future<void> notifyProgress(FlutterLocalNotificationsPlugin plugin) async {
