@@ -129,7 +129,7 @@ class SnriPage extends StatelessWidget {
         description: l10n.snriMilestone180Description,
         reference:
             "PubMed - Long-term effects of antidepressant discontinuation",
-        link: "https://pubmed.ncbi.nlm.nih.gov/31689556/",
+        link: "https://pubmed.ncbi.nlm.nih.gov/40692314/",
         referenceDate: "May 2026",
         referenceContent:
             "Six Months After SNRIs: Neurological Recovery\n\n"
@@ -147,7 +147,7 @@ class SnriPage extends StatelessWidget {
         description: l10n.snriMilestone365Description,
         reference:
             "PubMed - Antidepressant use and discontinuation in primary care",
-        link: "https://pubmed.ncbi.nlm.nih.gov/24680484/",
+        link: "https://pubmed.ncbi.nlm.nih.gov/34842135/",
         referenceDate: "May 2026",
         referenceContent:
             "One Year After SNRIs: Recovery Achieved\n\n"

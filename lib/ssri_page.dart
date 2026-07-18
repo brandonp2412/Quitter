@@ -124,7 +124,7 @@ class SsriPage extends StatelessWidget {
         description: l10n.ssriMilestone180Description,
         reference:
             "PubMed - Long-term effects of antidepressant discontinuation",
-        link: "https://pubmed.ncbi.nlm.nih.gov/31689556/",
+        link: "https://pubmed.ncbi.nlm.nih.gov/40692314/",
         referenceDate: "May 2026",
         referenceContent:
             "Six Months After SSRIs: Long-Term Brain Adjustment\n\n"
@@ -145,7 +145,7 @@ class SsriPage extends StatelessWidget {
         description: l10n.ssriMilestone365Description,
         reference:
             "PubMed - Antidepressant use and discontinuation in primary care",
-        link: "https://pubmed.ncbi.nlm.nih.gov/24680484/",
+        link: "https://pubmed.ncbi.nlm.nih.gov/34842135/",
         referenceDate: "May 2026",
         referenceContent:
             "One Year After SSRIs: Recovery Achieved\n\n"

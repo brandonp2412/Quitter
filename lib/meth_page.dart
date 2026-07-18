@@ -113,7 +113,7 @@ class MethPage extends StatelessWidget {
         description: l10n.methMilestone90Description,
         reference:
             "Loss of Dopamine Transporters in Meth Abusers Recovers With Protracted Abstinence (Journal of Neuroscience)",
-        link: "https://www.jneurosci.org/content/21/23/9414",
+        link: "https://pubmed.ncbi.nlm.nih.gov/11717374/",
         referenceDate: "June 2026",
         referenceContent:
             "Three Months Without Meth: Healing Has Begun — Be Patient\n\n"
@@ -174,7 +174,7 @@ class MethPage extends StatelessWidget {
         description: l10n.methMilestone420Description,
         reference:
             "Loss of Dopamine Transporters in Meth Abusers Recovers With Protracted Abstinence (Journal of Neuroscience)",
-        link: "https://www.jneurosci.org/content/21/23/9414",
+        link: "https://pubmed.ncbi.nlm.nih.gov/11717374/",
         referenceDate: "June 2026",
         referenceContent:
             "14 Months Without Meth: The Dopamine Marker Rebounds\n\n"

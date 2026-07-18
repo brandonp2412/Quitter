@@ -180,7 +180,7 @@ class SmokingPage extends StatelessWidget {
         title: l10n.smokingMilestone1825Title,
         description: l10n.smokingMilestone1825Description,
         reference: "CDC - Benefits of Quitting Smoking",
-        link: "https://www.cdc.gov/tobacco/about/benefits-of-quitting.html",
+        link: "https://www.cdc.gov/tobacco/about/how-to-quit.html",
         referenceDate: "March 2026",
         referenceContent:
             "Five Years: Cancer Risk Plummets\n\n"

@@ -19,7 +19,7 @@ class TcaPage extends StatelessWidget {
         title: l10n.tcaMilestone3Title,
         description: l10n.tcaMilestone3Description,
         reference: "PubMed - Cholinergic rebound and tricyclic antidepressants",
-        link: "https://pubmed.ncbi.nlm.nih.gov/6138731/",
+        link: "https://pubmed.ncbi.nlm.nih.gov/6849449/",
         referenceDate: "May 2026",
         referenceContent:
             "TCA Discontinuation: The First Days — Cholinergic Rebound\n\n"
@@ -60,7 +60,7 @@ class TcaPage extends StatelessWidget {
         title: l10n.tcaMilestone14Title,
         description: l10n.tcaMilestone14Description,
         reference: "PubMed - Tricyclic antidepressant discontinuation",
-        link: "https://pubmed.ncbi.nlm.nih.gov/7717091/",
+        link: "https://pubmed.ncbi.nlm.nih.gov/11347722/",
         referenceDate: "May 2026",
         referenceContent:
             "Two Weeks After TCAs: Anticholinergic Effects Reversing\n\n"
@@ -104,7 +104,7 @@ class TcaPage extends StatelessWidget {
         description: l10n.tcaMilestone90Description,
         reference:
             "PubMed - Long-term cognitive effects of tricyclic antidepressants",
-        link: "https://pubmed.ncbi.nlm.nih.gov/9347394/",
+        link: "https://pubmed.ncbi.nlm.nih.gov/39093721/",
         referenceDate: "May 2026",
         referenceContent:
             "Three Months After TCAs: Multiple Neurotransmitter Systems Normalising\n\n"
@@ -125,7 +125,7 @@ class TcaPage extends StatelessWidget {
         title: l10n.tcaMilestone180Title,
         description: l10n.tcaMilestone180Description,
         reference: "PubMed - Cognitive recovery after antidepressant treatment",
-        link: "https://pubmed.ncbi.nlm.nih.gov/25481391/",
+        link: "https://pubmed.ncbi.nlm.nih.gov/16390895/",
         referenceDate: "May 2026",
         referenceContent:
             "Six Months After TCAs: Cardiac and Cognitive Recovery\n\n"
@@ -146,7 +146,7 @@ class TcaPage extends StatelessWidget {
         description: l10n.tcaMilestone365Description,
         reference:
             "PubMed - Antidepressant use and discontinuation in primary care",
-        link: "https://pubmed.ncbi.nlm.nih.gov/24680484/",
+        link: "https://pubmed.ncbi.nlm.nih.gov/34842135/",
         referenceDate: "May 2026",
         referenceContent:
             "One Year After TCAs: Recovery Achieved\n\n"

@@ -20,7 +20,7 @@ class MaoiPage extends StatelessWidget {
         title: l10n.maoiMilestone3Title,
         description: l10n.maoiMilestone3Description,
         reference: "PubMed - MAOI discontinuation syndrome",
-        link: "https://pubmed.ncbi.nlm.nih.gov/12503976/",
+        link: "https://pubmed.ncbi.nlm.nih.gov/2845711/",
         referenceDate: "May 2026",
         referenceContent:
             "MAOI Discontinuation: The Highest-Risk Phase\n\n"
@@ -62,7 +62,7 @@ class MaoiPage extends StatelessWidget {
         description: l10n.maoiMilestone14Description,
         reference:
             "PubMed - Monoamine oxidase recovery after phenelzine discontinuation",
-        link: "https://pubmed.ncbi.nlm.nih.gov/3571640/",
+        link: "https://pubmed.ncbi.nlm.nih.gov/1968671/",
         referenceDate: "May 2026",
         referenceContent:
             "Two Weeks After MAOIs: MAO Enzyme Activity Substantially Recovered\n\n"
@@ -124,7 +124,7 @@ class MaoiPage extends StatelessWidget {
         description: l10n.maoiMilestone180Description,
         reference:
             "PubMed - Long-term effects of antidepressant discontinuation",
-        link: "https://pubmed.ncbi.nlm.nih.gov/31689556/",
+        link: "https://pubmed.ncbi.nlm.nih.gov/40692314/",
         referenceDate: "May 2026",
         referenceContent:
             "Six Months After MAOIs: Long-Term Recovery\n\n"
@@ -144,7 +144,7 @@ class MaoiPage extends StatelessWidget {
         description: l10n.maoiMilestone365Description,
         reference:
             "PubMed - Antidepressant use and discontinuation in primary care",
-        link: "https://pubmed.ncbi.nlm.nih.gov/24680484/",
+        link: "https://pubmed.ncbi.nlm.nih.gov/34842135/",
         referenceDate: "May 2026",
         referenceContent:
             "One Year After MAOIs: Recovery Achieved\n\n"

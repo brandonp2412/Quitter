@@ -60,8 +60,7 @@ class _EntryPageState extends State<EntryPage> {
         description: l10n.customMilestone90Description,
         reference:
             "NIDA - Principles of Drug Addiction Treatment (90-Day Threshold)",
-        link:
-            "https://nida.nih.gov/publications/principles-drug-addiction-treatment",
+        link: "https://nida.nih.gov/research-topics/treatment",
       ),
       QuitMilestone(
         day: 180,

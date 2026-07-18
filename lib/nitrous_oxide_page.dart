@@ -15,7 +15,7 @@ class NitrousOxidePage extends StatelessWidget {
         title: l10n.nitrousOxideMilestone1Title,
         description: l10n.nitrousOxideMilestone1Description,
         reference: "Nitrous Oxide Toxicity — StatPearls (NCBI Bookshelf)",
-        link: "https://www.ncbi.nlm.nih.gov/books/NBK532957/",
+        link: "https://pubmed.ncbi.nlm.nih.gov/30422517/",
         referenceDate: "June 2026",
         referenceContent:
             "Day One: Clearing Your System\n\n"
@@ -36,7 +36,7 @@ class NitrousOxidePage extends StatelessWidget {
         title: l10n.nitrousOxideMilestone3Title,
         description: l10n.nitrousOxideMilestone3Description,
         reference: "Nitrous Oxide Toxicity — StatPearls (NCBI Bookshelf)",
-        link: "https://www.ncbi.nlm.nih.gov/books/NBK532957/",
+        link: "https://pubmed.ncbi.nlm.nih.gov/30422517/",
         referenceDate: "June 2026",
         referenceContent:
             "72 Hours: The Cravings Are Psychological\n\n"
@@ -59,7 +59,7 @@ class NitrousOxidePage extends StatelessWidget {
         title: l10n.nitrousOxideMilestone7Title,
         description: l10n.nitrousOxideMilestone7Description,
         reference: "Nitrous Oxide Misuse and Vitamin B12 Deficiency — NCBI PMC",
-        link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10580073/",
+        link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC13267259/",
         referenceDate: "June 2026",
         referenceContent:
             "One Week: B12 Recovery Underway\n\n"
@@ -80,7 +80,7 @@ class NitrousOxidePage extends StatelessWidget {
         title: l10n.nitrousOxideMilestone14Title,
         description: l10n.nitrousOxideMilestone14Description,
         reference: "Nitrous Oxide Toxicity — StatPearls (NCBI Bookshelf)",
-        link: "https://www.ncbi.nlm.nih.gov/books/NBK532957/",
+        link: "https://pubmed.ncbi.nlm.nih.gov/30422517/",
         referenceDate: "June 2026",
         referenceContent:
             "Two Weeks: Nervous System Recovery\n\n"
@@ -102,7 +102,7 @@ class NitrousOxidePage extends StatelessWidget {
         title: l10n.nitrousOxideMilestone30Title,
         description: l10n.nitrousOxideMilestone30Description,
         reference: "Nitrous Oxide Toxicity — StatPearls (NCBI Bookshelf)",
-        link: "https://www.ncbi.nlm.nih.gov/books/NBK532957/",
+        link: "https://pubmed.ncbi.nlm.nih.gov/30422517/",
         referenceDate: "June 2026",
         referenceContent:
             "One Month: B12 Levels Climbing\n\n"
@@ -123,7 +123,7 @@ class NitrousOxidePage extends StatelessWidget {
         title: l10n.nitrousOxideMilestone90Title,
         description: l10n.nitrousOxideMilestone90Description,
         reference: "Nitrous Oxide Misuse and Vitamin B12 Deficiency — NCBI PMC",
-        link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10580073/",
+        link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC13267259/",
         referenceDate: "June 2026",
         referenceContent:
             "Three Months: Neurological Healing\n\n"
@@ -145,7 +145,7 @@ class NitrousOxidePage extends StatelessWidget {
         title: l10n.nitrousOxideMilestone365Title,
         description: l10n.nitrousOxideMilestone365Description,
         reference: "Nitrous Oxide Toxicity — StatPearls (NCBI Bookshelf)",
-        link: "https://www.ncbi.nlm.nih.gov/books/NBK532957/",
+        link: "https://pubmed.ncbi.nlm.nih.gov/30422517/",
         referenceDate: "June 2026",
         referenceContent:
             "One Year: Long-Term Health Secured\n\n"
