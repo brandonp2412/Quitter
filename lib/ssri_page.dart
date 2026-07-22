@@ -82,14 +82,14 @@ class SsriPage extends StatelessWidget {
         day: 30,
         title: l10n.ssriMilestone30Title,
         description: l10n.ssriMilestone30Description,
-        reference: "PubMed - Antidepressant discontinuation syndrome: a review",
-        link: "https://pubmed.ncbi.nlm.nih.gov/16390895/",
+        reference: "Haddad (2001) - Antidepressant Discontinuation Syndromes (PubMed)",
+        link: "https://pubmed.ncbi.nlm.nih.gov/11347722/",
         referenceDate: "May 2026",
         referenceContent:
             "One Month After SSRIs: Stabilisation\n\n"
-            "Source: Perahia et al. (2005), peer-reviewed review on antidepressant discontinuation syndrome\n\n"
+            "Source: Haddad PM (2001), Drug Safety — 'Antidepressant Discontinuation Syndromes'\n\n"
             "The Stabilisation Phase\n"
-            "One month represents the transition from acute discontinuation to stabilisation. For most people who completed a gradual taper, the acute neurological discontinuation symptoms are now largely resolved.\n\n"
+            "This review describes discontinuation onset as rapid, typically within days of stopping or reducing an antidepressant, and notes that most reactions are mild and short-lived, resolving without specific treatment. One month represents the transition from that acute window to stabilisation; for most people who completed a gradual taper, the acute discontinuation symptoms are now largely resolved.\n\n"
             "Emotional Landscape at One Month\n"
             "Emotional changes at one month are variable and important to monitor:\n"
             "• Some people feel emotionally 'flatter' initially as the brain adjusts — this typically improves\n"
@@ -123,40 +123,36 @@ class SsriPage extends StatelessWidget {
         title: l10n.ssriMilestone180Title,
         description: l10n.ssriMilestone180Description,
         reference:
-            "PubMed - Long-term effects of antidepressant discontinuation",
-        link: "https://pubmed.ncbi.nlm.nih.gov/40692314/",
+            "Antidepressant Withdrawal Syndrome — Therapeutics Letter (NCBI Bookshelf)",
+        link: "https://www.ncbi.nlm.nih.gov/books/NBK598502/",
         referenceDate: "May 2026",
         referenceContent:
-            "Six Months After SSRIs: Long-Term Brain Adjustment\n\n"
-            "Brain Systems Normalised by Six Months\n"
-            "• Serotonin receptor sensitivity: substantially restored, with 5-HT1A auto-receptor sensitivity returning to normal levels\n"
-            "• Sleep architecture: fully restored, with natural REM and slow-wave sleep cycles\n"
-            "• Sexual function: a common SSRI side effect that resolves post-discontinuation for the vast majority\n\n"
-            "Emotional Experience at Six Months\n"
-            "Many people at the six-month mark describe an emotional experience notably different from what they experienced on SSRIs:\n"
-            "• Wider emotional range — both positive and challenging emotions are more available\n"
-            "• Stronger connection to values and relationships\n"
-            "• Improved sexual function\n"
-            "• Clearer sense of self",
+            "Six Months After SSRIs: A Grounded View\n\n"
+            "Source: \"Antidepressant Withdrawal Syndrome,\" Therapeutics Letter 112 (2018), Therapeutics Initiative, on the NCBI Bookshelf\n\n"
+            "What's Well-Established by Six Months\n"
+            "This review notes that even severe, prolonged withdrawal symptoms typically last weeks to months rather than indefinitely — so by six months the acute withdrawal syndrome has, for the great majority of people, clearly resolved.\n\n"
+            "Being Honest About the Rest\n"
+            "Confident claims that serotonin 5-HT1A receptor sensitivity or sleep architecture 'fully normalise' by a specific date go beyond what this evidence base actually measures. Sexual side effects usually improve after stopping an SSRI, but a minority of people report persistent sexual dysfunction that can last well beyond six months — a recognised possibility worth raising with a prescriber if it applies to you.\n\n"
+            "What People Commonly Report\n"
+            "• A wider emotional range compared with being on medication\n"
+            "• Improved sleep and energy for most\n"
+            "• Continued gradual improvement, though the pace varies widely between individuals",
       ),
       QuitMilestone(
         day: 365,
         title: l10n.ssriMilestone365Title,
         description: l10n.ssriMilestone365Description,
         reference:
-            "PubMed - Antidepressant use and discontinuation in primary care",
+            "Duffy et al. (2021) - ANTLER RCT, Antidepressant Discontinuation in Primary Care (PubMed)",
         link: "https://pubmed.ncbi.nlm.nih.gov/34842135/",
         referenceDate: "May 2026",
         referenceContent:
-            "One Year After SSRIs: Recovery Achieved\n\n"
-            "One Year: A Complete Recovery Cycle\n"
-            "One year after completing an SSRI taper, the brain has had a complete cycle of all four seasons to adapt and stabilise without pharmacological support.\n\n"
-            "What Research Shows at One Year\n"
-            "Studies following people for one year after SSRI discontinuation find that:\n"
-            "• The majority of those who completed a proper taper and received psychological support remain well\n"
-            "• Quality of life measures are comparable or better than those who remained on medication\n"
-            "• The emotional blunting side effect of long-term SSRI use has fully resolved\n"
-            "• Sexual function has returned to normal for the vast majority\n\n"
+            "One Year After SSRIs: An Honest Look at the Evidence\n\n"
+            "Source: Duffy et al. (2021), Health Technology Assessment — the ANTLER trial\n\n"
+            "What This Trial Actually Found\n"
+            "ANTLER followed long-term antidepressant users in UK primary care who either stayed on medication or discontinued. Over the following year, 56% of those who discontinued relapsed, compared with 39% of those who stayed on medication — roughly double the risk — and the discontinuation group reported somewhat lower quality of life on average.\n\n"
+            "The Fuller Picture\n"
+            "Despite the higher relapse rate, a substantial share of people who discontinued did not relapse and remained well without medication. About a third of those who discontinued eventually restarted their antidepressant — a reasonable clinical choice, not a failure.\n\n"
             "A Note on the Future\n"
             "Depression and anxiety are chronic conditions for some people. There is no failure in returning to medication if the underlying condition reasserts itself. The goal is wellbeing — and one year of successful discontinuation is a genuine achievement regardless of what comes next.",
       ),

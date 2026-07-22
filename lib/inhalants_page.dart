@@ -14,56 +14,53 @@ class InhalantsPage extends StatelessWidget {
         day: 1,
         title: l10n.inhalantsMilestone1Title,
         description: l10n.inhalantsMilestone1Description,
-        reference:
-            "Cognitive recovery after volatile solvent abuse (ScienceDirect)",
-        link: "https://pubmed.ncbi.nlm.nih.gov/21497458/",
+        reference: "The Clinical Assessment and Treatment of Inhalant Abuse (PMC)",
+        link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10266853/",
         referenceDate: "June 2026",
         referenceContent:
-            "Stopping Inhalants: Day One\n\nSource: Research on cognitive recovery during and after treatment for volatile solvent abuse\n\nWhy Withdrawal Happens\nChronic inhalant use causes neuroadaptation — the nervous system comes to expect the substance. Many inhalants affect the same brain circuits as alcohol, so stopping leaves the brain temporarily imbalanced. The chemicals clear the blood fast but are stored in body fat, which can make withdrawal timing unpredictable.\n\nEarly Symptoms\n• Headache and nausea\n• Irritability and anxiety\n• Insomnia\n\nA Safety Note\nHeavy users can have more severe withdrawal, including tremor, sweating, and — rarely — seizures. Medical supervision is wise during detox.",
+            "Stopping Inhalants: Day One\n\nSource: Radparvar, \"The Clinical Assessment and Treatment of Inhalant Abuse,\" The Permanente Journal (2023), on PubMed Central\n\nWhy Withdrawal Happens\nChronic inhalant use causes neuroadaptation — the nervous system comes to expect the substance. Many inhalants affect the same brain circuits as alcohol, so stopping leaves the brain temporarily imbalanced. The chemicals clear the blood fast but are stored in body fat, which can make withdrawal timing unpredictable.\n\nEarly Symptoms\nThis review describes inhalant withdrawal as resembling alcohol or benzodiazepine withdrawal, with reported symptoms including:\n• Nausea, vomiting, and sweating\n• Tremor and rapid heart rate\n• Insomnia and sleep disturbance\n• Anxiety and irritability\n\nA Safety Note\nIn more severe cases, the review also lists hallucinations, delusions, and seizures among reported symptoms, though it does not lay out a precise day-by-day schedule — treat these as symptoms that can occur, not a fixed timeline. Medical supervision is wise during detox, especially for heavy, long-term users.",
       ),
       QuitMilestone(
         day: 7,
         title: l10n.inhalantsMilestone7Title,
         description: l10n.inhalantsMilestone7Description,
-        reference:
-            "Cognitive recovery after volatile solvent abuse (ScienceDirect)",
-        link: "https://pubmed.ncbi.nlm.nih.gov/21497458/",
+        reference: "The Clinical Assessment and Treatment of Inhalant Abuse (PMC)",
+        link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10266853/",
         referenceDate: "June 2026",
         referenceContent:
-            "One Week Off Inhalants\n\nSource: Research on cognitive recovery during and after treatment for volatile solvent abuse\n\nThe Acute Window\nInhalant withdrawal is shorter than alcohol or opioid withdrawal but can be intense, peaking around days 2–5. By the end of the first week the acute physical symptoms are usually resolving.\n\nWhat Remains\n• Fatigue and cognitive fog\n• Low or unstable mood\n• Cravings\n\nNote on Early Abstinence\nCognitive function is known to dip in very early abstinence before it recovers — so feeling foggy now does not mean lasting damage; it is part of the early healing curve.",
+            "One Week Off Inhalants\n\nSource: Radparvar, \"The Clinical Assessment and Treatment of Inhalant Abuse,\" The Permanente Journal (2023), on PubMed Central\n\nThe Acute Window\nInhalant withdrawal is described in the clinical literature as resembling alcohol or benzodiazepine withdrawal, but it is generally understood to be shorter-lived. By the end of the first week the acute physical symptoms — nausea, tremor, sweating, insomnia — are usually resolving for most people.\n\nWhat Remains\n• Fatigue and cognitive fog\n• Low or unstable mood\n• Cravings\n\nNote on Early Abstinence\nCognitive fog at this stage does not mean lasting damage — the brain is still recalibrating. Research on how thinking and memory specifically recover over the following weeks and months is covered in later milestones.",
       ),
       QuitMilestone(
         day: 14,
         title: l10n.inhalantsMilestone14Title,
         description: l10n.inhalantsMilestone14Description,
-        reference:
-            "Cognitive recovery after volatile solvent abuse (ScienceDirect)",
-        link: "https://pubmed.ncbi.nlm.nih.gov/21497458/",
+        reference: "The Clinical Assessment and Treatment of Inhalant Abuse (PMC)",
+        link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10266853/",
         referenceDate: "June 2026",
         referenceContent:
-            "Two Weeks Off Inhalants\n\nSource: Research on cognitive recovery during and after treatment for volatile solvent abuse\n\nThrough Acute Withdrawal\nAcute inhalant withdrawal generally resolves within one to two weeks. The body is out of the acute phase, and mood is stabilising.\n\nThe Road Ahead\nThe more important recovery — of attention, memory, and motor function affected by chronic use — is slower and unfolds over the following months. Good nutrition (inhalant use can deplete vitamin B12) and abstinence set the stage for it.",
+            "Two Weeks Off Inhalants\n\nSource: Radparvar, \"The Clinical Assessment and Treatment of Inhalant Abuse,\" The Permanente Journal (2023), on PubMed Central\n\nThrough the Acute Phase\nClinical reviews describe inhalant withdrawal as resembling alcohol or benzodiazepine withdrawal in its symptoms, but generally shorter-lived; by two weeks, the acute symptoms — nausea, tremor, insomnia, anxiety — have typically settled for most people, though the literature does not set an exact cutoff, so pace varies.\n\nThe Road Ahead\nThe more important recovery — of attention, memory, and motor function affected by chronic use — is slower and unfolds over the following months, and research on solvent abusers finds that some cognitive domains recover faster than others. Good nutrition (inhalant use can deplete vitamin B12) and abstinence set the stage for it.",
       ),
       QuitMilestone(
         day: 30,
         title: l10n.inhalantsMilestone30Title,
         description: l10n.inhalantsMilestone30Description,
         reference:
-            "Cognitive recovery after volatile solvent abuse (ScienceDirect)",
+            "Cognitive Recovery During and After Treatment for Volatile Solvent Abuse (PubMed)",
         link: "https://pubmed.ncbi.nlm.nih.gov/21497458/",
         referenceDate: "June 2026",
         referenceContent:
-            "One Month Off Inhalants\n\nSource: Research on cognitive recovery during and after treatment for volatile solvent abuse\n\nWhere One Month Sits\nThe acute syndrome is well behind you. Research shows cognitive function dips in early abstinence and then recovers progressively, so the trajectory now turns upward.\n\nWhat Improves\n• Clearer thinking and attention\n• Steadier mood\n• Better sleep and energy\n\nThe degree and pace of recovery depend on how severe and prolonged the use was.",
+            "One Month Off Inhalants\n\nSource: Dingwall et al., \"Cognitive recovery during and after treatment for volatile solvent abuse,\" Drug and Alcohol Dependence (2011), on PubMed\n\nWhere One Month Sits\nThe acute withdrawal syndrome is well behind you. This study followed solvent abusers through an 8-week treatment program and found an uneven picture in early abstinence: some skills, like paired-associate learning, improved within six weeks, while deficits in visual-motor speed, learning and memory, and executive function often persisted through — and sometimes beyond — treatment rather than simply rebounding.\n\nWhat Can Improve\n• Attention and some learning tasks\n• Mood and sleep, as the body stabilises\n• Motor speed, gradually\n\nAn Honest Note\nThe study's own conclusion is direct: recovery of memory and executive function 'improves gradually over months to years of abstinence, and might never fully recover' for some. The degree and pace depend heavily on how severe and prolonged the prior use was.",
       ),
       QuitMilestone(
         day: 90,
         title: l10n.inhalantsMilestone90Title,
         description: l10n.inhalantsMilestone90Description,
         reference:
-            "Cognitive recovery after volatile solvent abuse (ScienceDirect)",
+            "Cognitive Recovery During and After Treatment for Volatile Solvent Abuse (PubMed)",
         link: "https://pubmed.ncbi.nlm.nih.gov/21497458/",
         referenceDate: "June 2026",
         referenceContent:
-            "Three Months Off Inhalants\n\nSource: Research on cognitive recovery during and after treatment for volatile solvent abuse\n\nProgressive Recovery\nStudies describe recovery of brain function from solvent use as progressive over abstinence, with the pace tied to how impaired someone was to begin with. Three months in, memory, attention, and motor function are continuing to improve.\n\nStaying the Course\nBecause recovery is gradual and continues for a long time, consistency matters more than speed. Each month of abstinence adds to the gains.",
+            "Three Months Off Inhalants\n\nSource: Dingwall et al., \"Cognitive recovery during and after treatment for volatile solvent abuse,\" Drug and Alcohol Dependence (2011), on PubMed\n\nAn Uneven, Longer Process\nThis study followed solvent abusers beyond its 8-week treatment window, reassessing a subset around 12 months later. Recovery wasn't a simple, universal rebound: some domains improved relatively quickly — paired-associate learning within six weeks — while others, including visual-motor speed, learning and memory, and executive function, remained impaired for much longer.\n\nStaying the Course\nThe study's authors were candid that these slower domains 'improve gradually over months to years of abstinence, and might never fully recover' for some people, particularly after long or heavy use. Three months in, continued abstinence is still the strongest lever you have — each month adds to whatever gains are achievable for you.",
       ),
       QuitMilestone(
         day: 365,

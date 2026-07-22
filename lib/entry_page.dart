@@ -44,7 +44,7 @@ class _EntryPageState extends State<EntryPage> {
         day: 14,
         title: l10n.customMilestone14Title,
         description: l10n.customMilestone14Description,
-        reference: "NCBI - Post-Acute Withdrawal Research",
+        reference: "NCBI - Post-Acute Alcohol Withdrawal Research (Illustrative)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9798382/",
       ),
       QuitMilestone(
@@ -59,8 +59,8 @@ class _EntryPageState extends State<EntryPage> {
         title: l10n.customMilestone90Title,
         description: l10n.customMilestone90Description,
         reference:
-            "NIDA - Principles of Drug Addiction Treatment (90-Day Threshold)",
-        link: "https://nida.nih.gov/research-topics/treatment",
+            "Overview of NIDA's Principles of Effective Treatment (90-Day Threshold), PMC",
+        link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC2738623/",
       ),
       QuitMilestone(
         day: 180,

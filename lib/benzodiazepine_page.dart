@@ -133,7 +133,7 @@ class BenzodiazepinePage extends StatelessWidget {
             "The Good News\n"
             "The meta-analysis found that long-term users 'do show recovery of function in many areas after withdrawal.' Around the one-year mark, the broad picture is genuine, measurable cognitive improvement across multiple domains compared with active use.\n\n"
             "The Honest Part\n"
-            "Recovery was not always complete. The analysis found that previous users could still show impairment in several cognitive areas — including aspects of memory and motor performance — even some years after stopping. The effect tends to be broad rather than confined to one skill.\n\n"
+            "Recovery was not complete within the period the evidence actually covers. The meta-analysis found no full restitution of function 'at least in the first 6 months following cessation,' with former users still showing significant impairment in 'most areas of cognition' compared with controls or normative data. The effect is broad rather than confined to one skill; the analysis does not establish how much further recovery occurs beyond that six-month window.\n\n"
             "What This Means at One Year\n"
             "Expect substantial recovery in thinking, memory, and clarity by a year — most people feel markedly sharper than during use. But if some areas still lag, that is consistent with the evidence, not a sign you have stalled. Recovery continues, and a year of abstinence is a major, worthwhile milestone on that path.",
       ),
@@ -173,7 +173,7 @@ class BenzodiazepinePage extends StatelessWidget {
             "What the Evidence Supports\n"
             "This meta-analysis found that long-term benzodiazepine users 'show recovery of function in many areas after withdrawal.' At the two-year mark most people report anxiety at or below their pre-benzo baseline, reliable sleep without medication, steadier emotions, and clearer thinking than during use.\n\n"
             "The Honest Caveat\n"
-            "The same analysis is candid that some residual cognitive effects can persist in a subset of long-term users 'some years after discontinuation,' tending to be broad rather than confined to one domain. For most people this is subtle and continues to improve; it is not a barrier to a full, functional life.\n\n"
+            "The same meta-analysis is candid about the limits of its own evidence: it documents that impairment across 'most areas of cognition' persists 'at least in the first 6 months' of abstinence, but its data does not track users out to two years, so it cannot confirm how complete recovery is by now. What it does support is real recovery of function in many areas after withdrawal; for most people that improvement continues well past six months, even where this particular evidence base stops short of proving it.\n\n"
             "Keeping Perspective\n"
             "The extended benzo timeline is a medical reality, not a personal failing. Reaching two years of sustained recovery — with substantial, evidence-backed improvement across sleep, mood, and cognition — is a profound accomplishment, and healing continues from here.",
       ),
@@ -193,7 +193,7 @@ class BenzodiazepinePage extends StatelessWidget {
             "What the Meta-Analysis Found\n"
             "Pooling studies of withdrawn long-term users, the analysis concluded that they 'show recovery of function in many areas after withdrawal.' The dominant story over years of abstinence is substantial, broad cognitive and functional recovery.\n\n"
             "An Honest Caveat\n"
-            "The authors are clear-eyed that some residual cognitive effects can remain measurable in a subset of former long-term users even years after discontinuation. For most people these are subtle and do not impede daily life — but honesty matters more than a tidy promise of a complete reset.\n\n"
+            "The evidence this milestone rests on documents impairment in 'most areas of cognition' persisting 'at least in the first 6 months' of abstinence — it does not include long-term follow-up data reaching three years, so it cannot confirm exactly how complete recovery is by this point. What is well established is that recovery of function occurs in many areas after withdrawal; honesty matters more than a tidy promise of a complete reset this evidence base does not itself measure.\n\n"
             "A Message of Hope\n"
             "The benzo recovery journey is one of the most demanding in medicine, and three years of sustained healing is a profound achievement. The evidence is clear: the brain heals substantially, most people recover their clarity, sleep, and emotional range, and improvement continues with time.",
       ),

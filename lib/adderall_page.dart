@@ -17,23 +17,22 @@ class AdderallPage extends StatelessWidget {
         link: "https://medlineplus.gov/ency/patientinstructions/000792.htm",
         referenceDate: "June 2026",
         referenceContent:
-            "Amphetamine Withdrawal: What Happens in the First 24 Hours\n\n"
+            "Amphetamine Withdrawal: What Happens Early On\n\n"
             "Source: MedlinePlus (U.S. National Library of Medicine)\n\n"
             "What Are Amphetamines?\n"
             "Amphetamines are stimulant drugs that include both illicit substances (like street speed) and prescription medications used to treat ADHD and narcolepsy (such as Adderall and Vyvanse). They work by flooding the brain with dopamine and norepinephrine, producing intense focus, energy, and euphoria. With regular use, the brain adapts by reducing its own dopamine production and receptor sensitivity — meaning the drug becomes necessary just to feel normal.\n\n"
-            "The First 24 Hours: The Crash\n"
-            "When amphetamine use stops, the brain's dopamine system is severely depleted. The first 24 hours bring the characteristic 'crash': profound fatigue, increased sleep (hypersomnia), increased appetite, and a low, depressed mood. This is the brain's acute response to the sudden absence of artificial dopamine stimulation.\n\n"
             "Common Withdrawal Symptoms\n"
-            "• Extreme tiredness and difficulty staying awake\n"
-            "• Increased hunger (appetite suppression ends)\n"
-            "• Depression and emotional flatness (anhedonia)\n"
-            "• Irritability and agitation\n"
-            "• Intense cravings for the drug\n"
-            "• Anxiety and difficulty concentrating\n\n"
+            "MedlinePlus lists these as typical when stopping amphetamines:\n"
+            "• Strong craving for the drug\n"
+            "• Mood swings ranging from depressed to agitated to anxious\n"
+            "• Feeling tired all day\n"
+            "• Not able to concentrate\n"
+            "• Hallucinations (seeing or hearing things that are not there)\n"
+            "• Physical reactions such as headaches, aches and pains, increased appetite, and not sleeping well\n\n"
             "Is Withdrawal Dangerous?\n"
-            "Unlike alcohol or benzodiazepine withdrawal, amphetamine withdrawal is not typically medically dangerous in terms of seizures or physical complications. However, the psychological symptoms — particularly depression — can be severe and require support. People with pre-existing mental health conditions are at higher risk for serious depressive episodes during this phase.\n\n"
-            "Medical Supervision\n"
-            "MedlinePlus recommends seeking medical help when stopping amphetamines, especially after heavy or prolonged use. A healthcare provider can monitor for severe depression and provide support through the withdrawal process.",
+            "MedlinePlus does not describe amphetamine withdrawal as medically dangerous in itself, but notes that severe symptoms may call for a live-in treatment program, and that mood and emotional problems from amphetamine use — including depression — can be serious and require support.\n\n"
+            "Getting Help\n"
+            "MedlinePlus advises contacting your healthcare provider if you or someone you know is addicted to amphetamines and needs help to stop using. If you have thoughts of self-harm, it directs readers to crisis resources such as 988 or 911.",
       ),
       QuitMilestone(
         day: 3,

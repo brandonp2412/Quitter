@@ -23,7 +23,7 @@ class TcaPage extends StatelessWidget {
         referenceDate: "May 2026",
         referenceContent:
             "TCA Discontinuation: The First Days — Cholinergic Rebound\n\n"
-            "Source: Dilsaver & Greden (1984), Psychopharmacology — 'Antidepressant withdrawal phenomena'\n\n"
+            "Source: Dilsaver, Feinberg & Greden (1983), American Journal of Psychiatry — 'Antidepressant withdrawal symptoms treated with anticholinergic agents' (case report, 3 patients)\n\n"
             "What Makes TCA Discontinuation Different\n"
             "Tricyclic antidepressants differ fundamentally from SSRIs and SNRIs in their mechanism. In addition to blocking serotonin and norepinephrine reuptake, TCAs strongly block the body's acetylcholine system. When you stop, that system bounces back.\n\n"
             "Cholinergic Rebound Symptoms\n"
@@ -59,8 +59,9 @@ class TcaPage extends StatelessWidget {
         day: 14,
         title: l10n.tcaMilestone14Title,
         description: l10n.tcaMilestone14Description,
-        reference: "PubMed - Tricyclic antidepressant discontinuation",
-        link: "https://pubmed.ncbi.nlm.nih.gov/11347722/",
+        reference:
+            "PubMed - Garner et al. (1993), Annals of Pharmacotherapy — 'Tricyclic antidepressant withdrawal syndrome'",
+        link: "https://pubmed.ncbi.nlm.nih.gov/8219442/",
         referenceDate: "May 2026",
         referenceContent:
             "Two Weeks After TCAs: Anticholinergic Effects Reversing\n\n"
@@ -82,16 +83,16 @@ class TcaPage extends StatelessWidget {
         day: 30,
         title: l10n.tcaMilestone30Title,
         description: l10n.tcaMilestone30Description,
-        reference: "PubMed - Antidepressant discontinuation syndrome: a review",
-        link: "https://pubmed.ncbi.nlm.nih.gov/16390895/",
+        reference: "PubMed - Warner et al. (2006), American Family Physician — 'Antidepressant discontinuation syndrome'",
+        link: "https://pubmed.ncbi.nlm.nih.gov/16913164/",
         referenceDate: "May 2026",
         referenceContent:
             "One Month After TCAs: Autonomic Nervous System Stabilising\n\n"
             "Cardiac Recovery\n"
-            "TCAs affect heart rhythm during use. At one month:\n"
-            "• Heart rhythm has returned to normal\n"
-            "• Heart rate variability is returning to natural levels\n"
-            "• Blood pressure regulation, previously affected by the drug's action on adrenaline pathways, is stabilising\n\n"
+            "TCAs affect heart rhythm during use through their action on both the cholinergic and adrenergic nervous systems. The clinical literature on TCA discontinuation confirms that acute withdrawal symptoms — including the autonomic effects driven by this 'cholinergic and adrenergic overdrive' — are typically mild and resolve within one to two weeks of stopping. By one month, most people are well past this acute window, and can expect:\n"
+            "• Heart rhythm settling back toward its pre-medication baseline\n"
+            "• Heart rate variability trending toward natural levels\n"
+            "• Blood pressure regulation, previously affected by the drug's action on adrenaline pathways, continuing to stabilise\n\n"
             "Sleep Architecture Restoration\n"
             "TCAs strongly suppress dream sleep. As the anticholinergic effect wears off (acetylcholine is needed for dream sleep):\n"
             "• REM sleep is returning, often producing a surge of vivid dreams as dream sleep returns\n"
@@ -103,19 +104,21 @@ class TcaPage extends StatelessWidget {
         title: l10n.tcaMilestone90Title,
         description: l10n.tcaMilestone90Description,
         reference:
-            "PubMed - Long-term cognitive effects of tricyclic antidepressants",
+            "PubMed - Jakobsen et al. (2024), BMJ Mental Health — 'Benefits and harms of tricyclic antidepressants'",
         link: "https://pubmed.ncbi.nlm.nih.gov/39093721/",
         referenceDate: "May 2026",
         referenceContent:
-            "Three Months After TCAs: Multiple Neurotransmitter Systems Normalising\n\n"
+            "Three Months After TCAs: Leaving the Real Risks Behind\n\n"
+            "What the Evidence Actually Shows\n"
+            "A 2024 meta-analysis of 103 randomised trials (10,590 participants) found that, compared with placebo, TCAs do reduce depressive symptoms — but also come with nearly triple the odds of a serious adverse event (odds ratio 2.78). The trials themselves only followed people for up to 12 weeks on-treatment, so there's no controlled long-term data on what happens after stopping. Everything below reflects general clinical understanding of TCA pharmacology, not a specific finding from this trial evidence.\n\n"
             "The Multi-System Recovery\n"
             "TCAs affect a broader range of neurotransmitter systems than SSRIs or SNRIs:\n"
             "• Serotonin system: adjusting\n"
             "• Noradrenaline system: adjusting\n"
             "• Acetylcholine system: settling back to normal\n"
             "• Histamine system: the antihistamine-like sedation has resolved\n\n"
-            "At three months, all of these systems have had substantial time to recover. The combination typically produces:\n"
-            "• Significantly improved cognitive function — particularly memory and attention\n"
+            "At three months, all of these systems have had substantial time to recover, and — just as importantly — the elevated serious-adverse-event risk that comes with active TCA treatment is behind you. Many people notice:\n"
+            "• Improved cognitive function — particularly memory and attention\n"
             "• Better mood stability\n"
             "• Improved energy and motivation\n"
             "• Reduced sedation and improved alertness",
@@ -124,18 +127,20 @@ class TcaPage extends StatelessWidget {
         day: 180,
         title: l10n.tcaMilestone180Title,
         description: l10n.tcaMilestone180Description,
-        reference: "PubMed - Cognitive recovery after antidepressant treatment",
-        link: "https://pubmed.ncbi.nlm.nih.gov/16390895/",
+        reference: "PubMed - Warner et al. (2006), American Family Physician — 'Antidepressant discontinuation syndrome'",
+        link: "https://pubmed.ncbi.nlm.nih.gov/16913164/",
         referenceDate: "May 2026",
         referenceContent:
             "Six Months After TCAs: Cardiac and Cognitive Recovery\n\n"
+            "An Honest Note on Long-Term Data\n"
+            "The clinical literature on TCA discontinuation is clear that the acute withdrawal syndrome — including the cholinergic and adrenergic overdrive behind autonomic symptoms — is usually mild and resolves within one to two weeks. There isn't a dedicated study tracking cardiac or cognitive markers specifically at six months post-TCA; what follows reflects general clinical understanding for someone this far past a completed, medically supervised taper.\n\n"
             "Cardiovascular Recovery\n"
-            "TCAs' effects on heart rhythm have fully resolved by six months. Research shows:\n"
+            "By six months, TCAs' direct effects on heart rhythm should be long resolved:\n"
             "• Normal heart rhythm maintained without pharmacological influence\n"
-            "• Heart rate variability (a measure of how well your heart adapts) substantially improved\n"
+            "• Heart rate variability (a measure of how well your heart adapts) expected to be substantially improved\n"
             "• Dizziness on standing fully resolved\n\n"
             "Cognitive Recovery\n"
-            "The cognitive burden of TCAs' long-term effect on the acetylcholine system can be significant, particularly in older adults. Research on this cognitive burden suggests:\n"
+            "The cognitive burden of TCAs' anticholinergic effect on the brain can be significant, particularly in older adults, and case reports document meaningful improvement once the drug is stopped. At six months out:\n"
             "• Memory consolidation substantially improved\n"
             "• Processing speed normalised\n"
             "• Executive function — planning, working memory, cognitive flexibility — meaningfully recovered",
@@ -145,13 +150,13 @@ class TcaPage extends StatelessWidget {
         title: l10n.tcaMilestone365Title,
         description: l10n.tcaMilestone365Description,
         reference:
-            "PubMed - Antidepressant use and discontinuation in primary care",
-        link: "https://pubmed.ncbi.nlm.nih.gov/34842135/",
+            "PubMed - Haddad (2001), Drug Safety — 'Antidepressant discontinuation syndromes'",
+        link: "https://pubmed.ncbi.nlm.nih.gov/11347722/",
         referenceDate: "May 2026",
         referenceContent:
             "One Year After TCAs: Recovery Achieved\n\n"
             "One Year: Complete Multi-System Recovery\n"
-            "One year after completing a TCA taper, all affected neurotransmitter systems — serotonin, noradrenaline, acetylcholine, and histamine — have had a complete cycle to normalise.\n\n"
+            "This review of antidepressant discontinuation syndromes — covering TCAs, MAOIs, SSRIs, and others — found that withdrawal symptoms typically begin within days of stopping and, left untreated, resolve on their own within days to a couple of weeks. There's no study that specifically re-measures TCA-affected systems a year out, but a year after completing a taper is many months beyond even the longest reported discontinuation symptoms, so all affected neurotransmitter systems — serotonin, noradrenaline, acetylcholine, and histamine — can be expected to have had a complete cycle to normalise.\n\n"
             "The Significance of TCA Recovery\n"
             "TCAs impose a broader pharmacological burden than newer antidepressants, affecting more receptor systems simultaneously. Successful discontinuation represents the recovery of multiple systems:\n"
             "• Complete reversal of the memory and thinking impairment caused by TCAs' acetylcholine blocking\n"

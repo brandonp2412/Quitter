@@ -38,7 +38,7 @@ class MarijuanaPage extends StatelessWidget {
             "Marijuana Withdrawal: Day One\n\n"
             "Source: \"The cannabis withdrawal syndrome: current insights,\" Substance Abuse and Rehabilitation (2017), on PubMed Central\n\n"
             "Cannabis Withdrawal Is Real\n"
-            "This peer-reviewed review establishes that Cannabis Withdrawal Syndrome (CWS) is a well-validated clinical condition, occurring in roughly half of regular, dependent users after they stop. Its average peak severity is comparable to that of a tobacco withdrawal syndrome.\n\n"
+            "This peer-reviewed review establishes that Cannabis Withdrawal Syndrome (CWS) is a well-validated clinical condition, occurring in roughly 90% of people diagnosed with cannabis dependence after they stop. Its average peak severity is comparable to that of a tobacco withdrawal syndrome.\n\n"
             "Why Withdrawal Happens\n"
             "THC acts on the endocannabinoid system — CB1 receptors involved in mood, appetite, sleep, memory, and stress. With chronic use the brain downregulates this system; when cannabis stops, it is temporarily underactive. The review notes CB1 receptors return to normal functioning within about four weeks of abstinence.\n\n"
             "Onset on Day One\n"
@@ -130,97 +130,88 @@ class MarijuanaPage extends StatelessWidget {
         day: 30,
         title: l10n.marijuanaMilestone30Title,
         description: l10n.marijuanaMilestone30Description,
-        reference: "Harvard Health - Effects of Marijuana on Memory",
-        link:
-            "https://www.health.harvard.edu/mind-and-mood/the-effects-of-marijuana-on-your-memory",
-        referenceDate: "March 2026",
+        reference:
+            "Pope et al. (2001) - Neuropsychological Performance in Long-term Cannabis Users (PubMed)",
+        link: "https://pubmed.ncbi.nlm.nih.gov/11576028/",
+        referenceDate: "July 2026",
         referenceContent:
             "One Month Without Cannabis: Memory Function Improves\n\n"
-            "Source: Harvard Health Publishing\n\n"
+            "Source: Pope et al. (2001), Archives of General Psychiatry\n\n"
             "Cannabis and Memory: The Problem\n"
-            "Harvard Health documents that cannabis has well-established effects on memory — particularly short-term memory and the ability to form new memories. THC disrupts hippocampal function (the brain region central to memory formation) by binding to CB1 receptors in the hippocampus. Chronic heavy users show measurable impairments in verbal memory, working memory, and learning.\n\n"
-            "The Good News: Recovery\n"
-            "Harvard Health's review of the evidence indicates that memory impairments caused by cannabis use are substantially reversible with abstinence. Studies show that memory performance begins improving within days of stopping, with continued improvement over weeks and months.\n\n"
-            "Memory Recovery at 30 Days\n"
-            "At one month of abstinence, memory function has typically improved significantly compared to active use:\n"
-            "• Verbal learning and recall improving toward normal\n"
-            "• Short-term memory meaningfully better\n"
-            "• Working memory recovering\n\n"
-            "Harvard's Nuanced View\n"
-            "Harvard Health notes that recovery is most complete in adults and in those who began using cannabis as adults. Early-onset use (adolescence) is associated with more persistent effects, highlighting why early use is particularly concerning.",
+            "This study monitored heavy, long-term cannabis users through 28 days of confirmed abstinence and compared their neuropsychological performance with light users and non-users. At the start of abstinence, and again at days 1 and 7, heavy users performed worse than controls on recall of word lists — a deficit that tracked with their urinary THC metabolite levels, reflecting recent drug exposure rather than lifetime use.\n\n"
+            "The Good News: Recovery by Day 28\n"
+            "By day 28 of monitored abstinence, the study found virtually no significant differences between heavy users, light users, and non-users on any of the neuropsychological tests. There was also no significant relationship between total lifetime cannabis use and test performance at that point.\n\n"
+            "What This Means at 30 Days\n"
+            "• Verbal learning and recall have returned to control-group levels\n"
+            "• The residual deficits seen in the first week have resolved\n"
+            "• The remaining deficit earlier on was tied to recent exposure, not permanent damage\n\n"
+            "A Balanced View\n"
+            "This finding is reassuring for verbal memory specifically, but it's one study using one battery of tests — it doesn't rule out subtler or longer-lasting effects in some users, particularly those who started using heavily as adolescents.",
       ),
       QuitMilestone(
         day: 60,
         title: l10n.marijuanaMilestone60Title,
         description: l10n.marijuanaMilestone60Description,
-        reference: "NCBI - Impact of Abstinence on Cannabis-Related Cognition",
-        link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC7483189/",
-        referenceDate: "March 2026",
+        reference:
+            "Roten et al. (2015) - Cognitive performance in a placebo-controlled pharmacotherapy trial for youth with marijuana dependence (PubMed)",
+        link: "https://pubmed.ncbi.nlm.nih.gov/25661990/",
+        referenceDate: "July 2026",
         referenceContent:
             "Two Months Without Cannabis: Concentration Sharpens\n\n"
-            "Source: NCBI/PMC — Peer-reviewed research on cannabis abstinence and cognition\n\n"
+            "Source: Roten et al. (2015), Addictive Behaviors\n\n"
             "The Research Question\n"
-            "This meta-analysis examined studies on the cognitive effects of cannabis and how they change with abstinence. The results provide a comprehensive picture of cognitive recovery over time.\n\n"
+            "This secondary analysis of a placebo-controlled cannabis-cessation trial in youth tracked cognitive test scores against urine cannabinoid testing over the roughly two-month treatment course, comparing participants who were not abstinent, recently abstinent, and consistently abstinent.\n\n"
             "Key Findings\n"
-            "The research found that cognitive impairments associated with cannabis use are predominantly reversible with sustained abstinence. The domains showing the most significant improvement with abstinence include:\n"
-            "• Attention and concentration — significant improvement documented\n"
-            "• Processing speed — recovering toward non-user levels\n"
-            "• Executive function — measurably improved\n"
-            "• Memory consolidation — substantially better\n\n"
+            "Consistent abstinence was associated with significant improvement in:\n"
+            "• Composite memory score\n"
+            "• Verbal memory specifically — the most affected domain\n"
+            "• Psychomotor performance\n\n"
             "At Two Months\n"
-            "By the 60-day mark, concentration and attention are typically near normal for most users. The experience many people describe as being able to 'focus' and 'think clearly' again is well-supported by this research. The cannabis-induced blunting of cognitive sharpness is largely reversed.\n\n"
+            "By roughly eight weeks of consistent abstinence, memory and psychomotor performance scores had climbed measurably above where they sat during active use, tracking closely with confirmed non-use rather than time alone.\n\n"
             "Important Caveat\n"
-            "The research notes that heavy adolescent-onset users may show slower and less complete cognitive recovery than adult-onset users, consistent with cannabis's greater impact on the developing brain.",
+            "This trial was conducted in adolescents and young adults with marijuana dependence, so it speaks most directly to that group; broader claims about attention, executive function, or adult users draw on a wider body of research beyond this single trial.",
       ),
       QuitMilestone(
         day: 90,
         title: l10n.marijuanaMilestone90Title,
         description: l10n.marijuanaMilestone90Description,
-        reference: "NCBI - Clinical Management of Cannabis Withdrawal",
+        reference:
+            "Connor et al. (2022) - Clinical management of cannabis withdrawal (PMC)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9110555/",
-        referenceDate: "March 2026",
+        referenceDate: "July 2026",
         referenceContent:
             "Three Months Without Cannabis: Mood Stability Returns\n\n"
-            "Source: NCBI/PMC — Peer-reviewed research on cannabis withdrawal management\n\n"
-            "The Mood–Cannabis Relationship\n"
-            "This research examines the clinical management of cannabis withdrawal with particular attention to mood. The relationship between cannabis and mood is complex: cannabis is often used to manage anxiety and depression, but chronic use worsens both conditions over time through endocannabinoid system dysregulation.\n\n"
-            "Mood at Three Months\n"
-            "By the three-month mark, mood stability has typically improved substantially beyond what it was during active use and certainly beyond early withdrawal:\n"
-            "• Baseline anxiety is typically lower than it was during heavy cannabis use\n"
-            "• Depression, if present, is usually less severe and more manageable\n"
-            "• Emotional regulation — the ability to tolerate distress without using cannabis — has improved\n"
-            "• The endocannabinoid system has largely recovered its natural function\n\n"
-            "The Endocannabinoid System Recovery\n"
-            "The endocannabinoid system regulates mood, stress response, appetite, sleep, and pain. Three months of cannabis abstinence allows substantial recovery of endocannabinoid receptor sensitivity and natural endocannabinoid production, which underlies the mood improvements observed at this stage.\n\n"
-            "Therapeutic Engagement\n"
-            "The research emphasises that three months is an excellent time for therapeutic intervention — the brain is neurologically capable of learning and adopting new coping strategies, and the distress of acute withdrawal is well past.",
+            "Source: Connor et al. (2022), Addiction — a clinical review of cannabis withdrawal\n\n"
+            "What the Withdrawal Timeline Actually Looked Like\n"
+            "This review describes cannabis withdrawal symptoms typically starting 24–48 hours after cessation and peaking around days 2–6. Anger, aggression, and depressed mood can appear as early as one week but typically peak after about two weeks of abstinence; sleep disturbance in particular can persist longer than other symptoms.\n\n"
+            "Where Three Months Sits\n"
+            "By the three-month mark, you are well past every stage of the withdrawal timeline this review describes — including the slower-resolving sleep disturbance. The review doesn't report a specific three-month mood or anxiety data point, so this milestone reflects being past the documented withdrawal course rather than a specific finding about mood at 90 days.\n\n"
+            "A Note on the Endocannabinoid System\n"
+            "The review discusses endocannabinoid neurobiology in general terms — including that FAAH (an enzyme that breaks down the endocannabinoid anandamide) is altered in chronic and recent cannabis users — but it doesn't give a timeline for when the endocannabinoid system fully readjusts after stopping.\n\n"
+            "Looking Ahead\n"
+            "The review also discusses post-detoxification prognosis and relapse prevention, underlining that ongoing support and coping strategies matter well beyond the acute withdrawal window.",
       ),
       QuitMilestone(
         day: 180,
         title: l10n.marijuanaMilestone180Title,
         description: l10n.marijuanaMilestone180Description,
-        reference: "NCBI - Cannabis Effects on Executive Function",
+        reference:
+            "Crean et al. (2011) - An Evidence Based Review of Acute and Long-Term Effects of Cannabis Use on Executive Cognitive Functions (PMC)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3037578/",
-        referenceDate: "March 2026",
+        referenceDate: "July 2026",
         referenceContent:
             "Six Months Without Cannabis: Executive Function Recovery\n\n"
-            "Source: NCBI/PMC — Peer-reviewed research on cannabis and executive function\n\n"
+            "Source: Crean, Crane & Mason (2011), Journal of Addiction Medicine\n\n"
             "Executive Function and Cannabis\n"
-            "This research reviewed the evidence on cannabis's impact on executive function — the set of cognitive abilities that include planning, decision-making, impulse control, cognitive flexibility, and working memory. These functions are primarily governed by the prefrontal cortex, which has a high density of cannabinoid receptors.\n\n"
+            "This review examined cannabis's impact on executive cognitive functions — attention, decision-making, inhibition, working memory, and verbal fluency — across three windows: acute effects (0–6 hours), residual effects (7 hours to 20 days), and long-term effects (21+ days and beyond). It doesn't define a six-month benchmark specifically, but by that point you are well into its 'long-term' window.\n\n"
             "What the Research Found\n"
-            "Heavy cannabis users show measurable deficits in executive function compared to non-users, including:\n"
-            "• Impaired planning and problem-solving\n"
-            "• Reduced cognitive flexibility (difficulty shifting between tasks or perspectives)\n"
-            "• Impaired impulse control\n"
-            "• Working memory deficits\n\n"
-            "Recovery at Six Months\n"
-            "The research documents that executive function shows substantial recovery with sustained abstinence. By six months, most executive function domains have largely normalised in adult-onset users. People at this stage report being able to:\n"
-            "• Plan and execute complex tasks effectively\n"
-            "• Make clear-headed decisions\n"
-            "• Manage impulses and delay gratification\n"
-            "• Think flexibly and creatively\n\n"
+            "Several deficits linked to heavy use recede with sustained abstinence, and some cited studies found recovery on certain measures by 28 days off cannabis. But the review is careful to flag deficits that don't reliably resolve, including:\n"
+            "• Decision-making and risk-taking — specifically flagged as domains where deficits can persist long-term in heavy, chronic users\n"
+            "• Abstract reasoning and verbal skills — particularly impaired in adults who began using before age 17\n\n"
+            "The Early-Onset Caveat\n"
+            "This is the review's central warning: adolescent-onset heavy use may disrupt normal brain maturation, and 'impairments may emerge that do not remit with abstinence' when use began before executive functions had fully developed. If you started using heavily as a teenager, six months of abstinence is a genuine achievement, but it isn't a guarantee that every cognitive effect has fully reversed.\n\n"
             "The Broader Picture\n"
-            "Six months of cannabis-free living typically brings a quality-of-life transformation: clearer thinking, better decision-making, more productive work or study, and a stronger sense of self-direction.",
+            "For adult-onset, lighter use, the outlook is more favourable — many people at six months report clearer thinking, steadier decision-making, and a stronger sense of self-direction. The review's caution is mainly aimed at heavy, early-onset users.",
       ),
       QuitMilestone(
         day: 365,

@@ -30,7 +30,7 @@ class MethPage extends StatelessWidget {
             "• Strong cravings\n"
             "• Anxiety and irritability\n\n"
             "Physical Safety\n"
-            "The methamphetamine withdrawal syndrome itself is not generally life-threatening, but the depressive and (in some) psychotic symptoms measured in this study can be severe early on and may include suicidal thoughts. Medical supervision is strongly advisable, especially for heavy users.\n\n"
+            "The methamphetamine withdrawal syndrome itself is not generally life-threatening, but the depression-related symptoms measured in this study can be severe early on and may include suicidal thoughts. Medical supervision is strongly advisable, especially for heavy users.\n\n"
             "It Starts to Lift\n"
             "The encouraging finding from this research: severity is highest at the very start and then falls. From this 24-hour peak, symptoms decline steadily over the following days — the worst point is the beginning.",
       ),
@@ -55,7 +55,7 @@ class MethPage extends StatelessWidget {
             "• Disturbed sleep — insomnia alternating with hypersomnia\n"
             "• Continued fatigue\n\n"
             "Why It Feels This Way\n"
-            "Meth withdrawal's intensity reflects the scale of dopamine depletion it causes. The depressive and psychotic symptoms the study measured are most evident in these early days — but importantly, it found they 'largely resolve within a week of abstinence.'\n\n"
+            "Meth withdrawal's intensity reflects the scale of dopamine depletion it causes. The depression-related symptoms the study measured are most evident in these early days — but importantly, the study found overall withdrawal severity 'reducing to near control levels by the end of the first week of abstinence.'\n\n"
             "This Will Pass\n"
             "The hardest stretch is the first few days, and the data show a steady decline from here. Understanding this state as temporary and neurological — not a permanent condition — helps in getting through it.",
       ),
@@ -71,7 +71,7 @@ class MethPage extends StatelessWidget {
             "One Week Without Meth: The Acute Phase Ends\n\n"
             "Source: McGregor et al., \"The nature, time course and severity of methamphetamine withdrawal,\" Addiction (2005), on PubMed\n\n"
             "End of the Acute Phase\n"
-            "This is one of the most encouraging findings in the research. The study reported that overall withdrawal severity 'reduced to near control levels by the end of the first week of abstinence' — the acute phase. Depressive and psychotic symptoms also 'largely resolved within a week.' The steepest part of the climb is behind you.\n\n"
+            "This is one of the most encouraging findings in the research. The study reported that overall withdrawal severity — including the depression-related symptoms it tracked — 'reduced to near control levels by the end of the first week of abstinence,' marking the end of the acute phase. The steepest part of the climb is behind you.\n\n"
             "Two Phases of Withdrawal\n"
             "The authors described meth withdrawal as having:\n"
             "• An acute phase lasting about 7–10 days, in which symptom severity falls steadily from its early peak\n"
@@ -99,7 +99,7 @@ class MethPage extends StatelessWidget {
             "Tracking the First Five Weeks\n"
             "This study followed methamphetamine-dependent participants who stayed abstinent for up to five weeks, comparing them with healthy controls — giving an unusually clear picture of where the one-month mark sits.\n\n"
             "What Has Improved by One Month\n"
-            "• Depressive symptoms 'decreased substantially over the first 2 weeks of abstinence to stable low levels,' and by the end of four weeks no longer differed meaningfully from healthy controls\n"
+            "• Depressive symptoms 'decreased substantially over the first 2 weeks of abstinence to stable low levels,' and by the end of four weeks were approaching, though not yet statistically matching, healthy-control levels (the gap had narrowed to a borderline, non-significant trend)\n"
             "• Psychiatric and psychotic-type symptoms had reached a low baseline by the end of the second week\n"
             "So at 30 days, the heavy depression of early withdrawal has largely lifted — a genuine, measured improvement.\n\n"
             "What Still Lingers\n"
@@ -121,7 +121,7 @@ class MethPage extends StatelessWidget {
             "About This Research\n"
             "This landmark PET-imaging study by Nora Volkow's team (Volkow later became Director of NIDA) scanned methamphetamine users twice — once during short abstinence (around three months) and again during protracted abstinence (around 14 months) — to see how the dopamine system recovers.\n\n"
             "Where Three Months Sits\n"
-            "Honesty matters here: at the short-abstinence scan — close to the three-month mark — dopamine transporter (DAT) levels in the striatum were still markedly reduced compared with healthy controls. The big rebound in this study did not appear at three months; it emerged later, with much longer abstinence.\n\n"
+            "Honesty matters here: this study's 'short abstinence' scan covered anyone under six months off meth, a window that includes the three-month mark — and at that stage, dopamine transporter (DAT) levels had not yet shown the rebound the study went on to measure. The DAT increase this research found (roughly +16% to +19% in the striatum) only showed up at the second scan, after 12–17 months of abstinence, not at three months.\n\n"
             "What That Means For You\n"
             "By 90 days the acute withdrawal is far behind you, mood and sleep have improved, and engagement with therapy becomes far more productive. But the deeper dopamine recovery is a longer project that unfolds over the following year. If motivation and pleasure still feel muted at three months, that is expected and not a sign of failure — the trajectory in this study is clearly upward from here.\n\n"
             "Why It's Worth the Wait\n"
@@ -164,9 +164,9 @@ class MethPage extends StatelessWidget {
             "The Good News: Thalamus and Cognition\n"
             "Metabolism in the thalamus increased with protracted abstinence, and — importantly — this was 'functionally significant,' linked to improved performance on motor and verbal memory tasks. The brain measurably regained function, and that recovery showed up in real-world thinking and memory.\n\n"
             "The Honest Part: Some Deficits Persist\n"
-            "Recovery was partial. Metabolism in the striatum — especially the caudate and nucleus accumbens — did NOT recover and remained below that of healthy comparison subjects. The authors linked this lingering accumbens deficit to the lack of motivation and anhedonia that some people report as long as two years after their last use.\n\n"
+            "Recovery was partial. Metabolism in the striatum — especially the caudate and nucleus accumbens — did NOT recover and remained below that of healthy comparison subjects. The authors linked this lingering accumbens deficit to the lack of motivation and anhedonia some people report even after 12 to 17 months of abstinence, the protracted-abstinence window this study examined.\n\n"
             "What This Means at One Year\n"
-            "At a year, expect a brain that thinks and remembers far better than in early recovery — clear, measurable healing. But if motivation or the ability to feel pleasure still lag at times, that is consistent with the science, not a personal failing: those reward circuits recover more slowly, and for some they keep improving well into the second year.",
+            "At a year, expect a brain that thinks and remembers far better than in early recovery — clear, measurable healing. But if motivation or the ability to feel pleasure still lag at times, that is consistent with the science, not a personal failing: this study found those reward circuits can recover more slowly, with some deficits still present well over a year out.",
       ),
       QuitMilestone(
         day: 420,
