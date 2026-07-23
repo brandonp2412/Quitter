@@ -1,0 +1,4 @@
+• Improve quitting copy & references
+• Update serena.yml
+• Fix correct 15 wrong or broken study reference URLs
+• Fix correct remaining inaccurate study citations across milestone pages
