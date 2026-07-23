@@ -14,21 +14,23 @@ class SteroidsPage extends StatelessWidget {
         day: 1,
         title: l10n.steroidsMilestone1Title,
         description: l10n.steroidsMilestone1Description,
-        reference: "Prolonged Hypogonadism Following AAS Withdrawal (PMC)",
-        link: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4398624/",
-        referenceDate: "June 2026",
+        reference:
+            "Common symptoms associated with usage and cessation of anabolic androgenic steroids in men (PubMed)",
+        link: "https://pubmed.ncbi.nlm.nih.gov/35999138/",
+        referenceDate: "July 2026",
         referenceContent:
-            "Stopping Anabolic Steroids: The First Days\n\nSource: \"Prolonged Hypogonadism in Males Following Withdrawal from Anabolic-Androgenic Steroids,\" on PubMed Central\n\nWhy Symptoms Appear\nAnabolic steroids work by telling the body to stop making its own testosterone — the brain detects the steroids and shuts off the hormonal signals that normally drive production. When you stop using them, the body is left in a hormone gap while those signals slowly switch back on.\n\nEarly Symptoms\n• Fatigue and low mood\n• Reduced libido and erectile difficulty\n• Low motivation\n\nA Safety Note\nDepression during steroid withdrawal can be serious. Seek medical care, and urgent help for any thoughts of self-harm. Clinicians often guide recovery; some use medications to support it.",
+            "Stopping Anabolic Steroids: The First Days\n\nSource: \"Common symptoms associated with usage and cessation of anabolic androgenic steroids in men,\" Best Practice & Research Clinical Endocrinology & Metabolism (2022)\n\nThe Acute Phase\nThis review describes AAS withdrawal as unfolding in two phases. The first, driven by sympathetic nervous system activation rather than hormone levels, appears within 1–2 days of stopping and can include:\n• Headache\n• Tremors\n• Palpitations\n• Nausea\n\nWhy Symptoms Appear\nAnabolic steroids also suppress the body's own testosterone production — the brain detects the steroids and shuts off the hormonal signals that normally drive it. That suppression persists after stopping, setting up the second, longer-lasting phase of withdrawal described in later milestones.\n\nA Safety Note\nDepression can emerge during steroid withdrawal and become serious. Seek medical care, and urgent help for any thoughts of self-harm. Clinicians often guide recovery; some use medications to support it.",
       ),
       QuitMilestone(
         day: 14,
         title: l10n.steroidsMilestone14Title,
         description: l10n.steroidsMilestone14Description,
-        reference: "Prolonged Hypogonadism Following AAS Withdrawal (PMC)",
-        link: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4398624/",
-        referenceDate: "June 2026",
+        reference:
+            "Common symptoms associated with usage and cessation of anabolic androgenic steroids in men (PubMed)",
+        link: "https://pubmed.ncbi.nlm.nih.gov/35999138/",
+        referenceDate: "July 2026",
         referenceContent:
-            "Two Weeks Off Anabolic Steroids\n\nSource: \"Prolonged Hypogonadism in Males Following Withdrawal from Anabolic-Androgenic Steroids,\" on PubMed Central\n\nStill at Low Ebb\nAt two weeks, natural testosterone is still significantly suppressed — the hormonal system takes months to reset, so symptoms haven't shifted much since week one. That is expected, not a sign something is wrong.\n\nA Known Trap\nResearch notes that some men return to using specifically to escape this gap — a cycle that resets the recovery clock rather than ending it. Support from a doctor or counsellor helps bridge this phase rather than medicating it with more steroids.",
+            "Two Weeks Off Anabolic Steroids\n\nSource: \"Common symptoms associated with usage and cessation of anabolic androgenic steroids in men,\" Best Practice & Research Clinical Endocrinology & Metabolism (2022)\n\nThe Chronic Phase Sets In\nBy two weeks, the brief sympathetic symptoms of the first days have typically passed, and the review's second phase — driven by ongoing testosterone deficiency — is more prominent:\n• Fatigue and low mood\n• Muscle aches (myalgia)\n• Reduced libido\n• Insomnia and cravings\n\nStill at Low Ebb\nNatural testosterone production takes far longer than two weeks to reset, so this phase is expected rather than a sign something is wrong.\n\nA Known Trap\nSome men return to using specifically to escape this gap — a cycle that resets the recovery clock rather than ending it. Support from a doctor or counsellor helps bridge this phase rather than medicating it with more steroids.",
       ),
       QuitMilestone(
         day: 30,
@@ -61,7 +63,7 @@ class SteroidsPage extends StatelessWidget {
         link: "https://pubmed.ncbi.nlm.nih.gov/37855241/",
         referenceDate: "June 2026",
         referenceContent:
-            "Six Months Off Anabolic Steroids\n\nSource: \"Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review,\" on PubMed\n\nThe Six-Month Benchmark\nSix months is when most men who are going to recover have done so — energy, mood, libido, and physical strength largely restored. For many, bloodwork now shows hormone levels in or approaching the normal range.\n\nIf You're Not There Yet\nA meaningful minority of long-term users develop low testosterone that does not resolve on its own. Six months is the right point to escalate: an endocrinologist can assess what's happening and discuss options, rather than leaving you to wait indefinitely.",
+            "Six Months Off Anabolic Steroids\n\nSource: \"Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review,\" on PubMed\n\nWhere the Evidence Points\nThe review reports that LH and FSH — the pituitary signals that drive testosterone production — are typically expected to recover within about 3–6 months, so six months sits at the edge of that window for most men. Testosterone itself tends to follow on a vaguer, generally longer timeline, so it may still be catching up even once those signals have normalised.\n\nIf You're Not There Yet\nA meaningful minority of long-term users develop low testosterone that does not resolve on its own. Six months is a reasonable point to escalate if symptoms persist: an endocrinologist can assess what's happening and discuss options, rather than leaving you to wait indefinitely.",
       ),
       QuitMilestone(
         day: 365,

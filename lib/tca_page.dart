@@ -83,7 +83,8 @@ class TcaPage extends StatelessWidget {
         day: 30,
         title: l10n.tcaMilestone30Title,
         description: l10n.tcaMilestone30Description,
-        reference: "PubMed - Warner et al. (2006), American Family Physician — 'Antidepressant discontinuation syndrome'",
+        reference:
+            "PubMed - Warner et al. (2006), American Family Physician — 'Antidepressant discontinuation syndrome'",
         link: "https://pubmed.ncbi.nlm.nih.gov/16913164/",
         referenceDate: "May 2026",
         referenceContent:
@@ -127,7 +128,8 @@ class TcaPage extends StatelessWidget {
         day: 180,
         title: l10n.tcaMilestone180Title,
         description: l10n.tcaMilestone180Description,
-        reference: "PubMed - Warner et al. (2006), American Family Physician — 'Antidepressant discontinuation syndrome'",
+        reference:
+            "PubMed - Warner et al. (2006), American Family Physician — 'Antidepressant discontinuation syndrome'",
         link: "https://pubmed.ncbi.nlm.nih.gov/16913164/",
         referenceDate: "May 2026",
         referenceContent:

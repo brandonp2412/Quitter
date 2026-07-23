@@ -37,10 +37,10 @@ class SmokingPage extends StatelessWidget {
             "Source: NHS Better Health\n\n"
             "Benefits begin within minutes — not days. The body starts to normalise as soon as the smoke stops.\n\n"
             "What happens today\n"
-            "• 20 minutes: heart rate and blood pressure drop\n"
-            "• 8 hours: carbon monoxide in the blood falls by half; oxygen returns to normal\n"
-            "• 24 hours: carbon monoxide fully cleared\n\n"
-            "Carbon monoxide binds to red blood cells more strongly than oxygen, displacing it from your blood. Every organ was getting less oxygen than it should. That reverses completely within a day.\n\n"
+            "• 20 minutes: pulse rate begins returning to normal\n"
+            "• 8 hours: carbon monoxide in the blood falls by half; oxygen levels are recovering\n"
+            "• 48 hours: carbon monoxide has dropped to the level of a non-smoker\n\n"
+            "Carbon monoxide binds to red blood cells more strongly than oxygen, displacing it from your blood. Every organ was getting less oxygen than it should. That reverses within two days.\n\n"
             "Withdrawal begins on day one\n"
             "• Cravings — each typically lasting 3–5 minutes\n"
             "• Irritability and difficulty concentrating\n"
@@ -136,13 +136,12 @@ class SmokingPage extends StatelessWidget {
         referenceContent:
             "Three Months: Heart Attack Risk Drops\n\n"
             "Source: PMC — Cardiovascular Effects of Smoking and Cessation (2024)\n\n"
-            "Smoking damages the heart and arteries in multiple ways: it accelerates artery plaque buildup, promotes blood clotting, raises blood pressure, and damages the arterial lining. After 1–3 months of stopping, cardiovascular recovery accelerates.\n\n"
+            "Smoking damages the heart and arteries in multiple ways: it accelerates artery plaque buildup, promotes blood clotting, raises blood pressure, and damages the arterial lining. The procoagulant, clot-promoting effects reverse within days of stopping, and this review reports a notable decline in heart attacks and strokes within the first year of quitting.\n\n"
             "What's improved by now\n"
-            "• Arterial wall health shows significant improvement\n"
             "• Blood clotting factors are normalising\n"
-            "• Inflammatory markers are reducing\n"
-            "• Blood pressure and heart rate are stable at normal levels\n\n"
-            "One year after quitting, coronary heart disease risk is halved compared to continuing to smoke. At three months, that risk reduction is well underway. Every month adds more.",
+            "• Blood pressure and heart rate are stabilising\n"
+            "• The sharpest early drop in acute cardiovascular event risk is well underway\n\n"
+            "The slower-acting benefits — reversing years of arterial plaque buildup — take longer and are covered in later milestones. Every smoke-free month adds to the recovery.",
       ),
       QuitMilestone(
         day: 180,
@@ -168,33 +167,32 @@ class SmokingPage extends StatelessWidget {
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC5644463/",
         referenceDate: "March 2026",
         referenceContent:
-            "One Year: Stroke Risk Substantially Reduced\n\n"
-            "Source: PMC — Smoking Cessation and Stroke Outcome\n\n"
-            "Smoking roughly doubles stroke risk by promoting artery plaque buildup, increasing blood clotting, raising blood pressure, and damaging cerebral blood vessels. One year after quitting, stroke risk is substantially reduced — beginning to approach non-smoker levels.\n\n"
-            "Heart disease at one year\n"
-            "Coronary heart disease risk is approximately halved compared to continued smoking.\n\n"
-            "One year is a genuine medical milestone — measurable risk reduction across cancer, cardiovascular disease, stroke, and lung disease. The body's capacity for recovery is one of the most documented facts in preventive medicine.",
+            "One Year: Heart Attack Risk Falls Sharply\n\n"
+            "Source: PMC — Smoking Cessation and Stroke Outcome; CDC, Benefits of Quitting Smoking\n\n"
+            "Smoking roughly doubles stroke risk by promoting artery plaque buildup, increasing blood clotting, raising blood pressure, and damaging cerebral blood vessels. The CDC's own quitting-benefits timeline puts the sharp drop in heart attack risk at the 1-to-2-year mark — you're at the front edge of that window.\n\n"
+            "An Honest Timeline\n"
+            "Full stroke-risk normalisation takes longer: the cited stroke study followed quitters for a median of nearly five years to show a meaningfully lower stroke rate than continued smokers, and CDC data puts halved coronary heart disease risk at 3 to 6 years, with stroke risk decreasing over the 5-to-10-year mark.\n\n"
+            "One year is still a genuine medical milestone — the steepest part of the acute-risk decline is behind you, even though the longer-term cardiovascular and cancer benefits continue to build for years.",
       ),
       QuitMilestone(
         day: 1825,
         title: l10n.smokingMilestone1825Title,
         description: l10n.smokingMilestone1825Description,
         reference: "CDC - Benefits of Quitting Smoking",
-        link: "https://www.cdc.gov/tobacco/about/how-to-quit.html",
-        referenceDate: "March 2026",
+        link: "https://www.cdc.gov/tobacco/about/benefits-of-quitting.html",
+        referenceDate: "July 2026",
         referenceContent:
-            "Five Years: Cancer Risk Plummets\n\n"
-            "Source: CDC\n\n"
+            "Five Years: Cancer Risk Falls\n\n"
+            "Source: CDC, Benefits of Quitting Smoking\n\n"
             "At five years, some of the most dramatic cancer benefits arrive.\n\n"
-            "Five-year milestones\n"
-            "• Mouth, throat, oesophagus, and bladder cancer risk: halved\n"
-            "• Cervical cancer risk: returns to non-smoker levels\n"
-            "• Stroke risk: similar to a non-smoker\n"
-            "• Coronary heart disease risk: at the level of a non-smoker\n\n"
-            "Looking ahead to ten years\n"
-            "• Lung cancer death risk: roughly half that of a continuing smoker\n"
-            "• Cancers of the mouth, throat, oesophagus, bladder, kidney, and pancreas continue to decrease\n\n"
-            "Five years of not smoking is a profound achievement — a biological transformation that has meaningfully extended life expectancy.",
+            "Five-to-ten-year milestones\n"
+            "• Added risk of cancers of the mouth, throat, and voice box: halved\n"
+            "• Stroke risk: decreasing\n\n"
+            "Still ahead\n"
+            "• Ten years: lung cancer death risk roughly halved (after 10–15 years); risk of bladder, oesophagus, and kidney cancers decreasing\n"
+            "• Fifteen years: coronary heart disease risk close to that of a non-smoker\n"
+            "• Twenty years: mouth, throat, and voice box cancer risk close to non-smoker levels; added cervical cancer risk about halved\n\n"
+            "Five years of not smoking is a genuine achievement — you're now inside the window where some of the most significant cancer-risk reductions take hold, even though several benefits (like coronary heart disease risk fully normalising) are still years away.",
       ),
     ];
   }

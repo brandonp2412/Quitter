@@ -82,7 +82,8 @@ class SsriPage extends StatelessWidget {
         day: 30,
         title: l10n.ssriMilestone30Title,
         description: l10n.ssriMilestone30Description,
-        reference: "Haddad (2001) - Antidepressant Discontinuation Syndromes (PubMed)",
+        reference:
+            "Haddad (2001) - Antidepressant Discontinuation Syndromes (PubMed)",
         link: "https://pubmed.ncbi.nlm.nih.gov/11347722/",
         referenceDate: "May 2026",
         referenceContent:

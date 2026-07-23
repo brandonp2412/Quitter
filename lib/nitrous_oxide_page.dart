@@ -14,153 +14,120 @@ class NitrousOxidePage extends StatelessWidget {
         day: 1,
         title: l10n.nitrousOxideMilestone1Title,
         description: l10n.nitrousOxideMilestone1Description,
-        reference: "Nitrous Oxide Toxicity — StatPearls (NCBI Bookshelf)",
+        reference: "Nitrous Oxide — StatPearls (NCBI Bookshelf)",
         link: "https://pubmed.ncbi.nlm.nih.gov/30422517/",
-        referenceDate: "June 2026",
+        referenceDate: "July 2026",
         referenceContent:
-            "Day One: Clearing Your System\n\n"
-            "Source: \"Nitrous Oxide Toxicity,\" StatPearls, U.S. National Library of Medicine\n\n"
-            "Nitrous oxide leaves your body very quickly — within minutes of your last use, the gas itself is gone. But the effects of regular use linger longer than the high.\n\n"
-            "What Happens on Day One\n"
-            "• Dizziness and light-headedness settle within a few hours\n"
-            "• Headaches are common — partly from oxygen displacement, partly dehydration\n"
-            "• Ears may ring for a short time (temporary hearing effects are documented)\n"
-            "• Mood may feel flat or irritable as the dopamine boost fades\n\n"
-            "The B12 Problem\n"
-            "The StatPearls review highlights that nitrous oxide inactivates vitamin B12. A single session causes temporary B12 inactivation; repeated or heavy use causes a significant and lasting deficiency. B12 is essential for nerve function, red blood cell production, and brain health — its depletion is the main long-term risk from regular use.\n\n"
-            "What to Do\n"
-            "StatPearls recommends starting B12 supplementation promptly if you've been using regularly. Speaking to a GP is advisable — a blood test can check your B12 level and a doctor can prescribe injections if needed.",
+            "Day One: The Gas Is Gone, but Watch B12\n\n"
+            "Source: Knuf & Maani, \"Nitrous Oxide,\" StatPearls (NCBI Bookshelf)\n\n"
+            "How Fast It Clears\n"
+            "Nitrous oxide has a rapid onset of action — 2 to 5 minutes — and clears from the body just as quickly once you stop inhaling it. By today, none of the gas itself remains in your system.\n\n"
+            "The Real Risk Isn't the Gas\n"
+            "What matters after stopping is what repeated exposure may have already done. Nitrous oxide inactivates methionine synthase, an enzyme that depends on vitamin B12. StatPearls notes that repeated exposure — occupational or recreational — can lead to megaloblastic anaemia and neurological dysfunction, and in rare cases, degeneration of the spinal cord.\n\n"
+            "If You Used Heavily or Often\n"
+            "Nitrous oxide isn't documented to cause a physical withdrawal syndrome the way opioids or alcohol do, so day one isn't about your body demanding the drug. It's about starting to pay attention to B12-related symptoms — covered in the next few milestones — and getting checked if any appear.",
       ),
       QuitMilestone(
         day: 3,
         title: l10n.nitrousOxideMilestone3Title,
         description: l10n.nitrousOxideMilestone3Description,
-        reference: "Nitrous Oxide Toxicity — StatPearls (NCBI Bookshelf)",
+        reference: "Nitrous Oxide — StatPearls (NCBI Bookshelf)",
         link: "https://pubmed.ncbi.nlm.nih.gov/30422517/",
-        referenceDate: "June 2026",
+        referenceDate: "July 2026",
         referenceContent:
-            "72 Hours: The Cravings Are Psychological\n\n"
-            "Source: \"Nitrous Oxide Toxicity,\" StatPearls, U.S. National Library of Medicine\n\n"
-            "Unlike opioids or alcohol, nitrous oxide does not cause a physical withdrawal syndrome. The urges at three days are psychological — habit, boredom, and association — not the body demanding a substance to function.\n\n"
-            "What the Research Says\n"
-            "StatPearls documents that the acute toxicity of nitrous oxide comes from oxygen displacement (causing oxygen deprivation with very heavy use), direct B12 inactivation, and, with chronic use, subacute combined degeneration of the spinal cord (damage to nerve pathways). Those risks stop accumulating the moment use stops.\n\n"
-            "Neurological Symptoms — Know the Signs\n"
-            "StatPearls lists symptoms of B12-related neurological injury to watch for:\n"
-            "• Tingling or numbness in hands or feet\n"
-            "• Weakness in legs\n"
-            "• Balance or coordination problems\n"
-            "• Memory difficulty\n\n"
-            "If any of these are present, seek medical attention — early B12 treatment can halt and often reverse nerve damage.\n\n"
-            "The Good News\n"
-            "Three days in, no new damage is being done. The recovery process has begun.",
+            "72 Hours: No Physical Withdrawal, But Watch for Nerve Symptoms\n\n"
+            "Source: Knuf & Maani, StatPearls; Tikaria et al. (2026), Cureus\n\n"
+            "Unlike opioids or alcohol, nitrous oxide isn't documented to cause a physical withdrawal syndrome. Urges at this stage are habit and craving, not the body demanding the drug to function.\n\n"
+            "Watch for These\n"
+            "A systematic review of 1,809 recreational nitrous oxide cases (Tikaria et al., 2026) found neurological symptoms — especially tingling or numbness (paresthesia) — were the most common sign of B12-related harm, often appearing even when standard blood tests looked normal. Gait problems and weakness were also reported.\n\n"
+            "If You Notice Any of These\n"
+            "Seek medical review. The same review found standard blood tests (haemoglobin, serum B12) missed a meaningful share of affected patients — tests for methylmalonic acid (MMA) and homocysteine are more sensitive and should be requested specifically if you disclose nitrous oxide use.",
       ),
       QuitMilestone(
         day: 7,
         title: l10n.nitrousOxideMilestone7Title,
         description: l10n.nitrousOxideMilestone7Description,
-        reference: "Nitrous Oxide Misuse and Vitamin B12 Deficiency — NCBI PMC",
+        reference:
+            "The Toxic Legacy of Recreational Nitrous Oxide Use (Cureus)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC13267259/",
-        referenceDate: "June 2026",
+        referenceDate: "July 2026",
         referenceContent:
-            "One Week: B12 Recovery Underway\n\n"
-            "Source: Review of nitrous oxide misuse and vitamin B12 deficiency, PMC (2023)\n\n"
-            "A week without nitrous oxide means a week with no further vitamin destruction. This review explains the mechanism: nitrous oxide chemically destroys B12 molecules — and since the body cannot repair them, recovery depends on absorbing new B12 from food or supplements.\n\n"
-            "How Long Restoration Takes\n"
-            "• Dietary B12 alone takes months to replenish stores in deficient individuals\n"
-            "• Oral high-dose supplements (1000 mcg/day) can restore levels over weeks\n"
-            "• Intramuscular injections (prescribed by a doctor) are the fastest route\n\n"
-            "By one week without use, no further B12 is being destroyed. If you are supplementing, levels are already starting to climb.\n\n"
-            "Who Is Most at Risk\n"
-            "The review identifies those at highest risk of serious deficiency: people who used heavily or frequently, vegans (who start with lower B12), and those with absorption problems. All should have blood levels checked.\n\n"
-            "Mental Health\n"
-            "Cravings are typically manageable at one week. Mood may still feel somewhat flat — this is normal and lifts over the coming weeks.",
+            "One Week: Get Tested if You Used Heavily\n\n"
+            "Source: Tikaria et al. (2026), \"The Toxic Legacy of Recreational Nitrous Oxide Use,\" Cureus\n\n"
+            "What the Evidence Shows\n"
+            "This systematic review found that vitamin B12 deficiency from nitrous oxide is often \"functional\" — serum B12 looked normal in roughly half of affected patients, even when they had real neurological damage. Homocysteine and MMA were abnormal far more often (84% and 73% of tested patients respectively) and are the more reliable markers.\n\n"
+            "What to Do\n"
+            "If your use was heavy or frequent, one week off is a reasonable time to see a doctor and ask for homocysteine and MMA testing specifically — not just a standard B12 level — especially if you have any tingling, numbness, balance problems, or unexplained weakness.\n\n"
+            "The review doesn't report how quickly symptoms resolve after stopping, but it's clear that delayed diagnosis lets neurological damage progress and become irreversible — which is why testing early matters more than waiting to see if symptoms fade on their own.",
       ),
       QuitMilestone(
         day: 14,
         title: l10n.nitrousOxideMilestone14Title,
         description: l10n.nitrousOxideMilestone14Description,
-        reference: "Nitrous Oxide Toxicity — StatPearls (NCBI Bookshelf)",
+        reference: "Nitrous Oxide — StatPearls (NCBI Bookshelf)",
         link: "https://pubmed.ncbi.nlm.nih.gov/30422517/",
-        referenceDate: "June 2026",
+        referenceDate: "July 2026",
         referenceContent:
-            "Two Weeks: Nervous System Recovery\n\n"
-            "Source: \"Nitrous Oxide Toxicity,\" StatPearls, U.S. National Library of Medicine\n\n"
-            "Two weeks without nitrous oxide and with B12 supplementation is when many people begin to notice early neurological improvements — or, importantly, when tingling or numbness that was previously masked by continued use becomes apparent.\n\n"
-            "Subacute Combined Degeneration — What It Is\n"
-            "StatPearls explains that B12 deficiency from heavy nitrous oxide use can damage the spinal cord's myelin sheath (the protective coating on nerve fibres). This is called subacute combined degeneration. Symptoms range from tingling to weakness to loss of coordination.\n\n"
-            "The Critical Window\n"
-            "StatPearls emphasises that early B12 treatment can halt progression and often reverse these symptoms — but delays worsen outcomes. If any neurological symptoms are present at two weeks, medical assessment is important.\n\n"
-            "What Is Improving\n"
-            "For those without severe deficiency:\n"
-            "• Mood is stabilising as dopamine function normalises\n"
-            "• Energy is returning\n"
-            "• Sleep quality improving\n"
-            "• Cravings becoming less frequent and easier to manage",
+            "Two Weeks: Neurological Symptoms Deserve Follow-Up\n\n"
+            "Source: Tikaria et al. (2026), Cureus; Knuf & Maani, StatPearls\n\n"
+            "What's Been Reported\n"
+            "Case reports and series reviewed by Tikaria et al. describe nitrous oxide-related nerve damage presenting as sensory loss, gait ataxia, and sometimes weakness affecting walking — findings that can resemble other neurological conditions and are sometimes missed if nitrous oxide use isn't mentioned to a clinician.\n\n"
+            "An Honest Note on Timelines\n"
+            "Neither source reports how long recovery normally takes once use stops and any deficiency is treated. Case reports describe a wide range of outcomes — from full recovery to lasting deficits — depending largely on how much damage occurred before diagnosis. What's consistent across the literature is that earlier treatment leads to better outcomes.\n\n"
+            "If You Haven't Been Checked\n"
+            "Two weeks off is still a good time to get bloodwork done, even without symptoms — particularly homocysteine and MMA rather than serum B12 alone.",
       ),
       QuitMilestone(
         day: 30,
         title: l10n.nitrousOxideMilestone30Title,
         description: l10n.nitrousOxideMilestone30Description,
-        reference: "Nitrous Oxide Toxicity — StatPearls (NCBI Bookshelf)",
+        reference: "Nitrous Oxide — StatPearls (NCBI Bookshelf)",
         link: "https://pubmed.ncbi.nlm.nih.gov/30422517/",
-        referenceDate: "June 2026",
+        referenceDate: "July 2026",
         referenceContent:
-            "One Month: B12 Levels Climbing\n\n"
-            "Source: \"Nitrous Oxide Toxicity,\" StatPearls, U.S. National Library of Medicine\n\n"
-            "A month in, recovery is moving from the biochemical to the lived — from levels climbing to actually feeling the difference.\n\n"
-            "What People Notice at One Month\n"
-            "• Energy returning: fewer episodes of fatigue or breathlessness with exertion\n"
-            "• Nerve symptoms easing: tingling and numbness, where present, should be fading with early treatment\n"
-            "• Mood lifting: the low mood typical of deficiency settles as recovery progresses\n"
-            "• Sharper thinking: difficulty concentrating and memory fog lift as the deficiency resolves\n\n"
-            "Financial and Lifestyle Benefits\n"
-            "StatPearls notes that the costs of regular nitrous oxide use are significant. At one month, the money saved is real and can be redirected.\n\n"
-            "Cravings at One Month\n"
-            "Psychological cravings are present but manageable for most people at this stage. Identifying and planning for trigger situations (social settings, stress, boredom) remains important.",
+            "One Month: Habit and Craving, Not Physical Dependence\n\n"
+            "Source: Knuf & Maani, \"Nitrous Oxide,\" StatPearls (NCBI Bookshelf)\n\n"
+            "Where You Stand\n"
+            "StatPearls doesn't describe nitrous oxide as producing a physical dependence syndrome, so a month off means any lingering urges are about habit, social context, or boredom rather than a body still adjusting to the drug's absence.\n\n"
+            "The B12 Question\n"
+            "If you were tested and treated for B12 deficiency, one month is a reasonable point for your doctor to check whether your levels — and any symptoms — have responded. If you weren't tested and used heavily, it's still worth asking.\n\n"
+            "What's Protected\n"
+            "Every month you don't use is a month you're not adding to any existing methionine synthase inactivation or the neurological risk that comes with it.",
       ),
       QuitMilestone(
         day: 90,
         title: l10n.nitrousOxideMilestone90Title,
         description: l10n.nitrousOxideMilestone90Description,
-        reference: "Nitrous Oxide Misuse and Vitamin B12 Deficiency — NCBI PMC",
+        reference:
+            "The Toxic Legacy of Recreational Nitrous Oxide Use (Cureus)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC13267259/",
-        referenceDate: "June 2026",
+        referenceDate: "July 2026",
         referenceContent:
-            "Three Months: Neurological Healing\n\n"
-            "Source: Review of nitrous oxide misuse and vitamin B12 deficiency, PMC (2023)\n\n"
-            "Three months is the point at which B12 supplementation has had time to make a meaningful difference to neurological function. This review documents cases of significant — and sometimes complete — recovery from nitrous oxide-related nerve damage following sustained B12 treatment.\n\n"
-            "What the Research Shows\n"
-            "The review documents that with early and consistent B12 treatment:\n"
-            "• Tingling and numbness typically resolve or substantially improve\n"
-            "• Motor strength returns in most cases\n"
-            "• Balance and coordination improve\n"
-            "• Cognitive symptoms (brain fog, memory difficulty) lift\n\n"
-            "Recovery Takes Time\n"
-            "The review is honest that recovery depends on the severity of deficiency and how quickly treatment started. Mild deficiency with early treatment often resolves fully. Severe or long-standing damage may only partially recover — which is why stopping use and starting B12 promptly is so important.\n\n"
-            "At Three Months Without Nitrous Oxide\n"
-            "B12 stores should be substantially restored. Energy, mood, and cognitive function are typically much improved. The nervous system continues to heal — and that process accelerates as each day without nitrous oxide passes.",
+            "Three Months: Time to Recheck, if You Haven't\n\n"
+            "Source: Tikaria et al. (2026), \"The Toxic Legacy of Recreational Nitrous Oxide Use,\" Cureus\n\n"
+            "What We Know — and Don't\n"
+            "This research base is built from case reports and case series, not controlled recovery studies, so there's no reliable published timeline for how symptoms resolve by three months specifically. What the evidence does show is that outcomes vary widely — some patients with mild, early-caught deficiency recover fully, while those with delayed diagnosis or more severe nerve damage can have lasting deficits.\n\n"
+            "The Actionable Part\n"
+            "If you had any neurological symptoms and haven't had follow-up bloodwork or a specialist review, three months off is a sensible point to do so. If you were treated and improving, this is a reasonable time to confirm the trend is continuing with your doctor.\n\n"
+            "Staying Off Matters Most\n"
+            "The review is consistent about one thing: continued exposure keeps inactivating B12 and adding to the risk. Not using is the single biggest factor in your favour.",
       ),
       QuitMilestone(
         day: 365,
         title: l10n.nitrousOxideMilestone365Title,
         description: l10n.nitrousOxideMilestone365Description,
-        reference: "Nitrous Oxide Toxicity — StatPearls (NCBI Bookshelf)",
+        reference: "Nitrous Oxide — StatPearls (NCBI Bookshelf)",
         link: "https://pubmed.ncbi.nlm.nih.gov/30422517/",
-        referenceDate: "June 2026",
+        referenceDate: "July 2026",
         referenceContent:
-            "One Year: Long-Term Health Secured\n\n"
-            "Source: \"Nitrous Oxide Toxicity,\" StatPearls, U.S. National Library of Medicine\n\n"
-            "A year free means a year of the nervous system healing on its own terms — and for most people, the acute recovery phase is long since complete.\n\n"
-            "Where You Are at One Year\n"
-            "• B12 levels: fully restored (and should be maintained with diet or ongoing supplementation)\n"
-            "• Nervous system: significant healing has occurred; for most people with B12-related symptoms, the worst is behind them\n"
-            "• Bone marrow: blood cell production normalised — any anaemia from the deficiency has resolved\n"
-            "• Mood and energy: operating at full capacity without the dopamine loop of regular use\n"
-            "• Cardiovascular: nitrous oxide causes elevated homocysteine (a chemical linked to heart disease risk) via B12 depletion — at one year, homocysteine has normalised\n\n"
-            "What StatPearls Confirms\n"
-            "StatPearls documents that outcomes for nitrous oxide-related toxicity are generally good with cessation and B12 treatment, particularly when intervention is not delayed. One year represents the completion of the acute recovery phase.\n\n"
-            "The Best Protection\n"
-            "Continued abstinence is the only guarantee against future B12 destruction. A year in, that protection is firmly in place.",
+            "One Year: The Best Protection Is Continued Abstinence\n\n"
+            "Source: Knuf & Maani, StatPearls; Tikaria et al. (2026), Cureus\n\n"
+            "Where the Evidence Actually Lands\n"
+            "Neither source promises a specific recovery timeline, and that's worth being honest about — the literature on nitrous oxide and B12 deficiency is built almost entirely from individual case reports rather than long-term follow-up studies. What is well established is the mechanism: nitrous oxide inactivates vitamin B12 every time it's used, and stopping removes that ongoing harm entirely.\n\n"
+            "If You Had Deficiency-Related Symptoms\n"
+            "Case reports describe a wide range of outcomes, from full recovery to persistent nerve symptoms, largely tied to how much damage occurred and how early it was treated. If you're still experiencing symptoms a year out, that's a reason to keep working with a neurologist, not a sign nothing can be done — nerve recovery can continue over an extended period.\n\n"
+            "What's Certain\n"
+            "A year without nitrous oxide is a year without further methionine synthase inactivation. That's the one guarantee both sources support.",
       ),
     ];
   }

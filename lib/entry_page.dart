@@ -44,7 +44,8 @@ class _EntryPageState extends State<EntryPage> {
         day: 14,
         title: l10n.customMilestone14Title,
         description: l10n.customMilestone14Description,
-        reference: "NCBI - Post-Acute Alcohol Withdrawal Research (Illustrative)",
+        reference:
+            "NCBI - Post-Acute Alcohol Withdrawal Research (Illustrative)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9798382/",
       ),
       QuitMilestone(

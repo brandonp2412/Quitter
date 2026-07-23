@@ -40,7 +40,7 @@ class AlcoholPage extends StatelessWidget {
             "The Acute Phase and Early Recovery\n\n"
             "Source: \"Alcohol Withdrawal,\" StatPearls — peer-reviewed, NIH National Library of Medicine\n\n"
             "The First 24–72 Hours\n"
-            "StatPearls documents that withdrawal symptoms appear within hours of the last drink — tremor, insomnia, agitation, sweating, raised heart rate and blood pressure — and that symptoms typically peak around 72 hours. Most people are over the worst of the acute phase by the end of day three. Severe withdrawal (seizures, or delirium tremens beginning roughly 48–72 hours in) is a medical emergency: heavy daily drinkers should not stop abruptly without medical advice.\n\n"
+            "StatPearls documents that withdrawal symptoms appear within hours of the last drink — tremor, insomnia, agitation, sweating, raised heart rate and blood pressure — and that symptoms typically peak around 72 hours. Most people are over the worst of the acute phase by the end of day three. Severe withdrawal (seizures, or delirium tremens, which StatPearls notes can occur at any point up to 3 to 5 days after stopping or cutting down) is a medical emergency: heavy daily drinkers should not stop abruptly without medical advice.\n\n"
             "Cravings Come in Waves\n"
             "Cravings often intensify across the first several days, but an individual craving is short-lived — usually passing within minutes. Recognising that each wave subsides on its own makes them easier to ride out.\n\n"
             "Hydration Recovers\n"
@@ -99,11 +99,11 @@ class AlcoholPage extends StatelessWidget {
             "The Evidence\n"
             "This meta-analysis pooled 36 randomised trials (about 2,865 participants) testing what happens to blood pressure when people drink less. It found a clear, dose-dependent effect: the more someone cut back, the more their blood pressure dropped.\n\n"
             "How Big Is the Effect?\n"
-            "Among heavier drinkers (more than two drinks a day) who roughly halved their intake, systolic blood pressure fell by about 5.5 mmHg and diastolic by about 4.0 mmHg on average. A reduction of that size is clinically meaningful — comparable to some blood-pressure medications and enough to lower long-term stroke and heart-disease risk.\n\n"
+            "People who drank two or fewer drinks a day saw no significant blood-pressure change from cutting back. Above that threshold, the effect was dose-dependent: it was strongest in people drinking six or more drinks a day who cut their intake by about half, where systolic blood pressure fell by about 5.5 mmHg and diastolic by about 4.0 mmHg on average. A reduction of that size is clinically meaningful — comparable to some blood-pressure medications and enough to lower long-term stroke and heart-disease risk.\n\n"
             "Why One Month Matters\n"
             "Alcohol raises blood pressure by activating the stress response, raising cortisol and stiffening blood vessels. The trials in this review show the benefit emerges over weeks of sustained reduction — so by around a month of abstinence, a heavier drinker's blood pressure has had time to settle toward a healthier level.\n\n"
             "A Threshold Effect\n"
-            "The review notes the benefit was concentrated in heavier drinkers; for light drinkers the change was smaller. The heavier the prior drinking, the bigger the cardiovascular payoff from stopping.",
+            "The review found a clear threshold: benefit was concentrated in people drinking more than two drinks a day, and grew progressively larger the heavier the prior drinking. If you were a lighter drinker, don't expect this specific blood-pressure benefit — but heavier drinkers get a real, measurable cardiovascular payoff from stopping.",
       ),
       QuitMilestone(
         day: 60,
@@ -137,11 +137,9 @@ class AlcoholPage extends StatelessWidget {
             "What the Evidence Shows\n"
             "This systematic review pooled studies tracking how thinking skills recover after people stop drinking. The headline finding: most neurocognitive functions in alcohol use disorder recover toward normal within roughly 6 to 12 months of abstinence — and some domains bounce back earlier.\n\n"
             "What Improves First\n"
-            "Basic processing speed and working memory are among the earliest to recover, so by around the three-month mark many people already notice the 'fog' lifting:\n"
-            "• Working memory — holding and using information in the moment\n"
-            "• Processing speed — how quickly the brain handles information\n"
-            "• Attention and concentration\n"
-            "• Executive functions — planning, decision-making, impulse control\n\n"
+            "Two specific abilities stand out as recovering earlier than the rest: basic processing speed (the review found this typically recovers by about one month, though accuracy on more complex tasks lags behind) and working memory updating. By around the three-month mark, many people already notice these lifting.\n\n"
+            "What Takes Longer\n"
+            "Attention, executive functions (planning, decision-making, impulse control), perception and other memory sub-domains are also expected to recover — but the review's evidence points to this happening over the fuller 6-to-12-month window, not by three months.\n\n"
             "What Influences Recovery\n"
             "The review notes recovery is shaped by factors such as age, smoking status and premorbid ability — but, encouragingly, not consistently by the total amount previously drunk. Recovery is the expected trajectory.\n\n"
             "Why It Matters\n"

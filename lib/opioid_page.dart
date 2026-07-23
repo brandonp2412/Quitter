@@ -214,7 +214,8 @@ class OpioidPage extends StatelessWidget {
         title: l10n.opioidMilestone730Title,
         description: l10n.opioidMilestone730Description,
         reference: "Treatment of Opioid Use Disorder (CDC)",
-        link: "https://www.cdc.gov/overdose-prevention/treatment/opioid-use-disorder.html",
+        link:
+            "https://www.cdc.gov/overdose-prevention/treatment/opioid-use-disorder.html",
         referenceDate: "June 2026",
         referenceContent:
             "Two Years Off Opioids: A Stable Foundation\n\n"

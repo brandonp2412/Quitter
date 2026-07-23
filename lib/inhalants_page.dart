@@ -14,7 +14,8 @@ class InhalantsPage extends StatelessWidget {
         day: 1,
         title: l10n.inhalantsMilestone1Title,
         description: l10n.inhalantsMilestone1Description,
-        reference: "The Clinical Assessment and Treatment of Inhalant Abuse (PMC)",
+        reference:
+            "The Clinical Assessment and Treatment of Inhalant Abuse (PMC)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10266853/",
         referenceDate: "June 2026",
         referenceContent:
@@ -24,7 +25,8 @@ class InhalantsPage extends StatelessWidget {
         day: 7,
         title: l10n.inhalantsMilestone7Title,
         description: l10n.inhalantsMilestone7Description,
-        reference: "The Clinical Assessment and Treatment of Inhalant Abuse (PMC)",
+        reference:
+            "The Clinical Assessment and Treatment of Inhalant Abuse (PMC)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10266853/",
         referenceDate: "June 2026",
         referenceContent:
@@ -34,7 +36,8 @@ class InhalantsPage extends StatelessWidget {
         day: 14,
         title: l10n.inhalantsMilestone14Title,
         description: l10n.inhalantsMilestone14Description,
-        reference: "The Clinical Assessment and Treatment of Inhalant Abuse (PMC)",
+        reference:
+            "The Clinical Assessment and Treatment of Inhalant Abuse (PMC)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10266853/",
         referenceDate: "June 2026",
         referenceContent:
