@@ -9,7 +9,7 @@ on:
 
 env:
   PUB_SUMMARY_ONLY: true
-  KOTLIN_VERSION: "2.1.0"
+  KOTLIN_VERSION: "2.3.20"
 
 jobs:
   quality-checks:
@@ -152,7 +152,7 @@ jobs:
         uses: actions/setup-java@v4
         with:
           distribution: "zulu"
-          java-version: "17"
+          java-version: "21"
 
       - name: Setup Flutter from submodule
         run: |
