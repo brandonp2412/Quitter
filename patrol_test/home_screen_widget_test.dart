@@ -29,7 +29,7 @@ void main() {
         steps: 240,
       );
       await $.platform.android.tap(
-        const AndroidSelector(text: 'Widgets'),
+        const AndroidSelector(textContains: 'Widgets'),
         timeout: const Duration(seconds: 10),
       );
       await $.platform.android.enterText(

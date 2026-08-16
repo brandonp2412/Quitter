@@ -7,6 +7,10 @@ on:
       - "pubspec.yaml"
   workflow_dispatch:
 
+concurrency:
+  group: build-and-release-main
+  cancel-in-progress: true
+
 env:
   PUB_SUMMARY_ONLY: true
   KOTLIN_VERSION: "2.1.0"
@@ -38,8 +42,162 @@ jobs:
       - name: Run tests
         run: flutter test
 
+  build-android:
+    needs: version-bump
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: refs/tags/${{ needs.version-bump.outputs.version }}
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: "zulu"
+          java-version: "17"
+
+      - name: Setup Flutter from submodule
+        run: |
+          git submodule update --init --recursive flutter
+          echo "${{ github.workspace }}/flutter/bin" >> $GITHUB_PATH
+          flutter/bin/flutter config --no-analytics
+
+      - name: Get Flutter dependencies
+        run: flutter pub get
+
+      - name: Decode Android keystore
+        run: echo "${{ secrets.ANDROID_KEYSTORE_BASE64 }}" | base64 --decode > android/app/keystore.jks
+
+      - name: Build android
+        run: |
+          echo "storePassword=${{ secrets.ANDROID_STORE_PASSWORD }}" > android/key.properties
+          echo "keyPassword=${{ secrets.ANDROID_KEY_PASSWORD }}" >> android/key.properties
+          echo "keyAlias=${{ secrets.ANDROID_KEY_ALIAS }}" >> android/key.properties
+          echo "storeFile=keystore.jks" >> android/key.properties
+          flutter build appbundle
+          flutter build apk --split-per-abi
+
+      - name: Upload Android artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          retention-days: 7
+          name: android-builds
+          path: |
+            build/app/outputs/flutter-apk/app-*-release.apk
+            build/app/outputs/bundle/release/app-release.aab
+
+  generate-screenshots:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - device_type: phoneScreenshots
+            profile: pixel_6
+          - device_type: sevenInchScreenshots
+            profile: Nexus 7
+          - device_type: tenInchScreenshots
+            profile: Nexus 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: "zulu"
+          java-version: "17"
+
+      - name: Setup Flutter from submodule
+        run: |
+          git submodule update --init --recursive flutter
+          echo "${{ github.workspace }}/flutter/bin" >> $GITHUB_PATH
+          flutter/bin/flutter config --no-analytics
+
+      - name: Get Flutter dependencies
+        run: flutter pub get
+
+      - name: Enable KVM
+        run: |
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+          sudo udevadm control --reload-rules
+          sudo udevadm trigger --name-match=kvm
+
+      - name: Generate ${{ matrix.device_type }}
+        uses: reactivecircus/android-emulator-runner@v2
+        env:
+          QUITTER_DEVICE_TYPE: ${{ matrix.device_type }}
+        with:
+          api-level: 35
+          target: google_apis
+          arch: x86_64
+          profile: ${{ matrix.profile }}
+          emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim -camera-back none
+          script: |
+            screenshot_dir="fastlane/metadata/android/en-US/images/${{ matrix.device_type }}"
+            rm -rf "$screenshot_dir"
+            mkdir -p "$screenshot_dir"
+            drive_log=$(mktemp)
+            flutter drive --profile --driver=test_driver/integration_test.dart --target=integration_test/screenshot_test.dart --dart-define=QUITTER_DEVICE_TYPE=${{ matrix.device_type }} -d emulator-$EMULATOR_PORT > "$drive_log" 2>&1 || drive_status=$?
+            cat "$drive_log"
+            for number in $(seq 1 8); do
+              test -s "$screenshot_dir/${number}_en-US.png" || exit "${drive_status:-1}"
+            done
+            if [ -n "${drive_status:-}" ]; then
+              grep -q "All tests passed!" "$drive_log" || exit "$drive_status"
+              echo "flutter drive lost the emulator during teardown after all screenshots were generated"
+            fi
+
+      - name: Upload ${{ matrix.device_type }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: screenshots-${{ matrix.device_type }}
+          path: fastlane/metadata/android/en-US/images/${{ matrix.device_type }}
+          if-no-files-found: error
+          retention-days: 7
+
+  patrol-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: "zulu"
+          java-version: "17"
+
+      - name: Setup Flutter from submodule
+        run: |
+          git submodule update --init --recursive flutter
+          echo "${{ github.workspace }}/flutter/bin" >> $GITHUB_PATH
+          flutter/bin/flutter config --no-analytics
+
+      - name: Get Flutter dependencies
+        run: flutter pub get
+
+      - name: Install Patrol CLI
+        run: |
+          dart pub global activate patrol_cli 4.6.1
+          echo "$HOME/.pub-cache/bin" >> "$GITHUB_PATH"
+
+      - name: Enable KVM
+        run: |
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+          sudo udevadm control --reload-rules
+          sudo udevadm trigger --name-match=kvm
+
+      - name: Run Patrol tests
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 35
+          target: google_apis
+          arch: x86_64
+          profile: pixel_6
+          emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim -camera-back none
+          script: patrol test -t patrol_test/home_screen_widget_test.dart
+
   version-bump:
-    needs: quality-checks
+    needs: [quality-checks, generate-screenshots, patrol-tests]
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -47,11 +205,31 @@ jobs:
       version: ${{ steps.bump.outputs.version }}
       build_number: ${{ steps.bump.outputs.build_number }}
       changelog_number: ${{ steps.bump.outputs.changelog_number }}
+      commit_sha: ${{ steps.release.outputs.commit_sha }}
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          ref: ${{ github.sha }}
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Download phone screenshots
+        uses: actions/download-artifact@v4
+        with:
+          name: screenshots-phoneScreenshots
+          path: fastlane/metadata/android/en-US/images/phoneScreenshots
+
+      - name: Download seven-inch screenshots
+        uses: actions/download-artifact@v4
+        with:
+          name: screenshots-sevenInchScreenshots
+          path: fastlane/metadata/android/en-US/images/sevenInchScreenshots
+
+      - name: Download ten-inch screenshots
+        uses: actions/download-artifact@v4
+        with:
+          name: screenshots-tenInchScreenshots
+          path: fastlane/metadata/android/en-US/images/tenInchScreenshots
 
       - name: Configure Git
         run: |
@@ -73,9 +251,9 @@ jobs:
           IFS='.' read -ra M <<< "$CURRENT_MSIX"
           NEW_MSIX="${M[0]}.${M[1]}.$((${M[2]} + 1)).${M[3]}"
 
-          echo "version=$NEW_VERSION" >> $GITHUB_OUTPUT
-          echo "build_number=$NEW_BUILD" >> $GITHUB_OUTPUT
-          echo "changelog_number=$CHANGELOG_NUMBER" >> $GITHUB_OUTPUT
+          echo "version=$NEW_VERSION" >> "$GITHUB_OUTPUT"
+          echo "build_number=$NEW_BUILD" >> "$GITHUB_OUTPUT"
+          echo "changelog_number=$CHANGELOG_NUMBER" >> "$GITHUB_OUTPUT"
 
           sed -i "s/^version: .*/version: $NEW_VERSION+$NEW_BUILD/" pubspec.yaml
           sed -i "s/msix_version: .*/msix_version: $NEW_MSIX/" pubspec.yaml
@@ -119,9 +297,7 @@ jobs:
 
           TIMESTAMP=$(date +%s)
           ASSET_CHANGELOG="assets/changelogs/$TIMESTAMP.txt"
-          CHANGELOG_CONTENT=$(cat "$CHANGELOG_FILE")
 
-          # Only create the assets changelog if content is unique (no existing file has same content)
           DUPLICATE=$(grep -rl "^$(head -1 "$CHANGELOG_FILE" | sed 's/[.[\*^$()+?{|]/\\&/g')$" assets/changelogs/ 2>/dev/null | head -1)
           if [ -z "$DUPLICATE" ]; then
             cp "$CHANGELOG_FILE" "$ASSET_CHANGELOG"
@@ -129,163 +305,14 @@ jobs:
             echo "Skipping duplicate asset changelog (matches $DUPLICATE)"
           fi
 
-      - name: Commit and push version bump
+      - name: Commit, tag, and push the tested release
+        id: release
         run: |
           git add pubspec.yaml fastlane/metadata assets/changelogs/
           git commit -m "Release ${{ steps.bump.outputs.version }} [skip ci]"
-          git push origin main
-
-      - name: Create and push tag
-        run: |
           git tag "${{ steps.bump.outputs.version }}"
-          git push origin "${{ steps.bump.outputs.version }}"
-
-  build-android:
-    needs: version-bump
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: main
-
-      - name: Setup Java
-        uses: actions/setup-java@v4
-        with:
-          distribution: "zulu"
-          java-version: "17"
-
-      - name: Setup Flutter from submodule
-        run: |
-          git submodule update --init --recursive flutter
-          echo "${{ github.workspace }}/flutter/bin" >> $GITHUB_PATH
-          flutter/bin/flutter config --no-analytics
-
-      - name: Get Flutter dependencies
-        run: flutter pub get
-
-      - name: Decode Android keystore
-        run: echo "${{ secrets.ANDROID_KEYSTORE_BASE64 }}" | base64 --decode > android/app/keystore.jks
-
-      - name: Build android
-        run: |
-          echo "storePassword=${{ secrets.ANDROID_STORE_PASSWORD }}" > android/key.properties
-          echo "keyPassword=${{ secrets.ANDROID_KEY_PASSWORD }}" >> android/key.properties
-          echo "keyAlias=${{ secrets.ANDROID_KEY_ALIAS }}" >> android/key.properties
-          echo "storeFile=keystore.jks" >> android/key.properties
-          flutter build appbundle
-          flutter build apk --split-per-abi
-
-      - name: Upload Android artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          retention-days: 7
-          name: android-builds
-          path: |
-            build/app/outputs/flutter-apk/app-*-release.apk
-            build/app/outputs/bundle/release/app-release.aab
-
-  generate-screenshots:
-    needs: version-bump
-    runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
-      matrix:
-        include:
-          - device_type: phoneScreenshots
-            profile: pixel_6
-          - device_type: sevenInchScreenshots
-            profile: Nexus 7
-          - device_type: tenInchScreenshots
-            profile: Nexus 10
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: main
-
-      - name: Setup Java
-        uses: actions/setup-java@v4
-        with:
-          distribution: "zulu"
-          java-version: "17"
-
-      - name: Setup Flutter from submodule
-        run: |
-          git submodule update --init --recursive flutter
-          echo "${{ github.workspace }}/flutter/bin" >> $GITHUB_PATH
-          flutter/bin/flutter config --no-analytics
-
-      - name: Get Flutter dependencies
-        run: flutter pub get
-
-      - name: Enable KVM
-        run: |
-          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
-          sudo udevadm control --reload-rules
-          sudo udevadm trigger --name-match=kvm
-
-      - name: Generate ${{ matrix.device_type }}
-        uses: reactivecircus/android-emulator-runner@v2
-        env:
-          QUITTER_DEVICE_TYPE: ${{ matrix.device_type }}
-        with:
-          api-level: 35
-          target: google_apis
-          arch: x86_64
-          profile: ${{ matrix.profile }}
-          emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim -camera-back none
-          script: flutter drive --profile --driver=test_driver/integration_test.dart --target=integration_test/screenshot_test.dart --dart-define=QUITTER_DEVICE_TYPE=${{ matrix.device_type }} -d emulator-$EMULATOR_PORT
-
-      - name: Upload ${{ matrix.device_type }}
-        uses: actions/upload-artifact@v4
-        with:
-          name: screenshots-${{ matrix.device_type }}
-          path: fastlane/metadata/android/en-US/images/${{ matrix.device_type }}
-          if-no-files-found: error
-          retention-days: 7
-
-  patrol-tests:
-    needs: version-bump
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: main
-
-      - name: Setup Java
-        uses: actions/setup-java@v4
-        with:
-          distribution: "zulu"
-          java-version: "17"
-
-      - name: Setup Flutter from submodule
-        run: |
-          git submodule update --init --recursive flutter
-          echo "${{ github.workspace }}/flutter/bin" >> $GITHUB_PATH
-          flutter/bin/flutter config --no-analytics
-
-      - name: Get Flutter dependencies
-        run: flutter pub get
-
-      - name: Install Patrol CLI
-        run: |
-          dart pub global activate patrol_cli 4.6.1
-          echo "$HOME/.pub-cache/bin" >> "$GITHUB_PATH"
-
-      - name: Enable KVM
-        run: |
-          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
-          sudo udevadm control --reload-rules
-          sudo udevadm trigger --name-match=kvm
-
-      - name: Run Patrol tests
-        uses: reactivecircus/android-emulator-runner@v2
-        with:
-          api-level: 35
-          target: google_apis
-          arch: x86_64
-          profile: pixel_6
-          emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim -camera-back none
-          script: patrol test -t patrol_test/home_screen_widget_test.dart
+          git push --atomic origin HEAD:main "refs/tags/${{ steps.bump.outputs.version }}"
+          echo "commit_sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
   build-linux:
     needs: version-bump
@@ -293,7 +320,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: main
+          ref: ${{ needs.version-bump.outputs.commit_sha }}
 
       - name: Setup Flutter from submodule
         run: |
@@ -330,7 +357,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: main
+          ref: ${{ needs.version-bump.outputs.commit_sha }}
 
       - name: Setup Flutter from submodule
         run: |
@@ -367,7 +394,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: main
+          ref: ${{ needs.version-bump.outputs.commit_sha }}
 
       - name: Setup Flutter from submodule
         run: |
@@ -404,7 +431,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: main
+          ref: ${{ needs.version-bump.outputs.commit_sha }}
 
       - name: Download all artifacts
         uses: actions/download-artifact@v4
@@ -428,7 +455,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: main
+          ref: ${{ needs.version-bump.outputs.commit_sha }}
 
       - name: Setup Flutter from submodule
         run: |
@@ -499,12 +526,12 @@ jobs:
           gh release edit "$VERSION" --notes "${CURRENT_BODY}${VT_SECTION}"
 
   deploy-google-play:
-    needs: [version-bump, build-android, generate-screenshots, patrol-tests]
+    needs: [version-bump, build-android]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: main
+          ref: ${{ needs.version-bump.outputs.commit_sha }}
 
       - name: Download Android artifacts
         uses: actions/download-artifact@v4
