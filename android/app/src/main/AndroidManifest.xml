@@ -29,8 +29,12 @@
         android:label="Quitter">
         <activity
             android:name=".WidgetSelectionActivity"
-            android:exported="false"
-            android:theme="@style/Theme.Android" />
+            android:exported="true"
+            android:theme="@style/Theme.Android">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
 
         <receiver
             android:name=".QuitTrackerWidget"
