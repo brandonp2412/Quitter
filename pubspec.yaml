@@ -31,12 +31,19 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  patrol: ^4.8.0
   flutter_lints: ^6.0.0
   flutter_launcher_icons: ^0.14.4 # Add this line
   integration_test:
     sdk: flutter
   flutter_driver:
     sdk: flutter
+
+patrol:
+  app_name: Quitter
+  test_directory: patrol_test
+  android:
+    package_name: com.quitter.app
 flutter:
   generate: true
   uses-material-design: true

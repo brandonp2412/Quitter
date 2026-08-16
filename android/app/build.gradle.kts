@@ -22,6 +22,8 @@ android {
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName
+        testInstrumentationRunner = "pl.leancode.patrol.PatrolJUnitRunner"
+        testInstrumentationRunnerArguments["clearPackageData"] = "true"
         
         // Remove any NDK abiFilters to avoid conflicts
         ndk {
@@ -101,6 +103,9 @@ android {
     buildFeatures {
         viewBinding = true
     }
+    testOptions {
+        execution = "ANDROIDX_TEST_ORCHESTRATOR"
+    }
 }
 kotlin {
     compilerOptions {
@@ -118,6 +123,7 @@ configurations.all {
 }
 
 dependencies {
+    androidTestUtil("androidx.test:orchestrator:1.5.1")
     implementation("com.google.android.material:material:1.10.0")
     implementation("androidx.appcompat:appcompat:1.7.1")
     implementation("androidx.constraintlayout:constraintlayout:2.2.1")
