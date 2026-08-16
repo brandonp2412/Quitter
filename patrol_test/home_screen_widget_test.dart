@@ -32,11 +32,10 @@ void main() {
         const AndroidSelector(textContains: 'Widgets'),
         timeout: const Duration(seconds: 10),
       );
-      await $.platform.android.enterText(
-        const AndroidSelector(
-          resourceName: 'com.android.launcher3:id/widgets_search_bar_edit_text',
-        ),
-        text: 'Quitter',
+      await $.platform.android.enterTextByIndex(
+        'Quitter',
+        index: 0,
+        timeout: const Duration(seconds: 10),
       );
       await $.platform.android.tap(
         const AndroidSelector(
