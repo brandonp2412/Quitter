@@ -267,7 +267,9 @@ jobs:
         run: flutter pub get
 
       - name: Install Patrol CLI
-        run: dart pub global activate patrol_cli 4.6.1
+        run: |
+          dart pub global activate patrol_cli 4.6.1
+          echo "$HOME/.pub-cache/bin" >> "$GITHUB_PATH"
 
       - name: Enable KVM
         run: |
@@ -283,7 +285,7 @@ jobs:
           arch: x86_64
           profile: pixel_6
           emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim -camera-back none
-          script: dart pub global run patrol_cli:patrol test -t patrol_test/home_screen_widget_test.dart
+          script: patrol test -t patrol_test/home_screen_widget_test.dart
 
   build-linux:
     needs: version-bump
