@@ -132,20 +132,7 @@ jobs:
           arch: x86_64
           profile: ${{ matrix.profile }}
           emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim -camera-back none
-          script: |
-            screenshot_dir="fastlane/metadata/android/en-US/images/${{ matrix.device_type }}"
-            rm -rf "$screenshot_dir"
-            mkdir -p "$screenshot_dir"
-            drive_log=$(mktemp)
-            flutter drive --profile --driver=test_driver/integration_test.dart --target=integration_test/screenshot_test.dart --dart-define=QUITTER_DEVICE_TYPE=${{ matrix.device_type }} -d emulator-$EMULATOR_PORT > "$drive_log" 2>&1 || drive_status=$?
-            cat "$drive_log"
-            for number in $(seq 1 8); do
-              test -s "$screenshot_dir/${number}_en-US.png" || exit "${drive_status:-1}"
-            done
-            if [ -n "${drive_status:-}" ]; then
-              grep -q "All tests passed!" "$drive_log" || exit "$drive_status"
-              echo "flutter drive lost the emulator during teardown after all screenshots were generated"
-            fi
+          script: ./scripts/ci_screenshots.sh
 
       - name: Upload ${{ matrix.device_type }}
         uses: actions/upload-artifact@v4
