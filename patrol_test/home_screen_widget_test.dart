@@ -69,6 +69,11 @@ void main() {
         const AndroidSelector(text: '1 day'),
         timeout: const Duration(seconds: 10),
       );
+
+      // Finish in the app so Flutter can detach the accessibility semantics
+      // connection that Patrol used while automating the launcher.
+      await $.platform.android.openApp();
+      await $.pumpAndSettle();
     },
     tags: 'home-widget',
     semanticsEnabled: false,
