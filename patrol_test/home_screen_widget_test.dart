@@ -35,9 +35,25 @@ void main() {
       timeout: const Duration(seconds: 10),
     );
     await $.platform.android.tap(const AndroidSelector(text: 'Smoking'));
+
+    var hasSelection = false;
+    final selectionTimeout = Stopwatch()..start();
+    while (!hasSelection &&
+        selectionTimeout.elapsed < const Duration(seconds: 5)) {
+      hasSelection =
+          await widgetChannel.invokeMethod<bool>('hasWidgetSelection', {
+            'selection': 'smoking',
+          }) ??
+          false;
+      if (!hasSelection) {
+        await Future<void>.delayed(const Duration(milliseconds: 200));
+      }
+    }
     expect(
-      await widgetChannel.invokeMethod<String>('newestWidgetSelection'),
-      'smoking',
+      hasSelection,
+      isTrue,
+      reason:
+          'No bound Quitter widget persisted the tracker selected in the native chooser.',
     );
   }, tags: 'home-widget');
 }

@@ -34,13 +34,14 @@ class MainActivity: FlutterActivity() {
                         )
                         result.success(manager.requestPinAppWidget(provider, null, callback))
                     }
-                    "newestWidgetSelection" -> {
-                        val appWidgetId = manager.getAppWidgetIds(provider).maxOrNull()
-                        val selection = appWidgetId?.let {
+                    "hasWidgetSelection" -> {
+                        val expectedSelection = call.argument<String>("selection")
+                        val widgetPreferences =
                             getSharedPreferences("QuitTrackerWidget", MODE_PRIVATE)
-                                .getString("selected_$it", null)
+                        val hasSelection = manager.getAppWidgetIds(provider).any {
+                            widgetPreferences.getString("selected_$it", null) == expectedSelection
                         }
-                        result.success(selection)
+                        result.success(hasSelection)
                     }
                     else -> result.notImplemented()
                 }

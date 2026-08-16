@@ -13,5 +13,6 @@ patrol test -t patrol_test/home_screen_widget_test.dart
 ```
 
 The test pins a Quitter widget to the home screen and configures it to track a
-temporary smoking quit date. Use a disposable emulator if the added widget
-should not remain on your normal home screen.
+temporary smoking quit date. Patrol uninstalls the app after the test by
+default, which also removes the widget. Pass `--no-uninstall` when debugging if
+the installed app should remain afterward.
