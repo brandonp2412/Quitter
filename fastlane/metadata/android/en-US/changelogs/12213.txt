@@ -1,0 +1,2 @@
+• Match Android widget picker icons to Flutter
+• Restore home widget layout
