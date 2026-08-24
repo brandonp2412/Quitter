@@ -5,6 +5,7 @@ import 'package:home_widget/home_widget.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:quitter/app_icons.dart';
 import 'package:quitter/entry.dart';
+import 'package:quitter/logging.dart';
 
 class AddictionProvider extends ChangeNotifier {
   SharedPreferences? _pref;
@@ -127,6 +128,7 @@ class AddictionProvider extends ChangeNotifier {
     _writeActiveAddictionKeysForWidget();
 
     notifyListeners();
+    talker.debug('Loaded recovery data: ${entries.length} custom entries');
   }
 
   void _writeActiveAddictionKeysForWidget() {
@@ -178,6 +180,7 @@ class AddictionProvider extends ChangeNotifier {
       _pref?.setString(key, value);
     }
     loadAddictions();
+    talker.info(value == null ? 'Removed a tracked journey' : 'Updated a tracked journey');
     if (defaultTargetPlatform == TargetPlatform.android)
       HomeWidget.updateWidget(name: 'QuitTrackerWidget');
   }
@@ -253,6 +256,7 @@ class AddictionProvider extends ChangeNotifier {
     entries.add(e);
     await _saveEntries();
     notifyListeners();
+    talker.info('Added a custom recovery entry');
   }
 
   Future<void> updateEntry(Entry entry) async {
@@ -261,12 +265,14 @@ class AddictionProvider extends ChangeNotifier {
     entries[index] = entry;
     await _saveEntries();
     notifyListeners();
+    talker.info('Updated a custom recovery entry');
   }
 
   Future<void> deleteEntry(String id) async {
     entries.removeWhere((e) => e.id == id);
     await _saveEntries();
     notifyListeners();
+    talker.info('Deleted a custom recovery entry');
   }
 
   Future<void> resetEntry(String id, int days) async {
@@ -277,6 +283,7 @@ class AddictionProvider extends ChangeNotifier {
     entry.quitDate = DateTime.now();
     await _saveEntries();
     notifyListeners();
+    talker.info('Reset a custom recovery entry');
   }
 
   Future<void> _saveDays() async {
@@ -297,6 +304,7 @@ class AddictionProvider extends ChangeNotifier {
     _days.update(key, (val) => [...val, days], ifAbsent: () => [days]);
     await _saveDays();
     setAddiction(key, DateTime.now().toIso8601String());
+    talker.info('Reset a tracked journey');
   }
 
   Future<void> clearMilestoneDays(String key, List<int> daysToClear) async {

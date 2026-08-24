@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:intl/intl.dart';
 import 'package:quitter/l10n/generated/app_localizations.dart';
+import 'package:quitter/logging.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 
 class WhatsNew extends StatefulWidget {
@@ -29,10 +30,14 @@ class _WhatsNewState extends State<WhatsNew> {
   }
 
   void setChangelogs() async {
-    final logs = await getChangelogFiles(context);
-    setState(() {
-      changelogs = logs;
-    });
+    try {
+      final logs = await getChangelogFiles(context);
+      if (!mounted) return;
+      setState(() => changelogs = logs);
+      talker.info('Loaded ${logs.length} changelog entries');
+    } catch (error, stackTrace) {
+      talker.handle(error, stackTrace, 'Failed to load changelog entries');
+    }
   }
 
   Future<List<Changelog>> getChangelogFiles(BuildContext context) async {
@@ -60,11 +65,11 @@ class _WhatsNewState extends State<WhatsNew> {
         final filename = path.split('/').last.replaceAll('.txt', '');
         final timestamp = int.tryParse(filename);
         if (timestamp == null || filename.isEmpty) {
-          print('Skipping invalid changelog file: $path');
+          talker.warning('Skipping changelog asset with an invalid filename');
           continue;
         }
         if (content.trim().isEmpty) {
-          print('Skipping empty changelog file: $path');
+          talker.warning('Skipping empty changelog asset');
           continue;
         }
         result.add(
@@ -76,8 +81,8 @@ class _WhatsNewState extends State<WhatsNew> {
             content: content,
           ),
         );
-      } catch (e) {
-        print('Error loading changelog file $path: $e');
+      } catch (error, stackTrace) {
+        talker.handle(error, stackTrace, 'Failed to load a changelog asset');
       }
     }
     return result;

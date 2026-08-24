@@ -5,6 +5,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:home_widget/home_widget.dart';
 import 'package:quitter/addiction_provider.dart';
+import 'package:quitter/logging.dart';
 import 'package:workmanager/workmanager.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:quitter/utils.dart';
@@ -18,6 +19,7 @@ Future<void> setupTasks() async {
   final now = DateTime.now();
 
   if (defaultTargetPlatform == TargetPlatform.android) {
+    talker.info('Registering Android background tasks');
     Workmanager().initialize(taskHandler);
     var nextWidget = DateTime(now.year, now.month, now.day, 0, 0);
     if (now.isAfter(nextWidget)) {
@@ -39,7 +41,10 @@ Future<void> setupTasks() async {
 
   final settings = SettingsProvider();
   await settings.loadPreferences();
-  if (settings.notifyEvery == 0) return cancelTasks();
+  if (settings.notifyEvery == 0) {
+    talker.info('Reminder scheduling disabled by settings');
+    return cancelTasks();
+  }
 
   final hours = settings.notifyAt ~/ 60;
   final minutes = settings.notifyAt % 60;
@@ -53,6 +58,7 @@ Future<void> setupTasks() async {
 
   if (defaultTargetPlatform == TargetPlatform.android ||
       defaultTargetPlatform == TargetPlatform.iOS) {
+    talker.info('Registering mobile reminder tasks');
     Workmanager().registerOneOffTask(
       "reminder_oneoff",
       "reminders",
@@ -70,6 +76,7 @@ Future<void> setupTasks() async {
   }
 
   Timer(reminderDelay, () => doDesktopReminders());
+  talker.info('Scheduled desktop reminder timer');
 
   Timer(reminderDelay + Duration(days: settings.notifyEvery), () {
     timer = Timer.periodic(
@@ -85,6 +92,7 @@ Future<void> testNotification({
   required String title,
   required String body,
 }) async {
+  talker.info('Sending notification preview');
   final plugin = await _initializeNotificationPlugin();
   await _showNotification(plugin, title, body);
 }
@@ -97,7 +105,10 @@ Future<void> testAddictionNotification(
 ) async {
   final prefs = await SharedPreferences.getInstance();
   final quitDate = prefs.getString(prefsKey);
-  if (quitDate == null) return;
+  if (quitDate == null) {
+    talker.warning('Skipped notification preview without a quit date');
+    return;
+  }
 
   final days = daysCeil(quitDate);
   final plugin = await _initializeNotificationPlugin();
@@ -254,7 +265,10 @@ Future<void> notifyProgress(FlutterLocalNotificationsPlugin plugin) async {
       .where((e) => prefs.getBool('notify_entry_${e.id}') != false)
       .toList();
 
-  if (activeJourneys.isEmpty && activeEntries.isEmpty) return;
+  if (activeJourneys.isEmpty && activeEntries.isEmpty) {
+    talker.info('Skipped reminder; no active journeys');
+    return;
+  }
 
   final randomMessage = messages[random.nextInt(messages.length)];
   String notificationTitle;
@@ -281,6 +295,7 @@ Future<void> notifyProgress(FlutterLocalNotificationsPlugin plugin) async {
   }
 
   await _showNotification(plugin, notificationTitle, notificationBody);
+  talker.info('Delivered progress reminder');
 }
 
 Future<void> doDesktopReminders() async {
@@ -293,6 +308,7 @@ void cancelTasks() {
 
   if (defaultTargetPlatform == TargetPlatform.android ||
       defaultTargetPlatform == TargetPlatform.iOS) {
+    talker.info('Cancelling mobile background tasks');
     Workmanager().cancelByUniqueName('reminders');
     Workmanager().cancelByUniqueName('reminder_oneoff');
     Workmanager().cancelByUniqueName('widgets');
@@ -301,6 +317,7 @@ void cancelTasks() {
   }
 
   timer?.cancel();
+  talker.info('Cancelled desktop reminder timer');
 }
 
 Future<void> doMobileReminders() async {
@@ -312,24 +329,29 @@ Future<void> doMobileReminders() async {
 void taskHandler() {
   if (defaultTargetPlatform != TargetPlatform.android &&
       defaultTargetPlatform != TargetPlatform.iOS) {
-    print(
-      '[Workmanager] doMobileReminders called on unsupported platform: $defaultTargetPlatform',
-    );
+    talker.warning('Background task handler invoked on an unsupported platform');
     return;
   }
 
   Workmanager().executeTask((task, inputData) async {
-    print('[Workmanager] task received $task');
-    switch (task) {
-      case 'reminders':
-        await doMobileReminders();
-        print('[Workmanager] Task "reminders" completed successfully.');
-        return Future.value(true);
-      case 'widgets':
-        await HomeWidget.updateWidget(name: 'QuitTrackerWidget');
-        return Future.value(true);
-      default:
-        return Future.value(false);
+    talker.info('Received background task: $task');
+    try {
+      switch (task) {
+        case 'reminders':
+          await doMobileReminders();
+          talker.info('Completed reminder background task');
+          return true;
+        case 'widgets':
+          await HomeWidget.updateWidget(name: 'QuitTrackerWidget');
+          talker.info('Completed widget background task');
+          return true;
+        default:
+          talker.warning('Ignoring unknown background task: $task');
+          return false;
+      }
+    } catch (error, stackTrace) {
+      talker.handle(error, stackTrace, 'Background task failed: $task');
+      return false;
     }
   });
 }

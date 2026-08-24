@@ -7,6 +7,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  talker_flutter: 5.1.20
   flutter_localizations:
     sdk: flutter
   cupertino_icons: ^1.0.8

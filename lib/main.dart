@@ -12,6 +12,7 @@ import 'package:quitter/crash_logger.dart';
 import 'package:quitter/home_page.dart';
 import 'package:quitter/journal_page.dart';
 import 'package:quitter/l10n/generated/app_localizations.dart';
+import 'package:quitter/logging.dart';
 import 'package:quitter/pin_page.dart';
 import 'package:quitter/settings_provider.dart';
 import 'package:quitter/stats_page.dart';
@@ -23,6 +24,8 @@ final rootScaffoldMessenger = GlobalKey<ScaffoldMessengerState>();
 Future<void> _migrateHiddenToDeleted() async {
   final prefs = await SharedPreferences.getInstance();
   if (prefs.getBool('migrated_v2_hide_to_delete') == true) return;
+
+  talker.info('Running hidden-journey migration');
 
   const pairs = {
     'show_adderall': 'adderall',
@@ -46,6 +49,7 @@ Future<void> _migrateHiddenToDeleted() async {
   }
 
   await prefs.setBool('migrated_v2_hide_to_delete', true);
+  talker.info('Completed hidden-journey migration');
 }
 
 Future<void> main() async {
@@ -53,6 +57,8 @@ Future<void> main() async {
     () async {
       WidgetsFlutterBinding.ensureInitialized();
       await CrashLogger.install(fileName: 'quitter-crash.log');
+      installTalkerErrorHandlers();
+      talker.info('Starting Quitter');
 
       await _migrateHiddenToDeleted();
 
@@ -60,6 +66,8 @@ Future<void> main() async {
       await settings.loadPreferences();
       final addiction = AddictionProvider();
       await addiction.loadAddictions();
+
+      talker.info('Application state loaded');
 
       cancelTasks();
       setupTasks();
@@ -112,6 +120,7 @@ class _QuitterAppState extends State<QuitterApp>
   void didChangeAppLifecycleState(AppLifecycleState state) {
     if (state == AppLifecycleState.paused) {
       _pausedTime = DateTime.now();
+      talker.debug('Application paused');
     } else if (state == AppLifecycleState.resumed && _pausedTime != null) {
       final now = DateTime.now();
       final elapsed = now.difference(_pausedTime!);
@@ -119,6 +128,7 @@ class _QuitterAppState extends State<QuitterApp>
       if (elapsed.inSeconds < settings.pinTimeout) return;
 
       settings.lockApp();
+      talker.info('Locked application after inactivity timeout');
     }
   }
 

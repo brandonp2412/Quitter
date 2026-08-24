@@ -6,6 +6,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:quitter/color_scheme_type.dart';
 import 'package:quitter/tasks.dart';
 import 'package:quitter/app_theme_mode.dart';
+import 'package:quitter/logging.dart';
 
 class SettingsProvider extends ChangeNotifier {
   static const String _themeKey = 'theme_mode';
@@ -146,16 +147,21 @@ class SettingsProvider extends ChangeNotifier {
   bool get notifyMaoi => _notifySettings['maoi']!;
 
   Future<bool> unlock(String pin) async {
-    if (isPinLockoutActive) return false;
+    if (isPinLockoutActive) {
+      talker.warning('Rejected unlock attempt during lockout');
+      return false;
+    }
 
     if (await verifyPin(pin)) {
       _isUnlocked = true;
       await _clearPinFailures();
       notifyListeners();
+      talker.info('Application unlocked');
       return true;
     }
 
     await _registerFailedPinAttempt();
+    talker.warning('Failed application unlock attempt');
     return false;
   }
 
@@ -236,6 +242,7 @@ class SettingsProvider extends ChangeNotifier {
     _isPinEnabled = enabled == true;
 
     notifyListeners();
+    talker.debug('Loaded application preferences');
   }
 
   set locale(String locale) {
@@ -268,6 +275,7 @@ class SettingsProvider extends ChangeNotifier {
       _isPinEnabled = false;
     }
     notifyListeners();
+    talker.info(enabled ? 'Enabled application PIN' : 'Disabled application PIN');
   }
 
   Future<bool> verifyPin(String pin) async {
