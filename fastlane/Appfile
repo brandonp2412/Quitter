@@ -1,2 +1,3 @@
-app_identifier("com.presley.quitter") # The bundle identifier of your app
+json_key_file("~/.config/googlePlay.json")
+package_name("com.quitter.app")
 # apple_id("your-apple-id@example.com") # Your Apple ID

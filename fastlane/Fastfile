@@ -2,14 +2,33 @@
 # More information about fastlane can be found here:
 # https://docs.fastlane.tools
 
+default_platform(:android)
+
 platform :android do
   desc "Deploy to Google Play"
   lane :deploy do |options|
+    metadata(track: options[:track] || "production")
     supply(
       aab: options[:aab],
       json_key: options[:json_key],
-      package_name: "com.presley.quitter",
-      track: "production",
+      package_name: "com.quitter.app",
+      track: options[:track] || "production",
+      skip_upload_metadata: true,
+      skip_upload_images: true,
+      skip_upload_screenshots: true
+    )
+  end
+
+  desc "Upload the complete Google Play store listing without a binary release"
+  lane :metadata do |options|
+    supply(
+      json_key: options[:json_key],
+      package_name: "com.quitter.app",
+      track: options[:track] || "production",
+      skip_upload_apk: true,
+      skip_upload_aab: true,
+      skip_upload_changelogs: true,
+      skip_upload_metadata: false,
       skip_upload_images: false,
       skip_upload_screenshots: false
     )
