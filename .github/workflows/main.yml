@@ -550,12 +550,19 @@ jobs:
           bundler-cache: true
 
       - name: Create Google Play JSON key file
-        run: echo '${{ secrets.GOOGLE_PLAY_JSON_KEY }}' > google-play-key.json
+        run: |
+          echo '${{ secrets.GOOGLE_PLAY_JSON_KEY }}' > google-play-key.json
+          mkdir -p ~/.config
+          cp google-play-key.json ~/.config/googlePlay.json
 
       - name: Deploy to Google Play
         run: |
+          bundle exec fastlane android metadata track:production
           bundle exec fastlane supply \
             --aab bundle/release/app-release.aab \
             --json_key google-play-key.json \
             --package_name com.quitter.app \
-            --track production
+            --track production \
+            --skip_upload_metadata true \
+            --skip_upload_images true \
+            --skip_upload_screenshots true
