@@ -14,6 +14,7 @@ void main() {
     );
 
     expect(milestone.isEvidenceQualified, isFalse);
+    expect(milestone.title, 'One week');
     expect(milestone.description, 'Specific supported claim');
     expect(milestone.referenceContent, 'Specific evidence content');
   });
@@ -21,7 +22,7 @@ void main() {
   test('unsupported day-specific claims are evidence-qualified', () {
     const milestone = QuitMilestone(
       day: 180,
-      title: 'Six months',
+      title: 'Immune system restored',
       description: 'Your immune system is back to full strength.',
       reference:
           'Effects of Opioid Tolerance and Withdrawal on the Immune System (PubMed)',
@@ -30,6 +31,8 @@ void main() {
     );
 
     expect(milestone.isEvidenceQualified, isTrue);
+    expect(milestone.title, 'Recovery milestone');
+    expect(milestone.title, isNot(contains('restored')));
     expect(milestone.description, contains('does not establish'));
     expect(milestone.description, isNot(contains('full strength')));
     expect(milestone.referenceContent, contains('Evidence note'));
@@ -84,7 +87,9 @@ void main() {
         link: 'https://example.com',
       );
 
+      expect(japanese.title, '回復の節目');
       expect(japanese.description, contains('30日目'));
+      expect(chinese.title, '恢复里程碑');
       expect(chinese.description, contains('第30天'));
     },
   );

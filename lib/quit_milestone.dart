@@ -1,6 +1,6 @@
 class QuitMilestone {
   final int day;
-  final String title;
+  final String _title;
   final String _description;
   final String reference;
   final String _link;
@@ -9,13 +9,14 @@ class QuitMilestone {
 
   const QuitMilestone({
     required this.day,
-    required this.title,
+    required String title,
     required String description,
     required this.reference,
     required String link,
     String? referenceContent,
     this.referenceDate,
-  }) : _description = description,
+  }) : _title = title,
+       _description = description,
        _link = link,
        _referenceContent = referenceContent;
 
@@ -25,6 +26,8 @@ class QuitMilestone {
   /// paper into a more precise medical timeline than the paper actually shows.
   bool get isEvidenceQualified =>
       !_directlySupportedClaims.contains('$reference::$day');
+
+  String get title => isEvidenceQualified ? _qualifiedTitle : _title;
 
   String get description =>
       isEvidenceQualified ? _qualifiedDescription : _description;
@@ -47,9 +50,20 @@ class QuitMilestone {
   }
 
   String get _languageCode {
-    if (RegExp(r'[\u3040-\u30ff]').hasMatch(title)) return 'ja';
-    if (RegExp(r'[\u4e00-\u9fff]').hasMatch(title)) return 'zh';
+    if (RegExp(r'[\u3040-\u30ff]').hasMatch(_title)) return 'ja';
+    if (RegExp(r'[\u4e00-\u9fff]').hasMatch(_title)) return 'zh';
     return 'en';
+  }
+
+  String get _qualifiedTitle {
+    switch (_languageCode) {
+      case 'ja':
+        return '回復の節目';
+      case 'zh':
+        return '恢复里程碑';
+      default:
+        return 'Recovery milestone';
+    }
   }
 
   String get _qualifiedDescription {
