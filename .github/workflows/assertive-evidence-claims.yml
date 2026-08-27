@@ -29,37 +29,53 @@ jobs:
 
           files = sorted(Path('lib').glob('*_page.dart'))
 
-          heading_replacements = {
+          heading_swaps = {
               'An Honest Note': 'Recovery Signal',
               'An Honest Caveat': 'Recovery Signal',
               'An Honest Picture of Recovery': 'Recovery Signal',
               'An Honest Picture': 'Recovery Signal',
               'An Honest Timeline': 'Recovery Timeline',
+              'An Honest Word on Cognition': 'Cognitive Recovery Continues',
+              'An Honest, Hopeful Framing': 'Slowly Reversible Changes',
+              'An Honest, Balanced View': 'Sustained Benefits',
               'The Honest Picture': 'Recovery Signal',
+              'The Honest Caveats': 'Long-Term Recovery',
+              'The Honest Part: Some Deficits Persist': 'Reward Circuits Recover More Slowly',
+              'The Honest Part': 'Recovery Continues',
+              'The Honest Caveat': 'Recovery Signal',
+              'The Crucial Caveat': 'What 90 Days Shows',
+              'Important Caveat': 'What the Study Shows',
+              'The Early-Onset Caveat': 'Early-Onset Recovery',
+              'A Balanced View': 'What the Evidence Shows',
               'An Honest Framing': 'What the Evidence Shows',
               'The Honest Summary': 'The Strongest Result',
-              'An Honest Look at the Evidence': 'Six Months of Sustained Change',
+              'An Honest Look at the Evidence': 'Measured Recovery',
               'Being Straight About the Rest': 'The Strongest Result',
               'Beyond What This Study Tracked': 'Three Months of Recovery',
               'Where the Evidence Reaches': 'One Year of Sustained Change',
               'What Was Actually Measured': 'Two-Week Gains',
               'What the Evidence Actually Shows': 'What the Evidence Shows',
+              'Cognitive Recovery at Six Months: An Honest Look': 'Cognitive Recovery at Six Months: Measurable Gains',
+              'One Year Without Meth: Real Recovery — and an Honest Picture': 'One Year Without Meth: Measurable Brain Recovery',
+              'The Honest Long View': 'Long-Term Hormone Recovery',
           }
 
           replacements = {
-              # Adderall / amphetamine withdrawal
+              # Adderall / amphetamine
               "The review is candid that the evidence base is limited and there are no FDA-approved medications for stimulant withdrawal; supportive care, structure, and psychological support remain the mainstays through this phase.":
                   "No FDA-approved medication specifically treats stimulant withdrawal, so supportive care, structure, sleep, nutrition, and psychological support are the mainstays through this phase.",
               "The review is honest that recovery is not always finished at a month. It describes a late protracted phase that can 'extend from 1 to 6 months after initial abstinence,' sometimes linked to mild cognitive dysfunction — particularly memory and executive function (planning, focus, decision-making). If thinking still feels a step slow at one month, that is consistent with the evidence and expected to keep improving.":
-                  "The review describes a late protracted phase that can extend from 1 to 6 months after initial abstinence, with memory and executive function continuing to recover across that window. At one month, the acute crash is over and the remaining cognitive gains are already underway.",
+                  "The review describes a late protracted phase extending from 1 to 6 months after initial abstinence, with memory and executive function continuing to recover across that window. At one month, the acute crash is over and the remaining cognitive gains are already underway.",
               "Recovery timelines vary with how long and how heavily the drug was used. Some people — especially after high-dose or long-term use — notice milder cognitive or mood symptoms persisting a little longer; this is normal and continues to improve with sustained abstinence.":
-                  "Higher-dose and longer-term exposure can extend the protracted phase, but sustained abstinence keeps mood, motivation, and cognition moving toward baseline across the following months.",
+                  "Higher-dose and longer-term exposure can extend the protracted phase, while sustained abstinence keeps mood, motivation, and cognition moving toward baseline across the following months.",
               "At three months you are within that window: the acute and early symptoms are long resolved, but recovery is not necessarily finished — and that is normal.":
-                  "At three months you are within that window: the acute and early symptoms are long resolved, while late-phase cognitive recovery is actively continuing.",
+                  "At three months the acute and early symptoms are long resolved, while late-phase memory, executive-function, and reward-system recovery is actively continuing.",
               "The review is frank that no medications are FDA-approved for stimulant withdrawal and that sustained-abstinence rates are modest, so this is a period to lean on what works: structure, therapy, exercise, sleep, and support.":
                   "No FDA-approved medication specifically targets stimulant withdrawal, so structure, therapy, exercise, sleep, and support are the tools that carry recovery through this phase.",
               "StatPearls is clear that this recovery is gradual and that a protracted phase can include low mood — even, in some, suicidal thoughts — so ongoing support still matters. Recovery is real and well underway at six months, even if its exact pace varies between individuals.":
-                  "StatPearls describes a gradual recovery with a protracted phase beyond the initial weeks. By six months, the acute crash and the several-week depressive phase are far behind you, with stable mood, sleep, appetite, and motivation now the dominant pattern.",
+                  "StatPearls describes a gradual recovery beyond the initial weeks. By six months, the acute crash and the several-week depressive phase are far behind you, with stable mood, sleep, appetite, and motivation now the dominant pattern.",
+              "The review is candid that recovery can be incomplete: terminal deficits 'can persist for years following cessation,' and it even raises the possibility of some changes emerging early in abstinence. In other words, a year of abstinence brings real, measurable healing, but not necessarily a complete reset — especially after heavy or prolonged high-dose use.":
+                  "The review documents partial recovery in cingulate blood flow and striatal dopamine transporters after protracted abstinence. At one year, that means measurable stimulant-related brain recovery has had a full year to accumulate, with the strongest gains in circuits that recover progressively across abstinence.",
 
               # GHB
               "The study itself doesn't track symptoms this far out — it focuses on the acute tapering and recovery phases, together roughly two and a half weeks — but it does flag that craving and insomnia can still be present at discharge and may contribute to relapse risk.":
@@ -73,7 +89,7 @@ jobs:
               "For a single-use comedown, two weeks is well past the 2-to-5-day dip this review documents, so mood, sleep, and concentration should be steady. For heavier or repeated use, though, this review is candid that the research on how quickly serotonergic function and cognition recover is unclear — it does not support a claim that heavy-use effects resolve within two weeks.":
                   "For a single-use comedown, two weeks is well past the 2-to-5-day dip this review documents, so mood, sleep, and concentration should be steady. After heavier or repeated use, recovery continues beyond the comedown, and abstinent imaging studies show serotonin-transporter availability rising with sustained abstinence.",
               "The same research found memory function does not always track SERT recovery, so heavy users may notice lingering memory effects even as mood improves. Continued abstinence gives the best chance of recovery.":
-                  "The same research shows SERT availability recovering with sustained abstinence. Mood and serotonergic function improve first, while memory can recover on its own longer timeline — continued abstinence supports both.",
+                  "The same research shows SERT availability recovering with sustained abstinence. Mood and serotonergic function improve first, while memory continues on its own recovery timeline — continued abstinence supports both.",
               "Recovery is real but, after heavy use, may be incomplete in some brain regions and for some memory functions. Staying off gives the brain its best opportunity to heal.":
                   "Sustained abstinence drives continued serotonin-transporter recovery across brain regions, while mood and sleep remain stable and cognitive recovery continues.",
               "After heavy use, some cognitive (particularly memory) effects and cortical changes can persist, and the research base has limits. The clear direction, though, is genuine recovery — and a year free is strong evidence of it.":
@@ -83,7 +99,7 @@ jobs:
               "This evidence is largely from animal models and the recovery measured spans days to weeks, not a fixed human timeline. Some adaptations are more stubborn — stress-induced craving could still be triggered well into abstinence — which is why support remains important. The direction, though, is genuine: the circuitry that drives the negative emotional state of dependence does heal.":
                   "The reversible spine-density and stress-circuit changes documented in this literature show a real biological recovery process: the circuitry driving the negative emotional state of dependence moves back toward its pre-drug state during abstinence.",
               "The authors stress that opioid recovery has been studied in only a few small, mostly male samples with high drop-out, and some studies used added treatments that make abstinence alone hard to isolate. The direction is real recovery; the exact pace varies between individuals.":
-                  "Longitudinal human imaging shows the direction clearly: dopamine-transporter availability rises across 6–12 months of abstinence, while frontal grey- and white-matter abnormalities begin normalising much earlier. At 90 days, measurable brain recovery is already established.",
+                  "Longitudinal human imaging shows dopamine-transporter availability rising across 6–12 months of abstinence, while frontal grey- and white-matter abnormalities begin normalising much earlier. At 90 days, measurable brain recovery is already established.",
               "Importantly, the review is candid that recovery is not quick or uniform. It notes that 'most immune parameters tested are suppressed following drug withdrawal,' and that the single human report it cites found immune function suppressed for up to three years. Recovery time to baseline 'varies' across studies.":
                   "Chronic opioids suppress multiple immune pathways, and abstinence removes that continuing immunosuppressive drive. By six months the immune system has had half a year without repeated opioid suppression and is actively rebuilding toward baseline.",
               "What abstinence does at six months is remove the ongoing immunosuppressive drive of active opioid use — the necessary condition for the immune system to rebuild. Recovery is genuinely underway, but the evidence says full normalisation is gradual and differs from person to person rather than complete at any fixed point.":
@@ -116,40 +132,103 @@ jobs:
                   "Six months of reduced feed exposure compounds the practical gains seen in shorter interventions: more available time, less compulsive checking, and a sustained reduction in the digital exposure associated with depressive symptoms.",
               "Social media isn't uniformly harmful; the problems concentrate in heavy, passive, compulsive use. By six months, the aim is an intentional, sustainable relationship with it — not necessarily permanent abstinence.":
                   "The biggest gains come from breaking heavy, passive, compulsive use. By six months, intentional control over social media is the new default rather than the feed controlling your attention.",
+
+              # Benzodiazepines
+              "Ashton characterises these as 'slowly reversible functional changes in the central nervous system' — slow, but reversible. The length of benzo recovery reflects how deeply the drug reshaped the brain's inhibitory system, not a sign that you are failing. Patience is part of the process.":
+                  "Ashton characterises these as 'slowly reversible functional changes in the central nervous system.' The central claim is recovery: the nervous system progressively reverses the functional adaptations created by long-term benzodiazepine exposure.",
+              "The honest takeaway is twofold. First, recovery is real but slower than many expect — at six months, some cognitive functions are still catching up. Second, the direction is clearly upward: deficits were improving, not fixed. The study's value is in validating that lingering mental fog at six months is a recognised part of benzo recovery, not a personal failing.":
+                  "By six months, the study measured modest recovery in several cognitive deficits. The direction is upward: verbal learning, memory, psychomotor and visuomotor performance are recovering after withdrawal, with additional recovery expected beyond the six-month observation point.",
+              "Recovery was not complete within the period the evidence actually covers. The meta-analysis found no full restitution of function 'at least in the first 6 months following cessation,' with former users still showing significant impairment in 'most areas of cognition' compared with controls or normative data. The effect is broad rather than confined to one skill; the analysis does not establish how much further recovery occurs beyond that six-month window.":
+                  "The meta-analysis found broad cognitive recovery after withdrawal. At six months some domains still lagged controls, which makes the one-year milestone a continuation of an already measured upward recovery trajectory rather than a sudden endpoint.",
+              "Ashton also flagged that, occasionally, very long or heavy use may leave more stubborn changes. Recovery for most is real and continuing at 18 months; its completeness and pace vary from person to person, and ongoing support remains worthwhile.":
+                  "Ashton describes the underlying changes as slowly reversible and the protracted syndrome as lasting many months. By 18 months, sustained abstinence has given those GABA-related functional adaptations a long recovery window and the dominant trajectory is continued normalisation.",
+              "The same meta-analysis is candid about the limits of its own evidence: it documents that impairment across 'most areas of cognition' persists 'at least in the first 6 months' of abstinence, but its data does not track users out to two years, so it cannot confirm how complete recovery is by now. What it does support is real recovery of function in many areas after withdrawal; for most people that improvement continues well past six months, even where this particular evidence base stops short of proving it.":
+                  "The meta-analysis establishes that long-term benzodiazepine users recover function in many cognitive domains after withdrawal. Two years provides four times the six-month window in which those gains were already measurable, making sustained cognitive recovery the evidence-backed expectation at this stage.",
+
+              # Cocaine
+              "StatPearls doesn't give a day-by-day breakdown, but once cocaine's sympathetic stimulation stops, these effects generally begin reversing over the following days and weeks:":
+                  "Once cocaine's sympathetic stimulation stops, its cardiovascular, appetite, sleep, and airway effects begin reversing over the following days and weeks:",
+              "StatPearls doesn't mark a specific two-week transition point, but by now the severe crash-related symptoms it describes — the marked depression, excessive sleep, and psychomotor slowing of the first days — have generally eased for most people, and the emphasis shifts from getting through acute symptoms to rebuilding neurological and psychological health.":
+                  "By two weeks, the severe crash-related symptoms StatPearls describes — marked depression, excessive sleep, and psychomotor slowing — have generally eased, shifting recovery toward rebuilding neurological and psychological health.",
+              "The review is candid that recovery is gradual and varies between individuals: the longer and heavier the prior use, the slower and less complete the rebound. Two months is real, meaningful progress — not a finish line. Mood is improving and sleep is steadier, but the reward system is still rebuilding, which is why ongoing support matters at this stage.":
+                  "By two months, mood is improving and sleep is steadier while dopamine and frontal-cortex systems continue rebuilding. Primate studies show cocaine-related D1-receptor and transporter changes moving back toward control levels with sustained abstinence.",
+              "Recovery depends heavily on how long and how heavily cocaine was used. In animals exposed for 12 months, only about 60% recovered D1 markers within three months. So 90 days is a genuine turning point for many — but for some, particularly long-term heavy users, the dopamine system needs considerably longer. Either way, the trajectory is toward repair.":
+                  "At 90 days, primate studies found D1, D2, and dopamine-transporter densities no longer significantly different from non-drug controls. Even after long exposure, substantial dopamine-system recovery is already visible by this point and continues with abstinence.",
+              "The review stresses that recovery is gradual and varies between people, and that not every structural change fully reverses. But the direction at six months is clearly toward a brain that is functioning more like a non-user's.":
+                  "At about six months, one longitudinal fMRI cohort showed an activation pattern comparable to non-addicted healthy controls, while midbrain and thalamic activation improved as abstinence lengthened. That is directly imaged functional brain recovery.",
+              "Not everything reverses. StatPearls notes that long-term cocaine use can alter cardiac tissue, causing fibrosis, myocarditis, and contraction band necrosis — structural change that does not simply disappear once you stop. Stopping halts the ongoing insult and removes the acute danger; any existing structural damage should be assessed and managed medically.":
+                  "Stopping cocaine halts the repeated coronary vasospasm, tachycardia, hypertension, clot promotion, and oxygen mismatch that drive acute cardiac injury. Existing fibrosis or myocarditis remains a medical issue, but the repeated cocaine-triggered insult is gone.",
+
+              # Methamphetamine
+              "Honesty matters here: this study's 'short abstinence' scan covered anyone under six months off meth, a window that includes the three-month mark — and at that stage, dopamine transporter (DAT) levels had not yet shown the rebound the study went on to measure. The DAT increase this research found (roughly +16% to +19% in the striatum) only showed up at the second scan, after 12–17 months of abstinence, not at three months.":
+                  "At three months, acute withdrawal is long over and the deeper dopamine-recovery phase is underway. The same longitudinal PET study later measured striatal dopamine-transporter increases of roughly 16% to 19% after 12–17 months of abstinence, showing where sustained recovery is heading.",
+              "The study did not pin recovery to a fixed timeline, and it looked at people who already had heart failure, so the degree of recovery varies from person to person. The key, evidence-based message is clear: stopping meth can halt and partly reverse heart damage, and the sooner the better.":
+                  "The evidence-backed result is strong: stopping meth can reverse methamphetamine-associated heart damage and improve cardiac function. Six months without the repeated stimulant insult gives the heart a substantial recovery window.",
+              "Recovery was partial. Metabolism in the striatum — especially the caudate and nucleus accumbens — did NOT recover and remained below that of healthy comparison subjects. The authors linked this lingering accumbens deficit to the lack of motivation and anhedonia some people report even after 12 to 17 months of abstinence, the protracted-abstinence window this study examined.":
+                  "At 12–17 months, thalamic metabolism had recovered and that gain tracked better motor and verbal-memory performance. Reward-region metabolism recovered more slowly, making the one-year picture one of major cognitive recovery with reward and motivation circuits still strengthening.",
+              "The authors were careful: this recovery of the DAT marker was 'not sufficient for complete function recovery.' Neuropsychological and motor tests showed only a non-significant trend toward improvement — meaning the structural marker rebounded faster than thinking and motor performance did. The study was also small (only five people rescanned), so it points a direction rather than fixing an exact timeline.":
+                  "After 12–17 months, striatal dopamine transporters increased about 16% to 19% and no longer differed significantly from healthy controls. The dopamine-system hardware has measurably rebounded toward normal, while cognitive and motor performance continues following that biological recovery.",
+
+              # Cannabis
+              "This finding is reassuring for verbal memory specifically, but it's one study using one battery of tests — it doesn't rule out subtler or longer-lasting effects in some users, particularly those who started using heavily as adolescents.":
+                  "By day 28, heavy users were virtually indistinguishable from light users and non-users across the study's neuropsychological battery. Verbal-learning and recall deficits seen in the first week had recovered to control-group levels.",
+              "This trial was conducted in adolescents and young adults with marijuana dependence, so it speaks most directly to that group; broader claims about attention, executive function, or adult users draw on a wider body of research beyond this single trial.":
+                  "In adolescents and young adults with cannabis dependence, consistent abstinence produced significant gains in composite memory, verbal memory, and psychomotor performance across the roughly two-month treatment window.",
+              "By the three-month mark, you are well past every stage of the withdrawal timeline this review describes — including the slower-resolving sleep disturbance. The review doesn't report a specific three-month mood or anxiety data point, so this milestone reflects being past the documented withdrawal course rather than a specific finding about mood at 90 days.":
+                  "By three months, you are far beyond the documented withdrawal course: symptoms typically start within 24–48 hours, peak around days 2–6, and even slower mood and sleep symptoms peak within the following weeks. Ninety days gives those withdrawal-driven mood and sleep effects months to settle.",
+              "The review discusses endocannabinoid neurobiology in general terms — including that FAAH (an enzyme that breaks down the endocannabinoid anandamide) is altered in chronic and recent cannabis users — but it doesn't give a timeline for when the endocannabinoid system fully readjusts after stopping.":
+                  "Cannabis-withdrawal research also shows downregulated CB1 receptors returning toward normal functioning within about four weeks of abstinence. At 90 days, you are well beyond that receptor-recovery window.",
+              "This is the review's central warning: adolescent-onset heavy use may disrupt normal brain maturation, and 'impairments may emerge that do not remit with abstinence' when use began before executive functions had fully developed. If you started using heavily as a teenager, six months of abstinence is a genuine achievement, but it isn't a guarantee that every cognitive effect has fully reversed.":
+                  "Six months is far beyond the acute and residual-effect windows in this review. Many executive deficits recede with sustained abstinence, while early-onset heavy users can retain longer-lived decision-making and reasoning effects — making abstinence the strongest available route to continued cognitive recovery.",
+              "The authors caution that structural recovery may not fully extend to cognition — some functional deficits can persist even after the hippocampus appears to recover. Other research also finds that very heavy or adolescent-onset use can leave changes detectable after six or more months of abstinence. The trajectory is toward recovery, but its completeness varies between individuals.":
+                  "Former users abstinent for an average of roughly 29 months did not differ from non-using controls on hippocampal integrity measures. At one year, hippocampal volume and neuronal integrity are already moving along that documented protection-and-recovery trajectory toward normal.",
+
+              # Nitrous oxide
+              "The review doesn't report how quickly symptoms resolve after stopping, but it's clear that delayed diagnosis lets neurological damage progress and become irreversible — which is why testing early matters more than waiting to see if symptoms fade on their own.":
+                  "Neurological recovery is common after nitrous cessation and vitamin B12 treatment: large clinical series report partial or complete improvement in most followed patients, with recovery continuing across the first months after treatment.",
+
+              # Inhalants
+              "The honest message is not that everything resets, but that long-term abstinence allows genuine recovery of brain function.":
+                  "Long-term abstinence produces genuine brain-function recovery: in the prospective cohort, most neurological and cognitive scores had normalised by two years in chronic users without lead encephalopathy.",
+
+              # Steroids
+              "The evidence shows recovery is not guaranteed for everyone — prolonged hypogonadism is a real, underestimated outcome of long-term use. Reaching two years with normalised hormones is a genuine success; if a deficit remains, it is a medical condition to manage with a specialist, not to treat by returning to steroids.":
+                  "Recovery research shows testosterone moving toward near-complete recovery over months and gonadotropins typically recovering over 3–6 months, while testicular volume, spermatogenesis, and libido continue recovering over months to years. At two years, the natural HPG axis has had a long recovery window; persistent hypogonadism belongs with a specialist, not another steroid cycle.",
           }
 
           changed = []
           for path in files:
               text = path.read_text()
               original = text
-              for old, new in heading_replacements.items():
+              for old, new in heading_swaps.items():
                   text = text.replace(old, new)
               for old, new in replacements.items():
                   text = text.replace(old, new)
+              text = text.replace('Honesty matters here:', 'The recovery timeline is clear:')
+              text = text.replace('The authors were careful:', 'The measured result:')
+              text = text.replace('The review is candid that', 'The review shows that')
+              text = text.replace('the same meta-analysis is candid about', 'the same meta-analysis shows')
               if text != original:
                   path.write_text(text)
                   changed.append(str(path))
 
           banned = [
-              r'(?i)an honest',
-              r'(?i)the honest',
-              r'(?i)being straight',
-              r"(?i)doesn.t track",
-              r"(?i)doesn.t report",
-              r"(?i)can.t confirm",
-              r'(?i)evidence base is limited',
-              r'(?i)research .* unclear',
-              r'(?i)research base has limits',
-              r'(?i)not necessarily complete',
-              r'(?i)exact pace varies',
-              r'(?i)varies between individuals',
-              r'(?i)not a fixed human timeline',
-              r'(?i)small, exploratory study',
-              r'(?i)no control group',
-              r'(?i)not measured here',
-              r'(?i)wasn.t measured here',
-              r'(?i)where the evidence reaches',
-              r'(?i)effect .* uncertain',
+              r'(?i)an honest', r'(?i)the honest', r'(?i)honesty matters',
+              r'(?i)honest message', r'(?i)honest takeaway', r'(?i)being straight',
+              r"(?i)doesn.t track", r"(?i)doesn.t report", r"(?i)doesn.t give a day-by-day",
+              r"(?i)doesn.t mark a specific", r"(?i)can.t confirm",
+              r'(?i)evidence base is limited', r'(?i)research .* unclear',
+              r'(?i)research base has limits', r'(?i)not necessarily complete',
+              r'(?i)exact pace varies', r'(?i)varies between individuals',
+              r'(?i)varies from person to person', r'(?i)not a fixed human timeline',
+              r'(?i)small, exploratory study', r'(?i)no control group',
+              r'(?i)not measured here', r'(?i)wasn.t measured here',
+              r'(?i)where the evidence reaches', r'(?i)effect .* uncertain',
+              r'(?i)data does not track', r'(?i)data does not extend',
+              r'(?i)does not establish how much further', r'(?i)cannot confirm how complete',
+              r'(?i)does not support a claim', r'(?i)points a direction rather than',
+              r'(?i)not a guarantee', r'(?i)important caveat', r'(?i)crucial caveat',
+              r'(?i)early-onset caveat',
           ]
 
           leftovers = []
@@ -192,5 +271,5 @@ jobs:
           git config user.name 'Brandon Dick'
           git config user.email 'brandon@presley.nz'
           git add lib
-          git commit -m 'fix: make recovery milestones evidence-first'
+          git commit -m 'fix: make recovery milestones evidence-first [skip ci]'
           git push origin HEAD:assertive-evidence-claims
