@@ -1,0 +1,138 @@
+name: Final pornography evidence rewrite
+
+on:
+  push:
+    paths:
+      - .github/workflows/rewrite-porn-copy-final.yml
+
+permissions:
+  contents: write
+
+jobs:
+  rewrite:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+      - name: Rewrite localized milestone copy
+        run: |
+          python3 <<'PY'
+          import json
+          from pathlib import Path
+
+          updates = {
+            'app_en.arb': {
+              'pornographyPageTitle': 'Pornography Recovery',
+              'pornographyHeaderStarted': 'Building lasting control',
+              'pornographyHeaderNotStarted': 'Change problematic pornography use',
+              'pornographySubtitleStarted': 'Track triggers, control, and evidence-based milestones',
+              'pornographySubtitleNotStarted': 'See what research supports and measure your own progress',
+              'pornographyMilestone1Title': 'Taking Back Control',
+              'pornographyMilestone1Description': 'Problematic pornography use is defined by impaired control and resulting distress or impairment. One day matters because you have already interrupted the old pattern once and started identifying what triggers it.',
+              'pornographyMilestone3Title': 'Know Your Urges',
+              'pornographyMilestone3Description': 'People with more severe problematic use commonly report intrusive sexual thoughts, difficult-to-control desire, irritability, mood shifts, and sleep problems. Day three is a useful point to name which of those are actually happening for you.',
+              'pornographyMilestone7Title': 'One Week: Trial Evidence',
+              'pornographyMilestone7Description': 'In a randomized 7-day abstinence study, regular users showed no overall withdrawal syndrome. An exploratory subgroup with both high problematic use and daily viewing had more craving, so a rough first week is possible but not inevitable.',
+              'pornographyMilestone14Title': 'Map Your Triggers',
+              'pornographyMilestone14Description': 'Two weeks gives you repeated exposure to the situations that used to cue pornography. Research links problematic use with factors including craving, stress, avoidance, loneliness, and coping style; knowing your own pattern gives you something concrete to change.',
+              'pornographyMilestone30Title': 'A Month of Control',
+              'pornographyMilestone30Description': 'A month is a meaningful test of control. In a 14,581-person study, sexual-function problems were associated more strongly with problematic use than with simple viewing frequency, so regaining control is the more evidence-based target.',
+              'pornographyMilestone90Title': 'Change Can Hold',
+              'pornographyMilestone90Description': 'A randomized ACT trial for problematic pornography use found large reductions in viewing after 12 sessions, with substantial reductions still present at 3-month follow-up. Durable change is realistic, especially when you build structured skills instead of relying only on willpower.',
+              'pornographyMilestone180Title': 'Six-Month Stability',
+              'pornographyMilestone180Description': 'A randomized CBT study for out-of-control sexual behaviour found improvements in symptoms, sexual compulsivity, and well-being that remained stable at 3- and 6-month follow-up. Long-term control can be maintained.',
+              'pornographyMilestone365Title': 'One Year: Durable Change',
+              'pornographyMilestone365Description': 'One-year follow-up data from an acceptance-based treatment study found participants did not return to pretreatment hypersexuality levels. A year of maintained change is credible evidence of a durable pattern, not a magical brain-reset date.',
+              'pornographyMilestone1825Title': 'Five Years of Control',
+              'pornographyMilestone1825Description': 'Five years is long-term maintenance. CSBD is clinically defined by persistent loss of control with distress or impairment, so maintaining control and functioning well over years is a meaningful outcome in its own right.',
+            },
+            'app_ja.arb': {
+              'pornographyPageTitle': 'ポルノ使用からの回復',
+              'pornographyHeaderStarted': '持続できるコントロールを築く',
+              'pornographyHeaderNotStarted': '問題のあるポルノ使用を変える',
+              'pornographySubtitleStarted': 'トリガー・自己コントロール・根拠のある節目を記録',
+              'pornographySubtitleNotStarted': '研究で分かっていることを確認し、自分の変化を測る',
+              'pornographyMilestone1Title': 'コントロールを取り戻す',
+              'pornographyMilestone1Description': '問題のあるポルノ使用では、コントロールの困難さと、それによる苦痛や生活上の支障が重要です。1日目は、これまでのパターンを一度中断し、何が引き金になるのかを観察し始めたという具体的な一歩です。',
+              'pornographyMilestone3Title': '衝動の正体を知る',
+              'pornographyMilestone3Description': '問題の程度が強い人では、止めにくい性的な考え、抑えにくい欲求、いら立ち、気分の変化、睡眠の問題などが報告されています。3日目は、自分に実際に起きているものを言葉にする良い時点です。',
+              'pornographyMilestone7Title': '1週間：無作為化試験の結果',
+              'pornographyMilestone7Description': '7日間の禁欲を調べた無作為化試験では、通常の利用者全体に一律の離脱症候群は確認されませんでした。一方、高い問題使用と毎日の利用が重なる探索的サブグループでは渇望が強まり、つらい1週間になる人もいることが示唆されました。',
+              'pornographyMilestone14Title': '自分のトリガーを特定する',
+              'pornographyMilestone14Description': '2週間あれば、以前ポルノ使用につながっていた状況を繰り返し観察できます。研究では、渇望、ストレス、回避、孤独、対処スタイルなどが問題使用と関連しており、自分のパターンを知ることで具体的な対策を立てられます。',
+              'pornographyMilestone30Title': '1か月のコントロール',
+              'pornographyMilestone30Description': '1か月は自己コントロールを評価する意味のある期間です。14,581人の研究では、性的機能の問題は単なる視聴頻度よりも問題のある使用との関連が強く、頻度だけでなくコントロールを取り戻すことがより根拠に沿った目標です。',
+              'pornographyMilestone90Title': '変化は維持できる',
+              'pornographyMilestone90Description': '問題のあるポルノ使用に対するACTの無作為化試験では、12回の治療後に視聴が大きく減り、その改善は3か月後にもかなり維持されました。意志力だけでなく、具体的なスキルを組み立てることで持続的な変化は可能です。',
+              'pornographyMilestone180Title': '6か月の安定',
+              'pornographyMilestone180Description': '制御困難な性的行動を対象にしたCBTの無作為化試験では、症状、性的強迫性、心理的健康の改善が3か月・6か月の追跡でも維持されました。長期的なコントロールは維持可能です。',
+              'pornographyMilestone365Title': '1年：持続する変化',
+              'pornographyMilestone365Description': '受容ベース治療の1年追跡研究では、参加者の過度な性的行動は治療前の水準には戻りませんでした。1年間維持された変化は、魔法の「脳リセット日」ではなく、持続する新しい行動パターンの根拠になります。',
+              'pornographyMilestone1825Title': '5年間のコントロール',
+              'pornographyMilestone1825Description': '5年は長期維持です。CSBDは、持続的なコントロール喪失と、それによる苦痛や生活上の支障を中心に定義されます。何年にもわたりコントロールと良好な機能を保てていること自体が、意味のある成果です。',
+            },
+            'app_zh.arb': {
+              'pornographyPageTitle': '色情内容使用恢复',
+              'pornographyHeaderStarted': '建立持久的自我控制',
+              'pornographyHeaderNotStarted': '改变有问题的色情内容使用',
+              'pornographySubtitleStarted': '记录诱因、自我控制和有证据支持的里程碑',
+              'pornographySubtitleNotStarted': '了解研究真正支持的结论，并衡量自己的进展',
+              'pornographyMilestone1Title': '重新掌握控制权',
+              'pornographyMilestone1Description': '有问题的色情内容使用的核心是控制困难，以及由此造成的痛苦或功能受损。第一天的意义很具体：你已经中断旧模式一次，并开始识别真正会触发它的情境。',
+              'pornographyMilestone3Title': '认识你的冲动',
+              'pornographyMilestone3Description': '问题使用较严重的人常报告难以停止的性想法、难以控制的欲望、易怒、情绪波动和睡眠问题。第三天适合把自己真正出现的体验具体说出来，而不是套用固定的“戒断时间表”。',
+              'pornographyMilestone7Title': '一周：随机试验的证据',
+              'pornographyMilestone7Description': '一项7天禁欲随机试验没有发现普通使用者整体出现统一的戒断综合征；但在“高问题使用加每日观看”的探索性亚组中，渴求更强。因此第一周可能很难，但并非人人如此。',
+              'pornographyMilestone14Title': '找出你的诱因',
+              'pornographyMilestone14Description': '两周足以让你多次遇到以前会触发色情内容使用的情境。研究把问题使用与渴求、压力、逃避、孤独和应对方式等因素联系起来；识别自己的模式，才能设计具体改变。',
+              'pornographyMilestone30Title': '一个月的控制',
+              'pornographyMilestone30Description': '一个月是检验控制力的有意义周期。在14,581人的研究中，性功能问题与“问题使用”的关联强于单纯观看频率，因此重新获得控制比只盯着频率更符合证据。',
+              'pornographyMilestone90Title': '改变可以维持',
+              'pornographyMilestone90Description': '一项针对问题性色情内容使用的ACT随机试验发现，12次治疗后观看量大幅下降，并在3个月随访时仍保持明显改善。建立具体技能，而不只靠意志力，可以支持持久改变。',
+              'pornographyMilestone180Title': '六个月的稳定',
+              'pornographyMilestone180Description': '一项针对失控性行为的CBT随机试验发现，症状、性强迫和心理健康的改善在3个月和6个月随访时仍保持稳定。长期控制是可以维持的。',
+              'pornographyMilestone365Title': '一年：持久改变',
+              'pornographyMilestone365Description': '一项接纳式治疗的一年随访发现，参与者的过度性行为没有回到治疗前水平。一年的持续改变更像是稳定的新行为模式，而不是某个神奇的“脑重置日期”。',
+              'pornographyMilestone1825Title': '五年的控制',
+              'pornographyMilestone1825Description': '五年属于长期维持。CSBD的临床定义核心是持续失去控制并造成痛苦或功能受损，因此多年保持控制并维持良好生活功能，本身就是有意义的结果。',
+            },
+          }
+
+          for filename, values in updates.items():
+            path = Path('lib/l10n') / filename
+            data = json.loads(path.read_text(encoding='utf-8'))
+            missing = [key for key in values if key not in data]
+            if missing:
+              raise SystemExit(f'{filename}: missing keys {missing}')
+            data.update(values)
+            path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          replacements = {
+            'https://store.samhsa.gov/sites/default/files/sma14-4859.pdf': 'https://library.samhsa.gov/sites/default/files/sma14-4859.pdf',
+            'https://www.mayoclinic.org/diseases-conditions/opioid-use-disorder/symptoms-causes/syc-20375440': 'https://www.mayoclinic.org/diseases-conditions/prescription-drug-abuse/in-depth/how-opioid-addiction-occurs/art-20360372',
+          }
+          for path in Path('lib').rglob('*.dart'):
+            text = path.read_text(encoding='utf-8')
+            updated = text
+            for old, new in replacements.items():
+              updated = updated.replace(old, new)
+            if updated != text:
+              path.write_text(updated, encoding='utf-8')
+          PY
+      - name: Regenerate localizations and format
+        run: |
+          flutter gen-l10n
+          dart format lib/quit_milestone.dart lib/pornography_page.dart lib/l10n/generated
+      - name: Commit corrected copy
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add lib/l10n lib/quit_milestone.dart lib/pornography_page.dart lib/entry_page.dart lib/opioid_page.dart
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "fix: replace pornography myths with evidence"
+          git push
