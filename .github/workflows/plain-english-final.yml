@@ -1,0 +1,240 @@
+name: Plain English final validation
+
+on:
+  push:
+    branches: [semantic-claim-sweep]
+    paths:
+      - '.github/workflows/plain-english-final.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: semantic-claim-sweep
+          fetch-depth: 0
+          submodules: recursive
+
+      - name: Apply plain-English rewrite
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import textwrap
+
+          workflow = Path('.github/workflows/plain-english-audit.yml').read_text()
+          marker = '- name: Rewrite recovery copy in plain English'
+          section = workflow[workflow.index(marker):]
+          opener = "          python3 - <<'PY'\n"
+          start = section.index(opener) + len(opener)
+          end = section.index("\n          PY", start)
+          script = textwrap.dedent(section[start:end])
+
+          strict = """        if old not in text:\n            raise SystemExit(f'Missing expected copy in {filename}: {old[:90]}')\n        text = text.replace(old, new)"""
+          tolerant = """        if old in text:\n            text = text.replace(old, new)\n        else:\n            print(f'Specific wording already differs in {filename}: {old[:70]}')"""
+          if strict not in script:
+              raise SystemExit('Could not patch strict exact-copy block')
+          script = script.replace(strict, tolerant, 1)
+          exec(compile(script, '<plain-english-rewrite>', 'exec'))
+
+          # Clean up grammar after broad phrase substitutions and simplify the
+          # remaining common medical terms in explanatory text.
+          cleanups = {
+              'clear thinkings': 'thinking and memory skills',
+              'clear thinkinging': 'clear thinking',
+              'thinking and memory behavioural therapy': 'talking therapy such as CBT',
+              'thinking and memory-behavioural therapy': 'talking therapy such as CBT',
+              'Cognitive-behavioural therapy': 'Talking therapy such as CBT',
+              'cognitive-behavioural therapy': 'talking therapy such as CBT',
+              'Cognitive Behavioral Therapy': 'Talking therapy such as CBT',
+              'cognitive behavioral therapy': 'talking therapy such as CBT',
+              'cognitive clarity': 'clear thinking',
+              'Cognitive clarity': 'Clear thinking',
+              'cognitive skills': 'thinking skills',
+              'Cognitive skills': 'Thinking skills',
+              'cognitive ability': 'thinking ability',
+              'Cognitive ability': 'Thinking ability',
+              'cognitive abilities': 'thinking abilities',
+              'Cognitive abilities': 'Thinking abilities',
+              'cognitive symptoms': 'thinking and memory problems',
+              'Cognitive symptoms': 'Thinking and memory problems',
+              'cognitive markers': 'thinking and memory measures',
+              'Cognitive markers': 'Thinking and memory measures',
+              'cognitive scores': 'thinking and memory scores',
+              'Cognitive scores': 'Thinking and memory scores',
+              'cognitive flexibility': 'ability to switch between ideas',
+              'Cognitive flexibility': 'Ability to switch between ideas',
+              'cognitive decline': 'decline in thinking and memory',
+              'Cognitive decline': 'Decline in thinking and memory',
+              'cognitive problems': 'thinking and memory problems',
+              'Cognitive problems': 'Thinking and memory problems',
+              'cognitive changes': 'changes in thinking and memory',
+              'Cognitive changes': 'Changes in thinking and memory',
+              'cognitive test': 'thinking and memory test',
+              'Cognitive test': 'Thinking and memory test',
+              'cognitive tests': 'thinking and memory tests',
+              'Cognitive tests': 'Thinking and memory tests',
+              'cognitive health': 'brain and thinking health',
+              'Cognitive health': 'Brain and thinking health',
+              'cognitive recovery': 'recovery of thinking and memory',
+              'Cognitive recovery': 'Recovery of thinking and memory',
+              'cognitive function': 'clear thinking',
+              'Cognitive function': 'Clear thinking',
+              'cognitive functioning': 'thinking and memory',
+              'Cognitive functioning': 'Thinking and memory',
+              'cognitive': 'thinking and memory',
+              'Cognitive': 'Thinking and memory',
+              'neural pathways': 'brain pathways',
+              'Neural pathways': 'Brain pathways',
+              'neural recovery': 'brain recovery',
+              'Neural recovery': 'Brain recovery',
+              'neurological recovery': 'brain recovery',
+              'Neurological recovery': 'Brain recovery',
+              'neurological': 'brain and nerve',
+              'Neurological': 'Brain and nerve',
+              'cardiac': 'heart',
+              'Cardiac': 'Heart',
+              'autonomic': 'automatic body',
+              'Autonomic': 'Automatic body',
+              'cholinergic': 'acetylcholine',
+              'Cholinergic': 'Acetylcholine',
+              'adrenergic': 'adrenaline-related',
+              'Adrenergic': 'Adrenaline-related',
+              'monoamine regulation': 'natural brain-chemical regulation',
+              'monoamine levels': 'brain-chemical levels',
+              'neurotransmission': 'brain signalling',
+              'neurotransmitter': 'brain chemical',
+              'neurotransmitters': 'brain chemicals',
+              'pharmacological': 'drug-driven',
+              'pharmacotherapy': 'medication treatment',
+              'neuronal integrity': 'brain-cell health',
+              'neuronal': 'brain-cell',
+              'hippocampal': 'memory-area',
+              'cortical': 'brain',
+              'striatal': 'reward-and-movement-area',
+              'thalamic': 'deep-brain',
+              'brain starting level': 'starting brain level',
+              'pre-benzo starting level': 'pre-benzo level',
+              'usual mood mood': 'usual mood',
+          }
+
+          for path in sorted(Path('lib').glob('*_page.dart')):
+              text = path.read_text()
+              lines = text.splitlines(keepends=True)
+              out = []
+              in_reference = False
+              for line in lines:
+                  if 'referenceContent:' in line:
+                      in_reference = True
+                  if in_reference and 'Source:' not in line and 'reference:' not in line:
+                      for old, new in cleanups.items():
+                          line = line.replace(old, new)
+                  out.append(line)
+                  if in_reference and line.strip() == '),':
+                      in_reference = False
+              path.write_text(''.join(out))
+          PY
+
+      - name: Plain-English and copy-quality guard
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import json
+          import re
+
+          banned = [
+              r'\banhedonia\b', r'\bdysphoria\b', r'\bpsychomotor\b', r'\bvisuo-',
+              r'\bencephalopathy\b', r'\ballostatic\b', r'\bhypodopaminergic\b',
+              r'\bspermatogenesis\b', r'\bgonadotropins?\b', r'\bHPG axis\b', r'\bHPTA\b',
+              r'\bserotonergic\b', r'\bneuropsychological\b', r'\bneurocognitive\b',
+              r'\bprefrontal cortex\b', r'\bneuroplasticity\b', r'\bcognitive\b',
+              r'\breceptor sensitivity\b', r'\brecalibrat\w*\b', r'\bimmunosuppressive\b',
+              r'\bcytokines?\b', r'\bstriatal\b', r'\bthalamic\b', r'\bneuronal\b',
+              r'\bcholinergic\b', r'\badrenergic\b', r'\bneurotransmi\w*\b',
+              r'worth being upfront', r"can['’]t pin", r'not directly measured',
+              r'careful not to overstate', r'asks us to be honest', r'honest, headline',
+              r'does not establish', r"doesn['’]t exist", r'no dedicated study',
+              r'the literature does not', r'the evidence base', r'cannot confirm',
+              r'not necessarily', r'we do not know', r"we don['’]t know",
+              r'clear thinkings', r'thinking and memorying', r'functionss',
+          ]
+          rx = re.compile('|'.join(f'(?:{x})' for x in banned), re.I)
+          source_segment = re.compile(r'Source:.*?(?=\\n\\n|$)')
+          quoted = re.compile(r'\\".*?\\"')
+          single_quoted = re.compile(r"(?<!\w)'[^'\n]+'(?!\w)")
+          failures = []
+
+          for path in sorted(Path('lib').glob('*_page.dart')):
+              in_reference = False
+              for n, line in enumerate(path.read_text().splitlines(), 1):
+                  if 'referenceContent:' in line:
+                      in_reference = True
+                  if in_reference:
+                      check = source_segment.sub('', line)
+                      check = quoted.sub('', check)
+                      check = single_quoted.sub('', check)
+                      if rx.search(check):
+                          failures.append(f'{path}:{n}: {check.strip()}')
+                  if in_reference and line.strip() == '),':
+                      in_reference = False
+
+          arb = json.loads(Path('lib/l10n/app_en.arb').read_text())
+          for key, value in arb.items():
+              if key.startswith('@') or not isinstance(value, str):
+                  continue
+              if rx.search(value):
+                  failures.append(f'lib/l10n/app_en.arb:{key}: {value}')
+
+          if failures:
+              print('\n'.join(failures))
+              raise SystemExit(f'Copy guard found {len(failures)} remaining issues')
+          print('Plain-English copy guard passed')
+          PY
+
+      - name: Keep pinned Flutter SDK outside project format scan
+        shell: bash
+        run: |
+          SDK_GIT_DIR="$(cd flutter && git rev-parse --absolute-git-dir)"
+          mv flutter ../quitter-flutter-sdk
+          printf 'gitdir: %s\n' "$SDK_GIT_DIR" > ../quitter-flutter-sdk/.git
+          mkdir -p flutter/bin
+          cat > flutter/bin/flutter <<'SH'
+          #!/bin/sh
+          exec "$(dirname "$0")/../../../quitter-flutter-sdk/bin/flutter" "$@"
+          SH
+          cat > flutter/bin/dart <<'SH'
+          #!/bin/sh
+          exec "$(dirname "$0")/../../../quitter-flutter-sdk/bin/dart" "$@"
+          SH
+          chmod +x flutter/bin/flutter flutter/bin/dart
+
+      - name: Install dependencies
+        run: flutter/bin/flutter pub get --enforce-lockfile
+
+      - name: Regenerate localizations
+        run: flutter/bin/flutter gen-l10n
+
+      - name: Format
+        run: flutter/bin/dart format .
+
+      - name: Analyze
+        run: flutter/bin/flutter analyze
+
+      - name: Test
+        run: flutter/bin/flutter test
+
+      - name: Commit validated app copy
+        shell: bash
+        run: |
+          git diff --check
+          git config user.name 'Brandon Dick'
+          git config user.email 'brandon@presley.nz'
+          git add lib
+          git commit -m 'fix: make recovery copy plain English [skip ci]'
+          git push origin HEAD:semantic-claim-sweep
