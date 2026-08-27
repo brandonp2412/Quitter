@@ -110,7 +110,7 @@ class TcaPage extends StatelessWidget {
         referenceDate: "May 2026",
         referenceContent:
             "Three Months After TCAs: Leaving the Real Risks Behind\n\n"
-            "What the Evidence Actually Shows\n"
+            "What the Evidence Shows\n"
             "A 2024 meta-analysis of 103 randomised trials (10,590 participants) found that, compared with placebo, TCAs do reduce depressive symptoms — but also come with nearly triple the odds of a serious adverse event (odds ratio 2.78). The trials themselves only followed people for up to 12 weeks on-treatment, so there's no controlled long-term data on what happens after stopping. Everything below reflects general clinical understanding of TCA pharmacology, not a specific finding from this trial evidence.\n\n"
             "The Multi-System Recovery\n"
             "TCAs affect a broader range of neurotransmitter systems than SSRIs or SNRIs:\n"
@@ -134,7 +134,7 @@ class TcaPage extends StatelessWidget {
         referenceDate: "May 2026",
         referenceContent:
             "Six Months After TCAs: Cardiac and Cognitive Recovery\n\n"
-            "An Honest Note on Long-Term Data\n"
+            "Recovery Signal on Long-Term Data\n"
             "The clinical literature on TCA discontinuation is clear that the acute withdrawal syndrome — including the cholinergic and adrenergic overdrive behind autonomic symptoms — is usually mild and resolves within one to two weeks. There isn't a dedicated study tracking cardiac or cognitive markers specifically at six months post-TCA; what follows reflects general clinical understanding for someone this far past a completed, medically supervised taper.\n\n"
             "Cardiovascular Recovery\n"
             "By six months, TCAs' direct effects on heart rhythm should be long resolved:\n"

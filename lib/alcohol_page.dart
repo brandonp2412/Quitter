@@ -162,7 +162,7 @@ class AlcoholPage extends StatelessWidget {
             "Recovery is especially relevant for the prefrontal cortex — the seat of judgment, planning and self-control. As it heals, higher-order thinking and impulse control continue to strengthen, which is part of why a period like six months is often when people feel genuinely back in command of their decisions.\n\n"
             "Neuroplasticity and Function\n"
             "Alongside structural repair, the review describes recovery of brain function and connectivity — the basis of neuroplasticity, the brain's capacity to learn and rewire. This makes sustained abstinence a powerful window for therapy and building new habits.\n\n"
-            "An Honest Caveat\n"
+            "Recovery Signal\n"
             "Recovery is real but not always complete, and its extent varies with how heavy and prolonged the use was, and with age. Still, by six months the direction of travel is clearly toward a healthier, better-functioning brain.",
       ),
       QuitMilestone(

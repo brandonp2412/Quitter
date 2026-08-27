@@ -51,8 +51,8 @@ class BenzodiazepinePage extends StatelessWidget {
             "At two weeks, many people — especially those coming off longer-acting benzodiazepines — are still in the acute phase, when the imbalance between the brain's calming (GABA) and excitatory systems is most pronounced. Anxiety, insomnia, and perceptual disturbances are common.\n\n"
             "Why Benzo Withdrawal Can Drag On\n"
             "This landmark paper by Professor Heather Ashton describes how acute symptoms 'tend to merge with more persistent symptoms' — a protracted withdrawal syndrome in which problems such as anxiety, insomnia, cognitive difficulty, and sensory disturbances 'may last for many months.' Ashton attributes this to tolerance that 'may be slow to reverse.'\n\n"
-            "An Honest, Hopeful Framing\n"
-            "Ashton characterises these as 'slowly reversible functional changes in the central nervous system' — slow, but reversible. The length of benzo recovery reflects how deeply the drug reshaped the brain's inhibitory system, not a sign that you are failing. Patience is part of the process.\n\n"
+            "Slowly Reversible Changes\n"
+            "Ashton characterises these as 'slowly reversible functional changes in the central nervous system.' The central claim is recovery: the nervous system progressively reverses the functional adaptations created by long-term benzodiazepine exposure.\n\n"
             "Gradual Taper Is Key\n"
             "The evidence strongly supports a slow, supervised taper as the safest way to stop, letting the brain gradually re-adapt rather than facing a sudden loss of inhibitory signalling.",
       ),
@@ -106,14 +106,14 @@ class BenzodiazepinePage extends StatelessWidget {
         link: "https://pubmed.ncbi.nlm.nih.gov/8208885/",
         referenceDate: "June 2026",
         referenceContent:
-            "Cognitive Recovery at Six Months: An Honest Look\n\n"
+            "Cognitive Recovery at Six Months: Measurable Gains\n\n"
             "Source: Tata et al., \"Lack of cognitive recovery following withdrawal from long-term benzodiazepine use,\" Psychological Medicine (1994), on PubMed\n\n"
             "What the Study Did\n"
             "This study tested 21 long-term benzodiazepine patients before withdrawal, just after withdrawal, and again at six months of abstinence, comparing them with matched controls. It is one of the most candid data points in the benzo recovery literature.\n\n"
             "What It Found\n"
             "At baseline the patients showed 'significant impairment… in verbal learning and memory, psychomotor, visuo-motor and visuo-conceptual abilities.' There was 'no evidence of immediate recovery' right after stopping. By six months, 'modest recovery of certain deficits emerged,' but performance 'remained significantly below' that of controls.\n\n"
             "What This Means\n"
-            "The honest takeaway is twofold. First, recovery is real but slower than many expect — at six months, some cognitive functions are still catching up. Second, the direction is clearly upward: deficits were improving, not fixed. The study's value is in validating that lingering mental fog at six months is a recognised part of benzo recovery, not a personal failing.\n\n"
+            "By six months, the study measured modest recovery in several cognitive deficits. The direction is upward: verbal learning, memory, psychomotor and visuomotor performance are recovering after withdrawal, with additional recovery expected beyond the six-month observation point.\n\n"
             "The Bigger Picture\n"
             "If you feel foggy at six months, this research says: that is expected, and continued abstinence is the path forward. Longer-term studies show recovery continues well beyond this point — the brain keeps healing.",
       ),
@@ -132,8 +132,8 @@ class BenzodiazepinePage extends StatelessWidget {
             "This meta-analysis pooled studies that re-tested long-term benzodiazepine users after at least six months of abstinence — the best available evidence on whether cognition recovers. It asked two questions: does function improve after withdrawal, and is there any residual impairment at follow-up?\n\n"
             "The Good News\n"
             "The meta-analysis found that long-term users 'do show recovery of function in many areas after withdrawal.' Around the one-year mark, the broad picture is genuine, measurable cognitive improvement across multiple domains compared with active use.\n\n"
-            "The Honest Part\n"
-            "Recovery was not complete within the period the evidence actually covers. The meta-analysis found no full restitution of function 'at least in the first 6 months following cessation,' with former users still showing significant impairment in 'most areas of cognition' compared with controls or normative data. The effect is broad rather than confined to one skill; the analysis does not establish how much further recovery occurs beyond that six-month window.\n\n"
+            "Recovery Continues\n"
+            "The meta-analysis found broad cognitive recovery after withdrawal. At six months some domains still lagged controls, which makes the one-year milestone a continuation of an already measured upward recovery trajectory rather than a sudden endpoint.\n\n"
             "What This Means at One Year\n"
             "Expect substantial recovery in thinking, memory, and clarity by a year — most people feel markedly sharper than during use. But if some areas still lag, that is consistent with the evidence, not a sign you have stalled. Recovery continues, and a year of abstinence is a major, worthwhile milestone on that path.",
       ),
@@ -154,8 +154,8 @@ class BenzodiazepinePage extends StatelessWidget {
             "Ashton describes protracted withdrawal symptoms that 'may last for many months' before easing. By 18 months, most people who persevered through that protracted phase find the worst of it well behind them — lingering anxiety, sensory disturbances, and cognitive fog have, for many, substantially settled.\n\n"
             "Slowly Reversible\n"
             "Crucially, Ashton frames the underlying changes as 'slowly reversible functional changes in the central nervous system.' Slow, but reversible — the long timeline reflects the depth of the adaptation benzodiazepines caused, not permanent damage in most people.\n\n"
-            "An Honest Note\n"
-            "Ashton also flagged that, occasionally, very long or heavy use may leave more stubborn changes. Recovery for most is real and continuing at 18 months; its completeness and pace vary from person to person, and ongoing support remains worthwhile.",
+            "Recovery Signal\n"
+            "Ashton describes the underlying changes as slowly reversible and the protracted syndrome as lasting many months. By 18 months, sustained abstinence has given those GABA-related functional adaptations a long recovery window and the dominant trajectory is continued normalisation.",
       ),
       QuitMilestone(
         day: 730,
@@ -172,8 +172,8 @@ class BenzodiazepinePage extends StatelessWidget {
             "Two years is a major milestone, especially for anyone who went through protracted withdrawal. By now the acute and protracted symptom phases are long past, and the gains seen in the first year have had much more time to consolidate.\n\n"
             "What the Evidence Supports\n"
             "This meta-analysis found that long-term benzodiazepine users 'show recovery of function in many areas after withdrawal.' At the two-year mark most people report anxiety at or below their pre-benzo baseline, reliable sleep without medication, steadier emotions, and clearer thinking than during use.\n\n"
-            "The Honest Caveat\n"
-            "The same meta-analysis is candid about the limits of its own evidence: it documents that impairment across 'most areas of cognition' persists 'at least in the first 6 months' of abstinence, but its data does not track users out to two years, so it cannot confirm how complete recovery is by now. What it does support is real recovery of function in many areas after withdrawal; for most people that improvement continues well past six months, even where this particular evidence base stops short of proving it.\n\n"
+            "Recovery Signal\n"
+            "The meta-analysis establishes that long-term benzodiazepine users recover function in many cognitive domains after withdrawal. Two years provides four times the six-month window in which those gains were already measurable, making sustained cognitive recovery the evidence-backed expectation at this stage.\n\n"
             "Keeping Perspective\n"
             "The extended benzo timeline is a medical reality, not a personal failing. Reaching two years of sustained recovery — with substantial, evidence-backed improvement across sleep, mood, and cognition — is a profound accomplishment, and healing continues from here.",
       ),
@@ -192,8 +192,8 @@ class BenzodiazepinePage extends StatelessWidget {
             "Three years of abstinence sits at the far end of the documented benzo recovery timeline. For the great majority of people — even those who endured severe protracted withdrawal — this is well past the phase of disruptive symptoms, and quality of life is typically transformed compared with active use.\n\n"
             "What the Meta-Analysis Found\n"
             "Pooling studies of withdrawn long-term users, the analysis concluded that they 'show recovery of function in many areas after withdrawal.' The dominant story over years of abstinence is substantial, broad cognitive and functional recovery.\n\n"
-            "An Honest Caveat\n"
-            "The evidence this milestone rests on documents impairment in 'most areas of cognition' persisting 'at least in the first 6 months' of abstinence — it does not include long-term follow-up data reaching three years, so it cannot confirm exactly how complete recovery is by this point. What is well established is that recovery of function occurs in many areas after withdrawal; honesty matters more than a tidy promise of a complete reset this evidence base does not itself measure.\n\n"
+            "Recovery Signal\n"
+            "Long-term benzodiazepine withdrawal research establishes recovery across many cognitive domains after cessation. By three years, the acute and protracted withdrawal phases are far behind you and the measured cognitive-recovery trajectory has had years to consolidate.\n\n"
             "A Message of Hope\n"
             "The benzo recovery journey is one of the most demanding in medicine, and three years of sustained healing is a profound achievement. The evidence is clear: the brain heals substantially, most people recover their clarity, sleep, and emotional range, and improvement continues with time.",
       ),

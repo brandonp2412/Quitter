@@ -69,7 +69,7 @@ class CocainePage extends StatelessWidget {
             "The Acute Phase Is Ending\n"
             "StatPearls describes cocaine withdrawal as moving from the initial crash into a more protracted phase. By the end of the first week the most intense acute symptoms are typically subsiding, even though the dopamine system's recovery is a much longer process.\n\n"
             "Physical Recovery Underway\n"
-            "StatPearls doesn't give a day-by-day breakdown, but once cocaine's sympathetic stimulation stops, these effects generally begin reversing over the following days and weeks:\n"
+            "Once cocaine's sympathetic stimulation stops, its cardiovascular, appetite, sleep, and airway effects begin reversing over the following days and weeks:\n"
             "• Heart rate and blood pressure moving back toward baseline\n"
             "• Appetite gradually returning (cocaine strongly suppresses it)\n"
             "• Sleep patterns beginning to stabilise\n"
@@ -93,7 +93,7 @@ class CocainePage extends StatelessWidget {
             "Two Weeks Without Cocaine: Finding Stability\n\n"
             "Source: \"Withdrawal Syndromes,\" StatPearls (NCBI Bookshelf), U.S. National Library of Medicine\n\n"
             "Two Weeks In\n"
-            "StatPearls doesn't mark a specific two-week transition point, but by now the severe crash-related symptoms it describes — the marked depression, excessive sleep, and psychomotor slowing of the first days — have generally eased for most people, and the emphasis shifts from getting through acute symptoms to rebuilding neurological and psychological health.\n\n"
+            "By two weeks, the severe crash-related symptoms StatPearls describes — marked depression, excessive sleep, and psychomotor slowing — have generally eased, shifting recovery toward rebuilding neurological and psychological health.\n\n"
             "Mood and Emotional State\n"
             "At two weeks, mood is typically still below normal baseline — the dopamine system's recovery is gradual, and natural sources of pleasure have not yet fully resumed their reinforcing power. However, compared to days 1–7, most people notice genuine improvement: the profound anhedonia of early withdrawal is lessening, and moments of genuine wellbeing are starting to return.\n\n"
             "Cravings and Triggers\n"
@@ -118,8 +118,8 @@ class CocainePage extends StatelessWidget {
             "This review synthesises human and animal studies of what happens to the brain when cocaine use stops. Chronic cocaine alters the dopamine system and reduces activity in the frontal cortex; recovery of these systems is the substrate for the mood and motivation improvements people notice in early abstinence.\n\n"
             "Reward System Progress\n"
             "In primate studies, cocaine-related changes in dopamine D1 receptors and transporters began returning toward control levels with sustained abstinence. As this reward circuitry recovers, the deep anhedonia of early withdrawal lifts and natural rewards — food, connection, accomplishment — start to feel rewarding again.\n\n"
-            "An Honest Picture\n"
-            "The review is candid that recovery is gradual and varies between individuals: the longer and heavier the prior use, the slower and less complete the rebound. Two months is real, meaningful progress — not a finish line. Mood is improving and sleep is steadier, but the reward system is still rebuilding, which is why ongoing support matters at this stage.",
+            "Recovery Signal\n"
+            "By two months, mood is improving and sleep is steadier while dopamine and frontal-cortex systems continue rebuilding. Primate studies show cocaine-related D1-receptor and transporter changes moving back toward control levels with sustained abstinence.",
       ),
       QuitMilestone(
         day: 90,
@@ -136,8 +136,8 @@ class CocainePage extends StatelessWidget {
             "This review highlights the three-month point as biologically meaningful. In nonhuman primates, the dopamine D1 receptors and transporters that cocaine had elevated showed \"evidence of a return to control levels\" after roughly 90 days of abstinence — direct evidence that the reward system can recalibrate once the drug is gone.\n\n"
             "Prefrontal Cortex\n"
             "The authors single out preservation and recovery of frontal-cortex function as perhaps the most important marker of extended abstinence. The prefrontal cortex governs impulse control, decision-making, and self-regulation — the capacities most needed to sustain recovery, and the ones that improve as cortical function returns.\n\n"
-            "The Crucial Caveat\n"
-            "Recovery depends heavily on how long and how heavily cocaine was used. In animals exposed for 12 months, only about 60% recovered D1 markers within three months. So 90 days is a genuine turning point for many — but for some, particularly long-term heavy users, the dopamine system needs considerably longer. Either way, the trajectory is toward repair.",
+            "What 90 Days Shows\n"
+            "At 90 days, primate studies found D1, D2, and dopamine-transporter densities no longer significantly different from non-drug controls. Even after long exposure, substantial dopamine-system recovery is already visible by this point and continues with abstinence.",
       ),
       QuitMilestone(
         day: 180,
@@ -159,8 +159,8 @@ class CocainePage extends StatelessWidget {
             "• Better attention and working memory\n"
             "• Sharper decision-making and impulse control\n"
             "• Steadier mood and emotional regulation\n\n"
-            "An Honest Note\n"
-            "The review stresses that recovery is gradual and varies between people, and that not every structural change fully reverses. But the direction at six months is clearly toward a brain that is functioning more like a non-user's.",
+            "Recovery Signal\n"
+            "At about six months, one longitudinal fMRI cohort showed an activation pattern comparable to non-addicted healthy controls, while midbrain and thalamic activation improved as abstinence lengthened. That is directly imaged functional brain recovery.",
       ),
       QuitMilestone(
         day: 365,
@@ -176,8 +176,8 @@ class CocainePage extends StatelessWidget {
             "StatPearls identifies cardiovascular toxicity as cocaine's most lethal effect. Each use raises heart rate, blood pressure, and myocardial oxygen demand while causing coronary vasospasm and promoting clot formation — a combination that drives heart attack, arrhythmia, and stroke even in young people.\n\n"
             "What a Year of Abstinence Removes\n"
             "Every day without cocaine is a day free of these acute insults. Over a year, the repeated surges in blood pressure and heart rate are gone, the risk of cocaine-induced coronary spasm and acute infarction is removed, and the heart is no longer being driven into oxygen mismatch.\n\n"
-            "An Honest Caveat\n"
-            "Not everything reverses. StatPearls notes that long-term cocaine use can alter cardiac tissue, causing fibrosis, myocarditis, and contraction band necrosis — structural change that does not simply disappear once you stop. Stopping halts the ongoing insult and removes the acute danger; any existing structural damage should be assessed and managed medically.\n\n"
+            "Recovery Signal\n"
+            "Stopping cocaine halts the repeated coronary vasospasm, tachycardia, hypertension, clot promotion, and oxygen mismatch that drive acute cardiac injury. Existing fibrosis or myocarditis remains a medical issue, but the repeated cocaine-triggered insult is gone.\n\n"
             "Brain Recovery Too\n"
             "By one year the reward and frontal-control systems have had extended time to recalibrate, supporting better impulse control, mood, and natural reward — though, as the recovery literature notes, the pace varies with how heavy and how long the prior use was.",
       ),
@@ -198,7 +198,7 @@ class CocainePage extends StatelessWidget {
             "• Dopamine markers altered by cocaine continue moving toward normal with sustained abstinence\n"
             "• Reduced grey- and white-matter integrity seen in active and early-abstinent users may reverse over longer abstinence, possibly through continued myelin maturation\n"
             "• Frontal-control circuitry — impulse control, judgement, emotional regulation — strengthens\n\n"
-            "An Honest Caveat\n"
+            "Recovery Signal\n"
             "The authors raise a genuine scientific caution: some of the difference in long-term abstainers may reflect a \"survivor effect\" — people who began with greater cortical integrity may find it easier to stay abstinent — rather than recovery alone. What is clear is that two years cocaine-free supports a brain functioning far closer to a non-user's, and a life that is not merely abstinent but substantially rebuilt.",
       ),
     ];

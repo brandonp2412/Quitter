@@ -119,7 +119,7 @@ class SnriPage extends StatelessWidget {
             "This evidence review singles out short half-life antidepressants — including venlafaxine and duloxetine (both SNRIs) — as carrying a higher risk of withdrawal symptoms. A manufacturer-funded study found 51% of people stopping duloxetine experienced one or more symptoms. So SNRI withdrawal can be pronounced, which is exactly why a gradual, supervised taper matters.\n\n"
             "Where Three Months Sits\n"
             "The Letter notes withdrawal symptoms 'usually appear within a few days of stopping' and that 'most antidepressant withdrawal symptoms resolve within 2 weeks' (occasionally longer). By three months, the acute withdrawal phase is well behind the great majority of people.\n\n"
-            "An Honest Note on 'Receptor Recovery'\n"
+            "Recovery Signal on 'Receptor Recovery'\n"
             "Popular timelines claim the serotonin and noradrenaline systems have 'fully rebalanced' by three months. The solid evidence concerns the withdrawal syndrome and its timing, not a precise receptor-recovery clock. What's dependable: by three months the withdrawal phase has typically resolved, and many people notice the emotional blunting some feel on SNRIs eases after stopping.\n\n"
             "Withdrawal Versus Relapse\n"
             "The Letter advises distinguishing withdrawal from a true return of the underlying condition. If anxiety or low mood persists at three months, review it with your prescriber rather than assuming it is only withdrawal.",
@@ -134,7 +134,7 @@ class SnriPage extends StatelessWidget {
         referenceDate: "May 2026",
         referenceContent:
             "Six Months After SNRIs: Neurological Recovery\n\n"
-            "An Honest Note on Six-Month Data\n"
+            "Recovery Signal on Six-Month Data\n"
             "Davies & Read's systematic review documents that SNRI withdrawal effects can be among the most severe of any antidepressant class, but there is no dedicated study measuring SNRI-specific neurotransmitter, sleep, or sexual-function markers at exactly six months post-discontinuation. What follows is the general clinical expectation for someone this far past a completed, medically supervised taper:\n"
             "• Serotonin pathways: substantially restored\n"
             "• Noradrenaline pathways: normalised, with the stress response system also settling\n"

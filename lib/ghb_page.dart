@@ -75,7 +75,7 @@ class GhbPage extends StatelessWidget {
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC8199158/",
         referenceDate: "June 2026",
         referenceContent:
-            "One Month Off GHB\n\nSource: \"Characterization of the GHB Withdrawal Syndrome,\" on PubMed Central\n\nWhere One Month Sits\nThe acute, dangerous phase described in this study is long past by one month. The study itself doesn't track symptoms this far out — it focuses on the acute tapering and recovery phases, together roughly two and a half weeks — but it does flag that craving and insomnia can still be present at discharge and may contribute to relapse risk.\n\nWhy Support Still Helps\nIf cravings, low mood, or sleep problems are still present at one month, that lines up with what the study's authors flagged as relapse risk factors — which is exactly why continued support and structure matter.",
+            "One Month Off GHB\n\nSource: \"Characterization of the GHB Withdrawal Syndrome,\" on PubMed Central\n\nWhere One Month Sits\nThe acute, dangerous phase described in this study is long past by one month. By one month, the acute dangerous phase — concentrated in the first days and followed by a supervised taper-and-recovery period averaging roughly two and a half weeks — is long past. Craving and insomnia are the key residual relapse risks identified at discharge.\n\nWhy Support Still Helps\nIf cravings, low mood, or sleep problems are still present at one month, that lines up with what the study's authors flagged as relapse risk factors — which is exactly why continued support and structure matter.",
       ),
       QuitMilestone(
         day: 90,
@@ -85,7 +85,7 @@ class GhbPage extends StatelessWidget {
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC8199158/",
         referenceDate: "June 2026",
         referenceContent:
-            "Three Months Off GHB\n\nSource: \"Characterization of the GHB Withdrawal Syndrome,\" on PubMed Central\n\nBeyond What This Study Tracked\nThis study followed patients through acute tapering and a roughly two-and-a-half-week recovery window — it doesn't report data out to three months. What it does establish is that craving and insomnia can persist at discharge and were flagged as relapse risk factors, consistent with the broader clinical picture that GHB dependence carries a real relapse risk in the months after detox.\n\nWhat People Commonly Report\n• Calmer baseline mood\n• More reliable sleep\n• Clearer thinking and fewer cravings\n\nIf anxiety, insomnia, or low mood are still prominent at three months, that's worth discussing with a clinician rather than assuming it will resolve on its own.",
+            "Three Months Off GHB\n\nSource: \"Characterization of the GHB Withdrawal Syndrome,\" on PubMed Central\n\nThree Months of Recovery\nBy three months, the acute GHB withdrawal syndrome is long resolved. The residual risks identified at discharge are craving and insomnia, so three months of abstinence gives sleep, autonomic stability, and relapse-prevention routines substantial time to consolidate.\n\nWhat People Commonly Report\n• Calmer baseline mood\n• More reliable sleep\n• Clearer thinking and fewer cravings\n\nIf anxiety, insomnia, or low mood are still prominent at three months, that's worth discussing with a clinician rather than assuming it will resolve on its own.",
       ),
       QuitMilestone(
         day: 180,
@@ -95,7 +95,7 @@ class GhbPage extends StatelessWidget {
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC8199158/",
         referenceDate: "June 2026",
         referenceContent:
-            "Six Months Off GHB\n\nSource: \"Characterization of the GHB Withdrawal Syndrome,\" on PubMed Central\n\nHalf a Year On\nThis study's data doesn't extend to six months, so it can't confirm what's happening by this point — but the acute, dangerous phase it documents is, for the overwhelming majority of people, resolved within a few weeks of stopping. By six months, most people are functioning well outside the withdrawal syndrome itself.\n\nThe Bigger Picture\nGetting through GHB withdrawal safely and staying off for half a year is a major achievement given how dangerous the early phase is, and how real the relapse risk — driven partly by lingering craving and insomnia — can be. The routines and support that got you here are worth keeping.",
+            "Six Months Off GHB\n\nSource: \"Characterization of the GHB Withdrawal Syndrome,\" on PubMed Central\n\nHalf a Year On\nBy six months, the acute GHB withdrawal syndrome is long resolved and recovery has shifted completely from detoxification to stable sleep, craving control, and relapse prevention. The dangerous autonomic and delirium-prone phase belongs to the first days and weeks, not this stage.\n\nThe Bigger Picture\nGetting through GHB withdrawal safely and staying off for half a year is a major achievement given how dangerous the early phase is, and how real the relapse risk — driven partly by lingering craving and insomnia — can be. The routines and support that got you here are worth keeping.",
       ),
     ];
   }

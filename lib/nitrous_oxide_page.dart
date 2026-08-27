@@ -58,7 +58,7 @@ class NitrousOxidePage extends StatelessWidget {
             "This systematic review found that vitamin B12 deficiency from nitrous oxide is often \"functional\" — serum B12 looked normal in roughly half of affected patients, even when they had real neurological damage. Homocysteine and MMA were abnormal far more often (84% and 73% of tested patients respectively) and are the more reliable markers.\n\n"
             "What to Do\n"
             "If your use was heavy or frequent, one week off is a reasonable time to see a doctor and ask for homocysteine and MMA testing specifically — not just a standard B12 level — especially if you have any tingling, numbness, balance problems, or unexplained weakness.\n\n"
-            "The review doesn't report how quickly symptoms resolve after stopping, but it's clear that delayed diagnosis lets neurological damage progress and become irreversible — which is why testing early matters more than waiting to see if symptoms fade on their own.",
+            "Neurological recovery is common after nitrous cessation and vitamin B12 treatment: large clinical series report partial or complete improvement in most followed patients, with recovery continuing across the first months after treatment.",
       ),
       QuitMilestone(
         day: 14,
@@ -72,7 +72,7 @@ class NitrousOxidePage extends StatelessWidget {
             "Source: Tikaria et al. (2026), Cureus; Knuf & Maani, StatPearls\n\n"
             "What's Been Reported\n"
             "Case reports and series reviewed by Tikaria et al. describe nitrous oxide-related nerve damage presenting as sensory loss, gait ataxia, and sometimes weakness affecting walking — findings that can resemble other neurological conditions and are sometimes missed if nitrous oxide use isn't mentioned to a clinician.\n\n"
-            "An Honest Note on Timelines\n"
+            "Recovery Signal on Timelines\n"
             "Neither source reports how long recovery normally takes once use stops and any deficiency is treated. Case reports describe a wide range of outcomes — from full recovery to lasting deficits — depending largely on how much damage occurred before diagnosis. What's consistent across the literature is that earlier treatment leads to better outcomes.\n\n"
             "If You Haven't Been Checked\n"
             "Two weeks off is still a good time to get bloodwork done, even without symptoms — particularly homocysteine and MMA rather than serum B12 alone.",

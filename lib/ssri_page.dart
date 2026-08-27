@@ -114,7 +114,7 @@ class SsriPage extends StatelessWidget {
             "This evidence review notes that antidepressant withdrawal symptoms 'usually appear within a few days of stopping, or dose reduction,' and that 'most antidepressant withdrawal symptoms resolve within 2 weeks' — though severe cases can last weeks to months. By three months, the acute withdrawal phase is well behind the great majority of people.\n\n"
             "Why SSRIs Vary\n"
             "Withdrawal is more likely with shorter half-life SSRIs (such as paroxetine) than with long half-life ones (fluoxetine). The Letter is candid that withdrawal reactions can be substantial — two systematic reviews found them 'very similar' to those from benzodiazepines — and occur in at least a third of people who stop.\n\n"
-            "An Honest Note on 'Receptor Recovery'\n"
+            "Recovery Signal on 'Receptor Recovery'\n"
             "You may see confident claims that serotonin receptors 'fully resensitise by 2–3 months.' The robust evidence is about the withdrawal syndrome and its timing, not a precise receptor-recovery clock. What's dependable: by three months the withdrawal phase has typically resolved, and many people notice the emotional blunting and sexual side effects some experience on SSRIs ease after stopping.\n\n"
             "If Symptoms Linger\n"
             "The Letter advises distinguishing withdrawal from a genuine return of the underlying condition. If low mood or anxiety persists at three months, that's worth reviewing with your prescriber rather than assuming it's 'just withdrawal.'",
@@ -148,7 +148,7 @@ class SsriPage extends StatelessWidget {
         link: "https://pubmed.ncbi.nlm.nih.gov/34842135/",
         referenceDate: "May 2026",
         referenceContent:
-            "One Year After SSRIs: An Honest Look at the Evidence\n\n"
+            "One Year After SSRIs: Measured Recovery\n\n"
             "Source: Duffy et al. (2021), Health Technology Assessment — the ANTLER trial\n\n"
             "What This Trial Actually Found\n"
             "ANTLER followed long-term antidepressant users in UK primary care who either stayed on medication or discontinued. Over the following year, 56% of those who discontinued relapsed, compared with 39% of those who stayed on medication — roughly double the risk — and the discontinuation group reported somewhat lower quality of life on average.\n\n"

@@ -170,7 +170,7 @@ class SmokingPage extends StatelessWidget {
             "One Year: Heart Attack Risk Falls Sharply\n\n"
             "Source: PMC — Smoking Cessation and Stroke Outcome; CDC, Benefits of Quitting Smoking\n\n"
             "Smoking roughly doubles stroke risk by promoting artery plaque buildup, increasing blood clotting, raising blood pressure, and damaging cerebral blood vessels. The CDC's own quitting-benefits timeline puts the sharp drop in heart attack risk at the 1-to-2-year mark — you're at the front edge of that window.\n\n"
-            "An Honest Timeline\n"
+            "Recovery Timeline\n"
             "Full stroke-risk normalisation takes longer: the cited stroke study followed quitters for a median of nearly five years to show a meaningfully lower stroke rate than continued smokers, and CDC data puts halved coronary heart disease risk at 3 to 6 years, with stroke risk decreasing over the 5-to-10-year mark.\n\n"
             "One year is still a genuine medical milestone — the steepest part of the acute-risk decline is behind you, even though the longer-term cardiovascular and cancer benefits continue to build for years.",
       ),

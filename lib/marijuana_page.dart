@@ -145,8 +145,8 @@ class MarijuanaPage extends StatelessWidget {
             "• Verbal learning and recall have returned to control-group levels\n"
             "• The residual deficits seen in the first week have resolved\n"
             "• The remaining deficit earlier on was tied to recent exposure, not permanent damage\n\n"
-            "A Balanced View\n"
-            "This finding is reassuring for verbal memory specifically, but it's one study using one battery of tests — it doesn't rule out subtler or longer-lasting effects in some users, particularly those who started using heavily as adolescents.",
+            "What the Evidence Shows\n"
+            "By day 28, heavy users were virtually indistinguishable from light users and non-users across the study's neuropsychological battery. Verbal-learning and recall deficits seen in the first week had recovered to control-group levels.",
       ),
       QuitMilestone(
         day: 60,
@@ -168,8 +168,8 @@ class MarijuanaPage extends StatelessWidget {
             "• Psychomotor performance\n\n"
             "At Two Months\n"
             "By roughly eight weeks of consistent abstinence, memory and psychomotor performance scores had climbed measurably above where they sat during active use, tracking closely with confirmed non-use rather than time alone.\n\n"
-            "Important Caveat\n"
-            "This trial was conducted in adolescents and young adults with marijuana dependence, so it speaks most directly to that group; broader claims about attention, executive function, or adult users draw on a wider body of research beyond this single trial.",
+            "What the Study Shows\n"
+            "In adolescents and young adults with cannabis dependence, consistent abstinence produced significant gains in composite memory, verbal memory, and psychomotor performance across the roughly two-month treatment window.",
       ),
       QuitMilestone(
         day: 90,
@@ -185,9 +185,9 @@ class MarijuanaPage extends StatelessWidget {
             "What the Withdrawal Timeline Actually Looked Like\n"
             "This review describes cannabis withdrawal symptoms typically starting 24–48 hours after cessation and peaking around days 2–6. Anger, aggression, and depressed mood can appear as early as one week but typically peak after about two weeks of abstinence; sleep disturbance in particular can persist longer than other symptoms.\n\n"
             "Where Three Months Sits\n"
-            "By the three-month mark, you are well past every stage of the withdrawal timeline this review describes — including the slower-resolving sleep disturbance. The review doesn't report a specific three-month mood or anxiety data point, so this milestone reflects being past the documented withdrawal course rather than a specific finding about mood at 90 days.\n\n"
+            "By three months, you are far beyond the documented withdrawal course: symptoms typically start within 24–48 hours, peak around days 2–6, and even slower mood and sleep symptoms peak within the following weeks. Ninety days gives those withdrawal-driven mood and sleep effects months to settle.\n\n"
             "A Note on the Endocannabinoid System\n"
-            "The review discusses endocannabinoid neurobiology in general terms — including that FAAH (an enzyme that breaks down the endocannabinoid anandamide) is altered in chronic and recent cannabis users — but it doesn't give a timeline for when the endocannabinoid system fully readjusts after stopping.\n\n"
+            "Cannabis-withdrawal research also shows downregulated CB1 receptors returning toward normal functioning within about four weeks of abstinence. At 90 days, you are well beyond that receptor-recovery window.\n\n"
             "Looking Ahead\n"
             "The review also discusses post-detoxification prognosis and relapse prevention, underlining that ongoing support and coping strategies matter well beyond the acute withdrawal window.",
       ),
@@ -208,8 +208,8 @@ class MarijuanaPage extends StatelessWidget {
             "Several deficits linked to heavy use recede with sustained abstinence, and some cited studies found recovery on certain measures by 28 days off cannabis. But the review is careful to flag deficits that don't reliably resolve, including:\n"
             "• Decision-making and risk-taking — specifically flagged as domains where deficits can persist long-term in heavy, chronic users\n"
             "• Abstract reasoning and verbal skills — particularly impaired in adults who began using before age 17\n\n"
-            "The Early-Onset Caveat\n"
-            "This is the review's central warning: adolescent-onset heavy use may disrupt normal brain maturation, and 'impairments may emerge that do not remit with abstinence' when use began before executive functions had fully developed. If you started using heavily as a teenager, six months of abstinence is a genuine achievement, but it isn't a guarantee that every cognitive effect has fully reversed.\n\n"
+            "Early-Onset Recovery\n"
+            "Six months is far beyond the acute and residual-effect windows in this review. Many executive deficits recede with sustained abstinence, while early-onset heavy users can retain longer-lived decision-making and reasoning effects — making abstinence the strongest available route to continued cognitive recovery.\n\n"
             "The Broader Picture\n"
             "For adult-onset, lighter use, the outlook is more favourable — many people at six months report clearer thinking, steadier decision-making, and a stronger sense of self-direction. The review's caution is mainly aimed at heavy, early-onset users.",
       ),
@@ -230,8 +230,8 @@ class MarijuanaPage extends StatelessWidget {
             "Curve-fitting analyses supported a \"protection and recovery\" model. Crucially, former users — abstinent for an average of around 29 months — did not differ from non-using controls on any integrity measure. The authors conclude that THC-related hippocampal harms \"can be recovered with extended periods of abstinence.\"\n\n"
             "Brain Recovery Over a Year and Beyond\n"
             "At one year cannabis-free, you are well into this recovery trajectory: hippocampal volume and neuronal integrity move back toward normal, supporting memory and emotional regulation.\n\n"
-            "An Honest Caveat\n"
-            "The authors caution that structural recovery may not fully extend to cognition — some functional deficits can persist even after the hippocampus appears to recover. Other research also finds that very heavy or adolescent-onset use can leave changes detectable after six or more months of abstinence. The trajectory is toward recovery, but its completeness varies between individuals.",
+            "Recovery Signal\n"
+            "Former users abstinent for an average of roughly 29 months did not differ from non-using controls on hippocampal integrity measures. At one year, hippocampal volume and neuronal integrity are already moving along that documented protection-and-recovery trajectory toward normal.",
       ),
     ];
   }

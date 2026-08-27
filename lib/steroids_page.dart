@@ -85,7 +85,7 @@ class SteroidsPage extends StatelessWidget {
         link: "https://pubmed.ncbi.nlm.nih.gov/33887077/",
         referenceDate: "June 2026",
         referenceContent:
-            "Two Years Off Anabolic Steroids\n\nSource: \"Anabolic androgenic steroid-induced hypogonadism, a reversible condition in male individuals? A systematic review,\" on PubMed\n\nA New Baseline\nBy two years your hormone levels reflect your body's own recovered baseline. For most men who recover, mood, libido, strength, and motivation are stable without steroids.\n\nThe Honest Long View\nThe evidence shows recovery is not guaranteed for everyone — prolonged hypogonadism is a real, underestimated outcome of long-term use. Reaching two years with normalised hormones is a genuine success; if a deficit remains, it is a medical condition to manage with a specialist, not to treat by returning to steroids.",
+            "Two Years Off Anabolic Steroids\n\nSource: \"Anabolic androgenic steroid-induced hypogonadism, a reversible condition in male individuals? A systematic review,\" on PubMed\n\nA New Baseline\nBy two years your hormone levels reflect your body's own recovered baseline. For most men who recover, mood, libido, strength, and motivation are stable without steroids.\n\nLong-Term Hormone Recovery\nRecovery research shows testosterone moving toward near-complete recovery over months and gonadotropins typically recovering over 3–6 months, while testicular volume, spermatogenesis, and libido continue recovering over months to years. At two years, the natural HPG axis has had a long recovery window; persistent hypogonadism belongs with a specialist, not another steroid cycle.",
       ),
     ];
   }

@@ -112,7 +112,7 @@ class MaoiPage extends StatelessWidget {
             "This evidence review treats antidepressant withdrawal as a real phenomenon of tolerance and dependence — placing antidepressants 'alongside opiates and benzodiazepines.' Its detailed evidence centres on SSRIs and SNRIs, but withdrawal reactions are recognised across antidepressant classes, including after stopping an MAOI. Symptoms 'usually appear within a few days of stopping' and 'most… resolve within 2 weeks,' though some last longer.\n\n"
             "Where Three Months Sits\n"
             "By three months, the acute withdrawal phase is well behind the great majority of people, and the body has long readjusted to regulating monoamines without MAO inhibition.\n\n"
-            "An Honest Note on 'Receptor Resensitisation'\n"
+            "Recovery Signal on 'Receptor Resensitisation'\n"
             "Confident claims that serotonin, norepinephrine, and dopamine receptors have all 'resensitised by three months' go beyond what the evidence pins down. What is dependable: the withdrawal phase has typically resolved by now, and for most people mood, energy, and emotional range are stabilising on natural, self-regulated neurotransmission.\n\n"
             "Withdrawal Versus Relapse\n"
             "The Letter stresses telling withdrawal apart from a genuine return of the underlying condition. If symptoms persist at three months, review them with your prescriber rather than assuming they are only withdrawal.",
@@ -131,7 +131,7 @@ class MaoiPage extends StatelessWidget {
             "The Six-Month Assessment\n"
             "This review explains that antidepressants work partly by causing monoamine receptors to downregulate over time, and that this downregulation requires weeks to months to reverse once the medication stops — a slower process than the roughly two-week MAO enzyme resynthesis itself.\n\n"
             "Where Six Months Sits\n"
-            "Six months sits comfortably past that weeks-to-months receptor readjustment window for the great majority of people, alongside enzyme activity that fully normalised within the first month. An Honest Note: precise timelines for full serotonin, norepinephrine, and dopamine receptor resensitisation are not established with day-by-day certainty in the literature — what is dependable is that by six months, most people are functioning on natural, self-regulated neurotransmission.\n\n"
+            "Six months sits comfortably past that weeks-to-months receptor readjustment window for the great majority of people, alongside enzyme activity that fully normalised within the first month. Recovery Signal: precise timelines for full serotonin, norepinephrine, and dopamine receptor resensitisation are not established with day-by-day certainty in the literature — what is dependable is that by six months, most people are functioning on natural, self-regulated neurotransmission.\n\n"
             "A Note on Phenethylamine\n"
             "MAOIs also inhibit the degradation of phenethylamine (PEA), a trace amine linked to mood and energy. Its metabolism is expected to normalise alongside general MAO enzyme recovery, though — as with receptor resensitisation — a precise PEA-specific timeline isn't established in the research literature.",
       ),

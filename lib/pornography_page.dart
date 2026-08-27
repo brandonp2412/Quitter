@@ -29,7 +29,8 @@ class PornographyPage extends StatelessWidget {
         day: 3,
         title: l10n.pornographyMilestone3Title,
         description: l10n.pornographyMilestone3Description,
-        reference: 'Withdrawal and tolerance in CSBD and problematic pornography use (PMC)',
+        reference:
+            'Withdrawal and tolerance in CSBD and problematic pornography use (PMC)',
         link: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC9881655/',
         referenceDate: 'August 2026',
         referenceContent:
@@ -58,7 +59,8 @@ class PornographyPage extends StatelessWidget {
         day: 14,
         title: l10n.pornographyMilestone14Title,
         description: l10n.pornographyMilestone14Description,
-        reference: 'Biopsychosocial determinants of problematic pornography use - systematic review (PubMed)',
+        reference:
+            'Biopsychosocial determinants of problematic pornography use - systematic review (PubMed)',
         link: 'https://pubmed.ncbi.nlm.nih.gov/38026725/',
         referenceDate: 'August 2026',
         referenceContent:
@@ -72,7 +74,8 @@ class PornographyPage extends StatelessWidget {
         day: 30,
         title: l10n.pornographyMilestone30Title,
         description: l10n.pornographyMilestone30Description,
-        reference: 'Problematic pornography use and sexual functioning - large community study (PubMed)',
+        reference:
+            'Problematic pornography use and sexual functioning - large community study (PubMed)',
         link: 'https://pubmed.ncbi.nlm.nih.gov/32810799/',
         referenceDate: 'August 2026',
         referenceContent:
@@ -86,7 +89,8 @@ class PornographyPage extends StatelessWidget {
         day: 90,
         title: l10n.pornographyMilestone90Title,
         description: l10n.pornographyMilestone90Description,
-        reference: 'Acceptance and Commitment Therapy for problematic pornography use - RCT (PubMed)',
+        reference:
+            'Acceptance and Commitment Therapy for problematic pornography use - RCT (PubMed)',
         link: 'https://pubmed.ncbi.nlm.nih.gov/27157029/',
         referenceDate: 'August 2026',
         referenceContent:
@@ -100,7 +104,8 @@ class PornographyPage extends StatelessWidget {
         day: 180,
         title: l10n.pornographyMilestone180Title,
         description: l10n.pornographyMilestone180Description,
-        reference: 'Group CBT for hypersexual disorder - randomized controlled study (PubMed)',
+        reference:
+            'Group CBT for hypersexual disorder - randomized controlled study (PubMed)',
         link: 'https://pubmed.ncbi.nlm.nih.gov/30956109/',
         referenceDate: 'August 2026',
         referenceContent:
@@ -114,7 +119,8 @@ class PornographyPage extends StatelessWidget {
         day: 365,
         title: l10n.pornographyMilestone365Title,
         description: l10n.pornographyMilestone365Description,
-        reference: 'One-year follow-up of acceptance-based treatment for hypersexuality (PMC)',
+        reference:
+            'One-year follow-up of acceptance-based treatment for hypersexuality (PMC)',
         link: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC12894211/',
         referenceDate: 'August 2026',
         referenceContent:
@@ -128,7 +134,8 @@ class PornographyPage extends StatelessWidget {
         day: 1825,
         title: l10n.pornographyMilestone1825Title,
         description: l10n.pornographyMilestone1825Description,
-        reference: 'Current expert review of CSBD and problematic pornography use (PubMed)',
+        reference:
+            'Current expert review of CSBD and problematic pornography use (PubMed)',
         link: 'https://pubmed.ncbi.nlm.nih.gov/41879870/',
         referenceDate: 'August 2026',
         referenceContent:
