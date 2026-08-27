@@ -1,0 +1,3 @@
+• Fix make widget Patrol selector resilient
+• Fix replace pornography myths with evidence
+• Fix restore evidence-backed milestone copy
