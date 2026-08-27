@@ -52,6 +52,7 @@ jobs:
         shell: bash
         run: |
           mv flutter ../quitter-flutter-sdk
+          printf 'gitdir: %s\n' "$GITHUB_WORKSPACE/.git/modules/flutter" > ../quitter-flutter-sdk/.git
           mkdir -p flutter/bin
           cat > flutter/bin/flutter <<'SH'
           #!/bin/sh
