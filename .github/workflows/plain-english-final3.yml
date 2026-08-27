@@ -1,0 +1,102 @@
+name: Plain English final validation 3
+
+on:
+  push:
+    branches: [semantic-claim-sweep]
+    paths:
+      - '.github/workflows/plain-english-final3.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: semantic-claim-sweep
+          fetch-depth: 0
+          submodules: recursive
+
+      - name: Apply complete plain-English rewrite
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import textwrap
+
+          workflow = Path('.github/workflows/plain-english-final2.yml').read_text()
+          marker = '- name: Apply complete plain-English rewrite'
+          section = workflow[workflow.index(marker):]
+          opener = "          python3 - <<'PY'\n"
+          start = section.index(opener) + len(opener)
+          end = section.index("\n          PY", start)
+          exec(compile(textwrap.dedent(section[start:end]), '<plain-english-final2>', 'exec'))
+
+          path = Path('lib/snri_page.dart')
+          text = path.read_text()
+          old = 'One Week After SNRIs: Dual Neurotransmitter Adjustment'
+          if old not in text:
+              raise SystemExit('Missing final SNRI heading')
+          path.write_text(text.replace(old, 'One Week After SNRIs: Two Brain-Chemical Systems Adjusting'))
+          PY
+
+      - name: Plain-English and copy-quality guard
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import textwrap
+
+          workflow = Path('.github/workflows/plain-english-final.yml').read_text()
+          marker = '- name: Plain-English and copy-quality guard'
+          section = workflow[workflow.index(marker):]
+          opener = "          python3 - <<'PY'\n"
+          start = section.index(opener) + len(opener)
+          end = section.index("\n          PY", start)
+          exec(compile(textwrap.dedent(section[start:end]), '<plain-english-guard>', 'exec'))
+          PY
+
+      - name: Keep pinned Flutter SDK outside project format scan
+        shell: bash
+        run: |
+          SDK_GIT_DIR="$(cd flutter && git rev-parse --absolute-git-dir)"
+          mv flutter ../quitter-flutter-sdk
+          printf 'gitdir: %s\n' "$SDK_GIT_DIR" > ../quitter-flutter-sdk/.git
+          mkdir -p flutter/bin
+          cat > flutter/bin/flutter <<'SH'
+          #!/bin/sh
+          exec "$(dirname "$0")/../../../quitter-flutter-sdk/bin/flutter" "$@"
+          SH
+          cat > flutter/bin/dart <<'SH'
+          #!/bin/sh
+          exec "$(dirname "$0")/../../../quitter-flutter-sdk/bin/dart" "$@"
+          SH
+          chmod +x flutter/bin/flutter flutter/bin/dart
+
+      - name: Install dependencies
+        run: flutter/bin/flutter pub get --enforce-lockfile
+
+      - name: Regenerate localizations
+        run: flutter/bin/flutter gen-l10n
+
+      - name: Format
+        run: flutter/bin/dart format .
+
+      - name: Analyze
+        run: flutter/bin/flutter analyze
+
+      - name: Test
+        run: flutter/bin/flutter test
+
+      - name: Commit validated app copy
+        shell: bash
+        run: |
+          git diff --check
+          git config user.name 'Brandon Dick'
+          git config user.email 'brandon@presley.nz'
+          git add lib
+          git commit -m 'fix: make recovery copy plain English [skip ci]'
+          git push origin HEAD:semantic-claim-sweep
