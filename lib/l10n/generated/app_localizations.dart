@@ -3301,31 +3301,31 @@ abstract class AppLocalizations {
   /// Page title for adult content tracking
   ///
   /// In en, this message translates to:
-  /// **'Pure & powerful'**
+  /// **'Pornography Recovery'**
   String get pornographyPageTitle;
 
   /// Header for started adult content quit journey
   ///
   /// In en, this message translates to:
-  /// **'Reclaiming your mind!'**
+  /// **'Building lasting control'**
   String get pornographyHeaderStarted;
 
   /// Header for not started adult content quit journey
   ///
   /// In en, this message translates to:
-  /// **'Start your journey!'**
+  /// **'Change problematic pornography use'**
   String get pornographyHeaderNotStarted;
 
   /// Subtitle for started adult content quit journey
   ///
   /// In en, this message translates to:
-  /// **'Building authentic connections 🧠✨'**
+  /// **'Track triggers, control, and evidence-based milestones'**
   String get pornographySubtitleStarted;
 
   /// Subtitle for not started adult content quit journey
   ///
   /// In en, this message translates to:
-  /// **'Ready to break free and rebuild? 💪'**
+  /// **'See what research supports and measure your own progress'**
   String get pornographySubtitleNotStarted;
 
   /// Encouragement message for relapse
@@ -4219,109 +4219,109 @@ abstract class AppLocalizations {
   /// Pornography milestone day 1 title
   ///
   /// In en, this message translates to:
-  /// **'Breaking the Cycle'**
+  /// **'Taking Back Control'**
   String get pornographyMilestone1Title;
 
   /// Pornography milestone day 1 description
   ///
   /// In en, this message translates to:
-  /// **'You\'ve taken the hardest step! Day one is about breaking the automatic response pattern. Your brain is already starting to notice the absence of the dopamine spike it was expecting.'**
+  /// **'Problematic pornography use is defined by impaired control and resulting distress or impairment. One day matters because you have already interrupted the old pattern once and started identifying what triggers it.'**
   String get pornographyMilestone1Description;
 
   /// Pornography milestone day 3 title
   ///
   /// In en, this message translates to:
-  /// **'Withdrawal Symptoms Peak'**
+  /// **'Know Your Urges'**
   String get pornographyMilestone3Title;
 
   /// Pornography milestone day 3 description
   ///
   /// In en, this message translates to:
-  /// **'The storm before the calm. Cravings, restlessness, and mood swings are at their strongest now. Your brain is working hard to rewire itself. This discomfort is actually your neural pathways healing!'**
+  /// **'People with more severe problematic use commonly report intrusive sexual thoughts, difficult-to-control desire, irritability, mood shifts, and sleep problems. Day three is a useful point to name which of those are actually happening for you.'**
   String get pornographyMilestone3Description;
 
   /// Pornography milestone day 7 title
   ///
   /// In en, this message translates to:
-  /// **'Sleep Quality Improves'**
+  /// **'One Week: Trial Evidence'**
   String get pornographyMilestone7Title;
 
   /// Pornography milestone day 7 description
   ///
   /// In en, this message translates to:
-  /// **'Sweet dreams are made of this! Your sleep cycles are stabilizing as your brain\'s reward system begins to rebalance. Many people report deeper, more restorative sleep and fewer sleep disturbances.'**
+  /// **'In a randomized 7-day abstinence study, regular users showed no overall withdrawal syndrome. An exploratory subgroup with both high problematic use and daily viewing had more craving, so a rough first week is possible but not inevitable.'**
   String get pornographyMilestone7Description;
 
   /// Pornography milestone day 14 title
   ///
   /// In en, this message translates to:
-  /// **'Motivation & Energy Return'**
+  /// **'Map Your Triggers'**
   String get pornographyMilestone14Title;
 
   /// Pornography milestone day 14 description
   ///
   /// In en, this message translates to:
-  /// **'The fog is lifting! Many people notice increased motivation, clearer thinking, and more energy for real-world activities. Your brain\'s natural reward system is starting to find pleasure in everyday experiences again.'**
+  /// **'Two weeks gives you repeated exposure to the situations that used to cue pornography. Research links problematic use with factors including craving, stress, avoidance, loneliness, and coping style; knowing your own pattern gives you something concrete to change.'**
   String get pornographyMilestone14Description;
 
   /// Pornography milestone day 30 title
   ///
   /// In en, this message translates to:
-  /// **'Confidence & Self-Control Grow'**
+  /// **'A Month of Control'**
   String get pornographyMilestone30Title;
 
   /// Pornography milestone day 30 description
   ///
   /// In en, this message translates to:
-  /// **'You\'re building mental muscle! One month of abstinence often brings increased self-confidence, better emotional regulation, and a stronger sense of personal control. You\'re proving to yourself that you can overcome challenges.'**
+  /// **'A month is a meaningful test of control. In a 14,581-person study, sexual-function problems were associated more strongly with problematic use than with simple viewing frequency, so regaining control is the more evidence-based target.'**
   String get pornographyMilestone30Description;
 
   /// Pornography milestone day 90 title
   ///
   /// In en, this message translates to:
-  /// **'Brain Function Stabilizes'**
+  /// **'Change Can Hold'**
   String get pornographyMilestone90Title;
 
   /// Pornography milestone day 90 description
   ///
   /// In en, this message translates to:
-  /// **'Your brain is finding its balance! Three months allows significant improvements in focus, decision-making, and emotional regulation. The compulsive urges are becoming much more manageable.'**
+  /// **'A randomized ACT trial for problematic pornography use found large reductions in viewing after 12 sessions, with substantial reductions still present at 3-month follow-up. Durable change is realistic, especially when you build structured skills instead of relying only on willpower.'**
   String get pornographyMilestone90Description;
 
   /// Pornography milestone day 180 title
   ///
   /// In en, this message translates to:
-  /// **'Relationship & Social Skills Improve'**
+  /// **'Six-Month Stability'**
   String get pornographyMilestone180Title;
 
   /// Pornography milestone day 180 description
   ///
   /// In en, this message translates to:
-  /// **'Connection is your superpower now! Six months often brings improved ability to form genuine connections, better eye contact, reduced social anxiety, and more authentic relationships with others.'**
+  /// **'A randomized CBT study for out-of-control sexual behaviour found improvements in symptoms, sexual compulsivity, and well-being that remained stable at 3- and 6-month follow-up. Long-term control can be maintained.'**
   String get pornographyMilestone180Description;
 
   /// Pornography milestone day 365 title
   ///
   /// In en, this message translates to:
-  /// **'Complete Neural Pathway Reset'**
+  /// **'One Year: Durable Change'**
   String get pornographyMilestone365Title;
 
   /// Pornography milestone day 365 description
   ///
   /// In en, this message translates to:
-  /// **'You\'ve rewired your brain! One year allows for substantial neural pathway changes. Many report complete transformation in how they view relationships, intimacy, and personal fulfillment. You\'ve built a new you!'**
+  /// **'One-year follow-up data from an acceptance-based treatment study found participants did not return to pretreatment hypersexuality levels. A year of maintained change is credible evidence of a durable pattern, not a magical brain-reset date.'**
   String get pornographyMilestone365Description;
 
   /// Pornography milestone day 1825 title
   ///
   /// In en, this message translates to:
-  /// **'Lasting Life Transformation (5 Years)'**
+  /// **'Five Years of Control'**
   String get pornographyMilestone1825Title;
 
   /// Pornography milestone day 1825 description
   ///
   /// In en, this message translates to:
-  /// **'Five years of freedom! You\'ve established completely new neural patterns and life habits. Research suggests brain rewiring can take 1-60 months depending on addiction severity, and you\'ve surpassed that milestone.'**
+  /// **'Five years is long-term maintenance. CSBD is clinically defined by persistent loss of control with distress or impairment, so maintaining control and functioning well over years is a meaningful outcome in its own right.'**
   String get pornographyMilestone1825Description;
 
   /// Custom milestone day 1 title

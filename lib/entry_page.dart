@@ -23,7 +23,7 @@ class _EntryPageState extends State<EntryPage> {
         title: l10n.customMilestone1Title,
         description: l10n.customMilestone1Description,
         reference: "SAMHSA - Treating Sleep Problems of People in Recovery",
-        link: "https://store.samhsa.gov/sites/default/files/sma14-4859.pdf",
+        link: "https://library.samhsa.gov/sites/default/files/sma14-4859.pdf",
       ),
       QuitMilestone(
         day: 3,

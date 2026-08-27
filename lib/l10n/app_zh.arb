@@ -321,14 +321,18 @@
   "@statsTotalDays": {
     "description": "Total days clean across all addictions",
     "placeholders": {
-      "days": { "type": "int" }
+      "days": {
+        "type": "int"
+      }
     }
   },
   "statsAddictionsTracked": "记录{count}项",
   "@statsAddictionsTracked": {
     "description": "Number of addictions being tracked",
     "placeholders": {
-      "count": { "type": "int" }
+      "count": {
+        "type": "int"
+      }
     }
   },
   "statsMoneySavedTitle": "节省金额",
@@ -343,14 +347,18 @@
   "@statsEquivalentCoffees": {
     "description": "Fun equivalence for money saved — coffees",
     "placeholders": {
-      "count": { "type": "int" }
+      "count": {
+        "type": "int"
+      }
     }
   },
   "statsEquivalentMeals": "大约{count}顿餐厅用餐",
   "@statsEquivalentMeals": {
     "description": "Fun equivalence for money saved — restaurant meals",
     "placeholders": {
-      "count": { "type": "int" }
+      "count": {
+        "type": "int"
+      }
     }
   },
   "statsEquivalentFlight": "足够买一张机票",
@@ -369,21 +377,27 @@
   "@statsHoursSaved": {
     "description": "Hours of time saved",
     "placeholders": {
-      "hours": { "type": "int" }
+      "hours": {
+        "type": "int"
+      }
     }
   },
   "statsEquivalentBooks": "大约可以读{count}本书",
   "@statsEquivalentBooks": {
     "description": "Fun equivalence for time saved — books read",
     "placeholders": {
-      "count": { "type": "int" }
+      "count": {
+        "type": "int"
+      }
     }
   },
   "statsEquivalentMovies": "大约可以看{count}部电影",
   "@statsEquivalentMovies": {
     "description": "Fun equivalence for time saved — movies watched",
     "placeholders": {
-      "count": { "type": "int" }
+      "count": {
+        "type": "int"
+      }
     }
   },
   "statsStreaksTitle": "连续记录",
@@ -394,7 +408,9 @@
   "@statsDaysSuffix": {
     "description": "Compact days label used in streak bars",
     "placeholders": {
-      "days": { "type": "int" }
+      "days": {
+        "type": "int"
+      }
     }
   },
   "statsResilienceTitle": "韧性",
@@ -405,14 +421,18 @@
   "@statsTimesBouncedBack": {
     "description": "Motivational message about number of relapses",
     "placeholders": {
-      "count": { "type": "int" }
+      "count": {
+        "type": "int"
+      }
     }
   },
   "statsDaysBeforeRelapse": "每次平均坚持{days}天",
   "@statsDaysBeforeRelapse": {
     "description": "Average days achieved before each relapse",
     "placeholders": {
-      "days": { "type": "int" }
+      "days": {
+        "type": "int"
+      }
     }
   },
   "tabSettings": "设置",
@@ -1365,23 +1385,23 @@
   "@socialMediaSubtitleNotStarted": {
     "description": "Subtitle for not started social media quit journey"
   },
-  "pornographyPageTitle": "纯净与强大",
+  "pornographyPageTitle": "色情内容使用恢复",
   "@pornographyPageTitle": {
     "description": "Page title for adult content tracking"
   },
-  "pornographyHeaderStarted": "重获思想！",
+  "pornographyHeaderStarted": "建立持久的自我控制",
   "@pornographyHeaderStarted": {
     "description": "Header for started adult content quit journey"
   },
-  "pornographyHeaderNotStarted": "开始你的旅程！",
+  "pornographyHeaderNotStarted": "改变有问题的色情内容使用",
   "@pornographyHeaderNotStarted": {
     "description": "Header for not started adult content quit journey"
   },
-  "pornographySubtitleStarted": "建立真实的连接 🧠✨",
+  "pornographySubtitleStarted": "记录诱因、自我控制和有证据支持的里程碑",
   "@pornographySubtitleStarted": {
     "description": "Subtitle for started adult content quit journey"
   },
-  "pornographySubtitleNotStarted": "准备好挣脱束缚并重建自我了吗？ 💪",
+  "pornographySubtitleNotStarted": "了解研究真正支持的结论，并衡量自己的进展",
   "@pornographySubtitleNotStarted": {
     "description": "Subtitle for not started adult content quit journey"
   },
@@ -1977,75 +1997,75 @@
   "@nicotinePouchesMilestone365Description": {
     "description": "Nicotine pouches milestone day 365 description"
   },
-  "pornographyMilestone1Title": "打破循环",
+  "pornographyMilestone1Title": "重新掌握控制权",
   "@pornographyMilestone1Title": {
     "description": "Pornography milestone day 1 title"
   },
-  "pornographyMilestone1Description": "您已经迈出了最艰难的一步！第一天是关于打破自动反应模式。您的大脑已经开始注意到它所期待的多巴胺峰值的缺失。",
+  "pornographyMilestone1Description": "有问题的色情内容使用的核心是控制困难，以及由此造成的痛苦或功能受损。第一天的意义很具体：你已经中断旧模式一次，并开始识别真正会触发它的情境。",
   "@pornographyMilestone1Description": {
     "description": "Pornography milestone day 1 description"
   },
-  "pornographyMilestone3Title": "戒断症状达到顶峰",
+  "pornographyMilestone3Title": "认识你的冲动",
   "@pornographyMilestone3Title": {
     "description": "Pornography milestone day 3 title"
   },
-  "pornographyMilestone3Description": "平静前的风暴。渴望、不安和情绪波动现在最强烈。您的大脑正在努力重新连接自己。这种不适实际上是您的神经通路正在愈合！",
+  "pornographyMilestone3Description": "问题使用较严重的人常报告难以停止的性想法、难以控制的欲望、易怒、情绪波动和睡眠问题。第三天适合把自己真正出现的体验具体说出来，而不是套用固定的“戒断时间表”。",
   "@pornographyMilestone3Description": {
     "description": "Pornography milestone day 3 description"
   },
-  "pornographyMilestone7Title": "睡眠质量改善",
+  "pornographyMilestone7Title": "一周：随机试验的证据",
   "@pornographyMilestone7Title": {
     "description": "Pornography milestone day 7 title"
   },
-  "pornographyMilestone7Description": "美梦就是这样构成的！随着您大脑的奖励系统开始重新平衡，您的睡眠周期正在稳定。许多人报告说睡眠更深、更恢复精力，睡眠障碍更少。",
+  "pornographyMilestone7Description": "一项7天禁欲随机试验没有发现普通使用者整体出现统一的戒断综合征；但在“高问题使用加每日观看”的探索性亚组中，渴求更强。因此第一周可能很难，但并非人人如此。",
   "@pornographyMilestone7Description": {
     "description": "Pornography milestone day 7 description"
   },
-  "pornographyMilestone14Title": "动力和精力恢复",
+  "pornographyMilestone14Title": "找出你的诱因",
   "@pornographyMilestone14Title": {
     "description": "Pornography milestone day 14 title"
   },
-  "pornographyMilestone14Description": "迷雾正在消散！许多人注意到动力增加、思维更清晰，以及对现实世界活动的精力更多。您大脑的自然奖励系统开始在日常体验中再次找到乐趣。",
+  "pornographyMilestone14Description": "两周足以让你多次遇到以前会触发色情内容使用的情境。研究把问题使用与渴求、压力、逃避、孤独和应对方式等因素联系起来；识别自己的模式，才能设计具体改变。",
   "@pornographyMilestone14Description": {
     "description": "Pornography milestone day 14 description"
   },
-  "pornographyMilestone30Title": "自信和自控力增长",
+  "pornographyMilestone30Title": "一个月的控制",
   "@pornographyMilestone30Title": {
     "description": "Pornography milestone day 30 title"
   },
-  "pornographyMilestone30Description": "您正在建立心理肌肉！一个月的禁欲通常会带来自信心的增加、更好的情绪调节以及更强的个人控制感。您正在向自己证明您可以克服挑战。",
+  "pornographyMilestone30Description": "一个月是检验控制力的有意义周期。在14,581人的研究中，性功能问题与“问题使用”的关联强于单纯观看频率，因此重新获得控制比只盯着频率更符合证据。",
   "@pornographyMilestone30Description": {
     "description": "Pornography milestone day 30 description"
   },
-  "pornographyMilestone90Title": "脑功能稳定",
+  "pornographyMilestone90Title": "改变可以维持",
   "@pornographyMilestone90Title": {
     "description": "Pornography milestone day 90 title"
   },
-  "pornographyMilestone90Description": "您的大脑正在找到平衡！三个月允许在注意力、决策和情绪调节方面有显著改善。强迫性的冲动正变得更容易管理。",
+  "pornographyMilestone90Description": "一项针对问题性色情内容使用的ACT随机试验发现，12次治疗后观看量大幅下降，并在3个月随访时仍保持明显改善。建立具体技能，而不只靠意志力，可以支持持久改变。",
   "@pornographyMilestone90Description": {
     "description": "Pornography milestone day 90 description"
   },
-  "pornographyMilestone180Title": "人际关系和社交技巧改善",
+  "pornographyMilestone180Title": "六个月的稳定",
   "@pornographyMilestone180Title": {
     "description": "Pornography milestone day 180 title"
   },
-  "pornographyMilestone180Description": "连接现在是您的超能力！六个月通常会带来建立真正连接的能力提高、更好的眼神交流、社交焦虑减少以及与他人更真实的关系。",
+  "pornographyMilestone180Description": "一项针对失控性行为的CBT随机试验发现，症状、性强迫和心理健康的改善在3个月和6个月随访时仍保持稳定。长期控制是可以维持的。",
   "@pornographyMilestone180Description": {
     "description": "Pornography milestone day 180 description"
   },
-  "pornographyMilestone365Title": "神经通路完全重置",
+  "pornographyMilestone365Title": "一年：持久改变",
   "@pornographyMilestone365Title": {
     "description": "Pornography milestone day 365 title"
   },
-  "pornographyMilestone365Description": "您已经重新连接了您的大脑！一年允许实质性的神经通路改变。许多人报告说，他们看待人际关系、亲密关系和个人成就感的方式发生了彻底的转变。您已经建立了一个新的您！",
+  "pornographyMilestone365Description": "一项接纳式治疗的一年随访发现，参与者的过度性行为没有回到治疗前水平。一年的持续改变更像是稳定的新行为模式，而不是某个神奇的“脑重置日期”。",
   "@pornographyMilestone365Description": {
     "description": "Pornography milestone day 365 description"
   },
-  "pornographyMilestone1825Title": "持久的人生转变（5年）",
+  "pornographyMilestone1825Title": "五年的控制",
   "@pornographyMilestone1825Title": {
     "description": "Pornography milestone day 1825 title"
   },
-  "pornographyMilestone1825Description": "五年的自由！您已经建立了全新的神经模式和生活习惯。研究表明，大脑重新连接可能需要1-60个月，具体取决于成瘾的严重程度，而您已经超过了那个里程碑。",
+  "pornographyMilestone1825Description": "五年属于长期维持。CSBD的临床定义核心是持续失去控制并造成痛苦或功能受损，因此多年保持控制并维持良好生活功能，本身就是有意义的结果。",
   "@pornographyMilestone1825Description": {
     "description": "Pornography milestone day 1825 description"
   },

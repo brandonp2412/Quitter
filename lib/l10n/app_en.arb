@@ -167,7 +167,6 @@
   "steroidsMilestone365Description": "A year off steroids. For most, hormones and mood have normalised; persistent low testosterone past this point warrants specialist assessment.",
   "steroidsMilestone730Title": "Two Years — A New Baseline",
   "steroidsMilestone730Description": "Two years off steroids. Your hormones reflect your natural baseline; any continued deficit should be managed with a specialist.",
-
   "@@locale": "en",
   "appTitle": "Quitter",
   "@appTitle": {
@@ -322,14 +321,18 @@
   "@statsTotalDays": {
     "description": "Total days clean across all addictions",
     "placeholders": {
-      "days": { "type": "int" }
+      "days": {
+        "type": "int"
+      }
     }
   },
   "statsAddictionsTracked": "{count} tracked",
   "@statsAddictionsTracked": {
     "description": "Number of addictions being tracked",
     "placeholders": {
-      "count": { "type": "int" }
+      "count": {
+        "type": "int"
+      }
     }
   },
   "statsMoneySavedTitle": "Money Saved",
@@ -344,14 +347,18 @@
   "@statsEquivalentCoffees": {
     "description": "Fun equivalence for money saved — coffees",
     "placeholders": {
-      "count": { "type": "int" }
+      "count": {
+        "type": "int"
+      }
     }
   },
   "statsEquivalentMeals": "That's about {count} restaurant meals",
   "@statsEquivalentMeals": {
     "description": "Fun equivalence for money saved — restaurant meals",
     "placeholders": {
-      "count": { "type": "int" }
+      "count": {
+        "type": "int"
+      }
     }
   },
   "statsEquivalentFlight": "That's a flight somewhere new",
@@ -370,21 +377,27 @@
   "@statsHoursSaved": {
     "description": "Hours of time saved",
     "placeholders": {
-      "hours": { "type": "int" }
+      "hours": {
+        "type": "int"
+      }
     }
   },
   "statsEquivalentBooks": "Enough to read about {count} books",
   "@statsEquivalentBooks": {
     "description": "Fun equivalence for time saved — books read",
     "placeholders": {
-      "count": { "type": "int" }
+      "count": {
+        "type": "int"
+      }
     }
   },
   "statsEquivalentMovies": "Enough to watch about {count} movies",
   "@statsEquivalentMovies": {
     "description": "Fun equivalence for time saved — movies watched",
     "placeholders": {
-      "count": { "type": "int" }
+      "count": {
+        "type": "int"
+      }
     }
   },
   "statsStreaksTitle": "Your Streaks",
@@ -395,7 +408,9 @@
   "@statsDaysSuffix": {
     "description": "Compact days label used in streak bars",
     "placeholders": {
-      "days": { "type": "int" }
+      "days": {
+        "type": "int"
+      }
     }
   },
   "statsResilienceTitle": "Resilience",
@@ -406,14 +421,18 @@
   "@statsTimesBouncedBack": {
     "description": "Motivational message about number of relapses",
     "placeholders": {
-      "count": { "type": "int" }
+      "count": {
+        "type": "int"
+      }
     }
   },
   "statsDaysBeforeRelapse": "{days} days of progress each time",
   "@statsDaysBeforeRelapse": {
     "description": "Average days achieved before each relapse",
     "placeholders": {
-      "days": { "type": "int" }
+      "days": {
+        "type": "int"
+      }
     }
   },
   "tabSettings": "Settings",
@@ -493,14 +512,18 @@
   "@stopTrackingDialogTitle": {
     "description": "Title for stop tracking confirmation dialog",
     "placeholders": {
-      "title": { "type": "String" }
+      "title": {
+        "type": "String"
+      }
     }
   },
   "stopTrackingDialogMessage": "This will remove {title} from your home screen. Your milestone history will be preserved.",
   "@stopTrackingDialogMessage": {
     "description": "Message for stop tracking confirmation dialog",
     "placeholders": {
-      "title": { "type": "String" }
+      "title": {
+        "type": "String"
+      }
     }
   },
   "stopTracking": "Remove",
@@ -1122,7 +1145,9 @@
   "@pinPageTooManyAttempts": {
     "description": "Error message when too many failed PIN attempts, showing remaining lockout seconds",
     "placeholders": {
-      "seconds": { "type": "int" }
+      "seconds": {
+        "type": "int"
+      }
     }
   },
   "aboutPageTitle": "About",
@@ -1360,23 +1385,23 @@
   "@socialMediaSubtitleNotStarted": {
     "description": "Subtitle for not started social media quit journey"
   },
-  "pornographyPageTitle": "Pure & powerful",
+  "pornographyPageTitle": "Pornography Recovery",
   "@pornographyPageTitle": {
     "description": "Page title for adult content tracking"
   },
-  "pornographyHeaderStarted": "Reclaiming your mind!",
+  "pornographyHeaderStarted": "Building lasting control",
   "@pornographyHeaderStarted": {
     "description": "Header for started adult content quit journey"
   },
-  "pornographyHeaderNotStarted": "Start your journey!",
+  "pornographyHeaderNotStarted": "Change problematic pornography use",
   "@pornographyHeaderNotStarted": {
     "description": "Header for not started adult content quit journey"
   },
-  "pornographySubtitleStarted": "Building authentic connections 🧠✨",
+  "pornographySubtitleStarted": "Track triggers, control, and evidence-based milestones",
   "@pornographySubtitleStarted": {
     "description": "Subtitle for started adult content quit journey"
   },
-  "pornographySubtitleNotStarted": "Ready to break free and rebuild? 💪",
+  "pornographySubtitleNotStarted": "See what research supports and measure your own progress",
   "@pornographySubtitleNotStarted": {
     "description": "Subtitle for not started adult content quit journey"
   },
@@ -1972,75 +1997,75 @@
   "@nicotinePouchesMilestone365Description": {
     "description": "Nicotine pouches milestone day 365 description"
   },
-  "pornographyMilestone1Title": "Breaking the Cycle",
+  "pornographyMilestone1Title": "Taking Back Control",
   "@pornographyMilestone1Title": {
     "description": "Pornography milestone day 1 title"
   },
-  "pornographyMilestone1Description": "You've taken the hardest step! Day one is about breaking the automatic response pattern. Your brain is already starting to notice the absence of the dopamine spike it was expecting.",
+  "pornographyMilestone1Description": "Problematic pornography use is defined by impaired control and resulting distress or impairment. One day matters because you have already interrupted the old pattern once and started identifying what triggers it.",
   "@pornographyMilestone1Description": {
     "description": "Pornography milestone day 1 description"
   },
-  "pornographyMilestone3Title": "Withdrawal Symptoms Peak",
+  "pornographyMilestone3Title": "Know Your Urges",
   "@pornographyMilestone3Title": {
     "description": "Pornography milestone day 3 title"
   },
-  "pornographyMilestone3Description": "The storm before the calm. Cravings, restlessness, and mood swings are at their strongest now. Your brain is working hard to rewire itself. This discomfort is actually your neural pathways healing!",
+  "pornographyMilestone3Description": "People with more severe problematic use commonly report intrusive sexual thoughts, difficult-to-control desire, irritability, mood shifts, and sleep problems. Day three is a useful point to name which of those are actually happening for you.",
   "@pornographyMilestone3Description": {
     "description": "Pornography milestone day 3 description"
   },
-  "pornographyMilestone7Title": "Sleep Quality Improves",
+  "pornographyMilestone7Title": "One Week: Trial Evidence",
   "@pornographyMilestone7Title": {
     "description": "Pornography milestone day 7 title"
   },
-  "pornographyMilestone7Description": "Sweet dreams are made of this! Your sleep cycles are stabilizing as your brain's reward system begins to rebalance. Many people report deeper, more restorative sleep and fewer sleep disturbances.",
+  "pornographyMilestone7Description": "In a randomized 7-day abstinence study, regular users showed no overall withdrawal syndrome. An exploratory subgroup with both high problematic use and daily viewing had more craving, so a rough first week is possible but not inevitable.",
   "@pornographyMilestone7Description": {
     "description": "Pornography milestone day 7 description"
   },
-  "pornographyMilestone14Title": "Motivation & Energy Return",
+  "pornographyMilestone14Title": "Map Your Triggers",
   "@pornographyMilestone14Title": {
     "description": "Pornography milestone day 14 title"
   },
-  "pornographyMilestone14Description": "The fog is lifting! Many people notice increased motivation, clearer thinking, and more energy for real-world activities. Your brain's natural reward system is starting to find pleasure in everyday experiences again.",
+  "pornographyMilestone14Description": "Two weeks gives you repeated exposure to the situations that used to cue pornography. Research links problematic use with factors including craving, stress, avoidance, loneliness, and coping style; knowing your own pattern gives you something concrete to change.",
   "@pornographyMilestone14Description": {
     "description": "Pornography milestone day 14 description"
   },
-  "pornographyMilestone30Title": "Confidence & Self-Control Grow",
+  "pornographyMilestone30Title": "A Month of Control",
   "@pornographyMilestone30Title": {
     "description": "Pornography milestone day 30 title"
   },
-  "pornographyMilestone30Description": "You're building mental muscle! One month of abstinence often brings increased self-confidence, better emotional regulation, and a stronger sense of personal control. You're proving to yourself that you can overcome challenges.",
+  "pornographyMilestone30Description": "A month is a meaningful test of control. In a 14,581-person study, sexual-function problems were associated more strongly with problematic use than with simple viewing frequency, so regaining control is the more evidence-based target.",
   "@pornographyMilestone30Description": {
     "description": "Pornography milestone day 30 description"
   },
-  "pornographyMilestone90Title": "Brain Function Stabilizes",
+  "pornographyMilestone90Title": "Change Can Hold",
   "@pornographyMilestone90Title": {
     "description": "Pornography milestone day 90 title"
   },
-  "pornographyMilestone90Description": "Your brain is finding its balance! Three months allows significant improvements in focus, decision-making, and emotional regulation. The compulsive urges are becoming much more manageable.",
+  "pornographyMilestone90Description": "A randomized ACT trial for problematic pornography use found large reductions in viewing after 12 sessions, with substantial reductions still present at 3-month follow-up. Durable change is realistic, especially when you build structured skills instead of relying only on willpower.",
   "@pornographyMilestone90Description": {
     "description": "Pornography milestone day 90 description"
   },
-  "pornographyMilestone180Title": "Relationship & Social Skills Improve",
+  "pornographyMilestone180Title": "Six-Month Stability",
   "@pornographyMilestone180Title": {
     "description": "Pornography milestone day 180 title"
   },
-  "pornographyMilestone180Description": "Connection is your superpower now! Six months often brings improved ability to form genuine connections, better eye contact, reduced social anxiety, and more authentic relationships with others.",
+  "pornographyMilestone180Description": "A randomized CBT study for out-of-control sexual behaviour found improvements in symptoms, sexual compulsivity, and well-being that remained stable at 3- and 6-month follow-up. Long-term control can be maintained.",
   "@pornographyMilestone180Description": {
     "description": "Pornography milestone day 180 description"
   },
-  "pornographyMilestone365Title": "Complete Neural Pathway Reset",
+  "pornographyMilestone365Title": "One Year: Durable Change",
   "@pornographyMilestone365Title": {
     "description": "Pornography milestone day 365 title"
   },
-  "pornographyMilestone365Description": "You've rewired your brain! One year allows for substantial neural pathway changes. Many report complete transformation in how they view relationships, intimacy, and personal fulfillment. You've built a new you!",
+  "pornographyMilestone365Description": "One-year follow-up data from an acceptance-based treatment study found participants did not return to pretreatment hypersexuality levels. A year of maintained change is credible evidence of a durable pattern, not a magical brain-reset date.",
   "@pornographyMilestone365Description": {
     "description": "Pornography milestone day 365 description"
   },
-  "pornographyMilestone1825Title": "Lasting Life Transformation (5 Years)",
+  "pornographyMilestone1825Title": "Five Years of Control",
   "@pornographyMilestone1825Title": {
     "description": "Pornography milestone day 1825 title"
   },
-  "pornographyMilestone1825Description": "Five years of freedom! You've established completely new neural patterns and life habits. Research suggests brain rewiring can take 1-60 months depending on addiction severity, and you've surpassed that milestone.",
+  "pornographyMilestone1825Description": "Five years is long-term maintenance. CSBD is clinically defined by persistent loss of control with distress or impairment, so maintaining control and functioning well over years is a meaningful outcome in its own right.",
   "@pornographyMilestone1825Description": {
     "description": "Pornography milestone day 1825 description"
   },

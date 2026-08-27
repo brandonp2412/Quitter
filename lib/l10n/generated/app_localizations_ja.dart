@@ -1,5 +1,6 @@
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
+
 import 'app_localizations.dart';
 
 // ignore_for_file: type=lint
@@ -1776,19 +1777,19 @@ class AppLocalizationsJa extends AppLocalizations {
   String get socialMediaSubtitleNotStarted => '時間を取り戻す準備はできていますか? 🚀';
 
   @override
-  String get pornographyPageTitle => '純粋で力強く';
+  String get pornographyPageTitle => 'ポルノ使用からの回復';
 
   @override
-  String get pornographyHeaderStarted => '心を取り戻しています!';
+  String get pornographyHeaderStarted => '持続できるコントロールを築く';
 
   @override
-  String get pornographyHeaderNotStarted => '旅を始めましょう!';
+  String get pornographyHeaderNotStarted => '問題のあるポルノ使用を変える';
 
   @override
-  String get pornographySubtitleStarted => '本物のつながりを築いていきます 🧠✨';
+  String get pornographySubtitleStarted => 'トリガー・自己コントロール・根拠のある節目を記録';
 
   @override
-  String get pornographySubtitleNotStarted => '解放され、再構築する準備はできていますか? 💪';
+  String get pornographySubtitleNotStarted => '研究で分かっていることを確認し、自分の変化を測る';
 
   @override
   String get relapseMessage1 => '回復は直線的ではありません。すべての前進が大切で、この一歩も含まれます。';
@@ -2298,67 +2299,67 @@ class AppLocalizationsJa extends AppLocalizations {
       '自由の1年！ニコチン関連の健康問題のリスクは減少し続けています。依存のサイクルを断ち切り、自律性を取り戻しました。これは本当に英雄的です！ 🏆';
 
   @override
-  String get pornographyMilestone1Title => 'サイクルを断ち切る';
+  String get pornographyMilestone1Title => 'コントロールを取り戻す';
 
   @override
   String get pornographyMilestone1Description =>
-      '最も難しい一歩を踏み出しました！1日目は自動的な反応パターンを断ち切ることです。脳はすでに期待していたドーパミンの急上昇がないことに気づき始めています。';
+      '問題のあるポルノ使用では、コントロールの困難さと、それによる苦痛や生活上の支障が重要です。1日目は、これまでのパターンを一度中断し、何が引き金になるのかを観察し始めたという具体的な一歩です。';
 
   @override
-  String get pornographyMilestone3Title => '離脱症状がピークに';
+  String get pornographyMilestone3Title => '衝動の正体を知る';
 
   @override
   String get pornographyMilestone3Description =>
-      '嵐の前の静けさ。渇望、落ち着きのなさ、気分の変動が今最も強くなっています。脳は自らをリワイヤリングするために懸命に働いています。この不快感は実際には神経経路が癒えている証拠です！';
+      '問題の程度が強い人では、止めにくい性的な考え、抑えにくい欲求、いら立ち、気分の変化、睡眠の問題などが報告されています。3日目は、自分に実際に起きているものを言葉にする良い時点です。';
 
   @override
-  String get pornographyMilestone7Title => '睡眠の質が改善';
+  String get pornographyMilestone7Title => '1週間：無作為化試験の結果';
 
   @override
   String get pornographyMilestone7Description =>
-      '甘い夢はこうして作られます！脳の報酬系が再バランスし始めると、睡眠サイクルが安定してきます。多くの人がより深く、より回復力のある睡眠と、より少ない睡眠障害を報告しています。';
+      '7日間の禁欲を調べた無作為化試験では、通常の利用者全体に一律の離脱症候群は確認されませんでした。一方、高い問題使用と毎日の利用が重なる探索的サブグループでは渇望が強まり、つらい1週間になる人もいることが示唆されました。';
 
   @override
-  String get pornographyMilestone14Title => 'モチベーションとエネルギーが戻る';
+  String get pornographyMilestone14Title => '自分のトリガーを特定する';
 
   @override
   String get pornographyMilestone14Description =>
-      '霧が晴れています！多くの人がモチベーションの向上、より明確な思考、現実世界の活動へのより多くのエネルギーを感じます。脳の自然な報酬系が日常の経験から再び喜びを見出し始めています。';
+      '2週間あれば、以前ポルノ使用につながっていた状況を繰り返し観察できます。研究では、渇望、ストレス、回避、孤独、対処スタイルなどが問題使用と関連しており、自分のパターンを知ることで具体的な対策を立てられます。';
 
   @override
-  String get pornographyMilestone30Title => '自信と自制心が育つ';
+  String get pornographyMilestone30Title => '1か月のコントロール';
 
   @override
   String get pornographyMilestone30Description =>
-      'メンタルの筋肉を鍛えています！1ヶ月の禁欲は、しばしば自信の向上、より良い感情調節、より強い個人的なコントロール感をもたらします。あなたは自分が困難を克服できることを自分自身に証明しています。';
+      '1か月は自己コントロールを評価する意味のある期間です。14,581人の研究では、性的機能の問題は単なる視聴頻度よりも問題のある使用との関連が強く、頻度だけでなくコントロールを取り戻すことがより根拠に沿った目標です。';
 
   @override
-  String get pornographyMilestone90Title => '脳機能が安定';
+  String get pornographyMilestone90Title => '変化は維持できる';
 
   @override
   String get pornographyMilestone90Description =>
-      '脳がバランスを見つけています！3ヶ月で集中力、意思決定、感情調節に大幅な改善が見られます。衝動的な欲求がはるかに管理しやすくなっています。';
+      '問題のあるポルノ使用に対するACTの無作為化試験では、12回の治療後に視聴が大きく減り、その改善は3か月後にもかなり維持されました。意志力だけでなく、具体的なスキルを組み立てることで持続的な変化は可能です。';
 
   @override
-  String get pornographyMilestone180Title => '人間関係と社会的スキルが改善';
+  String get pornographyMilestone180Title => '6か月の安定';
 
   @override
   String get pornographyMilestone180Description =>
-      'つながりがあなたのスーパーパワーになりました！6ヶ月は、本物のつながりを形成する能力の向上、より良いアイコンタクト、社会不安の軽減、より本物の人間関係をもたらすことが多いです。';
+      '制御困難な性的行動を対象にしたCBTの無作為化試験では、症状、性的強迫性、心理的健康の改善が3か月・6か月の追跡でも維持されました。長期的なコントロールは維持可能です。';
 
   @override
-  String get pornographyMilestone365Title => '神経経路の完全リセット';
+  String get pornographyMilestone365Title => '1年：持続する変化';
 
   @override
   String get pornographyMilestone365Description =>
-      '脳をリワイヤリングしました！1年で大幅な神経経路の変化が可能になります。多くの人が人間関係、親密さ、個人的な充実感の見方が完全に変わったと報告しています。新しいあなたを築きました！';
+      '受容ベース治療の1年追跡研究では、参加者の過度な性的行動は治療前の水準には戻りませんでした。1年間維持された変化は、魔法の「脳リセット日」ではなく、持続する新しい行動パターンの根拠になります。';
 
   @override
-  String get pornographyMilestone1825Title => '持続的な人生の変革（5年）';
+  String get pornographyMilestone1825Title => '5年間のコントロール';
 
   @override
   String get pornographyMilestone1825Description =>
-      '5年間の自由！まったく新しい神経パターンと生活習慣を確立しました。研究によると、脳のリワイヤリングには依存の重症度によって1〜60ヶ月かかる可能性がありますが、あなたはそのマイルストーンを超えました。';
+      '5年は長期維持です。CSBDは、持続的なコントロール喪失と、それによる苦痛や生活上の支障を中心に定義されます。何年にもわたりコントロールと良好な機能を保てていること自体が、意味のある成果です。';
 
   @override
   String get customMilestone1Title => '回復の初期段階が始まる';

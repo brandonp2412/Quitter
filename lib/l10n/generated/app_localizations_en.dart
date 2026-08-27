@@ -1,5 +1,6 @@
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
+
 import 'app_localizations.dart';
 
 // ignore_for_file: type=lint
@@ -1829,20 +1830,22 @@ class AppLocalizationsEn extends AppLocalizations {
   String get socialMediaSubtitleNotStarted => 'Ready to reclaim your time? 🚀';
 
   @override
-  String get pornographyPageTitle => 'Pure & powerful';
+  String get pornographyPageTitle => 'Pornography Recovery';
 
   @override
-  String get pornographyHeaderStarted => 'Reclaiming your mind!';
+  String get pornographyHeaderStarted => 'Building lasting control';
 
   @override
-  String get pornographyHeaderNotStarted => 'Start your journey!';
+  String get pornographyHeaderNotStarted =>
+      'Change problematic pornography use';
 
   @override
-  String get pornographySubtitleStarted => 'Building authentic connections 🧠✨';
+  String get pornographySubtitleStarted =>
+      'Track triggers, control, and evidence-based milestones';
 
   @override
   String get pornographySubtitleNotStarted =>
-      'Ready to break free and rebuild? 💪';
+      'See what research supports and measure your own progress';
 
   @override
   String get relapseMessage1 =>
@@ -2380,69 +2383,67 @@ class AppLocalizationsEn extends AppLocalizations {
       'One year of freedom! Your risk of nicotine-related health issues continues to plummet. You\'ve broken the addiction cycle and reclaimed your autonomy. That\'s genuinely heroic! 🏆';
 
   @override
-  String get pornographyMilestone1Title => 'Breaking the Cycle';
+  String get pornographyMilestone1Title => 'Taking Back Control';
 
   @override
   String get pornographyMilestone1Description =>
-      'You\'ve taken the hardest step! Day one is about breaking the automatic response pattern. Your brain is already starting to notice the absence of the dopamine spike it was expecting.';
+      'Problematic pornography use is defined by impaired control and resulting distress or impairment. One day matters because you have already interrupted the old pattern once and started identifying what triggers it.';
 
   @override
-  String get pornographyMilestone3Title => 'Withdrawal Symptoms Peak';
+  String get pornographyMilestone3Title => 'Know Your Urges';
 
   @override
   String get pornographyMilestone3Description =>
-      'The storm before the calm. Cravings, restlessness, and mood swings are at their strongest now. Your brain is working hard to rewire itself. This discomfort is actually your neural pathways healing!';
+      'People with more severe problematic use commonly report intrusive sexual thoughts, difficult-to-control desire, irritability, mood shifts, and sleep problems. Day three is a useful point to name which of those are actually happening for you.';
 
   @override
-  String get pornographyMilestone7Title => 'Sleep Quality Improves';
+  String get pornographyMilestone7Title => 'One Week: Trial Evidence';
 
   @override
   String get pornographyMilestone7Description =>
-      'Sweet dreams are made of this! Your sleep cycles are stabilizing as your brain\'s reward system begins to rebalance. Many people report deeper, more restorative sleep and fewer sleep disturbances.';
+      'In a randomized 7-day abstinence study, regular users showed no overall withdrawal syndrome. An exploratory subgroup with both high problematic use and daily viewing had more craving, so a rough first week is possible but not inevitable.';
 
   @override
-  String get pornographyMilestone14Title => 'Motivation & Energy Return';
+  String get pornographyMilestone14Title => 'Map Your Triggers';
 
   @override
   String get pornographyMilestone14Description =>
-      'The fog is lifting! Many people notice increased motivation, clearer thinking, and more energy for real-world activities. Your brain\'s natural reward system is starting to find pleasure in everyday experiences again.';
+      'Two weeks gives you repeated exposure to the situations that used to cue pornography. Research links problematic use with factors including craving, stress, avoidance, loneliness, and coping style; knowing your own pattern gives you something concrete to change.';
 
   @override
-  String get pornographyMilestone30Title => 'Confidence & Self-Control Grow';
+  String get pornographyMilestone30Title => 'A Month of Control';
 
   @override
   String get pornographyMilestone30Description =>
-      'You\'re building mental muscle! One month of abstinence often brings increased self-confidence, better emotional regulation, and a stronger sense of personal control. You\'re proving to yourself that you can overcome challenges.';
+      'A month is a meaningful test of control. In a 14,581-person study, sexual-function problems were associated more strongly with problematic use than with simple viewing frequency, so regaining control is the more evidence-based target.';
 
   @override
-  String get pornographyMilestone90Title => 'Brain Function Stabilizes';
+  String get pornographyMilestone90Title => 'Change Can Hold';
 
   @override
   String get pornographyMilestone90Description =>
-      'Your brain is finding its balance! Three months allows significant improvements in focus, decision-making, and emotional regulation. The compulsive urges are becoming much more manageable.';
+      'A randomized ACT trial for problematic pornography use found large reductions in viewing after 12 sessions, with substantial reductions still present at 3-month follow-up. Durable change is realistic, especially when you build structured skills instead of relying only on willpower.';
 
   @override
-  String get pornographyMilestone180Title =>
-      'Relationship & Social Skills Improve';
+  String get pornographyMilestone180Title => 'Six-Month Stability';
 
   @override
   String get pornographyMilestone180Description =>
-      'Connection is your superpower now! Six months often brings improved ability to form genuine connections, better eye contact, reduced social anxiety, and more authentic relationships with others.';
+      'A randomized CBT study for out-of-control sexual behaviour found improvements in symptoms, sexual compulsivity, and well-being that remained stable at 3- and 6-month follow-up. Long-term control can be maintained.';
 
   @override
-  String get pornographyMilestone365Title => 'Complete Neural Pathway Reset';
+  String get pornographyMilestone365Title => 'One Year: Durable Change';
 
   @override
   String get pornographyMilestone365Description =>
-      'You\'ve rewired your brain! One year allows for substantial neural pathway changes. Many report complete transformation in how they view relationships, intimacy, and personal fulfillment. You\'ve built a new you!';
+      'One-year follow-up data from an acceptance-based treatment study found participants did not return to pretreatment hypersexuality levels. A year of maintained change is credible evidence of a durable pattern, not a magical brain-reset date.';
 
   @override
-  String get pornographyMilestone1825Title =>
-      'Lasting Life Transformation (5 Years)';
+  String get pornographyMilestone1825Title => 'Five Years of Control';
 
   @override
   String get pornographyMilestone1825Description =>
-      'Five years of freedom! You\'ve established completely new neural patterns and life habits. Research suggests brain rewiring can take 1-60 months depending on addiction severity, and you\'ve surpassed that milestone.';
+      'Five years is long-term maintenance. CSBD is clinically defined by persistent loss of control with distress or impairment, so maintaining control and functioning well over years is a meaningful outcome in its own right.';
 
   @override
   String get customMilestone1Title => 'Initial Recovery Phase Begins';

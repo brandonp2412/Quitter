@@ -14,7 +14,8 @@ class PornographyPage extends StatelessWidget {
         day: 1,
         title: l10n.pornographyMilestone1Title,
         description: l10n.pornographyMilestone1Description,
-        reference: 'Compulsive Sexual Behaviour Disorder in the ICD-11 (PubMed)',
+        reference:
+            'Compulsive Sexual Behaviour Disorder in the ICD-11 (PubMed)',
         link: 'https://pubmed.ncbi.nlm.nih.gov/29352554/',
         referenceDate: 'August 2026',
         referenceContent:
@@ -42,7 +43,8 @@ class PornographyPage extends StatelessWidget {
         day: 7,
         title: l10n.pornographyMilestone7Title,
         description: l10n.pornographyMilestone7Description,
-        reference: '7-day pornography abstinence randomized controlled study (PMC)',
+        reference:
+            '7-day pornography abstinence randomized controlled study (PMC)',
         link: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC9847461/',
         referenceDate: 'August 2026',
         referenceContent:

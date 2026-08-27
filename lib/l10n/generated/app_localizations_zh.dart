@@ -1,5 +1,6 @@
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
+
 import 'app_localizations.dart';
 
 // ignore_for_file: type=lint
@@ -1774,19 +1775,19 @@ class AppLocalizationsZh extends AppLocalizations {
   String get socialMediaSubtitleNotStarted => '准备好重获时间了吗？ 🚀';
 
   @override
-  String get pornographyPageTitle => '纯净与强大';
+  String get pornographyPageTitle => '色情内容使用恢复';
 
   @override
-  String get pornographyHeaderStarted => '重获思想！';
+  String get pornographyHeaderStarted => '建立持久的自我控制';
 
   @override
-  String get pornographyHeaderNotStarted => '开始你的旅程！';
+  String get pornographyHeaderNotStarted => '改变有问题的色情内容使用';
 
   @override
-  String get pornographySubtitleStarted => '建立真实的连接 🧠✨';
+  String get pornographySubtitleStarted => '记录诱因、自我控制和有证据支持的里程碑';
 
   @override
-  String get pornographySubtitleNotStarted => '准备好挣脱束缚并重建自我了吗？ 💪';
+  String get pornographySubtitleNotStarted => '了解研究真正支持的结论，并衡量自己的进展';
 
   @override
   String get relapseMessage1 => '康复不是线性的。每一步前进都很重要，包括这一步。';
@@ -2296,67 +2297,67 @@ class AppLocalizationsZh extends AppLocalizations {
       '一年的自由！您患尼古丁相关健康问题的风险继续骤降。您已经打破了成瘾循环并收回了您的自主权。这真是英雄！ 🏆';
 
   @override
-  String get pornographyMilestone1Title => '打破循环';
+  String get pornographyMilestone1Title => '重新掌握控制权';
 
   @override
   String get pornographyMilestone1Description =>
-      '您已经迈出了最艰难的一步！第一天是关于打破自动反应模式。您的大脑已经开始注意到它所期待的多巴胺峰值的缺失。';
+      '有问题的色情内容使用的核心是控制困难，以及由此造成的痛苦或功能受损。第一天的意义很具体：你已经中断旧模式一次，并开始识别真正会触发它的情境。';
 
   @override
-  String get pornographyMilestone3Title => '戒断症状达到顶峰';
+  String get pornographyMilestone3Title => '认识你的冲动';
 
   @override
   String get pornographyMilestone3Description =>
-      '平静前的风暴。渴望、不安和情绪波动现在最强烈。您的大脑正在努力重新连接自己。这种不适实际上是您的神经通路正在愈合！';
+      '问题使用较严重的人常报告难以停止的性想法、难以控制的欲望、易怒、情绪波动和睡眠问题。第三天适合把自己真正出现的体验具体说出来，而不是套用固定的“戒断时间表”。';
 
   @override
-  String get pornographyMilestone7Title => '睡眠质量改善';
+  String get pornographyMilestone7Title => '一周：随机试验的证据';
 
   @override
   String get pornographyMilestone7Description =>
-      '美梦就是这样构成的！随着您大脑的奖励系统开始重新平衡，您的睡眠周期正在稳定。许多人报告说睡眠更深、更恢复精力，睡眠障碍更少。';
+      '一项7天禁欲随机试验没有发现普通使用者整体出现统一的戒断综合征；但在“高问题使用加每日观看”的探索性亚组中，渴求更强。因此第一周可能很难，但并非人人如此。';
 
   @override
-  String get pornographyMilestone14Title => '动力和精力恢复';
+  String get pornographyMilestone14Title => '找出你的诱因';
 
   @override
   String get pornographyMilestone14Description =>
-      '迷雾正在消散！许多人注意到动力增加、思维更清晰，以及对现实世界活动的精力更多。您大脑的自然奖励系统开始在日常体验中再次找到乐趣。';
+      '两周足以让你多次遇到以前会触发色情内容使用的情境。研究把问题使用与渴求、压力、逃避、孤独和应对方式等因素联系起来；识别自己的模式，才能设计具体改变。';
 
   @override
-  String get pornographyMilestone30Title => '自信和自控力增长';
+  String get pornographyMilestone30Title => '一个月的控制';
 
   @override
   String get pornographyMilestone30Description =>
-      '您正在建立心理肌肉！一个月的禁欲通常会带来自信心的增加、更好的情绪调节以及更强的个人控制感。您正在向自己证明您可以克服挑战。';
+      '一个月是检验控制力的有意义周期。在14,581人的研究中，性功能问题与“问题使用”的关联强于单纯观看频率，因此重新获得控制比只盯着频率更符合证据。';
 
   @override
-  String get pornographyMilestone90Title => '脑功能稳定';
+  String get pornographyMilestone90Title => '改变可以维持';
 
   @override
   String get pornographyMilestone90Description =>
-      '您的大脑正在找到平衡！三个月允许在注意力、决策和情绪调节方面有显著改善。强迫性的冲动正变得更容易管理。';
+      '一项针对问题性色情内容使用的ACT随机试验发现，12次治疗后观看量大幅下降，并在3个月随访时仍保持明显改善。建立具体技能，而不只靠意志力，可以支持持久改变。';
 
   @override
-  String get pornographyMilestone180Title => '人际关系和社交技巧改善';
+  String get pornographyMilestone180Title => '六个月的稳定';
 
   @override
   String get pornographyMilestone180Description =>
-      '连接现在是您的超能力！六个月通常会带来建立真正连接的能力提高、更好的眼神交流、社交焦虑减少以及与他人更真实的关系。';
+      '一项针对失控性行为的CBT随机试验发现，症状、性强迫和心理健康的改善在3个月和6个月随访时仍保持稳定。长期控制是可以维持的。';
 
   @override
-  String get pornographyMilestone365Title => '神经通路完全重置';
+  String get pornographyMilestone365Title => '一年：持久改变';
 
   @override
   String get pornographyMilestone365Description =>
-      '您已经重新连接了您的大脑！一年允许实质性的神经通路改变。许多人报告说，他们看待人际关系、亲密关系和个人成就感的方式发生了彻底的转变。您已经建立了一个新的您！';
+      '一项接纳式治疗的一年随访发现，参与者的过度性行为没有回到治疗前水平。一年的持续改变更像是稳定的新行为模式，而不是某个神奇的“脑重置日期”。';
 
   @override
-  String get pornographyMilestone1825Title => '持久的人生转变（5年）';
+  String get pornographyMilestone1825Title => '五年的控制';
 
   @override
   String get pornographyMilestone1825Description =>
-      '五年的自由！您已经建立了全新的神经模式和生活习惯。研究表明，大脑重新连接可能需要1-60个月，具体取决于成瘾的严重程度，而您已经超过了那个里程碑。';
+      '五年属于长期维持。CSBD的临床定义核心是持续失去控制并造成痛苦或功能受损，因此多年保持控制并维持良好生活功能，本身就是有意义的结果。';
 
   @override
   String get customMilestone1Title => '初始康复阶段开始';

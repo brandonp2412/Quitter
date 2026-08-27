@@ -104,7 +104,7 @@ class OpioidPage extends StatelessWidget {
         description: l10n.opioidMilestone30Description,
         reference: "Mayo Clinic - How Opioid Use Disorder Occurs",
         link:
-            "https://www.mayoclinic.org/diseases-conditions/opioid-use-disorder/symptoms-causes/syc-20375440",
+            "https://www.mayoclinic.org/diseases-conditions/prescription-drug-abuse/in-depth/how-opioid-addiction-occurs/art-20360372",
         referenceDate: "June 2026",
         referenceContent:
             "One Month Off Opioids: Cognitive Function Begins Recovery\n\n"
