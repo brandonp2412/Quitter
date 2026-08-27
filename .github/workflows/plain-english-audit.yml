@@ -18,6 +18,7 @@ jobs:
         run: |
           python3 - <<'PY'
           from pathlib import Path
+          import json
           import re
 
           terms = [
@@ -25,16 +26,31 @@ jobs:
               'psychomotor', 'dysphoria', 'striatal', 'prefrontal', 'neuroplastic',
               'neuropsych', 'executive function', 'visuo-', 'encephalopathy',
               'dopamine transporter', 'receptor sensitivity', 'recalibrat',
+              'serotonergic', 'gonadotrop', 'spermatogenesis', 'hypogonad',
+              'allostatic', 'hypodopaminergic', 'cytokine', 'immunosuppress',
               'careful not to overstate', 'asks us to be honest', 'honest, headline',
               'honest message', 'honest summary', 'uncertain', 'cannot confirm',
               'does not establish', 'not necessarily', 'not always complete',
+              "doesn't exist", 'not directly measured', "can't pin", 'worth being upfront',
           ]
           rx = re.compile('|'.join(re.escape(t) for t in terms), re.I)
           count = 0
+          print('--- Dart page copy ---')
           for path in sorted(Path('lib').glob('*_page.dart')):
               for n, line in enumerate(path.read_text().splitlines(), 1):
                   if rx.search(line):
                       print(f'{path}:{n}: {line.strip()}')
                       count += 1
-          print(f'FOUND={count}')
+
+          print('--- English localization values ---')
+          data = json.loads(Path('lib/l10n/app_en.arb').read_text())
+          l10n_count = 0
+          for key, value in data.items():
+              if key.startswith('@') or not isinstance(value, str):
+                  continue
+              if rx.search(value):
+                  print(f'{key}: {value}')
+                  l10n_count += 1
+          print(f'DART_FOUND={count}')
+          print(f'L10N_FOUND={l10n_count}')
           PY
