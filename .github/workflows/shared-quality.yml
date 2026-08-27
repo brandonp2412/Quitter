@@ -8,4 +8,4 @@ on:
 
 jobs:
   quality:
-    uses: brandonp2412/Flexify/.github/workflows/flutter-quality.yml@2e2711a67022d0f69b63512a2320fc69a4ab4b1e
+    uses: brandonp2412/Flexify/.github/workflows/flutter-quality.yml@9cbb2208242a39aa4da3db833bac422891eeb5da
