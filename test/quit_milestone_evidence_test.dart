@@ -7,8 +7,7 @@ void main() {
       day: 7,
       title: 'One week',
       description: 'Specific supported claim',
-      reference:
-          'Clinical Management of Psychostimulant Withdrawal: Review of the Evidence (Addiction)',
+      reference: 'Clinical Management of Psychostimulant Withdrawal: Review of the Evidence (Addiction)',
       link: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10069411/',
       referenceContent: 'Specific evidence content',
     );
@@ -32,7 +31,10 @@ void main() {
     expect(milestone.description, contains('does not establish'));
     expect(milestone.description, isNot(contains('full strength')));
     expect(milestone.referenceContent, contains('Evidence note'));
-    expect(milestone.referenceContent, isNot(contains('Overconfident content')));
+    expect(
+      milestone.referenceContent,
+      isNot(contains('Overconfident content')),
+    );
   });
 
   test('stale source URLs are normalized to current sources', () {
@@ -48,8 +50,7 @@ void main() {
       title: 'One month',
       description: 'Description',
       reference: 'Mayo Clinic - How Opioid Use Disorder Occurs',
-      link:
-          'https://www.mayoclinic.org/diseases-conditions/opioid-use-disorder/symptoms-causes/syc-20375440',
+      link: 'https://www.mayoclinic.org/diseases-conditions/opioid-use-disorder/symptoms-causes/syc-20375440',
     );
 
     expect(
@@ -62,23 +63,26 @@ void main() {
     );
   });
 
-  test('evidence-qualified copy follows Japanese and Chinese milestone titles', () {
-    const japanese = QuitMilestone(
-      day: 30,
-      title: '30日目の回復',
-      description: '元の説明',
-      reference: 'Unsupported source',
-      link: 'https://example.com',
-    );
-    const chinese = QuitMilestone(
-      day: 30,
-      title: '第30天恢复',
-      description: '原说明',
-      reference: 'Unsupported source',
-      link: 'https://example.com',
-    );
+  test(
+    'evidence-qualified copy follows Japanese and Chinese milestone titles',
+    () {
+      const japanese = QuitMilestone(
+        day: 30,
+        title: '30日目の回復',
+        description: '元の説明',
+        reference: 'Unsupported source',
+        link: 'https://example.com',
+      );
+      const chinese = QuitMilestone(
+        day: 30,
+        title: '第30天恢复',
+        description: '原说明',
+        reference: 'Unsupported source',
+        link: 'https://example.com',
+      );
 
-    expect(japanese.description, contains('30日目'));
-    expect(chinese.description, contains('第30天'));
-  });
+      expect(japanese.description, contains('30日目'));
+      expect(chinese.description, contains('第30天'));
+    },
+  );
 }

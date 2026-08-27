@@ -23,9 +23,8 @@ class QuitMilestone {
   /// statement and the milestone timing keep their specific copy. Everything
   /// else is deliberately evidence-qualified so Quitter never turns a relevant
   /// paper into a more precise medical timeline than the paper actually shows.
-  bool get isEvidenceQualified => !_directlySupportedClaims.contains(
-    '$reference::$day',
-  );
+  bool get isEvidenceQualified =>
+      !_directlySupportedClaims.contains('$reference::$day');
 
   String get description =>
       isEvidenceQualified ? _qualifiedDescription : _description;
