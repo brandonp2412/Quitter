@@ -7,7 +7,8 @@ void main() {
       day: 7,
       title: 'One week',
       description: 'Specific supported claim',
-      reference: 'Clinical Management of Psychostimulant Withdrawal: Review of the Evidence (Addiction)',
+      reference:
+          'Clinical Management of Psychostimulant Withdrawal: Review of the Evidence (Addiction)',
       link: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10069411/',
       referenceContent: 'Specific evidence content',
     );
@@ -22,7 +23,8 @@ void main() {
       day: 180,
       title: 'Six months',
       description: 'Your immune system is back to full strength.',
-      reference: 'Effects of Opioid Tolerance and Withdrawal on the Immune System (PubMed)',
+      reference:
+          'Effects of Opioid Tolerance and Withdrawal on the Immune System (PubMed)',
       link: 'https://pubmed.ncbi.nlm.nih.gov/18040801/',
       referenceContent: 'Overconfident content',
     );
@@ -50,7 +52,8 @@ void main() {
       title: 'One month',
       description: 'Description',
       reference: 'Mayo Clinic - How Opioid Use Disorder Occurs',
-      link: 'https://www.mayoclinic.org/diseases-conditions/opioid-use-disorder/symptoms-causes/syc-20375440',
+      link:
+          'https://www.mayoclinic.org/diseases-conditions/opioid-use-disorder/symptoms-causes/syc-20375440',
     );
 
     expect(
