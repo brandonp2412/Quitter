@@ -32,7 +32,7 @@ void main() {
       );
 
       await $.platform.android.tap(
-        const AndroidSelector(text: 'Add to home screen'),
+        const AndroidSelector(textContains: 'Add'),
         timeout: const Duration(seconds: 10),
       );
       var openedConfiguration = false;
