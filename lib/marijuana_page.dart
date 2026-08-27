@@ -124,7 +124,7 @@ class MarijuanaPage extends StatelessWidget {
             "• Concentration difficulties\n"
             "• Sleep quality (though improving)\n\n"
             "The Significance of the 2-Week Mark\n"
-            "Passing the two-week mark is significant because it means the acute withdrawal syndrome is largely complete. The challenges beyond this point are primarily related to longer-term neurological recovery and managing the underlying reasons for cannabis use, rather than the acute physiological response to stopping.",
+            "Passing the two-week mark is significant because it means the acute withdrawal syndrome is largely complete. The challenges beyond this point are primarily related to longer-term brain recovery and managing the underlying reasons for cannabis use, rather than the acute physiological response to stopping.",
       ),
       QuitMilestone(
         day: 30,
@@ -138,15 +138,15 @@ class MarijuanaPage extends StatelessWidget {
             "One Month Without Cannabis: Memory Function Improves\n\n"
             "Source: Pope et al. (2001), Archives of General Psychiatry\n\n"
             "Cannabis and Memory: The Problem\n"
-            "This study monitored heavy, long-term cannabis users through 28 days of confirmed abstinence and compared their neuropsychological performance with light users and non-users. At the start of abstinence, and again at days 1 and 7, heavy users performed worse than controls on recall of word lists — a deficit that tracked with their urinary THC metabolite levels, reflecting recent drug exposure rather than lifetime use.\n\n"
+            "This study followed heavy, long-term cannabis users through 28 days of confirmed abstinence and compared their thinking and memory test results with light users and non-users. At the start of abstinence, and again at days 1 and 7, heavy users performed worse than controls on recall of word lists — a deficit that tracked with their urinary THC metabolite levels, reflecting recent drug exposure rather than lifetime use.\n\n"
             "The Good News: Recovery by Day 28\n"
-            "By day 28 of monitored abstinence, the study found virtually no significant differences between heavy users, light users, and non-users on any of the neuropsychological tests. There was also no significant relationship between total lifetime cannabis use and test performance at that point.\n\n"
+            "By day 28, heavy users, light users, and non-users performed virtually the same across the study's thinking and memory tests. There was also no significant relationship between total lifetime cannabis use and test performance at that point.\n\n"
             "What This Means at 30 Days\n"
             "• Verbal learning and recall have returned to control-group levels\n"
             "• The residual deficits seen in the first week have resolved\n"
             "• The remaining deficit earlier on was tied to recent exposure, not permanent damage\n\n"
             "What the Evidence Shows\n"
-            "By day 28, heavy users were virtually indistinguishable from light users and non-users across the study's neuropsychological battery. Verbal-learning and recall deficits seen in the first week had recovered to control-group levels.",
+            "By day 28, heavy users were virtually indistinguishable from light users and non-users across the study's full set of thinking and memory tests. Verbal-learning and recall deficits seen in the first week had recovered to control-group levels.",
       ),
       QuitMilestone(
         day: 60,
@@ -160,16 +160,16 @@ class MarijuanaPage extends StatelessWidget {
             "Two Months Without Cannabis: Concentration Sharpens\n\n"
             "Source: Roten et al. (2015), Addictive Behaviors\n\n"
             "The Research Question\n"
-            "This secondary analysis of a placebo-controlled cannabis-cessation trial in youth tracked cognitive test scores against urine cannabinoid testing over the roughly two-month treatment course, comparing participants who were not abstinent, recently abstinent, and consistently abstinent.\n\n"
+            "This youth cannabis-cessation study tracked memory and thinking test scores alongside urine tests over about two months, comparing continued users with people who stopped recently or stayed abstinent.\n\n"
             "Key Findings\n"
             "Consistent abstinence was associated with significant improvement in:\n"
             "• Composite memory score\n"
             "• Verbal memory specifically — the most affected domain\n"
-            "• Psychomotor performance\n\n"
+            "• Movement and reaction-speed performance\n\n"
             "At Two Months\n"
-            "By roughly eight weeks of consistent abstinence, memory and psychomotor performance scores had climbed measurably above where they sat during active use, tracking closely with confirmed non-use rather than time alone.\n\n"
+            "By roughly eight weeks of consistent abstinence, memory and movement and reaction-speed performance scores had climbed measurably above where they sat during active use, tracking closely with confirmed non-use rather than time alone.\n\n"
             "What the Study Shows\n"
-            "In adolescents and young adults with cannabis dependence, consistent abstinence produced significant gains in composite memory, verbal memory, and psychomotor performance across the roughly two-month treatment window.",
+            "In adolescents and young adults with cannabis dependence, consistent abstinence produced significant gains in composite memory, verbal memory, and movement and reaction-speed performance across the roughly two-month treatment window.",
       ),
       QuitMilestone(
         day: 90,
@@ -200,18 +200,18 @@ class MarijuanaPage extends StatelessWidget {
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3037578/",
         referenceDate: "July 2026",
         referenceContent:
-            "Six Months Without Cannabis: Executive Function Recovery\n\n"
+            "Six Months Without Cannabis: Planning and Decision-Making Recover\n\n"
             "Source: Crean, Crane & Mason (2011), Journal of Addiction Medicine\n\n"
-            "Executive Function and Cannabis\n"
-            "This review examined cannabis's impact on executive cognitive functions — attention, decision-making, inhibition, working memory, and verbal fluency — across three windows: acute effects (0–6 hours), residual effects (7 hours to 20 days), and long-term effects (21+ days and beyond). It doesn't define a six-month benchmark specifically, but by that point you are well into its 'long-term' window.\n\n"
+            "Planning and Decision-Making After Cannabis\n"
+            "This review examined attention, decision-making, self-control, working memory, and verbal fluency from the first hours after use through long-term abstinence. By six months, you are far beyond the short-term effects and deep into the recovery period.\n\n"
             "What the Research Found\n"
-            "Several deficits linked to heavy use recede with sustained abstinence, and some cited studies found recovery on certain measures by 28 days off cannabis. But the review is careful to flag deficits that don't reliably resolve, including:\n"
+            "Several problems linked to heavy use recede with sustained abstinence, with some studies finding recovery by 28 days. The slowest areas to recover after heavy, early-onset use include:\n"
             "• Decision-making and risk-taking — specifically flagged as domains where deficits can persist long-term in heavy, chronic users\n"
             "• Abstract reasoning and verbal skills — particularly impaired in adults who began using before age 17\n\n"
             "Early-Onset Recovery\n"
-            "Six months is far beyond the acute and residual-effect windows in this review. Many executive deficits recede with sustained abstinence, while early-onset heavy users can retain longer-lived decision-making and reasoning effects — making abstinence the strongest available route to continued cognitive recovery.\n\n"
+            "Six months is far beyond the short-term effects in this review. Planning, decision-making, and reasoning keep improving with sustained abstinence, making continued abstinence the strongest route to further recovery.\n\n"
             "The Broader Picture\n"
-            "For adult-onset, lighter use, the outlook is more favourable — many people at six months report clearer thinking, steadier decision-making, and a stronger sense of self-direction. The review's caution is mainly aimed at heavy, early-onset users.",
+            "For adult-onset, lighter use, the outlook is more favourable — many people at six months report clearer thinking, steadier decision-making, and a stronger sense of self-direction. The biggest gains come from staying abstinent, especially after heavy or early-onset use.",
       ),
       QuitMilestone(
         day: 365,
@@ -225,13 +225,13 @@ class MarijuanaPage extends StatelessWidget {
             "One Year Without Cannabis: Brain Structure Recovers\n\n"
             "Source: \"Hippocampal harms, protection and recovery following regular cannabis use,\" Translational Psychiatry (2016), on PubMed Central\n\n"
             "Structural Changes from Cannabis\n"
-            "This neuroimaging study examined the hippocampus — a memory-critical, CB1-receptor-dense region — in cannabis users, former users, and non-users. Current users not exposed to CBD had roughly 11% smaller hippocampal volumes and 15% lower NAA (a marker of neuronal integrity) than controls.\n\n"
+            "This brain-scan study examined the hippocampus, a brain area central to memory, in current users, former users, and non-users. Current users not exposed to CBD had a hippocampus about 11% smaller and a brain-cell health marker about 15% lower than controls.\n\n"
             "The Key Finding: Recovery With Abstinence\n"
-            "Curve-fitting analyses supported a \"protection and recovery\" model. Crucially, former users — abstinent for an average of around 29 months — did not differ from non-using controls on any integrity measure. The authors conclude that THC-related hippocampal harms \"can be recovered with extended periods of abstinence.\"\n\n"
+            "Curve-fitting analyses supported a \"protection and recovery\" model. Crucially, former users — abstinent for an average of around 29 months — did not differ from non-using controls on any integrity measure. The authors conclude that THC-related memory-area harms \"can be recovered with extended periods of abstinence.\"\n\n"
             "Brain Recovery Over a Year and Beyond\n"
-            "At one year cannabis-free, you are well into this recovery trajectory: hippocampal volume and neuronal integrity move back toward normal, supporting memory and emotional regulation.\n\n"
+            "At one year cannabis-free, the brain's memory system is well into recovery: hippocampus size and brain-cell health are moving back toward normal, supporting memory and emotional control.\n\n"
             "Recovery Signal\n"
-            "Former users abstinent for an average of roughly 29 months did not differ from non-using controls on hippocampal integrity measures. At one year, hippocampal volume and neuronal integrity are already moving along that documented protection-and-recovery trajectory toward normal.",
+            "Former users abstinent for about 29 months matched non-users on the study's hippocampus health measures. At one year, the memory system is already moving along that documented recovery path toward normal.",
       ),
     ];
   }

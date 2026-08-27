@@ -71,7 +71,7 @@ class KratomPage extends StatelessWidget {
         link: "https://nida.nih.gov/research-topics/kratom",
         referenceDate: "June 2026",
         referenceContent:
-            "Three Months Off Kratom\n\nSource: National Institute on Drug Abuse (NIDA), \"Kratom\"\n\nA Steadier Baseline\nSpecific research on a 'three month' kratom recovery milestone doesn't exist, but NIDA's description of kratom's action on opioid receptors supports the general expectation that sustained abstinence gives the reward and stress systems more time to settle. Many people report clearer thinking and steadier motivation the further they get from active use.\n\nWhy It Matters\nThe less recent the use, the more the day-to-day pull of kratom tends to fade — making this milestone a solid foundation for lasting recovery.",
+            "Three Months Off Kratom\n\nSource: National Institute on Drug Abuse (NIDA), \"Kratom\"\n\nA Steadier Day-to-Day State\nKratom acts on opioid receptors, so three months without it gives the brain's reward and stress systems sustained time to settle. Many people report clearer thinking and steadier motivation the further they get from active use.\n\nWhy It Matters\nThe less recent the use, the more the day-to-day pull of kratom tends to fade — making this milestone a solid foundation for lasting recovery.",
       ),
       QuitMilestone(
         day: 365,

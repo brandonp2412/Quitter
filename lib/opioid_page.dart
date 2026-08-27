@@ -67,7 +67,7 @@ class OpioidPage extends StatelessWidget {
             "• Cravings\n"
             "• Anxiety\n\n"
             "Post-Acute Withdrawal\n"
-            "Beyond the acute syndrome, many people experience a protracted phase — ongoing sleep disturbance, mood instability, and episodic cravings that can last weeks to months. This phase is when many relapses occur, which is why continued support matters.\n\n"
+            "After the first withdrawal period, sleep problems, changing mood, and waves of craving can continue for weeks or months. Continued support matters most during this longer recovery phase.\n\n"
             "Opioid Agonist Treatment\n"
             "The WHO guidelines describe methadone and buprenorphine as effective treatments that reduce withdrawal severity and support recovery. These medications also reduce mortality from opioid use disorder, and many people in successful long-term recovery use them throughout the early recovery phase.",
       ),
@@ -96,7 +96,7 @@ class OpioidPage extends StatelessWidget {
             "• Deep slow-wave sleep is beginning to recover\n"
             "• REM sleep is returning to normal proportion\n"
             "• Sleep onset is becoming more reliable\n\n"
-            "Sleep remains a significant challenge for many people at two weeks, but the trajectory is clearly improving. Better sleep directly improves mood, reduces cravings, and supports the cognitive function needed for recovery.",
+            "Sleep remains a significant challenge for many people at two weeks, but the trajectory is clearly improving. Better sleep directly improves mood, reduces cravings, and supports the clear thinking needed for recovery.",
       ),
       QuitMilestone(
         day: 30,
@@ -107,18 +107,18 @@ class OpioidPage extends StatelessWidget {
             "https://www.mayoclinic.org/diseases-conditions/prescription-drug-abuse/in-depth/how-opioid-addiction-occurs/art-20360372",
         referenceDate: "June 2026",
         referenceContent:
-            "One Month Off Opioids: Cognitive Function Begins Recovery\n\n"
+            "One Month Off Opioids: Thinking and Memory Begin to Recover\n\n"
             "Source: Mayo Clinic\n\n"
             "Understanding Opioid Use Disorder\n"
-            "The Mayo Clinic explains how opioid use disorder develops through changes in the brain: opioids bind to mu-opioid receptors throughout the brain and body, producing analgesia, euphoria, and sedation. With repeated use, the brain adapts — reducing receptor sensitivity (tolerance) and suppressing the brain's own opioid production. This creates physical dependence.\n\n"
-            "Cognitive Recovery at One Month\n"
-            "At 30 days of abstinence, meaningful cognitive recovery has occurred. The brain fog of acute withdrawal has cleared, and the prefrontal cortex — severely impaired by chronic opioid use — is recovering function:\n"
+            "The Mayo Clinic explains that opioids attach to receptors throughout the brain and body, producing pain relief, euphoria, and sleepiness. With repeated use, the brain responds less strongly and makes fewer of its own opioid-like chemicals. That creates physical dependence.\n\n"
+            "Thinking and Memory at One Month\n"
+            "At 30 days, meaningful recovery in thinking and memory has occurred. The worst brain fog has cleared, and the front of the brain — which handles planning and self-control — is recovering:\n"
             "• Decision-making is improving\n"
             "• Working memory is recovering\n"
             "• Processing speed increasing\n"
             "• Concentration more reliable\n\n"
             "The Endorphin System\n"
-            "The Mayo Clinic's explanation of opioid neurochemistry highlights how long it takes for the natural endorphin system to recover. At one month, this process is genuinely underway — the brain is producing more of its own opioids and receptor sensitivity is recovering — but it is not complete. This explains why some emotional flatness and reduced pain tolerance persist at 30 days.\n\n"
+            "At one month, the brain's natural endorphin system is actively recovering: it is producing more of its own opioid-like chemicals and responding more normally again. Emotional flatness and lower pain tolerance keep improving as that recovery continues.\n\n"
             "Relapse Prevention\n"
             "The Mayo Clinic emphasises that one month of sobriety does not mean the risk of relapse has passed — it remains elevated. Tolerance has dropped significantly, meaning that relapse using previous doses carries serious overdose risk.",
       ),
@@ -135,7 +135,7 @@ class OpioidPage extends StatelessWidget {
             "Two Months Off Opioids: The Brain's Stress Circuits Begin to Settle\n\n"
             "Source: \"Neuroplasticity of the extended amygdala in opioid withdrawal and prolonged opioid abstinence,\" Frontiers in Pharmacology (2023)\n\n"
             "Where the Negative Feelings Come From\n"
-            "This review maps the neuroadaptations in the extended amygdala — the brain's hub for fear, stress, and aversion. Chronic opioids push this system into an 'allostatic' state: during withdrawal the central amygdala and bed nucleus become hyperexcitable and the nucleus accumbens shell becomes 'hypodopaminergic' (with reduced dendritic spine density), driving the anxiety, dysphoria, and craving of early abstinence.\n\n"
+            "This review maps how long-term opioid use changes the brain's stress and fear circuits. During withdrawal, these circuits become overactive while dopamine signalling in reward circuits drops. That combination helps explain anxiety, low mood, and cravings in early recovery.\n\n"
             "Why Two Months Brings Relief\n"
             "Crucially, the review documents that some of these changes are reversible. In animal models the loss of spine density in the accumbens shell is described as 'an enduring but reversible decrease,' returning toward pre-drug values over a couple of weeks. As these stress and reward circuits re-regulate, the mechanistic basis for early-recovery emotional turmoil eases — consistent with the reduced reactivity and steadier mood many people report by around two months.\n\n"
             "Recovery Signal\n"
@@ -153,7 +153,7 @@ class OpioidPage extends StatelessWidget {
             "Three Months Off Opioids: Reward Chemistry Starting to Recover\n\n"
             "Source: \"Structural and Functional Brain Recovery in Individuals with Substance Use Disorders During Abstinence: A Review of Longitudinal Neuroimaging Studies,\" Drug and Alcohol Dependence (2022), on PubMed Central\n\n"
             "Dopamine and Opioids\n"
-            "Opioids drive dopamine release in the brain's reward circuits. Chronic use leaves the system depleted — heroin users in one imaging study started with striatal dopamine-transporter levels about 30% below healthy controls, which helps explain the anhedonia (loss of pleasure) of opioid use disorder and early recovery.\n\n"
+            "Opioids drive dopamine release in the brain's reward system. Long-term use leaves that system depleted: in one brain-scan study, proteins that recycle dopamine were about 30% below healthy levels at the start. That helps explain the loss of pleasure seen in opioid use disorder and early recovery.\n\n"
             "Recovery Is Gradual\n"
             "This review gathered the longitudinal studies that re-scanned the same people over abstinence. The dopamine-transporter deficit recovered by roughly 20% over 6–12 months of abstinence, and some frontal grey-matter and white-matter abnormalities seen in early withdrawal were no longer detectable after about a month. At three months you are early on that recovery curve: the reward and frontal systems are measurably mending, but have not finished.\n\n"
             "What People Experience\n"
@@ -176,15 +176,15 @@ class OpioidPage extends StatelessWidget {
             "Six Months Off Opioids: The Immune System Begins to Recover\n\n"
             "Source: \"Effects of opioid tolerance and withdrawal on the immune system,\" Journal of Neuroimmune Pharmacology (2006), on PubMed\n\n"
             "Opioids and the Immune System\n"
-            "This review documents that opioids are clearly immunosuppressive. Chronic use suppresses immunity through several mechanisms:\n"
+            "This review shows that long-term opioid use weakens the immune system in several ways:\n"
             "• Direct opioid action on immune cells (T cells, NK cells, macrophages)\n"
-            "• Dysregulation of cytokine production\n"
-            "• Disruption of the hypothalamic-pituitary-adrenal (HPA) axis\n"
+            "• Disrupted immune-signalling chemicals\n"
+            "• Disruption of the hypodeep-brain-pituitary-adrenal (HPA) axis\n"
             "• Increased susceptibility to infection\n\n"
             "Recovery Signal\n"
-            "Chronic opioids suppress multiple immune pathways, and abstinence removes that continuing immunosuppressive drive. By six months the immune system has had half a year without repeated opioid suppression and is actively rebuilding toward baseline.\n\n"
+            "Long-term opioids suppress several parts of the immune system. By six months off opioids, that constant suppression has been gone for half a year and immune function is actively rebuilding toward normal.\n\n"
             "What Six Months Means\n"
-            "Six months of abstinence removes the ongoing immunosuppressive drive of active opioid use and gives immune-cell, cytokine, and stress-axis function sustained time to recover toward baseline.\n\n"
+            "Six months without opioids gives immune cells, immune signalling, and the body's stress system sustained time to recover toward normal.\n\n"
             "Why This Still Matters\n"
             "This is particularly relevant for people who injected opioids, who faced added infection risks such as HIV and hepatitis C. Removing opioids, improving nutrition, and maintaining abstinence give the immune system the conditions it needs to keep recovering.",
       ),
@@ -201,7 +201,7 @@ class OpioidPage extends StatelessWidget {
             "Source: \"Structural and Functional Brain Recovery in Individuals with Substance Use Disorders During Abstinence: A Review of Longitudinal Neuroimaging Studies,\" Drug and Alcohol Dependence (2022), on PubMed Central\n\n"
             "What the Human Imaging Shows\n"
             "This review gathered the studies that scanned the same people with opioid use disorder more than once across abstinence. The findings point consistently toward recovery:\n"
-            "• Striatal dopamine-transporter levels, about 30% below normal at baseline, rose by roughly 20% over 6–12 months of abstinence\n"
+            "• Dopamine-recycling proteins in reward and movement areas, about 30% below normal at the start, rose by roughly 20% over 6–12 months off opioids\n"
             "• Frontal grey-matter abnormalities present in early withdrawal were no longer detectable after about a month of abstinence\n"
             "• White-matter (frontal and cingulate) and resting-state frontal activity also began to re-normalise within the first month\n\n"
             "Where One Year Sits\n"

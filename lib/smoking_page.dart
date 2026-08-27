@@ -66,7 +66,7 @@ class SmokingPage extends StatelessWidget {
             "• Headaches\n"
             "• Increased appetite\n"
             "• Coughing (the airways are clearing — a good sign)\n\n"
-            "This is the hardest day. It doesn't get worse than this — from here the symptoms steadily ease as your brain recalibrates.\n\n"
+            "This is the hardest day. It doesn't get worse than this — from here the symptoms steadily ease as your brain readjusts.\n\n"
             "NRT, varenicline, and bupropion all significantly reduce withdrawal severity at this stage.",
       ),
       QuitMilestone(

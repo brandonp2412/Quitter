@@ -36,7 +36,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get kratomMilestone1Description =>
-      'Kratom acts on opioid receptors, so within 6–12 hours of your last dose you may feel restlessness, anxiety, sweating, runny nose, and muscle aches. This is your nervous system beginning to recalibrate.';
+      'Kratom acts on opioid receptors, so within 6–12 hours of your last dose you may feel restlessness, anxiety, sweating, runny nose, and muscle aches. This is your nervous system beginning to adjust.';
 
   @override
   String get kratomMilestone3Title => 'Peak Withdrawal';
@@ -131,7 +131,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get gabapentinoidsMilestone14Description =>
-      'Two weeks in, sleep and baseline anxiety are improving as the nervous system adapts to functioning without the drug.';
+      'Two weeks in, sleep and your usual anxiety levels are improving as the nervous system adapts to functioning without the drug.';
 
   @override
   String get gabapentinoidsMilestone30Title => 'One Month Clear';
@@ -210,21 +210,21 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get ghbMilestone30Description =>
-      'At a month the acute danger is well behind you. Protracted symptoms — anxiety, sleep problems, low mood — may persist but are improving.';
+      'At a month the dangerous early withdrawal period is well behind you. Lingering anxiety, sleep problems, and low mood are continuing to improve.';
 
   @override
-  String get ghbMilestone90Title => 'Protracted Symptoms Fading';
+  String get ghbMilestone90Title => 'Lingering Symptoms Fading';
 
   @override
   String get ghbMilestone90Description =>
-      'Three months on, protracted anxiety, sleep, and mood symptoms are easing as the brain\'s GABA systems re-regulate.';
+      'Three months on, lingering anxiety, sleep, and mood symptoms are easing as the brain\'s calming GABA system settles.';
 
   @override
   String get ghbMilestone180Title => 'Half a Year Free';
 
   @override
   String get ghbMilestone180Description =>
-      'Six months free of GHB. The protracted withdrawal has largely resolved and your baseline mood, sleep, and cognition are restored.';
+      'Six months free of GHB. Lingering withdrawal has largely resolved, and mood, sleep, and clear thinking are back to normal.';
 
   @override
   String get ketaminePageTitle => 'Ketamine Recovery';
@@ -244,7 +244,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get ketamineInfoBox =>
-      'Ketamine withdrawal is mainly psychological — cravings, low mood, and cognitive fog rather than physical illness. Its biggest physical harm is bladder damage (ketamine cystitis), and stopping is the essential first step toward bladder recovery.';
+      'Ketamine withdrawal is mainly cravings, low mood, and brain fog rather than physical illness. Its biggest physical harm is bladder damage, and stopping is the essential first step toward recovery.';
 
   @override
   String get addictionKetamine => 'Ketamine';
@@ -261,10 +261,10 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get ketamineMilestone7Description =>
-      'The first week is mostly about psychological withdrawal — cravings, low or swinging mood, and cognitive fog — rather than physical symptoms.';
+      'The first week is mostly about cravings, low or swinging mood, and brain fog rather than physical withdrawal.';
 
   @override
-  String get ketamineMilestone14Title => 'Cognitive Fog Lifting';
+  String get ketamineMilestone14Title => 'Brain Fog Lifting';
 
   @override
   String get ketamineMilestone14Description =>
@@ -275,14 +275,14 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get ketamineMilestone30Description =>
-      'At a month, in early-stage cases bladder symptoms often begin to improve with cessation alone. Mood and cognition are clearer.';
+      'At a month, early bladder damage often starts improving after you stop. Mood and thinking are clearer.';
 
   @override
   String get ketamineMilestone90Title => 'Three Months On';
 
   @override
   String get ketamineMilestone90Description =>
-      'Three months of abstinence allows continued bladder recovery and steady cognitive and emotional improvement. Cravings are less frequent.';
+      'Three months without ketamine gives the bladder more time to heal, while thinking and mood keep improving. Cravings are less frequent.';
 
   @override
   String get ketamineMilestone180Title => 'Half a Year Free';
@@ -296,7 +296,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get ketamineMilestone365Description =>
-      'A year free of ketamine. Cognition, mood, and — where damage was caught early — bladder function have had the longest time to recover.';
+      'A year free of ketamine. Thinking, mood, and — when bladder damage was caught early — bladder function have had a full year to recover.';
 
   @override
   String get inhalantsPageTitle => 'Inhalants Recovery';
@@ -340,14 +340,14 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get inhalantsMilestone14Description =>
-      'By two weeks the acute withdrawal has typically resolved. Mood is steadier, though cognitive fog and fatigue can persist.';
+      'By two weeks the early withdrawal period has usually ended. Mood is steadier, though brain fog and tiredness can linger.';
 
   @override
   String get inhalantsMilestone30Title => 'One Month — Brain Recovering';
 
   @override
   String get inhalantsMilestone30Description =>
-      'At a month the brain is past acute disruption and beginning the slow work of cognitive recovery. Clarity and mood improve.';
+      'At a month the worst early effects are behind you and thinking and memory are recovering. Clarity and mood improve.';
 
   @override
   String get inhalantsMilestone90Title => 'Three Months On';
@@ -502,7 +502,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get mdmaMilestone30Description =>
-      'At a month, mood and cognition are markedly steadier. Serotonin transporter levels recover with continued abstinence.';
+      'At a month, mood and thinking are much steadier. The brain\'s serotonin-recycling system continues to recover while you stay off MDMA.';
 
   @override
   String get mdmaMilestone90Title => 'Three Months On';
@@ -537,7 +537,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get steroidsInfoBox =>
-      'Stopping anabolic steroids leaves the body in a hormone deficit (low testosterone) until the HPTA recovers — usually over months, but sometimes longer. Depression and low libido during this phase are common; severe depression or suicidal thoughts need urgent medical care.';
+      'Stopping anabolic steroids leaves testosterone low until the body restarts its own hormone production — usually over months, but sometimes longer. Depression and low libido are common during this phase; severe depression or suicidal thoughts need urgent medical care.';
 
   @override
   String get addictionSteroids => 'Anabolic Steroids';
@@ -561,21 +561,21 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get steroidsMilestone30Description =>
-      'At a month the HPTA is beginning to restart. Gonadotropins and testosterone are starting to rise, though symptoms often persist.';
+      'At a month, your brain–testes hormone system is restarting. The hormones that drive testosterone and testosterone itself are beginning to rise, though low mood, libido, or energy can still linger.';
 
   @override
   String get steroidsMilestone90Title => 'Three Months — Hormones Climbing';
 
   @override
   String get steroidsMilestone90Description =>
-      'Three months in, gonadotropins and testosterone are climbing toward normal for most people, and mood and libido begin to follow.';
+      'Three months in, testosterone and the hormones that drive it are climbing toward normal for most people, and mood and libido often improve with them.';
 
   @override
   String get steroidsMilestone180Title => 'Six Months — Often Recovered';
 
   @override
   String get steroidsMilestone180Description =>
-      'By six months many people have near-complete biochemical recovery, with testosterone and gonadotropins back in range and symptoms resolving.';
+      'By six months many people have strong hormone recovery, with testosterone and its control hormones back in range and symptoms easing.';
 
   @override
   String get steroidsMilestone365Title => 'One Year On';
@@ -585,11 +585,11 @@ class AppLocalizationsEn extends AppLocalizations {
       'A year off steroids. For most, hormones and mood have normalised; persistent low testosterone past this point warrants specialist assessment.';
 
   @override
-  String get steroidsMilestone730Title => 'Two Years — A New Baseline';
+  String get steroidsMilestone730Title => 'Two Years — A New Normal';
 
   @override
   String get steroidsMilestone730Description =>
-      'Two years off steroids. Your hormones reflect your natural baseline; any continued deficit should be managed with a specialist.';
+      'Two years off steroids. Your hormones now reflect your body\'s natural levels; ongoing low-testosterone symptoms should be checked by a specialist.';
 
   @override
   String get appTitle => 'Quitter';
@@ -656,7 +656,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get adderallMilestone60Title =>
-      'Two Months: Cognitive Function Improving';
+      'Two Months: Thinking and Memory Improving';
 
   @override
   String get adderallMilestone60Description =>
@@ -675,7 +675,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get adderallMilestone180Description =>
-      'Dopamine receptors continue restoring to normal function. You\'re experiencing sustained improvements in cognitive performance, emotional wellbeing, and overall quality of life. Your brain is getting stronger every day.';
+      'Dopamine signalling continues to recover. Focus, memory, mood, and day-to-day quality of life keep improving.';
 
   @override
   String get adderallMilestone365Title => 'One Year: Near-Complete Recovery';
@@ -741,11 +741,11 @@ class AppLocalizationsEn extends AppLocalizations {
       'Around 3 months, many physical withdrawal symptoms have significantly improved. Your body is continuing to adjust to functioning without medication. Anxiety and mood may still fluctuate, but overall functioning improves.';
 
   @override
-  String get benzoMilestone180Title => 'Cognitive Function Begins Recovery';
+  String get benzoMilestone180Title => 'Thinking and Memory Begin to Recover';
 
   @override
   String get benzoMilestone180Description =>
-      'At 6 months, noticeable improvements in memory, attention, and cognitive function begin to emerge. Research shows modest recovery in many cognitive areas, though full restoration takes longer. Your brain\'s natural abilities are gradually returning.';
+      'At six months, memory and attention show measurable improvement. Research finds recovery across many thinking skills, with gains continuing beyond six months.';
 
   @override
   String get benzoMilestone365Title => 'One Year of Healing';
@@ -759,21 +759,21 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get benzoMilestone540Description =>
-      'At 18 months, continued cognitive improvements occur. GABA receptor function normalizes within 2-6 months of cessation, and brain structure begins recovering. Neuroplasticity allows your brain to form new, healthier neural pathways.';
+      'At 18 months, memory, attention, and clear thinking keep improving. The brain\'s calming GABA system has had well over a year to settle, while the brain continues building healthier patterns.';
 
   @override
   String get benzoMilestone730Title => 'Two Years: Major Progress';
 
   @override
   String get benzoMilestone730Description =>
-      'Two years marks substantial recovery. Most people experience significant improvements in cognitive function, emotional regulation, and quality of life. While some may still experience gradual improvements, many have returned to pre-benzodiazepine functioning.';
+      'Two years marks substantial recovery. Most people have much clearer thinking, steadier emotions, and a much better quality of life than during long-term benzodiazepine use.';
 
   @override
   String get benzoMilestone1095Title => 'Three Years: Long-Term Recovery';
 
   @override
   String get benzoMilestone1095Description =>
-      'At three years, physical brain structure recovery reaches completion for most individuals. Hippocampal and amygdala volumes continue normalizing through neuroplasticity. You\'ve achieved lasting recovery and rebuilt a healthier foundation for life.';
+      'At three years, the long withdrawal period is far behind most people. Sleep, mood, memory, and attention have had years to recover, and day-to-day life is typically far better than during long-term use.';
 
   @override
   String get addictionMeth => 'Meth';
@@ -830,7 +830,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get methMilestone90Description =>
-      'Your brain is actively working to restore normal function. Cognitive improvements become noticeable in areas like attention and decision-making. This period marks significant neurological recovery as your reward system starts to normalize.';
+      'Your brain is actively recovering. Attention, memory, and decision-making start to feel better as the reward system moves toward normal.';
 
   @override
   String get methMilestone180Title => 'Six Months - Cardiovascular Recovery';
@@ -844,21 +844,21 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get methMilestone365Description =>
-      'Dopamine system recovery reaches significant milestones. Your brain\'s ability to experience pleasure from natural rewards improves substantially. Cognitive function, mood regulation, and decision-making show marked improvements.';
+      'After a year, the dopamine system has made major gains. Natural rewards feel more rewarding again, while mood, memory, and decision-making are markedly better.';
 
   @override
   String get methMilestone420Title => '14 Months - Dopamine Normalization';
 
   @override
   String get methMilestone420Description =>
-      'Brain imaging studies show dopamine transporter levels approaching normal at this stage. This represents the most significant phase of neurological recovery, with improvements in memory, motivation, and the ability to feel pleasure from everyday activities.';
+      'Brain scans show dopamine-recycling proteins approaching healthy levels around this stage. Memory, motivation, and the ability to enjoy everyday activities continue to improve.';
 
   @override
   String get methMilestone730Title => 'Two Years - Sustained Recovery';
 
   @override
   String get methMilestone730Description =>
-      'Long-term abstinence allows for continued brain healing. Attention and mood typically rebound within 12-18 months for most people. Your cognitive function, emotional regulation, and overall quality of life continue improving with sustained recovery.';
+      'Two years without meth gives the brain sustained time to heal. Attention, mood, memory, and day-to-day quality of life continue to improve.';
 
   @override
   String get addictionNitrousOxide => 'Nitrous Oxide';
@@ -885,7 +885,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get nitrousOxideMilestone1Description =>
-      'The gas leaves your system within minutes, but the healing takes longer. Dizziness settles, headaches ease, and your brain starts recalibrating without the dopamine shortcut. Your B12 recovery begins now.';
+      'The gas leaves your system within minutes, but healing takes longer. Dizziness settles, headaches ease, and your brain starts adjusting without the dopamine shortcut. Your B12 recovery begins now.';
 
   @override
   String get nitrousOxideMilestone3Title => 'Day 3 - No Physical Withdrawal';
@@ -993,14 +993,14 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get cocaineMilestone90Description =>
-      'Your brain is actively restoring dopamine receptors and neural pathways. You\'ll likely notice improvements in focus, decision-making, and emotional regulation. Cognitive function is significantly improved.';
+      'Your dopamine system is recovering. Focus, decision-making, and emotional control are markedly better, and thinking is clearer.';
 
   @override
-  String get cocaineMilestone180Title => 'Six Months - Cognitive Gains';
+  String get cocaineMilestone180Title => 'Six Months - Clearer Thinking';
 
   @override
   String get cocaineMilestone180Description =>
-      'Brain imaging studies show increased gray matter volume in the prefrontal cortex at this stage. Your executive function, memory, and impulse control continue to strengthen. You\'re thinking more clearly.';
+      'Brain scans show recovery in the front of the brain, the area that supports planning and self-control. Memory, impulse control, and clear thinking continue to strengthen.';
 
   @override
   String get cocaineMilestone365Title => 'One Year - Cardiovascular Health';
@@ -1957,7 +1957,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get alcoholMilestone14Description =>
-      'Rapid recovery of brain volume begins within the first two weeks of abstinence. Research shows evidence of brain tissue recovery starting around 14 days, though full cognitive function continues improving over months.';
+      'Brain volume begins recovering within the first two weeks. Thinking and memory keep improving over the following months.';
 
   @override
   String get alcoholMilestone30Title => 'Blood Pressure Normalizes';
@@ -1975,11 +1975,11 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get alcoholMilestone90Title =>
-      'Cognitive Function Substantially Improves';
+      'Thinking and Memory Improve Substantially';
 
   @override
   String get alcoholMilestone90Description =>
-      'Significant cognitive recovery occurs over the first 3 months. Studies show people who maintain abstinence continue to recover cognitive function over several months, with measurable improvements in memory, concentration, and decision-making.';
+      'The first three months bring major gains in memory, concentration, and decision-making, with recovery continuing across the following months.';
 
   @override
   String get alcoholMilestone180Title =>
@@ -1987,7 +1987,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get alcoholMilestone180Description =>
-      'Six months of sobriety allows for continued neural recovery. Research indicates that brain volume continues to increase and cognitive abilities continue improving significantly during this period of sustained abstinence.';
+      'Six months sober gives the brain sustained time to recover. Brain volume and thinking skills continue to improve.';
 
   @override
   String get alcoholMilestone365Title => 'Cancer Risk Reduction May Begin';
@@ -2099,14 +2099,14 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get vapingMilestone60Description =>
-      'Plot twist: vaping was making your anxiety problems worse, not better! Two months in and your baseline anxiety levels are significantly lower. Your nervous system is finally chilling out.';
+      'Plot twist: vaping was making anxiety worse, not better! Two months in, your usual anxiety level is lower and your nervous system is settling.';
 
   @override
-  String get vapingMilestone90Title => 'Cognitive Function Sharpens';
+  String get vapingMilestone90Title => 'Focus and Memory Sharpen';
 
   @override
   String get vapingMilestone90Description =>
-      'Brain fog has officially left the building! Three months without nicotine and your cognitive function, focus, and memory are significantly improved. It\'s like upgrading your mental RAM.';
+      'Brain fog has left the building! Three months without nicotine and your focus, memory, and clear thinking are markedly better. It\'s like upgrading your mental RAM.';
 
   @override
   String get vapingMilestone180Title => 'Oral Health Recovery';
@@ -2169,21 +2169,22 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get marijuanaMilestone90Description =>
-      'Emotional equilibrium restored! Three months of abstinence brings significant improvements in mood regulation, decreased anxiety levels, and better stress management. Your emotional baseline is normalizing.';
+      'Three months without cannabis brings steadier mood, less anxiety, and better stress control. Your emotional state is settling into a healthier normal.';
 
   @override
-  String get marijuanaMilestone180Title => 'Executive Function Recovery';
+  String get marijuanaMilestone180Title =>
+      'Planning and Decision-Making Recover';
 
   @override
   String get marijuanaMilestone180Description =>
-      'Your mental CEO is back in charge! Six months without cannabis shows substantial improvement in executive functions - planning, decision-making, and problem-solving abilities are significantly enhanced.';
+      'Your mental CEO is back in charge! Six months without cannabis brings major gains in planning, decision-making, and problem-solving.';
 
   @override
   String get marijuanaMilestone365Title => 'Brain Structure Restoration';
 
   @override
   String get marijuanaMilestone365Description =>
-      'Neural architecture rebuilt! One year of abstinence allows significant recovery of brain regions affected by chronic cannabis use. Cognitive improvements become your new normal, with lasting benefits to learning and memory.';
+      'One year without cannabis gives memory-related brain areas substantial time to recover. Learning and memory improvements are now part of your new normal.';
 
   @override
   String get opioidMilestone1Title => 'Acute Withdrawal Begins';
@@ -2208,11 +2209,11 @@ class AppLocalizationsEn extends AppLocalizations {
       'Sweet dreams are making a comeback! Two weeks in, your natural sleep architecture begins to restore. Opioids disrupt REM sleep, but your brain is learning to dream naturally again.';
 
   @override
-  String get opioidMilestone30Title => 'Cognitive Function Begins Recovery';
+  String get opioidMilestone30Title => 'Thinking and Memory Begin to Recover';
 
   @override
   String get opioidMilestone30Description =>
-      'Brain fog is starting to lift! One month clean and your cognitive function, decision-making, and memory are beginning to improve. Your prefrontal cortex is healing from opioid-induced changes.';
+      'Brain fog is lifting! One month clean and memory, decision-making, and clear thinking are improving as the front of the brain recovers from opioid-related changes.';
 
   @override
   String get opioidMilestone60Title => 'Emotional Regulation Improves';
@@ -2301,7 +2302,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get socialMediaMilestone90Description =>
-      'Three months = roughly 270+ hours reclaimed! That\'s enough time to learn a new skill, read 15+ books, or master that hobby you always said you\'d try \'someday.\' Neuroplasticity research shows your brain is literally rewiring for these new awesome habits!';
+      'Three months = roughly 270+ hours reclaimed! That\'s enough time to learn a skill, read 15+ books, or get deep into a hobby. Your brain strengthens the habits you repeat, so those offline routines are becoming easier and more automatic.';
 
   @override
   String get socialMediaMilestone180Title =>
@@ -2351,7 +2352,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get nicotinePouchesMilestone30Description =>
-      'Plot twist: nicotine actually increases stress between uses! Your cortisol levels and stress response are now returning to baseline. Real relaxation, not the nicotine fake-out.';
+      'Plot twist: nicotine actually increases stress between uses! Your cortisol and stress response are returning to normal. Real relaxation, not the nicotine fake-out.';
 
   @override
   String get nicotinePouchesMilestone60Title => 'Sleep Quality Improves';
@@ -2531,7 +2532,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get ssriMilestone3Description =>
-      'Discontinuation symptoms typically peak around days 2–4. SSRIs block serotonin reuptake; when removed, the brain needs time to restore natural receptor sensitivity. Expect flu-like symptoms, dizziness, insomnia, nausea, and the characteristic \'brain zaps\'. Paroxetine tends to produce the most intense symptoms; fluoxetine, with its very long half-life, self-tapers and is typically the mildest.';
+      'Withdrawal symptoms often peak around days 2–4. SSRIs change how serotonin is recycled, so the brain needs time to adjust after you stop. Expect flu-like symptoms, dizziness, insomnia, nausea, and \'brain zaps\'. Paroxetine tends to cause stronger withdrawal; fluoxetine lasts much longer in the body and is usually milder.';
 
   @override
   String get ssriMilestone7Title => 'One Week: Acute Phase Beginning to Ease';
@@ -2560,7 +2561,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get ssriMilestone90Description =>
-      'Three months is a major recovery milestone. SERT occupancy returns to baseline within weeks, but post-synaptic 5-HT1A receptor sensitivity takes 2–3 months to substantially recover. Most people find mood, anxiety, and cognitive function are meaningfully improved at this point.';
+      'Three months is a major recovery milestone. The serotonin system has had months to adjust after the medicine is gone. Mood, anxiety, focus, and clear thinking are meaningfully better for most people.';
 
   @override
   String get ssriMilestone180Title => 'Six Months: Long-Term Brain Adjustment';
@@ -2611,7 +2612,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get snriMilestone7Title =>
-      'One Week: Dual Neurotransmitter Adjustment';
+      'One Week: Two Brain-Chemical Systems Adjusting';
 
   @override
   String get snriMilestone7Description =>
@@ -2637,7 +2638,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get snriMilestone90Description =>
-      'Three months is a major recovery milestone. Both SERT and NET (norepinephrine transporter) have normalised. Research shows cognitive function, mood regulation, and anxiety are meaningfully improved for the majority of people who completed a supervised taper.';
+      'Three months is a major recovery milestone. The serotonin and noradrenaline systems have had months to adjust. Mood, anxiety, focus, and clear thinking are meaningfully better after a supervised taper.';
 
   @override
   String get snriMilestone180Title => 'Six Months: Neurological Recovery';
@@ -2679,18 +2680,18 @@ class AppLocalizationsEn extends AppLocalizations {
   String get tcaSubtitleNotStarted => 'See what happens when you taper off';
 
   @override
-  String get tcaMilestone3Title => 'Day 3: Cholinergic Rebound Peaks';
+  String get tcaMilestone3Title => 'Day 3: Acetylcholine Rebound Peaks';
 
   @override
   String get tcaMilestone3Description =>
-      'Tricyclics (TCAs) have strong anticholinergic effects — they block acetylcholine receptors. When stopped, cholinergic rebound occurs as the acetylcholine system becomes temporarily overactive. Symptoms include nausea, diarrhoea, abdominal cramps, excessive sweating, headache, muscle aches, and insomnia — distinct from the SSRI FINISH syndrome and reflecting the anticholinergic mechanism of TCAs.';
+      'TCAs block acetylcholine. After stopping, that system can briefly become overactive. Symptoms include nausea, diarrhoea, stomach cramps, heavy sweating, headache, muscle aches, and insomnia. These symptoms usually peak early and then ease.';
 
   @override
-  String get tcaMilestone7Title => 'One Week: Cholinergic Symptoms Easing';
+  String get tcaMilestone7Title => 'One Week: Rebound Symptoms Easing';
 
   @override
   String get tcaMilestone7Description =>
-      'The cholinergic rebound typically reaches its peak within the first few days and begins to ease by one week. Gastrointestinal symptoms, sweating, and flu-like feelings are reducing. Your autonomic nervous system — which TCAs powerfully affect — is beginning to re-establish its natural balance.';
+      'The acetylcholine rebound usually peaks in the first few days and starts easing by one week. Stomach symptoms, sweating, and flu-like feelings are reducing, while the body systems that control heart rate, digestion, and sweating return toward normal.';
 
   @override
   String get tcaMilestone14Title =>
@@ -2698,7 +2699,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get tcaMilestone14Description =>
-      'The anticholinergic side effects that TCAs imposed — dry mouth, constipation, urinary hesitancy, blurred vision — are reversing as the acetylcholine system recovers. Many people notice improved cognitive clarity as the brain\'s cholinergic pathways, important for memory and attention, begin to normalise.';
+      'The dry mouth, constipation, trouble urinating, and blurred vision caused by TCAs are reversing as the acetylcholine system recovers. Memory and attention often feel clearer too.';
 
   @override
   String get tcaMilestone30Title =>
@@ -2706,30 +2707,29 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get tcaMilestone30Description =>
-      'One month marks the stabilisation of your autonomic nervous system. Cardiac rhythm and blood pressure variability are returning to normal. Sleep architecture — which TCAs suppress by reducing REM sleep — is beginning to restore as natural cholinergic activity recovers.';
+      'At one month, the body systems that control heart rate, blood pressure, digestion, and sweating are settling. Heart rhythm and blood-pressure changes are moving toward normal, and REM dream sleep is returning.';
 
   @override
   String get tcaMilestone90Title =>
-      'Three Months: Multiple Neurotransmitter Systems Normalising';
+      'Three Months: Brain-Chemical Systems Settling';
 
   @override
   String get tcaMilestone90Description =>
-      'TCAs affect serotonin, norepinephrine, acetylcholine, and histamine systems. Three months allows all of these to substantially recover. Research shows mood, cognitive function, and physical wellbeing are meaningfully improved at the three-month mark.';
+      'TCAs affect several brain-chemical systems. Three months gives them substantial time to settle. Mood, clear thinking, and physical wellbeing are markedly better.';
 
   @override
-  String get tcaMilestone180Title =>
-      'Six Months: Cardiac and Cognitive Recovery';
+  String get tcaMilestone180Title => 'Six Months: Heart and Thinking Recovery';
 
   @override
   String get tcaMilestone180Description =>
-      'Six months of recovery allows for substantial cardiac and cognitive recovery. QTc interval prolongation caused by TCAs has resolved. The cognitive impairment that TCAs can cause through anticholinergic effects — particularly affecting memory and processing speed — has substantially improved.';
+      'Six months allows major recovery in heart rhythm, memory, and thinking speed. The heart-rhythm changes and brain fog caused by TCAs have had months to resolve.';
 
   @override
   String get tcaMilestone365Title => 'One Year: Recovery Achieved';
 
   @override
   String get tcaMilestone365Description =>
-      'One year marks a complete cycle of multi-system recovery. All TCA-affected neurotransmitter systems — cholinergic, noradrenergic, serotonergic, and histaminergic — have had a full cycle to normalise. Complete reversal of anticholinergic cognitive impairment and full cardiac autonomic recovery represent a significant achievement.';
+      'One year gives every system affected by TCAs a full year to recover. The acetylcholine, noradrenaline, serotonin, and histamine systems have settled, and memory, clear thinking, and heart-rate control are substantially recovered.';
 
   @override
   String get settingsShowTcaTracking => 'Show TCA tracking';
@@ -2781,11 +2781,11 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get maoiMilestone30Title =>
-      'One Month: Neurotransmitter Systems Rebalancing';
+      'One Month: Brain-Chemical Systems Rebalancing';
 
   @override
   String get maoiMilestone30Description =>
-      'One month after MAOI discontinuation, MAO enzyme activity has fully recovered and neurotransmitter systems are under entirely natural regulation. Serotonin, norepinephrine, dopamine, and tyramine are all metabolised normally. Drug interaction risks associated with MAOIs have resolved — though always inform prescribers of previous MAOI use.';
+      'One month after stopping an MAOI, the MAO enzyme is active again and the brain is handling serotonin, noradrenaline, dopamine, and tyramine naturally. The special food and drug interaction period has ended, though you should still tell prescribers about previous MAOI use.';
 
   @override
   String get maoiMilestone90Title =>
@@ -2793,7 +2793,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get maoiMilestone90Description =>
-      'Three months of natural monoamine regulation has allowed the brain to substantially readjust. Receptor supersensitivity caused by chronically elevated monoamine levels under MAOI treatment is resolving. Mood regulation, energy, and cognitive function are stabilising as natural neurotransmission replaces pharmacological MAO inhibition.';
+      'Three months gives the brain\'s mood and energy systems substantial time to readjust after MAOIs. Mood, energy, and clear thinking are stabilising as the brain handles these chemicals naturally again.';
 
   @override
   String get maoiMilestone180Title => 'Six Months: Long-Term Recovery';
@@ -2807,7 +2807,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get maoiMilestone365Description =>
-      'One year after MAOI discontinuation is a genuinely significant milestone. MAOIs are the most pharmacologically complex antidepressants, with the broadest effects on neurotransmitter systems and the most demanding discontinuation process. One year demonstrates complete recovery of all monoamine systems and remarkable personal resilience.';
+      'One year after stopping an MAOI gives the brain and body a full year without the drug. Mood, energy, clear thinking, and normal brain-chemical regulation have had substantial time to settle and recover.';
 
   @override
   String get settingsShowMaoiTracking => 'Show MAOI tracking';
