@@ -1,0 +1,31 @@
+name: Format evidence fix
+
+on:
+  push:
+    paths:
+      - .github/workflows/format-evidence.yml
+
+permissions:
+  contents: write
+
+jobs:
+  format:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+      - run: flutter pub get
+      - run: dart format lib/quit_milestone.dart test/quit_milestone_evidence_test.dart
+      - name: Commit formatter output
+        run: |
+          if git diff --quiet; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add lib/quit_milestone.dart test/quit_milestone_evidence_test.dart
+          git commit -m "style: format evidence tests with package config"
+          git push
