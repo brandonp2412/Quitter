@@ -2,8 +2,6 @@ name: Flutter quality
 
 on:
   pull_request:
-  push:
-    branches: [main]
 
 permissions:
   contents: read
@@ -35,7 +33,6 @@ jobs:
         run: flutter/bin/flutter pub get --enforce-lockfile
 
       - name: Check changed Dart formatting
-        if: github.event_name == 'pull_request'
         shell: bash
         run: |
           mapfile -t paths < <(git diff --name-only --diff-filter=ACMRT \
