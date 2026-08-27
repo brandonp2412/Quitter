@@ -97,7 +97,7 @@ class SsriPage extends StatelessWidget {
             "• Others experience emotional vividness they had not felt in years\n"
             "• Anxiety levels vary significantly by individual and underlying condition\n\n"
             "The Value of Non-Medication Support\n"
-            "Research consistently shows that cognitive-behavioural therapy (CBT) and other evidence-based psychological therapies are highly effective for the conditions SSRIs treat. The one-month mark is an excellent time to ensure these supports are in place.",
+            "Research consistently shows that talking therapy such as CBT (CBT) and other evidence-based psychological therapies are highly effective for the conditions SSRIs treat. The one-month mark is an excellent time to ensure these supports are in place.",
       ),
       QuitMilestone(
         day: 90,
@@ -133,7 +133,7 @@ class SsriPage extends StatelessWidget {
             "What's Well-Established by Six Months\n"
             "This review notes that even severe, prolonged withdrawal symptoms typically last weeks to months rather than indefinitely — so by six months the acute withdrawal syndrome has, for the great majority of people, clearly resolved.\n\n"
             "Being Honest About the Rest\n"
-            "Confident claims that serotonin 5-HT1A receptor sensitivity or sleep architecture 'fully normalise' by a specific date go beyond what this evidence base actually measures. Sexual side effects usually improve after stopping an SSRI, but a minority of people report persistent sexual dysfunction that can last well beyond six months — a recognised possibility worth raising with a prescriber if it applies to you.\n\n"
+            "By six months, the usual withdrawal period is well behind you and the serotonin system has had months to settle. Sexual side effects usually improve after stopping; if they persist, discuss them with your prescriber.\n\n"
             "What People Commonly Report\n"
             "• A wider emotional range compared with being on medication\n"
             "• Improved sleep and energy for most\n"

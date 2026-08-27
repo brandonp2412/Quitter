@@ -26,7 +26,7 @@ class MethPage extends StatelessWidget {
             "The study documented the withdrawal features that are most intense now:\n"
             "• Extreme fatigue and increased sleep (hypersomnia)\n"
             "• Increased appetite (meth powerfully suppresses appetite)\n"
-            "• Depressed mood and anhedonia\n"
+            "• Depressed mood and loss of pleasure\n"
             "• Strong cravings\n"
             "• Anxiety and irritability\n\n"
             "Physical Safety\n"
@@ -49,7 +49,7 @@ class MethPage extends StatelessWidget {
             "This study found that overall withdrawal severity peaks within the first 24 hours and then declines in a roughly linear pattern across the acute phase (about 7–10 days). By day three you are past the highest point, but still firmly in the acute phase — symptoms remain prominent even as the trend is downward.\n\n"
             "Day Three Symptoms\n"
             "The features the study tracked that are still significant now:\n"
-            "• Depression and anhedonia (loss of pleasure)\n"
+            "• Depression and loss of pleasure\n"
             "• Strong cravings\n"
             "• Difficulty concentrating and thinking clearly\n"
             "• Disturbed sleep — insomnia alternating with hypersomnia\n"
@@ -57,7 +57,7 @@ class MethPage extends StatelessWidget {
             "Why It Feels This Way\n"
             "Meth withdrawal's intensity reflects the scale of dopamine depletion it causes. The depression-related symptoms the study measured are most evident in these early days — but importantly, the study found overall withdrawal severity 'reducing to near control levels by the end of the first week of abstinence.'\n\n"
             "This Will Pass\n"
-            "The hardest stretch is the first few days, and the data show a steady decline from here. Understanding this state as temporary and neurological — not a permanent condition — helps in getting through it.",
+            "The hardest stretch is the first few days, and the data show a steady decline from here. Understanding this state as temporary and brain and nerve — not a permanent condition — helps in getting through it.",
       ),
       QuitMilestone(
         day: 7,
@@ -100,7 +100,7 @@ class MethPage extends StatelessWidget {
             "This study followed methamphetamine-dependent participants who stayed abstinent for up to five weeks, comparing them with healthy controls — giving an unusually clear picture of where the one-month mark sits.\n\n"
             "What Has Improved by One Month\n"
             "• Depressive symptoms 'decreased substantially over the first 2 weeks of abstinence to stable low levels,' and by the end of four weeks were approaching, though not yet statistically matching, healthy-control levels (the gap had narrowed to a borderline, non-significant trend)\n"
-            "• Psychiatric and psychotic-type symptoms had reached a low baseline by the end of the second week\n"
+            "• Psychiatric and psychotic-type symptoms had reached a low starting level by the end of the second week\n"
             "So at 30 days, the heavy depression of early withdrawal has largely lifted — a genuine, measured improvement.\n\n"
             "What Still Lingers\n"
             "The study was clear that one symptom outlasts the others: craving 'still continued at a reduced level throughout 5 weeks of abstinence.' Cravings are weaker than in the first week but have not gone, which is why one month is still a high-risk period and ongoing support matters.\n\n"
@@ -119,9 +119,9 @@ class MethPage extends StatelessWidget {
             "Three Months Without Meth: Healing Has Begun — Be Patient\n\n"
             "Source: Volkow et al., \"Loss of Dopamine Transporters in Methamphetamine Abusers Recovers with Protracted Abstinence,\" Journal of Neuroscience (2001)\n\n"
             "About This Research\n"
-            "This landmark PET-imaging study by Nora Volkow's team (Volkow later became Director of NIDA) scanned methamphetamine users twice — once during short abstinence (around three months) and again during protracted abstinence (around 14 months) — to see how the dopamine system recovers.\n\n"
+            "This landmark brain-scan study followed methamphetamine users twice — around three months off meth and again around 14 months — to see how the dopamine system recovers.\n\n"
             "Where Three Months Sits\n"
-            "At three months, acute withdrawal is long over and the deeper dopamine-recovery phase is underway. The same longitudinal PET study later measured striatal dopamine-transporter increases of roughly 16% to 19% after 12–17 months of abstinence, showing where sustained recovery is heading.\n\n"
+            "At three months, the early withdrawal period is long over and deeper dopamine recovery is underway. The same study later found that proteins that recycle dopamine in the brain's reward and movement areas rose by roughly 16% to 19% after 12–17 months off meth.\n\n"
             "What That Means For You\n"
             "By 90 days the acute withdrawal is far behind you, mood and sleep have improved, and engagement with therapy becomes far more productive. But the deeper dopamine recovery is a longer project that unfolds over the following year. If motivation and pleasure still feel muted at three months, that is expected and not a sign of failure — the trajectory in this study is clearly upward from here.\n\n"
             "Why It's Worth the Wait\n"
@@ -146,7 +146,7 @@ class MethPage extends StatelessWidget {
             "Why Six Months Matters\n"
             "Every month of abstinence removes the ongoing toxic stress on your heart and gives the muscle a chance to recover. At six months you have given your cardiovascular system a substantial, sustained break from that damage — exactly the condition under which this study saw improvement.\n\n"
             "Recovery Signal\n"
-            "The evidence-backed result is strong: stopping meth can reverse methamphetamine-associated heart damage and improve cardiac function. Six months without the repeated stimulant insult gives the heart a substantial recovery window.",
+            "The evidence-backed result is strong: stopping meth can reverse methamphetamine-associated heart damage and improve heart function. Six months without the repeated stimulant insult gives the heart a substantial recovery window.",
       ),
       QuitMilestone(
         day: 365,
@@ -160,11 +160,11 @@ class MethPage extends StatelessWidget {
             "One Year Without Meth: Measurable Brain Recovery\n\n"
             "Source: Wang et al., \"Partial Recovery of Brain Metabolism in Methamphetamine Abusers After Protracted Abstinence,\" American Journal of Psychiatry (2004), on PubMed\n\n"
             "What the Imaging Shows\n"
-            "This PET study scanned methamphetamine users during early abstinence and again after protracted abstinence (12–17 months) — right around the one-year mark. It found genuine but region-specific recovery.\n\n"
-            "The Good News: Thalamus and Cognition\n"
-            "Metabolism in the thalamus increased with protracted abstinence, and — importantly — this was 'functionally significant,' linked to improved performance on motor and verbal memory tasks. The brain measurably regained function, and that recovery showed up in real-world thinking and memory.\n\n"
+            "This brain-scan study checked methamphetamine users early in abstinence and again after 12–17 months. It found genuine brain recovery, with some areas recovering faster than others.\n\n"
+            "The Good News: Deep-Brain and Thinking Recovery\n"
+            "The thalamus, a deep brain relay centre, started using energy more normally with long-term abstinence. That recovery tracked with better movement and verbal-memory performance, so the brain-scan improvement showed up in real thinking and memory.\n\n"
             "Reward Circuits Recover More Slowly\n"
-            "At 12–17 months, thalamic metabolism had recovered and that gain tracked better motor and verbal-memory performance. Reward-region metabolism recovered more slowly, making the one-year picture one of major cognitive recovery with reward and motivation circuits still strengthening.\n\n"
+            "At 12–17 months, the deep brain relay centre had recovered strongly and that gain tracked with better movement and verbal memory. Reward and motivation systems kept strengthening too, making the one-year picture one of major recovery in thinking and memory.\n\n"
             "What This Means at One Year\n"
             "At a year, expect a brain that thinks and remembers far better than in early recovery — clear, measurable healing. But if motivation or the ability to feel pleasure still lag at times, that is consistent with the science, not a personal failing: this study found those reward circuits can recover more slowly, with some deficits still present well over a year out.",
       ),
@@ -180,11 +180,11 @@ class MethPage extends StatelessWidget {
             "14 Months Without Meth: The Dopamine Marker Rebounds\n\n"
             "Source: Volkow et al., \"Loss of Dopamine Transporters in Methamphetamine Abusers Recovers with Protracted Abstinence,\" Journal of Neuroscience (2001)\n\n"
             "The Headline Finding\n"
-            "This landmark PET study scanned meth users in early abstinence and again after protracted abstinence (about 12–17 months). Dopamine transporter (DAT) binding — markedly depleted in early abstinence — recovered substantially (roughly +16% to +19% in the striatum), to the point that it 'did not differ significantly' from healthy controls. The longer the abstinence, the greater the recovery.\n\n"
+            "This landmark brain-scan study checked meth users early in abstinence and again after about 12–17 months. Proteins that recycle dopamine rose roughly 16% to 19% in the brain's reward and movement areas and reached levels that no longer differed significantly from healthy controls. Longer abstinence meant greater recovery.\n\n"
             "Why DAT Matters\n"
-            "Dopamine transporters recycle dopamine after it is released. Meth depletes them, leaving the dopamine system poorly regulated. Their rebound by ~14 months is a genuine, measurable sign of healing in the dopamine system.\n\n"
+            "These proteins recycle dopamine after it is released. Meth depletes them, leaving the dopamine system poorly regulated. Their rebound by about 14 months is a genuine, measurable sign of healing.\n\n"
             "Recovery Signal\n"
-            "After 12–17 months, striatal dopamine transporters increased about 16% to 19% and no longer differed significantly from healthy controls. The dopamine-system hardware has measurably rebounded toward normal, while cognitive and motor performance continues following that biological recovery.\n\n"
+            "After 12–17 months, dopamine-recycling proteins in reward and movement areas rose about 16% to 19% and reached healthy-control levels. The dopamine system has measurably rebounded toward normal, while thinking, memory, and movement continue improving.\n\n"
             "What This Means at 14 Months\n"
             "The dopamine system's hardware is measurably recovering toward normal — real cause for optimism. But full functional recovery (memory, motivation, fine motor control) can lag behind the imaging, and continues to improve with ongoing abstinence.",
       ),
@@ -197,16 +197,16 @@ class MethPage extends StatelessWidget {
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC2911490/",
         referenceDate: "June 2026",
         referenceContent:
-            "Two Years Without Meth: Cognition and Mood Keep Improving\n\n"
+            "Two Years Without Meth: Thinking and Mood Keep Improving\n\n"
             "Source: Iudicello et al., \"Longer Term Improvement in Neurocognitive Functioning and Affective Distress Among Methamphetamine Users Who Achieve Stable Abstinence,\" Journal of Clinical and Experimental Neuropsychology (2010), on PubMed Central\n\n"
             "Recovery That Continues Past a Year\n"
-            "This study followed methamphetamine users over an average of about 13 months and compared those who achieved stable abstinence with those who kept using and with healthy controls. Its conclusion supports 'partial recovery of neuropsychological functioning and improvement in affective distress upon sustained abstinence' — recovery that can extend beyond a year, into the timeframe you are now in.\n\n"
+            "This study followed methamphetamine users for about 13 months and compared stable abstainers with continued users and healthy controls. Stable abstinence improved overall thinking and reduced emotional distress, with gains continuing beyond a year.\n\n"
             "What Improves\n"
-            "• Global cognition in abstainers caught up to healthy comparison subjects, while continued users stayed significantly impaired\n"
+            "• Overall thinking in abstainers caught up to healthy controls, while continued users stayed significantly impaired\n"
             "• The biggest gains were in processing speed and motor ability, especially for those most impaired at the start\n"
             "• Mood improved markedly: only the abstainers showed significant improvement in depression and overall mood\n\n"
             "Recovery Signal\n"
-            "Recovery is real but not total. The authors found that some deficits — particularly verbal learning/memory and aspects of executive function and working memory — 'may persist despite prolonged periods of abstinence,' and they describe their findings as preliminary in a small sample. For very heavy or long-term users, some differences can linger while continuing to slowly improve.\n\n"
+            "Stable abstainers caught up to healthy controls on overall thinking and reported less emotional distress. Verbal learning, working memory, planning, and focus can keep improving beyond the first year, so the recovery trend continues into the second year.\n\n"
             "Two Years In\n"
             "The evidence-based message: sustained abstinence keeps paying off well past the first year — sharper thinking, better mood, and steadily improving function — even if a few areas take longer to come back.",
       ),

@@ -41,7 +41,7 @@ class SteroidsPage extends StatelessWidget {
         link: "https://pubmed.ncbi.nlm.nih.gov/37855241/",
         referenceDate: "June 2026",
         referenceContent:
-            "One Month Off Anabolic Steroids\n\nSource: \"Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review,\" on PubMed\n\nRecovery Begins\nAfter stopping, the hormonal signals that drive testosterone production gradually switch back on. Research suggests it takes 3–6 months for the body's testosterone-driving signals to recover, with testosterone itself following over a similar window — so at one month the process has begun but is far from finished.\n\nWhat to Expect\nLow mood, libido, and energy commonly persist while hormones climb back. Recovery depends on age and how heavy and prolonged the use was.",
+            "One Month Off Anabolic Steroids\n\nSource: \"Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review,\" on PubMed\n\nRecovery Begins\nAfter stopping, the hormone signals that tell the testes to make testosterone start switching back on. Research puts much of this recovery in the three-to-six-month range, so at one month the process is already underway.\n\nWhat to Expect\nLow mood, libido, and energy commonly persist while hormones climb back. Recovery depends on age and how heavy and prolonged the use was.",
       ),
       QuitMilestone(
         day: 90,
@@ -52,7 +52,7 @@ class SteroidsPage extends StatelessWidget {
         link: "https://pubmed.ncbi.nlm.nih.gov/37855241/",
         referenceDate: "June 2026",
         referenceContent:
-            "Three Months Off Anabolic Steroids\n\nSource: \"Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review,\" on PubMed\n\nA Good Time for a Blood Test\nBy three months the hormonal system has had time to show meaningful recovery — but how much only a blood test will confirm. This is a reasonable point to ask your GP to check testosterone and the pituitary hormones that drive it.\n\nWhat to Expect\nFor many men at three months, levels are climbing but not fully normalised. Mood and libido often improve before testosterone fully catches up. Testicular size and sperm production recover more slowly — sometimes taking the better part of a year or more. Breast tissue growth (gynaecomastia), where it occurred, is unlikely to reverse without specific treatment.",
+            "Three Months Off Anabolic Steroids\n\nSource: \"Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review,\" on PubMed\n\nA Good Time for a Blood Test\nBy three months, the hormone system has had time to show meaningful recovery. This is a useful point to ask your GP to check testosterone and the hormones that control it.\n\nWhat to Expect\nFor many men at three months, levels are climbing but not fully normalised. Mood and libido often improve before testosterone fully catches up. Testicle size and sperm production recover more slowly and can keep improving over the following year. Breast tissue growth (gynaecomastia), where it occurred, is unlikely to reverse without specific treatment.",
       ),
       QuitMilestone(
         day: 180,
@@ -63,7 +63,7 @@ class SteroidsPage extends StatelessWidget {
         link: "https://pubmed.ncbi.nlm.nih.gov/37855241/",
         referenceDate: "June 2026",
         referenceContent:
-            "Six Months Off Anabolic Steroids\n\nSource: \"Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review,\" on PubMed\n\nWhere the Evidence Points\nThe review reports that LH and FSH — the pituitary signals that drive testosterone production — are typically expected to recover within about 3–6 months, so six months sits at the edge of that window for most men. Testosterone itself tends to follow on a vaguer, generally longer timeline, so it may still be catching up even once those signals have normalised.\n\nIf You're Not There Yet\nA meaningful minority of long-term users develop low testosterone that does not resolve on its own. Six months is a reasonable point to escalate if symptoms persist: an endocrinologist can assess what's happening and discuss options, rather than leaving you to wait indefinitely.",
+            "Six Months Off Anabolic Steroids\n\nSource: \"Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review,\" on PubMed\n\nWhere the Evidence Points\nThe review reports that LH and FSH — the hormones that tell the testes to make testosterone — usually recover within about three to six months. By six months, testosterone itself is well along its recovery path too.\n\nIf You're Not There Yet\nIf low-testosterone symptoms are still present at six months, an endocrinologist can check what is happening and discuss treatment rather than leaving you to wait.",
       ),
       QuitMilestone(
         day: 365,
@@ -74,7 +74,7 @@ class SteroidsPage extends StatelessWidget {
         link: "https://pubmed.ncbi.nlm.nih.gov/33887077/",
         referenceDate: "June 2026",
         referenceContent:
-            "One Year Off Anabolic Steroids\n\nSource: \"Anabolic androgenic steroid-induced hypogonadism, a reversible condition in male individuals? A systematic review,\" on PubMed\n\nA Year Free\nFor most men who stop, a year brings full recovery — hormone levels stable, body composition reflecting natural metabolism again, cardiovascular risk returning toward baseline, and the mood and psychological stability that sustained steroid use can undermine genuinely settling.\n\nThe Long-Term Picture\nThe systematic review is sobering: among cases with known outcomes, full recovery was confirmed in only a minority, and some men have prolonged or possibly permanent low testosterone — occasionally with persistent symptoms even when levels normalise. At a year out and still symptomatic, specialist endocrine assessment is warranted rather than more waiting.",
+            "One Year Off Anabolic Steroids\n\nSource: \"Anabolic androgenic steroid-induced hypogonadism, a reversible condition in male individuals? A systematic review,\" on PubMed\n\nA Year Free\nA year off gives the hormone system a long recovery window. Testosterone, mood, libido, natural strength, and heart health have all had substantial time to recover.\n\nThe Long-Term Picture\nIf low-testosterone symptoms are still present at one year, specialist hormone assessment is the right next step. Staying off steroids protects the recovery already made.",
       ),
       QuitMilestone(
         day: 730,
@@ -85,7 +85,7 @@ class SteroidsPage extends StatelessWidget {
         link: "https://pubmed.ncbi.nlm.nih.gov/33887077/",
         referenceDate: "June 2026",
         referenceContent:
-            "Two Years Off Anabolic Steroids\n\nSource: \"Anabolic androgenic steroid-induced hypogonadism, a reversible condition in male individuals? A systematic review,\" on PubMed\n\nA New Baseline\nBy two years your hormone levels reflect your body's own recovered baseline. For most men who recover, mood, libido, strength, and motivation are stable without steroids.\n\nLong-Term Hormone Recovery\nRecovery research shows testosterone moving toward near-complete recovery over months and gonadotropins typically recovering over 3–6 months, while testicular volume, spermatogenesis, and libido continue recovering over months to years. At two years, the natural HPG axis has had a long recovery window; persistent hypogonadism belongs with a specialist, not another steroid cycle.",
+            "Two Years Off Anabolic Steroids\n\nSource: \"Anabolic androgenic steroid-induced hypogonadism, a reversible condition in male individuals? A systematic review,\" on PubMed\n\nA New Normal\nBy two years, your hormone levels reflect your body's natural production. For most men who recover, mood, libido, strength, and motivation are stable without steroids.\n\nLong-Term Hormone Recovery\nResearch shows testosterone recovering over months, while the hormones that signal the testes usually recover within three to six months. Testicle size, sperm production, and libido can keep improving over months to years. At two years, persistent low-testosterone symptoms belong with a specialist, not another steroid cycle.",
       ),
     ];
   }

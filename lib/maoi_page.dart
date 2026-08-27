@@ -47,7 +47,7 @@ class MaoiPage extends StatelessWidget {
             "One Week After MAOIs: MAO Enzyme Synthesis Underway\n\n"
             "Source: \"Monoamine Oxidase Inhibitors (MAOIs)\" (StatPearls, NCBI Bookshelf)\n\n"
             "The Enzyme Recovery Process\n"
-            "Unlike SSRIs, SNRIs, and TCAs — which inhibit neurotransmitter reuptake reversibly — irreversible MAOIs (phenelzine, tranylcypromine) permanently destroy monoamine oxidase enzyme molecules. Clinical washout is therefore governed by how quickly the body can synthesise entirely new enzyme — about 2 weeks — rather than by how fast the drug itself clears the bloodstream.\n\n"
+            "Unlike SSRIs, SNRIs, and TCAs — which inhibit brain chemical reuptake reversibly — irreversible MAOIs (phenelzine, tranylcypromine) permanently destroy monoamine oxidase enzyme molecules. Clinical washout is therefore governed by how quickly the body can synthesise entirely new enzyme — about 2 weeks — rather than by how fast the drug itself clears the bloodstream.\n\n"
             "What's Happening at One Week\n"
             "• MAO-A and MAO-B enzyme synthesis is well underway, roughly midway through the ~2-week resynthesis window\n"
             "• The acute risk phase described on day 3 is passing, though close medical supervision remains important\n\n"
@@ -71,10 +71,10 @@ class MaoiPage extends StatelessWidget {
             "• Platelet MAO-B activity has substantially recovered by this point\n"
             "• Brain MAO-A and MAO-B, which follow a broadly similar resynthesis timeline, are also largely restored\n"
             "• Normal tyramine metabolism is re-establishing — the MAOI dietary restrictions can typically be relaxed in consultation with your prescriber\n\n"
-            "Neurotransmitter Normalisation\n"
-            "With MAO enzyme activity recovering, the neurotransmitter systems that MAOIs affect are beginning to come under natural regulation:\n"
+            "Brain-Chemical Balance Returns\n"
+            "With MAO enzyme activity recovering, the brain chemical systems that MAOIs affect are beginning to come under natural regulation:\n"
             "• Serotonin, norepinephrine, and dopamine are no longer being elevated by MAO inhibition\n"
-            "• The supersensitivity of monoamine receptors (caused by chronic MAOI-elevated monoamine levels) is beginning to resolve\n"
+            "• The supersensitivity of monoamine receptors (caused by chronic MAOI-elevated brain-chemical levels) is beginning to resolve\n"
             "• Natural mood and energy regulation is returning",
       ),
       QuitMilestone(
@@ -85,17 +85,17 @@ class MaoiPage extends StatelessWidget {
         link: "https://www.ncbi.nlm.nih.gov/books/NBK539848/",
         referenceDate: "July 2026",
         referenceContent:
-            "One Month After MAOIs: Neurotransmitter Systems Rebalancing\n\n"
+            "One Month After MAOIs: Brain-Chemical Systems Rebalancing\n\n"
             "Source: \"Monoamine Oxidase Inhibitors (MAOIs)\" (StatPearls, NCBI Bookshelf)\n\n"
             "The One-Month Assessment\n"
-            "One month after MAOI discontinuation is well past the roughly 2-week MAO enzyme resynthesis window described in this source, so by this point MAO enzyme activity has fully recovered and neurotransmitter systems are under entirely natural regulation.\n\n"
+            "One month after MAOI discontinuation is well past the roughly 2-week MAO enzyme resynthesis window described in this source, so by this point MAO enzyme activity has fully recovered and brain chemical systems are under entirely natural regulation.\n\n"
             "What Has Recovered by One Month\n"
             "• Complete MAO enzyme activity: both MAO-A and MAO-B are fully operational\n"
             "• Dietary restrictions resolved: normal diet without tyramine restrictions\n"
             "• Natural serotonin degradation: the brain's normal serotonin turnover cycle restored\n"
             "• Natural catecholamine regulation: dopamine and norepinephrine levels regulated by natural MAO activity\n\n"
             "Drug Interaction Cautions\n"
-            "MAOIs are associated with life-threatening interactions with serotonergic drugs. These interaction risks have resolved at the one-month mark. However, always inform your prescriber and pharmacist of previous MAOI use when any new medication is prescribed.",
+            "MAOIs are associated with life-threatening interactions with serotonin drugs. These interaction risks have resolved at the one-month mark. However, always inform your prescriber and pharmacist of previous MAOI use when any new medication is prescribed.",
       ),
       QuitMilestone(
         day: 90,
@@ -113,7 +113,7 @@ class MaoiPage extends StatelessWidget {
             "Where Three Months Sits\n"
             "By three months, the acute withdrawal phase is well behind the great majority of people, and the body has long readjusted to regulating monoamines without MAO inhibition.\n\n"
             "Recovery Signal on 'Receptor Resensitisation'\n"
-            "Confident claims that serotonin, norepinephrine, and dopamine receptors have all 'resensitised by three months' go beyond what the evidence pins down. What is dependable: the withdrawal phase has typically resolved by now, and for most people mood, energy, and emotional range are stabilising on natural, self-regulated neurotransmission.\n\n"
+            "Confident claims that serotonin, norepinephrine, and dopamine receptors have all 'resensitised by three months' go beyond what the evidence pins down. What is dependable: the withdrawal phase has typically resolved by now, and for most people mood, energy, and emotional range are stabilising on natural, self-regulated brain signalling.\n\n"
             "Withdrawal Versus Relapse\n"
             "The Letter stresses telling withdrawal apart from a genuine return of the underlying condition. If symptoms persist at three months, review them with your prescriber rather than assuming they are only withdrawal.",
       ),
@@ -131,7 +131,7 @@ class MaoiPage extends StatelessWidget {
             "The Six-Month Assessment\n"
             "This review explains that antidepressants work partly by causing monoamine receptors to downregulate over time, and that this downregulation requires weeks to months to reverse once the medication stops — a slower process than the roughly two-week MAO enzyme resynthesis itself.\n\n"
             "Where Six Months Sits\n"
-            "Six months sits comfortably past that weeks-to-months receptor readjustment window for the great majority of people, alongside enzyme activity that fully normalised within the first month. Recovery Signal: precise timelines for full serotonin, norepinephrine, and dopamine receptor resensitisation are not established with day-by-day certainty in the literature — what is dependable is that by six months, most people are functioning on natural, self-regulated neurotransmission.\n\n"
+            "Six months sits comfortably past that weeks-to-months receptor readjustment window for the great majority of people, alongside enzyme activity that fully normalised within the first month. Recovery Signal: precise timelines for full serotonin, norepinephrine, and dopamine receptor resensitisation are not established with day-by-day certainty in the literature — what is dependable is that by six months, most people are functioning on natural, self-regulated brain signalling.\n\n"
             "A Note on Phenethylamine\n"
             "MAOIs also inhibit the degradation of phenethylamine (PEA), a trace amine linked to mood and energy. Its metabolism is expected to normalise alongside general MAO enzyme recovery, though — as with receptor resensitisation — a precise PEA-specific timeline isn't established in the research literature.",
       ),
@@ -146,10 +146,10 @@ class MaoiPage extends StatelessWidget {
             "One Year After MAOIs: Recovery Achieved\n\n"
             "Source: \"Monoamine Oxidase Inhibitors (MAOIs)\" (StatPearls, NCBI Bookshelf)\n\n"
             "One Year: A Remarkable Achievement\n"
-            "Completing one year after MAOI discontinuation is a genuinely significant milestone. MAOIs are among the most pharmacologically demanding antidepressants to come off, with an irreversible mechanism, a strict low-tyramine diet, and drug-interaction precautions that are unlike any other antidepressant class.\n\n"
+            "Completing one year after MAOI discontinuation is a genuinely significant milestone. MAOIs are among the most drug-drivenly demanding antidepressants to come off, with an irreversible mechanism, a strict low-tyramine diet, and drug-interaction precautions that are unlike any other antidepressant class.\n\n"
             "What This Year Represents\n"
             "• A full year of natural, self-regulated monoamine oxidase activity, built on enzyme resynthesis that completed within the first month\n"
-            "• Demonstrated capacity to maintain wellbeing without pharmacological MAO inhibition\n"
+            "• Demonstrated capacity to maintain wellbeing without drug-driven MAO inhibition\n"
             "• A track record long enough to be confident the acute discontinuation risks of day 3 are firmly behind you\n\n"
             "A Note on MAOIs\n"
             "MAOIs remain uniquely effective for certain treatment-resistant conditions and atypical depression. Successful discontinuation does not diminish their value as medications — it demonstrates the brain's capacity for recovery and the patient's ability to navigate an exceptionally demanding medical process. One lasting precaution: continue to tell any new prescriber or anaesthetist about past MAOI use, since some drug-interaction risks are worth flagging indefinitely.",

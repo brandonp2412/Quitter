@@ -23,7 +23,7 @@ class AlcoholPage extends StatelessWidget {
             "Alcohol and Sleep Architecture\n"
             "Alcohol is sedating, so it shortens the time it takes to fall asleep and increases deep slow-wave sleep in the first half of the night. But it comes at a cost: alcohol suppresses REM (rapid eye movement) sleep — the restorative stage tied to memory consolidation and emotional regulation — and fragments sleep in the second half of the night as it is metabolised.\n\n"
             "The First Night Off Alcohol\n"
-            "Because the brain has adapted to alcohol's suppression of REM, the first nights of abstinence often bring a REM 'rebound': vivid or intense dreams and lighter, broken sleep as sleep architecture recalibrates. This is a normal, temporary part of recovery.\n\n"
+            "Because alcohol suppresses REM dream sleep, the first nights without it often bring a REM rebound: vivid dreams and lighter, broken sleep while normal sleep patterns return. This is a normal, temporary part of recovery.\n\n"
             "Recovery Begins\n"
             "As the brain readjusts over the following days and weeks, REM and overall sleep quality improve. Sleep disturbance is one of the most persistent withdrawal-related symptoms, but it trends toward normal with sustained abstinence.\n\n"
             "A Note on Heavy Drinking\n"
@@ -59,9 +59,9 @@ class AlcoholPage extends StatelessWidget {
             "How the Immune System Recovers\n\n"
             "Source: \"Alcohol and the Immune System\" (Sarkar, Jung & Wang), Alcohol Research: Current Reviews — peer-reviewed, NIH-hosted\n\n"
             "How Alcohol Weakens Immunity\n"
-            "The review documents that alcohol disrupts immune defences at every level. Even a single episode of heavy drinking impairs the body's ability to fight infection for up to 24 hours. Chronic use reduces the number and function of white blood cells (including monocytes, neutrophils and T cells), disrupts cytokine signalling — the chemical messengers that coordinate an immune response — and damages the gut barrier and lung defences, leaving drinkers more prone to pneumonia, sepsis and slow wound healing.\n\n"
+            "Alcohol weakens the immune system in several ways. Even one heavy drinking session can reduce infection-fighting ability for up to 24 hours. Long-term use reduces white blood cells, disrupts immune signals, and damages gut and lung defences, increasing the risk of infections and slow wound healing.\n\n"
             "Removing the Insult\n"
-            "Many of these effects are driven by ongoing alcohol exposure. When drinking stops, the constant suppression is lifted: white-cell counts and cytokine balance begin to recover, and the gut and airway defences start to repair. Within the first week, your immune system is no longer being knocked down daily and resistance to common infections begins to improve.\n\n"
+            "Many of these effects improve once alcohol is gone. White blood cells and immune signalling begin to recover, while the gut and airway defences start repairing. Within the first week, your immune system is no longer being knocked down daily and resistance to common infections begins to improve.\n\n"
             "A Gradual Process\n"
             "Full immune recovery takes longer than a week, and the degree of repair depends on how heavy and prolonged the drinking was — but the first week off alcohol is where the rebuilding begins.",
       ),
@@ -81,7 +81,7 @@ class AlcoholPage extends StatelessWidget {
             "Brain Volume Rebounds\n"
             "Chronic alcohol use shrinks the brain — partly through reversible reduction in cell size, not only permanent cell loss. With abstinence, the researchers measured an average global brain-volume gain of nearly 2%, concentrated around the cerebellum, midbrain, ventricles and frontal regions. Much of this regrowth happens early, in the first couple of weeks off alcohol.\n\n"
             "Cerebellum and Attention\n"
-            "Recovery was especially marked in the cerebellum (motor coordination) — cerebellar choline rose significantly — and gains in frontal N-acetylaspartate (a marker of neuron health) tracked with measurable improvements in attention. In other words, the structural healing came with real cognitive gains.\n\n"
+            "Recovery was especially clear in brain areas used for movement and attention. A marker of brain-cell health rose alongside measurable improvements in attention, so the physical healing came with real gains in thinking.\n\n"
             "A Foundation, Not the Finish\n"
             "Higher functions such as complex reasoning recover more gradually, but the first two weeks establish that the brain begins healing quickly once alcohol is removed.",
       ),
@@ -132,18 +132,18 @@ class AlcoholPage extends StatelessWidget {
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10760842/",
         referenceDate: "June 2026",
         referenceContent:
-            "Cognitive Recovery After Three Months Sober\n\n"
+            "Thinking and Memory After Three Months Sober\n\n"
             "Source: Systematic review of neuropsychological recovery following abstinence from alcohol (PubMed Central, 2024) — peer-reviewed\n\n"
             "What the Evidence Shows\n"
-            "This systematic review pooled studies tracking how thinking skills recover after people stop drinking. The headline finding: most neurocognitive functions in alcohol use disorder recover toward normal within roughly 6 to 12 months of abstinence — and some domains bounce back earlier.\n\n"
+            "This review combined studies that tracked how thinking and memory recover after people stop drinking. Most skills move toward normal within roughly six to twelve months, and some improve earlier.\n\n"
             "What Improves First\n"
             "Two specific abilities stand out as recovering earlier than the rest: basic processing speed (the review found this typically recovers by about one month, though accuracy on more complex tasks lags behind) and working memory updating. By around the three-month mark, many people already notice these lifting.\n\n"
             "What Takes Longer\n"
-            "Attention, executive functions (planning, decision-making, impulse control), perception and other memory sub-domains are also expected to recover — but the review's evidence points to this happening over the fuller 6-to-12-month window, not by three months.\n\n"
+            "Attention, planning, decision-making, impulse control, perception, and memory keep improving across the six-to-twelve-month recovery window.\n\n"
             "What Influences Recovery\n"
             "The review notes recovery is shaped by factors such as age, smoking status and premorbid ability — but, encouragingly, not consistently by the total amount previously drunk. Recovery is the expected trajectory.\n\n"
             "Why It Matters\n"
-            "Regaining cognitive function isn't just about feeling sharper — better attention and decision-making support staying in treatment and protecting against relapse.",
+            "Clearer thinking is practical recovery: better attention and decision-making help people stay in treatment and avoid relapse.",
       ),
       QuitMilestone(
         day: 180,
@@ -158,12 +158,12 @@ class AlcoholPage extends StatelessWidget {
             "Source: Peer-reviewed review of structural and functional brain recovery during abstinence from substance use (PubMed Central)\n\n"
             "Recovery Keeps Going\n"
             "The early brain-volume rebound of the first weeks is only the beginning. This review documents that with sustained abstinence the brain continues to recover structurally and functionally — grey matter recovers and damaged white-matter pathways that coordinate communication between brain regions repair over months.\n\n"
-            "The Prefrontal Cortex\n"
-            "Recovery is especially relevant for the prefrontal cortex — the seat of judgment, planning and self-control. As it heals, higher-order thinking and impulse control continue to strengthen, which is part of why a period like six months is often when people feel genuinely back in command of their decisions.\n\n"
-            "Neuroplasticity and Function\n"
-            "Alongside structural repair, the review describes recovery of brain function and connectivity — the basis of neuroplasticity, the brain's capacity to learn and rewire. This makes sustained abstinence a powerful window for therapy and building new habits.\n\n"
+            "The Front of the Brain\n"
+            "Recovery is especially important in the front of the brain, which handles judgment, planning, and self-control. As it heals, decision-making and impulse control strengthen.\n\n"
+            "Brain Rewiring and Function\n"
+            "Alongside physical repair, brain function and connections recover too. The brain can rewire and relearn, which makes sustained abstinence a powerful time for therapy and new habits.\n\n"
             "Recovery Signal\n"
-            "Recovery is real but not always complete, and its extent varies with how heavy and prolonged the use was, and with age. Still, by six months the direction of travel is clearly toward a healthier, better-functioning brain.",
+            "By six months, brain structure and function are clearly moving toward a healthier normal. Staying abstinent gives that recovery more time to build.",
       ),
       QuitMilestone(
         day: 365,

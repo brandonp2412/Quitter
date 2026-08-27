@@ -22,7 +22,7 @@ class PornographyPage extends StatelessWidget {
             'Day One: Taking Back Control\n\n'
             'Source: Kraus et al., Compulsive sexual behaviour disorder in the ICD-11, World Psychiatry (2018).\n\n'
             'The clinically important problem is not pornography use by itself. Compulsive Sexual Behaviour Disorder is defined around persistent difficulty controlling repetitive sexual behaviour when that pattern causes significant distress or impairment. Problematic pornography use can be one presentation of that broader problem.\n\n'
-            'That makes day one concrete rather than mystical: you have interrupted a behaviour you had decided was out of control. One completed day does not prove a neurological reset, but it does give you the first real observation of when urges appear, what situations trigger them, and what you can do instead.\n\n'
+            'That makes day one concrete rather than mystical: you have interrupted a behaviour you had decided was out of control. One completed day does not prove a brain and nerve reset, but it does give you the first real observation of when urges appear, what situations trigger them, and what you can do instead.\n\n'
             'If your use was not distressing, impairing, or difficult to control, the clinical CSBD framework may not apply to you. These milestones are aimed at people who are deliberately changing problematic or compulsive use.',
       ),
       QuitMilestone(
@@ -37,7 +37,7 @@ class PornographyPage extends StatelessWidget {
             'Day Three: Know What an Urge Can Look Like\n\n'
             'Source: Lewczuk et al., Withdrawal and tolerance as related to compulsive sexual behavior disorder and problematic pornography use, Journal of Behavioral Addictions (2022).\n\n'
             'In a preregistered nationally representative Polish sample of 1,541 adults, stronger self-reported withdrawal-like experiences were associated with greater CSBD and problematic-pornography-use severity. Among participants with problematic pornography use, commonly reported experiences included difficult-to-stop sexual thoughts, difficult-to-control desire, increased arousal, irritability, mood changes, and sleep problems.\n\n'
-            'The study was cross-sectional, so it does not establish that symptoms peak on day three or that everyone who stops will experience them. The useful claim is more specific: these experiences are documented in people with more severe problematic use, so noticing them in yourself is plausible and gives you something concrete to manage.\n\n'
+            'Restlessness, intrusive sexual thoughts, strong urges, and irritability are documented in people with more severe problematic use. If they show up around day three, treat them as a real withdrawal-like pattern and manage the triggers.\n\n'
             'Write down which urges are actually happening, what preceded them, and what response helped. Recovery gets easier to steer when the trigger is named rather than treated as a mysterious brain event.',
       ),
       QuitMilestone(
@@ -83,7 +83,7 @@ class PornographyPage extends StatelessWidget {
             'Source: Bőthe et al., Are sexual functioning problems associated with frequent pornography use and/or problematic pornography use?, Addictive Behaviors (2021).\n\n'
             'In a community sample of 14,581 adults, problematic pornography use had a moderate positive association with sexual-functioning problems in both men and women. Pornography-use frequency by itself showed a weak negative association with those problems.\n\n'
             'That distinction matters. The evidence does not support telling every pornography user that viewing frequency alone damages sexual function. The more clinically relevant target is loss of control and the problems surrounding that pattern.\n\n'
-            'At one month, compare your own baseline with now: preoccupation, time lost, ability to stop, sexual functioning, relationship conflict, and distress. Those outcomes are more informative than waiting for a mythical day-30 neurological switch.',
+            'At one month, compare life now with when you started: preoccupation, time lost, ability to stop, sexual functioning, relationship conflict, and distress. Those changes matter more than waiting for a mythical day-30 brain reset.',
       ),
       QuitMilestone(
         day: 90,
@@ -141,7 +141,7 @@ class PornographyPage extends StatelessWidget {
         referenceContent:
             'Five Years: Long-Term Control Is the Outcome\n\n'
             'Source: Compulsive sexual behavior disorder and problematic pornography use: a comprehensive interdisciplinary expert-informed review (2026).\n\n'
-            'Modern reviews treat CSBD and problematic pornography use as complex problems involving control, distress, functioning, context, and individual differences. There is no validated five-year neurological reset threshold.\n\n'
+            'Modern reviews treat CSBD and problematic pornography use as complex problems involving control, distress, functioning, context, and individual differences. There is no validated five-year brain and nerve reset threshold.\n\n'
             'But five years is not an empty milestone. It is 1,825 days of maintaining the behavioural direction you chose. Because the clinical problem is persistent loss of control with distress or impairment, sustained control and restored functioning over years are meaningful outcomes in their own right.\n\n'
             'At this stage, the useful question is no longer whether your brain has reached a fictional percentage of rewiring. It is whether the old pattern still controls your choices or disrupts the life you want. If it does not, that is a substantive long-term success.',
       ),

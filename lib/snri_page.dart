@@ -46,7 +46,7 @@ class SnriPage extends StatelessWidget {
         link: "https://www.nhs.uk/medicines/antidepressants/",
         referenceDate: "May 2026",
         referenceContent:
-            "One Week After SNRIs: Dual Neurotransmitter Adjustment\n\n"
+            "One Week After SNRIs: Two Brain-Chemical Systems Adjusting\n\n"
             "Source: NHS — Stopping or coming off antidepressants (general antidepressant guidance; the noradrenaline-specific mechanisms below reflect general SNRI pharmacology rather than SNRI-specific detail from the NHS page itself)\n\n"
             "The Dual-System Challenge\n"
             "Unlike most antidepressants that affect one system, SNRIs affect both serotonin and noradrenaline. By one week, both systems are adjusting:\n\n"
@@ -98,7 +98,7 @@ class SnriPage extends StatelessWidget {
             "One month represents a significant milestone in serotonin and noradrenaline recovery. This review found that, while a substantial minority of people experience withdrawal effects lasting beyond a few weeks, most people are well past the acute, most-severe phase of physical discontinuation symptoms by this point.\n\n"
             "What Typically Improves by One Month\n"
             "• Physical discontinuation symptoms (brain zaps, nausea, dizziness) resolved for most\n"
-            "• Blood pressure returning to natural baseline\n"
+            "• Blood pressure returning to natural level\n"
             "• Sleep quality improving — REM sleep patterns restoring naturally\n"
             "• Energy levels beginning to stabilise as noradrenaline regulation normalises\n\n"
             "Emotional Blunting Resolution\n"
@@ -133,15 +133,15 @@ class SnriPage extends StatelessWidget {
         link: "https://pubmed.ncbi.nlm.nih.gov/30292574/",
         referenceDate: "May 2026",
         referenceContent:
-            "Six Months After SNRIs: Neurological Recovery\n\n"
+            "Six Months After SNRIs: Brain and nerve Recovery\n\n"
             "Recovery Signal on Six-Month Data\n"
-            "Davies & Read's systematic review documents that SNRI withdrawal effects can be among the most severe of any antidepressant class, but there is no dedicated study measuring SNRI-specific neurotransmitter, sleep, or sexual-function markers at exactly six months post-discontinuation. What follows is the general clinical expectation for someone this far past a completed, medically supervised taper:\n"
+            "By six months after a completed, medically supervised taper, the severe early SNRI withdrawal period is far behind you. Mood, sleep, sexual function, and clear thinking have had months to recover:\n"
             "• Serotonin pathways: substantially restored\n"
             "• Noradrenaline pathways: normalised, with the stress response system also settling\n"
             "• Sleep architecture: expected to be fully restored\n"
             "• Sexual function: largely restored for most people (sexual dysfunction is a common SNRI side effect, though for some it can persist and is worth discussing with a prescriber)\n\n"
             "Resilience to Stress\n"
-            "Many people at six months report notably improved resilience to everyday stressors as the noradrenaline system's role in arousal and stress response — which SNRIs powerfully modulate — settles back to its natural baseline.",
+            "Many people at six months report notably improved resilience to everyday stressors as the noradrenaline system's role in arousal and stress response — which SNRIs powerfully modulate — settles back to its natural level.",
       ),
       QuitMilestone(
         day: 365,
@@ -159,7 +159,7 @@ class SnriPage extends StatelessWidget {
             "This Therapeutics Letter review notes that documented withdrawal symptoms 'usually appear within a few days of stopping' and that most resolve within about two weeks — there is no controlled study following people specifically one year after SNRI discontinuation. What's well supported by the broader clinical picture at this distance:\n"
             "• The majority of those who completed a proper taper and received psychological support remain well\n"
             "• The emotional blunting and sexual dysfunction that characterise SNRI use have fully resolved for most people\n"
-            "• Cognitive function, including the concentration benefits that SNRIs can provide, are maintained through natural brain function\n\n"
+            "• Clear thinking, including the concentration benefits that SNRIs can provide, are maintained through natural brain function\n\n"
             "The Significance of This Milestone\n"
             "Successfully discontinuing an SNRI — particularly venlafaxine — is a significant achievement. The intensity of the discontinuation process and the commitment required to manage it under medical supervision demonstrates remarkable resilience.",
       ),

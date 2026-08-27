@@ -85,7 +85,7 @@ class GhbPage extends StatelessWidget {
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC8199158/",
         referenceDate: "June 2026",
         referenceContent:
-            "Three Months Off GHB\n\nSource: \"Characterization of the GHB Withdrawal Syndrome,\" on PubMed Central\n\nThree Months of Recovery\nBy three months, the acute GHB withdrawal syndrome is long resolved. The residual risks identified at discharge are craving and insomnia, so three months of abstinence gives sleep, autonomic stability, and relapse-prevention routines substantial time to consolidate.\n\nWhat People Commonly Report\n• Calmer baseline mood\n• More reliable sleep\n• Clearer thinking and fewer cravings\n\nIf anxiety, insomnia, or low mood are still prominent at three months, that's worth discussing with a clinician rather than assuming it will resolve on its own.",
+            "Three Months Off GHB\n\nSource: \"Characterization of the GHB Withdrawal Syndrome,\" on PubMed Central\n\nThree Months of Recovery\nBy three months, the acute GHB withdrawal syndrome is long resolved. The residual risks identified at discharge are craving and insomnia, so three months of abstinence gives sleep, autonomic stability, and relapse-prevention routines substantial time to consolidate.\n\nWhat People Commonly Report\n• Calmer usual mood\n• More reliable sleep\n• Clearer thinking and fewer cravings\n\nIf anxiety, insomnia, or low mood are still prominent at three months, that's worth discussing with a clinician rather than assuming it will resolve on its own.",
       ),
       QuitMilestone(
         day: 180,

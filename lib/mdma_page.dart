@@ -38,7 +38,7 @@ class MdmaPage extends StatelessWidget {
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3931692/",
         referenceDate: "July 2026",
         referenceContent:
-            "One Week After MDMA\n\nSource: Meyer (2013), \"3,4-Methylenedioxymethamphetamine (MDMA): Current Perspectives,\" Substance Abuse and Rehabilitation\n\nPast the Midweek Blues\nFor most people, a week is past the 2-to-5-day window this review associates with the acute comedown, so mood should be back to baseline. The review notes that for people who use heavily or repeatedly, cravings can persist as part of a dependence pattern, though it does not describe this as involving significant physical withdrawal symptoms.\n\nWhen to Seek Help\nIf low mood, anxiety, or sleep problems persist a week on, that may be more than a comedown — it is worth talking to a professional.",
+            "One Week After MDMA\n\nSource: Meyer (2013), \"3,4-Methylenedioxymethamphetamine (MDMA): Current Perspectives,\" Substance Abuse and Rehabilitation\n\nPast the Midweek Blues\nFor most people, a week is past the 2-to-5-day window this review associates with the acute comedown, so mood should be back to normal. The review notes that for people who use heavily or repeatedly, cravings can persist as part of a dependence pattern, though it does not describe this as involving significant physical withdrawal symptoms.\n\nWhen to Seek Help\nIf low mood, anxiety, or sleep problems persist a week on, that may be more than a comedown — it is worth talking to a professional.",
       ),
       QuitMilestone(
         day: 14,
@@ -48,7 +48,7 @@ class MdmaPage extends StatelessWidget {
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3931692/",
         referenceDate: "July 2026",
         referenceContent:
-            "Two Weeks Off MDMA\n\nSource: Meyer (2013), \"3,4-Methylenedioxymethamphetamine (MDMA): Current Perspectives,\" Substance Abuse and Rehabilitation\n\nRecovery Timeline\nFor a single-use comedown, two weeks is well past the 2-to-5-day dip this review documents, so mood, sleep, and concentration should be steady. After heavier or repeated use, recovery continues beyond the comedown, and abstinent imaging studies show serotonin-transporter availability rising with sustained abstinence.\n\nWhat This Means for You\nIf your use was occasional, you're likely through the worst of it. If it was frequent or heavy, be patient with yourself — full recovery of serotonin signalling is a longer process than two weeks, covered in the next milestones.",
+            "Two Weeks Off MDMA\n\nSource: Meyer (2013), \"3,4-Methylenedioxymethamphetamine (MDMA): Current Perspectives,\" Substance Abuse and Rehabilitation\n\nRecovery Timeline\nFor a single-use comedown, two weeks is well past the 2-to-5-day dip this review documents, so mood, sleep, and concentration should be steady. After heavier or repeated use, recovery continues beyond the comedown, and abstinent imaging studies show serotonin-recycling capacity rising with sustained abstinence.\n\nWhat This Means for You\nIf your use was occasional, you're likely through the worst of it. If it was frequent or heavy, be patient with yourself — full recovery of serotonin signalling is a longer process than two weeks, covered in the next milestones.",
       ),
       QuitMilestone(
         day: 30,
@@ -59,7 +59,7 @@ class MdmaPage extends StatelessWidget {
         link: "https://pubmed.ncbi.nlm.nih.gov/34506649/",
         referenceDate: "June 2026",
         referenceContent:
-            "One Month Off MDMA\n\nSource: \"Serotonin transporter availability, neurocognitive function and their correlation in abstinent MDMA users,\" on PubMed\n\nWhere One Month Sits\nThe acute comedown and withdrawal are well behind you, and mood and cognition are steadier. Imaging research shows MDMA reduces the brain's capacity to process serotonin, and that this capacity recovers with sustained abstinence.\n\nRecovery Signal\nThe same research shows SERT availability recovering with sustained abstinence. Mood and serotonergic function improve first, while memory continues on its own recovery timeline — continued abstinence supports both.",
+            "One Month Off MDMA\n\nSource: \"Serotonin transporter availability, neurocognitive function and their correlation in abstinent MDMA users,\" on PubMed\n\nWhere One Month Sits\nThe acute comedown and withdrawal are well behind you, and mood and thinking and memory are steadier. Imaging research shows MDMA reduces the brain's capacity to process serotonin, and that this capacity recovers with sustained abstinence.\n\nRecovery Signal\nThe same research shows serotonin-recycling capacity recovering with sustained abstinence. Mood and serotonin function improve first, while memory continues on its own recovery timeline — continued abstinence supports both.",
       ),
       QuitMilestone(
         day: 90,
@@ -70,7 +70,7 @@ class MdmaPage extends StatelessWidget {
         link: "https://pubmed.ncbi.nlm.nih.gov/34506649/",
         referenceDate: "June 2026",
         referenceContent:
-            "Three Months Off MDMA\n\nSource: \"Serotonin transporter availability, neurocognitive function and their correlation in abstinent MDMA users,\" on PubMed\n\nContinued Recovery\nWith sustained abstinence the brain's serotonin system continues to recover, especially in deeper brain regions. Mood and sleep are typically stable by this point.\n\nRecovery Signal\nSustained abstinence drives continued serotonin-transporter recovery across brain regions, while mood and sleep remain stable and cognitive recovery continues.",
+            "Three Months Off MDMA\n\nSource: \"Serotonin transporter availability, neurocognitive function and their correlation in abstinent MDMA users,\" on PubMed\n\nContinued Recovery\nWith sustained abstinence the brain's serotonin system continues to recover, especially in deeper brain regions. Mood and sleep are typically stable by this point.\n\nRecovery Signal\nSustained abstinence drives continued serotonin-transporter recovery across brain regions, while mood and sleep remain stable and recovery of thinking and memory continues.",
       ),
       QuitMilestone(
         day: 365,
@@ -81,7 +81,7 @@ class MdmaPage extends StatelessWidget {
         link: "https://pubmed.ncbi.nlm.nih.gov/34506649/",
         referenceDate: "June 2026",
         referenceContent:
-            "One Year Off MDMA\n\nSource: \"Serotonin transporter availability, neurocognitive function and their correlation in abstinent MDMA users,\" on PubMed\n\nA Year On\nWith a year of abstinence, the brain's serotonin processing has recovered substantially and mood is stable.\n\nRecovery Signal\nA full year of abstinence gives the serotonergic system a prolonged recovery window. Imaging research shows serotonin-transporter availability rises with abstinence, making substantial serotonergic recovery the clearest biological signal at this stage.",
+            "One Year Off MDMA\n\nSource: \"Serotonin transporter availability, neurocognitive function and their correlation in abstinent MDMA users,\" on PubMed\n\nA Year On\nWith a year of abstinence, the brain's serotonin processing has recovered substantially and mood is stable.\n\nRecovery Signal\nA full year of abstinence gives the serotonin system a prolonged recovery window. Imaging research shows serotonin-recycling capacity rises with abstinence, making substantial serotonin recovery the clearest biological signal at this stage.",
       ),
     ];
   }

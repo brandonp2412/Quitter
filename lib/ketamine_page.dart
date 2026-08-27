@@ -28,7 +28,7 @@ class KetaminePage extends StatelessWidget {
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9476224/",
         referenceDate: "June 2026",
         referenceContent:
-            "One Week Off Ketamine\n\nSource: \"Ketamine-Induced Cystitis: A Comprehensive Review,\" on PubMed Central\n\nThe Psychological Phase\nThe main challenge in early ketamine cessation is psychological: cravings, altered or low mood, and some cognitive fog. Physical withdrawal, when present, is usually mild.\n\nCognitive fog is common at this stage — concentration feels effortful, reaction time is slower, and short-term memory may feel unreliable. These cognitive effects improve with abstinence: a longitudinal study of 114 ketamine users found significant gains in verbal memory, visual memory, processing speed, and executive function after 12 weeks without ketamine.\n\nBladder Symptoms\nIf you have ketamine-induced cystitis (urinary urgency, frequency, pain, or blood in urine), stopping now gives the bladder its best chance to heal. Pain can tempt people back to ketamine to self-medicate — a cycle worth breaking with proper pain support instead.",
+            "One Week Off Ketamine\n\nSource: \"Ketamine-Induced Cystitis: A Comprehensive Review,\" on PubMed Central\n\nThe Psychological Phase\nThe main challenge in early ketamine cessation is psychological: cravings, altered or low mood, and some brain fog. Physical withdrawal, when present, is usually mild.\n\nBrain fog is common at this stage — concentration feels effortful, reaction time is slower, and short-term memory may feel unreliable. These effects on thinking and memory improve with abstinence: a longitudinal study of 114 ketamine users found significant gains in verbal memory, visual memory, processing speed, and planning, focus, and decision-making after 12 weeks without ketamine.\n\nBladder Symptoms\nIf you have ketamine-induced cystitis (urinary urgency, frequency, pain, or blood in urine), stopping now gives the bladder its best chance to heal. Pain can tempt people back to ketamine to self-medicate — a cycle worth breaking with proper pain support instead.",
       ),
       QuitMilestone(
         day: 14,
@@ -59,7 +59,7 @@ class KetaminePage extends StatelessWidget {
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9476224/",
         referenceDate: "June 2026",
         referenceContent:
-            "Three Months Off Ketamine\n\nSource: \"Ketamine-Induced Cystitis: A Comprehensive Review,\" on PubMed Central\n\nContinued Recovery\nBladder recovery after ketamine is often gradual; the review describes symptom severity improving after cessation, though it can be prolonged and variable. Three months gives the urinary tract sustained time to heal in cases that are going to respond.\n\nMind\nCognitive function and mood are markedly clearer than in early abstinence, and cravings are less frequent. Persistent or severe bladder symptoms should be assessed by a urologist.",
+            "Three Months Off Ketamine\n\nSource: \"Ketamine-Induced Cystitis: A Comprehensive Review,\" on PubMed Central\n\nContinued Recovery\nBladder recovery after ketamine is often gradual; the review describes symptom severity improving after cessation, though it can be prolonged and variable. Three months gives the urinary tract sustained time to heal in cases that are going to respond.\n\nMind\nClear thinking and mood are markedly clearer than in early abstinence, and cravings are less frequent. Persistent or severe bladder symptoms should be assessed by a urologist.",
       ),
       QuitMilestone(
         day: 180,
@@ -69,7 +69,7 @@ class KetaminePage extends StatelessWidget {
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9476224/",
         referenceDate: "June 2026",
         referenceContent:
-            "Six Months Off Ketamine\n\nSource: \"Ketamine-Induced Cystitis: A Comprehensive Review,\" on PubMed Central\n\nHalf a Year On\nWith sustained abstinence, bladder symptoms continue to improve in cases that respond to cessation, and cognition and mood are stable. The compulsion to use has weakened considerably.\n\nRecovery Signal\nRecovery of established bladder damage can be incomplete, which is why early cessation matters so much. Whatever stage you stopped at, staying off gives the bladder its best possible outcome.",
+            "Six Months Off Ketamine\n\nSource: \"Ketamine-Induced Cystitis: A Comprehensive Review,\" on PubMed Central\n\nHalf a Year On\nWith sustained abstinence, bladder symptoms continue to improve in cases that respond to cessation, and thinking and memory and mood are stable. The compulsion to use has weakened considerably.\n\nRecovery Signal\nRecovery of established bladder damage can be incomplete, which is why early cessation matters so much. Whatever stage you stopped at, staying off gives the bladder its best possible outcome.",
       ),
       QuitMilestone(
         day: 365,
@@ -79,7 +79,7 @@ class KetaminePage extends StatelessWidget {
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9476224/",
         referenceDate: "June 2026",
         referenceContent:
-            "One Year Off Ketamine\n\nSource: \"Ketamine-Induced Cystitis: A Comprehensive Review,\" on PubMed Central\n\nA Year On\nTwelve months of abstinence gives the bladder, in early-caught cases, the fullest chance to recover, and leaves cognition and mood stable and clear. The psychological dependence that made stopping hard has largely faded.\n\nThe Bigger Picture\nA year free is a profound change — in physical health, clarity, and self-direction. Keeping the support that got you here protects it.",
+            "One Year Off Ketamine\n\nSource: \"Ketamine-Induced Cystitis: A Comprehensive Review,\" on PubMed Central\n\nA Year On\nTwelve months of abstinence gives the bladder, in early-caught cases, the fullest chance to recover, and leaves thinking and memory and mood stable and clear. The psychological dependence that made stopping hard has largely faded.\n\nThe Bigger Picture\nA year free is a profound change — in physical health, clarity, and self-direction. Keeping the support that got you here protects it.",
       ),
     ];
   }
