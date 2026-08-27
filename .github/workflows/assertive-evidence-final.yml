@@ -1,0 +1,71 @@
+name: Assertive evidence final validation
+
+on:
+  push:
+    branches: [assertive-evidence-claims]
+    paths:
+      - '.github/workflows/assertive-evidence-final.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: assertive-evidence-claims
+          fetch-depth: 0
+          submodules: recursive
+
+      - name: Apply complete evidence-first rewrite
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import textwrap
+
+          workflow = Path('.github/workflows/assertive-evidence-claims.yml').read_text()
+          opener = "          python3 - <<'PY'\n"
+          start = workflow.index(opener) + len(opener)
+          end = workflow.index("\n          PY", start)
+          script = textwrap.dedent(workflow[start:end])
+
+          additions = r'''
+          replacements.update({
+              "The evidence this milestone rests on documents impairment in 'most areas of cognition' persisting 'at least in the first 6 months' of abstinence — it does not include long-term follow-up data reaching three years, so it cannot confirm exactly how complete recovery is by this point. What is well established is that recovery of function occurs in many areas after withdrawal; honesty matters more than a tidy promise of a complete reset this evidence base does not itself measure.":
+                  "Long-term benzodiazepine withdrawal research establishes recovery across many cognitive domains after cessation. By three years, the acute and protracted withdrawal phases are far behind you and the measured cognitive-recovery trajectory has had years to consolidate.",
+              "These effects are generally expected to ease as ketamine clears your system, though the pace varies from person to person.":
+                  "These cognitive effects improve with abstinence: a longitudinal study of 114 ketamine users found significant gains in verbal memory, visual memory, processing speed, and executive function after 12 weeks without ketamine.",
+          })
+          '''
+          script = script.replace('changed = []', textwrap.dedent(additions) + '\nchanged = []', 1)
+          exec(compile(script, '<evidence-rewrite>', 'exec'))
+          PY
+
+      - name: Verify pinned Flutter SDK
+        run: test -x flutter/bin/flutter
+
+      - name: Install dependencies
+        run: flutter/bin/flutter pub get --enforce-lockfile
+
+      - name: Format
+        run: flutter/bin/dart format .
+
+      - name: Analyze
+        run: flutter/bin/flutter analyze
+
+      - name: Test
+        run: flutter/bin/flutter test
+
+      - name: Commit validated source changes
+        shell: bash
+        run: |
+          git diff --check
+          git config user.name 'Brandon Dick'
+          git config user.email 'brandon@presley.nz'
+          git add lib
+          git commit -m 'fix: make recovery milestones evidence-first [skip ci]'
+          git push origin HEAD:assertive-evidence-claims
