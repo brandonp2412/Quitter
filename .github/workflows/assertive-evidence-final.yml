@@ -48,6 +48,21 @@ jobs:
       - name: Verify pinned Flutter SDK
         run: test -x flutter/bin/flutter
 
+      - name: Keep SDK outside project format scan
+        shell: bash
+        run: |
+          mv flutter ../quitter-flutter-sdk
+          mkdir -p flutter/bin
+          cat > flutter/bin/flutter <<'SH'
+          #!/bin/sh
+          exec "$(dirname "$0")/../../../quitter-flutter-sdk/bin/flutter" "$@"
+          SH
+          cat > flutter/bin/dart <<'SH'
+          #!/bin/sh
+          exec "$(dirname "$0")/../../../quitter-flutter-sdk/bin/dart" "$@"
+          SH
+          chmod +x flutter/bin/flutter flutter/bin/dart
+
       - name: Install dependencies
         run: flutter/bin/flutter pub get --enforce-lockfile
 
