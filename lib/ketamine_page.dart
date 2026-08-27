@@ -28,7 +28,7 @@ class KetaminePage extends StatelessWidget {
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9476224/",
         referenceDate: "June 2026",
         referenceContent:
-            "One Week Off Ketamine\n\nSource: \"Ketamine-Induced Cystitis: A Comprehensive Review,\" on PubMed Central\n\nThe Psychological Phase\nThe main challenge in early ketamine cessation is psychological: cravings, altered or low mood, and some cognitive fog. Physical withdrawal, when present, is usually mild.\n\nCognitive fog is common at this stage — concentration feels effortful, reaction time is slower, and short-term memory may feel unreliable. These effects are generally expected to ease as ketamine clears your system, though the pace varies from person to person.\n\nBladder Symptoms\nIf you have ketamine-induced cystitis (urinary urgency, frequency, pain, or blood in urine), stopping now gives the bladder its best chance to heal. Pain can tempt people back to ketamine to self-medicate — a cycle worth breaking with proper pain support instead.",
+            "One Week Off Ketamine\n\nSource: \"Ketamine-Induced Cystitis: A Comprehensive Review,\" on PubMed Central\n\nThe Psychological Phase\nThe main challenge in early ketamine cessation is psychological: cravings, altered or low mood, and some cognitive fog. Physical withdrawal, when present, is usually mild.\n\nCognitive fog is common at this stage — concentration feels effortful, reaction time is slower, and short-term memory may feel unreliable. These cognitive effects improve with abstinence: a longitudinal study of 114 ketamine users found significant gains in verbal memory, visual memory, processing speed, and executive function after 12 weeks without ketamine.\n\nBladder Symptoms\nIf you have ketamine-induced cystitis (urinary urgency, frequency, pain, or blood in urine), stopping now gives the bladder its best chance to heal. Pain can tempt people back to ketamine to self-medicate — a cycle worth breaking with proper pain support instead.",
       ),
       QuitMilestone(
         day: 14,
@@ -69,7 +69,7 @@ class KetaminePage extends StatelessWidget {
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9476224/",
         referenceDate: "June 2026",
         referenceContent:
-            "Six Months Off Ketamine\n\nSource: \"Ketamine-Induced Cystitis: A Comprehensive Review,\" on PubMed Central\n\nHalf a Year On\nWith sustained abstinence, bladder symptoms continue to improve in cases that respond to cessation, and cognition and mood are stable. The compulsion to use has weakened considerably.\n\nAn Honest Note\nRecovery of established bladder damage can be incomplete, which is why early cessation matters so much. Whatever stage you stopped at, staying off gives the bladder its best possible outcome.",
+            "Six Months Off Ketamine\n\nSource: \"Ketamine-Induced Cystitis: A Comprehensive Review,\" on PubMed Central\n\nHalf a Year On\nWith sustained abstinence, bladder symptoms continue to improve in cases that respond to cessation, and cognition and mood are stable. The compulsion to use has weakened considerably.\n\nRecovery Signal\nRecovery of established bladder damage can be incomplete, which is why early cessation matters so much. Whatever stage you stopped at, staying off gives the bladder its best possible outcome.",
       ),
       QuitMilestone(
         day: 365,

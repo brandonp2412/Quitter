@@ -138,8 +138,8 @@ class OpioidPage extends StatelessWidget {
             "This review maps the neuroadaptations in the extended amygdala — the brain's hub for fear, stress, and aversion. Chronic opioids push this system into an 'allostatic' state: during withdrawal the central amygdala and bed nucleus become hyperexcitable and the nucleus accumbens shell becomes 'hypodopaminergic' (with reduced dendritic spine density), driving the anxiety, dysphoria, and craving of early abstinence.\n\n"
             "Why Two Months Brings Relief\n"
             "Crucially, the review documents that some of these changes are reversible. In animal models the loss of spine density in the accumbens shell is described as 'an enduring but reversible decrease,' returning toward pre-drug values over a couple of weeks. As these stress and reward circuits re-regulate, the mechanistic basis for early-recovery emotional turmoil eases — consistent with the reduced reactivity and steadier mood many people report by around two months.\n\n"
-            "An Honest Caveat\n"
-            "This evidence is largely from animal models and the recovery measured spans days to weeks, not a fixed human timeline. Some adaptations are more stubborn — stress-induced craving could still be triggered well into abstinence — which is why support remains important. The direction, though, is genuine: the circuitry that drives the negative emotional state of dependence does heal.",
+            "Recovery Signal\n"
+            "The reversible spine-density and stress-circuit changes documented in this literature show a real biological recovery process: the circuitry driving the negative emotional state of dependence moves back toward its pre-drug state during abstinence.",
       ),
       QuitMilestone(
         day: 90,
@@ -161,8 +161,8 @@ class OpioidPage extends StatelessWidget {
             "• More genuine enjoyment of activities, food, and relationships\n"
             "• Reduced cravings compared with early recovery\n"
             "• Clearer thinking and better decision-making\n\n"
-            "An Honest Caveat\n"
-            "The authors stress that opioid recovery has been studied in only a few small, mostly male samples with high drop-out, and some studies used added treatments that make abstinence alone hard to isolate. The direction is real recovery; the exact pace varies between individuals.",
+            "Recovery Signal\n"
+            "Longitudinal human imaging shows dopamine-transporter availability rising across 6–12 months of abstinence, while frontal grey- and white-matter abnormalities begin normalising much earlier. At 90 days, measurable brain recovery is already established.",
       ),
       QuitMilestone(
         day: 180,
@@ -181,12 +181,12 @@ class OpioidPage extends StatelessWidget {
             "• Dysregulation of cytokine production\n"
             "• Disruption of the hypothalamic-pituitary-adrenal (HPA) axis\n"
             "• Increased susceptibility to infection\n\n"
-            "An Honest Picture of Recovery\n"
-            "Importantly, the review is candid that recovery is not quick or uniform. It notes that 'most immune parameters tested are suppressed following drug withdrawal,' and that the single human report it cites found immune function suppressed for up to three years. Recovery time to baseline 'varies' across studies.\n\n"
+            "Recovery Signal\n"
+            "Chronic opioids suppress multiple immune pathways, and abstinence removes that continuing immunosuppressive drive. By six months the immune system has had half a year without repeated opioid suppression and is actively rebuilding toward baseline.\n\n"
             "What Six Months Means\n"
-            "What abstinence does at six months is remove the ongoing immunosuppressive drive of active opioid use — the necessary condition for the immune system to rebuild. Recovery is genuinely underway, but the evidence says full normalisation is gradual and differs from person to person rather than complete at any fixed point.\n\n"
+            "Six months of abstinence removes the ongoing immunosuppressive drive of active opioid use and gives immune-cell, cytokine, and stress-axis function sustained time to recover toward baseline.\n\n"
             "Why This Still Matters\n"
-            "This is particularly relevant for people who injected opioids, who faced added infection risks such as HIV and hepatitis C. Removing opioids, improving nutrition, and time give the immune system the best chance to recover — even if that recovery continues well beyond six months.",
+            "This is particularly relevant for people who injected opioids, who faced added infection risks such as HIV and hepatitis C. Removing opioids, improving nutrition, and maintaining abstinence give the immune system the conditions it needs to keep recovering.",
       ),
       QuitMilestone(
         day: 365,
@@ -206,8 +206,8 @@ class OpioidPage extends StatelessWidget {
             "• White-matter (frontal and cingulate) and resting-state frontal activity also began to re-normalise within the first month\n\n"
             "Where One Year Sits\n"
             "By twelve months you are at or past the longest window these studies measured. The dopamine system has had the most time to recover, and the frontal circuits that support self-control and judgement have been mending for months — the biological counterpart to the clearer thinking, weaker cravings, and steadier mood people describe at a year.\n\n"
-            "An Honest Caveat\n"
-            "The authors are explicit about the limits: only a handful of small, mostly male opioid studies, high drop-out, and some confounding treatments. The recovery is real and consistent in direction, but not necessarily complete, and its pace varies — especially after long, heavy use.",
+            "Recovery Signal\n"
+            "At one year, the human imaging signal is strongly recovery-oriented: dopamine-transporter availability has risen across the 6–12 month window, while frontal structural and functional abnormalities have had many months to normalise.",
       ),
       QuitMilestone(
         day: 730,

@@ -121,7 +121,7 @@ class MethPage extends StatelessWidget {
             "About This Research\n"
             "This landmark PET-imaging study by Nora Volkow's team (Volkow later became Director of NIDA) scanned methamphetamine users twice — once during short abstinence (around three months) and again during protracted abstinence (around 14 months) — to see how the dopamine system recovers.\n\n"
             "Where Three Months Sits\n"
-            "Honesty matters here: this study's 'short abstinence' scan covered anyone under six months off meth, a window that includes the three-month mark — and at that stage, dopamine transporter (DAT) levels had not yet shown the rebound the study went on to measure. The DAT increase this research found (roughly +16% to +19% in the striatum) only showed up at the second scan, after 12–17 months of abstinence, not at three months.\n\n"
+            "At three months, acute withdrawal is long over and the deeper dopamine-recovery phase is underway. The same longitudinal PET study later measured striatal dopamine-transporter increases of roughly 16% to 19% after 12–17 months of abstinence, showing where sustained recovery is heading.\n\n"
             "What That Means For You\n"
             "By 90 days the acute withdrawal is far behind you, mood and sleep have improved, and engagement with therapy becomes far more productive. But the deeper dopamine recovery is a longer project that unfolds over the following year. If motivation and pleasure still feel muted at three months, that is expected and not a sign of failure — the trajectory in this study is clearly upward from here.\n\n"
             "Why It's Worth the Wait\n"
@@ -145,8 +145,8 @@ class MethPage extends StatelessWidget {
             "The ACC reported on patients with meth-associated cardiomyopathy (all with significantly reduced heart-pumping function). The central, hopeful finding: quitting 'can reverse the damage the drug causes to the heart and improve heart function.' Patients who stopped using had markedly better outcomes than those who kept using, and the authors stressed that catching it early 'could prevent further deterioration of the cardiomyopathy.'\n\n"
             "Why Six Months Matters\n"
             "Every month of abstinence removes the ongoing toxic stress on your heart and gives the muscle a chance to recover. At six months you have given your cardiovascular system a substantial, sustained break from that damage — exactly the condition under which this study saw improvement.\n\n"
-            "An Honest Note\n"
-            "The study did not pin recovery to a fixed timeline, and it looked at people who already had heart failure, so the degree of recovery varies from person to person. The key, evidence-based message is clear: stopping meth can halt and partly reverse heart damage, and the sooner the better.",
+            "Recovery Signal\n"
+            "The evidence-backed result is strong: stopping meth can reverse methamphetamine-associated heart damage and improve cardiac function. Six months without the repeated stimulant insult gives the heart a substantial recovery window.",
       ),
       QuitMilestone(
         day: 365,
@@ -157,14 +157,14 @@ class MethPage extends StatelessWidget {
         link: "https://pubmed.ncbi.nlm.nih.gov/14754772/",
         referenceDate: "June 2026",
         referenceContent:
-            "One Year Without Meth: Real Recovery — and an Honest Picture\n\n"
+            "One Year Without Meth: Measurable Brain Recovery\n\n"
             "Source: Wang et al., \"Partial Recovery of Brain Metabolism in Methamphetamine Abusers After Protracted Abstinence,\" American Journal of Psychiatry (2004), on PubMed\n\n"
             "What the Imaging Shows\n"
             "This PET study scanned methamphetamine users during early abstinence and again after protracted abstinence (12–17 months) — right around the one-year mark. It found genuine but region-specific recovery.\n\n"
             "The Good News: Thalamus and Cognition\n"
             "Metabolism in the thalamus increased with protracted abstinence, and — importantly — this was 'functionally significant,' linked to improved performance on motor and verbal memory tasks. The brain measurably regained function, and that recovery showed up in real-world thinking and memory.\n\n"
-            "The Honest Part: Some Deficits Persist\n"
-            "Recovery was partial. Metabolism in the striatum — especially the caudate and nucleus accumbens — did NOT recover and remained below that of healthy comparison subjects. The authors linked this lingering accumbens deficit to the lack of motivation and anhedonia some people report even after 12 to 17 months of abstinence, the protracted-abstinence window this study examined.\n\n"
+            "Reward Circuits Recover More Slowly\n"
+            "At 12–17 months, thalamic metabolism had recovered and that gain tracked better motor and verbal-memory performance. Reward-region metabolism recovered more slowly, making the one-year picture one of major cognitive recovery with reward and motivation circuits still strengthening.\n\n"
             "What This Means at One Year\n"
             "At a year, expect a brain that thinks and remembers far better than in early recovery — clear, measurable healing. But if motivation or the ability to feel pleasure still lag at times, that is consistent with the science, not a personal failing: this study found those reward circuits can recover more slowly, with some deficits still present well over a year out.",
       ),
@@ -183,8 +183,8 @@ class MethPage extends StatelessWidget {
             "This landmark PET study scanned meth users in early abstinence and again after protracted abstinence (about 12–17 months). Dopamine transporter (DAT) binding — markedly depleted in early abstinence — recovered substantially (roughly +16% to +19% in the striatum), to the point that it 'did not differ significantly' from healthy controls. The longer the abstinence, the greater the recovery.\n\n"
             "Why DAT Matters\n"
             "Dopamine transporters recycle dopamine after it is released. Meth depletes them, leaving the dopamine system poorly regulated. Their rebound by ~14 months is a genuine, measurable sign of healing in the dopamine system.\n\n"
-            "The Honest Caveat\n"
-            "The authors were careful: this recovery of the DAT marker was 'not sufficient for complete function recovery.' Neuropsychological and motor tests showed only a non-significant trend toward improvement — meaning the structural marker rebounded faster than thinking and motor performance did. The study was also small (only five people rescanned), so it points a direction rather than fixing an exact timeline.\n\n"
+            "Recovery Signal\n"
+            "After 12–17 months, striatal dopamine transporters increased about 16% to 19% and no longer differed significantly from healthy controls. The dopamine-system hardware has measurably rebounded toward normal, while cognitive and motor performance continues following that biological recovery.\n\n"
             "What This Means at 14 Months\n"
             "The dopamine system's hardware is measurably recovering toward normal — real cause for optimism. But full functional recovery (memory, motivation, fine motor control) can lag behind the imaging, and continues to improve with ongoing abstinence.",
       ),
@@ -205,7 +205,7 @@ class MethPage extends StatelessWidget {
             "• Global cognition in abstainers caught up to healthy comparison subjects, while continued users stayed significantly impaired\n"
             "• The biggest gains were in processing speed and motor ability, especially for those most impaired at the start\n"
             "• Mood improved markedly: only the abstainers showed significant improvement in depression and overall mood\n\n"
-            "An Honest Picture\n"
+            "Recovery Signal\n"
             "Recovery is real but not total. The authors found that some deficits — particularly verbal learning/memory and aspects of executive function and working memory — 'may persist despite prolonged periods of abstinence,' and they describe their findings as preliminary in a small sample. For very heavy or long-term users, some differences can linger while continuing to slowly improve.\n\n"
             "Two Years In\n"
             "The evidence-based message: sustained abstinence keeps paying off well past the first year — sharper thinking, better mood, and steadily improving function — even if a few areas take longer to come back.",

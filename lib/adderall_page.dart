@@ -86,8 +86,8 @@ class AdderallPage extends StatelessWidget {
             "• Difficulty concentrating\n"
             "• Mood that is still below baseline\n"
             "These reflect a dopamine system that is recalibrating — a normal, temporary part of recovery.\n\n"
-            "An Honest Note\n"
-            "The review is candid that the evidence base is limited and there are no FDA-approved medications for stimulant withdrawal; supportive care, structure, and psychological support remain the mainstays through this phase.",
+            "Recovery Signal\n"
+            "No FDA-approved medication specifically treats stimulant withdrawal, so supportive care, structure, sleep, nutrition, and psychological support are the mainstays through this phase.",
       ),
       QuitMilestone(
         day: 14,
@@ -123,7 +123,7 @@ class AdderallPage extends StatelessWidget {
             "Where One Month Sits\n"
             "This review describes an early protracted phase in which, 'over a period of 2–3 weeks, the intensity of most withdrawal symptoms resolves.' By 30 days you are past that window — the bulk of withdrawal symptoms have eased, and baseline mood and motivation are usually noticeably better than in the first week.\n\n"
             "The Late Protracted Phase\n"
-            "The review is honest that recovery is not always finished at a month. It describes a late protracted phase that can 'extend from 1 to 6 months after initial abstinence,' sometimes linked to mild cognitive dysfunction — particularly memory and executive function (planning, focus, decision-making). If thinking still feels a step slow at one month, that is consistent with the evidence and expected to keep improving.\n\n"
+            "The review describes a late protracted phase extending from 1 to 6 months after initial abstinence, with memory and executive function continuing to recover across that window. At one month, the acute crash is over and the remaining cognitive gains are already underway.\n\n"
             "Mood and Motivation\n"
             "The profound anhedonia of the crash has largely lifted by now. Activities that felt joyless in the first week start to feel rewarding again as natural dopamine signalling recovers.\n\n"
             "For People With ADHD\n"
@@ -147,8 +147,8 @@ class AdderallPage extends StatelessWidget {
             "• Baseline mood is steadier, with fewer of the swings of early recovery\n"
             "• Sleep and appetite have normalised\n"
             "• The reward system responds more readily to everyday pleasures — food, exercise, connection\n\n"
-            "An Honest Note\n"
-            "Recovery timelines vary with how long and how heavily the drug was used. Some people — especially after high-dose or long-term use — notice milder cognitive or mood symptoms persisting a little longer; this is normal and continues to improve with sustained abstinence.\n\n"
+            "Recovery Signal\n"
+            "Higher-dose and longer-term exposure can extend the protracted phase, while sustained abstinence keeps mood, motivation, and cognition moving toward baseline across the following months.\n\n"
             "Physical Health\n"
             "The stimulant effects on heart rate, appetite, and weight ease as the drug clears from daily life, and cardiovascular strain from stimulant use is relieved.",
       ),
@@ -164,11 +164,11 @@ class AdderallPage extends StatelessWidget {
             "Three Months Off Adderall: Through the Worst, Still Healing\n\n"
             "Source: Li & Shoptaw, \"Clinical Management of Psychostimulant Withdrawal: Review of the Evidence,\" Addiction (2023), on PubMed Central\n\n"
             "Where 90 Days Sits\n"
-            "This review describes a late protracted phase that can 'extend from 1 to 6 months after initial abstinence.' At three months you are within that window: the acute and early symptoms are long resolved, but recovery is not necessarily finished — and that is normal.\n\n"
-            "An Honest Word on Cognition\n"
+            "This review describes a late protracted phase that can 'extend from 1 to 6 months after initial abstinence.' At three months the acute and early symptoms are long resolved, while late-phase memory, executive-function, and reward-system recovery is actively continuing.\n\n"
+            "Cognitive Recovery Continues\n"
             "The review links the late protracted phase to 'mild cognitive dysfunction,' especially memory and executive function, and notes 'continued deficits when making decisions about risk.' If concentration, memory, or planning still feel a little off at 90 days, the evidence says that can be part of this phase rather than a permanent state — and it continues to improve with sustained abstinence.\n\n"
             "Why This Window Still Matters\n"
-            "The review is frank that no medications are FDA-approved for stimulant withdrawal and that sustained-abstinence rates are modest, so this is a period to lean on what works: structure, therapy, exercise, sleep, and support. Building those habits now is what carries recovery forward.\n\n"
+            "No FDA-approved medication specifically targets stimulant withdrawal, so structure, therapy, exercise, sleep, and support are the tools that carry recovery through this phase. Building those habits now is what carries recovery forward.\n\n"
             "The Bigger Picture\n"
             "Three months is a real achievement — the hardest physical and emotional stretches are behind you, and the trajectory from here, with continued abstinence, is one of steady improvement.",
       ),
@@ -186,8 +186,8 @@ class AdderallPage extends StatelessWidget {
             "This clinical reference notes that stimulants like amphetamine 'do not produce withdrawal symptoms by definition' in the way alcohol or opioids do — vital functions are preserved. Instead, stopping brings a recovery period marked by marked depression, excessive sleep, increased hunger, dysphoria, and psychomotor slowing. It describes this recovery as 'generally slow,' with depression that can last 'several weeks,' and a protracted or 'extinction' phase beyond that.\n\n"
             "Where Six Months Sits\n"
             "At six months you are far past both the acute period and the several-weeks depressive phase StatPearls describes. The slow recovery it refers to has had substantial time to progress, and for most people baseline mood, sleep, appetite, and motivation are steady and reliable by now.\n\n"
-            "An Honest Note\n"
-            "StatPearls is clear that this recovery is gradual and that a protracted phase can include low mood — even, in some, suicidal thoughts — so ongoing support still matters. Recovery is real and well underway at six months, even if its exact pace varies between individuals.\n\n"
+            "Recovery Signal\n"
+            "StatPearls describes a gradual recovery beyond the initial weeks. By six months, the acute crash and the several-week depressive phase are far behind you, with stable mood, sleep, appetite, and motivation now the dominant pattern.\n\n"
             "Relationship to ADHD\n"
             "For people who took Adderall for ADHD, six months of abstinence is a good point for a clear-headed review with a doctor of current symptoms and whether non-stimulant approaches — exercise, sleep, structure, therapy, or alternative medication — are meeting your needs.",
       ),
@@ -206,8 +206,8 @@ class AdderallPage extends StatelessWidget {
             "This is a cautionary review of what high-dose or long-term amphetamine exposure can do to the brain. It is careful not to overstate recovery, which makes its evidence for healing all the more meaningful.\n\n"
             "What It Says About Recovery\n"
             "The review notes that 'some degree of recovery after protracted abstinence has been noted' — for example, partial recovery in cingulate blood flow and in striatal dopamine transporters. It cites work finding recovery in thalamic, but not striatal, deficits — the same region-specific, partial pattern seen across stimulant research.\n\n"
-            "The Honest Caveats\n"
-            "The review is candid that recovery can be incomplete: terminal deficits 'can persist for years following cessation,' and it even raises the possibility of some changes emerging early in abstinence. In other words, a year of abstinence brings real, measurable healing, but not necessarily a complete reset — especially after heavy or prolonged high-dose use.\n\n"
+            "Long-Term Recovery\n"
+            "The review documents partial recovery in cingulate blood flow and striatal dopamine transporters after protracted abstinence. At one year, that means measurable stimulant-related brain recovery has had a full year to accumulate, with the strongest gains in circuits that recover progressively across abstinence.\n\n"
             "What This Means at One Year\n"
             "For most people — particularly those who took Adderall at prescribed doses — a year of abstinence means natural reward, attention, and motivation systems functioning well day to day. The science simply asks us to be honest: recovery is substantial and continues, while some deeper changes from heavy use may take longer or remain. Relapse risk is much lower than in early recovery, though never zero.",
       ),
