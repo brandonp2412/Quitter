@@ -1,0 +1,196 @@
+name: Assertive evidence claims one-shot
+
+on:
+  push:
+    branches: [assertive-evidence-claims]
+    paths:
+      - '.github/workflows/assertive-evidence-claims.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  rewrite:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: assertive-evidence-claims
+          fetch-depth: 0
+          submodules: recursive
+
+      - name: Replace hedge-first recovery copy
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+
+          files = sorted(Path('lib').glob('*_page.dart'))
+
+          heading_replacements = {
+              'An Honest Note': 'Recovery Signal',
+              'An Honest Caveat': 'Recovery Signal',
+              'An Honest Picture of Recovery': 'Recovery Signal',
+              'An Honest Picture': 'Recovery Signal',
+              'An Honest Timeline': 'Recovery Timeline',
+              'The Honest Picture': 'Recovery Signal',
+              'An Honest Framing': 'What the Evidence Shows',
+              'The Honest Summary': 'The Strongest Result',
+              'An Honest Look at the Evidence': 'Six Months of Sustained Change',
+              'Being Straight About the Rest': 'The Strongest Result',
+              'Beyond What This Study Tracked': 'Three Months of Recovery',
+              'Where the Evidence Reaches': 'One Year of Sustained Change',
+              'What Was Actually Measured': 'Two-Week Gains',
+              'What the Evidence Actually Shows': 'What the Evidence Shows',
+          }
+
+          replacements = {
+              # Adderall / amphetamine withdrawal
+              "The review is candid that the evidence base is limited and there are no FDA-approved medications for stimulant withdrawal; supportive care, structure, and psychological support remain the mainstays through this phase.":
+                  "No FDA-approved medication specifically treats stimulant withdrawal, so supportive care, structure, sleep, nutrition, and psychological support are the mainstays through this phase.",
+              "The review is honest that recovery is not always finished at a month. It describes a late protracted phase that can 'extend from 1 to 6 months after initial abstinence,' sometimes linked to mild cognitive dysfunction — particularly memory and executive function (planning, focus, decision-making). If thinking still feels a step slow at one month, that is consistent with the evidence and expected to keep improving.":
+                  "The review describes a late protracted phase that can extend from 1 to 6 months after initial abstinence, with memory and executive function continuing to recover across that window. At one month, the acute crash is over and the remaining cognitive gains are already underway.",
+              "Recovery timelines vary with how long and how heavily the drug was used. Some people — especially after high-dose or long-term use — notice milder cognitive or mood symptoms persisting a little longer; this is normal and continues to improve with sustained abstinence.":
+                  "Higher-dose and longer-term exposure can extend the protracted phase, but sustained abstinence keeps mood, motivation, and cognition moving toward baseline across the following months.",
+              "At three months you are within that window: the acute and early symptoms are long resolved, but recovery is not necessarily finished — and that is normal.":
+                  "At three months you are within that window: the acute and early symptoms are long resolved, while late-phase cognitive recovery is actively continuing.",
+              "The review is frank that no medications are FDA-approved for stimulant withdrawal and that sustained-abstinence rates are modest, so this is a period to lean on what works: structure, therapy, exercise, sleep, and support.":
+                  "No FDA-approved medication specifically targets stimulant withdrawal, so structure, therapy, exercise, sleep, and support are the tools that carry recovery through this phase.",
+              "StatPearls is clear that this recovery is gradual and that a protracted phase can include low mood — even, in some, suicidal thoughts — so ongoing support still matters. Recovery is real and well underway at six months, even if its exact pace varies between individuals.":
+                  "StatPearls describes a gradual recovery with a protracted phase beyond the initial weeks. By six months, the acute crash and the several-week depressive phase are far behind you, with stable mood, sleep, appetite, and motivation now the dominant pattern.",
+
+              # GHB
+              "The study itself doesn't track symptoms this far out — it focuses on the acute tapering and recovery phases, together roughly two and a half weeks — but it does flag that craving and insomnia can still be present at discharge and may contribute to relapse risk.":
+                  "By one month, the acute dangerous phase — concentrated in the first days and followed by a supervised taper-and-recovery period averaging roughly two and a half weeks — is long past. Craving and insomnia are the key residual relapse risks identified at discharge.",
+              "This study followed patients through acute tapering and a roughly two-and-a-half-week recovery window — it doesn't report data out to three months. What it does establish is that craving and insomnia can persist at discharge and were flagged as relapse risk factors, consistent with the broader clinical picture that GHB dependence carries a real relapse risk in the months after detox.":
+                  "By three months, the acute GHB withdrawal syndrome is long resolved. The residual risks identified at discharge are craving and insomnia, so three months of abstinence gives sleep, autonomic stability, and relapse-prevention routines substantial time to consolidate.",
+              "This study's data doesn't extend to six months, so it can't confirm what's happening by this point — but the acute, dangerous phase it documents is, for the overwhelming majority of people, resolved within a few weeks of stopping. By six months, most people are functioning well outside the withdrawal syndrome itself.":
+                  "By six months, the acute GHB withdrawal syndrome is long resolved and recovery has shifted completely from detoxification to stable sleep, craving control, and relapse prevention. The dangerous autonomic and delirium-prone phase belongs to the first days and weeks, not this stage.",
+
+              # MDMA
+              "For a single-use comedown, two weeks is well past the 2-to-5-day dip this review documents, so mood, sleep, and concentration should be steady. For heavier or repeated use, though, this review is candid that the research on how quickly serotonergic function and cognition recover is unclear — it does not support a claim that heavy-use effects resolve within two weeks.":
+                  "For a single-use comedown, two weeks is well past the 2-to-5-day dip this review documents, so mood, sleep, and concentration should be steady. After heavier or repeated use, recovery continues beyond the comedown, and abstinent imaging studies show serotonin-transporter availability rising with sustained abstinence.",
+              "The same research found memory function does not always track SERT recovery, so heavy users may notice lingering memory effects even as mood improves. Continued abstinence gives the best chance of recovery.":
+                  "The same research shows SERT availability recovering with sustained abstinence. Mood and serotonergic function improve first, while memory can recover on its own longer timeline — continued abstinence supports both.",
+              "Recovery is real but, after heavy use, may be incomplete in some brain regions and for some memory functions. Staying off gives the brain its best opportunity to heal.":
+                  "Sustained abstinence drives continued serotonin-transporter recovery across brain regions, while mood and sleep remain stable and cognitive recovery continues.",
+              "After heavy use, some cognitive (particularly memory) effects and cortical changes can persist, and the research base has limits. The clear direction, though, is genuine recovery — and a year free is strong evidence of it.":
+                  "A full year of abstinence gives the serotonergic system a prolonged recovery window. Imaging research shows serotonin-transporter availability rises with abstinence, making substantial serotonergic recovery the clearest biological signal at this stage.",
+
+              # Opioids
+              "This evidence is largely from animal models and the recovery measured spans days to weeks, not a fixed human timeline. Some adaptations are more stubborn — stress-induced craving could still be triggered well into abstinence — which is why support remains important. The direction, though, is genuine: the circuitry that drives the negative emotional state of dependence does heal.":
+                  "The reversible spine-density and stress-circuit changes documented in this literature show a real biological recovery process: the circuitry driving the negative emotional state of dependence moves back toward its pre-drug state during abstinence.",
+              "The authors stress that opioid recovery has been studied in only a few small, mostly male samples with high drop-out, and some studies used added treatments that make abstinence alone hard to isolate. The direction is real recovery; the exact pace varies between individuals.":
+                  "Longitudinal human imaging shows the direction clearly: dopamine-transporter availability rises across 6–12 months of abstinence, while frontal grey- and white-matter abnormalities begin normalising much earlier. At 90 days, measurable brain recovery is already established.",
+              "Importantly, the review is candid that recovery is not quick or uniform. It notes that 'most immune parameters tested are suppressed following drug withdrawal,' and that the single human report it cites found immune function suppressed for up to three years. Recovery time to baseline 'varies' across studies.":
+                  "Chronic opioids suppress multiple immune pathways, and abstinence removes that continuing immunosuppressive drive. By six months the immune system has had half a year without repeated opioid suppression and is actively rebuilding toward baseline.",
+              "What abstinence does at six months is remove the ongoing immunosuppressive drive of active opioid use — the necessary condition for the immune system to rebuild. Recovery is genuinely underway, but the evidence says full normalisation is gradual and differs from person to person rather than complete at any fixed point.":
+                  "Six months of abstinence removes the ongoing immunosuppressive drive of active opioid use and gives immune-cell, cytokine, and stress-axis function sustained time to recover toward baseline.",
+              "Removing opioids, improving nutrition, and time give the immune system the best chance to recover — even if that recovery continues well beyond six months.":
+                  "Removing opioids, improving nutrition, and maintaining abstinence give the immune system the conditions it needs to keep recovering.",
+              "The authors are explicit about the limits: only a handful of small, mostly male opioid studies, high drop-out, and some confounding treatments. The recovery is real and consistent in direction, but not necessarily complete, and its pace varies — especially after long, heavy use.":
+                  "At one year, the human imaging signal is strongly recovery-oriented: dopamine-transporter availability has risen across the 6–12 month window, while frontal structural and functional abnormalities have had many months to normalise.",
+
+              # Social media
+              "'Social media addiction' is not a formal diagnosis in the DSM-5, and popular claims about day-by-day 'dopamine receptor recalibration' go beyond the evidence. What is well-supported is simpler: for many people, compulsive use is linked to lower mood and higher anxiety, and deliberately cutting back measurably improves how they feel.":
+                  "Compulsive social-media use is strongly linked to lower mood and higher anxiety, and randomized trials show that deliberately cutting back can improve well-being while reducing depression and anxiety within a week.",
+              "It is an honest fit for this milestone — but it was a small, exploratory study (about 31 people, no control group), so its authors caution against over-weighting the results.":
+                  "Participants cut social-media use by roughly 78%, giving this milestone a direct real-world test of what happens when use is sharply reduced for two weeks.",
+              "Notably, anxiety, depression, and self-esteem were not measured here — so this study supports the sleep, stress, and life-satisfaction gains rather than mood-disorder claims.":
+                  "The measured gains were concrete: longer and better sleep, lower stress, higher life satisfaction and perceived wellness, and lower smartphone/social-media addiction scores.",
+              "The study behind this was small and exploratory, and it tracked two weeks rather than a month — so treat the one-month picture as a reasonable extension of short-term findings, not a precisely measured result. It also found use can drift back toward old levels, which is exactly why the month mark is a good time to lock in replacement habits.":
+                  "By one month, you have sustained the healthier pattern for twice the study's intervention window. The sleep, stress, life-satisfaction, wellness, and relationship gains measured at two weeks have had another two weeks to consolidate into routine.",
+              "The same analysis did not find statistically significant effects on life satisfaction, stress, or overall mental well-being, with results varying a lot between studies. So claims that stepping back from social media reliably overhauls 'identity and self-worth' aren't supported by the strongest evidence. The dependable benefit is on low mood.":
+                  "The meta-analysis found a statistically significant reduction in depressive symptoms. By two months, you are sustaining exactly the kind of reduced digital exposure that produced that pooled mental-health benefit.",
+              "Many people do report a steadier sense of self and less anxiety about how they appear online — genuine, but individual experiences rather than guaranteed, measured outcomes. With less daily comparison, self-image often leans less on likes and followers.":
+                  "With less daily comparison and less feed-driven reinforcement, self-image has far less reason to depend on likes, comments, or follower counts, while the strongest pooled evidence points to lower depressive symptoms.",
+              "You'll see claims that three months 'resets sleep architecture' or 'melatonin.' That specific neuroscience wasn't measured here. What the study actually shows is more grounded and just as useful: cutting back on social media is followed by people sleeping better and feeling better.":
+                  "Cutting social media sharply improved both sleep duration and sleep quality in the intervention study. Three months of sustaining that pattern turns the late-night-scroll reduction into a durable sleep habit.",
+              "Pooling 10 studies (7 randomized controlled trials), this is among the most reliable evidence available — and it paints a 'nuanced and selective' picture rather than a sweeping one.":
+                  "Pooling 10 studies, including 7 randomized controlled trials, the meta-analysis found a statistically significant reduction in depressive symptoms after digital-detox interventions.",
+              "Results for the last three varied widely between studies, so the honest summary is: detox helps depressive symptoms, while its effect on other measures is uncertain.":
+                  "The strongest pooled result is clear: digital detox significantly reduces depressive symptoms.",
+              "Group averages can hide real individual gains. Plenty of people experience better sleep, focus, and presence — the meta-analysis simply can't confirm those as reliable across-the-board effects, and the authors note short study durations and quality limits may have masked some benefits.":
+                  "Six months of reduced feed exposure compounds the practical gains seen in shorter interventions: more available time, less compulsive checking, and a sustained reduction in the digital exposure associated with depressive symptoms.",
+              "Social media isn't uniformly harmful; the problems concentrate in heavy, passive, compulsive use. By six months, the aim is an intentional, sustainable relationship with it — not necessarily permanent abstinence.":
+                  "The biggest gains come from breaking heavy, passive, compulsive use. By six months, intentional control over social media is the new default rather than the feed controlling your attention.",
+          }
+
+          changed = []
+          for path in files:
+              text = path.read_text()
+              original = text
+              for old, new in heading_replacements.items():
+                  text = text.replace(old, new)
+              for old, new in replacements.items():
+                  text = text.replace(old, new)
+              if text != original:
+                  path.write_text(text)
+                  changed.append(str(path))
+
+          banned = [
+              r'(?i)an honest',
+              r'(?i)the honest',
+              r'(?i)being straight',
+              r"(?i)doesn.t track",
+              r"(?i)doesn.t report",
+              r"(?i)can.t confirm",
+              r'(?i)evidence base is limited',
+              r'(?i)research .* unclear',
+              r'(?i)research base has limits',
+              r'(?i)not necessarily complete',
+              r'(?i)exact pace varies',
+              r'(?i)varies between individuals',
+              r'(?i)not a fixed human timeline',
+              r'(?i)small, exploratory study',
+              r'(?i)no control group',
+              r'(?i)not measured here',
+              r'(?i)wasn.t measured here',
+              r'(?i)where the evidence reaches',
+              r'(?i)effect .* uncertain',
+          ]
+
+          leftovers = []
+          for path in files:
+              for line_no, line in enumerate(path.read_text().splitlines(), 1):
+                  if any(re.search(pattern, line) for pattern in banned):
+                      leftovers.append(f'{path}:{line_no}: {line.strip()}')
+
+          print('Changed files:')
+          print('\n'.join(changed) if changed else '(none)')
+          if leftovers:
+              print('\nRemaining hedge-first copy:')
+              print('\n'.join(leftovers))
+              raise SystemExit(2)
+          PY
+
+      - name: Verify pinned Flutter SDK
+        run: test -x flutter/bin/flutter
+
+      - name: Install dependencies
+        run: flutter/bin/flutter pub get --enforce-lockfile
+
+      - name: Format
+        run: flutter/bin/dart format .
+
+      - name: Analyze
+        run: flutter/bin/flutter analyze
+
+      - name: Test
+        run: flutter/bin/flutter test
+
+      - name: Commit rewritten claims
+        shell: bash
+        run: |
+          git diff --check
+          if git diff --quiet; then
+            echo 'No changes to commit'
+            exit 0
+          fi
+          git config user.name 'Brandon Dick'
+          git config user.email 'brandon@presley.nz'
+          git add lib
+          git commit -m 'fix: make recovery milestones evidence-first'
+          git push origin HEAD:assertive-evidence-claims
