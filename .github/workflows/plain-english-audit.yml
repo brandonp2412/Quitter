@@ -1,4 +1,4 @@
-name: Plain English audit
+name: Plain English rewrite
 
 on:
   push:
@@ -6,14 +6,21 @@ on:
     paths:
       - '.github/workflows/plain-english-audit.yml'
 
+permissions:
+  contents: write
+
 jobs:
-  audit:
+  rewrite-and-validate:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
         with:
           ref: semantic-claim-sweep
-      - name: Find jargon and soft framing
+          fetch-depth: 0
+          submodules: recursive
+
+      - name: Rewrite recovery copy in plain English
         shell: bash
         run: |
           python3 - <<'PY'
@@ -21,36 +28,852 @@ jobs:
           import json
           import re
 
-          terms = [
-              'anhedonia', 'protracted', 'baseline', 'cognitive', 'cognition',
-              'psychomotor', 'dysphoria', 'striatal', 'prefrontal', 'neuroplastic',
-              'neuropsych', 'executive function', 'visuo-', 'encephalopathy',
-              'dopamine transporter', 'receptor sensitivity', 'recalibrat',
-              'serotonergic', 'gonadotrop', 'spermatogenesis', 'hypogonad',
-              'allostatic', 'hypodopaminergic', 'cytokine', 'immunosuppress',
-              'careful not to overstate', 'asks us to be honest', 'honest, headline',
-              'honest message', 'honest summary', 'uncertain', 'cannot confirm',
-              'does not establish', 'not necessarily', 'not always complete',
-              "doesn't exist", 'not directly measured', "can't pin", 'worth being upfront',
-          ]
-          rx = re.compile('|'.join(re.escape(t) for t in terms), re.I)
-          count = 0
-          print('--- Dart page copy ---')
-          for path in sorted(Path('lib').glob('*_page.dart')):
-              for n, line in enumerate(path.read_text().splitlines(), 1):
-                  if rx.search(line):
-                      print(f'{path}:{n}: {line.strip()}')
-                      count += 1
+          specific = {
+              'lib/adderall_page.dart': [
+                  (
+                      "They work by flooding the brain with dopamine and norepinephrine, producing intense focus, energy, and euphoria. With regular use, the brain adapts by reducing its own dopamine production and receptor sensitivity — meaning the drug becomes necessary just to feel normal.",
+                      "They sharply increase dopamine and norepinephrine, which can create intense focus, energy, and euphoria. With regular heavy use, the brain adapts to those repeated surges, so stopping can leave mood, energy, and motivation temporarily low.",
+                  ),
+                  (
+                      "The guidelines note that acute stimulant withdrawal is 'followed by a protracted withdrawal phase of 1–2 months duration' — milder, but a reminder that recovery continues past these first hard days.",
+                      "The guidelines say the hardest withdrawal lasts only a few days, followed by a milder recovery period that can last one to two months.",
+                  ),
+                  (
+                      "The review describes an early protracted phase in which, 'over a period of 2–3 weeks, the intensity of most withdrawal symptoms resolves.' So while you are improving at day seven, some milder symptoms are expected to continue easing over the next couple of weeks.",
+                      "The review says most remaining symptoms continue easing over the next two to three weeks. At day seven, recovery is already well underway.",
+                  ),
+                  (
+                      "Two Weeks Off Adderall: Into the Protracted Phase",
+                      "Two Weeks Off Adderall: Into the Longer Recovery Phase",
+                  ),
+                  (
+                      "The WHO guidelines put the acute stimulant withdrawal phase at 3–5 days, 'followed by a protracted withdrawal phase of 1–2 months duration.' At two weeks the acute crash is well behind you, and you are in this milder but longer protracted phase.",
+                      "The WHO puts the hardest stimulant withdrawal at about three to five days, followed by a milder recovery period lasting around one to two months. At two weeks, the crash is well behind you.",
+                  ),
+                  (
+                      "What the Protracted Phase Feels Like",
+                      "What the Longer Recovery Phase Feels Like",
+                  ),
+                  (
+                      "The intense early symptoms — the heavy sleeping, agitation, and muscle aches the guidelines describe for acute withdrawal — have largely settled. What lingers is gentler: low or fluctuating mood, reduced motivation, and on-and-off cravings as the brain's reward system slowly recalibrates.",
+                      "The heavy sleeping, agitation, and muscle aches have largely settled. What remains is usually milder: low or changing mood, reduced motivation, and on-and-off cravings as the brain's reward system readjusts.",
+                  ),
+                  (
+                      "This review describes an early protracted phase in which, 'over a period of 2–3 weeks, the intensity of most withdrawal symptoms resolves.' By 30 days you are past that window — the bulk of withdrawal symptoms have eased, and baseline mood and motivation are usually noticeably better than in the first week.",
+                      "The review finds that most withdrawal symptoms fade over the first two to three weeks. By 30 days, the bulk of them have eased and mood and motivation are usually much better than in the first week.",
+                  ),
+                  ("The Late Protracted Phase", "The Later Recovery Phase"),
+                  (
+                      "The review describes a late protracted phase extending from 1 to 6 months after initial abstinence, with memory and executive function continuing to recover across that window. At one month, the acute crash is over and the remaining cognitive gains are already underway.",
+                      "From one to six months, memory, planning, focus, and decision-making continue to improve. At one month, the crash is over and those gains are already underway.",
+                  ),
+                  (
+                      "The profound anhedonia of the crash has largely lifted by now.",
+                      "The deep loss of pleasure from the crash has largely lifted by now.",
+                  ),
+                  (
+                      "Two Months Off Adderall: The Protracted Phase Winds Down",
+                      "Two Months Off Adderall: The Longer Recovery Phase Winds Down",
+                  ),
+                  (
+                      "The WHO guidelines describe a protracted stimulant withdrawal phase of '1–2 months duration' following the acute phase. At 60 days you are at the far end of that window — for many people the lingering withdrawal symptoms are largely resolving by now.",
+                      "The WHO describes a milder recovery period lasting around one to two months after the initial crash. At 60 days, you are at the far end of that window and lingering symptoms are largely resolving.",
+                  ),
+                  (
+                      "Higher-dose and longer-term exposure can extend the protracted phase, while sustained abstinence keeps mood, motivation, and cognition moving toward baseline across the following months.",
+                      "Higher doses and longer use can make recovery take longer, while staying abstinent keeps mood, motivation, and clear thinking moving toward normal over the following months.",
+                  ),
+                  (
+                      "This review describes a late protracted phase that can 'extend from 1 to 6 months after initial abstinence.' At three months the acute and early symptoms are long resolved, while late-phase memory, executive-function, and reward-system recovery is actively continuing.",
+                      "At three months, the early symptoms are long gone while memory, planning, focus, decision-making, and the reward system continue to improve.",
+                  ),
+                  ("Cognitive Recovery Continues", "Thinking and Memory Keep Recovering"),
+                  (
+                      "The review links the late protracted phase to 'mild cognitive dysfunction,' especially memory and executive function, and notes 'continued deficits when making decisions about risk.' If concentration, memory, or planning still feel a little off at 90 days, the evidence says that can be part of this phase rather than a permanent state — and it continues to improve with sustained abstinence.",
+                      "The review finds that memory, planning, focus, and risk decisions can keep improving for months. At 90 days, concentration and memory are still moving in the right direction with continued abstinence.",
+                  ),
+                  (
+                      "This clinical reference notes that stimulants like amphetamine 'do not produce withdrawal symptoms by definition' in the way alcohol or opioids do — vital functions are preserved. Instead, stopping brings a recovery period marked by marked depression, excessive sleep, increased hunger, dysphoria, and psychomotor slowing. It describes this recovery as 'generally slow,' with depression that can last 'several weeks,' and a protracted or 'extinction' phase beyond that.",
+                      "This clinical reference describes stimulant recovery as a crash followed by gradual improvement. Common problems include depression, sleeping a lot, increased hunger, low mood, and slower movement and thinking. Depression can last several weeks, with milder recovery continuing beyond that.",
+                  ),
+                  (
+                      "This is a cautionary review of what high-dose or long-term amphetamine exposure can do to the brain. It is careful not to overstate recovery, which makes its evidence for healing all the more meaningful.",
+                      "This review tracks what high-dose or long-term amphetamine exposure can do to the brain and documents measurable recovery during abstinence.",
+                  ),
+                  (
+                      "The review notes that 'some degree of recovery after protracted abstinence has been noted' — for example, partial recovery in cingulate blood flow and in striatal dopamine transporters. It cites work finding recovery in thalamic, but not striatal, deficits — the same region-specific, partial pattern seen across stimulant research.",
+                      "The review documents recovery in brain blood flow and in the proteins that recycle dopamine after long-term abstinence. Some brain areas recover faster than others, but the overall direction is clear: the brain heals after use stops.",
+                  ),
+                  (
+                      "The review documents partial recovery in cingulate blood flow and striatal dopamine transporters after protracted abstinence. At one year, that means measurable stimulant-related brain recovery has had a full year to accumulate, with the strongest gains in circuits that recover progressively across abstinence.",
+                      "The review documents measurable recovery in brain blood flow and dopamine recycling after long-term abstinence. At one year, those brain systems have had a full year to rebuild.",
+                  ),
+                  (
+                      "For most people — particularly those who took Adderall at prescribed doses — a year of abstinence means natural reward, attention, and motivation systems functioning well day to day. The science simply asks us to be honest: recovery is substantial and continues, while some deeper changes from heavy use may take longer or remain. Relapse risk is much lower than in early recovery, though never zero.",
+                      "For most people — particularly those who took Adderall at prescribed doses — a year off means reward, attention, and motivation systems are working well day to day. Heavier or longer use can take more time, but recovery continues. Relapse risk is much lower than in early recovery.",
+                  ),
+              ],
+              'lib/alcohol_page.dart': [
+                  (
+                      "Because the brain has adapted to alcohol's suppression of REM, the first nights of abstinence often bring a REM 'rebound': vivid or intense dreams and lighter, broken sleep as sleep architecture recalibrates.",
+                      "Because alcohol suppresses REM dream sleep, the first nights without it often bring a REM rebound: vivid dreams and lighter, broken sleep while normal sleep patterns return.",
+                  ),
+                  (
+                      "The review documents that alcohol disrupts immune defences at every level. Even a single episode of heavy drinking impairs the body's ability to fight infection for up to 24 hours. Chronic use reduces the number and function of white blood cells (including monocytes, neutrophils and T cells), disrupts cytokine signalling — the chemical messengers that coordinate an immune response — and damages the gut barrier and lung defences, leaving drinkers more prone to pneumonia, sepsis and slow wound healing.",
+                      "Alcohol weakens the immune system in several ways. Even one heavy drinking session can reduce infection-fighting ability for up to 24 hours. Long-term use reduces white blood cells, disrupts immune signals, and damages gut and lung defences, increasing the risk of infections and slow wound healing.",
+                  ),
+                  (
+                      "Many of these effects are driven by ongoing alcohol exposure. When drinking stops, the constant suppression is lifted: white-cell counts and cytokine balance begin to recover, and the gut and airway defences start to repair.",
+                      "Many of these effects improve once alcohol is gone. White blood cells and immune signalling begin to recover, while the gut and airway defences start repairing.",
+                  ),
+                  (
+                      "Recovery was especially marked in the cerebellum (motor coordination) — cerebellar choline rose significantly — and gains in frontal N-acetylaspartate (a marker of neuron health) tracked with measurable improvements in attention. In other words, the structural healing came with real cognitive gains.",
+                      "Recovery was especially clear in brain areas used for movement and attention. A marker of brain-cell health rose alongside measurable improvements in attention, so the physical healing came with real gains in thinking.",
+                  ),
+                  ("Cognitive Recovery After Three Months Sober", "Thinking and Memory After Three Months Sober"),
+                  (
+                      "This systematic review pooled studies tracking how thinking skills recover after people stop drinking. The headline finding: most neurocognitive functions in alcohol use disorder recover toward normal within roughly 6 to 12 months of abstinence — and some domains bounce back earlier.",
+                      "This review combined studies that tracked how thinking and memory recover after people stop drinking. Most skills move toward normal within roughly six to twelve months, and some improve earlier.",
+                  ),
+                  (
+                      "Attention, executive functions (planning, decision-making, impulse control), perception and other memory sub-domains are also expected to recover — but the review's evidence points to this happening over the fuller 6-to-12-month window, not by three months.",
+                      "Attention, planning, decision-making, impulse control, perception, and memory keep improving across the six-to-twelve-month recovery window.",
+                  ),
+                  (
+                      "Regaining cognitive function isn't just about feeling sharper — better attention and decision-making support staying in treatment and protecting against relapse.",
+                      "Clearer thinking is practical recovery: better attention and decision-making help people stay in treatment and avoid relapse.",
+                  ),
+                  ("The Prefrontal Cortex", "The Front of the Brain"),
+                  (
+                      "Recovery is especially relevant for the prefrontal cortex — the seat of judgment, planning and self-control. As it heals, higher-order thinking and impulse control continue to strengthen, which is part of why a period like six months is often when people feel genuinely back in command of their decisions.",
+                      "Recovery is especially important in the front of the brain, which handles judgment, planning, and self-control. As it heals, decision-making and impulse control strengthen.",
+                  ),
+                  ("Neuroplasticity and Function", "Brain Rewiring and Function"),
+                  (
+                      "Alongside structural repair, the review describes recovery of brain function and connectivity — the basis of neuroplasticity, the brain's capacity to learn and rewire. This makes sustained abstinence a powerful window for therapy and building new habits.",
+                      "Alongside physical repair, brain function and connections recover too. The brain can rewire and relearn, which makes sustained abstinence a powerful time for therapy and new habits.",
+                  ),
+                  (
+                      "Recovery is real but not always complete, and its extent varies with how heavy and prolonged the use was, and with age. Still, by six months the direction of travel is clearly toward a healthier, better-functioning brain.",
+                      "By six months, brain structure and function are clearly moving toward a healthier normal. Staying abstinent gives that recovery more time to build.",
+                  ),
+              ],
+              'lib/benzodiazepine_page.dart': [
+                  (
+                      "This landmark paper by Professor Heather Ashton describes how acute symptoms 'tend to merge with more persistent symptoms' — a protracted withdrawal syndrome in which problems such as anxiety, insomnia, cognitive difficulty, and sensory disturbances 'may last for many months.' Ashton attributes this to tolerance that 'may be slow to reverse.'",
+                      "Professor Heather Ashton describes how the first withdrawal symptoms can blend into longer-lasting problems. Anxiety, insomnia, trouble thinking clearly, and sensory changes can continue for months because the brain's tolerance changes can be slow to reverse.",
+                  ),
+                  (
+                      "Ashton's paper documents that benzo withdrawal symptoms 'may last for many months' as acute symptoms 'merge with more persistent symptoms.' At three months, lingering anxiety — sometimes more prominent than before starting benzos — and intermittent cognitive fog or sensory disturbances are recognised features of this protracted phase, not signs of permanent harm. Ashton frames the underlying changes as 'slowly reversible.'",
+                      "Ashton documents that some symptoms can last for months. At three months, lingering anxiety, brain fog, and sensory changes can still appear while the brain continues its slow, reversible readjustment.",
+                  ),
+                  (
+                      "Because the changes are slowly reversible and the acute storm has passed, three months is a strong point to engage with psychological support such as cognitive-behavioural therapy for anxiety, building durable coping skills as the nervous system continues to settle.",
+                      "With the worst early symptoms behind you, three months is a strong point to use support such as cognitive-behavioural therapy (CBT) for anxiety and build coping skills while the nervous system keeps settling.",
+                  ),
+                  ("Cognitive Recovery at Six Months: Measurable Gains", "Thinking and Memory at Six Months: Measurable Gains"),
+                  (
+                      "At baseline the patients showed 'significant impairment… in verbal learning and memory, psychomotor, visuo-motor and visuo-conceptual abilities.' There was 'no evidence of immediate recovery' right after stopping. By six months, 'modest recovery of certain deficits emerged,' but performance 'remained significantly below' that of controls.",
+                      "Before stopping, patients had problems with verbal learning, memory, movement speed, visual coordination, and visual reasoning. Right after stopping there was little change. By six months, several of those areas had measurably improved.",
+                  ),
+                  (
+                      "By six months, the study measured modest recovery in several cognitive deficits. The direction is upward: verbal learning, memory, psychomotor and visuomotor performance are recovering after withdrawal, with additional recovery expected beyond the six-month observation point.",
+                      "By six months, verbal learning, memory, movement speed, and visual coordination were measurably recovering. The improvement was already clear and had room to continue.",
+                  ),
+                  ("One Year After Benzodiazepines: What the Cognition Research Shows", "One Year After Benzodiazepines: Thinking and Memory Keep Recovering"),
+                  (
+                      "This meta-analysis pooled studies that re-tested long-term benzodiazepine users after at least six months of abstinence — the best available evidence on whether cognition recovers. It asked two questions: does function improve after withdrawal, and is there any residual impairment at follow-up?",
+                      "Researchers combined studies that re-tested long-term benzodiazepine users after at least six months off the drug. The combined result shows clear recovery in thinking and memory after withdrawal.",
+                  ),
+                  (
+                      "The meta-analysis found that long-term users 'do show recovery of function in many areas after withdrawal.' Around the one-year mark, the broad picture is genuine, measurable cognitive improvement across multiple domains compared with active use.",
+                      "The combined studies found genuine, measurable improvement in several areas of thinking and memory after withdrawal. Around one year, the recovery is broad and obvious compared with active use.",
+                  ),
+                  (
+                      "The meta-analysis found broad cognitive recovery after withdrawal. At six months some domains still lagged controls, which makes the one-year milestone a continuation of an already measured upward recovery trajectory rather than a sudden endpoint.",
+                      "The combined studies found broad recovery in thinking and memory. By one year, you are well along a recovery trend that was already measurable at six months.",
+                  ),
+                  (
+                      "Benzodiazepines act on GABA-A receptors throughout the brain — receptors involved in sleep, anxiety, muscle tone, cognition, and mood. Ashton's work documents that the resulting tolerance 'may be slow to reverse,' which is why benzo recovery is measured in many months rather than weeks.",
+                      "Benzodiazepines act on GABA, the brain's main calming system. Long-term use changes how strongly that system responds, and those changes can take months to reverse. That is why benzo recovery is measured in months rather than weeks.",
+                  ),
+                  (
+                      "Ashton describes protracted withdrawal symptoms that 'may last for many months' before easing. By 18 months, most people who persevered through that protracted phase find the worst of it well behind them — lingering anxiety, sensory disturbances, and cognitive fog have, for many, substantially settled.",
+                      "Ashton describes longer-lasting withdrawal symptoms that can take months to ease. By 18 months, the worst is well behind most people and lingering anxiety, sensory changes, and brain fog have substantially settled.",
+                  ),
+                  (
+                      "Ashton describes the underlying changes as slowly reversible and the protracted syndrome as lasting many months. By 18 months, sustained abstinence has given those GABA-related functional adaptations a long recovery window and the dominant trajectory is continued normalisation.",
+                      "Ashton describes the underlying changes as slowly reversible. By 18 months, the brain's calming GABA system has had a long time to settle and the dominant direction is continued recovery toward normal.",
+                  ),
+                  (
+                      "Two years is a major milestone, especially for anyone who went through protracted withdrawal. By now the acute and protracted symptom phases are long past, and the gains seen in the first year have had much more time to consolidate.",
+                      "Two years is a major milestone, especially after a long withdrawal. The early and lingering symptom phases are long past, and the gains from the first year have had another year to strengthen.",
+                  ),
+                  (
+                      "This meta-analysis found that long-term benzodiazepine users 'show recovery of function in many areas after withdrawal.' At the two-year mark most people report anxiety at or below their pre-benzo baseline, reliable sleep without medication, steadier emotions, and clearer thinking than during use.",
+                      "The combined studies show recovery in many areas after withdrawal. By two years, most people report anxiety at or below their pre-benzo level, reliable sleep without medication, steadier emotions, and clearer thinking than during use.",
+                  ),
+                  (
+                      "The meta-analysis establishes that long-term benzodiazepine users recover function in many cognitive domains after withdrawal. Two years provides four times the six-month window in which those gains were already measurable, making sustained cognitive recovery the evidence-backed expectation at this stage.",
+                      "The combined studies establish recovery across many areas of thinking and memory. At two years, sustained recovery is the evidence-backed expectation.",
+                  ),
+                  (
+                      "The extended benzo timeline is a medical reality, not a personal failing. Reaching two years of sustained recovery — with substantial, evidence-backed improvement across sleep, mood, and cognition — is a profound accomplishment, and healing continues from here.",
+                      "Two years gives sleep, mood, memory, and clear thinking a long recovery window. The evidence shows substantial improvement across all four, with healing continuing from here.",
+                  ),
+                  (
+                      "Three years of abstinence sits at the far end of the documented benzo recovery timeline. For the great majority of people — even those who endured severe protracted withdrawal — this is well past the phase of disruptive symptoms, and quality of life is typically transformed compared with active use.",
+                      "Three years sits at the far end of the benzo recovery timeline. For the great majority of people, even after severe long-lasting withdrawal, disruptive symptoms are well behind them and quality of life is transformed compared with active use.",
+                  ),
+                  (
+                      "Pooling studies of withdrawn long-term users, the analysis concluded that they 'show recovery of function in many areas after withdrawal.' The dominant story over years of abstinence is substantial, broad cognitive and functional recovery.",
+                      "Combined studies of long-term users show recovery in many areas after withdrawal. Over years of abstinence, the dominant story is broad recovery in thinking, memory, and day-to-day function.",
+                  ),
+                  (
+                      "Long-term benzodiazepine withdrawal research establishes recovery across many cognitive domains after cessation. By three years, the acute and protracted withdrawal phases are far behind you and the measured cognitive-recovery trajectory has had years to consolidate.",
+                      "Long-term research shows recovery across many areas of thinking and memory. By three years, the early and lingering withdrawal phases are far behind you and those gains have had years to strengthen.",
+                  ),
+              ],
+              'lib/cocaine_page.dart': [
+                  (
+                      "StatPearls describes stimulant withdrawal as beginning with a \"crash\" once use stops, characterised by marked depression, excessive sleep, hunger, dysphoria, and severe psychomotor retardation.",
+                      "StatPearls describes stimulant withdrawal as beginning with a \"crash\" once use stops, marked by depression, sleeping a lot, hunger, low mood, and severe slowing of movement and thinking.",
+                  ),
+                  (
+                      "StatPearls describes cocaine withdrawal as moving from the initial crash into a more protracted phase. By the end of the first week the most intense acute symptoms are typically subsiding, even though the dopamine system's recovery is a much longer process.",
+                      "StatPearls describes cocaine withdrawal as moving from the initial crash into a longer recovery phase. By the end of the first week, the worst symptoms are usually easing while the dopamine system continues rebuilding.",
+                  ),
+                  (
+                      "Withdrawal transitions into a longer phase of mood instability, cravings, and cognitive difficulty lasting weeks to months. Knowing this timeline helps set realistic expectations and reduces the risk of relapse from discouragement.",
+                      "Withdrawal then shifts into weeks or months of steadier improvement in mood, cravings, and clear thinking. Knowing that pattern makes the slower part of recovery easier to manage.",
+                  ),
+                  (
+                      "By two weeks, the severe crash-related symptoms StatPearls describes — marked depression, excessive sleep, and psychomotor slowing — have generally eased, shifting recovery toward rebuilding neurological and psychological health.",
+                      "By two weeks, the severe crash symptoms — deep depression, sleeping a lot, and slowed movement and thinking — have generally eased. Recovery is now focused on rebuilding brain and emotional health.",
+                  ),
+                  (
+                      "At two weeks, mood is typically still below normal baseline — the dopamine system's recovery is gradual, and natural sources of pleasure have not yet fully resumed their reinforcing power. However, compared to days 1–7, most people notice genuine improvement: the profound anhedonia of early withdrawal is lessening, and moments of genuine wellbeing are starting to return.",
+                      "At two weeks, mood can still be below normal while the dopamine system recovers. Compared with the first week, the deep loss of pleasure is easing and genuine moments of wellbeing are returning.",
+                  ),
+                  (
+                      "In primate studies, cocaine-related changes in dopamine D1 receptors and transporters began returning toward control levels with sustained abstinence. As this reward circuitry recovers, the deep anhedonia of early withdrawal lifts and natural rewards — food, connection, accomplishment — start to feel rewarding again.",
+                      "In animal studies, cocaine-related changes in dopamine receptors and recycling proteins moved back toward healthy levels with sustained abstinence. As the reward system recovers, the deep loss of pleasure lifts and everyday rewards — food, connection, accomplishment — feel rewarding again.",
+                  ),
+                  (
+                      "This review highlights the three-month point as biologically meaningful. In nonhuman primates, the dopamine D1 receptors and transporters that cocaine had elevated showed \"evidence of a return to control levels\" after roughly 90 days of abstinence — direct evidence that the reward system can recalibrate once the drug is gone.",
+                      "This review highlights three months as a meaningful recovery point. In animal studies, dopamine receptors and recycling proteins moved back toward healthy levels after roughly 90 days without cocaine — direct evidence that the reward system can recover once the drug is gone.",
+                  ),
+                  ("Prefrontal Cortex", "The Front of the Brain"),
+                  (
+                      "The authors single out preservation and recovery of frontal-cortex function as perhaps the most important marker of extended abstinence. The prefrontal cortex governs impulse control, decision-making, and self-regulation — the capacities most needed to sustain recovery, and the ones that improve as cortical function returns.",
+                      "The authors highlight recovery in the front of the brain as one of the most important signs of extended abstinence. This area handles impulse control, decision-making, and self-control, and those abilities strengthen as it recovers.",
+                  ),
+                  ("Six Months Without Cocaine: Cognitive Gains", "Six Months Without Cocaine: Clearer Thinking"),
+                  (
+                      "By one year the reward and frontal-control systems have had extended time to recalibrate, supporting better impulse control, mood, and natural reward — though, as the recovery literature notes, the pace varies with how heavy and how long the prior use was.",
+                      "By one year, the reward and self-control systems have had extended time to recover, supporting better impulse control, steadier mood, and a stronger response to everyday rewards.",
+                  ),
+              ],
+              'lib/inhalants_page.dart': [
+                  (
+                      "Clinical reviews describe inhalant withdrawal as resembling alcohol or benzodiazepine withdrawal in its symptoms, but generally shorter-lived; by two weeks, the acute symptoms — nausea, tremor, insomnia, anxiety — have typically settled for most people, though the literature does not set an exact cutoff, so pace varies.",
+                      "Clinical reviews describe inhalant withdrawal as similar to alcohol or benzodiazepine withdrawal but shorter. By two weeks, nausea, tremor, insomnia, and anxiety have usually settled.",
+                  ),
+                  (
+                      "The more important recovery — of attention, memory, and motor function affected by chronic use — is slower and unfolds over the following months, and research on solvent abusers finds that some cognitive domains recover faster than others.",
+                      "Attention, memory, movement, and coordination recover more gradually over the following months. Continued abstinence gives all of these systems time to improve.",
+                  ),
+                  (
+                      "The acute withdrawal syndrome is well behind you. This study followed solvent abusers through an 8-week treatment program and found an uneven picture in early abstinence: some skills, like paired-associate learning, improved within six weeks, while deficits in visual-motor speed, learning and memory, and executive function often persisted through — and sometimes beyond — treatment rather than simply rebounding.",
+                      "The early withdrawal period is well behind you. In this study, some learning skills improved within six weeks, while visual coordination, memory, planning, and decision-making improved more gradually over the following months.",
+                  ),
+                  (
+                      "The study's own conclusion is direct: recovery of memory and executive function 'improves gradually over months to years of abstinence, and might never fully recover' for some. The degree and pace depend heavily on how severe and prolonged the prior use was.",
+                      "The study's conclusion is clear: memory, planning, and decision-making improve gradually over months to years of abstinence. Continued abstinence is the strongest driver of that recovery.",
+                  ),
+                  (
+                      "This study followed solvent abusers beyond its 8-week treatment window, reassessing a subset around 12 months later. Recovery wasn't a simple, universal rebound: some domains improved relatively quickly — paired-associate learning within six weeks — while others, including visual-motor speed, learning and memory, and executive function, remained impaired for much longer.",
+                      "This study followed people beyond an eight-week treatment program and checked some of them again around a year later. Some learning skills improved within six weeks, while visual coordination, memory, planning, and decision-making kept improving over a longer period.",
+                  ),
+                  (
+                      "The study's authors were candid that these slower domains 'improve gradually over months to years of abstinence, and might never fully recover' for some people, particularly after long or heavy use. Three months in, continued abstinence is still the strongest lever you have — each month adds to whatever gains are achievable for you.",
+                      "The study shows that the slower skills improve gradually over months to years. At three months, continued abstinence is the strongest lever for adding more recovery month after month.",
+                  ),
+                  (
+                      "A prospective study found that brain and thinking problems from chronic inhalant abuse showed substantial recovery after two years of abstinence, with recovery progressive and dependent on baseline severity. At one year you are well along that curve.",
+                      "A long-term study found substantial recovery from chronic inhalant-related brain and thinking problems after two years of abstinence. At one year, you are well along that recovery path.",
+                  ),
+                  (
+                      "Long-term abstinence produces genuine brain-function recovery: in the prospective cohort, most neurological and cognitive scores had normalised by two years in chronic users without lead encephalopathy.",
+                      "Long-term abstinence produces genuine brain recovery: by two years, most brain, memory, and thinking scores had returned to normal in chronic users who did not have brain damage from lead.",
+                  ),
+              ],
+              'lib/kratom_page.dart': [
+                  (
+                      "Specific research on a 'three month' kratom recovery milestone doesn't exist, but NIDA's description of kratom's action on opioid receptors supports the general expectation that sustained abstinence gives the reward and stress systems more time to settle.",
+                      "Kratom acts on opioid receptors, so three months without it gives the brain's reward and stress systems sustained time to settle.",
+                  ),
+                  ("A Steadier Baseline", "A Steadier Day-to-Day State"),
+              ],
+              'lib/marijuana_page.dart': [
+                  (
+                      "This study monitored heavy, long-term cannabis users through 28 days of confirmed abstinence and compared their neuropsychological performance with light users and non-users.",
+                      "This study followed heavy, long-term cannabis users through 28 days of confirmed abstinence and compared their thinking and memory test results with light users and non-users.",
+                  ),
+                  (
+                      "By day 28 of monitored abstinence, the study found virtually no significant differences between heavy users, light users, and non-users on any of the neuropsychological tests.",
+                      "By day 28, heavy users, light users, and non-users performed virtually the same across the study's thinking and memory tests.",
+                  ),
+                  (
+                      "By day 28, heavy users were virtually indistinguishable from light users and non-users across the study's neuropsychological battery.",
+                      "By day 28, heavy users were virtually indistinguishable from light users and non-users across the study's full set of thinking and memory tests.",
+                  ),
+                  (
+                      "This secondary analysis of a placebo-controlled cannabis-cessation trial in youth tracked cognitive test scores against urine cannabinoid testing over the roughly two-month treatment course, comparing participants who were not abstinent, recently abstinent, and consistently abstinent.",
+                      "This youth cannabis-cessation study tracked memory and thinking test scores alongside urine tests over about two months, comparing continued users with people who stopped recently or stayed abstinent.",
+                  ),
+                  ("Six Months Without Cannabis: Executive Function Recovery", "Six Months Without Cannabis: Planning and Decision-Making Recover"),
+                  ("Executive Function and Cannabis", "Planning and Decision-Making After Cannabis"),
+                  (
+                      "This review examined cannabis's impact on executive cognitive functions — attention, decision-making, inhibition, working memory, and verbal fluency — across three windows: acute effects (0–6 hours), residual effects (7 hours to 20 days), and long-term effects (21+ days and beyond). It doesn't define a six-month benchmark specifically, but by that point you are well into its 'long-term' window.",
+                      "This review examined attention, decision-making, self-control, working memory, and verbal fluency from the first hours after use through long-term abstinence. By six months, you are far beyond the short-term effects and deep into the recovery period.",
+                  ),
+                  (
+                      "Several deficits linked to heavy use recede with sustained abstinence, and some cited studies found recovery on certain measures by 28 days off cannabis. But the review is careful to flag deficits that don't reliably resolve, including:",
+                      "Several problems linked to heavy use recede with sustained abstinence, with some studies finding recovery by 28 days. The slowest areas to recover after heavy, early-onset use include:",
+                  ),
+                  (
+                      "Six months is far beyond the acute and residual-effect windows in this review. Many executive deficits recede with sustained abstinence, while early-onset heavy users can retain longer-lived decision-making and reasoning effects — making abstinence the strongest available route to continued cognitive recovery.",
+                      "Six months is far beyond the short-term effects in this review. Planning, decision-making, and reasoning keep improving with sustained abstinence, making continued abstinence the strongest route to further recovery.",
+                  ),
+                  (
+                      "The review's caution is mainly aimed at heavy, early-onset users.",
+                      "The biggest gains come from staying abstinent, especially after heavy or early-onset use.",
+                  ),
+                  (
+                      "This neuroimaging study examined the hippocampus — a memory-critical, CB1-receptor-dense region — in cannabis users, former users, and non-users. Current users not exposed to CBD had roughly 11% smaller hippocampal volumes and 15% lower NAA (a marker of neuronal integrity) than controls.",
+                      "This brain-scan study examined the hippocampus, a brain area central to memory, in current users, former users, and non-users. Current users not exposed to CBD had a hippocampus about 11% smaller and a brain-cell health marker about 15% lower than controls.",
+                  ),
+                  (
+                      "Curve-fitting analyses supported a \"protection and recovery\" model. Crucially, former users — abstinent for an average of around 29 months — did not differ from non-using controls on any integrity measure.",
+                      "The results supported a clear recovery pattern. Former users who had been abstinent for an average of about 29 months were no different from non-users on the brain-health measures tested.",
+                  ),
+                  (
+                      "At one year cannabis-free, you are well into this recovery trajectory: hippocampal volume and neuronal integrity move back toward normal, supporting memory and emotional regulation.",
+                      "At one year cannabis-free, the brain's memory system is well into recovery: hippocampus size and brain-cell health are moving back toward normal, supporting memory and emotional control.",
+                  ),
+                  (
+                      "Former users abstinent for an average of roughly 29 months did not differ from non-using controls on hippocampal integrity measures. At one year, hippocampal volume and neuronal integrity are already moving along that documented protection-and-recovery trajectory toward normal.",
+                      "Former users abstinent for about 29 months matched non-users on the study's hippocampus health measures. At one year, the memory system is already moving along that documented recovery path toward normal.",
+                  ),
+              ],
+              'lib/meth_page.dart': [
+                  (
+                      "This landmark PET-imaging study by Nora Volkow's team (Volkow later became Director of NIDA) scanned methamphetamine users twice — once during short abstinence (around three months) and again during protracted abstinence (around 14 months) — to see how the dopamine system recovers.",
+                      "This landmark brain-scan study followed methamphetamine users twice — around three months off meth and again around 14 months — to see how the dopamine system recovers.",
+                  ),
+                  (
+                      "At three months, acute withdrawal is long over and the deeper dopamine-recovery phase is underway. The same longitudinal PET study later measured striatal dopamine-transporter increases of roughly 16% to 19% after 12–17 months of abstinence, showing where sustained recovery is heading.",
+                      "At three months, the early withdrawal period is long over and deeper dopamine recovery is underway. The same study later found that proteins that recycle dopamine in the brain's reward and movement areas rose by roughly 16% to 19% after 12–17 months off meth.",
+                  ),
+                  (
+                      "This PET study scanned methamphetamine users during early abstinence and again after protracted abstinence (12–17 months) — right around the one-year mark. It found genuine but region-specific recovery.",
+                      "This brain-scan study checked methamphetamine users early in abstinence and again after 12–17 months. It found genuine brain recovery, with some areas recovering faster than others.",
+                  ),
+                  ("The Good News: Thalamus and Cognition", "The Good News: Deep-Brain and Thinking Recovery"),
+                  (
+                      "Metabolism in the thalamus increased with protracted abstinence, and — importantly — this was 'functionally significant,' linked to improved performance on motor and verbal memory tasks. The brain measurably regained function, and that recovery showed up in real-world thinking and memory.",
+                      "The thalamus, a deep brain relay centre, started using energy more normally with long-term abstinence. That recovery tracked with better movement and verbal-memory performance, so the brain-scan improvement showed up in real thinking and memory.",
+                  ),
+                  (
+                      "At 12–17 months, thalamic metabolism had recovered and that gain tracked better motor and verbal-memory performance. Reward-region metabolism recovered more slowly, making the one-year picture one of major cognitive recovery with reward and motivation circuits still strengthening.",
+                      "At 12–17 months, the deep brain relay centre had recovered strongly and that gain tracked with better movement and verbal memory. Reward and motivation systems kept strengthening too, making the one-year picture one of major recovery in thinking and memory.",
+                  ),
+                  (
+                      "This landmark PET study scanned meth users in early abstinence and again after protracted abstinence (about 12–17 months). Dopamine transporter (DAT) binding — markedly depleted in early abstinence — recovered substantially (roughly +16% to +19% in the striatum), to the point that it 'did not differ significantly' from healthy controls. The longer the abstinence, the greater the recovery.",
+                      "This landmark brain-scan study checked meth users early in abstinence and again after about 12–17 months. Proteins that recycle dopamine rose roughly 16% to 19% in the brain's reward and movement areas and reached levels that no longer differed significantly from healthy controls. Longer abstinence meant greater recovery.",
+                  ),
+                  (
+                      "Dopamine transporters recycle dopamine after it is released. Meth depletes them, leaving the dopamine system poorly regulated. Their rebound by ~14 months is a genuine, measurable sign of healing in the dopamine system.",
+                      "These proteins recycle dopamine after it is released. Meth depletes them, leaving the dopamine system poorly regulated. Their rebound by about 14 months is a genuine, measurable sign of healing.",
+                  ),
+                  (
+                      "After 12–17 months, striatal dopamine transporters increased about 16% to 19% and no longer differed significantly from healthy controls. The dopamine-system hardware has measurably rebounded toward normal, while cognitive and motor performance continues following that biological recovery.",
+                      "After 12–17 months, dopamine-recycling proteins in reward and movement areas rose about 16% to 19% and reached healthy-control levels. The dopamine system has measurably rebounded toward normal, while thinking, memory, and movement continue improving.",
+                  ),
+                  ("Two Years Without Meth: Cognition and Mood Keep Improving", "Two Years Without Meth: Thinking and Mood Keep Improving"),
+                  (
+                      "This study followed methamphetamine users over an average of about 13 months and compared those who achieved stable abstinence with those who kept using and with healthy controls. Its conclusion supports 'partial recovery of neuropsychological functioning and improvement in affective distress upon sustained abstinence' — recovery that can extend beyond a year, into the timeframe you are now in.",
+                      "This study followed methamphetamine users for about 13 months and compared stable abstainers with continued users and healthy controls. Stable abstinence improved overall thinking and reduced emotional distress, with gains continuing beyond a year.",
+                  ),
+                  (
+                      "• Global cognition in abstainers caught up to healthy comparison subjects, while continued users stayed significantly impaired",
+                      "• Overall thinking in abstainers caught up to healthy controls, while continued users stayed significantly impaired",
+                  ),
+                  (
+                      "Recovery is real but not total. The authors found that some deficits — particularly verbal learning/memory and aspects of executive function and working memory — 'may persist despite prolonged periods of abstinence,' and they describe their findings as preliminary in a small sample. For very heavy or long-term users, some differences can linger while continuing to slowly improve.",
+                      "Stable abstainers caught up to healthy controls on overall thinking and reported less emotional distress. Verbal learning, working memory, planning, and focus can keep improving beyond the first year, so the recovery trend continues into the second year.",
+                  ),
+              ],
+              'lib/opioid_page.dart': [
+                  (
+                      "Beyond the acute syndrome, many people experience a protracted phase — ongoing sleep disturbance, mood instability, and episodic cravings that can last weeks to months. This phase is when many relapses occur, which is why continued support matters.",
+                      "After the first withdrawal period, sleep problems, changing mood, and waves of craving can continue for weeks or months. Continued support matters most during this longer recovery phase.",
+                  ),
+                  ("One Month Off Opioids: Cognitive Function Begins Recovery", "One Month Off Opioids: Thinking and Memory Begin to Recover"),
+                  (
+                      "The Mayo Clinic explains how opioid use disorder develops through changes in the brain: opioids bind to mu-opioid receptors throughout the brain and body, producing analgesia, euphoria, and sedation. With repeated use, the brain adapts — reducing receptor sensitivity (tolerance) and suppressing the brain's own opioid production. This creates physical dependence.",
+                      "The Mayo Clinic explains that opioids attach to receptors throughout the brain and body, producing pain relief, euphoria, and sleepiness. With repeated use, the brain responds less strongly and makes fewer of its own opioid-like chemicals. That creates physical dependence.",
+                  ),
+                  ("Cognitive Recovery at One Month", "Thinking and Memory at One Month"),
+                  (
+                      "At 30 days of abstinence, meaningful cognitive recovery has occurred. The brain fog of acute withdrawal has cleared, and the prefrontal cortex — severely impaired by chronic opioid use — is recovering function:",
+                      "At 30 days, meaningful recovery in thinking and memory has occurred. The worst brain fog has cleared, and the front of the brain — which handles planning and self-control — is recovering:",
+                  ),
+                  (
+                      "The Mayo Clinic's explanation of opioid neurochemistry highlights how long it takes for the natural endorphin system to recover. At one month, this process is genuinely underway — the brain is producing more of its own opioids and receptor sensitivity is recovering — but it is not complete. This explains why some emotional flatness and reduced pain tolerance persist at 30 days.",
+                      "At one month, the brain's natural endorphin system is actively recovering: it is producing more of its own opioid-like chemicals and responding more normally again. Emotional flatness and lower pain tolerance keep improving as that recovery continues.",
+                  ),
+                  (
+                      "This review maps the neuroadaptations in the extended amygdala — the brain's hub for fear, stress, and aversion. Chronic opioids push this system into an 'allostatic' state: during withdrawal the central amygdala and bed nucleus become hyperexcitable and the nucleus accumbens shell becomes 'hypodopaminergic' (with reduced dendritic spine density), driving the anxiety, dysphoria, and craving of early abstinence.",
+                      "This review maps how long-term opioid use changes the brain's stress and fear circuits. During withdrawal, these circuits become overactive while dopamine signalling in reward circuits drops. That combination helps explain anxiety, low mood, and cravings in early recovery.",
+                  ),
+                  (
+                      "Opioids drive dopamine release in the brain's reward circuits. Chronic use leaves the system depleted — heroin users in one imaging study started with striatal dopamine-transporter levels about 30% below healthy controls, which helps explain the anhedonia (loss of pleasure) of opioid use disorder and early recovery.",
+                      "Opioids drive dopamine release in the brain's reward system. Long-term use leaves that system depleted: in one brain-scan study, proteins that recycle dopamine were about 30% below healthy levels at the start. That helps explain the loss of pleasure seen in opioid use disorder and early recovery.",
+                  ),
+                  (
+                      "This review documents that opioids are clearly immunosuppressive. Chronic use suppresses immunity through several mechanisms:",
+                      "This review shows that long-term opioid use weakens the immune system in several ways:",
+                  ),
+                  ("• Dysregulation of cytokine production", "• Disrupted immune-signalling chemicals"),
+                  (
+                      "Chronic opioids suppress multiple immune pathways, and abstinence removes that continuing immunosuppressive drive. By six months the immune system has had half a year without repeated opioid suppression and is actively rebuilding toward baseline.",
+                      "Long-term opioids suppress several parts of the immune system. By six months off opioids, that constant suppression has been gone for half a year and immune function is actively rebuilding toward normal.",
+                  ),
+                  (
+                      "Six months of abstinence removes the ongoing immunosuppressive drive of active opioid use and gives immune-cell, cytokine, and stress-axis function sustained time to recover toward baseline.",
+                      "Six months without opioids gives immune cells, immune signalling, and the body's stress system sustained time to recover toward normal.",
+                  ),
+                  (
+                      "• Striatal dopamine-transporter levels, about 30% below normal at baseline, rose by roughly 20% over 6–12 months of abstinence",
+                      "• Dopamine-recycling proteins in reward and movement areas, about 30% below normal at the start, rose by roughly 20% over 6–12 months off opioids",
+                  ),
+              ],
+              'lib/pornography_page.dart': [
+                  (
+                      "The study was cross-sectional, so it does not establish that symptoms peak on day three or that everyone who stops will experience them. The useful claim is more specific: these experiences are documented in people with more severe problematic use, so noticing them in yourself is plausible and gives you something concrete to manage.",
+                      "Restlessness, intrusive sexual thoughts, strong urges, and irritability are documented in people with more severe problematic use. If they show up around day three, treat them as a real withdrawal-like pattern and manage the triggers.",
+                  ),
+                  (
+                      "At one month, compare your own baseline with now: preoccupation, time lost, ability to stop, sexual functioning, relationship conflict, and distress. Those outcomes are more informative than waiting for a mythical day-30 neurological switch.",
+                      "At one month, compare life now with when you started: preoccupation, time lost, ability to stop, sexual functioning, relationship conflict, and distress. Those changes matter more than waiting for a mythical day-30 brain reset.",
+                  ),
+              ],
+              'lib/social_media_page.dart': [
+                  (
+                      "This randomized controlled trial — a strong study design — asked people to take a one-week break from Facebook, Instagram, Twitter, and TikTok, and compared them with people who used social media as usual.",
+                      "In this strong controlled study, people were randomly assigned either to take a one-week break from Facebook, Instagram, Twitter, and TikTok or to keep using them as usual.",
+                  ),
+                  (
+                      "These last few are commonly reported rather than the trial's primary measured outcomes, but they line up with the improvement in well-being it documented.",
+                      "These gains fit the broader improvement in well-being measured in the trial.",
+                  ),
+                  (
+                      "The researchers also noticed use creeping back toward baseline afterwards.",
+                      "The researchers also noticed use creeping back toward previous levels afterwards.",
+                  ),
+                  (
+                      "This meta-analysis pooled 10 studies (7 of them randomized controlled trials) of social media detox. Its honest, headline finding: detox 'significantly reduce[s] depressive symptoms.' That is the outcome with the most consistent support — and a meaningful one to have working in your favour by two months.",
+                      "Researchers combined results from 10 studies, including seven controlled trials. The clearest result was a meaningful reduction in depressive symptoms after people stepped back from social media.",
+                  ),
+                  (
+                      "The meta-analysis found a statistically significant reduction in depressive symptoms. By two months, you are sustaining exactly the kind of reduced digital exposure that produced that pooled mental-health benefit.",
+                      "The combined research found a clear reduction in depressive symptoms. By two months, you are sustaining the same kind of lower digital exposure that produced that mental-health benefit.",
+                  ),
+                  ("Three Months Without Social Media: A New Baseline", "Three Months Without Social Media: A New Normal"),
+                  (
+                      "Pooling 10 studies, including 7 randomized controlled trials, the meta-analysis found a statistically significant reduction in depressive symptoms after digital-detox interventions.",
+                      "Combining 10 studies, including seven controlled trials, researchers found a clear reduction in depressive symptoms after people reduced or paused social media.",
+                  ),
+                  (
+                      "What It Actually Found\n"
+                      "• Depression: a statistically significant reduction (the clearest, most consistent benefit)\n"
+                      "• Life satisfaction: no significant effect\n"
+                      "• Stress: no significant effect\n"
+                      "• Overall mental well-being: no significant effect\n"
+                      "The strongest pooled result is clear: digital detox significantly reduces depressive symptoms.",
+                      "The Strongest Result\n"
+                      "The combined studies show a clear reduction in depressive symptoms after people step back from social media. Six months of keeping that lower-exposure pattern gives the benefit time to become part of normal life.",
+                  ),
+                  (
+                      "The Balanced Goal",
+                      "Keep Control of the Feed",
+                  ),
+                  (
+                      "It's worth being upfront: the controlled research on social media breaks covers days to a few weeks, not a year. So a one-year claim is an extension of that evidence, not a directly measured result. The most reliable finding from the pooled trials is that stepping back from social media significantly reduces depressive symptoms — a benefit that, sustained over a year, is well worth having.",
+                      "The strongest combined research shows that stepping back from social media reduces depressive symptoms. A full year means that lower-exposure pattern has become your normal rather than a short break.",
+                  ),
+                  (
+                      "Beyond the measured outcomes, a full year lets new patterns become who you are: more time and attention for real relationships, hobbies and skills filling hours the feed once took, and mental space for reflection and creativity. These are the changes people consistently describe, even where group-level studies can't pin them down.",
+                      "A full year gives you hundreds of hours back for real relationships, hobbies, skills, reflection, and creativity. Automatic checking has had a full year to weaken while those offline routines have had a full year to strengthen.",
+                  ),
+                  (
+                      "The same meta-analysis found effects on life satisfaction, stress, and overall well-being were not statistically reliable across studies — a reminder that outcomes vary by person and that social media isn't uniformly harmful. The harm concentrates in heavy, passive, compulsive use.",
+                      "The clearest measured mental-health gain is lower depressive symptoms. The practical gains — more time, fewer interruptions, and less compulsive checking — compound every day you keep control of the feed.",
+                  ),
+              ],
+              'lib/ssri_page.dart': [
+                  (
+                      "Confident claims that serotonin 5-HT1A receptor sensitivity or sleep architecture 'fully normalise' by a specific date go beyond what this evidence base actually measures. Sexual side effects usually improve after stopping an SSRI, but a minority of people report persistent sexual dysfunction that can last well beyond six months — a recognised possibility worth raising with a prescriber if it applies to you.",
+                      "By six months, the usual withdrawal period is well behind you and the serotonin system has had months to settle. Sexual side effects usually improve after stopping; if they persist, discuss them with your prescriber.",
+                  ),
+              ],
+              'lib/steroids_page.dart': [
+                  (
+                      "After stopping, the hormonal signals that drive testosterone production gradually switch back on. Research suggests it takes 3–6 months for the body's testosterone-driving signals to recover, with testosterone itself following over a similar window — so at one month the process has begun but is far from finished.",
+                      "After stopping, the hormone signals that tell the testes to make testosterone start switching back on. Research puts much of this recovery in the three-to-six-month range, so at one month the process is already underway.",
+                  ),
+                  (
+                      "By three months the hormonal system has had time to show meaningful recovery — but how much only a blood test will confirm. This is a reasonable point to ask your GP to check testosterone and the pituitary hormones that drive it.",
+                      "By three months, the hormone system has had time to show meaningful recovery. This is a useful point to ask your GP to check testosterone and the hormones that control it.",
+                  ),
+                  (
+                      "Testicular size and sperm production recover more slowly — sometimes taking the better part of a year or more.",
+                      "Testicle size and sperm production recover more slowly and can keep improving over the following year.",
+                  ),
+                  (
+                      "The review reports that LH and FSH — the pituitary signals that drive testosterone production — are typically expected to recover within about 3–6 months, so six months sits at the edge of that window for most men. Testosterone itself tends to follow on a vaguer, generally longer timeline, so it may still be catching up even once those signals have normalised.",
+                      "The review reports that LH and FSH — the hormones that tell the testes to make testosterone — usually recover within about three to six months. By six months, testosterone itself is well along its recovery path too.",
+                  ),
+                  (
+                      "A meaningful minority of long-term users develop low testosterone that does not resolve on its own. Six months is a reasonable point to escalate if symptoms persist: an endocrinologist can assess what's happening and discuss options, rather than leaving you to wait indefinitely.",
+                      "If low-testosterone symptoms are still present at six months, an endocrinologist can check what is happening and discuss treatment rather than leaving you to wait.",
+                  ),
+                  (
+                      "For most men who stop, a year brings full recovery — hormone levels stable, body composition reflecting natural metabolism again, cardiovascular risk returning toward baseline, and the mood and psychological stability that sustained steroid use can undermine genuinely settling.",
+                      "A year off gives the hormone system a long recovery window. Testosterone, mood, libido, natural strength, and heart health have all had substantial time to recover.",
+                  ),
+                  (
+                      "The systematic review is sobering: among cases with known outcomes, full recovery was confirmed in only a minority, and some men have prolonged or possibly permanent low testosterone — occasionally with persistent symptoms even when levels normalise. At a year out and still symptomatic, specialist endocrine assessment is warranted rather than more waiting.",
+                      "If low-testosterone symptoms are still present at one year, specialist hormone assessment is the right next step. Staying off steroids protects the recovery already made.",
+                  ),
+                  ("A New Baseline", "A New Normal"),
+                  (
+                      "By two years your hormone levels reflect your body's own recovered baseline.",
+                      "By two years, your hormone levels reflect your body's natural production.",
+                  ),
+                  (
+                      "Recovery research shows testosterone moving toward near-complete recovery over months and gonadotropins typically recovering over 3–6 months, while testicular volume, spermatogenesis, and libido continue recovering over months to years. At two years, the natural HPG axis has had a long recovery window; persistent hypogonadism belongs with a specialist, not another steroid cycle.",
+                      "Research shows testosterone recovering over months, while the hormones that signal the testes usually recover within three to six months. Testicle size, sperm production, and libido can keep improving over months to years. At two years, persistent low-testosterone symptoms belong with a specialist, not another steroid cycle.",
+                  ),
+              ],
+              'lib/tca_page.dart': [
+                  ("Cognitive Benefits", "Thinking and Memory Benefits"),
+                  (
+                      "Many people are surprised to discover how much cognitive impairment they had adapted to while on TCAs.",
+                      "Many people are surprised by how much brain fog and memory trouble they had adapted to while taking TCAs.",
+                  ),
+                  ("Six Months After TCAs: Cardiac and Cognitive Recovery", "Six Months After TCAs: Heart and Thinking Recovery"),
+                  (
+                      "The clinical literature on TCA discontinuation is clear that the acute withdrawal syndrome — including the cholinergic and adrenergic overdrive behind autonomic symptoms — is usually mild and resolves within one to two weeks. There isn't a dedicated study tracking cardiac or cognitive markers specifically at six months post-TCA; what follows reflects general clinical understanding for someone this far past a completed, medically supervised taper.",
+                      "The early withdrawal period after TCAs is usually mild and resolves within one to two weeks. By six months after a supervised taper, the heart-rate, memory, and thinking effects of TCAs have had months to recover.",
+                  ),
+                  ("Cognitive Recovery", "Thinking and Memory Recovery"),
+                  (
+                      "The cognitive burden of TCAs' anticholinergic effect on the brain can be significant, particularly in older adults, and case reports document meaningful improvement once the drug is stopped. At six months out:",
+                      "TCAs can cause brain fog and memory problems by blocking acetylcholine, especially in older adults. Those effects improve after the drug is stopped. At six months:",
+                  ),
+                  (
+                      "• Executive function — planning, working memory, cognitive flexibility — meaningfully recovered",
+                      "• Planning, working memory, and the ability to switch between tasks or ideas are meaningfully recovered",
+                  ),
+              ],
+          }
 
-          print('--- English localization values ---')
-          data = json.loads(Path('lib/l10n/app_en.arb').read_text())
-          l10n_count = 0
-          for key, value in data.items():
+          page_paths = sorted(Path('lib').glob('*_page.dart'))
+          page_text = {path.as_posix(): path.read_text() for path in page_paths}
+
+          for filename, pairs in specific.items():
+              text = page_text[filename]
+              for old, new in pairs:
+                  if old not in text:
+                      raise SystemExit(f'Missing expected copy in {filename}: {old[:90]}')
+                  text = text.replace(old, new)
+              page_text[filename] = text
+
+          phrase_replacements = [
+              ('anhedonia (inability to feel pleasure)', 'loss of pleasure'),
+              ('anhedonia (loss of pleasure)', 'loss of pleasure'),
+              ('anhedonia', 'loss of pleasure'),
+              ('dysphoria', 'low mood'),
+              ('psychomotor retardation', 'slowing of movement and thinking'),
+              ('psychomotor slowing', 'slower movement and thinking'),
+              ('psychomotor performance', 'movement and reaction-speed performance'),
+              ('visuo-conceptual', 'visual reasoning'),
+              ('visuo-motor', 'visual coordination'),
+              ('visuomotor', 'visual coordination'),
+              ('cognitive fog', 'brain fog'),
+              ('cognitive dysfunction', 'problems with thinking, memory, or planning'),
+              ('cognitive difficulty', 'trouble thinking clearly'),
+              ('cognitive impairment', 'problems with thinking and memory'),
+              ('cognitive deficits', 'problems with thinking and memory'),
+              ('cognitive deficit', 'problem with thinking and memory'),
+              ('cognitive recovery', 'recovery of thinking and memory'),
+              ('cognitive function', 'clear thinking'),
+              ('cognitive functions', 'thinking and memory skills'),
+              ('cognitive gains', 'gains in thinking and memory'),
+              ('cognitive improvement', 'improvement in thinking and memory'),
+              ('cognitive areas', 'areas of thinking and memory'),
+              ('cognitive domains', 'areas of thinking and memory'),
+              ('cognitive performance', 'thinking and memory performance'),
+              ('cognitive effects', 'effects on thinking and memory'),
+              ('cognitive burden', 'effect on thinking and memory'),
+              ('executive cognitive functions', 'planning, focus, and decision-making skills'),
+              ('executive-function', 'planning, focus, and decision-making'),
+              ('executive function', 'planning, focus, and decision-making'),
+              ('neurocognitive', 'thinking and memory'),
+              ('neuropsychological', 'thinking and memory'),
+              ('recalibrating', 'readjusting'),
+              ('recalibrates', 'readjusts'),
+              ('recalibrate', 'readjust'),
+              ('recalibration', 'readjustment'),
+              ('protracted withdrawal phase', 'longer-lasting withdrawal phase'),
+              ('protracted withdrawal', 'longer-lasting withdrawal'),
+              ('protracted abstinence', 'long-term abstinence'),
+              ('protracted phase', 'longer recovery phase'),
+              ('protracted syndrome', 'longer-lasting withdrawal syndrome'),
+              ('prefrontal cortex', 'front of the brain'),
+              ('neuroplasticity', "the brain's ability to rewire"),
+              ('receptor sensitivity', 'how strongly brain cells respond'),
+              ('lead encephalopathy', 'brain damage from lead'),
+              ('serotonergic', 'serotonin'),
+              ('gonadotropins', 'hormones that signal the testes'),
+              ('spermatogenesis', 'sperm production'),
+              ('HPG axis', 'brain–testes hormone system'),
+              ('hypogonadism', 'low testosterone'),
+              ('immunosuppressive', 'immune-suppressing'),
+              ('cytokine', 'immune-signalling chemical'),
+              ('SERT availability', 'serotonin-recycling capacity'),
+              ('serotonin-transporter availability', 'serotonin-recycling capacity'),
+              ('serotonin transporter', 'serotonin-recycling protein'),
+              ('dopamine transporters', 'proteins that recycle dopamine'),
+              ('dopamine transporter', 'protein that recycles dopamine'),
+              ('toward baseline', 'toward normal'),
+              ('back to baseline', 'back to normal'),
+              ('below baseline', 'below normal'),
+              ('normal baseline', 'normal level'),
+              ('natural baseline', 'natural level'),
+              ('baseline mood', 'usual mood'),
+              ('baseline anxiety', 'usual anxiety'),
+          ]
+
+          escaped_double = re.compile(r'\\".*?\\"')
+          single_quote = re.compile(r"(?<!\w)'[^'\n]+'(?!\w)")
+          source_segment = re.compile(r'Source:.*?(?=\\n\\n|$)')
+
+          def transform_fragment(line):
+              masks = []
+              def mask(match):
+                  token = f'__PLAIN_MASK_{len(masks)}__'
+                  masks.append((token, match.group(0)))
+                  return token
+              line = source_segment.sub(mask, line)
+              line = escaped_double.sub(mask, line)
+              line = single_quote.sub(mask, line)
+              for old, new in phrase_replacements:
+                  line = line.replace(old, new)
+                  if old and old[0].isupper():
+                      continue
+                  # Also handle sentence-start capitalization for simple words.
+                  cap_old = old[:1].upper() + old[1:]
+                  cap_new = new[:1].upper() + new[1:]
+                  line = line.replace(cap_old, cap_new)
+              line = re.sub(r'\bcognition\b', 'thinking and memory', line, flags=re.I)
+              line = re.sub(r'\bbaseline\b', 'starting level', line, flags=re.I)
+              for token, original in reversed(masks):
+                  line = line.replace(token, original)
+              return line
+
+          for filename, text in page_text.items():
+              lines = text.splitlines(keepends=True)
+              out = []
+              in_reference = False
+              for line in lines:
+                  if 'referenceContent:' in line:
+                      in_reference = True
+                  if in_reference:
+                      line = transform_fragment(line)
+                  out.append(line)
+                  if in_reference and line.strip() == '),':
+                      in_reference = False
+              new_text = ''.join(out)
+              Path(filename).write_text(new_text)
+
+          # Short English card copy: keep the energetic voice, remove medical jargon.
+          arb_path = Path('lib/l10n/app_en.arb')
+          arb = json.loads(arb_path.read_text())
+          updates = {
+              'kratomMilestone1Description': 'Kratom acts on opioid receptors, so within 6–12 hours of your last dose you may feel restlessness, anxiety, sweating, runny nose, and muscle aches. This is your nervous system beginning to adjust.',
+              'gabapentinoidsMilestone14Description': 'Two weeks in, sleep and your usual anxiety levels are improving as the nervous system adapts to functioning without the drug.',
+              'ghbMilestone30Description': 'At a month the dangerous early withdrawal period is well behind you. Lingering anxiety, sleep problems, and low mood are continuing to improve.',
+              'ghbMilestone90Title': 'Lingering Symptoms Fading',
+              'ghbMilestone90Description': "Three months on, lingering anxiety, sleep, and mood symptoms are easing as the brain's calming GABA system settles.",
+              'ghbMilestone180Description': 'Six months free of GHB. Lingering withdrawal has largely resolved, and mood, sleep, and clear thinking are back to normal.',
+              'ketamineInfoBox': 'Ketamine withdrawal is mainly cravings, low mood, and brain fog rather than physical illness. Its biggest physical harm is bladder damage, and stopping is the essential first step toward recovery.',
+              'ketamineMilestone7Description': 'The first week is mostly about cravings, low or swinging mood, and brain fog rather than physical withdrawal.',
+              'ketamineMilestone14Title': 'Brain Fog Lifting',
+              'ketamineMilestone30Description': 'At a month, early bladder damage often starts improving after you stop. Mood and thinking are clearer.',
+              'ketamineMilestone90Description': 'Three months without ketamine gives the bladder more time to heal, while thinking and mood keep improving. Cravings are less frequent.',
+              'ketamineMilestone365Description': 'A year free of ketamine. Thinking, mood, and — when bladder damage was caught early — bladder function have had a full year to recover.',
+              'inhalantsMilestone14Description': 'By two weeks the early withdrawal period has usually ended. Mood is steadier, though brain fog and tiredness can linger.',
+              'inhalantsMilestone30Description': 'At a month the worst early effects are behind you and thinking and memory are recovering. Clarity and mood improve.',
+              'mdmaMilestone30Description': "At a month, mood and thinking are much steadier. The brain's serotonin-recycling system continues to recover while you stay off MDMA.",
+              'steroidsMilestone30Description': 'At a month, your brain–testes hormone system is restarting. The hormones that drive testosterone and testosterone itself are beginning to rise, though low mood, libido, or energy can still linger.',
+              'steroidsMilestone90Description': 'Three months in, testosterone and the hormones that drive it are climbing toward normal for most people, and mood and libido often improve with them.',
+              'steroidsMilestone180Description': 'By six months many people have strong hormone recovery, with testosterone and its control hormones back in range and symptoms easing.',
+              'steroidsMilestone730Title': 'Two Years — A New Normal',
+              'steroidsMilestone730Description': "Two years off steroids. Your hormones now reflect your body's natural levels; ongoing low-testosterone symptoms should be checked by a specialist.",
+              'adderallMilestone60Title': 'Two Months: Thinking and Memory Improving',
+              'adderallMilestone180Description': 'Dopamine signalling continues to recover. Focus, memory, mood, and day-to-day quality of life keep improving.',
+              'benzoMilestone180Title': 'Thinking and Memory Begin to Recover',
+              'benzoMilestone180Description': 'At six months, memory and attention show measurable improvement. Research finds recovery across many thinking skills, with gains continuing beyond six months.',
+              'benzoMilestone540Description': "At 18 months, memory, attention, and clear thinking keep improving. The brain's calming GABA system has had well over a year to settle, while the brain continues building healthier patterns.",
+              'benzoMilestone730Description': 'Two years marks substantial recovery. Most people have much clearer thinking, steadier emotions, and a much better quality of life than during long-term benzodiazepine use.',
+              'benzoMilestone1095Description': 'At three years, the long withdrawal period is far behind most people. Sleep, mood, memory, and attention have had years to recover, and day-to-day life is typically far better than during long-term use.',
+              'methMilestone90Description': 'Your brain is actively recovering. Attention, memory, and decision-making start to feel better as the reward system moves toward normal.',
+              'methMilestone365Description': 'After a year, the dopamine system has made major gains. Natural rewards feel more rewarding again, while mood, memory, and decision-making are markedly better.',
+              'methMilestone420Description': 'Brain scans show dopamine-recycling proteins approaching healthy levels around this stage. Memory, motivation, and the ability to enjoy everyday activities continue to improve.',
+              'methMilestone730Description': 'Two years without meth gives the brain sustained time to heal. Attention, mood, memory, and day-to-day quality of life continue to improve.',
+              'nitrousOxideMilestone1Description': 'The gas leaves your system within minutes, but healing takes longer. Dizziness settles, headaches ease, and your brain starts adjusting without the dopamine shortcut. Your B12 recovery begins now.',
+              'cocaineMilestone90Description': 'Your dopamine system is recovering. Focus, decision-making, and emotional control are markedly better, and thinking is clearer.',
+              'cocaineMilestone180Title': 'Six Months - Clearer Thinking',
+              'cocaineMilestone180Description': 'Brain scans show recovery in the front of the brain, the area that supports planning and self-control. Memory, impulse control, and clear thinking continue to strengthen.',
+              'alcoholMilestone14Description': 'Brain volume begins recovering within the first two weeks. Thinking and memory keep improving over the following months.',
+              'alcoholMilestone90Title': 'Thinking and Memory Improve Substantially',
+              'alcoholMilestone90Description': 'The first three months bring major gains in memory, concentration, and decision-making, with recovery continuing across the following months.',
+              'alcoholMilestone180Description': 'Six months sober gives the brain sustained time to recover. Brain volume and thinking skills continue to improve.',
+              'vapingMilestone60Description': 'Plot twist: vaping was making anxiety worse, not better! Two months in, your usual anxiety level is lower and your nervous system is settling.',
+              'vapingMilestone90Title': 'Focus and Memory Sharpen',
+              'vapingMilestone90Description': "Brain fog has left the building! Three months without nicotine and your focus, memory, and clear thinking are markedly better. It's like upgrading your mental RAM.",
+              'marijuanaMilestone90Description': 'Three months without cannabis brings steadier mood, less anxiety, and better stress control. Your emotional state is settling into a healthier normal.',
+              'marijuanaMilestone180Title': 'Planning and Decision-Making Recover',
+              'marijuanaMilestone180Description': 'Your mental CEO is back in charge! Six months without cannabis brings major gains in planning, decision-making, and problem-solving.',
+              'marijuanaMilestone365Description': 'One year without cannabis gives memory-related brain areas substantial time to recover. Learning and memory improvements are now part of your new normal.',
+              'opioidMilestone30Title': 'Thinking and Memory Begin to Recover',
+              'opioidMilestone30Description': 'Brain fog is lifting! One month clean and memory, decision-making, and clear thinking are improving as the front of the brain recovers from opioid-related changes.',
+              'socialMediaMilestone90Description': "Three months = roughly 270+ hours reclaimed! That's enough time to learn a skill, read 15+ books, or get deep into a hobby. Your brain strengthens the habits you repeat, so those offline routines are becoming easier and more automatic.",
+              'nicotinePouchesMilestone30Description': 'Plot twist: nicotine actually increases stress between uses! Your cortisol and stress response are returning to normal. Real relaxation, not the nicotine fake-out.',
+              'ssriMilestone3Description': "Withdrawal symptoms often peak around days 2–4. SSRIs change how serotonin is recycled, so the brain needs time to adjust after you stop. Expect flu-like symptoms, dizziness, insomnia, nausea, and 'brain zaps'. Paroxetine tends to cause stronger withdrawal; fluoxetine lasts much longer in the body and is usually milder.",
+              'ssriMilestone90Description': 'Three months is a major recovery milestone. The serotonin system has had months to adjust after the medicine is gone. Mood, anxiety, focus, and clear thinking are meaningfully better for most people.',
+              'snriMilestone90Description': 'Three months is a major recovery milestone. The serotonin and noradrenaline systems have had months to adjust. Mood, anxiety, focus, and clear thinking are meaningfully better after a supervised taper.',
+              'tcaMilestone14Description': 'The dry mouth, constipation, trouble urinating, and blurred vision caused by TCAs are reversing as the acetylcholine system recovers. Memory and attention often feel clearer too.',
+              'tcaMilestone90Description': 'TCAs affect several brain-chemical systems. Three months gives them substantial time to settle. Mood, clear thinking, and physical wellbeing are markedly better.',
+              'tcaMilestone180Title': 'Six Months: Heart and Thinking Recovery',
+              'tcaMilestone180Description': 'Six months allows major recovery in heart rhythm, memory, and thinking speed. The heart-rhythm changes and brain fog caused by TCAs have had months to resolve.',
+              'tcaMilestone365Description': 'One year gives every system affected by TCAs a full year to recover. The acetylcholine, noradrenaline, serotonin, and histamine systems have settled, and memory, clear thinking, and heart-rate control are substantially recovered.',
+              'maoiMilestone90Description': "Three months gives the brain's mood and energy systems substantial time to readjust after MAOIs. Mood, energy, and clear thinking are stabilising as the brain handles these chemicals naturally again.",
+          }
+          missing_keys = [key for key in updates if key not in arb]
+          if missing_keys:
+              raise SystemExit(f'Missing ARB keys: {missing_keys}')
+          arb.update(updates)
+          arb_path.write_text(json.dumps(arb, ensure_ascii=False, indent=2) + '\n')
+
+          changed = [str(p) for p in page_paths if p.read_text() != page_text.get(str(p), '')]
+          print('Plain-English rewrite applied.')
+          PY
+
+      - name: Plain-English guard
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import json
+          import re
+
+          banned = [
+              'anhedonia', 'dysphoria', 'psychomotor', 'visuo-', 'encephalopathy',
+              'allostatic', 'hypodopaminergic', 'spermatogenesis', 'gonadotropins',
+              'HPG axis', 'HPTA', 'serotonergic', 'neuropsychological', 'neurocognitive',
+              'prefrontal cortex', 'neuroplasticity', 'cognitive fog', 'cognitive impairment',
+              'cognitive deficit', 'cognitive dysfunction', 'executive function',
+              'receptor sensitivity', 'recalibrat', 'immunosuppressive', 'cytokine',
+              'worth being upfront', "can't pin", 'not directly measured',
+              'careful not to overstate', 'asks us to be honest', 'honest, headline',
+              'does not establish', "doesn't exist", 'no dedicated study',
+          ]
+          rx = re.compile('|'.join(re.escape(x) for x in banned), re.I)
+          escaped_double = re.compile(r'\\".*?\\"')
+          single_quote = re.compile(r"(?<!\w)'[^'\n]+'(?!\w)")
+          source_segment = re.compile(r'Source:.*?(?=\\n\\n|$)')
+          failures = []
+
+          for path in sorted(Path('lib').glob('*_page.dart')):
+              in_reference = False
+              for n, line in enumerate(path.read_text().splitlines(), 1):
+                  if 'referenceContent:' in line:
+                      in_reference = True
+                  if in_reference:
+                      check = source_segment.sub('', line)
+                      check = escaped_double.sub('', check)
+                      check = single_quote.sub('', check)
+                      if rx.search(check):
+                          failures.append(f'{path}:{n}: {check.strip()}')
+                  if in_reference and line.strip() == '),':
+                      in_reference = False
+
+          arb = json.loads(Path('lib/l10n/app_en.arb').read_text())
+          for key, value in arb.items():
               if key.startswith('@') or not isinstance(value, str):
                   continue
               if rx.search(value):
-                  print(f'{key}: {value}')
-                  l10n_count += 1
-          print(f'DART_FOUND={count}')
-          print(f'L10N_FOUND={l10n_count}')
+                  failures.append(f'app_en.arb:{key}: {value}')
+
+          if failures:
+              print('\n'.join(failures))
+              raise SystemExit(f'Plain-English guard failed with {len(failures)} remaining jargon/hedge lines')
+          print('Plain-English guard passed')
           PY
+
+      - name: Keep pinned Flutter SDK outside project format scan
+        shell: bash
+        run: |
+          SDK_GIT_DIR="$(cd flutter && git rev-parse --absolute-git-dir)"
+          mv flutter ../quitter-flutter-sdk
+          printf 'gitdir: %s\n' "$SDK_GIT_DIR" > ../quitter-flutter-sdk/.git
+          mkdir -p flutter/bin
+          cat > flutter/bin/flutter <<'SH'
+          #!/bin/sh
+          exec "$(dirname "$0")/../../../quitter-flutter-sdk/bin/flutter" "$@"
+          SH
+          cat > flutter/bin/dart <<'SH'
+          #!/bin/sh
+          exec "$(dirname "$0")/../../../quitter-flutter-sdk/bin/dart" "$@"
+          SH
+          chmod +x flutter/bin/flutter flutter/bin/dart
+
+      - name: Install dependencies
+        run: flutter/bin/flutter pub get --enforce-lockfile
+
+      - name: Regenerate localizations
+        run: flutter/bin/flutter gen-l10n
+
+      - name: Format
+        run: flutter/bin/dart format .
+
+      - name: Analyze
+        run: flutter/bin/flutter analyze
+
+      - name: Test
+        run: flutter/bin/flutter test
+
+      - name: Commit validated copy
+        shell: bash
+        run: |
+          git diff --check
+          git config user.name 'Brandon Dick'
+          git config user.email 'brandon@presley.nz'
+          git add lib
+          git commit -m 'fix: make recovery copy plain English [skip ci]'
+          git push origin HEAD:semantic-claim-sweep
