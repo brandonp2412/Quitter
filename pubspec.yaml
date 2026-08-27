@@ -9,6 +9,11 @@ dependencies:
     sdk: flutter
   flutter_localizations:
     sdk: flutter
+  frisbee_flutter_foundation:
+    git:
+      url: https://github.com/brandonp2412/Flexify.git
+      ref: 2e2711a67022d0f69b63512a2320fc69a4ab4b1e
+      path: packages/flutter_foundation
   cupertino_icons: ^1.0.8
   shared_preferences: ^2.5.3
   provider: ^6.1.5
@@ -33,7 +38,7 @@ dev_dependencies:
     sdk: flutter
   patrol: 4.8.0
   flutter_lints: ^6.0.0
-  flutter_launcher_icons: ^0.14.4 # Add this line
+  flutter_launcher_icons: ^0.14.4
   integration_test:
     sdk: flutter
   flutter_driver:

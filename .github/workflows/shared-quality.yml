@@ -1,0 +1,11 @@
+name: Shared Flutter quality
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  quality:
+    uses: brandonp2412/Flexify/.github/workflows/flutter-quality.yml@2e2711a67022d0f69b63512a2320fc69a4ab4b1e
