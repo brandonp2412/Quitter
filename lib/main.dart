@@ -1,18 +1,21 @@
+import 'dart:async';
+
+import 'package:dynamic_color/dynamic_color.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:provider/provider.dart';
-import 'package:dynamic_color/dynamic_color.dart';
 import 'package:quitter/addiction_provider.dart';
 import 'package:quitter/app_scheme.dart';
+import 'package:quitter/app_theme_mode.dart';
+import 'package:quitter/crash_logger.dart';
 import 'package:quitter/home_page.dart';
 import 'package:quitter/journal_page.dart';
-import 'package:quitter/stats_page.dart';
+import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:quitter/pin_page.dart';
 import 'package:quitter/settings_provider.dart';
+import 'package:quitter/stats_page.dart';
 import 'package:quitter/tasks.dart';
-import 'package:quitter/app_theme_mode.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 final rootScaffoldMessenger = GlobalKey<ScaffoldMessengerState>();
@@ -45,27 +48,34 @@ Future<void> _migrateHiddenToDeleted() async {
   await prefs.setBool('migrated_v2_hide_to_delete', true);
 }
 
-void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
+Future<void> main() async {
+  runZonedGuarded(
+    () async {
+      WidgetsFlutterBinding.ensureInitialized();
+      await CrashLogger.install(fileName: 'quitter-crash.log');
 
-  await _migrateHiddenToDeleted();
+      await _migrateHiddenToDeleted();
 
-  final settings = SettingsProvider();
-  await settings.loadPreferences();
-  final addiction = AddictionProvider();
-  await addiction.loadAddictions();
+      final settings = SettingsProvider();
+      await settings.loadPreferences();
+      final addiction = AddictionProvider();
+      await addiction.loadAddictions();
 
-  cancelTasks();
-  setupTasks();
+      cancelTasks();
+      setupTasks();
 
-  runApp(
-    MultiProvider(
-      providers: [
-        ChangeNotifierProvider(create: (context) => settings),
-        ChangeNotifierProvider(create: (context) => addiction),
-      ],
-      child: const QuitterApp(),
-    ),
+      runApp(
+        MultiProvider(
+          providers: [
+            ChangeNotifierProvider(create: (context) => settings),
+            ChangeNotifierProvider(create: (context) => addiction),
+          ],
+          child: const QuitterApp(),
+        ),
+      );
+    },
+    (error, stack) =>
+        CrashLogger.instance?.record(error, stack, context: 'zone'),
   );
 }
 
@@ -117,8 +127,10 @@ class _QuitterAppState extends State<QuitterApp>
     return Consumer<SettingsProvider>(
       builder: (context, settings, child) {
         final expectedTabCount = settings.showJournal ? 3 : 2;
-        if (_tabController.length != expectedTabCount)
+        if (_tabController.length != expectedTabCount) {
+          _tabController.dispose();
           _tabController = TabController(length: expectedTabCount, vsync: this);
+        }
 
         return DynamicColorBuilder(
           builder: (ColorScheme? lightDynamic, ColorScheme? darkDynamic) {
