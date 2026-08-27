@@ -1,0 +1,40 @@
+name: Plain English audit
+
+on:
+  push:
+    branches: [semantic-claim-sweep]
+    paths:
+      - '.github/workflows/plain-english-audit.yml'
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: semantic-claim-sweep
+      - name: Find jargon and soft framing
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+
+          terms = [
+              'anhedonia', 'protracted', 'baseline', 'cognitive', 'cognition',
+              'psychomotor', 'dysphoria', 'striatal', 'prefrontal', 'neuroplastic',
+              'neuropsych', 'executive function', 'visuo-', 'encephalopathy',
+              'dopamine transporter', 'receptor sensitivity', 'recalibrat',
+              'careful not to overstate', 'asks us to be honest', 'honest, headline',
+              'honest message', 'honest summary', 'uncertain', 'cannot confirm',
+              'does not establish', 'not necessarily', 'not always complete',
+          ]
+          rx = re.compile('|'.join(re.escape(t) for t in terms), re.I)
+          count = 0
+          for path in sorted(Path('lib').glob('*_page.dart')):
+              for n, line in enumerate(path.read_text().splitlines(), 1):
+                  if rx.search(line):
+                      print(f'{path}:{n}: {line.strip()}')
+                      count += 1
+          print(f'FOUND={count}')
+          PY
