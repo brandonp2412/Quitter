@@ -209,46 +209,83 @@ class SettingsProvider extends ChangeNotifier {
   Future<void> loadPreferences() async {
     _prefs = await SharedPreferences.getInstance();
 
-    _themeMode = AppThemeMode
-        .values[_prefs!.getInt(_themeKey) ?? AppThemeMode.system.index];
+    T? read<T>(String key) {
+      final value = _prefs!.get(key);
+      return value is T ? value : null;
+    }
+
+    final themeIndex = read<int>(_themeKey) ?? AppThemeMode.system.index;
+    _themeMode = themeIndex >= 0 && themeIndex < AppThemeMode.values.length
+        ? AppThemeMode.values[themeIndex]
+        : AppThemeMode.system;
+    final colorSchemeIndex =
+        read<int>(_colorSchemeKey) ?? ColorSchemeType.dynamic.index;
     _colorSchemeType =
-        ColorSchemeType.values[_prefs!.getInt(_colorSchemeKey) ??
-            ColorSchemeType.dynamic.index];
-    _notifyAt = _prefs!.getInt(_notifyAtKey) ?? (8 * 60);
-    _notifyEvery = _prefs!.getInt(_notifyEveryKey) ?? 1;
-    _pinTimeout = _prefs!.getInt(_pinTimeoutKey) ?? 15;
-    _locale = _prefs!.getString(_localeKey) ?? 'system';
-    _weekStartsMonday = _prefs!.getBool(_weekStartsMondayKey) ?? false;
-    _pinFailedAttempts = _prefs!.getInt(_pinFailedAttemptsKey) ?? 0;
-    final lockedUntilMs = _prefs!.getInt(_pinLockedUntilKey);
-    _pinLockedUntil = lockedUntilMs != null
-        ? DateTime.fromMillisecondsSinceEpoch(lockedUntilMs)
-        : null;
+        colorSchemeIndex >= 0 &&
+            colorSchemeIndex < ColorSchemeType.values.length
+        ? ColorSchemeType.values[colorSchemeIndex]
+        : ColorSchemeType.dynamic;
+    final storedNotifyAt = read<int>(_notifyAtKey) ?? (8 * 60);
+    _notifyAt = storedNotifyAt >= 0 && storedNotifyAt < 24 * 60
+        ? storedNotifyAt
+        : 8 * 60;
+    final storedNotifyEvery = read<int>(_notifyEveryKey) ?? 1;
+    _notifyEvery = storedNotifyEvery >= 0 ? storedNotifyEvery : 0;
+    final storedPinTimeout = read<int>(_pinTimeoutKey) ?? 15;
+    _pinTimeout = storedPinTimeout >= 0 ? storedPinTimeout : 15;
+    final storedLocale = read<String>(_localeKey) ?? 'system';
+    _locale = const {'system', 'en', 'ja', 'zh'}.contains(storedLocale)
+        ? storedLocale
+        : 'system';
+    _weekStartsMonday = read<bool>(_weekStartsMondayKey) ?? false;
+    final storedFailedAttempts = read<int>(_pinFailedAttemptsKey) ?? 0;
+    _pinFailedAttempts = storedFailedAttempts < 0 ? 0 : storedFailedAttempts;
+    final lockedUntilMs = read<int>(_pinLockedUntilKey);
+    try {
+      _pinLockedUntil = lockedUntilMs != null
+          ? DateTime.fromMillisecondsSinceEpoch(lockedUntilMs)
+          : null;
+    } on RangeError {
+      _pinLockedUntil = null;
+    }
+    if (_pinLockedUntil != null && !isPinLockoutActive) {
+      _pinLockedUntil = null;
+      _pinFailedAttempts = 0;
+      await _prefs!.remove(_pinLockedUntilKey);
+      await _prefs!.setInt(_pinFailedAttemptsKey, 0);
+    }
 
     _showKeys.forEach((key, prefKey) {
-      final existing = _prefs!.getBool(prefKey);
+      final existing = read<bool>(prefKey);
       if (existing == null &&
           ['opioids', 'pornography', 'cocaine', 'meth'].contains(key))
-        _showSettings[key] = _prefs!.getBool(prefKey) ?? false;
+        _showSettings[key] = existing ?? false;
       else
-        _showSettings[key] = _prefs!.getBool(prefKey) ?? true;
+        _showSettings[key] = existing ?? true;
     });
 
     _notifyKeys.forEach((key, prefKey) {
-      _notifySettings[key] = _prefs!.getBool(prefKey) ?? true;
+      _notifySettings[key] = read<bool>(prefKey) ?? true;
     });
 
-    final enabled = _prefs?.getBool(_pinEnabledKey);
-    _isPinEnabled = enabled == true;
+    final enabled = read<bool>(_pinEnabledKey) == true;
+    final pinHash = read<String>(_pinHashKey);
+    _isPinEnabled = enabled && pinHash != null && pinHash.isNotEmpty;
+    if (enabled && !_isPinEnabled) {
+      await _prefs!.setBool(_pinEnabledKey, false);
+    }
 
     notifyListeners();
     talker.debug('Loaded application preferences');
   }
 
   set locale(String locale) {
-    _locale = locale;
+    final normalized = const {'system', 'en', 'ja', 'zh'}.contains(locale)
+        ? locale
+        : 'system';
+    _locale = normalized;
     notifyListeners();
-    _prefs?.setString(_localeKey, locale);
+    _prefs?.setString(_localeKey, normalized);
   }
 
   set weekStartsMonday(bool value) {
@@ -258,13 +295,14 @@ class SettingsProvider extends ChangeNotifier {
   }
 
   Future<void> setPinTimeout(int timeout) async {
-    _pinTimeout = timeout;
+    final normalized = timeout < 0 ? 0 : timeout;
+    _pinTimeout = normalized;
     notifyListeners();
-    await _prefs?.setInt(_pinTimeoutKey, timeout);
+    await _prefs?.setInt(_pinTimeoutKey, normalized);
   }
 
   Future<void> setPinEnabled(bool enabled, String? pin) async {
-    if (enabled && pin != null) {
+    if (enabled && pin != null && pin.isNotEmpty) {
       final hash = sha256.convert(utf8.encode(pin)).toString();
       await _prefs?.setString(_pinHashKey, hash);
       await _prefs?.setBool(_pinEnabledKey, true);
@@ -275,11 +313,14 @@ class SettingsProvider extends ChangeNotifier {
       _isPinEnabled = false;
     }
     notifyListeners();
-    talker.info(enabled ? 'Enabled application PIN' : 'Disabled application PIN');
+    talker.info(
+      enabled ? 'Enabled application PIN' : 'Disabled application PIN',
+    );
   }
 
   Future<bool> verifyPin(String pin) async {
-    final storedHash = _prefs?.getString(_pinHashKey);
+    final storedValue = _prefs?.get(_pinHashKey);
+    final storedHash = storedValue is String ? storedValue : null;
     if (storedHash == null) return false;
 
     final inputHash = sha256.convert(utf8.encode(pin)).toString();
@@ -309,17 +350,36 @@ class SettingsProvider extends ChangeNotifier {
     notifyListeners();
   }
 
+  Future<void> setNotificationSchedule({
+    required int days,
+    required int at,
+  }) async {
+    final normalizedDays = days < 0 ? 0 : days;
+    final normalizedAt = at.clamp(0, 24 * 60 - 1);
+    _notifyEvery = normalizedDays;
+    _notifyAt = normalizedAt;
+    await Future.wait([
+      _prefs?.setInt(_notifyEveryKey, normalizedDays) ?? Future.value(true),
+      _prefs?.setInt(_notifyAtKey, normalizedAt) ?? Future.value(true),
+    ]);
+    notifyListeners();
+    cancelTasks();
+    await setupTasks();
+  }
+
   set notifyAt(int value) {
-    _notifyAt = value;
-    _prefs?.setInt(_notifyAtKey, value);
+    final normalized = value.clamp(0, 24 * 60 - 1);
+    _notifyAt = normalized;
+    _prefs?.setInt(_notifyAtKey, normalized);
     notifyListeners();
     cancelTasks();
     setupTasks();
   }
 
   set notifyEvery(int days) {
-    _notifyEvery = days;
-    _prefs?.setInt(_notifyEveryKey, days);
+    final normalized = days < 0 ? 0 : days;
+    _notifyEvery = normalized;
+    _prefs?.setInt(_notifyEveryKey, normalized);
     notifyListeners();
     cancelTasks();
     setupTasks();
@@ -399,8 +459,20 @@ class SettingsProvider extends ChangeNotifier {
   set notifyMaoi(bool notify) =>
       _updateBoolSetting(_notifySettings, _notifyKeys, 'maoi', notify);
 
-  bool getEntryNotify(String entryId) =>
-      _prefs?.getBool('notify_entry_$entryId') ?? true;
+  bool getPresetNotify(String key) {
+    final value = _prefs?.get('notify_$key');
+    return value is bool ? value : true;
+  }
+
+  void setPresetNotify(String key, bool value) {
+    _prefs?.setBool('notify_$key', value);
+    notifyListeners();
+  }
+
+  bool getEntryNotify(String entryId) {
+    final value = _prefs?.get('notify_entry_$entryId');
+    return value is bool ? value : true;
+  }
 
   void setEntryNotify(String entryId, bool value) {
     _prefs?.setBool('notify_entry_$entryId', value);

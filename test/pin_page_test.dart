@@ -37,7 +37,7 @@ void main() {
   group('PinPage', () {
     testWidgets('should unlock successfully', (WidgetTester tester) async {
       await tester.binding.setSurfaceSize(const Size(800, 1200));
-      settingsProvider.setPinEnabled(true, '123');
+      await settingsProvider.setPinEnabled(true, '123');
 
       await tester.pumpWidget(createTestWidget());
       await tester.pumpAndSettle();
@@ -58,7 +58,7 @@ void main() {
 
     testWidgets('should reject invalid pin', (WidgetTester tester) async {
       await tester.binding.setSurfaceSize(const Size(800, 1200));
-      settingsProvider.setPinEnabled(true, '123');
+      await settingsProvider.setPinEnabled(true, '123');
 
       await tester.pumpWidget(createTestWidget());
       await tester.pumpAndSettle();
@@ -75,6 +75,24 @@ void main() {
       await tester.pumpAndSettle();
 
       expect(find.text('Incorrect PIN'), findsOne);
+    });
+
+    testWidgets('should cap keypad input at 6 digits', (
+      WidgetTester tester,
+    ) async {
+      await tester.binding.setSurfaceSize(const Size(800, 1200));
+      await settingsProvider.setPinEnabled(true, '123456');
+
+      await tester.pumpWidget(createTestWidget());
+      await tester.pumpAndSettle();
+
+      for (final digit in ['1', '2', '3', '4', '5', '6', '7']) {
+        await tester.tap(find.text(digit));
+      }
+      await tester.pump();
+
+      expect(find.text('••••••'), findsOneWidget);
+      expect(find.text('•••••••'), findsNothing);
     });
 
     testWidgets('should activate lockout after 3 failed attempts', (
@@ -148,11 +166,36 @@ void main() {
       final settingsProvider2 = SettingsProvider();
       await settingsProvider2.loadPreferences();
 
-      await settingsProvider2.clearExpiredPinLockout();
       expect(settingsProvider2.isPinLockoutActive, isFalse);
+      expect(prefs.getInt('pin_failed_attempts'), 0);
+      expect(prefs.get('pin_locked_until_ms'), isNull);
 
       final result = await settingsProvider2.unlock('1234');
       expect(result, isTrue);
+    });
+
+    test('normalizes malformed persisted settings without throwing', () async {
+      SharedPreferences.setMockInitialValues({
+        'theme_mode': 'bad',
+        'color_scheme': 999,
+        'notify_at': 99999,
+        'notify_every': -4,
+        'pin_timeout': -2,
+        'locale': 'xx',
+        'pin_enabled': true,
+        'pin_hash': 42,
+        'notify_alcohol': 'yes',
+      });
+
+      final provider = SettingsProvider();
+      await provider.loadPreferences();
+
+      expect(provider.notifyAt, 8 * 60);
+      expect(provider.notifyEvery, 0);
+      expect(provider.pinTimeout, 15);
+      expect(provider.locale, 'system');
+      expect(provider.isPinEnabled, isFalse);
+      expect(provider.notifyAlcohol, isTrue);
     });
   });
 }

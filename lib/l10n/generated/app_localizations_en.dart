@@ -1253,16 +1253,31 @@ class AppLocalizationsEn extends AppLocalizations {
   String get addictionSocialMedia => 'Social Media';
 
   @override
-  String get addictionAC => 'AC';
-
-  @override
-  String get addictionAdultContent => 'Adult content';
+  String get addictionAdultContent => 'Adult Content';
 
   @override
   String get search => 'Search...';
 
   @override
   String get noSearchResults => 'No results found';
+
+  @override
+  String get homeSearchHint => 'Search addictions...';
+
+  @override
+  String get homeTrackAnyway => 'Track it anyway';
+
+  @override
+  String get iconSearchHint => 'Search icons...';
+
+  @override
+  String get iconNoResults => 'No icons found';
+
+  @override
+  String get milestoneOpenOriginalSource => 'Open Original Source';
+
+  @override
+  String get settingsExportSaveDialog => 'Save data to';
 
   @override
   String get settingsSearchHint => 'Search settings...';

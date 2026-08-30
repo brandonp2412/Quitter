@@ -49,89 +49,120 @@ class AddictionProvider extends ChangeNotifier {
   Future<void> loadAddictions() async {
     _pref = await SharedPreferences.getInstance();
 
-    _smoking = _pref!.getString('smoking');
-    _vaping = _pref!.getString('vaping');
-    _alcohol = _pref!.getString('alcohol');
-    _opioids = _pref!.getString('opioids');
-    _heroin = _pref!.getString('heroin');
-    _pouches = _pref!.getString('nicotine_pouches');
-    _socialMedia = _pref!.getString('social_media');
-    _pornography = _pref!.getString('pornography');
-    _marijuana = _pref!.getString('marijuana');
-    _cocaine = _pref!.getString('cocaine');
-    _meth = _pref!.getString('meth');
-    _benzos = _pref!.getString('benzos');
-    _adderall = _pref!.getString('adderall');
-    _ssri = _pref!.getString('ssri');
-    _snri = _pref!.getString('snri');
-    _tca = _pref!.getString('tca');
-    _maoi = _pref!.getString('maoi');
-    _nitrousOxide = _pref!.getString('nitrous_oxide');
-    _kratom = _pref!.getString('kratom');
-    _gabapentinoids = _pref!.getString('gabapentinoids');
-    _ghb = _pref!.getString('ghb');
-    _ketamine = _pref!.getString('ketamine');
-    _inhalants = _pref!.getString('inhalants');
-    _syntheticCannabinoids = _pref!.getString('synthetic_cannabinoids');
-    _mdma = _pref!.getString('mdma');
-    _steroids = _pref!.getString('steroids');
-    _fentanyl = _pref!.getString('fentanyl');
-    _smokelessTobacco = _pref!.getString('smokeless_tobacco');
-
-    final String? entriesJson = _pref!.getString('entries');
-    if (entriesJson != null) {
-      final List<dynamic> data = json.decode(entriesJson);
-      entries = data
-          .map((item) => Entry.fromJson(item as Map<String, dynamic>))
-          .toList();
+    String? readDate(String key) {
+      final value = _pref!.get(key);
+      return value is String && DateTime.tryParse(value) != null ? value : null;
     }
 
-    final String? orderJson = _pref!.getString('card_order');
-    if (orderJson != null) {
-      cardOrder = List<String>.from(json.decode(orderJson) as List<dynamic>);
+    dynamic decodeJson(String key) {
+      final value = _pref!.get(key);
+      if (value is! String) return null;
+      final raw = value;
+      try {
+        return json.decode(raw);
+      } catch (error, stackTrace) {
+        talker.handle(error, stackTrace, 'Ignored invalid recovery data: $key');
+        return null;
+      }
     }
 
-    final String? customNamesJson = _pref!.getString('custom_names');
-    if (customNamesJson != null) {
-      final Map<String, dynamic> data =
-          json.decode(customNamesJson) as Map<String, dynamic>;
-      customNames = data.map((key, val) => MapEntry(key, val as String));
+    _smoking = readDate('smoking');
+    _vaping = readDate('vaping');
+    _alcohol = readDate('alcohol');
+    _opioids = readDate('opioids');
+    _heroin = readDate('heroin');
+    _pouches = readDate('nicotine_pouches');
+    _socialMedia = readDate('social_media');
+    _pornography = readDate('pornography');
+    _marijuana = readDate('marijuana');
+    _cocaine = readDate('cocaine');
+    _meth = readDate('meth');
+    _benzos = readDate('benzos');
+    _adderall = readDate('adderall');
+    _ssri = readDate('ssri');
+    _snri = readDate('snri');
+    _tca = readDate('tca');
+    _maoi = readDate('maoi');
+    _nitrousOxide = readDate('nitrous_oxide');
+    _kratom = readDate('kratom');
+    _gabapentinoids = readDate('gabapentinoids');
+    _ghb = readDate('ghb');
+    _ketamine = readDate('ketamine');
+    _inhalants = readDate('inhalants');
+    _syntheticCannabinoids = readDate('synthetic_cannabinoids');
+    _mdma = readDate('mdma');
+    _steroids = readDate('steroids');
+    _fentanyl = readDate('fentanyl');
+    _smokelessTobacco = readDate('smokeless_tobacco');
+
+    entries = [];
+    final entriesData = decodeJson('entries');
+    if (entriesData is List) {
+      for (final item in entriesData) {
+        if (item is! Map<String, dynamic>) continue;
+        try {
+          entries.add(Entry.fromJson(item));
+        } catch (error, stackTrace) {
+          talker.handle(
+            error,
+            stackTrace,
+            'Ignored invalid custom recovery entry',
+          );
+        }
+      }
     }
 
-    final String? customIconsJson = _pref!.getString('custom_icons');
-    if (customIconsJson != null) {
-      final Map<String, dynamic> data =
-          json.decode(customIconsJson) as Map<String, dynamic>;
+    cardOrder = [];
+    final orderData = decodeJson('card_order');
+    if (orderData is List) {
+      cardOrder = orderData.whereType<String>().toList();
+    }
+
+    customNames = {};
+    final namesData = decodeJson('custom_names');
+    if (namesData is Map<String, dynamic>) {
+      customNames = {
+        for (final entry in namesData.entries)
+          if (entry.value is String) entry.key: entry.value as String,
+      };
+    }
+
+    customIcons = {};
+    final iconsData = decodeJson('custom_icons');
+    if (iconsData is Map<String, dynamic>) {
       customIcons = {
-        for (final entry in data.entries)
-          if (allIcons[entry.value as String] != null)
+        for (final entry in iconsData.entries)
+          if (entry.value is String && allIcons[entry.value as String] != null)
             entry.key: allIcons[entry.value as String]!,
       };
     }
 
-    final String? customColorsJson = _pref!.getString('custom_colors');
-    if (customColorsJson != null) {
-      final Map<String, dynamic> data =
-          json.decode(customColorsJson) as Map<String, dynamic>;
-      customColors = data.map((key, val) => MapEntry(key, Color(val as int)));
+    customColors = {};
+    final colorsData = decodeJson('custom_colors');
+    if (colorsData is Map<String, dynamic>) {
+      customColors = {
+        for (final entry in colorsData.entries)
+          if (entry.value is int) entry.key: Color(entry.value as int),
+      };
     }
 
-    final String? daysJson = _pref!.getString('days');
-    if (daysJson != null) {
-      final Map<String, dynamic> data = json.decode(daysJson);
-      _days = data.map(
-        (key, val) =>
-            MapEntry(key, (val as List<dynamic>).map((e) => e as int).toList()),
-      );
+    _days = {};
+    final daysData = decodeJson('days');
+    if (daysData is Map<String, dynamic>) {
+      _days = {
+        for (final entry in daysData.entries)
+          if (entry.value is List)
+            entry.key: (entry.value as List).whereType<int>().toList(),
+      };
     }
 
-    _writeActiveAddictionKeysForWidget();
+    await _writeActiveAddictionKeysForWidget();
 
     notifyListeners();
     talker.debug('Loaded recovery data: ${entries.length} custom entries');
   }
 
-  void _writeActiveAddictionKeysForWidget() {
+  Future<void> _writeActiveAddictionKeysForWidget() async {
     final allAddictions = <String, String?>{
       'smoking': _smoking,
       'vaping': _vaping,
@@ -166,23 +197,27 @@ class AddictionProvider extends ChangeNotifier {
         .where((e) => e.value != null)
         .map((e) => e.key)
         .toList();
-    _pref?.setString('active_addiction_keys', json.encode(activeKeys));
+    await _pref?.setString('active_addiction_keys', json.encode(activeKeys));
   }
 
   String? getAddiction(String key) {
-    return _pref?.getString(key);
+    final value = _pref?.get(key);
+    return value is String && DateTime.tryParse(value) != null ? value : null;
   }
 
-  void setAddiction(String key, String? value) {
+  Future<void> setAddiction(String key, String? value) async {
     if (value == null) {
-      _pref?.remove(key);
+      await _pref?.remove(key);
     } else {
-      _pref?.setString(key, value);
+      await _pref?.setString(key, value);
     }
-    loadAddictions();
-    talker.info(value == null ? 'Removed a tracked journey' : 'Updated a tracked journey');
-    if (defaultTargetPlatform == TargetPlatform.android)
-      HomeWidget.updateWidget(name: 'QuitTrackerWidget');
+    await loadAddictions();
+    talker.info(
+      value == null ? 'Removed a tracked journey' : 'Updated a tracked journey',
+    );
+    if (defaultTargetPlatform == TargetPlatform.android) {
+      await HomeWidget.updateWidget(name: 'QuitTrackerWidget');
+    }
   }
 
   String? get quitAlcohol => _alcohol;
@@ -213,6 +248,37 @@ class AddictionProvider extends ChangeNotifier {
   String? get quitSteroids => _steroids;
   String? get quitFentanyl => _fentanyl;
   String? get quitSmokelessTobacco => _smokelessTobacco;
+
+  bool get hasActivePresetJourney => [
+    _smoking,
+    _vaping,
+    _alcohol,
+    _opioids,
+    _heroin,
+    _pouches,
+    _socialMedia,
+    _pornography,
+    _cocaine,
+    _meth,
+    _marijuana,
+    _benzos,
+    _adderall,
+    _ssri,
+    _snri,
+    _tca,
+    _maoi,
+    _nitrousOxide,
+    _kratom,
+    _gabapentinoids,
+    _ghb,
+    _ketamine,
+    _inhalants,
+    _syntheticCannabinoids,
+    _mdma,
+    _steroids,
+    _fentanyl,
+    _smokelessTobacco,
+  ].any((value) => value != null);
 
   Future<void> saveCardOrder(List<String> order) async {
     cardOrder = order;
@@ -295,7 +361,10 @@ class AddictionProvider extends ChangeNotifier {
   }
 
   Future<void> popDays(String key) async {
-    _days.update(key, (val) => val.sublist(0, val.length - 1));
+    final values = _days[key];
+    if (values == null || values.isEmpty) return;
+    values.removeLast();
+    if (values.isEmpty) _days.remove(key);
     await _saveDays();
     notifyListeners();
   }
@@ -303,17 +372,20 @@ class AddictionProvider extends ChangeNotifier {
   Future<void> resetAddiction(String key, int days) async {
     _days.update(key, (val) => [...val, days], ifAbsent: () => [days]);
     await _saveDays();
-    setAddiction(key, DateTime.now().toIso8601String());
+    await setAddiction(key, DateTime.now().toIso8601String());
     talker.info('Reset a tracked journey');
   }
 
   Future<void> clearMilestoneDays(String key, List<int> daysToClear) async {
+    if (daysToClear.isEmpty) return;
+
     if (_days.containsKey(key)) {
       _days[key]?.removeWhere((day) => daysToClear.contains(day));
       await _saveDays();
     } else {
-      final entry = entries.firstWhere((entry) => entry.id == key);
-      entry.daysAchieved = entry.daysAchieved
+      final index = entries.indexWhere((entry) => entry.id == key);
+      if (index == -1) return;
+      entries[index].daysAchieved = entries[index].daysAchieved
           .where((day) => !daysToClear.contains(day))
           .toList();
       await _saveEntries();
@@ -322,7 +394,7 @@ class AddictionProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-  void clearDays() async {
+  Future<void> clearDays() async {
     await _pref?.remove('days');
     _days = {};
     notifyListeners();

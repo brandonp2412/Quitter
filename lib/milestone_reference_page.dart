@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:quitter/quit_milestone.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -156,7 +157,11 @@ class MilestoneReferencePage extends StatelessWidget {
                         mode: LaunchMode.externalApplication,
                       ),
                       icon: const Icon(Icons.open_in_new, size: 18),
-                      label: const Text('Open Original Source'),
+                      label: Text(
+                        AppLocalizations.of(
+                          context,
+                        )!.milestoneOpenOriginalSource,
+                      ),
                       style: FilledButton.styleFrom(
                         padding: const EdgeInsets.symmetric(vertical: 14),
                         shape: RoundedRectangleBorder(

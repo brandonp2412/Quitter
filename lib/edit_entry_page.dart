@@ -24,6 +24,7 @@ class EditEntryPage extends StatefulWidget {
 class _EditEntryPageState extends State<EditEntryPage> {
   final _formKey = GlobalKey<FormState>();
   late TextEditingController _titleController;
+  late TextEditingController _quitDateController;
   late DateTime _quitDate;
   late Color _selectedColor;
   late IconData _selectedIcon;
@@ -33,6 +34,8 @@ class _EditEntryPageState extends State<EditEntryPage> {
     super.initState();
     _titleController = TextEditingController(text: widget.entry?.title ?? '');
     _quitDate = widget.entry?.quitDate ?? DateTime.now();
+    _quitDateController = TextEditingController();
+    _updateQuitDateText();
     _selectedIcon = widget.entry?.icon ?? Icons.star;
 
     final random = Random();
@@ -44,93 +47,87 @@ class _EditEntryPageState extends State<EditEntryPage> {
   @override
   void dispose() {
     _titleController.dispose();
+    _quitDateController.dispose();
     super.dispose();
   }
 
-  void _presentDatePicker() {
-    showDatePicker(
+  Future<void> _presentDatePicker() async {
+    final pickedDate = await showDatePicker(
       context: context,
       initialDate: _quitDate,
       firstDate: DateTime(2000),
       lastDate: DateTime.now(),
-    ).then((pickedDate) {
-      if (pickedDate == null) {
-        return;
-      }
-      setState(() {
-        _quitDate = pickedDate;
-      });
+    );
+    if (pickedDate == null || !mounted) return;
+    setState(() {
+      _quitDate = pickedDate;
+      _updateQuitDateText();
     });
   }
 
-  void _saveEntry() {
-    if (_formKey.currentState!.validate()) {
-      final addictions = context.read<AddictionProvider>();
-      if (widget.entry == null) {
-        final newEntry = Entry(
-          id: const Uuid().v4(),
-          title: _titleController.text,
-          quitDate: _quitDate,
-          color: _selectedColor,
-          icon: _selectedIcon,
-        );
-        addictions.addEntry(newEntry);
-      } else {
-        final updatedEntry = Entry(
-          id: widget.entry!.id,
-          title: _titleController.text,
-          quitDate: _quitDate,
-          color: _selectedColor,
-          icon: _selectedIcon,
-        );
-        addictions.updateEntry(updatedEntry);
-      }
-      if (!mounted) return;
-      Navigator.of(context).pop();
-    }
+  void _updateQuitDateText() {
+    final days = daysCeil(_quitDate.toIso8601String());
+    _quitDateController.text =
+        '${DateFormat.yMMMd().format(_quitDate)} ($days day${days == 1 ? '' : 's'})';
   }
 
-  void _deleteEntry() {
-    if (widget.entry != null) {
-      showDialog(
-        context: context,
-        builder: (ctx) => AlertDialog(
-          title: Text(AppLocalizations.of(context)!.editEntryDeleteDialogTitle),
-          content: Text(
-            AppLocalizations.of(context)!.editEntryDeleteDialogMessage,
-          ),
-          actions: [
-            TextButton(
-              onPressed: () {
-                Navigator.of(ctx).pop(false);
-              },
-              child: Text(AppLocalizations.of(context)!.editEntryDeleteNo),
-            ),
-            TextButton(
-              onPressed: () {
-                Navigator.of(ctx).pop(true);
-              },
-              child: Text(AppLocalizations.of(context)!.editEntryDeleteYes),
-            ),
-          ],
+  Future<void> _saveEntry() async {
+    if (!_formKey.currentState!.validate()) return;
+
+    final addictions = context.read<AddictionProvider>();
+    final title = _titleController.text.trim();
+    if (widget.entry == null) {
+      await addictions.addEntry(
+        Entry(
+          id: const Uuid().v4(),
+          title: title,
+          quitDate: _quitDate,
+          color: _selectedColor,
+          icon: _selectedIcon,
         ),
-      ).then((confirmed) {
-        if (confirmed != null && confirmed && mounted) {
-          final addictions = context.read<AddictionProvider>();
-          addictions.deleteEntry(widget.entry!.id);
-          if (!mounted) return;
-          Navigator.of(context).pop();
-        }
-      });
+      );
+    } else {
+      await addictions.updateEntry(
+        widget.entry!.copyWith(
+          title: title,
+          quitDate: _quitDate,
+          color: _selectedColor,
+          icon: _selectedIcon,
+        ),
+      );
     }
+    if (!mounted) return;
+    Navigator.of(context).pop();
+  }
+
+  Future<void> _deleteEntry() async {
+    final entry = widget.entry;
+    if (entry == null) return;
+    final confirmed = await showDialog<bool>(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        title: Text(AppLocalizations.of(ctx)!.editEntryDeleteDialogTitle),
+        content: Text(AppLocalizations.of(ctx)!.editEntryDeleteDialogMessage),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(ctx).pop(false),
+            child: Text(AppLocalizations.of(ctx)!.editEntryDeleteNo),
+          ),
+          TextButton(
+            onPressed: () => Navigator.of(ctx).pop(true),
+            child: Text(AppLocalizations.of(ctx)!.editEntryDeleteYes),
+          ),
+        ],
+      ),
+    );
+    if (confirmed != true || !mounted) return;
+    await context.read<AddictionProvider>().deleteEntry(entry.id);
+    if (!mounted) return;
+    Navigator.of(context).pop();
   }
 
   @override
   Widget build(BuildContext context) {
-    final days = daysCeil(_quitDate.toIso8601String());
-    final quitText =
-        '${DateFormat.yMMMd().format(_quitDate)} ($days day${days > 1 ? 's' : ''})';
-
     return Scaffold(
       appBar: AppBar(
         title: Text(
@@ -159,7 +156,7 @@ class _EditEntryPageState extends State<EditEntryPage> {
                     border: OutlineInputBorder(),
                   ),
                   validator: (value) {
-                    if (value == null || value.isEmpty) {
+                    if (value == null || value.trim().isEmpty) {
                       return AppLocalizations.of(context)!.editEntryTitleError;
                     }
                     return null;
@@ -168,7 +165,7 @@ class _EditEntryPageState extends State<EditEntryPage> {
                 const SizedBox(height: 20),
                 TextFormField(
                   readOnly: true,
-                  controller: TextEditingController(text: quitText),
+                  controller: _quitDateController,
                   decoration: InputDecoration(
                     labelText: AppLocalizations.of(
                       context,

@@ -35,6 +35,7 @@ import 'package:quitter/settings_page.dart';
 import 'package:quitter/settings_provider.dart';
 import 'package:quitter/smoking_page.dart';
 import 'package:quitter/social_media_page.dart';
+import 'package:quitter/smokeless_tobacco_page.dart';
 import 'package:quitter/utils.dart';
 import 'package:quitter/vaping_page.dart';
 import 'package:quitter/whats_new.dart';
@@ -105,9 +106,10 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
 
   void _whatsNew() async {
     final prefs = await SharedPreferences.getInstance();
-    final lastVersion = prefs.getInt('last_build_number') ?? 0;
+    final storedLastVersion = prefs.get('last_build_number');
+    final lastVersion = storedLastVersion is int ? storedLastVersion : 0;
     final info = await PackageInfo.fromPlatform();
-    final currentVersion = int.parse(info.buildNumber);
+    final currentVersion = int.tryParse(info.buildNumber) ?? 0;
     await prefs.setInt('last_build_number', currentVersion);
     if (lastVersion == 0) return;
 
@@ -132,7 +134,10 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
     await addictions.loadAddictions();
   }
 
-  void _showStopTrackingBottomSheet(String title, VoidCallback onConfirm) {
+  void _showStopTrackingBottomSheet(
+    String title,
+    Future<void> Function() onConfirm,
+  ) {
     final l10n = AppLocalizations.of(context)!;
     showModalBottomSheet(
       context: context,
@@ -195,9 +200,9 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                     const SizedBox(width: 16),
                     Expanded(
                       child: FilledButton(
-                        onPressed: () {
+                        onPressed: () async {
                           Navigator.pop(context);
-                          onConfirm();
+                          await onConfirm();
                         },
                         style: FilledButton.styleFrom(
                           backgroundColor: Theme.of(context).colorScheme.error,
@@ -451,8 +456,24 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
       (context) => const OpioidPage(started: true),
     );
     addPreset(
+      'heroin',
+      l10n.addictionHeroin,
+      Icons.medication,
+      [const Color(0xFFEC4899), const Color(0xFFBE185D)],
+      addictions.quitHeroin,
+      (context) => const OpioidPage(started: true, storageKey: 'heroin'),
+    );
+    addPreset(
+      'fentanyl',
+      l10n.addictionFentanyl,
+      Icons.medication,
+      [const Color(0xFF7C3AED), const Color(0xFF3B0764)],
+      addictions.quitFentanyl,
+      (context) => const OpioidPage(started: true, storageKey: 'fentanyl'),
+    );
+    addPreset(
       'pornography',
-      l10n.addictionAC,
+      l10n.addictionAdultContent,
       Icons.block,
       [const Color(0xFFF43F5E), const Color(0xFFE11D48)],
       addictions.quitPornography,
@@ -465,6 +486,14 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
       [const Color(0xFF10B981), const Color(0xFF059669)],
       addictions.quitSmoking,
       (context) => const SmokingPage(started: true),
+    );
+    addPreset(
+      'smokeless_tobacco',
+      l10n.addictionSmokelessTobacco,
+      Icons.grass,
+      [const Color(0xFF78350F), const Color(0xFF451A03)],
+      addictions.quitSmokelessTobacco,
+      (context) => const SmokelessTobaccoPage(started: true),
     );
     addPreset(
       'social_media',
@@ -555,7 +584,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                     padding: const EdgeInsets.only(left: 8),
                     child: const Icon(Icons.search),
                   ),
-                  hintText: 'Search addictions...',
+                  hintText: l10n.homeSearchHint,
                   trailing: [
                     if (_searchQuery.isNotEmpty)
                       IconButton(
@@ -604,7 +633,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                             const SizedBox(height: 16),
                             Text(
                               _searchQuery.isNotEmpty
-                                  ? 'No matches found'
+                                  ? l10n.noSearchResults
                                   : l10n.homeEmptyTitle,
                               style: Theme.of(context).textTheme.titleLarge
                                   ?.copyWith(
@@ -639,7 +668,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                                   _loadQuitDays();
                                 },
                                 icon: const Icon(Icons.add),
-                                label: const Text('Track it anyway'),
+                                label: Text(l10n.homeTrackAnyway),
                               ),
                             ],
                           ],
@@ -687,6 +716,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                               child: QuitCard(
                                 context: context,
                                 title: data.title,
+                                heroTag: data.key,
                                 icon: data.icon,
                                 gradientColors: data.gradientColors,
                                 quitDate: data.quitDate,

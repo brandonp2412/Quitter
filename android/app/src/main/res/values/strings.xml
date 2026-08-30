@@ -18,11 +18,14 @@
     <string name="addiction_alcohol">Alcohol</string>
     <string name="addiction_vaping">Vaping</string>
     <string name="addiction_smoking">Smoking</string>
+    <string name="addiction_smokeless_tobacco">Dip / Chewing Tobacco</string>
     <string name="addiction_marijuana">Marijuana</string>
     <string name="addiction_nicotine_pouches">Nicotine Pouches</string>
     <string name="addiction_opioids">Opioids</string>
+    <string name="addiction_heroin">Heroin</string>
+    <string name="addiction_fentanyl">Fentanyl</string>
     <string name="addiction_social_media">Social Media</string>
-    <string name="addiction_pornography">Adult content</string>
+    <string name="addiction_pornography">Adult Content</string>
     <string name="addiction_cocaine">Cocaine</string>
     <string name="addiction_meth">Meth</string>
     <string name="addiction_benzos">Benzodiazepines</string>

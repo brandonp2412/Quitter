@@ -47,6 +47,7 @@ class _PinPageState extends State<PinPage> {
   }
 
   void _onNumberTap(String number) {
+    if (_pin.length >= 6) return;
     setState(() {
       _pin += number;
       _isError = false;

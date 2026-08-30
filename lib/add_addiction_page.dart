@@ -363,7 +363,7 @@ class _AddAddictionPageState extends State<AddAddictionPage> {
     if (addictions.quitPornography == null) {
       options.add(
         _AddictionOption(
-          title: l10n.addictionAC,
+          title: l10n.addictionAdultContent,
           icon: Icons.block,
           gradientColors: [const Color(0xFFF43F5E), const Color(0xFFE11D48)],
           destination: const PornographyPage(started: false),

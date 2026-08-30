@@ -12,6 +12,8 @@ import 'package:quitter/utils.dart';
 import 'package:quitter/settings_provider.dart';
 
 Timer? timer;
+Timer? oneOffReminderTimer;
+Timer? periodicStarterTimer;
 
 Future<void> setupTasks() async {
   if (kIsWeb) return;
@@ -75,15 +77,18 @@ Future<void> setupTasks() async {
     return;
   }
 
-  Timer(reminderDelay, () => doDesktopReminders());
+  oneOffReminderTimer = Timer(reminderDelay, () => doDesktopReminders());
   talker.info('Scheduled desktop reminder timer');
 
-  Timer(reminderDelay + Duration(days: settings.notifyEvery), () {
-    timer = Timer.periodic(
-      Duration(days: settings.notifyEvery),
-      (timer) => doDesktopReminders(),
-    );
-  });
+  periodicStarterTimer = Timer(
+    reminderDelay + Duration(days: settings.notifyEvery),
+    () {
+      timer = Timer.periodic(
+        Duration(days: settings.notifyEvery),
+        (timer) => doDesktopReminders(),
+      );
+    },
+  );
 }
 
 /// Test method to send a notification with custom title and body
@@ -99,12 +104,21 @@ Future<void> testNotification({
 
 /// Fires a preview notification for a specific addiction when its toggle is enabled.
 /// Uses the real days-clean count if the user has a quit date saved, otherwise skips.
+String? _validQuitDate(SharedPreferences prefs, String key) {
+  final value = prefs.get(key);
+  return value is String && DateTime.tryParse(value) != null ? value : null;
+}
+
+bool _notificationEnabled(SharedPreferences prefs, String key) {
+  return prefs.get('notify_$key') != false;
+}
+
 Future<void> testAddictionNotification(
   String prefsKey,
   String displayName,
 ) async {
   final prefs = await SharedPreferences.getInstance();
-  final quitDate = prefs.getString(prefsKey);
+  final quitDate = _validQuitDate(prefs, prefsKey);
   if (quitDate == null) {
     talker.warning('Skipped notification preview without a quit date');
     return;
@@ -214,19 +228,23 @@ Future<void> notifyProgress(FlutterLocalNotificationsPlugin plugin) async {
   final random = Random();
 
   final List<Map<String, String>> journeys = [
+    {'key': 'adderall', 'name': 'Adderall'},
     {'key': 'ssri', 'name': 'SSRIs'},
     {'key': 'snri', 'name': 'SNRIs'},
     {'key': 'tca', 'name': 'TCAs'},
     {'key': 'maoi', 'name': 'MAOIs'},
     {'key': 'alcohol', 'name': 'Alcohol'},
+    {'key': 'benzos', 'name': 'Benzodiazepines'},
     {'key': 'vaping', 'name': 'Vaping'},
     {'key': 'smoking', 'name': 'Smoking'},
     {'key': 'marijuana', 'name': 'Marijuana'},
     {'key': 'opioids', 'name': 'Opioids'},
     {'key': 'nicotine_pouches', 'name': 'Nicotine pouches'},
     {'key': 'social_media', 'name': 'Social media'},
-    {'key': 'pornography', 'name': 'AC'},
+    {'key': 'pornography', 'name': 'Adult Content'},
     {'key': 'cocaine', 'name': 'Cocaine'},
+    {'key': 'meth', 'name': 'Methamphetamine'},
+    {'key': 'nitrous_oxide', 'name': 'Nitrous oxide'},
     {'key': 'kratom', 'name': 'Kratom'},
     {'key': 'gabapentinoids', 'name': 'Gabapentin / Pregabalin'},
     {'key': 'ghb', 'name': 'GHB'},
@@ -235,6 +253,9 @@ Future<void> notifyProgress(FlutterLocalNotificationsPlugin plugin) async {
     {'key': 'synthetic_cannabinoids', 'name': 'Synthetic cannabinoids'},
     {'key': 'mdma', 'name': 'MDMA'},
     {'key': 'steroids', 'name': 'Anabolic steroids'},
+    {'key': 'heroin', 'name': 'Heroin'},
+    {'key': 'fentanyl', 'name': 'Fentanyl'},
+    {'key': 'smokeless_tobacco', 'name': 'smokeless tobacco'},
   ];
 
   final List<String> messages = [
@@ -250,19 +271,17 @@ Future<void> notifyProgress(FlutterLocalNotificationsPlugin plugin) async {
     "Stay strong!",
   ];
 
-  final activeJourneys = journeys
-      .where(
-        (journey) =>
-            prefs.getString(journey['key']!) != null &&
-            prefs.getBool("notify_${journey['key']}") != false,
-      )
-      .toList();
+  final activeJourneys = journeys.where((journey) {
+    final key = journey['key']!;
+    return _validQuitDate(prefs, key) != null &&
+        _notificationEnabled(prefs, key);
+  }).toList();
 
   final addiction = AddictionProvider();
   await addiction.loadAddictions();
 
   final activeEntries = addiction.entries
-      .where((e) => prefs.getBool('notify_entry_${e.id}') != false)
+      .where((e) => prefs.get('notify_entry_${e.id}') != false)
       .toList();
 
   if (activeJourneys.isEmpty && activeEntries.isEmpty) {
@@ -283,8 +302,9 @@ Future<void> notifyProgress(FlutterLocalNotificationsPlugin plugin) async {
     notificationBody = "$entryCount days clean — $randomMessage";
   } else if (activeJourneys.isNotEmpty) {
     final randomJourney = activeJourneys[random.nextInt(activeJourneys.length)];
-    final journeyDate = prefs.getString(randomJourney['key']!);
-    final journeyCount = daysCeil(journeyDate!);
+    final journeyDate = _validQuitDate(prefs, randomJourney['key']!);
+    if (journeyDate == null) return;
+    final journeyCount = daysCeil(journeyDate);
     notificationTitle = "No ${randomJourney['name']!.toLowerCase()}";
     notificationBody = "$journeyCount days clean — $randomMessage";
   } else {
@@ -316,8 +336,13 @@ void cancelTasks() {
     return;
   }
 
+  oneOffReminderTimer?.cancel();
+  oneOffReminderTimer = null;
+  periodicStarterTimer?.cancel();
+  periodicStarterTimer = null;
   timer?.cancel();
-  talker.info('Cancelled desktop reminder timer');
+  timer = null;
+  talker.info('Cancelled desktop reminder timers');
 }
 
 Future<void> doMobileReminders() async {
@@ -329,7 +354,9 @@ Future<void> doMobileReminders() async {
 void taskHandler() {
   if (defaultTargetPlatform != TargetPlatform.android &&
       defaultTargetPlatform != TargetPlatform.iOS) {
-    talker.warning('Background task handler invoked on an unsupported platform');
+    talker.warning(
+      'Background task handler invoked on an unsupported platform',
+    );
     return;
   }
 

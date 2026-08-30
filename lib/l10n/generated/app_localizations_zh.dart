@@ -1215,9 +1215,6 @@ class AppLocalizationsZh extends AppLocalizations {
   String get addictionSocialMedia => '社交媒体';
 
   @override
-  String get addictionAC => '成人内容';
-
-  @override
   String get addictionAdultContent => '成人内容';
 
   @override
@@ -1225,6 +1222,24 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get noSearchResults => '未找到结果';
+
+  @override
+  String get homeSearchHint => '搜索成瘾项目...';
+
+  @override
+  String get homeTrackAnyway => '仍然开始追踪';
+
+  @override
+  String get iconSearchHint => '搜索图标...';
+
+  @override
+  String get iconNoResults => '未找到图标';
+
+  @override
+  String get milestoneOpenOriginalSource => '打开原始来源';
+
+  @override
+  String get settingsExportSaveDialog => '保存数据到';
 
   @override
   String get settingsSearchHint => '搜索...';

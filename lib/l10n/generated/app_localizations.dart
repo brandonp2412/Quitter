@@ -2236,16 +2236,10 @@ abstract class AppLocalizations {
   /// **'Social Media'**
   String get addictionSocialMedia;
 
-  /// Short name for adult content addiction (displayed as AC)
+  /// Name of the adult content addiction type
   ///
   /// In en, this message translates to:
-  /// **'AC'**
-  String get addictionAC;
-
-  /// Full name for adult content addiction (used in settings)
-  ///
-  /// In en, this message translates to:
-  /// **'Adult content'**
+  /// **'Adult Content'**
   String get addictionAdultContent;
 
   /// Generic search hint text
@@ -2259,6 +2253,42 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'No results found'**
   String get noSearchResults;
+
+  /// Hint text for the home addiction search bar
+  ///
+  /// In en, this message translates to:
+  /// **'Search addictions...'**
+  String get homeSearchHint;
+
+  /// Button to create a custom tracker from an unmatched search
+  ///
+  /// In en, this message translates to:
+  /// **'Track it anyway'**
+  String get homeTrackAnyway;
+
+  /// Hint text for the icon picker search bar
+  ///
+  /// In en, this message translates to:
+  /// **'Search icons...'**
+  String get iconSearchHint;
+
+  /// Shown when icon search yields no matches
+  ///
+  /// In en, this message translates to:
+  /// **'No icons found'**
+  String get iconNoResults;
+
+  /// Button to open a milestone reference source
+  ///
+  /// In en, this message translates to:
+  /// **'Open Original Source'**
+  String get milestoneOpenOriginalSource;
+
+  /// Title of the export file save dialog
+  ///
+  /// In en, this message translates to:
+  /// **'Save data to'**
+  String get settingsExportSaveDialog;
 
   /// Hint text for settings search bar
   ///

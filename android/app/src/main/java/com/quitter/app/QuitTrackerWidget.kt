@@ -66,6 +66,13 @@ class QuitTrackerWidget : AppWidgetProvider() {
                                             0xFF10B981,
                                             0xFF059669
                                     ),
+                            "smokeless_tobacco" to
+                                    AddictionInfo(
+                                            context.getString(R.string.addiction_smokeless_tobacco),
+                                            R.drawable.ic_widget_grass,
+                                            0xFF92400E,
+                                            0xFF451A03
+                                    ),
                             "marijuana" to
                                     AddictionInfo(
                                             context.getString(R.string.addiction_marijuana),
@@ -86,6 +93,20 @@ class QuitTrackerWidget : AppWidgetProvider() {
                                             R.drawable.ic_widget_medication,
                                             0xFFEC4899,
                                             0xFFBE185D
+                                    ),
+                            "heroin" to
+                                    AddictionInfo(
+                                            context.getString(R.string.addiction_heroin),
+                                            R.drawable.ic_widget_medication,
+                                            0xFFB91C1C,
+                                            0xFF7F1D1D
+                                    ),
+                            "fentanyl" to
+                                    AddictionInfo(
+                                            context.getString(R.string.addiction_fentanyl),
+                                            R.drawable.ic_widget_medication,
+                                            0xFFDC2626,
+                                            0xFF7F1D1D
                                     ),
                             "social_media" to
                                     AddictionInfo(

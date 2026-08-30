@@ -8,6 +8,7 @@ class QuitCard extends StatelessWidget {
     super.key,
     required this.context,
     required this.title,
+    required this.heroTag,
     required this.icon,
     required this.gradientColors,
     required this.quitDate,
@@ -18,6 +19,7 @@ class QuitCard extends StatelessWidget {
 
   final BuildContext context;
   final String title;
+  final Object heroTag;
   final IconData icon;
   final List<Color> gradientColors;
   final String? quitDate;
@@ -31,11 +33,15 @@ class QuitCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    int? days;
-    if (quitDate != null) days = daysCeil(quitDate!);
+    final parsedQuitDate = quitDate == null
+        ? null
+        : DateTime.tryParse(quitDate!);
+    final days = parsedQuitDate == null
+        ? null
+        : daysCeil(parsedQuitDate.toIso8601String());
 
     final card = Hero(
-      tag: title,
+      tag: heroTag,
       child: Card(
         elevation: 0,
         margin: EdgeInsets.zero,
@@ -138,7 +144,7 @@ class QuitCard extends StatelessWidget {
                       ),
                     ],
 
-                    if (quitDate != null) ...[
+                    if (parsedQuitDate != null) ...[
                       const Spacer(),
                       Container(
                         padding: const EdgeInsets.symmetric(
@@ -154,7 +160,7 @@ class QuitCard extends StatelessWidget {
                         child: Text(
                           DateFormat.yMMMd(
                             AppLocalizations.of(context)?.localeName,
-                          ).format(DateTime.parse(quitDate!)),
+                          ).format(parsedQuitDate),
                           style: Theme.of(context).textTheme.bodySmall
                               ?.copyWith(
                                 color: Theme.of(context).colorScheme.primary,

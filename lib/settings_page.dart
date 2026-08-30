@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:permission_handler/permission_handler.dart';
@@ -48,6 +49,7 @@ class _SettingsPageState extends State<SettingsPage> {
     _searchController.removeListener(_onSearchChanged);
     _searchController.dispose();
     _searchFocusNode.dispose();
+    _pinTimeoutController.dispose();
     super.dispose();
   }
 
@@ -109,20 +111,41 @@ class _SettingsPageState extends State<SettingsPage> {
     final timestamp = DateTime.now().millisecondsSinceEpoch;
 
     final path = await FilePicker.saveFile(
-      dialogTitle: 'Save data to',
+      dialogTitle: l10n.settingsExportSaveDialog,
       fileName: 'quitter-$timestamp.json',
       type: FileType.custom,
       allowedExtensions: ['json'],
-      bytes: Uint8List.fromList(json.codeUnits),
+      bytes: Uint8List.fromList(utf8.encode(json)),
     );
 
+    if (path == null) return;
+
     if (defaultTargetPlatform == TargetPlatform.linux) {
-      final file = File(path!);
+      final file = File(path);
       await file.writeAsString(json);
     }
 
-    if (!context.mounted || path == null) return;
+    if (!context.mounted) return;
     toast(l10n.dataExported);
+  }
+
+  Map<String, Object> _validateImportData(Object? decoded) {
+    if (decoded is! Map<String, dynamic>) {
+      throw const FormatException('Expected a JSON object');
+    }
+
+    final result = <String, Object>{};
+    for (final entry in decoded.entries) {
+      final value = entry.value;
+      if (value is bool || value is int || value is double || value is String) {
+        result[entry.key] = value as Object;
+      } else if (value is List && value.every((item) => item is String)) {
+        result[entry.key] = value.cast<String>();
+      } else {
+        throw FormatException('Unsupported value for ${entry.key}');
+      }
+    }
+    return result;
   }
 
   Future<void> _importData(BuildContext context) async {
@@ -131,14 +154,14 @@ class _SettingsPageState extends State<SettingsPage> {
       type: FileType.custom,
       allowedExtensions: ['json'],
     );
-    if (result == null) return;
+    if (result == null || result.files.isEmpty) return;
 
     try {
-      final pickResult = result.files.single;
+      final pickResult = result.files.first;
       final bytes = await pickResult.readAsBytes();
       final contents = utf8.decode(bytes);
 
-      Map<String, dynamic> data = jsonDecode(contents);
+      final data = _validateImportData(jsonDecode(contents));
 
       final prefs = await SharedPreferences.getInstance();
       await prefs.clear();
@@ -154,11 +177,8 @@ class _SettingsPageState extends State<SettingsPage> {
           await prefs.setDouble(key, value);
         } else if (value is String) {
           await prefs.setString(key, value);
-        } else if (value is List) {
-          await prefs.setStringList(
-            key,
-            value.map((e) => e.toString()).toList(),
-          );
+        } else if (value is List<String>) {
+          await prefs.setStringList(key, value);
         }
       }
 
@@ -175,17 +195,10 @@ class _SettingsPageState extends State<SettingsPage> {
         return;
 
       if (settings.notifyEvery == 0) return;
-      if (addictions.quitAlcohol == null &&
-          addictions.quitMarijuana == null &&
-          addictions.quitPouches == null &&
-          addictions.quitOpioids == null &&
-          addictions.quitPornography == null &&
-          addictions.quitSmoking == null &&
-          addictions.quitSocialMedia == null &&
-          addictions.quitVaping == null)
+      if (!addictions.hasActivePresetJourney && addictions.entries.isEmpty)
         return;
 
-      Permission.notification.request();
+      await Permission.notification.request();
     } catch (e) {
       if (!context.mounted) return;
       showDialog(
@@ -196,7 +209,7 @@ class _SettingsPageState extends State<SettingsPage> {
           actions: [
             TextButton(
               onPressed: () => Navigator.pop(ctx),
-              child: const Text('OK'),
+              child: Text(l10n.ok),
             ),
           ],
         ),
@@ -234,12 +247,16 @@ class _SettingsPageState extends State<SettingsPage> {
         leading: Icon(Icons.timer_outlined),
         title: TextField(
           controller: _pinTimeoutController,
+          keyboardType: TextInputType.number,
+          inputFormatters: [FilteringTextInputFormatter.digitsOnly],
           decoration: InputDecoration(
             labelText: l10n.settingsPinTimeout,
             hintText: l10n.settingsPinTimeoutHint,
           ),
-          onChanged: (value) =>
-              settings.setPinTimeout(int.tryParse(value) ?? 0),
+          onChanged: (value) {
+            final timeout = int.tryParse(value);
+            if (timeout != null) settings.setPinTimeout(timeout);
+          },
         ),
       ),
     ];
@@ -249,7 +266,7 @@ class _SettingsPageState extends State<SettingsPage> {
     final controller = TextEditingController();
     final confirmController = TextEditingController();
 
-    return showDialog<String>(
+    final result = await showDialog<String>(
       context: context,
       builder: (context) {
         final l10n = AppLocalizations.of(context)!;
@@ -262,6 +279,7 @@ class _SettingsPageState extends State<SettingsPage> {
                 controller: controller,
                 obscureText: true,
                 keyboardType: TextInputType.number,
+                inputFormatters: [FilteringTextInputFormatter.digitsOnly],
                 maxLength: 6,
                 decoration: InputDecoration(
                   labelText: l10n.pinDialogEnterPIN,
@@ -273,6 +291,7 @@ class _SettingsPageState extends State<SettingsPage> {
                 controller: confirmController,
                 obscureText: true,
                 keyboardType: TextInputType.number,
+                inputFormatters: [FilteringTextInputFormatter.digitsOnly],
                 maxLength: 6,
                 decoration: InputDecoration(
                   labelText: l10n.pinDialogConfirmPIN,
@@ -303,6 +322,9 @@ class _SettingsPageState extends State<SettingsPage> {
         );
       },
     );
+    controller.dispose();
+    confirmController.dispose();
+    return result;
   }
 
   Future<bool> _showVerifyPinDialog(BuildContext context) async {
@@ -318,6 +340,7 @@ class _SettingsPageState extends State<SettingsPage> {
             controller: controller,
             obscureText: true,
             keyboardType: TextInputType.number,
+            inputFormatters: [FilteringTextInputFormatter.digitsOnly],
             maxLength: 6,
             decoration: InputDecoration(
               labelText: l10n.pinDialogPIN,
@@ -338,6 +361,7 @@ class _SettingsPageState extends State<SettingsPage> {
       },
     );
 
+    controller.dispose();
     if (result == null || !context.mounted) return false;
 
     final settings = context.read<SettingsProvider>();
@@ -438,6 +462,17 @@ class _SettingsPageState extends State<SettingsPage> {
     final l10n = AppLocalizations.of(context)!;
     final addictions = context.watch<AddictionProvider>();
 
+    _ToggleItem presetToggle(String key, IconData icon, String title) =>
+        _ToggleItem(
+          icon: icon,
+          title: title,
+          subtitle: l10n.settingsNotifyCustomEntry(title),
+          value: settings.getPresetNotify(key),
+          onChanged: (value) => settings.setPresetNotify(key, value),
+          notifyPrefsKey: key,
+          notifyDisplayName: title,
+        );
+
     final allItems = [
       if (addictions.quitAdderall != null)
         _ToggleItem(
@@ -489,6 +524,40 @@ class _SettingsPageState extends State<SettingsPage> {
           notifyPrefsKey: 'maoi',
           notifyDisplayName: l10n.addictionMaoi,
         ),
+      if (addictions.quitNitrousOxide != null)
+        presetToggle(
+          'nitrous_oxide',
+          Icons.air_outlined,
+          l10n.addictionNitrousOxide,
+        ),
+      if (addictions.quitKratom != null)
+        presetToggle('kratom', Icons.local_florist, l10n.addictionKratom),
+      if (addictions.quitGabapentinoids != null)
+        presetToggle(
+          'gabapentinoids',
+          Icons.medication_outlined,
+          l10n.addictionGabapentinoid,
+        ),
+      if (addictions.quitGhb != null)
+        presetToggle('ghb', Icons.water_drop, l10n.addictionGhb),
+      if (addictions.quitKetamine != null)
+        presetToggle('ketamine', Icons.vaccines, l10n.addictionKetamine),
+      if (addictions.quitInhalants != null)
+        presetToggle(
+          'inhalants',
+          Icons.local_gas_station,
+          l10n.addictionInhalants,
+        ),
+      if (addictions.quitSyntheticCannabinoids != null)
+        presetToggle(
+          'synthetic_cannabinoids',
+          Icons.whatshot,
+          l10n.addictionSyntheticCannabinoids,
+        ),
+      if (addictions.quitMdma != null)
+        presetToggle('mdma', Icons.favorite, l10n.addictionMdma),
+      if (addictions.quitSteroids != null)
+        presetToggle('steroids', Icons.fitness_center, l10n.addictionSteroids),
       if (addictions.quitAlcohol != null)
         _ToggleItem(
           icon: Icons.local_bar,
@@ -559,6 +628,10 @@ class _SettingsPageState extends State<SettingsPage> {
           notifyPrefsKey: 'opioids',
           notifyDisplayName: l10n.addictionOpioids,
         ),
+      if (addictions.quitHeroin != null)
+        presetToggle('heroin', Icons.medication, l10n.addictionHeroin),
+      if (addictions.quitFentanyl != null)
+        presetToggle('fentanyl', Icons.medication, l10n.addictionFentanyl),
       if (addictions.quitPornography != null)
         _ToggleItem(
           icon: Icons.block,
@@ -578,6 +651,12 @@ class _SettingsPageState extends State<SettingsPage> {
           onChanged: (value) => settings.notifySmoking = value,
           notifyPrefsKey: 'smoking',
           notifyDisplayName: l10n.addictionSmoking,
+        ),
+      if (addictions.quitSmokelessTobacco != null)
+        presetToggle(
+          'smokeless_tobacco',
+          Icons.grass,
+          l10n.addictionSmokelessTobacco,
         ),
       if (addictions.quitSocialMedia != null)
         _ToggleItem(
@@ -652,7 +731,12 @@ class _SettingsPageState extends State<SettingsPage> {
               onPressed: () async {
                 Navigator.of(context).pop();
                 final prefs = await SharedPreferences.getInstance();
-                prefs.clear();
+                await prefs.clear();
+                if (!context.mounted) return;
+                await Future.wait([
+                  context.read<AddictionProvider>().loadAddictions(),
+                  context.read<SettingsProvider>().loadPreferences(),
+                ]);
               },
               child: Text(l10n.deleteEverythingConfirm),
             ),
@@ -860,87 +944,98 @@ class _SettingsPageState extends State<SettingsPage> {
     );
   }
 
-  void _showNotificationFrequencyDialog(
+  Future<void> _showNotificationFrequencyDialog(
     BuildContext context,
     SettingsProvider settings,
-  ) {
-    showDialog(
-      context: context,
-      builder: (context) {
-        final l10n = AppLocalizations.of(context)!;
-        final everyCtrl = TextEditingController(
-          text: settings.notifyEvery.toString(),
-        );
-
-        final atCtrl = TextEditingController(
-          text: getTimeString(settings.notifyAt),
-        );
-
-        return AlertDialog(
-          title: Text(l10n.settingsNotificationFrequency),
-          content: SingleChildScrollView(
-            child: Column(
-              children: [
-                TextField(
-                  controller: everyCtrl,
-                  keyboardType: TextInputType.number,
-                  onTap: () => selectAll(everyCtrl),
-                  decoration: InputDecoration(
-                    labelText: l10n.notificationFrequencyNotifyEvery,
-                    suffixText: l10n.notificationFrequencyDays,
-                    border: OutlineInputBorder(),
-                  ),
-                ),
-                const SizedBox(height: 16),
-                TextField(
-                  controller: atCtrl,
-                  readOnly: true,
-                  decoration: InputDecoration(
-                    labelText: l10n.notificationFrequencyAt,
-                    border: OutlineInputBorder(),
-                  ),
-                  autofocus: true,
-                  onTap: () async {
-                    final hours = settings.notifyAt ~/ 60;
-                    final minutes = settings.notifyAt % 60;
-                    final result = await showTimePicker(
-                      context: context,
-                      initialTime: TimeOfDay(hour: hours, minute: minutes),
-                    );
-
-                    if (result != null) {
-                      final totalMinutes = result.hour * 60 + result.minute;
-                      atCtrl.text = getTimeString(totalMinutes);
-                      settings.notifyAt = totalMinutes;
-                    }
-                  },
-                ),
-              ],
-            ),
-          ),
-          actions: [
-            TextButton(
-              onPressed: () => Navigator.pop(context),
-              child: Text(l10n.cancel),
-            ),
-            TextButton(
-              onPressed: () async {
-                final days = int.tryParse(everyCtrl.text);
-                if (days != null && days > 0) {
-                  settings.notifyEvery = days;
-                  await testNotification(
-                    title: l10n.notificationTestTitle,
-                    body: l10n.notificationTestBody(days, days > 1 ? 's' : ''),
-                  );
-                  if (context.mounted) Navigator.pop(context);
-                }
-              },
-              child: Text(l10n.notificationFrequencySave),
-            ),
-          ],
-        );
-      },
+  ) async {
+    final everyCtrl = TextEditingController(
+      text: settings.notifyEvery.toString(),
     );
+    var selectedAt = settings.notifyAt;
+    final atCtrl = TextEditingController(text: getTimeString(selectedAt));
+
+    try {
+      await showDialog<void>(
+        context: context,
+        builder: (context) {
+          final l10n = AppLocalizations.of(context)!;
+          return AlertDialog(
+            title: Text(l10n.settingsNotificationFrequency),
+            content: SingleChildScrollView(
+              child: Column(
+                children: [
+                  TextField(
+                    controller: everyCtrl,
+                    keyboardType: TextInputType.number,
+                    inputFormatters: [FilteringTextInputFormatter.digitsOnly],
+                    onTap: () => selectAll(everyCtrl),
+                    decoration: InputDecoration(
+                      labelText: l10n.notificationFrequencyNotifyEvery,
+                      suffixText: l10n.notificationFrequencyDays,
+                      border: OutlineInputBorder(),
+                    ),
+                  ),
+                  const SizedBox(height: 16),
+                  TextField(
+                    controller: atCtrl,
+                    readOnly: true,
+                    decoration: InputDecoration(
+                      labelText: l10n.notificationFrequencyAt,
+                      border: OutlineInputBorder(),
+                    ),
+                    autofocus: true,
+                    onTap: () async {
+                      final hours = selectedAt ~/ 60;
+                      final minutes = selectedAt % 60;
+                      final result = await showTimePicker(
+                        context: context,
+                        initialTime: TimeOfDay(hour: hours, minute: minutes),
+                      );
+
+                      if (result != null) {
+                        selectedAt = result.hour * 60 + result.minute;
+                        atCtrl.text = getTimeString(selectedAt);
+                      }
+                    },
+                  ),
+                ],
+              ),
+            ),
+            actions: [
+              TextButton(
+                onPressed: () => Navigator.pop(context),
+                child: Text(l10n.cancel),
+              ),
+              TextButton(
+                onPressed: () async {
+                  final days = int.tryParse(everyCtrl.text);
+                  if (days != null && days >= 0) {
+                    await settings.setNotificationSchedule(
+                      days: days,
+                      at: selectedAt,
+                    );
+                    if (days > 0) {
+                      await testNotification(
+                        title: l10n.notificationTestTitle,
+                        body: l10n.notificationTestBody(
+                          days,
+                          days > 1 ? 's' : '',
+                        ),
+                      );
+                    }
+                    if (context.mounted) Navigator.pop(context);
+                  }
+                },
+                child: Text(l10n.notificationFrequencySave),
+              ),
+            ],
+          );
+        },
+      );
+    } finally {
+      everyCtrl.dispose();
+      atCtrl.dispose();
+    }
   }
 
   List<Widget> _buildToggleList(List<_ToggleItem> items) {
@@ -950,6 +1045,9 @@ class _SettingsPageState extends State<SettingsPage> {
       final item = items[i];
       widgets.add(
         SwitchListTile(
+          key: item.notifyPrefsKey == null
+              ? null
+              : ValueKey('notify_${item.notifyPrefsKey}'),
           secondary: Icon(item.icon),
           title: Text(item.title),
           subtitle: Text(item.subtitle),

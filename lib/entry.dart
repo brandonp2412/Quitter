@@ -14,9 +14,9 @@ class Entry {
     required this.title,
     required this.quitDate,
     required this.color,
-    this.daysAchieved = const [],
+    List<int>? daysAchieved,
     this.icon,
-  });
+  }) : daysAchieved = List<int>.of(daysAchieved ?? const []);
 
   Entry copyWith({
     String? id,
@@ -41,7 +41,7 @@ class Entry {
     'title': title,
     'quitDate': quitDate.toIso8601String(),
     'color': color.toARGB32(),
-    'daysAchieved': daysAchieved, // Add to JSON serialization
+    'daysAchieved': daysAchieved,
     'icon': icon != null ? iconNames[icon] : null,
   };
 

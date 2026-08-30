@@ -120,7 +120,7 @@ void main() {
         );
         expect(find.text('Opioids', skipOffstage: false), findsOneWidget);
         expect(find.text('Social Media', skipOffstage: false), findsOneWidget);
-        expect(find.text('AC', skipOffstage: false), findsOneWidget);
+        expect(find.text('Adult Content', skipOffstage: false), findsOneWidget);
       },
     );
   });

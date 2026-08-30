@@ -78,11 +78,13 @@ void main() {
       await tester.pumpWidget(createTestWidget());
       await tester.pumpAndSettle();
 
-      expect(find.text('S'), findsNWidgets(2)); // Sunday and Saturday
-      expect(find.text('M'), findsOneWidget);
-      expect(find.text('T'), findsNWidgets(2)); // Tuesday and Thursday
-      expect(find.text('W'), findsOneWidget);
-      expect(find.text('F'), findsOneWidget);
+      final sunday = DateTime(2024, 1, 7);
+      for (var index = 0; index < 7; index++) {
+        final label = DateFormat.E(
+          'en',
+        ).format(sunday.add(Duration(days: index)));
+        expect(find.text(label), findsOneWidget);
+      }
     });
 
     testWidgets('displays "Previous Month" tooltip', (
@@ -99,6 +101,50 @@ void main() {
       await tester.pumpAndSettle();
 
       expect(find.byTooltip('Next Month'), findsOneWidget);
+    });
+
+    testWidgets('rebuilds a malformed journal date index', (
+      WidgetTester tester,
+    ) async {
+      final today = DateTime.now();
+      final dateKey = DateFormat('yyyy-MM-dd').format(today);
+      SharedPreferences.setMockInitialValues({
+        'journal_dates': 42,
+        'journal_$dateKey': 'Recovered entry',
+      });
+
+      await tester.pumpWidget(createTestWidget());
+      await tester.pumpAndSettle();
+
+      expect(tester.takeException(), isNull);
+      final prefs = await SharedPreferences.getInstance();
+      expect(prefs.getStringList('journal_dates'), contains(dateKey));
+    });
+
+    testWidgets('flushes pending journal text when disposed', (
+      WidgetTester tester,
+    ) async {
+      await tester.pumpWidget(createTestWidget());
+      await tester.pumpAndSettle();
+
+      final hint = find.text(
+        'Write about your day, thoughts, feelings, or anything you want to remember...',
+      );
+      await tester.dragUntilVisible(
+        hint,
+        find.byType(ListView),
+        const Offset(0, -300),
+      );
+      final editor = find.byType(TextField);
+      expect(editor, findsOneWidget);
+      await tester.enterText(editor, 'Saved on close');
+      await tester.pumpWidget(const SizedBox());
+      await tester.pumpAndSettle();
+
+      final today = DateTime.now();
+      final dateKey = DateFormat('yyyy-MM-dd').format(today);
+      final prefs = await SharedPreferences.getInstance();
+      expect(prefs.getString('journal_$dateKey'), 'Saved on close');
     });
   });
 }

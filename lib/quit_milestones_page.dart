@@ -68,7 +68,8 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
         widget.quitDateOverride ?? addictions.getAddiction(widget.storageKey);
 
     setState(() {
-      if (quitOn != null) quitDate = DateTime.parse(quitOn);
+      final parsedQuitDate = quitOn == null ? null : DateTime.tryParse(quitOn);
+      if (parsedQuitDate != null) quitDate = parsedQuitDate;
       started = widget.initialStarted;
     });
 
@@ -125,7 +126,10 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
             defaultTargetPlatform == TargetPlatform.iOS)) {
       final permission = await Permission.notification.request();
       if (permission.isDenied && context.mounted) {
-        settingsProvider.notifyEvery = 0;
+        await settingsProvider.setNotificationSchedule(
+          days: 0,
+          at: settingsProvider.notifyAt,
+        );
       }
     }
 
@@ -135,9 +139,12 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
     });
 
     if (widget.onQuitDateChanged != null) {
-      widget.onQuitDateChanged!(quitDate);
+      await widget.onQuitDateChanged!(quitDate);
     } else {
-      addictions.setAddiction(widget.storageKey, quitDate.toIso8601String());
+      await addictions.setAddiction(
+        widget.storageKey,
+        quitDate.toIso8601String(),
+      );
     }
 
     Future.delayed(const Duration(milliseconds: 2500), () {
@@ -184,11 +191,10 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
 
     if (!mounted) return;
     if (widget.onQuitDateChanged != null) {
-      widget.onQuitDateChanged!(date);
+      await widget.onQuitDateChanged!(date);
     } else {
       final addictions = context.read<AddictionProvider>();
-      addictions.setAddiction(widget.storageKey, date.toIso8601String());
-      addictions.loadAddictions();
+      await addictions.setAddiction(widget.storageKey, date.toIso8601String());
     }
   }
 
@@ -197,6 +203,7 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
       context: context,
       backgroundColor: Colors.transparent,
       builder: (BuildContext context) {
+        final l10n = AppLocalizations.of(context)!;
         return SafeArea(
           child: Container(
             margin: const EdgeInsets.all(16),
@@ -224,13 +231,13 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
                 ),
                 const SizedBox(height: 16),
                 Text(
-                  'Clear milestone for ${milestone.day} days?',
+                  l10n.quitMilestonesClearTitle(milestone.day),
                   style: Theme.of(context).textTheme.headlineSmall,
                   textAlign: TextAlign.center,
                 ),
                 const SizedBox(height: 8),
                 Text(
-                  'This will clear all past times you achieved the ${milestone.day} day milestone.',
+                  l10n.quitMilestonesClearMessage(milestone.day),
                   style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                     color: Theme.of(
                       context,
@@ -250,7 +257,7 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
                             borderRadius: BorderRadius.circular(12),
                           ),
                         ),
-                        child: const Text('Cancel'),
+                        child: Text(l10n.cancel),
                       ),
                     ),
                     const SizedBox(width: 16),
@@ -291,7 +298,7 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
                             borderRadius: BorderRadius.circular(12),
                           ),
                         ),
-                        child: const Text('Clear'),
+                        child: Text(l10n.quitMilestonesClear),
                       ),
                     ),
                   ],
@@ -325,11 +332,12 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
       fab = FloatingActionButton.extended(
         onPressed: () async {
           if (widget.onResetPressed != null) {
-            widget.onResetPressed!(days);
+            await widget.onResetPressed!(days);
           } else {
-            addictions.resetAddiction(widget.storageKey, days);
+            await addictions.resetAddiction(widget.storageKey, days);
           }
 
+          if (!context.mounted) return;
           final quit = quitDate;
           setState(() {
             quitDate = DateTime.now();
@@ -345,18 +353,18 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
             message,
             action: SnackBarAction(
               label: l10n.undo,
-              onPressed: () {
-                addictions.setAddiction(
+              onPressed: () async {
+                await addictions.setAddiction(
                   widget.storageKey,
                   quit.toIso8601String(),
                 );
+                await addictions.popDays(widget.storageKey);
 
-                if (mounted)
-                  setState(() {
-                    quitDate = quit;
-                  });
+                if (!mounted) return;
+                setState(() {
+                  quitDate = quit;
+                });
                 _updateQuitDate(quitDate);
-                addictions.popDays(widget.storageKey);
               },
             ),
           );
@@ -416,7 +424,7 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
                       readOnly: true,
                       controller: controller,
                       decoration: InputDecoration(
-                        labelText: 'Quit date',
+                        labelText: l10n.quitMilestonesQuitDate,
                         border: const OutlineInputBorder(),
                         suffixIcon: IconButton(
                           icon: days > 7

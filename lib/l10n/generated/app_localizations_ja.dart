@@ -1217,9 +1217,6 @@ class AppLocalizationsJa extends AppLocalizations {
   String get addictionSocialMedia => 'ソーシャルメディア';
 
   @override
-  String get addictionAC => 'AC';
-
-  @override
   String get addictionAdultContent => 'アダルトコンテンツ';
 
   @override
@@ -1227,6 +1224,24 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get noSearchResults => '結果が見つかりません';
+
+  @override
+  String get homeSearchHint => '依存対象を検索...';
+
+  @override
+  String get homeTrackAnyway => 'このまま記録する';
+
+  @override
+  String get iconSearchHint => 'アイコンを検索...';
+
+  @override
+  String get iconNoResults => 'アイコンが見つかりません';
+
+  @override
+  String get milestoneOpenOriginalSource => '元のソースを開く';
+
+  @override
+  String get settingsExportSaveDialog => 'データの保存先';
 
   @override
   String get settingsSearchHint => '検索...';

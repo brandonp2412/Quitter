@@ -638,13 +638,9 @@
   "@addictionSocialMedia": {
     "description": "Name of the social media addiction type"
   },
-  "addictionAC": "成人内容",
-  "@addictionAC": {
-    "description": "Short name for adult content addiction (displayed as AC)"
-  },
   "addictionAdultContent": "成人内容",
   "@addictionAdultContent": {
-    "description": "Full name for adult content addiction (used in settings)"
+    "description": "Name of the adult content addiction type"
   },
   "search": "搜索...",
   "@search": {
@@ -653,6 +649,30 @@
   "noSearchResults": "未找到结果",
   "@noSearchResults": {
     "description": "Shown when a search yields no matches"
+  },
+  "homeSearchHint": "搜索成瘾项目...",
+  "@homeSearchHint": {
+    "description": "Hint text for the home addiction search bar"
+  },
+  "homeTrackAnyway": "仍然开始追踪",
+  "@homeTrackAnyway": {
+    "description": "Button to create a custom tracker from an unmatched search"
+  },
+  "iconSearchHint": "搜索图标...",
+  "@iconSearchHint": {
+    "description": "Hint text for the icon picker search bar"
+  },
+  "iconNoResults": "未找到图标",
+  "@iconNoResults": {
+    "description": "Shown when icon search yields no matches"
+  },
+  "milestoneOpenOriginalSource": "打开原始来源",
+  "@milestoneOpenOriginalSource": {
+    "description": "Button to open a milestone reference source"
+  },
+  "settingsExportSaveDialog": "保存数据到",
+  "@settingsExportSaveDialog": {
+    "description": "Title of the export file save dialog"
   },
   "settingsSearchHint": "搜索...",
   "@settingsSearchHint": {

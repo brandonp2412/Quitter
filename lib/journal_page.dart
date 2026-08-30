@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:quitter/l10n/generated/app_localizations.dart';
@@ -14,6 +16,10 @@ class JournalPage extends StatefulWidget {
 
 class _JournalPageState extends State<JournalPage> {
   final TextEditingController _entryController = TextEditingController();
+  Timer? _saveDebounce;
+  DateTime? _pendingSaveDate;
+  String? _pendingSaveText;
+  bool _loadingEntry = false;
   DateTime _selectedDate = DateTime.now();
   DateTime _displayedMonth = DateTime.now();
   List<DateTime> _datesWithEntries = [];
@@ -21,59 +27,87 @@ class _JournalPageState extends State<JournalPage> {
   @override
   void initState() {
     super.initState();
+    _entryController.addListener(_onEntryChanged);
     _loadEntry();
     _loadDatesWithEntries();
   }
 
   Future<void> _loadEntry() async {
+    final selectedDate = _selectedDate;
     final prefs = await SharedPreferences.getInstance();
-    final dateKey = _formatDateKey(_selectedDate);
-    final entry = prefs.getString('journal_$dateKey') ?? '';
+    final dateKey = _formatDateKey(selectedDate);
+    final storedEntry = prefs.get('journal_$dateKey');
+    final entry = storedEntry is String ? storedEntry : '';
+    if (!mounted || !_isSameDay(selectedDate, _selectedDate)) return;
 
-    if (mounted)
-      setState(() {
-        _entryController.text = entry;
-      });
+    _loadingEntry = true;
+    _entryController.text = entry;
+    _loadingEntry = false;
+    setState(() {});
   }
 
-  Future<void> _saveEntry() async {
+  void _onEntryChanged() {
+    if (_loadingEntry) return;
+
+    final selectedDate = _selectedDate;
+    final text = _entryController.text;
+    _pendingSaveDate = selectedDate;
+    _pendingSaveText = text;
+    _saveDebounce?.cancel();
+    _saveDebounce = Timer(const Duration(milliseconds: 250), () {
+      final pendingDate = _pendingSaveDate;
+      final pendingText = _pendingSaveText;
+      _pendingSaveDate = null;
+      _pendingSaveText = null;
+      if (pendingDate != null && pendingText != null) {
+        unawaited(_saveEntry(pendingDate, pendingText));
+      }
+    });
+    if (mounted) setState(() {});
+  }
+
+  Future<void> _saveEntry(DateTime date, String text) async {
     final prefs = await SharedPreferences.getInstance();
-    final dateKey = _formatDateKey(_selectedDate);
+    final dateKey = _formatDateKey(date);
 
-    if (_entryController.text.trim().isNotEmpty) {
-      await prefs.setString('journal_$dateKey', _entryController.text);
-
-      if (!_datesWithEntries.any((date) => _isSameDay(date, _selectedDate))) {
-        _datesWithEntries.add(_selectedDate);
+    if (text.trim().isNotEmpty) {
+      await prefs.setString('journal_$dateKey', text);
+      if (!_datesWithEntries.any((existing) => _isSameDay(existing, date))) {
+        _datesWithEntries.add(date);
         await _saveDatesWithEntries();
       }
     } else {
       await prefs.remove('journal_$dateKey');
-      _datesWithEntries.removeWhere((date) => _isSameDay(date, _selectedDate));
+      _datesWithEntries.removeWhere((existing) => _isSameDay(existing, date));
       await _saveDatesWithEntries();
     }
+
+    if (mounted) setState(() {});
   }
 
   Future<void> _loadDatesWithEntries() async {
     final prefs = await SharedPreferences.getInstance();
-    // If journal_dates is a String (corrupted/legacy), rebuild the index from
-    // the actual entry keys, which are the source of truth.
-    if (prefs.get('journal_dates') is String) {
-      final rebuilt = prefs
+    final storedDates = prefs.get('journal_dates');
+    List<String> datesString;
+    if (storedDates is List && storedDates.every((value) => value is String)) {
+      datesString = storedDates.cast<String>();
+    } else {
+      datesString = prefs
           .getKeys()
-          .where((k) => k.startsWith('journal_') && k != 'journal_dates')
-          .map((k) => k.substring('journal_'.length))
+          .where((key) => key.startsWith('journal_') && key != 'journal_dates')
+          .map((key) => key.substring('journal_'.length))
+          .where((value) => DateTime.tryParse(value) != null)
           .toList();
-      await prefs.setStringList('journal_dates', rebuilt);
+      await prefs.setStringList('journal_dates', datesString);
     }
-
-    final datesString = prefs.getStringList('journal_dates') ?? [];
-    if (mounted)
+    if (mounted) {
       setState(() {
         _datesWithEntries = datesString
-            .map((dateStr) => DateTime.parse(dateStr))
+            .map(DateTime.tryParse)
+            .whereType<DateTime>()
             .toList();
       });
+    }
   }
 
   Future<void> _saveDatesWithEntries() async {
@@ -94,15 +128,33 @@ class _JournalPageState extends State<JournalPage> {
         date1.day == date2.day;
   }
 
+  DateTime get _firstJournalDate => DateTime(2020);
+  DateTime get _lastJournalDate =>
+      DateTime.now().add(const Duration(days: 365));
+
+  Future<void> _flushPendingSave() async {
+    _saveDebounce?.cancel();
+    _saveDebounce = null;
+    final pendingDate = _pendingSaveDate;
+    final pendingText = _pendingSaveText;
+    _pendingSaveDate = null;
+    _pendingSaveText = null;
+    if (pendingDate != null && pendingText != null) {
+      await _saveEntry(pendingDate, pendingText);
+    }
+  }
+
   Future<void> _selectDate(BuildContext context) async {
     final DateTime? picked = await showDatePicker(
       context: context,
       initialDate: _selectedDate,
-      firstDate: DateTime(2020),
-      lastDate: DateTime.now().add(Duration(days: 365)),
+      firstDate: _firstJournalDate,
+      lastDate: _lastJournalDate,
     );
 
     if (picked != null && !_isSameDay(picked, _selectedDate) && mounted) {
+      await _flushPendingSave();
+      if (!mounted) return;
       setState(() {
         _selectedDate = picked;
         _displayedMonth = DateTime(picked.year, picked.month, 1);
@@ -112,14 +164,18 @@ class _JournalPageState extends State<JournalPage> {
   }
 
   void _changeMonth(int monthDelta) {
-    if (mounted)
-      setState(() {
-        _displayedMonth = DateTime(
-          _displayedMonth.year,
-          _displayedMonth.month + monthDelta,
-          1,
-        );
-      });
+    final target = DateTime(
+      _displayedMonth.year,
+      _displayedMonth.month + monthDelta,
+      1,
+    );
+    final firstMonth = DateTime(
+      _firstJournalDate.year,
+      _firstJournalDate.month,
+    );
+    final lastMonth = DateTime(_lastJournalDate.year, _lastJournalDate.month);
+    if (target.isBefore(firstMonth) || target.isAfter(lastMonth)) return;
+    if (mounted) setState(() => _displayedMonth = target);
   }
 
   Widget _buildCalendarGrid() {
@@ -239,25 +295,25 @@ class _JournalPageState extends State<JournalPage> {
                 ),
                 SizedBox(height: 16),
                 Row(
-                  children:
-                      (weekStartsMonday
-                              ? ['M', 'T', 'W', 'T', 'F', 'S', 'S']
-                              : ['S', 'M', 'T', 'W', 'T', 'F', 'S'])
-                          .map(
-                            (day) => Expanded(
-                              child: Center(
-                                child: Text(
-                                  day,
-                                  style: Theme.of(context).textTheme.bodyMedium
-                                      ?.copyWith(
-                                        fontWeight: FontWeight.bold,
-                                        color: calendarGradient.first,
-                                      ),
-                                ),
+                  children: List.generate(7, (index) {
+                    final sunday = DateTime(2024, 1, 7);
+                    final offset = weekStartsMonday ? index + 1 : index;
+                    final day = DateFormat.E(
+                      AppLocalizations.of(context)?.localeName,
+                    ).format(sunday.add(Duration(days: offset)));
+                    return Expanded(
+                      child: Center(
+                        child: Text(
+                          day,
+                          style: Theme.of(context).textTheme.bodyMedium
+                              ?.copyWith(
+                                fontWeight: FontWeight.bold,
+                                color: calendarGradient.first,
                               ),
-                            ),
-                          )
-                          .toList(),
+                        ),
+                      ),
+                    );
+                  }),
                 ),
                 SizedBox(height: 8),
                 GridView.builder(
@@ -284,14 +340,21 @@ class _JournalPageState extends State<JournalPage> {
                     );
                     final isSelected = _isSameDay(date, _selectedDate);
                     final isToday = _isSameDay(date, now);
+                    final isSelectable =
+                        !date.isBefore(_firstJournalDate) &&
+                        !date.isAfter(_lastJournalDate);
 
                     return GestureDetector(
-                      onTap: () {
-                        setState(() {
-                          _selectedDate = date;
-                        });
-                        _loadEntry();
-                      },
+                      onTap: !isSelectable
+                          ? null
+                          : () async {
+                              await _flushPendingSave();
+                              if (!mounted) return;
+                              setState(() {
+                                _selectedDate = date;
+                              });
+                              await _loadEntry();
+                            },
                       child: Container(
                         margin: EdgeInsets.all(2),
                         decoration: BoxDecoration(
@@ -432,6 +495,7 @@ class _JournalPageState extends State<JournalPage> {
                                 Text(
                                   DateFormat(
                                     'EEEE, MMMM d, yyyy',
+                                    AppLocalizations.of(context)?.localeName,
                                   ).format(_selectedDate),
                                   style: Theme.of(context).textTheme.bodySmall
                                       ?.copyWith(
@@ -463,7 +527,6 @@ class _JournalPageState extends State<JournalPage> {
                         height: 300,
                         child: TextField(
                           textCapitalization: TextCapitalization.sentences,
-                          onChanged: (value) => _saveEntry(),
                           controller: _entryController,
                           maxLines: null,
                           expands: true,
@@ -518,7 +581,11 @@ class _JournalPageState extends State<JournalPage> {
                             SizedBox(width: 8),
                             Text(
                               AppLocalizations.of(context)!.journalWordCount(
-                                _entryController.text.trim().split(' ').length,
+                                _entryController.text
+                                    .trim()
+                                    .split(RegExp(r'\s+'))
+                                    .where((word) => word.isNotEmpty)
+                                    .length,
                               ),
                               style: Theme.of(context).textTheme.bodySmall
                                   ?.copyWith(
@@ -541,6 +608,13 @@ class _JournalPageState extends State<JournalPage> {
 
   @override
   void dispose() {
+    _saveDebounce?.cancel();
+    final pendingDate = _pendingSaveDate;
+    final pendingText = _pendingSaveText;
+    if (pendingDate != null && pendingText != null) {
+      unawaited(_saveEntry(pendingDate, pendingText));
+    }
+    _entryController.removeListener(_onEntryChanged);
     _entryController.dispose();
     super.dispose();
   }

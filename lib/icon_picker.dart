@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:quitter/app_icons.dart';
+import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:quitter/utils.dart';
 
 class IconPickerWidget extends StatefulWidget {
@@ -84,6 +85,7 @@ class _IconPickerWidgetState extends State<IconPickerWidget> {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
     return Column(
       mainAxisSize: MainAxisSize.min,
       children: [
@@ -93,7 +95,7 @@ class _IconPickerWidgetState extends State<IconPickerWidget> {
             child: Icon(Icons.search),
           ),
           controller: _searchController,
-          hintText: 'Search icons...',
+          hintText: l10n.iconSearchHint,
           trailing: _searchController.text.isNotEmpty
               ? [
                   IconButton(
@@ -107,7 +109,7 @@ class _IconPickerWidgetState extends State<IconPickerWidget> {
         SizedBox(
           height: widget.gridHeight,
           child: filteredIcons.isEmpty
-              ? const Center(child: Text('No icons found'))
+              ? Center(child: Text(l10n.iconNoResults))
               : LayoutBuilder(
                   builder: (context, constraints) {
                     final int crossAxisCount =

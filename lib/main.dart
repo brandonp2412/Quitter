@@ -23,7 +23,7 @@ final rootScaffoldMessenger = GlobalKey<ScaffoldMessengerState>();
 
 Future<void> _migrateHiddenToDeleted() async {
   final prefs = await SharedPreferences.getInstance();
-  if (prefs.getBool('migrated_v2_hide_to_delete') == true) return;
+  if (prefs.get('migrated_v2_hide_to_delete') == true) return;
 
   talker.info('Running hidden-journey migration');
 
@@ -40,11 +40,15 @@ Future<void> _migrateHiddenToDeleted() async {
     'show_pornography': 'pornography',
     'show_smoking': 'smoking',
     'show_social_media': 'social_media',
+    'show_ssri': 'ssri',
+    'show_snri': 'snri',
+    'show_tca': 'tca',
+    'show_maoi': 'maoi',
     'show_vaping': 'vaping',
   };
 
   for (final entry in pairs.entries) {
-    final wasHidden = prefs.getBool(entry.key) == false;
+    final wasHidden = prefs.get(entry.key) == false;
     if (wasHidden) await prefs.remove(entry.value);
   }
 
@@ -70,7 +74,7 @@ Future<void> main() async {
       talker.info('Application state loaded');
 
       cancelTasks();
-      setupTasks();
+      await setupTasks();
 
       runApp(
         MultiProvider(
@@ -138,8 +142,19 @@ class _QuitterAppState extends State<QuitterApp>
       builder: (context, settings, child) {
         final expectedTabCount = settings.showJournal ? 3 : 2;
         if (_tabController.length != expectedTabCount) {
-          _tabController.dispose();
-          _tabController = TabController(length: expectedTabCount, vsync: this);
+          final oldController = _tabController;
+          final initialIndex = oldController.index.clamp(
+            0,
+            expectedTabCount - 1,
+          );
+          _tabController = TabController(
+            length: expectedTabCount,
+            vsync: this,
+            initialIndex: initialIndex,
+          );
+          WidgetsBinding.instance.addPostFrameCallback((_) {
+            oldController.dispose();
+          });
         }
 
         return DynamicColorBuilder(

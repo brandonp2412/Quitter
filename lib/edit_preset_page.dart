@@ -48,12 +48,15 @@ class _EditPresetPageState extends State<EditPresetPage> {
     super.dispose();
   }
 
-  void _save() {
+  Future<void> _save() async {
     if (!_formKey.currentState!.validate()) return;
     final addictions = context.read<AddictionProvider>();
-    addictions.setCustomName(widget.presetKey, _titleController.text.trim());
-    addictions.setCustomColor(widget.presetKey, _selectedColor);
-    addictions.setCustomIcon(widget.presetKey, _selectedIcon);
+    await Future.wait([
+      addictions.setCustomName(widget.presetKey, _titleController.text.trim()),
+      addictions.setCustomColor(widget.presetKey, _selectedColor),
+      addictions.setCustomIcon(widget.presetKey, _selectedIcon),
+    ]);
+    if (!mounted) return;
     Navigator.of(context).pop();
   }
 

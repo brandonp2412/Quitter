@@ -17,8 +17,9 @@ Color getContrastingColor(Color backgroundColor) {
 }
 
 String getTimeString(int totalMinutes) {
-  final hours = totalMinutes ~/ 60;
-  final minutes = totalMinutes % 60;
+  final normalizedMinutes = totalMinutes.clamp(0, 24 * 60 - 1);
+  final hours = normalizedMinutes ~/ 60;
+  final minutes = normalizedMinutes % 60;
   final hour12 = hours == 0 ? 12 : (hours > 12 ? hours - 12 : hours);
   final amPm = hours < 12 ? 'AM' : 'PM';
   final minutesStr = minutes.toString().padLeft(2, '0');
@@ -27,25 +28,23 @@ String getTimeString(int totalMinutes) {
 
 int daysCeil(String dateStr) {
   final quitDateTime = DateTime.parse(dateStr);
-  final quitDate = DateTime(
+  final quitDate = DateTime.utc(
     quitDateTime.year,
     quitDateTime.month,
     quitDateTime.day,
   );
   final today = DateTime.now();
-  final currentDate = DateTime(today.year, today.month, today.day);
+  final currentDate = DateTime.utc(today.year, today.month, today.day);
 
-  final quitDays = quitDate.millisecondsSinceEpoch ~/ (1000 * 60 * 60 * 24);
-  final currentDays =
-      currentDate.millisecondsSinceEpoch ~/ (1000 * 60 * 60 * 24);
-
-  return (currentDays - quitDays) + 1;
+  return currentDate.difference(quitDate).inDays + 1;
 }
 
 void toast(String message, {SnackBarAction? action}) {
+  final messenger = rootScaffoldMessenger.currentState;
+  if (messenger == null) return;
   final def = SnackBarAction(label: 'OK', onPressed: () {});
 
-  rootScaffoldMessenger.currentState!.showSnackBar(
+  messenger.showSnackBar(
     SnackBar(
       content: Text(message),
       behavior: SnackBarBehavior.floating,

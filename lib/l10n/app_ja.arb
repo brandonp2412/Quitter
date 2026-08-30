@@ -638,13 +638,9 @@
   "@addictionSocialMedia": {
     "description": "Name of the social media addiction type"
   },
-  "addictionAC": "AC",
-  "@addictionAC": {
-    "description": "Short name for adult content addiction (displayed as AC)"
-  },
   "addictionAdultContent": "アダルトコンテンツ",
   "@addictionAdultContent": {
-    "description": "Full name for adult content addiction (used in settings)"
+    "description": "Name of the adult content addiction type"
   },
   "search": "検索...",
   "@search": {
@@ -653,6 +649,30 @@
   "noSearchResults": "結果が見つかりません",
   "@noSearchResults": {
     "description": "Shown when a search yields no matches"
+  },
+  "homeSearchHint": "依存対象を検索...",
+  "@homeSearchHint": {
+    "description": "Hint text for the home addiction search bar"
+  },
+  "homeTrackAnyway": "このまま記録する",
+  "@homeTrackAnyway": {
+    "description": "Button to create a custom tracker from an unmatched search"
+  },
+  "iconSearchHint": "アイコンを検索...",
+  "@iconSearchHint": {
+    "description": "Hint text for the icon picker search bar"
+  },
+  "iconNoResults": "アイコンが見つかりません",
+  "@iconNoResults": {
+    "description": "Shown when icon search yields no matches"
+  },
+  "milestoneOpenOriginalSource": "元のソースを開く",
+  "@milestoneOpenOriginalSource": {
+    "description": "Button to open a milestone reference source"
+  },
+  "settingsExportSaveDialog": "データの保存先",
+  "@settingsExportSaveDialog": {
+    "description": "Title of the export file save dialog"
   },
   "settingsSearchHint": "検索...",
   "@settingsSearchHint": {
