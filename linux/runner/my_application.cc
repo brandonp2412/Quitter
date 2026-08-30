@@ -136,11 +136,12 @@ MyApplication* my_application_new() {
   // corresponding .desktop file. This ensures better integration by allowing
   // the application to be recognized beyond its binary name.
   const gchar* dwl_app_id = g_getenv("DWL_APP_ID");
-  g_set_prgname(dwl_app_id != nullptr && dwl_app_id[0] != '\0' ? dwl_app_id
-                                                                  : APPLICATION_ID);
+  const gchar* application_id =
+      dwl_app_id != nullptr && dwl_app_id[0] != '\0' ? dwl_app_id : APPLICATION_ID;
+  g_set_prgname(application_id);
 
   return MY_APPLICATION(g_object_new(my_application_get_type(),
-                                     "application-id", APPLICATION_ID,
+                                     "application-id", application_id,
                                      "flags", G_APPLICATION_NON_UNIQUE,
                                      nullptr));
 }
