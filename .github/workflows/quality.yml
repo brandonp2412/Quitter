@@ -15,10 +15,11 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
           submodules: recursive
           fetch-depth: 0
+          persist-credentials: false
 
       - name: Verify pinned Flutter SDK
         shell: bash
@@ -34,10 +35,11 @@ jobs:
 
       - name: Check changed Dart formatting
         shell: bash
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
         run: |
-          mapfile -t paths < <(git diff --name-only --diff-filter=ACMRT \
-            "${{ github.event.pull_request.base.sha }}" \
-            "${{ github.event.pull_request.head.sha }}" -- '*.dart')
+          mapfile -t paths < <(git diff --name-only --diff-filter=ACMRT "$BASE_SHA" "$HEAD_SHA" -- '*.dart')
           if ((${#paths[@]})); then
             flutter/bin/dart format --output=none --set-exit-if-changed "${paths[@]}"
           fi
