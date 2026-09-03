@@ -16,16 +16,16 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
           fetch-depth: 0
           persist-credentials: false
-      
-      - uses: subosito/flutter-action@v2
+
+      - uses: subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2 # v2
         with:
           channel: stable
-      
-      - uses: crowdin/github-action@v2
+
+      - uses: crowdin/github-action@8f01d54f70f1713ee3f09d82c2bbb2daeac28689 # v2
         with:
           upload_sources: true
           download_translations: true
@@ -36,17 +36,20 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
           CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
-      
+
       - name: Checkout the branch Crowdin created
         run: git checkout l10n_crowdin
-        
+
       - name: Generate l10n files
         run: flutter gen-l10n
-        
+
       - name: Commit generated files
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add .
           git diff --staged --quiet || git commit -m "Generate l10n files"
+          gh auth setup-git
           git push origin l10n_crowdin
