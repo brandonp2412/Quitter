@@ -1,0 +1,9 @@
+• Fix Microsoft Store rollout finalization checks
+• Parse multiline Store rollout responses
+• Pass through DWL_APP_ID to linux app
+• Target published Store submissions
+• Try setup codex hooks for auto validating
+• integrate Talker logging
+• Fix enforce compliant seven-inch screenshots
+• Fix harden recovery tracking flows
+• Fix scope Flutter quality formatting
