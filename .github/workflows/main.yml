@@ -425,6 +425,9 @@ jobs:
           REPO_NAME: ${{ github.event.repository.name }}
         run: flutter build web --release --base-href "/${REPO_NAME}/"
 
+      - name: Add privacy policy to web deployment
+        run: cp docs/privacy-policy.html build/web/privacy-policy.html
+
       - name: Setup Pages
         uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
 
