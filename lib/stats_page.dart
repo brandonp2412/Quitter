@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
+import 'package:quitter/add_addiction_page.dart';
 import 'package:quitter/addiction_provider.dart';
+import 'package:quitter/empty_state.dart';
 import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:quitter/utils.dart';
 
@@ -16,27 +18,14 @@ class StatsPage extends StatelessWidget {
         final entries = _buildStatEntries(l10n, addictions);
 
         if (entries.isEmpty) {
-          return Center(
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Icon(
-                  Icons.bar_chart,
-                  size: 64,
-                  color: Theme.of(context).colorScheme.onSurface.withAlpha(128),
-                ),
-                const SizedBox(height: 16),
-                Text(
-                  l10n.statsNoAddictions,
-                  style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                    color: Theme.of(
-                      context,
-                    ).colorScheme.onSurface.withAlpha(128),
-                  ),
-                  textAlign: TextAlign.center,
-                ),
-              ],
-            ),
+          return AppEmptyState(
+            icon: Icons.bar_chart_rounded,
+            title: l10n.statsNoAddictions,
+            actionLabel: l10n.homeAddButton,
+            actionIcon: Icons.add_rounded,
+            onAction: () => Navigator.of(
+              context,
+            ).push(MaterialPageRoute(builder: (_) => const AddAddictionPage())),
           );
         }
 

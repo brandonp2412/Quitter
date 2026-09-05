@@ -18,6 +18,7 @@ import 'package:quitter/mdma_page.dart';
 import 'package:quitter/steroids_page.dart';
 import 'package:quitter/synthetic_cannabinoids_page.dart';
 import 'package:quitter/edit_entry_page.dart';
+import 'package:quitter/empty_state.dart';
 import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:quitter/marijuana_page.dart';
 import 'package:quitter/meth_page.dart';
@@ -652,58 +653,64 @@ class _AddAddictionPageState extends State<AddAddictionPage> {
               ),
             ),
             Expanded(
-              child: ListView(
-                padding: const EdgeInsets.symmetric(vertical: 8),
-                children: [
-                  if (filtered.isEmpty)
-                    Padding(
-                      padding: const EdgeInsets.all(32),
-                      child: Text(
-                        options.isEmpty
-                            ? l10n.addAddictionNoneAvailable
-                            : l10n.noSearchResults,
-                        textAlign: TextAlign.center,
-                        style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                          color: Theme.of(
-                            context,
-                          ).colorScheme.onSurface.withAlpha(153),
+              child: filtered.isEmpty
+                  ? AppEmptyState(
+                      icon: options.isEmpty
+                          ? Icons.check_circle_outline_rounded
+                          : Icons.search_off_rounded,
+                      title: options.isEmpty
+                          ? l10n.addAddictionNoneAvailable
+                          : l10n.noSearchResults,
+                      message: l10n.addAddictionCustomSubtitle,
+                      actionLabel: l10n.homeTrackAnyway,
+                      actionIcon: Icons.add_rounded,
+                      onAction: () => Navigator.of(context).pushReplacement(
+                        MaterialPageRoute(
+                          builder: (_) => const EditEntryPage(),
                         ),
                       ),
-                    ),
-                  ...filtered.map(
-                    (option) => _AddictionTile(
-                      option: option,
-                      onTap: () => Navigator.of(context).pushReplacement(
-                        MaterialPageRoute(builder: (_) => option.destination),
-                      ),
-                    ),
-                  ),
-                  const Divider(height: 32),
-                  ListTile(
-                    leading: Container(
-                      width: 48,
-                      height: 48,
-                      decoration: BoxDecoration(
-                        gradient: LinearGradient(
-                          colors: [
-                            Theme.of(context).colorScheme.primary,
-                            Theme.of(context).colorScheme.secondary,
-                          ],
-                          begin: Alignment.topLeft,
-                          end: Alignment.bottomRight,
+                    )
+                  : ListView(
+                      padding: const EdgeInsets.symmetric(vertical: 8),
+                      children: [
+                        ...filtered.map(
+                          (option) => _AddictionTile(
+                            option: option,
+                            onTap: () => Navigator.of(context).pushReplacement(
+                              MaterialPageRoute(
+                                builder: (_) => option.destination,
+                              ),
+                            ),
+                          ),
                         ),
-                        borderRadius: BorderRadius.circular(12),
-                      ),
-                      child: const Icon(Icons.add, color: Colors.white),
+                        const Divider(height: 32),
+                        ListTile(
+                          leading: Container(
+                            width: 48,
+                            height: 48,
+                            decoration: BoxDecoration(
+                              gradient: LinearGradient(
+                                colors: [
+                                  Theme.of(context).colorScheme.primary,
+                                  Theme.of(context).colorScheme.secondary,
+                                ],
+                                begin: Alignment.topLeft,
+                                end: Alignment.bottomRight,
+                              ),
+                              borderRadius: BorderRadius.circular(12),
+                            ),
+                            child: const Icon(Icons.add, color: Colors.white),
+                          ),
+                          title: Text(l10n.addAddictionCustom),
+                          subtitle: Text(l10n.addAddictionCustomSubtitle),
+                          onTap: () => Navigator.of(context).pushReplacement(
+                            MaterialPageRoute(
+                              builder: (_) => const EditEntryPage(),
+                            ),
+                          ),
+                        ),
+                      ],
                     ),
-                    title: Text(l10n.addAddictionCustom),
-                    subtitle: Text(l10n.addAddictionCustomSubtitle),
-                    onTap: () => Navigator.of(context).pushReplacement(
-                      MaterialPageRoute(builder: (_) => const EditEntryPage()),
-                    ),
-                  ),
-                ],
-              ),
             ),
           ],
         ),

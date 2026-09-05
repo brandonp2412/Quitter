@@ -13,6 +13,7 @@ import 'package:quitter/addiction_provider.dart';
 import 'package:quitter/app_scheme.dart';
 import 'package:quitter/color_scheme_type.dart';
 import 'package:quitter/enjoying_page.dart';
+import 'package:quitter/empty_state.dart';
 import 'package:quitter/settings_provider.dart';
 import 'dart:io';
 import 'package:file_picker/file_picker.dart';
@@ -86,10 +87,18 @@ class _SettingsPageState extends State<SettingsPage> {
                 ),
               ),
               Expanded(
-                child: ListView(
-                  padding: const EdgeInsets.all(16.0),
-                  children: filteredItems,
-                ),
+                child: filteredItems.isEmpty && _searchQuery.isNotEmpty
+                    ? AppEmptyState(
+                        icon: Icons.search_off_rounded,
+                        title: l10n.noSearchResults,
+                        actionLabel: l10n.quitMilestonesClear,
+                        actionIcon: Icons.close_rounded,
+                        onAction: _searchController.clear,
+                      )
+                    : ListView(
+                        padding: const EdgeInsets.all(16.0),
+                        children: filteredItems,
+                      ),
               ),
               SizedBox(height: MediaQuery.of(context).padding.bottom),
             ],

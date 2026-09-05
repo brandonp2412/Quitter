@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:quitter/app_icons.dart';
+import 'package:quitter/empty_state.dart';
 import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:quitter/utils.dart';
 
@@ -109,7 +110,13 @@ class _IconPickerWidgetState extends State<IconPickerWidget> {
         SizedBox(
           height: widget.gridHeight,
           child: filteredIcons.isEmpty
-              ? Center(child: Text(l10n.iconNoResults))
+              ? AppEmptyState(
+                  icon: Icons.search_off_rounded,
+                  title: l10n.iconNoResults,
+                  actionLabel: l10n.quitMilestonesClear,
+                  actionIcon: Icons.close_rounded,
+                  onAction: _searchController.clear,
+                )
               : LayoutBuilder(
                   builder: (context, constraints) {
                     final int crossAxisCount =
