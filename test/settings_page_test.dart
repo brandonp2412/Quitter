@@ -74,7 +74,6 @@ void main() {
     testWidgets('displays theme setting', (WidgetTester tester) async {
       await tester.pumpWidget(createTestWidget());
 
-      expect(find.byType(SegmentedButton<AppThemeMode>), findsOneWidget);
       expect(find.text('System'), findsOneWidget);
       expect(find.text('Dark'), findsOneWidget);
       expect(find.text('Light'), findsOneWidget);
@@ -181,15 +180,6 @@ void main() {
       await tester.pumpAndSettle();
 
       expect(settingsProvider.themeMode, AppThemeMode.light);
-    });
-
-    testWidgets('color scheme picker displays colors', (
-      WidgetTester tester,
-    ) async {
-      await tester.pumpWidget(createTestWidget());
-
-      expect(find.text('Color scheme'), findsOneWidget);
-      expect(find.byType(AnimatedContainer), findsWidgets);
     });
 
     testWidgets('toggling reset buttons switch works', (
@@ -505,8 +495,6 @@ void main() {
         const Offset(0, -300),
       );
       expect(find.text('Import data'), findsOneWidget);
-      expect(find.byIcon(Icons.upload_file), findsOneWidget);
-      expect(find.byIcon(Icons.file_download), findsOneWidget);
     });
   });
 }

@@ -55,12 +55,12 @@ class _PinPageState extends State<PinPage> {
   }
 
   void _onBackspace() {
-    if (_pin.isNotEmpty) {
-      setState(() {
-        _pin = _pin.substring(0, _pin.length - 1);
-        _isError = false;
-      });
-    }
+    if (_pin.isEmpty) return;
+
+    setState(() {
+      _pin = _pin.substring(0, _pin.length - 1);
+      _isError = false;
+    });
   }
 
   Future<void> _onSubmit() async {
@@ -75,20 +75,19 @@ class _PinPageState extends State<PinPage> {
 
     if (!mounted) return;
 
-    if (!isValid) {
-      setState(() {
-        _isError = true;
-        _pin = '';
-        _isVerifying = false;
-      });
+    if (isValid) {
+      setState(() => _isVerifying = false);
+      return;
+    }
 
-      if (settings.isPinLockoutActive) {
-        _startCountdownTimer(settings);
-      }
-    } else {
-      setState(() {
-        _isVerifying = false;
-      });
+    setState(() {
+      _isError = true;
+      _pin = '';
+      _isVerifying = false;
+    });
+
+    if (settings.isPinLockoutActive) {
+      _startCountdownTimer(settings);
     }
   }
 
@@ -119,7 +118,6 @@ class _PinPageState extends State<PinPage> {
                   ),
                 ),
                 const SizedBox(height: 48),
-                // PIN display
                 Center(
                   child: Container(
                     padding: const EdgeInsets.symmetric(
@@ -168,7 +166,6 @@ class _PinPageState extends State<PinPage> {
                       : null,
                 ),
                 const SizedBox(height: 16),
-                // Number pad
                 GridView.count(
                   shrinkWrap: true,
                   crossAxisCount: 3,

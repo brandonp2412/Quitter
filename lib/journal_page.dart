@@ -224,7 +224,6 @@ class _JournalPageState extends State<JournalPage> {
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
-                // Month navigation header
                 GestureDetector(
                   onTap: () => _selectDate(context),
                   child: Container(
@@ -454,7 +453,6 @@ class _JournalPageState extends State<JournalPage> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    // Header with date
                     Container(
                       padding: EdgeInsets.symmetric(
                         horizontal: 16,
@@ -558,7 +556,6 @@ class _JournalPageState extends State<JournalPage> {
                       ),
                     ),
                     SizedBox(height: 16),
-                    // Entry stats
                     if (_entryController.text.trim().isNotEmpty)
                       Container(
                         padding: EdgeInsets.symmetric(

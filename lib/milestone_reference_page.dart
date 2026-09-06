@@ -8,7 +8,6 @@ class MilestoneReferencePage extends StatelessWidget {
 
   const MilestoneReferencePage({super.key, required this.milestone});
 
-  /// Parses the flat reference string into structured blocks for rendering.
   List<_ContentBlock> _parseContent(String content) {
     final blocks = content.split('\n\n');
     final result = <_ContentBlock>[];
@@ -57,7 +56,6 @@ class MilestoneReferencePage extends StatelessWidget {
         }
       }
 
-      // Plain paragraph — may contain bullets.
       final lines = block.split('\n');
       final bullets = <String>[];
       final prose = <String>[];
@@ -102,7 +100,6 @@ class MilestoneReferencePage extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  // Source + date row
                   Row(
                     children: [
                       Icon(Icons.science, size: 16, color: colorScheme.primary),
@@ -143,12 +140,10 @@ class MilestoneReferencePage extends StatelessWidget {
                   Divider(color: colorScheme.outlineVariant),
                   const SizedBox(height: 8),
 
-                  // Rendered content blocks
                   ...blocks.map((block) => _BlockWidget(block: block)),
 
                   const SizedBox(height: 32),
 
-                  // Open source button
                   SizedBox(
                     width: double.infinity,
                     child: FilledButton.icon(
@@ -191,10 +186,6 @@ class MilestoneReferencePage extends StatelessWidget {
   }
 }
 
-// ---------------------------------------------------------------------------
-// Data model for a parsed content block
-// ---------------------------------------------------------------------------
-
 enum _BlockType { articleTitle, section }
 
 class _ContentBlock {
@@ -224,10 +215,6 @@ class _ContentBlock {
     bullets: bullets,
   );
 }
-
-// ---------------------------------------------------------------------------
-// Widget for a single content block
-// ---------------------------------------------------------------------------
 
 class _BlockWidget extends StatelessWidget {
   final _ContentBlock block;

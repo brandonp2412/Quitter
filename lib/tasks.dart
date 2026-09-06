@@ -91,8 +91,7 @@ Future<void> setupTasks() async {
   );
 }
 
-/// Test method to send a notification with custom title and body
-/// Call this from anywhere in your app to test notifications
+/// Sends a local notification preview with the supplied content.
 Future<void> testNotification({
   required String title,
   required String body,
@@ -102,8 +101,6 @@ Future<void> testNotification({
   await _showNotification(plugin, title, body);
 }
 
-/// Fires a preview notification for a specific addiction when its toggle is enabled.
-/// Uses the real days-clean count if the user has a quit date saved, otherwise skips.
 String? _validQuitDate(SharedPreferences prefs, String key) {
   final value = prefs.get(key);
   return value is String && DateTime.tryParse(value) != null ? value : null;
@@ -133,7 +130,6 @@ Future<void> testAddictionNotification(
   );
 }
 
-/// Fires a preview notification for a custom entry using its quit date directly.
 Future<void> testCustomEntryNotification(
   String displayName,
   String quitDateIso,
@@ -147,7 +143,6 @@ Future<void> testCustomEntryNotification(
   );
 }
 
-/// Initialize notification plugin based on platform
 Future<FlutterLocalNotificationsPlugin> _initializeNotificationPlugin() async {
   final plugin = FlutterLocalNotificationsPlugin();
 
@@ -194,7 +189,6 @@ Future<FlutterLocalNotificationsPlugin> _initializeNotificationPlugin() async {
   return plugin;
 }
 
-/// Show a notification with given title and body
 Future<void> _showNotification(
   FlutterLocalNotificationsPlugin plugin,
   String title,

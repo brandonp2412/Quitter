@@ -10,7 +10,6 @@ class IconPickerWidget extends StatefulWidget {
   final Color? iconColor;
   final double iconSize;
 
-  /// Height of the scrollable icon grid.
   final double gridHeight;
 
   const IconPickerWidget({

@@ -126,7 +126,7 @@ void main() {
   });
 
   group('HomePage Long Press Tests', () {
-    testWidgets('should show X icons after long press', (
+    testWidgets('should ask to stop tracking after dismissing a card', (
       WidgetTester tester,
     ) async {
       SharedPreferences.setMockInitialValues({'alcohol': '2024-01-01'});
@@ -139,7 +139,10 @@ void main() {
       await tester.longPress(find.text('Alcohol'));
       await tester.pumpAndSettle();
 
-      expect(find.byIcon(Icons.close), findsOneWidget);
+      await tester.tap(find.byIcon(Icons.close));
+      await tester.pumpAndSettle();
+
+      expect(find.text('Stop tracking Alcohol?'), findsOneWidget);
     });
 
     testWidgets('should show stop tracking sheet when X icon is tapped', (
