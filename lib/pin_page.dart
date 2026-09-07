@@ -195,6 +195,7 @@ class _PinPageState extends State<PinPage> {
                     ),
                     _IconButton(
                       icon: _isVerifying ? Icons.hourglass_empty : Icons.check,
+                      tooltip: MaterialLocalizations.of(context).okButtonLabel,
                       onTap: !isLockedOut && !_isVerifying && _pin.isNotEmpty
                           ? _onSubmit
                           : null,
@@ -241,13 +242,14 @@ class _NumberButton extends StatelessWidget {
 
 class _IconButton extends StatelessWidget {
   final IconData icon;
+  final String? tooltip;
   final VoidCallback? onTap;
 
-  const _IconButton({required this.icon, this.onTap});
+  const _IconButton({required this.icon, this.tooltip, this.onTap});
 
   @override
   Widget build(BuildContext context) {
-    return Material(
+    final button = Material(
       color: Theme.of(context).colorScheme.secondary,
       borderRadius: BorderRadius.circular(12),
       child: InkWell(
@@ -262,5 +264,8 @@ class _IconButton extends StatelessWidget {
         ),
       ),
     );
+
+    if (tooltip == null) return button;
+    return Tooltip(message: tooltip!, child: button);
   }
 }
