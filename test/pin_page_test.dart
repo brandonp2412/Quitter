@@ -50,7 +50,7 @@ void main() {
       await tester.tap(find.text('3'));
       await tester.pumpAndSettle();
 
-      await tester.tap(find.byIcon(Icons.check));
+      await tester.tap(find.byTooltip('OK'));
       await tester.pumpAndSettle();
 
       expect(settingsProvider.isUnlocked, isTrue);
@@ -71,7 +71,7 @@ void main() {
       await tester.tap(find.text('2'));
       await tester.pumpAndSettle();
 
-      await tester.tap(find.byIcon(Icons.check));
+      await tester.tap(find.byTooltip('OK'));
       await tester.pumpAndSettle();
 
       expect(find.text('Incorrect PIN'), findsOne);
@@ -107,7 +107,7 @@ void main() {
       for (int i = 0; i < 3; i++) {
         await tester.tap(find.text('9'));
         await tester.pumpAndSettle();
-        await tester.tap(find.byIcon(Icons.check));
+        await tester.tap(find.byTooltip('OK'));
         await tester.pumpAndSettle();
       }
 
