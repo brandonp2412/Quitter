@@ -25,7 +25,6 @@ android {
         testInstrumentationRunner = "pl.leancode.patrol.PatrolJUnitRunner"
         testInstrumentationRunnerArguments["clearPackageData"] = "true"
         
-        // Remove any NDK abiFilters to avoid conflicts
         ndk {
             abiFilters.clear()
         }
@@ -36,7 +35,6 @@ android {
         outputs.all {
             val baseVersionCode = flutter.versionCode
             
-            // Map ABI to suffix numbers (matching your GitHub Actions pattern)
             val abiVersionCodes = mapOf(
                 "x86_64" to 1,
                 "armeabi-v7a" to 2,
@@ -47,11 +45,9 @@ android {
                 val abiName = filters.find { it.filterType == "ABI" }?.identifier
                 
                 if (abiName != null && abiVersionCodes.containsKey(abiName)) {
-                    // Split APK with specific ABI
                     val newVersionCode = baseVersionCode * 10 + abiVersionCodes[abiName]!!
                     versionCodeOverride = newVersionCode
                 } else {
-                    // Universal APK (no ABI filter) - use highest suffix (3)
                     val universalVersionCode = baseVersionCode * 10 + 3
                     versionCodeOverride = universalVersionCode
                 }
@@ -83,11 +79,9 @@ android {
             if (keyPropertiesFile.exists()) {
                 signingConfig = signingConfigs.getByName("release")
             }
-            // If key.properties doesn't exist, signingConfig remains null (unsigned)
         }
         debug {
             val keyPropertiesFile = rootProject.file("key.properties")
-            // Use release signing if available, otherwise fall back to default debug
             signingConfig = if (keyPropertiesFile.exists() && signingConfigs.getByName("release").storeFile != null) {
                 signingConfigs.getByName("release")
             } else {
