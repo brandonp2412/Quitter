@@ -1,0 +1,4 @@
+• Expose PIN submit action by user-facing label
+• Hide Linux integration tests on dwl
+• Prefer PIN action label in tests
+• Fix harden screenshot emulator recovery
