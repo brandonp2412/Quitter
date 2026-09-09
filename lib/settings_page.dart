@@ -239,17 +239,17 @@ class _SettingsPageState extends State<SettingsPage> {
         subtitle: Text(l10n.settingsPinLockSubtitle),
         value: settings.isPinEnabled,
         onChanged: (value) async {
-          if (value) {
-            final pin = await _showSetPinDialog(context);
-            if (pin != null) {
-              await settings.setPinEnabled(true, pin);
-            }
-          } else {
+          if (!value) {
             final confirmed = await _showVerifyPinDialog(context);
             if (confirmed) {
               await settings.setPinEnabled(false, null);
             }
+            return;
           }
+
+          final pin = await _showSetPinDialog(context);
+          if (pin == null) return;
+          await settings.setPinEnabled(true, pin);
         },
       ),
       ListTile(
@@ -858,20 +858,23 @@ class _SettingsPageState extends State<SettingsPage> {
           text.data!.toLowerCase().contains(lowerCaseQuery)) {
         return true;
       }
-    } else if (item is ListTile && item.title is TextField) {
+    }
+    if (item is ListTile && item.title is TextField) {
       final title =
           (item.title as TextField).decoration?.labelText?.toLowerCase() ?? '';
       final subtitle = (item.subtitle as Text?)?.data?.toLowerCase() ?? '';
       if (title.contains(lowerCaseQuery) || subtitle.contains(lowerCaseQuery)) {
         return true;
       }
-    } else if (item is ListTile && item.title is Text) {
+    }
+    if (item is ListTile && item.title is Text) {
       final title = (item.title as Text).data?.toLowerCase() ?? '';
       final subtitle = (item.subtitle as Text?)?.data?.toLowerCase() ?? '';
       if (title.contains(lowerCaseQuery) || subtitle.contains(lowerCaseQuery)) {
         return true;
       }
-    } else if (item is SwitchListTile) {
+    }
+    if (item is SwitchListTile) {
       final title = (item.title as Text).data?.toLowerCase() ?? '';
       final subtitle = (item.subtitle as Text?)?.data?.toLowerCase() ?? '';
       if (title.contains(lowerCaseQuery) || subtitle.contains(lowerCaseQuery)) {

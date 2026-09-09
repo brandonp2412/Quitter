@@ -68,7 +68,6 @@ class WidgetSelectionActivity : Activity() {
 
         val prefs = getSharedPreferences("FlutterSharedPreferences", MODE_PRIVATE)
 
-        // Read active addiction keys written by Flutter
         val activeKeysJson = prefs.getString("flutter.active_addiction_keys", null)
         val activeKeys = mutableListOf<String>()
         if (activeKeysJson != null) {

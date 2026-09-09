@@ -192,10 +192,10 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
     if (!mounted) return;
     if (widget.onQuitDateChanged != null) {
       await widget.onQuitDateChanged!(date);
-    } else {
-      final addictions = context.read<AddictionProvider>();
-      await addictions.setAddiction(widget.storageKey, date.toIso8601String());
+      return;
     }
+    final addictions = context.read<AddictionProvider>();
+    await addictions.setAddiction(widget.storageKey, date.toIso8601String());
   }
 
   void _showClearMilestoneBottomSheet(QuitMilestone milestone) {
