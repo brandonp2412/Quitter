@@ -73,8 +73,7 @@ Future<void> main() async {
 
       talker.info('Application state loaded');
 
-      cancelTasks();
-      await setupTasks();
+      await rescheduleTasks();
 
       runApp(
         MultiProvider(

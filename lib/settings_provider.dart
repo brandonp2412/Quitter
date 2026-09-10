@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'dart:convert';
 
 import 'package:crypto/crypto.dart';
@@ -363,26 +364,33 @@ class SettingsProvider extends ChangeNotifier {
       _prefs?.setInt(_notifyAtKey, normalizedAt) ?? Future.value(true),
     ]);
     notifyListeners();
-    cancelTasks();
-    await setupTasks();
+    await rescheduleTasks();
+  }
+
+  Future<void> _persistNotificationSettingAndReschedule(
+    String key,
+    int value,
+  ) async {
+    await _prefs?.setInt(key, value);
+    await rescheduleTasks();
   }
 
   set notifyAt(int value) {
     final normalized = value.clamp(0, 24 * 60 - 1);
     _notifyAt = normalized;
-    _prefs?.setInt(_notifyAtKey, normalized);
     notifyListeners();
-    cancelTasks();
-    setupTasks();
+    unawaited(
+      _persistNotificationSettingAndReschedule(_notifyAtKey, normalized),
+    );
   }
 
   set notifyEvery(int days) {
     final normalized = days < 0 ? 0 : days;
     _notifyEvery = normalized;
-    _prefs?.setInt(_notifyEveryKey, normalized);
     notifyListeners();
-    cancelTasks();
-    setupTasks();
+    unawaited(
+      _persistNotificationSettingAndReschedule(_notifyEveryKey, normalized),
+    );
   }
 
   set showAlcohol(bool show) =>

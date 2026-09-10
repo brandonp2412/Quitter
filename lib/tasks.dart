@@ -45,7 +45,8 @@ Future<void> setupTasks() async {
   await settings.loadPreferences();
   if (settings.notifyEvery == 0) {
     talker.info('Reminder scheduling disabled by settings');
-    return cancelTasks();
+    await cancelReminderTasks();
+    return;
   }
 
   final hours = settings.notifyAt ~/ 60;
@@ -317,16 +318,16 @@ Future<void> doDesktopReminders() async {
   await notifyProgress(plugin);
 }
 
-void cancelTasks() {
+Future<void> cancelReminderTasks() async {
   if (kIsWeb) return;
 
   if (defaultTargetPlatform == TargetPlatform.android ||
       defaultTargetPlatform == TargetPlatform.iOS) {
-    talker.info('Cancelling mobile background tasks');
-    Workmanager().cancelByUniqueName('reminders');
-    Workmanager().cancelByUniqueName('reminder_oneoff');
-    Workmanager().cancelByUniqueName('widgets');
-    Workmanager().cancelByUniqueName('widget_oneoff');
+    talker.info('Cancelling mobile reminder tasks');
+    await Future.wait([
+      Workmanager().cancelByUniqueName('reminders'),
+      Workmanager().cancelByUniqueName('reminder_oneoff'),
+    ]);
     return;
   }
 
@@ -337,6 +338,25 @@ void cancelTasks() {
   timer?.cancel();
   timer = null;
   talker.info('Cancelled desktop reminder timers');
+}
+
+Future<void> cancelTasks() async {
+  if (kIsWeb) return;
+
+  await cancelReminderTasks();
+  if (defaultTargetPlatform == TargetPlatform.android ||
+      defaultTargetPlatform == TargetPlatform.iOS) {
+    talker.info('Cancelling mobile widget tasks');
+    await Future.wait([
+      Workmanager().cancelByUniqueName('widgets'),
+      Workmanager().cancelByUniqueName('widget_oneoff'),
+    ]);
+  }
+}
+
+Future<void> rescheduleTasks() async {
+  await cancelTasks();
+  await setupTasks();
 }
 
 Future<void> doMobileReminders() async {
