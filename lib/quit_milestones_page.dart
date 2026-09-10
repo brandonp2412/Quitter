@@ -133,6 +133,7 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
       }
     }
 
+    if (!mounted) return;
     setState(() {
       showConfetti = true;
       started = true;
@@ -182,7 +183,7 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
       firstDate: DateTime(0),
       lastDate: DateTime.now(),
     );
-    if (date == null) return;
+    if (!mounted || date == null) return;
     setState(() {
       quitDate = date;
       started = true;
