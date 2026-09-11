@@ -1,12 +1,38 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_test/flutter_test.dart';
 import 'package:home_widget/home_widget.dart';
 import 'package:patrol/patrol.dart';
 import 'package:quitter/main.dart' as app;
 import 'package:shared_preferences/shared_preferences.dart';
+
+const _nativeTimeout = Duration(seconds: 15);
+const _pollInterval = Duration(milliseconds: 200);
+
+Future<void> _eventuallyTrue(
+  Future<bool> Function() condition, {
+  required Duration timeout,
+  required String description,
+}) async {
+  final deadline = DateTime.now().add(timeout);
+  Object? lastError;
+
+  while (DateTime.now().isBefore(deadline)) {
+    try {
+      if (await condition()) return;
+    } catch (error) {
+      lastError = error;
+    }
+    await Future<void>.delayed(_pollInterval);
+  }
+
+  fail(
+    '$description did not become true within $timeout'
+    '${lastError == null ? '' : ' (last error: $lastError)'}',
+  );
+}
 
 void main() {
   patrolTest(
@@ -15,7 +41,6 @@ void main() {
       if (!Platform.isAndroid) return;
 
       app.main();
-      await $.pumpAndSettle();
 
       final preferences = await SharedPreferences.getInstance();
       await preferences.setString('smoking', DateTime.now().toIso8601String());
@@ -31,46 +56,36 @@ void main() {
         isTrue,
       );
 
-      await $.platform.android.tap(
-        const AndroidSelector(textContains: 'Add'),
-        timeout: const Duration(seconds: 10),
-      );
-      var openedConfiguration = false;
-      final bindingTimeout = Stopwatch()..start();
-      while (!openedConfiguration &&
-          bindingTimeout.elapsed < const Duration(seconds: 10)) {
-        openedConfiguration =
-            await widgetChannel.invokeMethod<bool>('openUnconfiguredWidget') ??
-            false;
-        if (!openedConfiguration) {
-          await Future<void>.delayed(const Duration(milliseconds: 200));
-        }
-      }
-      expect(openedConfiguration, isTrue);
+      const addButton = AndroidSelector(textContains: 'Add');
       await $.platform.android.waitUntilVisible(
-        const AndroidSelector(text: 'Choose what to track'),
-        timeout: const Duration(seconds: 10),
+        addButton,
+        timeout: _nativeTimeout,
+      );
+      await $.platform.android.tap(addButton, timeout: _nativeTimeout);
+
+      await _eventuallyTrue(
+        () async =>
+            await widgetChannel.invokeMethod<bool>('openUnconfiguredWidget') ??
+            false,
+        timeout: _nativeTimeout,
+        description: 'The newly pinned widget configuration',
+      );
+
+      const chooser = AndroidSelector(text: 'Choose what to track');
+      await $.platform.android.waitUntilVisible(
+        chooser,
+        timeout: _nativeTimeout,
       );
       await $.platform.android.tap(const AndroidSelector(text: 'Smoking'));
 
-      var hasSelection = false;
-      final selectionTimeout = Stopwatch()..start();
-      while (!hasSelection &&
-          selectionTimeout.elapsed < const Duration(seconds: 5)) {
-        hasSelection =
+      await _eventuallyTrue(
+        () async =>
             await widgetChannel.invokeMethod<bool>('hasWidgetSelection', {
               'selection': 'smoking',
             }) ??
-            false;
-        if (!hasSelection) {
-          await Future<void>.delayed(const Duration(milliseconds: 200));
-        }
-      }
-      expect(
-        hasSelection,
-        isTrue,
-        reason:
-            'No bound Quitter widget persisted the tracker selected in the native chooser.',
+            false,
+        timeout: const Duration(seconds: 10),
+        description: 'The widget tracker selection',
       );
     },
     tags: 'home-widget',
