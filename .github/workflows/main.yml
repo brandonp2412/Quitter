@@ -24,28 +24,26 @@ jobs:
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
+          submodules: recursive
+          fetch-depth: 0
           persist-credentials: false
 
-      - name: Setup Flutter
-        uses: subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2 # v2
-        with:
-          channel: "stable"
-          cache: true
-
-      - name: Get dependencies
-        run: flutter pub get
+      - name: Setup pinned Flutter SDK
+        run: |
+          test -x flutter/bin/flutter
+          flutter/bin/flutter --version
 
       - name: Verify lockfile reproducibility
-        run: flutter pub get --enforce-lockfile
+        run: flutter/bin/flutter pub get --enforce-lockfile
 
       - name: Verify formatting
-        run: dart format --set-exit-if-changed lib test
+        run: flutter/bin/dart format --set-exit-if-changed lib test
 
       - name: Analyze code
-        run: dart analyze --no-fatal-warnings lib
+        run: flutter/bin/dart analyze --no-fatal-warnings lib
 
       - name: Run tests
-        run: flutter test
+        run: flutter/bin/flutter test
 
   build-android:
     needs: version-bump
