@@ -10,6 +10,6 @@
     <path d="M26 4c6.7 6 10.5 13.4 10.5 22S32.7 42 26 48C19.3 42 15.5 34.6 15.5 26S19.3 10 26 4Z"/>
   </g>
 
-  <text x="78" y="29" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="600" letter-spacing=".7">GET IT ON</text>
-  <text x="78" y="59" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="31" font-weight="500">Web</text>
+  <text x="78" y="29" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" letter-spacing=".7">GET IT ON</text>
+  <text x="78" y="60" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700">Web</text>
 </svg>
