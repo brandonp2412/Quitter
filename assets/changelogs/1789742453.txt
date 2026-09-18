@@ -1,0 +1,3 @@
+• Fix localize Android widget placeholders
+• Fix localize application title
+• Fix localize milestone reference articles
