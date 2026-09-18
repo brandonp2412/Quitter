@@ -136,6 +136,29 @@ void main() {
       },
     );
 
+    testWidgets('language picker can restore and persist system default', (
+      WidgetTester tester,
+    ) async {
+      await settingsProvider.setLocale('ja');
+      await tester.pumpWidget(createTestWidget());
+      await tester.pumpAndSettle();
+
+      await tester.tap(find.text('言語'));
+      await tester.pumpAndSettle();
+      await tester.tap(find.text('システムのデフォルト'));
+      await tester.pumpAndSettle();
+
+      expect(settingsProvider.locale, 'system');
+      expect(find.text('Language'), findsOneWidget);
+
+      final prefs = await SharedPreferences.getInstance();
+      expect(prefs.getString('locale'), 'system');
+
+      final reloaded = SettingsProvider();
+      await reloaded.loadPreferences();
+      expect(reloaded.locale, 'system');
+    });
+
     test('persists the language override across provider reloads', () async {
       await settingsProvider.setLocale('zh');
 
