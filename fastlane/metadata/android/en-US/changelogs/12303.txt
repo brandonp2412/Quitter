@@ -1,0 +1,2 @@
+• complete app language selection
+• Fix complete localized app strings
