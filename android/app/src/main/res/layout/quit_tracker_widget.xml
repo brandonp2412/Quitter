@@ -27,7 +27,7 @@
             android:id="@+id/widget_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Addiction"
+            android:text="@string/widget_addiction_placeholder"
             android:textColor="@android:color/white"
             android:textSize="14sp"
             android:textStyle="bold"
@@ -39,7 +39,7 @@
         android:id="@+id/widget_days"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="0 days"
+        android:text="@string/widget_zero_days"
         android:textColor="@android:color/white"
         android:textSize="16sp"
         android:textStyle="bold" />

@@ -37,4 +37,6 @@
     <string name="widget_unknown">未知</string>
     <string name="widget_error">错误</string>
     <string name="widget_setup_text">点击设置</string>
+    <string name="widget_addiction_placeholder">成瘾项目</string>
+    <string name="widget_zero_days">0 天</string>
 </resources>

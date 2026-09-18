@@ -37,4 +37,6 @@
     <string name="widget_unknown">Unknown</string>
     <string name="widget_error">Error</string>
     <string name="widget_setup_text">Tap to\nSetup</string>
+    <string name="widget_addiction_placeholder">Addiction</string>
+    <string name="widget_zero_days">0 days</string>
 </resources>

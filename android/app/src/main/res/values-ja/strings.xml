@@ -37,4 +37,6 @@
     <string name="widget_unknown">不明</string>
     <string name="widget_error">エラー</string>
     <string name="widget_setup_text">タップして\n設定</string>
+    <string name="widget_addiction_placeholder">依存対象</string>
+    <string name="widget_zero_days">0日</string>
 </resources>

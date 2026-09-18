@@ -131,4 +131,53 @@ void main() {
       );
     }
   });
+
+  test('every milestone reference article is wired to localized content', () {
+    final pages = Directory('lib').listSync().whereType<File>().where(
+      (file) => file.path.endsWith('_page.dart'),
+    );
+    var articleCount = 0;
+
+    for (final file in pages) {
+      final contents = file.readAsStringSync();
+      final referenceCount = RegExp(
+        r'\breferenceContent:',
+      ).allMatches(contents).length;
+      if (referenceCount == 0) continue;
+
+      final localizedCount = RegExp(
+        r'\blocalizedReferenceContent:',
+      ).allMatches(contents).length;
+      expect(
+        localizedCount,
+        referenceCount,
+        reason: '${file.path} must localize every reference article',
+      );
+      articleCount += referenceCount;
+    }
+
+    expect(articleCount, greaterThan(0));
+  });
+
+  test('Android layouts do not hard-code user-facing text', () {
+    final layouts = Directory(
+      'android/app/src/main/res/layout',
+    ).listSync().whereType<File>().where((file) => file.path.endsWith('.xml'));
+    final hardCodedValues = <String>[];
+    final attribute = RegExp(
+      r'android:(?:text|hint|contentDescription)="([^"]*)"',
+    );
+
+    for (final file in layouts) {
+      final contents = file.readAsStringSync();
+      for (final match in attribute.allMatches(contents)) {
+        final value = match.group(1)!;
+        if (!value.startsWith('@') && !value.startsWith('?')) {
+          hardCodedValues.add('${file.path}: $value');
+        }
+      }
+    }
+
+    expect(hardCodedValues, isEmpty);
+  });
 }
