@@ -1,0 +1,1 @@
+• Fix harden language selection persistence
