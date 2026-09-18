@@ -13,13 +13,17 @@ Set<String> _messageKeys(Map<String, dynamic> arb) {
   return arb.keys.where((key) => !key.startsWith('@')).toSet();
 }
 
-Set<String> _androidStringKeys(String directory) {
+Map<String, String> _androidStrings(String directory) {
   final contents = File(
     'android/app/src/main/res/$directory/strings.xml',
   ).readAsStringSync();
-  return RegExp(
-    r'<string\s+name="([^"]+)"',
-  ).allMatches(contents).map((match) => match.group(1)!).toSet();
+  final strings = <String, String>{};
+  for (final match in RegExp(
+    r'<string\s+name="([^"]+)"[^>]*>([\s\S]*?)</string>',
+  ).allMatches(contents)) {
+    strings[match.group(1)!] = match.group(2)!.trim();
+  }
+  return strings;
 }
 
 void main() {
@@ -37,6 +41,13 @@ void main() {
     'aboutAuthorName',
     'aboutLicenseMIT',
     'ok',
+  };
+  const intentionalSharedAndroidValues = {
+    'addiction_ssri',
+    'addiction_snri',
+    'addiction_maoi',
+    'addiction_ghb',
+    'addiction_mdma',
   };
 
   test('every supported locale has every app message translated', () {
@@ -80,18 +91,43 @@ void main() {
     }
   });
 
-  test('Android widget strings exist for every supported locale', () {
-    final defaultKeys = _androidStringKeys('values');
+  test('Android widget strings are translated for every supported locale', () {
+    final defaults = _androidStrings('values');
+    expect(defaults, isNotEmpty);
 
     for (final locale in AppLocalizations.supportedLocales) {
       if (locale.languageCode == 'en') continue;
 
-      final localizedKeys = _androidStringKeys('values-${locale.languageCode}');
+      final localized = _androidStrings('values-${locale.languageCode}');
       expect(
-        localizedKeys,
-        defaultKeys,
+        localized.keys.toSet(),
+        defaults.keys.toSet(),
         reason:
             'Android ${locale.languageCode} strings must match the default resource set',
+      );
+
+      final emptyStrings = defaults.keys
+          .where((key) => localized[key]?.trim().isEmpty ?? true)
+          .toList();
+      expect(
+        emptyStrings,
+        isEmpty,
+        reason:
+            'Android ${locale.languageCode} strings must not contain empty translations',
+      );
+
+      final englishFallbacks = defaults.keys
+          .where(
+            (key) =>
+                localized[key] == defaults[key] &&
+                !intentionalSharedAndroidValues.contains(key),
+          )
+          .toList();
+      expect(
+        englishFallbacks,
+        isEmpty,
+        reason:
+            'Android ${locale.languageCode} strings must not contain placeholder English translations',
       );
     }
   });

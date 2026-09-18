@@ -2,6 +2,7 @@ package com.quitter.app
 
 import android.app.Activity
 import android.appwidget.AppWidgetManager
+import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import androidx.core.content.edit
@@ -11,6 +12,10 @@ import org.json.JSONArray
 
 class WidgetSelectionActivity : Activity() {
     private var appWidgetId = AppWidgetManager.INVALID_APPWIDGET_ID
+
+    override fun attachBaseContext(newBase: Context) {
+        super.attachBaseContext(newBase.withQuitterLocale())
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

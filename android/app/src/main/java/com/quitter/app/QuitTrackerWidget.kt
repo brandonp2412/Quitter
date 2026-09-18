@@ -31,12 +31,13 @@ class QuitTrackerWidget : AppWidgetProvider() {
         }
 
         fun updateAppWidget(
-                context: Context,
+                baseContext: Context,
                 appWidgetManager: AppWidgetManager,
                 appWidgetId: Int
         ) {
             Log.d(TAG, "Updating widget $appWidgetId")
 
+            val context = baseContext.withQuitterLocale()
             val prefs =
                     context.getSharedPreferences("FlutterSharedPreferences", Context.MODE_PRIVATE)
             val widgetPrefs =
@@ -257,6 +258,10 @@ class QuitTrackerWidget : AppWidgetProvider() {
             if (selectedAddiction == null) {
                 Log.d(TAG, "No addiction selected for widget $appWidgetId")
                 views = RemoteViews(context.packageName, R.layout.quit_tracker_widget_selector)
+                views.setTextViewText(
+                        R.id.widget_setup_text,
+                        context.getString(R.string.widget_setup_text)
+                )
                 views.setOnClickPendingIntent(R.id.widget_container, pendingSelect)
                 return appWidgetManager.updateAppWidget(appWidgetId, views)
             }

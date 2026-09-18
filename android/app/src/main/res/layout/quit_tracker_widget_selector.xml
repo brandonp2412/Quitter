@@ -18,6 +18,7 @@
 
     <!-- Setup text -->
     <TextView
+        android:id="@+id/widget_setup_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/widget_setup_text"
