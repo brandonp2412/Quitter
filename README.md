@@ -17,7 +17,7 @@ A free and open-source quit tracker built around local data, useful milestones, 
 <p>
   <a href="https://f-droid.org/en/packages/com.quitter.app/"><img alt="Get it on F-Droid" height="56" src="./docs/get-it-on-fdroid.png"></a>
   <a href="https://play.google.com/store/apps/details?id=com.quitter.app"><img alt="Get it on Google Play" height="56" src="./docs/get-it-on-google-play.png"></a>
-  <a href="https://apps.microsoft.com/detail/9PKVZWDG3FGC?referrer=appbadge&mode=direct"><img alt="Download from the Microsoft Store" height="56" src="./docs/download-msstore.svg"></a>
+  <a href="https://apps.microsoft.com/detail/9PKVZWDG3FGC?referrer=appbadge&mode=direct"><img alt="Download from the Microsoft Store" height="56" src="./docs/download-msstore.png"></a>
   <a href="https://brandonp2412.github.io/Quitter/"><img alt="Open Quitter on the web" height="56" src="./docs/get-it-on-web.png"></a>
 </p>
 
@@ -28,10 +28,11 @@ A free and open-source quit tracker built around local data, useful milestones, 
 ## See your progress, not a dashboard full of noise
 
 <p align="center">
-  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/1_en-US.png" width="23%" alt="Quitter home screen with multiple quitting journeys">
-  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/2_en-US.png" width="23%" alt="Alcohol quitting journey with progress information">
-  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/7_en-US.png" width="23%" alt="Quitter settings and appearance options">
-  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/8_en-US.png" width="23%" alt="Quitter journal screen">
+  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/1_en-US.png" width="360" alt="Quitter home screen with multiple quitting journeys">
+  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/2_en-US.png" width="360" alt="Alcohol quitting journey with progress information">
+  <br><br>
+  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/7_en-US.png" width="360" alt="Quitter settings and appearance options">
+  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/8_en-US.png" width="360" alt="Quitter journal screen">
 </p>
 
 <details>
@@ -39,10 +40,11 @@ A free and open-source quit tracker built around local data, useful milestones, 
 <br>
 
 <p align="center">
-  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/3_en-US.png" width="23%" alt="Smoking quitting journey at day seven">
-  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/4_en-US.png" width="23%" alt="Custom quitting journey editor">
-  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/5_en-US.png" width="23%" alt="Home screen hide-entry action">
-  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/6_en-US.png" width="23%" alt="Marijuana quitting journey at day fourteen">
+  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/3_en-US.png" width="360" alt="Smoking quitting journey at day seven">
+  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/4_en-US.png" width="360" alt="Custom quitting journey editor">
+  <br><br>
+  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/5_en-US.png" width="360" alt="Home screen hide-entry action">
+  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/6_en-US.png" width="360" alt="Marijuana quitting journey at day fourteen">
 </p>
 </details>
 
