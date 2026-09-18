@@ -26,6 +26,20 @@ Map<String, String> _androidStrings(String directory) {
   return strings;
 }
 
+bool _containsTargetScript(String languageCode, String value) {
+  for (final rune in value.runes) {
+    final isCjk = rune >= 0x4e00 && rune <= 0x9fff;
+    if (languageCode == 'zh' && isCjk) return true;
+    if (languageCode == 'ja' &&
+        (isCjk ||
+            (rune >= 0x3040 && rune <= 0x30ff) ||
+            (rune >= 0xff66 && rune <= 0xff9f))) {
+      return true;
+    }
+  }
+  return false;
+}
+
 void main() {
   const intentionalSharedValues = {
     'addictionGhb',
@@ -88,6 +102,19 @@ void main() {
         reason:
             '${locale.languageCode} must not contain placeholder English translations',
       );
+
+      final latinOnlyMessages = englishKeys.where((key) {
+        if (intentionalSharedValues.contains(key)) return false;
+        final value = localized[key] as String;
+        return RegExp(r'[A-Za-z]').hasMatch(value) &&
+            !_containsTargetScript(locale.languageCode, value);
+      }).toList();
+      expect(
+        latinOnlyMessages,
+        isEmpty,
+        reason:
+            '${locale.languageCode} must not contain English-only placeholder text',
+      );
     }
   });
 
@@ -128,6 +155,19 @@ void main() {
         isEmpty,
         reason:
             'Android ${locale.languageCode} strings must not contain placeholder English translations',
+      );
+
+      final latinOnlyStrings = defaults.keys.where((key) {
+        if (intentionalSharedAndroidValues.contains(key)) return false;
+        final value = localized[key]!;
+        return RegExp(r'[A-Za-z]').hasMatch(value) &&
+            !_containsTargetScript(locale.languageCode, value);
+      }).toList();
+      expect(
+        latinOnlyStrings,
+        isEmpty,
+        reason:
+            'Android ${locale.languageCode} strings must not contain English-only placeholder text',
       );
     }
   });
