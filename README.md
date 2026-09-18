@@ -1,68 +1,82 @@
+<div align="center">
+
+<img src="assets/icon.png" width="112" alt="Quitter app icon">
+
 # Quitter
 
-Record your quitting journey with a Free and Open Source app.
+**Track your quitting journey without turning it into someone else's data.**
 
-<p float="left">
-    <a href="https://github.com/brandonp2412/Quitter/releases/latest"><img alt="Current release number badge" src="https://img.shields.io/github/v/release/brandonp2412/quitter?style=for-the-badge&logoColor=d3bcfd&labelColor=2e4057&color=151218"></a>
-    <a href="https://shields.io/badges/git-hub-downloads-all-assets-all-releases"><img alt="Number of release downloads badge" src="https://img.shields.io/github/downloads/brandonp2412/Quitter/total.svg?style=for-the-badge&logoColor=d3bcfd&labelColor=2e4057&color=151218"></a>
+A free and open-source quit tracker built around local data, useful milestones, and a calm interface.
+
+<p>
+  <a href="https://github.com/brandonp2412/Quitter/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/brandonp2412/quitter?style=flat-square"></a>
+  <a href="https://github.com/brandonp2412/Quitter/releases"><img alt="Release downloads" src="https://img.shields.io/github/downloads/brandonp2412/Quitter/total.svg?style=flat-square"></a>
+  <a href="LICENSE.md"><img alt="MIT license" src="https://img.shields.io/badge/license-MIT-8b75b3?style=flat-square"></a>
 </p>
 
-## Features
-
-*   🕵️ **No tracking** We don't save any of your user data. Everything is stored locally.
-*   🌍 **No internet** Our app doesn't request internet access, at all.
-*   🚀 **Multiple journeys** Monitor progress for different habits simultaneously.
-*   🎯 **Milestone tracking** Record and celebrate key achievements in your quitting journey.
-*   📔 **Journaling** Write your thoughts and feelings as you progress.
-*   🔔 **Notifications** Be encouraged with progress notifications.
-*   ⚙️ **Completely custom** Toggle features on/off, change colors & themes with settings.
-
-<a href='https://f-droid.org/en/packages/com.quitter.app/'><img alt='Get it on F-droid badge' height="80" src='./docs/get-it-on-fdroid.png'/></a><a href='https://play.google.com/store/apps/details?id=com.quitter.app'><img alt='Get it on Google Play badge' height="80" src='./docs/get-it-on-google-play.png'/></a><a href="https://apps.microsoft.com/detail/9PKVZWDG3FGC?referrer=appbadge&mode=direct"><img src="./docs/download-msstore.svg" style="height: 80px !important" alt="Download from the Microsoft Store badge"/></a><a href='https://brandonp2412.github.io/Quitter/'><img alt='Get it on web' height="80" src='./docs/get-it-on-web.png'/></a>
-
-# Screenshots
-
-<p class="float-left">
-    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/1_en-US.png" height="600" alt="Home page for the mobile app showing tiles for Alcohol, Vaping, Smoking, Marijuana, Nicotine pouches, Opioids and Social Media. Bottom right button for adding custom entries">
-    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/2_en-US.png" height="600" alt="Alcohol quitting page on mobile at day 1 showing some infographics. A start button is on the bottom right">
-    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/3_en-US.png" height="600" alt="Smoking quitting page on mobile at day 7 of your quitting journey. A reset button is on the bottom right to trigger a relapse">
-    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/4_en-US.png" height="600" alt="Custom entry page editing on mobile. A title field, quit date field, color picker and icon pickers are visible. A save button is on the bottom right">
-    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/5_en-US.png" height="600" alt="The home page indicating what happens when you long press the Smoking tile. It shows a bottom sheet asking whether you want to hide Smoking or not.">
-    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/6_en-US.png" height="600" alt="Marijuana quitting page on mobile at day 14. A reset button is on the bottom right.">
-    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/7_en-US.png" height="600" alt="The settings page showing several appearance options and some main screen toggles">
-    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/8_en-US.png" height="600" alt="The journal page showing how to log your thoughts & feelings for the day">
+<p>
+  <a href="https://f-droid.org/en/packages/com.quitter.app/"><img alt="Get it on F-Droid" height="56" src="./docs/get-it-on-fdroid.png"></a>
+  <a href="https://play.google.com/store/apps/details?id=com.quitter.app"><img alt="Get it on Google Play" height="56" src="./docs/get-it-on-google-play.png"></a>
+  <a href="https://apps.microsoft.com/detail/9PKVZWDG3FGC?referrer=appbadge&mode=direct"><img alt="Download from the Microsoft Store" height="56" src="./docs/download-msstore.svg"></a>
+  <a href="https://brandonp2412.github.io/Quitter/"><img alt="Open Quitter on the web" height="56" src="./docs/get-it-on-web.png"></a>
 </p>
 
-# Translations
+<sub>No tracking · Local data · Multiple journeys · Fully customisable</sub>
 
-Quitter uses [Crowdin](https://crowdin.com/project/quitter) for it's translations. If you're interested in contributing, please click the badge below.
+</div>
 
-<a href="https://crowdin.com/project/quitter" rel="nofollow"><img style="width:140;height:40px" src="https://badges.crowdin.net/badge/dark/crowdin-on-light.png" srcset="https://badges.crowdin.net/badge/dark/crowdin-on-light.png 1x,https://badges.crowdin.net/badge/dark/crowdin-on-light@2x.png 2x"  alt="Crowdin | Agile localization for tech companies" /></a>
+## See your progress, not a dashboard full of noise
 
-# Getting Started
+<p align="center">
+  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/1_en-US.png" width="23%" alt="Quitter home screen with multiple quitting journeys">
+  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/2_en-US.png" width="23%" alt="Alcohol quitting journey with progress information">
+  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/7_en-US.png" width="23%" alt="Quitter settings and appearance options">
+  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/8_en-US.png" width="23%" alt="Quitter journal screen">
+</p>
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+<details>
+<summary>More screenshots</summary>
+<br>
 
-## Prerequisites
+<p align="center">
+  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/3_en-US.png" width="23%" alt="Smoking quitting journey at day seven">
+  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/4_en-US.png" width="23%" alt="Custom quitting journey editor">
+  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/5_en-US.png" width="23%" alt="Home screen hide-entry action">
+  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/6_en-US.png" width="23%" alt="Marijuana quitting journey at day fourteen">
+</p>
+</details>
 
-This project is built with Flutter. Ensure you have Flutter installed on your system. If not, follow the official Flutter installation guide: [https://flutter.dev/docs/get-started/install](https://flutter.dev/docs/get-started/install)
+## Built for the journey
 
-## Installation
+**Private by design.** Quitter doesn't track you. Your progress is stored locally instead of being sent to an account or analytics service.
 
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/brandonp2412/Quitter.git quitter
-    cd quitter
-    ```
+**More than one goal.** Track multiple habits at once, follow milestones, journal how things are going, and get progress notifications when you want them.
 
-2.  **Get Flutter dependencies:**
-    ```bash
-    flutter pub get
-    ```
+**Make it yours.** Choose colours and themes, create custom entries, and turn features on or off so the app stays focused on what matters to you.
 
-## Running the App
+## Help translate Quitter
 
-To run the app on a connected device or emulator:
+Translations are managed on [Crowdin](https://crowdin.com/project/quitter). Contributions for any supported language are welcome.
+
+<a href="https://crowdin.com/project/quitter"><img width="140" alt="Translate Quitter on Crowdin" src="https://badges.crowdin.net/badge/dark/crowdin-on-light.png"></a>
+
+## Development
+
+<details>
+<summary>Run Quitter locally</summary>
+<br>
+
+Quitter is built with Flutter.
 
 ```bash
+git clone --recursive https://github.com/brandonp2412/Quitter.git quitter
+cd quitter
+flutter pub get
 flutter run
 ```
+
+</details>
+
+## License
+
+Quitter is available under the [MIT License](LICENSE.md).
