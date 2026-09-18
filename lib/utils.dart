@@ -16,14 +16,16 @@ Color getContrastingColor(Color backgroundColor) {
   return luminance > 0.5 ? Colors.black : Colors.white;
 }
 
-String getTimeString(int totalMinutes) {
+String getTimeString(BuildContext context, int totalMinutes) {
   final normalizedMinutes = totalMinutes.clamp(0, 24 * 60 - 1);
-  final hours = normalizedMinutes ~/ 60;
-  final minutes = normalizedMinutes % 60;
-  final hour12 = hours == 0 ? 12 : (hours > 12 ? hours - 12 : hours);
-  final amPm = hours < 12 ? 'AM' : 'PM';
-  final minutesStr = minutes.toString().padLeft(2, '0');
-  return '$hour12:$minutesStr $amPm';
+  final time = TimeOfDay(
+    hour: normalizedMinutes ~/ 60,
+    minute: normalizedMinutes % 60,
+  );
+  return MaterialLocalizations.of(context).formatTimeOfDay(
+    time,
+    alwaysUse24HourFormat: MediaQuery.alwaysUse24HourFormatOf(context),
+  );
 }
 
 int daysCeil(String dateStr) {

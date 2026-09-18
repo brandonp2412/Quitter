@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:quitter/milestone_reference_page.dart';
 import 'package:quitter/quit_milestone.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -22,6 +23,7 @@ class TimelineTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final colorScheme = Theme.of(context).colorScheme;
+    final l10n = AppLocalizations.of(context)!;
     final achievements = daysAchieved
         .where((days) => days == milestone.day)
         .toList();
@@ -132,8 +134,10 @@ class TimelineTile extends StatelessWidget {
                         ),
                         child: Text(
                           milestone.day >= 365
-                              ? '${(milestone.day / 365).toStringAsFixed(0)} Year${milestone.day >= 730 ? 's' : ''}'
-                              : 'Day ${milestone.day}',
+                              ? l10n.timelineMilestoneYears(
+                                  (milestone.day / 365).round(),
+                                )
+                              : l10n.timelineMilestoneDay(milestone.day),
                           style: TextStyle(
                             fontSize: 12,
                             fontWeight: FontWeight.bold,

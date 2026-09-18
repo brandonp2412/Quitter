@@ -413,6 +413,24 @@
       }
     }
   },
+  "statsDayUnit": "{count, plural, =1 {day} other {days}}",
+  "@statsDayUnit": {
+    "description": "Day unit displayed beside the total journey count",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "statsHoursSuffix": "{hours}h",
+  "@statsHoursSuffix": {
+    "description": "Compact hours label used in stats detail rows",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
   "statsResilienceTitle": "Resilience",
   "@statsResilienceTitle": {
     "description": "Section title for the resilience/relapse history card on stats page"
@@ -819,7 +837,7 @@
   "@settingsNotificationFrequency": {
     "description": "Setting title for notification frequency"
   },
-  "settingsNotificationFrequencySubtitle": "Every {days} day(s) at {time}",
+  "settingsNotificationFrequencySubtitle": "Every {days, plural, =1 {{days} day} other {{days} days}} at {time}",
   "@settingsNotificationFrequencySubtitle": {
     "description": "Subtitle showing notification frequency",
     "placeholders": {
@@ -983,15 +1001,12 @@
   "@notificationTestTitle": {
     "description": "Title for test notification"
   },
-  "notificationTestBody": "You will see a notification like this every {days} day{plural} congratulating you on your progress!",
+  "notificationTestBody": "You will see a notification like this every {days, plural, =1 {{days} day} other {{days} days}} congratulating you on your progress!",
   "@notificationTestBody": {
     "description": "Body text for test notification",
     "placeholders": {
       "days": {
         "type": "int"
-      },
-      "plural": {
-        "type": "String"
       }
     }
   },
@@ -1018,6 +1033,10 @@
   "dataImportFailed": "Import failed",
   "@dataImportFailed": {
     "description": "Dialog title shown when data import fails"
+  },
+  "dataImportFailedMessage": "The selected file could not be imported. Check that it is a valid Quitter backup and try again.",
+  "@dataImportFailedMessage": {
+    "description": "Dialog message shown when data import fails"
   },
   "journalHowWasYourDay": "How was your day?",
   "@journalHowWasYourDay": {
@@ -1078,18 +1097,33 @@
   "@quitMilestonesClear": {
     "description": "Button to clear milestone"
   },
-  "quitMilestonesShareMessage": "I'm {days} day{plural} clean from {title}!",
+  "quitMilestonesShareMessage": "I'm {days, plural, =1 {{days} day} other {{days} days}} clean from {title}!",
   "@quitMilestonesShareMessage": {
     "description": "Message template for sharing progress",
     "placeholders": {
       "days": {
         "type": "int"
       },
-      "plural": {
-        "type": "String"
-      },
       "title": {
         "type": "String"
+      }
+    }
+  },
+  "timelineMilestoneDay": "Day {days}",
+  "@timelineMilestoneDay": {
+    "description": "Milestone badge label for a day count",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "timelineMilestoneYears": "{years, plural, =1 {{years} Year} other {{years} Years}}",
+  "@timelineMilestoneYears": {
+    "description": "Milestone badge label for a year count",
+    "placeholders": {
+      "years": {
+        "type": "int"
       }
     }
   },

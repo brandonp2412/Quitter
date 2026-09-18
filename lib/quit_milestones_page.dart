@@ -1,6 +1,5 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:intl/intl.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:provider/provider.dart';
 import 'package:quitter/addiction_provider.dart';
@@ -110,11 +109,9 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
 
   void _updateQuitDate(DateTime quitDate) {
     if (!mounted) return;
-    final l10n = AppLocalizations.of(context);
+    final l10n = AppLocalizations.of(context)!;
     final days = daysCeil(quitDate.toIso8601String());
-    controller.text =
-        l10n?.alcoholPageQuitDateDisplay(quitDate, days) ??
-        '${DateFormat.yMMMd().format(quitDate)} ($days days)';
+    controller.text = l10n.alcoholPageQuitDateDisplay(quitDate, days);
   }
 
   void _handleStartPressed() async {
@@ -158,21 +155,14 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
   }
 
   void onShare(int day) {
-    if (widget.shareTitle != null && widget.shareTitle!.isNotEmpty) {
-      SharePlus.instance.share(
-        ShareParams(
-          text:
-              "I'm $day day${day > 1 ? 's' : ''} clean from ${widget.shareTitle}!",
-        ),
-      );
-      return;
-    }
+    final l10n = AppLocalizations.of(context)!;
+    final shareTitle = widget.shareTitle?.trim();
+    final title = shareTitle == null || shareTitle.isEmpty
+        ? widget.title
+        : shareTitle;
 
     SharePlus.instance.share(
-      ShareParams(
-        text:
-            "I'm $day day${day > 1 ? 's' : ''} clean from ${widget.storageKey.replaceAll('_', ' ')}!",
-      ),
+      ShareParams(text: l10n.quitMilestonesShareMessage(day, title)),
     );
   }
 

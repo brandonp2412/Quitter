@@ -413,6 +413,24 @@
       }
     }
   },
+  "statsDayUnit": "日",
+  "@statsDayUnit": {
+    "description": "Day unit displayed beside the total journey count",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "statsHoursSuffix": "{hours}時間",
+  "@statsHoursSuffix": {
+    "description": "Compact hours label used in stats detail rows",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
   "statsResilienceTitle": "立ち直る力",
   "@statsResilienceTitle": {
     "description": "Section title for the resilience/relapse history card on stats page"
@@ -983,15 +1001,12 @@
   "@notificationTestTitle": {
     "description": "Title for test notification"
   },
-  "notificationTestBody": "{days}日ごとに、あなたの進捗を祝福する通知が届きます!",
+  "notificationTestBody": "{days}日ごとに、あなたの進捗を祝福する通知が届きます！",
   "@notificationTestBody": {
     "description": "Body text for test notification",
     "placeholders": {
       "days": {
         "type": "int"
-      },
-      "plural": {
-        "type": "String"
       }
     }
   },
@@ -1018,6 +1033,10 @@
   "dataImportFailed": "インポートに失敗しました",
   "@dataImportFailed": {
     "description": "Dialog title shown when data import fails"
+  },
+  "dataImportFailedMessage": "選択したファイルをインポートできませんでした。有効な Quitter バックアップであることを確認して、もう一度お試しください。",
+  "@dataImportFailedMessage": {
+    "description": "Dialog message shown when data import fails"
   },
   "journalHowWasYourDay": "今日はどうでしたか?",
   "@journalHowWasYourDay": {
@@ -1078,18 +1097,33 @@
   "@quitMilestonesClear": {
     "description": "Button to clear milestone"
   },
-  "quitMilestonesShareMessage": "{title}をやめて{days}日間継続しています!",
+  "quitMilestonesShareMessage": "{title}をやめて{days}日間継続しています！",
   "@quitMilestonesShareMessage": {
     "description": "Message template for sharing progress",
     "placeholders": {
       "days": {
         "type": "int"
       },
-      "plural": {
-        "type": "String"
-      },
       "title": {
         "type": "String"
+      }
+    }
+  },
+  "timelineMilestoneDay": "{days}日目",
+  "@timelineMilestoneDay": {
+    "description": "Milestone badge label for a day count",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "timelineMilestoneYears": "{years}年",
+  "@timelineMilestoneYears": {
+    "description": "Milestone badge label for a year count",
+    "placeholders": {
+      "years": {
+        "type": "int"
       }
     }
   },

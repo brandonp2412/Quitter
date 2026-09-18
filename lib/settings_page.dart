@@ -208,13 +208,13 @@ class _SettingsPageState extends State<SettingsPage> {
         return;
 
       await Permission.notification.request();
-    } catch (e) {
+    } catch (_) {
       if (!context.mounted) return;
       showDialog(
         context: context,
         builder: (ctx) => AlertDialog(
           title: Text(l10n.dataImportFailed),
-          content: Text(e.toString()),
+          content: Text(l10n.dataImportFailedMessage),
           actions: [
             TextButton(
               onPressed: () => Navigator.pop(ctx),
@@ -714,7 +714,7 @@ class _SettingsPageState extends State<SettingsPage> {
         subtitle: Text(
           l10n.settingsNotificationFrequencySubtitle(
             settings.notifyEvery,
-            getTimeString(settings.notifyAt),
+            getTimeString(context, settings.notifyAt),
           ),
         ),
         onTap: () => _showNotificationFrequencyDialog(context, settings),
@@ -967,7 +967,9 @@ class _SettingsPageState extends State<SettingsPage> {
       text: settings.notifyEvery.toString(),
     );
     var selectedAt = settings.notifyAt;
-    final atCtrl = TextEditingController(text: getTimeString(selectedAt));
+    final atCtrl = TextEditingController(
+      text: getTimeString(context, selectedAt),
+    );
 
     try {
       await showDialog<void>(
@@ -1007,9 +1009,9 @@ class _SettingsPageState extends State<SettingsPage> {
                         initialTime: TimeOfDay(hour: hours, minute: minutes),
                       );
 
-                      if (result != null) {
+                      if (result != null && context.mounted) {
                         selectedAt = result.hour * 60 + result.minute;
-                        atCtrl.text = getTimeString(selectedAt);
+                        atCtrl.text = getTimeString(context, selectedAt);
                       }
                     },
                   ),
@@ -1032,10 +1034,7 @@ class _SettingsPageState extends State<SettingsPage> {
                     if (days > 0) {
                       await testNotification(
                         title: l10n.notificationTestTitle,
-                        body: l10n.notificationTestBody(
-                          days,
-                          days > 1 ? 's' : '',
-                        ),
+                        body: l10n.notificationTestBody(days),
                       );
                     }
                     if (context.mounted) Navigator.pop(context);

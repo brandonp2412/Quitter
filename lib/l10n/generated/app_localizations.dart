@@ -1960,6 +1960,18 @@ abstract class AppLocalizations {
   /// **'{days}d'**
   String statsDaysSuffix(int days);
 
+  /// Day unit displayed beside the total journey count
+  ///
+  /// In en, this message translates to:
+  /// **'{count, plural, =1 {day} other {days}}'**
+  String statsDayUnit(int count);
+
+  /// Compact hours label used in stats detail rows
+  ///
+  /// In en, this message translates to:
+  /// **'{hours}h'**
+  String statsHoursSuffix(int hours);
+
   /// Section title for the resilience/relapse history card on stats page
   ///
   /// In en, this message translates to:
@@ -2533,7 +2545,7 @@ abstract class AppLocalizations {
   /// Subtitle showing notification frequency
   ///
   /// In en, this message translates to:
-  /// **'Every {days} day(s) at {time}'**
+  /// **'Every {days, plural, =1 {{days} day} other {{days} days}} at {time}'**
   String settingsNotificationFrequencySubtitle(int days, String time);
 
   /// Setting subtitle for alcohol notifications
@@ -2773,8 +2785,8 @@ abstract class AppLocalizations {
   /// Body text for test notification
   ///
   /// In en, this message translates to:
-  /// **'You will see a notification like this every {days} day{plural} congratulating you on your progress!'**
-  String notificationTestBody(int days, String plural);
+  /// **'You will see a notification like this every {days, plural, =1 {{days} day} other {{days} days}} congratulating you on your progress!'**
+  String notificationTestBody(int days);
 
   /// Dialog title for delete everything confirmation
   ///
@@ -2811,6 +2823,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Import failed'**
   String get dataImportFailed;
+
+  /// Dialog message shown when data import fails
+  ///
+  /// In en, this message translates to:
+  /// **'The selected file could not be imported. Check that it is a valid Quitter backup and try again.'**
+  String get dataImportFailedMessage;
 
   /// Header text in journal entry section
   ///
@@ -2881,8 +2899,20 @@ abstract class AppLocalizations {
   /// Message template for sharing progress
   ///
   /// In en, this message translates to:
-  /// **'I\'m {days} day{plural} clean from {title}!'**
-  String quitMilestonesShareMessage(int days, String plural, String title);
+  /// **'I\'m {days, plural, =1 {{days} day} other {{days} days}} clean from {title}!'**
+  String quitMilestonesShareMessage(int days, String title);
+
+  /// Milestone badge label for a day count
+  ///
+  /// In en, this message translates to:
+  /// **'Day {days}'**
+  String timelineMilestoneDay(int days);
+
+  /// Milestone badge label for a year count
+  ///
+  /// In en, this message translates to:
+  /// **'{years, plural, =1 {{years} Year} other {{years} Years}}'**
+  String timelineMilestoneYears(int years);
 
   /// Header text for started custom entry
   ///

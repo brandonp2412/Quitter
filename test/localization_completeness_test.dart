@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
 
+import 'package:flutter/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:quitter/l10n/generated/app_localizations.dart';
 
@@ -11,6 +12,25 @@ Map<String, dynamic> _readArb(String locale) {
 
 Set<String> _messageKeys(Map<String, dynamic> arb) {
   return arb.keys.where((key) => !key.startsWith('@')).toSet();
+}
+
+Map<String, String> _changelogMessages(String locale) {
+  if (locale == 'en') {
+    return {
+      for (final file
+          in Directory('assets/changelogs').listSync().whereType<File>().where(
+            (file) => file.path.endsWith('.txt'),
+          ))
+        file.uri.pathSegments.last.replaceAll('.txt', ''): file
+            .readAsStringSync()
+            .trim(),
+    };
+  }
+
+  final decoded =
+      jsonDecode(File('assets/changelogs/$locale.json').readAsStringSync())
+          as Map<String, dynamic>;
+  return decoded.map((key, value) => MapEntry(key, value as String));
 }
 
 Map<String, String> _androidStrings(String directory) {
@@ -117,6 +137,120 @@ void main() {
       );
     }
   });
+
+  test('every supported locale translates every changelog entry', () {
+    final english = _changelogMessages('en');
+    expect(english, isNotEmpty);
+
+    for (final locale in AppLocalizations.supportedLocales) {
+      if (locale.languageCode == 'en') continue;
+
+      final localized = _changelogMessages(locale.languageCode);
+      expect(
+        localized.keys.toSet(),
+        english.keys.toSet(),
+        reason:
+            '${locale.languageCode} changelogs must match the English entry set',
+      );
+
+      final emptyMessages = english.keys
+          .where((key) => localized[key]?.trim().isEmpty ?? true)
+          .toList();
+      expect(
+        emptyMessages,
+        isEmpty,
+        reason: '${locale.languageCode} changelogs must not be empty',
+      );
+
+      final englishFallbacks = english.keys
+          .where((key) => localized[key] == english[key])
+          .toList();
+      expect(
+        englishFallbacks,
+        isEmpty,
+        reason:
+            '${locale.languageCode} changelogs must not fall back to English',
+      );
+
+      final wrongScript = localized.entries
+          .where(
+            (entry) => !_containsTargetScript(locale.languageCode, entry.value),
+          )
+          .map((entry) => entry.key)
+          .toList();
+      expect(
+        wrongScript,
+        isEmpty,
+        reason:
+            '${locale.languageCode} changelogs must contain translated text',
+      );
+    }
+  });
+
+  test('milestone share copy is localized and wired to the UI', () async {
+    final english = await AppLocalizations.delegate.load(const Locale('en'));
+    final japanese = await AppLocalizations.delegate.load(const Locale('ja'));
+    final chinese = await AppLocalizations.delegate.load(const Locale('zh'));
+
+    expect(
+      english.quitMilestonesShareMessage(1, 'alcohol'),
+      "I'm 1 day clean from alcohol!",
+    );
+    expect(
+      english.quitMilestonesShareMessage(2, 'alcohol'),
+      "I'm 2 days clean from alcohol!",
+    );
+    expect(
+      japanese.quitMilestonesShareMessage(2, 'アルコール'),
+      'アルコールをやめて2日間継続しています！',
+    );
+    expect(chinese.quitMilestonesShareMessage(2, '酒精'), '我已经戒除 酒精 2 天了！');
+
+    final page = File('lib/quit_milestones_page.dart').readAsStringSync();
+    expect(page, contains('l10n.quitMilestonesShareMessage(day, title)'));
+  });
+
+  test(
+    'duration labels and notification copy are localized and wired',
+    () async {
+      final english = await AppLocalizations.delegate.load(const Locale('en'));
+      final japanese = await AppLocalizations.delegate.load(const Locale('ja'));
+      final chinese = await AppLocalizations.delegate.load(const Locale('zh'));
+
+      expect(english.timelineMilestoneDay(3), 'Day 3');
+      expect(english.timelineMilestoneYears(1), '1 Year');
+      expect(english.timelineMilestoneYears(2), '2 Years');
+      expect(english.statsDayUnit(1), 'day');
+      expect(english.statsDayUnit(2), 'days');
+      expect(english.statsHoursSuffix(4), '4h');
+      expect(english.notificationTestBody(1), contains('every 1 day '));
+      expect(english.notificationTestBody(2), contains('every 2 days '));
+
+      expect(japanese.timelineMilestoneDay(3), '3日目');
+      expect(japanese.timelineMilestoneYears(2), '2年');
+      expect(japanese.statsDayUnit(2), '日');
+      expect(japanese.statsHoursSuffix(4), '4時間');
+      expect(japanese.notificationTestBody(2), contains('2日ごと'));
+
+      expect(chinese.timelineMilestoneDay(3), '第3天');
+      expect(chinese.timelineMilestoneYears(2), '2年');
+      expect(chinese.statsDayUnit(2), '天');
+      expect(chinese.statsHoursSuffix(4), '4小时');
+      expect(chinese.notificationTestBody(2), contains('每 2 天'));
+
+      final timeline = File('lib/timeline_tile.dart').readAsStringSync();
+      expect(timeline, contains('l10n.timelineMilestoneDay(milestone.day)'));
+      expect(timeline, contains('l10n.timelineMilestoneYears('));
+
+      final stats = File('lib/stats_page.dart').readAsStringSync();
+      expect(stats, contains('l10n.statsDayUnit(totalDays)'));
+      expect(stats, contains('l10n.statsDaysSuffix(e.days)'));
+      expect(stats, contains('l10n.statsHoursSuffix('));
+
+      final settings = File('lib/settings_page.dart').readAsStringSync();
+      expect(settings, contains('l10n.notificationTestBody(days)'));
+    },
+  );
 
   test('Android widget strings are translated for every supported locale', () {
     final defaults = _androidStrings('values');

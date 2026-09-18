@@ -1090,6 +1090,22 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
+  String statsDayUnit(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'days',
+      one: 'day',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String statsHoursSuffix(int hours) {
+    return '${hours}h';
+  }
+
+  @override
   String get statsResilienceTitle => 'Resilience';
 
   @override
@@ -1405,7 +1421,13 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String settingsNotificationFrequencySubtitle(int days, String time) {
-    return 'Every $days day(s) at $time';
+    String _temp0 = intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
+      other: '$days days',
+      one: '$days day',
+    );
+    return 'Every $_temp0 at $time';
   }
 
   @override
@@ -1532,8 +1554,14 @@ class AppLocalizationsEn extends AppLocalizations {
   String get notificationTestTitle => 'Positive affirmation';
 
   @override
-  String notificationTestBody(int days, String plural) {
-    return 'You will see a notification like this every $days day$plural congratulating you on your progress!';
+  String notificationTestBody(int days) {
+    String _temp0 = intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
+      other: '$days days',
+      one: '$days day',
+    );
+    return 'You will see a notification like this every $_temp0 congratulating you on your progress!';
   }
 
   @override
@@ -1554,6 +1582,10 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get dataImportFailed => 'Import failed';
+
+  @override
+  String get dataImportFailedMessage =>
+      'The selected file could not be imported. Check that it is a valid Quitter backup and try again.';
 
   @override
   String get journalHowWasYourDay => 'How was your day?';
@@ -1596,8 +1628,30 @@ class AppLocalizationsEn extends AppLocalizations {
   String get quitMilestonesClear => 'Clear';
 
   @override
-  String quitMilestonesShareMessage(int days, String plural, String title) {
-    return 'I\'m $days day$plural clean from $title!';
+  String quitMilestonesShareMessage(int days, String title) {
+    String _temp0 = intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
+      other: '$days days',
+      one: '$days day',
+    );
+    return 'I\'m $_temp0 clean from $title!';
+  }
+
+  @override
+  String timelineMilestoneDay(int days) {
+    return 'Day $days';
+  }
+
+  @override
+  String timelineMilestoneYears(int years) {
+    String _temp0 = intl.Intl.pluralLogic(
+      years,
+      locale: localeName,
+      other: '$years Years',
+      one: '$years Year',
+    );
+    return '$_temp0';
   }
 
   @override

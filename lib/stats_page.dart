@@ -466,7 +466,7 @@ class _JourneyCard extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.only(bottom: 4),
                       child: Text(
-                        'days',
+                        l10n.statsDayUnit(totalDays),
                         style: theme.textTheme.titleMedium?.copyWith(
                           color: theme.colorScheme.onPrimary,
                         ),
@@ -524,7 +524,11 @@ class _MoneySavedCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    final currencyFmt = NumberFormat.currency(symbol: '\$', decimalDigits: 0);
+    final currencyFmt = NumberFormat.currency(
+      locale: l10n.localeName,
+      symbol: '\$',
+      decimalDigits: 0,
+    );
     final equivalence = _equivalence(moneySaved, l10n);
 
     return Container(
@@ -591,7 +595,7 @@ class _MoneySavedCard extends StatelessWidget {
                     ),
                   ),
                   Text(
-                    '${currencyFmt.format((e.costPerDay! * e.days).round())}  ·  ${e.days}d',
+                    '${currencyFmt.format((e.costPerDay! * e.days).round())}  ·  ${l10n.statsDaysSuffix(e.days)}',
                     style: theme.textTheme.bodySmall?.copyWith(
                       color: theme.colorScheme.onSurface.withValues(alpha: 0.6),
                     ),
@@ -706,7 +710,7 @@ class _TimeSavedCard extends StatelessWidget {
                     ),
                   ),
                   Text(
-                    '${(e.hoursPerDay! * e.days).round()}h  ·  ${e.days}d',
+                    '${l10n.statsHoursSuffix((e.hoursPerDay! * e.days).round())}  ·  ${l10n.statsDaysSuffix(e.days)}',
                     style: theme.textTheme.bodySmall?.copyWith(
                       color: theme.colorScheme.onSurface.withValues(alpha: 0.6),
                     ),

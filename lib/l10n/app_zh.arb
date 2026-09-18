@@ -413,6 +413,24 @@
       }
     }
   },
+  "statsDayUnit": "天",
+  "@statsDayUnit": {
+    "description": "Day unit displayed beside the total journey count",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "statsHoursSuffix": "{hours}小时",
+  "@statsHoursSuffix": {
+    "description": "Compact hours label used in stats detail rows",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
   "statsResilienceTitle": "韧性",
   "@statsResilienceTitle": {
     "description": "Section title for the resilience/relapse history card on stats page"
@@ -989,9 +1007,6 @@
     "placeholders": {
       "days": {
         "type": "int"
-      },
-      "plural": {
-        "type": "String"
       }
     }
   },
@@ -1018,6 +1033,10 @@
   "dataImportFailed": "导入失败",
   "@dataImportFailed": {
     "description": "Dialog title shown when data import fails"
+  },
+  "dataImportFailedMessage": "无法导入所选文件。请确认它是有效的 Quitter 备份，然后重试。",
+  "@dataImportFailedMessage": {
+    "description": "Dialog message shown when data import fails"
   },
   "journalHowWasYourDay": "今天过得怎么样？",
   "@journalHowWasYourDay": {
@@ -1085,11 +1104,26 @@
       "days": {
         "type": "int"
       },
-      "plural": {
-        "type": "String"
-      },
       "title": {
         "type": "String"
+      }
+    }
+  },
+  "timelineMilestoneDay": "第{days}天",
+  "@timelineMilestoneDay": {
+    "description": "Milestone badge label for a day count",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "timelineMilestoneYears": "{years}年",
+  "@timelineMilestoneYears": {
+    "description": "Milestone badge label for a year count",
+    "placeholders": {
+      "years": {
+        "type": "int"
       }
     }
   },

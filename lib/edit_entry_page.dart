@@ -3,7 +3,6 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:provider/provider.dart';
-import 'package:intl/intl.dart';
 import 'package:quitter/addiction_provider.dart';
 import 'package:quitter/entry.dart';
 import 'package:quitter/utils.dart';
@@ -35,13 +34,18 @@ class _EditEntryPageState extends State<EditEntryPage> {
     _titleController = TextEditingController(text: widget.entry?.title ?? '');
     _quitDate = widget.entry?.quitDate ?? DateTime.now();
     _quitDateController = TextEditingController();
-    _updateQuitDateText();
     _selectedIcon = widget.entry?.icon ?? Icons.star;
 
     final random = Random();
     _selectedColor =
         widget.entry?.color ??
         Colors.primaries.elementAt(random.nextInt(Colors.primaries.length));
+  }
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    _updateQuitDateText();
   }
 
   @override
@@ -67,8 +71,9 @@ class _EditEntryPageState extends State<EditEntryPage> {
 
   void _updateQuitDateText() {
     final days = daysCeil(_quitDate.toIso8601String());
-    _quitDateController.text =
-        '${DateFormat.yMMMd().format(_quitDate)} ($days day${days == 1 ? '' : 's'})';
+    _quitDateController.text = AppLocalizations.of(
+      context,
+    )!.alcoholPageQuitDateDisplay(_quitDate, days);
   }
 
   Future<void> _saveEntry() async {

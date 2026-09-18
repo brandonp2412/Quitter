@@ -23,7 +23,10 @@ AppLocalizations _localizationsFor(SharedPreferences prefs) {
   final languageCode = configuredLocale == null || configuredLocale == 'system'
       ? systemLocale
       : configuredLocale;
-  final supportedLanguageCode = const {'en', 'ja', 'zh'}.contains(languageCode)
+  final supportedLanguageCodes = AppLocalizations.supportedLocales
+      .map((locale) => locale.languageCode)
+      .toSet();
+  final supportedLanguageCode = supportedLanguageCodes.contains(languageCode)
       ? languageCode
       : 'en';
   return lookupAppLocalizations(Locale(supportedLanguageCode));

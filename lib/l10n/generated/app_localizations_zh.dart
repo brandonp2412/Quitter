@@ -1061,6 +1061,16 @@ class AppLocalizationsZh extends AppLocalizations {
   }
 
   @override
+  String statsDayUnit(int count) {
+    return '天';
+  }
+
+  @override
+  String statsHoursSuffix(int hours) {
+    return '$hours小时';
+  }
+
+  @override
   String get statsResilienceTitle => '韧性';
 
   @override
@@ -1487,7 +1497,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get notificationTestTitle => '积极肯定';
 
   @override
-  String notificationTestBody(int days, String plural) {
+  String notificationTestBody(int days) {
     return '您将每 $days 天看到这样一条通知，祝贺您的进步！';
   }
 
@@ -1508,6 +1518,9 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get dataImportFailed => '导入失败';
+
+  @override
+  String get dataImportFailedMessage => '无法导入所选文件。请确认它是有效的 Quitter 备份，然后重试。';
 
   @override
   String get journalHowWasYourDay => '今天过得怎么样？';
@@ -1549,8 +1562,18 @@ class AppLocalizationsZh extends AppLocalizations {
   String get quitMilestonesClear => '清除';
 
   @override
-  String quitMilestonesShareMessage(int days, String plural, String title) {
+  String quitMilestonesShareMessage(int days, String title) {
     return '我已经戒除 $title $days 天了！';
+  }
+
+  @override
+  String timelineMilestoneDay(int days) {
+    return '第$days天';
+  }
+
+  @override
+  String timelineMilestoneYears(int years) {
+    return '$years年';
   }
 
   @override

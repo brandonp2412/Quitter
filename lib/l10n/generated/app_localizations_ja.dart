@@ -1062,6 +1062,16 @@ class AppLocalizationsJa extends AppLocalizations {
   }
 
   @override
+  String statsDayUnit(int count) {
+    return '日';
+  }
+
+  @override
+  String statsHoursSuffix(int hours) {
+    return '$hours時間';
+  }
+
+  @override
   String get statsResilienceTitle => '立ち直る力';
 
   @override
@@ -1488,8 +1498,8 @@ class AppLocalizationsJa extends AppLocalizations {
   String get notificationTestTitle => 'ポジティブな励まし';
 
   @override
-  String notificationTestBody(int days, String plural) {
-    return '$days日ごとに、あなたの進捗を祝福する通知が届きます!';
+  String notificationTestBody(int days) {
+    return '$days日ごとに、あなたの進捗を祝福する通知が届きます！';
   }
 
   @override
@@ -1509,6 +1519,10 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get dataImportFailed => 'インポートに失敗しました';
+
+  @override
+  String get dataImportFailedMessage =>
+      '選択したファイルをインポートできませんでした。有効な Quitter バックアップであることを確認して、もう一度お試しください。';
 
   @override
   String get journalHowWasYourDay => '今日はどうでしたか?';
@@ -1550,8 +1564,18 @@ class AppLocalizationsJa extends AppLocalizations {
   String get quitMilestonesClear => 'クリア';
 
   @override
-  String quitMilestonesShareMessage(int days, String plural, String title) {
-    return '$titleをやめて$days日間継続しています!';
+  String quitMilestonesShareMessage(int days, String title) {
+    return '$titleをやめて$days日間継続しています！';
+  }
+
+  @override
+  String timelineMilestoneDay(int days) {
+    return '$days日目';
+  }
+
+  @override
+  String timelineMilestoneYears(int years) {
+    return '$years年';
   }
 
   @override

@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:intl/intl.dart';
@@ -15,24 +17,28 @@ class WhatsNew extends StatefulWidget {
 class Changelog {
   final String name;
   final String content;
-  final String created;
+  final DateTime created;
 
   Changelog({required this.name, required this.content, required this.created});
 }
 
 class _WhatsNewState extends State<WhatsNew> {
   List<Changelog> changelogs = [];
+  String? _loadedLanguageCode;
 
   @override
-  void initState() {
-    super.initState();
-    setChangelogs();
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    final languageCode = Localizations.localeOf(context).languageCode;
+    if (_loadedLanguageCode == languageCode) return;
+    _loadedLanguageCode = languageCode;
+    setChangelogs(languageCode);
   }
 
-  void setChangelogs() async {
+  void setChangelogs(String languageCode) async {
     try {
-      final logs = await getChangelogFiles(context);
-      if (!mounted) return;
+      final logs = await getChangelogFiles(context, languageCode);
+      if (!mounted || _loadedLanguageCode != languageCode) return;
       setState(() => changelogs = logs);
       talker.info('Loaded ${logs.length} changelog entries');
     } catch (error, stackTrace) {
@@ -40,14 +46,34 @@ class _WhatsNewState extends State<WhatsNew> {
     }
   }
 
-  Future<List<Changelog>> getChangelogFiles(BuildContext context) async {
-    final manifest = await AssetManifest.loadFromAssetBundle(
-      DefaultAssetBundle.of(context),
+  Future<Map<String, String>> _loadLocalizedChangelogs(
+    AssetBundle bundle,
+    String languageCode,
+  ) async {
+    if (languageCode == 'en') return const {};
+    final contents = await bundle.loadString(
+      'assets/changelogs/$languageCode.json',
+    );
+    final decoded = jsonDecode(contents) as Map<String, dynamic>;
+    return decoded.map((key, value) => MapEntry(key, value as String));
+  }
+
+  Future<List<Changelog>> getChangelogFiles(
+    BuildContext context,
+    String languageCode,
+  ) async {
+    final bundle = DefaultAssetBundle.of(context);
+    final manifest = await AssetManifest.loadFromAssetBundle(bundle);
+    final localizedContent = await _loadLocalizedChangelogs(
+      bundle,
+      languageCode,
     );
 
     final files = manifest
         .listAssets()
-        .where((key) => key.startsWith('assets/changelogs/'))
+        .where(
+          (key) => key.startsWith('assets/changelogs/') && key.endsWith('.txt'),
+        )
         .toList();
 
     files.sort((a, b) {
@@ -61,7 +87,7 @@ class _WhatsNewState extends State<WhatsNew> {
     final result = <Changelog>[];
     for (final path in files) {
       try {
-        final content = await rootBundle.loadString(path);
+        final content = await bundle.loadString(path);
         final filename = path.split('/').last.replaceAll('.txt', '');
         final timestamp = int.tryParse(filename);
         if (timestamp == null || filename.isEmpty) {
@@ -75,10 +101,8 @@ class _WhatsNewState extends State<WhatsNew> {
         result.add(
           Changelog(
             name: filename,
-            created: DateFormat.yMMMd().format(
-              DateTime.fromMillisecondsSinceEpoch(timestamp * 1000),
-            ),
-            content: content,
+            created: DateTime.fromMillisecondsSinceEpoch(timestamp * 1000),
+            content: localizedContent[filename] ?? content,
           ),
         );
       } catch (error, stackTrace) {
@@ -96,7 +120,9 @@ class _WhatsNewState extends State<WhatsNew> {
       appBar: AppBar(title: Text(l10n.whatsNewTitle)),
       body: ListView.builder(
         itemBuilder: (context, index) => ListTile(
-          title: Text(changelogs[index].created),
+          title: Text(
+            DateFormat.yMMMd(l10n.localeName).format(changelogs[index].created),
+          ),
           subtitle: Text(changelogs[index].content),
         ),
         itemCount: changelogs.length,
