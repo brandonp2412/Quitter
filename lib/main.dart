@@ -184,7 +184,8 @@ class _QuitterAppState extends State<QuitterApp>
             }
 
             return MaterialApp(
-              title: 'Quitter',
+              onGenerateTitle: (context) =>
+                  AppLocalizations.of(context)!.appTitle,
               scaffoldMessengerKey: rootScaffoldMessenger,
               locale: settings.locale == 'system'
                   ? null
