@@ -137,8 +137,10 @@ void main() {
     );
 
     test('persists the language override across provider reloads', () async {
-      settingsProvider.locale = 'zh';
-      await Future<void>.delayed(Duration.zero);
+      await settingsProvider.setLocale('zh');
+
+      final prefs = await SharedPreferences.getInstance();
+      expect(prefs.getString('locale'), 'zh');
 
       final reloaded = SettingsProvider();
       await reloaded.loadPreferences();

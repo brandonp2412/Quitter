@@ -285,11 +285,11 @@ class SettingsProvider extends ChangeNotifier {
     talker.debug('Loaded application preferences');
   }
 
-  set locale(String locale) {
+  Future<void> setLocale(String locale) async {
     final normalized = _supportedLocales.contains(locale) ? locale : 'system';
     _locale = normalized;
     notifyListeners();
-    _prefs?.setString(_localeKey, normalized);
+    await _prefs?.setString(_localeKey, normalized);
   }
 
   set weekStartsMonday(bool value) {

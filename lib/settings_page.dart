@@ -913,7 +913,7 @@ class _SettingsPageState extends State<SettingsPage> {
           locale.languageCode,
       ],
       getDisplayName: (value) => _localeDisplayName(l10n, value),
-      onChanged: (value) => settings.locale = value,
+      onChanged: settings.setLocale,
     );
   }
 
@@ -923,7 +923,7 @@ class _SettingsPageState extends State<SettingsPage> {
     required T currentValue,
     required List<T> options,
     required String Function(T) getDisplayName,
-    required void Function(T) onChanged,
+    required Future<void> Function(T) onChanged,
   }) {
     final l10n = AppLocalizations.of(context)!;
     showDialog(
@@ -933,11 +933,10 @@ class _SettingsPageState extends State<SettingsPage> {
         content: SingleChildScrollView(
           child: RadioGroup<T>(
             groupValue: currentValue,
-            onChanged: (value) {
-              if (value != null) {
-                onChanged(value);
-                Navigator.pop(context);
-              }
+            onChanged: (value) async {
+              if (value == null) return;
+              await onChanged(value);
+              if (context.mounted) Navigator.pop(context);
             },
             child: Column(
               children: options.map((option) {
