@@ -18,6 +18,7 @@ class PornographyPage extends StatelessWidget {
             'Compulsive Sexual Behaviour Disorder in the ICD-11 (PubMed)',
         link: 'https://pubmed.ncbi.nlm.nih.gov/29352554/',
         referenceDate: 'August 2026',
+        localizedReferenceContent: l10n.pornographyReferenceDay1,
         referenceContent:
             'Day One: Taking Back Control\n\n'
             'Source: Kraus et al., Compulsive sexual behaviour disorder in the ICD-11, World Psychiatry (2018).\n\n'
@@ -33,6 +34,7 @@ class PornographyPage extends StatelessWidget {
             'Withdrawal and tolerance in CSBD and problematic pornography use (PMC)',
         link: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC9881655/',
         referenceDate: 'August 2026',
+        localizedReferenceContent: l10n.pornographyReferenceDay3,
         referenceContent:
             'Day Three: Know What an Urge Can Look Like\n\n'
             'Source: Lewczuk et al., Withdrawal and tolerance as related to compulsive sexual behavior disorder and problematic pornography use, Journal of Behavioral Addictions (2022).\n\n'
@@ -48,6 +50,7 @@ class PornographyPage extends StatelessWidget {
             '7-day pornography abstinence randomized controlled study (PMC)',
         link: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC9847461/',
         referenceDate: 'August 2026',
+        localizedReferenceContent: l10n.pornographyReferenceDay7,
         referenceContent:
             'One Week: What a Randomized Abstinence Study Found\n\n'
             'Source: Effects of a 7-Day Pornography Abstinence Period on Withdrawal-Related Symptoms in Regular Pornography Users, Archives of Sexual Behavior (2023).\n\n'
@@ -63,6 +66,7 @@ class PornographyPage extends StatelessWidget {
             'Biopsychosocial determinants of problematic pornography use - systematic review (PubMed)',
         link: 'https://pubmed.ncbi.nlm.nih.gov/38026725/',
         referenceDate: 'August 2026',
+        localizedReferenceContent: l10n.pornographyReferenceDay14,
         referenceContent:
             'Two Weeks: Map the Triggers That Actually Matter\n\n'
             'Source: Biopsychosocial Determinants of Problematic Pornography Use: A Systematic Review (2023).\n\n'
@@ -78,6 +82,7 @@ class PornographyPage extends StatelessWidget {
             'Problematic pornography use and sexual functioning - large community study (PubMed)',
         link: 'https://pubmed.ncbi.nlm.nih.gov/32810799/',
         referenceDate: 'August 2026',
+        localizedReferenceContent: l10n.pornographyReferenceDay30,
         referenceContent:
             'One Month: Control Matters More Than a Simple Frequency Count\n\n'
             'Source: Bőthe et al., Are sexual functioning problems associated with frequent pornography use and/or problematic pornography use?, Addictive Behaviors (2021).\n\n'
@@ -93,6 +98,7 @@ class PornographyPage extends StatelessWidget {
             'Acceptance and Commitment Therapy for problematic pornography use - RCT (PubMed)',
         link: 'https://pubmed.ncbi.nlm.nih.gov/27157029/',
         referenceDate: 'August 2026',
+        localizedReferenceContent: l10n.pornographyReferenceDay90,
         referenceContent:
             'Three Months: Durable Change Is Possible\n\n'
             'Source: Crosby & Twohig, Acceptance and Commitment Therapy for Problematic Internet Pornography Use: A Randomized Trial, Behavior Therapy (2016).\n\n'
@@ -108,6 +114,7 @@ class PornographyPage extends StatelessWidget {
             'Group CBT for hypersexual disorder - randomized controlled study (PubMed)',
         link: 'https://pubmed.ncbi.nlm.nih.gov/30956109/',
         referenceDate: 'August 2026',
+        localizedReferenceContent: l10n.pornographyReferenceDay180,
         referenceContent:
             'Six Months: Long-Term Symptom Control Can Hold\n\n'
             'Source: Hallberg et al., A Randomized Controlled Study of Group-Administered Cognitive Behavioral Therapy for Hypersexual Disorder in Men, Journal of Sexual Medicine (2019).\n\n'
@@ -123,6 +130,7 @@ class PornographyPage extends StatelessWidget {
             'One-year follow-up of acceptance-based treatment for hypersexuality (PMC)',
         link: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC12894211/',
         referenceDate: 'August 2026',
+        localizedReferenceContent: l10n.pornographyReferenceDay365,
         referenceContent:
             'One Year: Evidence for Durable Behaviour Change\n\n'
             'Source: One-year follow-up effects of an acceptance-based treatment for hypersexuality (2026).\n\n'
@@ -138,6 +146,7 @@ class PornographyPage extends StatelessWidget {
             'Current expert review of CSBD and problematic pornography use (PubMed)',
         link: 'https://pubmed.ncbi.nlm.nih.gov/41879870/',
         referenceDate: 'August 2026',
+        localizedReferenceContent: l10n.pornographyReferenceDay1825,
         referenceContent:
             'Five Years: Long-Term Control Is the Outcome\n\n'
             'Source: Compulsive sexual behavior disorder and problematic pornography use: a comprehensive interdisciplinary expert-informed review (2026).\n\n'

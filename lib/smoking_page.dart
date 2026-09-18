@@ -32,6 +32,7 @@ class SmokingPage extends StatelessWidget {
         reference: "NHS Better Health - Quit Smoking Timeline",
         link: "https://www.nhs.uk/better-health/quit-smoking/",
         referenceDate: "March 2026",
+        localizedReferenceContent: l10n.smokingReferenceDay1,
         referenceContent:
             "Day One: Benefits Start Now\n\n"
             "Source: NHS Better Health\n\n"
@@ -54,6 +55,7 @@ class SmokingPage extends StatelessWidget {
         reference: "McLaughlin, Dani & De Biasi — Nicotine Withdrawal (PubMed)",
         link: "https://pubmed.ncbi.nlm.nih.gov/25638335/",
         referenceDate: "March 2026",
+        localizedReferenceContent: l10n.smokingReferenceDay3,
         referenceContent:
             "Day Three: Peak Withdrawal\n\n"
             "Source: McLaughlin, Dani & De Biasi\n\n"
@@ -76,6 +78,7 @@ class SmokingPage extends StatelessWidget {
         reference: "NHS Better Health - Benefits of Quitting Smoking",
         link: "https://www.nhs.uk/better-health/quit-smoking/",
         referenceDate: "March 2026",
+        localizedReferenceContent: l10n.smokingReferenceDay7,
         referenceContent:
             "One Week: Taste and Smell Return\n\n"
             "Source: NHS Better Health\n\n"
@@ -96,6 +99,7 @@ class SmokingPage extends StatelessWidget {
         reference: "NHS - Quit Smoking Timeline",
         link: "https://www.nhs.uk/better-health/quit-smoking/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.smokingReferenceDay14,
         referenceContent:
             "Two Weeks: Circulation Improves\n\n"
             "Source: NHS Better Health\n\n"
@@ -114,6 +118,7 @@ class SmokingPage extends StatelessWidget {
         reference: "NHS - Quit Smoking Timeline",
         link: "https://www.nhs.uk/better-health/quit-smoking/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.smokingReferenceDay30,
         referenceContent:
             "One Month: Lung Function Climbs\n\n"
             "Source: NHS Better Health\n\n"
@@ -133,6 +138,7 @@ class SmokingPage extends StatelessWidget {
             "PMC - Cardiovascular Effects of Smoking and Smoking Cessation (2024)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11843939/",
         referenceDate: "March 2026",
+        localizedReferenceContent: l10n.smokingReferenceDay90,
         referenceContent:
             "Three Months: Heart Attack Risk Drops\n\n"
             "Source: PMC — Cardiovascular Effects of Smoking and Cessation (2024)\n\n"
@@ -151,6 +157,7 @@ class SmokingPage extends StatelessWidget {
             "Smoke-free period and recovery of alveolar immune-cell function (PubMed)",
         link: "https://pubmed.ncbi.nlm.nih.gov/11465626/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.smokingReferenceDay180,
         referenceContent:
             "Six Months: Immune Defences Recover\n\n"
             "Source: Smoke-free period and recovery of alveolar immune-cell function (PubMed)\n\n"
@@ -166,6 +173,7 @@ class SmokingPage extends StatelessWidget {
         reference: "PMC - Smoking Cessation and Stroke Outcome",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC5644463/",
         referenceDate: "March 2026",
+        localizedReferenceContent: l10n.smokingReferenceDay365,
         referenceContent:
             "One Year: Heart Attack Risk Falls Sharply\n\n"
             "Source: PMC — Smoking Cessation and Stroke Outcome; CDC, Benefits of Quitting Smoking\n\n"
@@ -181,6 +189,7 @@ class SmokingPage extends StatelessWidget {
         reference: "CDC - Benefits of Quitting Smoking",
         link: "https://www.cdc.gov/tobacco/about/benefits-of-quitting.html",
         referenceDate: "July 2026",
+        localizedReferenceContent: l10n.smokingReferenceDay1825,
         referenceContent:
             "Five Years: Cancer Risk Falls\n\n"
             "Source: CDC, Benefits of Quitting Smoking\n\n"

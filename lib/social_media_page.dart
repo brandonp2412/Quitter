@@ -18,6 +18,7 @@ class SocialMediaPage extends StatelessWidget {
             "Taking a One-Week Break From Social Media Improves Well-Being: An RCT (PubMed)",
         link: "https://pubmed.ncbi.nlm.nih.gov/35512731/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.socialMediaReferenceDay1,
         referenceContent:
             "Stepping Back From Social Media: Day One\n\n"
             "Source: Lambert et al., \"Taking a One-Week Break from Social Media Improves Well-Being, Depression, and Anxiety: A Randomized Controlled Trial,\" Cyberpsychology, Behavior, and Social Networking (2022), on PubMed\n\n"
@@ -39,6 +40,7 @@ class SocialMediaPage extends StatelessWidget {
             "Taking a One-Week Break From Social Media Improves Well-Being: An RCT (PubMed)",
         link: "https://pubmed.ncbi.nlm.nih.gov/35512731/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.socialMediaReferenceDay3,
         referenceContent:
             "Three Days Without Social Media: Anxiety and Mood\n\n"
             "Source: Lambert et al., \"Taking a One-Week Break from Social Media Improves Well-Being, Depression, and Anxiety: A Randomized Controlled Trial,\" Cyberpsychology, Behavior, and Social Networking (2022), on PubMed\n\n"
@@ -61,6 +63,7 @@ class SocialMediaPage extends StatelessWidget {
             "Taking a One-Week Break From Social Media Improves Well-Being: An RCT (PubMed)",
         link: "https://pubmed.ncbi.nlm.nih.gov/35512731/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.socialMediaReferenceDay7,
         referenceContent:
             "One Week Without Social Media: The Measured Payoff\n\n"
             "Source: Lambert et al., \"Taking a One-Week Break from Social Media Improves Well-Being, Depression, and Anxiety: A Randomized Controlled Trial,\" Cyberpsychology, Behavior, and Social Networking (2022), on PubMed\n\n"
@@ -83,6 +86,7 @@ class SocialMediaPage extends StatelessWidget {
             "Effects of a Two-Week Social Media Detox on Health-Related Outcomes (PMC)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10740995/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.socialMediaReferenceDay14,
         referenceContent:
             "Two Weeks Without Social Media: Two-Week Gains\n\n"
             "Source: Coyne & Woodruff, \"Taking a Break: The Effects of Partaking in a Two-Week Social Media Digital Detox… among Young Adults,\" Behavioral Sciences (2023), on PubMed Central\n\n"
@@ -107,6 +111,7 @@ class SocialMediaPage extends StatelessWidget {
             "Effects of a Two-Week Social Media Detox on Health-Related Outcomes (PMC)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10740995/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.socialMediaReferenceDay30,
         referenceContent:
             "One Month Without Social Media: Real Connection Deepens\n\n"
             "Source: Coyne & Woodruff, \"Taking a Break: The Effects of Partaking in a Two-Week Social Media Digital Detox… among Young Adults,\" Behavioral Sciences (2023), on PubMed Central\n\n"
@@ -130,6 +135,7 @@ class SocialMediaPage extends StatelessWidget {
             "Impacts of Digital Social Media Detox for Mental Health: A Systematic Review and Meta-Analysis (PMC)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11392003/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.socialMediaReferenceDay60,
         referenceContent:
             "Two Months Without Social Media: What the Evidence Supports\n\n"
             "Source: Ramadhan et al., \"Impacts of digital social media detox for mental health: A systematic review and meta-analysis,\" Narra J (2024), on PubMed Central\n\n"
@@ -150,6 +156,7 @@ class SocialMediaPage extends StatelessWidget {
             "Effects of a Two-Week Social Media Detox on Health-Related Outcomes (PMC)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10740995/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.socialMediaReferenceDay90,
         referenceContent:
             "Three Months Without Social Media: A New Normal\n\n"
             "Source: Coyne & Woodruff, \"Taking a Break: The Effects of Partaking in a Two-Week Social Media Digital Detox… among Young Adults,\" Behavioral Sciences (2023), on PubMed Central\n\n"
@@ -170,6 +177,7 @@ class SocialMediaPage extends StatelessWidget {
             "Impacts of Digital Social Media Detox for Mental Health: A Systematic Review and Meta-Analysis (PMC)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11392003/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.socialMediaReferenceDay180,
         referenceContent:
             "Six Months Without Social Media: Measured Recovery\n\n"
             "Source: Ramadhan et al., \"Impacts of digital social media detox for mental health: A systematic review and meta-analysis,\" Narra J (2024), on PubMed Central\n\n"
@@ -194,6 +202,7 @@ class SocialMediaPage extends StatelessWidget {
             "Impacts of Digital Social Media Detox for Mental Health: A Systematic Review and Meta-Analysis (PMC)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11392003/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.socialMediaReferenceDay365,
         referenceContent:
             "One Year Without Social Media: A Renegotiated Relationship\n\n"
             "Source: Ramadhan et al., \"Impacts of digital social media detox for mental health: A systematic review and meta-analysis,\" Narra J (2024), on PubMed Central\n\n"

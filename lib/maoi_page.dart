@@ -22,6 +22,7 @@ class MaoiPage extends StatelessWidget {
         reference: "PubMed - MAOI discontinuation syndrome",
         link: "https://pubmed.ncbi.nlm.nih.gov/2845711/",
         referenceDate: "May 2026",
+        localizedReferenceContent: l10n.maoiReferenceDay3,
         referenceContent:
             "MAOI Discontinuation: The Highest-Risk Phase\n\n"
             "Source: Dilsaver (1988), research on MAOI withdrawal reactions\n\n"
@@ -43,6 +44,7 @@ class MaoiPage extends StatelessWidget {
         reference: "StatPearls - Monoamine Oxidase Inhibitors (MAOIs)",
         link: "https://www.ncbi.nlm.nih.gov/books/NBK539848/",
         referenceDate: "July 2026",
+        localizedReferenceContent: l10n.maoiReferenceDay7,
         referenceContent:
             "One Week After MAOIs: MAO Enzyme Synthesis Underway\n\n"
             "Source: \"Monoamine Oxidase Inhibitors (MAOIs)\" (StatPearls, NCBI Bookshelf)\n\n"
@@ -62,6 +64,7 @@ class MaoiPage extends StatelessWidget {
             "Fritz et al. (1983) - Tranylcypromine lowers human platelet MAO B activity but not concentration (PubMed)",
         link: "https://pubmed.ncbi.nlm.nih.gov/6871302/",
         referenceDate: "July 2026",
+        localizedReferenceContent: l10n.maoiReferenceDay14,
         referenceContent:
             "Two Weeks After MAOIs: MAO Enzyme Activity Substantially Recovered\n\n"
             "Source: Fritz et al. (1983), Biological Psychiatry\n\n"
@@ -84,6 +87,7 @@ class MaoiPage extends StatelessWidget {
         reference: "StatPearls - Monoamine Oxidase Inhibitors (MAOIs)",
         link: "https://www.ncbi.nlm.nih.gov/books/NBK539848/",
         referenceDate: "July 2026",
+        localizedReferenceContent: l10n.maoiReferenceDay30,
         referenceContent:
             "One Month After MAOIs: Brain-Chemical Systems Rebalancing\n\n"
             "Source: \"Monoamine Oxidase Inhibitors (MAOIs)\" (StatPearls, NCBI Bookshelf)\n\n"
@@ -105,6 +109,7 @@ class MaoiPage extends StatelessWidget {
             "Antidepressant Withdrawal Syndrome — Therapeutics Letter (NCBI Bookshelf)",
         link: "https://www.ncbi.nlm.nih.gov/books/NBK598502/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.maoiReferenceDay90,
         referenceContent:
             "Three Months After MAOIs: Well Past Withdrawal\n\n"
             "Source: \"Antidepressant Withdrawal Syndrome,\" Therapeutics Letter 112 (2018), Therapeutics Initiative, on the NCBI Bookshelf\n\n"
@@ -125,6 +130,7 @@ class MaoiPage extends StatelessWidget {
             "Zwiebel & Viguera (2022) - Discontinuing antidepressants: Pearls and pitfalls (PubMed)",
         link: "https://pubmed.ncbi.nlm.nih.gov/34983798/",
         referenceDate: "July 2026",
+        localizedReferenceContent: l10n.maoiReferenceDay180,
         referenceContent:
             "Six Months After MAOIs: Long-Term Recovery\n\n"
             "Source: Zwiebel & Viguera (2022), Cleveland Clinic Journal of Medicine\n\n"
@@ -142,6 +148,7 @@ class MaoiPage extends StatelessWidget {
         reference: "StatPearls - Monoamine Oxidase Inhibitors (MAOIs)",
         link: "https://www.ncbi.nlm.nih.gov/books/NBK539848/",
         referenceDate: "July 2026",
+        localizedReferenceContent: l10n.maoiReferenceDay365,
         referenceContent:
             "One Year After MAOIs: Recovery Achieved\n\n"
             "Source: \"Monoamine Oxidase Inhibitors (MAOIs)\" (StatPearls, NCBI Bookshelf)\n\n"

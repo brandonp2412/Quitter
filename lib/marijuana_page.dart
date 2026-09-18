@@ -34,6 +34,7 @@ class MarijuanaPage extends StatelessWidget {
         reference: "The Cannabis Withdrawal Syndrome: Current Insights (PMC)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC5414724/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.marijuanaReferenceDay1,
         referenceContent:
             "Marijuana Withdrawal: Day One\n\n"
             "Source: \"The cannabis withdrawal syndrome: current insights,\" Substance Abuse and Rehabilitation (2017), on PubMed Central\n\n"
@@ -58,6 +59,7 @@ class MarijuanaPage extends StatelessWidget {
         reference: "Time-Course of DSM-5 Cannabis Withdrawal Symptoms (PMC)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4015312/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.marijuanaReferenceDay3,
         referenceContent:
             "Cannabis Withdrawal Timeline: The Early Days\n\n"
             "Source: \"Time-course of the DSM-5 cannabis withdrawal symptoms in poly-substance abusers,\" BMC Psychiatry (2013), on PubMed Central\n\n"
@@ -85,6 +87,7 @@ class MarijuanaPage extends StatelessWidget {
         reference: "The Cannabis Withdrawal Syndrome: Current Insights (PMC)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC5414724/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.marijuanaReferenceDay7,
         referenceContent:
             "One Week Without Cannabis: Through the Worst\n\n"
             "Source: \"The cannabis withdrawal syndrome: current insights,\" Substance Abuse and Rehabilitation (2017), on PubMed Central\n\n"
@@ -107,6 +110,7 @@ class MarijuanaPage extends StatelessWidget {
         reference: "PubMed - Cannabis Withdrawal Time Course",
         link: "https://pubmed.ncbi.nlm.nih.gov/12943018/",
         referenceDate: "March 2026",
+        localizedReferenceContent: l10n.marijuanaReferenceDay14,
         referenceContent:
             "Two Weeks Without Cannabis: Acute Withdrawal Ends\n\n"
             "Source: Budney, AJ et al. (2003) — peer-reviewed study on cannabis withdrawal time course\n\n"
@@ -134,6 +138,7 @@ class MarijuanaPage extends StatelessWidget {
             "Pope et al. (2001) - Neuropsychological Performance in Long-term Cannabis Users (PubMed)",
         link: "https://pubmed.ncbi.nlm.nih.gov/11576028/",
         referenceDate: "July 2026",
+        localizedReferenceContent: l10n.marijuanaReferenceDay30,
         referenceContent:
             "One Month Without Cannabis: Memory Function Improves\n\n"
             "Source: Pope et al. (2001), Archives of General Psychiatry\n\n"
@@ -156,6 +161,7 @@ class MarijuanaPage extends StatelessWidget {
             "Roten et al. (2015) - Cognitive performance in a placebo-controlled pharmacotherapy trial for youth with marijuana dependence (PubMed)",
         link: "https://pubmed.ncbi.nlm.nih.gov/25661990/",
         referenceDate: "July 2026",
+        localizedReferenceContent: l10n.marijuanaReferenceDay60,
         referenceContent:
             "Two Months Without Cannabis: Concentration Sharpens\n\n"
             "Source: Roten et al. (2015), Addictive Behaviors\n\n"
@@ -179,6 +185,7 @@ class MarijuanaPage extends StatelessWidget {
             "Connor et al. (2022) - Clinical management of cannabis withdrawal (PMC)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9110555/",
         referenceDate: "July 2026",
+        localizedReferenceContent: l10n.marijuanaReferenceDay90,
         referenceContent:
             "Three Months Without Cannabis: Mood Stability Returns\n\n"
             "Source: Connor et al. (2022), Addiction — a clinical review of cannabis withdrawal\n\n"
@@ -199,6 +206,7 @@ class MarijuanaPage extends StatelessWidget {
             "Crean et al. (2011) - An Evidence Based Review of Acute and Long-Term Effects of Cannabis Use on Executive Cognitive Functions (PMC)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3037578/",
         referenceDate: "July 2026",
+        localizedReferenceContent: l10n.marijuanaReferenceDay180,
         referenceContent:
             "Six Months Without Cannabis: Planning and Decision-Making Recover\n\n"
             "Source: Crean, Crane & Mason (2011), Journal of Addiction Medicine\n\n"
@@ -221,6 +229,7 @@ class MarijuanaPage extends StatelessWidget {
             "Hippocampal Harms, Protection and Recovery After Cannabis Use (PMC)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC5068875/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.marijuanaReferenceDay365,
         referenceContent:
             "One Year Without Cannabis: Brain Structure Recovers\n\n"
             "Source: \"Hippocampal harms, protection and recovery following regular cannabis use,\" Translational Psychiatry (2016), on PubMed Central\n\n"

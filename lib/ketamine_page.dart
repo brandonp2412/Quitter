@@ -17,6 +17,7 @@ class KetaminePage extends StatelessWidget {
         reference: "Ketamine-Induced Cystitis: A Comprehensive Review (PMC)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9476224/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.ketamineReferenceDay1,
         referenceContent:
             "Stopping Ketamine: Day One\n\nSource: \"Ketamine-Induced Cystitis: A Comprehensive Review of the Urologic Effects of This Psychoactive Drug,\" on PubMed Central\n\nWithdrawal Is Mainly Psychological\nUnlike opioids or alcohol, ketamine rarely produces severe physical withdrawal. Discontinuation is generally safe; people more often struggle with cravings and psychological dependence than physical illness.\n\nWhat You May Feel\n• Mood swings and low mood\n• Cravings\n• Occasional sweating or palpitations\n\nThe Key Step\nFor anyone with bladder symptoms, immediate and complete cessation is the obligatory starting point for recovery — so day one is the most important decision of all.",
       ),
@@ -27,6 +28,7 @@ class KetaminePage extends StatelessWidget {
         reference: "Ketamine-Induced Cystitis: A Comprehensive Review (PMC)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9476224/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.ketamineReferenceDay7,
         referenceContent:
             "One Week Off Ketamine\n\nSource: \"Ketamine-Induced Cystitis: A Comprehensive Review,\" on PubMed Central\n\nThe Psychological Phase\nThe main challenge in early ketamine cessation is psychological: cravings, altered or low mood, and some brain fog. Physical withdrawal, when present, is usually mild.\n\nBrain fog is common at this stage — concentration feels effortful, reaction time is slower, and short-term memory may feel unreliable. These effects on thinking and memory improve with abstinence: a longitudinal study of 114 ketamine users found significant gains in verbal memory, visual memory, processing speed, and planning, focus, and decision-making after 12 weeks without ketamine.\n\nBladder Symptoms\nIf you have ketamine-induced cystitis (urinary urgency, frequency, pain, or blood in urine), stopping now gives the bladder its best chance to heal. Pain can tempt people back to ketamine to self-medicate — a cycle worth breaking with proper pain support instead.",
       ),
@@ -37,6 +39,7 @@ class KetaminePage extends StatelessWidget {
         reference: "Ketamine-Induced Cystitis: A Comprehensive Review (PMC)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9476224/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.ketamineReferenceDay14,
         referenceContent:
             "Two Weeks Off Ketamine\n\nSource: \"Ketamine-Induced Cystitis: A Comprehensive Review,\" on PubMed Central\n\nClearer Thinking\nWith the drug fully cleared, the mental fog and disconnected thinking associated with regular ketamine use begin to lift. Memory and concentration improve and mood steadies.\n\nBladder Recovery Beginning\nFor early-stage cystitis, the review emphasizes that simply stopping ketamine is the single most important step toward reversing symptoms, and that earlier cessation gives the best odds of recovery before damage becomes permanent. Two weeks of abstinence is the start of that process.",
       ),
@@ -48,6 +51,7 @@ class KetaminePage extends StatelessWidget {
             "Winstock et al., Prevalence and Natural History of Urinary Symptoms Among Recreational Ketamine Users, BJU International (2012)",
         link: "https://pubmed.ncbi.nlm.nih.gov/22416998/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.ketamineReferenceDay30,
         referenceContent:
             "One Month Off Ketamine\n\nSource: \"Prevalence and Natural History of Urinary Symptoms Among Recreational Ketamine Users,\" Winstock et al., BJU International (2012)\n\nBladder Recovery\nThe single most important treatment for ketamine-induced cystitis is stopping ketamine. This study of recreational ketamine users found that 51% of those with urinary symptoms reported improvement after stopping use, while under 4% got worse. Earlier you stop, the better the outcome.\n\nMind and Mood\nCognition and mood continue to clear at one month. Psychological and social support meaningfully improves the odds of staying stopped — cessation works best when it is supported.",
       ),
@@ -58,6 +62,7 @@ class KetaminePage extends StatelessWidget {
         reference: "Ketamine-Induced Cystitis: A Comprehensive Review (PMC)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9476224/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.ketamineReferenceDay90,
         referenceContent:
             "Three Months Off Ketamine\n\nSource: \"Ketamine-Induced Cystitis: A Comprehensive Review,\" on PubMed Central\n\nContinued Recovery\nBladder recovery after ketamine is often gradual; the review describes symptom severity improving after cessation, though it can be prolonged and variable. Three months gives the urinary tract sustained time to heal in cases that are going to respond.\n\nMind\nClear thinking and mood are markedly clearer than in early abstinence, and cravings are less frequent. Persistent or severe bladder symptoms should be assessed by a urologist.",
       ),
@@ -68,6 +73,7 @@ class KetaminePage extends StatelessWidget {
         reference: "Ketamine-Induced Cystitis: A Comprehensive Review (PMC)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9476224/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.ketamineReferenceDay180,
         referenceContent:
             "Six Months Off Ketamine\n\nSource: \"Ketamine-Induced Cystitis: A Comprehensive Review,\" on PubMed Central\n\nHalf a Year On\nWith sustained abstinence, bladder symptoms continue to improve in cases that respond to cessation, and thinking and memory and mood are stable. The compulsion to use has weakened considerably.\n\nRecovery Signal\nRecovery of established bladder damage can be incomplete, which is why early cessation matters so much. Whatever stage you stopped at, staying off gives the bladder its best possible outcome.",
       ),
@@ -78,6 +84,7 @@ class KetaminePage extends StatelessWidget {
         reference: "Ketamine-Induced Cystitis: A Comprehensive Review (PMC)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9476224/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.ketamineReferenceDay365,
         referenceContent:
             "One Year Off Ketamine\n\nSource: \"Ketamine-Induced Cystitis: A Comprehensive Review,\" on PubMed Central\n\nA Year On\nTwelve months of abstinence gives the bladder, in early-caught cases, the fullest chance to recover, and leaves thinking and memory and mood stable and clear. The psychological dependence that made stopping hard has largely faded.\n\nThe Bigger Picture\nA year free is a profound change — in physical health, clarity, and self-direction. Keeping the support that got you here protects it.",
       ),

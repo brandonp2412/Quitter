@@ -23,6 +23,7 @@ class OpioidPage extends StatelessWidget {
             "WHO Clinical Guidelines for Withdrawal Management (NCBI Bookshelf)",
         link: "https://www.ncbi.nlm.nih.gov/books/NBK310652/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.opioidReferenceDay1,
         referenceContent:
             "Opioid Withdrawal: Day One\n\n"
             "Source: \"Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings,\" World Health Organization (2009), on the NCBI Bookshelf\n\n"
@@ -51,6 +52,7 @@ class OpioidPage extends StatelessWidget {
             "WHO Clinical Guidelines for Withdrawal Management (NCBI Bookshelf)",
         link: "https://www.ncbi.nlm.nih.gov/books/NBK310652/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.opioidReferenceDay7,
         referenceContent:
             "One Week Off Opioids: Peak Symptoms Declining\n\n"
             "Source: \"Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings,\" World Health Organization (2009), on the NCBI Bookshelf\n\n"
@@ -79,6 +81,7 @@ class OpioidPage extends StatelessWidget {
             "Bidirectional Relationship between Opioids and Disrupted Sleep (PMC)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC7562980/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.opioidReferenceDay14,
         referenceContent:
             "Two Weeks Off Opioids: Sleep Patterns Starting to Improve\n\n"
             "Source: Peer-reviewed pharmacology research on opioids and sleep\n\n"
@@ -106,6 +109,7 @@ class OpioidPage extends StatelessWidget {
         link:
             "https://www.mayoclinic.org/diseases-conditions/prescription-drug-abuse/in-depth/how-opioid-addiction-occurs/art-20360372",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.opioidReferenceDay30,
         referenceContent:
             "One Month Off Opioids: Thinking and Memory Begin to Recover\n\n"
             "Source: Mayo Clinic\n\n"
@@ -131,6 +135,7 @@ class OpioidPage extends StatelessWidget {
         link:
             "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2023.1253736/full",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.opioidReferenceDay60,
         referenceContent:
             "Two Months Off Opioids: The Brain's Stress Circuits Begin to Settle\n\n"
             "Source: \"Neuroplasticity of the extended amygdala in opioid withdrawal and prolonged opioid abstinence,\" Frontiers in Pharmacology (2023)\n\n"
@@ -149,6 +154,7 @@ class OpioidPage extends StatelessWidget {
             "Structural & Functional Brain Recovery During Abstinence (PMC)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC8885813/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.opioidReferenceDay90,
         referenceContent:
             "Three Months Off Opioids: Reward Chemistry Starting to Recover\n\n"
             "Source: \"Structural and Functional Brain Recovery in Individuals with Substance Use Disorders During Abstinence: A Review of Longitudinal Neuroimaging Studies,\" Drug and Alcohol Dependence (2022), on PubMed Central\n\n"
@@ -172,6 +178,7 @@ class OpioidPage extends StatelessWidget {
             "Effects of Opioid Tolerance and Withdrawal on the Immune System (PubMed)",
         link: "https://pubmed.ncbi.nlm.nih.gov/18040801/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.opioidReferenceDay180,
         referenceContent:
             "Six Months Off Opioids: The Immune System Begins to Recover\n\n"
             "Source: \"Effects of opioid tolerance and withdrawal on the immune system,\" Journal of Neuroimmune Pharmacology (2006), on PubMed\n\n"
@@ -196,6 +203,7 @@ class OpioidPage extends StatelessWidget {
             "Structural & Functional Brain Recovery During Abstinence (PMC)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC8885813/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.opioidReferenceDay365,
         referenceContent:
             "One Year Off Opioids: Brain Structure and Chemistry Recovering\n\n"
             "Source: \"Structural and Functional Brain Recovery in Individuals with Substance Use Disorders During Abstinence: A Review of Longitudinal Neuroimaging Studies,\" Drug and Alcohol Dependence (2022), on PubMed Central\n\n"
@@ -217,6 +225,7 @@ class OpioidPage extends StatelessWidget {
         link:
             "https://www.cdc.gov/overdose-prevention/treatment/opioid-use-disorder.html",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.opioidReferenceDay730,
         referenceContent:
             "Two Years Off Opioids: A Stable Foundation\n\n"
             "Source: \"Treatment of Opioid Use Disorder,\" Centers for Disease Control and Prevention (CDC)\n\n"

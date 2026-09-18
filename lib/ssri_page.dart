@@ -22,6 +22,7 @@ class SsriPage extends StatelessWidget {
         link:
             "https://www.health.harvard.edu/diseases-and-conditions/going-off-antidepressants",
         referenceDate: "May 2026",
+        localizedReferenceContent: l10n.ssriReferenceDay3,
         referenceContent:
             "SSRI Discontinuation: The First Days\n\n"
             "Source: Harvard Health Publishing\n\n"
@@ -45,6 +46,7 @@ class SsriPage extends StatelessWidget {
         reference: "NHS - Stopping or coming off antidepressants",
         link: "https://www.nhs.uk/medicines/antidepressants/",
         referenceDate: "May 2026",
+        localizedReferenceContent: l10n.ssriReferenceDay7,
         referenceContent:
             "One Week After SSRIs: The Acute Phase\n\n"
             "Source: NHS — Stopping or coming off antidepressants\n\n"
@@ -66,6 +68,7 @@ class SsriPage extends StatelessWidget {
             "Davies & Read — Antidepressant Withdrawal Systematic Review (PubMed)",
         link: "https://pubmed.ncbi.nlm.nih.gov/30292574/",
         referenceDate: "May 2026",
+        localizedReferenceContent: l10n.ssriReferenceDay14,
         referenceContent:
             "Two Weeks After SSRIs: Physical Symptoms Resolving\n\n"
             "Source: Davies & Read (2019), Addictive Behaviors — 'A systematic review into the incidence, severity and duration of antidepressant withdrawal effects'\n\n"
@@ -86,6 +89,7 @@ class SsriPage extends StatelessWidget {
             "Haddad (2001) - Antidepressant Discontinuation Syndromes (PubMed)",
         link: "https://pubmed.ncbi.nlm.nih.gov/11347722/",
         referenceDate: "May 2026",
+        localizedReferenceContent: l10n.ssriReferenceDay30,
         referenceContent:
             "One Month After SSRIs: Stabilisation\n\n"
             "Source: Haddad PM (2001), Drug Safety — 'Antidepressant Discontinuation Syndromes'\n\n"
@@ -107,6 +111,7 @@ class SsriPage extends StatelessWidget {
             "Antidepressant Withdrawal Syndrome — Therapeutics Letter (NCBI Bookshelf)",
         link: "https://www.ncbi.nlm.nih.gov/books/NBK598502/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.ssriReferenceDay90,
         referenceContent:
             "Three Months After SSRIs: Well Past Withdrawal\n\n"
             "Source: \"Antidepressant Withdrawal Syndrome,\" Therapeutics Letter 112 (2018), Therapeutics Initiative, on the NCBI Bookshelf\n\n"
@@ -127,6 +132,7 @@ class SsriPage extends StatelessWidget {
             "Antidepressant Withdrawal Syndrome — Therapeutics Letter (NCBI Bookshelf)",
         link: "https://www.ncbi.nlm.nih.gov/books/NBK598502/",
         referenceDate: "May 2026",
+        localizedReferenceContent: l10n.ssriReferenceDay180,
         referenceContent:
             "Six Months After SSRIs: A Grounded View\n\n"
             "Source: \"Antidepressant Withdrawal Syndrome,\" Therapeutics Letter 112 (2018), Therapeutics Initiative, on the NCBI Bookshelf\n\n"
@@ -147,6 +153,7 @@ class SsriPage extends StatelessWidget {
             "Duffy et al. (2021) - ANTLER RCT, Antidepressant Discontinuation in Primary Care (PubMed)",
         link: "https://pubmed.ncbi.nlm.nih.gov/34842135/",
         referenceDate: "May 2026",
+        localizedReferenceContent: l10n.ssriReferenceDay365,
         referenceContent:
             "One Year After SSRIs: Measured Recovery\n\n"
             "Source: Duffy et al. (2021), Health Technology Assessment — the ANTLER trial\n\n"

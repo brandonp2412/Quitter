@@ -17,6 +17,7 @@ class AlcoholPage extends StatelessWidget {
         reference: "Colrain et al., \"Alcohol and the Sleeping Brain\" (PMC)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC5821259/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.alcoholReferenceDay1,
         referenceContent:
             "What Happens to Your Sleep When You Stop Drinking?\n\n"
             "Source: \"Alcohol and the Sleeping Brain\" (Colrain, Nicholas & Baker), Handbook of Clinical Neurology — peer-reviewed, NIH-hosted\n\n"
@@ -36,6 +37,7 @@ class AlcoholPage extends StatelessWidget {
         reference: "StatPearls, \"Alcohol Withdrawal\" (NCBI Bookshelf)",
         link: "https://www.ncbi.nlm.nih.gov/books/NBK441882/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.alcoholReferenceDay3,
         referenceContent:
             "The Acute Phase and Early Recovery\n\n"
             "Source: \"Alcohol Withdrawal,\" StatPearls — peer-reviewed, NIH National Library of Medicine\n\n"
@@ -55,6 +57,7 @@ class AlcoholPage extends StatelessWidget {
         reference: "Sarkar et al., \"Alcohol and the Immune System\" (PMC)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4590612/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.alcoholReferenceDay7,
         referenceContent:
             "How the Immune System Recovers\n\n"
             "Source: \"Alcohol and the Immune System\" (Sarkar, Jung & Wang), Alcohol Research: Current Reviews — peer-reviewed, NIH-hosted\n\n"
@@ -73,6 +76,7 @@ class AlcoholPage extends StatelessWidget {
             "Bartsch et al., \"Manifestations of early brain recovery...\", Brain (2007)",
         link: "https://pubmed.ncbi.nlm.nih.gov/17178742/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.alcoholReferenceDay14,
         referenceContent:
             "Early Brain Recovery in Abstinence\n\n"
             "Source: Bartsch AJ et al., \"Manifestations of early brain recovery associated with abstinence from alcoholism,\" Brain (2007) — peer-reviewed\n\n"
@@ -93,6 +97,7 @@ class AlcoholPage extends StatelessWidget {
             "Roerecke et al., alcohol reduction & blood pressure, Lancet Public Health (2017)",
         link: "https://pubmed.ncbi.nlm.nih.gov/29253389/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.alcoholReferenceDay30,
         referenceContent:
             "Blood Pressure Falls When You Cut Out Alcohol\n\n"
             "Source: Roerecke et al., \"The effect of a reduction in alcohol consumption on blood pressure: a systematic review and meta-analysis,\" Lancet Public Health (2017) — peer-reviewed\n\n"
@@ -113,6 +118,7 @@ class AlcoholPage extends StatelessWidget {
         link:
             "https://www.niaaa.nih.gov/alcohols-effects-health/alcohols-effects-body",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.alcoholReferenceDay60,
         referenceContent:
             "Liver Recovery After You Stop Drinking\n\n"
             "Source: National Institute on Alcohol Abuse and Alcoholism (NIAAA), \"Alcohol's Effects on the Body\"\n\n"
@@ -131,6 +137,7 @@ class AlcoholPage extends StatelessWidget {
             "Recovery of neuropsychological function following abstinence (PMC, 2024)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10760842/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.alcoholReferenceDay90,
         referenceContent:
             "Thinking and Memory After Three Months Sober\n\n"
             "Source: Systematic review of neuropsychological recovery following abstinence from alcohol (PubMed Central, 2024) — peer-reviewed\n\n"
@@ -153,6 +160,7 @@ class AlcoholPage extends StatelessWidget {
             "Structural & functional brain recovery during abstinence (PMC)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC8885813/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.alcoholReferenceDay180,
         referenceContent:
             "Brain Recovery at Six Months of Sobriety\n\n"
             "Source: Peer-reviewed review of structural and functional brain recovery during abstinence from substance use (PubMed Central)\n\n"
@@ -173,6 +181,7 @@ class AlcoholPage extends StatelessWidget {
         link:
             "https://www.cancer.gov/about-cancer/causes-prevention/risk/alcohol/alcohol-fact-sheet",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.alcoholReferenceDay365,
         referenceContent:
             "Alcohol, Cancer Risk, and Stopping\n\n"
             "Source: National Cancer Institute (NCI), \"Alcohol and Cancer Risk\"\n\n"

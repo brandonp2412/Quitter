@@ -109,7 +109,8 @@ class MilestoneReferencePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final colorScheme = Theme.of(context).colorScheme;
-    final content = milestone.referenceContent ?? '';
+    final content =
+        milestone.localizedReferenceContent ?? milestone.referenceContent ?? '';
     final blocks = _parseContent(content);
 
     return Scaffold(

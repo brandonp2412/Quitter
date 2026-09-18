@@ -16,6 +16,7 @@ class AdderallPage extends StatelessWidget {
         reference: "MedlinePlus - Substance use - amphetamines",
         link: "https://medlineplus.gov/ency/patientinstructions/000792.htm",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.adderallReferenceDay1,
         referenceContent:
             "Amphetamine Withdrawal: What Happens Early On\n\n"
             "Source: MedlinePlus (U.S. National Library of Medicine)\n\n"
@@ -42,6 +43,7 @@ class AdderallPage extends StatelessWidget {
             "WHO Clinical Guidelines for Withdrawal Management (NCBI Bookshelf)",
         link: "https://www.ncbi.nlm.nih.gov/books/NBK310652/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.adderallReferenceDay3,
         referenceContent:
             "Amphetamine Withdrawal Management: Day 3\n\n"
             "Source: \"Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings,\" World Health Organization (2009), on the NCBI Bookshelf\n\n"
@@ -73,6 +75,7 @@ class AdderallPage extends StatelessWidget {
             "Clinical Management of Psychostimulant Withdrawal: Review of the Evidence (Addiction)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10069411/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.adderallReferenceDay7,
         referenceContent:
             "One Week Without Adderall: The Worst Is Passing\n\n"
             "Source: Li & Shoptaw, \"Clinical Management of Psychostimulant Withdrawal: Review of the Evidence,\" Addiction (2023), on PubMed Central\n\n"
@@ -97,6 +100,7 @@ class AdderallPage extends StatelessWidget {
             "WHO Clinical Guidelines for Withdrawal Management (NCBI Bookshelf)",
         link: "https://www.ncbi.nlm.nih.gov/books/NBK310652/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.adderallReferenceDay14,
         referenceContent:
             "Two Weeks Off Adderall: Into the Longer Recovery Phase\n\n"
             "Source: \"Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings,\" World Health Organization (2009), on the NCBI Bookshelf\n\n"
@@ -117,6 +121,7 @@ class AdderallPage extends StatelessWidget {
             "Clinical Management of Psychostimulant Withdrawal: Review of the Evidence (Addiction)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10069411/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.adderallReferenceDay30,
         referenceContent:
             "One Month Off Adderall: Most Symptoms Behind You\n\n"
             "Source: Li & Shoptaw, \"Clinical Management of Psychostimulant Withdrawal: Review of the Evidence,\" Addiction (2023), on PubMed Central\n\n"
@@ -137,6 +142,7 @@ class AdderallPage extends StatelessWidget {
             "WHO Clinical Guidelines for Withdrawal Management (NCBI Bookshelf)",
         link: "https://www.ncbi.nlm.nih.gov/books/NBK310652/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.adderallReferenceDay60,
         referenceContent:
             "Two Months Off Adderall: The Longer Recovery Phase Winds Down\n\n"
             "Source: \"Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings,\" World Health Organization (2009), on the NCBI Bookshelf\n\n"
@@ -160,6 +166,7 @@ class AdderallPage extends StatelessWidget {
             "Clinical Management of Psychostimulant Withdrawal: Review of the Evidence (Addiction)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10069411/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.adderallReferenceDay90,
         referenceContent:
             "Three Months Off Adderall: Through the Worst, Still Healing\n\n"
             "Source: Li & Shoptaw, \"Clinical Management of Psychostimulant Withdrawal: Review of the Evidence,\" Addiction (2023), on PubMed Central\n\n"
@@ -179,6 +186,7 @@ class AdderallPage extends StatelessWidget {
         reference: "Withdrawal Syndromes — StatPearls (NCBI Bookshelf)",
         link: "https://www.ncbi.nlm.nih.gov/books/NBK459239/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.adderallReferenceDay180,
         referenceContent:
             "Six Months Off Adderall: Well Past the Hard Part\n\n"
             "Source: \"Withdrawal Syndromes,\" StatPearls (NCBI Bookshelf), U.S. National Library of Medicine\n\n"
@@ -199,6 +207,7 @@ class AdderallPage extends StatelessWidget {
             "Potential Adverse Effects of Amphetamine Treatment on Brain and Behavior: A Review (PMC)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC2670101",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.adderallReferenceDay365,
         referenceContent:
             "One Year Off Adderall: Substantial Recovery, Honestly Framed\n\n"
             "Source: Berman et al., \"Potential Adverse Effects of Amphetamine Treatment on Brain and Behavior: A Review,\" Molecular Psychiatry (2008), on PubMed Central\n\n"

@@ -17,6 +17,7 @@ class BenzodiazepinePage extends StatelessWidget {
             "WHO Clinical Guidelines for Withdrawal Management (NCBI Bookshelf)",
         link: "https://www.ncbi.nlm.nih.gov/books/NBK310652/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.benzodiazepineReferenceDay7,
         referenceContent:
             "Benzodiazepine Withdrawal: The First Week\n\n"
             "Source: \"Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings,\" World Health Organization (2009), on the NCBI Bookshelf\n\n"
@@ -44,6 +45,7 @@ class BenzodiazepinePage extends StatelessWidget {
             "Protracted Withdrawal Syndromes From Benzodiazepines (PubMed)",
         link: "https://pubmed.ncbi.nlm.nih.gov/1675688/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.benzodiazepineReferenceDay14,
         referenceContent:
             "Benzodiazepine Withdrawal: Two Weeks\n\n"
             "Source: Ashton, \"Protracted withdrawal syndromes from benzodiazepines,\" Journal of Substance Abuse Treatment (1991), on PubMed\n\n"
@@ -64,6 +66,7 @@ class BenzodiazepinePage extends StatelessWidget {
             "Chronic Benzodiazepine Usage and Withdrawal in Insomnia Patients (PubMed)",
         link: "https://pubmed.ncbi.nlm.nih.gov/15003439/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.benzodiazepineReferenceDay60,
         referenceContent:
             "Benzodiazepines and Sleep Recovery by Two Months\n\n"
             "Source: Poyares et al., \"Chronic benzodiazepine usage and withdrawal in insomnia patients,\" Journal of Psychiatric Research (2004), on PubMed\n\n"
@@ -84,6 +87,7 @@ class BenzodiazepinePage extends StatelessWidget {
             "Protracted Withdrawal Syndromes From Benzodiazepines (PubMed)",
         link: "https://pubmed.ncbi.nlm.nih.gov/1675688/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.benzodiazepineReferenceDay90,
         referenceContent:
             "Three Months After Benzodiazepines: Physical Health Stabilises\n\n"
             "Source: Ashton, \"Protracted withdrawal syndromes from benzodiazepines,\" Journal of Substance Abuse Treatment (1991), on PubMed\n\n"
@@ -105,6 +109,7 @@ class BenzodiazepinePage extends StatelessWidget {
             "Lack of Cognitive Recovery Following Withdrawal From Long-Term Benzodiazepine Use (PubMed)",
         link: "https://pubmed.ncbi.nlm.nih.gov/8208885/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.benzodiazepineReferenceDay180,
         referenceContent:
             "Thinking and Memory at Six Months: Measurable Gains\n\n"
             "Source: Tata et al., \"Lack of cognitive recovery following withdrawal from long-term benzodiazepine use,\" Psychological Medicine (1994), on PubMed\n\n"
@@ -125,6 +130,7 @@ class BenzodiazepinePage extends StatelessWidget {
             "Persistence of Cognitive Effects After Withdrawal From Long-Term Benzodiazepine Use: A Meta-Analysis (PubMed)",
         link: "https://pubmed.ncbi.nlm.nih.gov/15033227/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.benzodiazepineReferenceDay365,
         referenceContent:
             "One Year After Benzodiazepines: Thinking and Memory Keep Recovering\n\n"
             "Source: Barker et al., \"Persistence of cognitive effects after withdrawal from long-term benzodiazepine use: a meta-analysis,\" Archives of Clinical Neuropsychology (2004), on PubMed\n\n"
@@ -145,6 +151,7 @@ class BenzodiazepinePage extends StatelessWidget {
             "Protracted Withdrawal Syndromes From Benzodiazepines (PubMed)",
         link: "https://pubmed.ncbi.nlm.nih.gov/1675688/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.benzodiazepineReferenceDay540,
         referenceContent:
             "18 Months After Benzodiazepines: Slow but Real Recovery\n\n"
             "Source: Ashton, \"Protracted withdrawal syndromes from benzodiazepines,\" Journal of Substance Abuse Treatment (1991), on PubMed\n\n"
@@ -165,6 +172,7 @@ class BenzodiazepinePage extends StatelessWidget {
             "Persistence of Cognitive Effects After Withdrawal From Long-Term Benzodiazepine Use: A Meta-Analysis (PubMed)",
         link: "https://pubmed.ncbi.nlm.nih.gov/15033227/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.benzodiazepineReferenceDay730,
         referenceContent:
             "Two Years After Benzodiazepines: Major, Lasting Progress\n\n"
             "Source: Barker et al., \"Persistence of cognitive effects after withdrawal from long-term benzodiazepine use: a meta-analysis,\" Archives of Clinical Neuropsychology (2004), on PubMed\n\n"
@@ -185,6 +193,7 @@ class BenzodiazepinePage extends StatelessWidget {
             "Persistence of Cognitive Effects After Withdrawal From Long-Term Benzodiazepine Use: A Meta-Analysis (PubMed)",
         link: "https://pubmed.ncbi.nlm.nih.gov/15033227/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.benzodiazepineReferenceDay1095,
         referenceContent:
             "Three Years After Benzodiazepines: Long-Term Healing\n\n"
             "Source: Barker et al., \"Persistence of cognitive effects after withdrawal from long-term benzodiazepine use: a meta-analysis,\" Archives of Clinical Neuropsychology (2004), on PubMed\n\n"

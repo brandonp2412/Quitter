@@ -16,6 +16,7 @@ class CocainePage extends StatelessWidget {
         reference: "Withdrawal Syndromes — StatPearls (NCBI Bookshelf)",
         link: "https://www.ncbi.nlm.nih.gov/books/NBK459239/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.cocaineReferenceDay1,
         referenceContent:
             "Cocaine Withdrawal: The First 24 Hours\n\n"
             "Source: \"Withdrawal Syndromes,\" StatPearls (NCBI Bookshelf), U.S. National Library of Medicine\n\n"
@@ -39,6 +40,7 @@ class CocainePage extends StatelessWidget {
         reference: "Cocaine Toxicity — StatPearls (NCBI Bookshelf)",
         link: "https://www.ncbi.nlm.nih.gov/books/NBK430976/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.cocaineReferenceDay3,
         referenceContent:
             "Three Days Without Cocaine: Navigating Peak Challenge\n\n"
             "Source: \"Cocaine Toxicity,\" StatPearls (NCBI Bookshelf), U.S. National Library of Medicine\n\n"
@@ -63,6 +65,7 @@ class CocainePage extends StatelessWidget {
         reference: "Withdrawal Syndromes — StatPearls (NCBI Bookshelf)",
         link: "https://www.ncbi.nlm.nih.gov/books/NBK459239/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.cocaineReferenceDay7,
         referenceContent:
             "One Week Without Cocaine: Physical Recovery Begins\n\n"
             "Source: \"Withdrawal Syndromes,\" StatPearls (NCBI Bookshelf), U.S. National Library of Medicine\n\n"
@@ -89,6 +92,7 @@ class CocainePage extends StatelessWidget {
         reference: "Withdrawal Syndromes — StatPearls (NCBI Bookshelf)",
         link: "https://www.ncbi.nlm.nih.gov/books/NBK459239/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.cocaineReferenceDay14,
         referenceContent:
             "Two Weeks Without Cocaine: Finding Stability\n\n"
             "Source: \"Withdrawal Syndromes,\" StatPearls (NCBI Bookshelf), U.S. National Library of Medicine\n\n"
@@ -111,6 +115,7 @@ class CocainePage extends StatelessWidget {
             "Recovering from Cocaine: Clinical & Preclinical Investigations (PMC)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3935515/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.cocaineReferenceDay60,
         referenceContent:
             "Two Months Without Cocaine: Mood and Reward Begin to Recover\n\n"
             "Source: \"Recovering from Cocaine: Insights from Clinical and Preclinical Investigations,\" Neuroscience & Biobehavioral Reviews (2013), on PubMed Central\n\n"
@@ -129,6 +134,7 @@ class CocainePage extends StatelessWidget {
             "Recovering from Cocaine: Clinical & Preclinical Investigations (PMC)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3935515/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.cocaineReferenceDay90,
         referenceContent:
             "Three Months Without Cocaine: Dopamine Markers Rebound\n\n"
             "Source: \"Recovering from Cocaine: Insights from Clinical and Preclinical Investigations,\" Neuroscience & Biobehavioral Reviews (2013), on PubMed Central\n\n"
@@ -147,6 +153,7 @@ class CocainePage extends StatelessWidget {
             "Brain Recovery in Substance Use Disorders During Abstinence (PMC)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC8885813/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.cocaineReferenceDay180,
         referenceContent:
             "Six Months Without Cocaine: Clearer Thinking\n\n"
             "Source: \"Structural and Functional Brain Recovery in Individuals with Substance Use Disorders During Abstinence: A Review of Longitudinal Neuroimaging Studies,\" on PubMed Central\n\n"
@@ -169,6 +176,7 @@ class CocainePage extends StatelessWidget {
         reference: "Cocaine Toxicity — StatPearls (NCBI Bookshelf)",
         link: "https://www.ncbi.nlm.nih.gov/books/NBK430976/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.cocaineReferenceDay365,
         referenceContent:
             "One Year Without Cocaine: Cardiovascular Strain Removed\n\n"
             "Source: \"Cocaine Toxicity,\" StatPearls (NCBI Bookshelf), U.S. National Library of Medicine\n\n"
@@ -189,6 +197,7 @@ class CocainePage extends StatelessWidget {
             "Recovering from Cocaine: Clinical & Preclinical Investigations (PMC)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3935515/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.cocaineReferenceDay730,
         referenceContent:
             "Two Years Without Cocaine: Sustained Recovery\n\n"
             "Source: \"Recovering from Cocaine: Insights from Clinical and Preclinical Investigations,\" Neuroscience & Biobehavioral Reviews (2013), on PubMed Central\n\n"

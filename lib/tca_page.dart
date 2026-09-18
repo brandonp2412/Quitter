@@ -21,6 +21,7 @@ class TcaPage extends StatelessWidget {
         reference: "PubMed - Cholinergic rebound and tricyclic antidepressants",
         link: "https://pubmed.ncbi.nlm.nih.gov/6849449/",
         referenceDate: "May 2026",
+        localizedReferenceContent: l10n.tcaReferenceDay3,
         referenceContent:
             "TCA Discontinuation: The First Days — Acetylcholine Rebound\n\n"
             "Source: Dilsaver, Feinberg & Greden (1983), American Journal of Psychiatry — 'Antidepressant withdrawal symptoms treated with anticholinergic agents' (case report, 3 patients)\n\n"
@@ -43,6 +44,7 @@ class TcaPage extends StatelessWidget {
         reference: "NHS - Stopping or coming off antidepressants",
         link: "https://www.nhs.uk/medicines/antidepressants/",
         referenceDate: "May 2026",
+        localizedReferenceContent: l10n.tcaReferenceDay7,
         referenceContent:
             "One Week After TCAs: Acetylcholine Symptoms Easing\n\n"
             "The Acetylcholine Recovery\n"
@@ -63,6 +65,7 @@ class TcaPage extends StatelessWidget {
             "PubMed - Garner et al. (1993), Annals of Pharmacotherapy — 'Tricyclic antidepressant withdrawal syndrome'",
         link: "https://pubmed.ncbi.nlm.nih.gov/8219442/",
         referenceDate: "May 2026",
+        localizedReferenceContent: l10n.tcaReferenceDay14,
         referenceContent:
             "Two Weeks After TCAs: Antiacetylcholine Effects Reversing\n\n"
             "The Antiacetylcholine Burden Lifts\n"
@@ -87,6 +90,7 @@ class TcaPage extends StatelessWidget {
             "PubMed - Warner et al. (2006), American Family Physician — 'Antidepressant discontinuation syndrome'",
         link: "https://pubmed.ncbi.nlm.nih.gov/16913164/",
         referenceDate: "May 2026",
+        localizedReferenceContent: l10n.tcaReferenceDay30,
         referenceContent:
             "One Month After TCAs: Automatic body Nervous System Stabilising\n\n"
             "Heart Recovery\n"
@@ -108,6 +112,7 @@ class TcaPage extends StatelessWidget {
             "PubMed - Jakobsen et al. (2024), BMJ Mental Health — 'Benefits and harms of tricyclic antidepressants'",
         link: "https://pubmed.ncbi.nlm.nih.gov/39093721/",
         referenceDate: "May 2026",
+        localizedReferenceContent: l10n.tcaReferenceDay90,
         referenceContent:
             "Three Months After TCAs: Leaving the Real Risks Behind\n\n"
             "What the Evidence Shows\n"
@@ -132,6 +137,7 @@ class TcaPage extends StatelessWidget {
             "PubMed - Warner et al. (2006), American Family Physician — 'Antidepressant discontinuation syndrome'",
         link: "https://pubmed.ncbi.nlm.nih.gov/16913164/",
         referenceDate: "May 2026",
+        localizedReferenceContent: l10n.tcaReferenceDay180,
         referenceContent:
             "Six Months After TCAs: Heart and Thinking Recovery\n\n"
             "Recovery Signal on Long-Term Data\n"
@@ -155,6 +161,7 @@ class TcaPage extends StatelessWidget {
             "PubMed - Haddad (2001), Drug Safety — 'Antidepressant discontinuation syndromes'",
         link: "https://pubmed.ncbi.nlm.nih.gov/11347722/",
         referenceDate: "May 2026",
+        localizedReferenceContent: l10n.tcaReferenceDay365,
         referenceContent:
             "One Year After TCAs: Recovery Achieved\n\n"
             "One Year: Complete Multi-System Recovery\n"

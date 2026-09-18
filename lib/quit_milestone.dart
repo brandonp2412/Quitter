@@ -5,6 +5,7 @@ class QuitMilestone {
   final String reference;
   final String link;
   final String? referenceContent;
+  final String? localizedReferenceContent;
   final String? referenceDate;
 
   const QuitMilestone({
@@ -14,6 +15,7 @@ class QuitMilestone {
     required this.reference,
     required this.link,
     this.referenceContent,
+    this.localizedReferenceContent,
     this.referenceDate,
   });
 }

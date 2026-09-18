@@ -17,6 +17,7 @@ class MethPage extends StatelessWidget {
             "The Nature, Time Course and Severity of Methamphetamine Withdrawal (PubMed)",
         link: "https://pubmed.ncbi.nlm.nih.gov/16128721/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.methReferenceDay1,
         referenceContent:
             "Methamphetamine Withdrawal: The First 24 Hours\n\n"
             "Source: McGregor et al., \"The nature, time course and severity of methamphetamine withdrawal,\" Addiction (2005), on PubMed\n\n"
@@ -42,6 +43,7 @@ class MethPage extends StatelessWidget {
             "The Nature, Time Course and Severity of Methamphetamine Withdrawal (PubMed)",
         link: "https://pubmed.ncbi.nlm.nih.gov/16128721/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.methReferenceDay3,
         referenceContent:
             "Meth Withdrawal: Day Three — Still in the Acute Phase\n\n"
             "Source: McGregor et al., \"The nature, time course and severity of methamphetamine withdrawal,\" Addiction (2005), on PubMed\n\n"
@@ -67,6 +69,7 @@ class MethPage extends StatelessWidget {
             "The Nature, Time Course and Severity of Methamphetamine Withdrawal (PubMed)",
         link: "https://pubmed.ncbi.nlm.nih.gov/16128721/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.methReferenceDay7,
         referenceContent:
             "One Week Without Meth: The Acute Phase Ends\n\n"
             "Source: McGregor et al., \"The nature, time course and severity of methamphetamine withdrawal,\" Addiction (2005), on PubMed\n\n"
@@ -93,6 +96,7 @@ class MethPage extends StatelessWidget {
             "Withdrawal Symptoms in Abstinent Methamphetamine-Dependent Subjects (PMC)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3071736/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.methReferenceDay30,
         referenceContent:
             "One Month Without Meth: Mood Settles, Cravings Linger\n\n"
             "Source: Zorick et al., \"Withdrawal symptoms in abstinent methamphetamine-dependent subjects,\" Addiction (2010), on PubMed Central\n\n"
@@ -115,6 +119,7 @@ class MethPage extends StatelessWidget {
             "Loss of Dopamine Transporters in Meth Abusers Recovers With Protracted Abstinence (Journal of Neuroscience)",
         link: "https://pubmed.ncbi.nlm.nih.gov/11717374/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.methReferenceDay90,
         referenceContent:
             "Three Months Without Meth: Healing Has Begun — Be Patient\n\n"
             "Source: Volkow et al., \"Loss of Dopamine Transporters in Methamphetamine Abusers Recovers with Protracted Abstinence,\" Journal of Neuroscience (2001)\n\n"
@@ -136,6 +141,7 @@ class MethPage extends StatelessWidget {
         link:
             "https://www.acc.org/about-acc/press-releases/2017/05/30/09/59/stopping-drug-abuse-can-reverse-related-heart-damage",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.methReferenceDay180,
         referenceContent:
             "Six Months Without Meth: The Heart Can Recover\n\n"
             "Source: \"Stopping Drug Abuse Can Reverse Related Heart Damage,\" American College of Cardiology (2017), reporting a study in JACC: Heart Failure\n\n"
@@ -156,6 +162,7 @@ class MethPage extends StatelessWidget {
             "Partial Recovery of Brain Metabolism in Meth Abusers After Protracted Abstinence (PubMed)",
         link: "https://pubmed.ncbi.nlm.nih.gov/14754772/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.methReferenceDay365,
         referenceContent:
             "One Year Without Meth: Measurable Brain Recovery\n\n"
             "Source: Wang et al., \"Partial Recovery of Brain Metabolism in Methamphetamine Abusers After Protracted Abstinence,\" American Journal of Psychiatry (2004), on PubMed\n\n"
@@ -176,6 +183,7 @@ class MethPage extends StatelessWidget {
             "Loss of Dopamine Transporters in Meth Abusers Recovers With Protracted Abstinence (Journal of Neuroscience)",
         link: "https://pubmed.ncbi.nlm.nih.gov/11717374/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.methReferenceDay420,
         referenceContent:
             "14 Months Without Meth: The Dopamine Marker Rebounds\n\n"
             "Source: Volkow et al., \"Loss of Dopamine Transporters in Methamphetamine Abusers Recovers with Protracted Abstinence,\" Journal of Neuroscience (2001)\n\n"
@@ -196,6 +204,7 @@ class MethPage extends StatelessWidget {
             "Longer-Term Improvement in Neurocognition and Mood With Stable Meth Abstinence (PMC)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC2911490/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.methReferenceDay730,
         referenceContent:
             "Two Years Without Meth: Thinking and Mood Keep Improving\n\n"
             "Source: Iudicello et al., \"Longer Term Improvement in Neurocognitive Functioning and Affective Distress Among Methamphetamine Users Who Achieve Stable Abstinence,\" Journal of Clinical and Experimental Neuropsychology (2010), on PubMed Central\n\n"

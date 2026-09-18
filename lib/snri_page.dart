@@ -22,6 +22,7 @@ class SnriPage extends StatelessWidget {
         link:
             "https://www.health.harvard.edu/diseases-and-conditions/going-off-antidepressants",
         referenceDate: "May 2026",
+        localizedReferenceContent: l10n.snriReferenceDay3,
         referenceContent:
             "SNRI Discontinuation: The First Days\n\n"
             "Source: Harvard Health Publishing\n\n"
@@ -45,6 +46,7 @@ class SnriPage extends StatelessWidget {
         reference: "NHS - Stopping or coming off antidepressants",
         link: "https://www.nhs.uk/medicines/antidepressants/",
         referenceDate: "May 2026",
+        localizedReferenceContent: l10n.snriReferenceDay7,
         referenceContent:
             "One Week After SNRIs: Two Brain-Chemical Systems Adjusting\n\n"
             "Source: NHS — Stopping or coming off antidepressants (general antidepressant guidance; the noradrenaline-specific mechanisms below reflect general SNRI pharmacology rather than SNRI-specific detail from the NHS page itself)\n\n"
@@ -67,6 +69,7 @@ class SnriPage extends StatelessWidget {
             "Davies & Read — Antidepressant Withdrawal Systematic Review (PubMed)",
         link: "https://pubmed.ncbi.nlm.nih.gov/30292574/",
         referenceDate: "May 2026",
+        localizedReferenceContent: l10n.snriReferenceDay14,
         referenceContent:
             "Two Weeks After SNRIs: Physical Symptoms Fading\n\n"
             "Source: Davies & Read (2019), Addictive Behaviors\n\n"
@@ -91,6 +94,7 @@ class SnriPage extends StatelessWidget {
             "Davies & Read — Antidepressant Withdrawal Systematic Review (PubMed)",
         link: "https://pubmed.ncbi.nlm.nih.gov/30292574/",
         referenceDate: "May 2026",
+        localizedReferenceContent: l10n.snriReferenceDay30,
         referenceContent:
             "One Month After SNRIs: Dual System Stabilising\n\n"
             "Source: Davies & Read (2019), Addictive Behaviors — systematic review of antidepressant withdrawal incidence, severity, and duration\n\n"
@@ -112,6 +116,7 @@ class SnriPage extends StatelessWidget {
             "Antidepressant Withdrawal Syndrome — Therapeutics Letter (NCBI Bookshelf)",
         link: "https://www.ncbi.nlm.nih.gov/books/NBK598502/",
         referenceDate: "June 2026",
+        localizedReferenceContent: l10n.snriReferenceDay90,
         referenceContent:
             "Three Months After SNRIs: Well Past Withdrawal\n\n"
             "Source: \"Antidepressant Withdrawal Syndrome,\" Therapeutics Letter 112 (2018), Therapeutics Initiative, on the NCBI Bookshelf\n\n"
@@ -132,6 +137,7 @@ class SnriPage extends StatelessWidget {
             "Davies & Read — Antidepressant Withdrawal Systematic Review (PubMed)",
         link: "https://pubmed.ncbi.nlm.nih.gov/30292574/",
         referenceDate: "May 2026",
+        localizedReferenceContent: l10n.snriReferenceDay180,
         referenceContent:
             "Six Months After SNRIs: Brain and nerve Recovery\n\n"
             "Recovery Signal on Six-Month Data\n"
@@ -151,6 +157,7 @@ class SnriPage extends StatelessWidget {
             "Antidepressant Withdrawal Syndrome — Therapeutics Letter (NCBI Bookshelf)",
         link: "https://www.ncbi.nlm.nih.gov/books/NBK598502/",
         referenceDate: "May 2026",
+        localizedReferenceContent: l10n.snriReferenceDay365,
         referenceContent:
             "One Year After SNRIs: Recovery Achieved\n\n"
             "One Year: A Complete Dual-System Recovery\n"

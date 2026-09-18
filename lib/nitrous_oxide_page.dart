@@ -17,6 +17,7 @@ class NitrousOxidePage extends StatelessWidget {
         reference: "Nitrous Oxide — StatPearls (NCBI Bookshelf)",
         link: "https://pubmed.ncbi.nlm.nih.gov/30422517/",
         referenceDate: "July 2026",
+        localizedReferenceContent: l10n.nitrousOxideReferenceDay1,
         referenceContent:
             "Day One: The Gas Is Gone, but Watch B12\n\n"
             "Source: Knuf & Maani, \"Nitrous Oxide,\" StatPearls (NCBI Bookshelf)\n\n"
@@ -34,6 +35,7 @@ class NitrousOxidePage extends StatelessWidget {
         reference: "Nitrous Oxide — StatPearls (NCBI Bookshelf)",
         link: "https://pubmed.ncbi.nlm.nih.gov/30422517/",
         referenceDate: "July 2026",
+        localizedReferenceContent: l10n.nitrousOxideReferenceDay3,
         referenceContent:
             "72 Hours: No Physical Withdrawal, But Watch for Nerve Symptoms\n\n"
             "Source: Knuf & Maani, StatPearls; Tikaria et al. (2026), Cureus\n\n"
@@ -51,6 +53,7 @@ class NitrousOxidePage extends StatelessWidget {
             "The Toxic Legacy of Recreational Nitrous Oxide Use (Cureus)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC13267259/",
         referenceDate: "July 2026",
+        localizedReferenceContent: l10n.nitrousOxideReferenceDay7,
         referenceContent:
             "One Week: Get Tested if You Used Heavily\n\n"
             "Source: Tikaria et al. (2026), \"The Toxic Legacy of Recreational Nitrous Oxide Use,\" Cureus\n\n"
@@ -67,6 +70,7 @@ class NitrousOxidePage extends StatelessWidget {
         reference: "Nitrous Oxide — StatPearls (NCBI Bookshelf)",
         link: "https://pubmed.ncbi.nlm.nih.gov/30422517/",
         referenceDate: "July 2026",
+        localizedReferenceContent: l10n.nitrousOxideReferenceDay14,
         referenceContent:
             "Two Weeks: Brain and nerve Symptoms Deserve Follow-Up\n\n"
             "Source: Tikaria et al. (2026), Cureus; Knuf & Maani, StatPearls\n\n"
@@ -84,6 +88,7 @@ class NitrousOxidePage extends StatelessWidget {
         reference: "Nitrous Oxide — StatPearls (NCBI Bookshelf)",
         link: "https://pubmed.ncbi.nlm.nih.gov/30422517/",
         referenceDate: "July 2026",
+        localizedReferenceContent: l10n.nitrousOxideReferenceDay30,
         referenceContent:
             "One Month: Habit and Craving, Not Physical Dependence\n\n"
             "Source: Knuf & Maani, \"Nitrous Oxide,\" StatPearls (NCBI Bookshelf)\n\n"
@@ -102,6 +107,7 @@ class NitrousOxidePage extends StatelessWidget {
             "The Toxic Legacy of Recreational Nitrous Oxide Use (Cureus)",
         link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC13267259/",
         referenceDate: "July 2026",
+        localizedReferenceContent: l10n.nitrousOxideReferenceDay90,
         referenceContent:
             "Three Months: Time to Recheck, if You Haven't\n\n"
             "Source: Tikaria et al. (2026), \"The Toxic Legacy of Recreational Nitrous Oxide Use,\" Cureus\n\n"
@@ -119,6 +125,7 @@ class NitrousOxidePage extends StatelessWidget {
         reference: "Nitrous Oxide — StatPearls (NCBI Bookshelf)",
         link: "https://pubmed.ncbi.nlm.nih.gov/30422517/",
         referenceDate: "July 2026",
+        localizedReferenceContent: l10n.nitrousOxideReferenceDay365,
         referenceContent:
             "One Year: The Best Protection Is Continued Abstinence\n\n"
             "Source: Knuf & Maani, StatPearls; Tikaria et al. (2026), Cureus\n\n"
