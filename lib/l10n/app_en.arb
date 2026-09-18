@@ -2261,6 +2261,49 @@
   "maoiMilestone365Description": "One year after stopping an MAOI gives the brain and body a full year without the drug. Mood, energy, clear thinking, and normal brain-chemical regulation have had substantial time to settle and recover.",
   "settingsShowMaoiTracking": "Show MAOI tracking",
   "settingsNotifyMaoi": "Notify MAOI quitting progress",
+  "milestoneRetrieved": "Retrieved {date}",
+  "@milestoneRetrieved": {
+    "description": "Label showing when a milestone reference was retrieved",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationProgressTitle": "No {name}",
+  "@notificationProgressTitle": {
+    "description": "Progress notification title",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationProgressBody": "{days} days clean — {message}",
+  "@notificationProgressBody": {
+    "description": "Progress notification body",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      },
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationProgressMessage1": "Keep up the amazing work!",
+  "notificationProgressMessage2": "You're doing great!",
+  "notificationProgressMessage3": "Incredible dedication!",
+  "notificationProgressMessage4": "Celebrating your strength!",
+  "notificationProgressMessage5": "Keep shining!",
+  "notificationProgressMessage6": "Awesome job!",
+  "notificationProgressMessage7": "Way to go!",
+  "notificationProgressMessage8": "You're a true champion!",
+  "notificationProgressMessage9": "Remarkable effort!",
+  "notificationProgressMessage10": "Stay strong!",
+  "notificationChannelName": "Reminders",
+  "notificationChannelDescription": "Notifications for daily progress reminders",
+  "notificationOpenAction": "Open notification",
   "done": "Done",
   "rename": "Rename",
   "@rename": {

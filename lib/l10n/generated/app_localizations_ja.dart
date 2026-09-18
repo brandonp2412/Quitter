@@ -35,7 +35,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get kratomMilestone1Description =>
-      'クラトムはオピオイド受容体に作用するため、最後の服用から6〜12時間以内に落ち着きのなさ、不安、発汗、鼻水、筋肉痛が現れることがあります。これは神経系が再調整を始めている証拠です。';
+      'クラトムはオピオイド受容体に作用するため、最後の服用から6〜12時間以内に落ち着きのなさ、不安、発汗、鼻水、筋肉痛が現れることがあります。これは神経系が適応を始めている段階です。';
 
   @override
   String get kratomMilestone3Title => '離脱のピーク';
@@ -127,7 +127,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get gabapentinoidsMilestone14Description =>
-      '2週間経つと、神経系が薬なしでの機能に適応するにつれて、睡眠と基礎不安が改善しています。';
+      '2週間経つと、神経系が薬なしで機能することに適応し、睡眠と普段の不安レベルが改善してきます。';
 
   @override
   String get gabapentinoidsMilestone30Title => '1ヶ月クリーン';
@@ -205,21 +205,21 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get ghbMilestone30Description =>
-      '1ヶ月で急性の危険ははるか後ろにあります。持続症状—不安、睡眠問題、気分の落ち込み—は続くことがありますが改善しています。';
+      '1ヶ月経つと、危険な初期離脱期はすでに大きく過ぎています。残る不安、睡眠の問題、気分の落ち込みも引き続き改善していきます。';
 
   @override
-  String get ghbMilestone90Title => '持続症状の消退';
+  String get ghbMilestone90Title => '残る症状が薄れる';
 
   @override
   String get ghbMilestone90Description =>
-      '3ヶ月経つと、持続的な不安、睡眠、気分の症状が脳のGABA系の再調整とともに和らいでいます。';
+      '3ヶ月経つと、脳の鎮静を担うGABA系が落ち着くにつれて、残っていた不安、睡眠、気分の症状が和らいできます。';
 
   @override
   String get ghbMilestone180Title => '半年の自由';
 
   @override
   String get ghbMilestone180Description =>
-      'GHBなしの6ヶ月。持続的離脱はほぼ解消され、ベースラインの気分、睡眠、認知機能が回復しています。';
+      'GHBなしで6ヶ月。長引いていた離脱症状はほぼ解消し、気分、睡眠、明晰な思考が通常の状態に戻っています。';
 
   @override
   String get ketaminePageTitle => 'ケタミン回復';
@@ -238,7 +238,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get ketamineInfoBox =>
-      'ケタミンの離脱は主に心理的です—身体的な病気ではなく、渇望、気分の落ち込み、認知の霧。最大の身体的害は膀胱損傷（ケタミン膀胱炎）であり、中止が膀胱回復への必須の第一歩です。';
+      'ケタミンの離脱では、身体的な病気よりも渇望、気分の落ち込み、頭のもやが中心です。最大の身体的な害は膀胱損傷であり、中止することが回復への不可欠な第一歩です。';
 
   @override
   String get addictionKetamine => 'ケタミン';
@@ -255,10 +255,10 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get ketamineMilestone7Description =>
-      '最初の1週間は主に心理的離脱—身体的症状ではなく、渇望、気分の低下や変動、認知の霧—についてです。';
+      '最初の1週間は、身体的な離脱症状よりも、渇望、気分の落ち込みや変動、頭のもやが中心になります。';
 
   @override
-  String get ketamineMilestone14Title => '認知の霧が晴れる';
+  String get ketamineMilestone14Title => '頭のもやが晴れ始める';
 
   @override
   String get ketamineMilestone14Description =>
@@ -269,14 +269,14 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get ketamineMilestone30Description =>
-      '1ヶ月で、早期の症例では膀胱症状が中止のみで改善し始めることがよくあります。気分と認知はよりクリアになります。';
+      '1ヶ月経つと、早期の膀胱損傷は中止後に改善し始めることがよくあります。気分と思考もより明晰になります。';
 
   @override
   String get ketamineMilestone90Title => '3ヶ月経過';
 
   @override
   String get ketamineMilestone90Description =>
-      '3ヶ月の断ち切りにより、継続的な膀胱回復と着実な認知的・感情的改善が可能になります。渇望は少なくなります。';
+      'ケタミンなしで3ヶ月過ごすことで、膀胱にはさらに回復する時間ができ、思考と気分も改善を続けます。渇望の頻度も減っていきます。';
 
   @override
   String get ketamineMilestone180Title => '半年の自由';
@@ -290,7 +290,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get ketamineMilestone365Description =>
-      'ケタミンなしの1年。認知、気分、そして—早期に損傷が発見された場合—膀胱機能が回復するための最長の時間を得ています。';
+      'ケタミンなしで1年。思考と気分、そして膀胱損傷が早期に見つかった場合は膀胱機能にも、丸1年の回復期間が与えられました。';
 
   @override
   String get inhalantsPageTitle => '吸入剤回復';
@@ -333,14 +333,14 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get inhalantsMilestone14Description =>
-      '2週間までに急性離脱は通常解消しています。気分は安定しますが、認知の霧と疲労は続くことがあります。';
+      '2週間までに初期の離脱期は通常終わっています。気分は安定してきますが、頭のもやや疲労が残ることがあります。';
 
   @override
   String get inhalantsMilestone30Title => '1ヶ月—脳の回復';
 
   @override
   String get inhalantsMilestone30Description =>
-      '1ヶ月で脳は急性の混乱を過ぎ、認知回復のゆっくりとした作業を始めています。明晰さと気分が改善します。';
+      '1ヶ月経つと最悪の初期症状は過ぎ、思考と記憶が回復し始めています。明晰さと気分も改善します。';
 
   @override
   String get inhalantsMilestone90Title => '3ヶ月経過';
@@ -489,7 +489,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get mdmaMilestone30Description =>
-      '1ヶ月で、気分と認知は著しく安定しています。セロトニントランスポーターレベルは継続的な断ち切りで回復します。';
+      '1ヶ月経つと、気分と思考はかなり安定します。MDMAを使わない状態を続ける間も、脳のセロトニン再取り込み系は回復を続けます。';
 
   @override
   String get mdmaMilestone90Title => '3ヶ月経過';
@@ -522,7 +522,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get steroidsInfoBox =>
-      'アナボリックステロイドを中止すると、HPTAが回復するまで体はホルモン欠乏状態（低テストステロン）になります—通常数ヶ月、時にはそれ以上かかります。この期間中のうつ病と性欲低下は一般的です；重度のうつ病や自殺念慮は緊急の医療ケアが必要です。';
+      'アナボリックステロイドを中止すると、体が自力のホルモン産生を再開するまでテストステロンが低い状態が続きます。通常は数ヶ月ですが、さらに長くかかることもあります。この時期はうつ状態や性欲低下がよくみられ、重いうつ状態や自殺念慮がある場合は緊急の医療ケアが必要です。';
 
   @override
   String get addictionSteroids => 'アナボリックステロイド';
@@ -546,21 +546,21 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get steroidsMilestone30Description =>
-      '1ヶ月でHPTAが再始動し始めています。ゴナドトロピンとテストステロンが上昇し始めていますが、症状はしばしば持続します。';
+      '1ヶ月経つと、脳と精巣を結ぶホルモン系が再始動し始めます。テストステロンを促すホルモンとテストステロン自体が上昇し始めますが、気分の落ち込み、性欲低下、低エネルギーが残ることもあります。';
 
   @override
   String get steroidsMilestone90Title => '3ヶ月—ホルモン上昇中';
 
   @override
   String get steroidsMilestone90Description =>
-      '3ヶ月経つと、ほとんどの人でゴナドトロピンとテストステロンが正常に向かって上昇しており、気分と性欲もそれに続き始めます。';
+      '3ヶ月経つと、多くの人でテストステロンとそれを促すホルモンが正常値に向かって上昇し、気分や性欲もそれに伴って改善することがよくあります。';
 
   @override
   String get steroidsMilestone180Title => '6ヶ月—多くの場合回復';
 
   @override
   String get steroidsMilestone180Description =>
-      '6ヶ月までに多くの人がほぼ完全な生化学的回復を達成し、テストステロンとゴナドトロピンが正常範囲に戻り症状が解消します。';
+      '6ヶ月までに多くの人でホルモンの回復が大きく進み、テストステロンとその調節ホルモンが正常範囲に戻り、症状も和らいでいきます。';
 
   @override
   String get steroidsMilestone365Title => '1年経過';
@@ -570,11 +570,11 @@ class AppLocalizationsJa extends AppLocalizations {
       'ステロイドなしの1年。ほとんどの人でホルモンと気分は正常化しています；この時点以降の持続的な低テストステロンは専門医の評価が必要です。';
 
   @override
-  String get steroidsMilestone730Title => '2年—新しいベースライン';
+  String get steroidsMilestone730Title => '2年—新しい日常';
 
   @override
   String get steroidsMilestone730Description =>
-      'ステロイドなしの2年。ホルモンは自然なベースラインを反映しており、継続的な欠乏は専門医の管理を受けるべきです。';
+      'ステロイドなしで2年。現在のホルモン値は体本来の自然な水準を反映しています。低テストステロンの症状が続く場合は、専門医に確認してもらいましょう。';
 
   @override
   String get appTitle => 'Quitter';
@@ -636,7 +636,7 @@ class AppLocalizationsJa extends AppLocalizations {
       '脳は積極的に癒えています。自然なドーパミン生成が改善し、薬なしでの集中力とモチベーションの向上に気づくかもしれません。睡眠の質と食欲が正常なパターンに戻っています。';
 
   @override
-  String get adderallMilestone60Title => '2ヶ月：認知機能の改善';
+  String get adderallMilestone60Title => '2ヶ月：思考力と記憶が改善';
 
   @override
   String get adderallMilestone60Description =>
@@ -654,7 +654,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get adderallMilestone180Description =>
-      'ドーパミン受容体は正常機能への回復を続けています。認知パフォーマンス、感情的な健康、全体的な生活の質において持続的な改善を経験しています。脳は日々強くなっています。';
+      'ドーパミンのシグナル伝達は回復を続けています。集中力、記憶、気分、日々の生活の質も引き続き改善していきます。';
 
   @override
   String get adderallMilestone365Title => '1年：ほぼ完全な回復';
@@ -719,11 +719,11 @@ class AppLocalizationsJa extends AppLocalizations {
       '約3ヶ月で、多くの身体的離脱症状が大幅に改善しています。体は薬なしでの機能に適応し続けています。不安や気分はまだ変動するかもしれませんが、全体的な機能は改善します。';
 
   @override
-  String get benzoMilestone180Title => '認知機能の回復開始';
+  String get benzoMilestone180Title => '思考力と記憶の回復が始まる';
 
   @override
   String get benzoMilestone180Description =>
-      '6ヶ月で、記憶、注意、認知機能に目に見える改善が現れ始めます。研究は多くの認知領域で緩やかな回復を示していますが、完全な回復にはより長い時間がかかります。脳の自然な能力が徐々に戻っています。';
+      '6ヶ月経つと、記憶と注意力に測定可能な改善がみられます。研究では多くの思考能力に回復がみられ、その改善は6ヶ月を過ぎても続くことが示されています。';
 
   @override
   String get benzoMilestone365Title => '1年間の治癒';
@@ -737,21 +737,21 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get benzoMilestone540Description =>
-      '18ヶ月で、継続的な認知改善が起こります。GABA受容体機能は中止後2〜6ヶ月以内に正常化し、脳構造が回復し始めます。神経可塑性により、脳は新しいより健康的な神経経路を形成できます。';
+      '18ヶ月経つと、記憶、注意力、明晰な思考はさらに改善していきます。脳を落ち着かせるGABA系には1年以上かけて安定する時間があり、その間も脳はより健康的なパターンを築き続けます。';
 
   @override
   String get benzoMilestone730Title => '2年：大きな進歩';
 
   @override
   String get benzoMilestone730Description =>
-      '2年は実質的な回復を示します。ほとんどの人が認知機能、感情調節、生活の質に大幅な改善を経験します。一部の人はまだ緩やかな改善を経験するかもしれませんが、多くはベンゾジアゼピン以前の機能に戻っています。';
+      '2年は大きな回復の節目です。多くの人で思考がかなり明晰になり、感情が安定し、長期にベンゾジアゼピンを使用していた頃より生活の質が大きく改善しています。';
 
   @override
   String get benzoMilestone1095Title => '3年：長期的回復';
 
   @override
   String get benzoMilestone1095Description =>
-      '3年で、ほとんどの人にとって物理的な脳構造の回復が完了に達します。海馬と扁桃体の体積は神経可塑性を通じて正常化し続けます。持続的な回復を達成し、人生のためのより健康的な基盤を再構築しました。';
+      '3年経つと、長い離脱期間は多くの人にとって遠い過去になっています。睡眠、気分、記憶、注意力には何年もの回復時間があり、日々の生活は長期使用中より通常は大きく改善しています。';
 
   @override
   String get addictionMeth => 'メス';
@@ -807,7 +807,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get methMilestone90Description =>
-      '脳は正常機能の回復に積極的に取り組んでいます。注意や意思決定などの領域で認知改善が目立つようになります。この期間は、報酬系が正常化し始めるにつれて重要な神経学的回復を示します。';
+      '脳は積極的に回復しています。報酬系が正常な状態へ近づくにつれて、注意力、記憶、意思決定が良くなってきたと感じ始めます。';
 
   @override
   String get methMilestone180Title => '6ヶ月—心血管回復';
@@ -821,21 +821,21 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get methMilestone365Description =>
-      'ドーパミン系の回復が重要なマイルストーンに達します。自然な報酬から喜びを感じる脳の能力が大幅に改善します。認知機能、気分調節、意思決定に顕著な改善が見られます。';
+      '1年経つと、ドーパミン系は大きく回復しています。日常の自然な楽しみを再びより報酬的に感じられるようになり、気分、記憶、意思決定も明らかに改善しています。';
 
   @override
   String get methMilestone420Title => '14ヶ月—ドーパミン正常化';
 
   @override
   String get methMilestone420Description =>
-      '脳イメージング研究は、この段階でドーパミントランスポーターレベルが正常に近づいていることを示しています。これは神経学的回復の最も重要な段階を表し、記憶、モチベーション、日常活動から喜びを感じる能力に改善が見られます。';
+      '脳画像では、この時期になるとドーパミンを再利用するタンパク質が健康な水準に近づくことが示されています。記憶、意欲、日常の活動を楽しむ力も引き続き改善します。';
 
   @override
   String get methMilestone730Title => '2年—持続的回復';
 
   @override
   String get methMilestone730Description =>
-      '長期的な断ち切りは継続的な脳の治癒を可能にします。注意と気分は通常、ほとんどの人で12〜18ヶ月以内に回復します。認知機能、感情調節、全体的な生活の質は持続的回復とともに改善し続けます。';
+      'メスなしで2年過ごすことで、脳には長く継続して回復する時間が与えられます。注意力、気分、記憶、日々の生活の質は引き続き改善していきます。';
 
   @override
   String get addictionNitrousOxide => '亜酸化窒素';
@@ -860,7 +860,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get nitrousOxideMilestone1Description =>
-      'ガスは数分以内に体内から消えますが、治癒にはより長い時間がかかります。めまいが治まり、頭痛が和らぎ、脳がドーパミンのショートカットなしで再調整を始めます。B12の回復が今始まります。';
+      'ガスは数分以内に体から抜けますが、回復にはさらに時間がかかります。めまいが治まり、頭痛が和らぎ、脳はドーパミンの近道なしで適応を始めます。B12の回復も今始まります。';
 
   @override
   String get nitrousOxideMilestone3Title => '3日目—身体的離脱なし';
@@ -965,14 +965,14 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get cocaineMilestone90Description =>
-      '脳は積極的にドーパミン受容体と神経経路を修復しています。集中力、意思決定、感情調節の改善に気づくでしょう。認知機能は大幅に改善されています。';
+      'ドーパミン系は回復しています。集中力、意思決定、感情のコントロールが明らかに改善し、思考もより明晰になっています。';
 
   @override
-  String get cocaineMilestone180Title => '6ヶ月—認知的向上';
+  String get cocaineMilestone180Title => '6ヶ月—より明晰な思考';
 
   @override
   String get cocaineMilestone180Description =>
-      '脳イメージング研究は、この段階で前頭前皮質の灰白質体積の増加を示しています。実行機能、記憶、衝動制御は強化され続けています。より明確に思考しています。';
+      '脳画像では、計画や自己コントロールを支える脳の前方部分に回復がみられます。記憶、衝動のコントロール、明晰な思考はさらに強まっていきます。';
 
   @override
   String get cocaineMilestone365Title => '1年—心血管の健康';
@@ -1489,7 +1489,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String notificationTestBody(int days, String plural) {
-    return '$days日$pluralごとに、あなたの進捗を祝福する通知が届きます!';
+    return '$days日ごとに、あなたの進捗を祝福する通知が届きます!';
   }
 
   @override
@@ -1551,7 +1551,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String quitMilestonesShareMessage(int days, String plural, String title) {
-    return '$titleをやめて$days日$pluralクリーンな状態です!';
+    return '$titleをやめて$days日間継続しています!';
   }
 
   @override
@@ -1897,7 +1897,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get alcoholMilestone14Description =>
-      '禁酒から2週間以内に脳の容積の急速な回復が始まります。研究によると、14日目頃から脳組織の回復の兆候が見られますが、完全な認知機能は数ヶ月かけて改善し続けます。';
+      '最初の2週間で脳の容積は回復し始めます。思考力と記憶は、その後の数ヶ月にわたって改善を続けます。';
 
   @override
   String get alcoholMilestone30Title => '血圧が正常化';
@@ -1914,18 +1914,18 @@ class AppLocalizationsJa extends AppLocalizations {
       '肝臓の機能に測定可能な改善が見られます。この再生能力のある臓器は、アルコールによるダメージから大幅に回復でき、禁酒2ヶ月以内に肝酵素と脂肪蓄積の改善が見られます。';
 
   @override
-  String get alcoholMilestone90Title => '認知機能が大幅に改善';
+  String get alcoholMilestone90Title => '思考力と記憶が大幅に改善';
 
   @override
   String get alcoholMilestone90Description =>
-      '最初の3ヶ月で重要な認知回復が起こります。研究によると、禁酒を続ける人々は数ヶ月にわたって認知機能を回復し続け、記憶力、集中力、意思決定に測定可能な改善が見られます。';
+      '最初の3ヶ月で、記憶、集中力、意思決定は大きく改善します。その後の数ヶ月も回復は続きます。';
 
   @override
   String get alcoholMilestone180Title => '脳の容積と機能が継続的に回復';
 
   @override
   String get alcoholMilestone180Description =>
-      '6ヶ月の禁酒は継続的な神経回復を可能にします。研究によると、この持続的な禁酒期間中、脳の容積は増加し続け、認知能力も大幅に改善し続けます。';
+      '6ヶ月の禁酒により、脳には継続して回復する時間が与えられます。脳の容積と思考能力は引き続き改善します。';
 
   @override
   String get alcoholMilestone365Title => 'がんリスクの低減が始まる可能性';
@@ -2037,14 +2037,14 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get vapingMilestone60Description =>
-      'どんでん返し：ベイピングは不安問題を良くするどころか悪化させていました！2ヶ月経ってベースラインの不安レベルは大幅に低下しています。神経系がついにリラックスしています。';
+      'どんでん返し：ベイピングは不安を良くするどころか悪化させていました！2ヶ月経つと、普段の不安レベルは低くなり、神経系も落ち着いてきます。';
 
   @override
-  String get vapingMilestone90Title => '認知機能が鋭くなる';
+  String get vapingMilestone90Title => '集中力と記憶力が鋭くなる';
 
   @override
   String get vapingMilestone90Description =>
-      '脳霧が正式に去りました！ニコチンなしで3ヶ月、認知機能、集中力、記憶力が大幅に改善しました。メンタルRAMをアップグレードしたようなものです。';
+      '頭のもやはもう退場です！ニコチンなしで3ヶ月、集中力、記憶力、明晰な思考が大きく改善しています。まるで頭のRAMをアップグレードしたような感覚です。';
 
   @override
   String get vapingMilestone180Title => '口腔の健康が回復';
@@ -2107,21 +2107,21 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get marijuanaMilestone90Description =>
-      '感情のバランスが回復！3ヶ月の禁欲は、気分調節の大幅な改善、不安レベルの低下、ストレス管理の改善をもたらします。感情のベースラインが正常化しています。';
+      '大麻なしで3ヶ月過ごすと、気分が安定し、不安が減り、ストレスへの対処もしやすくなります。感情の状態はより健康的な普段の水準へ落ち着いていきます。';
 
   @override
-  String get marijuanaMilestone180Title => '実行機能の回復';
+  String get marijuanaMilestone180Title => '計画力と意思決定が回復';
 
   @override
   String get marijuanaMilestone180Description =>
-      'メンタルCEOが再び指揮を執っています！大麻なしで6ヶ月、実行機能 - 計画、意思決定、問題解決能力 - が大幅に向上しています。';
+      '頭の中のCEOが再び指揮を執っています！大麻なしで6ヶ月過ごすと、計画、意思決定、問題解決の力が大きく向上します。';
 
   @override
   String get marijuanaMilestone365Title => '脳構造の復元';
 
   @override
   String get marijuanaMilestone365Description =>
-      '神経アーキテクチャが再構築されました！1年間の禁欲により、慢性的な大麻使用の影響を受けた脳領域の大幅な回復が可能になります。認知機能の改善があなたの新しい常態となり、学習と記憶に持続的な恩恵をもたらします。';
+      '大麻なしで1年過ごすことで、記憶に関わる脳領域には十分な回復時間が与えられます。学習力と記憶力の改善が、新しい日常の一部になっています。';
 
   @override
   String get opioidMilestone1Title => '急性離脱症状が始まる';
@@ -2145,11 +2145,11 @@ class AppLocalizationsJa extends AppLocalizations {
       '甘い夢がカムバックしています！2週間経つと、自然な睡眠構造が回復し始めます。オピオイドはREM睡眠を乱しますが、脳は再び自然に夢を見ることを学んでいます。';
 
   @override
-  String get opioidMilestone30Title => '認知機能が回復し始める';
+  String get opioidMilestone30Title => '思考力と記憶が回復し始める';
 
   @override
   String get opioidMilestone30Description =>
-      '脳霧が晴れ始めています！1ヶ月クリーンで、認知機能、意思決定、記憶が改善し始めています。前頭前皮質がオピオイドによる変化から回復しています。';
+      '頭のもやが晴れてきます！1ヶ月クリーンになると、オピオイドによる変化から脳の前方部分が回復するにつれて、記憶、意思決定、明晰な思考が改善していきます。';
 
   @override
   String get opioidMilestone60Title => '感情調節が改善';
@@ -2233,7 +2233,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get socialMediaMilestone90Description =>
-      '3ヶ月 = 約270時間以上を取り戻しました！これは新しいスキルを学んだり、15冊以上の本を読んだり、「いつか」と言っていた趣味をマスターするのに十分な時間です。神経可塑性研究によると、脳は文字通りこれらの新しい素晴らしい習慣に向けてリワイヤリングしています！';
+      '3ヶ月で約270時間以上を取り戻しました！新しいスキルを学んだり、15冊以上の本を読んだり、趣味に深く取り組んだりできる時間です。脳は繰り返す習慣を強化するため、オフラインの習慣もより楽で自動的になっていきます。';
 
   @override
   String get socialMediaMilestone180Title => 'メンタルヘルスのグロウアップ完了 🌟';
@@ -2282,7 +2282,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get nicotinePouchesMilestone30Description =>
-      'どんでん返し：ニコチンは実際に使用の間のストレスを増加させます！コルチゾールレベルとストレス反応がベースラインに戻っています。本物のリラクゼーション、ニコチンの偽物ではありません。';
+      'どんでん返し：ニコチンは実は使用と使用の間のストレスを高めます！コルチゾールとストレス反応は正常に戻りつつあります。ニコチンによる見せかけではない、本当のリラックスです。';
 
   @override
   String get nicotinePouchesMilestone60Title => '睡眠の質が改善';
@@ -2461,7 +2461,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get ssriMilestone3Description =>
-      '断薬症状は通常2〜4日目にピークを迎えます。SSRIはセロトニン再取り込みをブロックします。インフルエンザ様症状、めまい、不眠、吐き気、「ブレインザップ」を経験するかもしれません。パロキセチンが最も強い症状を引き起こし、フルオキセチンは長い半減期のため最も軽度です。';
+      '離脱症状は通常2〜4日目にピークを迎えます。SSRIはセロトニンの再利用の仕組みを変えるため、中止後は脳が適応する時間を必要とします。インフルエンザ様症状、めまい、不眠、吐き気、「ブレインザップ」が起こることがあります。パロキセチンは離脱が強くなりやすく、フルオキセチンは体内に長く残るため通常は比較的軽度です。';
 
   @override
   String get ssriMilestone7Title => '1週間：急性期が和らぎ始める';
@@ -2489,7 +2489,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get ssriMilestone90Description =>
-      '3ヶ月は主要な回復のマイルストーンです。5-HT1A受容体の感受性回復には2〜3ヶ月かかります。ほとんどの人は気分、不安、認知機能が意味のある形で改善されていることを実感します。';
+      '3ヶ月は大きな回復の節目です。薬がなくなってから、セロトニン系には数ヶ月の適応時間がありました。多くの人で気分、不安、集中力、明晰な思考が意味のある形で改善しています。';
 
   @override
   String get ssriMilestone180Title => '6ヶ月：長期的な脳の適応';
@@ -2537,7 +2537,7 @@ class AppLocalizationsJa extends AppLocalizations {
       'SNRI、特にベンラファキシン（エフェキサー）は、最も重篤な抗うつ薬断薬症候群と関連しています。セロトニンとノルエピネフリンの両システムが同時に影響を受け、FINISH症状がSSRIよりも激しくなる可能性があります。';
 
   @override
-  String get snriMilestone7Title => '1週間：二重神経伝達物質の調整';
+  String get snriMilestone7Title => '1週間：2つの脳内化学システムが調整';
 
   @override
   String get snriMilestone7Description =>
@@ -2562,7 +2562,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get snriMilestone90Description =>
-      '3ヶ月は主要な回復のマイルストーンです。SERTとNETの両方が正常化されました。認知機能、気分調節、不安が意味のある形で改善されています。';
+      '3ヶ月は大きな回復の節目です。セロトニン系とノルアドレナリン系には数ヶ月の適応時間がありました。医師の管理下で減薬した後は、気分、不安、集中力、明晰な思考が意味のある形で改善しています。';
 
   @override
   String get snriMilestone180Title => '6ヶ月：神経学的回復';
@@ -2603,53 +2603,53 @@ class AppLocalizationsJa extends AppLocalizations {
   String get tcaSubtitleNotStarted => '減薬したときに何が起こるかを見てみましょう';
 
   @override
-  String get tcaMilestone3Title => '3日目：コリン作動性リバウンドのピーク';
+  String get tcaMilestone3Title => '3日目：アセチルコリンのリバウンドがピーク';
 
   @override
   String get tcaMilestone3Description =>
-      '三環系抗うつ薬（TCA）は強い抗コリン作用があります。中止するとコリン作動性リバウンドが起こります。症状は吐き気、下痢、腹部けいれん、過剰発汗、頭痛、筋肉痛、不眠であり、SSRIのFINISH症候群とは異なります。';
+      'TCAはアセチルコリンを遮断します。中止後、この系が一時的に過剰に働くことがあります。症状には吐き気、下痢、腹部けいれん、多量の発汗、頭痛、筋肉痛、不眠があります。通常は早い時期にピークを迎え、その後和らぎます。';
 
   @override
-  String get tcaMilestone7Title => '1週間：コリン作動性症状が和らぐ';
+  String get tcaMilestone7Title => '1週間：リバウンド症状が和らぐ';
 
   @override
   String get tcaMilestone7Description =>
-      'コリン作動性リバウンドは1週間までに大幅に和らぎ始めます。消化器症状、発汗、インフルエンザ様症状が軽減しています。自律神経系が自然なバランスを取り戻し始めています。';
+      'アセチルコリンのリバウンドは通常、最初の数日でピークを迎え、1週間までに和らぎ始めます。胃腸症状、発汗、インフルエンザ様の感覚が減り、心拍、消化、発汗を調整する体の仕組みも正常な状態へ戻っていきます。';
 
   @override
   String get tcaMilestone14Title => '2週間：抗コリン作用の効果が逆転';
 
   @override
   String get tcaMilestone14Description =>
-      'TCAが身体に課した抗コリン作用の副作用（口渇、便秘、排尿困難、かすみ目）が逆転しています。脳のコリン作動性経路が正常化し始めるにつれ、認知的明晰さが改善します。';
+      'TCAによる口渇、便秘、排尿困難、かすみ目は、アセチルコリン系の回復に伴って改善していきます。記憶や注意力も、より明晰に感じられることがよくあります。';
 
   @override
   String get tcaMilestone30Title => '1ヶ月：自律神経系の安定';
 
   @override
   String get tcaMilestone30Description =>
-      '1ヶ月は自律神経系の安定を示します。心臓リズムと血圧変動が正常に戻っています。TCAによって抑制されていたREM睡眠が回復し始めています。';
+      '1ヶ月経つと、心拍、血圧、消化、発汗を調整する体の仕組みが落ち着いてきます。心拍リズムと血圧の変化は正常に近づき、REMの夢を見る睡眠も戻り始めます。';
 
   @override
-  String get tcaMilestone90Title => '3ヶ月：複数の神経伝達物質システムの正常化';
+  String get tcaMilestone90Title => '3ヶ月：脳内化学システムが落ち着く';
 
   @override
   String get tcaMilestone90Description =>
-      'TCAはセロトニン、ノルエピネフリン、アセチルコリン、ヒスタミンシステムに影響します。3ヶ月により、これらすべてが実質的に回復しました。気分、認知機能、身体的健康が意味のある形で改善されています。';
+      'TCAは複数の脳内化学システムに影響します。3ヶ月あれば、それらが落ち着くための十分な時間があります。気分、明晰な思考、身体的な健康状態は大きく改善しています。';
 
   @override
-  String get tcaMilestone180Title => '6ヶ月：心臓と認知の回復';
+  String get tcaMilestone180Title => '6ヶ月：心臓と思考力の回復';
 
   @override
   String get tcaMilestone180Description =>
-      '6ヶ月の回復により、実質的な心臓と認知の回復が可能になりました。TCAによるQTc延長が解消され、抗コリン作用による認知障害が大幅に改善されています。';
+      '6ヶ月経つと、心拍リズム、記憶、思考速度は大きく回復します。TCAによる心拍リズムの変化や頭のもやには、解消するための数ヶ月の時間がありました。';
 
   @override
   String get tcaMilestone365Title => '1年間：回復達成';
 
   @override
   String get tcaMilestone365Description =>
-      '1年間は完全なマルチシステム回復を示しています。TCAが影響したすべての神経伝達物質システムが正常化する完全なサイクルを経ました。';
+      '1年あれば、TCAの影響を受けたすべての系に丸1年の回復時間があります。アセチルコリン、ノルアドレナリン、セロトニン、ヒスタミンの各系は落ち着き、記憶、明晰な思考、心拍のコントロールも大きく回復しています。';
 
   @override
   String get settingsShowTcaTracking => '三環系抗うつ薬トラッキングを表示';
@@ -2697,18 +2697,18 @@ class AppLocalizationsJa extends AppLocalizations {
       '2週間はMAO酵素回復の標準的な臨床的タイムフレームです。MAO-AとMAO-Bの活性が大幅に回復し、通常のチラミン代謝が再確立されています。担当医との相談により食事制限を緩和できる場合があります。';
 
   @override
-  String get maoiMilestone30Title => '1ヶ月：神経伝達物質システムの再バランス';
+  String get maoiMilestone30Title => '1ヶ月：脳内化学システムの再バランス';
 
   @override
   String get maoiMilestone30Description =>
-      '1ヶ月後、MAO酵素活性が完全に回復し、神経伝達物質システムが自然な調節下にあります。MAOIに関連する薬物相互作用リスクが解消されましたが、新薬が処方される際には必ず以前のMAOI使用を医師に伝えてください。';
+      'MAOIを中止して1ヶ月経つと、MAO酵素は再び働き、脳はセロトニン、ノルアドレナリン、ドーパミン、チラミンを自然に処理しています。特別な食事・薬物相互作用の期間は終わっていますが、以前MAOIを使用していたことは今後も処方医に伝えてください。';
 
   @override
   String get maoiMilestone90Title => '3ヶ月：脳の化学物質が正常化';
 
   @override
   String get maoiMilestone90Description =>
-      '3ヶ月の自然なモノアミン調節により、脳がMAO阻害状態から大幅に再調整されました。受容体過感受性が解消されています。気分調節、エネルギー、認知機能が安定しています。';
+      '3ヶ月あれば、MAOI中止後に脳の気分やエネルギーを支える仕組みが再調整するための十分な時間があります。脳がこれらの化学物質を再び自然に処理するにつれて、気分、エネルギー、明晰な思考が安定していきます。';
 
   @override
   String get maoiMilestone180Title => '6ヶ月：長期的な回復';
@@ -2722,13 +2722,67 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get maoiMilestone365Description =>
-      'MAOI中止後の1年間は本当に重要なマイルストーンです。MAOIは最も薬理学的に複雑な抗うつ薬であり、最も厳しい断薬プロセスを持ちます。1年間は完全な回復と素晴らしい個人的回復力を示しています。';
+      'MAOIを中止して1年。脳と体には、薬なしで丸1年過ごす時間がありました。気分、エネルギー、明晰な思考、通常の脳内化学調節にも、落ち着いて回復するための十分な時間が与えられています。';
 
   @override
   String get settingsShowMaoiTracking => 'MAOIトラッキングを表示';
 
   @override
   String get settingsNotifyMaoi => 'MAOI禁断進捗を通知';
+
+  @override
+  String milestoneRetrieved(String date) {
+    return '取得日：$date';
+  }
+
+  @override
+  String notificationProgressTitle(String name) {
+    return '$nameなし';
+  }
+
+  @override
+  String notificationProgressBody(int days, String message) {
+    return '$days日間継続 — $message';
+  }
+
+  @override
+  String get notificationProgressMessage1 => '素晴らしい調子です！';
+
+  @override
+  String get notificationProgressMessage2 => 'よく頑張っています！';
+
+  @override
+  String get notificationProgressMessage3 => 'すごい継続力です！';
+
+  @override
+  String get notificationProgressMessage4 => 'あなたの強さを称えます！';
+
+  @override
+  String get notificationProgressMessage5 => 'その調子で輝き続けて！';
+
+  @override
+  String get notificationProgressMessage6 => '最高です！';
+
+  @override
+  String get notificationProgressMessage7 => 'その調子！';
+
+  @override
+  String get notificationProgressMessage8 => 'あなたは本当のチャンピオンです！';
+
+  @override
+  String get notificationProgressMessage9 => '素晴らしい努力です！';
+
+  @override
+  String get notificationProgressMessage10 => '強く進み続けて！';
+
+  @override
+  String get notificationChannelName => 'リマインダー';
+
+  @override
+  String get notificationChannelDescription => '日々の進捗リマインダー通知';
+
+  @override
+  String get notificationOpenAction => '通知を開く';
 
   @override
   String get done => '完了';

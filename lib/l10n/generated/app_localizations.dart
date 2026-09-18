@@ -4990,6 +4990,102 @@ abstract class AppLocalizations {
   /// **'Notify MAOI quitting progress'**
   String get settingsNotifyMaoi;
 
+  /// Label showing when a milestone reference was retrieved
+  ///
+  /// In en, this message translates to:
+  /// **'Retrieved {date}'**
+  String milestoneRetrieved(String date);
+
+  /// Progress notification title
+  ///
+  /// In en, this message translates to:
+  /// **'No {name}'**
+  String notificationProgressTitle(String name);
+
+  /// Progress notification body
+  ///
+  /// In en, this message translates to:
+  /// **'{days} days clean — {message}'**
+  String notificationProgressBody(int days, String message);
+
+  /// No description provided for @notificationProgressMessage1.
+  ///
+  /// In en, this message translates to:
+  /// **'Keep up the amazing work!'**
+  String get notificationProgressMessage1;
+
+  /// No description provided for @notificationProgressMessage2.
+  ///
+  /// In en, this message translates to:
+  /// **'You\'re doing great!'**
+  String get notificationProgressMessage2;
+
+  /// No description provided for @notificationProgressMessage3.
+  ///
+  /// In en, this message translates to:
+  /// **'Incredible dedication!'**
+  String get notificationProgressMessage3;
+
+  /// No description provided for @notificationProgressMessage4.
+  ///
+  /// In en, this message translates to:
+  /// **'Celebrating your strength!'**
+  String get notificationProgressMessage4;
+
+  /// No description provided for @notificationProgressMessage5.
+  ///
+  /// In en, this message translates to:
+  /// **'Keep shining!'**
+  String get notificationProgressMessage5;
+
+  /// No description provided for @notificationProgressMessage6.
+  ///
+  /// In en, this message translates to:
+  /// **'Awesome job!'**
+  String get notificationProgressMessage6;
+
+  /// No description provided for @notificationProgressMessage7.
+  ///
+  /// In en, this message translates to:
+  /// **'Way to go!'**
+  String get notificationProgressMessage7;
+
+  /// No description provided for @notificationProgressMessage8.
+  ///
+  /// In en, this message translates to:
+  /// **'You\'re a true champion!'**
+  String get notificationProgressMessage8;
+
+  /// No description provided for @notificationProgressMessage9.
+  ///
+  /// In en, this message translates to:
+  /// **'Remarkable effort!'**
+  String get notificationProgressMessage9;
+
+  /// No description provided for @notificationProgressMessage10.
+  ///
+  /// In en, this message translates to:
+  /// **'Stay strong!'**
+  String get notificationProgressMessage10;
+
+  /// No description provided for @notificationChannelName.
+  ///
+  /// In en, this message translates to:
+  /// **'Reminders'**
+  String get notificationChannelName;
+
+  /// No description provided for @notificationChannelDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Notifications for daily progress reminders'**
+  String get notificationChannelDescription;
+
+  /// No description provided for @notificationOpenAction.
+  ///
+  /// In en, this message translates to:
+  /// **'Open notification'**
+  String get notificationOpenAction;
+
   /// No description provided for @done.
   ///
   /// In en, this message translates to:

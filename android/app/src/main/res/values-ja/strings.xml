@@ -1,56 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="appwidget_text">点击开始追踪</string>
-    <string name="add_widget">添加小部件</string>
-    <string name="app_widget_description">这是一个应用小部件描述</string>
-    <string name="widget_description">戒瘾追踪器</string>
-    <string name="loading">加载中...</string>
-    <string name="app_launcher_foreground">应用启动器前景</string>
+    <string name="appwidget_text">タップして記録を開始</string>
+    <string name="add_widget">ウィジェットを追加</string>
+    <string name="app_widget_description">アプリウィジェットの説明</string>
+    <string name="widget_description">やめた日数トラッカー</string>
+    <string name="loading">読み込み中...</string>
+    <string name="app_launcher_foreground">アプリアイコンの前景</string>
     <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">第一个片段</string>
-    <string name="second_fragment_label">第二个片段</string>
-    <string name="next">下一个</string>
-    <string name="previous">上一个</string>
+    <string name="first_fragment_label">最初のフラグメント</string>
+    <string name="second_fragment_label">2番目のフラグメント</string>
+    <string name="next">次へ</string>
+    <string name="previous">戻る</string>
     <!-- Widget selection activity -->
-    <string name="widget_selection_title">选择要追踪的项目</string>
-    <string name="widget_selection_subtitle">在主屏幕上显示您戒除以来的天数</string>
+    <string name="widget_selection_title">記録する対象を選択</string>
+    <string name="widget_selection_subtitle">ホーム画面でやめてからの日数を記録します</string>
     <!-- Addiction names for widgets -->
-    <string name="addiction_alcohol">酒精</string>
-    <string name="addiction_vaping">电子烟</string>
-    <string name="addiction_smoking">吸烟</string>
-    <string name="addiction_smokeless_tobacco">嚼烟 / 无烟烟草</string>
-    <string name="addiction_marijuana">大麻</string>
-    <string name="addiction_nicotine_pouches">尼古丁袋</string>
-    <string name="addiction_opioids">阿片类药物</string>
-    <string name="addiction_heroin">海洛因</string>
-    <string name="addiction_fentanyl">芬太尼</string>
-    <string name="addiction_social_media">社交媒体</string>
-    <string name="addiction_pornography">成人内容</string>
-    <string name="addiction_cocaine">可卡因</string>
-    <string name="addiction_meth">冰毒</string>
-    <string name="addiction_benzos">苯二氮卓</string>
-    <string name="addiction_adderall">阿德拉</string>
+    <string name="addiction_alcohol">アルコール</string>
+    <string name="addiction_vaping">ベイピング</string>
+    <string name="addiction_smoking">喫煙</string>
+    <string name="addiction_smokeless_tobacco">嚙みタバコ / 無煙タバコ</string>
+    <string name="addiction_marijuana">マリファナ</string>
+    <string name="addiction_nicotine_pouches">ニコチンパウチ</string>
+    <string name="addiction_opioids">オピオイド</string>
+    <string name="addiction_heroin">ヘロイン</string>
+    <string name="addiction_fentanyl">フェンタニル</string>
+    <string name="addiction_social_media">ソーシャルメディア</string>
+    <string name="addiction_pornography">アダルトコンテンツ</string>
+    <string name="addiction_cocaine">コカイン</string>
+    <string name="addiction_meth">メス</string>
+    <string name="addiction_benzos">ベンゾ</string>
+    <string name="addiction_adderall">アデロール</string>
     <string name="addiction_ssri">SSRI</string>
     <string name="addiction_snri">SNRI</string>
-    <string name="addiction_tca">三环类抗抑郁药</string>
+    <string name="addiction_tca">三環系抗うつ薬</string>
     <string name="addiction_maoi">MAOI</string>
-    <string name="addiction_nitrous_oxide">笑气</string>
-    <string name="addiction_kratom">卡痛叶</string>
-    <string name="addiction_gabapentinoids">加巴喷丁/普瑞巴林</string>
+    <string name="addiction_nitrous_oxide">亜酸化窒素</string>
+    <string name="addiction_kratom">クラトム</string>
+    <string name="addiction_gabapentinoids">ガバペンチン／プレガバリン</string>
     <string name="addiction_ghb">GHB</string>
-    <string name="addiction_ketamine">氯胺酮</string>
-    <string name="addiction_inhalants">吸入剂</string>
-    <string name="addiction_synthetic_cannabinoids">合成大麻素</string>
+    <string name="addiction_ketamine">ケタミン</string>
+    <string name="addiction_inhalants">吸入剤</string>
+    <string name="addiction_synthetic_cannabinoids">合成カンナビノイド</string>
     <string name="addiction_mdma">MDMA</string>
-    <string name="addiction_steroids">合成代谢类固醇</string>
+    <string name="addiction_steroids">アナボリックステロイド</string>
     <!-- Widget text -->
-    <string name="widget_day_singular">天</string>
-    <string name="widget_day_plural">天</string>
-    <string name="widget_not_set">未设置</string>
-    <string name="widget_unknown">未知</string>
-    <string name="widget_error">错误</string>
+    <string name="widget_day_singular">日</string>
+    <string name="widget_day_plural">日</string>
+    <string name="widget_not_set">未設定</string>
+    <string name="widget_unknown">不明</string>
+    <string name="widget_error">エラー</string>
     <!-- Widget setup text -->
-    <string name="widget_setup_text">点击设置</string>
+    <string name="widget_setup_text">タップして\n設定</string>
 
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:quitter/quit_milestone.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -7,6 +8,33 @@ class MilestoneReferencePage extends StatelessWidget {
   final QuitMilestone milestone;
 
   const MilestoneReferencePage({super.key, required this.milestone});
+
+  String _localizedReferenceDate(BuildContext context, String referenceDate) {
+    final match = RegExp(r'^([A-Za-z]+) (\d{4})$').firstMatch(referenceDate);
+    if (match == null) return referenceDate;
+
+    const months = <String, int>{
+      'January': 1,
+      'February': 2,
+      'March': 3,
+      'April': 4,
+      'May': 5,
+      'June': 6,
+      'July': 7,
+      'August': 8,
+      'September': 9,
+      'October': 10,
+      'November': 11,
+      'December': 12,
+    };
+    final month = months[match.group(1)];
+    final year = int.tryParse(match.group(2)!);
+    if (month == null || year == null) return referenceDate;
+
+    return DateFormat.yMMMM(
+      Localizations.localeOf(context).toLanguageTag(),
+    ).format(DateTime(year, month));
+  }
 
   List<_ContentBlock> _parseContent(String content) {
     final blocks = content.split('\n\n');
@@ -128,7 +156,12 @@ class MilestoneReferencePage extends StatelessWidget {
                         borderRadius: BorderRadius.circular(6),
                       ),
                       child: Text(
-                        'Retrieved ${milestone.referenceDate}',
+                        AppLocalizations.of(context)!.milestoneRetrieved(
+                          _localizedReferenceDate(
+                            context,
+                            milestone.referenceDate!,
+                          ),
+                        ),
                         style: TextStyle(
                           fontSize: 11,
                           color: colorScheme.onSurfaceVariant,

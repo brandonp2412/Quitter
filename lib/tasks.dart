@@ -1,10 +1,12 @@
 import 'dart:async';
 import 'dart:math';
+import 'dart:ui' show Locale, PlatformDispatcher;
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:home_widget/home_widget.dart';
 import 'package:quitter/addiction_provider.dart';
+import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:quitter/logging.dart';
 import 'package:workmanager/workmanager.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -14,6 +16,18 @@ import 'package:quitter/settings_provider.dart';
 Timer? timer;
 Timer? oneOffReminderTimer;
 Timer? periodicStarterTimer;
+
+AppLocalizations _localizationsFor(SharedPreferences prefs) {
+  final configuredLocale = prefs.getString('locale');
+  final systemLocale = PlatformDispatcher.instance.locale.languageCode;
+  final languageCode = configuredLocale == null || configuredLocale == 'system'
+      ? systemLocale
+      : configuredLocale;
+  final supportedLanguageCode = const {'en', 'ja', 'zh'}.contains(languageCode)
+      ? languageCode
+      : 'en';
+  return lookupAppLocalizations(Locale(supportedLanguageCode));
+}
 
 Future<void> setupTasks() async {
   if (kIsWeb) return;
@@ -98,8 +112,10 @@ Future<void> testNotification({
   required String body,
 }) async {
   talker.info('Sending notification preview');
-  final plugin = await _initializeNotificationPlugin();
-  await _showNotification(plugin, title, body);
+  final prefs = await SharedPreferences.getInstance();
+  final l10n = _localizationsFor(prefs);
+  final plugin = await _initializeNotificationPlugin(l10n);
+  await _showNotification(plugin, title, body, l10n);
 }
 
 String? _validQuitDate(SharedPreferences prefs, String key) {
@@ -123,11 +139,13 @@ Future<void> testAddictionNotification(
   }
 
   final days = daysCeil(quitDate);
-  final plugin = await _initializeNotificationPlugin();
+  final l10n = _localizationsFor(prefs);
+  final plugin = await _initializeNotificationPlugin(l10n);
   await _showNotification(
     plugin,
-    'No ${displayName.toLowerCase()}',
-    '$days days clean — Keep up the amazing work!',
+    l10n.notificationProgressTitle(displayName),
+    l10n.notificationProgressBody(days, l10n.notificationProgressMessage1),
+    l10n,
   );
 }
 
@@ -136,23 +154,28 @@ Future<void> testCustomEntryNotification(
   String quitDateIso,
 ) async {
   final days = daysCeil(quitDateIso);
-  final plugin = await _initializeNotificationPlugin();
+  final prefs = await SharedPreferences.getInstance();
+  final l10n = _localizationsFor(prefs);
+  final plugin = await _initializeNotificationPlugin(l10n);
   await _showNotification(
     plugin,
-    'No ${displayName.toLowerCase()}',
-    '$days days clean — Keep up the amazing work!',
+    l10n.notificationProgressTitle(displayName),
+    l10n.notificationProgressBody(days, l10n.notificationProgressMessage1),
+    l10n,
   );
 }
 
-Future<FlutterLocalNotificationsPlugin> _initializeNotificationPlugin() async {
+Future<FlutterLocalNotificationsPlugin> _initializeNotificationPlugin(
+  AppLocalizations l10n,
+) async {
   final plugin = FlutterLocalNotificationsPlugin();
 
   if (defaultTargetPlatform == TargetPlatform.android ||
       defaultTargetPlatform == TargetPlatform.iOS) {
-    const androidChannel = AndroidNotificationChannel(
+    final androidChannel = AndroidNotificationChannel(
       'reminders_channel_id',
-      'Reminders',
-      description: 'Notifications for daily progress reminders',
+      l10n.notificationChannelName,
+      description: l10n.notificationChannelDescription,
       importance: Importance.high,
     );
 
@@ -170,8 +193,8 @@ Future<FlutterLocalNotificationsPlugin> _initializeNotificationPlugin() async {
     );
     await plugin.initialize(settings: initSettings);
   } else {
-    const linuxSettings = LinuxInitializationSettings(
-      defaultActionName: 'Open notification',
+    final linuxSettings = LinuxInitializationSettings(
+      defaultActionName: l10n.notificationOpenAction,
     );
     const darwinSettings = DarwinInitializationSettings();
     const windowsSettings = WindowsInitializationSettings(
@@ -179,7 +202,7 @@ Future<FlutterLocalNotificationsPlugin> _initializeNotificationPlugin() async {
       appUserModelId: 'com.quitter.app',
       guid: '32562a7f-d398-4ae3-9ff9-35496b6f60ed',
     );
-    const initSettings = InitializationSettings(
+    final initSettings = InitializationSettings(
       linux: linuxSettings,
       macOS: darwinSettings,
       windows: windowsSettings,
@@ -194,12 +217,13 @@ Future<void> _showNotification(
   FlutterLocalNotificationsPlugin plugin,
   String title,
   String body,
+  AppLocalizations l10n,
 ) async {
   final notificationDetails = NotificationDetails(
     android: AndroidNotificationDetails(
       'reminders_channel_id',
-      'Reminders',
-      channelDescription: 'Notifications for daily progress reminders',
+      l10n.notificationChannelName,
+      channelDescription: l10n.notificationChannelDescription,
       importance: Importance.high,
       priority: Priority.high,
       icon: 'neurology',
@@ -218,52 +242,58 @@ Future<void> _showNotification(
   );
 }
 
-Future<void> notifyProgress(FlutterLocalNotificationsPlugin plugin) async {
-  final prefs = await SharedPreferences.getInstance();
+Future<void> notifyProgress(
+  FlutterLocalNotificationsPlugin plugin,
+  SharedPreferences prefs,
+  AppLocalizations l10n,
+) async {
   final random = Random();
 
   final List<Map<String, String>> journeys = [
-    {'key': 'adderall', 'name': 'Adderall'},
-    {'key': 'ssri', 'name': 'SSRIs'},
-    {'key': 'snri', 'name': 'SNRIs'},
-    {'key': 'tca', 'name': 'TCAs'},
-    {'key': 'maoi', 'name': 'MAOIs'},
-    {'key': 'alcohol', 'name': 'Alcohol'},
-    {'key': 'benzos', 'name': 'Benzodiazepines'},
-    {'key': 'vaping', 'name': 'Vaping'},
-    {'key': 'smoking', 'name': 'Smoking'},
-    {'key': 'marijuana', 'name': 'Marijuana'},
-    {'key': 'opioids', 'name': 'Opioids'},
-    {'key': 'nicotine_pouches', 'name': 'Nicotine pouches'},
-    {'key': 'social_media', 'name': 'Social media'},
-    {'key': 'pornography', 'name': 'Adult Content'},
-    {'key': 'cocaine', 'name': 'Cocaine'},
-    {'key': 'meth', 'name': 'Methamphetamine'},
-    {'key': 'nitrous_oxide', 'name': 'Nitrous oxide'},
-    {'key': 'kratom', 'name': 'Kratom'},
-    {'key': 'gabapentinoids', 'name': 'Gabapentin / Pregabalin'},
-    {'key': 'ghb', 'name': 'GHB'},
-    {'key': 'ketamine', 'name': 'Ketamine'},
-    {'key': 'inhalants', 'name': 'Inhalants'},
-    {'key': 'synthetic_cannabinoids', 'name': 'Synthetic cannabinoids'},
-    {'key': 'mdma', 'name': 'MDMA'},
-    {'key': 'steroids', 'name': 'Anabolic steroids'},
-    {'key': 'heroin', 'name': 'Heroin'},
-    {'key': 'fentanyl', 'name': 'Fentanyl'},
-    {'key': 'smokeless_tobacco', 'name': 'smokeless tobacco'},
+    {'key': 'adderall', 'name': l10n.addictionAdderall},
+    {'key': 'ssri', 'name': l10n.addictionSsri},
+    {'key': 'snri', 'name': l10n.addictionSnri},
+    {'key': 'tca', 'name': l10n.addictionTca},
+    {'key': 'maoi', 'name': l10n.addictionMaoi},
+    {'key': 'alcohol', 'name': l10n.addictionAlcohol},
+    {'key': 'benzos', 'name': l10n.addictionBenzos},
+    {'key': 'vaping', 'name': l10n.addictionVaping},
+    {'key': 'smoking', 'name': l10n.addictionSmoking},
+    {'key': 'marijuana', 'name': l10n.addictionMarijuana},
+    {'key': 'opioids', 'name': l10n.addictionOpioids},
+    {'key': 'nicotine_pouches', 'name': l10n.addictionNicotinePouches},
+    {'key': 'social_media', 'name': l10n.addictionSocialMedia},
+    {'key': 'pornography', 'name': l10n.addictionAdultContent},
+    {'key': 'cocaine', 'name': l10n.addictionCocaine},
+    {'key': 'meth', 'name': l10n.addictionMeth},
+    {'key': 'nitrous_oxide', 'name': l10n.addictionNitrousOxide},
+    {'key': 'kratom', 'name': l10n.addictionKratom},
+    {'key': 'gabapentinoids', 'name': l10n.addictionGabapentinoid},
+    {'key': 'ghb', 'name': l10n.addictionGhb},
+    {'key': 'ketamine', 'name': l10n.addictionKetamine},
+    {'key': 'inhalants', 'name': l10n.addictionInhalants},
+    {
+      'key': 'synthetic_cannabinoids',
+      'name': l10n.addictionSyntheticCannabinoids,
+    },
+    {'key': 'mdma', 'name': l10n.addictionMdma},
+    {'key': 'steroids', 'name': l10n.addictionSteroids},
+    {'key': 'heroin', 'name': l10n.addictionHeroin},
+    {'key': 'fentanyl', 'name': l10n.addictionFentanyl},
+    {'key': 'smokeless_tobacco', 'name': l10n.addictionSmokelessTobacco},
   ];
 
   final List<String> messages = [
-    "Keep up the amazing work!",
-    "You're doing great!",
-    "Incredible dedication!",
-    "Celebrating your strength!",
-    "Keep shining!",
-    "Awesome job!",
-    "Way to go!",
-    "You're a true champion!",
-    "Remarkable effort!",
-    "Stay strong!",
+    l10n.notificationProgressMessage1,
+    l10n.notificationProgressMessage2,
+    l10n.notificationProgressMessage3,
+    l10n.notificationProgressMessage4,
+    l10n.notificationProgressMessage5,
+    l10n.notificationProgressMessage6,
+    l10n.notificationProgressMessage7,
+    l10n.notificationProgressMessage8,
+    l10n.notificationProgressMessage9,
+    l10n.notificationProgressMessage10,
   ];
 
   final activeJourneys = journeys.where((journey) {
@@ -293,29 +323,34 @@ Future<void> notifyProgress(FlutterLocalNotificationsPlugin plugin) async {
       random.nextBool()) {
     final randomEntry = activeEntries[random.nextInt(activeEntries.length)];
     final entryCount = daysCeil(randomEntry.quitDate.toIso8601String());
-    notificationTitle = "No ${randomEntry.title}";
-    notificationBody = "$entryCount days clean — $randomMessage";
+    notificationTitle = l10n.notificationProgressTitle(randomEntry.title);
+    notificationBody = l10n.notificationProgressBody(entryCount, randomMessage);
   } else if (activeJourneys.isNotEmpty) {
     final randomJourney = activeJourneys[random.nextInt(activeJourneys.length)];
     final journeyDate = _validQuitDate(prefs, randomJourney['key']!);
     if (journeyDate == null) return;
     final journeyCount = daysCeil(journeyDate);
-    notificationTitle = "No ${randomJourney['name']!.toLowerCase()}";
-    notificationBody = "$journeyCount days clean — $randomMessage";
+    notificationTitle = l10n.notificationProgressTitle(randomJourney['name']!);
+    notificationBody = l10n.notificationProgressBody(
+      journeyCount,
+      randomMessage,
+    );
   } else {
     final randomEntry = activeEntries[random.nextInt(activeEntries.length)];
     final entryCount = daysCeil(randomEntry.quitDate.toIso8601String());
-    notificationTitle = "No ${randomEntry.title}";
-    notificationBody = "$entryCount days clean — $randomMessage";
+    notificationTitle = l10n.notificationProgressTitle(randomEntry.title);
+    notificationBody = l10n.notificationProgressBody(entryCount, randomMessage);
   }
 
-  await _showNotification(plugin, notificationTitle, notificationBody);
+  await _showNotification(plugin, notificationTitle, notificationBody, l10n);
   talker.info('Delivered progress reminder');
 }
 
 Future<void> doDesktopReminders() async {
-  final plugin = await _initializeNotificationPlugin();
-  await notifyProgress(plugin);
+  final prefs = await SharedPreferences.getInstance();
+  final l10n = _localizationsFor(prefs);
+  final plugin = await _initializeNotificationPlugin(l10n);
+  await notifyProgress(plugin, prefs, l10n);
 }
 
 Future<void> cancelReminderTasks() async {
@@ -360,8 +395,10 @@ Future<void> rescheduleTasks() async {
 }
 
 Future<void> doMobileReminders() async {
-  final plugin = await _initializeNotificationPlugin();
-  await notifyProgress(plugin);
+  final prefs = await SharedPreferences.getInstance();
+  final l10n = _localizationsFor(prefs);
+  final plugin = await _initializeNotificationPlugin(l10n);
+  await notifyProgress(plugin, prefs, l10n);
 }
 
 @pragma('vm:entry-point')

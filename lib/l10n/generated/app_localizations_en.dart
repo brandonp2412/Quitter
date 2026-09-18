@@ -2831,6 +2831,61 @@ class AppLocalizationsEn extends AppLocalizations {
   String get settingsNotifyMaoi => 'Notify MAOI quitting progress';
 
   @override
+  String milestoneRetrieved(String date) {
+    return 'Retrieved $date';
+  }
+
+  @override
+  String notificationProgressTitle(String name) {
+    return 'No $name';
+  }
+
+  @override
+  String notificationProgressBody(int days, String message) {
+    return '$days days clean — $message';
+  }
+
+  @override
+  String get notificationProgressMessage1 => 'Keep up the amazing work!';
+
+  @override
+  String get notificationProgressMessage2 => 'You\'re doing great!';
+
+  @override
+  String get notificationProgressMessage3 => 'Incredible dedication!';
+
+  @override
+  String get notificationProgressMessage4 => 'Celebrating your strength!';
+
+  @override
+  String get notificationProgressMessage5 => 'Keep shining!';
+
+  @override
+  String get notificationProgressMessage6 => 'Awesome job!';
+
+  @override
+  String get notificationProgressMessage7 => 'Way to go!';
+
+  @override
+  String get notificationProgressMessage8 => 'You\'re a true champion!';
+
+  @override
+  String get notificationProgressMessage9 => 'Remarkable effort!';
+
+  @override
+  String get notificationProgressMessage10 => 'Stay strong!';
+
+  @override
+  String get notificationChannelName => 'Reminders';
+
+  @override
+  String get notificationChannelDescription =>
+      'Notifications for daily progress reminders';
+
+  @override
+  String get notificationOpenAction => 'Open notification';
+
+  @override
   String get done => 'Done';
 
   @override

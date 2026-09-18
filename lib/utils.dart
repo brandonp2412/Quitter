@@ -42,7 +42,10 @@ int daysCeil(String dateStr) {
 void toast(String message, {SnackBarAction? action}) {
   final messenger = rootScaffoldMessenger.currentState;
   if (messenger == null) return;
-  final def = SnackBarAction(label: 'OK', onPressed: () {});
+  final def = SnackBarAction(
+    label: MaterialLocalizations.of(messenger.context).okButtonLabel,
+    onPressed: () {},
+  );
 
   messenger.showSnackBar(
     SnackBar(

@@ -35,7 +35,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get kratomMilestone1Description =>
-      '卡痛叶作用于阿片受体，因此在最后一次服用后6-12小时内您可能会感到不安、焦虑、出汗、流鼻涕和肌肉酸痛。这是您的神经系统开始重新校准。';
+      '卡痛叶作用于阿片受体，因此在最后一次服用后6-12小时内，您可能会感到不安、焦虑、出汗、流鼻涕和肌肉酸痛。这是神经系统开始适应的过程。';
 
   @override
   String get kratomMilestone3Title => '戒断症状高峰';
@@ -127,7 +127,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get gabapentinoidsMilestone14Description =>
-      '两周后，随着神经系统适应在没有药物的情况下运作，睡眠和基础焦虑正在改善。';
+      '两周后，随着神经系统适应在没有药物的情况下运作，睡眠和您平时的焦虑水平正在改善。';
 
   @override
   String get gabapentinoidsMilestone30Title => '一个月清醒';
@@ -205,21 +205,21 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get ghbMilestone30Description =>
-      '一个月时，急性危险已远离。持续性症状——焦虑、睡眠问题、情绪低落——可能持续但正在改善。';
+      '一个月时，危险的早期戒断期已经远远过去。残留的焦虑、睡眠问题和情绪低落也在继续改善。';
 
   @override
-  String get ghbMilestone90Title => '持续症状消退';
+  String get ghbMilestone90Title => '残留症状逐渐消退';
 
   @override
   String get ghbMilestone90Description =>
-      '三个月后，持续的焦虑、睡眠和情绪症状随着大脑GABA系统的重新调节而减轻。';
+      '三个月后，随着大脑起镇静作用的GABA系统逐渐稳定，残留的焦虑、睡眠和情绪症状也在减轻。';
 
   @override
   String get ghbMilestone180Title => '自由半年';
 
   @override
   String get ghbMilestone180Description =>
-      '六个月没有GHB。持续戒断已经基本解决，您的基线情绪、睡眠和认知已经恢复。';
+      '六个月没有GHB。持续的戒断症状已基本消退，情绪、睡眠和清晰思维也恢复到正常状态。';
 
   @override
   String get ketaminePageTitle => '氯胺酮戒断';
@@ -238,7 +238,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get ketamineInfoBox =>
-      '氯胺酮戒断主要是心理性的——渴求、情绪低落和认知迷雾，而不是身体疾病。其最大的身体危害是膀胱损伤（氯胺酮膀胱炎），而停止使用是迈向膀胱康复的关键第一步。';
+      '氯胺酮戒断主要表现为渴求、情绪低落和脑雾，而不是身体疾病。它最大的身体危害是膀胱损伤，停止使用是迈向恢复的关键第一步。';
 
   @override
   String get addictionKetamine => '氯胺酮';
@@ -255,10 +255,10 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get ketamineMilestone7Description =>
-      '第一周主要是关于心理戒断——渴求、情绪低落或波动以及认知迷雾——而不是身体症状。';
+      '第一周主要会面对渴求、情绪低落或波动以及脑雾，而不是明显的身体戒断症状。';
 
   @override
-  String get ketamineMilestone14Title => '认知迷雾消散';
+  String get ketamineMilestone14Title => '脑雾开始消散';
 
   @override
   String get ketamineMilestone14Description =>
@@ -269,14 +269,14 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get ketamineMilestone30Description =>
-      '一个月时，早期病例中膀胱症状通常仅通过停用就开始改善。情绪和认知更加清晰。';
+      '一个月时，早期的膀胱损伤在停用后往往已经开始改善。情绪和思维也更加清晰。';
 
   @override
   String get ketamineMilestone90Title => '三个月了';
 
   @override
   String get ketamineMilestone90Description =>
-      '三个月的戒断允许持续的膀胱康复和稳步的认知及情绪改善。渴求更少出现。';
+      '三个月不使用氯胺酮，让膀胱有更多时间恢复，同时思维和情绪也继续改善。渴求出现得更少了。';
 
   @override
   String get ketamineMilestone180Title => '自由半年';
@@ -290,7 +290,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get ketamineMilestone365Description =>
-      '一年没有氯胺酮。认知、情绪以及——在早期发现损伤的情况下——膀胱功能有最长的时间来恢复。';
+      '一年没有氯胺酮。思维、情绪以及在膀胱损伤较早发现时的膀胱功能，都已经有整整一年时间恢复。';
 
   @override
   String get inhalantsPageTitle => '吸入剂戒断';
@@ -333,14 +333,14 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get inhalantsMilestone14Description =>
-      '两周时急性戒断通常已经解决。情绪更稳定，尽管认知迷雾和疲劳可能持续。';
+      '到两周时，早期戒断期通常已经结束。情绪更稳定，不过脑雾和疲劳仍可能持续。';
 
   @override
   String get inhalantsMilestone30Title => '一个月——大脑正在恢复';
 
   @override
   String get inhalantsMilestone30Description =>
-      '一个月时大脑已经度过急性中断，开始缓慢的认知恢复工作。清晰度和情绪改善。';
+      '一个月时，最严重的早期影响已经过去，思维和记忆正在恢复。思路更清晰，情绪也在改善。';
 
   @override
   String get inhalantsMilestone90Title => '三个月了';
@@ -487,7 +487,8 @@ class AppLocalizationsZh extends AppLocalizations {
   String get mdmaMilestone30Title => '一个月清醒';
 
   @override
-  String get mdmaMilestone30Description => '一个月时，情绪和认知明显更稳定。血清素转运体水平随着持续戒断而恢复。';
+  String get mdmaMilestone30Description =>
+      '一个月时，情绪和思维已经稳定得多。只要继续不使用MDMA，大脑的血清素再循环系统就会继续恢复。';
 
   @override
   String get mdmaMilestone90Title => '三个月了';
@@ -520,7 +521,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get steroidsInfoBox =>
-      '停用合成代谢类固醇会使身体处于激素缺乏状态（低睾酮），直到HPTA恢复——通常需要数月，有时更长。此阶段的抑郁和性欲低下是常见的；严重抑郁或自杀念头需要紧急医疗护理。';
+      '停用合成代谢类固醇后，在身体重新启动自身激素生成之前，睾酮会处于较低水平——通常持续数月，有时更久。这个阶段常见抑郁和性欲低下；严重抑郁或自杀念头需要紧急医疗帮助。';
 
   @override
   String get addictionSteroids => '合成代谢类固醇';
@@ -544,21 +545,21 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get steroidsMilestone30Description =>
-      '一个月时HPTA开始重新启动。促性腺激素和睾酮开始上升，尽管症状通常仍然存在。';
+      '一个月时，大脑与睾丸之间的激素系统开始重新启动。推动睾酮生成的激素和睾酮本身都开始上升，不过情绪低落、性欲低下或精力不足仍可能持续。';
 
   @override
   String get steroidsMilestone90Title => '三个月——激素上升中';
 
   @override
   String get steroidsMilestone90Description =>
-      '三个月后，大多数人的促性腺激素和睾酮正在向正常水平攀升，情绪和性欲开始跟随。';
+      '三个月后，大多数人的睾酮和推动其生成的激素都在向正常水平回升，情绪和性欲也常随之改善。';
 
   @override
   String get steroidsMilestone180Title => '六个月——通常已恢复';
 
   @override
   String get steroidsMilestone180Description =>
-      '到六个月时，许多人已接近完全生化恢复，睾酮和促性腺激素回到正常范围，症状得到解决。';
+      '到六个月时，许多人的激素恢复已经明显进展，睾酮及其调节激素回到正常范围，症状也在缓解。';
 
   @override
   String get steroidsMilestone365Title => '一年后';
@@ -568,11 +569,11 @@ class AppLocalizationsZh extends AppLocalizations {
       '停用类固醇一年。对大多数人来说，激素和情绪已经正常化；此点之后持续的睾酮偏低需要专科评估。';
 
   @override
-  String get steroidsMilestone730Title => '两年——新的基线';
+  String get steroidsMilestone730Title => '两年——新的常态';
 
   @override
   String get steroidsMilestone730Description =>
-      '停用类固醇两年。您的激素反映您的自然基线；任何持续的缺乏应由专科医生管理。';
+      '停用类固醇两年。现在的激素水平反映的是身体本身的自然水平；如果低睾酮症状仍在持续，应请专科医生评估。';
 
   @override
   String get appTitle => 'Quitter';
@@ -634,7 +635,7 @@ class AppLocalizationsZh extends AppLocalizations {
       '您的大脑正在积极愈合。自然多巴胺产生正在改善，您可能会注意到没有药物时更好的专注力和动力。睡眠质量和食欲恢复正常模式。';
 
   @override
-  String get adderallMilestone60Title => '两个月：认知功能改善';
+  String get adderallMilestone60Title => '两个月：思维和记忆改善';
 
   @override
   String get adderallMilestone60Description =>
@@ -652,7 +653,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get adderallMilestone180Description =>
-      '多巴胺受体继续恢复至正常功能。您在认知表现、情绪健康和整体生活质量方面正在经历持续改善。您的大脑每天都在变强。';
+      '多巴胺信号传导继续恢复。专注力、记忆、情绪和日常生活质量也在继续改善。';
 
   @override
   String get adderallMilestone365Title => '一年：接近完全康复';
@@ -717,11 +718,11 @@ class AppLocalizationsZh extends AppLocalizations {
       '大约3个月时，许多身体戒断症状已显著改善。您的身体继续适应在没有药物的情况下运作。焦虑和情绪可能仍会波动，但整体功能改善。';
 
   @override
-  String get benzoMilestone180Title => '认知功能开始恢复';
+  String get benzoMilestone180Title => '思维和记忆开始恢复';
 
   @override
   String get benzoMilestone180Description =>
-      '6个月时，记忆、注意力和认知功能开始出现明显改善。研究表明在许多认知领域有适度恢复，尽管完全恢复需要更长时间。您大脑的自然能力正在逐渐回归。';
+      '六个月时，记忆和注意力会出现可测量的改善。研究发现多种思维能力都在恢复，而且这种进步会持续到六个月以后。';
 
   @override
   String get benzoMilestone365Title => '一年的愈合';
@@ -735,21 +736,21 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get benzoMilestone540Description =>
-      '18个月时，持续的认知改善发生。GABA受体功能在停用后2-6个月内正常化，大脑结构开始恢复。神经可塑性允许您的大脑形成新的、更健康的神经通路。';
+      '18个月时，记忆、注意力和清晰思维仍在继续改善。大脑起镇静作用的GABA系统已经有一年多时间逐渐稳定，同时大脑也在继续建立更健康的模式。';
 
   @override
   String get benzoMilestone730Title => '两年：重大进展';
 
   @override
   String get benzoMilestone730Description =>
-      '两年标志着实质性恢复。大多数人在认知功能、情绪调节和生活质量方面经历了显著改善。虽然有些人可能仍会经历渐进的改善，但许多人已恢复到服用苯二氮卓前的功能水平。';
+      '两年标志着显著恢复。大多数人的思维清晰得多，情绪更稳定，生活质量也比长期使用苯二氮卓时好得多。';
 
   @override
   String get benzoMilestone1095Title => '三年：长期康复';
 
   @override
   String get benzoMilestone1095Description =>
-      '三年时，对于大多数人来说，物理大脑结构恢复达到完成。海马体和杏仁核体积通过神经可塑性持续正常化。您已经实现了持久的康复，并为生活重建了更健康的基础。';
+      '三年时，对大多数人来说漫长的戒断期已经远去。睡眠、情绪、记忆和注意力都有了数年的恢复时间，日常生活通常也比长期用药期间好得多。';
 
   @override
   String get addictionMeth => '冰毒';
@@ -805,7 +806,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get methMilestone90Description =>
-      '您的大脑正在积极恢复正常功能。在注意力和决策等领域，认知改善变得明显。此时期标志着您的奖赏系统开始正常化时的重要神经恢复。';
+      '您的大脑正在积极恢复。随着奖赏系统逐渐回到正常状态，注意力、记忆和决策能力开始让人感觉更好了。';
 
   @override
   String get methMilestone180Title => '六个月——心血管恢复';
@@ -819,21 +820,21 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get methMilestone365Description =>
-      '多巴胺系统恢复达到重要里程碑。您的大脑从自然奖赏中体验快乐的能力大幅改善。认知功能、情绪调节和决策显示出显著改善。';
+      '一年后，多巴胺系统已经取得很大恢复。自然的日常奖励重新变得更有吸引力，情绪、记忆和决策能力也明显改善。';
 
   @override
   String get methMilestone420Title => '14个月——多巴胺正常化';
 
   @override
   String get methMilestone420Description =>
-      '脑成像研究表明，此阶段多巴胺转运体水平接近正常。这代表了神经恢复的最重要阶段，记忆、动机和从日常活动中感受快乐的能力都有所改善。';
+      '脑扫描显示，在这个阶段负责多巴胺再循环的蛋白质正接近健康水平。记忆、动力以及享受日常活动的能力也在继续改善。';
 
   @override
   String get methMilestone730Title => '两年——持续康复';
 
   @override
   String get methMilestone730Description =>
-      '长期戒断允许持续的大脑愈合。注意力和情绪通常在12-18个月内对大多数人来说恢复。您的认知功能、情绪调节和整体生活质量随着持续康复而继续改善。';
+      '两年不使用冰毒，让大脑有持续而充足的时间恢复。注意力、情绪、记忆和日常生活质量都在继续改善。';
 
   @override
   String get addictionNitrousOxide => '笑气';
@@ -858,7 +859,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get nitrousOxideMilestone1Description =>
-      '气体在数分钟内离开您的系统，但愈合需要更长时间。头晕消退，头痛缓解，您的大脑开始在没有多巴胺捷径的情况下重新校准。您的B12恢复现在开始。';
+      '气体会在几分钟内离开身体，但恢复需要更长时间。头晕逐渐消退，头痛缓解，大脑开始适应没有多巴胺捷径的状态。B12的恢复也从现在开始。';
 
   @override
   String get nitrousOxideMilestone3Title => '第三天——无身体戒断';
@@ -963,14 +964,14 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get cocaineMilestone90Description =>
-      '您的大脑正在积极修复多巴胺受体和神经通路。您可能会注意到专注力、决策和情绪调节的改善。认知功能显著改善。';
+      '您的多巴胺系统正在恢复。专注力、决策和情绪控制明显改善，思维也更加清晰。';
 
   @override
-  String get cocaineMilestone180Title => '六个月——认知增益';
+  String get cocaineMilestone180Title => '六个月——思维更清晰';
 
   @override
   String get cocaineMilestone180Description =>
-      '脑成像研究显示此阶段前额叶皮层灰质体积增加。您的执行功能、记忆和冲动控制继续增强。您思考得更加清晰。';
+      '脑扫描显示，大脑前部——负责计划和自我控制的区域——正在恢复。记忆、冲动控制和清晰思维也在继续增强。';
 
   @override
   String get cocaineMilestone365Title => '一年——心血管健康';
@@ -1895,7 +1896,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get alcoholMilestone14Description =>
-      '在戒酒的前两周内，脑容量开始迅速恢复。研究表明，脑组织恢复的迹象始于14天左右，尽管完全的认知功能会在数月内持续改善。';
+      '在最初两周内，脑容量开始恢复。思维和记忆会在接下来的几个月里继续改善。';
 
   @override
   String get alcoholMilestone30Title => '血压正常化';
@@ -1912,18 +1913,18 @@ class AppLocalizationsZh extends AppLocalizations {
       '您的肝功能显示出可测量的改善。这个再生器官可以从酒精引起的损伤中显著恢复，肝酶和脂肪堆积在戒酒2个月内显示出改善。';
 
   @override
-  String get alcoholMilestone90Title => '认知功能显著改善';
+  String get alcoholMilestone90Title => '思维和记忆显著改善';
 
   @override
   String get alcoholMilestone90Description =>
-      '在前3个月内发生显著的认知恢复。研究表明，保持戒酒的人在几个月内认知功能继续恢复，记忆力、注意力和决策能力有可测量的改善。';
+      '前三个月会带来记忆、专注力和决策能力的显著改善，而且恢复会在接下来的几个月里继续。';
 
   @override
   String get alcoholMilestone180Title => '脑容量和功能继续恢复';
 
   @override
   String get alcoholMilestone180Description =>
-      '六个月的清醒允许持续的神经恢复。研究表明，在这段持续戒酒期间，脑容量继续增加，认知能力继续显著提高。';
+      '六个月的戒酒让大脑有持续恢复的时间。脑容量和思维能力都在继续改善。';
 
   @override
   String get alcoholMilestone365Title => '癌症风险可能开始降低';
@@ -2035,14 +2036,14 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get vapingMilestone60Description =>
-      '剧情反转：吸电子烟实际上让您的焦虑问题变得更糟，而不是更好！两个月后，您的基线焦虑水平显著降低。您的神经系统终于冷静下来了。';
+      '剧情反转：吸电子烟其实让焦虑更糟，而不是更好！两个月后，您平时的焦虑水平更低，神经系统也正在平稳下来。';
 
   @override
-  String get vapingMilestone90Title => '认知功能变得敏锐';
+  String get vapingMilestone90Title => '专注力和记忆力更敏锐';
 
   @override
   String get vapingMilestone90Description =>
-      '脑雾已正式离场！三个月没有尼古丁，您的认知功能、注意力和记忆力显著改善。这就像升级了您的心理内存。';
+      '脑雾已经退场！三个月没有尼古丁，您的专注力、记忆力和清晰思维都明显改善。就像给大脑的内存做了升级。';
 
   @override
   String get vapingMilestone180Title => '口腔健康恢复';
@@ -2105,21 +2106,21 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get marijuanaMilestone90Description =>
-      '情绪平衡恢复！三个月的禁欲带来了情绪调节的显著改善，焦虑水平降低，压力管理更好。您的情绪基线正在正常化。';
+      '三个月没有大麻，会带来更稳定的情绪、更少的焦虑和更好的压力控制。您的情绪状态正在稳定到更健康的常态。';
 
   @override
-  String get marijuanaMilestone180Title => '执行功能恢复';
+  String get marijuanaMilestone180Title => '计划和决策能力恢复';
 
   @override
   String get marijuanaMilestone180Description =>
-      '您的心理 CEO 回来了！六个月没有大麻显示出执行功能的实质性改善——计划、决策和解决问题的能力显著增强。';
+      '您的心理CEO重新掌权了！六个月没有大麻，会让计划、决策和解决问题的能力明显提升。';
 
   @override
   String get marijuanaMilestone365Title => '脑结构修复';
 
   @override
   String get marijuanaMilestone365Description =>
-      '神经架构重建！一年的禁欲允许受长期大麻使用影响的大脑区域显著恢复。认知改善成为您的新常态，对学习和记忆有持久的好处。';
+      '一年没有大麻，让与记忆相关的大脑区域有充分时间恢复。学习和记忆的改善已经成为您的新常态。';
 
   @override
   String get opioidMilestone1Title => '急性戒断开始';
@@ -2143,11 +2144,11 @@ class AppLocalizationsZh extends AppLocalizations {
       '美梦正在回归！两周后，您的自然睡眠结构开始恢复。阿片类药物会扰乱快速眼动睡眠，但您的大脑正在学习再次自然地做梦。';
 
   @override
-  String get opioidMilestone30Title => '认知功能开始恢复';
+  String get opioidMilestone30Title => '思维和记忆开始恢复';
 
   @override
   String get opioidMilestone30Description =>
-      '脑雾开始消散！清醒一个月，您的认知功能、决策和记忆力开始改善。您的前额叶皮层正在从阿片类药物引起的变化中愈合。';
+      '脑雾正在消散！清醒一个月后，随着大脑前部从阿片类药物相关变化中恢复，记忆、决策和清晰思维也在改善。';
 
   @override
   String get opioidMilestone60Title => '情绪调节改善';
@@ -2231,7 +2232,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get socialMediaMilestone90Description =>
-      '三个月 = 大约收回了270+小时！这足够学习一项新技能，阅读15+本书，或掌握您一直说“总有一天”会尝试的爱好。神经可塑性研究表明，您的大脑实际上正在为这些新的好习惯重新连接！';
+      '三个月大约收回了270+小时！这足够学习一项技能、读15+本书，或深入培养一个爱好。大脑会强化您反复练习的习惯，所以这些线下习惯正变得更轻松、更自动。';
 
   @override
   String get socialMediaMilestone180Title => '心理健康焕然一新 🌟';
@@ -2280,7 +2281,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get nicotinePouchesMilestone30Description =>
-      '剧情反转：尼古丁实际上增加了使用之间的压力！您的皮质醇水平和应激反应现在正在恢复基线。真正的放松，而不是尼古丁的假象。';
+      '剧情反转：尼古丁其实会增加两次使用之间的压力！您的皮质醇和应激反应正在恢复正常。真正的放松，而不是尼古丁制造的假象。';
 
   @override
   String get nicotinePouchesMilestone60Title => '睡眠质量改善';
@@ -2459,7 +2460,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get ssriMilestone3Description =>
-      '停药症状通常在第2-4天达到峰值。SSRI阻断血清素再摄取。您可能会经历流感样症状、头晕、失眠、恶心和特征性\"脑闪\"。帕罗西汀症状最严重，氟西汀因半衰期长而最温和。';
+      '戒断症状通常在第2-4天达到峰值。SSRI会改变血清素的再循环方式，因此停药后大脑需要时间适应。可能出现流感样症状、头晕、失眠、恶心和“脑闪”。帕罗西汀往往引起更强的戒断反应；氟西汀在体内停留时间更长，通常较轻。';
 
   @override
   String get ssriMilestone7Title => '一周：急性期开始缓解';
@@ -2487,7 +2488,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get ssriMilestone90Description =>
-      '三个月是一个重大的康复里程碑。5-HT1A受体敏感性恢复需要2-3个月。大多数人发现情绪、焦虑和认知功能都有明显改善。';
+      '三个月是一个重要的恢复里程碑。药物离开身体后，血清素系统已经有几个月时间适应。对大多数人来说，情绪、焦虑、专注力和清晰思维都有明显改善。';
 
   @override
   String get ssriMilestone180Title => '六个月：大脑长期调整';
@@ -2535,7 +2536,7 @@ class AppLocalizationsZh extends AppLocalizations {
       'SNRI，特别是文拉法辛（Effexor），与最严重的抗抑郁药停药综合征相关。血清素和去甲肾上腺素两个系统同时受到影响，FINISH症状可能比SSRI更强烈。';
 
   @override
-  String get snriMilestone7Title => '一周：双重神经递质调整';
+  String get snriMilestone7Title => '一周：两个大脑化学系统正在调整';
 
   @override
   String get snriMilestone7Description =>
@@ -2560,7 +2561,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get snriMilestone90Description =>
-      '三个月是一个重大的康复里程碑。SERT和NET都已正常化。认知功能、情绪调节和焦虑都有明显改善。';
+      '三个月是一个重要的恢复里程碑。血清素和去甲肾上腺素系统已经有几个月时间适应。经过医疗监督下的减药后，情绪、焦虑、专注力和清晰思维都明显改善。';
 
   @override
   String get snriMilestone180Title => '六个月：神经学恢复';
@@ -2601,53 +2602,53 @@ class AppLocalizationsZh extends AppLocalizations {
   String get tcaSubtitleNotStarted => '看看停药后会发生什么';
 
   @override
-  String get tcaMilestone3Title => '第3天：胆碱能反弹达到峰值';
+  String get tcaMilestone3Title => '第3天：乙酰胆碱反弹达到峰值';
 
   @override
   String get tcaMilestone3Description =>
-      '三环类抗抑郁药（TCA）具有强烈的抗胆碱能作用。停药后会发生胆碱能反弹，症状包括恶心、腹泻、腹部痉挛、过度出汗、头痛和失眠，与SSRI的FINISH综合征不同。';
+      'TCA会阻断乙酰胆碱。停药后，这个系统可能短暂变得过度活跃。症状包括恶心、腹泻、腹部痉挛、大量出汗、头痛、肌肉酸痛和失眠。这些症状通常较早达到峰值，然后逐渐缓解。';
 
   @override
-  String get tcaMilestone7Title => '一周：胆碱能症状减轻';
+  String get tcaMilestone7Title => '一周：反弹症状开始缓解';
 
   @override
   String get tcaMilestone7Description =>
-      '胆碱能反弹通常在一周内开始显著减轻。消化道症状、出汗和流感样症状在减少。自主神经系统开始恢复其自然平衡。';
+      '乙酰胆碱反弹通常在最初几天达到峰值，并在一周左右开始缓解。胃肠症状、出汗和流感样感觉正在减少，控制心率、消化和出汗的身体系统也在逐渐恢复正常。';
 
   @override
   String get tcaMilestone14Title => '两周：抗胆碱能效果逆转';
 
   @override
   String get tcaMilestone14Description =>
-      'TCA施加的抗胆碱能副作用（口干、便秘、排尿困难、视力模糊）正在逆转。随着大脑胆碱能通路正常化，认知清晰度改善。';
+      '随着乙酰胆碱系统恢复，TCA引起的口干、便秘、排尿困难和视力模糊正在逆转。记忆和注意力也常会感觉更清晰。';
 
   @override
   String get tcaMilestone30Title => '一个月：自主神经系统稳定';
 
   @override
   String get tcaMilestone30Description =>
-      '一个月标志着自主神经系统的稳定。心律和血压变异性恢复正常。TCA抑制的REM睡眠随着胆碱能活动的恢复而开始恢复。';
+      '一个月时，控制心率、血压、消化和出汗的身体系统正在稳定。心律和血压变化正趋向正常，REM做梦睡眠也开始恢复。';
 
   @override
-  String get tcaMilestone90Title => '三个月：多种神经递质系统正常化';
+  String get tcaMilestone90Title => '三个月：大脑化学系统趋于稳定';
 
   @override
   String get tcaMilestone90Description =>
-      'TCA影响血清素、去甲肾上腺素、乙酰胆碱和组胺系统。三个月使所有这些系统得到实质性恢复。情绪、认知功能和身体健康都有明显改善。';
+      'TCA会影响多个大脑化学系统。三个月给了这些系统充分时间逐渐稳定。情绪、清晰思维和身体状态都明显改善。';
 
   @override
-  String get tcaMilestone180Title => '六个月：心脏和认知恢复';
+  String get tcaMilestone180Title => '六个月：心脏和思维恢复';
 
   @override
   String get tcaMilestone180Description =>
-      '六个月的恢复使心脏和认知得到实质性恢复。TCA引起的QTc延长已消退。抗胆碱能效应引起的认知障碍（特别是记忆和处理速度）已大幅改善。';
+      '六个月让心律、记忆和思维速度得到明显恢复。TCA引起的心律变化和脑雾已经有几个月时间逐渐消退。';
 
   @override
   String get tcaMilestone365Title => '一年：康复实现';
 
   @override
   String get tcaMilestone365Description =>
-      '一年标志着完整的多系统恢复。TCA影响的所有神经递质系统都经历了一个完整的正常化周期。';
+      '一年给了所有受TCA影响的系统整整一年的恢复时间。乙酰胆碱、去甲肾上腺素、血清素和组胺系统都已稳定，记忆、清晰思维和心率控制也得到明显恢复。';
 
   @override
   String get settingsShowTcaTracking => '显示三环类追踪';
@@ -2695,18 +2696,18 @@ class AppLocalizationsZh extends AppLocalizations {
       '两周是不可逆MAOI停药后MAO酶恢复的标准临床时间框架。MAO-A和MAO-B活性已大幅恢复，正常酪胺代谢已重新建立。可在医师指导下放宽MAOI治疗期间所需的饮食限制。';
 
   @override
-  String get maoiMilestone30Title => '一个月：神经递质系统重新平衡';
+  String get maoiMilestone30Title => '一个月：大脑化学系统重新平衡';
 
   @override
   String get maoiMilestone30Description =>
-      '一个月后，MAO酶活性完全恢复，神经递质系统处于完全自然调节下。血清素、去甲肾上腺素、多巴胺和酪胺均正常代谢。MAOI相关药物相互作用风险已消退，但处方新药时务必告知医生既往MAOI使用史。';
+      '停用MAOI一个月后，MAO酶再次活跃，大脑会自然处理血清素、去甲肾上腺素、多巴胺和酪胺。特殊的食物和药物相互作用期已经结束，不过仍应告知开药医生您曾使用过MAOI。';
 
   @override
   String get maoiMilestone90Title => '三个月：大脑化学物质正常化';
 
   @override
   String get maoiMilestone90Description =>
-      '三个月的自然单胺调节使大脑从MAO抑制状态大幅重新调整。MAOI治疗引起的受体超敏感性正在消退。情绪调节、精力和认知功能正在稳定。';
+      '三个月给了大脑的情绪和能量系统充分时间在停用MAOI后重新调整。随着大脑重新自然处理这些化学物质，情绪、精力和清晰思维也在稳定下来。';
 
   @override
   String get maoiMilestone180Title => '六个月：长期恢复';
@@ -2720,13 +2721,67 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get maoiMilestone365Description =>
-      'MAOI停药后一年是一个真正重要的里程碑。MAOI是药理学上最复杂的抗抑郁药，具有最广泛的神经递质系统影响和最严苛的停药过程。一年展示了完整的恢复和非凡的个人韧性。';
+      '停用MAOI一年后，大脑和身体已经有整整一年不受药物影响。情绪、精力、清晰思维以及正常的大脑化学调节，都有了充分时间稳定和恢复。';
 
   @override
   String get settingsShowMaoiTracking => '显示MAOI追踪';
 
   @override
   String get settingsNotifyMaoi => '通知MAOI戒断进度';
+
+  @override
+  String milestoneRetrieved(String date) {
+    return '检索日期：$date';
+  }
+
+  @override
+  String notificationProgressTitle(String name) {
+    return '远离$name';
+  }
+
+  @override
+  String notificationProgressBody(int days, String message) {
+    return '已坚持$days天 — $message';
+  }
+
+  @override
+  String get notificationProgressMessage1 => '继续保持这份出色的努力！';
+
+  @override
+  String get notificationProgressMessage2 => '你做得很棒！';
+
+  @override
+  String get notificationProgressMessage3 => '坚持得太棒了！';
+
+  @override
+  String get notificationProgressMessage4 => '为你的坚强喝彩！';
+
+  @override
+  String get notificationProgressMessage5 => '继续闪耀！';
+
+  @override
+  String get notificationProgressMessage6 => '做得漂亮！';
+
+  @override
+  String get notificationProgressMessage7 => '继续加油！';
+
+  @override
+  String get notificationProgressMessage8 => '你是真正的冠军！';
+
+  @override
+  String get notificationProgressMessage9 => '这份努力非常了不起！';
+
+  @override
+  String get notificationProgressMessage10 => '保持坚强！';
+
+  @override
+  String get notificationChannelName => '提醒';
+
+  @override
+  String get notificationChannelDescription => '每日进度提醒通知';
+
+  @override
+  String get notificationOpenAction => '打开通知';
 
   @override
   String get done => '完成';
