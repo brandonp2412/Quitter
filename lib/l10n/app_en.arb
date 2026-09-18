@@ -582,15 +582,15 @@
   "@settingsLocaleEnglish": {
     "description": "Show app in English"
   },
-  "settingsLocaleSimplifiedChinese": "Chinese",
+  "settingsLocaleSimplifiedChinese": "Simplified Chinese",
   "@settingsLocaleSimplifiedChinese": {
     "description": "Show app in Simplified Chinese"
   },
-  "settingsLocaleSystem": "System",
+  "settingsLocaleSystem": "System default",
   "@settingsLocaleSystem": {
     "description": "Follows the device locale"
   },
-  "settingsLocale": "Locale",
+  "settingsLocale": "Language",
   "@settingsLocale": {
     "description": "Language for the text in Quitter"
   },

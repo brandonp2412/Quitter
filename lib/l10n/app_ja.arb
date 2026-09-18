@@ -582,11 +582,11 @@
   "@settingsLocaleEnglish": {
     "description": "Show app in English"
   },
-  "settingsLocaleSimplifiedChinese": "中国語",
+  "settingsLocaleSimplifiedChinese": "簡体字中国語",
   "@settingsLocaleSimplifiedChinese": {
     "description": "Show app in Simplified Chinese"
   },
-  "settingsLocaleSystem": "システム",
+  "settingsLocaleSystem": "システムのデフォルト",
   "@settingsLocaleSystem": {
     "description": "Follows the device locale"
   },

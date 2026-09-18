@@ -2155,19 +2155,19 @@ abstract class AppLocalizations {
   /// Show app in Simplified Chinese
   ///
   /// In en, this message translates to:
-  /// **'Chinese'**
+  /// **'Simplified Chinese'**
   String get settingsLocaleSimplifiedChinese;
 
   /// Follows the device locale
   ///
   /// In en, this message translates to:
-  /// **'System'**
+  /// **'System default'**
   String get settingsLocaleSystem;
 
   /// Language for the text in Quitter
   ///
   /// In en, this message translates to:
-  /// **'Locale'**
+  /// **'Language'**
   String get settingsLocale;
 
   /// Name of the nicotine pouches addiction type

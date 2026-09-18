@@ -1209,13 +1209,13 @@ class AppLocalizationsEn extends AppLocalizations {
   String get settingsLocaleEnglish => 'English';
 
   @override
-  String get settingsLocaleSimplifiedChinese => 'Chinese';
+  String get settingsLocaleSimplifiedChinese => 'Simplified Chinese';
 
   @override
-  String get settingsLocaleSystem => 'System';
+  String get settingsLocaleSystem => 'System default';
 
   @override
-  String get settingsLocale => 'Locale';
+  String get settingsLocale => 'Language';
 
   @override
   String get addictionNicotinePouches => 'Nicotine pouches';

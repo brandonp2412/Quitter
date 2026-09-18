@@ -586,7 +586,7 @@
   "@settingsLocaleSimplifiedChinese": {
     "description": "Show app in Simplified Chinese"
   },
-  "settingsLocaleSystem": "跟随系统",
+  "settingsLocaleSystem": "系统默认",
   "@settingsLocaleSystem": {
     "description": "Follows the device locale"
   },

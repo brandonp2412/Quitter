@@ -31,6 +31,7 @@ void main() {
   setUp(() async {
     SharedPreferences.setMockInitialValues(allAddictions);
     settingsProvider = SettingsProvider();
+    await settingsProvider.loadPreferences();
     addictionProvider = AddictionProvider();
     await addictionProvider.loadAddictions();
   });
@@ -43,15 +44,18 @@ void main() {
           value: addictionProvider,
         ),
       ],
-      child: const MaterialApp(
-        localizationsDelegates: [
-          AppLocalizations.delegate,
-          GlobalMaterialLocalizations.delegate,
-          GlobalWidgetsLocalizations.delegate,
-          GlobalCupertinoLocalizations.delegate,
-        ],
-        supportedLocales: AppLocalizations.supportedLocales,
-        home: SettingsPage(),
+      child: Consumer<SettingsProvider>(
+        builder: (context, settings, child) => MaterialApp(
+          locale: settings.locale == 'system' ? null : Locale(settings.locale),
+          localizationsDelegates: const [
+            AppLocalizations.delegate,
+            GlobalMaterialLocalizations.delegate,
+            GlobalWidgetsLocalizations.delegate,
+            GlobalCupertinoLocalizations.delegate,
+          ],
+          supportedLocales: AppLocalizations.supportedLocales,
+          home: const SettingsPage(),
+        ),
       ),
     );
   }
@@ -83,6 +87,63 @@ void main() {
       await tester.pumpWidget(createTestWidget());
 
       expect(find.text('Color scheme'), findsOneWidget);
+    });
+
+    testWidgets(
+      'language picker lists every supported locale and applies now',
+      (WidgetTester tester) async {
+        await tester.pumpWidget(createTestWidget());
+
+        expect(find.text('Language'), findsOneWidget);
+        expect(find.text('System default'), findsOneWidget);
+
+        await tester.tap(find.text('Language'));
+        await tester.pumpAndSettle();
+
+        final dialog = find.byType(AlertDialog);
+        expect(
+          find.descendant(of: dialog, matching: find.text('System default')),
+          findsOneWidget,
+        );
+        expect(
+          find.descendant(of: dialog, matching: find.text('English')),
+          findsOneWidget,
+        );
+        expect(
+          find.descendant(of: dialog, matching: find.text('Japanese')),
+          findsOneWidget,
+        );
+        expect(
+          find.descendant(
+            of: dialog,
+            matching: find.text('Simplified Chinese'),
+          ),
+          findsOneWidget,
+        );
+        expect(
+          AppLocalizations.supportedLocales.map(
+            (locale) => locale.languageCode,
+          ),
+          ['en', 'ja', 'zh'],
+        );
+
+        await tester.tap(find.text('Japanese'));
+        await tester.pumpAndSettle();
+
+        expect(settingsProvider.locale, 'ja');
+        expect(find.text('言語'), findsOneWidget);
+        expect(find.text('日本語'), findsOneWidget);
+      },
+    );
+
+    test('persists the language override across provider reloads', () async {
+      settingsProvider.locale = 'zh';
+      await Future<void>.delayed(Duration.zero);
+
+      final reloaded = SettingsProvider();
+      await reloaded.loadPreferences();
+
+      expect(reloaded.locale, 'zh');
     });
 
     testWidgets('displays reset buttons toggle', (WidgetTester tester) async {

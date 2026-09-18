@@ -428,7 +428,7 @@ class _SettingsPageState extends State<SettingsPage> {
       ListTile(
         leading: const Icon(Icons.language),
         title: Text(l10n.settingsLocale),
-        subtitle: Text(settings.locale),
+        subtitle: Text(_localeDisplayName(l10n, settings.locale)),
         onTap: () => _showLocaleDialog(context, settings),
       ),
       SwitchListTile(
@@ -891,25 +891,29 @@ class _SettingsPageState extends State<SettingsPage> {
     );
   }
 
+  String _localeDisplayName(AppLocalizations l10n, String locale) {
+    return switch (locale) {
+      'system' => l10n.settingsLocaleSystem,
+      'en' => l10n.settingsLocaleEnglish,
+      'ja' => l10n.settingsLocaleJapanese,
+      'zh' => l10n.settingsLocaleSimplifiedChinese,
+      _ => l10n.settingsLocaleUnsupported,
+    };
+  }
+
   void _showLocaleDialog(BuildContext context, SettingsProvider settings) {
     final l10n = AppLocalizations.of(context)!;
-    _showSelectionDialog<String?>(
+    _showSelectionDialog<String>(
       context: context,
       title: l10n.settingsLocale,
       currentValue: settings.locale,
-      options: ['system', 'en', 'ja', 'zh'],
-      getDisplayName: (value) {
-        if (value == 'system')
-          return l10n.settingsLocaleSystem;
-        else if (value == 'en')
-          return l10n.settingsLocaleEnglish;
-        else if (value == 'ja')
-          return l10n.settingsLocaleJapanese;
-        else if (value == 'zh')
-          return l10n.settingsLocaleSimplifiedChinese;
-        return l10n.settingsLocaleUnsupported;
-      },
-      onChanged: (value) => settings.locale = value ?? 'system',
+      options: [
+        'system',
+        for (final locale in AppLocalizations.supportedLocales)
+          locale.languageCode,
+      ],
+      getDisplayName: (value) => _localeDisplayName(l10n, value),
+      onChanged: (value) => settings.locale = value,
     );
   }
 

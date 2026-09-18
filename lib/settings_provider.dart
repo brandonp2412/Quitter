@@ -8,6 +8,7 @@ import 'package:quitter/color_scheme_type.dart';
 import 'package:quitter/tasks.dart';
 import 'package:quitter/app_theme_mode.dart';
 import 'package:quitter/logging.dart';
+import 'package:quitter/l10n/generated/app_localizations.dart';
 
 class SettingsProvider extends ChangeNotifier {
   static const String _themeKey = 'theme_mode';
@@ -21,6 +22,10 @@ class SettingsProvider extends ChangeNotifier {
   static const _pinLockedUntilKey = 'pin_locked_until_ms';
   static const _localeKey = 'locale';
   static const _weekStartsMondayKey = 'week_starts_monday';
+  static final Set<String> _supportedLocales = {
+    'system',
+    for (final locale in AppLocalizations.supportedLocales) locale.languageCode,
+  };
 
   bool _isUnlocked = false;
   bool get isUnlocked => _isUnlocked;
@@ -235,7 +240,7 @@ class SettingsProvider extends ChangeNotifier {
     final storedPinTimeout = read<int>(_pinTimeoutKey) ?? 15;
     _pinTimeout = storedPinTimeout >= 0 ? storedPinTimeout : 15;
     final storedLocale = read<String>(_localeKey) ?? 'system';
-    _locale = const {'system', 'en', 'ja', 'zh'}.contains(storedLocale)
+    _locale = _supportedLocales.contains(storedLocale)
         ? storedLocale
         : 'system';
     _weekStartsMonday = read<bool>(_weekStartsMondayKey) ?? false;
@@ -281,9 +286,7 @@ class SettingsProvider extends ChangeNotifier {
   }
 
   set locale(String locale) {
-    final normalized = const {'system', 'en', 'ja', 'zh'}.contains(locale)
-        ? locale
-        : 'system';
+    final normalized = _supportedLocales.contains(locale) ? locale : 'system';
     _locale = normalized;
     notifyListeners();
     _prefs?.setString(_localeKey, normalized);
