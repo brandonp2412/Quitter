@@ -13,7 +13,19 @@ if [ -z "${EMULATOR_PORT:-}" ]; then
 fi
 
 device="emulator-$EMULATOR_PORT"
-screenshot_dir="fastlane/metadata/android/en-US/images/$QUITTER_DEVICE_TYPE"
+locale="${QUITTER_LOCALE:-en}"
+
+case "$locale" in
+  en) store_locale="en-US" ;;
+  ja) store_locale="ja-JP" ;;
+  zh) store_locale="zh-CN" ;;
+  *)
+    echo "Unsupported QUITTER_LOCALE: $locale" >&2
+    exit 1
+    ;;
+esac
+
+screenshot_dir="fastlane/metadata/android/$store_locale/images/$QUITTER_DEVICE_TYPE"
 
 wait_for_emulator() {
   timeout 60 adb -s "$device" wait-for-device >/dev/null 2>&1 || return 1
@@ -61,7 +73,7 @@ fi
 
 screenshots_complete() {
   for number in $(seq 1 8); do
-    [ -s "$screenshot_dir/${number}_en-US.png" ] || return 1
+    [ -s "$screenshot_dir/${number}_${store_locale}.png" ] || return 1
   done
   return 0
 }
@@ -79,6 +91,7 @@ while :; do
     --driver=test_driver/integration_test.dart \
     --target=integration_test/screenshot_test.dart \
     --dart-define="QUITTER_DEVICE_TYPE=$QUITTER_DEVICE_TYPE" \
+    --dart-define="QUITTER_LOCALE=$locale" \
     -d "$device" >"$drive_log" 2>&1 || drive_status=$?
 
   cat "$drive_log"
@@ -109,13 +122,13 @@ while :; do
 done
 
 for number in $(seq 1 8); do
-  if [ ! -s "$screenshot_dir/${number}_en-US.png" ]; then
-    echo "Missing generated screenshot: ${number}_en-US.png" >&2
+  if [ ! -s "$screenshot_dir/${number}_${store_locale}.png" ]; then
+    echo "Missing generated screenshot: ${number}_${store_locale}.png" >&2
     [ "$drive_status" -ne 0 ] && exit "$drive_status"
     exit 1
   fi
-  if [ -n "${SCREENSHOT_SCREEN_SIZE:-}" ] && ! file "$screenshot_dir/${number}_en-US.png" | grep -Fq " $expected_dimensions,"; then
-    echo "Screenshot has unexpected dimensions: $(file "$screenshot_dir/${number}_en-US.png")" >&2
+  if [ -n "${SCREENSHOT_SCREEN_SIZE:-}" ] && ! file "$screenshot_dir/${number}_${store_locale}.png" | grep -Fq " $expected_dimensions,"; then
+    echo "Screenshot has unexpected dimensions: $(file "$screenshot_dir/${number}_${store_locale}.png")" >&2
     exit 1
   fi
 done

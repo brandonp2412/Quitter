@@ -9,6 +9,7 @@ import 'package:quitter/app_theme_mode.dart';
 import 'package:quitter/edit_entry_page.dart';
 import 'package:quitter/entry.dart';
 import 'package:quitter/home_page.dart';
+import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:quitter/marijuana_page.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:quitter/main.dart' as app;
@@ -16,6 +17,17 @@ import 'package:quitter/alcohol_page.dart';
 import 'package:quitter/settings_page.dart';
 import 'package:quitter/smoking_page.dart';
 import 'package:quitter/settings_provider.dart';
+
+const screenshotLocale = String.fromEnvironment(
+  'QUITTER_LOCALE',
+  defaultValue: 'en',
+);
+
+String get screenshotStoreLocale => switch (screenshotLocale) {
+  'ja' => 'ja-JP',
+  'zh' => 'zh-CN',
+  _ => 'en-US',
+};
 
 Future<void> appWrapper() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -62,7 +74,7 @@ Future<void> screenshot({
   await binding.convertFlutterSurfaceToImage();
   settle ? await tester.pump() : await tester.pumpAndSettle();
   if (defaultTargetPlatform != TargetPlatform.linux)
-    await binding.takeScreenshot(name);
+    await binding.takeScreenshot('${name}_$screenshotStoreLocale');
 }
 
 void main() {
@@ -72,6 +84,7 @@ void main() {
   setUpAll(() async {
     final prefs = await SharedPreferences.getInstance();
     await prefs.clear();
+    await prefs.setString('locale', screenshotLocale);
     await prefs.setInt('notify_every', 0);
     await prefs.setString(
       'vaping',
@@ -91,7 +104,7 @@ void main() {
     testWidgets(
       "HomePage",
       (tester) async =>
-          await screenshot(binding: binding, tester: tester, name: '1_en-US'),
+          await screenshot(binding: binding, tester: tester, name: '1'),
     );
 
     testWidgets(
@@ -99,7 +112,7 @@ void main() {
       (tester) async => await screenshot(
         binding: binding,
         tester: tester,
-        name: '2_en-US',
+        name: '2',
         goToPage: (context) async {
           navigate(context: context, page: const AlcoholPage(started: true));
           final settings = context.read<SettingsProvider>();
@@ -113,7 +126,7 @@ void main() {
       (tester) async => await screenshot(
         binding: binding,
         tester: tester,
-        name: '3_en-US',
+        name: '3',
         goToPage: (context) async {
           navigate(context: context, page: const SmokingPage(started: true));
           final settings = context.read<SettingsProvider>();
@@ -127,7 +140,7 @@ void main() {
       (tester) async => await screenshot(
         binding: binding,
         tester: tester,
-        name: '4_en-US',
+        name: '4',
         goToPage: (context) async {
           navigate(
             context: context,
@@ -136,7 +149,7 @@ void main() {
                 id: 'fake',
                 color: Colors.purple,
                 quitDate: DateTime.now().subtract(const Duration(days: 3)),
-                title: 'Touching bro',
+                title: AppLocalizations.of(context)!.addictionSocialMedia,
               ),
             ),
           );
@@ -151,12 +164,13 @@ void main() {
       (tester) async => await screenshot(
         binding: binding,
         tester: tester,
-        name: '5_en-US',
+        name: '5',
         goToPage: (context) async {
           final settings = context.read<SettingsProvider>();
           settings.themeMode = AppThemeMode.dark;
+          final smokingLabel = AppLocalizations.of(context)!.addictionSmoking;
           await tester.pumpAndSettle();
-          await tester.longPress(find.text('Smoking'));
+          await tester.longPress(find.text(smokingLabel));
           await tester.pumpAndSettle();
         },
       ),
@@ -167,7 +181,7 @@ void main() {
       (tester) async => await screenshot(
         binding: binding,
         tester: tester,
-        name: '6_en-US',
+        name: '6',
         goToPage: (context) async {
           final settings = context.read<SettingsProvider>();
           settings.themeMode = AppThemeMode.light;
@@ -181,7 +195,7 @@ void main() {
       (tester) async => await screenshot(
         binding: binding,
         tester: tester,
-        name: '7_en-US',
+        name: '7',
         goToPage: (context) async {
           final settings = context.read<SettingsProvider>();
           settings.themeMode = AppThemeMode.pureBlack;
@@ -195,7 +209,7 @@ void main() {
       (tester) async => await screenshot(
         binding: binding,
         tester: tester,
-        name: '8_en-US',
+        name: '8',
         goToPage: (context) async {
           final settings = context.read<SettingsProvider>();
           settings.themeMode = AppThemeMode.light;

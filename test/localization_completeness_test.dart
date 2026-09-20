@@ -138,6 +138,53 @@ void main() {
     }
   });
 
+  test('Play Store listing is translated for every supported locale', () {
+    const storeLocales = {'ja': 'ja-JP', 'zh': 'zh-CN'};
+    const listingFiles = {
+      'title.txt',
+      'short_description.txt',
+      'full_description.txt',
+    };
+    final englishDir = Directory('fastlane/metadata/android/en-US');
+
+    for (final locale in AppLocalizations.supportedLocales) {
+      if (locale.languageCode == 'en') continue;
+
+      final storeLocale = storeLocales[locale.languageCode];
+      expect(
+        storeLocale,
+        isNotNull,
+        reason: '${locale.languageCode} must map to a Play Store locale',
+      );
+
+      for (final filename in listingFiles) {
+        final english = File(
+          '${englishDir.path}/$filename',
+        ).readAsStringSync().trim();
+        final localizedFile = File(
+          'fastlane/metadata/android/$storeLocale/$filename',
+        );
+        expect(
+          localizedFile.existsSync(),
+          isTrue,
+          reason: '$storeLocale must provide $filename',
+        );
+
+        final localized = localizedFile.readAsStringSync().trim();
+        expect(
+          localized,
+          isNotEmpty,
+          reason: '$storeLocale/$filename must not be empty',
+        );
+        expect(
+          localized,
+          isNot(equals(english)),
+          reason: '$storeLocale/$filename must not fall back to English',
+        );
+      }
+    }
+  });
+
   test('every supported locale translates every changelog entry', () {
     final english = _changelogMessages('en');
     expect(english, isNotEmpty);

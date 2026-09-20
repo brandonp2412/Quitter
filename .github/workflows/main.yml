@@ -101,6 +101,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
+        device_type: [phoneScreenshots, sevenInchScreenshots, tenInchScreenshots]
+        locale: [en, ja, zh]
         include:
           - device_type: phoneScreenshots
             profile: pixel_6
@@ -139,6 +141,7 @@ jobs:
         uses: reactivecircus/android-emulator-runner@a421e43855164a8197daf9d8d40fe71c6996bb0d # v2
         env:
           QUITTER_DEVICE_TYPE: ${{ matrix.device_type }}
+          QUITTER_LOCALE: ${{ matrix.locale }}
           SCREENSHOT_SCREEN_SIZE: ${{ matrix.screen_size }}
         with:
           api-level: 35
@@ -148,11 +151,25 @@ jobs:
           emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim -camera-back none
           script: ./scripts/ci_screenshots.sh
 
-      - name: Upload ${{ matrix.device_type }}
+      - name: Stage localized screenshots
+        env:
+          LOCALE: ${{ matrix.locale }}
+          DEVICE_TYPE: ${{ matrix.device_type }}
+        run: |
+          case "$LOCALE" in
+            en) STORE_LOCALE=en-US ;;
+            ja) STORE_LOCALE=ja-JP ;;
+            zh) STORE_LOCALE=zh-CN ;;
+            *) exit 1 ;;
+          esac
+          mkdir -p "screenshot-artifact/$STORE_LOCALE/images"
+          cp -a "fastlane/metadata/android/$STORE_LOCALE/images/$DEVICE_TYPE" "screenshot-artifact/$STORE_LOCALE/images/"
+
+      - name: Upload ${{ matrix.device_type }} ${{ matrix.locale }} screenshots
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
-          name: screenshots-${{ matrix.device_type }}
-          path: fastlane/metadata/android/en-US/images/${{ matrix.device_type }}
+          name: screenshots-${{ matrix.device_type }}-${{ matrix.locale }}
+          path: screenshot-artifact
           if-no-files-found: error
           retention-days: 7
 
@@ -217,23 +234,12 @@ jobs:
           ref: ${{ github.sha }}
           persist-credentials: false
 
-      - name: Download phone screenshots
+      - name: Download localized screenshots
         uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
         with:
-          name: screenshots-phoneScreenshots
-          path: fastlane/metadata/android/en-US/images/phoneScreenshots
-
-      - name: Download seven-inch screenshots
-        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
-        with:
-          name: screenshots-sevenInchScreenshots
-          path: fastlane/metadata/android/en-US/images/sevenInchScreenshots
-
-      - name: Download ten-inch screenshots
-        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
-        with:
-          name: screenshots-tenInchScreenshots
-          path: fastlane/metadata/android/en-US/images/tenInchScreenshots
+          pattern: screenshots-*
+          path: fastlane/metadata/android
+          merge-multiple: true
 
       - name: Configure Git
         run: |
@@ -588,23 +594,12 @@ jobs:
         with:
           name: android-builds
 
-      - name: Download phone screenshots
+      - name: Download localized screenshots
         uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
         with:
-          name: screenshots-phoneScreenshots
-          path: fastlane/metadata/android/en-US/images/phoneScreenshots
-
-      - name: Download seven-inch screenshots
-        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
-        with:
-          name: screenshots-sevenInchScreenshots
-          path: fastlane/metadata/android/en-US/images/sevenInchScreenshots
-
-      - name: Download ten-inch screenshots
-        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
-        with:
-          name: screenshots-tenInchScreenshots
-          path: fastlane/metadata/android/en-US/images/tenInchScreenshots
+          pattern: screenshots-*
+          path: fastlane/metadata/android
+          merge-multiple: true
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@95ef2b042f9d7a56d8268cba8559e2842e2ad01b # v1
