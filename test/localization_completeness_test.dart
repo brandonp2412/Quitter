@@ -220,6 +220,24 @@ void main() {
     }
   });
 
+  test('Japanese reference articles do not leak English prose', () {
+    final japanese = _readArb('ja');
+
+    for (final entry in japanese.entries) {
+      if (!entry.key.contains('Reference') ||
+          entry.key.startsWith('@') ||
+          entry.value is! String) {
+        continue;
+      }
+
+      expect(
+        entry.value as String,
+        isNot(contains('The Letter')),
+        reason: '${entry.key} must keep article prose in Japanese',
+      );
+    }
+  });
+
   test('Russian translations avoid known machine-translation artifacts', () {
     final russian = _readArb('ru');
 
