@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <!--
     If you are serving your web app in a path other than the root, change the
@@ -18,7 +18,7 @@
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A Flutter project to help individuals quit addictions.">
+  <meta name="description" content="Track quitting progress, milestones, journals, and recovery reminders privately and offline.">
 
   <!-- iOS meta tags & icons -->
   <meta name="mobile-web-app-capable" content="yes">
@@ -30,7 +30,30 @@
   <link rel="icon" type="image/png" href="favicon.png"/>
 
   <title>Quitter</title>
-  <link rel="manifest" href="manifest.json">
+  <script>
+    (() => {
+      const requestedLanguage = (navigator.languages?.[0] ?? navigator.language ?? 'en')
+        .toLowerCase()
+        .split('-')[0];
+      const language = ['ja', 'zh'].includes(requestedLanguage)
+        ? requestedLanguage
+        : 'en';
+      const descriptions = {
+        en: 'Track quitting progress, milestones, journals, and recovery reminders privately and offline.',
+        ja: 'やめたい習慣の進捗、節目、日記、回復リマインダーをプライベートかつオフラインで記録できます。',
+        zh: '私密、离线地记录戒除习惯的进度、里程碑、日记和康复提醒。',
+      };
+
+      document.documentElement.lang = language;
+      document.querySelector('meta[name="description"]').content =
+        descriptions[language];
+
+      const manifest = document.createElement('link');
+      manifest.rel = 'manifest';
+      manifest.href = language === 'en' ? 'manifest.json' : 'manifest_' + language + '.json';
+      document.head.appendChild(manifest);
+    })();
+  </script>
 </head>
 <body>
   <script src="flutter_bootstrap.js" async></script>

@@ -5,7 +5,7 @@
     "display": "standalone",
     "background_color": "#2E4057",
     "theme_color": "#e3e3e3",
-    "description": "Track quitting progress, milestones, journals, and recovery reminders privately and offline.",
+    "description": "私密、离线地记录戒除习惯的进度、里程碑、日记和康复提醒。",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
@@ -32,5 +32,5 @@
             "purpose": "maskable"
         }
     ],
-    "lang": "en"
+    "lang": "zh"
 }

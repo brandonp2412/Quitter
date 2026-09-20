@@ -185,6 +185,50 @@ void main() {
     }
   });
 
+  test('web metadata and privacy policy cover every supported locale', () {
+    final englishManifest =
+        jsonDecode(File('web/manifest.json').readAsStringSync())
+            as Map<String, dynamic>;
+    final englishDescription = englishManifest['description'] as String;
+    expect(englishManifest['lang'], 'en');
+
+    const manifestLocales = {'ja', 'zh'};
+    for (final locale in AppLocalizations.supportedLocales) {
+      if (locale.languageCode == 'en') continue;
+
+      expect(
+        manifestLocales,
+        contains(locale.languageCode),
+        reason: '${locale.languageCode} must have localized web metadata',
+      );
+      final manifest =
+          jsonDecode(
+                File(
+                  'web/manifest_${locale.languageCode}.json',
+                ).readAsStringSync(),
+              )
+              as Map<String, dynamic>;
+      expect(manifest['lang'], locale.languageCode);
+      expect(manifest['description'], isNotEmpty);
+      expect(
+        manifest['description'],
+        isNot(equals(englishDescription)),
+        reason: '${locale.languageCode} PWA description must be translated',
+      );
+    }
+
+    final index = File('web/index.html').readAsStringSync();
+    expect(index, contains('manifest_'));
+    expect(index, contains('やめたい習慣'));
+    expect(index, contains('记录戒除习惯'));
+
+    final privacy = File('docs/privacy-policy.html').readAsStringSync();
+    expect(privacy, contains('Quitter プライバシーポリシー'));
+    expect(privacy, contains('Quitter 隐私政策'));
+    expect(privacy, contains('?lang=ja'));
+    expect(privacy, contains('?lang=zh'));
+  });
+
   test('every supported locale translates every changelog entry', () {
     final english = _changelogMessages('en');
     expect(english, isNotEmpty);

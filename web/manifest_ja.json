@@ -5,7 +5,7 @@
     "display": "standalone",
     "background_color": "#2E4057",
     "theme_color": "#e3e3e3",
-    "description": "Track quitting progress, milestones, journals, and recovery reminders privately and offline.",
+    "description": "やめたい習慣の進捗、節目、日記、回復リマインダーをプライベートかつオフラインで記録できます。",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
@@ -32,5 +32,5 @@
             "purpose": "maskable"
         }
     ],
-    "lang": "en"
+    "lang": "ja"
 }

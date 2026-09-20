@@ -9,21 +9,81 @@
       body { line-height: 1.6; margin: 0; }
       main { margin: 0 auto; max-width: 48rem; padding: 2rem 1.25rem 4rem; }
       h1, h2 { line-height: 1.2; }
+      nav { display: flex; gap: 0.75rem; margin-bottom: 1.5rem; }
     </style>
   </head>
   <body>
     <main>
-      <h1>Quitter Privacy Policy</h1>
-      <p>Last updated: 6 September 2026</p>
+      <nav id="language-nav" aria-label="Language">
+        <a href="?lang=en" lang="en">English</a>
+        <a href="?lang=ja" lang="ja">日本語</a>
+        <a href="?lang=zh" lang="zh">简体中文</a>
+      </nav>
 
-      <h2>Health data</h2>
-      <p>Quitter does not access, collect, transmit, or share any health or fitness data. Any habit data you enter is stored exclusively on your device.</p>
+      <h1 id="title">Quitter Privacy Policy</h1>
+      <p id="updated">Last updated: 6 September 2026</p>
 
-      <h2>Data retention</h2>
-      <p>All data is stored locally on your device and retained until you choose to delete it within the app or uninstall the app.</p>
+      <h2 id="health-heading">Health data</h2>
+      <p id="health-body">Quitter does not access, collect, transmit, or share any health or fitness data. Any habit data you enter is stored exclusively on your device.</p>
 
-      <h2>Data deletion</h2>
-      <p>You can delete individual entries within the app at any time. Uninstalling the app removes all associated data from your device. No data is stored on external servers, so no deletion request to a third party is necessary.</p>
+      <h2 id="retention-heading">Data retention</h2>
+      <p id="retention-body">All data is stored locally on your device and retained until you choose to delete it within the app or uninstall the app.</p>
+
+      <h2 id="deletion-heading">Data deletion</h2>
+      <p id="deletion-body">You can delete individual entries within the app at any time. Uninstalling the app removes all associated data from your device. No data is stored on external servers, so no deletion request to a third party is necessary.</p>
     </main>
+
+    <script>
+      (() => {
+        const translations = {
+          ja: {
+            title: 'Quitter プライバシーポリシー',
+            languageLabel: '言語',
+            updated: '最終更新日：2026年9月6日',
+            healthHeading: '健康データ',
+            healthBody: 'Quitter は、健康データまたはフィットネスデータにアクセス、収集、送信、共有しません。入力した習慣データは、すべて端末内にのみ保存されます。',
+            retentionHeading: 'データの保存',
+            retentionBody: 'すべてのデータは端末内に保存され、アプリ内で削除するか、アプリをアンインストールするまで保持されます。',
+            deletionHeading: 'データの削除',
+            deletionBody: 'アプリ内では、個々の項目をいつでも削除できます。アプリをアンインストールすると、端末上の関連データはすべて削除されます。外部サーバーにはデータを保存しないため、第三者への削除依頼は必要ありません。',
+          },
+          zh: {
+            title: 'Quitter 隐私政策',
+            languageLabel: '语言',
+            updated: '最后更新：2026年9月6日',
+            healthHeading: '健康数据',
+            healthBody: 'Quitter 不会访问、收集、传输或共享任何健康或健身数据。你输入的任何习惯数据都仅存储在你的设备上。',
+            retentionHeading: '数据保留',
+            retentionBody: '所有数据均存储在你的设备本地，并会一直保留，直到你选择在应用内删除数据或卸载应用。',
+            deletionHeading: '数据删除',
+            deletionBody: '你可以随时在应用内删除单个条目。卸载应用会从设备中删除所有相关数据。由于数据不会存储在外部服务器上，因此无需向任何第三方提出删除请求。',
+          },
+        };
+
+        const params = new URLSearchParams(window.location.search);
+        const requestedLanguage = (
+          params.get('lang') ??
+          navigator.languages?.[0] ??
+          navigator.language ??
+          'en'
+        ).toLowerCase().split('-')[0];
+        const language = translations[requestedLanguage] ? requestedLanguage : 'en';
+
+        if (language === 'en') return;
+
+        const copy = translations[language];
+        document.documentElement.lang = language;
+        document.title = copy.title;
+        document.getElementById('language-nav').setAttribute('aria-label', copy.languageLabel);
+        document.getElementById('title').textContent = copy.title;
+        document.getElementById('updated').textContent = copy.updated;
+        document.getElementById('health-heading').textContent = copy.healthHeading;
+        document.getElementById('health-body').textContent = copy.healthBody;
+        document.getElementById('retention-heading').textContent = copy.retentionHeading;
+        document.getElementById('retention-body').textContent = copy.retentionBody;
+        document.getElementById('deletion-heading').textContent = copy.deletionHeading;
+        document.getElementById('deletion-body').textContent = copy.deletionBody;
+      })();
+    </script>
   </body>
 </html>
