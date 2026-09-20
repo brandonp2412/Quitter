@@ -1,0 +1,2 @@
+• add complete French localization
+• add complete Spanish localization
