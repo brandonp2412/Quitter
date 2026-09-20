@@ -47,6 +47,10 @@ Map<String, String> _androidStrings(String directory) {
 }
 
 bool _containsTargetScript(String languageCode, String value) {
+  if (languageCode == 'es') {
+    return RegExp(r'[A-Za-zÁÉÍÓÚÜÑáéíóúüñ¿¡]').hasMatch(value);
+  }
+
   for (final rune in value.runes) {
     final isCjk = rune >= 0x4e00 && rune <= 0x9fff;
     if (languageCode == 'ru' && rune >= 0x0400 && rune <= 0x04ff) {
@@ -65,8 +69,11 @@ bool _containsTargetScript(String languageCode, String value) {
 
 void main() {
   const intentionalSharedValues = {
+    'addictionKratom',
     'addictionGhb',
     'addictionMdma',
+    'addictionAdderall',
+    'addictionAlcohol',
     'addictionSsri',
     'addictionSnri',
     'addictionMaoi',
@@ -75,16 +82,22 @@ void main() {
     'settingsPinTimeoutHint',
     'pinDialogPIN',
     'pinDialogOK',
+    'editEntryColor',
+    'editEntryDeleteNo',
     'aboutAuthorName',
     'aboutLicenseMIT',
     'ok',
   };
   const intentionalSharedAndroidValues = {
+    'addiction_alcohol',
+    'addiction_adderall',
+    'addiction_kratom',
     'addiction_ssri',
     'addiction_snri',
     'addiction_maoi',
     'addiction_ghb',
     'addiction_mdma',
+    'widget_error',
   };
 
   test('every supported locale has every app message translated', () {
@@ -155,12 +168,13 @@ void main() {
 
     const storeLocales = {
       'en': 'en-US',
+      'es': 'es-ES',
       'ja': 'ja-JP',
       'ru': 'ru-RU',
       'zh': 'zh-CN',
     };
 
-    expect(workflow, contains('locale: [en, ja, ru, zh]'));
+    expect(workflow, contains('locale: [en, es, ja, ru, zh]'));
     for (final locale in AppLocalizations.supportedLocales) {
       final languageCode = locale.languageCode;
       final storeLocale = storeLocales[languageCode];
@@ -182,7 +196,12 @@ void main() {
   });
 
   test('Play Store listing is translated for every supported locale', () {
-    const storeLocales = {'ja': 'ja-JP', 'ru': 'ru-RU', 'zh': 'zh-CN'};
+    const storeLocales = {
+      'es': 'es-ES',
+      'ja': 'ja-JP',
+      'ru': 'ru-RU',
+      'zh': 'zh-CN',
+    };
     const listingFiles = {
       'title.txt',
       'short_description.txt',
@@ -271,7 +290,7 @@ void main() {
     final englishDescription = englishManifest['description'] as String;
     expect(englishManifest['lang'], 'en');
 
-    const manifestLocales = {'ja', 'ru', 'zh'};
+    const manifestLocales = {'es', 'ja', 'ru', 'zh'};
     for (final locale in AppLocalizations.supportedLocales) {
       if (locale.languageCode == 'en') continue;
 
@@ -298,14 +317,17 @@ void main() {
 
     final index = File('web/index.html').readAsStringSync();
     expect(index, contains('manifest_'));
+    expect(index, contains('Sigue tu progreso al dejar hábitos'));
     expect(index, contains('やめたい習慣'));
     expect(index, contains('Отслеживайте прогресс'));
     expect(index, contains('记录戒除习惯'));
 
     final privacy = File('docs/privacy-policy.html').readAsStringSync();
+    expect(privacy, contains('Política de privacidad de Quitter'));
     expect(privacy, contains('Quitter プライバシーポリシー'));
     expect(privacy, contains('Quitter — Политика конфиденциальности'));
     expect(privacy, contains('Quitter 隐私政策'));
+    expect(privacy, contains('?lang=es'));
     expect(privacy, contains('?lang=ja'));
     expect(privacy, contains('?lang=ru'));
     expect(privacy, contains('?lang=zh'));

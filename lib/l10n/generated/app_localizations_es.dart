@@ -1,0 +1,3700 @@
+// ignore: unused_import
+import 'package:intl/intl.dart' as intl;
+import 'app_localizations.dart';
+
+// ignore_for_file: type=lint
+
+/// The translations for Spanish Castilian (`es`).
+class AppLocalizationsEs extends AppLocalizations {
+  AppLocalizationsEs([String locale = 'es']) : super(locale);
+
+  @override
+  String get kratomPageTitle => 'Recuperación del kratom';
+
+  @override
+  String get kratomHeaderStarted => 'Tu camino de recuperación';
+
+  @override
+  String get kratomHeaderNotStarted => 'Beneficios de dejar el kratom';
+
+  @override
+  String get kratomSubtitleStarted => 'Sigue tu progreso y celebra cada hito';
+
+  @override
+  String get kratomSubtitleNotStarted => 'Descubre qué ocurre cuando lo dejas';
+
+  @override
+  String get kratomInfoBox =>
+      'El kratom actúa sobre los receptores opioides, por lo que dejarlo puede provocar un síndrome de abstinencia similar al de los opioides. Si lo consumes en grandes cantidades o junto con otros opioides, consulta a un profesional sanitario sobre una retirada supervisada médicamente.';
+
+  @override
+  String get addictionKratom => 'Kratom';
+
+  @override
+  String get kratomMilestone1Title => 'Comienza la abstinencia';
+
+  @override
+  String get kratomMilestone1Description =>
+      'El kratom actúa sobre los receptores opioides, así que entre 6 y 12 horas después de la última dosis puedes sentir inquietud, ansiedad, sudoración, secreción nasal y dolores musculares. Es tu sistema nervioso empezando a adaptarse.';
+
+  @override
+  String get kratomMilestone3Title => 'Pico de abstinencia';
+
+  @override
+  String get kratomMilestone3Description =>
+      'Los síntomas agudos suelen alcanzar su punto máximo alrededor de los días 2–3: dolores más intensos, insomnio, malestar estomacal y ánimo bajo. Es el momento más difícil y es temporal.';
+
+  @override
+  String get kratomMilestone7Title => 'Disminuyen los síntomas agudos';
+
+  @override
+  String get kratomMilestone7Description =>
+      'Al cabo de una semana, los peores síntomas físicos —dolores, malestar estomacal y sudoración— han disminuido en gran medida. El sueño y la energía aún se están recuperando.';
+
+  @override
+  String get kratomMilestone14Title => 'Mejoran el ánimo y el sueño';
+
+  @override
+  String get kratomMilestone14Description =>
+      'A las dos semanas, el sueño es más regular y el ánimo más estable mientras la química natural de recompensa del cerebro empieza a reequilibrarse.';
+
+  @override
+  String get kratomMilestone30Title => 'Un mes sin consumir';
+
+  @override
+  String get kratomMilestone30Description =>
+      'Al mes, el cuerpo se ha estabilizado: el sueño, el apetito y la energía han mejorado notablemente, y los deseos de consumir son menos frecuentes.';
+
+  @override
+  String get kratomMilestone90Title => 'Una base estable';
+
+  @override
+  String get kratomMilestone90Description =>
+      'Tres meses de abstinencia dan a los circuitos cerebrales de recompensa y estrés tiempo prolongado para volver a regularse. El ánimo, la concentración y la motivación son notablemente más estables.';
+
+  @override
+  String get kratomMilestone365Title => 'Un año libre';
+
+  @override
+  String get kratomMilestone365Description =>
+      'Un año completo sin kratom. El sistema opioide lleva tiempo regulado de nuevo, los deseos de consumir son poco frecuentes y el hábito ya no organiza tu día.';
+
+  @override
+  String get gabapentinoidsPageTitle => 'Recuperación de gabapentinoides';
+
+  @override
+  String get gabapentinoidsHeaderStarted => 'Tu camino de recuperación';
+
+  @override
+  String get gabapentinoidsHeaderNotStarted =>
+      'Beneficios de dejar la gabapentina / pregabalina';
+
+  @override
+  String get gabapentinoidsSubtitleStarted =>
+      'Sigue tu progreso y celebra cada hito';
+
+  @override
+  String get gabapentinoidsSubtitleNotStarted =>
+      'Descubre qué ocurre cuando lo dejas';
+
+  @override
+  String get gabapentinoidsInfoBox =>
+      'Nunca dejes la gabapentina ni la pregabalina de forma brusca. La interrupción repentina puede provocar convulsiones, especialmente si las tomas para la epilepsia. Es esencial una reducción gradual supervisada por un profesional sanitario.';
+
+  @override
+  String get addictionGabapentinoid => 'Gabapentina / Pregabalina';
+
+  @override
+  String get gabapentinoidsMilestone1Title =>
+      'Reduce gradualmente, no lo dejes de golpe';
+
+  @override
+  String get gabapentinoidsMilestone1Description =>
+      'La abstinencia de gabapentinoides puede comenzar entre 12 y 48 horas después. El principal riesgo son las convulsiones al interrumpirlos de forma brusca, por lo que estos fármacos deben reducirse gradualmente bajo supervisión médica en lugar de dejarlos de golpe.';
+
+  @override
+  String get gabapentinoidsMilestone3Title => 'Pico de abstinencia';
+
+  @override
+  String get gabapentinoidsMilestone3Description =>
+      'Los síntomas suelen alcanzar su punto máximo alrededor del día 3: aumento de la ansiedad, insomnio, sudoración, náuseas y, a veces, confusión. Una reducción supervisada los disminuye considerablemente.';
+
+  @override
+  String get gabapentinoidsMilestone7Title => 'Disminuye la fase aguda';
+
+  @override
+  String get gabapentinoidsMilestone7Description =>
+      'Alrededor de los días 7–10, los síntomas agudos disminuyen de forma importante. Una reducción gradual hace que este periodo sea más llevadero.';
+
+  @override
+  String get gabapentinoidsMilestone14Title =>
+      'Se estabilizan el sueño y la ansiedad';
+
+  @override
+  String get gabapentinoidsMilestone14Description =>
+      'A las dos semanas, el sueño y tus niveles habituales de ansiedad están mejorando mientras el sistema nervioso se adapta a funcionar sin el fármaco.';
+
+  @override
+  String get gabapentinoidsMilestone30Title => 'Un mes sin consumir';
+
+  @override
+  String get gabapentinoidsMilestone30Description =>
+      'Al mes, la mayoría de las personas ha superado la abstinencia, con un ánimo, sueño y claridad más estables. Los síntomas que persisten suelen ser leves.';
+
+  @override
+  String get gabapentinoidsMilestone90Title => 'Estable y adaptado';
+
+  @override
+  String get gabapentinoidsMilestone90Description =>
+      'Tras tres meses sin consumir, el sistema nervioso se ha readaptado por completo. La mayoría de las personas se siente estable, con sueño y ánimo normales.';
+
+  @override
+  String get gabapentinoidsMilestone180Title => 'Medio año libre';
+
+  @override
+  String get gabapentinoidsMilestone180Description =>
+      'Seis meses sin consumir. El fármaco hace tiempo que dejó de formar parte de tu rutina y cualquier síntoma de rebote se ha resuelto.';
+
+  @override
+  String get ghbPageTitle => 'Recuperación del GHB';
+
+  @override
+  String get ghbHeaderStarted => 'Tu camino de recuperación';
+
+  @override
+  String get ghbHeaderNotStarted => 'Beneficios de dejar el GHB';
+
+  @override
+  String get ghbSubtitleStarted => 'Sigue tu progreso y celebra cada hito';
+
+  @override
+  String get ghbSubtitleNotStarted => 'Descubre qué ocurre cuando lo dejas';
+
+  @override
+  String get ghbInfoBox =>
+      'La abstinencia de GHB es una urgencia médica: puede ser tan peligrosa como la del alcohol y las benzodiacepinas, y puede causar delirio y convulsiones. Quienes consumen mucho o durante todo el día no deben dejarlo sin una desintoxicación hospitalaria supervisada.';
+
+  @override
+  String get addictionGhb => 'GHB';
+
+  @override
+  String get ghbMilestone1Title => 'Busca desintoxicación médica';
+
+  @override
+  String get ghbMilestone1Description =>
+      'El GHB tiene una semivida muy corta, por lo que la abstinencia puede empezar entre 1 y 6 horas después de la última dosis con ansiedad, temblores, insomnio y taquicardia. Es una de las desintoxicaciones más peligrosas: busca ayuda médica.';
+
+  @override
+  String get ghbMilestone3Title => 'Periodo de máximo peligro';
+
+  @override
+  String get ghbMilestone3Description =>
+      'Los síntomas alcanzan su punto máximo alrededor de las 48–72 horas y pueden evolucionar a agitación intensa, alucinaciones y delirio. Esta fase requiere vigilancia médica.';
+
+  @override
+  String get ghbMilestone7Title => 'Pasa la fase aguda';
+
+  @override
+  String get ghbMilestone7Description =>
+      'Alrededor de una semana, el síndrome agudo suele estar remitiendo, aunque el delirio puede durar más en casos graves. El cuerpo ya ha superado el momento de mayor peligro.';
+
+  @override
+  String get ghbMilestone14Title => 'Lo peor ya pasó';
+
+  @override
+  String get ghbMilestone14Description =>
+      'A las dos semanas, incluso una abstinencia grave normalmente ya ha seguido su curso. El sueño y la estabilidad del sistema autónomo están regresando, aunque la ansiedad puede persistir.';
+
+  @override
+  String get ghbMilestone30Title => 'Un mes estable';
+
+  @override
+  String get ghbMilestone30Description =>
+      'Al mes, el peligroso periodo inicial de abstinencia queda muy atrás. La ansiedad, los problemas de sueño y el ánimo bajo que puedan persistir siguen mejorando.';
+
+  @override
+  String get ghbMilestone90Title => 'Se desvanecen los síntomas persistentes';
+
+  @override
+  String get ghbMilestone90Description =>
+      'A los tres meses, la ansiedad, los problemas de sueño y de ánimo que persistían van disminuyendo mientras se estabiliza el sistema calmante GABA del cerebro.';
+
+  @override
+  String get ghbMilestone180Title => 'Medio año libre';
+
+  @override
+  String get ghbMilestone180Description =>
+      'Seis meses sin GHB. La abstinencia persistente se ha resuelto en gran medida y el ánimo, el sueño y la claridad mental han vuelto a la normalidad.';
+
+  @override
+  String get ketaminePageTitle => 'Recuperación de la ketamina';
+
+  @override
+  String get ketamineHeaderStarted => 'Tu camino de recuperación';
+
+  @override
+  String get ketamineHeaderNotStarted => 'Beneficios de dejar la ketamina';
+
+  @override
+  String get ketamineSubtitleStarted => 'Sigue tu progreso y celebra cada hito';
+
+  @override
+  String get ketamineSubtitleNotStarted =>
+      'Descubre qué ocurre cuando lo dejas';
+
+  @override
+  String get ketamineInfoBox =>
+      'La abstinencia de ketamina consiste principalmente en deseos de consumir, ánimo bajo y niebla mental, más que en enfermedad física. Su mayor daño físico es el daño vesical, y dejarla es el primer paso esencial hacia la recuperación.';
+
+  @override
+  String get addictionKetamine => 'Ketamina';
+
+  @override
+  String get ketamineMilestone1Title => 'El organismo se limpia';
+
+  @override
+  String get ketamineMilestone1Description =>
+      'La ketamina rara vez causa una abstinencia física grave. Durante el primer día puedes notar cambios de ánimo, deseos de consumir, sudoración o palpitaciones mientras el fármaco se elimina.';
+
+  @override
+  String get ketamineMilestone7Title => 'Ánimo y deseos de consumir';
+
+  @override
+  String get ketamineMilestone7Description =>
+      'La primera semana se centra principalmente en los deseos de consumir, un ánimo bajo o cambiante y niebla mental, más que en abstinencia física.';
+
+  @override
+  String get ketamineMilestone14Title => 'Se despeja la niebla mental';
+
+  @override
+  String get ketamineMilestone14Description =>
+      'A las dos semanas, el pensamiento y la memoria empiezan a aclararse y el ánimo se estabiliza mientras desaparecen por completo los efectos disociativos.';
+
+  @override
+  String get ketamineMilestone30Title => 'Un mes — recuperación de la vejiga';
+
+  @override
+  String get ketamineMilestone30Description =>
+      'Al mes, el daño vesical temprano suele empezar a mejorar después de dejarla. El ánimo y el pensamiento son más claros.';
+
+  @override
+  String get ketamineMilestone90Title => 'Tres meses después';
+
+  @override
+  String get ketamineMilestone90Description =>
+      'Tres meses sin ketamina dan a la vejiga más tiempo para recuperarse, mientras el pensamiento y el ánimo siguen mejorando. Los deseos de consumir son menos frecuentes.';
+
+  @override
+  String get ketamineMilestone180Title => 'Medio año libre';
+
+  @override
+  String get ketamineMilestone180Description =>
+      'Seis meses sin consumir. Los síntomas de la vejiga han tenido más tiempo para mejorar y la atracción psicológica de la ketamina se ha debilitado considerablemente.';
+
+  @override
+  String get ketamineMilestone365Title => 'Un año libre';
+
+  @override
+  String get ketamineMilestone365Description =>
+      'Un año sin ketamina. El pensamiento, el ánimo y, cuando el daño vesical se detectó pronto, la función de la vejiga han tenido un año completo para recuperarse.';
+
+  @override
+  String get inhalantsPageTitle => 'Recuperación de inhalantes';
+
+  @override
+  String get inhalantsHeaderStarted => 'Tu camino de recuperación';
+
+  @override
+  String get inhalantsHeaderNotStarted => 'Beneficios de dejar los inhalantes';
+
+  @override
+  String get inhalantsSubtitleStarted =>
+      'Sigue tu progreso y celebra cada hito';
+
+  @override
+  String get inhalantsSubtitleNotStarted =>
+      'Descubre qué ocurre cuando lo dejas';
+
+  @override
+  String get inhalantsInfoBox =>
+      'La abstinencia de inhalantes es más corta que la del alcohol o los opioides, pero puede ser intensa y existe riesgo de convulsiones en consumidores frecuentes. La recuperación neurológica es real, pero lenta: a menudo se desarrolla a lo largo de unos dos años de abstinencia.';
+
+  @override
+  String get addictionInhalants => 'Inhalantes';
+
+  @override
+  String get inhalantsMilestone1Title => 'El organismo se limpia';
+
+  @override
+  String get inhalantsMilestone1Description =>
+      'Las sustancias químicas inhaladas se eliminan rápidamente de la sangre, pero permanecen en el tejido graso. Durante el primer día puedes sentir dolor de cabeza, irritabilidad, náuseas, ansiedad o insomnio.';
+
+  @override
+  String get inhalantsMilestone7Title => 'Disminuyen los síntomas agudos';
+
+  @override
+  String get inhalantsMilestone7Description =>
+      'La abstinencia aguda alcanza su punto máximo alrededor de los días 2–5 y se resuelve en gran medida en una o dos semanas. Al cabo de una semana, lo peor suele estar pasando.';
+
+  @override
+  String get inhalantsMilestone14Title => 'Termina la fase aguda';
+
+  @override
+  String get inhalantsMilestone14Description =>
+      'A las dos semanas, el periodo inicial de abstinencia suele haber terminado. El ánimo es más estable, aunque la niebla mental y el cansancio pueden persistir.';
+
+  @override
+  String get inhalantsMilestone30Title => 'Un mes — el cerebro se recupera';
+
+  @override
+  String get inhalantsMilestone30Description =>
+      'Al mes, los peores efectos iniciales han quedado atrás y el pensamiento y la memoria se están recuperando. Mejoran la claridad y el ánimo.';
+
+  @override
+  String get inhalantsMilestone90Title => 'Tres meses después';
+
+  @override
+  String get inhalantsMilestone90Description =>
+      'Tres meses de abstinencia favorecen la recuperación continua de la memoria, la atención y la función motora. Las mejoras son graduales, pero reales.';
+
+  @override
+  String get inhalantsMilestone365Title => 'Un año — recuperación considerable';
+
+  @override
+  String get inhalantsMilestone365Description =>
+      'Un año de abstinencia aporta una recuperación neurológica considerable a la mayoría de las personas, y se esperan nuevas mejoras durante el segundo año.';
+
+  @override
+  String get inhalantsMilestone730Title =>
+      'Dos años — recuperación a largo plazo';
+
+  @override
+  String get inhalantsMilestone730Description =>
+      'Dos años de abstinencia es el periodo en el que los estudios han encontrado una recuperación considerable de la función cerebral, salvo en los daños causados por gasolina con plomo, que pueden persistir.';
+
+  @override
+  String get synthetic_cannabinoidsPageTitle =>
+      'Recuperación de cannabinoides sintéticos';
+
+  @override
+  String get synthetic_cannabinoidsHeaderStarted => 'Tu camino de recuperación';
+
+  @override
+  String get synthetic_cannabinoidsHeaderNotStarted =>
+      'Beneficios de dejar los cannabinoides sintéticos';
+
+  @override
+  String get synthetic_cannabinoidsSubtitleStarted =>
+      'Sigue tu progreso y celebra cada hito';
+
+  @override
+  String get synthetic_cannabinoidsSubtitleNotStarted =>
+      'Descubre qué ocurre cuando lo dejas';
+
+  @override
+  String get synthetic_cannabinoidsInfoBox =>
+      'Los cannabinoides sintéticos (“Spice”, “K2”) son mucho más potentes que el cannabis, y su abstinencia es similar pero más grave, con ansiedad y taquicardia. Los consumidores frecuentes pueden necesitar una desintoxicación con apoyo médico.';
+
+  @override
+  String get addictionSyntheticCannabinoids => 'Cannabinoides sintéticos';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1Title => 'Comienza la abstinencia';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1Description =>
+      'La abstinencia de cannabinoides sintéticos puede comenzar en cuestión de horas o al cabo de uno o dos días. Es habitual sentir ansiedad, irritabilidad, taquicardia, sudoración y problemas de sueño.';
+
+  @override
+  String get synthetic_cannabinoidsMilestone3Title => 'Pico de síntomas';
+
+  @override
+  String get synthetic_cannabinoidsMilestone3Description =>
+      'Los síntomas tienden a alcanzar su punto máximo durante los primeros días: ansiedad e irritabilidad más intensas, peor sueño y deseos de consumir. Es el tramo más difícil.';
+
+  @override
+  String get synthetic_cannabinoidsMilestone7Title => 'Disminuye la fase aguda';
+
+  @override
+  String get synthetic_cannabinoidsMilestone7Description =>
+      'Al cabo de una semana, los síntomas más intensos están disminuyendo. El sueño, la frecuencia cardiaca y el ánimo empiezan a estabilizarse.';
+
+  @override
+  String get synthetic_cannabinoidsMilestone14Title =>
+      'Se estabilizan el sueño y el ánimo';
+
+  @override
+  String get synthetic_cannabinoidsMilestone14Description =>
+      'A las dos semanas, el sueño y el ánimo son más estables y la taquicardia de la abstinencia inicial se ha resuelto.';
+
+  @override
+  String get synthetic_cannabinoidsMilestone30Title => 'Un mes sin consumir';
+
+  @override
+  String get synthetic_cannabinoidsMilestone30Description =>
+      'Al mes, la mayoría de los síntomas de abstinencia se han resuelto. El sueño, el ánimo y la claridad han mejorado notablemente.';
+
+  @override
+  String get synthetic_cannabinoidsMilestone90Title => 'Tres meses después';
+
+  @override
+  String get synthetic_cannabinoidsMilestone90Description =>
+      'Tras tres meses sin consumir, el ánimo y el sueño son estables y los deseos de consumir son poco frecuentes. El sistema cannabinoide del cerebro ha vuelto a regularse.';
+
+  @override
+  String get synthetic_cannabinoidsMilestone180Title => 'Medio año libre';
+
+  @override
+  String get synthetic_cannabinoidsMilestone180Description =>
+      'Seis meses sin cannabinoides sintéticos. La abstinencia hace tiempo que se resolvió y los graves riesgos de estas sustancias han quedado atrás.';
+
+  @override
+  String get mdmaPageTitle => 'Recuperación del MDMA';
+
+  @override
+  String get mdmaHeaderStarted => 'Tu camino de recuperación';
+
+  @override
+  String get mdmaHeaderNotStarted => 'Beneficios de dejar el MDMA';
+
+  @override
+  String get mdmaSubtitleStarted => 'Sigue tu progreso y celebra cada hito';
+
+  @override
+  String get mdmaSubtitleNotStarted => 'Descubre qué ocurre cuando lo dejas';
+
+  @override
+  String get mdmaInfoBox =>
+      'El MDMA libera grandes cantidades de serotonina y después la agota, lo que produce el “bajón” y, tras un consumo intenso, un ánimo bajo similar a la abstinencia. Los niveles de transportadores de serotonina se recuperan con una abstinencia sostenida, aunque el consumo intenso puede dejar efectos más duraderos.';
+
+  @override
+  String get addictionMdma => 'MDMA';
+
+  @override
+  String get mdmaMilestone1Title => 'El bajón';
+
+  @override
+  String get mdmaMilestone1Description =>
+      'Después de consumir MDMA, el agotamiento de serotonina produce el “bajón”: ánimo bajo, fatiga, irritabilidad y mal sueño durante uno o dos días. Hidratarse, comer y descansar ayuda.';
+
+  @override
+  String get mdmaMilestone3Title => 'El ánimo se reequilibra';
+
+  @override
+  String get mdmaMilestone3Description =>
+      'Después de unos días, la parte más intensa del bajón ha pasado. El ánimo y la energía empiezan a reequilibrarse a medida que se repone la serotonina.';
+
+  @override
+  String get mdmaMilestone7Title => 'Termina la fase aguda';
+
+  @override
+  String get mdmaMilestone7Description =>
+      'Después de un consumo más intenso, los síntomas similares a la abstinencia (ánimo bajo, falta de concentración y deseos de consumir) pueden durar alrededor de una semana antes de mejorar.';
+
+  @override
+  String get mdmaMilestone14Title => 'Dos semanas después';
+
+  @override
+  String get mdmaMilestone14Description =>
+      'Dos semanas de abstinencia suelen traer una mejora clara del ánimo, el sueño y la concentración a medida que se recupera el sistema de serotonina.';
+
+  @override
+  String get mdmaMilestone30Title => 'Un mes sin consumir';
+
+  @override
+  String get mdmaMilestone30Description =>
+      'Al mes, el ánimo y el pensamiento son mucho más estables. El sistema cerebral que recicla la serotonina sigue recuperándose mientras te mantienes sin MDMA.';
+
+  @override
+  String get mdmaMilestone90Title => 'Tres meses después';
+
+  @override
+  String get mdmaMilestone90Description =>
+      'Tres meses de abstinencia favorecen la recuperación continua del sistema de serotonina. El ánimo y el sueño son estables; la ansiedad disminuye durante los meses siguientes.';
+
+  @override
+  String get mdmaMilestone365Title => 'Un año libre';
+
+  @override
+  String get mdmaMilestone365Description =>
+      'Un año sin MDMA. La función de la serotonina y el ánimo han tenido mucho tiempo para recuperarse, y la ansiedad relacionada con el consumo suele haberse resuelto a estas alturas.';
+
+  @override
+  String get steroidsPageTitle => 'Recuperación de esteroides anabólicos';
+
+  @override
+  String get steroidsHeaderStarted => 'Tu camino de recuperación';
+
+  @override
+  String get steroidsHeaderNotStarted =>
+      'Beneficios de dejar los esteroides anabólicos';
+
+  @override
+  String get steroidsSubtitleStarted => 'Sigue tu progreso y celebra cada hito';
+
+  @override
+  String get steroidsSubtitleNotStarted =>
+      'Descubre qué ocurre cuando lo dejas';
+
+  @override
+  String get steroidsInfoBox =>
+      'Al dejar los esteroides anabólicos, la testosterona permanece baja hasta que el cuerpo reinicia su propia producción hormonal, normalmente durante meses, aunque a veces más tiempo. La depresión y la libido baja son frecuentes en esta fase; una depresión grave o pensamientos suicidas requieren atención médica urgente.';
+
+  @override
+  String get addictionSteroids => 'Esteroides anabólicos';
+
+  @override
+  String get steroidsMilestone1Title => 'Comienza el déficit hormonal';
+
+  @override
+  String get steroidsMilestone1Description =>
+      'Los esteroides anabólicos inhiben la producción natural de testosterona del cuerpo. Al dejarlos, entras en un déficit hormonal que puede provocar fatiga, ánimo bajo y libido baja. Se recomienda supervisión médica.';
+
+  @override
+  String get steroidsMilestone14Title => 'Fase de adaptación';
+
+  @override
+  String get steroidsMilestone14Description =>
+      'Las primeras semanas son las más difíciles de la caída hormonal: poca energía, ánimo bajo y libido reducida. Es la fase en la que muchas personas recaen para evitar estas sensaciones; contar con apoyo ayuda.';
+
+  @override
+  String get steroidsMilestone30Title => 'Un mes — el eje hormonal se reinicia';
+
+  @override
+  String get steroidsMilestone30Description =>
+      'Al mes, el sistema hormonal entre el cerebro y los testículos se está reiniciando. Las hormonas que estimulan la testosterona y la propia testosterona empiezan a aumentar, aunque el ánimo bajo, la libido reducida o la falta de energía todavía pueden persistir.';
+
+  @override
+  String get steroidsMilestone90Title => 'Tres meses — suben las hormonas';
+
+  @override
+  String get steroidsMilestone90Description =>
+      'A los tres meses, la testosterona y las hormonas que la regulan están subiendo hacia niveles normales en la mayoría de las personas, y el ánimo y la libido suelen mejorar con ellas.';
+
+  @override
+  String get steroidsMilestone180Title => 'Seis meses — recuperación frecuente';
+
+  @override
+  String get steroidsMilestone180Description =>
+      'A los seis meses, muchas personas han logrado una recuperación hormonal importante, con la testosterona y las hormonas que la controlan de nuevo dentro de los valores normales y los síntomas disminuyendo.';
+
+  @override
+  String get steroidsMilestone365Title => 'Un año después';
+
+  @override
+  String get steroidsMilestone365Description =>
+      'Un año sin esteroides. En la mayoría de las personas, las hormonas y el ánimo se han normalizado; una testosterona persistentemente baja después de este punto justifica una evaluación por un especialista.';
+
+  @override
+  String get steroidsMilestone730Title => 'Dos años — una nueva normalidad';
+
+  @override
+  String get steroidsMilestone730Description =>
+      'Dos años sin esteroides. Tus hormonas reflejan ahora los niveles naturales de tu cuerpo; los síntomas persistentes de testosterona baja deben ser evaluados por un especialista.';
+
+  @override
+  String get appTitle => 'Quitter';
+
+  @override
+  String get start => 'Comenzar';
+
+  @override
+  String get tabQuitter => 'Quitter';
+
+  @override
+  String get adderallPageTitle => 'Dejar Adderall';
+
+  @override
+  String get adderallHeaderStarted => 'Tu camino de recuperación';
+
+  @override
+  String get adderallHeaderNotStarted => '¿Listo para empezar tu recuperación?';
+
+  @override
+  String get adderallSubtitleStarted =>
+      'Sigue tu progreso y celebra cada hito mientras se recupera tu cerebro';
+
+  @override
+  String get adderallSubtitleNotStarted =>
+      'Descubre qué ocurre cuando dejas Adderall y comienzas tu camino hacia la recuperación';
+
+  @override
+  String get adderallMilestone1Title =>
+      'Primeras 24 horas: comienza la abstinencia';
+
+  @override
+  String get adderallMilestone1Description =>
+      'Puedes sentir más fatiga, depresión y apetito mientras tu cuerpo empieza a adaptarse a la vida sin estimulantes. Es normal y temporal. Mantente hidratado y descansa cuando lo necesites.';
+
+  @override
+  String get adderallMilestone3Title => 'Día 3: pico de abstinencia';
+
+  @override
+  String get adderallMilestone3Description =>
+      'Los síntomas de abstinencia alcanzan su máxima intensidad. Puedes experimentar fatiga intensa, irritabilidad y dificultad para concentrarte. Es la parte más difícil, pero a partir de aquí mejora. Considera acudir a tu red de apoyo.';
+
+  @override
+  String get adderallMilestone7Title =>
+      'Una semana: mejoran los síntomas físicos';
+
+  @override
+  String get adderallMilestone7Description =>
+      'Los peores síntomas físicos de la abstinencia empiezan a disminuir. Los patrones de sueño comienzan a normalizarse y los niveles de energía mejoran poco a poco. Tu cuerpo se está adaptando a funcionar sin estimulantes.';
+
+  @override
+  String get adderallMilestone14Title =>
+      'Dos semanas: vuelve la estabilidad emocional';
+
+  @override
+  String get adderallMilestone14Description =>
+      'Los cambios de ánimo y la irritabilidad están disminuyendo. Recuperas el equilibrio emocional a medida que se estabiliza la química cerebral. Para muchas personas, esta semana marca un punto de inflexión en su recuperación.';
+
+  @override
+  String get adderallMilestone30Title =>
+      'Un mes: se reequilibra la química cerebral';
+
+  @override
+  String get adderallMilestone30Description =>
+      'Tu cerebro se está recuperando activamente. Mejora la producción natural de dopamina y puedes notar mejor concentración y motivación sin medicación. La calidad del sueño y el apetito están volviendo a patrones normales.';
+
+  @override
+  String get adderallMilestone60Title =>
+      'Dos meses: mejoran el pensamiento y la memoria';
+
+  @override
+  String get adderallMilestone60Description =>
+      'Hay mejoras importantes en la claridad mental, la memoria y la estabilidad del ánimo. El sistema de recompensa del cerebro se está recuperando, haciendo que las actividades cotidianas resulten gratificantes de forma más natural. Muchas personas dicen volver a sentirse como ellas mismas.';
+
+  @override
+  String get adderallMilestone90Title =>
+      'Tres meses: gran hito de recuperación';
+
+  @override
+  String get adderallMilestone90Description =>
+      'La mayoría de los síntomas de abstinencia se han resuelto. Tu cerebro ha avanzado mucho en su recuperación. Los niveles naturales de energía, la concentración y la regulación emocional han mejorado notablemente. Es un gran logro que merece celebrarse.';
+
+  @override
+  String get adderallMilestone180Title =>
+      'Seis meses: continúa la recuperación cerebral';
+
+  @override
+  String get adderallMilestone180Description =>
+      'La señalización de dopamina sigue recuperándose. La concentración, la memoria, el ánimo y la calidad de vida diaria continúan mejorando.';
+
+  @override
+  String get adderallMilestone365Title => 'Un año: recuperación casi completa';
+
+  @override
+  String get adderallMilestone365Description =>
+      'El sistema de dopamina de tu cerebro ha recuperado en gran medida su funcionamiento normal. Has demostrado tu resiliencia y reconstruido tu vida sin depender de estimulantes. Este hito representa una transformación completa: ¡celebra todo lo que has avanzado!';
+
+  @override
+  String get showAllItems => 'Mostrar todos los elementos';
+
+  @override
+  String get showAllSubtitle =>
+      'Activa o desactiva todos los elementos de la pantalla principal';
+
+  @override
+  String get enableNotifications => 'Activar todas las notificaciones';
+
+  @override
+  String get enableNotificationsSubtitle =>
+      'Activa o desactiva todas las notificaciones';
+
+  @override
+  String get benzoPageTitle => 'Recuperación de benzodiacepinas';
+
+  @override
+  String get benzoHeaderStarted => 'Tu camino de recuperación';
+
+  @override
+  String get benzoHeaderNotStarted => 'Beneficios de dejar las benzodiacepinas';
+
+  @override
+  String get benzoSubtitleStarted => 'Sigue tu progreso y celebra cada hito';
+
+  @override
+  String get benzoSubtitleNotStarted => 'Descubre qué ocurre cuando lo dejas';
+
+  @override
+  String get benzoMilestone7Title => 'Fase inicial de abstinencia';
+
+  @override
+  String get benzoMilestone7Description =>
+      'Tras completar una reducción gradual, pueden aparecer síntomas iniciales de abstinencia como ansiedad de rebote e insomnio. Es tu sistema nervioso empezando a readaptarse. El apoyo médico durante esta fase es crucial para la seguridad y el bienestar.';
+
+  @override
+  String get benzoMilestone14Title => 'Pico de abstinencia aguda';
+
+  @override
+  String get benzoMilestone14Description =>
+      'Los síntomas de abstinencia aguda suelen alcanzar su punto máximo durante las dos primeras semanas. Puedes experimentar ansiedad, alteraciones del sueño y malestar físico. Aunque son difíciles, estos síntomas indican que tu cerebro está empezando a recuperarse y reequilibrarse.';
+
+  @override
+  String get benzoMilestone60Title => 'Mejora la estructura del sueño';
+
+  @override
+  String get benzoMilestone60Description =>
+      'Los estudios muestran que, después de 2 meses, tus patrones naturales de sueño empiezan a recuperarse. Aumenta el sueño de ondas lentas y mejora su calidad respecto a cuando tomabas benzodiacepinas, aunque la eficiencia general del sueño todavía puede estar recuperándose.';
+
+  @override
+  String get benzoMilestone90Title => 'Se estabiliza la salud física';
+
+  @override
+  String get benzoMilestone90Description =>
+      'Alrededor de los 3 meses, muchos síntomas físicos de abstinencia han mejorado de forma importante. Tu cuerpo sigue adaptándose a funcionar sin medicación. La ansiedad y el ánimo todavía pueden fluctuar, pero el funcionamiento general mejora.';
+
+  @override
+  String get benzoMilestone180Title =>
+      'Empiezan a recuperarse el pensamiento y la memoria';
+
+  @override
+  String get benzoMilestone180Description =>
+      'A los seis meses, la memoria y la atención muestran una mejora medible. Las investigaciones encuentran recuperación en muchas capacidades cognitivas, con avances que continúan más allá de los seis meses.';
+
+  @override
+  String get benzoMilestone365Title => 'Un año de recuperación';
+
+  @override
+  String get benzoMilestone365Description =>
+      'Después de un año, se hacen evidentes mejoras importantes en el bienestar mental y físico. Muchas personas describen menos ansiedad, mejor calidad del sueño y una salud general mejor que durante el uso prolongado de benzodiacepinas. La recuperación cerebral continúa.';
+
+  @override
+  String get benzoMilestone540Title => 'Continúa la recuperación cerebral';
+
+  @override
+  String get benzoMilestone540Description =>
+      'A los 18 meses, la memoria, la atención y la claridad mental siguen mejorando. El sistema calmante GABA del cerebro ha tenido bastante más de un año para estabilizarse, mientras el cerebro continúa creando patrones más saludables.';
+
+  @override
+  String get benzoMilestone730Title => 'Dos años: grandes avances';
+
+  @override
+  String get benzoMilestone730Description =>
+      'Dos años marcan una recuperación considerable. La mayoría de las personas tiene un pensamiento mucho más claro, emociones más estables y una calidad de vida mucho mejor que durante el uso prolongado de benzodiacepinas.';
+
+  @override
+  String get benzoMilestone1095Title => 'Tres años: recuperación a largo plazo';
+
+  @override
+  String get benzoMilestone1095Description =>
+      'A los tres años, el largo periodo de abstinencia queda muy atrás para la mayoría. El sueño, el ánimo, la memoria y la atención han tenido años para recuperarse, y la vida cotidiana suele ser mucho mejor que durante el consumo prolongado.';
+
+  @override
+  String get addictionMeth => 'Metanfetamina';
+
+  @override
+  String get addictionBenzos => 'Benzodiacepinas';
+
+  @override
+  String get methPageTitle => 'Recuperación de la metanfetamina';
+
+  @override
+  String get methHeaderStarted => 'Tu camino de recuperación';
+
+  @override
+  String get methHeaderNotStarted => 'Deja la pipa';
+
+  @override
+  String get methSubtitleStarted => 'Sigue tu progreso y celebra cada hito';
+
+  @override
+  String get methSubtitleNotStarted => 'La libertad está a tu alcance';
+
+  @override
+  String get methMilestone1Title => 'Primeras 24 horas - comienza el bajón';
+
+  @override
+  String get methMilestone1Description =>
+      'La fase inicial de bajón comienza con una fatiga profunda y mayor apetito mientras tu cuerpo inicia la recuperación. Puedes experimentar depresión y dormir mucho mientras tu organismo empieza a estabilizarse tras la intensa estimulación.';
+
+  @override
+  String get methMilestone3Title => 'Día 3 - pico de abstinencia';
+
+  @override
+  String get methMilestone3Description =>
+      'Los deseos de consumir aumentan considerablemente durante este periodo mientras tu cuerpo se adapta. Puedes sentir más energía que durante la fase de bajón, lo que puede hacer que los deseos parezcan más intensos. Es un momento crucial para prevenir recaídas y buscar apoyo.';
+
+  @override
+  String get methMilestone7Title =>
+      'Una semana - disminuyen los síntomas físicos';
+
+  @override
+  String get methMilestone7Description =>
+      'Los síntomas agudos de abstinencia empiezan a disminuir, aunque los retos psicológicos continúan. Tus patrones de sueño empiezan a normalizarse y el malestar físico disminuye. Esto marca la transición de la abstinencia aguda a la posaguda.';
+
+  @override
+  String get methMilestone30Title => 'Un mes - aparece la estabilidad';
+
+  @override
+  String get methMilestone30Description =>
+      'Comienza una fase de mejoría a medida que tu cuerpo se recupera y los deseos de consumir empiezan a disminuir. Aumenta la energía y mejora el ánimo mientras la química cerebral comienza a reequilibrarse. Aun así, mantente atento, porque todavía pueden surgir dificultades.';
+
+  @override
+  String get methMilestone90Title =>
+      'Tres meses - comienza la recuperación cerebral';
+
+  @override
+  String get methMilestone90Description =>
+      'Tu cerebro se está recuperando activamente. La atención, la memoria y la toma de decisiones empiezan a mejorar a medida que el sistema de recompensa se acerca a la normalidad.';
+
+  @override
+  String get methMilestone180Title =>
+      'Seis meses - recuperación cardiovascular';
+
+  @override
+  String get methMilestone180Description =>
+      'La función cardiaca muestra una mejora medible con la abstinencia. Los estudios indican que puede recuperarse considerablemente durante este periodo cuando se combina con apoyo médico. La presión arterial y el ritmo cardiaco siguen estabilizándose.';
+
+  @override
+  String get methMilestone365Title => 'Un año - gran recuperación cerebral';
+
+  @override
+  String get methMilestone365Description =>
+      'Después de un año, el sistema de dopamina ha avanzado mucho. Las recompensas naturales vuelven a resultar más gratificantes, mientras el ánimo, la memoria y la toma de decisiones mejoran notablemente.';
+
+  @override
+  String get methMilestone420Title => '14 meses - normalización de la dopamina';
+
+  @override
+  String get methMilestone420Description =>
+      'Las pruebas de imagen cerebral muestran que las proteínas que reciclan la dopamina se acercan a niveles saludables alrededor de esta etapa. La memoria, la motivación y la capacidad de disfrutar de las actividades cotidianas siguen mejorando.';
+
+  @override
+  String get methMilestone730Title => 'Dos años - recuperación sostenida';
+
+  @override
+  String get methMilestone730Description =>
+      'Dos años sin metanfetamina dan al cerebro un tiempo prolongado para recuperarse. La atención, el ánimo, la memoria y la calidad de vida diaria continúan mejorando.';
+
+  @override
+  String get addictionNitrousOxide => 'Óxido nitroso';
+
+  @override
+  String get nitrousOxidePageTitle => 'Recuperación del óxido nitroso';
+
+  @override
+  String get nitrousOxideHeaderStarted => 'Tu camino de recuperación';
+
+  @override
+  String get nitrousOxideHeaderNotStarted => '¿Listo para empezar?';
+
+  @override
+  String get nitrousOxideSubtitleStarted =>
+      'Sigue tu progreso y celebra cada hito';
+
+  @override
+  String get nitrousOxideSubtitleNotStarted =>
+      'Descubre los cambios positivos que te esperan';
+
+  @override
+  String get nitrousOxideMilestone1Title =>
+      'Primeras 24 horas - el organismo se limpia';
+
+  @override
+  String get nitrousOxideMilestone1Description =>
+      'El gas abandona tu organismo en minutos, pero la recuperación tarda más. El mareo disminuye, el dolor de cabeza mejora y tu cerebro empieza a adaptarse sin el atajo de la dopamina. La recuperación de tu vitamina B12 comienza ahora.';
+
+  @override
+  String get nitrousOxideMilestone3Title => 'Día 3 - sin abstinencia física';
+
+  @override
+  String get nitrousOxideMilestone3Description =>
+      'Buenas noticias: el óxido nitroso no causa abstinencia física. Los impulsos que sientes son psicológicos —hábito y asociación, no tu cuerpo exigiendo una sustancia—. Eso hace que sean manejables.';
+
+  @override
+  String get nitrousOxideMilestone7Title => 'Una semana - aumenta la B12';
+
+  @override
+  String get nitrousOxideMilestone7Description =>
+      'Una semana sin que se destruya más vitamina B12. Si has empezado a suplementarla, tus niveles ya están subiendo. La energía, el ánimo y la concentración dependen de la B12; deberías empezar a notar mejoras.';
+
+  @override
+  String get nitrousOxideMilestone14Title =>
+      'Dos semanas - se recuperan los nervios';
+
+  @override
+  String get nitrousOxideMilestone14Description =>
+      'La vitamina B12 es esencial para la capa protectora de las fibras nerviosas. A las dos semanas, ese proceso de reparación está plenamente en marcha. Cualquier hormigueo o entumecimiento que tuvieras debería estar disminuyendo: tu sistema nervioso se está reparando.';
+
+  @override
+  String get nitrousOxideMilestone30Title => 'Un mes - vuelve la energía';
+
+  @override
+  String get nitrousOxideMilestone30Description =>
+      'La vitamina B12 desempeña un papel clave en la producción de glóbulos rojos, lo que permite llevar oxígeno a cada célula del cuerpo. Un mes de recuperación y suplementación se traduce en bastante más energía, pensamiento más claro y un ánimo más estable.';
+
+  @override
+  String get nitrousOxideMilestone90Title =>
+      'Tres meses - recuperación neurológica';
+
+  @override
+  String get nitrousOxideMilestone90Description =>
+      'Tres meses sin destrucción de B12 significan tres meses de reparación nerviosa. El sistema nervioso es resiliente: la mayoría de las personas que comenzaron el tratamiento pronto observa una recuperación importante del hormigueo, la debilidad y la niebla mental a estas alturas.';
+
+  @override
+  String get nitrousOxideMilestone365Title =>
+      'Un año - salud a largo plazo asegurada';
+
+  @override
+  String get nitrousOxideMilestone365Description =>
+      'Un año completo sin óxido nitroso. Tus reservas de B12 se han restablecido, tu sistema nervioso ha tenido un año para recuperarse y el riesgo cardiovascular derivado de una homocisteína elevada se ha resuelto. Tu cuerpo vuelve a funcionar con su propia química.';
+
+  @override
+  String get addictionCocaine => 'Cocaína';
+
+  @override
+  String get addictionAdderall => 'Adderall';
+
+  @override
+  String get cocainePageTitle => 'Recuperación de la cocaína';
+
+  @override
+  String get cocaineHeaderStarted => 'Tu camino de recuperación';
+
+  @override
+  String get cocaineHeaderNotStarted => '¿Listo para empezar?';
+
+  @override
+  String get cocaineSubtitleStarted => 'Sigue tu progreso y celebra cada hito';
+
+  @override
+  String get cocaineSubtitleNotStarted =>
+      'Descubre los cambios positivos que te esperan';
+
+  @override
+  String get cocaineMilestone1Title => 'Primeras 24 horas - el comienzo';
+
+  @override
+  String get cocaineMilestone1Description =>
+      'Tu cuerpo empieza a adaptarse mientras los niveles de dopamina comienzan a estabilizarse. Puedes experimentar fatiga, cambios de ánimo y fuertes deseos de consumir, pero tu sistema cardiovascular ya está empezando a recuperarse.';
+
+  @override
+  String get cocaineMilestone3Title => 'Día 3 - máximo desafío';
+
+  @override
+  String get cocaineMilestone3Description =>
+      'Los síntomas de abstinencia suelen alcanzar su punto máximo en este momento. Puedes experimentar deseos intensos de consumir, irritabilidad, ansiedad y agotamiento. Es temporal: tu cerebro está trabajando intensamente para reequilibrarse.';
+
+  @override
+  String get cocaineMilestone7Title =>
+      'Una semana - comienza la recuperación física';
+
+  @override
+  String get cocaineMilestone7Description =>
+      'Los síntomas físicos más intensos están empezando a disminuir. Tu frecuencia cardiaca y tu presión arterial se están estabilizando. Aunque los deseos psicológicos de consumir pueden persistir, tu cuerpo se está recuperando.';
+
+  @override
+  String get cocaineMilestone14Title => 'Dos semanas - encontrando estabilidad';
+
+  @override
+  String get cocaineMilestone14Description =>
+      'Muchas personas empiezan a sentirse más estables emocionalmente. Tus niveles de energía mejoran y los síntomas agudos de abstinencia disminuyen. Tu salud cardiovascular continúa mejorando de forma importante.';
+
+  @override
+  String get cocaineMilestone60Title =>
+      'Dos meses - Mejoran el sueño y el ánimo';
+
+  @override
+  String get cocaineMilestone60Description =>
+      'La calidad de tu sueño es notablemente mejor mientras la química cerebral continúa normalizándose. Puedes sentirte más descansado y experimentar un ánimo más estable a lo largo del día.';
+
+  @override
+  String get cocaineMilestone90Title => 'Tres meses - Recuperación cerebral';
+
+  @override
+  String get cocaineMilestone90Description =>
+      'Tu sistema de dopamina se está recuperando. La concentración, la toma de decisiones y el control emocional han mejorado notablemente, y el pensamiento es más claro.';
+
+  @override
+  String get cocaineMilestone180Title => 'Seis meses - Pensamiento más claro';
+
+  @override
+  String get cocaineMilestone180Description =>
+      'Las imágenes cerebrales muestran recuperación en la parte frontal del cerebro, el área que interviene en la planificación y el autocontrol. La memoria, el control de los impulsos y la claridad de pensamiento continúan fortaleciéndose.';
+
+  @override
+  String get cocaineMilestone365Title => 'Un año - Salud cardiovascular';
+
+  @override
+  String get cocaineMilestone365Description =>
+      'Tu corazón y tu sistema cardiovascular han experimentado una recuperación notable. La presión arterial y la frecuencia cardiaca se han normalizado. El riesgo de infarto e ictus ha disminuido considerablemente. Tu cuerpo se está recuperando.';
+
+  @override
+  String get cocaineMilestone730Title => 'Dos años - Recuperación sostenida';
+
+  @override
+  String get cocaineMilestone730Description =>
+      'La recuperación cerebral continúa con mejoras sostenidas en la memoria, la concentración y la regulación emocional. Tus vías neuronales se han reorganizado de forma importante, favoreciendo patrones más saludables y un mayor bienestar general.';
+
+  @override
+  String get tabJournal => 'Diario';
+
+  @override
+  String get tabStats => 'Estadísticas';
+
+  @override
+  String get statsTitle => 'Estadísticas de recuperación';
+
+  @override
+  String get statsNoAddictions =>
+      'Empieza a hacer seguimiento para ver tus estadísticas';
+
+  @override
+  String get statsJourneyTitle => 'Tu recorrido';
+
+  @override
+  String statsTotalDays(int days) {
+    return '$days días en total';
+  }
+
+  @override
+  String statsAddictionsTracked(int count) {
+    return '$count en seguimiento';
+  }
+
+  @override
+  String get statsMoneySavedTitle => 'Dinero ahorrado';
+
+  @override
+  String get statsMoneySavedEstimate => 'Estimado según el consumo medio';
+
+  @override
+  String statsEquivalentCoffees(int count) {
+    return 'Equivale a unos $count cafés';
+  }
+
+  @override
+  String statsEquivalentMeals(int count) {
+    return 'Equivale a unas $count comidas en restaurantes';
+  }
+
+  @override
+  String get statsEquivalentFlight => 'Equivale a un vuelo a algún lugar nuevo';
+
+  @override
+  String get statsEquivalentVacation =>
+      'Equivale a unas vacaciones en el extranjero';
+
+  @override
+  String get statsTimeSavedTitle => 'Tiempo recuperado';
+
+  @override
+  String statsHoursSaved(int hours) {
+    return '$hours horas';
+  }
+
+  @override
+  String statsEquivalentBooks(int count) {
+    return 'Tiempo suficiente para leer unos $count libros';
+  }
+
+  @override
+  String statsEquivalentMovies(int count) {
+    return 'Tiempo suficiente para ver unas $count películas';
+  }
+
+  @override
+  String get statsStreaksTitle => 'Tus rachas';
+
+  @override
+  String statsDaysSuffix(int days) {
+    return '$days d';
+  }
+
+  @override
+  String statsDayUnit(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'días',
+      one: 'día',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String statsHoursSuffix(int hours) {
+    return '$hours h';
+  }
+
+  @override
+  String get statsResilienceTitle => 'Resiliencia';
+
+  @override
+  String statsTimesBouncedBack(int count) {
+    return '$count veces que has reiniciado y seguido adelante';
+  }
+
+  @override
+  String statsDaysBeforeRelapse(int days) {
+    return '$days días de progreso cada vez';
+  }
+
+  @override
+  String get tabSettings => 'Ajustes';
+
+  @override
+  String get homeAddButton => 'Añadir';
+
+  @override
+  String get homeAddTooltip =>
+      'Crea tu propia adicción personalizada para dejarla';
+
+  @override
+  String get quitStartButton => 'Comenzar';
+
+  @override
+  String get quitResetButton => 'Reiniciar';
+
+  @override
+  String get quitCardSubtitle => 'Toca para comenzar';
+
+  @override
+  String quitCardKeepDays(int days) {
+    String _temp0 = intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
+      other: ' días',
+      one: ' día',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String newVersionToast(String version) {
+    return 'Nueva versión $version';
+  }
+
+  @override
+  String get changesAction => 'Cambios';
+
+  @override
+  String hideDialogTitle(String title) {
+    return '¿Ocultar $title?';
+  }
+
+  @override
+  String hideDialogMessage(String title) {
+    return 'Esto ocultará la opción $title de la pantalla de inicio. Puedes volver a mostrarla en Ajustes.';
+  }
+
+  @override
+  String get cancel => 'Cancelar';
+
+  @override
+  String get hide => 'Ocultar';
+
+  @override
+  String stopTrackingDialogTitle(String title) {
+    return '¿Dejar de seguir $title?';
+  }
+
+  @override
+  String stopTrackingDialogMessage(String title) {
+    return 'Esto eliminará $title de la pantalla de inicio. Se conservará tu historial de hitos.';
+  }
+
+  @override
+  String get stopTracking => 'Eliminar';
+
+  @override
+  String get addAddictionTitle => 'Seguir una adicción';
+
+  @override
+  String get addAddictionCustom => 'Personalizada';
+
+  @override
+  String get addAddictionCustomSubtitle =>
+      'Haz seguimiento de cualquier cosa que quieras dejar';
+
+  @override
+  String get homeEmptyTitle => 'Aún no haces seguimiento de nada';
+
+  @override
+  String get homeEmptySubtitle => 'Toca + para empezar a seguir una adicción';
+
+  @override
+  String get addAddictionNoneAvailable =>
+      'Ya estás haciendo seguimiento de todas las adicciones disponibles';
+
+  @override
+  String get addictionAlcohol => 'Alcohol';
+
+  @override
+  String get addictionVaping => 'Vapeo';
+
+  @override
+  String get addictionSmoking => 'Tabaco';
+
+  @override
+  String get addictionMarijuana => 'Marihuana';
+
+  @override
+  String get settingsLocaleUnsupported => 'No compatible';
+
+  @override
+  String get settingsLocaleJapanese => 'Japonés';
+
+  @override
+  String get settingsLocaleEnglish => 'Inglés';
+
+  @override
+  String get settingsLocaleSimplifiedChinese => 'Chino simplificado';
+
+  @override
+  String get settingsLocaleRussian => 'Ruso';
+
+  @override
+  String get settingsLocaleSpanish => 'Español';
+
+  @override
+  String get settingsLocaleSystem => 'Predeterminado del sistema';
+
+  @override
+  String get settingsLocale => 'Idioma';
+
+  @override
+  String get addictionNicotinePouches => 'Bolsitas de nicotina';
+
+  @override
+  String get addictionHeroin => 'Heroína';
+
+  @override
+  String get addictionOpioids => 'Opioides';
+
+  @override
+  String get addictionFentanyl => 'Fentanilo';
+
+  @override
+  String get addictionSmokelessTobacco => 'Tabaco de mascar / rapé oral';
+
+  @override
+  String get smokelessTobaccoPageTitle => 'Sin tabaco';
+
+  @override
+  String get smokelessTobaccoHeaderStarted => 'Camino sin nicotina';
+
+  @override
+  String get smokelessTobaccoHeaderNotStarted =>
+      'Deja el tabaco de mascar y el rapé oral';
+
+  @override
+  String get smokelessTobaccoSubtitleStarted =>
+      'Sigue tu progreso y celebra cada hito';
+
+  @override
+  String get smokelessTobaccoSubtitleNotStarted =>
+      'Descubre qué ocurre cuando lo dejas';
+
+  @override
+  String get addictionSocialMedia => 'Redes sociales';
+
+  @override
+  String get addictionAdultContent => 'Contenido para adultos';
+
+  @override
+  String get search => 'Buscar...';
+
+  @override
+  String get noSearchResults => 'No se encontraron resultados';
+
+  @override
+  String get homeSearchHint => 'Buscar adicciones...';
+
+  @override
+  String get homeTrackAnyway => 'Seguirlo de todos modos';
+
+  @override
+  String get iconSearchHint => 'Buscar iconos...';
+
+  @override
+  String get iconNoResults => 'No se encontraron iconos';
+
+  @override
+  String get milestoneOpenOriginalSource => 'Abrir fuente original';
+
+  @override
+  String get settingsExportSaveDialog => 'Guardar datos en';
+
+  @override
+  String get settingsSearchHint => 'Buscar ajustes...';
+
+  @override
+  String get settingsSectionAppearance => 'Apariencia';
+
+  @override
+  String get settingsSectionSecurity => 'Seguridad';
+
+  @override
+  String get settingsSectionMainScreenItems =>
+      'Elementos de la pantalla principal';
+
+  @override
+  String get settingsSectionNotifications => 'Notificaciones';
+
+  @override
+  String get settingsSectionSystem => 'Sistema';
+
+  @override
+  String get settingsPinLock => 'Bloqueo con PIN';
+
+  @override
+  String get settingsPinLockSubtitle =>
+      'Solicitar PIN para abrir la aplicación';
+
+  @override
+  String get settingsPinTimeout => 'Tiempo de espera del PIN (segundos)';
+
+  @override
+  String get settingsPinTimeoutHint => '15';
+
+  @override
+  String get settingsTheme => 'Tema';
+
+  @override
+  String get settingsColorScheme => 'Esquema de colores';
+
+  @override
+  String get settingsDynamicColorScheme => 'Colores dinámicos';
+
+  @override
+  String get settingsBlueColorScheme => 'Azul';
+
+  @override
+  String get settingsGreenColorScheme => 'Verde';
+
+  @override
+  String get settingsRedColorScheme => 'Rojo';
+
+  @override
+  String get settingsPurpleColorScheme => 'Morado';
+
+  @override
+  String get settingsOrangeColorScheme => 'Naranja';
+
+  @override
+  String get settingsResetButtons => 'Botones de reinicio';
+
+  @override
+  String get settingsResetButtonsSubtitle =>
+      'Mostrar botones de reinicio en las páginas de abandono';
+
+  @override
+  String get settingsShowJournal => 'Mostrar diario';
+
+  @override
+  String get settingsShowBenzosSubtitle =>
+      'Mostrar seguimiento de benzodiacepinas';
+
+  @override
+  String get settingsShowJournalSubtitle =>
+      'Activar la pestaña de diario para registrar tus pensamientos';
+
+  @override
+  String get settingsWeekStartsMonday => 'La semana empieza el lunes';
+
+  @override
+  String get settingsWeekStartsMondaySubtitle =>
+      'La semana del calendario empieza el lunes en lugar del domingo';
+
+  @override
+  String get settingsSwipeBetweenTabs => 'Deslizar entre pestañas';
+
+  @override
+  String get settingsSwipeBetweenTabsSubtitle =>
+      'Arrastrar el dedo permite moverse entre Diario, Inicio y Ajustes';
+
+  @override
+  String get settingsShowAlcoholTracking => 'Mostrar seguimiento de alcohol';
+
+  @override
+  String get settingsShowVapingTracking => 'Mostrar seguimiento de vapeo';
+
+  @override
+  String get settingsShowSmokingTracking => 'Mostrar seguimiento de tabaco';
+
+  @override
+  String get settingsShowMarijuanaTracking =>
+      'Mostrar seguimiento de marihuana';
+
+  @override
+  String get settingsShowNicotinePouchesTracking =>
+      'Mostrar seguimiento de bolsitas de nicotina';
+
+  @override
+  String get settingsShowOpioidsTracking => 'Mostrar seguimiento de opioides';
+
+  @override
+  String get settingsShowSocialMediaTracking =>
+      'Mostrar seguimiento de redes sociales';
+
+  @override
+  String get settingsShowAdderallTracking => 'Mostrar seguimiento de Adderall';
+
+  @override
+  String get settingsNotifyAdderall =>
+      'Notificar el progreso al dejar Adderall';
+
+  @override
+  String get settingsShowCocaineTracking => 'Mostrar seguimiento de cocaína';
+
+  @override
+  String get settingsShowMethTracking => 'Mostrar seguimiento de metanfetamina';
+
+  @override
+  String get settingsShowAdultContentTracking =>
+      'Mostrar seguimiento de contenido para adultos';
+
+  @override
+  String get settingsNotificationFrequency => 'Frecuencia de notificaciones';
+
+  @override
+  String settingsNotificationFrequencySubtitle(int days, String time) {
+    String _temp0 = intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
+      other: '$days días',
+      one: '$days día',
+    );
+    return 'Cada $_temp0 a las $time';
+  }
+
+  @override
+  String get settingsNotifyAlcohol =>
+      'Notificar el progreso al dejar el alcohol';
+
+  @override
+  String get settingsNotifyVaping => 'Notificar el progreso al dejar el vapeo';
+
+  @override
+  String get settingsNotifySmoking =>
+      'Notificar el progreso al dejar el tabaco';
+
+  @override
+  String get settingsNotifyMarijuana =>
+      'Notificar el progreso al dejar la marihuana';
+
+  @override
+  String get settingsNotifyNicotinePouches =>
+      'Notificar el progreso al dejar las bolsitas de nicotina';
+
+  @override
+  String get settingsNotifyBenzos =>
+      'Notificar el progreso al dejar las benzodiacepinas';
+
+  @override
+  String get settingsNotifyOpioids =>
+      'Notificar el progreso al dejar los opioides';
+
+  @override
+  String get settingsNotifySocialMedia =>
+      'Notificar el progreso al dejar las redes sociales';
+
+  @override
+  String get settingsNotifyCocaine =>
+      'Notificar el progreso al dejar la cocaína';
+
+  @override
+  String get settingsNotifyMeth =>
+      'Notificar el progreso al dejar la metanfetamina';
+
+  @override
+  String get settingsNotifyAdultContent =>
+      'Notificar el progreso al dejar el contenido para adultos';
+
+  @override
+  String settingsNotifyCustomEntry(String name) {
+    return 'Notificar el progreso al dejar $name';
+  }
+
+  @override
+  String get settingsResetMessages => 'Mensajes de reinicio';
+
+  @override
+  String get settingsResetMessagesSubtitle =>
+      'Mostrar refuerzo positivo después de recaídas';
+
+  @override
+  String get settingsAbout => 'Acerca de';
+
+  @override
+  String get settingsWhatsNew => 'Novedades';
+
+  @override
+  String get settingsEnjoyingApp => '¿Te gusta la aplicación?';
+
+  @override
+  String get settingsReportBug => 'Informar de un error';
+
+  @override
+  String get settingsExportData => 'Exportar datos';
+
+  @override
+  String get settingsImportData => 'Importar datos';
+
+  @override
+  String get settingsDeleteEverything => 'Eliminar todo';
+
+  @override
+  String get themeLight => 'Claro';
+
+  @override
+  String get themeDark => 'Oscuro';
+
+  @override
+  String get themeSystem => 'Sistema';
+
+  @override
+  String get themePureBlack => 'Negro puro';
+
+  @override
+  String get themeMode => 'Modo de tema';
+
+  @override
+  String get pinDialogSetTitle => 'Establecer PIN';
+
+  @override
+  String get pinDialogEnterPIN => 'Introduce el PIN';
+
+  @override
+  String get pinDialogConfirmPIN => 'Confirma el PIN';
+
+  @override
+  String get pinDialogSet => 'Establecer';
+
+  @override
+  String get pinDialogPINsDoNotMatch => 'Los PIN no coinciden';
+
+  @override
+  String get pinDialogPIN => 'PIN';
+
+  @override
+  String get pinDialogOK => 'OK';
+
+  @override
+  String get notificationFrequencyDialogTitle => 'Frecuencia de notificaciones';
+
+  @override
+  String get notificationFrequencyNotifyEvery => 'Notificar cada';
+
+  @override
+  String get notificationFrequencyDays => 'día(s)';
+
+  @override
+  String get notificationFrequencyAt => 'A las';
+
+  @override
+  String get notificationFrequencySave => 'Guardar';
+
+  @override
+  String get notificationTestTitle => 'Afirmación positiva';
+
+  @override
+  String notificationTestBody(int days) {
+    String _temp0 = intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
+      other: '$days días',
+      one: '$days día',
+    );
+    return 'Verás una notificación como esta cada $_temp0 felicitándote por tu progreso.';
+  }
+
+  @override
+  String get deleteEverythingDialogTitle => 'Eliminar todo';
+
+  @override
+  String get deleteEverythingDialogMessage =>
+      '¿Seguro que quieres eliminarlo todo? Esta acción no se puede deshacer.';
+
+  @override
+  String get deleteEverythingConfirm => '¡ELIMINAR!';
+
+  @override
+  String get dataExported => '¡Datos exportados!';
+
+  @override
+  String get dataImported => '¡Datos importados correctamente!';
+
+  @override
+  String get dataImportFailed => 'Error de importación';
+
+  @override
+  String get dataImportFailedMessage =>
+      'No se pudo importar el archivo seleccionado. Comprueba que sea una copia de seguridad válida de Quitter e inténtalo de nuevo.';
+
+  @override
+  String get journalHowWasYourDay => '¿Qué tal ha ido tu día?';
+
+  @override
+  String get journalPlaceholder =>
+      'Escribe sobre tu día, tus pensamientos, tus sentimientos o cualquier cosa que quieras recordar...';
+
+  @override
+  String journalWordCount(int count) {
+    return '$count palabras';
+  }
+
+  @override
+  String get journalPreviousMonth => 'Mes anterior';
+
+  @override
+  String get journalNextMonth => 'Mes siguiente';
+
+  @override
+  String get quitMilestonesStart => 'Comenzar';
+
+  @override
+  String get quitMilestonesReset => 'Reiniciar';
+
+  @override
+  String get quitMilestonesQuitDate => 'Fecha de abandono';
+
+  @override
+  String quitMilestonesClearTitle(int days) {
+    return '¿Borrar el hito de $days días?';
+  }
+
+  @override
+  String quitMilestonesClearMessage(int days) {
+    return 'Esto borrará todas las ocasiones anteriores en las que alcanzaste el hito de $days días.';
+  }
+
+  @override
+  String get quitMilestonesClear => 'Borrar';
+
+  @override
+  String quitMilestonesShareMessage(int days, String title) {
+    String _temp0 = intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
+      other: '$days días',
+      one: '$days día',
+    );
+    return '¡Llevo $_temp0 sin $title!';
+  }
+
+  @override
+  String timelineMilestoneDay(int days) {
+    return 'Día $days';
+  }
+
+  @override
+  String timelineMilestoneYears(int years) {
+    String _temp0 = intl.Intl.pluralLogic(
+      years,
+      locale: localeName,
+      other: '$years años',
+      one: '$years año',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get entryPageHeaderStarted => 'Un paso más fuerte';
+
+  @override
+  String get entryPageHeaderNotStarted => 'Sin empezar';
+
+  @override
+  String get entryPageSubtitleStarted => '¡Lo estás haciendo genial!';
+
+  @override
+  String get entryPageSubtitleNotStarted =>
+      'Toca «Comenzar» para iniciar tu camino';
+
+  @override
+  String get editEntryAddTitle => 'Añadir entrada';
+
+  @override
+  String get editEntryEditTitle => 'Editar entrada';
+
+  @override
+  String get editEntryTitle => 'Título';
+
+  @override
+  String get editEntryTitleError => 'Introduce un título';
+
+  @override
+  String get editEntryColor => 'Color';
+
+  @override
+  String get editEntryIcon => 'Icono';
+
+  @override
+  String get editEntrySave => 'Guardar';
+
+  @override
+  String get editEntryDeleteDialogTitle => '¿Estás seguro?';
+
+  @override
+  String get editEntryDeleteDialogMessage =>
+      '¿De verdad quieres eliminar esta entrada?';
+
+  @override
+  String get editEntryDeleteNo => 'No';
+
+  @override
+  String get editEntryDeleteYes => 'Sí';
+
+  @override
+  String get pinPageEnterPIN => 'Introduce el PIN';
+
+  @override
+  String get pinPageIncorrectPIN => 'PIN incorrecto';
+
+  @override
+  String pinPageTooManyAttempts(int seconds) {
+    return 'Demasiados intentos. Inténtalo de nuevo en $seconds s.';
+  }
+
+  @override
+  String get aboutPageTitle => 'Acerca de';
+
+  @override
+  String get aboutVersion => 'Versión';
+
+  @override
+  String get aboutAuthor => 'Autor';
+
+  @override
+  String get aboutAuthorName => 'Brandon Dick';
+
+  @override
+  String get aboutLicense => 'Licencia';
+
+  @override
+  String get aboutLicenseMIT => 'MIT';
+
+  @override
+  String get aboutDonate => 'Donar';
+
+  @override
+  String get aboutDonateSubtitle => 'Ayuda a apoyar este proyecto';
+
+  @override
+  String get aboutSourceCode => 'Código fuente';
+
+  @override
+  String get whatsNewTitle => '¿Qué hay de nuevo?';
+
+  @override
+  String get whatsNewSearchHint => 'Buscar...';
+
+  @override
+  String get whatsNewEnjoyingButton => '¿Te gusta la aplicación?';
+
+  @override
+  String get enjoyingPageTitle => '¿Te gusta la aplicación?';
+
+  @override
+  String get enjoyingLeaveReview => 'Deja una reseña';
+
+  @override
+  String get enjoyingLeaveReviewSubtitle => '¡Cuéntame qué te parece!';
+
+  @override
+  String get enjoyingGiveStar => 'Danos una estrella';
+
+  @override
+  String get enjoyingGiveStarSubtitle => 'Muestra tu apoyo en GitHub';
+
+  @override
+  String get enjoyingDonate => 'Donar';
+
+  @override
+  String get enjoyingDonateSubtitle => 'Apoya el desarrollo';
+
+  @override
+  String get alcoholPageTitle => 'Sobrio y radiante';
+
+  @override
+  String alcoholPageQuitDateDisplay(DateTime quitDate, int days) {
+    final intl.DateFormat quitDateDateFormat = intl.DateFormat.yMMMd(
+      localeName,
+    );
+    final String quitDateString = quitDateDateFormat.format(quitDate);
+
+    String _temp0 = intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
+      other: '$days días',
+      one: '$days día',
+    );
+    return '$quitDateString ($_temp0)';
+  }
+
+  @override
+  String get alcoholHeaderStarted => '¡Brindamos por ti!';
+
+  @override
+  String get alcoholHeaderNotStarted => '¡Te espera un camino sobrio!';
+
+  @override
+  String get alcoholSubtitleStarted => 'Cada día es una victoria 🥳';
+
+  @override
+  String get alcoholSubtitleNotStarted =>
+      '¿Listo para una versión más luminosa de ti? ✨';
+
+  @override
+  String get vapingPageTitle => 'Victoria sin vapeo';
+
+  @override
+  String get vapingHeaderStarted => '¡Cielos despejados por delante!';
+
+  @override
+  String get vapingHeaderNotStarted => '¡Una vida sin vapeo!';
+
+  @override
+  String get vapingSubtitleStarted => 'Respira mejor, vive libre 🌬️';
+
+  @override
+  String get vapingSubtitleNotStarted => '¿Listo para dejar el vapeo? ✨';
+
+  @override
+  String get smokingPageTitle => 'Sin humo y en ascenso';
+
+  @override
+  String get smokingHeaderStarted => '¡Respira con facilidad!';
+
+  @override
+  String get smokingHeaderNotStarted => '¡Tu camino sin humo!';
+
+  @override
+  String get smokingSubtitleStarted =>
+      'Cada día sin una calada es una victoria 🚭';
+
+  @override
+  String get smokingSubtitleNotStarted => '¿Listo para recuperar tu salud? ✨';
+
+  @override
+  String get marijuanaPageTitle => 'Camino sin cannabis';
+
+  @override
+  String get marijuanaHeaderStarted => '¡Una mente cada vez más clara!';
+
+  @override
+  String get marijuanaHeaderNotStarted => '¡Una vida sin cannabis!';
+
+  @override
+  String get marijuanaSubtitleStarted =>
+      'Recuperando claridad mental, día a día 🧠';
+
+  @override
+  String get marijuanaSubtitleNotStarted =>
+      '¿Listo para un mañana más claro? 🌱';
+
+  @override
+  String get nicotinePouchesPageTitle => 'Fuerza sin bolsitas';
+
+  @override
+  String get nicotinePouchesHeaderStarted => '¡Fresco y libre!';
+
+  @override
+  String get nicotinePouchesHeaderNotStarted => '¡Progreso sin bolsitas!';
+
+  @override
+  String get nicotinePouchesSubtitleStarted =>
+      'Abraza una versión más sana y luminosa de ti ✨';
+
+  @override
+  String get nicotinePouchesSubtitleNotStarted =>
+      '¿Listo para dejar las bolsitas? 🚀';
+
+  @override
+  String get opioidsPageTitle => 'Camino hacia la calma';
+
+  @override
+  String get opioidsHeaderStarted => '¡Más fuerte cada día!';
+
+  @override
+  String get opioidsHeaderNotStarted => '¡Camino hacia la recuperación!';
+
+  @override
+  String get opioidsSubtitleStarted => 'Abraza tu fortaleza 💪';
+
+  @override
+  String get opioidsSubtitleNotStarted => '¿Listo para recuperar tu vida? 💖';
+
+  @override
+  String get opioidsInfoBox =>
+      'La recuperación es un proceso médico. Consulta siempre con profesionales sanitarios.';
+
+  @override
+  String get socialMediaPageTitle => 'El placer de la desintoxicación digital';
+
+  @override
+  String get socialMediaHeaderStarted => '¡Desconecta y disfruta!';
+
+  @override
+  String get socialMediaHeaderNotStarted =>
+      '¡Tu camino de desintoxicación digital!';
+
+  @override
+  String get socialMediaSubtitleStarted => 'La vida real es el mejor feed 💖';
+
+  @override
+  String get socialMediaSubtitleNotStarted =>
+      '¿Listo para recuperar tu tiempo? 🚀';
+
+  @override
+  String get pornographyPageTitle => 'Recuperación de la pornografía';
+
+  @override
+  String get pornographyHeaderStarted => 'Construyendo un control duradero';
+
+  @override
+  String get pornographyHeaderNotStarted =>
+      'Cambia el consumo problemático de pornografía';
+
+  @override
+  String get pornographySubtitleStarted =>
+      'Sigue los desencadenantes, el control y los hitos basados en evidencia';
+
+  @override
+  String get pornographySubtitleNotStarted =>
+      'Consulta lo que respalda la investigación y mide tu propio progreso';
+
+  @override
+  String get relapseMessage1 =>
+      'La recuperación no es lineal. Cada paso adelante cuenta, incluido este.';
+
+  @override
+  String get relapseMessage2 =>
+      'Estás aquí, lo estás intentando y eso requiere verdadero valor.';
+
+  @override
+  String get relapseMessage3 =>
+      'Los tropiezos no borran tu progreso. Estás aprendiendo y creciendo.';
+
+  @override
+  String get relapseMessage4 =>
+      'Cada reinicio demuestra tu fortaleza, no tu debilidad.';
+
+  @override
+  String get relapseMessage5 => 'Mañana es un nuevo comienzo. Puedes con esto.';
+
+  @override
+  String get relapseMessage6 =>
+      'Tu valor no lo definen las rachas perfectas. Tú importas.';
+
+  @override
+  String get relapseMessage7 =>
+      'La recuperación es un camino con subidas y bajadas. Sigue avanzando.';
+
+  @override
+  String get relapseMessage8 =>
+      'Tuviste la fuerza para empezar antes y vuelves a tenerla ahora.';
+
+  @override
+  String get relapseMessage9 =>
+      'Un momento no define todo el camino que tienes por delante.';
+
+  @override
+  String get relapseMessage10 =>
+      'Estar aquí demuestra que no te has rendido. Eso tiene mucha fuerza.';
+
+  @override
+  String get relapseMessage11 =>
+      'El progreso no consiste en la perfección, sino en la constancia.';
+
+  @override
+  String get relapseMessage12 =>
+      'Con cada intento estás desarrollando resiliencia. Sigue así.';
+
+  @override
+  String get relapseMessage13 =>
+      'Tu compromiso de volver a intentarlo ya es una victoria.';
+
+  @override
+  String get relapseMessage14 =>
+      'Sanar no es instantáneo, pero ocurre con cada decisión que tomas.';
+
+  @override
+  String get relapseMessage15 =>
+      'No estás empezando de cero: continúas con más experiencia.';
+
+  @override
+  String get relapseMessage16 =>
+      'Todo experto fue alguna vez principiante. Todo profesional fue alguna vez aficionado.';
+
+  @override
+  String get relapseMessage17 =>
+      'La recuperación sucede día a día y, a veces, hora a hora.';
+
+  @override
+  String get relapseMessage18 =>
+      'Estás escribiendo una historia de superación. Este es solo un capítulo.';
+
+  @override
+  String get relapseMessage19 =>
+      'El hecho de estar aquí significa que te importas. Aférrate a eso.';
+
+  @override
+  String get relapseMessage20 =>
+      'Los pasos pequeños en la dirección correcta siguen siendo pasos adelante.';
+
+  @override
+  String get undo => 'Deshacer';
+
+  @override
+  String get ok => 'OK';
+
+  @override
+  String get alcoholMilestone1Title => 'La calidad del sueño empieza a mejorar';
+
+  @override
+  String get alcoholMilestone1Description =>
+      'Tus ciclos de sueño REM empiezan a normalizarse durante el primer día. Aunque el alcohol puede ayudarte a conciliar el sueño al principio, altera el sueño profundo y los ciclos REM durante la noche, provocando un sueño fragmentado.';
+
+  @override
+  String get alcoholMilestone3Title =>
+      'Se recuperan los niveles de hidratación';
+
+  @override
+  String get alcoholMilestone3Description =>
+      'Tus riñones se están recuperando de los efectos diuréticos del alcohol. El alcohol inhibe la hormona antidiurética, lo que aumenta la micción y la deshidratación. Para el tercer día, el equilibrio de líquidos del organismo mejora de forma importante.';
+
+  @override
+  String get alcoholMilestone7Title => 'El sistema inmunitario se fortalece';
+
+  @override
+  String get alcoholMilestone7Description =>
+      'Tus glóbulos blancos están recuperando su función. Incluso un único episodio de consumo excesivo puede perjudicar la función inmunitaria durante hasta 24 horas, y el consumo crónico debilita considerablemente la capacidad del organismo para combatir infecciones.';
+
+  @override
+  String get alcoholMilestone14Title =>
+      'Empieza la recuperación del volumen cerebral';
+
+  @override
+  String get alcoholMilestone14Description =>
+      'El volumen cerebral empieza a recuperarse durante las dos primeras semanas. El pensamiento y la memoria continúan mejorando durante los meses siguientes.';
+
+  @override
+  String get alcoholMilestone30Title => 'La presión arterial se normaliza';
+
+  @override
+  String get alcoholMilestone30Description =>
+      'Tu sistema cardiovascular muestra una mejora importante. El consumo habitual de alcohol eleva la presión arterial, pero alrededor de un mes de abstinencia puede ayudar a devolverla a niveles más saludables.';
+
+  @override
+  String get alcoholMilestone60Title => 'Mejora la función hepática';
+
+  @override
+  String get alcoholMilestone60Description =>
+      'La función de tu hígado muestra una mejora medible. Este órgano regenerativo puede recuperarse considerablemente del daño causado por el alcohol, y las enzimas hepáticas y la acumulación de grasa pueden mejorar en los primeros dos meses de abstinencia.';
+
+  @override
+  String get alcoholMilestone90Title =>
+      'El pensamiento y la memoria mejoran considerablemente';
+
+  @override
+  String get alcoholMilestone90Description =>
+      'Los primeros tres meses aportan grandes mejoras en la memoria, la concentración y la toma de decisiones, y la recuperación continúa durante los meses siguientes.';
+
+  @override
+  String get alcoholMilestone180Title =>
+      'Continúa la recuperación del volumen y la función cerebral';
+
+  @override
+  String get alcoholMilestone180Description =>
+      'Seis meses de sobriedad dan al cerebro un periodo prolongado para recuperarse. El volumen cerebral y las capacidades cognitivas continúan mejorando.';
+
+  @override
+  String get alcoholMilestone365Title =>
+      'Puede empezar a reducirse el riesgo de cáncer';
+
+  @override
+  String get alcoholMilestone365Description =>
+      'Un año de abstinencia puede empezar a reducir el riesgo de cáncer. Aunque el alcohol aumenta claramente el riesgo de varios tipos de cáncer (hígado, mama, colorrectal y esófago), la investigación sobre el plazo de reducción del riesgo aún está evolucionando y varía según el tipo de cáncer.';
+
+  @override
+  String get smokingMilestone1Title => 'Se elimina el monóxido de carbono';
+
+  @override
+  String get smokingMilestone1Description =>
+      '¡Tu sangre vuelve a respirar! En 24 horas, los niveles de monóxido de carbono bajan hasta la normalidad y aumenta el oxígeno. Tu corazón ya no tiene que trabajar de más para bombear sangre cargada de toxinas por el cuerpo.';
+
+  @override
+  String get smokingMilestone3Title =>
+      'La abstinencia de nicotina alcanza su pico';
+
+  @override
+  String get smokingMilestone3Description =>
+      'El monstruo de la nicotina está en su peor momento, ¡pero estás ganando la batalla! Toda la nicotina ya ha salido de tu organismo. Los deseos más intensos aparecen ahora, pero superarlos te acerca a la libertad.';
+
+  @override
+  String get smokingMilestone7Title =>
+      'El gusto y el olfato mejoran notablemente';
+
+  @override
+  String get smokingMilestone7Description =>
+      '¡La comida está a punto de volver a ser una aventura! Fumar daña las papilas gustativas y los receptores del olfato. Después de una semana, empiezas a redescubrir sabores que habías olvidado. ¡Prepárate para disfrutar mucho más de la comida!';
+
+  @override
+  String get smokingMilestone14Title =>
+      'Mejoran la circulación y la capacidad para caminar';
+
+  @override
+  String get smokingMilestone14Description =>
+      '¡Tus piernas te lo agradecen con cada paso! La circulación sanguínea mejora notablemente, haciendo que caminar y hacer ejercicio resulte más fácil. Esas escaleras ya no parecen tan intimidantes, ¿verdad?';
+
+  @override
+  String get smokingMilestone30Title => 'Aumenta la función pulmonar';
+
+  @override
+  String get smokingMilestone30Description =>
+      '¡Tus pulmones están celebrando su regreso! Los cilios han vuelto a crecer y ayudan a eliminar años de alquitrán y residuos. La capacidad pulmonar aumenta de forma importante y esa tos de fumador queda atrás.';
+
+  @override
+  String get smokingMilestone90Title =>
+      'El riesgo de infarto disminuye considerablemente';
+
+  @override
+  String get smokingMilestone90Description =>
+      '¡Tu corazón te lo está agradeciendo! Tras tres meses sin fumar, tu riesgo cardiovascular ya ha disminuido considerablemente. Tu sistema cardiovascular se recupera más rápido de lo que quizá imaginabas.';
+
+  @override
+  String get smokingMilestone180Title => 'El sistema inmunitario se fortalece';
+
+  @override
+  String get smokingMilestone180Description =>
+      '¡Tu sistema inmunitario acaba de recibir una gran mejora! Tras seis meses sin fumar, tus glóbulos blancos han recuperado su capacidad para combatir infecciones con eficacia.';
+
+  @override
+  String get smokingMilestone365Title =>
+      'El riesgo de ictus disminuye considerablemente';
+
+  @override
+  String get smokingMilestone365Description =>
+      '¡Un año entero de libertad! Tu riesgo de ictus ha disminuido considerablemente y tus vasos sanguíneos siguen recuperándose. Has dado a tu cerebro el beneficio de una mejor circulación y protección.';
+
+  @override
+  String get smokingMilestone1825Title =>
+      'El riesgo de cáncer cae en picado (5 años)';
+
+  @override
+  String get smokingMilestone1825Description =>
+      '¡Cinco años de victoria! El riesgo de cáncer de boca, garganta, esófago y vejiga se ha reducido a la mitad. El riesgo de cáncer de pulmón también ha disminuido de forma importante. Tus células han tenido tiempo para repararse y regenerarse.';
+
+  @override
+  String get vapingMilestone1Title => 'Los deseos de nicotina alcanzan su pico';
+
+  @override
+  String get vapingMilestone1Description =>
+      'Tu cerebro protesta por la falta de nicotina, ¡pero ya estás avanzando! En 24 horas, los niveles de nicotina bajan drásticamente. Los deseos más intensos aparecen ahora, y superarlos es especialmente importante.';
+
+  @override
+  String get vapingMilestone3Title => 'Mejora la respiración';
+
+  @override
+  String get vapingMilestone3Description =>
+      '¡Tus pulmones empiezan a notarlo! Los bronquios comienzan a relajarse y la capacidad pulmonar empieza a mejorar. Esa sensación de opresión en el pecho asociada al vapeo ya empieza a disminuir.';
+
+  @override
+  String get vapingMilestone7Title => 'Regresan el gusto y el olfato';
+
+  @override
+  String get vapingMilestone7Description =>
+      '¡La comida está a punto de volver a saber genial! La nicotina reduce la sensibilidad de las papilas gustativas y los receptores del olfato. Tras una semana, tus sentidos empiezan a recuperar intensidad.';
+
+  @override
+  String get vapingMilestone14Title => 'Mejora la circulación';
+
+  @override
+  String get vapingMilestone14Description =>
+      '¡Tu sangre circula mucho mejor! La nicotina contrae los vasos sanguíneos, pero después de dos semanas sin vapear la circulación mejora notablemente. Las manos y los pies fríos pueden empezar a quedar atrás.';
+
+  @override
+  String get vapingMilestone30Title => 'Recuperación de la función pulmonar';
+
+  @override
+  String get vapingMilestone30Description =>
+      '¡Tus pulmones casi están de celebración! Los cilios, esos pequeños limpiadores de los pulmones, se han regenerado y la función pulmonar ha mejorado considerablemente. Esa tos matutina puede quedar atrás.';
+
+  @override
+  String get vapingMilestone60Title => 'Los niveles de ansiedad se normalizan';
+
+  @override
+  String get vapingMilestone60Description =>
+      'Giro inesperado: vapear empeoraba la ansiedad en lugar de aliviarla. Tras dos meses, tu nivel habitual de ansiedad es menor y el sistema nervioso se está estabilizando.';
+
+  @override
+  String get vapingMilestone90Title => 'Mejoran la concentración y la memoria';
+
+  @override
+  String get vapingMilestone90Description =>
+      '¡La niebla mental se ha marchado! Tras tres meses sin nicotina, la concentración, la memoria y la claridad de pensamiento son notablemente mejores. Es como ampliar la RAM mental.';
+
+  @override
+  String get vapingMilestone180Title => 'Recuperación de la salud bucal';
+
+  @override
+  String get vapingMilestone180Description =>
+      '¡Tu boca te lo agradece! Tras seis meses sin vapear disminuye la inflamación de las encías, se reducen las manchas dentales y baja considerablemente el riesgo de problemas de salud bucal.';
+
+  @override
+  String get vapingMilestone365Title => 'Reducción del riesgo cardiovascular';
+
+  @override
+  String get vapingMilestone365Description =>
+      '¡Tu corazón está literalmente más fuerte! Tras un año completo, el riesgo de enfermedad cardíaca ha disminuido de forma importante. Tu sistema cardiovascular se ha recuperado de la exposición diaria a la nicotina.';
+
+  @override
+  String get marijuanaMilestone1Title =>
+      'Comienzan los síntomas de abstinencia';
+
+  @override
+  String get marijuanaMilestone1Description =>
+      '¡Tu cerebro se está adaptando a la vida sin THC! Entre las 24 y 48 horas puedes experimentar irritabilidad, ansiedad o dificultades para dormir. Es algo normal: tus receptores cannabinoides empiezan a reajustarse.';
+
+  @override
+  String get marijuanaMilestone3Title =>
+      'Los síntomas físicos alcanzan su pico';
+
+  @override
+  String get marijuanaMilestone3Description =>
+      'Estás en el punto más difícil, pero a partir de aquí empieza la mejoría. Entre los días 2 y 6 suelen alcanzar su máximo los síntomas de abstinencia, como dolor de cabeza, sudoración y cambios de ánimo. Tu organismo está trabajando para recuperar el equilibrio.';
+
+  @override
+  String get marijuanaMilestone7Title => 'Mejoran los patrones de sueño';
+
+  @override
+  String get marijuanaMilestone7Description =>
+      '¡Vuelven los dulces sueños! Tras una semana sin cannabis, la arquitectura natural del sueño empieza a normalizarse. El sueño REM se recupera, lo que puede provocar sueños más vívidos y un descanso de mejor calidad.';
+
+  @override
+  String get marijuanaMilestone14Title => 'Termina la abstinencia aguda';
+
+  @override
+  String get marijuanaMilestone14Description =>
+      '¡La tormenta ha pasado! La mayoría de los síntomas físicos de abstinencia disminuyen considerablemente después de dos semanas. Tu ánimo se estabiliza y el funcionamiento diario se vuelve mucho más fácil. La parte más difícil queda atrás.';
+
+  @override
+  String get marijuanaMilestone30Title => 'Mejora la función de la memoria';
+
+  @override
+  String get marijuanaMilestone30Description =>
+      '¡La niebla mental se está despejando! Las investigaciones muestran que el aprendizaje verbal y la memoria empiezan a mejorar de forma importante después de dejar el cannabis. El hipocampo, fundamental para formar recuerdos, empieza a funcionar mejor.';
+
+  @override
+  String get marijuanaMilestone60Title => 'Mejora la concentración';
+
+  @override
+  String get marijuanaMilestone60Description =>
+      '¡Modo concentración activado! Tras dos meses sin cannabis, tu capacidad para concentrarte y mantener la atención muestra una mejora clara. Las tareas de trabajo y estudio resultan notablemente más fáciles de gestionar.';
+
+  @override
+  String get marijuanaMilestone90Title => 'Regresa la estabilidad del ánimo';
+
+  @override
+  String get marijuanaMilestone90Description =>
+      'Tres meses sin cannabis aportan un ánimo más estable, menos ansiedad y un mejor control del estrés. Tu estado emocional se está asentando en una normalidad más saludable.';
+
+  @override
+  String get marijuanaMilestone180Title =>
+      'Se recuperan la planificación y la toma de decisiones';
+
+  @override
+  String get marijuanaMilestone180Description =>
+      '¡Tu dirección mental vuelve a estar al mando! Seis meses sin cannabis aportan grandes mejoras en planificación, toma de decisiones y resolución de problemas.';
+
+  @override
+  String get marijuanaMilestone365Title =>
+      'Recuperación de la estructura cerebral';
+
+  @override
+  String get marijuanaMilestone365Description =>
+      'Un año sin cannabis da a las áreas cerebrales relacionadas con la memoria bastante tiempo para recuperarse. Las mejoras en aprendizaje y memoria ya forman parte de tu nueva normalidad.';
+
+  @override
+  String get opioidMilestone1Title => 'Comienza la abstinencia aguda';
+
+  @override
+  String get opioidMilestone1Description =>
+      'La parte más difícil empieza ahora, pero no estás solo. Los síntomas de abstinencia aguda alcanzan su máximo en las primeras 24–72 horas. Tu cuerpo está comenzando el proceso de recuperación. El apoyo médico profesional es crucial durante esta fase.';
+
+  @override
+  String get opioidMilestone7Title =>
+      'Los síntomas físicos alcanzan su pico y empiezan a disminuir';
+
+  @override
+  String get opioidMilestone7Description =>
+      '¡Has atravesado la tormenta! Los peores síntomas físicos de abstinencia suelen alcanzar su máximo entre los días 3 y 5 y empiezan a disminuir hacia el día 7. Tu organismo trabaja para recuperar su equilibrio natural.';
+
+  @override
+  String get opioidMilestone14Title =>
+      'Empiezan a mejorar los patrones de sueño';
+
+  @override
+  String get opioidMilestone14Description =>
+      '¡Vuelven los dulces sueños! Tras dos semanas, la arquitectura natural del sueño empieza a recuperarse. Los opioides alteran el sueño REM, pero tu cerebro está aprendiendo de nuevo a soñar de forma natural.';
+
+  @override
+  String get opioidMilestone30Title =>
+      'El pensamiento y la memoria empiezan a recuperarse';
+
+  @override
+  String get opioidMilestone30Description =>
+      '¡La niebla mental se está levantando! Tras un mes sin consumir, la memoria, la toma de decisiones y la claridad de pensamiento mejoran mientras la parte frontal del cerebro se recupera de los cambios relacionados con los opioides.';
+
+  @override
+  String get opioidMilestone60Title => 'Mejora la regulación emocional';
+
+  @override
+  String get opioidMilestone60Description =>
+      'Tus emociones vuelven a encontrar su ritmo natural. Tras dos meses de recuperación, el sistema de recompensa del cerebro empieza a responder a los placeres cotidianos. La montaña rusa emocional se está estabilizando.';
+
+  @override
+  String get opioidMilestone90Title =>
+      'La función de la dopamina se recupera considerablemente';
+
+  @override
+  String get opioidMilestone90Description =>
+      '¡El sistema de recompensa de tu cerebro te da la bienvenida! Tras tres meses sin consumir, la función de la dopamina ha mejorado considerablemente. Las actividades naturales vuelven a resultar gratificantes: la comida, la música y las relaciones.';
+
+  @override
+  String get opioidMilestone180Title => 'El sistema inmunitario se fortalece';
+
+  @override
+  String get opioidMilestone180Description =>
+      '¡Tu sistema inmunitario vuelve a estar de guardia! Tras seis meses de recuperación, las defensas naturales del organismo se han fortalecido de forma importante. Estás mejor preparado para combatir infecciones y enfermedades.';
+
+  @override
+  String get opioidMilestone365Title =>
+      'Mejoran la plasticidad neuronal y la estructura cerebral';
+
+  @override
+  String get opioidMilestone365Description =>
+      '¡Tu cerebro ha estado renovándose! Un año completo de recuperación muestra mejoras importantes en la estructura cerebral y la plasticidad neuronal. Los cambios provocados por el consumo crónico de opioides siguen recuperándose.';
+
+  @override
+  String get opioidMilestone730Title =>
+      'Estabilidad de la recuperación a largo plazo (2 años)';
+
+  @override
+  String get opioidMilestone730Description =>
+      '¡Dos años de fortaleza y resiliencia! Has creado nuevas vías neuronales, estrategias de afrontamiento y patrones de vida. Las investigaciones muestran que alcanzar este hito reduce drásticamente el riesgo de recaída. ¡Eres un luchador de la recuperación!';
+
+  @override
+  String get socialMediaMilestone1Title =>
+      '¡Primer día de desintoxicación digital! 🎯';
+
+  @override
+  String get socialMediaMilestone1Description =>
+      '¡Oficialmente has empezado a reconfigurar tu cerebro! Las investigaciones muestran que incluso pensar en consultar las redes sociales activa vías neuronales asociadas a la adicción. Pero ya estás rompiendo el ciclo. ¡Bien por ti!';
+
+  @override
+  String get socialMediaMilestone3Title => '¿FOMO? ¡Más bien FO-NO! 😎';
+
+  @override
+  String get socialMediaMilestone3Description =>
+      'Tras tres días, esos pensamientos ansiosos de «¿qué me estoy perdiendo?» ya empiezan a disminuir. Estás enseñando a tu cerebro que la vida real es mucho más interesante que los feeds seleccionados.';
+
+  @override
+  String get socialMediaMilestone7Title =>
+      'Capacidad de atención: pez dorado → humano 🧠';
+
+  @override
+  String get socialMediaMilestone7Description =>
+      '¡Primera semana completada! Ya mejora tu capacidad para concentrarte sin mirar el teléfono cada pocos minutos. Los estudios muestran que el cerebro ansía los picos de dopamina de las notificaciones, pero estás enseñándole a encontrar recompensas en otros lugares.';
+
+  @override
+  String get socialMediaMilestone14Title =>
+      'Duerme como un bebé (no como un zombi) 😴';
+
+  @override
+  String get socialMediaMilestone14Description =>
+      'Dos semanas sin desplazarte por redes antes de dormir equivalen a una mejor calidad del sueño. La luz azul de las pantallas reduce la producción de melatonina, pero tus ritmos naturales de sueño se están recuperando.';
+
+  @override
+  String get socialMediaMilestone30Title =>
+      'Amigos reales > Me gusta falsos 💝';
+
+  @override
+  String get socialMediaMilestone30Description =>
+      'Un mes desconectado puede reducir considerablemente la soledad y la depresión. Las investigaciones muestran que limitar las redes sociales mejora la salud mental. ¡Tú has ido incluso más lejos!';
+
+  @override
+  String get socialMediaMilestone60Title =>
+      'Trampa de la comparación: ¡SUPERADA! ✨';
+
+  @override
+  String get socialMediaMilestone60Description =>
+      'Dos meses sin compararte constantemente con los demás pueden disparar la confianza. Las investigaciones relacionan de forma consistente el uso de redes sociales con una menor autoestima, especialmente por comparaciones sociales ascendentes. ¡Te has liberado de esa trampa!';
+
+  @override
+  String get socialMediaMilestone90Title => 'Nivel de aficiones: experto 🎨';
+
+  @override
+  String get socialMediaMilestone90Description =>
+      'Tres meses equivalen a unas 270 horas o más recuperadas. Es tiempo suficiente para aprender una habilidad, leer más de 15 libros o profundizar en una afición. El cerebro fortalece los hábitos que repites, así que esas rutinas sin conexión se vuelven más fáciles y automáticas.';
+
+  @override
+  String get socialMediaMilestone180Title =>
+      'Transformación de la salud mental completada 🌟';
+
+  @override
+  String get socialMediaMilestone180Description =>
+      'Tras seis meses desconectado, estás prosperando. Los estudios a largo plazo muestran que reducir el uso de redes sociales aporta mejoras sostenidas en bienestar, autoestima y satisfacción vital. ¡Eres la prueba de que la vida puede ser mejor en el mundo real!';
+
+  @override
+  String get socialMediaMilestone365Title =>
+      'Maestría zen digital conseguida 🏆';
+
+  @override
+  String get socialMediaMilestone365Description =>
+      '¡Un año completo viviendo con intención! Has recuperado más de 1.000 horas, creado relaciones más profundas y demostrado que los mejores momentos de la vida no están hechos para compartirlos, sino para vivirlos. ¡Ya eres una leyenda del bienestar digital!';
+
+  @override
+  String get nicotinePouchesMilestone1Title =>
+      'Empiezan a recuperarse el gusto y el olfato';
+
+  @override
+  String get nicotinePouchesMilestone1Description =>
+      'La nicotina reduce la sensibilidad de las papilas gustativas y los receptores del olfato. Tras solo 24 horas sin bolsitas, estos sentidos empiezan a recuperarse. ¡La comida está a punto de volver a saber genial!';
+
+  @override
+  String get nicotinePouchesMilestone3Title =>
+      'La nicotina se ha eliminado por completo';
+
+  @override
+  String get nicotinePouchesMilestone3Description =>
+      'Tu organismo ya ha eliminado toda la nicotina. Aunque los síntomas de abstinencia pueden alcanzar su pico ahora, recuerda que tu cerebro se está reajustando para vivir sin ella. La parte más difícil está casi superada.';
+
+  @override
+  String get nicotinePouchesMilestone7Title => 'Mejora la salud bucal';
+
+  @override
+  String get nicotinePouchesMilestone7Description =>
+      '¡Tus encías lo celebran! Las bolsitas de nicotina pueden causar irritación y retracción de las encías. Tras una semana, el flujo sanguíneo hacia las encías se normaliza y empieza la recuperación.';
+
+  @override
+  String get nicotinePouchesMilestone14Title => 'Mejora de la circulación';
+
+  @override
+  String get nicotinePouchesMilestone14Description =>
+      '¡Tus vasos sanguíneos lo agradecen! La nicotina contrae los vasos sanguíneos, pero tras dos semanas sin ella la circulación mejora considerablemente. ¡Hola, manos y pies más calientes!';
+
+  @override
+  String get nicotinePouchesMilestone30Title =>
+      'La respuesta al estrés se normaliza';
+
+  @override
+  String get nicotinePouchesMilestone30Description =>
+      'Giro inesperado: la nicotina en realidad aumenta el estrés entre consumos. El cortisol y tu respuesta al estrés están volviendo a la normalidad. Relajación real, no el alivio engañoso de la nicotina.';
+
+  @override
+  String get nicotinePouchesMilestone60Title => 'Mejora la calidad del sueño';
+
+  @override
+  String get nicotinePouchesMilestone60Description =>
+      'Los dulces sueños se hacen... sin nicotina. Aunque la nicotina pueda parecer relajante, altera la arquitectura del sueño. Tras dos meses, tus ciclos REM están bien recuperados.';
+
+  @override
+  String get nicotinePouchesMilestone90Title =>
+      'Se recuperan los receptores de dopamina';
+
+  @override
+  String get nicotinePouchesMilestone90Description =>
+      '¡El sistema de recompensa de tu cerebro vuelve a funcionar! La nicotina secuestra las vías de dopamina y hace que los placeres normales parezcan apagados. Tras tres meses sin ella, las alegrías naturales de la vida vuelven a sentirse intensas.';
+
+  @override
+  String get nicotinePouchesMilestone180Title =>
+      'Disminuye el riesgo cardiovascular';
+
+  @override
+  String get nicotinePouchesMilestone180Description =>
+      '¡Tu corazón te lo agradece! Seis meses sin nicotina reducen considerablemente el riesgo de enfermedad cardiovascular. La presión arterial y la variabilidad de la frecuencia cardiaca han mejorado mucho.';
+
+  @override
+  String get nicotinePouchesMilestone365Title =>
+      'Salud a largo plazo protegida';
+
+  @override
+  String get nicotinePouchesMilestone365Description =>
+      '¡Un año de libertad! El riesgo de problemas de salud relacionados con la nicotina sigue cayendo. Has roto el ciclo de la adicción y recuperado tu autonomía. ¡Es un logro enorme! 🏆';
+
+  @override
+  String get pornographyMilestone1Title => 'Recuperando el control';
+
+  @override
+  String get pornographyMilestone1Description =>
+      'El uso problemático de pornografía se define por una pérdida de control que provoca malestar o deterioro. Un día importa porque ya has interrumpido el patrón anterior una vez y has empezado a identificar qué lo desencadena.';
+
+  @override
+  String get pornographyMilestone3Title => 'Conoce tus impulsos';
+
+  @override
+  String get pornographyMilestone3Description =>
+      'Las personas con un uso problemático más grave suelen describir pensamientos sexuales intrusivos, deseo difícil de controlar, irritabilidad, cambios de ánimo y problemas de sueño. El tercer día es un buen momento para identificar cuáles de ellos te están ocurriendo realmente.';
+
+  @override
+  String get pornographyMilestone7Title => 'Una semana: evidencia de un ensayo';
+
+  @override
+  String get pornographyMilestone7Description =>
+      'En un estudio aleatorizado de 7 días de abstinencia, los usuarios habituales no mostraron un síndrome general de abstinencia. Un subgrupo exploratorio con uso problemático elevado y consumo diario presentó más deseo, por lo que una primera semana difícil es posible, pero no inevitable.';
+
+  @override
+  String get pornographyMilestone14Title => 'Identifica tus desencadenantes';
+
+  @override
+  String get pornographyMilestone14Description =>
+      'Dos semanas te exponen repetidamente a situaciones que antes desencadenaban el consumo de pornografía. La investigación relaciona el uso problemático con factores como el deseo, el estrés, la evitación, la soledad y el estilo de afrontamiento; conocer tu propio patrón te da algo concreto que cambiar.';
+
+  @override
+  String get pornographyMilestone30Title => 'Un mes de control';
+
+  @override
+  String get pornographyMilestone30Description =>
+      'Un mes es una prueba significativa de control. En un estudio con 14.581 personas, los problemas de función sexual se asociaron más con el uso problemático que con la simple frecuencia de visualización, por lo que recuperar el control es el objetivo con mayor respaldo empírico.';
+
+  @override
+  String get pornographyMilestone90Title => 'El cambio puede mantenerse';
+
+  @override
+  String get pornographyMilestone90Description =>
+      'Un ensayo aleatorizado de ACT para el uso problemático de pornografía encontró grandes reducciones del consumo tras 12 sesiones, que seguían siendo importantes en el seguimiento a los 3 meses. Un cambio duradero es realista, especialmente cuando desarrollas habilidades estructuradas en lugar de depender solo de la fuerza de voluntad.';
+
+  @override
+  String get pornographyMilestone180Title => 'Estabilidad a los seis meses';
+
+  @override
+  String get pornographyMilestone180Description =>
+      'Un estudio aleatorizado de TCC para conductas sexuales fuera de control encontró mejoras en los síntomas, la compulsividad sexual y el bienestar que se mantuvieron estables en los seguimientos a 3 y 6 meses. El control a largo plazo puede mantenerse.';
+
+  @override
+  String get pornographyMilestone365Title => 'Un año: cambio duradero';
+
+  @override
+  String get pornographyMilestone365Description =>
+      'Los datos de seguimiento a un año de un estudio de tratamiento basado en la aceptación mostraron que los participantes no volvieron a los niveles de hipersexualidad previos al tratamiento. Un año de cambio mantenido es una evidencia creíble de un patrón duradero, no una fecha mágica de «reinicio cerebral».';
+
+  @override
+  String get pornographyMilestone1825Title => 'Cinco años de control';
+
+  @override
+  String get pornographyMilestone1825Description =>
+      'Cinco años representan mantenimiento a largo plazo. El trastorno de conducta sexual compulsiva se define clínicamente por una pérdida persistente de control acompañada de malestar o deterioro, por lo que mantener el control y funcionar bien durante años es un resultado significativo por sí mismo.';
+
+  @override
+  String get customMilestone1Title =>
+      'Comienza la fase inicial de recuperación';
+
+  @override
+  String get customMilestone1Description =>
+      '¡Tu cuerpo empieza el proceso de recuperación! En las primeras 24 horas tras dejarlo, el organismo empieza a eliminar sustancias y a adaptarse a funcionar sin aquello de lo que dependía. Las alteraciones del sueño son frecuentes y forman parte del proceso de recuperación.';
+
+  @override
+  String get customMilestone3Title =>
+      'Los síntomas de abstinencia alcanzan su pico';
+
+  @override
+  String get customMilestone3Description =>
+      '¡Estás afrontando la tormenta de frente! Para muchas sustancias, los síntomas físicos de abstinencia suelen alcanzar su máximo alrededor del tercer día, con ansiedad, cambios de ánimo y malestar físico. Esto significa que estás atravesando la parte más difícil.';
+
+  @override
+  String get customMilestone7Title => 'Termina la fase de abstinencia aguda';
+
+  @override
+  String get customMilestone7Description =>
+      '¡Lo peor queda atrás! Después de una semana, los síntomas agudos de abstinencia empiezan a disminuir para muchas sustancias. Tu organismo se está adaptando a su nueva normalidad y empieza a estabilizarse.';
+
+  @override
+  String get customMilestone14Title =>
+      'Estabilización de la recuperación inicial';
+
+  @override
+  String get customMilestone14Description =>
+      '¡Tu mente se está despejando! Dos semanas de abstinencia suelen aportar mayor claridad mental y menos deseos mientras el cerebro empieza a adaptarse a funcionar sin la sustancia o el hábito.';
+
+  @override
+  String get customMilestone30Title => 'Hito de un mes';
+
+  @override
+  String get customMilestone30Description =>
+      '¡Una gran victoria! Treinta días de abstinencia representan un progreso importante. Muchas personas observan que los patrones de sueño, el ánimo y los niveles de energía siguen mejorando durante este periodo.';
+
+  @override
+  String get customMilestone90Title => 'Hito de tres meses de recuperación';
+
+  @override
+  String get customMilestone90Description =>
+      '¡Tu compromiso está dando frutos! Tres meses de recuperación representan un logro importante. Los síntomas de abstinencia posaguda suelen empezar a desaparecer y muchas personas dicen volver a sentirse más como ellas mismas.';
+
+  @override
+  String get customMilestone180Title => 'Logro de seis meses de recuperación';
+
+  @override
+  String get customMilestone180Description =>
+      '¡Estás construyendo un cambio duradero! Seis meses de abstinencia suelen aportar mejoras continuas en la salud física, la estabilidad emocional y la calidad de vida general mientras el organismo sigue recuperándose.';
+
+  @override
+  String get customMilestone365Title => 'Un año de recuperación';
+
+  @override
+  String get customMilestone365Description =>
+      '¡Un logro increíble! Un año de abstinencia representa un gran hito vital. A estas alturas, muchas personas experimentan mejoras importantes en la salud física, las relaciones y el bienestar general.';
+
+  @override
+  String get customMilestone730Title => 'Dos años de recuperación sostenida';
+
+  @override
+  String get customMilestone730Description =>
+      '¡Has construido una nueva vida! Dos años de recuperación demuestran una resiliencia y un compromiso extraordinarios. La abstinencia a largo plazo suele aportar cambios positivos profundos en todas las áreas de la vida y un riesgo de recaída considerablemente menor.';
+
+  @override
+  String get addictionSsri => 'ISRS';
+
+  @override
+  String get ssriPageTitle => 'Recuperación de ISRS';
+
+  @override
+  String get ssriHeaderStarted => 'Tu camino de recuperación';
+
+  @override
+  String get ssriHeaderNotStarted =>
+      'Beneficios de reducir gradualmente los ISRS';
+
+  @override
+  String get ssriSubtitleStarted => 'Sigue tu progreso y celebra cada hito';
+
+  @override
+  String get ssriSubtitleNotStarted =>
+      'Descubre qué ocurre al reducirlos gradualmente';
+
+  @override
+  String get ssriMilestone3Title => 'Día 3: el síndrome FINISH alcanza su pico';
+
+  @override
+  String get ssriMilestone3Description =>
+      'Los síntomas de abstinencia suelen alcanzar su máximo entre los días 2 y 4. Los ISRS cambian la forma en que se recicla la serotonina, por lo que el cerebro necesita tiempo para adaptarse después de dejarlos. Pueden aparecer síntomas parecidos a la gripe, mareos, insomnio, náuseas y «descargas cerebrales». La paroxetina tiende a causar una abstinencia más intensa; la fluoxetina permanece mucho más tiempo en el organismo y suele ser más leve.';
+
+  @override
+  String get ssriMilestone7Title =>
+      'Una semana: empieza a disminuir la fase aguda';
+
+  @override
+  String get ssriMilestone7Description =>
+      'Los síntomas físicos más intensos empiezan a disminuir. Tu cerebro está ajustando la señalización de serotonina para funcionar sin la medicación. El sueño y el apetito empiezan a estabilizarse.';
+
+  @override
+  String get ssriMilestone14Title =>
+      'Dos semanas: se resuelven los síntomas físicos';
+
+  @override
+  String get ssriMilestone14Description =>
+      'La mayoría de los síntomas físicos agudos por interrupción se han reducido considerablemente o se han resuelto. Las descargas cerebrales, las náuseas y los mareos están disminuyendo. La sensibilidad emocional todavía puede estar aumentada mientras el cerebro sigue reequilibrando sus sistemas de serotonina.';
+
+  @override
+  String get ssriMilestone30Title =>
+      'Un mes: se estabilizan el ánimo y la energía';
+
+  @override
+  String get ssriMilestone30Description =>
+      'Un mes marca un hito importante. La calidad del sueño mejora, los niveles de energía se estabilizan y muchas personas notan que su ánimo empieza a encontrar un nuevo equilibrio. El cerebro está recuperando activamente su regulación natural de la serotonina.';
+
+  @override
+  String get ssriMilestone90Title =>
+      'Tres meses: recuperación de los receptores de serotonina';
+
+  @override
+  String get ssriMilestone90Description =>
+      'Tres meses son un gran hito de recuperación. El sistema de serotonina ha tenido meses para adaptarse desde que desapareció el medicamento. El ánimo, la ansiedad, la concentración y la claridad de pensamiento mejoran de forma significativa para la mayoría de las personas.';
+
+  @override
+  String get ssriMilestone180Title =>
+      'Seis meses: adaptación cerebral a largo plazo';
+
+  @override
+  String get ssriMilestone180Description =>
+      'Seis meses permiten una adaptación neurológica considerable. Los sistemas de serotonina del cerebro han encontrado su equilibrio natural. Muchas personas describen una mayor amplitud emocional y, en quienes la experimentaron, la disfunción sexual causada por los ISRS suele haberse resuelto.';
+
+  @override
+  String get ssriMilestone365Title => 'Un año: recuperación conseguida';
+
+  @override
+  String get ssriMilestone365Description =>
+      'Un año marca un ciclo completo de recuperación. Las investigaciones muestran que la mayoría de quienes completaron una reducción gradual y recibieron apoyo psicológico siguen bien al año, con una calidad de vida comparable o mejor que la de quienes continuaron con la medicación.';
+
+  @override
+  String get settingsShowSsriTracking => 'Mostrar seguimiento de ISRS';
+
+  @override
+  String get settingsNotifySsri => 'Notificar el progreso al dejar los ISRS';
+
+  @override
+  String get addictionSnri => 'IRSN';
+
+  @override
+  String get snriPageTitle => 'Recuperación de IRSN';
+
+  @override
+  String get snriHeaderStarted => 'Tu camino de recuperación';
+
+  @override
+  String get snriHeaderNotStarted =>
+      'Beneficios de reducir gradualmente los IRSN';
+
+  @override
+  String get snriSubtitleStarted => 'Sigue tu progreso y celebra cada hito';
+
+  @override
+  String get snriSubtitleNotStarted =>
+      'Descubre qué ocurre al reducirlos gradualmente';
+
+  @override
+  String get snriMilestone3Title =>
+      'Día 3: el síndrome intenso de interrupción alcanza su pico';
+
+  @override
+  String get snriMilestone3Description =>
+      'Los IRSN, especialmente la venlafaxina (Effexor), se asocian con algunos de los síndromes de interrupción de antidepresivos más intensos. La vida media muy corta de la venlafaxina (5 horas) hace que los síntomas puedan ser más intensos que con la mayoría de los ISRS. Los síntomas FINISH (sensaciones parecidas a la gripe, insomnio, náuseas, desequilibrio, alteraciones sensoriales e hiperactivación) afectan simultáneamente a los sistemas de serotonina y noradrenalina.';
+
+  @override
+  String get snriMilestone7Title =>
+      'Una semana: se ajustan dos sistemas neuroquímicos';
+
+  @override
+  String get snriMilestone7Description =>
+      'Los IRSN afectan a la recaptación tanto de serotonina como de noradrenalina. Ambos sistemas se ajustan a la vez. Los síntomas físicos más intensos empiezan a disminuir, pero el mecanismo doble puede hacer que la adaptación resulte más compleja que con los ISRS por sí solos.';
+
+  @override
+  String get snriMilestone14Title =>
+      'Dos semanas: disminuyen los síntomas físicos';
+
+  @override
+  String get snriMilestone14Description =>
+      'La mayoría de los síntomas físicos agudos por interrupción han disminuido considerablemente. Las descargas cerebrales, las náuseas y los mareos están remitiendo. El reajuste del sistema de noradrenalina aún puede causar algo de ansiedad o fluctuaciones de la presión arterial, que suelen resolverse durante las semanas siguientes.';
+
+  @override
+  String get snriMilestone30Title =>
+      'Un mes: se estabiliza el sistema de noradrenalina';
+
+  @override
+  String get snriMilestone30Description =>
+      'Un mes marca un hito importante. Los sistemas de serotonina y noradrenalina se están reequilibrando activamente. La calidad del sueño y los niveles de energía se estabilizan. Muchas personas notan una mayor amplitud emocional al desaparecer el efecto de aplanamiento emocional de la medicación.';
+
+  @override
+  String get snriMilestone90Title =>
+      'Tres meses: reequilibrio de ambos sistemas';
+
+  @override
+  String get snriMilestone90Description =>
+      'Tres meses son un gran hito de recuperación. Los sistemas de serotonina y noradrenalina han tenido meses para adaptarse. El ánimo, la ansiedad, la concentración y la claridad de pensamiento mejoran de forma importante tras una reducción supervisada.';
+
+  @override
+  String get snriMilestone180Title => 'Seis meses: recuperación neurológica';
+
+  @override
+  String get snriMilestone180Description =>
+      'Seis meses permiten un reajuste considerable de los sistemas de serotonina y noradrenalina. El eje HPA, sobre el que los IRSN influyen a través de la noradrenalina, se está normalizando. En este punto muchas personas describen una resiliencia notablemente mayor frente al estrés cotidiano.';
+
+  @override
+  String get snriMilestone365Title => 'Un año: recuperación conseguida';
+
+  @override
+  String get snriMilestone365Description =>
+      'Un año marca un ciclo completo de recuperación de los sistemas de serotonina y noradrenalina. Las investigaciones muestran de forma consistente que quienes dejan los IRSN con éxito bajo supervisión médica y con apoyo psicológico mantienen buenos resultados al año.';
+
+  @override
+  String get settingsShowSnriTracking => 'Mostrar seguimiento de IRSN';
+
+  @override
+  String get settingsNotifySnri => 'Notificar el progreso al dejar los IRSN';
+
+  @override
+  String get addictionTca => 'Antidepresivos tricíclicos';
+
+  @override
+  String get tcaPageTitle => 'Recuperación de antidepresivos tricíclicos';
+
+  @override
+  String get tcaHeaderStarted => 'Tu camino de recuperación';
+
+  @override
+  String get tcaHeaderNotStarted =>
+      'Beneficios de reducir gradualmente los tricíclicos';
+
+  @override
+  String get tcaSubtitleStarted => 'Sigue tu progreso y celebra cada hito';
+
+  @override
+  String get tcaSubtitleNotStarted =>
+      'Descubre qué ocurre al reducirlos gradualmente';
+
+  @override
+  String get tcaMilestone3Title =>
+      'Día 3: el rebote de acetilcolina alcanza su pico';
+
+  @override
+  String get tcaMilestone3Description =>
+      'Los antidepresivos tricíclicos bloquean la acetilcolina. Al dejarlos, ese sistema puede volverse brevemente hiperactivo. Los síntomas incluyen náuseas, diarrea, calambres abdominales, sudoración intensa, dolor de cabeza, dolores musculares e insomnio. Suelen alcanzar su máximo pronto y después disminuyen.';
+
+  @override
+  String get tcaMilestone7Title =>
+      'Una semana: disminuyen los síntomas de rebote';
+
+  @override
+  String get tcaMilestone7Description =>
+      'El rebote de acetilcolina suele alcanzar su máximo en los primeros días y empieza a disminuir al cabo de una semana. Los síntomas digestivos, la sudoración y las sensaciones parecidas a la gripe se reducen mientras los sistemas que controlan la frecuencia cardiaca, la digestión y la sudoración vuelven hacia la normalidad.';
+
+  @override
+  String get tcaMilestone14Title =>
+      'Dos semanas: revierten los efectos anticolinérgicos';
+
+  @override
+  String get tcaMilestone14Description =>
+      'La sequedad de boca, el estreñimiento, la dificultad para orinar y la visión borrosa causados por los tricíclicos están revirtiendo a medida que se recupera el sistema de acetilcolina. La memoria y la atención también suelen sentirse más claras.';
+
+  @override
+  String get tcaMilestone30Title =>
+      'Un mes: se estabiliza el sistema nervioso autónomo';
+
+  @override
+  String get tcaMilestone30Description =>
+      'Al mes, se estabilizan los sistemas corporales que controlan la frecuencia cardiaca, la presión arterial, la digestión y la sudoración. Los cambios del ritmo cardiaco y la presión arterial avanzan hacia la normalidad, y regresa el sueño REM con sueños.';
+
+  @override
+  String get tcaMilestone90Title =>
+      'Tres meses: se estabilizan los sistemas neuroquímicos';
+
+  @override
+  String get tcaMilestone90Description =>
+      'Los antidepresivos tricíclicos afectan a varios sistemas neuroquímicos. Tres meses les dan bastante tiempo para estabilizarse. El ánimo, la claridad de pensamiento y el bienestar físico mejoran notablemente.';
+
+  @override
+  String get tcaMilestone180Title =>
+      'Seis meses: recuperación cardíaca y cognitiva';
+
+  @override
+  String get tcaMilestone180Description =>
+      'Seis meses permiten una gran recuperación del ritmo cardiaco, la memoria y la velocidad de pensamiento. Los cambios del ritmo cardiaco y la niebla mental causados por los tricíclicos han tenido meses para resolverse.';
+
+  @override
+  String get tcaMilestone365Title => 'Un año: recuperación conseguida';
+
+  @override
+  String get tcaMilestone365Description =>
+      'Un año da a todos los sistemas afectados por los tricíclicos un año completo para recuperarse. Los sistemas de acetilcolina, noradrenalina, serotonina e histamina se han estabilizado, y la memoria, la claridad mental y el control de la frecuencia cardiaca se han recuperado considerablemente.';
+
+  @override
+  String get settingsShowTcaTracking => 'Mostrar seguimiento de tricíclicos';
+
+  @override
+  String get settingsNotifyTca =>
+      'Notificar el progreso al dejar los tricíclicos';
+
+  @override
+  String get addictionMaoi => 'IMAO';
+
+  @override
+  String get maoiPageTitle => 'Recuperación de IMAO';
+
+  @override
+  String get maoiHeaderStarted => 'Tu camino de recuperación';
+
+  @override
+  String get maoiHeaderNotStarted =>
+      'Beneficios de reducir gradualmente los IMAO';
+
+  @override
+  String get maoiSubtitleStarted => 'Sigue tu progreso y celebra cada hito';
+
+  @override
+  String get maoiSubtitleNotStarted =>
+      'Descubre qué ocurre al reducirlos gradualmente';
+
+  @override
+  String get maoiMilestone3Title =>
+      'Día 3: fase de mayor riesgo — supervisión médica esencial';
+
+  @override
+  String get maoiMilestone3Description =>
+      'Los IMAO conllevan algunos de los riesgos de interrupción más graves entre los antidepresivos. La suspensión brusca, especialmente de fenelzina y tranilcipromina, puede causar agitación intensa, confusión, alucinaciones, mioclonías e hipertermia. Si experimentas estos síntomas, busca atención médica inmediata. Los IMAO actúan inactivando de forma irreversible las enzimas MAO; la recuperación requiere que el organismo sintetice enzima nueva, un proceso que tarda aproximadamente 14 días.';
+
+  @override
+  String get maoiMilestone7Title =>
+      'Una semana: síntesis de enzima MAO en marcha';
+
+  @override
+  String get maoiMilestone7Description =>
+      'Los IMAO inactivan de forma irreversible moléculas de la enzima MAO; la recuperación requiere sintetizar enzima completamente nueva. Al cabo de una semana puede haberse recuperado aproximadamente el 50 % de la actividad normal de la MAO. Los síntomas graves de interrupción aguda (delirio, mioclonías, hipertermia) se reducen considerablemente. Sigue siendo importante una supervisión médica estrecha.';
+
+  @override
+  String get maoiMilestone14Title =>
+      'Dos semanas: actividad de la enzima MAO considerablemente recuperada';
+
+  @override
+  String get maoiMilestone14Description =>
+      'Dos semanas es el plazo clínico habitual para la recuperación de la enzima MAO tras la interrupción. Hacia el día 14, la actividad de MAO-A y MAO-B se ha restablecido en gran medida y vuelve el metabolismo normal de la tiramina. Las restricciones dietéticas requeridas durante el tratamiento con IMAO normalmente pueden relajarse consultándolo con quien te los prescribe.';
+
+  @override
+  String get maoiMilestone30Title =>
+      'Un mes: reequilibrio de los sistemas neuroquímicos';
+
+  @override
+  String get maoiMilestone30Description =>
+      'Un mes después de dejar un IMAO, la enzima MAO vuelve a estar activa y el cerebro gestiona de forma natural la serotonina, la noradrenalina, la dopamina y la tiramina. El periodo especial de interacciones con alimentos y medicamentos ha terminado, aunque debes seguir informando a quienes te prescriban medicación de tu uso previo de IMAO.';
+
+  @override
+  String get maoiMilestone90Title =>
+      'Tres meses: se normaliza la química cerebral';
+
+  @override
+  String get maoiMilestone90Description =>
+      'Tres meses dan a los sistemas cerebrales relacionados con el ánimo y la energía bastante tiempo para reajustarse tras los IMAO. El ánimo, la energía y la claridad de pensamiento se estabilizan mientras el cerebro vuelve a gestionar estas sustancias químicas de forma natural.';
+
+  @override
+  String get maoiMilestone180Title => 'Seis meses: recuperación a largo plazo';
+
+  @override
+  String get maoiMilestone180Description =>
+      'Seis meses representan un periodo considerable de función natural de las monoaminas. Las poblaciones de receptores de serotonina, noradrenalina y dopamina se han normalizado. Las vías de fenetilamina (PEA), también afectadas por los IMAO, han vuelto a niveles naturales, un aspecto de la recuperación que suele pasarse por alto y contribuye a la normalización emocional.';
+
+  @override
+  String get maoiMilestone365Title => 'Un año: recuperación conseguida';
+
+  @override
+  String get maoiMilestone365Description =>
+      'Un año después de dejar un IMAO da al cerebro y al cuerpo un año completo sin el medicamento. El ánimo, la energía, la claridad de pensamiento y la regulación neuroquímica normal han tenido bastante tiempo para estabilizarse y recuperarse.';
+
+  @override
+  String get settingsShowMaoiTracking => 'Mostrar seguimiento de IMAO';
+
+  @override
+  String get settingsNotifyMaoi => 'Notificar el progreso al dejar los IMAO';
+
+  @override
+  String milestoneRetrieved(String date) {
+    return 'Consultado el $date';
+  }
+
+  @override
+  String notificationProgressTitle(String name) {
+    return 'Sin $name';
+  }
+
+  @override
+  String notificationProgressBody(int days, String message) {
+    return '$days días sin consumir — $message';
+  }
+
+  @override
+  String get notificationProgressMessage1 => '¡Sigue con este gran trabajo!';
+
+  @override
+  String get notificationProgressMessage2 => '¡Lo estás haciendo genial!';
+
+  @override
+  String get notificationProgressMessage3 => '¡Una dedicación increíble!';
+
+  @override
+  String get notificationProgressMessage4 => '¡Celebramos tu fortaleza!';
+
+  @override
+  String get notificationProgressMessage5 => '¡Sigue brillando!';
+
+  @override
+  String get notificationProgressMessage6 => '¡Excelente trabajo!';
+
+  @override
+  String get notificationProgressMessage7 => '¡Así se hace!';
+
+  @override
+  String get notificationProgressMessage8 => '¡Eres un auténtico campeón!';
+
+  @override
+  String get notificationProgressMessage9 => '¡Un esfuerzo extraordinario!';
+
+  @override
+  String get notificationProgressMessage10 => '¡Mantente fuerte!';
+
+  @override
+  String get notificationChannelName => 'Recordatorios';
+
+  @override
+  String get notificationChannelDescription =>
+      'Notificaciones para recordatorios diarios de progreso';
+
+  @override
+  String get notificationOpenAction => 'Abrir notificación';
+
+  @override
+  String get done => 'Hecho';
+
+  @override
+  String get rename => 'Renombrar';
+
+  @override
+  String get adderallReferenceDay1 =>
+      'Abstinencia de anfetaminas: lo que sucede al principio\n\nFuente: MedlinePlus (Biblioteca Nacional de Medicina de EE. UU.)\n\n¿Qué son las anfetaminas?\nLas anfetaminas son drogas estimulantes que incluyen tanto sustancias ilícitas (como speed en la calle) como medicamentos recetados que se usan para tratar el TDAH y la narcolepsia (como Adderall y Vyvanse). Aumentan drásticamente la dopamina y la norepinefrina, lo que puede crear concentración intensa, energía y euforia. Con un uso intenso y regular, el cerebro se adapta a esos aumentos repetidos, por lo que dejar de hacerlo puede dejar el estado de ánimo, la energía y la motivación temporalmente bajos.\n\nSíntomas comunes de abstinencia\nMedlinePlus los enumera como típicos al suspender las anfetaminas:\n• Fuerte deseo de consumir la droga.\n• Cambios de humor que van desde depresión hasta agitación y ansiedad\n• Sentirse cansado todo el día\n• No puedo concentrarme\n• Alucinaciones (ver u oír cosas que no existen)\n• Reacciones físicas como dolores de cabeza, dolores y molestias, aumento del apetito y falta de sueño.\n\n¿Es peligrosa la abstinencia?\nMedlinePlus no describe la abstinencia de anfetaminas como médicamente peligrosa en sí misma, pero señala que los síntomas graves pueden requerir un programa de tratamiento interno, y que los problemas emocionales y de humor derivados del uso de anfetaminas (incluida la depresión) pueden ser graves y requerir apoyo.\n\nObtener ayuda\nMedlinePlus recomienda comunicarse con su proveedor de atención médica si usted o alguien que conoce es adicto a las anfetaminas y necesita ayuda para dejar de consumirlas. Si tiene pensamientos de autolesión, dirige a los lectores a recursos de crisis como el 988 o el 911.';
+
+  @override
+  String get adderallReferenceDay3 =>
+      'Manejo de la abstinencia de anfetaminas: día 3\n\nFuente: \"Pautas clínicas para el manejo de la abstinencia y el tratamiento de la dependencia de drogas en entornos cerrados\", Organización Mundial de la Salud (2009), en NCBI Bookshelf\n\nDónde se sienta el día 3\nLas directrices de la OMS establecen que los síntomas de abstinencia de estimulantes \"comienzan dentro de las 24 horas posteriores al último uso de estimulantes y duran de 3 a 5 días\". El tercer día se encuentra directamente dentro de esta fase aguda, generalmente uno de los días más difíciles antes de que los síntomas comiencen a desaparecer.\n\nLos síntomas\nPara los estimulantes de tipo anfetamínico, las directrices enumeran:\n• Agitación e irritabilidad\n• Depresión\n• Aumento del sueño y del apetito\n• Dolores musculares\nLos consumidores empedernidos también pueden desarrollar síntomas psicóticos como paranoia, pensamientos desordenados o alucinaciones.\n\nPrincipalmente un desafío psicológico\nA diferencia de la abstinencia de alcohol o opioides, la abstinencia de estimulantes no provoca vómitos, temblores ni convulsiones. La dificultad dominante es psicológica: mal humor, pérdida de placer y ansia impulsada por un cerebro carente de dopamina.\n\nEnfoque de gestión\nLas directrices de la OMS recomiendan cuidados de apoyo:\n• Beber al menos 2 o 3 litros de agua al día\n• Suplementos multivitamínicos con vitaminas del grupo B y vitamina C\n• Medicamentos sintomáticos para dolores y ansiedad.\n• En caso de agitación grave, primero estrategias conductuales y sedación con diazepam sólo si es necesario.\n\nMás allá de la fase aguda\nLas directrices dicen que la abstinencia más dura dura sólo unos pocos días, seguida de un período de recuperación más leve que puede durar de uno a dos meses.';
+
+  @override
+  String get adderallReferenceDay7 =>
+      'Una semana sin Adderall: lo peor está pasando\n\nFuente: Li & Shoptaw, \"Manejo clínico de la abstinencia de psicoestimulantes: revisión de la evidencia\", Adicción (2023), en PubMed Central\n\nLa fase aguda se resuelve\nEsta revisión de la evidencia describe la abstinencia de psicoestimulantes en fases. En la fase aguda, los síntomas \"llegan a su punto máximo después de los primeros 2 a 3 días\" y \"las molestias importantes causadas por estos síntomas generalmente se resuelven en 4 a 7 días\". Al final de la primera semana, la parte más difícil de la crisis ya ha pasado para la mayoría de las personas: la energía y el apetito comienzan a estabilizarse y el sueño comienza a regularse.\n\n¿Qué viene después?\nLa revisión dice que la mayoría de los síntomas restantes continúan remitiendo durante las próximas dos o tres semanas. Al séptimo día, la recuperación ya está en marcha.\n\nLo que todavía está presente en el día 7\nLos síntomas psicológicos suelen durar más que el accidente físico:\n• Baja motivación y pérdida de placer.\n• Dificultad para concentrarse\n• Estado de ánimo que aún está por debajo de lo normal\nEstos reflejan un sistema de dopamina que se está reajustando, una parte normal y temporal de la recuperación.\n\nSeñal de recuperación\nNingún medicamento aprobado por la FDA trata específicamente la abstinencia de estimulantes, por lo que la atención de apoyo, la estructura, el sueño, la nutrición y el apoyo psicológico son los pilares de esta fase.';
+
+  @override
+  String get adderallReferenceDay14 =>
+      'Dos semanas sin Adderall: hacia la fase de recuperación más larga\n\nFuente: \"Pautas clínicas para el manejo de la abstinencia y el tratamiento de la dependencia de drogas en entornos cerrados\", Organización Mundial de la Salud (2009), en NCBI Bookshelf\n\nPasada la fase aguda\nLa OMS calcula que la abstinencia más intensa de estimulantes se produce entre tres y cinco días, seguida de un período de recuperación más leve que dura entre uno y dos meses. A las dos semanas, la crisis ya quedó atrás.\n\nCómo se siente la fase de recuperación más larga\nEl sueño pesado, la agitación y los dolores musculares han desaparecido en gran medida. Lo que queda suele ser más leve: estado de ánimo bajo o cambiante, motivación reducida y antojos intermitentes a medida que el sistema de recompensa del cerebro se reajusta.\n\nSueño y apetito\nEl aumento del sueño y del apetito de la fase aguda se están normalizando. A medida que el sueño se estabiliza, el estado de ánimo, la concentración y la energía tienden a seguir.\n\nRiesgo de recaída y TDAH\nEste sigue siendo un período de mayor riesgo, especialmente si los síntomas subyacentes del TDAH regresan sin medicación. Las directrices de la OMS enfatizan el apoyo psicológico y las habilidades de prevención de recaídas; Para las personas que tomaron Adderall para el TDAH, este es un buen momento para discutir estrategias o alternativas no estimulantes con un médico.';
+
+  @override
+  String get adderallReferenceDay30 =>
+      'Un mes sin Adderall: la mayoría de los síntomas quedan atrás\n\nFuente: Li & Shoptaw, \"Manejo clínico de la abstinencia de psicoestimulantes: revisión de la evidencia\", Adicción (2023), en PubMed Central\n\nDonde se sienta un mes\nLa revisión encuentra que la mayoría de los síntomas de abstinencia desaparecen durante las primeras dos o tres semanas. A los 30 días, la mayoría de ellos se han aliviado y el estado de ánimo y la motivación suelen ser mucho mejores que en la primera semana.\n\nLa fase de recuperación posterior\nDel uno al seis meses, la memoria, la planificación, la concentración y la toma de decisiones continúan mejorando. Al cabo de un mes, la crisis terminó y esos avances ya están en marcha.\n\nEstado de ánimo y motivación\nLa profunda pérdida de placer por el accidente ya ha desaparecido en gran medida. Las actividades que parecían tristes durante la primera semana comienzan a resultar gratificantes nuevamente a medida que se recupera la señalización natural de la dopamina.\n\nPara personas con TDAH\nSi se recetó Adderall para el TDAH, los síntomas subyacentes pueden ser más notorios ahora. Durante esta etapa es importante trabajar con un proveedor de atención médica sobre estrategias o alternativas no estimulantes.';
+
+  @override
+  String get adderallReferenceDay60 =>
+      'Dos meses sin Adderall: la fase de recuperación más larga llega a su fin\n\nFuente: \"Pautas clínicas para el manejo de la abstinencia y el tratamiento de la dependencia de drogas en entornos cerrados\", Organización Mundial de la Salud (2009), en NCBI Bookshelf\n\nDonde se sientan dos meses\nLa OMS describe un período de recuperación más leve que dura entre uno y dos meses después del colapso inicial. A los 60 días, usted se encuentra en el otro extremo de esa ventana y los síntomas persistentes se están resolviendo en gran medida.\n\nLo que mejora\nLa agitación, el estado de ánimo deprimido y los trastornos del sueño y del apetito que figuran en la lista de pautas para la abstinencia de estimulantes se han calmado sustancialmente, para la mayoría de las personas:\n• El estado de ánimo habitual es más estable, con menos cambios propios de la recuperación temprana\n• El sueño y el apetito se han normalizado.\n• El sistema de recompensa responde más fácilmente a los placeres cotidianos: comida, ejercicio, conexión.\n\nSeñal de recuperación\nLas dosis más altas y el uso más prolongado pueden hacer que la recuperación sea más prolongada, mientras que mantenerse en abstinencia mantiene el estado de ánimo, la motivación y el pensamiento claro hacia la normalidad durante los meses siguientes.\n\nSalud física\nLos efectos estimulantes sobre la frecuencia cardíaca, el apetito y el peso disminuyen a medida que el fármaco desaparece de la vida diaria y se alivia la tensión cardiovascular provocada por el uso de estimulantes.';
+
+  @override
+  String get adderallReferenceDay90 =>
+      'Tres meses sin Adderall: a través de lo peor, aún sanando\n\nFuente: Li & Shoptaw, \"Manejo clínico de la abstinencia de psicoestimulantes: revisión de la evidencia\", Adicción (2023), en PubMed Central\n\nDonde se sientan 90 días\nA los tres meses, los primeros síntomas desaparecieron hace tiempo, mientras que la memoria, la planificación, la concentración, la toma de decisiones y el sistema de recompensas continúan mejorando.\n\nEl pensamiento y la memoria siguen recuperándose\nLa revisión encuentra que la memoria, la planificación, la concentración y las decisiones de riesgo pueden seguir mejorando durante meses. A los 90 días, la concentración y la memoria todavía avanzan en la dirección correcta con una abstinencia continua.\n\nPor qué esta ventana sigue siendo importante\nNingún medicamento aprobado por la FDA se dirige específicamente a la abstinencia de estimulantes, por lo que la estructura, la terapia, el ejercicio, el sueño y el apoyo son las herramientas que llevan la recuperación a través de esta fase. Desarrollar esos hábitos ahora es lo que impulsa la recuperación.\n\nEl panorama más amplio\nTres meses es un verdadero logro: los tramos físicos y emocionales más difíciles han quedado atrás, y la trayectoria a partir de ahora, con abstinencia continua, es de mejora constante.';
+
+  @override
+  String get adderallReferenceDay180 =>
+      'Seis meses sin Adderall: mucho más allá de la parte difícil\n\nFuente: \"Síndromes de abstinencia\", StatPearls (NCBI Bookshelf), Biblioteca Nacional de Medicina de EE. UU.\n\nLo que dice StatPearls sobre los estimulantes\nEsta referencia clínica describe la recuperación de estimulantes como una caída seguida de una mejora gradual. Los problemas comunes incluyen depresión, dormir mucho, aumento del hambre, mal humor y movimientos y pensamientos más lentos. La depresión puede durar varias semanas y, más allá de eso, continúa una recuperación más leve.\n\nDonde se sientan seis meses\nA los seis meses, habrá superado con creces tanto el período agudo como la fase depresiva de varias semanas que describe StatPearls. La lenta recuperación a la que se refiere ha tenido un tiempo considerable para progresar y, para la mayoría de las personas, el estado de ánimo, el sueño, el apetito y la motivación habituales ya son estables y fiables.\n\nSeñal de recuperación\nStatPearls describe una recuperación gradual más allá de las semanas iniciales. A los seis meses, la crisis aguda y la fase depresiva de varias semanas han quedado muy atrás, siendo el estado de ánimo, el sueño, el apetito y la motivación estables el patrón dominante.\n\nRelación con el TDAH\nPara las personas que tomaron Adderall para el TDAH, seis meses de abstinencia es un buen punto para una revisión lúcida con un médico de los síntomas actuales y si los enfoques no estimulantes (ejercicio, sueño, estructura, terapia o medicación alternativa) satisfacen sus necesidades.';
+
+  @override
+  String get adderallReferenceDay365 =>
+      'Un año sin Adderall: recuperación sustancial, honestamente enmarcada\n\nFuente: Berman et al., \"Potential Adverse Effects de Amphetamine Treatment sobre Brain y Behavior: A Review\", Molecular Psychiatry (2008), en PubMed Central\n\nAcerca de esta revisión\nEsta revisión rastrea lo que la exposición a anfetaminas en dosis altas o a largo plazo puede afectar al cerebro y documenta una recuperación mensurable durante la abstinencia.\n\nLo que dice sobre la recuperación\nLa revisión documenta la recuperación del flujo sanguíneo cerebral y de las proteínas que reciclan la dopamina después de una abstinencia prolongada. Algunas áreas del cerebro se recuperan más rápido que otras, pero la dirección general es clara: el cerebro se cura después de que cesa su uso.\n\nRecuperación a largo plazo\nLa revisión documenta una recuperación mensurable en el flujo sanguíneo cerebral y el reciclaje de dopamina después de una abstinencia prolongada. Al cabo de un año, esos sistemas cerebrales han tenido un año completo para reconstruirse.\n\nQué significa esto al año\nPara la mayoría de las personas, en particular aquellas que tomaron Adderall en las dosis prescritas, un año de descanso significa que los sistemas de recompensa, atención y motivación funcionan bien día a día. Un uso más intenso o prolongado puede llevar más tiempo, pero la recuperación continúa. El riesgo de recaída es mucho menor que en la recuperación temprana.';
+
+  @override
+  String get alcoholReferenceDay1 =>
+      '¿Qué sucede con tu sueño cuando dejas de beber?\n\nFuente: \"El alcohol y el cerebro durmiente\" (Colrain, Nicholas & Baker), Manual de neurología clínica, revisado por pares y organizado por los NIH\n\nArquitectura del alcohol y del sueño\nEl alcohol es sedante, por lo que acorta el tiempo necesario para conciliar el sueño y aumenta el sueño profundo de ondas lentas en la primera mitad de la noche. Pero tiene un costo: el alcohol suprime el sueño REM (movimiento ocular rápido), la etapa reparadora ligada a la consolidación de la memoria y la regulación emocional, y fragmenta el sueño en la segunda mitad de la noche a medida que se metaboliza.\n\nLa primera noche sin alcohol\nDebido a que el alcohol suprime el sueño REM, las primeras noches sin él a menudo traen un rebote REM: sueños vívidos y un sueño más ligero e interrumpido mientras regresan los patrones de sueño normales. Esta es una parte normal y temporal de la recuperación.\n\nComienza la recuperación\nA medida que el cerebro se reajusta durante los días y semanas siguientes, la fase REM y la calidad general del sueño mejoran. La alteración del sueño es uno de los síntomas más persistentes relacionados con la abstinencia, pero tiende a normalizarse con la abstinencia sostenida.\n\nUna nota sobre el consumo excesivo de alcohol\nPara los bebedores diarios empedernidos o prolongados, las primeras 24 horas también pueden provocar síntomas de abstinencia (ansiedad, sudoración, temblores, náuseas). La abstinencia severa puede ser peligrosa; si ha estado bebiendo mucho todos los días, hable con un médico antes de dejar de beber abruptamente.';
+
+  @override
+  String get alcoholReferenceDay3 =>
+      'La fase aguda y la recuperación temprana\n\nFuente: \"Abstinencia de alcohol\", StatPearls, revisado por pares, Biblioteca Nacional de Medicina de los NIH\n\nLas primeras 24 a 72 horas\nStatPearls documenta que los síntomas de abstinencia aparecen pocas horas después de la última bebida (temblor, insomnio, agitación, sudoración, aumento del ritmo cardíaco y la presión arterial) y que los síntomas suelen alcanzar su punto máximo alrededor de las 72 horas. La mayoría de las personas han superado lo peor de la fase aguda al final del tercer día. La abstinencia grave (convulsiones o delirium tremens, que según StatPearls puede ocurrir en cualquier momento hasta 3 a 5 días después de suspender o reducir el consumo) es una emergencia médica: los bebedores diarios empedernidos no deben dejar de beber abruptamente sin consejo médico.\n\nLos antojos vienen en oleadas\nLos antojos a menudo se intensifican durante los primeros días, pero un antojo individual dura poco y suele pasar en cuestión de minutos. Reconocer que cada ola amaina por sí sola hace que sea más fácil superarlas.\n\nLa hidratación se recupera\nEl alcohol suprime la hormona antidiurética (ADH), lo que hace que los riñones excreten más agua y deja a los bebedores habituales con deshidratación crónica. Una vez que se deja de beber, este efecto diurético termina y el equilibrio de líquidos comienza a recuperarse durante los primeros días, lo que a menudo se nota como una piel más clara y energía más estable.\n\nLa mente y el sueño comienzan a calmarse\nA medida que pasa la fase aguda, la química cerebral que el alcohol alteró (GABA y glutamato) comienza a reequilibrarse. La claridad mental mejora y el sueño, muy fragmentado durante la abstinencia temprana, comienza a tener una mejor calidad durante la primera semana.';
+
+  @override
+  String get alcoholReferenceDay7 =>
+      'Cómo se recupera el sistema inmunológico\n\nFuente: \"El alcohol y el sistema inmunológico\" (Sarkar, Jung & Wang), Alcohol Research: Current Reviews - revisado por pares, alojado por los NIH\n\nCómo el alcohol debilita la inmunidad\nEl alcohol debilita el sistema inmunológico de varias maneras. Incluso una sola sesión de consumo excesivo de alcohol puede reducir la capacidad de combatir infecciones por hasta 24 horas. El uso prolongado reduce los glóbulos blancos, altera las señales inmunitarias y daña las defensas intestinales y pulmonares, lo que aumenta el riesgo de infecciones y ralentiza la cicatrización de heridas.\n\nQuitar el insulto\nMuchos de estos efectos mejoran una vez que se elimina el alcohol. Los glóbulos blancos y las señales inmunes comienzan a recuperarse, mientras que las defensas del intestino y las vías respiratorias comienzan a repararse. Durante la primera semana, su sistema inmunológico ya no se ve afectado diariamente y la resistencia a las infecciones comunes comienza a mejorar.\n\nUn proceso gradual\nLa recuperación inmune completa lleva más de una semana, y el grado de reparación depende de cuán intenso y prolongado haya sido el consumo de alcohol, pero la primera semana sin alcohol es donde comienza la reconstrucción.';
+
+  @override
+  String get alcoholReferenceDay14 =>
+      'Recuperación cerebral temprana en la abstinencia\n\nFuente: Bartsch AJ et al., \"Manifiestos de recuperación cerebral temprana asociada con la abstinencia del alcoholismo\", Brain (2007), revisado por pares.\n\nMedición de la recuperación\nEste estudio utilizó resonancia magnética para seguir a personas recientemente desintoxicadas con dependencia del alcohol durante las primeras semanas de abstinencia, comparándolas con controles sanos. Capturó la reconstrucción física del cerebro una vez que dejó de beber.\n\nRebotes del volumen cerebral\nEl consumo crónico de alcohol encoge el cerebro, en parte debido a la reducción reversible del tamaño de las células, no sólo a la pérdida celular permanente. Con la abstinencia, los investigadores midieron un aumento promedio global del volumen cerebral de casi el 2%, concentrado alrededor del cerebelo, el mesencéfalo, los ventrículos y las regiones frontales. Gran parte de este rebrote ocurre temprano, en las primeras semanas sin alcohol.\n\nCerebelo y atención\nLa recuperación fue especialmente clara en las áreas del cerebro utilizadas para el movimiento y la atención. Un marcador de la salud de las células cerebrales aumentó junto con mejoras mensurables en la atención, por lo que la curación física vino acompañada de mejoras reales en el pensamiento.\n\nUna base, no el final\nLas funciones superiores, como el razonamiento complejo, se recuperan más gradualmente, pero las dos primeras semanas establecen que el cerebro comienza a sanar rápidamente una vez que se elimina el alcohol.';
+
+  @override
+  String get alcoholReferenceDay30 =>
+      'La presión arterial cae cuando se deja de consumir alcohol\n\nFuente: Roerecke et al., \"El efecto de una reducción en el consumo de alcohol sobre la presión arterial: una revisión sistemática y un metanálisis\", Lancet Public Health (2017), revisado por pares\n\nLa evidencia\nEste metanálisis agrupó 36 ensayos aleatorios (alrededor de 2865 participantes) que evaluaron qué sucede con la presión arterial cuando las personas beben menos. Encontró un efecto claro, dependiente de la dosis: cuanto más reducía alguien, más bajaba su presión arterial.\n\n¿Qué tan grande es el efecto?\nLas personas que bebían dos o menos tragos al día no experimentaron cambios significativos en la presión arterial al reducirlos. Por encima de ese umbral, el efecto dependía de la dosis: fue más fuerte en las personas que bebían seis o más tragos al día y redujeron su consumo a aproximadamente la mitad, donde la presión arterial sistólica disminuyó aproximadamente 5,5 mmHg y la diastólica aproximadamente 4,0 mmHg en promedio. Una reducción de ese tamaño es clínicamente significativa: comparable a algunos medicamentos para la presión arterial y suficiente para reducir el riesgo de accidente cerebrovascular y enfermedades cardíacas a largo plazo.\n\nPor qué es importante un mes\nEl alcohol eleva la presión arterial al activar la respuesta al estrés, elevando el cortisol y endureciendo los vasos sanguíneos. Los ensayos en esta revisión muestran que el beneficio surge después de semanas de reducción sostenida, por lo que alrededor de un mes de abstinencia, la presión arterial de un bebedor empedernido ha tenido tiempo de estabilizarse hacia un nivel más saludable.\n\nUn efecto umbral\nLa revisión encontró un umbral claro: el beneficio se concentró en las personas que bebían más de dos tragos al día, y creció progresivamente cuanto más bebían antes. Si usted fuera un bebedor ligero, no espere este beneficio específico para la presión arterial, pero los bebedores más empedernidos obtienen un beneficio cardiovascular real y mensurable al dejar de beber.';
+
+  @override
+  String get alcoholReferenceDay60 =>
+      'Recuperación del hígado después de dejar de beber\n\nFuente: Instituto Nacional sobre Abuso de Alcohol y Alcoholismo (NIAAA), \"Efectos del alcohol en el cuerpo\"\n\nCómo el alcohol daña el hígado\nEl hígado procesa la mayor parte del alcohol que bebe y sufre la mayor parte del daño. El NIAAA describe una progresión de la lesión hepática relacionada con el alcohol: comienza con hígado graso (esteatosis: acumulación de grasa en las células del hígado), puede avanzar a hepatitis alcohólica (inflamación) y, con el consumo intenso y prolongado, a fibrosis y cirrosis (cicatrización).\n\nLas primeras etapas son reversibles\nEl punto crucial es que el hígado es altamente regenerativo y las primeras etapas de este daño pueden mejorar cuando se deja de beber. El hígado graso en particular a menudo se resuelve con una abstinencia sostenida. Aproximadamente dos meses sin alcohol, el hígado ha tenido tiempo real para eliminar los depósitos de grasa, calmar la inflamación y restaurar una función más saludable, lo que generalmente se refleja en la caída de los niveles de enzimas hepáticas (ALT y AST).\n\nMás allá del hígado\nEl NIAAA señala que el alcohol también ejerce presión sobre el corazón, el páncreas y el sistema inmunológico. Darle al cuerpo un descanso sostenido del alcohol permite que estos sistemas también se recuperen, lo que contribuye a una energía más estable y una mejor salud general que muchas personas notan en esta etapa.';
+
+  @override
+  String get alcoholReferenceDay90 =>
+      'Pensamiento y memoria después de tres meses de sobriedad\n\nFuente: Revisión sistemática de la recuperación neuropsicológica después de la abstinencia de alcohol (PubMed Central, 2024) - revisada por pares\n\nLo que muestra la evidencia\nEsta revisión combinó estudios que rastrearon cómo se recuperan el pensamiento y la memoria después de que las personas dejan de beber. La mayoría de las habilidades vuelven a la normalidad en aproximadamente seis a doce meses, y algunas mejoran antes.\n\nLo que mejora primero\nDos habilidades específicas se destacan por recuperarse antes que el resto: la velocidad de procesamiento básica (la revisión encontró que esto generalmente se recupera en aproximadamente un mes, aunque la precisión en tareas más complejas se queda atrás) y la actualización de la memoria de trabajo. Alrededor de los tres meses, muchas personas ya notan este aumento.\n\nLo que lleva más tiempo\nLa atención, la planificación, la toma de decisiones, el control de los impulsos, la percepción y la memoria siguen mejorando durante el período de recuperación de seis a doce meses.\n\n¿Qué influye en la recuperación?\nLa revisión señala que la recuperación está determinada por factores como la edad, el tabaquismo y la capacidad premórbida, pero, alentadoramente, no de manera consistente por la cantidad total consumida previamente. La recuperación es la trayectoria esperada.\n\nPor qué es importante\nUn pensamiento más claro es una recuperación práctica: una mejor atención y una mejor toma de decisiones ayudan a las personas a permanecer en el tratamiento y evitar recaídas.';
+
+  @override
+  String get alcoholReferenceDay180 =>
+      'Recuperación del cerebro a los seis meses de sobriedad\n\nFuente: Revisión revisada por pares sobre la recuperación estructural y funcional del cerebro durante la abstinencia del uso de sustancias (PubMed Central)\n\nLa recuperación continúa\nEl temprano rebote del volumen cerebral de las primeras semanas es sólo el comienzo. Esta revisión documenta que con la abstinencia sostenida el cerebro continúa recuperándose estructural y funcionalmente: la materia gris se recupera y las vías dañadas de la materia blanca que coordinan la comunicación entre las regiones del cerebro se reparan durante meses.\n\nEl frente del cerebro\nLa recuperación es especialmente importante en la parte frontal del cerebro, que se encarga del juicio, la planificación y el autocontrol. A medida que sana, se fortalece la toma de decisiones y el control de los impulsos.\n\nRecableado y función cerebral\nAdemás de la reparación física, la función cerebral y las conexiones también se recuperan. El cerebro puede reconectarse y volver a aprender, lo que hace que la abstinencia sostenida sea un momento poderoso para terapia y nuevos hábitos.\n\nSeñal de recuperación\nA los seis meses, la estructura y función del cerebro se están moviendo claramente hacia una normalidad más saludable. Mantener la abstinencia le da más tiempo a esa recuperación para desarrollarse.';
+
+  @override
+  String get alcoholReferenceDay365 =>
+      'Alcohol, Cancer Riesgo, y Dejar\n\nSource: National Cancer Institute (NCI), \"Alcohol y Cancer Riesgo\"\n\nAlcohol Causes Cancer\nThe NCI states there es a strong scientific consensus que drinking alcohol puede causa cancer. Alcohol es linked a cancers de the mouth (oral cavity), pharynx (throat), larynx (voice box), oesophagus, liver, breast, y colon y rectum. The más a persona drinks — y the más largo ellos drink — the mayor the riesgo.\n\nHow Alcohol Drives Cancer\nMechanisms incluyen acetaldehyde, a toxic breakdown product de alcohol que damages DNA; oxidative stress y inflammation; impaired absorption de protective nutrients; and, para breast cancer, raised oestrogen levels.\n\nRiesgo Falls Después de You Stop\nImportantly, the NCI informa que quitting drinking es associated con menor riesgo con el tiempo — studies muestran the elevated riesgo de cancers de the oral cavity y oesophagus declines después de dejarlo, though it puede take años a approach the riesgo de algunasone who never drank. One año alcohol-free es a significativo step sobre que path.\n\nCompounding Beneficios\nReaching a año también locks en the cardiovascular y liver gains de abstinence — menor sangre pressure, reducido arrhythmia riesgo, y continuada liver healing — junto con the falling cancer riesgo.';
+
+  @override
+  String get benzodiazepineReferenceDay7 =>
+      'Benzodiazepine Abstinencia: The First Week\n\nSource: \"Clinical Guidelines para Abstinencia Manejo y Treatment de Drug Dependence en Closed Settings,\" World salud Organization (2009), sobre the NCBI Bookshelf\n\nNote sobre Benzo Abstinencia Safety\nBenzodiazepine abstinencia puede ser peligroso. The WHO guidelines son explicit que the safest approach es a give benzodiazepines en gradualmente decreasing amounts, which \'helps a relieve benzodiazepine abstinencia síntomas y prevent the development de convulsiones.\' Do no dejar abruptly después de prolonged use — work con a médico sobre a taper.\n\nWhen Abstinencia Appears\nThe WHO timeline depends sobre the drug\'s duration de action:\n• Short-acting (oxazepam, alprazolam, temazepam): abstinencia comienza 1–2 días después de the última dosis y continúa para 2–4 semanas o longer\n• Long-acting (diazepam, nitrazepam): abstinencia comienza 2–7 días después de the última dosis y continúa para 2–8 semanas o longer\nThe primer-semana milestone es the point a which incluso longer-acting benzodiazepines han claroed enough para abstinencia a ser en completo effect.\n\nEarly Abstinencia Síntomas\n• Rebound ansiedad — a menudo más intense que the original ansiedad the fármaco treated\n• Insomnio y disturbed sueño\n• Tremors y músculo tension\n• Sweating y palpitations\n• Heightened sensitivity a light y sound\n\nSupervisión\nThe WHO guidelines note que abstinencia severity \'can fluctuate markedly,\' por lo que formal scales son no recommended; en su lugar a profesional sanitario debería check en every pocas hours, provide reassurance, y explain síntomas. Benzodiazepines enhance GABA, the cerebro\'s main calmante signal; a largo plazo use blunts que system, por lo que removing the fármaco leaves the cerebro over-excited — the source de the ansiedad, tremor, y convulsión riesgo que make a gradual taper essential.';
+
+  @override
+  String get benzodiazepineReferenceDay14 =>
+      'Benzodiazepine Abstinencia: Dos semanas\n\nSource: Ashton, \"Protracted abstinencia syndromes de benzodiazepines,\" Journal de Substance Abuse Treatment (1991), sobre PubMed\n\nAún en abstinencia aguda\nAt two semanas, muchas personas — especialmente those coming off longer-acting benzodiazepines — son todavía en the agudo phase, when the imbalance entre the cerebro\'s calmante (GABA) y excitatory systems es la mayoría pronounced. Ansiedad, insomnio, y perceptual disturbances son common.\n\nWhy Benzo Abstinencia Can Drag On\nProfessor Heather Ashton describe how the primer abstinencia síntomas puede blend en longer-lasting problems. Ansiedad, insomnio, trouble pensamiento claramente, y sensory changes puede continuar para meses porque the cerebro\'s tolerance changes puede ser slow a reverse.\n\nReversible lentamente Changes\nAshton characterises these como \'slowly reversible functional changes en the central nervous system.\' The central claim es recuperación: the nervous system progressively reverses the functional adaptations created para a largo plazo benzodiazepine exposure.\n\nLa reducción gradual es clave\nLa evidencia strongly supports a slow, supervised taper como the safest way a dejar, letting the cerebro gradualmente re-adapt en lugar de facing a sudden loss de inhibitory signalling.';
+
+  @override
+  String get benzodiazepineReferenceDay60 =>
+      'Benzodiazepines y Sueño Recuperación para Two Months\n\nSource: Poyares et al., \"Crónico benzodiazepine usage y abstinencia en insomnio pacientes,\" Journal de Psychiatric Research (2004), sobre PubMed\n\nCómo cambian el sueño las benzodiacepinas\nBenzodiazepines son widely prescribed para insomnio, pero ellos alter sueño architecture. In this polysomnography study de pacientes who había taken benzodiazepines nightly para an average de nearly seven años, crónico use fue associated con reducido slow-wave (deep) sueño y más light stage-2 sueño — por lo que usuarios lose restorative deep sueño incluso mientras sensación sedated.\n\nVuelve el sueño profundo\nThe encouraging finding: the study measured sueño again 15 días después de la abstinencia y encontró recuperación de slow-wave sueño y delta actividad compared con the crónico-use nights, along con mejorado subjective sueño quality. Deep sueño, suppressed para the drug, began returning conin sobre two semanas de dejar.\n\nQué significa a 60 Days\nIf deep sueño es recovering conin two semanas, entonces para two meses tu cerebro ha había ample tiempo a mantener rebuilding natural, restorative sueño. The grave rebound insomnio de temprano abstinencia ha normalmente settled. Los autores fueron honest que abstinencia worsened sueño a primer — which es why a gradual taper matters — pero para the end de su protocol, sueño calidad había mejorado durante crónico benzodiazepine use.\n\nOther Improvements para Two Months\nMany temprano físico abstinencia síntomas — músculo tension, tremor, palpitations, sudoración — han normalmente eased o resuelto para the two-mes mark como the body re-regulates.';
+
+  @override
+  String get benzodiazepineReferenceDay90 =>
+      'Tres meses Después de Benzodiazepines: Físico salud se estabiliza\n\nSource: Ashton, \"Protracted abstinencia syndromes de benzodiazepines,\" Journal de Substance Abuse Treatment (1991), sobre PubMed\n\nFísico Estabilización\nBy 90 días, the agudo phase es ya quedó atrás. For personas who completado a managed taper, la mayoría de the físico abstinencia síntomas — tremor, palpitations, headaches, y the worst sueño disruption — han eased considerablemente, y sueño es por lo general más stable.\n\nWhy Some Síntomas Persist\nAshton documents que algunas síntomas puede last para meses. At three meses, lingering ansiedad, cerebro fog, y sensory changes puede todavía aparecen mientras the cerebro continúa its slow, reversible readjustment.\n\nTwo Reasons Ansiedad Lingers\n1. The cerebro\'s GABA system es todavía re-adapting toward normal sensitivity — a slow process\n2. Any underlying ansiedad que led a benzo use es now felt sin a drug-driven buffer\n\nUn buen momento para la terapia\nWith the worst temprano síntomas behind you, three meses es a strong point a use apoyo such como talking therapy such como CBT (CBT) para ansiedad y build coping skills mientras the nervous system mantiene settling.';
+
+  @override
+  String get benzodiazepineReferenceDay180 =>
+      'Pensamiento y Memoria a Seis meses: Measurable Gains\n\nSource: Tata et al., \"Lack de cognitive recuperación following abstinencia de a largo plazo benzodiazepine use,\" Psychological Medicine (1994), sobre PubMed\n\nQué hizo el estudio\nThis study tested 21 a largo plazo benzodiazepine pacientes antes de abstinencia, simplemente después de la abstinencia, y again a six meses de abstinence, comparing them con matched controls. It es one de the la mayoría candid data points en the benzo recuperación literature.\n\nQué encontró\nAntes de dejar, pacientes había problems con verbal learning, memoria, movement speed, visual coordination, y visual reasoning. Right después de dejarlo there fue little change. By six meses, several de those areas había measurably mejorado.\n\nQué significa\nBy six meses, verbal learning, memoria, movement speed, y visual coordination fueron measurably recovering. The improvement fue already claro y había room a continuar.\n\nLa perspectiva general\nIf tú se sienten con niebla a six meses, this research says: que es esperado, y continuada abstinence es the path forward. Longer-term studies muestran recuperación continúa well beyond this point — the cerebro mantiene healing.';
+
+  @override
+  String get benzodiazepineReferenceDay365 =>
+      'Un año Después de Benzodiazepines: Pensamiento y Memoria Keep Recovering\n\nSource: Barker et al., \"Persistence de cognitive efectos después de la abstinencia de a largo plazo benzodiazepine use: a meta-analysis,\" Archives de Clinical Neuropsychology (2004), sobre PubMed\n\nLa evidencia más sólida disponible\nResearchers combined studies que re-tested a largo plazo benzodiazepine usuarios después de a least six meses off the drug. The combined result muestra claro recuperación en pensamiento y memoria después de la abstinencia.\n\nLa buena noticia\nThe combined studies encontró real, measurable improvement en several areas de pensamiento y memoria después de la abstinencia. Around one año, the recuperación es amplio y obvious compared con activo use.\n\nRecuperación Continues\nThe combined studies encontró amplio recuperación en pensamiento y memoria. By one año, tú son well along a recuperación trend que fue already measurable a six meses.\n\nQué significa a Un año\nExpect considerable recuperación en pensamiento, memoria, y claridad para a año — la mayoría personas se sienten markedly sharper que durante use. But if algunas areas todavía lag, que es consistent con the evidence, no a sign tú han stalled. Recuperación continúa, y a año de abstinence es a major, worthmientras milestone sobre que path.';
+
+  @override
+  String get benzodiazepineReferenceDay540 =>
+      '18 Months Después de Benzodiazepines: Slow pero Real Recuperación\n\nSource: Ashton, \"Protracted abstinencia syndromes de benzodiazepines,\" Journal de Substance Abuse Treatment (1991), sobre PubMed\n\nPor qué la recuperación de las benzodiacepinas tarda tanto\nBenzodiazepines act sobre GABA, the cerebro\'s main calmante system. Long-term use changes how strongly que system responds, y those changes puede take meses a reverse. That es why benzo recuperación es measured en meses en lugar de semanas.\n\nWhere 18 Months Sits\nAshton describe longer-lasting abstinencia síntomas que puede take meses a ease. By 18 meses, the worst es well behind la mayoría personas y lingering ansiedad, sensory changes, y cerebro niebla han considerablemente settled.\n\nReversible lentamente\nCrucially, Ashton frames the underlying changes como \'slowly reversible functional changes en the central nervous system.\' Slow, pero reversible — the largo timeline reflects the depth de the adaptation benzodiazepines cautilizado, no permanent damage en la mayoría personas.\n\nRecuperación Signal\nAshton describe the underlying changes como lentamente reversible. By 18 meses, the cerebro\'s calmante GABA system ha había a largo tiempo a settle y the dominant direction es continuada recuperación toward normal.';
+
+  @override
+  String get benzodiazepineReferenceDay730 =>
+      'Dos años Después de Benzodiazepines: Major, Lasting Progress\n\nSource: Barker et al., \"Persistence de cognitive efectos después de la abstinencia de a largo plazo benzodiazepine use: a meta-analysis,\" Archives de Clinical Neuropsychology (2004), sobre PubMed\n\nUn hito en la recuperación\nTwo años es a importante milestone, especialmente después de a largo abstinencia. The temprano y lingering síntoma phases son largo past, y the gains de the primer año han había otro año a strengthen.\n\nLo que respalda la evidencia\nThe combined studies muestran recuperación en muchas areas después de la abstinencia. By two años, la mayoría personas informa ansiedad a o below su pre-benzo level, reliable sueño sin medicación, steadier emotions, y claroer pensamiento que durante use.\n\nRecuperación Signal\nThe combined studies establish recuperación across muchas areas de pensamiento y memoria. At two años, sustained recuperación es the evidence-backed expectation.\n\nMantener la perspectiva\nTwo años da sueño, ánimo, memoria, y claro pensamiento a largo recuperación window. La evidencia muestra considerable improvement across todos four, con healing continuing de here.';
+
+  @override
+  String get benzodiazepineReferenceDay1095 =>
+      'Tres años Después de Benzodiazepines: A largo plazo Healing\n\nSource: Barker et al., \"Persistence de cognitive efectos después de la abstinencia de a largo plazo benzodiazepine use: a meta-analysis,\" Archives de Clinical Neuropsychology (2004), sobre PubMed\n\nLa visión a largo plazo\nThree años sits a the far end de the benzo recuperación timeline. For the great majority de personas, incluso después de grave long-lasting abstinencia, disruptive síntomas son well behind them y calidad de vida es transformed compared con activo use.\n\nWhat the Meta-Analysis Found\nCombined studies de a largo plazo usuarios muestran recuperación en muchas areas después de la abstinencia. Over años de abstinence, the dominant story es amplio recuperación en pensamiento, memoria, y día-to-día function.\n\nRecuperación Signal\nLong-term research muestra recuperación across muchas areas de pensamiento y memoria. By three años, the temprano y lingering abstinencia phases son far behind tú y those gains han había años a strengthen.\n\nUn mensaje de esperanza\nThe benzo recuperación journey es one de the la mayoría demanding en medicine, y three años de sustained healing es a profound achievement. La evidencia es claro: the cerebro heals considerablemente, la mayoría personas recover su claridad, sueño, y emocional range, y improvement continúa con time.';
+
+  @override
+  String get cocaineReferenceDay1 =>
+      'Abstinencia de cocaína: las primeras 24 horas\n\nFuente: \"Síndromes de abstinencia\", StatPearls (NCBI Bookshelf), Biblioteca Nacional de Medicina de EE. UU.\n\nLa cocaína y el cerebro\nLa cocaína bloquea la recaptación de dopamina (y otras monoaminas) en los circuitos de recompensa del cerebro, lo que hace que la dopamina se acumule y produzca euforia y energía intensas. Con el uso regular, el cerebro se adapta regulando a la baja este sistema, de modo que sin la droga, las actividades normales se sienten planas.\n\nEl choque\nStatPearls describe la abstinencia de estimulantes como un comienzo con una \"caída\" una vez que se deja de usarlo, caracterizada por una marcada depresión, sueño excesivo, hambre, mal humor y una severa desaceleración del movimiento y el pensamiento. En las primeras 24 horas, esto normalmente incluye:\n• Fatiga extrema y mayor necesidad de dormir.\n• Estado de ánimo deprimido y movimientos y pensamientos más lentos\n• Aumento del apetito (la cocaína suprime el apetito)\n\nLos antojos, la irritabilidad y la ansiedad también se informan con mucha frecuencia durante este período en la literatura más amplia sobre adicciones, aunque StatPearls no los detalla específicamente como parte del colapso.\n\nA diferencia de otras drogas\nStatPearls señala que la abstinencia de estimulantes se trata con observación y atención de apoyo; a diferencia del alcohol o la abstinencia de benzodiazepinas, normalmente no causa convulsiones ni delirio. El principal peligro es psicológico: depresión y, en los consumidores habituales, pueden ocurrir ideas suicidas durante el accidente, por lo que se recomienda apoyo y seguimiento.\n\nSin medicamento aprobado\nActualmente no existen medicamentos aprobados para tratar la abstinencia de cocaína; el manejo es de apoyo y los enfoques no farmacológicos, como el manejo de contingencias, son tratamientos basados ​​en evidencia para el trastorno por consumo subyacente.';
+
+  @override
+  String get cocaineReferenceDay3 =>
+      'Tres días sin cocaína: navegando por el desafío máximo\n\nFuente: \"Cocaine Toxicity\", StatPearls (NCBI Bookshelf), Biblioteca Nacional de Medicina de EE. UU.\n\nCómo afecta la cocaína al cuerpo\nStatPearls documenta que la cocaína bloquea la recaptación de dopamina, noradrenalina y serotonina, prolongando la estimulación simpática. Esto es lo que impulsa tanto su euforia como su peligro: puede afectar a casi todos los sistemas orgánicos.\n\nDías 2 a 4: pico de abstinencia psicológica\nAl tercer día, la crisis aguda dio paso a la retirada psicológica más intensa:\n• Mal humor y estado de ánimo deprimido en su punto más intenso\n• Pérdida de placer\n• Antojos fuertes, provocados por señales\n• Ansiedad e inquietud\n• Trastornos del sueño: excesivo en algunos, insomnio en otros\n\nEl peligro cardiovascular retrocede\nStatPearls identifica la toxicidad cardiovascular como el efecto más letal de la cocaína: aumento de la frecuencia cardíaca y la presión arterial, aumento de la demanda de oxígeno del miocardio, vasoespasmo coronario y activación plaquetaria, lo que aumenta el riesgo de arritmia, infarto y accidente cerebrovascular, incluso en consumidores jóvenes. La vida media de la cocaína es corta, alrededor de una hora, y para el tercer día la droga se ha eliminado completamente del sistema, aunque StatPearls señala que sus metabolitos aún pueden causar constricción de los vasos sanguíneos durante horas después de su uso, y un metabolito puede permanecer durante semanas, por lo que una cierta tensión cardiovascular residual puede durar más que la propia droga.\n\nEl camino por delante\nLa fase aguda es intensa, pero son los síntomas psicológicos (depresión, antojos, pérdida de placer) los que requieren mayor apoyo y los que persisten por más tiempo.';
+
+  @override
+  String get cocaineReferenceDay7 =>
+      'Una semana sin cocaína: comienza la recuperación física\n\nFuente: \"Síndromes de abstinencia\", StatPearls (NCBI Bookshelf), Biblioteca Nacional de Medicina de EE. UU.\n\nLa fase aguda está llegando a su fin\nStatPearls describe la abstinencia de cocaína como un paso del colapso inicial a una fase de recuperación más larga. Al final de la primera semana, los peores síntomas suelen desaparecer mientras el sistema de dopamina continúa reconstruyéndose.\n\nRecuperación física en marcha\nUna vez que cesa la estimulación simpática de la cocaína, sus efectos cardiovasculares, del apetito, del sueño y de las vías respiratorias comienzan a revertirse en los siguientes días y semanas:\n• La frecuencia cardíaca y la presión arterial vuelven a la normalidad.\n• El apetito regresa gradualmente (la cocaína lo suprime fuertemente)\n• Los patrones de sueño comienzan a estabilizarse\n• Los conductos nasales comienzan a sanar si se inhala cocaína.\n\nLos síntomas psicológicos continúan\nStatPearls señala que la depresión y la pérdida de placer son características de la abstinencia de estimulantes y duran más que los síntomas físicos:\n• El estado de ánimo sigue siendo bajo, aunque menos severo que en el pico\n• Los antojos provocados por señales siguen siendo fuertes\n• La concentración y la motivación todavía están deterioradas.\n\nFase posaguda\nLuego, la abstinencia se convierte en semanas o meses de mejora constante del estado de ánimo, los antojos y el pensamiento claro. Conocer ese patrón hace que la parte más lenta de la recuperación sea más fácil de manejar.';
+
+  @override
+  String get cocaineReferenceDay14 =>
+      'Dos semanas sin cocaína: encontrar estabilidad\n\nFuente: \"Síndromes de abstinencia\", StatPearls (NCBI Bookshelf), Biblioteca Nacional de Medicina de EE. UU.\n\nDos semanas en\nA las dos semanas, los síntomas graves del accidente (depresión profunda, dormir mucho y movimientos y pensamientos lentos) en general han desaparecido. La recuperación ahora se centra en reconstruir la salud cerebral y emocional.\n\nEstado de ánimo y estado emocional\nA las dos semanas, el estado de ánimo aún puede estar por debajo de lo normal mientras el sistema de dopamina se recupera. En comparación con la primera semana, la profunda pérdida de placer se está aliviando y regresan auténticos momentos de bienestar.\n\nAntojos y desencadenantes\nLos antojos provocados por señales son un desafío importante en esta etapa. El cerebro ha formado fuertes asociaciones entre el consumo de cocaína y entornos, personas, emociones y actividades específicas. Encontrar cualquiera de estos desencadenantes puede producir antojos intensos incluso cuando el estado de ánimo general está mejorando. Es importante evitar entornos de alto riesgo y crear nuevas asociaciones.\n\nMejora del sueño\nEl sueño suele ser más estable y reparador a las dos semanas que durante la fase de abstinencia aguda. Un mejor sueño tiene un efecto positivo significativo sobre el estado de ánimo, el pensamiento claro y la capacidad de controlar los antojos.\n\nConstruyendo la base\nDebido a que los tratamientos basados en evidencia para el trastorno por uso de estimulantes son conductuales (manejo de contingencias, terapia y apoyo de pares), la marca de las dos semanas es un momento importante para involucrarse con estructuras de apoyo que apuntalarán la recuperación a largo plazo.';
+
+  @override
+  String get cocaineReferenceDay60 =>
+      'Dos meses sin cocaína: el ánimo y la recompensa empiezan a recuperarse\n\nFuente: \"Recuperación de la cocaína: conocimientos de investigaciones clínicas y preclínicas\", Neuroscience & Biobehavioral Reviews (2013), en PubMed Central\n\nQué está haciendo el cerebro\nEsta revisión sintetiza estudios en humanos y animales sobre lo que le sucede al cerebro cuando se deja de consumir cocaína. La cocaína crónica altera el sistema de dopamina y reduce la actividad en la corteza frontal; La recuperación de estos sistemas es el sustrato de las mejoras en el estado de ánimo y la motivación que las personas notan con la abstinencia temprana.\n\nProgreso del sistema de recompensas\nEn estudios con animales, los cambios relacionados con la cocaína en los receptores de dopamina y las proteínas de reciclaje regresaron a niveles saludables con la abstinencia sostenida. A medida que el sistema de recompensa se recupera, la profunda pérdida de placer desaparece y las recompensas cotidianas (comida, conexión, logros) vuelven a ser gratificantes.\n\nSeñal de recuperación\nA los dos meses, el estado de ánimo mejora y el sueño es más estable, mientras que la dopamina y los sistemas de la corteza frontal continúan reconstruyéndose. Los estudios en primates muestran que los cambios en el receptor y transportador D1 relacionados con la cocaína regresan a niveles de control con la abstinencia sostenida.';
+
+  @override
+  String get cocaineReferenceDay90 =>
+      'Tres meses sin cocaína: los marcadores de dopamina se recuperan\n\nFuente: \"Recuperación de la cocaína: conocimientos de investigaciones clínicas y preclínicas\", Neuroscience & Biobehavioral Reviews (2013), en PubMed Central\n\nPor qué 90 días son un hito\nEsta revisión destaca el punto de los tres meses como biológicamente significativo. En primates no humanos, los receptores y transportadores de dopamina D1 que la cocaína había elevado mostraron \"evidencia de un retorno a los niveles de control\" después de aproximadamente 90 días de abstinencia: evidencia directa de que el sistema de recompensa puede reajustarse una vez que se termina la droga.\n\nEl frente del cerebro\nLos autores destacan la recuperación de la parte frontal del cerebro como uno de los signos más importantes de una abstinencia prolongada. Esta área se encarga del control de los impulsos, la toma de decisiones y el autocontrol, y esas habilidades se fortalecen a medida que se recupera.\n\nLo que muestra 90 días\nA los 90 días, los estudios en primates encontraron que las densidades de D1, D2 y del transportador de dopamina ya no eran significativamente diferentes de los controles sin drogas. Incluso después de una exposición prolongada, en este punto ya es visible una recuperación sustancial del sistema de dopamina y continúa con la abstinencia.';
+
+  @override
+  String get cocaineReferenceDay180 =>
+      'Seis meses sin cocaína: pensamiento más claro\n\nFuente: \"Recuperación cerebral estructural y funcional en personas con trastornos por uso de sustancias durante la abstinencia: una revisión de estudios longitudinales de neuroimagen\", en PubMed Central\n\nRecuperación que puedes imaginar\nEsta revisión reúne estudios longitudinales de imágenes cerebrales que exploran a las mismas personas repetidamente a medida que se prolonga su abstinencia. Para la cocaína, informa que la actividad funcional se recupera de manera mensurable con la abstinencia sostenida.\n\nEvidencia de imágenes cerebrales\nDos estudios de resonancia magnética funcional rastrearon a los consumidores de cocaína a lo largo del tiempo y ambos encontraron una mejor activación en el mesencéfalo y el tálamo con una abstinencia más prolongada. En uno de ellos, después de unos seis meses de abstinencia, el patrón de activación del cerebro era comparable al de los controles sanos no adictos. Entre las sustancias, la revisión señala que los resultados de las imágenes nucleares apuntan a una recuperación dopaminérgica con la abstinencia.\n\nQué significa esto a los seis meses\nEstas ganancias funcionales se comparan con las mejoras del mundo real que las personas informan en esta etapa:\n• Mejor atención y memoria de trabajo\n• Toma de decisiones y control de impulsos más precisos\n• Estado de ánimo más estable y regulación emocional\n\nSeñal de recuperación\nAproximadamente a los seis meses, una cohorte longitudinal de resonancia magnética funcional mostró un patrón de activación comparable al de los controles sanos no adictos, mientras que la activación del cerebro medio y profundo mejoró a medida que se prolongaba la abstinencia. Se trata de una recuperación funcional del cerebro obtenida mediante imágenes directas.';
+
+  @override
+  String get cocaineReferenceDay365 =>
+      'Un año sin cocaína: se elimina la tensión cardiovascular\n\nFuente: \"Cocaine Toxicity\", StatPearls (NCBI Bookshelf), Biblioteca Nacional de Medicina de EE. UU.\n\nPor qué el corazón es central\nStatPearls identifica la toxicidad cardiovascular como el efecto más letal de la cocaína. Cada uso aumenta la frecuencia cardíaca, la presión arterial y la demanda de oxígeno del miocardio, al tiempo que provoca vasoespasmo coronario y promueve la formación de coágulos, una combinación que provoca ataques cardíacos, arritmias y accidentes cerebrovasculares incluso en personas jóvenes.\n\nLo que elimina un año de abstinencia\nCada día sin cocaína es un día libre de estos agudos insultos. Al cabo de un año, los repetidos aumentos repentinos de la presión arterial y la frecuencia cardíaca desaparecen, se elimina el riesgo de espasmo coronario e infarto agudo inducidos por la cocaína y el corazón ya no sufre una falta de oxígeno.\n\nSeñal de recuperación\nDejar de consumir cocaína detiene el vasoespasmo coronario repetido, la taquicardia, la hipertensión, la promoción de coágulos y el desajuste de oxígeno que provocan una lesión cardíaca aguda. La fibrosis o miocarditis existente sigue siendo un problema médico, pero el insulto repetido provocado por la cocaína ha desaparecido.\n\nLa recuperación del cerebro también\nAl año, los sistemas de recompensa y autocontrol han tenido más tiempo para recuperarse, lo que respalda un mejor control de los impulsos, un estado de ánimo más estable y una respuesta más fuerte a las recompensas cotidianas.';
+
+  @override
+  String get cocaineReferenceDay730 =>
+      'Dos años sin cocaína: recuperación sostenida\n\nFuente: \"Recuperación de la cocaína: conocimientos de investigaciones clínicas y preclínicas\", Neuroscience & Biobehavioral Reviews (2013), en PubMed Central\n\nLa visión a largo plazo\nEsta revisión reúne lo que los estudios en humanos y animales muestran sobre la abstinencia prolongada de cocaína. Su conclusión central es que la preservación y recuperación de la función de la corteza frontal es el marcador más importante de la abstinencia a largo plazo: los abstinentes a largo plazo (más de 10 meses) mostraron una mayor actividad de la corteza frontal que los abstinentes a corto plazo.\n\nLo que continúa sanando\n• Los marcadores de dopamina alterados por la cocaína continúan normalizándose con una abstinencia sostenida\n• La integridad reducida de la materia gris y blanca observada en usuarios activos y que hacen abstinencia temprana puede revertirse con una abstinencia más prolongada, posiblemente a través de la maduración continua de la mielina.\n• Los circuitos de control frontal (control de impulsos, juicio, regulación emocional) fortalecen\n\nSeñal de recuperación\nLos autores plantean una genuina advertencia científica: parte de la diferencia entre los abstemios a largo plazo puede reflejar un \"efecto de supervivencia\" (a las personas que comenzaron con una mayor integridad cerebral les puede resultar más fácil mantenerse en abstinencia) en lugar de una recuperación sola. Lo que está claro es que dos años sin cocaína apoyan un cerebro que funciona mucho más cerca del de un no consumidor, y una vida que no es meramente abstinente sino sustancialmente reconstruida.';
+
+  @override
+  String get ghbReferenceDay1 =>
+      'GHB Abstinencia: Las primeras horas\n\nSource: \"Characterization de the GHB Abstinencia Syndrome,\" sobre PubMed Central\n\n⚠ This Is a Urgencia médica\nGHB abstinencia ranks among the la mayoría peligroso substance abstinencias, rivalling grave alcohol y benzodiazepine abstinencia. Untreated, it puede progress a delirium en durante half de cases, con peligroso swings en corazón rate y sangre presión y convulsiones. Anyone dependent sobre GHB, GBL, o 1,4-butanediol debería seek supervised inpatient detox en lugar de dejar alone.\n\nWhy It Starts So Fast\nGHB\'s half-life es only 30–60 minutes, y dependent usuarios normalmente need a redose every 2–3 hours simplemente a avoid abstinencia — far faster que alcohol o benzodiazepines. That rapid pharmacokinetics es why síntomas puede aparecen much sooner que con otro sedative-hypnotic abstinencia.\n\nEarly Síntomas\nAnsiedad, insomnio, tremor, sweating, fast corazón rate, y rising sangre pressure.';
+
+  @override
+  String get ghbReferenceDay3 =>
+      'GHB Abstinencia: Los días más difíciles\n\nSource: \"Characterization de the GHB Abstinencia Syndrome,\" sobre PubMed Central\n\nThe Roughest Stretch\nThis study encontró several core abstinencia síntomas — músculo aches, músculo twitches, a tensed y stressed feeling, a fast corazón rate, y abdominal cramps — fueron a su worst en the primer three días, con más que a 70% drop en severity para muchas síntomas para día four. This temprano window es por lo general the highest-riesgo period, when untreated abstinencia es la mayoría probable a escalate toward delirium, convulsiones, o peligroso swings en corazón rate y sangre pressure.\n\nSevere Features\n• Severe agitation y ansiedad\n• Auditory y visual hallucinations, paranoia\n• Tremor, sweating, racing heart, y alto sangre pressure\n• Riesgo de convulsiones\n\nManejo\nEl estudio describe benzodiazepine tapering y pharmaceutical GHB tapering como the two habitualmente utilizado detoxification methods, noting algunas evidence que a GHB taper puede control síntomas más effectively que benzodiazepines alone. Either approach requires close monitoring — this es no seguro a manage a home.';
+
+  @override
+  String get ghbReferenceDay7 =>
+      'Una semana Off GHB\n\nSource: \"Characterization de the GHB Abstinencia Syndrome,\" sobre PubMed Central\n\nMost Síntomas Are Fading\nSeveral core abstinencia síntomas dropped para más que 70% en severity o prevalence conin the primer four días. Under supervised tapering, the tapering phase itself lasted 11 días sobre average, followed para a recuperación phase de sobre six días — por lo que para one semana muchas personas son well en que improvement, incluso if the process isn\'t fully finished.\n\nLo que puede persistir\n• Sweating, tremor, y shaky hands\n• Sueñoing a lot, o conversely insomnio y restmenosness\n• Deseos de consumir\n\nEl estudio encontró these particular síntomas changed comparatively little incluso out a 11 días, por lo que persistence this semana isn\'t unusual. Continued médico oversight permanece importante until the syndrome ha claramente settled.';
+
+  @override
+  String get ghbReferenceDay14 =>
+      'Dos semanas Off GHB\n\nSource: \"Characterization de the GHB Abstinencia Syndrome,\" sobre PubMed Central\n\nSuperado el síndrome agudo\nBy two semanas, the agudo físico syndrome descrito en this study — whose tapering y recuperación phases together average aproximadamente 17 días under supervised tratamiento — ha por lo general resuelto o es very close a it. Heart rate, sangre pressure, y la mayoría físico síntomas debería ser stabilising.\n\nLo que persiste\nEl estudio specifically flags deseo de consumir y insomnio como todavía present a discharge para algunas pacientes, noting these puede contribute a relapse riesgo. Apoyo y structure matter now, incluso como the peligroso temprano phase es behind you.';
+
+  @override
+  String get ghbReferenceDay30 =>
+      'Un mes Off GHB\n\nSource: \"Characterization de the GHB Abstinencia Syndrome,\" sobre PubMed Central\n\nWhere Un mes Sits\nThe agudo, peligroso phase descrito en this study es largo past para one mes. By one mes, the agudo peligroso phase — concentrated en the primer días y followed para a supervised taper-and-recuperación period averaging roughly two y a half semanas — es largo past. Deseo de consumir y insomnio son the key residual relapse riesgos identified a discharge.\n\nWhy Apoyo Still Helps\nIf deseos de consumir, bajo ánimo, o sueño problems son todavía present a one mes, que lines up con what the study\'s authors flagged como relapse riesgo factors — which es exactly why continuada apoyo y structure matter.';
+
+  @override
+  String get ghbReferenceDay90 =>
+      'Tres meses Off GHB\n\nSource: \"Characterization de the GHB Abstinencia Syndrome,\" sobre PubMed Central\n\nTres meses de Recuperación\nBy three meses, the agudo GHB abstinencia syndrome es resuelto desde hace tiempo. The residual riesgos identified a discharge son deseo de consumir y insomnio, por lo que three meses de abstinence da sueño, autonomic stability, y relapse-prevention routines considerable tiempo a consolidate.\n\nLo que suele contar la gente\n• Calmer habitual ánimo\n• More reliable sueño\n• Clearer pensamiento y fewer deseos de consumir\n\nIf ansiedad, insomnio, o bajo ánimo son todavía prominent a three meses, that\'s worth discussing con a profesional sanitario en lugar de assuming it será resolve sobre its own.';
+
+  @override
+  String get ghbReferenceDay180 =>
+      'Seis meses Off GHB\n\nSource: \"Characterization de the GHB Abstinencia Syndrome,\" sobre PubMed Central\n\nMedio año On\nBy six meses, the agudo GHB abstinencia syndrome es resuelto desde hace tiempo y recuperación ha shifted completely de detoxification a stable sueño, deseo de consumir control, y relapse prevention. The peligroso autonomic y delirium-prone phase belongs a the primer días y semanas, no this stage.\n\nLa perspectiva general\nGetting mediante GHB abstinencia safely y staying off para half a año es a importante achievement given how peligroso the temprano phase is, y how real the relapse riesgo — driven partly para lingering deseo de consumir y insomnio — puede be. The routines y apoyo que got tú here son worth keeping.';
+
+  @override
+  String get inhalantsReferenceDay1 =>
+      'Dejar de inhalar: día uno\n\nFuente: Radparvar, \"The Clinical Assessment y Treatment de Inhalant Abuse\", The Permanente Journal (2023), en PubMed Central\n\nPor qué ocurre la abstinencia\nEl uso crónico de inhalantes provoca neuroadaptación: el sistema nervioso llega a esperar la sustancia. Muchos inhalantes afectan los mismos circuitos cerebrales que el alcohol, por lo que dejar de consumirlos deja al cerebro temporalmente desequilibrado. Los químicos limpian la sangre rápidamente pero se almacenan en la grasa corporal, lo que puede hacer que el momento de la abstinencia sea impredecible.\n\nSíntomas tempranos\nEsta revisión describe la abstinencia de inhalantes como similar a la abstinencia de alcohol o benzodiazepinas, y los síntomas informados incluyen:\n• Náuseas, vómitos y sudoración.\n• Temblor y frecuencia cardíaca rápida\n• Insomnio y alteraciones del sueño\n• Ansiedad e irritabilidad\n\nUna nota de seguridad\nEn los casos más graves, la revisión también enumera alucinaciones, delirios y convulsiones entre los síntomas informados, aunque no establece un cronograma diario preciso; trátelos como síntomas que pueden ocurrir, no como un cronograma fijo. La supervisión médica es aconsejable durante la desintoxicación, especialmente para los consumidores habituales y prolongados.';
+
+  @override
+  String get inhalantsReferenceDay7 =>
+      'Una semana sin inhalantes\n\nFuente: Radparvar, \"The Clinical Assessment y Treatment de Inhalant Abuse\", The Permanente Journal (2023), en PubMed Central\n\nLa ventana aguda\nLa abstinencia por inhalantes se describe en la literatura clínica como similar a la abstinencia de alcohol o benzodiazepinas, pero generalmente se entiende que es de menor duración. Al final de la primera semana, los síntomas físicos agudos (náuseas, temblores, sudoración, insomnio) suelen desaparecer en la mayoría de las personas.\n\nlo que queda\n• Fatiga y confusión mental\n• Estado de ánimo bajo o inestable\n• Antojos\n\nNota sobre la abstinencia temprana\nLa confusión mental en esta etapa no significa un daño duradero: el cerebro todavía se está reajustando. La investigación sobre cómo el pensamiento y la memoria se recuperan específicamente durante las siguientes semanas y meses se cubre en hitos posteriores.';
+
+  @override
+  String get inhalantsReferenceDay14 =>
+      'Dos semanas sin inhalantes\n\nFuente: Radparvar, \"The Clinical Assessment y Treatment de Inhalant Abuse\", The Permanente Journal (2023), en PubMed Central\n\nA través de la fase aguda\nLas revisiones clínicas describen la abstinencia de inhalantes como similar a la abstinencia de alcohol o benzodiazepinas, pero más breve. A las dos semanas, las náuseas, los temblores, el insomnio y la ansiedad generalmente han desaparecido.\n\nEl camino por delante\nLa atención, la memoria, el movimiento y la coordinación se recuperan de forma más gradual a lo largo de los siguientes meses. La abstinencia continua da tiempo a todos estos sistemas para mejorar. La buena nutrición (el uso de inhalantes puede agotar la vitamina B12) y la abstinencia preparan el terreno para ello.';
+
+  @override
+  String get inhalantsReferenceDay30 =>
+      'Un mes sin inhalantes\n\nFuente: Dingwall et al., \"Recuperación cognitiva durante y después del tratamiento para el abuso de disolventes volátiles\", Dependencia de drogas y alcohol (2011), en PubMed\n\nDonde se sienta un mes\nEl período de retiro anticipado ya quedó atrás. En este estudio, algunas habilidades de aprendizaje mejoraron en seis semanas, mientras que la coordinación visual, la memoria, la planificación y la toma de decisiones mejoraron más gradualmente durante los meses siguientes.\n\n¿Qué se puede mejorar?\n• Atención y algunas tareas de aprendizaje.\n• Estado de ánimo y sueño, mientras el cuerpo se estabiliza\n• Velocidad del motor, gradualmente\n\nSeñal de recuperación\nLa conclusión del estudio es clara: la memoria, la planificación y la toma de decisiones mejoran gradualmente durante meses o años de abstinencia. La abstinencia continua es el motor más fuerte de esa recuperación.';
+
+  @override
+  String get inhalantsReferenceDay90 =>
+      'Tres meses sin inhalantes\n\nFuente: Dingwall et al., \"Recuperación cognitiva durante y después del tratamiento para el abuso de disolventes volátiles\", Dependencia de drogas y alcohol (2011), en PubMed\n\nUn proceso desigual y más largo\nEste estudio siguió a las personas más allá de un programa de tratamiento de ocho semanas y volvió a examinar a algunas de ellas aproximadamente un año después. Algunas habilidades de aprendizaje mejoraron en seis semanas, mientras que la coordinación visual, la memoria, la planificación y la toma de decisiones siguieron mejorando durante un período más largo.\n\nMantener el rumbo\nEl estudio muestra que las habilidades más lentas mejoran gradualmente a lo largo de meses o años. A los tres meses, la abstinencia continua es la palanca más fuerte para lograr una mayor recuperación mes tras mes.';
+
+  @override
+  String get inhalantsReferenceDay365 =>
+      'Un año sin inhalantes\n\nFuente: \"Un estudio prospectivo de cambios neurocognitivos 15 años después del abuso crónico de inhalantes\", en PubMed\n\nRecuperación real y mensurable\nUn estudio a largo plazo encontró una recuperación sustancial de los problemas cerebrales y de pensamiento crónicos relacionados con los inhalantes después de dos años de abstinencia. Al año, ya habrá avanzado en el camino de la recuperación.\n\nLo que significa\nLa memoria, la atención y la función motora continúan mejorando. La abstinencia a largo plazo produce una recuperación cerebral genuina: a los dos años, la mayoría de las puntuaciones del cerebro, la memoria y el pensamiento habían vuelto a la normalidad en consumidores crónicos que no tenían daño cerebral causado por el plomo.';
+
+  @override
+  String get inhalantsReferenceDay730 =>
+      'Dos años sin inhalantes\n\nFuente: \"Un estudio prospectivo de cambios neurocognitivos 15 años después del abuso crónico de inhalantes\", en PubMed\n\nLa marca de los dos años\nEste es el hito clave de la investigación: los déficits que reflejan el daño cerebral causado por el uso prolongado de disolventes mostraron una recuperación sustancial después de dos años de abstinencia. Los autores concluyeron que, en ausencia de daño cerebral causado por la gasolina con plomo, la abstinencia a largo plazo puede permitir la recuperación de la función cerebral normal.\n\nSeñal de recuperación\nLa principal excepción son los daños causados por el abuso de gasolina con plomo, que puede provocar déficits persistentes. De lo contrario, dos años de abstinencia representan la mejor oportunidad documentada que tiene el cerebro para sanar, junto con una vida reconstruida a su alrededor.';
+
+  @override
+  String get ketamineReferenceDay1 =>
+      'Detener la ketamina: día uno\n\nFuente: \"Cistitis inducida por ketamina: una revisión completa de los efectos urológicos de esta droga psicoactiva\", en PubMed Central\n\nLa abstinencia es principalmente psicológica\nA diferencia de los opioides o el alcohol, la ketamina rara vez produce una abstinencia física grave. La interrupción del tratamiento es generalmente segura; las personas luchan más a menudo contra los antojos y la dependencia psicológica que contra las enfermedades físicas.\n\nLo que puedes sentir\n• Cambios de humor y mal humor\n• Antojos\n• Sudoración o palpitaciones ocasionales\n\nEl paso clave\nPara cualquier persona con síntomas de vejiga, el cese inmediato y completo es el punto de partida obligatorio para la recuperación, por lo que el primer día es la decisión más importante de todas.';
+
+  @override
+  String get ketamineReferenceDay7 =>
+      'Una semana sin ketamina\n\nFuente: \"Cistitis inducida por ketamina: una revisión completa\", en PubMed Central\n\nLa fase psicológica\nEl principal desafío en el abandono temprano de la ketamina es psicológico: antojos, estado de ánimo alterado o bajo y algo de confusión mental. La abstinencia física, cuando está presente, suele ser leve.\n\nLa confusión mental es común en esta etapa: la concentración se siente como un esfuerzo, el tiempo de reacción es más lento y la memoria a corto plazo puede parecer poco confiable. Estos efectos sobre el pensamiento y la memoria mejoran con la abstinencia: un estudio longitudinal de 114 consumidores de ketamina encontró mejoras significativas en la memoria verbal, la memoria visual, la velocidad de procesamiento y la planificación, la concentración y la toma de decisiones después de 12 semanas sin ketamina.\n\nSíntomas de la vejiga\nSi tiene cistitis inducida por ketamina (urgencia urinaria, polaquiuria, dolor o sangre en la orina), dejar de tomarla ahora le da a la vejiga la mejor oportunidad de sanar. El dolor puede tentar a las personas a volver a consumir ketamina para automedicarse, un ciclo que vale la pena romper con el apoyo adecuado para el dolor.';
+
+  @override
+  String get ketamineReferenceDay14 =>
+      'Dos semanas sin ketamina\n\nFuente: \"Cistitis inducida por ketamina: una revisión completa\", en PubMed Central\n\nPensamiento más claro\nUna vez que la droga se elimina por completo, la niebla mental y los pensamientos desconectados asociados con el uso regular de ketamina comienzan a disiparse. La memoria y la concentración mejoran y el estado de ánimo se estabiliza.\n\nComienzo de la recuperación de la vejiga\nPara la cistitis en etapa temprana, la revisión enfatiza que simplemente suspender la ketamina es el paso más importante para revertir los síntomas, y que una interrupción temprana brinda las mejores probabilidades de recuperación antes de que el daño se vuelva permanente. Dos semanas de abstinencia es el comienzo de ese proceso.';
+
+  @override
+  String get ketamineReferenceDay30 =>
+      'Un mes sin ketamina\n\nFuente: \"Prevalencia e historia natural de los síntomas urinarios entre usuarios recreativos de ketamina\", Winstock et al., BJU International (2012)\n\nRecuperación de la vejiga\nEl tratamiento más importante para la cistitis inducida por ketamina es suspender la ketamina. Este estudio de usuarios recreativos de ketamina encontró que el 51% de aquellos con síntomas urinarios informaron una mejoría después de dejar de usarla, mientras que menos del 4% empeoró. Cuanto antes te detengas, mejor será el resultado.\n\nMente y estado de ánimo\nLa cognición y el estado de ánimo continúan mejorando al mes. El apoyo psicológico y social mejora significativamente las probabilidades de dejar de fumar; dejar de fumar funciona mejor cuando cuenta con apoyo.';
+
+  @override
+  String get ketamineReferenceDay90 =>
+      'Tres meses sin ketamina\n\nFuente: \"Cistitis inducida por ketamina: una revisión completa\", en PubMed Central\n\nRecuperación continua\nLa recuperación de la vejiga después de la ketamina suele ser gradual; La revisión describe que la gravedad de los síntomas mejora después de dejar de fumar, aunque puede ser prolongada y variable. Tres meses le dan al tracto urinario un tiempo sostenido para sanar en los casos que van a responder.\n\nMente\nEl pensamiento y el estado de ánimo claros son notablemente más claros que en la abstinencia temprana, y los antojos son menos frecuentes. Un urólogo debe evaluar los síntomas persistentes o graves de la vejiga.';
+
+  @override
+  String get ketamineReferenceDay180 =>
+      'Seis meses sin ketamina\n\nFuente: \"Cistitis inducida por ketamina: una revisión completa\", en PubMed Central\n\nMedio año después\nCon una abstinencia sostenida, los síntomas de la vejiga continúan mejorando en los casos que responden a la cesación, y el pensamiento, la memoria y el estado de ánimo son estables. La compulsión por consumir se ha debilitado considerablemente.\n\nSeñal de recuperación\nLa recuperación del daño establecido en la vejiga puede ser incompleta, por lo que es tan importante dejar de fumar temprano. Cualquiera que sea la etapa en la que te detuviste, no hacerlo le dará a la vejiga el mejor resultado posible.';
+
+  @override
+  String get ketamineReferenceDay365 =>
+      'Un año sin ketamina\n\nFuente: \"Cistitis inducida por ketamina: una revisión completa\", en PubMed Central\n\nUn año después\nDoce meses de abstinencia dan a la vejiga, en los casos detectados tempranamente, la mayor oportunidad de recuperarse, y dejan el pensamiento, la memoria y el estado de ánimo estables y claros. La dependencia psicológica que hacía difícil detenerse se ha desvanecido en gran medida.\n\nEl panorama más amplio\nUn año libre es un cambio profundo: en la salud física, la claridad y la autodirección. Mantener el apoyo que te trajo aquí lo protege.';
+
+  @override
+  String get kratomReferenceDay1 =>
+      'Retiro de Kratom: el primer día\n\nFuente: Swogger et al. (2022), \"Comprensión del uso de Kratom: una guía para proveedores de atención médica\", Fronteras en farmacología\n\nPor qué ocurre la abstinencia\nLos compuestos activos del Kratom actúan sobre los mismos receptores opioides que los opioides clásicos. Con el uso regular, el cuerpo se adapta, por lo que dejar de consumirlo produce una abstinencia similar a la de los opioides. Esta guía clínica describe la dependencia y la abstinencia como riesgos reconocidos del uso regular de kratom.\n\nLo que muestra la evidencia sobre el inicio\nLos estudios en animales citados en la guía muestran signos de abstinencia somática que aparecen en aproximadamente 12 horas, con efectos similares a los de la ansiedad evidentes a las 24 horas; El momento preciso de aparición en humanos está menos establecido, pero los primeros síntomas comúnmente reportados incluyen:\n• Inquietud, ansiedad e irritabilidad.\n• Dolores musculares y secreción nasal\n• Sudoración y ojos llorosos\n• Antojos\n\nUna nota sobre la gravedad\nLa guía señala que un uso más prolongado y dosis más altas están relacionados con una abstinencia más grave y duradera. Vale la pena buscar asistencia médica supervisada, especialmente si el kratom se usó en dosis altas o junto con opioides.';
+
+  @override
+  String get kratomReferenceDay3 =>
+      'Retiro de Kratom: los días más difíciles\n\nFuente: Singh et al. (2014), Dependencia de drogas y alcohol: encuesta realizada a 293 consumidores habituales de kratom en Malasia\n\nLo que muestra la evidencia\nEn lugar de un único \"día pico\" definido, esta encuesta encontró que la gravedad de la abstinencia rastrea cuánto y durante cuánto tiempo alguien consumió: las personas que bebían tres o más vasos de kratom al día tenían probabilidades significativamente mayores de dependencia severa y abstinencia más difícil. Para la mayoría de las personas, los primeros días después de dejar de fumar son los más difíciles.\n\nSíntomas reportados comúnmente\n• Dolores musculares y articulares, piernas inquietas\n• Insomnio a pesar del agotamiento\n• Náuseas, calambres estomacales y diarrea.\n• Ansiedad, mal humor e irritabilidad.\n• Fuertes antojos\n\nSuperándolo\nLa hidratación, el descanso y el apoyo sintomático ayudan. Si la abstinencia se ha sentido severa hasta ahora, eso se debe a un uso más intenso o prolongado en lugar de que algo esté inusualmente mal, y tiende a aliviarse a partir de aquí.';
+
+  @override
+  String get kratomReferenceDay7 =>
+      'Una semana sin kratom\n\nFuente: Swogger et al. (2022), \"Comprensión del uso de Kratom: una guía para proveedores de atención médica\", Fronteras en farmacología\n\nPasada la fase aguda\nLos datos de autoinforme humano citados en esta guía indican que los síntomas de abstinencia se resuelven en aproximadamente uno a tres días para la mayoría de las personas que dejan de hacerlo. Al cabo de una semana, los síntomas físicos agudos (dolores musculares, sudoración, náuseas) generalmente han desaparecido para la mayoría. Lo que puede quedar es más psicológico: fatiga, trastornos del sueño y mal humor a medida que los receptores opioides que el kratom estimulaba se ajustaban a las propias señales del cuerpo.\n\nUn riesgo real\nLa guía también señala que a un pequeño número de personas les resulta muy difícil dejar el kratom, y se informa que la abstinencia es más grave y duradera entre los consumidores más habituales y prolongados. Esta semana es un punto común de recaída y la tolerancia cae rápidamente; volver a una dosis anterior, especialmente si hay opioides involucrados, ahora es realmente peligroso.';
+
+  @override
+  String get kratomReferenceDay14 =>
+      'Dos semanas sin kratom\n\nFuente: Instituto Nacional sobre el Abuso de Drogas (NIDA), \"Kratom\"\n\nMás allá de la ventana estudiada\nLos datos humanos controlados sobre el tiempo de abstinencia del kratom generalmente cubren solo los primeros días, por lo que no hay investigaciones bien establecidas que determinen un hito específico de \"dos semanas\". Lo que está documentado es un patrón más amplio: el kratom actúa sobre los mismos receptores opioides que los opioides clásicos y, a medida que el uso regular los detiene, esos receptores restauran gradualmente su sensibilidad a las señales del propio cuerpo.\n\nLo que la gente suele informar\n• El apetito y la energía a menudo mejoran\n• El sueño tiende a volverse más confiable\n• El estado de ánimo suele ser más estable, aunque todavía variable\n\nLos antojos todavía son provocados por el estrés y señales familiares, por lo que sigue siendo útil tener un plan para ellos.';
+
+  @override
+  String get kratomReferenceDay30 =>
+      'Un mes de descuento en Kratom\n\nFuente: Instituto Nacional sobre el Abuso de Drogas (NIDA), \"Kratom\"\n\nUn sistema de recompensas en recuperación\nEl NIDA describe que el kratom actúa sobre los receptores opioides del cerebro, y que la dependencia y la abstinencia son riesgos reconocidos de su uso regular. No existe ningún estudio específico que fije un hito de recuperación de \"un mes\", pero el patrón general de la dependencia basada en los receptores de opioides es que la respuesta del cerebro a los placeres cotidianos se normaliza gradualmente con la abstinencia sostenida.\n\nLo que puede generar un mes libre\nUn mes sin kratom es un mes de sueño, comidas y rutina constantes que reemplazan el tiempo y el esfuerzo necesarios. Los antojos tienden a aparecer con menos frecuencia y se sienten más manejables, aunque los momentos de mucho estrés siguen siendo los más vulnerables.';
+
+  @override
+  String get kratomReferenceDay90 =>
+      'Tres meses Off Kratom\n\nSource: National Institute sobre Drug Abuse (NIDA), \"Kratom\"\n\nUn estado diario más estable\nKratom acts sobre opioid receptors, por lo que three meses sin it da the cerebro\'s reward y stress systems sustained tiempo a settle. Many personas informa claroer pensamiento y steadier motivación the further ellos get de activo use.\n\nPor qué importa\nThe menos recent the use, the más the día-to-día pull de kratom tends a fade — making this milestone a solid foundation para duradero recuperación.';
+
+  @override
+  String get kratomReferenceDay365 =>
+      'Un año Off Kratom\n\nSource: National Institute sobre Drug Abuse (NIDA), \"Kratom\"\n\nWell Past Agudo Abstinencia\nNIDA doesn\'t publish a specific one-año kratom recuperación timeline, pero a año de sustained abstinence es well beyond the agudo y temprano psychological abstinencia window documented en the kratom research. For la mayoría personas who reach this point, deseos de consumir son infrequent y far easier a manage.\n\nLa perspectiva general\nA año de abstinence represents a considerable change en health, finances, y self-direction. Staying connected a apoyo helps mantener que progress secure.';
+
+  @override
+  String get maoiReferenceDay3 =>
+      'MAOI Discontinuation: The Highest-Riesgo Phase\n\nSource: Dilsaver (1988), research sobre MAOI abstinencia reactions\n\nCritical Safety Warning\nMAOIs carry the la mayoría grave discontinuation riesgos de any antidepressant class. Abrupt cessation — particularly de phenelzine y tranylcypromine — puede produce grave reactions incluido:\n• Severe ansiedad y agitation\n• Pressured speech y restmenosness\n• Sueñomenosness o drowsiness\n• Hallucinations\n• Delirium y paranoid psychosis\n\nIf tú son experiencing these síntomas, seek immediate médico attention.\n\nHow MAOIs Work\nMAOIs work para irreversibly binding a y disabling monoamine oxidase enzymes (MAO-A y MAO-B). These enzymes normally break down serotonin, norepinephrine, dopamine, y tyramine en the cerebro y gut. Because the enzyme itself es destroyed en lugar de simplemente blocked, recuperación depends sobre the body producing fresh enzyme en lugar de sobre how rápidamente the fármaco claros the bloodstream.';
+
+  @override
+  String get maoiReferenceDay7 =>
+      'Una semana Después de MAOIs: MAO Enzyme Synthesis Underway\n\nSource: \"Monoamine Oxidase Inhibitors (MAOIs)\" (StatPearls, NCBI Bookshelf)\n\nThe Enzyme Recuperación Process\nUnlike SSRIs, SNRIs, y TCAs — which inhibit cerebro chemical reuptake reversibly — irreversible MAOIs (phenelzine, tranylcypromine) permanently destroy monoamine oxidase enzyme molecules. Clinical washout es therefore governed para how rápidamente the body puede synthesise entirely new enzyme — sobre 2 semanas — en lugar de para how fast the fármaco itself claros the bloodstream.\n\nWhat\'s Happening a Una semana\n• MAO-A y MAO-B enzyme synthesis es well underway, roughly midway mediante el ~2-semana resynthesis window\n• The agudo riesgo phase descrito sobre día 3 es passing, though close médico supervision permanece importante\n\nDietary Cautions\nMAOI tratamiento requires a low-tyramine diet, since these enzymes normally break down tyramine y prevent it de triggering a hypertensive crisis. Guidance es a mantener observing dietary restrictions mediante this resynthesis window — tu médico prescriptor será advise when it\'s seguro a relax them.';
+
+  @override
+  String get maoiReferenceDay14 =>
+      'Dos semanas Después de MAOIs: MAO Enzyme Activity Substantially Recovered\n\nSource: Fritz et al. (1983), Biological Psychiatry\n\nThe Critical Two-Week Mark\nTwo semanas es the standard clinical washout timeframe para MAO enzyme recuperación después de discontinuation de an irreversible MAOI like tranylcypromine o phenelzine. Studying tranylcypromine, this research encontró que platelet MAO-B catalytic actividad — sharply reducido conin a día de dosing — rebounds a normal conin sobre two semanas, como the body replaces drug-affected platelets con fresh ones carrying activo enzyme, incluso though total MAO-B protein levels never changed.\n\nMAO Enzyme Recuperación\n• Platelet MAO-B actividad ha considerablemente recovered para this point\n• Cerebro MAO-A y MAO-B, which follow a broadly similar resynthesis timeline, son también largely restored\n• Normal tyramine metabolism es re-establishing — the MAOI dietary restrictions puede normalmente ser relaxed en consultation con tu médico prescriptor\n\nCerebro-Chemical Balance Returns\nWith MAO enzyme actividad recovering, the cerebro chemical systems que MAOIs affect son beginning a come under natural regulation:\n• Serotonin, norepinephrine, y dopamine son no más largo being elevated para MAO inhibition\n• The supersensitivity de monoamine receptors (cautilizado para crónico MAOI-elevated cerebro-chemical levels) es beginning a resolve\n• Natural ánimo y energía regulation es returning';
+
+  @override
+  String get maoiReferenceDay30 =>
+      'Un mes Después de MAOIs: Cerebro-Chemical Systems Rebalancing\n\nSource: \"Monoamine Oxidase Inhibitors (MAOIs)\" (StatPearls, NCBI Bookshelf)\n\nThe One-Month Assessment\nOne mes después de MAOI discontinuation es well past the roughly 2-semana MAO enzyme resynthesis window descrito en this source, por lo que para this point MAO enzyme actividad ha fully recovered y cerebro chemical systems son under entirely natural regulation.\n\nWhat Has Recovered para Un mes\n• Complete MAO enzyme activity: ambos MAO-A y MAO-B son fully operational\n• Dietary restrictions resuelto: normal diet sin tyramine restrictions\n• Natural serotonin degradation: the cerebro\'s normal serotonin turnover cycle restored\n• Natural catecholamine regulation: dopamine y norepinephrine levels regulated para natural MAO activity\n\nDrug Interaction Cautions\nMAOIs son associated con life-threatening interactions con serotonin drugs. These interaction riesgos han resuelto a the one-mes mark. However, always inform tu médico prescriptor y pharmacist de previous MAOI use when any new medicación es prescribed.';
+
+  @override
+  String get maoiReferenceDay90 =>
+      'Tres meses Después de MAOIs: Well Past Abstinencia\n\nSource: \"Antidepressant Abstinencia Syndrome,\" Therapeutics Letter 112 (2018), Therapeutics Initiative, sobre the NCBI Bookshelf\n\nAbstinencia Across the Antidepressant Classes\nThis evidence review treats antidepressant abstinencia como a real phenomenon de tolerance y dependence — placing antidepressants \'junto con opiates y benzodiazepines.\' Its detailed evidence centres sobre SSRIs y SNRIs, pero abstinencia reactions son recognised across antidepressant classes, incluido después de dejarlo an MAOI. Síntomas \'habitualmente aparecen conin a pocas días de dejar\' y \'la mayoría… resolve conin 2 semanas,\' though algunas last longer.\n\nWhere Tres meses Sits\nBy three meses, the agudo abstinencia phase es well behind the great majority de personas, y the body ha largo readjusted a regulating monoamines sin MAO inhibition.\n\nRecuperación Signal sobre \'Receptor Resensitisation\'\nConfident claims que serotonin, norepinephrine, y dopamine receptors han todos \'resensitised para three meses\' go beyond what the evidence pins down. What es dependable: the abstinencia phase ha normalmente resuelto para now, y para la mayoría personas ánimo, energy, y emocional range son stabilising sobre natural, self-regulated cerebro signalling.\n\nAbstinencia Versus Relapse\nThe Letter stresses telling abstinencia apart de a real vuelven de the underlying condition. If síntomas persist a three meses, review them con tu médico prescriptor en lugar de assuming ellos son only abstinencia.';
+
+  @override
+  String get maoiReferenceDay180 =>
+      'Seis meses Después de MAOIs: A largo plazo Recuperación\n\nSource: Zwiebel & Viguera (2022), Cleveland Clinic Journal de Medicine\n\nThe Six-Month Assessment\nThis review explica que antidepressants work partly para caconsumir monoamine receptors a downregulate con el tiempo, y que this downregulation requires semanas a meses a reverse once the medicación dejars — a smenor process que the roughly two-semana MAO enzyme resynthesis itself.\n\nWhere Seis meses Sits\nSix meses sits comfortably past que semanas-to-meses receptor readjustment window para the great majority de personas, junto con enzyme actividad que fully normalised conin the primer mes. Recuperación Signal: precise timelines para completo serotonin, norepinephrine, y dopamine receptor resensitisation son no established con día-by-día certainty en the literature — what es dependable es que para six meses, la mayoría personas son functioning sobre natural, self-regulated cerebro signalling.\n\nA Note sobre Phenethylamine\nMAOIs también inhibit the degradation de phenethylamine (PEA), a trace amine linked a ánimo y energy. Its metabolism es esperado a normalise junto con general MAO enzyme recuperación, though — como con receptor resensitisation — a precise PEA-specific timeline isn\'t established en the research literature.';
+
+  @override
+  String get maoiReferenceDay365 =>
+      'Un año Después de MAOIs: Recuperación Achieved\n\nSource: \"Monoamine Oxidase Inhibitors (MAOIs)\" (StatPearls, NCBI Bookshelf)\n\nUn año: A Remarkable Achievement\nCompleting one año después de MAOI discontinuation es a really significativo milestone. MAOIs son among the la mayoría drug-drivenly demanding antidepressants a come off, con an irreversible mechanism, a strict low-tyramine diet, y drug-interaction precautions que son unlike any otro antidepressant class.\n\nWhat This Year Represents\n• A completo año de natural, self-regulated monoamine oxidase activity, built sobre enzyme resynthesis que completado conin the primer mes\n• Demonstrated capacity a maintain wellbeing sin drug-driven MAO inhibition\n• A track record largo enough a ser confident the agudo discontinuation riesgos de día 3 son firmly behind you\n\nA Note sobre MAOIs\nMAOIs permanecen uniquely effective para certain treatment-resistant conditions y atypical depression. Successful discontinuation hace no diminish su value como medicamentos — it demonstrates the cerebro\'s capacity para recuperación y the patient\'s ability a navigate an exceptionally demanding médico process. One duradero precaution: continuar a tell any new médico prescriptor o anaesthetist sobre past MAOI use, since algunas drug-interaction riesgos son worth flagging indefinitely.';
+
+  @override
+  String get marijuanaReferenceDay1 =>
+      'Marijuana Abstinencia: Day One\n\nSource: \"The cannabis abstinencia syndrome: current insights,\" Substance Abuse y Rehabilitation (2017), sobre PubMed Central\n\nCannabis Abstinencia Is Real\nThis peer-reviewed review establishes que Cannabis Abstinencia Syndrome (CWS) es a well-validated clinical condition, occurring en roughly 90% de personas diagnosed con cannabis dependence después de ellos dejar. Its average peak severity es comparable a que de a tobacco abstinencia syndrome.\n\nWhy Abstinencia Happens\nTHC acts sobre the endocannabinoid system — CB1 receptors involved en ánimo, appetite, sueño, memoria, y stress. With crónico use the cerebro downregulates this system; when cannabis dejars, it es temporarily underactive. La revisión notes CB1 receptors vuelven a normal functioning conin sobre four semanas de abstinence.\n\nOnset sobre Day One\nLa revisión documents que físico síntomas tend a aparecen primer — conin 1–3 días de the last use — mientras psychological síntomas emerge durante 2–10 días. Early síntomas include:\n• Irritability, ansiedad, y restmenosness\n• Difficulty sueñoing\n• Decreased appetite\n• Físico tension, sweating, o chills\n• Depressed ánimo\n\nSeverity\nCWS es no medically peligroso y síntomas son normalmente leve a moderate, pero the review notes ellos puede ser distressing enough a drive relapse — which es why understanding the timeline matters.';
+
+  @override
+  String get marijuanaReferenceDay3 =>
+      'Cannabis Abstinencia Timeline: The Early Days\n\nSource: \"Time-course de the DSM-5 cannabis abstinencia síntomas en poly-substance abusuarios,\" BMC Psychiatry (2013), sobre PubMed Central\n\nA Measured Time-Course\nThis study tracked DSM-5 cannabis abstinencia síntomas en 90 pacientes durante four semanas, producing one de the claroest pictures de how síntomas rise y fall. Overall severity followed a curve: rising, entonces declining durante the following semanas.\n\nWhat Peaks Early\nSeveral de the la mayoría físicoly disruptive síntomas peak conin the primer pocas días de dejar:\n• Insomnio — peaks aproximadamente día 1\n• Nervousness — peaks aproximadamente día 4\n• Depressed ánimo y físico síntomas — peak aproximadamente día 5\n• Restmenosness — peaks aproximadamente día 6\n\nWhat Peaks Later\nEl estudio encontró que algunas síntomas emerge y peak posterior que the primer semana:\n• Vivid, unpleasant sueños — peak aproximadamente día 11\n• Irritability y anger — peak aproximadamente día 14\n\nSueño y Cannabis\nThe delayed, vivid sueños reflect REM rebound: cannabis suppresses REM sueño durante use, y the cerebro overcompensates once it dejars. Los autores argue this síntoma es frecuente enough a belong among formal abstinencia criteria.\n\nThe Takeaway para Day Three\nBy día three tú son en the thick de the temprano físico peak — insomnio, nervousness, y restmenosness son near su worst. The consistent, predictable curve es itself reassuring: these síntomas han a known course y ellos decline de here.';
+
+  @override
+  String get marijuanaReferenceDay7 =>
+      'Una semana Without Cannabis: Through the Worst\n\nSource: \"The cannabis abstinencia syndrome: current insights,\" Substance Abuse y Rehabilitation (2017), sobre PubMed Central\n\nWhere Una semana Sits en the Syndrome\nThis review documents que the cannabis abstinencia syndrome habitualmente lasts up a sobre three semanas, con the la mayoría distressing period falling entre the primer y third semana. At one semana, the earliest físico síntomas — insomnio, appetite loss, restmenosness — han normalmente passed su peak y son easing.\n\nWhat Is Still Settling\nLa revisión distinguishes early-peaking físico síntomas de later-peaking psychological ones. At one semana:\n• Físico discomfort y appetite son largely mejora\n• Sueño es todavía disrupted para muchas, con vivid sueños (REM rebound) a menudo peaking aproximadamente now\n• Irritability y ánimo puede permanecen elevated, como these tend a peak posterior en the primer two semanas\n\nThe Neurobiology de Recuperación\nUnderlying these changes, the review notes que downregulated CB1 receptors vuelven toward normal functioning conin sobre four semanas de abstinence. One semana in, que re-regulation es well underway — the system es recovering incluso mientras algunas síntomas linger.\n\nThe Takeaway\nReaching one semana means the agudo físico peak es behind you. The remaining sueño y ánimo síntomas son part de a syndrome con a known, finite course que continúa a resolve durante the next couple de semanas.';
+
+  @override
+  String get marijuanaReferenceDay14 =>
+      'Dos semanas Without Cannabis: Agudo Abstinencia Ends\n\nSource: Budney, AJ et al. (2003) — peer-reviewed study sobre cannabis abstinencia tiempo course\n\nResearch Findings\nThis peer-reviewed study systematically documented the tiempo course de cannabis abstinencia síntomas en regular usuarios. The findings showed que the agudo abstinencia syndrome peaks conin the primer semana y largely resolves conin 2 semanas de dejar para la mayoría síntomas.\n\nWhat Resolves para 2 Weeks\nEl estudio documented que para 14 días, the following síntomas había largely resuelto en study participants:\n• Físico discomfort y bodily síntomas\n• Appetite disturbance\n• Most sueño disruption\n• Peak irritability y ansiedad\n\nWhat May Persist Beyond 2 Weeks\nThe research también identified síntomas que persisted beyond the two-semana mark en algunas usuarios:\n• Depressed ánimo\n• Concentration difficulties\n• Sueño calidad (though mejora)\n\nThe Significance de the 2-Week Mark\nPassing the two-semana mark es significativo porque it means the agudo abstinencia syndrome es largely complete. The challenges beyond this point son primarily related a longer-term cerebro recuperación y managing the underlying reasons para cannabis use, en lugar de the agudo physiological response a dejar.';
+
+  @override
+  String get marijuanaReferenceDay30 =>
+      'Un mes Without Cannabis: Memoria Function Improves\n\nSource: Pope et al. (2001), Archives de General Psychiatry\n\nCannabis y Memoria: The Problem\nThis study followed heavy, a largo plazo cannabis usuarios mediante 28 días de confirmed abstinence y compared su pensamiento y memoria test results con light usuarios y non-usuarios. At the start de abstinence, y again a días 1 y 7, heavy usuarios performed worse que controls sobre recall de word lists — a deficit que tracked con su urinary THC metabolite levels, reflecting recent fármaco exposure en lugar de lifetime use.\n\nLa buena noticia: Recuperación para Day 28\nBy día 28, heavy usuarios, light usuarios, y non-usuarios performed virtually the same across the study\'s pensamiento y memoria tests. There fue también no significativo relationship entre total lifetime cannabis use y test performance a que point.\n\nQué significa a 30 Days\n• Verbal aprendizaje y recall han returned a control-group levels\n• The residual deficits seen en the primer semana han resuelto\n• The remaining deficit earlier sobre fue tied a recent exposure, no permanent damage\n\nLo que muestra la evidencia\nBy día 28, heavy usuarios fueron virtually indistinguishable de light usuarios y non-usuarios across the study\'s completo set de pensamiento y memoria tests. Verbal-learning y recall deficits seen en the primer semana había recovered a control-group levels.';
+
+  @override
+  String get marijuanaReferenceDay60 =>
+      'Two Months Without Cannabis: Concentration Sharpens\n\nSource: Roten et al. (2015), Addictive Behaviors\n\nThe Research Question\nThis youth cannabis-cessation study tracked memoria y pensamiento test scores junto con urine tests durante sobre two meses, comparing continuada usuarios con personas who dejado recently o stayed abstinent.\n\nKey Findings\nConsistent abstinence fue associated con significativo improvement in:\n• Composite memoria score\n• Verbal memoria specifically — the la mayoría afectado domain\n• Movement y reaction-speed performance\n\nAt Two Months\nBy roughly eight semanas de consistent abstinence, memoria y movement y reaction-speed performance scores había climbed measurably above where ellos sat durante activo use, tracking closely con confirmed non-use en lugar de tiempo alone.\n\nWhat the Study Shows\nIn adolescents y young adults con cannabis dependence, consistent abstinence produced significativo gains en composite memoria, verbal memoria, y movement y reaction-speed performance across the roughly two-mes tratamiento window.';
+
+  @override
+  String get marijuanaReferenceDay90 =>
+      'Tres meses Without Cannabis: Ánimo Stability Returns\n\nSource: Connor et al. (2022), Addiction — a clinical review de cannabis abstinencia\n\nWhat the Abstinencia Timeline Actually Looked Like\nThis review describe cannabis abstinencia síntomas normalmente starting 24–48 hours después de cessation y peaking aproximadamente días 2–6. Anger, aggression, y deprimido ánimo puede aparecen como temprano como one semana pero normalmente peak después de sobre two semanas de abstinence; sueño disturbance en particular puede persist más largo que otro síntomas.\n\nWhere Tres meses Sits\nBy three meses, tú son far beyond the documented abstinencia course: síntomas normalmente start conin 24–48 hours, peak aproximadamente días 2–6, y incluso smenor ánimo y sueño síntomas peak conin the following semanas. Ninety días da those abstinencia-driven ánimo y sueño efectos meses a settle.\n\nA Note sobre the Endocannabinoid System\nCannabis-abstinencia research también muestra downregulated CB1 receptors returning toward normal functioning conin sobre four semanas de abstinence. At 90 días, tú son well beyond que receptor-recuperación window.\n\nLooking Ahead\nLa revisión también discusses post-detoxification prognosis y relapse prevention, underlining que ongoing apoyo y coping strategies matter well beyond the agudo abstinencia window.';
+
+  @override
+  String get marijuanaReferenceDay180 =>
+      'Seis meses Without Cannabis: Planning y Decision-Making Recover\n\nSource: Crean, Crane & Mason (2011), Journal de Addiction Medicine\n\nPlanning y Decision-Making Después de Cannabis\nThis review examined attention, decision-making, self-control, working memoria, y verbal fluency de the primer hours después de use mediante a largo plazo abstinence. By six meses, tú son far beyond the short-term efectos y deep en the recuperación period.\n\nLo que encontró la investigación\nSeveral problems linked a heavy use recede con sustained abstinence, con algunas studies finding recuperación para 28 días. The slowest areas a recover después de heavy, early-onset use include:\n• Decision-making y riesgo-taking — specifically flagged como domains where deficits puede persist a largo plazo en heavy, crónico usuarios\n• Abstract reasoning y verbal skills — particularly impaired en adults who began consumir antes de age 17\n\nEarly-Onset Recuperación\nSix meses es far beyond the short-term efectos en this review. Planning, decision-making, y reasoning mantener mejora con sustained abstinence, making continuada abstinence the strongest route a further recuperación.\n\nThe Broader Picture\nFor adult-onset, lighter use, the outlook es más favourable — muchas personas a six meses informa claroer pensamiento, steadier decision-making, y a stronger sense de self-direction. The biggest gains come de staying abstinent, especialmente después de heavy o early-onset use.';
+
+  @override
+  String get marijuanaReferenceDay365 =>
+      'Un año Without Cannabis: Cerebro Structure Recovers\n\nSource: \"Hippocampal harms, protection y recuperación following regular cannabis use,\" Translational Psychiatry (2016), sobre PubMed Central\n\nStructural Changes de Cannabis\nThis cerebro-scan study examined the hippocampus, a cerebro area central a memoria, en current usuarios, former usuarios, y non-usuarios. Current usuarios no exposed a CBD había a hippocampus sobre 11% smaller y a cerebro-cell salud marker sobre 15% menor que controls.\n\nThe Key Finding: Recuperación With Abstinence\nCurve-fitting analyses supported a \"protection y recuperación\" model. Crucially, former usuarios — abstinent para an average de aproximadamente 29 meses — hizo no differ de non-consumir controls sobre any integrity measure. Los autores conclude que THC-related memoria-area harms \"can ser recovered con extended periods de abstinence.\"\n\nCerebro Recuperación Over a Year y Beyond\nAt one año cannabis-free, the cerebro\'s memoria system es well en recuperación: hippocampus size y cerebro-cell salud son moving back toward normal, supporting memoria y emocional control.\n\nRecuperación Signal\nFormer usuarios abstinent para sobre 29 meses matched non-usuarios sobre the study\'s hippocampus salud measures. At one año, the memoria system es already moving along que documented recuperación path toward normal.';
+
+  @override
+  String get mdmaReferenceDay1 =>
+      'Después de MDMA: The Comedown\n\nSource: Meyer (2013), \"3,4-Methylenedioxymethamphetamine (MDMA): Current Perspectives,\" Substance Abuse y Rehabilitation\n\nWhy You Feel Low\nMDMA works para driving a large release de serotonin (con algunas dopamine). Después dewards the cerebro es temporarily depleted de serotonin. This review describe a menoring de ánimo — the so-called \"midsemana blues\" — que researchers han measured en ambos novice y experienced usuarios 2 a 5 días después de use.\n\nWhat Helps\n• Hydration y nutritious food\n• Sueño\n• Patience — the dip es the depletion, no a permanent state\n\nThe comedown después de a single use differs de dependence-related abstinencia, which the same review describe como involving deseos de consumir pero no significativo físico síntomas.';
+
+  @override
+  String get mdmaReferenceDay3 =>
+      'A Few Days Después de MDMA\n\nSource: Meyer (2013), \"3,4-Methylenedioxymethamphetamine (MDMA): Current Perspectives,\" Substance Abuse y Rehabilitation\n\nThe Midsemana Blues\nThis es roughly the window this review es describing when it discusses el \"midsemana blues\" — a dip en ánimo measured 2 a 5 días después de use en ambos novice y experienced usuarios, tied a short-term serotonin depletion en lugar de a largo plazo change.\n\nWhat Improves\n• Ánimo normalmente lifts de its lowest point aproximadamente now\n• Energy returns\n• Sueño starts a normalise';
+
+  @override
+  String get mdmaReferenceDay7 =>
+      'Una semana Después de MDMA\n\nSource: Meyer (2013), \"3,4-Methylenedioxymethamphetamine (MDMA): Current Perspectives,\" Substance Abuse y Rehabilitation\n\nPast the Midsemana Blues\nFor la mayoría personas, a semana es past the 2-to-5-día window this review associates con the agudo comedown, por lo que ánimo debería ser back a normal. La revisión notes que para personas who use heavily o repeatedly, deseos de consumir puede persist como part de a dependence pattern, though it hace no describe this como involving significativo físico abstinencia síntomas.\n\nWhen a Seek Help\nIf bajo ánimo, ansiedad, o sueño problems persist a semana on, que puede ser más que a comedown — it es worth talking a a professional.';
+
+  @override
+  String get mdmaReferenceDay14 =>
+      'Dos semanas Off MDMA\n\nSource: Meyer (2013), \"3,4-Methylenedioxymethamphetamine (MDMA): Current Perspectives,\" Substance Abuse y Rehabilitation\n\nRecuperación Timeline\nFor a single-use comedown, two semanas es well past the 2-to-5-día dip this review documents, por lo que ánimo, sueño, y concentración debería ser steady. Después de heavier o repeated use, recuperación continúa beyond the comedown, y abstinent imaging studies muestran serotonin-recycling capacity rising con sustained abstinence.\n\nQué significa para You\nIf tu use fue occasional, you\'re probable mediante the worst de it. If it fue frequent o heavy, ser paciente con yourself — completo recuperación de serotonin signalling es a más largo process que two semanas, covered en the next milestones.';
+
+  @override
+  String get mdmaReferenceDay30 =>
+      'Un mes Off MDMA\n\nSource: \"Serotonin transporter availability, neurocognitive function y su correlation en abstinent MDMA usuarios,\" sobre PubMed\n\nWhere Un mes Sits\nThe agudo comedown y abstinencia son ya quedó atrás, y ánimo y pensamiento y memoria son steadier. Imaging research muestra MDMA reduces the cerebro\'s capacity a process serotonin, y que this capacity recovers con sustained abstinence.\n\nRecuperación Signal\nThe same research muestra serotonin-recycling capacity recovering con sustained abstinence. Ánimo y serotonin function mejorar primer, mientras memoria continúa sobre its own recuperación timeline — continuada abstinence supports both.';
+
+  @override
+  String get mdmaReferenceDay90 =>
+      'Tres meses Off MDMA\n\nSource: \"Serotonin transporter availability, neurocognitive function y su correlation en abstinent MDMA usuarios,\" sobre PubMed\n\nContinued Recuperación\nWith sustained abstinence the cerebro\'s serotonin system continúa a recover, especialmente en deeper cerebro regions. Ánimo y sueño son normalmente stable para this point.\n\nRecuperación Signal\nSustained abstinence drives continuada serotonin-transporter recuperación across cerebro regions, mientras ánimo y sueño permanecen stable y recuperación de pensamiento y memoria continúa.';
+
+  @override
+  String get mdmaReferenceDay365 =>
+      'Un año Off MDMA\n\nSource: \"Serotonin transporter availability, neurocognitive function y su correlation en abstinent MDMA usuarios,\" sobre PubMed\n\nA Year On\nWith a año de abstinence, the cerebro\'s serotonin processing ha recovered considerablemente y ánimo es stable.\n\nRecuperación Signal\nA completo año de abstinence da the serotonin system a prolonged recuperación window. Imaging research muestra serotonin-recycling capacity rises con abstinence, making considerable serotonin recuperación the claroest biological signal a this stage.';
+
+  @override
+  String get methReferenceDay1 =>
+      'Methamphetamine Abstinencia: The First 24 Hours\n\nSource: McGregor et al., \"The nature, tiempo course y severity de methamphetamine abstinencia,\" Addiction (2005), sobre PubMed\n\nThe Crash\nMethamphetamine drives a large release de dopamine; when use dejars, the system es left depleted. This study tracked abstinencia síntomas daily across the primer three semanas de abstinence y encontró que overall severity fue a its highest conin 24 hours de the last use — el \'crash,\' an abrupt swing de extreme stimulation a físico y psychological exhaustion.\n\nDay One Síntomas\nEl estudio documented the abstinencia features que son la mayoría intense now:\n• Extreme fatiga y aumentado sueño (hypersomnia)\n• Increased appetite (meth powerfully suppresses appetite)\n• Depressed ánimo y loss de pleasure\n• Strong deseos de consumir\n• Ansiedad y irritability\n\nFísico Safety\nThe methamphetamine abstinencia syndrome itself es no por lo general life-threatening, pero the depression-related síntomas measured en this study puede ser grave temprano sobre y puede incluyen suicidal thoughts. Medical supervision es strongly advisable, especialmente para heavy usuarios.\n\nIt Starts a Lift\nThe encouraging finding de this research: severity es highest a the very start y entonces falls. From this 24-hour peak, síntomas decline steadily durante the following días — the worst point es the beginning.';
+
+  @override
+  String get methReferenceDay3 =>
+      'Meth Abstinencia: Day Three — Still en the Agudo Phase\n\nSource: McGregor et al., \"The nature, tiempo course y severity de methamphetamine abstinencia,\" Addiction (2005), sobre PubMed\n\nComing Down From the Peak\nThis study encontró que overall abstinencia severity peaks conin the primer 24 hours y entonces declines en a roughly linear pattern across the agudo phase (about 7–10 días). By día three tú son past the highest point, pero todavía firmly en the agudo phase — síntomas permanecen prominent incluso como the trend es downward.\n\nDay Three Síntomas\nThe features the study tracked que son todavía significativo now:\n• Depression y loss de pleasure\n• Strong deseos de consumir\n• Difficulty concentrating y pensamiento claramente\n• Disturbed sueño — insomnio alternating con hypersomnia\n• Continued fatigue\n\nWhy It Feels This Way\nMeth abstinencia\'s intensity reflects the scale de dopamine depletion it causes. The depression-related síntomas the study measured son la mayoría evident en these temprano días — pero importantely, the study encontró overall abstinencia severity \'reducing a near control levels para the end de the primer semana de abstinence.\'\n\nThis Will Pass\nThe hardest stretch es the primer pocas días, y the data muestran a steady decline de here. Understanding this state como temporary y cerebro y nerve — no a permanent condition — helps en getting mediante it.';
+
+  @override
+  String get methReferenceDay7 =>
+      'Una semana Without Meth: La fase aguda Ends\n\nSource: McGregor et al., \"The nature, tiempo course y severity de methamphetamine abstinencia,\" Addiction (2005), sobre PubMed\n\nEnd de the Agudo Phase\nThis es one de the la mayoría encouraging findings en the research. El estudio reported que overall abstinencia severity — incluido the depression-related síntomas it tracked — \'reducido a near control levels para the end de the primer semana de abstinence,\' marking the end de the agudo phase. The steepest part de the climb es behind you.\n\nTwo Phases de Abstinencia\nLos autores descrito meth abstinencia como having:\n• An agudo phase duradero sobre 7–10 días, en which síntoma severity falls steadily de its temprano peak\n• A subagudo phase duradero a least a further two semanas, con milder, lingering síntomas\n\nWhat Remains a Day 7\nEntering the subagudo phase, the dominant challenges son now psychological en lugar de the agudo crash:\n• Low ánimo, though much mejorado de the primer días\n• Deseos de consumir, especialmente en response a cues\n• Concentration y memoria todavía recovering\n• Sueño todavía settling\n\nFísico Recuperación Underway\nWith the agudo phase over, appetite ha returned y energía es lentamente building como the body recovers de meth\'s efectos sobre sueño, nutrition, y the cardiovascular system.';
+
+  @override
+  String get methReferenceDay30 =>
+      'Un mes Without Meth: Ánimo Settles, Deseos de consumir Linger\n\nSource: Zorick et al., \"Abstinencia síntomas en abstinent methamphetamine-dependent subjects,\" Addiction (2010), sobre PubMed Central\n\nTracking the First Five Weeks\nThis study followed methamphetamine-dependent participants who stayed abstinent para up a five semanas, comparing them con healthy controls — giving an unhabitualmente claro picture de where the one-mes mark sits.\n\nWhat Has Improved para Un mes\n• Depressive síntomas \'decreased considerablemente durante the primer 2 semanas de abstinence a stable bajo levels,\' y para the end de four semanas fueron approaching, though no yet statistically matching, healthy-control levels (the gap había narrowed a a borderline, non-significativo trend)\n• Psychiatric y psychotic-type síntomas había reached a bajo starting level para the end de the segundo semana\nSo a 30 días, the heavy depresión de temprano abstinencia ha largely lifted — a real, measured improvement.\n\nWhat Still Lingers\nEl estudio fue claro que one síntoma outlasts the others: deseo de consumir \'still continuada a a reducido level throughout 5 semanas de abstinence.\' Deseos de consumir son weaker que en the primer semana pero han no gone, which es why one mes es todavía a high-riesgo period y ongoing apoyo matters.\n\nThe Takeaway\nBy a mes, the cerebro\'s ánimo machinery ha recovered enough que día-to-día sensación es far better que en temprano abstinencia — mientras persistent deseos de consumir son a normal part de this stage, no a sign de failure.';
+
+  @override
+  String get methReferenceDay90 =>
+      'Tres meses Without Meth: Healing Has Begun — Be Patient\n\nSource: Volkow et al., \"Loss de Dopamine Transporters en Methamphetamine Abusuarios Recovers con Protracted Abstinence,\" Journal de Neuroscience (2001)\n\nAbout This Research\nThis landmark cerebro-scan study followed methamphetamine usuarios twice — aproximadamente three meses off meth y again aproximadamente 14 meses — a see how the dopamine system recovers.\n\nWhere Tres meses Sits\nAt three meses, the temprano abstinencia period es largo durante y deeper dopamine recuperación es underway. The same study posterior encontró que proteins que recycle dopamine en the cerebro\'s reward y movement areas rose para roughly 16% a 19% después de 12–17 meses off meth.\n\nWhat That Means For You\nBy 90 días the agudo abstinencia es far behind you, ánimo y sueño han mejorado, y engagement con therapy becomes far más productive. But the deeper dopamine recuperación es a más largo project que unfolds durante the following año. If motivación y pleasure todavía se sienten muted a three meses, que es esperado y no a sign de failure — the trajectory en this study es claramente upward de here.\n\nWhy It\'s Worth the Wait\nThe same study showed que staying abstinent es what drives the recuperación: the más largo the abstinence, the greater the DAT recuperación measured. Three meses es the foundation; the gains mantener coming.';
+
+  @override
+  String get methReferenceDay180 =>
+      'Seis meses Without Meth: The Heart Can Recover\n\nSource: \"Dejar Drug Abuse Can Reverse Related Heart Damage,\" American College de Cardiology (2017), reporting a study en JACC: Heart Failure\n\nMeth y the Heart\nMethamphetamine es one de the la mayoría cardiotoxic recreational drugs. It puede drive grave hypertension y arrhythmias and, con el tiempo, methamphetamine-associated cardiomyopathy — a weakening de the corazón músculo que conduce a corazón failure.\n\nWhat the Study Found\nThe ACC reported sobre pacientes con meth-associated cardiomyopathy (all con significativamente reducido heart-pumping function). The central, hopeful finding: quitting \'can reverse the damage the fármaco causas a the corazón y mejorar corazón function.\' Patients who dejado consumir había markedly better outcomes que those who kept consumir, y the authors stressed que catching it temprano \'could prevent further deterioration de the cardiomyopathy.\'\n\nWhy Seis meses Matters\nEvery mes de abstinence removes the ongoing toxic stress sobre tu corazón y da the músculo a chance a recover. At six meses tú han given tu cardiovascular system a considerable, sustained break de que damage — exactly the condition under which this study saw improvement.\n\nRecuperación Signal\nLa evidencia-backed result es strong: dejar meth puede reverse methamphetamine-associated corazón damage y mejorar corazón function. Six meses sin the repeated stimulant insult da the corazón a considerable recuperación window.';
+
+  @override
+  String get methReferenceDay365 =>
+      'Un año Without Meth: Measurable Cerebro Recuperación\n\nSource: Wang et al., \"Partial Recuperación de Cerebro Metabolism en Methamphetamine Abusuarios Después de Protracted Abstinence,\" American Journal de Psychiatry (2004), sobre PubMed\n\nWhat the Imaging Shows\nThis cerebro-scan study checked methamphetamine usuarios temprano en abstinence y again después de 12–17 meses. It encontró real cerebro recuperación, con algunas areas recovering faster que others.\n\nLa buena noticia: Deep-Cerebro y Pensamiento Recuperación\nThe thalamus, a deep cerebro relay centre, started consumir energía más normally con a largo plazo abstinence. That recuperación tracked con better movement y verbal-memoria performance, por lo que the cerebro-scan improvement showed up en real pensamiento y memoria.\n\nReward Circuits Recover More Slowly\nAt 12–17 meses, the deep cerebro relay centre había recovered strongly y que gain tracked con better movement y verbal memoria. Reward y motivación systems kept strengthening too, making the one-año picture one de importante recuperación en pensamiento y memoria.\n\nQué significa a Un año\nAt a año, espera a cerebro que thinks y remembers far better que en temprano recuperación — claro, measurable healing. But if motivación o the ability a se sienten pleasure todavía lag a times, que es consistent con the science, no a personal failing: this study encontró those reward circuits puede recover más slowly, con algunas deficits todavía present well durante a año out.';
+
+  @override
+  String get methReferenceDay420 =>
+      '14 Months Without Meth: The Dopamine Marker Rebounds\n\nSource: Volkow et al., \"Loss de Dopamine Transporters en Methamphetamine Abusuarios Recovers con Protracted Abstinence,\" Journal de Neuroscience (2001)\n\nThe Headline Finding\nThis landmark cerebro-scan study checked meth usuarios temprano en abstinence y again después de sobre 12–17 meses. Proteins que recycle dopamine rose roughly 16% a 19% en the cerebro\'s reward y movement areas y reached levels que no más largo differed significativamente de healthy controls. Longer abstinence meant greater recuperación.\n\nWhy DAT Matters\nThese proteins recycle dopamine después de it es released. Meth depletes them, leaving the dopamine system poorly regulated. Their rebound para sobre 14 meses es a real, measurable sign de healing.\n\nRecuperación Signal\nDespués de 12–17 meses, dopamine-recycling proteins en reward y movement areas rose sobre 16% a 19% y reached healthy-control levels. The dopamine system ha measurably rebounded toward normal, mientras pensamiento, memoria, y movement continuar mejora.\n\nQué significa a 14 Months\nThe dopamine system\'s hardware es measurably recovering toward normal — real causa para optimism. But completo functional recuperación (memoria, motivation, fine motor control) puede lag behind the imaging, y continúa a mejorar con ongoing abstinence.';
+
+  @override
+  String get methReferenceDay730 =>
+      'Dos años Without Meth: Pensamiento y Ánimo Keep Mejoran\n\nSource: Iudicello et al., \"Longer Term Improvement en Neurocognitive Functioning y Affective Distress Among Methamphetamine Users Who Achieve Stable Abstinence,\" Journal de Clinical y Experimental Neuropsychology (2010), sobre PubMed Central\n\nRecuperación That Continues Past a Year\nThis study followed methamphetamine usuarios para sobre 13 meses y compared stable abstainers con continuada usuarios y healthy controls. Stable abstinence mejorado overall pensamiento y reducido emocional distress, con gains continuing beyond a año.\n\nWhat Improves\n• Overall pensamiento en abstainers caught up a healthy controls, mientras continuada usuarios stayed significativamente impaired\n• The biggest gains fueron en processing speed y motor ability, especialmente para those la mayoría impaired a the start\n• Ánimo mejorado markedly: only the abstainers showed significativo improvement en depresión y overall ánimo\n\nRecuperación Signal\nStable abstainers caught up a healthy controls sobre overall pensamiento y reported menos emocional distress. Verbal learning, working memoria, planning, y concentración puede mantener mejora beyond the primer año, por lo que the recuperación trend continúa en the segundo año.\n\nDos años In\nLa evidencia-based message: sustained abstinence mantiene paying off well past the primer año — sharper pensamiento, better ánimo, y steadily mejora function — incluso if a pocas areas take más largo a come back.';
+
+  @override
+  String get nitrousOxideReferenceDay1 =>
+      'Day One: The Gas Is Gone, pero Watch B12\n\nSource: Knuf & Maani, \"Nitrous Oxide,\" StatPearls (NCBI Bookshelf)\n\nHow Fast It Clears\nNitrous oxide ha a rapid onset de action — 2 a 5 minutes — y claros de the body simplemente como rápidamente once tú dejar inhaling it. By todía, none de the gas itself permanece en tu system.\n\nThe Real Riesgo Isn\'t the Gas\nWhat matters después de dejarlo es what repeated exposure puede han already done. Nitrous oxide inactivates methionine synthase, an enzyme que depends sobre vitamin B12. StatPearls notes que repeated exposure — occupational o recreational — puede lead a megaloblastic anaemia y cerebro y nerve dysfunction, y en rare cases, degeneration de the spinal cord.\n\nIf You Used Heavily o Often\nNitrous oxide isn\'t documented a causa a físico abstinencia syndrome the way opioids o alcohol do, por lo que día one isn\'t sobre tu body demanding the drug. It\'s sobre starting a pay atención a B12-related síntomas — covered en the next pocas milestones — y getting checked if any appear.';
+
+  @override
+  String get nitrousOxideReferenceDay3 =>
+      '72 Hours: No Físico Abstinencia, But Watch para Nerve Síntomas\n\nSource: Knuf & Maani, StatPearls; Tikaria et al. (2026), Cureus\n\nUnlike opioids o alcohol, nitrous oxide isn\'t documented a causa a físico abstinencia syndrome. Urges a this stage son habit y deseo de consumir, no the body demanding the fármaco a function.\n\nWatch para These\nA systematic review de 1,809 recreational nitrous oxide cases (Tikaria et al., 2026) encontró cerebro y nerve síntomas — especialmente tingling o numbness (paresthesia) — fueron the la mayoría frecuente sign de B12-related harm, a menudo appearing incluso when standard sangre tests looked normal. Gait problems y weakness fueron también reported.\n\nIf You Notice Any de These\nSeek médico review. The same review encontró standard sangre tests (haemoglobin, serum B12) missed a significativo share de afectado pacientes — tests para methylmalonic acid (MMA) y homocysteine son más sensitive y debería ser requested specifically if tú disclose nitrous oxide use.';
+
+  @override
+  String get nitrousOxideReferenceDay7 =>
+      'Una semana: Get Tested if You Used Heavily\n\nSource: Tikaria et al. (2026), \"The Toxic Legacy de Recreational Nitrous Oxide Use,\" Cureus\n\nLo que muestra la evidencia\nThis systematic review encontró que vitamin B12 deficiency de nitrous oxide es a menudo \"functional\" — serum B12 looked normal en roughly half de afectado pacientes, incluso when ellos había real cerebro y nerve damage. Homocysteine y MMA fueron abnormal far más a menudo (84% y 73% de tested pacientes respectively) y son the más reliable markers.\n\nWhat a Do\nIf tu use fue heavy o frequent, one semana off es a reasonable tiempo a see a médico y ask para homocysteine y MMA testing specifically — no simplemente a standard B12 level — especialmente if tú han any tingling, numbness, balance problems, o unexplained weakness.\n\nCerebro recuperación es frecuente después de nitrous cessation y vitamin B12 treatment: large clinical series informa partial o completo improvement en la mayoría followed pacientes, con recuperación continuing across the primer meses después de treatment.';
+
+  @override
+  String get nitrousOxideReferenceDay14 =>
+      'Dos semanas: Cerebro y nerve Síntomas Deserve Follow-Up\n\nSource: Tikaria et al. (2026), Cureus; Knuf & Maani, StatPearls\n\nWhat\'s Been Reported\nCase informa y series reviewed para Tikaria et al. describe nitrous oxide-related nerve damage presenting como sensory loss, gait ataxia, y algunastimes weakness affecting walking — findings que puede resemble otro cerebro y nerve conditions y son algunastimes missed if nitrous oxide use isn\'t mentioned a a profesional sanitario.\n\nRecuperación Signal sobre Timelines\nNeither source informa how largo recuperación normally takes once use dejars y any deficiency es treated. Case informa describe a wide range de outcomes — de completo recuperación a duradero deficits — depending largely sobre how much damage occurred antes de diagnosis. What\'s consistent across the literature es que earlier tratamiento conduce a better outcomes.\n\nIf You Haven\'t Been Checked\nTwo semanas off es todavía a good tiempo a get bloodwork done, incluso sin síntomas — particularly homocysteine y MMA en lugar de serum B12 alone.';
+
+  @override
+  String get nitrousOxideReferenceDay30 =>
+      'Un mes: Habit y Deseo de consumir, Not Físico Dependence\n\nSource: Knuf & Maani, \"Nitrous Oxide,\" StatPearls (NCBI Bookshelf)\n\nWhere You Stand\nStatPearls doesn\'t describe nitrous oxide como producing a físico dependence syndrome, por lo que a mes off means any lingering urges son sobre habit, social context, o boredom en lugar de a body todavía adjusting a the drug\'s absence.\n\nThe B12 Question\nIf tú fueron tested y treated para B12 deficiency, one mes es a reasonable point para tu médico a check whether tu levels — y any síntomas — han responded. If tú weren\'t tested y utilizado heavily, it\'s todavía worth asking.\n\nWhat\'s Protected\nEvery mes tú don\'t use es a mes you\'re no adding a any existing methionine synthase inactivation o the cerebro y nerve riesgo que comes con it.';
+
+  @override
+  String get nitrousOxideReferenceDay90 =>
+      'Tres meses: Time a Recheck, if You Haven\'t\n\nSource: Tikaria et al. (2026), \"The Toxic Legacy de Recreational Nitrous Oxide Use,\" Cureus\n\nWhat We Know — y Don\'t\nThis research base es built de case informa y case series, no controlled recuperación studies, por lo que there\'s no reliable published timeline para how síntomas resolve para three meses specifically. What the evidence hace muestran es que outcomes vary widely — algunas pacientes con mild, early-caught deficiency recover fully, mientras those con delayed diagnosis o más grave nerve damage puede han duradero deficits.\n\nThe Actionable Part\nIf tú había any cerebro y nerve síntomas y haven\'t había follow-up bloodwork o a specialist review, three meses off es a sensible point a hacer so. If tú fueron treated y mejora, this es a reasonable tiempo a confirm the trend es continuing con tu médico.\n\nStaying Off Matters Most\nLa revisión es consistent sobre one thing: continuada exposure mantiene inactivating B12 y adding a the riesgo. Not consumir es the single biggest factor en tu favour.';
+
+  @override
+  String get nitrousOxideReferenceDay365 =>
+      'Un año: The Best Protection Is Continued Abstinence\n\nSource: Knuf & Maani, StatPearls; Tikaria et al. (2026), Cureus\n\nWhere the Evidence Actually Lands\nNeither source promises a specific recuperación timeline, y that\'s worth being honest sobre — the literature sobre nitrous oxide y B12 deficiency es built alla mayoría entirely de individual case informa en lugar de a largo plazo follow-up studies. What es well established es the mechanism: nitrous oxide inactivates vitamin B12 every tiempo it\'s utilizado, y dejar removes que ongoing harm entirely.\n\nIf You Had Deficiency-Related Síntomas\nCase informa describe a wide range de outcomes, de completo recuperación a persistent nerve síntomas, largely tied a how much damage occurred y how temprano it fue treated. If you\'re todavía experiencing síntomas a año out, that\'s a reason a mantener working con a neurologist, no a sign nothing puede ser done — nerve recuperación puede continuar durante an extended period.\n\nWhat\'s Certain\nA año sin nitrous oxide es a año sin further methionine synthase inactivation. That\'s the one guarantee ambos sources support.';
+
+  @override
+  String get opioidReferenceDay1 =>
+      'Opioid Abstinencia: Day One\n\nSource: \"Clinical Guidelines para Abstinencia Manejo y Treatment de Drug Dependence en Closed Settings,\" World salud Organization (2009), sobre the NCBI Bookshelf\n\n⚠ Safety Note\nOpioid abstinencia es rarely fatal en otherwise healthy individuals, pero it causas grave físico distress y carries a alto riesgo de relapse. Relapse después de a period de abstinence es particularly peligroso porque tolerance drops rapidly — consumir the same dose como antes de abstinence puede causa fatal overdose. Medical supervision y opioid agonist tratamiento son strongly recommended.\n\nWhen Abstinencia Begins\nThe WHO abstinencia timetable sets the timing para opioid type:\n• Short-acting opioids (heroin, oxycodone): onset 8–24 hours después de last use, duration 4–10 días\n• Long-acting opioids (methadone): onset 12–48 hours, duration 10–20 días\n\nDay One Síntomas\nThe WHO guidelines list the temprano features de opioid abstinencia:\n• Ansiedad y agitation\n• Muscle cramps y aches\n• Watery discharge de eyes y nose\n• Yawning y perspiration\n• Insomnio, con hot y cold flushes\n• Early nausea\n\nWhy It Feels So Bad\nThe opioid system regulates pain, stress, emocional wellbeing, y basic comfort. Long-term opioid use suppresses the body\'s own opioid production (endorphins). When opioids son removed, the body es left sin its normal comfort system — experiencing pain, ansiedad, y distress a a level que reflects the depth de que suppression. The WHO guidelines advise supportive care, incluido drinking 2–3 litres de water per día y monitoring 3–4 times daily.';
+
+  @override
+  String get opioidReferenceDay7 =>
+      'Una semana Off Opioids: Peak Síntomas Declining\n\nSource: \"Clinical Guidelines para Abstinencia Manejo y Treatment de Drug Dependence en Closed Settings,\" World salud Organization (2009), sobre the NCBI Bookshelf\n\nThe Peak y Decline\nThe WHO timetable puts de acción corta opioid abstinencia a 4–10 días, con síntomas building temprano y entonces easing across que window. By the end de the primer semana:\n• Vomiting y diarrhoea son largely resuelto\n• Muscle cramps son menos severe\n• Físico distress es significativoly reducido\n\nWhat Remains a Day 7\nWhile agudo físico síntomas son mejora, significativo challenges persist:\n• Insomnio — sueño disruption es one de the la mayoría persistent opioid abstinencia síntomas\n• Depressed ánimo y emocional flatness\n• Fatigue y weakness\n• Deseos de consumir\n• Ansiedad\n\nPost-Agudo Abstinencia\nDespués de the primer abstinencia period, sueño problems, changing ánimo, y waves de deseo de consumir puede continuar para semanas o meses. Continued apoyo matters la mayoría durante this más largo recuperación phase.\n\nOpioid Agonist Treatment\nThe WHO guidelines describe methadone y buprenorphine como effective treatments que reduce abstinencia severity y apoyo recuperación. These medicamentos también reduce mortality de opioid use disorder, y muchas personas en successful a largo plazo recuperación use them throughout the temprano recuperación phase.';
+
+  @override
+  String get opioidReferenceDay14 =>
+      'Dos semanas Off Opioids: Sueño Patterns Starting a Improve\n\nSource: Peer-reviewed pharmacology research sobre opioids y sueño\n\nThe Opioid-Sueño Connection\nThis research paper examines the bidirectional relationship entre opioid use y sueño disruption. The findings document que opioids severely disrupt normal sueño architecture mediante multiple mechanisms:\n• Suppression de slow-wave (deep) sueño\n• Disruption de REM sueño\n• Caconsumir sueño-disordered breathing (central sueño apnea)\n• Disrupting circadian rhythm regulation\n\nA Vicious Cycle\nThe research highlights the bidirectional nature de the problem: opioid use disrupts sueño, y poor sueño increases dolor sensitivity y deseo de consumir intensity, driving further opioid use. Breaking opioid dependence también means breaking this sueño-disruption cycle.\n\nSueño a Dos semanas\nBy 14 días de opioid abstinence, sueño es beginning a normalise:\n• Central sueño apnea (if present) resolves conin días\n• Deep slow-wave sueño es beginning a recover\n• REM sueño es returning a normal proportion\n• Sueño onset es becoming más reliable\n\nSueño permanece a significativo challenge para muchas personas a two semanas, pero the trajectory es claramente mejora. Better sueño directly mejora ánimo, reduces deseos de consumir, y supports the claro pensamiento needed para recuperación.';
+
+  @override
+  String get opioidReferenceDay30 =>
+      'Un mes Off Opioids: Pensamiento y Memoria Begin a Recover\n\nSource: Mayo Clinic\n\nUnderstanding Opioid Use Disorder\nThe Mayo Clinic explica que opioids attach a receptors throughout the cerebro y body, producing dolor relief, euphoria, y sueñoiness. With repeated use, the cerebro responds menos strongly y makes fewer de its own opioid-like chemicals. That creates físico dependence.\n\nPensamiento y Memoria a Un mes\nAt 30 días, significativo recuperación en pensamiento y memoria ha occurred. The worst cerebro niebla ha claroed, y the front de the cerebro — which handles planning y self-control — es recovering:\n• Decision-making es mejora\n• Working memoria es recovering\n• Processing speed increasing\n• Concentration más reliable\n\nThe Endorphin System\nAt one mes, the cerebro\'s natural endorphin system es actively recovering: it es producing más de its own opioid-like chemicals y responding más normally again. Emotional flatness y menor dolor tolerance mantener mejora como que recuperación continúa.\n\nRelapse Prevention\nThe Mayo Clinic emphasises que one mes de sobriety hace no mean the riesgo de relapse ha passed — it permanece elevated. Tolerance ha dropped significativamente, meaning que relapse consumir previous doses carries grave overdose riesgo.';
+
+  @override
+  String get opioidReferenceDay60 =>
+      'Two Months Off Opioids: The Cerebro\'s Stress Circuits Begin a Settle\n\nSource: \"Neuroplasticity de the extended amygdala en opioid abstinencia y prolonged opioid abstinence,\" Frontiers en Pharmacology (2023)\n\nWhere the Negative Feelings Come From\nThis review maps how a largo plazo opioid use changes the cerebro\'s stress y fear circuits. During abstinencia, these circuits become overactive mientras dopamine signalling en reward circuits drops. That combination helps explain ansiedad, bajo ánimo, y deseos de consumir en temprano recuperación.\n\nWhy Two Months Brings Relief\nCrucially, the review documents que algunas de these changes son reversible. In animal models the loss de spine density en the accumbens shell es descrito como \'an endurante pero reversible decrease,\' returning toward pre-drug values durante a couple de semanas. As these stress y reward circuits re-regulate, the mechanistic basis para early-recuperación emocional turmoil eases — consistent con the reducido reactivity y steadier ánimo muchas personas informa para aproximadamente two meses.\n\nRecuperación Signal\nThe reversible spine-density y stress-circuit changes documented en this literature muestran a real biological recuperación process: the circuitry driving the negative emocional state de dependence moves back toward its pre-drug state durante abstinence.';
+
+  @override
+  String get opioidReferenceDay90 =>
+      'Tres meses Off Opioids: Reward Chemistry Starting a Recover\n\nSource: \"Structural y Functional Cerebro Recuperación en Individuals con Substance Use Disorders During Abstinence: A Review de Longitudinal Neuroimaging Studies,\" Drug y Alcohol Dependence (2022), sobre PubMed Central\n\nDopamine y Opioids\nOpioids drive dopamine release en the cerebro\'s reward system. Long-term use leaves que system depleted: en one cerebro-scan study, proteins que recycle dopamine fueron sobre 30% below healthy levels a the start. That helps explain the loss de pleasure seen en opioid use disorder y temprano recuperación.\n\nRecuperación Is Gradual\nThis review gathered the longitudinal studies que re-scanned the same personas durante abstinence. The dopamine-transporter deficit recovered para roughly 20% durante 6–12 meses de abstinence, y algunas frontal grey-matter y white-matter abnormalities seen en temprano abstinencia fueron no más largo detectable después de sobre a mes. At three meses tú son temprano sobre que recuperación curve: the reward y frontal systems son measurably mending, pero han no finished.\n\nWhat People Experience\nAs these circuits recover, muchas personas a aproximadamente 90 días notice:\n• More real enjoyment de activities, food, y relationships\n• Reduced deseos de consumir compared con temprano recuperación\n• Clearer pensamiento y better decision-making\n\nRecuperación Signal\nLongitudinal human imaging muestra dopamine-transporter availability rising across 6–12 meses de abstinence, mientras frontal grey- y white-matter abnormalities comienzan normalising much earlier. At 90 días, measurable cerebro recuperación es already established.';
+
+  @override
+  String get opioidReferenceDay180 =>
+      'Seis meses Off Opioids: The Immune System Begins a Recover\n\nSource: \"Effects de opioid tolerance y abstinencia sobre the immune system,\" Journal de Neuroimmune Pharmacology (2006), sobre PubMed\n\nOpioids y the Immune System\nThis review muestra que a largo plazo opioid use weakens the immune system en several ways:\n• Direct opioid action sobre immune cells (T cells, NK cells, macrophages)\n• Disrupted immune-signalling chemicals\n• Disruption de the hypodeep-cerebro-pituitary-adrenal (HPA) axis\n• Increased susceptibility a infection\n\nRecuperación Signal\nLong-term opioids suppress several parts de the immune system. By six meses off opioids, que constant suppression ha sido gone para half a año y immune function es actively rebuilding toward normal.\n\nWhat Seis meses Means\nSix meses sin opioids da immune cells, immune signalling, y the body\'s stress system sustained tiempo a recover toward normal.\n\nWhy This Still Matters\nThis es particularly relevant para personas who injected opioids, who faced added infection riesgos such como HIV y hepatitis C. Removing opioids, mejora nutrition, y maintaining abstinence give the immune system the conditions it needs a mantener recovering.';
+
+  @override
+  String get opioidReferenceDay365 =>
+      'Un año Off Opioids: Cerebro Structure y Chemistry Recovering\n\nSource: \"Structural y Functional Cerebro Recuperación en Individuals con Substance Use Disorders During Abstinence: A Review de Longitudinal Neuroimaging Studies,\" Drug y Alcohol Dependence (2022), sobre PubMed Central\n\nWhat the Human Imaging Shows\nThis review gathered the studies que scanned the same personas con opioid use disorder más que once across abstinence. The findings point consistently toward recuperación:\n• Dopamine-recycling proteins en reward y movement areas, sobre 30% below normal a the start, rose para roughly 20% durante 6–12 meses off opioids\n• Frontal grey-matter abnormalities present en temprano abstinencia fueron no más largo detectable después de sobre a mes de abstinence\n• White-matter (frontal y cingulate) y resting-state frontal actividad también began a re-normalise conin the primer mes\n\nWhere Un año Sits\nBy twelve meses tú son a o past the longest window these studies measured. The dopamine system ha había the la mayoría tiempo a recover, y the frontal circuits que apoyo self-control y judgement han sido mending para meses — the biological counterpart a the claroer pensamiento, weaker deseos de consumir, y steadier ánimo personas describe a a año.\n\nRecuperación Signal\nAt one año, the human imaging signal es strongly recuperación-oriented: dopamine-transporter availability ha risen across the 6–12 mes window, mientras frontal structural y functional abnormalities han había muchas meses a normalise.';
+
+  @override
+  String get opioidReferenceDay730 =>
+      'Dos años Off Opioids: A Stable Foundation\n\nSource: \"Treatment de Opioid Use Disorder,\" Centers para Disease Control y Prevention (CDC)\n\nA Crónico Condition, Managed Well\nThe CDC describe opioid use disorder como \'a crónico disease que puede affect anyone\' — \'a médico condition, no a moral failing.\' Reaching two años de sustained recuperación means tú han sido managing que condition successfully mediante one de its la mayoría vulnerable periods.\n\nWhat the CDC Says Works\nThe CDC\'s guidance centres sobre treatments que mantener recuperación stable durante the largo term:\n• Medications para opioid use disorder — buprenorphine, methadone, y naltrexone — which it calls especialmente effective\n• Combining medicación con behavioural therapy y counselling\n• Treatment que lasts para varying lengths de time, tailored a the person\nThe CDC notes these medicamentos ayuda \'normalize cerebro chemistry\' y relieve deseos de consumir — the chemistry que felt hijacked en activo addiction works con tú again.\n\nStaying Safe\nThe CDC urges personas en recuperación a ask su médico sobre the riesgo de returning a use y overdose, y a mantener naloxone sobre hand. Tolerance falls durante abstinence, por lo que a vuelven a opioids después de this largo es especialmente peligroso — knowing que es part de protecting what you\'ve built.\n\nDos años In\nThe CDC es claro que recuperación es a menudo a a largo plazo process en lugar de a finish line. Two años es no the end de the journey — it es a stable, healthy foundation, y strong evidence que the approach tú son consumir works.';
+
+  @override
+  String get pornographyReferenceDay1 =>
+      'Day One: Taking Back Control\n\nSource: Kraus et al., Compulsive sexual behaviour disorder en the ICD-11, World Psychiatry (2018).\n\nThe clinically importante problem es no pornography use para itself. Compulsive Sexual Behaviour Disorder es defined aproximadamente persistent difficulty controlling repetitive sexual behaviour when que pattern causas significativo distress o impairment. Problematic pornography use puede ser one presentation de que más amplio problem.\n\nThat makes día one concrete en lugar de mystical: tú han interrupted a behaviour tú había decided fue out de control. One completado día hace no prove a cerebro y nerve reset, pero it hace give tú the primer real observation de when urges appear, what situations trigger them, y what tú puede hacer en su lugar.\n\nIf tu use fue no distressing, impairing, o difficult a control, the clinical CSBD framework puede no apply a you. These milestones son aimed a personas who son deliberately changing problematic o compulsive use.';
+
+  @override
+  String get pornographyReferenceDay3 =>
+      'Day Three: Know What an Urge Can Look Like\n\nSource: Lewczuk et al., Abstinencia y tolerance como related a compulsive sexual behavior disorder y problematic pornography use, Journal de Behavioral Addictions (2022).\n\nIn a preregistered nationally representative Polish sample de 1,541 adults, stronger self-reported abstinencia-like experiences fueron associated con greater CSBD y problematic-pornography-use severity. Among participants con problematic pornography use, habitualmente reported experiences included difficult-to-dejar sexual thoughts, difficult-to-control desire, aumentado arousal, irritability, ánimo changes, y sueño problems.\n\nRestmenosness, intrusive sexual thoughts, strong urges, y irritability son documented en personas con más grave problematic use. If ellos muestran up aproximadamente día three, treat them como a real abstinencia-like pattern y manage the triggers.\n\nWrite down which urges son actually happening, what preceded them, y what response helped. Recuperación gets easier a steer when the trigger es named en lugar de treated como a mysterious cerebro event.';
+
+  @override
+  String get pornographyReferenceDay7 =>
+      'Una semana: What a Randomized Abstinence Study Found\n\nSource: Effects de a 7-Day Pornography Abstinence Period sobre Abstinencia-Related Síntomas en Regular Pornography Users, Archives de Sexual Behavior (2023).\n\nResearchers randomized 176 regular pornography usuarios either a attempt seven días de abstinence o a continuar como usual. Across the completo sample, abstinence hizo no produce a significativo overall increase en deseo de consumir, negative ánimo, o abstinencia síntomas.\n\nAn exploratory analysis hizo find aumentado deseo de consumir among personas who combined alto problematic-use scores con daily pornography use antes de the study. That result needs replication, pero it es useful: a difficult primer semana puede ser real para heavier problematic usuarios, mientras a universal pornography abstinencia syndrome es no supported para this trial.\n\nIf tú han made it mediante a semana, tú now han better evidence sobre tu own pattern que any generic internet timeline puede provide.';
+
+  @override
+  String get pornographyReferenceDay14 =>
+      'Dos semanas: Map the Triggers That Actually Matter\n\nSource: Biopsychosocial Determinants de Problematic Pornography Use: A Systematic Review (2023).\n\nThis review synthesized 66 studies y encontró que problematic pornography use es associated con a mix de factors en lugar de one simple dopamine mechanism. Repeatedly identified psychological y social factors included deseo de consumir, stress, avoidance, loneliness, self-esteem, negative beliefs, y coping style.\n\nTwo semanas te da repeated exposure a semanadías, semanaends, boredom, stress, privacy, devices, y otro contexts que puede han cued the old behaviour. Use que data. If stress es the trigger, design a stress response. If loneliness es the trigger, add contact. If easy access es the trigger, change the environment.\n\nLa evidencia supports working sobre the drivers de problematic use; it hace no require pretending que every persona follows the same biological countdown.';
+
+  @override
+  String get pornographyReferenceDay30 =>
+      'Un mes: Control Matters More Than a Simple Frequency Count\n\nSource: Bőthe et al., Are sexual functioning problems associated con frequent pornography use and/or problematic pornography use?, Addictive Behaviors (2021).\n\nIn a community sample de 14,581 adults, problematic pornography use había a moderate positive association con sexual-functioning problems en ambos men y women. Pornography-use frequency para itself showed a weak negative association con those problems.\n\nThat distinction matters. La evidencia hace no apoyo telling every pornography usuario que viewing frequency a solas damages sexual function. The más clinically relevant target es loss de control y the problems surrounding que pattern.\n\nAt one mes, compare vida now con when tú started: preoccupation, tiempo lost, ability a dejar, sexual functioning, relationship conflict, y distress. Those changes matter más que waiting para a mythical día-30 cerebro reset.';
+
+  @override
+  String get pornographyReferenceDay90 =>
+      'Tres meses: Durable Change Is Possible\n\nSource: Crosby & Twohig, Acceptance y Commitment Therapy para Problematic Internet Pornography Use: A Randomized Trial, Behavior Therapy (2016).\n\nThis small randomized trial compared a 12-session ACT program con a waitlist en 28 adult men. Pornography viewing fell much más en the ACT group a the end de treatment, y considerable reductions remained a the three-mes follow-up.\n\nEl estudio hace no prove que 90 días de abstinence a solas causas the same result, y its sample fue small y demographically narrow. What it hace demonstrate es importante: problematic pornography use es modifiable, y structured skills puede produce changes que persist beyond the immediate tratamiento period.\n\nIf tu progress todavía depends la mayoríaly sobre white-knuckling, three meses es a good point a strengthen the system aproximadamente it: trigger plans, acceptance de urges sin acting, environmental friction, accountability, y therapy when needed.';
+
+  @override
+  String get pornographyReferenceDay180 =>
+      'Seis meses: A largo plazo Symptom Control Can Hold\n\nSource: Hallberg et al., A Randomized Controlled Study de Group-Administered Cognitive Behavioral Therapy para Hypersexual Disorder en Men, Journal de Sexual Medicine (2019).\n\nIn 137 men con out-of-control sexual behaviour, seven semanas de group CBT produced greater reductions en hypersexual síntomas y sexual compulsivity que a waitlist, along con mejorado psychiatric well-being. The tratamiento gains remained stable a ambos three- y six-mes follow-up.\n\nThis study covered hypersexual disorder más broadly en lugar de pornography abstinence alone, por lo que it debería no ser turned en a claim que every persona es biologically recovered a six meses. It hace apoyo a stronger y más useful statement: sustained improvement en compulsive sexual behaviour puede permanecen stable durante this length de time.\n\nSix meses es therefore a maintenance milestone. Keep the routines que made control easier en su lugar de treating the date como permission a dismantle them.';
+
+  @override
+  String get pornographyReferenceDay365 =>
+      'Un año: Evidence para Durable Behaviour Change\n\nSource: One-año follow-up efectos de an acceptance-based tratamiento para hypersexuality (2026).\n\nAt one-año follow-up, participants en this acceptance-based tratamiento study había no returned a su pretreatment levels de hypersexuality. Los autores descrito the findings como preliminary evidence de durable, clinically significativo benefits, con perceived control durante deseo de consumir among the processes followed con el tiempo.\n\nThis es tratamiento follow-up evidence, no proof de a one-año cerebro reset. The significativo claim es better anyway: clinically relevant control puede persist para a año en lugar de disappearing como soon como the initial intervention ends.\n\nA año de tu own maintained change es también a large personal dataset. Compare current control, distress, functioning, relationships, y tiempo use con where tú started; those son the outcomes que matter clinically.';
+
+  @override
+  String get pornographyReferenceDay1825 =>
+      'Five Years: A largo plazo Control Is the Outcome\n\nSource: Compulsive sexual behavior disorder y problematic pornography use: a comprehensive interdisciplinary expert-informed review (2026).\n\nModern reviews treat CSBD y problematic pornography use como complex problems involving control, distress, functioning, context, y individual differences. There es no validated five-año cerebro y nerve reset threshold.\n\nBut five años es no an empty milestone. It es 1,825 días de maintaining the behavioural direction tú chose. Because the clinical problem es persistent loss de control con distress o impairment, sustained control y restored functioning durante años son significativo outcomes en su own right.\n\nAt this stage, the useful question es no más largo whether tu cerebro ha reached a fictional percentage de rewiring. It es whether the old pattern todavía controls tu choices o disrupts the vida tú want. If it hace not, que es a substantive a largo plazo success.';
+
+  @override
+  String get smokingReferenceDay1 =>
+      'Day One: Beneficios Start Now\n\nSource: NHS Better salud\n\nBeneficios comienzan conin minutes — no días. El cuerpo starts a normalise como soon como the smoke dejars.\n\nWhat happens todía\n• 20 minutes: pulse rate comienza returning a normal\n• 8 hours: carbon monoxide en the sangre falls para half; oxygen levels son recovering\n• 48 hours: carbon monoxide ha dropped a the level de a non-smoker\n\nCarbon monoxide binds a red sangre cells más strongly que oxygen, displacing it de tu blood. Every organ fue getting menos oxygen que it should. That reverses conin two días.\n\nAbstinencia comienza sobre día one\n• Deseos de consumir — cada normalmente duradero 3–5 minutes\n• Irritability y difficulty concentrating\n• Increased appetite\n\nThese son temporary y manageable. The NHS Better salud programme offers free apoyo incluido apps y pharmacist advice.';
+
+  @override
+  String get smokingReferenceDay3 =>
+      'Day Three: Peak Abstinencia\n\nSource: McLaughlin, Dani & De Biasi\n\nBy 72 hours, nicotine es gone de tu body. The cerebro built extra nicotine receptors durante tu smoking años; now they\'re understimulated, caconsumir the abstinencia syndrome.\n\nPeak síntomas\n• Deseos de consumir — la mayoría intense right now\n• Irritability, frustration, restmenosness\n• Difficulty concentrating\n• Ansiedad\n• Headaches\n• Increased appetite\n• Coughing (the airways son claroing — a good sign)\n\nThis es the hardest día. It doesn\'t get worse que this — de here the síntomas steadily ease como tu cerebro readjusts.\n\nNRT, varenicline, y bupropion todos significativamente reduce abstinencia severity a this stage.';
+
+  @override
+  String get smokingReferenceDay7 =>
+      'Una semana: Taste y Smell Return\n\nSource: NHS Better salud\n\nReaching one semana smoke-free es a strong predictor de a largo plazo success — personas who get mediante the primer semana son far más probable a quit para good.\n\nWhat\'s recovered\n• Food tastes más flavourful\n• Smells son más vivid\n• Breathing es easier — airways son claroing\n• Circulation es mejora\n• Skin es better hydrated\n\nSmoking damages taste y smell receptors directly; conin días de dejar, ellos comienzan a recover.\n\nThe agudo nicotine abstinencia es easing. Físico deseos de consumir son más corto y menos frequent. Trigger-based deseos de consumir puede todavía ser present, pero the worst de the físico urgency es behind you.';
+
+  @override
+  String get smokingReferenceDay14 =>
+      'Dos semanas: Circulation Improves\n\nSource: NHS Better salud\n\nWithin 2–12 semanas de dejar, sangre circulation improves. Nicotine narrows sangre vessels con every cigarette; sin it, the vessels relax y sangre flows más freely.\n\nWhat this means\n• Blood flow a hands, feet, y peripheral tissues improves\n• Many personas notas warmer hands y feet\n• Walking y climbing stairs starts a se sienten easier\n\nWith carbon monoxide already claroed de the sangre en the primer día y circulation mejora now, oxygen reaches músculos más effectively.\n\nThe cilia lining the airways son recovering y pushing out built-up mucus. If you\'re coughing más que usual, it\'s a sign de recuperación, no a setback.';
+
+  @override
+  String get smokingReferenceDay30 =>
+      'Un mes: Lung Function Climbs\n\nSource: NHS Better salud\n\nBreathing becomes easier y lung function mejora — increasing para up a 10% durante the 3-to-9-mes window. At one mes, you\'re well en que recuperación curve.\n\nWhat\'s happening en the lungs\n• Cilia han regrown y son claroing mucus más effectively\n• Airway inflammation es settling\n• The persistent smoker\'s cough es fading\n• Exercise tolerance es mejora\n\nAny coughs, wheezing y breathing problems mejorar como lung function increases. One mes es a significativo point sobre que recuperación curve.';
+
+  @override
+  String get smokingReferenceDay90 =>
+      'Tres meses: Heart Attack Riesgo Drops\n\nSource: PMC — Cardiovascular Effects de Smoking y Cessation (2024)\n\nSmoking damages the corazón y arteries en multiple ways: it accelerates artery plaque buildup, promotes sangre clotting, raises sangre pressure, y damages the arterial lining. The procoagulant, clot-promoting efectos reverse conin días de dejar, y this review informa a notable decline en corazón attacks y strokes conin the primer año de quitting.\n\nWhat\'s mejorado para now\n• Blood clotting factors son normalising\n• Blood presión y corazón rate son stabilising\n• The sharpest temprano drop en agudo cardiovascular event riesgo es well underway\n\nThe smenor-acting benefits — reversing años de arterial plaque buildup — take más largo y son covered en posterior milestones. Every smoke-free mes adds a the recuperación.';
+
+  @override
+  String get smokingReferenceDay180 =>
+      'Seis meses: Immune Defences Recover\n\nSource: Smoke-free period y recuperación de alveolar immune-cell function (PubMed)\n\nSmoking suppresses the immune cells deep en the lungs, impairing su ability a engulf y kill bacteria. Recuperación es gradual — those only 2 meses abstinent muestran the la mayoría impairment, mientras function mejora steadily con más largo abstinence. By 6 meses, pulmonary immune defences han considerablemente recovered.\n\nWhat this means\nThe lungs puede claro inhaled bacteria y particles más effectively, reducing susceptibility a colds, flu, y pneumonia.\n\nImmune defences mantener mejora beyond six meses — pero para now the body\'s protection es markedly stronger que it fue en those temprano semanas.';
+
+  @override
+  String get smokingReferenceDay365 =>
+      'Un año: Heart Attack Riesgo Falls Sharply\n\nSource: PMC — Smoking Cessation y Stroke Outcome; CDC, Beneficios de Quitting Smoking\n\nSmoking roughly doubles stroke riesgo para promoting artery plaque buildup, increasing sangre clotting, raising sangre pressure, y damaging cerebral sangre vessels. The CDC\'s own quitting-benefits timeline puts the sharp drop en corazón attack riesgo a the 1-to-2-año mark — you\'re a the front edge de que window.\n\nRecuperación Timeline\nFull stroke-riesgo normalisation takes longer: the cited stroke study followed quitters para a median de nearly five años a muestran a significativoly menor stroke rate que continuada smokers, y CDC data puts halved coronary corazón disease riesgo a 3 a 6 años, con stroke riesgo decreasing durante the 5-to-10-año mark.\n\nOne año es todavía a real médico milestone — the steepest part de the agudo-riesgo decline es behind you, incluso though the longer-term cardiovascular y cancer benefits continuar a build para años.';
+
+  @override
+  String get smokingReferenceDay1825 =>
+      'Five Years: Cancer Riesgo Falls\n\nSource: CDC, Beneficios de Quitting Smoking\n\nAt five años, algunas de the la mayoría dramatic cancer benefits arrive.\n\nFive-to-ten-año milestones\n• Added riesgo de cancers de the mouth, throat, y voice box: halved\n• Stroke riesgo: decreasing\n\nStill ahead\n• Ten años: lung cancer death riesgo roughly halved (después de 10–15 años); riesgo de bladder, oesophagus, y kidney cancers decreasing\n• Fifteen años: coronary corazón disease riesgo close a que de a non-smoker\n• Twenty años: mouth, throat, y voice box cancer riesgo close a non-smoker levels; added cervical cancer riesgo sobre halved\n\nFive años de no smoking es a real achievement — you\'re now inside the window where algunas de the la mayoría significativo cancer-riesgo reductions take hold, incluso though several benefits (like coronary corazón disease riesgo fully normalising) son todavía años away.';
+
+  @override
+  String get snriReferenceDay3 =>
+      'SNRI Discontinuation: Los primeros días\n\nSource: Harvard salud Publishing\n\nImportant Safety Note\nSNRIs debería only ser dejado under médico supervision following a gradual taper. Venlafaxine (Effexor) en particular ha an extremely corto half-life de approximately 5 hours, meaning the fármaco claros de the body very rapidly y discontinuation síntomas puede ser grave y sudden.\n\nWhy SNRIs Are Harder a Stop Than SSRIs\nSNRIs affect two ánimo-regulating cerebro chemicals — serotonin y noradrenaline — meaning ambos need a readjust when tú dejar. The discontinuation síntomas son a menudo más intense con SNRIs que SSRIs:\n• Flu-like síntomas (fatigue, sweating, músculo aches)\n• Insomnio y disturbed sueño\n• Nausea — a menudo más pronounced que con SSRIs\n• Imbalance y dizziness\n• Sensory disturbances — \'cerebro zaps\' puede ser very intense con venlafaxine\n• Hyperarousal, irritability, y ansiedad\n\nComparing SNRIs\nVenlafaxine ha the la mayoría difficult discontinuation profile due a its corto half-life. Duloxetine (Cymbalta) tends a ser algunaswhat easier due a its más largo half-life de 12 hours. Desvenlafaxine falls entre the two.';
+
+  @override
+  String get snriReferenceDay7 =>
+      'Una semana Después de SNRIs: Two Cerebro-Chemical Systems Adjusting\n\nSource: NHS — Dejar o coming off antidepressants (general antidepressant guidance; the noradrenaline-specific mechanisms below reflect general SNRI pharmacology en lugar de SNRI-specific detail de the NHS page itself)\n\nThe Dual-System Challenge\nUnlike la mayoría antidepressants que affect one system, SNRIs affect ambos serotonin y noradrenaline. By one semana, ambos systems son adjusting:\n\nNoradrenaline System Effects\nThe noradrenaline system governs the body\'s fight-or-flight response, sangre presión regulation, y energía levels. As it readjusts:\n• Blood presión fluctuations puede occur\n• Ansiedad puede se sienten más físico (racing heart, sweating)\n• Energy levels puede ser inconsistent\n\nSerotonin System Effects\nSimultaneously, the serotonin system es adjusting — producing the abstinencia síntomas typical de dejar any antidepressant. The combination de ambos systems adjusting puede make the primer semana particularly challenging.\n\nFísicoly this a menudo muestra como mejora sangre presión stability y fewer episodes de mareo sobre standing. Emotionally, ánimo es más variable que it será ser a 30 días pero no más largo en freefall.';
+
+  @override
+  String get snriReferenceDay14 =>
+      'Dos semanas Después de SNRIs: Físico Síntomas Fading\n\nSource: Davies & Read (2019), Addictive Behaviors\n\nTwo-Week Status\nFor la mayoría personas following a proper taper, the agudo físico phase es largely resuelto para two semanas:\n• Cerebro zaps significativamente reducido o absent\n• Nausea y flu-like síntomas resuelto\n• Dizziness y balance issues mejora\n• Blood presión y corazón rate stabilising como noradrenaline rebalances\n\nWhat May Persist\n• Emotional sensitivity y ánimo variability\n• Ansiedad — which the noradrenaline system particularly influences\n• Fatigue, como the noradrenaline system provides alertness y energy\n\nResearch Context\nThe Addictive Behaviors systematic review (Davies & Read, 2019) confirmed que SNRI discontinuation efectos son among the la mayoría grave de any antidepressant class, con venlafaxine associated con particularly alto rates de significativo abstinencia síntomas.';
+
+  @override
+  String get snriReferenceDay30 =>
+      'Un mes Después de SNRIs: Dual System estabilización\n\nSource: Davies & Read (2019), Addictive Behaviors — systematic review de antidepressant abstinencia incidence, severity, y duration\n\nLa fase de estabilización\nOne mes represents a significativo milestone en serotonin y noradrenaline recuperación. This review encontró that, mientras a considerable minority de personas experience abstinencia efectos duradero beyond a pocas semanas, la mayoría personas son well past the agudo, la mayoría-severe phase de físico discontinuation síntomas para this point.\n\nWhat Typically Improves para Un mes\n• Físico discontinuation síntomas (cerebro zaps, nausea, dizziness) resuelto para la mayoría\n• Blood presión returning a natural level\n• Sueño calidad mejora — REM sueño patterns restoring naturally\n• Energy levels beginning a stabilise como noradrenaline regulation normalises\n\nEmotional Blunting Resolution\nOne de the la mayoría habitualmente reported experiences a this stage es the resolution de emocional blunting — muchas personas sobre SNRIs notas a \'flattened\' emocional range. As the fármaco claros y the cerebro readjusts, emocional range y sensitivity normalmente returns.';
+
+  @override
+  String get snriReferenceDay90 =>
+      'Tres meses Después de SNRIs: Well Past Abstinencia\n\nSource: \"Antidepressant Abstinencia Syndrome,\" Therapeutics Letter 112 (2018), Therapeutics Initiative, sobre the NCBI Bookshelf\n\nWhy SNRIs Deserve Extra Care\nThis evidence review singles out corto half-life antidepressants — incluido venlafaxine y duloxetine (both SNRIs) — como carrying a mayor riesgo de abstinencia síntomas. A manufacturer-funded study encontró 51% de personas dejar duloxetine experienced one o más síntomas. So SNRI abstinencia puede ser pronounced, which es exactly why a gradual, supervised taper matters.\n\nWhere Tres meses Sits\nThe Letter notes abstinencia síntomas \'habitualmente aparecen conin a pocas días de dejar\' y que \'la mayoría antidepressant abstinencia síntomas resolve conin 2 semanas\' (occasionally longer). By three meses, the agudo abstinencia phase es well behind the great majority de personas.\n\nRecuperación Signal sobre \'Receptor Recuperación\'\nPopular timelines claim the serotonin y noradrenaline systems han \'fully rebalanced\' para three meses. The solid evidence concerns the abstinencia syndrome y its timing, no a precise receptor-recuperación clock. What\'s dependable: para three meses the abstinencia phase ha normalmente resuelto, y muchas personas notas the emocional blunting algunas se sienten sobre SNRIs eases después de dejarlo.\n\nAbstinencia Versus Relapse\nThe Letter advises distinguishing abstinencia de a true vuelven de the underlying condition. If ansiedad o bajo ánimo persists a three meses, review it con tu médico prescriptor en lugar de assuming it es only abstinencia.';
+
+  @override
+  String get snriReferenceDay180 =>
+      'Seis meses Después de SNRIs: Cerebro y nerve Recuperación\n\nRecuperación Signal sobre Six-Month Data\nBy six meses después de a completed, medically supervised taper, the grave temprano SNRI abstinencia period es far behind you. Ánimo, sueño, sexual function, y claro pensamiento han había meses a recover:\n• Serotonin pathways: considerablemente restored\n• Noradrenaline pathways: normalised, con the stress response system también settling\n• Sueño architecture: esperado a ser fully restored\n• Sexual function: largely restored para la mayoría personas (sexual dysfunction es a frecuente SNRI side effect, though para algunas it puede persist y es worth discussing con a médico prescriptor)\n\nResilience a Stress\nMany personas a six meses informa notably mejorado resilience a everydía stressors como the noradrenaline system\'s role en arousal y stress response — which SNRIs powerfully modulate — settles back a its natural level.';
+
+  @override
+  String get snriReferenceDay365 =>
+      'Un año Después de SNRIs: Recuperación Achieved\n\nUn año: A Complete Dual-System Recuperación\nOne año después de completing an SNRI taper, ambos the serotonin y noradrenaline systems han había a completo cycle a adapt y stabilise.\n\nWhat the Evidence Actually Apoyos a Un año\nThis Therapeutics Letter review notes que documented abstinencia síntomas \'habitualmente aparecen conin a pocas días de dejar\' y que la mayoría resolve conin sobre two semanas — there es no controlled study following personas specifically one año después de SNRI discontinuation. What\'s well supported para the más amplio clinical picture a this distance:\n• The majority de those who completado a proper taper y received psychological apoyo permanecen well\n• The emocional blunting y sexual dysfunction que characterise SNRI use han fully resuelto para la mayoría personas\n• Clear pensamiento, incluido the concentración benefits que SNRIs puede provide, son maintained mediante natural cerebro function\n\nThe Significance de This Milestone\nSuccessfully discontinuing an SNRI — particularly venlafaxine — es a significativo achievement. The intensity de the discontinuation process y the commitment required a manage it under médico supervision demonstrates remarkable resilience.';
+
+  @override
+  String get socialMediaReferenceDay1 =>
+      'Stepping Back From Social Media: Day One\n\nSource: Lambert et al., \"Taking a One-Week Break de Social Media Improves Well-Being, Depression, y Ansiedad: A Randomized Controlled Trial,\" Cyberpsychology, Behavior, y Social Networking (2022), sobre PubMed\n\nLo que muestra la evidencia\nIn this strong controlled study, personas fueron randomly assigned either a take a one-semana break de Facebook, Instagram, Twitter, y TikTok o a mantener consumir them como usual. The break group showed significativo improvements en well-being y reductions en depresión y ansiedad. That es real, controlled evidence que stepping back helps.\n\nLo que muestra la evidencia\nCompulsive social-media use es strongly linked a menor ánimo y mayor ansiedad, y randomized trials muestran que deliberately cutting back puede mejorar well-being mientras reducing depresión y ansiedad conin a semana.\n\nDay One: Qué esperar\n• Restmenosness y an urge a check\n• \'Phantom\' notifications — sensación a buzz que didn\'t happen\n• Boredom como tú adjust a menos constant stimulation\nThese son normal habit-related sensations, y ellos son temporary. Recognising the pattern es the primer step en changing it.';
+
+  @override
+  String get socialMediaReferenceDay3 =>
+      'Three Days Without Social Media: Ansiedad y Ánimo\n\nSource: Lambert et al., \"Taking a One-Week Break de Social Media Improves Well-Being, Depression, y Ansiedad: A Randomized Controlled Trial,\" Cyberpsychology, Behavior, y Social Networking (2022), sobre PubMed\n\nWhy a Break Helps Ánimo\nIn this controlled trial, personas randomly assigned a a one-semana break de social media ended the semana con menor ansiedad y depresión y mayor well-being que those who kept scrolling. Much de the día-to-día distress de heavy use comes de social comparison — measuring tu real vida against others\' curated highlight reels — y de the low-grade pull de fear-of-missing-out.\n\nQué ocurre Around 72 Hours\nEarly en a break, the habit es todavía loud:\n• Strong urges a check, a menudo triggered para routine moments (waking, waiting en line)\n• Some irritability y restmenosness\n• For algunas personas, the primer easing de comparison-driven ansiedad\n• The pre-sueño scroll habit starting a loosen\n\nThe Comparison Trap Loosens\nWithout a constant feed de otro personas\'s highlights, the comparison que fuels much social-media ansiedad ha menos fuel. The trial\'s results suggest que para the end de the primer semana these temprano shifts add up a a measurable improvement en ánimo — por lo que the discomfort a three días es the hard part de a change que pays off.';
+
+  @override
+  String get socialMediaReferenceDay7 =>
+      'Una semana Without Social Media: The Measured Payoff\n\nSource: Lambert et al., \"Taking a One-Week Break de Social Media Improves Well-Being, Depression, y Ansiedad: A Randomized Controlled Trial,\" Cyberpsychology, Behavior, y Social Networking (2022), sobre PubMed\n\nExactly Una semana — y It Worked\nThis es the milestone the research speaks a la mayoría directly: the trial\'s intervention fue a one-semana break. Compared con personas who kept consumir social media, the break group showed significativamente mayor well-being y significativamente menor depresión y ansiedad después de simplemente seven días. Reaching one semana es reaching the point a which a controlled study encontró real benefit.\n\nWhat People Commonly Notice\nAlongside the measured ánimo gains, personas a menudo report:\n• More reclaimed tiempo — muchas son surprised how much ellos había sido spending\n• Easier focus, como the habit de constant attention-switching loosens\n• Calmer evenings y easier sueño sin the pre-bed scroll\nThese gains fit the más amplio improvement en well-being measured en the trial.\n\nKeep Going\nOne semana es a real, evidence-backed milestone. The ánimo, time, y atención benefits tend a deepen the más largo the healthier pattern holds.';
+
+  @override
+  String get socialMediaReferenceDay14 =>
+      'Dos semanas Without Social Media: Two-Week Gains\n\nSource: Coyne & Woodruff, \"Taking a Break: The Effects de Partaking en a Two-Week Social Media Digital Detox… among Young Adults,\" Behavioral Sciences (2023), sobre PubMed Central\n\nAbout This Study\nYoung adults limited social media a sobre 30 minutes a día para two semanas, con usage tracked objectively sobre su phones (it fell para roughly 78%). Participants cut social-media use para roughly 78%, giving this milestone a direct real-world test de what happens when use es sharply reducido para two semanas.\n\nWhat Improved\nOver the two semanas, participants showed improvements in:\n• Sueño — ambos duration y quality\n• Satisfaction con life\n• Stress\n• Perceived wellness\n• Scores sobre smartphone y social-media addiction scales\nThe measured gains fueron concrete: más largo y better sueño, menor stress, mayor vida satisfaction y perceived wellness, y menor smartphone/social-media addiction scores.\n\nWatch para Backsliding\nThe researchers también noticed use creeping back toward previous levels después dewards. Two semanas es a real gain, pero it highlights why an intentional plan — no simplemente a temporary break — es what mantiene the benefits.';
+
+  @override
+  String get socialMediaReferenceDay30 =>
+      'Un mes Without Social Media: Real Connection Deepens\n\nSource: Coyne & Woodruff, \"Taking a Break: The Effects de Partaking en a Two-Week Social Media Digital Detox… among Young Adults,\" Behavioral Sciences (2023), sobre PubMed Central\n\nConnection Can Improve When You Step Back\nIt sounds paradoxical — pero en this study, cutting social media right back fue associated con improvement en supportive relationships, along con better vida satisfaction y menor stress. Time y atención que went a the feed became available para the personas actually en tu life.\n\nWhat Un mes Tends a Bring\nBy 30 días, con the automatic pull de checking much weaker, muchas personas find:\n• Conversations son más present y menos interrupted\n• More interest en real-world activities y hobbies\n• Self-image leaning menos sobre likes, comments, y folmenor counts\n\nRecuperación Signal\nBy one mes, tú han sustained the healthier pattern para twice the study\'s intervention window. The sueño, stress, life-satisfaction, wellness, y relationship gains measured a two semanas han había otro two semanas a consolidate en routine.\n\nMake the Time Count\nAim a fill freed tiempo con activities que build real connection y fulfilment, en lugar de simply swapping one screen para another.';
+
+  @override
+  String get socialMediaReferenceDay60 =>
+      'Two Months Without Social Media: Lo que respalda la evidencia\n\nSource: Ramadhan et al., \"Impacts de digital social media detox para mental health: A systematic review y meta-analysis,\" Narra J (2024), sobre PubMed Central\n\nThe Most Reliable Picture\nResearchers combined results de 10 studies, incluido seven controlled trials. The claroest result fue a significativo reduction en depressive síntomas después de personas stepped back de social media.\n\nThe Strongest Result\nThe combined research encontró a claro reduction en depressive síntomas. By two meses, tú son sustaining the same kind de menor digital exposure que produced que mental-health benefit.\n\nWhat Two Months Can Look Like\nWith menos daily comparison y menos feed-driven reinforcement, self-image ha far menos reason a depend sobre likes, comments, o folmenor counts, mientras the strongest pooled evidence points a menor depressive síntomas.\n\nThe Practical Takeaway\nLa evidencia rewards intentional, sustained change. Use the two-mes point a mantener deliberate limits en place en lugar de drifting back, y a invest en offline sources de meaning y connection.';
+
+  @override
+  String get socialMediaReferenceDay90 =>
+      'Tres meses Without Social Media: A New Normal\n\nSource: Coyne & Woodruff, \"Taking a Break: The Effects de Partaking en a Two-Week Social Media Digital Detox… among Young Adults,\" Behavioral Sciences (2023), sobre PubMed Central\n\nSueño Is the Standout\nAmong this study\'s claroest findings fue mejorado sueño — ambos duration y calidad — when participants cut social media right back. By three meses de a sustained healthier pattern, the late-night scroll que utilizado a eat en sueño ha largo dejado competing con rest, y better sueño tends a lift ánimo, focus, y energía con it.\n\nWhat Else Improved\nThe same study encontró gains en stress, vida satisfaction, perceived wellness, y supportive relationships. At three meses these son no más largo novelties — ellos han había tiempo a settle en a new normal.\n\nRecuperación Signal sobre Mechanism\nCutting social media sharply mejorado ambos sueño duration y sueño calidad en the intervention study. Three meses de sustaining que pattern turns the late-night-scroll reduction en a durable sueño habit.\n\nPresence y Relationships\nWith the reflex a fill every quiet moment con the phone much weaker, being present — en conversations, meals, y downtime — comes más naturally, y the relationships tú han invested en durante three meses tend a se sienten stronger para it.';
+
+  @override
+  String get socialMediaReferenceDay180 =>
+      'Seis meses Without Social Media: Measured Recuperación\n\nSource: Ramadhan et al., \"Impacts de digital social media detox para mental health: A systematic review y meta-analysis,\" Narra J (2024), sobre PubMed Central\n\nWhat Meta-Analysis Adds\nCombining 10 studies, incluido seven controlled trials, researchers encontró a claro reduction en depressive síntomas después de personas reducido o pautilizado social media.\n\nWhat It Actually Found\n• Depression: a statistically significativo reduction (the claroest, la mayoría consistent benefit)\n• Life satisfaction: no significativo effect\n• Stress: no significativo effect\n• Overall mental well-being: no significativo effect\nThe strongest pooled result es claro: digital detox significativamente reduces depressive síntomas.\n\nWhy You May Still Feel Broad Beneficios\nSix meses de reducido feed exposure compounds the practical gains seen en más corto interventions: más available time, menos compulsive checking, y a sustained reduction en the digital exposure associated con depressive síntomas.\n\nKeep Control de the Feed\nThe biggest gains come de breaking heavy, passive, compulsive use. By six meses, intentional control durante social media es the new default en lugar de the feed controlling tu attention.';
+
+  @override
+  String get socialMediaReferenceDay365 =>
+      'Un año Without Social Media: A Renegotiated Relationship\n\nSource: Ramadhan et al., \"Impacts de digital social media detox para mental health: A systematic review y meta-analysis,\" Narra J (2024), sobre PubMed Central\n\nUn año de Sustained Change\nThe strongest combined research muestra que stepping back de social media reduces depressive síntomas. A completo año means que menor-exposure pattern ha become tu normal en lugar de a corto break.\n\nWhat a Year Builds\nA completo año te da hundreds de hours back para real relationships, hobbies, skills, reflection, y creativity. Automatic checking ha había a completo año a weaken mientras those offline routines han había a completo año a strengthen.\n\nSustained Beneficios\nThe claroest measured mental-health gain es menor depressive síntomas. The practical gains — más time, fewer interruptions, y menos compulsive checking — compound every día tú mantener control de the feed.\n\nWhat Comes Next\nA año de deliberate change ha reset the relationship. Whether tú vuelven a limited, intentional use o stay off entirely, the compulsive loop ha sido broken — y que es the durable win.';
+
+  @override
+  String get ssriReferenceDay3 =>
+      'SSRI Discontinuation: Los primeros días\n\nSource: Harvard salud Publishing\n\nImportant Safety Note\nSSRIs debería only ser dejado under médico supervision following a gradual taper. Abrupt cessation — especialmente después de a largo plazo use — significativamente increases the severity de discontinuation síntomas.\n\nWhat Is SSRI Discontinuation Syndrome?\nSSRI discontinuation syndrome es a well-documented médico phenomenon que occurs when SSRIs son dejado o considerablemente reducido. Clinicians use the acronym FINISH a describe the frecuente síntomas:\n• Flu-like síntomas (fatigue, sweating, músculo aches)\n• Insomnio y disturbed sueño\n• Nausea\n• Imbalance y dizziness\n• Sensory disturbances — particularly \'cerebro zaps\'\n• Hyperarousal, irritability, y ansiedad\n\nHalf-Life Matters\nFluoxetine (Prozac) ha a very largo half-life de 4–6 días, por lo que it effectively self-tapers y produces milder discontinuation effects. Paroxetine (Paxil) ha the shortest half-life de the frecuente SSRIs y produces the la mayoría intense discontinuation síntomas. Sertraline, citalopram, y escitalopram fall en between.';
+
+  @override
+  String get ssriReferenceDay7 =>
+      'Una semana Después de SSRIs: La fase aguda\n\nSource: NHS — Dejar o coming off antidepressants\n\nThe Agudo Discontinuation Phase\nThe NHS documents que la mayoría antidepressant discontinuation síntomas comienzan conin five días de dejar y last para up a six semanas en the majority de cases. By one semana, the agudo físico síntomas son normalmente a su la mayoría pronounced y beginning a trend downward para those who tapered gradually.\n\nQué esperar a Una semana\n• Físico síntomas (nausea, dizziness, flu-like feelings) son a su la mayoría intense pero debería ser beginning a ease\n• Sueño disturbances incluido vivid sueños o insomnio son common\n• Emotional lability — rapid ánimo changes — es frequent a this stage\n• Cerebro zaps puede todavía ser present pero normalmente comienzan a reduce en frequency\n\nEl papel de la reducción gradual\nThe NHS strongly recommends a slow taper — algunastimes durante meses para a largo plazo usuarios — a minimise discontinuation effects. The Royal College de Psychiatrists ha developed tapering guidelines que suggest very gradual dose reductions, a menudo consumir liquid formulations, para those who han taken SSRIs para extended periods.';
+
+  @override
+  String get ssriReferenceDay14 =>
+      'Dos semanas Después de SSRIs: Físico Síntomas En resolución\n\nSource: Davies & Read (2019), Addictive Behaviors — \'A systematic review en the incidence, severity y duration de antidepressant abstinencia effects\'\n\nLo que encontró la investigación\nThis landmark systematic review encontró que approximately 56% de personas who discontinuar antidepressants experience abstinencia effects, y 46% de those describe them como severe. For la mayoría personas following a proper taper, the agudo phase es largely resuelto para two semanas:\n• Cerebro zaps significativamente reducido o absent\n• Nausea y flu-like síntomas resuelto\n• Dizziness y balance issues mejora\n• Sueño beginning a normalise\n\nDistinguishing Discontinuation de Relapse\nSíntomas que aparecen conin días de dejar y match the FINISH profile son la mayoría probable discontinuation syndrome. Síntomas que emerge después de 2–4 semanas y resemble the original condition being treated son más probable relapse. Supervisión this distinction con tu médico prescriptor es importante.';
+
+  @override
+  String get ssriReferenceDay30 =>
+      'Un mes Después de SSRIs: Estabilización\n\nSource: Haddad PM (2001), Drug Safety — \'Antidepressant Discontinuation Syndromes\'\n\nLa fase de estabilización\nThis review describe discontinuation onset como rapid, normalmente conin días de dejar o reducing an antidepressant, y notes que la mayoría reactions son leve y short-lived, resolving sin specific treatment. One mes represents the transition de que agudo window a stabilisation; para la mayoría personas who completado a gradual taper, the agudo discontinuation síntomas son now largely resuelto.\n\nEmotional Landscape a Un mes\nEmotional changes a one mes son variable y importante a monitor:\n• Some personas se sienten emotionally \'flatter\' initially como the cerebro adjusts — this normalmente improves\n• Others experience emocional vividness ellos había no felt en años\n• Ansiedad levels vary significativamente para individual y underlying condition\n\nEl valor del apoyo sin medicación\nResearch consistently muestra que talking therapy such como CBT (CBT) y otro evidence-based psychological therapies son highly effective para the conditions SSRIs treat. The one-mes mark es an excellent tiempo a ensure these supports son en place.';
+
+  @override
+  String get ssriReferenceDay90 =>
+      'Tres meses Después de SSRIs: Well Past Abstinencia\n\nSource: \"Antidepressant Abstinencia Syndrome,\" Therapeutics Letter 112 (2018), Therapeutics Initiative, sobre the NCBI Bookshelf\n\nWhere Tres meses Sits\nThis evidence review notes que antidepressant abstinencia síntomas \'habitualmente aparecen conin a pocas días de dejar, o dose reduction,\' y que \'la mayoría antidepressant abstinencia síntomas resolve conin 2 semanas\' — though grave cases puede last semanas a meses. By three meses, the agudo abstinencia phase es well behind the great majority de personas.\n\nWhy SSRIs Vary\nAbstinencia es más probable con más corto half-life SSRIs (such como paroxetine) que con largo half-life ones (fluoxetine). The Letter es candid que abstinencia reactions puede ser considerable — two systematic reviews encontró them \'very similar\' a those de benzodiazepines — y occur en a least a third de personas who dejar.\n\nRecuperación Signal sobre \'Receptor Recuperación\'\nYou puede see confident claims que serotonin receptors \'fully resensitise para 2–3 meses.\' The robust evidence es sobre the abstinencia syndrome y its timing, no a precise receptor-recuperación clock. What\'s dependable: para three meses the abstinencia phase ha normalmente resuelto, y muchas personas notas the emocional blunting y sexual side efectos algunas experience sobre SSRIs ease después de dejarlo.\n\nSi persisten los síntomas\nThe Letter advises distinguishing abstinencia de a real vuelven de the underlying condition. If bajo ánimo o ansiedad persists a three meses, that\'s worth reviewing con tu médico prescriptor en lugar de assuming it\'s \'just abstinencia.\'';
+
+  @override
+  String get ssriReferenceDay180 =>
+      'Seis meses Después de SSRIs: A Grounded View\n\nSource: \"Antidepressant Abstinencia Syndrome,\" Therapeutics Letter 112 (2018), Therapeutics Initiative, sobre the NCBI Bookshelf\n\nWhat\'s Well-Established para Seis meses\nThis review notes que incluso severe, prolonged abstinencia síntomas normalmente last semanas a meses en lugar de indefinitely — por lo que para six meses the agudo abstinencia syndrome has, para the great majority de personas, claramente resuelto.\n\nBeing Honest About the Rest\nBy six meses, the habitual abstinencia period es ya quedó atrás y the serotonin system ha había meses a settle. Sexual side efectos habitualmente mejorar después de dejarlo; if ellos persist, discuss them con tu médico prescriptor.\n\nLo que suele contar la gente\n• A wider emocional range compared con being sobre medication\n• Improved sueño y energía para la mayoría\n• Continued gradual improvement, though the pace varies widely entre individuals';
+
+  @override
+  String get ssriReferenceDay365 =>
+      'Un año Después de SSRIs: Measured Recuperación\n\nSource: Duffy et al. (2021), salud Technology Assessment — the ANTLER trial\n\nWhat This Trial Actually Found\nANTLER followed a largo plazo antidepressant usuarios en UK primary atención who either stayed sobre medicación o discontinuada. Over the following año, 56% de those who discontinuada relapsed, compared con 39% de those who stayed sobre medicación — roughly double the riesgo — y the discontinuation group reported algunaswhat menor calidad de vida sobre average.\n\nLa perspectiva completa\nDespite the mayor relapse rate, a considerable share de personas who discontinuada hizo no relapse y remained well sin medicación. About a third de those who discontinuada eventually restarted su antidepressant — a reasonable clinical choice, no a failure.\n\nUna nota sobre el futuro\nDepression y ansiedad son crónico conditions para algunas personas. There es no failure en returning a medicación if the underlying condition reasserts itself. The goal es wellbeing — y one año de successful discontinuation es a real achievement regardmenos de what comes next.';
+
+  @override
+  String get steroidsReferenceDay1 =>
+      'Dejar Anabolic Steroids: Los primeros días\n\nSource: \"Common síntomas associated con usage y cessation de anabolic androgenic steroids en men,\" Best Practice & Research Clinical Endocrinology & Metabolism (2022)\n\nLa fase aguda\nThis review describe AAS abstinencia como unfolding en two phases. The primer, driven para sympathetic nervous system activation en lugar de hormone levels, aparece conin 1–2 días de dejar y puede include:\n• Headache\n• Tremors\n• Palpitations\n• Nausea\n\nPor qué aparecen los síntomas\nAnabolic steroids también suppress the body\'s own testosterone production — the cerebro detects the steroids y shuts off the hormonal signals que normally drive it. That suppression persists después de dejarlo, setting up the second, longer-lasting phase de abstinencia descrito en posterior milestones.\n\nNota de seguridad\nDepression puede emerge durante steroid abstinencia y become serious. Seek médico care, y urgent ayuda para any pensamientos de self-harm. Clinicians a menudo guide recuperación; algunas use medicamentos a apoyo it.';
+
+  @override
+  String get steroidsReferenceDay14 =>
+      'Dos semanas Off Anabolic Steroids\n\nSource: \"Common síntomas associated con usage y cessation de anabolic androgenic steroids en men,\" Best Practice & Research Clinical Endocrinology & Metabolism (2022)\n\nComienza la fase crónica\nBy two semanas, the brief sympathetic síntomas de the primer días han normalmente passed, y the review\'s segundo phase — driven para ongoing testosterone deficiency — es más prominent:\n• Fatigue y bajo ánimo\n• Muscle aches (myalgia)\n• Reduced libido\n• Insomnio y deseos de consumir\n\nStill a Low Ebb\nNatural testosterone production takes far más largo que two semanas a reset, por lo que this phase es esperado en lugar de a sign algunasthing es wrong.\n\nA Known Trap\nSome men vuelven a consumir specifically a escape this gap — a cycle que resets the recuperación clock en lugar de ending it. Apoyo de a médico o counsellor helps bridge this phase en lugar de medicating it con más steroids.';
+
+  @override
+  String get steroidsReferenceDay30 =>
+      'Un mes Off Anabolic Steroids\n\nSource: \"Físico, psychological y biochemical recuperación de anabolic steroid-induced hypogonadism: a scoping review,\" sobre PubMed\n\nRecuperación Begins\nDespués de dejar, the hormone signals que tell the testes a make testosterone start switching back on. Research puts much de this recuperación en the three-to-six-mes range, por lo que a one mes the process es already underway.\n\nQué esperar\nLow ánimo, libido, y energía habitualmente persist mientras hormones climb back. Recuperación depends sobre age y how heavy y prolonged the use was.';
+
+  @override
+  String get steroidsReferenceDay90 =>
+      'Tres meses Off Anabolic Steroids\n\nSource: \"Físico, psychological y biochemical recuperación de anabolic steroid-induced hypogonadism: a scoping review,\" sobre PubMed\n\nUn buen momento para un análisis de sangre\nBy three meses, the hormone system ha había tiempo a muestran significativo recuperación. This es a useful point a ask tu GP a check testosterone y the hormones que control it.\n\nQué esperar\nFor muchas men a three meses, levels son climbing pero no fully normalised. Ánimo y libido a menudo mejorar antes de testosterone fully catches up. Testicle size y sperm production recover más lentamente y puede mantener mejora durante the following año. Breast tissue growth (gynaecomastia), where it occurred, es unlikely a reverse sin specific treatment.';
+
+  @override
+  String get steroidsReferenceDay180 =>
+      'Seis meses Off Anabolic Steroids\n\nSource: \"Físico, psychological y biochemical recuperación de anabolic steroid-induced hypogonadism: a scoping review,\" sobre PubMed\n\nWhere the Evidence Points\nLa revisión informa que LH y FSH — the hormones que tell the testes a make testosterone — habitualmente recover conin sobre three a six meses. By six meses, testosterone itself es well along its recuperación path too.\n\nIf You\'re Not There Yet\nIf low-testosterone síntomas son todavía present a six meses, an endocrinologist puede check what es happening y discuss tratamiento en lugar de leaving tú a wait.';
+
+  @override
+  String get steroidsReferenceDay365 =>
+      'Un año Off Anabolic Steroids\n\nSource: \"Anabolic androgenic steroid-induced hypogonadism, a reversible condition en male individuals? A systematic review,\" sobre PubMed\n\nA Year Free\nA año off da the hormone system a largo recuperación window. Testosterone, ánimo, libido, natural strength, y corazón salud han todos había considerable tiempo a recover.\n\nThe A largo plazo Picture\nIf low-testosterone síntomas son todavía present a one año, specialist hormone assessment es the right next step. Staying off steroids protects the recuperación already made.';
+
+  @override
+  String get steroidsReferenceDay730 =>
+      'Dos años Off Anabolic Steroids\n\nSource: \"Anabolic androgenic steroid-induced hypogonadism, a reversible condition en male individuals? A systematic review,\" sobre PubMed\n\nA New Normal\nBy two años, tu hormone levels reflect tu body\'s natural production. For la mayoría men who recover, ánimo, libido, strength, y motivación son stable sin steroids.\n\nA largo plazo Hormone Recuperación\nResearch muestra testosterone recovering durante meses, mientras the hormones que signal the testes habitualmente recover conin three a six meses. Testicle size, sperm production, y libido puede mantener mejora durante meses a años. At two años, persistent low-testosterone síntomas belong con a specialist, no otro steroid cycle.';
+
+  @override
+  String get tcaReferenceDay3 =>
+      'TCA Discontinuation: Los primeros días — Acetylcholine Rebound\n\nSource: Dilsaver, Feinberg & Greden (1983), American Journal de Psychiatry — \'Antidepressant abstinencia síntomas treated con anticholinergic agents\' (case report, 3 pacientes)\n\nQué hace que TCA Discontinuation Different\nTricyclic antidepressants differ fundamentally de SSRIs y SNRIs en su mechanism. In addition a blocking serotonin y norepinephrine reuptake, TCAs strongly block the body\'s acetylcholine system. When tú dejar, que system bounces back.\n\nAcetylcholine Rebound Síntomas\nUnlike SSRI discontinuation, TCA abstinencia produces an acetylcholine rebound:\n• Nausea, vomiting, y diarrhoea\n• Excessive salivation y sweating\n• Headache y músculo aches\n• Insomnio con vivid o disturbing dreams\n• Ansiedad y restmenosness\n\nCommon TCAs y Their Profiles\nAmitriptyline y imipramine han the strongest acetylcholine-blocking efectos y normalmente produce the la mayoría pronounced rebound. Nortriptyline ha algunaswhat milder effects. Clomipramine también ha significativo serotonin-related efectos junto con its acetylcholine-blocking profile.';
+
+  @override
+  String get tcaReferenceDay7 =>
+      'Una semana Después de TCAs: Acetylcholine Síntomas Disminuyen\n\nThe Acetylcholine Recuperación\nThe acetylcholine rebound normalmente reaches its peak conin the primer pocas días y comienza a ease considerablemente para one semana. As the acetylcholine system vuelve toward its natural level:\n\nWhat\'s Mejoran\n• Gastrointestinal síntomas (nausea, cramping, diarrhoea) son reducing\n• Sweating y flu-like síntomas son easing\n• Sueño, though todavía disrupted, es beginning a stabilise\n• The excessive salivation es resolving\n\nAutomatic body Nervous System\nTCAs affect the body\'s automatic functions — corazón rate, sangre pressure, digestion — mediante several mechanisms. By one semana, the la mayoría intense automatic body síntomas — incluido mareo when standing y rapid corazón rate changes — es beginning a resolve como the nervous system readjusts.';
+
+  @override
+  String get tcaReferenceDay14 =>
+      'Dos semanas Después de TCAs: Antiacetylcholine Effects Reversing\n\nThe Antiacetylcholine Burden Lifts\nTCAs impose significativo acetylcholine-blocking efectos sobre the body que affect multiple systems. As this burden lifts durante the primer two semanas:\n\nFísico Beneficios\n• Dry mouth resolving — salivary gland function returning a normal\n• Constipation resolving — bowel motility naturally restored\n• Urinary function normalising — the urinary retention que TCAs puede causa es resolving\n• Blurred vision claroing — eyes adjusting normally a light again\n\nPensamiento y Memoria Beneficios\nAcetylcholine es essential para memoria, attention, y learning. The acetylcholine pathways suppressed para TCAs son recovering:\n• Working memoria mejora\n• Processing speed increasing\n• Mental claridad returning\n\nMany personas son surprised para how much cerebro niebla y memoria trouble ellos había adapted a mientras taking TCAs.';
+
+  @override
+  String get tcaReferenceDay30 =>
+      'Un mes Después de TCAs: Automatic body Nervous System estabilización\n\nHeart Recuperación\nTCAs affect corazón rhythm durante use mediante su action sobre ambos the acetylcholine y adrenaline-related nervous systems. The clinical literature sobre TCA discontinuation confirms que agudo abstinencia síntomas — incluido the automatic body efectos driven para this \'acetylcholine y adrenaline-related overdrive\' — son normalmente leve y resolve conin one a two semanas de dejar. By one mes, la mayoría personas son well past this agudo window, y puede expect:\n• Heart rhythm settling back toward its pre-medication starting level\n• Heart rate variability trending toward niveles naturales\n• Blood presión regulation, previously afectado para the drug\'s action sobre adrenaline pathways, continuing a stabilise\n\nSueño Architecture Restoration\nTCAs strongly suppress sueño sueño. As the antiacetylcholine efecto wears off (acetylcholine es needed para sueño sueño):\n• REM sueño es returning, a menudo producing a surge de vivid sueños como sueño sueño returns\n• Slow-wave (deep) sueño es mejora\n• Overall sueño calidad y restoration es significativoly better que durante TCA use';
+
+  @override
+  String get tcaReferenceDay90 =>
+      'Tres meses Después de TCAs: Leaving the Real Riesgos Behind\n\nLo que muestra la evidencia\nA 2024 meta-analysis de 103 randomised trials (10,590 participants) encontró that, compared con placebo, TCAs hacer reduce depressive síntomas — pero también come con nearly triple the odds de a grave adverse event (odds ratio 2.78). The trials themselves only followed personas para up a 12 semanas on-treatment, por lo que there\'s no controlled a largo plazo data sobre what happens después de dejarlo. Everything below reflects general clinical understanding de TCA pharmacology, no a specific finding de this trial evidence.\n\nLa recuperación multisistémica\nTCAs affect a más amplio range de cerebro chemical systems que SSRIs o SNRIs:\n• Serotonin system: adjusting\n• Noradrenaline system: adjusting\n• Acetylcholine system: settling back a normal\n• Histamine system: the antihistamine-like sedation ha resuelto\n\nAt three meses, todos de these systems han había considerable tiempo a recover, y — simplemente como importantely — the elevated serious-adverse-event riesgo que comes con activo TCA tratamiento es behind you. Many personas notice:\n• Improved claro pensamiento — particularly memoria y attention\n• Better ánimo stability\n• Improved energía y motivation\n• Reduced sedation y mejorado alertness';
+
+  @override
+  String get tcaReferenceDay180 =>
+      'Seis meses Después de TCAs: Heart y Pensamiento Recuperación\n\nRecuperación Signal sobre A largo plazo Data\nThe temprano abstinencia period después de TCAs es habitualmente leve y resolves conin one a two semanas. By six meses después de a supervised taper, the heart-rate, memoria, y pensamiento efectos de TCAs han había meses a recover.\n\nCardiovascular Recuperación\nBy six meses, TCAs\' direct efectos sobre corazón rhythm debería ser resuelto desde hace tiempo:\n• Normal corazón rhythm maintained sin drug-driven influence\n• Heart rate variability (a measure de how well tu corazón adapts) esperado a ser considerablemente mejorado\n• Dizziness sobre standing fully resuelto\n\nPensamiento y Memoria Recuperación\nTCAs puede causa cerebro niebla y memoria problems para blocking acetylcholine, especialmente en older adults. Those efectos mejorar después de the fármaco es dejado. At six meses:\n• Memoria consolidation considerablemente mejorado\n• Processing speed normalised\n• Planning, working memoria, y the ability a switch entre tasks o ideas son significativoly recovered';
+
+  @override
+  String get tcaReferenceDay365 =>
+      'Un año Después de TCAs: Recuperación Achieved\n\nUn año: Recuperación multisistémica completa\nThis review de antidepressant discontinuation syndromes — covering TCAs, MAOIs, SSRIs, y others — encontró que abstinencia síntomas normalmente comienzan conin días de dejar and, left untreated, resolve sobre su own conin días a a couple de semanas. There\'s no study que specifically re-measures TCA-affected systems a año out, pero a año después de completing a taper es muchas meses beyond incluso the longest reported discontinuation síntomas, por lo que todos afectado cerebro chemical systems — serotonin, noradrenaline, acetylcholine, y histamine — puede ser esperado a han había a completo cycle a normalise.\n\nLa importancia de la recuperación de los TCA\nTCAs impose a más amplio drug-driven burden que newer antidepressants, affecting más receptor systems simultaneously. Successful discontinuation represents the recuperación de multiple systems:\n• Complete reversal de the memoria y pensamiento impairment cautilizado para TCAs\' acetylcholine blocking\n• Full corazón recuperación\n• Natural cerebro chemical regulation restored across todos afectado pathways\n\nOne año de successful self-regulation después de TCA discontinuation represents a real achievement — ambos en the management de the discontinuation process y en the maintenance de wellbeing sin drug-driven support.';
+}

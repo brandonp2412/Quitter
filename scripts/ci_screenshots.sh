@@ -17,6 +17,7 @@ locale="${QUITTER_LOCALE:-en}"
 
 case "$locale" in
   en) store_locale="en-US" ;;
+  es) store_locale="es-ES" ;;
   ja) store_locale="ja-JP" ;;
   ru) store_locale="ru-RU" ;;
   zh) store_locale="zh-CN" ;;

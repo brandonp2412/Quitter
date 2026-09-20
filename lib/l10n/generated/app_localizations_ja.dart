@@ -1191,6 +1191,9 @@ class AppLocalizationsJa extends AppLocalizations {
   String get settingsLocaleRussian => 'ロシア語';
 
   @override
+  String get settingsLocaleSpanish => 'スペイン語';
+
+  @override
   String get settingsLocaleSystem => 'システムのデフォルト';
 
   @override

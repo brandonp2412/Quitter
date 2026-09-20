@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_description">Seguimiento de abstinencia</string>
+    <string name="widget_selection_title">Elige qué quieres seguir</string>
+    <string name="widget_selection_subtitle">Cuenta los días desde que lo dejaste en la pantalla de inicio</string>
+    <string name="addiction_alcohol">Alcohol</string>
+    <string name="addiction_vaping">Vapeo</string>
+    <string name="addiction_smoking">Tabaco</string>
+    <string name="addiction_smokeless_tobacco">Tabaco de mascar / rapé oral</string>
+    <string name="addiction_marijuana">Marihuana</string>
+    <string name="addiction_nicotine_pouches">Bolsitas de nicotina</string>
+    <string name="addiction_opioids">Opioides</string>
+    <string name="addiction_heroin">Heroína</string>
+    <string name="addiction_fentanyl">Fentanilo</string>
+    <string name="addiction_social_media">Redes sociales</string>
+    <string name="addiction_pornography">Contenido para adultos</string>
+    <string name="addiction_cocaine">Cocaína</string>
+    <string name="addiction_meth">Metanfetamina</string>
+    <string name="addiction_benzos">Benzodiacepinas</string>
+    <string name="addiction_adderall">Adderall</string>
+    <string name="addiction_ssri">ISRS</string>
+    <string name="addiction_snri">IRSN</string>
+    <string name="addiction_tca">Antidepresivos tricíclicos</string>
+    <string name="addiction_maoi">IMAO</string>
+    <string name="addiction_nitrous_oxide">Óxido nitroso</string>
+    <string name="addiction_kratom">Kratom</string>
+    <string name="addiction_gabapentinoids">Gabapentina / Pregabalina</string>
+    <string name="addiction_ghb">GHB</string>
+    <string name="addiction_ketamine">Ketamina</string>
+    <string name="addiction_inhalants">Inhalantes</string>
+    <string name="addiction_synthetic_cannabinoids">Cannabinoides sintéticos</string>
+    <string name="addiction_mdma">MDMA</string>
+    <string name="addiction_steroids">Esteroides anabólicos</string>
+    <string name="widget_day_singular">día</string>
+    <string name="widget_day_plural">días</string>
+    <string name="widget_not_set">Sin configurar</string>
+    <string name="widget_unknown">Desconocido</string>
+    <string name="widget_error">Error</string>
+    <string name="widget_setup_text">Toca para\nconfigurar</string>
+    <string name="widget_addiction_placeholder">Adicción</string>
+    <string name="widget_zero_days">0 días</string>
+</resources>

@@ -608,6 +608,10 @@
   "@settingsLocaleRussian": {
     "description": "Show app in Russian"
   },
+  "settingsLocaleSpanish": "Spanish",
+  "@settingsLocaleSpanish": {
+    "description": "Show app in Spanish"
+  },
   "settingsLocaleSystem": "System default",
   "@settingsLocaleSystem": {
     "description": "Follows the device locale"

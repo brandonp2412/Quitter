@@ -608,6 +608,10 @@
   "@settingsLocaleRussian": {
     "description": "Show app in Russian"
   },
+  "settingsLocaleSpanish": "西班牙语",
+  "@settingsLocaleSpanish": {
+    "description": "Show app in Spanish"
+  },
   "settingsLocaleSystem": "系统默认",
   "@settingsLocaleSystem": {
     "description": "Follows the device locale"
