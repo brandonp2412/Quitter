@@ -612,6 +612,10 @@
   "@settingsLocaleSpanish": {
     "description": "Show app in Spanish"
   },
+  "settingsLocaleFrench": "French",
+  "@settingsLocaleFrench": {
+    "description": "Show app in French"
+  },
   "settingsLocaleSystem": "System default",
   "@settingsLocaleSystem": {
     "description": "Follows the device locale"

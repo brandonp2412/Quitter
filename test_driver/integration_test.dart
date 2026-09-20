@@ -12,6 +12,7 @@ Future<void> main() async => await integrationDriver(
     final locale = Platform.environment["QUITTER_LOCALE"] ?? "en";
     final storeLocale = switch (locale) {
       "es" => "es-ES",
+      "fr" => "fr-FR",
       "ja" => "ja-JP",
       "ru" => "ru-RU",
       "zh" => "zh-CN",

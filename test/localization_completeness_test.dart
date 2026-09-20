@@ -47,8 +47,8 @@ Map<String, String> _androidStrings(String directory) {
 }
 
 bool _containsTargetScript(String languageCode, String value) {
-  if (languageCode == 'es') {
-    return RegExp(r'[A-Za-zÁÉÍÓÚÜÑáéíóúüñ¿¡]').hasMatch(value);
+  if (languageCode == 'es' || languageCode == 'fr') {
+    return RegExp(r'[A-Za-zÀÂÆÇÉÈÊËÎÏÔŒÙÛÜŸàâæçéèêëîïôœùûüÿ]').hasMatch(value);
   }
 
   for (final rune in value.runes) {
@@ -88,6 +88,13 @@ void main() {
     'aboutLicenseMIT',
     'ok',
   };
+  const intentionalSharedFrenchValues = {
+    'tabJournal',
+    'addictionFentanyl',
+    'settingsSectionNotifications',
+    'settingsOrangeColorScheme',
+    'aboutVersion',
+  };
   const intentionalSharedAndroidValues = {
     'addiction_alcohol',
     'addiction_adderall',
@@ -98,6 +105,10 @@ void main() {
     'addiction_ghb',
     'addiction_mdma',
     'widget_error',
+  };
+  const intentionalSharedFrenchAndroidValues = {
+    'addiction_fentanyl',
+    'widget_addiction_placeholder',
   };
 
   test('every supported locale has every app message translated', () {
@@ -129,7 +140,9 @@ void main() {
           .where(
             (key) =>
                 localized[key] == english[key] &&
-                !intentionalSharedValues.contains(key),
+                !intentionalSharedValues.contains(key) &&
+                !(locale.languageCode == 'fr' &&
+                    intentionalSharedFrenchValues.contains(key)),
           )
           .toList();
       expect(
@@ -140,7 +153,11 @@ void main() {
       );
 
       final latinOnlyMessages = englishKeys.where((key) {
-        if (intentionalSharedValues.contains(key)) return false;
+        if (intentionalSharedValues.contains(key) ||
+            (locale.languageCode == 'fr' &&
+                intentionalSharedFrenchValues.contains(key))) {
+          return false;
+        }
         final value = localized[key] as String;
         return RegExp(r'[A-Za-z]').hasMatch(value) &&
             !_containsTargetScript(locale.languageCode, value);
@@ -169,12 +186,13 @@ void main() {
     const storeLocales = {
       'en': 'en-US',
       'es': 'es-ES',
+      'fr': 'fr-FR',
       'ja': 'ja-JP',
       'ru': 'ru-RU',
       'zh': 'zh-CN',
     };
 
-    expect(workflow, contains('locale: [en, es, ja, ru, zh]'));
+    expect(workflow, contains('locale: [en, es, fr, ja, ru, zh]'));
     for (final locale in AppLocalizations.supportedLocales) {
       final languageCode = locale.languageCode;
       final storeLocale = storeLocales[languageCode];
@@ -198,6 +216,7 @@ void main() {
   test('Play Store listing is translated for every supported locale', () {
     const storeLocales = {
       'es': 'es-ES',
+      'fr': 'fr-FR',
       'ja': 'ja-JP',
       'ru': 'ru-RU',
       'zh': 'zh-CN',
@@ -290,7 +309,7 @@ void main() {
     final englishDescription = englishManifest['description'] as String;
     expect(englishManifest['lang'], 'en');
 
-    const manifestLocales = {'es', 'ja', 'ru', 'zh'};
+    const manifestLocales = {'es', 'fr', 'ja', 'ru', 'zh'};
     for (final locale in AppLocalizations.supportedLocales) {
       if (locale.languageCode == 'en') continue;
 
@@ -318,16 +337,19 @@ void main() {
     final index = File('web/index.html').readAsStringSync();
     expect(index, contains('manifest_'));
     expect(index, contains('Sigue tu progreso al dejar hábitos'));
+    expect(index, contains('Suivez vos progrès'));
     expect(index, contains('やめたい習慣'));
     expect(index, contains('Отслеживайте прогресс'));
     expect(index, contains('记录戒除习惯'));
 
     final privacy = File('docs/privacy-policy.html').readAsStringSync();
     expect(privacy, contains('Política de privacidad de Quitter'));
+    expect(privacy, contains('Politique de confidentialité de Quitter'));
     expect(privacy, contains('Quitter プライバシーポリシー'));
     expect(privacy, contains('Quitter — Политика конфиденциальности'));
     expect(privacy, contains('Quitter 隐私政策'));
     expect(privacy, contains('?lang=es'));
+    expect(privacy, contains('?lang=fr'));
     expect(privacy, contains('?lang=ja'));
     expect(privacy, contains('?lang=ru'));
     expect(privacy, contains('?lang=zh'));
@@ -476,7 +498,9 @@ void main() {
           .where(
             (key) =>
                 localized[key] == defaults[key] &&
-                !intentionalSharedAndroidValues.contains(key),
+                !intentionalSharedAndroidValues.contains(key) &&
+                !(locale.languageCode == 'fr' &&
+                    intentionalSharedFrenchAndroidValues.contains(key)),
           )
           .toList();
       expect(
@@ -487,7 +511,11 @@ void main() {
       );
 
       final latinOnlyStrings = defaults.keys.where((key) {
-        if (intentionalSharedAndroidValues.contains(key)) return false;
+        if (intentionalSharedAndroidValues.contains(key) ||
+            (locale.languageCode == 'fr' &&
+                intentionalSharedFrenchAndroidValues.contains(key))) {
+          return false;
+        }
         final value = localized[key]!;
         return RegExp(r'[A-Za-z]').hasMatch(value) &&
             !_containsTargetScript(locale.languageCode, value);

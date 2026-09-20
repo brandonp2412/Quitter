@@ -1234,6 +1234,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get settingsLocaleSpanish => 'Spanish';
 
   @override
+  String get settingsLocaleFrench => 'French';
+
+  @override
   String get settingsLocaleSystem => 'System default';
 
   @override

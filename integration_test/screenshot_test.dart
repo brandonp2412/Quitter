@@ -25,6 +25,7 @@ const screenshotLocale = String.fromEnvironment(
 
 String get screenshotStoreLocale => switch (screenshotLocale) {
   'es' => 'es-ES',
+  'fr' => 'fr-FR',
   'ja' => 'ja-JP',
   'ru' => 'ru-RU',
   'zh' => 'zh-CN',

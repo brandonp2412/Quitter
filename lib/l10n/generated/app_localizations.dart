@@ -7,6 +7,7 @@ import 'package:intl/intl.dart' as intl;
 
 import 'app_localizations_en.dart';
 import 'app_localizations_es.dart';
+import 'app_localizations_fr.dart';
 import 'app_localizations_ja.dart';
 import 'app_localizations_ru.dart';
 import 'app_localizations_zh.dart';
@@ -99,6 +100,7 @@ abstract class AppLocalizations {
   static const List<Locale> supportedLocales = <Locale>[
     Locale('en'),
     Locale('es'),
+    Locale('fr'),
     Locale('ja'),
     Locale('ru'),
     Locale('zh'),
@@ -2185,6 +2187,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Spanish'**
   String get settingsLocaleSpanish;
+
+  /// Show app in French
+  ///
+  /// In en, this message translates to:
+  /// **'French'**
+  String get settingsLocaleFrench;
 
   /// Follows the device locale
   ///
@@ -6157,8 +6165,14 @@ class _AppLocalizationsDelegate
   }
 
   @override
-  bool isSupported(Locale locale) =>
-      <String>['en', 'es', 'ja', 'ru', 'zh'].contains(locale.languageCode);
+  bool isSupported(Locale locale) => <String>[
+    'en',
+    'es',
+    'fr',
+    'ja',
+    'ru',
+    'zh',
+  ].contains(locale.languageCode);
 
   @override
   bool shouldReload(_AppLocalizationsDelegate old) => false;
@@ -6171,6 +6185,8 @@ AppLocalizations lookupAppLocalizations(Locale locale) {
       return AppLocalizationsEn();
     case 'es':
       return AppLocalizationsEs();
+    case 'fr':
+      return AppLocalizationsFr();
     case 'ja':
       return AppLocalizationsJa();
     case 'ru':

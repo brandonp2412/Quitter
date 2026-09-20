@@ -609,6 +609,7 @@
     "description": "Show app in Russian"
   },
   "settingsLocaleSpanish": "Испанский",
+  "settingsLocaleFrench": "Французский",
   "@settingsLocaleSpanish": {
     "description": "Show app in Spanish"
   },
