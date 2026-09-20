@@ -171,6 +171,37 @@ void main() {
     }
   });
 
+  test('repaired Spanish reference articles stay fully localized', () {
+    final spanish = _readArb('es');
+    const repairedPrefixes = {
+      'benzodiazepineReference',
+      'methReference',
+      'socialMediaReference',
+    };
+    final englishScaffolding = RegExp(
+      r'\b(?:without|source|what|why|this|the|with|from|people|study|recovery|months?|weeks?|years?|day|found|improved?|still|keep|one|two|three|six)\b',
+      caseSensitive: false,
+    );
+
+    for (final entry in spanish.entries) {
+      if (!repairedPrefixes.any(entry.key.startsWith) ||
+          entry.key.startsWith('@') ||
+          entry.value is! String) {
+        continue;
+      }
+
+      final body = (entry.value as String)
+          .split('\n')
+          .where((line) => !line.startsWith('Fuente:'))
+          .join('\n');
+      expect(
+        englishScaffolding.firstMatch(body),
+        isNull,
+        reason: '${entry.key} must not contain mixed English scaffolding',
+      );
+    }
+  });
+
   test('screenshot automation covers every supported locale', () {
     final screenshotTest = File(
       'integration_test/screenshot_test.dart',
