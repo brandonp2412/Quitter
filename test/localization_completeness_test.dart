@@ -584,6 +584,47 @@ void main() {
     expect(articleCount, greaterThan(0));
   });
 
+  test('Flutter UI does not hard-code user-facing text', () {
+    final dartFiles = Directory('lib')
+        .listSync(recursive: true)
+        .whereType<File>()
+        .where(
+          (file) =>
+              file.path.endsWith('.dart') &&
+              !file.path.contains('/l10n/generated/'),
+        );
+    final hardCodedValues = <String>[];
+    final patterns = [
+      RegExp(r'''(?:Text|TextSpan)\(\s*['"]([^'"]*)['"]'''),
+      RegExp(
+        r'''(?:labelText|hintText|helperText|errorText|tooltip|semanticLabel|message|title|subtitle|content)\s*:\s*['"]([^'"]*)['"]''',
+      ),
+    ];
+
+    for (final file in dartFiles) {
+      final contents = file.readAsStringSync();
+      for (final pattern in patterns) {
+        for (final match in pattern.allMatches(contents)) {
+          final literalText = match
+              .group(1)!
+              .replaceAll(RegExp(r'\$\{[^}]*\}'), '')
+              .replaceAll(RegExp(r'\$[A-Za-z_]\w*'), '');
+          if (RegExp(r'[A-Za-z]').hasMatch(literalText)) {
+            hardCodedValues.add('${file.path}: ${match.group(0)}');
+          }
+        }
+      }
+    }
+
+    expect(
+      hardCodedValues,
+      isEmpty,
+      reason:
+          'User-facing Flutter strings must come from AppLocalizations instead '
+          'of hard-coded literals',
+    );
+  });
+
   test('Android layouts do not hard-code user-facing text', () {
     final layouts = Directory(
       'android/app/src/main/res/layout',
