@@ -294,8 +294,12 @@ class QuitTrackerWidget : AppWidgetProvider() {
                         val title = entryObject.getString("title")
                         quitDate = entryObject.getString("quitDate")
                         val days = daysCeil(quitDate)
-                        val daysText = if (days == 1) context.getString(R.string.widget_day_singular) else context.getString(R.string.widget_day_plural)
-                        val widgetText = "$days $daysText"
+                        val widgetText =
+                                context.resources.getQuantityString(
+                                        R.plurals.widget_days,
+                                        days,
+                                        days
+                                )
                         Log.d(TAG, "Updated widget with custom entry: $title, $days days")
                         views.setTextViewText(R.id.widget_title, title)
                         views.setTextViewText(R.id.widget_days, widgetText)
@@ -322,8 +326,12 @@ class QuitTrackerWidget : AppWidgetProvider() {
             Log.d(TAG, "Found quit date for $selectedAddiction: $quitDate")
             var days = daysCeil(quitDate)
             if (days == 0) days = 1
-            val daysText = if (days == 1) context.getString(R.string.widget_day_singular) else context.getString(R.string.widget_day_plural)
-            val widgetText = "$days $daysText"
+            val widgetText =
+                    context.resources.getQuantityString(
+                            R.plurals.widget_days,
+                            days,
+                            days
+                    )
             Log.d(TAG, "Calculated days: $days for quit date: $quitDate")
             views.setTextViewText(R.id.widget_days, widgetText)
             views.setOnClickPendingIntent(R.id.widget_container, mainPendingIntent)

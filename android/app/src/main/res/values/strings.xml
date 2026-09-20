@@ -31,8 +31,10 @@
     <string name="addiction_synthetic_cannabinoids">Synthetic Cannabinoids</string>
     <string name="addiction_mdma">MDMA</string>
     <string name="addiction_steroids">Anabolic Steroids</string>
-    <string name="widget_day_singular">day</string>
-    <string name="widget_day_plural">days</string>
+    <plurals name="widget_days">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
     <string name="widget_not_set">Not set</string>
     <string name="widget_unknown">Unknown</string>
     <string name="widget_error">Error</string>

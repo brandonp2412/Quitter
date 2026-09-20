@@ -46,6 +46,39 @@ Map<String, String> _androidStrings(String directory) {
   return strings;
 }
 
+Map<String, Map<String, String>> _androidPlurals(String directory) {
+  final contents = File(
+    'android/app/src/main/res/$directory/strings.xml',
+  ).readAsStringSync();
+  final plurals = <String, Map<String, String>>{};
+
+  for (final pluralMatch in RegExp(
+    r'<plurals\s+name="([^"]+)"[^>]*>([\s\S]*?)</plurals>',
+  ).allMatches(contents)) {
+    final items = <String, String>{};
+    for (final itemMatch in RegExp(
+      r'<item\s+quantity="([^"]+)"[^>]*>([\s\S]*?)</item>',
+    ).allMatches(pluralMatch.group(2)!)) {
+      items[itemMatch.group(1)!] = itemMatch.group(2)!.trim();
+    }
+    plurals[pluralMatch.group(1)!] = items;
+  }
+
+  return plurals;
+}
+
+Set<String> _appleBundleLocalizations(String path) {
+  final contents = File(path).readAsStringSync();
+  final match = RegExp(
+    r'<key>CFBundleLocalizations</key>\s*<array>([\s\S]*?)</array>',
+  ).firstMatch(contents);
+  if (match == null) return const {};
+
+  return RegExp(
+    r'<string>([^<]+)</string>',
+  ).allMatches(match.group(1)!).map((match) => match.group(1)!).toSet();
+}
+
 bool _containsTargetScript(String languageCode, String value) {
   if (languageCode == 'es' || languageCode == 'fr') {
     return RegExp(r'[A-Za-zÀÂÆÇÉÈÊËÎÏÔŒÙÛÜŸàâæçéèêëîïôœùûüÿ]').hasMatch(value);
@@ -461,6 +494,15 @@ void main() {
     );
   });
 
+  test('Apple bundles declare every supported locale', () {
+    final supported = AppLocalizations.supportedLocales
+        .map((locale) => locale.languageCode)
+        .toSet();
+
+    expect(_appleBundleLocalizations('ios/Runner/Info.plist'), supported);
+    expect(_appleBundleLocalizations('macos/Runner/Info.plist'), supported);
+  });
+
   test('web metadata and privacy policy cover every supported locale', () {
     final englishManifest =
         jsonDecode(File('web/manifest.json').readAsStringSync())
@@ -630,17 +672,47 @@ void main() {
 
   test('Android widget strings are translated for every supported locale', () {
     final defaults = _androidStrings('values');
+    final defaultPlurals = _androidPlurals('values');
     expect(defaults, isNotEmpty);
+    expect(defaultPlurals['widget_days']?.keys.toSet(), {'one', 'other'});
+    expect(defaultPlurals['widget_days']?.values, everyElement(contains('%d')));
+
+    const expectedPluralQuantities = {
+      'es': {'one', 'other'},
+      'fr': {'one', 'other'},
+      'ja': {'other'},
+      'ru': {'one', 'few', 'many', 'other'},
+      'zh': {'other'},
+    };
 
     for (final locale in AppLocalizations.supportedLocales) {
       if (locale.languageCode == 'en') continue;
 
       final localized = _androidStrings('values-${locale.languageCode}');
+      final localizedPlurals = _androidPlurals('values-${locale.languageCode}');
       expect(
         localized.keys.toSet(),
         defaults.keys.toSet(),
         reason:
             'Android ${locale.languageCode} strings must match the default resource set',
+      );
+      expect(
+        localizedPlurals.keys.toSet(),
+        defaultPlurals.keys.toSet(),
+        reason:
+            'Android ${locale.languageCode} plurals must match the default resource set',
+      );
+      expect(
+        localizedPlurals['widget_days']?.keys.toSet(),
+        expectedPluralQuantities[locale.languageCode],
+        reason:
+            'Android ${locale.languageCode} must define the locale-appropriate day plural forms',
+      );
+      expect(
+        localizedPlurals['widget_days']?.values,
+        everyElement(contains('%d')),
+        reason:
+            'Android ${locale.languageCode} day plurals must include the day count',
       );
 
       final emptyStrings = defaults.keys
@@ -686,6 +758,14 @@ void main() {
             'Android ${locale.languageCode} strings must not contain English-only placeholder text',
       );
     }
+
+    final widget = File(
+      'android/app/src/main/java/com/quitter/app/QuitTrackerWidget.kt',
+    ).readAsStringSync();
+    expect(widget, contains('getQuantityString('));
+    expect(widget, contains('R.plurals.widget_days'));
+    expect(widget, isNot(contains('widget_day_singular')));
+    expect(widget, isNot(contains('widget_day_plural')));
   });
 
   test('every milestone reference article is wired to localized content', () {

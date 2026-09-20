@@ -31,8 +31,12 @@
     <string name="addiction_synthetic_cannabinoids">Синтетические каннабиноиды</string>
     <string name="addiction_mdma">MDMA</string>
     <string name="addiction_steroids">Анаболические стероиды</string>
-    <string name="widget_day_singular">день</string>
-    <string name="widget_day_plural">дней</string>
+    <plurals name="widget_days">
+        <item quantity="one">%d день</item>
+        <item quantity="few">%d дня</item>
+        <item quantity="many">%d дней</item>
+        <item quantity="other">%d дня</item>
+    </plurals>
     <string name="widget_not_set">Не задано</string>
     <string name="widget_unknown">Неизвестно</string>
     <string name="widget_error">Ошибка</string>

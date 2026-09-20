@@ -31,8 +31,9 @@
     <string name="addiction_synthetic_cannabinoids">合成大麻素</string>
     <string name="addiction_mdma">MDMA</string>
     <string name="addiction_steroids">合成代谢类固醇</string>
-    <string name="widget_day_singular">天</string>
-    <string name="widget_day_plural">天</string>
+    <plurals name="widget_days">
+        <item quantity="other">%d天</item>
+    </plurals>
     <string name="widget_not_set">未设置</string>
     <string name="widget_unknown">未知</string>
     <string name="widget_error">错误</string>
