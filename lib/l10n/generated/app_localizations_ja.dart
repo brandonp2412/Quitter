@@ -1188,6 +1188,9 @@ class AppLocalizationsJa extends AppLocalizations {
   String get settingsLocaleSimplifiedChinese => '簡体字中国語';
 
   @override
+  String get settingsLocaleRussian => 'ロシア語';
+
+  @override
   String get settingsLocaleSystem => 'システムのデフォルト';
 
   @override

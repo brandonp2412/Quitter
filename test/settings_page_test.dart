@@ -121,18 +121,22 @@ void main() {
           findsOneWidget,
         );
         expect(
+          find.descendant(of: dialog, matching: find.text('Russian')),
+          findsOneWidget,
+        );
+        expect(
           AppLocalizations.supportedLocales.map(
             (locale) => locale.languageCode,
           ),
-          ['en', 'ja', 'zh'],
+          ['en', 'ja', 'ru', 'zh'],
         );
 
-        await tester.tap(find.text('Japanese'));
+        await tester.tap(find.text('Russian'));
         await tester.pumpAndSettle();
 
-        expect(settingsProvider.locale, 'ja');
-        expect(find.text('言語'), findsOneWidget);
-        expect(find.text('日本語'), findsOneWidget);
+        expect(settingsProvider.locale, 'ru');
+        expect(find.text('Язык'), findsOneWidget);
+        expect(find.text('Русский'), findsOneWidget);
       },
     );
 

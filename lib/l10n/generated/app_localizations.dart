@@ -7,6 +7,7 @@ import 'package:intl/intl.dart' as intl;
 
 import 'app_localizations_en.dart';
 import 'app_localizations_ja.dart';
+import 'app_localizations_ru.dart';
 import 'app_localizations_zh.dart';
 
 // ignore_for_file: type=lint
@@ -97,6 +98,7 @@ abstract class AppLocalizations {
   static const List<Locale> supportedLocales = <Locale>[
     Locale('en'),
     Locale('ja'),
+    Locale('ru'),
     Locale('zh'),
   ];
 
@@ -2169,6 +2171,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Simplified Chinese'**
   String get settingsLocaleSimplifiedChinese;
+
+  /// Show app in Russian
+  ///
+  /// In en, this message translates to:
+  /// **'Russian'**
+  String get settingsLocaleRussian;
 
   /// Follows the device locale
   ///
@@ -6142,7 +6150,7 @@ class _AppLocalizationsDelegate
 
   @override
   bool isSupported(Locale locale) =>
-      <String>['en', 'ja', 'zh'].contains(locale.languageCode);
+      <String>['en', 'ja', 'ru', 'zh'].contains(locale.languageCode);
 
   @override
   bool shouldReload(_AppLocalizationsDelegate old) => false;
@@ -6155,6 +6163,8 @@ AppLocalizations lookupAppLocalizations(Locale locale) {
       return AppLocalizationsEn();
     case 'ja':
       return AppLocalizationsJa();
+    case 'ru':
+      return AppLocalizationsRu();
     case 'zh':
       return AppLocalizationsZh();
   }

@@ -35,12 +35,13 @@
       const requestedLanguage = (navigator.languages?.[0] ?? navigator.language ?? 'en')
         .toLowerCase()
         .split('-')[0];
-      const language = ['ja', 'zh'].includes(requestedLanguage)
+      const language = ['ja', 'ru', 'zh'].includes(requestedLanguage)
         ? requestedLanguage
         : 'en';
       const descriptions = {
         en: 'Track quitting progress, milestones, journals, and recovery reminders privately and offline.',
         ja: 'やめたい習慣の進捗、節目、日記、回復リマインダーをプライベートかつオフラインで記録できます。',
+        ru: 'Отслеживайте прогресс отказа от привычек, этапы, дневник и напоминания о восстановлении конфиденциально и без подключения к интернету.',
         zh: '私密、离线地记录戒除习惯的进度、里程碑、日记和康复提醒。',
       };
 

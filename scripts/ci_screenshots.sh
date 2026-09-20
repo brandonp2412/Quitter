@@ -18,6 +18,7 @@ locale="${QUITTER_LOCALE:-en}"
 case "$locale" in
   en) store_locale="en-US" ;;
   ja) store_locale="ja-JP" ;;
+  ru) store_locale="ru-RU" ;;
   zh) store_locale="zh-CN" ;;
   *)
     echo "Unsupported QUITTER_LOCALE: $locale" >&2

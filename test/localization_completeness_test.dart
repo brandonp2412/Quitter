@@ -49,6 +49,9 @@ Map<String, String> _androidStrings(String directory) {
 bool _containsTargetScript(String languageCode, String value) {
   for (final rune in value.runes) {
     final isCjk = rune >= 0x4e00 && rune <= 0x9fff;
+    if (languageCode == 'ru' && rune >= 0x0400 && rune <= 0x04ff) {
+      return true;
+    }
     if (languageCode == 'zh' && isCjk) return true;
     if (languageCode == 'ja' &&
         (isCjk ||
@@ -138,8 +141,48 @@ void main() {
     }
   });
 
+  test('screenshot automation covers every supported locale', () {
+    final screenshotTest = File(
+      'integration_test/screenshot_test.dart',
+    ).readAsStringSync();
+    final screenshotDriver = File(
+      'test_driver/integration_test.dart',
+    ).readAsStringSync();
+    final screenshotScript = File(
+      'scripts/ci_screenshots.sh',
+    ).readAsStringSync();
+    final workflow = File('.github/workflows/main.yml').readAsStringSync();
+
+    const storeLocales = {
+      'en': 'en-US',
+      'ja': 'ja-JP',
+      'ru': 'ru-RU',
+      'zh': 'zh-CN',
+    };
+
+    expect(workflow, contains('locale: [en, ja, ru, zh]'));
+    for (final locale in AppLocalizations.supportedLocales) {
+      final languageCode = locale.languageCode;
+      final storeLocale = storeLocales[languageCode];
+      expect(
+        storeLocale,
+        isNotNull,
+        reason: '$languageCode must map to a Play Store screenshot locale',
+      );
+      if (languageCode == 'en') continue;
+
+      expect(screenshotTest, contains("'$languageCode' => '$storeLocale'"));
+      expect(screenshotDriver, contains('"$languageCode" => "$storeLocale"'));
+      expect(
+        screenshotScript,
+        contains('$languageCode) store_locale="$storeLocale"'),
+      );
+      expect(workflow, contains('$languageCode) STORE_LOCALE=$storeLocale'));
+    }
+  });
+
   test('Play Store listing is translated for every supported locale', () {
-    const storeLocales = {'ja': 'ja-JP', 'zh': 'zh-CN'};
+    const storeLocales = {'ja': 'ja-JP', 'ru': 'ru-RU', 'zh': 'zh-CN'};
     const listingFiles = {
       'title.txt',
       'short_description.txt',
@@ -182,6 +225,42 @@ void main() {
           reason: '$storeLocale/$filename must not fall back to English',
         );
       }
+      final englishChangelogs = Directory('${englishDir.path}/changelogs')
+          .listSync()
+          .whereType<File>()
+          .where((file) => file.path.endsWith('.txt'))
+          .toList();
+      expect(englishChangelogs, isNotEmpty);
+      englishChangelogs.sort((a, b) {
+        final aVersion = int.parse(a.uri.pathSegments.last.split('.').first);
+        final bVersion = int.parse(b.uri.pathSegments.last.split('.').first);
+        return aVersion.compareTo(bVersion);
+      });
+      final latestEnglishChangelog = englishChangelogs.last;
+      final changelogName = latestEnglishChangelog.uri.pathSegments.last;
+      final localizedChangelog = File(
+        'fastlane/metadata/android/$storeLocale/changelogs/$changelogName',
+      );
+      expect(
+        localizedChangelog.existsSync(),
+        isTrue,
+        reason: '$storeLocale must translate the latest Play changelog',
+      );
+      final englishChangelog = latestEnglishChangelog.readAsStringSync().trim();
+      final localizedChangelogText = localizedChangelog
+          .readAsStringSync()
+          .trim();
+      expect(localizedChangelogText, isNotEmpty);
+      expect(
+        localizedChangelogText,
+        isNot(equals(englishChangelog)),
+        reason: '$storeLocale latest Play changelog must not be English',
+      );
+      expect(
+        _containsTargetScript(locale.languageCode, localizedChangelogText),
+        isTrue,
+        reason: '$storeLocale latest Play changelog must be translated',
+      );
     }
   });
 
@@ -192,7 +271,7 @@ void main() {
     final englishDescription = englishManifest['description'] as String;
     expect(englishManifest['lang'], 'en');
 
-    const manifestLocales = {'ja', 'zh'};
+    const manifestLocales = {'ja', 'ru', 'zh'};
     for (final locale in AppLocalizations.supportedLocales) {
       if (locale.languageCode == 'en') continue;
 
@@ -220,12 +299,15 @@ void main() {
     final index = File('web/index.html').readAsStringSync();
     expect(index, contains('manifest_'));
     expect(index, contains('やめたい習慣'));
+    expect(index, contains('Отслеживайте прогресс'));
     expect(index, contains('记录戒除习惯'));
 
     final privacy = File('docs/privacy-policy.html').readAsStringSync();
     expect(privacy, contains('Quitter プライバシーポリシー'));
+    expect(privacy, contains('Quitter — Политика конфиденциальности'));
     expect(privacy, contains('Quitter 隐私政策'));
     expect(privacy, contains('?lang=ja'));
+    expect(privacy, contains('?lang=ru'));
     expect(privacy, contains('?lang=zh'));
   });
 

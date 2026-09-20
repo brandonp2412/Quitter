@@ -604,6 +604,10 @@
   "@settingsLocaleSimplifiedChinese": {
     "description": "Show app in Simplified Chinese"
   },
+  "settingsLocaleRussian": "Russian",
+  "@settingsLocaleRussian": {
+    "description": "Show app in Russian"
+  },
   "settingsLocaleSystem": "System default",
   "@settingsLocaleSystem": {
     "description": "Follows the device locale"
