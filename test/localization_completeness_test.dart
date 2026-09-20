@@ -221,10 +221,10 @@ void main() {
       'ru': 'ru-RU',
       'zh': 'zh-CN',
     };
-    const listingFiles = {
-      'title.txt',
-      'short_description.txt',
-      'full_description.txt',
+    const listingLimits = {
+      'title.txt': 30,
+      'short_description.txt': 80,
+      'full_description.txt': 4000,
     };
     final englishDir = Directory('fastlane/metadata/android/en-US');
 
@@ -238,10 +238,17 @@ void main() {
         reason: '${locale.languageCode} must map to a Play Store locale',
       );
 
-      for (final filename in listingFiles) {
+      for (final entry in listingLimits.entries) {
+        final filename = entry.key;
+        final maxCharacters = entry.value;
         final english = File(
           '${englishDir.path}/$filename',
         ).readAsStringSync().trim();
+        expect(
+          english.runes.length,
+          lessThanOrEqualTo(maxCharacters),
+          reason: 'en-US/$filename must stay within the Play Store limit',
+        );
         final localizedFile = File(
           'fastlane/metadata/android/$storeLocale/$filename',
         );
@@ -261,6 +268,12 @@ void main() {
           localized,
           isNot(equals(english)),
           reason: '$storeLocale/$filename must not fall back to English',
+        );
+        expect(
+          localized.runes.length,
+          lessThanOrEqualTo(maxCharacters),
+          reason:
+              '$storeLocale/$filename must stay within the Play Store limit',
         );
       }
       final englishChangelogs = Directory('${englishDir.path}/changelogs')
