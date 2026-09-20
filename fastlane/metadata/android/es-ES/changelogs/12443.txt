@@ -1,0 +1,4 @@
+• Corrige y completa las traducciones al español y al ruso
+• Corrige la localización de las notas de la versión 1.1.64
+• Corrige la generación de los registros de cambios localizados de Google Play
+• Mejora las traducciones al ruso de Adderall

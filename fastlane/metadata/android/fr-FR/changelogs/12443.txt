@@ -1,0 +1,4 @@
+• Termine et corrige les traductions espagnoles et russes
+• Corrige la localisation des notes de version 1.1.64
+• Corrige la génération des journaux des modifications localisés de Google Play
+• Peaufine les traductions russes liées à l’Adderall
