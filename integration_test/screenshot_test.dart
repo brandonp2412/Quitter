@@ -1,5 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:integration_test/integration_test.dart';
 import 'package:provider/provider.dart';
@@ -18,6 +19,10 @@ import 'package:quitter/settings_provider.dart';
 
 Future<void> appWrapper() async {
   WidgetsFlutterBinding.ensureInitialized();
+  await SystemChrome.setEnabledSystemUIMode(
+    SystemUiMode.manual,
+    overlays: const [],
+  );
   final settings = SettingsProvider();
   await settings.loadPreferences();
   final addictions = AddictionProvider();

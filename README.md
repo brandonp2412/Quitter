@@ -58,9 +58,7 @@ A free and open-source quit tracker built around local data, useful milestones, 
 
 ## Help translate Quitter
 
-Translations are managed on [Crowdin](https://crowdin.com/project/quitter). Contributions for any supported language are welcome.
-
-<a href="https://crowdin.com/project/quitter"><img width="140" alt="Translate Quitter on Crowdin" src="https://badges.crowdin.net/badge/dark/crowdin-on-light.png"></a>
+Translations are maintained directly in `lib/l10n/`. Contributions for any supported language are welcome through normal pull requests.
 
 ## Development
 

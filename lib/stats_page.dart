@@ -491,11 +491,7 @@ class _JourneyCard extends StatelessWidget {
               color: theme.colorScheme.onPrimary,
               shape: BoxShape.circle,
             ),
-            child: const Icon(
-              Icons.emoji_events,
-              color: Colors.white,
-              size: 32,
-            ),
+            child: Icon(Icons.emoji_events, color: primary, size: 32),
           ),
         ],
       ),
