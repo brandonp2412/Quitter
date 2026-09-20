@@ -174,9 +174,27 @@ void main() {
   test('repaired Spanish reference articles stay fully localized', () {
     final spanish = _readArb('es');
     const repairedPrefixes = {
+      'adderallReference',
+      'alcoholReference',
       'benzodiazepineReference',
+      'cocaineReference',
+      'ghbReference',
+      'inhalantsReference',
+      'ketamineReference',
+      'kratomReference',
+      'maoiReference',
+      'marijuanaReference',
+      'mdmaReference',
       'methReference',
+      'nitrousOxideReference',
+      'opioidReference',
+      'pornographyReference',
+      'smokingReference',
+      'snriReference',
       'socialMediaReference',
+      'ssriReference',
+      'steroidsReference',
+      'tcaReference',
     };
     final englishScaffolding = RegExp(
       r'\b(?:without|source|what|why|this|the|with|from|people|study|recovery|months?|weeks?|years?|day|found|improved?|still|keep|one|two|three|six)\b',
@@ -199,6 +217,62 @@ void main() {
         isNull,
         reason: '${entry.key} must not contain mixed English scaffolding',
       );
+    }
+  });
+
+  test('Russian translations avoid known machine-translation artifacts', () {
+    final russian = _readArb('ru');
+
+    const forbiddenGlobally = {
+      'скидк',
+      'вывод средств',
+      'бензол',
+      'тяга к еде',
+      'snri',
+      'tca',
+      'maoi',
+      'cws',
+    };
+
+    for (final entry in russian.entries) {
+      if (entry.key.startsWith('@') || entry.value is! String) {
+        continue;
+      }
+
+      final value = (entry.value as String).toLowerCase();
+      for (final phrase in forbiddenGlobally) {
+        expect(
+          value.contains(phrase),
+          isFalse,
+          reason: '${entry.key} must not contain "$phrase"',
+        );
+      }
+
+      if (!entry.key.toLowerCase().contains('smoking')) {
+        expect(
+          value.contains('отказ от курения') ||
+              value.contains('прекращение курения'),
+          isFalse,
+          reason:
+              '${entry.key} must not accidentally refer to quitting smoking',
+        );
+      }
+      if (!entry.key.toLowerCase().contains('ketamine')) {
+        expect(
+          value.contains('тяга к кетамину'),
+          isFalse,
+          reason:
+              '${entry.key} must not accidentally refer to ketamine cravings',
+        );
+      }
+      if (!entry.key.toLowerCase().contains('alcohol')) {
+        expect(
+          value.contains('тяга к алкоголю'),
+          isFalse,
+          reason:
+              '${entry.key} must not accidentally refer to alcohol cravings',
+        );
+      }
     }
   });
 
