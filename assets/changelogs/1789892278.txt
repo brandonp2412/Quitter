@@ -1,0 +1,2 @@
+• localize Play listing and screenshots
+• localize web metadata and privacy policy
