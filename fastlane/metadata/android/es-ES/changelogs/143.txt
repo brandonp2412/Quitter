@@ -1,0 +1,7 @@
+• Añade selectores de fecha
+• Añade bolsitas de nicotina
+• Cambia el icono de alcohol
+• Mejora el estilo de la página de ajustes
+• Abre los enlaces relevantes al tocar estudios
+• Elimina depuración de los recordatorios
+• Elimina notificaciones de depuración

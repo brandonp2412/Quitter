@@ -1,0 +1,10 @@
+• Añade código generado por Claude para finalizar paquetes de Azure
+• Añade la cabecera Content-Type que faltaba a la finalización de Azure
+• Añade más código para supuestamente finalizar despliegues de Microsoft Store
+• Añade tiempo de espera del PIN
+• Añade título en ruso
+• Añade código para supuestamente finalizar despliegues de Microsoft Store
+• Cambia colores fijos por el tema Material
+• Limpia el script de despliegue
+• Crea ru/full_description.txt
+• Crea ru/short_description.txt

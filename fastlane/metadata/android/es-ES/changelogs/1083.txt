@@ -1,0 +1,4 @@
+• Añade controles de Adderall a ajustes
+• Ordena alfabéticamente la página principal
+• Ordena alfabéticamente la página de ajustes
+• Oculta por defecto adicciones estigmatizadas

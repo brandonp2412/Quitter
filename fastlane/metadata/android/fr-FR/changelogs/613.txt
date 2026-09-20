@@ -1,0 +1,5 @@
+• Corrige l’oubli des notifications pour les sachets de nicotine
+• Conserve le bouton de réinitialisation sur la page des étapes d’arrêt
+• Organise le code dans le fournisseur de paramètres
+• Refactorise la page des étapes d’arrêt
+• Refactorise le modèle des pages d’arrêt

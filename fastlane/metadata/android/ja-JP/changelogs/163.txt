@@ -1,0 +1,6 @@
+• 禁止開始時のアニメーションを追加
+• Google Play バッジを追加 [skip ci]
+• Google Play バッジ表記を調整 [skip ci]
+• Microsoft Store 向け設定を追加 [skip ci]
+• 非表示にしたニコチンポーチが表示される問題を修正
+• com.example.quitter を com.quitter.app に置換

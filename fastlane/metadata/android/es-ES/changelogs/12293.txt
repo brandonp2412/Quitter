@@ -1,0 +1,2 @@
+• Corrige la reproducibilidad del lockfile de F-Droid
+• Refuerza las pruebas Patrol frente a problemas de temporización

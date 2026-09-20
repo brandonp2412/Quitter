@@ -1,0 +1,6 @@
+• Ajoute le badge « Disponible sur le Microsoft Store »
+• Corrige les notifications cassées en l’absence d’entrées personnalisées
+• Corrige la page du journal sur ordinateur
+• Supprime les différents boutons de suppression
+• Supprime du code inutilisé de la page des paramètres
+• Affiche un exemple de notification lors du réglage de la fréquence

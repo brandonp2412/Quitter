@@ -1,0 +1,4 @@
+• Azure パッケージ最終処理コードを追加
+• Microsoft Store 配布最終処理を改善
+• Snackbar を移動
+• -n 付きで統合テストをスキップ

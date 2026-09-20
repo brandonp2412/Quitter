@@ -1,0 +1,3 @@
+• Corrige le nombre de jours décalé de 1
+• Agrandit fortement les sélecteurs de couleur
+• Met de nombreux textes en casse de phrase

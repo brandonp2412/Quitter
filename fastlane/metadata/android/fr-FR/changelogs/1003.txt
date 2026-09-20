@@ -1,0 +1,8 @@
+• Permet de définir manuellement la langue
+• feat : ajoute la localisation japonaise de toutes les étapes
+• feat : ajoute la prise en charge de la localisation japonaise
+• Corrige les tests unitaires de la page des paramètres
+• Corrige les tests unitaires
+• fix : met à jour la configuration l10n pour la compatibilité avec Flutter 3.38+
+• Formate whats_new
+• Met Flutter à niveau vers la version 3.38.3

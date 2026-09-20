@@ -1,0 +1,3 @@
+• Añade iconos Material al selector y desplaza la selección hasta la vista
+• Permite editar el icono y color de las plantillas
+• Genera el conjunto completo de iconos Material y carga el selector de forma diferida

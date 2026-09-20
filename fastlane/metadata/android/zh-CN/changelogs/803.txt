@@ -1,0 +1,9 @@
+• 添加 PIN 锁设置
+• 添加 PIN 页面单元测试
+• 修复从设置页面导入数据
+• 修复通知频率文案的复数形式
+• 修复设置页面单元测试
+• 修复单元测试
+• 撤销“从 GitHub Action 移除 Windows Store 发布”
+• 撤销“所有敏感信息使用 secure storage”
+• 使用 secure storage 保存敏感信息

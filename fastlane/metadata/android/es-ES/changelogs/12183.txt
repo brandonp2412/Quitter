@@ -1,0 +1,3 @@
+• Elimina TODO.txt añadido por accidente
+• Actualiza Flutter a 3.38.3
+• Corrige la ejecución de la prueba Patrol del widget de Android

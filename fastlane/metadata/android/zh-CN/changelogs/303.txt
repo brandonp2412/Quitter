@@ -1,0 +1,4 @@
+• 在“关于”中添加分区标题
+• 将 changelog 嵌入 GitHub Release Notes
+• 修复“关于”页面链接
+• 减少部署日志

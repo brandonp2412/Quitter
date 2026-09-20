@@ -1,0 +1,4 @@
+• Corrige les avertissements de lint
+• Supprime du code superflu de deploy.sh
+• Tente de corriger les mises à jour du widget d’écran d’accueil
+• Tente de corriger les mises à jour du widget d’accueil

@@ -1,0 +1,5 @@
+• Met à jour pubspec.lock
+• Ajoute SafeArea à la page d’accueil pour éviter un chevauchement avec la barre d’état lorsque le journal est masqué
+• Déplace SafeArea à la racine pour corriger le double remplissage avec la barre d’onglets
+• Peint l’arrière-plan du Scaffold derrière la zone de la barre d’état
+• Utilise Builder afin que l’arrière-plan de la barre d’état utilise le bon thème

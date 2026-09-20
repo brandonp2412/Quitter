@@ -1,0 +1,4 @@
+• Supprime les commentaires IA inutiles
+• Améliore les performances
+• Refactorise le modèle des pages d’arrêt
+• Utilise des setters au lieu de méthodes set pour le fournisseur de paramètres

@@ -1,0 +1,7 @@
+• Ajoute du code expérimental pour finaliser les déploiements Microsoft Store
+• Crée ru/full_description.txt
+• Crée ru/short_description.txt
+• Formate lib/main.dart
+• Supprime la configuration du chemin du SDK Flutter de VS Code
+• Reste sur la page des paramètres lors de l’activation ou désactivation de la page du journal
+• Utilise le format JSON pour l’exportation et l’importation

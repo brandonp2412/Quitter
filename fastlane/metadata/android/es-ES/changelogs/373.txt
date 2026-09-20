@@ -1,0 +1,6 @@
+• Añade notificaciones de novedades tras las actualizaciones
+• No muestra «Novedades» en la primera instalación
+• Enlaza el estado del envío a F-Droid en el README
+• Corrige advertencias del linter
+• Solo solicita permiso de notificaciones al iniciar un proceso
+• Elimina un import sin usar

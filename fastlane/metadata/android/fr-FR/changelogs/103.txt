@@ -1,0 +1,2 @@
+• Ajoute un indicateur pour ignorer les captures d’écran dans deploy.sh
+• Récupère le code avant d’obtenir le numéro de build sur GitHub

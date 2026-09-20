@@ -1,0 +1,1 @@
+• 在 GitHub Release 正文中追加 VirusTotal 扫描链接

@@ -1,0 +1,6 @@
+• Ajoute l’onglet Journal
+• Ajoute la pagination à la page du journal
+• Alterne les thèmes des captures d’écran
+• Corrige le défilement de la page du journal
+• Place les onglets dans la barre d’application
+• Supprime les imports inutilisés

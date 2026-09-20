@@ -1,0 +1,2 @@
+• Iguala los iconos del selector de widgets de Android con Flutter
+• Restaura el diseño del widget de inicio

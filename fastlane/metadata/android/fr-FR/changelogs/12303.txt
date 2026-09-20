@@ -1,0 +1,2 @@
+• Termine la sélection de la langue de l’application
+• Termine la localisation des chaînes de l’application

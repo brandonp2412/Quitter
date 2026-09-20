@@ -1,0 +1,1 @@
+• 添加全局编译定义以抑制 experimental coroutine 警告

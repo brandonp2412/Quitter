@@ -1,0 +1,7 @@
+• Ajoute des sélecteurs de date
+• Ajoute les sachets de nicotine
+• Modifie l’icône de l’alcool
+• Améliore le style de la page des paramètres
+• Ouvre les liens pertinents lors d’un appui sur les études
+• Supprime le débogage des rappels
+• Supprime les notifications de débogage

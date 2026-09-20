@@ -1,0 +1,3 @@
+• Añade CONTRIBUTING.md
+• Añade entradas personalizadas
+• Evita que parpadee el botón flotante

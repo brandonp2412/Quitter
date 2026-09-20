@@ -1,0 +1,1 @@
+• 在 fastlane 目录补充缺失的 icon.png

@@ -1,0 +1,10 @@
+• Añade CLAUDE.md
+• Añade el script de migración
+• Corrige que la barra de navegación inferior tape la página para añadir una adicción
+• Corrige el desbordamiento con las bolsas de nicotina
+• Corrige las pruebas para ajustarlas a la interfaz actualizada de Inicio y Ajustes
+• Da formato a la prueba
+• Mejora la incorporación de nuevos usuarios
+• Incluye el título al filtrar los ajustes
+• Ejecuta dart format
+• Revierte «chore: remove flutter submodule, use global SDK»

@@ -1,0 +1,6 @@
+• Ajoute le badge « Télécharger depuis le Microsoft Store »
+• Ajoute des textes indicatifs
+• Définit le jour sur 1 par défaut si le champ est vidé
+• Mutualise la mise en page des pages d’arrêt
+• Corrige deploy.sh lorsque plusieurs appareils sont connectés
+• Réinitialise l’arrêt si le champ des jours est vidé

@@ -1,0 +1,10 @@
+• Añade relleno izquierdo al icono de búsqueda
+• Corrige el relleno inferior en hitos
+• Mantén pulsado el icono para renombrar tarjetas de adicción
+• Mantén pulsado para reordenar tarjetas arrastrándolas; al soltar aparecen indicadores X para borrar
+• Reclasifica antidepresivos en ISRS, IRSN, tricíclicos e IMAO
+• Se desplaza al último hito completado en lugar del siguiente
+• Añade relleno inferior a la lista de hitos para que el botón flotante no tape el último elemento
+• Evita un ancho negativo de tarjetas en la página principal cuando la ventana es demasiado estrecha
+• Usa animación suave en lugar de salto instantáneo al desplazarse entre hitos
+• Ordena alfabéticamente las opciones para añadir adicción

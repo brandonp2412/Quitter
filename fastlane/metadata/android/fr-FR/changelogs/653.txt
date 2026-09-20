@@ -1,0 +1,5 @@
+• Permet de planifier l’heure des notifications
+• Corrige les rappels qui sautaient les notifications du lendemain
+• Rend l’heure de notification en lecture seule
+• Réduit la duplication dans le fournisseur de paramètres
+• Sépare la page d’accueil de main.dart

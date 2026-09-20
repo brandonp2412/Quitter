@@ -1,0 +1,9 @@
+• Corrige les contrôles de finalisation du déploiement Microsoft Store
+• Analyse les réponses multilignes du déploiement Store
+• Transmet DWL_APP_ID à l’application Linux
+• Cible les soumissions Store publiées
+• Tente de configurer des hooks Codex pour la validation automatique
+• Intègre la journalisation Talker
+• Force des captures d’écran conformes pour tablettes 7 pouces
+• Renforce les flux de suivi du rétablissement
+• Limite la portée du formatage de qualité Flutter

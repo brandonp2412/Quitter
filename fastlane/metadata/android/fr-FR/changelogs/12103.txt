@@ -1,0 +1,7 @@
+• Supprime retroactive-virustotal.yml
+• Augmente l’espacement de l’ajout d’addiction
+• Met Gradle à niveau
+• Ajoute 8 entrées de rétablissement liées aux substances avec des étapes documentées
+• Restaure l’héroïne comme suivi distinct utilisant les étapes des opioïdes
+• Corrige une deuxième fois le texte des étapes : grammaire, répétitions et jargon
+• Encapsule la feuille inférieure d’effacement d’étape dans SafeArea

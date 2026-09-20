@@ -1,0 +1,7 @@
+• 在 .gitignore 中忽略 playwright MCP
+• 添加缺失的日语和中文翻译
+• “添加依赖”页面加入搜索栏
+• 将主页搜索词带入添加页面并支持同义词匹配
+• 合并共享里程碑组并添加芬太尼/无烟烟草
+• 将失效或付费参考链接替换为权威科学来源
+• 将 quitCardKeepDays 和 alcoholPageQuitDateDisplay 翻译为日语/中文

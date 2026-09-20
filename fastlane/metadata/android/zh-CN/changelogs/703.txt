@@ -1,0 +1,4 @@
+• 修复 lint 警告
+• 精简 deploy.sh
+• 改进主屏幕小组件更新
+• 改进 Home Widget 更新

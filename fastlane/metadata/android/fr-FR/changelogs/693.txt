@@ -1,0 +1,3 @@
+• Corrige les avertissements de lint
+• Tente de corriger les mises à jour du widget d’écran d’accueil
+• Tente de corriger les mises à jour du widget d’accueil

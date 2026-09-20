@@ -1,0 +1,9 @@
+• Añade copia de seguridad e importación
+• Añade widget de pantalla de inicio
+• Añade seguimiento de marihuana
+• Añade barra de búsqueda a los ajustes
+• Corrige el inicio de procesos en escritorio
+• Corrige la actualización de todas las capturas en los despliegues
+• Corrige que Novedades nunca apareciera
+• Enlaza shields.io en el contador de descargas
+• Permite elegir el archivo de salida de la copia

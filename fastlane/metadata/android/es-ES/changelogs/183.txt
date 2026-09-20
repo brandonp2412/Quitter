@@ -1,0 +1,7 @@
+• Corrige que el campo de días mostrara 0 al iniciar
+• Inicializa todos los días en 1
+• Empieza en 1 sin sumar 1 a la entrada del usuario
+• Elimina el botón de inicio al escribir el número de días
+• Elimina la opción verbose al copiar registros de cambios
+• Especifica el dispositivo para las capturas
+• Empieza a contar los días desde 1 en lugar de 0

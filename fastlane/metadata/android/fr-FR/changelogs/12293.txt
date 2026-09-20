@@ -1,0 +1,2 @@
+• Corrige la reproductibilité du fichier de verrouillage F-Droid
+• Renforce les tests Patrol face aux problèmes de synchronisation

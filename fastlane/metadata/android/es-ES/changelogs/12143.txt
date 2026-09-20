@@ -1,0 +1,4 @@
+• Corrige la relación de contraste del título de estadísticas
+• Usa el icono de información para la pestaña de estadísticas
+• Añade pestaña de Estadísticas con estadísticas de recuperación
+• Añade opción para empezar la semana del diario en lunes

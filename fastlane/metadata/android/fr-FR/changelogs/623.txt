@@ -1,0 +1,5 @@
+• Corrige l’effacement des jours d’étape
+• Corrige le nombre de jours d’arrêt décalé de 1
+• Corrige la réinitialisation des étapes
+• Permet un appui long sur les étapes pour effacer l’historique
+• Supprime l’espacement à la fin de la page des étapes

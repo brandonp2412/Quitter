@@ -1,0 +1,2 @@
+• Cambia el color del icono de volver
+• Cambia los estilos de las páginas

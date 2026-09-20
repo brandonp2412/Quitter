@@ -1,0 +1,1 @@
+• Corrige que el diálogo para ocultar quedara tapado por la interfaz del sistema

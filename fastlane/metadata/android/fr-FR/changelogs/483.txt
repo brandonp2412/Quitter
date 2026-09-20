@@ -1,0 +1,1 @@
+• Corrige un bug où le bouton de démarrage définissait toujours le nombre de jours sur 1

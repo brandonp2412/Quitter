@@ -1,0 +1,5 @@
+• 更新 pubspec.lock
+• 日记隐藏时为 HomePage 添加 SafeArea，避免状态栏冲突
+• 将 SafeArea 移到根部以修复标签栏双重间距
+• 在状态栏后绘制 Scaffold 背景
+• 使用 Builder 让状态栏背景读取正确主题

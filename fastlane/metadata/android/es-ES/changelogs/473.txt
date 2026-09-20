@@ -1,0 +1,1 @@
+• Elimina el permiso ACCESS_NETWORK_STATE de Android

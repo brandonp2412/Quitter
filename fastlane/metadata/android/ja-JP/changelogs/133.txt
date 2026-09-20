@@ -1,0 +1,3 @@
+• Google Play 配布工程を修正
+• リマインダーの神経アイコンを修正
+• GitHub Releases での実行を修正

@@ -1,0 +1,4 @@
+• Corrige les notifications temporaires qui ne disparaissaient jamais
+• Déplace l’icône de suppression du coin supérieur gauche vers le coin supérieur droit
+• Ouvre la page d’édition complète depuis le bouton de modification d’une entrée personnalisée
+• Corrige le bouton Retour système pour quitter le mode édition au lieu de quitter l’accueil

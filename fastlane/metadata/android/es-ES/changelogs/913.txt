@@ -1,0 +1,2 @@
+• Añade la cabecera Content-Type que faltaba a la finalización de Azure
+• Limpia el script de despliegue

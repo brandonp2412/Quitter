@@ -1,0 +1,6 @@
+• Ajoute les notifications « Nouveautés » lors des mises à jour
+• N’affiche pas « Nouveautés » lors de la première installation
+• Ajoute au README un lien vers l’état de soumission F-Droid
+• Corrige les problèmes de lint
+• Ne demande l’autorisation de notification qu’au début d’un parcours
+• Supprime un import inutilisé

@@ -1,0 +1,9 @@
+• Ajoute un réglage de verrouillage par PIN
+• Ajoute des tests unitaires pour la page PIN
+• Corrige l’importation de données depuis la page des paramètres
+• Corrige la gestion du pluriel dans la notification du réglage « notifier tous les »
+• Corrige les tests unitaires de la page des paramètres
+• Corrige les tests unitaires
+• Annule « Remove windows store deployment from github action »
+• Annule « Use secure storage for all sensitive information »
+• Utilise le stockage sécurisé pour toutes les informations sensibles

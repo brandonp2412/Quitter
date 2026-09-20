@@ -1,0 +1,4 @@
+• Expose l’action de validation du PIN via un libellé visible par l’utilisateur
+• Masque les tests d’intégration Linux sous dwl
+• Privilégie le libellé de l’action PIN dans les tests
+• Renforce la récupération de l’émulateur pour les captures d’écran

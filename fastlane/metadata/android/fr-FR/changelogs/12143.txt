@@ -1,0 +1,4 @@
+• Corrige le contraste du titre des statistiques
+• Utilise l’icône Insights pour l’onglet Statistiques
+• Ajoute un onglet Statistiques avec des statistiques de rétablissement
+• Ajoute une option pour commencer la semaine du journal le lundi

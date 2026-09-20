@@ -1,0 +1,3 @@
+• Ajoute les dates à la fin de la liste
+• Ne signe les builds que si les clés existent
+• Actualise le nombre de jours lorsque l’application reprend le focus

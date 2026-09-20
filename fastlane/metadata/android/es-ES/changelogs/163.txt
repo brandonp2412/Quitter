@@ -1,0 +1,6 @@
+• Añade animaciones al empezar a dejar un hábito
+• Añade la insignia de Google Play [skip ci]
+• Añade la insignia de Google Play [skip ci]
+• Configura Microsoft Store [skip ci]
+• Corrige que las bolsitas de nicotina siguieran apareciendo después de ocultarlas
+• Sustituye referencias a com.example.quitter por com.quitter.app

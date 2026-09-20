@@ -1,0 +1,1 @@
+• Corrige la compilación en Windows

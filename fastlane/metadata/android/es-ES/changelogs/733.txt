@@ -1,0 +1,7 @@
+• Añade el diario a la lista de funciones del README
+• Capitaliza automáticamente las entradas del diario
+• Limpia el README [skip ci]
+• Corrige el número de días de las capturas
+• Corrige la pluralización de días en entradas personalizadas
+• Facilita el desplazamiento del selector de iconos
+• Usa tema claro en las capturas de edición

@@ -1,0 +1,2 @@
+• Personnalise les titres lorsqu’un parcours n’a pas commencé
+• Corrige l’oubli du réglage d’affichage ou de masquage du bouton de réinitialisation

@@ -1,0 +1,3 @@
+• Localiza marcadores del widget de Android
+• Localiza el título de la aplicación
+• Localiza los artículos de referencia de los hitos

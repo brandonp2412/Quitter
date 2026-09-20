@@ -1,0 +1,8 @@
+• Ajoute les antidépresseurs comme addiction suivie (#79)
+• Ajoute des interrupteurs de notification pour les entrées personnalisées (#78)
+• Corrige la persistance de l’état de blocage du PIN et désactive la sauvegarde des données de l’application
+• Fige glance-appwidget à la version 1.1.0 pour débloquer les builds de publication
+• Empêche le décalage de mise en page lors d’une erreur de PIN avec un SizedBox de hauteur fixe
+• Remplace le lien cassé de Mayo Clinic Press à la journée 365 de la page sur les réseaux sociaux
+• Remplace le lien cassé optimumjoy.com à la journée 3 de la page sur le contenu pour adultes
+• Met à jour les liens de référence cassés ou redirigés dans les pages d’addiction

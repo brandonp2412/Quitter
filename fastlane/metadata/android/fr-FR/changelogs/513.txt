@@ -1,0 +1,5 @@
+• Modifie les indicateurs d’historique des rechutes
+• Améliore les étapes des entrées d’arrêt personnalisées
+• Supprime le badge Microsoft Store
+• Supprime le déploiement Windows Store de l’action GitHub
+• Affiche 1 jour au lieu de 0 jour dans le widget d’écran d’accueil

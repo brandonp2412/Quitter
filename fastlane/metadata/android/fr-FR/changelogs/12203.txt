@@ -1,0 +1,4 @@
+• Tente une nouvelle correction du test Patrol
+• Tente de corriger Patrol dans la CI/CD
+• Corrige les pipelines
+• Tente de corriger le pipeline

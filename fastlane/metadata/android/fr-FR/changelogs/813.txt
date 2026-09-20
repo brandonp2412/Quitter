@@ -1,0 +1,3 @@
+• frontend : corrige l’affichage en mode sombre de journal_page.dart
+• Reformate lib
+• Supprime l’installation de yq de deploy.sh

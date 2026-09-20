@@ -1,0 +1,9 @@
+• Ajoute un sélecteur d’icône personnalisé
+• Ajoute un filtre de recherche à la page « Nouveautés »
+• Modifie la boîte de dialogue de fréquence des notifications
+• Privilégie un contraste d’icône plus clair
+• Corrige le remplissage de la page de modification des entrées personnalisées
+• Améliore le contraste des couleurs d’icônes
+• Uniformise les couleurs de contraste
+• Met à jour quotidiennement les widgets d’écran d’accueil
+• Refactorise les modèles de pages

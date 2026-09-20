@@ -1,0 +1,2 @@
+• Cambia el selector de iconos de entradas personalizadas
+• Hace más alto el selector de iconos

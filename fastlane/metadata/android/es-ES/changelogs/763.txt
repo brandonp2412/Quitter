@@ -1,0 +1,10 @@
+• Añade pruebas unitarias de la página principal
+• Añade más botones de eliminar
+• Añade pruebas de la página de ajustes
+• Añade pruebas de la página del diario
+• Añade interruptor para la pestaña de diario
+• Elimina pruebas unitarias
+• Corrige las pruebas de integración dirigidas a Linux
+• Elimina el indicador de recaída al deshacer
+• Ejecuta pruebas de integración en Linux antes de desplegar
+• Actualiza Flutter a 3.35.5

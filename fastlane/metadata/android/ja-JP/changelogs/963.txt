@@ -1,0 +1,10 @@
+• Azure パッケージ最終処理コードを追加
+• Azure 最終処理に Content-Type ヘッダーを追加
+• Microsoft Store 配布最終処理を改善
+• PIN タイムアウトを追加
+• ロシア語タイトルを追加
+• Microsoft Store 配布コードを追加
+• ハードコード色を Material テーマ色へ変更
+• デプロイスクリプトを整理
+• ru/full_description.txt を作成
+• ru/short_description.txt を作成

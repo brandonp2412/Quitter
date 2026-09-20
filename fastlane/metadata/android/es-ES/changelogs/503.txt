@@ -1,0 +1,6 @@
+• Añade configuraciones de plugins que faltaban para los recordatorios
+• Añade hitos más completos para páginas personalizadas
+• Corrige un error en plataformas distintas de Android
+• Corrige el cálculo del número de días
+• Corrige el cálculo de días
+• Usa avisos coherentes para operaciones de datos en la página de ajustes

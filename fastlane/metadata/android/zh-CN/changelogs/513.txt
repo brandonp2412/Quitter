@@ -1,0 +1,5 @@
+• 调整复发历史标记
+• 改进自定义戒除项目的里程碑
+• 移除 Microsoft Store 徽章
+• 从 GitHub Action 移除 Windows Store 发布
+• 主屏幕小组件显示“1 天”而不是“0 天”

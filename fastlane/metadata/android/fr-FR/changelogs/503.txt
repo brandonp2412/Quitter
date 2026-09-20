@@ -1,0 +1,6 @@
+• Ajoute les configurations de plugins manquantes pour les rappels
+• Ajoute des étapes plus détaillées aux pages d’arrêt personnalisées
+• Corrige une erreur sur les plateformes autres qu’Android
+• Corrige le calcul du nombre de jours
+• Corrige le calcul du nombre de jours
+• Uniformise les messages SnackBar pour les opérations sur les données dans la page des paramètres

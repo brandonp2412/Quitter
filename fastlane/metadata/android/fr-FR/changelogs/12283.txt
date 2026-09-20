@@ -1,0 +1,5 @@
+• Corrige la replanification des tâches en arrière-plan
+• Protège la navigation asynchrone des étapes contre les conditions de concurrence
+• Supprime les commentaires redondants du build Android
+• Simplifie le flux de contrôle et supprime les commentaires obsolètes
+• Actualise le fichier de verrouillage pour des builds reproductibles

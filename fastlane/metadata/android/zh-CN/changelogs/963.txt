@@ -1,0 +1,10 @@
+• 添加 Azure 包最终处理代码
+• 为 Azure 最终处理添加 Content-Type 请求头
+• 改进 Microsoft Store 发布最终处理
+• 添加 PIN 超时
+• 添加俄语标题
+• 添加 Microsoft Store 发布代码
+• 将硬编码颜色改为 Material 主题颜色
+• 清理部署脚本
+• 创建 ru/full_description.txt
+• 创建 ru/short_description.txt

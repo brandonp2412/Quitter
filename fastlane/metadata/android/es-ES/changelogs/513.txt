@@ -1,0 +1,5 @@
+• Cambia los indicadores del historial de recaídas
+• Mejora los hitos de entradas personalizadas
+• Elimina la insignia de Microsoft Store
+• Elimina el despliegue de Windows Store de la acción de GitHub
+• Muestra 1 día en lugar de 0 días en el widget de inicio

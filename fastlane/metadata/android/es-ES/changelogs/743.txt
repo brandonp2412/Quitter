@@ -1,0 +1,4 @@
+• Añade botón «Informar de un error»
+• Corrige el cálculo de diferencias entre días
+• Optimiza el cálculo de diferencias entre días
+• Asigna un color predeterminado aleatorio a nuevas entradas personalizadas

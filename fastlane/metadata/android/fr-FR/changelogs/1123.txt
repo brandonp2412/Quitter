@@ -1,0 +1,3 @@
+• Ajoute un titre à la politique de confidentialité
+• Désactive les notifications d’une addiction lorsqu’elle est masquée
+• Supprime le dégradé de « Disponible sur le Web »

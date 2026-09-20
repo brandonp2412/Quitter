@@ -1,0 +1,2 @@
+• Ajoute un réglage pour balayer entre les onglets
+• Empêche les erreurs sur la page du journal

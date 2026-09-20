@@ -1,0 +1,1 @@
+• Из Android удалено разрешение ACCESS_NETWORK_STATE

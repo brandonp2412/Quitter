@@ -1,0 +1,4 @@
+• Expone la acción de envío del PIN con una etiqueta visible para el usuario
+• Oculta las pruebas de integración de Linux en dwl
+• Prefiere la etiqueta de acción del PIN en las pruebas
+• Refuerza la recuperación del emulador para capturas

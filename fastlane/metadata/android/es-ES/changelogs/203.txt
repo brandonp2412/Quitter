@@ -1,0 +1,5 @@
+• Personaliza títulos y subtítulos
+• Vuelve a generar los iconos
+• Evita animaciones de etiquetas
+• Evita incompatibilidades de versión al desarrollar localmente
+• Usa el color de superficie para el botón del selector de calendario

@@ -1,0 +1,2 @@
+• Corrige la compilation Android
+• Supprime l’erreur de dépréciation des coroutines expérimentales MSVC pour le build Windows

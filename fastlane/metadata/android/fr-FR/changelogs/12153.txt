@@ -1,0 +1,5 @@
+• Corrige l’importation de la base de données
+• Met Serena à jour
+• Met Flutter à niveau vers la version 3.44.6
+• Ajoute un contrôle CI enforce-lockfile pour éviter les échecs de build F-Droid
+• Utilise readAsBytes() pour l’importation et ajoute une gestion des erreurs

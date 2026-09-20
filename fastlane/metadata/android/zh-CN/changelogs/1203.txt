@@ -1,0 +1,10 @@
+• 添加 CLAUDE.md
+• 添加迁移脚本
+• 修复尼古丁袋界面溢出问题
+• 调整测试以匹配更新后的主页和设置页界面
+• 格式化测试
+• 改进新用户引导
+• 设置筛选时包含标题
+• 运行 dart format
+• 撤销“chore: remove flutter submodule, use global SDK”
+• 撤销“ci: replace flutter submodule setup with subosito/flutter-action”

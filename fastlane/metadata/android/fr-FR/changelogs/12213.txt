@@ -1,0 +1,2 @@
+• Harmonise les icônes du sélecteur de widget Android avec Flutter
+• Restaure la mise en page du widget d’accueil

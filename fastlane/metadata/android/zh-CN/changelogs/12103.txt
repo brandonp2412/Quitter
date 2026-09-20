@@ -1,0 +1,7 @@
+• 删除 retroactive-virustotal.yml
+• 增加“添加依赖”页面间距
+• 升级 Gradle
+• 添加 8 个基于研究的物质恢复项目
+• 恢复独立海洛因追踪并复用阿片类里程碑
+• 再次润色里程碑文案：语法、重复和术语
+• 用 SafeArea 包裹清除里程碑 BottomSheet

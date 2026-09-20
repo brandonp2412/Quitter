@@ -1,0 +1,6 @@
+• Añade la insignia «Descargar desde Microsoft Store»
+• Añade textos de ayuda
+• Usa 1 como día predeterminado si se borra la entrada
+• Extrae el diseño común de las páginas de abandono
+• Corrige deploy.sh cuando hay varios dispositivos conectados
+• Reinicia el proceso de abandono si se borra el campo de días

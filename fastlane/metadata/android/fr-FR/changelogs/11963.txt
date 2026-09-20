@@ -1,0 +1,7 @@
+• Fait afficher « Rechercher dans les paramètres » dans la recherche des paramètres
+• Supprime le bouton permettant d’activer toutes les notifications
+• Met à jour le texte de recherche des paramètres
+• Filtre les interrupteurs de notification pour n’afficher que les addictions actives
+• Déclenche une notification d’aperçu lors de l’activation de la notification d’une addiction
+• Nettoie le journal « Nouveautés » et empêche les futurs doublons
+• Corrige la hauteur dynamique des cartes, la barre de recherche plate et raccourcit les notifications

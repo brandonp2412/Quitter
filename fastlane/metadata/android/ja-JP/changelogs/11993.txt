@@ -1,0 +1,3 @@
+• テーマダイアログを SegmentedButton + AMOLED 切替に変更
+• 二重余白を削除して SegmentedButton ラベルの折返しを防止
+• 狭い画面でカードタイトルが折り返す問題を修正

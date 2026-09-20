@@ -1,0 +1,3 @@
+• Ajoute CONTRIBUTING.md
+• Ajoute des entrées personnalisées
+• Empêche le clignotement du bouton flottant

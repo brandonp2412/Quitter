@@ -1,0 +1,10 @@
+• Ajoute CLAUDE.md
+• Ajoute le script de migration
+• Corrige le débordement avec les sachets de nicotine
+• Corrige les tests pour correspondre à l’interface mise à jour des pages d’accueil et des paramètres
+• Formate le test
+• Améliore l’accueil des nouveaux utilisateurs
+• Inclut le titre dans le filtrage des paramètres
+• Exécute dart format
+• Annule « chore: remove flutter submodule, use global SDK »
+• Annule « ci: replace flutter submodule setup with subosito/flutter-action »

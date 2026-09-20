@@ -1,0 +1,4 @@
+• Ajoute un espacement au-dessus du titre dans le suivi de la page d’arrêt
+• Corrige le défilement sur la page de modification d’une entrée
+• Affiche la date complète avec l’année
+• Tente de corriger les mises à jour du widget d’écran d’accueil

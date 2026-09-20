@@ -1,0 +1,4 @@
+• Elimina comentarios basura generados por IA
+• Mejora el rendimiento
+• Refactoriza la plantilla de páginas de abandono
+• Usa setters en lugar de métodos set en el proveedor de ajustes

@@ -1,0 +1,8 @@
+• Añade antidepresivos como adicción seguida (#79)
+• Añade controles de notificación para entradas personalizadas (#78)
+• Corrige la persistencia del bloqueo por PIN y desactiva la copia de datos de la aplicación
+• Fija glance-appwidget en 1.1.0 para desbloquear compilaciones de lanzamiento
+• Evita cambios de diseño en errores de PIN usando un SizedBox de altura fija
+• Sustituye un enlace roto de Mayo Clinic Press en el día 365 de redes sociales
+• Sustituye un enlace roto de optimumjoy.com en el día 3 de pornografía
+• Actualiza enlaces de referencia rotos o redirigidos en las páginas de adicciones

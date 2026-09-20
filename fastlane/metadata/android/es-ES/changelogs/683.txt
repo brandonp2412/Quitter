@@ -1,0 +1,9 @@
+• Añade selector de iconos personalizados
+• Añade filtro de búsqueda a Novedades
+• Cambia el diálogo de frecuencia de notificaciones
+• Prefiere un contraste de iconos más claro
+• Corrige el relleno al editar entradas personalizadas
+• Mejora el contraste de color de los iconos
+• Hace coherentes los colores de contraste
+• Actualiza diariamente los widgets de inicio
+• Refactoriza plantillas de páginas

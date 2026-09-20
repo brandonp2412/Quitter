@@ -1,0 +1,2 @@
+• Añade un ajuste para deslizar entre pestañas
+• Evita errores en la página del diario

@@ -1,0 +1,7 @@
+• Ajoute la tenue d’un journal à la liste des fonctionnalités du README
+• Met automatiquement une majuscule aux entrées du journal
+• Nettoie le README [skip ci]
+• Corrige le nombre de jours dans les captures d’écran
+• Corrige la gestion du pluriel des jours dans les entrées personnalisées
+• Facilite le défilement du sélecteur d’icônes
+• Utilise le thème clair pour les captures d’écran de modification d’entrée

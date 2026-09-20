@@ -1,0 +1,2 @@
+• Corrige l’espacement de l’en-tête principal de l’application
+• Ne demande les autorisations qu’une seule fois

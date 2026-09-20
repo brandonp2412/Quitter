@@ -1,0 +1,7 @@
+• Ajoute un bouton de réinitialisation
+• Ajoute un réglage pour désactiver les messages de rechute
+• Ajoute un réglage pour masquer ou afficher les boutons de réinitialisation
+• Modifie l’icône du bouton de rechute
+• Corrige les références de la page sur l’alcool
+• N’ouvre les sites web qu’en appuyant sur les références
+• Reformule les pages d’arrêt

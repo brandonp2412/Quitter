@@ -1,0 +1,1 @@
+• ABI 分割を build.gradle.kts に組み込み

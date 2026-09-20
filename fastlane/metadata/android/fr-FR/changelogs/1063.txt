@@ -1,0 +1,4 @@
+• Ajoute les benzodiazépines
+• Ajoute l’héroïne
+• Ajoute des boutons « tout activer/désactiver » aux paramètres
+• Synchronise les réglages de notification lors de l’activation des éléments de l’écran principal

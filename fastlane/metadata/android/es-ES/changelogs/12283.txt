@@ -1,0 +1,5 @@
+• Corrige la reprogramación de tareas en segundo plano
+• Protege contra carreras de navegación asíncrona en hitos
+• Elimina comentarios redundantes de compilación Android
+• Simplifica el flujo de control y elimina comentarios obsoletos
+• Actualiza el lockfile para compilaciones reproducibles

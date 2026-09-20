@@ -1,0 +1,10 @@
+• Ajoute un bouton de partage pour annoncer vos progrès
+• Nettoie les journaux des modifications en double
+• Corrige deploy.sh
+• Corrige les pages d’arrêt qui ne défilaient pas jusqu’à l’étape actuelle
+• Corrige la mémorisation du nombre de jours d’arrêt passés
+• Corrige le texte de partage dans le menu de partage personnalisé
+• Corrige la progression de la chronologie lors d’une réinitialisation
+• Refactorise le code
+• Affiche des points indiquant l’historique des arrêts
+• Affiche des étapes similaires dans les entrées personnalisées

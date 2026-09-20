@@ -1,0 +1,3 @@
+• Sustituye el diálogo de tema por SegmentedButton y un control AMOLED
+• Evita que las etiquetas de SegmentedButton se partan eliminando relleno doble
+• Evita que el título de las tarjetas se parta en pantallas estrechas

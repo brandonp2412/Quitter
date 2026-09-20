@@ -1,0 +1,4 @@
+• Mejora textos y referencias sobre dejar hábitos
+• Actualiza serena.yml
+• Corrige 15 URL de referencias de estudios incorrectas o rotas
+• Corrige las citas de estudios inexactas restantes en las páginas de hitos

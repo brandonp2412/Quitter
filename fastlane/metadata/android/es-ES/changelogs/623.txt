@@ -1,0 +1,5 @@
+• Corrige el borrado de días de hitos
+• Corrige un desfase de 1 día en los días sin consumir
+• Corrige el reinicio de hitos
+• Mantén pulsados los hitos para borrar el historial
+• Elimina espacio al final de la página de hitos

@@ -1,0 +1,1 @@
+• Corrige la recherche cassée dans les paramètres

@@ -1,0 +1,4 @@
+• Corrige que los avisos emergentes no desaparecieran nunca
+• Mueve el icono de eliminar de la esquina superior izquierda a la derecha
+• Abre la página completa de edición desde el botón de edición de una entrada personalizada
+• Corrige que al volver con el sistema se saliera de Inicio en vez de cerrar el modo de edición

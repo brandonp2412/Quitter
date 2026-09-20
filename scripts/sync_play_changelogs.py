@@ -108,6 +108,12 @@ def main() -> int:
                 continue
 
             if args.check:
+                if not target.exists():
+                    missing.append(f"{version_code}:{locale} (not synchronized)")
+                    continue
+                existing = target.read_text(encoding="utf-8").strip()
+                if normalize(existing) != normalize(translated):
+                    missing.append(f"{version_code}:{locale} (stale)")
                 continue
 
             target.parent.mkdir(parents=True, exist_ok=True)

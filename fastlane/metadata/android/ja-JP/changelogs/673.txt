@@ -1,0 +1,1 @@
+• fastlane フォルダに不足していた icon.png を追加

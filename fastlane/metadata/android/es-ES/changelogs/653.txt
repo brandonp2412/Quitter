@@ -1,0 +1,5 @@
+• Permite programar la hora de las notificaciones
+• Corrige que los recordatorios omitieran las notificaciones del día siguiente
+• Hace de solo lectura la hora de notificación
+• Reduce duplicación en el proveedor de ajustes
+• Separa la página principal de main.dart

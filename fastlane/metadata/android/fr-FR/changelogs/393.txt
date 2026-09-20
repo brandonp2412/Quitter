@@ -1,0 +1,9 @@
+• Ajoute la sauvegarde et l’importation
+• Ajoute un widget d’écran d’accueil
+• Ajoute le suivi du cannabis
+• Ajoute une barre de recherche aux paramètres
+• Corrige le démarrage d’un parcours sur ordinateur
+• Corrige la mise à jour de toutes les captures d’écran lors des déploiements
+• Corrige « Nouveautés » qui ne s’affichait jamais
+• Ajoute un lien shields.io au compteur de téléchargements
+• Permet de choisir le fichier de sortie pour la sauvegarde

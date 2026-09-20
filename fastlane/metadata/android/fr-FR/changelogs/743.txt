@@ -1,0 +1,4 @@
+• Ajoute un bouton « Signaler un bug »
+• Corrige le calcul des différences de jours
+• Optimise le calcul des différences de jours
+• Choisit aléatoirement la couleur par défaut des nouvelles entrées personnalisées

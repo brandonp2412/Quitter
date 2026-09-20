@@ -1,0 +1,4 @@
+• Corrige advertencias del linter
+• Elimina código innecesario de deploy.sh
+• Intenta corregir las actualizaciones del widget de inicio
+• Intenta corregir las actualizaciones del widget

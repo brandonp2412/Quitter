@@ -1,0 +1,5 @@
+• 修复数据库导入
+• 更新 Serena
+• 升级 Flutter 3.44.6
+• 添加 lockfile 一致性 CI，防止 F-Droid 构建失败
+• 导入时改用 readAsBytes() 并增加错误处理

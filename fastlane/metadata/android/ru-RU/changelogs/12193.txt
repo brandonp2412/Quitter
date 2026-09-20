@@ -1,0 +1,4 @@
+• Patrol добавлен в PATH GitHub Action
+• Удалён случайно добавленный TODO.txt
+• Flutter обновлён до 3.38.3
+• Исправлен запуск Patrol-теста Android-виджета

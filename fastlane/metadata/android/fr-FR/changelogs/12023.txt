@@ -1,0 +1,10 @@
+• Ajoute un remplissage à gauche de l’icône de recherche
+• Corrige le remplissage inférieur des étapes
+• Permet de renommer l’icône des cartes d’addiction par appui long
+• Permet de réordonner les cartes par glisser-déposer après un appui long et affiche des badges X de suppression au relâchement
+• Reclasse les antidépresseurs en ISRS, IRSN, antidépresseurs tricycliques et IMAO
+• Fait défiler vers la dernière étape terminée plutôt que vers la prochaine
+• Ajoute un remplissage inférieur à la liste des étapes pour que le bouton flottant ne masque pas le dernier élément
+• Empêche une largeur de carte négative sur la page d’accueil lorsque la fenêtre est trop étroite
+• Utilise une animation fluide au lieu d’un saut instantané lors du défilement vers une étape
+• Trie alphabétiquement les options d’ajout d’addiction

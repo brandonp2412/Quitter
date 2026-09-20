@@ -1,0 +1,2 @@
+• Corrige la compilación de Android
+• Suprime el error de obsolescencia de corrutinas experimentales de MSVC en Windows

@@ -1,0 +1,2 @@
+• Añade una opción para omitir capturas en deploy.sh
+• Hace checkout del código antes de obtener el número de compilación en GitHub

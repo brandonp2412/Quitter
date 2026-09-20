@@ -1,0 +1,2 @@
+• Corrige el espaciado del encabezado principal
+• Solo solicita permisos una vez

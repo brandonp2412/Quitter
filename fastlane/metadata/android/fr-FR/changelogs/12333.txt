@@ -1,0 +1,3 @@
+• Localise les espaces réservés du widget Android
+• Localise le titre de l’application
+• Localise les articles de référence des étapes

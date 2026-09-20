@@ -1,0 +1,2 @@
+• Completa la selección de idioma de la aplicación
+• Completa las cadenas localizadas de la aplicación

@@ -1,0 +1,5 @@
+• 支持设置通知时间
+• 修复提醒跳过次日通知的问题
+• 通知时间输入改为只读
+• 减少 SettingsProvider 重复代码
+• 拆分 HomePage 和 main.dart

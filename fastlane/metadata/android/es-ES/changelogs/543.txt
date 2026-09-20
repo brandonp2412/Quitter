@@ -1,0 +1,10 @@
+• Añade la insignia «Obtener en la web»
+• Añade marihuana a la página de ajustes
+• Capitaliza automáticamente las entradas personalizadas
+• Cambia los mensajes al exportar e importar
+• Corrige la capitalización automática de entradas personalizadas
+• Corrige el cálculo de días al editar entradas personalizadas
+• Oculta el botón de reinicio en el día 1
+• Solo muestra adicciones abandonadas al elegir widget
+• Actualiza el widget de inicio con más frecuencia
+• Solicita notificaciones después de importar

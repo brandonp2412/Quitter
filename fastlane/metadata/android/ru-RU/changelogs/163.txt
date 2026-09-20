@@ -1,0 +1,6 @@
+• Добавлены анимации при начале отказа
+• Добавлен значок Google Play [skip ci]
+• Исправлен текст значка Google Play [skip ci]
+• Добавлена конфигурация для Microsoft Store [skip ci]
+• Исправлен показ никотиновых паучей после их скрытия
+• com.example.quitter заменён на com.quitter.app

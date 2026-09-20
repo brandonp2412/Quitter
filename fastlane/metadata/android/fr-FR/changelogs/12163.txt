@@ -1,0 +1,4 @@
+• Améliore les textes et références d’arrêt
+• Met serena.yml à jour
+• Corrige 15 URL de références d’études erronées ou cassées
+• Corrige les autres citations d’études inexactes dans les pages d’étapes

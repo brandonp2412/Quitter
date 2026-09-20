@@ -1,0 +1,3 @@
+• Ajoute les icônes Material au sélecteur et fait défiler la sélection pour la rendre visible
+• Rend modifiables l’icône et la couleur des tuiles prédéfinies
+• Génère l’ensemble complet des icônes Material et charge le sélecteur à la demande

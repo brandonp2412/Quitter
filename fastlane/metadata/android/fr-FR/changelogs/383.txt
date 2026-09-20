@@ -1,0 +1,6 @@
+• Ajoute la sauvegarde et l’importation
+• Ajoute un widget d’écran d’accueil
+• Ajoute le suivi du cannabis
+• Ajoute une barre de recherche aux paramètres
+• Corrige le démarrage d’un parcours sur ordinateur
+• Permet de choisir le fichier de sortie pour la sauvegarde

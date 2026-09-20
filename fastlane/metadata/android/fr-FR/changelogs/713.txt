@@ -1,0 +1,2 @@
+• Modifie le sélecteur d’icônes pour les entrées personnalisées
+• Agrandit le sélecteur d’icônes

@@ -1,0 +1,7 @@
+• Elimina retroactive-virustotal.yml
+• Aumenta el espaciado al añadir adicción
+• Actualiza Gradle
+• Añade 8 entradas de recuperación de sustancias con hitos investigados
+• Restaura heroína como seguimiento independiente usando hitos de opioides
+• Segunda revisión del texto de hitos: gramática, repeticiones y jerga
+• Envuelve la hoja inferior para borrar hitos en SafeArea

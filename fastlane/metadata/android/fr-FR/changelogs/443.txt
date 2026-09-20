@@ -1,0 +1,5 @@
+• Supprime les commentaires IA inutiles
+• Corrige les tests d’intégration
+• Améliore les performances
+• Refactorise le modèle des pages d’arrêt
+• Utilise des setters au lieu de méthodes set pour le fournisseur de paramètres

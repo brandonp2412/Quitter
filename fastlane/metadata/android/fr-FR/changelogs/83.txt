@@ -1,0 +1,3 @@
+• Ajoute les imports manquants à build.gradle.kts
+• Ajoute la politique de confidentialité
+• Signe les builds de publication lors de la compilation

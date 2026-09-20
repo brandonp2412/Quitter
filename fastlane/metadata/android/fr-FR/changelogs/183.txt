@@ -1,0 +1,7 @@
+• Corrige le champ du nombre de jours qui affichait 0 au démarrage
+• Initialise tous les nombres de jours à 1
+• Commence simplement à 1 sans ajouter 1 à la saisie de l’utilisateur
+• Supprime le bouton de démarrage lors de la saisie du nombre de jours
+• Supprime l’option verbeuse lors de la copie des journaux des modifications
+• Spécifie l’appareil pour les captures d’écran
+• Commence le comptage des jours à 1 au lieu de 0

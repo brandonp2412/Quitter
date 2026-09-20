@@ -1,0 +1,7 @@
+• Autorise la sélection des entrées personnalisées dans le widget d’écran d’accueil
+• Modifie le titre et le libellé de couleur sur la page d’entrée personnalisée
+• Corrige les captures d’écran du README
+• Corrige la page « Nouveautés » sur le Web
+• Rend le libellé du sélecteur de couleur plus cohérent
+• Supprime les liens maladroits du README
+• Petite refactorisation

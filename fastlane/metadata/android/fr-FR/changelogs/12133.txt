@@ -1,0 +1,7 @@
+• Ignore Playwright MCP dans .gitignore
+• Ajoute les traductions japonaises et chinoises manquantes
+• Ajoute une barre de recherche à la page d’ajout d’addiction
+• Transmet la recherche de l’accueil à la page d’ajout et ajoute la correspondance des synonymes
+• Regroupe les groupes d’étapes partagés et ajoute le fentanyl et le tabac sans fumée
+• Remplace les liens cassés ou payants par des URL scientifiques faisant autorité
+• Traduit quitCardKeepDays et alcoholPageQuitDateDisplay en japonais et en chinois

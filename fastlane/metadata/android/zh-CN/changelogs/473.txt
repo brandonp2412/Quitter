@@ -1,0 +1,1 @@
+• 移除 Android 的 ACCESS_NETWORK_STATE 权限

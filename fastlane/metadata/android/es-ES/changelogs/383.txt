@@ -1,0 +1,6 @@
+• Añade copia de seguridad e importación
+• Añade widget de pantalla de inicio
+• Añade seguimiento de marihuana
+• Añade barra de búsqueda a los ajustes
+• Corrige el inicio de procesos en escritorio
+• Permite elegir el archivo de salida de la copia

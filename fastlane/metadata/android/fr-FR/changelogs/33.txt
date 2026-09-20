@@ -1,0 +1,2 @@
+• Corrige l’étape de compilation Android
+• Corrige la compilation pour Linux

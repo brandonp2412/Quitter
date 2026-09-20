@@ -1,0 +1,7 @@
+• Añade botón de reinicio
+• Añade un ajuste para desactivar mensajes de recaída
+• Añade un ajuste para ocultar o mostrar botones de reinicio
+• Cambia el icono del botón de recaída
+• Corrige las referencias de la página de alcohol
+• Solo abre sitios web al tocar referencias
+• Reformula las páginas de abandono

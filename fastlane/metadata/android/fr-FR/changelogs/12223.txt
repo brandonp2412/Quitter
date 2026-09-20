@@ -1,0 +1,4 @@
+• Synchronise automatiquement les métadonnées du Google Play Store (#107)
+• Aligne les affirmations des étapes sur les preuves citées
+• Applique localement le durcissement Flutter
+• Qualifie les titres d’étapes non étayés

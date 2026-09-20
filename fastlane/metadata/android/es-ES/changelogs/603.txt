@@ -1,0 +1,4 @@
+• Añade espacio sobre el título del seguimiento en la página de abandono
+• Corrige el desplazamiento en la página de editar entrada
+• Muestra la fecha completa, incluido el año
+• Intenta corregir las actualizaciones del widget de inicio

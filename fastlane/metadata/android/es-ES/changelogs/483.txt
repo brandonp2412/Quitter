@@ -1,0 +1,1 @@
+• Corrige un error por el que el botón de inicio siempre establecía los días en 1

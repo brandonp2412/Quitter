@@ -1,0 +1,7 @@
+• playwright MCP を .gitignore に追加
+• 不足していた日本語／中国語翻訳を追加
+• 依存追加画面に検索バーを追加
+• ホーム検索語を追加画面へ引き継ぎ、同義語検索を追加
+• 共通マイルストーングループを統合し、フェンタニル／無煙タバコを追加
+• 壊れた／有料のリンクを信頼できる科学的 URL に置換
+• quitCardKeepDays と alcoholPageQuitDateDisplay を日本語／中国語へ翻訳

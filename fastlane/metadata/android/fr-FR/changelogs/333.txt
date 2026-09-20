@@ -1,0 +1,2 @@
+• Modifie la couleur de l’icône Retour
+• Modifie les styles des pages

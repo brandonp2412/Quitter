@@ -1,0 +1,6 @@
+• Añade insignia «Obtener en Microsoft Store»
+• Corrige notificaciones rotas cuando no hay entradas personalizadas
+• Corrige la página del diario en escritorio
+• Elimina los distintos botones de borrado
+• Elimina código sin usar de la página de ajustes
+• Muestra una notificación de ejemplo al configurar la frecuencia

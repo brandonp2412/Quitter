@@ -1,0 +1,4 @@
+• Ajoute un délai d’expiration du PIN
+• Corrige la finalisation du déploiement Azure
+• Corrige le délai de verrouillage
+• Corrige les tests unitaires

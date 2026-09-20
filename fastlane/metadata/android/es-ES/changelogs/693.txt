@@ -1,0 +1,3 @@
+• Corrige advertencias del linter
+• Intenta corregir las actualizaciones del widget de inicio
+• Intenta corregir las actualizaciones del widget

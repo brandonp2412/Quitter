@@ -1,0 +1,5 @@
+• 删除无用的 AI 注释
+• 修复集成测试
+• 提升性能
+• 重构戒除页面模板
+• SettingsProvider 改用 setter

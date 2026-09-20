@@ -1,0 +1,9 @@
+• Microsoft Store rollout 最終処理チェックを修正
+• 複数行の Store rollout 応答を解析
+• Linux アプリへ DWL_APP_ID を渡す
+• 公開済み Store submission を対象化
+• 自動検証用 Codex hooks を試験導入
+• Talker ロギングを統合
+• 7インチスクリーンショットの準拠を強化
+• 回復追跡フローを堅牢化
+• Flutter 品質フォーマット範囲を修正

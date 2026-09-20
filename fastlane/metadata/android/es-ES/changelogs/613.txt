@@ -1,0 +1,5 @@
+• Corrige que no se recordaran las notificaciones de bolsitas de nicotina
+• Mantiene el botón de reinicio en la página de hitos
+• Organiza el código del proveedor de ajustes
+• Refactoriza la página de hitos
+• Refactoriza la plantilla de páginas de abandono

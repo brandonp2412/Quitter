@@ -1,0 +1,7 @@
+• Hace que la búsqueda de ajustes diga «Buscar ajustes»
+• Elimina el botón para activar todas las notificaciones
+• Actualiza el texto de búsqueda de ajustes
+• Filtra los controles de notificación para mostrar solo adicciones activas
+• Envía una notificación de prueba al activar un control de adicción
+• Limpia el registro de Novedades y evita futuros duplicados
+• Corrige alturas dinámicas de tarjetas, barra de búsqueda plana y notificaciones más cortas

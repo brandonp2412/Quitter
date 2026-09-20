@@ -1,0 +1,10 @@
+• Ajoute du code expérimental pour la finalisation du package Azure
+• Ajoute l’en-tête Content-Type manquant à la finalisation Azure
+• Ajoute davantage de code expérimental pour finaliser les déploiements Microsoft Store
+• Ajoute un délai d’expiration du PIN
+• Ajoute le titre russe
+• Ajoute du code expérimental pour finaliser les déploiements Microsoft Store
+• Remplace les couleurs codées en dur par celles du thème Material
+• Nettoie le script de déploiement
+• Crée ru/full_description.txt
+• Crée ru/short_description.txt

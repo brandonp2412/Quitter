@@ -1,0 +1,6 @@
+• Modifie les couleurs de modification et de suppression des cartes d’arrêt
+• Corrige une erreur dans gradle.properties
+• Corrige une erreur de la page du journal
+• Corrige le remplissage à gauche de la recherche sur la page d’accueil
+• Déplace les paramètres dans un bouton de la barre de recherche de la page d’accueil
+• Anime en continu la couleur de l’icône SVG Quitter lors du balayage entre les onglets

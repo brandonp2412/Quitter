@@ -1,0 +1,4 @@
+• Añade un encabezado de sección a Acerca de
+• Incluye el registro de cambios en las notas de versión de GitHub
+• Corrige enlaces de la página Acerca de
+• Reduce los registros de los despliegues

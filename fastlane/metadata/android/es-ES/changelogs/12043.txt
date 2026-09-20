@@ -1,0 +1,6 @@
+• Cambia los colores de editar y eliminar en las tarjetas
+• Corrige un error de propiedades de Gradle
+• Corrige un error de la página del diario
+• Corrige el relleno izquierdo de la búsqueda de inicio
+• Mueve los ajustes a un botón dentro de la barra de búsqueda principal
+• Anima continuamente el color del icono SVG de Quitter al deslizar entre pestañas

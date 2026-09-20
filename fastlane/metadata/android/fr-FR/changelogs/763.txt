@@ -1,0 +1,10 @@
+• Ajoute des tests unitaires pour la page d’accueil
+• Ajoute davantage de boutons de suppression
+• Ajoute des tests pour la page des paramètres
+• Ajoute des tests pour la page du journal
+• Ajoute un interrupteur pour l’onglet Journal
+• Supprime des tests unitaires
+• Corrige les tests d’intégration ciblant Linux
+• Supprime l’indicateur de rechute lors d’une annulation
+• Exécute les tests d’intégration sous Linux avant le déploiement
+• Met Flutter à niveau vers la version 3.35.5

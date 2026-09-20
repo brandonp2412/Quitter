@@ -1,0 +1,9 @@
+• Añade ajuste de bloqueo con PIN
+• Añade pruebas unitarias para la página del PIN
+• Corrige la importación de datos desde ajustes
+• Corrige la pluralización de la notificación del ajuste «notificar cada»
+• Corrige pruebas de la página de ajustes
+• Corrige pruebas unitarias
+• Revierte «Eliminar despliegue de Windows Store de la acción de GitHub»
+• Revierte «Usar almacenamiento seguro para toda la información sensible»
+• Usa almacenamiento seguro para toda la información sensible

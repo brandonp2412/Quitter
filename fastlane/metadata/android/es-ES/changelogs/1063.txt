@@ -1,0 +1,4 @@
+• Añade benzodiacepinas
+• Añade heroína
+• Añade botones para activar o desactivar todo en ajustes
+• Sincroniza los ajustes de notificación al alternar elementos de la pantalla principal

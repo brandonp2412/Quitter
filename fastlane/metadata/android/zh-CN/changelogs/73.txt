@@ -1,0 +1,3 @@
+• 修复 GitHub Release 创建流程
+• 在 deploy.sh 末尾执行 push
+• 改为在本地生成截图

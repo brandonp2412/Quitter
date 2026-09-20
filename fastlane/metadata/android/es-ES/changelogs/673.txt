@@ -1,0 +1,1 @@
+• Añade el icon.png que faltaba a la carpeta de Fastlane

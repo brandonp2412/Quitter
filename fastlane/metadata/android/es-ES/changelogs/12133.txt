@@ -1,0 +1,7 @@
+• Ignora el MCP de Playwright en .gitignore
+• Añade traducciones japonesas y chinas que faltaban
+• Añade barra de búsqueda a la página de añadir adicción
+• Transfiere la búsqueda de inicio a la página de añadir y añade coincidencias por sinónimos
+• Consolida grupos de hitos compartidos y añade fentanilo y tabaco sin humo
+• Sustituye enlaces rotos o de pago por URL científicas autorizadas
+• Traduce quitCardKeepDays y alcoholPageQuitDateDisplay al japonés y chino

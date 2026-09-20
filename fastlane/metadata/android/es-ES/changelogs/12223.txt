@@ -1,0 +1,4 @@
+• Sincroniza automáticamente los metadatos de Google Play (#107)
+• Alinea las afirmaciones de los hitos con la evidencia citada
+• Aplica localmente el endurecimiento de Flutter
+• Matiza los títulos de hitos no respaldados

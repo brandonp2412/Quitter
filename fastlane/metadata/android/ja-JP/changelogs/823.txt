@@ -1,0 +1,3 @@
+• frontend: journal_page.dart のダークモード表示を修正
+• lib を再フォーマット
+• deploy.sh から yq のインストールを削除

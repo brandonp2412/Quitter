@@ -1,0 +1,10 @@
+• Añade botón para compartir el progreso
+• Limpia registros de cambios duplicados
+• Corrige deploy.sh
+• Corrige que las páginas de abandono no se desplazaran al hito actual
+• Corrige el recuerdo del número de días ya transcurridos al empezar
+• Corrige el texto compartido del menú personalizado
+• Corrige el progreso de la cronología al reiniciar
+• Refactoriza código
+• Muestra puntos que indican el historial de abandono
+• Muestra hitos similares en entradas personalizadas

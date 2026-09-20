@@ -1,0 +1,5 @@
+• Personnalise les titres et sous-titres
+• Régénère les icônes
+• Empêche les animations des libellés
+• Empêche les incompatibilités de version lors du développement local
+• Utilise la couleur de surface pour le bouton du sélecteur de calendrier

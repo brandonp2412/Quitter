@@ -1,0 +1,5 @@
+• データベースのインポートを修正
+• Serena を更新
+• Flutter 3.44.6 に更新
+• F-Droid ビルド失敗防止の lockfile 検証 CI を追加
+• import で readAsBytes() を使いエラー処理を追加

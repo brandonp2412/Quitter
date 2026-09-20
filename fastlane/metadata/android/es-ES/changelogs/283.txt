@@ -1,0 +1,1 @@
+• Corrige el escalado en pantallas más altas

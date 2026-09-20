@@ -1,0 +1,9 @@
+• Corrige las comprobaciones de finalización del despliegue en Microsoft Store
+• Analiza respuestas multilínea del despliegue de Store
+• Transmite DWL_APP_ID a la aplicación Linux
+• Apunta a envíos publicados de Store
+• Intenta configurar hooks de Codex para validación automática
+• Integra registros con Talker
+• Garantiza capturas compatibles de siete pulgadas
+• Refuerza los flujos de seguimiento de recuperación
+• Limita el formato de calidad de Flutter

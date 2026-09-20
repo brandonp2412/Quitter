@@ -1,0 +1,4 @@
+• Añade tiempo de espera del PIN
+• Corrige la finalización del despliegue en Azure
+• Corrige el tiempo de bloqueo
+• Corrige pruebas unitarias

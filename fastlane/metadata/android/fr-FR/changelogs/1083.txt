@@ -1,0 +1,4 @@
+• Ajoute les interrupteurs Adderall à la page des paramètres
+• Trie la page d’accueil par ordre alphabétique
+• Trie la page des paramètres par ordre alphabétique
+• Masque par défaut les addictions stigmatisées

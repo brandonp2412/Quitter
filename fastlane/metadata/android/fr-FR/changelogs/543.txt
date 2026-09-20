@@ -1,0 +1,10 @@
+• Ajoute le badge « Disponible sur le Web »
+• Ajoute le cannabis à la page des paramètres
+• Met automatiquement une majuscule aux entrées personnalisées
+• Modifie les messages toast lors de l’exportation et de l’importation
+• Corrige la capitalisation automatique des entrées personnalisées
+• Corrige le calcul du nombre de jours lors de la modification d’entrées personnalisées
+• Masque le bouton de réinitialisation au jour 1
+• N’affiche que les addictions actives lors du choix du widget
+• Actualise plus souvent le widget d’écran d’accueil
+• Demande l’autorisation de notification après une importation

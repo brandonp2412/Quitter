@@ -1,0 +1,3 @@
+• lib/main.dart をフォーマット
+• VS Code の Flutter SDK パス設定を削除
+• ジャーナル切替時も設定画面に留まるよう変更

@@ -1,0 +1,3 @@
+• Rend le sélecteur Patrol du widget plus robuste
+• Remplace les mythes sur le contenu pour adultes par des informations fondées sur les preuves
+• Restaure des textes d’étapes étayés par les preuves

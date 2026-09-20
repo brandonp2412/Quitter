@@ -1,0 +1,3 @@
+• Corrige l’étape de déploiement sur Google Play
+• Corrige l’icône neurologique des rappels
+• Corrige l’exécution dans les versions GitHub

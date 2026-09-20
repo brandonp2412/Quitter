@@ -1,0 +1,4 @@
+• Añade código generado por Claude para finalizar paquetes de Azure
+• Añade más código para supuestamente finalizar despliegues de Microsoft Store
+• Mueve el aviso emergente
+• Omite pruebas de integración con -n

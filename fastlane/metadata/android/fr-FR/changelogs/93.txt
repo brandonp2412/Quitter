@@ -1,0 +1,3 @@
+• Corrige les codes de version des ABI fractionnées
+• Génère des captures d’écran pour tous les écrans
+• Harmonise les couleurs de l’application avec celles des badges

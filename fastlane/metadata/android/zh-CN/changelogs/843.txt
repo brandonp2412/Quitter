@@ -1,0 +1,3 @@
+• 格式化 lib/main.dart
+• 移除 VS Code 的 Flutter SDK 路径配置
+• 切换日记设置时仍停留在设置页面

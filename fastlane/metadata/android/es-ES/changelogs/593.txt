@@ -1,0 +1,7 @@
+• Permite seleccionar entradas personalizadas en el widget de inicio
+• Cambia el título y la etiqueta de color en la página de entradas personalizadas
+• Corrige las capturas del README
+• Corrige la página «Novedades» en la web
+• Hace más coherente la etiqueta del selector de color
+• Elimina enlaces incómodos del README
+• Pequeña refactorización

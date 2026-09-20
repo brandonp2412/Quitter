@@ -1,0 +1,4 @@
+• Ajoute un en-tête de section à À propos
+• Intègre le journal des modifications aux notes de version GitHub
+• Corrige les liens de la page À propos
+• Réduit les journaux de déploiement

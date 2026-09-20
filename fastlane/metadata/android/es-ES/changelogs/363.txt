@@ -1,0 +1,2 @@
+• Personaliza los encabezados cuando aún no se ha empezado
+• Corrige que la aplicación no recordara si mostrar u ocultar el botón de reinicio

@@ -1,0 +1,2 @@
+• F-Droid lockfile の再現性を修正
+• Patrol テストのタイミング耐性を強化

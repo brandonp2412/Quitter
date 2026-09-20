@@ -1,0 +1,1 @@
+• Ajoute une définition globale de compilation pour supprimer l’erreur liée aux coroutines expérimentales

@@ -1,0 +1,3 @@
+• Remplace la boîte de dialogue de thème par SegmentedButton avec une option AMOLED
+• Empêche le retour à la ligne des libellés de SegmentedButton en supprimant le double remplissage
+• Empêche le titre des cartes de passer à la ligne sur les écrans étroits

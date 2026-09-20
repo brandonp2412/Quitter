@@ -1,0 +1,7 @@
+• Azure パッケージ最終処理用コードを追加
+• ru/full_description.txt を作成
+• ru/short_description.txt を作成
+• lib/main.dart をフォーマット
+• VS Code の Flutter SDK パス設定を削除
+• ジャーナル切替時も設定画面に留まるよう変更
+• エクスポート／インポートを JSON 形式に変更

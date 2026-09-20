@@ -1,0 +1,7 @@
+• Añade código basura para supuestamente finalizar despliegues de Microsoft Store
+• Crea ru/full_description.txt
+• Crea ru/short_description.txt
+• Formatea lib/main.dart
+• Elimina la configuración de la ruta del SDK de Flutter de VS Code
+• Permanece en ajustes al activar o desactivar la página del diario
+• Usa formato JSON para exportar e importar

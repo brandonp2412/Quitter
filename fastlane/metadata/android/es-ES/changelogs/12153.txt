@@ -1,0 +1,5 @@
+• Corrige la importación de la base de datos
+• Actualiza Serena
+• Actualiza Flutter a 3.44.6
+• Añade una comprobación de bloqueo de dependencias en CI para evitar fallos de compilación en F-Droid
+• Usa readAsBytes() para importar y añade gestión de errores

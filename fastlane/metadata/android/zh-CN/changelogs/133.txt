@@ -1,0 +1,3 @@
+• 修复 Google Play 发布步骤
+• 修复提醒中的神经系统图标
+• 修复在 GitHub Releases 中运行

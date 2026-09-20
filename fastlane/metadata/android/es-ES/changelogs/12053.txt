@@ -1,0 +1,5 @@
+• Actualiza pubspec.lock
+• Añade SafeArea a la página principal para evitar solaparse con la barra de estado cuando el diario está oculto
+• Mueve SafeArea a la raíz para corregir el relleno doble con la barra de pestañas
+• Pinta el fondo del Scaffold detrás de la barra de estado
+• Usa Builder para que el fondo de la barra de estado lea el tema correcto

@@ -1,0 +1,3 @@
+• Corrige un desfase de 1 día
+• Hace mucho más grandes los selectores de color
+• Normaliza el uso de mayúsculas y minúsculas

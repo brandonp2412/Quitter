@@ -1,0 +1,2 @@
+• Reduce los registros de la compilación de Gradle
+• Rediseña la página principal

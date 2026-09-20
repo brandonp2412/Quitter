@@ -1,0 +1,6 @@
+• Ajoute des animations au début d’un arrêt
+• Ajoute le badge « Disponible sur Google Play » [skip ci]
+• Ajoute le badge « Disponible sur Google Play » [skip ci]
+• Configure l’application pour le Microsoft Store [skip ci]
+• Corrige l’affichage persistant des sachets de nicotine après leur masquage
+• Remplace les références à com.example.quitter par com.quitter.app

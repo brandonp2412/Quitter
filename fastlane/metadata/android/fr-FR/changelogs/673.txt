@@ -1,0 +1,1 @@
+• Ajoute icon.png manquant au dossier Fastlane
