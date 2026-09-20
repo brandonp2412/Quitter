@@ -1,0 +1,10 @@
+• localize 1.1.63 release notes
+• Fix clean Spanish alcohol and kratom milestones
+• Fix complete Spanish GHB milestone translations
+• Fix complete Spanish MAOI milestone translations
+• Fix complete Spanish MDMA milestone translations
+• Fix complete Spanish SNRI milestone translations
+• Fix complete Spanish SSRI milestone translations
+• Fix complete Spanish TCA milestone translations
+• Fix complete Spanish cannabis milestone translations
+• Fix complete Spanish nitrous oxide milestone translations
