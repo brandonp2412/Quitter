@@ -1,0 +1,4 @@
+• Fix complete Spanish and Russian translations
+• Fix localize 1.1.64 release notes
+• Fix materialize localized Play changelogs
+• Fix polish Russian Adderall translations
