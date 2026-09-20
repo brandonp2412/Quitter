@@ -1,0 +1,2 @@
+• Localiza las notas de la versión 1.1.61
+• Corrige la aplicación de los límites de metadatos localizados de la tienda

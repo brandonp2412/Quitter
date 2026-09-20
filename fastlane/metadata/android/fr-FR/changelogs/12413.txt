@@ -1,0 +1,2 @@
+• Localise les notes de version 1.1.61
+• Corrige l’application des limites des métadonnées localisées de la boutique

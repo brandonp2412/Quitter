@@ -315,6 +315,21 @@ void main() {
     }
   });
 
+  test('every non-empty Play changelog has localization coverage', () {
+    final result = Process.runSync('python3', [
+      'scripts/sync_play_changelogs.py',
+      '--check',
+    ]);
+
+    expect(
+      result.exitCode,
+      0,
+      reason:
+          'Localized Play changelog coverage failed:\n'
+          '${result.stdout}\n${result.stderr}',
+    );
+  });
+
   test('web metadata and privacy policy cover every supported locale', () {
     final englishManifest =
         jsonDecode(File('web/manifest.json').readAsStringSync())

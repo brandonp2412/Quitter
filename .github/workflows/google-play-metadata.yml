@@ -4,9 +4,11 @@ on:
   push:
     branches: [main]
     paths:
+      - "assets/changelogs/**"
       - "fastlane/metadata/android/**"
       - "fastlane/Fastfile"
       - "fastlane/Appfile"
+      - "scripts/sync_play_changelogs.py"
       - ".github/workflows/google-play-metadata.yml"
   workflow_dispatch:
 
