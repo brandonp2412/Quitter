@@ -234,6 +234,14 @@ void main() {
       'cws',
     };
 
+    expect(russian['settingsShowAdderallTracking'], contains('Adderall'));
+    expect(russian['settingsNotifyAdderall'], contains('Adderall'));
+    expect(
+      russian['settingsShowAdderallTracking'],
+      isNot(contains(' adderall')),
+    );
+    expect(russian['settingsNotifyAdderall'], isNot(contains(' adderall')));
+
     for (final entry in russian.entries) {
       if (entry.key.startsWith('@') || entry.value is! String) {
         continue;

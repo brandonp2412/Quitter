@@ -1450,10 +1450,11 @@ class AppLocalizationsRu extends AppLocalizations {
       'Показать отслеживание в социальных сетях';
 
   @override
-  String get settingsShowAdderallTracking => 'Показать отслеживание adderall';
+  String get settingsShowAdderallTracking => 'Показать отслеживание Adderall';
 
   @override
-  String get settingsNotifyAdderall => 'Уведомлять о ходе выхода из adderall';
+  String get settingsNotifyAdderall =>
+      'Уведомлять о прогрессе отказа от Adderall';
 
   @override
   String get settingsShowCocaineTracking => 'Показать отслеживание кокаина';

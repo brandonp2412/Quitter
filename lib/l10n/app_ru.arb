@@ -834,8 +834,8 @@
   "@settingsShowSocialMediaTracking": {
     "description": "Setting subtitle for showing social media tracking"
   },
-  "settingsShowAdderallTracking": "Показать отслеживание adderall",
-  "settingsNotifyAdderall": "Уведомлять о ходе выхода из adderall",
+  "settingsShowAdderallTracking": "Показать отслеживание Adderall",
+  "settingsNotifyAdderall": "Уведомлять о прогрессе отказа от Adderall",
   "settingsShowCocaineTracking": "Показать отслеживание кокаина",
   "settingsShowMethTracking": "Показать отслеживание метамфетамина",
   "settingsShowAdultContentTracking": "Показать отслеживание контента для взрослых",
