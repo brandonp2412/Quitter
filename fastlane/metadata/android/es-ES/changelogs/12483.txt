@@ -1,0 +1,4 @@
+• Corrige la localización de las notas de la versión 1.1.68
+• Corrige la localización del texto de respaldo del widget de Android
+• Corrige la localización de los menús nativos de macOS
+• Actualiza la localización rusa de Google Play Store
