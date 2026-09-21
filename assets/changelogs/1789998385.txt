@@ -1,0 +1,4 @@
+• Fix localize 1.1.68 release notes
+• Fix localize Android widget fallback
+• Fix localize macOS native menus
+• Fix refresh Russian Play Store localization
