@@ -455,6 +455,13 @@ void main() {
       'short_description.txt': 80,
       'full_description.txt': 4000,
     };
+    const shortDescriptionMarkers = {
+      'es': ['progreso', 'hitos', 'diario'],
+      'fr': ['progrès', 'étapes', 'journal'],
+      'ja': ['進捗', '節目', '日記'],
+      'ru': ['прогресс', 'этап', 'дневник'],
+      'zh': ['进度', '里程碑', '日记'],
+    };
     final englishDir = Directory('fastlane/metadata/android/en-US');
 
     for (final locale in AppLocalizations.supportedLocales) {
@@ -504,6 +511,45 @@ void main() {
           reason:
               '$storeLocale/$filename must stay within the Play Store limit',
         );
+        if (filename == 'short_description.txt') {
+          for (final marker in shortDescriptionMarkers[locale.languageCode]!) {
+            expect(
+              localized.toLowerCase(),
+              contains(marker.toLowerCase()),
+              reason:
+                  '$storeLocale/short_description.txt must describe current core features',
+            );
+          }
+        }
+        if (filename == 'title.txt') {
+          expect(
+            localized,
+            contains('Quitter'),
+            reason: '$storeLocale must preserve the Quitter brand name',
+          );
+        }
+        if (filename == 'full_description.txt') {
+          final englishLines = english
+              .split('\n')
+              .where((line) => line.trim().isNotEmpty)
+              .length;
+          final localizedLines = localized
+              .split('\n')
+              .where((line) => line.trim().isNotEmpty)
+              .length;
+          expect(
+            localizedLines,
+            englishLines,
+            reason:
+                '$storeLocale/full_description.txt must match the current listing structure',
+          );
+          expect(
+            '•'.allMatches(localized).length,
+            '•'.allMatches(english).length,
+            reason:
+                '$storeLocale/full_description.txt must translate every feature bullet',
+          );
+        }
       }
       final englishChangelogs = Directory('${englishDir.path}/changelogs')
           .listSync()
