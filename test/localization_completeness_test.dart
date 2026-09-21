@@ -442,6 +442,56 @@ void main() {
     }
   });
 
+  test('Play Store screenshots are localized for every supported locale', () {
+    const storeLocales = {
+      'es': 'es-ES',
+      'fr': 'fr-FR',
+      'ja': 'ja-JP',
+      'ru': 'ru-RU',
+      'zh': 'zh-CN',
+    };
+    const screenshotDirectories = {
+      'phoneScreenshots',
+      'sevenInchScreenshots',
+      'tenInchScreenshots',
+    };
+
+    for (final locale in AppLocalizations.supportedLocales) {
+      if (locale.languageCode == 'en') continue;
+
+      final storeLocale = storeLocales[locale.languageCode]!;
+      for (final directory in screenshotDirectories) {
+        for (var index = 1; index <= 8; index++) {
+          final english = File(
+            'fastlane/metadata/android/en-US/images/$directory/'
+            '${index}_en-US.png',
+          );
+          final localized = File(
+            'fastlane/metadata/android/$storeLocale/images/$directory/'
+            '${index}_$storeLocale.png',
+          );
+
+          expect(
+            english.existsSync(),
+            isTrue,
+            reason: 'en-US must provide screenshot $index in $directory',
+          );
+          expect(
+            localized.existsSync(),
+            isTrue,
+            reason: '$storeLocale must provide screenshot $index in $directory',
+          );
+          expect(
+            localized.readAsBytesSync(),
+            isNot(equals(english.readAsBytesSync())),
+            reason:
+                '$storeLocale screenshot $index in $directory must not be the English image',
+          );
+        }
+      }
+    }
+  });
+
   test('Play Store listing is translated for every supported locale', () {
     const storeLocales = {
       'es': 'es-ES',
