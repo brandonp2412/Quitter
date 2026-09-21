@@ -253,6 +253,46 @@ void main() {
     }
   });
 
+  test('localized prose does not leak English scaffolding', () {
+    final englishScaffolding = RegExp(
+      r'\b(?:your|you|with|without|this|that|from|when|while|after|before|days|weeks|months|years|during|still|people|study|more|less)\b',
+      caseSensitive: false,
+    );
+    const sourcePrefixes = {
+      'es': ['Fuente:'],
+      'fr': ['Source :', 'Source:'],
+      'ja': ['出典：', '出典:'],
+      'ru': ['Источник:', 'Источник：'],
+      'zh': ['来源：', '来源:'],
+    };
+
+    for (final locale in AppLocalizations.supportedLocales) {
+      final languageCode = locale.languageCode;
+      if (languageCode == 'en') continue;
+
+      final localized = _readArb(languageCode);
+      final prefixes = sourcePrefixes[languageCode]!;
+      for (final entry in localized.entries) {
+        if (entry.key.startsWith('@') || entry.value is! String) continue;
+
+        final prose = (entry.value as String)
+            .split('\n')
+            .where(
+              (line) =>
+                  !prefixes.any((prefix) => line.trim().startsWith(prefix)),
+            )
+            .join('\n')
+            .replaceAll(RegExp(r'\{[A-Za-z_]\w*'), '{');
+
+        expect(
+          englishScaffolding.firstMatch(prose),
+          isNull,
+          reason: '${entry.key} must not contain embedded English prose',
+        );
+      }
+    }
+  });
+
   test('Japanese reference articles do not leak English prose', () {
     final japanese = _readArb('ja');
 
