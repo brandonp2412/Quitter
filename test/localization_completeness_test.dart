@@ -336,6 +336,38 @@ void main() {
     }
   });
 
+  test('Japanese reference articles avoid known translation artifacts', () {
+    final japanese = _readArb('ja');
+    const forbiddenArtifacts = {
+      'GHBの引き出し',
+      '最もラフなストレッチ',
+      '経営陣',
+      'リカバリシグナル',
+      'リカバリタイムライン',
+      '使い捨てのコメダウン',
+      '禁欲的なイメージング',
+      ' on PubMed',
+    };
+
+    for (final entry in japanese.entries) {
+      if (!entry.key.contains('Reference') ||
+          entry.key.startsWith('@') ||
+          entry.value is! String) {
+        continue;
+      }
+
+      final value = entry.value as String;
+      for (final artifact in forbiddenArtifacts) {
+        expect(
+          value,
+          isNot(contains(artifact)),
+          reason:
+              'Japanese reference article contains a known translation artifact',
+        );
+      }
+    }
+  });
+
   test('Russian translations avoid known machine-translation artifacts', () {
     final russian = _readArb('ru');
 
