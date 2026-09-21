@@ -1,0 +1,1 @@
+• Fix localize 1.1.67 release notes
