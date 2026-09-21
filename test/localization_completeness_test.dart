@@ -79,6 +79,31 @@ Set<String> _appleBundleLocalizations(String path) {
   ).allMatches(match.group(1)!).map((match) => match.group(1)!).toSet();
 }
 
+Map<String, String> _macosMenuTitles() {
+  final contents = File(
+    'macos/Runner/Base.lproj/MainMenu.xib',
+  ).readAsStringSync();
+  final titles = <String, String>{};
+  for (final match in RegExp(
+    r'<(?:menuItem|menu|window)\b[^>]*\btitle="([^"]*)"[^>]*\bid="([^"]+)"',
+  ).allMatches(contents)) {
+    titles['${match.group(2)!}.title'] = match.group(1)!;
+  }
+  return titles;
+}
+
+Map<String, String> _appleStrings(String path) {
+  final contents = File(path).readAsStringSync();
+  final strings = <String, String>{};
+  for (final match in RegExp(
+    r'^"([^"]+)"\s*=\s*"([^"]*)";$',
+    multiLine: true,
+  ).allMatches(contents)) {
+    strings[match.group(1)!] = match.group(2)!;
+  }
+  return strings;
+}
+
 bool _containsTargetScript(String languageCode, String value) {
   if (languageCode == 'es' || languageCode == 'fr') {
     return RegExp(r'[A-Za-zÀÂÆÇÉÈÊËÎÏÔŒÙÛÜŸàâæçéèêëîïôœùûüÿ]').hasMatch(value);
@@ -541,6 +566,66 @@ void main() {
 
     expect(_appleBundleLocalizations('ios/Runner/Info.plist'), supported);
     expect(_appleBundleLocalizations('macos/Runner/Info.plist'), supported);
+  });
+
+  test('macOS native menu is translated for every supported locale', () {
+    final sourceTitles = _macosMenuTitles();
+    final project = File(
+      'macos/Runner.xcodeproj/project.pbxproj',
+    ).readAsStringSync();
+    expect(sourceTitles.length, greaterThan(50));
+
+    for (final locale in AppLocalizations.supportedLocales) {
+      final languageCode = locale.languageCode;
+      if (languageCode == 'en') continue;
+
+      final stringsPath = 'macos/Runner/$languageCode.lproj/MainMenu.strings';
+      final stringsFile = File(stringsPath);
+      expect(
+        stringsFile.existsSync(),
+        isTrue,
+        reason: 'macOS $languageCode must provide MainMenu.strings',
+      );
+      expect(
+        project,
+        contains('$languageCode.lproj/MainMenu.strings'),
+        reason: 'macOS $languageCode menu strings must be in the Xcode project',
+      );
+
+      final localized = _appleStrings(stringsPath);
+      expect(
+        localized.keys.toSet(),
+        sourceTitles.keys.toSet(),
+        reason: 'macOS $languageCode must localize every titled menu object',
+      );
+      expect(
+        localized.values.where((value) => value.trim().isEmpty),
+        isEmpty,
+        reason: 'macOS $languageCode menu strings must not be empty',
+      );
+
+      final translatable = sourceTitles.entries
+          .where((entry) => entry.value != 'APP_NAME')
+          .toList();
+      final changedCount = translatable
+          .where((entry) => localized[entry.key] != entry.value)
+          .length;
+      expect(
+        changedCount,
+        greaterThan((translatable.length * 0.8).floor()),
+        reason: 'macOS $languageCode menu must not fall back to English',
+      );
+
+      if (languageCode == 'ja' ||
+          languageCode == 'ru' ||
+          languageCode == 'zh') {
+        expect(
+          _containsTargetScript(languageCode, localized.values.join('\n')),
+          isTrue,
+          reason: 'macOS $languageCode menu must use the target script',
+        );
+      }
+    }
   });
 
   test('web metadata and privacy policy cover every supported locale', () {
