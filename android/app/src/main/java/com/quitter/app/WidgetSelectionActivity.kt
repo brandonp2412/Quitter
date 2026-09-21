@@ -95,7 +95,7 @@ class WidgetSelectionActivity : Activity() {
                 AddictionItem(key, meta.first, meta.second, meta.third)
             } else {
                 // Unknown key — still show it with a fallback icon
-                AddictionItem(key, key.replace('_', ' '), R.drawable.ic_widget_star, 0xFF888888.toInt())
+                AddictionItem(key, getString(R.string.widget_addiction_placeholder), R.drawable.ic_widget_star, 0xFF888888.toInt())
             }
         }
 

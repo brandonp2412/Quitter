@@ -961,6 +961,18 @@ void main() {
     );
   });
 
+  test('Android widget fallback text stays localized', () {
+    final activity = File(
+      'android/app/src/main/java/com/quitter/app/WidgetSelectionActivity.kt',
+    ).readAsStringSync();
+
+    expect(
+      activity,
+      contains('getString(R.string.widget_addiction_placeholder)'),
+    );
+    expect(activity, isNot(contains("key.replace('_', ' ')")));
+  });
+
   test('Android layouts do not hard-code user-facing text', () {
     final layouts = Directory(
       'android/app/src/main/res/layout',
