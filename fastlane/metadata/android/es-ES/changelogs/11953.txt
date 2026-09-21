@@ -7,4 +7,4 @@
 • Mejora la incorporación de nuevos usuarios
 • Incluye el título al filtrar los ajustes
 • Ejecuta dart format
-• Revierte «chore: remove flutter submodule, use global SDK»
+• Revierte «chore: elimina el submódulo de Flutter y usa el SDK global»

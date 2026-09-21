@@ -7,4 +7,4 @@
 • 新規ユーザーのオンボーディングを改善
 • 設定の絞り込み対象にタイトルを追加
 • dart format を実行
-• 「chore: remove flutter submodule, use global SDK」を取り消し
+• 「chore: Flutter サブモジュールを削除し、グローバル SDK を使用」を取り消し

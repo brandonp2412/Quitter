@@ -6,5 +6,5 @@
 • Улучшено первое знакомство новых пользователей с приложением
 • Заголовок добавлен в фильтрацию настроек
 • Выполнен dart format
-• Отменено «chore: remove flutter submodule, use global SDK»
-• Отменено «ci: replace flutter submodule setup with subosito/flutter-action»
+• Отменено «chore: удалён подмодуль Flutter, используется глобальный SDK»
+• Отменено «ci: настройка подмодуля Flutter заменена на subosito/flutter-action»

@@ -6,5 +6,5 @@
 • 改进新用户引导
 • 设置筛选时包含标题
 • 运行 dart format
-• 撤销“chore: remove flutter submodule, use global SDK”
-• 撤销“ci: replace flutter submodule setup with subosito/flutter-action”
+• 撤销“chore: 移除 Flutter 子模块并使用全局 SDK”
+• 撤销“ci: 将 Flutter 子模块配置替换为 subosito/flutter-action”

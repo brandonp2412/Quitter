@@ -640,6 +640,30 @@ void main() {
     }
   });
 
+  test('localized Play changelogs do not leak English commit prose', () {
+    final englishCommitScaffolding = RegExp(
+      r'\b(?:chore|ci|fix|feat):\s+(?:remove|replace|use|add|fix|update|move|clean|switch|change)\b',
+      caseSensitive: false,
+    );
+    const storeLocales = ['es-ES', 'fr-FR', 'ja-JP', 'ru-RU', 'zh-CN'];
+
+    for (final storeLocale in storeLocales) {
+      final changelogs =
+          Directory('fastlane/metadata/android/$storeLocale/changelogs')
+              .listSync()
+              .whereType<File>()
+              .where((file) => file.path.endsWith('.txt'));
+
+      for (final changelog in changelogs) {
+        expect(
+          englishCommitScaffolding.firstMatch(changelog.readAsStringSync()),
+          isNull,
+          reason: '${changelog.path} must not retain English commit prose',
+        );
+      }
+    }
+  });
+
   test('every non-empty Play changelog has localization coverage', () {
     final result = Process.runSync('python3', [
       'scripts/sync_play_changelogs.py',
