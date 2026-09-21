@@ -1,0 +1,2 @@
+• Corrige la cobertura completa de la localización nativa
+• Corrige la localización de las últimas notas de la versión
