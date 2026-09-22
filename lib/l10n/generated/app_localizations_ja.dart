@@ -2066,7 +2066,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get vapingMilestone30Description =>
-      '肺が実質的にお祝いパレードを開いています！繊毛（小さな肺の掃除屋）が再生し、肺機能が大幅に改善しました。朝の咳は過去のものになりました！';
+      '電子タバコをやめて1ヶ月。気道の繊毛（肺の中を掃除する小さな毛）が再生し、肺機能が大きく改善しています。朝の咳も減ってきます。';
 
   @override
   String get vapingMilestone60Title => '不安レベルが正常化';
@@ -2115,7 +2115,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get marijuanaMilestone7Description =>
-      '甘い夢がカムバックしています！大麻なしで1週間後、自然な睡眠構造が正常化し始めます。REM睡眠がリバウンドし、より鮮明な夢とより良い休息の質につながります。';
+      '大麻をやめて1週間。自然な睡眠構造が正常化し始め、REM睡眠も回復してきます。その結果、夢をより鮮明に覚えやすくなり、休息の質も改善していきます。';
 
   @override
   String get marijuanaMilestone14Title => '急性離脱が終了';
@@ -2178,7 +2178,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get opioidMilestone14Description =>
-      '甘い夢がカムバックしています！2週間経つと、自然な睡眠構造が回復し始めます。オピオイドはREM睡眠を乱しますが、脳は再び自然に夢を見ることを学んでいます。';
+      'オピオイドをやめて2週間。自然な睡眠構造が回復し始めます。オピオイドで乱れていたREM睡眠も整い、自然な夢を見る睡眠へ戻りつつあります。';
 
   @override
   String get opioidMilestone30Title => '思考力と記憶が回復し始める';
@@ -2192,7 +2192,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get opioidMilestone60Description =>
-      '感情が自然なリズムを取り戻しています。回復から2ヶ月、脳の報酬系が日常の喜びに反応し始めています。感情のジェットコースターが安定してきています。';
+      '回復から2ヶ月。感情の波は次第に落ち着き、脳の報酬系も日常の喜びに反応し始めています。気分の大きな揺れが少しずつ安定してきます。';
 
   @override
   String get opioidMilestone90Title => 'ドーパミン機能が大幅に回復';
@@ -2220,7 +2220,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get opioidMilestone730Description =>
-      '2年間の強さと回復力！新しい神経経路、対処戦略、生活パターンを構築しました。研究によると、このマイルストーンに到達すると再発リスクが劇的に減少します。あなたは回復の戦士です！';
+      '2年間の回復を続けてきました。新しい神経経路、対処法、生活パターンが築かれています。研究では、この節目まで回復を続けると再発リスクが大きく低下することが示されています。';
 
   @override
   String get socialMediaMilestone1Title => 'デジタルデトックス1日目！ 🎯';
@@ -2304,7 +2304,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get nicotinePouchesMilestone7Description =>
-      '歯茎がお祝いをしています！ニコチンパウチは歯茎の炎症や後退を引き起こす可能性があります。1週間後、歯茎への血流が正常化し、治癒が始まります。';
+      'ニコチンパウチをやめて1週間。パウチで刺激や退縮が起こることのある歯茎への血流が正常化し、回復が始まっています。';
 
   @override
   String get nicotinePouchesMilestone14Title => '血行が向上';
@@ -2402,7 +2402,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get pornographyMilestone365Description =>
-      '受容ベース治療の1年追跡研究では、参加者の過度な性的行動は治療前の水準には戻りませんでした。1年間維持された変化は、魔法の「脳リセット日」ではなく、持続する新しい行動パターンの根拠になります。';
+      '受容ベース治療の1年追跡研究では、参加者の過度な性的行動は治療前の水準には戻りませんでした。1年間維持された変化は、「ある日突然脳がリセットされる」という考えではなく、持続する新しい行動パターンを示す根拠になります。';
 
   @override
   String get pornographyMilestone1825Title => '5年間のコントロール';

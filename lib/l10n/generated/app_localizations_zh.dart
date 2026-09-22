@@ -2063,7 +2063,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get vapingMilestone30Description =>
-      '您的肺实际上正在举行庆祝游行！纤毛（微小的肺部清洁工）已经再生，肺功能显著改善。那早晨的咳嗽已成为历史！';
+      '停用电子烟一个月后，气道纤毛（负责清除异物的微小结构）已经再生，肺功能也明显改善，晨起咳嗽会逐渐减少。';
 
   @override
   String get vapingMilestone60Title => '焦虑水平正常化';
@@ -2112,7 +2112,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get marijuanaMilestone7Description =>
-      '美梦正在回归！在没有大麻的一周后，您的自然睡眠结构开始正常化。快速眼动睡眠反弹，导致更生动的梦境和更好的休息质量。';
+      '停止使用大麻一周后，自然睡眠结构开始恢复正常。快速眼动睡眠会出现反弹，因此梦境可能更清晰，休息质量也会改善。';
 
   @override
   String get marijuanaMilestone14Title => '急性戒断结束';
@@ -2175,7 +2175,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get opioidMilestone14Description =>
-      '美梦正在回归！两周后，您的自然睡眠结构开始恢复。阿片类药物会扰乱快速眼动睡眠，但您的大脑正在学习再次自然地做梦。';
+      '停用阿片类药物两周后，自然睡眠结构开始恢复。阿片类药物会扰乱快速眼动睡眠，而此时大脑正在逐步恢复更自然的做梦和睡眠节律。';
 
   @override
   String get opioidMilestone30Title => '思维和记忆开始恢复';
@@ -2189,7 +2189,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get opioidMilestone60Description =>
-      '您的情绪再次找到自然的节奏。康复两个月，您的大脑奖励系统开始对日常快乐做出反应。情绪过山车正在稳定下来。';
+      '康复两个月后，情绪波动正在逐渐平稳，大脑的奖赏系统也开始重新对日常愉悦产生反应。整体情绪正在恢复更自然的节律。';
 
   @override
   String get opioidMilestone90Title => '多巴胺功能显著恢复';
@@ -2217,7 +2217,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get opioidMilestone730Description =>
-      '两年的力量和韧性！您已经建立了新的神经通路、应对策略和生活模式。研究表明，达到这一里程碑会大大降低复发风险。您是康复战士！';
+      '持续康复两年后，您已经建立了新的神经通路、应对策略和生活模式。研究显示，达到这一阶段通常伴随显著更低的复发风险。两年的坚持本身就是重要成果。';
 
   @override
   String get socialMediaMilestone1Title => '数字排毒第一天！ 🎯';
@@ -2301,7 +2301,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get nicotinePouchesMilestone7Description =>
-      '您的牙龈正在举行庆祝活动！尼古丁袋会导致牙龈刺激和萎缩。一周后，流向牙龈的血液正常化，愈合开始。';
+      '停用尼古丁袋一周后，牙龈血流开始恢复正常，愈合也随之开始。尼古丁袋可能导致牙龈刺激和萎缩。';
 
   @override
   String get nicotinePouchesMilestone14Title => '血液循环增强';
@@ -2399,7 +2399,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get pornographyMilestone365Description =>
-      '一项接纳式治疗的一年随访发现，参与者的过度性行为没有回到治疗前水平。一年的持续改变更像是稳定的新行为模式，而不是某个神奇的“脑重置日期”。';
+      '一项接纳式治疗的一年随访发现，参与者的过度性行为没有回到治疗前水平。一年持续的改变更能说明新的行为模式已经稳定下来，而不是存在某个让大脑突然“重置”的神奇日期。';
 
   @override
   String get pornographyMilestone1825Title => '五年的控制';
