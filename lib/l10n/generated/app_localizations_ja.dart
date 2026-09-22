@@ -212,7 +212,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get ghbMilestone90Description =>
-      '3ヶ月経つと、脳の鎮静を担うGABA系が落ち着くにつれて、残っていた不安、睡眠、気分の症状が和らいできます。';
+      '3ヶ月経つと、脳の鎮静を担うGABA系が落ち着くにつれて、残っていた不安、睡眠、気分の症状が和らいでいきます。';
 
   @override
   String get ghbMilestone180Title => '半年の自由';
@@ -1320,7 +1320,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get settingsResetButtons => 'リセットボタン';
 
   @override
-  String get settingsResetButtonsSubtitle => '禁止ページにリセットボタンを表示する';
+  String get settingsResetButtonsSubtitle => '各記録ページにリセットボタンを表示する';
 
   @override
   String get settingsShowJournal => '日記を表示';
@@ -1368,7 +1368,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get settingsShowAdderallTracking => 'アデロール追跡を表示';
 
   @override
-  String get settingsNotifyAdderall => 'アデロール禁止の進捗を通知';
+  String get settingsNotifyAdderall => 'アデロールをやめてからの進捗を通知';
 
   @override
   String get settingsShowCocaineTracking => 'コカイン追跡を表示';
@@ -1388,41 +1388,41 @@ class AppLocalizationsJa extends AppLocalizations {
   }
 
   @override
-  String get settingsNotifyAlcohol => 'アルコール禁止の進捗を通知';
+  String get settingsNotifyAlcohol => '飲酒をやめてからの進捗を通知';
 
   @override
-  String get settingsNotifyVaping => 'ベイピング禁止の進捗を通知';
+  String get settingsNotifyVaping => 'ベイピングをやめてからの進捗を通知';
 
   @override
-  String get settingsNotifySmoking => '喫煙禁止の進捗を通知';
+  String get settingsNotifySmoking => '禁煙の進捗を通知';
 
   @override
-  String get settingsNotifyMarijuana => 'マリファナ禁止の進捗を通知';
+  String get settingsNotifyMarijuana => 'マリファナをやめてからの進捗を通知';
 
   @override
-  String get settingsNotifyNicotinePouches => 'ニコチンパウチ禁止の進捗を通知';
+  String get settingsNotifyNicotinePouches => 'ニコチンパウチをやめてからの進捗を通知';
 
   @override
   String get settingsNotifyBenzos => 'ベンゾジアゼピンをやめてからの進捗を通知';
 
   @override
-  String get settingsNotifyOpioids => 'オピオイド禁止の進捗を通知';
+  String get settingsNotifyOpioids => 'オピオイドをやめてからの進捗を通知';
 
   @override
-  String get settingsNotifySocialMedia => 'ソーシャルメディア禁止の進捗を通知';
+  String get settingsNotifySocialMedia => 'ソーシャルメディアをやめてからの進捗を通知';
 
   @override
-  String get settingsNotifyCocaine => 'コカイン禁止の進捗を通知';
+  String get settingsNotifyCocaine => 'コカインをやめてからの進捗を通知';
 
   @override
   String get settingsNotifyMeth => 'メタンフェタミンをやめてからの進捗を通知';
 
   @override
-  String get settingsNotifyAdultContent => 'アダルトコンテンツ禁止の進捗を通知';
+  String get settingsNotifyAdultContent => 'アダルトコンテンツをやめてからの進捗を通知';
 
   @override
   String settingsNotifyCustomEntry(String name) {
-    return '$name禁止の進捗を通知';
+    return '$nameをやめてからの進捗を通知';
   }
 
   @override
@@ -1557,7 +1557,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get quitMilestonesReset => 'リセット';
 
   @override
-  String get quitMilestonesQuitDate => '禁止開始日';
+  String get quitMilestonesQuitDate => 'やめた日';
 
   @override
   String quitMilestonesClearTitle(int days) {
@@ -2542,7 +2542,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get settingsShowSsriTracking => 'SSRIトラッキングを表示';
 
   @override
-  String get settingsNotifySsri => 'SSRI禁断進捗を通知';
+  String get settingsNotifySsri => 'SSRIの減薬・中止後の進捗を通知';
 
   @override
   String get addictionSnri => 'SNRI';
@@ -2615,7 +2615,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get settingsShowSnriTracking => 'SNRIトラッキングを表示';
 
   @override
-  String get settingsNotifySnri => 'SNRI禁断進捗を通知';
+  String get settingsNotifySnri => 'SNRIの減薬・中止後の進捗を通知';
 
   @override
   String get addictionTca => '三環系抗うつ薬';
@@ -2688,7 +2688,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get settingsShowTcaTracking => '三環系抗うつ薬トラッキングを表示';
 
   @override
-  String get settingsNotifyTca => '三環系抗うつ薬禁断進捗を通知';
+  String get settingsNotifyTca => '三環系抗うつ薬の減薬・中止後の進捗を通知';
 
   @override
   String get addictionMaoi => 'MAOI';
@@ -2761,7 +2761,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get settingsShowMaoiTracking => 'MAOIトラッキングを表示';
 
   @override
-  String get settingsNotifyMaoi => 'MAOI禁断進捗を通知';
+  String get settingsNotifyMaoi => 'MAOIの減薬・中止後の進捗を通知';
 
   @override
   String milestoneRetrieved(String date) {

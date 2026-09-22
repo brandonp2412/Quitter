@@ -517,6 +517,10 @@ void main() {
       'ストリートのスピード',
       '大量使用者',
       'ドーパミンが低下した脳',
+      '禁止の進捗',
+      '禁断進捗',
+      '禁止ページ',
+      '禁止開始日',
     };
 
     expect(japanese['addictionMeth'], 'メタンフェタミン');
@@ -607,6 +611,12 @@ void main() {
       'полет куда-то новый',
       'путешествие без табачного дыма',
       'цифровое детокс-путешествие',
+      'прочитать о книгах',
+      'фильмы про',
+      'сбросили настройки',
+      'о ходе выхода',
+      'дней чистоты',
+      '{seconds}s',
     };
 
     final informalSecondPerson = RegExp(
@@ -863,6 +873,10 @@ void main() {
       'ru': ['прогресс', 'этап', 'дневник'],
       'zh': ['进度', '里程碑', '日记'],
     };
+    const forbiddenListingArtifacts = {
+      'ja': ['禁断トラッカー'],
+      'zh': ['戒除习惯追踪器'],
+    };
     final englishDir = Directory('fastlane/metadata/android/en-US');
 
     for (final locale in AppLocalizations.supportedLocales) {
@@ -896,6 +910,16 @@ void main() {
         );
 
         final localized = localizedFile.readAsStringSync().trim();
+        for (final artifact
+            in forbiddenListingArtifacts[locale.languageCode] ??
+                const <String>[]) {
+          expect(
+            localized,
+            isNot(contains(artifact)),
+            reason:
+                '$storeLocale/$filename must not contain the known translation artifact "$artifact"',
+          );
+        }
         expect(
           localized,
           isNotEmpty,

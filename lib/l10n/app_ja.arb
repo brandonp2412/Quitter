@@ -59,7 +59,7 @@
   "ghbMilestone30Title": "1ヶ月の安定",
   "ghbMilestone30Description": "1ヶ月経つと、危険な初期離脱期はすでに大きく過ぎています。残る不安、睡眠の問題、気分の落ち込みも引き続き改善していきます。",
   "ghbMilestone90Title": "残る症状が薄れる",
-  "ghbMilestone90Description": "3ヶ月経つと、脳の鎮静を担うGABA系が落ち着くにつれて、残っていた不安、睡眠、気分の症状が和らいできます。",
+  "ghbMilestone90Description": "3ヶ月経つと、脳の鎮静を担うGABA系が落ち着くにつれて、残っていた不安、睡眠、気分の症状が和らいでいきます。",
   "ghbMilestone180Title": "半年の自由",
   "ghbMilestone180Description": "GHBなしで6ヶ月。長引いていた離脱症状はほぼ解消し、気分、睡眠、明晰な思考が通常の状態に戻っています。",
   "ketaminePageTitle": "ケタミン回復",
@@ -777,7 +777,7 @@
   "@settingsResetButtons": {
     "description": "Setting title for reset buttons visibility"
   },
-  "settingsResetButtonsSubtitle": "禁止ページにリセットボタンを表示する",
+  "settingsResetButtonsSubtitle": "各記録ページにリセットボタンを表示する",
   "@settingsResetButtonsSubtitle": {
     "description": "Subtitle explaining reset buttons setting"
   },
@@ -835,7 +835,7 @@
     "description": "Setting subtitle for showing social media tracking"
   },
   "settingsShowAdderallTracking": "アデロール追跡を表示",
-  "settingsNotifyAdderall": "アデロール禁止の進捗を通知",
+  "settingsNotifyAdderall": "アデロールをやめてからの進捗を通知",
   "settingsShowCocaineTracking": "コカイン追跡を表示",
   "settingsShowMethTracking": "メタンフェタミンの記録を表示",
   "settingsShowAdultContentTracking": "アダルトコンテンツ追跡を表示",
@@ -858,42 +858,42 @@
       }
     }
   },
-  "settingsNotifyAlcohol": "アルコール禁止の進捗を通知",
+  "settingsNotifyAlcohol": "飲酒をやめてからの進捗を通知",
   "@settingsNotifyAlcohol": {
     "description": "Setting subtitle for alcohol notifications"
   },
-  "settingsNotifyVaping": "ベイピング禁止の進捗を通知",
+  "settingsNotifyVaping": "ベイピングをやめてからの進捗を通知",
   "@settingsNotifyVaping": {
     "description": "Setting subtitle for vaping notifications"
   },
-  "settingsNotifySmoking": "喫煙禁止の進捗を通知",
+  "settingsNotifySmoking": "禁煙の進捗を通知",
   "@settingsNotifySmoking": {
     "description": "Setting subtitle for smoking notifications"
   },
-  "settingsNotifyMarijuana": "マリファナ禁止の進捗を通知",
+  "settingsNotifyMarijuana": "マリファナをやめてからの進捗を通知",
   "@settingsNotifyMarijuana": {
     "description": "Setting subtitle for marijuana notifications"
   },
-  "settingsNotifyNicotinePouches": "ニコチンパウチ禁止の進捗を通知",
+  "settingsNotifyNicotinePouches": "ニコチンパウチをやめてからの進捗を通知",
   "@settingsNotifyNicotinePouches": {
     "description": "Setting subtitle for nicotine pouches notifications"
   },
   "settingsNotifyBenzos": "ベンゾジアゼピンをやめてからの進捗を通知",
-  "settingsNotifyOpioids": "オピオイド禁止の進捗を通知",
+  "settingsNotifyOpioids": "オピオイドをやめてからの進捗を通知",
   "@settingsNotifyOpioids": {
     "description": "Setting subtitle for opioids notifications"
   },
-  "settingsNotifySocialMedia": "ソーシャルメディア禁止の進捗を通知",
+  "settingsNotifySocialMedia": "ソーシャルメディアをやめてからの進捗を通知",
   "@settingsNotifySocialMedia": {
     "description": "Setting subtitle for social media notifications"
   },
-  "settingsNotifyCocaine": "コカイン禁止の進捗を通知",
+  "settingsNotifyCocaine": "コカインをやめてからの進捗を通知",
   "settingsNotifyMeth": "メタンフェタミンをやめてからの進捗を通知",
-  "settingsNotifyAdultContent": "アダルトコンテンツ禁止の進捗を通知",
+  "settingsNotifyAdultContent": "アダルトコンテンツをやめてからの進捗を通知",
   "@settingsNotifyAdultContent": {
     "description": "Setting subtitle for adult content notifications"
   },
-  "settingsNotifyCustomEntry": "{name}禁止の進捗を通知",
+  "settingsNotifyCustomEntry": "{name}をやめてからの進捗を通知",
   "@settingsNotifyCustomEntry": {
     "description": "Setting subtitle for custom entry notifications",
     "placeholders": {
@@ -1080,7 +1080,7 @@
   "@quitMilestonesReset": {
     "description": "Button to reset quit journey"
   },
-  "quitMilestonesQuitDate": "禁止開始日",
+  "quitMilestonesQuitDate": "やめた日",
   "@quitMilestonesQuitDate": {
     "description": "Label for quit date field"
   },
@@ -2228,7 +2228,7 @@
   "ssriMilestone365Title": "1年間：回復達成",
   "ssriMilestone365Description": "1年間は完全な回復サイクルを示しています。研究によると、段階的な減薬と心理的サポートを受けた大多数の人が1年後も良好な状態を維持しています。",
   "settingsShowSsriTracking": "SSRIトラッキングを表示",
-  "settingsNotifySsri": "SSRI禁断進捗を通知",
+  "settingsNotifySsri": "SSRIの減薬・中止後の進捗を通知",
   "addictionSnri": "SNRI",
   "@addictionSnri": {
     "description": "SNRI addiction name"
@@ -2253,7 +2253,7 @@
   "snriMilestone365Title": "1年間：回復達成",
   "snriMilestone365Description": "1年間は完全な二重システム回復サイクルを示しています。研究によると、医師の管理下でSNRIを段階的に減薬した人の大多数が1年後も良好な転帰を維持しています。",
   "settingsShowSnriTracking": "SNRIトラッキングを表示",
-  "settingsNotifySnri": "SNRI禁断進捗を通知",
+  "settingsNotifySnri": "SNRIの減薬・中止後の進捗を通知",
   "addictionTca": "三環系抗うつ薬",
   "@addictionTca": {
     "description": "Tricyclic antidepressant addiction name"
@@ -2278,7 +2278,7 @@
   "tcaMilestone365Title": "1年間：回復達成",
   "tcaMilestone365Description": "1年あれば、TCAの影響を受けたすべての系に丸1年の回復時間があります。アセチルコリン、ノルアドレナリン、セロトニン、ヒスタミンの各系は落ち着き、記憶、明晰な思考、心拍のコントロールも大きく回復しています。",
   "settingsShowTcaTracking": "三環系抗うつ薬トラッキングを表示",
-  "settingsNotifyTca": "三環系抗うつ薬禁断進捗を通知",
+  "settingsNotifyTca": "三環系抗うつ薬の減薬・中止後の進捗を通知",
   "addictionMaoi": "MAOI",
   "@addictionMaoi": {
     "description": "MAOI addiction name"
@@ -2303,7 +2303,7 @@
   "maoiMilestone365Title": "1年間：回復達成",
   "maoiMilestone365Description": "MAOIを中止して1年。脳と体には、薬なしで丸1年過ごす時間がありました。気分、エネルギー、明晰な思考、通常の脳内化学調節にも、落ち着いて回復するための十分な時間が与えられています。",
   "settingsShowMaoiTracking": "MAOIトラッキングを表示",
-  "settingsNotifyMaoi": "MAOI禁断進捗を通知",
+  "settingsNotifyMaoi": "MAOIの減薬・中止後の進捗を通知",
   "milestoneRetrieved": "取得日：{date}",
   "@milestoneRetrieved": {
     "description": "Label showing when a milestone reference was retrieved",

@@ -220,7 +220,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get ghbMilestone90Description =>
-      'Спустя три месяца сохраняющиеся симптомы тревоги, сна и настроения ослабевают, поскольку успокаивающая система ГАМК мозга успокаивается.';
+      'Спустя три месяца сохраняющиеся симптомы тревоги, нарушения сна и изменения настроения ослабевают по мере стабилизации тормозной ГАМК-системы мозга.';
 
   @override
   String get ghbMilestone180Title => 'Полгода без ГОМК';
@@ -1105,12 +1105,12 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String statsEquivalentBooks(int count) {
-    return 'Достаточно прочитать о книгах $count';
+    return 'Хватит времени прочитать примерно $count книг';
   }
 
   @override
   String statsEquivalentMovies(int count) {
-    return 'Хватит смотреть фильмы про $count';
+    return 'Хватит времени посмотреть примерно $count фильмов';
   }
 
   @override
@@ -1144,7 +1144,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String statsTimesBouncedBack(int count) {
-    return '$count раз вы сбросили настройки и продолжили работу.';
+    return 'Вы $count раз начинали заново и продолжали двигаться вперёд.';
   }
 
   @override
@@ -1516,7 +1516,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get settingsNotifySocialMedia =>
-      'Уведомлять о ходе выхода из социальных сетей';
+      'Уведомлять о прогрессе отказа от социальных сетей';
 
   @override
   String get settingsNotifyCocaine =>
@@ -1528,11 +1528,11 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get settingsNotifyAdultContent =>
-      'Уведомлять о ходе выхода из контента для взрослых';
+      'Уведомлять о прогрессе отказа от контента для взрослых';
 
   @override
   String settingsNotifyCustomEntry(String name) {
-    return 'Уведомить $name о ходе выхода';
+    return 'Уведомлять о прогрессе для «$name»';
   }
 
   @override
@@ -1779,7 +1779,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String pinPageTooManyAttempts(int seconds) {
-    return 'Слишком много попыток. Попробуйте еще раз в ${seconds}s.';
+    return 'Слишком много попыток. Попробуйте снова через $seconds с.';
   }
 
   @override
@@ -2995,12 +2995,12 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String notificationProgressTitle(String name) {
-    return 'Нет $name';
+    return 'Без $name';
   }
 
   @override
   String notificationProgressBody(int days, String message) {
-    return '$days дней чистоты — $message';
+    return 'Уже $days дней — $message';
   }
 
   @override

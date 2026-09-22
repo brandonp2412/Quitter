@@ -59,7 +59,7 @@
   "ghbMilestone30Title": "Стабильный на один месяц",
   "ghbMilestone30Description": "Через месяц опасный период раннего отказа уже позади. Продолжающаяся тревога, проблемы со сном и плохое настроение продолжают улучшаться.",
   "ghbMilestone90Title": "Затяжные симптомы исчезают",
-  "ghbMilestone90Description": "Спустя три месяца сохраняющиеся симптомы тревоги, сна и настроения ослабевают, поскольку успокаивающая система ГАМК мозга успокаивается.",
+  "ghbMilestone90Description": "Спустя три месяца сохраняющиеся симптомы тревоги, нарушения сна и изменения настроения ослабевают по мере стабилизации тормозной ГАМК-системы мозга.",
   "ghbMilestone180Title": "Полгода без ГОМК",
   "ghbMilestone180Description": "Шесть месяцев без ГОМК. Затянувшаяся абстиненция в значительной степени прошла, а настроение, сон и ясное мышление вернулись в норму.",
   "ketaminePageTitle": "Восстановление после кетамина",
@@ -382,7 +382,7 @@
       }
     }
   },
-  "statsEquivalentBooks": "Достаточно прочитать о книгах {count}",
+  "statsEquivalentBooks": "Хватит времени прочитать примерно {count} книг",
   "@statsEquivalentBooks": {
     "description": "Fun equivalence for time saved — books read",
     "placeholders": {
@@ -391,7 +391,7 @@
       }
     }
   },
-  "statsEquivalentMovies": "Хватит смотреть фильмы про {count}",
+  "statsEquivalentMovies": "Хватит времени посмотреть примерно {count} фильмов",
   "@statsEquivalentMovies": {
     "description": "Fun equivalence for time saved — movies watched",
     "placeholders": {
@@ -435,7 +435,7 @@
   "@statsResilienceTitle": {
     "description": "Section title for the resilience/relapse history card on stats page"
   },
-  "statsTimesBouncedBack": "{count} раз вы сбросили настройки и продолжили работу.",
+  "statsTimesBouncedBack": "Вы {count} раз начинали заново и продолжали двигаться вперёд.",
   "@statsTimesBouncedBack": {
     "description": "Motivational message about number of relapses",
     "placeholders": {
@@ -883,17 +883,17 @@
   "@settingsNotifyOpioids": {
     "description": "Setting subtitle for opioids notifications"
   },
-  "settingsNotifySocialMedia": "Уведомлять о ходе выхода из социальных сетей",
+  "settingsNotifySocialMedia": "Уведомлять о прогрессе отказа от социальных сетей",
   "@settingsNotifySocialMedia": {
     "description": "Setting subtitle for social media notifications"
   },
   "settingsNotifyCocaine": "Уведомлять о прогрессе в отказе от кокаина",
   "settingsNotifyMeth": "Уведомлять о ходе прекращения приема метамфетамина",
-  "settingsNotifyAdultContent": "Уведомлять о ходе выхода из контента для взрослых",
+  "settingsNotifyAdultContent": "Уведомлять о прогрессе отказа от контента для взрослых",
   "@settingsNotifyAdultContent": {
     "description": "Setting subtitle for adult content notifications"
   },
-  "settingsNotifyCustomEntry": "Уведомить {name} о ходе выхода",
+  "settingsNotifyCustomEntry": "Уведомлять о прогрессе для «{name}»",
   "@settingsNotifyCustomEntry": {
     "description": "Setting subtitle for custom entry notifications",
     "placeholders": {
@@ -1204,7 +1204,7 @@
   "@pinPageIncorrectPIN": {
     "description": "Error message for incorrect PIN"
   },
-  "pinPageTooManyAttempts": "Слишком много попыток. Попробуйте еще раз в {seconds}s.",
+  "pinPageTooManyAttempts": "Слишком много попыток. Попробуйте снова через {seconds} с.",
   "@pinPageTooManyAttempts": {
     "description": "Error message when too many failed PIN attempts, showing remaining lockout seconds",
     "placeholders": {
@@ -2313,7 +2313,7 @@
       }
     }
   },
-  "notificationProgressTitle": "Нет {name}",
+  "notificationProgressTitle": "Без {name}",
   "@notificationProgressTitle": {
     "description": "Progress notification title",
     "placeholders": {
@@ -2322,7 +2322,7 @@
       }
     }
   },
-  "notificationProgressBody": "{days} дней чистоты — {message}",
+  "notificationProgressBody": "Уже {days} дней — {message}",
   "@notificationProgressBody": {
     "description": "Progress notification body",
     "placeholders": {
