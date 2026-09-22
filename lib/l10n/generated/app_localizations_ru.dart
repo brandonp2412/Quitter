@@ -1059,7 +1059,7 @@ class AppLocalizationsRu extends AppLocalizations {
       'Начните отслеживать зависимости, чтобы увидеть свою статистику';
 
   @override
-  String get statsJourneyTitle => 'Ваше путешествие';
+  String get statsJourneyTitle => 'Ваш путь';
 
   @override
   String statsTotalDays(int days) {
@@ -1080,16 +1080,16 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String statsEquivalentCoffees(int count) {
-    return 'Речь идет о кофе $count.';
+    return 'Это примерно $count чашек кофе';
   }
 
   @override
   String statsEquivalentMeals(int count) {
-    return 'Речь идет о ресторанных блюдах $count.';
+    return 'Это примерно $count приёмов пищи в ресторане';
   }
 
   @override
-  String get statsEquivalentFlight => 'Это полет куда-то новый';
+  String get statsEquivalentFlight => 'Это как перелёт в новое место';
 
   @override
   String get statsEquivalentVacation => 'Это отпуск за границей';
@@ -1292,17 +1292,17 @@ class AppLocalizationsRu extends AppLocalizations {
   String get addictionFentanyl => 'Фентанил';
 
   @override
-  String get addictionSmokelessTobacco => 'Дип/Жевательный табак';
+  String get addictionSmokelessTobacco => 'Дип / жевательный табак';
 
   @override
   String get smokelessTobaccoPageTitle => 'Без табака';
 
   @override
-  String get smokelessTobaccoHeaderStarted => 'Путешествие без никотина';
+  String get smokelessTobaccoHeaderStarted => 'Путь без никотина';
 
   @override
   String get smokelessTobaccoHeaderNotStarted =>
-      'Откажитесь от жевательного табака и жевательного табака';
+      'Откажитесь от дипа и жевательного табака';
 
   @override
   String get smokelessTobaccoSubtitleStarted =>
@@ -1732,7 +1732,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get entryPageSubtitleNotStarted =>
-      'Нажмите «Начать», чтобы начать путешествие.';
+      'Нажмите «Начать», чтобы сделать первый шаг.';
 
   @override
   String get editEntryAddTitle => 'Добавить запись';
@@ -1891,7 +1891,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get smokingHeaderStarted => 'Дышите спокойно!';
 
   @override
-  String get smokingHeaderNotStarted => 'Путешествие без табачного дыма!';
+  String get smokingHeaderNotStarted => 'Путь без табачного дыма!';
 
   @override
   String get smokingSubtitleStarted =>
@@ -1902,7 +1902,7 @@ class AppLocalizationsRu extends AppLocalizations {
       'Готовы восстановить свое здоровье? ✨';
 
   @override
-  String get marijuanaPageTitle => 'Путешествие без каннабиса';
+  String get marijuanaPageTitle => 'Путь без каннабиса';
 
   @override
   String get marijuanaHeaderStarted => 'Ясный разум поднимается!';
@@ -1961,7 +1961,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get socialMediaHeaderStarted => 'Отключите и играйте!';
 
   @override
-  String get socialMediaHeaderNotStarted => 'Цифровое детокс-путешествие!';
+  String get socialMediaHeaderNotStarted => 'Путь к цифровому детоксу!';
 
   @override
   String get socialMediaSubtitleStarted => 'Реальная жизнь - лучшая корма 💖';
@@ -2004,7 +2004,7 @@ class AppLocalizationsRu extends AppLocalizations {
       'Каждый перезапуск — это доказательство вашей силы, а не признак слабости.';
 
   @override
-  String get relapseMessage5 => 'Завтра новое начало. У вас есть это.';
+  String get relapseMessage5 => 'Завтра — новое начало. У вас всё получится.';
 
   @override
   String get relapseMessage6 =>
@@ -2012,7 +2012,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get relapseMessage7 =>
-      'Выздоровление — это путешествие по холмам и долинам. Продолжайте идти.';
+      'Восстановление — это путь с подъёмами и спадами. Продолжайте идти вперёд.';
 
   @override
   String get relapseMessage8 =>
@@ -2146,7 +2146,7 @@ class AppLocalizationsRu extends AppLocalizations {
       'Твоя кровь снова дышит! В течение 24 часов уровень угарного газа падает до нормального уровня, а уровень кислорода увеличивается. Вашему сердцу больше не придется работать сверхурочно, чтобы перекачивать отравленную кровь по телу.';
 
   @override
-  String get smokingMilestone3Title => 'Пики отмены никотина';
+  String get smokingMilestone3Title => 'Пик симптомов отмены никотина';
 
   @override
   String get smokingMilestone3Description =>
@@ -2475,7 +2475,8 @@ class AppLocalizationsRu extends AppLocalizations {
       'Никотин притупляет вкусовые рецепторы и обонятельные рецепторы. Спустя всего 24 часа без сумок эти чувства начинают свое возвращение! Еда снова станет восхитительной на вкус.';
 
   @override
-  String get nicotinePouchesMilestone3Title => 'Никотин полностью очищен';
+  String get nicotinePouchesMilestone3Title =>
+      'Никотин полностью выведен из организма';
 
   @override
   String get nicotinePouchesMilestone3Description =>
@@ -2683,7 +2684,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get ssriSubtitleNotStarted =>
-      'Посмотрите, что произойдет, когда вы сократите потребление';
+      'Посмотрите, что происходит при постепенном снижении дозы';
 
   @override
   String get ssriMilestone3Title => 'День 3: Пики синдрома ФИНИШ';
@@ -2763,7 +2764,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get snriSubtitleNotStarted =>
-      'Посмотрите, что произойдет, когда вы сократите потребление';
+      'Посмотрите, что происходит при постепенном снижении дозы';
 
   @override
   String get snriMilestone3Title =>
@@ -2844,7 +2845,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get tcaSubtitleNotStarted =>
-      'Посмотрите, что произойдет, когда вы сократите потребление';
+      'Посмотрите, что происходит при постепенном снижении дозы';
 
   @override
   String get tcaMilestone3Title => 'День 3: Пики отскока ацетилхолина';
@@ -2923,7 +2924,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get maoiSubtitleNotStarted =>
-      'Посмотрите, что произойдет, когда вы сократите потребление';
+      'Посмотрите, что происходит при постепенном снижении дозы';
 
   @override
   String get maoiMilestone3Title =>

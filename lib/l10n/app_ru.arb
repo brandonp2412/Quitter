@@ -313,7 +313,7 @@
   "@statsNoAddictions": {
     "description": "Empty state message on the stats page"
   },
-  "statsJourneyTitle": "Ваше путешествие",
+  "statsJourneyTitle": "Ваш путь",
   "@statsJourneyTitle": {
     "description": "Section title for the overview journey card on stats page"
   },
@@ -343,7 +343,7 @@
   "@statsMoneySavedEstimate": {
     "description": "Disclaimer text on the money saved card"
   },
-  "statsEquivalentCoffees": "Речь идет о кофе {count}.",
+  "statsEquivalentCoffees": "Это примерно {count} чашек кофе",
   "@statsEquivalentCoffees": {
     "description": "Fun equivalence for money saved — coffees",
     "placeholders": {
@@ -352,7 +352,7 @@
       }
     }
   },
-  "statsEquivalentMeals": "Речь идет о ресторанных блюдах {count}.",
+  "statsEquivalentMeals": "Это примерно {count} приёмов пищи в ресторане",
   "@statsEquivalentMeals": {
     "description": "Fun equivalence for money saved — restaurant meals",
     "placeholders": {
@@ -361,7 +361,7 @@
       }
     }
   },
-  "statsEquivalentFlight": "Это полет куда-то новый",
+  "statsEquivalentFlight": "Это как перелёт в новое место",
   "@statsEquivalentFlight": {
     "description": "Fun equivalence for money saved — a flight ticket"
   },
@@ -637,7 +637,7 @@
   "@addictionFentanyl": {
     "description": "Name of the fentanyl addiction type"
   },
-  "addictionSmokelessTobacco": "Дип/Жевательный табак",
+  "addictionSmokelessTobacco": "Дип / жевательный табак",
   "@addictionSmokelessTobacco": {
     "description": "Name of the smokeless tobacco addiction type"
   },
@@ -645,11 +645,11 @@
   "@smokelessTobaccoPageTitle": {
     "description": "Page title for smokeless tobacco quit milestones"
   },
-  "smokelessTobaccoHeaderStarted": "Путешествие без никотина",
+  "smokelessTobaccoHeaderStarted": "Путь без никотина",
   "@smokelessTobaccoHeaderStarted": {
     "description": "Header shown when user has started quitting smokeless tobacco"
   },
-  "smokelessTobaccoHeaderNotStarted": "Откажитесь от жевательного табака и жевательного табака",
+  "smokelessTobaccoHeaderNotStarted": "Откажитесь от дипа и жевательного табака",
   "@smokelessTobaccoHeaderNotStarted": {
     "description": "Header shown when user has not started quitting smokeless tobacco"
   },
@@ -1148,7 +1148,7 @@
   "@entryPageSubtitleStarted": {
     "description": "Subtitle text for started custom entry"
   },
-  "entryPageSubtitleNotStarted": "Нажмите «Начать», чтобы начать путешествие.",
+  "entryPageSubtitleNotStarted": "Нажмите «Начать», чтобы сделать первый шаг.",
   "@entryPageSubtitleNotStarted": {
     "description": "Subtitle text for not started custom entry"
   },
@@ -1352,7 +1352,7 @@
   "@smokingHeaderStarted": {
     "description": "Header for started smoking quit journey"
   },
-  "smokingHeaderNotStarted": "Путешествие без табачного дыма!",
+  "smokingHeaderNotStarted": "Путь без табачного дыма!",
   "@smokingHeaderNotStarted": {
     "description": "Header for not started smoking quit journey"
   },
@@ -1364,7 +1364,7 @@
   "@smokingSubtitleNotStarted": {
     "description": "Subtitle for not started smoking quit journey"
   },
-  "marijuanaPageTitle": "Путешествие без каннабиса",
+  "marijuanaPageTitle": "Путь без каннабиса",
   "@marijuanaPageTitle": {
     "description": "Page title for marijuana tracking"
   },
@@ -1436,7 +1436,7 @@
   "@socialMediaHeaderStarted": {
     "description": "Header for started social media quit journey"
   },
-  "socialMediaHeaderNotStarted": "Цифровое детокс-путешествие!",
+  "socialMediaHeaderNotStarted": "Путь к цифровому детоксу!",
   "@socialMediaHeaderNotStarted": {
     "description": "Header for not started social media quit journey"
   },
@@ -1484,7 +1484,7 @@
   "@relapseMessage4": {
     "description": "Encouragement message for relapse"
   },
-  "relapseMessage5": "Завтра новое начало. У вас есть это.",
+  "relapseMessage5": "Завтра — новое начало. У вас всё получится.",
   "@relapseMessage5": {
     "description": "Encouragement message for relapse"
   },
@@ -1492,7 +1492,7 @@
   "@relapseMessage6": {
     "description": "Encouragement message for relapse"
   },
-  "relapseMessage7": "Выздоровление — это путешествие по холмам и долинам. Продолжайте идти.",
+  "relapseMessage7": "Восстановление — это путь с подъёмами и спадами. Продолжайте идти вперёд.",
   "@relapseMessage7": {
     "description": "Encouragement message for relapse"
   },
@@ -1636,7 +1636,7 @@
   "@smokingMilestone1Description": {
     "description": "Smoking milestone day 1 description"
   },
-  "smokingMilestone3Title": "Пики отмены никотина",
+  "smokingMilestone3Title": "Пик симптомов отмены никотина",
   "@smokingMilestone3Title": {
     "description": "Smoking milestone day 3 title"
   },
@@ -1996,7 +1996,7 @@
   "@nicotinePouchesMilestone1Description": {
     "description": "Nicotine pouches milestone day 1 description"
   },
-  "nicotinePouchesMilestone3Title": "Никотин полностью очищен",
+  "nicotinePouchesMilestone3Title": "Никотин полностью выведен из организма",
   "@nicotinePouchesMilestone3Title": {
     "description": "Nicotine pouches milestone day 3 title"
   },
@@ -2212,7 +2212,7 @@
   "ssriHeaderStarted": "Ваш путь восстановления",
   "ssriHeaderNotStarted": "Преимущества постепенного прекращения приема СИОЗС",
   "ssriSubtitleStarted": "Отслеживайте свой прогресс и отмечайте каждую веху",
-  "ssriSubtitleNotStarted": "Посмотрите, что произойдет, когда вы сократите потребление",
+  "ssriSubtitleNotStarted": "Посмотрите, что происходит при постепенном снижении дозы",
   "ssriMilestone3Title": "День 3: Пики синдрома ФИНИШ",
   "ssriMilestone3Description": "Симптомы абстиненции часто достигают пика примерно на 2–4 день. СИОЗС меняют способ переработки серотонина, поэтому мозгу нужно время, чтобы приспособиться после прекращения приема. Ожидайте гриппоподобных симптомов, головокружения, бессонницы, тошноты и «мозговых перебоев». Пароксетин имеет тенденцию вызывать более сильную абстиненцию; флуоксетин действует в организме гораздо дольше и обычно действует мягче.",
   "ssriMilestone7Title": "Одна неделя: острая фаза начинает ослабевать",
@@ -2237,7 +2237,7 @@
   "snriHeaderStarted": "Ваш путь восстановления",
   "snriHeaderNotStarted": "Преимущества снижения дозы СИОЗСН",
   "snriSubtitleStarted": "Отслеживайте свой прогресс и отмечайте каждую веху",
-  "snriSubtitleNotStarted": "Посмотрите, что произойдет, когда вы сократите потребление",
+  "snriSubtitleNotStarted": "Посмотрите, что происходит при постепенном снижении дозы",
   "snriMilestone3Title": "День 3: Пик синдрома интенсивного прекращения приема",
   "snriMilestone3Description": "СИОЗСН — особенно венлафаксин (Эффексор) — связаны с некоторыми из наиболее тяжелых синдромов отмены антидепрессантов. Очень короткий период полувыведения венлафаксина (5 часов) означает, что симптомы могут быть более интенсивными, чем у большинства СИОЗС. Симптомы ФИНИШ (гриппоподобные ощущения, бессонница, тошнота, дисбаланс, сенсорные нарушения, повышенное возбуждение) одновременно затрагивают серотониновую и норадреналиновую системы.",
   "snriMilestone7Title": "Одна неделя: адаптация двух химических систем мозга",
@@ -2262,7 +2262,7 @@
   "tcaHeaderStarted": "Ваш путь восстановления",
   "tcaHeaderNotStarted": "Преимущества сокращения потребления ТЦА",
   "tcaSubtitleStarted": "Отслеживайте свой прогресс и отмечайте каждую веху",
-  "tcaSubtitleNotStarted": "Посмотрите, что произойдет, когда вы сократите потребление",
+  "tcaSubtitleNotStarted": "Посмотрите, что происходит при постепенном снижении дозы",
   "tcaMilestone3Title": "День 3: Пики отскока ацетилхолина",
   "tcaMilestone3Description": "ТЦА блокируют ацетилхолин. После остановки эта система может на короткое время стать сверхактивной. Симптомы включают тошноту, диарею, спазмы желудка, сильное потоотделение, головную боль, мышечные боли и бессонницу. Эти симптомы обычно достигают пика рано, а затем ослабевают.",
   "tcaMilestone7Title": "Одна неделя: ослабление симптомов отскока",
@@ -2287,7 +2287,7 @@
   "maoiHeaderStarted": "Ваш путь восстановления",
   "maoiHeaderNotStarted": "Преимущества сокращения ИМАО",
   "maoiSubtitleStarted": "Отслеживайте свой прогресс и отмечайте каждую веху",
-  "maoiSubtitleNotStarted": "Посмотрите, что произойдет, когда вы сократите потребление",
+  "maoiSubtitleNotStarted": "Посмотрите, что происходит при постепенном снижении дозы",
   "maoiMilestone3Title": "День 3: Фаза наивысшего риска — необходим медицинский контроль",
   "maoiMilestone3Description": "ИМАО несут самый серьезный риск прекращения приема из любого класса антидепрессантов. Резкое прекращение приема фенелзина и транилципромина может вызвать сильное возбуждение, спутанность сознания, галлюцинации, миоклонус и гипертермию. Если вы испытываете эти симптомы, немедленно обратитесь за медицинской помощью. ИМАО действуют путем постоянного отключения ферментов МАО; Для восстановления требуется, чтобы организм синтезировал новый фермент, и этот процесс занимает примерно 14 дней.",
   "maoiMilestone7Title": "Одна неделя: идет синтез фермента МАО",
