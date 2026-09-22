@@ -1,0 +1,10 @@
+• Fix complete store localization coverage
+• Fix localize 1.1.71 release notes
+• Fix localize App Store release notes
+• Fix localize remaining social and stimulant terms
+• Fix polish Japanese and Chinese B12 recovery copy
+• Fix polish Japanese and Chinese milestone copy
+• Fix polish Japanese and Chinese nicotine copy
+• Fix polish Japanese and Chinese recovery copy
+• Fix polish Russian recovery translations
+• Fix polish Russian recovery wording
