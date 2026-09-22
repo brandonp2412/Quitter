@@ -1,0 +1,10 @@
+• Harmonise la terminologie japonaise et russe
+• Complète les références sur le rétablissement en français
+• Corrige la terminologie russe liée au rétablissement
+• Maintient un registre cohérent dans l’interface russe
+• Localise les notes de version 1.1.70
+• Localise les notes d’annulation sur Google Play
+• Localise l’effacement de la recherche et les statistiques compactes
+• Rend le texte de progression neutre vis-à-vis de l’habitude
+• Améliore la formulation chinoise sur le rétablissement
+• Améliore les traductions française et espagnole

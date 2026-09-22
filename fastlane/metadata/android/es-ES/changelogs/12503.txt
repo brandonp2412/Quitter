@@ -1,0 +1,10 @@
+• Ajusta la terminología en japonés y ruso
+• Completa las referencias de recuperación en francés
+• Corrige la terminología de recuperación en ruso
+• Mantiene coherente el registro de la interfaz en ruso
+• Localiza las notas de la versión 1.1.70
+• Localiza las notas de reversión de Google Play
+• Localiza el borrado de búsqueda y las estadísticas compactas
+• Hace que el texto de progreso sea neutral respecto al hábito
+• Mejora la redacción en chino sobre recuperación
+• Mejora las traducciones al francés y al español
