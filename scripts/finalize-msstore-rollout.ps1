@@ -66,7 +66,7 @@ if ($pollResult.ExitCode -ne 0) {
 }
 
 $appResult = Invoke-StoreCommand @(
-  "apps", "get", $ProductId, "--verbose"
+  "apps", "get", $ProductId
 )
 
 if ($appResult.ExitCode -ne 0) {
@@ -90,7 +90,7 @@ if (-not $submissionId) {
 
 $getResult = Invoke-StoreCommand @(
   "submission", "rollout", "get", $ProductId,
-  "--submissionId", $submissionId, "--verbose"
+  "--submissionId", $submissionId
 )
 
 if ($getResult.ExitCode -ne 0) {

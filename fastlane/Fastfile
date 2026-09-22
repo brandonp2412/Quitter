@@ -30,17 +30,41 @@ platform :android do
   desc "Upload the complete Google Play store listing without a binary release"
   lane :metadata do |options|
     sync_localized_changelogs
+    track = options[:track] || "production"
     skip_changelogs = options[:skip_changelogs].to_s == "true"
+
     supply(
       json_key: options[:json_key],
       package_name: "com.quitter.app",
-      track: options[:track] || "production",
+      track: track,
       skip_upload_apk: true,
       skip_upload_aab: true,
-      skip_upload_changelogs: skip_changelogs,
+      skip_upload_changelogs: true,
       skip_upload_metadata: false,
       skip_upload_images: false,
       skip_upload_screenshots: false
     )
+
+    unless skip_changelogs
+      version_codes = google_play_track_version_codes(
+        json_key: options[:json_key],
+        package_name: "com.quitter.app",
+        track: track
+      )
+      UI.user_error!("No active Google Play version codes found for #{track}.") if version_codes.empty?
+
+      supply(
+        json_key: options[:json_key],
+        package_name: "com.quitter.app",
+        track: track,
+        version_code: version_codes.max,
+        skip_upload_apk: true,
+        skip_upload_aab: true,
+        skip_upload_changelogs: false,
+        skip_upload_metadata: true,
+        skip_upload_images: true,
+        skip_upload_screenshots: true
+      )
+    end
   end
 end
