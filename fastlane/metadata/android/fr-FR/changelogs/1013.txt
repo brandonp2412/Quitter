@@ -1,2 +1,2 @@
-• feat : ajoute la traduction en chinois simplifié
+• Ajoute la traduction en chinois simplifié
 • Corrige les messages toast qui ne disparaissaient jamais

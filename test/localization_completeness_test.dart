@@ -1216,7 +1216,7 @@ void main() {
 
   test('localized in-app changelogs do not leak commit prefixes', () {
     final commitPrefix = RegExp(
-      r'\b(?:build|chore|ci|docs|feat|fix|perf|refactor|test):\s+',
+      r'\b(?:build|chore|ci|docs|feat|fix|perf|refactor|test)\s*:\s+',
       caseSensitive: false,
     );
 
@@ -1238,7 +1238,7 @@ void main() {
 
   test('localized Play changelogs do not leak English commit prose', () {
     final commitPrefix = RegExp(
-      r'\b(?:build|chore|ci|docs|feat|fix|perf|refactor|test):\s+',
+      r'\b(?:build|chore|ci|docs|feat|fix|perf|refactor|test)\s*:\s+',
       caseSensitive: false,
     );
     const storeLocales = ['es-ES', 'fr-FR', 'ja-JP', 'ru-RU', 'zh-CN'];
