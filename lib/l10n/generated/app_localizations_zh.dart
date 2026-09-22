@@ -1004,7 +1004,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String statsTotalDays(int days) {
-    return '$days天';
+    return '共$days天';
   }
 
   @override
@@ -1244,6 +1244,9 @@ class AppLocalizationsZh extends AppLocalizations {
   String get noSearchResults => '未找到结果';
 
   @override
+  String get clearSearch => '清除搜索';
+
+  @override
   String get homeSearchHint => '搜索成瘾项目...';
 
   @override
@@ -1262,7 +1265,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get settingsExportSaveDialog => '保存数据到';
 
   @override
-  String get settingsSearchHint => '搜索...';
+  String get settingsSearchHint => '搜索设置...';
 
   @override
   String get settingsSectionAppearance => '外观';

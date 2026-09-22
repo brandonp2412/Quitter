@@ -2290,6 +2290,12 @@ abstract class AppLocalizations {
   /// **'No results found'**
   String get noSearchResults;
 
+  /// No description provided for @clearSearch.
+  ///
+  /// In en, this message translates to:
+  /// **'Clear search'**
+  String get clearSearch;
+
   /// Hint text for the home addiction search bar
   ///
   /// In en, this message translates to:

@@ -1064,7 +1064,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String statsTotalDays(int days) {
-    return '$days всего дней';
+    return 'Всего дней: $days';
   }
 
   @override
@@ -1325,13 +1325,16 @@ class AppLocalizationsRu extends AppLocalizations {
   String get noSearchResults => 'Результаты не найдены';
 
   @override
+  String get clearSearch => 'Очистить поиск';
+
+  @override
   String get homeSearchHint => 'Ищите зависимости...';
 
   @override
   String get homeTrackAnyway => 'Отследите это в любом случае';
 
   @override
-  String get iconSearchHint => 'Иконки поиска...';
+  String get iconSearchHint => 'Поиск значков...';
 
   @override
   String get iconNoResults => 'Значки не найдены';

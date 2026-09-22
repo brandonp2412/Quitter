@@ -112,7 +112,7 @@ class _IconPickerWidgetState extends State<IconPickerWidget> {
               ? AppEmptyState(
                   icon: Icons.search_off_rounded,
                   title: l10n.iconNoResults,
-                  actionLabel: l10n.quitMilestonesClear,
+                  actionLabel: l10n.clearSearch,
                   actionIcon: Icons.close_rounded,
                   onAction: _searchController.clear,
                 )

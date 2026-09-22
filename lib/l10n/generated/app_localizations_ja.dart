@@ -1005,7 +1005,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String statsTotalDays(int days) {
-    return '$days日間';
+    return '合計$days日';
   }
 
   @override
@@ -1245,6 +1245,9 @@ class AppLocalizationsJa extends AppLocalizations {
   String get noSearchResults => '結果が見つかりません';
 
   @override
+  String get clearSearch => '検索をクリア';
+
+  @override
   String get homeSearchHint => '依存対象を検索...';
 
   @override
@@ -1263,7 +1266,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get settingsExportSaveDialog => 'データの保存先';
 
   @override
-  String get settingsSearchHint => '検索...';
+  String get settingsSearchHint => '設定を検索...';
 
   @override
   String get settingsSectionAppearance => '外観';

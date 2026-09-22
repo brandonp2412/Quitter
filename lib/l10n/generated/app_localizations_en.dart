@@ -1287,6 +1287,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get noSearchResults => 'No results found';
 
   @override
+  String get clearSearch => 'Clear search';
+
+  @override
   String get homeSearchHint => 'Search addictions...';
 
   @override

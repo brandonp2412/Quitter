@@ -1335,6 +1335,9 @@ class AppLocalizationsFr extends AppLocalizations {
   String get noSearchResults => 'Aucun résultat';
 
   @override
+  String get clearSearch => 'Effacer la recherche';
+
+  @override
   String get homeSearchHint => 'Rechercher des dépendances...';
 
   @override

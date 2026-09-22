@@ -91,7 +91,7 @@ class _SettingsPageState extends State<SettingsPage> {
                     ? AppEmptyState(
                         icon: Icons.search_off_rounded,
                         title: l10n.noSearchResults,
-                        actionLabel: l10n.quitMilestonesClear,
+                        actionLabel: l10n.clearSearch,
                         actionIcon: Icons.close_rounded,
                         onAction: _searchController.clear,
                       )

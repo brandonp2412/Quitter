@@ -677,6 +677,7 @@
     "description": "Generic search hint text"
   },
   "noSearchResults": "No results found",
+  "clearSearch": "Clear search",
   "@noSearchResults": {
     "description": "Shown when a search yields no matches"
   },

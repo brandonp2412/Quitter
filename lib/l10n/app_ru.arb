@@ -317,7 +317,7 @@
   "@statsJourneyTitle": {
     "description": "Section title for the overview journey card on stats page"
   },
-  "statsTotalDays": "{days} всего дней",
+  "statsTotalDays": "Всего дней: {days}",
   "@statsTotalDays": {
     "description": "Total days clean across all addictions",
     "placeholders": {
@@ -674,6 +674,7 @@
     "description": "Generic search hint text"
   },
   "noSearchResults": "Результаты не найдены",
+  "clearSearch": "Очистить поиск",
   "@noSearchResults": {
     "description": "Shown when a search yields no matches"
   },
@@ -685,7 +686,7 @@
   "@homeTrackAnyway": {
     "description": "Button to create a custom tracker from an unmatched search"
   },
-  "iconSearchHint": "Иконки поиска...",
+  "iconSearchHint": "Поиск значков...",
   "@iconSearchHint": {
     "description": "Hint text for the icon picker search bar"
   },

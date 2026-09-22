@@ -317,7 +317,7 @@
   "@statsJourneyTitle": {
     "description": "Section title for the overview journey card on stats page"
   },
-  "statsTotalDays": "{days}天",
+  "statsTotalDays": "共{days}天",
   "@statsTotalDays": {
     "description": "Total days clean across all addictions",
     "placeholders": {
@@ -674,6 +674,7 @@
     "description": "Generic search hint text"
   },
   "noSearchResults": "未找到结果",
+  "clearSearch": "清除搜索",
   "@noSearchResults": {
     "description": "Shown when a search yields no matches"
   },
@@ -701,7 +702,7 @@
   "@settingsExportSaveDialog": {
     "description": "Title of the export file save dialog"
   },
-  "settingsSearchHint": "搜索...",
+  "settingsSearchHint": "搜索设置...",
   "@settingsSearchHint": {
     "description": "Hint text for settings search bar"
   },

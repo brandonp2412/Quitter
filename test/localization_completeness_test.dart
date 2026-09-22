@@ -229,6 +229,37 @@ void main() {
     }
   });
 
+  test('search and compact stats copy preserves intent', () {
+    const clearSearch = {
+      'en': 'Clear search',
+      'es': 'Limpiar búsqueda',
+      'fr': 'Effacer la recherche',
+      'ja': '検索をクリア',
+      'ru': 'Очистить поиск',
+      'zh': '清除搜索',
+    };
+
+    for (final entry in clearSearch.entries) {
+      expect(_readArb(entry.key)['clearSearch'], entry.value);
+    }
+
+    final japanese = _readArb('ja');
+    final russian = _readArb('ru');
+    final chinese = _readArb('zh');
+
+    expect(japanese['settingsSearchHint'], '設定を検索...');
+    expect(chinese['settingsSearchHint'], '搜索设置...');
+    expect(japanese['statsTotalDays'], '合計{days}日');
+    expect(russian['statsTotalDays'], 'Всего дней: {days}');
+    expect(chinese['statsTotalDays'], '共{days}天');
+    expect(russian['iconSearchHint'], 'Поиск значков...');
+
+    final settings = File('lib/settings_page.dart').readAsStringSync();
+    final iconPicker = File('lib/icon_picker.dart').readAsStringSync();
+    expect(settings, contains('actionLabel: l10n.clearSearch'));
+    expect(iconPicker, contains('actionLabel: l10n.clearSearch'));
+  });
+
   test(
     'Japanese and Chinese antidepressant milestones retain source detail',
     () {

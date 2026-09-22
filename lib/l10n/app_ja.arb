@@ -317,7 +317,7 @@
   "@statsJourneyTitle": {
     "description": "Section title for the overview journey card on stats page"
   },
-  "statsTotalDays": "{days}日間",
+  "statsTotalDays": "合計{days}日",
   "@statsTotalDays": {
     "description": "Total days clean across all addictions",
     "placeholders": {
@@ -674,6 +674,7 @@
     "description": "Generic search hint text"
   },
   "noSearchResults": "結果が見つかりません",
+  "clearSearch": "検索をクリア",
   "@noSearchResults": {
     "description": "Shown when a search yields no matches"
   },
@@ -701,7 +702,7 @@
   "@settingsExportSaveDialog": {
     "description": "Title of the export file save dialog"
   },
-  "settingsSearchHint": "検索...",
+  "settingsSearchHint": "設定を検索...",
   "@settingsSearchHint": {
     "description": "Hint text for settings search bar"
   },
