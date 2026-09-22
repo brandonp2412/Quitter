@@ -1224,14 +1224,13 @@ void main() {
       if (locale.languageCode == 'en') continue;
 
       final changelog = File(
-        'assets/changelogs/' + locale.languageCode + '.json',
+        'assets/changelogs/${locale.languageCode}.json',
       ).readAsStringSync();
       expect(
         commitPrefix.firstMatch(changelog),
         isNull,
         reason:
-            locale.languageCode +
-            ' in-app changelog must not retain raw commit prefixes',
+            '${locale.languageCode} in-app changelog must not retain raw commit prefixes',
       );
     }
   });
