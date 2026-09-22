@@ -1672,7 +1672,7 @@ void main() {
     final pubspec = File('pubspec.yaml').readAsStringSync();
     expect(
       pubspec,
-      contains('  display_name: Quitter\n'),
+      contains('  display_name: Quitter - Addiction recovery tracker\n'),
       reason: 'Windows package name must stay locale-neutral',
     );
 
