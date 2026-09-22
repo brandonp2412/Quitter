@@ -145,5 +145,6 @@
   "1789937089": "• Corrige y completa las notas de la versión localizadas más recientes\n• Corrige y finaliza la localización de las referencias en japonés",
   "1789941191": "• Corrige la cobertura completa de la localización nativa\n• Corrige la localización de las últimas notas de la versión",
   "1789978296": "• Se corrigió la localización de las notas de la versión 1.1.67",
-  "1789998385": "• Corrige la localización de las notas de la versión 1.1.68\n• Corrige la localización del texto de respaldo del widget de Android\n• Corrige la localización de los menús nativos de macOS\n• Actualiza la localización rusa de Google Play Store"
+  "1789998385": "• Corrige la localización de las notas de la versión 1.1.68\n• Corrige la localización del texto de respaldo del widget de Android\n• Corrige la localización de los menús nativos de macOS\n• Actualiza la localización rusa de Google Play Store",
+  "1790068752": "• Corrige la localización de las notas de la versión 1.1.69\n• Mejora las traducciones japonesas sobre recuperación\n• Mejora la precisión semántica de la localización rusa\n• Mejora las traducciones rusas de las referencias\n• Traduce correctamente el texto de commits en el registro de cambios de Google Play"
 }

@@ -1,0 +1,5 @@
+• Corrige la localización de las notas de la versión 1.1.69
+• Mejora las traducciones japonesas sobre recuperación
+• Mejora la precisión semántica de la localización rusa
+• Mejora las traducciones rusas de las referencias
+• Traduce correctamente el texto de commits en el registro de cambios de Google Play
