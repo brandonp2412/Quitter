@@ -412,6 +412,44 @@ void main() {
     }
   });
 
+  test('French and Spanish copy avoids known literal translation artifacts', () {
+    const forbiddenArtifacts = {
+      'fr': {
+        'speed de rue',
+        'concentration intense',
+        'augmentation du sommeil',
+        'gros consommateurs',
+        'dépendant aux amphétamines',
+        'récupération fréquente',
+      },
+      'es': {
+        'el organismo se limpia',
+        'recuperación frecuente',
+        'speed en la calle',
+        'concentración intensa',
+        'aumento del sueño',
+        'consumidores empedernidos',
+        'pensamientos desordenados',
+        'abstinencia más dura dura',
+      },
+    };
+
+    for (final locale in forbiddenArtifacts.entries) {
+      final localized = _readArb(locale.key);
+      for (final entry in localized.entries) {
+        if (entry.key.startsWith('@') || entry.value is! String) continue;
+        final value = (entry.value as String).toLowerCase();
+        for (final artifact in locale.value) {
+          expect(
+            value,
+            isNot(contains(artifact)),
+            reason: '${entry.key} in ${locale.key} must not contain "$artifact"',
+          );
+        }
+      }
+    }
+  });
+
   test('Japanese reference articles do not leak English prose', () {
     final japanese = _readArb('ja');
 
