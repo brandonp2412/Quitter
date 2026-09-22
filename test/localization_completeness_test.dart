@@ -229,6 +229,37 @@ void main() {
     }
   });
 
+  test('French reference articles preserve the full source detail', () {
+    final english = _readArb('en');
+    final french = _readArb('fr');
+
+    for (final entry in english.entries) {
+      if (entry.key.startsWith('@') ||
+          !entry.key.contains('Reference') ||
+          entry.value is! String) {
+        continue;
+      }
+
+      final englishValue = entry.value as String;
+      final frenchValue = french[entry.key] as String;
+
+      if (englishValue.length >= 500) {
+        expect(
+          frenchValue.length,
+          greaterThanOrEqualTo((englishValue.length * 0.7).floor()),
+          reason:
+              '${entry.key} must be a full French translation, not a shortened summary',
+        );
+      }
+
+      expect(
+        '•'.allMatches(frenchValue).length,
+        '•'.allMatches(englishValue).length,
+        reason: '${entry.key} must preserve the source article bullet detail',
+      );
+    }
+  });
+
   test('substance-free copy avoids price-language false friends', () {
     final english = _readArb('en');
     final substanceFreeKeys = english.entries
@@ -430,7 +461,8 @@ void main() {
         expect(
           value,
           isNot(contains(artifact)),
-          reason: '${entry.key} must not contain a literal Japanese recovery calque',
+          reason:
+              '${entry.key} must not contain a literal Japanese recovery calque',
         );
       }
     }
@@ -444,7 +476,8 @@ void main() {
       expect(
         japanese[key] as String,
         isNot(contains('禁欲')),
-        reason: '$key must use medication-abstinence wording, not sexual abstinence',
+        reason:
+            '$key must use medication-abstinence wording, not sexual abstinence',
       );
     }
   });
