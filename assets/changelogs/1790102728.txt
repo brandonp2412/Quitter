@@ -1,0 +1,3 @@
+• Fix localize 1.1.72 release notes
+• Fix polish Spanish and Russian recovery translations
+• Fix polish remaining Russian recovery copy
