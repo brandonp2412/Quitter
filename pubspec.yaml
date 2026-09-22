@@ -53,7 +53,7 @@ flutter:
     - assets/changelogs/
 msix_config:
   msstore_appId: 9PKVZWDG3FGC
-  display_name: Quitter
+  display_name: Quitter - Addiction recovery tracker
   publisher_display_name: Brandon Dick
   languages: en-us, es-es, fr-fr, ja-jp, ru-ru, zh-cn
   identity_name: FrisbeeSoftware.Quitter-Addictionrecoverytracker
