@@ -1,10 +1,10 @@
-• Termine la couverture de localisation de la boutique
-• Localise les notes de version 1.1.71
-• Localise les notes de version de l’App Store
-• Localise les derniers termes liés aux réseaux sociaux et aux stimulants
-• Améliore les textes japonais et chinois sur le rétablissement lié à la vitamine B12
-• Améliore les textes japonais et chinois des étapes
-• Améliore les textes japonais et chinois sur la nicotine
-• Améliore les textes japonais et chinois sur le rétablissement
-• Améliore les traductions russes sur le rétablissement
-• Améliore la formulation russe sur le rétablissement
+• Localisation de la boutique terminée
+• Notes 1.1.71 localisées
+• Notes App Store localisées
+• Derniers termes sur réseaux sociaux et stimulants localisés
+• Texte japonais et chinois sur la vitamine B12 amélioré
+• Texte japonais et chinois des étapes amélioré
+• Texte japonais et chinois sur la nicotine amélioré
+• Texte japonais et chinois sur le rétablissement amélioré
+• Traductions russes sur le rétablissement améliorées
+• Formulation russe sur le rétablissement améliorée

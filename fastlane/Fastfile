@@ -52,12 +52,23 @@ platform :android do
         track: track
       )
       UI.user_error!("No active Google Play version codes found for #{track}.") if version_codes.empty?
+      version_code = version_codes.max
+
+      Dir.glob(File.expand_path("metadata/android/*/changelogs/#{version_code}.txt", __dir__)).each do |path|
+        changelog = File.read(path, encoding: "UTF-8").strip
+        next if changelog.length <= 500
+
+        locale = File.basename(File.dirname(File.dirname(path)))
+        UI.user_error!(
+          "#{locale} changelog for version #{version_code} is #{changelog.length} characters; Google Play allows 500."
+        )
+      end
 
       supply(
         json_key: options[:json_key],
         package_name: "com.quitter.app",
         track: track,
-        version_code: version_codes.max,
+        version_code: version_code,
         skip_upload_apk: true,
         skip_upload_aab: true,
         skip_upload_changelogs: false,
