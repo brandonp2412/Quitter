@@ -504,6 +504,7 @@ void main() {
         'récupération fréquente',
         'histoire de votre retour',
         'récepteurs cannabinoïdes commencent à se réinitialiser',
+        'crash',
       },
       'es': {
         'el organismo se limpia',
@@ -514,6 +515,7 @@ void main() {
         'consumidores empedernidos',
         'pensamientos desordenados',
         'abstinencia más dura dura',
+        'feed',
       },
     };
 
