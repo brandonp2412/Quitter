@@ -430,6 +430,9 @@ void main() {
       'tca',
       'maoi',
       'cws',
+      'месяц чистоты',
+      'месяца чистки',
+      'месяца чисты',
     };
 
     expect(russian['settingsShowAdderallTracking'], contains('Adderall'));
@@ -444,6 +447,17 @@ void main() {
       (russian['methReferenceDay730'] as String).toLowerCase(),
       isNot(contains('алкогол')),
     );
+    for (final key in [
+      'methReferenceDay1',
+      'methReferenceDay3',
+      'synthetic_cannabinoidsMilestone90Description',
+    ]) {
+      expect(
+        (russian[key] as String).toLowerCase(),
+        isNot(contains('кратом')),
+        reason: '$key must not accidentally refer to kratom',
+      );
+    }
 
     for (final entry in russian.entries) {
       if (entry.key.startsWith('@') || entry.value is! String) {
