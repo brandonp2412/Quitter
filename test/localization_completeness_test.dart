@@ -519,6 +519,19 @@ void main() {
       'ドーパミンが低下した脳',
     };
 
+    expect(japanese['addictionMeth'], 'メタンフェタミン');
+    expect(japanese['addictionBenzos'], 'ベンゾジアゼピン');
+    expect(japanese['settingsShowMethTracking'], 'メタンフェタミンの記録を表示');
+    expect(japanese['settingsShowBenzosSubtitle'], 'ベンゾジアゼピンの記録を表示');
+    expect(
+      japanese['settingsNotifyMeth'],
+      'メタンフェタミンをやめてからの進捗を通知',
+    );
+    expect(
+      japanese['settingsNotifyBenzos'],
+      'ベンゾジアゼピンをやめてからの進捗を通知',
+    );
+
     for (final entry in japanese.entries) {
       if (entry.key.startsWith('@') || entry.value is! String) continue;
       final value = entry.value as String;
@@ -610,6 +623,20 @@ void main() {
     );
     expect(russian['settingsNotifyAdderall'], isNot(contains(' adderall')));
     expect(russian['milestoneOpenOriginalSource'], 'Открыть первоисточник');
+    expect(russian['addictionMeth'], 'Метамфетамин');
+    expect(russian['addictionBenzos'], 'Бензодиазепины');
+    expect(
+      russian['settingsShowBenzosSubtitle'],
+      'Показать отслеживание бензодиазепинов',
+    );
+    expect(
+      russian['settingsNotifyBenzos'],
+      'Уведомлять о прогрессе отказа от бензодиазепинов',
+    );
+    expect(
+      (russian['benzodiazepineReferenceDay14'] as String).toLowerCase(),
+      isNot(contains('бензосодержащ')),
+    );
     expect(
       (russian['methReferenceDay730'] as String).toLowerCase(),
       isNot(contains('алкогол')),
@@ -1327,6 +1354,16 @@ void main() {
             'Android ${locale.languageCode} strings must not contain English-only placeholder text',
       );
     }
+
+    final japaneseAndroid = _androidStrings('values-ja');
+    expect(japaneseAndroid['addiction_meth'], 'メタンフェタミン');
+    expect(japaneseAndroid['addiction_benzos'], 'ベンゾジアゼピン');
+
+    final russianAndroid = _androidStrings('values-ru');
+    expect(russianAndroid['addiction_ssri'], 'СИОЗС');
+    expect(russianAndroid['addiction_snri'], 'СИОЗСН');
+    expect(russianAndroid['addiction_tca'], 'ТЦА');
+    expect(russianAndroid['addiction_maoi'], 'ИМАО');
 
     final widget = File(
       'android/app/src/main/java/com/quitter/app/QuitTrackerWidget.kt',

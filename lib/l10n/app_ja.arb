@@ -227,8 +227,8 @@
   "benzoMilestone730Description": "2年は大きな回復の節目です。多くの人で思考がかなり明晰になり、感情が安定し、長期にベンゾジアゼピンを使用していた頃より生活の質が大きく改善しています。",
   "benzoMilestone1095Title": "3年：長期的回復",
   "benzoMilestone1095Description": "3年経つと、長い離脱期間は多くの人にとって遠い過去になっています。睡眠、気分、記憶、注意力には何年もの回復時間があり、日々の生活は長期使用中より通常は大きく改善しています。",
-  "addictionMeth": "メス",
-  "addictionBenzos": "ベンゾ",
+  "addictionMeth": "メタンフェタミン",
+  "addictionBenzos": "ベンゾジアゼピン",
   "methPageTitle": "メス回復",
   "methHeaderStarted": "あなたの回復の旅",
   "methHeaderNotStarted": "ガラスを置く",
@@ -785,7 +785,7 @@
   "@settingsShowJournal": {
     "description": "Setting title for journal visibility"
   },
-  "settingsShowBenzosSubtitle": "ベンゾ追跡を表示",
+  "settingsShowBenzosSubtitle": "ベンゾジアゼピンの記録を表示",
   "settingsShowJournalSubtitle": "考えを記録するための日記タブを有効にする",
   "@settingsShowJournalSubtitle": {
     "description": "Subtitle explaining show journal setting"
@@ -837,7 +837,7 @@
   "settingsShowAdderallTracking": "アデロール追跡を表示",
   "settingsNotifyAdderall": "アデロール禁止の進捗を通知",
   "settingsShowCocaineTracking": "コカイン追跡を表示",
-  "settingsShowMethTracking": "メス追跡を表示",
+  "settingsShowMethTracking": "メタンフェタミンの記録を表示",
   "settingsShowAdultContentTracking": "アダルトコンテンツ追跡を表示",
   "@settingsShowAdultContentTracking": {
     "description": "Setting subtitle for showing adult content tracking"
@@ -878,7 +878,7 @@
   "@settingsNotifyNicotinePouches": {
     "description": "Setting subtitle for nicotine pouches notifications"
   },
-  "settingsNotifyBenzos": "ベンゾ禁止の進捗を通知",
+  "settingsNotifyBenzos": "ベンゾジアゼピンをやめてからの進捗を通知",
   "settingsNotifyOpioids": "オピオイド禁止の進捗を通知",
   "@settingsNotifyOpioids": {
     "description": "Setting subtitle for opioids notifications"
@@ -888,7 +888,7 @@
     "description": "Setting subtitle for social media notifications"
   },
   "settingsNotifyCocaine": "コカイン禁止の進捗を通知",
-  "settingsNotifyMeth": "メス禁止の進捗を通知",
+  "settingsNotifyMeth": "メタンフェタミンをやめてからの進捗を通知",
   "settingsNotifyAdultContent": "アダルトコンテンツ禁止の進捗を通知",
   "@settingsNotifyAdultContent": {
     "description": "Setting subtitle for adult content notifications"

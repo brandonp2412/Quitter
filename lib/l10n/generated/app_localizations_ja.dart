@@ -754,10 +754,10 @@ class AppLocalizationsJa extends AppLocalizations {
       '3年経つと、長い離脱期間は多くの人にとって遠い過去になっています。睡眠、気分、記憶、注意力には何年もの回復時間があり、日々の生活は長期使用中より通常は大きく改善しています。';
 
   @override
-  String get addictionMeth => 'メス';
+  String get addictionMeth => 'メタンフェタミン';
 
   @override
-  String get addictionBenzos => 'ベンゾ';
+  String get addictionBenzos => 'ベンゾジアゼピン';
 
   @override
   String get methPageTitle => 'メス回復';
@@ -1326,7 +1326,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get settingsShowJournal => '日記を表示';
 
   @override
-  String get settingsShowBenzosSubtitle => 'ベンゾ追跡を表示';
+  String get settingsShowBenzosSubtitle => 'ベンゾジアゼピンの記録を表示';
 
   @override
   String get settingsShowJournalSubtitle => '考えを記録するための日記タブを有効にする';
@@ -1374,7 +1374,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get settingsShowCocaineTracking => 'コカイン追跡を表示';
 
   @override
-  String get settingsShowMethTracking => 'メス追跡を表示';
+  String get settingsShowMethTracking => 'メタンフェタミンの記録を表示';
 
   @override
   String get settingsShowAdultContentTracking => 'アダルトコンテンツ追跡を表示';
@@ -1403,7 +1403,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get settingsNotifyNicotinePouches => 'ニコチンパウチ禁止の進捗を通知';
 
   @override
-  String get settingsNotifyBenzos => 'ベンゾ禁止の進捗を通知';
+  String get settingsNotifyBenzos => 'ベンゾジアゼピンをやめてからの進捗を通知';
 
   @override
   String get settingsNotifyOpioids => 'オピオイド禁止の進捗を通知';
@@ -1415,7 +1415,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get settingsNotifyCocaine => 'コカイン禁止の進捗を通知';
 
   @override
-  String get settingsNotifyMeth => 'メス禁止の進捗を通知';
+  String get settingsNotifyMeth => 'メタンフェタミンをやめてからの進捗を通知';
 
   @override
   String get settingsNotifyAdultContent => 'アダルトコンテンツ禁止の進捗を通知';

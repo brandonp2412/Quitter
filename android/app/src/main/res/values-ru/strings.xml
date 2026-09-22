@@ -18,10 +18,10 @@
     <string name="addiction_meth">Метамфетамин</string>
     <string name="addiction_benzos">Бензодиазепины</string>
     <string name="addiction_adderall">Аддералл</string>
-    <string name="addiction_ssri">SSRI</string>
-    <string name="addiction_snri">SNRI</string>
-    <string name="addiction_tca">Трициклические антидепрессанты</string>
-    <string name="addiction_maoi">MAOI</string>
+    <string name="addiction_ssri">СИОЗС</string>
+    <string name="addiction_snri">СИОЗСН</string>
+    <string name="addiction_tca">ТЦА</string>
+    <string name="addiction_maoi">ИМАО</string>
     <string name="addiction_nitrous_oxide">Закись азота</string>
     <string name="addiction_kratom">Кратом</string>
     <string name="addiction_gabapentinoids">Габапентин / прегабалин</string>
