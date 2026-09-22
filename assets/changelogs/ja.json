@@ -72,7 +72,7 @@
   "1761605805": "• ユニットテストを修正\n• 関連語を AC に変更",
   "1761610032": "• カスタム項目のマイルストーンクリアを修正",
   "1761731070": "• PIN ロック設定を追加\n• PIN 画面のユニットテストを追加\n• 設定画面からのデータインポートを修正\n• 通知頻度設定の複数形を修正\n• 設定画面テストを修正\n• ユニットテストを修正\n• 「Windows Store 配布を GitHub Action から削除」を取り消し\n• 「機密情報をすべて secure storage に保存」を取り消し\n• 機密情報を secure storage に保存",
-  "1762319109": "• frontend: journal_page.dart のダークモード表示を修正\n• lib を再フォーマット\n• deploy.sh から yq のインストールを削除",
+  "1762319109": "• journal_page.dart のダークモード表示を修正\n• lib を再フォーマット\n• deploy.sh から yq のインストールを削除",
   "1762830287": "• lib/main.dart をフォーマット\n• VS Code の Flutter SDK パス設定を削除\n• ジャーナル切替時も設定画面に留まるよう変更",
   "1762944633": "• Azure パッケージ最終処理用コードを追加\n• ru/full_description.txt を作成\n• ru/short_description.txt を作成\n• lib/main.dart をフォーマット\n• VS Code の Flutter SDK パス設定を削除\n• ジャーナル切替時も設定画面に留まるよう変更\n• エクスポート／インポートを JSON 形式に変更",
   "1762950199": "• 翻訳フォルダ名を ru から ru-RU に変更",

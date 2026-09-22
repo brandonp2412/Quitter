@@ -72,7 +72,7 @@
   "1761605805": "• Corrige un test unitaire\n• Renomme les termes concernés en AC",
   "1761610032": "• Corrige l’effacement des étapes dans les entrées personnalisées",
   "1761731070": "• Ajoute un réglage de verrouillage par PIN\n• Ajoute des tests unitaires pour la page PIN\n• Corrige l’importation de données depuis la page des paramètres\n• Corrige la gestion du pluriel dans la notification du réglage « notifier tous les »\n• Corrige les tests unitaires de la page des paramètres\n• Corrige les tests unitaires\n• Annule « Remove windows store deployment from github action »\n• Annule « Use secure storage for all sensitive information »\n• Utilise le stockage sécurisé pour toutes les informations sensibles",
-  "1762319109": "• frontend : corrige l’affichage en mode sombre de journal_page.dart\n• Reformate lib\n• Supprime l’installation de yq de deploy.sh",
+  "1762319109": "• Corrige l’affichage en mode sombre de journal_page.dart\n• Reformate lib\n• Supprime l’installation de yq de deploy.sh",
   "1762830287": "• Formate lib/main.dart\n• Supprime la configuration du chemin du SDK Flutter de VS Code\n• Reste sur la page des paramètres lors de l’activation ou désactivation de la page du journal",
   "1762944633": "• Ajoute du code expérimental pour finaliser les déploiements Microsoft Store\n• Crée ru/full_description.txt\n• Crée ru/short_description.txt\n• Formate lib/main.dart\n• Supprime la configuration du chemin du SDK Flutter de VS Code\n• Reste sur la page des paramètres lors de l’activation ou désactivation de la page du journal\n• Utilise le format JSON pour l’exportation et l’importation",
   "1762950199": "• Renomme les traductions ru en ru-RU",

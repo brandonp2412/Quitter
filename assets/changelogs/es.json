@@ -72,7 +72,7 @@
   "1761605805": "• Corrige una prueba unitaria\n• Renombra términos relevantes a AC",
   "1761610032": "• Corrige el borrado de hitos en entradas personalizadas",
   "1761731070": "• Añade ajuste de bloqueo con PIN\n• Añade pruebas unitarias para la página del PIN\n• Corrige la importación de datos desde ajustes\n• Corrige la pluralización de la notificación del ajuste «notificar cada»\n• Corrige pruebas de la página de ajustes\n• Corrige pruebas unitarias\n• Revierte «Eliminar despliegue de Windows Store de la acción de GitHub»\n• Revierte «Usar almacenamiento seguro para toda la información sensible»\n• Usa almacenamiento seguro para toda la información sensible",
-  "1762319109": "• frontend: corrige la apariencia del modo oscuro en journal_page.dart\n• Reformatea lib\n• Elimina la instalación de yq de deploy.sh",
+  "1762319109": "• Corrige la apariencia del modo oscuro en journal_page.dart\n• Reformatea lib\n• Elimina la instalación de yq de deploy.sh",
   "1762830287": "• Formatea lib/main.dart\n• Elimina la configuración de la ruta del SDK de Flutter de VS Code\n• Permanece en ajustes al activar o desactivar la página del diario",
   "1762944633": "• Añade código basura para supuestamente finalizar despliegues de Microsoft Store\n• Crea ru/full_description.txt\n• Crea ru/short_description.txt\n• Formatea lib/main.dart\n• Elimina la configuración de la ruta del SDK de Flutter de VS Code\n• Permanece en ajustes al activar o desactivar la página del diario\n• Usa formato JSON para exportar e importar",
   "1762950199": "• Renombra las traducciones ru a ru-RU",

@@ -72,7 +72,7 @@
   "1761605805": "• 修复单元测试\n• 将相关词语重命名为 AC",
   "1761610032": "• 修复自定义项目清除里程碑",
   "1761731070": "• 添加 PIN 锁设置\n• 添加 PIN 页面单元测试\n• 修复从设置页面导入数据\n• 修复通知频率文案的复数形式\n• 修复设置页面单元测试\n• 修复单元测试\n• 撤销“从 GitHub Action 移除 Windows Store 发布”\n• 撤销“所有敏感信息使用 secure storage”\n• 使用 secure storage 保存敏感信息",
-  "1762319109": "• frontend：修复 journal_page.dart 的深色模式显示\n• 重新格式化 lib\n• 从 deploy.sh 移除 yq 安装",
+  "1762319109": "• 修复 journal_page.dart 的深色模式显示\n• 重新格式化 lib\n• 从 deploy.sh 移除 yq 安装",
   "1762830287": "• 格式化 lib/main.dart\n• 移除 VS Code 的 Flutter SDK 路径配置\n• 切换日记设置时仍停留在设置页面",
   "1762944633": "• 添加 Azure 包发布最终处理代码\n• 创建 ru/full_description.txt\n• 创建 ru/short_description.txt\n• 格式化 lib/main.dart\n• 移除 VS Code 的 Flutter SDK 路径配置\n• 切换日记设置时仍停留在设置页面\n• 导出/导入改用 JSON 格式",
   "1762950199": "• 将翻译目录从 ru 重命名为 ru-RU",
