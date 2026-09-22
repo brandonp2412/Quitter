@@ -251,12 +251,32 @@ void main() {
               '${entry.key} must be a full French translation, not a shortened summary',
         );
       }
+    }
+  });
 
-      expect(
-        '•'.allMatches(frenchValue).length,
-        '•'.allMatches(englishValue).length,
-        reason: '${entry.key} must preserve the source article bullet detail',
-      );
+  test('localized reference articles preserve source bullet detail', () {
+    final english = _readArb('en');
+
+    for (final locale in AppLocalizations.supportedLocales) {
+      if (locale.languageCode == 'en') continue;
+      final localized = _readArb(locale.languageCode);
+
+      for (final entry in english.entries) {
+        if (entry.key.startsWith('@') ||
+            !entry.key.contains('Reference') ||
+            entry.value is! String) {
+          continue;
+        }
+
+        final englishValue = entry.value as String;
+        final localizedValue = localized[entry.key] as String;
+        expect(
+          '•'.allMatches(localizedValue).length,
+          '•'.allMatches(englishValue).length,
+          reason:
+              '${locale.languageCode}:${entry.key} must preserve source article bullet detail',
+        );
+      }
     }
   });
 
