@@ -500,7 +500,7 @@
   "@changesAction": {
     "description": "Action button text to view changelog"
   },
-  "hideDialogTitle": "隐藏 {title}?",
+  "hideDialogTitle": "隐藏 {title}？",
   "@hideDialogTitle": {
     "description": "Title for hide addiction confirmation dialog",
     "placeholders": {
@@ -749,7 +749,7 @@
   "@settingsColorScheme": {
     "description": "Setting title for color scheme selection"
   },
-  "settingsDynamicColorScheme": "动态",
+  "settingsDynamicColorScheme": "动态配色",
   "@settingsDynamicColorScheme": {
     "description": "Use the dynamic color scheme from Material 3"
   },
@@ -777,7 +777,7 @@
   "@settingsResetButtons": {
     "description": "Setting title for reset buttons visibility"
   },
-  "settingsResetButtonsSubtitle": "在戒瘾页面显示重置按钮",
+  "settingsResetButtonsSubtitle": "在各追踪页面显示重置按钮",
   "@settingsResetButtonsSubtitle": {
     "description": "Subtitle explaining reset buttons setting"
   },
@@ -906,7 +906,7 @@
   "@settingsResetMessages": {
     "description": "Setting title for reset messages"
   },
-  "settingsResetMessagesSubtitle": "复发后显示积极强化消息",
+  "settingsResetMessagesSubtitle": "重新开始后显示鼓励消息",
   "@settingsResetMessagesSubtitle": {
     "description": "Subtitle explaining reset messages setting"
   },
@@ -1102,7 +1102,7 @@
       }
     }
   },
-  "quitMilestonesClear": "清除",
+  "quitMilestonesClear": "删除",
   "@quitMilestonesClear": {
     "description": "Button to clear milestone"
   },
@@ -2228,7 +2228,7 @@
   "ssriMilestone365Title": "一年：康复实现",
   "ssriMilestone365Description": "一年标志着一个完整的康复周期。研究显示，接受逐渐减药和心理支持的大多数人在一年后仍保持良好状态。",
   "settingsShowSsriTracking": "显示SSRI追踪",
-  "settingsNotifySsri": "通知SSRI戒断进度",
+  "settingsNotifySsri": "通知 SSRI 减停药进度",
   "addictionSnri": "SNRI",
   "@addictionSnri": {
     "description": "SNRI addiction name"
@@ -2253,7 +2253,7 @@
   "snriMilestone365Title": "一年：康复实现",
   "snriMilestone365Description": "一年标志着完整的双系统恢复周期。研究显示，在医师监督下逐渐减药的大多数人在一年后仍保持良好转归。",
   "settingsShowSnriTracking": "显示SNRI追踪",
-  "settingsNotifySnri": "通知SNRI戒断进度",
+  "settingsNotifySnri": "通知 SNRI 减停药进度",
   "addictionTca": "三环类抗抑郁药",
   "@addictionTca": {
     "description": "Tricyclic antidepressant addiction name"
@@ -2278,7 +2278,7 @@
   "tcaMilestone365Title": "一年：康复实现",
   "tcaMilestone365Description": "一年给了所有受TCA影响的系统整整一年的恢复时间。乙酰胆碱、去甲肾上腺素、血清素和组胺系统都已稳定，记忆、清晰思维和心率控制也得到明显恢复。",
   "settingsShowTcaTracking": "显示三环类追踪",
-  "settingsNotifyTca": "通知三环类抗抑郁药戒断进度",
+  "settingsNotifyTca": "通知三环类抗抑郁药减停药进度",
   "addictionMaoi": "MAOI",
   "@addictionMaoi": {
     "description": "MAOI addiction name"
@@ -2303,7 +2303,7 @@
   "maoiMilestone365Title": "一年：康复实现",
   "maoiMilestone365Description": "停用MAOI一年后，大脑和身体已经有整整一年不受药物影响。情绪、精力、清晰思维以及正常的大脑化学调节，都有了充分时间稳定和恢复。",
   "settingsShowMaoiTracking": "显示MAOI追踪",
-  "settingsNotifyMaoi": "通知MAOI戒断进度",
+  "settingsNotifyMaoi": "通知 MAOI 减停药进度",
   "milestoneRetrieved": "检索日期：{date}",
   "@milestoneRetrieved": {
     "description": "Label showing when a milestone reference was retrieved",

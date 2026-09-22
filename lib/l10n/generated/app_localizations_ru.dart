@@ -1069,15 +1069,14 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String statsAddictionsTracked(int count) {
-    return '$count отслеживается';
+    return 'Отслеживается: $count';
   }
 
   @override
   String get statsMoneySavedTitle => 'Экономия денег';
 
   @override
-  String get statsMoneySavedEstimate =>
-      'Приблизительно на основе среднего использования';
+  String get statsMoneySavedEstimate => 'Оценка на основе среднего потребления';
 
   @override
   String statsEquivalentCoffees(int count) {
@@ -1096,7 +1095,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get statsEquivalentVacation => 'Это отпуск за границей';
 
   @override
-  String get statsTimeSavedTitle => 'Время возвращено';
+  String get statsTimeSavedTitle => 'Возвращённое время';
 
   @override
   String statsHoursSaved(int hours) {
@@ -1114,7 +1113,7 @@ class AppLocalizationsRu extends AppLocalizations {
   }
 
   @override
-  String get statsStreaksTitle => 'Ваши полосы';
+  String get statsStreaksTitle => 'Ваши серии';
 
   @override
   String statsDaysSuffix(int days) {
@@ -1341,10 +1340,10 @@ class AppLocalizationsRu extends AppLocalizations {
   String get milestoneOpenOriginalSource => 'Открыть первоисточник';
 
   @override
-  String get settingsExportSaveDialog => 'Сохраните данные в';
+  String get settingsExportSaveDialog => 'Сохранить данные в';
 
   @override
-  String get settingsSearchHint => 'Настройки поиска...';
+  String get settingsSearchHint => 'Поиск по настройкам...';
 
   @override
   String get settingsSectionAppearance => 'Внешний вид';
@@ -1403,7 +1402,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get settingsResetButtonsSubtitle =>
-      'Показывать кнопки сброса на страницах выхода';
+      'Показывать кнопки сброса на страницах отслеживания';
 
   @override
   String get settingsShowJournal => 'Показать журнал';
@@ -1540,10 +1539,10 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get settingsResetMessagesSubtitle =>
-      'Демонстрируйте положительное подкрепление после рецидивов';
+      'Показывать поддерживающие сообщения после срывов';
 
   @override
-  String get settingsAbout => 'О';
+  String get settingsAbout => 'О приложении';
 
   @override
   String get settingsWhatsNew => 'Что нового';
@@ -1615,7 +1614,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get notificationFrequencySave => 'Сохранить';
 
   @override
-  String get notificationTestTitle => 'Позитивное подтверждение';
+  String get notificationTestTitle => 'Сообщение поддержки';
 
   @override
   String notificationTestBody(int days) {
@@ -1669,7 +1668,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get journalPreviousMonth => 'Предыдущий месяц';
 
   @override
-  String get journalNextMonth => 'В следующем месяце';
+  String get journalNextMonth => 'Следующий месяц';
 
   @override
   String get quitMilestonesStart => 'Старт';
@@ -1678,7 +1677,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get quitMilestonesReset => 'Сброс';
 
   @override
-  String get quitMilestonesQuitDate => 'Дата выхода';
+  String get quitMilestonesQuitDate => 'Дата отказа';
 
   @override
   String quitMilestonesClearTitle(int days) {
@@ -1691,7 +1690,7 @@ class AppLocalizationsRu extends AppLocalizations {
   }
 
   @override
-  String get quitMilestonesClear => 'Очистить';
+  String get quitMilestonesClear => 'Удалить';
 
   @override
   String quitMilestonesShareMessage(int days, String title) {
@@ -3010,16 +3009,16 @@ class AppLocalizationsRu extends AppLocalizations {
   String get notificationProgressMessage2 => 'У вас всё отлично!';
 
   @override
-  String get notificationProgressMessage3 => 'Невероятная преданность делу!';
+  String get notificationProgressMessage3 => 'Невероятная настойчивость!';
 
   @override
-  String get notificationProgressMessage4 => 'Празднование своей силы!';
+  String get notificationProgressMessage4 => 'Отличная стойкость!';
 
   @override
   String get notificationProgressMessage5 => 'Продолжайте сиять!';
 
   @override
-  String get notificationProgressMessage6 => 'Потрясающая работа!';
+  String get notificationProgressMessage6 => 'Отличный результат!';
 
   @override
   String get notificationProgressMessage7 => 'Так держать!';
@@ -3028,10 +3027,10 @@ class AppLocalizationsRu extends AppLocalizations {
   String get notificationProgressMessage8 => 'Вы настоящий чемпион!';
 
   @override
-  String get notificationProgressMessage9 => 'Замечательное усилие!';
+  String get notificationProgressMessage9 => 'Замечательное упорство!';
 
   @override
-  String get notificationProgressMessage10 => 'Оставайся сильным!';
+  String get notificationProgressMessage10 => 'Не сдавайтесь!';
 
   @override
   String get notificationChannelName => 'Напоминания';

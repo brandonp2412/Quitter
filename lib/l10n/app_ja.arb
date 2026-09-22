@@ -500,7 +500,7 @@
   "@changesAction": {
     "description": "Action button text to view changelog"
   },
-  "hideDialogTitle": "{title}を非表示にしますか?",
+  "hideDialogTitle": "{title}を非表示にしますか？",
   "@hideDialogTitle": {
     "description": "Title for hide addiction confirmation dialog",
     "placeholders": {
@@ -806,39 +806,39 @@
   "@settingsSwipeBetweenTabsSubtitle": {
     "description": "Subtitle explaining swipe between tabs setting"
   },
-  "settingsShowAlcoholTracking": "アルコール追跡を表示",
+  "settingsShowAlcoholTracking": "飲酒の記録を表示",
   "@settingsShowAlcoholTracking": {
     "description": "Setting subtitle for showing alcohol tracking"
   },
-  "settingsShowVapingTracking": "ベイピング追跡を表示",
+  "settingsShowVapingTracking": "ベイピングの記録を表示",
   "@settingsShowVapingTracking": {
     "description": "Setting subtitle for showing vaping tracking"
   },
-  "settingsShowSmokingTracking": "喫煙追跡を表示",
+  "settingsShowSmokingTracking": "喫煙の記録を表示",
   "@settingsShowSmokingTracking": {
     "description": "Setting subtitle for showing smoking tracking"
   },
-  "settingsShowMarijuanaTracking": "マリファナ追跡を表示",
+  "settingsShowMarijuanaTracking": "マリファナの記録を表示",
   "@settingsShowMarijuanaTracking": {
     "description": "Setting subtitle for showing marijuana tracking"
   },
-  "settingsShowNicotinePouchesTracking": "ニコチンパウチ追跡を表示",
+  "settingsShowNicotinePouchesTracking": "ニコチンパウチの記録を表示",
   "@settingsShowNicotinePouchesTracking": {
     "description": "Setting subtitle for showing nicotine pouches tracking"
   },
-  "settingsShowOpioidsTracking": "オピオイド追跡を表示",
+  "settingsShowOpioidsTracking": "オピオイドの記録を表示",
   "@settingsShowOpioidsTracking": {
     "description": "Setting subtitle for showing opioids tracking"
   },
-  "settingsShowSocialMediaTracking": "ソーシャルメディア追跡を表示",
+  "settingsShowSocialMediaTracking": "ソーシャルメディアの記録を表示",
   "@settingsShowSocialMediaTracking": {
     "description": "Setting subtitle for showing social media tracking"
   },
-  "settingsShowAdderallTracking": "アデロール追跡を表示",
+  "settingsShowAdderallTracking": "アデロールの記録を表示",
   "settingsNotifyAdderall": "アデロールをやめてからの進捗を通知",
-  "settingsShowCocaineTracking": "コカイン追跡を表示",
+  "settingsShowCocaineTracking": "コカインの記録を表示",
   "settingsShowMethTracking": "メタンフェタミンの記録を表示",
-  "settingsShowAdultContentTracking": "アダルトコンテンツ追跡を表示",
+  "settingsShowAdultContentTracking": "アダルトコンテンツの記録を表示",
   "@settingsShowAdultContentTracking": {
     "description": "Setting subtitle for showing adult content tracking"
   },
@@ -918,7 +918,7 @@
   "@settingsWhatsNew": {
     "description": "Setting title for what's new page"
   },
-  "settingsEnjoyingApp": "アプリを気に入っていただけましたか?",
+  "settingsEnjoyingApp": "アプリを気に入っていただけましたか？",
   "@settingsEnjoyingApp": {
     "description": "Setting title for enjoying the app page"
   },
@@ -1035,7 +1035,7 @@
   "@dataExported": {
     "description": "Toast message when data is exported successfully"
   },
-  "dataImported": "データを正常にインポートしました!",
+  "dataImported": "データを正常にインポートしました！",
   "@dataImported": {
     "description": "Toast message when data is imported successfully"
   },
@@ -1047,7 +1047,7 @@
   "@dataImportFailedMessage": {
     "description": "Dialog message shown when data import fails"
   },
-  "journalHowWasYourDay": "今日はどうでしたか?",
+  "journalHowWasYourDay": "今日はどうでしたか？",
   "@journalHowWasYourDay": {
     "description": "Header text in journal entry section"
   },
@@ -1102,7 +1102,7 @@
       }
     }
   },
-  "quitMilestonesClear": "クリア",
+  "quitMilestonesClear": "削除",
   "@quitMilestonesClear": {
     "description": "Button to clear milestone"
   },
@@ -2227,7 +2227,7 @@
   "ssriMilestone180Description": "6ヶ月により、脳のセロトニンシステムが自然なバランスを見つけました。感情的な幅の改善が報告されており、SSRIによる性機能障害は通常この時点までに解消されています。",
   "ssriMilestone365Title": "1年間：回復達成",
   "ssriMilestone365Description": "1年間は完全な回復サイクルを示しています。研究によると、段階的な減薬と心理的サポートを受けた大多数の人が1年後も良好な状態を維持しています。",
-  "settingsShowSsriTracking": "SSRIトラッキングを表示",
+  "settingsShowSsriTracking": "SSRIの記録を表示",
   "settingsNotifySsri": "SSRIの減薬・中止後の進捗を通知",
   "addictionSnri": "SNRI",
   "@addictionSnri": {
@@ -2252,7 +2252,7 @@
   "snriMilestone180Description": "6ヶ月により、セロトニンとノルエピネフリンの両システムが実質的に再調整されました。多くの人がストレス耐性の改善を報告しています。",
   "snriMilestone365Title": "1年間：回復達成",
   "snriMilestone365Description": "1年間は完全な二重システム回復サイクルを示しています。研究によると、医師の管理下でSNRIを段階的に減薬した人の大多数が1年後も良好な転帰を維持しています。",
-  "settingsShowSnriTracking": "SNRIトラッキングを表示",
+  "settingsShowSnriTracking": "SNRIの記録を表示",
   "settingsNotifySnri": "SNRIの減薬・中止後の進捗を通知",
   "addictionTca": "三環系抗うつ薬",
   "@addictionTca": {
@@ -2277,7 +2277,7 @@
   "tcaMilestone180Description": "6ヶ月経つと、心拍リズム、記憶、思考速度は大きく回復します。TCAによる心拍リズムの変化や頭のもやには、解消するための数ヶ月の時間がありました。",
   "tcaMilestone365Title": "1年間：回復達成",
   "tcaMilestone365Description": "1年あれば、TCAの影響を受けたすべての系に丸1年の回復時間があります。アセチルコリン、ノルアドレナリン、セロトニン、ヒスタミンの各系は落ち着き、記憶、明晰な思考、心拍のコントロールも大きく回復しています。",
-  "settingsShowTcaTracking": "三環系抗うつ薬トラッキングを表示",
+  "settingsShowTcaTracking": "三環系抗うつ薬の記録を表示",
   "settingsNotifyTca": "三環系抗うつ薬の減薬・中止後の進捗を通知",
   "addictionMaoi": "MAOI",
   "@addictionMaoi": {
@@ -2302,7 +2302,7 @@
   "maoiMilestone180Description": "6ヶ月は自然なモノアミン機能の実質的な期間を示します。セロトニン、ノルエピネフリン、ドーパミン受容体集団が正常化されました。フェネチルアミン経路も自然なレベルに回復しています。",
   "maoiMilestone365Title": "1年間：回復達成",
   "maoiMilestone365Description": "MAOIを中止して1年。脳と体には、薬なしで丸1年過ごす時間がありました。気分、エネルギー、明晰な思考、通常の脳内化学調節にも、落ち着いて回復するための十分な時間が与えられています。",
-  "settingsShowMaoiTracking": "MAOIトラッキングを表示",
+  "settingsShowMaoiTracking": "MAOIの記録を表示",
   "settingsNotifyMaoi": "MAOIの減薬・中止後の進捗を通知",
   "milestoneRetrieved": "取得日：{date}",
   "@milestoneRetrieved": {

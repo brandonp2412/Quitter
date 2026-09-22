@@ -1117,7 +1117,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String hideDialogTitle(String title) {
-    return '隐藏 $title?';
+    return '隐藏 $title？';
   }
 
   @override
@@ -1298,7 +1298,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get settingsColorScheme => '配色方案';
 
   @override
-  String get settingsDynamicColorScheme => '动态';
+  String get settingsDynamicColorScheme => '动态配色';
 
   @override
   String get settingsBlueColorScheme => '蓝色';
@@ -1319,7 +1319,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get settingsResetButtons => '重置按钮';
 
   @override
-  String get settingsResetButtonsSubtitle => '在戒瘾页面显示重置按钮';
+  String get settingsResetButtonsSubtitle => '在各追踪页面显示重置按钮';
 
   @override
   String get settingsShowJournal => '显示日记';
@@ -1428,7 +1428,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get settingsResetMessages => '重置消息';
 
   @override
-  String get settingsResetMessagesSubtitle => '复发后显示积极强化消息';
+  String get settingsResetMessagesSubtitle => '重新开始后显示鼓励消息';
 
   @override
   String get settingsAbout => '关于';
@@ -1568,7 +1568,7 @@ class AppLocalizationsZh extends AppLocalizations {
   }
 
   @override
-  String get quitMilestonesClear => '清除';
+  String get quitMilestonesClear => '删除';
 
   @override
   String quitMilestonesShareMessage(int days, String title) {
@@ -2540,7 +2540,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get settingsShowSsriTracking => '显示SSRI追踪';
 
   @override
-  String get settingsNotifySsri => '通知SSRI戒断进度';
+  String get settingsNotifySsri => '通知 SSRI 减停药进度';
 
   @override
   String get addictionSnri => 'SNRI';
@@ -2613,7 +2613,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get settingsShowSnriTracking => '显示SNRI追踪';
 
   @override
-  String get settingsNotifySnri => '通知SNRI戒断进度';
+  String get settingsNotifySnri => '通知 SNRI 减停药进度';
 
   @override
   String get addictionTca => '三环类抗抑郁药';
@@ -2686,7 +2686,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get settingsShowTcaTracking => '显示三环类追踪';
 
   @override
-  String get settingsNotifyTca => '通知三环类抗抑郁药戒断进度';
+  String get settingsNotifyTca => '通知三环类抗抑郁药减停药进度';
 
   @override
   String get addictionMaoi => 'MAOI';
@@ -2759,7 +2759,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get settingsShowMaoiTracking => '显示MAOI追踪';
 
   @override
-  String get settingsNotifyMaoi => '通知MAOI戒断进度';
+  String get settingsNotifyMaoi => '通知 MAOI 减停药进度';
 
   @override
   String milestoneRetrieved(String date) {

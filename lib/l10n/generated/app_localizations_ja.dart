@@ -1118,7 +1118,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String hideDialogTitle(String title) {
-    return '$titleを非表示にしますか?';
+    return '$titleを非表示にしますか？';
   }
 
   @override
@@ -1344,40 +1344,40 @@ class AppLocalizationsJa extends AppLocalizations {
   String get settingsSwipeBetweenTabsSubtitle => '指をドラッグして日記、ホームページ、設定の間を移動する';
 
   @override
-  String get settingsShowAlcoholTracking => 'アルコール追跡を表示';
+  String get settingsShowAlcoholTracking => '飲酒の記録を表示';
 
   @override
-  String get settingsShowVapingTracking => 'ベイピング追跡を表示';
+  String get settingsShowVapingTracking => 'ベイピングの記録を表示';
 
   @override
-  String get settingsShowSmokingTracking => '喫煙追跡を表示';
+  String get settingsShowSmokingTracking => '喫煙の記録を表示';
 
   @override
-  String get settingsShowMarijuanaTracking => 'マリファナ追跡を表示';
+  String get settingsShowMarijuanaTracking => 'マリファナの記録を表示';
 
   @override
-  String get settingsShowNicotinePouchesTracking => 'ニコチンパウチ追跡を表示';
+  String get settingsShowNicotinePouchesTracking => 'ニコチンパウチの記録を表示';
 
   @override
-  String get settingsShowOpioidsTracking => 'オピオイド追跡を表示';
+  String get settingsShowOpioidsTracking => 'オピオイドの記録を表示';
 
   @override
-  String get settingsShowSocialMediaTracking => 'ソーシャルメディア追跡を表示';
+  String get settingsShowSocialMediaTracking => 'ソーシャルメディアの記録を表示';
 
   @override
-  String get settingsShowAdderallTracking => 'アデロール追跡を表示';
+  String get settingsShowAdderallTracking => 'アデロールの記録を表示';
 
   @override
   String get settingsNotifyAdderall => 'アデロールをやめてからの進捗を通知';
 
   @override
-  String get settingsShowCocaineTracking => 'コカイン追跡を表示';
+  String get settingsShowCocaineTracking => 'コカインの記録を表示';
 
   @override
   String get settingsShowMethTracking => 'メタンフェタミンの記録を表示';
 
   @override
-  String get settingsShowAdultContentTracking => 'アダルトコンテンツ追跡を表示';
+  String get settingsShowAdultContentTracking => 'アダルトコンテンツの記録を表示';
 
   @override
   String get settingsNotificationFrequency => '通知頻度';
@@ -1438,7 +1438,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get settingsWhatsNew => '新機能';
 
   @override
-  String get settingsEnjoyingApp => 'アプリを気に入っていただけましたか?';
+  String get settingsEnjoyingApp => 'アプリを気に入っていただけましたか？';
 
   @override
   String get settingsReportBug => 'バグを報告';
@@ -1524,7 +1524,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get dataExported => 'データをエクスポートしました!';
 
   @override
-  String get dataImported => 'データを正常にインポートしました!';
+  String get dataImported => 'データを正常にインポートしました！';
 
   @override
   String get dataImportFailed => 'インポートに失敗しました';
@@ -1534,7 +1534,7 @@ class AppLocalizationsJa extends AppLocalizations {
       '選択したファイルをインポートできませんでした。有効な Quitter バックアップであることを確認して、もう一度お試しください。';
 
   @override
-  String get journalHowWasYourDay => '今日はどうでしたか?';
+  String get journalHowWasYourDay => '今日はどうでしたか？';
 
   @override
   String get journalPlaceholder => '今日のこと、思考、感情、覚えておきたいことなど、何でも書いてみましょう...';
@@ -1570,7 +1570,7 @@ class AppLocalizationsJa extends AppLocalizations {
   }
 
   @override
-  String get quitMilestonesClear => 'クリア';
+  String get quitMilestonesClear => '削除';
 
   @override
   String quitMilestonesShareMessage(int days, String title) {
@@ -2539,7 +2539,7 @@ class AppLocalizationsJa extends AppLocalizations {
       '1年間は完全な回復サイクルを示しています。研究によると、段階的な減薬と心理的サポートを受けた大多数の人が1年後も良好な状態を維持しています。';
 
   @override
-  String get settingsShowSsriTracking => 'SSRIトラッキングを表示';
+  String get settingsShowSsriTracking => 'SSRIの記録を表示';
 
   @override
   String get settingsNotifySsri => 'SSRIの減薬・中止後の進捗を通知';
@@ -2612,7 +2612,7 @@ class AppLocalizationsJa extends AppLocalizations {
       '1年間は完全な二重システム回復サイクルを示しています。研究によると、医師の管理下でSNRIを段階的に減薬した人の大多数が1年後も良好な転帰を維持しています。';
 
   @override
-  String get settingsShowSnriTracking => 'SNRIトラッキングを表示';
+  String get settingsShowSnriTracking => 'SNRIの記録を表示';
 
   @override
   String get settingsNotifySnri => 'SNRIの減薬・中止後の進捗を通知';
@@ -2685,7 +2685,7 @@ class AppLocalizationsJa extends AppLocalizations {
       '1年あれば、TCAの影響を受けたすべての系に丸1年の回復時間があります。アセチルコリン、ノルアドレナリン、セロトニン、ヒスタミンの各系は落ち着き、記憶、明晰な思考、心拍のコントロールも大きく回復しています。';
 
   @override
-  String get settingsShowTcaTracking => '三環系抗うつ薬トラッキングを表示';
+  String get settingsShowTcaTracking => '三環系抗うつ薬の記録を表示';
 
   @override
   String get settingsNotifyTca => '三環系抗うつ薬の減薬・中止後の進捗を通知';
@@ -2758,7 +2758,7 @@ class AppLocalizationsJa extends AppLocalizations {
       'MAOIを中止して1年。脳と体には、薬なしで丸1年過ごす時間がありました。気分、エネルギー、明晰な思考、通常の脳内化学調節にも、落ち着いて回復するための十分な時間が与えられています。';
 
   @override
-  String get settingsShowMaoiTracking => 'MAOIトラッキングを表示';
+  String get settingsShowMaoiTracking => 'MAOIの記録を表示';
 
   @override
   String get settingsNotifyMaoi => 'MAOIの減薬・中止後の進捗を通知';

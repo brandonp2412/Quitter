@@ -535,6 +535,30 @@ void main() {
       japanese['settingsNotifyBenzos'],
       'ベンゾジアゼピンをやめてからの進捗を通知',
     );
+    expect(japanese['hideDialogTitle'], '{title}を非表示にしますか？');
+    expect(japanese['quitMilestonesClear'], '削除');
+    for (final key in [
+      'settingsShowAlcoholTracking',
+      'settingsShowVapingTracking',
+      'settingsShowSmokingTracking',
+      'settingsShowMarijuanaTracking',
+      'settingsShowNicotinePouchesTracking',
+      'settingsShowOpioidsTracking',
+      'settingsShowSocialMediaTracking',
+      'settingsShowAdderallTracking',
+      'settingsShowCocaineTracking',
+      'settingsShowAdultContentTracking',
+      'settingsShowSsriTracking',
+      'settingsShowSnriTracking',
+      'settingsShowTcaTracking',
+      'settingsShowMaoiTracking',
+    ]) {
+      expect(
+        japanese[key] as String,
+        contains('記録を表示'),
+        reason: '$key should use consistent Japanese tracking terminology',
+      );
+    }
 
     for (final entry in japanese.entries) {
       if (entry.key.startsWith('@') || entry.value is! String) continue;
@@ -617,6 +641,13 @@ void main() {
       'о ходе выхода',
       'дней чистоты',
       '{seconds}s',
+      'ваши полосы',
+      'страницах выхода',
+      'положительное подкрепление',
+      'празднование своей силы',
+      'потрясающая работа',
+      'замечательное усилие',
+      'оставайся сильным',
     };
 
     final informalSecondPerson = RegExp(
@@ -633,6 +664,20 @@ void main() {
     );
     expect(russian['settingsNotifyAdderall'], isNot(contains(' adderall')));
     expect(russian['milestoneOpenOriginalSource'], 'Открыть первоисточник');
+    expect(russian['statsStreaksTitle'], 'Ваши серии');
+    expect(
+      russian['settingsResetButtonsSubtitle'],
+      'Показывать кнопки сброса на страницах отслеживания',
+    );
+    expect(
+      russian['settingsResetMessagesSubtitle'],
+      'Показывать поддерживающие сообщения после срывов',
+    );
+    expect(russian['settingsAbout'], 'О приложении');
+    expect(russian['journalNextMonth'], 'Следующий месяц');
+    expect(russian['quitMilestonesQuitDate'], 'Дата отказа');
+    expect(russian['quitMilestonesClear'], 'Удалить');
+    expect(russian['notificationTestTitle'], 'Сообщение поддержки');
     expect(russian['addictionMeth'], 'Метамфетамин');
     expect(russian['addictionBenzos'], 'Бензодиазепины');
     expect(
@@ -747,6 +792,27 @@ void main() {
       '大量使用者',
       '多巴胺水平下降的大脑',
     };
+
+    expect(chinese['hideDialogTitle'], '隐藏 {title}？');
+    expect(chinese['settingsDynamicColorScheme'], '动态配色');
+    expect(
+      chinese['settingsResetButtonsSubtitle'],
+      '在各追踪页面显示重置按钮',
+    );
+    expect(chinese['settingsResetMessagesSubtitle'], '重新开始后显示鼓励消息');
+    expect(chinese['quitMilestonesClear'], '删除');
+    for (final key in [
+      'settingsNotifySsri',
+      'settingsNotifySnri',
+      'settingsNotifyTca',
+      'settingsNotifyMaoi',
+    ]) {
+      expect(
+        chinese[key] as String,
+        contains('减停药进度'),
+        reason: '$key should use medication taper/discontinuation wording',
+      );
+    }
 
     for (final entry in chinese.entries) {
       if (entry.key.startsWith('@') || entry.value is! String) continue;
@@ -1119,6 +1185,9 @@ void main() {
           isTrue,
           reason: 'macOS $languageCode menu must use the target script',
         );
+      }
+      if (languageCode == 'ru') {
+        expect(localized['OwM-mh-QMV.title'], 'Найти предыдущее');
       }
     }
   });

@@ -326,7 +326,7 @@
       }
     }
   },
-  "statsAddictionsTracked": "{count} отслеживается",
+  "statsAddictionsTracked": "Отслеживается: {count}",
   "@statsAddictionsTracked": {
     "description": "Number of addictions being tracked",
     "placeholders": {
@@ -339,7 +339,7 @@
   "@statsMoneySavedTitle": {
     "description": "Section title for the money saved card on stats page"
   },
-  "statsMoneySavedEstimate": "Приблизительно на основе среднего использования",
+  "statsMoneySavedEstimate": "Оценка на основе среднего потребления",
   "@statsMoneySavedEstimate": {
     "description": "Disclaimer text on the money saved card"
   },
@@ -369,7 +369,7 @@
   "@statsEquivalentVacation": {
     "description": "Fun equivalence for money saved — a vacation"
   },
-  "statsTimeSavedTitle": "Время возвращено",
+  "statsTimeSavedTitle": "Возвращённое время",
   "@statsTimeSavedTitle": {
     "description": "Section title for the time saved card on stats page"
   },
@@ -400,7 +400,7 @@
       }
     }
   },
-  "statsStreaksTitle": "Ваши полосы",
+  "statsStreaksTitle": "Ваши серии",
   "@statsStreaksTitle": {
     "description": "Section title for the streaks bar chart on stats page"
   },
@@ -697,11 +697,11 @@
   "@milestoneOpenOriginalSource": {
     "description": "Button to open a milestone reference source"
   },
-  "settingsExportSaveDialog": "Сохраните данные в",
+  "settingsExportSaveDialog": "Сохранить данные в",
   "@settingsExportSaveDialog": {
     "description": "Title of the export file save dialog"
   },
-  "settingsSearchHint": "Настройки поиска...",
+  "settingsSearchHint": "Поиск по настройкам...",
   "@settingsSearchHint": {
     "description": "Hint text for settings search bar"
   },
@@ -777,7 +777,7 @@
   "@settingsResetButtons": {
     "description": "Setting title for reset buttons visibility"
   },
-  "settingsResetButtonsSubtitle": "Показывать кнопки сброса на страницах выхода",
+  "settingsResetButtonsSubtitle": "Показывать кнопки сброса на страницах отслеживания",
   "@settingsResetButtonsSubtitle": {
     "description": "Subtitle explaining reset buttons setting"
   },
@@ -906,11 +906,11 @@
   "@settingsResetMessages": {
     "description": "Setting title for reset messages"
   },
-  "settingsResetMessagesSubtitle": "Демонстрируйте положительное подкрепление после рецидивов",
+  "settingsResetMessagesSubtitle": "Показывать поддерживающие сообщения после срывов",
   "@settingsResetMessagesSubtitle": {
     "description": "Subtitle explaining reset messages setting"
   },
-  "settingsAbout": "О",
+  "settingsAbout": "О приложении",
   "@settingsAbout": {
     "description": "Setting title for about page"
   },
@@ -1006,7 +1006,7 @@
   "@notificationFrequencySave": {
     "description": "Save button in notification frequency dialog"
   },
-  "notificationTestTitle": "Позитивное подтверждение",
+  "notificationTestTitle": "Сообщение поддержки",
   "@notificationTestTitle": {
     "description": "Title for test notification"
   },
@@ -1068,7 +1068,7 @@
   "@journalPreviousMonth": {
     "description": "Tooltip for previous month button in calendar"
   },
-  "journalNextMonth": "В следующем месяце",
+  "journalNextMonth": "Следующий месяц",
   "@journalNextMonth": {
     "description": "Tooltip for next month button in calendar"
   },
@@ -1080,7 +1080,7 @@
   "@quitMilestonesReset": {
     "description": "Button to reset quit journey"
   },
-  "quitMilestonesQuitDate": "Дата выхода",
+  "quitMilestonesQuitDate": "Дата отказа",
   "@quitMilestonesQuitDate": {
     "description": "Label for quit date field"
   },
@@ -1102,7 +1102,7 @@
       }
     }
   },
-  "quitMilestonesClear": "Очистить",
+  "quitMilestonesClear": "Удалить",
   "@quitMilestonesClear": {
     "description": "Button to clear milestone"
   },
@@ -2336,14 +2336,14 @@
   },
   "notificationProgressMessage1": "Продолжайте в том же духе!",
   "notificationProgressMessage2": "У вас всё отлично!",
-  "notificationProgressMessage3": "Невероятная преданность делу!",
-  "notificationProgressMessage4": "Празднование своей силы!",
+  "notificationProgressMessage3": "Невероятная настойчивость!",
+  "notificationProgressMessage4": "Отличная стойкость!",
   "notificationProgressMessage5": "Продолжайте сиять!",
-  "notificationProgressMessage6": "Потрясающая работа!",
+  "notificationProgressMessage6": "Отличный результат!",
   "notificationProgressMessage7": "Так держать!",
   "notificationProgressMessage8": "Вы настоящий чемпион!",
-  "notificationProgressMessage9": "Замечательное усилие!",
-  "notificationProgressMessage10": "Оставайся сильным!",
+  "notificationProgressMessage9": "Замечательное упорство!",
+  "notificationProgressMessage10": "Не сдавайтесь!",
   "notificationChannelName": "Напоминания",
   "notificationChannelDescription": "Уведомления для ежедневных напоминаний о прогрессе",
   "notificationOpenAction": "Открыть уведомление",
