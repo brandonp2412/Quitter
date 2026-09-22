@@ -59,7 +59,7 @@ class AppLocalizationsZh extends AppLocalizations {
       '两周后，随着大脑自身的奖赏化学开始重新平衡，睡眠更加可靠，情绪更加稳定。';
 
   @override
-  String get kratomMilestone30Title => '一个月清醒';
+  String get kratomMilestone30Title => '停用卡痛叶一个月';
 
   @override
   String get kratomMilestone30Description =>
@@ -130,7 +130,7 @@ class AppLocalizationsZh extends AppLocalizations {
       '两周后，随着神经系统适应在没有药物的情况下运作，睡眠和您平时的焦虑水平正在改善。';
 
   @override
-  String get gabapentinoidsMilestone30Title => '一个月清醒';
+  String get gabapentinoidsMilestone30Title => '停药一个月';
 
   @override
   String get gabapentinoidsMilestone30Description =>
@@ -141,7 +141,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get gabapentinoidsMilestone90Description =>
-      '三个月清醒，神经系统已经完全重新调整。大多数人感到稳定，睡眠和情绪恢复正常。';
+      '停药三个月后，神经系统已经完成重新适应。大多数人状态稳定，睡眠和情绪恢复正常。';
 
   @override
   String get gabapentinoidsMilestone180Title => '自由半年';
@@ -414,7 +414,7 @@ class AppLocalizationsZh extends AppLocalizations {
       '两周后，睡眠和情绪更稳定，早期戒断的心跳加速已解决。';
 
   @override
-  String get synthetic_cannabinoidsMilestone30Title => '一个月清醒';
+  String get synthetic_cannabinoidsMilestone30Title => '停用一个月';
 
   @override
   String get synthetic_cannabinoidsMilestone30Description =>
@@ -425,7 +425,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get synthetic_cannabinoidsMilestone90Description =>
-      '三个月清醒，情绪和睡眠稳定，渴求很少。大脑的大麻素系统已经重新调节。';
+      '停用三个月后，情绪和睡眠趋于稳定，渴求也很少出现。大脑的大麻素系统已经重新适应。';
 
   @override
   String get synthetic_cannabinoidsMilestone180Title => '自由半年';
@@ -484,7 +484,7 @@ class AppLocalizationsZh extends AppLocalizations {
       '两周的戒断通常带来情绪、睡眠和注意力的明显改善，因为血清素系统正在恢复。';
 
   @override
-  String get mdmaMilestone30Title => '一个月清醒';
+  String get mdmaMilestone30Title => '停用MDMA一个月';
 
   @override
   String get mdmaMilestone30Description =>
@@ -1699,7 +1699,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get enjoyingDonateSubtitle => '支持开发';
 
   @override
-  String get alcoholPageTitle => '清醒与闪耀';
+  String get alcoholPageTitle => '戒酒后焕发光彩';
 
   @override
   String alcoholPageQuitDateDisplay(DateTime quitDate, int days) {
@@ -1720,7 +1720,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get alcoholHeaderStarted => '为你喝彩！';
 
   @override
-  String get alcoholHeaderNotStarted => '清醒之旅就在前方！';
+  String get alcoholHeaderNotStarted => '开始你的戒酒之旅！';
 
   @override
   String get alcoholSubtitleStarted => '每一天都是胜利 🥳';
@@ -2180,7 +2180,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get opioidMilestone30Description =>
-      '脑雾正在消散！清醒一个月后，随着大脑前部从阿片类药物相关变化中恢复，记忆、决策和清晰思维也在改善。';
+      '脑雾正在消散！停止使用阿片类药物一个月后，随着大脑前部从相关变化中恢复，记忆、决策和清晰思维也在改善。';
 
   @override
   String get opioidMilestone60Title => '情绪调节改善';
@@ -2194,7 +2194,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get opioidMilestone90Description =>
-      '您的大脑奖励系统正在举行欢迎回归派对！清醒三个月，多巴胺功能显著改善。自然活动开始感觉有回报——食物、音乐、人际关系。';
+      '大脑的奖赏系统正在恢复！停止使用阿片类药物三个月后，多巴胺功能已显著改善。食物、音乐和人际关系等日常体验又开始带来愉悦感。';
 
   @override
   String get opioidMilestone180Title => '免疫系统增强';
@@ -2432,14 +2432,14 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get customMilestone14Description =>
-      '您的头脑正在变得清晰！两周的清醒通常会带来心理清晰度的提高和渴望的减少，因为您的大脑开始适应在没有成瘾物质的情况下运作。';
+      '您的头脑正在变得清晰！坚持戒除两周后，随着大脑开始适应不依赖成瘾物质的状态，思维通常会更清晰，渴求也会减少。';
 
   @override
   String get customMilestone30Title => '一个月里程碑';
 
   @override
   String get customMilestone30Description =>
-      '一个重大的胜利！三十天的清醒代表了显著的进步。许多人发现睡眠模式、情绪和能量水平在此期间继续改善。';
+      '这是一个重要的胜利！坚持戒除三十天代表着显著进步。许多人会发现，睡眠、情绪和精力在这段时间继续改善。';
 
   @override
   String get customMilestone90Title => '三个月康复里程碑';
@@ -2453,21 +2453,21 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get customMilestone180Description =>
-      '您正在建立持久的改变！六个月的清醒通常会带来身体健康、情绪稳定和整体生活质量的持续改善，因为您的身体继续愈合。';
+      '您正在建立持久的改变！持续戒除六个月后，随着身体继续恢复，身体健康、情绪稳定性和整体生活质量通常都会持续改善。';
 
   @override
   String get customMilestone365Title => '一年康复';
 
   @override
   String get customMilestone365Description =>
-      '一个不可思议的成就！一年的清醒代表了一个重大的人生里程碑。许多人到此时在身体健康、人际关系和整体幸福感方面经历了显著的改善。';
+      '这是了不起的成就！持续戒除一年是重要的人生里程碑。到这个阶段，许多人在身体健康、人际关系和整体幸福感方面都会有明显改善。';
 
   @override
   String get customMilestone730Title => '两年持续康复';
 
   @override
   String get customMilestone730Description =>
-      '您已经建立了新生活！两年的康复展示了非凡的韧性和承诺。长期清醒通常会带来生活各个方面的深刻积极变化，并显著降低复发风险。';
+      '您已经建立起新的生活！两年的康复体现了非凡的韧性和坚持。长期保持戒除状态通常会给生活各方面带来深刻的积极变化，并显著降低复发风险。';
 
   @override
   String get addictionSsri => 'SSRI';
@@ -3247,7 +3247,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get opioidReferenceDay30 =>
-      '停用阿片类药物一个月：思维和记忆开始恢复\n\n来源：梅奥诊所（Mayo Clinic）\n\n理解阿片类药物使用障碍\n梅奥诊所解释，阿片类药物附着在大脑和全身的受体上，产生镇痛、欣快和嗜睡。随着反复使用，大脑的反应越来越弱，并产生更少的自身阿片样化学物质。这就形成了身体依赖。\n\n一个月时的思维和记忆\n到30天时，思维和记忆已经出现了有意义的恢复。最严重的脑雾已经消散，大脑前部——负责计划和自我控制的部分——正在恢复：\n• 决策能力正在改善\n• 工作记忆正在恢复\n• 处理速度在提高\n• 注意力更加可靠\n\n内啡肽系统\n到一个月时，大脑自然的内啡肽系统正在积极恢复：它正在产生更多自身的阿片样化学物质，并再次更正常地做出反应。随着这种恢复持续，情感平淡和较低的疼痛耐受性也在继续改善。\n\n复吸预防\n梅奥诊所强调，一个月的清醒并不意味着复吸风险已经过去——它仍然偏高。耐受性已经显著下降，这意味着用以前的剂量复吸会带来严重的过量风险。';
+      '停用阿片类药物一个月：思维和记忆开始恢复\n\n来源：梅奥诊所（Mayo Clinic）\n\n理解阿片类药物使用障碍\n梅奥诊所解释，阿片类药物附着在大脑和全身的受体上，产生镇痛、欣快和嗜睡。随着反复使用，大脑的反应越来越弱，并产生更少的自身阿片样化学物质。这就形成了身体依赖。\n\n一个月时的思维和记忆\n到30天时，思维和记忆已经出现了有意义的恢复。最严重的脑雾已经消散，大脑前部——负责计划和自我控制的部分——正在恢复：\n• 决策能力正在改善\n• 工作记忆正在恢复\n• 处理速度在提高\n• 注意力更加可靠\n\n内啡肽系统\n到一个月时，大脑自然的内啡肽系统正在积极恢复：它正在产生更多自身的阿片样化学物质，并再次更正常地做出反应。随着这种恢复持续，情感平淡和较低的疼痛耐受性也在继续改善。\n\n复吸预防\n梅奥诊所强调，停止使用阿片类药物一个月并不意味着复吸风险已经过去——它仍然偏高。耐受性已经显著下降，这意味着用以前的剂量复吸会带来严重的过量风险。';
 
   @override
   String get opioidReferenceDay60 =>

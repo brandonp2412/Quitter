@@ -512,6 +512,37 @@ void main() {
     }
   });
 
+  test('Chinese recovery copy avoids literal sobriety artifacts', () {
+    final chinese = _readArb('zh');
+    const forbiddenArtifacts = {
+      '一个月清醒',
+      '三个月清醒',
+      '清醒一个月',
+      '清醒三个月',
+      '两周的清醒',
+      '三十天的清醒',
+      '六个月的清醒',
+      '一年的清醒',
+      '长期清醒',
+      '清醒与闪耀',
+      '清醒之旅',
+      '欢迎回归派对',
+      '自然活动开始感觉有回报',
+    };
+
+    for (final entry in chinese.entries) {
+      if (entry.key.startsWith('@') || entry.value is! String) continue;
+      final value = entry.value as String;
+      for (final artifact in forbiddenArtifacts) {
+        expect(
+          value,
+          isNot(contains(artifact)),
+          reason: '${entry.key} must not contain a literal sobriety artifact',
+        );
+      }
+    }
+  });
+
   test('screenshot automation covers every supported locale', () {
     final screenshotTest = File(
       'integration_test/screenshot_test.dart',

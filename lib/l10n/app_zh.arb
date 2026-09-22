@@ -14,7 +14,7 @@
   "kratomMilestone7Description": "到一周时，最糟糕的身体症状——疼痛、胃部不适、出汗——已经大部分消退。睡眠和精力仍在恢复中。",
   "kratomMilestone14Title": "情绪和睡眠正在恢复",
   "kratomMilestone14Description": "两周后，随着大脑自身的奖赏化学开始重新平衡，睡眠更加可靠，情绪更加稳定。",
-  "kratomMilestone30Title": "一个月清醒",
+  "kratomMilestone30Title": "停用卡痛叶一个月",
   "kratomMilestone30Description": "一个月时身体已经稳定：睡眠、食欲和精力明显改善，渴求也不那么频繁。",
   "kratomMilestone90Title": "稳定基础",
   "kratomMilestone90Description": "三个月的戒断让大脑的奖赏和压力回路有足够时间重新调节。情绪、专注力和动力明显更加稳定。",
@@ -35,10 +35,10 @@
   "gabapentinoidsMilestone7Description": "在第7-10天左右，急性症状大幅减轻。逐步减量使这段时间变得可控。",
   "gabapentinoidsMilestone14Title": "睡眠和焦虑趋于稳定",
   "gabapentinoidsMilestone14Description": "两周后，随着神经系统适应在没有药物的情况下运作，睡眠和您平时的焦虑水平正在改善。",
-  "gabapentinoidsMilestone30Title": "一个月清醒",
+  "gabapentinoidsMilestone30Title": "停药一个月",
   "gabapentinoidsMilestone30Description": "一个月时大多数人已经度过戒断期，情绪、睡眠和思维清晰度更稳定。任何残留症状通常都很轻微。",
   "gabapentinoidsMilestone90Title": "稳定且已适应",
-  "gabapentinoidsMilestone90Description": "三个月清醒，神经系统已经完全重新调整。大多数人感到稳定，睡眠和情绪恢复正常。",
+  "gabapentinoidsMilestone90Description": "停药三个月后，神经系统已经完成重新适应。大多数人状态稳定，睡眠和情绪恢复正常。",
   "gabapentinoidsMilestone180Title": "自由半年",
   "gabapentinoidsMilestone180Description": "六个月自由。药物早已从您的日常生活中消失，任何反弹症状都已解决。",
   "ghbPageTitle": "GHB戒断",
@@ -119,10 +119,10 @@
   "synthetic_cannabinoidsMilestone7Description": "到一周时最强烈的症状正在消退。睡眠、心率和情绪开始稳定。",
   "synthetic_cannabinoidsMilestone14Title": "睡眠和情绪稳定",
   "synthetic_cannabinoidsMilestone14Description": "两周后，睡眠和情绪更稳定，早期戒断的心跳加速已解决。",
-  "synthetic_cannabinoidsMilestone30Title": "一个月清醒",
+  "synthetic_cannabinoidsMilestone30Title": "停用一个月",
   "synthetic_cannabinoidsMilestone30Description": "一个月时大多数戒断症状已经解决。睡眠、情绪和清晰度明显改善。",
   "synthetic_cannabinoidsMilestone90Title": "三个月了",
-  "synthetic_cannabinoidsMilestone90Description": "三个月清醒，情绪和睡眠稳定，渴求很少。大脑的大麻素系统已经重新调节。",
+  "synthetic_cannabinoidsMilestone90Description": "停用三个月后，情绪和睡眠趋于稳定，渴求也很少出现。大脑的大麻素系统已经重新适应。",
   "synthetic_cannabinoidsMilestone180Title": "自由半年",
   "synthetic_cannabinoidsMilestone180Description": "六个月没有合成大麻素。戒断早已解决，这些药物的严重风险已成为过去。",
   "mdmaPageTitle": "MDMA戒断",
@@ -140,7 +140,7 @@
   "mdmaMilestone7Description": "大量使用后，类戒断症状（情绪低落、注意力不集中、渴求）可能持续约一周才改善。",
   "mdmaMilestone14Title": "两周了",
   "mdmaMilestone14Description": "两周的戒断通常带来情绪、睡眠和注意力的明显改善，因为血清素系统正在恢复。",
-  "mdmaMilestone30Title": "一个月清醒",
+  "mdmaMilestone30Title": "停用MDMA一个月",
   "mdmaMilestone30Description": "一个月时，情绪和思维已经稳定得多。只要继续不使用MDMA，大脑的血清素再循环系统就会继续恢复。",
   "mdmaMilestone90Title": "三个月了",
   "mdmaMilestone90Description": "三个月的戒断支持持续的血清素系统恢复。情绪和睡眠稳定；焦虑在接下来的几个月里减轻。",
@@ -1289,7 +1289,7 @@
   "@enjoyingDonateSubtitle": {
     "description": "Subtitle for donate option"
   },
-  "alcoholPageTitle": "清醒与闪耀",
+  "alcoholPageTitle": "戒酒后焕发光彩",
   "@alcoholPageTitle": {
     "description": "Page title for alcohol tracking"
   },
@@ -1312,7 +1312,7 @@
   "@alcoholHeaderStarted": {
     "description": "Header for started alcohol quit journey"
   },
-  "alcoholHeaderNotStarted": "清醒之旅就在前方！",
+  "alcoholHeaderNotStarted": "开始你的戒酒之旅！",
   "@alcoholHeaderNotStarted": {
     "description": "Header for not started alcohol quit journey"
   },
@@ -1872,7 +1872,7 @@
   "@opioidMilestone30Title": {
     "description": "Opioid milestone day 30 title"
   },
-  "opioidMilestone30Description": "脑雾正在消散！清醒一个月后，随着大脑前部从阿片类药物相关变化中恢复，记忆、决策和清晰思维也在改善。",
+  "opioidMilestone30Description": "脑雾正在消散！停止使用阿片类药物一个月后，随着大脑前部从相关变化中恢复，记忆、决策和清晰思维也在改善。",
   "@opioidMilestone30Description": {
     "description": "Opioid milestone day 30 description"
   },
@@ -1888,7 +1888,7 @@
   "@opioidMilestone90Title": {
     "description": "Opioid milestone day 90 title"
   },
-  "opioidMilestone90Description": "您的大脑奖励系统正在举行欢迎回归派对！清醒三个月，多巴胺功能显著改善。自然活动开始感觉有回报——食物、音乐、人际关系。",
+  "opioidMilestone90Description": "大脑的奖赏系统正在恢复！停止使用阿片类药物三个月后，多巴胺功能已显著改善。食物、音乐和人际关系等日常体验又开始带来愉悦感。",
   "@opioidMilestone90Description": {
     "description": "Opioid milestone day 90 description"
   },
@@ -2160,7 +2160,7 @@
   "@customMilestone14Title": {
     "description": "Custom milestone day 14 title"
   },
-  "customMilestone14Description": "您的头脑正在变得清晰！两周的清醒通常会带来心理清晰度的提高和渴望的减少，因为您的大脑开始适应在没有成瘾物质的情况下运作。",
+  "customMilestone14Description": "您的头脑正在变得清晰！坚持戒除两周后，随着大脑开始适应不依赖成瘾物质的状态，思维通常会更清晰，渴求也会减少。",
   "@customMilestone14Description": {
     "description": "Custom milestone day 14 description"
   },
@@ -2168,7 +2168,7 @@
   "@customMilestone30Title": {
     "description": "Custom milestone day 30 title"
   },
-  "customMilestone30Description": "一个重大的胜利！三十天的清醒代表了显著的进步。许多人发现睡眠模式、情绪和能量水平在此期间继续改善。",
+  "customMilestone30Description": "这是一个重要的胜利！坚持戒除三十天代表着显著进步。许多人会发现，睡眠、情绪和精力在这段时间继续改善。",
   "@customMilestone30Description": {
     "description": "Custom milestone day 30 description"
   },
@@ -2184,7 +2184,7 @@
   "@customMilestone180Title": {
     "description": "Custom milestone day 180 title"
   },
-  "customMilestone180Description": "您正在建立持久的改变！六个月的清醒通常会带来身体健康、情绪稳定和整体生活质量的持续改善，因为您的身体继续愈合。",
+  "customMilestone180Description": "您正在建立持久的改变！持续戒除六个月后，随着身体继续恢复，身体健康、情绪稳定性和整体生活质量通常都会持续改善。",
   "@customMilestone180Description": {
     "description": "Custom milestone day 180 description"
   },
@@ -2192,7 +2192,7 @@
   "@customMilestone365Title": {
     "description": "Custom milestone day 365 title"
   },
-  "customMilestone365Description": "一个不可思议的成就！一年的清醒代表了一个重大的人生里程碑。许多人到此时在身体健康、人际关系和整体幸福感方面经历了显著的改善。",
+  "customMilestone365Description": "这是了不起的成就！持续戒除一年是重要的人生里程碑。到这个阶段，许多人在身体健康、人际关系和整体幸福感方面都会有明显改善。",
   "@customMilestone365Description": {
     "description": "Custom milestone day 365 description"
   },
@@ -2200,7 +2200,7 @@
   "@customMilestone730Title": {
     "description": "Custom milestone day 730 title"
   },
-  "customMilestone730Description": "您已经建立了新生活！两年的康复展示了非凡的韧性和承诺。长期清醒通常会带来生活各个方面的深刻积极变化，并显著降低复发风险。",
+  "customMilestone730Description": "您已经建立起新的生活！两年的康复体现了非凡的韧性和坚持。长期保持戒除状态通常会给生活各方面带来深刻的积极变化，并显著降低复发风险。",
   "@customMilestone730Description": {
     "description": "Custom milestone day 730 description"
   },
@@ -2458,7 +2458,7 @@
   "opioidReferenceDay1": "阿片类药物戒断：第一天\n\n来源：《Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings》，世界卫生组织（2009），见NCBI Bookshelf\n\n⚠ 安全提示\n在其他方面健康的人身上，阿片类药物戒断很少致命，但它会引起严重的身体痛苦，并带有很高的复吸风险。戒断一段时间后的复吸尤其危险，因为耐受性会迅速下降——使用与戒断前相同的剂量可能导致致命的过量。强烈建议进行医疗监督和阿片受体激动剂治疗。\n\n戒断何时开始\nWHO的戒断时间表按阿片类药物类型确定时间：\n• 短效阿片类药物（海洛因、羟考酮）：在最后一次使用后8–24小时发作，持续4–10天\n• 长效阿片类药物（美沙酮）：发作时间12–48小时，持续10–20天\n\n第一天的症状\nWHO指南列出了阿片类药物戒断的早期特征：\n• 焦虑和激越\n• 肌肉痉挛和酸痛\n• 眼鼻流泪流涕\n• 打哈欠和出汗\n• 失眠，伴有冷热交替发作\n• 早期恶心\n\n为什么感觉如此难受\n阿片系统调节疼痛、压力、情绪健康和基本舒适感。长期使用阿片类药物会抑制身体自身的阿片物质（内啡肽）产生。当阿片类药物被移除时，身体被留在没有其正常舒适系统的状态——所经历的疼痛、焦虑和痛苦，反映了这种抑制的深度。WHO指南建议支持性护理，包括每天饮用2–3升水，每天监测3–4次。",
   "opioidReferenceDay14": "停用阿片类药物两周：睡眠模式开始改善\n\n来源：关于阿片类药物与睡眠的同行评审药理学研究\n\n阿片类药物与睡眠的关联\n这篇研究论文考察了阿片类药物使用与睡眠紊乱之间的双向关系。研究发现记载了阿片类药物通过多种机制严重扰乱正常的睡眠结构：\n• 抑制慢波（深度）睡眠\n• 扰乱REM睡眠\n• 引起睡眠呼吸障碍（中枢性睡眠呼吸暂停）\n• 扰乱昼夜节律调节\n\n一个恶性循环\n该研究强调了这一问题的双向性质：阿片类药物使用扰乱睡眠，而睡眠不佳又增加疼痛敏感性和渴求强度，推动进一步使用阿片类药物。打破阿片依赖也意味着打破这个睡眠紊乱的循环。\n\n两周时的睡眠\n到阿片类药物戒断第14天，睡眠开始正常化：\n• 中枢性睡眠呼吸暂停（如果存在）在数天内消退\n• 深度慢波睡眠开始恢复\n• REM睡眠回到正常比例\n• 入睡变得更加可靠\n\n对许多人来说，睡眠在两周时仍是一个重大挑战，但轨迹明显在改善。更好的睡眠直接改善情绪、减少渴求，并支持恢复所需的清晰思维。",
   "opioidReferenceDay180": "停用阿片类药物六个月：免疫系统开始恢复\n\n来源：《Effects of opioid tolerance and withdrawal on the immune system》，Journal of Neuroimmune Pharmacology（2006），见PubMed\n\n阿片类药物与免疫系统\n这篇综述显示，长期使用阿片类药物以多种方式削弱免疫系统：\n• 阿片类药物对免疫细胞（T细胞、NK细胞、巨噬细胞）的直接作用\n• 免疫信号化学物质被扰乱\n• 下丘脑-垂体-肾上腺（HPA）轴被扰乱\n• 对感染的易感性增加\n\n恢复信号\n长期使用阿片类药物会抑制免疫系统的多个部分。到停用阿片类药物六个月时，那种持续的抑制已经消失了半年，免疫功能正在积极地向正常重建。\n\n六个月意味着什么\n六个月不碰阿片类药物，给了免疫细胞、免疫信号和身体的压力系统持续的时间向正常恢复。\n\n为什么这仍然重要\n这对注射使用阿片类药物的人尤其相关，他们面临诸如HIV和丙型肝炎等额外的感染风险。移除阿片类药物、改善营养和保持戒断，给了免疫系统持续恢复所需的条件。",
-  "opioidReferenceDay30": "停用阿片类药物一个月：思维和记忆开始恢复\n\n来源：梅奥诊所（Mayo Clinic）\n\n理解阿片类药物使用障碍\n梅奥诊所解释，阿片类药物附着在大脑和全身的受体上，产生镇痛、欣快和嗜睡。随着反复使用，大脑的反应越来越弱，并产生更少的自身阿片样化学物质。这就形成了身体依赖。\n\n一个月时的思维和记忆\n到30天时，思维和记忆已经出现了有意义的恢复。最严重的脑雾已经消散，大脑前部——负责计划和自我控制的部分——正在恢复：\n• 决策能力正在改善\n• 工作记忆正在恢复\n• 处理速度在提高\n• 注意力更加可靠\n\n内啡肽系统\n到一个月时，大脑自然的内啡肽系统正在积极恢复：它正在产生更多自身的阿片样化学物质，并再次更正常地做出反应。随着这种恢复持续，情感平淡和较低的疼痛耐受性也在继续改善。\n\n复吸预防\n梅奥诊所强调，一个月的清醒并不意味着复吸风险已经过去——它仍然偏高。耐受性已经显著下降，这意味着用以前的剂量复吸会带来严重的过量风险。",
+  "opioidReferenceDay30": "停用阿片类药物一个月：思维和记忆开始恢复\n\n来源：梅奥诊所（Mayo Clinic）\n\n理解阿片类药物使用障碍\n梅奥诊所解释，阿片类药物附着在大脑和全身的受体上，产生镇痛、欣快和嗜睡。随着反复使用，大脑的反应越来越弱，并产生更少的自身阿片样化学物质。这就形成了身体依赖。\n\n一个月时的思维和记忆\n到30天时，思维和记忆已经出现了有意义的恢复。最严重的脑雾已经消散，大脑前部——负责计划和自我控制的部分——正在恢复：\n• 决策能力正在改善\n• 工作记忆正在恢复\n• 处理速度在提高\n• 注意力更加可靠\n\n内啡肽系统\n到一个月时，大脑自然的内啡肽系统正在积极恢复：它正在产生更多自身的阿片样化学物质，并再次更正常地做出反应。随着这种恢复持续，情感平淡和较低的疼痛耐受性也在继续改善。\n\n复吸预防\n梅奥诊所强调，停止使用阿片类药物一个月并不意味着复吸风险已经过去——它仍然偏高。耐受性已经显著下降，这意味着用以前的剂量复吸会带来严重的过量风险。",
   "opioidReferenceDay365": "停用阿片类药物一年：大脑结构和化学正在恢复\n\n来源：《Structural and Functional Brain Recovery in Individuals with Substance Use Disorders During Abstinence: A Review of Longitudinal Neuroimaging Studies》，Drug and Alcohol Dependence（2022），见PubMed Central\n\n人体影像显示了什么\n这篇综述汇集了对同一批阿片类药物使用障碍患者在戒断期间不止一次进行扫描的研究。发现一致地指向恢复：\n• 奖赏和运动区域回收多巴胺的蛋白质，在开始时比正常低约30%，在停用阿片类药物6–12个月中上升了约20%\n• 早期戒断中所见的额叶灰质异常在大约一个月的戒断后已不再可检测\n• 白质（额叶和扣带回）以及静息态额叶活动也在第一个月内开始重新正常化\n\n一年处于什么位置\n到十二个月时，你已经处于或超过了这些研究测量的最长时间窗口。多巴胺系统有了最多的时间来恢复，而支持自我控制和判断的额叶回路已经修复了数月——这是人们在一年时所描述的思维更清晰、渴求更弱、情绪更稳定的生物学对应物。\n\n恢复信号\n到一年时，人体影像信号强烈地指向恢复：多巴胺转运体的可利用性在6–12个月的窗口内上升，而额叶结构和功能异常也有了数月的时间来正常化。",
   "opioidReferenceDay60": "停用阿片类药物两个月：大脑的压力回路开始安定\n\n来源：《Neuroplasticity of the extended amygdala in opioid withdrawal and prolonged opioid abstinence》，Frontiers in Pharmacology（2023）\n\n负面情绪从何而来\n这篇综述描绘了长期使用阿片类药物如何改变大脑的压力和恐惧回路。在戒断期间，这些回路变得过度活跃，而奖赏回路中的多巴胺信号下降。这种组合有助于解释恢复早期的焦虑、情绪低落和渴求。\n\n为什么两个月带来缓解\n关键的是，该综述记载其中一些改变是可逆的。在动物模型中，伏隔核壳区的树突棘密度丧失被描述为“一种持久但可逆的减少”，在几周内回到接近用药前的水平。随着这些压力和奖赏回路重新调节，早期恢复中情绪动荡的机制基础得以缓解——这与许多人在大约两个月时报告的反应性降低、情绪更稳定相一致。\n\n恢复信号\n文献中记载的可逆的树突棘密度和压力回路改变显示了一个真实的生物学恢复过程：驱动依赖负面情绪状态的回路，在戒断期间向其用药前状态回归。",
   "opioidReferenceDay7": "停用阿片类药物一周：高峰症状正在下降\n\n来源：《Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings》，世界卫生组织（2009），见NCBI Bookshelf\n\n高峰与下降\nWHO时间表将短效阿片类药物戒断定为4–10天，症状在这一窗口期内早期积聚然后缓解。到第一周结束时：\n• 呕吐和腹泻已大体消退\n• 肌肉痉挛不再那么严重\n• 身体痛苦显著减轻\n\n第7天仍剩下什么\n虽然急性身体症状正在改善，但显著的挑战仍在持续：\n• 失眠——睡眠紊乱是最持久的阿片类药物戒断症状之一\n• 情绪低落和情感平淡\n• 疲劳和无力\n• 渴求\n• 焦虑\n\n急性期后的戒断\n在最初的戒断期之后，睡眠问题、情绪波动和一阵阵的渴求可能持续数周或数月。在这个更长的恢复阶段，持续的支持最为重要。\n\n阿片受体激动剂治疗\nWHO指南将美沙酮和丁丙诺啡描述为能减轻戒断严重程度并支持恢复的有效治疗。这些药物还能降低阿片类药物使用障碍的死亡率，许多成功长期恢复的人在恢复早期全程使用它们。",
