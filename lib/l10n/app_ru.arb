@@ -233,7 +233,7 @@
   "methHeaderStarted": "Ваш путь восстановления",
   "methHeaderNotStarted": "Брось стакан",
   "methSubtitleStarted": "Отслеживайте свой прогресс и отмечайте каждую веху",
-  "methSubtitleNotStarted": "Свобода в твоих руках",
+  "methSubtitleNotStarted": "Свобода уже в ваших руках",
   "methMilestone1Title": "Первые 24 часа – начинается крах",
   "methMilestone1Description": "Начальная фаза сбоя начинается с глубокой усталости и повышенного аппетита, когда ваше тело начинает восстанавливаться. Вы можете испытывать депрессию и тяжелый сон, поскольку ваша система начинает стабилизироваться после интенсивной стимуляции.",
   "methMilestone3Title": "День 3 — пик абстиненции",
@@ -1047,7 +1047,7 @@
   "@dataImportFailedMessage": {
     "description": "Dialog message shown when data import fails"
   },
-  "journalHowWasYourDay": "Как прошел твой день?",
+  "journalHowWasYourDay": "Как прошёл ваш день?",
   "@journalHowWasYourDay": {
     "description": "Header text in journal entry section"
   },
@@ -1144,7 +1144,7 @@
   "@entryPageHeaderNotStarted": {
     "description": "Header text for not started custom entry"
   },
-  "entryPageSubtitleStarted": "У тебя все отлично!",
+  "entryPageSubtitleStarted": "У вас всё отлично!",
   "@entryPageSubtitleStarted": {
     "description": "Subtitle text for started custom entry"
   },
@@ -1496,7 +1496,7 @@
   "@relapseMessage7": {
     "description": "Encouragement message for relapse"
   },
-  "relapseMessage8": "У тебя была сила начать раньше, и теперь она у тебя снова есть.",
+  "relapseMessage8": "У вас уже хватило сил начать однажды, и теперь эта сила снова с вами.",
   "@relapseMessage8": {
     "description": "Encouragement message for relapse"
   },
@@ -1504,7 +1504,7 @@
   "@relapseMessage9": {
     "description": "Encouragement message for relapse"
   },
-  "relapseMessage10": "То, что ты здесь, показывает, что ты не сдался. Это мощно.",
+  "relapseMessage10": "То, что вы здесь, показывает, что вы не сдались. Это уже многое значит.",
   "@relapseMessage10": {
     "description": "Encouragement message for relapse"
   },
@@ -1632,7 +1632,7 @@
   "@smokingMilestone1Title": {
     "description": "Smoking milestone day 1 title"
   },
-  "smokingMilestone1Description": "Твоя кровь снова дышит! В течение 24 часов уровень угарного газа падает до нормального уровня, а уровень кислорода увеличивается. Вашему сердцу больше не придется работать сверхурочно, чтобы перекачивать отравленную кровь по телу.",
+  "smokingMilestone1Description": "Ваша кровь снова получает больше кислорода! В течение 24 часов уровень угарного газа возвращается к норме, а уровень кислорода повышается. Сердцу больше не приходится работать с повышенной нагрузкой, чтобы снабжать организм кислородом.",
   "@smokingMilestone1Description": {
     "description": "Smoking milestone day 1 description"
   },
@@ -1728,7 +1728,7 @@
   "@vapingMilestone14Title": {
     "description": "Vaping milestone day 14 title"
   },
-  "vapingMilestone14Description": "У тебя кровь течет, как у чемпиона! Никотин сужает кровеносные сосуды, но две недели без курения — и ваше кровообращение резко улучшится. Холодные руки и ноги, вперед!",
+  "vapingMilestone14Description": "Кровообращение заметно улучшилось! Никотин сужает кровеносные сосуды, но за две недели без вейпа ваше кровообращение уже существенно восстановилось. Холодные руки и ноги должны беспокоить меньше.",
   "@vapingMilestone14Description": {
     "description": "Vaping milestone day 14 description"
   },
@@ -1912,7 +1912,7 @@
   "@opioidMilestone730Title": {
     "description": "Opioid milestone day 730 title"
   },
-  "opioidMilestone730Description": "Два года силы и стойкости! Вы создали новые нейронные пути, стратегии преодоления трудностей и модели жизни. Исследования показывают, что достижение этого рубежа значительно снижает риск рецидива. Ты воин восстановления!",
+  "opioidMilestone730Description": "Два года силы и стойкости! Вы создали новые нейронные пути, стратегии преодоления трудностей и модели жизни. Исследования показывают, что достижение этого рубежа значительно снижает риск рецидива. Вы настоящий борец за своё восстановление!",
   "@opioidMilestone730Description": {
     "description": "Opioid milestone day 730 description"
   },
@@ -1920,7 +1920,7 @@
   "@socialMediaMilestone1Title": {
     "description": "Social media milestone day 1 title"
   },
-  "socialMediaMilestone1Description": "Вы официально начали перенастраивать свой мозг! Исследования показывают, что даже мысль о проверке социальных сетей запускает те же нейронные пути, что и зависимость. Но ты уже разрываешь порочный круг – иди ты!",
+  "socialMediaMilestone1Description": "Вы официально начали менять привычные нейронные связи! Исследования показывают, что даже мысль о проверке социальных сетей запускает привычные цепочки вознаграждения. Но вы уже разрываете этот цикл — так держать!",
   "@socialMediaMilestone1Description": {
     "description": "Social media milestone day 1 description"
   },
@@ -2335,13 +2335,13 @@
     }
   },
   "notificationProgressMessage1": "Продолжайте в том же духе!",
-  "notificationProgressMessage2": "У тебя все отлично!",
+  "notificationProgressMessage2": "У вас всё отлично!",
   "notificationProgressMessage3": "Невероятная преданность делу!",
   "notificationProgressMessage4": "Празднование своей силы!",
   "notificationProgressMessage5": "Продолжайте сиять!",
   "notificationProgressMessage6": "Потрясающая работа!",
   "notificationProgressMessage7": "Так держать!",
-  "notificationProgressMessage8": "Ты настоящий чемпион!",
+  "notificationProgressMessage8": "Вы настоящий чемпион!",
   "notificationProgressMessage9": "Замечательное усилие!",
   "notificationProgressMessage10": "Оставайся сильным!",
   "notificationChannelName": "Напоминания",

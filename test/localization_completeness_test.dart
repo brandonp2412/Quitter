@@ -229,26 +229,28 @@ void main() {
     }
   });
 
-  test('French reference articles preserve the full source detail', () {
+  test('long alphabetic reference translations retain source detail', () {
     final english = _readArb('en');
-    final french = _readArb('fr');
 
-    for (final entry in english.entries) {
-      if (entry.key.startsWith('@') ||
-          !entry.key.contains('Reference') ||
-          entry.value is! String) {
-        continue;
-      }
+    for (final languageCode in ['es', 'fr', 'ru']) {
+      final localized = _readArb(languageCode);
 
-      final englishValue = entry.value as String;
-      final frenchValue = french[entry.key] as String;
+      for (final entry in english.entries) {
+        if (entry.key.startsWith('@') ||
+            !entry.key.contains('Reference') ||
+            entry.value is! String) {
+          continue;
+        }
 
-      if (englishValue.length >= 500) {
+        final englishValue = entry.value as String;
+        if (englishValue.length < 500) continue;
+
+        final localizedValue = localized[entry.key] as String;
         expect(
-          frenchValue.length,
+          localizedValue.length,
           greaterThanOrEqualTo((englishValue.length * 0.7).floor()),
           reason:
-              '${entry.key} must be a full French translation, not a shortened summary',
+              '$languageCode:${entry.key} must be a full translation, not a shortened summary',
         );
       }
     }
@@ -543,6 +545,12 @@ void main() {
       'цифровое детокс-путешествие',
     };
 
+    final informalSecondPerson = RegExp(
+      r'(^|[\s—–,!.?«»])(?:ты|тебя|тебе|тобой|твой|твоя|твои|твоё|твое|твоего|твоей|твою|твоих)(?=[$\s—–,!.?«»])',
+      caseSensitive: false,
+      unicode: true,
+    );
+
     expect(russian['settingsShowAdderallTracking'], contains('Adderall'));
     expect(russian['settingsNotifyAdderall'], contains('Adderall'));
     expect(
@@ -573,6 +581,15 @@ void main() {
       }
 
       final value = (entry.value as String).toLowerCase();
+      if (!entry.key.contains('Reference')) {
+        expect(
+          informalSecondPerson.hasMatch(value),
+          isFalse,
+          reason:
+              '${entry.key} must keep the Russian UI in the formal second person',
+        );
+      }
+
       for (final pattern in [
         RegExp(r'вывод\w* средств'),
         RegExp(r'тяг\w* к еде'),

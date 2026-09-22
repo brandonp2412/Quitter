@@ -816,7 +816,7 @@ class AppLocalizationsRu extends AppLocalizations {
       'Отслеживайте свой прогресс и отмечайте каждую веху';
 
   @override
-  String get methSubtitleNotStarted => 'Свобода в твоих руках';
+  String get methSubtitleNotStarted => 'Свобода уже в ваших руках';
 
   @override
   String get methMilestone1Title => 'Первые 24 часа – начинается крах';
@@ -1651,7 +1651,7 @@ class AppLocalizationsRu extends AppLocalizations {
       'Не удалось импортировать выбранный файл. Убедитесь, что это действительная резервная копия Quitter, и повторите попытку.';
 
   @override
-  String get journalHowWasYourDay => 'Как прошел твой день?';
+  String get journalHowWasYourDay => 'Как прошёл ваш день?';
 
   @override
   String get journalPlaceholder =>
@@ -1728,7 +1728,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get entryPageHeaderNotStarted => 'Не запущено';
 
   @override
-  String get entryPageSubtitleStarted => 'У тебя все отлично!';
+  String get entryPageSubtitleStarted => 'У вас всё отлично!';
 
   @override
   String get entryPageSubtitleNotStarted =>
@@ -2016,7 +2016,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get relapseMessage8 =>
-      'У тебя была сила начать раньше, и теперь она у тебя снова есть.';
+      'У вас уже хватило сил начать однажды, и теперь эта сила снова с вами.';
 
   @override
   String get relapseMessage9 =>
@@ -2024,7 +2024,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get relapseMessage10 =>
-      'То, что ты здесь, показывает, что ты не сдался. Это мощно.';
+      'То, что вы здесь, показывает, что вы не сдались. Это уже многое значит.';
 
   @override
   String get relapseMessage11 =>
@@ -2143,7 +2143,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get smokingMilestone1Description =>
-      'Твоя кровь снова дышит! В течение 24 часов уровень угарного газа падает до нормального уровня, а уровень кислорода увеличивается. Вашему сердцу больше не придется работать сверхурочно, чтобы перекачивать отравленную кровь по телу.';
+      'Ваша кровь снова получает больше кислорода! В течение 24 часов уровень угарного газа возвращается к норме, а уровень кислорода повышается. Сердцу больше не приходится работать с повышенной нагрузкой, чтобы снабжать организм кислородом.';
 
   @override
   String get smokingMilestone3Title => 'Пик симптомов отмены никотина';
@@ -2228,7 +2228,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get vapingMilestone14Description =>
-      'У тебя кровь течет, как у чемпиона! Никотин сужает кровеносные сосуды, но две недели без курения — и ваше кровообращение резко улучшится. Холодные руки и ноги, вперед!';
+      'Кровообращение заметно улучшилось! Никотин сужает кровеносные сосуды, но за две недели без вейпа ваше кровообращение уже существенно восстановилось. Холодные руки и ноги должны беспокоить меньше.';
 
   @override
   String get vapingMilestone30Title => 'Восстановление функции легких';
@@ -2396,14 +2396,14 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get opioidMilestone730Description =>
-      'Два года силы и стойкости! Вы создали новые нейронные пути, стратегии преодоления трудностей и модели жизни. Исследования показывают, что достижение этого рубежа значительно снижает риск рецидива. Ты воин восстановления!';
+      'Два года силы и стойкости! Вы создали новые нейронные пути, стратегии преодоления трудностей и модели жизни. Исследования показывают, что достижение этого рубежа значительно снижает риск рецидива. Вы настоящий борец за своё восстановление!';
 
   @override
   String get socialMediaMilestone1Title => 'Цифровой детокс, день первый! 🎯';
 
   @override
   String get socialMediaMilestone1Description =>
-      'Вы официально начали перенастраивать свой мозг! Исследования показывают, что даже мысль о проверке социальных сетей запускает те же нейронные пути, что и зависимость. Но ты уже разрываешь порочный круг – иди ты!';
+      'Вы официально начали менять привычные нейронные связи! Исследования показывают, что даже мысль о проверке социальных сетей запускает привычные цепочки вознаграждения. Но вы уже разрываете этот цикл — так держать!';
 
   @override
   String get socialMediaMilestone3Title => 'ФОМО? Больше похоже на ФО-НО! 😎';
@@ -3004,7 +3004,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get notificationProgressMessage1 => 'Продолжайте в том же духе!';
 
   @override
-  String get notificationProgressMessage2 => 'У тебя все отлично!';
+  String get notificationProgressMessage2 => 'У вас всё отлично!';
 
   @override
   String get notificationProgressMessage3 => 'Невероятная преданность делу!';
@@ -3022,7 +3022,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get notificationProgressMessage7 => 'Так держать!';
 
   @override
-  String get notificationProgressMessage8 => 'Ты настоящий чемпион!';
+  String get notificationProgressMessage8 => 'Вы настоящий чемпион!';
 
   @override
   String get notificationProgressMessage9 => 'Замечательное усилие!';
