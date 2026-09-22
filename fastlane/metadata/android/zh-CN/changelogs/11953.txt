@@ -7,4 +7,4 @@
 • 改进新用户引导
 • 设置筛选时包含标题
 • 运行 dart format
-• 撤销“chore: 移除 Flutter 子模块并使用全局 SDK”
+• 撤销“移除 Flutter 子模块并使用全局 SDK”

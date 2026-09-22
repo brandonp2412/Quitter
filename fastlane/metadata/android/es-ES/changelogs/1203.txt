@@ -6,5 +6,5 @@
 • Mejora la incorporación de nuevos usuarios
 • Incluye el título al filtrar los ajustes
 • Ejecuta dart format
-• Revierte «chore: elimina el submódulo de Flutter y usa el SDK global»
-• Revierte «ci: sustituye la configuración del submódulo de Flutter por subosito/flutter-action»
+• Revierte «elimina el submódulo de Flutter y usa el SDK global»
+• Revierte «sustituye la configuración del submódulo de Flutter por subosito/flutter-action»

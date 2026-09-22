@@ -6,5 +6,5 @@
 • Améliore l’accueil des nouveaux utilisateurs
 • Inclut le titre dans le filtrage des paramètres
 • Exécute dart format
-• Annule « chore: supprime le sous-module Flutter et utilise le SDK global »
-• Annule « ci: remplace la configuration du sous-module Flutter par subosito/flutter-action »
+• Annule « supprime le sous-module Flutter et utilise le SDK global »
+• Annule « remplace la configuration du sous-module Flutter par subosito/flutter-action »

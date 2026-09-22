@@ -1237,8 +1237,8 @@ void main() {
   });
 
   test('localized Play changelogs do not leak English commit prose', () {
-    final englishCommitScaffolding = RegExp(
-      r'\b(?:chore|ci|fix|feat):\s+(?:remove|replace|use|add|fix|update|move|clean|switch|change)\b',
+    final commitPrefix = RegExp(
+      r'\b(?:build|chore|ci|docs|feat|fix|perf|refactor|test):\s+',
       caseSensitive: false,
     );
     const storeLocales = ['es-ES', 'fr-FR', 'ja-JP', 'ru-RU', 'zh-CN'];
@@ -1252,7 +1252,7 @@ void main() {
 
       for (final changelog in changelogs) {
         expect(
-          englishCommitScaffolding.firstMatch(changelog.readAsStringSync()),
+          commitPrefix.firstMatch(changelog.readAsStringSync()),
           isNull,
           reason: '${changelog.path} must not retain English commit prose',
         );
