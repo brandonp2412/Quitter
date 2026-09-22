@@ -410,6 +410,45 @@ void main() {
     }
   });
 
+  test('Japanese recovery copy avoids literal abstinence calques', () {
+    final japanese = _readArb('ja');
+    const forbiddenArtifacts = {
+      'クリーン',
+      '3ヶ月の断ち切り',
+      '1年間の断ち切り',
+      '2年間の断ち切り',
+      '2週間の断ち切り',
+      '持続的な断ち切り',
+      '心機能は断ち切り',
+      '報酬的',
+    };
+
+    for (final entry in japanese.entries) {
+      if (entry.key.startsWith('@') || entry.value is! String) continue;
+      final value = entry.value as String;
+      for (final artifact in forbiddenArtifacts) {
+        expect(
+          value,
+          isNot(contains(artifact)),
+          reason: '${entry.key} must not contain a literal Japanese recovery calque',
+        );
+      }
+    }
+
+    for (final key in [
+      'adderallReferenceDay60',
+      'adderallReferenceDay90',
+      'adderallReferenceDay180',
+      'adderallReferenceDay365',
+    ]) {
+      expect(
+        japanese[key] as String,
+        isNot(contains('禁欲')),
+        reason: '$key must use medication-abstinence wording, not sexual abstinence',
+      );
+    }
+  });
+
   test('Russian translations avoid known machine-translation artifacts', () {
     final russian = _readArb('ru');
 

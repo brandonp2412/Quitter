@@ -70,7 +70,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get kratomMilestone90Description =>
-      '3ヶ月の断ち切りは、脳の報酬系とストレス回路に再調整のための十分な時間を与えます。気分、集中力、モチベーションが目に見えて安定します。';
+      'クラトムを断って3か月たつと、脳の報酬系とストレス回路が再調整されるための十分な時間が得られます。気分、集中力、意欲が目に見えて安定します。';
 
   @override
   String get kratomMilestone365Title => '1年間の自由';
@@ -309,7 +309,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get inhalantsInfoBox =>
-      '吸入剤の離脱はアルコールやオピオイドより短いですが激しい場合があり、大量使用者では発作リスクがあります。神経学的回復は現実的ですが遅く—多くの場合約2年間の断ち切りで展開します。';
+      '吸入剤の離脱はアルコールやオピオイドより短いものの、強く出ることがあり、大量使用者では発作のリスクがあります。神経系の回復には時間がかかり、使用をやめた状態を続けることで約2年かけて進むことがあります。';
 
   @override
   String get addictionInhalants => '吸入剤';
@@ -347,21 +347,21 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get inhalantsMilestone90Description =>
-      '3ヶ月の断ち切りは記憶、注意、運動機能の継続的な回復を支えます。改善は緩やかですが確かです。';
+      '使用をやめて3か月たつと、記憶、注意力、運動機能の回復がさらに進みます。改善は緩やかですが確かです。';
 
   @override
   String get inhalantsMilestone365Title => '1年—実質的回復';
 
   @override
   String get inhalantsMilestone365Description =>
-      '1年間の断ち切りはほとんどの人に実質的な神経学的回復をもたらし、2年目を通じて継続的な改善が期待されます。';
+      '使用をやめて1年たつと、多くの人で神経機能が大きく回復し、2年目にも改善が続くことが期待されます。';
 
   @override
   String get inhalantsMilestone730Title => '2年—長期治癒';
 
   @override
   String get inhalantsMilestone730Description =>
-      '2年間の断ち切りは、研究が脳機能の実質的回復を発見した期間です—ただし有鉛ガソリンによる損傷は持続する可能性があります。';
+      '使用をやめて2年たつ頃は、研究で脳機能の大幅な回復が確認されている期間です。ただし、有鉛ガソリンによる損傷は残ることがあります。';
 
   @override
   String get synthetic_cannabinoidsPageTitle => '合成カンナビノイド回復';
@@ -451,7 +451,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get mdmaInfoBox =>
-      'MDMAはセロトニンを大量放出させ枯渇させ、「カムダウン」と、大量使用後には離脱様の気分低下をもたらします。セロトニントランスポーターレベルは持続的な断ち切りで回復しますが、大量使用は長期的な影響を残す可能性があります。';
+      'MDMAはセロトニンを大量に放出させた後に枯渇させ、「カムダウン」を起こし、大量使用後には離脱に似た気分の落ち込みをもたらします。使用をやめた状態を続けるとセロトニントランスポーターの水準は回復しますが、大量使用の影響が長く残ることもあります。';
 
   @override
   String get addictionMdma => 'MDMA';
@@ -482,7 +482,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get mdmaMilestone14Description =>
-      '2週間の断ち切りは通常、セロトニン系の回復に伴い気分、睡眠、集中力に明確な改善をもたらします。';
+      '使用をやめて2週間たつと、セロトニン系の回復に伴って気分、睡眠、集中力がはっきり改善することが一般的です。';
 
   @override
   String get mdmaMilestone30Title => '使用をやめて1か月';
@@ -496,7 +496,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get mdmaMilestone90Description =>
-      '3ヶ月の断ち切りは継続的なセロトニン系の回復を支えます。気分と睡眠は安定しており、不安はその後の数ヶ月で和らぎます。';
+      '使用をやめて3か月たつと、セロトニン系の回復がさらに進みます。気分と睡眠は安定し、不安もその後の数か月で和らいでいきます。';
 
   @override
   String get mdmaMilestone365Title => '1年間の自由';
@@ -640,7 +640,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get adderallMilestone60Description =>
-      '精神的な明晰さ、記憶、気分の安定性に大幅な改善。脳の報酬系が癒えており、日常活動がより自然に報酬的に感じられるようになります。多くの人がより自分らしく感じられると報告しています。';
+      '思考の明晰さ、記憶、気分の安定性が大きく改善します。脳の報酬系が回復し、日常の活動から自然に満足感や喜びを得やすくなります。多くの人が、より自分らしく感じられると報告しています。';
 
   @override
   String get adderallMilestone90Title => '3ヶ月：主要な回復マイルストーン';
@@ -814,14 +814,14 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get methMilestone180Description =>
-      '心機能は断ち切りで測定可能な改善を示します。研究によると、医療サポートと組み合わせた場合、この期間中に心機能は大幅に回復できます。血圧と心拍リズムは安定し続けます。';
+      'メタンフェタミンの使用をやめると、心機能には測定可能な改善が見られます。研究では、医療支援と組み合わせることでこの期間に心機能が大きく回復し得ることが示されています。血圧と心拍リズムも安定し続けます。';
 
   @override
   String get methMilestone365Title => '1年—主要な脳の回復';
 
   @override
   String get methMilestone365Description =>
-      '1年経つと、ドーパミン系は大きく回復しています。日常の自然な楽しみを再びより報酬的に感じられるようになり、気分、記憶、意思決定も明らかに改善しています。';
+      '1年経つと、ドーパミン系は大きく回復しています。食事や人との交流など、日常の楽しみから再び満足感を得やすくなり、気分、記憶、意思決定も明らかに改善しています。';
 
   @override
   String get methMilestone420Title => '14ヶ月—ドーパミン正常化';
@@ -2845,19 +2845,19 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get adderallReferenceDay60 =>
-      'Adderallをやめて2か月：長い回復期の終盤\n\n出典：世界保健機関（2009年）「Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings」、NCBI Bookshelf\n\n2か月はどの段階？\nWHOは、最初のクラッシュ後に約1～2か月続くより軽い回復期を説明しています。60日目はその期間の終盤で、残っていた症状も大部分が解消しつつあります。\n\n改善すること\nガイドラインが刺激薬離脱で挙げる興奮、抑うつ気分、睡眠・食欲の乱れは、多くの人で大きく落ち着いています：\n• 普段の気分が安定し、初期回復時の変動が減る\n• 睡眠と食欲が正常化する\n• 食事、運動、人とのつながりといった日常の喜びに報酬系が反応しやすくなる\n\n回復のサイン\n高用量で長く使用していた場合は回復に時間がかかることがありますが、禁欲を続けることで、気分、意欲、明晰な思考はその後の数か月も正常へ向かっていきます。\n\n身体の健康\n刺激薬が心拍、食欲、体重に与える影響は日常から薬がなくなるにつれて薄れ、刺激薬使用による心血管系への負担も軽減します。';
+      'Adderallをやめて2か月：長い回復期の終盤\n\n出典：世界保健機関（2009年）「Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings」、NCBI Bookshelf\n\n2か月はどの段階？\nWHOは、最初のクラッシュ後に約1～2か月続くより軽い回復期を説明しています。60日目はその期間の終盤で、残っていた症状も大部分が解消しつつあります。\n\n改善すること\nガイドラインが刺激薬離脱で挙げる興奮、抑うつ気分、睡眠・食欲の乱れは、多くの人で大きく落ち着いています：\n• 普段の気分が安定し、初期回復時の変動が減る\n• 睡眠と食欲が正常化する\n• 食事、運動、人とのつながりといった日常の喜びに報酬系が反応しやすくなる\n\n回復のサイン\n高用量で長く使用していた場合は回復に時間がかかることがありますが、服用をやめた状態を続けることで、気分、意欲、明晰な思考はその後の数か月も正常へ向かっていきます。\n\n身体の健康\n刺激薬が心拍、食欲、体重に与える影響は日常から薬がなくなるにつれて薄れ、刺激薬使用による心血管系への負担も軽減します。';
 
   @override
   String get adderallReferenceDay90 =>
-      'Adderallをやめて3か月：最悪の時期を越え、回復は続く\n\n出典：Li & Shoptaw「Clinical Management of Psychostimulant Withdrawal: Review of the Evidence」Addiction（2023年）、PubMed Central\n\n90日はどの段階？\n3か月では、初期症状はずっと前に消えていますが、記憶、計画、集中、意思決定、報酬系は引き続き改善します。\n\n思考と記憶は回復を続ける\nレビューでは、記憶、計画、集中、リスクに関する意思決定は数か月にわたり改善し続け得るとしています。90日目でも、禁欲を続けることで集中力と記憶は良い方向へ進み続けます。\n\nこの時期がまだ重要な理由\n刺激薬離脱を特異的に対象とするFDA承認薬はないため、生活の構造化、治療、運動、睡眠、支援がこの段階の回復を支える手段です。今こうした習慣を築くことが、その先の回復につながります。\n\nより大きな視点\n3か月は確かな到達点です。最もつらい身体面・感情面の時期は過ぎ、禁欲を続ければ、ここからは着実な改善が期待される流れです。';
+      'Adderallをやめて3か月：最悪の時期を越え、回復は続く\n\n出典：Li & Shoptaw「Clinical Management of Psychostimulant Withdrawal: Review of the Evidence」Addiction（2023年）、PubMed Central\n\n90日はどの段階？\n3か月では、初期症状はずっと前に消えていますが、記憶、計画、集中、意思決定、報酬系は引き続き改善します。\n\n思考と記憶は回復を続ける\nレビューでは、記憶、計画、集中、リスクに関する意思決定は数か月にわたり改善し続け得るとしています。90日目でも、服用をやめた状態を続けることで集中力と記憶は良い方向へ進み続けます。\n\nこの時期がまだ重要な理由\n刺激薬離脱を特異的に対象とするFDA承認薬はないため、生活の構造化、治療、運動、睡眠、支援がこの段階の回復を支える手段です。今こうした習慣を築くことが、その先の回復につながります。\n\nより大きな視点\n3か月は確かな到達点です。最もつらい身体面・感情面の時期は過ぎ、服用をやめた状態を続ければ、ここからは着実な改善が期待される流れです。';
 
   @override
   String get adderallReferenceDay180 =>
-      'Adderallをやめて6か月：つらい時期を十分に越えて\n\n出典：「Withdrawal Syndromes」StatPearls（NCBI Bookshelf）、米国国立医学図書館\n\nStatPearlsが刺激薬について述べていること\nこの臨床資料は、刺激薬からの回復をクラッシュに続く段階的な改善として説明しています。よくある問題には、抑うつ、長時間の睡眠、空腹感の増加、気分低下、動作や思考の遅さがあります。抑うつは数週間続くことがあり、その後もより軽い回復が続きます。\n\n6か月はどの段階？\n6か月では、StatPearlsが説明する急性期も数週間の抑うつ期もはるかに過ぎています。そこで述べられるゆっくりした回復にも十分な時間があり、多くの人では普段の気分、睡眠、食欲、意欲がこの頃には安定して信頼できる状態になっています。\n\n回復のサイン\nStatPearlsは、最初の数週間を越えて段階的に回復すると説明しています。6か月では、急性のクラッシュも数週間の抑うつ期も遠く過ぎ、安定した気分、睡眠、食欲、意欲が主な状態になっています。\n\nADHDとの関係\nADHDのためにAdderallを服用していた人にとって、6か月の禁欲は、現在の症状や、運動、睡眠、生活の構造化、治療、代替薬など非刺激薬による方法が必要性を満たしているかを、落ち着いた状態で医師と見直す良い節目です。';
+      'Adderallをやめて6か月：つらい時期を十分に越えて\n\n出典：「Withdrawal Syndromes」StatPearls（NCBI Bookshelf）、米国国立医学図書館\n\nStatPearlsが刺激薬について述べていること\nこの臨床資料は、刺激薬からの回復をクラッシュに続く段階的な改善として説明しています。よくある問題には、抑うつ、長時間の睡眠、空腹感の増加、気分低下、動作や思考の遅さがあります。抑うつは数週間続くことがあり、その後もより軽い回復が続きます。\n\n6か月はどの段階？\n6か月では、StatPearlsが説明する急性期も数週間の抑うつ期もはるかに過ぎています。そこで述べられるゆっくりした回復にも十分な時間があり、多くの人では普段の気分、睡眠、食欲、意欲がこの頃には安定して信頼できる状態になっています。\n\n回復のサイン\nStatPearlsは、最初の数週間を越えて段階的に回復すると説明しています。6か月では、急性のクラッシュも数週間の抑うつ期も遠く過ぎ、安定した気分、睡眠、食欲、意欲が主な状態になっています。\n\nADHDとの関係\nADHDのためにAdderallを服用していた人にとって、服用をやめて6か月という時点は、現在の症状や、運動、睡眠、生活の構造化、治療、代替薬など非刺激薬による方法が必要性を満たしているかを、落ち着いた状態で医師と見直す良い節目です。';
 
   @override
   String get adderallReferenceDay365 =>
-      'Adderallをやめて1年：大きな回復を、誇張せずに\n\n出典：Berman et al.「Potential Adverse Effects of Amphetamine Treatment on Brain and Behavior: A Review」Molecular Psychiatry（2008年）、PubMed Central\n\nこのレビューについて\nこのレビューは、高用量または長期のアンフェタミン曝露が脳に与え得る影響を追い、禁欲中に測定可能な回復が起こることを記録しています。\n\n回復について分かること\n長期の禁欲後に、脳血流と、ドーパミンを再利用するタンパク質が回復することが記録されています。脳領域によって回復速度は異なりますが、全体の方向は明確で、使用をやめると脳は回復します。\n\n長期回復\nレビューでは、長期禁欲後に脳血流とドーパミン再利用の測定可能な回復が示されています。1年では、これらの脳システムに丸1年の再構築時間がありました。\n\n1年時点での意味\n多くの人、特に処方どおりの用量でAdderallを服用していた人では、1年離れていることで、報酬、注意、意欲のシステムが日常生活で良好に働いている状態が期待できます。より大量または長期の使用ではさらに時間がかかることがありますが、回復は続きます。再使用リスクは回復初期より大幅に低くなっています。';
+      'Adderallをやめて1年：大きな回復を、誇張せずに\n\n出典：Berman et al.「Potential Adverse Effects of Amphetamine Treatment on Brain and Behavior: A Review」Molecular Psychiatry（2008年）、PubMed Central\n\nこのレビューについて\nこのレビューは、高用量または長期のアンフェタミン曝露が脳に与え得る影響を追い、服用中止後に測定可能な回復が起こることを記録しています。\n\n回復について分かること\n長期間の服用中止後に、脳血流と、ドーパミンを再利用するタンパク質が回復することが記録されています。脳領域によって回復速度は異なりますが、全体の方向は明確で、使用をやめると脳は回復します。\n\n長期回復\nレビューでは、長期間の服用中止後に脳血流とドーパミン再利用の測定可能な回復が示されています。1年では、これらの脳システムに丸1年の再構築時間がありました。\n\n1年時点での意味\n多くの人、特に処方どおりの用量でAdderallを服用していた人では、1年離れていることで、報酬、注意、意欲のシステムが日常生活で良好に働いている状態が期待できます。より大量または長期の使用ではさらに時間がかかることがありますが、回復は続きます。再使用リスクは回復初期より大幅に低くなっています。';
 
   @override
   String get alcoholReferenceDay1 =>
@@ -2949,7 +2949,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get cocaineReferenceDay60 =>
-      'コカインを断って2ヶ月：気分と報酬が回復し始める\n\n出典：「Recovering from Cocaine: Insights from Clinical and Preclinical Investigations」、Neuroscience & Biobehavioral Reviews (2013)、PubMed Central\n\n脳で起きていること\nこのレビューは、コカイン使用をやめたときに脳に何が起きるかについてのヒトおよび動物研究を統合しています。慢性的なコカインはドーパミン系を変化させ、前頭皮質の活動を低下させます。これらの系の回復が、初期の断薬期に人々が実感する気分と意欲の改善の基盤です。\n\n報酬系の進展\n動物研究では、コカインによるドーパミン受容体と再利用タンパク質の変化が、断薬の継続によって健康な水準へ戻っていきました。報酬系が回復するにつれて、深い快感喪失は解消し、日常の報酬—食事、つながり、達成—が再び報酬的に感じられるようになります。\n\n回復のサイン\n2ヶ月までに、気分は改善し睡眠はより安定し、その間もドーパミン系と前頭皮質系は再構築を続けます。霊長類の研究では、コカインによるD1受容体とトランスポーターの変化が、断薬の継続によって対照水準へ戻っていくことが示されています。';
+      'コカインを断って2ヶ月：気分と報酬が回復し始める\n\n出典：「Recovering from Cocaine: Insights from Clinical and Preclinical Investigations」、Neuroscience & Biobehavioral Reviews (2013)、PubMed Central\n\n脳で起きていること\nこのレビューは、コカイン使用をやめたときに脳に何が起きるかについてのヒトおよび動物研究を統合しています。慢性的なコカインはドーパミン系を変化させ、前頭皮質の活動を低下させます。これらの系の回復が、初期の断薬期に人々が実感する気分と意欲の改善の基盤です。\n\n報酬系の進展\n動物研究では、コカインによるドーパミン受容体と再利用タンパク質の変化が、断薬の継続によって健康な水準へ戻っていきました。報酬系が回復するにつれて、深い快感喪失は解消し、食事、人とのつながり、達成感など、日常の楽しみから再び満足感を得られるようになります。\n\n回復のサイン\n2ヶ月までに、気分は改善し睡眠はより安定し、その間もドーパミン系と前頭皮質系は再構築を続けます。霊長類の研究では、コカインによるD1受容体とトランスポーターの変化が、断薬の継続によって対照水準へ戻っていくことが示されています。';
 
   @override
   String get cocaineReferenceDay90 =>
