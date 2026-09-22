@@ -229,6 +229,47 @@ void main() {
     }
   });
 
+  test('substance-free copy avoids price-language false friends', () {
+    final english = _readArb('en');
+    final substanceFreeKeys = english.entries
+        .where(
+          (entry) =>
+              !entry.key.startsWith('@') &&
+              !entry.key.contains('Reference') &&
+              entry.value is String &&
+              RegExp(
+                r'\bfree\b',
+                caseSensitive: false,
+              ).hasMatch(entry.value as String),
+        )
+        .map((entry) => entry.key)
+        .toList();
+
+    const priceLanguageByLocale = {
+      'es': ['gratis', 'gratuit'],
+      'fr': ['gratuit'],
+      'ja': ['無料'],
+      'ru': ['бесплат'],
+      'zh': ['免费'],
+    };
+
+    for (final entry in priceLanguageByLocale.entries) {
+      final localized = _readArb(entry.key);
+      for (final key in substanceFreeKeys) {
+        final value = (localized[key] as String).toLowerCase();
+        for (final priceFragment in entry.value) {
+          expect(
+            value.contains(priceFragment),
+            isFalse,
+            reason:
+                '$key in ${entry.key} must express being free of the habit, '
+                'not free of charge',
+          );
+        }
+      }
+    }
+  });
+
   test('repaired Spanish reference articles stay fully localized', () {
     final spanish = _readArb('es');
     const repairedPrefixes = {
