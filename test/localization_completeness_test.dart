@@ -1214,6 +1214,53 @@ void main() {
     }
   });
 
+  test('App Store release notes are translated for every supported locale', () {
+    const storeLocales = {
+      'es': 'es-ES',
+      'fr': 'fr-FR',
+      'ja': 'ja',
+      'ru': 'ru',
+      'zh': 'zh-Hans',
+    };
+    final english = File(
+      'fastlane/metadata/en-AU/release_notes.txt',
+    ).readAsStringSync().trim();
+
+    expect(english, isNotEmpty);
+    for (final locale in AppLocalizations.supportedLocales) {
+      if (locale.languageCode == 'en') continue;
+
+      final storeLocale = storeLocales[locale.languageCode];
+      expect(
+        storeLocale,
+        isNotNull,
+        reason: '${locale.languageCode} must map to an App Store locale',
+      );
+
+      final localizedFile = File(
+        'fastlane/metadata/$storeLocale/release_notes.txt',
+      );
+      expect(
+        localizedFile.existsSync(),
+        isTrue,
+        reason: '$storeLocale must provide App Store release notes',
+      );
+
+      final localized = localizedFile.readAsStringSync().trim();
+      expect(localized, isNotEmpty);
+      expect(
+        localized,
+        isNot(equals(english)),
+        reason: '$storeLocale release notes must not fall back to English',
+      );
+      expect(
+        _containsTargetScript(locale.languageCode, localized),
+        isTrue,
+        reason: '$storeLocale release notes must be translated',
+      );
+    }
+  });
+
   test('localized in-app changelogs do not leak commit prefixes', () {
     final commitPrefix = RegExp(
       r'\b(?:build|chore|ci|docs|feat|fix|perf|refactor|test)\s*:\s+',

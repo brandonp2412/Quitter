@@ -1,0 +1,1 @@
+• Corrige el aviso de novedades que se mostraba indefinidamente
