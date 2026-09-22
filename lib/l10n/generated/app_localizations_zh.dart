@@ -1891,7 +1891,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get relapseMessage17 => '康复是一天一天发生的，有时是一小时一小时发生的。';
 
   @override
-  String get relapseMessage18 => '您正在书写一个东山再起的故事。这只是其中一章。';
+  String get relapseMessage18 => '您正在一步步重新振作。这只是整个过程中的一章。';
 
   @override
   String get relapseMessage19 => '您在这里这一事实意味着您在乎自己。坚持住。';
@@ -2098,7 +2098,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get marijuanaMilestone1Description =>
-      '您的大脑正在适应没有 THC 的生活！在24-48小时内，您可能会经历易怒、焦虑或睡眠困难。这是完全正常的——您的大麻素受体正在开始重置。';
+      '您的大脑正在适应没有 THC 的生活。最初24至48小时内，可能会出现易怒、焦虑或睡眠困难。这是常见的适应过程——大麻素受体正在重新调整。';
 
   @override
   String get marijuanaMilestone3Title => '身体症状达到顶峰';

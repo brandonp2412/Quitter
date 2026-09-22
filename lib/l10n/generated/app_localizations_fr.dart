@@ -2066,7 +2066,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get relapseMessage18 =>
-      'Vous écrivez l\'histoire de votre retour. Ce n\'est qu\'un chapitre.';
+      'Vous êtes en train de vous relever. Ce n\'est qu\'un chapitre de votre parcours.';
 
   @override
   String get relapseMessage19 =>
@@ -2287,7 +2287,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get marijuanaMilestone1Description =>
-      'Votre cerveau s\'adapte à la vie sans THC ! Dans les 24 à 48 heures, vous pouvez ressentir de l\'irritabilité, de l\'anxiété ou des troubles du sommeil. C\'est tout à fait normal : vos récepteurs cannabinoïdes commencent à se réinitialiser.';
+      'Votre cerveau s\'adapte à la vie sans THC ! Dans les 24 à 48 heures, vous pouvez ressentir de l\'irritabilité, de l\'anxiété ou des troubles du sommeil. C\'est une réaction fréquente : vos récepteurs cannabinoïdes commencent à se réadapter.';
 
   @override
   String get marijuanaMilestone3Title => 'Pic des symptômes physiques';

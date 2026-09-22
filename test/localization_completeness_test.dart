@@ -502,6 +502,8 @@ void main() {
         'gros consommateurs',
         'dépendant aux amphétamines',
         'récupération fréquente',
+        'histoire de votre retour',
+        'récepteurs cannabinoïdes commencent à se réinitialiser',
       },
       'es': {
         'el organismo se limpia',
@@ -697,6 +699,8 @@ void main() {
       'お祝いパレード',
       '歯茎がお祝い',
       '魔法の「脳リセット日」',
+      '復活のストーリー',
+      '受容体がリセット',
     };
 
     expect(japanese['addictionMeth'], 'メタンフェタミン');
@@ -822,6 +826,8 @@ void main() {
       'потрясающая работа',
       'замечательное усилие',
       'оставайся сильным',
+      'историю возвращения',
+      'рецепторы начинают перезагружаться',
     };
 
     final informalSecondPerson = RegExp(
@@ -1001,6 +1007,8 @@ void main() {
       '庆祝游行',
       '牙龈正在举行庆祝活动',
       '神奇的“脑重置日期”',
+      '东山再起的故事',
+      '大麻素受体正在开始重置',
     };
 
     expect(chinese['hideDialogTitle'], '隐藏 {title}？');

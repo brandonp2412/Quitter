@@ -1537,7 +1537,7 @@
   "@relapseMessage17": {
     "description": "Encouragement message for relapse"
   },
-  "relapseMessage18": "您正在书写一个东山再起的故事。这只是其中一章。",
+  "relapseMessage18": "您正在一步步重新振作。这只是整个过程中的一章。",
   "@relapseMessage18": {
     "description": "Encouragement message for relapse"
   },
@@ -1777,7 +1777,7 @@
   "@marijuanaMilestone1Title": {
     "description": "Marijuana milestone day 1 title"
   },
-  "marijuanaMilestone1Description": "您的大脑正在适应没有 THC 的生活！在24-48小时内，您可能会经历易怒、焦虑或睡眠困难。这是完全正常的——您的大麻素受体正在开始重置。",
+  "marijuanaMilestone1Description": "您的大脑正在适应没有 THC 的生活。最初24至48小时内，可能会出现易怒、焦虑或睡眠困难。这是常见的适应过程——大麻素受体正在重新调整。",
   "@marijuanaMilestone1Description": {
     "description": "Marijuana milestone day 1 description"
   },

@@ -1893,7 +1893,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get relapseMessage17 => '回復は一日ずつ、時には一時間ずつ起こります。';
 
   @override
-  String get relapseMessage18 => 'あなたは復活のストーリーを書いています。これはただの一章です。';
+  String get relapseMessage18 => '立て直していく途中です。今回の出来事は、その過程の一章にすぎません。';
 
   @override
   String get relapseMessage19 => 'あなたがここにいるという事実は、自分自身を大切にしている証拠です。それを忘れないで。';
@@ -2101,7 +2101,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get marijuanaMilestone1Description =>
-      '脳がTHCのない生活に適応しています！24〜48時間以内に、イライラ、不安、睡眠障害を経験するかもしれません。これは完全に正常です - カンナビノイド受容体がリセットを開始しています。';
+      '脳がTHCのない生活に適応しています。24〜48時間以内は、イライラ、不安、睡眠の乱れが起こることがあります。これはよくある反応で、カンナビノイド受容体が再調整を始めているためです。';
 
   @override
   String get marijuanaMilestone3Title => '身体症状がピークに';

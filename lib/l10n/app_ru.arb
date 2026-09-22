@@ -1537,7 +1537,7 @@
   "@relapseMessage17": {
     "description": "Encouragement message for relapse"
   },
-  "relapseMessage18": "Вы пишете историю возвращения. Это всего лишь одна глава.",
+  "relapseMessage18": "Вы снова встаете на ноги. Это лишь одна глава вашего пути.",
   "@relapseMessage18": {
     "description": "Encouragement message for relapse"
   },
@@ -1777,7 +1777,7 @@
   "@marijuanaMilestone1Title": {
     "description": "Marijuana milestone day 1 title"
   },
-  "marijuanaMilestone1Description": "Ваш мозг приспосабливается к жизни без ТГК! В течение 24–48 часов вы можете почувствовать раздражительность, беспокойство или проблемы со сном. Это совершенно нормально – ваши каннабиноидные рецепторы начинают перезагружаться.",
+  "marijuanaMilestone1Description": "Ваш мозг приспосабливается к жизни без ТГК. В течение 24–48 часов могут появиться раздражительность, тревога или нарушения сна. Это обычная часть адаптации: каннабиноидные рецепторы начинают перенастраиваться.",
   "@marijuanaMilestone1Description": {
     "description": "Marijuana milestone day 1 description"
   },
