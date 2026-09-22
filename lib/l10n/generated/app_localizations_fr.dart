@@ -958,7 +958,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get nitrousOxideMilestone90Description =>
-      'Trois mois sans destruction de B12 signifient trois mois de réparation nerveuse. Le système nerveux est résilient — la plupart des personnes traitées rapidement constatent à ce stade une amélioration importante des fourmillements, de la faiblesse et du brouillard mental.';
+      'Trois mois sans nouvelle destruction de vitamine B12, c’est trois mois de récupération des nerfs. Le système nerveux a une grande capacité de récupération : la plupart des personnes traitées rapidement constatent à ce stade une nette diminution des fourmillements, de la faiblesse et du brouillard mental.';
 
   @override
   String get nitrousOxideMilestone365Title =>
@@ -966,7 +966,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get nitrousOxideMilestone365Description =>
-      'Une année entière sans protoxyde d\'azote. Vos réserves de B12 sont restaurées, votre système nerveux a eu un an pour guérir et le risque cardiovasculaire lié à une homocystéine élevée s\'est résorbé. Votre corps fonctionne de nouveau avec sa propre chimie.';
+      'Une année entière sans protoxyde d\'azote. Vos réserves de vitamine B12 sont restaurées, votre système nerveux a eu un an pour récupérer et le risque cardiovasculaire lié à une homocystéine élevée s\'est résorbé. Votre organisme fonctionne de nouveau sans l\'effet du protoxyde d\'azote.';
 
   @override
   String get addictionCocaine => 'Cocaïne';

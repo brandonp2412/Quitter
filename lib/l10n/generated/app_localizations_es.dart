@@ -905,7 +905,8 @@ class AppLocalizationsEs extends AppLocalizations {
       'Buenas noticias: el óxido nitroso no causa abstinencia física. Los impulsos que sientes son psicológicos —hábito y asociación, no tu cuerpo exigiendo una sustancia—. Eso hace que sean manejables.';
 
   @override
-  String get nitrousOxideMilestone7Title => 'Una semana - aumenta la B12';
+  String get nitrousOxideMilestone7Title =>
+      'Una semana — suben los niveles de B12';
 
   @override
   String get nitrousOxideMilestone7Description =>
@@ -932,7 +933,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get nitrousOxideMilestone90Description =>
-      'Tres meses sin destrucción de B12 significan tres meses de reparación nerviosa. El sistema nervioso es resiliente: la mayoría de las personas que comenzaron el tratamiento pronto observa una recuperación importante del hormigueo, la debilidad y la niebla mental a estas alturas.';
+      'Tres meses sin que se destruya más vitamina B12 equivalen a tres meses de recuperación de los nervios. El sistema nervioso tiene una gran capacidad de recuperación: la mayoría de las personas que iniciaron el tratamiento pronto nota a estas alturas una mejoría importante del hormigueo, la debilidad y la niebla mental.';
 
   @override
   String get nitrousOxideMilestone365Title =>
@@ -940,7 +941,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get nitrousOxideMilestone365Description =>
-      'Un año completo sin óxido nitroso. Tus reservas de B12 se han restablecido, tu sistema nervioso ha tenido un año para recuperarse y el riesgo cardiovascular derivado de una homocisteína elevada se ha resuelto. Tu cuerpo vuelve a funcionar con su propia química.';
+      'Un año completo sin óxido nitroso. Tus reservas de vitamina B12 se han restablecido, tu sistema nervioso ha tenido un año para recuperarse y el riesgo cardiovascular asociado a una homocisteína elevada se ha resuelto. Tu organismo vuelve a funcionar sin la interferencia del óxido nitroso.';
 
   @override
   String get addictionCocaine => 'Cocaína';

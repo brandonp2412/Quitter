@@ -504,6 +504,8 @@ void main() {
         'récupération fréquente',
         'histoire de votre retour',
         'récepteurs cannabinoïdes commencent à se réinitialiser',
+        'réparation nerveuse',
+        'propre chimie',
         'crash',
       },
       'es': {
@@ -515,6 +517,9 @@ void main() {
         'consumidores empedernidos',
         'pensamientos desordenados',
         'abstinencia más dura dura',
+        'reparación nerviosa',
+        'propia química',
+        'aumenta la b12',
         'feed',
       },
     };
