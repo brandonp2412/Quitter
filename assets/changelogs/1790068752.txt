@@ -1,0 +1,5 @@
+• Fix localize 1.1.69 release notes
+• Fix polish Japanese recovery translations
+• Fix polish Russian localization semantics
+• Fix polish Russian reference translations
+• Fix translate Play changelog commit prose
