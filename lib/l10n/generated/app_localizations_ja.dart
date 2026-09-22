@@ -2515,7 +2515,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get ssriMilestone30Description =>
-      '1ヶ月は重要なマイルストーンです。睡眠の質が改善し、エネルギーレベルが安定しています。脳は自然なセロトニン調節を積極的に回復しています。';
+      '1ヶ月は重要なマイルストーンです。睡眠の質が改善し、エネルギーレベルが安定し、多くの人が気分が新たな均衡に向かい始めたと感じます。脳は自然なセロトニン調節を積極的に回復しています。';
 
   @override
   String get ssriMilestone90Title => '3ヶ月：セロトニン受容体の回復';
@@ -2529,14 +2529,14 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get ssriMilestone180Description =>
-      '6ヶ月により、脳のセロトニンシステムが自然なバランスを見つけました。感情的な幅の改善が報告されており、SSRIによる性機能障害は通常この時点までに解消されています。';
+      '6ヶ月で神経系は大きく適応します。脳のセロトニンシステムは自然なバランスを取り戻しています。多くの人が感情の幅の改善を報告し、該当する人ではSSRIによる性機能障害も通常この時点までに解消しています。';
 
   @override
   String get ssriMilestone365Title => '1年間：回復達成';
 
   @override
   String get ssriMilestone365Description =>
-      '1年間は完全な回復サイクルを示しています。研究によると、段階的な減薬と心理的サポートを受けた大多数の人が1年後も良好な状態を維持しています。';
+      '1年は完全な回復サイクルの節目です。研究では、段階的な減薬を完了し心理的サポートを受けた人の大多数が1年後も良好な状態を保ち、生活の質は服薬を続けた人と同等かそれ以上であることが示されています。';
 
   @override
   String get settingsShowSsriTracking => 'SSRIの記録を表示';
@@ -2567,28 +2567,28 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get snriMilestone3Description =>
-      'SNRI、特にベンラファキシン（エフェキサー）は、最も重篤な抗うつ薬断薬症候群と関連しています。セロトニンとノルエピネフリンの両システムが同時に影響を受け、FINISH症状がSSRIよりも激しくなる可能性があります。';
+      'SNRI、特にベンラファキシン（エフェキサー）は、最も重い抗うつ薬中止症候群の一部と関連しています。ベンラファキシンは半減期が非常に短い（5時間）ため、症状は多くのSSRIより強くなることがあります。FINISH症状（インフルエンザ様症状、不眠、吐き気、平衡感覚の乱れ、感覚異常、過覚醒）は、セロトニンとノルエピネフリンの両システムに同時に影響します。';
 
   @override
   String get snriMilestone7Title => '1週間：2つの脳内化学システムが調整';
 
   @override
   String get snriMilestone7Description =>
-      'SNRIはセロトニンとノルエピネフリンの両方の再取り込みに影響します。最も強烈な身体的症状が治まり始めていますが、二重メカニズムのため調整が複雑に感じられることがあります。';
+      'SNRIはセロトニンとノルエピネフリンの両方の再取り込みに影響し、両システムが同時に適応しています。最も強い身体症状は治まり始めていますが、二重の作用機序のため、SSRI単独の場合より調整が複雑に感じられることがあります。';
 
   @override
   String get snriMilestone14Title => '2週間：身体的症状が薄れる';
 
   @override
   String get snriMilestone14Description =>
-      'ほとんどの急性身体的断薬症状が大幅に軽減されました。ノルエピネフリンシステムの再調整により、不安や血圧変動がまだ続く場合がありますが、通常は数週間で解消されます。';
+      'ほとんどの急性の身体的な中止症状は大幅に軽減しています。ブレインザップ、吐き気、めまいは薄れつつあります。ノルエピネフリン系の再調整により、不安や血圧変動がまだ起こることがありますが、通常は今後数週間で解消します。';
 
   @override
   String get snriMilestone30Title => '1ヶ月：ノルエピネフリンシステムの安定';
 
   @override
   String get snriMilestone30Description =>
-      '1ヶ月は重要なマイルストーンです。セロトニンとノルエピネフリンの両システムが積極的に再バランスを取っています。感情的な麻痺の解消が始まります。';
+      '1ヶ月は重要なマイルストーンです。セロトニンとノルエピネフリンの両システムが積極的に再調整されています。睡眠の質とエネルギーレベルが安定しつつあります。薬による感情の鈍化が和らぎ始めるにつれ、多くの人が感情の幅の改善を感じます。';
 
   @override
   String get snriMilestone90Title => '3ヶ月：二重システムの再バランス';
@@ -2602,14 +2602,14 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get snriMilestone180Description =>
-      '6ヶ月により、セロトニンとノルエピネフリンの両システムが実質的に再調整されました。多くの人がストレス耐性の改善を報告しています。';
+      '6ヶ月でセロトニンとノルエピネフリンの両システムは大きく再調整されます。SNRIがノルエピネフリンを通じて影響するHPA軸も正常化しつつあります。この時点で、多くの人が日常のストレス要因への対処力が大きく改善したと報告しています。';
 
   @override
   String get snriMilestone365Title => '1年間：回復達成';
 
   @override
   String get snriMilestone365Description =>
-      '1年間は完全な二重システム回復サイクルを示しています。研究によると、医師の管理下でSNRIを段階的に減薬した人の大多数が1年後も良好な転帰を維持しています。';
+      '1年は、セロトニンとノルエピネフリンの両方が回復する完全なサイクルの節目です。研究では、医療者の監督下で心理的サポートを受けながらSNRIを無事に中止した人は、1年後も良好な転帰を維持することが一貫して示されています。';
 
   @override
   String get settingsShowSnriTracking => 'SNRIの記録を表示';
@@ -2713,14 +2713,14 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get maoiMilestone3Description =>
-      'MAOIはすべての抗うつ薬クラスの中で最も深刻な断薬リスクを持ちます。突然の中止は重篤な激越、錯乱、幻覚、ミオクローヌス、高体温を引き起こす可能性があります。これらの症状がある場合は直ちに医師に相談してください。';
+      'MAOIはすべての抗うつ薬クラスの中で最も深刻な中止リスクがあります。突然の中止、特にフェネルジンやトラニルシプロミンの中止は、重度の激越、錯乱、幻覚、ミオクローヌス、高体温を引き起こす可能性があります。これらの症状がある場合は直ちに医療機関を受診してください。MAOIはMAO酵素を不可逆的に失活させることで作用するため、回復には体が新しい酵素を合成する必要があり、その過程には約14日かかります。';
 
   @override
   String get maoiMilestone7Title => '1週間：MAO酵素合成が進行中';
 
   @override
   String get maoiMilestone7Description =>
-      'MAOIはMAO酵素分子を永久に破壊します。1週間までに正常なMAO活性の約50%が回復している可能性があります。急性断薬症状が大幅に軽減されています。';
+      'MAOIはMAO酵素分子を不可逆的に失活させるため、回復には新しい酵素の合成が必要です。1週間で、正常なMAO活性の約50%が回復している可能性があります。重度の急性中止症状（せん妄、ミオクローヌス、高体温）は大幅に軽減します。引き続き綿密な医療監督が重要です。';
 
   @override
   String get maoiMilestone14Title => '2週間：MAO酵素活性が実質的に回復';
@@ -2748,7 +2748,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get maoiMilestone180Description =>
-      '6ヶ月は自然なモノアミン機能の実質的な期間を示します。セロトニン、ノルエピネフリン、ドーパミン受容体集団が正常化されました。フェネチルアミン経路も自然なレベルに回復しています。';
+      '6ヶ月は自然なモノアミン機能が続く十分な期間です。セロトニン、ノルエピネフリン、ドーパミンの受容体群は正常化しています。MAOIの影響を受けるフェネチルアミン（PEA）経路も自然な水準に戻っており、これは見落とされがちですが、感情の正常化に寄与する回復の一側面です。';
 
   @override
   String get maoiMilestone365Title => '1年間：回復達成';

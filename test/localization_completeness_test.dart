@@ -229,6 +229,56 @@ void main() {
     }
   });
 
+  test(
+    'Japanese and Chinese antidepressant milestones retain source detail',
+    () {
+      const expectedDetails = {
+        'ja': {
+          'ssriMilestone30Description': ['新たな均衡'],
+          'ssriMilestone180Description': ['神経系'],
+          'ssriMilestone365Description': ['生活の質'],
+          'snriMilestone3Description': ['5時間', '平衡感覚の乱れ'],
+          'snriMilestone7Description': ['両システムが同時'],
+          'snriMilestone14Description': ['ブレインザップ'],
+          'snriMilestone30Description': ['睡眠の質とエネルギーレベル'],
+          'snriMilestone180Description': ['HPA軸'],
+          'snriMilestone365Description': ['心理的サポート'],
+          'maoiMilestone3Description': ['フェネルジン', '14日'],
+          'maoiMilestone7Description': ['綿密な医療監督'],
+          'maoiMilestone180Description': ['見落とされがち'],
+        },
+        'zh': {
+          'ssriMilestone30Description': ['新的平衡'],
+          'ssriMilestone180Description': ['神经系统'],
+          'ssriMilestone365Description': ['生活质量'],
+          'snriMilestone3Description': ['5小时', '平衡障碍'],
+          'snriMilestone7Description': ['同时调整'],
+          'snriMilestone14Description': ['脑闪'],
+          'snriMilestone30Description': ['睡眠质量和精力水平'],
+          'snriMilestone180Description': ['HPA轴'],
+          'snriMilestone365Description': ['心理支持'],
+          'maoiMilestone3Description': ['苯乙肼', '反苯环丙胺'],
+          'maoiMilestone7Description': ['合成全新的酶'],
+          'maoiMilestone180Description': ['常被忽视'],
+        },
+      };
+
+      for (final locale in expectedDetails.entries) {
+        final localized = _readArb(locale.key);
+        for (final message in locale.value.entries) {
+          final value = localized[message.key] as String;
+          for (final detail in message.value) {
+            expect(
+              value,
+              contains(detail),
+              reason: '${locale.key}:${message.key} must retain "$detail"',
+            );
+          }
+        }
+      }
+    },
+  );
+
   test('long alphabetic reference translations retain source detail', () {
     final english = _readArb('en');
 
@@ -443,7 +493,8 @@ void main() {
           expect(
             value,
             isNot(contains(artifact)),
-            reason: '${entry.key} in ${locale.key} must not contain "$artifact"',
+            reason:
+                '${entry.key} in ${locale.key} must not contain "$artifact"',
           );
         }
       }
@@ -473,10 +524,7 @@ void main() {
       'Afficher un message d’encouragement après avoir recommencé',
     );
     expect(french['notificationTestTitle'], 'Message d’encouragement');
-    expect(
-      french['notificationProgressBody'],
-      'Déjà {days} jours — {message}',
-    );
+    expect(french['notificationProgressBody'], 'Déjà {days} jours — {message}');
     expect(
       french['quitMilestonesShareMessage'],
       "J'ai arrêté {title} depuis {days, plural, =1 {{days} jour} other {{days} jours}} !",
@@ -561,14 +609,8 @@ void main() {
     expect(japanese['addictionBenzos'], 'ベンゾジアゼピン');
     expect(japanese['settingsShowMethTracking'], 'メタンフェタミンの記録を表示');
     expect(japanese['settingsShowBenzosSubtitle'], 'ベンゾジアゼピンの記録を表示');
-    expect(
-      japanese['settingsNotifyMeth'],
-      'メタンフェタミンをやめてからの進捗を通知',
-    );
-    expect(
-      japanese['settingsNotifyBenzos'],
-      'ベンゾジアゼピンをやめてからの進捗を通知',
-    );
+    expect(japanese['settingsNotifyMeth'], 'メタンフェタミンをやめてからの進捗を通知');
+    expect(japanese['settingsNotifyBenzos'], 'ベンゾジアゼピンをやめてからの進捗を通知');
     expect(japanese['hideDialogTitle'], '{title}を非表示にしますか？');
     expect(japanese['quitMilestonesClear'], '削除');
     for (final key in [
@@ -829,10 +871,7 @@ void main() {
 
     expect(chinese['hideDialogTitle'], '隐藏 {title}？');
     expect(chinese['settingsDynamicColorScheme'], '动态配色');
-    expect(
-      chinese['settingsResetButtonsSubtitle'],
-      '在各追踪页面显示重置按钮',
-    );
+    expect(chinese['settingsResetButtonsSubtitle'], '在各追踪页面显示重置按钮');
     expect(chinese['settingsResetMessagesSubtitle'], '重新开始后显示鼓励消息');
     expect(chinese['quitMilestonesClear'], '删除');
     for (final key in [

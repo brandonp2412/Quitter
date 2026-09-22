@@ -2513,7 +2513,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get ssriMilestone30Description =>
-      '一个月是一个重要的里程碑。睡眠质量在改善，精力水平在稳定。大脑正在积极恢复其自然的血清素调节。';
+      '一个月是一个重要的里程碑。睡眠质量正在改善，精力水平逐渐稳定，许多人开始感觉情绪正在找到新的平衡。大脑正在积极恢复其自然的血清素调节。';
 
   @override
   String get ssriMilestone90Title => '三个月：血清素受体恢复';
@@ -2527,14 +2527,14 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get ssriMilestone180Description =>
-      '六个月使大脑血清素系统找到了自然平衡。许多人报告情绪范围改善，SSRI引起的性功能障碍通常在此时已消退。';
+      '六个月让神经系统有了充分的调整时间。大脑的血清素系统已经恢复到自然平衡。许多人报告情绪体验范围有所改善；对于曾出现此问题的人，SSRI引起的性功能障碍通常也已在此时消退。';
 
   @override
   String get ssriMilestone365Title => '一年：康复实现';
 
   @override
   String get ssriMilestone365Description =>
-      '一年标志着一个完整的康复周期。研究显示，接受逐渐减药和心理支持的大多数人在一年后仍保持良好状态。';
+      '一年标志着一个完整的恢复周期。研究显示，完成逐渐减药并获得心理支持的大多数人在一年后仍保持良好状态，生活质量与继续服药者相当或更好。';
 
   @override
   String get settingsShowSsriTracking => '显示SSRI追踪';
@@ -2565,28 +2565,28 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get snriMilestone3Description =>
-      'SNRI，特别是文拉法辛（Effexor），与最严重的抗抑郁药停药综合征相关。血清素和去甲肾上腺素两个系统同时受到影响，FINISH症状可能比SSRI更强烈。';
+      'SNRI，特别是文拉法辛（Effexor），与一些最严重的抗抑郁药停药综合征相关。文拉法辛的半衰期很短（5小时），因此症状可能比大多数SSRI更强烈。FINISH症状（流感样感受、失眠、恶心、平衡障碍、感觉异常、过度唤醒）会同时涉及血清素和去甲肾上腺素系统。';
 
   @override
   String get snriMilestone7Title => '一周：两个大脑化学系统正在调整';
 
   @override
   String get snriMilestone7Description =>
-      'SNRI影响血清素和去甲肾上腺素两种再摄取。最强烈的身体症状开始减轻，但双重机制可能使调整感觉比单独使用SSRI更复杂。';
+      'SNRI会影响血清素和去甲肾上腺素的再摄取，这两个系统正在同时调整。最强烈的身体症状开始减轻，但双重作用机制意味着这种调整可能比单独停用SSRI时感觉更复杂。';
 
   @override
   String get snriMilestone14Title => '两周：身体症状减轻';
 
   @override
   String get snriMilestone14Description =>
-      '大多数急性身体停药症状已显著减少。去甲肾上腺素系统的重新调整可能仍会引起一些焦虑或血压波动，但通常会在几周内消退。';
+      '大多数急性身体停药症状已显著减少。脑闪、恶心和头晕正在消退。去甲肾上腺素系统的重新调整可能仍会引起一些焦虑或血压波动，但这些情况通常会在接下来的几周内消退。';
 
   @override
   String get snriMilestone30Title => '一个月：去甲肾上腺素系统稳定';
 
   @override
   String get snriMilestone30Description =>
-      '一个月是一个重要的里程碑。血清素和去甲肾上腺素系统都在积极重新平衡。情绪麻木开始消退。';
+      '一个月是一个重要的里程碑。血清素和去甲肾上腺素系统都在积极重新平衡。睡眠质量和精力水平正在稳定。随着药物造成的情绪钝化效应开始消退，许多人会注意到情绪体验范围有所改善。';
 
   @override
   String get snriMilestone90Title => '三个月：双重系统重新平衡';
@@ -2600,14 +2600,14 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get snriMilestone180Description =>
-      '六个月使血清素和去甲肾上腺素系统得到实质性重新调整。许多人报告压力耐受性明显改善。';
+      '六个月让血清素和去甲肾上腺素系统有了充分的重新调整时间。SNRI通过去甲肾上腺素影响的HPA轴也在恢复正常。此时，许多人报告自己应对日常压力的韧性明显提高。';
 
   @override
   String get snriMilestone365Title => '一年：康复实现';
 
   @override
   String get snriMilestone365Description =>
-      '一年标志着完整的双系统恢复周期。研究显示，在医师监督下逐渐减药的大多数人在一年后仍保持良好转归。';
+      '一年标志着血清素和去甲肾上腺素双系统完整的恢复周期。研究一贯显示，在医疗监督和心理支持下成功停用SNRI的人，一年后仍能保持良好结果。';
 
   @override
   String get settingsShowSnriTracking => '显示SNRI追踪';
@@ -2711,14 +2711,14 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get maoiMilestone3Description =>
-      'MAOI是所有抗抑郁药类别中停药风险最严重的。突然停药可能导致严重激越、意识混乱、幻觉、肌阵挛和高热。如果出现这些症状，请立即寻求医疗帮助。MAOI永久性地破坏MAO酶，恢复需要约14天合成新酶。';
+      'MAOI是所有抗抑郁药类别中停药风险最严重的。突然停药，尤其是苯乙肼和反苯环丙胺，可能导致严重激越、意识混乱、幻觉、肌阵挛和高热。如果出现这些症状，请立即就医。MAOI通过不可逆地使MAO酶失活发挥作用；恢复需要身体合成新的酶，这一过程大约需要14天。';
 
   @override
   String get maoiMilestone7Title => '一周：MAO酶合成进行中';
 
   @override
   String get maoiMilestone7Description =>
-      'MAOI永久性地破坏MAO酶分子。到一周时，约50%的正常MAO活性可能已经恢复。急性停药症状（谵妄、肌阵挛、高热）已大幅减轻，但仍需密切医疗监督。';
+      'MAOI会不可逆地使MAO酶分子失活；恢复需要合成全新的酶。到一周时，约50%的正常MAO活性可能已经恢复。严重的急性停药症状（谵妄、肌阵挛、高热）已大幅减轻。仍然需要密切的医疗监督。';
 
   @override
   String get maoiMilestone14Title => '两周：MAO酶活性基本恢复';
@@ -2746,7 +2746,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get maoiMilestone180Description =>
-      '六个月代表了自然单胺功能的实质性时期。血清素、去甲肾上腺素和多巴胺受体群已正常化。MAOI影响的苯乙胺通路也已恢复到自然水平。';
+      '六个月代表了自然单胺功能持续相当长的一段时间。血清素、去甲肾上腺素和多巴胺受体群已恢复正常。受MAOI影响的苯乙胺（PEA）通路也已恢复到自然水平——这是恢复过程中常被忽视的一面，却有助于情绪恢复正常。';
 
   @override
   String get maoiMilestone365Title => '一年：康复实现';
