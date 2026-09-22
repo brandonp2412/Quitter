@@ -1028,6 +1028,14 @@ void main() {
     for (final entry in chinese.entries) {
       if (entry.key.startsWith('@') || entry.value is! String) continue;
       final value = entry.value as String;
+      if (!entry.key.contains('Reference')) {
+        expect(
+          value,
+          isNot(contains('你')),
+          reason:
+              '${entry.key} must keep the Simplified Chinese UI in the formal second person',
+        );
+      }
       for (final artifact in forbiddenArtifacts) {
         expect(
           value,

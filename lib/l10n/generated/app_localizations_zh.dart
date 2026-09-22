@@ -1000,7 +1000,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get statsNoAddictions => '开始记录成瘾以查看您的统计数据';
 
   @override
-  String get statsJourneyTitle => '你的历程';
+  String get statsJourneyTitle => '您的历程';
 
   @override
   String statsTotalDays(int days) {
@@ -1226,7 +1226,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get smokelessTobaccoHeaderNotStarted => '戒掉嚼烟和无烟烟草';
 
   @override
-  String get smokelessTobaccoSubtitleStarted => '追踪你的进度，庆祝每个里程碑';
+  String get smokelessTobaccoSubtitleStarted => '追踪您的进度，庆祝每个里程碑';
 
   @override
   String get smokelessTobaccoSubtitleNotStarted => '看看戒掉后会发生什么';
@@ -1595,7 +1595,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get entryPageHeaderNotStarted => '未开始';
 
   @override
-  String get entryPageSubtitleStarted => '你做得很好！';
+  String get entryPageSubtitleStarted => '您做得很好！';
 
   @override
   String get entryPageSubtitleNotStarted => '点击“开始”开启您的旅程';
@@ -1720,10 +1720,10 @@ class AppLocalizationsZh extends AppLocalizations {
   }
 
   @override
-  String get alcoholHeaderStarted => '为你喝彩！';
+  String get alcoholHeaderStarted => '为您喝彩！';
 
   @override
-  String get alcoholHeaderNotStarted => '开始你的戒酒之旅！';
+  String get alcoholHeaderNotStarted => '开始您的戒酒之旅！';
 
   @override
   String get alcoholSubtitleStarted => '每一天都是胜利 🥳';
@@ -1801,7 +1801,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get opioidsHeaderNotStarted => '康复之路！';
 
   @override
-  String get opioidsSubtitleStarted => '拥抱你的力量 💪';
+  String get opioidsSubtitleStarted => '拥抱您的力量 💪';
 
   @override
   String get opioidsSubtitleNotStarted => '准备好重获新生了吗？ 💖';
@@ -1843,31 +1843,31 @@ class AppLocalizationsZh extends AppLocalizations {
   String get relapseMessage1 => '康复不是线性的。每一步前进都很重要，包括这一步。';
 
   @override
-  String get relapseMessage2 => '你在这里，你在尝试，这需要真正的勇气。';
+  String get relapseMessage2 => '您在这里，您在尝试，这需要真正的勇气。';
 
   @override
-  String get relapseMessage3 => '挫折不会抹去你的进步。你在学习和成长。';
+  String get relapseMessage3 => '挫折不会抹去您的进步。您在学习和成长。';
 
   @override
-  String get relapseMessage4 => '每一次重新开始都是你力量的证明，而不是软弱的迹象。';
+  String get relapseMessage4 => '每一次重新开始都是您力量的证明，而不是软弱的迹象。';
 
   @override
-  String get relapseMessage5 => '明天是一个新的开始。你能行的。';
+  String get relapseMessage5 => '明天是一个新的开始。您能行的。';
 
   @override
-  String get relapseMessage6 => '你的价值不是由完美的连胜定义的。你很重要。';
+  String get relapseMessage6 => '您的价值不是由完美的连胜定义的。您很重要。';
 
   @override
   String get relapseMessage7 => '康复是一段有起有落的旅程。继续前行。';
 
   @override
-  String get relapseMessage8 => '你以前有力量开始，现在你依然拥有。';
+  String get relapseMessage8 => '您以前有力量开始，现在您依然拥有。';
 
   @override
-  String get relapseMessage9 => '一瞬间并不能定义你未来的整个旅程。';
+  String get relapseMessage9 => '一瞬间并不能定义您未来的整个旅程。';
 
   @override
-  String get relapseMessage10 => '在这里表明你没有放弃。这很有力量。';
+  String get relapseMessage10 => '在这里表明您没有放弃。这很有力量。';
 
   @override
   String get relapseMessage11 => '进步不在于完美，而在于坚持。';
@@ -1876,13 +1876,13 @@ class AppLocalizationsZh extends AppLocalizations {
   String get relapseMessage12 => '每一次尝试都在建立韧性。继续建立。';
 
   @override
-  String get relapseMessage13 => '你再次尝试的承诺本身就是一种胜利。';
+  String get relapseMessage13 => '您再次尝试的承诺本身就是一种胜利。';
 
   @override
-  String get relapseMessage14 => '治愈不是瞬间的，而是伴随着你做出的每一个选择发生的。';
+  String get relapseMessage14 => '治愈不是瞬间的，而是伴随着您做出的每一个选择发生的。';
 
   @override
-  String get relapseMessage15 => '你不是从头开始——你是带着更多的智慧继续。';
+  String get relapseMessage15 => '您不是从头开始——您是带着更多的智慧继续。';
 
   @override
   String get relapseMessage16 => '每一位专家都曾是初学者。每一位职业选手都曾是业余爱好者。';
@@ -1891,10 +1891,10 @@ class AppLocalizationsZh extends AppLocalizations {
   String get relapseMessage17 => '康复是一天一天发生的，有时是一小时一小时发生的。';
 
   @override
-  String get relapseMessage18 => '你正在书写一个东山再起的故事。这只是其中一章。';
+  String get relapseMessage18 => '您正在书写一个东山再起的故事。这只是其中一章。';
 
   @override
-  String get relapseMessage19 => '你在这里这一事实意味着你在乎自己。坚持住。';
+  String get relapseMessage19 => '您在这里这一事实意味着您在乎自己。坚持住。';
 
   @override
   String get relapseMessage20 => '朝着正确方向迈出的一小步仍然是前进。';
@@ -2350,10 +2350,10 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get pornographyMilestone1Description =>
-      '有问题的色情内容使用的核心是控制困难，以及由此造成的痛苦或功能受损。第一天的意义很具体：你已经中断旧模式一次，并开始识别真正会触发它的情境。';
+      '有问题的色情内容使用的核心是控制困难，以及由此造成的痛苦或功能受损。第一天的意义很具体：您已经中断旧模式一次，并开始识别真正会触发它的情境。';
 
   @override
-  String get pornographyMilestone3Title => '认识你的冲动';
+  String get pornographyMilestone3Title => '认识您的冲动';
 
   @override
   String get pornographyMilestone3Description =>
@@ -2367,11 +2367,11 @@ class AppLocalizationsZh extends AppLocalizations {
       '一项7天禁欲随机试验没有发现普通使用者整体出现统一的戒断综合征；但在“高问题使用加每日观看”的探索性亚组中，渴求更强。因此第一周可能很难，但并非人人如此。';
 
   @override
-  String get pornographyMilestone14Title => '找出你的诱因';
+  String get pornographyMilestone14Title => '找出您的诱因';
 
   @override
   String get pornographyMilestone14Description =>
-      '两周足以让你多次遇到以前会触发色情内容使用的情境。研究把问题使用与渴求、压力、逃避、孤独和应对方式等因素联系起来；识别自己的模式，才能设计具体改变。';
+      '两周足以让您多次遇到以前会触发色情内容使用的情境。研究把问题使用与渴求、压力、逃避、孤独和应对方式等因素联系起来；识别自己的模式，才能设计具体改变。';
 
   @override
   String get pornographyMilestone30Title => '一个月的控制';
@@ -2782,13 +2782,13 @@ class AppLocalizationsZh extends AppLocalizations {
   String get notificationProgressMessage1 => '继续保持这份出色的努力！';
 
   @override
-  String get notificationProgressMessage2 => '你做得很棒！';
+  String get notificationProgressMessage2 => '您做得很棒！';
 
   @override
   String get notificationProgressMessage3 => '坚持得太棒了！';
 
   @override
-  String get notificationProgressMessage4 => '为你的坚强喝彩！';
+  String get notificationProgressMessage4 => '为您的坚强喝彩！';
 
   @override
   String get notificationProgressMessage5 => '继续闪耀！';
@@ -2800,7 +2800,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get notificationProgressMessage7 => '继续加油！';
 
   @override
-  String get notificationProgressMessage8 => '你是真正的冠军！';
+  String get notificationProgressMessage8 => '您是真正的冠军！';
 
   @override
   String get notificationProgressMessage9 => '这份努力非常了不起！';
