@@ -3691,7 +3691,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get steroidsReferenceDay30 =>
-      'Un mois : surveiller l’humeur et la récupération hormonale\n\nSource : littérature clinique sur le sevrage des stéroïdes anabolisants\n\nAprès un mois, l’axe hormonal peut encore être supprimé. Un bilan médical permet de suivre la testostérone, les autres hormones, la tension et les lipides. Le repos, l’alimentation et le soutien psychologique sont utiles, mais ne remplacent pas une évaluation clinique.';
+      'Un mois sans stéroïdes anabolisants\n\nSource : « Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review », sur PubMed\n\nLa récupération commence\nAprès l’arrêt, les signaux hormonaux qui indiquent aux testicules de produire de la testostérone commencent à se réactiver. Les recherches situent une grande partie de cette récupération entre trois et six mois ; au bout d’un mois, le processus est donc déjà engagé.\n\nÀ quoi s’attendre\nUne humeur dépressive, une baisse de la libido et un manque d’énergie persistent souvent pendant que les taux hormonaux remontent. La récupération dépend de l’âge ainsi que de l’intensité et de la durée de l’utilisation.';
 
   @override
   String get steroidsReferenceDay90 =>
@@ -3703,7 +3703,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get steroidsReferenceDay365 =>
-      'Un an : bilan de santé après les stéroïdes\n\nSource : littérature clinique sur le sevrage des stéroïdes anabolisants\n\nUn an d’abstinence permet souvent de mieux mesurer la récupération hormonale, mais certains effets peuvent durer. Faites contrôler la tension, les lipides, le foie, le cœur et les hormones. L’urgence demeure la sécurité psychique : demandez immédiatement de l’aide en cas d’idées suicidaires.';
+      'Un an sans stéroïdes anabolisants\n\nSource : « Anabolic androgenic steroid-induced hypogonadism, a reversible condition in male individuals? A systematic review », sur PubMed\n\nUn an sans stéroïdes\nUne année d’arrêt offre au système hormonal une longue période de récupération. La testostérone, l’humeur, la libido, la force naturelle et la santé cardiovasculaire ont toutes eu beaucoup de temps pour récupérer.\n\nÀ long terme\nSi des symptômes de faible testostérone sont toujours présents au bout d’un an, l’étape suivante appropriée est un bilan hormonal spécialisé. Continuer à ne pas prendre de stéroïdes protège les progrès déjà accomplis.';
 
   @override
   String get steroidsReferenceDay730 =>

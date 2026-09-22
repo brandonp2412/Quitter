@@ -563,6 +563,35 @@ void main() {
     expect(french['notificationProgressMessage10'], 'Tenez bon !');
   });
 
+  test('French steroid reference articles preserve source detail', () {
+    final french = _readArb('fr');
+
+    expect(
+      french['steroidsReferenceDay30'],
+      allOf(
+        contains(
+          'Physical, psychological and biochemical recovery from '
+          'anabolic steroid-induced hypogonadism: a scoping review',
+        ),
+        contains('entre trois et six mois'),
+        contains('baisse de la libido'),
+        contains('de l’intensité et de la durée de l’utilisation'),
+      ),
+    );
+    expect(
+      french['steroidsReferenceDay365'],
+      allOf(
+        contains(
+          'Anabolic androgenic steroid-induced hypogonadism, '
+          'a reversible condition in male individuals? A systematic review',
+        ),
+        contains('la force naturelle et la santé cardiovasculaire'),
+        contains('un bilan hormonal spécialisé'),
+        contains('protège les progrès déjà accomplis'),
+      ),
+    );
+  });
+
   test('Japanese reference articles do not leak English prose', () {
     final japanese = _readArb('ja');
 
