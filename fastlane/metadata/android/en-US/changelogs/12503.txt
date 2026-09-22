@@ -1,0 +1,10 @@
+• Fix align Japanese and Russian terminology
+• Fix complete French recovery references
+• Fix correct Russian recovery terminology
+• Fix keep Russian UI register consistent
+• Fix localize 1.1.70 release notes
+• Fix localize Play revert notes
+• Fix localize search clearing and compact stats
+• Fix make progress copy habit neutral
+• Fix polish Chinese recovery wording
+• Fix polish French and Spanish translations
