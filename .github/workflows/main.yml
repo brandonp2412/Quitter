@@ -3,8 +3,6 @@ name: Build and Release
 on:
   push:
     branches: [main]
-    paths-ignore:
-      - "pubspec.yaml"
   workflow_dispatch:
 
 permissions:
