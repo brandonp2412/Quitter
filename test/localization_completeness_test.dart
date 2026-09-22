@@ -374,8 +374,11 @@ void main() {
     const forbiddenGlobally = {
       'скидк',
       'вывод средств',
+      'вывода средств',
       'бензол',
       'тяга к еде',
+      'тяге к еде',
+      'физическому отстранению',
       'snri',
       'tca',
       'maoi',
@@ -389,6 +392,7 @@ void main() {
       isNot(contains(' adderall')),
     );
     expect(russian['settingsNotifyAdderall'], isNot(contains(' adderall')));
+    expect(russian['milestoneOpenOriginalSource'], 'Открыть первоисточник');
 
     for (final entry in russian.entries) {
       if (entry.key.startsWith('@') || entry.value is! String) {
@@ -396,6 +400,17 @@ void main() {
       }
 
       final value = (entry.value as String).toLowerCase();
+      for (final pattern in [
+        RegExp(r'вывод\w* средств'),
+        RegExp(r'тяг\w* к еде'),
+        RegExp(r'(?:один год|полгода|шесть месяцев|три месяца) бесплатно'),
+      ]) {
+        expect(
+          pattern.hasMatch(value),
+          isFalse,
+          reason: '${entry.key} must not contain ${pattern.pattern}',
+        );
+      }
       for (final phrase in forbiddenGlobally) {
         expect(
           value.contains(phrase),
