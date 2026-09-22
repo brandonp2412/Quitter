@@ -1641,7 +1641,7 @@
   "@smokingMilestone3Title": {
     "description": "Smoking milestone day 3 title"
   },
-  "smokingMilestone3Description": "ニコチンの怪物は最も怒っていますが、あなたは戦いに勝っています！すべてのニコチンが体から排出されました。最悪の渇望は今起きていますが、それは自由への切符でもあります。",
+  "smokingMilestone3Description": "体内のニコチンはすでに排出されています。強い渇望はこの時期に起こりやすいですが、ここを越えると禁煙をさらに続けやすくなります。",
   "@smokingMilestone3Description": {
     "description": "Smoking milestone day 3 description"
   },
@@ -1665,7 +1665,7 @@
   "@smokingMilestone30Title": {
     "description": "Smoking milestone day 30 title"
   },
-  "smokingMilestone30Description": "肺がカムバックパーティーを開いています！繊毛が再生し、何年ものタールや破片を掃き出しています。肺活量が大幅に増加し、喫煙者の咳は過去のものになりました。",
+  "smokingMilestone30Description": "繊毛が再生し、長年たまったタールや異物を排出し始めています。肺活量は大きく改善し、いわゆる「喫煙者の咳」も減っていきます。",
   "@smokingMilestone30Description": {
     "description": "Smoking milestone day 30 description"
   },
@@ -1673,7 +1673,7 @@
   "@smokingMilestone90Title": {
     "description": "Smoking milestone day 90 title"
   },
-  "smokingMilestone90Description": "心臓がラブレターを送っています！禁煙3ヶ月で心血管リスクはすでに大幅に低下しています。心血管系は思っている以上に速く回復しています。",
+  "smokingMilestone90Description": "禁煙3ヶ月。心血管リスクはすでに大きく低下し、心臓や血管の回復が着実に進んでいます。",
   "@smokingMilestone90Description": {
     "description": "Smoking milestone day 90 description"
   },
@@ -1681,7 +1681,7 @@
   "@smokingMilestone180Title": {
     "description": "Smoking milestone day 180 title"
   },
-  "smokingMilestone180Description": "免疫システムがスーパーヒーローにアップグレードされました！禁煙6ヶ月で白血球はフルパワーに戻り、生まれながらのチャンピオンのように感染症と戦っています。",
+  "smokingMilestone180Description": "禁煙6ヶ月で白血球の働きが回復し、感染症に対する免疫機能も改善しています。",
   "@smokingMilestone180Description": {
     "description": "Smoking milestone day 180 description"
   },
@@ -1689,7 +1689,7 @@
   "@smokingMilestone365Title": {
     "description": "Smoking milestone day 365 title"
   },
-  "smokingMilestone365Description": "自由の1年間！脳卒中リスクは大幅に減少し、血管は美しく回復しています。脳により良い循環と保護というギフトを正式に与えました。",
+  "smokingMilestone365Description": "禁煙1周年！脳卒中リスクは大幅に低下し、血管の回復も進んでいます。脳への血流が改善し、脳卒中から守る効果も高まっています。",
   "@smokingMilestone365Description": {
     "description": "Smoking milestone day 365 description"
   },
@@ -1713,7 +1713,7 @@
   "@vapingMilestone3Title": {
     "description": "Vaping milestone day 3 title"
   },
-  "vapingMilestone3Description": "肺が喜びのダンスをしています！気管支がリラックスし始め、肺活量が改善し始めます。ベイピングによる胸の締め付け感がすでに和らぎ始めています。",
+  "vapingMilestone3Description": "電子タバコをやめて3日。気管支がゆるみ始め、肺活量も改善に向かいます。ベイピングによる胸の締め付け感も和らぎ始めています。",
   "@vapingMilestone3Description": {
     "description": "Vaping milestone day 3 description"
   },
@@ -1721,7 +1721,7 @@
   "@vapingMilestone7Title": {
     "description": "Vaping milestone day 7 title"
   },
-  "vapingMilestone7Description": "食べ物がまた美味しくなろうとしています！ニコチンは味蕾と嗅覚受容体を鈍らせます。1週間で、あなたの感覚のスーパーパワーがカムバックツアーを開始しています。",
+  "vapingMilestone7Description": "ニコチンは味蕾と嗅覚受容体の働きを鈍らせます。電子タバコをやめて1週間で味覚と嗅覚が回復し始め、食べ物の味もより鮮明に感じられるようになります。",
   "@vapingMilestone7Description": {
     "description": "Vaping milestone day 7 description"
   },
@@ -1905,7 +1905,7 @@
   "@opioidMilestone365Title": {
     "description": "Opioid milestone day 365 title"
   },
-  "opioidMilestone365Description": "脳がリノベーション作業を続けてきました！丸1年の回復で脳構造と神経可塑性に大幅な改善が見られます。慢性的なオピオイド使用による変化が美しく回復しています。",
+  "opioidMilestone365Description": "丸1年の回復で、脳構造と神経可塑性に大きな改善が見られます。慢性的なオピオイド使用による脳の変化も、着実に回復しています。",
   "@opioidMilestone365Description": {
     "description": "Opioid milestone day 365 description"
   },
@@ -1921,7 +1921,7 @@
   "@socialMediaMilestone1Title": {
     "description": "Social media milestone day 1 title"
   },
-  "socialMediaMilestone1Description": "正式に脳のリワイヤリングを開始しました！研究によると、ソーシャルメディアをチェックしようと考えるだけで、依存症と同じ神経経路が活性化されます。しかし、あなたはすでにそのサイクルを断ち切っています - すごい！",
+  "socialMediaMilestone1Description": "ソーシャルメディアを確認しようと考えるだけでも、依存に関わるのと似た神経経路が活性化することが研究で示されています。1日目から、その習慣のサイクルを断ち始めています。",
   "@socialMediaMilestone1Description": {
     "description": "Social media milestone day 1 description"
   },
@@ -1929,7 +1929,7 @@
   "@socialMediaMilestone3Title": {
     "description": "Social media milestone day 3 title"
   },
-  "socialMediaMilestone3Description": "3日目で、あの不安な「何か見逃してるかも？」という考えがすでに薄れてきています。現実の生活がキュレーションされたフィードよりずっと面白いと、脳を訓練しています！",
+  "socialMediaMilestone3Description": "3日目。「何か見逃しているかも」という不安はすでに薄れ始めています。作り込まれたフィードより現実の生活に注意を向ける習慣が育ってきています。",
   "@socialMediaMilestone3Description": {
     "description": "Social media milestone day 3 description"
   },
@@ -1937,7 +1937,7 @@
   "@socialMediaMilestone7Title": {
     "description": "Social media milestone day 7 title"
   },
-  "socialMediaMilestone7Description": "1週間完了！数分ごとにスマホをチェックせずに集中する能力がすでに向上しています。研究によると、私たちの脳は通知からのドーパミンを欲しがりますが、あなたは別の場所で報酬を見つけることを教えています！",
+  "socialMediaMilestone7Description": "1週間達成！数分おきにスマホを確認しなくても集中できる時間が伸びています。通知がもたらすドーパミン刺激を脳は求めやすいものですが、別の活動から満足感を得る習慣が育っています。",
   "@socialMediaMilestone7Description": {
     "description": "Social media milestone day 7 description"
   },
@@ -1945,7 +1945,7 @@
   "@socialMediaMilestone14Title": {
     "description": "Social media milestone day 14 title"
   },
-  "socialMediaMilestone14Description": "寝る前にスクロールしない2週間 = より良い睡眠の質！画面からのブルーライトはメラトニンの生成を抑制しますが、自然な睡眠リズムが美しく回復しています。",
+  "socialMediaMilestone14Description": "寝る前のスクロールをやめて2週間。画面のブルーライトはメラトニンの分泌を抑えますが、自然な睡眠リズムは着実に戻ってきています。",
   "@socialMediaMilestone14Description": {
     "description": "Social media milestone day 14 description"
   },
@@ -1953,7 +1953,7 @@
   "@socialMediaMilestone30Title": {
     "description": "Social media milestone day 30 title"
   },
-  "socialMediaMilestone30Description": "1ヶ月オフライン = 孤独感とうつ病の大幅な減少！研究によると、ソーシャルメディアを制限することで大きなメンタルヘルスの改善が生まれます。あなたはさらに先を行っています！",
+  "socialMediaMilestone30Description": "ソーシャルメディアを減らして1ヶ月。研究では、使用を制限すると孤独感や抑うつ感が軽減し、メンタルヘルスが改善する可能性が示されています。あなたはさらに一歩進んでいます。",
   "@socialMediaMilestone30Description": {
     "description": "Social media milestone day 30 description"
   },
@@ -1961,7 +1961,7 @@
   "@socialMediaMilestone60Title": {
     "description": "Social media milestone day 60 title"
   },
-  "socialMediaMilestone60Description": "絶え間ない社会的比較なしの2ヶ月 = 自信が急上昇！研究は一貫して、ソーシャルメディアの使用が自尊心の低下と相関していること、特に上方社会比較からのものを示しています。比較の罠から解放されました！",
+  "socialMediaMilestone60Description": "絶え間ない他人との比較から離れて2ヶ月。ソーシャルメディア、とくに自分より良く見える人との比較は自尊感情の低下と関連することが研究で示されています。比較の習慣から距離を置けています。",
   "@socialMediaMilestone60Description": {
     "description": "Social media milestone day 60 description"
   },
@@ -1977,7 +1977,7 @@
   "@socialMediaMilestone180Title": {
     "description": "Social media milestone day 180 title"
   },
-  "socialMediaMilestone180Description": "6ヶ月オフラインで正式に繁栄しています！長期研究によると、ソーシャルメディアの使用を減らすことで、幸福感、自尊心、人生の満足度が持続的に向上します。現実世界での生活がより良いという生きた証拠です！",
+  "socialMediaMilestone180Description": "ソーシャルメディアを減らして6ヶ月。長期研究では、幸福感、自尊感情、生活満足度の改善が持続することが示されています。現実の生活に使える時間と注意を取り戻しています。",
   "@socialMediaMilestone180Description": {
     "description": "Social media milestone day 180 description"
   },
@@ -1985,7 +1985,7 @@
   "@socialMediaMilestone365Title": {
     "description": "Social media milestone day 365 title"
   },
-  "socialMediaMilestone365Description": "丸1年の意図的な生活！1,000時間以上を取り戻し、より深い人間関係を形成し、人生で最高の瞬間は共有するためではなく、体験するためにあることを証明しました。あなたは正式にデジタルウェルネスの伝説です！",
+  "socialMediaMilestone365Description": "意識してソーシャルメディアと距離を置いて1年。1,000時間以上を取り戻し、より深い人間関係を築き、共有することより実際に体験する時間を増やしてきました。大きな節目です。",
   "@socialMediaMilestone365Description": {
     "description": "Social media milestone day 365 description"
   },

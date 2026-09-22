@@ -1980,7 +1980,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get smokingMilestone3Description =>
-      '尼古丁怪兽最愤怒的时候，但您正在赢得战斗！所有尼古丁都已离开您的系统。最强烈的渴望现在发生，但它们也是您通往另一边自由的门票。';
+      '体内的尼古丁已经清除。最强烈的渴求往往出现在这段时间，但度过这个阶段后，您会更接近稳定的无烟生活。';
 
   @override
   String get smokingMilestone7Title => '味觉和嗅觉显著改善';
@@ -2001,28 +2001,27 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get smokingMilestone30Description =>
-      '您的肺正在举行复出派对！纤毛已经再生，正在扫除多年的焦油和碎片。肺活量显著增加，吸烟者的咳嗽已成为历史。';
+      '气道纤毛已经再生，正在清除长期积累的焦油和杂质。肺活量明显提高，“吸烟者咳嗽”也在逐渐消失。';
 
   @override
   String get smokingMilestone90Title => '心脏病发作风险显著降低';
 
   @override
-  String get smokingMilestone90Description =>
-      '您的心脏正在发送情书！三个月无烟，您的心血管风险已经大幅下降。您的心血管系统愈合速度比您想象的要快。';
+  String get smokingMilestone90Description => '戒烟三个月后，心血管风险已明显下降，心脏和血管正在持续恢复。';
 
   @override
   String get smokingMilestone180Title => '免疫系统增强';
 
   @override
   String get smokingMilestone180Description =>
-      '您的免疫系统刚刚获得了超级英雄升级！六个月不吸烟，您的白细胞恢复了全部力量，像天生的冠军一样对抗感染。';
+      '戒烟六个月后，白细胞功能明显恢复，免疫系统对抗感染的能力也得到改善。';
 
   @override
   String get smokingMilestone365Title => '中风风险显著降低';
 
   @override
   String get smokingMilestone365Description =>
-      '整整一年的自由！您的中风风险已大幅降低，您的血管正在美丽地愈合。您正式给了您的大脑更好的循环和保护的礼物。';
+      '戒烟整整一年！中风风险已大幅降低，血管也在持续修复。更好的脑部血液循环正在进一步保护大脑。';
 
   @override
   String get smokingMilestone1825Title => '癌症风险骤降（5年）';
@@ -2043,14 +2042,14 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get vapingMilestone3Description =>
-      '您的肺正在跳快乐的舞蹈！支气管开始放松，肺活量开始改善。吸电子烟引起的胸闷感已经开始缓解。';
+      '停用电子烟三天后，支气管开始放松，肺活量逐步改善，电子烟引起的胸闷也开始缓解。';
 
   @override
   String get vapingMilestone7Title => '味觉和嗅觉恢复';
 
   @override
   String get vapingMilestone7Description =>
-      '食物的味道又要变得美妙了！尼古丁会抑制味蕾和嗅觉受体。一周后，您的感官超能力正在巡回回归。';
+      '尼古丁会使味蕾和嗅觉受体变得迟钝。停用电子烟一周后，味觉和嗅觉开始恢复，食物的味道也会变得更鲜明。';
 
   @override
   String get vapingMilestone14Title => '血液循环改善';
@@ -2211,7 +2210,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get opioidMilestone365Description =>
-      '您的大脑一直在忙着装修！整整一年的康复显示出脑结构和神经可塑性的显著改善。长期使用阿片类药物带来的变化正在美丽地愈合。';
+      '经过整整一年的恢复，脑结构和神经可塑性都出现了明显改善。长期使用阿片类药物造成的脑部变化也在持续修复。';
 
   @override
   String get opioidMilestone730Title => '长期康复稳定性（2年）';
@@ -2225,42 +2224,42 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get socialMediaMilestone1Description =>
-      '您已正式开始重新连接您的大脑！研究表明，即使想查看社交媒体也会触发与成瘾相同的神经通路。但您已经在打破循环——加油！';
+      '研究表明，即使只是想到查看社交媒体，也会激活与成瘾相关的相似神经通路。第一天起，您已经开始打破这个习惯循环。';
 
   @override
   String get socialMediaMilestone3Title => '错失恐惧症？不存在的！ 😎';
 
   @override
   String get socialMediaMilestone3Description =>
-      '三天过去了，那些焦虑的“我错过了什么？”的想法已经开始消退。您正在训练您的大脑，现实生活比精心策划的动态更有趣！';
+      '第三天，“我是不是错过了什么”的焦虑想法已经开始减弱。您正在培养把注意力放回现实生活、而不是精心筛选动态上的习惯。';
 
   @override
   String get socialMediaMilestone7Title => '注意力跨度：金鱼 → 人类 🧠';
 
   @override
   String get socialMediaMilestone7Description =>
-      '第一周完成！您不每隔几分钟检查手机就能集中注意力的能力已经在提高。研究表明，我们的大脑渴望来自通知的多巴胺冲击——但您正在教您的脑在其他地方寻找回报！';
+      '第一周完成！不再每隔几分钟查看手机后，专注力已经开始改善。通知带来的多巴胺刺激很容易让大脑形成渴求，而您正在学习从其他活动中获得满足感。';
 
   @override
   String get socialMediaMilestone14Title => '睡得像个婴儿（而不是僵尸） 😴';
 
   @override
   String get socialMediaMilestone14Description =>
-      '睡前两周不刷屏 = 更好的睡眠质量！屏幕发出的蓝光会抑制褪黑激素的产生，但您的自然睡眠节律正在美丽地反弹。';
+      '睡前停止刷屏两周。屏幕蓝光会抑制褪黑激素分泌，而您的自然睡眠节律正在逐步恢复。';
 
   @override
   String get socialMediaMilestone30Title => '真正的朋友 > 虚假的赞 💝';
 
   @override
   String get socialMediaMilestone30Description =>
-      '离线一个月 = 孤独感和抑郁感显著减少！研究证明，限制社交媒体可以带来重大的心理健康改善。您已经走得更远了！';
+      '减少社交媒体使用一个月。研究显示，这与孤独感和抑郁感下降以及心理健康改善有关。您已经坚持得更进一步。';
 
   @override
   String get socialMediaMilestone60Title => '比较陷阱：逃脱！ ✨';
 
   @override
   String get socialMediaMilestone60Description =>
-      '两个月没有不断的社会比较 = 自信心爆棚！研究一致表明，社交媒体的使用与自尊心下降有关，尤其是来自向上的社会比较。您已经摆脱了比较陷阱！';
+      '减少持续的社交比较两个月。研究一直发现，社交媒体使用，尤其是向上比较，与较低的自尊相关。您正在摆脱这种比较习惯。';
 
   @override
   String get socialMediaMilestone90Title => '爱好收藏家等级：专家 🎨';
@@ -2274,14 +2273,14 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get socialMediaMilestone180Description =>
-      '离线六个月，您正式茁壮成长！长期研究表明，减少社交媒体的使用会导致幸福感、自尊心和生活满意度的持续改善。您是现实世界生活更美好的活生生的证明！';
+      '减少社交媒体使用六个月。长期研究显示，这与幸福感、自尊和生活满意度的持续改善有关。您正在把更多注意力和时间留给现实生活。';
 
   @override
   String get socialMediaMilestone365Title => '达成数字禅师成就 🏆';
 
   @override
   String get socialMediaMilestone365Description =>
-      '整整一年的有意生活！您已经收回了1000+小时，建立了更深的人际关系，并证明了生活中最好的时刻不是为了分享——而是为了体验。您正式成为数字健康传奇！';
+      '有意识地减少社交媒体整整一年。您已经收回1000多个小时，建立了更深的人际关系，也把更多最好的时刻留给亲身体验，而不是分享。这个里程碑非常值得庆祝。';
 
   @override
   String get nicotinePouchesMilestone1Title => '味觉和嗅觉开始恢复';
