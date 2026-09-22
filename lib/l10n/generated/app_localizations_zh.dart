@@ -1217,10 +1217,10 @@ class AppLocalizationsZh extends AppLocalizations {
   String get addictionSmokelessTobacco => '嚼烟 / 无烟烟草';
 
   @override
-  String get smokelessTobaccoPageTitle => '无烟自由';
+  String get smokelessTobaccoPageTitle => '告别无烟烟草';
 
   @override
-  String get smokelessTobaccoHeaderStarted => '无尼古丁之旅';
+  String get smokelessTobaccoHeaderStarted => '远离尼古丁的旅程';
 
   @override
   String get smokelessTobaccoHeaderNotStarted => '戒掉嚼烟和无烟烟草';
@@ -1732,13 +1732,13 @@ class AppLocalizationsZh extends AppLocalizations {
   String get alcoholSubtitleNotStarted => '准备好迎接更光明的自己了吗？ ✨';
 
   @override
-  String get vapingPageTitle => '无烟胜利';
+  String get vapingPageTitle => '戒电子烟的成果';
 
   @override
   String get vapingHeaderStarted => '前方晴空万里！';
 
   @override
-  String get vapingHeaderNotStarted => '无烟生活！';
+  String get vapingHeaderNotStarted => '开始远离电子烟的生活！';
 
   @override
   String get vapingSubtitleStarted => '呼吸顺畅，自由生活 🌬️';
@@ -2057,7 +2057,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get vapingMilestone14Description =>
-      '您的血液像冠军一样流动！尼古丁收缩血管，但两周无烟，您的循环显著改善。手脚冰凉，走开！';
+      '尼古丁会收缩血管。停用电子烟两周后，血液循环已明显改善，手脚冰凉也会逐渐缓解。';
 
   @override
   String get vapingMilestone30Title => '肺功能恢复';

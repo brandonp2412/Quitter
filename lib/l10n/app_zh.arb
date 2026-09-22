@@ -641,11 +641,11 @@
   "@addictionSmokelessTobacco": {
     "description": "Name of the smokeless tobacco addiction type"
   },
-  "smokelessTobaccoPageTitle": "无烟自由",
+  "smokelessTobaccoPageTitle": "告别无烟烟草",
   "@smokelessTobaccoPageTitle": {
     "description": "Page title for smokeless tobacco quit milestones"
   },
-  "smokelessTobaccoHeaderStarted": "无尼古丁之旅",
+  "smokelessTobaccoHeaderStarted": "远离尼古丁的旅程",
   "@smokelessTobaccoHeaderStarted": {
     "description": "Header shown when user has started quitting smokeless tobacco"
   },
@@ -1325,7 +1325,7 @@
   "@alcoholSubtitleNotStarted": {
     "description": "Subtitle for not started alcohol quit journey"
   },
-  "vapingPageTitle": "无烟胜利",
+  "vapingPageTitle": "戒电子烟的成果",
   "@vapingPageTitle": {
     "description": "Page title for vaping tracking"
   },
@@ -1333,7 +1333,7 @@
   "@vapingHeaderStarted": {
     "description": "Header for started vaping quit journey"
   },
-  "vapingHeaderNotStarted": "无烟生活！",
+  "vapingHeaderNotStarted": "开始远离电子烟的生活！",
   "@vapingHeaderNotStarted": {
     "description": "Header for not started vaping quit journey"
   },
@@ -1729,7 +1729,7 @@
   "@vapingMilestone14Title": {
     "description": "Vaping milestone day 14 title"
   },
-  "vapingMilestone14Description": "您的血液像冠军一样流动！尼古丁收缩血管，但两周无烟，您的循环显著改善。手脚冰凉，走开！",
+  "vapingMilestone14Description": "尼古丁会收缩血管。停用电子烟两周后，血液循环已明显改善，手脚冰凉也会逐渐缓解。",
   "@vapingMilestone14Description": {
     "description": "Vaping milestone day 14 description"
   },

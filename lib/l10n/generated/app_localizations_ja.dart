@@ -1218,10 +1218,10 @@ class AppLocalizationsJa extends AppLocalizations {
   String get addictionSmokelessTobacco => '嚙みタバコ / 無煙タバコ';
 
   @override
-  String get smokelessTobaccoPageTitle => 'タバコフリー';
+  String get smokelessTobaccoPageTitle => '無煙タバコ卒業';
 
   @override
-  String get smokelessTobaccoHeaderStarted => 'ニコチンフリーの旅';
+  String get smokelessTobaccoHeaderStarted => '無煙タバコをやめて前進';
 
   @override
   String get smokelessTobaccoHeaderNotStarted => '無煙タバコをやめよう';
@@ -1734,13 +1734,13 @@ class AppLocalizationsJa extends AppLocalizations {
   String get alcoholSubtitleNotStarted => '輝く自分になる準備はできていますか? ✨';
 
   @override
-  String get vapingPageTitle => 'ベイプフリーの勝利';
+  String get vapingPageTitle => '電子タバコ卒業';
 
   @override
   String get vapingHeaderStarted => '晴れやかな未来へ!';
 
   @override
-  String get vapingHeaderNotStarted => 'ベイプのない生活!';
+  String get vapingHeaderNotStarted => '電子タバコのない生活!';
 
   @override
   String get vapingSubtitleStarted => '楽に呼吸、自由に生きる 🌬️';
@@ -2059,7 +2059,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get vapingMilestone14Description =>
-      '血液がチャンピオンのように流れています！ニコチンは血管を収縮させますが、2週間ベイプフリーであなたの血行は劇的に改善しています。冷たい手足よ、さようなら！';
+      'ニコチンは血管を収縮させますが、電子タバコをやめて2週間で血行は大きく改善します。手足の冷えも和らいでいきます。';
 
   @override
   String get vapingMilestone30Title => '肺機能の回復';
@@ -2087,7 +2087,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get vapingMilestone180Description =>
-      'あなたの口がお礼状を送っています！ベイプフリー6ヶ月で歯茎の炎症が減少し、歯の着色が薄れ、口腔の健康問題のリスクが大幅に低下します。';
+      '電子タバコをやめて6ヶ月。歯茎の炎症が減り、歯の着色も薄くなり、口腔トラブルのリスクが大きく下がっています。';
 
   @override
   String get vapingMilestone365Title => '心血管リスクの低減';

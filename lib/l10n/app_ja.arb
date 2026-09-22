@@ -641,11 +641,11 @@
   "@addictionSmokelessTobacco": {
     "description": "Name of the smokeless tobacco addiction type"
   },
-  "smokelessTobaccoPageTitle": "タバコフリー",
+  "smokelessTobaccoPageTitle": "無煙タバコ卒業",
   "@smokelessTobaccoPageTitle": {
     "description": "Page title for smokeless tobacco quit milestones"
   },
-  "smokelessTobaccoHeaderStarted": "ニコチンフリーの旅",
+  "smokelessTobaccoHeaderStarted": "無煙タバコをやめて前進",
   "@smokelessTobaccoHeaderStarted": {
     "description": "Header shown when user has started quitting smokeless tobacco"
   },
@@ -1325,7 +1325,7 @@
   "@alcoholSubtitleNotStarted": {
     "description": "Subtitle for not started alcohol quit journey"
   },
-  "vapingPageTitle": "ベイプフリーの勝利",
+  "vapingPageTitle": "電子タバコ卒業",
   "@vapingPageTitle": {
     "description": "Page title for vaping tracking"
   },
@@ -1333,7 +1333,7 @@
   "@vapingHeaderStarted": {
     "description": "Header for started vaping quit journey"
   },
-  "vapingHeaderNotStarted": "ベイプのない生活!",
+  "vapingHeaderNotStarted": "電子タバコのない生活!",
   "@vapingHeaderNotStarted": {
     "description": "Header for not started vaping quit journey"
   },
@@ -1729,7 +1729,7 @@
   "@vapingMilestone14Title": {
     "description": "Vaping milestone day 14 title"
   },
-  "vapingMilestone14Description": "血液がチャンピオンのように流れています！ニコチンは血管を収縮させますが、2週間ベイプフリーであなたの血行は劇的に改善しています。冷たい手足よ、さようなら！",
+  "vapingMilestone14Description": "ニコチンは血管を収縮させますが、電子タバコをやめて2週間で血行は大きく改善します。手足の冷えも和らいでいきます。",
   "@vapingMilestone14Description": {
     "description": "Vaping milestone day 14 description"
   },
@@ -1761,7 +1761,7 @@
   "@vapingMilestone180Title": {
     "description": "Vaping milestone day 180 title"
   },
-  "vapingMilestone180Description": "あなたの口がお礼状を送っています！ベイプフリー6ヶ月で歯茎の炎症が減少し、歯の着色が薄れ、口腔の健康問題のリスクが大幅に低下します。",
+  "vapingMilestone180Description": "電子タバコをやめて6ヶ月。歯茎の炎症が減り、歯の着色も薄くなり、口腔トラブルのリスクが大きく下がっています。",
   "@vapingMilestone180Description": {
     "description": "Vaping milestone day 180 description"
   },
