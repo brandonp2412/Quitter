@@ -379,6 +379,11 @@ void main() {
       'тяга к еде',
       'тяге к еде',
       'физическому отстранению',
+      'симптомы аварии',
+      'две недели через',
+      'самая крутая часть',
+      'книжная полка ncbi',
+      'наркомания (2005)',
       'snri',
       'tca',
       'maoi',
@@ -393,6 +398,10 @@ void main() {
     );
     expect(russian['settingsNotifyAdderall'], isNot(contains(' adderall')));
     expect(russian['milestoneOpenOriginalSource'], 'Открыть первоисточник');
+    expect(
+      (russian['methReferenceDay730'] as String).toLowerCase(),
+      isNot(contains('алкогол')),
+    );
 
     for (final entry in russian.entries) {
       if (entry.key.startsWith('@') || entry.value is! String) {
