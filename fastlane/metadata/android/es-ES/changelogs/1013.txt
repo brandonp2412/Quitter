@@ -1,2 +1,2 @@
-• feat: añade traducción al chino simplificado
+• Añade traducción al chino simplificado
 • Corrige que los avisos nunca desaparecieran

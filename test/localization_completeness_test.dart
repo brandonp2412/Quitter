@@ -1214,6 +1214,28 @@ void main() {
     }
   });
 
+  test('localized in-app changelogs do not leak commit prefixes', () {
+    final commitPrefix = RegExp(
+      r'\b(?:build|chore|ci|docs|feat|fix|perf|refactor|test):\s+',
+      caseSensitive: false,
+    );
+
+    for (final locale in AppLocalizations.supportedLocales) {
+      if (locale.languageCode == 'en') continue;
+
+      final changelog = File(
+        'assets/changelogs/' + locale.languageCode + '.json',
+      ).readAsStringSync();
+      expect(
+        commitPrefix.firstMatch(changelog),
+        isNull,
+        reason:
+            locale.languageCode +
+            ' in-app changelog must not retain raw commit prefixes',
+      );
+    }
+  });
+
   test('localized Play changelogs do not leak English commit prose', () {
     final englishCommitScaffolding = RegExp(
       r'\b(?:chore|ci|fix|feat):\s+(?:remove|replace|use|add|fix|update|move|clean|switch|change)\b',
