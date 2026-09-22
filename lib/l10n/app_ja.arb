@@ -14,7 +14,7 @@
   "kratomMilestone7Description": "1週間までに、痛み、胃の不調、発汗などの最悪の身体的症状はほぼ消えています。睡眠とエネルギーはまだ回復途中です。",
   "kratomMilestone14Title": "気分と睡眠の回復",
   "kratomMilestone14Description": "2週間経つと、脳自身の報酬系化学物質が再バランスし始めるにつれて、睡眠がより確実になり気分も安定してきます。",
-  "kratomMilestone30Title": "1ヶ月クリーン",
+  "kratomMilestone30Title": "断って1か月",
   "kratomMilestone30Description": "1ヶ月で体は安定します：睡眠、食欲、エネルギーが著しく改善し、渇望も少なくなります。",
   "kratomMilestone90Title": "安定した基盤",
   "kratomMilestone90Description": "3ヶ月の断ち切りは、脳の報酬系とストレス回路に再調整のための十分な時間を与えます。気分、集中力、モチベーションが目に見えて安定します。",
@@ -35,10 +35,10 @@
   "gabapentinoidsMilestone7Description": "7〜10日目頃に急性症状は大幅に減少します。段階的な減量によりこの期間は管理可能になります。",
   "gabapentinoidsMilestone14Title": "睡眠と不安の安定",
   "gabapentinoidsMilestone14Description": "2週間経つと、神経系が薬なしで機能することに適応し、睡眠と普段の不安レベルが改善してきます。",
-  "gabapentinoidsMilestone30Title": "1ヶ月クリーン",
+  "gabapentinoidsMilestone30Title": "断薬して1か月",
   "gabapentinoidsMilestone30Description": "1ヶ月でほとんどの人は離脱を抜け出し、気分、睡眠、明晰さが安定します。残存症状は通常軽度です。",
   "gabapentinoidsMilestone90Title": "安定と適応",
-  "gabapentinoidsMilestone90Description": "3ヶ月クリーンで、神経系は完全に再調整されました。ほとんどの人は安定し、正常な睡眠と気分を取り戻します。",
+  "gabapentinoidsMilestone90Description": "断薬から3か月で、神経系は完全に再調整されます。ほとんどの人は安定し、通常の睡眠と気分を取り戻します。",
   "gabapentinoidsMilestone180Title": "半年の自由",
   "gabapentinoidsMilestone180Description": "6ヶ月の自由。薬は日常から完全に消え、リバウンド症状も解消されています。",
   "ghbPageTitle": "GHB回復",
@@ -119,10 +119,10 @@
   "synthetic_cannabinoidsMilestone7Description": "1週間までに最も激しい症状は和らいでいます。睡眠、心拍数、気分が落ち着き始めます。",
   "synthetic_cannabinoidsMilestone14Title": "睡眠と気分の安定",
   "synthetic_cannabinoidsMilestone14Description": "2週間経つと、睡眠と気分がより安定し、初期離脱の動悸は解消されています。",
-  "synthetic_cannabinoidsMilestone30Title": "1ヶ月クリーン",
+  "synthetic_cannabinoidsMilestone30Title": "使用をやめて1か月",
   "synthetic_cannabinoidsMilestone30Description": "1ヶ月でほとんどの離脱症状は解消されています。睡眠、気分、明晰さが著しく改善しています。",
   "synthetic_cannabinoidsMilestone90Title": "3ヶ月経過",
-  "synthetic_cannabinoidsMilestone90Description": "3ヶ月クリーンで、気分と睡眠は安定し渇望は稀です。脳のカンナビノイド系は再調整されています。",
+  "synthetic_cannabinoidsMilestone90Description": "使用をやめて3か月で、気分と睡眠は安定し、渇望はまれになります。脳のカンナビノイド系も再調整されています。",
   "synthetic_cannabinoidsMilestone180Title": "半年の自由",
   "synthetic_cannabinoidsMilestone180Description": "合成カンナビノイドなしの6ヶ月。離脱は長く解消され、これらの薬物の深刻なリスクは過去のものです。",
   "mdmaPageTitle": "MDMA回復",
@@ -140,7 +140,7 @@
   "mdmaMilestone7Description": "大量使用後、離脱様症状（気分低下、集中力不足、渇望）は改善するまでに約1週間続くことがあります。",
   "mdmaMilestone14Title": "2週間経過",
   "mdmaMilestone14Description": "2週間の断ち切りは通常、セロトニン系の回復に伴い気分、睡眠、集中力に明確な改善をもたらします。",
-  "mdmaMilestone30Title": "1ヶ月クリーン",
+  "mdmaMilestone30Title": "使用をやめて1か月",
   "mdmaMilestone30Description": "1ヶ月経つと、気分と思考はかなり安定します。MDMAを使わない状態を続ける間も、脳のセロトニン再取り込み系は回復を続けます。",
   "mdmaMilestone90Title": "3ヶ月経過",
   "mdmaMilestone90Description": "3ヶ月の断ち切りは継続的なセロトニン系の回復を支えます。気分と睡眠は安定しており、不安はその後の数ヶ月で和らぎます。",
@@ -1312,7 +1312,7 @@
   "@alcoholHeaderStarted": {
     "description": "Header for started alcohol quit journey"
   },
-  "alcoholHeaderNotStarted": "クリーンな旅の始まり!",
+  "alcoholHeaderNotStarted": "断酒への一歩を踏み出そう！",
   "@alcoholHeaderNotStarted": {
     "description": "Header for not started alcohol quit journey"
   },
@@ -1872,7 +1872,7 @@
   "@opioidMilestone30Title": {
     "description": "Opioid milestone day 30 title"
   },
-  "opioidMilestone30Description": "頭のもやが晴れてきます！1ヶ月クリーンになると、オピオイドによる変化から脳の前方部分が回復するにつれて、記憶、意思決定、明晰な思考が改善していきます。",
+  "opioidMilestone30Description": "頭のもやが晴れてきます！オピオイドを断って1か月たつと、オピオイドによる変化から脳の前方部分が回復するにつれて、記憶、意思決定、明晰な思考が改善していきます。",
   "@opioidMilestone30Description": {
     "description": "Opioid milestone day 30 description"
   },
@@ -1888,7 +1888,7 @@
   "@opioidMilestone90Title": {
     "description": "Opioid milestone day 90 title"
   },
-  "opioidMilestone90Description": "脳の報酬系がウェルカムバックパーティーを開いています！3ヶ月クリーンでドーパミン機能が大幅に改善しました。自然な活動が再び報酬的に感じられるようになります - 食事、音楽、人間関係。",
+  "opioidMilestone90Description": "脳の報酬系が回復を始めています！オピオイドを断って3か月たつと、ドーパミン機能は大きく改善します。食事や音楽、人とのつながりなど、日常のことに再び喜びを感じられるようになります。",
   "@opioidMilestone90Description": {
     "description": "Opioid milestone day 90 description"
   },

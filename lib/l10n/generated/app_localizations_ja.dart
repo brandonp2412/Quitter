@@ -59,7 +59,7 @@ class AppLocalizationsJa extends AppLocalizations {
       '2週間経つと、脳自身の報酬系化学物質が再バランスし始めるにつれて、睡眠がより確実になり気分も安定してきます。';
 
   @override
-  String get kratomMilestone30Title => '1ヶ月クリーン';
+  String get kratomMilestone30Title => '断って1か月';
 
   @override
   String get kratomMilestone30Description =>
@@ -130,7 +130,7 @@ class AppLocalizationsJa extends AppLocalizations {
       '2週間経つと、神経系が薬なしで機能することに適応し、睡眠と普段の不安レベルが改善してきます。';
 
   @override
-  String get gabapentinoidsMilestone30Title => '1ヶ月クリーン';
+  String get gabapentinoidsMilestone30Title => '断薬して1か月';
 
   @override
   String get gabapentinoidsMilestone30Description =>
@@ -141,7 +141,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get gabapentinoidsMilestone90Description =>
-      '3ヶ月クリーンで、神経系は完全に再調整されました。ほとんどの人は安定し、正常な睡眠と気分を取り戻します。';
+      '断薬から3か月で、神経系は完全に再調整されます。ほとんどの人は安定し、通常の睡眠と気分を取り戻します。';
 
   @override
   String get gabapentinoidsMilestone180Title => '半年の自由';
@@ -414,7 +414,7 @@ class AppLocalizationsJa extends AppLocalizations {
       '2週間経つと、睡眠と気分がより安定し、初期離脱の動悸は解消されています。';
 
   @override
-  String get synthetic_cannabinoidsMilestone30Title => '1ヶ月クリーン';
+  String get synthetic_cannabinoidsMilestone30Title => '使用をやめて1か月';
 
   @override
   String get synthetic_cannabinoidsMilestone30Description =>
@@ -425,7 +425,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get synthetic_cannabinoidsMilestone90Description =>
-      '3ヶ月クリーンで、気分と睡眠は安定し渇望は稀です。脳のカンナビノイド系は再調整されています。';
+      '使用をやめて3か月で、気分と睡眠は安定し、渇望はまれになります。脳のカンナビノイド系も再調整されています。';
 
   @override
   String get synthetic_cannabinoidsMilestone180Title => '半年の自由';
@@ -485,7 +485,7 @@ class AppLocalizationsJa extends AppLocalizations {
       '2週間の断ち切りは通常、セロトニン系の回復に伴い気分、睡眠、集中力に明確な改善をもたらします。';
 
   @override
-  String get mdmaMilestone30Title => '1ヶ月クリーン';
+  String get mdmaMilestone30Title => '使用をやめて1か月';
 
   @override
   String get mdmaMilestone30Description =>
@@ -1722,7 +1722,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get alcoholHeaderStarted => 'よく頑張りました!';
 
   @override
-  String get alcoholHeaderNotStarted => 'クリーンな旅の始まり!';
+  String get alcoholHeaderNotStarted => '断酒への一歩を踏み出そう！';
 
   @override
   String get alcoholSubtitleStarted => '毎日が勝利です 🥳';
@@ -2182,7 +2182,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get opioidMilestone30Description =>
-      '頭のもやが晴れてきます！1ヶ月クリーンになると、オピオイドによる変化から脳の前方部分が回復するにつれて、記憶、意思決定、明晰な思考が改善していきます。';
+      '頭のもやが晴れてきます！オピオイドを断って1か月たつと、オピオイドによる変化から脳の前方部分が回復するにつれて、記憶、意思決定、明晰な思考が改善していきます。';
 
   @override
   String get opioidMilestone60Title => '感情調節が改善';
@@ -2196,7 +2196,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get opioidMilestone90Description =>
-      '脳の報酬系がウェルカムバックパーティーを開いています！3ヶ月クリーンでドーパミン機能が大幅に改善しました。自然な活動が再び報酬的に感じられるようになります - 食事、音楽、人間関係。';
+      '脳の報酬系が回復を始めています！オピオイドを断って3か月たつと、ドーパミン機能は大きく改善します。食事や音楽、人とのつながりなど、日常のことに再び喜びを感じられるようになります。';
 
   @override
   String get opioidMilestone180Title => '免疫システムが強化';

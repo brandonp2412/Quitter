@@ -388,6 +388,7 @@ void main() {
       '使い捨てのコメダウン',
       '禁欲的なイメージング',
       ' on PubMed',
+      'クリーン',
     };
 
     for (final entry in japanese.entries) {
