@@ -663,9 +663,17 @@ void main() {
       '禁断進捗',
       '禁止ページ',
       '禁止開始日',
+      '1年間の自由',
+      '半年の自由',
+      '6ヶ月の自由',
+      '2週間フリー',
+      '3ヶ月フリー',
+      'パウチフリー',
     };
 
     expect(japanese['addictionMeth'], 'メタンフェタミン');
+    expect(japanese['nicotinePouchesPageTitle'], 'ニコチンパウチ卒業');
+    expect(japanese['nicotinePouchesHeaderNotStarted'], 'パウチをやめて前進!');
     expect(japanese['addictionBenzos'], 'ベンゾジアゼピン');
     expect(japanese['settingsShowMethTracking'], 'メタンフェタミンの記録を表示');
     expect(japanese['settingsShowBenzosSubtitle'], 'ベンゾジアゼピンの記録を表示');
@@ -927,9 +935,19 @@ void main() {
       '街头所称的“speed”',
       '大量使用者',
       '多巴胺水平下降的大脑',
+      '一年自由',
+      '自由半年',
+      '六个月自由',
+      '两周自由',
+      '三个月自由',
+      '无袋力量',
+      '无袋进步',
+      '没有袋子',
     };
 
     expect(chinese['hideDialogTitle'], '隐藏 {title}？');
+    expect(chinese['nicotinePouchesPageTitle'], '告别尼古丁袋');
+    expect(chinese['nicotinePouchesHeaderNotStarted'], '告别尼古丁袋，继续前进！');
     expect(chinese['settingsDynamicColorScheme'], '动态配色');
     expect(chinese['settingsResetButtonsSubtitle'], '在各追踪页面显示重置按钮');
     expect(chinese['settingsResetMessagesSubtitle'], '重新开始后显示鼓励消息');

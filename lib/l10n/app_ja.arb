@@ -18,7 +18,7 @@
   "kratomMilestone30Description": "1ヶ月で体は安定します：睡眠、食欲、エネルギーが著しく改善し、渇望も少なくなります。",
   "kratomMilestone90Title": "安定した基盤",
   "kratomMilestone90Description": "クラトムを断って3か月たつと、脳の報酬系とストレス回路が再調整されるための十分な時間が得られます。気分、集中力、意欲が目に見えて安定します。",
-  "kratomMilestone365Title": "1年間の自由",
+  "kratomMilestone365Title": "やめて1年",
   "kratomMilestone365Description": "クラトムなしの丸1年。オピオイド系は長く再調整され、渇望は稀で、習慣が日々を支配することはなくなりました。",
   "gabapentinoidsPageTitle": "ガバペンチノイド回復",
   "gabapentinoidsHeaderStarted": "あなたの回復の旅",
@@ -39,8 +39,8 @@
   "gabapentinoidsMilestone30Description": "1ヶ月でほとんどの人は離脱を抜け出し、気分、睡眠、明晰さが安定します。残存症状は通常軽度です。",
   "gabapentinoidsMilestone90Title": "安定と適応",
   "gabapentinoidsMilestone90Description": "断薬から3か月で、神経系は完全に再調整されます。ほとんどの人は安定し、通常の睡眠と気分を取り戻します。",
-  "gabapentinoidsMilestone180Title": "半年の自由",
-  "gabapentinoidsMilestone180Description": "6ヶ月の自由。薬は日常から完全に消え、リバウンド症状も解消されています。",
+  "gabapentinoidsMilestone180Title": "やめて半年",
+  "gabapentinoidsMilestone180Description": "使用をやめて6ヶ月。薬は日常生活からなくなり、反跳症状も解消されています。",
   "ghbPageTitle": "GHB回復",
   "ghbHeaderStarted": "あなたの回復の旅",
   "ghbHeaderNotStarted": "GHBをやめるメリット",
@@ -60,7 +60,7 @@
   "ghbMilestone30Description": "1ヶ月経つと、危険な初期離脱期はすでに大きく過ぎています。残る不安、睡眠の問題、気分の落ち込みも引き続き改善していきます。",
   "ghbMilestone90Title": "残る症状が薄れる",
   "ghbMilestone90Description": "3ヶ月経つと、脳の鎮静を担うGABA系が落ち着くにつれて、残っていた不安、睡眠、気分の症状が和らいでいきます。",
-  "ghbMilestone180Title": "半年の自由",
+  "ghbMilestone180Title": "やめて半年",
   "ghbMilestone180Description": "GHBなしで6ヶ月。長引いていた離脱症状はほぼ解消し、気分、睡眠、明晰な思考が通常の状態に戻っています。",
   "ketaminePageTitle": "ケタミン回復",
   "ketamineHeaderStarted": "あなたの回復の旅",
@@ -79,9 +79,9 @@
   "ketamineMilestone30Description": "1ヶ月経つと、早期の膀胱損傷は中止後に改善し始めることがよくあります。気分と思考もより明晰になります。",
   "ketamineMilestone90Title": "3ヶ月経過",
   "ketamineMilestone90Description": "ケタミンなしで3ヶ月過ごすことで、膀胱にはさらに回復する時間ができ、思考と気分も改善を続けます。渇望の頻度も減っていきます。",
-  "ketamineMilestone180Title": "半年の自由",
-  "ketamineMilestone180Description": "6ヶ月の自由。膀胱症状は改善するための十分な時間を得ており、ケタミンへの心理的引力はかなり弱まっています。",
-  "ketamineMilestone365Title": "1年間の自由",
+  "ketamineMilestone180Title": "やめて半年",
+  "ketamineMilestone180Description": "ケタミンをやめて6ヶ月。膀胱症状は長期的に改善し、ケタミンへの心理的な欲求もかなり弱まっています。",
+  "ketamineMilestone365Title": "やめて1年",
   "ketamineMilestone365Description": "ケタミンなしで1年。思考と気分、そして膀胱損傷が早期に見つかった場合は膀胱機能にも、丸1年の回復期間が与えられました。",
   "inhalantsPageTitle": "吸入剤回復",
   "inhalantsHeaderStarted": "あなたの回復の旅",
@@ -123,7 +123,7 @@
   "synthetic_cannabinoidsMilestone30Description": "1ヶ月でほとんどの離脱症状は解消されています。睡眠、気分、明晰さが著しく改善しています。",
   "synthetic_cannabinoidsMilestone90Title": "3ヶ月経過",
   "synthetic_cannabinoidsMilestone90Description": "使用をやめて3か月で、気分と睡眠は安定し、渇望はまれになります。脳のカンナビノイド系も再調整されています。",
-  "synthetic_cannabinoidsMilestone180Title": "半年の自由",
+  "synthetic_cannabinoidsMilestone180Title": "やめて半年",
   "synthetic_cannabinoidsMilestone180Description": "合成カンナビノイドなしの6ヶ月。離脱は長く解消され、これらの薬物の深刻なリスクは過去のものです。",
   "mdmaPageTitle": "MDMA回復",
   "mdmaHeaderStarted": "あなたの回復の旅",
@@ -144,7 +144,7 @@
   "mdmaMilestone30Description": "1ヶ月経つと、気分と思考はかなり安定します。MDMAを使わない状態を続ける間も、脳のセロトニン再取り込み系は回復を続けます。",
   "mdmaMilestone90Title": "3ヶ月経過",
   "mdmaMilestone90Description": "使用をやめて3か月たつと、セロトニン系の回復がさらに進みます。気分と睡眠は安定し、不安もその後の数か月で和らいでいきます。",
-  "mdmaMilestone365Title": "1年間の自由",
+  "mdmaMilestone365Title": "やめて1年",
   "mdmaMilestone365Description": "MDMAなしの1年。セロトニン機能と気分は回復するための十分な時間を得ており、使用に関連する不安は通常この頃までに解消します。",
   "steroidsPageTitle": "アナボリックステロイド回復",
   "steroidsHeaderStarted": "あなたの回復の旅",
@@ -1385,15 +1385,15 @@
   "@marijuanaSubtitleNotStarted": {
     "description": "Subtitle for not started marijuana quit journey"
   },
-  "nicotinePouchesPageTitle": "パウチフリーのパワー",
+  "nicotinePouchesPageTitle": "ニコチンパウチ卒業",
   "@nicotinePouchesPageTitle": {
     "description": "Page title for nicotine pouches tracking"
   },
-  "nicotinePouchesHeaderStarted": "爽快で自由!",
+  "nicotinePouchesHeaderStarted": "パウチなしで爽快!",
   "@nicotinePouchesHeaderStarted": {
     "description": "Header for started nicotine pouches quit journey"
   },
-  "nicotinePouchesHeaderNotStarted": "パウチフリーの進歩!",
+  "nicotinePouchesHeaderNotStarted": "パウチをやめて前進!",
   "@nicotinePouchesHeaderNotStarted": {
     "description": "Header for not started nicotine pouches quit journey"
   },
@@ -1993,7 +1993,7 @@
   "@nicotinePouchesMilestone1Title": {
     "description": "Nicotine pouches milestone day 1 title"
   },
-  "nicotinePouchesMilestone1Description": "ニコチンは味蕾と嗅覚受容体を鈍らせます。パウチなしでわずか24時間後、これらの感覚がカムバックツアーを開始します！食べ物がまた美味しくなろうとしています。",
+  "nicotinePouchesMilestone1Description": "ニコチンは味蕾と嗅覚受容体の働きを鈍らせます。パウチをやめてわずか24時間で、味覚と嗅覚が回復し始めます。食べ物の味も少しずつ鮮明になってきます。",
   "@nicotinePouchesMilestone1Description": {
     "description": "Nicotine pouches milestone day 1 description"
   },
@@ -2001,7 +2001,7 @@
   "@nicotinePouchesMilestone3Title": {
     "description": "Nicotine pouches milestone day 3 title"
   },
-  "nicotinePouchesMilestone3Description": "体が正式にすべてのニコチンを追い出しました！離脱症状は今頃ピークかもしれませんが、覚えておいてください - これはあなたの脳が自由のために自らをリワイヤリングしているのです。最も困難な部分はほぼ終わりです。",
+  "nicotinePouchesMilestone3Description": "体内のニコチンはほぼ排出されました。離脱症状はこの頃に強くなることがありますが、脳はニコチンなしの状態に適応し始めています。つらい時期はもう少しです。",
   "@nicotinePouchesMilestone3Description": {
     "description": "Nicotine pouches milestone day 3 description"
   },
@@ -2017,7 +2017,7 @@
   "@nicotinePouchesMilestone14Title": {
     "description": "Nicotine pouches milestone day 14 title"
   },
-  "nicotinePouchesMilestone14Description": "血管がハッピーダンスをしています！ニコチンは血管を収縮させますが、2週間フリーであなたの血行は大幅に改善されています。こんにちは、温かい手足！",
+  "nicotinePouchesMilestone14Description": "血管も回復中です。ニコチンは血管を収縮させますが、ニコチンなしで2週間が経つと血流が大きく改善します。手足の冷えも和らいでいきます。",
   "@nicotinePouchesMilestone14Description": {
     "description": "Nicotine pouches milestone day 14 description"
   },
@@ -2025,7 +2025,7 @@
   "@nicotinePouchesMilestone30Title": {
     "description": "Nicotine pouches milestone day 30 title"
   },
-  "nicotinePouchesMilestone30Description": "どんでん返し：ニコチンは実は使用と使用の間のストレスを高めます！コルチゾールとストレス反応は正常に戻りつつあります。ニコチンによる見せかけではない、本当のリラックスです。",
+  "nicotinePouchesMilestone30Description": "意外かもしれませんが、ニコチンは使用間隔のストレスを高めることがあります。コルチゾールとストレス反応は正常化に向かっています。ニコチンに頼らない、本来のリラックスを取り戻しつつあります。",
   "@nicotinePouchesMilestone30Description": {
     "description": "Nicotine pouches milestone day 30 description"
   },
@@ -2033,7 +2033,7 @@
   "@nicotinePouchesMilestone60Title": {
     "description": "Nicotine pouches milestone day 60 title"
   },
-  "nicotinePouchesMilestone60Description": "甘い夢は...ニコチンなしで作られます！ニコチンはリラックスするように見えますが、実際には睡眠構造を乱します。2ヶ月経ち、REMサイクルが美しく回復しました。",
+  "nicotinePouchesMilestone60Description": "ニコチンなしの睡眠が定着してきます。ニコチンは一時的に落ち着くように感じても、実際には睡眠構造を乱します。2ヶ月が経ち、REM睡眠のリズムも回復してきています。",
   "@nicotinePouchesMilestone60Description": {
     "description": "Nicotine pouches milestone day 60 description"
   },
@@ -2041,7 +2041,7 @@
   "@nicotinePouchesMilestone90Title": {
     "description": "Nicotine pouches milestone day 90 title"
   },
-  "nicotinePouchesMilestone90Description": "脳の報酬系がオンラインに戻りました！ニコチンはドーパミン経路をハイジャックし、通常の喜びを鈍く感じさせます。3ヶ月フリーで、人生の自然な喜びが再び鮮やかになりました。",
+  "nicotinePouchesMilestone90Description": "脳の報酬系が回復してきました。ニコチンはドーパミン経路に影響し、普段の楽しみを感じにくくさせます。ニコチンなしで3ヶ月が経ち、日常の自然な喜びを感じやすくなっています。",
   "@nicotinePouchesMilestone90Description": {
     "description": "Nicotine pouches milestone day 90 description"
   },
@@ -2049,7 +2049,7 @@
   "@nicotinePouchesMilestone180Title": {
     "description": "Nicotine pouches milestone day 180 title"
   },
-  "nicotinePouchesMilestone180Description": "心臓がラブレターを送っています！ニコチンなしで6ヶ月、心血管疾患のリスクが大幅に減少しています。血圧と心拍変動性が大幅に改善しました。",
+  "nicotinePouchesMilestone180Description": "ニコチンなしで6ヶ月。心血管疾患のリスクは大きく低下し、血圧や心拍変動も改善しています。",
   "@nicotinePouchesMilestone180Description": {
     "description": "Nicotine pouches milestone day 180 description"
   },
@@ -2057,7 +2057,7 @@
   "@nicotinePouchesMilestone365Title": {
     "description": "Nicotine pouches milestone day 365 title"
   },
-  "nicotinePouchesMilestone365Description": "自由の1年！ニコチン関連の健康問題のリスクは減少し続けています。依存のサイクルを断ち切り、自律性を取り戻しました。これは本当に英雄的です！ 🏆",
+  "nicotinePouchesMilestone365Description": "ニコチンパウチをやめて1年！ニコチン関連の健康リスクは低下し続けています。依存のサイクルを断ち切り、自分の選択を取り戻しました。大きな成果です！ 🏆",
   "@nicotinePouchesMilestone365Description": {
     "description": "Nicotine pouches milestone day 365 description"
   },
@@ -2416,7 +2416,7 @@
   "ketamineReferenceDay30": "ケタミンを断って1ヶ月\n\n出典：「Prevalence and Natural History of Urinary Symptoms Among Recreational Ketamine Users」、Winstock et al.、BJU International (2012)\n\n膀胱の回復\nケタミン誘発性膀胱炎の唯一最も重要な治療は、ケタミンをやめることです。娯楽目的のケタミン使用者を対象としたこの研究では、尿路症状のある人の51%が使用中止後に改善を報告した一方、悪化したのは4%未満でした。やめるのが早いほど結果は良好です。\n\n心と気分\n1ヶ月時点で、認知と気分は引き続きクリアになっていきます。心理的・社会的サポートは断薬を維持できる確率を有意に高めます—中止はサポートがあるときに最もよく機能します。",
   "ketamineReferenceDay90": "ケタミンを断って3ヶ月\n\n出典：「Ketamine-Induced Cystitis: A Comprehensive Review」、PubMed Central\n\n回復の継続\nケタミン後の膀胱回復はしばしば緩やかです。レビューでは、中止後に症状の重症度が改善するものの、長引き変動し得ると説明されています。3ヶ月は、反応する症例において尿路に持続的な治癒時間を与えます。\n\n心\n明晰な思考と気分は断薬初期よりはるかにクリアで、渇望の頻度も減っています。持続的または重度の膀胱症状は、泌尿器科医による評価を受けるべきです。",
   "ketamineReferenceDay180": "ケタミンを断って6ヶ月\n\n出典：「Ketamine-Induced Cystitis: A Comprehensive Review」、PubMed Central\n\n半年経過\n断薬の継続によって、中止に反応する症例では膀胱症状が改善を続け、思考と記憶と気分は安定しています。使用への衝動はかなり弱まっています。\n\n回復のサイン\n既に確立した膀胱損傷の回復は不完全なことがあります。だからこそ早期の中止が非常に重要です。どの段階でやめたとしても、断ち続けることが膀胱にとって最善の結果をもたらします。",
-  "ketamineReferenceDay365": "ケタミンを断って1年\n\n出典：「Ketamine-Induced Cystitis: A Comprehensive Review」、PubMed Central\n\n1年経過\n12ヶ月の断薬は、早期に発見された症例では膀胱に回復する最大限の機会を与え、思考と記憶と気分を安定して明晰に保ちます。やめることを難しくしていた心理的依存はほぼ消えています。\n\nより大きな視点\n1年間の自由は、身体の健康、明晰さ、自己決定において深い変化です。ここまで来られた支えを保つことが、その変化を守ります。",
+  "ketamineReferenceDay365": "ケタミンを断って1年\n\n出典：「Ketamine-Induced Cystitis: A Comprehensive Review」、PubMed Central\n\n1年経過\n12ヶ月の断薬は、早期に発見された症例では膀胱に回復する最大限の機会を与え、思考と記憶と気分を安定して明晰に保ちます。やめることを難しくしていた心理的依存はほぼ消えています。\n\nより大きな視点\n1年間ケタミンを使わずに過ごせたことは、身体の健康、思考の明晰さ、自分で選択する力に大きな変化をもたらします。ここまで支えてくれた仕組みを続けることが、その変化を守ります。",
   "kratomReferenceDay1": "クラトム離脱：最初の1日\n\n出典：Swogger et al. (2022), \"Understanding Kratom Use: A Guide for Healthcare Providers,\" Frontiers in Pharmacology\n\n離脱が起こる理由\nクラトムの有効成分は、古典的なオピオイドと同じオピオイド受容体に作用します。習慣的に使用すると体が適応するため、やめるとオピオイド様の離脱が生じます。この臨床ガイドは、依存と離脱を習慣的なクラトム使用の認識されたリスクとして説明しています。\n\n発症についてエビデンスが示すこと\nガイドで引用された動物研究では、身体的離脱の兆候が約12時間以内に現れ、24時間までに不安様の影響が明らかになります。ヒトでの正確な発症タイミングはあまり確立されていませんが、一般的に報告される初期症状には以下が含まれます：\n• 落ち着きのなさ、不安、イライラ\n• 筋肉痛と鼻水\n• 発汗と涙目\n• 渇望\n\n重症度に関する注意\nガイドは、使用期間が長く用量が高いほど、より重度で長く続く離脱と関連すると指摘しています。特にクラトムを高用量またはオピオイドと併用していた場合は、医療監督下のサポートを求める価値があります。",
   "kratomReferenceDay3": "クラトム離脱：最も辛い日々\n\n出典：Singh et al. (2014)、Drug and Alcohol Dependence — マレーシアの習慣的クラトム使用者293人を対象とした調査\n\nエビデンスが示すこと\n単一の「ピーク日」ではなく、この調査は離脱の重症度が使用量と使用期間に比例することを発見しました：毎日3杯以上のクラトムを飲む人は、重度の依存とより困難な離脱のオッズが有意に高くなりました。ほとんどの人にとって、やめてからの最初の数日が最も辛い時期です。\n\n一般的に報告される症状\n• 筋肉痛と関節痛、むずむず脚\n• 疲弊しているにもかかわらず不眠\n• 吐き気、胃けいれん、下痢\n• 不安、気分の落ち込み、イライラ\n• 強い渇望\n\n乗り切るには\n水分補給、休息、対症的なサポートが助けになります。これまでの離脱が重く感じられるとしても、それは何かが異常に間違っているのではなく、より大量・長期間の使用と一致しており、ここから和らぐ傾向にあります。",
   "kratomReferenceDay7": "クラトムを断って1週間\n\n出典：Swogger et al. (2022), \"Understanding Kratom Use: A Guide for Healthcare Providers,\" Frontiers in Pharmacology\n\n急性期を過ぎて\nこのガイドで引用されたヒトの自己報告データは、やめた人のほとんどで離脱症状が約1〜3日以内に解消することを示しています。1週間までに、急性の身体的症状—筋肉痛、発汗、吐き気—は大多数で落ち着いています。残り得るのはより心理的なものです：クラトムが刺激していたオピオイド受容体が体自身のシグナルに再調整される間の、疲労、乱れた睡眠、気分の落ち込み。\n\n実際のリスク\nガイドはまた、少数の人々がクラトムをやめるのが非常に難しく、より大量・長期の使用者ではより重度で長く続く離脱が報告されることも指摘しています。この週は再発の多い時期であり、耐性は急速に低下します—以前の用量に戻ることは、特にオピオイドが関与している場合、今や本当に危険です。",

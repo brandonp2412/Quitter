@@ -73,7 +73,7 @@ class AppLocalizationsJa extends AppLocalizations {
       'クラトムを断って3か月たつと、脳の報酬系とストレス回路が再調整されるための十分な時間が得られます。気分、集中力、意欲が目に見えて安定します。';
 
   @override
-  String get kratomMilestone365Title => '1年間の自由';
+  String get kratomMilestone365Title => 'やめて1年';
 
   @override
   String get kratomMilestone365Description =>
@@ -144,11 +144,11 @@ class AppLocalizationsJa extends AppLocalizations {
       '断薬から3か月で、神経系は完全に再調整されます。ほとんどの人は安定し、通常の睡眠と気分を取り戻します。';
 
   @override
-  String get gabapentinoidsMilestone180Title => '半年の自由';
+  String get gabapentinoidsMilestone180Title => 'やめて半年';
 
   @override
   String get gabapentinoidsMilestone180Description =>
-      '6ヶ月の自由。薬は日常から完全に消え、リバウンド症状も解消されています。';
+      '使用をやめて6ヶ月。薬は日常生活からなくなり、反跳症状も解消されています。';
 
   @override
   String get ghbPageTitle => 'GHB回復';
@@ -215,7 +215,7 @@ class AppLocalizationsJa extends AppLocalizations {
       '3ヶ月経つと、脳の鎮静を担うGABA系が落ち着くにつれて、残っていた不安、睡眠、気分の症状が和らいでいきます。';
 
   @override
-  String get ghbMilestone180Title => '半年の自由';
+  String get ghbMilestone180Title => 'やめて半年';
 
   @override
   String get ghbMilestone180Description =>
@@ -279,14 +279,14 @@ class AppLocalizationsJa extends AppLocalizations {
       'ケタミンなしで3ヶ月過ごすことで、膀胱にはさらに回復する時間ができ、思考と気分も改善を続けます。渇望の頻度も減っていきます。';
 
   @override
-  String get ketamineMilestone180Title => '半年の自由';
+  String get ketamineMilestone180Title => 'やめて半年';
 
   @override
   String get ketamineMilestone180Description =>
-      '6ヶ月の自由。膀胱症状は改善するための十分な時間を得ており、ケタミンへの心理的引力はかなり弱まっています。';
+      'ケタミンをやめて6ヶ月。膀胱症状は長期的に改善し、ケタミンへの心理的な欲求もかなり弱まっています。';
 
   @override
-  String get ketamineMilestone365Title => '1年間の自由';
+  String get ketamineMilestone365Title => 'やめて1年';
 
   @override
   String get ketamineMilestone365Description =>
@@ -428,7 +428,7 @@ class AppLocalizationsJa extends AppLocalizations {
       '使用をやめて3か月で、気分と睡眠は安定し、渇望はまれになります。脳のカンナビノイド系も再調整されています。';
 
   @override
-  String get synthetic_cannabinoidsMilestone180Title => '半年の自由';
+  String get synthetic_cannabinoidsMilestone180Title => 'やめて半年';
 
   @override
   String get synthetic_cannabinoidsMilestone180Description =>
@@ -499,7 +499,7 @@ class AppLocalizationsJa extends AppLocalizations {
       '使用をやめて3か月たつと、セロトニン系の回復がさらに進みます。気分と睡眠は安定し、不安もその後の数か月で和らいでいきます。';
 
   @override
-  String get mdmaMilestone365Title => '1年間の自由';
+  String get mdmaMilestone365Title => 'やめて1年';
 
   @override
   String get mdmaMilestone365Description =>
@@ -1779,13 +1779,13 @@ class AppLocalizationsJa extends AppLocalizations {
   String get marijuanaSubtitleNotStarted => 'クリアな明日への準備はできていますか? 🌱';
 
   @override
-  String get nicotinePouchesPageTitle => 'パウチフリーのパワー';
+  String get nicotinePouchesPageTitle => 'ニコチンパウチ卒業';
 
   @override
-  String get nicotinePouchesHeaderStarted => '爽快で自由!';
+  String get nicotinePouchesHeaderStarted => 'パウチなしで爽快!';
 
   @override
-  String get nicotinePouchesHeaderNotStarted => 'パウチフリーの進歩!';
+  String get nicotinePouchesHeaderNotStarted => 'パウチをやめて前進!';
 
   @override
   String get nicotinePouchesSubtitleStarted => 'より明るく健康的な自分を受け入れましょう ✨';
@@ -2290,14 +2290,14 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get nicotinePouchesMilestone1Description =>
-      'ニコチンは味蕾と嗅覚受容体を鈍らせます。パウチなしでわずか24時間後、これらの感覚がカムバックツアーを開始します！食べ物がまた美味しくなろうとしています。';
+      'ニコチンは味蕾と嗅覚受容体の働きを鈍らせます。パウチをやめてわずか24時間で、味覚と嗅覚が回復し始めます。食べ物の味も少しずつ鮮明になってきます。';
 
   @override
   String get nicotinePouchesMilestone3Title => 'ニコチンが完全に排出';
 
   @override
   String get nicotinePouchesMilestone3Description =>
-      '体が正式にすべてのニコチンを追い出しました！離脱症状は今頃ピークかもしれませんが、覚えておいてください - これはあなたの脳が自由のために自らをリワイヤリングしているのです。最も困難な部分はほぼ終わりです。';
+      '体内のニコチンはほぼ排出されました。離脱症状はこの頃に強くなることがありますが、脳はニコチンなしの状態に適応し始めています。つらい時期はもう少しです。';
 
   @override
   String get nicotinePouchesMilestone7Title => '口腔の健康が改善';
@@ -2311,42 +2311,42 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get nicotinePouchesMilestone14Description =>
-      '血管がハッピーダンスをしています！ニコチンは血管を収縮させますが、2週間フリーであなたの血行は大幅に改善されています。こんにちは、温かい手足！';
+      '血管も回復中です。ニコチンは血管を収縮させますが、ニコチンなしで2週間が経つと血流が大きく改善します。手足の冷えも和らいでいきます。';
 
   @override
   String get nicotinePouchesMilestone30Title => 'ストレス反応が正常化';
 
   @override
   String get nicotinePouchesMilestone30Description =>
-      'どんでん返し：ニコチンは実は使用と使用の間のストレスを高めます！コルチゾールとストレス反応は正常に戻りつつあります。ニコチンによる見せかけではない、本当のリラックスです。';
+      '意外かもしれませんが、ニコチンは使用間隔のストレスを高めることがあります。コルチゾールとストレス反応は正常化に向かっています。ニコチンに頼らない、本来のリラックスを取り戻しつつあります。';
 
   @override
   String get nicotinePouchesMilestone60Title => '睡眠の質が改善';
 
   @override
   String get nicotinePouchesMilestone60Description =>
-      '甘い夢は...ニコチンなしで作られます！ニコチンはリラックスするように見えますが、実際には睡眠構造を乱します。2ヶ月経ち、REMサイクルが美しく回復しました。';
+      'ニコチンなしの睡眠が定着してきます。ニコチンは一時的に落ち着くように感じても、実際には睡眠構造を乱します。2ヶ月が経ち、REM睡眠のリズムも回復してきています。';
 
   @override
   String get nicotinePouchesMilestone90Title => 'ドーパミン受容体が回復';
 
   @override
   String get nicotinePouchesMilestone90Description =>
-      '脳の報酬系がオンラインに戻りました！ニコチンはドーパミン経路をハイジャックし、通常の喜びを鈍く感じさせます。3ヶ月フリーで、人生の自然な喜びが再び鮮やかになりました。';
+      '脳の報酬系が回復してきました。ニコチンはドーパミン経路に影響し、普段の楽しみを感じにくくさせます。ニコチンなしで3ヶ月が経ち、日常の自然な喜びを感じやすくなっています。';
 
   @override
   String get nicotinePouchesMilestone180Title => '心血管リスクが低下';
 
   @override
   String get nicotinePouchesMilestone180Description =>
-      '心臓がラブレターを送っています！ニコチンなしで6ヶ月、心血管疾患のリスクが大幅に減少しています。血圧と心拍変動性が大幅に改善しました。';
+      'ニコチンなしで6ヶ月。心血管疾患のリスクは大きく低下し、血圧や心拍変動も改善しています。';
 
   @override
   String get nicotinePouchesMilestone365Title => '長期的な健康を確保';
 
   @override
   String get nicotinePouchesMilestone365Description =>
-      '自由の1年！ニコチン関連の健康問題のリスクは減少し続けています。依存のサイクルを断ち切り、自律性を取り戻しました。これは本当に英雄的です！ 🏆';
+      'ニコチンパウチをやめて1年！ニコチン関連の健康リスクは低下し続けています。依存のサイクルを断ち切り、自分の選択を取り戻しました。大きな成果です！ 🏆';
 
   @override
   String get pornographyMilestone1Title => 'コントロールを取り戻す';
@@ -3052,7 +3052,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get ketamineReferenceDay365 =>
-      'ケタミンを断って1年\n\n出典：「Ketamine-Induced Cystitis: A Comprehensive Review」、PubMed Central\n\n1年経過\n12ヶ月の断薬は、早期に発見された症例では膀胱に回復する最大限の機会を与え、思考と記憶と気分を安定して明晰に保ちます。やめることを難しくしていた心理的依存はほぼ消えています。\n\nより大きな視点\n1年間の自由は、身体の健康、明晰さ、自己決定において深い変化です。ここまで来られた支えを保つことが、その変化を守ります。';
+      'ケタミンを断って1年\n\n出典：「Ketamine-Induced Cystitis: A Comprehensive Review」、PubMed Central\n\n1年経過\n12ヶ月の断薬は、早期に発見された症例では膀胱に回復する最大限の機会を与え、思考と記憶と気分を安定して明晰に保ちます。やめることを難しくしていた心理的依存はほぼ消えています。\n\nより大きな視点\n1年間ケタミンを使わずに過ごせたことは、身体の健康、思考の明晰さ、自分で選択する力に大きな変化をもたらします。ここまで支えてくれた仕組みを続けることが、その変化を守ります。';
 
   @override
   String get kratomReferenceDay1 =>

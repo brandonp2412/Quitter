@@ -73,7 +73,7 @@ class AppLocalizationsZh extends AppLocalizations {
       '三个月的戒断让大脑的奖赏和压力回路有足够时间重新调节。情绪、专注力和动力明显更加稳定。';
 
   @override
-  String get kratomMilestone365Title => '一年自由';
+  String get kratomMilestone365Title => '停用一年';
 
   @override
   String get kratomMilestone365Description =>
@@ -144,11 +144,11 @@ class AppLocalizationsZh extends AppLocalizations {
       '停药三个月后，神经系统已经完成重新适应。大多数人状态稳定，睡眠和情绪恢复正常。';
 
   @override
-  String get gabapentinoidsMilestone180Title => '自由半年';
+  String get gabapentinoidsMilestone180Title => '停用半年';
 
   @override
   String get gabapentinoidsMilestone180Description =>
-      '六个月自由。药物早已从您的日常生活中消失，任何反弹症状都已解决。';
+      '已停用六个月。药物早已不再出现在日常生活中，任何反跳症状也已消退。';
 
   @override
   String get ghbPageTitle => 'GHB戒断';
@@ -215,7 +215,7 @@ class AppLocalizationsZh extends AppLocalizations {
       '三个月后，随着大脑起镇静作用的GABA系统逐渐稳定，残留的焦虑、睡眠和情绪症状也在减轻。';
 
   @override
-  String get ghbMilestone180Title => '自由半年';
+  String get ghbMilestone180Title => '停用半年';
 
   @override
   String get ghbMilestone180Description =>
@@ -279,14 +279,14 @@ class AppLocalizationsZh extends AppLocalizations {
       '三个月不使用氯胺酮，让膀胱有更多时间恢复，同时思维和情绪也继续改善。渴求出现得更少了。';
 
   @override
-  String get ketamineMilestone180Title => '自由半年';
+  String get ketamineMilestone180Title => '停用半年';
 
   @override
   String get ketamineMilestone180Description =>
-      '六个月自由。膀胱症状有足够时间改善，氯胺酮的心理吸引力已经大大减弱。';
+      '已停用氯胺酮六个月。膀胱症状有了更长时间恢复，对氯胺酮的心理渴求也已明显减弱。';
 
   @override
-  String get ketamineMilestone365Title => '一年自由';
+  String get ketamineMilestone365Title => '停用一年';
 
   @override
   String get ketamineMilestone365Description =>
@@ -428,7 +428,7 @@ class AppLocalizationsZh extends AppLocalizations {
       '停用三个月后，情绪和睡眠趋于稳定，渴求也很少出现。大脑的大麻素系统已经重新适应。';
 
   @override
-  String get synthetic_cannabinoidsMilestone180Title => '自由半年';
+  String get synthetic_cannabinoidsMilestone180Title => '停用半年';
 
   @override
   String get synthetic_cannabinoidsMilestone180Description =>
@@ -498,7 +498,7 @@ class AppLocalizationsZh extends AppLocalizations {
       '三个月的戒断支持持续的血清素系统恢复。情绪和睡眠稳定；焦虑在接下来的几个月里减轻。';
 
   @override
-  String get mdmaMilestone365Title => '一年自由';
+  String get mdmaMilestone365Title => '停用一年';
 
   @override
   String get mdmaMilestone365Description =>
@@ -1777,13 +1777,13 @@ class AppLocalizationsZh extends AppLocalizations {
   String get marijuanaSubtitleNotStarted => '准备好迎接更清晰的明天了吗？ 🌱';
 
   @override
-  String get nicotinePouchesPageTitle => '无袋力量';
+  String get nicotinePouchesPageTitle => '告别尼古丁袋';
 
   @override
-  String get nicotinePouchesHeaderStarted => '清新自由！';
+  String get nicotinePouchesHeaderStarted => '无尼古丁，更清爽！';
 
   @override
-  String get nicotinePouchesHeaderNotStarted => '无袋进步！';
+  String get nicotinePouchesHeaderNotStarted => '告别尼古丁袋，继续前进！';
 
   @override
   String get nicotinePouchesSubtitleStarted => '拥抱更光明、更健康的自己 ✨';
@@ -2288,14 +2288,14 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get nicotinePouchesMilestone1Description =>
-      '尼古丁会使您的味蕾和嗅觉受体迟钝。在没有袋子仅仅24小时后，这些感官开始巡回回归！食物的味道又要变得美妙了。';
+      '尼古丁会使味蕾和嗅觉受体变得迟钝。停用尼古丁袋仅24小时后，味觉和嗅觉就开始恢复，食物的味道也会逐渐变得更鲜明。';
 
   @override
   String get nicotinePouchesMilestone3Title => '尼古丁完全清除';
 
   @override
   String get nicotinePouchesMilestone3Description =>
-      '您的身体已正式驱逐所有尼古丁！虽然戒断症状可能在现在达到顶峰，但请记住——这是您的大脑正在为自由重新连接自己。最难的部分快结束了。';
+      '体内的尼古丁已经基本清除。戒断症状可能在这时达到高峰，但大脑正在适应没有尼古丁的状态。最难熬的阶段很快就会过去。';
 
   @override
   String get nicotinePouchesMilestone7Title => '口腔健康改善';
@@ -2309,42 +2309,42 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get nicotinePouchesMilestone14Description =>
-      '您的血管正在跳快乐的舞蹈！尼古丁收缩血管，但两周自由后，您的循环显著改善。你好，更暖和的手和脚！';
+      '血管也在恢复。尼古丁会收缩血管；停用两周后，血液循环已明显改善，手脚也会逐渐暖和起来。';
 
   @override
   String get nicotinePouchesMilestone30Title => '应激反应正常化';
 
   @override
   String get nicotinePouchesMilestone30Description =>
-      '剧情反转：尼古丁其实会增加两次使用之间的压力！您的皮质醇和应激反应正在恢复正常。真正的放松，而不是尼古丁制造的假象。';
+      '可能有些意外：尼古丁实际上会增加两次使用之间的压力。皮质醇水平和应激反应正在恢复正常，您也在重新体验不依赖尼古丁的放松。';
 
   @override
   String get nicotinePouchesMilestone60Title => '睡眠质量改善';
 
   @override
   String get nicotinePouchesMilestone60Description =>
-      '美梦是由...没有尼古丁构成的！虽然尼古丁看起来很放松，但它实际上会扰乱睡眠结构。两个月后，您的快速眼动周期得到了美丽的恢复。';
+      '不再使用尼古丁后，睡眠正在变得更稳定。尼古丁看似能让人放松，实际上会扰乱睡眠结构。两个月后，REM睡眠周期也在逐步恢复。';
 
   @override
   String get nicotinePouchesMilestone90Title => '多巴胺受体恢复';
 
   @override
   String get nicotinePouchesMilestone90Description =>
-      '您的大脑奖励系统重新上线！尼古丁劫持多巴胺通路，使正常的快乐显得沉闷。三个月自由，生活的自然乐趣再次充满活力。';
+      '大脑的奖赏系统正在恢复。尼古丁会劫持多巴胺通路，让日常乐趣变得平淡。停用三个月后，生活中的自然愉悦感正在重新变得鲜明。';
 
   @override
   String get nicotinePouchesMilestone180Title => '心血管风险降低';
 
   @override
   String get nicotinePouchesMilestone180Description =>
-      '您的心脏正在发送情书！六个月没有尼古丁显著降低了心血管疾病的风险。您的血压和心率变异性得到了极大的改善。';
+      '不使用尼古丁已六个月，心血管疾病风险显著降低，血压和心率变异性也明显改善。';
 
   @override
   String get nicotinePouchesMilestone365Title => '长期健康得到保障';
 
   @override
   String get nicotinePouchesMilestone365Description =>
-      '一年的自由！您患尼古丁相关健康问题的风险继续骤降。您已经打破了成瘾循环并收回了您的自主权。这真是英雄！ 🏆';
+      '停用尼古丁袋整整一年！尼古丁相关健康问题的风险继续下降。您已经打破成瘾循环，重新掌握了自己的选择。这是非常了不起的成就！ 🏆';
 
   @override
   String get pornographyMilestone1Title => '重新掌握控制权';

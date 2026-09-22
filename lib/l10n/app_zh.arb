@@ -18,7 +18,7 @@
   "kratomMilestone30Description": "一个月时身体已经稳定：睡眠、食欲和精力明显改善，渴求也不那么频繁。",
   "kratomMilestone90Title": "稳定基础",
   "kratomMilestone90Description": "三个月的戒断让大脑的奖赏和压力回路有足够时间重新调节。情绪、专注力和动力明显更加稳定。",
-  "kratomMilestone365Title": "一年自由",
+  "kratomMilestone365Title": "停用一年",
   "kratomMilestone365Description": "一整年没有卡痛叶。阿片系统已经长期重新调节，渴求很少出现，这个习惯不再支配您的日常生活。",
   "gabapentinoidsPageTitle": "加巴喷丁类药物戒断",
   "gabapentinoidsHeaderStarted": "您的康复之旅",
@@ -39,8 +39,8 @@
   "gabapentinoidsMilestone30Description": "一个月时大多数人已经度过戒断期，情绪、睡眠和思维清晰度更稳定。任何残留症状通常都很轻微。",
   "gabapentinoidsMilestone90Title": "稳定且已适应",
   "gabapentinoidsMilestone90Description": "停药三个月后，神经系统已经完成重新适应。大多数人状态稳定，睡眠和情绪恢复正常。",
-  "gabapentinoidsMilestone180Title": "自由半年",
-  "gabapentinoidsMilestone180Description": "六个月自由。药物早已从您的日常生活中消失，任何反弹症状都已解决。",
+  "gabapentinoidsMilestone180Title": "停用半年",
+  "gabapentinoidsMilestone180Description": "已停用六个月。药物早已不再出现在日常生活中，任何反跳症状也已消退。",
   "ghbPageTitle": "GHB戒断",
   "ghbHeaderStarted": "您的康复之旅",
   "ghbHeaderNotStarted": "戒除GHB的好处",
@@ -60,7 +60,7 @@
   "ghbMilestone30Description": "一个月时，危险的早期戒断期已经远远过去。残留的焦虑、睡眠问题和情绪低落也在继续改善。",
   "ghbMilestone90Title": "残留症状逐渐消退",
   "ghbMilestone90Description": "三个月后，随着大脑起镇静作用的GABA系统逐渐稳定，残留的焦虑、睡眠和情绪症状也在减轻。",
-  "ghbMilestone180Title": "自由半年",
+  "ghbMilestone180Title": "停用半年",
   "ghbMilestone180Description": "六个月没有GHB。持续的戒断症状已基本消退，情绪、睡眠和清晰思维也恢复到正常状态。",
   "ketaminePageTitle": "氯胺酮戒断",
   "ketamineHeaderStarted": "您的康复之旅",
@@ -79,9 +79,9 @@
   "ketamineMilestone30Description": "一个月时，早期的膀胱损伤在停用后往往已经开始改善。情绪和思维也更加清晰。",
   "ketamineMilestone90Title": "三个月了",
   "ketamineMilestone90Description": "三个月不使用氯胺酮，让膀胱有更多时间恢复，同时思维和情绪也继续改善。渴求出现得更少了。",
-  "ketamineMilestone180Title": "自由半年",
-  "ketamineMilestone180Description": "六个月自由。膀胱症状有足够时间改善，氯胺酮的心理吸引力已经大大减弱。",
-  "ketamineMilestone365Title": "一年自由",
+  "ketamineMilestone180Title": "停用半年",
+  "ketamineMilestone180Description": "已停用氯胺酮六个月。膀胱症状有了更长时间恢复，对氯胺酮的心理渴求也已明显减弱。",
+  "ketamineMilestone365Title": "停用一年",
   "ketamineMilestone365Description": "一年没有氯胺酮。思维、情绪以及在膀胱损伤较早发现时的膀胱功能，都已经有整整一年时间恢复。",
   "inhalantsPageTitle": "吸入剂戒断",
   "inhalantsHeaderStarted": "您的康复之旅",
@@ -123,7 +123,7 @@
   "synthetic_cannabinoidsMilestone30Description": "一个月时大多数戒断症状已经解决。睡眠、情绪和清晰度明显改善。",
   "synthetic_cannabinoidsMilestone90Title": "三个月了",
   "synthetic_cannabinoidsMilestone90Description": "停用三个月后，情绪和睡眠趋于稳定，渴求也很少出现。大脑的大麻素系统已经重新适应。",
-  "synthetic_cannabinoidsMilestone180Title": "自由半年",
+  "synthetic_cannabinoidsMilestone180Title": "停用半年",
   "synthetic_cannabinoidsMilestone180Description": "六个月没有合成大麻素。戒断早已解决，这些药物的严重风险已成为过去。",
   "mdmaPageTitle": "MDMA戒断",
   "mdmaHeaderStarted": "您的康复之旅",
@@ -144,7 +144,7 @@
   "mdmaMilestone30Description": "一个月时，情绪和思维已经稳定得多。只要继续不使用MDMA，大脑的血清素再循环系统就会继续恢复。",
   "mdmaMilestone90Title": "三个月了",
   "mdmaMilestone90Description": "三个月的戒断支持持续的血清素系统恢复。情绪和睡眠稳定；焦虑在接下来的几个月里减轻。",
-  "mdmaMilestone365Title": "一年自由",
+  "mdmaMilestone365Title": "停用一年",
   "mdmaMilestone365Description": "一年没有MDMA。血清素功能和情绪有足够时间恢复，与使用相关的焦虑通常在此时解决。",
   "steroidsPageTitle": "类固醇戒断",
   "steroidsHeaderStarted": "您的康复之旅",
@@ -1385,15 +1385,15 @@
   "@marijuanaSubtitleNotStarted": {
     "description": "Subtitle for not started marijuana quit journey"
   },
-  "nicotinePouchesPageTitle": "无袋力量",
+  "nicotinePouchesPageTitle": "告别尼古丁袋",
   "@nicotinePouchesPageTitle": {
     "description": "Page title for nicotine pouches tracking"
   },
-  "nicotinePouchesHeaderStarted": "清新自由！",
+  "nicotinePouchesHeaderStarted": "无尼古丁，更清爽！",
   "@nicotinePouchesHeaderStarted": {
     "description": "Header for started nicotine pouches quit journey"
   },
-  "nicotinePouchesHeaderNotStarted": "无袋进步！",
+  "nicotinePouchesHeaderNotStarted": "告别尼古丁袋，继续前进！",
   "@nicotinePouchesHeaderNotStarted": {
     "description": "Header for not started nicotine pouches quit journey"
   },
@@ -1993,7 +1993,7 @@
   "@nicotinePouchesMilestone1Title": {
     "description": "Nicotine pouches milestone day 1 title"
   },
-  "nicotinePouchesMilestone1Description": "尼古丁会使您的味蕾和嗅觉受体迟钝。在没有袋子仅仅24小时后，这些感官开始巡回回归！食物的味道又要变得美妙了。",
+  "nicotinePouchesMilestone1Description": "尼古丁会使味蕾和嗅觉受体变得迟钝。停用尼古丁袋仅24小时后，味觉和嗅觉就开始恢复，食物的味道也会逐渐变得更鲜明。",
   "@nicotinePouchesMilestone1Description": {
     "description": "Nicotine pouches milestone day 1 description"
   },
@@ -2001,7 +2001,7 @@
   "@nicotinePouchesMilestone3Title": {
     "description": "Nicotine pouches milestone day 3 title"
   },
-  "nicotinePouchesMilestone3Description": "您的身体已正式驱逐所有尼古丁！虽然戒断症状可能在现在达到顶峰，但请记住——这是您的大脑正在为自由重新连接自己。最难的部分快结束了。",
+  "nicotinePouchesMilestone3Description": "体内的尼古丁已经基本清除。戒断症状可能在这时达到高峰，但大脑正在适应没有尼古丁的状态。最难熬的阶段很快就会过去。",
   "@nicotinePouchesMilestone3Description": {
     "description": "Nicotine pouches milestone day 3 description"
   },
@@ -2017,7 +2017,7 @@
   "@nicotinePouchesMilestone14Title": {
     "description": "Nicotine pouches milestone day 14 title"
   },
-  "nicotinePouchesMilestone14Description": "您的血管正在跳快乐的舞蹈！尼古丁收缩血管，但两周自由后，您的循环显著改善。你好，更暖和的手和脚！",
+  "nicotinePouchesMilestone14Description": "血管也在恢复。尼古丁会收缩血管；停用两周后，血液循环已明显改善，手脚也会逐渐暖和起来。",
   "@nicotinePouchesMilestone14Description": {
     "description": "Nicotine pouches milestone day 14 description"
   },
@@ -2025,7 +2025,7 @@
   "@nicotinePouchesMilestone30Title": {
     "description": "Nicotine pouches milestone day 30 title"
   },
-  "nicotinePouchesMilestone30Description": "剧情反转：尼古丁其实会增加两次使用之间的压力！您的皮质醇和应激反应正在恢复正常。真正的放松，而不是尼古丁制造的假象。",
+  "nicotinePouchesMilestone30Description": "可能有些意外：尼古丁实际上会增加两次使用之间的压力。皮质醇水平和应激反应正在恢复正常，您也在重新体验不依赖尼古丁的放松。",
   "@nicotinePouchesMilestone30Description": {
     "description": "Nicotine pouches milestone day 30 description"
   },
@@ -2033,7 +2033,7 @@
   "@nicotinePouchesMilestone60Title": {
     "description": "Nicotine pouches milestone day 60 title"
   },
-  "nicotinePouchesMilestone60Description": "美梦是由...没有尼古丁构成的！虽然尼古丁看起来很放松，但它实际上会扰乱睡眠结构。两个月后，您的快速眼动周期得到了美丽的恢复。",
+  "nicotinePouchesMilestone60Description": "不再使用尼古丁后，睡眠正在变得更稳定。尼古丁看似能让人放松，实际上会扰乱睡眠结构。两个月后，REM睡眠周期也在逐步恢复。",
   "@nicotinePouchesMilestone60Description": {
     "description": "Nicotine pouches milestone day 60 description"
   },
@@ -2041,7 +2041,7 @@
   "@nicotinePouchesMilestone90Title": {
     "description": "Nicotine pouches milestone day 90 title"
   },
-  "nicotinePouchesMilestone90Description": "您的大脑奖励系统重新上线！尼古丁劫持多巴胺通路，使正常的快乐显得沉闷。三个月自由，生活的自然乐趣再次充满活力。",
+  "nicotinePouchesMilestone90Description": "大脑的奖赏系统正在恢复。尼古丁会劫持多巴胺通路，让日常乐趣变得平淡。停用三个月后，生活中的自然愉悦感正在重新变得鲜明。",
   "@nicotinePouchesMilestone90Description": {
     "description": "Nicotine pouches milestone day 90 description"
   },
@@ -2049,7 +2049,7 @@
   "@nicotinePouchesMilestone180Title": {
     "description": "Nicotine pouches milestone day 180 title"
   },
-  "nicotinePouchesMilestone180Description": "您的心脏正在发送情书！六个月没有尼古丁显著降低了心血管疾病的风险。您的血压和心率变异性得到了极大的改善。",
+  "nicotinePouchesMilestone180Description": "不使用尼古丁已六个月，心血管疾病风险显著降低，血压和心率变异性也明显改善。",
   "@nicotinePouchesMilestone180Description": {
     "description": "Nicotine pouches milestone day 180 description"
   },
@@ -2057,7 +2057,7 @@
   "@nicotinePouchesMilestone365Title": {
     "description": "Nicotine pouches milestone day 365 title"
   },
-  "nicotinePouchesMilestone365Description": "一年的自由！您患尼古丁相关健康问题的风险继续骤降。您已经打破了成瘾循环并收回了您的自主权。这真是英雄！ 🏆",
+  "nicotinePouchesMilestone365Description": "停用尼古丁袋整整一年！尼古丁相关健康问题的风险继续下降。您已经打破成瘾循环，重新掌握了自己的选择。这是非常了不起的成就！ 🏆",
   "@nicotinePouchesMilestone365Description": {
     "description": "Nicotine pouches milestone day 365 description"
   },
