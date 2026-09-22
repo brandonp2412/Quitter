@@ -244,7 +244,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get addictionKetamine => '氯胺酮';
 
   @override
-  String get ketamineMilestone1Title => '身体清除';
+  String get ketamineMilestone1Title => '氯胺酮逐步排出体外';
 
   @override
   String get ketamineMilestone1Description =>
@@ -309,13 +309,13 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get inhalantsInfoBox =>
-      '吸入剂戒断比酒精或阿片类药物时间短但可能很激烈，大量使用者有癫痫风险。神经康复是真实但缓慢的——通常在大约两年的戒断过程中展现。';
+      '吸入剂戒断比酒精或阿片类药物时间短但可能很激烈，大量使用的人有癫痫风险。神经康复是真实但缓慢的——通常在大约两年的戒断过程中展现。';
 
   @override
   String get addictionInhalants => '吸入剂';
 
   @override
-  String get inhalantsMilestone1Title => '身体清除';
+  String get inhalantsMilestone1Title => '吸入物逐步排出体外';
 
   @override
   String get inhalantsMilestone1Description =>
@@ -380,7 +380,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get synthetic_cannabinoidsInfoBox =>
-      '合成大麻素（\"香料\"、\"K2\"）比大麻强效得多，其戒断类似但更严重——伴有焦虑和心跳加速。大量使用者可能需要医疗支持的解毒。';
+      '合成大麻素（\"香料\"、\"K2\"）比大麻强效得多，其戒断类似但更严重——伴有焦虑和心跳加速。大量使用的人可能需要医疗支持的解毒。';
 
   @override
   String get addictionSyntheticCannabinoids => '合成大麻素';
@@ -555,7 +555,7 @@ class AppLocalizationsZh extends AppLocalizations {
       '三个月后，大多数人的睾酮和推动其生成的激素都在向正常水平回升，情绪和性欲也常随之改善。';
 
   @override
-  String get steroidsMilestone180Title => '六个月——通常已恢复';
+  String get steroidsMilestone180Title => '六个月——多数人已明显恢复';
 
   @override
   String get steroidsMilestone180Description =>
@@ -855,7 +855,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get nitrousOxideSubtitleNotStarted => '看看有什么积极变化在等待您';
 
   @override
-  String get nitrousOxideMilestone1Title => '前24小时——身体清除';
+  String get nitrousOxideMilestone1Title => '前24小时——一氧化二氮逐步排出体外';
 
   @override
   String get nitrousOxideMilestone1Description =>
@@ -1559,12 +1559,12 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String quitMilestonesClearTitle(int days) {
-    return '清除 $days 天的里程碑？';
+    return '删除 $days 天里程碑的记录？';
   }
 
   @override
   String quitMilestonesClearMessage(int days) {
-    return '这将清除您过去所有达到 $days 天里程碑的记录。';
+    return '这会删除您此前所有达到 $days 天里程碑的记录。';
   }
 
   @override
@@ -2823,11 +2823,11 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get adderallReferenceDay1 =>
-      '苯丙胺戒断：早期会发生什么\n\n来源：MedlinePlus（美国国家医学图书馆）\n\n什么是苯丙胺？\n苯丙胺是一类兴奋剂，既包括非法物质（例如街头所称的“speed”），也包括用于治疗ADHD和发作性睡病的处方药（例如Adderall和Vyvanse）。它们会显著提高多巴胺和去甲肾上腺素水平，从而可能带来强烈的专注、精力和欣快感。长期大量使用后，大脑会适应这些反复的激增，因此停用后情绪、精力和动力可能会暂时下降。\n\n常见戒断症状\nMedlinePlus列出的典型苯丙胺停用症状包括：\n• 对药物的强烈渴求\n• 从抑郁、烦躁到焦虑的情绪波动\n• 整天感到疲倦\n• 无法集中注意力\n• 幻觉（看到或听到并不存在的东西）\n• 头痛、身体酸痛、食欲增加以及睡眠不佳等身体反应\n\n戒断危险吗？\nMedlinePlus并未把苯丙胺戒断本身描述为具有医学危险性，但指出严重症状可能需要住院式治疗；苯丙胺使用造成的情绪和心理问题（包括抑郁）也可能很严重，需要支持。\n\n寻求帮助\nMedlinePlus建议，如果你或你认识的人对苯丙胺成瘾并需要帮助停止使用，应联系医疗服务提供者。如果出现自伤想法，它会引导读者使用988或911等危机支持资源。';
+      '苯丙胺戒断：早期会发生什么\n\n来源：MedlinePlus（美国国家医学图书馆）\n\n什么是苯丙胺？\n苯丙胺是一类兴奋剂，既包括非法物质（例如俗称“speed”的非法苯丙胺），也包括用于治疗ADHD和发作性睡病的处方药（例如Adderall和Vyvanse）。它们会显著提高多巴胺和去甲肾上腺素水平，从而可能带来强烈的专注、精力和欣快感。长期大量使用后，大脑会适应这些反复的激增，因此停用后情绪、精力和动力可能会暂时下降。\n\n常见戒断症状\nMedlinePlus列出的典型苯丙胺停用症状包括：\n• 对药物的强烈渴求\n• 从抑郁、烦躁到焦虑的情绪波动\n• 整天感到疲倦\n• 无法集中注意力\n• 幻觉（看到或听到并不存在的东西）\n• 头痛、身体酸痛、食欲增加以及睡眠不佳等身体反应\n\n戒断危险吗？\nMedlinePlus并未把苯丙胺戒断本身描述为具有医学危险性，但指出严重症状可能需要住院式治疗；苯丙胺使用造成的情绪和心理问题（包括抑郁）也可能很严重，需要支持。\n\n寻求帮助\nMedlinePlus建议，如果你或你认识的人对苯丙胺成瘾并需要帮助停止使用，应联系医疗服务提供者。如果出现自伤想法，它会引导读者使用988或911等危机支持资源。';
 
   @override
   String get adderallReferenceDay3 =>
-      '苯丙胺戒断管理：第3天\n\n来源：世界卫生组织（2009）《Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings》，NCBI Bookshelf\n\n第3天处于什么阶段\nWHO指南指出，兴奋剂戒断症状“在最后一次使用兴奋剂后的24小时内开始，并持续3–5天”。第3天正处于这一急性期，通常也是症状开始缓解前最艰难的几天之一。\n\n症状\n对于苯丙胺类兴奋剂，指南列出：\n• 烦躁和易怒\n• 抑郁\n• 睡眠和食欲增加\n• 肌肉酸痛\n大量使用者还可能出现精神病性症状，例如偏执、思维紊乱或幻觉。\n\n主要是心理层面的挑战\n与酒精或阿片类药物戒断不同，兴奋剂戒断通常不会带来呕吐、震颤或癫痫发作。主要困难在心理层面——情绪低落、快感缺失，以及多巴胺水平下降的大脑所驱动的渴求。\n\n管理方式\nWHO指南建议支持性护理：\n• 每天至少饮用2–3升水\n• 补充含B族维生素和维生素C的复合维生素\n• 对疼痛和焦虑进行对症用药\n• 严重烦躁时先采用行为策略，仅在需要时使用地西泮镇静\n\n急性期之后\n指南指出，最严重的戒断只持续几天，之后会进入较轻的恢复期，可持续一到两个月。';
+      '苯丙胺戒断管理：第3天\n\n来源：世界卫生组织（2009）《Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings》，NCBI Bookshelf\n\n第3天处于什么阶段\nWHO指南指出，兴奋剂戒断症状“在最后一次使用兴奋剂后的24小时内开始，并持续3–5天”。第3天正处于这一急性期，通常也是症状开始缓解前最艰难的几天之一。\n\n症状\n对于苯丙胺类兴奋剂，指南列出：\n• 烦躁和易怒\n• 抑郁\n• 睡眠和食欲增加\n• 肌肉酸痛\n大量使用的人还可能出现精神病性症状，例如偏执、思维紊乱或幻觉。\n\n主要是心理层面的挑战\n与酒精或阿片类药物戒断不同，兴奋剂戒断通常不会带来呕吐、震颤或癫痫发作。主要困难在心理层面——情绪低落、快感缺失，以及与多巴胺功能暂时低下有关的渴求。\n\n管理方式\nWHO指南建议支持性护理：\n• 每天至少饮用2–3升水\n• 补充含B族维生素和维生素C的复合维生素\n• 对疼痛和焦虑进行对症用药\n• 严重烦躁时先采用行为策略，仅在需要时使用地西泮镇静\n\n急性期之后\n指南指出，最严重的戒断只持续几天，之后会进入较轻的恢复期，可持续一到两个月。';
 
   @override
   String get adderallReferenceDay7 =>
@@ -2931,7 +2931,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get cocaineReferenceDay1 =>
-      '可卡因戒断：最初24小时\n\n来源：《Withdrawal Syndromes》，StatPearls（NCBI Bookshelf），美国国家医学图书馆\n\n可卡因与大脑\n可卡因会阻断大脑奖赏回路中多巴胺（以及其他单胺类物质）的再摄取，使多巴胺积聚并产生强烈的欣快感和精力。随着长期使用，大脑会通过下调这一系统来适应，因此一旦没有药物，正常的活动也会显得平淡无味。\n\n崩溃期\nStatPearls将兴奋剂戒断描述为：一旦停止使用，便从一次“崩溃”开始，其特征是显著的抑郁、过度睡眠、饥饿、情绪低落，以及运动和思维的严重迟缓。在最初24小时内，这通常包括：\n• 极度疲劳和睡眠需求增加\n• 情绪低落，运动和思维迟缓\n• 食欲增加（可卡因会抑制食欲）\n\n在更广泛的成瘾文献中，渴求、易怒和焦虑在这一窗口期也常被广泛报告，尽管StatPearls并未将它们明确列为崩溃期的一部分。\n\n与其他一些药物不同\nStatPearls指出，兴奋剂戒断可通过观察和支持性护理来处理；与酒精或苯二氮卓戒断不同，它通常不会引起癫痫发作或谵妄。主要的危险在心理层面——在崩溃期，抑郁以及（在大量使用者中）自杀意念可能出现，因此建议给予支持和监测。\n\n没有获批的药物\n目前尚无获批用于治疗可卡因戒断的药物；处理方式是支持性的，而诸如应急管理等非药物手段，是针对潜在物质使用障碍的循证疗法。';
+      '可卡因戒断：最初24小时\n\n来源：《Withdrawal Syndromes》，StatPearls（NCBI Bookshelf），美国国家医学图书馆\n\n可卡因与大脑\n可卡因会阻断大脑奖赏回路中多巴胺（以及其他单胺类物质）的再摄取，使多巴胺积聚并产生强烈的欣快感和精力。随着长期使用，大脑会通过下调这一系统来适应，因此一旦没有药物，正常的活动也会显得平淡无味。\n\n崩溃期\nStatPearls将兴奋剂戒断描述为：一旦停止使用，便从一次“崩溃”开始，其特征是显著的抑郁、过度睡眠、饥饿、情绪低落，以及运动和思维的严重迟缓。在最初24小时内，这通常包括：\n• 极度疲劳和睡眠需求增加\n• 情绪低落，运动和思维迟缓\n• 食欲增加（可卡因会抑制食欲）\n\n在更广泛的成瘾文献中，渴求、易怒和焦虑在这一窗口期也常被广泛报告，尽管StatPearls并未将它们明确列为崩溃期的一部分。\n\n与其他一些药物不同\nStatPearls指出，兴奋剂戒断可通过观察和支持性护理来处理；与酒精或苯二氮卓戒断不同，它通常不会引起癫痫发作或谵妄。主要的危险在心理层面——在崩溃期，抑郁以及（在大量使用的人中）自杀意念可能出现，因此建议给予支持和监测。\n\n没有获批的药物\n目前尚无获批用于治疗可卡因戒断的药物；处理方式是支持性的，而诸如应急管理等非药物手段，是针对潜在物质使用障碍的循证疗法。';
 
   @override
   String get cocaineReferenceDay3 =>
@@ -3123,7 +3123,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get marijuanaReferenceDay30 =>
-      '停用大麻一个月：记忆功能改善\n\n来源：Pope et al.（2001），Archives of General Psychiatry\n\n大麻与记忆：问题所在\n这项研究对大量、长期的大麻使用者进行了28天经确认的戒断随访，并将他们的思维和记忆测试结果与轻度使用者和非使用者进行了比较。在戒断开始时，以及第1天和第7天再次测试时，大量使用者在单词表回忆上的表现差于对照组——这一缺陷与他们的尿中THC代谢物水平相关，反映的是近期药物暴露而非终身使用量。\n\n好消息：到第28天恢复\n到第28天时，大量使用者、轻度使用者和非使用者在研究的思维和记忆测试中表现几乎相同。此时，终身大麻使用总量与测试表现之间也没有显著关系。\n\n这在30天时意味着什么\n• 言语学习和回忆已恢复到对照组水平\n• 第一周所见的残余缺陷已经消退\n• 早先剩余的缺陷与近期暴露有关，而非永久性损伤\n\n证据表明了\n到第28天，大量使用者在研究的整套思维和记忆测试中几乎与轻度使用者和非使用者无法区分。第一周所见的言语学习和回忆缺陷已恢复到对照组水平。';
+      '停用大麻一个月：记忆功能改善\n\n来源：Pope et al.（2001），Archives of General Psychiatry\n\n大麻与记忆：问题所在\n这项研究对大量、长期的大麻使用者进行了28天经确认的戒断随访，并将他们的思维和记忆测试结果与轻度使用者和非使用者进行了比较。在戒断开始时，以及第1天和第7天再次测试时，大量使用的人在单词表回忆上的表现差于对照组——这一缺陷与他们的尿中THC代谢物水平相关，反映的是近期药物暴露而非终身使用量。\n\n好消息：到第28天恢复\n到第28天时，大量使用的人、轻度使用者和非使用者在研究的思维和记忆测试中表现几乎相同。此时，终身大麻使用总量与测试表现之间也没有显著关系。\n\n这在30天时意味着什么\n• 言语学习和回忆已恢复到对照组水平\n• 第一周所见的残余缺陷已经消退\n• 早先剩余的缺陷与近期暴露有关，而非永久性损伤\n\n证据表明了\n到第28天，大量使用的人在研究的整套思维和记忆测试中几乎与轻度使用者和非使用者无法区分。第一周所见的言语学习和回忆缺陷已恢复到对照组水平。';
 
   @override
   String get marijuanaReferenceDay60 =>
@@ -3171,7 +3171,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get methReferenceDay1 =>
-      '甲基苯丙胺戒断：最初24小时\n\n来源：McGregor et al.，《The nature, time course and severity of methamphetamine withdrawal》，Addiction（2005），见PubMed\n\n崩溃期\n甲基苯丙胺促使多巴胺大量释放；当使用停止时，系统被留在了耗竭状态。这项研究在戒断的最初三周里逐日追踪了戒断症状，发现总体严重程度在最后一次使用后的24小时内达到最高——即“崩溃”，一种从极度兴奋到身心俱疲的骤然转变。\n\n第一天的症状\n该研究记载了此刻最强烈的戒断特征：\n• 极度疲劳和睡眠增加（睡眠过多）\n• 食欲增加（甲基苯丙胺会强烈抑制食欲）\n• 情绪低落和失去快感\n• 强烈的渴求\n• 焦虑和易怒\n\n身体安全\n甲基苯丙胺戒断综合征本身通常不危及生命，但该研究测量到的与抑郁相关的症状在早期可能很严重，并可能包含自杀意念。强烈建议进行医疗监督，尤其是对大量使用者。\n\n它开始缓解\n这项研究令人鼓舞的发现是：严重程度在一开始最高，然后下降。从这个24小时的高峰开始，症状在接下来的几天里稳步下降——最糟的时刻就是开始。';
+      '甲基苯丙胺戒断：最初24小时\n\n来源：McGregor et al.，《The nature, time course and severity of methamphetamine withdrawal》，Addiction（2005），见PubMed\n\n崩溃期\n甲基苯丙胺促使多巴胺大量释放；当使用停止时，系统被留在了耗竭状态。这项研究在戒断的最初三周里逐日追踪了戒断症状，发现总体严重程度在最后一次使用后的24小时内达到最高——即“崩溃”，一种从极度兴奋到身心俱疲的骤然转变。\n\n第一天的症状\n该研究记载了此刻最强烈的戒断特征：\n• 极度疲劳和睡眠增加（睡眠过多）\n• 食欲增加（甲基苯丙胺会强烈抑制食欲）\n• 情绪低落和失去快感\n• 强烈的渴求\n• 焦虑和易怒\n\n身体安全\n甲基苯丙胺戒断综合征本身通常不危及生命，但该研究测量到的与抑郁相关的症状在早期可能很严重，并可能包含自杀意念。强烈建议进行医疗监督，尤其是对大量使用的人。\n\n它开始缓解\n这项研究令人鼓舞的发现是：严重程度在一开始最高，然后下降。从这个24小时的高峰开始，症状在接下来的几天里稳步下降——最糟的时刻就是开始。';
 
   @override
   String get methReferenceDay3 =>
