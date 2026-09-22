@@ -1,0 +1,1 @@
+• Fix use reserved Microsoft Store display name
