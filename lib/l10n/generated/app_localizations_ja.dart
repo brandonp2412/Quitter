@@ -870,39 +870,39 @@ class AppLocalizationsJa extends AppLocalizations {
       '良いニュースがあります：亜酸化窒素は身体的離脱を引き起こしません。感じる衝動は心理的なものです—習慣と関連付けであり、体が物質を要求しているのではありません。それは管理可能にします。';
 
   @override
-  String get nitrousOxideMilestone7Title => '1週間—B12上昇中';
+  String get nitrousOxideMilestone7Title => '1週間—B12が回復中';
 
   @override
   String get nitrousOxideMilestone7Description =>
-      '新しいB12が破壊されない状態で1週間。サプリメントを始めていれば、レベルはすでに上昇しています。エネルギー、気分、集中力はすべてB12と結びついています—それらの改善を感じ始めているはずです。';
+      '亜酸化窒素によるB12の破壊が止まって1週間。サプリメントを始めていれば、B12値はすでに上向いています。エネルギー、気分、集中力はいずれもB12と関係しており、少しずつ改善を感じ始める頃です。';
 
   @override
   String get nitrousOxideMilestone14Title => '2週間—神経の治癒';
 
   @override
   String get nitrousOxideMilestone14Description =>
-      'B12は神経線維の保護被膜に不可欠です。2週間経つと、その修復プロセスが活発に進行中です。あったかもしれないしびれやチクチク感は和らいでいるはずです—神経系が自らを修復しています。';
+      'B12は神経線維を包む保護膜に不可欠です。2週間経った今、その修復は本格的に進んでいます。しびれやチクチク感があった場合は徐々に和らいでくるはずです—神経系が回復を続けています。';
 
   @override
   String get nitrousOxideMilestone30Title => '1ヶ月—エネルギーが戻る';
 
   @override
   String get nitrousOxideMilestone30Description =>
-      'B12は赤血球生成に重要な役割を果たし、それは体のすべての細胞への酸素供給を意味します。1ヶ月の回復とサプリメント摂取で、意味のあるほど良いエネルギー、より明確な思考、より安定した気分が得られます。';
+      'B12は赤血球の生成に重要な役割を果たし、全身の細胞へ酸素を届けるのに欠かせません。1ヶ月の回復とサプリメント摂取により、エネルギーの向上、思考の明瞭さ、気分の安定を実感しやすくなります。';
 
   @override
   String get nitrousOxideMilestone90Title => '3ヶ月—神経学的回復';
 
   @override
   String get nitrousOxideMilestone90Description =>
-      'B12破壊なしの3ヶ月は3ヶ月の神経修復を意味します。神経系は回復力があります—治療を迅速に開始したほとんどの人は、この時点までにしびれ、脱力感、脳霧に大幅な回復を見せます。';
+      'B12の破壊が止まって3ヶ月。神経にも3ヶ月の回復期間が与えられたことになります。神経系には高い回復力があり、早期に治療を始めた多くの人では、この頃までにしびれ、脱力感、頭のもやが大きく改善します。';
 
   @override
   String get nitrousOxideMilestone365Title => '1年—長期的健康の確保';
 
   @override
   String get nitrousOxideMilestone365Description =>
-      '亜酸化窒素なしの丸1年。B12貯蔵は回復し、神経系は1年間治癒する時間があり、高ホモシステインによる心血管リスクも解消されています。体は再び自身の化学物質で動いています。';
+      '亜酸化窒素をやめて丸1年。B12の蓄えは回復し、神経系にも1年間の回復期間がありました。高ホモシステインに伴う心血管リスクも改善し、体は再び本来の仕組みで働いています。';
 
   @override
   String get addictionCocaine => 'コカイン';
