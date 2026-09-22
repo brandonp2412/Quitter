@@ -830,7 +830,55 @@ void main() {
       'оставайся сильным',
       'историю возвращения',
       'рецепторы начинают перезагружаться',
+      'пики синдрома',
+      'пики отскока',
     };
+
+    for (final key in [
+      'ssriMilestone3Title',
+      'snriMilestone3Description',
+      'ssriReferenceDay3',
+      'ssriReferenceDay14',
+    ]) {
+      final value = russian[key] as String;
+      expect(
+        value,
+        contains('FINISH'),
+        reason: '$key must preserve the FINISH clinical mnemonic',
+      );
+      expect(
+        value.toLowerCase(),
+        isNot(contains('\u0444\u0438\u043d\u0438\u0448')),
+        reason: '$key must not transliterate the FINISH mnemonic',
+      );
+    }
+
+    for (final key in [
+      'socialMediaReferenceDay1',
+      'socialMediaReferenceDay3',
+      'socialMediaReferenceDay7',
+      'socialMediaReferenceDay14',
+      'socialMediaReferenceDay30',
+      'socialMediaReferenceDay60',
+      'socialMediaReferenceDay90',
+      'socialMediaReferenceDay180',
+      'socialMediaReferenceDay365',
+    ]) {
+      final value = (russian[key] as String).toLowerCase();
+      for (final artifact in [
+        'ощущение кайфа',
+        'низкосортного страха',
+        'воздействия корма',
+        'употребления наркотиков',
+        'раньше ела перед сном',
+      ]) {
+        expect(
+          value,
+          isNot(contains(artifact)),
+          reason: '$key must not contain social-media translation artifacts',
+        );
+      }
+    }
 
     final informalSecondPerson = RegExp(
       r'(^|[\s—–,!.?«»])(?:ты|тебя|тебе|тобой|твой|твоя|твои|твоё|твое|твоего|твоей|твою|твоих)(?=[$\s—–,!.?«»])',
