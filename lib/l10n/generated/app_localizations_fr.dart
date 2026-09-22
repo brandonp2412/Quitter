@@ -1067,7 +1067,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get statsNoAddictions =>
-      'Commencez à suivre des dépendances pour voir vos statistiques';
+      'Commencez un suivi pour afficher vos statistiques';
 
   @override
   String get statsJourneyTitle => 'Votre parcours';
@@ -1547,7 +1547,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get settingsResetMessagesSubtitle =>
-      'Afficher un encouragement positif après les rechutes';
+      'Afficher un message d’encouragement après avoir recommencé';
 
   @override
   String get settingsAbout => 'À propos';
@@ -1622,7 +1622,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get notificationFrequencySave => 'Enregistrer';
 
   @override
-  String get notificationTestTitle => 'Affirmation positive';
+  String get notificationTestTitle => 'Message d’encouragement';
 
   @override
   String notificationTestBody(int days) {
@@ -1706,7 +1706,7 @@ class AppLocalizationsFr extends AppLocalizations {
       other: '$days jours',
       one: '$days jour',
     );
-    return 'Je suis abstinent de $title depuis $_temp0 !';
+    return 'J\'ai arrêté $title depuis $_temp0 !';
   }
 
   @override
@@ -3016,12 +3016,11 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String notificationProgressBody(int days, String message) {
-    return '$days jours d\'abstinence — $message';
+    return 'Déjà $days jours — $message';
   }
 
   @override
-  String get notificationProgressMessage1 =>
-      'Continuez ce travail remarquable !';
+  String get notificationProgressMessage1 => 'Continuez comme ça !';
 
   @override
   String get notificationProgressMessage2 => 'Vous vous en sortez très bien !';
@@ -3036,7 +3035,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get notificationProgressMessage5 => 'Continuez à rayonner !';
 
   @override
-  String get notificationProgressMessage6 => 'Excellent travail !';
+  String get notificationProgressMessage6 => 'Bravo !';
 
   @override
   String get notificationProgressMessage7 => 'Bravo, continuez !';
@@ -3049,7 +3048,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get notificationProgressMessage9 => 'Un effort remarquable !';
 
   @override
-  String get notificationProgressMessage10 => 'Restez fort !';
+  String get notificationProgressMessage10 => 'Tenez bon !';
 
   @override
   String get notificationChannelName => 'Rappels';

@@ -777,7 +777,7 @@
   "@settingsResetButtons": {
     "description": "Setting title for reset buttons visibility"
   },
-  "settingsResetButtonsSubtitle": "Mostrar botones de reinicio en las páginas de abandono",
+  "settingsResetButtonsSubtitle": "Mostrar botones de reinicio en las pantallas de seguimiento",
   "@settingsResetButtonsSubtitle": {
     "description": "Subtitle explaining reset buttons setting"
   },
@@ -906,7 +906,7 @@
   "@settingsResetMessages": {
     "description": "Setting title for reset messages"
   },
-  "settingsResetMessagesSubtitle": "Mostrar refuerzo positivo después de recaídas",
+  "settingsResetMessagesSubtitle": "Mostrar mensajes de ánimo al volver a empezar",
   "@settingsResetMessagesSubtitle": {
     "description": "Subtitle explaining reset messages setting"
   },
@@ -1006,7 +1006,7 @@
   "@notificationFrequencySave": {
     "description": "Save button in notification frequency dialog"
   },
-  "notificationTestTitle": "Afirmación positiva",
+  "notificationTestTitle": "Mensaje de ánimo",
   "@notificationTestTitle": {
     "description": "Title for test notification"
   },
@@ -2322,7 +2322,7 @@
       }
     }
   },
-  "notificationProgressBody": "{days} días sin consumir — {message}",
+  "notificationProgressBody": "Llevas {days} días — {message}",
   "@notificationProgressBody": {
     "description": "Progress notification body",
     "placeholders": {
@@ -2334,7 +2334,7 @@
       }
     }
   },
-  "notificationProgressMessage1": "¡Sigue con este gran trabajo!",
+  "notificationProgressMessage1": "¡Sigue así!",
   "notificationProgressMessage2": "¡Lo estás haciendo genial!",
   "notificationProgressMessage3": "¡Una dedicación increíble!",
   "notificationProgressMessage4": "¡Celebramos tu fortaleza!",

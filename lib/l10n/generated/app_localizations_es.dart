@@ -1383,7 +1383,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get settingsResetButtonsSubtitle =>
-      'Mostrar botones de reinicio en las páginas de abandono';
+      'Mostrar botones de reinicio en las pantallas de seguimiento';
 
   @override
   String get settingsShowJournal => 'Mostrar diario';
@@ -1518,7 +1518,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get settingsResetMessagesSubtitle =>
-      'Mostrar refuerzo positivo después de recaídas';
+      'Mostrar mensajes de ánimo al volver a empezar';
 
   @override
   String get settingsAbout => 'Acerca de';
@@ -1593,7 +1593,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String get notificationFrequencySave => 'Guardar';
 
   @override
-  String get notificationTestTitle => 'Afirmación positiva';
+  String get notificationTestTitle => 'Mensaje de ánimo';
 
   @override
   String notificationTestBody(int days) {
@@ -2985,11 +2985,11 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String notificationProgressBody(int days, String message) {
-    return '$days días sin consumir — $message';
+    return 'Llevas $days días — $message';
   }
 
   @override
-  String get notificationProgressMessage1 => '¡Sigue con este gran trabajo!';
+  String get notificationProgressMessage1 => '¡Sigue así!';
 
   @override
   String get notificationProgressMessage2 => '¡Lo estás haciendo genial!';

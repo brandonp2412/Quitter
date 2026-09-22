@@ -448,6 +448,40 @@ void main() {
         }
       }
     }
+    final spanish = _readArb('es');
+    expect(
+      spanish['settingsResetButtonsSubtitle'],
+      'Mostrar botones de reinicio en las pantallas de seguimiento',
+    );
+    expect(
+      spanish['settingsResetMessagesSubtitle'],
+      'Mostrar mensajes de ánimo al volver a empezar',
+    );
+    expect(spanish['notificationTestTitle'], 'Mensaje de ánimo');
+    expect(
+      spanish['notificationProgressBody'],
+      'Llevas {days} días — {message}',
+    );
+
+    final french = _readArb('fr');
+    expect(
+      french['statsNoAddictions'],
+      'Commencez un suivi pour afficher vos statistiques',
+    );
+    expect(
+      french['settingsResetMessagesSubtitle'],
+      'Afficher un message d’encouragement après avoir recommencé',
+    );
+    expect(french['notificationTestTitle'], 'Message d’encouragement');
+    expect(
+      french['notificationProgressBody'],
+      'Déjà {days} jours — {message}',
+    );
+    expect(
+      french['quitMilestonesShareMessage'],
+      "J'ai arrêté {title} depuis {days, plural, =1 {{days} jour} other {{days} jours}} !",
+    );
+    expect(french['notificationProgressMessage10'], 'Tenez bon !');
   });
 
   test('Japanese reference articles do not leak English prose', () {
