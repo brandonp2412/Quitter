@@ -1261,6 +1261,101 @@ void main() {
     }
   });
 
+  test('App Store listing is translated for every supported locale', () {
+    const storeLocales = {
+      'en': 'en-AU',
+      'es': 'es-ES',
+      'fr': 'fr-FR',
+      'ja': 'ja',
+      'ru': 'ru',
+      'zh': 'zh-Hans',
+    };
+    const filenames = {
+      'name.txt',
+      'subtitle.txt',
+      'description.txt',
+      'keywords.txt',
+    };
+
+    final english = <String, String>{
+      for (final filename in filenames)
+        filename: File(
+          'fastlane/metadata/en-AU/$filename',
+        ).readAsStringSync().trim(),
+    };
+
+    for (final locale in AppLocalizations.supportedLocales) {
+      final storeLocale = storeLocales[locale.languageCode];
+      expect(
+        storeLocale,
+        isNotNull,
+        reason: '${locale.languageCode} must map to an App Store locale',
+      );
+
+      final localized = <String, String>{};
+      for (final filename in filenames) {
+        final file = File('fastlane/metadata/$storeLocale/$filename');
+        expect(
+          file.existsSync(),
+          isTrue,
+          reason: '$storeLocale must provide $filename',
+        );
+        localized[filename] = file.readAsStringSync().trim();
+        expect(
+          localized[filename],
+          isNotEmpty,
+          reason: '$storeLocale/$filename must not be empty',
+        );
+      }
+
+      expect(localized['name.txt']!.runes.length, lessThanOrEqualTo(30));
+      expect(localized['subtitle.txt']!.runes.length, lessThanOrEqualTo(30));
+      expect(
+        localized['description.txt']!.runes.length,
+        lessThanOrEqualTo(4000),
+      );
+      expect(
+        utf8.encode(localized['keywords.txt']!).length,
+        lessThanOrEqualTo(100),
+      );
+
+      if (locale.languageCode == 'en') continue;
+
+      expect(
+        localized['description.txt'],
+        isNot(equals(english['description.txt'])),
+        reason: '$storeLocale description must not fall back to English',
+      );
+      expect(
+        localized['subtitle.txt'],
+        isNot(equals(english['subtitle.txt'])),
+        reason: '$storeLocale subtitle must not fall back to English',
+      );
+      expect(
+        localized['keywords.txt'],
+        isNot(equals(english['keywords.txt'])),
+        reason: '$storeLocale keywords must not fall back to English',
+      );
+
+      if (locale.languageCode == 'ja' ||
+          locale.languageCode == 'ru' ||
+          locale.languageCode == 'zh') {
+        expect(
+          _containsTargetScript(
+            locale.languageCode,
+            [
+              localized['description.txt'],
+              localized['subtitle.txt'],
+              localized['keywords.txt'],
+            ].join(' '),
+          ),
+          isTrue,
+          reason: '$storeLocale listing must use the target script',
+        );
+      }
+    }
+  });
+
   test('localized in-app changelogs do not leak commit prefixes', () {
     final commitPrefix = RegExp(
       r'\b(?:build|chore|ci|docs|feat|fix|perf|refactor|test)\s*:\s+',
@@ -1391,6 +1486,32 @@ void main() {
         expect(localized['OwM-mh-QMV.title'], 'Найти предыдущее');
       }
     }
+  });
+
+  test('Windows package declares every supported locale', () {
+    final pubspec = File('pubspec.yaml').readAsStringSync();
+    expect(
+      pubspec,
+      contains('  display_name: Quitter\n'),
+      reason: 'Windows package name must stay locale-neutral',
+    );
+
+    final languagesMatch = RegExp(
+      r'^\s*languages:\s*(.+)$',
+      multiLine: true,
+    ).firstMatch(pubspec);
+    expect(
+      languagesMatch,
+      isNotNull,
+      reason: 'MSIX package must declare its supported languages',
+    );
+
+    final languages = languagesMatch!
+        .group(1)!
+        .split(',')
+        .map((language) => language.trim().toLowerCase())
+        .toSet();
+    expect(languages, {'en-us', 'es-es', 'fr-fr', 'ja-jp', 'ru-ru', 'zh-cn'});
   });
 
   test('web metadata and privacy policy cover every supported locale', () {
