@@ -1,0 +1,1 @@
+• Microsoft Store の予約済み表示名を使用するよう修正

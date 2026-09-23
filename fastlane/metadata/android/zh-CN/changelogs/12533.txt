@@ -1,0 +1,1 @@
+• 修复 Microsoft Store 保留显示名称的使用
