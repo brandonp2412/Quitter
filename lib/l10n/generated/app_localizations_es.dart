@@ -1579,7 +1579,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String get pinDialogPIN => 'PIN';
 
   @override
-  String get pinDialogOK => 'OK';
+  String get pinDialogOK => 'Aceptar';
 
   @override
   String get notificationFrequencyDialogTitle => 'Frecuencia de notificaciones';
@@ -2050,7 +2050,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String get undo => 'Deshacer';
 
   @override
-  String get ok => 'OK';
+  String get ok => 'Aceptar';
 
   @override
   String get alcoholMilestone1Title => 'La calidad del sueño empieza a mejorar';

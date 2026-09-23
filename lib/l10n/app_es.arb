@@ -983,7 +983,7 @@
   "@pinDialogPIN": {
     "description": "Label for PIN field in verification dialog"
   },
-  "pinDialogOK": "OK",
+  "pinDialogOK": "Aceptar",
   "@pinDialogOK": {
     "description": "OK button in PIN dialog"
   },
@@ -1553,7 +1553,7 @@
   "@undo": {
     "description": "Undo button text in reset snackbar"
   },
-  "ok": "OK",
+  "ok": "Aceptar",
   "@ok": {
     "description": "OK button text used in toast messages"
   },
