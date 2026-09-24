@@ -1,0 +1,1 @@
+• fix(l10n): localize 1.1.75 release notes
