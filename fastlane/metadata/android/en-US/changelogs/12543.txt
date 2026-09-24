@@ -1,0 +1,2 @@
+• fix(l10n): finish Spanish confirmation labels
+• fix(l10n): localize 1.1.74 release notes
