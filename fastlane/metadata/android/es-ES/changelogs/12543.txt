@@ -1,0 +1,2 @@
+• Se completaron las etiquetas de confirmación en español
+• Se tradujeron las notas de la versión 1.1.74
