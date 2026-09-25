@@ -152,5 +152,6 @@
   "1790102728": "• Localise les notes de version 1.1.72\n• Améliore les traductions sur le rétablissement en espagnol et en russe\n• Améliore les derniers textes russes sur le rétablissement",
   "1790109589": "• Corrige l’utilisation du nom d’affichage réservé sur le Microsoft Store",
   "1790216567": "• Finalisation des libellés de confirmation en espagnol\n• Traduction des notes de version 1.1.74",
-  "1790263829": "• Traduction des notes de version 1.1.75"
+  "1790263829": "• Traduction des notes de version 1.1.75",
+  "1790334106": "• Ajout des traductions allemandes\n• Ajout des captures d’écran de la boutique en allemand\n• Ajout du libellé « Allemand » dans le sélecteur de langue\n• Régénération des liaisons de localisation allemandes"
 }

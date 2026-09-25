@@ -1,0 +1,4 @@
+• Se añadieron las traducciones al alemán
+• Se añadieron capturas de pantalla de la tienda en alemán
+• Se añadió la etiqueta «Alemán» al selector de idioma
+• Se regeneraron los enlaces de localización en alemán

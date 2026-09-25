@@ -1,0 +1,4 @@
+• Ajout des traductions allemandes
+• Ajout des captures d’écran de la boutique en allemand
+• Ajout du libellé « Allemand » dans le sélecteur de langue
+• Régénération des liaisons de localisation allemandes
