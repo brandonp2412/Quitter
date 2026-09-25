@@ -2172,6 +2172,12 @@ abstract class AppLocalizations {
   /// **'English'**
   String get settingsLocaleEnglish;
 
+  /// Show app in German
+  ///
+  /// In en, this message translates to:
+  /// **'German'**
+  String get settingsLocaleGerman;
+
   /// Show app in Simplified Chinese
   ///
   /// In en, this message translates to:

@@ -600,6 +600,10 @@
   "@settingsLocaleEnglish": {
     "description": "Show app in English"
   },
+  "settingsLocaleGerman": "ドイツ語",
+  "@settingsLocaleGerman": {
+    "description": "Show app in German"
+  },
   "settingsLocaleSimplifiedChinese": "簡体字中国語",
   "@settingsLocaleSimplifiedChinese": {
     "description": "Show app in Simplified Chinese"

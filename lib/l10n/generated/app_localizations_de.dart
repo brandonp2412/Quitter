@@ -1251,6 +1251,9 @@ class AppLocalizationsDe extends AppLocalizations {
   String get settingsLocaleEnglish => 'Englisch';
 
   @override
+  String get settingsLocaleGerman => 'Deutsch';
+
+  @override
   String get settingsLocaleSimplifiedChinese => 'Vereinfachtes Chinesisch';
 
   @override

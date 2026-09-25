@@ -110,6 +110,10 @@ void main() {
           findsOneWidget,
         );
         expect(
+          find.descendant(of: dialog, matching: find.text('German')),
+          findsOneWidget,
+        );
+        expect(
           find.descendant(of: dialog, matching: find.text('Spanish')),
           findsOneWidget,
         );
@@ -136,7 +140,7 @@ void main() {
           AppLocalizations.supportedLocales.map(
             (locale) => locale.languageCode,
           ),
-          ['en', 'es', 'fr', 'ja', 'ru', 'zh'],
+          ['de', 'en', 'es', 'fr', 'ja', 'ru', 'zh'],
         );
 
         await tester.tap(find.text('Russian'));
