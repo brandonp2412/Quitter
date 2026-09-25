@@ -1,0 +1,7 @@
+• Code zur Fertigstellung von Microsoft-Store-Deployments ergänzt
+• Russische Vollbeschreibung erstellt
+• Russische Kurzbeschreibung erstellt
+• lib/main.dart formatiert
+• Flutter-SDK-Pfadkonfiguration aus VS Code entfernt
+• Beim Umschalten der Tagebuchseite auf der Einstellungsseite geblieben
+• JSON-Format für Export und Import verwendet

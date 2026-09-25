@@ -1,0 +1,3 @@
+• Erstellung von GitHub-Releases korrigiert
+• Push ans Ende von deploy.sh verschoben
+• Screenshot-Erstellung lokal ausgeführt

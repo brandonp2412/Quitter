@@ -895,6 +895,7 @@ class _SettingsPageState extends State<SettingsPage> {
     return switch (locale) {
       'system' => l10n.settingsLocaleSystem,
       'en' => l10n.settingsLocaleEnglish,
+      'de' => l10n.settingsLocaleGerman,
       'ja' => l10n.settingsLocaleJapanese,
       'fr' => l10n.settingsLocaleFrench,
       'ru' => l10n.settingsLocaleRussian,

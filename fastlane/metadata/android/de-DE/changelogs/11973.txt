@@ -1,0 +1,8 @@
+• Antidepressiva als verfolgte Abhängigkeit hinzugefügt (#79)
+• Benachrichtigungsumschalter für eigene Einträge hinzugefügt (#78)
+• PIN-Sperrzustand dauerhaft gespeichert und App-Datensicherung deaktiviert
+• glance-appwidget auf 1.1.0 festgesetzt, damit Release-Builds wieder funktionieren
+• Layout-Verschiebung bei PIN-Fehlern mit fester SizedBox-Höhe verhindert
+• Defekten Mayo-Clinic-Press-Link auf der Social-Media-Seite an Tag 365 ersetzt
+• Defekten optimumjoy.com-Link auf der Seite für Inhalte für Erwachsene an Tag 3 ersetzt
+• Defekte oder umgeleitete Quellenlinks auf Abhängigkeitsseiten aktualisiert

@@ -1,0 +1,6 @@
+• Kachel zum Aufhören mit Inhalten für Erwachsene hinzugefügt
+• Scrollen über die schwebende Schaltfläche hinaus ermöglicht
+• Quellen auf der Dampfseite korrigiert
+• Opioid-Quellen verbessert
+• Quellen für Nikotinbeutel und Rauchen verbessert
+• Präfix „Studie“ aus Zeitleistenquellen entfernt

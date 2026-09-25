@@ -1,0 +1,1 @@
+• Fehler behoben, durch den die Startschaltfläche die Tage immer auf 1 setzte

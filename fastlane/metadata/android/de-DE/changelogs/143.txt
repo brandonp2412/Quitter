@@ -1,0 +1,7 @@
+• Datumsauswahl hinzugefügt
+• Nikotinbeutel hinzugefügt
+• Alkohol-Symbol geändert
+• Stil der Einstellungsseite verbessert
+• Relevante Links öffnen sich beim Antippen von Studien
+• Debug-Ausgaben aus Erinnerungen entfernt
+• Debug-Benachrichtigungen entfernt

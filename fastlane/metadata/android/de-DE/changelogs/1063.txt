@@ -1,0 +1,4 @@
+• Benzodiazepine hinzugefügt
+• Heroin hinzugefügt
+• Schaltflächen zum Umschalten aller Einstellungen hinzugefügt
+• Benachrichtigungseinstellungen werden beim Umschalten von Startseiteneinträgen synchronisiert

@@ -1,0 +1,6 @@
+• Farben für Bearbeiten/Löschen auf Ausstiegskarten geändert
+• Fehler in Gradle-Eigenschaften korrigiert
+• Fehler auf der Tagebuchseite korrigiert
+• Linken Abstand der Suche auf der Startseite korrigiert
+• Einstellungen als Schaltfläche in die Suchleiste der Startseite verschoben
+• Farbe des Quitter-SVG-Symbols während des Tab-Wischens kontinuierlich animiert

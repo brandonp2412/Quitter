@@ -1,0 +1,10 @@
+• Paketabschluss für Azure verbessert
+• Fehlenden Content-Type-Header zum Azure-Abschluss hinzugefügt
+• Microsoft-Store-Deployment weiter stabilisiert
+• PIN-Zeitlimit hinzugefügt
+• Russischen Titel hinzugefügt
+• Microsoft-Store-Deployment finalisiert
+• Fest codierte Farben auf Material-Designfarben umgestellt
+• Deployment-Skript bereinigt
+• Russische Vollbeschreibung erstellt
+• Russische Kurzbeschreibung erstellt

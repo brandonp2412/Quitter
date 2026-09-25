@@ -1,0 +1,3 @@
+• CONTRIBUTING.md hinzugefügt
+• Eigene Einträge hinzugefügt
+• Flackern der schwebenden Schaltfläche verhindert

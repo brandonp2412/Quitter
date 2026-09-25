@@ -1,0 +1,7 @@
+• Zurücksetzen-Schaltfläche hinzugefügt
+• Einstellung zum Deaktivieren von Rückfallmeldungen hinzugefügt
+• Einstellung zum Ein-/Ausblenden der Zurücksetzen-Schaltflächen hinzugefügt
+• Symbol der Rückfall-Schaltfläche geändert
+• Quellen auf der Alkoholseite korrigiert
+• Websites öffnen sich nur noch beim Antippen von Quellen
+• Texte der Ausstiegsseiten überarbeitet

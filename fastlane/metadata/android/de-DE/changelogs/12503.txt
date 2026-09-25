@@ -1,0 +1,10 @@
+• Japanische und russische Terminologie angeglichen
+• Französische Quellen zur Erholung vervollständigt
+• Russische Erholungsterminologie korrigiert
+• Einheitliches Sprachniveau der russischen Oberfläche beibehalten
+• Release Notes für 1.1.70 lokalisiert
+• Play-Notes zu Rücknahmen lokalisiert
+• Suchfeld-Löschen und kompakte Statistiken lokalisiert
+• Fortschrittstexte neutral gegenüber Gewohnheiten formuliert
+• Chinesische Formulierungen zur Erholung verbessert
+• Französische und spanische Übersetzungen verbessert

@@ -1,0 +1,7 @@
+• Playwright-MCP in .gitignore aufgenommen
+• Fehlende japanische und chinesische Übersetzungen hinzugefügt
+• Suchleiste zur Seite „Abhängigkeit hinzufügen“ hinzugefügt
+• Startseitensuche auf die Hinzufügen-Seite übernommen und Synonymsuche ergänzt
+• Gemeinsame Meilensteingruppen zusammengeführt und Fentanyl sowie rauchfreien Tabak ergänzt
+• Defekte oder kostenpflichtige Links durch maßgebliche wissenschaftliche Quellen ersetzt
+• quitCardKeepDays und alcoholPageQuitDateDisplay korrekt ins Japanische und Chinesische übersetzt

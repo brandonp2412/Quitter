@@ -1,0 +1,4 @@
+• PIN-Aktion über benutzerfreundliche Beschriftung zugänglich gemacht
+• Linux-Integrationstests unter dwl ausgeblendet
+• PIN-Aktionsbeschriftung in Tests bevorzugt
+• Wiederherstellung des Screenshot-Emulators robuster gemacht

@@ -1,0 +1,10 @@
+• Store-Lokalisierungsabdeckung vervollständigt
+• Release Notes für 1.1.71 lokalisiert
+• App-Store-Release-Notes lokalisiert
+• Verbleibende Begriffe zu sozialen Medien und Stimulanzien lokalisiert
+• Japanische und chinesische Texte zur B12-Erholung verbessert
+• Japanische und chinesische Meilensteintexte verbessert
+• Japanische und chinesische Nikotintexte verbessert
+• Japanische und chinesische Erholungstexte verbessert
+• Russische Übersetzungen zur Erholung verbessert
+• Russische Formulierungen zur Erholung verbessert

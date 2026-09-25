@@ -1,0 +1,4 @@
+• Kontrastverhältnis des Statistik-Titels korrigiert
+• Insights-Symbol für den Statistik-Tab verwendet
+• Statistik-Tab mit Erholungsstatistiken hinzugefügt
+• Option hinzugefügt, die Tagebuchwoche am Montag zu beginnen

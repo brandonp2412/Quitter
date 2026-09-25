@@ -1,0 +1,10 @@
+• CLAUDE.md hinzugefügt
+• Migrationsskript hinzugefügt
+• Überdeckung der Seite zum Hinzufügen einer Abhängigkeit durch die untere Navigation korrigiert
+• Überlauf bei Nikotinbeuteln korrigiert
+• Tests an die aktualisierte Oberfläche von Startseite und Einstellungen angepasst
+• Test formatiert
+• Onboarding für neue Nutzer verbessert
+• Titel in die Filterung der Einstellungen aufgenommen
+• dart format ausgeführt
+• Entfernung des Flutter-Submoduls zugunsten des globalen SDK rückgängig gemacht

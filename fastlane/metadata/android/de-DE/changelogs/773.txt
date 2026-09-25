@@ -1,0 +1,6 @@
+• Badge „Im Microsoft Store herunterladen“ hinzugefügt
+• Defekte Benachrichtigungen ohne eigene Einträge korrigiert
+• Tagebuchseite auf dem Desktop korrigiert
+• Unterschiedliche Löschen-Schaltflächen vereinheitlicht
+• Ungenutzten Code auf der Einstellungsseite entfernt
+• Beispielbenachrichtigung beim Einstellen der Häufigkeit angezeigt

@@ -1,0 +1,3 @@
+• Datumsangaben zur nachgestellten Liste hinzugefügt
+• Builds werden nur signiert, wenn Schlüssel vorhanden sind
+• Tage werden beim erneuten Fokussieren der App aktualisiert

@@ -1,0 +1,10 @@
+• Unit-Tests für die Startseite hinzugefügt
+• Weitere Löschen-Schaltflächen hinzugefügt
+• Tests für die Einstellungsseite hinzugefügt
+• Tests für die Tagebuchseite hinzugefügt
+• Umschalter für den Tagebuch-Tab hinzugefügt
+• Veraltete Unit-Tests entfernt
+• Linux-Ziel der Integrationstests korrigiert
+• Rückfallanzeige nach Rückgängig entfernt
+• Integrationstests laufen vor Deployments unter Linux
+• Flutter auf 3.35.5 aktualisiert

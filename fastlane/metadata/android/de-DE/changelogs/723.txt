@@ -1,0 +1,6 @@
+• Tagebuch-Tab hinzugefügt
+• Seitennavigation zum Tagebuch hinzugefügt
+• Screenshot-Designs abgewechselt
+• Scrollen im Tagebuch korrigiert
+• Tabs in die App-Leiste verschoben
+• Ungenutzte Imports entfernt

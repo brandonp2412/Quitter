@@ -1,0 +1,6 @@
+• Sicherungs-/Importfunktion hinzugefügt
+• Startbildschirm-Widget hinzugefügt
+• Cannabis-Tracking hinzugefügt
+• Suchleiste zu den Einstellungen hinzugefügt
+• Starten eines Verlaufs auf dem Desktop korrigiert
+• Ausgabedatei für Sicherungen auswählbar gemacht

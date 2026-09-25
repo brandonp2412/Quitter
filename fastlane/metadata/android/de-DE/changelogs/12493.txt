@@ -1,0 +1,5 @@
+• Release Notes für 1.1.69 lokalisiert
+• Japanische Übersetzungen zur Erholung verbessert
+• Semantik der russischen Lokalisierung verbessert
+• Russische Quellenübersetzungen verbessert
+• Entwicklertext in Play-Änderungsprotokollen übersetzt

@@ -1,0 +1,2 @@
+• Symbole der Android-Widget-Auswahl an Flutter angeglichen
+• Layout des Startbildschirm-Widgets wiederhergestellt

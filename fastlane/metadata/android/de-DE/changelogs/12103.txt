@@ -1,0 +1,7 @@
+• retroactive-virustotal.yml gelöscht
+• Abstand beim Hinzufügen einer Abhängigkeit vergrößert
+• Gradle aktualisiert
+• Acht Einträge zur Substanzerholung mit recherchierten Meilensteinen hinzugefügt
+• Heroin als eigenen Tracker mit Opioid-Meilensteinen wiederhergestellt
+• Meilensteintexte hinsichtlich Grammatik, Wiederholungen und Fachjargon überarbeitet
+• Bottom Sheet zum Löschen von Meilensteinen in SafeArea eingebettet

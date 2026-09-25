@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_description">Ausstiegs-Tracker</string>
+    <string name="widget_selection_title">Wähle, was du verfolgen möchtest</string>
+    <string name="widget_selection_subtitle">Zähle auf dem Startbildschirm die Tage seit dem Aufhören</string>
+    <string name="addiction_alcohol">Alcohol</string>
+    <string name="addiction_vaping">Dampfen</string>
+    <string name="addiction_smoking">Rauchen</string>
+    <string name="addiction_smokeless_tobacco">Dip / Kautabak</string>
+    <string name="addiction_marijuana">Cannabis</string>
+    <string name="addiction_nicotine_pouches">Nikotinbeutel</string>
+    <string name="addiction_opioids">Opioide</string>
+    <string name="addiction_heroin">Heroin</string>
+    <string name="addiction_fentanyl">Fentanyl</string>
+    <string name="addiction_social_media">Soziale Medien</string>
+    <string name="addiction_pornography">Inhalte für Erwachsene</string>
+    <string name="addiction_cocaine">Kokain</string>
+    <string name="addiction_meth">Methamphetamin</string>
+    <string name="addiction_benzos">Benzodiazepine</string>
+    <string name="addiction_adderall">Adderall</string>
+    <string name="addiction_ssri">SSRI</string>
+    <string name="addiction_snri">SNRI</string>
+    <string name="addiction_tca">Trizyklische Antidepressiva</string>
+    <string name="addiction_maoi">MAOI</string>
+    <string name="addiction_nitrous_oxide">Lachgas</string>
+    <string name="addiction_kratom">Kratom</string>
+    <string name="addiction_gabapentinoids">Gabapentin bzw. Pregabalin</string>
+    <string name="addiction_ghb">GHB</string>
+    <string name="addiction_ketamine">Ketamin</string>
+    <string name="addiction_inhalants">Inhalationsmittel</string>
+    <string name="addiction_synthetic_cannabinoids">Synthetische Cannabinoide</string>
+    <string name="addiction_mdma">MDMA</string>
+    <string name="addiction_steroids">Anabole Steroide</string>
+    <plurals name="widget_days">
+        <item quantity="one">%d Tag</item>
+        <item quantity="other">%d Tage</item>
+    </plurals>
+    <string name="widget_not_set">Nicht festgelegt</string>
+    <string name="widget_unknown">Unbekannt</string>
+    <string name="widget_error">Error</string>
+    <string name="widget_setup_text">Tippen zum
+Einrichten</string>
+    <string name="widget_addiction_placeholder">Abhängigkeit</string>
+    <string name="widget_zero_days">0 Tage</string>
+</resources>

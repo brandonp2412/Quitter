@@ -1,0 +1,2 @@
+• Hauptabstände korrigiert
+• Unit-Tests korrigiert

@@ -1,0 +1,4 @@
+• Toast-Meldungen werden wieder ausgeblendet
+• Löschen-Symbol von oben links nach oben rechts verschoben
+• Vollständige Bearbeitungsseite über die Bearbeiten-Schaltfläche eigener Einträge geöffnet
+• System-Zurück beendet nun den Bearbeitungsmodus, statt die Startseite zu verlassen

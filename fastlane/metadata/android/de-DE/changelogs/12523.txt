@@ -1,0 +1,3 @@
+• Release Notes für 1.1.72 lokalisiert
+• Spanische und russische Übersetzungen zur Erholung verbessert
+• Verbleibende russische Erholungstexte verbessert

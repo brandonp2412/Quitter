@@ -1,0 +1,5 @@
+• Uhrzeit für Benachrichtigungen planbar gemacht
+• Überspringen morgiger Erinnerungen korrigiert
+• Benachrichtigungszeit schreibgeschützt gemacht
+• Duplizierung im Einstellungsprovider reduziert
+• Startseite aus main.dart ausgelagert

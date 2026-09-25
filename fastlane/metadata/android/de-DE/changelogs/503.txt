@@ -1,0 +1,6 @@
+• Fehlende Plugin-Konfigurationen für Erinnerungen hinzugefügt
+• Ausführlichere Meilensteine für eigene Ausstiegsseiten hinzugefügt
+• Fehler auf Nicht-Android-Plattformen korrigiert
+• Berechnung der Tagesanzahl korrigiert
+• Tagesberechnung korrigiert
+• Einheitliche Snackbars für Datenaktionen auf der Einstellungsseite verwendet

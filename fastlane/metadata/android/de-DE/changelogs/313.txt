@@ -1,0 +1,2 @@
+• Erstellung von GitHub-Releases korrigiert
+• Einfärbung der App-Leiste entfernt

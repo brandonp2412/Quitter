@@ -1,0 +1,2 @@
+• Vereinfachte chinesische Übersetzung hinzugefügt
+• Toast-Meldungen werden wieder ausgeblendet

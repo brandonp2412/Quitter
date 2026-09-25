@@ -1,0 +1,7 @@
+• Suchtext der Einstellungen auf „Einstellungen durchsuchen“ geändert
+• Schaltfläche zum Umschalten aller Benachrichtigungen entfernt
+• Suchtext der Einstellungen aktualisiert
+• Benachrichtigungsumschalter auf aktive Abhängigkeiten beschränkt
+• Vorschau-Benachrichtigung beim Aktivieren eines Abhängigkeitsumschalters ausgelöst
+• „Was ist neu?“-Protokoll bereinigt und künftige Duplikate verhindert
+• Dynamische Kartenhöhen, flache Suchleiste und kürzere Benachrichtigungen umgesetzt

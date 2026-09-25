@@ -1,0 +1,4 @@
+• Lint-Warnungen korrigiert
+• deploy.sh verschlankt
+• Aktualisierung des Startbildschirm-Widgets weiter verbessert
+• Widget-Aktualisierungen weiter verbessert

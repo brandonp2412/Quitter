@@ -1,0 +1,9 @@
+• Eigene Symbolauswahl hinzugefügt
+• Suchfilter zur Seite „Was ist neu?“ hinzugefügt
+• Dialog für Benachrichtigungshäufigkeit geändert
+• Helleren Symbolkontrast bevorzugt
+• Innenabstände auf der Seite zum Bearbeiten eigener Einträge korrigiert
+• Farbkontrast der Symbole verbessert
+• Kontrastfarben vereinheitlicht
+• Startbildschirm-Widgets werden täglich aktualisiert
+• Seitenvorlagen refaktoriert

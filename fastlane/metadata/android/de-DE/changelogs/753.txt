@@ -1,0 +1,2 @@
+• Einstellung zum Wischen zwischen Tabs hinzugefügt
+• Fehler auf der Tagebuchseite verhindert

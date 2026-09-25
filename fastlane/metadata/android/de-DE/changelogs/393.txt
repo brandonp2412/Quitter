@@ -1,0 +1,9 @@
+• Sicherungs-/Importfunktion hinzugefügt
+• Startbildschirm-Widget hinzugefügt
+• Cannabis-Tracking hinzugefügt
+• Suchleiste zu den Einstellungen hinzugefügt
+• Starten eines Verlaufs auf dem Desktop korrigiert
+• Aktualisierung aller Screenshots bei Deployments korrigiert
+• Anzeige von „Was ist neu?“ korrigiert
+• shields.io für Download-Zähler verlinkt
+• Ausgabedatei für Sicherungen auswählbar gemacht

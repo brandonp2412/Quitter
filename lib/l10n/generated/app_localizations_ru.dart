@@ -1262,6 +1262,9 @@ class AppLocalizationsRu extends AppLocalizations {
   String get settingsLocaleEnglish => 'Английский';
 
   @override
+  String get settingsLocaleGerman => 'Немецкий';
+
+  @override
   String get settingsLocaleSimplifiedChinese => 'Упрощённый китайский';
 
   @override

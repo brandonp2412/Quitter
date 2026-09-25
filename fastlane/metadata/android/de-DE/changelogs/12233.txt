@@ -1,0 +1,3 @@
+• Patrol-Selektor des Widgets robuster gemacht
+• Mythen zu Inhalten für Erwachsene durch belegte Aussagen ersetzt
+• Evidenzbasierte Meilensteintexte wiederhergestellt

@@ -1,0 +1,7 @@
+• Eigene Einträge können im Startbildschirm-Widget ausgewählt werden
+• Titel- und Farblabel auf der Seite eigener Einträge geändert
+• Screenshots im README korrigiert
+• „Was ist neu?“-Seite im Web korrigiert
+• Label der Farbauswahl vereinheitlicht
+• Unpassende Links aus dem README entfernt
+• Kleine Refaktorierung

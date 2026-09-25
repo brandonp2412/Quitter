@@ -100,7 +100,7 @@ jobs:
       fail-fast: false
       matrix:
         device_type: [phoneScreenshots, sevenInchScreenshots, tenInchScreenshots]
-        locale: [en, es, fr, ja, ru, zh]
+        locale: [en, de, es, fr, ja, ru, zh]
         include:
           - device_type: phoneScreenshots
             profile: pixel_6
@@ -156,6 +156,7 @@ jobs:
         run: |
           case "$LOCALE" in
             en) STORE_LOCALE=en-US ;;
+            de) STORE_LOCALE=de-DE ;;
             es) STORE_LOCALE=es-ES ;;
             fr) STORE_LOCALE=fr-FR ;;
             ja) STORE_LOCALE=ja-JP ;;

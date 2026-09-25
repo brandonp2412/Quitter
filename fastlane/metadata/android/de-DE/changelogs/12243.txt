@@ -1,0 +1,9 @@
+• Abschlussprüfungen des Microsoft-Store-Rollouts korrigiert
+• Mehrzeilige Store-Rollout-Antworten verarbeitet
+• DWL_APP_ID an die Linux-App weitergegeben
+• Veröffentlichte Store-Einreichungen gezielt verwendet
+• Codex-Hooks für automatische Validierung eingerichtet
+• Talker-Protokollierung integriert
+• Regelkonforme Sieben-Zoll-Screenshots erzwungen
+• Abläufe des Erholungs-Trackings gehärtet
+• Flutter-Qualitätsformatierung eingegrenzt
