@@ -1,0 +1,4 @@
+• feat(l10n): add German translations
+• fix(l10n): add German store screenshots
+• fix(l10n): label German in language picker
+• fix(l10n): regenerate German localization bindings
