@@ -1,0 +1,70 @@
+name: Generate German screenshots
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  generate-german-screenshots:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        device_type: [phoneScreenshots, sevenInchScreenshots, tenInchScreenshots]
+        include:
+          - device_type: phoneScreenshots
+            profile: pixel_6
+          - device_type: sevenInchScreenshots
+            profile: Nexus 7
+            screen_size: 1920x1080
+          - device_type: tenInchScreenshots
+            profile: Nexus 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+
+      - name: Setup Java
+        uses: actions/setup-java@cf277c60eb25467037889841efdb72551f06f6c3c # v4
+        with:
+          distribution: "zulu"
+          java-version: "17"
+
+      - name: Setup Flutter from submodule
+        run: |
+          git submodule update --init --recursive flutter
+          echo "$GITHUB_WORKSPACE/flutter/bin" >> "$GITHUB_PATH"
+          flutter/bin/flutter config --no-analytics
+
+      - name: Get Flutter dependencies
+        run: flutter pub get
+
+      - name: Enable KVM
+        run: |
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+          sudo udevadm control --reload-rules
+          sudo udevadm trigger --name-match=kvm
+
+      - name: Generate German screenshots
+        uses: reactivecircus/android-emulator-runner@a421e43855164a8197daf9d8d40fe71c6996bb0d # v2
+        env:
+          QUITTER_DEVICE_TYPE: ${{ matrix.device_type }}
+          QUITTER_LOCALE: de
+          SCREENSHOT_SCREEN_SIZE: ${{ matrix.screen_size }}
+        with:
+          api-level: 35
+          target: google_apis
+          arch: x86_64
+          profile: ${{ matrix.profile }}
+          emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim -camera-back none
+          script: ./scripts/ci_screenshots.sh
+
+      - name: Upload German screenshots
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: german-screenshots-${{ matrix.device_type }}
+          path: fastlane/metadata/android/de-DE/images/${{ matrix.device_type }}
+          if-no-files-found: error
+          retention-days: 1
