@@ -1,0 +1,6 @@
+• Badge „Im Microsoft Store herunterladen“ hinzugefügt
+• Hinweistexte hinzugefügt
+• Tag wird nach Leeren der Eingabe standardmäßig auf 1 gesetzt
+• Layout der Ausstiegsseiten ausgelagert
+• deploy.sh bei mehreren verbundenen Geräten korrigiert
+• Ausstieg wird beim Leeren des Tagesfelds zurückgesetzt

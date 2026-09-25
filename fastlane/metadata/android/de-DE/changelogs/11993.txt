@@ -1,0 +1,3 @@
+• Design-Dialog durch SegmentedButton plus AMOLED-Umschalter ersetzt
+• Zeilenumbruch bei SegmentedButton-Labels durch Entfernen doppelter Innenabstände verhindert
+• Umbruch von Kartentiteln auf schmalen Bildschirmen verhindert

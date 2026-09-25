@@ -105,7 +105,7 @@ Map<String, String> _appleStrings(String path) {
 }
 
 bool _containsTargetScript(String languageCode, String value) {
-  if (languageCode == 'es' || languageCode == 'fr') {
+  if (languageCode == 'de' || languageCode == 'es' || languageCode == 'fr') {
     return RegExp(r'[A-Za-zÀÂÆÇÉÈÊËÎÏÔŒÙÛÜŸàâæçéèêëîïôœùûüÿ]').hasMatch(value);
   }
 
@@ -146,6 +146,13 @@ void main() {
     'aboutLicenseMIT',
     'ok',
   };
+  const intentionalSharedGermanValues = {
+    'addictionHeroin',
+    'addictionFentanyl',
+    'settingsSectionSystem',
+    'settingsOrangeColorScheme',
+    'themeSystem',
+  };
   const intentionalSharedFrenchValues = {
     'tabJournal',
     'addictionFentanyl',
@@ -163,6 +170,10 @@ void main() {
     'addiction_ghb',
     'addiction_mdma',
     'widget_error',
+  };
+  const intentionalSharedGermanAndroidValues = {
+    'addiction_heroin',
+    'addiction_fentanyl',
   };
   const intentionalSharedFrenchAndroidValues = {
     'addiction_fentanyl',
@@ -199,6 +210,8 @@ void main() {
             (key) =>
                 localized[key] == english[key] &&
                 !intentionalSharedValues.contains(key) &&
+                !(locale.languageCode == 'de' &&
+                    intentionalSharedGermanValues.contains(key)) &&
                 !(locale.languageCode == 'fr' &&
                     intentionalSharedFrenchValues.contains(key)),
           )
@@ -212,6 +225,8 @@ void main() {
 
       final latinOnlyMessages = englishKeys.where((key) {
         if (intentionalSharedValues.contains(key) ||
+            (locale.languageCode == 'de' &&
+                intentionalSharedGermanValues.contains(key)) ||
             (locale.languageCode == 'fr' &&
                 intentionalSharedFrenchValues.contains(key))) {
           return false;
@@ -459,6 +474,7 @@ void main() {
       caseSensitive: false,
     );
     const sourcePrefixes = {
+      'de': ['Quelle:'],
       'es': ['Fuente:'],
       'fr': ['Source :', 'Source:'],
       'ja': ['出典：', '出典:'],
@@ -1154,6 +1170,7 @@ void main() {
 
     const storeLocales = {
       'en': 'en-US',
+      'de': 'de-DE',
       'es': 'es-ES',
       'fr': 'fr-FR',
       'ja': 'ja-JP',
@@ -1161,7 +1178,7 @@ void main() {
       'zh': 'zh-CN',
     };
 
-    expect(workflow, contains('locale: [en, es, fr, ja, ru, zh]'));
+    expect(workflow, contains('locale: [en, de, es, fr, ja, ru, zh]'));
     for (final locale in AppLocalizations.supportedLocales) {
       final languageCode = locale.languageCode;
       final storeLocale = storeLocales[languageCode];
@@ -1184,6 +1201,7 @@ void main() {
 
   test('Play Store screenshots are localized for every supported locale', () {
     const storeLocales = {
+      'de': 'de-DE',
       'es': 'es-ES',
       'fr': 'fr-FR',
       'ja': 'ja-JP',
@@ -1234,6 +1252,7 @@ void main() {
 
   test('Play Store listing is translated for every supported locale', () {
     const storeLocales = {
+      'de': 'de-DE',
       'es': 'es-ES',
       'fr': 'fr-FR',
       'ja': 'ja-JP',
@@ -1246,6 +1265,7 @@ void main() {
       'full_description.txt': 4000,
     };
     const shortDescriptionMarkers = {
+      'de': ['Fortschritt', 'Meilensteine', 'Tagebuch'],
       'es': ['progreso', 'hitos', 'diario'],
       'fr': ['progrès', 'étapes', 'journal'],
       'ja': ['進捗', '節目', '日記'],
@@ -1396,6 +1416,7 @@ void main() {
 
   test('App Store release notes are translated for every supported locale', () {
     const storeLocales = {
+      'de': 'de-DE',
       'es': 'es-ES',
       'fr': 'fr-FR',
       'ja': 'ja',
@@ -1444,6 +1465,7 @@ void main() {
   test('App Store listing is translated for every supported locale', () {
     const storeLocales = {
       'en': 'en-AU',
+      'de': 'de-DE',
       'es': 'es-ES',
       'fr': 'fr-FR',
       'ja': 'ja',
@@ -1562,7 +1584,7 @@ void main() {
       r'\b(?:backend|build|chore|ci|docs|feat|fix|frontend|perf|refactor|style|test)\s*[:：]\s*',
       caseSensitive: false,
     );
-    const storeLocales = ['es-ES', 'fr-FR', 'ja-JP', 'ru-RU', 'zh-CN'];
+    const storeLocales = ['de-DE', 'es-ES', 'fr-FR', 'ja-JP', 'ru-RU', 'zh-CN'];
 
     for (final storeLocale in storeLocales) {
       final changelogs =
@@ -1691,7 +1713,15 @@ void main() {
         .split(',')
         .map((language) => language.trim().toLowerCase())
         .toSet();
-    expect(languages, {'en-us', 'es-es', 'fr-fr', 'ja-jp', 'ru-ru', 'zh-cn'});
+    expect(languages, {
+      'en-us',
+      'de-de',
+      'es-es',
+      'fr-fr',
+      'ja-jp',
+      'ru-ru',
+      'zh-cn',
+    });
   });
 
   test('web metadata and privacy policy cover every supported locale', () {
@@ -1701,7 +1731,7 @@ void main() {
     final englishDescription = englishManifest['description'] as String;
     expect(englishManifest['lang'], 'en');
 
-    const manifestLocales = {'es', 'fr', 'ja', 'ru', 'zh'};
+    const manifestLocales = {'de', 'es', 'fr', 'ja', 'ru', 'zh'};
     for (final locale in AppLocalizations.supportedLocales) {
       if (locale.languageCode == 'en') continue;
 
@@ -1728,6 +1758,7 @@ void main() {
 
     final index = File('web/index.html').readAsStringSync();
     expect(index, contains('manifest_'));
+    expect(index, contains('Verfolge Fortschritt'));
     expect(index, contains('Sigue tu progreso al dejar hábitos'));
     expect(index, contains('Suivez vos progrès'));
     expect(index, contains('やめたい習慣'));
@@ -1735,11 +1766,13 @@ void main() {
     expect(index, contains('记录戒除习惯'));
 
     final privacy = File('docs/privacy-policy.html').readAsStringSync();
+    expect(privacy, contains('Quitter-Datenschutzerklärung'));
     expect(privacy, contains('Política de privacidad de Quitter'));
     expect(privacy, contains('Politique de confidentialité de Quitter'));
     expect(privacy, contains('Quitter プライバシーポリシー'));
     expect(privacy, contains('Quitter — Политика конфиденциальности'));
     expect(privacy, contains('Quitter 隐私政策'));
+    expect(privacy, contains('?lang=de'));
     expect(privacy, contains('?lang=es'));
     expect(privacy, contains('?lang=fr'));
     expect(privacy, contains('?lang=ja'));
@@ -1869,6 +1902,7 @@ void main() {
     expect(defaultPlurals['widget_days']?.values, everyElement(contains('%d')));
 
     const expectedPluralQuantities = {
+      'de': {'one', 'other'},
       'es': {'one', 'other'},
       'fr': {'one', 'other'},
       'ja': {'other'},
@@ -1921,6 +1955,8 @@ void main() {
             (key) =>
                 localized[key] == defaults[key] &&
                 !intentionalSharedAndroidValues.contains(key) &&
+                !(locale.languageCode == 'de' &&
+                    intentionalSharedGermanAndroidValues.contains(key)) &&
                 !(locale.languageCode == 'fr' &&
                     intentionalSharedFrenchAndroidValues.contains(key)),
           )
@@ -1934,6 +1970,8 @@ void main() {
 
       final latinOnlyStrings = defaults.keys.where((key) {
         if (intentionalSharedAndroidValues.contains(key) ||
+            (locale.languageCode == 'de' &&
+                intentionalSharedGermanAndroidValues.contains(key)) ||
             (locale.languageCode == 'fr' &&
                 intentionalSharedFrenchAndroidValues.contains(key))) {
           return false;

@@ -1,0 +1,3 @@
+• Platzhalter des Android-Widgets lokalisiert
+• Anwendungstitel lokalisiert
+• Quellenartikel der Meilensteine lokalisiert

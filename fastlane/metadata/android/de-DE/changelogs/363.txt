@@ -1,0 +1,2 @@
+• Überschriften für noch nicht gestartete Verläufe angepasst
+• Speicherung der Einstellung zum Ein-/Ausblenden der Zurücksetzen-Schaltfläche korrigiert

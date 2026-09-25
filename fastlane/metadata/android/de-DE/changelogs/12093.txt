@@ -1,0 +1,3 @@
+• Material-Symbole zur Auswahl hinzugefügt und aktuelle Auswahl in den sichtbaren Bereich gescrollt
+• Symbol und Farbe voreingestellter Kacheln bearbeitbar gemacht
+• Vollständigen Material-Symbolsatz erzeugt und Auswahl lazy geladen

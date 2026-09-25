@@ -1,0 +1,6 @@
+• Animationen beim Beginn des Aufhörens hinzugefügt
+• Google-Play-Badge hinzugefügt
+• Google-Play-Badge ergänzt
+• Microsoft Store konfiguriert
+• Ausgeblendete Nikotinbeutel werden nicht mehr angezeigt
+• Verweise von com.example.quitter auf com.quitter.app umgestellt

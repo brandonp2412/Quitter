@@ -1,0 +1,10 @@
+• Web-Badge hinzugefügt
+• Cannabis zur Einstellungsseite hinzugefügt
+• Eigene Einträge werden automatisch großgeschrieben
+• Meldungen beim Exportieren/Importieren geändert
+• Automatische Großschreibung eigener Einträge korrigiert
+• Tagesberechnung beim Bearbeiten eigener Einträge korrigiert
+• Zurücksetzen-Schaltfläche an Tag 1 ausgeblendet
+• In der Widget-Auswahl werden nur aufgegebene Gewohnheiten angezeigt
+• Startbildschirm-Widget wird häufiger aktualisiert
+• Benachrichtigungen werden nach dem Import angefordert

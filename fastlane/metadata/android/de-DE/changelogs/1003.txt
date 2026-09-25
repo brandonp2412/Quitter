@@ -1,0 +1,8 @@
+• Sprache kann manuell gewählt werden
+• Japanische Übersetzungen für alle Meilensteine hinzugefügt
+• Japanische Lokalisierung hinzugefügt
+• Tests der Einstellungsseite korrigiert
+• Unit-Tests korrigiert
+• l10n-Konfiguration für Flutter 3.38+ aktualisiert
+• „Was ist neu?“ formatiert
+• Flutter auf 3.38.3 aktualisiert

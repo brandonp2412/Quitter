@@ -1,0 +1,10 @@
+• Linken Abstand zum Suchsymbol hinzugefügt
+• Unteren Abstand bei Meilensteinen korrigiert
+• Symbol zum Umbenennen von Abhängigkeitskarten per langem Druck hinzugefügt
+• Karten können per langem Druck verschoben werden; beim Loslassen erscheinen Löschen-Badges
+• Antidepressiva in SSRI, SNRI, TCA und MAOI neu eingeteilt
+• Zum zuletzt abgeschlossenen statt zum nächsten Meilenstein gescrollt
+• Unteren Abstand zur Meilensteinliste hinzugefügt, damit die schwebende Schaltfläche den letzten Eintrag nicht verdeckt
+• Negative Kartenbreite bei zu schmalem Ansichtsbereich verhindert
+• Sanfte Animation statt direktem Sprung beim Scrollen zu Meilensteinen
+• Optionen zum Hinzufügen von Abhängigkeiten alphabetisch sortiert

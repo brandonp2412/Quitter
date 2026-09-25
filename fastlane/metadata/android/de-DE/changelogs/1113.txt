@@ -1,0 +1,3 @@
+• Titel zur Datenschutzerklärung hinzugefügt
+• Benachrichtigungen für eine Abhängigkeit werden beim Ausblenden deaktiviert
+• Verlauf vom „Im Web öffnen“-Badge entfernt

@@ -1,0 +1,3 @@
+• lib/main.dart formatiert
+• Flutter-SDK-Pfadkonfiguration aus VS Code entfernt
+• Beim Umschalten der Tagebuchseite auf der Einstellungsseite geblieben

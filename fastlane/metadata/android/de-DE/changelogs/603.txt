@@ -1,0 +1,4 @@
+• Abstand über dem Titel im Ausstiegs-Tracker hinzugefügt
+• Scrollen auf der Seite zum Bearbeiten von Einträgen korrigiert
+• Vollständiges Datum einschließlich Jahr angezeigt
+• Aktualisierung des Startbildschirm-Widgets weiter verbessert

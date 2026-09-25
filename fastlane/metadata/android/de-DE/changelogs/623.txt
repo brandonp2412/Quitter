@@ -1,0 +1,5 @@
+• Löschen von Meilensteintagen korrigiert
+• Um-eins-Fehler bei der Zahl der Aufhör-Tage korrigiert
+• Zurücksetzen von Meilensteinen korrigiert
+• Meilensteine können per langem Druck aus dem Verlauf gelöscht werden
+• Abstand am Ende der Meilensteinseite entfernt

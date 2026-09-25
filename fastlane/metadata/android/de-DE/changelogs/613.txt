@@ -1,0 +1,5 @@
+• Speicherung der Benachrichtigungseinstellung für Nikotinbeutel korrigiert
+• Zurücksetzen-Schaltfläche auf der Meilensteinseite beibehalten
+• Code im Einstellungsprovider organisiert
+• Meilensteinseite refaktoriert
+• Vorlage der Ausstiegsseite refaktoriert

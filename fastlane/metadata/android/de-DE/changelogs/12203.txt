@@ -1,0 +1,4 @@
+• Weitere Korrektur am Patrol-Test versucht
+• Patrol in CI/CD weiter stabilisiert
+• Pipelines korrigiert
+• Pipeline weiter korrigiert

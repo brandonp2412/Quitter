@@ -1,0 +1,4 @@
+• PIN-Zeitlimit hinzugefügt
+• Abschluss des Azure-Rollouts korrigiert
+• Sperrzeitlimit korrigiert
+• Unit-Tests korrigiert

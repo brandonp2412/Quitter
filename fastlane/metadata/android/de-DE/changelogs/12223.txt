@@ -1,0 +1,4 @@
+• Google-Play-Store-Metadaten automatisch synchronisiert (#107)
+• Aussagen zu Meilensteinen an zitierte Belege angeglichen
+• Flutter-Härtung lokal angewendet
+• Nicht ausreichend belegte Meilensteintitel präzisiert

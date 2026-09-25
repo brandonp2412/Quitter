@@ -1,0 +1,4 @@
+• Texte und Quellen zum Aufhören verbessert
+• serena.yml aktualisiert
+• 15 falsche oder defekte Studienlinks korrigiert
+• Verbleibende ungenaue Studienzitate auf Meilensteinseiten korrigiert

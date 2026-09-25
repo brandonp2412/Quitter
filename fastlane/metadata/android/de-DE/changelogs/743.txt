@@ -1,0 +1,4 @@
+• Schaltfläche „Fehler melden“ hinzugefügt
+• Berechnung von Tagesdifferenzen korrigiert
+• Berechnung von Tagesdifferenzen optimiert
+• Zufällige Standardfarbe für neue eigene Einträge

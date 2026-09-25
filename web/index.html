@@ -35,11 +35,12 @@
       const requestedLanguage = (navigator.languages?.[0] ?? navigator.language ?? 'en')
         .toLowerCase()
         .split('-')[0];
-      const language = ['es', 'fr', 'ja', 'ru', 'zh'].includes(requestedLanguage)
+      const language = ['de', 'es', 'fr', 'ja', 'ru', 'zh'].includes(requestedLanguage)
         ? requestedLanguage
         : 'en';
       const descriptions = {
         en: 'Track quitting progress, milestones, journals, and recovery reminders privately and offline.',
+        de: 'Verfolge Fortschritt, Meilensteine, Tagebuch und Erinnerungen beim Aufhören privat und offline.',
         es: 'Sigue tu progreso al dejar hábitos, tus hitos, tu diario y tus recordatorios de recuperación de forma privada y sin conexión.',
         fr: 'Suivez vos progrès, vos étapes, votre journal et vos rappels pour changer vos habitudes, en privé et hors ligne.',
         ja: 'やめたい習慣の進捗、節目、日記、回復リマインダーをプライベートかつオフラインで記録できます。',

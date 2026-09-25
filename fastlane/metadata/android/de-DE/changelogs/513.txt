@@ -1,0 +1,5 @@
+• Anzeigen für Rückfallverlauf geändert
+• Meilensteine eigener Ausstiegseinträge verbessert
+• Microsoft-Store-Badge entfernt
+• Windows-Store-Deployment aus GitHub Actions entfernt
+• Startbildschirm-Widget zeigt 1 Tag statt 0 Tage

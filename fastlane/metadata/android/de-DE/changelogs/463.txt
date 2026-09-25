@@ -1,0 +1,10 @@
+• Teilen-Schaltfläche zum Veröffentlichen des Fortschritts hinzugefügt
+• Doppelte Änderungsprotokolle bereinigt
+• deploy.sh korrigiert
+• Ausstiegsseiten scrollen wieder zum aktuellen Meilenstein
+• Speicherung früherer Aufhör-Tage korrigiert
+• Teilen-Text im benutzerdefinierten Teilen-Menü korrigiert
+• Zeitleistenfortschritt beim Zurücksetzen korrigiert
+• Code refaktoriert
+• Punkte für den Ausstiegsverlauf hinzugefügt
+• Ähnliche Meilensteine in eigenen Einträgen angezeigt

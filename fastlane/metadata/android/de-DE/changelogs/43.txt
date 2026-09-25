@@ -1,0 +1,4 @@
+• Benachrichtigungen hinzugefügt
+• Scrollverhalten bei Alkohol und Dampfen angepasst
+• Flutter-Einrichtung für den Android-Build korrigiert
+• Problematischen Code auf der Einstellungsseite korrigiert

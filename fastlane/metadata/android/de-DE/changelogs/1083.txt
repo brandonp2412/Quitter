@@ -1,0 +1,4 @@
+• Adderall-Umschalter zur Einstellungsseite hinzugefügt
+• Startseite alphabetisch sortiert
+• Einstellungsseite alphabetisch sortiert
+• Stigmatisierte Abhängigkeiten standardmäßig ausgeblendet

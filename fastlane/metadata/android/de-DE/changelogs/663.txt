@@ -1,0 +1,3 @@
+• Rein schwarzes Design hinzugefügt
+• Eigene Einträge in Benachrichtigungen aufgenommen
+• in_app_review entfernt

@@ -1,0 +1,9 @@
+• PIN-Sperreinstellung hinzugefügt
+• Unit-Tests für die PIN-Seite hinzugefügt
+• Datenimport von der Einstellungsseite korrigiert
+• Pluralisierung der Benachrichtigungshäufigkeit korrigiert
+• Tests der Einstellungsseite korrigiert
+• Unit-Tests korrigiert
+• Entfernung des Windows-Store-Deployments rückgängig gemacht
+• Umstellung aller sensiblen Informationen auf sicheren Speicher rückgängig gemacht
+• Sicheren Speicher für alle sensiblen Informationen verwendet

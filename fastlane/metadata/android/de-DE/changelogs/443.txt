@@ -1,0 +1,5 @@
+• Unnötige KI-Kommentare entfernt
+• Integrationstests korrigiert
+• Leistung verbessert
+• Vorlage der Ausstiegsseite refaktoriert
+• Setter statt set-Methoden im Einstellungsprovider verwendet

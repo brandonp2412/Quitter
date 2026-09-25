@@ -1,0 +1,5 @@
+• pubspec.lock aktualisiert
+• SafeArea zur Startseite hinzugefügt, damit die Statusleiste bei ausgeblendetem Tagebuch nicht kollidiert
+• SafeArea an die Wurzel verschoben, um doppelte Abstände mit der Tab-Leiste zu vermeiden
+• Scaffold-Hintergrund hinter dem Statusleistenbereich gezeichnet
+• Builder verwendet, damit der Statusleistenhintergrund das richtige Design erhält

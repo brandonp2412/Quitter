@@ -1,0 +1,2 @@
+• Abstände im Hauptkopf der App korrigiert
+• Berechtigungen werden nur einmal angefragt

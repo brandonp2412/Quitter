@@ -1,0 +1,6 @@
+• „Was ist neu?“-Benachrichtigungen bei Updates hinzugefügt
+• „Was ist neu?“ wird bei Erstinstallation nicht angezeigt
+• Status der F-Droid-Einreichung im README verlinkt
+• Lint-Probleme korrigiert
+• Benachrichtigungsberechtigung wird nur beim Start eines Verlaufs angefragt
+• Ungenutzten Import entfernt

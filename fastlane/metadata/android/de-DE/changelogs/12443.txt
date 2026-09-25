@@ -1,0 +1,4 @@
+• Spanische und russische Übersetzungen vervollständigt
+• Release Notes für 1.1.64 lokalisiert
+• Lokalisierte Play-Änderungsprotokolle erzeugt
+• Russische Adderall-Übersetzungen überarbeitet

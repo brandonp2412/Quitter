@@ -1,0 +1,5 @@
+• Datenbankimport korrigiert
+• Serena aktualisiert
+• Flutter auf 3.44.6 aktualisiert
+• CI-Prüfung für gesperrte Abhängigkeiten hinzugefügt, um F-Droid-Buildfehler zu verhindern
+• readAsBytes() für Import verwendet und Fehlerbehandlung ergänzt

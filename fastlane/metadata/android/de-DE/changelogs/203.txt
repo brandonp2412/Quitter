@@ -1,0 +1,5 @@
+• Titel und Untertitel angepasst
+• Symbole erneut erzeugt
+• Label-Animationen verhindert
+• Versionskonflikte bei lokaler Entwicklung verhindert
+• Oberflächenfarbe für die Schaltfläche der Kalenderauswahl verwendet

@@ -1,0 +1,3 @@
+• Darstellung der Tagebuchseite im Dunkelmodus korrigiert
+• lib neu formatiert
+• yq-Installation aus deploy.sh entfernt

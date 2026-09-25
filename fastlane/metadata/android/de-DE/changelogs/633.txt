@@ -1,0 +1,3 @@
+• Noch nicht gestartete Verläufe korrigiert
+• Lint-Probleme korrigiert
+• Screenshot-Test scrollt schneller
