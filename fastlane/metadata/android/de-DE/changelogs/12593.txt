@@ -1,0 +1,2 @@
+• Abdeckung des Änderungsprotokolls für 1.1.79 vervollständigt
+• Release Notes für 1.1.79 lokalisiert
