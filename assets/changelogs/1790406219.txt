@@ -1,0 +1,2 @@
+• fix(l10n): complete 1.1.79 changelog coverage
+• fix(l10n): localize 1.1.79 release notes
