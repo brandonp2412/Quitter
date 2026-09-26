@@ -1,0 +1,2 @@
+• Se completó la cobertura del registro de cambios de la versión 1.1.79
+• Se tradujeron las notas de la versión 1.1.79
