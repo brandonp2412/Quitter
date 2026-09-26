@@ -1,0 +1,5 @@
+• Alterar indicadores do histórico de recaídas
+• Melhorar os marcos personalizados de entrada de encerramento
+• Remover o selo da loja Microsoft
+• Remover a implantação do Windows Store da ação do GitHub
+• Diga 1 dia em vez de 0 dias no widget da tela inicial

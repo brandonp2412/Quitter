@@ -1,0 +1,7 @@
+• Caixa de texto de dias fixos dizendo 0 no início
+• Inicialize todos os dias às 1
+• Comece apenas em 1, não adicione 1 à entrada do usuário
+• Remova o botão Iniciar ao digitar o número de dias
+• Remova o sinalizador detalhado para copiar changelogs
+• Especifique o dispositivo para capturas de tela
+• Comece a contar os dias em 1 em vez de zero

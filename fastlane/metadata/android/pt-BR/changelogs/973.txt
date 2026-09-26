@@ -1,0 +1,1 @@
+• Colocar carimbo de data/hora na exportação de dados

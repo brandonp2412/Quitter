@@ -1,0 +1,7 @@
+• Permitir a seleção de entradas personalizadas no widget da tela inicial
+• Alterar o título e o rótulo colorido na página de entrada personalizada
+• Corrigir capturas de tela no README
+• Correção da página "Novidades" na web
+• Tornar o rótulo do seletor de cores mais consistente
+• Remova links estranhos no README
+• Pequeno refatorador

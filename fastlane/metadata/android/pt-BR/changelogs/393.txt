@@ -1,0 +1,9 @@
+• Adicionar recurso de backup/importação
+• Adicionar widget da tela inicial
+• Adicionar rastreamento de maconha
+• Adicionar barra de pesquisa às configurações
+• Correção da jornada inicial no desktop
+• Correção da atualização de todas as capturas de tela nas implantações
+• Corrija o que há de novo que nunca aparece
+• Link Shields.io na contagem de emblemas de downloads
+• Escolha o arquivo de saída para backup

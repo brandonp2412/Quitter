@@ -1,0 +1,1 @@
+• Corrigido marcos de compensação em entradas personalizadas

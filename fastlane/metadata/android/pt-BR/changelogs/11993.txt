@@ -1,0 +1,3 @@
+• substitua a caixa de diálogo do tema por SegmentedButton + alternância AMOLED
+• Corrigida a prevenção de quebra de etiqueta SegmentedButton removendo o preenchimento duplo
+• Corrigida a prevenção de quebra automática de títulos de cartões em telas estreitas

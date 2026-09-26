@@ -1,0 +1,1 @@
+• Corrigida adição de definição de compilação global para suprimir erro de rotina experimental

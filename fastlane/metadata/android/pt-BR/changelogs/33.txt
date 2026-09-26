@@ -1,0 +1,2 @@
+• Corrigir estágio de construção do Android
+• Corrigir construção para Linux

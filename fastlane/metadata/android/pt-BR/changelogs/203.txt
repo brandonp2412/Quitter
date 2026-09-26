@@ -1,0 +1,5 @@
+• Personalizar títulos e legendas
+• Gere ícones novamente
+• Impedir animações de rótulos
+• Evite incompatibilidade de versões ao desenvolver localmente
+• Use a cor da superfície para o botão do seletor de calendário

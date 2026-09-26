@@ -1,0 +1,4 @@
+• Adicionar tempo limite do PIN
+• Corrigir a finalização da implementação do Azure
+• Corrigir tempo limite de bloqueio
+• Corrigir testes unitários

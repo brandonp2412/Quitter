@@ -1,0 +1,3 @@
+• Corrigir notas de lançamento da localização 1.1.72
+• Corrigir traduções de recuperação em polonês para espanhol e russo
+• Corrigir a cópia de recuperação russa restante

@@ -1,0 +1,4 @@
+• Melhorar a saída de cópias e referências
+• Atualizar serena.yml
+• Corrija 15 URLs de referência de estudo incorretos ou quebrados
+• Corrigir citações de estudos imprecisas restantes nas páginas de marcos

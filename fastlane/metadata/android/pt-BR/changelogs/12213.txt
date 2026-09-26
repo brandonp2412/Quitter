@@ -1,0 +1,2 @@
+• Combine os ícones do seletor de widgets do Android com o Flutter
+• Restaurar o layout do widget inicial

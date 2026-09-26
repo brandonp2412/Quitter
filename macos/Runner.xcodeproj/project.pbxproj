@@ -72,6 +72,7 @@
 		D1A000000000000000000001 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/MainMenu.strings; sourceTree = "<group>"; };
 		D1A000000000000000000002 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/MainMenu.strings; sourceTree = "<group>"; };
 		D1A000000000000000000003 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/MainMenu.strings; sourceTree = "<group>"; };
+		D1A000000000000000000007 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/MainMenu.strings; sourceTree = "<group>"; };
 		D1A000000000000000000004 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/MainMenu.strings; sourceTree = "<group>"; };
 		D1A000000000000000000005 /* zh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh; path = zh.lproj/MainMenu.strings; sourceTree = "<group>"; };
 		33CC10F72044A3C60003C045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Runner/Info.plist; sourceTree = "<group>"; };
@@ -386,6 +387,7 @@
 				D1A000000000000000000001 /* es */,
 				D1A000000000000000000002 /* fr */,
 				D1A000000000000000000003 /* ja */,
+				D1A000000000000000000007 /* pt */,
 				D1A000000000000000000004 /* ru */,
 				D1A000000000000000000005 /* zh */,
 			);

@@ -1,0 +1,3 @@
+• adicione ícones de materiais ao seletor e role a seleção para visualização
+• tornar o ícone/cor do bloco predefinido editável
+• gerar um conjunto completo de ícones de materiais e tornar o seletor preguiçoso

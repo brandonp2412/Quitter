@@ -1,0 +1,5 @@
+• Permitir agendamento de hora do dia para notificações
+• Corrigir lembretes que ignoram as notificações de amanhã
+• Fazer notificação em somente leitura
+• Reduza a duplicação no provedor de configurações
+• Divida a página inicial e main.dart

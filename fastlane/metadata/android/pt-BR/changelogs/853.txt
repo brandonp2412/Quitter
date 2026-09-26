@@ -1,0 +1,7 @@
+• Adicionar código slop para supostamente finalizar implantações de msstore
+• Crie ru/full_description.txt
+• Crie ru/short_description.txt
+• Formatar lib/main.dart
+• Remover a configuração do caminho do flutter SDK do vscode
+• Permanecer na página de configurações ao alternar a página do diário
+• Use o formato json para exportação/importação

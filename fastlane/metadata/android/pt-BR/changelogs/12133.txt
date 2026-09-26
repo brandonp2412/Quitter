@@ -1,0 +1,7 @@
+• Ignorar dramaturgo mcp no gitignore
+• adicionar traduções faltantes em japonês e chinês
+• adicionar barra de pesquisa para adicionar página de vício
+• realizar pesquisa inicial para adicionar página e adicionar correspondência de sinônimos
+• consolidar grupos de marcos compartilhados e adicionar fentanil/tabaco sem fumaça
+• Corrigir a substituição de links quebrados/com acesso pago por URLs científicos confiáveis
+• Corrigida a tradução de quitCardKeepDays e AlcoholPageQuitDateDisplay para japonês e chinês

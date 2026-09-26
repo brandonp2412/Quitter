@@ -1,0 +1,4 @@
+• Adicionar botão "Relatar um bug"
+• Corrigir diferenças de cálculo entre dias
+• Otimizar cálculos de diferença de dias
+• Aleatorize a cor padrão para novas entradas personalizadas

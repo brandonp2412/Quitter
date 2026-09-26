@@ -1,0 +1,4 @@
+• Corrigir traduções completas para espanhol e russo
+• Correção das notas de versão 1.1.64 localizadas
+• Corrigir registros de alterações do Google Play materializados e localizados
+• Corrigir traduções do Adderall para russo polonês

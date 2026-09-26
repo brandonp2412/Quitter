@@ -1,0 +1,8 @@
+• Permitir configuração manual do local
+• Talento: Adicionar localização em japonês para todos os marcos
+• Talento: Adicionar suporte à localização em japonês
+• Corrigir testes de unidade da página de configurações
+• Corrigir testes unitários
+• correção: atualização da configuração l10n para compatibilidade com Flutter 3.38+
+• Formatar o que há de novo
+• Atualize a vibração para 3.38.3

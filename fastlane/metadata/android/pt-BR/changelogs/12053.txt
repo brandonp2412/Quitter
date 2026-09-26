@@ -1,0 +1,5 @@
+• Atualizar pubspec.lock
+• Corrigida a adição de SafeArea à página inicial para evitar conflitos na barra de status quando o diário estiver oculto
+• Corrigida a movimentação do SafeArea para root para corrigir o preenchimento duplo com a barra de guias
+• Corrigir o fundo do andaime de pintura atrás da área da barra de status
+• Correção do uso do Builder para que o fundo da barra de status leia o tema correto

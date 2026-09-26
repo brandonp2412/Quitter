@@ -1,0 +1,7 @@
+• Faça com que a pesquisa de configurações diga "configurações de pesquisa"
+• Remover botão para alternar todas as notificações
+• Atualizar o texto das configurações de pesquisa
+• a notificação do filtro alterna apenas para vícios ativos
+• disparar notificação de visualização ao ativar uma alternância de vício
+• Corrija a limpeza do log de novidades e evite futuras duplicatas
+• Correção de alturas dinâmicas de cartões, barra de pesquisa plana, notificações mais curtas

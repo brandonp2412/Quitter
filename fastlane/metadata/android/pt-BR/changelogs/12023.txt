@@ -1,0 +1,10 @@
+• Adicionar preenchimento esquerdo ao ícone de pesquisa
+• Corrija o preenchimento inferior dos marcos
+• mantenha pressionado o ícone para renomear nos cartões de dependência
+• mantenha pressionado para arrastar e reordenar cartões, liberar mostra X excluir crachás
+• reclassificar os antidepressivos em ISRSs, IRSNs, ADTs e IMAOs
+• rolar até o último marco concluído em vez do próximo próximo
+• Corrigida a adição de preenchimento inferior à lista de marcos para que o FAB não cubra o último item
+• Correção para evitar largura negativa do cartão na página inicial quando a janela de visualização é muito estreita
+• Corrigida animação suave em vez de salto instantâneo para rolagem de marcos
+• Corrigir opções de classificação e adição de dependência em ordem alfabética

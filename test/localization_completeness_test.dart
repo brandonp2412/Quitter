@@ -105,7 +105,10 @@ Map<String, String> _appleStrings(String path) {
 }
 
 bool _containsTargetScript(String languageCode, String value) {
-  if (languageCode == 'de' || languageCode == 'es' || languageCode == 'fr') {
+  if (languageCode == 'de' ||
+      languageCode == 'es' ||
+      languageCode == 'fr' ||
+      languageCode == 'pt') {
     return RegExp(r'[A-Za-zÀÂÆÇÉÈÊËÎÏÔŒÙÛÜŸàâæçéèêëîïôœùûüÿ]').hasMatch(value);
   }
 
@@ -478,6 +481,7 @@ void main() {
       'es': ['Fuente:'],
       'fr': ['Source :', 'Source:'],
       'ja': ['出典：', '出典:'],
+      'pt': ['Fonte:'],
       'ru': ['Источник:', 'Источник：'],
       'zh': ['来源：', '来源:'],
     };
@@ -1174,11 +1178,12 @@ void main() {
       'es': 'es-ES',
       'fr': 'fr-FR',
       'ja': 'ja-JP',
+      'pt': 'pt-BR',
       'ru': 'ru-RU',
       'zh': 'zh-CN',
     };
 
-    expect(workflow, contains('locale: [en, de, es, fr, ja, ru, zh]'));
+    expect(workflow, contains('locale: [en, de, es, fr, ja, pt, ru, zh]'));
     for (final locale in AppLocalizations.supportedLocales) {
       final languageCode = locale.languageCode;
       final storeLocale = storeLocales[languageCode];
@@ -1205,6 +1210,7 @@ void main() {
       'es': 'es-ES',
       'fr': 'fr-FR',
       'ja': 'ja-JP',
+      'pt': 'pt-BR',
       'ru': 'ru-RU',
       'zh': 'zh-CN',
     };
@@ -1256,6 +1262,7 @@ void main() {
       'es': 'es-ES',
       'fr': 'fr-FR',
       'ja': 'ja-JP',
+      'pt': 'pt-BR',
       'ru': 'ru-RU',
       'zh': 'zh-CN',
     };
@@ -1269,6 +1276,7 @@ void main() {
       'es': ['progreso', 'hitos', 'diario'],
       'fr': ['progrès', 'étapes', 'journal'],
       'ja': ['進捗', '節目', '日記'],
+      'pt': ['progresso', 'marcos', 'diário'],
       'ru': ['прогресс', 'этап', 'дневник'],
       'zh': ['进度', '里程碑', '日记'],
     };
@@ -1420,6 +1428,7 @@ void main() {
       'es': 'es-ES',
       'fr': 'fr-FR',
       'ja': 'ja',
+      'pt': 'pt-BR',
       'ru': 'ru',
       'zh': 'zh-Hans',
     };
@@ -1469,6 +1478,7 @@ void main() {
       'es': 'es-ES',
       'fr': 'fr-FR',
       'ja': 'ja',
+      'pt': 'pt-BR',
       'ru': 'ru',
       'zh': 'zh-Hans',
     };
@@ -1584,7 +1594,15 @@ void main() {
       r'\b(?:backend|build|chore|ci|docs|feat|fix|frontend|perf|refactor|style|test)\s*[:：]\s*',
       caseSensitive: false,
     );
-    const storeLocales = ['de-DE', 'es-ES', 'fr-FR', 'ja-JP', 'ru-RU', 'zh-CN'];
+    const storeLocales = [
+      'de-DE',
+      'es-ES',
+      'fr-FR',
+      'ja-JP',
+      'pt-BR',
+      'ru-RU',
+      'zh-CN',
+    ];
 
     for (final storeLocale in storeLocales) {
       final changelogs =
@@ -1719,6 +1737,7 @@ void main() {
       'es-es',
       'fr-fr',
       'ja-jp',
+      'pt-br',
       'ru-ru',
       'zh-cn',
     });
@@ -1731,7 +1750,7 @@ void main() {
     final englishDescription = englishManifest['description'] as String;
     expect(englishManifest['lang'], 'en');
 
-    const manifestLocales = {'de', 'es', 'fr', 'ja', 'ru', 'zh'};
+    const manifestLocales = {'de', 'es', 'fr', 'ja', 'pt', 'ru', 'zh'};
     for (final locale in AppLocalizations.supportedLocales) {
       if (locale.languageCode == 'en') continue;
 
@@ -1762,6 +1781,7 @@ void main() {
     expect(index, contains('Sigue tu progreso al dejar hábitos'));
     expect(index, contains('Suivez vos progrès'));
     expect(index, contains('やめたい習慣'));
+    expect(index, contains('Acompanhe seu progresso'));
     expect(index, contains('Отслеживайте прогресс'));
     expect(index, contains('记录戒除习惯'));
 
@@ -1770,12 +1790,14 @@ void main() {
     expect(privacy, contains('Política de privacidad de Quitter'));
     expect(privacy, contains('Politique de confidentialité de Quitter'));
     expect(privacy, contains('Quitter プライバシーポリシー'));
+    expect(privacy, contains('Política de Privacidade do Quitter'));
     expect(privacy, contains('Quitter — Политика конфиденциальности'));
     expect(privacy, contains('Quitter 隐私政策'));
     expect(privacy, contains('?lang=de'));
     expect(privacy, contains('?lang=es'));
     expect(privacy, contains('?lang=fr'));
     expect(privacy, contains('?lang=ja'));
+    expect(privacy, contains('?lang=pt'));
     expect(privacy, contains('?lang=ru'));
     expect(privacy, contains('?lang=zh'));
   });
@@ -1906,6 +1928,7 @@ void main() {
       'es': {'one', 'other'},
       'fr': {'one', 'other'},
       'ja': {'other'},
+      'pt': {'one', 'other'},
       'ru': {'one', 'few', 'many', 'other'},
       'zh': {'other'},
     };

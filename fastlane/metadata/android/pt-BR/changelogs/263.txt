@@ -1,0 +1,1 @@
+• Descrições de configuração para fastlane

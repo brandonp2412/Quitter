@@ -1,0 +1,2 @@
+• correção (l10n): cobertura completa do changelog 1.1.79
+• correção (l10n): localizar notas de versão 1.1.79

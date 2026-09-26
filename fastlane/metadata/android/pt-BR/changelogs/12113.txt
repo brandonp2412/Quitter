@@ -1,0 +1,2 @@
+• Corrigir compilação do Android
+• Correção do erro de supressão de descontinuação da rotina experimental MSVC para compilação do Windows

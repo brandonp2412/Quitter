@@ -1,0 +1,4 @@
+• Corrigir notas de lançamento da localização 1.1.68
+• Corrigir o substituto do widget de localização do Android
+• Correção da localização de menus nativos do macOS
+• Correção da atualização da localização da Play Store russa

@@ -1,0 +1,10 @@
+• Correção do alinhamento da terminologia japonesa e russa
+• Corrigir referências completas de recuperação em francês
+• Corrigir a terminologia de recuperação russa correta
+• Correção para manter o registro da UI em russo consistente
+• Correção das notas de versão 1.1.70 localizadas
+• Corrigida a localização das notas de reversão do Play
+• Correção da limpeza de pesquisa localizada e estatísticas compactas
+• Correção para tornar o hábito da cópia do progresso neutro
+• Corrigir o texto de recuperação em chinês polonês
+• Corrigir traduções polonesas para francês e espanhol

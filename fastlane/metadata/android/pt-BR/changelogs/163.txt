@@ -1,0 +1,6 @@
+• Adicione animações quando você começar a sair
+• Adicione o selo "Obtenha-o no Google Play" [skip ci]
+• Adicione o selo "Obtenha-se no Google Play" [skip ci]
+• Configurar para Microsoft Store [skip ci]
+• Consertar bolsas de nicotina que ainda aparecem depois de escondidas
+• Substitua as referências a com.example.quitter -> com.quitter.app

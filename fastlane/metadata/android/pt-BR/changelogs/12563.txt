@@ -1,0 +1,4 @@
+• adicionar traduções em alemão
+• correção (l10n): adicionar capturas de tela da loja alemã
+• rótulo alemão no seletor de idioma
+• regenera ligações de localização em alemão

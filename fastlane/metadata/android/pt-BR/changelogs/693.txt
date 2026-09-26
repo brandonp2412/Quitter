@@ -1,0 +1,3 @@
+• Corrigir avisos de fiapos
+• Tente corrigir atualizações do widget da tela inicial
+• Tente corrigir atualizações do widget inicial

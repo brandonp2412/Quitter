@@ -1,0 +1,3 @@
+• Correção para tornar o widget do seletor de patrulha resiliente
+• Correção e substituição de mitos sobre pornografia por evidências
+• Corrigir cópia de marco de restauração baseada em evidências

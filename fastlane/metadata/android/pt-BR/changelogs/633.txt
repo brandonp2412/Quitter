@@ -1,0 +1,3 @@
+• Corrigir viagens ainda não iniciadas
+• Corrigir fiapos
+• Role mais rápido no teste de captura de tela

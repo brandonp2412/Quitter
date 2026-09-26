@@ -1,0 +1,5 @@
+• Corrigir dias de marco de compensação
+• Corrigir o número de dias de parada errados em 1
+• Corrigir a redefinição de marcos
+• Mantenha os marcos pressionados para limpar o histórico
+• Remova o espaçamento no final da página de marcos

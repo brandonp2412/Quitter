@@ -1,0 +1,5 @@
+• Correção de notificações de bolsas de nicotina que não lembram
+• Mantenha o botão de redefinição na página de encerramento dos marcos
+• Organize o código no provedor de configurações
+• Refatorar a página de marcos de encerramento
+• Refatorar modelo de página de encerramento

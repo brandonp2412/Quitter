@@ -1,0 +1,8 @@
+• adicionar antidepressivos como um vício rastreado (#79)
+• adicionar alternadores de notificação para entradas personalizadas (#78)
+• Corrija o estado de bloqueio persistente do PIN e desative o backup de dados do aplicativo
+• Fixar o widget-appwidget na versão 1.1.0 para desbloquear compilações de lançamento
+• Corrigida a prevenção de mudança de layout em caso de erro de PIN usando SizedBox de altura fixa
+• Corrigir e substituir link quebrado da Mayo Clinic Press na página de mídia social dia 365
+• Corrigir substituição de link quebrado de optimjoy.com na página de pornografia, dia 3
+• Corrigir atualização de links de referência quebrados/redirecionados em páginas de vícios

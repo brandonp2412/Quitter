@@ -55,7 +55,7 @@ msix_config:
   msstore_appId: 9PKVZWDG3FGC
   display_name: Quitter - Addiction recovery tracker
   publisher_display_name: Brandon Dick
-  languages: en-us, de-de, es-es, fr-fr, ja-jp, ru-ru, zh-cn
+  languages: en-us, de-de, es-es, fr-fr, ja-jp, pt-br, ru-ru, zh-cn
   identity_name: FrisbeeSoftware.Quitter-Addictionrecoverytracker
   msix_version: 1.0.169.0
   logo_path: assets/icon.png

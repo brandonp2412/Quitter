@@ -1,0 +1,2 @@
+• Adicionar cabeçalho Content-Type ausente à finalização do Azure
+• Limpar script de implantação

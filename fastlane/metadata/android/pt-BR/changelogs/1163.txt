@@ -1,0 +1,1 @@
+• Correção da caixa de diálogo ocultada sendo obscurecida pela interface do sistema

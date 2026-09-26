@@ -1,0 +1,3 @@
+• Corrigir etapa de implantação do Google Play
+• Ícone de correção de lembretes de neurologia
+• Correção de execução em versões do GitHub

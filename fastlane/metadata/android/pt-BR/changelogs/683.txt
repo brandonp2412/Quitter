@@ -1,0 +1,9 @@
+• Adicionar seletor de ícone personalizado
+• Adicionar filtro de pesquisa à página Novidades
+• Caixa de diálogo Alterar frequência de notificação
+• Dê preferência ao contraste mais claro dos ícones
+• Correção do preenchimento na página de edição de entradas personalizadas
+• Melhorar o contraste da cor dos ícones
+• Torne as cores contrastantes consistentes
+• Faça com que os widgets da tela inicial sejam atualizados diariamente
+• Refatorar modelos de página
