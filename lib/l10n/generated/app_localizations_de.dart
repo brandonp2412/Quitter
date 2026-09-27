@@ -1266,6 +1266,9 @@ class AppLocalizationsDe extends AppLocalizations {
   String get settingsLocaleFrench => 'Französisch';
 
   @override
+  String get settingsLocaleKorean => 'Koreanisch';
+
+  @override
   String get settingsLocaleSystem => 'Systemfehler';
 
   @override

@@ -1,0 +1,3 @@
+• 테마 대화 상자를 SegmentedButton + AMOLED 토글로 교체
+• 이중 패딩을 제거하여 SegmentedButton 라벨이 감싸는 것을 방지하는 문제 수정
+• 좁은 화면에서 카드 제목이 잘리지 않도록 수정

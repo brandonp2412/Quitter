@@ -1,0 +1,1 @@
+• GitHub 릴리스 본문에 VirusTotal 스캔 링크를 추가하는 문제 수정

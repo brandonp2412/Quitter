@@ -1199,6 +1199,9 @@ class AppLocalizationsZh extends AppLocalizations {
   String get settingsLocaleFrench => '法语';
 
   @override
+  String get settingsLocaleKorean => '韩语';
+
+  @override
   String get settingsLocaleSystem => '系统默认';
 
   @override

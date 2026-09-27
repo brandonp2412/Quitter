@@ -10,6 +10,7 @@ import 'app_localizations_en.dart';
 import 'app_localizations_es.dart';
 import 'app_localizations_fr.dart';
 import 'app_localizations_ja.dart';
+import 'app_localizations_ko.dart';
 import 'app_localizations_ru.dart';
 import 'app_localizations_zh.dart';
 
@@ -104,6 +105,7 @@ abstract class AppLocalizations {
     Locale('es'),
     Locale('fr'),
     Locale('ja'),
+    Locale('ko'),
     Locale('ru'),
     Locale('zh'),
   ];
@@ -2201,6 +2203,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'French'**
   String get settingsLocaleFrench;
+
+  /// Show app in Korean
+  ///
+  /// In en, this message translates to:
+  /// **'Korean'**
+  String get settingsLocaleKorean;
 
   /// Follows the device locale
   ///
@@ -6185,6 +6193,7 @@ class _AppLocalizationsDelegate
     'es',
     'fr',
     'ja',
+    'ko',
     'ru',
     'zh',
   ].contains(locale.languageCode);
@@ -6206,6 +6215,8 @@ AppLocalizations lookupAppLocalizations(Locale locale) {
       return AppLocalizationsFr();
     case 'ja':
       return AppLocalizationsJa();
+    case 'ko':
+      return AppLocalizationsKo();
     case 'ru':
       return AppLocalizationsRu();
     case 'zh':

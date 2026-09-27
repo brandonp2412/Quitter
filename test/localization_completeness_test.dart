@@ -115,6 +115,11 @@ bool _containsTargetScript(String languageCode, String value) {
       return true;
     }
     if (languageCode == 'zh' && isCjk) return true;
+    if (languageCode == 'ko' &&
+        ((rune >= 0xac00 && rune <= 0xd7af) ||
+            (rune >= 0x1100 && rune <= 0x11ff))) {
+      return true;
+    }
     if (languageCode == 'ja' &&
         (isCjk ||
             (rune >= 0x3040 && rune <= 0x30ff) ||
@@ -478,6 +483,7 @@ void main() {
       'es': ['Fuente:'],
       'fr': ['Source :', 'Source:'],
       'ja': ['出典：', '出典:'],
+      'ko': ['출처:', '출처：'],
       'ru': ['Источник:', 'Источник：'],
       'zh': ['来源：', '来源:'],
     };
@@ -1174,11 +1180,12 @@ void main() {
       'es': 'es-ES',
       'fr': 'fr-FR',
       'ja': 'ja-JP',
+      'ko': 'ko-KR',
       'ru': 'ru-RU',
       'zh': 'zh-CN',
     };
 
-    expect(workflow, contains('locale: [en, de, es, fr, ja, ru, zh]'));
+    expect(workflow, contains('locale: [en, de, es, fr, ja, ko, ru, zh]'));
     for (final locale in AppLocalizations.supportedLocales) {
       final languageCode = locale.languageCode;
       final storeLocale = storeLocales[languageCode];
@@ -1205,6 +1212,7 @@ void main() {
       'es': 'es-ES',
       'fr': 'fr-FR',
       'ja': 'ja-JP',
+      'ko': 'ko-KR',
       'ru': 'ru-RU',
       'zh': 'zh-CN',
     };
@@ -1256,6 +1264,7 @@ void main() {
       'es': 'es-ES',
       'fr': 'fr-FR',
       'ja': 'ja-JP',
+      'ko': 'ko-KR',
       'ru': 'ru-RU',
       'zh': 'zh-CN',
     };
@@ -1269,6 +1278,7 @@ void main() {
       'es': ['progreso', 'hitos', 'diario'],
       'fr': ['progrès', 'étapes', 'journal'],
       'ja': ['進捗', '節目', '日記'],
+      'ko': ['진행', '이정표', '일기'],
       'ru': ['прогресс', 'этап', 'дневник'],
       'zh': ['进度', '里程碑', '日记'],
     };
@@ -1420,6 +1430,7 @@ void main() {
       'es': 'es-ES',
       'fr': 'fr-FR',
       'ja': 'ja',
+      'ko': 'ko',
       'ru': 'ru',
       'zh': 'zh-Hans',
     };
@@ -1469,6 +1480,7 @@ void main() {
       'es': 'es-ES',
       'fr': 'fr-FR',
       'ja': 'ja',
+      'ko': 'ko',
       'ru': 'ru',
       'zh': 'zh-Hans',
     };
@@ -1540,6 +1552,7 @@ void main() {
       );
 
       if (locale.languageCode == 'ja' ||
+          locale.languageCode == 'ko' ||
           locale.languageCode == 'ru' ||
           locale.languageCode == 'zh') {
         expect(
@@ -1584,7 +1597,15 @@ void main() {
       r'\b(?:backend|build|chore|ci|docs|feat|fix|frontend|perf|refactor|style|test)\s*[:：]\s*',
       caseSensitive: false,
     );
-    const storeLocales = ['de-DE', 'es-ES', 'fr-FR', 'ja-JP', 'ru-RU', 'zh-CN'];
+    const storeLocales = [
+      'de-DE',
+      'es-ES',
+      'fr-FR',
+      'ja-JP',
+      'ko-KR',
+      'ru-RU',
+      'zh-CN',
+    ];
 
     for (final storeLocale in storeLocales) {
       final changelogs =
@@ -1676,6 +1697,7 @@ void main() {
       );
 
       if (languageCode == 'ja' ||
+          languageCode == 'ko' ||
           languageCode == 'ru' ||
           languageCode == 'zh') {
         expect(
@@ -1719,6 +1741,7 @@ void main() {
       'es-es',
       'fr-fr',
       'ja-jp',
+      'ko-kr',
       'ru-ru',
       'zh-cn',
     });
@@ -1731,7 +1754,7 @@ void main() {
     final englishDescription = englishManifest['description'] as String;
     expect(englishManifest['lang'], 'en');
 
-    const manifestLocales = {'de', 'es', 'fr', 'ja', 'ru', 'zh'};
+    const manifestLocales = {'de', 'es', 'fr', 'ja', 'ko', 'ru', 'zh'};
     for (final locale in AppLocalizations.supportedLocales) {
       if (locale.languageCode == 'en') continue;
 
@@ -1776,6 +1799,7 @@ void main() {
     expect(privacy, contains('?lang=es'));
     expect(privacy, contains('?lang=fr'));
     expect(privacy, contains('?lang=ja'));
+    expect(privacy, contains('?lang=ko'));
     expect(privacy, contains('?lang=ru'));
     expect(privacy, contains('?lang=zh'));
   });
@@ -1906,6 +1930,7 @@ void main() {
       'es': {'one', 'other'},
       'fr': {'one', 'other'},
       'ja': {'other'},
+      'ko': {'other'},
       'ru': {'one', 'few', 'many', 'other'},
       'zh': {'other'},
     };

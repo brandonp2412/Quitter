@@ -620,6 +620,10 @@
   "@settingsLocaleFrench": {
     "description": "Show app in French"
   },
+  "settingsLocaleKorean": "Korean",
+  "@settingsLocaleKorean": {
+    "description": "Show app in Korean"
+  },
   "settingsLocaleSystem": "System default",
   "@settingsLocaleSystem": {
     "description": "Follows the device locale"

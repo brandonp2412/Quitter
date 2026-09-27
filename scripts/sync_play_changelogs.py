@@ -16,6 +16,7 @@ STORE_LOCALES = {
     "es": "es-ES",
     "fr": "fr-FR",
     "ja": "ja-JP",
+    "ko": "ko-KR",
     "ru": "ru-RU",
     "zh": "zh-CN",
 }

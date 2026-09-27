@@ -1277,6 +1277,9 @@ class AppLocalizationsRu extends AppLocalizations {
   String get settingsLocaleFrench => 'Французский';
 
   @override
+  String get settingsLocaleKorean => 'Корейский';
+
+  @override
   String get settingsLocaleSystem => 'Система по умолчанию';
 
   @override

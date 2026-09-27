@@ -1,0 +1,3 @@
+• lib/main.dart 형식
+• vscode에서 flutter SDK 경로 구성을 제거합니다.
+• 저널 페이지를 전환할 때 설정 페이지를 유지하세요.

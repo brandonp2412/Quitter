@@ -1,0 +1,6 @@
+• 종료를 시작할 때 애니메이션 추가
+• Google Play에서 다운로드 배지 추가 [CI 건너뛰기]
+• Google Play에서 다운로드 배지 추가 [CI 건너뛰기]
+• Microsoft Store용 구성 [ci 건너뛰기]
+• 숨긴 후에도 니코틴 파우치가 계속 표시되는 문제 수정
+• com.example.quitter -> com.quitter.app에 대한 참조를 바꿉니다.

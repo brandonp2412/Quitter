@@ -1200,6 +1200,9 @@ class AppLocalizationsJa extends AppLocalizations {
   String get settingsLocaleFrench => 'フランス語';
 
   @override
+  String get settingsLocaleKorean => '韓国語';
+
+  @override
   String get settingsLocaleSystem => 'システムのデフォルト';
 
   @override
