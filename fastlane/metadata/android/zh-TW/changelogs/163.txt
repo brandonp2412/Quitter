@@ -1,0 +1,6 @@
+• 開始戒除時添加動畫
+• 添加 Google Play 徽章 [skip ci]
+• 調整 Google Play 徽章文案 [skip ci]
+• 配置 Microsoft Store [skip ci]
+• 修復隱藏後尼古丁袋仍顯示的問題
+• 將 com.example.quitter 替換為 com.quitter.app

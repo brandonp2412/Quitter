@@ -3,6 +3,7 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:provider/provider.dart';
 import 'package:quitter/l10n/generated/app_localizations.dart';
+import 'package:quitter/locale_utils.dart';
 import 'package:quitter/settings_page.dart';
 import 'package:quitter/app_theme_mode.dart';
 import 'package:quitter/settings_provider.dart';
@@ -133,15 +134,26 @@ void main() {
           findsOneWidget,
         );
         expect(
-          find.descendant(of: dialog, matching: find.text('Russian')),
+          find.descendant(
+            of: dialog,
+            matching: find.text('Traditional Chinese'),
+          ),
           findsOneWidget,
         );
         expect(
-          AppLocalizations.supportedLocales.map(
-            (locale) => locale.languageCode,
-          ),
-          ['de', 'en', 'es', 'fr', 'ja', 'ru', 'zh'],
+          find.descendant(of: dialog, matching: find.text('Russian')),
+          findsOneWidget,
         );
+        expect(AppLocalizations.supportedLocales.map(localePreferenceValue), [
+          'de',
+          'en',
+          'es',
+          'fr',
+          'ja',
+          'ru',
+          'zh',
+          'zh-Hant',
+        ]);
 
         await tester.tap(find.text('Russian'));
         await tester.pumpAndSettle();

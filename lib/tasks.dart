@@ -7,6 +7,7 @@ import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:home_widget/home_widget.dart';
 import 'package:quitter/addiction_provider.dart';
 import 'package:quitter/l10n/generated/app_localizations.dart';
+import 'package:quitter/locale_utils.dart';
 import 'package:quitter/logging.dart';
 import 'package:workmanager/workmanager.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -19,17 +20,16 @@ Timer? periodicStarterTimer;
 
 AppLocalizations _localizationsFor(SharedPreferences prefs) {
   final configuredLocale = prefs.getString('locale');
-  final systemLocale = PlatformDispatcher.instance.locale.languageCode;
-  final languageCode = configuredLocale == null || configuredLocale == 'system'
-      ? systemLocale
-      : configuredLocale;
-  final supportedLanguageCodes = AppLocalizations.supportedLocales
-      .map((locale) => locale.languageCode)
-      .toSet();
-  final supportedLanguageCode = supportedLanguageCodes.contains(languageCode)
-      ? languageCode
-      : 'en';
-  return lookupAppLocalizations(Locale(supportedLanguageCode));
+  final requestedLocale =
+      configuredLocale == null || configuredLocale == 'system'
+      ? PlatformDispatcher.instance.locale
+      : localeFromPreference(configuredLocale);
+  final requestedKey = localePreferenceValue(requestedLocale);
+  final supportedLocale = AppLocalizations.supportedLocales.firstWhere(
+    (locale) => localePreferenceValue(locale) == requestedKey,
+    orElse: () => const Locale('en'),
+  );
+  return lookupAppLocalizations(supportedLocale);
 }
 
 Future<void> setupTasks() async {

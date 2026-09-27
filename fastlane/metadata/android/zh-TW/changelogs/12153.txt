@@ -1,0 +1,5 @@
+• 修複數據庫導入
+• 更新 Serena
+• 升級 Flutter 3.44.6
+• 添加 lockfile 一致性 CI，防止 F-Droid 構建失敗
+• 導入時改用 readAsBytes() 並增加錯誤處理

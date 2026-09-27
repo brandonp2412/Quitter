@@ -22,6 +22,7 @@
         <a href="?lang=ja" lang="ja">日本語</a>
         <a href="?lang=ru" lang="ru">Русский</a>
         <a href="?lang=zh" lang="zh">简体中文</a>
+        <a href="?lang=zh-Hant" lang="zh-Hant">繁體中文</a>
       </nav>
 
       <h1 id="title">Quitter Privacy Policy</h1>
@@ -106,15 +107,31 @@
             deletionHeading: '数据删除',
             deletionBody: '你可以随时在应用内删除单个条目。卸载应用会从设备中删除所有相关数据。由于数据不会存储在外部服务器上，因此无需向任何第三方提出删除请求。',
           },
+          'zh-Hant': {
+            title: 'Quitter 隱私政策',
+            languageLabel: '語言',
+            updated: '最後更新：2026年9月6日',
+            healthHeading: '健康資料',
+            healthBody: 'Quitter 不會存取、收集、傳輸或分享任何健康或健身資料。你輸入的任何習慣資料都只會儲存在你的裝置上。',
+            retentionHeading: '資料保留',
+            retentionBody: '所有資料均儲存在你的裝置本機，並會一直保留，直到你選擇在應用程式內刪除資料或解除安裝應用程式。',
+            deletionHeading: '資料刪除',
+            deletionBody: '你可以隨時在應用程式內刪除個別項目。解除安裝應用程式會從裝置中刪除所有相關資料。由於資料不會儲存在外部伺服器上，因此無需向任何第三方提出刪除要求。',
+          },
         };
 
         const params = new URLSearchParams(window.location.search);
-        const requestedLanguage = (
+        const requestedLocale = (
           params.get('lang') ??
           navigator.languages?.[0] ??
           navigator.language ??
           'en'
-        ).toLowerCase().split('-')[0];
+        ).replace('_', '-');
+        const languageCode = requestedLocale.split('-')[0].toLowerCase();
+        const isTraditionalChinese =
+          languageCode === 'zh' &&
+          /(?:^|-)hant(?:-|$)|(?:^|-)(tw|hk|mo)(?:-|$)/i.test(requestedLocale);
+        const requestedLanguage = isTraditionalChinese ? 'zh-Hant' : languageCode;
         const language = translations[requestedLanguage] ? requestedLanguage : 'en';
 
         if (language === 'en') return;

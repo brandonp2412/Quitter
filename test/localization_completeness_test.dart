@@ -4,6 +4,7 @@ import 'dart:io';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:quitter/l10n/generated/app_localizations.dart';
+import 'package:quitter/locale_utils.dart';
 
 Map<String, dynamic> _readArb(String locale) {
   final file = File('lib/l10n/app_$locale.arb');
@@ -1176,26 +1177,27 @@ void main() {
       'ja': 'ja-JP',
       'ru': 'ru-RU',
       'zh': 'zh-CN',
+      'zh-Hant': 'zh-TW',
     };
 
-    expect(workflow, contains('locale: [en, de, es, fr, ja, ru, zh]'));
+    expect(workflow, contains('locale: [en, de, es, fr, ja, ru, zh, zh-Hant]'));
     for (final locale in AppLocalizations.supportedLocales) {
-      final languageCode = locale.languageCode;
-      final storeLocale = storeLocales[languageCode];
+      final localeKey = localePreferenceValue(locale);
+      final storeLocale = storeLocales[localeKey];
       expect(
         storeLocale,
         isNotNull,
-        reason: '$languageCode must map to a Play Store screenshot locale',
+        reason: '$localeKey must map to a Play Store screenshot locale',
       );
-      if (languageCode == 'en') continue;
+      if (localeKey == 'en') continue;
 
-      expect(screenshotTest, contains("'$languageCode' => '$storeLocale'"));
-      expect(screenshotDriver, contains('"$languageCode" => "$storeLocale"'));
+      expect(screenshotTest, contains("'$localeKey' => '$storeLocale'"));
+      expect(screenshotDriver, contains('"$localeKey" => "$storeLocale"'));
       expect(
         screenshotScript,
-        contains('$languageCode) store_locale="$storeLocale"'),
+        contains('$localeKey) store_locale="$storeLocale"'),
       );
-      expect(workflow, contains('$languageCode) STORE_LOCALE=$storeLocale'));
+      expect(workflow, contains('$localeKey) STORE_LOCALE=$storeLocale'));
     }
   });
 
@@ -1207,6 +1209,7 @@ void main() {
       'ja': 'ja-JP',
       'ru': 'ru-RU',
       'zh': 'zh-CN',
+      'zh-Hant': 'zh-TW',
     };
     const screenshotDirectories = {
       'phoneScreenshots',
@@ -1215,9 +1218,10 @@ void main() {
     };
 
     for (final locale in AppLocalizations.supportedLocales) {
-      if (locale.languageCode == 'en') continue;
+      final localeKey = localePreferenceValue(locale);
+      if (localeKey == 'en' || localeKey == 'zh-Hant') continue;
 
-      final storeLocale = storeLocales[locale.languageCode]!;
+      final storeLocale = storeLocales[localeKey]!;
       for (final directory in screenshotDirectories) {
         for (var index = 1; index <= 8; index++) {
           final english = File(
@@ -1258,6 +1262,7 @@ void main() {
       'ja': 'ja-JP',
       'ru': 'ru-RU',
       'zh': 'zh-CN',
+      'zh-Hant': 'zh-TW',
     };
     const listingLimits = {
       'title.txt': 30,
@@ -1279,9 +1284,10 @@ void main() {
     final englishDir = Directory('fastlane/metadata/android/en-US');
 
     for (final locale in AppLocalizations.supportedLocales) {
-      if (locale.languageCode == 'en') continue;
+      final localeKey = localePreferenceValue(locale);
+      if (localeKey == 'en') continue;
 
-      final storeLocale = storeLocales[locale.languageCode];
+      final storeLocale = storeLocales[localeKey];
       expect(
         storeLocale,
         isNotNull,
@@ -1422,6 +1428,7 @@ void main() {
       'ja': 'ja',
       'ru': 'ru',
       'zh': 'zh-Hans',
+      'zh-Hant': 'zh-Hant',
     };
     final english = File(
       'fastlane/metadata/en-AU/release_notes.txt',
@@ -1429,9 +1436,10 @@ void main() {
 
     expect(english, isNotEmpty);
     for (final locale in AppLocalizations.supportedLocales) {
-      if (locale.languageCode == 'en') continue;
+      final localeKey = localePreferenceValue(locale);
+      if (localeKey == 'en') continue;
 
-      final storeLocale = storeLocales[locale.languageCode];
+      final storeLocale = storeLocales[localeKey];
       expect(
         storeLocale,
         isNotNull,
@@ -1471,6 +1479,7 @@ void main() {
       'ja': 'ja',
       'ru': 'ru',
       'zh': 'zh-Hans',
+      'zh-Hant': 'zh-Hant',
     };
     const filenames = {
       'name.txt',
@@ -1487,7 +1496,8 @@ void main() {
     };
 
     for (final locale in AppLocalizations.supportedLocales) {
-      final storeLocale = storeLocales[locale.languageCode];
+      final localeKey = localePreferenceValue(locale);
+      final storeLocale = storeLocales[localeKey];
       expect(
         storeLocale,
         isNotNull,
@@ -1584,7 +1594,15 @@ void main() {
       r'\b(?:backend|build|chore|ci|docs|feat|fix|frontend|perf|refactor|style|test)\s*[:：]\s*',
       caseSensitive: false,
     );
-    const storeLocales = ['de-DE', 'es-ES', 'fr-FR', 'ja-JP', 'ru-RU', 'zh-CN'];
+    const storeLocales = [
+      'de-DE',
+      'es-ES',
+      'fr-FR',
+      'ja-JP',
+      'ru-RU',
+      'zh-CN',
+      'zh-TW',
+    ];
 
     for (final storeLocale in storeLocales) {
       final changelogs =
@@ -1620,7 +1638,7 @@ void main() {
 
   test('Apple bundles declare every supported locale', () {
     final supported = AppLocalizations.supportedLocales
-        .map((locale) => locale.languageCode)
+        .map(localePreferenceValue)
         .toSet();
 
     expect(_appleBundleLocalizations('ios/Runner/Info.plist'), supported);
@@ -1635,32 +1653,33 @@ void main() {
     expect(sourceTitles.length, greaterThan(50));
 
     for (final locale in AppLocalizations.supportedLocales) {
+      final localeKey = localePreferenceValue(locale);
       final languageCode = locale.languageCode;
-      if (languageCode == 'en') continue;
+      if (localeKey == 'en') continue;
 
-      final stringsPath = 'macos/Runner/$languageCode.lproj/MainMenu.strings';
+      final stringsPath = 'macos/Runner/$localeKey.lproj/MainMenu.strings';
       final stringsFile = File(stringsPath);
       expect(
         stringsFile.existsSync(),
         isTrue,
-        reason: 'macOS $languageCode must provide MainMenu.strings',
+        reason: 'macOS $localeKey must provide MainMenu.strings',
       );
       expect(
         project,
-        contains('$languageCode.lproj/MainMenu.strings'),
-        reason: 'macOS $languageCode menu strings must be in the Xcode project',
+        contains('$localeKey.lproj/MainMenu.strings'),
+        reason: 'macOS $localeKey menu strings must be in the Xcode project',
       );
 
       final localized = _appleStrings(stringsPath);
       expect(
         localized.keys.toSet(),
         sourceTitles.keys.toSet(),
-        reason: 'macOS $languageCode must localize every titled menu object',
+        reason: 'macOS $localeKey must localize every titled menu object',
       );
       expect(
         localized.values.where((value) => value.trim().isEmpty),
         isEmpty,
-        reason: 'macOS $languageCode menu strings must not be empty',
+        reason: 'macOS $localeKey menu strings must not be empty',
       );
 
       final translatable = sourceTitles.entries
@@ -1721,6 +1740,7 @@ void main() {
       'ja-jp',
       'ru-ru',
       'zh-cn',
+      'zh-tw',
     });
   });
 
@@ -1731,23 +1751,24 @@ void main() {
     final englishDescription = englishManifest['description'] as String;
     expect(englishManifest['lang'], 'en');
 
-    const manifestLocales = {'de', 'es', 'fr', 'ja', 'ru', 'zh'};
+    const manifestLocales = {'de', 'es', 'fr', 'ja', 'ru', 'zh', 'zh-Hant'};
     for (final locale in AppLocalizations.supportedLocales) {
-      if (locale.languageCode == 'en') continue;
+      final localeKey = localePreferenceValue(locale);
+      if (localeKey == 'en') continue;
 
       expect(
         manifestLocales,
-        contains(locale.languageCode),
-        reason: '${locale.languageCode} must have localized web metadata',
+        contains(localeKey),
+        reason: '$localeKey must have localized web metadata',
       );
       final manifest =
           jsonDecode(
                 File(
-                  'web/manifest_${locale.languageCode}.json',
+                  'web/manifest_${localeKey.replaceAll('-', '_')}.json',
                 ).readAsStringSync(),
               )
               as Map<String, dynamic>;
-      expect(manifest['lang'], locale.languageCode);
+      expect(manifest['lang'], localeKey);
       expect(manifest['description'], isNotEmpty);
       expect(
         manifest['description'],
@@ -1764,6 +1785,7 @@ void main() {
     expect(index, contains('やめたい習慣'));
     expect(index, contains('Отслеживайте прогресс'));
     expect(index, contains('记录戒除习惯'));
+    expect(index, contains('記錄戒除習慣'));
 
     final privacy = File('docs/privacy-policy.html').readAsStringSync();
     expect(privacy, contains('Quitter-Datenschutzerklärung'));
@@ -1772,12 +1794,14 @@ void main() {
     expect(privacy, contains('Quitter プライバシーポリシー'));
     expect(privacy, contains('Quitter — Политика конфиденциальности'));
     expect(privacy, contains('Quitter 隐私政策'));
+    expect(privacy, contains('Quitter 隱私政策'));
     expect(privacy, contains('?lang=de'));
     expect(privacy, contains('?lang=es'));
     expect(privacy, contains('?lang=fr'));
     expect(privacy, contains('?lang=ja'));
     expect(privacy, contains('?lang=ru'));
     expect(privacy, contains('?lang=zh'));
+    expect(privacy, contains('?lang=zh-Hant'));
   });
 
   test('every supported locale translates every changelog entry', () {
@@ -1787,7 +1811,8 @@ void main() {
     for (final locale in AppLocalizations.supportedLocales) {
       if (locale.languageCode == 'en') continue;
 
-      final localized = _changelogMessages(locale.languageCode);
+      final localeKey = localePreferenceValue(locale);
+      final localized = _changelogMessages(localeKey);
       expect(
         localized.keys.toSet(),
         english.keys.toSet(),
@@ -1908,13 +1933,19 @@ void main() {
       'ja': {'other'},
       'ru': {'one', 'few', 'many', 'other'},
       'zh': {'other'},
+      'zh-Hant': {'other'},
     };
+    const androidResourceDirectories = {'zh-Hant': 'values-b+zh+Hant'};
 
     for (final locale in AppLocalizations.supportedLocales) {
-      if (locale.languageCode == 'en') continue;
+      final localeKey = localePreferenceValue(locale);
+      if (localeKey == 'en') continue;
 
-      final localized = _androidStrings('values-${locale.languageCode}');
-      final localizedPlurals = _androidPlurals('values-${locale.languageCode}');
+      final resourceDirectory =
+          androidResourceDirectories[localeKey] ??
+          'values-${locale.languageCode}';
+      final localized = _androidStrings(resourceDirectory);
+      final localizedPlurals = _androidPlurals(resourceDirectory);
       expect(
         localized.keys.toSet(),
         defaults.keys.toSet(),
@@ -1929,7 +1960,7 @@ void main() {
       );
       expect(
         localizedPlurals['widget_days']?.keys.toSet(),
-        expectedPluralQuantities[locale.languageCode],
+        expectedPluralQuantities[localeKey],
         reason:
             'Android ${locale.languageCode} must define the locale-appropriate day plural forms',
       );

@@ -1,0 +1,3 @@
+• 修復 Google Play 發佈步驟
+• 修復提醒中的神經系統圖標
+• 修復在 GitHub Releases 中運行

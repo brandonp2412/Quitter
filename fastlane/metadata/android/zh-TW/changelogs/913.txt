@@ -1,0 +1,2 @@
+• 為 Azure 最終處理添加缺失的 Content-Type 請求頭
+• 清理部署腳本

@@ -1,0 +1,7 @@
+• 添加 Azure 包發佈最終處理代碼
+• 創建 ru/full_description.txt
+• 創建 ru/short_description.txt
+• 格式化 lib/main.dart
+• 移除 VS Code 的 Flutter SDK 路徑配置
+• 切換日記設置時仍停留在設置頁面
+• 導出/導入改用 JSON 格式

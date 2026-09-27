@@ -106,6 +106,7 @@ abstract class AppLocalizations {
     Locale('ja'),
     Locale('ru'),
     Locale('zh'),
+    Locale.fromSubtags(languageCode: 'zh', scriptCode: 'Hant'),
   ];
 
   /// No description provided for @kratomPageTitle.
@@ -2183,6 +2184,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Simplified Chinese'**
   String get settingsLocaleSimplifiedChinese;
+
+  /// Show app in Traditional Chinese
+  ///
+  /// In en, this message translates to:
+  /// **'Traditional Chinese'**
+  String get settingsLocaleTraditionalChinese;
 
   /// Show app in Russian
   ///
@@ -6194,6 +6201,18 @@ class _AppLocalizationsDelegate
 }
 
 AppLocalizations lookupAppLocalizations(Locale locale) {
+  // Lookup logic when language+script codes are specified.
+  switch (locale.languageCode) {
+    case 'zh':
+      {
+        switch (locale.scriptCode) {
+          case 'Hant':
+            return AppLocalizationsZhHant();
+        }
+        break;
+      }
+  }
+
   // Lookup logic when only language code is specified.
   switch (locale.languageCode) {
     case 'de':

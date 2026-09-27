@@ -1,0 +1,3 @@
+• 添加 CONTRIBUTING.md
+• 添加自定義項目
+• 防止 FAB 閃爍

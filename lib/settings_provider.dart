@@ -9,6 +9,7 @@ import 'package:quitter/tasks.dart';
 import 'package:quitter/app_theme_mode.dart';
 import 'package:quitter/logging.dart';
 import 'package:quitter/l10n/generated/app_localizations.dart';
+import 'package:quitter/locale_utils.dart';
 
 class SettingsProvider extends ChangeNotifier {
   static const String _themeKey = 'theme_mode';
@@ -24,7 +25,8 @@ class SettingsProvider extends ChangeNotifier {
   static const _weekStartsMondayKey = 'week_starts_monday';
   static final Set<String> _supportedLocales = {
     'system',
-    for (final locale in AppLocalizations.supportedLocales) locale.languageCode,
+    for (final locale in AppLocalizations.supportedLocales)
+      localePreferenceValue(locale),
   };
 
   bool _isUnlocked = false;

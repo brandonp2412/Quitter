@@ -1,0 +1,5 @@
+• 更新 pubspec.lock
+• 日記隱藏時為 HomePage 添加 SafeArea，避免狀態欄衝突
+• 將 SafeArea 移到根部以修復標籤欄雙重間距
+• 在狀態欄後繪制 Scaffold 背景
+• 使用 Builder 讓狀態欄背景讀取正確主題

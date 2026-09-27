@@ -1,5 +1,6 @@
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
+
 import 'app_localizations.dart';
 
 // ignore_for_file: type=lint
@@ -1188,6 +1189,9 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get settingsLocaleSimplifiedChinese => '简体中文';
+
+  @override
+  String get settingsLocaleTraditionalChinese => '繁体中文';
 
   @override
   String get settingsLocaleRussian => '俄语';
@@ -3493,4 +3497,3498 @@ class AppLocalizationsZh extends AppLocalizations {
   @override
   String get tcaReferenceDay365 =>
       '停用TCA一年：恢复达成\n\n一年：完整的多系统恢复\n这篇关于抗抑郁药停药综合征的综述——涵盖TCA、MAOI、SSRI等——发现戒断症状通常在停止后的数天内开始，若不治疗，会在数天到几周内自行消退。没有研究专门在一年后重新测量受TCA影响的系统，但在完成减量一年后，已经比哪怕是最长的已报告停药症状都要晚好几个月，因此所有受影响的脑化学系统——血清素、去甲肾上腺素、乙酰胆碱和组胺——都可以预期已经有了一个完整的周期来正常化。\n\nTCA恢复的意义\nTCA施加的药物驱动负担比新型抗抑郁药更广，同时影响更多的受体系统。成功停药代表着多个系统的恢复：\n• TCA乙酰胆碱阻断造成的记忆和思维损害被完全逆转\n• 心脏完全恢复\n• 所有受影响的通路上都恢复了自然的脑化学调节\n\n在TCA停药后成功自我调节一年，是一项真正的成就——无论是在停药过程的管理上，还是在无需药物驱动支持的情况下维持健康幸福上。';
+}
+
+/// The translations for Chinese, using the Han script (`zh_Hant`).
+class AppLocalizationsZhHant extends AppLocalizationsZh {
+  AppLocalizationsZhHant() : super('zh_Hant');
+
+  @override
+  String get kratomPageTitle => '卡痛葉戒斷';
+
+  @override
+  String get kratomHeaderStarted => '您的康復之旅';
+
+  @override
+  String get kratomHeaderNotStarted => '戒除卡痛葉的好處';
+
+  @override
+  String get kratomSubtitleStarted => '追蹤您的進展並慶祝每個里程碑';
+
+  @override
+  String get kratomSubtitleNotStarted => '看看戒除後會發生甚麼';
+
+  @override
+  String get kratomInfoBox =>
+      '卡痛葉作用於阿片受體，因此停用可能產生類似阿片類藥物的戒斷症狀。如果您大量使用或同時使用其他阿片類藥物，請咨詢醫生進行醫療監督下的戒斷。';
+
+  @override
+  String get addictionKratom => '卡痛葉';
+
+  @override
+  String get kratomMilestone1Title => '戒斷症狀開始';
+
+  @override
+  String get kratomMilestone1Description =>
+      '卡痛葉作用於阿片受體，因此在最後一次服用後6-12小時內，您可能會感到不安、焦慮、出汗、流鼻涕和肌肉酸痛。這是神經系統開始適應的過程。';
+
+  @override
+  String get kratomMilestone3Title => '戒斷症狀高峰';
+
+  @override
+  String get kratomMilestone3Description =>
+      '急性症狀通常在2-3天達到高峰：更強烈的疼痛、失眠、胃部不適和情緒低落。這是最困難的時刻，但它是暫時的。';
+
+  @override
+  String get kratomMilestone7Title => '急性症狀消退';
+
+  @override
+  String get kratomMilestone7Description =>
+      '到一周時，最糟糕的身體症狀——疼痛、胃部不適、出汗——已經大部分消退。睡眠和精力仍在恢復中。';
+
+  @override
+  String get kratomMilestone14Title => '情緒和睡眠正在恢復';
+
+  @override
+  String get kratomMilestone14Description =>
+      '兩周後，隨著大腦自身的獎賞化學開始重新平衡，睡眠更加可靠，情緒更加穩定。';
+
+  @override
+  String get kratomMilestone30Title => '停用卡痛葉一個月';
+
+  @override
+  String get kratomMilestone30Description =>
+      '一個月時身體已經穩定：睡眠、食慾和精力明顯改善，渴求也不那麼頻繁。';
+
+  @override
+  String get kratomMilestone90Title => '穩定基礎';
+
+  @override
+  String get kratomMilestone90Description =>
+      '三個月的戒斷讓大腦的獎賞和壓力迴路有足夠時間重新調節。情緒、專注力和動力明顯更加穩定。';
+
+  @override
+  String get kratomMilestone365Title => '停用一年';
+
+  @override
+  String get kratomMilestone365Description =>
+      '一整年沒有卡痛葉。阿片系統已經長期重新調節，渴求很少出現，這個習慣不再支配您的日常生活。';
+
+  @override
+  String get gabapentinoidsPageTitle => '加巴噴丁類藥物戒斷';
+
+  @override
+  String get gabapentinoidsHeaderStarted => '您的康復之旅';
+
+  @override
+  String get gabapentinoidsHeaderNotStarted => '停用加巴噴丁/普瑞巴林的好處';
+
+  @override
+  String get gabapentinoidsSubtitleStarted => '追蹤您的進展並慶祝每個里程碑';
+
+  @override
+  String get gabapentinoidsSubtitleNotStarted => '看看戒除後會發生甚麼';
+
+  @override
+  String get gabapentinoidsInfoBox =>
+      '切勿突然停用加巴噴丁或普瑞巴林。突然停藥可能引發癲癇發作——尤其是用於治療癲癇時。必須在醫生指導下進行逐步減量。';
+
+  @override
+  String get addictionGabapentinoid => '加巴噴丁/普瑞巴林';
+
+  @override
+  String get gabapentinoidsMilestone1Title => '逐步減量，勿突然停藥';
+
+  @override
+  String get gabapentinoidsMilestone1Description =>
+      '加巴噴丁類藥物戒斷可能在12-48小時內開始。突然停藥的關鍵風險是癲癇發作，因此這些藥物必須在醫生指導下逐步減量，而不是驟停。';
+
+  @override
+  String get gabapentinoidsMilestone3Title => '戒斷高峰';
+
+  @override
+  String get gabapentinoidsMilestone3Description =>
+      '症狀通常在第三天左右達到高峰：焦慮加劇、失眠、出汗、惡心，有時還有混亂。在監督下減量可以大大減輕這些症狀。';
+
+  @override
+  String get gabapentinoidsMilestone7Title => '急性期緩解';
+
+  @override
+  String get gabapentinoidsMilestone7Description =>
+      '在第7-10天左右，急性症狀大幅減輕。逐步減量使這段時間變得可控。';
+
+  @override
+  String get gabapentinoidsMilestone14Title => '睡眠和焦慮趨於穩定';
+
+  @override
+  String get gabapentinoidsMilestone14Description =>
+      '兩周後，隨著神經系統適應在沒有藥物的情況下運作，睡眠和您平時的焦慮水平正在改善。';
+
+  @override
+  String get gabapentinoidsMilestone30Title => '停藥一個月';
+
+  @override
+  String get gabapentinoidsMilestone30Description =>
+      '一個月時大多數人已經度過戒斷期，情緒、睡眠和思維清晰度更穩定。任何殘留症狀通常都很輕微。';
+
+  @override
+  String get gabapentinoidsMilestone90Title => '穩定且已適應';
+
+  @override
+  String get gabapentinoidsMilestone90Description =>
+      '停藥三個月後，神經系統已經完成重新適應。大多數人狀態穩定，睡眠和情緒恢復正常。';
+
+  @override
+  String get gabapentinoidsMilestone180Title => '停用半年';
+
+  @override
+  String get gabapentinoidsMilestone180Description =>
+      '已停用六個月。藥物早已不再出現在日常生活中，任何反跳症狀也已消退。';
+
+  @override
+  String get ghbPageTitle => 'GHB戒斷';
+
+  @override
+  String get ghbHeaderStarted => '您的康復之旅';
+
+  @override
+  String get ghbHeaderNotStarted => '戒除GHB的好處';
+
+  @override
+  String get ghbSubtitleStarted => '追蹤您的進展並慶祝每個里程碑';
+
+  @override
+  String get ghbSubtitleNotStarted => '看看戒除後會發生甚麼';
+
+  @override
+  String get ghbInfoBox =>
+      'GHB戒斷是一種醫療急症——與酒精和苯二氮卓類戒斷相匹敵，可能導致譫妄和癲癇發作。大量使用或全天候使用者不應在沒有住院監管解毒的情況下停止。';
+
+  @override
+  String get addictionGhb => 'GHB';
+
+  @override
+  String get ghbMilestone1Title => '尋求醫療解毒';
+
+  @override
+  String get ghbMilestone1Description =>
+      'GHB的半衰期非常短，因此戒斷可能在最後一次服用後1-6小時開始，伴隨焦慮、震顫、失眠和心跳加速。這是最危險的解毒之一——請尋求醫療幫助。';
+
+  @override
+  String get ghbMilestone3Title => '危險高峰期';
+
+  @override
+  String get ghbMilestone3Description =>
+      '症狀在48-72小時左右達到高峰，可能升級為嚴重煩躁、幻覺和譫妄。此階段需要醫療監控。';
+
+  @override
+  String get ghbMilestone7Title => '急性期正在消退';
+
+  @override
+  String get ghbMilestone7Description =>
+      '大約一周時，急性綜合徵通常在消退，儘管嚴重病例中譫妄可能持續更長時間。身體已經度過最危險的時刻。';
+
+  @override
+  String get ghbMilestone14Title => '度過最糟糕時期';
+
+  @override
+  String get ghbMilestone14Description =>
+      '兩周後，即使是嚴重的戒斷通常也已結束。睡眠和自主神經穩定性正在恢復，儘管焦慮可能持續。';
+
+  @override
+  String get ghbMilestone30Title => '一個月穩定';
+
+  @override
+  String get ghbMilestone30Description =>
+      '一個月時，危險的早期戒斷期已經遠遠過去。殘留的焦慮、睡眠問題和情緒低落也在繼續改善。';
+
+  @override
+  String get ghbMilestone90Title => '殘留症狀逐漸消退';
+
+  @override
+  String get ghbMilestone90Description =>
+      '三個月後，隨著大腦起鎮靜作用的GABA系統逐漸穩定，殘留的焦慮、睡眠和情緒症狀也在減輕。';
+
+  @override
+  String get ghbMilestone180Title => '停用半年';
+
+  @override
+  String get ghbMilestone180Description =>
+      '六個月沒有GHB。持續的戒斷症狀已基本消退，情緒、睡眠和清晰思維也恢復到正常狀態。';
+
+  @override
+  String get ketaminePageTitle => '氯胺酮戒斷';
+
+  @override
+  String get ketamineHeaderStarted => '您的康復之旅';
+
+  @override
+  String get ketamineHeaderNotStarted => '戒除氯胺酮的好處';
+
+  @override
+  String get ketamineSubtitleStarted => '追蹤您的進展並慶祝每個里程碑';
+
+  @override
+  String get ketamineSubtitleNotStarted => '看看戒除後會發生甚麼';
+
+  @override
+  String get ketamineInfoBox =>
+      '氯胺酮戒斷主要表現為渴求、情緒低落和腦霧，而不是身體疾病。它最大的身體危害是膀胱損傷，停止使用是邁向恢復的關鍵第一步。';
+
+  @override
+  String get addictionKetamine => '氯胺酮';
+
+  @override
+  String get ketamineMilestone1Title => '氯胺酮逐步排出體外';
+
+  @override
+  String get ketamineMilestone1Description =>
+      '氯胺酮很少引起嚴重的身體戒斷反應。第一天，您可能會注意到情緒波動、渴求、出汗或心悸，因為藥物正在被清除。';
+
+  @override
+  String get ketamineMilestone7Title => '情緒和渴求';
+
+  @override
+  String get ketamineMilestone7Description =>
+      '第一周主要會面對渴求、情緒低落或波動以及腦霧，而不是明顯的身體戒斷症狀。';
+
+  @override
+  String get ketamineMilestone14Title => '腦霧開始消散';
+
+  @override
+  String get ketamineMilestone14Description =>
+      '兩周後，隨著分離性效應完全消退，思維和記憶開始變清晰，情緒趨於穩定。';
+
+  @override
+  String get ketamineMilestone30Title => '一個月——膀胱愈合';
+
+  @override
+  String get ketamineMilestone30Description =>
+      '一個月時，早期的膀胱損傷在停用後往往已經開始改善。情緒和思維也更加清晰。';
+
+  @override
+  String get ketamineMilestone90Title => '三個月了';
+
+  @override
+  String get ketamineMilestone90Description =>
+      '三個月不使用氯胺酮，讓膀胱有更多時間恢復，同時思維和情緒也繼續改善。渴求出現得更少了。';
+
+  @override
+  String get ketamineMilestone180Title => '停用半年';
+
+  @override
+  String get ketamineMilestone180Description =>
+      '已停用氯胺酮六個月。膀胱症狀有了更長時間恢復，對氯胺酮的心理渴求也已明顯減弱。';
+
+  @override
+  String get ketamineMilestone365Title => '停用一年';
+
+  @override
+  String get ketamineMilestone365Description =>
+      '一年沒有氯胺酮。思維、情緒以及在膀胱損傷較早發現時的膀胱功能，都已經有整整一年時間恢復。';
+
+  @override
+  String get inhalantsPageTitle => '吸入劑戒斷';
+
+  @override
+  String get inhalantsHeaderStarted => '您的康復之旅';
+
+  @override
+  String get inhalantsHeaderNotStarted => '戒除吸入劑的好處';
+
+  @override
+  String get inhalantsSubtitleStarted => '追蹤您的進展並慶祝每個里程碑';
+
+  @override
+  String get inhalantsSubtitleNotStarted => '看看戒除後會發生甚麼';
+
+  @override
+  String get inhalantsInfoBox =>
+      '吸入劑戒斷比酒精或阿片類藥物時間短但可能很激烈，大量使用的人有癲癇風險。神經康復是真實但緩慢的——通常在大約兩年的戒斷過程中展現。';
+
+  @override
+  String get addictionInhalants => '吸入劑';
+
+  @override
+  String get inhalantsMilestone1Title => '吸入物逐步排出體外';
+
+  @override
+  String get inhalantsMilestone1Description =>
+      '吸入劑化學物質快速從血液中清除，但殘留在脂肪組織中。第一天您可能會感到頭痛、煩躁、惡心、焦慮或失眠。';
+
+  @override
+  String get inhalantsMilestone7Title => '急性症狀消退';
+
+  @override
+  String get inhalantsMilestone7Description =>
+      '急性戒斷在2-5天左右達到高峰，並在一到兩周內基本消退。到一周時最嚴重的情況通常已經過去。';
+
+  @override
+  String get inhalantsMilestone14Title => '急性期結束';
+
+  @override
+  String get inhalantsMilestone14Description =>
+      '到兩周時，早期戒斷期通常已經結束。情緒更穩定，不過腦霧和疲勞仍可能持續。';
+
+  @override
+  String get inhalantsMilestone30Title => '一個月——大腦正在恢復';
+
+  @override
+  String get inhalantsMilestone30Description =>
+      '一個月時，最嚴重的早期影響已經過去，思維和記憶正在恢復。思路更清晰，情緒也在改善。';
+
+  @override
+  String get inhalantsMilestone90Title => '三個月了';
+
+  @override
+  String get inhalantsMilestone90Description =>
+      '三個月的戒斷支持記憶、注意力和運動功能的持續恢復。改善是漸進的但真實的。';
+
+  @override
+  String get inhalantsMilestone365Title => '一年——實質性恢復';
+
+  @override
+  String get inhalantsMilestone365Description =>
+      '一年的戒斷為大多數人帶來實質性的神經康復，並預期在第二年內持續改善。';
+
+  @override
+  String get inhalantsMilestone730Title => '兩年——長期愈合';
+
+  @override
+  String get inhalantsMilestone730Description =>
+      '兩年的戒斷是研究發現腦功能實質性恢復的時間窗口——除了含鉛汽油造成的損傷可能持續存在。';
+
+  @override
+  String get synthetic_cannabinoidsPageTitle => '合成大麻素戒斷';
+
+  @override
+  String get synthetic_cannabinoidsHeaderStarted => '您的康復之旅';
+
+  @override
+  String get synthetic_cannabinoidsHeaderNotStarted => '戒除合成大麻素的好處';
+
+  @override
+  String get synthetic_cannabinoidsSubtitleStarted => '追蹤您的進展並慶祝每個里程碑';
+
+  @override
+  String get synthetic_cannabinoidsSubtitleNotStarted => '看看戒除後會發生甚麼';
+
+  @override
+  String get synthetic_cannabinoidsInfoBox =>
+      '合成大麻素（\"香料\"、\"K2\"）比大麻強效得多，其戒斷類似但更嚴重——伴有焦慮和心跳加速。大量使用的人可能需要醫療支持的解毒。';
+
+  @override
+  String get addictionSyntheticCannabinoids => '合成大麻素';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1Title => '戒斷開始';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1Description =>
+      '合成大麻素的戒斷可能在數小時到一兩天內開始。預料會出現焦慮、煩躁、心跳加速、出汗和睡眠問題。';
+
+  @override
+  String get synthetic_cannabinoidsMilestone3Title => '症狀高峰';
+
+  @override
+  String get synthetic_cannabinoidsMilestone3Description =>
+      '症狀往往在最初幾天達到高峰——最強的焦慮、煩躁、睡眠不佳和渴求。這是最艱難的階段。';
+
+  @override
+  String get synthetic_cannabinoidsMilestone7Title => '急性期緩解';
+
+  @override
+  String get synthetic_cannabinoidsMilestone7Description =>
+      '到一周時最強烈的症狀正在消退。睡眠、心率和情緒開始穩定。';
+
+  @override
+  String get synthetic_cannabinoidsMilestone14Title => '睡眠和情緒穩定';
+
+  @override
+  String get synthetic_cannabinoidsMilestone14Description =>
+      '兩周後，睡眠和情緒更穩定，早期戒斷的心跳加速已解決。';
+
+  @override
+  String get synthetic_cannabinoidsMilestone30Title => '停用一個月';
+
+  @override
+  String get synthetic_cannabinoidsMilestone30Description =>
+      '一個月時大多數戒斷症狀已經解決。睡眠、情緒和清晰度明顯改善。';
+
+  @override
+  String get synthetic_cannabinoidsMilestone90Title => '三個月了';
+
+  @override
+  String get synthetic_cannabinoidsMilestone90Description =>
+      '停用三個月後，情緒和睡眠趨於穩定，渴求也很少出現。大腦的大麻素系統已經重新適應。';
+
+  @override
+  String get synthetic_cannabinoidsMilestone180Title => '停用半年';
+
+  @override
+  String get synthetic_cannabinoidsMilestone180Description =>
+      '六個月沒有合成大麻素。戒斷早已解決，這些藥物的嚴重風險已成為過去。';
+
+  @override
+  String get mdmaPageTitle => 'MDMA戒斷';
+
+  @override
+  String get mdmaHeaderStarted => '您的康復之旅';
+
+  @override
+  String get mdmaHeaderNotStarted => '戒除MDMA的好處';
+
+  @override
+  String get mdmaSubtitleStarted => '追蹤您的進展並慶祝每個里程碑';
+
+  @override
+  String get mdmaSubtitleNotStarted => '看看戒除後會發生甚麼';
+
+  @override
+  String get mdmaInfoBox =>
+      'MDMA大量釋放然後耗盡血清素，導致\"低潮期\"，在大量使用後還會出現類戒斷的情緒低落。血清素轉運體水平會隨著持續戒斷而恢復，儘管大量使用可能留下更持久的影響。';
+
+  @override
+  String get addictionMdma => 'MDMA';
+
+  @override
+  String get mdmaMilestone1Title => '低潮期';
+
+  @override
+  String get mdmaMilestone1Description =>
+      'MDMA後，耗盡的血清素導致\"低潮期\"：情緒低落、疲勞、煩躁和睡眠不佳持續一兩天。補水、進食和休息有幫助。';
+
+  @override
+  String get mdmaMilestone3Title => '情緒重新平衡';
+
+  @override
+  String get mdmaMilestone3Description => '幾天後最強烈的低潮期已經過去。隨著血清素補充，情緒和能量開始重新平衡。';
+
+  @override
+  String get mdmaMilestone7Title => '急性期結束';
+
+  @override
+  String get mdmaMilestone7Description =>
+      '大量使用後，類戒斷症狀（情緒低落、注意力不集中、渴求）可能持續約一周才改善。';
+
+  @override
+  String get mdmaMilestone14Title => '兩周了';
+
+  @override
+  String get mdmaMilestone14Description =>
+      '兩周的戒斷通常帶來情緒、睡眠和注意力的明顯改善，因為血清素系統正在恢復。';
+
+  @override
+  String get mdmaMilestone30Title => '停用MDMA一個月';
+
+  @override
+  String get mdmaMilestone30Description =>
+      '一個月時，情緒和思維已經穩定得多。只要繼續不使用MDMA，大腦的血清素再循環系統就會繼續恢復。';
+
+  @override
+  String get mdmaMilestone90Title => '三個月了';
+
+  @override
+  String get mdmaMilestone90Description =>
+      '三個月的戒斷支持持續的血清素系統恢復。情緒和睡眠穩定；焦慮在接下來的幾個月里減輕。';
+
+  @override
+  String get mdmaMilestone365Title => '停用一年';
+
+  @override
+  String get mdmaMilestone365Description =>
+      '一年沒有MDMA。血清素功能和情緒有足夠時間恢復，與使用相關的焦慮通常在此時解決。';
+
+  @override
+  String get steroidsPageTitle => '類固醇戒斷';
+
+  @override
+  String get steroidsHeaderStarted => '您的康復之旅';
+
+  @override
+  String get steroidsHeaderNotStarted => '停用合成代謝類固醇的好處';
+
+  @override
+  String get steroidsSubtitleStarted => '追蹤您的進展並慶祝每個里程碑';
+
+  @override
+  String get steroidsSubtitleNotStarted => '看看戒除後會發生甚麼';
+
+  @override
+  String get steroidsInfoBox =>
+      '停用合成代謝類固醇後，在身體重新啓動自身激素生成之前，睪酮會處於較低水平——通常持續數月，有時更久。這個階段常見抑鬱和性慾低下；嚴重抑鬱或自殺念頭需要緊急醫療幫助。';
+
+  @override
+  String get addictionSteroids => '合成代謝類固醇';
+
+  @override
+  String get steroidsMilestone1Title => '激素缺乏開始';
+
+  @override
+  String get steroidsMilestone1Description =>
+      '合成代謝類固醇會抑制身體自身的睪酮生成。停用後，您進入激素缺乏狀態，可能帶來疲勞、情緒低落和性慾低下。建議尋求醫療指導。';
+
+  @override
+  String get steroidsMilestone14Title => '調整期';
+
+  @override
+  String get steroidsMilestone14Description =>
+      '最初幾周是激素下降最困難的時期——精力、情緒和性慾低下。這是許多人為了逃避而復吸的階段；支持有幫助。';
+
+  @override
+  String get steroidsMilestone30Title => '一個月——軸重新啓動';
+
+  @override
+  String get steroidsMilestone30Description =>
+      '一個月時，大腦與睪丸之間的激素系統開始重新啓動。推動睪酮生成的激素和睪酮本身都開始上升，不過情緒低落、性慾低下或精力不足仍可能持續。';
+
+  @override
+  String get steroidsMilestone90Title => '三個月——激素上升中';
+
+  @override
+  String get steroidsMilestone90Description =>
+      '三個月後，大多數人的睪酮和推動其生成的激素都在向正常水平回升，情緒和性慾也常隨之改善。';
+
+  @override
+  String get steroidsMilestone180Title => '六個月——多數人已明顯恢復';
+
+  @override
+  String get steroidsMilestone180Description =>
+      '到六個月時，許多人的激素恢復已經明顯進展，睪酮及其調節激素回到正常範圍，症狀也在緩解。';
+
+  @override
+  String get steroidsMilestone365Title => '一年後';
+
+  @override
+  String get steroidsMilestone365Description =>
+      '停用類固醇一年。對大多數人來說，激素和情緒已經正常化；此點之後持續的睪酮偏低需要專科評估。';
+
+  @override
+  String get steroidsMilestone730Title => '兩年——新的常態';
+
+  @override
+  String get steroidsMilestone730Description =>
+      '停用類固醇兩年。現在的激素水平反映的是身體本身的自然水平；如果低睪酮症狀仍在持續，應請專科醫生評估。';
+
+  @override
+  String get appTitle => 'Quitter';
+
+  @override
+  String get start => '開始';
+
+  @override
+  String get tabQuitter => '戒癮';
+
+  @override
+  String get adderallPageTitle => '戒除阿德拉';
+
+  @override
+  String get adderallHeaderStarted => '您的康復之旅';
+
+  @override
+  String get adderallHeaderNotStarted => '準備開始您的康復嗎？';
+
+  @override
+  String get adderallSubtitleStarted => '在大腦愈合的同時追蹤進展並慶祝每個里程碑';
+
+  @override
+  String get adderallSubtitleNotStarted => '看看戒除阿德拉後會發生甚麼，開始您的康復之旅';
+
+  @override
+  String get adderallMilestone1Title => '前24小時：戒斷開始';
+
+  @override
+  String get adderallMilestone1Description =>
+      '隨著您的身體開始適應沒有興奮劑的生活，您可能會感到疲勞、抑鬱和食慾增加。這是正常的、暫時的。保持水分，需要時休息。';
+
+  @override
+  String get adderallMilestone3Title => '第三天：戒斷高峰';
+
+  @override
+  String get adderallMilestone3Description =>
+      '戒斷症狀達到最大強度。您可能會經歷強烈的疲勞、煩躁和注意力難以集中。這是最困難的部分——但從此處會變好。考慮聯繫您的支持系統。';
+
+  @override
+  String get adderallMilestone7Title => '一周：身體症狀改善';
+
+  @override
+  String get adderallMilestone7Description =>
+      '最糟糕的身體戒斷症狀開始消退。睡眠模式開始正常化，能量水平緩慢改善。您的身體正在適應沒有興奮劑的運作。';
+
+  @override
+  String get adderallMilestone14Title => '兩周：情緒穩定回歸';
+
+  @override
+  String get adderallMilestone14Description =>
+      '情緒波動和煩躁正在減輕。隨著大腦化學穩定，您正在恢復情緒平衡。許多人發現這一周標誌著康復之旅的轉折點。';
+
+  @override
+  String get adderallMilestone30Title => '一個月：大腦化學重新平衡';
+
+  @override
+  String get adderallMilestone30Description =>
+      '您的大腦正在積極愈合。自然多巴胺產生正在改善，您可能會注意到沒有藥物時更好的專注力和動力。睡眠質量和食慾恢復正常模式。';
+
+  @override
+  String get adderallMilestone60Title => '兩個月：思維和記憶改善';
+
+  @override
+  String get adderallMilestone60Description =>
+      '思維清晰度、記憶和情緒穩定性顯著改善。您的大腦獎賞系統正在愈合，使日常活動更自然地有回報。許多人報告感覺更像自己。';
+
+  @override
+  String get adderallMilestone90Title => '三個月：重大康復里程碑';
+
+  @override
+  String get adderallMilestone90Description =>
+      '大多數戒斷症狀已解決。您的大腦在愈合方面取得了實質性進展。自然能量水平、專注力和情緒調節顯著改善。這是一個值得慶祝的重大成就。';
+
+  @override
+  String get adderallMilestone180Title => '六個月：大腦愈合繼續';
+
+  @override
+  String get adderallMilestone180Description =>
+      '多巴胺信號傳導繼續恢復。專注力、記憶、情緒和日常生活質量也在繼續改善。';
+
+  @override
+  String get adderallMilestone365Title => '一年：接近完全康復';
+
+  @override
+  String get adderallMilestone365Description =>
+      '您大腦的多巴胺系統已基本恢復至正常功能。您已經證明瞭您的韌性，並在沒有依賴興奮劑的情況下重建了生活。這個里程碑代表了一個完整的轉變——慶祝您走了多遠！';
+
+  @override
+  String get showAllItems => '顯示所有項目';
+
+  @override
+  String get showAllSubtitle => '啓用或禁用所有主屏幕項目';
+
+  @override
+  String get enableNotifications => '啓用所有通知';
+
+  @override
+  String get enableNotificationsSubtitle => '打開或關閉所有通知';
+
+  @override
+  String get benzoPageTitle => '苯二氮卓戒斷';
+
+  @override
+  String get benzoHeaderStarted => '您的康復之旅';
+
+  @override
+  String get benzoHeaderNotStarted => '戒除苯二氮卓的好處';
+
+  @override
+  String get benzoSubtitleStarted => '追蹤您的進展並慶祝每個里程碑';
+
+  @override
+  String get benzoSubtitleNotStarted => '看看戒除後會發生甚麼';
+
+  @override
+  String get benzoMilestone7Title => '早期戒斷階段';
+
+  @override
+  String get benzoMilestone7Description =>
+      '完成逐步減量後，可能會出現反跳性焦慮和失眠等早期戒斷症狀。這是您的神經系統開始重新調整。此階段的醫療支持對安全和舒適至關重要。';
+
+  @override
+  String get benzoMilestone14Title => '急性戒斷高峰';
+
+  @override
+  String get benzoMilestone14Description =>
+      '急性戒斷症狀通常在前兩周內達到高峰。您可能會經歷焦慮、睡眠障礙和身體不適。這些症狀雖然具有挑戰性，但表明您的大腦正在開始愈合和重新平衡。';
+
+  @override
+  String get benzoMilestone60Title => '睡眠結構改善';
+
+  @override
+  String get benzoMilestone60Description =>
+      '研究表明，2個月後您的自然睡眠模式開始恢復。慢波睡眠增加，與服用苯二氮卓時相比睡眠質量改善，儘管整體睡眠效率可能仍在恢復中。';
+
+  @override
+  String get benzoMilestone90Title => '身體健康穩定';
+
+  @override
+  String get benzoMilestone90Description =>
+      '大約3個月時，許多身體戒斷症狀已顯著改善。您的身體繼續適應在沒有藥物的情況下運作。焦慮和情緒可能仍會波動，但整體功能改善。';
+
+  @override
+  String get benzoMilestone180Title => '思維和記憶開始恢復';
+
+  @override
+  String get benzoMilestone180Description =>
+      '六個月時，記憶和注意力會出現可測量的改善。研究發現多種思維能力都在恢復，而且這種進步會持續到六個月以後。';
+
+  @override
+  String get benzoMilestone365Title => '一年的愈合';
+
+  @override
+  String get benzoMilestone365Description =>
+      '一年後，心理和身體健康方面的顯著改善變得明顯。許多人報告說，與長期服用苯二氮卓時相比，焦慮減輕、睡眠質量提高、整體健康改善。大腦愈合仍在繼續。';
+
+  @override
+  String get benzoMilestone540Title => '持續的大腦恢復';
+
+  @override
+  String get benzoMilestone540Description =>
+      '18個月時，記憶、注意力和清晰思維仍在繼續改善。大腦起鎮靜作用的GABA系統已經有一年多時間逐漸穩定，同時大腦也在繼續建立更健康的模式。';
+
+  @override
+  String get benzoMilestone730Title => '兩年：重大進展';
+
+  @override
+  String get benzoMilestone730Description =>
+      '兩年標誌著顯著恢復。大多數人的思維清晰得多，情緒更穩定，生活質量也比長期使用苯二氮卓時好得多。';
+
+  @override
+  String get benzoMilestone1095Title => '三年：長期康復';
+
+  @override
+  String get benzoMilestone1095Description =>
+      '三年時，對大多數人來說漫長的戒斷期已經遠去。睡眠、情緒、記憶和注意力都有了數年的恢復時間，日常生活通常也比長期用藥期間好得多。';
+
+  @override
+  String get addictionMeth => '冰毒';
+
+  @override
+  String get addictionBenzos => '苯二氮卓';
+
+  @override
+  String get methPageTitle => '冰毒戒斷';
+
+  @override
+  String get methHeaderStarted => '您的康復之旅';
+
+  @override
+  String get methHeaderNotStarted => '戒除冰毒';
+
+  @override
+  String get methSubtitleStarted => '追蹤您的進展並慶祝每個里程碑';
+
+  @override
+  String get methSubtitleNotStarted => '自由在您的掌握之中';
+
+  @override
+  String get methMilestone1Title => '前24小時——崩潰開始';
+
+  @override
+  String get methMilestone1Description =>
+      '初始崩潰階段始於深度疲勞和食慾增加，因為您的身體開始恢復。您可能會經歷抑鬱和大量睡眠，因為您的系統從強烈刺激中開始穩定。';
+
+  @override
+  String get methMilestone3Title => '第三天——戒斷高峰';
+
+  @override
+  String get methMilestone3Description =>
+      '在此期間，隨著身體適應，渴求顯著加劇。與崩潰階段相比，您可能會經歷更多能量，這可能使渴求感覺更強烈。這是預防復吸和支持的關鍵時期。';
+
+  @override
+  String get methMilestone7Title => '一周——身體症狀緩解';
+
+  @override
+  String get methMilestone7Description =>
+      '急性戒斷症狀開始消退，儘管心理挑戰仍然存在。您的睡眠模式開始正常化，身體不適減少。這標誌著從急性戒斷到後急性戒斷的過渡。';
+
+  @override
+  String get methMilestone30Title => '一個月——新興的穩定';
+
+  @override
+  String get methMilestone30Description =>
+      '蜜月期開始，隨著身體愈合，渴求開始消退。能量水平增加，情緒改善，因為大腦化學開始重新平衡。然而，仍需保持警惕，因為挑戰仍可能出現。';
+
+  @override
+  String get methMilestone90Title => '三個月——大腦愈合開始';
+
+  @override
+  String get methMilestone90Description =>
+      '您的大腦正在積極恢復。隨著獎賞系統逐漸回到正常狀態，注意力、記憶和決策能力開始讓人感覺更好了。';
+
+  @override
+  String get methMilestone180Title => '六個月——心血管恢復';
+
+  @override
+  String get methMilestone180Description =>
+      '心臟功能在戒斷中顯示出可測量的改善。研究表明，結合醫療支持，此階段心臟功能可顯著恢復。血壓和心律繼續穩定。';
+
+  @override
+  String get methMilestone365Title => '一年——重大大腦恢復';
+
+  @override
+  String get methMilestone365Description =>
+      '一年後，多巴胺系統已經取得很大恢復。自然的日常獎勵重新變得更有吸引力，情緒、記憶和決策能力也明顯改善。';
+
+  @override
+  String get methMilestone420Title => '14個月——多巴胺正常化';
+
+  @override
+  String get methMilestone420Description =>
+      '腦掃描顯示，在這個階段負責多巴胺再循環的蛋白質正接近健康水平。記憶、動力以及享受日常活動的能力也在繼續改善。';
+
+  @override
+  String get methMilestone730Title => '兩年——持續康復';
+
+  @override
+  String get methMilestone730Description =>
+      '兩年不使用冰毒，讓大腦有持續而充足的時間恢復。注意力、情緒、記憶和日常生活質量都在繼續改善。';
+
+  @override
+  String get addictionNitrousOxide => '笑氣';
+
+  @override
+  String get nitrousOxidePageTitle => '笑氣戒斷';
+
+  @override
+  String get nitrousOxideHeaderStarted => '您的康復之旅';
+
+  @override
+  String get nitrousOxideHeaderNotStarted => '準備開始了嗎？';
+
+  @override
+  String get nitrousOxideSubtitleStarted => '追蹤您的進展並慶祝每個里程碑';
+
+  @override
+  String get nitrousOxideSubtitleNotStarted => '看看有甚麼積極變化在等待您';
+
+  @override
+  String get nitrousOxideMilestone1Title => '前24小時——一氧化二氮逐步排出體外';
+
+  @override
+  String get nitrousOxideMilestone1Description =>
+      '氣體會在幾分鐘內離開身體，但恢復需要更長時間。頭暈逐漸消退，頭痛緩解，大腦開始適應沒有多巴胺捷徑的狀態。B12的恢復也從現在開始。';
+
+  @override
+  String get nitrousOxideMilestone3Title => '第三天——無身體戒斷';
+
+  @override
+  String get nitrousOxideMilestone3Description =>
+      '好消息：笑氣不會引起身體戒斷。您感受到的衝動是心理上的——習慣和聯想，而不是您的身體在要求一種物質。這使它們變得可控。';
+
+  @override
+  String get nitrousOxideMilestone7Title => '一周——B12水平回升';
+
+  @override
+  String get nitrousOxideMilestone7Description =>
+      '笑氣不再破壞維生素B12已經一周。如果您已經開始補充，B12水平正在回升。精力、情緒和專注力都與B12有關，此時應當開始逐漸感受到改善。';
+
+  @override
+  String get nitrousOxideMilestone14Title => '兩周——神經正在愈合';
+
+  @override
+  String get nitrousOxideMilestone14Description =>
+      '維生素B12對神經纖維外的保護層至關重要。兩周過去，修復已經在積極進行。此前出現的刺痛或麻木應當逐漸緩解——神經系統正在持續恢復。';
+
+  @override
+  String get nitrousOxideMilestone30Title => '一個月——能量回歸';
+
+  @override
+  String get nitrousOxideMilestone30Description =>
+      '維生素B12在紅細胞生成中起關鍵作用，幫助把氧氣輸送到全身細胞。經過一個月的恢復和補充，精力、思維清晰度和情緒穩定性都可能明顯改善。';
+
+  @override
+  String get nitrousOxideMilestone90Title => '三個月——神經恢復';
+
+  @override
+  String get nitrousOxideMilestone90Description =>
+      '維生素B12不再被破壞已經三個月，也就是神經修復持續了三個月。神經系統具有很強的恢復能力——大多數及時接受治療的人，到這個階段刺痛、無力和腦霧都會明顯改善。';
+
+  @override
+  String get nitrousOxideMilestone365Title => '一年——長期健康保障';
+
+  @override
+  String get nitrousOxideMilestone365Description =>
+      '戒用笑氣整整一年。維生素B12儲備已經恢復，神經系統也獲得了一整年的恢復時間。與同型半胱氨酸升高相關的心血管風險已經改善，身體重新依靠自身正常的生理機制運作。';
+
+  @override
+  String get addictionCocaine => '可卡因';
+
+  @override
+  String get addictionAdderall => '阿德拉';
+
+  @override
+  String get cocainePageTitle => '可卡因戒斷';
+
+  @override
+  String get cocaineHeaderStarted => '您的康復之旅';
+
+  @override
+  String get cocaineHeaderNotStarted => '準備開始了嗎？';
+
+  @override
+  String get cocaineSubtitleStarted => '追蹤您的進展並慶祝每個里程碑';
+
+  @override
+  String get cocaineSubtitleNotStarted => '看看有甚麼積極變化在等待您';
+
+  @override
+  String get cocaineMilestone1Title => '前24小時——開始';
+
+  @override
+  String get cocaineMilestone1Description =>
+      '您的身體隨著多巴胺水平開始穩定而開始調整。您可能會經歷疲勞、情緒變化和強烈渴求，但您的心血管系統已經開始恢復。';
+
+  @override
+  String get cocaineMilestone3Title => '第三天——挑戰高峰';
+
+  @override
+  String get cocaineMilestone3Description =>
+      '戒斷症狀通常在此時期達到高峰。您可能會經歷強烈的渴求、煩躁、焦慮和疲憊。這是暫時的——您的大腦正在努力重新平衡自己。';
+
+  @override
+  String get cocaineMilestone7Title => '一周——身體恢復開始';
+
+  @override
+  String get cocaineMilestone7Description =>
+      '最強烈的身體症狀開始消退。您的心率和血壓正在穩定。雖然心理渴求可能持續，但您的身體正在愈合。';
+
+  @override
+  String get cocaineMilestone14Title => '兩周——找到穩定';
+
+  @override
+  String get cocaineMilestone14Description =>
+      '許多人開始感到情緒更穩定。您的能量水平正在改善，急性戒斷症狀正在緩解。您的心血管健康繼續顯著改善。';
+
+  @override
+  String get cocaineMilestone60Title => '兩個月——睡眠和情緒改善';
+
+  @override
+  String get cocaineMilestone60Description =>
+      '隨著大腦化學繼續正常化，您的睡眠質量明顯更好。您可能會發現自己感覺更休息，全天情緒更穩定。';
+
+  @override
+  String get cocaineMilestone90Title => '三個月——大腦修復';
+
+  @override
+  String get cocaineMilestone90Description =>
+      '您的多巴胺系統正在恢復。專注力、決策和情緒控制明顯改善，思維也更加清晰。';
+
+  @override
+  String get cocaineMilestone180Title => '六個月——思維更清晰';
+
+  @override
+  String get cocaineMilestone180Description =>
+      '腦掃描顯示，大腦前部——負責計劃和自我控制的區域——正在恢復。記憶、衝動控制和清晰思維也在繼續增強。';
+
+  @override
+  String get cocaineMilestone365Title => '一年——心血管健康';
+
+  @override
+  String get cocaineMilestone365Description =>
+      '您的心臟和心血管系統已取得顯著恢復。血壓和心率已正常化。心臟病發作和中風的風險已大幅下降。您的身體在愈合。';
+
+  @override
+  String get cocaineMilestone730Title => '兩年——持續康復';
+
+  @override
+  String get cocaineMilestone730Description =>
+      '大腦愈合持續進行，記憶、專注力和情緒調節持續改善。您的神經通路已顯著重組，支持更健康的模式和更好的整體健康。';
+
+  @override
+  String get tabJournal => '日記';
+
+  @override
+  String get tabStats => '統計';
+
+  @override
+  String get statsTitle => '康復統計';
+
+  @override
+  String get statsNoAddictions => '開始記錄成癮以查看您的統計數據';
+
+  @override
+  String get statsJourneyTitle => '您的歷程';
+
+  @override
+  String statsTotalDays(int days) {
+    return '共$days天';
+  }
+
+  @override
+  String statsAddictionsTracked(int count) {
+    return '記錄$count項';
+  }
+
+  @override
+  String get statsMoneySavedTitle => '節省金額';
+
+  @override
+  String get statsMoneySavedEstimate => '根據平均使用量估算';
+
+  @override
+  String statsEquivalentCoffees(int count) {
+    return '大約$count杯咖啡';
+  }
+
+  @override
+  String statsEquivalentMeals(int count) {
+    return '大約$count頓餐廳用餐';
+  }
+
+  @override
+  String get statsEquivalentFlight => '足夠買一張機票';
+
+  @override
+  String get statsEquivalentVacation => '足夠一次出國旅行';
+
+  @override
+  String get statsTimeSavedTitle => '重獲時間';
+
+  @override
+  String statsHoursSaved(int hours) {
+    return '$hours小時';
+  }
+
+  @override
+  String statsEquivalentBooks(int count) {
+    return '大約可以讀$count本書';
+  }
+
+  @override
+  String statsEquivalentMovies(int count) {
+    return '大約可以看$count部電影';
+  }
+
+  @override
+  String get statsStreaksTitle => '連續記錄';
+
+  @override
+  String statsDaysSuffix(int days) {
+    return '$days天';
+  }
+
+  @override
+  String statsDayUnit(int count) {
+    return '天';
+  }
+
+  @override
+  String statsHoursSuffix(int hours) {
+    return '$hours小時';
+  }
+
+  @override
+  String get statsResilienceTitle => '韌性';
+
+  @override
+  String statsTimesBouncedBack(int count) {
+    return '$count次重新振作並繼續前行';
+  }
+
+  @override
+  String statsDaysBeforeRelapse(int days) {
+    return '每次平均堅持$days天';
+  }
+
+  @override
+  String get tabSettings => '設置';
+
+  @override
+  String get homeAddButton => '添加';
+
+  @override
+  String get homeAddTooltip => '創建自定義戒癮項目';
+
+  @override
+  String get quitStartButton => '開始';
+
+  @override
+  String get quitResetButton => '重置';
+
+  @override
+  String get quitCardSubtitle => '點擊開始';
+
+  @override
+  String quitCardKeepDays(int days) {
+    String _temp0 = intl.Intl.pluralLogic(days, locale: localeName, other: '天');
+    return '$_temp0';
+  }
+
+  @override
+  String newVersionToast(String version) {
+    return '新版本 $version';
+  }
+
+  @override
+  String get changesAction => '變更';
+
+  @override
+  String hideDialogTitle(String title) {
+    return '隱藏 $title？';
+  }
+
+  @override
+  String hideDialogMessage(String title) {
+    return '這將從主屏幕隱藏 $title 選項。您可以在設置中再次顯示它。';
+  }
+
+  @override
+  String get cancel => '取消';
+
+  @override
+  String get hide => '隱藏';
+
+  @override
+  String stopTrackingDialogTitle(String title) {
+    return '停止追蹤$title？';
+  }
+
+  @override
+  String stopTrackingDialogMessage(String title) {
+    return '這將從主屏幕中刪除$title。您的里程碑歷史記錄將被保留。';
+  }
+
+  @override
+  String get stopTracking => '刪除';
+
+  @override
+  String get addAddictionTitle => '追蹤一個成癮';
+
+  @override
+  String get addAddictionCustom => '自定義';
+
+  @override
+  String get addAddictionCustomSubtitle => '追蹤任何您想戒掉的東西';
+
+  @override
+  String get homeEmptyTitle => '尚未追蹤任何內容';
+
+  @override
+  String get homeEmptySubtitle => '點擊 + 開始追蹤成癮';
+
+  @override
+  String get addAddictionNoneAvailable => '所有可用的成癮已在追蹤中';
+
+  @override
+  String get addictionAlcohol => '酒精';
+
+  @override
+  String get addictionVaping => '電子煙';
+
+  @override
+  String get addictionSmoking => '吸煙';
+
+  @override
+  String get addictionMarijuana => '大麻';
+
+  @override
+  String get settingsLocaleUnsupported => '不支持';
+
+  @override
+  String get settingsLocaleJapanese => '日語';
+
+  @override
+  String get settingsLocaleEnglish => '英語';
+
+  @override
+  String get settingsLocaleGerman => '德語';
+
+  @override
+  String get settingsLocaleSimplifiedChinese => '簡體中文';
+
+  @override
+  String get settingsLocaleTraditionalChinese => '繁體中文';
+
+  @override
+  String get settingsLocaleRussian => '俄語';
+
+  @override
+  String get settingsLocaleSpanish => '西班牙語';
+
+  @override
+  String get settingsLocaleFrench => '法語';
+
+  @override
+  String get settingsLocaleSystem => '系統默認';
+
+  @override
+  String get settingsLocale => '語言';
+
+  @override
+  String get addictionNicotinePouches => '尼古丁袋';
+
+  @override
+  String get addictionHeroin => '海洛因';
+
+  @override
+  String get addictionOpioids => '阿片類藥物';
+
+  @override
+  String get addictionFentanyl => '芬太尼';
+
+  @override
+  String get addictionSmokelessTobacco => '嚼煙 / 無煙煙草';
+
+  @override
+  String get smokelessTobaccoPageTitle => '告別無煙煙草';
+
+  @override
+  String get smokelessTobaccoHeaderStarted => '遠離尼古丁的旅程';
+
+  @override
+  String get smokelessTobaccoHeaderNotStarted => '戒掉嚼煙和無煙煙草';
+
+  @override
+  String get smokelessTobaccoSubtitleStarted => '追蹤您的進度，慶祝每個里程碑';
+
+  @override
+  String get smokelessTobaccoSubtitleNotStarted => '看看戒掉後會發生甚麼';
+
+  @override
+  String get addictionSocialMedia => '社交媒體';
+
+  @override
+  String get addictionAdultContent => '成人內容';
+
+  @override
+  String get search => '搜索...';
+
+  @override
+  String get noSearchResults => '未找到結果';
+
+  @override
+  String get clearSearch => '清除搜索';
+
+  @override
+  String get homeSearchHint => '搜索成癮項目...';
+
+  @override
+  String get homeTrackAnyway => '仍然開始追蹤';
+
+  @override
+  String get iconSearchHint => '搜索圖標...';
+
+  @override
+  String get iconNoResults => '未找到圖標';
+
+  @override
+  String get milestoneOpenOriginalSource => '打開原始來源';
+
+  @override
+  String get settingsExportSaveDialog => '保存數據到';
+
+  @override
+  String get settingsSearchHint => '搜索設置...';
+
+  @override
+  String get settingsSectionAppearance => '外觀';
+
+  @override
+  String get settingsSectionSecurity => '安全';
+
+  @override
+  String get settingsSectionMainScreenItems => '主屏幕項目';
+
+  @override
+  String get settingsSectionNotifications => '通知';
+
+  @override
+  String get settingsSectionSystem => '系統';
+
+  @override
+  String get settingsPinLock => 'PIN 鎖定';
+
+  @override
+  String get settingsPinLockSubtitle => '打開應用需要 PIN 碼';
+
+  @override
+  String get settingsPinTimeout => 'PIN 超時 (秒)';
+
+  @override
+  String get settingsPinTimeoutHint => '15';
+
+  @override
+  String get settingsTheme => '主題';
+
+  @override
+  String get settingsColorScheme => '配色方案';
+
+  @override
+  String get settingsDynamicColorScheme => '動態配色';
+
+  @override
+  String get settingsBlueColorScheme => '藍色';
+
+  @override
+  String get settingsGreenColorScheme => '綠色';
+
+  @override
+  String get settingsRedColorScheme => '紅色';
+
+  @override
+  String get settingsPurpleColorScheme => '紫色';
+
+  @override
+  String get settingsOrangeColorScheme => '橙色';
+
+  @override
+  String get settingsResetButtons => '重置按鈕';
+
+  @override
+  String get settingsResetButtonsSubtitle => '在各追蹤頁面顯示重置按鈕';
+
+  @override
+  String get settingsShowJournal => '顯示日記';
+
+  @override
+  String get settingsShowBenzosSubtitle => '顯示苯二氮卓追蹤';
+
+  @override
+  String get settingsShowJournalSubtitle => '啓用日記標籤頁以記錄您的想法';
+
+  @override
+  String get settingsWeekStartsMonday => '從週一開始一周';
+
+  @override
+  String get settingsWeekStartsMondaySubtitle => '日曆周從週一開始，而非周日';
+
+  @override
+  String get settingsSwipeBetweenTabs => '標籤頁之間滑動';
+
+  @override
+  String get settingsSwipeBetweenTabsSubtitle => '手指滑動可在日記、主頁和設置之間切換';
+
+  @override
+  String get settingsShowAlcoholTracking => '顯示酒精追蹤';
+
+  @override
+  String get settingsShowVapingTracking => '顯示電子煙追蹤';
+
+  @override
+  String get settingsShowSmokingTracking => '顯示吸煙追蹤';
+
+  @override
+  String get settingsShowMarijuanaTracking => '顯示大麻追蹤';
+
+  @override
+  String get settingsShowNicotinePouchesTracking => '顯示尼古丁袋追蹤';
+
+  @override
+  String get settingsShowOpioidsTracking => '顯示阿片類藥物追蹤';
+
+  @override
+  String get settingsShowSocialMediaTracking => '顯示社交媒體追蹤';
+
+  @override
+  String get settingsShowAdderallTracking => '顯示阿德拉追蹤';
+
+  @override
+  String get settingsNotifyAdderall => '通知阿德拉戒除進度';
+
+  @override
+  String get settingsShowCocaineTracking => '顯示可卡因追蹤';
+
+  @override
+  String get settingsShowMethTracking => '顯示冰毒追蹤';
+
+  @override
+  String get settingsShowAdultContentTracking => '顯示成人內容追蹤';
+
+  @override
+  String get settingsNotificationFrequency => '通知頻率';
+
+  @override
+  String settingsNotificationFrequencySubtitle(int days, String time) {
+    return '每 $days 天 $time';
+  }
+
+  @override
+  String get settingsNotifyAlcohol => '通知戒酒進度';
+
+  @override
+  String get settingsNotifyVaping => '通知戒電子煙進度';
+
+  @override
+  String get settingsNotifySmoking => '通知戒煙進度';
+
+  @override
+  String get settingsNotifyMarijuana => '通知戒大麻進度';
+
+  @override
+  String get settingsNotifyNicotinePouches => '通知戒尼古丁袋進度';
+
+  @override
+  String get settingsNotifyBenzos => '通知苯二氮卓戒除進度';
+
+  @override
+  String get settingsNotifyOpioids => '通知戒阿片類藥物進度';
+
+  @override
+  String get settingsNotifySocialMedia => '通知戒社交媒體進度';
+
+  @override
+  String get settingsNotifyCocaine => '通知可卡因戒除進度';
+
+  @override
+  String get settingsNotifyMeth => '通知冰毒戒除進度';
+
+  @override
+  String get settingsNotifyAdultContent => '通知戒成人內容進度';
+
+  @override
+  String settingsNotifyCustomEntry(String name) {
+    return '通知$name戒除進度';
+  }
+
+  @override
+  String get settingsResetMessages => '重置消息';
+
+  @override
+  String get settingsResetMessagesSubtitle => '重新開始後顯示鼓勵消息';
+
+  @override
+  String get settingsAbout => '關於';
+
+  @override
+  String get settingsWhatsNew => '新功能';
+
+  @override
+  String get settingsEnjoyingApp => '喜歡這個應用嗎？';
+
+  @override
+  String get settingsReportBug => '報告錯誤';
+
+  @override
+  String get settingsExportData => '導出數據';
+
+  @override
+  String get settingsImportData => '導入數據';
+
+  @override
+  String get settingsDeleteEverything => '刪除所有數據';
+
+  @override
+  String get themeLight => '淺色';
+
+  @override
+  String get themeDark => '深色';
+
+  @override
+  String get themeSystem => '系統';
+
+  @override
+  String get themePureBlack => '純黑';
+
+  @override
+  String get themeMode => '主題模式';
+
+  @override
+  String get pinDialogSetTitle => '設置 PIN';
+
+  @override
+  String get pinDialogEnterPIN => '輸入 PIN';
+
+  @override
+  String get pinDialogConfirmPIN => '確認 PIN';
+
+  @override
+  String get pinDialogSet => '設置';
+
+  @override
+  String get pinDialogPINsDoNotMatch => 'PIN 不匹配';
+
+  @override
+  String get pinDialogPIN => 'PIN';
+
+  @override
+  String get pinDialogOK => '確定';
+
+  @override
+  String get notificationFrequencyDialogTitle => '通知頻率';
+
+  @override
+  String get notificationFrequencyNotifyEvery => '通知間隔';
+
+  @override
+  String get notificationFrequencyDays => '天';
+
+  @override
+  String get notificationFrequencyAt => '時間';
+
+  @override
+  String get notificationFrequencySave => '保存';
+
+  @override
+  String get notificationTestTitle => '積極肯定';
+
+  @override
+  String notificationTestBody(int days) {
+    return '您將每 $days 天看到這樣一條通知，祝賀您的進步！';
+  }
+
+  @override
+  String get deleteEverythingDialogTitle => '刪除所有數據';
+
+  @override
+  String get deleteEverythingDialogMessage => '確定要刪除所有數據嗎？此操作無法撤銷。';
+
+  @override
+  String get deleteEverythingConfirm => '刪除！';
+
+  @override
+  String get dataExported => '數據已導出！';
+
+  @override
+  String get dataImported => '數據導入成功！';
+
+  @override
+  String get dataImportFailed => '導入失敗';
+
+  @override
+  String get dataImportFailedMessage => '無法導入所選文件。請確認它是有效的 Quitter 備份，然後重試。';
+
+  @override
+  String get journalHowWasYourDay => '今天過得怎麼樣？';
+
+  @override
+  String get journalPlaceholder => '寫下您的一天、想法、感受或任何您想記住的事情...';
+
+  @override
+  String journalWordCount(int count) {
+    return '$count 字';
+  }
+
+  @override
+  String get journalPreviousMonth => '上個月';
+
+  @override
+  String get journalNextMonth => '下個月';
+
+  @override
+  String get quitMilestonesStart => '開始';
+
+  @override
+  String get quitMilestonesReset => '重置';
+
+  @override
+  String get quitMilestonesQuitDate => '戒除日期';
+
+  @override
+  String quitMilestonesClearTitle(int days) {
+    return '刪除 $days 天里程碑的記錄？';
+  }
+
+  @override
+  String quitMilestonesClearMessage(int days) {
+    return '這會刪除您此前所有達到 $days 天里程碑的記錄。';
+  }
+
+  @override
+  String get quitMilestonesClear => '刪除';
+
+  @override
+  String quitMilestonesShareMessage(int days, String title) {
+    return '我已經戒除 $title $days 天了！';
+  }
+
+  @override
+  String timelineMilestoneDay(int days) {
+    return '第$days天';
+  }
+
+  @override
+  String timelineMilestoneYears(int years) {
+    return '$years年';
+  }
+
+  @override
+  String get entryPageHeaderStarted => '更進一步';
+
+  @override
+  String get entryPageHeaderNotStarted => '未開始';
+
+  @override
+  String get entryPageSubtitleStarted => '您做得很好！';
+
+  @override
+  String get entryPageSubtitleNotStarted => '點擊“開始”開啓您的旅程';
+
+  @override
+  String get editEntryAddTitle => '添加條目';
+
+  @override
+  String get editEntryEditTitle => '編輯條目';
+
+  @override
+  String get editEntryTitle => '標題';
+
+  @override
+  String get editEntryTitleError => '請輸入標題';
+
+  @override
+  String get editEntryColor => '顏色';
+
+  @override
+  String get editEntryIcon => '圖標';
+
+  @override
+  String get editEntrySave => '保存';
+
+  @override
+  String get editEntryDeleteDialogTitle => '確定嗎？';
+
+  @override
+  String get editEntryDeleteDialogMessage => '您真的要刪除此條目嗎？';
+
+  @override
+  String get editEntryDeleteNo => '不';
+
+  @override
+  String get editEntryDeleteYes => '是';
+
+  @override
+  String get pinPageEnterPIN => '輸入 PIN';
+
+  @override
+  String get pinPageIncorrectPIN => 'PIN 錯誤';
+
+  @override
+  String pinPageTooManyAttempts(int seconds) {
+    return '嘗試次數過多。請在 $seconds 秒後重試。';
+  }
+
+  @override
+  String get aboutPageTitle => '關於';
+
+  @override
+  String get aboutVersion => '版本';
+
+  @override
+  String get aboutAuthor => '作者';
+
+  @override
+  String get aboutAuthorName => 'Brandon Dick';
+
+  @override
+  String get aboutLicense => '許可證';
+
+  @override
+  String get aboutLicenseMIT => 'MIT';
+
+  @override
+  String get aboutDonate => '捐贈';
+
+  @override
+  String get aboutDonateSubtitle => '幫助支持此項目';
+
+  @override
+  String get aboutSourceCode => '源代碼';
+
+  @override
+  String get whatsNewTitle => '新功能？';
+
+  @override
+  String get whatsNewSearchHint => '搜索...';
+
+  @override
+  String get whatsNewEnjoyingButton => '喜歡這個應用嗎？';
+
+  @override
+  String get enjoyingPageTitle => '喜歡這個應用嗎？';
+
+  @override
+  String get enjoyingLeaveReview => '留下評論';
+
+  @override
+  String get enjoyingLeaveReviewSubtitle => '告訴我們您的想法！';
+
+  @override
+  String get enjoyingGiveStar => '給我們點星';
+
+  @override
+  String get enjoyingGiveStarSubtitle => '在 GitHub 上支持我們';
+
+  @override
+  String get enjoyingDonate => '捐贈';
+
+  @override
+  String get enjoyingDonateSubtitle => '支持開發';
+
+  @override
+  String get alcoholPageTitle => '戒酒後煥發光彩';
+
+  @override
+  String alcoholPageQuitDateDisplay(DateTime quitDate, int days) {
+    final intl.DateFormat quitDateDateFormat = intl.DateFormat.yMMMd(
+      localeName,
+    );
+    final String quitDateString = quitDateDateFormat.format(quitDate);
+
+    String _temp0 = intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
+      other: '$days天',
+    );
+    return '$quitDateString ($_temp0)';
+  }
+
+  @override
+  String get alcoholHeaderStarted => '為您喝彩！';
+
+  @override
+  String get alcoholHeaderNotStarted => '開始您的戒酒之旅！';
+
+  @override
+  String get alcoholSubtitleStarted => '每一天都是勝利 🥳';
+
+  @override
+  String get alcoholSubtitleNotStarted => '準備好迎接更光明的自己了嗎？ ✨';
+
+  @override
+  String get vapingPageTitle => '戒電子煙的成果';
+
+  @override
+  String get vapingHeaderStarted => '前方晴空萬里！';
+
+  @override
+  String get vapingHeaderNotStarted => '開始遠離電子煙的生活！';
+
+  @override
+  String get vapingSubtitleStarted => '呼吸順暢，自由生活 🌬️';
+
+  @override
+  String get vapingSubtitleNotStarted => '準備好戒掉電子煙了嗎？ ✨';
+
+  @override
+  String get smokingPageTitle => '無煙飛翔';
+
+  @override
+  String get smokingHeaderStarted => '呼吸順暢！';
+
+  @override
+  String get smokingHeaderNotStarted => '無煙之旅！';
+
+  @override
+  String get smokingSubtitleStarted => '每一天不吸煙都是勝利 🚭';
+
+  @override
+  String get smokingSubtitleNotStarted => '準備好重獲健康了嗎？ ✨';
+
+  @override
+  String get marijuanaPageTitle => '無大麻之旅';
+
+  @override
+  String get marijuanaHeaderStarted => '頭腦清醒！';
+
+  @override
+  String get marijuanaHeaderNotStarted => '無大麻生活！';
+
+  @override
+  String get marijuanaSubtitleStarted => '建立清晰的頭腦，一天接一天 🧠';
+
+  @override
+  String get marijuanaSubtitleNotStarted => '準備好迎接更清晰的明天了嗎？ 🌱';
+
+  @override
+  String get nicotinePouchesPageTitle => '告別尼古丁袋';
+
+  @override
+  String get nicotinePouchesHeaderStarted => '無尼古丁，更清爽！';
+
+  @override
+  String get nicotinePouchesHeaderNotStarted => '告別尼古丁袋，繼續前進！';
+
+  @override
+  String get nicotinePouchesSubtitleStarted => '擁抱更光明、更健康的自己 ✨';
+
+  @override
+  String get nicotinePouchesSubtitleNotStarted => '準備好丟掉尼古丁袋了嗎？ 🚀';
+
+  @override
+  String get opioidsPageTitle => '通往和平之路';
+
+  @override
+  String get opioidsHeaderStarted => '每天都在變強！';
+
+  @override
+  String get opioidsHeaderNotStarted => '康復之路！';
+
+  @override
+  String get opioidsSubtitleStarted => '擁抱您的力量 💪';
+
+  @override
+  String get opioidsSubtitleNotStarted => '準備好重獲新生了嗎？ 💖';
+
+  @override
+  String get opioidsInfoBox => '康復是一個醫療過程。請務必咨詢醫療專業人員。';
+
+  @override
+  String get socialMediaPageTitle => '數字排毒的快樂';
+
+  @override
+  String get socialMediaHeaderStarted => '拔掉插頭，盡情玩耍！';
+
+  @override
+  String get socialMediaHeaderNotStarted => '數字排毒之旅！';
+
+  @override
+  String get socialMediaSubtitleStarted => '現實生活是最好的動態 💖';
+
+  @override
+  String get socialMediaSubtitleNotStarted => '準備好重獲時間了嗎？ 🚀';
+
+  @override
+  String get pornographyPageTitle => '色情內容使用恢復';
+
+  @override
+  String get pornographyHeaderStarted => '建立持久的自我控制';
+
+  @override
+  String get pornographyHeaderNotStarted => '改變有問題的色情內容使用';
+
+  @override
+  String get pornographySubtitleStarted => '記錄誘因、自我控制和有證據支持的里程碑';
+
+  @override
+  String get pornographySubtitleNotStarted => '瞭解研究真正支持的結論，並衡量自己的進展';
+
+  @override
+  String get relapseMessage1 => '康復不是線性的。每一步前進都很重要，包括這一步。';
+
+  @override
+  String get relapseMessage2 => '您在這裡，您在嘗試，這需要真正的勇氣。';
+
+  @override
+  String get relapseMessage3 => '挫折不會抹去您的進步。您在學習和成長。';
+
+  @override
+  String get relapseMessage4 => '每一次重新開始都是您力量的證明，而不是軟弱的跡象。';
+
+  @override
+  String get relapseMessage5 => '明天是一個新的開始。您能行的。';
+
+  @override
+  String get relapseMessage6 => '您的價值不是由完美的連勝定義的。您很重要。';
+
+  @override
+  String get relapseMessage7 => '康復是一段有起有落的旅程。繼續前行。';
+
+  @override
+  String get relapseMessage8 => '您以前有力量開始，現在您依然擁有。';
+
+  @override
+  String get relapseMessage9 => '一瞬間並不能定義您未來的整個旅程。';
+
+  @override
+  String get relapseMessage10 => '在這裡表明您沒有放棄。這很有力量。';
+
+  @override
+  String get relapseMessage11 => '進步不在於完美，而在於堅持。';
+
+  @override
+  String get relapseMessage12 => '每一次嘗試都在建立韌性。繼續建立。';
+
+  @override
+  String get relapseMessage13 => '您再次嘗試的承諾本身就是一種勝利。';
+
+  @override
+  String get relapseMessage14 => '治愈不是瞬間的，而是伴隨著您做出的每一個選擇發生的。';
+
+  @override
+  String get relapseMessage15 => '您不是從頭開始——您是帶著更多的智慧繼續。';
+
+  @override
+  String get relapseMessage16 => '每一位專家都曾是初學者。每一位職業選手都曾是業餘愛好者。';
+
+  @override
+  String get relapseMessage17 => '康復是一天一天發生的，有時是一小時一小時發生的。';
+
+  @override
+  String get relapseMessage18 => '您正在一步步重新振作。這只是整個過程中的一章。';
+
+  @override
+  String get relapseMessage19 => '您在這裡這一事實意味著您在乎自己。堅持住。';
+
+  @override
+  String get relapseMessage20 => '朝著正確方向邁出的一小步仍然是前進。';
+
+  @override
+  String get undo => '撤銷';
+
+  @override
+  String get ok => '確定';
+
+  @override
+  String get alcoholMilestone1Title => '睡眠質量開始改善';
+
+  @override
+  String get alcoholMilestone1Description =>
+      '您的快速眼動睡眠週期在第一天內開始正常化。雖然酒精最初可能幫助您入睡，但它會擾亂整晚的深度睡眠和快速眼動週期，導致睡眠碎片化。';
+
+  @override
+  String get alcoholMilestone3Title => '水分水平恢復';
+
+  @override
+  String get alcoholMilestone3Description =>
+      '您的腎臟正在從酒精的利尿作用中恢復。酒精會抑制抗利尿激素，導致排尿增加和脫水。到第3天，您體內的液體平衡將顯著改善。';
+
+  @override
+  String get alcoholMilestone7Title => '免疫系統增強';
+
+  @override
+  String get alcoholMilestone7Description =>
+      '您的白細胞正在恢復其功能。即使是一次大量飲酒也會損害免疫功能長達24小時，而長期飲酒會嚴重削弱身體抵抗感染的能力。';
+
+  @override
+  String get alcoholMilestone14Title => '腦容量開始恢復';
+
+  @override
+  String get alcoholMilestone14Description =>
+      '在最初兩周內，腦容量開始恢復。思維和記憶會在接下來的幾個月里繼續改善。';
+
+  @override
+  String get alcoholMilestone30Title => '血壓正常化';
+
+  @override
+  String get alcoholMilestone30Description =>
+      '您的心血管系統顯示出顯著改善。經常飲酒會升高血壓，但戒酒一個月左右有助於將血壓恢復到更健康的水平。';
+
+  @override
+  String get alcoholMilestone60Title => '肝功能改善';
+
+  @override
+  String get alcoholMilestone60Description =>
+      '您的肝功能顯示出可測量的改善。這個再生器官可以從酒精引起的損傷中顯著恢復，肝酶和脂肪堆積在戒酒2個月內顯示出改善。';
+
+  @override
+  String get alcoholMilestone90Title => '思維和記憶顯著改善';
+
+  @override
+  String get alcoholMilestone90Description =>
+      '前三個月會帶來記憶、專注力和決策能力的顯著改善，而且恢復會在接下來的幾個月里繼續。';
+
+  @override
+  String get alcoholMilestone180Title => '腦容量和功能繼續恢復';
+
+  @override
+  String get alcoholMilestone180Description =>
+      '六個月的戒酒讓大腦有持續恢復的時間。腦容量和思維能力都在繼續改善。';
+
+  @override
+  String get alcoholMilestone365Title => '癌症風險可能開始降低';
+
+  @override
+  String get alcoholMilestone365Description =>
+      '戒酒一年可能開始降低癌症風險。雖然酒精明顯增加幾種癌症（肝癌、乳腺癌、結直腸癌、食道癌）的風險，但關於風險降低時間表的研究仍在進行中，並因癌症類型而異。';
+
+  @override
+  String get smokingMilestone1Title => '一氧化碳清除';
+
+  @override
+  String get smokingMilestone1Description =>
+      '您的血液再次呼吸了！在24小時內，一氧化碳水平降至正常，氧氣水平增加。您的心臟不再需要加班加點地將中毒的血液泵送到全身。';
+
+  @override
+  String get smokingMilestone3Title => '尼古丁戒斷達到頂峰';
+
+  @override
+  String get smokingMilestone3Description =>
+      '體內的尼古丁已經清除。最強烈的渴求往往出現在這段時間，但度過這個階段後，您會更接近穩定的無煙生活。';
+
+  @override
+  String get smokingMilestone7Title => '味覺和嗅覺顯著改善';
+
+  @override
+  String get smokingMilestone7Description =>
+      '食物將再次成為一種冒險！吸煙會破壞味蕾和嗅覺受體。一周後，您正在重新發現您忘記存在的味道。準備好認真欣賞食物吧！';
+
+  @override
+  String get smokingMilestone14Title => '血液循環和行走能力改善';
+
+  @override
+  String get smokingMilestone14Description =>
+      '您的雙腿每走一步都在感謝您！血液循環顯著改善，使行走和鍛鍊變得明顯更容易。那些樓梯看起來不再那麼令人生畏了，是嗎？';
+
+  @override
+  String get smokingMilestone30Title => '肺功能增加';
+
+  @override
+  String get smokingMilestone30Description =>
+      '氣道纖毛已經再生，正在清除長期積累的焦油和雜質。肺活量明顯提高，“吸煙者咳嗽”也在逐漸消失。';
+
+  @override
+  String get smokingMilestone90Title => '心臟病發作風險顯著降低';
+
+  @override
+  String get smokingMilestone90Description => '戒煙三個月後，心血管風險已明顯下降，心臟和血管正在持續恢復。';
+
+  @override
+  String get smokingMilestone180Title => '免疫系統增強';
+
+  @override
+  String get smokingMilestone180Description =>
+      '戒煙六個月後，白細胞功能明顯恢復，免疫系統對抗感染的能力也得到改善。';
+
+  @override
+  String get smokingMilestone365Title => '中風風險顯著降低';
+
+  @override
+  String get smokingMilestone365Description =>
+      '戒煙整整一年！中風風險已大幅降低，血管也在持續修復。更好的腦部血液循環正在進一步保護大腦。';
+
+  @override
+  String get smokingMilestone1825Title => '癌症風險驟降（5年）';
+
+  @override
+  String get smokingMilestone1825Description =>
+      '五年的勝利！您患口腔癌、喉癌、食道癌和膀胱癌的風險降低了一半。肺癌風險也顯著降低。您的細胞有時間進行修復和再生。';
+
+  @override
+  String get vapingMilestone1Title => '尼古丁渴望達到頂峰';
+
+  @override
+  String get vapingMilestone1Description =>
+      '您的大腦正在發尼古丁脾氣，但您已經贏了！在24小時內，尼古丁水平急劇下降。最糟糕的渴望現在發生，但它們也是最需要克服的。';
+
+  @override
+  String get vapingMilestone3Title => '呼吸改善';
+
+  @override
+  String get vapingMilestone3Description =>
+      '停用電子煙三天後，支氣管開始放松，肺活量逐步改善，電子煙引起的胸悶也開始緩解。';
+
+  @override
+  String get vapingMilestone7Title => '味覺和嗅覺恢復';
+
+  @override
+  String get vapingMilestone7Description =>
+      '尼古丁會使味蕾和嗅覺受體變得遲鈍。停用電子煙一周後，味覺和嗅覺開始恢復，食物的味道也會變得更鮮明。';
+
+  @override
+  String get vapingMilestone14Title => '血液循環改善';
+
+  @override
+  String get vapingMilestone14Description =>
+      '尼古丁會收縮血管。停用電子煙兩周後，血液循環已明顯改善，手腳冰涼也會逐漸緩解。';
+
+  @override
+  String get vapingMilestone30Title => '肺功能恢復';
+
+  @override
+  String get vapingMilestone30Description =>
+      '停用電子煙一個月後，氣道纖毛（負責清除異物的微小結構）已經再生，肺功能也明顯改善，晨起咳嗽會逐漸減少。';
+
+  @override
+  String get vapingMilestone60Title => '焦慮水平正常化';
+
+  @override
+  String get vapingMilestone60Description =>
+      '劇情反轉：吸電子煙其實讓焦慮更糟，而不是更好！兩個月後，您平時的焦慮水平更低，神經系統也正在平穩下來。';
+
+  @override
+  String get vapingMilestone90Title => '專注力和記憶力更敏銳';
+
+  @override
+  String get vapingMilestone90Description =>
+      '腦霧已經退場！三個月沒有尼古丁，您的專注力、記憶力和清晰思維都明顯改善。就像給大腦的內存做了升級。';
+
+  @override
+  String get vapingMilestone180Title => '口腔健康恢復';
+
+  @override
+  String get vapingMilestone180Description =>
+      '您的嘴巴正在發送感謝卡！六個月無電子煙，牙齦炎症減少，牙齒染色消退，口腔健康問題的風險大幅下降。';
+
+  @override
+  String get vapingMilestone365Title => '心血管風險降低';
+
+  @override
+  String get vapingMilestone365Description =>
+      '您的心臟真的變強了！整整一年，您患心臟病的風險顯著下降。您的心血管系統已經從尼古丁的日常攻擊中恢復過來。';
+
+  @override
+  String get marijuanaMilestone1Title => '戒斷症狀開始';
+
+  @override
+  String get marijuanaMilestone1Description =>
+      '您的大腦正在適應沒有 THC 的生活。最初24至48小時內，可能會出現易怒、焦慮或睡眠困難。這是常見的適應過程——大麻素受體正在重新調整。';
+
+  @override
+  String get marijuanaMilestone3Title => '身體症狀達到頂峰';
+
+  @override
+  String get marijuanaMilestone3Description =>
+      '您正處於最艱難的時刻，但從現在開始都是上坡路！第2-6天通常會出現戒斷症狀的高峰，包括頭痛、出汗和情緒變化。您的身體正在努力重新平衡自己。';
+
+  @override
+  String get marijuanaMilestone7Title => '睡眠模式改善';
+
+  @override
+  String get marijuanaMilestone7Description =>
+      '停止使用大麻一周後，自然睡眠結構開始恢復正常。快速眼動睡眠會出現反彈，因此夢境可能更清晰，休息質量也會改善。';
+
+  @override
+  String get marijuanaMilestone14Title => '急性戒斷結束';
+
+  @override
+  String get marijuanaMilestone14Description =>
+      '風暴已經過去！大多數身體戒斷症狀在兩周後顯著減少。您的情緒正在穩定，日常功能變得更容易管理。最難的部分已經過去了。';
+
+  @override
+  String get marijuanaMilestone30Title => '記憶功能改善';
+
+  @override
+  String get marijuanaMilestone30Description =>
+      '您的腦霧正在消散！研究表明，停止使用大麻後，語言學習和記憶力開始顯著改善。對記憶形成至關重要的海馬體開始更好地運作。';
+
+  @override
+  String get marijuanaMilestone60Title => '注意力變得敏銳';
+
+  @override
+  String get marijuanaMilestone60Description =>
+      '專注模式：已激活！兩個月沒有大麻，您的注意力和保持注意力的能力顯示出明顯的改善。工作任務和學習變得明顯更容易管理。';
+
+  @override
+  String get marijuanaMilestone90Title => '情緒穩定性恢復';
+
+  @override
+  String get marijuanaMilestone90Description =>
+      '三個月沒有大麻，會帶來更穩定的情緒、更少的焦慮和更好的壓力控制。您的情緒狀態正在穩定到更健康的常態。';
+
+  @override
+  String get marijuanaMilestone180Title => '計劃和決策能力恢復';
+
+  @override
+  String get marijuanaMilestone180Description =>
+      '您的心理CEO重新掌權了！六個月沒有大麻，會讓計劃、決策和解決問題的能力明顯提升。';
+
+  @override
+  String get marijuanaMilestone365Title => '腦結構修復';
+
+  @override
+  String get marijuanaMilestone365Description =>
+      '一年沒有大麻，讓與記憶相關的大腦區域有充分時間恢復。學習和記憶的改善已經成為您的新常態。';
+
+  @override
+  String get opioidMilestone1Title => '急性戒斷開始';
+
+  @override
+  String get opioidMilestone1Description =>
+      '最艱難的部分現在開始，但您並不孤單。急性戒斷症狀在前24-72小時內達到頂峰。這是您的身體開始愈合過程。在此階段，專業的醫療支持至關重要。';
+
+  @override
+  String get opioidMilestone7Title => '身體症狀達到頂峰並開始下降';
+
+  @override
+  String get opioidMilestone7Description =>
+      '您已經度過了風暴！最嚴重的身體戒斷症狀通常在第3-5天達到頂峰，並在第7天開始下降。您的身體正在努力恢復其自然平衡。';
+
+  @override
+  String get opioidMilestone14Title => '睡眠模式開始改善';
+
+  @override
+  String get opioidMilestone14Description =>
+      '停用阿片類藥物兩周後，自然睡眠結構開始恢復。阿片類藥物會擾亂快速眼動睡眠，而此時大腦正在逐步恢復更自然的做夢和睡眠節律。';
+
+  @override
+  String get opioidMilestone30Title => '思維和記憶開始恢復';
+
+  @override
+  String get opioidMilestone30Description =>
+      '腦霧正在消散！停止使用阿片類藥物一個月後，隨著大腦前部從相關變化中恢復，記憶、決策和清晰思維也在改善。';
+
+  @override
+  String get opioidMilestone60Title => '情緒調節改善';
+
+  @override
+  String get opioidMilestone60Description =>
+      '康復兩個月後，情緒波動正在逐漸平穩，大腦的獎賞系統也開始重新對日常愉悅產生反應。整體情緒正在恢復更自然的節律。';
+
+  @override
+  String get opioidMilestone90Title => '多巴胺功能顯著恢復';
+
+  @override
+  String get opioidMilestone90Description =>
+      '大腦的獎賞系統正在恢復！停止使用阿片類藥物三個月後，多巴胺功能已顯著改善。食物、音樂和人際關係等日常體驗又開始帶來愉悅感。';
+
+  @override
+  String get opioidMilestone180Title => '免疫系統增強';
+
+  @override
+  String get opioidMilestone180Description =>
+      '您的免疫系統重新開始巡邏！六個月的康復，您身體的自然防禦能力顯著增強。您更有能力抵抗感染和疾病。';
+
+  @override
+  String get opioidMilestone365Title => '神經可塑性和腦結構改善';
+
+  @override
+  String get opioidMilestone365Description =>
+      '經過整整一年的恢復，腦結構和神經可塑性都出現了明顯改善。長期使用阿片類藥物造成的腦部變化也在持續修復。';
+
+  @override
+  String get opioidMilestone730Title => '長期康復穩定性（2年）';
+
+  @override
+  String get opioidMilestone730Description =>
+      '持續康復兩年後，您已經建立了新的神經通路、應對策略和生活模式。研究顯示，達到這一階段通常伴隨顯著更低的復發風險。兩年的堅持本身就是重要成果。';
+
+  @override
+  String get socialMediaMilestone1Title => '數字排毒第一天！ 🎯';
+
+  @override
+  String get socialMediaMilestone1Description =>
+      '研究表明，即使只是想到查看社交媒體，也會激活與成癮相關的相似神經通路。第一天起，您已經開始打破這個習慣循環。';
+
+  @override
+  String get socialMediaMilestone3Title => '錯失恐懼症？不存在的！ 😎';
+
+  @override
+  String get socialMediaMilestone3Description =>
+      '第三天，“我是不是錯過了甚麼”的焦慮想法已經開始減弱。您正在培養把注意力放回現實生活、而不是精心篩選動態上的習慣。';
+
+  @override
+  String get socialMediaMilestone7Title => '注意力跨度：金魚 → 人類 🧠';
+
+  @override
+  String get socialMediaMilestone7Description =>
+      '第一周完成！不再每隔幾分鐘查看手機後，專注力已經開始改善。通知帶來的多巴胺刺激很容易讓大腦形成渴求，而您正在學習從其他活動中獲得滿足感。';
+
+  @override
+  String get socialMediaMilestone14Title => '睡得像個嬰兒（而不是僵屍） 😴';
+
+  @override
+  String get socialMediaMilestone14Description =>
+      '睡前停止刷屏兩周。屏幕藍光會抑制褪黑激素分泌，而您的自然睡眠節律正在逐步恢復。';
+
+  @override
+  String get socialMediaMilestone30Title => '真正的朋友 > 虛假的贊 💝';
+
+  @override
+  String get socialMediaMilestone30Description =>
+      '減少社交媒體使用一個月。研究顯示，這與孤獨感和抑鬱感下降以及心理健康改善有關。您已經堅持得更進一步。';
+
+  @override
+  String get socialMediaMilestone60Title => '比較陷阱：逃脫！ ✨';
+
+  @override
+  String get socialMediaMilestone60Description =>
+      '減少持續的社交比較兩個月。研究一直發現，社交媒體使用，尤其是向上比較，與較低的自尊相關。您正在擺脫這種比較習慣。';
+
+  @override
+  String get socialMediaMilestone90Title => '愛好收藏家等級：專家 🎨';
+
+  @override
+  String get socialMediaMilestone90Description =>
+      '三個月大約收回了270+小時！這足夠學習一項技能、讀15+本書，或深入培養一個愛好。大腦會強化您反復練習的習慣，所以這些線下習慣正變得更輕鬆、更自動。';
+
+  @override
+  String get socialMediaMilestone180Title => '心理健康煥然一新 🌟';
+
+  @override
+  String get socialMediaMilestone180Description =>
+      '減少社交媒體使用六個月。長期研究顯示，這與幸福感、自尊和生活滿意度的持續改善有關。您正在把更多注意力和時間留給現實生活。';
+
+  @override
+  String get socialMediaMilestone365Title => '達成數字禪師成就 🏆';
+
+  @override
+  String get socialMediaMilestone365Description =>
+      '有意識地減少社交媒體整整一年。您已經收回1000多個小時，建立了更深的人際關係，也把更多最好的時刻留給親身體驗，而不是分享。這個里程碑非常值得慶祝。';
+
+  @override
+  String get nicotinePouchesMilestone1Title => '味覺和嗅覺開始恢復';
+
+  @override
+  String get nicotinePouchesMilestone1Description =>
+      '尼古丁會使味蕾和嗅覺受體變得遲鈍。停用尼古丁袋僅24小時後，味覺和嗅覺就開始恢復，食物的味道也會逐漸變得更鮮明。';
+
+  @override
+  String get nicotinePouchesMilestone3Title => '尼古丁完全清除';
+
+  @override
+  String get nicotinePouchesMilestone3Description =>
+      '體內的尼古丁已經基本清除。戒斷症狀可能在這時達到高峰，但大腦正在適應沒有尼古丁的狀態。最難熬的階段很快就會過去。';
+
+  @override
+  String get nicotinePouchesMilestone7Title => '口腔健康改善';
+
+  @override
+  String get nicotinePouchesMilestone7Description =>
+      '停用尼古丁袋一周後，牙齦血流開始恢復正常，愈合也隨之開始。尼古丁袋可能導致牙齦刺激和萎縮。';
+
+  @override
+  String get nicotinePouchesMilestone14Title => '血液循環增強';
+
+  @override
+  String get nicotinePouchesMilestone14Description =>
+      '血管也在恢復。尼古丁會收縮血管；停用兩周後，血液循環已明顯改善，手腳也會逐漸暖和起來。';
+
+  @override
+  String get nicotinePouchesMilestone30Title => '應激反應正常化';
+
+  @override
+  String get nicotinePouchesMilestone30Description =>
+      '可能有些意外：尼古丁實際上會增加兩次使用之間的壓力。皮質醇水平和應激反應正在恢復正常，您也在重新體驗不依賴尼古丁的放松。';
+
+  @override
+  String get nicotinePouchesMilestone60Title => '睡眠質量改善';
+
+  @override
+  String get nicotinePouchesMilestone60Description =>
+      '不再使用尼古丁後，睡眠正在變得更穩定。尼古丁看似能讓人放松，實際上會擾亂睡眠結構。兩個月後，REM睡眠週期也在逐步恢復。';
+
+  @override
+  String get nicotinePouchesMilestone90Title => '多巴胺受體恢復';
+
+  @override
+  String get nicotinePouchesMilestone90Description =>
+      '大腦的獎賞系統正在恢復。尼古丁會劫持多巴胺通路，讓日常樂趣變得平淡。停用三個月後，生活中的自然愉悅感正在重新變得鮮明。';
+
+  @override
+  String get nicotinePouchesMilestone180Title => '心血管風險降低';
+
+  @override
+  String get nicotinePouchesMilestone180Description =>
+      '不使用尼古丁已六個月，心血管疾病風險顯著降低，血壓和心率變異性也明顯改善。';
+
+  @override
+  String get nicotinePouchesMilestone365Title => '長期健康得到保障';
+
+  @override
+  String get nicotinePouchesMilestone365Description =>
+      '停用尼古丁袋整整一年！尼古丁相關健康問題的風險繼續下降。您已經打破成癮循環，重新掌握了自己的選擇。這是非常了不起的成就！ 🏆';
+
+  @override
+  String get pornographyMilestone1Title => '重新掌握控制權';
+
+  @override
+  String get pornographyMilestone1Description =>
+      '有問題的色情內容使用的核心是控制困難，以及由此造成的痛苦或功能受損。第一天的意義很具體：您已經中斷舊模式一次，並開始識別真正會觸發它的情境。';
+
+  @override
+  String get pornographyMilestone3Title => '認識您的衝動';
+
+  @override
+  String get pornographyMilestone3Description =>
+      '問題使用較嚴重的人常報告難以停止的性想法、難以控制的慾望、易怒、情緒波動和睡眠問題。第三天適合把自己真正出現的體驗具體說出來，而不是套用固定的“戒斷時間表”。';
+
+  @override
+  String get pornographyMilestone7Title => '一周：隨機試驗的證據';
+
+  @override
+  String get pornographyMilestone7Description =>
+      '一項7天禁慾隨機試驗沒有發現普通使用者整體出現統一的戒斷綜合徵；但在“高問題使用加每日觀看”的探索性亞組中，渴求更強。因此第一周可能很難，但並非人人如此。';
+
+  @override
+  String get pornographyMilestone14Title => '找出您的誘因';
+
+  @override
+  String get pornographyMilestone14Description =>
+      '兩周足以讓您多次遇到以前會觸發色情內容使用的情境。研究把問題使用與渴求、壓力、逃避、孤獨和應對方式等因素聯繫起來；識別自己的模式，才能設計具體改變。';
+
+  @override
+  String get pornographyMilestone30Title => '一個月的控制';
+
+  @override
+  String get pornographyMilestone30Description =>
+      '一個月是檢驗控制力的有意義週期。在14,581人的研究中，性功能問題與“問題使用”的關聯強於單純觀看頻率，因此重新獲得控制比只盯著頻率更符合證據。';
+
+  @override
+  String get pornographyMilestone90Title => '改變可以維持';
+
+  @override
+  String get pornographyMilestone90Description =>
+      '一項針對問題性色情內容使用的ACT隨機試驗發現，12次治療後觀看量大幅下降，並在3個月隨訪時仍保持明顯改善。建立具體技能，而不只靠意志力，可以支持持久改變。';
+
+  @override
+  String get pornographyMilestone180Title => '六個月的穩定';
+
+  @override
+  String get pornographyMilestone180Description =>
+      '一項針對失控性行為的CBT隨機試驗發現，症狀、性強迫和心理健康的改善在3個月和6個月隨訪時仍保持穩定。長期控制是可以維持的。';
+
+  @override
+  String get pornographyMilestone365Title => '一年：持久改變';
+
+  @override
+  String get pornographyMilestone365Description =>
+      '一項接納式治療的一年隨訪發現，參與者的過度性行為沒有回到治療前水平。一年持續的改變更能說明新的行為模式已經穩定下來，而不是存在某個讓大腦突然“重置”的神奇日期。';
+
+  @override
+  String get pornographyMilestone1825Title => '五年的控制';
+
+  @override
+  String get pornographyMilestone1825Description =>
+      '五年屬於長期維持。CSBD的臨床定義核心是持續失去控制並造成痛苦或功能受損，因此多年保持控制並維持良好生活功能，本身就是有意義的結果。';
+
+  @override
+  String get customMilestone1Title => '初始康復階段開始';
+
+  @override
+  String get customMilestone1Description =>
+      '您的身體開始愈合過程！在戒除後的24小時內，您的系統開始清除毒素並適應在沒有成癮物質的情況下運作。睡眠障礙很常見，但也是康復過程的一部分。';
+
+  @override
+  String get customMilestone3Title => '戒斷症狀達到頂峰';
+
+  @override
+  String get customMilestone3Description =>
+      '您正在正面迎戰風暴！對於許多物質，身體戒斷症狀通常在第3天左右達到頂峰，包括焦慮、情緒波動和身體不適。這意味著您正在度過最艱難的部分。';
+
+  @override
+  String get customMilestone7Title => '急性戒斷階段結束';
+
+  @override
+  String get customMilestone7Description =>
+      '最糟糕的已經過去了！一周後，大多數物質的急性戒斷症狀開始消退。您的身體正在適應新的常態並開始穩定。';
+
+  @override
+  String get customMilestone14Title => '早期康復穩定';
+
+  @override
+  String get customMilestone14Description =>
+      '您的頭腦正在變得清晰！堅持戒除兩周後，隨著大腦開始適應不依賴成癮物質的狀態，思維通常會更清晰，渴求也會減少。';
+
+  @override
+  String get customMilestone30Title => '一個月里程碑';
+
+  @override
+  String get customMilestone30Description =>
+      '這是一個重要的勝利！堅持戒除三十天代表著顯著進步。許多人會發現，睡眠、情緒和精力在這段時間繼續改善。';
+
+  @override
+  String get customMilestone90Title => '三個月康復里程碑';
+
+  @override
+  String get customMilestone90Description =>
+      '您的承諾正在得到回報！三個月的康復代表了一個顯著的成就。急性後戒斷症狀通常開始消退，許多人報告說感覺更像自己了。';
+
+  @override
+  String get customMilestone180Title => '六個月康復成就';
+
+  @override
+  String get customMilestone180Description =>
+      '您正在建立持久的改變！持續戒除六個月後，隨著身體繼續恢復，身體健康、情緒穩定性和整體生活質量通常都會持續改善。';
+
+  @override
+  String get customMilestone365Title => '一年康復';
+
+  @override
+  String get customMilestone365Description =>
+      '這是了不起的成就！持續戒除一年是重要的人生里程碑。到這個階段，許多人在身體健康、人際關係和整體幸福感方面都會有明顯改善。';
+
+  @override
+  String get customMilestone730Title => '兩年持續康復';
+
+  @override
+  String get customMilestone730Description =>
+      '您已經建立起新的生活！兩年的康復體現了非凡的韌性和堅持。長期保持戒除狀態通常會給生活各方面帶來深刻的積極變化，並顯著降低復發風險。';
+
+  @override
+  String get addictionSsri => 'SSRI';
+
+  @override
+  String get ssriPageTitle => 'SSRI康復';
+
+  @override
+  String get ssriHeaderStarted => '您的康復之旅';
+
+  @override
+  String get ssriHeaderNotStarted => '逐漸停用SSRI的好處';
+
+  @override
+  String get ssriSubtitleStarted => '追蹤您的進度並慶祝每個里程碑';
+
+  @override
+  String get ssriSubtitleNotStarted => '看看停藥後會發生甚麼';
+
+  @override
+  String get ssriMilestone3Title => '第3天：FINISH綜合徵達到峰值';
+
+  @override
+  String get ssriMilestone3Description =>
+      '戒斷症狀通常在第2-4天達到峰值。SSRI會改變血清素的再循環方式，因此停藥後大腦需要時間適應。可能出現流感樣症狀、頭暈、失眠、惡心和“腦閃”。帕羅西汀往往引起更強的戒斷反應；氟西汀在體內停留時間更長，通常較輕。';
+
+  @override
+  String get ssriMilestone7Title => '一周：急性期開始緩解';
+
+  @override
+  String get ssriMilestone7Description =>
+      '最強烈的身體症狀開始減輕。大腦開始調整血清素信號傳導，以便在沒有藥物的情況下運作。睡眠和食慾開始穩定。';
+
+  @override
+  String get ssriMilestone14Title => '兩周：身體症狀消退';
+
+  @override
+  String get ssriMilestone14Description =>
+      '大多數急性身體停藥症狀已顯著減少或消退。腦閃、惡心和頭暈正在消失。隨著大腦繼續重新平衡血清素系統，情緒敏感性可能仍然較高。';
+
+  @override
+  String get ssriMilestone30Title => '一個月：情緒和精力趨於穩定';
+
+  @override
+  String get ssriMilestone30Description =>
+      '一個月是一個重要的里程碑。睡眠質量正在改善，精力水平逐漸穩定，許多人開始感覺情緒正在找到新的平衡。大腦正在積極恢復其自然的血清素調節。';
+
+  @override
+  String get ssriMilestone90Title => '三個月：血清素受體恢復';
+
+  @override
+  String get ssriMilestone90Description =>
+      '三個月是一個重要的恢復里程碑。藥物離開身體後，血清素系統已經有幾個月時間適應。對大多數人來說，情緒、焦慮、專注力和清晰思維都有明顯改善。';
+
+  @override
+  String get ssriMilestone180Title => '六個月：大腦長期調整';
+
+  @override
+  String get ssriMilestone180Description =>
+      '六個月讓神經系統有了充分的調整時間。大腦的血清素系統已經恢復到自然平衡。許多人報告情緒體驗範圍有所改善；對於曾出現此問題的人，SSRI引起的性功能障礙通常也已在此時消退。';
+
+  @override
+  String get ssriMilestone365Title => '一年：康復實現';
+
+  @override
+  String get ssriMilestone365Description =>
+      '一年標誌著一個完整的恢復週期。研究顯示，完成逐漸減藥並獲得心理支持的大多數人在一年後仍保持良好狀態，生活質量與繼續服藥者相當或更好。';
+
+  @override
+  String get settingsShowSsriTracking => '顯示SSRI追蹤';
+
+  @override
+  String get settingsNotifySsri => '通知 SSRI 減停藥進度';
+
+  @override
+  String get addictionSnri => 'SNRI';
+
+  @override
+  String get snriPageTitle => 'SNRI康復';
+
+  @override
+  String get snriHeaderStarted => '您的康復之旅';
+
+  @override
+  String get snriHeaderNotStarted => '逐漸停用SNRI的好處';
+
+  @override
+  String get snriSubtitleStarted => '追蹤您的進度並慶祝每個里程碑';
+
+  @override
+  String get snriSubtitleNotStarted => '看看停藥後會發生甚麼';
+
+  @override
+  String get snriMilestone3Title => '第3天：強烈停藥綜合徵達到峰值';
+
+  @override
+  String get snriMilestone3Description =>
+      'SNRI，特別是文拉法辛（Effexor），與一些最嚴重的抗抑鬱藥停藥綜合徵相關。文拉法辛的半衰期很短（5小時），因此症狀可能比大多數SSRI更強烈。FINISH症狀（流感樣感受、失眠、惡心、平衡障礙、感覺異常、過度喚醒）會同時涉及血清素和去甲腎上腺素系統。';
+
+  @override
+  String get snriMilestone7Title => '一周：兩個大腦化學系統正在調整';
+
+  @override
+  String get snriMilestone7Description =>
+      'SNRI會影響血清素和去甲腎上腺素的再攝取，這兩個系統正在同時調整。最強烈的身體症狀開始減輕，但雙重作用機制意味著這種調整可能比單獨停用SSRI時感覺更複雜。';
+
+  @override
+  String get snriMilestone14Title => '兩周：身體症狀減輕';
+
+  @override
+  String get snriMilestone14Description =>
+      '大多數急性身體停藥症狀已顯著減少。腦閃、惡心和頭暈正在消退。去甲腎上腺素系統的重新調整可能仍會引起一些焦慮或血壓波動，但這些情況通常會在接下來的幾周內消退。';
+
+  @override
+  String get snriMilestone30Title => '一個月：去甲腎上腺素系統穩定';
+
+  @override
+  String get snriMilestone30Description =>
+      '一個月是一個重要的里程碑。血清素和去甲腎上腺素系統都在積極重新平衡。睡眠質量和精力水平正在穩定。隨著藥物造成的情緒鈍化效應開始消退，許多人會注意到情緒體驗範圍有所改善。';
+
+  @override
+  String get snriMilestone90Title => '三個月：雙重系統重新平衡';
+
+  @override
+  String get snriMilestone90Description =>
+      '三個月是一個重要的恢復里程碑。血清素和去甲腎上腺素系統已經有幾個月時間適應。經過醫療監督下的減藥後，情緒、焦慮、專注力和清晰思維都明顯改善。';
+
+  @override
+  String get snriMilestone180Title => '六個月：神經學恢復';
+
+  @override
+  String get snriMilestone180Description =>
+      '六個月讓血清素和去甲腎上腺素系統有了充分的重新調整時間。SNRI通過去甲腎上腺素影響的HPA軸也在恢復正常。此時，許多人報告自己應對日常壓力的韌性明顯提高。';
+
+  @override
+  String get snriMilestone365Title => '一年：康復實現';
+
+  @override
+  String get snriMilestone365Description =>
+      '一年標誌著血清素和去甲腎上腺素雙系統完整的恢復週期。研究一貫顯示，在醫療監督和心理支持下成功停用SNRI的人，一年後仍能保持良好結果。';
+
+  @override
+  String get settingsShowSnriTracking => '顯示SNRI追蹤';
+
+  @override
+  String get settingsNotifySnri => '通知 SNRI 減停藥進度';
+
+  @override
+  String get addictionTca => '三環類抗抑鬱藥';
+
+  @override
+  String get tcaPageTitle => '三環類抗抑鬱藥康復';
+
+  @override
+  String get tcaHeaderStarted => '您的康復之旅';
+
+  @override
+  String get tcaHeaderNotStarted => '逐漸停用三環類抗抑鬱藥的好處';
+
+  @override
+  String get tcaSubtitleStarted => '追蹤您的進度並慶祝每個里程碑';
+
+  @override
+  String get tcaSubtitleNotStarted => '看看停藥後會發生甚麼';
+
+  @override
+  String get tcaMilestone3Title => '第3天：乙酰膽鹼反彈達到峰值';
+
+  @override
+  String get tcaMilestone3Description =>
+      'TCA會阻斷乙酰膽鹼。停藥後，這個系統可能短暫變得過度活躍。症狀包括惡心、腹瀉、腹部痙攣、大量出汗、頭痛、肌肉酸痛和失眠。這些症狀通常較早達到峰值，然後逐漸緩解。';
+
+  @override
+  String get tcaMilestone7Title => '一周：反彈症狀開始緩解';
+
+  @override
+  String get tcaMilestone7Description =>
+      '乙酰膽鹼反彈通常在最初幾天達到峰值，並在一周左右開始緩解。胃腸症狀、出汗和流感樣感覺正在減少，控制心率、消化和出汗的身體系統也在逐漸恢復正常。';
+
+  @override
+  String get tcaMilestone14Title => '兩周：抗膽鹼能效果逆轉';
+
+  @override
+  String get tcaMilestone14Description =>
+      '隨著乙酰膽鹼系統恢復，TCA引起的口乾、便秘、排尿困難和視力模糊正在逆轉。記憶和注意力也常會感覺更清晰。';
+
+  @override
+  String get tcaMilestone30Title => '一個月：自主神經系統穩定';
+
+  @override
+  String get tcaMilestone30Description =>
+      '一個月時，控制心率、血壓、消化和出汗的身體系統正在穩定。心律和血壓變化正趨向正常，REM做夢睡眠也開始恢復。';
+
+  @override
+  String get tcaMilestone90Title => '三個月：大腦化學系統趨於穩定';
+
+  @override
+  String get tcaMilestone90Description =>
+      'TCA會影響多個大腦化學系統。三個月給了這些系統充分時間逐漸穩定。情緒、清晰思維和身體狀態都明顯改善。';
+
+  @override
+  String get tcaMilestone180Title => '六個月：心臟和思維恢復';
+
+  @override
+  String get tcaMilestone180Description =>
+      '六個月讓心律、記憶和思維速度得到明顯恢復。TCA引起的心律變化和腦霧已經有幾個月時間逐漸消退。';
+
+  @override
+  String get tcaMilestone365Title => '一年：康復實現';
+
+  @override
+  String get tcaMilestone365Description =>
+      '一年給了所有受TCA影響的系統整整一年的恢復時間。乙酰膽鹼、去甲腎上腺素、血清素和組胺系統都已穩定，記憶、清晰思維和心率控制也得到明顯恢復。';
+
+  @override
+  String get settingsShowTcaTracking => '顯示三環類追蹤';
+
+  @override
+  String get settingsNotifyTca => '通知三環類抗抑鬱藥減停藥進度';
+
+  @override
+  String get addictionMaoi => 'MAOI';
+
+  @override
+  String get maoiPageTitle => 'MAOI康復';
+
+  @override
+  String get maoiHeaderStarted => '您的康復之旅';
+
+  @override
+  String get maoiHeaderNotStarted => '逐漸停用MAOI的好處';
+
+  @override
+  String get maoiSubtitleStarted => '追蹤您的進度並慶祝每個里程碑';
+
+  @override
+  String get maoiSubtitleNotStarted => '看看停藥後會發生甚麼';
+
+  @override
+  String get maoiMilestone3Title => '第3天：最高風險階段 — 必須醫療監督';
+
+  @override
+  String get maoiMilestone3Description =>
+      'MAOI是所有抗抑鬱藥類別中停藥風險最嚴重的。突然停藥，尤其是苯乙肼和反苯環丙胺，可能導致嚴重激越、意識混亂、幻覺、肌陣攣和高熱。如果出現這些症狀，請立即就醫。MAOI通過不可逆地使MAO酶失活發揮作用；恢復需要身體合成新的酶，這一過程大約需要14天。';
+
+  @override
+  String get maoiMilestone7Title => '一周：MAO酶合成進行中';
+
+  @override
+  String get maoiMilestone7Description =>
+      'MAOI會不可逆地使MAO酶分子失活；恢復需要合成全新的酶。到一周時，約50%的正常MAO活性可能已經恢復。嚴重的急性停藥症狀（譫妄、肌陣攣、高熱）已大幅減輕。仍然需要密切的醫療監督。';
+
+  @override
+  String get maoiMilestone14Title => '兩周：MAO酶活性基本恢復';
+
+  @override
+  String get maoiMilestone14Description =>
+      '兩周是不可逆MAOI停藥後MAO酶恢復的標準臨床時間框架。MAO-A和MAO-B活性已大幅恢復，正常酪胺代謝已重新建立。可在醫師指導下放寬MAOI治療期間所需的飲食限制。';
+
+  @override
+  String get maoiMilestone30Title => '一個月：大腦化學系統重新平衡';
+
+  @override
+  String get maoiMilestone30Description =>
+      '停用MAOI一個月後，MAO酶再次活躍，大腦會自然處理血清素、去甲腎上腺素、多巴胺和酪胺。特殊的食物和藥物相互作用期已經結束，不過仍應告知開藥醫生您曾使用過MAOI。';
+
+  @override
+  String get maoiMilestone90Title => '三個月：大腦化學物質正常化';
+
+  @override
+  String get maoiMilestone90Description =>
+      '三個月給了大腦的情緒和能量系統充分時間在停用MAOI後重新調整。隨著大腦重新自然處理這些化學物質，情緒、精力和清晰思維也在穩定下來。';
+
+  @override
+  String get maoiMilestone180Title => '六個月：長期恢復';
+
+  @override
+  String get maoiMilestone180Description =>
+      '六個月代表了自然單胺功能持續相當長的一段時間。血清素、去甲腎上腺素和多巴胺受體群已恢復正常。受MAOI影響的苯乙胺（PEA）通路也已恢復到自然水平——這是恢復過程中常被忽視的一面，卻有助於情緒恢復正常。';
+
+  @override
+  String get maoiMilestone365Title => '一年：康復實現';
+
+  @override
+  String get maoiMilestone365Description =>
+      '停用MAOI一年後，大腦和身體已經有整整一年不受藥物影響。情緒、精力、清晰思維以及正常的大腦化學調節，都有了充分時間穩定和恢復。';
+
+  @override
+  String get settingsShowMaoiTracking => '顯示MAOI追蹤';
+
+  @override
+  String get settingsNotifyMaoi => '通知 MAOI 減停藥進度';
+
+  @override
+  String milestoneRetrieved(String date) {
+    return '檢索日期：$date';
+  }
+
+  @override
+  String notificationProgressTitle(String name) {
+    return '遠離$name';
+  }
+
+  @override
+  String notificationProgressBody(int days, String message) {
+    return '已堅持$days天 — $message';
+  }
+
+  @override
+  String get notificationProgressMessage1 => '繼續保持這份出色的努力！';
+
+  @override
+  String get notificationProgressMessage2 => '您做得很棒！';
+
+  @override
+  String get notificationProgressMessage3 => '堅持得太棒了！';
+
+  @override
+  String get notificationProgressMessage4 => '為您的堅強喝彩！';
+
+  @override
+  String get notificationProgressMessage5 => '繼續閃耀！';
+
+  @override
+  String get notificationProgressMessage6 => '做得漂亮！';
+
+  @override
+  String get notificationProgressMessage7 => '繼續加油！';
+
+  @override
+  String get notificationProgressMessage8 => '您是真正的冠軍！';
+
+  @override
+  String get notificationProgressMessage9 => '這份努力非常了不起！';
+
+  @override
+  String get notificationProgressMessage10 => '保持堅強！';
+
+  @override
+  String get notificationChannelName => '提醒';
+
+  @override
+  String get notificationChannelDescription => '每日進度提醒通知';
+
+  @override
+  String get notificationOpenAction => '打開通知';
+
+  @override
+  String get done => '完成';
+
+  @override
+  String get rename => '重命名';
+
+  @override
+  String get adderallReferenceDay1 =>
+      '苯丙胺戒斷：早期會發生甚麼\n\n來源：MedlinePlus（美國國家醫學圖書館）\n\n甚麼是苯丙胺？\n苯丙胺是一類興奮劑，既包括非法物質（例如俗稱“speed”的非法苯丙胺），也包括用於治療ADHD和發作性睡病的處方藥（例如Adderall和Vyvanse）。它們會顯著提高多巴胺和去甲腎上腺素水平，從而可能帶來強烈的專注、精力和欣快感。長期大量使用後，大腦會適應這些反復的激增，因此停用後情緒、精力和動力可能會暫時下降。\n\n常見戒斷症狀\nMedlinePlus列出的典型苯丙胺停用症狀包括：\n• 對藥物的強烈渴求\n• 從抑鬱、煩躁到焦慮的情緒波動\n• 整天感到疲倦\n• 無法集中注意力\n• 幻覺（看到或聽到並不存在的東西）\n• 頭痛、身體酸痛、食慾增加以及睡眠不佳等身體反應\n\n戒斷危險嗎？\nMedlinePlus並未把苯丙胺戒斷本身描述為具有醫學危險性，但指出嚴重症狀可能需要住院式治療；苯丙胺使用造成的情緒和心理問題（包括抑鬱）也可能很嚴重，需要支持。\n\n尋求幫助\nMedlinePlus建議，如果你或你認識的人對苯丙胺成癮並需要幫助停止使用，應聯繫醫療服務提供者。如果出現自傷想法，它會引導讀者使用988或911等危機支持資源。';
+
+  @override
+  String get adderallReferenceDay3 =>
+      '苯丙胺戒斷管理：第3天\n\n來源：世界衛生組織（2009）《Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings》，NCBI Bookshelf\n\n第3天處於甚麼階段\nWHO指南指出，興奮劑戒斷症狀“在最後一次使用興奮劑後的24小時內開始，並持續3–5天”。第3天正處於這一急性期，通常也是症狀開始緩解前最艱難的幾天之一。\n\n症狀\n對於苯丙胺類興奮劑，指南列出：\n• 煩躁和易怒\n• 抑鬱\n• 睡眠和食慾增加\n• 肌肉酸痛\n大量使用的人還可能出現精神病性症狀，例如偏執、思維紊亂或幻覺。\n\n主要是心理層面的挑戰\n與酒精或阿片類藥物戒斷不同，興奮劑戒斷通常不會帶來嘔吐、震顫或癲癇發作。主要困難在心理層面——情緒低落、快感缺失，以及與多巴胺功能暫時低下有關的渴求。\n\n管理方式\nWHO指南建議支持性護理：\n• 每天至少飲用2–3升水\n• 補充含B族維生素和維生素C的復合維生素\n• 對疼痛和焦慮進行對症用藥\n• 嚴重煩躁時先採用行為策略，僅在需要時使用地西泮鎮靜\n\n急性期之後\n指南指出，最嚴重的戒斷只持續幾天，之後會進入較輕的恢復期，可持續一到兩個月。';
+
+  @override
+  String get adderallReferenceDay7 =>
+      '停用Adderall一周：最糟的階段正在過去\n\n來源：Li & Shoptaw，《Clinical Management of Psychostimulant Withdrawal: Review of the Evidence》，Addiction（2023），PubMed Central\n\n急性期結束\n這篇證據綜述把精神興奮劑戒斷分為幾個階段。在急性期，症狀“在最初2–3天後達到高峰”，而這些症狀造成的“主要不適通常會在4–7天內消退”。第一周結束時，大多數人已經度過崩潰期最難熬的部分——精力和食慾開始穩定，睡眠也開始恢復規律。\n\n接下來會怎樣\n綜述指出，大多數殘餘症狀會在接下來的兩到三周繼續緩解。到了第7天，恢復已經明顯展開。\n\n第7天仍可能存在的症狀\n心理症狀通常比身體上的崩潰感持續更久：\n• 動力不足和快感缺失\n• 難以集中注意力\n• 情緒仍低於平常水平\n這些反映了多巴胺系統正在重新調整，是恢復過程中正常且暫時的一部分。\n\n恢復信號\n目前沒有FDA批准的藥物專門治療興奮劑戒斷，因此這一階段主要依靠支持性護理、規律生活、睡眠、營養和心理支持。';
+
+  @override
+  String get adderallReferenceDay14 =>
+      '停用Adderall兩周：進入較長期恢復階段\n\n來源：世界衛生組織（2009）《Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings》，NCBI Bookshelf\n\n已過急性期\nWHO認為興奮劑戒斷最嚴重的階段大約持續3–5天，之後是約一到兩個月的較輕恢復期。到兩周時，崩潰期已經明顯過去。\n\n較長期恢復期是甚麼感覺\n嗜睡、煩躁和肌肉酸痛大多已經緩解。剩下的通常較輕：情緒低落或波動、動力下降，以及隨著大腦獎勵系統重新調整而間歇出現的渴求。\n\n睡眠和食慾\n急性期增加的睡眠和食慾正在恢復正常。隨著睡眠穩定，情緒、注意力和精力往往也會跟著改善。\n\n復用風險與ADHD\n這仍是復用風險較高的時期，尤其是停藥後原有的ADHD症狀重新出現時。WHO指南強調心理支持和預防復用的技能；對於因ADHD服用Adderall的人，這是與醫生討論非興奮劑方案或替代治療的好時機。';
+
+  @override
+  String get adderallReferenceDay30 =>
+      '停用Adderall一個月：大多數症狀已在身後\n\n來源：Li & Shoptaw，《Clinical Management of Psychostimulant Withdrawal: Review of the Evidence》，Addiction（2023），PubMed Central\n\n一個月處於甚麼階段\n綜述發現，大多數戒斷症狀會在最初兩到三周逐漸減退。到30天時，大部分症狀已經緩解，情緒和動力通常也比第一周好得多。\n\n後期恢復階段\n從一個月到六個月，記憶、計劃、專注和決策能力會繼續改善。到一個月時，崩潰期已經結束，這些進步也已經開始。\n\n情緒和動力\n崩潰期深重的快感缺失此時大多已經減輕。隨著自然多巴胺信號恢復，第一周令人毫無樂趣的活動會重新開始帶來滿足感。\n\n對於ADHD患者\n如果Adderall原本用於治療ADHD，基礎症狀現在可能更加明顯。在這個階段，與醫療服務提供者一起制定非興奮劑策略或替代方案很重要。';
+
+  @override
+  String get adderallReferenceDay60 =>
+      '停用Adderall兩個月：較長期恢復期接近尾聲\n\n來源：世界衛生組織（2009）《Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings》，NCBI Bookshelf\n\n兩個月處於甚麼階段\nWHO描述了初始崩潰後持續約一到兩個月的較輕恢復期。到了60天，你已處於這一窗口的末端，殘餘症狀大多正在消退。\n\n哪些方面會改善\n指南列出的興奮劑戒斷症狀——煩躁、抑鬱情緒以及睡眠和食慾紊亂——對大多數人來說已經顯著緩解：\n• 平常情緒更穩定，早期恢復時的波動減少\n• 睡眠和食慾恢復正常\n• 獎勵系統更容易對日常愉悅作出反應——食物、運動、人際聯繫\n\n恢復信號\n劑量更高、使用時間更長會讓恢復需要更多時間，而持續停用會讓情緒、動力和清晰思維在接下來的幾個月繼續向正常狀態靠近。\n\n身體健康\n隨著藥物從日常生活中消失，興奮劑對心率、食慾和體重的影響減弱，使用興奮劑造成的心血管負擔也隨之減輕。';
+
+  @override
+  String get adderallReferenceDay90 =>
+      '停用Adderall三個月：最糟階段已過，恢復仍在繼續\n\n來源：Li & Shoptaw，《Clinical Management of Psychostimulant Withdrawal: Review of the Evidence》，Addiction（2023），PubMed Central\n\n90天處於甚麼階段\n三個月時，早期症狀早已消失，而記憶、計劃、專注、決策和獎勵系統仍會繼續改善。\n\n思維和記憶繼續恢復\n綜述發現，記憶、計劃、專注以及風險決策能力可以在數月內繼續改善。到了90天，只要持續停用，注意力和記憶仍在朝好的方向發展。\n\n為甚麼這一階段仍然重要\n目前沒有FDA批准的藥物專門針對興奮劑戒斷，因此規律生活、治療、運動、睡眠和支持是幫助恢復度過這一階段的主要工具。現在建立這些習慣，會把恢復繼續向前推進。\n\n更大的圖景\n三個月是一個真實的成就——最艱難的身體和情緒階段已經過去；只要持續停用，此後的總體軌跡就是穩步改善。';
+
+  @override
+  String get adderallReferenceDay180 =>
+      '停用Adderall六個月：早已越過最難熬的階段\n\n來源：《Withdrawal Syndromes》，StatPearls（NCBI Bookshelf），美國國家醫學圖書館\n\nStatPearls如何描述興奮劑\n這份臨床參考把興奮劑恢復描述為先經歷崩潰，隨後逐漸改善。常見問題包括抑鬱、睡得很多、飢餓感增加、情緒低落，以及動作和思維變慢。抑鬱可能持續數周，之後較輕的恢復還會繼續。\n\n六個月處於甚麼階段\n到六個月時，你早已越過StatPearls描述的急性期和持續數周的抑鬱階段。文中所說的緩慢恢復已有充分時間推進；對大多數人來說，此時平常的情緒、睡眠、食慾和動力已經穩定可靠。\n\n恢復信號\nStatPearls描述的是最初幾周之後仍會繼續的漸進恢復。到六個月，急性崩潰和數周的抑鬱期已經遠去，穩定的情緒、睡眠、食慾和動力成為主要狀態。\n\n與ADHD的關係\n對於因ADHD服用Adderall的人，停用六個月是一個適合頭腦清醒地與醫生回顧當前症狀的時間，也可以評估運動、睡眠、規律生活、治療或替代藥物等非興奮劑方法是否滿足需要。';
+
+  @override
+  String get adderallReferenceDay365 =>
+      '停用Adderall一年：實質性恢復，坦誠看待\n\n來源：Berman等，《Potential Adverse Effects of Amphetamine Treatment on Brain and Behavior: A Review》，Molecular Psychiatry（2008），PubMed Central\n\n關於這篇綜述\n這篇綜述追蹤高劑量或長期苯丙胺暴露可能對大腦造成的影響，並記錄了停用期間可測量的恢復。\n\n關於恢復，它發現了甚麼\n綜述記錄了長期停用後腦血流以及負責回收多巴胺的蛋白質出現恢復。不同腦區恢復速度不同，但總體方向很明確：停止使用後，大腦會修復。\n\n長期恢復\n綜述記錄了長期停用後腦血流和多巴胺回收出現可測量的恢復。到一年時，這些腦系統已經有整整一年時間進行重建。\n\n一年時意味著甚麼\n對大多數人——尤其是按處方劑量服用Adderall的人——停用一年意味著獎勵、注意和動力系統在日常生活中運作良好。使用量更大或持續時間更長的人可能需要更多時間，但恢復仍會繼續。與恢復早期相比，復用風險已經低得多。';
+
+  @override
+  String get alcoholReferenceDay1 =>
+      '停止飲酒後，你的睡眠會發生甚麼變化？\n\n來源：《Alcohol and the Sleeping Brain》（Colrain, Nicholas & Baker），Handbook of Clinical Neurology——同行評審，由NIH托管\n\n酒精與睡眠結構\n酒精具有鎮靜作用，因此會縮短入睡所需的時間，並在前半夜增加深度慢波睡眠。但這需要付出代價：酒精會抑制REM（快速眼動）睡眠——這一與記憶鞏固和情緒調節相關的恢復性階段——並在後半夜隨著酒精被代謝而讓睡眠變得支離破碎。\n\n停止飲酒後的第一晚\n由於酒精會抑制REM做夢睡眠，停飲後的最初幾晚常常會出現REM反彈：在正常睡眠模式恢復的過程中，夢境變得生動、睡眠更淺且易斷。這是恢復過程中正常且暫時的一部分。\n\n恢復開始\n隨著大腦在接下來的幾天到幾周內重新調整，REM睡眠和整體睡眠質量都會改善。睡眠障礙是與戒斷相關的最持久的症狀之一，但隨著持續戒酒，它會逐漸趨向正常。\n\n關於大量飲酒的提醒\n對於大量或長期每日飲酒的人，最初24小時還可能出現戒斷症狀（焦慮、出汗、震顫、惡心）。嚴重的戒斷可能很危險——如果你一直每天大量飲酒，在突然停飲之前請先咨詢醫生。';
+
+  @override
+  String get alcoholReferenceDay3 =>
+      '急性期與早期恢復\n\n來源：《Alcohol Withdrawal》，StatPearls——同行評審，NIH國家醫學圖書館\n\n最初的24–72小時\nStatPearls記載，戒斷症狀會在最後一次飲酒後的數小時內出現——包括震顫、失眠、激越、出汗、心率和血壓升高——並且症狀通常在72小時左右達到高峰。到第三天結束時，大多數人已經度過急性期最嚴重的階段。嚴重戒斷（癲癇發作，或震顫性譫妄——StatPearls指出後者可能在停止或減量後長達3至5天內的任何時間點出現）屬於醫療急症：每日大量飲酒者不應在未經醫囑的情況下突然停飲。\n\n渴求如潮水般湧來\n渴求常常在最初幾天內加劇，但單次渴求是短暫的——通常幾分鐘內就會過去。認識到每一波渴求都會自行消退，能讓人更容易熬過去。\n\n水分恢復\n酒精會抑制抗利尿激素（ADH），使腎臟排出更多水分，讓長期飲酒者處於慢性脫水狀態。一旦停止飲酒，這種利尿效應就會結束，體液平衡在最初幾天開始恢復——通常表現為皮膚更清爽、精力更穩定。\n\n心神與睡眠開始安定\n隨著急性期過去，被酒精擾亂的大腦化學（GABA和谷氨酸）開始重新平衡。思維清晰度改善，而在戒斷早期嚴重破碎的睡眠也開始在第一周內趨向更好的質量。';
+
+  @override
+  String get alcoholReferenceDay7 =>
+      '免疫系統如何恢復\n\n來源：《Alcohol and the Immune System》（Sarkar, Jung & Wang），Alcohol Research: Current Reviews——同行評審，由NIH托管\n\n酒精如何削弱免疫力\n酒精以多種方式削弱免疫系統。即使是一次大量飲酒，也能讓抗感染能力下降長達24小時。長期飲酒會減少白細胞、擾亂免疫信號，並損害腸道和肺部防禦，從而增加感染風險和傷口愈合緩慢的風險。\n\n消除傷害\n一旦停飲，其中許多影響會得到改善。白細胞和免疫信號開始恢復，腸道和氣道防禦也開始修復。在第一周內，你的免疫系統不再每天被打壓，對常見感染的抵抗力也開始提高。\n\n一個漸進的過程\n免疫系統的完全恢復需要一周以上的時間，修復的程度取決於飲酒有多重、有多久——但停止飲酒的第一周正是重建開始的地方。';
+
+  @override
+  String get alcoholReferenceDay14 =>
+      '戒酒早期的腦部恢復\n\n來源：Bartsch AJ et al.，《Manifestations of early brain recovery associated with abstinence from alcoholism》，Brain（2007）——同行評審\n\n測量恢復\n這項研究使用MRI對剛剛戒毒的酒精依賴者在戒酒的最初幾周內進行隨訪，並與健康對照組進行比較。它捕捉到了停止飲酒後大腦在物理層面上的重建。\n\n腦容量回升\n長期飲酒會使大腦萎縮——部分是細胞體積的可逆性縮小，而不僅僅是永久性的細胞丟失。戒酒後，研究人員測得平均全腦容量增長了近2%，集中在小腦、中腦、腦室和額葉區域。這種再生長大部分發生在早期，即在停酒後的最初一兩周內。\n\n小腦與注意力\n在負責運動和注意力的大腦區域，恢復尤其明顯。隨著注意力出現可測量的改善，腦細胞健康的標誌物也同步上升，因此物理層面的愈合帶來了思維上的切實進步。\n\n是基礎，而非終點\n複雜推理等高級功能的恢復更為漸進，但最初兩周已經證明：一旦戒酒，大腦會迅速開始愈合。';
+
+  @override
+  String get alcoholReferenceDay30 =>
+      '減少飲酒後血壓會下降\n\n來源：Roerecke et al.，《The effect of a reduction in alcohol consumption on blood pressure: a systematic review and meta-analysis》，Lancet Public Health（2017）——同行評審\n\n證據\n這項薈萃分析匯總了36項隨機試驗（約2,865名受試者），檢驗人們減少飲酒後血壓會發生甚麼變化。它發現了一種明確的劑量依賴效應：減酒越多，血壓下降越多。\n\n效果有多大？\n每天飲酒兩杯或更少的人，減少飲酒後血壓沒有顯著變化。超過這一閾值後，效應呈劑量依賴：在每天飲酒六杯或更多、並將飲酒量減半的人中效果最強，他們的收縮壓平均下降約5.5 mmHg，舒張壓平均下降約4.0 mmHg。這一幅度的下降具有臨床意義——可與某些降壓藥相媲美，足以降低長期的中風和心臟病風險。\n\n為甚麼一個月很重要\n酒精通過激活應激反應、升高皮質醇並使血管僵硬來升高血壓。這項綜述中的試驗顯示，這一益處會在持續減酒的幾周內顯現——因此，戒酒約一個月後，較大量飲酒者的血壓已經有時間向更健康的水平回落。\n\n一個閾值效應\n該綜述發現了一個明確的閾值：益處集中在每天飲酒超過兩杯的人身上，並且之前的飲酒量越重，益處越大。如果你飲酒較輕，就別指望獲得這一特定的降壓益處——但較重的飲酒者停止飲酒後，確實能獲得可測量的心血管回報。';
+
+  @override
+  String get alcoholReferenceDay60 =>
+      '停止飲酒後的肝臟恢復\n\n來源：美國國家酒精濫用與酒精中毒研究所（NIAAA），《Alcohol\'s Effects on the Body》\n\n酒精如何損傷肝臟\n肝臟負責處理你所飲入的大部分酒精，也首當其衝地承受損傷。NIAAA描述了酒精相關性肝損傷的進展過程：它始於脂肪肝（肝脂肪變性——脂肪在肝細胞內堆積），可能發展為酒精性肝炎（炎症），並在長期大量飲酒後發展為肝纖維化和肝硬化（瘢痕形成）。\n\n早期階段是可逆的\n關鍵在於，肝臟具有極強的再生能力，而且這種損傷的早期階段可以在停止飲酒後得到改善。尤其是脂肪肝，往往會在持續戒酒後消退。到戒酒約兩個月時，肝臟已經有充足的時間清除脂肪沈積、平息炎症並恢復更健康的功能——這通常反映在下降的肝酶水平（ALT和AST）上。\n\n肝臟之外\nNIAAA指出，酒精還會給心臟、胰腺和免疫系統帶來負擔。讓身體從酒精中獲得一段持續的休息，也能讓這些系統恢復——許多人到這一階段會注意到精力更穩定、整體健康更好，正是得益於此。';
+
+  @override
+  String get alcoholReferenceDay90 =>
+      '戒酒三個月後的思維與記憶\n\n來源：關於戒酒後神經心理恢復的系統綜述（PubMed Central，2024）——同行評審\n\n證據表明瞭甚麼\n這項綜述匯總了追蹤人們停止飲酒後思維和記憶如何恢復的研究。大多數能力會在大約六到十二個月內趨向正常，其中一些會改善得更早。\n\n哪些最先改善\n有兩項能力突出地早於其他能力恢復：基本處理速度（該綜述發現它通常在大約一個月時恢復，儘管更複雜任務的準確性會滯後）和工作記憶更新。到大約三個月時，許多人已經注意到這些能力的提升。\n\n哪些需要更長時間\n注意力、計劃、決策、衝動控制、知覺和記憶會在六到十二個月的恢復窗口期內持續改善。\n\n影響恢復的因素\n該綜述指出，恢復受到年齡、吸煙狀況和病前能力等因素的影響——但令人鼓舞的是，它並不始終取決於過去飲酒的總量。恢復是預期中的走向。\n\n為甚麼這很重要\n更清晰的思維就是實實在在的康復：更好的注意力和決策能力有助於人們堅持治療並避免復發。';
+
+  @override
+  String get alcoholReferenceDay180 =>
+      '戒酒六個月時的大腦恢復\n\n來源：關於物質使用期間戒斷過程中大腦結構和功能恢復的同行評審綜述（PubMed Central）\n\n恢復仍在繼續\n最初幾周的早期腦容量回升只是開始。這項綜述記載，隨著持續戒酒，大腦在結構和功能上都會繼續恢復——灰質得以恢復，受損的、負責協調腦區之間通信的白質通路也會在數月內得到修復。\n\n大腦前部\n大腦前部的恢復尤為重要，它負責判斷、計劃和自我控制。隨著它愈合，決策能力和衝動控制也會增強。\n\n大腦的重塑與功能\n除了物理層面的修復，大腦的功能和連接也在恢復。大腦能夠重塑和重新學習，這使得持續戒酒成為進行心理治療和養成新習慣的強有力時期。\n\n恢復信號\n到六個月時，大腦的結構和功能都明顯在向更健康的正常狀態邁進。保持戒酒會讓這種恢復有更多時間繼續累積。';
+
+  @override
+  String get alcoholReferenceDay365 =>
+      '酒精、癌症風險與停止飲酒\n\n來源：美國國家癌症研究所（NCI），《Alcohol and Cancer Risk》\n\n酒精會致癌\nNCI指出，科學界存在強烈共識：飲酒可以致癌。酒精與口腔（口腔癌）、咽部（喉咽）、喉部（聲帶）、食道、肝臟、乳腺以及結腸和直腸的癌症相關。飲酒越多、時間越長，風險就越高。\n\n酒精如何驅動癌症\n其機制包括：乙醛——酒精的一種有毒分解產物，會損傷DNA；氧化應激和炎症；對保護性營養素吸收的損害；以及就乳腺癌而言，雌激素水平升高。\n\n停止飲酒後風險會下降\n重要的是，NCI報告稱，隨著時間推移，戒酒與更低的風險相關——研究表明，口腔癌和食道癌的升高風險會在停止飲酒後下降，儘管可能需要數年時間才能接近從未飲酒者的風險水平。戒酒一年是這條道路上有意義的一步。\n\n疊加的益處\n達到一年還能鞏固戒酒帶來的心血管和肝臟收益——血壓降低、心律失常風險下降、肝臟持續愈合——以及不斷下降的癌症風險。';
+
+  @override
+  String get benzodiazepineReferenceDay7 =>
+      '苯二氮卓戒斷：第一周\n\n來源：世界衛生組織（2009）《Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings》，NCBI Bookshelf\n\n關於苯二氮卓戒斷安全的提示\n苯二氮卓戒斷可能很危險。WHO指南明確指出，最安全的做法是逐步遞減苯二氮卓的用量，這“有助於緩解苯二氮卓戒斷症狀並預防癲癇發作”。長期使用後切勿突然停藥——應與醫生共同制定減量方案。\n\n戒斷何時出現\nWHO的時間線取決於藥物的作用時長：\n• 短效類（奧沙西泮、阿普唑侖、替馬西泮）：戒斷在最後一次服藥後1–2天開始，持續2–4周或更久\n• 長效類（地西泮、硝西泮）：戒斷在最後一次服藥後2–7天開始，持續2–8周或更久\n第一周的里程碑正是這樣一個時間點：即便是長效苯二氮卓，此時也已清除到足以讓戒斷全面顯現的程度。\n\n早期戒斷症狀\n• 反跳性焦慮——往往比藥物原本治療的那種焦慮更強烈\n• 失眠和睡眠紊亂\n• 震顫和肌肉緊張\n• 出汗和心悸\n• 對光和聲音的敏感度升高\n\n監測\nWHO指南指出，戒斷的嚴重程度“可能劇烈波動”，因此不推薦使用正式量表；相反，臨床醫生應每隔幾小時檢查一次，給予安撫並解釋症狀。苯二氮卓會增強GABA——大腦主要的鎮靜信號；長期使用會使該系統變得遲鈍，因此撤除藥物後大腦會處於過度興奮狀態——這正是焦慮、震顫和癲癇發作風險的來源，也是必須逐步減量的原因。';
+
+  @override
+  String get benzodiazepineReferenceDay14 =>
+      '苯二氮卓戒斷：兩周\n\n來源：Ashton，《Protracted withdrawal syndromes from benzodiazepines》，Journal of Substance Abuse Treatment（1991），PubMed\n\n仍處於急性戒斷期\n到兩周時，許多人——尤其是停用長效苯二氮卓的人——仍處於急性期，此時大腦鎮靜系統（GABA）與興奮系統之間的失衡最為明顯。焦慮、失眠和知覺障礙都很常見。\n\n為甚麼苯二氮卓戒斷會遷延\nHeather Ashton教授描述了最初的戒斷症狀如何演變成更持久的問題。焦慮、失眠、思維不清晰和感覺變化可能持續數月，因為大腦的耐受性改變逆轉得很慢。\n\n緩慢可逆的改變\nAshton將這些描述為“中樞神經系統中緩慢可逆的功能性改變”。其核心主張是恢復：神經系統會逐步逆轉長期苯二氮卓暴露所造成的那種功能性適應。\n\n逐步減量是關鍵\n證據有力地支持將緩慢、受監督的減量作為最安全的停藥方式，讓大腦逐步重新適應，而不是突然面對抑制性信號的缺失。';
+
+  @override
+  String get benzodiazepineReferenceDay60 =>
+      '苯二氮卓與兩個月時的睡眠恢復\n\n來源：Poyares et al.，《Chronic benzodiazepine usage and withdrawal in insomnia patients》，Journal of Psychiatric Research（2004），PubMed\n\n苯二氮卓如何改變睡眠\n苯二氮卓被廣泛用於治療失眠，但它們會改變睡眠結構。在這項多導睡眠圖研究中，受試者平均每晚服用苯二氮卓近七年，慢性用藥與慢波（深度）睡眠減少、淺睡眠第2階段增多相關——因此，使用者即使感到昏昏欲睡，也會失去恢復性的深度睡眠。\n\n深度睡眠回來了\n令人鼓舞的發現是：該研究在停藥15天後再次測量睡眠，發現與慢性用藥的那些夜晚相比，慢波睡眠和δ活動得到恢復，同時主觀睡眠質量也得到改善。被藥物抑制的深度睡眠，在停藥後約兩周內開始恢復。\n\n這在60天時意味著甚麼\n如果深度睡眠能在兩周內恢復，那麼到兩個月時，你的大腦已經有充足的時間繼續重建自然的、恢復性的睡眠。早期戒斷中嚴重的反跳性失眠通常已經平息。作者坦言，停藥起初確實會加重睡眠問題——這正是逐步減量重要的原因——但到他們方案結束時，睡眠質量已經優於長期服用苯二氮卓時的水平。\n\n兩個月時的其他改善\n許多早期身體戒斷症狀——肌肉緊張、震顫、心悸、出汗——到兩個月時通常已經緩解或消失，因為身體在重新調節。';
+
+  @override
+  String get benzodiazepineReferenceDay90 =>
+      '停用苯二氮卓三個月後：身體健康趨於穩定\n\n來源：Ashton，《Protracted withdrawal syndromes from benzodiazepines》，Journal of Substance Abuse Treatment（1991），PubMed\n\n身體趨於穩定\n到90天時，急性期早已過去。對於完成了規範減量的人來說，大多數身體戒斷症狀——震顫、心悸、頭痛以及最嚴重的睡眠紊亂——都已大幅緩解，睡眠也普遍更加穩定。\n\n為甚麼有些症狀會持續\nAshton記載，有些症狀可能持續數月。到三個月時，殘留的焦慮、腦霧和感覺變化仍可能出現，而大腦會繼續其緩慢、可逆的重新調整。\n\n焦慮持續的兩個原因\n1. 大腦的GABA系統仍在向正常敏感性重新適應——這是一個緩慢的過程\n2. 當初導致使用苯二氮卓的任何潛在焦慮，如今在沒有藥物緩衝的情況下被感知到\n\n接受心理治療的好時機\n最嚴重的早期症狀已經過去，三個月是一個強有力的節點，可以借助談話療法（如針對焦慮的認知行為療法CBT）等支持手段，在神經系統繼續安定的同時培養應對技能。';
+
+  @override
+  String get benzodiazepineReferenceDay180 =>
+      '六個月時的思維與記憶：可測量的進步\n\n來源：Tata et al.，《Lack of cognitive recovery following withdrawal from long-term benzodiazepine use》，Psychological Medicine（1994），PubMed\n\n這項研究做了甚麼\n這項研究對21名長期服用苯二氮卓的患者進行了測試，分別在停藥前、停藥後不久以及戒斷六個月時進行，並與匹配的對照組比較。這是苯二氮卓恢復文獻中最坦率的數據點之一。\n\n它發現了甚麼\n在停藥前，患者在言語學習、記憶、運動速度、視覺協調和視覺推理方面存在問題。停藥後幾乎沒有甚麼變化。到六個月時，其中幾個方面已經出現了可測量的改善。\n\n這意味著甚麼\n到六個月時，言語學習、記憶、運動速度和視覺協調都已出現可測量的恢復。這種改善已經很明顯，而且還有繼續發展的空間。\n\n更大的圖景\n如果你在六個月時仍感到頭腦發懵，這項研究告訴我們：這是意料之中的，堅持戒斷才是前進的道路。更長期的研究顯示，恢復會持續到遠超這一節點——大腦會繼續愈合。';
+
+  @override
+  String get benzodiazepineReferenceDay365 =>
+      '停用苯二氮卓一年後：思維與記憶持續恢復\n\n來源：Barker et al.，《Persistence of cognitive effects after withdrawal from long-term benzodiazepine use: a meta-analysis》，Archives of Clinical Neuropsychology（2004），PubMed\n\n我們所擁有的最強證據\n研究人員匯總了在停藥至少六個月後對長期苯二氮卓使用者重新進行測試的研究。匯總結果顯示，戒斷後思維和記憶出現了明顯的恢復。\n\n好消息\n匯總研究發現，戒斷後思維和記憶的多個方面出現了真實、可測量的改善。到大約一年時，與用藥期間相比，這種恢復是廣泛而明顯的。\n\n恢復仍在繼續\n匯總研究發現思維和記憶出現了廣泛的恢復。到一年時，你已經沿著一條在六個月時就可測量的恢復趨勢走了很遠。\n\n這在一年時意味著甚麼\n到一年時，可以預期思維、記憶和清晰度會出現實質性恢復——大多數人會感到自己明顯比用藥期間更加敏銳。但如果某些方面仍顯滯後，這與證據是一致的，並不意味著你停滯不前。恢復仍在繼續，一年的戒斷是這條道路上一個重要而有價值的里程碑。';
+
+  @override
+  String get benzodiazepineReferenceDay540 =>
+      '停用苯二氮卓18個月後：緩慢但真實的恢復\n\n來源：Ashton，《Protracted withdrawal syndromes from benzodiazepines》，Journal of Substance Abuse Treatment（1991），PubMed\n\n為甚麼苯二氮卓恢復需要這麼久\n苯二氮卓作用於GABA——大腦主要的鎮靜系統。長期使用會改變該系統反應的強度，而這些改變可能需要數月才能逆轉。這就是為甚麼苯二氮卓的恢復以月而不是以周來衡量。\n\n18個月處於甚麼位置\nAshton描述了持續時間較長、可能需要數月才能緩解的戒斷症狀。到18個月時，對大多數人來說最糟糕的階段早已過去，殘留的焦慮、感覺變化和腦霧也已基本平息。\n\n緩慢可逆\n關鍵的是，Ashton把潛在改變描述為“中樞神經系統中緩慢可逆的功能性改變”。緩慢，但可逆——漫長的時間線反映的是苯二氮卓造成的適應之深，而非大多數人身上的永久性損傷。\n\n恢復信號\nAshton將潛在改變描述為緩慢可逆。到18個月時，大腦的鎮靜GABA系統已經有很長時間來安定，主導方向是持續地向正常狀態恢復。';
+
+  @override
+  String get benzodiazepineReferenceDay730 =>
+      '停用苯二氮卓兩年後：重大而持久的進展\n\n來源：Barker et al.，《Persistence of cognitive effects after withdrawal from long-term benzodiazepine use: a meta-analysis》，Archives of Clinical Neuropsychology（2004），PubMed\n\n恢復中的一個里程碑\n兩年是一個重要的里程碑，尤其是在經歷了漫長的戒斷之後。早期和殘留症狀階段早已過去，第一年的成果又有一年時間來鞏固。\n\n證據支持甚麼\n匯總研究顯示，戒斷後在許多方面都出現了恢復。到兩年時，大多數人報告焦慮處於或低於使用苯二氮卓前的水平，無需藥物即可獲得可靠睡眠，情緒更穩定，思維比用藥期間更清晰。\n\n恢復信號\n匯總研究證實了思維和記憶在許多方面的恢復。到兩年時，持續恢復是證據所支持的可預期結果。\n\n保持正確視角\n兩年為睡眠、情緒、記憶和清晰思維提供了一個漫長的恢復窗口。證據顯示這四方面都有實質性改善，而且愈合會從這裡繼續。';
+
+  @override
+  String get benzodiazepineReferenceDay1095 =>
+      '停用苯二氮卓三年後：長期愈合\n\n來源：Barker et al.，《Persistence of cognitive effects after withdrawal from long-term benzodiazepine use: a meta-analysis》，Archives of Clinical Neuropsychology（2004），PubMed\n\n長遠視角\n三年處於苯二氮卓恢復時間線的最遠端。對絕大多數人來說，即便經歷過嚴重而漫長的戒斷，破壞性症狀也早已過去，與用藥期間相比，生活質量發生了根本性的改變。\n\n薈萃分析發現了甚麼\n對長期使用者的匯總研究顯示，戒斷後在許多方面都出現了恢復。在數年的戒斷中，主導性的故事是思維、記憶和日常功能的廣泛恢復。\n\n恢復信號\n長期研究顯示思維和記憶在許多方面都有恢復。到三年時，早期和殘留的戒斷階段都早已遠去，那些成果也有了數年時間來鞏固。\n\n一條充滿希望的信息\n苯二氮卓的恢復之旅是醫學上最艱巨的歷程之一，三年的持續愈合是一項意義深遠的成就。證據是明確的：大腦會實質性愈合，大多數人恢復了清晰度、睡眠和情緒範圍，而且改善會隨著時間繼續。';
+
+  @override
+  String get cocaineReferenceDay1 =>
+      '可卡因戒斷：最初24小時\n\n來源：《Withdrawal Syndromes》，StatPearls（NCBI Bookshelf），美國國家醫學圖書館\n\n可卡因與大腦\n可卡因會阻斷大腦獎賞迴路中多巴胺（以及其他單胺類物質）的再攝取，使多巴胺積聚並產生強烈的欣快感和精力。隨著長期使用，大腦會通過下調這一系統來適應，因此一旦沒有藥物，正常的活動也會顯得平淡無味。\n\n崩潰期\nStatPearls將興奮劑戒斷描述為：一旦停止使用，便從一次“崩潰”開始，其特徵是顯著的抑鬱、過度睡眠、飢餓、情緒低落，以及運動和思維的嚴重遲緩。在最初24小時內，這通常包括：\n• 極度疲勞和睡眠需求增加\n• 情緒低落，運動和思維遲緩\n• 食慾增加（可卡因會抑制食慾）\n\n在更廣泛的成癮文獻中，渴求、易怒和焦慮在這一窗口期也常被廣泛報告，儘管StatPearls並未將它們明確列為崩潰期的一部分。\n\n與其他一些藥物不同\nStatPearls指出，興奮劑戒斷可通過觀察和支持性護理來處理；與酒精或苯二氮卓戒斷不同，它通常不會引起癲癇發作或譫妄。主要的危險在心理層面——在崩潰期，抑鬱以及（在大量使用的人中）自殺意念可能出現，因此建議給予支持和監測。\n\n沒有獲批的藥物\n目前尚無獲批用於治療可卡因戒斷的藥物；處理方式是支持性的，而諸如應急管理等非藥物手段，是針對潛在物質使用障礙的循證療法。';
+
+  @override
+  String get cocaineReferenceDay3 =>
+      '停用可卡因三天：應對挑戰高峰\n\n來源：《Cocaine Toxicity》，StatPearls（NCBI Bookshelf），美國國家醫學圖書館\n\n可卡因如何影響身體\nStatPearls記載，可卡因會阻斷多巴胺、去甲腎上腺素和血清素的再攝取，延長交感神經的刺激。這既是它帶來欣快感的原因，也是它危險的原因——它幾乎能影響每一個器官系統。\n\n第2–4天：心理戒斷的高峰\n到第三天，急性崩潰期已讓位於最強烈的心理戒斷：\n• 情緒低落和抑鬱心境達到最強烈的程度\n• 快感缺失\n• 強烈且由線索觸發的渴求\n• 焦慮和坐立不安\n• 睡眠紊亂——有人睡得過多，有人失眠\n\n心血管危險正在消退\nStatPearls將心血管毒性認定為可卡因最致命的影響：心率和血壓升高、心肌需氧量增加、冠狀動脈痙攣以及血小板活化——這些共同驅動心律失常、心肌梗死和中風的風險，即便是年輕使用者也不例外。可卡因自身的半衰期很短，約為一小時，到第三天藥物本身已完全從你的系統中清除——不過StatPearls指出，其代謝產物在使用後數小時內仍可能引起血管收縮，其中一種代謝產物可能殘留數周，因此一些殘留的心血管負擔可能比藥物本身持續更久。\n\n前方的路\n急性期很強烈，但最需要支持、也持續最久的是心理症狀——抑鬱、渴求和快感缺失。';
+
+  @override
+  String get cocaineReferenceDay7 =>
+      '停用可卡因一周：身體恢復開始\n\n來源：《Withdrawal Syndromes》，StatPearls（NCBI Bookshelf），美國國家醫學圖書館\n\n急性期正在結束\nStatPearls將可卡因戒斷描述為從最初的崩潰期轉入更長的恢復階段。到第一周結束時，最嚴重的症狀通常在緩解，而多巴胺系統仍在繼續重建。\n\n身體恢復正在進行\n一旦可卡因的交感神經刺激停止，它對心血管、食慾、睡眠和氣道的影響就會在接下來幾天到幾周內開始逆轉：\n• 心率和血壓向正常回落\n• 食慾逐漸恢復（可卡因會強烈抑制食慾）\n• 睡眠模式開始穩定\n• 如果可卡因是經鼻吸食，鼻腔通道開始愈合\n\n心理症狀仍在繼續\nStatPearls指出，抑鬱和快感缺失是興奮劑戒斷的特徵，並且會比身體症狀持續更久：\n• 情緒仍然低落，儘管不如高峰期那麼嚴重\n• 由線索觸發的渴求依然強烈\n• 注意力和動力仍然受損\n\n急性期後階段\n此後，戒斷會轉入持續數周乃至數月的、在情緒、渴求和清晰思維方面更平穩的改善。瞭解這一規律，能讓恢復中較慢的那部分變得更容易應對。';
+
+  @override
+  String get cocaineReferenceDay14 =>
+      '停用可卡因兩周：找到穩定\n\n來源：《Withdrawal Syndromes》，StatPearls（NCBI Bookshelf），美國國家醫學圖書館\n\n兩周時\n到兩周時，嚴重的崩潰症狀——深度抑鬱、大量睡眠以及運動和思維遲緩——通常已經緩解。此時的恢復重點轉向重建大腦和情緒健康。\n\n情緒與情感狀態\n到兩周時，在多巴胺系統恢復期間，情緒仍可能低於正常水平。與第一周相比，深重的快感缺失正在緩解，真實的幸福感時刻正在回歸。\n\n渴求與觸發因素\n在這一階段，由線索觸發的渴求是一個重大挑戰。大腦已在可卡因使用與特定的環境、人、情緒和活動之間形成了牢固的關聯。即便總體情緒正在改善，遇到其中任何一個觸發因素都可能引發強烈的渴求。避開高風險環境並建立新的關聯很重要。\n\n睡眠改善\n到兩周時，睡眠通常比急性戒斷階段更加穩定、更有恢復性。改善的睡眠對情緒、清晰思維以及管理渴求的能力都有顯著的積極作用。\n\n打好基礎\n由於針對興奮劑使用障礙的循證療法是行為層面的——應急管理、心理治療和同伴支持——因此兩周這個節點是接入那些將支撐長期恢復的支持結構的重要時機。';
+
+  @override
+  String get cocaineReferenceDay60 =>
+      '停用可卡因兩個月：情緒和獎賞開始恢復\n\n來源：《Recovering from Cocaine: Insights from Clinical and Preclinical Investigations》，Neuroscience & Biobehavioral Reviews（2013），PubMed Central\n\n大腦在做甚麼\n這篇綜述綜合了關於停止使用可卡因後大腦變化的人類和動物研究。慢性可卡因會改變多巴胺系統並降低額葉皮層的活動；這些系統的恢復，正是人們在戒斷早期所注意到的情緒和動力改善的基礎。\n\n獎賞系統的進展\n在動物研究中，可卡因引起的多巴胺受體和再循環蛋白的變化隨著持續戒斷而向健康水平回落。隨著獎賞系統恢復，深重的快感缺失逐漸消散，日常的獎賞——食物、人際聯繫、成就——又重新讓人感到滿足。\n\n恢復信號\n到兩個月時，情緒正在改善，睡眠更加穩定，而多巴胺和額葉皮層系統仍在繼續重建。靈長類動物研究顯示，可卡因相關的D1受體和轉運體變化正隨著持續戒斷向對照水平回落。';
+
+  @override
+  String get cocaineReferenceDay90 =>
+      '停用可卡因三個月：多巴胺標誌物回升\n\n來源：《Recovering from Cocaine: Insights from Clinical and Preclinical Investigations》，Neuroscience & Biobehavioral Reviews（2013），PubMed Central\n\n為甚麼90天是一個里程碑\n這篇綜述強調，三個月這個時間點在生物學上具有重要意義。在非人靈長類動物中，被可卡因升高的多巴胺D1受體和轉運體，在約90天的戒斷後顯示出“回到對照水平的證據”——這是獎賞系統能在藥物消失後重新調整的直接證據。\n\n大腦前部\n作者們強調，大腦前部的恢復是長期戒斷最重要的標誌之一。這一區域負責衝動控制、決策和自我控制，隨著它的恢復，這些能力也會增強。\n\n90天顯示了甚麼\n到90天時，靈長類動物研究發現D1、D2和多巴胺轉運體的密度已與非用藥對照組無顯著差異。即便在長期暴露之後，到這一時間點，多巴胺系統的大幅恢復已清晰可見，並會隨著戒斷繼續。';
+
+  @override
+  String get cocaineReferenceDay180 =>
+      '停用可卡因六個月：思維更清晰\n\n來源：《Structural and Functional Brain Recovery in Individuals with Substance Use Disorders During Abstinence: A Review of Longitudinal Neuroimaging Studies》，PubMed Central\n\n可以成像的恢復\n這篇綜述匯總了縱向腦成像研究，這些研究在人們戒斷時間不斷延長的過程中對他們進行反復掃描。就可卡因而言，它報告稱，隨著持續戒斷，功能活動會出現可測量的恢復。\n\n腦成像證據\n兩項功能性MRI研究對可卡因使用者進行了長期追蹤，兩者都發現隨著戒斷時間延長，中腦和丘腦的激活得到改善。在其中一項中，戒斷約六個月後，大腦的激活模式已與非成癮的健康對照相當。就各類物質而言，該綜述指出，核成像結果指向了戒斷過程中的多巴胺能恢復。\n\n這在六個月時意味著甚麼\n這些功能性進步與人們在此階段報告的真實世界改善相一致：\n• 注意力和工作記憶更好\n• 決策和衝動控制更敏銳\n• 情緒和情緒調節更穩定\n\n恢復信號\n在大約六個月時，一個縱向fMRI隊列顯示出與非成癮健康對照相當的激活模式，同時隨著戒斷時間延長，中腦和深部腦區的激活得到改善。這是被直接成像出來的功能性大腦恢復。';
+
+  @override
+  String get cocaineReferenceDay365 =>
+      '停用可卡因一年：心血管負擔解除\n\n來源：《Cocaine Toxicity》，StatPearls（NCBI Bookshelf），美國國家醫學圖書館\n\n為甚麼心臟是核心\nStatPearls將心血管毒性認定為可卡因最致命的影響。每次使用都會升高心率、血壓和心肌需氧量，同時引起冠狀動脈痙攣並促進血栓形成——這一組合即便在年輕人中也會驅動心臟病發作、心律失常和中風。\n\n一年的戒斷解除了甚麼\n沒有可卡因的每一天，都是擺脫這些急性傷害的一天。在一年中，反復的血壓和心率飆升消失了，可卡因引起的冠狀動脈痙攣和急性心肌梗死的風險被解除，心臟也不再被推向氧供需失衡。\n\n恢復信號\n停止可卡因會中止反復的冠狀動脈痙攣、心動過速、高血壓、血栓促進和氧供需失衡——這些正是驅動急性心臟損傷的因素。既有的纖維化或心肌炎仍是醫學問題，但反復的可卡因觸發傷害已經消失。\n\n大腦也在恢復\n到一年時，獎賞和自我控制系統已有足夠時間恢復，從而支持更好的衝動控制、更穩定的情緒，以及對日常獎賞更強的反應。';
+
+  @override
+  String get cocaineReferenceDay730 =>
+      '停用可卡因兩年：持續恢復\n\n來源：《Recovering from Cocaine: Insights from Clinical and Preclinical Investigations》，Neuroscience & Biobehavioral Reviews（2013），PubMed Central\n\n長遠視角\n這篇綜述匯集了人類和動物研究關於長期停用可卡因的發現。其核心結論是，額葉皮層功能的保持與恢復是長期戒斷最重要的標誌——長期戒斷者（10個月以上）比短期戒斷者表現出更高的額葉皮層活動。\n\n甚麼在繼續愈合\n• 被可卡因改變的多巴胺標誌物隨著持續戒斷繼續向正常水平靠攏\n• 在活躍使用者和戒斷早期使用者身上看到的灰質和白質完整性下降，可能隨著更長時間的戒斷而逆轉，這或許是通過持續的髓鞘成熟實現的\n• 額葉控制迴路——衝動控制、判斷、情緒調節——在增強\n\n恢復信號\n作者們提出了一個真誠的科學性提醒：長期戒斷者之間的一些差異可能反映了一種“幸存者效應”——起初大腦完整性更好的人可能更容易保持戒斷——而不僅僅是恢復本身。但清楚的是，停用可卡因兩年所支持的，是一個功能上遠比使用者更接近非使用者的大腦，以及一種不只是戒斷、而是被實質重建的生活。';
+
+  @override
+  String get ghbReferenceDay1 =>
+      'GHB戒斷：最初的數小時\n\n來源：《Characterization of the GHB Withdrawal Syndrome》，PubMed Central\n\n⚠ 這是醫療急症\nGHB戒斷屬於最危險的物質戒斷之一，可與嚴重的酒精和苯二氮卓戒斷相匹敵。若不治療，超過一半的病例會進展為譫妄，並伴有危險的心率和血壓波動以及癲癇發作。任何依賴GHB、GBL或1,4-丁二醇的人，都應尋求受監督的住院解毒，而不是獨自停藥。\n\n為甚麼它來得這麼快\nGHB的半衰期只有30–60分鐘，依賴者通常需要每2–3小時補一次藥，才能避免戒斷——比酒精或苯二氮卓快得多。正是這種快速的藥代動力學，使得症狀會比其他鎮靜催眠藥的戒斷更早出現。\n\n早期症狀\n焦慮、失眠、震顫、出汗、心率加快和血壓升高。';
+
+  @override
+  String get ghbReferenceDay3 =>
+      'GHB戒斷：最艱難的幾天\n\n來源：《Characterization of the GHB Withdrawal Syndrome》，PubMed Central\n\n最艱難的一段\n這項研究發現，幾種核心戒斷症狀——肌肉酸痛、肌肉抽動、緊張受壓感、心率加快和腹部痙攣——在最初三天最為嚴重，到第四天時許多症狀的嚴重程度下降了70%以上。這一早期窗口通常是最高風險的時期，此時未經治療的戒斷最可能升級為譫妄、癲癇發作，或危險的心率和血壓波動。\n\n嚴重特徵\n• 嚴重的激越和焦慮\n• 幻聽、幻視和偏執\n• 震顫、出汗、心跳加速和高血壓\n• 癲癇發作的風險\n\n處理方式\n該研究將苯二氮卓遞減和藥物性GHB遞減描述為兩種常用的解毒方法，並指出有證據表明，GHB遞減對症狀的控制可能比單用苯二氮卓更有效。無論哪種方法都需要密切監測——這並不適合在家中自行處理。';
+
+  @override
+  String get ghbReferenceDay7 =>
+      '停用GHB一周\n\n來源：《Characterization of the GHB Withdrawal Syndrome》，PubMed Central\n\n大多數症狀正在消退\n幾種核心戒斷症狀的嚴重程度或發生率在最初四天內下降了70%以上。在受監督的遞減治療下，遞減階段本身平均持續11天，之後是約六天的恢復階段——因此到一周時，許多人已經深入這一改善進程，即便整個過程尚未完全結束。\n\n可能殘留的症狀\n• 出汗、震顫和雙手發抖\n• 睡得很多，或者反過來失眠和坐立不安\n• 渴求\n\n該研究發現，這些特定症狀直到第11天變化都相對較小，因此這一周內症狀持續存在並不罕見。在綜合徵明顯平息之前，持續的醫療監督仍然重要。';
+
+  @override
+  String get ghbReferenceDay14 =>
+      '停用GHB兩周\n\n來源：《Characterization of the GHB Withdrawal Syndrome》，PubMed Central\n\n已過急性綜合徵\n到兩周時，該研究描述的急性身體綜合徵——在受監督治療下，其遞減和恢復階段合計平均約17天——通常已經解決或非常接近解決。心率、血壓和大多數身體症狀應該正在趨於穩定。\n\n甚麼仍在殘留\n該研究特別指出，一些患者在出院時渴求和失眠仍然存在，並指出這些可能促成復吸風險。即便危險的早期階段已經過去，此時支持和規律的生活仍然很重要。';
+
+  @override
+  String get ghbReferenceDay30 =>
+      '停用GHB一個月\n\n來源：《Characterization of the GHB Withdrawal Syndrome》，PubMed Central\n\n一個月處於甚麼位置\n到一個月時，該研究描述的急性危險階段早已過去。集中在最初幾天、隨後是平均約兩周半的受監督遞減和恢復期的急性危險階段，此時已經遠去。渴求和失眠是出院時識別出的關鍵殘留復吸風險。\n\n為甚麼支持仍然有幫助\n如果到一個月時渴求、情緒低落或睡眠問題仍然存在，這與該研究作者們標記為復吸風險因素的情況是一致的——這正是持續的支持和規律生活重要的原因。';
+
+  @override
+  String get ghbReferenceDay90 =>
+      '停用GHB三個月\n\n來源：《Characterization of the GHB Withdrawal Syndrome》，PubMed Central\n\n三個月的恢復\n到三個月時，急性GHB戒斷綜合徵早已解決。出院時識別出的殘留風險是渴求和失眠，因此三個月的戒斷讓睡眠、自主神經穩定性以及防復吸的日常習慣都有了充足的時間來鞏固。\n\n人們通常報告甚麼\n• 平時情緒更平靜\n• 睡眠更可靠\n• 思維更清晰，渴求更少\n\n如果焦慮、失眠或情緒低落在三個月時仍然明顯，值得與臨床醫生討論，而不是想當然地認為它會自行解決。';
+
+  @override
+  String get ghbReferenceDay180 =>
+      '停用GHB六個月\n\n來源：《Characterization of the GHB Withdrawal Syndrome》，PubMed Central\n\n半年之後\n到六個月時，急性GHB戒斷綜合徵早已解決，恢復已完全從解毒轉向穩定的睡眠、渴求控制和防復吸。危險的自主神經紊亂和易發譫妄的階段屬於最初幾天到幾周，而非這一階段。\n\n更大的圖景\n考慮到早期階段的危險性，以及（部分由殘留的渴求和失眠所驅動）復吸風險的真實存在，安全度過GHB戒斷並堅持半年不碰，是一項重大的成就。把你帶到這裡的那套日常習慣和支持，值得繼續保留。';
+
+  @override
+  String get inhalantsReferenceDay1 =>
+      '停止使用吸入劑：第一天\n\n來源：Radparvar，《The Clinical Assessment and Treatment of Inhalant Abuse》，The Permanente Journal（2023），PubMed Central\n\n為甚麼會出現戒斷\n慢性吸入劑使用會導致神經適應——神經系統開始期待這種物質。許多吸入劑作用於與酒精相同的大腦迴路，因此停用會讓大腦暫時失衡。這些化學物質很快從血液中清除，但會儲存在體脂中，這可能使戒斷出現的時間難以預測。\n\n早期症狀\n這篇綜述將吸入劑戒斷描述為類似於酒精或苯二氮卓戒斷，報告的症狀包括：\n• 惡心、嘔吐和出汗\n• 震顫和心率加快\n• 失眠和睡眠紊亂\n• 焦慮和易怒\n\n安全提示\n在更嚴重的病例中，該綜述還把幻覺、妄想和癲癇發作列入了報告的症狀之中，儘管它並沒有給出精確的逐日時間表——請把這些當作可能出現的症狀，而不是固定的時間線。在解毒期間接受醫療監督是明智的，尤其是對於大量、長期使用者。';
+
+  @override
+  String get inhalantsReferenceDay7 =>
+      '停用吸入劑一周\n\n來源：Radparvar，《The Clinical Assessment and Treatment of Inhalant Abuse》，The Permanente Journal（2023），PubMed Central\n\n急性窗口\n臨床文獻將吸入劑戒斷描述為類似於酒精或苯二氮卓戒斷，但普遍認為它持續時間更短。到第一周結束時，對大多數人來說，急性身體症狀——惡心、震顫、出汗、失眠——通常正在消退。\n\n甚麼仍在殘留\n• 疲勞和腦霧\n• 情緒低落或不穩\n• 渴求\n\n關於早期戒斷的說明\n這一階段的腦霧並不意味著持久的損傷——大腦仍在重新調整。關于思維和記憶在接下來的幾周到幾個月里具體如何恢復的研究，將在後續里程碑中介紹。';
+
+  @override
+  String get inhalantsReferenceDay14 =>
+      '停用吸入劑兩周\n\n來源：Radparvar，《The Clinical Assessment and Treatment of Inhalant Abuse》，The Permanente Journal（2023），PubMed Central\n\n已過急性期\n臨床綜述將吸入劑戒斷描述為與酒精或苯二氮卓戒斷相似但更短。到兩周時，惡心、震顫、失眠和焦慮通常已經平息。\n\n前方的路\n注意力、記憶、運動和協調能力會在接下來的幾個月里更漸進地恢復。持續戒斷會給所有這些系統改善的時間。良好的營養（吸入劑使用會消耗維生素B12）和戒斷為這一切奠定了基礎。';
+
+  @override
+  String get inhalantsReferenceDay30 =>
+      '停用吸入劑一個月\n\n來源：Dingwall et al.，《Cognitive recovery during and after treatment for volatile solvent abuse》，Drug and Alcohol Dependence（2011），PubMed\n\n一個月處於甚麼位置\n早期戒斷期早已過去。在這項研究中，一些學習技能在六周內得到改善，而視覺協調、記憶、計劃和決策能力則在接下來的幾個月里更漸進地改善。\n\n哪些可以改善\n• 注意力和一些學習任務\n• 隨著身體穩定，情緒和睡眠得到改善\n• 運動速度，漸進地\n\n恢復信號\n該研究的結論很明確：記憶、計劃和決策能力會在數月到數年的戒斷中逐漸改善。持續戒斷是這種恢復最有力的驅動力。';
+
+  @override
+  String get inhalantsReferenceDay90 =>
+      '停用吸入劑三個月\n\n來源：Dingwall et al.，《Cognitive recovery during and after treatment for volatile solvent abuse》，Drug and Alcohol Dependence（2011），PubMed\n\n一個不均衡、更漫長的過程\n這項研究對完成八周治療項目的人進行了隨訪，並在大約一年後對其中一些人進行了復查。一些學習技能在六周內得到改善，而視覺協調、記憶、計劃和決策能力則在更長的時期內持續改善。\n\n堅持到底\n該研究顯示，那些恢復較慢的技能會在數月到數年間逐漸改善。到三個月時，持續戒斷仍然是月復一月積累更多恢復的最有力槓桿。';
+
+  @override
+  String get inhalantsReferenceDay365 =>
+      '停用吸入劑一年\n\n來源：《A prospective study of neurocognitive changes 15 years after chronic inhalant abuse》，PubMed\n\n真實、可測量的恢復\n一項長期研究發現，在戒斷兩年後，慢性吸入劑相關的腦部和思維問題出現了實質性恢復。到一年時，你已經在這條恢復道路上走了很遠。\n\n這意味著甚麼\n記憶、注意力和運動功能繼續改善。長期戒斷會帶來真正的大腦恢復：到兩年時，在沒有鉛所致腦損傷的慢性使用者中，大多數大腦、記憶和思維評分已恢復到正常水平。';
+
+  @override
+  String get inhalantsReferenceDay730 =>
+      '停用吸入劑兩年\n\n來源：《A prospective study of neurocognitive changes 15 years after chronic inhalant abuse》，PubMed\n\n兩年這個節點\n這是研究中的關鍵里程碑：反映長期溶劑使用所致腦損傷的缺陷，在戒斷兩年後顯示出實質性恢復。作者總結道，在沒有含鉛汽油所致腦損傷的情況下，長期戒斷可能使正常的大腦功能得以恢復。\n\n恢復信號\n主要的例外是含鉛汽油濫用造成的損傷，它可能導致持續的缺陷。除此之外，兩年的戒斷代表了大腦獲得充分記錄的、最佳的愈合機會——同時也圍繞它重建了一種生活。';
+
+  @override
+  String get ketamineReferenceDay1 =>
+      '停止使用氯胺酮：第一天\n\n來源：《Ketamine-Induced Cystitis: A Comprehensive Review of the Urologic Effects of This Psychoactive Drug》，PubMed Central\n\n戒斷主要是心理層面的\n與阿片類藥物或酒精不同，氯胺酮很少產生嚴重的身體戒斷。停用通常是安全的；人們更多是與渴求和心理依賴作鬥爭，而不是身體疾病。\n\n你可能會感到甚麼\n• 情緒波動和情緒低落\n• 渴求\n• 偶爾出汗或心悸\n\n關鍵一步\n對任何有膀胱症狀的人來說，立即並徹底停止使用是康復的必要起點——因此第一天是所有決定中最重要的一個。';
+
+  @override
+  String get ketamineReferenceDay7 =>
+      '停用氯胺酮一周\n\n來源：《Ketamine-Induced Cystitis: A Comprehensive Review》，PubMed Central\n\n心理階段\n停用氯胺酮早期的主要挑戰是心理層面的：渴求、情緒改變或低落，以及一些腦霧。身體戒斷即便出現，通常也很輕微。\n\n腦霧在這一階段很常見——注意力需要費力維持，反應時間變慢，短期記憶也可能顯得不可靠。這些對思維和記憶的影響會隨著戒斷而改善：一項對114名氯胺酮使用者的縱向研究發現，在停用氯胺酮12周後，言語記憶、視覺記憶、處理速度以及計劃、專注和決策能力都出現了顯著進步。\n\n膀胱症狀\n如果你患有氯胺酮引起的膀胱炎（尿急、尿頻、疼痛或尿中帶血），現在停止使用能給膀胱最好的愈合機會。疼痛可能誘使人們重新使用氯胺酮來“自我用藥”——這是一個值得用適當的疼痛支持來打破的循環。';
+
+  @override
+  String get ketamineReferenceDay14 =>
+      '停用氯胺酮兩周\n\n來源：《Ketamine-Induced Cystitis: A Comprehensive Review》，PubMed Central\n\n思維更清晰\n隨著藥物完全清除，與長期使用氯胺酮相關的精神模糊和思維斷裂開始消散。記憶和注意力得到改善，情緒趨於穩定。\n\n膀胱恢復開始\n對於早期膀胱炎，該綜述強調，僅僅停止使用氯胺酮就是逆轉症狀最重要的一步，而越早停用，在損傷變成永久性之前獲得恢復的幾率就越大。兩周的戒斷正是這一過程的開始。';
+
+  @override
+  String get ketamineReferenceDay30 =>
+      '停用氯胺酮一個月\n\n來源：《Prevalence and Natural History of Urinary Symptoms Among Recreational Ketamine Users》，Winstock et al.，BJU International（2012）\n\n膀胱恢復\n治療氯胺酮引起的膀胱炎最重要的一點就是停止使用氯胺酮。這項針對娛樂性氯胺酮使用者的研究發現，在有泌尿症狀的人中，51%在停止使用後報告症狀改善，而不到4%的人情況惡化。停用越早，結果越好。\n\n心智與情緒\n到一個月時，認知和情緒繼續變得清晰。心理和社會支持能切實提高堅持停用的幾率——在有支持的情況下，停用效果最好。';
+
+  @override
+  String get ketamineReferenceDay90 =>
+      '停用氯胺酮三個月\n\n來源：《Ketamine-Induced Cystitis: A Comprehensive Review》，PubMed Central\n\n持續恢復\n停用氯胺酮後的膀胱恢復往往是漸進的；該綜述描述了停用後症狀嚴重程度的改善，儘管這一過程可能漫長且因人而異。在那些會有所反應的病例中，三個月給了泌尿道持續的時間來愈合。\n\n心智\n與戒斷早期相比，思維和情緒都明顯更加清晰，渴求也更少。持續或嚴重的膀胱症狀應由泌尿科醫生進行評估。';
+
+  @override
+  String get ketamineReferenceDay180 =>
+      '停用氯胺酮六個月\n\n來源：《Ketamine-Induced Cystitis: A Comprehensive Review》，PubMed Central\n\n半年之後\n隨著持續戒斷，在對停用有反應的病例中，膀胱症狀繼續改善，思維、記憶和情緒保持穩定。使用衝動已經大大減弱。\n\n恢復信號\n已成形的膀胱損傷可能無法完全恢復，這正是盡早停用如此重要的原因。無論你在哪個階段停用，堅持不碰都能給膀胱帶來最好的結果。';
+
+  @override
+  String get ketamineReferenceDay365 =>
+      '停用氯胺酮一年\n\n來源：《Ketamine-Induced Cystitis: A Comprehensive Review》，PubMed Central\n\n一年之後\n十二個月的戒斷，讓早期發現的病例中的膀胱獲得了最充分的恢復機會，也讓思維、記憶和情緒保持穩定和清晰。讓停用變得困難的心理依賴已基本消退。\n\n更大的圖景\n一年不碰是一個意義深遠的改變——體現在身體健康、清晰度和自我掌控上。保留那些把你帶到這裡來的支持，就能守護這一切。';
+
+  @override
+  String get kratomReferenceDay1 =>
+      '卡痛葉戒斷：第一天\n\n來源：Swogger et al.（2022），《Understanding Kratom Use: A Guide for Healthcare Providers》，Frontiers in Pharmacology\n\n為甚麼會出現戒斷\n卡痛葉的活性化合物作用於與傳統阿片類藥物相同的阿片受體。長期使用後身體會適應，因此停用會產生類似阿片類藥物的戒斷。這份臨床指南將依賴和戒斷描述為長期使用卡痛葉的公認風險。\n\n關於發作時間的證據\n指南中引用的動物研究顯示，軀體戒斷體徵在大約12小時內出現，到24小時時焦慮樣效應已經明顯；人體確切的發作時間尚不明確，但常被報告的早期症狀包括：\n• 坐立不安、焦慮和易怒\n• 肌肉酸痛和流鼻涕\n• 出汗和流淚\n• 渴求\n\n關於嚴重程度的說明\n該指南指出，使用時間越長、劑量越高，戒斷就越嚴重、越持久。值得尋求受監督的醫療支持，尤其是在高劑量使用卡痛葉、或與阿片類藥物同時使用時。';
+
+  @override
+  String get kratomReferenceDay3 =>
+      '卡痛葉戒斷：最艱難的幾天\n\n來源：Singh et al.（2014），Drug and Alcohol Dependence——對馬來西亞293名長期卡痛葉使用者的調查\n\n證據表明瞭甚麼\n這項調查並沒有給出單一的“高峰日”，而是發現戒斷的嚴重程度與使用量和使用時長相關：每天飲用三杯或更多卡痛葉的人，出現嚴重依賴和更困難戒斷的幾率顯著更高。對大多數人來說，停用後的最初幾天最艱難。\n\n常被報告的症狀\n• 肌肉和關節酸痛、不寧腿\n• 儘管疲憊卻失眠\n• 惡心、胃痙攣和腹瀉\n• 焦慮、情緒低落和易怒\n• 強烈的渴求\n\n如何熬過去\n補水、休息和對症支持都有幫助。如果到目前為止戒斷感覺嚴重，這與較大量或較長期的使用相符，而並非有甚麼異常——而且它往往會從這裡開始緩解。';
+
+  @override
+  String get kratomReferenceDay7 =>
+      '停用卡痛葉一周\n\n來源：Swogger et al.（2022），《Understanding Kratom Use: A Guide for Healthcare Providers》，Frontiers in Pharmacology\n\n已過急性期\n指南中引用的人類自述數據顯示，對大多數停用者來說，戒斷症狀會在大約一到三天內消退。到一周時，對大多數人而言，急性身體症狀——肌肉酸痛、出汗、惡心——通常已經平息。可能殘留的更多是心理層面：隨著被卡痛葉刺激的阿片受體重新適應身體自身的信號，會出現疲勞、睡眠紊亂和情緒低落。\n\n一個真實的風險\n指南還指出，少數人發現卡痛葉非常難以戒除，在較大量、較長期使用者中報告的戒斷更為嚴重且持續時間更長。這一周是常見的復吸時點，而且耐受性下降得很快——此時恢復以前的劑量（尤其是涉及阿片類藥物時）確實很危險。';
+
+  @override
+  String get kratomReferenceDay14 =>
+      '停用卡痛葉兩周\n\n來源：美國國家藥物濫用研究所（NIDA），《Kratom》\n\n超出已研究的時間窗口\n關於卡痛葉戒斷時間的受控人體數據通常只覆蓋最初幾天，因此並沒有確切的研究來錨定某個具體的“兩周”里程碑。已有記載的是更宏觀的模式：卡痛葉作用於與傳統阿片類藥物相同的阿片受體，隨著長期使用停止，這些受體會逐漸恢復對身體自身信號的敏感性。\n\n人們通常報告甚麼\n• 食慾和精力往往得到改善\n• 睡眠趨於更可靠\n• 情緒通常更穩定，儘管仍有波動\n\n渴求仍會被壓力和熟悉的線索觸發，因此為它們準備好應對計劃仍然有用。';
+
+  @override
+  String get kratomReferenceDay30 =>
+      '停用卡痛葉一個月\n\n來源：美國國家藥物濫用研究所（NIDA），《Kratom》\n\n正在恢復的獎賞系統\nNIDA將卡痛葉描述為作用於大腦的阿片受體，並將依賴和戒斷列為長期使用的公認風險。沒有具體研究錨定“一個月”的恢復里程碑，但基於阿片受體的依賴的一般規律是，隨著持續戒斷，大腦對日常愉悅的反應會逐漸正常化。\n\n停用一個月能建立起甚麼\n一個月不碰卡痛葉，就是一個月的規律睡眠、飲食和作息，取代了過去使用所需的時間和精力。渴求往往出現得更少、感覺更可控，儘管高壓力時刻仍然是最脆弱的時刻。';
+
+  @override
+  String get kratomReferenceDay90 =>
+      '停用卡痛葉三個月\n\n來源：美國國家藥物濫用研究所（NIDA），《Kratom》\n\n更平穩的日常狀態\n卡痛葉作用於阿片受體，因此三個月不碰它，讓大腦的獎賞和應激系統有了持續的時間來安定。許多人報告，離活躍使用越遠，思維就越清晰、動力就越穩定。\n\n為甚麼這很重要\n使用離現在越久，卡痛葉日常的牽引力就越趨於消退——這使得這一里程碑成為持久恢復的堅實基礎。';
+
+  @override
+  String get kratomReferenceDay365 =>
+      '停用卡痛葉一年\n\n來源：美國國家藥物濫用研究所（NIDA），《Kratom》\n\n早已越過急性戒斷\nNIDA並沒有公佈具體的卡痛葉一年恢復時間線，但一年的持續戒斷早已超出卡痛葉研究中記載的急性期和早期心理戒斷窗口。對大多數走到這一步的人來說，渴求很少出現，也遠更容易應對。\n\n更大的圖景\n一年的戒斷代表著健康、財務狀況和自我掌控上的實質性改變。保持與支持系統的聯繫，有助於守護這份進展。';
+
+  @override
+  String get maoiReferenceDay3 =>
+      'MAOI停藥：風險最高的階段\n\n來源：Dilsaver（1988），關於MAOI停藥反應的研究\n\n重要安全警告\n在所有抗抑鬱藥類別中，MAOI的停藥風險最為嚴重。突然停藥——尤其是苯乙肼和反苯環丙胺——可能引起嚴重反應，包括：\n• 嚴重的焦慮和激越\n• 言語急迫和坐立不安\n• 失眠或嗜睡\n• 幻覺\n• 譫妄和偏執性精神病\n\n如果你正在出現這些症狀，請立即就醫。\n\nMAOI如何起作用\nMAOI通過不可逆地與單胺氧化酶（MAO-A和MAO-B）結合併使其失活來發揮作用。這些酶通常負責分解大腦和腸道中的血清素、去甲腎上腺素、多巴胺和酪胺。由於被摧毀的是酶本身而不只是被阻斷，恢復取決於身體產生新的酶，而不是藥物從血液中清除的速度。';
+
+  @override
+  String get maoiReferenceDay7 =>
+      '停用MAOI一周：MAO酶合成正在進行中\n\n來源：《Monoamine Oxidase Inhibitors (MAOIs)》（StatPearls，NCBI Bookshelf）\n\n酶的恢復過程\n與可逆性地抑制腦化學物質再攝取的SSRI、SNRI和TCA不同，不可逆的MAOI（苯乙肼、反苯環丙胺）會永久性地摧毀單胺氧化酶分子。因此，臨床上的清除期取決於身體合成全新酶的速度——大約2周——而不是藥物本身從血液中清除的速度。\n\n一周時發生了甚麼\n• MAO-A和MAO-B酶的合成正在順利進行，大約處於約2周再合成窗口的中途\n• 第3天所描述的高風險期正在過去，不過密切的醫療監督仍然重要\n\n飲食注意事項\nMAOI治療需要低酪胺飲食，因為這些酶通常會分解酪胺，防止其誘發高血壓危象。指南建議在這一再合成窗口期內繼續遵守飲食限制——何時可以安全放寬，應由你的開藥醫生告知。';
+
+  @override
+  String get maoiReferenceDay14 =>
+      '停用MAOI兩周：MAO酶活性大幅恢復\n\n來源：Fritz et al.（1983），Biological Psychiatry\n\n關鍵的兩周節點\n兩周是停用不可逆MAOI（如反苯環丙胺或苯乙肼）後MAO酶恢復的標準臨床清除期。這項針對反苯環丙胺的研究發現，血小板MAO-B的催化活性——在給藥後一天內急劇下降——在大約兩周內反彈至正常，因為身體用攜帶活性酶的新血小板替換了受藥物影響的血小板，儘管總MAO-B蛋白水平從未改變。\n\nMAO酶的恢復\n• 此時血小板MAO-B活性已大幅恢復\n• 遵循大致相似再合成時間線的大腦MAO-A和MAO-B也大多得到恢復\n• 正常的酪胺代謝正在重新建立——在與你的開藥醫生商量後，MAOI的飲食限制通常可以放寬\n\n大腦化學平衡回歸\n隨著MAO酶活性恢復，受MAOI影響的大腦化學系統開始回歸自然調節：\n• 血清素、去甲腎上腺素和多巴胺不再因MAO抑制而升高\n• 單胺受體的超敏性（由長期被MAOI升高的大腦化學物質水平引起）開始消退\n• 自然的情緒和精力調節正在回歸';
+
+  @override
+  String get maoiReferenceDay30 =>
+      '停用MAOI一個月：大腦化學系統重新平衡\n\n來源：《Monoamine Oxidase Inhibitors (MAOIs)》（StatPearls，NCBI Bookshelf）\n\n一個月的評估\n停用MAOI一個月，已經遠遠過了本來源所述約2周的MAO酶再合成窗口，因此此時MAO酶活性已完全恢復，大腦化學系統處於完全自然的調節之下。\n\n到一個月時已經恢復的\n• MAO酶活性完全恢復：MAO-A和MAO-B都完全正常運作\n• 飲食限制解除：無需酪胺限制的正常飲食\n• 血清素自然降解：大腦正常的血清素週轉循環已恢復\n• 兒茶酚胺自然調節：多巴胺和去甲腎上腺素水平由自然的MAO活性調節\n\n藥物相互作用注意事項\nMAOI與血清素類藥物存在危及生命的相互作用。這些相互作用風險在一個月節點時已解除。不過，在開任何新藥時，都要告知你的開藥醫生和藥劑師你曾使用過MAOI。';
+
+  @override
+  String get maoiReferenceDay90 =>
+      '停用MAOI三個月：早已度過戒斷\n\n來源：《Antidepressant Withdrawal Syndrome》，Therapeutics Letter 112（2018），Therapeutics Initiative，見NCBI Bookshelf\n\n各類抗抑鬱藥的戒斷\n這篇證據綜述將抗抑鬱藥戒斷視為一種真實的耐受與依賴現象——把抗抑鬱藥“與阿片類藥物和苯二氮卓類藥物並列”。其詳細證據集中於SSRI和SNRI，但戒斷反應在各類抗抑鬱藥中都被認可，包括停用MAOI後。症狀“通常在停藥後幾天內出現”，“大多數……在2周內消退”，不過有些持續時間更長。\n\n三個月處於甚麼位置\n到三個月時，急性戒斷階段對絕大多數人來說早已過去，身體也早已重新適應了在沒有MAO抑制的情況下調節單胺類物質。\n\n關於“受體重新敏感化”的恢復信號\n自信地聲稱血清素、去甲腎上腺素和多巴胺受體都已在三個月時“重新敏感化”，超出了證據所能確定的範圍。可以確信的是：此時戒斷階段通常已經消退，對大多數人來說，情緒、精力和情緒範圍正在自然的、自我調節的大腦信號傳導上趨於穩定。\n\n戒斷與復發\n該Letter強調要把戒斷與基礎疾病的真正復發區分開來。如果症狀在三個月時持續存在，應與你的開藥醫生一起評估，而不是想當然地認為它們只是戒斷。';
+
+  @override
+  String get maoiReferenceDay180 =>
+      '停用MAOI六個月：長期恢復\n\n來源：Zwiebel & Viguera（2022），Cleveland Clinic Journal of Medicine\n\n六個月的評估\n這篇綜述解釋，抗抑鬱藥的部分作用方式是使單胺受體隨時間下調，而這種下調在停藥後需要數周到數月才能逆轉——這一過程比大約兩周的MAO酶再合成本身更慢。\n\n六個月處於甚麼位置\n對絕大多數人來說，六個月已經從容地超過了那個數周到數月的受體重新調整窗口，同時酶活性也在第一個月內就完全正常化了。恢復信號：文獻中並沒有以逐日確定的方式確立血清素、去甲腎上腺素和多巴胺受體完全重新敏感化的精確時間線——可以確信的是，到六個月時，大多數人正在自然的、自我調節的大腦信號傳導上運作。\n\n關於苯乙胺的說明\nMAOI還會抑制苯乙胺（PEA）的降解，這是一種與情緒和精力相關的痕量胺。預計其代謝會隨著MAO酶的總體恢復而正常化，不過——與受體重新敏感化一樣——研究文獻中並沒有確立針對PEA的具體時間線。';
+
+  @override
+  String get maoiReferenceDay365 =>
+      '停用MAOI一年：恢復達成\n\n來源：《Monoamine Oxidase Inhibitors (MAOIs)》（StatPearls，NCBI Bookshelf）\n\n一年：一項了不起的成就\n完成停用MAOI一週年，是一個真正重要的里程碑。MAOI是最難停用的抗抑鬱藥之一，其不可逆的作用機制、嚴格的低酪胺飲食以及不同於任何其他抗抑鬱藥類別的藥物相互作用注意事項，都使停用過程格外艱難。\n\n這一年意味著甚麼\n• 整整一年自然的、自我調節的單胺氧化酶活性，建立在一個月內就已完成的酶再合成之上\n• 證明瞭在沒有藥物驅動的MAO抑制下維持健康狀態的能力\n• 一段足夠長的記錄，足以確信第3天的急性停藥風險已經牢牢留在身後\n\n關於MAOI的說明\n對於某些難治性疾病和非典型抑鬱症，MAOI仍然具有獨特的療效。成功停藥並不會削弱它們作為藥物的價值——它證明瞭大腦的恢復能力，以及患者駕馭一個格外艱難的醫療過程的能力。一個持久的注意事項：繼續告知任何新的開藥醫生或麻醉師你曾使用過MAOI，因為有些藥物相互作用風險值得無限期地標明。';
+
+  @override
+  String get marijuanaReferenceDay1 =>
+      '大麻戒斷：第一天\n\n來源：《The cannabis withdrawal syndrome: current insights》，Substance Abuse and Rehabilitation（2017），見PubMed Central\n\n大麻戒斷是真實存在的\n這篇同行評審綜述確認，大麻戒斷綜合徵（CWS）是一種經過充分驗證的臨床狀況，大約90%被診斷為依賴大麻的人停用後都會出現。其平均峰值嚴重程度與煙草戒斷綜合徵相當。\n\n為甚麼會出現戒斷\nTHC作用於內源性大麻素系統——參與情緒、食慾、睡眠、記憶和壓力的CB1受體。長期使用時大腦會下調這一系統；當大麻停止後，它暫時處於低活躍狀態。該綜述指出，CB1受體在戒斷約四周內恢復正常功能。\n\n第一天的發作\n該綜述記載，身體症狀往往最先出現——在最後一次使用後的1–3天內——而心理症狀則在2–10天內出現。早期症狀包括：\n• 易怒、焦慮和坐立不安\n• 入睡困難\n• 食慾下降\n• 身體緊張、出汗或發冷\n• 情緒低落\n\n嚴重程度\n大麻戒斷綜合徵在醫學上並不危險，症狀通常為輕度到中度，但該綜述指出，這些症狀可能令人苦惱到足以誘發復吸——這正是理解時間線如此重要的原因。';
+
+  @override
+  String get marijuanaReferenceDay3 =>
+      '大麻戒斷時間線：最初的幾天\n\n來源：《Time-course of the DSM-5 cannabis withdrawal symptoms in poly-substance abusers》，BMC Psychiatry（2013），見PubMed Central\n\n一條被測量的時間線\n這項研究對90名患者追蹤了四周的DSM-5大麻戒斷症狀，描繪出了症狀如何上升和下降的最清晰圖景之一。總體嚴重程度遵循一條曲線：先上升，隨後在接下來的幾周里下降。\n\n哪些症狀較早達到高峰\n幾種最具身體破壞性的症狀在停藥後的最初幾天達到高峰：\n• 失眠——大約在第1天達到高峰\n• 緊張不安——大約在第4天達到高峰\n• 情緒低落和身體症狀——大約在第5天達到高峰\n• 坐立不安——大約在第6天達到高峰\n\n哪些症狀較晚達到高峰\n該研究發現，有些症狀出現並達到高峰的時間晚於第一周：\n• 生動而不愉快的夢境——大約在第11天達到高峰\n• 易怒和憤怒——大約在第14天達到高峰\n\n睡眠與大麻\n延遲出現的生動夢境反映了REM反彈：大麻在使用期間抑制REM睡眠，一旦停止，大腦就會過度補償。作者認為這一症狀足夠普遍，應被列入正式的戒斷標準之中。\n\n對第三天而言的要點\n到第三天，你正處於早期身體症狀高峰的最深處——失眠、緊張不安和坐立不安接近最嚴重的程度。這條一致且可預測的曲線本身就是一種安撫：這些症狀有已知的走向，它們會從這裡開始消退。';
+
+  @override
+  String get marijuanaReferenceDay7 =>
+      '停用大麻一周：熬過了最糟的階段\n\n來源：《The cannabis withdrawal syndrome: current insights》，Substance Abuse and Rehabilitation（2017），見PubMed Central\n\n一周在這個綜合徵中處於甚麼位置\n這篇綜述記載，大麻戒斷綜合徵通常持續約三周，最令人苦惱的時期落在第一周到第三周之間。到一周時，最早的身體症狀——失眠、食慾不振、坐立不安——通常已經過了高峰，正在緩解。\n\n哪些仍在平復\n該綜述區分了較早達到高峰的身體症狀和較晚達到高峰的心理症狀。到一周時：\n• 身體不適和食慾大體上正在改善\n• 對許多人來說睡眠仍然紊亂，生動的夢境（REM反彈）往往在此時前後達到高峰\n• 易怒和情緒可能仍然偏高，因為它們往往在前兩周內較晚達到高峰\n\n恢復的神經生物學\n在這些變化背後，該綜述指出，被下調的CB1受體在戒斷約四周內趨於恢復正常功能。戒斷一周時，這種重新調節已經順利進行——即便有些症狀仍在持續，系統也正在恢復。\n\n要點\n達到一周意味著急性身體症狀高峰已經過去。剩下的睡眠和情緒症狀屬於一個已知、有限進程的綜合徵的一部分，它會在接下來的幾周里繼續消退。';
+
+  @override
+  String get marijuanaReferenceDay14 =>
+      '停用大麻兩周：急性戒斷結束\n\n來源：Budney, AJ et al.（2003）——關於大麻戒斷時間進程的同行評審研究\n\n研究發現\n這項同行評審研究系統地記錄了經常使用者大麻戒斷症狀的時間進程。結果顯示，急性戒斷綜合徵在第一周內達到高峰，並且對大多數症狀來說，在停用後2周內大體上消退。\n\n到2周時消退的\n該研究記載，到第14天時，研究參與者身上的以下症狀已大體消退：\n• 身體不適和身體症狀\n• 食慾紊亂\n• 大多數睡眠紊亂\n• 峰值期的易怒和焦慮\n\n可能持續超過2周的\n該研究還識別出在一些使用者身上持續超過兩周節點的症狀：\n• 情緒低落\n• 注意力集中困難\n• 睡眠質量（儘管在改善）\n\n兩周節點的意義\n度過兩周節點之所以意義重大，是因為它意味著急性戒斷綜合徵已大體完成。此後的挑戰主要與更長期的大腦恢復以及管理大麻使用的根本原因有關，而非停止使用後的急性生理反應。';
+
+  @override
+  String get marijuanaReferenceDay30 =>
+      '停用大麻一個月：記憶功能改善\n\n來源：Pope et al.（2001），Archives of General Psychiatry\n\n大麻與記憶：問題所在\n這項研究對大量、長期的大麻使用者進行了28天經確認的戒斷隨訪，並將他們的思維和記憶測試結果與輕度使用者和非使用者進行了比較。在戒斷開始時，以及第1天和第7天再次測試時，大量使用的人在單詞表回憶上的表現差於對照組——這一缺陷與他們的尿中THC代謝物水平相關，反映的是近期藥物暴露而非終身使用量。\n\n好消息：到第28天恢復\n到第28天時，大量使用的人、輕度使用者和非使用者在研究的思維和記憶測試中表現幾乎相同。此時，終身大麻使用總量與測試表現之間也沒有顯著關係。\n\n這在30天時意味著甚麼\n• 言語學習和回憶已恢復到對照組水平\n• 第一周所見的殘餘缺陷已經消退\n• 早先剩餘的缺陷與近期暴露有關，而非永久性損傷\n\n證據表明瞭\n到第28天，大量使用的人在研究的整套思維和記憶測試中幾乎與輕度使用者和非使用者無法區分。第一周所見的言語學習和回憶缺陷已恢復到對照組水平。';
+
+  @override
+  String get marijuanaReferenceDay60 =>
+      '停用大麻兩個月：注意力更加敏銳\n\n來源：Roten et al.（2015），Addictive Behaviors\n\n研究問題\n這項針對青少年的大麻戒斷研究，在大約兩個月的時間里追蹤了記憶和思維測試分數以及尿液檢測結果，將仍在使用的使用者與最近停止或保持戒斷的人進行了比較。\n\n主要發現\n持續的戒斷與以下方面的顯著改善相關：\n• 綜合記憶分數\n• 言語記憶——受影響最嚴重的領域\n• 運動和反應速度表現\n\n兩個月時\n到大約八周的持續戒斷時，記憶以及運動和反應速度表現分數已經可測量地攀升到高於活躍使用期間的水平，與經確認的未使用狀態密切相關，而不僅僅是時間的推移。\n\n研究表明瞭甚麼\n在患有大麻依賴的青少年和年輕成年人中，持續戒斷在大約兩個月的治療窗口期內帶來了綜合記憶、言語記憶以及運動和反應速度表現的顯著提升。';
+
+  @override
+  String get marijuanaReferenceDay90 =>
+      '停用大麻三個月：情緒穩定性回歸\n\n來源：Connor et al.（2022），Addiction——關於大麻戒斷的臨床綜述\n\n戒斷時間線實際是甚麼樣的\n這篇綜述描述大麻戒斷症狀通常在停用後24–48小時開始，並大約在第2–6天達到高峰。憤怒、攻擊性和情緒低落可能早在第一周就出現，但通常在大約兩周的戒斷後達到高峰；尤其是睡眠紊亂，可能比其他症狀持續更久。\n\n三個月處於甚麼位置\n到三個月時，你已經遠遠超出了有記載的戒斷進程：症狀通常在24–48小時內開始，大約在第2–6天達到高峰，即便是較慢的情緒和睡眠症狀也在隨後的幾周內達到高峰。九十天讓那些由戒斷驅動的情緒和睡眠影響有了數月的時間來平復。\n\n關於內源性大麻素系統的說明\n大麻戒斷研究還顯示，被下調的CB1受體在戒斷約四周內趨於恢復正常功能。到90天時，你已經遠遠超出了那個受體恢復窗口。\n\n展望\n該綜述還討論了脫毒後的預後和復吸預防，強調持續的支持和應對策略在急性戒斷窗口期之後仍然重要。';
+
+  @override
+  String get marijuanaReferenceDay180 =>
+      '停用大麻六個月：計劃與決策能力恢復\n\n來源：Crean, Crane & Mason（2011），Journal of Addiction Medicine\n\n大麻之後的計劃與決策能力\n這篇綜述考察了從使用後最初幾個小時到長期戒斷期間的注意力、決策、自我控制、工作記憶和言語流暢性。到六個月時，你已經遠遠超出了短期影響，深入到了恢復期。\n\n研究發現\n與大量使用相關的若干問題會隨著持續戒斷而消退，一些研究發現到28天時即已恢復。在大量、早髮型使用之後恢復最慢的領域包括：\n• 決策和冒險行為——被特別標記為在大量、長期使用者中缺陷可能長期持續的領域\n• 抽象推理和言語技能——尤其是在17歲之前開始使用的成年人中受損\n\n早髮型的恢復\n六個月已經遠遠超出了這篇綜述中的短期影響。計劃、決策和推理能力會隨著持續戒斷繼續改善，使持續戒斷成為進一步恢復的最有力途徑。\n\n更大的圖景\n對於成年後開始、較輕度的使用，前景更為有利——許多人在六個月時報告思維更清晰、決策更穩定、自我導向感更強。最大的收穫來自保持戒斷，尤其是在大量或早髮型使用之後。';
+
+  @override
+  String get marijuanaReferenceDay365 =>
+      '停用大麻一年：大腦結構恢復\n\n來源：《Hippocampal harms, protection and recovery following regular cannabis use》，Translational Psychiatry（2016），見PubMed Central\n\n大麻引起的結構變化\n這項腦掃描研究考察了海馬體——一個對記憶至關重要的大腦區域——在目前使用者、曾經使用者和非使用者中的情況。未接觸過CBD的目前使用者，其海馬體比對照組小約11%，腦細胞健康標誌物低約15%。\n\n關鍵發現：戒斷帶來恢復\n曲線擬合分析支持一種“保護與恢復”模型。關鍵的是，曾經的使用者——平均戒斷約29個月——在任何完整性指標上都與非使用對照組沒有差異。作者得出結論：THC相關的記憶區域損傷“可以通過延長的戒斷期得到恢復”。\n\n一年及以後的大腦恢復\n停用大麻一年時，大腦的記憶系統已經深入恢復之中：海馬體大小和腦細胞健康正重新向正常水平靠攏，支持記憶和情緒控制。\n\n恢復信號\n戒斷約29個月的曾經使用者在研究的海馬體健康指標上與非使用者相當。到一年時，記憶系統已經沿著那條有記載的恢復路徑向正常邁進。';
+
+  @override
+  String get mdmaReferenceDay1 =>
+      'MDMA之後：低潮期\n\n來源：Meyer（2013），《3,4-Methylenedioxymethamphetamine (MDMA): Current Perspectives》，Substance Abuse and Rehabilitation\n\n為甚麼你會感到低落\nMDMA的作用方式是促使血清素大量釋放（並伴隨一些多巴胺）。之後大腦會暫時性地血清素耗竭。這篇綜述描述了一種情緒下降——即所謂的“周中憂鬱”——研究人員在初用者和有經驗使用者身上都測量到，發生在使用後2到5天。\n\n哪些有幫助\n• 補水和營養食物\n• 睡眠\n• 耐心——這種低落是耗竭，而不是永久狀態\n\n單次使用後的低潮期不同於與依賴相關的戒斷，同一篇綜述將後者描述為涉及渴求但沒有顯著的身體症狀。';
+
+  @override
+  String get mdmaReferenceDay3 =>
+      'MDMA之後的幾天\n\n來源：Meyer（2013），《3,4-Methylenedioxymethamphetamine (MDMA): Current Perspectives》，Substance Abuse and Rehabilitation\n\n周中憂鬱\n這大致就是這篇綜述在討論“周中憂鬱”時所描述的時間窗口——在使用後2到5天測量到的情緒下降，在初用者和有經驗使用者身上都存在，與短期的血清素耗竭有關，而非長期改變。\n\n哪些在改善\n• 情緒通常從此時前後開始從最低點回升\n• 精力恢復\n• 睡眠開始正常化';
+
+  @override
+  String get mdmaReferenceDay7 =>
+      '停用MDMA一周\n\n來源：Meyer（2013），《3,4-Methylenedioxymethamphetamine (MDMA): Current Perspectives》，Substance Abuse and Rehabilitation\n\n已經過了周中憂鬱\n對大多數人來說，一周已經過了這篇綜述所關聯急性低潮期的2到5天窗口，因此情緒應當已經恢復正常。該綜述指出，對於大量或反復使用的人，渴求可能作為依賴模式的一部分持續存在，儘管它並未將此描述為涉及顯著的身體戒斷症狀。\n\n何時尋求幫助\n如果低落的情緒、焦慮或睡眠問題在一周後仍持續，那可能就不只是低潮期了——值得與專業人士談談。';
+
+  @override
+  String get mdmaReferenceDay14 =>
+      '停用MDMA兩周\n\n來源：Meyer（2013），《3,4-Methylenedioxymethamphetamine (MDMA): Current Perspectives》，Substance Abuse and Rehabilitation\n\n恢復時間線\n對於單次使用的低潮期，兩周已經遠遠過了這篇綜述所記載的2到5天下降窗口，因此情緒、睡眠和注意力應當已經穩定。在大量或反復使用之後，恢復會持續到低潮期之後，而戒斷期間的影像學研究顯示血清素再循環能力會隨著持續戒斷而上升。\n\n這對你意味著甚麼\n如果你的使用是偶爾的，你可能已經熬過了最糟的階段。如果是頻繁或大量的，請對自己有耐心——血清素信號傳導的完全恢復是一個比兩周更長的過程，將在後續里程碑中介紹。';
+
+  @override
+  String get mdmaReferenceDay30 =>
+      '停用MDMA一個月\n\n來源：《Serotonin transporter availability, neurocognitive function and their correlation in abstinent MDMA users》，見PubMed\n\n一個月處於甚麼位置\n急性低潮期和戒斷早已過去，情緒、思維和記憶也更加穩定。影像學研究顯示，MDMA會降低大腦處理血清素的能力，而這種能力會隨著持續戒斷而恢復。\n\n恢復信號\n同一項研究顯示血清素再循環能力會隨著持續戒斷而恢復。情緒和血清素功能首先改善，而記憶則沿著它自己的恢復時間線繼續——持續戒斷對兩者都有支持作用。';
+
+  @override
+  String get mdmaReferenceDay90 =>
+      '停用MDMA三個月\n\n來源：《Serotonin transporter availability, neurocognitive function and their correlation in abstinent MDMA users》，見PubMed\n\n持續的恢復\n隨著持續戒斷，大腦的血清素系統繼續恢復，尤其是在更深層的大腦區域。此時情緒和睡眠通常已經穩定。\n\n恢復信號\n持續戒斷推動著血清素轉運體在各個腦區持續恢復，同時情緒和睡眠保持穩定，思維和記憶的恢復也在繼續。';
+
+  @override
+  String get mdmaReferenceDay365 =>
+      '停用MDMA一年\n\n來源：《Serotonin transporter availability, neurocognitive function and their correlation in abstinent MDMA users》，見PubMed\n\n一年之後\n經過一年的戒斷，大腦的血清素處理能力已經大幅恢復，情緒也很穩定。\n\n恢復信號\n整整一年的戒斷為血清素系統提供了漫長的恢復窗口。影像學研究顯示血清素再循環能力會隨著戒斷而上升，使血清素的大幅恢復成為這一階段最清晰的生物學信號。';
+
+  @override
+  String get methReferenceDay1 =>
+      '甲基苯丙胺戒斷：最初24小時\n\n來源：McGregor et al.，《The nature, time course and severity of methamphetamine withdrawal》，Addiction（2005），見PubMed\n\n崩潰期\n甲基苯丙胺促使多巴胺大量釋放；當使用停止時，系統被留在了耗竭狀態。這項研究在戒斷的最初三周里逐日追蹤了戒斷症狀，發現總體嚴重程度在最後一次使用後的24小時內達到最高——即“崩潰”，一種從極度興奮到身心俱疲的驟然轉變。\n\n第一天的症狀\n該研究記載了此刻最強烈的戒斷特徵：\n• 極度疲勞和睡眠增加（睡眠過多）\n• 食慾增加（甲基苯丙胺會強烈抑制食慾）\n• 情緒低落和失去快感\n• 強烈的渴求\n• 焦慮和易怒\n\n身體安全\n甲基苯丙胺戒斷綜合徵本身通常不危及生命，但該研究測量到的與抑鬱相關的症狀在早期可能很嚴重，並可能包含自殺意念。強烈建議進行醫療監督，尤其是對大量使用的人。\n\n它開始緩解\n這項研究令人鼓舞的發現是：嚴重程度在一開始最高，然後下降。從這個24小時的高峰開始，症狀在接下來的幾天里穩步下降——最糟的時刻就是開始。';
+
+  @override
+  String get methReferenceDay3 =>
+      '甲基苯丙胺戒斷：第三天——仍處於急性期\n\n來源：McGregor et al.，《The nature, time course and severity of methamphetamine withdrawal》，Addiction（2005），見PubMed\n\n從高峰回落\n這項研究發現，總體戒斷嚴重程度在最初24小時內達到高峰，隨後在急性期（約7–10天）內以大致線性的模式下降。到第三天你已經過了最高點，但仍穩穩地處於急性期——即便趨勢在向下，症狀仍然顯著。\n\n第三天的症狀\n該研究追蹤的、此刻仍然顯著的特徵：\n• 抑鬱和失去快感\n• 強烈的渴求\n• 難以集中注意力和清晰地思考\n• 睡眠紊亂——失眠與睡眠過多交替\n• 持續的疲勞\n\n為甚麼會有這種感覺\n甲基苯丙胺戒斷的強度反映了它所造成的多巴胺耗竭的規模。該研究測量到的與抑鬱相關的症狀在這些最初的幾天最為明顯——但重要的是，該研究發現總體戒斷嚴重程度“在戒斷第一周結束時降至接近對照水平”。\n\n這會過去的\n最難熬的一段是最初幾天，數據表明從這裡開始會穩步下降。把這種狀態理解為暫時性的、屬於大腦和神經的——而非永久性的狀況——有助於熬過去。';
+
+  @override
+  String get methReferenceDay7 =>
+      '停用甲基苯丙胺一周：急性期結束\n\n來源：McGregor et al.，《The nature, time course and severity of methamphetamine withdrawal》，Addiction（2005），見PubMed\n\n急性期結束\n這是研究中最令人鼓舞的發現之一。該研究報告，總體戒斷嚴重程度——包括它所追蹤的與抑鬱相關的症狀——“在戒斷第一周結束時降至接近對照水平”，標誌著急性期的結束。最陡峭的一段爬坡已經在你身後。\n\n戒斷的兩個階段\n作者將甲基苯丙胺戒斷描述為包含：\n• 一個持續約7–10天的急性期，期間症狀嚴重程度從早期高峰穩步下降\n• 一個至少再持續兩周的亞急性期，伴有較輕的、殘留的症狀\n\n第7天仍剩下甚麼\n進入亞急性期後，主要的挑戰現在是心理層面的，而非急性崩潰：\n• 情緒低落，儘管比最初幾天已大為改善\n• 渴求，尤其是在面對線索時\n• 注意力和記憶仍在恢復\n• 睡眠仍在平復\n\n身體恢復正在進行\n隨著急性期結束，食慾已經恢復，精力也在慢慢積蓄，因為身體正在從甲基苯丙胺對睡眠、營養和心血管系統的影響中恢復。';
+
+  @override
+  String get methReferenceDay30 =>
+      '停用甲基苯丙胺一個月：情緒安定，渴求仍在\n\n來源：Zorick et al.，《Withdrawal symptoms in abstinent methamphetamine-dependent subjects》，Addiction（2010），見PubMed Central\n\n追蹤最初五周\n這項研究對保持戒斷長達五周的甲基苯丙胺依賴者進行了隨訪，並將他們與健康對照者進行比較——給出了一個月節點所處位置的異常清晰的圖景。\n\n到一個月時已經改善的\n• 抑鬱症狀“在戒斷的最初2周內大幅下降到穩定的低水平”，到四周結束時已接近（儘管尚未在統計學上完全達到）健康對照水平（差距已縮小到一種臨界、不顯著的趨勢）\n• 精神病性和精神病型症狀到第二周結束時已達到較低的起始水平\n因此，到30天時，早期戒斷中沈重的抑鬱已大體緩解——這是一個真實、可測量的改善。\n\n仍在殘留的\n該研究明確表明，有一種症狀比其他症狀持續更久：渴求“在戒斷的整個5周內仍以降低的水平持續存在”。渴求比第一周弱，但並未消失，這正是為甚麼一個月仍是高風險期、持續支持很重要的原因。\n\n要點\n到一個月時，大腦的情緒機制已經恢復到足以讓日常感受遠好於早期戒斷的程度——而持續存在的渴求是這個階段的正常部分，而非失敗的標誌。';
+
+  @override
+  String get methReferenceDay90 =>
+      '停用甲基苯丙胺三個月：愈合已經開始——要有耐心\n\n來源：Volkow et al.，《Loss of Dopamine Transporters in Methamphetamine Abusers Recovers with Protracted Abstinence》，Journal of Neuroscience（2001）\n\n關於這項研究\n這項具有里程碑意義的腦掃描研究對甲基苯丙胺使用者進行了兩次隨訪——大約停用三個月和大約14個月——以觀察多巴胺系統如何恢復。\n\n三個月處於甚麼位置\n到三個月時，早期戒斷期早已結束，更深層的多巴胺恢復正在進行。同一項研究後來發現，在大腦獎賞和運動區域回收多巴胺的蛋白質，在停用甲基苯丙胺12–17個月後上升了約16%到19%。\n\n這對你意味著甚麼\n到90天時，急性戒斷早已在你身後，情緒和睡眠已經改善，參與治療的成效也高得多。但更深層的多巴胺恢復是一個更漫長的工程，會在接下來的一年里逐步展開。如果三個月時動力和快感仍然顯得遲鈍，這是預期中的，而不是失敗的標誌——這項研究中的軌跡從這裡開始明顯向上。\n\n為甚麼值得等待\n同一項研究表明，保持戒斷才是推動恢復的原因：戒斷時間越長，測得的DAT恢復就越大。三個月是基礎；收穫還會繼續到來。';
+
+  @override
+  String get methReferenceDay180 =>
+      '停用甲基苯丙胺六個月：心臟可以恢復\n\n來源：《Stopping Drug Abuse Can Reverse Related Heart Damage》，American College of Cardiology（2017），報道了JACC: Heart Failure上的一項研究\n\n甲基苯丙胺與心臟\n甲基苯丙胺是心臟毒性最強的娛樂性藥物之一。它可能引起嚴重的高血壓和心律失常，並隨著時間推移導致甲基苯丙胺相關心肌病——一種導致心力衰竭的心肌變弱。\n\n研究發現\nACC報道了患有甲基苯丙胺相關心肌病的患者（全部都有顯著下降的心臟泵血功能）。核心的、充滿希望的發現是：戒除“可以逆轉藥物對心臟造成的損害，並改善心臟功能”。停止使用的患者比繼續使用的患者預後好得多，作者強調，及早發現“可以防止心肌病進一步惡化”。\n\n為甚麼六個月很重要\n每一個戒斷的月份，都移除了對你心臟持續的有毒壓力，並給了心肌一個恢復的機會。到六個月時，你已經給了你的心血管系統一段實質性、持續的免受這種傷害的休息——這正是這項研究觀察到改善的條件。\n\n恢復信號\n有證據支持的結果很有力：停止使用甲基苯丙胺可以逆轉甲基苯丙胺相關的心臟損傷並改善心臟功能。六個月沒有反復的興奮劑傷害，給了心臟一個實質性的恢復窗口。';
+
+  @override
+  String get methReferenceDay365 =>
+      '停用甲基苯丙胺一年：可測量的大腦恢復\n\n來源：Wang et al.，《Partial Recovery of Brain Metabolism in Methamphetamine Abusers After Protracted Abstinence》，American Journal of Psychiatry（2004），見PubMed\n\n影像顯示了甚麼\n這項腦掃描研究在戒斷早期以及12–17個月後再次對甲基苯丙胺使用者進行了檢查。它發現了真實的大腦恢復，其中一些區域比其他區域恢復得更快。\n\n好消息：深層大腦和思維的恢復\n丘腦，一個深層的大腦中繼中心，隨著長期戒斷開始更正常地使用能量。這種恢復與更好的運動和言語記憶表現相伴隨，因此腦掃描上的改善體現在了真實的思維和記憶中。\n\n獎賞迴路恢復得更慢\n在12–17個月時，深層大腦中繼中心已經強勁恢復，這種收穫與更好的運動和言語記憶相伴隨。獎賞和動力系統也在繼續增強，使得一年的圖景成為思維和記憶方面的一次重大恢復。\n\n這在一年時意味著甚麼\n到一年時，可以期待一個思維和記憶都遠好於恢復早期的大腦——清晰、可測量的愈合。但如果動力或感受快感的能力有時仍然滯後，這與科學相符，而非個人的失敗：這項研究發現那些獎賞迴路可能恢復得更慢，有些缺陷在超過一年後仍存在。';
+
+  @override
+  String get methReferenceDay420 =>
+      '停用甲基苯丙胺14個月：多巴胺標誌物反彈\n\n來源：Volkow et al.，《Loss of Dopamine Transporters in Methamphetamine Abusers Recovers with Protracted Abstinence》，Journal of Neuroscience（2001）\n\n頭條發現\n這項具有里程碑意義的腦掃描研究在戒斷早期以及大約12–17個月後再次對甲基苯丙胺使用者進行了檢查。在大腦獎賞和運動區域回收多巴胺的蛋白質上升了約16%到19%，並達到了與健康對照不再有顯著差異的水平。戒斷時間越長，恢復越大。\n\n為甚麼DAT很重要\n這些蛋白質在多巴胺釋放後將其回收。甲基苯丙胺會耗竭它們，使多巴胺系統調節不良。它們在約14個月時反彈，是愈合的一個真實、可測量的跡象。\n\n恢復信號\n在12–17個月後，獎賞和運動區域中回收多巴胺的蛋白質上升了約16%到19%，並達到了健康對照水平。多巴胺系統已可測量地向正常反彈，而思維、記憶和運動也在繼續改善。\n\n這在14個月時意味著甚麼\n多巴胺系統的“硬件”正在可測量地向正常恢復——這是樂觀的真正理由。但完全的功能恢復（記憶、動力、精細運動控制）可能滯後於影像，並會隨著持續的戒斷繼續改善。';
+
+  @override
+  String get methReferenceDay730 =>
+      '停用甲基苯丙胺兩年：思維和情緒持續改善\n\n來源：Iudicello et al.，《Longer Term Improvement in Neurocognitive Functioning and Affective Distress Among Methamphetamine Users Who Achieve Stable Abstinence》，Journal of Clinical and Experimental Neuropsychology（2010），見PubMed Central\n\n持續超過一年的恢復\n這項研究對甲基苯丙胺使用者進行了約13個月的隨訪，並將穩定戒斷者與持續使用者和健康對照者進行了比較。穩定的戒斷改善了整體思維並減少了情緒困擾，收穫持續到一年以上。\n\n哪些在改善\n• 戒斷者的整體思維追上了健康對照者，而持續使用者仍顯著受損\n• 最大的收穫在於處理速度和運動能力，尤其是對那些一開始受損最嚴重的人\n• 情緒明顯改善：只有戒斷者在抑鬱和整體情緒上顯示出顯著改善\n\n恢復信號\n穩定戒斷者在整體思維上追上了健康對照者，並報告了更少的情緒困擾。言語學習、工作記憶、計劃和專注力可以持續改善到第一年之後，因此恢復趨勢會延續到第二年。\n\n兩年之時\n有證據支持的信息是：持續戒斷在遠超第一年之後仍然持續帶來回報——思維更敏銳、情緒更好、功能穩步改善——即便有少數領域需要更長時間才能恢復。';
+
+  @override
+  String get nitrousOxideReferenceDay1 =>
+      '第一天：氣體已經離開，但要留意B12\n\n來源：Knuf & Maani，《Nitrous Oxide》，StatPearls（NCBI Bookshelf）\n\n它清除得有多快\n笑氣起效迅速——2到5分鐘——並且一旦你停止吸入，它同樣迅速地從體內清除。到今天，氣體本身已不在你的系統中殘留。\n\n真正的風險不是氣體\n停止後重要的是反復暴露可能已經造成的影響。笑氣會使蛋氨酸合酶失活，這是一種依賴維生素B12的酶。StatPearls指出，反復暴露——無論是職業性的還是娛樂性的——都可能導致巨幼細胞性貧血以及大腦和神經功能障礙，在罕見情況下還會導致脊髓變性。\n\n如果你曾大量或經常使用\n笑氣並未被記載會像阿片類藥物或酒精那樣引起身體戒斷綜合徵，因此第一天並非你的身體在渴求這種藥物。它關乎的是開始留意與B12相關的症狀——將在接下來幾個里程碑中介紹——並在任何症狀出現時去做檢查。';
+
+  @override
+  String get nitrousOxideReferenceDay3 =>
+      '72小時：沒有身體戒斷，但要留意神經症狀\n\n來源：Knuf & Maani，StatPearls；Tikaria et al.（2026），Cureus\n\n與阿片類藥物或酒精不同，笑氣並未被記載會引起身體戒斷綜合徵。這一階段的衝動是習慣和渴求，而不是身體為了運轉而在要求這種藥物。\n\n留意以下症狀\n一項對1,809例娛樂性笑氣病例的系統綜述（Tikaria et al.，2026）發現，大腦和神經症狀——尤其是刺痛或麻木（感覺異常）——是與B12相關的損傷最常見的跡象，即便在標準血液檢測看起來正常時也常常出現。步態問題和無力也有報告。\n\n如果你注意到其中任何一種\n請尋求醫療評估。同一篇綜述發現，標準血液檢測（血紅蛋白、血清B12）會漏掉相當一部分受影響的患者——甲基丙二酸（MMA）和同型半胱氨酸檢測更為敏感，如果你告知醫生你使用笑氣，應專門要求做這些檢測。';
+
+  @override
+  String get nitrousOxideReferenceDay7 =>
+      '一周：如果你曾大量使用，去做檢測\n\n來源：Tikaria et al.（2026），《The Toxic Legacy of Recreational Nitrous Oxide Use》，Cureus\n\n證據表明瞭\n這篇系統綜述發現，笑氣引起的維生素B12缺乏往往是“功能性”的——大約一半受影響患者的血清B12看起來正常，即便他們確有真實的大腦和神經損傷。同型半胱氨酸和MMA異常的比例要高得多（分別佔接受檢測患者的84%和73%），是更可靠的標誌物。\n\n該怎麼做\n如果你的使用是大量或頻繁的，停用一周是一個合理的時點去看醫生，並專門要求做同型半胱氨酸和MMA檢測——而不只是標準B12水平——尤其是如果你有任何刺痛、麻木、平衡問題或不明原因的無力。\n\n停止使用笑氣並接受維生素B12治療後，大腦恢復很常見：大型臨床系列報告大多數隨訪患者獲得部分或完全改善，恢復在治療後的最初幾個月里持續進行。';
+
+  @override
+  String get nitrousOxideReferenceDay14 =>
+      '兩周：大腦和神經症狀值得隨訪\n\n來源：Tikaria et al.（2026），Cureus；Knuf & Maani，StatPearls\n\n有報道的情況\nTikaria et al.綜述的病例報告和病例系列描述了與笑氣相關的神經損傷，表現為感覺喪失、步態共濟失調，有時還有影響行走的無力——這些表現可能類似於其他大腦和神經疾病，如果不向臨床醫生提及笑氣使用，有時會被漏診。\n\n關於時間線的恢復信號\n兩個來源都沒有報告一旦停止使用並治療任何缺乏症後，恢復通常需要多長時間。病例報告描述了從完全恢復到持久缺陷的廣泛結局——這在很大程度上取決於診斷前發生了多少損傷。整個文獻一致的一點是：治療越早，結局越好。\n\n如果你還沒有做檢查\n停用兩周仍然是一個很好的時機去做血液檢測，即便沒有症狀——尤其是同型半胱氨酸和MMA，而不僅僅是血清B12。';
+
+  @override
+  String get nitrousOxideReferenceDay30 =>
+      '一個月：是習慣和渴求，而非身體依賴\n\n來源：Knuf & Maani，《Nitrous Oxide》，StatPearls（NCBI Bookshelf）\n\n你所處的位置\nStatPearls並未將笑氣描述為會產生身體依賴綜合徵，因此停用一個月意味著任何殘留的衝動都與習慣、社交場合或無聊有關，而非身體仍在適應藥物的缺席。\n\nB12的問題\n如果你已經檢測並治療了B12缺乏，一個月是讓你的醫生檢查你的水平——以及任何症狀——是否有反應的合理時點。如果你沒有檢測過並且曾大量使用，仍然值得提出要求。\n\n受到保護的是甚麼\n每一個你不使用的月份，都是一個你沒有在給任何現有的蛋氨酸合酶失活或隨之而來的大腦和神經風險添磚加瓦的月份。';
+
+  @override
+  String get nitrousOxideReferenceDay90 =>
+      '三個月：如果你還沒復查，是時候了\n\n來源：Tikaria et al.（2026），《The Toxic Legacy of Recreational Nitrous Oxide Use》，Cureus\n\n我們所知道的——和不知道的\n這一研究基礎建立在病例報告和病例系列之上，而非對照恢復研究，因此沒有可靠的已發表時間線來說明症狀在三個月時具體如何消退。證據確實表明的是，結局差異很大——一些輕度、早期發現缺乏的患者完全恢復，而那些延遲診斷或神經損傷更嚴重的患者可能有持久的缺陷。\n\n可操作的部分\n如果你有過任何大腦和神經症狀，並且還沒有做過隨訪血液檢測或專科評估，停用三個月是一個合理的時點去做這些。如果你已經接受治療並在改善，這是與你的醫生確認趨勢在繼續的合理時機。\n\n保持停用最重要\n該綜述在一個方面保持一致：持續的暴露會繼續使B12失活並增加風險。不使用是你手中最有利的單一因素。';
+
+  @override
+  String get nitrousOxideReferenceDay365 =>
+      '一年：最好的保護是持續戒斷\n\n來源：Knuf & Maani，StatPearls；Tikaria et al.（2026），Cureus\n\n證據實際上落在哪裡\n兩個來源都沒有承諾一個具體的恢復時間線，這一點值得坦誠——關於笑氣和B12缺乏的文獻幾乎完全建立在個體病例報告之上，而非長期隨訪研究。已被充分確立的是機制：笑氣每次使用都會使維生素B12失活，而停止使用則完全移除了這種持續的傷害。\n\n如果你有過與缺乏相關的症狀\n病例報告描述了廣泛的結局，從完全恢復到持續的神經症狀，這在很大程度上取決於發生了多少損傷以及治療得有多早。如果你在一年後仍感到症狀，那是繼續與神經科醫生合作的理由，而非甚麼都做不了的標誌——神經恢復可以持續一段較長的時間。\n\n確定無疑的\n一年不碰笑氣，就是一年沒有進一步的蛋氨酸合酶失活。這是兩個來源都支持的一個保證。';
+
+  @override
+  String get opioidReferenceDay1 =>
+      '阿片類藥物戒斷：第一天\n\n來源：《Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings》，世界衛生組織（2009），見NCBI Bookshelf\n\n⚠ 安全提示\n在其他方面健康的人身上，阿片類藥物戒斷很少致命，但它會引起嚴重的身體痛苦，並帶有很高的復吸風險。戒斷一段時間後的復吸尤其危險，因為耐受性會迅速下降——使用與戒斷前相同的劑量可能導致致命的過量。強烈建議進行醫療監督和阿片受體激動劑治療。\n\n戒斷何時開始\nWHO的戒斷時間表按阿片類藥物類型確定時間：\n• 短效阿片類藥物（海洛因、羥考酮）：在最後一次使用後8–24小時發作，持續4–10天\n• 長效阿片類藥物（美沙酮）：發作時間12–48小時，持續10–20天\n\n第一天的症狀\nWHO指南列出了阿片類藥物戒斷的早期特徵：\n• 焦慮和激越\n• 肌肉痙攣和酸痛\n• 眼鼻流淚流涕\n• 打哈欠和出汗\n• 失眠，伴有冷熱交替發作\n• 早期惡心\n\n為甚麼感覺如此難受\n阿片系統調節疼痛、壓力、情緒健康和基本舒適感。長期使用阿片類藥物會抑制身體自身的阿片物質（內啡肽）產生。當阿片類藥物被移除時，身體被留在沒有其正常舒適系統的狀態——所經歷的疼痛、焦慮和痛苦，反映了這種抑制的深度。WHO指南建議支持性護理，包括每天飲用2–3升水，每天監測3–4次。';
+
+  @override
+  String get opioidReferenceDay7 =>
+      '停用阿片類藥物一周：高峰症狀正在下降\n\n來源：《Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings》，世界衛生組織（2009），見NCBI Bookshelf\n\n高峰與下降\nWHO時間表將短效阿片類藥物戒斷定為4–10天，症狀在這一窗口期內早期積聚然後緩解。到第一周結束時：\n• 嘔吐和腹瀉已大體消退\n• 肌肉痙攣不再那麼嚴重\n• 身體痛苦顯著減輕\n\n第7天仍剩下甚麼\n雖然急性身體症狀正在改善，但顯著的挑戰仍在持續：\n• 失眠——睡眠紊亂是最持久的阿片類藥物戒斷症狀之一\n• 情緒低落和情感平淡\n• 疲勞和無力\n• 渴求\n• 焦慮\n\n急性期後的戒斷\n在最初的戒斷期之後，睡眠問題、情緒波動和一陣陣的渴求可能持續數周或數月。在這個更長的恢復階段，持續的支持最為重要。\n\n阿片受體激動劑治療\nWHO指南將美沙酮和丁丙諾啡描述為能減輕戒斷嚴重程度並支持恢復的有效治療。這些藥物還能降低阿片類藥物使用障礙的死亡率，許多成功長期恢復的人在恢復早期全程使用它們。';
+
+  @override
+  String get opioidReferenceDay14 =>
+      '停用阿片類藥物兩周：睡眠模式開始改善\n\n來源：關於阿片類藥物與睡眠的同行評審藥理學研究\n\n阿片類藥物與睡眠的關聯\n這篇研究論文考察了阿片類藥物使用與睡眠紊亂之間的雙向關係。研究發現記載了阿片類藥物通過多種機制嚴重擾亂正常的睡眠結構：\n• 抑制慢波（深度）睡眠\n• 擾亂REM睡眠\n• 引起睡眠呼吸障礙（中樞性睡眠呼吸暫停）\n• 擾亂晝夜節律調節\n\n一個惡性循環\n該研究強調了這一問題的雙向性質：阿片類藥物使用擾亂睡眠，而睡眠不佳又增加疼痛敏感性和渴求強度，推動進一步使用阿片類藥物。打破阿片依賴也意味著打破這個睡眠紊亂的循環。\n\n兩周時的睡眠\n到阿片類藥物戒斷第14天，睡眠開始正常化：\n• 中樞性睡眠呼吸暫停（如果存在）在數天內消退\n• 深度慢波睡眠開始恢復\n• REM睡眠回到正常比例\n• 入睡變得更加可靠\n\n對許多人來說，睡眠在兩周時仍是一個重大挑戰，但軌跡明顯在改善。更好的睡眠直接改善情緒、減少渴求，並支持恢復所需的清晰思維。';
+
+  @override
+  String get opioidReferenceDay30 =>
+      '停用阿片類藥物一個月：思維和記憶開始恢復\n\n來源：梅奧診所（Mayo Clinic）\n\n理解阿片類藥物使用障礙\n梅奧診所解釋，阿片類藥物附著在大腦和全身的受體上，產生鎮痛、欣快和嗜睡。隨著反復使用，大腦的反應越來越弱，並產生更少的自身阿片樣化學物質。這就形成了身體依賴。\n\n一個月時的思維和記憶\n到30天時，思維和記憶已經出現了有意義的恢復。最嚴重的腦霧已經消散，大腦前部——負責計劃和自我控制的部分——正在恢復：\n• 決策能力正在改善\n• 工作記憶正在恢復\n• 處理速度在提高\n• 注意力更加可靠\n\n內啡肽系統\n到一個月時，大腦自然的內啡肽系統正在積極恢復：它正在產生更多自身的阿片樣化學物質，並再次更正常地做出反應。隨著這種恢復持續，情感平淡和較低的疼痛耐受性也在繼續改善。\n\n復吸預防\n梅奧診所強調，停止使用阿片類藥物一個月並不意味著復吸風險已經過去——它仍然偏高。耐受性已經顯著下降，這意味著用以前的劑量復吸會帶來嚴重的過量風險。';
+
+  @override
+  String get opioidReferenceDay60 =>
+      '停用阿片類藥物兩個月：大腦的壓力迴路開始安定\n\n來源：《Neuroplasticity of the extended amygdala in opioid withdrawal and prolonged opioid abstinence》，Frontiers in Pharmacology（2023）\n\n負面情緒從何而來\n這篇綜述描繪了長期使用阿片類藥物如何改變大腦的壓力和恐懼迴路。在戒斷期間，這些迴路變得過度活躍，而獎賞迴路中的多巴胺信號下降。這種組合有助於解釋恢復早期的焦慮、情緒低落和渴求。\n\n為甚麼兩個月帶來緩解\n關鍵的是，該綜述記載其中一些改變是可逆的。在動物模型中，伏隔核殼區的樹突棘密度喪失被描述為“一種持久但可逆的減少”，在幾周內回到接近用藥前的水平。隨著這些壓力和獎賞迴路重新調節，早期恢復中情緒動蕩的機制基礎得以緩解——這與許多人在大約兩個月時報告的反應性降低、情緒更穩定相一致。\n\n恢復信號\n文獻中記載的可逆的樹突棘密度和壓力迴路改變顯示了一個真實的生物學恢復過程：驅動依賴負面情緒狀態的迴路，在戒斷期間向其用藥前狀態回歸。';
+
+  @override
+  String get opioidReferenceDay90 =>
+      '停用阿片類藥物三個月：獎賞化學開始恢復\n\n來源：《Structural and Functional Brain Recovery in Individuals with Substance Use Disorders During Abstinence: A Review of Longitudinal Neuroimaging Studies》，Drug and Alcohol Dependence（2022），見PubMed Central\n\n多巴胺與阿片類藥物\n阿片類藥物推動大腦獎賞系統中的多巴胺釋放。長期使用使該系統耗竭：在一項腦掃描研究中，回收多巴胺的蛋白質在開始時比健康水平低約30%。這有助於解釋阿片類藥物使用障礙和恢復早期所見到的快感喪失。\n\n恢復是漸進的\n這篇綜述匯集了對同一個人在戒斷期間反復掃描的縱向研究。多巴胺轉運體缺陷在6–12個月的戒斷中恢復了約20%，而早期戒斷中所見的一些額葉灰質和白質異常在大約一個月後已不再可檢測。到三個月時，你正處於這條恢復曲線的早期：獎賞和額葉系統正在可測量地修復，但尚未完成。\n\n人們的體驗\n隨著這些迴路恢復，許多人在大約90天時注意到：\n• 對活動、食物和人際關係更真實的享受\n• 與恢復早期相比減少的渴求\n• 更清晰的思維和更好的決策\n\n恢復信號\n縱向人體影像顯示，多巴胺轉運體的可利用性在6–12個月的戒斷中上升，而額葉灰質和白質異常則早得多地開始正常化。到90天時，可測量的大腦恢復已經確立。';
+
+  @override
+  String get opioidReferenceDay180 =>
+      '停用阿片類藥物六個月：免疫系統開始恢復\n\n來源：《Effects of opioid tolerance and withdrawal on the immune system》，Journal of Neuroimmune Pharmacology（2006），見PubMed\n\n阿片類藥物與免疫系統\n這篇綜述顯示，長期使用阿片類藥物以多種方式削弱免疫系統：\n• 阿片類藥物對免疫細胞（T細胞、NK細胞、巨噬細胞）的直接作用\n• 免疫信號化學物質被擾亂\n• 下丘腦-垂體-腎上腺（HPA）軸被擾亂\n• 對感染的易感性增加\n\n恢復信號\n長期使用阿片類藥物會抑制免疫系統的多個部分。到停用阿片類藥物六個月時，那種持續的抑制已經消失了半年，免疫功能正在積極地向正常重建。\n\n六個月意味著甚麼\n六個月不碰阿片類藥物，給了免疫細胞、免疫信號和身體的壓力系統持續的時間向正常恢復。\n\n為甚麼這仍然重要\n這對注射使用阿片類藥物的人尤其相關，他們面臨諸如HIV和丙型肝炎等額外的感染風險。移除阿片類藥物、改善營養和保持戒斷，給了免疫系統持續恢復所需的條件。';
+
+  @override
+  String get opioidReferenceDay365 =>
+      '停用阿片類藥物一年：大腦結構和化學正在恢復\n\n來源：《Structural and Functional Brain Recovery in Individuals with Substance Use Disorders During Abstinence: A Review of Longitudinal Neuroimaging Studies》，Drug and Alcohol Dependence（2022），見PubMed Central\n\n人體影像顯示了甚麼\n這篇綜述匯集了對同一批阿片類藥物使用障礙患者在戒斷期間不止一次進行掃描的研究。發現一致地指向恢復：\n• 獎賞和運動區域回收多巴胺的蛋白質，在開始時比正常低約30%，在停用阿片類藥物6–12個月中上升了約20%\n• 早期戒斷中所見的額葉灰質異常在大約一個月的戒斷後已不再可檢測\n• 白質（額葉和扣帶回）以及靜息態額葉活動也在第一個月內開始重新正常化\n\n一年處於甚麼位置\n到十二個月時，你已經處於或超過了這些研究測量的最長時間窗口。多巴胺系統有了最多的時間來恢復，而支持自我控制和判斷的額葉迴路已經修復了數月——這是人們在一年時所描述的思維更清晰、渴求更弱、情緒更穩定的生物學對應物。\n\n恢復信號\n到一年時，人體影像信號強烈地指向恢復：多巴胺轉運體的可利用性在6–12個月的窗口內上升，而額葉結構和功能異常也有了數月的時間來正常化。';
+
+  @override
+  String get opioidReferenceDay730 =>
+      '停用阿片類藥物兩年：一個穩定的基礎\n\n來源：《Treatment of Opioid Use Disorder》，美國疾病控制與預防中心（CDC）\n\n一種慢性疾病，管理得當\nCDC將阿片類藥物使用障礙描述為“一種可能影響任何人的慢性疾病”——“一種醫學狀況，而非道德缺陷”。達到兩年的持續恢復，意味著你已經在其最脆弱的時期之一成功管理了這一狀況。\n\nCDC認為有效的做法\nCDC的指導以能長期保持恢復穩定的治療為核心：\n• 阿片類藥物使用障礙的藥物——丁丙諾啡、美沙酮和納曲酮——CDC稱其尤其有效\n• 將藥物與行為治療和咨詢相結合\n• 持續時間長短不一、因人而異的治療\nCDC指出，這些藥物有助於“使大腦化學正常化”並緩解渴求——在活躍成癮中感覺被劫持的化學機制，再次與你並肩協作。\n\n保持安全\nCDC敦促恢復中的人向醫生詢問重新使用和過量的風險，並隨身備好納洛酮。戒斷期間耐受性下降，因此這麼久之後重新使用阿片類藥物尤其危險——瞭解這一點是保護你所建立成果的一部分。\n\n兩年之時\nCDC明確指出，恢復往往是一個長期過程，而非終點線。兩年不是旅程的終點——它是一個穩定、健康的基礎，也是你所用方法有效的有力證據。';
+
+  @override
+  String get pornographyReferenceDay1 =>
+      '第一天：重新掌控\n\n來源：Kraus et al.，Compulsive sexual behaviour disorder in the ICD-11，World Psychiatry（2018）\n\n臨床上重要的問題不是色情使用本身。強迫性行為障礙的定義是：當一種模式造成顯著的痛苦或功能損害時，持續難以控制重復的性行為。有問題的色情使用可能是這個更廣泛問題的一種表現形式。\n\n這使得第一天變得具體而非神秘：你已經打斷了一種你判定為失控的行為。完成的一天並不能證明大腦和神經的重置，但它確實給了你關於衝動何時出現、甚麼情境觸發它們、以及你可以轉而做甚麼的第一次真實觀察。\n\n如果你的使用並不令人痛苦、不造成損害、也不難以控制，那麼臨床上的CSBD框架可能並不適用於你。這些里程碑針對的是那些有意改變有問題或強迫性使用的人。';
+
+  @override
+  String get pornographyReferenceDay3 =>
+      '第三天：瞭解衝動可能是甚麼樣子\n\n來源：Lewczuk et al.，Withdrawal and tolerance as related to compulsive sexual behavior disorder and problematic pornography use，Journal of Behavioral Addictions（2022）\n\n在一項預先注冊的、具有全國代表性的波蘭樣本中（1,541名成年人），更強的自報類戒斷體驗與更高的CSBD和有問題的色情使用嚴重程度相關。在有問題的色情使用參與者中，常被報告的體驗包括難以停止的性念頭、難以控制的慾望、性喚起增強、易怒、情緒變化和睡眠問題。\n\n坐立不安、闖入性的性念頭、強烈的衝動和易怒，在問題使用更嚴重的人身上有記載。如果它們大約在第三天出現，就把它們當作真實的類戒斷模式來對待，並管理觸發因素。\n\n寫下哪些衝動實際發生了、它們之前發生了甚麼、以及甚麼應對方式有幫助。當觸發因素被命名，而不是被當作一個神秘的大腦事件時，恢復就更容易引導。';
+
+  @override
+  String get pornographyReferenceDay7 =>
+      '一周：一項隨機戒斷研究發現了甚麼\n\n來源：Effects of a 7-Day Pornography Abstinence Period on Withdrawal-Related Symptoms in Regular Pornography Users，Archives of Sexual Behavior（2023）\n\n研究人員將176名經常的色情使用者隨機分配為嘗試七天戒斷或照常繼續。在整個樣本中，戒斷並未帶來渴求、負面情緒或戒斷症狀的顯著總體增加。\n\n一項探索性分析確實發現，在問題使用得分高且研究前每天使用色情的人中，渴求有所增加。這一結果需要重復驗證，但它是有用的：對於更嚴重的問題使用者來說，艱難的第一周可能是真實的，而這項試驗並不支持一種普遍的色情戒斷綜合徵。\n\n如果你已經熬過了一周，那麼相比任何通用的互聯網時間線，你現在對自己的模式有了更好的證據。';
+
+  @override
+  String get pornographyReferenceDay14 =>
+      '兩周：繪制真正重要的觸發因素\n\n來源：Biopsychosocial Determinants of Problematic Pornography Use: A Systematic Review（2023）\n\n這篇綜述綜合了66項研究，發現有問題的色情使用與多種因素的混合有關，而非單一的多巴胺機制。反復被識別的心理和社會因素包括渴求、壓力、回避、孤獨、自尊、負面信念和應對方式。\n\n兩周讓你反復暴露於工作日、週末、無聊、壓力、獨處、設備和可能誘發舊行為的其他情境。利用這些數據。如果壓力是觸發因素，設計一種壓力應對方式。如果孤獨是觸發因素，增加聯繫。如果容易接觸到是觸發因素，改變環境。\n\n證據支持針對問題使用的驅動因素下功夫；它並不要求假裝每個人都遵循同樣的生物倒計時。';
+
+  @override
+  String get pornographyReferenceDay30 =>
+      '一個月：控制比簡單的頻率計數更重要\n\n來源：Bőthe et al.，Are sexual functioning problems associated with frequent pornography use and/or problematic pornography use?，Addictive Behaviors（2021）\n\n在一個包含14,581名成年人的社區樣本中，有問題的色情使用與男性和女性的性功能問題都存在中等程度的正相關。色情使用頻率本身與這些問題的相關性較弱且為負。\n\n這一區分很重要。證據並不支持告訴每個色情使用者，觀看頻率本身就會損害性功能。臨床上更相關的目標是失控以及圍繞該模式的問題。\n\n到一個月時，將現在的生活與開始時相比：沈迷程度、損失的時間、停止的能力、性功能、關係衝突和痛苦。這些變化比等待一個神話般的第30天大腦重置更重要。';
+
+  @override
+  String get pornographyReferenceDay90 =>
+      '三個月：持久的改變是可能的\n\n來源：Crosby & Twohig，Acceptance and Commitment Therapy for Problematic Internet Pornography Use: A Randomized Trial，Behavior Therapy（2016）\n\n這項小型隨機試驗在28名成年男性中比較了一個12節的ACT項目與等待名單。治療結束時，ACT組的色情觀看下降得多得多，並且實質性的減少在三個月的隨訪時仍然保持。\n\n這項研究並不能證明90天的戒斷本身會產生同樣的結果，而且其樣本很小、人口構成也很窄。它所展示的確實很重要：有問題的色情使用是可以改變的，結構化的技能可以產生持續到即時治療期之後的變化。\n\n如果你的進展仍然主要靠咬牙硬撐，三個月是一個加強其周圍系統的好時機：觸發計劃、在不行動的情況下接納衝動、環境摩擦、問責，以及在需要時的治療。';
+
+  @override
+  String get pornographyReferenceDay180 =>
+      '六個月：長期症狀控制可以保持\n\n來源：Hallberg et al.，A Randomized Controlled Study of Group-Administered Cognitive Behavioral Therapy for Hypersexual Disorder in Men，Journal of Sexual Medicine（2019）\n\n在137名性行為失控的男性中，為期七周的團體CBT比等待名單帶來了更大的性慾亢進症狀和性強迫的減少，同時改善了精神健康。治療收益在三個月和六個月的隨訪中都保持穩定。\n\n這項研究涵蓋的是更廣泛的性慾亢進障礙，而非僅僅色情戒斷，因此不應被轉述為每個人都在六個月時在生物學上恢復了。它確實支持一個更有力也更有用的陳述：強迫性性行為的持續改善可以在這段時長內保持穩定。\n\n因此，六個月是一個維持性的里程碑。保留那些讓控制變得更容易的習慣，而不是把這一天當作拆解它們的許可。';
+
+  @override
+  String get pornographyReferenceDay365 =>
+      '一年：持久行為改變的證據\n\n來源：One-year follow-up effects of an acceptance-based treatment for hypersexuality（2026）\n\n在一年的隨訪中，這項基於接納的治療研究的參與者並未回到他們治療前的性慾亢進水平。作者將這些發現描述為持久、具有臨床意義益處的初步證據，其中對渴求的感知控制是隨時間被追蹤的過程之一。\n\n這是治療隨訪的證據，而非一年大腦重置的證據。有意義的說法無論如何都更好：臨床上相關的控制可以持續一年，而不是在最初的干預一結束就消失。\n\n你自己維持改變的一年，也是一份龐大的個人數據集。將現在的控制、痛苦、功能、人際關係和時間使用與你開始的地方相比；這些才是臨床上重要的結局。';
+
+  @override
+  String get pornographyReferenceDay1825 =>
+      '五年：長期控制才是結局\n\n來源：Compulsive sexual behavior disorder and problematic pornography use: a comprehensive interdisciplinary expert-informed review（2026）\n\n現代綜述將CSBD和有問題的色情使用視為涉及控制、痛苦、功能、情境和個體差異的複雜問題。並不存在經過驗證的五年大腦和神經重置閾值。\n\n但五年並不是一個空洞的里程碑。它是1,825天維持你所選擇的行為方向。由於臨床問題是伴有痛苦或損害的持續失控，因此數年間持續的控制和恢復的功能本身就是有意義的結局。\n\n到這個階段，有用的問題不再是你大腦是否達到了某個虛構的重塑百分比。而是舊的模式是否仍然控制著你的選擇，或擾亂你想要的生活。如果它不再如此，那就是一項實質性的長期成功。';
+
+  @override
+  String get smokingReferenceDay1 =>
+      '第一天：益處現在就開始\n\n來源：NHS Better Health\n\n益處從幾分鐘內開始——而非幾天。煙霧一停止，身體就開始正常化。\n\n今天會發生甚麼\n• 20分鐘：脈搏開始恢復正常\n• 8小時：血液中的一氧化碳下降一半；氧氣水平正在恢復\n• 48小時：一氧化碳已降至非吸煙者的水平\n\n一氧化碳與紅細胞結合的能力比氧氣更強，會把氧氣從你的血液中擠走。每個器官所獲得的氧氣都比應有的少。這在兩天內逆轉。\n\n戒斷從第一天開始\n• 渴求——每次通常持續3–5分鐘\n• 易怒和難以集中注意力\n• 食慾增加\n\n這些都是暫時的、可以管理的。NHS Better Health項目提供免費支持，包括應用程序和藥劑師建議。';
+
+  @override
+  String get smokingReferenceDay3 =>
+      '第三天：戒斷高峰\n\n來源：McLaughlin, Dani & De Biasi\n\n到72小時時，尼古丁已從你的身體中清除。大腦在你的吸煙歲月里建立了額外的尼古丁受體；現在它們得不到足夠的刺激，從而引起戒斷綜合徵。\n\n高峰症狀\n• 渴求——此刻最為強烈\n• 易怒、沮喪、坐立不安\n• 難以集中注意力\n• 焦慮\n• 頭痛\n• 食慾增加\n• 咳嗽（氣道正在清理——這是個好跡象）\n\n這是最難的一天。不會比這更糟了——從這裡開始，隨著你的大腦重新調整，症狀會穩步緩解。\n\n尼古丁替代療法（NRT）、伐尼克蘭和安非他酮都能在這一階段顯著減輕戒斷嚴重程度。';
+
+  @override
+  String get smokingReferenceDay7 =>
+      '一周：味覺和嗅覺回歸\n\n來源：NHS Better Health\n\n達到一周不吸煙，是長期成功的有力預測因素——熬過第一周的人更有可能永久戒煙。\n\n已經恢復的\n• 食物的味道更有滋味\n• 氣味更加鮮明\n• 呼吸更輕鬆——氣道正在清理\n• 血液循環正在改善\n• 皮膚保水更好\n\n吸煙會直接損害味覺和嗅覺感受器；在停止後的數天內，它們開始恢復。\n\n急性尼古丁戒斷正在緩解。身體渴求更短、更不頻繁。由觸發因素引起的渴求可能仍然存在，但最嚴重的身體緊迫感已經過去。';
+
+  @override
+  String get smokingReferenceDay14 =>
+      '兩周：血液循環改善\n\n來源：NHS Better Health\n\n在停止後的2–12周內，血液循環得到改善。尼古丁每吸一支煙都會使血管收縮；沒有它，血管放松，血液流動更順暢。\n\n這意味著甚麼\n• 流向手、腳和周圍組織的血流改善\n• 許多人注意到手腳更暖和\n• 走路和爬樓梯開始感覺更輕鬆\n\n隨著一氧化碳已經在第一天從血液中清除、血液循環現在也在改善，氧氣更有效地到達肌肉。\n\n排列在氣道上的纖毛正在恢復，並將積聚的黏液推出來。如果你咳嗽得比平時多，那是恢復的跡象，而不是倒退。';
+
+  @override
+  String get smokingReferenceDay30 =>
+      '一個月：肺功能上升\n\n來源：NHS Better Health\n\n呼吸變得更容易，肺功能得到改善——在3到9個月的窗口期內最多提高10%。到一個月時，你已經深入那條恢復曲線。\n\n肺部正在發生甚麼\n• 纖毛已經重新生長，並在更有效地清除黏液\n• 氣道炎症正在平息\n• 持續的吸煙者咳嗽正在消退\n• 運動耐量正在改善\n\n隨著肺功能提高，任何咳嗽、喘息和呼吸問題都會改善。一個月是那條恢復曲線上一個有意義的節點。';
+
+  @override
+  String get smokingReferenceDay90 =>
+      '三個月：心臟病發作風險下降\n\n來源：PMC——Cardiovascular Effects of Smoking and Cessation（2024）\n\n吸煙以多種方式損害心臟和動脈：它加速動脈斑塊積聚、促進血液凝固、升高血壓，並損害動脈內膜。促進凝血、促進血栓形成的效應在停止後的數天內逆轉，這篇綜述報告在戒煙的第一年內心臟病發作和中風出現顯著下降。\n\n到現在已經改善的\n• 血液凝固因子正在正常化\n• 血壓和心率正在穩定\n• 急性心血管事件風險最急劇的早期下降正在順利進行\n\n作用較慢的益處——逆轉多年動脈斑塊的積聚——需要更長時間，將在後續里程碑中介紹。每一個不吸煙的月份都在為恢復添磚加瓦。';
+
+  @override
+  String get smokingReferenceDay180 =>
+      '六個月：免疫防禦恢復\n\n來源：Smoke-free period and recovery of alveolar immune-cell function（PubMed）\n\n吸煙會抑制肺部深處的免疫細胞，損害它們吞噬和殺滅細菌的能力。恢復是漸進的——那些僅戒斷2個月的人受損最嚴重，而功能會隨著更長的戒斷穩步改善。到6個月時，肺部免疫防禦已經大幅恢復。\n\n這意味著甚麼\n肺部能更有效地清除吸入的細菌和顆粒，降低對感冒、流感和肺炎的易感性。\n\n免疫防禦會持續改善到六個月之後——但到現在，身體的保護力已經明顯強於最初幾周。';
+
+  @override
+  String get smokingReferenceDay365 =>
+      '一年：心臟病發作風險大幅下降\n\n來源：PMC——Smoking Cessation and Stroke Outcome；CDC，Benefits of Quitting Smoking\n\n吸煙通過促進動脈斑塊積聚、增加血液凝固、升高血壓和損害腦血管，使中風風險大約翻倍。CDC自己的戒煙益處時間線將心臟病發作風險的急劇下降放在1到2年節點——你正處在這個窗口的前沿。\n\n恢復時間線\n中風風險的完全正常化需要更長時間：所引用的中風研究對戒煙者進行了中位數近五年的隨訪，才顯示出比持續吸煙者有意義地更低的中風率，而CDC數據將冠心病風險減半放在3到6年，中風風險則在5到10年節點下降。\n\n一年仍然是一個真正的醫學里程碑——急性風險下降最陡峭的部分已經在你身後，儘管更長期的心血管和癌症益處還會持續積累數年。';
+
+  @override
+  String get smokingReferenceDay1825 =>
+      '五年：癌症風險下降\n\n來源：CDC，Benefits of Quitting Smoking\n\n到五年時，一些最顯著的癌症益處到來了。\n\n五到十年的里程碑\n• 口腔、咽喉和聲帶癌的額外風險：減半\n• 中風風險：正在下降\n\n仍在前面\n• 十年：肺癌死亡風險大約減半（在10–15年後）；膀胱癌、食道癌和腎癌風險正在下降\n• 十五年：冠心病風險接近非吸煙者\n• 二十年：口腔、咽喉和聲帶癌風險接近非吸煙者水平；額外的宮頸癌風險大約減半\n\n五年不吸煙是一項真正的成就——你現在正處於一些最顯著的癌症風險降低開始生效的窗口之內，儘管若干益處（如冠心病風險的完全正常化）仍在數年之外。';
+
+  @override
+  String get snriReferenceDay3 =>
+      'SNRI停藥：最初幾天\n\n來源：哈佛健康出版社（Harvard Health Publishing）\n\n重要安全提示\nSNRI只能在醫療監督下通過逐步減量來停用。尤其是文拉法辛（Effexor），其半衰期極短，約為5小時，這意味著藥物從體內清除得非常快，停藥症狀可能嚴重而突然。\n\n為甚麼SNRI比SSRI更難停用\nSNRI影響兩種調節情緒的腦化學物質——血清素和去甲腎上腺素——這意味著停藥時兩者都需要重新調整。SNRI的停藥症狀往往比SSRI更強烈：\n• 流感樣症狀（疲勞、出汗、肌肉酸痛）\n• 失眠和睡眠紊亂\n• 惡心——往往比SSRI更明顯\n• 失衡和頭暈\n• 感覺障礙——文拉法辛的“腦閃”可能非常強烈\n• 過度喚起、易怒和焦慮\n\nSNRI之間的比較\n由於半衰期短，文拉法辛的停藥特徵最為困難。度洛西汀（Cymbalta）由於半衰期較長（12小時）而往往稍微容易一些。去甲文拉法辛介於兩者之間。';
+
+  @override
+  String get snriReferenceDay7 =>
+      '停用SNRI一周：兩個腦化學系統在調整\n\n來源：NHS——Stopping or coming off antidepressants（一般抗抑鬱藥指導；下述去甲腎上腺素特異性機制反映的是一般SNRI藥理學，而非NHS頁面本身的SNRI特異性細節）\n\n雙重系統的挑戰\n與大多數只影響一個系統的抗抑鬱藥不同，SNRI同時影響血清素和去甲腎上腺素。到一周時，兩個系統都在調整：\n\n去甲腎上腺素系統的影響\n去甲腎上腺素系統掌管身體的戰鬥或逃跑反應、血壓調節和精力水平。隨著它重新調整：\n• 可能出現血壓波動\n• 焦慮可能感覺更偏身體層面（心跳加速、出汗）\n• 精力水平可能不穩定\n\n血清素系統的影響\n與此同時，血清素系統正在調整——產生任何抗抑鬱藥停用都會出現的典型戒斷症狀。兩個系統同時調整，可能使第一周尤其具有挑戰性。\n\n在身體上，這通常表現為血壓穩定性改善、站立時頭暈發作減少。在情緒上，情緒比30天時更多變，但已不再處於自由落體狀態。';
+
+  @override
+  String get snriReferenceDay14 =>
+      '停用SNRI兩周：身體症狀消退\n\n來源：Davies & Read（2019），Addictive Behaviors\n\n兩周的狀態\n對於大多數遵循正確減量的人來說，急性身體階段到兩周時已大體消退：\n• 腦閃顯著減少或消失\n• 惡心和流感樣症狀已消退\n• 頭暈和平衡問題正在改善\n• 隨著去甲腎上腺素重新平衡，血壓和心率正在穩定\n\n可能持續存在的\n• 情緒敏感和情緒多變\n• 焦慮——去甲腎上腺素系統尤其會影響這一點\n• 疲勞，因為去甲腎上腺素系統提供警覺和精力\n\n研究背景\nAddictive Behaviors的系統綜述（Davies & Read，2019）確認，SNRI的停藥效應是所有抗抑鬱藥類別中最嚴重的之一，文拉法辛與尤其高比例的顯著戒斷症狀相關。';
+
+  @override
+  String get snriReferenceDay30 =>
+      '停用SNRI一個月：雙重系統穩定\n\n來源：Davies & Read（2019），Addictive Behaviors——關於抗抑鬱藥戒斷發生率、嚴重程度和持續時間的系統綜述\n\n穩定階段\n一個月是血清素和去甲腎上腺素恢復的一個重要里程碑。這篇綜述發現，雖然相當一部分少數人經歷的戒斷效應會持續超過幾周，但到此時，大多數人都已遠過急性、最嚴重的身體停藥症狀階段。\n\n到一個月時通常會改善的\n• 身體停藥症狀（腦閃、惡心、頭暈）對大多數人已消退\n• 血壓回到自然水平\n• 睡眠質量改善——REM睡眠模式自然恢復\n• 隨著去甲腎上腺素調節正常化，精力水平開始穩定\n\n情緒麻木的消退\n這一階段最常被報告的體驗之一是情緒麻木的消退——許多服用SNRI的人會注意到“扁平”的情緒範圍。隨著藥物清除和大腦重新調整，情緒範圍和敏感性通常會回歸。';
+
+  @override
+  String get snriReferenceDay90 =>
+      '停用SNRI三個月：早已度過戒斷\n\n來源：《Antidepressant Withdrawal Syndrome》，Therapeutics Letter 112（2018），Therapeutics Initiative，見NCBI Bookshelf\n\n為甚麼SNRI值得格外小心\n這篇證據綜述特別指出，短半衰期抗抑鬱藥——包括文拉法辛和度洛西汀（兩者都是SNRI）——帶有更高的戒斷症狀風險。一項由製造商資助的研究發現，51%停用度洛西汀的人出現了一種或多種症狀。因此SNRI戒斷可能很明顯，這正是逐步、受監督的減量如此重要的原因。\n\n三個月處於甚麼位置\n該Letter指出，戒斷症狀“通常在停藥後幾天內出現”，“大多數抗抑鬱藥戒斷症狀在2周內消退”（偶爾更長）。到三個月時，急性戒斷階段對絕大多數人來說早已過去。\n\n關於“受體恢復”的恢復信號\n流行的說法聲稱血清素和去甲腎上腺素系統在三個月時已“完全重新平衡”。可靠的證據涉及戒斷綜合徵及其時間，而非精確的受體恢復時鐘。可以確信的是：到三個月時戒斷階段通常已經消退，許多人注意到在SNRI上感到的情緒麻木在停藥後有所緩解。\n\n戒斷與復發\n該Letter建議把戒斷與基礎疾病的真正復發區分開來。如果焦慮或情緒低落在三個月時持續存在，應與你的開藥醫生一起評估，而不是想當然地認為這只是戒斷。';
+
+  @override
+  String get snriReferenceDay180 =>
+      '停用SNRI六個月：大腦和神經恢復\n\n關於六個月數據的恢復信號\n到完成一次醫療監督下的減量六個月後，嚴重的早期SNRI戒斷期早已在你身後。情緒、睡眠、性功能和清晰思維都有了數月的時間來恢復：\n• 血清素通路：基本恢復\n• 去甲腎上腺素通路：正常化，壓力反應系統也在安定\n• 睡眠結構：預期已完全恢復\n• 性功能：對大多數人已大體恢復（性功能障礙是SNRI常見的副作用，儘管對有些人可能持續存在，值得與開藥醫生討論）\n\n對壓力的韌性\n許多人在六個月時報告對日常壓力源的韌性明顯改善，因為去甲腎上腺素系統在喚醒和壓力反應中的作用——SNRI強有力地調節著這一點——回落到其自然水平。';
+
+  @override
+  String get snriReferenceDay365 =>
+      '停用SNRI一年：恢復達成\n\n一年：一次完整的雙重系統恢復\n在完成SNRI減量一年後，血清素和去甲腎上腺素系統都有了一個完整的週期來適應和穩定。\n\n證據在一年時實際支持甚麼\n這篇Therapeutics Letter綜述指出，有記載的戒斷症狀“通常在停藥後幾天內出現”，大多數在大約兩周內消退——沒有對照研究專門在SNRI停藥一年後對人們進行隨訪。在這個距離上，更廣泛的臨床圖景所充分支持的是：\n• 完成正確減量並獲得心理支持的人中，大多數保持良好\n• 表徵SNRI使用的情緒麻木和性功能障礙，對大多數人已完全消退\n• 清晰的思維，包括SNRI所能提供的注意力益處，通過自然的大腦功能得以維持\n\n這一里程碑的意義\n成功停用SNRI——尤其是文拉法辛——是一項重要的成就。停藥過程的強度，以及在醫療監督下管理它所需的投入，展示了非凡的韌性。';
+
+  @override
+  String get socialMediaReferenceDay1 =>
+      '從社交媒體退後一步：第一天\n\n來源：Lambert et al.，《Taking a One-Week Break from Social Media Improves Well-Being, Depression, and Anxiety: A Randomized Controlled Trial》，Cyberpsychology, Behavior, and Social Networking（2022），見PubMed\n\n證據顯示了甚麼\n在這項強有力的對照研究中，人們被隨機分配為要麼從Facebook、Instagram、Twitter和TikTok休息一周，要麼照常使用。休息組在幸福感上顯示出顯著改善，抑鬱和焦慮顯著減少。這是真實、受控的證據，表明退後一步有幫助。\n\n證據顯示了甚麼\n強迫性社交媒體使用與更低的情緒和更高的焦慮密切相關，隨機試驗顯示，刻意減少使用可以在一周內改善幸福感，同時減少抑鬱和焦慮。\n\n第一天：可以預期甚麼\n• 坐立不安和查看的衝動\n• “幻影”通知——感覺到並沒有發生的震動\n• 隨著你適應更少的持續刺激而產生的無聊\n這些是與習慣相關的正常感覺，而且是暫時的。認識到這種模式，是改變它的第一步。';
+
+  @override
+  String get socialMediaReferenceDay3 =>
+      '停用社交媒體三天：焦慮和情緒\n\n來源：Lambert et al.，《Taking a One-Week Break from Social Media Improves Well-Being, Depression, and Anxiety: A Randomized Controlled Trial》，Cyberpsychology, Behavior, and Social Networking（2022），見PubMed\n\n為甚麼休息有助於情緒\n在這項對照試驗中，被隨機分配從社交媒體休息一周的人，到週末時焦慮和抑鬱低於繼續刷屏的人，幸福感則更高。大量使用的日常痛苦很多來自社會比較——用你的真實生活去對照別人精心策劃的高光片段——以及錯失恐懼（FOMO）那種低度的牽引。\n\n72小時前後會發生甚麼\n休息初期，習慣仍然很響：\n• 強烈的查看衝動，往往由例行時刻觸發（醒來、排隊等待）\n• 一些易怒和坐立不安\n• 對一些人來說，由比較驅動的焦慮第一次得到緩解\n• 睡前刷屏的習慣開始松動\n\n比較陷阱開始松動\n沒有了源源不斷的他人高光，助長社交媒體焦慮的比較就少了燃料。該試驗的結果表明，到第一周結束時，這些早期轉變累積成可測量的情緒改善——因此三天時的不適，是一次會帶來回報的改變中艱難的部分。';
+
+  @override
+  String get socialMediaReferenceDay7 =>
+      '停用社交媒體一周：可測量的回報\n\n來源：Lambert et al.，《Taking a One-Week Break from Social Media Improves Well-Being, Depression, and Anxiety: A Randomized Controlled Trial》，Cyberpsychology, Behavior, and Social Networking（2022），見PubMed\n\n正好一周——而且奏效了\n這是研究最直接對口的里程碑：該試驗的干預就是一周的休息。與繼續使用社交媒體的人相比，休息組在僅僅七天後就顯示出顯著更高的幸福感和顯著更低的抑鬱和焦慮。達到一周，就是達到了一項對照研究發現真實益處的時間點。\n\n人們通常注意到甚麼\n除了可測量的情緒收穫之外，人們往往報告：\n• 更多被收回的時間——許多人驚訝於自己曾花了多少時間\n• 更容易專注，因為持續切換注意力的習慣松動了\n• 沒有了睡前刷屏，夜晚更平靜、睡眠更輕鬆\n這些收穫與該試驗所測量的更廣泛的幸福感改善相符。\n\n繼續下去\n一周是一個真實的、有證據支持的里程碑。情緒、時間和注意力的益處往往隨著更健康的模式持續而加深。';
+
+  @override
+  String get socialMediaReferenceDay14 =>
+      '停用社交媒體兩周：兩周的收穫\n\n來源：Coyne & Woodruff，《Taking a Break: The Effects of Partaking in a Two-Week Social Media Digital Detox… among Young Adults》，Behavioral Sciences（2023），見PubMed Central\n\n關於這項研究\n年輕成年人將社交媒體限制在每天約30分鐘、持續兩周，使用情況在手機上被客觀追蹤（下降了約78%）。參與者的社交媒體使用減少了約78%，為這個里程碑提供了一個關於急劇減少使用兩周後會發生甚麼的直接真實世界測試。\n\n哪些改善了\n在兩周里，參與者表現出以下方面的改善：\n• 睡眠——時長和質量都有\n• 生活滿意度\n• 壓力\n• 感知到的健康\n• 智能手機和社交媒體成癮量表得分\n可測量的收穫是具體的：更長更好的睡眠、更低的壓力、更高的生活滿意度和感知健康，以及更低的智能手機/社交媒體成癮得分。\n\n留意倒退\n研究人員還注意到，之後使用量又悄悄回升到之前的水平。兩周是一個真實的收穫，但它凸顯了為甚麼一個有意的計劃——而不僅僅是一次暫時的休息——才是保持益處的原因。';
+
+  @override
+  String get socialMediaReferenceDay30 =>
+      '停用社交媒體一個月：真實的聯繫加深\n\n來源：Coyne & Woodruff，《Taking a Break: The Effects of Partaking in a Two-Week Social Media Digital Detox… among Young Adults》，Behavioral Sciences（2023），見PubMed Central\n\n當你退後一步時，聯繫可以改善\n這聽起來矛盾——但在這項研究中，大幅削減社交媒體與支持性人際關係的改善相關，同時生活滿意度更高、壓力更低。原本流向信息流的時間和注意力，變得可以用來給那些真正在你生活中的人。\n\n一個月往往會帶來甚麼\n到30天時，隨著自動查看的牽引力大大減弱，許多人發現：\n• 對話更專注、更少被打斷\n• 對現實世界活動和愛好更感興趣\n• 自我形象更少依賴點贊、評論和粉絲數\n\n恢復信號\n到一個月時，你已經將這個更健康的模式維持了研究干預窗口的兩倍時長。兩周時測量到的睡眠、壓力、生活滿意度、健康和人際關係收穫，又有了兩周時間來鞏固成習慣。\n\n讓時間變得有價值\n目標是把你騰出的時間用在能建立真實聯繫和滿足感的活動上，而不是僅僅把一塊屏幕換成另一塊。';
+
+  @override
+  String get socialMediaReferenceDay60 =>
+      '停用社交媒體兩個月：證據支持甚麼\n\n來源：Ramadhan et al.，《Impacts of digital social media detox for mental health: A systematic review and meta-analysis》，Narra J（2024），見PubMed Central\n\n最可靠的圖景\n研究人員合併了10項研究的結果，包括七項對照試驗。最清晰的結果是，人們在從社交媒體退後一步後，抑鬱症狀出現有意義的減少。\n\n最強的結果\n合併研究發現了抑鬱症狀的明確減少。到兩個月時，你正在維持那種產生了心理健康益處的、同樣較低的數字化暴露。\n\n兩個月可能是甚麼樣子\n隨著每天更少的比較和更少由信息流驅動的強化，自我形象遠沒有理由依賴點贊、評論或粉絲數，而最強的合併證據指向更低的抑鬱症狀。\n\n實際要點\n證據獎勵有意的、持續的改變。利用兩個月這個節點，保持刻意的限制而不是悄悄退回，並投資於線下的意義和聯繫來源。';
+
+  @override
+  String get socialMediaReferenceDay90 =>
+      '停用社交媒體三個月：一個新的常態\n\n來源：Coyne & Woodruff，《Taking a Break: The Effects of Partaking in a Two-Week Social Media Digital Detox… among Young Adults》，Behavioral Sciences（2023），見PubMed Central\n\n睡眠是最突出的\n這項研究最清晰的發現之一，是參與者在大幅削減社交媒體後睡眠得到改善——時長和質量都有。到三個月的持續健康模式時，過去吞噬睡眠的深夜刷屏早已不再與休息競爭，而更好的睡眠往往也會隨之提升情緒、專注力和精力。\n\n還有甚麼改善了\n同一項研究發現了壓力、生活滿意度、感知健康和支持性人際關係方面的收穫。到三個月時，這些已不再是新奇事物——它們已經有了時間來沈澱成一個新的常態。\n\n關於機制的恢復信號\n在這項干預研究中，大幅削減社交媒體同時改善了睡眠時長和睡眠質量。維持這種模式三個月，把深夜刷屏的減少變成了一種持久的睡眠習慣。\n\n專注與關係\n隨著用手機填滿每個安靜時刻的反射大大減弱，專注當下——在對話、用餐和閒暇時光中——變得更加自然，而你在三個月里投入的關係往往也因此感覺更牢固。';
+
+  @override
+  String get socialMediaReferenceDay180 =>
+      '停用社交媒體六個月：可測量的恢復\n\n來源：Ramadhan et al.，《Impacts of digital social media detox for mental health: A systematic review and meta-analysis》，Narra J（2024），見PubMed Central\n\n薈萃分析補充了甚麼\n合併10項研究（包括七項對照試驗），研究人員發現人們在減少或暫停社交媒體後抑鬱症狀出現明確減少。\n\n它實際發現了甚麼\n• 抑鬱：統計學上顯著的減少（最清晰、最一致的益處）\n• 生活滿意度：無顯著效應\n• 壓力：無顯著效應\n• 總體心理健康：無顯著效應\n最強的合併結果是明確的：數字化脫毒顯著減少抑鬱症狀。\n\n為甚麼你仍可能感受到廣泛的益處\n六個月的減少信息流暴露，累積了較短干預中所見的實際收穫：更多可用的時間、更少的強迫性查看，以及與抑鬱症狀相關的數字化暴露的持續減少。\n\n保持對信息流的掌控\n最大的收穫來自打破大量、被動、強迫性的使用。到六個月時，對社交媒體有意的掌控已成為新的默認狀態，而非信息流在掌控你的注意力。';
+
+  @override
+  String get socialMediaReferenceDay365 =>
+      '停用社交媒體一年：一段重新協商的關係\n\n來源：Ramadhan et al.，《Impacts of digital social media detox for mental health: A systematic review and meta-analysis》，Narra J（2024），見PubMed Central\n\n一年的持續改變\n最強的合併研究顯示，從社交媒體退後一步可以減少抑鬱症狀。整整一年意味著那種較低暴露的模式已經成為你的常態，而非一次短暫的休息。\n\n一年會建立甚麼\n整整一年為你騰出了數百個小時，用於真實的關係、愛好、技能、反思和創造力。自動查看有了整整一年來減弱，而那些線下的日常也有了整整一年來加強。\n\n持續的益處\n最清晰的可測量心理健康收穫是更低的抑鬱症狀。實際的收穫——更多時間、更少打斷、更少強迫性查看——在你掌控信息流的每一天都在累積。\n\n接下來是甚麼\n一年的刻意改變已經重置了這段關係。無論你是回歸有限的、有意的使用，還是徹底停用，強迫性的循環已經被打破——而那才是持久的勝利。';
+
+  @override
+  String get ssriReferenceDay3 =>
+      'SSRI停藥：最初幾天\n\n來源：哈佛健康出版社（Harvard Health Publishing）\n\n重要安全提示\nSSRI只能在醫療監督下通過逐步減量來停用。突然停藥——尤其是長期使用之後——會顯著增加停藥症狀的嚴重程度。\n\n甚麼是SSRI停藥綜合徵？\nSSRI停藥綜合徵是一種有充分記載的醫學現象，發生在SSRI被停止或大幅減量時。臨床醫生用首字母縮略詞FINISH來描述常見症狀：\n• 流感樣症狀（疲勞、出汗、肌肉酸痛）\n• 失眠和睡眠紊亂\n• 惡心\n• 失衡和頭暈\n• 感覺障礙——尤其是“腦閃”\n• 過度喚起、易怒和焦慮\n\n半衰期很重要\n氟西汀（Prozac）半衰期很長，為4–6天，因此它實際上會自我減量，產生的停藥效應較輕。帕羅西汀（Paxil）是常見SSRI中半衰期最短的，產生的停藥症狀最強烈。捨曲林、西酞普蘭和艾司西酞普蘭介於兩者之間。';
+
+  @override
+  String get ssriReferenceDay7 =>
+      '停用SSRI一周：急性期\n\n來源：NHS——Stopping or coming off antidepressants\n\n急性停藥階段\nNHS記載，大多數抗抑鬱藥停藥症狀在停止後的五天內開始，並在大多數情況下持續長達六周。到一周時，對於逐步減量的人來說，急性身體症狀通常最為明顯，並開始呈下降趨勢。\n\n一周時可以預期甚麼\n• 身體症狀（惡心、頭暈、流感樣感覺）最為強烈，但應開始緩解\n• 睡眠紊亂，包括生動的夢境或失眠，很常見\n• 情緒不穩定——快速的情緒變化——在這一階段很常見\n• 腦閃可能仍然存在，但通常開始減少頻率\n\n減量的作用\nNHS強烈建議緩慢減量——對長期使用者有時需要數月——以盡量減少停藥效應。英國皇家精神科醫學院制定了減量指南，建議對長期服用SSRI的人採用非常漸進的劑量減少，通常使用液體制劑。';
+
+  @override
+  String get ssriReferenceDay14 =>
+      '停用SSRI兩周：身體症狀消退\n\n來源：Davies & Read（2019），Addictive Behaviors——\'A systematic review into the incidence, severity and duration of antidepressant withdrawal effects\'\n\n研究發現\n這項具有里程碑意義的系統綜述發現，大約56%停用抗抑鬱藥的人會經歷戒斷效應，其中46%描述為嚴重。對於大多數遵循正確減量的人來說，急性期到兩周時已大體消退：\n• 腦閃顯著減少或消失\n• 惡心和流感樣症狀已消退\n• 頭暈和平衡問題正在改善\n• 睡眠開始正常化\n\n區分停藥與復發\n在停藥後數天內出現、且符合FINISH特徵的症狀，最可能是停藥綜合徵。在2–4周後出現、且類似於所治療的原始疾病的症狀，更可能是復發。與你的開藥醫生一起監測這一區分很重要。';
+
+  @override
+  String get ssriReferenceDay30 =>
+      '停用SSRI一個月：穩定\n\n來源：Haddad PM（2001），Drug Safety——\'Antidepressant Discontinuation Syndromes\'\n\n穩定階段\n這篇綜述將停藥發作描述為迅速的，通常在停止或減少抗抑鬱藥的數天內，並指出大多數反應是輕微的、短暫的，無需特定治療即可消退。一個月代表著從那個急性窗口向穩定的過渡；對大多數完成逐步減量的人來說，急性停藥症狀現在已大體消退。\n\n一個月時的情緒圖景\n一個月時的情緒變化是多變的，需要監測：\n• 有些人在大腦調整的初期感到情緒更“扁平”——這通常會改善\n• 其他人則體驗到多年未曾感受到的情緒鮮明感\n• 焦慮水平因個體和基礎疾病而有顯著差異\n\n非藥物支持的價值\n研究一致表明，諸如CBT（認知行為療法）等談話療法和其他循證心理療法，對SSRI所治療的疾病非常有效。一個月節點是確保這些支持到位的好時機。';
+
+  @override
+  String get ssriReferenceDay90 =>
+      '停用SSRI三個月：早已度過戒斷\n\n來源：《Antidepressant Withdrawal Syndrome》，Therapeutics Letter 112（2018），Therapeutics Initiative，見NCBI Bookshelf\n\n三個月處於甚麼位置\n這篇證據綜述指出，抗抑鬱藥戒斷症狀“通常在停止或減少劑量後幾天內出現”，“大多數抗抑鬱藥戒斷症狀在2周內消退”——儘管嚴重病例可能持續數周到數月。到三個月時，急性戒斷階段對絕大多數人來說早已過去。\n\n為甚麼SSRI各不相同\n短半衰期SSRI（如帕羅西汀）比長半衰期SSRI（氟西汀）更可能出現戒斷。該Letter坦率地指出，戒斷反應可能相當嚴重——兩項系統綜述發現它們與苯二氮卓類藥物的反應“非常相似”——並且至少出現在三分之一停用的人身上。\n\n關於“受體恢復”的恢復信號\n你可能會看到自信的說法，稱血清素受體“在2–3個月時完全重新敏感化”。可靠的證據是關於戒斷綜合徵及其時間的，而非精確的受體恢復時鐘。可以確信的是：到三個月時戒斷階段通常已經消退，許多人注意到在SSRI上感到的情緒麻木和性副作用在停藥後有所緩解。\n\n如果症狀持續\n該Letter建議把戒斷與基礎疾病的真正復發區分開來。如果情緒低落或焦慮在三個月時持續存在，值得與你的開藥醫生一起評估，而非想當然地認為它“只是戒斷”。';
+
+  @override
+  String get ssriReferenceDay180 =>
+      '停用SSRI六個月：一個腳踏實地的視角\n\n來源：《Antidepressant Withdrawal Syndrome》，Therapeutics Letter 112（2018），Therapeutics Initiative，見NCBI Bookshelf\n\n到六個月時已被充分確立的\n這篇綜述指出，即便是嚴重的、長期的戒斷症狀，通常也持續數周到數月而非無限期——因此到六個月時，對絕大多數人來說，急性戒斷綜合徵已經明確消退。\n\n對剩下的部分坦誠\n到六個月時，通常的戒斷期早已在你身後，血清素系統也有了數月的時間來安定。性副作用在停藥後通常會改善；如果它們持續存在，與你的開藥醫生討論。\n\n人們通常報告甚麼\n• 與服藥期間相比更寬廣的情緒範圍\n• 對大多數人來說改善的睡眠和精力\n• 持續的漸進改善，儘管個體之間的速度差異很大';
+
+  @override
+  String get ssriReferenceDay365 =>
+      '停用SSRI一年：可測量的恢復\n\n來源：Duffy et al.（2021），Health Technology Assessment——the ANTLER trial\n\n這項試驗實際發現了甚麼\nANTLER在英國初級保健中隨訪了長期使用抗抑鬱藥的人，他們要麼繼續服藥，要麼停藥。在接下來的一年里，停藥的人中有56%復發，而繼續服藥的人中為39%——大約是兩倍的風險——而且停藥組平均報告的生活質量略低。\n\n更完整的圖景\n儘管復發率更高，但相當一部分停藥的人並未復發，並且在不用藥的情況下保持良好。大約三分之一停藥的人最終重新開始服用抗抑鬱藥——這是一個合理的臨床選擇，而非失敗。\n\n關於未來的說明\n對一些人來說，抑鬱和焦慮是慢性疾病。如果基礎疾病重新顯現，重新用藥並不是失敗。目標是健康幸福——無論接下來發生甚麼，成功停藥一年都是一項真正的成就。';
+
+  @override
+  String get steroidsReferenceDay1 =>
+      '停用合成代謝類固醇：最初幾天\n\n來源：《Common symptoms associated with usage and cessation of anabolic androgenic steroids in men》，Best Practice & Research Clinical Endocrinology & Metabolism（2022）\n\n急性期\n這篇綜述將合成代謝雄激素類固醇（AAS）的戒斷描述為分兩個階段展開。第一階段由交感神經系統激活驅動，而非激素水平，在停止後的1–2天內出現，可能包括：\n• 頭痛\n• 震顫\n• 心悸\n• 惡心\n\n為甚麼會出現症狀\n合成代謝類固醇還會抑制身體自身的睪酮產生——大腦檢測到類固醇，並關閉了通常驅動它的激素信號。這種抑制在停止後持續存在，為後續里程碑中描述的第二個、更持久的戒斷階段埋下伏筆。\n\n安全提示\n抑鬱可能在類固醇戒斷期間出現，並變得嚴重。請尋求醫療護理，並對任何自傷念頭尋求緊急幫助。臨床醫生常常引導恢復；有些人使用藥物來支持這一過程。';
+
+  @override
+  String get steroidsReferenceDay14 =>
+      '停用合成代謝類固醇兩周\n\n來源：《Common symptoms associated with usage and cessation of anabolic androgenic steroids in men》，Best Practice & Research Clinical Endocrinology & Metabolism（2022）\n\n慢性階段到來\n到兩周時，最初幾天的短暫交感神經症狀通常已經過去，而綜述中的第二階段——由持續的睪酮缺乏驅動——更為突出：\n• 疲勞和情緒低落\n• 肌肉酸痛（肌痛）\n• 性慾減退\n• 失眠和渴求\n\n仍處於低谷\n自然睪酮產生所需的時間遠不止兩周，因此這一階段是預期中的，而非出問題的跡象。\n\n一個已知的陷阱\n一些男性重新開始使用，正是為了逃避這段空窗期——這是一個讓恢復時鐘重置而非結束的循環。來自醫生或咨詢師的支持有助於渡過這一階段，而不是用更多的類固醇來“自我用藥”。';
+
+  @override
+  String get steroidsReferenceDay30 =>
+      '停用合成代謝類固醇一個月\n\n來源：《Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review》，見PubMed\n\n恢復開始\n停止後，告訴睪丸製造睪酮的激素信號開始重新開啓。研究將大部分恢復放在三到六個月的範圍內，因此到一個月時，這一過程已經在進行。\n\n可以預期甚麼\n在激素回升期間，情緒低落、性慾和精力低下通常持續存在。恢復取決於年齡以及使用有多重、多長。';
+
+  @override
+  String get steroidsReferenceDay90 =>
+      '停用合成代謝類固醇三個月\n\n來源：《Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review》，見PubMed\n\n一個做血液檢測的好時機\n到三個月時，激素系統已經有時間顯示出有意義的恢復。這是一個有用的時點，請你的全科醫生檢查睪酮和控制它的激素。\n\n可以預期甚麼\n對許多男性來說，三個月時水平正在攀升但尚未完全正常化。情緒和性慾往往在睪酮完全跟上之前就得到改善。睪丸大小和精子產生恢復得更慢，並可能在接下來的一年里持續改善。乳房組織增生（男性乳房發育），如果發生了，沒有特定治療不太可能逆轉。';
+
+  @override
+  String get steroidsReferenceDay180 =>
+      '停用合成代謝類固醇六個月\n\n來源：《Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review》，見PubMed\n\n證據指向哪裡\n該綜述報告，LH和FSH——告訴睪丸製造睪酮的激素——通常在大約三到六個月內恢復。到六個月時，睪酮本身也已經在恢復的道路上走了很遠。\n\n如果你還沒到那一步\n如果低睪酮症狀在六個月時仍然存在，內分泌科醫生可以檢查發生了甚麼並討論治療，而不是讓你乾等。';
+
+  @override
+  String get steroidsReferenceDay365 =>
+      '停用合成代謝類固醇一年\n\n來源：《Anabolic androgenic steroid-induced hypogonadism, a reversible condition in male individuals? A systematic review》，見PubMed\n\n一年無類固醇\n一年停用給了激素系統一個漫長的恢復窗口。睪酮、情緒、性慾、自然力量和心臟健康都有了充足的時間來恢復。\n\n長期圖景\n如果低睪酮症狀在一年時仍然存在，專科激素評估是正確的下一步。保持停用類固醇，能保護已經取得的恢復。';
+
+  @override
+  String get steroidsReferenceDay730 =>
+      '停用合成代謝類固醇兩年\n\n來源：《Anabolic androgenic steroid-induced hypogonadism, a reversible condition in male individuals? A systematic review》，見PubMed\n\n一個新的常態\n到兩年時，你的激素水平反映了你身體的自然產生。對大多數恢復的男性來說，情緒、性慾、力量和動力在沒有類固醇的情況下是穩定的。\n\n長期激素恢復\n研究顯示睪酮會在數月內恢復，而向睪丸發出信號的激素通常在三到六個月內恢復。睪丸大小、精子產生和性慾可以在數月至數年內持續改善。到兩年時，持續存在的低睪酮症狀應交給專科醫生，而不是再來一個類固醇週期。';
+
+  @override
+  String get tcaReferenceDay3 =>
+      'TCA停藥：最初幾天——乙酰膽鹼反彈\n\n來源：Dilsaver, Feinberg & Greden（1983），American Journal of Psychiatry——\'Antidepressant withdrawal symptoms treated with anticholinergic agents\'（病例報告，3名患者）\n\n是甚麼讓TCA停藥與眾不同\n三環類抗抑鬱藥（TCA）在機制上與SSRI和SNRI根本不同。除了阻斷血清素和去甲腎上腺素的再攝取之外，TCA還強烈阻斷身體的乙酰膽鹼系統。當你停止時，這個系統會反彈。\n\n乙酰膽鹼反彈症狀\n與SSRI停藥不同，TCA戒斷會產生乙酰膽鹼反彈：\n• 惡心、嘔吐和腹瀉\n• 唾液和出汗過多\n• 頭痛和肌肉酸痛\n• 伴有生動或令人不安夢境的失眠\n• 焦慮和坐立不安\n\n常見TCA及其特徵\n阿米替林和丙咪嗪的乙酰膽鹼阻斷效應最強，通常產生最明顯的反彈。去甲替林的效應稍微溫和一些。氯米帕明除了其乙酰膽鹼阻斷特徵之外，還有顯著的血清素相關效應。';
+
+  @override
+  String get tcaReferenceDay7 =>
+      '停用TCA一周：乙酰膽鹼症狀緩解\n\n乙酰膽鹼的恢復\n乙酰膽鹼反彈通常在最初幾天達到高峰，到一周時開始大幅緩解。隨著乙酰膽鹼系統回到其自然水平：\n\n哪些在改善\n• 胃腸症狀（惡心、痙攣、腹瀉）正在減少\n• 出汗和流感樣症狀正在緩解\n• 睡眠雖然仍然紊亂，但開始穩定\n• 過多的唾液分泌正在消退\n\n自主神經系統\nTCA通過多種機制影響身體的自主功能——心率、血壓、消化。到一周時，最強烈的自主神經症狀——包括站立時頭暈和心率的快速變化——隨著神經系統的重新調整而開始消退。';
+
+  @override
+  String get tcaReferenceDay14 =>
+      '停用TCA兩周：抗乙酰膽鹼效應正在逆轉\n\n抗乙酰膽鹼負擔解除\nTCA對身體施加顯著的乙酰膽鹼阻斷效應，影響多個系統。隨著這種負擔在最初兩周內解除：\n\n身體上的益處\n• 口乾消退——唾液腺功能恢復正常\n• 便秘消退——腸道蠕動自然恢復\n• 排尿功能正常化——TCA可能引起的尿瀦留正在消退\n• 視力模糊清晰——眼睛再次正常地適應光線\n\n思維和記憶的益處\n乙酰膽鹼對記憶、注意力和學習至關重要。被TCA抑制的乙酰膽鹼通路正在恢復：\n• 工作記憶改善\n• 處理速度提高\n• 思維清晰度回歸\n\n許多人對自己在服用TCA期間適應了多少腦霧和記憶問題感到驚訝。';
+
+  @override
+  String get tcaReferenceDay30 =>
+      '停用TCA一個月：自主神經系統穩定\n\n心臟恢復\nTCA在使用期間通過作用於乙酰膽鹼和腎上腺素相關的神經系統來影響心律。關於TCA停藥的臨床文獻確認，急性戒斷症狀——包括由這種“乙酰膽鹼和腎上腺素相關的過度驅動”所驅動的自主神經效應——通常是輕微的，並在停止後一到兩周內消退。到一個月時，大多數人已經遠過這個急性窗口，可以預期：\n• 心律回落到其用藥前的起始水平\n• 心率變異性趨向自然水平\n• 此前受藥物對腎上腺素通路作用影響的血壓調節，持續穩定\n\n睡眠結構恢復\nTCA強烈抑制做夢睡眠。隨著抗乙酰膽鹼效應消退（做夢睡眠需要乙酰膽鹼）：\n• REM睡眠正在回歸，往往在夢睡眠回歸時產生一陣生動的夢境\n• 慢波（深度）睡眠正在改善\n• 總體睡眠質量和恢復明顯好於使用TCA期間';
+
+  @override
+  String get tcaReferenceDay90 =>
+      '停用TCA三個月：把真正的風險拋在身後\n\n證據顯示了甚麼\n一項2024年對103項隨機試驗（10,590名參與者）的薈萃分析發現，與安慰劑相比，TCA確實能減少抑鬱症狀——但嚴重不良事件的幾率也接近三倍（比值比2.78）。這些試驗本身只對人們進行了最多12周的治療期隨訪，因此沒有關於停止後會發生甚麼的對照長期數據。下面的一切反映的是對TCA藥理學的一般臨床理解，而非這項試驗證據的具體發現。\n\n多系統恢復\nTCA影響的腦化學系統範圍比SSRI或SNRI更廣：\n• 血清素系統：調整中\n• 去甲腎上腺素系統：調整中\n• 乙酰膽鹼系統：回落到正常\n• 組胺系統：抗組胺樣的鎮靜作用已經消退\n\n到三個月時，所有這些系統都有了充足的時間來恢復，而且——同樣重要的是——伴隨活躍TCA治療的升高的嚴重不良事件風險已經在你身後。許多人注意到：\n• 清晰的思維改善——尤其是記憶和注意力\n• 更好的情緒穩定性\n• 精力和動力改善\n• 鎮靜減少、警覺性改善';
+
+  @override
+  String get tcaReferenceDay180 =>
+      '停用TCA六個月：心臟和思維恢復\n\n關於長期數據的恢復信號\nTCA停藥後的早期戒斷期通常是輕微的，並在一到兩周內消退。到一次受監督減量後六個月時，TCA對心率、記憶和思維的影響已經有了數月的時間來恢復。\n\n心血管恢復\n到六個月時，TCA對心律的直接作用應該早已消退：\n• 無需藥物驅動的影響即可維持正常心律\n• 心率變異性（衡量你的心臟適應能力好壞的指標）預期已大幅改善\n• 站立時頭暈完全消退\n\n思維和記憶恢復\nTCA通過阻斷乙酰膽鹼可能引起腦霧和記憶問題，尤其是在老年人中。這些效應在停藥後會改善。到六個月時：\n• 記憶鞏固大幅改善\n• 處理速度正常化\n• 計劃、工作記憶以及在任務或想法之間切換的能力都有意義的恢復';
+
+  @override
+  String get tcaReferenceDay365 =>
+      '停用TCA一年：恢復達成\n\n一年：完整的多系統恢復\n這篇關於抗抑鬱藥停藥綜合徵的綜述——涵蓋TCA、MAOI、SSRI等——發現戒斷症狀通常在停止後的數天內開始，若不治療，會在數天到幾周內自行消退。沒有研究專門在一年後重新測量受TCA影響的系統，但在完成減量一年後，已經比哪怕是最長的已報告停藥症狀都要晚好幾個月，因此所有受影響的腦化學系統——血清素、去甲腎上腺素、乙酰膽鹼和組胺——都可以預期已經有了一個完整的週期來正常化。\n\nTCA恢復的意義\nTCA施加的藥物驅動負擔比新型抗抑鬱藥更廣，同時影響更多的受體系統。成功停藥代表著多個系統的恢復：\n• TCA乙酰膽鹼阻斷造成的記憶和思維損害被完全逆轉\n• 心臟完全恢復\n• 所有受影響的通路上都恢復了自然的腦化學調節\n\n在TCA停藥後成功自我調節一年，是一項真正的成就——無論是在停藥過程的管理上，還是在無需藥物驅動支持的情況下維持健康幸福上。';
 }

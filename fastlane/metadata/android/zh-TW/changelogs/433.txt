@@ -1,0 +1,4 @@
+• 刪除無用的 AI 注釋
+• 提升性能
+• 重構戒除頁面模板
+• SettingsProvider 改用 setter

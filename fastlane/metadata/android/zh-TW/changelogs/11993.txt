@@ -1,0 +1,3 @@
+• 將主題對話框改為 SegmentedButton + AMOLED 開關
+• 移除雙重內邊距，防止 SegmentedButton 標籤換行
+• 防止窄屏上卡片標題換行

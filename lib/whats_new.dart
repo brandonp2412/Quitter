@@ -5,6 +5,7 @@ import 'package:flutter/services.dart';
 import 'package:intl/intl.dart';
 import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:quitter/logging.dart';
+import 'package:quitter/locale_utils.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 
 class WhatsNew extends StatefulWidget {
@@ -29,10 +30,10 @@ class _WhatsNewState extends State<WhatsNew> {
   @override
   void didChangeDependencies() {
     super.didChangeDependencies();
-    final languageCode = Localizations.localeOf(context).languageCode;
-    if (_loadedLanguageCode == languageCode) return;
-    _loadedLanguageCode = languageCode;
-    setChangelogs(languageCode);
+    final localeKey = localePreferenceValue(Localizations.localeOf(context));
+    if (_loadedLanguageCode == localeKey) return;
+    _loadedLanguageCode = localeKey;
+    setChangelogs(localeKey);
   }
 
   void setChangelogs(String languageCode) async {

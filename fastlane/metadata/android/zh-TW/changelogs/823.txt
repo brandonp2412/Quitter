@@ -1,0 +1,3 @@
+• 修復 journal_page.dart 的深色模式顯示
+• 重新格式化 lib
+• 從 deploy.sh 移除 yq 安裝

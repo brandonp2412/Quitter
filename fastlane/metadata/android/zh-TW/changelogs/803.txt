@@ -1,0 +1,9 @@
+• 添加 PIN 鎖設置
+• 添加 PIN 頁面單元測試
+• 修復從設置頁面導入數據
+• 修復通知頻率文案的複數形式
+• 修復設置頁面單元測試
+• 修復單元測試
+• 撤銷“從 GitHub Action 移除 Windows Store 發佈”
+• 撤銷“所有敏感信息使用 secure storage”
+• 使用 secure storage 保存敏感信息

@@ -346,6 +346,10 @@
   "settingsLocaleEnglish": "Anglais",
   "settingsLocaleGerman": "Allemand",
   "settingsLocaleSimplifiedChinese": "Chinois simplifié",
+  "settingsLocaleTraditionalChinese": "Chinois traditionnel",
+  "@settingsLocaleTraditionalChinese": {
+    "description": "Show app in Traditional Chinese"
+  },
   "settingsLocaleRussian": "Russe",
   "settingsLocaleSpanish": "Espagnol",
   "settingsLocaleFrench": "Français",

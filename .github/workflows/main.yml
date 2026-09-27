@@ -100,7 +100,7 @@ jobs:
       fail-fast: false
       matrix:
         device_type: [phoneScreenshots, sevenInchScreenshots, tenInchScreenshots]
-        locale: [en, de, es, fr, ja, ru, zh]
+        locale: [en, de, es, fr, ja, ru, zh, zh-Hant]
         include:
           - device_type: phoneScreenshots
             profile: pixel_6
@@ -162,6 +162,7 @@ jobs:
             ja) STORE_LOCALE=ja-JP ;;
             ru) STORE_LOCALE=ru-RU ;;
             zh) STORE_LOCALE=zh-CN ;;
+            zh-Hant) STORE_LOCALE=zh-TW ;;
             *) exit 1 ;;
           esac
           mkdir -p "screenshot-artifact/$STORE_LOCALE/images"

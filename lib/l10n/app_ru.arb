@@ -605,6 +605,10 @@
     "description": "Show app in German"
   },
   "settingsLocaleSimplifiedChinese": "Упрощённый китайский",
+  "settingsLocaleTraditionalChinese": "Традиционный китайский",
+  "@settingsLocaleTraditionalChinese": {
+    "description": "Show app in Traditional Chinese"
+  },
   "@settingsLocaleSimplifiedChinese": {
     "description": "Show app in Simplified Chinese"
   },

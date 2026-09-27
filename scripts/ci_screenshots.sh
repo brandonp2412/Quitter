@@ -23,6 +23,7 @@ case "$locale" in
   ja) store_locale="ja-JP" ;;
   ru) store_locale="ru-RU" ;;
   zh) store_locale="zh-CN" ;;
+  zh-Hant) store_locale="zh-TW" ;;
   *)
     echo "Unsupported QUITTER_LOCALE: $locale" >&2
     exit 1

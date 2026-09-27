@@ -1,0 +1,4 @@
+• 添加 Azure 包最終處理代碼
+• 改進 Microsoft Store 發佈最終處理
+• 移動 Snackbar
+• 使用 -n 跳過集成測試

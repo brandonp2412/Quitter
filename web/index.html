@@ -46,6 +46,7 @@
         ja: 'やめたい習慣の進捗、節目、日記、回復リマインダーをプライベートかつオフラインで記録できます。',
         ru: 'Отслеживайте прогресс отказа от привычек, этапы, дневник и напоминания о восстановлении конфиденциально и без подключения к интернету.',
         zh: '私密、离线地记录戒除习惯的进度、里程碑、日记和康复提醒。',
+        'zh-Hant': '私密、離線地記錄戒除習慣的進度、里程碑、日記和康復提醒。',
       };
 
       document.documentElement.lang = language;
@@ -54,7 +55,7 @@
 
       const manifest = document.createElement('link');
       manifest.rel = 'manifest';
-      manifest.href = language === 'en' ? 'manifest.json' : 'manifest_' + language + '.json';
+      manifest.href = language === 'en' ? 'manifest.json' : 'manifest_' + language.replace('-', '_') + '.json';
       document.head.appendChild(manifest);
     })();
   </script>

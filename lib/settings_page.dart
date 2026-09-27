@@ -4,6 +4,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:quitter/l10n/generated/app_localizations.dart';
+import 'package:quitter/locale_utils.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:provider/provider.dart'
@@ -901,6 +902,7 @@ class _SettingsPageState extends State<SettingsPage> {
       'ru' => l10n.settingsLocaleRussian,
       'es' => l10n.settingsLocaleSpanish,
       'zh' => l10n.settingsLocaleSimplifiedChinese,
+      'zh-Hant' => l10n.settingsLocaleTraditionalChinese,
       _ => l10n.settingsLocaleUnsupported,
     };
   }
@@ -914,7 +916,7 @@ class _SettingsPageState extends State<SettingsPage> {
       options: [
         'system',
         for (final locale in AppLocalizations.supportedLocales)
-          locale.languageCode,
+          localePreferenceValue(locale),
       ],
       getDisplayName: (value) => _localeDisplayName(l10n, value),
       onChanged: settings.setLocale,

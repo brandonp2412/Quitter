@@ -1,0 +1,10 @@
+• 添加 CLAUDE.md
+• 添加遷移腳本
+• 修復尼古丁袋界面溢出問題
+• 調整測試以匹配更新後的主頁和設置頁界面
+• 格式化測試
+• 改進新用戶引導
+• 設置篩選時包含標題
+• 運行 dart format
+• 撤銷“移除 Flutter 子模塊並使用全局 SDK”
+• 撤銷“將 Flutter 子模塊配置替換為 subosito/flutter-action”

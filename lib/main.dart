@@ -13,6 +13,7 @@ import 'package:quitter/home_page.dart';
 import 'package:quitter/journal_page.dart';
 import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:quitter/logging.dart';
+import 'package:quitter/locale_utils.dart';
 import 'package:quitter/pin_page.dart';
 import 'package:quitter/settings_provider.dart';
 import 'package:quitter/stats_page.dart';
@@ -189,7 +190,7 @@ class _QuitterAppState extends State<QuitterApp>
               scaffoldMessengerKey: rootScaffoldMessenger,
               locale: settings.locale == 'system'
                   ? null
-                  : Locale(settings.locale),
+                  : localeFromPreference(settings.locale),
               localizationsDelegates: const [
                 AppLocalizations.delegate,
                 GlobalMaterialLocalizations.delegate,

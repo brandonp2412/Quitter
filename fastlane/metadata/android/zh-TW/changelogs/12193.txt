@@ -1,0 +1,4 @@
+• 在 GitHub Action PATH 中加入 patrol
+• 刪除誤提交的 TODO.txt
+• 更新 Flutter 到 3.38.3
+• 修復 Android 小組件 Patrol 測試
