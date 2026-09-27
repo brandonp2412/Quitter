@@ -1,6 +1,5 @@
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
-
 import 'app_localizations.dart';
 
 // ignore_for_file: type=lint
@@ -3631,4 +3630,7 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get tcaReferenceDay365 =>
       'One Year After TCAs: Recovery Achieved\n\nOne Year: Complete Multi-System Recovery\nThis review of antidepressant discontinuation syndromes — covering TCAs, MAOIs, SSRIs, and others — found that withdrawal symptoms typically begin within days of stopping and, left untreated, resolve on their own within days to a couple of weeks. There\'s no study that specifically re-measures TCA-affected systems a year out, but a year after completing a taper is many months beyond even the longest reported discontinuation symptoms, so all affected brain chemical systems — serotonin, noradrenaline, acetylcholine, and histamine — can be expected to have had a complete cycle to normalise.\n\nThe Significance of TCA Recovery\nTCAs impose a broader drug-driven burden than newer antidepressants, affecting more receptor systems simultaneously. Successful discontinuation represents the recovery of multiple systems:\n• Complete reversal of the memory and thinking impairment caused by TCAs\' acetylcholine blocking\n• Full heart recovery\n• Natural brain chemical regulation restored across all affected pathways\n\nOne year of successful self-regulation after TCA discontinuation represents a genuine achievement — both in the management of the discontinuation process and in the maintenance of wellbeing without drug-driven support.';
+
+  @override
+  String get settingsLocaleArabic => 'Arabic';
 }

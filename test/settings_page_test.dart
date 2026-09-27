@@ -111,6 +111,10 @@ void main() {
           findsOneWidget,
         );
         expect(
+          find.descendant(of: dialog, matching: find.text('Arabic')),
+          findsOneWidget,
+        );
+        expect(
           find.descendant(of: dialog, matching: find.text('German')),
           findsOneWidget,
         );
@@ -145,6 +149,7 @@ void main() {
           findsOneWidget,
         );
         expect(AppLocalizations.supportedLocales.map(localePreferenceValue), [
+          'ar',
           'de',
           'en',
           'es',
@@ -155,12 +160,12 @@ void main() {
           'zh-Hant',
         ]);
 
-        await tester.tap(find.text('Russian'));
+        await tester.tap(find.text('Arabic'));
         await tester.pumpAndSettle();
 
-        expect(settingsProvider.locale, 'ru');
-        expect(find.text('Язык'), findsOneWidget);
-        expect(find.text('Русский'), findsOneWidget);
+        expect(settingsProvider.locale, 'ar');
+        expect(find.text('لغة'), findsOneWidget);
+        expect(find.text('العربية'), findsOneWidget);
       },
     );
 

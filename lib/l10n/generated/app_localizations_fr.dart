@@ -1,6 +1,5 @@
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
-
 import 'app_localizations.dart';
 
 // ignore_for_file: type=lint
@@ -3744,4 +3743,7 @@ class AppLocalizationsFr extends AppLocalizations {
   @override
   String get tcaReferenceDay365 =>
       'Un an après les tricycliques : le rétablissement est accompli\n\nUn an : récupération complète de plusieurs systèmes\nCette revue des syndromes de sevrage des antidépresseurs — couvrant les tricycliques, les IMAO, les ISRS et d\'autres classes — a constaté que les symptômes commencent généralement dans les jours suivant l\'arrêt et que, sans traitement, ils disparaissent spontanément en quelques jours à environ deux semaines. Aucune étude n\'a spécifiquement réévalué, un an plus tard, les systèmes affectés par les tricycliques. Cependant, un an après la fin d\'une diminution progressive représente de nombreux mois au-delà même des symptômes de sevrage les plus longs rapportés : tous les systèmes neurochimiques concernés — sérotonine, noradrénaline, acétylcholine et histamine — ont donc eu largement le temps de suivre un cycle complet de normalisation.\n\nL\'importance du rétablissement après les tricycliques\nLes tricycliques imposent une charge pharmacologique plus large que les antidépresseurs récents, car ils agissent simultanément sur davantage de systèmes de récepteurs. Un arrêt réussi correspond au rétablissement de plusieurs systèmes :\n• inversion complète des troubles de la mémoire et de la pensée provoqués par le blocage de l\'acétylcholine par les tricycliques\n• récupération complète du cœur\n• retour d\'une régulation neurochimique naturelle dans l\'ensemble des voies concernées\n\nUne année entière d\'autorégulation réussie après l\'arrêt d\'un tricyclique représente un véritable accomplissement, tant pour la gestion du processus de sevrage que pour le maintien du bien-être sans soutien pharmacologique continu.';
+
+  @override
+  String get settingsLocaleArabic => 'Arabe';
 }

@@ -1,6 +1,5 @@
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
-
 import 'app_localizations.dart';
 
 // ignore_for_file: type=lint
@@ -3497,6 +3496,9 @@ class AppLocalizationsZh extends AppLocalizations {
   @override
   String get tcaReferenceDay365 =>
       '停用TCA一年：恢复达成\n\n一年：完整的多系统恢复\n这篇关于抗抑郁药停药综合征的综述——涵盖TCA、MAOI、SSRI等——发现戒断症状通常在停止后的数天内开始，若不治疗，会在数天到几周内自行消退。没有研究专门在一年后重新测量受TCA影响的系统，但在完成减量一年后，已经比哪怕是最长的已报告停药症状都要晚好几个月，因此所有受影响的脑化学系统——血清素、去甲肾上腺素、乙酰胆碱和组胺——都可以预期已经有了一个完整的周期来正常化。\n\nTCA恢复的意义\nTCA施加的药物驱动负担比新型抗抑郁药更广，同时影响更多的受体系统。成功停药代表着多个系统的恢复：\n• TCA乙酰胆碱阻断造成的记忆和思维损害被完全逆转\n• 心脏完全恢复\n• 所有受影响的通路上都恢复了自然的脑化学调节\n\n在TCA停药后成功自我调节一年，是一项真正的成就——无论是在停药过程的管理上，还是在无需药物驱动支持的情况下维持健康幸福上。';
+
+  @override
+  String get settingsLocaleArabic => '阿拉伯语';
 }
 
 /// The translations for Chinese, using the Han script (`zh_Hant`).
@@ -6991,4 +6993,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   @override
   String get tcaReferenceDay365 =>
       '停用TCA一年：恢復達成\n\n一年：完整的多系統恢復\n這篇關於抗抑鬱藥停藥綜合徵的綜述——涵蓋TCA、MAOI、SSRI等——發現戒斷症狀通常在停止後的數天內開始，若不治療，會在數天到幾周內自行消退。沒有研究專門在一年後重新測量受TCA影響的系統，但在完成減量一年後，已經比哪怕是最長的已報告停藥症狀都要晚好幾個月，因此所有受影響的腦化學系統——血清素、去甲腎上腺素、乙酰膽鹼和組胺——都可以預期已經有了一個完整的週期來正常化。\n\nTCA恢復的意義\nTCA施加的藥物驅動負擔比新型抗抑鬱藥更廣，同時影響更多的受體系統。成功停藥代表著多個系統的恢復：\n• TCA乙酰膽鹼阻斷造成的記憶和思維損害被完全逆轉\n• 心臟完全恢復\n• 所有受影響的通路上都恢復了自然的腦化學調節\n\n在TCA停藥後成功自我調節一年，是一項真正的成就——無論是在停藥過程的管理上，還是在無需藥物驅動支持的情況下維持健康幸福上。';
+
+  @override
+  String get settingsLocaleArabic => '阿拉伯語';
 }

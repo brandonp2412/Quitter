@@ -6,6 +6,7 @@
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleLocalizations</key>
 	<array>
+		<string>ar</string>
 		<string>en</string>
 		<string>de</string>
 		<string>es</string>

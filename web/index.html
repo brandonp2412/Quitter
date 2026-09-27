@@ -35,10 +35,11 @@
       const requestedLanguage = (navigator.languages?.[0] ?? navigator.language ?? 'en')
         .toLowerCase()
         .split('-')[0];
-      const language = ['de', 'es', 'fr', 'ja', 'ru', 'zh'].includes(requestedLanguage)
+      const language = ['ar', 'de', 'es', 'fr', 'ja', 'ru', 'zh'].includes(requestedLanguage)
         ? requestedLanguage
         : 'en';
       const descriptions = {
+        ar: 'تتبع التقدم المحرز في الإقلاع عن التدخين والمعالم والمجلات وتذكيرات الاسترداد بشكل خاص وغير متصل.',
         en: 'Track quitting progress, milestones, journals, and recovery reminders privately and offline.',
         de: 'Verfolge Fortschritt, Meilensteine, Tagebuch und Erinnerungen beim Aufhören privat und offline.',
         es: 'Sigue tu progreso al dejar hábitos, tus hitos, tu diario y tus recordatorios de recuperación de forma privada y sin conexión.',
@@ -50,6 +51,7 @@
       };
 
       document.documentElement.lang = language;
+      document.documentElement.dir = language === 'ar' ? 'rtl' : 'ltr';
       document.querySelector('meta[name="description"]').content =
         descriptions[language];
 

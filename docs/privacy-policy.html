@@ -15,6 +15,7 @@
   <body>
     <main>
       <nav id="language-nav" aria-label="Language">
+        <a href="?lang=ar" lang="ar" dir="rtl">العربية</a>
         <a href="?lang=en" lang="en">English</a>
         <a href="?lang=de" lang="de">Deutsch</a>
         <a href="?lang=es" lang="es">Español</a>
@@ -41,6 +42,17 @@
     <script>
       (() => {
         const translations = {
+          ar: {
+            title: 'سياسة الخصوصية في Quitter',
+            languageLabel: 'اللغة',
+            updated: 'آخر تحديث: 6 سبتمبر 2026',
+            healthHeading: 'البيانات الصحية',
+            healthBody: 'لا يصل Quitter إلى أي بيانات صحية أو بيانات لياقة، ولا يجمعها أو ينقلها أو يشاركها. تُخزَّن جميع بيانات العادات التي تدخلها حصريًا على جهازك.',
+            retentionHeading: 'الاحتفاظ بالبيانات',
+            retentionBody: 'تُخزَّن جميع البيانات محليًا على جهازك وتبقى هناك حتى تختار حذفها من داخل التطبيق أو إزالة التطبيق.',
+            deletionHeading: 'حذف البيانات',
+            deletionBody: 'يمكنك حذف الإدخالات الفردية داخل التطبيق في أي وقت. تؤدي إزالة التطبيق إلى حذف جميع البيانات المرتبطة به من جهازك. لا تُخزَّن أي بيانات على خوادم خارجية، لذلك لا يلزم تقديم طلب حذف إلى جهة خارجية.',
+          },
           de: {
             title: 'Quitter-Datenschutzerklärung',
             languageLabel: 'Sprache',
@@ -138,6 +150,7 @@
 
         const copy = translations[language];
         document.documentElement.lang = language;
+        document.documentElement.dir = language === 'ar' ? 'rtl' : 'ltr';
         document.title = copy.title;
         document.getElementById('language-nav').setAttribute('aria-label', copy.languageLabel);
         document.getElementById('title').textContent = copy.title;

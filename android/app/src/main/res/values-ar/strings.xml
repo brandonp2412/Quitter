@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_description">إنهاء المقتفي</string>
+    <string name="widget_selection_title">اختر ما تريد تتبعه</string>
+    <string name="widget_selection_subtitle">احسب الأيام التي انقضت منذ الإقلاع عن التدخين على الشاشة الرئيسية</string>
+    <string name="addiction_alcohol">الكحول</string>
+    <string name="addiction_vaping">التدخين الإلكتروني</string>
+    <string name="addiction_smoking">التدخين</string>
+    <string name="addiction_smokeless_tobacco">تراجع / مضغ التبغ</string>
+    <string name="addiction_marijuana">الماريجوانا</string>
+    <string name="addiction_nicotine_pouches">الحقائب النيكوتين</string>
+    <string name="addiction_opioids">المواد الأفيونية</string>
+    <string name="addiction_heroin">الهيروين</string>
+    <string name="addiction_fentanyl">الفنتانيل</string>
+    <string name="addiction_social_media">وسائل التواصل الاجتماعي</string>
+    <string name="addiction_pornography">محتوى للبالغين</string>
+    <string name="addiction_cocaine">الكوكايين</string>
+    <string name="addiction_meth">الميثامفيتامين</string>
+    <string name="addiction_benzos">البنزوديازيبينات</string>
+    <string name="addiction_adderall">أديرال</string>
+    <string name="addiction_ssri">سري</string>
+    <string name="addiction_snri">سنري</string>
+    <string name="addiction_tca">تسا</string>
+    <string name="addiction_maoi">ماوي</string>
+    <string name="addiction_nitrous_oxide">أكسيد النيتروز</string>
+    <string name="addiction_kratom">قرطوم</string>
+    <string name="addiction_gabapentinoids">جابابنتين / بريجابالين</string>
+    <string name="addiction_ghb">جي إتش بي</string>
+    <string name="addiction_ketamine">الكيتامين</string>
+    <string name="addiction_inhalants">المستنشقات</string>
+    <string name="addiction_synthetic_cannabinoids">شبائه القنب الاصطناعية</string>
+    <string name="addiction_mdma">إم دي إم إيه</string>
+    <string name="addiction_steroids">المنشطات الابتنائية</string>
+    <string name="widget_not_set">لم يتم تعيين</string>
+    <string name="widget_unknown">غير معروف</string>
+    <string name="widget_error">خطأ</string>
+    <string name="widget_setup_text">اضغط على\nالإعداد</string>
+    <string name="widget_addiction_placeholder">الإدمان</string>
+    <string name="widget_zero_days">0 يوم</string>
+    <plurals name="widget_days">
+        <item quantity="zero">%d يوم</item>
+        <item quantity="one">%d يوم</item>
+        <item quantity="two">%d يومان</item>
+        <item quantity="few">%d أيام</item>
+        <item quantity="many">%d يومًا</item>
+        <item quantity="other">%d يوم</item>
+    </plurals>
+</resources>

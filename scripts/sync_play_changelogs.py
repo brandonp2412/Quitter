@@ -12,6 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 ASSET_CHANGELOGS = ROOT / "assets" / "changelogs"
 PLAY_METADATA = ROOT / "fastlane" / "metadata" / "android"
 STORE_LOCALES = {
+    "ar": "ar-SA",
     "de": "de-DE",
     "es": "es-ES",
     "fr": "fr-FR",

@@ -1,6 +1,5 @@
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
-
 import 'app_localizations.dart';
 
 // ignore_for_file: type=lint
@@ -3689,4 +3688,7 @@ class AppLocalizationsDe extends AppLocalizations {
   @override
   String get tcaReferenceDay365 =>
       'Ein Jahr nach TCAs: Erholung erreicht\n\nEin Jahr: Komplette Multi-System-Wiederherstellung\nDiese Überprüfung der Antidepressiva-Abbruchssyndromen - TCAs, MAOIs, SSRIs und andere - ergab, dass Entzugserscheinungen typischerweise innerhalb von Tagen nach dem Absetzen beginnen und sich, unbehandelt, innerhalb von Tagen bis zu ein paar Wochen von selbst lösen. Es gibt keine Studie, die TCA-betroffene Systeme ein Jahr lang spezifisch neu misst, aber ein Jahr nach Abschluss einer Verjüngung ist viele Monate über die längsten gemeldeten Abbruchsymptome hinaus, so dass alle betroffenen chemischen Systeme des Gehirns - Serotonin, Noradrenalin, Acetylcholin und Histamin - einen vollständigen Zyklus zur Normalisierung haben.\n\nDie Bedeutung von TCA Recovery\nTCAs verursachen eine breitere drogenbedingte Belastung als neuere Antidepressiva und beeinflussen mehr Rezeptorsysteme gleichzeitig. Erfolgreiches Absetzen bedeutet die Wiederherstellung mehrerer Systeme:\n• Vollständige Umkehrung des Gedächtnisses und der Denkstörung durch die Acetylcholinblockierung von TCAs\n• Volle Erholung des Herzens\n• Natürliche Gehirn-chemische Regulation wiederhergestellt über alle betroffenen Wege\n\nEin Jahr erfolgreicher Selbstregulierung nach dem Absetzen von TCA stellt eine echte Errungenschaft dar - sowohl bei der Verwaltung des Absetzens als auch bei der Aufrechterhaltung des Wohlbefindens ohne drogengesteuerte Unterstützung.';
+
+  @override
+  String get settingsLocaleArabic => 'Arabisch';
 }

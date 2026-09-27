@@ -1,6 +1,5 @@
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
-
 import 'app_localizations.dart';
 
 // ignore_for_file: type=lint
@@ -3500,4 +3499,7 @@ class AppLocalizationsJa extends AppLocalizations {
   @override
   String get tcaReferenceDay365 =>
       'TCA中止から1年：回復の達成\n\n1年：完全な多系統の回復\nTCA、MAOI、SSRIなどを網羅するこの抗うつ薬中止症候群のレビューは、離脱症状が通常中止後数日以内に始まり、未治療でも数日から2週間以内に自然に解消すると見出しました。TCAの影響を受けた系を1年後に具体的に再測定した研究はありませんが、漸減完了から1年後は、報告された中で最も長い中止症状よりもはるかに数ヶ月先であるため、影響を受けたすべての脳内化学物質系—セロトニン、ノルアドレナリン、アセチルコリン、ヒスタミン—は、正常化するための完全なサイクルを得たと期待できます。\n\nTCA回復の意義\nTCAは、新しい抗うつ薬よりも広範な薬による負担を課し、より多くの受容体系に同時に影響します。中止の成功は、複数の系の回復を表します：\n• TCAのアセチルコリン遮断によって引き起こされた記憶と思考の障害の完全な逆転\n• 心臓の完全な回復\n• 影響を受けたすべての経路にわたる自然な脳内化学物質調節の回復\n\nTCA中止後の1年間の成功した自己調節は、中止過程の管理においても、薬による支えなしのウェルビーイングの維持においても、本物の達成を表します。';
+
+  @override
+  String get settingsLocaleArabic => 'アラビア語';
 }

@@ -1,6 +1,5 @@
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
-
 import 'app_localizations.dart';
 
 // ignore_for_file: type=lint
@@ -3713,4 +3712,7 @@ class AppLocalizationsEs extends AppLocalizations {
   @override
   String get tcaReferenceDay365 =>
       'Un año después de los tricíclicos: recuperación alcanzada\n\nUn año: recuperación de varios sistemas\nEsta revisión sobre síndromes de discontinuación de antidepresivos, que incluye tricíclicos, IMAO, ISRS y otras clases, encontró que los síntomas de retirada suelen empezar pocos días después de suspender el tratamiento y, sin tratamiento específico, resolverse por sí solos en días o en un par de semanas. No existe un estudio que vuelva a medir específicamente al cabo de un año todos los sistemas afectados por los tricíclicos, pero un año después de completar una reducción de dosis queda muchos meses por encima incluso de los síntomas de discontinuación más prolongados descritos. Para entonces, los sistemas de serotonina, noradrenalina, acetilcolina e histamina han tenido tiempo suficiente para normalizarse.\n\nLa importancia de la recuperación tras tricíclicos\nLos tricíclicos ejercen una carga farmacológica más amplia que los antidepresivos más nuevos porque afectan a más sistemas de receptores al mismo tiempo. Una discontinuación exitosa representa la recuperación de varios sistemas:\n• Reversión de las alteraciones de memoria y pensamiento relacionadas con el bloqueo de acetilcolina\n• Recuperación de los efectos cardiacos del fármaco\n• Restablecimiento de una regulación neuroquímica natural en las vías afectadas\n\nUn año de autorregulación mantenida después de suspender un tricíclico representa un logro real tanto en la gestión del proceso de discontinuación como en el mantenimiento del bienestar sin apoyo farmacológico.';
+
+  @override
+  String get settingsLocaleArabic => 'Árabe';
 }
