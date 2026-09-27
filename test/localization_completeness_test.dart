@@ -143,6 +143,11 @@ bool _containsTargetScript(String languageCode, String value) {
       return true;
     }
     if (languageCode == 'zh' && isCjk) return true;
+    if (languageCode == 'ko' &&
+        ((rune >= 0xac00 && rune <= 0xd7af) ||
+            (rune >= 0x1100 && rune <= 0x11ff))) {
+      return true;
+    }
     if (languageCode == 'ja' &&
         (isCjk ||
             (rune >= 0x3040 && rune <= 0x30ff) ||
@@ -518,6 +523,7 @@ void main() {
       'fr': ['Source :', 'Source:'],
       'fa': ['منبع:', 'منبع：'],
       'ja': ['出典：', '出典:'],
+      'ko': ['출처:', '출처：'],
       'ru': ['Источник:', 'Источник：'],
       'zh': ['来源：', '来源:'],
       'id': ['Sumber:', 'Sumber：'],
@@ -1226,6 +1232,7 @@ void main() {
       'th': 'th',
       'ur': 'ur',
       'ja': 'ja-JP',
+      'ko': 'ko-KR',
       'ru': 'ru-RU',
       'zh': 'zh-CN',
       'zh-Hant': 'zh-TW',
@@ -1234,7 +1241,7 @@ void main() {
     expect(
       workflow,
       contains(
-        'locale: [en, ar, de, es, fa, fr, id, ja, pl, pt, ru, th, ur, zh, zh-Hant]',
+        'locale: [en, ar, de, es, fa, fr, id, ja, ko, pl, pt, ru, th, ur, zh, zh-Hant]',
       ),
     );
     for (final locale in AppLocalizations.supportedLocales) {
@@ -1270,6 +1277,7 @@ void main() {
       'th': 'th',
       'ur': 'ur',
       'ja': 'ja-JP',
+      'ko': 'ko-KR',
       'ru': 'ru-RU',
       'zh': 'zh-CN',
       'zh-Hant': 'zh-TW',
@@ -1337,6 +1345,7 @@ void main() {
       'th': 'th',
       'ur': 'ur',
       'ja': 'ja-JP',
+      'ko': 'ko-KR',
       'ru': 'ru-RU',
       'zh': 'zh-CN',
       'zh-Hant': 'zh-TW',
@@ -1353,6 +1362,7 @@ void main() {
       'fr': ['progrès', 'étapes', 'journal'],
       'fa': ['پیشرفت', 'نقاط عطف', 'یادداشت'],
       'ja': ['進捗', '節目', '日記'],
+      'ko': ['진행', '이정표', '일기'],
       'ru': ['прогресс', 'этап', 'дневник'],
       'zh': ['进度', '里程碑', '日记'],
       'zh-Hant': ['進度', '里程碑', '日記'],
@@ -1518,6 +1528,7 @@ void main() {
       'th': 'th',
       'ur': 'ur',
       'ja': 'ja',
+      'ko': 'ko',
       'ru': 'ru',
       'zh': 'zh-Hans',
       'zh-Hant': 'zh-Hant',
@@ -1576,6 +1587,7 @@ void main() {
       'th': 'th',
       'ur': 'ur',
       'ja': 'ja',
+      'ko': 'ko',
       'ru': 'ru',
       'zh': 'zh-Hans',
       'zh-Hant': 'zh-Hant',
@@ -1700,6 +1712,7 @@ void main() {
       'fr-FR',
       'fa',
       'ja-JP',
+      'ko-KR',
       'pt-PT',
       'ru-RU',
       'zh-CN',
@@ -1798,6 +1811,7 @@ void main() {
 
       if (languageCode == 'fa' ||
           languageCode == 'ja' ||
+          languageCode == 'ko' ||
           languageCode == 'ru' ||
           languageCode == 'ur' ||
           languageCode == 'zh') {
@@ -1845,6 +1859,7 @@ void main() {
       'fr-fr',
       'id-id',
       'ja-jp',
+      'ko-kr',
       'pl-pl',
       'pt-pt',
       'ru-ru',
@@ -1869,6 +1884,7 @@ void main() {
       'fa',
       'fr',
       'ja',
+      'ko',
       'ru',
       'zh',
       'zh-Hant',
@@ -1932,6 +1948,7 @@ void main() {
     expect(privacy, contains('?lang=fr'));
     expect(privacy, contains('?lang=fa'));
     expect(privacy, contains('?lang=ja'));
+    expect(privacy, contains('?lang=ko'));
     expect(privacy, contains('?lang=ru'));
     expect(privacy, contains('?lang=zh'));
     expect(privacy, contains('?lang=zh-Hant'));
@@ -2070,6 +2087,7 @@ void main() {
       'fr': {'one', 'other'},
       'fa': {'one', 'other'},
       'ja': {'other'},
+      'ko': {'other'},
       'ru': {'one', 'few', 'many', 'other'},
       'zh': {'other'},
       'zh-Hant': {'other'},

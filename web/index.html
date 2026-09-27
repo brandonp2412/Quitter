@@ -35,7 +35,7 @@
       const requestedLanguage = (navigator.languages?.[0] ?? navigator.language ?? 'en')
         .toLowerCase()
         .split('-')[0];
-      const language = ['ar', 'de', 'es', 'fa', 'fr', 'id', 'ja', 'pl', 'pt', 'ru', 'th', 'ur', 'zh'].includes(requestedLanguage)
+      const language = ['ar', 'de', 'es', 'fa', 'fr', 'id', 'ja', 'ko', 'pl', 'pt', 'ru', 'th', 'ur', 'zh'].includes(requestedLanguage)
         ? requestedLanguage
         : 'en';
       const descriptions = {
@@ -49,6 +49,7 @@
         pl: 'Prywatnie i offline śledź postępy w rzucaniu nałogów, kamienie milowe, dziennik i przypomnienia o zdrowieniu.',
         pt: 'Acompanhe o progresso ao deixar hábitos, os marcos, o diário e os lembretes de recuperação, em privado e offline.',
         ja: 'やめたい習慣の進捗、節目、日記、回復リマインダーをプライベートかつオフラインで記録できます。',
+        ko: '습관을 끊는 진행 상황, 이정표, 일기 및 회복 알림을 비공개로 오프라인에서 기록하세요.',
         ru: 'Отслеживайте прогресс отказа от привычек, этапы, дневник и напоминания о восстановлении конфиденциально и без подключения к интернету.',
         th: 'ติดตามความคืบหน้าในการเลิกพฤติกรรม เป้าหมาย บันทึก และการแจ้งเตือนการฟื้นตัวแบบเป็นส่วนตัวและออฟไลน์',
         ur: 'اپنی عادتیں چھوڑنے کی پیش رفت، سنگِ میل، جرنل اور بحالی کی یاد دہانیاں نجی اور آف لائن ٹریک کریں۔',

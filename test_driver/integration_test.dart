@@ -22,6 +22,7 @@ Future<void> main() async => await integrationDriver(
       "ur" => "ur",
       "fa" => "fa",
       "ja" => "ja-JP",
+      "ko" => "ko-KR",
       "ru" => "ru-RU",
       "zh" => "zh-CN",
       "zh-Hant" => "zh-TW",

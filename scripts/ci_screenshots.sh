@@ -28,6 +28,7 @@ case "$locale" in
   ur) store_locale="ur" ;;
   fa) store_locale="fa" ;;
   ja) store_locale="ja-JP" ;;
+  ko) store_locale="ko-KR" ;;
   ru) store_locale="ru-RU" ;;
   zh) store_locale="zh-CN" ;;
   zh-Hant) store_locale="zh-TW" ;;

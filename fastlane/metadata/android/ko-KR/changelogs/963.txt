@@ -1,0 +1,10 @@
+• Azure 패키지 마무리를 위해 클로드 슬롭을 추가합니다.
+• 누락된 Content-Type 헤더를 Azure 마무리에 추가합니다.
+• msstore 배포를 마무리하기 위해 더 많은 슬롭을 추가합니다.
+• PIN 시간 초과 추가
+• 러시아어 제목 추가
+• msstore 배포를 마무리하기 위해 슬롭 코드를 추가합니다.
+• 하드코딩된 색상을 머티리얼 테마로 변경했습니다.
+• 배포 스크립트 정리
+• ru/full_description.txt를 생성합니다.
+• ru/short_description.txt를 생성합니다.

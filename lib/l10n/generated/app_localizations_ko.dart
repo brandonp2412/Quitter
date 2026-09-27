@@ -1,0 +1,3568 @@
+// ignore: unused_import
+import 'package:intl/intl.dart' as intl;
+
+import 'app_localizations.dart';
+
+// ignore_for_file: type=lint
+
+/// The translations for Korean (`ko`).
+class AppLocalizationsKo extends AppLocalizations {
+  AppLocalizationsKo([String locale = 'ko']) : super(locale);
+
+  @override
+  String get kratomPageTitle => '크라톰 복구';
+
+  @override
+  String get kratomHeaderStarted => '귀하의 회복 여정';
+
+  @override
+  String get kratomHeaderNotStarted => 'Kratom 종료의 이점';
+
+  @override
+  String get kratomSubtitleStarted => '진행 상황을 추적하고 각 목표를 축하하세요';
+
+  @override
+  String get kratomSubtitleNotStarted => '그만두면 어떻게 되는지 알아보세요';
+
+  @override
+  String get kratomInfoBox =>
+      '크라톰은 오피오이드 수용체에 작용하므로 중단하면 오피오이드와 유사한 금단 증상이 나타날 수 있습니다. 다른 아편유사제를 과도하게 사용하거나 다른 아편유사제와 함께 사용하는 경우 의학적으로 감독되는 금단에 대해 임상의에게 문의하십시오.';
+
+  @override
+  String get addictionKratom => '크라톰';
+
+  @override
+  String get kratomMilestone1Title => '출금 시작';
+
+  @override
+  String get kratomMilestone1Description =>
+      'Kratom은 오피오이드 수용체에 작용하므로 마지막 복용 후 6~12시간 이내에 불안, 불안, 발한, 콧물, 근육통을 느낄 수 있습니다. 이것은 당신의 신경계가 조정되기 시작하는 것입니다.';
+
+  @override
+  String get kratomMilestone3Title => '피크 인출';
+
+  @override
+  String get kratomMilestone3Description =>
+      '급성 증상은 대개 2~3일에 최고조에 달합니다. 통증이 심해지고 불면증, 위장 장애, 기분 저하가 발생합니다. 이것이 가장 어려운 점이며 일시적입니다.';
+
+  @override
+  String get kratomMilestone7Title => '급성 증상이 가라앉습니다';
+
+  @override
+  String get kratomMilestone7Description =>
+      '일주일이 지나면 통증, 배탈, 발한 등 최악의 신체적 증상이 크게 사라졌습니다. 수면과 에너지는 아직 회복 중입니다.';
+
+  @override
+  String get kratomMilestone14Title => '기분과 수면 회복';
+
+  @override
+  String get kratomMilestone14Description =>
+      '2주가 지나면 뇌의 보상 화학이 재조정되기 시작하면서 수면이 더 안정적이고 기분이 더 안정됩니다.';
+
+  @override
+  String get kratomMilestone30Title => '한 달 클리어';
+
+  @override
+  String get kratomMilestone30Description =>
+      '한 달이 지나면 신체가 안정됩니다. 수면, 식욕, 에너지가 눈에 띄게 좋아지고 갈망이 줄어듭니다.';
+
+  @override
+  String get kratomMilestone90Title => '안정적인 기초';
+
+  @override
+  String get kratomMilestone90Description =>
+      '3개월 간의 금욕은 뇌의 보상 및 스트레스 회로를 재조정할 수 있는 시간을 연장합니다. 기분, 집중력, 동기 부여가 눈에 띄게 안정적입니다.';
+
+  @override
+  String get kratomMilestone365Title => '1년 무료';
+
+  @override
+  String get kratomMilestone365Description =>
+      '1년 동안 크라톰이 없습니다. 오피오이드 시스템은 오랫동안 재규제되었으며 갈망은 드물고 습관이 더 이상 하루를 구성하지 않습니다.';
+
+  @override
+  String get gabapentinoidsPageTitle => '가바펜티노이드 회수';
+
+  @override
+  String get gabapentinoidsHeaderStarted => '귀하의 회복 여정';
+
+  @override
+  String get gabapentinoidsHeaderNotStarted => '가바펜틴/프레가발린 중단의 이점';
+
+  @override
+  String get gabapentinoidsSubtitleStarted => '진행 상황을 추적하고 각 목표를 축하하세요';
+
+  @override
+  String get gabapentinoidsSubtitleNotStarted => '그만두면 어떻게 되는지 알아보세요';
+
+  @override
+  String get gabapentinoidsInfoBox =>
+      '가바펜틴이나 프레가발린을 갑자기 중단하지 마십시오. 갑작스러운 중단은 발작을 유발할 수 있습니다. 특히 간질 치료를 위해 복용하는 경우 더욱 그렇습니다. 의학적으로 감독되는 점진적인 테이퍼가 필수적입니다.';
+
+  @override
+  String get addictionGabapentinoid => '가바펜틴/프레가발린';
+
+  @override
+  String get gabapentinoidsMilestone1Title => '테이퍼, 갑자기 멈추지 마세요';
+
+  @override
+  String get gabapentinoidsMilestone1Description =>
+      '가바펜티노이드 철수는 12~48시간 이내에 시작될 수 있습니다. 심각한 위험은 갑작스러운 중단 시 발작이 발생하므로 이러한 약물은 한랭 중단보다는 의학적 지도에 따라 감량해야 합니다.';
+
+  @override
+  String get gabapentinoidsMilestone3Title => '피크 인출';
+
+  @override
+  String get gabapentinoidsMilestone3Description =>
+      '증상은 일반적으로 3일째쯤에 최고조에 달합니다. 불안이 고조되고, 불면증, 발한, 메스꺼움, 때로는 혼란이 발생합니다. 감독된 테이퍼는 이를 크게 줄여줍니다.';
+
+  @override
+  String get gabapentinoidsMilestone7Title => '급성기 완화';
+
+  @override
+  String get gabapentinoidsMilestone7Description =>
+      '7~10일 정도에는 급성 증상이 상당히 감소합니다. 점진적인 테이퍼는 이 창을 관리하기 쉽게 유지합니다.';
+
+  @override
+  String get gabapentinoidsMilestone14Title => '수면과 불안의 안정';
+
+  @override
+  String get gabapentinoidsMilestone14Description =>
+      '2주가 지나면 신경계가 약물 없이 기능하는 데 적응함에 따라 수면과 일반적인 불안 수준이 개선됩니다.';
+
+  @override
+  String get gabapentinoidsMilestone30Title => '한 달 클리어';
+
+  @override
+  String get gabapentinoidsMilestone30Description =>
+      '한 달이 지나면 대부분의 사람들은 금단 현상을 겪고 안정된 기분, 수면, 명료함을 누리게 됩니다. 지속되는 증상은 대개 경미합니다.';
+
+  @override
+  String get gabapentinoidsMilestone90Title => '안정적이고 조정됨';
+
+  @override
+  String get gabapentinoidsMilestone90Description =>
+      '3개월이 지나면 신경계가 완전히 재조정되었습니다. 대부분의 사람들은 정상적인 수면과 기분으로 안정감을 느낍니다.';
+
+  @override
+  String get gabapentinoidsMilestone180Title => '반년 무료';
+
+  @override
+  String get gabapentinoidsMilestone180Description =>
+      '6개월 무료. 약물은 귀하의 일상 생활에서 오랫동안 사라졌으며 모든 반동 증상이 해결되었습니다.';
+
+  @override
+  String get ghbPageTitle => 'GHB 복구';
+
+  @override
+  String get ghbHeaderStarted => '귀하의 회복 여정';
+
+  @override
+  String get ghbHeaderNotStarted => 'GHB 종료의 이점';
+
+  @override
+  String get ghbSubtitleStarted => '진행 상황을 추적하고 각 목표를 축하하세요';
+
+  @override
+  String get ghbSubtitleNotStarted => '그만두면 어떻게 되는지 알아보세요';
+
+  @override
+  String get ghbInfoBox =>
+      'GHB 금단은 의학적 응급 상황입니다. 이는 알코올 및 벤조디아제핀 금단과 맞먹으며 섬망과 발작을 일으킬 수 있습니다. 과중하거나 24시간 내내 일하는 사용자는 감독된 입원환자 디톡스 없이 중단해서는 안 됩니다.';
+
+  @override
+  String get addictionGhb => 'GHB';
+
+  @override
+  String get ghbMilestone1Title => '의료 디톡스를 찾아보세요';
+
+  @override
+  String get ghbMilestone1Description =>
+      'GHB는 반감기가 매우 짧기 때문에 불안, 떨림, 불면증 및 빠른 심박수로 인해 마지막 복용 후 1~6시간 후에 금단 증상이 시작될 수 있습니다. 이것은 가장 위험한 해독제 중 하나입니다. 의학적 도움을 받으십시오.';
+
+  @override
+  String get ghbMilestone3Title => '최고 위험 기간';
+
+  @override
+  String get ghbMilestone3Description =>
+      '증상은 약 48~72시간에 최고조에 달하며 심한 동요, 환각, 섬망으로까지 확대될 수 있습니다. 이 단계에는 의료 모니터링이 필요합니다.';
+
+  @override
+  String get ghbMilestone7Title => '급성기 통과';
+
+  @override
+  String get ghbMilestone7Description =>
+      '약 1주일 정도 지나면 급성 증후군은 대개 해결되지만 심한 경우에는 섬망이 더 오래 지속될 수도 있습니다. 몸은 가장 위험한 지점을 지나갔다.';
+
+  @override
+  String get ghbMilestone14Title => '최악의 상황을 겪으면서';
+
+  @override
+  String get ghbMilestone14Description =>
+      '2주가 지나면 심각한 금단 증상도 대개 그 과정을 거칩니다. 불안은 지속될 수 있지만 수면과 자율신경 안정이 회복됩니다.';
+
+  @override
+  String get ghbMilestone30Title => '한 달 안정';
+
+  @override
+  String get ghbMilestone30Description =>
+      '한 달이 지나면 위험한 조기 철수 기간이 훨씬 지나갑니다. 지속적인 불안, 수면 문제, 기분 저하가 계속해서 개선되고 있습니다.';
+
+  @override
+  String get ghbMilestone90Title => '지속적인 증상이 사라짐';
+
+  @override
+  String get ghbMilestone90Description =>
+      '3개월이 지나면 뇌의 진정 GABA 시스템이 안정되면서 지속적인 불안, 수면, 기분 증상이 완화됩니다.';
+
+  @override
+  String get ghbMilestone180Title => '반년 무료';
+
+  @override
+  String get ghbMilestone180Description =>
+      '6개월 동안 GHB가 없습니다. 장기간의 금단 증상이 크게 해결되었으며 기분, 수면, 명확한 사고가 정상으로 돌아왔습니다.';
+
+  @override
+  String get ketaminePageTitle => '케타민 회수';
+
+  @override
+  String get ketamineHeaderStarted => '귀하의 회복 여정';
+
+  @override
+  String get ketamineHeaderNotStarted => '케타민 중단의 이점';
+
+  @override
+  String get ketamineSubtitleStarted => '진행 상황을 추적하고 각 목표를 축하하세요';
+
+  @override
+  String get ketamineSubtitleNotStarted => '그만두면 어떻게 되는지 알아보세요';
+
+  @override
+  String get ketamineInfoBox =>
+      '케타민 금단 증상은 신체적 질병보다는 주로 갈망, 우울한 기분, 뇌 안개입니다. 가장 큰 신체적 손상은 방광 손상이며, 중단은 회복을 위한 필수적인 첫 번째 단계입니다.';
+
+  @override
+  String get addictionKetamine => '케타민';
+
+  @override
+  String get ketamineMilestone1Title => '시스템 클리어링';
+
+  @override
+  String get ketamineMilestone1Description =>
+      '케타민은 심각한 신체적 금단 현상을 거의 일으키지 않습니다. 첫날에는 약물이 사라지면서 기분 변화, 갈망, 발한 또는 심계항진을 느낄 수 있습니다.';
+
+  @override
+  String get ketamineMilestone7Title => '기분과 갈망';
+
+  @override
+  String get ketamineMilestone7Description =>
+      '첫 주는 신체적 금단 현상보다는 주로 갈망, 낮거나 흔들리는 기분, 뇌 안개에 관한 것입니다.';
+
+  @override
+  String get ketamineMilestone14Title => '브레인 포그 리프팅';
+
+  @override
+  String get ketamineMilestone14Description =>
+      '2주가 지나면 해리 효과가 완전히 사라지면서 사고와 기억이 맑아지고 기분이 안정되기 시작합니다.';
+
+  @override
+  String get ketamineMilestone30Title => '한 달 — 방광 치유';
+
+  @override
+  String get ketamineMilestone30Description =>
+      '한 달이 지나면 초기 방광 손상은 중단한 후에 호전되기 시작하는 경우가 많습니다. 기분과 생각이 더 명확해집니다.';
+
+  @override
+  String get ketamineMilestone90Title => '3개월 후';
+
+  @override
+  String get ketamineMilestone90Description =>
+      '케타민을 사용하지 않은 3개월은 방광이 치유될 수 있는 시간을 더 많이 주고 사고와 기분도 계속 개선됩니다. 갈망은 덜 빈번합니다.';
+
+  @override
+  String get ketamineMilestone180Title => '반년 무료';
+
+  @override
+  String get ketamineMilestone180Description =>
+      '6개월 무료. 방광 증상은 호전되는 데 오랜 시간이 걸렸으며 케타민의 심리적인 힘은 상당히 약화되었습니다.';
+
+  @override
+  String get ketamineMilestone365Title => '1년 무료';
+
+  @override
+  String get ketamineMilestone365Description =>
+      '케타민 없이 1년. 생각, 기분, 그리고 방광 손상이 조기에 발견되었을 때 방광 기능이 회복되는 데 꼬박 1년이 걸렸습니다.';
+
+  @override
+  String get inhalantsPageTitle => '흡입제 회수';
+
+  @override
+  String get inhalantsHeaderStarted => '귀하의 회복 여정';
+
+  @override
+  String get inhalantsHeaderNotStarted => '흡입제 끊기의 이점';
+
+  @override
+  String get inhalantsSubtitleStarted => '진행 상황을 추적하고 각 목표를 축하하세요';
+
+  @override
+  String get inhalantsSubtitleNotStarted => '그만두면 어떻게 되는지 알아보세요';
+
+  @override
+  String get inhalantsInfoBox =>
+      '흡입제 금단 기간은 알코올이나 아편유사제보다 짧지만 강렬할 수 있으며 과다 사용자에게는 발작 위험이 있습니다. 신경학적 회복은 실제적이지만 느리며, 종종 약 2년 간의 금욕 기간에 걸쳐 회복됩니다.';
+
+  @override
+  String get addictionInhalants => '흡입제';
+
+  @override
+  String get inhalantsMilestone1Title => '시스템 클리어링';
+
+  @override
+  String get inhalantsMilestone1Description =>
+      '흡입성 화학물질은 혈액을 빠르게 제거하지만 지방 조직에 남아 있습니다. 첫날에는 두통, 과민성, 메스꺼움, 불안 또는 불면증을 느낄 수 있습니다.';
+
+  @override
+  String get inhalantsMilestone7Title => '급성 증상이 가라앉습니다';
+
+  @override
+  String get inhalantsMilestone7Description =>
+      '급성 금단증상은 2~5일경에 최고조에 달하며 대부분 1~2주 이내에 해결됩니다. 일주일 정도 지나면 보통 최악의 상황이 지나갑니다.';
+
+  @override
+  String get inhalantsMilestone14Title => '급성기 종료';
+
+  @override
+  String get inhalantsMilestone14Description =>
+      '일반적으로 조기 철수 기간은 2주가 지나면 종료됩니다. 기분은 안정되지만 뇌 안개와 피로감은 지속될 수 있습니다.';
+
+  @override
+  String get inhalantsMilestone30Title => '한 달 — 뇌 회복';
+
+  @override
+  String get inhalantsMilestone30Description =>
+      '한 달이 지나면 최악의 초기 효과는 사라지고 사고와 기억이 회복됩니다. 선명도와 기분이 좋아집니다.';
+
+  @override
+  String get inhalantsMilestone90Title => '3개월 후';
+
+  @override
+  String get inhalantsMilestone90Description =>
+      '3개월간 금주하면 기억력, 주의력, 운동 기능이 지속적으로 회복됩니다. 개선은 점진적이지만 현실적입니다.';
+
+  @override
+  String get inhalantsMilestone365Title => '1년 — 상당한 회복';
+
+  @override
+  String get inhalantsMilestone365Description =>
+      '1년간의 금욕은 대부분의 사람들에게 상당한 신경학적 회복을 가져오며, 2년차까지 지속적인 회복이 기대됩니다.';
+
+  @override
+  String get inhalantsMilestone730Title => '2년 - 장기적인 치유';
+
+  @override
+  String get inhalantsMilestone730Description =>
+      '2년간의 금주 기간은 연구 결과에 따르면 납 첨가 휘발유로 인한 손상을 제외하고 뇌 기능이 실질적으로 회복되는 것으로 나타났습니다.';
+
+  @override
+  String get synthetic_cannabinoidsPageTitle => '합성 칸나비노이드 회수';
+
+  @override
+  String get synthetic_cannabinoidsHeaderStarted => '귀하의 회복 여정';
+
+  @override
+  String get synthetic_cannabinoidsHeaderNotStarted => '합성 칸나비노이드 중단의 이점';
+
+  @override
+  String get synthetic_cannabinoidsSubtitleStarted => '진행 상황을 추적하고 각 목표를 축하하세요';
+
+  @override
+  String get synthetic_cannabinoidsSubtitleNotStarted => '그만두면 어떻게 되는지 알아보세요';
+
+  @override
+  String get synthetic_cannabinoidsInfoBox =>
+      '합성 칸나비노이드(“Spice”, “K2”)는 칸나비스보다 훨씬 더 강력하며, 금단 증상은 비슷하지만 불안과 빠른 심박수로 인해 더 심각합니다. 무거운 사용자는 의학적으로 지원되는 해독이 필요할 수 있습니다.';
+
+  @override
+  String get addictionSyntheticCannabinoids => '합성 칸나비노이드';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1Title => '출금 시작';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1Description =>
+      '합성 칸나비노이드의 중단은 몇 시간에서 하루나 이틀 내에 시작될 수 있습니다. 불안, 과민성, 빠른 심박수, 발한 및 수면 문제를 예상하십시오.';
+
+  @override
+  String get synthetic_cannabinoidsMilestone3Title => '최고 증상';
+
+  @override
+  String get synthetic_cannabinoidsMilestone3Description =>
+      '가장 심한 불안, 과민성, 수면 부족, 갈망 등 증상은 처음 며칠 동안 최고조에 달하는 경향이 있습니다. 이것은 가장 어려운 스트레칭입니다.';
+
+  @override
+  String get synthetic_cannabinoidsMilestone7Title => '급성기 완화';
+
+  @override
+  String get synthetic_cannabinoidsMilestone7Description =>
+      '일주일이 지나면 가장 심한 증상이 완화됩니다. 수면, 심박수, 기분이 안정되기 시작합니다.';
+
+  @override
+  String get synthetic_cannabinoidsMilestone14Title => '수면과 기분 안정';
+
+  @override
+  String get synthetic_cannabinoidsMilestone14Description =>
+      '2주가 지나면 수면과 기분이 더욱 안정되고 조기 금단 증상으로 인한 빠른 심박수가 해결되었습니다.';
+
+  @override
+  String get synthetic_cannabinoidsMilestone30Title => '한 달 클리어';
+
+  @override
+  String get synthetic_cannabinoidsMilestone30Description =>
+      '한 달이 지나면 대부분의 금단 증상이 해결됩니다. 수면, 기분, 선명도가 눈에 띄게 향상됩니다.';
+
+  @override
+  String get synthetic_cannabinoidsMilestone90Title => '3개월 후';
+
+  @override
+  String get synthetic_cannabinoidsMilestone90Description =>
+      '3개월은 맑고 기분과 수면이 안정적이며 갈망이 거의 없습니다. 뇌의 칸나비노이드 시스템이 재조정되었습니다.';
+
+  @override
+  String get synthetic_cannabinoidsMilestone180Title => '반년 무료';
+
+  @override
+  String get synthetic_cannabinoidsMilestone180Description =>
+      '6개월간 합성 칸나비노이드를 사용하지 마세요. 금단 증상은 오랫동안 해결되었으며 이러한 약물의 심각한 위험은 사라졌습니다.';
+
+  @override
+  String get mdmaPageTitle => 'MDMA 복구';
+
+  @override
+  String get mdmaHeaderStarted => '귀하의 회복 여정';
+
+  @override
+  String get mdmaHeaderNotStarted => 'MDMA 종료의 이점';
+
+  @override
+  String get mdmaSubtitleStarted => '진행 상황을 추적하고 각 목표를 축하하세요';
+
+  @override
+  String get mdmaSubtitleNotStarted => '그만두면 어떻게 되는지 알아보세요';
+
+  @override
+  String get mdmaInfoBox =>
+      'MDMA는 세로토닌을 과다하게 공급한 다음 고갈시켜 \"감소\"를 일으키고, 과도하게 사용하면 금단 증상과 같은 우울한 기분을 느끼게 됩니다. 세로토닌 수송체 수준은 지속적인 금욕으로 회복되지만, 과도하게 사용하면 효과가 더 오래 지속될 수 있습니다.';
+
+  @override
+  String get addictionMdma => 'MDMA';
+
+  @override
+  String get mdmaMilestone1Title => '컴다운';
+
+  @override
+  String get mdmaMilestone1Description =>
+      'MDMA 후에 세로토닌이 고갈되면 하루나 이틀 동안 우울한 기분, 피로, 과민성, 수면 부족 등의 \"하락\"이 발생합니다. 수분 섭취, 음식, 휴식이 도움이 됩니다.';
+
+  @override
+  String get mdmaMilestone3Title => '기분 재조정';
+
+  @override
+  String get mdmaMilestone3Description =>
+      '며칠이 지나면 가장 급격한 하락세가 지나갔습니다. 세로토닌이 보충되면서 기분과 에너지의 균형이 다시 맞춰지기 시작합니다.';
+
+  @override
+  String get mdmaMilestone7Title => '급성기 종료';
+
+  @override
+  String get mdmaMilestone7Description =>
+      '과도하게 사용하면 금단 증상(기분 저하, 집중력 저하, 갈망)이 약 일주일 정도 지속된 후 개선될 수 있습니다.';
+
+  @override
+  String get mdmaMilestone14Title => '2주 동안';
+
+  @override
+  String get mdmaMilestone14Description =>
+      '2주간의 금욕은 일반적으로 세로토닌 시스템이 회복되면서 기분, 수면, 집중력이 확실히 향상됩니다.';
+
+  @override
+  String get mdmaMilestone30Title => '한 달 클리어';
+
+  @override
+  String get mdmaMilestone30Description =>
+      '한 달이 지나면 기분과 생각이 훨씬 안정됩니다. MDMA를 중단하는 동안 뇌의 세로토닌 재활용 시스템은 계속해서 회복됩니다.';
+
+  @override
+  String get mdmaMilestone90Title => '3개월 후';
+
+  @override
+  String get mdmaMilestone90Description =>
+      '3개월 간의 금욕은 지속적인 세로토닌 시스템 회복을 지원합니다. 기분과 수면은 안정적입니다. 불안은 다음 달에 걸쳐 완화됩니다.';
+
+  @override
+  String get mdmaMilestone365Title => '1년 무료';
+
+  @override
+  String get mdmaMilestone365Description =>
+      'MDMA 없이 1년을 보내세요. 세로토닌 기능과 기분은 회복하는 데 오랜 시간이 걸렸으며 사용과 관련된 불안은 일반적으로 지금쯤 해결됩니다.';
+
+  @override
+  String get steroidsPageTitle => '동화작용 스테로이드 회복';
+
+  @override
+  String get steroidsHeaderStarted => '귀하의 회복 여정';
+
+  @override
+  String get steroidsHeaderNotStarted => '단백 동화 스테로이드 중단의 이점';
+
+  @override
+  String get steroidsSubtitleStarted => '진행 상황을 추적하고 각 목표를 축하하세요';
+
+  @override
+  String get steroidsSubtitleNotStarted => '그만두면 어떻게 되는지 알아보세요';
+
+  @override
+  String get steroidsInfoBox =>
+      '동화작용 스테로이드를 중단하면 신체가 호르몬 생산을 다시 시작할 때까지 테스토스테론 수치가 낮게 유지됩니다. 일반적으로 수개월에 걸쳐, 때로는 더 길어질 수도 있습니다. 이 단계에서는 우울증과 낮은 성욕이 흔히 나타납니다. 심한 우울증이나 자살 충동은 긴급한 치료가 필요합니다.';
+
+  @override
+  String get addictionSteroids => '동화작용 스테로이드';
+
+  @override
+  String get steroidsMilestone1Title => '호르몬 결핍이 시작됩니다';
+
+  @override
+  String get steroidsMilestone1Description =>
+      '동화작용 스테로이드는 신체의 테스토스테론을 억제합니다. 중단하면 호르몬 결핍이 발생하여 피로, 기분 저하, 성욕 저하가 발생할 수 있습니다. 의학적 지도가 권장됩니다.';
+
+  @override
+  String get steroidsMilestone14Title => '조정 단계';
+
+  @override
+  String get steroidsMilestone14Description =>
+      '첫 주는 낮은 에너지, 기분, 성욕 등 호르몬 저하가 가장 힘든 시기입니다. 이는 많은 사람들이 이를 피하기 위해 재발하는 단계입니다. 지원이 도움이 됩니다.';
+
+  @override
+  String get steroidsMilestone30Title => '1개월 — 축 재시작';
+
+  @override
+  String get steroidsMilestone30Description =>
+      '한 달이 지나면 뇌-고환 호르몬 시스템이 다시 시작됩니다. 테스토스테론과 테스토스테론 자체를 유도하는 호르몬은 상승하기 시작하지만 낮은 기분, 성욕 또는 에너지는 여전히 남아 있을 수 있습니다.';
+
+  @override
+  String get steroidsMilestone90Title => '3개월 - 호르몬 상승';
+
+  @override
+  String get steroidsMilestone90Description =>
+      '3개월이 지나면 테스토스테론과 이를 촉진하는 호르몬이 대부분의 사람들에게 정상 수준으로 올라가고 기분과 성욕도 함께 좋아지는 경우가 많습니다.';
+
+  @override
+  String get steroidsMilestone180Title => '6개월 - 종종 회복됨';
+
+  @override
+  String get steroidsMilestone180Description =>
+      '6개월이 되면 많은 사람들이 강력한 호르몬 회복을 보이며 테스토스테론과 그 조절 호르몬이 다시 범위로 돌아오고 증상이 완화됩니다.';
+
+  @override
+  String get steroidsMilestone365Title => '1년 후';
+
+  @override
+  String get steroidsMilestone365Description =>
+      '스테로이드 1년 쉬었습니다. 대부분의 경우 호르몬과 기분이 정상화되었습니다. 이 시점 이후에도 테스토스테론 수치가 지속적으로 낮아지면 전문가 평가가 필요합니다.';
+
+  @override
+  String get steroidsMilestone730Title => '2년 — 뉴 노멀';
+
+  @override
+  String get steroidsMilestone730Description =>
+      '2년 동안 스테로이드를 끊었습니다. 이제 귀하의 호르몬은 신체의 자연적인 수준을 반영합니다. 지속적인 낮은 테스토스테론 증상은 전문가의 확인을 받아야 합니다.';
+
+  @override
+  String get appTitle => '그만 두다';
+
+  @override
+  String get start => '시작';
+
+  @override
+  String get tabQuitter => '그만 두다';
+
+  @override
+  String get adderallPageTitle => 'Adderall 종료';
+
+  @override
+  String get adderallHeaderStarted => '귀하의 회복 여정';
+
+  @override
+  String get adderallHeaderNotStarted => '복구를 시작할 준비가 되셨나요?';
+
+  @override
+  String get adderallSubtitleStarted => '진행 상황을 추적하고 뇌가 치유되는 동안 각 단계를 축하하세요';
+
+  @override
+  String get adderallSubtitleNotStarted =>
+      'Adderall을 중단하고 회복을 위한 여정을 시작하면 어떤 일이 발생하는지 확인하세요.';
+
+  @override
+  String get adderallMilestone1Title => '처음 24시간: 출금 시작';
+
+  @override
+  String get adderallMilestone1Description =>
+      '신체가 각성제 없이 생활에 적응하기 시작하면서 피로감, 우울증, 식욕이 증가하는 것을 느낄 수도 있습니다. 이는 정상적이고 일시적입니다. 필요할 때 수분을 섭취하고 휴식을 취하세요.';
+
+  @override
+  String get adderallMilestone3Title => '3일차: 최대 철수';
+
+  @override
+  String get adderallMilestone3Description =>
+      '금단 증상은 최고 강도에 도달합니다. 심한 피로감, 과민성 및 집중력 저하를 경험할 수 있습니다. 이것이 가장 어려운 부분이지만 여기서부터 더 좋아집니다. 지원 시스템에 문의해 보세요.';
+
+  @override
+  String get adderallMilestone7Title => '1주: 신체 증상 호전';
+
+  @override
+  String get adderallMilestone7Description =>
+      '최악의 신체적 금단 증상이 사라지기 시작했습니다. 수면 패턴이 정상화되기 시작하고 에너지 수준이 천천히 향상됩니다. 귀하의 신체는 각성제 없이도 기능할 수 있도록 적응하고 있습니다.';
+
+  @override
+  String get adderallMilestone14Title => '2주: 정서적 안정 회복';
+
+  @override
+  String get adderallMilestone14Description =>
+      '기분 변화와 과민성이 줄어들고 있습니다. 두뇌 화학이 안정되면서 정서적 균형을 회복하게 됩니다. 많은 사람들은 이번 주가 회복 여정의 전환점이라고 생각합니다.';
+
+  @override
+  String get adderallMilestone30Title => '한 달: 뇌 화학 재조정';
+
+  @override
+  String get adderallMilestone30Description =>
+      '당신의 두뇌는 적극적으로 치유되고 있습니다. 천연 도파민 생산이 향상되고 있으며, 약물 없이도 집중력과 동기가 더 좋아지는 것을 느낄 수 있습니다. 수면의 질과 식욕이 정상적인 패턴으로 돌아오고 있습니다.';
+
+  @override
+  String get adderallMilestone60Title => '2개월: 사고력과 기억력 향상';
+
+  @override
+  String get adderallMilestone60Description =>
+      '정신 선명도, 기억력, 기분 안정성이 크게 향상되었습니다. 두뇌의 보상 시스템은 치유되어 일상 활동을 더욱 자연스럽게 보람 있게 만듭니다. 많은 사람들이 자신과 더 비슷하다고 느낀다고 보고합니다.';
+
+  @override
+  String get adderallMilestone90Title => '3개월: 주요 복구 이정표';
+
+  @override
+  String get adderallMilestone90Description =>
+      '대부분의 금단 증상이 해결되었습니다. 당신의 두뇌는 치유에 상당한 진전을 이루었습니다. 자연적인 에너지 수준, 집중력 및 감정 조절이 크게 향상됩니다. 이는 축하할 만한 중요한 성과입니다.';
+
+  @override
+  String get adderallMilestone180Title => '6개월: 뇌 치유가 계속됩니다';
+
+  @override
+  String get adderallMilestone180Description =>
+      '도파민 신호는 계속 회복됩니다. 집중력, 기억력, 기분, 일상 생활의 질이 계속 향상됩니다.';
+
+  @override
+  String get adderallMilestone365Title => '1년: 거의 완전한 복구';
+
+  @override
+  String get adderallMilestone365Description =>
+      '뇌의 도파민 시스템이 대부분 정상적인 기능으로 회복되었습니다. 당신은 탄력성을 입증했으며 각성제에 의존하지 않고 삶을 재건했습니다. 이 이정표는 완전한 변화를 나타냅니다. 얼마나 멀리 왔는지 축하해 주세요!';
+
+  @override
+  String get showAllItems => '모든 항목 표시';
+
+  @override
+  String get showAllSubtitle => '모든 기본 화면 항목을 활성화 또는 비활성화합니다.';
+
+  @override
+  String get enableNotifications => '모든 알림 활성화';
+
+  @override
+  String get enableNotificationsSubtitle => '모든 알림 켜기 또는 끄기';
+
+  @override
+  String get benzoPageTitle => '벤조디아제핀 회수';
+
+  @override
+  String get benzoHeaderStarted => '귀하의 회복 여정';
+
+  @override
+  String get benzoHeaderNotStarted => '벤조디아제핀 중단의 이점';
+
+  @override
+  String get benzoSubtitleStarted => '진행 상황을 추적하고 각 목표를 축하하세요';
+
+  @override
+  String get benzoSubtitleNotStarted => '그만두면 어떻게 되는지 알아보세요';
+
+  @override
+  String get benzoMilestone7Title => '조기 탈퇴 단계';
+
+  @override
+  String get benzoMilestone7Description =>
+      '점진적인 테이퍼가 완료되면 반동 불안, 불면증 등의 초기 금단 증상이 나타날 수 있습니다. 이것은 당신의 신경계가 재조정되기 시작하는 것입니다. 이 단계의 의료 지원은 안전과 편안함을 위해 매우 중요합니다.';
+
+  @override
+  String get benzoMilestone14Title => '급성 금단 피크';
+
+  @override
+  String get benzoMilestone14Description =>
+      '급성 금단 증상은 일반적으로 처음 2주 이내에 최고조에 달합니다. 불안, 수면 장애, 신체적 불편함을 경험할 수 있습니다. 이러한 증상은 힘들지만 뇌가 치유되고 균형을 재조정하기 시작했음을 나타냅니다.';
+
+  @override
+  String get benzoMilestone60Title => '수면 아키텍처 개선';
+
+  @override
+  String get benzoMilestone60Description =>
+      '연구에 따르면 2개월 후에는 자연스러운 수면 패턴이 회복되기 시작합니다. 전반적인 수면 효율이 여전히 회복 중이더라도 벤조디아제핀을 복용할 때보다 서파수면이 증가하고 수면의 질이 향상됩니다.';
+
+  @override
+  String get benzoMilestone90Title => '신체 건강이 안정됩니다';
+
+  @override
+  String get benzoMilestone90Description =>
+      '약 3개월이 지나면서 많은 신체적 금단 증상이 크게 개선되었습니다. 귀하의 신체는 약물 없이도 기능할 수 있도록 계속해서 적응하고 있습니다. 불안과 기분은 여전히 ​​변동될 수 있지만 전반적인 기능은 향상됩니다.';
+
+  @override
+  String get benzoMilestone180Title => '사고와 기억이 회복되기 시작합니다';
+
+  @override
+  String get benzoMilestone180Description =>
+      '6개월이 지나면 기억력과 주의력이 눈에 띄게 향상됩니다. 연구 결과에 따르면 다양한 사고 능력 전반에 걸쳐 회복이 이루어지며 6개월이 지나도 계속해서 회복되는 것으로 나타났습니다.';
+
+  @override
+  String get benzoMilestone365Title => '힐링의 1년';
+
+  @override
+  String get benzoMilestone365Description =>
+      '1년이 지나면 정신적, 육체적 건강이 눈에 띄게 향상됩니다. 많은 사람들이 벤조디아제핀을 장기간 복용했을 때보다 불안이 감소하고 수면의 질이 향상되며 전반적인 건강이 개선되었다고 보고합니다. 뇌 치유는 계속됩니다.';
+
+  @override
+  String get benzoMilestone540Title => '지속적인 뇌 회복';
+
+  @override
+  String get benzoMilestone540Description =>
+      '18개월이 되면 기억력, 주의력, 명확한 사고력이 계속 향상됩니다. 뇌의 차분한 GABA 시스템은 안정화되는 데 1년이 훨씬 넘게 걸렸으며, 뇌는 계속해서 더 건강한 패턴을 구축하고 있습니다.';
+
+  @override
+  String get benzoMilestone730Title => '2년: 주요 진전';
+
+  @override
+  String get benzoMilestone730Description =>
+      '2년은 상당한 회복을 의미합니다. 대부분의 사람들은 장기간 벤조디아제핀을 사용하는 경우보다 훨씬 더 명확한 사고, 더 안정적인 감정, 훨씬 더 나은 삶의 질을 누리게 됩니다.';
+
+  @override
+  String get benzoMilestone1095Title => '3년: 장기 회복';
+
+  @override
+  String get benzoMilestone1095Description =>
+      '3년이 되면 긴 철수 기간이 대부분의 사람들보다 훨씬 뒤쳐집니다. 수면, 기분, 기억력 및 주의력은 회복하는 데 수년이 걸렸으며 일상 생활은 일반적으로 장기간 사용하는 경우보다 훨씬 좋습니다.';
+
+  @override
+  String get addictionMeth => '메스';
+
+  @override
+  String get addictionBenzos => '벤조스';
+
+  @override
+  String get methPageTitle => '메스 회수';
+
+  @override
+  String get methHeaderStarted => '귀하의 회복 여정';
+
+  @override
+  String get methHeaderNotStarted => '유리를 떨어뜨려라';
+
+  @override
+  String get methSubtitleStarted => '진행 상황을 추적하고 각 목표를 축하하세요';
+
+  @override
+  String get methSubtitleNotStarted => '자유는 당신의 손에 달려 있습니다';
+
+  @override
+  String get methMilestone1Title => '처음 24시간 - 충돌 시작';
+
+  @override
+  String get methMilestone1Description =>
+      '초기 충돌 단계는 신체가 회복되기 시작하면서 극심한 피로와 식욕 증가로 시작됩니다. 강렬한 자극으로 인해 시스템이 안정되기 시작하면서 우울증을 겪고 잠을 많이 자게 될 수 있습니다.';
+
+  @override
+  String get methMilestone3Title => '3일차 - 최대 인출';
+
+  @override
+  String get methMilestone3Description =>
+      '이 기간 동안 신체가 적응함에 따라 갈망이 상당히 심해집니다. 충돌 단계에 비해 에너지가 증가하여 갈망이 더 강해질 수 있습니다. 지금은 재발 예방과 지원이 중요한 시기입니다.';
+
+  @override
+  String get methMilestone7Title => '1주 - 신체 증상 완화';
+
+  @override
+  String get methMilestone7Description =>
+      '급성 금단 증상은 가라앉기 시작하지만, 심리적 문제는 여전히 남아 있습니다. 수면 패턴이 정상화되기 시작하고 신체적 불편함이 감소합니다. 이는 급성 금단에서 급성 후 금단으로의 전환을 의미합니다.';
+
+  @override
+  String get methMilestone30Title => '한 달 - 새로운 안정성';
+
+  @override
+  String get methMilestone30Description =>
+      '허니문 단계는 몸이 치유되고 갈망이 사라지기 시작하면서 시작됩니다. 두뇌 화학이 재조정되기 시작하면 에너지 수준이 증가하고 기분이 좋아집니다. 그러나 여전히 문제가 발생할 수 있으므로 경계심을 유지하십시오.';
+
+  @override
+  String get methMilestone90Title => '3개월 - 뇌 치유가 시작됩니다';
+
+  @override
+  String get methMilestone90Description =>
+      '당신의 두뇌는 활발히 회복되고 있습니다. 보상 시스템이 정상으로 이동함에 따라 주의력, 기억력, 의사 결정 능력이 좋아지기 시작합니다.';
+
+  @override
+  String get methMilestone180Title => '6개월 - 심혈관 회복';
+
+  @override
+  String get methMilestone180Description =>
+      '심장 기능은 금욕을 통해 측정 가능한 개선을 보여줍니다. 연구에 따르면 이 기간 동안 의료 지원을 병행하면 심장 기능이 크게 회복될 수 있습니다. 혈압과 심장 박동이 계속 안정됩니다.';
+
+  @override
+  String get methMilestone365Title => '1년 - 주요 뇌 회복';
+
+  @override
+  String get methMilestone365Description =>
+      '1년 후, 도파민 시스템은 큰 이득을 얻었습니다. 자연적인 보상은 다시금 더 보람을 느끼는 반면, 기분, 기억력, 의사결정 능력은 눈에 띄게 좋아졌습니다.';
+
+  @override
+  String get methMilestone420Title => '14개월 - 도파민 정상화';
+
+  @override
+  String get methMilestone420Description =>
+      '뇌 스캔은 이 단계에서 도파민 재활용 단백질이 건강한 수준에 접근하는 것을 보여줍니다. 기억력, 의욕, 일상 활동을 즐기는 능력이 지속적으로 향상됩니다.';
+
+  @override
+  String get methMilestone730Title => '2년 - 지속적인 회복';
+
+  @override
+  String get methMilestone730Description =>
+      '2년 동안 마약을 사용하지 않으면 뇌가 치유될 수 있는 시간이 지속됩니다. 주의력, 기분, 기억력, 일상적인 삶의 질이 지속적으로 향상됩니다.';
+
+  @override
+  String get addictionNitrousOxide => '아산화질소';
+
+  @override
+  String get nitrousOxidePageTitle => '아산화질소 회수';
+
+  @override
+  String get nitrousOxideHeaderStarted => '귀하의 회복 여정';
+
+  @override
+  String get nitrousOxideHeaderNotStarted => '시작할 준비가 되셨나요?';
+
+  @override
+  String get nitrousOxideSubtitleStarted => '진행 상황을 추적하고 각 목표를 축하하세요';
+
+  @override
+  String get nitrousOxideSubtitleNotStarted =>
+      '어떤 긍정적인 변화가 당신을 기다리고 있는지 확인해보세요';
+
+  @override
+  String get nitrousOxideMilestone1Title => '처음 24시간 - 시스템 삭제';
+
+  @override
+  String get nitrousOxideMilestone1Description =>
+      '가스는 몇 분 안에 시스템에서 빠져나오지만 치유에는 더 오랜 시간이 걸립니다. 현기증이 가라앉고, 두통이 완화되며, 뇌는 도파민 지름길 없이도 적응하기 시작합니다. 이제 B12 회복이 시작됩니다.';
+
+  @override
+  String get nitrousOxideMilestone3Title => '3일차 - 물리적 인출 불가';
+
+  @override
+  String get nitrousOxideMilestone3Description =>
+      '좋은 소식이 있습니다. 아산화질소는 신체적 금단 현상을 일으키지 않습니다. 당신이 느끼는 충동은 심리적인 습관과 연관성이지 신체가 물질을 요구하는 것이 아닙니다. 그러면 관리가 가능해집니다.';
+
+  @override
+  String get nitrousOxideMilestone7Title => '일주일 - B12 라이징';
+
+  @override
+  String get nitrousOxideMilestone7Description =>
+      '일주일 동안 새로운 B12가 파괴되지 않았습니다. 보충을 시작했다면 이미 레벨이 오르고 있는 것입니다. 에너지, 기분, 집중력은 모두 B12와 연관되어 있습니다. 이러한 것들이 향상되는 것을 느끼기 시작해야 합니다.';
+
+  @override
+  String get nitrousOxideMilestone14Title => '2주 - 신경 치유';
+
+  @override
+  String get nitrousOxideMilestone14Description =>
+      'B12는 신경 섬유의 보호 코팅에 필수적입니다. 2주가 지난 지금, 수리 과정이 활발하게 진행되고 있습니다. 얼얼함이나 무감각함은 완화되어야 합니다. 신경계가 스스로 회복되고 있습니다.';
+
+  @override
+  String get nitrousOxideMilestone30Title => '한 달 - 에너지 수익';
+
+  @override
+  String get nitrousOxideMilestone30Description =>
+      'B12는 적혈구 생산에 핵심적인 역할을 하며, 이는 신체의 모든 세포에 산소를 전달하는 것을 의미합니다. 한 달 간의 회복과 보충은 의미 있게 더 나은 에너지, 더 명확한 사고, 더 안정된 기분을 의미합니다.';
+
+  @override
+  String get nitrousOxideMilestone90Title => '3개월 - 신경학적 회복';
+
+  @override
+  String get nitrousOxideMilestone90Description =>
+      'B12가 파괴되지 않은 3개월은 신경 복구가 3개월이라는 의미입니다. 신경계는 회복력이 있습니다. 즉각 치료를 시작한 대부분의 사람들은 이 시점에서 따끔거림, 쇠약 및 뇌 혼미 현상이 상당히 회복되는 것을 볼 수 있습니다.';
+
+  @override
+  String get nitrousOxideMilestone365Title => '1년 - 장기적인 건강 보장';
+
+  @override
+  String get nitrousOxideMilestone365Description =>
+      '1년 동안 아산화질소가 없습니다. B12 저장량이 회복되고, 신경계가 치유되는 데 1년이 걸렸으며, 호모시스테인 증가로 인한 심혈관 위험이 해결되었습니다. 당신의 몸은 다시 그 자체의 화학적 성질에 따라 작동하고 있습니다.';
+
+  @override
+  String get addictionCocaine => '코카인';
+
+  @override
+  String get addictionAdderall => '애더럴';
+
+  @override
+  String get cocainePageTitle => '코카인 회수';
+
+  @override
+  String get cocaineHeaderStarted => '귀하의 회복 여정';
+
+  @override
+  String get cocaineHeaderNotStarted => '시작할 준비가 되셨나요?';
+
+  @override
+  String get cocaineSubtitleStarted => '진행 상황을 추적하고 각 목표를 축하하세요';
+
+  @override
+  String get cocaineSubtitleNotStarted => '어떤 긍정적인 변화가 당신을 기다리고 있는지 확인해보세요';
+
+  @override
+  String get cocaineMilestone1Title => '처음 24시간 - 시작';
+
+  @override
+  String get cocaineMilestone1Description =>
+      '도파민 수치가 안정화되기 시작하면 신체가 적응하기 시작합니다. 피로, 기분 변화, 강한 갈망을 경험할 수 있지만 심혈관 시스템은 이미 회복되기 시작했습니다.';
+
+  @override
+  String get cocaineMilestone3Title => '3일차 - 피크 챌린지';
+
+  @override
+  String get cocaineMilestone3Description =>
+      '금단 증상은 종종 이 시기에 최고조에 달합니다. 강렬한 갈망, 과민성, 불안, 피로를 경험할 수 있습니다. 이것은 일시적입니다. 두뇌는 스스로 균형을 재조정하기 위해 열심히 노력하고 있습니다.';
+
+  @override
+  String get cocaineMilestone7Title => '일주일 – 신체 회복이 시작됩니다';
+
+  @override
+  String get cocaineMilestone7Description =>
+      '가장 극심한 신체 증상이 사라지기 시작했습니다. 심박수와 혈압이 안정되고 있습니다. 심리적 갈망이 지속될 수 있지만 몸은 치유되고 있습니다.';
+
+  @override
+  String get cocaineMilestone14Title => '2주 - 안정 찾기';
+
+  @override
+  String get cocaineMilestone14Description =>
+      '많은 사람들이 감정적으로 더 안정감을 느끼기 시작합니다. 에너지 수준이 향상되고 급성 금단 증상이 완화됩니다. 귀하의 심혈관 건강은 계속해서 크게 개선되고 있습니다.';
+
+  @override
+  String get cocaineMilestone60Title => '2개월 - 수면과 기분 개선';
+
+  @override
+  String get cocaineMilestone60Description =>
+      '뇌 화학이 계속해서 정상화되면서 수면의 질이 눈에 띄게 좋아집니다. 하루 종일 더 휴식을 취하고 더 안정된 기분을 경험할 수 있습니다.';
+
+  @override
+  String get cocaineMilestone90Title => '3개월 - 뇌 회복';
+
+  @override
+  String get cocaineMilestone90Description =>
+      '당신의 도파민 시스템이 회복되고 있습니다. 집중력, 의사결정, 감정적 통제가 눈에 띄게 향상되고 사고가 더욱 명확해집니다.';
+
+  @override
+  String get cocaineMilestone180Title => '6개월 - 더 명확한 사고';
+
+  @override
+  String get cocaineMilestone180Description =>
+      '뇌 스캔은 계획과 자제력을 지원하는 뇌 앞부분의 회복을 보여줍니다. 기억력, 충동 조절, 명확한 사고력이 계속해서 강화됩니다.';
+
+  @override
+  String get cocaineMilestone365Title => '1년 - 심혈관 건강';
+
+  @override
+  String get cocaineMilestone365Description =>
+      '귀하의 심장과 심혈관계가 눈에 띄게 회복되었습니다. 혈압과 심박수가 정상화되었습니다. 심장마비와 뇌졸중의 위험이 크게 감소했습니다. 당신의 몸은 치유되고 있습니다.';
+
+  @override
+  String get cocaineMilestone730Title => '2년 - 지속적인 회복';
+
+  @override
+  String get cocaineMilestone730Description =>
+      '뇌 치유는 기억력, 집중력, 감정 조절의 지속적인 개선을 통해 계속됩니다. 신경 경로가 크게 재구성되어 더 건강한 패턴과 더 나은 전반적인 웰빙을 지원합니다.';
+
+  @override
+  String get tabJournal => '신문';
+
+  @override
+  String get tabStats => '통계';
+
+  @override
+  String get statsTitle => '회복 통계';
+
+  @override
+  String get statsNoAddictions => '통계를 보려면 중독 추적을 시작하세요.';
+
+  @override
+  String get statsJourneyTitle => '당신의 여행';
+
+  @override
+  String statsTotalDays(int days) {
+    return '$days 총 일수';
+  }
+
+  @override
+  String statsAddictionsTracked(int count) {
+    return '$count 추적됨';
+  }
+
+  @override
+  String get statsMoneySavedTitle => '돈이 절약되었습니다';
+
+  @override
+  String get statsMoneySavedEstimate => '평균 사용량을 기준으로 추정';
+
+  @override
+  String statsEquivalentCoffees(int count) {
+    return '$count 커피에 관한 것입니다.';
+  }
+
+  @override
+  String statsEquivalentMeals(int count) {
+    return '$count 레스토랑 식사에 관한 것입니다.';
+  }
+
+  @override
+  String get statsEquivalentFlight => '새로운 곳으로 떠나는 비행기야';
+
+  @override
+  String get statsEquivalentVacation => '해외여행이군요';
+
+  @override
+  String get statsTimeSavedTitle => '회수된 시간';
+
+  @override
+  String statsHoursSaved(int hours) {
+    return '$hours시간';
+  }
+
+  @override
+  String statsEquivalentBooks(int count) {
+    return '$count 책에 대해 읽을 만큼 충분합니다.';
+  }
+
+  @override
+  String statsEquivalentMovies(int count) {
+    return '$count 영화를 시청하기에 충분합니다.';
+  }
+
+  @override
+  String get statsStreaksTitle => '당신의 연속 기록';
+
+  @override
+  String statsDaysSuffix(int days) {
+    return '$days일';
+  }
+
+  @override
+  String statsDayUnit(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '일',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String statsHoursSuffix(int hours) {
+    return '$hours시간';
+  }
+
+  @override
+  String get statsResilienceTitle => '회복력';
+
+  @override
+  String statsTimesBouncedBack(int count) {
+    return '$count회 재설정하고 계속 진행함';
+  }
+
+  @override
+  String statsDaysBeforeRelapse(int days) {
+    return '매번 $days일 진행';
+  }
+
+  @override
+  String get tabSettings => '설정';
+
+  @override
+  String get homeAddButton => '추가하다';
+
+  @override
+  String get homeAddTooltip => '나만의 중독을 만들어서 끊으세요';
+
+  @override
+  String get quitStartButton => '시작';
+
+  @override
+  String get quitResetButton => '다시 놓기';
+
+  @override
+  String get quitCardSubtitle => '시작하려면 탭하세요.';
+
+  @override
+  String quitCardKeepDays(int days) {
+    String _temp0 = intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
+      other: '일',
+      one: '일',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String newVersionToast(String version) {
+    return '새 버전 $version';
+  }
+
+  @override
+  String get changesAction => '변경 사항';
+
+  @override
+  String hideDialogTitle(String title) {
+    return '$title를 숨기시겠습니까?';
+  }
+
+  @override
+  String hideDialogMessage(String title) {
+    return '이렇게 하면 홈 화면에서 $title 옵션이 숨겨집니다. 설정에서 다시 표시할 수 있습니다.';
+  }
+
+  @override
+  String get cancel => '취소';
+
+  @override
+  String get hide => '숨다';
+
+  @override
+  String stopTrackingDialogTitle(String title) {
+    return '$title 추적을 중지하시겠습니까?';
+  }
+
+  @override
+  String stopTrackingDialogMessage(String title) {
+    return '이렇게 하면 홈 화면에서 $title가 제거됩니다. 귀하의 마일스톤 기록은 보존됩니다.';
+  }
+
+  @override
+  String get stopTracking => '제거하다';
+
+  @override
+  String get addAddictionTitle => '중독 추적';
+
+  @override
+  String get addAddictionCustom => '관습';
+
+  @override
+  String get addAddictionCustomSubtitle => '그만두고 싶은 모든 것을 추적하세요';
+
+  @override
+  String get homeEmptyTitle => '아직 추적된 항목이 없습니다.';
+
+  @override
+  String get homeEmptySubtitle => '중독 추적을 시작하려면 +를 탭하세요.';
+
+  @override
+  String get addAddictionNoneAvailable => '사용 가능한 모든 중독이 이미 추적되고 있습니다.';
+
+  @override
+  String get addictionAlcohol => '술';
+
+  @override
+  String get addictionVaping => '베이핑';
+
+  @override
+  String get addictionSmoking => '흡연';
+
+  @override
+  String get addictionMarijuana => '삼';
+
+  @override
+  String get settingsLocaleUnsupported => '지원되지 않음';
+
+  @override
+  String get settingsLocaleJapanese => '일본어';
+
+  @override
+  String get settingsLocaleEnglish => '영어';
+
+  @override
+  String get settingsLocaleGerman => '독일어';
+
+  @override
+  String get settingsLocaleSimplifiedChinese => '중국어 간체';
+
+  @override
+  String get settingsLocaleTraditionalChinese => '중국어 번체';
+
+  @override
+  String get settingsLocaleRussian => '러시아어';
+
+  @override
+  String get settingsLocaleSpanish => '스페인어';
+
+  @override
+  String get settingsLocaleFrench => '프랑스어';
+
+  @override
+  String get settingsLocaleKorean => '한국어';
+
+  @override
+  String get settingsLocaleSystem => '시스템 기본값';
+
+  @override
+  String get settingsLocale => '언어';
+
+  @override
+  String get addictionNicotinePouches => '니코틴 파우치';
+
+  @override
+  String get addictionHeroin => '헤로인';
+
+  @override
+  String get addictionOpioids => '오피오이드';
+
+  @override
+  String get addictionFentanyl => '펜타닐';
+
+  @override
+  String get addictionSmokelessTobacco => '딥 / 씹는 담배';
+
+  @override
+  String get smokelessTobaccoPageTitle => '담배 없음';
+
+  @override
+  String get smokelessTobaccoHeaderStarted => '니코틴 없는 여행';
+
+  @override
+  String get smokelessTobaccoHeaderNotStarted => '담그고 씹는 담배를 끊으세요';
+
+  @override
+  String get smokelessTobaccoSubtitleStarted => '진행 상황을 추적하고 각 목표를 축하하세요';
+
+  @override
+  String get smokelessTobaccoSubtitleNotStarted => '그만두면 어떻게 되는지 알아보세요';
+
+  @override
+  String get addictionSocialMedia => '소셜 미디어';
+
+  @override
+  String get addictionAdultContent => '성인용 콘텐츠';
+
+  @override
+  String get search => '찾다...';
+
+  @override
+  String get noSearchResults => '검색결과가 없습니다';
+
+  @override
+  String get clearSearch => '검색 지우기';
+
+  @override
+  String get homeSearchHint => '검색 중독...';
+
+  @override
+  String get homeTrackAnyway => '어쨌든 추적하세요';
+
+  @override
+  String get iconSearchHint => '아이콘 검색...';
+
+  @override
+  String get iconNoResults => '아이콘을 찾을 수 없습니다';
+
+  @override
+  String get milestoneOpenOriginalSource => '원본 소스 열기';
+
+  @override
+  String get settingsExportSaveDialog => '다음 위치에 데이터 저장';
+
+  @override
+  String get settingsSearchHint => '검색 설정...';
+
+  @override
+  String get settingsSectionAppearance => '모습';
+
+  @override
+  String get settingsSectionSecurity => '보안';
+
+  @override
+  String get settingsSectionMainScreenItems => '메인 화면 항목';
+
+  @override
+  String get settingsSectionNotifications => '알림';
+
+  @override
+  String get settingsSectionSystem => '체계';
+
+  @override
+  String get settingsPinLock => '핀 잠금';
+
+  @override
+  String get settingsPinLockSubtitle => '앱을 열려면 PIN이 필요합니다.';
+
+  @override
+  String get settingsPinTimeout => 'PIN 시간 초과(초)';
+
+  @override
+  String get settingsPinTimeoutHint => '15';
+
+  @override
+  String get settingsTheme => '주제';
+
+  @override
+  String get settingsColorScheme => '색 구성표';
+
+  @override
+  String get settingsDynamicColorScheme => '동적 색상';
+
+  @override
+  String get settingsBlueColorScheme => '파란색';
+
+  @override
+  String get settingsGreenColorScheme => '녹색';
+
+  @override
+  String get settingsRedColorScheme => '빨간색';
+
+  @override
+  String get settingsPurpleColorScheme => '보라';
+
+  @override
+  String get settingsOrangeColorScheme => '주황색';
+
+  @override
+  String get settingsResetButtons => '재설정 버튼';
+
+  @override
+  String get settingsResetButtonsSubtitle => '종료 페이지에 재설정 버튼 표시';
+
+  @override
+  String get settingsShowJournal => '저널 표시';
+
+  @override
+  String get settingsShowBenzosSubtitle => '벤조스 추적 표시';
+
+  @override
+  String get settingsShowJournalSubtitle => '생각을 기록하려면 저널 탭을 활성화하세요.';
+
+  @override
+  String get settingsWeekStartsMonday => '주는 월요일에 시작됩니다.';
+
+  @override
+  String get settingsWeekStartsMondaySubtitle => '달력 주는 일요일 대신 월요일에 시작됩니다.';
+
+  @override
+  String get settingsSwipeBetweenTabs => '탭 간 스와이프';
+
+  @override
+  String get settingsSwipeBetweenTabsSubtitle =>
+      '일기장, 홈페이지, 설정 사이를 손가락으로 드래그하면 이동합니다.';
+
+  @override
+  String get settingsShowAlcoholTracking => '알코올 추적 표시';
+
+  @override
+  String get settingsShowVapingTracking => '베이핑 추적 표시';
+
+  @override
+  String get settingsShowSmokingTracking => '흡연 추적 표시';
+
+  @override
+  String get settingsShowMarijuanaTracking => '마리화나 추적 표시';
+
+  @override
+  String get settingsShowNicotinePouchesTracking => '니코틴 파우치 추적 표시';
+
+  @override
+  String get settingsShowOpioidsTracking => '오피오이드 추적 표시';
+
+  @override
+  String get settingsShowSocialMediaTracking => '소셜 미디어 추적 표시';
+
+  @override
+  String get settingsShowAdderallTracking => 'adderall 추적 표시';
+
+  @override
+  String get settingsNotifyAdderall => 'adderall 종료 진행 상황 알림';
+
+  @override
+  String get settingsShowCocaineTracking => '코카인 추적 표시';
+
+  @override
+  String get settingsShowMethTracking => '마약 추적 표시';
+
+  @override
+  String get settingsShowAdultContentTracking => '성인 콘텐츠 추적 표시';
+
+  @override
+  String get settingsNotificationFrequency => '알림 빈도';
+
+  @override
+  String settingsNotificationFrequencySubtitle(int days, String time) {
+    String _temp0 = intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
+      other: '$days일',
+      one: '$days일',
+    );
+    return '$_temp0마다 $time에';
+  }
+
+  @override
+  String get settingsNotifyAlcohol => '술 끊기 진행상황 알림';
+
+  @override
+  String get settingsNotifyVaping => '베이핑 종료 진행 상황 알림';
+
+  @override
+  String get settingsNotifySmoking => '금연 진행상황 알림';
+
+  @override
+  String get settingsNotifyMarijuana => '마리화나 중단 진행 상황 알림';
+
+  @override
+  String get settingsNotifyNicotinePouches => '니코틴 파우치 종료 진행 상황 알림';
+
+  @override
+  String get settingsNotifyBenzos => '벤조스 종료 진행 상황 알림';
+
+  @override
+  String get settingsNotifyOpioids => '오피오이드 중단 진행 상황 알림';
+
+  @override
+  String get settingsNotifySocialMedia => '소셜 미디어 종료 진행 상황 알림';
+
+  @override
+  String get settingsNotifyCocaine => '코카인 중단 진행 상황 알림';
+
+  @override
+  String get settingsNotifyMeth => '마약 끊기 진행 상황 알림';
+
+  @override
+  String get settingsNotifyAdultContent => '성인용 콘텐츠 종료 진행 상황 알림';
+
+  @override
+  String settingsNotifyCustomEntry(String name) {
+    return '$name 종료 진행 상황 알림';
+  }
+
+  @override
+  String get settingsResetMessages => '메시지 재설정';
+
+  @override
+  String get settingsResetMessagesSubtitle => '재발 후 긍정적인 강화를 보여줍니다.';
+
+  @override
+  String get settingsAbout => '에 대한';
+
+  @override
+  String get settingsWhatsNew => '새로운 소식';
+
+  @override
+  String get settingsEnjoyingApp => '앱을 즐기고 계시나요?';
+
+  @override
+  String get settingsReportBug => '버그 신고';
+
+  @override
+  String get settingsExportData => '데이터 내보내기';
+
+  @override
+  String get settingsImportData => '데이터 가져오기';
+
+  @override
+  String get settingsDeleteEverything => '모두 삭제';
+
+  @override
+  String get themeLight => '빛';
+
+  @override
+  String get themeDark => '어두운';
+
+  @override
+  String get themeSystem => '체계';
+
+  @override
+  String get themePureBlack => '퓨어 블랙';
+
+  @override
+  String get themeMode => '테마 모드';
+
+  @override
+  String get pinDialogSetTitle => 'PIN 설정';
+
+  @override
+  String get pinDialogEnterPIN => 'PIN 입력';
+
+  @override
+  String get pinDialogConfirmPIN => 'PIN 확인';
+
+  @override
+  String get pinDialogSet => '세트';
+
+  @override
+  String get pinDialogPINsDoNotMatch => 'PIN이 일치하지 않습니다.';
+
+  @override
+  String get pinDialogPIN => '핀';
+
+  @override
+  String get pinDialogOK => '좋아요';
+
+  @override
+  String get notificationFrequencyDialogTitle => '알림 빈도';
+
+  @override
+  String get notificationFrequencyNotifyEvery => '알림 간격';
+
+  @override
+  String get notificationFrequencyDays => '날)';
+
+  @override
+  String get notificationFrequencyAt => '~에';
+
+  @override
+  String get notificationFrequencySave => '구하다';
+
+  @override
+  String get notificationTestTitle => '긍정적인 확언';
+
+  @override
+  String notificationTestBody(int days) {
+    String _temp0 = intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
+      other: '$days일',
+      one: '$days일',
+    );
+    return '진행 상황을 축하하는 알림이 $_temp0마다 표시됩니다!';
+  }
+
+  @override
+  String get deleteEverythingDialogTitle => '모두 삭제';
+
+  @override
+  String get deleteEverythingDialogMessage =>
+      '정말 모두 삭제하시겠습니까? 이 작업은 취소할 수 없습니다.';
+
+  @override
+  String get deleteEverythingConfirm => '삭제!';
+
+  @override
+  String get dataExported => '데이터를 내보냈습니다!';
+
+  @override
+  String get dataImported => '데이터를 성공적으로 가져왔습니다!';
+
+  @override
+  String get dataImportFailed => '가져오기 실패';
+
+  @override
+  String get dataImportFailedMessage =>
+      '선택한 파일을 가져올 수 없습니다. 유효한 Quitter 백업인지 확인하고 다시 시도하십시오.';
+
+  @override
+  String get journalHowWasYourDay => '오늘 어땠나요?';
+
+  @override
+  String get journalPlaceholder => '오늘의 하루, 생각, 감정, 기억하고 싶은 모든 것을 적어보세요.';
+
+  @override
+  String journalWordCount(int count) {
+    return '$count 단어';
+  }
+
+  @override
+  String get journalPreviousMonth => '지난달';
+
+  @override
+  String get journalNextMonth => '다음 달';
+
+  @override
+  String get quitMilestonesStart => '시작';
+
+  @override
+  String get quitMilestonesReset => '다시 놓기';
+
+  @override
+  String get quitMilestonesQuitDate => '종료 날짜';
+
+  @override
+  String quitMilestonesClearTitle(int days) {
+    return '$days일 동안의 마일스톤을 삭제하시겠습니까?';
+  }
+
+  @override
+  String quitMilestonesClearMessage(int days) {
+    return '이렇게 하면 $days 일일 마일스톤을 달성한 과거 시간이 모두 지워집니다.';
+  }
+
+  @override
+  String get quitMilestonesClear => '분명한';
+
+  @override
+  String quitMilestonesShareMessage(int days, String title) {
+    String _temp0 = intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
+      other: '$days일',
+      one: '$days일',
+    );
+    return '$title 없이 지낸 지 $_temp0 됐어요!';
+  }
+
+  @override
+  String timelineMilestoneDay(int days) {
+    return '일 $days';
+  }
+
+  @override
+  String timelineMilestoneYears(int years) {
+    String _temp0 = intl.Intl.pluralLogic(
+      years,
+      locale: localeName,
+      other: '$years년',
+      one: '$years년',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get entryPageHeaderStarted => '한걸음 더 강하게';
+
+  @override
+  String get entryPageHeaderNotStarted => '시작되지 않음';
+
+  @override
+  String get entryPageSubtitleStarted => '당신은 잘하고 있습니다!';
+
+  @override
+  String get entryPageSubtitleNotStarted => '여행을 시작하려면 \"시작\"을 탭하세요';
+
+  @override
+  String get editEntryAddTitle => '항목 추가';
+
+  @override
+  String get editEntryEditTitle => '항목 수정';
+
+  @override
+  String get editEntryTitle => '제목';
+
+  @override
+  String get editEntryTitleError => '제목을 입력하세요';
+
+  @override
+  String get editEntryColor => '색상';
+
+  @override
+  String get editEntryIcon => '상';
+
+  @override
+  String get editEntrySave => '구하다';
+
+  @override
+  String get editEntryDeleteDialogTitle => '확실합니까?';
+
+  @override
+  String get editEntryDeleteDialogMessage => '이 항목을 정말로 삭제하시겠습니까?';
+
+  @override
+  String get editEntryDeleteNo => '아니요';
+
+  @override
+  String get editEntryDeleteYes => '예';
+
+  @override
+  String get pinPageEnterPIN => 'PIN 입력';
+
+  @override
+  String get pinPageIncorrectPIN => '잘못된 PIN';
+
+  @override
+  String pinPageTooManyAttempts(int seconds) {
+    return '시도 횟수가 너무 많습니다. $seconds에서 다시 시도하세요.';
+  }
+
+  @override
+  String get aboutPageTitle => '에 대한';
+
+  @override
+  String get aboutVersion => '버전';
+
+  @override
+  String get aboutAuthor => '작가';
+
+  @override
+  String get aboutAuthorName => '브랜든 딕';
+
+  @override
+  String get aboutLicense => '특허';
+
+  @override
+  String get aboutLicenseMIT => 'MIT';
+
+  @override
+  String get aboutDonate => '기부';
+
+  @override
+  String get aboutDonateSubtitle => '이 프로젝트를 지원해 주세요';
+
+  @override
+  String get aboutSourceCode => '소스 코드';
+
+  @override
+  String get whatsNewTitle => '새로운 소식은 무엇인가요?';
+
+  @override
+  String get whatsNewSearchHint => '찾다...';
+
+  @override
+  String get whatsNewEnjoyingButton => '앱을 즐기고 계시나요?';
+
+  @override
+  String get enjoyingPageTitle => '앱을 즐기고 계시나요?';
+
+  @override
+  String get enjoyingLeaveReview => '리뷰를 남겨주세요';
+
+  @override
+  String get enjoyingLeaveReviewSubtitle => '당신의 생각을 알려주세요!';
+
+  @override
+  String get enjoyingGiveStar => '우리에게 별을 주세요';
+
+  @override
+  String get enjoyingGiveStarSubtitle => 'GitHub에서 여러분의 지지를 보여주세요';
+
+  @override
+  String get enjoyingDonate => '기부';
+
+  @override
+  String get enjoyingDonateSubtitle => '개발 지원';
+
+  @override
+  String get alcoholPageTitle => '차분하고 반짝이는';
+
+  @override
+  String alcoholPageQuitDateDisplay(DateTime quitDate, int days) {
+    final intl.DateFormat quitDateDateFormat = intl.DateFormat.yMMMd(
+      localeName,
+    );
+    final String quitDateString = quitDateDateFormat.format(quitDate);
+
+    String _temp0 = intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
+      other: '$days일',
+      one: '$days일',
+    );
+    return '$quitDateString ($_temp0)';
+  }
+
+  @override
+  String get alcoholHeaderStarted => '당신에게 건배!';
+
+  @override
+  String get alcoholHeaderNotStarted => '앞으로의 냉정한 여행!';
+
+  @override
+  String get alcoholSubtitleStarted => '매일이 승리입니다 🥳';
+
+  @override
+  String get alcoholSubtitleNotStarted => '더 밝은 당신을 위한 준비가 되셨나요? ✨';
+
+  @override
+  String get vapingPageTitle => '베이프 없는 승리';
+
+  @override
+  String get vapingHeaderStarted => '앞으로 맑은 하늘!';
+
+  @override
+  String get vapingHeaderNotStarted => '베이프 없는 생활!';
+
+  @override
+  String get vapingSubtitleStarted => '숨 쉬기 편하고, 자유롭게 살아요 🌬️';
+
+  @override
+  String get vapingSubtitleNotStarted => '베이프를 버릴 준비가 되셨나요? ✨';
+
+  @override
+  String get smokingPageTitle => '금연 및 급증';
+
+  @override
+  String get smokingHeaderStarted => '숨 쉬어라!';
+
+  @override
+  String get smokingHeaderNotStarted => '금연여행!';
+
+  @override
+  String get smokingSubtitleStarted => '땀 흘리지 않는 모든 날이 승리입니다 🚭';
+
+  @override
+  String get smokingSubtitleNotStarted => '건강을 되찾을 준비가 되셨나요? ✨';
+
+  @override
+  String get marijuanaPageTitle => '대마초 없는 여행';
+
+  @override
+  String get marijuanaHeaderStarted => '맑은 마음이 솟아오르다!';
+
+  @override
+  String get marijuanaHeaderNotStarted => '대마초 없는 생활!';
+
+  @override
+  String get marijuanaSubtitleStarted => '하루에 한 번씩 정신적 명료함을 쌓으세요 🧠';
+
+  @override
+  String get marijuanaSubtitleNotStarted => '더 맑은 내일을 맞이할 준비가 되셨나요? 🌱';
+
+  @override
+  String get nicotinePouchesPageTitle => '파우치 없는 파워';
+
+  @override
+  String get nicotinePouchesHeaderStarted => '신선하고 무료입니다!';
+
+  @override
+  String get nicotinePouchesHeaderNotStarted => '파우치 없는 진행!';
+
+  @override
+  String get nicotinePouchesSubtitleStarted => '더 밝고 건강한 당신을 맞이하세요 ✨';
+
+  @override
+  String get nicotinePouchesSubtitleNotStarted => '파우치를 버릴 준비가 되셨나요? 🚀';
+
+  @override
+  String get opioidsPageTitle => '평화로 가는 길';
+
+  @override
+  String get opioidsHeaderStarted => '매일 더 강해지세요!';
+
+  @override
+  String get opioidsHeaderNotStarted => '회복의 길!';
+
+  @override
+  String get opioidsSubtitleStarted => '힘내세요💪';
+
+  @override
+  String get opioidsSubtitleNotStarted => '인생을 되찾을 준비가 되셨나요? 💖';
+
+  @override
+  String get opioidsInfoBox => '회복은 의학적 과정입니다. 항상 의료 전문가와 상담하십시오.';
+
+  @override
+  String get socialMediaPageTitle => '디지털 디톡스 딜라이트';
+
+  @override
+  String get socialMediaHeaderStarted => '플러그를 뽑고 플레이하세요!';
+
+  @override
+  String get socialMediaHeaderNotStarted => '디지털 디톡스 여행!';
+
+  @override
+  String get socialMediaSubtitleStarted => '실생활 최고의 피드 💖';
+
+  @override
+  String get socialMediaSubtitleNotStarted => '시간을 되돌릴 준비가 되셨나요? 🚀';
+
+  @override
+  String get pornographyPageTitle => '포르노 복구';
+
+  @override
+  String get pornographyHeaderStarted => '지속적인 제어 구축';
+
+  @override
+  String get pornographyHeaderNotStarted => '문제가 있는 음란물 사용 변경';
+
+  @override
+  String get pornographySubtitleStarted => '트리거, 제어 및 증거 기반 마일스톤 추적';
+
+  @override
+  String get pornographySubtitleNotStarted =>
+      '어떤 연구가 뒷받침하는지 확인하고 자신의 진행 상황을 측정하세요.';
+
+  @override
+  String get relapseMessage1 =>
+      '회복은 선형적이지 않습니다. 이것을 포함하여 앞으로 나아가는 모든 단계가 중요합니다.';
+
+  @override
+  String get relapseMessage2 => '당신은 여기 있고, 노력하고 있습니다. 그러기 위해서는 진정한 용기가 필요합니다.';
+
+  @override
+  String get relapseMessage3 => '좌절은 진행 상황을 지우지 않습니다. 당신은 배우고 성장하고 있습니다.';
+
+  @override
+  String get relapseMessage4 => '다시 시작할 때마다 약함의 표시가 아니라 강함의 증거가 됩니다.';
+
+  @override
+  String get relapseMessage5 => '내일은 새로운 시작입니다. 당신은 이것을 가지고 있습니다.';
+
+  @override
+  String get relapseMessage6 => '당신의 가치는 완벽한 연속 기록으로 정의되지 않습니다. 당신은 중요합니다.';
+
+  @override
+  String get relapseMessage7 => '회복은 언덕과 계곡이 있는 여행이다. 계속 걸어보세요.';
+
+  @override
+  String get relapseMessage8 => '당신은 전에 시작할 힘이 있었고 지금 다시 그것을 가지고 있습니다.';
+
+  @override
+  String get relapseMessage9 => '한 순간이 앞으로의 전체 여정을 정의하지는 않습니다.';
+
+  @override
+  String get relapseMessage10 =>
+      '여기에 있다는 것은 당신이 포기하지 않았다는 것을 보여줍니다. 그것은 강력합니다.';
+
+  @override
+  String get relapseMessage11 => '진보는 완벽함이 아니라 지속성에 관한 것입니다.';
+
+  @override
+  String get relapseMessage12 => '모든 시도에서 회복탄력성을 구축하고 있습니다. 계속 건설하세요.';
+
+  @override
+  String get relapseMessage13 => '다시 시도하겠다는 당신의 헌신은 이미 승리입니다.';
+
+  @override
+  String get relapseMessage14 => '치유는 즉각적이지는 않지만, 선택을 할 때마다 일어납니다.';
+
+  @override
+  String get relapseMessage15 =>
+      '당신은 다시 시작하는 것이 아니라 더 많은 지혜를 가지고 계속하고 있는 것입니다.';
+
+  @override
+  String get relapseMessage16 => '모든 전문가는 한때 초보자였습니다. 모든 프로는 한때 아마추어였습니다.';
+
+  @override
+  String get relapseMessage17 => '회복은 하루에 한 번, 때로는 한 시간에 한 번씩 이루어집니다.';
+
+  @override
+  String get relapseMessage18 => '복귀 스토리를 쓰고 계시군요. 이것은 단지 한 장에 불과합니다.';
+
+  @override
+  String get relapseMessage19 =>
+      '당신이 여기에 있다는 사실은 당신이 자신에 대해 관심을 갖고 있다는 것을 의미합니다. 잠깐만요.';
+
+  @override
+  String get relapseMessage20 => '올바른 방향으로 가는 작은 발걸음은 여전히 ​​전진하는 발걸음입니다.';
+
+  @override
+  String get undo => '끄르다';
+
+  @override
+  String get ok => '좋아요';
+
+  @override
+  String get alcoholMilestone1Title => '수면의 질이 향상되기 시작합니다';
+
+  @override
+  String get alcoholMilestone1Description =>
+      'REM 수면 주기는 첫날 이내에 정상화되기 시작합니다. 알코올은 처음에는 잠드는 데 도움이 될 수 있지만 밤새도록 깊은 수면과 REM 주기를 방해하여 단편적인 수면을 유발합니다.';
+
+  @override
+  String get alcoholMilestone3Title => '수화 수준 복원';
+
+  @override
+  String get alcoholMilestone3Description =>
+      '알코올의 이뇨 효과에서 신장이 회복되고 있습니다. 알코올은 항이뇨호르몬을 억제해 소변량과 탈수증을 유발한다. 3일째에는 신체의 체액 균형이 크게 개선됩니다.';
+
+  @override
+  String get alcoholMilestone7Title => '면역 체계가 강화됩니다';
+
+  @override
+  String get alcoholMilestone7Description =>
+      '백혈구가 기능을 회복하고 있습니다. 단 한 번의 과음이라도 최대 24시간 동안 면역 기능을 손상시킬 수 있으며, 만성 음주는 감염과 싸우는 신체의 능력을 크게 약화시킵니다.';
+
+  @override
+  String get alcoholMilestone14Title => '뇌량 회복 시작';
+
+  @override
+  String get alcoholMilestone14Description =>
+      '뇌량은 처음 2주 이내에 회복되기 시작합니다. 사고력과 기억력은 다음 달에 걸쳐 계속 향상됩니다.';
+
+  @override
+  String get alcoholMilestone30Title => '혈압이 정상화됩니다';
+
+  @override
+  String get alcoholMilestone30Description =>
+      '심혈관계가 크게 개선된 것으로 나타났습니다. 정기적으로 알코올을 섭취하면 혈압이 상승하지만 약 한 달 동안 금주하면 혈압을 건강한 수준으로 되돌리는 데 도움이 될 수 있습니다.';
+
+  @override
+  String get alcoholMilestone60Title => '간 기능이 좋아진다';
+
+  @override
+  String get alcoholMilestone60Description =>
+      '간 기능이 측정 가능한 수준으로 향상되었습니다. 이 재생 기관은 알코올로 인한 손상으로부터 상당히 회복될 수 있으며, 금주 2개월 이내에 간 효소와 지방 축적이 개선되는 것으로 나타났습니다.';
+
+  @override
+  String get alcoholMilestone90Title => '사고력과 기억력이 크게 향상됩니다.';
+
+  @override
+  String get alcoholMilestone90Description =>
+      '처음 3개월 동안은 기억력, 집중력, 의사 결정 능력이 크게 향상되며 이후 몇 달 동안 회복이 계속됩니다.';
+
+  @override
+  String get alcoholMilestone180Title => '뇌 용적 및 기능 지속적인 회복';
+
+  @override
+  String get alcoholMilestone180Description =>
+      '6개월 동안 술을 끊으면 뇌가 회복할 수 있는 지속적인 시간을 갖게 됩니다. 두뇌의 양과 사고 능력은 계속해서 향상됩니다.';
+
+  @override
+  String get alcoholMilestone365Title => '암 위험 감소가 시작될 수 있습니다';
+
+  @override
+  String get alcoholMilestone365Description =>
+      '1년 동안 금주하면 암 위험이 줄어들 수 있습니다. 알코올은 여러 암(간암, 유방암, 대장암, 식도암)의 위험을 분명히 증가시키지만, 위험 감소 일정에 대한 연구는 여전히 진행 중이며 암 유형에 따라 다릅니다.';
+
+  @override
+  String get smokingMilestone1Title => '일산화탄소 제거';
+
+  @override
+  String get smokingMilestone1Description =>
+      '당신의 피가 다시 숨을 쉬고 있습니다! 24시간 이내에 일산화탄소 수치가 정상으로 떨어지고 산소 수치가 증가합니다. 더 이상 심장이 몸 전체에 독이 든 혈액을 펌프질하기 위해 초과 근무를 할 필요가 없습니다.';
+
+  @override
+  String get smokingMilestone3Title => '니코틴 금단 최고치';
+
+  @override
+  String get smokingMilestone3Description =>
+      '니코틴 괴물이 가장 화가 났지만 당신은 전투에서 승리하고 있습니다! 모든 니코틴이 시스템을 떠났습니다. 최악의 갈망이 지금 일어나고 있지만, 그것은 또한 반대편의 자유를 향한 티켓이기도 합니다.';
+
+  @override
+  String get smokingMilestone7Title => '맛과 냄새가 극적으로 향상됩니다.';
+
+  @override
+  String get smokingMilestone7Description =>
+      '음식은 곧 다시 모험이 될 것입니다! 흡연은 미뢰와 후각 수용체를 파괴합니다. 일주일이 지나면 잊고 있던 맛을 재발견하게 됩니다. 진지한 음식 감상을 준비하세요!';
+
+  @override
+  String get smokingMilestone14Title => '순환 및 걷기 개선';
+
+  @override
+  String get smokingMilestone14Description =>
+      '당신의 다리는 매 걸음마다 감사합니다! 혈액 순환이 극적으로 향상되어 걷기와 운동이 눈에 띄게 쉬워집니다. 저 계단은 더 이상 그렇게 위협적으로 보이지 않죠?';
+
+  @override
+  String get smokingMilestone30Title => '폐 기능 증가';
+
+  @override
+  String get smokingMilestone30Description =>
+      '당신의 폐가 컴백 파티를 열고 있습니다! 섬모가 다시 자라서 수년간 쌓인 타르와 잔해를 쓸어내고 있습니다. 폐활량이 크게 증가하고 흡연자의 기침은 과거의 일입니다.';
+
+  @override
+  String get smokingMilestone90Title => '심장 마비 위험이 크게 감소합니다';
+
+  @override
+  String get smokingMilestone90Description =>
+      '당신의 마음이 러브레터를 보내고 있어요! 3개월 동안 금연을 하면 심혈관 위험이 이미 상당히 감소했습니다. 당신의 심혈관 시스템은 당신이 생각하는 것보다 더 빨리 치유되고 있습니다.';
+
+  @override
+  String get smokingMilestone180Title => '면역 체계가 강화됩니다';
+
+  @override
+  String get smokingMilestone180Description =>
+      '당신의 면역 체계가 슈퍼 히어로로 업그레이드되었습니다! 6개월 동안 담배를 피우지 않으면 백혈구가 완전한 힘을 되찾아 타고난 챔피언처럼 감염과 싸우게 됩니다.';
+
+  @override
+  String get smokingMilestone365Title => '뇌졸중 위험이 크게 감소합니다';
+
+  @override
+  String get smokingMilestone365Description =>
+      '1년의 자유를 누리세요! 뇌졸중 위험이 크게 감소했으며 혈관이 아름답게 치유되고 있습니다. 당신은 공식적으로 두뇌에 더 나은 순환과 보호라는 선물을 주었습니다.';
+
+  @override
+  String get smokingMilestone1825Title => '암 위험이 급락합니다(5년)';
+
+  @override
+  String get smokingMilestone1825Description =>
+      '5년의 승리! 구강암, 인후암, 식도암, 방광암 발병 위험이 절반으로 감소했습니다. 폐암 위험도 크게 감소했습니다. 당신의 세포는 수리하고 재생될 시간을 가졌습니다.';
+
+  @override
+  String get vapingMilestone1Title => '니코틴 갈망 최고치';
+
+  @override
+  String get vapingMilestone1Description =>
+      '당신의 두뇌는 니코틴 짜증을 내고 있지만 당신은 이미 승리하고 있습니다! 24시간 이내에 니코틴 수치가 급격히 떨어집니다. 최악의 갈망은 지금 발생하지만, 이를 극복하는 것이 가장 중요하기도 합니다.';
+
+  @override
+  String get vapingMilestone3Title => '호흡이 좋아진다';
+
+  @override
+  String get vapingMilestone3Description =>
+      '당신의 폐는 행복한 춤을 추고 있습니다! 기관지가 이완되기 시작하고 폐활량이 향상되기 시작합니다. 베이핑으로 인해 답답했던 가슴의 느낌이 이미 완화되기 시작했습니다.';
+
+  @override
+  String get vapingMilestone7Title => '맛과 냄새의 반환';
+
+  @override
+  String get vapingMilestone7Description =>
+      '음식이 다시금 맛있어질 것 같아요! 니코틴은 미뢰와 후각 수용체를 약화시킵니다. 일주일이 지나면 당신의 초능력 감각이 컴백 투어를 시작합니다.';
+
+  @override
+  String get vapingMilestone14Title => '순환이 개선됩니다';
+
+  @override
+  String get vapingMilestone14Description =>
+      '당신의 피는 챔피언처럼 흐르고 있습니다! 니코틴은 혈관을 수축하지만 2주 동안 금연을 하면 혈액 순환이 극적으로 좋아집니다. 차가운 손발, 물러가세요!';
+
+  @override
+  String get vapingMilestone30Title => '폐 기능 회복';
+
+  @override
+  String get vapingMilestone30Description =>
+      '당신의 폐는 사실상 축하 퍼레이드를 펼치고 있습니다! 섬모(작은 폐 청소부)가 재생되고 폐 기능이 크게 향상되었습니다. 그 아침 기침은 역사입니다!';
+
+  @override
+  String get vapingMilestone60Title => '불안 수준이 정상화됩니다';
+
+  @override
+  String get vapingMilestone60Description =>
+      '줄거리 반전: 베이핑은 불안을 더 악화시키는 것이 아니라 더 악화시켰습니다! 두 달이 지나면 평소의 불안 수준이 낮아지고 신경계가 안정됩니다.';
+
+  @override
+  String get vapingMilestone90Title => '집중력과 기억력 향상';
+
+  @override
+  String get vapingMilestone90Description =>
+      '뇌 안개가 건물을 떠났습니다! 3개월간 니코틴을 끊으면 집중력, 기억력, 명확한 사고력이 눈에 띄게 좋아집니다. 이는 정신적 RAM을 업그레이드하는 것과 같습니다.';
+
+  @override
+  String get vapingMilestone180Title => '구강 건강 회복';
+
+  @override
+  String get vapingMilestone180Description =>
+      '당신의 입이 감사 카드를 보내고 있습니다! 6개월 동안 베이프를 사용하지 않으면 잇몸 염증이 감소하고 치아 착색이 사라지며 구강 건강 문제의 위험이 크게 줄어듭니다.';
+
+  @override
+  String get vapingMilestone365Title => '심혈관 위험 감소';
+
+  @override
+  String get vapingMilestone365Description =>
+      '당신의 마음은 말 그대로 더 강해졌습니다! 1년이 지나면 심장병 발병 위험이 크게 감소합니다. 귀하의 심혈관 시스템은 매일의 니코틴 공격 과정에서 회복되었습니다.';
+
+  @override
+  String get marijuanaMilestone1Title => '금단 증상이 시작됨';
+
+  @override
+  String get marijuanaMilestone1Description =>
+      '당신의 두뇌는 THC가 없는 삶에 적응하고 있습니다! 24~48시간 이내에 과민성, 불안 또는 수면 장애를 경험할 수 있습니다. 이는 완전히 정상적인 현상입니다. 칸나비노이드 수용체가 재설정되기 시작하는 것입니다.';
+
+  @override
+  String get marijuanaMilestone3Title => '신체적 증상 최고조';
+
+  @override
+  String get marijuanaMilestone3Description =>
+      '당신은 가장 힘든 지점에 있지만 여기서부터는 모두 오르막입니다! 2~6일에는 일반적으로 두통, 발한, 기분 변화 등 금단 증상이 최고조에 달합니다. 당신의 몸은 균형을 다시 잡기 위해 열심히 노력하고 있습니다.';
+
+  @override
+  String get marijuanaMilestone7Title => '수면 패턴 개선';
+
+  @override
+  String get marijuanaMilestone7Description =>
+      '달콤한 꿈이 다시 돌아왔습니다! 대마초를 사용하지 않고 일주일이 지나면 자연스러운 수면 구조가 정상화되기 시작합니다. REM 수면이 반등하여 더 생생한 꿈을 꾸고 휴식의 질이 향상됩니다.';
+
+  @override
+  String get marijuanaMilestone14Title => '급성 금단 종료';
+
+  @override
+  String get marijuanaMilestone14Description =>
+      '폭풍이 지나갔습니다! 대부분의 신체적 금단 증상은 2주 후에 크게 감소합니다. 기분이 안정되고 일상생활이 훨씬 쉬워집니다. 가장 어려운 부분은 당신 뒤에 있습니다.';
+
+  @override
+  String get marijuanaMilestone30Title => '메모리 기능 향상';
+
+  @override
+  String get marijuanaMilestone30Description =>
+      '당신의 뇌 안개가 사라지고 있습니다! 연구에 따르면 대마초 사용을 중단한 후 언어 학습과 기억력이 크게 향상되기 시작합니다. 기억 형성에 중요한 해마가 더 잘 기능하기 시작합니다.';
+
+  @override
+  String get marijuanaMilestone60Title => '집중력이 날카로워진다';
+
+  @override
+  String get marijuanaMilestone60Description =>
+      '집중 모드: 활성화되었습니다! 대마초를 사용하지 않고 2개월간 집중하고 주의력을 유지하는 능력이 눈에 띄게 향상되었습니다. 업무와 공부를 관리하기가 눈에 띄게 쉬워집니다.';
+
+  @override
+  String get marijuanaMilestone90Title => '기분 안정 반환';
+
+  @override
+  String get marijuanaMilestone90Description =>
+      '3개월 동안 대마초를 사용하지 않으면 기분이 안정되고 불안이 줄어들며 스트레스 조절이 더 잘됩니다. 당신의 감정 상태는 더 건강한 정상 상태로 자리잡고 있습니다.';
+
+  @override
+  String get marijuanaMilestone180Title => '계획 및 의사결정 복구';
+
+  @override
+  String get marijuanaMilestone180Description =>
+      '당신의 정신적인 CEO가 다시 책임을 맡습니다! 대마초를 사용하지 않은 6개월은 계획, 의사 결정 및 문제 해결에 큰 이득을 가져옵니다.';
+
+  @override
+  String get marijuanaMilestone365Title => '뇌구조 회복';
+
+  @override
+  String get marijuanaMilestone365Description =>
+      '대마초를 사용하지 않는 1년은 기억과 관련된 뇌 영역을 회복하는 데 상당한 시간을 제공합니다. 학습 및 기억력 향상은 이제 새로운 표준의 일부입니다.';
+
+  @override
+  String get opioidMilestone1Title => '급성 금단이 시작됨';
+
+  @override
+  String get opioidMilestone1Description =>
+      '가장 어려운 부분은 지금부터 시작됩니다. 하지만 당신은 혼자가 아닙니다. 급성 금단 증상은 처음 24~72시간에 최고조에 달합니다. 이것은 치유 과정을 시작하는 신체입니다. 이 단계에서는 전문적인 의료 지원이 중요합니다.';
+
+  @override
+  String get opioidMilestone7Title => '신체 증상 최고조 및 감소 시작';
+
+  @override
+  String get opioidMilestone7Description =>
+      '폭풍우를 이겨내셨습니다! 최악의 신체적 금단 증상은 일반적으로 3~5일째에 최고조에 달하고 7일째부터 감소하기 시작합니다. 신체는 자연적인 균형을 회복하기 위해 열심히 노력하고 있습니다.';
+
+  @override
+  String get opioidMilestone14Title => '수면 패턴이 개선되기 시작합니다';
+
+  @override
+  String get opioidMilestone14Description =>
+      '달콤한 꿈이 다시 돌아왔습니다! 2주가 지나면 자연스러운 수면 구조가 회복되기 시작합니다. 오피오이드는 REM 수면을 방해하지만 뇌는 자연스럽게 다시 꿈을 꾸는 법을 배우고 있습니다.';
+
+  @override
+  String get opioidMilestone30Title => '사고와 기억이 회복되기 시작합니다';
+
+  @override
+  String get opioidMilestone30Description =>
+      '뇌 안개가 걷히고 있습니다! 한 달 동안 뇌의 앞부분이 오피오이드 관련 변화에서 회복되면서 기억력, 의사 결정 및 명확한 사고가 향상됩니다.';
+
+  @override
+  String get opioidMilestone60Title => '감정 조절이 개선됩니다';
+
+  @override
+  String get opioidMilestone60Description =>
+      '당신의 감정은 다시 자연스러운 리듬을 찾고 있습니다. 회복 기간이 2개월이 지나면 뇌의 보상 시스템이 일상의 즐거움에 반응하기 시작합니다. 감정의 롤러코스터가 안정되고 있습니다.';
+
+  @override
+  String get opioidMilestone90Title => '도파민 기능이 크게 회복됩니다.';
+
+  @override
+  String get opioidMilestone90Description =>
+      '당신의 두뇌 보상 시스템이 환영 파티를 열고 있습니다! 3개월간 깨끗함과 도파민 기능이 크게 향상되었습니다. 음식, 음악, 인간관계 등 자연스러운 활동이 다시 보람을 느끼기 시작합니다.';
+
+  @override
+  String get opioidMilestone180Title => '면역 체계가 강화됩니다';
+
+  @override
+  String get opioidMilestone180Description =>
+      '당신의 면역체계가 다시 순찰 임무를 수행합니다! 6개월 간의 회복과 신체의 자연 방어력이 크게 강화되었습니다. 당신은 감염과 질병에 맞서 싸울 준비가 더 잘 되어 있습니다.';
+
+  @override
+  String get opioidMilestone365Title => '신경 가소성 및 뇌 구조 개선';
+
+  @override
+  String get opioidMilestone365Description =>
+      '당신의 두뇌는 혁신하느라 바빴습니다! 1년 동안 회복한 결과 뇌 구조와 신경 가소성이 크게 개선되었습니다. 만성적인 오피오이드 사용으로 인한 변화는 아름답게 치유되고 있습니다.';
+
+  @override
+  String get opioidMilestone730Title => '장기회복안정성(2년)';
+
+  @override
+  String get opioidMilestone730Description =>
+      '2년간의 강인함과 회복력! 당신은 새로운 신경 경로, 대처 전략, 생활 패턴을 구축했습니다. 연구에 따르면 이 이정표에 도달하면 재발 위험이 극적으로 감소합니다. 당신은 회복 전사입니다!';
+
+  @override
+  String get socialMediaMilestone1Title => '디지털 디톡스 첫날! 🎯';
+
+  @override
+  String get socialMediaMilestone1Description =>
+      '당신은 공식적으로 두뇌 재배선을 시작했습니다! 연구에 따르면 소셜 미디어를 확인하는 것에 대해 생각하는 것만으로도 중독과 동일한 신경 경로가 유발되는 것으로 나타났습니다. 하지만 당신은 이미 이 악순환을 깨고 있습니다. 가세요!';
+
+  @override
+  String get socialMediaMilestone3Title => '포모? FO-NO에 더 가깝습니다! 😍';
+
+  @override
+  String get socialMediaMilestone3Description =>
+      '3일이 지나면 \'내가 무엇을 놓치고 있는 걸까?\' 불안해하는 사람들이 있습니다. 생각은 이미 희미해지고 있다. 실제 생활이 엄선된 피드보다 훨씬 더 흥미롭다는 사실을 두뇌를 훈련하고 있는 것입니다!';
+
+  @override
+  String get socialMediaMilestone7Title => '주의 범위: 금붕어 → 인간 🧠';
+
+  @override
+  String get socialMediaMilestone7Description =>
+      '1주차 완료! 몇 분마다 휴대폰을 확인하지 않고도 집중하는 능력이 이미 향상되고 있습니다. 연구에 따르면 우리의 두뇌는 알림을 통해 도파민을 갈망하지만 다른 곳에서 보상을 찾도록 가르치고 있습니다.';
+
+  @override
+  String get socialMediaMilestone14Title => '아기처럼 자세요(좀비 아님) 😴';
+
+  @override
+  String get socialMediaMilestone14Description =>
+      '2주 동안 잠자리에 들기 전 스크롤하지 않고 = 수면의 질 향상! 화면에서 나오는 청색광은 멜라토닌 생성을 억제하지만 자연스러운 수면 리듬은 아름답게 회복됩니다.';
+
+  @override
+  String get socialMediaMilestone30Title => '진짜 친구 > 가짜 좋아요 💝';
+
+  @override
+  String get socialMediaMilestone30Description =>
+      '오프라인 한 달 = 외로움과 우울증이 크게 감소합니다! 연구에 따르면 소셜 미디어를 제한하면 정신 건강이 크게 향상된다는 사실이 입증되었습니다. 당신은 더욱 발전했습니다!';
+
+  @override
+  String get socialMediaMilestone60Title => '비교 함정: 탈출했습니다! ✨';
+
+  @override
+  String get socialMediaMilestone60Description =>
+      '끊임없는 사회적 비교가 없는 두 달 = 지붕을 통한 자신감! 연구에 따르면 소셜 미디어 사용은 특히 상향식 사회적 비교에서 자존감 감소와 관련이 있는 것으로 나타났습니다. 당신은 비교의 함정에서 벗어났습니다!';
+
+  @override
+  String get socialMediaMilestone90Title => '취미 수집가 레벨: 전문가 🎨';
+
+  @override
+  String get socialMediaMilestone90Description =>
+      '3개월 = 대략 270시간 이상 회수됨! 그것은 기술을 배우고, 15권 이상의 책을 읽거나, 깊은 취미를 갖기에 충분한 시간입니다. 뇌는 반복되는 습관을 강화하므로 오프라인 루틴이 더욱 쉬워지고 자동화됩니다.';
+
+  @override
+  String get socialMediaMilestone180Title => '정신건강 글로업 완료 🌟';
+
+  @override
+  String get socialMediaMilestone180Description =>
+      '오프라인 상태로 6개월이 지나면 공식적으로 성공하게 됩니다! 장기간의 연구에 따르면 소셜 미디어 사용을 줄이면 웰빙, 자존감 및 삶의 만족도가 지속적으로 향상되는 것으로 나타났습니다. 당신은 현실 세계의 삶이 더 낫다는 살아있는 증거입니다!';
+
+  @override
+  String get socialMediaMilestone365Title => '디지털 젠 마스터 달성 🏆';
+
+  @override
+  String get socialMediaMilestone365Description =>
+      '1년 동안 의도적인 삶을 살아보세요! 당신은 1,000시간 이상을 투자하고 더 깊은 관계를 형성했으며 인생 최고의 순간은 공유하기 위한 것이 아니라 경험하기 위한 것임을 증명했습니다. 당신은 공식적으로 디지털 웰니스의 전설이 되었습니다!';
+
+  @override
+  String get nicotinePouchesMilestone1Title => '맛과 냄새가 회복되기 시작합니다';
+
+  @override
+  String get nicotinePouchesMilestone1Description =>
+      '니코틴은 미뢰와 후각 수용체를 둔화시킵니다. 파우치 없이 단 24시간 만에 이 감각들의 컴백 투어가 시작됩니다! 음식의 맛이 다시 놀라워질 것입니다.';
+
+  @override
+  String get nicotinePouchesMilestone3Title => '니코틴이 완전히 제거됨';
+
+  @override
+  String get nicotinePouchesMilestone3Description =>
+      '당신의 몸은 공식적으로 모든 니코틴을 제거했습니다! 금단 증상은 지금쯤 최고조에 달할 수 있지만 기억하세요. 이것은 자유를 위해 두뇌가 스스로 재배선되는 것입니다. 가장 어려운 부분이 거의 끝났습니다.';
+
+  @override
+  String get nicotinePouchesMilestone7Title => '구강 건강이 향상됩니다';
+
+  @override
+  String get nicotinePouchesMilestone7Description =>
+      '당신의 잇몸이 축하를 보내고 있습니다! 니코틴 파우치는 잇몸 염증과 잇몸 퇴축을 유발할 수 있습니다. 일주일이 지나면 잇몸으로의 혈류가 정상화되고 치유가 시작됩니다.';
+
+  @override
+  String get nicotinePouchesMilestone14Title => '순환 증진';
+
+  @override
+  String get nicotinePouchesMilestone14Description =>
+      '당신의 혈관이 행복한 춤을 추고 있습니다! 니코틴은 혈관을 수축하지만 2주 동안 무료로 사용하면 혈액 순환이 크게 개선됩니다. 안녕하세요, 따뜻한 손과 발!';
+
+  @override
+  String get nicotinePouchesMilestone30Title => '스트레스 반응이 정상화됩니다';
+
+  @override
+  String get nicotinePouchesMilestone30Description =>
+      '줄거리 반전: 니코틴은 실제로 사용 사이에 스트레스를 증가시킵니다! 코티솔과 스트레스 반응이 정상으로 돌아오고 있습니다. 니코틴 가짜가 아닌 진정한 휴식입니다.';
+
+  @override
+  String get nicotinePouchesMilestone60Title => '수면의 질이 향상됩니다';
+
+  @override
+  String get nicotinePouchesMilestone60Description =>
+      '달콤한 꿈은... 니코틴이 없습니다! 니코틴은 편안한 것처럼 보이지만 실제로는 수면 구조를 방해합니다. 두 달이 지나면 REM 주기가 아름답게 회복됩니다.';
+
+  @override
+  String get nicotinePouchesMilestone90Title => '도파민 수용체 회복';
+
+  @override
+  String get nicotinePouchesMilestone90Description =>
+      '당신의 두뇌 보상 시스템이 다시 온라인 상태로 돌아왔습니다! 니코틴은 도파민 경로를 탈취하여 정상적인 즐거움을 지루하게 만듭니다. 3개월 무료 체험을 통해 삶의 자연스러운 즐거움이 다시 살아납니다.';
+
+  @override
+  String get nicotinePouchesMilestone180Title => '심혈관 위험 감소';
+
+  @override
+  String get nicotinePouchesMilestone180Description =>
+      '당신의 마음이 러브레터를 보내고 있어요! 니코틴 없이 6개월간 심혈관 질환 위험이 크게 감소합니다. 혈압과 심박수 변이도가 크게 개선됩니다.';
+
+  @override
+  String get nicotinePouchesMilestone365Title => '장기적인 건강 확보';
+
+  @override
+  String get nicotinePouchesMilestone365Description =>
+      '1년의 자유! 니코틴 관련 건강 문제의 위험은 계속 급락하고 있습니다. 당신은 중독의 고리를 끊고 자율성을 되찾았습니다. 정말 영웅적이네요! 🏆';
+
+  @override
+  String get pornographyMilestone1Title => '통제권 되찾기';
+
+  @override
+  String get pornographyMilestone1Description =>
+      '문제가 있는 음란물 사용은 통제력 부족으로 인한 괴로움이나 장애로 정의됩니다. 당신은 이미 이전 패턴을 한 번 중단하고 이를 유발하는 요인을 식별하기 시작했기 때문에 하루가 중요합니다.';
+
+  @override
+  String get pornographyMilestone3Title => '당신의 충동을 알아라';
+
+  @override
+  String get pornographyMilestone3Description =>
+      '더 심각한 문제 사용을 하는 사람들은 일반적으로 침입적인 성적 생각, 통제하기 어려운 욕망, 과민성, 기분 변화 및 수면 문제를 보고합니다. 셋째 날은 그 중 실제로 어떤 일이 일어나고 있는지 알려주는 유용한 포인트입니다.';
+
+  @override
+  String get pornographyMilestone7Title => '일주일: 시험 증거';
+
+  @override
+  String get pornographyMilestone7Description =>
+      '7일간의 무작위 금욕 연구에서 일반 사용자들은 전반적인 금단 증상을 보이지 않았습니다. 문제적 사용률과 일일 시청률이 모두 높은 탐구 하위 그룹은 갈망이 더 많았으므로 첫 주가 험난할 수는 있지만 불가피하지는 않습니다.';
+
+  @override
+  String get pornographyMilestone14Title => '트리거 매핑';
+
+  @override
+  String get pornographyMilestone14Description =>
+      '2주 동안 여러분은 음란물을 암시하는 상황에 반복적으로 노출될 것입니다. 연구는 문제적 사용을 갈망, 스트레스, 회피, 외로움 및 대처 스타일을 포함한 요인과 연관시킵니다. 자신의 패턴을 아는 것은 변화할 수 있는 구체적인 것을 제공합니다.';
+
+  @override
+  String get pornographyMilestone30Title => '통제의 달';
+
+  @override
+  String get pornographyMilestone30Description =>
+      '한 달은 의미 있는 통제 테스트입니다. 14,581명을 대상으로 한 연구에서 성기능 문제는 단순한 시청 빈도보다 문제가 있는 사용과 더 강력하게 연관되어 있으므로 통제력을 회복하는 것이 더 증거 기반 목표입니다.';
+
+  @override
+  String get pornographyMilestone90Title => '변화는 보류될 수 있다';
+
+  @override
+  String get pornographyMilestone90Description =>
+      '문제가 있는 음란물 사용에 대한 무작위 ACT 시험에서는 12회 세션 후에 시청이 크게 감소한 것으로 나타났으며 3개월 후속 조치에서도 여전히 상당한 감소가 나타났습니다. 지속 가능한 변화는 현실적입니다. 특히 의지력에만 의존하는 대신 구조화된 기술을 구축할 때 더욱 그렇습니다.';
+
+  @override
+  String get pornographyMilestone180Title => '6개월 안정성';
+
+  @override
+  String get pornographyMilestone180Description =>
+      '통제할 수 없는 성적 행동에 대한 무작위 CBT 연구에서는 3개월 및 6개월 추적 조사에서 증상, 성적 강박, 웰빙의 개선이 안정적으로 유지되는 것으로 나타났습니다. 장기간 관리가 유지될 수 있습니다.';
+
+  @override
+  String get pornographyMilestone365Title => '1년: 지속 가능한 변화';
+
+  @override
+  String get pornographyMilestone365Description =>
+      '수용 기반 치료 연구의 1년 후속 데이터에 따르면 참가자들은 치료 전 성욕과다 수준으로 돌아가지 않은 것으로 나타났습니다. 1년간의 지속적인 변화는 마법의 두뇌 재설정 날짜가 아니라 내구성 있는 패턴의 신뢰할 수 있는 증거입니다.';
+
+  @override
+  String get pornographyMilestone1825Title => '5년간의 통제';
+
+  @override
+  String get pornographyMilestone1825Description =>
+      '5년은 장기 유지보수입니다. CSBD는 고통이나 장애로 인한 지속적인 통제력 상실로 임상적으로 정의되므로 수년에 걸쳐 통제력과 기능을 잘 유지하는 것은 그 자체로 의미 있는 결과입니다.';
+
+  @override
+  String get customMilestone1Title => '초기 복구 단계가 시작됩니다';
+
+  @override
+  String get customMilestone1Description =>
+      '당신의 몸이 치유 과정을 시작합니다! 금연 후 24시간 이내에 신체는 독소를 제거하고 중독성 물질 없이 기능하도록 조정되기 시작합니다. 수면 장애는 흔하지만 회복 과정의 일부입니다.';
+
+  @override
+  String get customMilestone3Title => '금단 증상 최고';
+
+  @override
+  String get customMilestone3Description =>
+      '당신은 폭풍을 정면으로 맞이하고 있습니다! 신체적 금단 증상은 일반적으로 불안, 기분 변화, 신체적 불편함을 포함한 많은 물질의 경우 3일 쯤에 최고조에 달합니다. 이것은 당신이 가장 어려운 부분을 극복하고 있음을 의미합니다.';
+
+  @override
+  String get customMilestone7Title => '급성 금단 단계 종료';
+
+  @override
+  String get customMilestone7Description =>
+      '최악의 상황은 당신 뒤에 있습니다! 일주일이 지나면 대부분의 약물에 대한 급성 금단 증상이 사라지기 시작합니다. 귀하의 신체는 새로운 정상 상태에 적응하고 안정화되기 시작했습니다.';
+
+  @override
+  String get customMilestone14Title => '조기회복 안정화';
+
+  @override
+  String get customMilestone14Description =>
+      '마음이 맑아지고 있어요! 2주 동안 금주하면 두뇌가 중독성 물질 없이 기능하는 데 적응하기 시작하면서 정신이 맑아지고 갈망이 줄어드는 경우가 많습니다.';
+
+  @override
+  String get customMilestone30Title => '한 달의 마일스톤';
+
+  @override
+  String get customMilestone30Description =>
+      '큰 승리입니다! 30일간의 금주는 상당한 진전을 의미합니다. 많은 사람들은 이 기간 동안 수면 패턴, 기분, 에너지 수준이 계속해서 향상된다는 사실을 발견합니다.';
+
+  @override
+  String get customMilestone90Title => '3개월 복구 마일스톤';
+
+  @override
+  String get customMilestone90Description =>
+      '당신의 헌신은 성과를 거두고 있습니다! 3개월 간의 회복은 상당한 성과를 의미합니다. 급성 금단 증상은 일반적으로 사라지기 시작하며 많은 사람들이 다시 자신과 같은 느낌을 받는다고 보고합니다.';
+
+  @override
+  String get customMilestone180Title => '6개월간 회복 성과';
+
+  @override
+  String get customMilestone180Description =>
+      '지속적인 변화를 구축하고 있습니다! 6개월 동안 절주하면 신체가 계속 치유되면서 신체 건강, 정서적 안정, 전반적인 삶의 질이 지속적으로 향상되는 경우가 많습니다.';
+
+  @override
+  String get customMilestone365Title => '1년의 회복';
+
+  @override
+  String get customMilestone365Description =>
+      '놀라운 성과입니다! 1년간의 절주는 인생의 중요한 이정표를 나타냅니다. 많은 사람들이 이 시점에서 신체 건강, 관계, 전반적인 웰빙이 크게 향상되는 것을 경험합니다.';
+
+  @override
+  String get customMilestone730Title => '2년간의 지속적인 회복';
+
+  @override
+  String get customMilestone730Description =>
+      '당신은 새로운 삶을 구축했습니다! 2년간의 회복은 놀라운 회복력과 헌신을 보여줍니다. 장기간의 절주는 종종 삶의 모든 영역에서 심오하고 긍정적인 변화를 가져오고 재발 위험을 크게 감소시킵니다.';
+
+  @override
+  String get addictionSsri => 'SSRI';
+
+  @override
+  String get ssriPageTitle => 'SSRI 복구';
+
+  @override
+  String get ssriHeaderStarted => '귀하의 회복 여정';
+
+  @override
+  String get ssriHeaderNotStarted => 'SSRI 테이퍼링 오프의 이점';
+
+  @override
+  String get ssriSubtitleStarted => '진행 상황을 추적하고 각 목표를 축하하세요';
+
+  @override
+  String get ssriSubtitleNotStarted => '테이퍼오프하면 어떤 일이 발생하는지 확인하세요.';
+
+  @override
+  String get ssriMilestone3Title => '3일차: FINISH 증후군 정점';
+
+  @override
+  String get ssriMilestone3Description =>
+      '금단 증상은 대개 2~4일째에 최고조에 달합니다. SSRI는 세로토닌이 재활용되는 방식을 변경하므로 중단 후 뇌가 적응할 시간이 필요합니다. 독감과 유사한 증상, 현기증, 불면증, 메스꺼움 및 \'뇌졸중\'이 예상됩니다. 파록세틴은 더 강한 금단 현상을 일으키는 경향이 있습니다. 플루옥세틴은 신체에서 훨씬 더 오래 지속되며 일반적으로 더 온화합니다.';
+
+  @override
+  String get ssriMilestone7Title => '일주일: 급성기가 완화되기 시작함';
+
+  @override
+  String get ssriMilestone7Description =>
+      '가장 극심한 신체 증상이 사라지기 시작했습니다. 당신의 두뇌는 약물 없이도 기능하도록 세로토닌 신호를 조정하고 있습니다. 수면과 식욕이 안정되기 시작합니다.';
+
+  @override
+  String get ssriMilestone14Title => '2주: 신체적 증상 해결';
+
+  @override
+  String get ssriMilestone14Description =>
+      '대부분의 급성 신체 중단 증상은 크게 감소되거나 해결되었습니다. 뇌진탕, 메스꺼움, 현기증이 사라집니다. 두뇌가 세로토닌 시스템의 균형을 계속 재조정함에 따라 정서적 민감도는 여전히 높아질 수 있습니다.';
+
+  @override
+  String get ssriMilestone30Title => '한 달: 기분과 에너지 안정화';
+
+  @override
+  String get ssriMilestone30Description =>
+      '한 달은 중요한 이정표입니다. 수면의 질이 향상되고, 에너지 수준이 안정되고, 많은 사람들이 자신의 기분이 새로운 균형을 찾기 시작하는 것을 알아차립니다. 뇌는 자연적인 세로토닌 조절을 적극적으로 회복하고 있습니다.';
+
+  @override
+  String get ssriMilestone90Title => '3개월: 세로토닌 수용체 회복';
+
+  @override
+  String get ssriMilestone90Description =>
+      '3개월은 주요 회복 단계입니다. 세로토닌 시스템은 약이 사라진 후 몇 달 동안 조정되었습니다. 기분, 불안, 집중력, 명확한 사고는 대부분의 사람들에게 의미있게 더 좋습니다.';
+
+  @override
+  String get ssriMilestone180Title => '6개월: 장기적인 두뇌 조정';
+
+  @override
+  String get ssriMilestone180Description =>
+      '6개월이면 상당한 신경학적 적응이 가능해집니다. 뇌의 세로토닌 시스템이 자연스러운 균형을 찾았습니다. 많은 사람들이 감정 범위가 개선되었다고 보고하고, 이를 경험한 사람들의 경우 SSRI로 인한 성기능 장애가 일반적으로 해결되었습니다.';
+
+  @override
+  String get ssriMilestone365Title => '1년: 회복 달성';
+
+  @override
+  String get ssriMilestone365Description =>
+      '1년은 완전한 회복 주기를 나타냅니다. 연구에 따르면 점진적인 감량을 완료하고 심리적 지원을 받은 대다수는 1년 후에도 약물 치료를 받은 사람들과 비슷하거나 더 나은 삶의 질을 유지하고 있는 것으로 나타났습니다.';
+
+  @override
+  String get settingsShowSsriTracking => 'SSRI 추적 표시';
+
+  @override
+  String get settingsNotifySsri => 'SSRI 종료 진행 상황 알림';
+
+  @override
+  String get addictionSnri => 'SNRI';
+
+  @override
+  String get snriPageTitle => 'SNRI 복구';
+
+  @override
+  String get snriHeaderStarted => '귀하의 회복 여정';
+
+  @override
+  String get snriHeaderNotStarted => 'SNRI 축소의 이점';
+
+  @override
+  String get snriSubtitleStarted => '진행 상황을 추적하고 각 목표를 축하하세요';
+
+  @override
+  String get snriSubtitleNotStarted => '테이퍼오프하면 어떤 일이 발생하는지 확인하세요.';
+
+  @override
+  String get snriMilestone3Title => '3일차: 극심한 중단 증후군 최고점';
+
+  @override
+  String get snriMilestone3Description =>
+      'SNRI, 특히 벤라팍신(Effexor)은 가장 심각한 항우울제 중단 증후군과 관련이 있습니다. 벤라팍신의 매우 짧은 반감기(5시간)는 대부분의 SSRI보다 증상이 더 심할 수 있음을 의미합니다. FINISH 증상(독감 같은 느낌, 불면증, 메스꺼움, 불균형, 감각 장애, 각성 과다)은 세로토닌과 노르에피네프린 시스템에 동시에 영향을 미칩니다.';
+
+  @override
+  String get snriMilestone7Title => '일주일: 두 가지 뇌 화학 시스템 조정';
+
+  @override
+  String get snriMilestone7Description =>
+      'SNRI는 세로토닌과 노르에피네프린 재흡수 모두에 영향을 미칩니다. 두 시스템 모두 동시에 조정 중입니다. 가장 극심한 신체 증상이 가라앉기 시작했지만, 이중 메커니즘으로 인해 SSRI만 사용할 때보다 조정이 더 복잡하게 느껴질 수 있습니다.';
+
+  @override
+  String get snriMilestone14Title => '2주: 신체적 증상이 사라짐';
+
+  @override
+  String get snriMilestone14Description =>
+      '대부분의 급성 신체 중단 증상이 크게 감소되었습니다. 뇌진탕, 메스꺼움, 현기증이 사라집니다. 노르에피네프린 시스템의 재조정으로 인해 여전히 약간의 불안이나 혈압 변동이 발생할 수 있습니다. 이러한 현상은 일반적으로 앞으로 몇 주가 지나면 해결됩니다.';
+
+  @override
+  String get snriMilestone30Title => '한 달: 노르에피네프린 시스템 안정화';
+
+  @override
+  String get snriMilestone30Description =>
+      '한 달은 중요한 이정표입니다. 세로토닌과 노르에피네프린 시스템 모두 적극적으로 재균형을 이루고 있습니다. 수면의 질과 에너지 수준이 안정되고 있습니다. 많은 사람들은 감정 둔화에 대한 약물의 효과가 해결되기 시작하면서 감정 범위가 개선되었음을 알아차립니다.';
+
+  @override
+  String get snriMilestone90Title => '3개월: 이중 시스템 재조정';
+
+  @override
+  String get snriMilestone90Description =>
+      '3개월은 주요 회복 단계입니다. 세로토닌과 노르아드레날린 시스템은 조정하는 데 몇 달이 걸렸습니다. 감독된 테이퍼 후에 기분, 불안, 집중력 및 명확한 사고가 의미 있게 더 좋아졌습니다.';
+
+  @override
+  String get snriMilestone180Title => '6개월: 신경학적 회복';
+
+  @override
+  String get snriMilestone180Description =>
+      '6개월이면 세로토닌과 노르에피네프린 시스템 모두가 실질적으로 재조정됩니다. SNRI가 노르에피네프린을 통해 영향을 미치는 HPA 축은 정상화되고 있습니다. 많은 사람들이 이 시점에서 일상적인 스트레스 요인에 대한 회복력이 눈에 띄게 향상되었다고 보고합니다.';
+
+  @override
+  String get snriMilestone365Title => '1년: 회복 달성';
+
+  @override
+  String get snriMilestone365Description =>
+      '1년은 이중 세로토닌-노르에피네프린 회복의 완전한 주기를 나타냅니다. 연구에 따르면 의학적 감독과 심리적 지원 하에 SNRI를 성공적으로 중단한 사람들은 1년 후에도 좋은 결과를 유지하는 것으로 나타났습니다.';
+
+  @override
+  String get settingsShowSnriTracking => 'SNRI 추적 표시';
+
+  @override
+  String get settingsNotifySnri => 'SNRI 종료 진행 상황 알림';
+
+  @override
+  String get addictionTca => '삼환계 항우울제(TCA)';
+
+  @override
+  String get tcaPageTitle => 'TCA 회수';
+
+  @override
+  String get tcaHeaderStarted => '귀하의 회복 여정';
+
+  @override
+  String get tcaHeaderNotStarted => 'TCA 축소의 이점';
+
+  @override
+  String get tcaSubtitleStarted => '진행 상황을 추적하고 각 목표를 축하하세요';
+
+  @override
+  String get tcaSubtitleNotStarted => '테이퍼오프하면 어떤 일이 발생하는지 확인하세요.';
+
+  @override
+  String get tcaMilestone3Title => '3일차: 아세틸콜린 반동 피크';
+
+  @override
+  String get tcaMilestone3Description =>
+      'TCA는 아세틸콜린을 차단합니다. 중지한 후에는 해당 시스템이 잠시 과도하게 활성화될 수 있습니다. 증상으로는 메스꺼움, 설사, 위경련, 심한 발한, 두통, 근육통, 불면증 등이 있습니다. 이러한 증상은 일반적으로 초기에 최고조에 달한 후 완화됩니다.';
+
+  @override
+  String get tcaMilestone7Title => '일주일: 반동 증상 완화';
+
+  @override
+  String get tcaMilestone7Description =>
+      '아세틸콜린 반동은 일반적으로 처음 며칠 동안 최고조에 달하고 일주일 정도 지나면 완화되기 시작합니다. 위장 증상, 발한 및 독감과 같은 느낌이 감소하는 반면, 심박수, 소화 및 발한을 조절하는 신체 시스템은 정상으로 돌아옵니다.';
+
+  @override
+  String get tcaMilestone14Title => '2주: 항콜린성 효과 역전';
+
+  @override
+  String get tcaMilestone14Description =>
+      'TCA로 인한 구강 건조, 변비, 배뇨 장애 및 흐린 시력은 아세틸콜린 시스템이 회복됨에 따라 회복됩니다. 기억력과 주의력도 더 명확해지는 경우가 많습니다.';
+
+  @override
+  String get tcaMilestone30Title => '한 달: 자율신경계 안정화';
+
+  @override
+  String get tcaMilestone30Description =>
+      '한 달이 지나면 심박수, 혈압, 소화, 발한을 조절하는 신체 시스템이 안정됩니다. 심장 박동과 혈압 변화가 정상을 향해 움직이고 있으며 REM 꿈의 수면이 돌아오고 있습니다.';
+
+  @override
+  String get tcaMilestone90Title => '3개월: 뇌 화학 시스템 정착';
+
+  @override
+  String get tcaMilestone90Description =>
+      'TCA는 여러 뇌 화학 시스템에 영향을 미칩니다. 3개월은 그들에게 정착할 상당한 시간을 줍니다. 기분, 명확한 사고, 신체적 웰빙이 눈에 띄게 좋아졌습니다.';
+
+  @override
+  String get tcaMilestone180Title => '6개월: 마음과 사고의 회복';
+
+  @override
+  String get tcaMilestone180Description =>
+      '6개월이면 심장 박동, 기억력, 사고 속도가 크게 회복됩니다. TCA로 인한 심장 박동 변화와 뇌 혼미 현상을 해결하는 데 수개월이 걸렸습니다.';
+
+  @override
+  String get tcaMilestone365Title => '1년: 회복 달성';
+
+  @override
+  String get tcaMilestone365Description =>
+      '1년은 TCA의 영향을 받은 모든 시스템을 복구하는 데 1년을 제공합니다. 아세틸콜린, 노르아드레날린, 세로토닌, 히스타민 시스템이 안정되고 기억력, 명확한 사고력, 심박수 조절 능력이 실질적으로 회복되었습니다.';
+
+  @override
+  String get settingsShowTcaTracking => 'TCA 추적 표시';
+
+  @override
+  String get settingsNotifyTca => 'TCA 종료 진행 상황 알림';
+
+  @override
+  String get addictionMaoi => 'MAOI';
+
+  @override
+  String get maoiPageTitle => 'MAOI 복구';
+
+  @override
+  String get maoiHeaderStarted => '귀하의 회복 여정';
+
+  @override
+  String get maoiHeaderNotStarted => 'MAOI 감소의 이점';
+
+  @override
+  String get maoiSubtitleStarted => '진행 상황을 추적하고 각 목표를 축하하세요';
+
+  @override
+  String get maoiSubtitleNotStarted => '테이퍼오프하면 어떤 일이 발생하는지 확인하세요.';
+
+  @override
+  String get maoiMilestone3Title => '3일차: 위험이 가장 높은 단계 — 의료 감독 필수';
+
+  @override
+  String get maoiMilestone3Description =>
+      'MAOI는 모든 항우울제 계열 중에서 가장 심각한 중단 위험을 안고 있습니다. 특히 페넬진과 트라닐시프로민의 갑작스러운 중단은 심각한 동요, 혼란, 환각, 근간대경련, 고열을 유발할 수 있습니다. 이러한 증상이 나타나면 즉시 의사의 진료를 받으십시오. MAOI는 MAO 효소를 영구적으로 비활성화함으로써 작동합니다. 회복하려면 신체가 새로운 효소를 합성해야 하며, 이 과정은 약 14일이 소요됩니다.';
+
+  @override
+  String get maoiMilestone7Title => '일주일: MAO 효소 합성 진행 중';
+
+  @override
+  String get maoiMilestone7Description =>
+      'MAOI는 MAO 효소 분자를 영구적으로 파괴합니다. 회복을 위해서는 완전히 새로운 효소를 합성해야 합니다. 일주일이 지나면 정상적인 MAO 활동의 약 50%가 회복될 수 있습니다. 심각한 급성 중단 증상(섬망, 근간대경련, 고열)이 실질적으로 감소됩니다. 면밀한 의료 감독이 여전히 중요합니다.';
+
+  @override
+  String get maoiMilestone14Title => '2주: MAO 효소 활동이 실질적으로 회복됨';
+
+  @override
+  String get maoiMilestone14Description =>
+      '중단 후 MAO 효소 회복을 위한 표준 임상 기간은 2주입니다. 대략 14일째에 MAO-A 및 MAO-B 활성이 대부분 회복되고 정상적인 티라민 대사가 다시 확립됩니다. MAOI 치료 중에 필요한 식이 제한은 일반적으로 처방자와 상담하여 완화할 수 있습니다.';
+
+  @override
+  String get maoiMilestone30Title => '한 달: 뇌-화학 시스템 재조정';
+
+  @override
+  String get maoiMilestone30Description =>
+      'MAOI를 중단한 지 한 달이 지나면 MAO 효소가 다시 활성화되고 뇌는 세로토닌, 노르아드레날린, 도파민 및 티라민을 자연적으로 처리하게 됩니다. 특별한 음식 및 약물 상호 작용 기간은 끝났지만 여전히 처방자에게 이전 MAOI 사용에 대해 알려야 합니다.';
+
+  @override
+  String get maoiMilestone90Title => '3개월: 뇌 화학 정상화';
+
+  @override
+  String get maoiMilestone90Description =>
+      '3개월은 MAOI 이후 뇌의 기분과 에너지 시스템이 재조정될 상당한 시간을 제공합니다. 뇌가 이러한 화학 물질을 다시 자연스럽게 처리함에 따라 기분, 에너지 및 명확한 사고가 안정화됩니다.';
+
+  @override
+  String get maoiMilestone180Title => '6개월: 장기 회복';
+
+  @override
+  String get maoiMilestone180Description =>
+      '6개월은 천연 모노아민 기능의 상당한 기간을 나타냅니다. 세로토닌, 노르에피네프린, 도파민 수용체 집단이 정상화되었습니다. MAOI의 영향을 받은 페네틸아민(PEA) 경로도 자연 수준으로 회복되었습니다. 이는 정서적 정상화에 기여하는 회복 측면에서 흔히 간과되는 부분입니다.';
+
+  @override
+  String get maoiMilestone365Title => '1년: 회복 달성';
+
+  @override
+  String get maoiMilestone365Description =>
+      'MAOI를 중단한 후 1년이 지나면 뇌와 신체는 약 없이 1년을 보낼 수 있습니다. 기분, 에너지, 명확한 사고, 정상적인 뇌 화학적 조절이 안정되고 회복되는 데 상당한 시간이 걸렸습니다.';
+
+  @override
+  String get settingsShowMaoiTracking => 'MAOI 추적 표시';
+
+  @override
+  String get settingsNotifyMaoi => 'MAOI 종료 진행 상황 알림';
+
+  @override
+  String milestoneRetrieved(String date) {
+    return '검색됨 $date';
+  }
+
+  @override
+  String notificationProgressTitle(String name) {
+    return '$name 없음';
+  }
+
+  @override
+  String notificationProgressBody(int days, String message) {
+    return '$days 청소일 — $message';
+  }
+
+  @override
+  String get notificationProgressMessage1 => '계속 놀라운 일을 해주세요!';
+
+  @override
+  String get notificationProgressMessage2 => '정말 잘하고 있어요!';
+
+  @override
+  String get notificationProgressMessage3 => '놀라운 헌신!';
+
+  @override
+  String get notificationProgressMessage4 => '당신의 힘을 축하합니다!';
+
+  @override
+  String get notificationProgressMessage5 => '계속 빛나세요!';
+
+  @override
+  String get notificationProgressMessage6 => '정말 굉장해요!';
+
+  @override
+  String get notificationProgressMessage7 => '잘가!';
+
+  @override
+  String get notificationProgressMessage8 => '당신은 진정한 챔피언입니다!';
+
+  @override
+  String get notificationProgressMessage9 => '놀라운 노력!';
+
+  @override
+  String get notificationProgressMessage10 => '힘내세요!';
+
+  @override
+  String get notificationChannelName => '알림';
+
+  @override
+  String get notificationChannelDescription => '일일 진행 알림 알림';
+
+  @override
+  String get notificationOpenAction => '알림 열기';
+
+  @override
+  String get done => '완료';
+
+  @override
+  String get rename => '이름 바꾸기';
+
+  @override
+  String get adderallReferenceDay1 =>
+      '암페타민 금단: 초기에 일어나는 일\n\n출처: MedlinePlus(미국 국립의학도서관)\n\n암페타민이란 무엇입니까?\n암페타민은 불법 물질(거리 속도 등)과 ADHD 및 기면증 치료에 사용되는 처방약(예: Adderall 및 Vyvanse)을 모두 포함하는 각성제입니다. 도파민과 노르에피네프린을 급격히 증가시켜 강렬한 집중력, 에너지, 행복감을 유발할 수 있습니다. 정기적으로 과도하게 사용하면 뇌가 반복되는 급증에 적응하므로 멈추면 기분, 에너지 및 의욕이 일시적으로 낮아질 수 있습니다.\n\n일반적인 금단 증상\nMedlinePlus는 암페타민을 중단할 때 일반적인 것으로 다음을 나열합니다.\n• 약물에 대한 강한 갈망\n• 우울함에서 초조함, 불안함까지 다양한 기분 변화\n• 하루 종일 피곤함\n• 집중할 수 없다\n• 환각(존재하지 않는 것을 보거나 듣는 것)\n• 두통, 통증, 식욕 증가, 잠을 잘 이루지 못하는 등의 신체적 반응\n\n철수는 위험한가요?\nMedlinePlus는 암페타민 금단 증상이 그 자체로 의학적으로 위험한 것으로 설명하지는 않지만, 심각한 증상이 있으면 지속적인 치료 프로그램이 필요할 수 있으며 우울증을 포함한 암페타민 사용으로 인한 기분 및 정서적 문제가 심각할 수 있으며 지원이 필요할 수 있다고 지적합니다.\n\n도움 받기\nMedlinePlus는 귀하 또는 귀하가 아는 사람이 암페타민에 중독되어 사용을 중단하는 데 도움이 필요한 경우 의료 서비스 제공자에게 문의할 것을 권고합니다. 자해에 대한 생각이 들면 독자를 988이나 911과 같은 위기 자원으로 안내합니다.';
+
+  @override
+  String get adderallReferenceDay3 =>
+      '암페타민 금단 관리: 3일차\n\n출처: \"폐쇄 환경에서의 금단 관리 및 약물 의존 치료에 대한 임상 지침\", 세계보건기구(2009), NCBI 책장\n\n3일차가 있는 곳\nWHO 지침에는 각성제 금단 증상이 \'마지막 각성제 사용 후 24시간 이내에 시작되어 3~5일 동안 지속된다\'고 명시되어 있습니다. 3일차는 이 급성 단계에 속합니다. 일반적으로 증상이 진정되기 시작하기 전 가장 힘든 날 중 하나입니다.\n\n증상\n암페타민형 각성제에 대한 지침 목록은 다음과 같습니다.\n• 초조함과 과민 반응\n• 우울증\n• 수면 및 식욕 증가\n• 근육통\n과다 사용자는 편집증, 혼란스러운 생각 또는 환각과 같은 정신병 증상을 나타낼 수도 있습니다.\n\n대부분 심리적인 문제\n알코올이나 아편유사제 금단과 달리 각성제 금단은 구토, 떨림 또는 발작을 일으키지 않습니다. 가장 큰 어려움은 심리적인 것입니다. 즉, 낮은 기분, 즐거움의 상실, 도파민이 고갈된 뇌로 인해 발생하는 갈망입니다.\n\n경영 접근 방식\nWHO 지침에서는 지지요법을 권장합니다.\n• 하루에 최소 2~3리터의 물을 마십니다.\n• B군 비타민과 비타민 C가 함유된 종합 비타민 보충제\n• 통증과 불안에 대한 증상이 있는 약물\n• 심한 초조함의 경우 행동 전략을 먼저 시행하고 필요한 경우에만 디아제팜 진정제를 투여합니다.\n\n급성기 이후\n지침에 따르면 가장 힘든 금단 증상은 며칠만 지속되며, 그 다음에는 1~2개월 정도 지속될 수 있는 가벼운 회복 기간이 뒤따릅니다.';
+
+  @override
+  String get adderallReferenceDay7 =>
+      '애더럴을 사용하지 않은 일주일: 최악의 상황이 지나가고 있습니다.\n\n출처: Li & Shoptaw, \"정신자극제 금단의 임상 관리: 증거 검토,\" 중독(2023), PubMed Central\n\n급성기가 해결됨\n이 증거 검토에서는 정신자극제 중단을 단계적으로 설명합니다. 급성기에는 증상이 \'처음 2~3일 후에 최고조에 이르고\' \'이러한 증상으로 인한 주요 불편감은 대개 4~7일 이내에 해결됩니다.\' 첫 주가 끝날 무렵, 충돌의 가장 어려운 부분은 대부분의 사람들 뒤에 있습니다. 에너지와 식욕이 안정되기 시작하고 수면이 조절되기 시작합니다.\n\n다음은 무엇입니까\n검토 결과에 따르면 대부분의 나머지 증상은 향후 2~3주 동안 계속해서 완화됩니다. 7일차에는 이미 회복이 잘 진행되고 있습니다.\n\n7일째에도 여전히 존재하는 것\n심리적 증상은 일반적으로 물리적 충돌보다 오래 지속됩니다.\n• 낮은 동기 부여 및 즐거움 상실\n• 집중하기 어려움\n• 여전히 정상에 미치지 못하는 기분\n이는 회복의 정상적이고 일시적인 부분인 재조정 중인 도파민 시스템을 반영합니다.\n\n회복 신호\n각성제 금단 증상을 특별히 치료하는 FDA 승인 약물은 없으므로 지지 요법, 구조, 수면, 영양 및 심리적 지원이 이 단계의 중심입니다.';
+
+  @override
+  String get adderallReferenceDay14 =>
+      '2주 휴가 Adderall: 더 긴 회복 단계로 진입\n\n출처: \"폐쇄 환경에서의 금단 관리 및 약물 의존 치료에 대한 임상 지침\", 세계보건기구(2009), NCBI 책장\n\n급성기를 지나\nWHO는 가장 힘든 각성제 금단 기간을 약 3~5일로 설정하고 그 다음에는 약 1~2개월 정도 지속되는 가벼운 회복 기간을 제시합니다. 2주 후에는 충돌이 훨씬 뒤쳐졌습니다.\n\n회복 단계가 길어지면 어떤 느낌일까요?\n심한 수면, 동요, 근육통이 대부분 해결되었습니다. 남아 있는 것은 일반적으로 더 경미합니다. 기분이 낮거나 변화하고, 동기가 감소하고, 뇌의 보상 시스템이 재조정됨에 따라 간헐적으로 갈망하는 현상이 나타납니다.\n\n수면과 식욕\n급성기의 수면 증가와 식욕이 정상화되고 있습니다. 수면이 안정되면 기분, 집중력, 에너지가 뒤따르는 경향이 있습니다.\n\n재발 위험 및 ADHD\n이는 특히 근본적인 ADHD 증상이 약물 치료 없이 재발하는 경우 여전히 위험이 더 높은 기간입니다. WHO 지침은 심리적 지원과 재발 예방 기술을 강조합니다. ADHD 때문에 Adderall을 복용한 사람들에게는 지금이 의사와 비각성제 전략이나 대안에 대해 논의할 좋은 시간입니다.';
+
+  @override
+  String get adderallReferenceDay30 =>
+      'Adderall 1개월 사용 중단: 대부분의 증상이 뒤에 나타납니다.\n\n출처: Li & Shoptaw, \"정신자극제 금단의 임상 관리: 증거 검토,\" 중독(2023), PubMed Central\n\n한 달이 머무는 곳\n검토 결과 대부분의 금단 증상은 처음 2~3주에 걸쳐 사라지는 것으로 나타났습니다. 30일이 지나면 대부분의 증상이 완화되고 기분과 동기는 대개 첫 주보다 훨씬 좋아집니다.\n\n이후 복구 단계\n1개월에서 6개월까지 기억력, 계획, 집중력, 의사 결정 능력이 계속해서 향상됩니다. 한 달이 지나면 폭락은 끝나고 그러한 이익은 이미 진행 중입니다.\n\n기분과 동기\n지금쯤에는 충돌로 인한 즐거움의 깊은 상실이 크게 사라졌습니다. 첫 주에 즐겁지 않게 느껴졌던 활동은 천연 도파민 신호가 회복되면서 다시 보람을 느끼기 시작합니다.\n\nADHD 환자의 경우\nADHD에 Adderall을 처방했다면 이제 근본적인 증상이 더 눈에 띄게 나타날 수 있습니다. 이 단계에서는 비각성제 전략이나 대안에 대해 의료 서비스 제공자와 협력하는 것이 중요합니다.';
+
+  @override
+  String get adderallReferenceDay60 =>
+      'Adderall 2개월 사용 중단: 회복 단계가 길어짐\n\n출처: \"폐쇄 환경에서의 금단 관리 및 약물 의존 치료에 대한 임상 지침\", 세계보건기구(2009), NCBI 책장\n\n두 달이 머무는 곳\nWHO는 초기 충돌 후 약 1~2개월 동안 지속되는 가벼운 회복 기간을 설명합니다. 60일이 되면 해당 창의 맨 끝에 도달하고 느린 증상이 대부분 해결됩니다.\n\n개선 사항\n흥분제 금단 지침 목록에 있는 초조함, 우울한 기분, 수면 및 식욕 장애는 대부분의 사람들에게 실질적으로 해결되었습니다.\n• 초기 회복의 변동이 적고 평소 기분이 더 안정적입니다.\n• 수면과 식욕이 정상화되었습니다.\n• 보상 시스템은 음식, 운동, 연결 등 일상적인 즐거움에 더 쉽게 반응합니다.\n\n회복 신호\n복용량을 늘리고 장기간 사용하면 회복 시간이 더 길어질 수 있으며, 금욕을 유지하면 다음 몇 달 동안 기분, 동기 및 명확한 사고가 정상으로 유지됩니다.\n\n신체 건강\n심박수, 식욕, 체중 완화에 대한 각성 효과는 약물이 일상 생활에서 제거되고 각성제 사용으로 인한 심혈관 긴장이 완화됩니다.';
+
+  @override
+  String get adderallReferenceDay90 =>
+      'Adderall 3개월 사용 중단: 최악의 상황에도 여전히 치유 중\n\n출처: Li & Shoptaw, \"정신자극제 금단의 임상 관리: 증거 검토,\" 중독(2023), PubMed Central\n\n90일이 머무는 곳\n3개월이 지나면 초기 증상은 사라지고 기억, 계획, 집중력, 의사 결정 및 보상 시스템이 계속해서 개선됩니다.\n\n사고와 기억은 계속 회복됩니다\n검토 결과 기억력, 계획, 집중력 및 위험 결정이 몇 달 동안 계속 향상될 수 있다는 사실이 밝혀졌습니다. 90일째에도 지속적인 금욕으로 집중력과 기억력은 여전히 ​​올바른 방향으로 움직이고 있습니다.\n\n이 창이 여전히 중요한 이유\nFDA가 승인한 약물은 특별히 자극제 금단을 표적으로 삼지 않으므로 구조, 치료, 운동, 수면 및 지원이 이 단계를 통해 회복을 수행하는 도구입니다. 지금 그러한 습관을 들이는 것이 회복을 앞당기는 것입니다.\n\n더 큰 그림\n3개월은 진정한 성취입니다. 가장 힘든 신체적, 감정적 긴장은 뒤로하고 금욕을 계속하면서 꾸준한 발전을 이룰 수 있습니다.';
+
+  @override
+  String get adderallReferenceDay180 =>
+      'Adderall 6개월 사용 중단: 어려운 부분을 훨씬 넘어섰습니다.\n\n출처: \"금단 증후군\", StatPearls(NCBI Bookshelf), 미국 국립 의학 도서관\n\nStatPearls가 자극제에 관해 말하는 것\n이 임상 참고자료는 자극제 회복을 충돌 후 점진적인 개선으로 설명합니다. 일반적인 문제로는 우울증, 잠을 많이 자고, 배고픔이 증가하고, 기분이 저하되고, 움직임과 사고가 느려지는 등이 있습니다. 우울증은 몇 주 동안 지속될 수 있으며 그 이후에도 가벼운 회복이 계속됩니다.\n\n6개월이 머무는 곳\n6개월이 되면 StatPearls가 설명하는 급성기와 몇 주간의 우울증 단계가 모두 지나갑니다. 이것이 말하는 느린 회복은 진행하는 데 상당한 시간이 걸렸으며 대부분의 사람들의 평소 기분, 수면, 식욕 및 동기는 현재 꾸준하고 신뢰할 수 있습니다.\n\n회복 신호\nStatPearls는 초기 몇 주 이후의 점진적인 회복을 설명합니다. 6개월이 되면 급성 충돌과 몇 주간의 우울증 단계가 훨씬 뒤쳐져 안정된 기분, 수면, 식욕 및 동기 부여가 이제 지배적인 패턴이 됩니다.\n\nADHD와의 관계\nADHD로 인해 Adderall을 복용한 사람들의 경우, 6개월 간의 금욕은 의사와 함께 현재 증상을 명확하게 검토하고 운동, 수면, 구조, 치료 또는 대체 약물과 같은 비자극적 접근법이 귀하의 요구 사항을 충족하는지 여부를 명확하게 검토하는 데 좋은 시점입니다.';
+
+  @override
+  String get adderallReferenceDay365 =>
+      'Adderall 1년 할인: 상당한 회복, 정직하게 액자에 담기\n\n출처: Berman 등, PubMed Central의 \"뇌 및 행동에 대한 암페타민 치료의 잠재적 부작용: 검토\", Molecular Psychiatry(2008)\n\n이 리뷰 정보\n이 검토에서는 고용량 또는 장기간의 암페타민 노출이 뇌에 어떤 영향을 미칠 수 있는지 추적하고 금욕 중 측정 가능한 회복을 문서화합니다.\n\n회복에 관해 말하는 것\n이 리뷰에서는 장기간 금주한 후 뇌 혈류와 도파민을 재활용하는 단백질의 회복을 기록했습니다. 일부 뇌 영역은 다른 영역보다 빨리 회복되지만 전반적인 방향은 명확합니다. 뇌는 사용을 멈춘 후에 치유됩니다.\n\n장기 회복\n이 리뷰에서는 장기간 금욕한 후 뇌 혈류 및 도파민 재활용의 측정 가능한 회복을 문서화했습니다. 1년이 지나면 뇌 시스템을 재건하는 데 1년이 걸립니다.\n\n1년에 이것이 의미하는 바\n대부분의 사람들, 특히 처방된 복용량으로 Adderall을 복용한 사람들에게 1년의 휴식은 보상, 관심 및 동기 부여 시스템이 매일 잘 작동한다는 것을 의미합니다. 사용량이 많거나 장기간 사용되면 시간이 더 걸릴 수 있지만 복구는 계속됩니다. 재발 위험은 초기 회복보다 훨씬 낮습니다.';
+
+  @override
+  String get alcoholReferenceDay1 =>
+      '술을 끊으면 수면에 어떤 일이 일어나나요?\n\n출처: \"Alcohol and the Sleeping Brain\"(Colrain, Nicholas & Baker), 임상 신경학 핸드북 — 동료 검토, NIH 주최\n\n알코올 및 수면 아키텍처\n알코올은 진정제이므로 잠들기까지 걸리는 시간을 단축하고 밤 전반부에 깊은 서파수면을 증가시킵니다. 그러나 여기에는 비용이 따릅니다. 알코올은 REM(빠른 안구 운동) 수면(기억 강화 및 감정 조절과 관련된 회복 단계)을 억제하고, 대사되는 밤의 후반부에 수면을 조각화합니다.\n\n술을 마시는 첫날 밤\n알코올은 REM 꿈의 수면을 억제하기 때문에, 알코올이 없는 첫날 밤에는 종종 REM 반동이 발생합니다. 즉, 생생한 꿈과 더 가볍고 깨어진 잠이 들지만 정상적인 수면 패턴이 돌아옵니다. 이는 회복의 정상적이고 일시적인 부분입니다.\n\n복구 시작\n다음 며칠, 몇 주에 걸쳐 뇌가 재조정되면서 REM 및 전반적인 수면의 질이 향상됩니다. 수면 장애는 가장 지속적인 금단 관련 증상 중 하나이지만, 지속적인 금단으로 인해 정상으로 돌아가는 경향이 있습니다.\n\n과음에 관한 참고 사항\n매일 과음하거나 장기간 술을 마시는 사람의 경우 처음 24시간 동안 금단 증상(불안, 발한, 떨림, 메스꺼움)이 나타날 수도 있습니다. 심한 금단 증상은 위험할 수 있습니다. 매일 과음했다면 갑자기 술을 끊기 전에 의사와 상담하십시오.';
+
+  @override
+  String get alcoholReferenceDay3 =>
+      '급성기와 조기 회복\n\n출처: \"알코올 금단\", StatPearls — 동료 검토, NIH 국립 의학 도서관\n\n처음 24~72시간\nStatPearls는 떨림, 불면증, 초조, 발한, 심박수 상승, 혈압 등 금단 증상이 마지막 음주 후 몇 시간 내에 나타나며 일반적으로 증상이 약 72시간에 최고조에 이른다고 기록했습니다. 대부분의 사람들은 3일차가 끝날 때쯤 최악의 급성기 단계를 끝냅니다. 심각한 금단 증상(StatPearls에 따르면 중단하거나 줄인 후 최대 3~5일 이내에 발생할 수 있는 발작 또는 떨림 진전)은 의학적 응급 상황입니다. 매일 술을 많이 마시는 사람은 의학적 조언 없이 갑자기 중단해서는 안 됩니다.\n\n갈망이 파도처럼 밀려온다\n갈망은 처음 며칠 동안 심화되는 경우가 많지만 개인의 갈망은 일시적이며 대개 몇 분 내에 사라집니다. 각각의 파도가 저절로 가라앉는다는 것을 인식하면 파도를 타기가 더 쉬워집니다.\n\n수분 회복\n알코올은 항이뇨 호르몬(ADH)을 억제하여 신장에서 더 많은 수분을 배출하게 하여 정기적으로 술을 마시는 사람은 만성 탈수 상태에 빠지게 됩니다. 음주를 중단하면 이 이뇨 효과가 사라지고 처음 며칠 동안 체액 균형이 회복되기 시작합니다. 이는 종종 피부가 더 깨끗해지고 에너지가 안정되는 것으로 나타납니다.\n\n마음과 수면이 안정되기 시작합니다\n급성기가 지나면 알코올로 인해 파괴된 뇌 화학(GABA 및 글루타메이트)이 다시 균형을 이루기 시작합니다. 정신 선명도가 향상되고, 초기 금단 기간 동안 심하게 분열된 수면이 첫 주에 걸쳐 더 나은 품질을 향한 경향을 보이기 시작합니다.';
+
+  @override
+  String get alcoholReferenceDay7 =>
+      '면역 체계가 회복되는 방법\n\n출처: \"Alcohol and the Immune System\"(Sarkar, Jung & Wang), 알코올 연구: 현재 리뷰 — 동료 검토, NIH 주최\n\n알코올이 면역력을 약화시키는 방법\n알코올은 여러 가지 방법으로 면역 체계를 약화시킵니다. 한 번만 술을 많이 마셔도 최대 24시간 동안 감염과 싸우는 능력이 저하될 수 있습니다. 장기간 사용하면 백혈구가 감소하고 면역 신호가 교란되며 내장과 폐 방어가 손상되어 감염 위험이 증가하고 상처 치유가 느려집니다.\n\n모욕 제거\n알코올을 마시면 이러한 효과 중 상당수가 개선됩니다. 백혈구와 면역 신호 전달이 회복되기 시작하고 장과 기도 방어가 복구되기 시작합니다. 첫 주 안에 면역 체계는 더 이상 매일 무너지지 않으며 일반적인 감염에 대한 저항력이 향상되기 시작합니다.\n\n점진적인 과정\n완전한 면역 회복은 일주일 이상이 걸리며, 회복 정도는 음주량이 얼마나 과격하고 장기간 지속되었는지에 따라 달라집니다. 그러나 술을 끊은 첫 주는 재건이 시작되는 곳입니다.';
+
+  @override
+  String get alcoholReferenceDay14 =>
+      '금욕의 조기 뇌 회복\n\n출처: Bartsch AJ 외, \"알코올 중독 금욕과 관련된 초기 뇌 회복의 징후\", Brain(2007) — 동료 검토\n\n회복 측정\n이 연구에서는 MRI를 사용하여 금주 첫 주 동안 알코올 의존이 있는 최근 해독된 사람들을 추적하고 건강한 대조군과 비교했습니다. 음주를 중단한 후 뇌가 물리적으로 재건되는 모습을 포착했습니다.\n\n뇌량 리바운드\n만성 알코올 사용은 영구적인 세포 손실뿐만 아니라 세포 크기의 가역적인 감소를 부분적으로 통해 뇌를 수축시킵니다. 연구자들은 금욕을 통해 소뇌, 중뇌, 심실 및 전두엽 주변에 집중적으로 거의 2%에 달하는 전 세계 뇌 용적 증가를 측정했습니다. 이러한 재성장의 대부분은 술을 끊은 첫 2주 동안 초기에 발생합니다.\n\n소뇌와 주의력\n특히 움직임과 주의에 사용되는 뇌 영역의 회복이 뚜렷했습니다. 주의력의 측정 가능한 향상과 함께 뇌세포 건강 지표가 상승했기 때문에 신체적 치유는 사고력의 실질적인 향상을 가져왔습니다.\n\n마무리가 아닌 기초\n복잡한 추론과 같은 고급 기능은 점진적으로 회복되지만 처음 2주 동안은 알코올을 제거하면 뇌가 빠르게 치유되기 시작합니다.';
+
+  @override
+  String get alcoholReferenceDay30 =>
+      '술을 끊으면 혈압이 떨어진다\n\n출처: Roerecke et al., \"혈압에 대한 알코올 소비 감소 효과: 체계적 검토 및 메타 분석\", Lancet Public Health(2017) — 동료 검토\n\n증거\n이 메타 분석은 사람들이 술을 덜 마실 때 혈압에 어떤 일이 일어나는지 테스트하는 36개의 무작위 시험(약 2,865명의 참가자)을 모았습니다. 이는 분명하고 복용량에 따른 효과를 발견했습니다. 즉, 혈압을 더 많이 줄일수록 혈압이 더 많이 떨어졌습니다.\n\n효과는 얼마나 큽니까?\n하루에 두 잔 이하의 술을 마신 사람들은 술을 줄여도 혈압에 큰 변화가 없었습니다. 이 임계값을 초과하면 효과는 용량에 따라 달라집니다. 하루에 6잔 이상의 음료를 마시는 사람들이 섭취량을 약 절반으로 줄인 경우 가장 강력했으며, 수축기 혈압은 평균 약 5.5mmHg, 확장기 혈압은 약 4.0mmHg 감소했습니다. 그 크기의 감소는 임상적으로 의미가 있습니다. 일부 혈압약과 비슷하며 장기적인 뇌졸중 및 심장병 위험을 낮추기에 충분합니다.\n\n한 달이 중요한 이유\n알코올은 스트레스 반응을 활성화하고 코티솔을 높이며 혈관을 경화시켜 혈압을 높입니다. 이 리뷰의 실험에서는 몇 주 동안 지속적인 감소를 통해 이점이 나타나는 것으로 나타났습니다. 따라서 약 한 달 동안 금욕을 하면 술을 많이 마시는 사람의 혈압이 더 건강한 수준으로 안정될 시간을 갖게 되었습니다.\n\n임계값 효과\n이 검토에서는 명확한 한계점을 발견했습니다. 하루에 두 잔 이상 술을 마시는 사람들에게 혜택이 집중되었으며, 이전에 술을 많이 마실수록 혜택이 점차 커졌습니다. 술을 적게 마시는 사람이라면 이러한 혈압 상승 효과를 기대하지 마십시오. 그러나 술을 많이 마시는 사람은 술을 끊음으로써 실질적이고 측정 가능한 심혈관 혜택을 얻을 수 있습니다.';
+
+  @override
+  String get alcoholReferenceDay60 =>
+      '음주를 중단한 후 간 회복\n\n출처: 국립 알코올 남용 및 알코올 중독 연구소(NIAAA), \"알코올이 신체에 미치는 영향\"\n\n알코올이 간을 손상시키는 방법\n간은 우리가 마시는 대부분의 알코올을 처리하며, 가장 큰 피해를 입습니다. NIAAA는 알코올 관련 간 손상의 진행을 설명합니다. 이는 지방간(지방증 - 간 세포에 지방이 축적됨)으로 시작하여 알코올성 간염(염증)으로 진행될 수 있으며, 장기간 과다 사용하면 섬유증 및 간경변(반흔)으로 진행될 수 있습니다.\n\n이전 단계는 되돌릴 수 있습니다.\n중요한 점은 간은 재생 능력이 뛰어나며, 음주를 중단하면 이러한 손상의 초기 단계가 호전될 수 있다는 점입니다. 특히 지방간은 ​​지속적인 금욕으로 해결되는 경우가 많습니다. 약 2개월 동안 알코올을 마시지 않으면 간은 실시간으로 지방 축적물을 제거하고 염증을 진정시키며 더 건강한 기능을 회복하게 됩니다. 이는 일반적으로 간 효소 수치(ALT 및 AST) 감소에 반영됩니다.\n\n간 너머\nNIAAA는 알코올이 심장, 췌장 및 면역 체계에도 부담을 준다고 지적합니다. 신체가 지속적으로 알코올을 끊으면 이러한 시스템도 회복될 수 있습니다. 이는 이 단계에서 많은 사람들이 느끼는 꾸준한 에너지와 전반적인 건강 개선에 기여합니다.';
+
+  @override
+  String get alcoholReferenceDay90 =>
+      '단주 3개월 후의 사고와 기억\n\n출처: 금주 후 신경심리학적 회복에 대한 체계적 검토(PubMed Central, 2024) — 동료 검토\n\n증거가 보여주는 것\n이 검토에서는 사람들이 술을 끊은 후 사고와 기억이 어떻게 회복되는지 추적한 연구를 결합했습니다. 대부분의 기술은 대략 6~12개월 내에 정상 수준으로 이동하며 일부 기술은 더 일찍 향상됩니다.\n\n무엇이 먼저 개선되는가\n두 가지 특정 능력은 다른 것보다 빨리 회복되는 것으로 나타났습니다. 기본 처리 속도(검토 결과 일반적으로 약 한 달 정도 회복되지만 더 복잡한 작업의 정확성은 뒤떨어짐)와 작업 메모리 업데이트가 그것입니다. 3개월이 지나면서 많은 사람들이 이미 이러한 리프팅 효과를 알아차렸습니다.\n\n시간이 더 걸리는 것\n주의력, 계획, 의사결정, 충동 조절, 지각 및 기억력은 6~12개월의 회복 기간 동안 계속 향상됩니다.\n\n회복에 영향을 미치는 것\n리뷰에 따르면 회복은 연령, 흡연 상태, 병전 능력과 같은 요인에 의해 결정되지만, 다행스럽게도 이전에 마신 총량에 따라 일관되지는 않습니다. 회복은 예상되는 궤적입니다.\n\n중요한 이유\n더 명확한 사고는 실질적인 회복입니다. 더 나은 관심과 의사 결정은 사람들이 치료를 계속 받고 재발을 피하는 데 도움이 됩니다.';
+
+  @override
+  String get alcoholReferenceDay180 =>
+      '단주 6개월 후의 뇌 회복\n\n출처: 약물 사용을 금하는 동안 구조적 및 기능적 뇌 회복에 대한 동료 검토 검토(PubMed Central)\n\n복구는 계속 진행됩니다\n첫 주의 초기 뇌량 반등은 시작에 불과합니다. 이 리뷰에서는 금욕을 지속하면 뇌가 구조적 및 기능적으로 계속 회복된다는 사실을 문서화합니다. 즉, 회백질이 회복되고 뇌 영역 간 통신을 조정하는 손상된 백질 경로가 수개월에 걸쳐 복구됩니다.\n\n뇌의 앞\n회복은 판단, 계획, 자제력을 담당하는 뇌 앞부분의 회복이 특히 중요합니다. 치유되면서 의사 결정과 충동 조절이 강화됩니다.\n\n뇌 재배선 및 기능\n신체적 회복과 함께 뇌 기능과 연결도 회복됩니다. 두뇌는 재배선되고 다시 학습될 수 있으며, 이는 지속적인 금욕을 치료와 새로운 습관을 위한 강력한 시간으로 만듭니다.\n\n회복 신호\n6개월이 되면 뇌 구조와 기능이 확실히 더 건강한 정상을 향해 움직이고 있습니다. 금욕을 유지하면 회복에 더 많은 시간을 할애할 수 있습니다.';
+
+  @override
+  String get alcoholReferenceDay365 =>
+      '알코올, 암 위험 및 중단\n\n출처: 국립암연구소(NCI), \"알코올과 암 위험\"\n\n알코올은 암을 유발합니다\nNCI는 음주가 암을 유발할 수 있다는 강력한 과학적 합의가 있다고 밝혔습니다. 알코올은 구강암(구강암), 인두암(인후암), 후두암(성대암), 식도암, 간암, 유방암, 결장암 및 직장암과 관련이 있습니다. 술을 많이 마실수록, 그리고 오래 마실수록 위험은 더 높아집니다.\n\n알코올이 암을 유발하는 방법\n메커니즘에는 DNA를 손상시키는 알코올의 독성 분해 산물인 아세트알데히드가 포함됩니다. 산화 스트레스 및 염증; 보호 영양소의 흡수 장애; 유방암의 경우 에스트로겐 수치가 높아졌습니다.\n\n중단하면 위험이 감소합니다\n중요한 것은, NCI는 술을 끊는 것이 시간이 지남에 따라 위험이 낮아지는 것과 관련이 있다고 보고합니다. 연구에 따르면 구강암과 식도암의 위험은 술을 끊은 후에 감소하지만 술을 전혀 마시지 않은 사람의 위험에 도달하는 데 수년이 걸릴 수 있습니다. 1년간 술을 마시지 않는 것은 그 길에서 의미 있는 발걸음입니다.\n\n복합적인 이점\n1년에 도달하면 암 위험 감소와 함께 심혈관 및 간의 금욕 효과(혈압 감소, 부정맥 위험 감소, 간 치유 지속)가 고정됩니다.';
+
+  @override
+  String get benzodiazepineReferenceDay7 =>
+      '벤조디아제핀 철수: 첫 주\n\n출처: \"폐쇄 환경에서의 금단 관리 및 약물 의존 치료에 대한 임상 지침\", 세계보건기구(2009), NCBI 책장\n\nBenzo 출금 안전에 관한 참고 사항\n벤조디아제핀 금단은 위험할 수 있습니다. WHO 지침은 가장 안전한 접근 방식은 벤조디아제핀의 양을 점진적으로 줄이는 것이며, 이는 \'벤조디아제핀 금단 증상을 완화하고 발작 발병을 예방하는 데 도움이 됩니다.\'라고 명시하고 있습니다. 장기간 사용 후 갑자기 중단하지 마십시오. 점차적으로 의사와 상담하십시오.\n\n탈퇴가 나타날 때\nWHO 타임라인은 약물의 작용 기간에 따라 다릅니다.\n• 속효성(옥사제팜, 알프라졸람, 테마제팜): 마지막 복용 후 1~2일 후에 금단이 시작되어 2~4주 이상 지속됩니다.\n• 지속성(디아제팜, 니트라제팜): 마지막 복용 후 2~7일 후에 금단이 시작되어 2~8주 이상 지속됩니다.\n첫 번째 이정표는 장기간 작용하는 벤조디아제핀조차도 금단 효과가 완전히 나타날 만큼 충분히 정화된 지점입니다.\n\n조기 금단 증상\n• 반동 불안 — 종종 치료된 약물이 원래 불안보다 더 강렬함\n• 불면증 및 수면 장애\n• 떨림 및 근육 긴장\n• 땀이 나고 두근거림\n• 빛과 소리에 대한 민감도 향상\n\n모니터링\nWHO 지침에서는 금단 증상의 심각도가 \'현저하게 변동될 수 있으므로\' 공식적인 척도는 권장되지 않는다고 명시하고 있습니다. 대신 임상의는 몇 시간마다 확인하고 안심시키고 증상을 설명해야 합니다. 벤조디아제핀은 뇌의 주요 진정 신호인 GABA를 강화합니다. 장기간 사용하면 해당 시스템이 둔해지기 때문에 약물을 제거하면 뇌가 과도하게 흥분됩니다. 이는 점진적인 감량을 필수로 만드는 불안, 떨림 및 발작 위험의 원인입니다.';
+
+  @override
+  String get benzodiazepineReferenceDay14 =>
+      '벤조디아제핀 중단: 2주\n\n출처: Ashton, \"벤조디아제핀의 장기간 금단 증후군,\" 약물 남용 치료 저널(1991), PubMed\n\n여전히 급성 금단 상태\n2주가 된 많은 사람들, 특히 지속성 벤조디아제핀을 중단한 사람들은 여전히 뇌 진정(GABA)과 흥분 시스템 사이의 불균형이 가장 두드러지는 급성기에 있습니다. 불안, 불면증, 지각 장애가 흔합니다.\n\nBenzo 철수가 지연될 수 있는 이유\nHeather Ashton 교수는 첫 번째 금단 증상이 어떻게 더 오래 지속되는 문제로 혼합될 수 있는지 설명합니다. 뇌의 내성 변화가 역전되는 속도가 느려질 수 있기 때문에 불안, 불면증, 명확한 사고 장애 및 감각 변화가 수개월 동안 지속될 수 있습니다.\n\n천천히 되돌릴 수 있는 변화\nAshton은 이를 \'중추신경계의 천천히 가역적인 기능적 변화\'로 특성화합니다. 핵심 주장은 회복입니다. 신경계는 장기간의 벤조디아제핀 노출로 인해 생성된 기능적 적응을 점진적으로 역전시킵니다.\n\n점진적인 테이퍼가 핵심입니다\n증거는 억제 신호의 갑작스러운 상실에 직면하기보다는 뇌가 점차적으로 재적응하도록 하는 가장 안전한 중지 방법으로 천천히 감독하는 테이퍼를 강력히 뒷받침합니다.';
+
+  @override
+  String get benzodiazepineReferenceDay60 =>
+      '벤조디아제핀과 수면 회복을 2개월 단축\n\n출처: Poyares et al., \"불면증 환자의 만성 벤조디아제핀 사용 및 중단\", Journal of Psychiatric Research(2004), PubMed\n\nBenzos가 수면을 바꾸는 방법\n벤조디아제핀은 불면증에 널리 처방되지만 수면 구조를 변경합니다. 평균 거의 7년 동안 밤마다 벤조디아제핀을 복용한 환자를 대상으로 한 이 수면다원검사 연구에서, 만성적인 사용은 서파(깊은) 수면의 감소 및 2단계의 가벼운 수면과 관련이 있었습니다. 따라서 사용자는 진정된 느낌을 받는 동안에도 회복적인 깊은 수면을 잃게 됩니다.\n\n깊은 잠이 돌아옵니다\n고무적인 발견: 이 연구는 중단 후 15일 동안 다시 수면을 측정한 결과, 만성적으로 사용하는 밤에 비해 서파수면 및 델타 활동이 회복되고 주관적 수면의 질이 향상되는 것을 발견했습니다. 약물에 의해 억제된 깊은 수면은 중단 후 약 2주 이내에 다시 시작되었습니다.\n\n60일 후 이것이 의미하는 바\n깊은 수면이 2주 이내에 회복된다면, 2개월이 지나면 뇌는 자연스럽고 회복적인 수면을 계속해서 재건할 수 있는 충분한 시간을 갖게 됩니다. 조기 금단으로 인한 심각한 반동 불면증은 일반적으로 해결되었습니다. 저자들은 처음에는 금단 증상이 수면을 악화시킨다고 솔직하게 말했습니다. 이것이 점진적인 양의 감소가 중요한 이유입니다. 그러나 프로토콜이 끝날 무렵에는 만성 벤조디아제핀 사용에 비해 수면의 질이 향상되었습니다.\n\n기타 개선 사항 2개월\n근육 긴장, 떨림, 심계항진, 발한 등 많은 초기 신체적 금단 증상은 일반적으로 신체가 재조정되면서 2개월이 지나면 완화되거나 해결됩니다.';
+
+  @override
+  String get benzodiazepineReferenceDay90 =>
+      '벤조디아제핀 복용 후 3개월: 신체적 건강이 안정됨\n\n출처: Ashton, \"벤조디아제핀의 장기간 금단 증후군,\" 약물 남용 치료 저널(1991), PubMed\n\n물리적 안정화\n90일이 지나면 급성기가 훨씬 지나갑니다. 관리 테이퍼를 완료한 사람들의 경우 떨림, 심계항진, 두통, 최악의 수면 장애 등 대부분의 신체적 금단 증상이 상당히 완화되었으며 일반적으로 수면이 더 안정적입니다.\n\n일부 증상이 지속되는 이유\nAshton은 일부 증상이 몇 달 동안 지속될 수 있다고 문서화했습니다. 3개월이 지나면 뇌가 느리고 가역적인 재조정을 계속하는 동안 지속적인 불안, 뇌 안개, 감각 변화가 여전히 나타날 수 있습니다.\n\n불안이 지속되는 두 가지 이유\n1. 뇌의 GABA 시스템은 여전히 정상적인 민감도로 재적응하고 있습니다. 이는 느린 과정입니다.\n2. 벤조 사용으로 이어진 근본적인 불안은 이제 약물 기반 완충 장치 없이도 느껴집니다.\n\n치료를 위한 좋은 시간\n최악의 초기 증상을 뒤로하고 3개월은 불안에 대해 CBT(CBT)와 같은 대화 요법과 같은 지원을 사용하고 신경계가 계속 안정되는 동안 대처 기술을 구축하는 것이 강점입니다.';
+
+  @override
+  String get benzodiazepineReferenceDay180 =>
+      '6개월의 사고력과 기억력: 측정 가능한 향상\n\n출처: Tata et al., \"장기 벤조디아제핀 사용 중단 후 인지 회복 부족\", Psychological Medicine(1994), PubMed\n\n연구 결과\n이 연구에서는 21명의 장기 벤조디아제핀 환자를 중단 전, 중단 직후, 그리고 다시 6개월간 중단한 후 대조 대조군과 비교하여 테스트했습니다. 이는 벤조 회수 문헌에서 가장 솔직한 데이터 포인트 중 하나입니다.\n\n무엇을 발견했나요?\n중단하기 전에 환자들은 언어 학습, 기억, 이동 속도, 시각적 조정 및 시각적 추론에 문제가 있었습니다. 멈춘 직후에는 거의 변화가 없었습니다. 6개월이 되자 이러한 영역 중 일부가 눈에 띄게 개선되었습니다.\n\n이것이 의미하는 바\n6개월이 되자 언어 학습, 기억력, 이동 속도, 시각적 조정 능력이 눈에 띄게 회복되었습니다. 개선 사항은 이미 명확했고 계속해서 개선할 여지가 있었습니다.\n\n더 큰 그림\n6개월이 되어도 몽롱함을 느낀다면, 이 연구에 따르면 그것은 예상된 일이며 지속적인 금욕이 앞으로 나아갈 길입니다. 장기간의 연구에 따르면 이 시점 이후에도 회복이 계속되며, 뇌는 계속 치유됩니다.';
+
+  @override
+  String get benzodiazepineReferenceDay365 =>
+      '벤조디아제핀 복용 후 1년: 사고와 기억력이 계속 회복됨\n\n출처: Barker et al., \"장기 벤조디아제핀 사용 중단 후 인지 효과의 지속성: 메타 분석,\" Archives of Clinical Neuropsychology(2004), PubMed\n\n우리가 가지고 있는 가장 강력한 증거\n연구자들은 벤조디아제핀을 장기간 중단한 후 최소 6개월 후에 장기간 벤조디아제핀 사용자를 다시 테스트한 연구를 결합했습니다. 종합 결과는 금단 후 사고와 기억의 뚜렷한 회복을 보여줍니다.\n\n좋은 소식\n결합된 연구에서는 금단 후 사고와 기억의 여러 영역에서 실질적이고 측정 가능한 개선이 발견되었습니다. 약 1년이 지나면 회복은 적극적으로 사용하는 것에 비해 광범위하고 명백합니다.\n\n복구가 계속됩니다\n결합된 연구에서는 사고와 기억의 광범위한 회복이 발견되었습니다. 1년이 지나면 이미 6개월 만에 측정할 수 있었던 회복 추세를 잘 따르고 있습니다.\n\n1년에 이것이 의미하는 바\n1년이 지나면 사고력, 기억력, 명료성이 크게 회복될 것으로 예상됩니다. 대부분의 사람들은 사용하는 동안보다 눈에 띄게 예리함을 느낍니다. 그러나 일부 영역이 여전히 뒤처진다면 이는 지연되었다는 신호가 아니라 증거와 일치하는 것입니다. 회복은 계속되고 있으며, 금욕의 1년은 그 길에서 중요하고 가치 있는 이정표입니다.';
+
+  @override
+  String get benzodiazepineReferenceDay540 =>
+      '벤조디아제핀 복용 후 18개월: 느리지만 실질적인 회복\n\n출처: Ashton, \"벤조디아제핀의 장기간 금단 증후군,\" 약물 남용 치료 저널(1991), PubMed\n\nBenzo 복구에 시간이 오래 걸리는 이유\n벤조디아제핀은 뇌의 주요 진정 시스템인 GABA에 작용합니다. 장기간 사용하면 시스템이 얼마나 강력하게 반응하는지 변경되며 이러한 변경 사항을 되돌리려면 몇 달이 걸릴 수 있습니다. 이것이 바로 벤조 회수율을 몇 주가 아닌 몇 달 단위로 측정하는 이유입니다.\n\n18개월이 있는 곳\nAshton은 완화되는 데 몇 달이 걸릴 수 있는 오래 지속되는 금단 증상을 설명합니다. 18개월이 되면 최악의 상황은 대부분의 사람들보다 훨씬 뒤쳐지고 지속적인 불안, 감각 변화 및 뇌 혼미 현상이 실질적으로 해결됩니다.\n\n천천히 되돌릴 수 있음\n결정적으로 Ashton은 근본적인 변화를 \'중추 신경계의 천천히 가역적인 기능적 변화\'로 구성합니다. 느리지만 되돌릴 수 있습니다. 긴 타임라인은 대부분의 사람들에게 영구적인 손상이 아니라 벤조디아제핀으로 인한 적응의 깊이를 반영합니다.\n\n회복 신호\nAshton은 근본적인 변화를 천천히 되돌릴 수 있다고 설명합니다. 18개월이 되면 뇌의 진정 GABA 시스템이 안정되는 데 오랜 시간이 걸리며 주된 방향은 정상을 향한 지속적인 회복입니다.';
+
+  @override
+  String get benzodiazepineReferenceDay730 =>
+      '벤조디아제핀 사용 후 2년: 주요하고 지속적인 진전\n\n출처: Barker et al., \"장기 벤조디아제핀 사용 중단 후 인지 효과의 지속성: 메타 분석,\" Archives of Clinical Neuropsychology(2004), PubMed\n\n회복의 랜드마크\n2년은 중요한 이정표입니다. 특히 오랜 탈퇴 이후에는 더욱 그렇습니다. 초기 및 지속적인 증상 단계는 오래 전에 지나갔고, 첫 해의 이득은 또 한 해 더 강화되었습니다.\n\n증거가 뒷받침하는 것\n결합된 연구는 금단 후 많은 영역에서 회복을 보여줍니다. 2년이 지나면 대부분의 사람들은 벤조 전 농도 이하의 불안, 약물 없이도 안정적인 수면, 안정된 감정, 사용 중보다 더 명확한 사고를 보고합니다.\n\n회복 신호\n결합된 연구는 사고와 기억의 여러 영역에 걸쳐 회복을 확립합니다. 2년 후에는 지속적인 회복이 증거에 의해 뒷받침될 것으로 예상됩니다.\n\n관점 유지\n2년은 수면, 기분, 기억력, 명확한 사고를 위한 긴 회복 기간을 제공합니다. 증거는 여기에서 치유가 계속되면서 네 가지 모두에서 상당한 개선을 보여줍니다.';
+
+  @override
+  String get benzodiazepineReferenceDay1095 =>
+      '벤조디아제핀 복용 후 3년: 장기적인 치유\n\n출처: Barker et al., \"장기 벤조디아제핀 사용 중단 후 인지 효과의 지속성: 메타 분석,\" Archives of Clinical Neuropsychology(2004), PubMed\n\n장기적 관점\n벤조 회수 일정의 맨 끝에는 3년이 있습니다. 대다수의 사람들의 경우 장기간 지속되는 심한 금단 증상 후에도 파괴적인 증상은 훨씬 사라지고 적극적인 사용에 비해 삶의 질이 변화됩니다.\n\n메타 분석을 통해 밝혀진 것\n장기 사용자에 대한 종합 연구에서는 중단 후 여러 영역에서 회복이 나타나는 것으로 나타났습니다. 수년간의 금욕 기간 동안 지배적인 이야기는 사고, 기억 및 일상 기능의 광범위한 회복입니다.\n\n회복 신호\n장기 연구에 따르면 사고와 기억의 여러 영역에서 회복이 이루어지고 있는 것으로 나타났습니다. 3년이 지나면 초기 및 지속적인 철수 단계가 훨씬 뒤쳐지고 이러한 이득을 강화하는 데 수년이 걸렸습니다.\n\n희망의 메시지\n벤조 회복 여정은 의학에서 가장 힘든 과정 중 하나이며, 3년간의 지속적인 치유는 엄청난 성과입니다. 증거는 분명합니다. 뇌가 실질적으로 치유되고 대부분의 사람들이 명료함, 수면 및 감정 범위를 회복하며 시간이 지남에 따라 개선이 계속됩니다.';
+
+  @override
+  String get cocaineReferenceDay1 =>
+      '코카인 인출: 처음 24시간\n\n출처: \"금단 증후군\", StatPearls(NCBI Bookshelf), 미국 국립 의학 도서관\n\n코카인과 뇌\n코카인은 뇌의 보상 회로에서 도파민(및 기타 모노아민)의 재흡수를 차단하여 도파민이 축적되고 강렬한 행복감과 에너지를 생성합니다. 정기적으로 사용하면 뇌는 이 시스템을 하향 조절하여 적응하므로 약물 없이는 정상적인 활동이 밋밋하게 느껴집니다.\n\n충돌\nStatPearls는 각성제 금단 증상이 사용을 중단하면 \"충돌\"로 시작되는 것으로 설명하며, 이는 현저한 우울증, 과도한 수면, 배고픔, 기분 저하, 심각한 운동 및 사고 둔화를 특징으로 합니다. 처음 24시간 동안에는 일반적으로 다음이 포함됩니다.\n• 극심한 피로 및 수면 욕구 증가\n• 우울한 기분과 느린 움직임 및 사고\n• 식욕 증가(코카인은 식욕을 억제함)\n\n갈망, 과민성 및 불안은 StatPearls가 구체적으로 충돌의 일부로 항목화하지는 않지만 광범위한 중독 문헌에서 이 기간 동안 매우 일반적으로 보고됩니다.\n\n다른 약물과 달리\nStatPearls는 각성제 금단 증상이 관찰 및 지지 요법으로 치료된다고 지적합니다. 알코올이나 벤조디아제핀 금단 증상과 달리 일반적으로 발작이나 섬망을 유발하지 않습니다. 주요 위험은 심리적입니다. 우울증이 심한 사용자의 경우 충돌 중에 자살 충동이 발생할 수 있으므로 지원과 모니터링이 권장됩니다.\n\n승인된 약물 없음\n현재 코카인 금단 증상을 치료하기 위해 승인된 약물은 없습니다. 관리는 지지적이며, 비상 관리와 같은 비약물 접근법은 근본적인 사용 장애에 대한 증거 기반 치료법입니다.';
+
+  @override
+  String get cocaineReferenceDay3 =>
+      '코카인 없는 3일: 피크 챌린지 탐색\n\n출처: \"코카인 독성\", StatPearls(NCBI Bookshelf), 미국 국립의학도서관\n\n코카인이 신체에 미치는 영향\nStatPearls는 코카인이 도파민, 노르에피네프린, 세로토닌의 재흡수를 차단하여 교감신경 자극을 연장시킨다고 기록하고 있습니다. 이것이 행복감과 위험을 동시에 유발하는 요소입니다. 이는 거의 모든 장기 시스템에 영향을 미칠 수 있습니다.\n\n2~4일차: 심리적 위축이 최고조에 달함\n3일차에는 극심한 붕괴가 가장 극심한 심리적 위축으로 이어졌습니다.\n• 기분이 가장 낮고 우울한 기분이 가장 심할 때\n• 즐거움 상실\n• 단서에 의해 유발되는 강한 갈망\n• 불안과 불안\n• 수면 방해 - 어떤 사람은 과도하고 다른 사람은 불면증\n\n심혈관 위험이 줄어들다\nStatPearls는 심혈관 독성을 코카인의 가장 치명적인 효과로 식별합니다. 심박수 및 혈압 상승, 심근 산소 요구량 증가, 관상 동맥 혈관 경련 및 혈소판 활성화는 젊은 사용자에게도 부정맥, 경색 및 뇌졸중의 위험을 초래합니다. 코카인 자체의 반감기는 약 1시간으로 짧으며 3일째에는 약물 자체가 시스템을 완전히 제거합니다. 하지만 StatPearls는 코카인의 대사 물질이 사용 후 몇 시간 동안 여전히 혈관 수축을 일으킬 수 있고 하나의 대사 물질이 몇 주 동안 지속될 수 있으므로 일부 잔류 심혈관 부담이 약물 자체보다 오래 지속될 수 있다고 지적합니다.\n\n앞으로 나아갈 길\n급성 단계는 강렬하지만 가장 많은 지원이 필요하고 가장 오래 지속되는 것은 우울증, 갈망, 즐거움 상실과 같은 심리적 증상입니다.';
+
+  @override
+  String get cocaineReferenceDay7 =>
+      '코카인 없는 일주일: 신체 회복이 시작됩니다\n\n출처: \"금단 증후군\", StatPearls(NCBI Bookshelf), 미국 국립 의학 도서관\n\n급성기가 끝나고 있습니다\nStatPearls는 코카인 철수를 초기 충돌에서 더 긴 회복 단계로 이동하는 것으로 설명합니다. 첫 주가 끝날 무렵, 도파민 시스템이 계속 재건되는 동안 최악의 증상은 일반적으로 완화됩니다.\n\n물리적 복구 진행 중\n코카인의 교감신경 자극이 중단되면 심혈관, 식욕, 수면 및 기도 효과가 다음 며칠 및 몇 주에 걸쳐 역전되기 시작합니다.\n• 심박수와 혈압이 다시 정상으로 돌아옴\n• 식욕이 점차 회복됨(코카인이 식욕을 강력하게 억제함)\n• 수면 패턴이 안정화되기 시작함\n• 코카인을 흡입한 경우 비강이 낫기 시작함\n\n심리적 증상이 계속됨\nStatPearls는 우울증과 즐거움 상실이 자극제 금단의 특징이며 신체적 증상보다 오래 지속된다고 지적합니다.\n• 기분은 여전히 낮지만 최고조에 비해 덜 심각합니다.\n• 신호로 인한 갈망은 여전히 강함\n• 집중력과 의욕이 여전히 손상됨\n\n급성기 이후\n그런 다음 금단 현상은 기분, 갈망 및 명확한 사고가 몇 주 또는 몇 달 동안 꾸준히 개선되는 과정으로 전환됩니다. 해당 패턴을 알면 복구 속도가 느린 부분을 더 쉽게 관리할 수 있습니다.';
+
+  @override
+  String get cocaineReferenceDay14 =>
+      '코카인 없이 2주: 안정 찾기\n\n출처: \"금단 증후군\", StatPearls(NCBI Bookshelf), 미국 국립 의학 도서관\n\n2주 후\n2주가 지나면 심각한 우울증, 잠을 많이 자고 움직임과 사고가 느려지는 심각한 충돌 증상이 일반적으로 완화됩니다. 이제 회복은 뇌와 정서적 건강을 재건하는 데 중점을 두고 있습니다.\n\n기분과 감정 상태\n2주가 지나도 도파민 시스템이 회복되는 동안 기분은 여전히 정상 이하일 수 있습니다. 첫 주에 비해 즐거움의 깊은 상실이 완화되고 진정한 행복의 순간이 돌아오고 있습니다.\n\n갈망과 유발 요인\n신호로 인한 갈망은 이 단계에서 중요한 도전입니다. 뇌는 코카인 사용과 특정 환경, 사람, 감정 및 활동 사이에 강력한 연관성을 형성했습니다. 이러한 유발 요인 중 하나라도 발생하면 전반적인 기분이 좋아질 때에도 강렬한 갈망이 생길 수 있습니다. 고위험 환경을 피하고 새로운 연관성을 구축하는 것이 중요합니다.\n\n수면 개선\n수면은 일반적으로 급성 금단 단계보다 2주 정도 더 안정되고 회복됩니다. 향상된 수면은 기분, 명확한 사고, 갈망 관리 능력에 상당히 긍정적인 영향을 미칩니다.\n\n기초 구축\n각성제 사용 장애에 대한 증거 기반 치료는 행동적(우발상황 관리, 치료, 동료 지원)이기 때문에 2주는 장기적인 회복을 뒷받침할 지원 구조에 참여하는 중요한 시간입니다.';
+
+  @override
+  String get cocaineReferenceDay60 =>
+      '코카인을 사용하지 않은 두 달: 기분과 보상이 회복되기 시작합니다.\n\n출처: PubMed Central의 \"코카인으로부터의 회복: 임상 및 전임상 조사로부터의 통찰력,\" 신경과학 및 생물행동 리뷰(2013)\n\n뇌가 하는 일\n이 리뷰는 코카인 사용을 중단할 때 뇌에 어떤 일이 일어나는지에 대한 인간과 동물 연구를 종합합니다. 만성 코카인은 도파민 시스템을 변화시키고 전두엽 피질의 활동을 감소시킵니다. 이러한 시스템의 회복은 사람들이 초기 금욕에서 느끼는 기분과 동기 부여 개선의 기초입니다.\n\n보상 시스템 진행\n동물 연구에서 도파민 수용체와 재활용 단백질의 코카인 관련 변화는 금욕을 지속하면서 건강한 수준으로 되돌아갔습니다. 보상 시스템이 회복됨에 따라 즐거움 상승과 일상적인 보상(음식, 연결, 성취)의 깊은 상실이 다시 보람을 느낍니다.\n\n회복 신호\n2개월이 지나면 기분이 좋아지고 수면이 더욱 안정되며 도파민과 전두엽 피질 시스템은 계속 재건됩니다. 영장류 연구에 따르면 코카인 관련 D1 수용체와 수송체 변화가 지속적인 금욕으로 통제 수준으로 되돌아가는 것으로 나타났습니다.';
+
+  @override
+  String get cocaineReferenceDay90 =>
+      '코카인 없이 3개월: 도파민 지표 반등\n\n출처: PubMed Central의 \"코카인으로부터의 회복: 임상 및 전임상 조사로부터의 통찰력,\" 신경과학 및 생물행동 리뷰(2013)\n\n90일이 랜드마크인 이유\n이 검토에서는 3개월 시점이 생물학적으로 의미가 있음을 강조합니다. 인간이 아닌 영장류의 경우, 코카인이 증가시킨 도파민 D1 수용체와 수송체는 약 90일간의 금욕 후에 \"조절 수준으로 회복되었다는 증거\"를 보여주었습니다. 이는 약물이 사라지면 보상 시스템이 재조정될 수 있다는 직접적인 증거입니다.\n\n뇌의 앞\n저자들은 장기간의 금욕의 가장 중요한 징후 중 하나로 뇌 앞부분의 회복을 강조합니다. 이 영역은 충동 조절, 의사 결정, 자제력을 담당하며, 회복되면서 이러한 능력이 강화됩니다.\n\n90일이 보여주는 것\n90일째 영장류 연구에서는 D1, D2 및 도파민 수송체 밀도가 약물을 사용하지 않은 대조군과 더 이상 크게 다르지 않은 것으로 나타났습니다. 장기간 노출된 후에도 이 시점에서는 상당한 도파민 시스템 회복이 이미 눈에 띄며 금욕이 계속됩니다.';
+
+  @override
+  String get cocaineReferenceDay180 =>
+      '코카인 없이 6개월: 더 명확한 사고\n\n출처: PubMed Central의 \"금주 중 약물 사용 장애가 있는 개인의 구조적 및 기능적 뇌 회복: 종단적 신경영상 연구 검토\"\n\n이미지 복구 가능\n이 리뷰는 금욕 기간이 길어짐에 따라 동일한 사람들을 반복적으로 스캔하는 종단적 뇌 영상 연구를 통합합니다. 코카인의 경우 지속적인 금욕으로 기능적 활동이 상당히 회복되는 것으로 보고되었습니다.\n\n뇌 영상 증거\n두 가지 기능적 MRI 연구에서는 시간이 지남에 따라 코카인 사용자를 추적했으며 둘 다 금욕 기간이 길어질수록 중뇌와 시상의 활성화가 개선되는 것으로 나타났습니다. 한 연구에서는 약 6개월간 금욕을 한 후 뇌의 활성화 패턴이 중독되지 않은 건강한 대조군의 활성화 패턴과 비슷해졌습니다. 물질 전반에 걸쳐, 검토에서는 핵 영상 결과가 금주와 함께 도파민 회복을 가리킨다고 지적합니다.\n\n6개월 후 이것이 의미하는 바\n이러한 기능적 이득은 이 단계에서 사람들이 보고하는 실제 개선 사항과 함께 추적됩니다.\n• 더 나은 주의력과 작업 기억력\n• 더욱 날카로운 의사결정 및 충동 제어\n• 안정된 기분과 감정 조절\n\n회복 신호\n약 6개월 후, 하나의 종단적 fMRI 코호트는 중독되지 않은 건강한 대조군과 비슷한 활성화 패턴을 보였으며, 금욕 기간이 길어짐에 따라 중뇌 및 심뇌 활성화가 향상되었습니다. 그것은 바로 기능성 뇌 회복을 이미지화한 것입니다.';
+
+  @override
+  String get cocaineReferenceDay365 =>
+      '코카인 없는 1년: 심혈관 질환 완화\n\n출처: \"코카인 독성\", StatPearls(NCBI Bookshelf), 미국 국립의학도서관\n\n왜 마음이 중심인가\nStatPearls는 심혈관 독성을 코카인의 가장 치명적인 효과로 식별합니다. 각 사용은 심박수, 혈압 및 심근 산소 요구량을 높이는 동시에 관상 동맥 혈관 경련을 일으키고 혈전 형성을 촉진합니다. 이 조합은 젊은 사람들에게도 심장 마비, 부정맥 및 뇌졸중을 유발합니다.\n\n금욕의 해가 제거하는 것\n코카인이 없는 매일은 이러한 극심한 모욕으로부터 자유로운 날입니다. 1년이 지나면서 혈압과 심박수의 반복적인 급등이 사라지고, 코카인으로 인한 관상동맥 경련과 급성 경색의 위험이 제거되고, 심장이 더 이상 산소 부조화에 빠지지 않게 됩니다.\n\n회복 신호\n코카인을 중단하면 급성 심장 손상을 유발하는 반복되는 관상 동맥 혈관 경련, 빈맥, 고혈압, 혈전 촉진 및 산소 불일치가 중단됩니다. 기존 섬유증이나 심근염은 여전히 ​​의학적 문제로 남아 있지만 반복되는 코카인 유발 모욕은 사라졌습니다.\n\n두뇌 회복도\n1년이 지나면 보상 및 자기 통제 시스템의 회복 시간이 연장되어 더 나은 충동 제어, 안정된 기분, 일상적인 보상에 대한 더 강한 반응을 지원합니다.';
+
+  @override
+  String get cocaineReferenceDay730 =>
+      '코카인 없이 2년: 지속적인 회복\n\n출처: PubMed Central의 \"코카인으로부터의 회복: 임상 및 전임상 조사로부터의 통찰력,\" 신경과학 및 생물행동 리뷰(2013)\n\n장기적 관점\n이 리뷰는 인간과 동물 연구에서 확장된 코카인 금욕에 대해 보여주는 내용을 종합합니다. 그 중심 결론은 전두엽 피질 기능의 보존과 회복이 장기 금욕의 가장 중요한 지표라는 것입니다. 장기 금욕자(10개월 이상)는 단기 금욕자보다 전두엽 피질 활동이 더 높은 것으로 나타났습니다.\n\n계속해서 치유되는 것\n• 코카인에 의해 변경된 도파민 지표는 금주를 지속하면서 정상을 향해 계속 이동합니다.\n• 활동적이거나 초기에 금주한 사용자에게서 나타나는 회백질 완전성 감소는 금욕 기간이 길어지면 아마도 지속적인 미엘린 성숙을 통해 역전될 수 있습니다.\n• 정면 제어 회로(충동 제어, 판단, 감정 조절) 강화\n\n회복 신호\n저자는 진정한 과학적 경고를 제기합니다. 장기 금욕자의 차이 중 일부는 \"생존자 효과\"를 반영할 수 있습니다. 즉, 뇌 완전성이 뛰어난 사람들은 금욕을 유지하는 것이 혼자 회복하는 것보다 더 쉽다는 것을 알 수 있습니다. 분명한 것은 2년 동안 코카인을 사용하지 않으면 뇌가 비사용자와 훨씬 더 가깝게 기능하고, 단순히 금주하는 것이 아니라 실질적으로 재건되는 삶을 지원한다는 것입니다.';
+
+  @override
+  String get ghbReferenceDay1 =>
+      'GHB 출금: 첫 시간\n\n출처: PubMed Central의 \"GHB 금단 증후군의 특성화\"\n\n⚠ 의료적 응급상황입니다\nGHB 금단은 심각한 알코올 및 벤조디아제핀 금단과 맞먹는 가장 위험한 물질 금단 중 하나입니다. 치료하지 않으면 절반 이상의 사례에서 섬망으로 진행될 수 있으며 심박수와 혈압의 위험한 변동 및 발작이 발생할 수 있습니다. GHB, GBL 또는 1,4-부탄디올에 의존하는 사람은 혼자 중단하기보다는 감독하에 입원 환자 해독을 찾아야 합니다.\n\n왜 그렇게 빨리 시작되는가?\nGHB의 반감기는 30~60분에 불과하며 의존적인 사용자는 일반적으로 금단 증상을 피하기 위해 2~3시간마다 다시 복용해야 합니다. 이는 알코올이나 벤조디아제핀보다 훨씬 빠릅니다. 이러한 빠른 약동학으로 인해 다른 진정제-수면 금단 요법보다 증상이 훨씬 빨리 나타날 수 있습니다.\n\n초기 증상\n불안, 불면증, 떨림, 발한, 빠른 심박수 및 혈압 상승.';
+
+  @override
+  String get ghbReferenceDay3 =>
+      'GHB 출금: 가장 힘든 시절\n\n출처: PubMed Central의 \"GHB 금단 증후군의 특성화\"\n\n가장 거친 스트레칭\n이 연구에서는 근육통, 근육 경련, 긴장되고 스트레스 받는 느낌, 빠른 심박수, 복부 경련 등 몇 가지 핵심 금단 증상이 처음 3일 동안 최악이었고 4일째에는 많은 증상의 심각도가 70% 이상 감소한 것으로 나타났습니다. 이 초기 기간은 일반적으로 치료되지 않은 금단 증상이 섬망, 발작 또는 심박수 및 혈압의 위험한 변동으로 확대될 가능성이 가장 높은 위험 기간입니다.\n\n심각한 특징\n• 심한 초조함과 불안감\n• 청각 및 시각적 환각, 편집증\n• 떨림, 발한, 심장 두근거림, 고혈압\n• 발작 위험\n\n관리\n이 연구에서는 일반적으로 사용되는 두 가지 해독 방법으로 벤조디아제핀 테이퍼링과 약제학적 GHB 테이퍼링을 설명하며, GHB 테이퍼가 벤조디아제핀 단독보다 증상을 더 효과적으로 조절할 수 있다는 일부 증거에 주목합니다. 어느 접근 방식이든 면밀한 모니터링이 필요합니다. 집에서 관리하는 것은 안전하지 않습니다.';
+
+  @override
+  String get ghbReferenceDay7 =>
+      '일주일 휴가 GHB\n\n출처: PubMed Central의 \"GHB 금단 증후군의 특성화\"\n\n대부분의 증상이 사라집니다\n몇 가지 핵심 금단 증상은 처음 4일 이내에 심각도나 유병률이 70% 이상 감소했습니다. 감독된 테이퍼링 하에서 테이퍼링 단계 자체는 평균 11일 동안 지속되었으며 그 후 약 6일의 회복 단계가 이어졌습니다. 따라서 프로세스가 완전히 완료되지 않았더라도 1주일이 지나면 많은 사람들이 개선에 들어갑니다.\n\n무엇이 남을 수 있는가?\n• 땀이 나고 떨리고 손이 떨립니다.\n• 잠을 많이 자거나 반대로 불면증과 안절부절 못함\n• 갈망\n\n연구에 따르면 이러한 특정 증상은 11일 동안에도 비교적 거의 변하지 않았으므로 이번 주에도 지속되는 것은 드문 일이 아닙니다. 증후군이 확실히 해결될 때까지 지속적인 의학적 감독이 중요합니다.';
+
+  @override
+  String get ghbReferenceDay14 =>
+      'GHB 2주 휴가\n\n출처: PubMed Central의 \"GHB 금단 증후군의 특성화\"\n\n급성증후군을 지나\n이 연구에서 설명한 급성 신체 증후군(감독 치료 하에서 테이퍼링 및 회복 단계를 합하면 평균 약 17일 소요)은 일반적으로 해결되었거나 거의 거의 해결되었습니다. 심박수, 혈압 및 대부분의 신체 증상이 안정되어야 합니다.\n\n남아있는 것\n이 연구는 특히 일부 환자의 경우 퇴원 시에도 갈망과 불면증이 여전히 존재한다는 점을 지적하며, 이것이 재발 위험에 기여할 수 있다는 점을 지적했습니다. 위험한 초기 단계가 지나갔음에도 불구하고 지금은 지원과 구조가 중요합니다.';
+
+  @override
+  String get ghbReferenceDay30 =>
+      'GHB 한 달 할인\n\n출처: PubMed Central의 \"GHB 금단 증후군의 특성화\"\n\n한 달이 머무는 곳\n이 연구에서 설명한 급성의 위험한 단계는 한 달이 훨씬 지난 시점입니다. 한 달이 지나면 급성 위험 단계(첫 번째 날에 집중된 후 감독하에 평균 약 2주 반 동안의 감소 및 회복 기간이 이어짐)가 오래 전에 지나갑니다. 갈망과 불면증은 퇴원 시 확인된 주요 잔여 재발 위험입니다.\n\n지원이 여전히 도움이 되는 이유\n갈망, 기분 저하 또는 수면 문제가 한 달 후에도 여전히 존재하는 경우 이는 연구 저자가 재발 위험 요인으로 표시한 것과 일치합니다. 이것이 바로 지속적인 지원과 구조가 중요한 이유입니다.';
+
+  @override
+  String get ghbReferenceDay90 =>
+      'GHB 3개월 할인\n\n출처: PubMed Central의 \"GHB 금단 증후군의 특성화\"\n\n3개월 간의 회복\n3개월이 지나면 급성 GHB 금단 증후군은 오랫동안 해결됩니다. 퇴원 시 확인된 잔여 위험은 갈망과 불면증이므로 3개월 간의 금주를 통해 수면, 자율신경 안정 및 재발 방지 루틴을 강화하는 데 상당한 시간을 확보할 수 있습니다.\n\n사람들이 흔히 보고하는 내용\n• 평소보다 차분한 기분\n• 더욱 안정적인 수면\n• 더 명확한 사고와 더 적은 갈망\n\n불안, 불면증 또는 우울한 기분이 3개월 후에도 여전히 두드러진다면, 저절로 해결될 것이라고 가정하기보다는 임상의와 논의하는 것이 좋습니다.';
+
+  @override
+  String get ghbReferenceDay180 =>
+      'GHB 6개월 할인\n\n출처: PubMed Central의 \"GHB 금단 증후군의 특성화\"\n\n반년이 지났습니다\n6개월이 되면 급성 GHB 금단 증후군은 오랫동안 해결되고 회복은 해독에서 안정적인 수면, 갈망 조절 및 재발 예방으로 완전히 전환됩니다. 위험한 자율신경과 섬망이 발생하기 쉬운 단계는 이 단계가 아닌 첫 번째 며칠과 몇 주에 속합니다.\n\n더 큰 그림\nGHB 금단 증상을 안전하게 극복하고 반년 동안 휴식을 취하는 것은 초기 단계가 얼마나 위험한지, 부분적으로 지속적인 갈망과 불면증으로 인한 재발 위험이 얼마나 실제적인지를 고려할 때 중요한 성과입니다. 당신을 여기까지 오게 만든 루틴과 지원은 유지할 가치가 있습니다.';
+
+  @override
+  String get inhalantsReferenceDay1 =>
+      '흡입제 중단: 첫째 날\n\n출처: Radparvar, \"흡입 남용의 임상 평가 및 치료,\" The Permanente Journal(2023), PubMed Central\n\n탈퇴가 발생하는 이유\n만성 흡입제 사용은 신경적응을 유발합니다. 즉, 신경계가 물질을 기대하게 됩니다. 많은 흡입제는 알코올과 동일한 뇌 회로에 영향을 미치므로, 알코올을 중단하면 일시적으로 뇌의 불균형이 발생합니다. 화학물질은 혈액을 빠르게 제거하지만 체지방에 저장되므로 금단 시기를 예측할 수 없습니다.\n\n초기 증상\n이 리뷰에서는 흡입제 금단 현상이 알코올이나 벤조디아제핀 금단 증상과 유사하다고 설명하며 다음과 같은 증상이 보고됩니다.\n• 메스꺼움, 구토, 발한\n• 떨림 및 빠른 심박수\n• 불면증 및 수면 장애\n• 불안과 과민성\n\n안전 참고사항\n더 심각한 경우에는 보고된 증상 중 환각, 망상, 발작도 나열하지만 정확한 일일 일정을 제시하지는 않습니다. 이를 고정된 일정이 아닌 발생할 수 있는 증상으로 취급합니다. 디톡스 중에는 특히 과량의 장기간 사용자의 경우 의료 감독이 현명합니다.';
+
+  @override
+  String get inhalantsReferenceDay7 =>
+      '흡입제 일주일 쉬기\n\n출처: Radparvar, \"흡입 남용의 임상 평가 및 치료,\" The Permanente Journal(2023), PubMed Central\n\n급성 창\n흡입제 금단은 임상 문헌에 알코올이나 벤조디아제핀 금단과 유사한 것으로 기술되어 있지만 일반적으로 수명이 짧은 것으로 이해됩니다. 대부분의 사람들은 첫 주가 지나면 메스꺼움, 떨림, 발한, 불면증과 같은 급성 신체 증상이 해결됩니다.\n\n남은 것\n• 피로와 뇌 혼미\n• 기분이 낮거나 불안정함\n• 갈망\n\n조기 금욕에 관한 참고 사항\n이 단계의 뇌 안개는 지속적인 손상을 의미하지 않습니다. 뇌는 여전히 재조정 중입니다. 다음 몇 주 및 몇 달 동안 사고와 기억이 구체적으로 어떻게 회복되는지에 대한 연구는 이후 마일스톤에서 다룹니다.';
+
+  @override
+  String get inhalantsReferenceDay14 =>
+      '흡입제 2주 사용 중단\n\n출처: Radparvar, \"흡입 남용의 임상 평가 및 치료,\" The Permanente Journal(2023), PubMed Central\n\n급성기를 거쳐\n임상 검토에서는 흡입제 금단을 알코올 또는 벤조디아제핀 금단과 유사하지만 더 짧은 것으로 설명합니다. 2주가 지나면 메스꺼움, 떨림, 불면증, 불안이 대개 가라앉습니다.\n\n앞으로 나아갈 길\n주의력, 기억력, 움직임, 조정력은 다음 몇 달에 걸쳐 점차적으로 회복됩니다. 지속적인 금욕은 이러한 모든 시스템을 개선할 시간을 줍니다. 좋은 영양(흡입제 사용은 비타민 B12를 고갈시킬 수 있음)과 금욕이 이를 위한 무대를 마련합니다.';
+
+  @override
+  String get inhalantsReferenceDay30 =>
+      '흡입제 1개월 할인\n\n출처: Dingwall 외, \"휘발성 용매 남용 치료 중 및 치료 후의 인지 회복\", 약물 및 알코올 의존(2011), PubMed\n\n한 달이 머무는 곳\n조기 철수 기간이 훨씬 지났습니다. 이 연구에서는 일부 학습 기술이 6주 이내에 향상되었으며, 시각적 조정, 기억, 계획 및 의사 결정은 다음 달에 걸쳐 점진적으로 향상되었습니다.\n\n개선할 수 있는 점\n• 주의 집중 및 일부 학습 과제\n• 몸이 안정되면서 기분과 수면\n• 모터 속도, 점차적으로\n\n회복 신호\n연구의 결론은 분명합니다. 금욕을 하면 기억력, 계획, 의사결정 능력이 수개월에서 수년에 걸쳐 점차적으로 향상됩니다. 지속적인 금욕이 회복의 가장 강력한 원동력입니다.';
+
+  @override
+  String get inhalantsReferenceDay90 =>
+      '흡입제 3개월 사용 중단\n\n출처: Dingwall 외, \"휘발성 용매 남용 치료 중 및 치료 후의 인지 회복\", 약물 및 알코올 의존(2011), PubMed\n\n고르지 않고 더 긴 프로세스\n이 연구는 8주 치료 프로그램 이상으로 사람들을 추적했으며 약 1년 후에 그들 중 일부를 다시 확인했습니다. 일부 학습 기술은 6주 이내에 향상되었으며 시각적 조정, 기억, 계획 및 의사 결정은 장기간에 걸쳐 계속 향상되었습니다.\n\n코스 유지\n연구에 따르면 느린 기술은 몇 달에서 몇 년에 걸쳐 점차적으로 향상됩니다. 3개월이 되었을 때, 지속적인 금욕은 매달 회복을 더할 수 있는 가장 강력한 지렛대입니다.';
+
+  @override
+  String get inhalantsReferenceDay365 =>
+      '흡입제 1년 할인\n\n출처: PubMed의 \"만성 흡입제 남용 후 15년 후의 신경인지 변화에 대한 전향적 연구\"\n\n실제적이고 측정 가능한 복구\n장기간의 연구에 따르면 2년 간의 금주 후에 만성 흡입제 관련 뇌 및 사고 문제가 상당히 회복된 것으로 나타났습니다. 1년이 지나면 회복 경로를 잘 따라가게 됩니다.\n\n그것이 의미하는 것\n기억력, 주의력, 운동 기능이 계속해서 향상됩니다. 장기간의 금욕은 진정한 뇌 회복을 가져옵니다. 납으로 인한 뇌 손상이 없는 만성 사용자의 경우 2년이 지나면 대부분의 뇌, 기억 및 사고 점수가 정상으로 돌아왔습니다.';
+
+  @override
+  String get inhalantsReferenceDay730 =>
+      '흡입제 2년 사용 중단\n\n출처: PubMed의 \"만성 흡입제 남용 후 15년 후의 신경인지 변화에 대한 전향적 연구\"\n\n2년차 마크\n이는 연구의 핵심 이정표입니다. 장기간의 용제 사용으로 인한 뇌 손상을 반영하는 적자는 금주 2년 후에 상당한 회복을 보였습니다. 저자들은 유연 휘발유로 인한 뇌 손상이 없는 경우 장기간 금주하면 정상적인 뇌 기능이 회복될 수 있다고 결론지었습니다.\n\n회복 신호\n주요 예외는 납 함유 휘발유 남용으로 인한 피해로, 이는 지속적인 적자를 유발할 수 있습니다. 그렇지 않은 경우 2년 간의 금욕은 뇌를 중심으로 재건된 삶과 함께 뇌의 치유를 위한 가장 잘 기록된 기회를 나타냅니다.';
+
+  @override
+  String get ketamineReferenceDay1 =>
+      '케타민 중단: 첫날\n\n출처: PubMed Central의 \"케타민 유발 방광염: 이 정신 활성 약물의 비뇨기과적 효과에 대한 종합적인 검토\"\n\n금단 현상은 주로 심리적입니다\n아편유사제나 알코올과 달리 케타민은 심각한 신체적 금단 현상을 거의 일으키지 않습니다. 중단은 일반적으로 안전합니다. 사람들은 신체적 질병보다 갈망과 심리적 의존으로 더 자주 어려움을 겪습니다.\n\n당신이 느낄 수 있는 것\n• 기분 변화 및 기분 저하\n• 갈망\n• 가끔 땀이 나거나 심계항진이 나타납니다.\n\n핵심 단계\n방광 증상이 있는 사람에게는 즉각적이고 완전한 중단이 회복을 위한 의무적인 시작점입니다. 따라서 첫날이 가장 중요한 결정입니다.';
+
+  @override
+  String get ketamineReferenceDay7 =>
+      '케타민 일주일 쉬기\n\n출처: PubMed Central의 \"케타민 유발 방광염: 종합적인 검토\"\n\n심리적 단계\n초기 케타민 중단의 주요 문제는 심리적인 것입니다: 갈망, 변경되거나 우울한 기분, 일부 뇌 안개. 신체적 금단 증상이 있는 경우 일반적으로 경미합니다.\n\n이 단계에서는 뇌 안개가 흔히 발생합니다. 집중력이 힘들고, 반응 시간이 느리고, 단기 기억력이 불안정하다고 느낄 수 있습니다. 사고와 기억에 대한 이러한 효과는 금욕으로 향상됩니다. 114명의 케타민 사용자를 대상으로 한 종단 연구에서는 케타민을 사용하지 않은 후 12주 후에 언어 기억, 시각 기억, 처리 속도, 계획, 집중력 및 의사 결정이 크게 향상되는 것으로 나타났습니다.\n\n방광 증상\n케타민 유발 방광염(절박뇨, 빈뇨, 통증 또는 혈뇨)이 있는 경우 지금 중단하면 방광이 치유될 수 있는 가장 좋은 기회가 됩니다. 통증은 사람들이 스스로 치료하기 위해 케타민을 사용하도록 유혹할 수 있습니다. 대신 적절한 통증 지원을 통해 이러한 순환을 깨뜨릴 가치가 있습니다.';
+
+  @override
+  String get ketamineReferenceDay14 =>
+      '케타민 2주 쉬기\n\n출처: PubMed Central의 \"케타민 유발 방광염: 종합적인 검토\"\n\n더 명확한 사고\n약물이 완전히 제거되면 정기적인 케타민 사용과 관련된 정신적 안개와 단절된 사고가 사라지기 시작합니다. 기억력과 집중력이 향상되고 기분이 안정됩니다.\n\n방광 회복 시작\n초기 단계 방광염의 경우, 검토에서는 단순히 케타민을 중단하는 것이 증상을 반전시키는 가장 중요한 단계이며 조기 중단이 손상이 영구적으로 되기 전에 회복 가능성이 가장 높다는 점을 강조합니다. 2주간의 금욕이 그 과정의 시작입니다.';
+
+  @override
+  String get ketamineReferenceDay30 =>
+      '케타민 1개월 할인\n\n출처: \"오락용 케타민 사용자의 비뇨기 증상의 유병률 및 자연사,\" Winstock 외, BJU International(2012)\n\n방광 회복\n케타민 유발 방광염의 가장 중요한 치료법은 케타민을 중단하는 것입니다. 기분 전환용 케타민 사용자를 대상으로 한 이 연구에서는 소변 증상이 있는 사람 중 51%가 사용을 중단한 후 증상이 호전된 것으로 나타났으며, 4% 미만은 악화되었습니다. 일찍 멈출수록 결과는 더 좋습니다.\n\n마음과 기분\n인지와 기분은 한 달이 지나도 계속해서 깨끗해집니다. 심리적, 사회적 지원은 중단 상태를 유지할 가능성을 의미 있게 향상시킵니다. 중단은 지원을 받을 때 가장 잘 작동합니다.';
+
+  @override
+  String get ketamineReferenceDay90 =>
+      '케타민 3개월 할인\n\n출처: PubMed Central의 \"케타민 유발 방광염: 종합적인 검토\"\n\n지속적인 복구\n케타민 후 방광 회복은 종종 점진적입니다. 검토에서는 증상 심각도가 중단 후 개선된다고 설명하지만, 이는 장기간 지속되고 가변적일 수 있습니다. 3개월은 반응을 보이는 경우 요로가 치유될 수 있는 지속적인 시간을 제공합니다.\n\n마음\n명확한 사고와 기분은 초기 금욕에 비해 훨씬 더 명확하며 갈망도 덜 빈번합니다. 지속되거나 심각한 방광 증상은 비뇨기과 전문의의 평가를 받아야 합니다.';
+
+  @override
+  String get ketamineReferenceDay180 =>
+      '케타민 6개월 사용 중단\n\n출처: PubMed Central의 \"케타민 유발 방광염: 종합적인 검토\"\n\n반년이 지났습니다\n금주를 지속하면 중단에 반응하는 경우 방광 증상이 계속 호전되고 사고, 기억, 기분이 안정됩니다. 사용의욕이 많이 약해졌습니다.\n\n회복 신호\n이미 발생한 방광 손상의 회복은 불완전할 수 있으므로 조기 중단이 매우 중요합니다. 어느 단계에서 멈추든, 그 상태를 유지하면 방광에 최상의 결과를 가져올 수 있습니다.';
+
+  @override
+  String get ketamineReferenceDay365 =>
+      '케타민 1년 할인\n\n출처: PubMed Central의 \"케타민 유발 방광염: 종합적인 검토\"\n\n1년\n12개월 동안의 금욕은 초기에 발견된 경우 방광에 완전한 회복 기회를 제공하고 사고, 기억 및 기분을 안정적이고 깨끗하게 유지합니다. 정지를 어렵게 만들었던 심리적 의존성은 크게 사라졌습니다.\n\n더 큰 그림\n1년 무료는 신체 건강, 명확성 및 자기 방향성에 있어서 엄청난 변화입니다. 당신을 여기에 있게 한 지원을 유지하면 그것을 보호할 수 있습니다.';
+
+  @override
+  String get kratomReferenceDay1 =>
+      'Kratom 철수: 첫날\n\n출처: Swogger 외. (2022), \"Kratom 사용 이해: 의료 서비스 제공자를 위한 가이드\", 약리학의 개척지\n\n탈퇴가 발생하는 이유\nKratom의 활성 화합물은 고전적인 오피오이드와 동일한 오피오이드 수용체에 작용합니다. 정기적으로 사용하면 신체가 적응하므로 중단하면 오피오이드와 유사한 금단 현상이 발생합니다. 이 임상 가이드는 정기적인 크라톰 사용의 위험으로 인식되는 의존성과 금단을 설명합니다.\n\n발병에 대한 증거가 보여주는 것\n가이드에 인용된 동물 연구에 따르면 신체 금단 증상은 약 12시간 이내에 나타나고 24시간에는 불안과 유사한 효과가 나타납니다. 정확한 인간 발병 시기는 확립되지 않았지만 일반적으로 보고되는 초기 증상은 다음과 같습니다.\n• 안절부절 못함, 불안, 과민함\n• 근육통과 콧물\n• 땀이 나고 눈물이 나는 눈\n• 갈망\n\n심각도에 대한 참고 사항\n가이드에서는 더 긴 사용 기간과 더 높은 용량이 더 심각하고 오래 지속되는 금단 증상과 관련이 있다고 지적합니다. 특히 크라톰을 고용량으로 사용하거나 오피오이드와 함께 사용하는 경우 감독된 의료 지원을 모색할 가치가 있습니다.';
+
+  @override
+  String get kratomReferenceDay3 =>
+      'Kratom 철수: 가장 힘든 날들\n\n출처: Singh et al. (2014), 약물 및 알코올 의존 — 말레이시아의 일반 크라톰 사용자 293명을 대상으로 한 설문조사\n\n증거가 보여주는 것\n이 조사에서는 단 하나의 정의된 \'피크 데이\'가 아니라 금단 증상의 심각도가 누군가가 얼마나 오랫동안 사용했는지 추적한다는 사실을 발견했습니다. 매일 3잔 이상의 크라톰을 마시는 사람들은 심각한 의존성과 금단이 더 어려운 확률이 훨씬 더 높았습니다. 대부분의 사람들에게는 중단 후 처음 며칠이 가장 어렵습니다.\n\n일반적으로 보고되는 증상\n• 근육 및 관절 통증, 다리 불안\n• 피로에도 불구하고 불면증\n• 메스꺼움, 위경련, 설사\n• 불안, 기분 저하, 과민 반응\n• 강한 갈망\n\n그것을 극복하기\n수분 공급, 휴식, 증상 지원에 도움이 됩니다. 금단 현상이 지금까지 심각하게 느껴진다면 비정상적으로 잘못된 것이 아니라 더 많이 사용하거나 더 오래 사용하는 것과 일치하며 여기서는 완화되는 경향이 있습니다.';
+
+  @override
+  String get kratomReferenceDay7 =>
+      '크라톰 일주일 휴가\n\n출처: Swogger 외. (2022), \"Kratom 사용 이해: 의료 서비스 제공자를 위한 가이드\", 약리학의 개척지\n\n급성기를 지나\n이 안내서에 인용된 인간의 자가 보고 데이터에 따르면 중단한 대부분의 사람들은 금단 증상이 약 1~3일 이내에 해결됩니다. 일주일이 지나면 근육통, 발한, 메스꺼움과 같은 급성 신체 증상이 대부분의 경우 해결됩니다. 남아 있을 수 있는 것은 더 심리적입니다. 오피오이드 수용체인 크라톰이 자극하여 신체의 자체 신호에 다시 적응함에 따라 피로, 수면 방해, 우울한 기분 등이 있습니다.\n\n실제 위험\n이 가이드는 또한 소수의 사람들이 크라톰을 끊기가 매우 어렵다고 생각하며, 더 무겁고 장기간 사용자들 사이에서 더 심각하고 오래 지속되는 금단 현상이 보고되었다고 지적합니다. 이번주는 재발의 공통점이며 내성이 빠르게 떨어집니다. 특히 오피오이드가 관련된 경우 이전 용량으로 돌아가는 것은 이제 정말 위험합니다.';
+
+  @override
+  String get kratomReferenceDay14 =>
+      '크라톰 2주 휴가\n\n출처: 국립 약물 남용 연구소(NIDA), \"Kratom\"\n\n공부한 창 너머\n크라톰 철수 시기에 대한 통제된 인간 데이터는 일반적으로 처음 며칠 동안만 다루므로 특정 \'2주\' 이정표를 확정하는 잘 확립된 연구는 없습니다. 문서화된 것은 더 넓은 패턴입니다. 크라톰은 기존 오피오이드와 동일한 오피오이드 수용체에 작용하며, 정기적으로 사용을 중단하면 해당 수용체가 점차 신체 자체 신호에 대한 민감도를 회복합니다.\n\n사람들이 흔히 보고하는 내용\n• 식욕과 활력이 좋아지는 경우가 많습니다.\n• 수면이 더욱 안정되는 경향이 있습니다.\n• 기분은 여전히 변하기는 하지만 일반적으로 안정적입니다.\n\n갈망은 여전히 스트레스와 익숙한 신호에 의해 촉발되므로 이에 대한 계획을 세우는 것이 여전히 유용합니다.';
+
+  @override
+  String get kratomReferenceDay30 =>
+      '크라톰 1개월 할인\n\n출처: 국립 약물 남용 연구소(NIDA), \"Kratom\"\n\n보상 시스템 회복\nNIDA는 크라톰이 뇌의 오피오이드 수용체에 작용하며 의존성과 금단 증상을 정기적인 사용에 따른 위험으로 인식하고 있다고 설명합니다. \'1개월\' 회복 기간을 정하는 구체적인 연구는 없지만 오피오이드 수용체 기반 의존성의 일반적인 패턴은 지속적인 금욕으로 인해 일상의 즐거움에 대한 뇌의 반응이 점차 정상화된다는 것입니다.\n\n한 달 휴가로 얻을 수 있는 것\n크라톰이 없는 한 달은 필요한 시간과 노력을 대신하여 일관된 수면, 식사 및 일상 생활을 하는 한 달입니다. 갈망은 덜 자주 발생하고 더 쉽게 관리할 수 있다고 느끼는 경향이 있지만, 스트레스가 높은 순간은 여전히 ​​가장 취약한 순간입니다.';
+
+  @override
+  String get kratomReferenceDay90 =>
+      '크라톰 3개월 휴가\n\n출처: 국립 약물 남용 연구소(NIDA), \"Kratom\"\n\n보다 안정적인 일상 상태\nKratom은 오피오이드 수용체에 작용하므로 Kratom이 없으면 3개월 동안 뇌의 보상 및 스트레스 시스템이 안정될 때까지 지속됩니다. 많은 사람들이 적극적으로 사용할수록 더 명확한 사고와 꾸준한 동기 부여를 얻을 수 있다고 보고합니다.\n\n중요한 이유\n최근에 사용하지 않을수록 크라톰의 일상적인 효과가 점점 사라지는 경향이 있으므로 이 이정표는 지속적인 회복을 위한 견고한 기반이 됩니다.';
+
+  @override
+  String get kratomReferenceDay365 =>
+      '크라톰 1년 할인\n\n출처: 국립 약물 남용 연구소(NIDA), \"Kratom\"\n\n과거의 급성 금단 증상\nNIDA는 구체적인 1년 크라톰 회복 일정을 발표하지 않지만, 1년 동안 금주를 지속하는 것은 크라톰 연구에 기록된 급성 및 초기 심리적 금단 기간을 훨씬 뛰어넘는 기간입니다. 이 지점에 도달한 대부분의 사람들에게 갈망은 드물고 관리하기가 훨씬 쉽습니다.\n\n더 큰 그림\n1년간의 금욕은 건강, 재정, 자기주도의 실질적인 변화를 의미합니다. 지원과의 연결을 유지하면 진행 상황을 안전하게 유지하는 데 도움이 됩니다.';
+
+  @override
+  String get maoiReferenceDay3 =>
+      'MAOI 중단: 가장 위험한 단계\n\n출처: Dilsaver(1988), MAOI 금단반응 연구\n\n중요한 안전 경고\nMAOI는 모든 항우울제 계열 중에서 가장 심각한 중단 위험을 안고 있습니다. 특히 페넬진과 트라닐시프로민의 갑작스러운 중단은 다음과 같은 심각한 반응을 일으킬 수 있습니다.\n• 심한 불안과 동요\n• 압박감 있는 말투와 안절부절 못함\n• 불면증 또는 졸음\n• 환각\n• 섬망 및 편집증 정신병\n\n이러한 증상이 나타나면 즉시 의사의 진료를 받으십시오.\n\nMAOI의 작동 방식\nMAOI는 모노아민 산화효소(MAO-A 및 MAO-B)에 비가역적으로 결합하고 비활성화하는 방식으로 작동합니다. 이 효소는 일반적으로 뇌와 장에서 세로토닌, 노르에피네프린, 도파민, 티라민을 분해합니다. 단순히 차단되는 것이 아니라 효소 자체가 파괴되기 때문에 회복은 약물이 혈류를 얼마나 빨리 제거하느냐보다는 신체에서 신선한 효소를 생산하는 데 달려 있습니다.';
+
+  @override
+  String get maoiReferenceDay7 =>
+      'MAOI 후 1주일: MAO 효소 합성 진행 중\n\n출처: \"모노아민 산화효소 억제제(MAOI)\"(StatPearls, NCBI Bookshelf)\n\n효소 회수 과정\n뇌의 화학적 재흡수를 가역적으로 억제하는 SSRI, SNRI 및 TCA와는 달리, 비가역적 MAOI(페넬진, 트라닐시프로민)는 모노아민 산화효소 효소 분자를 영구적으로 파괴합니다. 따라서 임상적 세척은 약물 자체가 혈류를 얼마나 빨리 제거하는가보다는 신체가 얼마나 빨리 완전히 새로운 효소를 합성할 수 있는지(약 2주)에 따라 결정됩니다.\n\n일주일 동안 무슨 일이 일어나고 있나요?\n• MAO-A 및 MAO-B 효소 합성이 잘 진행되고 있으며 대략 2주 재합성 기간의 중간쯤입니다.\n• 면밀한 의료 감독이 여전히 중요하지만 3일차에 설명된 급성 위험 단계는 지나가고 있습니다.\n\n식이상의 주의사항\nMAOI 치료에는 저티라민 식단이 필요합니다. 왜냐하면 이 효소는 일반적으로 티라민을 분해하여 고혈압 위기를 유발하는 것을 방지하기 때문입니다. 지침은 이 재합성 창을 통해 식이 제한 사항을 계속 관찰하는 것입니다. 처방자는 언제 완화해도 안전한지 조언할 것입니다.';
+
+  @override
+  String get maoiReferenceDay14 =>
+      'MAOI 투여 2주 후: MAO 효소 활동이 실질적으로 회복됨\n\n출처: Fritz et al. (1983), 생물학적 정신의학\n\n중요한 2주 기록\n트라닐시프로민이나 페넬진과 같은 비가역적 MAOI를 중단한 후 MAO 효소 회복을 위한 표준 임상 휴약 기간은 2주입니다. 트라닐시프로민을 연구한 이 연구에서는 전체 MAO-B 단백질 수치가 전혀 변하지 않았음에도 불구하고 신체가 약물에 영향을 받은 혈소판을 활성 효소를 함유한 새로운 혈소판으로 대체함에 따라 투여 하루 만에 급격히 감소한 혈소판 MAO-B 촉매 활성이 약 2주 이내에 정상으로 회복된다는 사실을 발견했습니다.\n\nMAO 효소 회수\n• 혈소판 MAO-B 활동은 이 시점에 실질적으로 회복되었습니다.\n• 대체로 유사한 재합성 타임라인을 따르는 뇌 MAO-A 및 MAO-B도 대부분 복원됩니다.\n• 정상적인 티라민 대사가 다시 이루어지고 있습니다. MAOI 식이 제한은 일반적으로 처방자와 상담하여 완화할 수 있습니다.\n\n뇌-화학 균형 회복\nMAO 효소 활동이 회복되면서 MAOI가 영향을 미치는 뇌 화학 시스템이 자연적으로 조절되기 시작했습니다.\n• 세로토닌, 노르에피네프린, 도파민은 MAO 억제로 인해 더 이상 상승하지 않습니다.\n• 모노아민 수용체의 과민성(만성 MAOI로 인한 뇌 화학 수치 증가로 인해 발생)이 해결되기 시작했습니다.\n• 자연스러운 기분과 에너지 조절이 돌아오고 있습니다.';
+
+  @override
+  String get maoiReferenceDay30 =>
+      'MAOI 발생 후 1개월: 뇌화학 시스템 재조정\n\n출처: \"모노아민 산화효소 억제제(MAOI)\"(StatPearls, NCBI Bookshelf)\n\n1개월 평가\nMAOI 중단 후 1개월은 이 출처에 설명된 대략 2주간의 MAO 효소 재합성 기간을 훨씬 지나서, 이 시점에서 MAO 효소 활동은 완전히 회복되었으며 뇌 화학 시스템은 완전히 자연적으로 조절됩니다.\n\n한 달 동안 회복된 것\n• 완전한 MAO 효소 활성: MAO-A와 MAO-B 모두 완벽하게 작동합니다.\n• 식이 제한 사항 해결: 티라민 제한 사항이 없는 일반 식이 요법\n• 자연적인 세로토닌 분해: 뇌의 정상적인 세로토닌 전환 주기가 회복됩니다.\n• 천연 카테콜아민 조절: 천연 MAO 활동에 의해 조절되는 도파민 및 노르에피네프린 수치\n\n약물 상호작용 주의사항\nMAOI는 세로토닌 약물과의 생명을 위협하는 상호작용과 관련이 있습니다. 이러한 상호 작용 위험은 한 달 만에 해결되었습니다. 그러나 새로운 약을 처방할 때는 항상 처방자와 약사에게 이전 MAOI 사용 사실을 알리십시오.';
+
+  @override
+  String get maoiReferenceDay90 =>
+      'MAOI 이후 3개월: 탈퇴가 훨씬 지났습니다.\n\n출처: NCBI 책장에 있는 \"항우울제 금단 증후군\", Therapeutics Letter 112(2018), Therapeutics Initiative\n\n항우울제 계열 전반에 걸친 철수\n이 증거 검토에서는 항우울제 금단을 관용과 의존의 실제 현상으로 간주하여 항우울제를 \'아편제 및 벤조디아제핀과 함께\' 배치합니다. 상세한 증거는 SSRI 및 SNRI에 중점을 두고 있지만 MAOI 중단 후를 포함하여 항우울제 계열 전체에서 금단 반응이 인정됩니다. 증상은 \'보통 중단 후 며칠 이내에 나타나며\' \'대부분… 2주 이내에 해소\'되지만 일부는 더 오래 지속됩니다.\n\n3개월이 머무는 곳\n3개월이 되면 급성 금단 단계는 대부분의 사람들보다 훨씬 뒤쳐지며 신체는 오랫동안 MAO 억제 없이 모노아민을 조절하도록 재조정되었습니다.\n\n\'수용체 재감작\'에 대한 회복 신호\n세로토닌, 노르에피네프린, 도파민 수용체가 모두 \'3개월이 지나면 다시 감작된다\'는 자신감 있는 주장은 증거가 제시하는 것 이상입니다. 신뢰할 수 있는 것: 금단 단계는 일반적으로 지금쯤 해결되었으며 대부분의 사람들의 기분, 에너지 및 감정 범위는 자연스럽고 자가 조절되는 뇌 신호를 통해 안정화되고 있습니다.\n\n금단과 재발\n이 서신은 근본적인 상태의 진정한 회복과 별개로 철회를 말하는 것을 강조합니다. 증상이 3개월 후에도 지속되면 증상이 금단 증상일 뿐이라고 가정하기보다는 처방의와 함께 검토하십시오.';
+
+  @override
+  String get maoiReferenceDay180 =>
+      'MAOI 발생 후 6개월: 장기 회복\n\n출처: Zwiebel & Viguera(2022), Cleveland Clinic Journal of Medicine\n\n6개월 평가\n이 리뷰에서는 항우울제가 시간이 지남에 따라 모노아민 수용체를 하향 조절함으로써 부분적으로 작용하며, 이러한 하향 조절은 약물 치료가 중단된 후 역전되는 데 몇 주에서 몇 달이 걸린다고 설명합니다. 이는 대략 2주 동안 소요되는 MAO 효소 재합성 자체보다 느린 과정입니다.\n\n6개월이 머무는 곳\n6개월은 대다수의 사람들을 위한 몇 주에서 몇 달 간의 수용체 재조정 기간을 편안하게 지나갔으며, 효소 활동은 첫 달 내에 완전히 정상화되었습니다. 회복 신호: 전체 세로토닌, 노르에피네프린 및 도파민 수용체 재감작에 대한 정확한 일정은 문헌에서 매일 확실하게 확립되어 있지 않습니다. 신뢰할 수 있는 것은 6개월이 되면 대부분의 사람들이 자연스럽고 자가 조절되는 뇌 신호에 따라 기능하게 된다는 것입니다.\n\n페네틸아민에 대한 참고 사항\nMAOI는 또한 기분과 에너지와 관련된 미량 아민인 페네틸아민(PEA)의 분해를 억제합니다. 그 대사는 일반적인 MAO 효소 회복과 함께 정상화될 것으로 예상되지만, 수용체 재감작과 마찬가지로 정확한 PEA 특정 일정은 연구 문헌에 확립되어 있지 않습니다.';
+
+  @override
+  String get maoiReferenceDay365 =>
+      'MAOI 발생 1년 후: 회복 달성\n\n출처: \"모노아민 산화효소 억제제(MAOI)\"(StatPearls, NCBI Bookshelf)\n\n1년: 놀라운 성과\nMAOI 중단 후 1년을 완료하는 것은 정말 중요한 이정표입니다. MAOI는 돌이킬 수 없는 메커니즘, 엄격한 저티라민 식이요법, 다른 항우울제 종류와는 다른 약물 상호작용 예방 조치를 통해 가장 약물 중심의 까다로운 항우울제 중 하나입니다.\n\n올해가 나타내는 것\n• 첫 달 이내에 완료되는 효소 재합성을 기반으로 1년 동안 자연적으로 자체 조절되는 모노아민 산화효소 활동이 이루어집니다.\n• 약물에 의한 MAO 억제 없이 웰빙을 유지할 수 있는 능력이 입증되었습니다.\n• 3일차의 급성 중단 위험이 확실하게 해소되었음을 확신할 수 있을 만큼 긴 실적\n\nMAOI에 대한 참고 사항\nMAOI는 특정 치료 저항성 질환 및 비정형 우울증에 대해 독특하게 효과적인 것으로 남아 있습니다. 성공적인 중단은 약물로서의 가치를 감소시키지 않습니다. 이는 뇌의 회복 능력과 매우 까다로운 의료 과정을 헤쳐나가는 환자의 능력을 보여줍니다. 한 가지 지속적인 예방 조치: 일부 약물 상호작용 위험은 무기한 표시할 가치가 있으므로 새로운 처방자나 마취의에게 과거 MAOI 사용에 대해 계속 알리십시오.';
+
+  @override
+  String get marijuanaReferenceDay1 =>
+      '마리화나 금단: 첫날\n\n출처: PubMed Central의 \"대마초 금단 증후군: 현재 통찰력\" 약물 남용 및 재활(2017)\n\n대마초 철수는 현실입니다\n이 동료 검토 검토는 대마초 금단 증후군(CWS)이 대마초 중단 후 대마초 의존 진단을 받은 사람들의 약 90%에서 발생하는 잘 검증된 임상 상태임을 입증합니다. 평균 최고 심각도는 담배 금단 증후군의 심각도와 비슷합니다.\n\n탈퇴가 발생하는 이유\nTHC는 기분, 식욕, 수면, 기억 및 스트레스에 관여하는 CB1 수용체인 체내칸나비노이드 시스템에 작용합니다. 만성적으로 사용하면 뇌가 이 시스템을 하향 조절합니다. 대마초가 멈추면 일시적으로 활동이 저하됩니다. 검토 결과에 따르면 CB1 수용체는 금주 후 약 4주 이내에 정상적인 기능으로 돌아옵니다.\n\n첫날 발병\n리뷰에는 신체적 증상이 마지막 사용 후 1~3일 이내에 처음 나타나는 경향이 있는 반면, 심리적 증상은 2~10일에 걸쳐 나타나는 경향이 있다고 기록되어 있습니다. 초기 증상은 다음과 같습니다:\n• 과민성, 불안, 안절부절 못함\n• 수면 장애\n• 식욕 감소\n• 신체적 긴장, 발한 또는 오한\n• 우울한 기분\n\n심각도\nCWS는 의학적으로 위험하지 않으며 증상은 일반적으로 경증에서 중등도이지만 검토에서는 재발을 유발할 만큼 고통스러울 수 있다고 지적합니다. 이것이 바로 타임라인을 이해하는 것이 중요한 이유입니다.';
+
+  @override
+  String get marijuanaReferenceDay3 =>
+      '대마초 철수 일정: 초기\n\n출처: PubMed Central의 \"다중 물질 남용자의 DSM-5 대마초 금단 증상의 시간 경과\", BMC Psychiatry(2013)\n\n측정된 시간 경과\n이 연구는 4주 동안 90명의 환자를 대상으로 DSM-5 대마초 금단 증상을 추적하여 증상이 어떻게 증가하고 감소하는지에 대한 가장 명확한 그림 중 하나를 생성했습니다. 전반적인 심각도는 다음 몇 주에 걸쳐 증가했다가 감소하는 곡선을 따랐습니다.\n\n조기에 정점에 도달하는 것\n가장 신체적으로 지장을 주는 증상 중 일부는 중단 후 처음 며칠 내에 최고조에 달합니다.\n• 불면증 — 1일차쯤에 최고조에 달함\n• 초조함 — 4일차쯤에 최고조에 달함\n• 우울한 기분과 신체 증상 — 5일차쯤에 최고조에 달함\n• 안절부절함 — 6일째에 최고조에 달함\n\n나중에 최고점에 도달하는 경우\n연구에 따르면 일부 증상은 첫 주 이후에 나타나고 최고조에 달합니다.\n• 생생하고 불쾌한 꿈 — 11일쯤에 최고조\n• 과민성과 분노 — 14일차에 최고조에 달함\n\n수면과 대마초\n지연되고 생생한 꿈은 REM 반동을 반영합니다. 대마초는 사용 중에 REM 수면을 억제하고, 사용을 멈춘 후에는 뇌가 과잉 보상합니다. 저자들은 이 증상이 공식적인 금단 기준에 속할 만큼 흔하다고 주장합니다.\n\n3일차의 교훈\n3일째에는 신체적 최고조에 이르게 됩니다. 불면증, 초조함, 초조함은 거의 최악에 가까워집니다. 일관되고 예측 가능한 곡선은 그 자체로 안심입니다. 이러한 증상에는 알려진 과정이 있으며 여기에서 사라집니다.';
+
+  @override
+  String get marijuanaReferenceDay7 =>
+      '대마초 없는 일주일: 최악의 상황을 겪었습니다\n\n출처: PubMed Central의 \"대마초 금단 증후군: 현재 통찰력\" 약물 남용 및 재활(2017)\n\n한 주가 증후군에 걸리는 곳\n이 리뷰에서는 대마초 금단 증후군이 일반적으로 최대 약 3주까지 지속되며 가장 고통스러운 기간은 첫 번째와 세 번째 주 사이에 있음을 기록합니다. 일주일이 지나면 불면증, 식욕 부진, 초조함과 같은 초기 신체 증상이 일반적으로 최고조를 지나 완화되고 있습니다.\n\n아직 해결되지 않은 것\n이 검토에서는 초기에 나타나는 신체적 증상과 나중에 나타나는 심리적 증상을 구별합니다. 일주일 후:\n• 신체적 불편함과 식욕이 크게 개선됨\n• 아직도 많은 사람들의 수면이 방해를 받고 있으며 생생한 꿈(REM 반동)이 정점에 도달하는 경우가 많습니다.\n• 과민성과 기분은 계속 고조될 수 있습니다. 이러한 현상은 첫 2주 후반에 최고조에 달하는 경향이 있습니다.\n\n회복의 신경생물학\n이러한 변화의 근간이 되는 검토에서는 하향 조절된 CB1 수용체가 금주 후 약 4주 이내에 정상적인 기능으로 돌아간다고 지적합니다. 일주일 후, 재규제가 잘 진행되고 있습니다. 일부 증상이 지속되는 동안에도 시스템이 복구되고 있습니다.\n\n테이크아웃\n1주에 도달한다는 것은 극심한 신체적 정점이 지나갔다는 것을 의미합니다. 나머지 수면 및 기분 증상은 다음 몇 주에 걸쳐 계속 해결되는 유한한 과정이 알려진 증후군의 일부입니다.';
+
+  @override
+  String get marijuanaReferenceDay14 =>
+      '대마초를 사용하지 않은 2주: 급성 금단 현상이 종료됩니다.\n\n출처: Budney, AJ 외. (2003) — 대마초 금단 시간 과정에 대한 동료 검토 연구\n\n연구 결과\n이 동료 검토 연구는 일반 사용자의 대마초 금단 증상의 시간 경과를 체계적으로 문서화했습니다. 연구 결과에 따르면 급성 금단 증후군은 첫 주 이내에 최고조에 달하고 대부분의 증상이 중단된 후 2주 이내에 대부분 해결되는 것으로 나타났습니다.\n\n2주 안에 해결되는 사항\n연구에 따르면 14일까지 연구 참가자에게서 다음 증상이 대부분 해결되었습니다.\n• 신체적 불편함 및 신체 증상\n• 식욕 장애\n• 대부분의 수면 방해\n• 극도의 과민성과 불안감\n\n2주 이상 지속될 수 있는 사항\n또한 연구에서는 일부 사용자에게서 2주 후에도 지속되는 증상을 확인했습니다.\n• 우울한 기분\n• 집중력 장애\n• 수면의 질(개선되지만)\n\n2주 표시의 중요성\n2주를 통과하는 것은 급성 금단 증후군이 대체로 완료되었음을 의미하므로 중요합니다. 이 시점 이후의 과제는 주로 대마초 중단에 대한 급성 생리학적 반응보다는 장기간의 뇌 회복 및 대마초 사용의 근본적인 이유를 관리하는 것과 관련이 있습니다.';
+
+  @override
+  String get marijuanaReferenceDay30 =>
+      '대마초 없이 한 달: 기억 기능이 향상됩니다\n\n출처: Pope et al. (2001), 일반 정신의학 기록 보관소\n\n대마초와 기억: 문제\n이 연구에서는 대마초를 많이 사용하는 장기 사용자를 28일 동안 금단 확인하는 과정을 추적하고 이들의 사고 및 기억 테스트 결과를 가벼운 사용자 및 비사용자와 비교했습니다. 금욕 시작 시, 그리고 다시 1일과 7일에 과다 사용자는 단어 목록 회상에 대한 통제보다 더 나쁜 성과를 거두었습니다. 이는 평생 사용보다는 최근 약물 노출을 반영하여 소변 THC 대사 산물 수준을 추적하는 적자입니다.\n\n좋은 소식: 28일차까지 회복\n28일째에는 헤비 사용자, 라이트 사용자, 비사용자가 연구의 사고 및 기억 테스트에서 사실상 동일한 성능을 보였습니다. 또한 그 시점에서 총 평생 대마초 사용과 테스트 성능 사이에는 유의미한 관계가 없었습니다.\n\n30일 후 이것이 의미하는 바\n• 언어 학습 및 회상이 통제그룹 수준으로 돌아왔습니다.\n• 첫 주에 나타난 잔여 적자가 해결되었습니다.\n• 초기에 남은 적자는 영구적인 손상이 아닌 최근 노출과 관련이 있었습니다.\n\n증거가 보여주는 것\n28일째에는 연구의 전체 사고 및 기억 테스트에서 헤비 사용자가 라이트 사용자 및 비사용자와 거의 구별되지 않았습니다. 첫 주에 나타난 언어 학습 및 기억력 부족은 대조군 수준으로 회복되었습니다.';
+
+  @override
+  String get marijuanaReferenceDay60 =>
+      '대마초를 사용하지 않은 2개월: 집중력이 향상됩니다.\n\n출처: Roten et al. (2015), 중독성 행동\n\n연구 질문\n이 청소년 대마초 중단 연구는 약 2개월에 걸쳐 소변 검사와 함께 기억력 및 사고력 테스트 점수를 추적하여 지속적으로 사용하는 사람들과 최근에 중단했거나 금주한 사람들을 비교했습니다.\n\n주요 결과\n지속적인 금욕은 다음과 같은 측면에서 상당한 개선과 관련이 있었습니다.\n• 종합 메모리 점수\n• 특히 언어 기억 — 가장 영향을 많이 받는 영역\n• 이동 및 반응 속도 성능\n\n두 달에\n대략 8주간의 지속적인 금욕으로 인해 기억력, 움직임 및 반응 속도 성능 점수가 적극적으로 사용하는 동안 앉아 있던 것보다 눈에 띄게 상승했으며 시간 단독이 아닌 확인된 비사용을 밀접하게 추적했습니다.\n\n연구 결과\n대마초 의존증이 있는 청소년 및 젊은 성인의 경우, 일관된 금욕은 대략 2개월의 치료 기간 동안 복합 기억, 언어 기억, 운동 및 반응 속도 성능에서 상당한 이득을 가져왔습니다.';
+
+  @override
+  String get marijuanaReferenceDay90 =>
+      '대마초를 사용하지 않은 3개월: 기분 안정이 돌아왔습니다\n\n출처: Connor et al. (2022), 중독 — 대마초 금단에 대한 임상 검토\n\n인출 일정의 실제 모습\n이 검토에서는 대마초 금단 증상이 일반적으로 중단 후 24~48시간에 시작되어 2~6일에 최고조에 달하는 것에 대해 설명합니다. 분노, 공격성, 우울한 기분은 빠르면 일주일 만에 나타날 수 있지만 일반적으로 금주한 지 약 2주 후에 최고조에 달합니다. 특히 수면 장애는 다른 증상보다 오래 지속될 수 있습니다.\n\n3개월이 머무는 곳\n3개월이 지나면 문서화된 금단 과정을 훨씬 넘어서게 됩니다. 증상은 일반적으로 24~48시간 이내에 시작되고 2~6일 정도에 최고조에 달하며, 심지어 느린 기분과 수면 증상도 다음 주 내에 최고조에 달합니다. 90일이면 금단 증상과 수면 효과가 안정되는 데 몇 달이 걸립니다.\n\n체내칸나비노이드 시스템에 대한 참고 사항\n대마초 금단 연구에서는 또한 하향 조절된 CB1 수용체가 금주 후 약 4주 이내에 정상 기능으로 돌아오는 것으로 나타났습니다. 90일에는 수용체 회복 기간을 훨씬 넘어섰습니다.\n\n미래를 내다보며\n또한 이 검토에서는 해독 후 예후와 재발 예방에 대해 논의하고 지속적인 지원과 대처 전략이 급성 금단 기간을 훨씬 넘어서 중요하다는 점을 강조합니다.';
+
+  @override
+  String get marijuanaReferenceDay180 =>
+      '대마초를 사용하지 않은 6개월: 계획 및 의사결정 회복\n\n출처: Crean, Crane & Mason(2011), 중독 의학 저널\n\n대마초 이후의 계획 및 의사결정\n이 검토에서는 장기간 금욕을 통해 사용 후 처음 몇 시간 동안 주의력, 의사 결정, 자제력, 작업 기억 및 언어 유창성을 조사했습니다. 6개월이 되면 단기적인 효과를 훨씬 넘어 회복 기간이 깊어집니다.\n\n연구 결과\n과도한 사용과 관련된 몇 가지 문제는 지속적인 금욕으로 사라지며, 일부 연구에서는 28일까지 회복되는 것으로 나타났습니다. 과도한 초기 사용 후 회복이 가장 느린 영역은 다음과 같습니다.\n• 의사 결정 및 위험 감수 - 특히 과다하고 만성적인 사용자의 경우 적자가 장기적으로 지속될 수 있는 영역으로 표시됩니다.\n• 추상적 추론 및 언어 능력 - 특히 17세 이전에 사용하기 시작한 성인의 경우 손상됨\n\n조기 발병 회복\n6개월은 이 검토에서 단기적인 효과를 훨씬 뛰어넘는 기간입니다. 지속적인 금욕을 통해 계획, 의사 결정 및 추론 능력이 계속 향상되므로 지속적인 금욕이 추가 회복을 위한 가장 강력한 경로가 됩니다.\n\n더 넓은 그림\n성인이 시작하고 가벼운 사용의 경우 전망이 더 유리합니다. 6개월이 된 많은 사람들은 더 명확한 사고, 더 안정적인 의사 결정 및 더 강한 자기 방향 감각을 보고합니다. 가장 큰 이점은 금욕을 유지하는 것입니다. 특히 과도하게 사용하거나 조기에 사용한 후에는 금욕을 유지하는 것이 좋습니다.';
+
+  @override
+  String get marijuanaReferenceDay365 =>
+      '대마초 없는 1년: 뇌 구조가 회복됩니다\n\n출처: PubMed Central의 \"정기적인 대마초 사용에 따른 해마 손상, 보호 및 회복\", Translational Psychiatry(2016)\n\n대마초의 구조적 변화\n이 뇌 스캔 연구에서는 현재 사용자, 이전 사용자, 비사용자를 대상으로 기억의 중심인 뇌 영역인 해마를 조사했습니다. CBD에 노출되지 않은 현재 사용자는 대조군보다 해마가 약 11% 더 작고 뇌세포 건강 지표가 약 15% 더 낮습니다.\n\n주요 발견: 금욕을 통한 회복\n곡선 맞춤 분석은 \"보호 및 복구\" 모델을 지원했습니다. 결정적으로, 이전 사용자(평균 약 29개월 동안 금욕)는 무결성 측정에서 컨트롤을 사용하지 않는 것과 다르지 않았습니다. 저자는 THC와 관련된 기억 영역 피해가 \"금욕 기간을 연장하면 회복될 수 있다\"고 결론지었습니다.\n\n1년 이상에 걸친 뇌 회복\n1년 동안 대마초를 사용하지 않으면 뇌의 기억 시스템이 잘 회복됩니다. 해마 크기와 뇌 세포 건강이 정상으로 돌아가 기억력과 감정 조절을 지원합니다.\n\n회복 신호\n약 29개월 동안 금욕한 이전 사용자는 연구의 해마 건강 측정에서 비사용자와 일치했습니다. 1년이 지나면 메모리 시스템은 이미 문서화된 복구 경로를 따라 정상을 향해 움직이고 있습니다.';
+
+  @override
+  String get mdmaReferenceDay1 =>
+      'MDMA 이후: 컴다운\n\n출처: Meyer(2013), \"3,4-메틸렌디옥시메탐페타민(MDMA): 현재 관점\", 약물 남용 및 재활\n\n당신이 기분이 좋지 않은 이유\nMDMA는 세로토닌(약간의 도파민 포함)을 대량으로 방출함으로써 작동합니다. 그 후에는 뇌의 세로토닌이 일시적으로 고갈됩니다. 이 리뷰에서는 연구원들이 사용 후 2~5일 동안 초보자와 숙련된 사용자 모두를 대상으로 측정한 기분 저하(소위 \"주중 우울증\")에 대해 설명합니다.\n\n무엇이 도움이 되는가\n• 수분 공급 및 영양가 있는 음식\n• 수면\n• 인내심 - 하락은 영구적인 상태가 아닌 고갈입니다.\n\n1회 사용 후의 증상은 의존성 관련 금단 증상과 다르며, 동일한 리뷰에서는 갈망과 관련이 있지만 심각한 신체적 증상은 없다고 설명합니다.';
+
+  @override
+  String get mdmaReferenceDay3 =>
+      'MDMA 후 며칠\n\n출처: Meyer(2013), \"3,4-메틸렌디옥시메탐페타민(MDMA): 현재 관점\", 약물 남용 및 재활\n\n주중 블루스\n이는 이 리뷰가 \"주중 우울증\"에 대해 논의할 때 설명하는 대략적인 창입니다. 즉, 초보자와 숙련된 사용자 모두 사용 후 2~5일에 측정된 기분 저하로, 장기적인 변화보다는 단기적인 세로토닌 고갈과 관련이 있습니다.\n\n개선 사항\n• 일반적으로 기분은 현재 가장 낮은 수준에서 상승합니다.\n• 에너지 회수\n• 수면이 정상화되기 시작합니다.';
+
+  @override
+  String get mdmaReferenceDay7 =>
+      'MDMA 1주일 후\n\n출처: Meyer(2013), \"3,4-메틸렌디옥시메탐페타민(MDMA): 현재 관점\", 약물 남용 및 재활\n\n주중 블루스를 지나\n대부분의 사람들의 경우, 이 리뷰에서 급성 우울증과 관련된 2~5일의 기간이 1주일 지나므로 기분이 정상으로 돌아올 것입니다. 리뷰에서는 과도하게 또는 반복적으로 약물을 사용하는 사람들의 경우 갈망이 의존성 패턴의 일부로 지속될 수 있지만 이것이 심각한 신체적 금단 증상을 수반하는 것으로 설명하지는 않는다고 지적합니다.\n\n도움을 구해야 할 때\n기분이 좋지 않거나, 불안하거나, 수면 문제가 일주일 동안 지속된다면, 이는 단순한 침체 이상의 것일 수 있습니다. 전문가와 상담하는 것이 좋습니다.';
+
+  @override
+  String get mdmaReferenceDay14 =>
+      'MDMA 2주 쉬기\n\n출처: Meyer(2013), \"3,4-메틸렌디옥시메탐페타민(MDMA): 현재 관점\", 약물 남용 및 재활\n\n복구 일정\n일회용 컴다운의 경우 이 리뷰에 기록된 2~5일 딥보다 2주가 훨씬 지났으므로 기분, 수면 및 집중력이 꾸준해야 합니다. 더 많이 또는 반복적으로 사용한 후에는 회복이 계속되고 금욕 영상 연구에 따르면 지속적인 금욕으로 세로토닌 재활용 능력이 증가하는 것으로 나타났습니다.\n\n이것이 당신에게 의미하는 것\n가끔 사용했다면 최악의 상황을 겪었을 가능성이 높습니다. 빈도가 높거나 심했다면 인내심을 가지십시오. 세로토닌 신호의 완전한 회복은 2주보다 더 긴 과정이며 다음 단계에서 다루겠습니다.';
+
+  @override
+  String get mdmaReferenceDay30 =>
+      'MDMA 한 달 할인\n\n출처: PubMed의 \"금단 MDMA 사용자의 세로토닌 수송체 가용성, 신경인지 기능 및 이들의 상관 관계\"\n\n한 달이 머무는 곳\n급격한 하락과 철수는 훨씬 뒤에 있으며, 기분과 사고와 기억은 더욱 안정적입니다. 영상 연구에 따르면 MDMA는 세로토닌을 처리하는 뇌의 능력을 감소시키며, 이 능력은 지속적인 금욕을 통해 회복되는 것으로 나타났습니다.\n\n회복 신호\n동일한 연구에서는 지속적인 금욕으로 세로토닌 재활용 능력이 회복되는 것으로 나타났습니다. 기분과 세로토닌 기능이 먼저 개선되는 반면, 기억은 자체 회복 일정에 따라 지속됩니다. 지속적인 금욕은 두 가지 모두를 지원합니다.';
+
+  @override
+  String get mdmaReferenceDay90 =>
+      'MDMA 3개월 할인\n\n출처: PubMed의 \"금단 MDMA 사용자의 세로토닌 수송체 가용성, 신경인지 기능 및 이들의 상관 관계\"\n\n지속적인 복구\n지속적인 금욕을 통해 뇌의 세로토닌 시스템은 특히 뇌의 더 깊은 영역에서 계속 회복됩니다. 기분과 수면은 일반적으로 이 시점에서 안정적입니다.\n\n회복 신호\n지속적인 금욕은 뇌 영역 전반에 걸쳐 세로토닌 수송체의 지속적인 회복을 촉진하는 동시에 기분과 수면은 안정적으로 유지되고 사고와 기억의 회복이 계속됩니다.';
+
+  @override
+  String get mdmaReferenceDay365 =>
+      'MDMA 1년 할인\n\n출처: PubMed의 \"금단 MDMA 사용자의 세로토닌 수송체 가용성, 신경인지 기능 및 이들의 상관 관계\"\n\n1년\n1년간의 금욕으로 인해 뇌의 세로토닌 처리가 상당히 회복되었으며 기분이 안정되었습니다.\n\n회복 신호\n1년 동안 금욕하면 세로토닌 시스템의 회복 기간이 길어집니다. 영상 연구에 따르면 금욕에 따라 세로토닌 재활용 능력이 증가하여 상당한 세로토닌 회복이 이 단계에서 가장 명확한 생물학적 신호가 되는 것으로 나타났습니다.';
+
+  @override
+  String get methReferenceDay1 =>
+      '메스암페타민 금단: 처음 24시간\n\n출처: McGregor 등, \"메스암페타민 금단의 성격, 시간 경과 및 심각도\", Addiction(2005), PubMed\n\n충돌\n메스암페타민은 도파민의 대량 방출을 유도합니다. 사용이 중지되면 시스템이 고갈된 상태로 유지됩니다. 이 연구에서는 금단 첫 3주 동안 매일 금단 증상을 추적한 결과 전체적인 심각도가 마지막 사용 후 24시간 이내에 가장 높았다는 사실을 발견했습니다. 즉, 극단적인 자극에서 육체적, 정신적 피로로의 급격한 전환인 \'충돌\'이 발생했습니다.\n\n첫날 증상\n이 연구는 현재 가장 강렬한 금단 증상을 문서화했습니다.\n• 극심한 피로 및 수면 증가(수면과다증)\n• 식욕 증가(메트는 식욕을 강력하게 억제합니다)\n• 우울한 기분과 즐거움 상실\n• 강한 갈망\n• 불안과 과민성\n\n물리적 안전\n메스암페타민 금단 증후군 자체는 일반적으로 생명을 위협하지는 않지만, 본 연구에서 측정된 우울증 관련 증상은 초기에 심각할 수 있으며 자살 충동을 포함할 수도 있습니다. 특히 무거운 사용자의 경우 의료 감독이 강력히 권장됩니다.\n\n들어 올리기 시작합니다\n이 연구에서 얻은 고무적인 발견은 심각도가 맨 처음에 가장 높았다가 이후 감소한다는 것입니다. 24시간 최고치부터 증상은 다음 날에 걸쳐 꾸준히 감소합니다. 최악의 지점은 시작입니다.';
+
+  @override
+  String get methReferenceDay3 =>
+      '필로폰 금단: 3일차 – 아직 급성 단계\n\n출처: McGregor 등, \"메스암페타민 금단의 성격, 시간 경과 및 심각도\", Addiction(2005), PubMed\n\n정상에서 내려오다\n이 연구에서는 전반적인 금단 증상의 심각도가 처음 24시간 이내에 최고조에 달한 다음 급성기(약 7~10일)에 걸쳐 대략 선형 패턴으로 감소한다는 사실을 발견했습니다. 3일째에는 최고점을 지났지만 여전히 급성 단계에 있습니다. 추세가 하향세임에도 증상은 두드러지게 남아 있습니다.\n\n3일차 증상\n연구에서 추적한 기능 중 지금도 여전히 중요한 기능은 다음과 같습니다.\n• 우울증 및 즐거움 상실\n• 강한 갈망\n• 집중하고 명확하게 생각하는 데 어려움이 있음\n• 수면 방해 - 불면증과 수면과다증이 번갈아 나타남\n• 지속적인 피로\n\n왜 이런 느낌이 드는가\n필로폰 금단의 강도는 그것이 야기하는 도파민 고갈의 규모를 반영합니다. 연구에서 측정한 우울증 관련 증상은 이러한 초기에 가장 뚜렷합니다. 그러나 중요한 것은 연구에서 전반적인 금단 증상이 \'금주 첫 주가 끝날 때 거의 통제 수준으로 감소\'한다는 사실을 발견했다는 것입니다.\n\n이건 지나갈 거야\n가장 힘든 기간은 처음 며칠이며, 데이터는 여기서부터 꾸준한 감소를 보여줍니다. 이 상태를 영구적인 상태가 아닌 일시적인 뇌와 신경으로 이해하면 이를 극복하는 데 도움이 됩니다.';
+
+  @override
+  String get methReferenceDay7 =>
+      '메스 없이 일주일: 급성기가 끝난다\n\n출처: McGregor 등, \"메스암페타민 금단의 성격, 시간 경과 및 심각도\", Addiction(2005), PubMed\n\n급성기의 끝\n이는 이번 연구에서 가장 고무적인 결과 중 하나입니다. 이 연구에서는 추적한 우울증 관련 증상을 포함한 전반적인 금단 증상이 \'금주 첫 주가 끝날 때까지 거의 통제 수준으로 감소\'하여 급성기가 끝났다고 보고했습니다. 등반의 가장 가파른 부분이 당신 뒤에 있습니다.\n\n인출의 두 단계\n저자는 메스 금단 현상을 다음과 같이 설명했습니다.\n• 약 7~10일 동안 지속되는 급성 단계로, 증상 심각도가 초기 최고치에서 꾸준히 감소합니다.\n• 증상이 더 경미하고 오래 지속되는 아급성 단계가 추가로 2주 이상 지속됩니다.\n\n7일차에 남은 것\n아급성 단계에 접어들면서 지배적인 과제는 이제 급성 충돌보다는 심리적 문제입니다.\n• 기분이 좋지 않았지만 첫날보다 많이 좋아졌습니다.\n• 갈망(특히 신호에 대한 반응)\n• 집중력과 기억력은 아직 회복 중입니다.\n• 아직 잠이 안정되지 않음\n\n물리적 복구 진행 중\n급성 단계가 끝나면 식욕이 회복되고 신체가 수면, 영양 및 심혈관계에 미치는 메스의 영향으로부터 회복되면서 에너지가 천천히 축적됩니다.';
+
+  @override
+  String get methReferenceDay30 =>
+      '마약을 사용하지 않은 한 달: 기분은 안정되고 갈망은 지속됩니다.\n\n출처: Zorick et al., \"금단 메스암페타민 의존 대상의 금단 증상\", 중독(2010), PubMed Central\n\n처음 5주 추적\n이 연구는 최대 5주 동안 금욕을 유지한 메스암페타민 의존 참가자들을 건강한 대조군과 비교하여 1개월 표시가 어디에 있는지에 대한 비정상적으로 명확한 그림을 제공했습니다.\n\n한 달 동안 개선된 점\n• 우울증 증상은 금주 첫 2주 동안 안정된 낮은 수준으로 실질적으로 감소했으며, 4주 말에는 아직 통계적으로 일치하지는 않지만 건강한 대조군 수준에 가까워졌습니다(격차는 경계선, 유의하지 않은 추세로 좁혀졌습니다).\n• 정신과적 및 정신병적 증상은 두 번째 주가 끝날 무렵 낮은 시작 수준에 도달했습니다.\n따라서 30일이 되자 조기 금단으로 인한 심각한 우울증이 크게 완화되었습니다. 이는 진정으로 측정된 개선이었습니다.\n\n아직도 남아있는 것\n연구에서는 한 가지 증상이 다른 증상보다 오래 지속된다는 것이 분명했습니다. 갈망은 \'금주 5주 동안 여전히 감소된 수준으로 지속되었습니다.\' 갈망은 첫 주보다 약하지만 사라지지 않았습니다. 따라서 한 달은 여전히 ​​위험도가 높은 기간이며 지속적인 지원이 중요한 이유입니다.\n\n테이크아웃\n한 달이 지나면 뇌의 기분 기계가 충분히 회복되어 초기 금단 증상보다 일상적인 느낌이 훨씬 좋아집니다. 반면 지속적인 갈망은 이 단계의 정상적인 부분이지 실패의 징후가 아닙니다.';
+
+  @override
+  String get methReferenceDay90 =>
+      '필로폰 없이 3개월간: 치유가 시작되었습니다 — 인내심을 가지세요\n\n출처: Volkow 등, \"메스암페타민 남용자의 도파민 수송체 손실은 장기간의 금욕으로 회복됩니다.\" Journal of Neuroscience(2001)\n\n이 연구에 대하여\n이 획기적인 뇌 스캔 연구는 메스암페타민 사용자를 두 번(메스 복용을 중단한 지 약 3개월, 다시 약 14개월) 추적하여 도파민 시스템이 어떻게 회복되는지 확인했습니다.\n\n3개월이 머무는 곳\n3개월이 되면 초기 금단 기간이 길어지고 더 깊은 도파민 회복이 진행됩니다. 같은 연구에서는 나중에 뇌의 보상 및 운동 영역에서 도파민을 재활용하는 단백질이 메타암페타민을 끊은 지 12~17개월 후에 약 16~19% 증가한 것으로 나타났습니다.\n\n그것이 당신에게 의미하는 바\n90일이 지나면 급성 금단 증상이 훨씬 사라지고 기분과 수면이 개선되며 치료에 대한 참여가 훨씬 더 생산적이 됩니다. 그러나 더 깊은 도파민 회복은 다음 해에 전개되는 더 긴 프로젝트입니다. 3개월이 지나도 동기 부여와 즐거움이 여전히 약하다고 느껴진다면 이는 예상된 것이며 실패의 징후는 아닙니다. 본 연구의 궤적은 분명히 여기에서 위쪽으로 향하고 있습니다.\n\n기다릴 가치가 있는 이유\n동일한 연구에서는 금욕을 유지하는 것이 회복을 촉진하는 것으로 나타났습니다. 금욕 기간이 길어질수록 DAT 회복이 더 많이 측정되었습니다. 3개월이 기초입니다. 이익이 계속 나오네요.';
+
+  @override
+  String get methReferenceDay180 =>
+      '마약 없이 6개월: 심장은 회복될 수 있습니다\n\n출처: \"약물 남용을 중단하면 관련 심장 손상을 되돌릴 수 있습니다.\" 미국 심장학회(2017), JACC 연구 보고: 심부전\n\n메스와 심장\n메스암페타민은 가장 심장 독성이 강한 기분전환용 약물 중 하나입니다. 이는 심각한 고혈압과 부정맥을 유발할 수 있으며, 시간이 지남에 따라 메스암페타민 관련 심근병증(심부전으로 이어지는 심장 근육의 약화)을 유발할 수 있습니다.\n\n연구 결과\nACC는 메타 관련 심근병증(모두 심장 박동 기능이 크게 저하된) 환자에 대해 보고했습니다. 핵심적이고 희망적인 발견은 바로 금연이 \'약물이 심장에 초래한 손상을 되돌리고 심장 기능을 향상시킬 수 있다\'는 것입니다. 사용을 중단한 환자들은 계속 사용했던 환자들에 비해 결과가 눈에 띄게 좋았고, 저자들은 이를 조기에 발견하면 \'심근병증의 추가 악화를 예방할 수 있다\'고 강조했다.\n\n6개월이 중요한 이유\n매달 금욕을 하면 심장에 가해지는 지속적인 독성 스트레스가 제거되고 근육이 회복할 기회를 얻게 됩니다. 6개월이 지나면 심혈관계가 손상으로부터 실질적이고 지속적인 휴식을 취하게 됩니다. 이는 바로 이 연구에서 개선이 나타난 상태입니다.\n\n회복 신호\n증거를 뒷받침하는 결과는 강력합니다. 메스암페타민을 중단하면 메스암페타민과 관련된 심장 손상을 되돌리고 심장 기능을 향상시킬 수 있습니다. 반복적인 자극 자극 없이 6개월 동안 심장에 상당한 회복 기간을 제공합니다.';
+
+  @override
+  String get methReferenceDay365 =>
+      '마약 없이 1년: 측정 가능한 뇌 회복\n\n출처: Wang 외, \"장기 금욕 후 메스암페타민 남용자의 뇌 대사의 부분 회복\", American Journal of Psychiatry(2004), PubMed\n\n이미징이 보여주는 것\n이 뇌 스캔 연구에서는 금주 초기와 12~17개월 후에 메스암페타민 사용자를 다시 확인했습니다. 일부 영역은 다른 영역보다 더 빨리 회복되는 등 진정한 뇌 회복이 발견되었습니다.\n\n좋은 소식: 심층 두뇌 및 사고 회복\n뇌의 심부 중계 센터인 시상은 장기간의 금욕으로 인해 에너지를 보다 정상적으로 사용하기 시작했습니다. 그 회복은 더 나은 움직임과 언어 기억 성능으로 추적되었으므로 뇌 스캔 개선은 실제 사고와 기억에 나타났습니다.\n\n보상 회로의 회복 속도가 더 느림\n12~17개월에 심뇌 중계 센터가 강하게 회복되었고 그 증가는 더 나은 움직임과 언어 기억으로 추적되었습니다. 보상 및 동기 부여 시스템도 계속 강화되어 1년 동안 사고와 기억의 주요 회복이 이루어졌습니다.\n\n1년에 이것이 의미하는 바\n1년 후에는 초기 회복 단계보다 훨씬 더 잘 생각하고 기억하는 두뇌, 즉 명확하고 측정 가능한 치유를 기대합니다. 그러나 동기 부여나 즐거움을 느끼는 능력이 여전히 지연된다면 이는 개인적인 실패가 아니라 과학과 일치합니다. 이 연구에서는 보상 회로가 더 느리게 회복될 수 있으며 일부 결함은 1년이 지나도 여전히 존재한다는 것을 발견했습니다.';
+
+  @override
+  String get methReferenceDay420 =>
+      '메스 없이 14개월: 도파민 지표가 반등함\n\n출처: Volkow 등, \"메스암페타민 남용자의 도파민 수송체 손실은 장기간의 금욕으로 회복됩니다.\" Journal of Neuroscience(2001)\n\n헤드라인 조사\n이 획기적인 뇌 스캔 연구에서는 금주 초기와 약 12~17개월 후에 다시 한 번 메타암 사용자를 검사했습니다. 도파민을 재활용하는 단백질은 뇌의 보상 및 운동 영역에서 대략 16~19% 증가했으며 더 이상 건강한 대조군과 크게 다르지 않은 수준에 도달했습니다. 더 긴 금욕은 더 큰 회복을 의미했습니다.\n\nDAT가 중요한 이유\n이 단백질은 도파민이 방출된 후 이를 재활용합니다. 메스는 이를 고갈시켜 도파민 시스템을 제대로 조절하지 못하게 만듭니다. 약 14개월 정도의 반등은 진정되고 측정 가능한 치유의 신호입니다.\n\n회복 신호\n12~17개월 후 보상 및 운동 영역의 도파민 재활용 단백질은 약 16%~19% 증가하여 건강한 조절 수준에 도달했습니다. 도파민 시스템은 눈에 띄게 정상 수준으로 회복되었으며 사고, 기억, 움직임은 계속해서 향상되었습니다.\n\n14개월에 이것이 의미하는 것\n도파민 시스템의 하드웨어는 측정 가능한 수준으로 정상으로 회복되고 있습니다. 이는 낙관론의 실제 원인입니다. 그러나 완전한 기능 회복(기억, 동기 부여, 미세한 운동 조절)은 영상화보다 뒤처질 수 있으며, 지속적인 금욕을 통해 계속해서 개선됩니다.';
+
+  @override
+  String get methReferenceDay730 =>
+      '마약 없이 2년: 사고와 기분이 계속 개선됨\n\n출처: Iudicello 등, \"안정적인 금욕을 달성한 메스암페타민 사용자의 신경인지 기능 및 정서적 고통의 장기적 개선\", Journal of Clinical and Experimental Neuropsychology(2010), PubMed Central\n\n1년이 넘도록 계속되는 회복\n이 연구에서는 약 13개월 동안 메스암페타민 사용자를 추적하고 안정적인 금주군과 지속적인 사용자 및 건강한 대조군을 비교했습니다. 안정적인 금욕은 전반적인 사고력을 향상시키고 정서적 고통을 감소시켰으며, 1년 이상 지속되는 효과를 보였습니다.\n\n개선 사항\n• 기권자의 전반적인 사고는 건전한 통제에 따라잡혔지만 계속 사용자는 상당히 손상된 상태를 유지했습니다.\n• 처리 속도와 운동 능력이 가장 크게 향상되었으며, 특히 시작 시 가장 장애가 심한 사람들의 경우 더욱 그렇습니다.\n• 기분이 눈에 띄게 개선되었습니다. 기권한 사람만이 우울증과 전반적인 기분이 크게 개선되었습니다.\n\n회복 신호\n안정된 기권자는 전반적인 사고에 대한 건전한 통제를 따라잡았으며 정서적 고통이 덜하다고 보고했습니다. 언어 학습, 작업 기억, 계획 및 집중력은 첫 해 이후에도 계속 향상될 수 있으므로 회복 추세는 두 번째 해에도 계속됩니다.\n\n2년 후\n증거 기반 메시지: 지속적인 금욕은 첫 해가 지나도 계속해서 성과를 거두고 있습니다. 즉, 몇 가지 영역이 회복되는 데 시간이 더 걸리더라도 더 예리한 사고, 더 나은 기분, 꾸준한 기능 개선 등이 있습니다.';
+
+  @override
+  String get nitrousOxideReferenceDay1 =>
+      '첫째 날: 가스는 사라졌지만 B12를 시청하세요\n\n출처: Knuf & Maani, \"Nitrous Oxide\", StatPearls(NCBI 책장)\n\n얼마나 빨리 지워지는가\n아산화질소는 2~5분 내에 작용이 빠르게 시작되며, 흡입을 중단하면 몸에서 빠르게 제거됩니다. 오늘까지 가스 자체는 시스템에 남아 있지 않습니다.\n\n진짜 위험은 가스가 아니다\n중단 후 중요한 것은 반복 노출이 이미 이루어졌을 수 있다는 것입니다. 아산화질소는 비타민 B12에 의존하는 효소인 메티오닌 합성효소를 비활성화합니다. StatPearls는 직업적이든 오락적이든 반복적인 노출로 인해 거대적아구성 빈혈과 뇌 및 신경 기능 장애가 발생할 수 있으며 드물게는 척수의 퇴행이 발생할 수 있다고 지적합니다.\n\n많이 또는 자주 사용하는 경우\n아산화질소는 아편유사제나 알코올처럼 신체적 금단 증후군을 유발하는 것으로 기록되지 않았습니다. 따라서 첫 번째 날은 신체가 약물을 요구하는 것이 아닙니다. 이는 B12 관련 증상에 주의를 기울이기 시작하고(다음 몇 가지 단계에서 다루어짐) 증상이 나타나는지 확인하는 것입니다.';
+
+  @override
+  String get nitrousOxideReferenceDay3 =>
+      '72시간: 신체적 금단 현상은 없지만 신경 증상에 주의하세요.\n\n출처: Knuf & Maani, StatPearls; Tikariaet al. (2026), 큐어우스\n\n아편유사제나 알코올과 달리 아산화질소는 신체적 금단 증후군을 유발하는 것으로 기록되지 않았습니다. 이 단계의 충동은 습관과 갈망이지 신체가 약물 기능을 요구하는 것이 아닙니다.\n\n이것들을 조심하세요\n1,809건의 기분전환용 아산화질소 사례(Tikaria et al., 2026)에 대한 체계적 검토에서는 뇌 및 신경 증상, 특히 따끔거림이나 무감각(감각 이상)이 B12 관련 피해의 가장 흔한 징후였으며 표준 혈액 검사가 정상으로 보일 때에도 종종 나타나는 것으로 나타났습니다. 보행 문제와 약점도 보고되었습니다.\n\n다음 중 하나라도 발견한 경우\n의학적 검토를 구하십시오. 동일한 검토에서는 표준 혈액 검사(헤모글로빈, 혈청 B12)가 영향을 받은 환자의 의미 있는 부분을 놓쳤다는 사실을 발견했습니다. 메틸말론산(MMA) 및 호모시스테인에 대한 검사는 더 민감하며 아산화질소 사용을 공개하는 경우 구체적으로 요청해야 합니다.';
+
+  @override
+  String get nitrousOxideReferenceDay7 =>
+      '일주일: 과도하게 사용했다면 테스트를 받으세요\n\n출처: Tikaria et al. (2026), \"오락용 아산화질소 사용의 독성 유산\", Cureus\n\n증거가 보여주는 것\n이 체계적인 검토에서는 아산화질소로 인한 비타민 B12 결핍이 \"기능적\"인 경우가 많다는 사실이 밝혀졌습니다. 실제 뇌와 신경 손상이 있는 경우에도 영향을 받은 환자의 약 절반에서 혈청 B12가 정상으로 보였습니다. 호모시스테인과 MMA는 훨씬 더 자주 비정상이었고(각각 검사 대상 환자의 84%와 73%) 더 신뢰할 수 있는 지표입니다.\n\n해야 할 일\n사용량이 많거나 빈번한 경우, 특히 따끔거림, 무감각, 균형 문제 또는 설명할 수 없는 약점이 있는 경우 일주일 쉬는 것이 의사를 만나 표준 B12 수준뿐만 아니라 구체적으로 호모시스테인 및 MMA 검사를 요청하는 합리적인 시간입니다.\n\n뇌 회복은 아질산 중단 및 비타민 B12 치료 후에 흔히 나타납니다. 대규모 임상 시리즈에서는 대부분의 후속 환자에서 부분적 또는 완전한 개선이 보고되었으며, 치료 후 첫 달 동안 회복이 계속되었습니다.';
+
+  @override
+  String get nitrousOxideReferenceDay14 =>
+      '2주: 뇌 및 신경 증상에 대한 후속 조치가 필요함\n\n출처: Tikaria et al. (2026), 큐레우스; 크누프 앤 마니(Knuf & Maani), StatPearls\n\n보고된 내용\nTikaria et al.이 검토한 사례 보고서 및 시리즈. 감각 상실, 보행 실조, 때로는 걷기에 영향을 미치는 약화 등으로 나타나는 아산화질소 관련 신경 손상을 설명합니다. 이러한 소견은 다른 뇌 및 신경 상태와 유사할 수 있으며 임상의에게 아산화질소 사용에 대해 언급하지 않으면 때때로 놓칠 수 있습니다.\n\n타임라인의 복구 신호\n두 출처 모두 사용을 중단하고 결핍이 치료된 후 일반적으로 회복하는 데 걸리는 시간을 보고하지 않습니다. 사례 보고서는 진단 전 발생한 손상 정도에 따라 완전 회복부터 지속적인 결손까지 광범위한 결과를 설명합니다. 문헌 전반에 걸쳐 일관된 점은 조기 치료가 더 나은 결과를 가져온다는 것입니다.\n\n검사를 받지 않은 경우\n2주간의 휴가는 증상이 없더라도 여전히 혈액 검사를 실시하기에 좋은 시간입니다. 특히 혈청 B12 단독보다는 호모시스테인과 MMA가 더욱 그렇습니다.';
+
+  @override
+  String get nitrousOxideReferenceDay30 =>
+      '한 달: 육체적 의존이 아닌 습관과 갈망\n\n출처: Knuf & Maani, \"Nitrous Oxide\", StatPearls(NCBI 책장)\n\n당신이 서있는 곳\nStatPearls는 아산화질소가 신체적 의존 증후군을 유발한다고 설명하지 않으므로 한 달 동안 쉬었다는 것은 신체가 여전히 약물 부재에 적응하고 있기보다는 습관, 사회적 맥락 또는 지루함에 대한 충동이 지속된다는 것을 의미합니다.\n\nB12 질문\nB12 결핍에 대한 검사와 치료를 받은 경우, 한 달은 의사가 귀하의 수준과 증상이 반응했는지 여부를 확인하는 합리적인 시점입니다. 테스트를 거치지 않고 많이 사용되지 않은 경우에도 물어볼 가치가 있습니다.\n\n보호되는 것\n사용하지 않는 달은 기존 메티오닌 합성효소 불활성화 또는 이에 따른 뇌 및 신경 위험을 추가하지 않는 달입니다.';
+
+  @override
+  String get nitrousOxideReferenceDay90 =>
+      '3개월: 아직 확인하지 않았다면 재확인할 시간입니다.\n\n출처: Tikaria et al. (2026), \"오락용 아산화질소 사용의 독성 유산\", Cureus\n\n우리가 아는 것과 모르는 것\n이 연구 기반은 통제된 회복 연구가 아닌 사례 보고서 및 사례 시리즈를 기반으로 구축되었으므로 구체적으로 3개월까지 증상이 어떻게 해결되는지에 대한 신뢰할 수 있는 발표 일정은 없습니다. 증거가 보여주는 것은 결과가 매우 다양하다는 것입니다. 경미하고 조기에 발견된 결핍증이 있는 일부 환자는 완전히 회복되는 반면, 진단이 지연되거나 보다 심각한 신경 손상이 있는 환자는 지속적인 결핍을 가질 수 있습니다.\n\n실행 가능한 부분\n뇌와 신경 증상이 있고 후속 혈액검사나 전문의 검토를 받지 않은 경우 3개월의 휴가를 갖는 것이 합리적입니다. 치료를 받고 호전되었다면 지금이 추세가 계속되고 있는지 담당 의사에게 확인하기에 합당한 시기입니다.\n\n멀리하는 것이 가장 중요합니다\n이 검토는 한 가지 일관적입니다. 지속적인 노출은 계속해서 B12를 비활성화하고 위험을 가중시킨다는 것입니다. 사용하지 않는 것이 가장 큰 장점입니다.';
+
+  @override
+  String get nitrousOxideReferenceDay365 =>
+      '1년: 최선의 보호는 지속적인 금욕입니다\n\n출처: Knuf & Maani, StatPearls; Tikariaet al. (2026), 큐어우스\n\n증거가 실제로 도달하는 곳\n두 출처 모두 구체적인 회복 일정을 약속하지 않으며 솔직하게 말할 가치가 있습니다. 아산화질소 및 B12 결핍에 관한 문헌은 장기간의 후속 연구보다는 거의 전적으로 개별 사례 보고서를 바탕으로 작성되었습니다. 잘 확립된 메커니즘은 다음과 같습니다. 아산화질소는 비타민 B12를 사용할 때마다 비활성화하고, 사용을 중단하면 지속적인 피해가 완전히 제거됩니다.\n\n결핍 관련 증상이 있는 경우\n사례 보고서는 완전한 회복부터 지속적인 신경 증상에 이르기까지 광범위한 결과를 설명하며, 이는 주로 손상이 얼마나 발생했는지, 얼마나 조기에 치료되었는지와 관련이 있습니다. 1년이 지나도 여전히 증상이 나타난다면, 이는 신경과 전문의의 진료를 계속 받아야 하는 이유이지 아무것도 할 수 없다는 신호는 아닙니다. 신경 회복은 장기간에 걸쳐 계속될 수 있습니다.\n\n확실한 것은 무엇인가\n아산화질소가 없는 1년은 메티오닌 합성효소가 더 이상 비활성화되지 않는 1년입니다. 이것이 두 소스 모두 지원을 보장하는 것입니다.';
+
+  @override
+  String get opioidReferenceDay1 =>
+      '아편유사제 금단: 1일차\n\n출처: \"폐쇄 환경에서의 금단 관리 및 약물 의존 치료에 대한 임상 지침\", 세계보건기구(2009), NCBI 책장\n\n⚠ 안전 참고 사항\n아편유사제 금단은 건강한 개인에게 치명적인 경우는 거의 없으나, 심각한 신체적 고통을 초래하고 재발 위험이 높습니다. 금주 기간 후 재발하는 것은 내성이 급격히 떨어지기 때문에 특히 위험합니다. 금주 전과 동일한 용량을 사용하면 치명적인 과다 복용이 발생할 수 있습니다. 의학적 감독과 오피오이드 작용제 치료가 강력히 권장됩니다.\n\n인출이 시작되는 경우\nWHO 철회 시간표는 오피오이드 유형별로 시기를 설정합니다.\n• 단기 작용 아편유사제(헤로인, 옥시코돈): 마지막 사용 후 8~24시간에 발병하고 지속 기간은 4~10일입니다.\n• 지속성 아편유사제(메타돈): 개시 시간은 12~48시간, 지속 시간은 10~20일입니다.\n\n첫날 증상\nWHO 지침에는 오피오이드 금단의 초기 특징이 나열되어 있습니다.\n• 불안과 동요\n• 근육 경련 및 통증\n• 눈과 코에서 분비물이 나옵니다.\n• 하품과 땀흘림\n• 불면증, 뜨겁고 차가운 홍조를 동반함\n• 조기 메스꺼움\n\n기분이 나쁜 이유\n오피오이드 시스템은 통증, 스트레스, 정서적 안녕 및 기본적인 편안함을 조절합니다. 장기간 아편유사제를 사용하면 신체 자체의 아편유사제 생산(엔돌핀)이 억제됩니다. 오피오이드를 제거하면 신체는 정상적인 편안함 시스템 없이 남겨지며, 억압의 깊이를 반영하는 수준의 통증, 불안 및 괴로움을 경험하게 됩니다. WHO 지침에서는 하루에 2~3리터의 물을 마시고 매일 3~4회 모니터링하는 등의 지지요법을 권장합니다.';
+
+  @override
+  String get opioidReferenceDay7 =>
+      '오피오이드 일주일 쉬기: 최고 증상 감소\n\n출처: \"폐쇄 환경에서의 금단 관리 및 약물 의존 치료에 대한 임상 지침\", 세계보건기구(2009), NCBI 책장\n\n정점과 하락\nWHO 시간표에 따르면 단기간 작용하는 오피오이드 금단 기간은 4~10일이며, 증상은 조기에 발생했다가 해당 기간에 걸쳐 완화됩니다. 첫 주가 끝날 때까지:\n• 구토, 설사가 대부분 해소됨\n• 근육경련이 덜 심함\n• 신체적 고통이 의미 있게 감소됩니다.\n\n7일차에 남은 것\n급성 신체 증상이 호전되는 동안에도 다음과 같은 심각한 문제가 지속됩니다.\n• 불면증 — 수면 방해는 가장 지속적인 아편유사제 금단 증상 중 하나입니다.\n• 우울한 기분과 감정의 무미건조함\n• 피로와 약점\n• 갈망\n• 불안\n\n급성후 금단\n첫 번째 금단 기간 이후에는 수면 문제, 기분 변화, 갈망의 물결이 몇 주 또는 몇 달 동안 지속될 수 있습니다. 이 긴 복구 단계에서는 지속적인 지원이 가장 중요합니다.\n\n오피오이드 작용제 치료\nWHO 지침에서는 메타돈과 부프레노르핀을 금단 증상의 심각도를 줄이고 회복을 지원하는 효과적인 치료법으로 설명합니다. 이러한 약물은 또한 오피오이드 사용 장애로 인한 사망률을 감소시키며, 성공적인 장기 회복에 성공한 많은 사람들은 초기 회복 단계 전반에 걸쳐 이 약물을 사용합니다.';
+
+  @override
+  String get opioidReferenceDay14 =>
+      '오피오이드 2주 쉬기: 수면 패턴이 개선되기 시작함\n\n출처: 오피오이드 및 수면에 관한 동료 검토 약리학 연구\n\n오피오이드-수면 연결\n이 연구 논문은 오피오이드 사용과 수면 방해 사이의 양방향 관계를 조사합니다. 연구 결과에 따르면 오피오이드가 여러 메커니즘을 통해 정상적인 수면 구조를 심각하게 방해한다는 사실이 입증되었습니다.\n• 서파(깊은) 수면 억제\n• REM 수면 방해\n• 수면 장애 호흡 유발(중추성 수면 무호흡증)\n• 일주기 리듬 조절을 방해합니다.\n\n악순환\n연구는 문제의 양방향 특성을 강조합니다. 오피오이드 사용은 수면을 방해하고, 수면 부족은 통증 민감도와 갈망 강도를 증가시켜 오피오이드 사용을 더욱 촉진합니다. 오피오이드 의존성을 깨는 것은 또한 이러한 수면 방해 주기를 깨는 것을 의미합니다.\n\n2주 동안 잠을 잔다\n아편유사제 금단 14일이 지나면 수면이 정상화되기 시작합니다.\n• 중추성 수면 무호흡증(있는 경우)은 며칠 내에 해결됩니다.\n• 깊은 서파수면이 회복되기 시작했습니다.\n• REM 수면이 정상 비율로 돌아오고 있습니다.\n• 수면 시작이 점점 더 확실해지고 있습니다.\n\n수면은 2주차에도 많은 사람들에게 여전히 중요한 과제로 남아 있지만, 궤도는 확실히 개선되고 있습니다. 더 나은 수면은 직접적으로 기분을 개선하고 갈망을 줄이며 회복에 필요한 명확한 사고를 지원합니다.';
+
+  @override
+  String get opioidReferenceDay30 =>
+      '오피오이드 한 달 사용 중단: 사고와 기억이 회복되기 시작합니다.\n\n출처: 메이요클리닉\n\n오피오이드 사용 장애 이해\nMayo Clinic은 오피오이드가 뇌와 신체 전체의 수용체에 부착되어 통증 완화, 행복감 및 졸음을 유발한다고 설명합니다. 반복적으로 사용하면 뇌의 반응이 덜 강해지고 자체적으로 생성되는 오피오이드 유사 화학물질도 줄어듭니다. 그것은 신체적 의존성을 만듭니다.\n\n한 달의 사고와 기억\n30일째에는 사고와 기억의 의미 있는 회복이 이루어졌습니다. 최악의 뇌 안개가 걷히고 계획과 자제력을 담당하는 뇌의 앞부분이 회복되고 있습니다.\n• 의사결정이 개선되고 있습니다.\n• 작업 기억이 회복되고 있습니다.\n• 처리 속도 증가\n• 더욱 안정적인 집중력\n\n엔돌핀 시스템\n한 달이 지나면 뇌의 천연 엔돌핀 시스템이 활발하게 회복됩니다. 즉, 자체적으로 오피오이드 유사 화학물질을 더 많이 생산하고 다시 더 정상적으로 반응하게 됩니다. 회복이 계속됨에 따라 감정적 평탄함과 낮은 통증 내성이 계속 개선됩니다.\n\n재발 예방\n메이요 클리닉(Mayo Clinic)은 한 달 동안 금주했다고 해서 재발 위험이 사라진 것이 아니라 여전히 높은 상태로 유지된다는 점을 강조합니다. 내성이 크게 감소했습니다. 이는 이전 용량을 사용한 재발이 심각한 과다복용 위험을 수반한다는 것을 의미합니다.';
+
+  @override
+  String get opioidReferenceDay60 =>
+      '오피오이드 복용을 2개월 중단하면 뇌의 스트레스 회로가 안정되기 시작합니다.\n\n출처: \"오피오이드 금단 및 장기간의 오피오이드 금단에서 확장된 편도체의 신경가소성\", Frontiers in Pharmacology(2023)\n\n부정적인 감정은 어디서 오는가\n이 리뷰에서는 장기간의 오피오이드 사용이 뇌의 스트레스와 공포 회로를 어떻게 변화시키는지 보여줍니다. 금단 증상이 나타나면 보상 회로의 도파민 신호 전달이 저하되는 동안 이러한 회로가 과도하게 활성화됩니다. 이러한 조합은 초기 회복 과정에서 불안, 기분 저하, 갈망을 설명하는 데 도움이 됩니다.\n\n두 달이 안도감을 주는 이유\n결정적으로, 검토 문서에서는 이러한 변경 사항 중 일부가 되돌릴 수 있음을 문서화했습니다. 동물 모델에서 측두근 껍질의 척추 밀도 손실은 \'지속적이지만 가역적인 감소\'로 설명되며, 몇 주에 걸쳐 약물 투여 전 값으로 돌아갑니다. 이러한 스트레스 및 보상 회로가 재조정됨에 따라 조기 회복 감정적 혼란의 기계적 기반이 완화됩니다. 이는 많은 사람들이 약 2개월 정도 보고하는 감소된 반응성 및 안정된 기분과 일치합니다.\n\n회복 신호\n이 문헌에 기록된 가역적 척추 밀도 및 스트레스 회로 변화는 실제 생물학적 회복 과정을 보여줍니다. 의존이라는 부정적인 감정 상태를 구동하는 회로는 금욕 중에 약물 사용 전 상태로 되돌아갑니다.';
+
+  @override
+  String get opioidReferenceDay90 =>
+      '오피오이드 3개월 사용 중단: 회복되기 시작하는 보상 화학\n\n출처: PubMed Central의 \"금주 중 약물 사용 장애가 있는 개인의 구조적 및 기능적 뇌 회복: 종단적 신경 영상 연구 검토\", 약물 및 알코올 의존(2022)\n\n도파민과 오피오이드\n오피오이드는 뇌의 보상 시스템에서 도파민 방출을 유도합니다. 장기간 사용하면 시스템이 고갈됩니다. 한 뇌 스캔 연구에서 도파민을 재활용하는 단백질은 처음에 건강한 수준보다 약 30% 낮았습니다. 이는 오피오이드 사용 장애와 조기 회복에서 나타나는 즐거움의 상실을 설명하는 데 도움이 됩니다.\n\n회복은 점진적이다\n이 검토에서는 금욕에 대해 동일한 사람들을 다시 조사한 종단적 연구를 수집했습니다. 도파민-수송체 결핍은 금주 6~12개월 동안 약 20% 정도 회복되었으며, 조기 금단 시 나타난 일부 전두엽 회백질 및 백질 이상은 약 한 달 후에는 더 이상 감지되지 않았습니다. 3개월이 되면 회복 곡선의 초기 단계입니다. 보상 시스템과 전두엽 시스템이 눈에 띄게 개선되고 있지만 아직 끝나지 않았습니다.\n\n사람들이 경험하는 것\n이러한 회로가 회복되면서 약 90일이 지나면 많은 사람들이 다음을 발견합니다.\n• 활동, 음식, 인간관계를 더욱 진정으로 즐기기\n• 조기 회복에 비해 갈망 감소\n• 더 명확해진 사고와 더 나은 의사결정\n\n회복 신호\n종방향 인간 영상에서는 6~12개월의 금욕 기간 동안 도파민 수송체 가용성이 증가하는 반면, 전두엽 회색질 및 백색질 이상은 훨씬 일찍 정상화되기 시작하는 것으로 나타났습니다. 90일이 되면 측정 가능한 뇌 회복이 이미 확립되었습니다.';
+
+  @override
+  String get opioidReferenceDay180 =>
+      '오피오이드 6개월 사용 중단: 면역 체계가 회복되기 시작합니다\n\n출처: \"오피오이드 내성 및 금단이 면역체계에 미치는 영향\", Journal of Neuroimmune Pharmacology(2006), PubMed\n\n오피오이드와 면역체계\n이 검토에서는 장기간 오피오이드 사용이 여러 가지 방법으로 면역체계를 약화시키는 것으로 나타났습니다.\n• 면역 세포(T 세포, NK 세포, 대식세포)에 대한 직접적인 오피오이드 작용\n• 면역 신호를 전달하는 화학 물질을 방해합니다.\n• 심심부-뇌-뇌하수체-부신(HPA) 축의 장애\n• 감염에 대한 민감성 증가\n\n회복 신호\n장기간의 아편유사제는 면역 체계의 여러 부분을 억제합니다. 오피오이드를 6개월 중단하면 지속적인 억제가 반년 동안 사라지고 면역 기능이 적극적으로 정상을 향해 재건됩니다.\n\n6개월의 의미\n오피오이드 없이 6개월간 면역 세포, 면역 신호 전달 및 신체의 스트레스 시스템이 정상으로 회복될 수 있는 지속 시간을 제공합니다.\n\n이것이 여전히 중요한 이유\n이는 HIV 및 C형 간염과 같은 추가 감염 위험에 직면한 아편유사제를 주사한 사람들에게 특히 관련이 있습니다. 아편유사제를 제거하고, 영양을 개선하고, 금주를 유지하면 면역체계가 계속 회복하는 데 필요한 조건을 제공합니다.';
+
+  @override
+  String get opioidReferenceDay365 =>
+      '오피오이드 1년 중단: 뇌 구조 및 화학 회복\n\n출처: PubMed Central의 \"금주 중 약물 사용 장애가 있는 개인의 구조적 및 기능적 뇌 회복: 종단적 신경 영상 연구 검토\", 약물 및 알코올 의존(2022)\n\n휴먼 이미징이 보여주는 것\n이 검토에서는 오피오이드 사용 장애가 있는 동일한 사람들을 금주 전반에 걸쳐 두 번 이상 스캔한 연구를 수집했습니다. 연구 결과는 일관되게 회복 방향을 가리키고 있습니다.\n• 보상 및 운동 영역의 도파민 재활용 단백질은 처음에는 정상보다 약 30% 낮았으나 아편유사제 사용을 중단한 후 6~12개월 동안 약 20% 증가했습니다.\n• 조기 금단 시 나타나는 전두엽 회백질 이상은 금주 약 한 달 후에는 더 이상 감지되지 않습니다.\n• 백질(전두엽 및 띠) 및 휴면 상태의 전두엽 활동도 첫 달 이내에 다시 정상화되기 시작했습니다.\n\n1년이 머무는 곳\n12개월이 되면 이 연구에서 측정한 가장 긴 기간에 도달하거나 그 기간을 넘게 됩니다. 도파민 시스템은 회복하는 데 가장 많은 시간이 걸렸으며 자제력과 판단을 지원하는 전두엽 회로는 수개월 동안 개선되었습니다. 이는 사람들이 1년에 묘사하는 더 명확한 사고, 더 약한 갈망, 더 안정된 기분에 대한 생물학적 대응입니다.\n\n회복 신호\n1년이 지나면 인간의 영상 신호는 회복 지향적입니다. 도파민 수송체 가용성은 6~12개월 동안 증가한 반면 전두엽의 구조적 및 기능적 이상은 정상화되는 데 수개월이 걸렸습니다.';
+
+  @override
+  String get opioidReferenceDay730 =>
+      '오피오이드 2년 사용 중단: 안정적인 기반\n\n출처: \"오피오이드 사용 장애 치료\", 질병 통제 예방 센터(CDC)\n\n만성 질환, 잘 관리됨\nCDC는 오피오이드 사용 장애를 \'누구에게나 영향을 미칠 수 있는 만성 질환\', 즉 \'도덕적 결함이 아닌 의학적 상태\'라고 설명합니다. 2년간의 지속적인 회복에 도달했다는 것은 가장 취약한 기간 중 하나를 통해 해당 상태를 성공적으로 관리해 왔다는 것을 의미합니다.\n\nCDC가 효과가 있다고 말하는 것\nCDC 지침은 장기적으로 회복을 안정적으로 유지하는 치료법에 중점을 두고 있습니다.\n• 오피오이드 사용 장애에 대한 약물(부프레노르핀, 메타돈, 날트렉손)은 특히 효과적이라고 합니다.\n• 약물 치료와 행동 치료 및 상담을 병행합니다.\n• 개인에 맞춰 다양한 기간 동안 지속되는 치료\nCDC는 이러한 약물이 \'뇌 화학을 정상화\'하고 갈망을 완화하는 데 도움이 된다고 지적합니다. 활성 중독에서 납치된 느낌이 들었던 화학이 다시 작용합니다.\n\n안전 유지\nCDC는 회복 중인 사람들에게 다시 사용하거나 과다복용할 위험에 대해 의사에게 문의하고 날록손을 항상 준비할 것을 촉구합니다. 금주 중에는 내성이 떨어지기 때문에 오랫동안 오피오이드를 다시 사용하는 것은 특히 위험합니다. 이것이 여러분이 구축한 것을 보호하는 것의 일부라는 것을 알기 때문입니다.\n\n2년 후\nCDC는 회복이 결승선이 아닌 장기적인 과정인 경우가 많다는 점을 분명히 밝혔습니다. 2년은 여정의 끝이 아닙니다. 이는 안정적이고 건전한 기초이며 귀하가 사용하는 접근 방식이 효과가 있다는 강력한 증거입니다.';
+
+  @override
+  String get pornographyReferenceDay1 =>
+      '첫째 날: 통제권 되찾기\n\n출처: Kraus 등, ICD-11의 강박성 성적 행동 장애, 세계 정신의학(2018).\n\n임상적으로 중요한 문제는 음란물 사용 자체가 아닙니다. 강박성 성적 행동 장애는 반복적인 성적 행동을 통제하는 데 어려움을 겪는 패턴이 심각한 고통이나 장애를 야기하는 경우를 중심으로 정의됩니다. 문제가 있는 음란물 사용은 더 광범위한 문제를 나타내는 한 가지일 수 있습니다.\n\n그것은 첫날을 신비롭게 여기기보다는 구체적으로 만듭니다. 당신은 통제할 수 없다고 판단한 행동을 중단했습니다. 하루를 완료했다고 해서 뇌와 신경이 재설정되는 것은 아니지만 언제 충동이 나타나는지, 어떤 상황이 충동을 유발하는지, 대신 무엇을 할 수 있는지에 대한 최초의 실제 관찰을 제공합니다.\n\n귀하의 사용이 고통스럽거나 손상되거나 통제하기 어렵지 않은 경우 임상 CSBD 프레임워크가 귀하에게 적용되지 않을 수 있습니다. 이러한 이정표는 문제가 있거나 강박적인 사용을 의도적으로 변경하는 사람들을 대상으로 합니다.';
+
+  @override
+  String get pornographyReferenceDay3 =>
+      '셋째 날: 충동이 어떤 모습인지 알아보세요\n\n출처: Lewczuk et al., 강박적인 성적 행동 장애 및 문제가 있는 음란물 사용과 관련된 금단 및 관용, Journal of Behavioral Addictions(2022).\n\n사전 등록된 전국 대표 폴란드 성인 1,541명 표본에서, 자가 보고된 금단 증상이 강할수록 CSBD 및 음란물 사용 심각도가 더 높은 것과 관련이 있었습니다. 음란물 사용에 문제가 있는 참가자들 사이에서 일반적으로 보고된 경험에는 멈추기 어려운 성적인 생각, 통제하기 어려운 욕망, 흥분 증가, 과민성, 기분 변화 및 수면 문제가 포함되었습니다.\n\n안절부절 못함, 거슬리는 성적인 생각, 강한 충동, 과민 반응은 보다 심각한 문제적 사용을 하는 사람들에게서 기록됩니다. 3일 쯤에 나타나면 실제 금단 증상과 유사한 패턴으로 간주하고 유발 요인을 관리하세요.\n\n실제로 어떤 충동이 일어나고 있는지, 그 전에 무엇이 있었는지, 어떤 반응이 도움이 되었는지 적어보세요. 신비한 뇌 사건으로 취급되기보다는 방아쇠의 이름이 지정되면 회복이 더 쉬워집니다.';
+
+  @override
+  String get pornographyReferenceDay7 =>
+      '일주일: 무작위 금욕 연구에서 발견된 사실\n\n출처: 일반 포르노 사용자의 금단 관련 증상에 대한 7일 포르노 금욕 기간의 영향, 성행위 기록 보관소(2023).\n\n연구자들은 176명의 일반 음란물 사용자를 무작위로 선정하여 7일간 금욕을 시도하거나 평소대로 계속하도록 했습니다. 전체 표본에서 금욕은 갈망, 부정적인 기분 또는 금단 증상의 전반적인 증가를 가져오지 않았습니다.\n\n탐색적 분석에 따르면 연구 전 높은 문제 사용 점수와 일일 음란물 사용을 결합한 사람들 사이에서 갈망이 증가한 것으로 나타났습니다. 그 결과는 복제가 필요하지만 유용합니다. 문제가 많은 사용자에게는 어려운 첫 주가 현실이 될 수 있지만 보편적인 음란물 금단 증후군은 이 시험에서 지원되지 않습니다.\n\n일주일을 버텼다면 이제 일반적인 인터넷 타임라인이 제공할 수 있는 것보다 자신의 패턴에 대한 더 나은 증거를 갖게 됩니다.';
+
+  @override
+  String get pornographyReferenceDay14 =>
+      '2주: 실제로 중요한 트리거 매핑\n\n출처: 문제가 있는 음란물 사용의 생물심리사회적 결정 요인: 체계적 검토(2023).\n\n이 검토에서는 66개의 연구를 종합하여 문제가 있는 음란물 사용이 하나의 단순한 도파민 메커니즘이 아닌 여러 요인의 혼합과 관련되어 있음을 발견했습니다. 반복적으로 확인된 심리적, 사회적 요인에는 갈망, 스트레스, 회피, 외로움, 자존감, 부정적인 신념 및 대처 스타일이 포함되었습니다.\n\n2주는 주중, 주말, 지루함, 스트레스, 개인 정보 보호, 장치 및 이전 행동의 신호가 될 수 있는 기타 상황에 반복적으로 노출됩니다. 해당 데이터를 사용하세요. 스트레스가 유발인 경우 스트레스 반응을 설계하십시오. 외로움이 원인이라면 접촉을 추가하세요. 쉬운 접근이 원인이라면 환경을 바꿔보세요.\n\n증거는 문제가 있는 사용의 동인에 대한 작업을 뒷받침합니다. 모든 사람이 동일한 생물학적 카운트다운을 따르는 척할 필요는 없습니다.';
+
+  @override
+  String get pornographyReferenceDay30 =>
+      '한 달: 단순한 빈도수 계산보다 제어가 더 중요합니다\n\n출처: Böthe et al., 성기능 문제는 빈번한 음란물 사용 및/또는 문제가 있는 음란물 사용과 관련이 있습니까?, 중독성 행동(2021).\n\n14,581명의 성인으로 구성된 커뮤니티 표본에서 문제가 있는 음란물 사용은 남성과 여성 모두에서 성기능 문제와 중간 정도의 긍정적인 연관성을 보였습니다. 음란물 사용 빈도 자체는 이러한 문제와 약한 부정적 연관성을 보여주었습니다.\n\n그 구별이 중요합니다. 증거는 모든 음란물 사용자가 시청 빈도만으로 성기능에 손상을 입는다고 말하는 것을 뒷받침하지 않습니다. 임상적으로 더 관련성이 높은 목표는 통제력 상실과 해당 패턴을 둘러싼 문제입니다.\n\n한 달이 지나면, 시작했을 때와 지금의 삶을 비교해 보세요: 몰두, 잃어버린 시간, 멈출 수 있는 능력, 성기능, 관계 갈등, 고통. 이러한 변화는 신화적인 30일 두뇌 재설정을 기다리는 것보다 더 중요합니다.';
+
+  @override
+  String get pornographyReferenceDay90 =>
+      '3개월: 지속 가능한 변화가 가능합니다\n\n출처: Crosby & Twohig, 문제가 있는 인터넷 음란물 사용에 대한 수용 및 헌신 치료: 무작위 시험, 행동 치료(2016).\n\n이 소규모 무작위 시험에서는 12개 세션으로 구성된 ACT 프로그램과 28명의 성인 남성을 대상으로 대기자 명단을 비교했습니다. 음란물 시청은 치료 종료 시 ACT 그룹에서 훨씬 더 많이 감소했으며 3개월 후속 조치에서도 상당한 감소가 유지되었습니다.\n\n이 연구는 90일 금욕만으로는 동일한 결과가 발생한다는 것을 증명하지 않았으며, 표본도 작고 인구통계학적으로도 좁았습니다. 그것이 보여주는 것은 중요합니다. 문제가 있는 음란물 사용은 수정 가능하며 구조화된 기술은 즉각적인 치료 기간 이후에도 지속되는 변화를 가져올 수 있습니다.\n\n귀하의 진전이 여전히 대부분의 의지에 달려 있다면 3개월은 주변 시스템을 강화하는 좋은 시점입니다. 즉, 트리거 계획, 행동하지 않고 충동 수용, 환경적 마찰, 책임, 필요할 때 치료 등이 있습니다.';
+
+  @override
+  String get pornographyReferenceDay180 =>
+      '6개월: 장기적인 증상 통제가 가능합니다.\n\n출처: Hallberg 등, 남성의 성과다 장애에 대한 그룹 관리 인지 행동 치료에 대한 무작위 대조 연구, 성의학 저널(2019).\n\n통제할 수 없는 성적 행동을 보이는 남성 137명을 대상으로 7주간의 그룹 CBT를 실시한 결과 대기자 명단에 오른 경우보다 성과민 증상과 성적 강박성이 크게 감소했으며 정신과적 건강도 향상되었습니다. 치료 효과는 3개월 및 6개월 추적 기간 모두에서 안정적으로 유지되었습니다.\n\n이 연구는 음란물 금욕만을 다루기보다는 성과잉 장애를 더 광범위하게 다루었으므로 모든 사람이 6개월이 지나면 생물학적으로 회복된다는 주장으로 전환되어서는 안 됩니다. 이는 더 강력하고 더 유용한 진술을 뒷받침합니다. 강박적인 성적 행동의 지속적인 개선은 이 기간 동안 안정적으로 유지될 수 있습니다.\n\n따라서 6개월은 유지 관리 기간입니다. 날짜를 해체 허가로 간주하는 대신 제어를 더 쉽게 만드는 루틴을 유지하십시오.';
+
+  @override
+  String get pornographyReferenceDay365 =>
+      '1년: 지속적인 행동 변화에 대한 증거\n\n출처: 성과다증에 대한 수용 기반 치료의 1년 후속 효과(2026).\n\n1년의 추적 조사에서, 이 수용 기반 치료 연구의 참가자들은 치료 전 수준의 성욕 과잉으로 돌아가지 않았습니다. 저자는 이번 연구 결과를 시간이 지남에 따라 진행되는 과정 중 갈망에 대한 인지된 통제와 함께 지속적이고 임상적으로 의미 있는 이점에 대한 예비 증거라고 설명했습니다.\n\n이는 치료 추적 관찰 증거이지 1년 간의 뇌 재설정 증거가 아닙니다. 어쨌든 의미 있는 주장이 더 좋습니다. 임상적으로 관련된 통제는 초기 개입이 끝나자마자 사라지는 것이 아니라 1년 동안 지속될 수 있습니다.\n\n1년 동안 직접 관리한 변경 사항은 대규모 개인 데이터 세트이기도 합니다. 현재 통제, 고통, 기능, 관계 및 시간 사용을 시작한 곳과 비교하십시오. 이것이 임상적으로 중요한 결과입니다.';
+
+  @override
+  String get pornographyReferenceDay1825 =>
+      '5년: 장기적인 통제가 결과입니다\n\n출처: 강박적 성적 행동 장애 및 문제가 있는 음란물 사용: 포괄적인 학제간 전문가 정보 검토(2026).\n\n현대 리뷰에서는 CSBD와 문제가 있는 음란물 사용을 통제, 고통, 기능, 상황 및 개인차와 관련된 복잡한 문제로 취급합니다. 검증된 5년 간의 뇌 및 신경 재설정 임계값은 없습니다.\n\n그러나 5년은 공허한 이정표가 아닙니다. 자신이 선택한 행동 방향을 유지한 지 1,825일입니다. 임상적 문제는 고통이나 장애로 인한 지속적인 통제 상실이기 때문에 수년에 걸친 지속적인 통제와 기능 회복은 그 자체로 의미 있는 결과입니다.\n\n이 단계에서 유용한 질문은 더 이상 뇌가 가상의 재배선 비율에 도달했는지 여부가 아닙니다. 오래된 패턴이 여전히 당신의 선택을 통제하는지, 아니면 당신이 원하는 삶을 방해하는지 여부입니다. 그렇지 않다면 그것은 실질적인 장기적 성공입니다.';
+
+  @override
+  String get smokingReferenceDay1 =>
+      '첫째 날: 혜택은 지금 시작됩니다\n\n출처: NHS Better Health\n\n혜택은 며칠이 아닌 몇 분 안에 시작됩니다. 연기가 멈추자마자 신체는 정상화되기 시작합니다.\n\n오늘 무슨 일이 일어나는가\n• 20분: 맥박수가 정상으로 돌아오기 시작합니다.\n• 8시간: 혈액 내 일산화탄소가 절반으로 감소합니다. 산소 수치가 회복되고 있습니다\n• 48시간: 일산화탄소가 비흡연자 수준으로 떨어졌습니다.\n\n일산화탄소는 산소보다 적혈구에 더 강하게 결합하여 혈액에서 적혈구를 옮깁니다. 모든 장기는 필요한 것보다 적은 양의 산소를 공급받고 있었습니다. 이틀 안에 역전됩니다.\n\n인출은 첫날부터 시작됩니다.\n• 갈망 — 각 증상은 일반적으로 3~5분 동안 지속됩니다.\n• 과민성과 집중력 저하\n• 식욕 증가\n\n이는 일시적이며 관리가 가능합니다. NHS Better Health 프로그램은 앱과 약사 조언을 포함한 무료 지원을 제공합니다.';
+
+  @override
+  String get smokingReferenceDay3 =>
+      '3일차: 최대 인출\n\n출처: McLaughlin, Dani 및 De Biasi\n\n72시간이 지나면 니코틴이 몸에서 사라집니다. 뇌는 흡연 기간 동안 추가 니코틴 수용체를 구축했습니다. 이제 자극이 부족해 금단 증후군이 발생합니다.\n\n최고 증상\n• 갈망 — 현재 가장 강렬함\n• 과민성, 좌절, 안절부절 못함\n• 집중하기 어려움\n• 불안\n• 두통\n• 식욕 증가\n• 기침(기도가 깨끗해짐 - 좋은 신호)\n\n오늘은 가장 힘든 날입니다. 이보다 더 악화되는 것은 없습니다. 여기서부터 뇌가 재조정되면서 증상이 꾸준히 완화됩니다.\n\nNRT, 바레니클린, 부프로피온은 모두 이 단계에서 금단 증상의 심각도를 크게 감소시킵니다.';
+
+  @override
+  String get smokingReferenceDay7 =>
+      '일주일: 미각과 후각이 돌아옵니다.\n\n출처: NHS Better Health\n\n일주일간 금연을 달성하는 것은 장기적인 성공을 강력하게 예측하는 지표입니다. 첫 주를 금연한 사람들은 영원히 금연할 가능성이 훨씬 더 높습니다.\n\n복구된 내용\n• 음식 맛이 더 맛있습니다.\n• 냄새가 더 생생해졌습니다.\n• 호흡이 더 쉬워집니다. 기도가 깨끗해집니다.\n• 순환이 개선되고 있습니다\n• 피부에 수분이 더 잘 공급됩니다.\n\n흡연은 미각과 후각 수용체를 직접적으로 손상시킵니다. 중단 후 며칠 내에 회복되기 시작합니다.\n\n급성 니코틴 금단 현상이 완화되고 있습니다. 육체적 갈망은 더 짧고 덜 빈번합니다. 유발 요인에 따른 갈망이 여전히 존재할 수 있지만 최악의 신체적 긴급 상황은 이미 지나갔습니다.';
+
+  @override
+  String get smokingReferenceDay14 =>
+      '2주: 순환이 개선됩니다\n\n출처: NHS Better Health\n\n중단 후 2~12주 이내에 혈액 순환이 개선됩니다. 니코틴은 담배를 피울 때마다 혈관을 좁힙니다. 그렇지 않으면 혈관이 이완되고 혈액이 더 자유롭게 흐릅니다.\n\n이것이 의미하는 바\n• 손, 발, 말초 조직으로의 혈류가 개선됩니다.\n• 많은 사람들이 손과 발이 따뜻해지는 것을 느낍니다.\n• 걷기와 계단 오르기가 더 쉬워지기 시작합니다.\n\n첫날에 이미 혈액에서 일산화탄소가 제거되고 이제 혈액 순환이 개선되어 산소가 근육에 더 효과적으로 도달합니다.\n\n기도를 감싸고 있는 섬모가 회복되어 축적된 점액을 밀어냅니다. 평소보다 기침이 더 많이 난다면 이는 후퇴가 아니라 회복의 신호입니다.';
+
+  @override
+  String get smokingReferenceDay30 =>
+      '한 달: 폐 기능 상승\n\n출처: NHS Better Health\n\n호흡이 더 쉬워지고 폐 기능이 향상되어 3~9개월 동안 최대 10%까지 향상됩니다. 한 달이 지나면 회복 곡선에 진입하게 됩니다.\n\n폐에서 무슨 일이 일어나고 있나요?\n• 섬모가 다시 자라서 점액을 더 효과적으로 제거하고 있습니다.\n• 기도 염증이 가라앉고 있습니다.\n• 지속적으로 흡연하는 사람의 기침이 잦아듭니다.\n• 운동 내성이 향상되고 있습니다.\n\n폐 기능이 증가하면 기침, 천명음 및 호흡 문제가 개선됩니다. 한 달은 회복 곡선에서 의미 있는 지점입니다.';
+
+  @override
+  String get smokingReferenceDay90 =>
+      '3개월: 심장마비 위험 감소\n\n출처: PMC — 흡연 및 금연의 심혈관 효과(2024)\n\n흡연은 다양한 방식으로 심장과 동맥을 손상시킵니다. 즉, 동맥 플라크 형성을 가속화하고 혈액 응고를 촉진하며 혈압을 높이고 동맥 내벽을 손상시킵니다. 응고 촉진, 혈전 촉진 효과는 중단 후 며칠 내에 역전되며, 본 리뷰에서는 중단 후 첫 1년 이내에 심장마비와 뇌졸중이 눈에 띄게 감소했다고 보고합니다.\n\n지금까지 개선된 점\n• 혈액 응고 인자가 정상화되고 있습니다.\n• 혈압과 심박수가 안정되고 있습니다.\n• 급성 심혈관계 질환 위험이 조기에 급격히 감소하는 추세가 이미 진행 중입니다.\n\n느리게 작용하는 이점(수년간의 동맥 플라크 축적을 역전시키는 것)은 더 오래 걸리며 이후 단계에서 다룹니다. 담배를 피우지 않는 달마다 회복량이 늘어납니다.';
+
+  @override
+  String get smokingReferenceDay180 =>
+      '6개월: 면역 방어 회복\n\n출처 : 금연기간과 폐포 면역세포 기능 회복 (PubMed)\n\n흡연은 폐 깊은 곳에 있는 면역 세포를 억제하여 박테리아를 삼켜 죽이는 능력을 손상시킵니다. 회복은 점진적입니다. 단 2개월만 금주한 경우 가장 큰 손상이 나타나는 반면, 장기간 금욕하면 기능이 꾸준히 향상됩니다. 6개월이 지나면 폐 면역 방어 능력이 실질적으로 회복됩니다.\n\n이것이 의미하는 바\n폐는 흡입된 박테리아와 입자를 보다 효과적으로 제거하여 감기, 독감 및 폐렴에 대한 취약성을 줄일 수 있습니다.\n\n면역 방어는 6개월 이후에도 계속 향상됩니다. 그러나 이제 신체의 보호는 초기 몇 주보다 훨씬 더 강력해졌습니다.';
+
+  @override
+  String get smokingReferenceDay365 =>
+      '1년: 심장마비 위험이 급격히 감소\n\n출처: PMC — 흡연 중단 및 뇌졸중 결과; CDC, 금연의 이점\n\n흡연은 동맥 플라크 축적을 촉진하고 혈액 응고를 증가시키며 혈압을 높이고 뇌혈관을 손상시켜 뇌졸중 위험을 대략 두 배로 증가시킵니다. CDC의 금연 혜택 타임라인에 따르면 1~2년 내에 심장마비 위험이 급격히 감소합니다. 귀하는 그 기간의 최전선에 있습니다.\n\n복구 일정\n전체 뇌졸중 위험 정상화에는 더 오랜 시간이 걸립니다. 인용된 뇌졸중 연구에서는 금연자를 중앙값 거의 5년 동안 추적한 결과 계속 흡연하는 사람보다 뇌졸중 발생률이 유의미하게 낮은 것으로 나타났습니다. CDC 데이터에 따르면 관상동맥 심장 질환 위험은 3~6년에 절반으로 줄어들고 뇌졸중 위험은 5~10년에 걸쳐 감소합니다.\n\n1년은 여전히 ​​진정한 의학적 이정표입니다. 장기적인 심혈관 및 암 혜택이 수년간 계속 축적되더라도 급성 위험 감소의 가장 가파른 부분은 뒤에 있습니다.';
+
+  @override
+  String get smokingReferenceDay1825 =>
+      '5년: 암 위험 감소\n\n출처: CDC, 금연의 이점\n\n5년이 지나면 가장 극적인 암 혜택이 나타납니다.\n\n5~10년의 이정표\n• 구강암, 인후암, 성대암 발병 위험 증가: 절반으로 감소\n• 뇌졸중 위험: 감소\n\n아직 앞서\n• 10년: 폐암 사망 위험이 대략 절반으로 감소합니다(10~15년 후). 방광암, 식도암, 신장암 위험 감소\n• 15년: 관상동맥심장병 위험이 비흡연자와 비슷합니다.\n• 20년: 구강암, 인후암, 성대암 위험은 비흡연자 수준에 가깝습니다. 자궁경부암 위험 추가 절반으로 감소\n\n5년 동안 금연을 한 것은 진정한 성취입니다. 관상동맥 심장 질환 위험이 완전히 정상화되는 것과 같은 몇 가지 이점이 아직 몇 년이나 남았음에도 불구하고 이제 가장 중요한 암 위험 감소 효과를 누릴 수 있는 기회가 다가왔습니다.';
+
+  @override
+  String get snriReferenceDay3 =>
+      'SNRI 중단: 첫 번째 날\n\n출처: Harvard Health Publishing\n\n중요한 안전 참고 사항\nSNRI는 점진적으로 감량한 후 의료 감독 하에서만 중단해야 합니다. 특히 벤라팍신(Effexor)은 반감기가 약 5시간으로 매우 짧습니다. 이는 약물이 신체에서 매우 빠르게 제거되고 중단 증상이 심각하고 갑작스러울 수 있음을 의미합니다.\n\nSNRI가 SSRI보다 중지하기 어려운 이유\nSNRI는 기분을 조절하는 두 가지 뇌 화학 물질인 세로토닌과 노르아드레날린에 영향을 미치며, 이는 둘 다 중단할 때 재조정해야 함을 의미합니다. 중단 증상은 SSRI보다 SNRI에서 더 심한 경우가 많습니다.\n• 독감과 유사한 증상(피로, 발한, 근육통)\n• 불면증 및 수면 장애\n• 메스꺼움 — SSRI보다 더 심하게 나타나는 경우가 많습니다.\n• 불균형 및 현기증\n• 감각 장애 - 벤라팍신을 사용하면 \'뇌졸중\'이 매우 심해질 수 있습니다.\n• 과잉각성, 과민성, 불안\n\nSNRI 비교\nVenlafaxine은 짧은 반감기로 인해 중단이 가장 어렵습니다. 둘록세틴(Cymbalta)은 반감기가 12시간으로 더 길기 때문에 다소 쉬운 경향이 있습니다. Desvenlafaxine은 둘 사이에 속합니다.';
+
+  @override
+  String get snriReferenceDay7 =>
+      'SNRI 발생 일주일 후: 두 가지 뇌 화학 시스템 조정\n\n출처: NHS — 항우울제 중단 또는 중단(일반 항우울제 지침, 아래의 노르아드레날린 관련 메커니즘은 NHS 페이지 자체의 SNRI 특정 세부 사항이 아닌 일반적인 SNRI 약리학을 반영합니다)\n\n이중 시스템 과제\n한 시스템에 영향을 미치는 대부분의 항우울제와 달리 SNRI는 세로토닌과 노르아드레날린 모두에 영향을 미칩니다. 일주일이 지나면 두 시스템 모두 다음과 같이 조정됩니다.\n\n노르아드레날린 시스템 효과\n노르아드레날린 시스템은 신체의 투쟁-도피 반응, 혈압 조절 및 에너지 수준을 관리합니다. 재조정됨에 따라:\n• 혈압 변동이 발생할 수 있습니다.\n• 불안은 신체적으로 더 많이 느껴질 수 있습니다(심장 두근거림, 땀흘림).\n• 에너지 수준이 일정하지 않을 수 있습니다.\n\n세로토닌 시스템 효과\n동시에 세로토닌 시스템이 조정되어 항우울제를 중단할 때 나타나는 전형적인 금단 증상이 나타납니다. 두 시스템 조정을 결합하면 첫 주가 특히 어려울 수 있습니다.\n\n신체적으로 이것은 종종 혈압 안정성을 향상시키고 서 있을 때 현기증이 덜 발생하는 것으로 나타납니다. 감정적으로 기분은 30일 후보다 더 다양하지만 더 이상 자유낙하 상태는 아닙니다.';
+
+  @override
+  String get snriReferenceDay14 =>
+      'SNRI 발생 2주 후: 신체적 증상이 사라짐\n\n출처: Davies & Read(2019), 중독성 행동\n\n2주 상태\n적절한 테이퍼를 따르는 대부분의 사람들의 경우 급성 신체 단계는 대체로 2주 내에 해결됩니다.\n• 두뇌 자극이 크게 감소하거나 없음\n• 메스꺼움 및 독감과 유사한 증상이 해결되었습니다.\n• 현기증 및 균형 문제 개선\n• 노르아드레날린의 재균형을 통해 혈압과 심박수가 안정됩니다.\n\n지속될 수 있는 것\n• 정서적 민감성과 기분 변화\n• 불안 — 노르아드레날린 시스템이 특히 영향을 미치는 증상\n• 노르아드레날린 시스템이 주의력과 활력을 제공하므로 피로\n\n연구 맥락\n중독성 행동 체계적 검토(Davies & Read, 2019)에서는 SNRI 중단 효과가 모든 항우울제 계열 중 가장 심각한 계열 중 하나이며 벤라팍신은 특히 높은 비율의 심각한 금단 증상과 관련이 있음을 확인했습니다.';
+
+  @override
+  String get snriReferenceDay30 =>
+      'SNRI 이후 1개월: 이중 시스템 안정화\n\n출처: Davies & Read(2019), Addictive Behaviors — 항우울제 금단 발생률, 심각도 및 기간에 대한 체계적인 검토\n\n안정화 단계\n한 달은 세로토닌과 노르아드레날린 회복에 있어 중요한 이정표입니다. 이 검토에서는 상당수의 사람들이 몇 주 이상 지속되는 금단 증상을 경험하지만, 대부분의 사람들은 이 시점에서 신체적 중단 증상의 급성, 가장 심각한 단계를 훨씬 넘었다는 사실을 발견했습니다.\n\n일반적으로 한 달 안에 개선되는 점\n• 대부분의 경우 신체적 중단 증상(뇌졸중, 메스꺼움, 현기증)이 해결되었습니다.\n• 혈압이 자연 수준으로 회복됨\n• 수면의 질 개선 — REM 수면 패턴이 자연스럽게 회복됩니다.\n• 노르아드레날린 조절이 정상화되면서 에너지 수준이 안정화되기 시작합니다.\n\n감정적 둔화 해결\n이 단계에서 가장 일반적으로 보고되는 경험 중 하나는 감정적 무뎌짐의 해결입니다. SNRI에 참여한 많은 사람들은 감정 범위가 \'평탄해졌음\'을 알아차립니다. 약물이 제거되고 뇌가 재조정되면 일반적으로 감정 범위와 민감성이 회복됩니다.';
+
+  @override
+  String get snriReferenceDay90 =>
+      'SNRI 이후 3개월: 탈퇴가 훨씬 지났습니다.\n\n출처: NCBI 책장에 있는 \"항우울제 금단 증후군\", Therapeutics Letter 112(2018), Therapeutics Initiative\n\nSNRI에 특별한 관리가 필요한 이유\n이 증거 검토에서는 벤라팍신과 둘록세틴(둘 다 SNRI)을 포함한 짧은 반감기 항우울제를 금단 증상의 위험이 더 높은 것으로 선정했습니다. 제조업체가 자금을 지원한 연구에 따르면 둘록세틴을 중단한 사람들의 51%가 하나 이상의 증상을 경험한 것으로 나타났습니다. 따라서 SNRI 철수가 뚜렷해질 수 있으며, 이것이 바로 점진적이고 감독된 테이퍼가 중요한 이유입니다.\n\n3개월이 머무는 곳\n편지에는 금단 증상이 \'보통 중단 후 며칠 이내에 나타나며\' \'대부분의 항우울제 금단 증상은 2주 이내에 해결됩니다\'(때로는 더 길어짐)가 명시되어 있습니다. 3개월이 되면 급성 금단 단계는 대부분의 사람들보다 훨씬 뒤쳐집니다.\n\n\'수용체 회복\'에 대한 회복 신호\n인기 있는 연대표에서는 세로토닌과 노르아드레날린 시스템이 3개월까지 \'완전히 재균형\'되었다고 주장합니다. 확실한 증거는 정확한 수용체 회복 시계가 아니라 금단 증후군과 그 타이밍에 관한 것입니다. 신뢰할 수 있는 점: 일반적으로 3개월이 지나면 금단 단계가 해결되며, 많은 사람들이 중단 후 SNRI에 대한 감정적 무뎌짐이 완화되는 것을 느낍니다.\n\n금단과 재발\n서신에서는 탈퇴와 기본 상태의 진정한 복귀를 구별할 것을 권고합니다. 불안이나 우울한 기분이 3개월 동안 지속되는 경우, 단지 금단 증상일 뿐이라고 가정하기보다는 처방자와 함께 이를 검토하십시오.';
+
+  @override
+  String get snriReferenceDay180 =>
+      'SNRI 후 6개월: 뇌 및 신경 회복\n\n6개월 데이터의 회복 신호\n의학적으로 감독된 테이퍼를 완료한 후 6개월이 지나면 심각한 초기 SNRI 중단 기간이 훨씬 뒤쳐집니다. 기분, 수면, 성기능 및 명확한 사고는 회복하는 데 몇 달이 걸렸습니다.\n• 세로토닌 경로: 실질적으로 회복됨\n• 노르아드레날린 경로: 정상화되었으며 스트레스 반응 시스템도 안정되었습니다.\n• 수면 아키텍처: 완전히 복원될 것으로 예상됨\n• 성기능: 대부분의 사람들에게 대부분 회복됨(성기능 장애는 일반적인 SNRI 부작용이지만 일부의 경우 지속될 수 있으므로 처방자와 논의할 가치가 있음)\n\n스트레스에 대한 회복력\n6개월이 된 많은 사람들은 각성 및 스트레스 반응에서 노르아드레날린 시스템의 역할(SNRI가 강력하게 조절함)이 자연 수준으로 돌아오면서 일상적인 스트레스 요인에 대한 회복력이 눈에 띄게 향상되었다고 보고합니다.';
+
+  @override
+  String get snriReferenceDay365 =>
+      'SNRI 발생 1년 후: 회복 달성\n\n1년: 완전한 이중 시스템 복구\nSNRI 테이퍼를 완료한 지 1년이 지나면 세로토닌과 노르아드레날린 시스템 모두 적응하고 안정화되는 완전한 주기를 갖게 됩니다.\n\n1년 동안 실제로 증거가 뒷받침하는 것\n이 Therapeutics Letter 리뷰에서는 기록된 금단 증상이 \'보통 중단 후 며칠 이내에 나타나며\' 대부분 약 2주 이내에 해결된다고 언급합니다. 구체적으로 SNRI 중단 후 1년이 지난 사람들을 대상으로 한 대조 연구는 없습니다. 이 거리에서 더 넓은 임상 사진이 잘 뒷받침하는 것은 무엇입니까?\n• 적절한 테이퍼를 완료하고 심리적 지원을 받은 사람들의 대다수는 건강을 유지하고 있습니다.\n• SNRI 사용의 특징인 감정 둔화 및 성기능 장애는 대부분의 사람들에게서 완전히 해결되었습니다.\n• SNRI가 제공할 수 있는 집중력 이점을 포함한 명확한 사고는 자연스러운 뇌 기능을 통해 유지됩니다.\n\n이 이정표의 중요성\nSNRI, 특히 벤라팍신을 성공적으로 중단한 것은 중요한 성과입니다. 중단 과정의 강도와 의료 감독 하에 이를 관리하는 데 필요한 노력은 놀라운 회복력을 보여줍니다.';
+
+  @override
+  String get socialMediaReferenceDay1 =>
+      '소셜 미디어에서 물러나기: 첫째 날\n\n출처: Lambert 외, PubMed의 \"소셜 미디어에서 1주 휴식을 취하면 웰빙, 우울증 및 불안이 향상됩니다: 무작위 대조 시험\", 사이버 심리학, 행동 및 소셜 네트워킹(2022)\n\n증거가 보여주는 것\n이 강력하게 통제된 연구에서 사람들은 무작위로 Facebook, Instagram, Twitter, TikTok을 일주일 동안 사용하지 않거나 평소처럼 계속 사용하도록 배정되었습니다. 휴식 그룹은 웰빙이 크게 향상되고 우울증과 불안이 감소한 것으로 나타났습니다. 이는 뒤로 물러나는 것이 도움이 된다는 실제적이고 통제된 증거입니다.\n\n증거가 보여주는 것\n강박적인 소셜 미디어 사용은 기분 저하 및 불안 증가와 밀접한 관련이 있으며, 무작위 시험에서는 의도적으로 소셜 미디어 사용을 줄이는 것이 일주일 이내에 우울증과 불안을 줄이는 동시에 웰빙을 향상시킬 수 있음을 보여줍니다.\n\n첫째 날: 기대할 사항\n• 안절부절 못함과 확인하고 싶은 충동\n• \'유령\' 알림 — 발생하지 않은 윙윙거리는 느낌\n• 덜 지속적인 자극에 적응하면서 지루함\n이는 습관과 관련된 정상적인 감각이며 일시적입니다. 패턴을 인식하는 것이 패턴을 바꾸는 첫 번째 단계입니다.';
+
+  @override
+  String get socialMediaReferenceDay3 =>
+      '소셜 미디어 없는 3일: 불안과 기분\n\n출처: Lambert 외, PubMed의 \"소셜 미디어에서 1주 휴식을 취하면 웰빙, 우울증 및 불안이 향상됩니다: 무작위 대조 시험\", 사이버 심리학, 행동 및 소셜 네트워킹(2022)\n\n휴식이 기분에 도움이 되는 이유\n이 대조 실험에서 무작위로 일주일 동안 소셜 미디어를 사용하지 않도록 배정된 사람들은 스크롤을 계속한 사람들보다 불안감과 우울증이 더 낮고 웰빙이 더 높은 것으로 한 주를 마무리했습니다. 과도한 사용으로 인한 일상적인 고통의 대부분은 사회적 비교(다른 사람이 선별한 하이라이트 릴과 실제 생활을 비교)와 누락에 대한 낮은 수준의 두려움에서 비롯됩니다.\n\n72시간 정도 지나면 무슨 일이 일어날까요?\n휴식 시간 초반에도 습관은 여전히 시끄럽습니다.\n• 확인하고 싶은 강한 충동, 종종 일상적인 순간(깨어나기, 줄 서서 기다리기)으로 인해 유발됨\n• 약간의 과민성과 안절부절함\n• 일부 사람들에게는 비교로 인한 불안이 처음으로 완화되었습니다.\n• 잠들기 전 스크롤 습관이 풀리기 시작함\n\n비교의 함정이 풀린다\n다른 사람들의 하이라이트를 지속적으로 제공하지 않으면 소셜 미디어에 대한 불안감을 증폭시키는 비교는 연료가 부족합니다. 실험 결과에 따르면 첫 주가 끝날 때까지 이러한 초기 교대근무가 기분에 측정 가능한 개선을 가져옵니다. 따라서 3일 동안의 불편함은 성과를 거두는 변화의 어려운 부분입니다.';
+
+  @override
+  String get socialMediaReferenceDay7 =>
+      '소셜 미디어 없는 일주일: 측정된 성과\n\n출처: Lambert 외, PubMed의 \"소셜 미디어에서 1주 휴식을 취하면 웰빙, 우울증 및 불안이 향상됩니다: 무작위 대조 시험\", 사이버 심리학, 행동 및 소셜 네트워킹(2022)\n\n정확히 일주일 — 효과가 있었습니다\n이것은 연구가 가장 직접적으로 말하는 이정표입니다. 재판의 개입은 1주일의 휴식이었습니다. 소셜 미디어를 계속 사용하는 사람들과 비교했을 때, 휴식 그룹은 단 7일 만에 웰빙이 훨씬 더 높았고 우울증과 불안이 현저히 감소한 것으로 나타났습니다. 일주일에 도달하면 통제된 연구에서 실질적인 이점을 발견한 지점에 도달한 것입니다.\n\n사람들이 흔히 주목하는 것\n측정된 기분 향상과 함께 사람들은 종종 다음과 같이 보고합니다.\n• 더 많은 시간 확보 - 많은 사람들이 자신이 얼마나 많은 시간을 소비했는지에 놀랐습니다.\n• 지속적으로 주의를 전환하는 습관이 느슨해지기 때문에 집중이 더 쉬워집니다.\n• 잠자리에 들기 전 스크롤이 없어 저녁에는 더 차분하고 잠이 더 편해집니다.\n이러한 이득은 임상시험에서 측정된 웰빙의 광범위한 개선에 적합합니다.\n\n계속해서\n일주일은 증거로 뒷받침되는 진정한 이정표입니다. 기분, 시간 및 주의 집중 혜택은 더 건강한 패턴이 오래 유지될수록 심화되는 경향이 있습니다.';
+
+  @override
+  String get socialMediaReferenceDay14 =>
+      '소셜 미디어 없이 2주: 2주 이익\n\n출처: Coyne & Woodruff, PubMed Central의 \"휴식: 청소년 사이에서 2주간의 소셜 미디어 디지털 해독에 참여하는 효과...\" 행동 과학(2023)\n\n이 연구에 대하여\n젊은 성인들은 2주 동안 소셜 미디어 사용을 하루 30분 정도로 제한했으며, 사용량은 휴대폰을 통해 객관적으로 추적되었습니다(약 78% 감소). 참가자들은 소셜 미디어 사용을 약 78% 줄였으며, 이 이정표를 통해 2주 동안 사용이 급격히 줄어들면 어떤 일이 발생하는지 직접적으로 실제 테스트할 수 있습니다.\n\n개선된 점\n2주 동안 참가자들은 다음과 같은 개선을 보였습니다.\n• 수면 - 지속 시간과 질 모두\n• 삶의 만족도\n• 스트레스\n• 인지된 웰빙\n• 스마트폰 및 소셜 미디어 중독 척도 점수\n측정된 이득은 구체적이었습니다: 더 길고 더 나은 수면, 더 낮은 스트레스, 더 높은 삶의 만족도 및 인지된 건강, 더 낮은 스마트폰/소셜 미디어 중독 점수.\n\n뒤로 미끄러지는 것을 조심하세요\n연구자들은 또한 이후에 사용이 이전 수준으로 되돌아가는 것을 발견했습니다. 2주는 실질적인 이득이지만 단지 일시적인 휴식이 아닌 의도적인 계획이 왜 이점을 유지하는지를 강조합니다.';
+
+  @override
+  String get socialMediaReferenceDay30 =>
+      '소셜 미디어가 없는 한 달: 진정한 연결이 깊어집니다\n\n출처: Coyne & Woodruff, PubMed Central의 \"휴식: 청소년 사이에서 2주간의 소셜 미디어 디지털 해독에 참여하는 효과...\" 행동 과학(2023)\n\n뒤로 물러나면 연결이 향상될 수 있습니다\n역설적으로 들리겠지만, 이 연구에서는 소셜 미디어를 바로 중단하는 것이 삶의 만족도 향상 및 스트레스 감소와 함께 지지적 관계 개선과 관련이 있었습니다. 피드에 쏟은 시간과 관심은 실제로 당신의 삶에 있는 사람들에게 제공되었습니다.\n\n한 달이 가져오는 경향\n30일이 지나면 자동 검사가 훨씬 약해지면서 많은 사람들이 다음을 발견합니다.\n• 대화에 더 적극적이고 방해가 적습니다.\n• 실제 활동과 취미에 더 많은 관심\n• 좋아요, 댓글, 팔로어 수에 덜 의존하는 자아 이미지\n\n회복 신호\n한 달이 지나면 연구 개입 기간의 두 배에 해당하는 더 건강한 패턴이 유지됩니다. 2주 동안 측정된 수면, 스트레스, 삶의 만족도, 건강 및 인간관계 향상이 일상생활로 통합되기까지 2주가 더 걸렸습니다.\n\n시간을 중요하게 여기세요\n단순히 한 화면을 다른 화면으로 바꾸는 것이 아니라 진정한 유대감과 성취감을 구축하는 활동으로 여유 시간을 채우는 것을 목표로 하세요.';
+
+  @override
+  String get socialMediaReferenceDay60 =>
+      '소셜 미디어가 없는 두 달: 증거가 뒷받침하는 것\n\n출처: Ramadhan et al., \"정신 건강에 대한 디지털 소셜 미디어 해독의 영향: 체계적인 검토 및 메타 분석\", Narra J(2024), PubMed Central\n\n가장 믿을 수 있는 사진\n연구자들은 7개의 대조 시험을 포함하여 10개 연구의 결과를 결합했습니다. 가장 분명한 결과는 사람들이 소셜 미디어에서 물러난 후 우울증 증상이 의미 있게 감소했다는 것입니다.\n\n가장 강력한 결과\n결합된 연구에서는 우울증 증상이 확실히 감소한 것으로 나타났습니다. 2개월이 지나면 정신 건강에 도움이 되는 것과 동일한 수준의 낮은 디지털 노출을 유지하게 됩니다.\n\n두 달의 모습\n일일 비교가 적고 피드 기반 강화가 적기 때문에 자아 이미지는 좋아요, 댓글 또는 팔로어 수에 의존할 이유가 훨씬 적으며, 가장 강력한 수집된 증거는 우울증 증상이 낮다는 것을 나타냅니다.\n\n실용적인 테이크아웃\n증거는 의도적이고 지속적인 변화를 보상합니다. 2개월 시점을 활용하여 과거로 돌아가기보다는 의도적인 한계를 유지하고 의미와 연결의 오프라인 소스에 투자하세요.';
+
+  @override
+  String get socialMediaReferenceDay90 =>
+      '소셜 미디어 없는 3개월: 뉴 노멀\n\n출처: Coyne & Woodruff, PubMed Central의 \"휴식: 청소년 사이에서 2주간의 소셜 미디어 디지털 해독에 참여하는 효과...\" 행동 과학(2023)\n\n수면이 돋보입니다\n이 연구의 가장 명확한 결과 중 하나는 참가자들이 소셜 미디어를 바로 중단했을 때 수면 시간과 질 모두가 향상되었다는 것입니다. 3개월 동안 건강한 패턴을 유지하면 잠에 들기 위해 잠을 자던 심야의 두루마리가 휴식과 경쟁을 멈춘 지 오래되었으며, 더 나은 수면은 기분, 집중력, 에너지를 높이는 경향이 있습니다.\n\n그 밖에 개선된 점\n같은 연구에서는 스트레스, 삶의 만족도, 인지된 건강 및 지지적인 관계가 향상되는 것으로 나타났습니다. 3개월이 지나면 이는 더 이상 새로운 것이 아닙니다. 새로운 표준에 적응할 시간을 가졌습니다.\n\n메커니즘의 복구 신호\n중재 연구에서 소셜 미디어를 끊으면 수면 시간과 수면의 질이 모두 크게 향상되었습니다. 3개월 동안 그 패턴을 유지하면 심야 스크롤 감소가 지속되는 수면 습관으로 바뀌게 됩니다.\n\n존재와 관계\n모든 조용한 순간을 전화로 채우려는 반사 작용이 훨씬 약해지면서 대화, 식사, 다운타임 등 현존하는 것이 더 자연스럽게 이루어지며, 3개월 동안 투자한 관계가 더 강해지는 경향이 있습니다.';
+
+  @override
+  String get socialMediaReferenceDay180 =>
+      '소셜 미디어 없이 보낸 6개월: 회복을 측정\n\n출처: Ramadhan et al., \"정신 건강에 대한 디지털 소셜 미디어 해독의 영향: 체계적인 검토 및 메타 분석\", Narra J(2024), PubMed Central\n\n메타분석이 추가하는 것\n7개의 대조 시험을 포함한 10개의 연구를 결합한 연구자들은 사람들이 소셜 미디어를 줄이거나 일시 중지한 후 우울증 증상이 확실히 감소하는 것을 발견했습니다.\n\n실제로 발견된 것\n• 우울증: 통계적으로 유의미한 감소(가장 명확하고 일관된 이점)\n• 삶의 만족도: 유의미한 영향 없음\n• 스트레스: 유의미한 영향 없음\n• 전반적인 정신 건강: 유의미한 영향 없음\n가장 강력한 통합 결과는 분명합니다. 디지털 디톡스는 우울증 증상을 크게 감소시킵니다.\n\n여전히 광범위한 이점을 느낄 수 있는 이유\n6개월 동안 사료 노출을 줄이면 더 짧은 개입에서 볼 수 있는 실질적인 이점이 더 커집니다. 즉, 더 많은 시간을 사용할 수 있고 강박적인 검사가 줄어들며 우울증 증상과 관련된 디지털 노출이 지속적으로 감소합니다.\n\n피드 제어 유지\n가장 큰 이득은 무겁고, 수동적이며, 강박적인 사용을 중단함으로써 얻을 수 있습니다. 6개월이 되면 피드가 관심을 제어하는 ​​것이 아니라 소셜 미디어에 대한 의도적인 제어가 새로운 기본 설정이 됩니다.';
+
+  @override
+  String get socialMediaReferenceDay365 =>
+      '소셜 미디어가 없는 1년: 재협상된 관계\n\n출처: Ramadhan et al., \"정신 건강에 대한 디지털 소셜 미디어 해독의 영향: 체계적인 검토 및 메타 분석\", Narra J(2024), PubMed Central\n\n지속적인 변화의 1년\n가장 강력한 결합 연구에 따르면 소셜 미디어에서 물러나면 우울증 증상이 감소하는 것으로 나타났습니다. 1년이라는 기간은 짧은 휴식이 아니라 노출이 적은 패턴이 일상이 되었음을 의미합니다.\n\n한 해의 성과\n1년은 실제 관계, 취미, 기술, 성찰 및 창의성을 위한 수백 시간의 시간을 제공합니다. 자동 확인은 1년 동안 약화되었으며 오프라인 루틴은 1년 동안 강화되었습니다.\n\n지속적인 혜택\n가장 명확하게 측정된 정신 건강상의 이득은 우울 증상의 감소입니다. 더 많은 시간, 더 적은 중단, 덜 강박적인 확인 등 실질적인 이점은 피드를 계속 제어하면서 매일 복합적으로 나타납니다.\n\n다음은 무엇입니까\n1년간의 고의적인 변화로 인해 관계가 재설정되었습니다. 제한된 의도적 사용으로 돌아가든 완전히 사용하지 않든 강박 고리가 깨졌습니다. 이것이 바로 지속적인 승리입니다.';
+
+  @override
+  String get ssriReferenceDay3 =>
+      'SSRI 중단: 첫 번째 날\n\n출처: Harvard Health Publishing\n\n중요한 안전 참고 사항\nSSRI는 점진적으로 감량한 후 의료 감독 하에서만 중단해야 합니다. 갑작스러운 중단(특히 장기간 사용 후)은 중단 증상의 심각도를 크게 증가시킵니다.\n\nSSRI 중단 증후군이란 무엇입니까?\nSSRI 중단 증후군은 SSRI를 중단하거나 실질적으로 줄일 때 발생하는 잘 문서화된 의학적 현상입니다. 임상의는 FINISH라는 약어를 사용하여 일반적인 증상을 설명합니다.\n• 독감과 유사한 증상(피로, 발한, 근육통)\n• 불면증 및 수면 장애\n• 메스꺼움\n• 불균형 및 현기증\n• 감각 장애 - 특히 \'뇌졸중\'\n• 과잉각성, 과민성, 불안\n\n반감기가 중요하다\nFluoxetine(Prozac)은 반감기가 4~6일로 매우 길기 때문에 효과적으로 자가 감량되고 보다 가벼운 중단 효과를 나타냅니다. 파록세틴(Paxil)은 일반적인 SSRI보다 반감기가 가장 짧고 가장 강렬한 중단 증상을 나타냅니다. Sertraline, citalopram 및 escitalopram이 그 사이에 속합니다.';
+
+  @override
+  String get ssriReferenceDay7 =>
+      'SSRI 발생 일주일 후: 급성기\n\n출처: NHS — 항우울제 중단 또는 끊기\n\n급성 중단 단계\nNHS 문서에 따르면 대부분의 항우울제 중단 증상은 중단 후 5일 이내에 시작되며 대부분의 경우 최대 6주까지 지속됩니다. 일주일이 지나면 급성 신체 증상은 일반적으로 가장 두드러지며 점차적으로 감소하는 사람들의 경우 하향 경향이 시작됩니다.\n\n일주일 동안 기대할 수 있는 것\n• 신체적 증상(메스꺼움, 현기증, 독감 같은 느낌)이 가장 심하지만 점차 완화되기 시작합니다.\n• 생생한 꿈이나 불면증 등의 수면 장애가 흔합니다.\n• 감정적 불안(급격한 기분 변화)이 이 단계에서 자주 나타납니다.\n• 브레인 잽이 여전히 존재할 수 있지만 일반적으로 빈도가 줄어들기 시작합니다.\n\n테이퍼링의 역할\nNHS는 중단 효과를 최소화하기 위해 천천히(장기 사용자의 경우 수개월에 걸쳐) 테이퍼링을 강력히 권장합니다. 왕립정신과학회(Royal College of Psychiatrists)는 장기간 SSRI를 복용한 사람들을 위해 액체 제제를 사용하여 매우 점진적인 복용량 감소를 제안하는 테이퍼링 지침을 개발했습니다.';
+
+  @override
+  String get ssriReferenceDay14 =>
+      'SSRI 후 2주: 신체적 증상 해결\n\n출처: Davies & Read(2019), Addictive Behaviors — \'항우울제 금단 효과의 발생률, 심각도 및 기간에 대한 체계적인 검토\'\n\n연구 결과\n이 획기적인 체계적 검토에서는 항우울제를 중단한 사람의 약 56%가 금단 증상을 경험했으며, 그 중 46%는 금단 증상이 심각한 것으로 나타났습니다. 적절한 테이퍼를 따르는 대부분의 사람들의 경우 급성기는 2주 정도 지나면 대부분 해결됩니다.\n• 두뇌 자극이 크게 감소하거나 없음\n• 메스꺼움 및 독감과 유사한 증상이 해결되었습니다.\n• 현기증 및 균형 문제 개선\n• 수면이 정상화되기 시작함\n\n중단과 재발의 구별\n중단 후 며칠 내에 나타나고 FINISH 프로필과 일치하는 증상은 중단 증후군일 가능성이 높습니다. 2~4주 후에 나타나는 증상은 치료하던 원래 상태와 유사하며 재발 가능성이 더 높습니다. 처방자와 함께 이러한 차이를 모니터링하는 것이 중요합니다.';
+
+  @override
+  String get ssriReferenceDay30 =>
+      'SSRI 후 1개월: 안정화\n\n출처: Haddad PM(2001), 약물 안전 — \'항우울제 중단 증후군\'\n\n안정화 단계\n본 리뷰에서는 중단 개시가 일반적으로 항우울제를 중단하거나 감량한 후 수일 내에 빠르게 시작된다고 설명하며, 대부분의 반응은 경미하고 단기적이며 특별한 치료 없이 해결된다는 점을 지적합니다. 한 달은 급성 창에서 안정화로의 전환을 나타냅니다. 점진적인 감량을 완료한 대부분의 사람들의 경우 급성 중단 증상은 이제 대부분 해결되었습니다.\n\n한 달의 감성 풍경\n한 달 동안의 감정적 변화는 가변적이므로 모니터링하는 것이 중요합니다.\n• 어떤 사람들은 뇌가 적응함에 따라 처음에는 감정적으로 \'더 평탄해진다\'고 느낍니다. 이는 일반적으로 개선됩니다.\n• 다른 사람들은 수년 동안 느끼지 못했던 정서적 생생함을 경험합니다.\n• 불안 수준은 개인 및 기저 질환에 따라 크게 다릅니다.\n\n비약물 지원의 가치\n연구에 따르면 CBT(CBT) 및 기타 증거 기반 심리 치료와 같은 대화 요법이 SSRI가 치료하는 질환에 매우 효과적이라는 사실이 일관되게 나타났습니다. 한 달은 이러한 지원이 제대로 이루어졌는지 확인하기에 좋은 시기입니다.';
+
+  @override
+  String get ssriReferenceDay90 =>
+      'SSRI 후 3개월: 탈퇴가 훨씬 지났습니다.\n\n출처: NCBI 책장에 있는 \"항우울제 금단 증후군\", Therapeutics Letter 112(2018), Therapeutics Initiative\n\n3개월이 머무는 곳\n이 증거 검토에서는 항우울제 금단 증상이 \'보통 중단 또는 복용량 감소 후 며칠 이내에 나타나며\' \'대부분의 항우울제 금단 증상은 2주 이내에 해결되지만 심각한 경우에는 몇 주에서 몇 달 동안 지속될 수 있음을 지적합니다. 3개월이 되면 급성 금단 단계는 대부분의 사람들보다 훨씬 뒤쳐집니다.\n\nSSRI가 다양한 이유\n반감기가 긴 SSRI(플루옥세틴)보다 반감기가 짧은 SSRI(예: 파록세틴)에서 금단 증상이 나타날 가능성이 더 높습니다. 편지는 금단 반응이 상당할 수 있다는 점을 솔직하게 밝혔습니다. 두 개의 체계적인 검토에 따르면 벤조디아제핀의 반응과 \'매우 유사\'한 것으로 나타났으며, 금단 반응이 중단한 사람들의 최소 3분의 1에서 발생했습니다.\n\n\'수용체 회복\'에 대한 회복 신호\n세로토닌 수용체가 \'2~3개월이면 완전히 다시 민감해진다\'는 자신감 있는 주장을 볼 수 있습니다. 강력한 증거는 금단 증후군과 그 타이밍에 관한 것이지 정확한 수용체 회복 시계가 아닙니다. 신뢰할 수 있는 점: 3개월이 지나면 금단 단계가 일반적으로 해결되며, 많은 사람들이 중단 후 SSRI에 대한 감정적 무뎌짐과 성적인 부작용을 쉽게 느낄 수 있습니다.\n\n증상이 지속되는 경우\n서신에서는 철회와 기본 상태의 진정한 반환을 구별할 것을 권고합니다. 3개월 후에도 우울한 기분이나 불안이 지속된다면 \'단순한 금단\'이라고 가정하기보다는 처방의와 함께 검토하는 것이 좋습니다.';
+
+  @override
+  String get ssriReferenceDay180 =>
+      'SSRI 이후 6개월: 근거 있는 견해\n\n출처: NCBI 책장에 있는 \"항우울제 금단 증후군\", Therapeutics Letter 112(2018), Therapeutics Initiative\n\n6개월이 지나면 무엇이 잘 확립되는가\n이 리뷰에서는 심각하고 장기간 지속되는 금단 증상도 일반적으로 무한정 지속되는 것이 아니라 몇 주에서 몇 달까지 지속되므로 대다수의 사람들에게 급성 금단 증후군은 6개월이 지나면 분명하게 해결됩니다.\n\n나머지 사람들에 대해 정직하기\n6개월이 되면 일반적인 금단 기간이 훨씬 지나고 세로토닌 시스템이 안정화되는 데 몇 달이 걸립니다. 성적인 부작용은 일반적으로 중단 후 개선됩니다. 지속되는 경우 처방자와 논의하십시오.\n\n사람들이 흔히 보고하는 내용\n• 약물을 복용하는 것보다 감정의 폭이 더 넓습니다.\n• 대부분의 경우 수면과 에너지가 향상되었습니다.\n• 속도는 개인마다 크게 다르지만 지속적으로 점진적인 개선이 이루어집니다.';
+
+  @override
+  String get ssriReferenceDay365 =>
+      'SSRI 이후 1년: 측정된 복구\n\n출처: Duffy et al. (2021), 건강 기술 평가 — ANTLER 시험\n\n이번 재판에서 실제로 발견된 사실\nANTLER는 영국 1차 진료에서 약물 치료를 계속하거나 중단한 장기 항우울제 사용자를 추적했습니다. 다음 해에 약물 치료를 중단한 사람들의 56%가 재발한 반면 약물 치료를 계속한 사람들의 39%는 위험이 약 두 배였으며, 중단한 그룹은 평균적으로 삶의 질이 다소 낮은 것으로 보고했습니다.\n\n풀러 픽처\n높은 재발률에도 불구하고, 약물을 중단한 사람들의 상당 부분은 재발하지 않았으며 약물 없이 건강을 유지했습니다. 중단한 사람들 중 약 3분의 1은 결국 항우울제를 다시 시작했는데, 이는 실패가 아닌 합리적인 임상 선택이었습니다.\n\n미래에 대한 메모\n우울증과 불안은 일부 사람들에게는 만성 질환입니다. 기저 질환이 재발하더라도 약물 치료로 돌아가는 데 실패는 없습니다. 목표는 웰빙입니다. 그리고 1년간의 성공적인 중단은 다음에 무슨 일이 일어나든 상관없이 진정한 성취입니다.';
+
+  @override
+  String get steroidsReferenceDay1 =>
+      '동화작용 스테로이드 중단: 첫날\n\n출처: \"남성의 단백동화 남성호르몬 스테로이드 사용 및 중단과 관련된 일반적인 증상\", 모범 사례 및 연구 임상 내분비학 및 대사(2022)\n\n급성기\n이 검토에서는 AAS 철회가 두 단계로 진행되는 것으로 설명합니다. 첫 번째 증상은 호르몬 수치보다는 교감신경계 활성화에 의해 발생하며 중단 후 1~2일 이내에 나타나며 다음을 포함할 수 있습니다.\n• 두통\n• 떨림\n• 심계항진\n• 메스꺼움\n\n증상이 나타나는 이유\n동화작용 스테로이드는 또한 신체 자체의 테스토스테론 생성을 억제합니다. 즉, 뇌는 스테로이드를 감지하고 일반적으로 이를 구동하는 호르몬 신호를 차단합니다. 이러한 억제는 중지 후에도 지속되어 이후 이정표에 설명된 두 번째로 오래 지속되는 금단 단계를 설정합니다.\n\n안전 참고사항\n스테로이드를 중단하는 동안 우울증이 나타나 심각해질 수 있습니다. 자해에 대한 생각이 들면 의료 조치를 취하고 긴급한 도움을 구하십시오. 임상의는 종종 회복을 안내합니다. 일부는 이를 지원하기 위해 약물을 사용합니다.';
+
+  @override
+  String get steroidsReferenceDay14 =>
+      '동화작용 스테로이드 2주 쉬기\n\n출처: \"남성의 단백동화 남성호르몬 스테로이드 사용 및 중단과 관련된 일반적인 증상\", 모범 사례 및 연구 임상 내분비학 및 대사(2022)\n\n만성 단계가 시작됩니다\n2주가 지나면 첫날의 짧은 교감 증상은 일반적으로 사라지고 지속적인 테스토스테론 결핍으로 인한 검토의 두 번째 단계가 더욱 두드러집니다.\n• 피로 및 우울한 기분\n• 근육통(근육통)\n• 성욕 감소\n• 불면증 및 갈망\n\n아직 낮은 썰물 상태\n천연 테스토스테론 생산은 재설정하는 데 2주보다 훨씬 오래 걸리므로 이 단계는 뭔가 잘못되었다는 신호라기보다는 예상되는 단계입니다.\n\n알려진 함정\n일부 남성은 이 격차를 피하기 위해 특별히 회복 시계를 종료하는 대신 재설정하는 주기를 다시 사용합니다. 의사나 상담사의 지원은 더 많은 스테로이드로 치료하는 것보다 이 단계를 연결하는 데 도움이 됩니다.';
+
+  @override
+  String get steroidsReferenceDay30 =>
+      '동화작용 스테로이드 1개월 할인\n\n출처: PubMed의 \"단백 동화 스테로이드로 인한 성선 기능 저하증의 신체적, 심리적, 생화학적 회복: 범위 지정 검토\"\n\n복구 시작\n중단한 후에는 고환에 테스토스테론을 생성하라고 지시하는 호르몬 신호가 다시 활성화되기 시작합니다. 연구에 따르면 이러한 회복의 대부분은 3~6개월 범위에 속하므로 한 달이 지나면 프로세스가 이미 진행 중입니다.\n\n무엇을 기대해야 할까요?\n낮은 기분, 성욕, 에너지는 일반적으로 호르몬이 회복되는 동안에도 지속됩니다. 회복은 연령과 사용 강도 및 장기간에 따라 달라집니다.';
+
+  @override
+  String get steroidsReferenceDay90 =>
+      '동화작용 스테로이드 3개월 사용 중단\n\n출처: PubMed의 \"단백 동화 스테로이드로 인한 성선 기능 저하증의 신체적, 심리적, 생화학적 회복: 범위 지정 검토\"\n\n혈액 검사를 받기 좋은 시간\n3개월이 지나면 호르몬 시스템이 의미 있는 회복을 보일 시간을 갖게 됩니다. 이는 담당 GP에게 테스토스테론과 이를 조절하는 호르몬을 확인하도록 요청하는 데 유용한 정보입니다.\n\n무엇을 기대해야 할까요?\n3개월이 된 많은 남성의 경우 수준이 올라가지만 완전히 정상화되지는 않습니다. 테스토스테론이 완전히 따라잡기 전에 기분과 성욕이 개선되는 경우가 많습니다. 고환 크기와 정자 생산은 더 천천히 회복되며 다음 해에도 계속 개선될 수 있습니다. 발생한 유방 조직 성장(여성형 유방)은 특별한 치료 없이는 회복될 가능성이 없습니다.';
+
+  @override
+  String get steroidsReferenceDay180 =>
+      '동화작용 스테로이드 6개월 사용 중단\n\n출처: PubMed의 \"단백 동화 스테로이드로 인한 성선 기능 저하증의 신체적, 심리적, 생화학적 회복: 범위 지정 검토\"\n\n증거가 가리키는 곳\n리뷰에서는 고환에서 테스토스테론을 생성하도록 지시하는 호르몬인 LH와 FSH가 일반적으로 약 3~6개월 내에 회복된다고 보고합니다. 6개월이 되면 테스토스테론 자체도 회복 경로를 따라 잘 회복됩니다.\n\n아직 거기에 없다면\n6개월 후에도 테스토스테론 수치가 낮은 증상이 계속 나타나면 내분비 전문의는 무슨 일이 일어나고 있는지 확인하고 기다리기보다는 치료 방법에 대해 논의할 수 있습니다.';
+
+  @override
+  String get steroidsReferenceDay365 =>
+      '동화작용 스테로이드 1년 할인\n\n출처: PubMed의 \"단백 동화 남성호르몬 스테로이드로 인한 성선 기능 저하증, 남성 개인의 가역적 상태? 체계적인 검토\"\n\n1년 무료\n1년의 휴가는 호르몬 시스템에 긴 회복 기간을 제공합니다. 테스토스테론, 기분, 성욕, 자연적인 힘, 심장 건강은 모두 회복하는 데 상당한 시간이 걸렸습니다.\n\n장기적인 그림\n1년이 지나도 테스토스테론 수치가 낮은 증상이 계속 나타나면 다음 단계로 전문 호르몬 평가가 필요합니다. 스테로이드를 멀리하면 이미 이루어진 회복을 보호할 수 있습니다.';
+
+  @override
+  String get steroidsReferenceDay730 =>
+      '동화작용 스테로이드 2년 할인\n\n출처: PubMed의 \"단백 동화 남성호르몬 스테로이드로 인한 성선 기능 저하증, 남성 개인의 가역적 상태? 체계적인 검토\"\n\n새로운 노멀\n2년이 지나면 호르몬 수치가 신체의 자연적 생산량을 반영합니다. 회복되는 대부분의 남성의 경우 스테로이드 없이도 기분, 성욕, 힘, 의욕이 안정적입니다.\n\n장기 호르몬 회복\n연구에 따르면 테스토스테론은 수개월에 걸쳐 회복되는 반면, 고환에 신호를 보내는 호르몬은 일반적으로 3~6개월 내에 회복됩니다. 고환 크기, 정자 생산 및 성욕은 몇 달에서 몇 년에 걸쳐 계속 개선될 수 있습니다. 2년이 지나면 지속적인 낮은 테스토스테론 증상은 다른 스테로이드 주기가 아닌 전문가의 몫입니다.';
+
+  @override
+  String get tcaReferenceDay3 =>
+      'TCA 중단: 첫날 — 아세틸콜린 반동\n\n출처: Dilsaver, Feinberg & Greden (1983), American Journal of Psychiatry — \'항콜린제로 치료된 항우울제 금단 증상\'(사례 보고, 환자 3명)\n\nTCA 중단이 다른 점\n삼환계 항우울제는 메커니즘이 SSRI 및 SNRI와 근본적으로 다릅니다. 세로토닌과 노르에피네프린 재흡수를 차단하는 것 외에도 TCA는 신체의 아세틸콜린 시스템을 강력하게 차단합니다. 멈추면 시스템이 다시 돌아옵니다.\n\n아세틸콜린 반동 증상\nSSRI 중단과 달리 TCA 중단은 아세틸콜린 반동을 생성합니다.\n• 메스꺼움, 구토, 설사\n• 과도한 타액 분비 및 발한\n• 두통과 근육통\n• 생생하거나 불안한 꿈을 꾸는 불면증\n• 불안과 불안\n\n공통 TCA 및 해당 프로필\n아미트립틸린과 이미프라민은 가장 강력한 아세틸콜린 차단 효과를 가지며 일반적으로 가장 뚜렷한 반동을 생성합니다. Nortriptyline은 다소 가벼운 효과를 나타냅니다. 클로미프라민은 또한 아세틸콜린 차단 프로필과 함께 상당한 세로토닌 관련 효과를 가지고 있습니다.';
+
+  @override
+  String get tcaReferenceDay7 =>
+      'TCA 후 1주: 아세틸콜린 증상 완화\n\n아세틸콜린 회복\n아세틸콜린 반동은 일반적으로 처음 며칠 내에 최고조에 도달하고 일주일이 지나면 실질적으로 완화되기 시작합니다. 아세틸콜린 시스템이 자연 수준으로 돌아오면:\n\n개선되는 점\n• 위장 증상(메스꺼움, 경련, 설사)이 감소하고 있습니다.\n• 땀이 나고 독감과 유사한 증상이 완화됩니다.\n• 수면은 여전히 방해를 받고 있지만 안정되기 시작하고 있습니다.\n• 과도한 타액 분비가 해결되고 있습니다.\n\n자동 신체 신경계\nTCA는 여러 메커니즘을 통해 신체의 자동 기능(심박수, 혈압, 소화)에 영향을 미칩니다. 일주일이 지나면 서 있을 때의 현기증, 급격한 심박수 변화 등 가장 강렬한 자동 신체 증상이 신경계가 재조정되면서 해결되기 시작합니다.';
+
+  @override
+  String get tcaReferenceDay14 =>
+      'TCA 2주 후: 항아세틸콜린 효과 역전\n\n항아세틸콜린의 부담을 덜어줍니다.\nTCA는 신체에 여러 시스템에 영향을 미치는 중요한 아세틸콜린 차단 효과를 부과합니다. 처음 2주 동안 이 부담이 줄어들면서:\n\n신체적 이점\n• 구강 건조 해소 – 침샘 기능이 정상으로 돌아옴\n• 변비 해결 – 장 운동성이 자연적으로 회복됨\n• 비뇨기 기능 정상화 — TCA로 인해 발생할 수 있는 요폐가 해결되고 있습니다.\n• 시야 흐림 해소 - 눈이 다시 빛에 정상적으로 적응합니다.\n\n사고와 기억의 이점\n아세틸콜린은 기억력, 주의력, 학습에 필수적입니다. TCA에 의해 억제된 아세틸콜린 경로가 회복되고 있습니다.\n• 작업 기억력 향상\n• 처리 속도 증가\n• 정신이 맑아짐\n\n많은 사람들은 TCA를 복용하는 동안 얼마나 많은 뇌 혼미와 기억 장애에 적응했는지 보고 놀랐습니다.';
+
+  @override
+  String get tcaReferenceDay30 =>
+      'TCA 후 1개월: 자동 신체 신경계 안정화\n\n심장 회복\nTCA는 아세틸콜린과 아드레날린 관련 신경계 모두에 대한 작용을 통해 사용 중 심장 박동에 영향을 미칩니다. TCA 중단에 관한 임상 문헌은 이러한 \'아세틸콜린 및 아드레날린 관련 과잉 구동\'으로 인한 자동 신체 효과를 포함한 급성 금단 증상이 일반적으로 경미하고 중단 후 1~2주 이내에 해결된다는 것을 확인합니다. 한 달이 지나면 대부분의 사람들은 이 급성 기간을 훨씬 지나서 다음을 기대할 수 있습니다.\n• 심장 박동이 약물 치료 전 시작 수준으로 다시 안정됨\n• 심박 변이도가 자연 수준으로 변하는 경향\n• 이전에는 아드레날린 경로에 대한 약물의 작용으로 영향을 받았던 혈압 조절이 계속해서 안정화됩니다.\n\n수면 아키텍처 복원\nTCA는 꿈의 수면을 강력하게 억제합니다. 항아세틸콜린 효과가 사라지면(꿈의 수면을 위해서는 아세틸콜린이 필요합니다):\n• REM 수면이 돌아오고 있으며 꿈의 수면이 돌아오면서 생생한 꿈이 급증하는 경우가 많습니다.\n• 서파(깊은) 수면이 개선되고 있습니다.\n• 전반적인 수면의 질과 회복이 TCA를 사용하는 동안보다 훨씬 더 좋습니다.';
+
+  @override
+  String get tcaReferenceDay90 =>
+      'TCA 이후 3개월: 실제 위험을 뒤로하고\n\n증거가 보여주는 것\n103개 무작위 시험(참가자 10,590명)에 대한 2024년 메타 분석에 따르면 위약과 비교하여 TCA는 우울증 증상을 감소시키지만 심각한 부작용이 발생할 확률은 거의 3배에 달합니다(승산비 2.78). 임상시험 자체는 치료 중 최대 12주 동안만 사람들을 추적했기 때문에 중단 후 어떤 일이 일어나는지에 대한 통제된 장기 데이터는 없습니다. 아래의 모든 내용은 TCA 약리학에 대한 일반적인 임상적 이해를 반영하는 것이지 이 임상시험 증거의 구체적인 결과는 아닙니다.\n\n다중 시스템 복구\nTCA는 SSRI 또는 SNRI보다 더 광범위한 뇌 화학 시스템에 영향을 미칩니다.\n• 세로토닌 시스템: 조정\n• 노르아드레날린 시스템: 조정\n• 아세틸콜린 시스템: 정상으로 돌아옴\n• 히스타민 시스템: 항히스타민제와 같은 진정 작용이 해결되었습니다.\n\n3개월이 지나면 이러한 모든 시스템은 회복하는 데 상당한 시간이 걸렸으며, 마찬가지로 중요한 것은 적극적인 TCA 치료로 인해 발생하는 심각한 부작용 위험이 사라졌다는 것입니다. 많은 사람들이 다음 사항에 주목합니다.\n• 명확한 사고력 향상(특히 기억력과 주의력)\n• 기분 안정성 향상\n• 에너지 및 동기 부여 향상\n• 진정 효과 감소 및 주의력 향상';
+
+  @override
+  String get tcaReferenceDay180 =>
+      'TCA 후 6개월: 마음과 사고의 회복\n\n장기 데이터의 회복 신호\nTCA 후 조기 중단 기간은 일반적으로 경미하며 1~2주 내에 해결됩니다. 감독된 테이퍼 이후 6개월까지 TCA의 심박수, 기억력 및 사고 효과가 회복되는 데 수개월이 걸렸습니다.\n\n심혈관 회복\n6개월이 지나면 TCA가 심장 박동에 미치는 직접적인 영향이 오랫동안 해결되어야 합니다.\n• 약물로 인한 영향 없이 정상적인 심장 박동 유지\n• 심박 변이도(심장이 얼마나 잘 적응하는지를 나타내는 척도)가 크게 개선될 것으로 예상됩니다.\n• 서 있을 때의 현기증이 완전히 해결되었습니다.\n\n사고와 기억 회복\nTCA는 특히 노인의 경우 아세틸콜린을 차단하여 뇌 혼미 및 기억 문제를 일으킬 수 있습니다. 이러한 효과는 약물을 중단한 후에 개선됩니다. 6개월째:\n• 메모리 통합이 크게 향상되었습니다.\n• 처리속도 표준화\n• 계획, 작업 기억, 작업이나 아이디어 간 전환 능력이 의미있게 회복됩니다.';
+
+  @override
+  String get tcaReferenceDay365 =>
+      'TCA 이후 1년: 복구 달성\n\n1년: 다중 시스템 복구 완료\nTCA, MAOI, SSRI 등을 포함하는 항우울제 중단 증후군에 대한 본 검토에서는 금단 증상이 일반적으로 중단 후 며칠 내에 시작되고, 치료하지 않은 채 방치하면 며칠에서 몇 주 내에 저절로 해결된다는 사실을 발견했습니다. 1년 후 TCA 영향 시스템을 구체적으로 재측정하는 연구는 없지만, 테이퍼를 완료한 후 1년은 가장 오랫동안 보고된 중단 증상보다 훨씬 더 긴 기간이므로 영향을 받은 모든 뇌 화학 시스템(세로토닌, 노르아드레날린, 아세틸콜린, 히스타민)이 완전한 정상화 주기를 가졌을 것으로 예상할 수 있습니다.\n\nTCA 회수의 중요성\nTCA는 새로운 항우울제보다 더 광범위한 약물 중심 부담을 부과하여 더 많은 수용체 시스템에 동시에 영향을 미칩니다. 성공적인 중단은 여러 시스템의 복구를 나타냅니다.\n• TCA의 아세틸콜린 차단으로 인한 기억 및 사고 장애의 완전한 역전\n• 완전한 심장 회복\n• 영향을 받은 모든 경로에서 자연적인 뇌 화학 조절이 회복되었습니다.\n\nTCA 중단 후 1년간의 성공적인 자체 규제는 중단 과정 관리와 약물 기반 지원 없이 웰빙 유지 모두에서 진정한 성과를 나타냅니다.';
+
+  @override
+  String get settingsLocaleArabic => '아랍어';
+
+  @override
+  String get settingsLocaleIndonesian => '인도네시아어';
+
+  @override
+  String get settingsLocalePolish => '폴란드어';
+
+  @override
+  String get settingsLocaleThai => '태국어';
+
+  @override
+  String get settingsLocaleUrdu => '우르두어';
+
+  @override
+  String get settingsLocalePersian => '페르시아어';
+}

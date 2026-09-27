@@ -1,0 +1,1 @@
+• Android에 대한 ACCESS_NETWORK_STATE 권한 제거
