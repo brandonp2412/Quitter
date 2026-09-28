@@ -106,6 +106,9 @@ Map<String, String> _appleStrings(String path) {
 }
 
 bool _containsTargetScript(String languageCode, String value) {
+  if (languageCode == 'id') {
+    return RegExp(r'[A-Za-z]').hasMatch(value);
+  }
   if (languageCode == 'de' || languageCode == 'es' || languageCode == 'fr') {
     return RegExp(r'[A-Za-zÀÂÆÇÉÈÊËÎÏÔŒÙÛÜŸàâæçéèêëîïôœùûüÿ]').hasMatch(value);
   }
@@ -494,6 +497,7 @@ void main() {
       'ja': ['出典：', '出典:'],
       'ru': ['Источник:', 'Источник：'],
       'zh': ['来源：', '来源:'],
+      'id': ['Sumber:', 'Sumber：'],
     };
 
     for (final locale in AppLocalizations.supportedLocales) {
@@ -1188,6 +1192,7 @@ void main() {
       'de': 'de-DE',
       'es': 'es-ES',
       'fr': 'fr-FR',
+      'id': 'id-ID',
       'ja': 'ja-JP',
       'ru': 'ru-RU',
       'zh': 'zh-CN',
@@ -1196,7 +1201,7 @@ void main() {
 
     expect(
       workflow,
-      contains('locale: [en, ar, de, es, fr, ja, ru, zh, zh-Hant]'),
+      contains('locale: [en, ar, de, es, fr, id, ja, ru, zh, zh-Hant]'),
     );
     for (final locale in AppLocalizations.supportedLocales) {
       final localeKey = localePreferenceValue(locale);
@@ -1224,6 +1229,7 @@ void main() {
       'de': 'de-DE',
       'es': 'es-ES',
       'fr': 'fr-FR',
+      'id': 'id-ID',
       'ja': 'ja-JP',
       'ru': 'ru-RU',
       'zh': 'zh-CN',
@@ -1279,6 +1285,7 @@ void main() {
       'de': 'de-DE',
       'es': 'es-ES',
       'fr': 'fr-FR',
+      'id': 'id-ID',
       'ja': 'ja-JP',
       'ru': 'ru-RU',
       'zh': 'zh-CN',
@@ -1297,6 +1304,8 @@ void main() {
       'ja': ['進捗', '節目', '日記'],
       'ru': ['прогресс', 'этап', 'дневник'],
       'zh': ['进度', '里程碑', '日记'],
+      'zh-Hant': ['進度', '里程碑', '日記'],
+      'id': ['kemajuan', 'pencapaian', 'jurnal'],
     };
     const forbiddenListingArtifacts = {
       'ja': ['禁断トラッカー'],
@@ -1363,7 +1372,7 @@ void main() {
               '$storeLocale/$filename must stay within the Play Store limit',
         );
         if (filename == 'short_description.txt') {
-          for (final marker in shortDescriptionMarkers[locale.languageCode]!) {
+          for (final marker in shortDescriptionMarkers[localeKey]!) {
             expect(
               localized.toLowerCase(),
               contains(marker.toLowerCase()),
@@ -1447,6 +1456,7 @@ void main() {
       'de': 'de-DE',
       'es': 'es-ES',
       'fr': 'fr-FR',
+      'id': 'id',
       'ja': 'ja',
       'ru': 'ru',
       'zh': 'zh-Hans',
@@ -1499,6 +1509,7 @@ void main() {
       'de': 'de-DE',
       'es': 'es-ES',
       'fr': 'fr-FR',
+      'id': 'id',
       'ja': 'ja',
       'ru': 'ru',
       'zh': 'zh-Hans',
@@ -1761,6 +1772,7 @@ void main() {
       'de-de',
       'es-es',
       'fr-fr',
+      'id-id',
       'ja-jp',
       'ru-ru',
       'zh-cn',
@@ -1784,6 +1796,7 @@ void main() {
       'ru',
       'zh',
       'zh-Hant',
+      'id',
     };
     for (final locale in AppLocalizations.supportedLocales) {
       final localeKey = localePreferenceValue(locale);
@@ -1819,6 +1832,7 @@ void main() {
     expect(index, contains('Отслеживайте прогресс'));
     expect(index, contains('记录戒除习惯'));
     expect(index, contains('記錄戒除習慣'));
+    expect(index, contains('Lacak kemajuan berhenti'));
 
     final privacy = File('docs/privacy-policy.html').readAsStringSync();
     expect(privacy, contains('Quitter-Datenschutzerklärung'));
@@ -1836,6 +1850,7 @@ void main() {
     expect(privacy, contains('?lang=ru'));
     expect(privacy, contains('?lang=zh'));
     expect(privacy, contains('?lang=zh-Hant'));
+    expect(privacy, contains('?lang=id'));
   });
 
   test('every supported locale translates every changelog entry', () {
@@ -1969,6 +1984,7 @@ void main() {
       'ru': {'one', 'few', 'many', 'other'},
       'zh': {'other'},
       'zh-Hant': {'other'},
+      'id': {'one', 'other'},
     };
     const androidResourceDirectories = {'zh-Hant': 'values-b+zh+Hant'};
 

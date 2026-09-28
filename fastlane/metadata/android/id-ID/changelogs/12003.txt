@@ -1,0 +1,1 @@
+• Perbaiki append VirusTotal scan links untuk GitHub rilis body

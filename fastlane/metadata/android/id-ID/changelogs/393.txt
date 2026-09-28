@@ -1,0 +1,9 @@
+• Tambahkan backup/import feature
+• Tambahkan beranda screen widget
+• Tambahkan marijuana tracking
+• Tambahkan search bar untuk pengaturan
+• Perbaiki starting journey di desktop
+• Perbaiki updating all tangkapan layar di deployments
+• Perbaiki what's new never showing
+• Link shields.io di downloads badge count
+• Pick output file untuk backup

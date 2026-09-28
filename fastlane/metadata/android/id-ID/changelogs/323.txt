@@ -1,0 +1,2 @@
+• Perbaiki main app header spacing
+• Only ask untuk permissions once

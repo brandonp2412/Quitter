@@ -1,0 +1,2 @@
+• Tambahkan swipe between tabs setting
+• Prevent errors di journal halaman

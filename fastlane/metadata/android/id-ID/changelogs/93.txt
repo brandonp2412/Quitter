@@ -1,0 +1,3 @@
+• Perbaiki versi codes dari split abis
+• Generate tangkapan layar untuk all screens
+• Match app colors untuk badges

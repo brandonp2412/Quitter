@@ -1,0 +1,5 @@
+• Perbaiki clearing milestone hari
+• Perbaiki # dari quit hari being wrong by 1
+• Perbaiki resetting milestones
+• Long press milestones untuk clear history
+• Hapus spacing at end dari milestones halaman

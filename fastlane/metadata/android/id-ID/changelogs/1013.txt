@@ -1,0 +1,2 @@
+• Fitur: Tambahkan chinese(sc) translation
+• Perbaiki toasts never dismissing

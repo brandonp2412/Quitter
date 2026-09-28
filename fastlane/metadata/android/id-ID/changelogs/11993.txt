@@ -1,0 +1,3 @@
+• replace theme dialog dengan SegmentedButton + AMOLED toggle
+• Perbaiki prevent SegmentedButton label wrap by removing double padding
+• Perbaiki prevent card title wrapping di narrow screens

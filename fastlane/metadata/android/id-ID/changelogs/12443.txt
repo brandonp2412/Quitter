@@ -1,0 +1,4 @@
+• Perbaiki complete Spanish dan Russian translations
+• Perbaiki localize 1.1.64 rilis notes
+• Perbaiki materialize terlokalisasi Play changelogs
+• Perbaiki polish Russian Adderall translations

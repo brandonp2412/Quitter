@@ -1,0 +1,4 @@
+• Perbaiki notifikasi sementara yang tidak pernah hilang
+• Pindahkan ikon hapus dari kiri atas ke kanan atas
+• Buka halaman edit lengkap dari tombol edit entri kustom
+• Perbaiki tombol kembali sistem agar keluar dari mode edit, bukan meninggalkan beranda

@@ -1,0 +1,1 @@
+• Perbaiki bug dengan start tombol always making hari = 1

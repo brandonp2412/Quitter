@@ -1,0 +1,2 @@
+• Perbaiki F-Droid lockfile reproducibility
+• Harden Patrol pengujian against timing

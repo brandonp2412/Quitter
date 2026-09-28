@@ -1,0 +1,6 @@
+• Tambahkan "Download dari  Microsoft Store" badge
+• Tambahkan hint texts
+• Default hari untuk 1 if you clear  input
+• Factor out layout dari quitting pages
+• Perbaiki deploy.sh when multiple devices are connected
+• Reset quitting if you clear  hari field

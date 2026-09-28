@@ -1,0 +1,3 @@
+• Tambahkan Marijuana dan Nicotine Pouches untuk tangkapan layar
+• Tambahkan new tangkapan layar untuk README
+• Include different quitting stages di tangkapan layar

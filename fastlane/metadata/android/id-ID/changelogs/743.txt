@@ -1,0 +1,4 @@
+• Tambahkan "Report sebuah bug" tombol
+• Perbaiki calculating hari differences
+• Optimize hari difference calculations
+• Randomize default color untuk new custom entries

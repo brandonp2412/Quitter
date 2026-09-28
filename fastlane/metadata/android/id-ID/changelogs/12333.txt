@@ -1,0 +1,3 @@
+• Perbaiki localize Android widget placeholders
+• Perbaiki localize application title
+• Perbaiki localize milestone reference articles

@@ -1,0 +1,7 @@
+• Tambahkan journaling untuk feature list di README
+• Auto capitalize journal entries
+• Clean up readme [skip ci]
+• Perbaiki # dari hari di tangkapan layar
+• Perbaiki pluralization dari hari di custom entries
+• Make icon picker easier untuk scroll
+• Use light theme untuk edit entry tangkapan layar

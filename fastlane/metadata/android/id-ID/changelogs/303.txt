@@ -1,0 +1,4 @@
+• Tambahkan section header untuk About
+• Embed catatan perubahan into github rilis notes
+• Perbaiki links di about halaman
+• Reduce logging dari deployments

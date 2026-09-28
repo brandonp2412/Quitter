@@ -1,0 +1,5 @@
+• Allow scheduling time dari hari untuk notifications
+• Perbaiki reminders skipping tomorrows notifications
+• Make notify at read-only
+• Reduce duplication di pengaturan provider
+• Split out beranda halaman dan main.dart

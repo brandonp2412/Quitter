@@ -1,0 +1,5 @@
+• Perbaiki not remembering nicotine pouches notifications
+• Keep reset tombol di quit milestones halaman
+• Organize code di pengaturan provider
+• Refactor quit milestones halaman
+• Refactor quit halaman template

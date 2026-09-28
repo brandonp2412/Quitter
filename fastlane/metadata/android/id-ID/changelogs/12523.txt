@@ -1,0 +1,3 @@
+• Perbaiki localize 1.1.72 rilis notes
+• Perbaiki polish Spanish dan Russian recovery translations
+• Perbaiki polish remaining Russian recovery copy

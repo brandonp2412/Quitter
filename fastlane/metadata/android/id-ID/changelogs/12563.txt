@@ -1,0 +1,4 @@
+• feat(l10n): Tambahkan German translations
+• Perbaiki(l10n): Tambahkan German store tangkapan layar
+• Perbaiki(l10n): label German di bahasa picker
+• Perbaiki(l10n): regenerate German localization bindings

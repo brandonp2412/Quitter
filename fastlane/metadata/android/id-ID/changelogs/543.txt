@@ -1,0 +1,10 @@
+• Tambahkan get it di web badge
+• Tambahkan marijuana untuk  pengaturan halaman
+• Auto-capitalize custom entries
+• Ubah toast messages when exporting/importing
+• Perbaiki custom entry auto capitalization
+• Perbaiki # dari hari calculation editing custom entries
+• Hide reset tombol if you're di hari 1
+• Only show quit addictions when picking widget
+• Refresh homescreen widget more often
+• Request notifications after import

@@ -1,0 +1,7 @@
+• Tambahkan date pickers
+• Tambahkan nicotine pouches
+• Ubah alcohol icon
+• Tingkatkan style dari pengaturan halaman
+• Open relevant links when tapping studies
+• Hapus debugging dari reminders
+• Hapus debugging notifications

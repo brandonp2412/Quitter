@@ -1,0 +1,10 @@
+• Tambahkan CLAUDE.md
+• Tambahkan skrip migrasi
+• Perbaiki luapan tampilan pada kantong nikotin
+• Sesuaikan pengujian dengan antarmuka halaman beranda dan pengaturan yang diperbarui
+• Format pengujian
+• Tingkatkan pengenalan aplikasi bagi pengguna baru
+• Sertakan judul saat memfilter pengaturan
+• Jalankan dart format
+• Batalkan penghapusan submodul Flutter dan penggunaan SDK global
+• Batalkan penggantian penyiapan submodul Flutter dengan subosito/flutter-action

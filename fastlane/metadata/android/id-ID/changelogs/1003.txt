@@ -1,0 +1,8 @@
+• Allow manually setting  lokal
+• Fitur: Tambahkan Japanese localization untuk all milestones
+• Fitur: Tambahkan Japanese localization dukungan
+• Perbaiki pengaturan halaman unit pengujian
+• Perbaiki unit pengujian
+• Perbaiki: Perbarui l10n config untuk Flutter 3.38+ compatibility
+• Format whats_new
+• Upgrade flutter untuk 3.38.3

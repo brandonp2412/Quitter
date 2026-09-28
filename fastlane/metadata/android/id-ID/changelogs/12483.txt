@@ -1,0 +1,4 @@
+• Perbaiki localize 1.1.68 rilis notes
+• Perbaiki localize Android widget fallback
+• Perbaiki localize macOS native menus
+• Perbaiki refresh Russian Play Store localization

@@ -1,0 +1,10 @@
+• Tambahkan share tombol untuk announce your progress
+• Clean up duplicated changelogs
+• Perbaiki deploy.sh
+• Perbaiki quit pages not scrolling untuk current milestone
+• Perbaiki remembering  # dari hari you quit di  past
+• Perbaiki share text di custom share menu
+• Perbaiki timeline progress when resetting
+• Refactor code
+• Show dots indicating quitting history
+• Show similar milestones di custom entries

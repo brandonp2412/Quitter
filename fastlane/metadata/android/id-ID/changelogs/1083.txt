@@ -1,0 +1,4 @@
+• Tambahkan adderall toggles untuk pengaturan halaman
+• Alphabetically sort  beranda halaman
+• Alphabetically sort  pengaturan halaman
+• Hide by default stigmatized addictions

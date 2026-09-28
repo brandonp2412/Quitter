@@ -1,0 +1,10 @@
+• Perbaiki complete store localization coverage
+• Perbaiki localize 1.1.71 rilis notes
+• Perbaiki localize App Store rilis notes
+• Perbaiki localize remaining social dan stimulant terms
+• Perbaiki polish Japanese dan Chinese B12 recovery copy
+• Perbaiki polish Japanese dan Chinese milestone copy
+• Perbaiki polish Japanese dan Chinese nicotine copy
+• Perbaiki polish Japanese dan Chinese recovery copy
+• Perbaiki polish Russian recovery translations
+• Perbaiki polish Russian recovery wording

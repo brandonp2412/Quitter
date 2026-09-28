@@ -1,0 +1,6 @@
+• Ubah colors dari edit/delete di quitting cards
+• Perbaiki gradle properties error
+• Perbaiki journal halaman error
+• Perbaiki left padding di beranda halaman search
+• move pengaturan into sebuah tombol inside  beranda search bar
+• Perbaiki animate quitter SVG icon color continuously during tab swipe

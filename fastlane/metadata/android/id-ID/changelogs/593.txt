@@ -1,0 +1,7 @@
+• Allow selecting custom entries di homescreen widget
+• Ubah title & color label di custom entry halaman
+• Perbaiki tangkapan layar di README
+• Perbaiki "What's new" halaman di web
+• Make color selector label more consistent
+• Hapus awkward links di README
+• Small refactor

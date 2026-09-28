@@ -3502,4 +3502,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get settingsLocaleArabic => 'アラビア語';
+
+  @override
+  String get settingsLocaleIndonesian => 'インドネシア語';
 }

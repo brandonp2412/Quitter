@@ -1,0 +1,5 @@
+• Perbarui pubspec.lock
+• Perbaiki Tambahkan SafeArea untuk beranda halaman untuk prevent status bar clash when journal is hidden
+• Perbaiki move SafeArea untuk root untuk Perbaiki double padding dengan tab bar
+• Perbaiki paint scaffold background behind status bar area
+• Perbaiki use Builder so status bar background reads perbaiki theme

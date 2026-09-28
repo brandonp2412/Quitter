@@ -1,0 +1,10 @@
+• Tambahkan claude slop untuk azure package finalization
+• Tambahkan missing Content-Type header untuk azure finalization
+• Tambahkan more slop untuk allegedly finalize msstore deployments
+• Tambahkan PIN timeout
+• Tambahkan russian title
+• Tambahkan slop code untuk allegedly finalize msstore deployments
+• Changed  hardcoded colors untuk material theme
+• Clean up deploy script
+• Create ru/full_description.txt
+• Create ru/short_description.txt

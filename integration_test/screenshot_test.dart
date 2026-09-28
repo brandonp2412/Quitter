@@ -28,6 +28,7 @@ String get screenshotStoreLocale => switch (screenshotLocale) {
   'de' => 'de-DE',
   'es' => 'es-ES',
   'fr' => 'fr-FR',
+  'id' => 'id-ID',
   'ja' => 'ja-JP',
   'ru' => 'ru-RU',
   'zh' => 'zh-CN',

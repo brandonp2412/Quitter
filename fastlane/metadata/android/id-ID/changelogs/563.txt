@@ -1,0 +1,3 @@
+• Perbaiki # dari hari being wrong by 1
+• Make color pickers way bigger
+• Sentence case sebuah bunch dari stuff

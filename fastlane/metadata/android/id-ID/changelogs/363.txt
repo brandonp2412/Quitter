@@ -1,0 +1,2 @@
+• Customize headlines untuk not started
+• Perbaiki app not remembering show/hide reset tombol

@@ -1,0 +1,4 @@
+• Delete slop AI comments
+• Tingkatkan performance
+• Refactor quit halaman template
+• Use setters instead dari set methods untuk pengaturan provider

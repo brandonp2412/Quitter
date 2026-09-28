@@ -1,0 +1,2 @@
+• Perbaiki complete latest terlokalisasi rilis notes
+• Perbaiki finish Japanese reference localization

@@ -1,0 +1,7 @@
+• Tambahkan slop code untuk allegedly finalize msstore deployments
+• Create ru/full_description.txt
+• Create ru/short_description.txt
+• Format lib/main.dart
+• Hapus flutter sdk path config dari vscode
+• Stay di pengaturan halaman when toggling journal halaman
+• Use json format untuk export/import

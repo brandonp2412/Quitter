@@ -1,0 +1,2 @@
+• Tambahkan flag untuk skip tangkapan layar di deploy.sh
+• Checkout code before getting build number di github

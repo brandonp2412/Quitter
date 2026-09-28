@@ -1,0 +1,9 @@
+• Perbaiki Microsoft Store rollout finalization checks
+• Parse multiline Store rollout responses
+• Pass through DWL_APP_ID untuk linux app
+• Target published Store submissions
+• Try setup codex hooks untuk auto validating
+• integrate Talker logging
+• Perbaiki enforce compliant seven-inch tangkapan layar
+• Perbaiki harden recovery tracking flows
+• Perbaiki scope Flutter quality formatting

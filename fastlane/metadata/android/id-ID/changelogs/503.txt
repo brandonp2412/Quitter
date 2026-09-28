@@ -1,0 +1,6 @@
+• Tambahkan missing plugin configurations untuk reminders
+• Tambahkan more thorough milestones untuk custom quitting pages
+• Perbaiki error di non-android platforms
+• Perbaiki number dari hari calculation
+• Perbaiki # dari hari calculation
+• Use consistent snackbars untuk data operations di pengaturan halaman

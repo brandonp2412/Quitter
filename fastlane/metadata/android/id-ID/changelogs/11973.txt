@@ -1,0 +1,8 @@
+• Tambahkan antidepressants as sebuah tracked addiction (#79)
+• Tambahkan notification toggles untuk custom entries (#78)
+• Perbaiki persist PIN lockout state dan disable app data backup
+• Perbaiki pin glance-appwidget untuk 1.1.0 untuk unblock rilis builds
+• Perbaiki prevent layout shift di PIN error by using fixed-height SizedBox
+• Perbaiki replace broken Mayo Clinic Press link di social media halaman hari 365
+• Perbaiki replace broken optimumjoy.com link di pornography halaman hari 3
+• Perbaiki Perbarui broken/redirected reference links across addiction pages

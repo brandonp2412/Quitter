@@ -1,0 +1,4 @@
+• Tambahkan spacing above title di quit halaman tracker
+• Perbaiki scrolling di edit entry halaman
+• Show full date including tahun
+• Try untuk Perbaiki homescreen widget updates

@@ -1,0 +1,5 @@
+• Perbaiki background task rescheduling
+• Guard milestone async navigation races
+• Hapus redundant Android build comments
+• Simplify control flow dan Hapus stale comments
+• Perbaiki refresh lockfile untuk reproducible builds

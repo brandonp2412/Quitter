@@ -1,0 +1,2 @@
+• Ubah icon picker untuk custom entries
+• Make icon picker taller

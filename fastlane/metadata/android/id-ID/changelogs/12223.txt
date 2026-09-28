@@ -1,0 +1,4 @@
+• Sync Google Play store metadata automatically (#107)
+• Perbaiki align milestone claims dengan cited evidence
+• Perbaiki apply Flutter hardening locally
+• Perbaiki qualify unsupported milestone titles

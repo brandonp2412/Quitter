@@ -3633,4 +3633,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get settingsLocaleArabic => 'Arabic';
+
+  @override
+  String get settingsLocaleIndonesian => 'Indonesian';
 }

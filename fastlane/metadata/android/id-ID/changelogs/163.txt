@@ -1,0 +1,6 @@
+• Tambahkan animations when you start quitting
+• Tambahkan get it di google play badge [skip ci]
+• Tambahkan get it di Google Play badge [skip ci]
+• Configure untuk Microsoft Store [skip ci]
+• Perbaiki nicotine pouches still showing after hiding
+• Replace references untuk com.example.quitter -> com.quitter.app

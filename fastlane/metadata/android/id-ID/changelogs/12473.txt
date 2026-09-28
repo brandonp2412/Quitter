@@ -1,0 +1,1 @@
+• Perbaiki localize 1.1.67 rilis notes

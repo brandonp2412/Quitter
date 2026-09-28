@@ -1,0 +1,10 @@
+• Tambahkan left padding untuk search icon
+• Perbaiki bottom padding di milestones
+• long-press rename icon di addiction cards
+• long-press untuk drag-reorder cards, rilis shows X delete badges
+• reclassify antidepressants into SSRIs, SNRIs, TCAs, dan MAOIs
+• scroll untuk last completed milestone instead dari next upcoming one
+• Perbaiki Tambahkan bottom padding untuk milestone list so FAB doesn't cover last item
+• Perbaiki prevent negative card width di beranda halaman when viewport is too narrow
+• Perbaiki smooth animate-untuk instead dari instant jump untuk milestone scroll
+• Perbaiki sort Tambahkan addiction options alphabetically

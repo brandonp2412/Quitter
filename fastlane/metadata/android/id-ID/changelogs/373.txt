@@ -1,0 +1,6 @@
+• Tambahkan what's new notifications di updates
+• Don't show "What's new" untuk first install
+• Link f-droid submission status di README
+• Lint fixes
+• Only ask untuk notifications permissions di journey beginnings
+• Hapus unused import

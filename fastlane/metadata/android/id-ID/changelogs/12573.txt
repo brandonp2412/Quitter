@@ -1,0 +1,1 @@
+• Perbaiki(l10n): localize 1.1.77 rilis notes

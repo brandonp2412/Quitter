@@ -1,0 +1,6 @@
+• Tambahkan backup/import feature
+• Tambahkan beranda screen widget
+• Tambahkan marijuana tracking
+• Tambahkan search bar untuk pengaturan
+• Perbaiki starting journey di desktop
+• Pick output file untuk backup

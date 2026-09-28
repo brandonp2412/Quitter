@@ -21,6 +21,7 @@ case "$locale" in
   de) store_locale="de-DE" ;;
   es) store_locale="es-ES" ;;
   fr) store_locale="fr-FR" ;;
+  id) store_locale="id-ID" ;;
   ja) store_locale="ja-JP" ;;
   ru) store_locale="ru-RU" ;;
   zh) store_locale="zh-CN" ;;

@@ -1,0 +1,4 @@
+• Perbaiki contrast ratio di stats title
+• Use insights icon untuk stats halaman tab
+• Tambahkan Stats tab dengan recovery statistics
+• Tambahkan option untuk start journal minggu di Monday

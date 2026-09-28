@@ -154,6 +154,7 @@ void main() {
           'en',
           'es',
           'fr',
+          'id',
           'ja',
           'ru',
           'zh',

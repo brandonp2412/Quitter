@@ -1,0 +1,3 @@
+• Tambahkan title untuk privasi policy
+• Disable notifications untuk an addiction when you hide it
+• Hapus gradient dari "Get it di Web"

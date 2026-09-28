@@ -1,0 +1,4 @@
+• Perbaiki lint warnings
+• Hapus some bloat dari deploy.sh
+• Try Perbaiki homescreen widget updates
+• Try untuk Perbaiki beranda widget updates

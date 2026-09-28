@@ -1,0 +1,2 @@
+• localize 1.1.61 rilis notes
+• Perbaiki enforce terlokalisasi store metadata limits

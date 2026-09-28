@@ -1,0 +1,5 @@
+• Ubah relapse history indicators
+• Tingkatkan custom quit entry milestones
+• Hapus Microsoft store badge
+• Hapus windows store deployment dari github action
+• Say 1 hari instead dari 0 hari di homescreen widget

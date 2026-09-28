@@ -1,0 +1,2542 @@
+{
+  "kratomPageTitle": "Pemulihan Kratom",
+  "kratomHeaderStarted": "Perjalanan Pemulihan Anda",
+  "kratomHeaderNotStarted": "Manfaat Berhenti Kratom",
+  "kratomSubtitleStarted": "Lacak kemajuan Anda dan rayakan setiap pencapaian",
+  "kratomSubtitleNotStarted": "Lihat apa yang terjadi ketika Anda berhenti",
+  "kratomInfoBox": "Kratom bekerja pada reseptor opioid, jadi penghentiannya dapat menyebabkan gejala putus obat seperti opioid. Jika Anda menggunakan opioid secara berlebihan atau bersamaan dengan opioid lain, tanyakan kepada dokter tentang penghentian yang diawasi secara medis.",
+  "addictionKratom": "Kratom",
+  "kratomMilestone1Title": "Penarikan Dimulai",
+  "kratomMilestone1Description": "Kratom bekerja pada reseptor opioid, jadi dalam 6-12 jam setelah dosis terakhir Anda mungkin merasa gelisah, cemas, berkeringat, pilek, dan nyeri otot. Ini adalah sistem saraf Anda yang mulai menyesuaikan diri.",
+  "kratomMilestone3Title": "Penarikan Puncak",
+  "kratomMilestone3Description": "Gejala akut biasanya mencapai puncaknya sekitar hari ke 2–3: nyeri yang lebih parah, insomnia, sakit perut, dan suasana hati yang buruk. Ini adalah hal tersulit dan bersifat sementara.",
+  "kratomMilestone7Title": "Gejala Akut Mereda",
+  "kratomMilestone7Description": "Dalam satu minggu, gejala fisik terburuk – nyeri, sakit perut, berkeringat – sebagian besar telah memudar. Tidur dan tenaga masih dalam tahap pemulihan.",
+  "kratomMilestone14Title": "Pemulihan Suasana Hati dan Tidur",
+  "kratomMilestone14Description": "Dua minggu kemudian, tidur menjadi lebih nyenyak dan suasana hati menjadi lebih stabil karena kimia penghargaan di otak Anda mulai menyeimbangkan kembali.",
+  "kratomMilestone30Title": "Satu Bulan Jelas",
+  "kratomMilestone30Description": "Dalam sebulan, tubuh sudah stabil: tidur, nafsu makan, dan energi jauh lebih baik, dan frekuensi ngemil berkurang.",
+  "kratomMilestone90Title": "Fondasi Stabil",
+  "kratomMilestone90Description": "Berpantang selama tiga bulan akan memberikan waktu yang lebih lama bagi sirkuit penghargaan dan stres otak untuk mengatur ulang. Suasana hati, fokus, dan motivasi terasa lebih stabil.",
+  "kratomMilestone365Title": "Gratis Satu Tahun",
+  "kratomMilestone365Description": "Setahun penuh bebas kratom. Sistem opioid telah lama diatur ulang, keinginan mengidam jarang terjadi, dan kebiasaan tersebut tidak lagi mengatur hari Anda.",
+  "gabapentinoidsPageTitle": "Pemulihan Gabapentinoid",
+  "gabapentinoidsHeaderStarted": "Perjalanan Pemulihan Anda",
+  "gabapentinoidsHeaderNotStarted": "Manfaat Berhenti Gabapentin / Pregabalin",
+  "gabapentinoidsSubtitleStarted": "Lacak kemajuan Anda dan rayakan setiap pencapaian",
+  "gabapentinoidsSubtitleNotStarted": "Lihat apa yang terjadi ketika Anda berhenti",
+  "gabapentinoidsInfoBox": "Jangan pernah menghentikan gabapentin atau pregabalin secara tiba-tiba. Penghentian obat secara tiba-tiba dapat memicu kejang - terutama jika Anda meminumnya untuk epilepsi. Pengurangan bertahap yang diawasi secara medis sangat penting.",
+  "addictionGabapentinoid": "Obat gabapentinoid",
+  "gabapentinoidsMilestone1Title": "Taper, Jangan Berhenti Mendadak",
+  "gabapentinoidsMilestone1Description": "Penarikan gabapentinoid dapat dimulai dalam 12–48 jam. Risiko kritisnya adalah kejang yang berhenti secara tiba-tiba, jadi obat-obatan ini harus dikurangi secara bertahap di bawah bimbingan medis daripada dihentikan dalam keadaan dingin.",
+  "gabapentinoidsMilestone3Title": "Penarikan Puncak",
+  "gabapentinoidsMilestone3Description": "Gejala biasanya mencapai puncaknya sekitar hari ke-3: kecemasan yang meningkat, insomnia, berkeringat, mual, dan terkadang kebingungan. Pengurangan yang diawasi sangat mengurangi hal ini.",
+  "gabapentinoidsMilestone7Title": "Pelonggaran Fase Akut",
+  "gabapentinoidsMilestone7Description": "Sekitar hari ke 7-10 gejala akut berkurang secara signifikan. Pengurangan bertahap membuat periode ini tetap dapat dikelola.",
+  "gabapentinoidsMilestone14Title": "Mengatasi Tidur dan Kecemasan",
+  "gabapentinoidsMilestone14Description": "Dua minggu kemudian, tidur dan tingkat kecemasan Anda biasanya membaik seiring sistem saraf beradaptasi untuk berfungsi tanpa obat.",
+  "gabapentinoidsMilestone30Title": "Satu Bulan Jelas",
+  "gabapentinoidsMilestone30Description": "Dalam sebulan kebanyakan orang mengalami penarikan diri, dengan suasana hati yang lebih stabil, tidur, dan kejernihan. Gejala yang menetap biasanya ringan.",
+  "gabapentinoidsMilestone90Title": "Stabil dan Disesuaikan",
+  "gabapentinoidsMilestone90Description": "Tiga bulan berlalu, sistem saraf telah sepenuhnya menyesuaikan diri. Kebanyakan orang merasa stabil, dengan tidur dan suasana hati yang normal.",
+  "gabapentinoidsMilestone180Title": "Gratis Setengah Tahun",
+  "gabapentinoidsMilestone180Description": "Enam bulan gratis. Obat ini sudah lama hilang dari rutinitas Anda, dan gejala kambuhnya telah teratasi.",
+  "ghbPageTitle": "Pemulihan GHB",
+  "ghbHeaderStarted": "Perjalanan Pemulihan Anda",
+  "ghbHeaderNotStarted": "Manfaat Berhenti GHB",
+  "ghbSubtitleStarted": "Lacak kemajuan Anda dan rayakan setiap pencapaian",
+  "ghbSubtitleNotStarted": "Lihat apa yang terjadi ketika Anda berhenti",
+  "ghbInfoBox": "Penarikan GHB adalah keadaan darurat medis — ini menyaingi penghentian alkohol dan benzodiazepin dan dapat menyebabkan delirium dan kejang. Pengguna berat atau sepanjang waktu tidak boleh berhenti tanpa detoksifikasi rawat inap yang diawasi.",
+  "addictionGhb": "GHB",
+  "ghbMilestone1Title": "Carilah Detoksifikasi Medis",
+  "ghbMilestone1Description": "GHB memiliki waktu paruh yang sangat singkat, sehingga penghentian obat dapat dimulai 1–6 jam setelah dosis terakhir dengan gejala kecemasan, tremor, insomnia, dan detak jantung yang cepat. Ini adalah salah satu detoks yang paling berbahaya – dapatkan bantuan medis.",
+  "ghbMilestone3Title": "Jendela Bahaya Puncak",
+  "ghbMilestone3Description": "Gejala memuncak sekitar 48–72 jam dan dapat meningkat menjadi agitasi parah, halusinasi, dan delirium. Fase ini memerlukan pemantauan medis.",
+  "ghbMilestone7Title": "Lulus Fase Akut",
+  "ghbMilestone7Description": "Sekitar satu minggu sindrom akut biasanya hilang, meskipun delirium dapat berlangsung lebih lama pada kasus yang parah. Tubuh sudah melewati titik paling berbahaya.",
+  "ghbMilestone14Title": "Melalui yang Terburuk",
+  "ghbMilestone14Description": "Dua minggu setelahnya, penarikan diri yang parah biasanya sudah berakhir dengan sendirinya. Tidur dan stabilitas otonom kembali normal, meskipun kecemasan masih ada.",
+  "ghbMilestone30Title": "Stabil Satu Bulan",
+  "ghbMilestone30Description": "Dalam sebulan, periode penarikan awal yang berbahaya sudah berlalu. Kecemasan yang berkepanjangan, masalah tidur, dan suasana hati yang buruk terus membaik.",
+  "ghbMilestone90Title": "Gejala yang Berlama-lama Memudar",
+  "ghbMilestone90Description": "Tiga bulan kemudian, gejala kecemasan, tidur, dan suasana hati yang berkepanjangan mereda seiring dengan menetapnya sistem GABA yang menenangkan di otak.",
+  "ghbMilestone180Title": "Gratis Setengah Tahun",
+  "ghbMilestone180Description": "Enam bulan bebas GHB. Penarikan diri yang berkepanjangan sebagian besar telah teratasi, dan suasana hati, tidur, serta pemikiran jernih kembali normal.",
+  "ketaminePageTitle": "Pemulihan Ketamin",
+  "ketamineHeaderStarted": "Perjalanan Pemulihan Anda",
+  "ketamineHeaderNotStarted": "Manfaat Berhenti Ketamin",
+  "ketamineSubtitleStarted": "Lacak kemajuan Anda dan rayakan setiap pencapaian",
+  "ketamineSubtitleNotStarted": "Lihat apa yang terjadi ketika Anda berhenti",
+  "ketamineInfoBox": "Penarikan ketamin terutama disebabkan oleh rasa lapar, suasana hati yang buruk, dan kabut otak, bukan karena penyakit fisik. Kerugian fisik terbesarnya adalah kerusakan kandung kemih, dan berhenti merokok adalah langkah penting pertama menuju pemulihan.",
+  "addictionKetamine": "Ketamin",
+  "ketamineMilestone1Title": "Kliring Sistem",
+  "ketamineMilestone1Description": "Ketamine jarang menyebabkan penarikan fisik yang parah. Pada hari pertama Anda mungkin merasakan perubahan suasana hati, mengidam, berkeringat, atau jantung berdebar saat obatnya hilang.",
+  "ketamineMilestone7Title": "Suasana Hati dan Keinginan",
+  "ketamineMilestone7Description": "Minggu pertama lebih banyak berisi tentang mengidam, suasana hati yang buruk atau berubah-ubah, dan kabut otak daripada penarikan diri secara fisik.",
+  "ketamineMilestone14Title": "Pengangkatan Kabut Otak",
+  "ketamineMilestone14Description": "Dua minggu kemudian, pemikiran dan ingatan mulai jernih dan suasana hati menjadi stabil seiring dengan hilangnya efek disosiatif sepenuhnya.",
+  "ketamineMilestone30Title": "Satu Bulan - Penyembuhan Kandung Kemih",
+  "ketamineMilestone30Description": "Dalam sebulan, kerusakan kandung kemih dini sering kali mulai membaik setelah Anda berhenti. Suasana hati dan pemikiran lebih jernih.",
+  "ketamineMilestone90Title": "Tiga Bulan Lalu",
+  "ketamineMilestone90Description": "Tiga bulan tanpa ketamin memberi kandung kemih lebih banyak waktu untuk pulih, sementara pemikiran dan suasana hati terus membaik. Mengidam lebih jarang terjadi.",
+  "ketamineMilestone180Title": "Gratis Setengah Tahun",
+  "ketamineMilestone180Description": "Enam bulan gratis. Gejala kandung kemih sudah lama membaik, dan pengaruh psikologis ketamin telah melemah secara signifikan.",
+  "ketamineMilestone365Title": "Gratis Satu Tahun",
+  "ketamineMilestone365Description": "Setahun bebas ketamin. Cara berpikir, suasana hati, dan - ketika kerusakan kandung kemih diketahui sejak dini - fungsi kandung kemih membutuhkan waktu satu tahun penuh untuk pulih.",
+  "inhalantsPageTitle": "Pemulihan Inhalansia",
+  "inhalantsHeaderStarted": "Perjalanan Pemulihan Anda",
+  "inhalantsHeaderNotStarted": "Manfaat Berhenti Menghirup Inhalansia",
+  "inhalantsSubtitleStarted": "Lacak kemajuan Anda dan rayakan setiap pencapaian",
+  "inhalantsSubtitleNotStarted": "Lihat apa yang terjadi ketika Anda berhenti",
+  "inhalantsInfoBox": "Gejala putus zat melalui inhalasi lebih singkat dibandingkan alkohol atau opioid, namun efeknya bisa sangat intens, dengan risiko kejang pada pengguna berat. Pemulihan neurologis memang nyata namun lambat – sering kali terjadi setelah dua tahun berpantang.",
+  "addictionInhalants": "Inhalansia",
+  "inhalantsMilestone1Title": "Kliring Sistem",
+  "inhalantsMilestone1Description": "Bahan kimia yang dihirup membersihkan darah dengan cepat tetapi tertinggal di jaringan lemak. Pada hari pertama Anda mungkin merasakan sakit kepala, mudah tersinggung, mual, cemas, atau susah tidur.",
+  "inhalantsMilestone7Title": "Gejala Akut Mereda",
+  "inhalantsMilestone7Description": "Penarikan akut mencapai puncaknya sekitar hari ke 2–5 dan sebagian besar hilang dalam satu hingga dua minggu. Dalam seminggu, kondisi terburuk biasanya sudah berlalu.",
+  "inhalantsMilestone14Title": "Fase Akut Berakhir",
+  "inhalantsMilestone14Description": "Dalam dua minggu, periode penarikan awal biasanya telah berakhir. Suasana hati lebih stabil, meski kabut otak dan rasa lelah bisa berkepanjangan.",
+  "inhalantsMilestone30Title": "Satu Bulan - Pemulihan Otak",
+  "inhalantsMilestone30Description": "Dalam sebulan, efek awal terburuk sudah berlalu dan pemikiran serta ingatan mulai pulih. Kejelasan dan suasana hati meningkat.",
+  "inhalantsMilestone90Title": "Tiga Bulan Lalu",
+  "inhalantsMilestone90Description": "Pantang selama tiga bulan mendukung pemulihan memori, perhatian, dan fungsi motorik secara berkelanjutan. Perbaikan dilakukan secara bertahap namun nyata.",
+  "inhalantsMilestone365Title": "Satu Tahun — Pemulihan Substansial",
+  "inhalantsMilestone365Description": "Setahun pantang membawa pemulihan neurologis yang substansial bagi kebanyakan orang, dan kemajuan yang berkelanjutan diharapkan terjadi pada tahun kedua.",
+  "inhalantsMilestone730Title": "Dua Tahun — Penyembuhan Jangka Panjang",
+  "inhalantsMilestone730Description": "Dua tahun berpantang adalah jendela di mana penelitian menemukan pemulihan fungsi otak secara substansial – di luar kerusakan akibat bensin bertimbal, yang dapat bertahan lama.",
+  "synthetic_cannabinoidsPageTitle": "Pemulihan Cannabinoid Sintetis",
+  "synthetic_cannabinoidsHeaderStarted": "Perjalanan Pemulihan Anda",
+  "synthetic_cannabinoidsHeaderNotStarted": "Manfaat Berhenti dari Cannabinoid Sintetis",
+  "synthetic_cannabinoidsSubtitleStarted": "Lacak kemajuan Anda dan rayakan setiap pencapaian",
+  "synthetic_cannabinoidsSubtitleNotStarted": "Lihat apa yang terjadi ketika Anda berhenti",
+  "synthetic_cannabinoidsInfoBox": "Kanabinoid sintetik (“Spice”, “K2”) jauh lebih manjur dibandingkan ganja, dan penghentian penggunaannya serupa namun lebih parah – disertai rasa cemas dan detak jantung yang cepat. Pengguna berat mungkin memerlukan detoksifikasi yang didukung secara medis.",
+  "addictionSyntheticCannabinoids": "Cannabinoid Sintetis",
+  "synthetic_cannabinoidsMilestone1Title": "Penarikan Dimulai",
+  "synthetic_cannabinoidsMilestone1Description": "Penghentian penggunaan cannabinoid sintetis dapat dimulai dalam beberapa jam hingga satu atau dua hari. Harapkan kecemasan, mudah tersinggung, detak jantung cepat, berkeringat, dan masalah tidur.",
+  "synthetic_cannabinoidsMilestone3Title": "Gejala Puncak",
+  "synthetic_cannabinoidsMilestone3Description": "Gejala cenderung mencapai puncaknya dalam beberapa hari pertama – kecemasan terkuat, mudah tersinggung, kurang tidur, dan mengidam. Ini adalah peregangan yang paling sulit.",
+  "synthetic_cannabinoidsMilestone7Title": "Pelonggaran Fase Akut",
+  "synthetic_cannabinoidsMilestone7Description": "Dalam satu minggu, gejala yang paling intens akan mereda. Tidur, detak jantung, dan suasana hati mulai tenang.",
+  "synthetic_cannabinoidsMilestone14Title": "Pengaturan Tidur dan Suasana Hati",
+  "synthetic_cannabinoidsMilestone14Description": "Dua minggu kemudian, tidur dan suasana hati menjadi lebih stabil dan detak jantung yang cepat akibat penarikan dini telah teratasi.",
+  "synthetic_cannabinoidsMilestone30Title": "Satu Bulan Jelas",
+  "synthetic_cannabinoidsMilestone30Description": "Dalam sebulan sebagian besar gejala penarikan telah teratasi. Tidur, suasana hati, dan kejernihan meningkat secara nyata.",
+  "synthetic_cannabinoidsMilestone90Title": "Tiga Bulan Lalu",
+  "synthetic_cannabinoidsMilestone90Description": "Tiga bulan cerah, suasana hati dan tidur stabil dan jarang mengidam. Sistem cannabinoid otak telah diatur ulang.",
+  "synthetic_cannabinoidsMilestone180Title": "Gratis Setengah Tahun",
+  "synthetic_cannabinoidsMilestone180Description": "Enam bulan bebas dari cannabinoid sintetis. Penarikan sudah lama teratasi dan risiko serius dari obat-obatan ini sudah tidak ada lagi.",
+  "mdmaPageTitle": "Pemulihan MDMA",
+  "mdmaHeaderStarted": "Perjalanan Pemulihan Anda",
+  "mdmaHeaderNotStarted": "Manfaat Berhenti dari MDMA",
+  "mdmaSubtitleStarted": "Lacak kemajuan Anda dan rayakan setiap pencapaian",
+  "mdmaSubtitleNotStarted": "Lihat apa yang terjadi ketika Anda berhenti",
+  "mdmaInfoBox": "MDMA membanjiri dan kemudian menghabiskan serotonin, menghasilkan “comedown” dan, setelah penggunaan yang berlebihan, suasana hati yang buruk seperti penarikan diri. Tingkat transporter serotonin pulih dengan pantang terus-menerus, meskipun penggunaan berlebihan dapat meninggalkan efek yang bertahan lebih lama.",
+  "addictionMdma": "MDMA",
+  "mdmaMilestone1Title": "Komedo",
+  "mdmaMilestone1Description": "Setelah MDMA, serotonin yang terkuras menghasilkan “comedown”: suasana hati yang buruk, kelelahan, mudah tersinggung, dan kurang tidur selama satu atau dua hari. Hidrasi, makanan, dan istirahat membantu.",
+  "mdmaMilestone3Title": "Menyeimbangkan Kembali Suasana Hati",
+  "mdmaMilestone3Description": "Dalam beberapa hari, penurunan paling tajam telah berlalu. Suasana hati dan energi mulai seimbang seiring dengan terisinya kembali serotonin.",
+  "mdmaMilestone7Title": "Fase Akut Berakhir",
+  "mdmaMilestone7Description": "Setelah penggunaan yang lebih berat, gejala seperti penarikan diri (suasana hati buruk, fokus buruk, mengidam) dapat berlangsung sekitar seminggu sebelum membaik.",
+  "mdmaMilestone14Title": "Dua Minggu Lalu",
+  "mdmaMilestone14Description": "Pantang selama dua minggu biasanya membawa perbaikan nyata pada suasana hati, tidur, dan fokus seiring pulihnya sistem serotonin.",
+  "mdmaMilestone30Title": "Satu Bulan Jelas",
+  "mdmaMilestone30Description": "Dalam sebulan, suasana hati dan pemikiran jauh lebih stabil. Sistem daur ulang serotonin otak terus pulih selama Anda menghindari MDMA.",
+  "mdmaMilestone90Title": "Tiga Bulan Lalu",
+  "mdmaMilestone90Description": "Pantang selama tiga bulan mendukung pemulihan sistem serotonin yang berkelanjutan. Suasana hati dan tidur stabil; kecemasan mereda pada bulan-bulan berikutnya.",
+  "mdmaMilestone365Title": "Gratis Satu Tahun",
+  "mdmaMilestone365Description": "Setahun bebas MDMA. Fungsi serotonin dan suasana hati membutuhkan waktu yang lama untuk pulih, dan kecemasan terkait penggunaan serotonin biasanya sudah teratasi sekarang.",
+  "steroidsPageTitle": "Pemulihan Steroid Anabolik",
+  "steroidsHeaderStarted": "Perjalanan Pemulihan Anda",
+  "steroidsHeaderNotStarted": "Manfaat Berhenti dari Steroid Anabolik",
+  "steroidsSubtitleStarted": "Lacak kemajuan Anda dan rayakan setiap pencapaian",
+  "steroidsSubtitleNotStarted": "Lihat apa yang terjadi ketika Anda berhenti",
+  "steroidsInfoBox": "Menghentikan steroid anabolik akan menyebabkan kadar testosteron rendah hingga tubuh memulai kembali produksi hormonnya sendiri – biasanya dalam waktu berbulan-bulan, namun terkadang lebih lama. Depresi dan libido rendah sering terjadi selama fase ini; depresi berat atau pikiran untuk bunuh diri memerlukan perawatan medis segera.",
+  "addictionSteroids": "Steroid Anabolik",
+  "steroidsMilestone1Title": "Defisit Hormon Dimulai",
+  "steroidsMilestone1Description": "Steroid anabolik menekan testosteron tubuh Anda sendiri. Saat berhenti, Anda mengalami defisit hormon, yang dapat menyebabkan kelelahan, suasana hati yang buruk, dan libido yang rendah. Bimbingan medis dianjurkan.",
+  "steroidsMilestone14Title": "Fase Penyesuaian",
+  "steroidsMilestone14Description": "Minggu-minggu pertama adalah masa penurunan hormon yang paling sulit - energi, suasana hati, dan libido yang rendah. Ini adalah fase di mana banyak orang kambuh untuk menghindarinya; dukungan membantu.",
+  "steroidsMilestone30Title": "Satu Bulan - Axis Memulai Ulang",
+  "steroidsMilestone30Description": "Dalam sebulan, sistem hormon otak-testis Anda dimulai kembali. Hormon-hormon yang mendorong testosteron dan testosteron itu sendiri mulai meningkat, meski suasana hati, libido, atau energi yang rendah masih bisa bertahan.",
+  "steroidsMilestone90Title": "Tiga Bulan - Peningkatan Hormon",
+  "steroidsMilestone90Description": "Tiga bulan kemudian, testosteron dan hormon-hormon yang mendorongnya meningkat ke arah normal bagi kebanyakan orang, dan suasana hati serta libido sering kali membaik seiring dengan itu.",
+  "steroidsMilestone180Title": "Enam Bulan — Sering Sembuh",
+  "steroidsMilestone180Description": "Dalam enam bulan, banyak orang mengalami pemulihan hormon yang kuat, dengan testosteron dan hormon pengontrolnya kembali normal dan gejalanya mereda.",
+  "steroidsMilestone365Title": "Satu Tahun Lalu",
+  "steroidsMilestone365Description": "Setahun berhenti menggunakan steroid. Bagi sebagian besar orang, hormon dan suasana hati telah kembali normal; testosteron rendah yang terus-menerus melewati titik ini memerlukan penilaian spesialis.",
+  "steroidsMilestone730Title": "Dua Tahun — Keadaan Normal Baru",
+  "steroidsMilestone730Description": "Dua tahun berhenti menggunakan steroid. Hormon Anda sekarang mencerminkan tingkat alami tubuh Anda; gejala testosteron rendah yang sedang berlangsung harus diperiksa oleh spesialis.",
+  "@@locale": "id",
+  "appTitle": "Berhenti",
+  "@appTitle": {
+    "description": "The main application title"
+  },
+  "start": "Awal",
+  "@tabQuitter": {
+    "description": "Tab label for the main Quitter tab"
+  },
+  "tabQuitter": "Berhenti",
+  "adderallPageTitle": "Keluar dari Adderall",
+  "adderallHeaderStarted": "Perjalanan Pemulihan Anda",
+  "adderallHeaderNotStarted": "Siap Memulai Pemulihan Anda?",
+  "adderallSubtitleStarted": "Lacak kemajuan Anda dan rayakan setiap pencapaian saat otak Anda pulih",
+  "adderallSubtitleNotStarted": "Lihat apa yang terjadi ketika Anda keluar dari Adderall dan memulai perjalanan Anda menuju pemulihan",
+  "adderallMilestone1Title": "24 Jam Pertama: Penarikan Dimulai",
+  "adderallMilestone1Description": "Anda mungkin merasa semakin lelah, depresi, dan nafsu makan saat tubuh Anda mulai menyesuaikan diri dengan kehidupan tanpa stimulan. Ini normal dan bersifat sementara. Tetap terhidrasi dan istirahat bila diperlukan.",
+  "adderallMilestone3Title": "Hari 3: Puncak Penarikan",
+  "adderallMilestone3Description": "Gejala penarikan mencapai intensitas puncaknya. Anda mungkin mengalami kelelahan yang parah, mudah tersinggung, dan kesulitan berkonsentrasi. Ini adalah bagian tersulit - tetapi mulai sekarang akan menjadi lebih baik. Pertimbangkan untuk menghubungi sistem pendukung Anda.",
+  "adderallMilestone7Title": "Satu Minggu: Gejala Fisik Membaik",
+  "adderallMilestone7Description": "Gejala penarikan fisik yang terburuk mulai memudar. Pola tidur mulai normal dan tingkat energi perlahan membaik. Tubuh Anda beradaptasi untuk berfungsi tanpa stimulan.",
+  "adderallMilestone14Title": "Dua Minggu: Stabilitas Emosional Kembali",
+  "adderallMilestone14Description": "Perubahan suasana hati dan mudah tersinggung berkurang. Anda mendapatkan kembali keseimbangan emosional seiring dengan stabilnya kimia otak Anda. Banyak orang mendapati minggu ini menandai titik balik dalam perjalanan pemulihan mereka.",
+  "adderallMilestone30Title": "Satu Bulan: Penyeimbangan Kembali Kimia Otak",
+  "adderallMilestone30Description": "Otak Anda secara aktif melakukan penyembuhan. Produksi dopamin alami meningkat, dan Anda mungkin merasakan fokus dan motivasi yang lebih baik tanpa pengobatan. Kualitas tidur dan nafsu makan kembali ke pola normal.",
+  "adderallMilestone60Title": "Dua Bulan: Berpikir dan Ingatan Meningkat",
+  "adderallMilestone60Description": "Peningkatan signifikan dalam kejernihan mental, memori, dan stabilitas suasana hati. Sistem penghargaan otak Anda sedang dalam proses penyembuhan, membuat aktivitas sehari-hari menjadi lebih bermanfaat secara alami. Banyak orang melaporkan merasa lebih seperti diri mereka sendiri.",
+  "adderallMilestone90Title": "Tiga Bulan: Tonggak Pemulihan Besar",
+  "adderallMilestone90Description": "Sebagian besar gejala penarikan telah teratasi. Otak Anda telah membuat kemajuan besar dalam penyembuhan. Tingkat energi alami, fokus, dan pengaturan emosi meningkat secara signifikan. Ini merupakan pencapaian besar yang patut dirayakan.",
+  "adderallMilestone180Title": "Enam Bulan: Penyembuhan Otak Berlanjut",
+  "adderallMilestone180Description": "Sinyal dopamin terus pulih. Fokus, ingatan, suasana hati, dan kualitas hidup sehari-hari terus meningkat.",
+  "adderallMilestone365Title": "Satu Tahun: Pemulihan Hampir Selesai",
+  "adderallMilestone365Description": "Sistem dopamin otak Anda sebagian besar telah kembali berfungsi normal. Anda telah membuktikan ketahanan Anda dan membangun kembali hidup Anda tanpa ketergantungan pada stimulan. Pencapaian ini mewakili transformasi menyeluruh - rayakan seberapa jauh kemajuan Anda!",
+  "showAllItems": "Tampilkan semua item",
+  "showAllSubtitle": "Mengaktifkan atau menonaktifkan semua item layar utama",
+  "enableNotifications": "Aktifkan semua notifikasi",
+  "enableNotificationsSubtitle": "Aktifkan atau nonaktifkan semua notifikasi",
+  "benzoPageTitle": "Pemulihan Benzodiazepin",
+  "benzoHeaderStarted": "Perjalanan Pemulihan Anda",
+  "benzoHeaderNotStarted": "Manfaat Berhenti dari Benzodiazepin",
+  "benzoSubtitleStarted": "Lacak kemajuan Anda dan rayakan setiap pencapaian",
+  "benzoSubtitleNotStarted": "Lihat apa yang terjadi ketika Anda berhenti",
+  "benzoMilestone7Title": "Fase Penarikan Awal",
+  "benzoMilestone7Description": "Setelah menyelesaikan pengurangan bertahap, gejala penarikan awal seperti kecemasan yang meningkat dan insomnia mungkin muncul. Ini adalah sistem saraf Anda yang mulai menyesuaikan diri. Dukungan medis selama fase ini sangat penting untuk keamanan dan kenyamanan.",
+  "benzoMilestone14Title": "Puncak Penarikan Akut",
+  "benzoMilestone14Description": "Gejala penarikan akut biasanya mencapai puncaknya dalam dua minggu pertama. Anda mungkin mengalami kecemasan, gangguan tidur, dan ketidaknyamanan fisik. Gejala-gejala ini, meski menantang, menunjukkan otak Anda mulai pulih dan seimbang.",
+  "benzoMilestone60Title": "Arsitektur Tidur Meningkat",
+  "benzoMilestone60Description": "Penelitian menunjukkan bahwa setelah 2 bulan, pola tidur alami Anda mulai pulih. Tidur gelombang lambat meningkat dan kualitas tidur meningkat dibandingkan dengan penggunaan benzodiazepin, meskipun efisiensi tidur secara keseluruhan mungkin masih dalam tahap pemulihan.",
+  "benzoMilestone90Title": "Kesehatan Fisik Stabil",
+  "benzoMilestone90Description": "Sekitar 3 bulan, banyak gejala penarikan diri secara fisik telah membaik secara signifikan. Tubuh Anda terus menyesuaikan diri untuk berfungsi tanpa obat. Kecemasan dan suasana hati mungkin masih berfluktuasi, namun fungsi secara keseluruhan membaik.",
+  "benzoMilestone180Title": "Pemikiran dan Ingatan Mulai Pulih",
+  "benzoMilestone180Description": "Pada enam bulan, ingatan dan perhatian menunjukkan peningkatan yang terukur. Penelitian menemukan pemulihan pada banyak keterampilan berpikir, dan kemajuan terus berlanjut setelah enam bulan.",
+  "benzoMilestone365Title": "Satu Tahun Penyembuhan",
+  "benzoMilestone365Description": "Setelah satu tahun, peningkatan signifikan dalam kesejahteraan mental dan fisik mulai terlihat. Banyak yang melaporkan berkurangnya kecemasan, kualitas tidur lebih baik, dan peningkatan kesehatan secara keseluruhan dibandingkan dengan penggunaan benzodiazepin dalam jangka panjang. Penyembuhan otak berlanjut.",
+  "benzoMilestone540Title": "Pemulihan Otak Berkelanjutan",
+  "benzoMilestone540Description": "Pada usia 18 bulan, ingatan, perhatian, dan pemikiran jernih terus meningkat. Sistem GABA yang menenangkan di otak membutuhkan waktu lebih dari satu tahun untuk menetap, sementara otak terus membangun pola yang lebih sehat.",
+  "benzoMilestone730Title": "Dua Tahun: Kemajuan Besar",
+  "benzoMilestone730Description": "Dua tahun menandai pemulihan substansial. Kebanyakan orang memiliki pemikiran yang lebih jernih, emosi yang lebih stabil, dan kualitas hidup yang jauh lebih baik dibandingkan dengan penggunaan benzodiazepin jangka panjang.",
+  "benzoMilestone1095Title": "Tiga Tahun: Pemulihan Jangka Panjang",
+  "benzoMilestone1095Description": "Dalam tiga tahun, periode penarikan yang lama jauh tertinggal dari kebanyakan orang. Tidur, suasana hati, ingatan, dan perhatian membutuhkan waktu bertahun-tahun untuk pulih, dan kehidupan sehari-hari biasanya jauh lebih baik dibandingkan penggunaan jangka panjang.",
+  "addictionMeth": "Met",
+  "addictionBenzos": "Benzo",
+  "methPageTitle": "Pemulihan Sabu",
+  "methHeaderStarted": "Perjalanan Pemulihan Anda",
+  "methHeaderNotStarted": "Jatuhkan Gelasnya",
+  "methSubtitleStarted": "Lacak kemajuan Anda dan rayakan setiap pencapaian",
+  "methSubtitleNotStarted": "Kebebasan ada dalam genggaman Anda",
+  "methMilestone1Title": "24 Jam Pertama - Keruntuhan Dimulai",
+  "methMilestone1Description": "Fase awal kehancuran dimulai dengan kelelahan yang mendalam dan peningkatan nafsu makan saat tubuh Anda mulai pulih. Anda mungkin mengalami depresi dan kurang tidur saat sistem Anda mulai stabil akibat rangsangan yang intens.",
+  "methMilestone3Title": "Hari 3 - Puncak Penarikan",
+  "methMilestone3Description": "Mengidam meningkat secara signifikan selama periode ini seiring dengan penyesuaian tubuh Anda. Anda mungkin mengalami peningkatan energi dibandingkan fase crash, yang dapat membuat keinginan ngemil terasa lebih kuat. Ini adalah waktu yang kritis untuk pencegahan dan dukungan kambuh.",
+  "methMilestone7Title": "Satu Minggu - Gejala Fisik Meringankan",
+  "methMilestone7Description": "Gejala putus obat akut mulai mereda, meskipun tantangan psikologis masih ada. Pola tidur Anda mulai normal dan ketidaknyamanan fisik berkurang. Hal ini menandai peralihan dari gejala putus obat akut ke pasca akut.",
+  "methMilestone30Title": "Satu Bulan - Stabilitas yang Muncul",
+  "methMilestone30Description": "Fase bulan madu dimulai saat tubuh Anda pulih dan rasa lapar mulai memudar. Tingkat energi meningkat dan suasana hati membaik seiring kimia otak Anda mulai menyeimbangkan kembali. Namun tetap waspada karena tantangan masih bisa muncul.",
+  "methMilestone90Title": "Tiga Bulan - Penyembuhan Otak Dimulai",
+  "methMilestone90Description": "Otak Anda sedang pulih secara aktif. Perhatian, ingatan, dan pengambilan keputusan mulai terasa lebih baik ketika sistem penghargaan bergerak menuju normal.",
+  "methMilestone180Title": "Enam Bulan - Pemulihan Kardiovaskular",
+  "methMilestone180Description": "Fungsi jantung menunjukkan peningkatan yang terukur dengan pantang. Studi menunjukkan fungsi jantung dapat pulih secara signifikan selama periode ini bila dikombinasikan dengan dukungan medis. Tekanan darah dan ritme jantung terus stabil.",
+  "methMilestone365Title": "Satu Tahun - Pemulihan Otak Besar",
+  "methMilestone365Description": "Setelah satu tahun, sistem dopamin mengalami kemajuan besar. Imbalan alami terasa lebih bermanfaat lagi, sementara suasana hati, ingatan, dan pengambilan keputusan jauh lebih baik.",
+  "methMilestone420Title": "14 Bulan - Normalisasi Dopamin",
+  "methMilestone420Description": "Pemindaian otak menunjukkan protein daur ulang dopamin mendekati tingkat yang sehat pada tahap ini. Daya ingat, motivasi, dan kemampuan menikmati aktivitas sehari-hari terus meningkat.",
+  "methMilestone730Title": "Dua Tahun - Pemulihan Berkelanjutan",
+  "methMilestone730Description": "Dua tahun tanpa sabu memberi otak waktu yang lama untuk pulih. Perhatian, suasana hati, ingatan, dan kualitas hidup sehari-hari terus meningkat.",
+  "addictionNitrousOxide": "Nitrous Oksida",
+  "nitrousOxidePageTitle": "Pemulihan Nitrous Oksida",
+  "nitrousOxideHeaderStarted": "Perjalanan Pemulihan Anda",
+  "nitrousOxideHeaderNotStarted": "Siap Memulai?",
+  "nitrousOxideSubtitleStarted": "Lacak kemajuan Anda dan rayakan setiap pencapaian",
+  "nitrousOxideSubtitleNotStarted": "Lihat perubahan positif apa yang menanti Anda",
+  "nitrousOxideMilestone1Title": "24 Jam Pertama - Kliring Sistem",
+  "nitrousOxideMilestone1Description": "Gas meninggalkan sistem Anda dalam beberapa menit, namun penyembuhan membutuhkan waktu lebih lama. Pusing mereda, sakit kepala mereda, dan otak Anda mulai menyesuaikan diri tanpa jalur pintas dopamin. Pemulihan B12 Anda dimulai sekarang.",
+  "nitrousOxideMilestone3Title": "Hari 3 - Tidak Ada Penarikan Fisik",
+  "nitrousOxideMilestone3Description": "Ini kabar baiknya: dinitrogen oksida tidak menyebabkan penarikan fisik. Dorongan yang Anda rasakan bersifat psikologis - kebiasaan dan pergaulan, bukan tubuh Anda yang menuntut suatu zat. Hal ini membuat mereka mudah dikendalikan.",
+  "nitrousOxideMilestone7Title": "Satu Minggu - B12 Meningkat",
+  "nitrousOxideMilestone7Description": "Satu minggu tanpa ada B12 baru yang dimusnahkan. Jika Anda sudah mulai mengonsumsi suplemen, level Anda sudah meningkat. Energi, suasana hati, dan fokus semuanya terkait dengan B12 — Anda akan mulai merasakannya meningkat.",
+  "nitrousOxideMilestone14Title": "Dua Minggu - Penyembuhan Saraf",
+  "nitrousOxideMilestone14Description": "B12 sangat penting untuk lapisan pelindung pada serabut saraf Anda. Dua minggu kemudian, proses perbaikan tersebut sedang berlangsung secara aktif. Kesemutan atau mati rasa apa pun yang Anda alami seharusnya sudah mereda - sistem saraf Anda sedang memulihkan diri.",
+  "nitrousOxideMilestone30Title": "Satu Bulan - Pengembalian Energi",
+  "nitrousOxideMilestone30Description": "B12 memainkan peran penting dalam produksi sel darah merah, yang berarti pengiriman oksigen ke setiap sel di tubuh Anda. Pemulihan dan suplementasi selama satu bulan berarti energi yang jauh lebih baik, pemikiran yang lebih jernih, dan suasana hati yang lebih stabil.",
+  "nitrousOxideMilestone90Title": "Tiga Bulan - Pemulihan Neurologis",
+  "nitrousOxideMilestone90Description": "Tiga bulan tanpa kerusakan B12 berarti tiga bulan perbaikan saraf. Sistem sarafnya tangguh — kebanyakan orang yang memulai pengobatan segera merasakan pemulihan yang signifikan pada rasa kesemutan, kelemahan, dan kabut otak pada saat ini.",
+  "nitrousOxideMilestone365Title": "Satu Tahun - Kesehatan Jangka Panjang Terjamin",
+  "nitrousOxideMilestone365Description": "Setahun penuh bebas dari dinitrogen oksida. Simpanan B12 Anda dipulihkan, sistem saraf Anda memiliki waktu satu tahun untuk pulih, dan risiko kardiovaskular akibat peningkatan homosistein telah teratasi. Tubuh Anda kembali menjalankan kimianya sendiri.",
+  "addictionCocaine": "Kokain",
+  "addictionAdderall": "Tambahan",
+  "cocainePageTitle": "Pemulihan Kokain",
+  "cocaineHeaderStarted": "Perjalanan Pemulihan Anda",
+  "cocaineHeaderNotStarted": "Siap Memulai?",
+  "cocaineSubtitleStarted": "Lacak kemajuan Anda dan rayakan setiap pencapaian",
+  "cocaineSubtitleNotStarted": "Lihat perubahan positif apa yang menanti Anda",
+  "cocaineMilestone1Title": "24 Jam Pertama - Permulaan",
+  "cocaineMilestone1Description": "Tubuh Anda mulai menyesuaikan diri saat kadar dopamin mulai stabil. Anda mungkin mengalami kelelahan, perubahan suasana hati, dan keinginan ngemil yang kuat, namun sistem kardiovaskular Anda sudah mulai pulih.",
+  "cocaineMilestone3Title": "Hari 3 - Tantangan Puncak",
+  "cocaineMilestone3Description": "Gejala putus obat sering kali mencapai puncaknya pada saat ini. Anda mungkin mengalami keinginan mengidam yang intens, mudah tersinggung, cemas, dan kelelahan. Ini bersifat sementara - otak Anda bekerja keras untuk menyeimbangkan dirinya sendiri.",
+  "cocaineMilestone7Title": "Satu Minggu - Pemulihan Fisik Dimulai",
+  "cocaineMilestone7Description": "Gejala fisik paling intens mulai mereda. Detak jantung dan tekanan darah Anda stabil. Meskipun hasrat psikologis mungkin terus berlanjut, tubuh Anda sedang dalam proses penyembuhan.",
+  "cocaineMilestone14Title": "Dua Minggu - Menemukan Stabilitas",
+  "cocaineMilestone14Description": "Banyak orang mulai merasa lebih stabil secara emosional. Tingkat energi Anda meningkat, dan gejala penarikan akut berkurang. Kesehatan jantung Anda terus meningkat secara signifikan.",
+  "cocaineMilestone60Title": "Dua Bulan - Tidur dan Suasana Hati Meningkat",
+  "cocaineMilestone60Description": "Kualitas tidur Anda terasa lebih baik karena kimia otak Anda terus menjadi normal. Anda mungkin merasa lebih istirahat dan mengalami suasana hati yang lebih stabil sepanjang hari.",
+  "cocaineMilestone90Title": "Tiga Bulan - Pemulihan Otak",
+  "cocaineMilestone90Description": "Sistem dopamin Anda pulih. Fokus, pengambilan keputusan, dan pengendalian emosi jauh lebih baik, dan pemikiran lebih jernih.",
+  "cocaineMilestone180Title": "Enam Bulan - Berpikir Lebih Jernih",
+  "cocaineMilestone180Description": "Pemindaian otak menunjukkan pemulihan di bagian depan otak, area yang mendukung perencanaan dan pengendalian diri. Memori, kendali impuls, dan pemikiran jernih terus menguat.",
+  "cocaineMilestone365Title": "Satu Tahun - Kesehatan Kardiovaskular",
+  "cocaineMilestone365Description": "Jantung dan sistem kardiovaskular Anda telah mengalami pemulihan yang luar biasa. Tekanan darah dan detak jantung menjadi normal. Risiko serangan jantung dan stroke menurun secara signifikan. Tubuhmu sedang dalam masa penyembuhan.",
+  "cocaineMilestone730Title": "Dua Tahun - Pemulihan Berkelanjutan",
+  "cocaineMilestone730Description": "Penyembuhan otak berlanjut dengan peningkatan berkelanjutan dalam memori, fokus, dan regulasi emosional. Jalur saraf Anda telah ditata ulang secara signifikan, mendukung pola yang lebih sehat dan kesejahteraan yang lebih baik secara keseluruhan.",
+  "tabJournal": "Jurnal",
+  "@tabJournal": {
+    "description": "Tab label for the Journal tab"
+  },
+  "tabStats": "Statistik",
+  "@tabStats": {
+    "description": "Tab label for the Stats tab"
+  },
+  "statsTitle": "Statistik Pemulihan",
+  "@statsTitle": {
+    "description": "Heading on the stats page"
+  },
+  "statsNoAddictions": "Mulai lacak kecanduan untuk melihat statistik Anda",
+  "@statsNoAddictions": {
+    "description": "Empty state message on the stats page"
+  },
+  "statsJourneyTitle": "Perjalanan Anda",
+  "@statsJourneyTitle": {
+    "description": "Section title for the overview journey card on stats page"
+  },
+  "statsTotalDays": "{days} total hari",
+  "@statsTotalDays": {
+    "description": "Total days clean across all addictions",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "statsAddictionsTracked": "{count} dilacak",
+  "@statsAddictionsTracked": {
+    "description": "Number of addictions being tracked",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "statsMoneySavedTitle": "Uang Tersimpan",
+  "@statsMoneySavedTitle": {
+    "description": "Section title for the money saved card on stats page"
+  },
+  "statsMoneySavedEstimate": "Diperkirakan berdasarkan penggunaan rata-rata",
+  "@statsMoneySavedEstimate": {
+    "description": "Disclaimer text on the money saved card"
+  },
+  "statsEquivalentCoffees": "Itu tentang kopi {count}",
+  "@statsEquivalentCoffees": {
+    "description": "Fun equivalence for money saved — coffees",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "statsEquivalentMeals": "Itu tentang makanan restoran {count}",
+  "@statsEquivalentMeals": {
+    "description": "Fun equivalence for money saved — restaurant meals",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "statsEquivalentFlight": "Itu adalah penerbangan ke suatu tempat yang baru",
+  "@statsEquivalentFlight": {
+    "description": "Fun equivalence for money saved — a flight ticket"
+  },
+  "statsEquivalentVacation": "Itu liburan ke luar negeri",
+  "@statsEquivalentVacation": {
+    "description": "Fun equivalence for money saved — a vacation"
+  },
+  "statsTimeSavedTitle": "Waktu Direbut Kembali",
+  "@statsTimeSavedTitle": {
+    "description": "Section title for the time saved card on stats page"
+  },
+  "statsHoursSaved": "{hours} jam",
+  "@statsHoursSaved": {
+    "description": "Hours of time saved",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "statsEquivalentBooks": "Cukup membaca tentang buku {count}",
+  "@statsEquivalentBooks": {
+    "description": "Fun equivalence for time saved — books read",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "statsEquivalentMovies": "Cukup untuk menonton tentang film {count}",
+  "@statsEquivalentMovies": {
+    "description": "Fun equivalence for time saved — movies watched",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "statsStreaksTitle": "Coretan Anda",
+  "@statsStreaksTitle": {
+    "description": "Section title for the streaks bar chart on stats page"
+  },
+  "statsDaysSuffix": "{days} hari",
+  "@statsDaysSuffix": {
+    "description": "Compact days label used in streak bars",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "statsDayUnit": "Dalam bahasa Indonesia: {count, plural, =1 {day} other {days}}",
+  "@statsDayUnit": {
+    "description": "Day unit displayed beside the total journey count",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "statsHoursSuffix": "{hours} jam",
+  "@statsHoursSuffix": {
+    "description": "Compact hours label used in stats detail rows",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "statsResilienceTitle": "Ketahanan",
+  "@statsResilienceTitle": {
+    "description": "Section title for the resilience/relapse history card on stats page"
+  },
+  "statsTimesBouncedBack": "{count} kali Anda mengatur ulang dan melanjutkan",
+  "@statsTimesBouncedBack": {
+    "description": "Motivational message about number of relapses",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "statsDaysBeforeRelapse": "Kemajuan {days} hari setiap kali",
+  "@statsDaysBeforeRelapse": {
+    "description": "Average days achieved before each relapse",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "tabSettings": "Pengaturan",
+  "@tabSettings": {
+    "description": "Tab label for the Settings tab"
+  },
+  "homeAddButton": "Tambahkan",
+  "@homeAddButton": {
+    "description": "Floating action button label on home page"
+  },
+  "homeAddTooltip": "Ciptakan kecanduan khusus Anda sendiri untuk berhenti",
+  "@homeAddTooltip": {
+    "description": "Tooltip for the add custom addiction button"
+  },
+  "quitStartButton": "Awal",
+  "@quitStartButton": {
+    "description": "Floating action button label on quit page (start button)"
+  },
+  "quitResetButton": "Atur Ulang",
+  "@quitResetButton": {
+    "description": "Floating action button label on quit page (reset button)"
+  },
+  "quitCardSubtitle": "Ketuk untuk memulai",
+  "@quitCardSubtitle": {
+    "description": "Prompt displayed on the quit card"
+  },
+  "quitCardKeepDays": "{days, plural, =1 { hari} other { hari}}",
+  "@quitCardKeepDays": {
+    "description": "Kepp days on Quit card",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "description": "Number of days"
+      }
+    }
+  },
+  "newVersionToast": "Versi baru {version}",
+  "@newVersionToast": {
+    "description": "Toast message shown when app is updated",
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "changesAction": "Perubahan",
+  "@changesAction": {
+    "description": "Action button text to view changelog"
+  },
+  "hideDialogTitle": "Sembunyikan {title}?",
+  "@hideDialogTitle": {
+    "description": "Title for hide addiction confirmation dialog",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "hideDialogMessage": "Ini akan menyembunyikan opsi {title} dari layar beranda Anda. Anda dapat menampilkannya lagi di Pengaturan.",
+  "@hideDialogMessage": {
+    "description": "Message explaining what hiding an addiction does",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "cancel": "Batal",
+  "@cancel": {
+    "description": "Cancel button text used throughout the app"
+  },
+  "hide": "Sembunyikan",
+  "@hide": {
+    "description": "Hide button text in hide addiction dialog"
+  },
+  "stopTrackingDialogTitle": "Berhenti melacak {title}?",
+  "@stopTrackingDialogTitle": {
+    "description": "Title for stop tracking confirmation dialog",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "stopTrackingDialogMessage": "Ini akan menghapus {title} dari layar beranda Anda. Riwayat pencapaian Anda akan disimpan.",
+  "@stopTrackingDialogMessage": {
+    "description": "Message for stop tracking confirmation dialog",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "stopTracking": "Hapus",
+  "@stopTracking": {
+    "description": "Remove button text in stop tracking dialog"
+  },
+  "addAddictionTitle": "Melacak Kecanduan",
+  "@addAddictionTitle": {
+    "description": "Title for the add addiction picker page"
+  },
+  "addAddictionCustom": "Adat",
+  "@addAddictionCustom": {
+    "description": "Custom addiction option in addiction picker"
+  },
+  "addAddictionCustomSubtitle": "Lacak apa pun yang ingin Anda hentikan",
+  "@addAddictionCustomSubtitle": {
+    "description": "Subtitle for custom addiction option"
+  },
+  "homeEmptyTitle": "Belum ada yang terlacak",
+  "@homeEmptyTitle": {
+    "description": "Title shown on home when no addictions are being tracked"
+  },
+  "homeEmptySubtitle": "Ketuk + untuk mulai melacak kecanduan",
+  "@homeEmptySubtitle": {
+    "description": "Subtitle shown on home when no addictions are being tracked"
+  },
+  "addAddictionNoneAvailable": "Semua kecanduan yang ada sudah dilacak",
+  "@addAddictionNoneAvailable": {
+    "description": "Message shown when all addictions are already tracked"
+  },
+  "addictionAlcohol": "Alkohol",
+  "@addictionAlcohol": {
+    "description": "Name of the alcohol addiction type"
+  },
+  "addictionVaping": "Menguap",
+  "@addictionVaping": {
+    "description": "Name of the vaping addiction type"
+  },
+  "addictionSmoking": "Merokok",
+  "@addictionSmoking": {
+    "description": "Name of the smoking addiction type"
+  },
+  "addictionMarijuana": "Ganja",
+  "@addictionMarijuana": {
+    "description": "Name of the marijuana addiction type"
+  },
+  "settingsLocaleUnsupported": "Tidak didukung",
+  "@settingsLocaleUnsupported": {
+    "description": "An error occurred. This setting is not supported."
+  },
+  "settingsLocaleJapanese": "Jepang",
+  "@settingsLocaleJapanese": {
+    "description": "Show app in Japanese"
+  },
+  "settingsLocaleEnglish": "Bahasa Inggris",
+  "@settingsLocaleEnglish": {
+    "description": "Show app in English"
+  },
+  "settingsLocaleGerman": "Jerman",
+  "@settingsLocaleGerman": {
+    "description": "Show app in German"
+  },
+  "settingsLocaleSimplifiedChinese": "Bahasa Mandarin Sederhana",
+  "settingsLocaleTraditionalChinese": "Bahasa Cina Tradisional",
+  "@settingsLocaleTraditionalChinese": {
+    "description": "Show app in Traditional Chinese"
+  },
+  "@settingsLocaleSimplifiedChinese": {
+    "description": "Show app in Simplified Chinese"
+  },
+  "settingsLocaleRussian": "Rusia",
+  "@settingsLocaleRussian": {
+    "description": "Show app in Russian"
+  },
+  "settingsLocaleSpanish": "Spanyol",
+  "@settingsLocaleSpanish": {
+    "description": "Show app in Spanish"
+  },
+  "settingsLocaleFrench": "Perancis",
+  "@settingsLocaleFrench": {
+    "description": "Show app in French"
+  },
+  "settingsLocaleSystem": "Bawaan sistem",
+  "@settingsLocaleSystem": {
+    "description": "Follows the device locale"
+  },
+  "settingsLocale": "Bahasa",
+  "@settingsLocale": {
+    "description": "Language for the text in Quitter"
+  },
+  "addictionNicotinePouches": "Kantong nikotin",
+  "@addictionNicotinePouches": {
+    "description": "Name of the nicotine pouches addiction type"
+  },
+  "addictionHeroin": "Zat heroin",
+  "@addictionHeroin": {
+    "description": "Name of the heroin addiction type"
+  },
+  "addictionOpioids": "Opioid",
+  "@addictionOpioids": {
+    "description": "Name of the opioids addiction type"
+  },
+  "addictionFentanyl": "Fentanil",
+  "@addictionFentanyl": {
+    "description": "Name of the fentanyl addiction type"
+  },
+  "addictionSmokelessTobacco": "Mencelupkan / Mengunyah Tembakau",
+  "@addictionSmokelessTobacco": {
+    "description": "Name of the smokeless tobacco addiction type"
+  },
+  "smokelessTobaccoPageTitle": "Bebas Tembakau",
+  "@smokelessTobaccoPageTitle": {
+    "description": "Page title for smokeless tobacco quit milestones"
+  },
+  "smokelessTobaccoHeaderStarted": "Perjalanan bebas nikotin",
+  "@smokelessTobaccoHeaderStarted": {
+    "description": "Header shown when user has started quitting smokeless tobacco"
+  },
+  "smokelessTobaccoHeaderNotStarted": "Berhenti mencelupkan & mengunyah tembakau",
+  "@smokelessTobaccoHeaderNotStarted": {
+    "description": "Header shown when user has not started quitting smokeless tobacco"
+  },
+  "smokelessTobaccoSubtitleStarted": "Lacak kemajuan Anda dan rayakan setiap pencapaian",
+  "@smokelessTobaccoSubtitleStarted": {
+    "description": "Subtitle when smokeless tobacco quit is in progress"
+  },
+  "smokelessTobaccoSubtitleNotStarted": "Lihat apa yang terjadi ketika Anda berhenti",
+  "@smokelessTobaccoSubtitleNotStarted": {
+    "description": "Subtitle before smokeless tobacco quit starts"
+  },
+  "addictionSocialMedia": "Media Sosial",
+  "@addictionSocialMedia": {
+    "description": "Name of the social media addiction type"
+  },
+  "addictionAdultContent": "Konten Dewasa",
+  "@addictionAdultContent": {
+    "description": "Name of the adult content addiction type"
+  },
+  "search": "Cari...",
+  "@search": {
+    "description": "Generic search hint text"
+  },
+  "noSearchResults": "Tidak ada hasil yang ditemukan",
+  "clearSearch": "Hapus pencarian",
+  "@noSearchResults": {
+    "description": "Shown when a search yields no matches"
+  },
+  "homeSearchHint": "Kecanduan pencarian...",
+  "@homeSearchHint": {
+    "description": "Hint text for the home addiction search bar"
+  },
+  "homeTrackAnyway": "Tetap lacak",
+  "@homeTrackAnyway": {
+    "description": "Button to create a custom tracker from an unmatched search"
+  },
+  "iconSearchHint": "Ikon pencarian...",
+  "@iconSearchHint": {
+    "description": "Hint text for the icon picker search bar"
+  },
+  "iconNoResults": "Tidak ada ikon yang ditemukan",
+  "@iconNoResults": {
+    "description": "Shown when icon search yields no matches"
+  },
+  "milestoneOpenOriginalSource": "Buka Sumber Asli",
+  "@milestoneOpenOriginalSource": {
+    "description": "Button to open a milestone reference source"
+  },
+  "settingsExportSaveDialog": "Menyimpan data ke",
+  "@settingsExportSaveDialog": {
+    "description": "Title of the export file save dialog"
+  },
+  "settingsSearchHint": "Pengaturan pencarian...",
+  "@settingsSearchHint": {
+    "description": "Hint text for settings search bar"
+  },
+  "settingsSectionAppearance": "Penampilan",
+  "@settingsSectionAppearance": {
+    "description": "Section header for appearance settings"
+  },
+  "settingsSectionSecurity": "Keamanan",
+  "@settingsSectionSecurity": {
+    "description": "Section header for security settings"
+  },
+  "settingsSectionMainScreenItems": "Item Layar Utama",
+  "@settingsSectionMainScreenItems": {
+    "description": "Section header for main screen items settings"
+  },
+  "settingsSectionNotifications": "Pemberitahuan",
+  "@settingsSectionNotifications": {
+    "description": "Section header for notification settings"
+  },
+  "settingsSectionSystem": "Sistem",
+  "@settingsSectionSystem": {
+    "description": "Section header for system settings"
+  },
+  "settingsPinLock": "kunci PIN",
+  "@settingsPinLock": {
+    "description": "Setting title for PIN lock feature"
+  },
+  "settingsPinLockSubtitle": "Membutuhkan PIN untuk membuka aplikasi",
+  "@settingsPinLockSubtitle": {
+    "description": "Subtitle explaining PIN lock setting"
+  },
+  "settingsPinTimeout": "batas waktu PIN (detik)",
+  "@settingsPinTimeout": {
+    "description": "Label for PIN timeout setting"
+  },
+  "settingsPinTimeoutHint": "15",
+  "@settingsPinTimeoutHint": {
+    "description": "Hint text for PIN timeout field"
+  },
+  "settingsTheme": "Tema",
+  "@settingsTheme": {
+    "description": "Setting title for theme selection"
+  },
+  "settingsColorScheme": "Skema warna",
+  "@settingsColorScheme": {
+    "description": "Setting title for color scheme selection"
+  },
+  "settingsDynamicColorScheme": "Warna dinamis",
+  "@settingsDynamicColorScheme": {
+    "description": "Use the dynamic color scheme from Material 3"
+  },
+  "settingsBlueColorScheme": "Biru",
+  "@settingsBlueColorScheme": {
+    "description": "Use the blue-based color scheme."
+  },
+  "settingsGreenColorScheme": "Hijau",
+  "@settingsGreenColorScheme": {
+    "description": "Use the green-based color scheme."
+  },
+  "settingsRedColorScheme": "Merah",
+  "@settingsRedColorScheme": {
+    "description": "Use the red-based color scheme."
+  },
+  "settingsPurpleColorScheme": "Ungu",
+  "@settingsPurpleColorScheme": {
+    "description": "Use the purple-based color scheme."
+  },
+  "settingsOrangeColorScheme": "Oranye",
+  "@settingsOrangeColorScheme": {
+    "description": "Use the orange-based color scheme."
+  },
+  "settingsResetButtons": "Tombol reset",
+  "@settingsResetButtons": {
+    "description": "Setting title for reset buttons visibility"
+  },
+  "settingsResetButtonsSubtitle": "Tampilkan tombol reset pada halaman keluar",
+  "@settingsResetButtonsSubtitle": {
+    "description": "Subtitle explaining reset buttons setting"
+  },
+  "settingsShowJournal": "Tampilkan jurnal",
+  "@settingsShowJournal": {
+    "description": "Setting title for journal visibility"
+  },
+  "settingsShowBenzosSubtitle": "Tampilkan pelacakan benzo",
+  "settingsShowJournalSubtitle": "Aktifkan tab jurnal untuk mencatat pemikiran Anda",
+  "@settingsShowJournalSubtitle": {
+    "description": "Subtitle explaining show journal setting"
+  },
+  "settingsWeekStartsMonday": "Minggu dimulai pada hari Senin",
+  "@settingsWeekStartsMonday": {
+    "description": "Setting title for week start day preference"
+  },
+  "settingsWeekStartsMondaySubtitle": "Minggu kalender dimulai pada hari Senin, bukan hari Minggu",
+  "@settingsWeekStartsMondaySubtitle": {
+    "description": "Subtitle explaining week starts on Monday setting"
+  },
+  "settingsSwipeBetweenTabs": "Gesek antar tab",
+  "@settingsSwipeBetweenTabs": {
+    "description": "Setting title for swipe between tabs feature"
+  },
+  "settingsSwipeBetweenTabsSubtitle": "Menyeret jari Anda berpindah antara Jurnal, Beranda & Pengaturan",
+  "@settingsSwipeBetweenTabsSubtitle": {
+    "description": "Subtitle explaining swipe between tabs setting"
+  },
+  "settingsShowAlcoholTracking": "Tampilkan pelacakan alkohol",
+  "@settingsShowAlcoholTracking": {
+    "description": "Setting subtitle for showing alcohol tracking"
+  },
+  "settingsShowVapingTracking": "Tampilkan pelacakan vaping",
+  "@settingsShowVapingTracking": {
+    "description": "Setting subtitle for showing vaping tracking"
+  },
+  "settingsShowSmokingTracking": "Tampilkan pelacakan merokok",
+  "@settingsShowSmokingTracking": {
+    "description": "Setting subtitle for showing smoking tracking"
+  },
+  "settingsShowMarijuanaTracking": "Tampilkan pelacakan ganja",
+  "@settingsShowMarijuanaTracking": {
+    "description": "Setting subtitle for showing marijuana tracking"
+  },
+  "settingsShowNicotinePouchesTracking": "Tampilkan pelacakan kantong nikotin",
+  "@settingsShowNicotinePouchesTracking": {
+    "description": "Setting subtitle for showing nicotine pouches tracking"
+  },
+  "settingsShowOpioidsTracking": "Tampilkan pelacakan opioid",
+  "@settingsShowOpioidsTracking": {
+    "description": "Setting subtitle for showing opioids tracking"
+  },
+  "settingsShowSocialMediaTracking": "Tampilkan pelacakan media sosial",
+  "@settingsShowSocialMediaTracking": {
+    "description": "Setting subtitle for showing social media tracking"
+  },
+  "settingsShowAdderallTracking": "Tampilkan pelacakan adderall",
+  "settingsNotifyAdderall": "Beritahu adderall tentang penghentian kemajuan",
+  "settingsShowCocaineTracking": "Tampilkan pelacakan kokain",
+  "settingsShowMethTracking": "Tampilkan pelacakan sabu",
+  "settingsShowAdultContentTracking": "Tampilkan pelacakan konten dewasa",
+  "@settingsShowAdultContentTracking": {
+    "description": "Setting subtitle for showing adult content tracking"
+  },
+  "settingsNotificationFrequency": "Frekuensi notifikasi",
+  "@settingsNotificationFrequency": {
+    "description": "Setting title for notification frequency"
+  },
+  "settingsNotificationFrequencySubtitle": "Setiap {days, plural, =1 {{days} hari} other {{days} hari}} pada {time}",
+  "@settingsNotificationFrequencySubtitle": {
+    "description": "Subtitle showing notification frequency",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsNotifyAlcohol": "Beritahu kemajuan penghentian alkohol",
+  "@settingsNotifyAlcohol": {
+    "description": "Setting subtitle for alcohol notifications"
+  },
+  "settingsNotifyVaping": "Beritahu kemajuan penghentian vaping",
+  "@settingsNotifyVaping": {
+    "description": "Setting subtitle for vaping notifications"
+  },
+  "settingsNotifySmoking": "Beritahu kemajuan berhenti merokok",
+  "@settingsNotifySmoking": {
+    "description": "Setting subtitle for smoking notifications"
+  },
+  "settingsNotifyMarijuana": "Beritahu kemajuan penghentian ganja",
+  "@settingsNotifyMarijuana": {
+    "description": "Setting subtitle for marijuana notifications"
+  },
+  "settingsNotifyNicotinePouches": "Beritahu kantong nikotin untuk menghentikan kemajuan",
+  "@settingsNotifyNicotinePouches": {
+    "description": "Setting subtitle for nicotine pouches notifications"
+  },
+  "settingsNotifyBenzos": "Beritahu benzos untuk menghentikan kemajuan",
+  "settingsNotifyOpioids": "Beritahu kemajuan penghentian opioid",
+  "@settingsNotifyOpioids": {
+    "description": "Setting subtitle for opioids notifications"
+  },
+  "settingsNotifySocialMedia": "Beritahu kemajuan penghentian media sosial",
+  "@settingsNotifySocialMedia": {
+    "description": "Setting subtitle for social media notifications"
+  },
+  "settingsNotifyCocaine": "Beritahu kemajuan penghentian kokain",
+  "settingsNotifyMeth": "Beritahu kemajuan penghentian sabu",
+  "settingsNotifyAdultContent": "Beritahu konten dewasa tentang penghentian kemajuan",
+  "@settingsNotifyAdultContent": {
+    "description": "Setting subtitle for adult content notifications"
+  },
+  "settingsNotifyCustomEntry": "Beritahu {name} penghentian kemajuan",
+  "@settingsNotifyCustomEntry": {
+    "description": "Setting subtitle for custom entry notifications",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsResetMessages": "Reset pesan",
+  "@settingsResetMessages": {
+    "description": "Setting title for reset messages"
+  },
+  "settingsResetMessagesSubtitle": "Tunjukkan penguatan positif setelah kambuh",
+  "@settingsResetMessagesSubtitle": {
+    "description": "Subtitle explaining reset messages setting"
+  },
+  "settingsAbout": "Tentang",
+  "@settingsAbout": {
+    "description": "Setting title for about page"
+  },
+  "settingsWhatsNew": "Apa yang baru",
+  "@settingsWhatsNew": {
+    "description": "Setting title for what's new page"
+  },
+  "settingsEnjoyingApp": "Menikmati aplikasinya?",
+  "@settingsEnjoyingApp": {
+    "description": "Setting title for enjoying the app page"
+  },
+  "settingsReportBug": "Laporkan bug",
+  "@settingsReportBug": {
+    "description": "Setting title for reporting a bug"
+  },
+  "settingsExportData": "Ekspor data",
+  "@settingsExportData": {
+    "description": "Setting title for exporting data"
+  },
+  "settingsImportData": "Impor data",
+  "@settingsImportData": {
+    "description": "Setting title for importing data"
+  },
+  "settingsDeleteEverything": "Hapus semuanya",
+  "@settingsDeleteEverything": {
+    "description": "Setting title for deleting all data"
+  },
+  "themeLight": "Ringan",
+  "@themeLight": {
+    "description": "Light theme option"
+  },
+  "themeDark": "Gelap",
+  "@themeDark": {
+    "description": "Dark theme option"
+  },
+  "themeSystem": "Sistem",
+  "@themeSystem": {
+    "description": "System theme option"
+  },
+  "themePureBlack": "Hitam murni",
+  "@themePureBlack": {
+    "description": "Pure black theme option for OLED displays"
+  },
+  "themeMode": "Mode tema",
+  "@themeMode": {
+    "description": "Dialog title for theme mode selection"
+  },
+  "pinDialogSetTitle": "Tetapkan PIN",
+  "@pinDialogSetTitle": {
+    "description": "Dialog title for setting a PIN"
+  },
+  "pinDialogEnterPIN": "Masukkan PIN",
+  "@pinDialogEnterPIN": {
+    "description": "Label for PIN entry field"
+  },
+  "pinDialogConfirmPIN": "Konfirmasi PIN",
+  "@pinDialogConfirmPIN": {
+    "description": "Label for PIN confirmation field"
+  },
+  "pinDialogSet": "Tetapkan",
+  "@pinDialogSet": {
+    "description": "Button to confirm setting PIN"
+  },
+  "pinDialogPINsDoNotMatch": "PIN tidak cocok",
+  "@pinDialogPINsDoNotMatch": {
+    "description": "Error message when PINs don't match"
+  },
+  "pinDialogPIN": "PIN",
+  "@pinDialogPIN": {
+    "description": "Label for PIN field in verification dialog"
+  },
+  "pinDialogOK": "Oke",
+  "@pinDialogOK": {
+    "description": "OK button in PIN dialog"
+  },
+  "notificationFrequencyDialogTitle": "Frekuensi notifikasi",
+  "@notificationFrequencyDialogTitle": {
+    "description": "Dialog title for notification frequency settings"
+  },
+  "notificationFrequencyNotifyEvery": "Beritahu setiap orang",
+  "@notificationFrequencyNotifyEvery": {
+    "description": "Label for notification frequency field"
+  },
+  "notificationFrequencyDays": "hari",
+  "@notificationFrequencyDays": {
+    "description": "Suffix text for days in notification frequency"
+  },
+  "notificationFrequencyAt": "Pada",
+  "@notificationFrequencyAt": {
+    "description": "Label for notification time field"
+  },
+  "notificationFrequencySave": "Simpan",
+  "@notificationFrequencySave": {
+    "description": "Save button in notification frequency dialog"
+  },
+  "notificationTestTitle": "Afirmasi positif",
+  "@notificationTestTitle": {
+    "description": "Title for test notification"
+  },
+  "notificationTestBody": "Anda akan menerima notifikasi seperti ini setiap {days, plural, =1 {{days} hari} other {{days} hari}} untuk merayakan kemajuan Anda!",
+  "@notificationTestBody": {
+    "description": "Body text for test notification",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "deleteEverythingDialogTitle": "Hapus semuanya",
+  "@deleteEverythingDialogTitle": {
+    "description": "Dialog title for delete everything confirmation"
+  },
+  "deleteEverythingDialogMessage": "Apakah Anda yakin Anda menghapus semuanya? Tindakan ini tidak dapat dibatalkan.",
+  "@deleteEverythingDialogMessage": {
+    "description": "Message warning about deleting all data"
+  },
+  "deleteEverythingConfirm": "HAPUS!",
+  "@deleteEverythingConfirm": {
+    "description": "Button to confirm deleting everything"
+  },
+  "dataExported": "Data diekspor!",
+  "@dataExported": {
+    "description": "Toast message when data is exported successfully"
+  },
+  "dataImported": "Data berhasil diimpor!",
+  "@dataImported": {
+    "description": "Toast message when data is imported successfully"
+  },
+  "dataImportFailed": "Impor gagal",
+  "@dataImportFailed": {
+    "description": "Dialog title shown when data import fails"
+  },
+  "dataImportFailedMessage": "File yang dipilih tidak dapat diimpor. Periksa apakah itu adalah cadangan Quitter yang valid dan coba lagi.",
+  "@dataImportFailedMessage": {
+    "description": "Dialog message shown when data import fails"
+  },
+  "journalHowWasYourDay": "Bagaimana harimu?",
+  "@journalHowWasYourDay": {
+    "description": "Header text in journal entry section"
+  },
+  "journalPlaceholder": "Tulis tentang hari Anda, pikiran, perasaan, atau apa pun yang ingin Anda ingat...",
+  "@journalPlaceholder": {
+    "description": "Placeholder text for journal entry field"
+  },
+  "journalWordCount": "kata-kata {count}",
+  "@journalWordCount": {
+    "description": "Word count display in journal",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "journalPreviousMonth": "Bulan Sebelumnya",
+  "@journalPreviousMonth": {
+    "description": "Tooltip for previous month button in calendar"
+  },
+  "journalNextMonth": "Bulan Depan",
+  "@journalNextMonth": {
+    "description": "Tooltip for next month button in calendar"
+  },
+  "quitMilestonesStart": "Awal",
+  "@quitMilestonesStart": {
+    "description": "Button to start quit journey"
+  },
+  "quitMilestonesReset": "Atur Ulang",
+  "@quitMilestonesReset": {
+    "description": "Button to reset quit journey"
+  },
+  "quitMilestonesQuitDate": "Tanggal keluar",
+  "@quitMilestonesQuitDate": {
+    "description": "Label for quit date field"
+  },
+  "quitMilestonesClearTitle": "Pencapaian yang jelas untuk hari {days}?",
+  "@quitMilestonesClearTitle": {
+    "description": "Dialog title for clearing milestone",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "quitMilestonesClearMessage": "Ini akan menghapus semua waktu terakhir Anda mencapai pencapaian hari {days}.",
+  "@quitMilestonesClearMessage": {
+    "description": "Message explaining what clearing a milestone does",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "quitMilestonesClear": "Jelas",
+  "@quitMilestonesClear": {
+    "description": "Button to clear milestone"
+  },
+  "quitMilestonesShareMessage": "Saya sudah bebas dari {title} selama {days, plural, =1 {{days} hari} other {{days} hari}}!",
+  "@quitMilestonesShareMessage": {
+    "description": "Message template for sharing progress",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      },
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "timelineMilestoneDay": "Hari {days}",
+  "@timelineMilestoneDay": {
+    "description": "Milestone badge label for a day count",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "timelineMilestoneYears": "{years, plural, =1 {{years} tahun} other {{years} tahun}}",
+  "@timelineMilestoneYears": {
+    "description": "Milestone badge label for a year count",
+    "placeholders": {
+      "years": {
+        "type": "int"
+      }
+    }
+  },
+  "entryPageHeaderStarted": "Satu langkah lebih kuat",
+  "@entryPageHeaderStarted": {
+    "description": "Header text for started custom entry"
+  },
+  "entryPageHeaderNotStarted": "Belum dimulai",
+  "@entryPageHeaderNotStarted": {
+    "description": "Header text for not started custom entry"
+  },
+  "entryPageSubtitleStarted": "Anda melakukannya dengan baik!",
+  "@entryPageSubtitleStarted": {
+    "description": "Subtitle text for started custom entry"
+  },
+  "entryPageSubtitleNotStarted": "Ketuk \"Mulai\" untuk memulai perjalanan Anda",
+  "@entryPageSubtitleNotStarted": {
+    "description": "Subtitle text for not started custom entry"
+  },
+  "editEntryAddTitle": "Tambahkan entri",
+  "@editEntryAddTitle": {
+    "description": "Page title when adding a new entry"
+  },
+  "editEntryEditTitle": "Edit entri",
+  "@editEntryEditTitle": {
+    "description": "Page title when editing an entry"
+  },
+  "editEntryTitle": "Judul",
+  "@editEntryTitle": {
+    "description": "Label for entry title field"
+  },
+  "editEntryTitleError": "Silakan masukkan judul",
+  "@editEntryTitleError": {
+    "description": "Error message when title is empty"
+  },
+  "editEntryColor": "Warna",
+  "@editEntryColor": {
+    "description": "Label for color selection"
+  },
+  "editEntryIcon": "Ikon",
+  "@editEntryIcon": {
+    "description": "Label for icon selection"
+  },
+  "editEntrySave": "Simpan",
+  "@editEntrySave": {
+    "description": "Save button in edit entry page"
+  },
+  "editEntryDeleteDialogTitle": "Apakah Anda yakin?",
+  "@editEntryDeleteDialogTitle": {
+    "description": "Dialog title for delete entry confirmation"
+  },
+  "editEntryDeleteDialogMessage": "Apakah Anda benar-benar ingin menghapus entri ini?",
+  "@editEntryDeleteDialogMessage": {
+    "description": "Message asking for delete confirmation"
+  },
+  "editEntryDeleteNo": "Tidak",
+  "@editEntryDeleteNo": {
+    "description": "No button in delete dialog"
+  },
+  "editEntryDeleteYes": "Ya",
+  "@editEntryDeleteYes": {
+    "description": "Yes button in delete dialog"
+  },
+  "pinPageEnterPIN": "Masukkan PIN",
+  "@pinPageEnterPIN": {
+    "description": "Title text on PIN entry page"
+  },
+  "pinPageIncorrectPIN": "PIN salah",
+  "@pinPageIncorrectPIN": {
+    "description": "Error message for incorrect PIN"
+  },
+  "pinPageTooManyAttempts": "Terlalu banyak upaya. Coba lagi di {seconds}s.",
+  "@pinPageTooManyAttempts": {
+    "description": "Error message when too many failed PIN attempts, showing remaining lockout seconds",
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "aboutPageTitle": "Tentang",
+  "@aboutPageTitle": {
+    "description": "Title for about page"
+  },
+  "aboutVersion": "Versi",
+  "@aboutVersion": {
+    "description": "Label for app version"
+  },
+  "aboutAuthor": "Penulis",
+  "@aboutAuthor": {
+    "description": "Label for app author"
+  },
+  "aboutAuthorName": "Brandon Dick",
+  "@aboutAuthorName": {
+    "description": "Name of the app author"
+  },
+  "aboutLicense": "Lisensi",
+  "@aboutLicense": {
+    "description": "Label for app license"
+  },
+  "aboutLicenseMIT": "MIT",
+  "@aboutLicenseMIT": {
+    "description": "License type"
+  },
+  "aboutDonate": "Donasi",
+  "@aboutDonate": {
+    "description": "Label for donate option"
+  },
+  "aboutDonateSubtitle": "Membantu mendukung proyek ini",
+  "@aboutDonateSubtitle": {
+    "description": "Subtitle for donate option"
+  },
+  "aboutSourceCode": "Kode sumber",
+  "@aboutSourceCode": {
+    "description": "Label for source code link"
+  },
+  "whatsNewTitle": "Apa yang baru?",
+  "@whatsNewTitle": {
+    "description": "Title for what's new page"
+  },
+  "whatsNewSearchHint": "Cari...",
+  "@whatsNewSearchHint": {
+    "description": "Hint text for changelog search"
+  },
+  "whatsNewEnjoyingButton": "Menikmati aplikasinya?",
+  "@whatsNewEnjoyingButton": {
+    "description": "Button text to go to enjoying page from what's new"
+  },
+  "enjoyingPageTitle": "Menikmati aplikasinya?",
+  "@enjoyingPageTitle": {
+    "description": "Title for enjoying the app page"
+  },
+  "enjoyingLeaveReview": "Tinggalkan ulasan",
+  "@enjoyingLeaveReview": {
+    "description": "Option to leave a review"
+  },
+  "enjoyingLeaveReviewSubtitle": "Beri tahu saya pendapat Anda!",
+  "@enjoyingLeaveReviewSubtitle": {
+    "description": "Subtitle for leave a review option"
+  },
+  "enjoyingGiveStar": "Beri kami bintang",
+  "@enjoyingGiveStar": {
+    "description": "Option to star on GitHub"
+  },
+  "enjoyingGiveStarSubtitle": "Tunjukkan dukungan Anda di GitHub",
+  "@enjoyingGiveStarSubtitle": {
+    "description": "Subtitle for give star option"
+  },
+  "enjoyingDonate": "Donasi",
+  "@enjoyingDonate": {
+    "description": "Option to donate"
+  },
+  "enjoyingDonateSubtitle": "Mendukung pengembangan",
+  "@enjoyingDonateSubtitle": {
+    "description": "Subtitle for donate option"
+  },
+  "alcoholPageTitle": "Sadar & berkilau",
+  "@alcoholPageTitle": {
+    "description": "Page title for alcohol tracking"
+  },
+  "alcoholPageQuitDateDisplay": "{quitDate} ({days, plural, =1 {{days} hari} other {{days} hari}})",
+  "@alcoholPageQuitDateDisplay": {
+    "description": "Display quit date with elapsed days.",
+    "placeholders": {
+      "quitDate": {
+        "type": "DateTime",
+        "format": "yMMMd",
+        "description": "Quit date"
+      },
+      "days": {
+        "type": "int",
+        "description": "Number of days since the quit date"
+      }
+    }
+  },
+  "alcoholHeaderStarted": "Salam untukmu!",
+  "@alcoholHeaderStarted": {
+    "description": "Header for started alcohol quit journey"
+  },
+  "alcoholHeaderNotStarted": "Perjalanan sadar ke depan!",
+  "@alcoholHeaderNotStarted": {
+    "description": "Header for not started alcohol quit journey"
+  },
+  "alcoholSubtitleStarted": "Setiap hari adalah kemenangan 🥳",
+  "@alcoholSubtitleStarted": {
+    "description": "Subtitle for started alcohol quit journey"
+  },
+  "alcoholSubtitleNotStarted": "Siap untuk Anda yang lebih cerah? ✨",
+  "@alcoholSubtitleNotStarted": {
+    "description": "Subtitle for not started alcohol quit journey"
+  },
+  "vapingPageTitle": "Kemenangan bebas vape",
+  "@vapingPageTitle": {
+    "description": "Page title for vaping tracking"
+  },
+  "vapingHeaderStarted": "Langit cerah di depan!",
+  "@vapingHeaderStarted": {
+    "description": "Header for started vaping quit journey"
+  },
+  "vapingHeaderNotStarted": "Hidup bebas vape!",
+  "@vapingHeaderNotStarted": {
+    "description": "Header for not started vaping quit journey"
+  },
+  "vapingSubtitleStarted": "Bernapas dengan mudah, hidup bebas 🌬️",
+  "@vapingSubtitleStarted": {
+    "description": "Subtitle for started vaping quit journey"
+  },
+  "vapingSubtitleNotStarted": "Siap membuang vape? ✨",
+  "@vapingSubtitleNotStarted": {
+    "description": "Subtitle for not started vaping quit journey"
+  },
+  "smokingPageTitle": "Bebas asap rokok & melonjak",
+  "@smokingPageTitle": {
+    "description": "Page title for smoking tracking"
+  },
+  "smokingHeaderStarted": "Bernapaslah dengan mudah!",
+  "@smokingHeaderStarted": {
+    "description": "Header for started smoking quit journey"
+  },
+  "smokingHeaderNotStarted": "Perjalanan bebas asap rokok!",
+  "@smokingHeaderNotStarted": {
+    "description": "Header for not started smoking quit journey"
+  },
+  "smokingSubtitleStarted": "Setiap hari tanpa isapan adalah sebuah kemenangan 🚭",
+  "@smokingSubtitleStarted": {
+    "description": "Subtitle for started smoking quit journey"
+  },
+  "smokingSubtitleNotStarted": "Siap untuk mendapatkan kembali kesehatan Anda? ✨",
+  "@smokingSubtitleNotStarted": {
+    "description": "Subtitle for not started smoking quit journey"
+  },
+  "marijuanaPageTitle": "Perjalanan bebas ganja",
+  "@marijuanaPageTitle": {
+    "description": "Page title for marijuana tracking"
+  },
+  "marijuanaHeaderStarted": "Pikiran jernih meningkat!",
+  "@marijuanaHeaderStarted": {
+    "description": "Header for started marijuana quit journey"
+  },
+  "marijuanaHeaderNotStarted": "Hidup bebas ganja!",
+  "@marijuanaHeaderNotStarted": {
+    "description": "Header for not started marijuana quit journey"
+  },
+  "marijuanaSubtitleStarted": "Membangun kejernihan mental, hari demi hari 🧠",
+  "@marijuanaSubtitleStarted": {
+    "description": "Subtitle for started marijuana quit journey"
+  },
+  "marijuanaSubtitleNotStarted": "Siap untuk hari esok yang lebih cerah? 🌱",
+  "@marijuanaSubtitleNotStarted": {
+    "description": "Subtitle for not started marijuana quit journey"
+  },
+  "nicotinePouchesPageTitle": "Kekuatan Tanpa Kantong",
+  "@nicotinePouchesPageTitle": {
+    "description": "Page title for nicotine pouches tracking"
+  },
+  "nicotinePouchesHeaderStarted": "Segar & gratis!",
+  "@nicotinePouchesHeaderStarted": {
+    "description": "Header for started nicotine pouches quit journey"
+  },
+  "nicotinePouchesHeaderNotStarted": "Kemajuan tanpa kantong!",
+  "@nicotinePouchesHeaderNotStarted": {
+    "description": "Header for not started nicotine pouches quit journey"
+  },
+  "nicotinePouchesSubtitleStarted": "Merangkul diri Anda yang lebih cerah dan sehat ✨",
+  "@nicotinePouchesSubtitleStarted": {
+    "description": "Subtitle for started nicotine pouches quit journey"
+  },
+  "nicotinePouchesSubtitleNotStarted": "Siap membuang kantongnya? 🚀",
+  "@nicotinePouchesSubtitleNotStarted": {
+    "description": "Subtitle for not started nicotine pouches quit journey"
+  },
+  "opioidsPageTitle": "Jalan menuju perdamaian",
+  "@opioidsPageTitle": {
+    "description": "Page title for opioids tracking"
+  },
+  "opioidsHeaderStarted": "Lebih kuat setiap hari!",
+  "@opioidsHeaderStarted": {
+    "description": "Header for started opioids quit journey"
+  },
+  "opioidsHeaderNotStarted": "Jalan menuju pemulihan!",
+  "@opioidsHeaderNotStarted": {
+    "description": "Header for not started opioids quit journey"
+  },
+  "opioidsSubtitleStarted": "Rangkullah kekuatanmu 💪",
+  "@opioidsSubtitleStarted": {
+    "description": "Subtitle for started opioids quit journey"
+  },
+  "opioidsSubtitleNotStarted": "Siap untuk mendapatkan kembali hidup Anda? 💖",
+  "@opioidsSubtitleNotStarted": {
+    "description": "Subtitle for not started opioids quit journey"
+  },
+  "opioidsInfoBox": "Pemulihan adalah proses medis. Selalu berkonsultasi dengan profesional kesehatan.",
+  "@opioidsInfoBox": {
+    "description": "Important information box message for opioids recovery"
+  },
+  "socialMediaPageTitle": "Kenikmatan detoks digital",
+  "@socialMediaPageTitle": {
+    "description": "Page title for social media tracking"
+  },
+  "socialMediaHeaderStarted": "Cabut & mainkan!",
+  "@socialMediaHeaderStarted": {
+    "description": "Header for started social media quit journey"
+  },
+  "socialMediaHeaderNotStarted": "Perjalanan detoks digital!",
+  "@socialMediaHeaderNotStarted": {
+    "description": "Header for not started social media quit journey"
+  },
+  "socialMediaSubtitleStarted": "Kehidupan nyata adalah umpan terbaik 💖",
+  "@socialMediaSubtitleStarted": {
+    "description": "Subtitle for started social media quit journey"
+  },
+  "socialMediaSubtitleNotStarted": "Siap untuk mendapatkan kembali waktu Anda? 🚀",
+  "@socialMediaSubtitleNotStarted": {
+    "description": "Subtitle for not started social media quit journey"
+  },
+  "pornographyPageTitle": "Pemulihan Pornografi",
+  "@pornographyPageTitle": {
+    "description": "Page title for adult content tracking"
+  },
+  "pornographyHeaderStarted": "Membangun kendali yang langgeng",
+  "@pornographyHeaderStarted": {
+    "description": "Header for started adult content quit journey"
+  },
+  "pornographyHeaderNotStarted": "Mengubah penggunaan pornografi yang bermasalah",
+  "@pornographyHeaderNotStarted": {
+    "description": "Header for not started adult content quit journey"
+  },
+  "pornographySubtitleStarted": "Melacak pemicu, kontrol, dan pencapaian berbasis bukti",
+  "@pornographySubtitleStarted": {
+    "description": "Subtitle for started adult content quit journey"
+  },
+  "pornographySubtitleNotStarted": "Lihat penelitian apa yang mendukung dan ukur kemajuan Anda sendiri",
+  "@pornographySubtitleNotStarted": {
+    "description": "Subtitle for not started adult content quit journey"
+  },
+  "relapseMessage1": "Pemulihan tidak linier. Setiap langkah maju penting, termasuk langkah ini.",
+  "@relapseMessage1": {
+    "description": "Encouragement message for relapse"
+  },
+  "relapseMessage2": "Anda di sini, Anda sedang mencoba, dan itu membutuhkan keberanian yang nyata.",
+  "@relapseMessage2": {
+    "description": "Encouragement message for relapse"
+  },
+  "relapseMessage3": "Kemunduran tidak menghapus kemajuan Anda. Anda sedang belajar dan berkembang.",
+  "@relapseMessage3": {
+    "description": "Encouragement message for relapse"
+  },
+  "relapseMessage4": "Setiap restart adalah bukti kekuatan Anda, bukan tanda kelemahan.",
+  "@relapseMessage4": {
+    "description": "Encouragement message for relapse"
+  },
+  "relapseMessage5": "Besok adalah awal yang baru. Anda punya ini.",
+  "@relapseMessage5": {
+    "description": "Encouragement message for relapse"
+  },
+  "relapseMessage6": "Nilai Anda tidak ditentukan oleh hasil sempurna. Anda penting.",
+  "@relapseMessage6": {
+    "description": "Encouragement message for relapse"
+  },
+  "relapseMessage7": "Pemulihan adalah sebuah perjalanan dengan bukit dan lembah. Teruslah berjalan.",
+  "@relapseMessage7": {
+    "description": "Encouragement message for relapse"
+  },
+  "relapseMessage8": "Anda mempunyai kekuatan untuk memulai sebelumnya, dan Anda memilikinya lagi sekarang.",
+  "@relapseMessage8": {
+    "description": "Encouragement message for relapse"
+  },
+  "relapseMessage9": "Satu momen tidak menentukan keseluruhan perjalanan Anda ke depan.",
+  "@relapseMessage9": {
+    "description": "Encouragement message for relapse"
+  },
+  "relapseMessage10": "Berada di sini menunjukkan Anda belum menyerah. Itu sangat kuat.",
+  "@relapseMessage10": {
+    "description": "Encouragement message for relapse"
+  },
+  "relapseMessage11": "Kemajuan bukanlah tentang kesempurnaan—tetapi tentang ketekunan.",
+  "@relapseMessage11": {
+    "description": "Encouragement message for relapse"
+  },
+  "relapseMessage12": "Anda membangun ketahanan dalam setiap upaya. Teruslah membangun.",
+  "@relapseMessage12": {
+    "description": "Encouragement message for relapse"
+  },
+  "relapseMessage13": "Komitmen Anda untuk mencoba lagi sudah merupakan sebuah kemenangan.",
+  "@relapseMessage13": {
+    "description": "Encouragement message for relapse"
+  },
+  "relapseMessage14": "Penyembuhan tidak terjadi secara instan, namun terjadi seiring dengan setiap pilihan yang Anda buat.",
+  "@relapseMessage14": {
+    "description": "Encouragement message for relapse"
+  },
+  "relapseMessage15": "Anda tidak memulai dari awal—Anda melanjutkan dengan lebih banyak kebijaksanaan.",
+  "@relapseMessage15": {
+    "description": "Encouragement message for relapse"
+  },
+  "relapseMessage16": "Setiap ahli pernah menjadi pemula. Setiap profesional pernah menjadi amatir.",
+  "@relapseMessage16": {
+    "description": "Encouragement message for relapse"
+  },
+  "relapseMessage17": "Pemulihan terjadi setiap hari, terkadang satu jam pada suatu waktu.",
+  "@relapseMessage17": {
+    "description": "Encouragement message for relapse"
+  },
+  "relapseMessage18": "Anda sedang menulis cerita comeback. Ini hanya satu bab.",
+  "@relapseMessage18": {
+    "description": "Encouragement message for relapse"
+  },
+  "relapseMessage19": "Fakta bahwa kamu di sini berarti kamu peduli pada dirimu sendiri. Tunggu itu.",
+  "@relapseMessage19": {
+    "description": "Encouragement message for relapse"
+  },
+  "relapseMessage20": "Langkah kecil ke arah yang benar masih merupakan langkah maju.",
+  "@relapseMessage20": {
+    "description": "Encouragement message for relapse"
+  },
+  "undo": "Membatalkan",
+  "@undo": {
+    "description": "Undo button text in reset snackbar"
+  },
+  "ok": "Oke",
+  "@ok": {
+    "description": "OK button text used in toast messages"
+  },
+  "alcoholMilestone1Title": "Kualitas Tidur Mulai Membaik",
+  "@alcoholMilestone1Title": {
+    "description": "Alcohol milestone day 1 title"
+  },
+  "alcoholMilestone1Description": "Siklus tidur REM Anda mulai normal pada hari pertama. Meskipun alkohol mungkin membantu Anda tertidur pada awalnya, alkohol mengganggu siklus tidur nyenyak dan REM sepanjang malam, sehingga menyebabkan tidur terfragmentasi.",
+  "@alcoholMilestone1Description": {
+    "description": "Alcohol milestone day 1 description"
+  },
+  "alcoholMilestone3Title": "Pemulihan Tingkat Hidrasi",
+  "@alcoholMilestone3Title": {
+    "description": "Alcohol milestone day 3 title"
+  },
+  "alcoholMilestone3Description": "Ginjal Anda pulih dari efek diuretik alkohol. Alkohol menekan hormon antidiuretik, menyebabkan peningkatan buang air kecil dan dehidrasi. Pada hari ke 3, keseimbangan cairan tubuh Anda meningkat secara signifikan.",
+  "@alcoholMilestone3Description": {
+    "description": "Alcohol milestone day 3 description"
+  },
+  "alcoholMilestone7Title": "Sistem Kekebalan Tubuh Menguat",
+  "@alcoholMilestone7Title": {
+    "description": "Alcohol milestone day 7 title"
+  },
+  "alcoholMilestone7Description": "Sel darah putih Anda memulihkan fungsinya. Bahkan meminum minuman beralkohol dalam jumlah banyak pun dapat mengganggu fungsi kekebalan tubuh hingga 24 jam, dan konsumsi minuman beralkohol secara terus-menerus secara signifikan melemahkan kemampuan tubuh Anda untuk melawan infeksi.",
+  "@alcoholMilestone7Description": {
+    "description": "Alcohol milestone day 7 description"
+  },
+  "alcoholMilestone14Title": "Pemulihan Volume Otak Dimulai",
+  "@alcoholMilestone14Title": {
+    "description": "Alcohol milestone day 14 title"
+  },
+  "alcoholMilestone14Description": "Volume otak mulai pulih dalam dua minggu pertama. Pemikiran dan ingatan terus meningkat selama beberapa bulan berikutnya.",
+  "@alcoholMilestone14Description": {
+    "description": "Alcohol milestone day 14 description"
+  },
+  "alcoholMilestone30Title": "Tekanan Darah Menjadi Normal",
+  "@alcoholMilestone30Title": {
+    "description": "Alcohol milestone day 30 title"
+  },
+  "alcoholMilestone30Description": "Sistem kardiovaskular Anda menunjukkan peningkatan yang signifikan. Konsumsi alkohol secara teratur meningkatkan tekanan darah, namun berpantang selama sekitar satu bulan dapat membantu mengembalikan tekanan darah ke tingkat yang lebih sehat.",
+  "@alcoholMilestone30Description": {
+    "description": "Alcohol milestone day 30 description"
+  },
+  "alcoholMilestone60Title": "Fungsi Hati Meningkat",
+  "@alcoholMilestone60Title": {
+    "description": "Alcohol milestone day 60 title"
+  },
+  "alcoholMilestone60Description": "Hati Anda menunjukkan peningkatan fungsi yang terukur. Organ regeneratif ini dapat pulih secara signifikan dari kerusakan akibat alkohol, dengan enzim hati dan akumulasi lemak menunjukkan perbaikan dalam waktu 2 bulan setelah berhenti mengonsumsi alkohol.",
+  "@alcoholMilestone60Description": {
+    "description": "Alcohol milestone day 60 description"
+  },
+  "alcoholMilestone90Title": "Pemikiran dan Ingatan Meningkat Secara Substansial",
+  "@alcoholMilestone90Title": {
+    "description": "Alcohol milestone day 90 title"
+  },
+  "alcoholMilestone90Description": "Tiga bulan pertama membawa peningkatan besar dalam memori, konsentrasi, dan pengambilan keputusan, dengan pemulihan terus berlanjut pada bulan-bulan berikutnya.",
+  "@alcoholMilestone90Description": {
+    "description": "Alcohol milestone day 90 description"
+  },
+  "alcoholMilestone180Title": "Volume dan Fungsi Otak Melanjutkan Pemulihan",
+  "@alcoholMilestone180Title": {
+    "description": "Alcohol milestone day 180 title"
+  },
+  "alcoholMilestone180Description": "Enam bulan sadar memberi otak waktu yang lama untuk pulih. Volume otak dan kemampuan berpikir terus meningkat.",
+  "@alcoholMilestone180Description": {
+    "description": "Alcohol milestone day 180 description"
+  },
+  "alcoholMilestone365Title": "Pengurangan Resiko Kanker Mungkin Dimulai",
+  "@alcoholMilestone365Title": {
+    "description": "Alcohol milestone day 365 title"
+  },
+  "alcoholMilestone365Description": "Pantang selama satu tahun mungkin mulai mengurangi risiko kanker. Meskipun alkohol jelas meningkatkan risiko beberapa jenis kanker (hati, payudara, kolorektal, esofagus), penelitian mengenai jangka waktu pengurangan risiko masih terus bermunculan dan bervariasi berdasarkan jenis kanker.",
+  "@alcoholMilestone365Description": {
+    "description": "Alcohol milestone day 365 description"
+  },
+  "smokingMilestone1Title": "Karbon Monoksida Bersih",
+  "@smokingMilestone1Title": {
+    "description": "Smoking milestone day 1 title"
+  },
+  "smokingMilestone1Description": "Darahmu bernafas lagi! Dalam waktu 24 jam, kadar karbon monoksida turun ke normal dan kadar oksigen meningkat. Jantung Anda tidak perlu bekerja lembur lagi untuk memompa darah beracun ke seluruh tubuh Anda.",
+  "@smokingMilestone1Description": {
+    "description": "Smoking milestone day 1 description"
+  },
+  "smokingMilestone3Title": "Puncak Penarikan Nikotin",
+  "@smokingMilestone3Title": {
+    "description": "Smoking milestone day 3 title"
+  },
+  "smokingMilestone3Description": "Monster nikotin paling marah, tapi Anda memenangkan pertarungan! Semua nikotin telah meninggalkan sistem Anda. Nafsu mengidam yang paling buruk memang terjadi saat ini, namun hal tersebut juga merupakan tiket Anda menuju kebebasan di sisi lain.",
+  "@smokingMilestone3Description": {
+    "description": "Smoking milestone day 3 description"
+  },
+  "smokingMilestone7Title": "Rasa & Bau Meningkat Secara Dramatis",
+  "@smokingMilestone7Title": {
+    "description": "Smoking milestone day 7 title"
+  },
+  "smokingMilestone7Description": "Makanan akan menjadi petualangan lagi! Merokok merusak indra perasa dan reseptor penciuman. Satu minggu berlalu, dan Anda menemukan kembali rasa yang Anda lupa ada. Bersiaplah untuk apresiasi makanan yang serius!",
+  "@smokingMilestone7Description": {
+    "description": "Smoking milestone day 7 description"
+  },
+  "smokingMilestone14Title": "Sirkulasi & Berjalan Meningkat",
+  "@smokingMilestone14Title": {
+    "description": "Smoking milestone day 14 title"
+  },
+  "smokingMilestone14Description": "Kakimu berterima kasih pada setiap langkahmu! Sirkulasi darah meningkat secara dramatis, membuat berjalan dan berolahraga menjadi lebih mudah. Tangga itu tidak terlihat menakutkan lagi, bukan?",
+  "@smokingMilestone14Description": {
+    "description": "Smoking milestone day 14 description"
+  },
+  "smokingMilestone30Title": "Fungsi Paru-paru Meningkat",
+  "@smokingMilestone30Title": {
+    "description": "Smoking milestone day 30 title"
+  },
+  "smokingMilestone30Description": "Paru-parumu mengadakan pesta kembalinya! Silia telah tumbuh kembali dan menyapu aspal dan puing-puing selama bertahun-tahun. Kapasitas paru-paru meningkat secara signifikan, dan batuk perokok sudah menjadi sejarahnya.",
+  "@smokingMilestone30Description": {
+    "description": "Smoking milestone day 30 description"
+  },
+  "smokingMilestone90Title": "Risiko Serangan Jantung Turun Secara Signifikan",
+  "@smokingMilestone90Title": {
+    "description": "Smoking milestone day 90 title"
+  },
+  "smokingMilestone90Description": "Hatimu mengirimkan surat cinta! Tiga bulan bebas rokok dan risiko kardiovaskular Anda telah menurun secara signifikan. Sistem kardiovaskular Anda pulih lebih cepat dari yang Anda bayangkan.",
+  "@smokingMilestone90Description": {
+    "description": "Smoking milestone day 90 description"
+  },
+  "smokingMilestone180Title": "Sistem Kekebalan Tubuh Menguat",
+  "@smokingMilestone180Title": {
+    "description": "Smoking milestone day 180 title"
+  },
+  "smokingMilestone180Description": "Sistem kekebalan tubuh Anda baru saja ditingkatkan! Enam bulan tanpa merokok dan sel darah putih Anda kembali ke kekuatan penuhnya, melawan infeksi seperti layaknya seorang juara sejak lahir.",
+  "@smokingMilestone180Description": {
+    "description": "Smoking milestone day 180 description"
+  },
+  "smokingMilestone365Title": "Risiko Stroke Berkurang Secara Signifikan",
+  "@smokingMilestone365Title": {
+    "description": "Smoking milestone day 365 title"
+  },
+  "smokingMilestone365Description": "Satu tahun penuh kebebasan! Risiko stroke Anda telah menurun secara signifikan, dan pembuluh darah Anda pulih dengan baik. Anda secara resmi telah memberikan otak Anda hadiah sirkulasi dan perlindungan yang lebih baik.",
+  "@smokingMilestone365Description": {
+    "description": "Smoking milestone day 365 description"
+  },
+  "smokingMilestone1825Title": "Risiko Kanker Menurun (5 Tahun)",
+  "@smokingMilestone1825Title": {
+    "description": "Smoking milestone day 1825 title"
+  },
+  "smokingMilestone1825Description": "Lima tahun kemenangan! Risiko Anda terkena kanker mulut, tenggorokan, kerongkongan, dan kandung kemih telah turun setengahnya. Risiko kanker paru-paru juga menurun secara signifikan. Sel Anda punya waktu untuk memperbaiki dan beregenerasi.",
+  "@smokingMilestone1825Description": {
+    "description": "Smoking milestone day 1825 description"
+  },
+  "vapingMilestone1Title": "Puncak Mengidam Nikotin",
+  "@vapingMilestone1Title": {
+    "description": "Vaping milestone day 1 title"
+  },
+  "vapingMilestone1Description": "Otak Anda mengamuk nikotin, tapi Anda sudah menang! Dalam waktu 24 jam, kadar nikotin turun drastis. Nafsu mengidam yang terburuk memang terjadi saat ini, namun hal tersebut juga merupakan hal yang paling penting untuk dilampaui.",
+  "@vapingMilestone1Description": {
+    "description": "Vaping milestone day 1 description"
+  },
+  "vapingMilestone3Title": "Pernapasan Meningkat",
+  "@vapingMilestone3Title": {
+    "description": "Vaping milestone day 3 title"
+  },
+  "vapingMilestone3Description": "Paru-parumu menari gembira! Saluran bronkial mulai rileks dan kapasitas paru-paru mulai membaik. Rasa sesak di dada akibat vaping sudah mulai mereda.",
+  "@vapingMilestone3Description": {
+    "description": "Vaping milestone day 3 description"
+  },
+  "vapingMilestone7Title": "Pengembalian Rasa & Bau",
+  "@vapingMilestone7Title": {
+    "description": "Vaping milestone day 7 title"
+  },
+  "vapingMilestone7Description": "Makanan akan terasa luar biasa lagi! Nikotin meredam indra perasa dan reseptor penciuman. Seminggu berlalu, dan kekuatan super sensorik Anda kembali melakukan tur.",
+  "@vapingMilestone7Description": {
+    "description": "Vaping milestone day 7 description"
+  },
+  "vapingMilestone14Title": "Sirkulasi Meningkat",
+  "@vapingMilestone14Title": {
+    "description": "Vaping milestone day 14 title"
+  },
+  "vapingMilestone14Description": "Darahmu mengalir seperti seorang juara! Nikotin menyempitkan pembuluh darah, tetapi dua minggu bebas rokok dan sirkulasi Anda meningkat secara dramatis. Tangan dan kaki dingin, pergilah!",
+  "@vapingMilestone14Description": {
+    "description": "Vaping milestone day 14 description"
+  },
+  "vapingMilestone30Title": "Pemulihan Fungsi Paru-paru",
+  "@vapingMilestone30Title": {
+    "description": "Vaping milestone day 30 title"
+  },
+  "vapingMilestone30Description": "Paru-parumu seperti mengadakan parade perayaan! Silia (pembersih paru-paru kecil) telah beregenerasi dan fungsi paru-paru meningkat secara signifikan. Batuk pagi itu tinggal sejarah!",
+  "@vapingMilestone30Description": {
+    "description": "Vaping milestone day 30 description"
+  },
+  "vapingMilestone60Title": "Tingkat Kecemasan Menjadi Normal",
+  "@vapingMilestone60Title": {
+    "description": "Vaping milestone day 60 title"
+  },
+  "vapingMilestone60Description": "Plot twist: vaping memperburuk kecemasan, bukan lebih baik! Dua bulan kemudian, tingkat kecemasan Anda biasanya lebih rendah dan sistem saraf Anda mulai tenang.",
+  "@vapingMilestone60Description": {
+    "description": "Vaping milestone day 60 description"
+  },
+  "vapingMilestone90Title": "Fokus dan Mempertajam Memori",
+  "@vapingMilestone90Title": {
+    "description": "Vaping milestone day 90 title"
+  },
+  "vapingMilestone90Description": "Kabut otak telah meninggalkan gedung! Tiga bulan tanpa nikotin dan fokus, ingatan, serta pemikiran jernih Anda jauh lebih baik. Ini seperti meningkatkan RAM mental Anda.",
+  "@vapingMilestone90Description": {
+    "description": "Vaping milestone day 90 description"
+  },
+  "vapingMilestone180Title": "Pemulihan Kesehatan Mulut",
+  "@vapingMilestone180Title": {
+    "description": "Vaping milestone day 180 title"
+  },
+  "vapingMilestone180Description": "Mulutmu mengirimkan kartu ucapan terima kasih! Enam bulan bebas vape dan peradangan gusi berkurang, noda gigi memudar, dan risiko masalah kesehatan mulut menurun drastis.",
+  "@vapingMilestone180Description": {
+    "description": "Vaping milestone day 180 description"
+  },
+  "vapingMilestone365Title": "Pengurangan Risiko Kardiovaskular",
+  "@vapingMilestone365Title": {
+    "description": "Vaping milestone day 365 title"
+  },
+  "vapingMilestone365Description": "Hatimu benar-benar lebih kuat! Satu tahun penuh dan risiko penyakit jantung Anda turun secara signifikan. Sistem kardiovaskular Anda telah pulih dari serangan harian nikotin.",
+  "@vapingMilestone365Description": {
+    "description": "Vaping milestone day 365 description"
+  },
+  "marijuanaMilestone1Title": "Gejala Penarikan Dimulai",
+  "@marijuanaMilestone1Title": {
+    "description": "Marijuana milestone day 1 title"
+  },
+  "marijuanaMilestone1Description": "Otak Anda sedang menyesuaikan diri dengan kehidupan tanpa THC! Dalam waktu 24-48 jam, Anda mungkin mengalami mudah tersinggung, cemas, atau kesulitan tidur. Ini sepenuhnya normal - reseptor cannabinoid Anda mulai diatur ulang.",
+  "@marijuanaMilestone1Description": {
+    "description": "Marijuana milestone day 1 description"
+  },
+  "marijuanaMilestone3Title": "Puncak Gejala Fisik",
+  "@marijuanaMilestone3Title": {
+    "description": "Marijuana milestone day 3 title"
+  },
+  "marijuanaMilestone3Description": "Anda berada pada titik tersulit, tetapi semuanya menanjak mulai dari sini! Hari ke 2-6 biasanya melihat puncak gejala penarikan diri termasuk sakit kepala, berkeringat, dan perubahan suasana hati. Tubuh Anda bekerja keras untuk menyeimbangkan kembali dirinya sendiri.",
+  "@marijuanaMilestone3Description": {
+    "description": "Marijuana milestone day 3 description"
+  },
+  "marijuanaMilestone7Title": "Pola Tidur Membaik",
+  "@marijuanaMilestone7Title": {
+    "description": "Marijuana milestone day 7 title"
+  },
+  "marijuanaMilestone7Description": "Mimpi indah kembali lagi! Setelah seminggu tanpa ganja, pola tidur alami Anda mulai normal. Tidur REM pulih kembali, menghasilkan mimpi yang lebih jelas dan kualitas istirahat yang lebih baik.",
+  "@marijuanaMilestone7Description": {
+    "description": "Marijuana milestone day 7 description"
+  },
+  "marijuanaMilestone14Title": "Penarikan Akut Berakhir",
+  "@marijuanaMilestone14Title": {
+    "description": "Marijuana milestone day 14 title"
+  },
+  "marijuanaMilestone14Description": "Badai telah berlalu! Sebagian besar gejala penarikan fisik berkurang secara signifikan setelah dua minggu. Suasana hati Anda menjadi stabil dan aktivitas sehari-hari menjadi lebih mudah. Bagian tersulit ada di belakang Anda.",
+  "@marijuanaMilestone14Description": {
+    "description": "Marijuana milestone day 14 description"
+  },
+  "marijuanaMilestone30Title": "Fungsi Memori Meningkat",
+  "@marijuanaMilestone30Title": {
+    "description": "Marijuana milestone day 30 title"
+  },
+  "marijuanaMilestone30Description": "Kabut otak Anda mulai hilang! Penelitian menunjukkan bahwa pembelajaran verbal dan memori mulai meningkat secara signifikan setelah menghentikan penggunaan ganja. Hipokampus, yang penting untuk pembentukan memori, mulai berfungsi lebih baik.",
+  "@marijuanaMilestone30Description": {
+    "description": "Marijuana milestone day 30 description"
+  },
+  "marijuanaMilestone60Title": "Konsentrasi Menajam",
+  "@marijuanaMilestone60Title": {
+    "description": "Marijuana milestone day 60 title"
+  },
+  "marijuanaMilestone60Description": "Mode fokus: diaktifkan! Dua bulan tanpa ganja dan kemampuan Anda untuk berkonsentrasi dan mempertahankan perhatian menunjukkan peningkatan yang nyata. Tugas kerja dan belajar menjadi lebih mudah untuk dikelola.",
+  "@marijuanaMilestone60Description": {
+    "description": "Marijuana milestone day 60 description"
+  },
+  "marijuanaMilestone90Title": "Kembalinya Stabilitas Suasana Hati",
+  "@marijuanaMilestone90Title": {
+    "description": "Marijuana milestone day 90 title"
+  },
+  "marijuanaMilestone90Description": "Tiga bulan tanpa ganja membawa suasana hati yang lebih stabil, lebih sedikit kecemasan, dan pengendalian stres yang lebih baik. Keadaan emosi Anda mulai menjadi normal dan lebih sehat.",
+  "@marijuanaMilestone90Description": {
+    "description": "Marijuana milestone day 90 description"
+  },
+  "marijuanaMilestone180Title": "Pemulihan Perencanaan dan Pengambilan Keputusan",
+  "@marijuanaMilestone180Title": {
+    "description": "Marijuana milestone day 180 title"
+  },
+  "marijuanaMilestone180Description": "CEO mental Anda kembali bertanggung jawab! Enam bulan tanpa ganja membawa kemajuan besar dalam perencanaan, pengambilan keputusan, dan pemecahan masalah.",
+  "@marijuanaMilestone180Description": {
+    "description": "Marijuana milestone day 180 description"
+  },
+  "marijuanaMilestone365Title": "Restorasi Struktur Otak",
+  "@marijuanaMilestone365Title": {
+    "description": "Marijuana milestone day 365 title"
+  },
+  "marijuanaMilestone365Description": "Satu tahun tanpa ganja memberikan waktu yang cukup bagi area otak yang berhubungan dengan memori untuk pulih. Peningkatan pembelajaran dan memori kini menjadi bagian dari kebiasaan baru Anda.",
+  "@marijuanaMilestone365Description": {
+    "description": "Marijuana milestone day 365 description"
+  },
+  "opioidMilestone1Title": "Penarikan Akut Dimulai",
+  "@opioidMilestone1Title": {
+    "description": "Opioid milestone day 1 title"
+  },
+  "opioidMilestone1Description": "Bagian tersulit dimulai sekarang, tapi Anda tidak sendirian. Gejala putus obat akut mencapai puncaknya dalam 24-72 jam pertama. Ini adalah tubuh Anda yang memulai proses penyembuhan. Dukungan medis profesional sangat penting selama fase ini.",
+  "@opioidMilestone1Description": {
+    "description": "Opioid milestone day 1 description"
+  },
+  "opioidMilestone7Title": "Gejala Fisik Memuncak & Mulai Menurun",
+  "@opioidMilestone7Title": {
+    "description": "Opioid milestone day 7 title"
+  },
+  "opioidMilestone7Description": "Anda berhasil melewati badai! Gejala penarikan fisik terburuk biasanya mencapai puncaknya sekitar hari ke 3-5 dan mulai menurun pada hari ke 7. Tubuh Anda bekerja keras untuk memulihkan keseimbangan alaminya.",
+  "@opioidMilestone7Description": {
+    "description": "Opioid milestone day 7 description"
+  },
+  "opioidMilestone14Title": "Pola Tidur Mulai Membaik",
+  "@opioidMilestone14Title": {
+    "description": "Opioid milestone day 14 title"
+  },
+  "opioidMilestone14Description": "Mimpi indah kembali lagi! Dua minggu kemudian, arsitektur tidur alami Anda mulai pulih. Opioid mengganggu tidur REM, tetapi otak Anda belajar untuk bermimpi lagi secara alami.",
+  "@opioidMilestone14Description": {
+    "description": "Opioid milestone day 14 description"
+  },
+  "opioidMilestone30Title": "Pemikiran dan Ingatan Mulai Pulih",
+  "@opioidMilestone30Title": {
+    "description": "Opioid milestone day 30 title"
+  },
+  "opioidMilestone30Description": "Kabut otak mulai terangkat! Satu bulan bersih dan ingatan, pengambilan keputusan, dan pemikiran jernih meningkat seiring pemulihan bagian depan otak dari perubahan terkait opioid.",
+  "@opioidMilestone30Description": {
+    "description": "Opioid milestone day 30 description"
+  },
+  "opioidMilestone60Title": "Regulasi Emosional Meningkat",
+  "@opioidMilestone60Title": {
+    "description": "Opioid milestone day 60 title"
+  },
+  "opioidMilestone60Description": "Emosi Anda menemukan ritme alaminya kembali. Dua bulan dalam pemulihan dan sistem penghargaan otak Anda mulai merespons kesenangan sehari-hari. Rollercoaster emosional mulai stabil.",
+  "@opioidMilestone60Description": {
+    "description": "Opioid milestone day 60 description"
+  },
+  "opioidMilestone90Title": "Fungsi Dopamin Pulih Secara Signifikan",
+  "@opioidMilestone90Title": {
+    "description": "Opioid milestone day 90 title"
+  },
+  "opioidMilestone90Description": "Sistem penghargaan otak Anda mengadakan pesta selamat datang kembali! Fungsi bersih dan dopamin selama tiga bulan telah meningkat secara signifikan. Aktivitas alami mulai terasa bermanfaat lagi - makanan, musik, hubungan.",
+  "@opioidMilestone90Description": {
+    "description": "Opioid milestone day 90 description"
+  },
+  "opioidMilestone180Title": "Sistem Kekebalan Tubuh Menguat",
+  "@opioidMilestone180Title": {
+    "description": "Opioid milestone day 180 title"
+  },
+  "opioidMilestone180Description": "Sistem kekebalan Anda kembali bertugas patroli! Enam bulan pemulihan dan pertahanan alami tubuh Anda telah diperkuat secara signifikan. Anda lebih siap untuk melawan infeksi dan penyakit.",
+  "@opioidMilestone180Description": {
+    "description": "Opioid milestone day 180 description"
+  },
+  "opioidMilestone365Title": "Plastisitas Syaraf & Struktur Otak Meningkat",
+  "@opioidMilestone365Title": {
+    "description": "Opioid milestone day 365 title"
+  },
+  "opioidMilestone365Description": "Otak Anda sedang sibuk merenovasi! Pemulihan satu tahun penuh menunjukkan perbaikan signifikan pada struktur otak dan plastisitas saraf. Perubahan akibat penggunaan opioid kronis mengalami penyembuhan yang sangat baik.",
+  "@opioidMilestone365Description": {
+    "description": "Opioid milestone day 365 description"
+  },
+  "opioidMilestone730Title": "Stabilitas Pemulihan Jangka Panjang (2 Tahun)",
+  "@opioidMilestone730Title": {
+    "description": "Opioid milestone day 730 title"
+  },
+  "opioidMilestone730Description": "Dua tahun kekuatan dan ketahanan! Anda telah membangun jalur saraf baru, strategi penanggulangan, dan pola hidup. Penelitian menunjukkan bahwa mencapai tahap ini secara dramatis mengurangi risiko kambuh. Anda adalah pejuang pemulihan!",
+  "@opioidMilestone730Description": {
+    "description": "Opioid milestone day 730 description"
+  },
+  "socialMediaMilestone1Title": "Detoks Digital Hari Pertama! 🎯",
+  "@socialMediaMilestone1Title": {
+    "description": "Social media milestone day 1 title"
+  },
+  "socialMediaMilestone1Description": "Anda secara resmi telah mulai memperbarui otak Anda! Penelitian menunjukkan bahwa berpikir untuk memeriksa media sosial memicu jalur saraf yang sama dengan kecanduan. Tapi Anda sudah memutus siklusnya - ayo!",
+  "@socialMediaMilestone1Description": {
+    "description": "Social media milestone day 1 description"
+  },
+  "socialMediaMilestone3Title": "FOMO? Lebih Seperti FO-NO! 😎",
+  "@socialMediaMilestone3Title": {
+    "description": "Social media milestone day 3 title"
+  },
+  "socialMediaMilestone3Description": "Tiga hari berlalu dan mereka cemas 'apa yang saya lewatkan?' pikiran sudah memudar. Anda melatih otak Anda bahwa kehidupan nyata jauh lebih menarik daripada feed yang dikurasi!",
+  "@socialMediaMilestone3Description": {
+    "description": "Social media milestone day 3 description"
+  },
+  "socialMediaMilestone7Title": "Rentang Perhatian: Ikan Mas → Manusia 🧠",
+  "@socialMediaMilestone7Title": {
+    "description": "Social media milestone day 7 title"
+  },
+  "socialMediaMilestone7Description": "Minggu pertama selesai! Kemampuan Anda untuk fokus tanpa memeriksa ponsel setiap beberapa menit sudah meningkat. Penelitian menunjukkan otak kita mendambakan serangan dopamin dari notifikasi - namun Anda mengajarkan otak Anda untuk mencari imbalan di tempat lain!",
+  "@socialMediaMilestone7Description": {
+    "description": "Social media milestone day 7 description"
+  },
+  "socialMediaMilestone14Title": "Tidur Seperti Bayi (Bukan Zombie) 😴",
+  "@socialMediaMilestone14Title": {
+    "description": "Social media milestone day 14 title"
+  },
+  "socialMediaMilestone14Description": "Dua minggu tanpa scrolling sebelum tidur = kualitas tidur lebih baik! Cahaya biru dari layar menekan produksi melatonin, namun ritme tidur alami Anda kembali normal.",
+  "@socialMediaMilestone14Description": {
+    "description": "Social media milestone day 14 description"
+  },
+  "socialMediaMilestone30Title": "Teman Sejati > Suka Palsu 💝",
+  "@socialMediaMilestone30Title": {
+    "description": "Social media milestone day 30 title"
+  },
+  "socialMediaMilestone30Description": "Satu bulan offline = pengurangan kesepian dan depresi secara signifikan! Penelitian membuktikan bahwa membatasi media sosial menciptakan peningkatan kesehatan mental yang besar. Anda telah melangkah lebih jauh!",
+  "@socialMediaMilestone30Description": {
+    "description": "Social media milestone day 30 description"
+  },
+  "socialMediaMilestone60Title": "Perangkap Perbandingan: LARI! ✨",
+  "@socialMediaMilestone60Title": {
+    "description": "Social media milestone day 60 title"
+  },
+  "socialMediaMilestone60Description": "Dua bulan tanpa perbandingan sosial yang konstan = kepercayaan diri yang tinggi! Penelitian secara konsisten menunjukkan bahwa penggunaan media sosial berkorelasi dengan penurunan harga diri, terutama jika dibandingkan dengan peningkatan sosial. Anda telah terbebas dari jebakan perbandingan!",
+  "@socialMediaMilestone60Description": {
+    "description": "Social media milestone day 60 description"
+  },
+  "socialMediaMilestone90Title": "Kolektor Hobi Level: Ahli 🎨",
+  "@socialMediaMilestone90Title": {
+    "description": "Social media milestone day 90 title"
+  },
+  "socialMediaMilestone90Description": "Tiga bulan = kira-kira 270+ jam diperoleh kembali! Waktu yang cukup untuk mempelajari suatu keterampilan, membaca 15+ buku, atau mendalami hobi. Otak Anda memperkuat kebiasaan yang Anda ulangi, sehingga rutinitas offline tersebut menjadi lebih mudah dan otomatis.",
+  "@socialMediaMilestone90Description": {
+    "description": "Social media milestone day 90 description"
+  },
+  "socialMediaMilestone180Title": "Kesehatan Mental Glow-Up Lengkap 🌟",
+  "@socialMediaMilestone180Title": {
+    "description": "Social media milestone day 180 title"
+  },
+  "socialMediaMilestone180Description": "Enam bulan offline dan Anda resmi berkembang! Penelitian jangka panjang menunjukkan bahwa mengurangi penggunaan media sosial menghasilkan peningkatan kesejahteraan, harga diri, dan kepuasan hidup yang berkelanjutan. Anda adalah bukti nyata bahwa hidup lebih baik di dunia nyata!",
+  "@socialMediaMilestone180Description": {
+    "description": "Social media milestone day 180 description"
+  },
+  "socialMediaMilestone365Title": "Master Zen Digital Tercapai 🏆",
+  "@socialMediaMilestone365Title": {
+    "description": "Social media milestone day 365 title"
+  },
+  "socialMediaMilestone365Description": "Satu tahun penuh hidup yang disengaja! Anda telah mendapatkan kembali 1.000+ jam, membentuk hubungan yang lebih dalam, dan membuktikan bahwa momen terbaik dalam hidup tidak dimaksudkan untuk dibagikan - melainkan untuk dialami. Anda resmi menjadi legenda kesehatan digital!",
+  "@socialMediaMilestone365Description": {
+    "description": "Social media milestone day 365 description"
+  },
+  "nicotinePouchesMilestone1Title": "Rasa & Bau Mulai Pemulihan",
+  "@nicotinePouchesMilestone1Title": {
+    "description": "Nicotine pouches milestone day 1 title"
+  },
+  "nicotinePouchesMilestone1Description": "Nikotin menumpulkan indra perasa dan reseptor penciuman Anda. Setelah 24 jam tanpa kantong, indra ini memulai tur comeback mereka! Makanan akan terasa luar biasa lagi.",
+  "@nicotinePouchesMilestone1Description": {
+    "description": "Nicotine pouches milestone day 1 description"
+  },
+  "nicotinePouchesMilestone3Title": "Nikotin Dihilangkan Sepenuhnya",
+  "@nicotinePouchesMilestone3Title": {
+    "description": "Nicotine pouches milestone day 3 title"
+  },
+  "nicotinePouchesMilestone3Description": "Tubuh Anda secara resmi telah mengusir semua nikotin! Meskipun gejala penarikan diri mungkin mencapai puncaknya saat ini, ingatlah - ini adalah otak Anda yang sedang mempersiapkan diri untuk kebebasan. Bagian tersulitnya hampir berakhir.",
+  "@nicotinePouchesMilestone3Description": {
+    "description": "Nicotine pouches milestone day 3 description"
+  },
+  "nicotinePouchesMilestone7Title": "Kesehatan Mulut Meningkat",
+  "@nicotinePouchesMilestone7Title": {
+    "description": "Nicotine pouches milestone day 7 title"
+  },
+  "nicotinePouchesMilestone7Description": "Gusimu sedang mengadakan perayaan! Kantong nikotin dapat menyebabkan iritasi dan resesi gusi. Setelah seminggu, aliran darah ke gusi Anda menjadi normal dan penyembuhan dimulai.",
+  "@nicotinePouchesMilestone7Description": {
+    "description": "Nicotine pouches milestone day 7 description"
+  },
+  "nicotinePouchesMilestone14Title": "Peningkatan Sirkulasi",
+  "@nicotinePouchesMilestone14Title": {
+    "description": "Nicotine pouches milestone day 14 title"
+  },
+  "nicotinePouchesMilestone14Description": "Pembuluh darahmu menari gembira! Nikotin menyempitkan pembuluh darah, tetapi dua minggu bebas dan sirkulasi Anda meningkat secara signifikan. Halo, tangan dan kaki yang lebih hangat!",
+  "@nicotinePouchesMilestone14Description": {
+    "description": "Nicotine pouches milestone day 14 description"
+  },
+  "nicotinePouchesMilestone30Title": "Respon Stres Menjadi Normal",
+  "@nicotinePouchesMilestone30Title": {
+    "description": "Nicotine pouches milestone day 30 title"
+  },
+  "nicotinePouchesMilestone30Description": "Plot twist: nikotin sebenarnya meningkatkan stres di antara penggunaan! Respon kortisol dan stres Anda kembali normal. Relaksasi yang sesungguhnya, bukan nikotin yang dipalsukan.",
+  "@nicotinePouchesMilestone30Description": {
+    "description": "Nicotine pouches milestone day 30 description"
+  },
+  "nicotinePouchesMilestone60Title": "Kualitas Tidur Meningkat",
+  "@nicotinePouchesMilestone60Title": {
+    "description": "Nicotine pouches milestone day 60 title"
+  },
+  "nicotinePouchesMilestone60Description": "Mimpi indah terbuat dari... tanpa nikotin! Meskipun nikotin tampak menenangkan, sebenarnya nikotin mengganggu pola tidur. Dua bulan berlalu, dan siklus REM Anda pulih dengan indah.",
+  "@nicotinePouchesMilestone60Description": {
+    "description": "Nicotine pouches milestone day 60 description"
+  },
+  "nicotinePouchesMilestone90Title": "Reseptor Dopamin Pulih",
+  "@nicotinePouchesMilestone90Title": {
+    "description": "Nicotine pouches milestone day 90 title"
+  },
+  "nicotinePouchesMilestone90Description": "Sistem penghargaan otak Anda kembali online! Nikotin membajak jalur dopamin, membuat kesenangan normal terasa membosankan. Tiga bulan gratis, dan kegembiraan alami hidup kembali cerah.",
+  "@nicotinePouchesMilestone90Description": {
+    "description": "Nicotine pouches milestone day 90 description"
+  },
+  "nicotinePouchesMilestone180Title": "Penurunan Risiko Kardiovaskular",
+  "@nicotinePouchesMilestone180Title": {
+    "description": "Nicotine pouches milestone day 180 title"
+  },
+  "nicotinePouchesMilestone180Description": "Hatimu mengirimkan surat cinta! Enam bulan tanpa nikotin secara signifikan mengurangi risiko penyakit kardiovaskular. Variabilitas tekanan darah dan detak jantung Anda meningkat pesat.",
+  "@nicotinePouchesMilestone180Description": {
+    "description": "Nicotine pouches milestone day 180 description"
+  },
+  "nicotinePouchesMilestone365Title": "Kesehatan Jangka Panjang Terjamin",
+  "@nicotinePouchesMilestone365Title": {
+    "description": "Nicotine pouches milestone day 365 title"
+  },
+  "nicotinePouchesMilestone365Description": "Satu tahun kebebasan! Risiko Anda terhadap masalah kesehatan terkait nikotin terus menurun. Anda telah memutus siklus kecanduan dan mendapatkan kembali otonomi Anda. Itu sungguh heroik! 🏆",
+  "@nicotinePouchesMilestone365Description": {
+    "description": "Nicotine pouches milestone day 365 description"
+  },
+  "pornographyMilestone1Title": "Mengambil Kembali Kendali",
+  "@pornographyMilestone1Title": {
+    "description": "Pornography milestone day 1 title"
+  },
+  "pornographyMilestone1Description": "Penggunaan pornografi yang bermasalah didefinisikan sebagai gangguan kontrol dan mengakibatkan tekanan atau gangguan. Suatu hari nanti penting karena Anda telah menghentikan pola lama dan mulai mengidentifikasi apa yang memicunya.",
+  "@pornographyMilestone1Description": {
+    "description": "Pornography milestone day 1 description"
+  },
+  "pornographyMilestone3Title": "Ketahui Desakan Anda",
+  "@pornographyMilestone3Title": {
+    "description": "Pornography milestone day 3 title"
+  },
+  "pornographyMilestone3Description": "Orang dengan masalah penggunaan yang lebih parah biasanya melaporkan pikiran seksual yang mengganggu, hasrat yang sulit dikendalikan, mudah tersinggung, perubahan suasana hati, dan masalah tidur. Hari ketiga adalah poin yang berguna untuk menyebutkan hal mana yang benar-benar terjadi pada Anda.",
+  "@pornographyMilestone3Description": {
+    "description": "Pornography milestone day 3 description"
+  },
+  "pornographyMilestone7Title": "Satu Minggu: Bukti Percobaan",
+  "@pornographyMilestone7Title": {
+    "description": "Pornography milestone day 7 title"
+  },
+  "pornographyMilestone7Description": "Dalam studi pantang secara acak selama 7 hari, pengguna reguler tidak menunjukkan sindrom penarikan secara keseluruhan. Subkelompok eksplorasi dengan penggunaan bermasalah yang tinggi dan tontonan harian memiliki keinginan yang lebih besar, sehingga minggu pertama yang sulit mungkin saja terjadi, tetapi bukannya tidak bisa dihindari.",
+  "@pornographyMilestone7Description": {
+    "description": "Pornography milestone day 7 description"
+  },
+  "pornographyMilestone14Title": "Petakan Pemicu Anda",
+  "@pornographyMilestone14Title": {
+    "description": "Pornography milestone day 14 title"
+  },
+  "pornographyMilestone14Description": "Dua minggu memberi Anda paparan berulang terhadap situasi yang dulunya merupakan isyarat pornografi. Penelitian menghubungkan penggunaan yang bermasalah dengan faktor-faktor termasuk keinginan, stres, penghindaran, kesepian, dan gaya mengatasi; mengetahui pola Anda sendiri memberi Anda sesuatu yang konkret untuk diubah.",
+  "@pornographyMilestone14Description": {
+    "description": "Pornography milestone day 14 description"
+  },
+  "pornographyMilestone30Title": "Bulan Kendali",
+  "@pornographyMilestone30Title": {
+    "description": "Pornography milestone day 30 title"
+  },
+  "pornographyMilestone30Description": "Sebulan adalah ujian kendali yang berarti. Dalam penelitian yang melibatkan 14.581 orang, masalah fungsi seksual dikaitkan lebih kuat dengan penggunaan yang bermasalah dibandingkan dengan frekuensi menonton biasa, sehingga mendapatkan kembali kendali adalah target yang lebih berbasis bukti.",
+  "@pornographyMilestone30Description": {
+    "description": "Pornography milestone day 30 description"
+  },
+  "pornographyMilestone90Title": "Perubahan Dapat Ditahan",
+  "@pornographyMilestone90Title": {
+    "description": "Pornography milestone day 90 title"
+  },
+  "pornographyMilestone90Description": "Uji coba ACT secara acak untuk penggunaan pornografi bermasalah menemukan penurunan besar dalam penayangan setelah 12 sesi, dengan pengurangan substansial masih terjadi pada tindak lanjut 3 bulan. Perubahan yang bertahan lama adalah hal yang realistis, terutama ketika Anda membangun keterampilan terstruktur daripada hanya mengandalkan kemauan keras.",
+  "@pornographyMilestone90Description": {
+    "description": "Pornography milestone day 90 description"
+  },
+  "pornographyMilestone180Title": "Stabilitas Enam Bulan",
+  "@pornographyMilestone180Title": {
+    "description": "Pornography milestone day 180 title"
+  },
+  "pornographyMilestone180Description": "Sebuah studi CBT acak untuk perilaku seksual di luar kendali menemukan perbaikan gejala, kompulsifitas seksual, dan kesejahteraan yang tetap stabil pada masa tindak lanjut 3 dan 6 bulan. Pengendalian jangka panjang dapat dipertahankan.",
+  "@pornographyMilestone180Description": {
+    "description": "Pornography milestone day 180 description"
+  },
+  "pornographyMilestone365Title": "Satu Tahun: Perubahan yang Tahan Lama",
+  "@pornographyMilestone365Title": {
+    "description": "Pornography milestone day 365 title"
+  },
+  "pornographyMilestone365Description": "Data tindak lanjut satu tahun dari studi pengobatan berbasis penerimaan menemukan peserta tidak kembali ke tingkat hiperseksualitas sebelum pengobatan. Perubahan yang dipertahankan selama setahun adalah bukti kredibel dari pola yang bertahan lama, bukan tanggal yang ajaib untuk mengatur ulang otak.",
+  "@pornographyMilestone365Description": {
+    "description": "Pornography milestone day 365 description"
+  },
+  "pornographyMilestone1825Title": "Kontrol Lima Tahun",
+  "@pornographyMilestone1825Title": {
+    "description": "Pornography milestone day 1825 title"
+  },
+  "pornographyMilestone1825Description": "Lima tahun adalah pemeliharaan jangka panjang. CSBD secara klinis didefinisikan sebagai hilangnya kendali secara terus-menerus disertai tekanan atau gangguan, sehingga mempertahankan kendali dan berfungsi dengan baik selama bertahun-tahun merupakan hasil yang berarti.",
+  "@pornographyMilestone1825Description": {
+    "description": "Pornography milestone day 1825 description"
+  },
+  "customMilestone1Title": "Fase Pemulihan Awal Dimulai",
+  "@customMilestone1Title": {
+    "description": "Custom milestone day 1 title"
+  },
+  "customMilestone1Description": "Tubuh Anda memulai proses penyembuhan! Dalam waktu 24 jam setelah berhenti, sistem Anda mulai membersihkan racun dan menyesuaikan diri agar berfungsi tanpa zat adiktif. Gangguan tidur sering terjadi tetapi merupakan bagian dari proses pemulihan.",
+  "@customMilestone1Description": {
+    "description": "Custom milestone day 1 description"
+  },
+  "customMilestone3Title": "Puncak Gejala Penarikan",
+  "@customMilestone3Title": {
+    "description": "Custom milestone day 3 title"
+  },
+  "customMilestone3Description": "Anda menghadapi badai secara langsung! Gejala penarikan fisik biasanya mencapai puncaknya sekitar hari ke-3 untuk banyak zat, termasuk kecemasan, perubahan suasana hati, dan ketidaknyamanan fisik. Ini berarti Anda sedang melewati bagian tersulit.",
+  "@customMilestone3Description": {
+    "description": "Custom milestone day 3 description"
+  },
+  "customMilestone7Title": "Akhir Fase Penarikan Akut",
+  "@customMilestone7Title": {
+    "description": "Custom milestone day 7 title"
+  },
+  "customMilestone7Description": "Yang terburuk ada di belakangmu! Setelah satu minggu, gejala putus obat akut mulai mereda untuk sebagian besar zat. Tubuh Anda sedang menyesuaikan diri dengan kondisi normal baru dan mulai stabil.",
+  "@customMilestone7Description": {
+    "description": "Custom milestone day 7 description"
+  },
+  "customMilestone14Title": "Stabilisasi Pemulihan Dini",
+  "@customMilestone14Title": {
+    "description": "Custom milestone day 14 title"
+  },
+  "customMilestone14Description": "Pikiran Anda jernih! Ketenangan selama dua minggu sering kali membawa peningkatan kejernihan mental dan berkurangnya nafsu makan saat otak Anda mulai beradaptasi untuk berfungsi tanpa zat adiktif.",
+  "@customMilestone14Description": {
+    "description": "Custom milestone day 14 description"
+  },
+  "customMilestone30Title": "Pencapaian Satu Bulan",
+  "@customMilestone30Title": {
+    "description": "Custom milestone day 30 title"
+  },
+  "customMilestone30Description": "Kemenangan besar! Tiga puluh hari ketenangan menunjukkan kemajuan yang signifikan. Banyak orang mendapati pola tidur, suasana hati, dan tingkat energi terus membaik selama periode ini.",
+  "@customMilestone30Description": {
+    "description": "Custom milestone day 30 description"
+  },
+  "customMilestone90Title": "Tonggak Pemulihan Tiga Bulan",
+  "@customMilestone90Title": {
+    "description": "Custom milestone day 90 title"
+  },
+  "customMilestone90Description": "Komitmen Anda membuahkan hasil! Pemulihan selama tiga bulan merupakan pencapaian yang signifikan. Gejala putus obat pasca-akut biasanya mulai memudar, dan banyak orang melaporkan bahwa mereka merasa lebih seperti diri mereka sendiri lagi.",
+  "@customMilestone90Description": {
+    "description": "Custom milestone day 90 description"
+  },
+  "customMilestone180Title": "Pencapaian Pemulihan Enam Bulan",
+  "@customMilestone180Title": {
+    "description": "Custom milestone day 180 title"
+  },
+  "customMilestone180Description": "Anda sedang membangun perubahan yang langgeng! Ketenangan selama enam bulan sering kali membawa perbaikan berkelanjutan dalam kesehatan fisik, stabilitas emosional, dan kualitas hidup secara keseluruhan seiring proses penyembuhan tubuh Anda.",
+  "@customMilestone180Description": {
+    "description": "Custom milestone day 180 description"
+  },
+  "customMilestone365Title": "Satu Tahun Pemulihan",
+  "@customMilestone365Title": {
+    "description": "Custom milestone day 365 title"
+  },
+  "customMilestone365Description": "Sebuah pencapaian yang luar biasa! Satu tahun ketenangan merupakan tonggak penting dalam hidup. Banyak orang mengalami peningkatan signifikan dalam kesehatan fisik, hubungan, dan kesejahteraan secara keseluruhan pada saat ini.",
+  "@customMilestone365Description": {
+    "description": "Custom milestone day 365 description"
+  },
+  "customMilestone730Title": "Dua Tahun Pemulihan Berkelanjutan",
+  "@customMilestone730Title": {
+    "description": "Custom milestone day 730 title"
+  },
+  "customMilestone730Description": "Anda telah membangun kehidupan baru! Pemulihan selama dua tahun menunjukkan ketahanan dan komitmen yang luar biasa. Ketenangan jangka panjang sering kali membawa perubahan positif yang besar di semua bidang kehidupan dan secara signifikan mengurangi risiko kambuh.",
+  "@customMilestone730Description": {
+    "description": "Custom milestone day 730 description"
+  },
+  "addictionSsri": "SSRI",
+  "@addictionSsri": {
+    "description": "SSRI addiction name"
+  },
+  "ssriPageTitle": "Pemulihan SSRI",
+  "ssriHeaderStarted": "Perjalanan Pemulihan Anda",
+  "ssriHeaderNotStarted": "Manfaat Mengurangi SSRI",
+  "ssriSubtitleStarted": "Lacak kemajuan Anda dan rayakan setiap pencapaian",
+  "ssriSubtitleNotStarted": "Lihat apa yang terjadi saat Anda melakukan pengurangan bertahap",
+  "ssriMilestone3Title": "Hari 3: Puncak Sindrom FINISH",
+  "ssriMilestone3Description": "Gejala putus obat sering kali mencapai puncaknya sekitar hari ke 2–4. SSRI mengubah cara serotonin didaur ulang, sehingga otak memerlukan waktu untuk menyesuaikan diri setelah Anda berhenti. Harapkan gejala seperti flu, pusing, susah tidur, mual, dan 'brain zaps'. Paroxetine cenderung menyebabkan penarikan yang lebih kuat; fluoxetine bertahan lebih lama di dalam tubuh dan biasanya lebih ringan.",
+  "ssriMilestone7Title": "Satu Minggu: Fase Akut Mulai Mereda",
+  "ssriMilestone7Description": "Gejala fisik paling intens mulai mereda. Otak Anda menyesuaikan sinyal serotoninnya agar berfungsi tanpa obat. Tidur dan nafsu makan mulai stabil.",
+  "ssriMilestone14Title": "Dua Minggu: Gejala Fisik Menyelesaikan",
+  "ssriMilestone14Description": "Sebagian besar gejala penghentian fisik akut telah berkurang atau teratasi secara signifikan. Gangguan otak, mual, dan pusing memudar. Sensitivitas emosional mungkin masih meningkat seiring otak Anda terus menyeimbangkan kembali sistem serotoninnya.",
+  "ssriMilestone30Title": "Satu Bulan: Menstabilkan Suasana Hati dan Energi",
+  "ssriMilestone30Description": "Satu bulan menandai tonggak sejarah yang signifikan. Kualitas tidur membaik, tingkat energi menjadi stabil, dan banyak orang menyadari suasana hati mereka mulai menemukan keseimbangan baru. Otak secara aktif memulihkan regulasi serotonin alaminya.",
+  "ssriMilestone90Title": "Tiga Bulan: Pemulihan Reseptor Serotonin",
+  "ssriMilestone90Description": "Tiga bulan adalah tonggak pemulihan yang besar. Sistem serotonin membutuhkan waktu berbulan-bulan untuk menyesuaikan diri setelah obatnya habis. Suasana hati, kecemasan, fokus, dan pemikiran jernih jauh lebih baik bagi kebanyakan orang.",
+  "ssriMilestone180Title": "Enam Bulan: Penyesuaian Otak Jangka Panjang",
+  "ssriMilestone180Description": "Enam bulan memungkinkan penyesuaian neurologis yang substansial. Sistem serotonin otak telah menemukan keseimbangan alaminya. Banyak orang melaporkan peningkatan rentang emosi dan, bagi mereka yang mengalaminya, disfungsi seksual yang disebabkan oleh SSRI biasanya telah teratasi.",
+  "ssriMilestone365Title": "Satu Tahun: Pemulihan Tercapai",
+  "ssriMilestone365Description": "Satu tahun menandai siklus pemulihan yang lengkap. Penelitian menunjukkan mayoritas orang yang menyelesaikan pengurangan bertahap dan menerima dukungan psikologis tetap sehat selama satu tahun, dengan kualitas hidup yang sebanding atau lebih baik dibandingkan mereka yang tetap menjalani pengobatan.",
+  "settingsShowSsriTracking": "Tampilkan pelacakan SSRI",
+  "settingsNotifySsri": "Beritahu kemajuan penghentian SSRI",
+  "addictionSnri": "SNRI",
+  "@addictionSnri": {
+    "description": "SNRI addiction name"
+  },
+  "snriPageTitle": "Pemulihan SNRI",
+  "snriHeaderStarted": "Perjalanan Pemulihan Anda",
+  "snriHeaderNotStarted": "Manfaat Mengurangi SNRI",
+  "snriSubtitleStarted": "Lacak kemajuan Anda dan rayakan setiap pencapaian",
+  "snriSubtitleNotStarted": "Lihat apa yang terjadi saat Anda melakukan pengurangan bertahap",
+  "snriMilestone3Title": "Hari 3: Puncak Sindrom Penghentian Intens",
+  "snriMilestone3Description": "SNRI - khususnya venlafaxine (Effexor) - dikaitkan dengan beberapa sindrom penghentian antidepresan yang paling parah. Waktu paruh Venlafaxine yang sangat singkat (5 jam) berarti gejalanya bisa lebih intens dibandingkan kebanyakan SSRI. Gejala FINISH (perasaan seperti flu, insomnia, mual, ketidakseimbangan, gangguan sensorik, hiperarousal) mempengaruhi sistem serotonin dan norepinefrin secara bersamaan.",
+  "snriMilestone7Title": "Satu Minggu: Dua Sistem Kimia Otak Menyesuaikan",
+  "snriMilestone7Description": "SNRI mempengaruhi reuptake serotonin dan norepinefrin. Kedua sistem melakukan penyesuaian secara bersamaan. Gejala fisik yang paling intens mulai mereda, namun mekanisme ganda berarti penyesuaian bisa terasa lebih kompleks dibandingkan dengan SSRI saja.",
+  "snriMilestone14Title": "Dua Minggu: Gejala Fisik Memudar",
+  "snriMilestone14Description": "Sebagian besar gejala penghentian fisik akut telah berkurang secara signifikan. Gangguan otak, mual, dan pusing memudar. Penyesuaian kembali sistem norepinefrin mungkin masih menyebabkan kecemasan atau fluktuasi tekanan darah – hal ini biasanya akan hilang dalam beberapa minggu mendatang.",
+  "snriMilestone30Title": "Satu Bulan: Penstabilan Sistem Norepinefrin",
+  "snriMilestone30Description": "Satu bulan menandai tonggak sejarah yang signifikan. Sistem serotonin dan norepinefrin secara aktif melakukan penyeimbangan kembali. Kualitas tidur dan tingkat energi menjadi stabil. Banyak orang merasakan peningkatan rentang emosi ketika efek obat terhadap penumpulan emosi mulai teratasi.",
+  "snriMilestone90Title": "Tiga Bulan: Penyeimbangan Kembali Sistem Ganda",
+  "snriMilestone90Description": "Tiga bulan adalah tonggak pemulihan yang besar. Sistem serotonin dan noradrenalin membutuhkan waktu berbulan-bulan untuk menyesuaikan diri. Suasana hati, kecemasan, fokus, dan pemikiran jernih jauh lebih baik setelah pengurangan yang diawasi.",
+  "snriMilestone180Title": "Enam Bulan: Pemulihan Neurologis",
+  "snriMilestone180Description": "Enam bulan memungkinkan penyesuaian kembali sistem serotonin dan norepinefrin secara substansial. Sumbu HPA – yang dipengaruhi oleh SNRI melalui norepinefrin – menjadi normal. Banyak orang melaporkan peningkatan ketahanan terhadap stres sehari-hari pada saat ini.",
+  "snriMilestone365Title": "Satu Tahun: Pemulihan Tercapai",
+  "snriMilestone365Description": "Satu tahun menandai siklus lengkap pemulihan ganda serotonin-norepinefrin. Penelitian secara konsisten menunjukkan bahwa orang yang berhasil menghentikan SNRI di bawah pengawasan medis dan dengan dukungan psikologis akan mempertahankan hasil yang baik dalam satu tahun.",
+  "settingsShowSnriTracking": "Tampilkan pelacakan SNRI",
+  "settingsNotifySnri": "Beritahu SNRI tentang kemajuan penghentian",
+  "addictionTca": "TCA",
+  "@addictionTca": {
+    "description": "Tricyclic antidepressant addiction name"
+  },
+  "tcaPageTitle": "Pemulihan TCA",
+  "tcaHeaderStarted": "Perjalanan Pemulihan Anda",
+  "tcaHeaderNotStarted": "Manfaat Pengurangan TCA",
+  "tcaSubtitleStarted": "Lacak kemajuan Anda dan rayakan setiap pencapaian",
+  "tcaSubtitleNotStarted": "Lihat apa yang terjadi saat Anda melakukan pengurangan bertahap",
+  "tcaMilestone3Title": "Hari 3: Puncak Rebound Asetilkolin",
+  "tcaMilestone3Description": "TCA memblokir asetilkolin. Setelah berhenti, sistem tersebut dapat menjadi terlalu aktif untuk sementara waktu. Gejalanya meliputi mual, diare, kram perut, keringat berlebih, sakit kepala, nyeri otot, dan insomnia. Gejala-gejala ini biasanya memuncak pada tahap awal dan kemudian mereda.",
+  "tcaMilestone7Title": "Satu Minggu: Gejala Rebound Mereda",
+  "tcaMilestone7Description": "Rebound asetilkolin biasanya mencapai puncaknya dalam beberapa hari pertama dan mulai mereda dalam satu minggu. Gejala perut, berkeringat, dan rasa seperti flu berkurang, sementara sistem tubuh yang mengontrol detak jantung, pencernaan, dan keringat kembali normal.",
+  "tcaMilestone14Title": "Dua Minggu: Pembalikan Efek Antikolinergik",
+  "tcaMilestone14Description": "Mulut kering, sembelit, kesulitan buang air kecil, dan penglihatan kabur yang disebabkan oleh TCA akan hilang seiring dengan pemulihan sistem asetilkolin. Ingatan dan perhatian juga sering kali terasa lebih jelas.",
+  "tcaMilestone30Title": "Satu Bulan: Stabilisasi Sistem Saraf Otonom",
+  "tcaMilestone30Description": "Dalam satu bulan, sistem tubuh yang mengontrol detak jantung, tekanan darah, pencernaan, dan keringat mulai membaik. Irama jantung dan perubahan tekanan darah bergerak menuju normal, dan tidur mimpi REM kembali.",
+  "tcaMilestone90Title": "Tiga Bulan: Penyelesaian Sistem Kimia Otak",
+  "tcaMilestone90Description": "TCA mempengaruhi beberapa sistem kimia otak. Tiga bulan memberi mereka waktu yang cukup untuk menetap. Suasana hati, pemikiran jernih, dan kesejahteraan fisik jauh lebih baik.",
+  "tcaMilestone180Title": "Enam Bulan: Pemulihan Jantung dan Berpikir",
+  "tcaMilestone180Description": "Enam bulan memungkinkan pemulihan besar dalam ritme jantung, memori, dan kecepatan berpikir. Perubahan ritme jantung dan kabut otak yang disebabkan oleh TCA membutuhkan waktu berbulan-bulan untuk diselesaikan.",
+  "tcaMilestone365Title": "Satu Tahun: Pemulihan Tercapai",
+  "tcaMilestone365Description": "Satu tahun memberi setiap sistem yang terkena dampak TCA satu tahun penuh untuk pulih. Sistem asetilkolin, noradrenalin, serotonin, dan histamin telah membaik, dan ingatan, pemikiran jernih, serta kontrol detak jantung telah pulih secara substansial.",
+  "settingsShowTcaTracking": "Tampilkan pelacakan TCA",
+  "settingsNotifyTca": "Beritahu kemajuan penghentian TCA",
+  "addictionMaoi": "MAOI",
+  "@addictionMaoi": {
+    "description": "MAOI addiction name"
+  },
+  "maoiPageTitle": "Pemulihan MAOI",
+  "maoiHeaderStarted": "Perjalanan Pemulihan Anda",
+  "maoiHeaderNotStarted": "Manfaat Mengurangi MAOI",
+  "maoiSubtitleStarted": "Lacak kemajuan Anda dan rayakan setiap pencapaian",
+  "maoiSubtitleNotStarted": "Lihat apa yang terjadi saat Anda melakukan pengurangan bertahap",
+  "maoiMilestone3Title": "Hari 3: Fase Risiko Tertinggi — Pentingnya Pengawasan Medis",
+  "maoiMilestone3Description": "MAOI membawa risiko penghentian paling serius dibandingkan kelas antidepresan mana pun. Penghentian penggunaan secara tiba-tiba – terutama phenelzine dan tranylcypromine – dapat menyebabkan agitasi parah, kebingungan, halusinasi, mioklonus, dan hipertermia. Jika Anda mengalami gejala-gejala ini, segera dapatkan bantuan medis. MAOI bekerja dengan menonaktifkan enzim MAO secara permanen; pemulihan membutuhkan tubuh untuk mensintesis enzim baru, sebuah proses yang memakan waktu sekitar 14 hari.",
+  "maoiMilestone7Title": "Satu Minggu: Sintesis Enzim MAO Sedang Berlangsung",
+  "maoiMilestone7Description": "MAOI secara permanen menghancurkan molekul enzim MAO; pemulihan membutuhkan sintesis enzim yang sama sekali baru. Dalam satu minggu, sekitar 50% aktivitas MAO normal mungkin telah pulih. Gejala penghentian akut yang parah (delirium, mioklonus, hipertermia) berkurang secara signifikan. Pengawasan medis yang ketat tetap penting.",
+  "maoiMilestone14Title": "Dua Minggu: Aktivitas Enzim MAO Pulih Secara Substansial",
+  "maoiMilestone14Description": "Dua minggu adalah jangka waktu klinis standar untuk pemulihan enzim MAO setelah penghentian. Sekitar hari ke 14, aktivitas MAO-A dan MAO-B sebagian besar pulih dan metabolisme tyramine normal kembali terbentuk. Pembatasan diet yang diperlukan selama pengobatan MAOI biasanya dapat dilonggarkan dengan berkonsultasi dengan dokter yang meresepkan Anda.",
+  "maoiMilestone30Title": "Satu Bulan: Penyeimbangan Kembali Sistem Kimia Otak",
+  "maoiMilestone30Description": "Satu bulan setelah menghentikan MAOI, enzim MAO aktif kembali dan otak menangani serotonin, noradrenalin, dopamin, dan tyramine secara alami. Periode interaksi makanan dan obat khusus telah berakhir, namun Anda tetap harus memberi tahu pemberi resep tentang penggunaan MAOI sebelumnya.",
+  "maoiMilestone90Title": "Tiga Bulan: Normalisasi Kimia Otak",
+  "maoiMilestone90Description": "Tiga bulan memberikan suasana hati dan sistem energi otak waktu yang cukup untuk menyesuaikan diri setelah MAOI. Suasana hati, energi, dan pemikiran jernih menjadi stabil saat otak menangani kembali bahan kimia ini secara alami.",
+  "maoiMilestone180Title": "Enam Bulan: Pemulihan Jangka Panjang",
+  "maoiMilestone180Description": "Enam bulan mewakili periode substansial fungsi monoamina alami. Populasi reseptor serotonin, norepinefrin, dan dopamin telah kembali normal. Jalur phenethylamine (PEA) yang juga terpengaruh oleh MAOI telah pulih ke tingkat alami – sebuah aspek pemulihan yang sering diabaikan dan berkontribusi pada normalisasi emosional.",
+  "maoiMilestone365Title": "Satu Tahun: Pemulihan Tercapai",
+  "maoiMilestone365Description": "Satu tahun setelah menghentikan MAOI memberi otak dan tubuh satu tahun penuh tanpa obat. Suasana hati, energi, pemikiran jernih, dan regulasi kimia otak yang normal memiliki waktu yang cukup lama untuk pulih dan tenang.",
+  "settingsShowMaoiTracking": "Tampilkan pelacakan MAOI",
+  "settingsNotifyMaoi": "Beritahu MAOI mengenai kemajuan penghentiannya",
+  "milestoneRetrieved": "Diambil {date}",
+  "@milestoneRetrieved": {
+    "description": "Label showing when a milestone reference was retrieved",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationProgressTitle": "Tidak ada {name}",
+  "@notificationProgressTitle": {
+    "description": "Progress notification title",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationProgressBody": "{days} hari bersih — {message}",
+  "@notificationProgressBody": {
+    "description": "Progress notification body",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      },
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationProgressMessage1": "Teruskan kerja luar biasa ini!",
+  "notificationProgressMessage2": "Anda melakukannya dengan baik!",
+  "notificationProgressMessage3": "Dedikasi yang luar biasa!",
+  "notificationProgressMessage4": "Merayakan kekuatan Anda!",
+  "notificationProgressMessage5": "Tetaplah bersinar!",
+  "notificationProgressMessage6": "Kerja luar biasa!",
+  "notificationProgressMessage7": "Bagus sekali!",
+  "notificationProgressMessage8": "Anda adalah juara sejati!",
+  "notificationProgressMessage9": "Upaya luar biasa!",
+  "notificationProgressMessage10": "Tetap kuat!",
+  "notificationChannelName": "Pengingat",
+  "notificationChannelDescription": "Pemberitahuan untuk pengingat kemajuan harian",
+  "notificationOpenAction": "Buka notifikasi",
+  "done": "Selesai",
+  "rename": "Ganti nama",
+  "@rename": {
+    "description": "Rename dialog title and badge tooltip"
+  },
+  "adderallReferenceDay1": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "adderallReferenceDay3": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "adderallReferenceDay7": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "adderallReferenceDay14": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "adderallReferenceDay30": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "adderallReferenceDay60": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "adderallReferenceDay90": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "adderallReferenceDay180": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "adderallReferenceDay365": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "alcoholReferenceDay1": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "alcoholReferenceDay3": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "alcoholReferenceDay7": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "alcoholReferenceDay14": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "alcoholReferenceDay30": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "alcoholReferenceDay60": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "alcoholReferenceDay90": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "alcoholReferenceDay180": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "alcoholReferenceDay365": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "benzodiazepineReferenceDay7": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "benzodiazepineReferenceDay14": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "benzodiazepineReferenceDay60": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "benzodiazepineReferenceDay90": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "benzodiazepineReferenceDay180": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "benzodiazepineReferenceDay365": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "benzodiazepineReferenceDay540": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "benzodiazepineReferenceDay730": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "benzodiazepineReferenceDay1095": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "cocaineReferenceDay1": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "cocaineReferenceDay3": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "cocaineReferenceDay7": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "cocaineReferenceDay14": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "cocaineReferenceDay60": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "cocaineReferenceDay90": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "cocaineReferenceDay180": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "cocaineReferenceDay365": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "cocaineReferenceDay730": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "ghbReferenceDay1": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "ghbReferenceDay3": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "ghbReferenceDay7": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "ghbReferenceDay14": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "ghbReferenceDay30": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "ghbReferenceDay90": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "ghbReferenceDay180": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "inhalantsReferenceDay1": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "inhalantsReferenceDay7": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "inhalantsReferenceDay14": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "inhalantsReferenceDay30": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "inhalantsReferenceDay90": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "inhalantsReferenceDay365": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "inhalantsReferenceDay730": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "ketamineReferenceDay1": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "ketamineReferenceDay7": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "ketamineReferenceDay14": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "ketamineReferenceDay30": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "ketamineReferenceDay90": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "ketamineReferenceDay180": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "ketamineReferenceDay365": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "kratomReferenceDay1": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "kratomReferenceDay3": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "kratomReferenceDay7": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "kratomReferenceDay14": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "kratomReferenceDay30": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "kratomReferenceDay90": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "kratomReferenceDay365": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "maoiReferenceDay3": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "maoiReferenceDay7": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "maoiReferenceDay14": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "maoiReferenceDay30": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "maoiReferenceDay90": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "maoiReferenceDay180": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "maoiReferenceDay365": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "marijuanaReferenceDay1": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "marijuanaReferenceDay3": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "marijuanaReferenceDay7": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "marijuanaReferenceDay14": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "marijuanaReferenceDay30": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "marijuanaReferenceDay60": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "marijuanaReferenceDay90": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "marijuanaReferenceDay180": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "marijuanaReferenceDay365": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "mdmaReferenceDay1": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "mdmaReferenceDay3": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "mdmaReferenceDay7": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "mdmaReferenceDay14": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "mdmaReferenceDay30": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "mdmaReferenceDay90": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "mdmaReferenceDay365": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "methReferenceDay1": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "methReferenceDay3": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "methReferenceDay7": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "methReferenceDay30": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "methReferenceDay90": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "methReferenceDay180": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "methReferenceDay365": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "methReferenceDay420": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "methReferenceDay730": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "nitrousOxideReferenceDay1": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "nitrousOxideReferenceDay3": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "nitrousOxideReferenceDay7": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "nitrousOxideReferenceDay14": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "nitrousOxideReferenceDay30": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "nitrousOxideReferenceDay90": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "nitrousOxideReferenceDay365": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "opioidReferenceDay1": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "opioidReferenceDay7": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "opioidReferenceDay14": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "opioidReferenceDay30": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "opioidReferenceDay60": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "opioidReferenceDay90": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "opioidReferenceDay180": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "opioidReferenceDay365": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "opioidReferenceDay730": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "pornographyReferenceDay1": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "pornographyReferenceDay3": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "pornographyReferenceDay7": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "pornographyReferenceDay14": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "pornographyReferenceDay30": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "pornographyReferenceDay90": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "pornographyReferenceDay180": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "pornographyReferenceDay365": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "pornographyReferenceDay1825": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "smokingReferenceDay1": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "smokingReferenceDay3": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "smokingReferenceDay7": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "smokingReferenceDay14": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "smokingReferenceDay30": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "smokingReferenceDay90": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "smokingReferenceDay180": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "smokingReferenceDay365": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "smokingReferenceDay1825": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "snriReferenceDay3": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "snriReferenceDay7": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "snriReferenceDay14": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "snriReferenceDay30": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "snriReferenceDay90": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "snriReferenceDay180": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "snriReferenceDay365": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "socialMediaReferenceDay1": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "socialMediaReferenceDay3": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "socialMediaReferenceDay7": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "socialMediaReferenceDay14": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "socialMediaReferenceDay30": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "socialMediaReferenceDay60": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "socialMediaReferenceDay90": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "socialMediaReferenceDay180": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "socialMediaReferenceDay365": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "ssriReferenceDay3": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "ssriReferenceDay7": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "ssriReferenceDay14": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "ssriReferenceDay30": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "ssriReferenceDay90": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "ssriReferenceDay180": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "ssriReferenceDay365": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "steroidsReferenceDay1": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "steroidsReferenceDay14": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "steroidsReferenceDay30": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "steroidsReferenceDay90": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "steroidsReferenceDay180": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "steroidsReferenceDay365": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "steroidsReferenceDay730": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.",
+  "tcaReferenceDay3": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "tcaReferenceDay7": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "tcaReferenceDay14": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "tcaReferenceDay30": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "tcaReferenceDay90": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "tcaReferenceDay180": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "tcaReferenceDay365": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
+  "settingsLocaleArabic": "Dalam bahasa Indonesia: Arabic",
+  "settingsLocaleIndonesian": "Dalam bahasa Indonesia: Indonesian",
+  "@settingsLocaleIndonesian": {
+    "description": "Indonesian language option"
+  },
+  "@settingsLocaleArabic": {
+    "description": "Arabic language option"
+  }
+}

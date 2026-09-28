@@ -1,0 +1,10 @@
+• localize 1.1.63 rilis notes
+• Perbaiki clean Spanish alcohol dan kratom milestones
+• Perbaiki complete Spanish GHB milestone translations
+• Perbaiki complete Spanish MAOI milestone translations
+• Perbaiki complete Spanish MDMA milestone translations
+• Perbaiki complete Spanish SNRI milestone translations
+• Perbaiki complete Spanish SSRI milestone translations
+• Perbaiki complete Spanish TCA milestone translations
+• Perbaiki complete Spanish cannabis milestone translations
+• Perbaiki complete Spanish nitrous oxide milestone translations

@@ -1,0 +1,2 @@
+• Perbaiki complete native localization coverage
+• Perbaiki localize latest rilis notes

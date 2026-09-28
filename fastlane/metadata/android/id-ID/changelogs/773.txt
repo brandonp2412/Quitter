@@ -1,0 +1,6 @@
+• Tambahkan "Get it di Microsoft Store" badge
+• Perbaiki broken notifications dengan no custom entries
+• Perbaiki journal halaman di desktop
+• Hapus all  different delete buttons
+• Hapus unused code di pengaturan halaman
+• Show sample notification when setting  frequency

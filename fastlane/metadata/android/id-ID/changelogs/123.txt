@@ -1,0 +1,1 @@
+• Bake di abi splitting into build.gradle.kts

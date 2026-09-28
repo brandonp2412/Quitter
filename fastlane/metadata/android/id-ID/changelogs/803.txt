@@ -1,0 +1,9 @@
+• Tambahkan PIN locking setting
+• Tambahkan unit pengujian untuk pin halaman
+• Perbaiki importing data dari pengaturan halaman
+• Perbaiki pluralization dari notify every setting notification
+• Perbaiki pengaturan halaman unit pengujian
+• Perbaiki unit pengujian
+• Revert "Hapus windows store deployment dari github action"
+• Revert "Use secure storage untuk all sensitive information"
+• Use secure storage untuk all sensitive information

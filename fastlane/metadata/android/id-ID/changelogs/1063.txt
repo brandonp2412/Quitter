@@ -1,0 +1,4 @@
+• Tambahkan benzos
+• Tambahkan heroin
+• Tambahkan toggle all buttons untuk pengaturan
+• Sync notify pengaturan when you toggle main screen items

@@ -3499,6 +3499,9 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get settingsLocaleArabic => '阿拉伯语';
+
+  @override
+  String get settingsLocaleIndonesian => '印度尼西亚语';
 }
 
 /// The translations for Chinese, using the Han script (`zh_Hant`).
@@ -6996,4 +6999,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get settingsLocaleArabic => '阿拉伯語';
+
+  @override
+  String get settingsLocaleIndonesian => '印尼語';
 }

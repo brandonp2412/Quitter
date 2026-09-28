@@ -1,0 +1,7 @@
+• Ignore playwright mcp di gitignore
+• Tambahkan missing Japanese dan Chinese translations
+• Tambahkan search bar untuk Tambahkan addiction halaman
+• carry beranda search untuk Tambahkan halaman dan Tambahkan synonym matching
+• consolidate shared milestone groups dan Tambahkan fentanyl/smokeless tobacco
+• Perbaiki replace broken/paywalled links dengan authoritative scientific URLs
+• Perbaiki Terjemahkan quitCardKeepDays dan alcoholPageQuitDateDisplay untuk Japanese dan Chinese

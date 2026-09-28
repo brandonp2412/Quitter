@@ -1,0 +1,5 @@
+• Perbaiki localize 1.1.69 rilis notes
+• Perbaiki polish Japanese recovery translations
+• Perbaiki polish Russian localization semantics
+• Perbaiki polish Russian reference translations
+• Perbaiki Terjemahkan Play catatan perubahan commit prose

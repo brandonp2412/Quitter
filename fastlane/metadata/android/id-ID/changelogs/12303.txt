@@ -1,0 +1,2 @@
+• complete app bahasa selection
+• Perbaiki complete terlokalisasi app strings

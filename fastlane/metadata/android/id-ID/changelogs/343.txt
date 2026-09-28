@@ -1,0 +1,7 @@
+• Tambahkan reset tombol
+• Tambahkan setting untuk disabling relapse messages
+• Tambahkan setting untuk hide/show reset buttons
+• Ubah relapse tombol icon
+• Perbaiki references di alcohol halaman
+• Only open websites when tapping references
+• Re-word quitting pages

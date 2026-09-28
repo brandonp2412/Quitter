@@ -1,0 +1,2 @@
+• Perbaiki(l10n): finish Spanish confirmation labels
+• Perbaiki(l10n): localize 1.1.74 rilis notes

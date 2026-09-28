@@ -2535,4 +2535,6 @@
   "@settingsLocaleArabic": {
     "description": "Arabic language option"
   }
+  ,"settingsLocaleIndonesian": "الإندونيسية",
+  "@settingsLocaleIndonesian": {"description": "Indonesian language option"}
 }

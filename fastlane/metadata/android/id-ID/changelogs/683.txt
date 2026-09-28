@@ -1,0 +1,9 @@
+• Tambahkan custom icon picker
+• Tambahkan search filter untuk What's new halaman
+• Ubah notification frequency dialog
+• Favor lighter icon contrast
+• Perbaiki padding di edit custom entries halaman
+• Tingkatkan icon color contrast
+• Make contrast colors consistent
+• Make homescreen widgets Perbarui daily
+• Refactor halaman templates

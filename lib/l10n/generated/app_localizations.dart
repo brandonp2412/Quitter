@@ -10,6 +10,7 @@ import 'app_localizations_de.dart';
 import 'app_localizations_en.dart';
 import 'app_localizations_es.dart';
 import 'app_localizations_fr.dart';
+import 'app_localizations_id.dart';
 import 'app_localizations_ja.dart';
 import 'app_localizations_ru.dart';
 import 'app_localizations_zh.dart';
@@ -105,6 +106,7 @@ abstract class AppLocalizations {
     Locale('en'),
     Locale('es'),
     Locale('fr'),
+    Locale('id'),
     Locale('ja'),
     Locale('ru'),
     Locale('zh'),
@@ -6182,6 +6184,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Arabic'**
   String get settingsLocaleArabic;
+
+  /// Indonesian language option
+  ///
+  /// In en, this message translates to:
+  /// **'Indonesian'**
+  String get settingsLocaleIndonesian;
 }
 
 class _AppLocalizationsDelegate
@@ -6200,6 +6208,7 @@ class _AppLocalizationsDelegate
     'en',
     'es',
     'fr',
+    'id',
     'ja',
     'ru',
     'zh',
@@ -6234,6 +6243,8 @@ AppLocalizations lookupAppLocalizations(Locale locale) {
       return AppLocalizationsEs();
     case 'fr':
       return AppLocalizationsFr();
+    case 'id':
+      return AppLocalizationsId();
     case 'ja':
       return AppLocalizationsJa();
     case 'ru':

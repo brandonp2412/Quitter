@@ -1,0 +1,10 @@
+• Tambahkan beranda halaman unit pengujian
+• Tambahkan more delete buttons
+• Tambahkan pengaturan halaman pengujian
+• Tambahkan pengujian untuk journal halaman
+• Tambahkan toggle untuk journal tab
+• Delete unit pengujian
+• Perbaiki integration pengujian targeting linux
+• Hapus relapse indicator when you undo
+• Run integration pengujian di linux before deploying
+• Upgrade flutter untuk 3.35.5

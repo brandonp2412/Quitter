@@ -1,0 +1,10 @@
+• Perbaiki align Japanese dan Russian terminology
+• Perbaiki complete French recovery references
+• Perbaiki perbaiki Russian recovery terminology
+• Perbaiki keep Russian UI register consistent
+• Perbaiki localize 1.1.70 rilis notes
+• Perbaiki localize Play revert notes
+• Perbaiki localize search clearing dan compact stats
+• Perbaiki make progress copy habit neutral
+• Perbaiki polish Chinese recovery wording
+• Perbaiki polish French dan Spanish translations
