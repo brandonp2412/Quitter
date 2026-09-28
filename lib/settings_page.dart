@@ -905,6 +905,7 @@ class _SettingsPageState extends State<SettingsPage> {
       'zh' => l10n.settingsLocaleSimplifiedChinese,
       'zh-Hant' => l10n.settingsLocaleTraditionalChinese,
       'id' => l10n.settingsLocaleIndonesian,
+      'th' => l10n.settingsLocaleThai,
       _ => l10n.settingsLocaleUnsupported,
     };
   }

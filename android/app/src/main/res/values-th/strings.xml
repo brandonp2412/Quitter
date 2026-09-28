@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_description">ออกจากตัวติดตาม</string>
+    <string name="widget_selection_title">เลือกสิ่งที่จะติดตาม</string>
+    <string name="widget_selection_subtitle">นับวันตั้งแต่คุณ \' ออกจากหน้าจอหลัก</string>
+    <string name="addiction_alcohol">แอลกอฮอล์</string>
+    <string name="addiction_vaping">สูบไอ</string>
+    <string name="addiction_smoking">สูบบุหรี่</string>
+    <string name="addiction_smokeless_tobacco">จิ้ม/เคี้ยวยาสูบ</string>
+    <string name="addiction_marijuana">กัญชา</string>
+    <string name="addiction_nicotine_pouches">ถุงนิโคติน</string>
+    <string name="addiction_opioids">ฝิ่น</string>
+    <string name="addiction_heroin">เฮโรอีน</string>
+    <string name="addiction_fentanyl">เฟนทานิล</string>
+    <string name="addiction_social_media">โซเชียลมีเดีย</string>
+    <string name="addiction_pornography">เนื้อหาสำหรับผู้ใหญ่</string>
+    <string name="addiction_cocaine">โคเคน</string>
+    <string name="addiction_meth">ยาบ้า</string>
+    <string name="addiction_benzos">เบนโซไดอะซีพีน</string>
+    <string name="addiction_adderall">แอดเดอรอล</string>
+    <string name="addiction_ssri">สสส</string>
+    <string name="addiction_snri">สนรี</string>
+    <string name="addiction_tca">ทีซีเอ</string>
+    <string name="addiction_maoi">เมาอิ</string>
+    <string name="addiction_nitrous_oxide">ไนตรัสออกไซด์</string>
+    <string name="addiction_kratom">กระท่อม</string>
+    <string name="addiction_gabapentinoids">กาบาเพนติน / พรีกาบาลิน</string>
+    <string name="addiction_ghb">GHB</string>
+    <string name="addiction_ketamine">คีตามีน</string>
+    <string name="addiction_inhalants">สารสูดดม</string>
+    <string name="addiction_synthetic_cannabinoids">สารแคนนาบินอยด์สังเคราะห์</string>
+    <string name="addiction_mdma">MDMA</string>
+    <string name="addiction_steroids">อะนาโบลิกสเตียรอยด์</string>
+    <plurals name="widget_days">
+        <item quantity="other">%d วัน</item>
+    </plurals>
+    <string name="widget_not_set">ไม่ได้ตั้งค่า</string>
+    <string name="widget_unknown">ไม่ทราบ</string>
+    <string name="widget_error">เกิดข้อผิดพลาด</string>
+    <string name="widget_setup_text">แตะเพื่อ\nตั้งค่า</string>
+    <string name="widget_addiction_placeholder">การเสพติด</string>
+    <string name="widget_zero_days">0 วัน</string>
+</resources>

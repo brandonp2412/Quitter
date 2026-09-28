@@ -1,0 +1,7 @@
+• เพิ่มโค้ด slop เพื่อสรุปการปรับใช้ msstore
+• สร้าง ru/full_description.txt
+• สร้าง ru/short_description.txt
+• รูปแบบ lib/main.dart
+• ลบการกำหนดค่าเส้นทาง flutter sdk ออกจาก vscode
+• อยู่ในหน้าการตั้งค่าเมื่อสลับหน้าบันทึกประจำวัน
+• ใช้รูปแบบ json สำหรับการส่งออก/นำเข้า

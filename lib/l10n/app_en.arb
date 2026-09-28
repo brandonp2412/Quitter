@@ -2534,7 +2534,13 @@
   "settingsLocaleArabic": "Arabic",
   "@settingsLocaleArabic": {
     "description": "Arabic language option"
+  },
+  "settingsLocaleIndonesian": "Indonesian",
+  "settingsLocaleThai": "Thai",
+  "@settingsLocaleThai": {
+    "description": "Thai language label"
+  },
+  "@settingsLocaleIndonesian": {
+    "description": "Indonesian language option"
   }
-  ,"settingsLocaleIndonesian": "Indonesian",
-  "@settingsLocaleIndonesian": {"description": "Indonesian language option"}
 }

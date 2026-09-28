@@ -35,7 +35,7 @@
       const requestedLanguage = (navigator.languages?.[0] ?? navigator.language ?? 'en')
         .toLowerCase()
         .split('-')[0];
-      const language = ['ar', 'de', 'es', 'fr', 'id', 'ja', 'ru', 'zh'].includes(requestedLanguage)
+      const language = ['ar', 'de', 'es', 'fr', 'id', 'ja', 'ru', 'th', 'zh'].includes(requestedLanguage)
         ? requestedLanguage
         : 'en';
       const descriptions = {
@@ -47,6 +47,7 @@
         id: 'Lacak kemajuan berhenti, pencapaian, jurnal, dan pengingat pemulihan secara pribadi dan offline.',
         ja: 'やめたい習慣の進捗、節目、日記、回復リマインダーをプライベートかつオフラインで記録できます。',
         ru: 'Отслеживайте прогресс отказа от привычек, этапы, дневник и напоминания о восстановлении конфиденциально и без подключения к интернету.',
+        th: 'ติดตามความคืบหน้าในการเลิกพฤติกรรม เป้าหมาย บันทึก และการแจ้งเตือนการฟื้นตัวแบบเป็นส่วนตัวและออฟไลน์',
         zh: '私密、离线地记录戒除习惯的进度、里程碑、日记和康复提醒。',
         'zh-Hant': '私密、離線地記錄戒除習慣的進度、里程碑、日記和康復提醒。',
       };

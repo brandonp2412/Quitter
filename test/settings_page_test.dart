@@ -131,6 +131,10 @@ void main() {
           findsOneWidget,
         );
         expect(
+          find.descendant(of: dialog, matching: find.text('Thai')),
+          findsOneWidget,
+        );
+        expect(
           find.descendant(
             of: dialog,
             matching: find.text('Simplified Chinese'),
@@ -157,6 +161,7 @@ void main() {
           'id',
           'ja',
           'ru',
+          'th',
           'zh',
           'zh-Hant',
         ]);

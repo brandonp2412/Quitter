@@ -3626,4 +3626,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get settingsLocaleIndonesian => 'الإندونيسية';
+
+  @override
+  String get settingsLocaleThai => 'التايلاندية';
 }

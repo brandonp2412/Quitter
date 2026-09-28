@@ -71,6 +71,7 @@
 		D1A000000000000000000009 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/MainMenu.strings; sourceTree = "<group>"; };
 		D1A000000000000000000006 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/MainMenu.strings; sourceTree = "<group>"; };
 		D1A000000000000000000010 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/MainMenu.strings; sourceTree = "<group>"; };
+		D1A000000000000000000011 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/MainMenu.strings; sourceTree = "<group>"; };
 		D1A000000000000000000001 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/MainMenu.strings; sourceTree = "<group>"; };
 		D1A000000000000000000002 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/MainMenu.strings; sourceTree = "<group>"; };
 		D1A000000000000000000003 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/MainMenu.strings; sourceTree = "<group>"; };
@@ -269,6 +270,7 @@
 				en,
 				de,
 				id,
+				th,
 				es,
 				fr,
 				ja,
@@ -391,7 +393,7 @@
 				D1A000000000000000000009 /* ar */,
 				D1A000000000000000000006 /* de */,
 				D1A000000000000000000010 /* id */,
-				D1A000000000000000000010 /* id */,
+				D1A000000000000000000011 /* th */,
 				D1A000000000000000000001 /* es */,
 				D1A000000000000000000002 /* fr */,
 				D1A000000000000000000003 /* ja */,

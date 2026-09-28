@@ -1,0 +1,1 @@
+• ลบสิทธิ์ ACCESS_NETWORK_STATE สำหรับ Android

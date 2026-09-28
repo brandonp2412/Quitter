@@ -3749,4 +3749,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get settingsLocaleIndonesian => 'Indonésien';
+
+  @override
+  String get settingsLocaleThai => 'Thaï';
 }

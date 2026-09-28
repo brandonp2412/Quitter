@@ -121,6 +121,9 @@ bool _containsTargetScript(String languageCode, String value) {
     if (languageCode == 'ar' && rune >= 0x0600 && rune <= 0x06ff) {
       return true;
     }
+    if (languageCode == 'th' && rune >= 0x0e00 && rune <= 0x0e7f) {
+      return true;
+    }
     if (languageCode == 'zh' && isCjk) return true;
     if (languageCode == 'ja' &&
         (isCjk ||
@@ -498,6 +501,7 @@ void main() {
       'ru': ['Источник:', 'Источник：'],
       'zh': ['来源：', '来源:'],
       'id': ['Sumber:', 'Sumber：'],
+      'th': ['แหล่งที่มา:', 'แหล่งที่มา：', 'ที่มา:', 'ที่มา：'],
     };
 
     for (final locale in AppLocalizations.supportedLocales) {
@@ -1193,6 +1197,7 @@ void main() {
       'es': 'es-ES',
       'fr': 'fr-FR',
       'id': 'id-ID',
+      'th': 'th-TH',
       'ja': 'ja-JP',
       'ru': 'ru-RU',
       'zh': 'zh-CN',
@@ -1201,7 +1206,7 @@ void main() {
 
     expect(
       workflow,
-      contains('locale: [en, ar, de, es, fr, id, ja, ru, zh, zh-Hant]'),
+      contains('locale: [en, ar, de, es, fr, id, ja, ru, th, zh, zh-Hant]'),
     );
     for (final locale in AppLocalizations.supportedLocales) {
       final localeKey = localePreferenceValue(locale);
@@ -1230,6 +1235,7 @@ void main() {
       'es': 'es-ES',
       'fr': 'fr-FR',
       'id': 'id-ID',
+      'th': 'th-TH',
       'ja': 'ja-JP',
       'ru': 'ru-RU',
       'zh': 'zh-CN',
@@ -1286,6 +1292,7 @@ void main() {
       'es': 'es-ES',
       'fr': 'fr-FR',
       'id': 'id-ID',
+      'th': 'th-TH',
       'ja': 'ja-JP',
       'ru': 'ru-RU',
       'zh': 'zh-CN',
@@ -1306,6 +1313,7 @@ void main() {
       'zh': ['进度', '里程碑', '日记'],
       'zh-Hant': ['進度', '里程碑', '日記'],
       'id': ['kemajuan', 'pencapaian', 'jurnal'],
+      'th': ['ความ', 'เป้าหมาย', 'บันทึก'],
     };
     const forbiddenListingArtifacts = {
       'ja': ['禁断トラッカー'],
@@ -1457,6 +1465,7 @@ void main() {
       'es': 'es-ES',
       'fr': 'fr-FR',
       'id': 'id',
+      'th': 'th',
       'ja': 'ja',
       'ru': 'ru',
       'zh': 'zh-Hans',
@@ -1510,6 +1519,7 @@ void main() {
       'es': 'es-ES',
       'fr': 'fr-FR',
       'id': 'id',
+      'th': 'th',
       'ja': 'ja',
       'ru': 'ru',
       'zh': 'zh-Hans',
@@ -1775,6 +1785,7 @@ void main() {
       'id-id',
       'ja-jp',
       'ru-ru',
+      'th-th',
       'zh-cn',
       'zh-tw',
     });
@@ -1797,6 +1808,7 @@ void main() {
       'zh',
       'zh-Hant',
       'id',
+      'th',
     };
     for (final locale in AppLocalizations.supportedLocales) {
       final localeKey = localePreferenceValue(locale);
@@ -1985,6 +1997,7 @@ void main() {
       'zh': {'other'},
       'zh-Hant': {'other'},
       'id': {'one', 'other'},
+      'th': {'other'},
     };
     const androidResourceDirectories = {'zh-Hant': 'values-b+zh+Hant'};
 

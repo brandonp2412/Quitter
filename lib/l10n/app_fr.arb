@@ -1017,7 +1017,13 @@
   "settingsLocaleArabic": "Arabe",
   "@settingsLocaleArabic": {
     "description": "Arabic language option"
+  },
+  "settingsLocaleIndonesian": "Indonésien",
+  "settingsLocaleThai": "Thaï",
+  "@settingsLocaleThai": {
+    "description": "Thai language label"
+  },
+  "@settingsLocaleIndonesian": {
+    "description": "Indonesian language option"
   }
-  ,"settingsLocaleIndonesian": "Indonésien",
-  "@settingsLocaleIndonesian": {"description": "Indonesian language option"}
 }

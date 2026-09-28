@@ -2531,7 +2531,13 @@
   "settingsLocaleArabic": "阿拉伯语",
   "@settingsLocaleArabic": {
     "description": "Arabic language option"
+  },
+  "settingsLocaleIndonesian": "印度尼西亚语",
+  "settingsLocaleThai": "泰语",
+  "@settingsLocaleThai": {
+    "description": "Thai language label"
+  },
+  "@settingsLocaleIndonesian": {
+    "description": "Indonesian language option"
   }
-  ,"settingsLocaleIndonesian": "印度尼西亚语",
-  "@settingsLocaleIndonesian": {"description": "Indonesian language option"}
 }

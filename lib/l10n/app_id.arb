@@ -2533,6 +2533,10 @@
   "tcaReferenceDay365": "Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.",
   "settingsLocaleArabic": "Dalam bahasa Indonesia: Arabic",
   "settingsLocaleIndonesian": "Dalam bahasa Indonesia: Indonesian",
+  "settingsLocaleThai": "Bahasa Thai",
+  "@settingsLocaleThai": {
+    "description": "Thai language label"
+  },
   "@settingsLocaleIndonesian": {
     "description": "Indonesian language option"
   },

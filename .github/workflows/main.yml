@@ -155,7 +155,7 @@ jobs:
       fail-fast: false
       matrix:
         device_type: [phoneScreenshots, sevenInchScreenshots, tenInchScreenshots]
-        locale: [en, ar, de, es, fr, id, ja, ru, zh, zh-Hant]
+        locale: [en, ar, de, es, fr, id, ja, ru, th, zh, zh-Hant]
         include:
           - device_type: phoneScreenshots
             profile: pixel_6
@@ -216,6 +216,7 @@ jobs:
             es) STORE_LOCALE=es-ES ;;
             fr) STORE_LOCALE=fr-FR ;;
             id) STORE_LOCALE=id-ID ;;
+            th) STORE_LOCALE=th-TH ;;
             ja) STORE_LOCALE=ja-JP ;;
             ru) STORE_LOCALE=ru-RU ;;
             zh) STORE_LOCALE=zh-CN ;;

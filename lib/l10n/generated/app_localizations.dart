@@ -13,6 +13,7 @@ import 'app_localizations_fr.dart';
 import 'app_localizations_id.dart';
 import 'app_localizations_ja.dart';
 import 'app_localizations_ru.dart';
+import 'app_localizations_th.dart';
 import 'app_localizations_zh.dart';
 
 // ignore_for_file: type=lint
@@ -109,6 +110,7 @@ abstract class AppLocalizations {
     Locale('id'),
     Locale('ja'),
     Locale('ru'),
+    Locale('th'),
     Locale('zh'),
     Locale.fromSubtags(languageCode: 'zh', scriptCode: 'Hant'),
   ];
@@ -6190,6 +6192,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Indonesian'**
   String get settingsLocaleIndonesian;
+
+  /// Thai language label
+  ///
+  /// In en, this message translates to:
+  /// **'Thai'**
+  String get settingsLocaleThai;
 }
 
 class _AppLocalizationsDelegate
@@ -6211,6 +6219,7 @@ class _AppLocalizationsDelegate
     'id',
     'ja',
     'ru',
+    'th',
     'zh',
   ].contains(locale.languageCode);
 
@@ -6249,6 +6258,8 @@ AppLocalizations lookupAppLocalizations(Locale locale) {
       return AppLocalizationsJa();
     case 'ru':
       return AppLocalizationsRu();
+    case 'th':
+      return AppLocalizationsTh();
     case 'zh':
       return AppLocalizationsZh();
   }

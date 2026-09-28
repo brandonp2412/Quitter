@@ -1,0 +1,1 @@
+• อบใน abi โดยแยกเป็น build.gradle.kts
