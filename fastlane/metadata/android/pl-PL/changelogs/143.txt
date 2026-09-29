@@ -1,0 +1,7 @@
+• Dodaj znaczniki daty
+• Dodaj saszetki nikotynowe
+• Zmień ikonę alkoholu
+• Popraw styl ustawień strony
+• Otwarcie istotnych linków przy stukaniu
+• Usuń debugowanie z przypomnień
+• Usuń powiadomienia o debugowaniu

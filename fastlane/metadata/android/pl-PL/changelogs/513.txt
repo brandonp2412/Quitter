@@ -1,0 +1,5 @@
+• Zmiana wskaźników historii nawrotu
+• Ulepszenie niestandardowych etapów wchodzenia
+• Usuń identyfikator sklepu Microsoft
+• Usuwanie wprowadzania sklepu z oknami z akcji github
+• Powiedz 1 dzień zamiast 0 dni na homescreen widget

@@ -1,0 +1,4 @@
+• Support: dodaj tłumaczenia niemieckie
+• fixatill10ncontinues: dodać niemieckie screenshots sklepu
+• fixatill10ncontinues: etykieta niemiecka w języku picker
+• fixatill10nsions: regenerować niemieckie wiązania lokalizacyjne

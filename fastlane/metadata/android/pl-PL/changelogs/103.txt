@@ -1,0 +1,2 @@
+• Dodaj flagę, aby pominąć zrzuty ekranu w deploy.sh
+• Kod checkout przed uzyskaniem numeru build w github

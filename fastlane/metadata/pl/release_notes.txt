@@ -1,0 +1,1 @@
+• Naprawiono komunikat „Co nowego”, który wyświetlał się bez końca

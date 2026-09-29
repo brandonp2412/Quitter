@@ -1,0 +1,3 @@
+• Usunąć przypadkowo popełniony TODO.txt
+• Uaktualnij trzepotanie do 3.38.3
+• Napraw test Android widget Patrol

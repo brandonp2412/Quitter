@@ -1,0 +1,7 @@
+• Pozwala na wybranie niestandardowych wpisów w widgecie homescreen
+• Zmień tytuł Etykieta kolorów na własnej stronie wprowadzania
+• Napraw zrzuty ekranu w README
+• Poprawiono Whathavis strona nowości w sieci
+• Dodać etykietę kolor bardziej konsekwentny
+• Usuń niezręczne linki na README
+• Niewielki współczynnik

@@ -1,0 +1,5 @@
+• Napraw dni kamieniem milowym
+• Fix # of quit days being wrong by 1
+• Poprawiaj kamienie milowe resetowania
+• Długie kamienie milowe prasy, aby oczyścić historię
+• Usuń odstępy na końcu strony kamienie milowe

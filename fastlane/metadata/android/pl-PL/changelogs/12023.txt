@@ -1,0 +1,10 @@
+• Dodaj lewe wtykanie do ikony wyszukiwania
+• Popraw dolne wyściełanie na kamieniu milowym
+• Długoprasa zmienia nazwę ikony na kartach uzależnień
+• Long @-@ press do drag- reorder karty, wydanie pokazuje X usuń odznaki
+• przeklasyfikowanie leków przeciwdepresyjnych do SSRIS, SNRIS, TCAS i IMAO
+• przewiń do ostatniego zakończonego kamienia milowego zamiast następnego
+• Poprawiono dodawanie dolnego wyściełania do listy kamieni milowych, tak aby FAB nie pokrywał ostatniej pozycji
+• Fix zapobiega negatywnej szerokości karty na stronie głównej, gdy widok jest zbyt wąski
+• Napraw gładkie animate- to zamiast błyskawicznego skoku na kamień milowy przewijania
+• Fix sort dodać opcje uzależnienia alfabetycznie

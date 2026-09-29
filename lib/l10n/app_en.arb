@@ -2536,6 +2536,10 @@
     "description": "Arabic language option"
   },
   "settingsLocaleIndonesian": "Indonesian",
+  "settingsLocalePolish": "Polish",
+  "@settingsLocalePolish": {
+    "description": "Polish language option"
+  },
   "settingsLocaleThai": "Thai",
   "@settingsLocaleThai": {
     "description": "Thai language label"

@@ -1,0 +1,3 @@
+• Napraw lokalizację 1.1.72 notatek wydania
+• Napraw polskie tłumaczenia hiszpańskiego i rosyjskiego odzyskiwania
+• Napraw pozostałą rosyjską kopię odzysku

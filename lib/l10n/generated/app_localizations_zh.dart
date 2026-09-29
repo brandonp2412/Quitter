@@ -3504,6 +3504,9 @@ class AppLocalizationsZh extends AppLocalizations {
   String get settingsLocaleIndonesian => '印度尼西亚语';
 
   @override
+  String get settingsLocalePolish => '波兰语';
+
+  @override
   String get settingsLocaleThai => '泰语';
 }
 
@@ -7005,6 +7008,9 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get settingsLocaleIndonesian => '印尼語';
+
+  @override
+  String get settingsLocalePolish => '波蘭語';
 
   @override
   String get settingsLocaleThai => '泰語';

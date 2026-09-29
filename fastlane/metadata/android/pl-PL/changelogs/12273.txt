@@ -1,0 +1,4 @@
+• Ekspozycja PIN złożyć działanie za pomocą etykiety użytkownika
+• Ukryj testy integracji Linuksa na dwl
+• Preferencyjna etykieta działania PIN w badaniach
+• Fix Harden screenshot emulator odzyskiwania

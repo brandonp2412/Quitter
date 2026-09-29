@@ -1,0 +1,10 @@
+• Napraw pełny zakres lokalizacji sklepu
+• Napraw lokalizację 1.1.71 notatek wydania
+• Napraw notatki o wydaniu App Store
+• Popraw lokalizację pozostałych terminów społecznych i stymulacyjnych
+• Fix polski japoński i chiński B12 odzyskać kopię
+• Napraw polski japoński i chiński kamień milowy
+• Napraw polską japońską i chińską kopię nikotyny
+• Napraw polski japoński i chiński egzemplarz odzyskiwania
+• Napraw polskie rosyjskie tłumaczenia odzyskiwania
+• Napraw polskie rosyjskie sformułowanie odzysku

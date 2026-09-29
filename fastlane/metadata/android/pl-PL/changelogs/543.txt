@@ -1,0 +1,10 @@
+• Dodaj go na pajęczynie
+• Dodaj marihuanę do strony ustawień
+• Autokapitalizacja niestandardowych wpisów
+• Zmiana wiadomości tostów przy eksporcie importującym
+• Napraw własny wpis auto kapitalizacji
+• Fix # dni obliczenia edycji niestandardowych wpisów
+• Ukryj przycisk reset, jeśli pojawi się w pierwszym dniu
+• Pokaż tylko odstawianie uzależnień podczas wybierania widgetu
+• Odśwież widget homescreen częściej
+• Wnioski o powiadomienie po przywozie

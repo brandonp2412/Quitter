@@ -1,0 +1,2 @@
+• Dostosuj nagłówki dla nie uruchomionych
+• Napraw aplikację niepamiętającą przycisku ukryj reset

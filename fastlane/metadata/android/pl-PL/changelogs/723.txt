@@ -1,0 +1,6 @@
+• Dodaj kartę dziennika
+• Dodaj paginację do strony dziennika
+• Motywy alternatywnego zrzutu ekranu
+• Napraw przewijanie na stronie dziennika
+• Umieść zakładki w pasku aplikacji
+• Usuń niewykorzystany import

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_description">Licznik dni od rzucenia</string>
+    <string name="widget_selection_title">Wybierz, co śledzić</string>
+    <string name="widget_selection_subtitle">Licz dni od rzucenia na ekranie głównym</string>
+    <string name="addiction_alcohol">Alkohol</string>
+    <string name="addiction_vaping">Wapowanie</string>
+    <string name="addiction_smoking">Palenie</string>
+    <string name="addiction_smokeless_tobacco">Tytoń do żucia / tabaka</string>
+    <string name="addiction_marijuana">Marihuana</string>
+    <string name="addiction_nicotine_pouches">Woreczki nikotynowe</string>
+    <string name="addiction_opioids">Opioidy</string>
+    <string name="addiction_heroin">Heroina</string>
+    <string name="addiction_fentanyl">Fentanyl — opioid</string>
+    <string name="addiction_social_media">Media społecznościowe</string>
+    <string name="addiction_pornography">Treści dla dorosłych</string>
+    <string name="addiction_cocaine">Kokaina</string>
+    <string name="addiction_meth">Metamfetamina</string>
+    <string name="addiction_benzos">Benzodiazepiny</string>
+    <string name="addiction_adderall">Adderall</string>
+    <string name="addiction_ssri">SSRI</string>
+    <string name="addiction_snri">SNRI</string>
+    <string name="addiction_tca">Trójpierścieniowe leki przeciwdepresyjne (TCA)</string>
+    <string name="addiction_maoi">MAOI</string>
+    <string name="addiction_nitrous_oxide">Podtlenek azotu</string>
+    <string name="addiction_kratom">Kratom</string>
+    <string name="addiction_gabapentinoids">Gabapentyna / pregabalina</string>
+    <string name="addiction_ghb">GHB</string>
+    <string name="addiction_ketamine">Ketamina</string>
+    <string name="addiction_inhalants">Substancje wziewne</string>
+    <string name="addiction_synthetic_cannabinoids">Syntetyczne kannabinoidy</string>
+    <string name="addiction_mdma">MDMA</string>
+    <string name="addiction_steroids">Sterydy anaboliczne</string>
+    <plurals name="widget_days">
+        <item quantity="one">%d dzień</item>
+        <item quantity="few">%d dni</item>
+        <item quantity="many">%d dni</item>
+        <item quantity="other">%d dni</item>
+    </plurals>
+    <string name="widget_not_set">Nie ustawiono</string>
+    <string name="widget_unknown">Nieznane</string>
+    <string name="widget_error">Błąd</string>
+    <string name="widget_setup_text">Dotknij, aby\nskonfigurować</string>
+    <string name="widget_addiction_placeholder">Nałóg</string>
+    <string name="widget_zero_days">0 dni</string>
+</resources>

@@ -1,0 +1,2 @@
+• Napraw tworzenie wydawnictw github
+• Usuń pasek aplikacji kolorowanki

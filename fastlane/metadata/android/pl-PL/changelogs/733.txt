@@ -1,0 +1,7 @@
+• Dodaj dziennikarstwo do listy funkcji w README
+• Automatycznie kapitalizuj wpisy dziennika
+• Posprzątaj, czytaj, czytaj.
+• # of days in screenshots
+• Popraw pluralizację dni w niestandardowych wpisach
+• Ułatw przewijanie pickera ikon
+• Użyj motywu świetlnego do edycji zrzutów ekranu wejścia

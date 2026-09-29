@@ -1,0 +1,5 @@
+• Aktualizuj pubspec.lock
+• Napraw dodanie SafeArea do strony głównej, aby zapobiec zderzeniu paska stanu, gdy dziennik jest ukryty
+• Napraw ruch SafeArea do root, aby naprawić podwójne wyściełanie z paskiem tabulacyjnym
+• Napraw tło rusztowania farby za obszarem paska stanu
+• Fix use Builder więc status paska tła odczytuje poprawny motyw

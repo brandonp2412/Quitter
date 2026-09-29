@@ -2542,5 +2542,9 @@
   },
   "@settingsLocaleIndonesian": {
     "description": "Indonesian language option"
+  },
+  "settingsLocalePolish": "ภาษาโปแลนด์",
+  "@settingsLocalePolish": {
+    "description": "Polish language option"
   }
 }

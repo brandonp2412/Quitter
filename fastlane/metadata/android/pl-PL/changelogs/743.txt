@@ -1,0 +1,4 @@
+• Dodaj załącznik Zgłoś przycisk buggetting
+• Poprawiono obliczanie różnic w dniu
+• Optymalizacja obliczeń różnic dnia
+• Randomizuj domyślny kolor dla nowych niestandardowych wpisów

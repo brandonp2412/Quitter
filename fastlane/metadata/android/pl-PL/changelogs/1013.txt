@@ -1,0 +1,2 @@
+• Feature: dodać chineseconssc) tłumaczenie
+• Poprawione toasty nigdy nie znikają

@@ -1,0 +1,7 @@
+• Ignoruj dramaturga mcp w gitignore
+• dodaj brakujące tłumaczenia japońskie i chińskie
+• Dodaj pasek wyszukiwania, aby dodać stronę uzależnienia
+• przenieś wyszukiwanie domu, aby dodać stronę i dodać synonim dopasowania
+• konsolidacja wspólnych grup milowych i dodawanie tytoniu bez palenia
+• Poprawiono zastępowanie brokendays płatnych linków z autorytatywnych naukowych adresów URL
+• Fix translate quitCardKeepDays i alkoholPageQuitDateDisplay do japońskiego i chińskiego

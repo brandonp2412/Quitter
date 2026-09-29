@@ -1025,5 +1025,9 @@
   },
   "@settingsLocaleIndonesian": {
     "description": "Indonesian language option"
+  },
+  "settingsLocalePolish": "Polonais",
+  "@settingsLocalePolish": {
+    "description": "Polish language option"
   }
 }

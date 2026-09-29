@@ -1,0 +1,4 @@
+• Dodaj claude slop do finalizacji pakietu azylowego
+• Dodaj więcej niechlujności do rzekomo finalizacji wdrożeń msstore
+• Przesuń pasek przekąskowy
+• Pomiń testy integracyjne z -n

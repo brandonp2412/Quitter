@@ -1,0 +1,8 @@
+• Zezwalaj ręcznie ustawiać lokalizację
+• Parametr: Dodaj japońską lokalizację dla wszystkich kamieni milowych
+• Parametr: Dodaj wsparcie japońskiej lokalizacji
+• Napraw testy jednostkowe na stronie ustawień
+• Poprawione testy jednostkowe
+• Zaktualizowano konfigurację lokalizacji pod kątem zgodności z Flutterem 3.38+
+• Format co nowego
+• Upgrade trzepotanie do 3.38.3

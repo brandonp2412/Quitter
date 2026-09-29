@@ -1,0 +1,4 @@
+• Popraw pełne tłumaczenia hiszpańskie i rosyjskie
+• Napraw lokalizację 1.1.64 notatek wydania
+• Fix materialize zlokalizowane Play changelogs
+• Napraw polskie rosyjskie tłumaczenia Adderall

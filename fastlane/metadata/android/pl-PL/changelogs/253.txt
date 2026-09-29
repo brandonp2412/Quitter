@@ -1,0 +1,3 @@
+• Dodawanie dat do listy tras
+• Znak buduje się tylko wtedy, gdy klucze istnieją
+• Odśwież dni na ognisku aplikacji

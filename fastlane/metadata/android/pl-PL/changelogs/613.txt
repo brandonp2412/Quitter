@@ -1,0 +1,5 @@
+• Napraw niepamiętające powiadomienia o saszetkach nikotynowych
+• Zachowaj przycisk reset na stronie zakończenia etapów
+• Zorganizuj kod w dostawcy ustawień
+• Refaktor zakończyć kamień milowy strona
+• Zmień szablon strony zakończonej

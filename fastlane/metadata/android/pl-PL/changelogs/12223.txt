@@ -1,0 +1,4 @@
+• Synchronizuj metadane Sklepu Google Play automatycznie account 107 )
+• Uporządkowanie twierdzeń milowych z przytoczonymi dowodami
+• Fix stosuje utwardzanie flutter lokalnie
+• Fix kwalifikuje się nieobsługiwane tytuły kamień milowy

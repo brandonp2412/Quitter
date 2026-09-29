@@ -112,6 +112,9 @@ bool _containsTargetScript(String languageCode, String value) {
   if (languageCode == 'de' || languageCode == 'es' || languageCode == 'fr') {
     return RegExp(r'[A-Za-zÀÂÆÇÉÈÊËÎÏÔŒÙÛÜŸàâæçéèêëîïôœùûüÿ]').hasMatch(value);
   }
+  if (languageCode == 'pl') {
+    return RegExp(r'[A-Za-zĄĆĘŁŃÓŚŹŻąćęłńóśźż]').hasMatch(value);
+  }
 
   for (final rune in value.runes) {
     final isCjk = rune >= 0x4e00 && rune <= 0x9fff;
@@ -502,6 +505,7 @@ void main() {
       'zh': ['来源：', '来源:'],
       'id': ['Sumber:', 'Sumber：'],
       'th': ['แหล่งที่มา:', 'แหล่งที่มา：', 'ที่มา:', 'ที่มา：'],
+      'pl': ['Źródło:', 'Źródła:'],
     };
 
     for (final locale in AppLocalizations.supportedLocales) {
@@ -1197,6 +1201,7 @@ void main() {
       'es': 'es-ES',
       'fr': 'fr-FR',
       'id': 'id-ID',
+      'pl': 'pl-PL',
       'th': 'th-TH',
       'ja': 'ja-JP',
       'ru': 'ru-RU',
@@ -1206,7 +1211,7 @@ void main() {
 
     expect(
       workflow,
-      contains('locale: [en, ar, de, es, fr, id, ja, ru, th, zh, zh-Hant]'),
+      contains('locale: [en, ar, de, es, fr, id, ja, pl, ru, th, zh, zh-Hant]'),
     );
     for (final locale in AppLocalizations.supportedLocales) {
       final localeKey = localePreferenceValue(locale);
@@ -1235,6 +1240,7 @@ void main() {
       'es': 'es-ES',
       'fr': 'fr-FR',
       'id': 'id-ID',
+      'pl': 'pl-PL',
       'th': 'th-TH',
       'ja': 'ja-JP',
       'ru': 'ru-RU',
@@ -1292,6 +1298,7 @@ void main() {
       'es': 'es-ES',
       'fr': 'fr-FR',
       'id': 'id-ID',
+      'pl': 'pl-PL',
       'th': 'th-TH',
       'ja': 'ja-JP',
       'ru': 'ru-RU',
@@ -1313,6 +1320,7 @@ void main() {
       'zh': ['进度', '里程碑', '日记'],
       'zh-Hant': ['進度', '里程碑', '日記'],
       'id': ['kemajuan', 'pencapaian', 'jurnal'],
+      'pl': ['postępy', 'kamienie', 'dziennik'],
       'th': ['ความ', 'เป้าหมาย', 'บันทึก'],
     };
     const forbiddenListingArtifacts = {
@@ -1465,6 +1473,7 @@ void main() {
       'es': 'es-ES',
       'fr': 'fr-FR',
       'id': 'id',
+      'pl': 'pl',
       'th': 'th',
       'ja': 'ja',
       'ru': 'ru',
@@ -1519,6 +1528,7 @@ void main() {
       'es': 'es-ES',
       'fr': 'fr-FR',
       'id': 'id',
+      'pl': 'pl',
       'th': 'th',
       'ja': 'ja',
       'ru': 'ru',
@@ -1784,6 +1794,7 @@ void main() {
       'fr-fr',
       'id-id',
       'ja-jp',
+      'pl-pl',
       'ru-ru',
       'th-th',
       'zh-cn',
@@ -1808,6 +1819,7 @@ void main() {
       'zh',
       'zh-Hant',
       'id',
+      'pl',
       'th',
     };
     for (final locale in AppLocalizations.supportedLocales) {
@@ -1863,6 +1875,7 @@ void main() {
     expect(privacy, contains('?lang=zh'));
     expect(privacy, contains('?lang=zh-Hant'));
     expect(privacy, contains('?lang=id'));
+    expect(privacy, contains('?lang=pl'));
   });
 
   test('every supported locale translates every changelog entry', () {
@@ -1997,6 +2010,7 @@ void main() {
       'zh': {'other'},
       'zh-Hant': {'other'},
       'id': {'one', 'other'},
+      'pl': {'one', 'few', 'many', 'other'},
       'th': {'other'},
     };
     const androidResourceDirectories = {'zh-Hant': 'values-b+zh+Hant'};

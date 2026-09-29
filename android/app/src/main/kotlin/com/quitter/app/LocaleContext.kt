@@ -7,7 +7,7 @@ import java.util.Locale
 internal fun Context.withQuitterLocale(): Context {
     val preferences = getSharedPreferences("FlutterSharedPreferences", Context.MODE_PRIVATE)
     val localeCode = preferences.getString("flutter.locale", "system")
-    if (localeCode !in setOf("ar", "en", "es", "fr", "id", "ja", "ru", "th", "zh", "zh-Hant")) return this
+    if (localeCode !in setOf("ar", "en", "es", "fr", "id", "ja", "pl", "ru", "th", "zh", "zh-Hant")) return this
 
     val configuration = Configuration(resources.configuration)
     configuration.setLocale(Locale.forLanguageTag(localeCode))

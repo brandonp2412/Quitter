@@ -1,0 +1,3 @@
+• Fix google play krok wdrożenia
+• Popraw przypomnienia ikona neurologii
+• Napraw bieg w wydawnictwach github

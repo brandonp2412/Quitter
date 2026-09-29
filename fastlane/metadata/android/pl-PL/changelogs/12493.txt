@@ -1,0 +1,5 @@
+• Napraw lokalizację 1.1.69 notatek wydania
+• Napraw polskie japońskie tłumaczenia odzyskiwania
+• Napraw polską rosyjską semantykę lokalizacyjną
+• Napraw polskie rosyjskie tłumaczenia referencyjne
+• Fix translate Play changelog commit prose

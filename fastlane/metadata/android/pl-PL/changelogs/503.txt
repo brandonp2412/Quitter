@@ -1,0 +1,6 @@
+• Dodaj brakujące konfiguracje plugin dla przypomnień
+• Dodaj bardziej szczegółowe kamienie milowe dla niestandardowych stron rzucających
+• Popraw błąd na platformach nieandroidowych
+• Poprawiona liczba dni obliczenia
+• Fix # of days calculation
+• Użyj konsekwentnych pasków przyciskowych do operacji danych na stronie ustawień

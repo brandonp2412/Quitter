@@ -1,0 +1,6 @@
+• Dodaj dodatek Pobierz go na znaczniku Microsoft Storebrace
+• Naprawianie uszkodzonych powiadomień bez niestandardowych wpisów
+• Popraw stronę dziennika na pulpicie
+• Usuń wszystkie przyciski usunięcia
+• Usuń niewykorzystany kod w zakładce Ustawienia
+• Pokaż powiadomienie o próbie przy ustawianiu częstotliwości

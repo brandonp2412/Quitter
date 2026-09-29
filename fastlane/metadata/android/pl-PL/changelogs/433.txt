@@ -1,0 +1,4 @@
+• Usuń niechlujne komentarze AI
+• Poprawa wydajności
+• Zmień szablon strony zakończonej
+• Użyj ustawień zamiast metod ustawiania dla dostawcy ustawień

@@ -1,0 +1,2 @@
+• Zmień picker ikon dla własnych wpisów
+• Dodać picker ikon wyższy

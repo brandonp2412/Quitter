@@ -1,0 +1,1 @@
+• Napraw błąd z przyciskiem startowym zawsze tworzącym dni = 1

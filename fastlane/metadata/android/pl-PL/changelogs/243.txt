@@ -1,0 +1,6 @@
+• Dodaj pliki do pobrania z identyfikatora Microsoft Storebrace
+• Dodaj podpowiedzi
+• Domyślny dzień do 1, jeśli wyczyścisz wejście
+• Czynnik z układu stron kończących
+• Napraw deploy.sh, gdy podłączone jest wiele urządzeń
+• Zresetuj rezygnację, jeśli oczyścisz pole dni

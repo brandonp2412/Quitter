@@ -1,0 +1,3 @@
+• Dodaj ikony materiałów do picker i przewiń wybór do widoku
+• sprawiają, że preset płytki iconsignifictory kolor edytowalny
+• generować pełny zestaw ikon materiałów i sprawiają, że picker leniwy

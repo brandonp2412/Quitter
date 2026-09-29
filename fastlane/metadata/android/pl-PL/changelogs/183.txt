@@ -1,0 +1,7 @@
+• Napraw dni pole tekstowe mówiąc 0 na starcie
+• Inicjalizować wszystkie dni w 1
+• Zacznij tylko od 1 dondict dodaj 1 do wejścia użytkownika
+• Usuń przycisk startowy podczas wpisywania # dni
+• Usuń znacznik verbose do kopiowania changelogs
+• Określ urządzenie do zrzutów ekranu
+• Zacznij odliczanie dni od 1 zamiast zera

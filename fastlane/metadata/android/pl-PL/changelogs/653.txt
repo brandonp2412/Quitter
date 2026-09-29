@@ -1,0 +1,5 @@
+• Zezwalaj na godzinę rozkładową dla powiadomień
+• Poprawia przypomnienia pomijając powiadomienia jutro
+• Powiadomić tylko ponownie
+• Ograniczenie duplikacji w dostawcy ustawień
+• Podziel stronę główną i main.dart

@@ -1,0 +1,9 @@
+• Dodaj niestandardowy picker ikon
+• Dodaj filtr wyszukiwania do nowej strony Whathates
+• Zmień okno dialogowe częstotliwości powiadamiania
+• Kontrast ikon lżejszy
+• Poprawia wyściełanie na stronie edycji własnych wpisów
+• Popraw kontrast kolorów ikon
+• Uczyń kolory kontrastowe spójnymi
+• Make homescreen widgets aktualizacja codziennie
+• Zmień szablony stron

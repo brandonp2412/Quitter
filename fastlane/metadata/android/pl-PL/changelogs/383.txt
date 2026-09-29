@@ -1,0 +1,6 @@
+• Dodaj funkcję importu kopii zapasowych
+• Dodaj widżet ekranu domowego
+• Dodaj śledzenie marihuany
+• Dodaj pasek wyszukiwania do ustawień
+• Naprawiono rozpoczęcie podróży na pulpicie
+• Wybierz plik wyjściowy dla kopii zapasowej

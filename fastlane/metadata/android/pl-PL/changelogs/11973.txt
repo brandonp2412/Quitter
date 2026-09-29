@@ -1,0 +1,8 @@
+• dodaj leki przeciwdepresyjne jako śledzone uzależnienie
+• dodaj przełączniki powiadomień dla niestandardowych wpisów
+• Fix utrzymuje stan blokady PIN i wyłączyć backup danych aplikacji
+• Fix pin glance- appwidget do 1.1.0 odblokować tworzenie wydania
+• Napraw zapobiec przesunięciu układu na błąd PIN za pomocą ustawionej wysokości SizedBox
+• Napraw wymianę przerwany Mayo Clinic Press link w serwisie społecznościowym strona dzień 365
+• Napraw wymianę zepsuty optiumjoy.com link w pornografii strona dzień 3
+• Fix update brokenhagen redirected odnośniki na stronach uzależnienia

@@ -1,0 +1,5 @@
+• Dostosuj tytuły i napisy
+• Generuj ponownie ikony
+• Zapobieganie animacji etykiet
+• Zapobieganie niedopasowaniu wersji przy opracowywaniu lokalnie
+• Użyj koloru powierzchni dla przycisku wyboru kalendarza

@@ -1,0 +1,4 @@
+• Ulepszenie rzucenia kopii odniesień
+• Aktualizuj serena.yml
+• Popraw poprawne 15 błędnych lub uszkodzonych adresów odniesienia do badań
+• Popraw prawidłowe pozostałe niedokładne cytaty studyjne na wszystkich stronach kamień milowy

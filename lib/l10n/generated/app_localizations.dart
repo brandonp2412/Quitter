@@ -12,6 +12,7 @@ import 'app_localizations_es.dart';
 import 'app_localizations_fr.dart';
 import 'app_localizations_id.dart';
 import 'app_localizations_ja.dart';
+import 'app_localizations_pl.dart';
 import 'app_localizations_ru.dart';
 import 'app_localizations_th.dart';
 import 'app_localizations_zh.dart';
@@ -109,6 +110,7 @@ abstract class AppLocalizations {
     Locale('fr'),
     Locale('id'),
     Locale('ja'),
+    Locale('pl'),
     Locale('ru'),
     Locale('th'),
     Locale('zh'),
@@ -6193,6 +6195,12 @@ abstract class AppLocalizations {
   /// **'Indonesian'**
   String get settingsLocaleIndonesian;
 
+  /// Polish language option
+  ///
+  /// In en, this message translates to:
+  /// **'Polish'**
+  String get settingsLocalePolish;
+
   /// Thai language label
   ///
   /// In en, this message translates to:
@@ -6218,6 +6226,7 @@ class _AppLocalizationsDelegate
     'fr',
     'id',
     'ja',
+    'pl',
     'ru',
     'th',
     'zh',
@@ -6256,6 +6265,8 @@ AppLocalizations lookupAppLocalizations(Locale locale) {
       return AppLocalizationsId();
     case 'ja':
       return AppLocalizationsJa();
+    case 'pl':
+      return AppLocalizationsPl();
     case 'ru':
       return AppLocalizationsRu();
     case 'th':

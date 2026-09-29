@@ -1,0 +1,2 @@
+• Lokalizacja 1.1.61 notatek wydania
+• Napraw limit metadanych lokalizowanych składów

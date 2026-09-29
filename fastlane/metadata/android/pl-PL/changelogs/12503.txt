@@ -1,0 +1,10 @@
+• Popraw japońską i rosyjską terminologię
+• Napraw pełne referencje francuskiego odzyskiwania
+• Popraw poprawną rosyjską terminologię odzyskiwania
+• Napraw utrzymać rosyjski rejestr Interfejs konsekwentny
+• Napraw lokalizację 1.1.70 notatek wydania
+• Popraw lokalizację Odtwarzaj notatki
+• Popraw lokalizację wyszukiwania i statystyki kompaktowe
+• Napraw, aby postęp kopii nawyk neutralny
+• Napraw polskie chińskie sformułowanie odzysku
+• Napraw polskie tłumaczenia francuskie i hiszpańskie

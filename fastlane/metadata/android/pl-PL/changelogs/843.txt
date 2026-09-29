@@ -1,0 +1,3 @@
+• Format libdimenmain.dart
+• Usuń flutter sdk ścieżka config z vscode
+• Pozostań na stronie ustawień podczas przełączania strony dziennika

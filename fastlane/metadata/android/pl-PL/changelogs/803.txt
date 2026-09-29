@@ -1,0 +1,9 @@
+• Dodaj ustawienie blokady PIN
+• Dodaj testy jednostkowe dla strony pin
+• Napraw importowanie danych ze strony ustawień
+• Popraw pluralizację powiadomień o każdym powiadomieniu o ustawieniu
+• Napraw testy jednostkowe na stronie ustawień
+• Poprawione testy jednostkowe
+• Revert Advanced Usuń wdrożenie sklepu z oknami z github actiontivities
+• Revert Advanced Użyj bezpiecznego przechowywania dla wszystkich wrażliwych informacji
+• Użyj bezpiecznej pamięci masowej dla wszystkich wrażliwych informacji

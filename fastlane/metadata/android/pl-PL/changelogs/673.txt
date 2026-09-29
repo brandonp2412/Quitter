@@ -1,0 +1,1 @@
+• Dodaj brakujące icon.png do folderu fastlane

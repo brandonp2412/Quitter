@@ -2542,5 +2542,9 @@
   },
   "@settingsLocaleArabic": {
     "description": "Arabic language option"
+  },
+  "settingsLocalePolish": "Bahasa Polandia",
+  "@settingsLocalePolish": {
+    "description": "Polish language option"
   }
 }

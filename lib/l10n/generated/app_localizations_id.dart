@@ -3684,5 +3684,8 @@ class AppLocalizationsId extends AppLocalizations {
   String get settingsLocaleIndonesian => 'Dalam bahasa Indonesia: Indonesian';
 
   @override
+  String get settingsLocalePolish => 'Bahasa Polandia';
+
+  @override
   String get settingsLocaleThai => 'Bahasa Thai';
 }

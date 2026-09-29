@@ -1,0 +1,5 @@
+• Popraw bazę danych importu
+• Aktualizuj serenę
+• Upgrade trzepotanie do 3.44.6
+• Poprawiono dodawanie execule- lockfile CI check, aby zapobiec niepowodzeniu budowy F- Droid
+• Napraw użycie readAsBytesmens ) do importowania i dodawania obsługi błędów

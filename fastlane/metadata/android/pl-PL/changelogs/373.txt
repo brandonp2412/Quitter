@@ -1,0 +1,6 @@
+• Dodaj nowe powiadomienia na aktualizacjach
+• Nie pokazuj Whathagen nowości do pierwszej instalacji
+• Link f @-@ droid status składania w README
+• Poprawki liniowe
+• Poproś tylko o pozwolenia na powiadomienia na początku podróży
+• Usuń niewykorzystany import

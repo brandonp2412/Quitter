@@ -1,0 +1,4 @@
+• Dodaj odstępy powyżej tytułu na tracker strony zakończenia
+• Napraw przewijanie na stronie edycji
+• Pokaż pełną datę wraz z rokiem
+• Spróbuj naprawić homescreen aktualizacje widget

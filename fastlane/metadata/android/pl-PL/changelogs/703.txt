@@ -1,0 +1,4 @@
+• Napraw ostrzeżenia dotyczące kłaczków
+• Usuń trochę wzdęcia z deploy.sh
+• Spróbuj naprawić aktualizacje widget homescreen
+• Spróbuj naprawić home widget aktualizacje

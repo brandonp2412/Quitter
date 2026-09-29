@@ -1,0 +1,10 @@
+• Dodaj testy jednostkowe strony głównej
+• Dodaj więcej przycisków Usuń
+• Dodaj testy stron ustawień
+• Dodaj testy dla strony dziennika
+• Dodaj przełączanie do karty dziennika
+• Usuń badania jednostkowe
+• Napraw testy integracyjne ukierunkowane na linux
+• Usuń wskaźnik nawrotu po cofnięciu
+• Uruchom testy integracyjne na linux przed wdrożeniem
+• Upgrade trzepotanie do 3.35.5

@@ -1,0 +1,7 @@
+• Dodaj kod slop do rzekomo finalizacji wdrożeń msstore
+• Utwórz rutynową pełną deskrypcję.txt
+• Utwórz skróconą deskrypcję.txt
+• Format libdimenmain.dart
+• Usuń flutter sdk ścieżka config z vscode
+• Pozostań na stronie ustawień podczas przełączania strony dziennika
+• Użyj formatu json dla importu eksportu

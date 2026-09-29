@@ -160,6 +160,7 @@ void main() {
           'fr',
           'id',
           'ja',
+          'pl',
           'ru',
           'th',
           'zh',

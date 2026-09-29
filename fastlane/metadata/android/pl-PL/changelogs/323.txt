@@ -1,0 +1,2 @@
+• Popraw główny odcinek nagłówka aplikacji
+• Poproś o pozwolenie tylko raz.

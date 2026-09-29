@@ -1,0 +1,4 @@
+• Popraw kontrast na tytule statystyki
+• Użyj ikony spostrzeżeń dla zakładki strony statystyki
+• Dodaj zakładkę Statystyki ze statystykami odzyskiwania
+• Dodaj opcję do rozpoczęcia tygodnia dziennika w poniedziałek

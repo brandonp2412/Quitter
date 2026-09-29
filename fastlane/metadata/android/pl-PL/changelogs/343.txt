@@ -1,0 +1,7 @@
+• Dodaj przycisk reset
+• Dodaj ustawienie do wyłączenia komunikatów o nawrocie
+• Dodaj ustawienie do przycisków resetowania programu ukrywania
+• Zmień ikonę przycisku nawrotu
+• Napraw referencje na stronie z alkoholem
+• Tylko otwarte strony internetowe podczas stukania referencji
+• Re- słowo rzucające strony

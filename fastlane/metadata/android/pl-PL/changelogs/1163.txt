@@ -1,0 +1,1 @@
+• Napraw okno dialogowe ukryj zasłonięte przez system ui

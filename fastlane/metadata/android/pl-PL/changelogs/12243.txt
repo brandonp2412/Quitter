@@ -1,0 +1,9 @@
+• Napraw sprawdzanie finalizacji Microsoft Store
+• Parse multiline Store rockout odpowiedzi
+• Przejście przez DWLDEAPPDER ID do aplikacji linux
+• Docelowa publikowana Zgłoszenia Sklepu
+• Spróbuj skonfigurować haki kodekowe do automatycznego walidacji
+• Integracja logowania talkerów
+• Napraw zgodne z 7 @-@ calowe zrzuty ekranu
+• Napraw twardsze przepływy śledzenia odzyskiwania
+• Fix zakres Flutter jakości formatowanie

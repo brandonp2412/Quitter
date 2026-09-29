@@ -1,0 +1,5 @@
+• Napraw przesunięcie zadań w tle
+• Gwardia kamień milowy Async wyścigi nawigacyjne
+• Usuń zbędne komentarze budowania Androida
+• Uprość przepływ kontroli i usunąć nieświeże komentarze
+• Napraw odświeżający plik blokujący dla powtarzalnych budowań

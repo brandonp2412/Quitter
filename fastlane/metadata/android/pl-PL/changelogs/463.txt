@@ -1,0 +1,10 @@
+• Dodaj przycisk współdziel, aby ogłosić swój postęp
+• Posprzątaj duplikowane zmiennokształtne
+• Napraw rozmieszczenie. sh
+• Poprawiono kończenie stron nie przewijania do bieżącego kamienia milowego
+• Napraw pamiętanie # dni, które przestałeś w przeszłości
+• Popraw tekst akcji w niestandardowym menu akcji
+• Popraw postęp osi czasu podczas resetowania
+• Kod współczynnika
+• Pokaż kropki wskazujące historię rzucenia
+• Pokaż podobne kamienie milowe w niestandardowych wpisach

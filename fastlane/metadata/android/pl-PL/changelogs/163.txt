@@ -1,0 +1,6 @@
+• Dodaj animacje, gdy zaczniesz rezygnować
+• Dodaj dostać go na Google play odznaka wyróżnienia
+• Dodaj go na Google Play Odznaki Odznaki
+• Konfiguracja dla Microsoft Store Citrip citribution
+• Napraw torebek nikotynowych, które nadal pokazują po ukryciu
+• Zastąp referencje do com.example.quitter -recurcom.quitter.app

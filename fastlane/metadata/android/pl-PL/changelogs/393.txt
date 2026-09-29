@@ -1,0 +1,9 @@
+• Dodaj funkcję importu kopii zapasowych
+• Dodaj widżet ekranu domowego
+• Dodaj śledzenie marihuany
+• Dodaj pasek wyszukiwania do ustawień
+• Naprawiono rozpoczęcie podróży na pulpicie
+• Poprawia aktualizację wszystkich zrzutów ekranu przy wdrożeniach
+• Napraw to, co nowe nigdy nie pokazuje
+• Link shields.io w liczbie kart do pobrania
+• Wybierz plik wyjściowy dla kopii zapasowej

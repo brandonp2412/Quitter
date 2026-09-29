@@ -1,0 +1,3 @@
+• Zamień okno dialogowe motywu na SegmentedButton + AMOLED
+• Fix zapobiec SegmentedButton etykieta owinięcie usuwając podwójne wyściełanie
+• Fix zapobiega zawijaniu tytułu karty na wąskich ekranach

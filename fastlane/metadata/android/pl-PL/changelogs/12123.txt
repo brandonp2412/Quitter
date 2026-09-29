@@ -1,0 +1,1 @@
+• Fix Dodaj globalną definicję kompilacji do tłumienia eksperymentalnego błędu coroutine

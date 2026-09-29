@@ -1,0 +1,2 @@
+• fixatill10ncontents: wykończenie hiszpańskich etykiet potwierdzenia
+• fixatill10nsions: lokalizować 1.1.74 wydania notatki

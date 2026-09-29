@@ -1,0 +1,3 @@
+• Napraw lokalizacje systemów Android widget placeholders
+• Napraw nazwę aplikacji
+• Popraw zlokalizowanie podstawowych artykułów odniesienia
