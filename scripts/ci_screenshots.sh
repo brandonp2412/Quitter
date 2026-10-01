@@ -23,6 +23,7 @@ case "$locale" in
   fr) store_locale="fr-FR" ;;
   id) store_locale="id-ID" ;;
   pl) store_locale="pl-PL" ;;
+  pt) store_locale="pt-PT" ;;
   th) store_locale="th-TH" ;;
   ur) store_locale="ur-PK" ;;
   ja) store_locale="ja-JP" ;;

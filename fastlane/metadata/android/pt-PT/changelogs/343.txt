@@ -1,0 +1,7 @@
+• Adicionar botão de reinicialização
+• Adicionada configuração para desativar mensagens de recaída
+• Adicionar configuração para ocultar/mostrar botões de redefinição
+• Alterar ícone do botão de recaída
+• Corrigir referências na página de bebidas alcoólicas
+• Abra sites apenas ao tocar em referências
+• Reformular as páginas de encerramento

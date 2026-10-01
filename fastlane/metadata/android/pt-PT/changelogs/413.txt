@@ -1,0 +1,3 @@
+• Adicionar bolsas de canábis e nicotina às capturas de ecrã
+• Adicione novas capturas de ecrã ao README
+• Incluir diferentes estágios de abandono nas capturas de ecrã

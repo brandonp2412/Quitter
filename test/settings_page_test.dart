@@ -149,6 +149,13 @@ void main() {
           findsOneWidget,
         );
         expect(
+          find.descendant(
+            of: dialog,
+            matching: find.text('Português (Portugal)'),
+          ),
+          findsOneWidget,
+        );
+        expect(
           find.descendant(of: dialog, matching: find.text('Russian')),
           findsOneWidget,
         );
@@ -161,6 +168,7 @@ void main() {
           'id',
           'ja',
           'pl',
+          'pt',
           'ru',
           'th',
           'ur',

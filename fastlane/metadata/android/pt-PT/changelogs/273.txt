@@ -1,0 +1,2 @@
+• Reduzir o registo no gradle build
+• Reestilizar a página inicial

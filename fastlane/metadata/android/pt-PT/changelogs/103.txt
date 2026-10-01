@@ -1,0 +1,2 @@
+• Adicionar sinalizador para pular capturas de ecrã em deploy.sh
+• Verifique o código antes de obter o número da compilação no github

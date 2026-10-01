@@ -1,0 +1,10 @@
+• Adicionar claude slop para finalização do pacote Azure
+• Adicionar cabeçalho Content-Type ausente à finalização do Azure
+• Adicionar mais resíduos para supostamente finalizar implantações de msstore
+• Adicionar tempo limite do PIN
+• Adicionar título russo
+• Adicionar código slop para supostamente finalizar implantações de msstore
+• Alteradas as cores codificadas para o tema material
+• Limpar script de implantação
+• Crie ru/full_description.txt
+• Crie ru/short_description.txt

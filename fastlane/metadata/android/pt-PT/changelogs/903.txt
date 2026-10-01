@@ -1,0 +1,4 @@
+• Adicionar claude slop para finalização do pacote Azure
+• Adicionar mais resíduos para supostamente finalizar implantações de msstore
+• Mover lanchonete
+• Ignore os testes de integração com -n

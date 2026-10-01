@@ -1,0 +1,4 @@
+• Adicionar patrulha ao caminho da ação do github
+• Remover TODO.txt confirmado acidentalmente
+• Atualize a vibração para 3.38.3
+• Correção de execução do teste Patrol do widget Android

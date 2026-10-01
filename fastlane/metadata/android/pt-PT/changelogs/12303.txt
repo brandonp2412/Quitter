@@ -1,0 +1,2 @@
+• seleção completa do idioma do aplicação
+• Corrigir strings completas de aplicações localizados

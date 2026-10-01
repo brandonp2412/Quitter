@@ -902,6 +902,7 @@ class _SettingsPageState extends State<SettingsPage> {
       'fr' => l10n.settingsLocaleFrench,
       'ru' => l10n.settingsLocaleRussian,
       'es' => l10n.settingsLocaleSpanish,
+      'pt' => 'Português (Portugal)',
       'zh' => l10n.settingsLocaleSimplifiedChinese,
       'zh-Hant' => l10n.settingsLocaleTraditionalChinese,
       'id' => l10n.settingsLocaleIndonesian,

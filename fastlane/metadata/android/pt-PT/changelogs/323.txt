@@ -1,0 +1,2 @@
+• Corrigir espaçamento do cabeçalho do aplicação principal
+• Peça permissões apenas uma vez

@@ -109,7 +109,10 @@ bool _containsTargetScript(String languageCode, String value) {
   if (languageCode == 'id') {
     return RegExp(r'[A-Za-z]').hasMatch(value);
   }
-  if (languageCode == 'de' || languageCode == 'es' || languageCode == 'fr') {
+  if (languageCode == 'de' ||
+      languageCode == 'es' ||
+      languageCode == 'fr' ||
+      languageCode == 'pt') {
     return RegExp(r'[A-Za-zÀÂÆÇÉÈÊËÎÏÔŒÙÛÜŸàâæçéèêëîïôœùûüÿ]').hasMatch(value);
   }
   if (languageCode == 'pl') {
@@ -164,6 +167,7 @@ void main() {
     'aboutAuthorName',
     'aboutLicenseMIT',
     'ok',
+    'settingsLocaleUrdu',
   };
   const intentionalSharedGermanValues = {
     'addictionHeroin',
@@ -512,6 +516,7 @@ void main() {
       'id': ['Sumber:', 'Sumber：'],
       'th': ['แหล่งที่มา:', 'แหล่งที่มา：', 'ที่มา:', 'ที่มา：'],
       'pl': ['Źródło:', 'Źródła:'],
+      'pt': ['Fonte:'],
       'ur': ['ماخذ:', 'ماخذ：'],
     };
 
@@ -1209,6 +1214,7 @@ void main() {
       'fr': 'fr-FR',
       'id': 'id-ID',
       'pl': 'pl-PL',
+      'pt': 'pt-PT',
       'th': 'th-TH',
       'ur': 'ur-PK',
       'ja': 'ja-JP',
@@ -1220,7 +1226,7 @@ void main() {
     expect(
       workflow,
       contains(
-        'locale: [en, ar, de, es, fr, id, ja, pl, ru, th, ur, zh, zh-Hant]',
+        'locale: [en, ar, de, es, fr, id, ja, pl, pt, ru, th, ur, zh, zh-Hant]',
       ),
     );
     for (final locale in AppLocalizations.supportedLocales) {
@@ -1251,6 +1257,7 @@ void main() {
       'fr': 'fr-FR',
       'id': 'id-ID',
       'pl': 'pl-PL',
+      'pt': 'pt-PT',
       'th': 'th-TH',
       'ur': 'ur-PK',
       'ja': 'ja-JP',
@@ -1268,6 +1275,7 @@ void main() {
       final localeKey = localePreferenceValue(locale);
       if (localeKey == 'en' ||
           localeKey == 'ar' ||
+          localeKey == 'pt' ||
           localeKey == 'ur' ||
           localeKey == 'zh-Hant') {
         continue;
@@ -1314,6 +1322,7 @@ void main() {
       'fr': 'fr-FR',
       'id': 'id-ID',
       'pl': 'pl-PL',
+      'pt': 'pt-PT',
       'th': 'th-TH',
       'ur': 'ur-PK',
       'ja': 'ja-JP',
@@ -1337,6 +1346,7 @@ void main() {
       'zh-Hant': ['進度', '里程碑', '日記'],
       'id': ['kemajuan', 'pencapaian', 'jurnal'],
       'pl': ['postępy', 'kamienie', 'dziennik'],
+      'pt': ['progresso', 'marcos', 'diário'],
       'th': ['ความ', 'เป้าหมาย', 'บันทึก'],
       'ur': ['پیش رفت', 'سنگِ میل', 'جرنل'],
     };
@@ -1491,6 +1501,7 @@ void main() {
       'fr': 'fr-FR',
       'id': 'id',
       'pl': 'pl',
+      'pt': 'pt-PT',
       'th': 'th',
       'ur': 'ur',
       'ja': 'ja',
@@ -1547,6 +1558,7 @@ void main() {
       'fr': 'fr-FR',
       'id': 'id',
       'pl': 'pl',
+      'pt': 'pt-PT',
       'th': 'th',
       'ur': 'ur',
       'ja': 'ja',
@@ -1672,6 +1684,7 @@ void main() {
       'es-ES',
       'fr-FR',
       'ja-JP',
+      'pt-PT',
       'ru-RU',
       'zh-CN',
       'zh-TW',
@@ -1815,6 +1828,7 @@ void main() {
       'id-id',
       'ja-jp',
       'pl-pl',
+      'pt-pt',
       'ru-ru',
       'th-th',
       'ur-pk',
@@ -1841,6 +1855,7 @@ void main() {
       'zh-Hant',
       'id',
       'pl',
+      'pt',
       'th',
       'ur',
     };
@@ -1879,11 +1894,13 @@ void main() {
     expect(index, contains('记录戒除习惯'));
     expect(index, contains('記錄戒除習慣'));
     expect(index, contains('Lacak kemajuan berhenti'));
+    expect(index, contains('Acompanhe o progresso ao deixar hábitos'));
 
     final privacy = File('docs/privacy-policy.html').readAsStringSync();
     expect(privacy, contains('Quitter-Datenschutzerklärung'));
     expect(privacy, contains('Política de privacidad de Quitter'));
     expect(privacy, contains('Politique de confidentialité de Quitter'));
+    expect(privacy, contains('Política de Privacidade do Quitter'));
     expect(privacy, contains('Quitter プライバシーポリシー'));
     expect(privacy, contains('Quitter — Политика конфиденциальности'));
     expect(privacy, contains('Quitter 隐私政策'));
@@ -1898,6 +1915,7 @@ void main() {
     expect(privacy, contains('?lang=zh-Hant'));
     expect(privacy, contains('?lang=id'));
     expect(privacy, contains('?lang=pl'));
+    expect(privacy, contains('?lang=pt'));
     expect(privacy, contains('?lang=ur'));
   });
 
@@ -2034,6 +2052,7 @@ void main() {
       'zh-Hant': {'other'},
       'id': {'one', 'other'},
       'pl': {'one', 'few', 'many', 'other'},
+      'pt': {'one', 'other'},
       'th': {'other'},
       'ur': {'one', 'other'},
     };

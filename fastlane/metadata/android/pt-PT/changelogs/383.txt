@@ -1,0 +1,6 @@
+• Adicionar recurso de backup/importação
+• Adicionar widget do ecrã inicial
+• Adicionar acompanhamento de canábis
+• Adicionar barra de pesquisa às definições
+• Correção da jornada inicial no desktop
+• Escolha o ficheiro de saída para backup

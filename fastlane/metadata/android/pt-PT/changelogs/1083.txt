@@ -1,0 +1,4 @@
+• Adicionar alternâncias adderall à página de definições
+• Classifique a página inicial em ordem alfabética
+• Classifique a página de definições em ordem alfabética
+• Ocultar por padrão vícios estigmatizados
