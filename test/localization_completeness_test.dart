@@ -124,6 +124,12 @@ bool _containsTargetScript(String languageCode, String value) {
     if (languageCode == 'ar' && rune >= 0x0600 && rune <= 0x06ff) {
       return true;
     }
+    if (languageCode == 'ur' &&
+        ((rune >= 0x0600 && rune <= 0x06ff) ||
+            (rune >= 0x0750 && rune <= 0x077f) ||
+            (rune >= 0x08a0 && rune <= 0x08ff))) {
+      return true;
+    }
     if (languageCode == 'th' && rune >= 0x0e00 && rune <= 0x0e7f) {
       return true;
     }
@@ -506,6 +512,7 @@ void main() {
       'id': ['Sumber:', 'Sumber：'],
       'th': ['แหล่งที่มา:', 'แหล่งที่มา：', 'ที่มา:', 'ที่มา：'],
       'pl': ['Źródło:', 'Źródła:'],
+      'ur': ['ماخذ:', 'ماخذ：'],
     };
 
     for (final locale in AppLocalizations.supportedLocales) {
@@ -1203,6 +1210,7 @@ void main() {
       'id': 'id-ID',
       'pl': 'pl-PL',
       'th': 'th-TH',
+      'ur': 'ur-PK',
       'ja': 'ja-JP',
       'ru': 'ru-RU',
       'zh': 'zh-CN',
@@ -1211,7 +1219,9 @@ void main() {
 
     expect(
       workflow,
-      contains('locale: [en, ar, de, es, fr, id, ja, pl, ru, th, zh, zh-Hant]'),
+      contains(
+        'locale: [en, ar, de, es, fr, id, ja, pl, ru, th, ur, zh, zh-Hant]',
+      ),
     );
     for (final locale in AppLocalizations.supportedLocales) {
       final localeKey = localePreferenceValue(locale);
@@ -1242,6 +1252,7 @@ void main() {
       'id': 'id-ID',
       'pl': 'pl-PL',
       'th': 'th-TH',
+      'ur': 'ur-PK',
       'ja': 'ja-JP',
       'ru': 'ru-RU',
       'zh': 'zh-CN',
@@ -1255,8 +1266,12 @@ void main() {
 
     for (final locale in AppLocalizations.supportedLocales) {
       final localeKey = localePreferenceValue(locale);
-      if (localeKey == 'en' || localeKey == 'ar' || localeKey == 'zh-Hant')
+      if (localeKey == 'en' ||
+          localeKey == 'ar' ||
+          localeKey == 'ur' ||
+          localeKey == 'zh-Hant') {
         continue;
+      }
 
       final storeLocale = storeLocales[localeKey]!;
       for (final directory in screenshotDirectories) {
@@ -1300,6 +1315,7 @@ void main() {
       'id': 'id-ID',
       'pl': 'pl-PL',
       'th': 'th-TH',
+      'ur': 'ur-PK',
       'ja': 'ja-JP',
       'ru': 'ru-RU',
       'zh': 'zh-CN',
@@ -1322,6 +1338,7 @@ void main() {
       'id': ['kemajuan', 'pencapaian', 'jurnal'],
       'pl': ['postępy', 'kamienie', 'dziennik'],
       'th': ['ความ', 'เป้าหมาย', 'บันทึก'],
+      'ur': ['پیش رفت', 'سنگِ میل', 'جرنل'],
     };
     const forbiddenListingArtifacts = {
       'ja': ['禁断トラッカー'],
@@ -1475,6 +1492,7 @@ void main() {
       'id': 'id',
       'pl': 'pl',
       'th': 'th',
+      'ur': 'ur',
       'ja': 'ja',
       'ru': 'ru',
       'zh': 'zh-Hans',
@@ -1530,6 +1548,7 @@ void main() {
       'id': 'id',
       'pl': 'pl',
       'th': 'th',
+      'ur': 'ur',
       'ja': 'ja',
       'ru': 'ru',
       'zh': 'zh-Hans',
@@ -1750,6 +1769,7 @@ void main() {
 
       if (languageCode == 'ja' ||
           languageCode == 'ru' ||
+          languageCode == 'ur' ||
           languageCode == 'zh') {
         expect(
           _containsTargetScript(languageCode, localized.values.join('\n')),
@@ -1797,6 +1817,7 @@ void main() {
       'pl-pl',
       'ru-ru',
       'th-th',
+      'ur-pk',
       'zh-cn',
       'zh-tw',
     });
@@ -1821,6 +1842,7 @@ void main() {
       'id',
       'pl',
       'th',
+      'ur',
     };
     for (final locale in AppLocalizations.supportedLocales) {
       final localeKey = localePreferenceValue(locale);
@@ -1876,6 +1898,7 @@ void main() {
     expect(privacy, contains('?lang=zh-Hant'));
     expect(privacy, contains('?lang=id'));
     expect(privacy, contains('?lang=pl'));
+    expect(privacy, contains('?lang=ur'));
   });
 
   test('every supported locale translates every changelog entry', () {
@@ -2012,6 +2035,7 @@ void main() {
       'id': {'one', 'other'},
       'pl': {'one', 'few', 'many', 'other'},
       'th': {'other'},
+      'ur': {'one', 'other'},
     };
     const androidResourceDirectories = {'zh-Hant': 'values-b+zh+Hant'};
 

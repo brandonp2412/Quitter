@@ -1029,5 +1029,9 @@
   "settingsLocalePolish": "Polnisch",
   "@settingsLocalePolish": {
     "description": "Polish language option"
+  },
+  "settingsLocaleUrdu": "Urdu-Sprache",
+  "@settingsLocaleUrdu": {
+    "description": "Urdu language option"
   }
 }

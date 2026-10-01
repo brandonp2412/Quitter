@@ -2546,5 +2546,9 @@
   "settingsLocalePolish": "البولندية",
   "@settingsLocalePolish": {
     "description": "Polish language option"
+  },
+  "settingsLocaleUrdu": "الأردية",
+  "@settingsLocaleUrdu": {
+    "description": "Urdu language option"
   }
 }

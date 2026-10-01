@@ -2546,5 +2546,9 @@
   "settingsLocalePolish": "Bahasa Polandia",
   "@settingsLocalePolish": {
     "description": "Polish language option"
+  },
+  "settingsLocaleUrdu": "bahasa Urdu",
+  "@settingsLocaleUrdu": {
+    "description": "Urdu language option"
   }
 }

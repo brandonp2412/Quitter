@@ -18,6 +18,7 @@ Future<void> main() async => await integrationDriver(
       "id" => "id-ID",
       "pl" => "pl-PL",
       "th" => "th-TH",
+      "ur" => "ur-PK",
       "ja" => "ja-JP",
       "ru" => "ru-RU",
       "zh" => "zh-CN",

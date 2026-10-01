@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_description">ترک کرنے کا ٹریکر</string>
+    <string name="widget_selection_title">کیا ٹریک کرنا ہے منتخب کریں</string>
+    <string name="widget_selection_subtitle">ہوم اسکرین پر چھوڑنے کے بعد کے دن گنیں</string>
+    <string name="addiction_alcohol">شراب</string>
+    <string name="addiction_vaping">ویپنگ</string>
+    <string name="addiction_smoking">تمباکو نوشی</string>
+    <string name="addiction_smokeless_tobacco">ڈِپ / چبانے والا تمباکو</string>
+    <string name="addiction_marijuana">چرس</string>
+    <string name="addiction_nicotine_pouches">نکوٹین پاؤچز</string>
+    <string name="addiction_opioids">اوپیئڈز</string>
+    <string name="addiction_heroin">ہیروئن</string>
+    <string name="addiction_fentanyl">فینٹانائل</string>
+    <string name="addiction_social_media">سوشل میڈیا</string>
+    <string name="addiction_pornography">بالغ مواد</string>
+    <string name="addiction_cocaine">کوکین</string>
+    <string name="addiction_meth">میتھ</string>
+    <string name="addiction_benzos">بینزودیازپینز</string>
+    <string name="addiction_adderall">ایڈرل</string>
+    <string name="addiction_ssri">ایس ایس آر آئی</string>
+    <string name="addiction_snri">ایس این آر آئی</string>
+    <string name="addiction_tca">ٹی سی اے</string>
+    <string name="addiction_maoi">ایم اے او آئی</string>
+    <string name="addiction_nitrous_oxide">نائٹرس آکسائیڈ</string>
+    <string name="addiction_kratom">کریٹم</string>
+    <string name="addiction_gabapentinoids">گیباپینٹن / پریگابلن</string>
+    <string name="addiction_ghb">جی ایچ بی</string>
+    <string name="addiction_ketamine">کیٹامین</string>
+    <string name="addiction_inhalants">سانس کے ذریعے لی جانے والی منشیات</string>
+    <string name="addiction_synthetic_cannabinoids">مصنوعی کینابینوئڈز</string>
+    <string name="addiction_mdma">ایم ڈی ایم اے</string>
+    <string name="addiction_steroids">اینابولک سٹیرائڈز</string>
+    <plurals name="widget_days">
+        <item quantity="one">%d دن</item>
+        <item quantity="other">%d دن</item>
+    </plurals>
+    <string name="widget_not_set">مقرر نہیں</string>
+    <string name="widget_unknown">نامعلوم</string>
+    <string name="widget_error">خرابی</string>
+    <string name="widget_setup_text">ٹیپ کریں
+سیٹ اپ</string>
+    <string name="widget_addiction_placeholder">لت</string>
+    <string name="widget_zero_days">0 دن</string>
+</resources>

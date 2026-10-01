@@ -3736,4 +3736,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get settingsLocaleThai => 'Тайский';
+
+  @override
+  String get settingsLocaleUrdu => 'урду';
 }

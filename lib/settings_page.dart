@@ -907,6 +907,7 @@ class _SettingsPageState extends State<SettingsPage> {
       'id' => l10n.settingsLocaleIndonesian,
       'pl' => l10n.settingsLocalePolish,
       'th' => l10n.settingsLocaleThai,
+      'ur' => l10n.settingsLocaleUrdu,
       _ => l10n.settingsLocaleUnsupported,
     };
   }

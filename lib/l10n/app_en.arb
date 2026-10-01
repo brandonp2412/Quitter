@@ -2546,5 +2546,9 @@
   },
   "@settingsLocaleIndonesian": {
     "description": "Indonesian language option"
+  },
+  "settingsLocaleUrdu": "Urdu",
+  "@settingsLocaleUrdu": {
+    "description": "Urdu language option"
   }
 }

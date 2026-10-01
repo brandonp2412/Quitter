@@ -1,0 +1,10 @@
+• CLAUDE.md شامل کیا
+• منتقلی کا اسکرپٹ شامل کیا
+• نکوٹین پاؤچز میں اوورفلو کا مسئلہ درست کیا
+• ہوم پیج اور ترتیبات کے نئے UI کے مطابق ٹیسٹ درست کیے
+• ٹیسٹ کی فارمیٹنگ درست کی
+• نئے صارفین کی ابتدائی رہنمائی بہتر کی
+• ترتیبات کی فلٹرنگ میں عنوان شامل کیا
+• dart format چلایا
+• "chore: remove flutter submodule, use global SDK" تبدیلی واپس لی
+• "ci: replace flutter submodule setup with subosito/flutter-action" تبدیلی واپس لی

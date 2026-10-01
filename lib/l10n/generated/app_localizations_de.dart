@@ -3700,4 +3700,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get settingsLocaleThai => 'Thailändisch';
+
+  @override
+  String get settingsLocaleUrdu => 'Urdu-Sprache';
 }

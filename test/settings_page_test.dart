@@ -163,6 +163,7 @@ void main() {
           'pl',
           'ru',
           'th',
+          'ur',
           'zh',
           'zh-Hant',
         ]);
