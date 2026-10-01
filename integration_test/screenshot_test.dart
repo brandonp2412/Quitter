@@ -24,15 +24,15 @@ const screenshotLocale = String.fromEnvironment(
 );
 
 String get screenshotStoreLocale => switch (screenshotLocale) {
-  'ar' => 'ar-SA',
+  'ar' => 'ar',
   'de' => 'de-DE',
   'es' => 'es-ES',
   'fr' => 'fr-FR',
-  'id' => 'id-ID',
+  'id' => 'id',
   'pl' => 'pl-PL',
   'pt' => 'pt-PT',
-  'th' => 'th-TH',
-  'ur' => 'ur-PK',
+  'th' => 'th',
+  'ur' => 'ur',
   'ja' => 'ja-JP',
   'ru' => 'ru-RU',
   'zh' => 'zh-CN',

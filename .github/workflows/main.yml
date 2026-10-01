@@ -211,15 +211,15 @@ jobs:
         run: |
           case "$LOCALE" in
             en) STORE_LOCALE=en-US ;;
-            ar) STORE_LOCALE=ar-SA ;;
+            ar) STORE_LOCALE=ar ;;
             de) STORE_LOCALE=de-DE ;;
             es) STORE_LOCALE=es-ES ;;
             fr) STORE_LOCALE=fr-FR ;;
-            id) STORE_LOCALE=id-ID ;;
+            id) STORE_LOCALE=id ;;
             pl) STORE_LOCALE=pl-PL ;;
             pt) STORE_LOCALE=pt-PT ;;
-            th) STORE_LOCALE=th-TH ;;
-            ur) STORE_LOCALE=ur-PK ;;
+            th) STORE_LOCALE=th ;;
+            ur) STORE_LOCALE=ur ;;
             ja) STORE_LOCALE=ja-JP ;;
             ru) STORE_LOCALE=ru-RU ;;
             zh) STORE_LOCALE=zh-CN ;;

@@ -17,15 +17,15 @@ locale="${QUITTER_LOCALE:-en}"
 
 case "$locale" in
   en) store_locale="en-US" ;;
-  ar) store_locale="ar-SA" ;;
+  ar) store_locale="ar" ;;
   de) store_locale="de-DE" ;;
   es) store_locale="es-ES" ;;
   fr) store_locale="fr-FR" ;;
-  id) store_locale="id-ID" ;;
+  id) store_locale="id" ;;
   pl) store_locale="pl-PL" ;;
   pt) store_locale="pt-PT" ;;
-  th) store_locale="th-TH" ;;
-  ur) store_locale="ur-PK" ;;
+  th) store_locale="th" ;;
+  ur) store_locale="ur" ;;
   ja) store_locale="ja-JP" ;;
   ru) store_locale="ru-RU" ;;
   zh) store_locale="zh-CN" ;;
