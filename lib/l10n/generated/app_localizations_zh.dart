@@ -3511,6 +3511,9 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get settingsLocaleUrdu => '乌尔都语';
+
+  @override
+  String get settingsLocalePersian => '波斯语';
 }
 
 /// The translations for Chinese, using the Han script (`zh_Hant`).
@@ -7020,4 +7023,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get settingsLocaleUrdu => '烏爾都語';
+
+  @override
+  String get settingsLocalePersian => '波斯語';
 }

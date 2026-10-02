@@ -3514,4 +3514,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get settingsLocaleUrdu => 'ウルドゥー語';
+
+  @override
+  String get settingsLocalePersian => 'ペルシア語';
 }

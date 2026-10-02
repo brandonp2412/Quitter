@@ -1033,5 +1033,9 @@
   "settingsLocaleUrdu": "Urdu-Sprache",
   "@settingsLocaleUrdu": {
     "description": "Urdu language option"
+  },
+  "settingsLocalePersian": "Persisch",
+  "@settingsLocalePersian": {
+    "description": "Persian language option"
   }
 }

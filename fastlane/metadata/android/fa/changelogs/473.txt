@@ -1,0 +1,1 @@
+• مجوز ACCESS_NETWORK_STATE از Android حذف شد

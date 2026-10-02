@@ -33,6 +33,7 @@ String get screenshotStoreLocale => switch (screenshotLocale) {
   'pt' => 'pt-PT',
   'th' => 'th',
   'ur' => 'ur',
+  'fa' => 'fa',
   'ja' => 'ja-JP',
   'ru' => 'ru-RU',
   'zh' => 'zh-CN',

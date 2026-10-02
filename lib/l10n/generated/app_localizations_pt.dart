@@ -3722,4 +3722,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get settingsLocaleUrdu => 'Urdu';
+
+  @override
+  String get settingsLocalePersian => 'Persa';
 }

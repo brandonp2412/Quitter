@@ -3739,4 +3739,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get settingsLocaleUrdu => 'урду';
+
+  @override
+  String get settingsLocalePersian => 'Персидский';
 }

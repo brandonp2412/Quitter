@@ -1,0 +1,4 @@
+• Patrol به PATH در GitHub Actions اضافه شد
+• فایل TODO.txt که ناخواسته commit شده بود حذف شد
+• Flutter به نسخهٔ 3.38.3 به‌روزرسانی شد
+• اجرای آزمون Patrol ابزارک Android اصلاح شد

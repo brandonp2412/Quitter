@@ -3653,4 +3653,7 @@ class AppLocalizationsTh extends AppLocalizations {
 
   @override
   String get settingsLocaleUrdu => 'ภาษาอูรดู';
+
+  @override
+  String get settingsLocalePersian => 'เปอร์เซีย';
 }

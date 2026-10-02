@@ -3758,4 +3758,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get settingsLocaleUrdu => 'ourdou';
+
+  @override
+  String get settingsLocalePersian => 'Persan';
 }

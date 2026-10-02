@@ -20,6 +20,7 @@
         <a href="?lang=de" lang="de">Deutsch</a>
         <a href="?lang=es" lang="es">Español</a>
         <a href="?lang=fr" lang="fr">Français</a>
+        <a href="?lang=fa" lang="fa" dir="rtl">فارسی</a>
         <a href="?lang=id" lang="id">Bahasa Indonesia</a>
         <a href="?lang=pl" lang="pl">Polski</a>
         <a href="?lang=pt" lang="pt">Português (Portugal)</a>
@@ -68,6 +69,17 @@
             retentionBody: 'Alle Daten werden lokal auf deinem Gerät gespeichert und bleiben dort, bis du sie in der App löschst oder die App deinstallierst.',
             deletionHeading: 'Daten löschen',
             deletionBody: 'Du kannst einzelne Einträge jederzeit in der App löschen. Durch das Deinstallieren der App werden alle zugehörigen Daten von deinem Gerät entfernt. Da keine Daten auf externen Servern gespeichert werden, ist kein Löschantrag bei Dritten erforderlich.',
+          },
+          fa: {
+            title: 'سیاست حفظ حریم خصوصی Quitter',
+            languageLabel: 'زبان',
+            updated: 'آخرین به‌روزرسانی: ۶ سپتامبر ۲۰۲۶',
+            healthHeading: 'داده‌های سلامت',
+            healthBody: 'Quitter به هیچ‌گونه دادهٔ سلامت یا تناسب‌اندام دسترسی پیدا نمی‌کند، آن‌ها را جمع‌آوری، منتقل یا به‌اشتراک نمی‌گذارد. همهٔ داده‌های مربوط به عادت‌ها که وارد می‌کنید فقط روی دستگاه خودتان ذخیره می‌شوند.',
+            retentionHeading: 'نگهداری داده‌ها',
+            retentionBody: 'همهٔ داده‌ها به‌صورت محلی روی دستگاه شما ذخیره می‌شوند و تا زمانی که آن‌ها را درون برنامه حذف نکنید یا برنامه را حذف نصب نکنید، همان‌جا باقی می‌مانند.',
+            deletionHeading: 'حذف داده‌ها',
+            deletionBody: 'می‌توانید هر زمان که بخواهید ورودی‌های جداگانه را درون برنامه حذف کنید. حذف نصب برنامه همهٔ داده‌های مرتبط را از دستگاه شما پاک می‌کند. هیچ داده‌ای روی سرورهای خارجی ذخیره نمی‌شود، بنابراین نیازی به درخواست حذف از شخص ثالث نیست.',
           },
           fr: {
             title: 'Politique de confidentialité de Quitter',
@@ -210,7 +222,7 @@
 
         const copy = translations[language];
         document.documentElement.lang = language;
-        document.documentElement.dir = language === 'ar' ? 'rtl' : 'ltr';
+        document.documentElement.dir = ['ar', 'fa'].includes(language) ? 'rtl' : 'ltr';
         document.title = copy.title;
         document.getElementById('language-nav').setAttribute('aria-label', copy.languageLabel);
         document.getElementById('title').textContent = copy.title;

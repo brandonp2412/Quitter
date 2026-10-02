@@ -127,6 +127,12 @@ bool _containsTargetScript(String languageCode, String value) {
     if (languageCode == 'ar' && rune >= 0x0600 && rune <= 0x06ff) {
       return true;
     }
+    if (languageCode == 'fa' &&
+        ((rune >= 0x0600 && rune <= 0x06ff) ||
+            (rune >= 0x0750 && rune <= 0x077f) ||
+            (rune >= 0x08a0 && rune <= 0x08ff))) {
+      return true;
+    }
     if (languageCode == 'ur' &&
         ((rune >= 0x0600 && rune <= 0x06ff) ||
             (rune >= 0x0750 && rune <= 0x077f) ||
@@ -510,6 +516,7 @@ void main() {
       'de': ['Quelle:'],
       'es': ['Fuente:'],
       'fr': ['Source :', 'Source:'],
+      'fa': ['منبع:', 'منبع：'],
       'ja': ['出典：', '出典:'],
       'ru': ['Источник:', 'Источник：'],
       'zh': ['来源：', '来源:'],
@@ -1212,6 +1219,7 @@ void main() {
       'de': 'de-DE',
       'es': 'es-ES',
       'fr': 'fr-FR',
+      'fa': 'fa',
       'id': 'id',
       'pl': 'pl-PL',
       'pt': 'pt-PT',
@@ -1226,7 +1234,7 @@ void main() {
     expect(
       workflow,
       contains(
-        'locale: [en, ar, de, es, fr, id, ja, pl, pt, ru, th, ur, zh, zh-Hant]',
+        'locale: [en, ar, de, es, fa, fr, id, ja, pl, pt, ru, th, ur, zh, zh-Hant]',
       ),
     );
     for (final locale in AppLocalizations.supportedLocales) {
@@ -1255,6 +1263,7 @@ void main() {
       'de': 'de-DE',
       'es': 'es-ES',
       'fr': 'fr-FR',
+      'fa': 'fa',
       'id': 'id',
       'pl': 'pl-PL',
       'pt': 'pt-PT',
@@ -1275,6 +1284,7 @@ void main() {
       final localeKey = localePreferenceValue(locale);
       if (localeKey == 'en' ||
           localeKey == 'ar' ||
+          localeKey == 'fa' ||
           localeKey == 'pt' ||
           localeKey == 'ur' ||
           localeKey == 'zh-Hant') {
@@ -1320,6 +1330,7 @@ void main() {
       'de': 'de-DE',
       'es': 'es-ES',
       'fr': 'fr-FR',
+      'fa': 'fa',
       'id': 'id',
       'pl': 'pl-PL',
       'pt': 'pt-PT',
@@ -1340,6 +1351,7 @@ void main() {
       'de': ['Fortschritt', 'Meilensteine', 'Tagebuch'],
       'es': ['progreso', 'hitos', 'diario'],
       'fr': ['progrès', 'étapes', 'journal'],
+      'fa': ['پیشرفت', 'نقاط عطف', 'یادداشت'],
       'ja': ['進捗', '節目', '日記'],
       'ru': ['прогресс', 'этап', 'дневник'],
       'zh': ['进度', '里程碑', '日记'],
@@ -1499,6 +1511,7 @@ void main() {
       'de': 'de-DE',
       'es': 'es-ES',
       'fr': 'fr-FR',
+      'fa': 'fa',
       'id': 'id',
       'pl': 'pl',
       'pt': 'pt-PT',
@@ -1556,6 +1569,7 @@ void main() {
       'de': 'de-DE',
       'es': 'es-ES',
       'fr': 'fr-FR',
+      'fa': 'fa',
       'id': 'id',
       'pl': 'pl',
       'pt': 'pt-PT',
@@ -1634,7 +1648,8 @@ void main() {
         reason: '$storeLocale keywords must not fall back to English',
       );
 
-      if (locale.languageCode == 'ja' ||
+      if (locale.languageCode == 'fa' ||
+          locale.languageCode == 'ja' ||
           locale.languageCode == 'ru' ||
           locale.languageCode == 'zh') {
         expect(
@@ -1683,6 +1698,7 @@ void main() {
       'de-DE',
       'es-ES',
       'fr-FR',
+      'fa',
       'ja-JP',
       'pt-PT',
       'ru-RU',
@@ -1780,7 +1796,8 @@ void main() {
         reason: 'macOS $languageCode menu must not fall back to English',
       );
 
-      if (languageCode == 'ja' ||
+      if (languageCode == 'fa' ||
+          languageCode == 'ja' ||
           languageCode == 'ru' ||
           languageCode == 'ur' ||
           languageCode == 'zh') {
@@ -1824,6 +1841,7 @@ void main() {
       'ar-sa',
       'de-de',
       'es-es',
+      'fa-ir',
       'fr-fr',
       'id-id',
       'ja-jp',
@@ -1848,6 +1866,7 @@ void main() {
       'ar',
       'de',
       'es',
+      'fa',
       'fr',
       'ja',
       'ru',
@@ -1889,6 +1908,7 @@ void main() {
     expect(index, contains('Verfolge Fortschritt'));
     expect(index, contains('Sigue tu progreso al dejar hábitos'));
     expect(index, contains('Suivez vos progrès'));
+    expect(index, contains('پیشرفت ترک عادت‌ها'));
     expect(index, contains('やめたい習慣'));
     expect(index, contains('Отслеживайте прогресс'));
     expect(index, contains('记录戒除习惯'));
@@ -1900,6 +1920,7 @@ void main() {
     expect(privacy, contains('Quitter-Datenschutzerklärung'));
     expect(privacy, contains('Política de privacidad de Quitter'));
     expect(privacy, contains('Politique de confidentialité de Quitter'));
+    expect(privacy, contains('سیاست حفظ حریم خصوصی Quitter'));
     expect(privacy, contains('Política de Privacidade do Quitter'));
     expect(privacy, contains('Quitter プライバシーポリシー'));
     expect(privacy, contains('Quitter — Политика конфиденциальности'));
@@ -1909,6 +1930,7 @@ void main() {
     expect(privacy, contains('?lang=de'));
     expect(privacy, contains('?lang=es'));
     expect(privacy, contains('?lang=fr'));
+    expect(privacy, contains('?lang=fa'));
     expect(privacy, contains('?lang=ja'));
     expect(privacy, contains('?lang=ru'));
     expect(privacy, contains('?lang=zh'));
@@ -2046,6 +2068,7 @@ void main() {
       'de': {'one', 'other'},
       'es': {'one', 'other'},
       'fr': {'one', 'other'},
+      'fa': {'one', 'other'},
       'ja': {'other'},
       'ru': {'one', 'few', 'many', 'other'},
       'zh': {'other'},

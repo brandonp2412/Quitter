@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_description">ردیاب ترک عادت</string>
+    <string name="widget_selection_title">انتخاب کنید چه چیزی پیگیری شود</string>
+    <string name="widget_selection_subtitle">روزهای پس از ترک را در صفحه اصلی بشمارید</string>
+    <string name="addiction_alcohol">الکل</string>
+    <string name="addiction_vaping">ویپ</string>
+    <string name="addiction_smoking">سیگار</string>
+    <string name="addiction_smokeless_tobacco">تنباکوی بدون دود</string>
+    <string name="addiction_marijuana">ماری‌جوانا</string>
+    <string name="addiction_nicotine_pouches">کیسه‌های نیکوتین</string>
+    <string name="addiction_opioids">اوپیوئیدها</string>
+    <string name="addiction_heroin">هروئین</string>
+    <string name="addiction_fentanyl">فنتانیل</string>
+    <string name="addiction_social_media">رسانه‌های اجتماعی</string>
+    <string name="addiction_pornography">محتوای بزرگسالان</string>
+    <string name="addiction_cocaine">کوکائین</string>
+    <string name="addiction_meth">مت‌آمفتامین</string>
+    <string name="addiction_benzos">بنزودیازپین‌ها</string>
+    <string name="addiction_adderall">آدرال</string>
+    <string name="addiction_ssri">SSRI</string>
+    <string name="addiction_snri">SNRI</string>
+    <string name="addiction_tca">ضدافسردگی سه‌حلقه‌ای (TCA)</string>
+    <string name="addiction_maoi">MAOI</string>
+    <string name="addiction_nitrous_oxide">نیتروس اکسید</string>
+    <string name="addiction_kratom">کراتوم</string>
+    <string name="addiction_gabapentinoids">گاباپنتین / پره‌گابالین</string>
+    <string name="addiction_ghb">GHB</string>
+    <string name="addiction_ketamine">کتامین</string>
+    <string name="addiction_inhalants">مواد استنشاقی</string>
+    <string name="addiction_synthetic_cannabinoids">کانابینوئیدهای مصنوعی</string>
+    <string name="addiction_mdma">MDMA</string>
+    <string name="addiction_steroids">استروئیدهای آنابولیک</string>
+    <plurals name="widget_days">
+        <item quantity="one">%d روز</item>
+        <item quantity="other">%d روز</item>
+    </plurals>
+    <string name="widget_not_set">تنظیم نشده</string>
+    <string name="widget_unknown">ناشناخته</string>
+    <string name="widget_error">خطا</string>
+    <string name="widget_setup_text">برای راه‌اندازی ضربه بزنید</string>
+    <string name="widget_addiction_placeholder">عادت</string>
+    <string name="widget_zero_days">۰ روز</string>
+</resources>

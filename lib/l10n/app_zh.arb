@@ -2547,5 +2547,9 @@
   "settingsLocaleUrdu": "乌尔都语",
   "@settingsLocaleUrdu": {
     "description": "Urdu language option"
+  },
+  "settingsLocalePersian": "波斯语",
+  "@settingsLocalePersian": {
+    "description": "Persian language option"
   }
 }

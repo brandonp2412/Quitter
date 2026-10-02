@@ -2550,5 +2550,9 @@
   "settingsLocaleUrdu": "الأردية",
   "@settingsLocaleUrdu": {
     "description": "Urdu language option"
+  },
+  "settingsLocalePersian": "الفارسية",
+  "@settingsLocalePersian": {
+    "description": "Persian language option"
   }
 }
