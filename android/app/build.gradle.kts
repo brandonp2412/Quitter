@@ -1,5 +1,6 @@
-import java.util.Properties
+import java.io.File
 import java.io.FileInputStream
+import java.util.Properties
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
@@ -63,10 +64,13 @@ android {
                 keyProperties.load(FileInputStream(keyPropertiesFile))
                 keyAlias = keyProperties["keyAlias"] as String?
                 keyPassword = keyProperties["keyPassword"] as String?
-                storeFile = if (keyProperties["storeFile"] != null) {
-                    rootProject.file("app/" + keyProperties["storeFile"] as String)
-                } else {
-                    null
+                storeFile = (keyProperties["storeFile"] as String?)?.let { storeFilePath ->
+                    val configuredStoreFile = File(storeFilePath)
+                    if (configuredStoreFile.isAbsolute) {
+                        configuredStoreFile
+                    } else {
+                        rootProject.file("app/$storeFilePath")
+                    }
                 }
                 storePassword = keyProperties["storePassword"] as String?
             }
