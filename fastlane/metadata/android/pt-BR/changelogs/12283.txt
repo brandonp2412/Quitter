@@ -1,0 +1,5 @@
+• Corrigir reagendamento de tarefas em segundo plano
+• Proteja corridas de navegação assíncronas de marcos
+• Remover comentários redundantes de build do Android
+• Simplifique o fluxo de controle e remova comentários obsoletos
+• Correção do arquivo de bloqueio de atualização para compilações reproduzíveis

@@ -1,0 +1,4 @@
+• Adicionar alternâncias adderall à página de configurações
+• Classifique a página inicial em ordem alfabética
+• Classifique a página de configurações em ordem alfabética
+• Ocultar por padrão vícios estigmatizados

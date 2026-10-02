@@ -1,0 +1,6 @@
+• Adicionar emblema "Obtenha na Microsoft Store"
+• Corrigir notificações quebradas sem entradas personalizadas
+• Correção da página do diário no desktop
+• Remova todos os diferentes botões de exclusão
+• Remova o código não utilizado na página de configurações
+• Mostrar amostra de notificação ao definir a frequência

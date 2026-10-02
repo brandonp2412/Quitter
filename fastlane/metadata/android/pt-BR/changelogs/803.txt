@@ -1,0 +1,9 @@
+• Adicionar configuração de bloqueio de PIN
+• Adicionar testes de unidade para página fixa
+• Correção na importação de dados da página de configurações
+• Corrigida a pluralização de notificação de cada notificação de configuração
+• Corrigir testes de unidade da página de configurações
+• Corrigir testes unitários
+• Reverter "Remover implantação do Windows Store da ação do GitHub"
+• Reverter "Usar armazenamento seguro para todas as informações confidenciais"
+• Use armazenamento seguro para todas as informações confidenciais

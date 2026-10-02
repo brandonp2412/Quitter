@@ -18,6 +18,7 @@ Future<void> main() async => await integrationDriver(
       "id" => "id",
       "pl" => "pl-PL",
       "pt" => "pt-PT",
+      "pt-BR" => "pt-BR",
       "th" => "th",
       "ur" => "ur",
       "fa" => "fa",
@@ -39,13 +40,11 @@ Future<void> main() async => await integrationDriver(
 
     File imgFile;
     if (isWeb) {
-      imgFile = await File(
-        'fastlane/screenshots/$deviceType-$name.png',
-      ).create(recursive: true);
+      imgFile = await File('fastlane/screenshots/$deviceType-$name.png')
+          .create(recursive: true);
     } else if (isIos != null) {
-      imgFile = await File(
-        'fastlane/screenshots/$deviceType-$name.png',
-      ).create(recursive: true);
+      imgFile = await File('fastlane/screenshots/$deviceType-$name.png')
+          .create(recursive: true);
     } else {
       imgFile = await File(
         'fastlane/metadata/android/$storeLocale/images/$deviceType/$name.png',

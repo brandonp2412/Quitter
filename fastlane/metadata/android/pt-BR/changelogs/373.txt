@@ -1,0 +1,6 @@
+• Adicionar notificações de novidades em atualizações
+• Não mostrar "Novidades" na primeira instalação
+• Vincule o status de envio do f-droid no README
+• Correções de fiapos
+• Solicite permissões de notificações apenas no início da jornada
+• Remover importação não utilizada

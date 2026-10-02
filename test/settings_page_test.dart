@@ -47,7 +47,9 @@ void main() {
       ],
       child: Consumer<SettingsProvider>(
         builder: (context, settings, child) => MaterialApp(
-          locale: settings.locale == 'system' ? null : Locale(settings.locale),
+          locale: settings.locale == 'system'
+              ? null
+              : localeFromPreference(settings.locale),
           localizationsDelegates: const [
             AppLocalizations.delegate,
             GlobalMaterialLocalizations.delegate,
@@ -164,6 +166,13 @@ void main() {
           findsOneWidget,
         );
         expect(
+          find.descendant(
+            of: dialog,
+            matching: find.text('Português (Brasil)'),
+          ),
+          findsOneWidget,
+        );
+        expect(
           find.descendant(of: dialog, matching: find.text('Russian')),
           findsOneWidget,
         );
@@ -179,6 +188,7 @@ void main() {
           'ko',
           'pl',
           'pt',
+          'pt-BR',
           'ru',
           'th',
           'ur',

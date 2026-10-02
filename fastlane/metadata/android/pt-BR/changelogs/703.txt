@@ -1,0 +1,4 @@
+• Corrigir avisos de fiapos
+• Remova alguns inchaços do deploy.sh
+• Tente corrigir atualizações do widget da tela inicial
+• Tente corrigir atualizações do widget inicial

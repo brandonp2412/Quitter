@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_description">Contador de abstinência</string>
+    <string name="widget_selection_title">Escolha o que acompanhar</string>
+    <string name="widget_selection_subtitle">Conte na tela inicial os dias desde que você parou</string>
+    <string name="addiction_alcohol">Álcool</string>
+    <string name="addiction_vaping">Vape</string>
+    <string name="addiction_smoking">Tabagismo</string>
+    <string name="addiction_smokeless_tobacco">Rapé / Tabaco de mascar</string>
+    <string name="addiction_marijuana">Maconha</string>
+    <string name="addiction_nicotine_pouches">Sachês de nicotina</string>
+    <string name="addiction_opioids">Opioides</string>
+    <string name="addiction_heroin">Heroína</string>
+    <string name="addiction_fentanyl">Fentanil</string>
+    <string name="addiction_social_media">Redes sociais</string>
+    <string name="addiction_pornography">Conteúdo adulto</string>
+    <string name="addiction_cocaine">Cocaína</string>
+    <string name="addiction_meth">Metanfetamina</string>
+    <string name="addiction_benzos">Benzodiazepínicos</string>
+    <string name="addiction_adderall">Adderall</string>
+    <string name="addiction_ssri">ISRS</string>
+    <string name="addiction_snri">IRSN</string>
+    <string name="addiction_tca">Antidepressivos tricíclicos</string>
+    <string name="addiction_maoi">IMAO</string>
+    <string name="addiction_nitrous_oxide">Óxido nitroso</string>
+    <string name="addiction_kratom">Kratom</string>
+    <string name="addiction_gabapentinoids">Gabapentina / Pregabalina</string>
+    <string name="addiction_ghb">GHB</string>
+    <string name="addiction_ketamine">Cetamina</string>
+    <string name="addiction_inhalants">Inalantes</string>
+    <string name="addiction_synthetic_cannabinoids">Canabinoides sintéticos</string>
+    <string name="addiction_mdma">MDMA</string>
+    <string name="addiction_steroids">Esteroides anabolizantes</string>
+    <plurals name="widget_days">
+        <item quantity="one">%d dia</item>
+        <item quantity="other">%d dias</item>
+    </plurals>
+    <string name="widget_not_set">Não definido</string>
+    <string name="widget_unknown">Desconhecido</string>
+    <string name="widget_error">Erro</string>
+    <string name="widget_setup_text">Toque para
+configurar</string>
+    <string name="widget_addiction_placeholder">Dependência</string>
+    <string name="widget_zero_days">0 dias</string>
+</resources>

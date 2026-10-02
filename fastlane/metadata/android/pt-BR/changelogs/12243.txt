@@ -1,0 +1,9 @@
+• Corrigir verificações de finalização de implementação da Microsoft Store
+• Analisar respostas de implementação de loja multilinha
+• Passar por DWL_APP_ID para o aplicativo Linux
+• Segmentar envios publicados na Loja
+• Tente configurar ganchos de códice para validação automática
+• integrar o registro do Talker
+• Correção da aplicação de capturas de tela de sete polegadas compatíveis
+• Corrigir fluxos de rastreamento de recuperação reforçados
+• Corrigir a formatação de qualidade Flutter do escopo

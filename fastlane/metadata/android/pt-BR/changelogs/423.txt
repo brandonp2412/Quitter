@@ -1,0 +1,3 @@
+• Adicionar CONTRIBUTING.md
+• Adicionar entradas personalizadas
+• Evite oscilações fabulosas

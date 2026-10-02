@@ -24,6 +24,7 @@
         <a href="?lang=id" lang="id">Bahasa Indonesia</a>
         <a href="?lang=pl" lang="pl">Polski</a>
         <a href="?lang=pt" lang="pt">Português (Portugal)</a>
+        <a href="?lang=pt-BR" lang="pt-BR">Português (Brasil)</a>
         <a href="?lang=th" lang="th">ไทย</a>
         <a href="?lang=ur" lang="ur" dir="rtl">اردو</a>
         <a href="?lang=ja" lang="ja">日本語</a>
@@ -126,6 +127,17 @@
             deletionHeading: 'Eliminação de dados',
             deletionBody: 'Pode eliminar entradas individuais na aplicação a qualquer momento. Desinstalar a aplicação remove do dispositivo todos os dados associados. Como nenhum dado é guardado em servidores externos, não é necessário pedir a eliminação a terceiros.',
           },
+          'pt-BR': {
+            title: 'Política de Privacidade do Quitter',
+            languageLabel: 'Idioma',
+            updated: 'Última atualização: 6 de setembro de 2026',
+            healthHeading: 'Dados de saúde',
+            healthBody: 'O Quitter não acessa, coleta, transmite nem compartilha dados de saúde ou condicionamento físico. Todos os dados sobre hábitos que você inserir ficam armazenados exclusivamente no seu dispositivo.',
+            retentionHeading: 'Retenção de dados',
+            retentionBody: 'Todos os dados ficam armazenados localmente no seu dispositivo até que você decida excluí-los pelo aplicativo ou desinstale o aplicativo.',
+            deletionHeading: 'Exclusão de dados',
+            deletionBody: 'Você pode excluir entradas individuais no aplicativo a qualquer momento. Desinstalar o aplicativo remove do dispositivo todos os dados associados. Como nenhum dado é armazenado em servidores externos, não é necessário solicitar a exclusão a terceiros.',
+          },
           th: {
             title: 'นโยบายความเป็นส่วนตัวของ Quitter',
             languageLabel: 'ภาษา',
@@ -227,7 +239,12 @@
         const isTraditionalChinese =
           languageCode === 'zh' &&
           /(?:^|-)hant(?:-|$)|(?:^|-)(tw|hk|mo)(?:-|$)/i.test(requestedLocale);
-        const requestedLanguage = isTraditionalChinese ? 'zh-Hant' : languageCode;
+        const isBrazilianPortuguese = /^pt-br(?:-|$)/i.test(requestedLocale);
+        const requestedLanguage = isTraditionalChinese
+          ? 'zh-Hant'
+          : isBrazilianPortuguese
+            ? 'pt-BR'
+            : languageCode;
         const language = translations[requestedLanguage] ? requestedLanguage : 'en';
 
         if (language === 'en') return;

@@ -1,0 +1,3 @@
+• Remover TODO.txt acidental confirmado
+• Atualize a vibração para 3.38.3
+• Correção de execução do teste Patrol do widget Android

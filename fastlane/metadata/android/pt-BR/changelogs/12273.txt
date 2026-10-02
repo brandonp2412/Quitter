@@ -1,0 +1,4 @@
+• Expor a ação de envio do PIN por rótulo voltado para o usuário
+• Ocultar testes de integração do Linux em dwl
+• Prefira o rótulo de ação do PIN em testes
+• Corrigir a recuperação do emulador de captura de tela reforçada

@@ -7,8 +7,16 @@ import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:quitter/locale_utils.dart';
 
 Map<String, dynamic> _readArb(String locale) {
-  final file = File('lib/l10n/app_$locale.arb');
+  final arbLocale = locale.replaceAll('-', '_');
+  final file = File('lib/l10n/app_$arbLocale.arb');
   return jsonDecode(file.readAsStringSync()) as Map<String, dynamic>;
+}
+
+String _arbLocaleKey(Locale locale) {
+  if (locale.languageCode == 'pt' && locale.countryCode == 'BR') {
+    return 'pt-BR';
+  }
+  return locale.languageCode;
 }
 
 Set<String> _messageKeys(Map<String, dynamic> arb) {
@@ -226,7 +234,7 @@ void main() {
     for (final locale in AppLocalizations.supportedLocales) {
       if (locale.languageCode == 'en') continue;
 
-      final localized = _readArb(locale.languageCode);
+      final localized = _readArb(_arbLocaleKey(locale));
       final localizedKeys = _messageKeys(localized);
 
       expect(
@@ -400,7 +408,7 @@ void main() {
 
     for (final locale in AppLocalizations.supportedLocales) {
       if (locale.languageCode == 'en') continue;
-      final localized = _readArb(locale.languageCode);
+      final localized = _readArb(_arbLocaleKey(locale));
 
       for (final entry in english.entries) {
         if (entry.key.startsWith('@') ||
@@ -537,7 +545,8 @@ void main() {
       final languageCode = locale.languageCode;
       if (languageCode == 'en') continue;
 
-      final localized = _readArb(languageCode);
+      final localeKey = _arbLocaleKey(locale);
+      final localized = _readArb(localeKey);
       final prefixes = sourcePrefixes[languageCode]!;
       for (final entry in localized.entries) {
         if (entry.key.startsWith('@') || entry.value is! String) continue;
@@ -554,7 +563,8 @@ void main() {
         expect(
           englishScaffolding.firstMatch(prose),
           isNull,
-          reason: '${entry.key} must not contain embedded English prose',
+          reason:
+              '$localeKey:${entry.key} must not contain embedded English prose',
         );
       }
     }
@@ -1229,6 +1239,7 @@ void main() {
       'id': 'id',
       'pl': 'pl-PL',
       'pt': 'pt-PT',
+      'pt-BR': 'pt-BR',
       'th': 'th',
       'ur': 'ur',
       'ja': 'ja-JP',
@@ -1241,7 +1252,7 @@ void main() {
     expect(
       workflow,
       contains(
-        'locale: [en, ar, de, es, fa, fr, id, ja, ko, pl, pt, ru, th, ur, zh, zh-Hant]',
+        'locale: [en, ar, de, es, fa, fr, id, ja, ko, pl, pt, pt-BR, ru, th, ur, zh, zh-Hant]',
       ),
     );
     for (final locale in AppLocalizations.supportedLocales) {
@@ -1274,6 +1285,7 @@ void main() {
       'id': 'id',
       'pl': 'pl-PL',
       'pt': 'pt-PT',
+      'pt-BR': 'pt-BR',
       'th': 'th',
       'ur': 'ur',
       'ja': 'ja-JP',
@@ -1294,6 +1306,7 @@ void main() {
           localeKey == 'ar' ||
           localeKey == 'fa' ||
           localeKey == 'pt' ||
+          localeKey == 'pt-BR' ||
           localeKey == 'ur' ||
           localeKey == 'zh-Hant') {
         continue;
@@ -1342,6 +1355,7 @@ void main() {
       'id': 'id',
       'pl': 'pl-PL',
       'pt': 'pt-PT',
+      'pt-BR': 'pt-BR',
       'th': 'th',
       'ur': 'ur',
       'ja': 'ja-JP',
@@ -1369,6 +1383,7 @@ void main() {
       'id': ['kemajuan', 'pencapaian', 'jurnal'],
       'pl': ['postępy', 'kamienie', 'dziennik'],
       'pt': ['progresso', 'marcos', 'diário'],
+      'pt-BR': ['progresso', 'marcos', 'diário'],
       'th': ['ความ', 'เป้าหมาย', 'บันทึก'],
       'ur': ['پیش رفت', 'سنگِ میل', 'جرنل'],
     };
@@ -1525,6 +1540,7 @@ void main() {
       'id': 'id',
       'pl': 'pl',
       'pt': 'pt-PT',
+      'pt-BR': 'pt-BR',
       'th': 'th',
       'ur': 'ur',
       'ja': 'ja',
@@ -1584,6 +1600,7 @@ void main() {
       'id': 'id',
       'pl': 'pl',
       'pt': 'pt-PT',
+      'pt-BR': 'pt-BR',
       'th': 'th',
       'ur': 'ur',
       'ja': 'ja',
@@ -1690,7 +1707,7 @@ void main() {
       if (locale.languageCode == 'en') continue;
 
       final changelog = File(
-        'assets/changelogs/${locale.languageCode}.json',
+        'assets/changelogs/${localePreferenceValue(locale)}.json',
       ).readAsStringSync();
       expect(
         commitPrefix.firstMatch(changelog),
@@ -1714,6 +1731,7 @@ void main() {
       'ja-JP',
       'ko-KR',
       'pt-PT',
+      'pt-BR',
       'ru-RU',
       'zh-CN',
       'zh-TW',
@@ -1862,6 +1880,7 @@ void main() {
       'ko-kr',
       'pl-pl',
       'pt-pt',
+      'pt-br',
       'ru-ru',
       'th-th',
       'ur-pk',
@@ -1891,6 +1910,7 @@ void main() {
       'id',
       'pl',
       'pt',
+      'pt-BR',
       'th',
       'ur',
     };
@@ -1931,6 +1951,7 @@ void main() {
     expect(index, contains('記錄戒除習慣'));
     expect(index, contains('Lacak kemajuan berhenti'));
     expect(index, contains('Acompanhe o progresso ao deixar hábitos'));
+    expect(index, contains('Acompanhe seu progresso, marcos'));
 
     final privacy = File('docs/privacy-policy.html').readAsStringSync();
     expect(privacy, contains('Quitter-Datenschutzerklärung'));
@@ -1955,6 +1976,7 @@ void main() {
     expect(privacy, contains('?lang=id'));
     expect(privacy, contains('?lang=pl'));
     expect(privacy, contains('?lang=pt'));
+    expect(privacy, contains('?lang=pt-BR'));
     expect(privacy, contains('?lang=ur'));
   });
 
@@ -2094,10 +2116,14 @@ void main() {
       'id': {'one', 'other'},
       'pl': {'one', 'few', 'many', 'other'},
       'pt': {'one', 'other'},
+      'pt-BR': {'one', 'other'},
       'th': {'other'},
       'ur': {'one', 'other'},
     };
-    const androidResourceDirectories = {'zh-Hant': 'values-b+zh+Hant'};
+    const androidResourceDirectories = {
+      'pt-BR': 'values-pt-rBR',
+      'zh-Hant': 'values-b+zh+Hant',
+    };
 
     for (final locale in AppLocalizations.supportedLocales) {
       final localeKey = localePreferenceValue(locale);

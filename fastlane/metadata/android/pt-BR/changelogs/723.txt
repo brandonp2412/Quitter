@@ -1,0 +1,6 @@
+• Adicionar guia diário
+• Adicionar paginação à página do diário
+• Temas alternativos de captura de tela
+• Correção da rolagem na página do diário
+• Coloque guias na barra de aplicativos
+• Remover importações não utilizadas

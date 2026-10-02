@@ -1,0 +1,3 @@
+• Correção do número de dias errado em 1
+• Torne os seletores de cores muito maiores
+• Caixa de frase um monte de coisas

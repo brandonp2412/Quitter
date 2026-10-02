@@ -1,0 +1,4 @@
+• Corrigida a taxa de contraste no título das estatísticas
+• Use o ícone de insights na guia da página de estatísticas
+• adicionar guia Estatísticas com estatísticas de recuperação
+• adicionar opção para iniciar a semana do diário na segunda-feira

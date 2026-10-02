@@ -1,0 +1,2 @@
+• Corrigir as últimas notas de versão localizadas completas
+• Correção da localização final da referência em japonês

@@ -1,0 +1,2 @@
+• Personalizar títulos para não iniciados
+• Correção do aplicativo que não se lembra do botão de redefinição mostrar/ocultar

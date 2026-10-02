@@ -1,0 +1,10 @@
+• Adiciona CLAUDE.md
+• Adiciona o script de migração
+• Corrige o estouro de layout com sachês de nicotina
+• Ajusta os testes à interface atualizada das páginas inicial e de configurações
+• Formata o teste
+• Melhora a integração de novos usuários
+• Inclui o título no filtro das configurações
+• Executa dart format
+• Reverte a remoção do submódulo Flutter e o uso do SDK global
+• Reverte a troca da configuração do submódulo Flutter por subosito/flutter-action

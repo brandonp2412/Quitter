@@ -1,0 +1,4 @@
+• Adicionar cabeçalho de seção a Sobre
+• Incorporar changelog nas notas de lançamento do GitHub
+• Corrigir links na página sobre
+• Reduza o registro de implantações

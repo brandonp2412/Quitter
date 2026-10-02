@@ -1,0 +1,3 @@
+• Formato lib/main.dart
+• Remover a configuração do caminho do flutter SDK do vscode
+• Permanecer na página de configurações ao alternar a página do diário

@@ -1,0 +1,2 @@
+• Adicionar configuração de deslizar entre guias
+• Evitar erros na página do diário

@@ -1,0 +1,10 @@
+• Adicione botão de compartilhamento para anunciar seu progresso
+• Limpar changelogs duplicados
+• Corrigir o arquivo deploy.sh
+• Correção de páginas de encerramento que não rolam para o marco atual
+• Correção da lembrança do número de dias em que você desistiu no passado
+• Correção do texto de compartilhamento no menu de compartilhamento personalizado
+• Corrigir o progresso da linha do tempo ao redefinir
+• Refatorar código
+• Mostrar pontos indicando histórico de abandono
+• Mostrar marcos semelhantes em entradas personalizadas

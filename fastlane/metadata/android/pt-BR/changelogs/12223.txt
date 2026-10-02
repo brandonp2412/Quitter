@@ -1,0 +1,4 @@
+• Sincronize automaticamente os metadados da Google Play Store (#107)
+• Corrigir e alinhar reivindicações de marcos com evidências citadas
+• Correção e aplicação de endurecimento Flutter localmente
+• Corrigir títulos de marcos qualificados não suportados

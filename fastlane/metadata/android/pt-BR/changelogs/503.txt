@@ -1,0 +1,6 @@
+• Adicionar configurações de plugin ausentes para lembretes
+• Adicione marcos mais completos para páginas de encerramento personalizadas
+• Corrigir erro em plataformas não Android
+• Corrigir cálculo do número de dias
+• Correção do cálculo do número de dias
+• Use snackbars consistentes para operações de dados na página de configurações
