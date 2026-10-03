@@ -24,7 +24,11 @@ class Changelog {
 }
 
 class _WhatsNewState extends State<WhatsNew> {
+  static const _pageSize = 10;
   List<Changelog> changelogs = [];
+  List<String> _changelogFiles = [];
+  int _page = 0;
+  bool _isLoading = true;
   String? _loadedLanguageCode;
 
   @override
@@ -38,9 +42,17 @@ class _WhatsNewState extends State<WhatsNew> {
 
   void setChangelogs(String languageCode) async {
     try {
-      final logs = await getChangelogFiles(context, languageCode);
+      final files = await _getChangelogFiles(context);
+      if (!mounted || _loadedLanguageCode != languageCode) return;
+      setState(() {
+        _changelogFiles = files;
+        _page = 0;
+        _isLoading = true;
+      });
+      final logs = await _loadChangelogPage(context, files, languageCode, 0);
       if (!mounted || _loadedLanguageCode != languageCode) return;
       setState(() => changelogs = logs);
+      setState(() => _isLoading = false);
       talker.info('Loaded ${logs.length} changelog entries');
     } catch (error, stackTrace) {
       talker.handle(error, stackTrace, 'Failed to load changelog entries');
@@ -59,17 +71,9 @@ class _WhatsNewState extends State<WhatsNew> {
     return decoded.map((key, value) => MapEntry(key, value as String));
   }
 
-  Future<List<Changelog>> getChangelogFiles(
-    BuildContext context,
-    String languageCode,
-  ) async {
+  Future<List<String>> _getChangelogFiles(BuildContext context) async {
     final bundle = DefaultAssetBundle.of(context);
     final manifest = await AssetManifest.loadFromAssetBundle(bundle);
-    final localizedContent = await _loadLocalizedChangelogs(
-      bundle,
-      languageCode,
-    );
-
     final files = manifest
         .listAssets()
         .where(
@@ -84,9 +88,23 @@ class _WhatsNewState extends State<WhatsNew> {
       final bNum = int.tryParse(bName) ?? 0;
       return bNum.compareTo(aNum);
     });
+    return files;
+  }
 
+  Future<List<Changelog>> _loadChangelogPage(
+    BuildContext context,
+    List<String> files,
+    String languageCode,
+    int page,
+  ) async {
+    final bundle = DefaultAssetBundle.of(context);
+    final localizedContent = await _loadLocalizedChangelogs(
+      bundle,
+      languageCode,
+    );
+    final pageFiles = files.skip(page * _pageSize).take(_pageSize);
     final result = <Changelog>[];
-    for (final path in files) {
+    for (final path in pageFiles) {
       try {
         final content = await bundle.loadString(path);
         final filename = path.split('/').last.replaceAll('.txt', '');
@@ -113,20 +131,78 @@ class _WhatsNewState extends State<WhatsNew> {
     return result;
   }
 
+  Future<void> _setPage(int page) async {
+    final pageCount = (_changelogFiles.length / _pageSize).ceil();
+    if (page < 0 || page >= pageCount) return;
+    setState(() {
+      _page = page;
+      _isLoading = true;
+    });
+    final languageCode = _loadedLanguageCode;
+    if (languageCode == null) return;
+    final logs = await _loadChangelogPage(
+      context,
+      _changelogFiles,
+      languageCode,
+      page,
+    );
+    if (!mounted || _page != page || _loadedLanguageCode != languageCode) {
+      return;
+    }
+    setState(() {
+      changelogs = logs;
+      _isLoading = false;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context)!;
 
     return Scaffold(
       appBar: AppBar(title: Text(l10n.whatsNewTitle)),
-      body: ListView.builder(
-        itemBuilder: (context, index) => ListTile(
-          title: Text(
-            DateFormat.yMMMd(l10n.localeName).format(changelogs[index].created),
+      body: Column(
+        children: [
+          Expanded(
+            child: _isLoading
+                ? const Center(child: CircularProgressIndicator())
+                : ListView.builder(
+                    itemBuilder: (context, index) => ListTile(
+                      title: Text(
+                        DateFormat.yMMMd(l10n.localeName)
+                            .format(changelogs[index].created),
+                      ),
+                      subtitle: Text(changelogs[index].content),
+                    ),
+                    itemCount: changelogs.length,
+                  ),
           ),
-          subtitle: Text(changelogs[index].content),
-        ),
-        itemCount: changelogs.length,
+          if (_changelogFiles.isNotEmpty)
+            Padding(
+              padding: const EdgeInsets.only(bottom: 8),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  IconButton(
+                    onPressed: _page > 0 ? () => _setPage(_page - 1) : null,
+                    icon: const Icon(Icons.chevron_left),
+                    tooltip: 'Previous page',
+                  ),
+                  Text(
+                    '${_page + 1} / ${(_changelogFiles.length / _pageSize).ceil()}',
+                  ),
+                  IconButton(
+                    onPressed:
+                        _page + 1 < (_changelogFiles.length / _pageSize).ceil()
+                        ? () => _setPage(_page + 1)
+                        : null,
+                    icon: const Icon(Icons.chevron_right),
+                    tooltip: 'Next page',
+                  ),
+                ],
+              ),
+            ),
+        ],
       ),
       floatingActionButton: FloatingActionButton.extended(
         icon: const Icon(Icons.favorite_outline),
