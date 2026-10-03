@@ -768,14 +768,16 @@ class _SettingsPageState extends State<SettingsPage> {
       ListTile(
         title: Text(l10n.settingsAbout),
         leading: const Icon(Icons.info_outline),
-        onTap: () => Navigator.of(context)
-            .push(MaterialPageRoute(builder: (context) => const AboutPage())),
+        onTap: () => Navigator.of(
+          context,
+        ).push(MaterialPageRoute(builder: (context) => const AboutPage())),
       ),
       ListTile(
         title: Text(l10n.settingsWhatsNew),
         leading: const Icon(Icons.change_circle_outlined),
-        onTap: () => Navigator.of(context)
-            .push(MaterialPageRoute(builder: (context) => const WhatsNew())),
+        onTap: () => Navigator.of(
+          context,
+        ).push(MaterialPageRoute(builder: (context) => const WhatsNew())),
       ),
       ListTile(
         title: Text(l10n.settingsEnjoyingApp),

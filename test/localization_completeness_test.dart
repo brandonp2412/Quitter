@@ -1252,8 +1252,13 @@ void main() {
     expect(
       workflow,
       contains(
-        'locale: [en, ar, de, es, fa, fr, id, ja, ko, pl, pt, pt-BR, ru, th, ur, zh, zh-Hant]',
+        'SCREENSHOT_LOCALES: "en ar de es fa fr id ja ko pl pt pt-BR ru th ur zh zh-Hant"',
       ),
+    );
+    expect(workflow, contains('needs: release-gate'));
+    expect(
+      workflow,
+      contains("needs.release-gate.outputs.should_release == 'true'"),
     );
     for (final locale in AppLocalizations.supportedLocales) {
       final localeKey = localePreferenceValue(locale);

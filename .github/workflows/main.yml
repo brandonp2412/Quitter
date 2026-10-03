@@ -19,6 +19,7 @@ concurrency:
 env:
   PUB_SUMMARY_ONLY: true
   KOTLIN_VERSION: "2.1.0"
+  SCREENSHOT_LOCALES: "en ar de es fa fr id ja ko pl pt pt-BR ru th ur zh zh-Hant"
 
 jobs:
   release-gate:
@@ -150,12 +151,14 @@ jobs:
             build/app/outputs/bundle/release/app-release.aab
 
   generate-screenshots:
+    if: ${{ (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') && needs.release-gate.outputs.should_release == 'true' }}
+    needs: release-gate
     runs-on: ubuntu-latest
+    timeout-minutes: 180
     strategy:
       fail-fast: false
+      max-parallel: 3
       matrix:
-        device_type: [phoneScreenshots, sevenInchScreenshots, tenInchScreenshots]
-        locale: [en, ar, de, es, fa, fr, id, ja, ko, pl, pt, pt-BR, ru, th, ur, zh, zh-Hant]
         include:
           - device_type: phoneScreenshots
             profile: pixel_6
@@ -190,11 +193,10 @@ jobs:
           sudo udevadm control --reload-rules
           sudo udevadm trigger --name-match=kvm
 
-      - name: Generate ${{ matrix.device_type }}
+      - name: Generate all localized ${{ matrix.device_type }}
         uses: reactivecircus/android-emulator-runner@a421e43855164a8197daf9d8d40fe71c6996bb0d # v2
         env:
           QUITTER_DEVICE_TYPE: ${{ matrix.device_type }}
-          QUITTER_LOCALE: ${{ matrix.locale }}
           SCREENSHOT_SCREEN_SIZE: ${{ matrix.screen_size }}
         with:
           api-level: 35
@@ -202,40 +204,49 @@ jobs:
           arch: x86_64
           profile: ${{ matrix.profile }}
           emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim -camera-back none
-          script: ./scripts/ci_screenshots.sh
+          script: |
+            set -eu
+            for locale in $SCREENSHOT_LOCALES; do
+              echo "::group::${{ matrix.device_type }} / $locale"
+              QUITTER_LOCALE="$locale" ./scripts/ci_screenshots.sh
+              echo "::endgroup::"
+            done
 
       - name: Stage localized screenshots
         env:
-          LOCALE: ${{ matrix.locale }}
           DEVICE_TYPE: ${{ matrix.device_type }}
         run: |
-          case "$LOCALE" in
-            en) STORE_LOCALE=en-US ;;
-            ar) STORE_LOCALE=ar ;;
-            de) STORE_LOCALE=de-DE ;;
-            es) STORE_LOCALE=es-ES ;;
-            fr) STORE_LOCALE=fr-FR ;;
-            id) STORE_LOCALE=id ;;
-            pl) STORE_LOCALE=pl-PL ;;
-            pt) STORE_LOCALE=pt-PT ;;
-            pt-BR) STORE_LOCALE=pt-BR ;;
-            th) STORE_LOCALE=th ;;
-            ur) STORE_LOCALE=ur ;;
-            fa) STORE_LOCALE=fa ;;
-            ja) STORE_LOCALE=ja-JP ;;
-            ko) STORE_LOCALE=ko-KR ;;
-            ru) STORE_LOCALE=ru-RU ;;
-            zh) STORE_LOCALE=zh-CN ;;
-            zh-Hant) STORE_LOCALE=zh-TW ;;
-            *) exit 1 ;;
-          esac
-          mkdir -p "screenshot-artifact/$STORE_LOCALE/images"
-          cp -a "fastlane/metadata/android/$STORE_LOCALE/images/$DEVICE_TYPE" "screenshot-artifact/$STORE_LOCALE/images/"
+          set -euo pipefail
+          rm -rf screenshot-artifact
+          for locale in $SCREENSHOT_LOCALES; do
+            case "$locale" in
+              en) STORE_LOCALE=en-US ;;
+              ar) STORE_LOCALE=ar ;;
+              de) STORE_LOCALE=de-DE ;;
+              es) STORE_LOCALE=es-ES ;;
+              fr) STORE_LOCALE=fr-FR ;;
+              id) STORE_LOCALE=id ;;
+              pl) STORE_LOCALE=pl-PL ;;
+              pt) STORE_LOCALE=pt-PT ;;
+              pt-BR) STORE_LOCALE=pt-BR ;;
+              th) STORE_LOCALE=th ;;
+              ur) STORE_LOCALE=ur ;;
+              fa) STORE_LOCALE=fa ;;
+              ja) STORE_LOCALE=ja-JP ;;
+              ko) STORE_LOCALE=ko-KR ;;
+              ru) STORE_LOCALE=ru-RU ;;
+              zh) STORE_LOCALE=zh-CN ;;
+              zh-Hant) STORE_LOCALE=zh-TW ;;
+              *) exit 1 ;;
+            esac
+            mkdir -p "screenshot-artifact/$STORE_LOCALE/images"
+            cp -a "fastlane/metadata/android/$STORE_LOCALE/images/$DEVICE_TYPE" "screenshot-artifact/$STORE_LOCALE/images/"
+          done
 
-      - name: Upload ${{ matrix.device_type }} ${{ matrix.locale }} screenshots
+      - name: Upload ${{ matrix.device_type }} screenshots
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
-          name: screenshots-${{ matrix.device_type }}-${{ matrix.locale }}
+          name: screenshots-${{ matrix.device_type }}
           path: screenshot-artifact
           if-no-files-found: error
           retention-days: 7
