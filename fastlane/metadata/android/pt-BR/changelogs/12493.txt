@@ -1,0 +1,5 @@
+• Corrigir notas de lançamento da localização 1.1.69
+• Corrigir traduções de recuperação em japonês polonês
+• Corrigir semântica de localização polonesa em russo
+• Corrigir traduções de referência para russo polonês
+• Corrigir a prosa de commit da tradução do Play changelog

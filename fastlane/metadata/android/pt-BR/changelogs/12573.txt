@@ -1,0 +1,1 @@
+• correção(l10n): localizar notas de versão 1.1.77

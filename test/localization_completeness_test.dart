@@ -7,8 +7,16 @@ import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:quitter/locale_utils.dart';
 
 Map<String, dynamic> _readArb(String locale) {
-  final file = File('lib/l10n/app_$locale.arb');
+  final arbLocale = locale.replaceAll('-', '_');
+  final file = File('lib/l10n/app_$arbLocale.arb');
   return jsonDecode(file.readAsStringSync()) as Map<String, dynamic>;
+}
+
+String _arbLocaleKey(Locale locale) {
+  if (locale.languageCode == 'pt' && locale.countryCode == 'BR') {
+    return 'pt-BR';
+  }
+  return locale.languageCode;
 }
 
 Set<String> _messageKeys(Map<String, dynamic> arb) {
@@ -143,6 +151,11 @@ bool _containsTargetScript(String languageCode, String value) {
       return true;
     }
     if (languageCode == 'zh' && isCjk) return true;
+    if (languageCode == 'ko' &&
+        ((rune >= 0xac00 && rune <= 0xd7af) ||
+            (rune >= 0x1100 && rune <= 0x11ff))) {
+      return true;
+    }
     if (languageCode == 'ja' &&
         (isCjk ||
             (rune >= 0x3040 && rune <= 0x30ff) ||
@@ -221,7 +234,7 @@ void main() {
     for (final locale in AppLocalizations.supportedLocales) {
       if (locale.languageCode == 'en') continue;
 
-      final localized = _readArb(locale.languageCode);
+      final localized = _readArb(_arbLocaleKey(locale));
       final localizedKeys = _messageKeys(localized);
 
       expect(
@@ -395,7 +408,7 @@ void main() {
 
     for (final locale in AppLocalizations.supportedLocales) {
       if (locale.languageCode == 'en') continue;
-      final localized = _readArb(locale.languageCode);
+      final localized = _readArb(_arbLocaleKey(locale));
 
       for (final entry in english.entries) {
         if (entry.key.startsWith('@') ||
@@ -518,6 +531,7 @@ void main() {
       'fr': ['Source :', 'Source:'],
       'fa': ['منبع:', 'منبع：'],
       'ja': ['出典：', '出典:'],
+      'ko': ['출처:', '출처：'],
       'ru': ['Источник:', 'Источник：'],
       'zh': ['来源：', '来源:'],
       'id': ['Sumber:', 'Sumber：'],
@@ -531,7 +545,8 @@ void main() {
       final languageCode = locale.languageCode;
       if (languageCode == 'en') continue;
 
-      final localized = _readArb(languageCode);
+      final localeKey = _arbLocaleKey(locale);
+      final localized = _readArb(localeKey);
       final prefixes = sourcePrefixes[languageCode]!;
       for (final entry in localized.entries) {
         if (entry.key.startsWith('@') || entry.value is! String) continue;
@@ -548,7 +563,8 @@ void main() {
         expect(
           englishScaffolding.firstMatch(prose),
           isNull,
-          reason: '${entry.key} must not contain embedded English prose',
+          reason:
+              '$localeKey:${entry.key} must not contain embedded English prose',
         );
       }
     }
@@ -1223,9 +1239,11 @@ void main() {
       'id': 'id',
       'pl': 'pl-PL',
       'pt': 'pt-PT',
+      'pt-BR': 'pt-BR',
       'th': 'th',
       'ur': 'ur',
       'ja': 'ja-JP',
+      'ko': 'ko-KR',
       'ru': 'ru-RU',
       'zh': 'zh-CN',
       'zh-Hant': 'zh-TW',
@@ -1234,8 +1252,13 @@ void main() {
     expect(
       workflow,
       contains(
-        'locale: [en, ar, de, es, fa, fr, id, ja, pl, pt, ru, th, ur, zh, zh-Hant]',
+        'SCREENSHOT_LOCALES: "en ar de es fa fr id ja ko pl pt pt-BR ru th ur zh zh-Hant"',
       ),
+    );
+    expect(workflow, contains('needs: release-gate'));
+    expect(
+      workflow,
+      contains("needs.release-gate.outputs.should_release == 'true'"),
     );
     for (final locale in AppLocalizations.supportedLocales) {
       final localeKey = localePreferenceValue(locale);
@@ -1267,9 +1290,11 @@ void main() {
       'id': 'id',
       'pl': 'pl-PL',
       'pt': 'pt-PT',
+      'pt-BR': 'pt-BR',
       'th': 'th',
       'ur': 'ur',
       'ja': 'ja-JP',
+      'ko': 'ko-KR',
       'ru': 'ru-RU',
       'zh': 'zh-CN',
       'zh-Hant': 'zh-TW',
@@ -1286,6 +1311,7 @@ void main() {
           localeKey == 'ar' ||
           localeKey == 'fa' ||
           localeKey == 'pt' ||
+          localeKey == 'pt-BR' ||
           localeKey == 'ur' ||
           localeKey == 'zh-Hant') {
         continue;
@@ -1334,9 +1360,11 @@ void main() {
       'id': 'id',
       'pl': 'pl-PL',
       'pt': 'pt-PT',
+      'pt-BR': 'pt-BR',
       'th': 'th',
       'ur': 'ur',
       'ja': 'ja-JP',
+      'ko': 'ko-KR',
       'ru': 'ru-RU',
       'zh': 'zh-CN',
       'zh-Hant': 'zh-TW',
@@ -1353,12 +1381,14 @@ void main() {
       'fr': ['progrès', 'étapes', 'journal'],
       'fa': ['پیشرفت', 'نقاط عطف', 'یادداشت'],
       'ja': ['進捗', '節目', '日記'],
+      'ko': ['진행', '이정표', '일기'],
       'ru': ['прогресс', 'этап', 'дневник'],
       'zh': ['进度', '里程碑', '日记'],
       'zh-Hant': ['進度', '里程碑', '日記'],
       'id': ['kemajuan', 'pencapaian', 'jurnal'],
       'pl': ['postępy', 'kamienie', 'dziennik'],
       'pt': ['progresso', 'marcos', 'diário'],
+      'pt-BR': ['progresso', 'marcos', 'diário'],
       'th': ['ความ', 'เป้าหมาย', 'บันทึก'],
       'ur': ['پیش رفت', 'سنگِ میل', 'جرنل'],
     };
@@ -1515,9 +1545,11 @@ void main() {
       'id': 'id',
       'pl': 'pl',
       'pt': 'pt-PT',
+      'pt-BR': 'pt-BR',
       'th': 'th',
       'ur': 'ur',
       'ja': 'ja',
+      'ko': 'ko',
       'ru': 'ru',
       'zh': 'zh-Hans',
       'zh-Hant': 'zh-Hant',
@@ -1573,9 +1605,11 @@ void main() {
       'id': 'id',
       'pl': 'pl',
       'pt': 'pt-PT',
+      'pt-BR': 'pt-BR',
       'th': 'th',
       'ur': 'ur',
       'ja': 'ja',
+      'ko': 'ko',
       'ru': 'ru',
       'zh': 'zh-Hans',
       'zh-Hant': 'zh-Hant',
@@ -1678,7 +1712,7 @@ void main() {
       if (locale.languageCode == 'en') continue;
 
       final changelog = File(
-        'assets/changelogs/${locale.languageCode}.json',
+        'assets/changelogs/${localePreferenceValue(locale)}.json',
       ).readAsStringSync();
       expect(
         commitPrefix.firstMatch(changelog),
@@ -1700,7 +1734,9 @@ void main() {
       'fr-FR',
       'fa',
       'ja-JP',
+      'ko-KR',
       'pt-PT',
+      'pt-BR',
       'ru-RU',
       'zh-CN',
       'zh-TW',
@@ -1798,6 +1834,7 @@ void main() {
 
       if (languageCode == 'fa' ||
           languageCode == 'ja' ||
+          languageCode == 'ko' ||
           languageCode == 'ru' ||
           languageCode == 'ur' ||
           languageCode == 'zh') {
@@ -1845,8 +1882,10 @@ void main() {
       'fr-fr',
       'id-id',
       'ja-jp',
+      'ko-kr',
       'pl-pl',
       'pt-pt',
+      'pt-br',
       'ru-ru',
       'th-th',
       'ur-pk',
@@ -1869,12 +1908,14 @@ void main() {
       'fa',
       'fr',
       'ja',
+      'ko',
       'ru',
       'zh',
       'zh-Hant',
       'id',
       'pl',
       'pt',
+      'pt-BR',
       'th',
       'ur',
     };
@@ -1915,6 +1956,7 @@ void main() {
     expect(index, contains('記錄戒除習慣'));
     expect(index, contains('Lacak kemajuan berhenti'));
     expect(index, contains('Acompanhe o progresso ao deixar hábitos'));
+    expect(index, contains('Acompanhe seu progresso, marcos'));
 
     final privacy = File('docs/privacy-policy.html').readAsStringSync();
     expect(privacy, contains('Quitter-Datenschutzerklärung'));
@@ -1932,12 +1974,14 @@ void main() {
     expect(privacy, contains('?lang=fr'));
     expect(privacy, contains('?lang=fa'));
     expect(privacy, contains('?lang=ja'));
+    expect(privacy, contains('?lang=ko'));
     expect(privacy, contains('?lang=ru'));
     expect(privacy, contains('?lang=zh'));
     expect(privacy, contains('?lang=zh-Hant'));
     expect(privacy, contains('?lang=id'));
     expect(privacy, contains('?lang=pl'));
     expect(privacy, contains('?lang=pt'));
+    expect(privacy, contains('?lang=pt-BR'));
     expect(privacy, contains('?lang=ur'));
   });
 
@@ -2070,16 +2114,21 @@ void main() {
       'fr': {'one', 'other'},
       'fa': {'one', 'other'},
       'ja': {'other'},
+      'ko': {'other'},
       'ru': {'one', 'few', 'many', 'other'},
       'zh': {'other'},
       'zh-Hant': {'other'},
       'id': {'one', 'other'},
       'pl': {'one', 'few', 'many', 'other'},
       'pt': {'one', 'other'},
+      'pt-BR': {'one', 'other'},
       'th': {'other'},
       'ur': {'one', 'other'},
     };
-    const androidResourceDirectories = {'zh-Hant': 'values-b+zh+Hant'};
+    const androidResourceDirectories = {
+      'pt-BR': 'values-pt-rBR',
+      'zh-Hant': 'values-b+zh+Hant',
+    };
 
     for (final locale in AppLocalizations.supportedLocales) {
       final localeKey = localePreferenceValue(locale);

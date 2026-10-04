@@ -1,0 +1,5 @@
+• Corrigir importação de banco de dados
+• Atualizar Serena
+• Atualize a vibração para 3.44.6
+• Corrigida a adição de verificação de IC de arquivo de bloqueio para evitar falhas de compilação do F-Droid
+• Correção do uso de readAsBytes() para importação e adição de tratamento de erros

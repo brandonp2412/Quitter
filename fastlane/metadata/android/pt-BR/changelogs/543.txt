@@ -1,0 +1,10 @@
+• Adicionar selo de acesso à web
+• Adicione maconha à página de configurações
+• Capitalizar automaticamente entradas personalizadas
+• Alterar mensagens do sistema ao exportar/importar
+• Corrigir a capitalização automática de entrada personalizada
+• Correção do cálculo do número de dias na edição de entradas personalizadas
+• Ocultar o botão de redefinição se você estiver no primeiro dia
+• Mostrar apenas abandonar vícios ao escolher o widget
+• Atualize o widget da tela inicial com mais frequência
+• Solicitar notificações após importação

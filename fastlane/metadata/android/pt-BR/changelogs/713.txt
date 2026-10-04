@@ -1,0 +1,2 @@
+• Alterar seletor de ícones para entradas personalizadas
+• Torne o seletor de ícones mais alto

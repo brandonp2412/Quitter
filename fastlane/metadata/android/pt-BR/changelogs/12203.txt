@@ -1,0 +1,4 @@
+• Tentar outra correção de teste de patrulha
+• Tentativa de consertar patrulha em ci/cd
+• Corrigir pipelines
+• Tente corrigir o pipeline

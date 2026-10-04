@@ -1,0 +1,7 @@
+• Adicionar seletores de data
+• Adicione bolsas de nicotina
+• Alterar ícone de álcool
+• Melhorar o estilo da página de configurações
+• Abra links relevantes ao acessar estudos
+• Remover depuração de lembretes
+• Remover notificações de depuração

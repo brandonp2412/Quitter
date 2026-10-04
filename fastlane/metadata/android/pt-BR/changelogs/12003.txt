@@ -1,0 +1,1 @@
+• Corrigir links de verificação anexados do VirusTotal ao corpo da versão do GitHub

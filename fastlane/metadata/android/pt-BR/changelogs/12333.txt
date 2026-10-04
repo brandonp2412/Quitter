@@ -1,0 +1,3 @@
+• Corrigir marcadores de localização de widgets Android
+• Corrigir o título do aplicativo de localização
+• Corrigir artigos de referência de marcos localizados

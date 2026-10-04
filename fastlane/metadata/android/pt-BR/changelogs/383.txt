@@ -1,0 +1,6 @@
+• Adicionar recurso de backup/importação
+• Adicionar widget da tela inicial
+• Adicionar rastreamento de maconha
+• Adicionar barra de pesquisa às configurações
+• Correção da jornada inicial no desktop
+• Escolha o arquivo de saída para backup

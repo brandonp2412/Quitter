@@ -1,0 +1,4 @@
+• Adicionar notificações
+• Brincar com a rolagem de álcool e vaporização
+• Corrigida a configuração de vibração para build-android
+• Corrija o código wack na página de configurações

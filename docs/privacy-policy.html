@@ -24,9 +24,11 @@
         <a href="?lang=id" lang="id">Bahasa Indonesia</a>
         <a href="?lang=pl" lang="pl">Polski</a>
         <a href="?lang=pt" lang="pt">Português (Portugal)</a>
+        <a href="?lang=pt-BR" lang="pt-BR">Português (Brasil)</a>
         <a href="?lang=th" lang="th">ไทย</a>
         <a href="?lang=ur" lang="ur" dir="rtl">اردو</a>
         <a href="?lang=ja" lang="ja">日本語</a>
+        <a href="?lang=ko" lang="ko">한국어</a>
         <a href="?lang=ru" lang="ru">Русский</a>
         <a href="?lang=zh" lang="zh">简体中文</a>
         <a href="?lang=zh-Hant" lang="zh-Hant">繁體中文</a>
@@ -125,6 +127,17 @@
             deletionHeading: 'Eliminação de dados',
             deletionBody: 'Pode eliminar entradas individuais na aplicação a qualquer momento. Desinstalar a aplicação remove do dispositivo todos os dados associados. Como nenhum dado é guardado em servidores externos, não é necessário pedir a eliminação a terceiros.',
           },
+          'pt-BR': {
+            title: 'Política de Privacidade do Quitter',
+            languageLabel: 'Idioma',
+            updated: 'Última atualização: 6 de setembro de 2026',
+            healthHeading: 'Dados de saúde',
+            healthBody: 'O Quitter não acessa, coleta, transmite nem compartilha dados de saúde ou condicionamento físico. Todos os dados sobre hábitos que você inserir ficam armazenados exclusivamente no seu dispositivo.',
+            retentionHeading: 'Retenção de dados',
+            retentionBody: 'Todos os dados ficam armazenados localmente no seu dispositivo até que você decida excluí-los pelo aplicativo ou desinstale o aplicativo.',
+            deletionHeading: 'Exclusão de dados',
+            deletionBody: 'Você pode excluir entradas individuais no aplicativo a qualquer momento. Desinstalar o aplicativo remove do dispositivo todos os dados associados. Como nenhum dado é armazenado em servidores externos, não é necessário solicitar a exclusão a terceiros.',
+          },
           th: {
             title: 'นโยบายความเป็นส่วนตัวของ Quitter',
             languageLabel: 'ภาษา',
@@ -168,6 +181,17 @@
             retentionBody: 'すべてのデータは端末内に保存され、アプリ内で削除するか、アプリをアンインストールするまで保持されます。',
             deletionHeading: 'データの削除',
             deletionBody: 'アプリ内では、個々の項目をいつでも削除できます。アプリをアンインストールすると、端末上の関連データはすべて削除されます。外部サーバーにはデータを保存しないため、第三者への削除依頼は必要ありません。',
+          },
+          ko: {
+            title: 'Quitter 개인정보 처리방침',
+            languageLabel: '언어',
+            updated: '최종 업데이트: 2026년 9월 6일',
+            healthHeading: '건강 데이터',
+            healthBody: 'Quitter는 건강 또는 피트니스 데이터에 접근하거나 이를 수집, 전송 또는 공유하지 않습니다. 입력한 습관 데이터는 기기에만 저장됩니다.',
+            retentionHeading: '데이터 보관',
+            retentionBody: '모든 데이터는 기기에 로컬로 저장되며 앱에서 직접 삭제하거나 앱을 제거할 때까지 보관됩니다.',
+            deletionHeading: '데이터 삭제',
+            deletionBody: '앱 안에서 언제든 개별 항목을 삭제할 수 있습니다. 앱을 제거하면 관련 데이터가 기기에서 모두 삭제됩니다. 외부 서버에는 데이터가 저장되지 않으므로 제3자에게 삭제를 요청할 필요가 없습니다.',
           },
           ru: {
             title: 'Quitter — Политика конфиденциальности',
@@ -215,7 +239,12 @@
         const isTraditionalChinese =
           languageCode === 'zh' &&
           /(?:^|-)hant(?:-|$)|(?:^|-)(tw|hk|mo)(?:-|$)/i.test(requestedLocale);
-        const requestedLanguage = isTraditionalChinese ? 'zh-Hant' : languageCode;
+        const isBrazilianPortuguese = /^pt-br(?:-|$)/i.test(requestedLocale);
+        const requestedLanguage = isTraditionalChinese
+          ? 'zh-Hant'
+          : isBrazilianPortuguese
+            ? 'pt-BR'
+            : languageCode;
         const language = translations[requestedLanguage] ? requestedLanguage : 'en';
 
         if (language === 'en') return;

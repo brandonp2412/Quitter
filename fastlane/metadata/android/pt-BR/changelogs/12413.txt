@@ -1,0 +1,2 @@
+• localizar notas de versão 1.1.61
+• Correção da aplicação de limites de metadados de lojas localizadas

@@ -1,0 +1,7 @@
+• Adicionar registro no diário à lista de recursos no README
+• Capitalização automática de lançamentos contábeis manuais
+• Limpar leia-me [pular ci]
+• Correção do número de dias nas capturas de tela
+• Corrigida a pluralização de dias em entradas personalizadas
+• Facilite a rolagem do seletor de ícones
+• Use um tema claro para editar capturas de tela de entradas

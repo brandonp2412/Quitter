@@ -1,5 +1,6 @@
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
+
 import 'app_localizations.dart';
 
 // ignore_for_file: type=lint
@@ -1267,6 +1268,9 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get settingsLocaleFrench => 'Französisch';
+
+  @override
+  String get settingsLocaleKorean => 'Koreanisch';
 
   @override
   String get settingsLocaleSystem => 'Systemfehler';

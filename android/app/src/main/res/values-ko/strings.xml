@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_description">금연·금주 추적기</string>
+    <string name="widget_selection_title">추적할 항목 선택</string>
+    <string name="widget_selection_subtitle">홈 화면에서 끊은 뒤 지난 날짜를 확인하세요</string>
+    <string name="addiction_alcohol">알코올</string>
+    <string name="addiction_vaping">전자담배</string>
+    <string name="addiction_smoking">흡연</string>
+    <string name="addiction_smokeless_tobacco">무연담배 / 씹는 담배</string>
+    <string name="addiction_marijuana">대마</string>
+    <string name="addiction_nicotine_pouches">니코틴 파우치</string>
+    <string name="addiction_opioids">오피오이드</string>
+    <string name="addiction_heroin">헤로인</string>
+    <string name="addiction_fentanyl">펜타닐</string>
+    <string name="addiction_social_media">소셜 미디어</string>
+    <string name="addiction_pornography">성인물</string>
+    <string name="addiction_cocaine">코카인</string>
+    <string name="addiction_meth">메스</string>
+    <string name="addiction_benzos">벤조디아제핀</string>
+    <string name="addiction_adderall">애더럴</string>
+    <string name="addiction_ssri">SSRI</string>
+    <string name="addiction_snri">SNRI</string>
+    <string name="addiction_tca">삼환계 항우울제(TCA)</string>
+    <string name="addiction_maoi">마오이</string>
+    <string name="addiction_nitrous_oxide">아산화질소</string>
+    <string name="addiction_kratom">크라톰</string>
+    <string name="addiction_gabapentinoids">가바펜틴/프레가발린</string>
+    <string name="addiction_ghb">GHB</string>
+    <string name="addiction_ketamine">케타민</string>
+    <string name="addiction_inhalants">흡입제</string>
+    <string name="addiction_synthetic_cannabinoids">합성 칸나비노이드</string>
+    <string name="addiction_mdma">MDMA</string>
+    <string name="addiction_steroids">동화작용 스테로이드</string>
+    <string name="widget_not_set">설정되지 않음</string>
+    <string name="widget_unknown">알려지지 않은</string>
+    <string name="widget_error">Quitter</string>
+    <string name="widget_setup_text">탭하여\n설정</string>
+    <string name="widget_addiction_placeholder">습관</string>
+    <string name="widget_zero_days">0일</string>
+    <plurals name="widget_days">
+        <item quantity="other">%d일</item>
+    </plurals>
+</resources>

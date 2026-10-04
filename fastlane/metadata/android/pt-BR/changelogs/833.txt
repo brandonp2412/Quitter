@@ -1,0 +1,3 @@
+• Corrigidos visuais do modo escuro de journal_page.dart
+• Reformatar biblioteca
+• Remover a instalação do yq do deploy.sh

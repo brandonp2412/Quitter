@@ -1,0 +1,7 @@
+• msstore 배포를 마무리하기 위해 슬롭 코드를 추가합니다.
+• ru/full_description.txt를 생성합니다.
+• ru/short_description.txt를 생성합니다.
+• lib/main.dart 형식
+• vscode에서 flutter SDK 경로 구성을 제거합니다.
+• 저널 페이지를 전환할 때 설정 페이지를 유지하세요.
+• 내보내기/가져오기에 json 형식 사용

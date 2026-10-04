@@ -13,6 +13,7 @@ import 'app_localizations_fa.dart';
 import 'app_localizations_fr.dart';
 import 'app_localizations_id.dart';
 import 'app_localizations_ja.dart';
+import 'app_localizations_ko.dart';
 import 'app_localizations_pl.dart';
 import 'app_localizations_pt.dart';
 import 'app_localizations_ru.dart';
@@ -114,8 +115,10 @@ abstract class AppLocalizations {
     Locale('fr'),
     Locale('id'),
     Locale('ja'),
+    Locale('ko'),
     Locale('pl'),
     Locale('pt'),
+    Locale('pt', 'BR'),
     Locale('ru'),
     Locale('th'),
     Locale('ur'),
@@ -2222,6 +2225,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'French'**
   String get settingsLocaleFrench;
+
+  /// Show app in Korean
+  ///
+  /// In en, this message translates to:
+  /// **'Korean'**
+  String get settingsLocaleKorean;
 
   /// Follows the device locale
   ///
@@ -6245,6 +6254,7 @@ class _AppLocalizationsDelegate
     'fr',
     'id',
     'ja',
+    'ko',
     'pl',
     'pt',
     'ru',
@@ -6270,6 +6280,18 @@ AppLocalizations lookupAppLocalizations(Locale locale) {
       }
   }
 
+  // Lookup logic when language+country codes are specified.
+  switch (locale.languageCode) {
+    case 'pt':
+      {
+        switch (locale.countryCode) {
+          case 'BR':
+            return AppLocalizationsPtBr();
+        }
+        break;
+      }
+  }
+
   // Lookup logic when only language code is specified.
   switch (locale.languageCode) {
     case 'ar':
@@ -6288,6 +6310,8 @@ AppLocalizations lookupAppLocalizations(Locale locale) {
       return AppLocalizationsId();
     case 'ja':
       return AppLocalizationsJa();
+    case 'ko':
+      return AppLocalizationsKo();
     case 'pl':
       return AppLocalizationsPl();
     case 'pt':

@@ -16,7 +16,9 @@ import 'package:quitter/color_scheme_type.dart';
 import 'package:quitter/enjoying_page.dart';
 import 'package:quitter/empty_state.dart';
 import 'package:quitter/settings_provider.dart';
+
 import 'dart:io';
+
 import 'package:file_picker/file_picker.dart';
 import 'package:quitter/tasks.dart';
 import 'package:quitter/utils.dart';
@@ -900,9 +902,11 @@ class _SettingsPageState extends State<SettingsPage> {
       'de' => l10n.settingsLocaleGerman,
       'ja' => l10n.settingsLocaleJapanese,
       'fr' => l10n.settingsLocaleFrench,
+      'ko' => l10n.settingsLocaleKorean,
       'ru' => l10n.settingsLocaleRussian,
       'es' => l10n.settingsLocaleSpanish,
       'pt' => 'Português (Portugal)',
+      'pt-BR' => 'Português (Brasil)',
       'zh' => l10n.settingsLocaleSimplifiedChinese,
       'zh-Hant' => l10n.settingsLocaleTraditionalChinese,
       'id' => l10n.settingsLocaleIndonesian,

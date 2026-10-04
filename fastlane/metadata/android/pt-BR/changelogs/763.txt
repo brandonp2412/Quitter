@@ -1,0 +1,10 @@
+• Adicionar testes de unidade da página inicial
+• Adicione mais botões de exclusão
+• Adicionar testes de página de configurações
+• Adicionar testes à página do diário
+• Adicionar alternância para guia diário
+• Excluir testes unitários
+• Corrigir testes de integração direcionados ao Linux
+• Remova o indicador de recaída ao desfazer
+• Execute testes de integração no Linux antes de implantar
+• Atualize a vibração para 3.35.5

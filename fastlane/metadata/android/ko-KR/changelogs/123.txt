@@ -1,0 +1,1 @@
+• abi를 build.gradle.kts로 분할하여 굽습니다.

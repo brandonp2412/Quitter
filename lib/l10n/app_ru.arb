@@ -621,6 +621,7 @@
   "@settingsLocaleSpanish": {
     "description": "Show app in Spanish"
   },
+  "settingsLocaleKorean": "Корейский",
   "settingsLocaleSystem": "Система по умолчанию",
   "@settingsLocaleSystem": {
     "description": "Follows the device locale"

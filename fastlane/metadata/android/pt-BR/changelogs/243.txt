@@ -1,0 +1,6 @@
+• Adicionar emblema "Baixar da Microsoft Store"
+• Adicione textos de dicas
+• Dia padrão para 1 se você limpar a entrada
+• Fatore o layout das páginas de saída
+• Correção do arquivo deploy.sh quando vários dispositivos estão conectados
+• Redefina o encerramento se você limpar o campo de dias

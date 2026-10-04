@@ -1,0 +1,4 @@
+• Corrige notificações temporárias que nunca desapareciam
+• Move o ícone de exclusão do canto superior esquerdo para o canto superior direito
+• Abre a página completa de edição pelo botão de editar de uma entrada personalizada
+• Corrige o botão Voltar do sistema para sair do modo de edição em vez de sair da tela inicial

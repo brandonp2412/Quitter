@@ -624,6 +624,7 @@
   "@settingsLocaleFrench": {
     "description": "Show app in French"
   },
+  "settingsLocaleKorean": "الكورية",
   "settingsLocaleSystem": "الافتراضي للنظام",
   "@settingsLocaleSystem": {
     "description": "Follows the device locale"

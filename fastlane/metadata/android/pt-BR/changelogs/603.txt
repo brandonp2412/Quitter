@@ -1,0 +1,4 @@
+• Adicionar espaçamento acima do título no rastreador de página de saída
+• Correção da rolagem na página de edição de entrada
+• Mostrar data completa incluindo ano
+• Tente corrigir as atualizações do widget da tela inicial

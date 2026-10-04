@@ -1,0 +1,6 @@
+• Alterar cores de edição/exclusão em cartões de saída
+• Corrigir erro de propriedades do gradle
+• Corrigir erro de página do diário
+• Corrigir o preenchimento à esquerda na pesquisa da página inicial
+• mover as configurações para um botão dentro da barra de pesquisa inicial
+• Corrigir a cor do ícone SVG do desistente animado continuamente durante o deslizamento da guia

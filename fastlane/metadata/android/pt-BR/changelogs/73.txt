@@ -1,0 +1,3 @@
+• Correção da criação da versão do github
+• Push no final do deploy.sh
+• Execute a captura de tela localmente

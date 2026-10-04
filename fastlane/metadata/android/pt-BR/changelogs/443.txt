@@ -1,0 +1,5 @@
+• Excluir comentários de IA
+• Corrigir testes de integração
+• Melhorar o desempenho
+• Refatorar modelo de página de encerramento
+• Use setters em vez de métodos set para o provedor de configurações
