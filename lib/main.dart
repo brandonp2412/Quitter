@@ -202,10 +202,16 @@ class _QuitterAppState extends State<QuitterApp>
               theme: ThemeData(
                 colorScheme: lightColorScheme,
                 useMaterial3: true,
+                popupMenuTheme: const PopupMenuThemeData(
+                  menuPadding: EdgeInsets.zero,
+                ),
               ),
               darkTheme: ThemeData(
                 colorScheme: darkColorScheme,
                 useMaterial3: true,
+                popupMenuTheme: const PopupMenuThemeData(
+                  menuPadding: EdgeInsets.zero,
+                ),
                 scaffoldBackgroundColor:
                     settings.themeMode == AppThemeMode.pureBlack
                     ? Colors.black
