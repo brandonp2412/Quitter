@@ -27,6 +27,35 @@ import 'package:quitter/whats_new.dart';
 import 'package:quitter/app_theme_mode.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 
+/// Replaces persisted app data, reloads providers, and applies its reminder schedule.
+Future<void> applyImportedPreferences(
+  Map<String, Object> data, {
+  required AddictionProvider addictions,
+  required SettingsProvider settings,
+}) async {
+  final prefs = await SharedPreferences.getInstance();
+  await prefs.clear();
+
+  for (final entry in data.entries) {
+    final key = entry.key;
+    final value = entry.value;
+    if (value is bool) {
+      await prefs.setBool(key, value);
+    } else if (value is int) {
+      await prefs.setInt(key, value);
+    } else if (value is double) {
+      await prefs.setDouble(key, value);
+    } else if (value is String) {
+      await prefs.setString(key, value);
+    } else if (value is List<String>) {
+      await prefs.setStringList(key, value);
+    }
+  }
+
+  await Future.wait([addictions.loadAddictions(), settings.loadPreferences()]);
+  await rescheduleTasks();
+}
+
 class SettingsPage extends StatefulWidget {
   const SettingsPage({super.key});
 
@@ -175,40 +204,23 @@ class _SettingsPageState extends State<SettingsPage> {
 
       final data = _validateImportData(jsonDecode(contents));
 
-      final prefs = await SharedPreferences.getInstance();
-      await prefs.clear();
-
-      for (final entry in data.entries) {
-        final key = entry.key;
-        final value = entry.value;
-        if (value is bool) {
-          await prefs.setBool(key, value);
-        } else if (value is int) {
-          await prefs.setInt(key, value);
-        } else if (value is double) {
-          await prefs.setDouble(key, value);
-        } else if (value is String) {
-          await prefs.setString(key, value);
-        } else if (value is List<String>) {
-          await prefs.setStringList(key, value);
-        }
-      }
+      if (!context.mounted) return;
+      final addictions = context.read<AddictionProvider>();
+      final settings = context.read<SettingsProvider>();
+      await applyImportedPreferences(
+        data,
+        addictions: addictions,
+        settings: settings,
+      );
 
       if (!context.mounted) return;
       toast(l10n.dataImported);
 
-      final addictions = context.read<AddictionProvider>();
-      final settings = context.read<SettingsProvider>();
-      await Future.wait([
-        addictions.loadAddictions(),
-        settings.loadPreferences(),
-      ]);
-      if (!context.mounted || defaultTargetPlatform == TargetPlatform.linux)
-        return;
-
+      if (defaultTargetPlatform == TargetPlatform.linux) return;
       if (settings.notifyEvery == 0) return;
-      if (!addictions.hasActivePresetJourney && addictions.entries.isEmpty)
+      if (!addictions.hasActivePresetJourney && addictions.entries.isEmpty) {
         return;
+      }
 
       await Permission.notification.request();
     } catch (_) {
