@@ -397,7 +397,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get synthetic_cannabinoidsInfoBox =>
-      'Synthetische Cannabinoide (\"Spice\", \"K2\") sind weitaus stärker als Cannabis, und ihr Entzug ist ähnlich, aber schwerer - mit Angst und einer schnellen Herzfrequenz. Schwere Benutzer benötigen möglicherweise medizinisch unterstützte Entgiftung.';
+      'Synthetische Cannabinoide („Spice“, „K2“) können deutlich stärker und unberechenbarer sein als Cannabis. Der Entzug kann schwerer verlaufen; berichtet wurden Krampfanfälle, Psychosen, starke Unruhe und Herzrasen. Schwere Symptome brauchen sofortige medizinische Hilfe.';
 
   @override
   String get addictionSyntheticCannabinoids => 'Synthetische Cannabinoide';
@@ -407,50 +407,57 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get synthetic_cannabinoidsMilestone1Description =>
-      'Der Entzug von synthetischen Cannabinoiden kann innerhalb von Stunden bis zu ein oder zwei Tagen beginnen. Erwarten Sie Angst, Reizbarkeit, eine schnelle Herzfrequenz, Schwitzen und Schlafprobleme.';
+      'Nach häufigem Konsum kann der Entzug schnell einsetzen. Schlafprobleme, Reizbarkeit, gedrückte Stimmung, Schwitzen, Herzklopfen, Unruhe und Zittern sind beschrieben – schwere Fälle können Krampfanfälle oder Psychosen umfassen.';
 
   @override
-  String get synthetic_cannabinoidsMilestone3Title => 'Peak Symptome';
+  String get synthetic_cannabinoidsMilestone3Title => 'Der harte Anfang';
 
   @override
   String get synthetic_cannabinoidsMilestone3Description =>
-      'Die Symptome neigen dazu, in den ersten Tagen ihren Höhepunkt zu erreichen - stärkste Angst, Reizbarkeit, schlechter Schlaf und Verlangen. Das ist die schwierigste Strecke.';
+      'Drei Tage geschafft. Der Entzug von synthetischen Cannabinoiden kann härter sein als bei hochpotentem Cannabis – diese frühe Phase ist kein Witz. Sie bringen bereits echten Abstand zwischen sich und die nächste Dosis.';
 
   @override
-  String get synthetic_cannabinoidsMilestone7Title => 'Akute Phase Lockerung';
+  String get synthetic_cannabinoidsMilestone7Title => 'Eine starke Woche';
 
   @override
   String get synthetic_cannabinoidsMilestone7Description =>
-      'Nach einer Woche lindern sich die intensivsten Symptome. Schlaf, Herzfrequenz und Stimmung beginnen sich zu beruhigen.';
+      'Eine Woche geschafft. Der Entzug von synthetischen Cannabinoiden kann schwer und körperlicher sein als Cannabisentzug. Sieben Tage ohne eine weitere Dosis sind ein echter Sieg.';
 
   @override
-  String get synthetic_cannabinoidsMilestone14Title =>
-      'Schlaf und Stimmung Settling';
+  String get synthetic_cannabinoidsMilestone14Title => 'Zwei Wochen frei';
 
   @override
   String get synthetic_cannabinoidsMilestone14Description =>
-      'Nach zwei Wochen sind Schlaf und Stimmung stabiler und die schnelle Herzfrequenz des vorzeitigen Rückzugs hat sich aufgelöst.';
+      'Zwei Wochen frei. Synthetische Cannabinoide sind eine eigene Liga: vierzehn Tage ohne erneute Exposition gegenüber einer Stoffklasse, die mit Krampfanfällen, Psychosen und Herzproblemen verbunden ist.';
 
   @override
   String get synthetic_cannabinoidsMilestone30Title => 'Ein Monat klar';
 
   @override
   String get synthetic_cannabinoidsMilestone30Description =>
-      'Nach einem Monat haben sich die meisten Entzugserscheinungen behoben. Schlaf, Stimmung und Klarheit werden deutlich verbessert.';
+      'Ein ganzer Monat frei. Dreißig Tage ohne erneute Exposition gegenüber der unberechenbaren Stärke und akuten Toxizität synthetischer Cannabinoide. Ein riesiger Meilenstein.';
 
   @override
   String get synthetic_cannabinoidsMilestone90Title => 'Drei Monate später';
 
   @override
   String get synthetic_cannabinoidsMilestone90Description =>
-      'Drei Monate klar, Stimmung und Schlaf sind stabil und Heißhunger sind selten. Das Cannabinoidsystem des Gehirns wurde neu reguliert.';
+      'Drei Monate frei. Sie haben großen Abstand zu einer Stoffklasse gehalten, die mit schwerem Entzug, Krampfanfällen, Herz-Kreislauf-Problemen und Psychosen verbunden ist. Weiter so.';
 
   @override
   String get synthetic_cannabinoidsMilestone180Title => 'Ein halbes Jahr frei';
 
   @override
   String get synthetic_cannabinoidsMilestone180Description =>
-      'Sechs Monate frei von synthetischen Cannabinoiden. Der Entzug ist lange gelöst und die ernsthaften Risiken dieser Medikamente liegen hinter Ihnen.';
+      'Ein halbes Jahr frei. Sechs Monate ohne synthetische Cannabinoide sind gewaltig – sechs Monate ohne eine neue Runde ihrer unberechenbaren akuten Risiken.';
+
+  @override
+  String get synthetic_cannabinoidsWithdrawalReference =>
+      'Entzug bei synthetischen Cannabinoiden\n\nQuelle: Craft et al. (2022), Psychopharmacology, PMC\n\nVon 284 Personen, die im Vorjahr mehr als zehnmal synthetische Cannabinoid-Rezeptoragonisten konsumiert und einen Absetzversuch unternommen hatten, berichteten 82,7 % nach mehr als einem Tag ohne Konsum mindestens ein Entzugssymptom. Am häufigsten waren Schlafprobleme (59,2 %), Reizbarkeit (55,6 %) und gedrückte Stimmung (54,2 %); außerdem wurden Schwitzen, Herzklopfen, Verlangen, Unruhe und Zittern genannt. Häufigerer und stärkerer Konsum war mit mehr Symptomen verbunden. Beim direkten Vergleich wurde der Entzug von synthetischen Cannabinoiden als schwerer als der von hochpotentem Cannabis bewertet.';
+
+  @override
+  String get synthetic_cannabinoidsRiskReference =>
+      'Entzug und akute Risiken synthetischer Cannabinoide\n\nQuelle: Cooper (2016), Current Psychiatry Reports, PMC\n\nKlinische Berichte beschreiben nach täglichem Konsum einen rasch einsetzenden Entzug mit starker Angst, Schlaflosigkeit, Übelkeit und Erbrechen, Schwitzen, Herzklopfen, Zittern, Unruhe und Verlangen. Schwere Fälle umfassten wiederkehrende Krampfanfälle sowie Herz-Kreislauf- oder Atemprobleme. Der Review beschreibt auch die akute Wirkung als unberechenbar und teils schwerwiegend, einschließlich Psychosen, Krampfanfällen, Herzereignissen und Nierenschäden. Schwere oder zunehmende Symptome brauchen rasche medizinische Abklärung.';
 
   @override
   String get mdmaPageTitle => 'MDMA-Wiederherstellung';

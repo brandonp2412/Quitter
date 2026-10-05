@@ -789,7 +789,7 @@ abstract class AppLocalizations {
   /// No description provided for @synthetic_cannabinoidsInfoBox.
   ///
   /// In en, this message translates to:
-  /// **'Synthetic cannabinoids (“Spice”, “K2”) are far more potent than cannabis, and their withdrawal is similar but more severe — with anxiety and a fast heart rate. Heavy users may need medically supported detox.'**
+  /// **'Synthetic cannabinoids (“Spice”, “K2”) can be far more potent and unpredictable than cannabis. Withdrawal can be more severe, and reports include seizures, psychosis, agitation, and a fast heart rate. Severe symptoms need urgent medical care.'**
   String get synthetic_cannabinoidsInfoBox;
 
   /// No description provided for @addictionSyntheticCannabinoids.
@@ -807,43 +807,43 @@ abstract class AppLocalizations {
   /// No description provided for @synthetic_cannabinoidsMilestone1Description.
   ///
   /// In en, this message translates to:
-  /// **'Withdrawal from synthetic cannabinoids can begin within hours to a day or two. Expect anxiety, irritability, a fast heart rate, sweating, and sleep problems.'**
+  /// **'Withdrawal can hit fast after frequent use. Sleep trouble, irritability, low mood, sweating, palpitations, agitation, and shakes are all reported — and severe cases can include seizures or psychosis.'**
   String get synthetic_cannabinoidsMilestone1Description;
 
   /// No description provided for @synthetic_cannabinoidsMilestone3Title.
   ///
   /// In en, this message translates to:
-  /// **'Peak Symptoms'**
+  /// **'The Rough Early Stretch'**
   String get synthetic_cannabinoidsMilestone3Title;
 
   /// No description provided for @synthetic_cannabinoidsMilestone3Description.
   ///
   /// In en, this message translates to:
-  /// **'Symptoms tend to peak in the first few days — strongest anxiety, irritability, poor sleep, and cravings. This is the hardest stretch.'**
+  /// **'Three days clear. Synthetic-cannabinoid withdrawal can be harsher than high-potency cannabis, so this early stretch is no joke. You’re already putting real distance between yourself and the next dose.'**
   String get synthetic_cannabinoidsMilestone3Description;
 
   /// No description provided for @synthetic_cannabinoidsMilestone7Title.
   ///
   /// In en, this message translates to:
-  /// **'Acute Phase Easing'**
+  /// **'One Week Strong'**
   String get synthetic_cannabinoidsMilestone7Title;
 
   /// No description provided for @synthetic_cannabinoidsMilestone7Description.
   ///
   /// In en, this message translates to:
-  /// **'By one week the most intense symptoms are easing. Sleep, heart rate, and mood begin to settle.'**
+  /// **'One week strong. Synthetic-cannabinoid withdrawal can be severe and more physical than cannabis withdrawal. Seven days without another dose is a serious win.'**
   String get synthetic_cannabinoidsMilestone7Description;
 
   /// No description provided for @synthetic_cannabinoidsMilestone14Title.
   ///
   /// In en, this message translates to:
-  /// **'Sleep and Mood Settling'**
+  /// **'Two Weeks Clear'**
   String get synthetic_cannabinoidsMilestone14Title;
 
   /// No description provided for @synthetic_cannabinoidsMilestone14Description.
   ///
   /// In en, this message translates to:
-  /// **'Two weeks in, sleep and mood are steadier and the fast heart rate of early withdrawal has resolved.'**
+  /// **'Two weeks clear. Synthetic cannabinoids are their own beast: you’ve stacked fourteen days without re-exposure to a drug class linked to seizures, psychosis, and heart problems.'**
   String get synthetic_cannabinoidsMilestone14Description;
 
   /// No description provided for @synthetic_cannabinoidsMilestone30Title.
@@ -855,7 +855,7 @@ abstract class AppLocalizations {
   /// No description provided for @synthetic_cannabinoidsMilestone30Description.
   ///
   /// In en, this message translates to:
-  /// **'At a month most withdrawal symptoms have resolved. Sleep, mood, and clarity are markedly improved.'**
+  /// **'A full month clear. That’s thirty days without re-exposure to the unpredictable potency and acute toxicity of synthetic cannabinoids. Huge milestone.'**
   String get synthetic_cannabinoidsMilestone30Description;
 
   /// No description provided for @synthetic_cannabinoidsMilestone90Title.
@@ -867,7 +867,7 @@ abstract class AppLocalizations {
   /// No description provided for @synthetic_cannabinoidsMilestone90Description.
   ///
   /// In en, this message translates to:
-  /// **'Three months clear, mood and sleep are stable and cravings are infrequent. The brain\'s cannabinoid system has re-regulated.'**
+  /// **'Three months free. You’ve kept a wide gap between yourself and a drug class linked to severe withdrawal, seizures, cardiovascular problems, and psychosis. Keep it rolling.'**
   String get synthetic_cannabinoidsMilestone90Description;
 
   /// No description provided for @synthetic_cannabinoidsMilestone180Title.
@@ -879,8 +879,20 @@ abstract class AppLocalizations {
   /// No description provided for @synthetic_cannabinoidsMilestone180Description.
   ///
   /// In en, this message translates to:
-  /// **'Six months free of synthetic cannabinoids. Withdrawal is long resolved and the serious risks of these drugs are behind you.'**
+  /// **'Half a year free. Six months without synthetic cannabinoids is massive — six months without taking on another round of their unpredictable acute risks.'**
   String get synthetic_cannabinoidsMilestone180Description;
+
+  /// No description provided for @synthetic_cannabinoidsWithdrawalReference.
+  ///
+  /// In en, this message translates to:
+  /// **'Synthetic Cannabinoid Withdrawal\n\nSource: Craft et al. (2022), Psychopharmacology, PMC\n\nIn 284 people who had used synthetic cannabinoid receptor agonists more than 10 times in the previous year and tried to stop, 82.7% reported at least one withdrawal symptom after more than a day without use. Sleep problems (59.2%), irritability (55.6%), and low mood (54.2%) were most common; sweating, palpitations, craving, agitation, and shakiness were also reported. More frequent and heavier use was linked to more symptoms. Among participants who compared both drugs, synthetic-cannabinoid withdrawal was rated more severe than withdrawal from high-potency cannabis.'**
+  String get synthetic_cannabinoidsWithdrawalReference;
+
+  /// No description provided for @synthetic_cannabinoidsRiskReference.
+  ///
+  /// In en, this message translates to:
+  /// **'Synthetic Cannabinoid Withdrawal and Acute Risk\n\nSource: Cooper (2016), Current Psychiatry Reports, PMC\n\nClinical reports describe withdrawal after daily synthetic-cannabinoid use occurring soon after the last dose, with severe anxiety, insomnia, nausea and vomiting, sweating, palpitations, tremor, agitation, and cravings. Severe cases have included recurring seizures and cardiovascular or breathing problems. The review also describes synthetic-cannabinoid intoxication as unpredictable and sometimes severe, including psychosis, seizures, cardiac events, and kidney injury. Severe or escalating symptoms need prompt medical assessment.'**
+  String get synthetic_cannabinoidsRiskReference;
 
   /// No description provided for @mdmaPageTitle.
   ///

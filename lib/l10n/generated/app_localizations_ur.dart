@@ -382,7 +382,7 @@ class AppLocalizationsUr extends AppLocalizations {
 
   @override
   String get synthetic_cannabinoidsHeaderNotStarted =>
-      'کافی مقدار میں سنسکرت کینابینائڈس کے فوائد ہیں۔';
+      'مصنوعی کینابینوئڈز چھوڑنے کے فوائد';
 
   @override
   String get synthetic_cannabinoidsSubtitleStarted =>
@@ -394,59 +394,67 @@ class AppLocalizationsUr extends AppLocalizations {
 
   @override
   String get synthetic_cannabinoidsInfoBox =>
-      'Sintetic cannabinoids (\"spice= \"K2\") کینز سے کہیں زیادہ طاقتور ہے اور ان کا رد عمل بھی اسی طرح سے مگر شدید ہوتا ہے یعنی پریشانی اور تیزی سے دل کا دورہ پڑنے سے۔ بھاری صارفین کو طبی امداد کی ضرورت ہو سکتی ہے۔';
+      'مصنوعی کینابینوئڈز (“Spice”، “K2”) بھنگ سے کہیں زیادہ طاقتور اور غیر متوقع ہو سکتے ہیں۔ ان کی واپسی کی علامات زیادہ شدید ہو سکتی ہیں، اور دورے، نفسیاتی علامات، شدید بے چینی اور تیز دھڑکن رپورٹ ہوئی ہیں۔ شدید علامات میں فوری طبی مدد ضروری ہے۔';
 
   @override
-  String get addictionSyntheticCannabinoids => 'سننتیکا کینابینائڈس';
+  String get addictionSyntheticCannabinoids => 'مصنوعی کینابینوئڈز';
 
   @override
   String get synthetic_cannabinoidsMilestone1Title => 'واپسی کی علامات شروع';
 
   @override
   String get synthetic_cannabinoidsMilestone1Description =>
-      'اِس کی ایک وجہ تو یہ ہے کہ اِس بیماری میں مبتلا لوگوں کی تعداد کم ہوتی جا رہی ہے ۔ پریشانی ، نیند ، جلدی دل کی دھڑکن ، پس‌منظر اور نیند کے مسائل کی توقع ۔';
+      'بار بار استعمال کے بعد واپسی کی علامات تیزی سے شروع ہو سکتی ہیں۔ نیند کے مسائل، چڑچڑاپن، اداس مزاج، پسینہ، دل کی دھڑکن، بے چینی اور کپکپی رپورٹ ہوئی ہیں؛ شدید صورتوں میں دورے یا نفسیاتی علامات بھی ہو سکتی ہیں۔';
 
   @override
-  String get synthetic_cannabinoidsMilestone3Title => 'رنگ‌برنگے رنگ';
+  String get synthetic_cannabinoidsMilestone3Title => 'ابتدائی مشکل مرحلہ';
 
   @override
   String get synthetic_cannabinoidsMilestone3Description =>
-      'پہلے چند دنوں میں لوگ شدید پریشانی ، نیند ، نیند اور مایوسی کا شکار ہو جاتے ہیں ۔ یہ بہت مشکل ہے.';
+      'تین دن صاف۔ مصنوعی کینابینوئڈز کی واپسی کی علامات زیادہ طاقتور بھنگ سے بھی سخت ہو سکتی ہیں، اس لیے یہ ابتدائی مرحلہ سنجیدہ ہے۔ آپ اپنے اور اگلی خوراک کے درمیان حقیقی فاصلہ بنا چکے ہیں۔';
 
   @override
-  String get synthetic_cannabinoidsMilestone7Title => 'شدید مرحلہ کم ہو رہا ہے';
+  String get synthetic_cannabinoidsMilestone7Title => 'ایک مضبوط ہفتہ';
 
   @override
   String get synthetic_cannabinoidsMilestone7Description =>
-      'ایک ہفتے تک سب سے زیادہ شدید علامات ظاہر ہوتی ہیں ۔ نیند ، دل کی دھڑکن اور مزاج میں بہتری آنا شروع ہو جاتی ہے ۔';
+      'ایک پورا ہفتہ۔ مصنوعی کینابینوئڈز کی واپسی کی علامات شدید اور بھنگ کی نسبت زیادہ جسمانی ہو سکتی ہیں۔ مزید خوراک کے بغیر سات دن ایک بڑی کامیابی ہے۔';
 
   @override
-  String get synthetic_cannabinoidsMilestone14Title => 'نیند اور کشتی';
+  String get synthetic_cannabinoidsMilestone14Title => 'دو ہفتے صاف';
 
   @override
   String get synthetic_cannabinoidsMilestone14Description =>
-      'دو ہفتوں میں نیند اور مزاج میں تبدیلی آ جاتی ہے اور جلدی سے انتقالِ‌خون کی رفتار ختم ہو جاتی ہے ۔';
+      'دو ہفتے صاف۔ مصنوعی کینابینوئڈز ایک الگ چیز ہیں: آپ نے چودہ دن ایسے مادّوں سے دوبارہ واسطہ رکھے بغیر گزارے ہیں جو دوروں، نفسیاتی علامات اور دل کے مسائل سے منسلک ہیں۔';
 
   @override
-  String get synthetic_cannabinoidsMilestone30Title => 'ایک ماہ سے پاک';
+  String get synthetic_cannabinoidsMilestone30Title => 'ایک مہینہ صاف';
 
   @override
   String get synthetic_cannabinoidsMilestone30Description =>
-      'ایک مہینے کے اندر اندر زیادہ‌تر علامات حل ہو چکی ہیں ۔ نیند ، مزاج اور واضح طور پر بہتر ہو جاتا ہے ۔';
+      'ایک پورا مہینہ صاف۔ مصنوعی کینابینوئڈز کی غیر متوقع طاقت اور شدید زہریلے اثرات سے دوبارہ واسطہ رکھے بغیر تیس دن۔ یہ بہت بڑا سنگِ میل ہے۔';
 
   @override
-  String get synthetic_cannabinoidsMilestone90Title => 'تین ماہ بعد';
+  String get synthetic_cannabinoidsMilestone90Title => 'تین ماہ آزاد';
 
   @override
   String get synthetic_cannabinoidsMilestone90Description =>
-      'تین ماہ کی واضح، مزاج اور نیند مستحکم اور بے حس و حرکت ہے۔ دماغ کے کینبینائڈ سسٹم نے دوبارہ دریافت کیا ہے۔';
+      'تین ماہ آزاد۔ آپ نے اپنے اور ایسے مادّوں کے درمیان بڑا فاصلہ رکھا ہے جو شدید واپسی، دوروں، قلبی مسائل اور نفسیاتی علامات سے منسلک ہیں۔ اسی طرح جاری رکھیں۔';
 
   @override
-  String get synthetic_cannabinoidsMilestone180Title => 'چھ ماہ سے پاک';
+  String get synthetic_cannabinoidsMilestone180Title => 'نصف سال آزاد';
 
   @override
   String get synthetic_cannabinoidsMilestone180Description =>
-      'چھ ماہ کے اندر اندر اندر کین‌بین‌رائڈ سے آزاد ہو گیا ۔ اِن ادویات کے سنگین خطرات آپ کے پیچھے ہیں ۔';
+      'نصف سال آزاد۔ مصنوعی کینابینوئڈز کے بغیر چھ ماہ بہت بڑی کامیابی ہے — ان کے غیر متوقع شدید خطرات کا ایک اور دور اٹھائے بغیر چھ ماہ۔';
+
+  @override
+  String get synthetic_cannabinoidsWithdrawalReference =>
+      'مصنوعی کینابینوئڈز کی واپسی\n\nماخذ: Craft و دیگر (2022)، Psychopharmacology، PMC\n\n284 افراد میں سے، جنہوں نے پچھلے سال مصنوعی کینابینوئڈ ریسپٹر ایگونسٹس دس سے زیادہ بار استعمال کیے تھے اور چھوڑنے کی کوشش کی تھی، 82.7٪ نے ایک دن سے زیادہ نہ استعمال کرنے کے بعد کم از کم ایک واپسی کی علامت بتائی۔ سب سے عام علامات نیند کے مسائل (59.2٪)، چڑچڑاپن (55.6٪) اور اداس مزاج (54.2٪) تھیں؛ پسینہ، دل کی دھڑکن، طلب، بے چینی اور کپکپی بھی رپورٹ ہوئیں۔ زیادہ بار اور زیادہ مقدار میں استعمال زیادہ علامات سے منسلک تھا۔ براہِ راست موازنے میں مصنوعی کینابینوئڈز کی واپسی کو زیادہ طاقتور بھنگ کی واپسی سے زیادہ شدید قرار دیا گیا۔';
+
+  @override
+  String get synthetic_cannabinoidsRiskReference =>
+      'مصنوعی کینابینوئڈز کی واپسی اور شدید خطرات\n\nماخذ: Cooper (2016)، Current Psychiatry Reports، PMC\n\nطبی رپورٹس میں روزانہ استعمال کے بعد آخری خوراک کے کچھ ہی وقت بعد شروع ہونے والی واپسی بیان کی گئی ہے، جس میں شدید پریشانی، بے خوابی، متلی اور قے، پسینہ، دل کی دھڑکن، کپکپی، بے چینی اور طلب شامل ہیں۔ شدید صورتوں میں بار بار دورے اور قلبی یا سانس کے مسائل بھی رپورٹ ہوئے۔ جائزے میں نشہ آور اثرات کو غیر متوقع اور کبھی شدید بھی بتایا گیا ہے، جن میں نفسیاتی علامات، دورے، دل کے واقعات اور گردے کی چوٹ شامل ہیں۔ شدید یا بگڑتی علامات کے لیے فوری طبی جانچ ضروری ہے۔';
 
   @override
   String get mdmaPageTitle => 'مُنادی کا کام';

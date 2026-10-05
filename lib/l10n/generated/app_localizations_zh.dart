@@ -380,7 +380,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get synthetic_cannabinoidsInfoBox =>
-      '合成大麻素（\"香料\"、\"K2\"）比大麻强效得多，其戒断类似但更严重——伴有焦虑和心跳加速。大量使用的人可能需要医疗支持的解毒。';
+      '合成大麻素（“Spice”“K2”）可能比大麻强效得多，也更难预测。戒断可能更严重，已有癫痫发作、精神病性症状、躁动和心跳过快的报告。严重症状需要紧急就医。';
 
   @override
   String get addictionSyntheticCannabinoids => '合成大麻素';
@@ -390,49 +390,57 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get synthetic_cannabinoidsMilestone1Description =>
-      '合成大麻素的戒断可能在数小时到一两天内开始。预料会出现焦虑、烦躁、心跳加速、出汗和睡眠问题。';
+      '频繁使用后，戒断可能很快出现。已有睡眠问题、易怒、情绪低落、出汗、心悸、躁动和颤抖的报告；严重病例还可能出现癫痫发作或精神病性症状。';
 
   @override
-  String get synthetic_cannabinoidsMilestone3Title => '症状高峰';
+  String get synthetic_cannabinoidsMilestone3Title => '艰难的早期阶段';
 
   @override
   String get synthetic_cannabinoidsMilestone3Description =>
-      '症状往往在最初几天达到高峰——最强的焦虑、烦躁、睡眠不佳和渴求。这是最艰难的阶段。';
+      '已经停用三天。合成大麻素的戒断可能比高效力大麻更难熬，所以这段早期过程不能小看。您已经在自己和下一剂之间拉开了真正的距离。';
 
   @override
-  String get synthetic_cannabinoidsMilestone7Title => '急性期缓解';
+  String get synthetic_cannabinoidsMilestone7Title => '坚实的一周';
 
   @override
   String get synthetic_cannabinoidsMilestone7Description =>
-      '到一周时最强烈的症状正在消退。睡眠、心率和情绪开始稳定。';
+      '已经坚持一周。合成大麻素戒断可能很严重，而且身体症状可能比大麻戒断更明显。七天没有再用一剂，是一次真正的胜利。';
 
   @override
-  String get synthetic_cannabinoidsMilestone14Title => '睡眠和情绪稳定';
+  String get synthetic_cannabinoidsMilestone14Title => '停用两周';
 
   @override
   String get synthetic_cannabinoidsMilestone14Description =>
-      '两周后，睡眠和情绪更稳定，早期戒断的心跳加速已解决。';
+      '已经停用两周。合成大麻素不是普通大麻的翻版：您已经连续十四天没有再次接触这类与癫痫发作、精神病性症状和心脏问题相关的物质。';
 
   @override
   String get synthetic_cannabinoidsMilestone30Title => '停用一个月';
 
   @override
   String get synthetic_cannabinoidsMilestone30Description =>
-      '一个月时大多数戒断症状已经解决。睡眠、情绪和清晰度明显改善。';
+      '整整一个月没有使用。三十天没有再次接触合成大麻素不可预测的效力和急性毒性。非常重要的里程碑。';
 
   @override
   String get synthetic_cannabinoidsMilestone90Title => '三个月了';
 
   @override
   String get synthetic_cannabinoidsMilestone90Description =>
-      '停用三个月后，情绪和睡眠趋于稳定，渴求也很少出现。大脑的大麻素系统已经重新适应。';
+      '已经停用三个月。您与这类和严重戒断、癫痫发作、心血管问题及精神病性症状相关的物质保持了很大的距离。继续保持。';
 
   @override
   String get synthetic_cannabinoidsMilestone180Title => '停用半年';
 
   @override
   String get synthetic_cannabinoidsMilestone180Description =>
-      '六个月没有合成大麻素。戒断早已解决，这些药物的严重风险已成为过去。';
+      '已经停用半年。六个月没有合成大麻素意义重大——六个月没有再次承担它们不可预测的急性风险。';
+
+  @override
+  String get synthetic_cannabinoidsWithdrawalReference =>
+      '合成大麻素戒断\n\n来源：Craft 等（2022），Psychopharmacology，PMC\n\n研究纳入284名上一年使用合成大麻素受体激动剂超过10次并尝试停用的人。停用超过一天后，82.7%报告至少一种戒断症状。最常见的是睡眠问题（59.2%）、易怒（55.6%）和情绪低落（54.2%）；也有人报告出汗、心悸、渴求、躁动和颤抖。使用越频繁、用量越大，症状往往越多。在直接比较中，参与者认为合成大麻素戒断比高效力大麻戒断更严重。';
+
+  @override
+  String get synthetic_cannabinoidsRiskReference =>
+      '合成大麻素戒断与急性风险\n\n来源：Cooper（2016），Current Psychiatry Reports，PMC\n\n临床报告显示，每日使用者在最后一次使用后不久就可能出现戒断，包括严重焦虑、失眠、恶心和呕吐、出汗、心悸、颤抖、躁动和渴求。重症病例包括反复癫痫发作以及心血管或呼吸问题。综述还指出，合成大麻素急性中毒具有不可预测性，有时很严重，可出现精神病性症状、癫痫发作、心脏事件和肾损伤。严重或持续加重的症状需要尽快接受医疗评估。';
 
   @override
   String get mdmaPageTitle => 'MDMA戒断';
@@ -3895,7 +3903,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get synthetic_cannabinoidsInfoBox =>
-      '合成大麻素（\"香料\"、\"K2\"）比大麻強效得多，其戒斷類似但更嚴重——伴有焦慮和心跳加速。大量使用的人可能需要醫療支持的解毒。';
+      '合成大麻素（「Spice」「K2」）可能比大麻強效得多，也更難預測。戒斷可能更嚴重，已有癲癇發作、精神病性症狀、躁動和心跳過快的報告。嚴重症狀需要緊急就醫。';
 
   @override
   String get addictionSyntheticCannabinoids => '合成大麻素';
@@ -3905,49 +3913,57 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get synthetic_cannabinoidsMilestone1Description =>
-      '合成大麻素的戒斷可能在數小時到一兩天內開始。預料會出現焦慮、煩躁、心跳加速、出汗和睡眠問題。';
+      '頻繁使用後，戒斷可能很快出現。已有睡眠問題、易怒、情緒低落、出汗、心悸、躁動和顫抖的報告；嚴重病例還可能出現癲癇發作或精神病性症狀。';
 
   @override
-  String get synthetic_cannabinoidsMilestone3Title => '症狀高峰';
+  String get synthetic_cannabinoidsMilestone3Title => '艱難的早期階段';
 
   @override
   String get synthetic_cannabinoidsMilestone3Description =>
-      '症狀往往在最初幾天達到高峰——最強的焦慮、煩躁、睡眠不佳和渴求。這是最艱難的階段。';
+      '已經停用三天。合成大麻素的戒斷可能比高效力大麻更難熬，所以這段早期過程不能小看。您已經在自己和下一劑之間拉開了真正的距離。';
 
   @override
-  String get synthetic_cannabinoidsMilestone7Title => '急性期緩解';
+  String get synthetic_cannabinoidsMilestone7Title => '扎實的一週';
 
   @override
   String get synthetic_cannabinoidsMilestone7Description =>
-      '到一周時最強烈的症狀正在消退。睡眠、心率和情緒開始穩定。';
+      '已經堅持一週。合成大麻素戒斷可能很嚴重，而且身體症狀可能比大麻戒斷更明顯。七天沒有再用一劑，是一次真正的勝利。';
 
   @override
-  String get synthetic_cannabinoidsMilestone14Title => '睡眠和情緒穩定';
+  String get synthetic_cannabinoidsMilestone14Title => '停用兩週';
 
   @override
   String get synthetic_cannabinoidsMilestone14Description =>
-      '兩周後，睡眠和情緒更穩定，早期戒斷的心跳加速已解決。';
+      '已經停用兩週。合成大麻素不是普通大麻的翻版：您已經連續十四天沒有再次接觸這類與癲癇發作、精神病性症狀和心臟問題相關的物質。';
 
   @override
   String get synthetic_cannabinoidsMilestone30Title => '停用一個月';
 
   @override
   String get synthetic_cannabinoidsMilestone30Description =>
-      '一個月時大多數戒斷症狀已經解決。睡眠、情緒和清晰度明顯改善。';
+      '整整一個月沒有使用。三十天沒有再次接觸合成大麻素不可預測的效力和急性毒性。非常重要的里程碑。';
 
   @override
   String get synthetic_cannabinoidsMilestone90Title => '三個月了';
 
   @override
   String get synthetic_cannabinoidsMilestone90Description =>
-      '停用三個月後，情緒和睡眠趨於穩定，渴求也很少出現。大腦的大麻素系統已經重新適應。';
+      '已經停用三個月。您與這類和嚴重戒斷、癲癇發作、心血管問題及精神病性症狀相關的物質保持了很大的距離。繼續保持。';
 
   @override
   String get synthetic_cannabinoidsMilestone180Title => '停用半年';
 
   @override
   String get synthetic_cannabinoidsMilestone180Description =>
-      '六個月沒有合成大麻素。戒斷早已解決，這些藥物的嚴重風險已成為過去。';
+      '已經停用半年。六個月沒有合成大麻素意義重大——六個月沒有再次承擔它們不可預測的急性風險。';
+
+  @override
+  String get synthetic_cannabinoidsWithdrawalReference =>
+      '合成大麻素戒斷\n\n來源：Craft 等（2022），Psychopharmacology，PMC\n\n研究納入284名上一年使用合成大麻素受體促效劑超過10次並嘗試停用的人。停用超過一天後，82.7%報告至少一種戒斷症狀。最常見的是睡眠問題（59.2%）、易怒（55.6%）和情緒低落（54.2%）；也有人報告出汗、心悸、渴求、躁動和顫抖。使用越頻繁、用量越大，症狀往往越多。在直接比較中，參與者認為合成大麻素戒斷比高效力大麻戒斷更嚴重。';
+
+  @override
+  String get synthetic_cannabinoidsRiskReference =>
+      '合成大麻素戒斷與急性風險\n\n來源：Cooper（2016），Current Psychiatry Reports，PMC\n\n臨床報告顯示，每日使用者在最後一次使用後不久就可能出現戒斷，包括嚴重焦慮、失眠、噁心和嘔吐、出汗、心悸、顫抖、躁動和渴求。重症病例包括反覆癲癇發作以及心血管或呼吸問題。綜述還指出，合成大麻素急性中毒具有不可預測性，有時很嚴重，可出現精神病性症狀、癲癇發作、心臟事件和腎損傷。嚴重或持續加重的症狀需要儘快接受醫療評估。';
 
   @override
   String get mdmaPageTitle => 'MDMA戒斷';

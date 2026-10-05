@@ -378,79 +378,89 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get synthetic_cannabinoidsPageTitle =>
-      'Odzyskiwanie syntetycznych Cannabinoidów';
+      'Regeneracja po syntetycznych kannabinoidach';
 
   @override
   String get synthetic_cannabinoidsHeaderStarted =>
-      'Twoja podróż po powrocie do zdrowia';
+      'Twoja droga do regeneracji';
 
   @override
   String get synthetic_cannabinoidsHeaderNotStarted =>
-      'Korzyści z rzucenia syntetycznych Cannabinoidów';
+      'Korzyści z odstawienia syntetycznych kannabinoidów';
 
   @override
   String get synthetic_cannabinoidsSubtitleStarted =>
-      'Śledź swój postęp i świętować każdy kamień milowy';
+      'Śledź postępy i świętuj każdy kamień milowy';
 
   @override
   String get synthetic_cannabinoidsSubtitleNotStarted =>
-      'Zobacz, co się stanie, gdy odejdziesz.';
+      'Zobacz, co dzieje się po odstawieniu';
 
   @override
   String get synthetic_cannabinoidsInfoBox =>
-      'Syntetyczne kannabinoidy są znacznie silniejsze niż kannabisy, a ich wycofanie jest podobne, ale cięższe z lękiem i szybkie serca rate. Ciężcy użytkownicy mogą potrzebować detox wspomagane medycznie.';
+      'Syntetyczne kannabinoidy („Spice”, „K2”) mogą być znacznie silniejsze i bardziej nieprzewidywalne niż konopie. Odstawienie może być cięższe; opisywano drgawki, psychozę, pobudzenie i przyspieszone tętno. Ciężkie objawy wymagają pilnej pomocy medycznej.';
 
   @override
-  String get addictionSyntheticCannabinoids => 'Kanabinoidy syntetyczne';
+  String get addictionSyntheticCannabinoids => 'Syntetyczne kannabinoidy';
 
   @override
-  String get synthetic_cannabinoidsMilestone1Title => 'Początek wycofywania';
+  String get synthetic_cannabinoidsMilestone1Title => 'Początek odstawienia';
 
   @override
   String get synthetic_cannabinoidsMilestone1Description =>
-      'Wycofanie się z syntetycznych kanabinoidów może rozpocząć się w ciągu kilku godzin do dnia lub dwóch. Oczekiwanie niepokoju, drażliwość, szybkie serce rate, drenaż, i problemy ze snem.';
+      'Po częstym używaniu objawy odstawienia mogą pojawić się szybko. Opisywano problemy ze snem, drażliwość, obniżony nastrój, poty, kołatanie serca, pobudzenie i drżenie — ciężkie przypadki mogą obejmować drgawki lub psychozę.';
 
   @override
-  String get synthetic_cannabinoidsMilestone3Title => 'Objawy szczytowe';
+  String get synthetic_cannabinoidsMilestone3Title => 'Trudny początek';
 
   @override
   String get synthetic_cannabinoidsMilestone3Description =>
-      'Objawy mają tendencję do szczytowego w ciągu pierwszych kilku dni najsilniejsza anxiety, drażliwość, słaby sen, i skurcze. To jest najtrudniejsze rozciąganie.';
+      'Trzy dni bez używania. Odstawienie syntetycznych kannabinoidów może być cięższe niż odstawienie konopi o wysokiej mocy, więc ten początkowy etap jest poważny. Już tworzy Pan/Pani realny dystans od kolejnej dawki.';
 
   @override
-  String get synthetic_cannabinoidsMilestone7Title => 'Ostre łagodzenie fazy';
+  String get synthetic_cannabinoidsMilestone7Title => 'Mocny tydzień';
 
   @override
   String get synthetic_cannabinoidsMilestone7Description =>
-      'W ciągu jednego tygodnia najbardziej intensywne objawy są łatwe. Sleep, serca rate, i nastrój zaczynają się ustawiać.';
+      'Pełny tydzień. Odstawienie syntetycznych kannabinoidów może być ciężkie i bardziej fizyczne niż odstawienie konopi. Siedem dni bez kolejnej dawki to duże zwycięstwo.';
 
   @override
-  String get synthetic_cannabinoidsMilestone14Title => 'Sen i nastrojenie';
+  String get synthetic_cannabinoidsMilestone14Title =>
+      'Dwa tygodnie bez używania';
 
   @override
   String get synthetic_cannabinoidsMilestone14Description =>
-      'Dwa tygodnie w, sen i nastrój są bardziej stabilne i szybkie bicie serca wczesnej odstawienia ustąpił.';
+      'Dwa tygodnie bez używania. Syntetyczne kannabinoidy to inna liga: czternaście dni bez ponownej ekspozycji na grupę substancji powiązaną z drgawkami, psychozą i problemami z sercem.';
 
   @override
-  String get synthetic_cannabinoidsMilestone30Title => 'Wyczyść miesiąc';
+  String get synthetic_cannabinoidsMilestone30Title => 'Miesiąc bez używania';
 
   @override
   String get synthetic_cannabinoidsMilestone30Description =>
-      'W miesiącu większość objawów odstawiennych ustąpiły. Śpiący, nastrojowy i klarowny są znacznie poprawione.';
+      'Pełny miesiąc bez używania. Trzydzieści dni bez ponownej ekspozycji na nieprzewidywalną moc i ostrą toksyczność syntetycznych kannabinoidów. Ogromny kamień milowy.';
 
   @override
-  String get synthetic_cannabinoidsMilestone90Title => 'Trzy miesiące';
+  String get synthetic_cannabinoidsMilestone90Title =>
+      'Trzy miesiące bez używania';
 
   @override
   String get synthetic_cannabinoidsMilestone90Description =>
-      'Trzy miesiące jasne, nastrój i sen są stabilne, a pragnienia są rzadkie.';
+      'Trzy miesiące bez używania. Utrzymuje Pan/Pani duży dystans od grupy substancji związanej z ciężkim odstawieniem, drgawkami, problemami sercowo-naczyniowymi i psychozą. Tak trzymać.';
 
   @override
-  String get synthetic_cannabinoidsMilestone180Title => 'Pół roku za darmo';
+  String get synthetic_cannabinoidsMilestone180Title => 'Pół roku bez używania';
 
   @override
   String get synthetic_cannabinoidsMilestone180Description =>
-      '6 miesięcy wolnego od syntetycznych kannabinoidów. Wycofanie się jest dawno rozwiązane i poważne ryzyko tych leków jest za tobą.';
+      'Pół roku bez używania. Sześć miesięcy bez syntetycznych kannabinoidów to ogromne osiągnięcie — sześć miesięcy bez kolejnej rundy ich nieprzewidywalnych ostrych zagrożeń.';
+
+  @override
+  String get synthetic_cannabinoidsWithdrawalReference =>
+      'Odstawienie syntetycznych kannabinoidów\n\nŹródło: Craft et al. (2022), Psychopharmacology, PMC\n\nWśród 284 osób, które w poprzednim roku używały syntetycznych agonistów receptorów kannabinoidowych ponad dziesięć razy i próbowały przestać, 82,7% zgłosiło co najmniej jeden objaw odstawienia po ponad jednej dobie bez używania. Najczęstsze były problemy ze snem (59,2%), drażliwość (55,6%) i obniżony nastrój (54,2%); zgłaszano też poty, kołatanie serca, głód substancji, pobudzenie i drżenie. Częstsze i większe używanie wiązało się z większą liczbą objawów. W bezpośrednim porównaniu odstawienie syntetycznych kannabinoidów oceniano jako cięższe niż odstawienie konopi o wysokiej mocy.';
+
+  @override
+  String get synthetic_cannabinoidsRiskReference =>
+      'Odstawienie i ostre ryzyko syntetycznych kannabinoidów\n\nŹródło: Cooper (2016), Current Psychiatry Reports, PMC\n\nOpisy kliniczne wskazują, że po codziennym używaniu objawy odstawienia mogą pojawić się szybko po ostatniej dawce i obejmować silny lęk, bezsenność, nudności i wymioty, poty, kołatanie serca, drżenie, pobudzenie i głód substancji. W ciężkich przypadkach występowały nawracające drgawki oraz problemy sercowo-naczyniowe lub oddechowe. Przegląd opisuje też nieprzewidywalne i czasem ciężkie zatrucia, w tym psychozę, drgawki, incydenty sercowe i uszkodzenie nerek. Ciężkie lub nasilające się objawy wymagają szybkiej oceny medycznej.';
 
   @override
   String get mdmaPageTitle => 'Odzyskiwanie MDMA';
