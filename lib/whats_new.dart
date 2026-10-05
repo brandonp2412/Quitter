@@ -169,8 +169,9 @@ class _WhatsNewState extends State<WhatsNew> {
                 : ListView.builder(
                     itemBuilder: (context, index) => ListTile(
                       title: Text(
-                        DateFormat.yMMMd(l10n.localeName)
-                            .format(changelogs[index].created),
+                        DateFormat.yMMMd(
+                          l10n.localeName,
+                        ).format(changelogs[index].created),
                       ),
                       subtitle: Text(changelogs[index].content),
                     ),
