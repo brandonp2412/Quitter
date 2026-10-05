@@ -2071,8 +2071,14 @@ void main() {
       expect(english.statsDayUnit(1), 'day');
       expect(english.statsDayUnit(2), 'days');
       expect(english.statsHoursSuffix(4), '4h');
-      expect(english.notificationTestBody(1), contains('every 1 day '));
-      expect(english.notificationTestBody(2), contains('every 2 days '));
+      expect(
+        english.settingsNotificationFrequencySubtitle(1, '9:00 AM'),
+        'Every 1 day at 9:00 AM',
+      );
+      expect(
+        english.settingsNotificationFrequencySubtitle(2, '9:00 AM'),
+        'Every 2 days at 9:00 AM',
+      );
 
       expect(japanese.timelineMilestoneDay(3), '3日目');
       expect(japanese.timelineMilestoneYears(2), '2年');
@@ -2096,7 +2102,8 @@ void main() {
       expect(stats, contains('l10n.statsHoursSuffix('));
 
       final settings = File('lib/settings_page.dart').readAsStringSync();
-      expect(settings, contains('l10n.notificationTestBody(days)'));
+      expect(settings, contains('l10n.settingsNotificationFrequencySubtitle('));
+      expect(settings, isNot(contains('l10n.notificationTestBody(days)')));
     },
   );
 

@@ -825,7 +825,7 @@ class _SettingsPageState extends State<SettingsPage> {
       _buildSystemSectionItems(context, settings),
     ];
 
-    if (_searchQuery.isEmpty) {
+    if (_searchQuery.trim().isEmpty) {
       final result = <Widget>[];
       for (int i = 0; i < sections.length; i++) {
         result.addAll(sections[i]);
@@ -838,9 +838,11 @@ class _SettingsPageState extends State<SettingsPage> {
     for (final section in sections) {
       final header = section.first;
       final items = section.skip(1).toList();
-      final matching = items
-          .where((item) => _matchesSearch(item, _searchQuery))
-          .toList();
+      final sectionMatches = _matchesSearch(header, _searchQuery);
+      final matching = sectionMatches
+          ? items
+          : items.where((item) => _matchesSearch(item, _searchQuery)).toList();
+
       if (matching.isNotEmpty) {
         result.add(header);
         result.addAll(matching);
@@ -851,40 +853,152 @@ class _SettingsPageState extends State<SettingsPage> {
   }
 
   bool _matchesSearch(Widget item, String query) {
-    if (query.isEmpty) return true;
+    final queryTokens = _searchTokens(query);
+    if (queryTokens.isEmpty) return true;
 
-    final lowerCaseQuery = query.toLowerCase();
+    final searchableText = _searchableText(item).join(' ');
+    final searchableTokens = _searchTokens(searchableText);
+    if (searchableTokens.isEmpty) return false;
 
-    if (item is Padding && item.child is Text) {
-      final text = item.child as Text;
-      if (text.data != null &&
-          text.data!.toLowerCase().contains(lowerCaseQuery)) {
-        return true;
-      }
+    final normalizedQuery = _normalizeSearchText(query);
+    final normalizedText = _normalizeSearchText(searchableText);
+    if (normalizedText.contains(normalizedQuery)) return true;
+
+    return queryTokens.every((queryToken) {
+      final alternatives = _searchAlternatives(queryToken);
+      return alternatives.any(
+        (alternative) => searchableTokens.any(
+          (candidate) => _fuzzyTokenMatches(alternative, candidate),
+        ),
+      );
+    });
+  }
+
+  Iterable<String> _searchableText(Widget item) sync* {
+    if (item is Text) {
+      if (item.data case final text?) yield text;
+      return;
     }
-    if (item is ListTile && item.title is TextField) {
-      final title =
-          (item.title as TextField).decoration?.labelText?.toLowerCase() ?? '';
-      final subtitle = (item.subtitle as Text?)?.data?.toLowerCase() ?? '';
-      if (title.contains(lowerCaseQuery) || subtitle.contains(lowerCaseQuery)) {
-        return true;
-      }
+
+    if (item is TextField) {
+      final decoration = item.decoration;
+      if (decoration?.labelText case final label?) yield label;
+      if (decoration?.hintText case final hint?) yield hint;
+      return;
     }
-    if (item is ListTile && item.title is Text) {
-      final title = (item.title as Text).data?.toLowerCase() ?? '';
-      final subtitle = (item.subtitle as Text?)?.data?.toLowerCase() ?? '';
-      if (title.contains(lowerCaseQuery) || subtitle.contains(lowerCaseQuery)) {
-        return true;
-      }
+
+    if (item is ListTile) {
+      if (item.title case final title?) yield* _searchableText(title);
+      if (item.subtitle case final subtitle?) yield* _searchableText(subtitle);
+      return;
     }
+
     if (item is SwitchListTile) {
-      final title = (item.title as Text).data?.toLowerCase() ?? '';
-      final subtitle = (item.subtitle as Text?)?.data?.toLowerCase() ?? '';
-      if (title.contains(lowerCaseQuery) || subtitle.contains(lowerCaseQuery)) {
-        return true;
-      }
+      if (item.title case final title?) yield* _searchableText(title);
+      if (item.subtitle case final subtitle?) yield* _searchableText(subtitle);
+      return;
     }
-    return false;
+
+    if (item is Padding) {
+      if (item.child case final child?) yield* _searchableText(child);
+      return;
+    }
+
+    if (item is SegmentedButton<AppThemeMode>) {
+      final l10n = AppLocalizations.of(context)!;
+      yield l10n.settingsSectionAppearance;
+      for (final segment in item.segments) {
+        if (segment.label case final label?) yield* _searchableText(label);
+      }
+      return;
+    }
+
+    if (item is _ColorSchemePicker) {
+      final l10n = AppLocalizations.of(context)!;
+      yield l10n.settingsColorScheme;
+      yield l10n.settingsSectionAppearance;
+      yield 'color colour palette accent theme';
+    }
+  }
+
+  String _normalizeSearchText(String value) {
+    return value.toLowerCase().replaceAll(RegExp(r'[\s_\-/]+'), ' ').trim();
+  }
+
+  List<String> _searchTokens(String value) {
+    final normalized = _normalizeSearchText(value);
+    if (normalized.isEmpty) return const [];
+    return normalized.split(' ').where((token) => token.isNotEmpty).toList();
+  }
+
+  Iterable<String> _searchAlternatives(String token) sync* {
+    yield token;
+
+    const synonymGroups = [
+      {
+        'notification',
+        'notifications',
+        'notify',
+        'reminder',
+        'reminders',
+        'alert',
+        'alerts',
+        'push',
+      },
+      {'theme', 'appearance', 'display', 'dark', 'light'},
+      {'color', 'colour', 'palette', 'accent', 'scheme'},
+      {'pin', 'password', 'passcode', 'lock', 'security'},
+      {'journal', 'diary', 'notes'},
+      {'swipe', 'gesture', 'navigation', 'tabs'},
+      {'week', 'monday', 'calendar'},
+      {'frequency', 'schedule', 'timing', 'interval'},
+      {'language', 'locale', 'translation'},
+      {'about', 'info', 'information', 'version'},
+      {'update', 'updates', 'changelog', 'release', 'notes', 'new'},
+      {'bug', 'issue', 'problem', 'feedback', 'report'},
+      {'backup', 'export', 'import', 'restore', 'data'},
+      {'delete', 'remove', 'erase', 'clear', 'wipe'},
+      {'reset', 'restart', 'relapse'},
+    ];
+
+    for (final group in synonymGroups) {
+      if (!group.contains(token)) continue;
+      yield* group;
+    }
+  }
+
+  bool _fuzzyTokenMatches(String query, String candidate) {
+    if (query == candidate) return true;
+    if (query.length >= 3 && candidate.startsWith(query)) return true;
+    if (candidate.length >= 4 && query.startsWith(candidate)) return true;
+    if (query.length < 4 || candidate.length < 4) return false;
+
+    final maxDistance = query.length >= 8 ? 2 : 1;
+    if ((query.length - candidate.length).abs() > maxDistance) return false;
+    return _editDistance(query, candidate) <= maxDistance;
+  }
+
+  int _editDistance(String left, String right) {
+    var previous = List<int>.generate(right.length + 1, (index) => index);
+
+    for (var i = 0; i < left.length; i++) {
+      final current = <int>[i + 1];
+      for (var j = 0; j < right.length; j++) {
+        final substitutionCost = left.codeUnitAt(i) == right.codeUnitAt(j)
+            ? 0
+            : 1;
+        current.add(
+          [
+            current[j] + 1,
+            previous[j + 1] + 1,
+            previous[j] + substitutionCost,
+          ].reduce((a, b) => a < b ? a : b),
+        );
+      }
+      previous = current;
+    }
+
+    return previous.last;
   }
 
   Widget _sectionHeader(String title, BuildContext context) {
@@ -1044,6 +1158,11 @@ class _SettingsPageState extends State<SettingsPage> {
                 onPressed: () async {
                   final days = int.tryParse(everyCtrl.text);
                   if (days != null && days >= 0) {
+                    final notificationPreviewBody = l10n
+                        .settingsNotificationFrequencySubtitle(
+                          days,
+                          getTimeString(context, selectedAt),
+                        );
                     await settings.setNotificationSchedule(
                       days: days,
                       at: selectedAt,
@@ -1051,7 +1170,7 @@ class _SettingsPageState extends State<SettingsPage> {
                     if (days > 0) {
                       await testNotification(
                         title: l10n.notificationTestTitle,
-                        body: l10n.notificationTestBody(days),
+                        body: notificationPreviewBody,
                       );
                     }
                     if (context.mounted) Navigator.pop(context);

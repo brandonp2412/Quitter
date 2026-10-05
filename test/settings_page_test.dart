@@ -651,5 +651,40 @@ void main() {
       );
       expect(find.text('Import data'), findsOneWidget);
     });
+
+    testWidgets('settings search tolerates typos', (WidgetTester tester) async {
+      await tester.pumpWidget(createTestWidget());
+
+      await tester.enterText(find.byType(TextField).first, 'notifcations');
+      await tester.pump();
+
+      expect(find.text('Notification frequency'), findsOneWidget);
+      expect(find.text('Color scheme'), findsNothing);
+    });
+
+    testWidgets('settings search uses common synonyms', (
+      WidgetTester tester,
+    ) async {
+      await tester.pumpWidget(createTestWidget());
+
+      await tester.enterText(find.byType(TextField).first, 'backup');
+      await tester.pump();
+
+      expect(find.text('Export data'), findsOneWidget);
+      expect(find.text('Import data'), findsOneWidget);
+      expect(find.text('About'), findsNothing);
+    });
+
+    testWidgets('settings search includes custom controls', (
+      WidgetTester tester,
+    ) async {
+      await tester.pumpWidget(createTestWidget());
+
+      await tester.enterText(find.byType(TextField).first, 'colour');
+      await tester.pump();
+
+      expect(find.text('Color scheme'), findsOneWidget);
+      expect(find.text('Notification frequency'), findsNothing);
+    });
   });
 }

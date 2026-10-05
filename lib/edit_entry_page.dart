@@ -176,10 +176,7 @@ class _EditEntryPageState extends State<EditEntryPage> {
                       context,
                     )!.quitMilestonesQuitDate,
                     border: const OutlineInputBorder(),
-                    suffixIcon: IconButton(
-                      icon: const Icon(Icons.calendar_today),
-                      onPressed: _presentDatePicker,
-                    ),
+                    suffixIcon: const Icon(Icons.calendar_today),
                   ),
                   onTap: _presentDatePicker,
                 ),

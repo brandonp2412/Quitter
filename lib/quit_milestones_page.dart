@@ -66,11 +66,9 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
     var quitOn =
         widget.quitDateOverride ?? addictions.getAddiction(widget.storageKey);
 
-    setState(() {
-      final parsedQuitDate = quitOn == null ? null : DateTime.tryParse(quitOn);
-      if (parsedQuitDate != null) quitDate = parsedQuitDate;
-      started = widget.initialStarted;
-    });
+    final parsedQuitDate = quitOn == null ? null : DateTime.tryParse(quitOn);
+    if (parsedQuitDate != null) quitDate = parsedQuitDate;
+    started = widget.initialStarted;
 
     if (started) {
       final currentDayFromQuitOn = daysCeil(quitDate.toIso8601String());
@@ -97,6 +95,19 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
   @override
   void didChangeDependencies() {
     super.didChangeDependencies();
+    _updateQuitDate(quitDate);
+  }
+
+  @override
+  void didUpdateWidget(covariant QuitMilestonesPage oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    if (widget.quitDateOverride == oldWidget.quitDateOverride) return;
+
+    final updatedDate = DateTime.tryParse(widget.quitDateOverride ?? '');
+    if (updatedDate == null || updatedDate == quitDate) return;
+
+    quitDate = updatedDate;
+    started = widget.initialStarted;
     _updateQuitDate(quitDate);
   }
 
@@ -167,26 +178,29 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
   }
 
   void pickDate() async {
+    final now = DateTime.now();
+    final initialDate = quitDate.isAfter(now) ? now : quitDate;
     final date = await showDatePicker(
       context: context,
-      initialDate: quitDate,
+      initialDate: initialDate,
       firstDate: DateTime(0),
-      lastDate: DateTime.now(),
+      lastDate: now,
     );
     if (!mounted || date == null) return;
+
+    if (widget.onQuitDateChanged != null) {
+      await widget.onQuitDateChanged!(date);
+    } else {
+      final addictions = context.read<AddictionProvider>();
+      await addictions.setAddiction(widget.storageKey, date.toIso8601String());
+    }
+
+    if (!mounted) return;
     setState(() {
       quitDate = date;
       started = true;
     });
     _updateQuitDate(quitDate);
-
-    if (!mounted) return;
-    if (widget.onQuitDateChanged != null) {
-      await widget.onQuitDateChanged!(date);
-      return;
-    }
-    final addictions = context.read<AddictionProvider>();
-    await addictions.setAddiction(widget.storageKey, date.toIso8601String());
   }
 
   void _showClearMilestoneBottomSheet(QuitMilestone milestone) {
@@ -417,11 +431,10 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
                       decoration: InputDecoration(
                         labelText: l10n.quitMilestonesQuitDate,
                         border: const OutlineInputBorder(),
-                        suffixIcon: IconButton(
-                          icon: days > 7
-                              ? const Icon(Icons.calendar_month)
-                              : const Icon(Icons.calendar_today),
-                          onPressed: pickDate,
+                        suffixIcon: Icon(
+                          days > 7
+                              ? Icons.calendar_month
+                              : Icons.calendar_today,
                         ),
                       ),
                       onTap: pickDate,
