@@ -2220,11 +2220,12 @@ class AppLocalizationsFr extends AppLocalizations {
       'Une année entière de liberté ! Votre risque d\'AVC a fortement diminué et vos vaisseaux sanguins récupèrent remarquablement. Vous avez offert à votre cerveau une meilleure circulation et davantage de protection.';
 
   @override
-  String get smokingMilestone1825Title => 'Le risque de cancer chute (5 ans)';
+  String get smokingMilestone1825Title =>
+      'Certains risques de cancer chutent (5–10 ans)';
 
   @override
   String get smokingMilestone1825Description =>
-      'Cinq ans de victoire ! Votre risque de cancers de la bouche, de la gorge, de l\'œsophage et de la vessie a diminué de moitié. Le risque de cancer du poumon a lui aussi nettement baissé. Vos cellules ont eu le temps de se réparer et de se régénérer.';
+      'Cinq ans de victoire ! Vous entrez dans la fenêtre des 5–10 ans où le sur-risque de cancers de la bouche, de la gorge et du larynx diminue de moitié, tandis que le risque d’AVC continue de baisser. Les bénéfices à long terme passent à la vitesse supérieure.';
 
   @override
   String get vapingMilestone1Title =>
@@ -3597,7 +3598,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get smokingReferenceDay1825 =>
-      'Cinq ans : le risque de cancer diminue\n\nSource : CDC, Benefits of Quitting Smoking\n\nÀ cinq ans, certains des bénéfices les plus importants concernant le cancer apparaissent.\n\nJalons entre cinq et dix ans\n• le sur-risque de cancers de la bouche, de la gorge et du larynx est divisé par deux\n• le risque d\'AVC diminue\n\nCe qui vient encore\n• dix ans : le risque de mourir d\'un cancer du poumon est environ divisé par deux après dix à quinze ans ; les risques de cancers de la vessie, de l\'œsophage et du rein diminuent\n• quinze ans : le risque de maladie coronarienne se rapproche de celui d\'une personne non-fumeuse\n• vingt ans : le risque de cancers de la bouche, de la gorge et du larynx se rapproche de celui d\'une personne non-fumeuse ; le sur-risque de cancer du col de l\'utérus est environ divisé par deux\n\nCinq années sans fumer constituent un véritable accomplissement : vous êtes désormais dans la période où certaines des réductions les plus importantes du risque de cancer se manifestent, même si plusieurs bénéfices — comme la normalisation complète du risque de maladie coronarienne — demandent encore des années.';
+      'Cinq ans : les grandes victoires contre le risque de cancer commencent\n\nSource : CDC, Benefits of Quitting Smoking\n\nCinq ans vous placent au tout début d’une grande fenêtre de réduction des risques.\n\nJalons entre 5 et 10 ans\n• Sur-risque de cancers de la bouche, de la gorge et du larynx : diminué de moitié\n• Risque d’AVC : diminue\n\nEncore à venir\n• Vers 10 ans : le risque de cancers de la vessie, de l’œsophage et du rein diminue\n• 10–15 ans : le sur-risque de cancer du poumon diminue de moitié\n• 15 ans : le risque de maladie coronarienne se rapproche de celui d’une personne qui ne fume pas\n• 20 ans : le risque de cancers de la bouche, de la gorge et du larynx se rapproche de celui d’une personne qui ne fume pas ; le sur-risque de cancer du col de l’utérus diminue d’environ moitié\n\nCinq ans sans fumer, c’est un cap énorme — vous avez atteint la fenêtre où d’importantes baisses des risques de cancer et d’AVC commencent à s’installer, avec encore de grandes victoires devant vous.';
 
   @override
   String get snriReferenceDay3 =>

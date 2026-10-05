@@ -2187,11 +2187,12 @@ class AppLocalizationsDe extends AppLocalizations {
       'Ein volles Jahr Freiheit! Ihr Schlaganfallrisiko ist erheblich gesunken und Ihre Blutgefäße heilen wunderschön. Sie haben Ihrem Gehirn offiziell die Gabe einer besseren Zirkulation und eines besseren Schutzes gegeben.';
 
   @override
-  String get smokingMilestone1825Title => 'Krebsrisiko sinkt (5 Jahre)';
+  String get smokingMilestone1825Title =>
+      'Einige Krebsrisiken stürzen ab (5–10 Jahre)';
 
   @override
   String get smokingMilestone1825Description =>
-      'Fünf Jahre Sieg! Ihr Risiko für Mund-, Rachen-, Speiseröhren- und Blasenkrebs ist um die Hälfte gesunken. Auch das Lungenkrebsrisiko ist deutlich gesunken. Ihre Zellen hatten Zeit zu reparieren und zu regenerieren.';
+      'Fünf Jahre Sieg! Sie treten jetzt in das 5-bis-10-Jahres-Fenster ein, in dem das zusätzliche Risiko für Mund-, Rachen- und Kehlkopfkrebs um die Hälfte sinkt, während das Schlaganfallrisiko weiter abnimmt. Die Langzeitgewinne legen jetzt richtig los.';
 
   @override
   String get vapingMilestone1Title => 'Nikotin Cravings Peak';
@@ -3542,7 +3543,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get smokingReferenceDay1825 =>
-      'Fünf Jahre: Krebsrisiko fällt\n\nQuelle: CDC, Vorteile der Raucherentwöhnung\n\nNach fünf Jahren kommen einige der dramatischsten Krebsvorteile.\n\nMeilensteine von fünf bis zehn Jahren\n• Zusätzliches Risiko für Krebserkrankungen von Mund, Rachen und Voicebox: halbiert\n• Schlaganfallrisiko: abnehmend\n\nNoch weiter vorne\n• Zehn Jahre: Lungenkrebs-Todesrisiko etwa halbiert (nach 10-15 Jahren); Risiko von Blase, Speiseröhre und Nierenkrebs abnehmen\n• Fünfzehn Jahre: koronare Herzkrankheit Risiko in der Nähe von dem eines Nichtrauchers\n• Zwanzig Jahre: Mund-, Hals- und Voicebox-Krebsrisiko nahe dem Nichtraucherniveau; zusätzliches Gebärmutterhalskrebsrisiko etwa halbiert\n\nFünf Jahre Nichtrauchen ist eine echte Leistung - Sie befinden sich jetzt in dem Fenster, in dem einige der wichtigsten Krebsrisikoreduktionen greifen, obwohl mehrere Vorteile (wie das Risiko koronarer Herzerkrankungen, das sich vollständig normalisiert) noch Jahre entfernt sind.';
+      'Fünf Jahre: Große Gewinne beim Krebsrisiko beginnen\n\nQuelle: CDC, Benefits of Quitting Smoking\n\nFünf Jahre bringen Sie an den Anfang eines wichtigen Fensters der Risikosenkung.\n\nMeilensteine nach 5–10 Jahren\n• Zusätzliches Risiko für Mund-, Rachen- und Kehlkopfkrebs: sinkt um die Hälfte\n• Schlaganfallrisiko: sinkt\n\nNoch vor Ihnen\n• Um 10 Jahre: Risiko für Blasen-, Speiseröhren- und Nierenkrebs sinkt\n• 10–15 Jahre: zusätzliches Lungenkrebsrisiko sinkt um die Hälfte\n• 15 Jahre: Risiko für koronare Herzkrankheit nähert sich dem von Menschen, die nicht rauchen\n• 20 Jahre: Risiko für Mund-, Rachen- und Kehlkopfkrebs nähert sich dem von Menschen, die nicht rauchen; zusätzliches Gebärmutterhalskrebsrisiko sinkt um etwa die Hälfte\n\nFünf rauchfreie Jahre sind ein riesiger Meilenstein — Sie haben das Fenster erreicht, in dem große Rückgänge bei Krebs- und Schlaganfallrisiken einsetzen, und weitere große Gewinne liegen noch vor Ihnen.';
 
   @override
   String get snriReferenceDay3 =>

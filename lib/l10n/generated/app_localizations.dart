@@ -3795,13 +3795,13 @@ abstract class AppLocalizations {
   /// Smoking milestone day 1825 title
   ///
   /// In en, this message translates to:
-  /// **'Cancer Risk Plummets (5 Years)'**
+  /// **'Some Cancer Risks Plummet (5–10 Years)'**
   String get smokingMilestone1825Title;
 
   /// Smoking milestone day 1825 description
   ///
   /// In en, this message translates to:
-  /// **'Five years of victory! Your risk of mouth, throat, esophagus, and bladder cancers has dropped by half. Lung cancer risk has decreased significantly too. Your cells have had time to repair and regenerate.'**
+  /// **'Five years of victory! You’re entering the 5–10 year window where the added risk of mouth, throat, and voice-box cancers drops by half, while stroke risk keeps falling. The long-game benefits are kicking in hard.'**
   String get smokingMilestone1825Description;
 
   /// Vaping milestone day 1 title
@@ -5973,7 +5973,7 @@ abstract class AppLocalizations {
   /// No description provided for @smokingReferenceDay1825.
   ///
   /// In en, this message translates to:
-  /// **'Five Years: Cancer Risk Falls\n\nSource: CDC, Benefits of Quitting Smoking\n\nAt five years, some of the most dramatic cancer benefits arrive.\n\nFive-to-ten-year milestones\n• Added risk of cancers of the mouth, throat, and voice box: halved\n• Stroke risk: decreasing\n\nStill ahead\n• Ten years: lung cancer death risk roughly halved (after 10–15 years); risk of bladder, oesophagus, and kidney cancers decreasing\n• Fifteen years: coronary heart disease risk close to that of a non-smoker\n• Twenty years: mouth, throat, and voice box cancer risk close to non-smoker levels; added cervical cancer risk about halved\n\nFive years of not smoking is a genuine achievement — you\'re now inside the window where some of the most significant cancer-risk reductions take hold, even though several benefits (like coronary heart disease risk fully normalising) are still years away.'**
+  /// **'Five Years: Big Cancer-Risk Wins Begin\n\nSource: CDC, Benefits of Quitting Smoking\n\nFive years puts you at the front edge of a major risk-reduction window.\n\nFive-to-ten-year milestones\n• Added risk of cancers of the mouth, throat, and voice box: drops by half\n• Stroke risk: decreases\n\nStill ahead\n• Around 10 years: risk of bladder, esophagus, and kidney cancers decreases\n• 10–15 years: added lung-cancer risk drops by half\n• 15 years: coronary heart disease risk falls close to that of someone who does not smoke\n• 20 years: mouth, throat, and voice-box cancer risk falls close to that of someone who does not smoke; added cervical-cancer risk drops by about half\n\nFive years smoke-free is a huge milestone — you’ve reached the window where major cancer and stroke-risk reductions are taking hold, with more big wins still ahead.'**
   String get smokingReferenceDay1825;
 
   /// No description provided for @snriReferenceDay3.

@@ -191,17 +191,18 @@ class SmokingPage extends StatelessWidget {
         referenceDate: "July 2026",
         localizedReferenceContent: l10n.smokingReferenceDay1825,
         referenceContent:
-            "Five Years: Cancer Risk Falls\n\n"
+            "Five Years: Big Cancer-Risk Wins Begin\n\n"
             "Source: CDC, Benefits of Quitting Smoking\n\n"
-            "At five years, some of the most dramatic cancer benefits arrive.\n\n"
+            "Five years puts you at the front edge of a major risk-reduction window.\n\n"
             "Five-to-ten-year milestones\n"
-            "• Added risk of cancers of the mouth, throat, and voice box: halved\n"
-            "• Stroke risk: decreasing\n\n"
+            "• Added risk of cancers of the mouth, throat, and voice box: drops by half\n"
+            "• Stroke risk: decreases\n\n"
             "Still ahead\n"
-            "• Ten years: lung cancer death risk roughly halved (after 10–15 years); risk of bladder, oesophagus, and kidney cancers decreasing\n"
-            "• Fifteen years: coronary heart disease risk close to that of a non-smoker\n"
-            "• Twenty years: mouth, throat, and voice box cancer risk close to non-smoker levels; added cervical cancer risk about halved\n\n"
-            "Five years of not smoking is a genuine achievement — you're now inside the window where some of the most significant cancer-risk reductions take hold, even though several benefits (like coronary heart disease risk fully normalising) are still years away.",
+            "• Around 10 years: risk of bladder, esophagus, and kidney cancers decreases\n"
+            "• 10–15 years: added lung-cancer risk drops by half\n"
+            "• 15 years: coronary heart disease risk falls close to that of someone who does not smoke\n"
+            "• 20 years: mouth, throat, and voice-box cancer risk falls close to that of someone who does not smoke; added cervical-cancer risk drops by about half\n\n"
+            "Five years smoke-free is a huge milestone — you've reached the window where major cancer and stroke-risk reductions are taking hold, with more big wins still ahead.",
       ),
     ];
   }

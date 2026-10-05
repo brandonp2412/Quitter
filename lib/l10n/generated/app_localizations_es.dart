@@ -2192,11 +2192,11 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get smokingMilestone1825Title =>
-      'El riesgo de cáncer cae en picado (5 años)';
+      'Algunos riesgos de cáncer caen en picado (5–10 años)';
 
   @override
   String get smokingMilestone1825Description =>
-      '¡Cinco años de victoria! El riesgo de cáncer de boca, garganta, esófago y vejiga se ha reducido a la mitad. El riesgo de cáncer de pulmón también ha disminuido de forma importante. Tus células han tenido tiempo para repararse y regenerarse.';
+      '¡Cinco años de victoria! Entras en la ventana de 5–10 años en la que el riesgo añadido de cáncer de boca, garganta y laringe se reduce a la mitad, mientras el riesgo de ictus sigue bajando. Los beneficios a largo plazo ya están pegando fuerte.';
 
   @override
   String get vapingMilestone1Title => 'Los deseos de nicotina alcanzan su pico';
@@ -3566,7 +3566,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get smokingReferenceDay1825 =>
-      'Cinco años: disminuye el riesgo de cáncer\n\nFuente: CDC, Benefits of Quitting Smoking\n\nA los cinco años llegan algunos de los beneficios más importantes frente al cáncer.\n\nHitos entre cinco y diez años\n• El exceso de riesgo de cáncer de boca, garganta y laringe se reduce aproximadamente a la mitad\n• El riesgo de ictus sigue disminuyendo\n\nLo que aún queda por delante\n• Diez años: el riesgo de morir por cáncer de pulmón se reduce aproximadamente a la mitad tras 10–15 años; también disminuye el riesgo de cáncer de vejiga, esófago y riñón\n• Quince años: el riesgo de cardiopatía coronaria se aproxima al de una persona no fumadora\n• Veinte años: el riesgo de cáncer de boca, garganta y laringe se aproxima al de una persona no fumadora; el exceso de riesgo de cáncer de cuello uterino se reduce aproximadamente a la mitad\n\nCinco años sin fumar es un hito real. Ya estás dentro de la ventana en la que algunas de las reducciones más importantes del riesgo de cáncer se hacen evidentes, aunque varios beneficios, como la normalización completa del riesgo de cardiopatía coronaria, todavía tardan más años.';
+      'Cinco años: empiezan grandes victorias contra el riesgo de cáncer\n\nFuente: CDC, Benefits of Quitting Smoking\n\nCinco años te colocan en el borde inicial de una gran ventana de reducción del riesgo.\n\nHitos de 5–10 años\n• Riesgo añadido de cáncer de boca, garganta y laringe: se reduce a la mitad\n• Riesgo de ictus: disminuye\n\nTodavía por delante\n• Alrededor de 10 años: disminuye el riesgo de cáncer de vejiga, esófago y riñón\n• 10–15 años: el riesgo añadido de cáncer de pulmón se reduce a la mitad\n• 15 años: el riesgo de cardiopatía coronaria se acerca al de una persona que no fuma\n• 20 años: el riesgo de cáncer de boca, garganta y laringe se acerca al de una persona que no fuma; el riesgo añadido de cáncer de cuello uterino baja aproximadamente a la mitad\n\nCinco años sin fumar son un hito enorme: has llegado a la ventana en la que empiezan a consolidarse grandes reducciones del riesgo de cáncer e ictus, y aún quedan grandes victorias por delante.';
 
   @override
   String get snriReferenceDay3 =>

@@ -2193,11 +2193,12 @@ class AppLocalizationsPt extends AppLocalizations {
       'Um ano inteiro de liberdade! O risco de acidente vascular cerebral diminuiu substancialmente e os vasos sanguíneos estão cicatrizando perfeitamente. Deu oficialmente ao seu cérebro o presente de melhor circulação e proteção.';
 
   @override
-  String get smokingMilestone1825Title => 'Risco de câncer cai (5 anos)';
+  String get smokingMilestone1825Title =>
+      'O risco de alguns cancros cai a pique (5–10 anos)';
 
   @override
   String get smokingMilestone1825Description =>
-      'Cinco anos de vitória! O risco de câncer de boca, garganta, esôfago e bexiga caiu pela metade. O risco de câncer de pulmão também diminuiu significativamente. Suas células tiveram tempo para se reparar e se regenerar.';
+      'Cinco anos de vitória! Está a entrar na janela dos 5–10 anos em que o risco adicional de cancros da boca, garganta e laringe cai para metade, enquanto o risco de AVC continua a descer. Os benefícios a longo prazo estão agora a ganhar força.';
 
   @override
   String get vapingMilestone1Title => 'Pico do desejo por nicotina';
@@ -3561,7 +3562,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get smokingReferenceDay1825 =>
-      'Cinco anos: queda no risco de câncer\n\nFonte: CDC, Benefícios de parar de fumar\n\nAos cinco anos, chegam alguns dos benefícios mais dramáticos do câncer.\n\nMarcos de cinco a dez anos\n• Risco adicional de câncer de boca, garganta e caixa vocal: reduzido pela metade\n• Risco de acidente vascular cerebral: diminuindo\n\nAinda à frente\n• Dez anos: risco de morte por cancro do pulmão reduzido aproximadamente para metade (após 10-15 anos); risco de câncer de bexiga, esôfago e rim diminuindo\n• Quinze anos: risco de doença coronariana próximo ao de um não fumante\n• Vinte anos: risco de cancro da boca, garganta e caixa vocal próximo dos níveis dos não fumadores; risco adicional de câncer cervical caiu pela metade\n\nCinco anos sem fumar é uma conquista genuína – agora está dentro da janela onde algumas das reduções mais significativas do risco de câncer acontecem, embora vários benefícios (como a normalização total do risco de doença coronariana) ainda estejam a anos de distância.';
+      'Cinco anos: começam grandes vitórias contra o risco de cancro\n\nFonte: CDC, Benefits of Quitting Smoking\n\nCinco anos colocam-no no início de uma importante janela de redução do risco.\n\nMarcos dos 5–10 anos\n• Risco adicional de cancros da boca, garganta e laringe: cai para metade\n• Risco de AVC: diminui\n\nAinda pela frente\n• Por volta dos 10 anos: diminui o risco de cancro da bexiga, esófago e rim\n• 10–15 anos: o risco adicional de cancro do pulmão cai para metade\n• 15 anos: o risco de doença coronária aproxima-se do de uma pessoa que não fuma\n• 20 anos: o risco de cancros da boca, garganta e laringe aproxima-se do de uma pessoa que não fuma; o risco adicional de cancro do colo do útero cai cerca de metade\n\nCinco anos sem fumar são um marco enorme — chegou à janela em que grandes reduções do risco de cancro e AVC começam a ganhar força, com mais grandes vitórias ainda pela frente.';
 
   @override
   String get snriReferenceDay3 =>

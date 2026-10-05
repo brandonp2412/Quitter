@@ -2194,11 +2194,12 @@ class AppLocalizationsPl extends AppLocalizations {
       'Jeden pełny rok wolności! Twoje ryzyko udaru zmniejszył się znacznie, a naczynia krwionośne są goją się pięknie.';
 
   @override
-  String get smokingMilestone1825Title => 'Wtyczki ryzyka raka 5 lat)';
+  String get smokingMilestone1825Title =>
+      'Ryzyko części nowotworów gwałtownie spada (5–10 lat)';
 
   @override
   String get smokingMilestone1825Description =>
-      'Pięć lat zwycięstw! Twoje ryzyko raka jamy ustnej, gardła, przełyku, i pęcherza moczowego spadła o połowę. Lung ryzyko raka zmniejszył się znacznie zbyt. Twoje komórki miały czas na naprawę i regenerację.';
+      'Pięć lat zwycięstwa! Wchodzisz w okres 5–10 lat, w którym dodatkowe ryzyko nowotworów jamy ustnej, gardła i krtani spada o połowę, a ryzyko udaru nadal maleje. Długoterminowe korzyści właśnie nabierają rozpędu.';
 
   @override
   String get vapingMilestone1Title => 'Szczyt apetytu nikotyny';
@@ -3553,7 +3554,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get smokingReferenceDay1825 =>
-      'Pięć lat: Rak ryzyka Falls\n\nŹródło: CDC, Benefits of Quitting Smoking\n\nPo pięciu latach, niektóre z najbardziej dramatycznych korzyści z raka przybywają.\n\nPięcioletnie etapy\n• Dodano ryzyko raka jamy ustnej, gardła i głosu: o połowę mniej\n• Ryzyko udaru: maleje\n\nWciąż przed nami.\n• Dziesięć lat: ryzyko zgonu z powodu raka płuc zmniejszyło się o około połowę po 10 latach; ryzyko wystąpienia bladderu, przełyku i zmniejszenia się raka nerek\n• Piętnaście lat: ryzyko choroby wieńcowej w pobliżu osoby niepalącej\n• Dwadzieścia lat: ryzyko raka jamy ustnej, gardła i krtani głosowej w pobliżu poziomu niepalącego; dodatkowe ryzyko raka szyjki macicy o połowę zmniejszone\n\nPięć lat niepalenia jest prawdziwym osiągnięciem, które jest teraz w oknie, gdzie niektóre z najważniejszych redukcji ryzyka raka trzymać, nawet jeśli kilka korzyści, takich jak ryzyko choroby wieńcowej serca w pełni normalizujące ) są nadal lata daleko.';
+      'Pięć lat: zaczynają się wielkie korzyści dotyczące ryzyka nowotworów\n\nŹródło: CDC, Benefits of Quitting Smoking\n\nPięć lat oznacza wejście w ważny okres wyraźnego spadku ryzyka.\n\nKamienie milowe 5–10 lat\n• Dodatkowe ryzyko nowotworów jamy ustnej, gardła i krtani: spada o połowę\n• Ryzyko udaru: maleje\n\nJeszcze przed Tobą\n• Około 10 lat: maleje ryzyko raka pęcherza, przełyku i nerki\n• 10–15 lat: dodatkowe ryzyko raka płuca spada o połowę\n• 15 lat: ryzyko choroby wieńcowej zbliża się do poziomu osoby niepalącej\n• 20 lat: ryzyko nowotworów jamy ustnej, gardła i krtani zbliża się do poziomu osoby niepalącej; dodatkowe ryzyko raka szyjki macicy spada mniej więcej o połowę\n\nPięć lat bez palenia to ogromny kamień milowy — docierasz do okresu, w którym zaczynają się duże spadki ryzyka nowotworów i udaru, a kolejne wielkie korzyści są jeszcze przed Tobą.';
 
   @override
   String get snriReferenceDay3 =>

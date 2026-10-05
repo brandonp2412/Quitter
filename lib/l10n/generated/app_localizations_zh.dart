@@ -2033,11 +2033,11 @@ class AppLocalizationsZh extends AppLocalizations {
       '戒烟整整一年！中风风险已大幅降低，血管也在持续修复。更好的脑部血液循环正在进一步保护大脑。';
 
   @override
-  String get smokingMilestone1825Title => '癌症风险骤降（5年）';
+  String get smokingMilestone1825Title => '部分癌症风险大幅下降（5–10年）';
 
   @override
   String get smokingMilestone1825Description =>
-      '五年的胜利！您患口腔癌、喉癌、食道癌和膀胱癌的风险降低了一半。肺癌风险也显著降低。您的细胞有时间进行修复和再生。';
+      '戒烟五年，大胜一场！您正进入5–10年的关键窗口：口腔、咽喉和喉头癌的额外风险会减半，中风风险也继续下降。长期收益正在强势兑现。';
 
   @override
   String get vapingMilestone1Title => '尼古丁渴望达到顶峰';
@@ -3350,7 +3350,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get smokingReferenceDay1825 =>
-      '五年：癌症风险下降\n\n来源：CDC，Benefits of Quitting Smoking\n\n到五年时，一些最显著的癌症益处到来了。\n\n五到十年的里程碑\n• 口腔、咽喉和声带癌的额外风险：减半\n• 中风风险：正在下降\n\n仍在前面\n• 十年：肺癌死亡风险大约减半（在10–15年后）；膀胱癌、食道癌和肾癌风险正在下降\n• 十五年：冠心病风险接近非吸烟者\n• 二十年：口腔、咽喉和声带癌风险接近非吸烟者水平；额外的宫颈癌风险大约减半\n\n五年不吸烟是一项真正的成就——你现在正处于一些最显著的癌症风险降低开始生效的窗口之内，尽管若干益处（如冠心病风险的完全正常化）仍在数年之外。';
+      '五年：降低癌症风险的重大胜利开始了\n\n来源：CDC，Benefits of Quitting Smoking\n\n五年让您来到一个重要风险下降窗口的起点。\n\n5–10年里程碑\n• 口腔、咽喉和喉头癌的额外风险：减半\n• 中风风险：下降\n\n还在前方\n• 约10年：膀胱癌、食道癌和肾癌风险下降\n• 10–15年：肺癌额外风险减半\n• 15年：冠心病风险接近不吸烟者\n• 20年：口腔、咽喉和喉头癌风险接近不吸烟者；宫颈癌额外风险约减半\n\n戒烟五年是个巨大的里程碑——您已经进入癌症和中风风险显著下降的阶段，而且后面还有更多大胜利。';
 
   @override
   String get snriReferenceDay3 =>
@@ -5548,11 +5548,11 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
       '戒煙整整一年！中風風險已大幅降低，血管也在持續修復。更好的腦部血液循環正在進一步保護大腦。';
 
   @override
-  String get smokingMilestone1825Title => '癌症風險驟降（5年）';
+  String get smokingMilestone1825Title => '部分癌症風險大幅下降（5–10年）';
 
   @override
   String get smokingMilestone1825Description =>
-      '五年的勝利！您患口腔癌、喉癌、食道癌和膀胱癌的風險降低了一半。肺癌風險也顯著降低。您的細胞有時間進行修復和再生。';
+      '戒菸五年，大勝一場！您正進入5–10年的關鍵窗口：口腔、咽喉和喉頭癌的額外風險會減半，中風風險也持續下降。長期收益正在強勢兌現。';
 
   @override
   String get vapingMilestone1Title => '尼古丁渴望達到頂峰';
@@ -6865,7 +6865,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get smokingReferenceDay1825 =>
-      '五年：癌症風險下降\n\n來源：CDC，Benefits of Quitting Smoking\n\n到五年時，一些最顯著的癌症益處到來了。\n\n五到十年的里程碑\n• 口腔、咽喉和聲帶癌的額外風險：減半\n• 中風風險：正在下降\n\n仍在前面\n• 十年：肺癌死亡風險大約減半（在10–15年後）；膀胱癌、食道癌和腎癌風險正在下降\n• 十五年：冠心病風險接近非吸煙者\n• 二十年：口腔、咽喉和聲帶癌風險接近非吸煙者水平；額外的宮頸癌風險大約減半\n\n五年不吸煙是一項真正的成就——你現在正處於一些最顯著的癌症風險降低開始生效的窗口之內，儘管若干益處（如冠心病風險的完全正常化）仍在數年之外。';
+      '五年：降低癌症風險的重大勝利開始了\n\n來源：CDC，Benefits of Quitting Smoking\n\n五年讓您來到一個重要風險下降窗口的起點。\n\n5–10年里程碑\n• 口腔、咽喉和喉頭癌的額外風險：減半\n• 中風風險：下降\n\n還在前方\n• 約10年：膀胱癌、食道癌和腎癌風險下降\n• 10–15年：肺癌額外風險減半\n• 15年：冠心病風險接近不吸菸者\n• 20年：口腔、咽喉和喉頭癌風險接近不吸菸者；子宮頸癌額外風險約減半\n\n戒菸五年是個巨大的里程碑——您已經進入癌症和中風風險顯著下降的階段，而且後面還有更多大勝利。';
 
   @override
   String get snriReferenceDay3 =>

@@ -2181,11 +2181,12 @@ class AppLocalizationsId extends AppLocalizations {
       'Satu tahun penuh kebebasan! Risiko stroke Anda telah menurun secara signifikan, dan pembuluh darah Anda pulih dengan baik. Anda secara resmi telah memberikan otak Anda hadiah sirkulasi dan perlindungan yang lebih baik.';
 
   @override
-  String get smokingMilestone1825Title => 'Risiko Kanker Menurun (5 Tahun)';
+  String get smokingMilestone1825Title =>
+      'Risiko Beberapa Kanker Anjlok (5–10 Tahun)';
 
   @override
   String get smokingMilestone1825Description =>
-      'Lima tahun kemenangan! Risiko Anda terkena kanker mulut, tenggorokan, kerongkongan, dan kandung kemih telah turun setengahnya. Risiko kanker paru-paru juga menurun secara signifikan. Sel Anda punya waktu untuk memperbaiki dan beregenerasi.';
+      'Lima tahun kemenangan! Anda memasuki jendela 5–10 tahun ketika risiko tambahan kanker mulut, tenggorokan, dan laring turun setengah, sementara risiko stroke terus menurun. Manfaat jangka panjang kini benar-benar mulai terasa.';
 
   @override
   String get vapingMilestone1Title => 'Puncak Mengidam Nikotin';
@@ -3530,7 +3531,7 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get smokingReferenceDay1825 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Lima Tahun: Kemenangan Besar atas Risiko Kanker Dimulai\n\nSumber: CDC, Benefits of Quitting Smoking\n\nLima tahun menempatkan Anda di awal jendela besar penurunan risiko.\n\nTonggak 5–10 tahun\n• Risiko tambahan kanker mulut, tenggorokan, dan laring: turun setengah\n• Risiko stroke: menurun\n\nMasih di depan\n• Sekitar 10 tahun: risiko kanker kandung kemih, kerongkongan, dan ginjal menurun\n• 10–15 tahun: risiko tambahan kanker paru-paru turun setengah\n• 15 tahun: risiko penyakit jantung koroner mendekati orang yang tidak merokok\n• 20 tahun: risiko kanker mulut, tenggorokan, dan laring mendekati orang yang tidak merokok; risiko tambahan kanker serviks turun sekitar setengah\n\nLima tahun bebas rokok adalah tonggak besar — Anda sudah mencapai jendela ketika penurunan besar risiko kanker dan stroke mulai terbentuk, dengan kemenangan besar lain masih menunggu.';
 
   @override
   String get snriReferenceDay3 =>
