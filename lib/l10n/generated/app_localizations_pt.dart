@@ -2833,11 +2833,11 @@ class AppLocalizationsPt extends AppLocalizations {
       'Entre pessoas que interromperam antidepressivos após tratamento para depressão major, uma meta-análise de 35 ensaios encontrou uma taxa agrupada de recaída de 34,8% aos seis meses — cerca de 65% manteve-se sem recaída. É um enorme período de estabilidade.';
 
   @override
-  String get tcaMilestone365Title => 'Um ano: Recuperação alcançada';
+  String get tcaMilestone365Title => 'Um Ano: A Maioria Manteve-se Sem Recaída';
 
   @override
   String get tcaMilestone365Description =>
-      'Um ano dá a cada sistema afetado por TCAs um ano inteiro para se recuperar. Os sistemas de acetilcolina, noradrenalina, serotonina e histamina se estabilizaram e a memória, o pensamento claro e o controle da frequência cardíaca foram substancialmente recuperados.';
+      'Entre pessoas que interromperam antidepressivos após tratamento para depressão major, uma meta-análise de 35 ensaios encontrou uma taxa agrupada de recaída de 45,12% aos 12 meses — cerca de 55% mantiveram-se sem recaída durante um ano inteiro. É um grande marco de estabilidade a longo prazo.';
 
   @override
   String get settingsShowTcaTracking => 'Mostrar acompanhamento de TCA';
@@ -3653,7 +3653,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get tcaReferenceDay365 =>
-      'Um ano após TCAs: Recuperação alcançada\n\nUm ano: recuperação completa de vários sistemas\nEsta revisão das síndromes de descontinuação de antidepressivos – abrangendo ADTs, IMAOs, ISRSs e outros – descobriu que os sintomas de abstinência geralmente começam alguns dias após a interrupção e, se não forem tratados, desaparecem por conta própria dentro de alguns dias a algumas semanas. Não há nenhum estudo que meça especificamente os sistemas afetados pelo TCA um ano depois, mas um ano após a conclusão da redução gradual é muitos meses além dos sintomas de descontinuação mais longos relatados, portanto, todos os sistemas químicos cerebrais afetados – serotonina, noradrenalina, acetilcolina e histamina – podem ter tido um ciclo completo para normalizar.\n\nO significado da recuperação do TCA\nOs ADTs impõem uma carga mais ampla causada pelos medicamentos do que os antidepressivos mais recentes, afetando mais sistemas receptores simultaneamente. A descontinuação bem-sucedida representa a recuperação de vários sistemas:\n• Reversão completa do comprometimento da memória e do pensamento causado pelo bloqueio da acetilcolina pelos ADTs\n• Recuperação completa do coração\n• Regulação química natural do cérebro restaurada em todas as vias afetadas\n\nUm ano de auto-regulação bem sucedida após a descontinuação do ADT representa uma conquista genuína – tanto na gestão do processo de descontinuação como na manutenção do bem-estar sem apoio impulsionado pelos medicamentos.';
+      'Um Ano Após Interromper Antidepressivos: A Maioria Manteve-se Sem Recaída\n\nMarco dos Doze Meses\nUma meta-análise de 2024 reuniu 35 ensaios aleatorizados de interrupção de antidepressivos em pessoas tratadas por perturbação depressiva major. A taxa agrupada de recaída após a interrupção foi de 45,12% aos 12 meses — equivalente a cerca de 55% sem recaída no marco de um ano.\n\nUm Ano Inteiro de Estabilidade\nA mesma análise encontrou uma taxa de recaída de 34,81% aos seis meses. Aos 12 meses, a maioria dos participantes nos ensaios agrupados continuava sem recaída. Um ano inteiro sem recaída é um grande marco de estabilidade a longo prazo.\n\nProtege o Progresso\nSe os sintomas depressivos começarem a voltar, contacta cedo o teu profissional de saúde. Chegar a um ano inteiro é uma conquista importante que vale a pena proteger.';
 
   @override
   String get settingsLocaleArabic => 'Árabe';
@@ -6524,11 +6524,11 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
       'Entre pessoas que interromperam antidepressivos após tratamento para depressão maior, uma meta-análise de 35 ensaios encontrou uma taxa combinada de recaída de 34,8% aos seis meses — cerca de 65% permaneceu sem recaída. É um enorme período de estabilidade.';
 
   @override
-  String get tcaMilestone365Title => 'Um ano: Recuperação alcançada';
+  String get tcaMilestone365Title => 'Um Ano: A Maioria Permaneceu Sem Recaída';
 
   @override
   String get tcaMilestone365Description =>
-      'Um ano dá a cada sistema afetado por TCAs um ano inteiro para se recuperar. Os sistemas de acetilcolina, noradrenalina, serotonina e histamina se estabilizaram e a memória, o pensamento claro e o controle da frequência cardíaca foram substancialmente recuperados.';
+      'Entre pessoas que interromperam antidepressivos após tratamento para depressão maior, uma meta-análise de 35 ensaios encontrou uma taxa combinada de recaída de 45,12% aos 12 meses — cerca de 55% permaneceram sem recaída durante um ano inteiro. É um grande marco de estabilidade a longo prazo.';
 
   @override
   String get settingsShowTcaTracking => 'Mostrar rastreamento de TCA';
@@ -7344,7 +7344,7 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get tcaReferenceDay365 =>
-      'Um ano após TCAs: Recuperação alcançada\n\nUm ano: recuperação completa de vários sistemas\nEsta revisão das síndromes de descontinuação de antidepressivos – abrangendo ADTs, IMAOs, ISRSs e outros – descobriu que os sintomas de abstinência geralmente começam alguns dias após a interrupção e, se não forem tratados, desaparecem por conta própria dentro de alguns dias a algumas semanas. Não há nenhum estudo que meça especificamente os sistemas afetados pelo TCA um ano depois, mas um ano após a conclusão da redução gradual é muitos meses além dos sintomas de descontinuação mais longos relatados, portanto, todos os sistemas químicos cerebrais afetados – serotonina, noradrenalina, acetilcolina e histamina – podem ter tido um ciclo completo para normalizar.\n\nO significado da recuperação do TCA\nOs ADTs impõem uma carga mais ampla causada pelos medicamentos do que os antidepressivos mais recentes, afetando mais sistemas receptores simultaneamente. A descontinuação bem-sucedida representa a recuperação de vários sistemas:\n• Reversão completa do comprometimento da memória e do pensamento causado pelo bloqueio da acetilcolina pelos ADTs\n• Recuperação completa do coração\n• Regulação química natural do cérebro restaurada em todas as vias afetadas\n\nUm ano de auto-regulação bem sucedida após a descontinuação do ADT representa uma conquista genuína – tanto na gestão do processo de descontinuação como na manutenção do bem-estar sem apoio impulsionado pelos medicamentos.';
+      'Um Ano Após Interromper Antidepressivos: A Maioria Permaneceu Sem Recaída\n\nMarco dos Doze Meses\nUma meta-análise de 2024 reuniu 35 ensaios randomizados de interrupção de antidepressivos em pessoas tratadas por transtorno depressivo maior. A taxa combinada de recaída após a interrupção foi de 45,12% aos 12 meses — equivalente a cerca de 55% sem recaída no marco de um ano.\n\nUm Ano Inteiro de Estabilidade\nA mesma análise encontrou uma taxa de recaída de 34,81% aos seis meses. Aos 12 meses, a maioria dos participantes nos ensaios combinados continuava sem recaída. Um ano inteiro sem recaída é um grande marco de estabilidade a longo prazo.\n\nProteja o Progresso\nSe os sintomas depressivos começarem a voltar, entre em contato cedo com seu profissional de saúde. Chegar a um ano inteiro é uma conquista importante que vale a pena proteger.';
 
   @override
   String get settingsLocaleArabic => 'Árabe';

@@ -2864,11 +2864,12 @@ class AppLocalizationsFr extends AppLocalizations {
       'Chez des personnes ayant arrêté un antidépresseur après un traitement pour dépression majeure, une méta-analyse de 35 essais a trouvé un taux groupé de rechute de 34,8 % à six mois : environ 65 % sont restées sans rechute. C’est une énorme période de stabilité.';
 
   @override
-  String get tcaMilestone365Title => 'Un an : récupération accomplie';
+  String get tcaMilestone365Title =>
+      'Un an : la majorité est restée sans rechute';
 
   @override
   String get tcaMilestone365Description =>
-      'Un an donne à chaque système affecté par les ATC une année entière pour récupérer. Les systèmes de l\'acétylcholine, de la noradrénaline, de la sérotonine et de l\'histamine se sont stabilisés, et la mémoire, la clarté mentale ainsi que le contrôle du rythme cardiaque ont largement récupéré.';
+      'Chez des personnes ayant arrêté un antidépresseur après un traitement pour dépression majeure, une méta-analyse de 35 essais a trouvé un taux groupé de rechute de 45,12 % à 12 mois : environ 55 % sont restées sans rechute pendant une année entière. C’est un grand jalon de stabilité à long terme.';
 
   @override
   String get settingsShowTcaTracking => 'Afficher le suivi des ATC';
@@ -3685,7 +3686,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get tcaReferenceDay365 =>
-      'Un an après les tricycliques : le rétablissement est accompli\n\nUn an : récupération complète de plusieurs systèmes\nCette revue des syndromes de sevrage des antidépresseurs — couvrant les tricycliques, les IMAO, les ISRS et d\'autres classes — a constaté que les symptômes commencent généralement dans les jours suivant l\'arrêt et que, sans traitement, ils disparaissent spontanément en quelques jours à environ deux semaines. Aucune étude n\'a spécifiquement réévalué, un an plus tard, les systèmes affectés par les tricycliques. Cependant, un an après la fin d\'une diminution progressive représente de nombreux mois au-delà même des symptômes de sevrage les plus longs rapportés : tous les systèmes neurochimiques concernés — sérotonine, noradrénaline, acétylcholine et histamine — ont donc eu largement le temps de suivre un cycle complet de normalisation.\n\nL\'importance du rétablissement après les tricycliques\nLes tricycliques imposent une charge pharmacologique plus large que les antidépresseurs récents, car ils agissent simultanément sur davantage de systèmes de récepteurs. Un arrêt réussi correspond au rétablissement de plusieurs systèmes :\n• inversion complète des troubles de la mémoire et de la pensée provoqués par le blocage de l\'acétylcholine par les tricycliques\n• récupération complète du cœur\n• retour d\'une régulation neurochimique naturelle dans l\'ensemble des voies concernées\n\nUne année entière d\'autorégulation réussie après l\'arrêt d\'un tricyclique représente un véritable accomplissement, tant pour la gestion du processus de sevrage que pour le maintien du bien-être sans soutien pharmacologique continu.';
+      'Un an après l’arrêt d’un antidépresseur : la majorité est restée sans rechute\n\nCap des douze mois\nUne méta-analyse de 2024 a regroupé 35 essais randomisés d’arrêt d’antidépresseurs chez des personnes traitées pour un trouble dépressif majeur. Le taux groupé de rechute après l’arrêt était de 45,12 % à 12 mois, soit environ 55 % encore sans rechute au cap d’un an.\n\nUne année entière de stabilité\nLa même analyse a trouvé un taux de rechute de 34,81 % à six mois. À 12 mois, la majorité des participants des essais regroupés n’avaient toujours pas rechuté. Une année entière sans rechute est un grand jalon de stabilité à long terme.\n\nProtège tes progrès\nSi des symptômes dépressifs commencent à revenir, contacte rapidement ton professionnel de santé. Atteindre une année entière est un accomplissement important qui mérite d’être protégé.';
 
   @override
   String get settingsLocaleArabic => 'Arabe';

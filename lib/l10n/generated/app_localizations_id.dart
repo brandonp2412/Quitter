@@ -2803,11 +2803,12 @@ class AppLocalizationsId extends AppLocalizations {
       'Pada orang yang menghentikan antidepresan setelah pengobatan depresi mayor, meta-analisis 35 uji menemukan angka kekambuhan gabungan 34,8% pada enam bulan—sekitar 65% tetap tanpa kambuh. Itu adalah rentang stabilitas yang sangat besar.';
 
   @override
-  String get tcaMilestone365Title => 'Satu Tahun: Pemulihan Tercapai';
+  String get tcaMilestone365Title =>
+      'Satu Tahun: Kebanyakan Tetap Tanpa Kambuh';
 
   @override
   String get tcaMilestone365Description =>
-      'Satu tahun memberi setiap sistem yang terkena dampak TCA satu tahun penuh untuk pulih. Sistem asetilkolin, noradrenalin, serotonin, dan histamin telah membaik, dan ingatan, pemikiran jernih, serta kontrol detak jantung telah pulih secara substansial.';
+      'Pada orang yang menghentikan antidepresan setelah pengobatan depresi mayor, meta-analisis 35 uji menemukan angka kekambuhan gabungan 45,12% pada 12 bulan—sekitar 55% tetap tanpa kambuh selama setahun penuh. Itu adalah tonggak besar stabilitas jangka panjang.';
 
   @override
   String get settingsShowTcaTracking => 'Tampilkan pelacakan TCA';
@@ -3622,7 +3623,7 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get tcaReferenceDay365 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Satu Tahun Setelah Menghentikan Antidepresan: Kebanyakan Tetap Tanpa Kambuh\n\nTitik Dua Belas Bulan\nMeta-analisis tahun 2024 menggabungkan 35 uji acak penghentian antidepresan pada orang yang dirawat karena gangguan depresi mayor. Angka kekambuhan gabungan setelah penghentian adalah 45,12% pada 12 bulan—setara dengan sekitar 55% yang tetap tanpa kambuh pada titik satu tahun.\n\nSetahun Penuh Stabilitas\nAnalisis yang sama menemukan angka kekambuhan 34,81% pada enam bulan. Pada 12 bulan, sebagian besar peserta dalam uji gabungan masih belum mengalami kekambuhan. Setahun penuh tanpa kambuh adalah tonggak besar stabilitas jangka panjang.\n\nJaga Kemajuanmu\nJika gejala depresi mulai kembali, hubungi klinisimu lebih awal. Mencapai setahun penuh adalah pencapaian besar yang layak dijaga.';
 
   @override
   String get settingsLocaleArabic => 'Dalam bahasa Indonesia: Arabic';

@@ -2826,11 +2826,11 @@ class AppLocalizationsPl extends AppLocalizations {
       'Wśród osób odstawiających leki przeciwdepresyjne po leczeniu dużej depresji metaanaliza 35 badań wykazała łączny odsetek nawrotów 34,8% po sześciu miesiącach — około 65% osób pozostało bez nawrotu. To ogromny odcinek stabilności.';
 
   @override
-  String get tcaMilestone365Title => 'Jeden rok: Odzyskiwanie osiągnięte';
+  String get tcaMilestone365Title => 'Rok: większość pozostała bez nawrotu';
 
   @override
   String get tcaMilestone365Description =>
-      'Jeden rok daje każdemu systemowi dotkniętemu TCA pełny rok na odzyskanie. Systemy acetylocholiny, noradrenaliny, serotoniny i histaminy zostały ustalone, i zapamiętywanie, jasne myślenie, i kontroli częstości serca są znacznie odzyskane.';
+      'Wśród osób odstawiających leki przeciwdepresyjne po leczeniu dużej depresji metaanaliza 35 badań wykazała łączny odsetek nawrotów 45,12% po 12 miesiącach — około 55% pozostało bez nawrotu przez pełny rok. To ważny kamień milowy długoterminowej stabilności.';
 
   @override
   String get settingsShowTcaTracking => 'Pokaż śledzenie TCA';
@@ -3646,7 +3646,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get tcaReferenceDay365 =>
-      'Rok po TCAs- odzyskanie\n\nJeden rok: Kompletne wielosystemowe odzyskiwanie\nTen przegląd syndromów odstawiennych obejmuje TCAs, MAOIs, SSRIsi i inne wykazały, że objawy odstawienne zwykle zaczynają się w ciągu kilku dni od zatrzymania i, pozostawione nieleczone, ustępują w ciągu kilku dni do kilku tygodń. nie ma badania, że szczególnie ponowne pomiary TCAss- systemy dotknięte ZTCAs- rok, ale rok po ukończeniu taper jest wiele miesięcy poza nawet najdłuższe zgłaszane objawy przerwania, więc wszystkie wpływające na układ chemiczny mózgu serotoniny, nordunaliny, acetylocholiny i histaminy można oczekiwać, że miał pełny cykl do normalizacji.\n\nZnaczenie odzyskiwania TCA\nTCA narzuca szersze obciążenie związane z narkotykami niż nowsze leki przeciwdepresyjne, wpływające na większą liczbę systemów receptorowych.\n• Kompletne odwrócenie zaburzeń pamięci i myślenia spowodowanych blokowaniem przez TCAsrelacetylocholinę\n• Odzysk pełnego serca\n• Naturalna regulacja chemiczna mózgu przywrócona na wszystkich dotkniętych szlakach\n\nRok pomyślnej samoregulacji po przerwaniu stosowania TCA stanowi prawdziwe osiągnięcie zarówno w zarządzaniu procesem zaprzestania stosowania, jak i w utrzymaniu dobrego samopoczucia bez wsparcia związanego z narkotykami.';
+      'Rok po odstawieniu leków przeciwdepresyjnych: większość pozostała bez nawrotu\n\nPunkt kontrolny po 12 miesiącach\nMetaanaliza z 2024 roku połączyła 35 randomizowanych badań dotyczących odstawiania leków przeciwdepresyjnych u osób leczonych z powodu dużej depresji. Łączny odsetek nawrotów po odstawieniu wyniósł 45,12% po 12 miesiącach — co odpowiada około 55% osób bez nawrotu w punkcie rocznym.\n\nPełny rok stabilności\nTa sama analiza wykazała odsetek nawrotów 34,81% po sześciu miesiącach. Po 12 miesiącach większość uczestników połączonych badań nadal nie miała nawrotu. Pełny rok bez nawrotu to ważny kamień milowy długoterminowej stabilności.\n\nChroń postęp\nJeśli objawy depresji zaczną wracać, skontaktuj się wcześnie ze swoim lekarzem lub terapeutą. Osiągnięcie pełnego roku to duży sukces, który warto chronić.';
 
   @override
   String get settingsLocaleArabic => 'Arabski';

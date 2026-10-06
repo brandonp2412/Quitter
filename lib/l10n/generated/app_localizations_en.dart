@@ -2759,11 +2759,11 @@ class AppLocalizationsEn extends AppLocalizations {
       'Among people discontinuing antidepressants after treatment for major depression, a 35-trial meta-analysis found a 34.8% pooled relapse rate at six months—about 65% remained relapse-free. That is a huge stretch of stability.';
 
   @override
-  String get tcaMilestone365Title => 'One Year: Recovery Achieved';
+  String get tcaMilestone365Title => 'One Year: Most Stayed Relapse-Free';
 
   @override
   String get tcaMilestone365Description =>
-      'One year gives every system affected by TCAs a full year to recover. The acetylcholine, noradrenaline, serotonin, and histamine systems have settled, and memory, clear thinking, and heart-rate control are substantially recovered.';
+      'Among people discontinuing antidepressants after treatment for major depression, a 35-trial meta-analysis found a 45.12% pooled relapse rate at 12 months—about 55% remained relapse-free for a full year. That is a major long-term stability milestone.';
 
   @override
   String get settingsShowTcaTracking => 'Show TCA tracking';
@@ -3576,7 +3576,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get tcaReferenceDay365 =>
-      'One Year After TCAs: Recovery Achieved\n\nOne Year: Complete Multi-System Recovery\nThis review of antidepressant discontinuation syndromes — covering TCAs, MAOIs, SSRIs, and others — found that withdrawal symptoms typically begin within days of stopping and, left untreated, resolve on their own within days to a couple of weeks. There\'s no study that specifically re-measures TCA-affected systems a year out, but a year after completing a taper is many months beyond even the longest reported discontinuation symptoms, so all affected brain chemical systems — serotonin, noradrenaline, acetylcholine, and histamine — can be expected to have had a complete cycle to normalise.\n\nThe Significance of TCA Recovery\nTCAs impose a broader drug-driven burden than newer antidepressants, affecting more receptor systems simultaneously. Successful discontinuation represents the recovery of multiple systems:\n• Complete reversal of the memory and thinking impairment caused by TCAs\' acetylcholine blocking\n• Full heart recovery\n• Natural brain chemical regulation restored across all affected pathways\n\nOne year of successful self-regulation after TCA discontinuation represents a genuine achievement — both in the management of the discontinuation process and in the maintenance of wellbeing without drug-driven support.';
+      'One Year After Antidepressant Discontinuation: Most Stayed Relapse-Free\n\nTwelve-Month Relapse Checkpoint\nA 2024 meta-analysis pooled 35 randomized antidepressant discontinuation trials in people treated for major depressive disorder. The pooled relapse rate after discontinuation was 45.12% at 12 months—equivalent to about 55% remaining relapse-free at the one-year checkpoint.\n\nA Full Year of Stability\nThe same analysis found a 34.81% relapse rate at six months. By 12 months, most participants in the pooled trials still had not relapsed. One full year without relapse is a major long-term stability milestone.\n\nProtect the Progress\nIf depressive symptoms start returning, contact your clinician early. Reaching a full year is a substantial achievement worth protecting.';
 
   @override
   String get settingsLocaleArabic => 'Arabic';

@@ -2835,11 +2835,11 @@ class AppLocalizationsEs extends AppLocalizations {
       'Entre personas que dejaron antidepresivos tras tratar una depresión mayor, un metanálisis de 35 ensayos halló una tasa agrupada de recaída del 34,8 % a los seis meses: alrededor del 65 % siguió sin recaída. Es un enorme tramo de estabilidad.';
 
   @override
-  String get tcaMilestone365Title => 'Un año: recuperación conseguida';
+  String get tcaMilestone365Title => 'Un año: la mayoría siguió sin recaída';
 
   @override
   String get tcaMilestone365Description =>
-      'Un año da a todos los sistemas afectados por los tricíclicos un año completo para recuperarse. Los sistemas de acetilcolina, noradrenalina, serotonina e histamina se han estabilizado, y la memoria, la claridad mental y el control de la frecuencia cardiaca se han recuperado considerablemente.';
+      'Entre personas que dejaron antidepresivos tras tratar una depresión mayor, un metanálisis de 35 ensayos halló una tasa agrupada de recaída del 45,12 % a los 12 meses: alrededor del 55 % siguió sin recaída durante un año completo. Es un gran hito de estabilidad a largo plazo.';
 
   @override
   String get settingsShowTcaTracking => 'Mostrar seguimiento de tricíclicos';
@@ -3655,7 +3655,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get tcaReferenceDay365 =>
-      'Un año después de los tricíclicos: recuperación alcanzada\n\nUn año: recuperación de varios sistemas\nEsta revisión sobre síndromes de discontinuación de antidepresivos, que incluye tricíclicos, IMAO, ISRS y otras clases, encontró que los síntomas de retirada suelen empezar pocos días después de suspender el tratamiento y, sin tratamiento específico, resolverse por sí solos en días o en un par de semanas. No existe un estudio que vuelva a medir específicamente al cabo de un año todos los sistemas afectados por los tricíclicos, pero un año después de completar una reducción de dosis queda muchos meses por encima incluso de los síntomas de discontinuación más prolongados descritos. Para entonces, los sistemas de serotonina, noradrenalina, acetilcolina e histamina han tenido tiempo suficiente para normalizarse.\n\nLa importancia de la recuperación tras tricíclicos\nLos tricíclicos ejercen una carga farmacológica más amplia que los antidepresivos más nuevos porque afectan a más sistemas de receptores al mismo tiempo. Una discontinuación exitosa representa la recuperación de varios sistemas:\n• Reversión de las alteraciones de memoria y pensamiento relacionadas con el bloqueo de acetilcolina\n• Recuperación de los efectos cardiacos del fármaco\n• Restablecimiento de una regulación neuroquímica natural en las vías afectadas\n\nUn año de autorregulación mantenida después de suspender un tricíclico representa un logro real tanto en la gestión del proceso de discontinuación como en el mantenimiento del bienestar sin apoyo farmacológico.';
+      'Un año después de dejar antidepresivos: la mayoría siguió sin recaída\n\nPunto de control a los doce meses\nUn metanálisis de 2024 reunió 35 ensayos aleatorizados de discontinuación de antidepresivos en personas tratadas por trastorno depresivo mayor. La tasa agrupada de recaída tras dejar el tratamiento fue del 45,12 % a los 12 meses, equivalente a alrededor del 55 % sin recaída en el punto de un año.\n\nUn año completo de estabilidad\nEl mismo análisis halló una tasa de recaída del 34,81 % a los seis meses. A los 12 meses, la mayoría de participantes de los ensayos agrupados seguía sin recaída. Un año completo sin recaída es un gran hito de estabilidad a largo plazo.\n\nProtege el progreso\nSi empiezan a volver los síntomas depresivos, contacta pronto con tu profesional de salud. Alcanzar un año completo es un logro importante que merece protección.';
 
   @override
   String get settingsLocaleArabic => 'Árabe';

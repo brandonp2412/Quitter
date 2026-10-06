@@ -2816,11 +2816,12 @@ class AppLocalizationsDe extends AppLocalizations {
       'Bei Menschen, die Antidepressiva nach der Behandlung einer schweren Depression absetzten, fand eine Metaanalyse mit 35 Studien nach sechs Monaten eine gepoolte Rückfallrate von 34,8 % – etwa 65 % blieben rückfallfrei. Das ist eine enorme Strecke stabiler Zeit.';
 
   @override
-  String get tcaMilestone365Title => 'Ein Jahr: Erholung erreicht';
+  String get tcaMilestone365Title =>
+      'Ein Jahr: Die meisten blieben rückfallfrei';
 
   @override
   String get tcaMilestone365Description =>
-      'Ein Jahr gibt jedem von TCAs betroffenen System ein ganzes Jahr Zeit, um sich zu erholen. Das Acetylcholin-, Noradrenalin-, Serotonin- und Histaminsystem hat sich beruhigt, und Gedächtnis, klares Denken und Herzfrequenzkontrolle sind weitgehend wiederhergestellt.';
+      'Bei Menschen, die Antidepressiva nach der Behandlung einer schweren Depression absetzten, fand eine Metaanalyse mit 35 Studien nach 12 Monaten eine gepoolte Rückfallrate von 45,12 % – etwa 55 % blieben ein volles Jahr rückfallfrei. Das ist ein großer Meilenstein langfristiger Stabilität.';
 
   @override
   String get settingsShowTcaTracking => 'TCA-Tracking anzeigen';
@@ -3635,7 +3636,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get tcaReferenceDay365 =>
-      'Ein Jahr nach TCAs: Erholung erreicht\n\nEin Jahr: Komplette Multi-System-Wiederherstellung\nDiese Überprüfung der Antidepressiva-Abbruchssyndromen - TCAs, MAOIs, SSRIs und andere - ergab, dass Entzugserscheinungen typischerweise innerhalb von Tagen nach dem Absetzen beginnen und sich, unbehandelt, innerhalb von Tagen bis zu ein paar Wochen von selbst lösen. Es gibt keine Studie, die TCA-betroffene Systeme ein Jahr lang spezifisch neu misst, aber ein Jahr nach Abschluss einer Verjüngung ist viele Monate über die längsten gemeldeten Abbruchsymptome hinaus, so dass alle betroffenen chemischen Systeme des Gehirns - Serotonin, Noradrenalin, Acetylcholin und Histamin - einen vollständigen Zyklus zur Normalisierung haben.\n\nDie Bedeutung von TCA Recovery\nTCAs verursachen eine breitere drogenbedingte Belastung als neuere Antidepressiva und beeinflussen mehr Rezeptorsysteme gleichzeitig. Erfolgreiches Absetzen bedeutet die Wiederherstellung mehrerer Systeme:\n• Vollständige Umkehrung des Gedächtnisses und der Denkstörung durch die Acetylcholinblockierung von TCAs\n• Volle Erholung des Herzens\n• Natürliche Gehirn-chemische Regulation wiederhergestellt über alle betroffenen Wege\n\nEin Jahr erfolgreicher Selbstregulierung nach dem Absetzen von TCA stellt eine echte Errungenschaft dar - sowohl bei der Verwaltung des Absetzens als auch bei der Aufrechterhaltung des Wohlbefindens ohne drogengesteuerte Unterstützung.';
+      'Ein Jahr nach dem Absetzen von Antidepressiva: Die meisten blieben rückfallfrei\n\nZwölf-Monats-Rückfallmarke\nEine Metaanalyse aus dem Jahr 2024 bündelte 35 randomisierte Absetzstudien mit Menschen, die wegen einer Major Depression behandelt worden waren. Die gepoolte Rückfallrate nach dem Absetzen betrug nach 12 Monaten 45,12 % – entsprechend etwa 55 %, die bis zur Ein-Jahres-Marke rückfallfrei blieben.\n\nEin volles Jahr Stabilität\nDieselbe Analyse ergab nach sechs Monaten eine Rückfallrate von 34,81 %. Nach 12 Monaten war die Mehrheit der Teilnehmenden in den zusammengefassten Studien weiterhin rückfallfrei. Ein ganzes Jahr ohne Rückfall ist ein großer Meilenstein langfristiger Stabilität.\n\nFortschritt schützen\nWenn depressive Symptome zurückkehren, wende dich frühzeitig an deine behandelnde Fachperson. Ein volles Jahr zu erreichen ist eine bedeutende Leistung, die es zu schützen gilt.';
 
   @override
   String get settingsLocaleArabic => 'Arabisch';
