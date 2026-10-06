@@ -2813,11 +2813,11 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get tcaMilestone30Title =>
-      'Un mes: se estabiliza el sistema nervioso autónomo';
+      'Un mes: la retirada aguda suele haber cedido';
 
   @override
   String get tcaMilestone30Description =>
-      'Al mes, se estabilizan los sistemas corporales que controlan la frecuencia cardiaca, la presión arterial, la digestión y la sudoración. Los cambios del ritmo cardiaco y la presión arterial avanzan hacia la normalidad, y regresa el sueño REM con sueños.';
+      'Los síntomas típicos de discontinuación de antidepresivos suelen durar de una a dos semanas. A los 30 días, la mayoría de las personas ya ha superado esa fase aguda; los síntomas gripales, las náuseas, el desequilibrio, el insomnio, las alteraciones sensoriales y la hiperactivación suelen haber remitido o desaparecido.';
 
   @override
   String get tcaMilestone90Title => 'Tres meses: 90 días sin tricíclicos';
@@ -3643,7 +3643,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get tcaReferenceDay30 =>
-      'Un mes después de los tricíclicos: se estabiliza el sistema nervioso autónomo\n\nRecuperación cardiaca\nLos tricíclicos afectan al ritmo cardiaco durante su uso mediante acciones sobre los sistemas colinérgico y adrenérgico. La literatura clínica sobre discontinuación de tricíclicos indica que los síntomas agudos de retirada, incluidos los efectos autonómicos relacionados con esta hiperactividad colinérgica y adrenérgica, suelen ser leves y resolverse en una o dos semanas tras suspenderlos. Al cabo de un mes, la mayoría de las personas ya está muy por encima de esa fase y puede esperar:\n• Que el ritmo cardiaco vuelva hacia su nivel previo al tratamiento\n• Que la variabilidad de la frecuencia cardiaca tienda hacia niveles naturales\n• Que la regulación de la presión arterial, anteriormente afectada por la acción del fármaco sobre las vías adrenérgicas, siga estabilizándose\n\nRestablecimiento de la arquitectura del sueño\nLos tricíclicos reducen de forma importante el sueño REM. A medida que desaparece el efecto anticolinérgico, y dado que la acetilcolina participa en el sueño REM:\n• El sueño REM vuelve y puede aparecer temporalmente un aumento de sueños vívidos\n• Mejora el sueño de ondas lentas o sueño profundo\n• La calidad global del sueño y su capacidad reparadora mejoran de forma apreciable respecto al periodo de tratamiento con tricíclicos';
+      'Un mes después de los tricíclicos: la retirada aguda suele haber cedido\n\nLa ventana aguda habitual\nWarner y sus colegas informan de que los síntomas de discontinuación de antidepresivos suelen ser leves y durar de una a dos semanas. Los tricíclicos están incluidos explícitamente; los problemas de equilibrio y movimiento pueden ser especialmente característicos tras suspender un TCA.\n\nQué significa el día 30\nAl cabo de un mes, la mayoría de las personas ya ha dejado atrás esa fase aguda habitual. Los síntomas gripales, las náuseas, el desequilibrio, el insomnio, las alteraciones sensoriales y la hiperactivación suelen haber disminuido o desaparecido.\n\nTreinta días fuertes\nUn mes sin TCA es un marcador concreto de recuperación: la ventana clásica de retirada aguda suele haber quedado atrás.';
 
   @override
   String get tcaReferenceDay90 =>

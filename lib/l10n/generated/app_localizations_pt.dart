@@ -2811,11 +2811,11 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get tcaMilestone30Title =>
-      'Um Mês: Estabilização do Sistema Nervoso Autônomo';
+      'Um mês: a fase aguda da descontinuação costuma ter passado';
 
   @override
   String get tcaMilestone30Description =>
-      'Em um mês, os sistemas do corpo que controlam a frequência cardíaca, a pressão arterial, a digestão e a transpiração estão a estabilizar-se. As alterações do ritmo cardíaco e da pressão arterial estão a normalizar-se e o sono REM dos sonhos está retornando.';
+      'Os sintomas típicos de descontinuação de antidepressivos costumam durar uma a duas semanas. Aos 30 dias, a maioria das pessoas já ultrapassou essa fase aguda; sintomas gripais, náuseas, desequilíbrio, insónia, alterações sensoriais e hiperativação costumam ter diminuído ou desaparecido.';
 
   @override
   String get tcaMilestone90Title => 'Três meses: 90 dias sem TCA';
@@ -3641,7 +3641,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get tcaReferenceDay30 =>
-      'Um mês após TCAs: Estabilização automática do sistema nervoso corporal\n\nRecuperação cardíaca\nOs TCAs afetam o ritmo cardíaco durante o uso através de sua ação nos sistemas nervosos relacionados à acetilcolina e à adrenalina. A literatura clínica sobre a descontinuação do ADT confirma que os sintomas agudos de abstinência – incluindo os efeitos corporais automáticos provocados por este “overdrive relacionado à acetilcolina e adrenalina” – são tipicamente leves e desaparecem dentro de uma a duas semanas após a interrupção. Em um mês, a maioria das pessoas já passou dessa janela aguda e pode esperar:\n• Ritmo cardíaco voltando ao nível inicial pré-medicação\n• Variabilidade da frequência cardíaca tendendo a níveis naturais\n• Regulação da pressão arterial, anteriormente afetada pela ação do medicamento nas vias da adrenalina, continuando a estabilizar\n\nRestauração da Arquitetura do Sono\nOs TCAs suprimem fortemente o sono onírico. À medida que o efeito antiacetilcolina desaparece (a acetilcolina é necessária para o sono onírico):\n• O sono REM está retornando, muitas vezes produzindo uma onda de sonhos vívidos à medida que o sono onírico retorna\n• O sono de ondas lentas (profundo) está a melhorar\n• A qualidade geral e a restauração do sono são significativamente melhores do que durante o uso de TCA';
+      'Um mês após os TCA: a fase aguda da descontinuação costuma ter passado\n\nA janela aguda habitual\nWarner e colegas referem que os sintomas de descontinuação de antidepressivos são geralmente ligeiros e duram uma a duas semanas. Os TCA estão explicitamente incluídos; problemas de equilíbrio e movimento podem ser especialmente característicos após a sua suspensão.\n\nO que significa o dia 30\nAo fim de um mês, a maioria das pessoas já ultrapassou claramente essa fase aguda habitual. Sintomas gripais, náuseas, desequilíbrio, insónia, alterações sensoriais e hiperativação costumam ter diminuído ou desaparecido.\n\nTrinta dias fortes\nUm mês sem TCA é um marco concreto de recuperação: a janela clássica de descontinuação aguda costuma já ter ficado para trás.';
 
   @override
   String get tcaReferenceDay90 =>
@@ -6501,11 +6501,11 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get tcaMilestone30Title =>
-      'Um Mês: Estabilização do Sistema Nervoso Autônomo';
+      'Um mês: a fase aguda da retirada geralmente já passou';
 
   @override
   String get tcaMilestone30Description =>
-      'Em um mês, os sistemas do corpo que controlam a frequência cardíaca, a pressão arterial, a digestão e a transpiração estão se estabilizando. As alterações do ritmo cardíaco e da pressão arterial estão se normalizando e o sono REM dos sonhos está retornando.';
+      'Os sintomas típicos de descontinuação de antidepressivos costumam durar de uma a duas semanas. Aos 30 dias, a maioria das pessoas já passou dessa fase aguda; sintomas gripais, náusea, desequilíbrio, insônia, alterações sensoriais e hiperativação geralmente diminuíram bastante ou desapareceram.';
 
   @override
   String get tcaMilestone90Title =>
@@ -7332,7 +7332,7 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get tcaReferenceDay30 =>
-      'Um mês após TCAs: Estabilização automática do sistema nervoso corporal\n\nRecuperação cardíaca\nOs TCAs afetam o ritmo cardíaco durante o uso através de sua ação nos sistemas nervosos relacionados à acetilcolina e à adrenalina. A literatura clínica sobre a descontinuação do ADT confirma que os sintomas agudos de abstinência – incluindo os efeitos corporais automáticos provocados por este “overdrive relacionado à acetilcolina e adrenalina” – são tipicamente leves e desaparecem dentro de uma a duas semanas após a interrupção. Em um mês, a maioria das pessoas já passou dessa janela aguda e pode esperar:\n• Ritmo cardíaco voltando ao nível inicial pré-medicação\n• Variabilidade da frequência cardíaca tendendo a níveis naturais\n• Regulação da pressão arterial, anteriormente afetada pela ação do medicamento nas vias da adrenalina, continuando a estabilizar\n\nRestauração da Arquitetura do Sono\nOs TCAs suprimem fortemente o sono onírico. À medida que o efeito antiacetilcolina desaparece (a acetilcolina é necessária para o sono onírico):\n• O sono REM está retornando, muitas vezes produzindo uma onda de sonhos vívidos à medida que o sono onírico retorna\n• O sono de ondas lentas (profundo) está melhorando\n• A qualidade geral e a restauração do sono são significativamente melhores do que durante o uso de TCA';
+      'Um mês após os TCAs: a fase aguda da retirada geralmente já passou\n\nA janela aguda habitual\nWarner e colegas relatam que os sintomas de descontinuação de antidepressivos geralmente são leves e duram de uma a duas semanas. Os TCAs estão explicitamente incluídos; problemas de equilíbrio e movimento podem ser especialmente característicos após a interrupção de um TCA.\n\nO que o dia 30 significa\nDepois de um mês, a maioria das pessoas já passou bem além dessa fase aguda habitual. Sintomas gripais, náusea, desequilíbrio, insônia, alterações sensoriais e hiperativação geralmente diminuíram bastante ou desapareceram.\n\nTrinta dias fortes\nUm mês sem TCA é um marco concreto de recuperação: a janela clássica de retirada aguda geralmente já ficou para trás.';
 
   @override
   String get tcaReferenceDay90 =>

@@ -2805,11 +2805,11 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get tcaMilestone30Title =>
-      'Jeden miesiąc: autonomiczny system nerwowy stabilizujący';
+      'Jeden miesiąc: ostry zespół odstawienny zwykle ustąpił';
 
   @override
   String get tcaMilestone30Description =>
-      'W jednym miesiącu, systemy ciała, które kontrolują choroby serca, ciśnienie krwi, trawienie, i pocenie się są ułożone. Rytm serca i zmiany ciśnienia krwi idą w kierunku normalnego, i REM sen sen wraca.';
+      'Typowe objawy odstawienia leków przeciwdepresyjnych trwają zwykle od jednego do dwóch tygodni. Po 30 dniach większość osób ma już za sobą tę ostrą fazę; objawy grypopodobne, nudności, zaburzenia równowagi, bezsenność, zaburzenia czucia i nadmierne pobudzenie zwykle wyraźnie słabną lub ustępują.';
 
   @override
   String get tcaMilestone90Title => 'Trzy miesiące: 90 dni bez TCA';
@@ -3635,7 +3635,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get tcaReferenceDay30 =>
-      'Miesiąc po TCAs: Automatyczne ciało Stabilizacja układu nerwowego\n\nOdzyskiwanie serca\nTCAs wpływa na rytm serca podczas stosowania zarówno na układ nerwowy związany z acetylocholiną, jak i adrenaliną. Piśmiennictwo kliniczne dotyczące przerwania stosowania TCA potwierdza, że ostre objawy odstawienne, w tym automatyczne działanie na ciało spowodowane tym nadciśnieniem związanym z acetylocholiną i adrenaliną, są zwykle łagodne i ustępują w ciągu jednego do dwóch tygodni po przerwaniu leczenia.\n• Rytm serca ustępujący do poziomu początkowego premedykacji\n• Zmienność tętna, trendująca do poziomu naturalnego\n• Regulacje dotyczące ciśnienia tętniczego krwi, uprzednio dotknięte działaniem leków, w dalszym ciągu stabilizują się\n\nPrzywracanie architektury snu\nTCAs silnie tłumić sen. Ponieważ efekt antyacetylocholiny przestaje się cementować acetylocholina jest potrzebna do snu:\n• REM sen powraca, często generując wzrost żywych marzeń, gdy sen sen wraca\n• Slow – fala pogłębiona ) sen poprawia się\n• Ogólna jakość snu i renowacja są znacznie lepsze niż podczas stosowania TCA';
+      'Miesiąc po odstawieniu TCA: ostry zespół odstawienny zwykle ustąpił\n\nTypowe ostre okno\nWarner i wsp. podają, że objawy odstawienia leków przeciwdepresyjnych są zwykle łagodne i trwają od jednego do dwóch tygodni. TCA są wyraźnie uwzględnione; po ich odstawieniu szczególnie charakterystyczne mogą być problemy z równowagą i ruchem.\n\nCo oznacza dzień 30\nPo miesiącu większość osób jest już daleko poza typową ostrą fazą. Objawy grypopodobne, nudności, zaburzenia równowagi, bezsenność, zaburzenia czucia i nadmierne pobudzenie zwykle wyraźnie słabną lub ustępują.\n\nTrzydzieści mocnych dni\nMiesiąc bez TCA to konkretny marker zdrowienia: klasyczne ostre okno odstawienia zwykle jest już za tobą.';
 
   @override
   String get tcaReferenceDay90 =>

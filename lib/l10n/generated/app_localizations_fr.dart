@@ -2842,11 +2842,11 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get tcaMilestone30Title =>
-      'Un mois : stabilisation du système nerveux autonome';
+      'Un mois : le sevrage aigu est généralement apaisé';
 
   @override
   String get tcaMilestone30Description =>
-      'Après un mois, les systèmes qui contrôlent le rythme cardiaque, la tension artérielle, la digestion et la transpiration se stabilisent. Les changements du rythme cardiaque et de la tension se rapprochent de la normale, et le sommeil paradoxal revient.';
+      'Les symptômes typiques d’arrêt des antidépresseurs durent généralement une à deux semaines. À 30 jours, la plupart des personnes ont dépassé cette phase aiguë ; les symptômes pseudo-grippaux, les nausées, les troubles de l’équilibre, l’insomnie, les perturbations sensorielles et l’hyperactivation ont généralement diminué ou disparu.';
 
   @override
   String get tcaMilestone90Title => 'Trois mois : 90 jours sans tricycliques';
@@ -3673,7 +3673,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get tcaReferenceDay30 =>
-      'Un mois après l\'arrêt des tricycliques : stabilisation du système nerveux autonome\n\nRécupération cardiaque\nLes tricycliques influencent le rythme cardiaque pendant le traitement par leur action à la fois sur l\'acétylcholine et sur les systèmes nerveux liés à l\'adrénaline. La littérature clinique sur leur arrêt confirme que les symptômes aigus de sevrage — notamment les effets autonomes provoqués par cette « suractivation cholinergique et adrénergique » — sont généralement légers et disparaissent dans la première ou la deuxième semaine après l\'arrêt. Au bout d\'un mois, la plupart des personnes ont largement dépassé cette fenêtre aiguë et peuvent s\'attendre à :\n• un rythme cardiaque qui revient vers son niveau d\'avant le traitement\n• une variabilité de la fréquence cardiaque qui tend vers ses niveaux naturels\n• une régulation de la pression artérielle, auparavant influencée par l\'action du médicament sur les voies adrénergiques, qui continue de se stabiliser\n\nRestauration de l\'architecture du sommeil\nLes tricycliques réduisent fortement le sommeil paradoxal. À mesure que l\'effet anticholinergique disparaît — l\'acétylcholine étant nécessaire au sommeil paradoxal :\n• le sommeil paradoxal revient, parfois avec une période de rêves particulièrement vifs\n• le sommeil lent profond s\'améliore\n• la qualité globale du sommeil et son caractère réparateur sont nettement meilleurs que pendant le traitement par tricycliques';
+      'Un mois après l’arrêt des tricycliques : le sevrage aigu est généralement apaisé\n\nLa fenêtre aiguë habituelle\nWarner et ses collègues indiquent que les symptômes d’arrêt des antidépresseurs sont généralement légers et durent une à deux semaines. Les tricycliques sont explicitement inclus ; les troubles de l’équilibre et du mouvement peuvent être particulièrement caractéristiques après l’arrêt d’un TCA.\n\nCe que signifie le jour 30\nAu bout d’un mois, la plupart des personnes ont largement dépassé cette phase aiguë habituelle. Les symptômes pseudo-grippaux, les nausées, les troubles de l’équilibre, l’insomnie, les perturbations sensorielles et l’hyperactivation ont généralement diminué ou disparu.\n\nTrente jours forts\nUn mois sans TCA est un marqueur concret de récupération : la fenêtre classique du sevrage aigu est généralement derrière vous.';
 
   @override
   String get tcaReferenceDay90 =>

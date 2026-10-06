@@ -2794,11 +2794,11 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get tcaMilestone30Title =>
-      'Ein Monat: Autonomes Nervensystem stabilisiert';
+      'Ein Monat: Akuter Entzug meist abgeklungen';
 
   @override
   String get tcaMilestone30Description =>
-      'Nach einem Monat beruhigen sich die Körpersysteme, die Herzfrequenz, Blutdruck, Verdauung und Schwitzen kontrollieren. Herzrhythmus- und Blutdruckänderungen bewegen sich in Richtung Normalität, und der REM-Traumschlaf kehrt zurück.';
+      'Typische Absetzsymptome von Antidepressiva dauern meist ein bis zwei Wochen. Nach 30 Tagen liegt diese akute Phase für die meisten Menschen hinter ihnen; grippeähnliche Beschwerden, Übelkeit, Gleichgewichtsstörungen, Schlaflosigkeit, sensorische Störungen und Übererregung sind meist deutlich abgeklungen oder verschwunden.';
 
   @override
   String get tcaMilestone90Title => 'Drei Monate: 90 Tage ohne TCA';
@@ -3622,7 +3622,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get tcaReferenceDay30 =>
-      'Ein Monat nach TCAs: Automatisches Körpernervensystem stabilisiert\n\nHerz-Erholung\nTCAs beeinflussen den Herzrhythmus während des Gebrauchs durch ihre Wirkung sowohl auf das Acetylcholin als auch auf das Adrenalin-bezogene Nervensystem. Die klinische Literatur zum Absetzen von TCA bestätigt, dass akute Entzugserscheinungen - einschließlich der automatischen Körpereffekte, die durch diesen \"Acetylcholin- und Adrenalin-bedingten Overdrive\" verursacht werden - typischerweise mild sind und innerhalb von ein bis zwei Wochen nach dem Absetzen verschwinden. Nach einem Monat sind die meisten Menschen weit über dieses akute Fenster hinaus und können erwarten:\n• Herzrhythmus setzt sich zurück in Richtung seiner Pre-Medikamente Startstufe\n• Herzfrequenzvariabilität Trend zu natürlichen Ebenen\n• Blutdruckregulierung, die zuvor von der Wirkung des Medikaments auf Adrenalinpfade beeinflusst wurde, stabilisiert sich weiter\n\nSchlafarchitektur Restaurierung\nTCAs unterdrücken den Traumschlaf stark. Da der Antiacetylcholin-Effekt nachlässt (Acetylcholin wird für den Traumschlaf benötigt):\n• Der REM-Schlaf kehrt zurück und erzeugt oft einen Anstieg lebhafter Träume, wenn der Traumschlaf zurückkehrt\n• Langsamwelliger (tiefer) Schlaf verbessert sich\n• Insgesamt Schlafqualität und Wiederherstellung ist sinnvoll besser als bei TCA verwenden';
+      'Ein Monat nach TCA: Akuter Entzug meist abgeklungen\n\nDas übliche akute Zeitfenster\nWarner et al. berichten, dass Absetzsymptome von Antidepressiva meist mild sind und ein bis zwei Wochen dauern. Trizyklische Antidepressiva sind ausdrücklich eingeschlossen; Gleichgewichts- und Bewegungsprobleme können nach dem Absetzen besonders typisch sein.\n\nWas Tag 30 bedeutet\nNach einem Monat sind die meisten Menschen weit über diese übliche akute Phase hinaus. Grippeähnliche Beschwerden, Übelkeit, Gleichgewichtsstörungen, Schlaflosigkeit, sensorische Störungen und Übererregung sind meist deutlich abgeklungen oder verschwunden.\n\n30 Tage stark\nEin Monat ohne TCA ist ein konkreter Erholungsmarker: Das klassische akute Absetzfenster liegt meist hinter dir.';
 
   @override
   String get tcaReferenceDay90 =>

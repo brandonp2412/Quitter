@@ -82,20 +82,16 @@ class TcaPage extends StatelessWidget {
         reference:
             "PubMed - Warner et al. (2006), American Family Physician — 'Antidepressant discontinuation syndrome'",
         link: "https://pubmed.ncbi.nlm.nih.gov/16913164/",
-        referenceDate: "May 2026",
+        referenceDate: "Oct 2026",
         localizedReferenceContent: l10n.tcaReferenceDay30,
         referenceContent:
-            "One Month After TCAs: Automatic body Nervous System Stabilising\n\n"
-            "Heart Recovery\n"
-            "TCAs affect heart rhythm during use through their action on both the acetylcholine and adrenaline-related nervous systems. The clinical literature on TCA discontinuation confirms that acute withdrawal symptoms — including the automatic body effects driven by this 'acetylcholine and adrenaline-related overdrive' — are typically mild and resolve within one to two weeks of stopping. By one month, most people are well past this acute window, and can expect:\n"
-            "• Heart rhythm settling back toward its pre-medication starting level\n"
-            "• Heart rate variability trending toward natural levels\n"
-            "• Blood pressure regulation, previously affected by the drug's action on adrenaline pathways, continuing to stabilise\n\n"
-            "Sleep Architecture Restoration\n"
-            "TCAs strongly suppress dream sleep. As the antiacetylcholine effect wears off (acetylcholine is needed for dream sleep):\n"
-            "• REM sleep is returning, often producing a surge of vivid dreams as dream sleep returns\n"
-            "• Slow-wave (deep) sleep is improving\n"
-            "• Overall sleep quality and restoration is meaningfully better than during TCA use",
+            "One Month After TCAs: Acute Withdrawal Usually Settled\n\n"
+            "The Usual Acute Window\n"
+            "Warner et al. report that antidepressant discontinuation symptoms are usually mild and last one to two weeks. TCAs are explicitly included; balance and movement problems can be especially characteristic after stopping a TCA.\n\n"
+            "What Day 30 Means\n"
+            "At one month, most people are well beyond that usual acute phase. Flu-like symptoms, nausea, imbalance, insomnia, sensory disturbances, and hyperarousal have usually eased or resolved.\n\n"
+            "Thirty Days Strong\n"
+            "One month TCA-free is a concrete recovery marker: the classic acute discontinuation window is usually behind you.",
       ),
       QuitMilestone(
         day: 90,

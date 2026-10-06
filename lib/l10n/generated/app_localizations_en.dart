@@ -2738,11 +2738,11 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get tcaMilestone30Title =>
-      'One Month: Autonomic Nervous System Stabilising';
+      'One Month: Acute Withdrawal Usually Settled';
 
   @override
   String get tcaMilestone30Description =>
-      'At one month, the body systems that control heart rate, blood pressure, digestion, and sweating are settling. Heart rhythm and blood-pressure changes are moving toward normal, and REM dream sleep is returning.';
+      'Typical antidepressant discontinuation symptoms last one to two weeks. At 30 days, most people are beyond that acute window, with flu-like symptoms, nausea, imbalance, insomnia, sensory disturbances, and hyperarousal usually eased or resolved.';
 
   @override
   String get tcaMilestone90Title => 'Three Months: 90 Days TCA-Free';
@@ -3564,7 +3564,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get tcaReferenceDay30 =>
-      'One Month After TCAs: Automatic body Nervous System Stabilising\n\nHeart Recovery\nTCAs affect heart rhythm during use through their action on both the acetylcholine and adrenaline-related nervous systems. The clinical literature on TCA discontinuation confirms that acute withdrawal symptoms — including the automatic body effects driven by this \'acetylcholine and adrenaline-related overdrive\' — are typically mild and resolve within one to two weeks of stopping. By one month, most people are well past this acute window, and can expect:\n• Heart rhythm settling back toward its pre-medication starting level\n• Heart rate variability trending toward natural levels\n• Blood pressure regulation, previously affected by the drug\'s action on adrenaline pathways, continuing to stabilise\n\nSleep Architecture Restoration\nTCAs strongly suppress dream sleep. As the antiacetylcholine effect wears off (acetylcholine is needed for dream sleep):\n• REM sleep is returning, often producing a surge of vivid dreams as dream sleep returns\n• Slow-wave (deep) sleep is improving\n• Overall sleep quality and restoration is meaningfully better than during TCA use';
+      'One Month After TCAs: Acute Withdrawal Usually Settled\n\nThe Usual Acute Window\nWarner et al. report that antidepressant discontinuation symptoms are usually mild and last one to two weeks. TCAs are explicitly included; balance and movement problems can be especially characteristic after stopping a TCA.\n\nWhat Day 30 Means\nAt one month, most people are well beyond that usual acute phase. Flu-like symptoms, nausea, imbalance, insomnia, sensory disturbances, and hyperarousal have usually eased or resolved.\n\nThirty Days Strong\nOne month TCA-free is a concrete recovery marker: the classic acute discontinuation window is usually behind you.';
 
   @override
   String get tcaReferenceDay90 =>

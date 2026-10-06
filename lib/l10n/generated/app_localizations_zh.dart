@@ -2611,11 +2611,11 @@ class AppLocalizationsZh extends AppLocalizations {
       '恶心、失眠、平衡障碍、感觉异常和过度警觉等典型抗抑郁药停药症状通常持续一到两周。到第 14 天，很多人已经接近这段急性期的尾声。';
 
   @override
-  String get tcaMilestone30Title => '一个月：自主神经系统稳定';
+  String get tcaMilestone30Title => '一个月：急性停药反应通常已平息';
 
   @override
   String get tcaMilestone30Description =>
-      '一个月时，控制心率、血压、消化和出汗的身体系统正在稳定。心律和血压变化正趋向正常，REM做梦睡眠也开始恢复。';
+      '典型的抗抑郁药停药症状通常持续一到两周。到第30天，大多数人已经度过这段急性期；流感样症状、恶心、失衡、失眠、感觉异常和过度兴奋通常已经明显减轻或消失。';
 
   @override
   String get tcaMilestone90Title => '三个月：无TCA治疗90天';
@@ -3431,7 +3431,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get tcaReferenceDay30 =>
-      '停用TCA一个月：自主神经系统稳定\n\n心脏恢复\nTCA在使用期间通过作用于乙酰胆碱和肾上腺素相关的神经系统来影响心律。关于TCA停药的临床文献确认，急性戒断症状——包括由这种“乙酰胆碱和肾上腺素相关的过度驱动”所驱动的自主神经效应——通常是轻微的，并在停止后一到两周内消退。到一个月时，大多数人已经远过这个急性窗口，可以预期：\n• 心律回落到其用药前的起始水平\n• 心率变异性趋向自然水平\n• 此前受药物对肾上腺素通路作用影响的血压调节，持续稳定\n\n睡眠结构恢复\nTCA强烈抑制做梦睡眠。随着抗乙酰胆碱效应消退（做梦睡眠需要乙酰胆碱）：\n• REM睡眠正在回归，往往在梦睡眠回归时产生一阵生动的梦境\n• 慢波（深度）睡眠正在改善\n• 总体睡眠质量和恢复明显好于使用TCA期间';
+      '停用TCA一个月：急性停药反应通常已平息\n\n常见的急性期\nWarner等人报告，抗抑郁药停药症状通常较轻，持续一到两周。综述明确包括TCA；停用TCA后，平衡和运动问题可能尤其具有代表性。\n\n第30天意味着什么\n一个月时，大多数人已经远远度过常见的急性期。流感样症状、恶心、失衡、失眠、感觉异常和过度兴奋通常已经明显减轻或消失。\n\n强劲的30天\n无TCA一个月是一个具体的恢复里程碑：经典的急性停药窗口通常已经过去。';
 
   @override
   String get tcaReferenceDay90 =>
@@ -6101,11 +6101,11 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
       '噁心、失眠、平衡障礙、感覺異常與過度警覺等典型抗憂鬱藥停藥症狀通常持續一到兩週。到第 14 天，很多人已接近這段急性期的尾聲。';
 
   @override
-  String get tcaMilestone30Title => '一個月：自主神經系統穩定';
+  String get tcaMilestone30Title => '一個月：急性停藥反應通常已緩解';
 
   @override
   String get tcaMilestone30Description =>
-      '一個月時，控制心率、血壓、消化和出汗的身體系統正在穩定。心律和血壓變化正趨向正常，REM做夢睡眠也開始恢復。';
+      '典型的抗憂鬱藥停藥症狀通常持續一到兩週。到第30天，大多數人已經度過這段急性期；類流感症狀、噁心、失衡、失眠、感覺異常和過度亢奮通常已明顯減輕或消失。';
 
   @override
   String get tcaMilestone90Title => '三個月：無TCA治療90天';
@@ -6921,7 +6921,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get tcaReferenceDay30 =>
-      '停用TCA一個月：自主神經系統穩定\n\n心臟恢復\nTCA在使用期間通過作用於乙酰膽鹼和腎上腺素相關的神經系統來影響心律。關於TCA停藥的臨床文獻確認，急性戒斷症狀——包括由這種“乙酰膽鹼和腎上腺素相關的過度驅動”所驅動的自主神經效應——通常是輕微的，並在停止後一到兩周內消退。到一個月時，大多數人已經遠過這個急性窗口，可以預期：\n• 心律回落到其用藥前的起始水平\n• 心率變異性趨向自然水平\n• 此前受藥物對腎上腺素通路作用影響的血壓調節，持續穩定\n\n睡眠結構恢復\nTCA強烈抑制做夢睡眠。隨著抗乙酰膽鹼效應消退（做夢睡眠需要乙酰膽鹼）：\n• REM睡眠正在回歸，往往在夢睡眠回歸時產生一陣生動的夢境\n• 慢波（深度）睡眠正在改善\n• 總體睡眠質量和恢復明顯好於使用TCA期間';
+      '停用TCA一個月：急性停藥反應通常已緩解\n\n常見的急性期\nWarner等人指出，抗憂鬱藥停藥症狀通常較輕，持續一到兩週。該綜述明確包括TCA；停用TCA後，平衡與動作問題可能尤其具有代表性。\n\n第30天代表什麼\n一個月時，大多數人已經遠遠度過常見的急性期。類流感症狀、噁心、失衡、失眠、感覺異常和過度亢奮通常已明顯減輕或消失。\n\n強勁的30天\n沒有TCA的一個月是具體的恢復里程碑：典型的急性停藥窗口通常已經過去。';
 
   @override
   String get tcaReferenceDay90 =>

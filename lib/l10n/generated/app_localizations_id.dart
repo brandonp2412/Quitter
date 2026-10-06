@@ -2781,11 +2781,11 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get tcaMilestone30Title =>
-      'Satu Bulan: Stabilisasi Sistem Saraf Otonom';
+      'Satu Bulan: Gejala Putus Obat Akut Biasanya Sudah Mereda';
 
   @override
   String get tcaMilestone30Description =>
-      'Dalam satu bulan, sistem tubuh yang mengontrol detak jantung, tekanan darah, pencernaan, dan keringat mulai membaik. Irama jantung dan perubahan tekanan darah bergerak menuju normal, dan tidur mimpi REM kembali.';
+      'Gejala penghentian antidepresan yang khas biasanya berlangsung satu hingga dua minggu. Pada hari ke-30, kebanyakan orang sudah melewati fase akut itu; gejala seperti flu, mual, gangguan keseimbangan, insomnia, gangguan sensorik, dan hiperaktivasi biasanya sudah mereda atau hilang.';
 
   @override
   String get tcaMilestone90Title => 'Tiga Bulan: 90 Hari Bebas TCA';
@@ -3610,7 +3610,7 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get tcaReferenceDay30 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Satu Bulan Setelah TCA: Gejala Putus Obat Akut Biasanya Sudah Mereda\n\nFase Akut yang Umum\nWarner dan rekan melaporkan bahwa gejala penghentian antidepresan biasanya ringan dan berlangsung satu hingga dua minggu. TCA secara eksplisit termasuk dalam ulasan; gangguan keseimbangan dan gerakan dapat menjadi ciri yang lebih khas setelah TCA dihentikan.\n\nArti Hari ke-30\nSetelah satu bulan, kebanyakan orang sudah jauh melewati fase akut yang umum itu. Gejala seperti flu, mual, gangguan keseimbangan, insomnia, gangguan sensorik, dan hiperaktivasi biasanya sudah mereda atau hilang.\n\nTiga Puluh Hari Kuat\nSatu bulan bebas TCA adalah penanda pemulihan yang nyata: fase klasik penghentian akut biasanya sudah terlewati.';
 
   @override
   String get tcaReferenceDay90 =>
