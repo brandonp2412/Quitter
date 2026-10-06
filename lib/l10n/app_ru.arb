@@ -1712,78 +1712,6 @@
   "@smokingMilestone1825Description": {
     "description": "Smoking milestone day 1825 description"
   },
-  "vapingMilestone1Title": "Пик тяги к никотину",
-  "@vapingMilestone1Title": {
-    "description": "Vaping milestone day 1 title"
-  },
-  "vapingMilestone1Description": "Ваш мозг закатывает никотиновую истерику, но вы уже побеждаете! В течение 24 часов уровень никотина резко падает. Худшие пристрастия случаются сейчас, но они также являются наиболее важными, чтобы их преодолеть.",
-  "@vapingMilestone1Description": {
-    "description": "Vaping milestone day 1 description"
-  },
-  "vapingMilestone3Title": "Улучшается дыхание",
-  "@vapingMilestone3Title": {
-    "description": "Vaping milestone day 3 title"
-  },
-  "vapingMilestone3Description": "Ваши легкие танцуют счастливый танец! Бронхи начинают расслабляться, а емкость легких улучшается. Ощущение стеснения в груди от курения уже начинает проходить.",
-  "@vapingMilestone3Description": {
-    "description": "Vaping milestone day 3 description"
-  },
-  "vapingMilestone7Title": "Возвращение вкуса и запаха",
-  "@vapingMilestone7Title": {
-    "description": "Vaping milestone day 7 title"
-  },
-  "vapingMilestone7Description": "Еда снова станет потрясающе вкусной! Никотин приглушает вкусовые рецепторы и обонятельные рецепторы. Прошла неделя, и ваши сенсорные сверхспособности возвращаются.",
-  "@vapingMilestone7Description": {
-    "description": "Vaping milestone day 7 description"
-  },
-  "vapingMilestone14Title": "Улучшается кровообращение",
-  "@vapingMilestone14Title": {
-    "description": "Vaping milestone day 14 title"
-  },
-  "vapingMilestone14Description": "Кровообращение заметно улучшилось! Никотин сужает кровеносные сосуды, но за две недели без вейпа ваше кровообращение уже существенно восстановилось. Холодные руки и ноги должны беспокоить меньше.",
-  "@vapingMilestone14Description": {
-    "description": "Vaping milestone day 14 description"
-  },
-  "vapingMilestone30Title": "Восстановление функции легких",
-  "@vapingMilestone30Title": {
-    "description": "Vaping milestone day 30 title"
-  },
-  "vapingMilestone30Description": "Ваши легкие практически устраивают праздничный парад! Реснички (крошечные очистители легких) регенерировали, и функция легких значительно улучшилась. Тот утренний кашель ушел в историю!",
-  "@vapingMilestone30Description": {
-    "description": "Vaping milestone day 30 description"
-  },
-  "vapingMilestone60Title": "Уровень тревоги нормализуется",
-  "@vapingMilestone60Title": {
-    "description": "Vaping milestone day 60 title"
-  },
-  "vapingMilestone60Description": "Поворот сюжета: вейпинг только усиливал тревогу, а не улучшал ее! Через два месяца ваш обычный уровень тревоги снижается, а нервная система приходит в норму.",
-  "@vapingMilestone60Description": {
-    "description": "Vaping milestone day 60 description"
-  },
-  "vapingMilestone90Title": "Обострение внимания и памяти",
-  "@vapingMilestone90Title": {
-    "description": "Vaping milestone day 90 title"
-  },
-  "vapingMilestone90Description": "Мозговой туман покинул здание! Три месяца без никотина — и ваша концентрация, память и ясное мышление заметно улучшатся. Это похоже на обновление вашей умственной памяти.",
-  "@vapingMilestone90Description": {
-    "description": "Vaping milestone day 90 description"
-  },
-  "vapingMilestone180Title": "Восстановление здоровья полости рта",
-  "@vapingMilestone180Title": {
-    "description": "Vaping milestone day 180 title"
-  },
-  "vapingMilestone180Description": "Ваш рот шлет открытки с благодарностью! Шесть месяцев без вейпа, и воспаление десен уменьшается, окрашивание зубов исчезает, а риск возникновения проблем со здоровьем полости рта существенно снижается.",
-  "@vapingMilestone180Description": {
-    "description": "Vaping milestone day 180 description"
-  },
-  "vapingMilestone365Title": "Снижение сердечно-сосудистого риска",
-  "@vapingMilestone365Title": {
-    "description": "Vaping milestone day 365 title"
-  },
-  "vapingMilestone365Description": "Ваше сердце буквально сильнее! Всего один год, и ваш риск сердечно-сосудистых заболеваний значительно снизится. Ваша сердечно-сосудистая система восстановилась после ежедневного воздействия никотина.",
-  "@vapingMilestone365Description": {
-    "description": "Vaping milestone day 365 description"
-  },
   "marijuanaMilestone1Title": "Начинаются симптомы абстиненции",
   "@marijuanaMilestone1Title": {
     "description": "Marijuana milestone day 1 title"
@@ -2554,5 +2482,43 @@
   "settingsLocalePersian": "Персидский",
   "@settingsLocalePersian": {
     "description": "Persian language option"
+  },
+  "vapingStreakTitle": "Без вейпа: день {days}",
+  "@vapingStreakTitle": {
+    "description": "Vaping milestone title with elapsed day count",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "vapingDay1Description": "Первый день без вейпа. Если Ваш вейп содержал никотин, тяга, раздражительность, беспокойство, сниженное настроение, плохой сон или туман в голове могут быть симптомами никотиновой отмены — не повод снова её подпитывать. В любом случае Вы уже разрываете цикл вейпинга.",
+  "@vapingDay1Description": {
+    "description": "Vaping milestone day 1 evidence-based description"
+  },
+  "vapingDay3Description": "Три дня без вейпа. В клиническом исследовании бывших курильщиков, ежедневно использовавших электронные сигареты, симптомы отмены усиливались в первые два дня воздержания, а затем шли по типичной кривой подъёма и спада. Острую раннюю волну Вы уже прошли; тяга ещё может приходить, но не она у руля.",
+  "@vapingDay3Description": {
+    "description": "Vaping milestone day 3 evidence-based description"
+  },
+  "vapingDay7Description": "Семь полных дней без вдыхания аэрозоля вейпа. Это неделя без новой экспозиции от вейпинга к никотину, ультрамелким частицам, тяжёлым металлам, летучим органическим соединениям и другим вредным веществам, которые может содержать аэрозоль. Чистая серия — продолжайте.",
+  "@vapingDay7Description": {
+    "description": "Vaping milestone day 7 evidence-based description"
+  },
+  "vapingLongStreakDescription": "{days} дней без новой затяжки аэрозолем вейпа. Это {days} дней без новой экспозиции к вредным веществам, которые может переносить аэрозоль. Если Ваш вейп содержал никотин, это ещё и {days} дней без усиления этой зависимости. Огромная серия — двигайтесь дальше.",
+  "@vapingLongStreakDescription": {
+    "description": "Vaping long-streak evidence-based description",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "vapingWithdrawalReference": "Воздержание от электронных сигарет и синдром отмены\n\nИсточник: Hughes et al., Nicotine & Tobacco Research (2020)\n\nУ 109 бывших курильщиков, ежедневно использовавших электронные сигареты, шесть дней биологически подтверждённого воздержания усилили симптомы никотиновой отмены и тягу. Симптомы следовали типичной кривой подъёма и спада, с выраженным усилением в первые два дня воздержания. Исследование подтверждает реальную отмену электронных сигарет, но не задаёт универсальные сроки восстановления по дням.",
+  "@vapingWithdrawalReference": {
+    "description": "Localized reference summary for e-cigarette abstinence and withdrawal"
+  },
+  "vapingHealthReference": "Чему подвергает вейпинг\n\nИсточник: CDC — Health Effects of Vaping\n\nCDC сообщает, что большинство электронных сигарет содержат вызывающий зависимость никотин. Аэрозоль может содержать никотин, канцерогенные вещества, тяжёлые металлы — никель, олово и свинец, мелкие частицы, проникающие глубоко в лёгкие, летучие органические соединения и некоторые вредные ароматизаторы. Никотиновая отмена может вызывать раздражительность, тревогу или беспокойство, сниженное настроение, проблемы со сном и концентрацией, голод и тягу; со временем эти симптомы ослабевают. Долгосрочные последствия вейпинга всё ещё изучаются, поэтому Quitter отмечает реальное воздержание, а не копирует сигаретные сроки для угарного газа, смол, рака или сердечного риска.",
+  "@vapingHealthReference": {
+    "description": "Localized reference summary for CDC vaping health effects"
   }
 }

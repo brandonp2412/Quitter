@@ -2210,69 +2210,6 @@ class AppLocalizationsPt extends AppLocalizations {
       'Cinco anos de vitória! Está a entrar na janela dos 5–10 anos em que o risco adicional de cancros da boca, garganta e laringe cai para metade, enquanto o risco de AVC continua a descer. Os benefícios a longo prazo estão agora a ganhar força.';
 
   @override
-  String get vapingMilestone1Title => 'Pico do desejo por nicotina';
-
-  @override
-  String get vapingMilestone1Description =>
-      'Seu cérebro está fazendo birra de nicotina, mas já está ganhando! Dentro de 24 horas, os níveis de nicotina caem drasticamente. Os piores desejos acontecem agora, mas também são os mais importantes para superar.';
-
-  @override
-  String get vapingMilestone3Title => 'A respiração melhora';
-
-  @override
-  String get vapingMilestone3Description =>
-      'Seus pulmões estão dançando alegremente! Os tubos brônquicos começam a relaxar e a capacidade pulmonar começa a melhorar. Aquela sensação de aperto no peito por causa da vaporização já está começando a diminuir.';
-
-  @override
-  String get vapingMilestone7Title => 'Retorno de sabor e cheiro';
-
-  @override
-  String get vapingMilestone7Description =>
-      'A comida está prestes a ficar deliciosa novamente! A nicotina amortece as papilas gustativas e os receptores olfativos. Uma semana depois, seus superpoderes sensoriais estão fazendo sua turnê de retorno.';
-
-  @override
-  String get vapingMilestone14Title => 'A circulação melhora';
-
-  @override
-  String get vapingMilestone14Description =>
-      'Seu sangue está fluindo como um campeão! A nicotina contrai os vasos sanguíneos, mas duas semanas sem fumar e a sua circulação melhora dramaticamente. Mãos e pés frios, vá embora!';
-
-  @override
-  String get vapingMilestone30Title => 'Recuperação da Função Pulmonar';
-
-  @override
-  String get vapingMilestone30Description =>
-      'Seus pulmões estão praticamente fazendo um desfile de comemoração! Os cílios (pequenos limpadores de pulmões) se regeneraram e a função pulmonar melhorou significativamente. Aquela tosse matinal é história!';
-
-  @override
-  String get vapingMilestone60Title => 'Níveis de ansiedade normalizam';
-
-  @override
-  String get vapingMilestone60Description =>
-      'Reviravolta na história: vaporizar estava piorando a ansiedade, não melhorando! Dois meses depois, seu nível habitual de ansiedade está mais baixo e seu sistema nervoso está se acalmando.';
-
-  @override
-  String get vapingMilestone90Title => 'Foco e memória nítida';
-
-  @override
-  String get vapingMilestone90Description =>
-      'A névoa cerebral saiu do prédio! Três meses sem nicotina e seu foco, memória e pensamento claro ficarão notavelmente melhores. É como atualizar sua RAM mental.';
-
-  @override
-  String get vapingMilestone180Title => 'Recuperação da saúde bucal';
-
-  @override
-  String get vapingMilestone180Description =>
-      'Sua boca está enviando cartões de agradecimento! Seis meses sem vape e a inflamação das gengivas diminui, as manchas nos dentes desaparecem e o risco de problemas de saúde bucal diminui substancialmente.';
-
-  @override
-  String get vapingMilestone365Title => 'Redução de Risco Cardiovascular';
-
-  @override
-  String get vapingMilestone365Description =>
-      'Seu coração está literalmente mais forte! Um ano inteiro e o risco de doenças cardíacas caiu significativamente. Seu sistema cardiovascular se recuperou do ataque diário da nicotina.';
-
-  @override
   String get marijuanaMilestone1Title => 'Começam os sintomas de abstinência';
 
   @override
@@ -3738,6 +3675,36 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get settingsLocalePersian => 'Persa';
+
+  @override
+  String vapingStreakTitle(int days) {
+    return 'Sem vapear: dia $days';
+  }
+
+  @override
+  String get vapingDay1Description =>
+      'Primeiro dia sem vape. Se o teu vape continha nicotina, desejos fortes, irritabilidade, inquietação, humor em baixo, sono pior ou dificuldade de concentração podem ser sintomas de privação de nicotina — não uma razão para voltar a alimentá-la. De qualquer forma, já estás a quebrar o ciclo do vaping.';
+
+  @override
+  String get vapingDay3Description =>
+      'Três dias sem vapear. Num estudo clínico com ex-fumadores que usavam cigarros eletrónicos diariamente, a abstinência aumentou nos primeiros dois dias e seguiu o padrão típico de subida e descida. Já atravessaste a forte onda inicial; os desejos ainda podem aparecer, mas não estão ao volante.';
+
+  @override
+  String get vapingDay7Description =>
+      'Sete dias completos sem inalar aerossol de vape. É uma semana sem nova exposição do vaping a nicotina, partículas ultrafinas, metais pesados, compostos orgânicos voláteis ou outras substâncias nocivas que o aerossol pode transportar. Bela sequência — continua.';
+
+  @override
+  String vapingLongStreakDescription(int days) {
+    return '$days dias sem dar mais uma passa de aerossol de vape. São $days dias sem nova exposição do vaping às substâncias nocivas que esse aerossol pode transportar. Se o teu vape continha nicotina, também são $days dias sem reforçar essa dependência. Sequência enorme — segue em frente.';
+  }
+
+  @override
+  String get vapingWithdrawalReference =>
+      'Abstinência de cigarros eletrónicos e sintomas de privação\n\nFonte: Hughes et al., Nicotine & Tobacco Research (2020)\n\nEm 109 ex-fumadores que usavam cigarros eletrónicos diariamente, seis dias de abstinência confirmada biologicamente aumentaram os sintomas de privação de nicotina e os desejos. Os sintomas seguiram o padrão típico de subida e descida, com um aumento forte nos primeiros dois dias de abstinência. O estudo confirma que a abstinência do vape é real, mas não estabelece um relógio universal de recuperação dia a dia.';
+
+  @override
+  String get vapingHealthReference =>
+      'A que te expõe o vaping\n\nFonte: CDC — Health Effects of Vaping\n\nO CDC indica que a maioria dos cigarros eletrónicos contém nicotina aditiva. O aerossol pode conter nicotina, substâncias cancerígenas, metais pesados como níquel, estanho e chumbo, partículas minúsculas que chegam ao fundo dos pulmões, compostos orgânicos voláteis e alguns aromatizantes nocivos. A privação de nicotina pode causar irritabilidade, ansiedade ou inquietação, humor em baixo, problemas de sono e concentração, fome e desejos, e estes sintomas diminuem com o tempo. Os efeitos de longo prazo do vaping continuam a ser estudados, por isso o Quitter celebra a abstinência real em vez de copiar os prazos do cigarro para monóxido de carbono, alcatrão, cancro ou risco cardíaco.';
 }
 
 /// The translations for Portuguese, as used in Brazil (`pt_BR`).

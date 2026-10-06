@@ -3816,114 +3816,6 @@ abstract class AppLocalizations {
   /// **'Five years of victory! You’re entering the 5–10 year window where the added risk of mouth, throat, and voice-box cancers drops by half, while stroke risk keeps falling. The long-game benefits are kicking in hard.'**
   String get smokingMilestone1825Description;
 
-  /// Vaping milestone day 1 title
-  ///
-  /// In en, this message translates to:
-  /// **'Nicotine Cravings Peak'**
-  String get vapingMilestone1Title;
-
-  /// Vaping milestone day 1 description
-  ///
-  /// In en, this message translates to:
-  /// **'Your brain is throwing a nicotine tantrum, but you\'re already winning! Within 24 hours, nicotine levels drop dramatically. The worst cravings happen now, but they\'re also the most important to push through.'**
-  String get vapingMilestone1Description;
-
-  /// Vaping milestone day 3 title
-  ///
-  /// In en, this message translates to:
-  /// **'Breathing Improves'**
-  String get vapingMilestone3Title;
-
-  /// Vaping milestone day 3 description
-  ///
-  /// In en, this message translates to:
-  /// **'Your lungs are doing a happy dance! Bronchial tubes begin to relax and lung capacity starts improving. That tight chest feeling from vaping is already beginning to ease up.'**
-  String get vapingMilestone3Description;
-
-  /// Vaping milestone day 7 title
-  ///
-  /// In en, this message translates to:
-  /// **'Taste & Smell Return'**
-  String get vapingMilestone7Title;
-
-  /// Vaping milestone day 7 description
-  ///
-  /// In en, this message translates to:
-  /// **'Food is about to taste amazing again! Nicotine dampens taste buds and smell receptors. A week in, and your sensory superpowers are making their comeback tour.'**
-  String get vapingMilestone7Description;
-
-  /// Vaping milestone day 14 title
-  ///
-  /// In en, this message translates to:
-  /// **'Circulation Improves'**
-  String get vapingMilestone14Title;
-
-  /// Vaping milestone day 14 description
-  ///
-  /// In en, this message translates to:
-  /// **'Your blood is flowing like a champion! Nicotine constricts blood vessels, but two weeks smoke-free and your circulation is dramatically improving. Cold hands and feet, begone!'**
-  String get vapingMilestone14Description;
-
-  /// Vaping milestone day 30 title
-  ///
-  /// In en, this message translates to:
-  /// **'Lung Function Recovery'**
-  String get vapingMilestone30Title;
-
-  /// Vaping milestone day 30 description
-  ///
-  /// In en, this message translates to:
-  /// **'Your lungs are practically throwing a celebration parade! Cilia (tiny lung cleaners) have regenerated and lung function has improved significantly. That morning cough is history!'**
-  String get vapingMilestone30Description;
-
-  /// Vaping milestone day 60 title
-  ///
-  /// In en, this message translates to:
-  /// **'Anxiety Levels Normalize'**
-  String get vapingMilestone60Title;
-
-  /// Vaping milestone day 60 description
-  ///
-  /// In en, this message translates to:
-  /// **'Plot twist: vaping was making anxiety worse, not better! Two months in, your usual anxiety level is lower and your nervous system is settling.'**
-  String get vapingMilestone60Description;
-
-  /// Vaping milestone day 90 title
-  ///
-  /// In en, this message translates to:
-  /// **'Focus and Memory Sharpen'**
-  String get vapingMilestone90Title;
-
-  /// Vaping milestone day 90 description
-  ///
-  /// In en, this message translates to:
-  /// **'Brain fog has left the building! Three months without nicotine and your focus, memory, and clear thinking are markedly better. It\'s like upgrading your mental RAM.'**
-  String get vapingMilestone90Description;
-
-  /// Vaping milestone day 180 title
-  ///
-  /// In en, this message translates to:
-  /// **'Oral Health Recovery'**
-  String get vapingMilestone180Title;
-
-  /// Vaping milestone day 180 description
-  ///
-  /// In en, this message translates to:
-  /// **'Your mouth is sending thank-you cards! Six months vape-free and gum inflammation decreases, tooth staining fades, and your risk of oral health issues drops substantially.'**
-  String get vapingMilestone180Description;
-
-  /// Vaping milestone day 365 title
-  ///
-  /// In en, this message translates to:
-  /// **'Cardiovascular Risk Reduction'**
-  String get vapingMilestone365Title;
-
-  /// Vaping milestone day 365 description
-  ///
-  /// In en, this message translates to:
-  /// **'Your heart is literally stronger! One full year and your risk of heart disease has dropped significantly. Your cardiovascular system has recovered from nicotine\'s daily assault course.'**
-  String get vapingMilestone365Description;
-
   /// Marijuana milestone day 1 title
   ///
   /// In en, this message translates to:
@@ -6245,6 +6137,48 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Persian'**
   String get settingsLocalePersian;
+
+  /// Vaping milestone title with elapsed day count
+  ///
+  /// In en, this message translates to:
+  /// **'Vape-free: day {days}'**
+  String vapingStreakTitle(int days);
+
+  /// Vaping milestone day 1 evidence-based description
+  ///
+  /// In en, this message translates to:
+  /// **'Day one without the vape. If your vape contained nicotine, cravings, irritability, restlessness, low mood, poor sleep or fuzzy focus can be nicotine withdrawal — not a reason to feed it. Either way, you’re already breaking the vaping loop.'**
+  String get vapingDay1Description;
+
+  /// Vaping milestone day 3 evidence-based description
+  ///
+  /// In en, this message translates to:
+  /// **'Three days vape-free. In a clinical study of former smokers who vaped daily, withdrawal rose during the first two abstinent days and followed the classic rise-and-fall pattern. You’ve made it through that sharp early surge; cravings can still show up, but they don’t own the controls.'**
+  String get vapingDay3Description;
+
+  /// Vaping milestone day 7 evidence-based description
+  ///
+  /// In en, this message translates to:
+  /// **'Seven full days without inhaling vape aerosol. That’s a week with no new vaping exposure to nicotine, ultrafine particles, heavy metals, volatile organic compounds or other harmful substances the aerosol can carry. Clear streak — keep it rolling.'**
+  String get vapingDay7Description;
+
+  /// Vaping long-streak evidence-based description
+  ///
+  /// In en, this message translates to:
+  /// **'{days} days without taking another hit of vape aerosol. That’s {days} days with no new vaping exposure to the harmful substances that aerosol can carry. If your vape contained nicotine, it’s also {days} days without reinforcing that dependence. Huge streak — keep it moving.'**
+  String vapingLongStreakDescription(int days);
+
+  /// Localized reference summary for e-cigarette abstinence and withdrawal
+  ///
+  /// In en, this message translates to:
+  /// **'E-cigarette abstinence and withdrawal\n\nSource: Hughes et al., Nicotine & Tobacco Research (2020)\n\nIn 109 former smokers who were daily e-cigarette users, six days of biologically confirmed abstinence increased nicotine-withdrawal symptoms and cravings. Symptoms followed the classic rise-and-fall pattern of withdrawal, with a strong increase during the first two abstinent days. The study supports real e-cigarette withdrawal; it does not establish a universal day-by-day recovery clock.'**
+  String get vapingWithdrawalReference;
+
+  /// Localized reference summary for CDC vaping health effects
+  ///
+  /// In en, this message translates to:
+  /// **'What vaping exposes you to\n\nSource: CDC — Health Effects of Vaping\n\nCDC says most e-cigarettes contain addictive nicotine. Vape aerosol can contain nicotine, cancer-causing chemicals, heavy metals such as nickel, tin and lead, tiny particles that reach deep into the lungs, volatile organic compounds, and some harmful flavoring chemicals. Nicotine withdrawal can include irritability, anxiety or restlessness, low mood, sleep and concentration problems, hunger and cravings, and these symptoms fade over time. Long-term vaping effects are still being studied, so Quitter celebrates sustained abstinence instead of borrowing cigarette carbon-monoxide, tar, cancer or heart-risk timelines.'**
+  String get vapingHealthReference;
 }
 
 class _AppLocalizationsDelegate

@@ -2206,69 +2206,6 @@ class AppLocalizationsEs extends AppLocalizations {
       '¡Cinco años de victoria! Entras en la ventana de 5–10 años en la que el riesgo añadido de cáncer de boca, garganta y laringe se reduce a la mitad, mientras el riesgo de ictus sigue bajando. Los beneficios a largo plazo ya están pegando fuerte.';
 
   @override
-  String get vapingMilestone1Title => 'Los deseos de nicotina alcanzan su pico';
-
-  @override
-  String get vapingMilestone1Description =>
-      'Tu cerebro protesta por la falta de nicotina, ¡pero ya estás avanzando! En 24 horas, los niveles de nicotina bajan drásticamente. Los deseos más intensos aparecen ahora, y superarlos es especialmente importante.';
-
-  @override
-  String get vapingMilestone3Title => 'Mejora la respiración';
-
-  @override
-  String get vapingMilestone3Description =>
-      '¡Tus pulmones empiezan a notarlo! Los bronquios comienzan a relajarse y la capacidad pulmonar empieza a mejorar. Esa sensación de opresión en el pecho asociada al vapeo ya empieza a disminuir.';
-
-  @override
-  String get vapingMilestone7Title => 'Regresan el gusto y el olfato';
-
-  @override
-  String get vapingMilestone7Description =>
-      '¡La comida está a punto de volver a saber genial! La nicotina reduce la sensibilidad de las papilas gustativas y los receptores del olfato. Tras una semana, tus sentidos empiezan a recuperar intensidad.';
-
-  @override
-  String get vapingMilestone14Title => 'Mejora la circulación';
-
-  @override
-  String get vapingMilestone14Description =>
-      '¡Tu sangre circula mucho mejor! La nicotina contrae los vasos sanguíneos, pero después de dos semanas sin vapear la circulación mejora notablemente. Las manos y los pies fríos pueden empezar a quedar atrás.';
-
-  @override
-  String get vapingMilestone30Title => 'Recuperación de la función pulmonar';
-
-  @override
-  String get vapingMilestone30Description =>
-      '¡Tus pulmones casi están de celebración! Los cilios, esos pequeños limpiadores de los pulmones, se han regenerado y la función pulmonar ha mejorado considerablemente. Esa tos matutina puede quedar atrás.';
-
-  @override
-  String get vapingMilestone60Title => 'Los niveles de ansiedad se normalizan';
-
-  @override
-  String get vapingMilestone60Description =>
-      'Giro inesperado: vapear empeoraba la ansiedad en lugar de aliviarla. Tras dos meses, tu nivel habitual de ansiedad es menor y el sistema nervioso se está estabilizando.';
-
-  @override
-  String get vapingMilestone90Title => 'Mejoran la concentración y la memoria';
-
-  @override
-  String get vapingMilestone90Description =>
-      '¡La niebla mental se ha marchado! Tras tres meses sin nicotina, la concentración, la memoria y la claridad de pensamiento son notablemente mejores. Es como ampliar la RAM mental.';
-
-  @override
-  String get vapingMilestone180Title => 'Recuperación de la salud bucal';
-
-  @override
-  String get vapingMilestone180Description =>
-      '¡Tu boca te lo agradece! Tras seis meses sin vapear disminuye la inflamación de las encías, se reducen las manchas dentales y baja considerablemente el riesgo de problemas de salud bucal.';
-
-  @override
-  String get vapingMilestone365Title => 'Reducción del riesgo cardiovascular';
-
-  @override
-  String get vapingMilestone365Description =>
-      '¡Tu corazón está literalmente más fuerte! Tras un año completo, el riesgo de enfermedad cardíaca ha disminuido de forma importante. Tu sistema cardiovascular se ha recuperado de la exposición diaria a la nicotina.';
-
-  @override
   String get marijuanaMilestone1Title =>
       'Comienzan los síntomas de abstinencia';
 
@@ -3740,4 +3677,34 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get settingsLocalePersian => 'Persa';
+
+  @override
+  String vapingStreakTitle(int days) {
+    return 'Sin vapear: día $days';
+  }
+
+  @override
+  String get vapingDay1Description =>
+      'Primer día sin vapeo. Si tu vape contenía nicotina, las ganas intensas, irritabilidad, inquietud, bajón de ánimo, mal sueño o dificultad para concentrarte pueden ser abstinencia de nicotina — no una razón para volver a alimentarla. En cualquier caso, ya estás rompiendo el ciclo del vapeo.';
+
+  @override
+  String get vapingDay3Description =>
+      'Tres días sin vapear. En un estudio clínico con exfumadores que usaban cigarrillos electrónicos a diario, la abstinencia aumentó durante los dos primeros días y siguió el patrón típico de subir y bajar. Ya cruzaste esa oleada inicial fuerte; las ganas pueden aparecer, pero no llevan el volante.';
+
+  @override
+  String get vapingDay7Description =>
+      'Siete días completos sin inhalar aerosol de vapeo. Es una semana sin nueva exposición por vapeo a nicotina, partículas ultrafinas, metales pesados, compuestos orgánicos volátiles u otras sustancias dañinas que puede contener el aerosol. Racha limpia — sigue así.';
+
+  @override
+  String vapingLongStreakDescription(int days) {
+    return '$days días sin dar otra calada de aerosol de vapeo. Son $days días sin nueva exposición por vapeo a las sustancias dañinas que puede transportar ese aerosol. Si tu vape contenía nicotina, también son $days días sin reforzar esa dependencia. Racha enorme — sigue avanzando.';
+  }
+
+  @override
+  String get vapingWithdrawalReference =>
+      'Abstinencia de cigarrillos electrónicos y síndrome de retirada\n\nFuente: Hughes et al., Nicotine & Tobacco Research (2020)\n\nEn 109 exfumadores que usaban cigarrillos electrónicos a diario, seis días de abstinencia confirmada biológicamente aumentaron los síntomas de abstinencia de nicotina y las ganas de vapear. Los síntomas siguieron el patrón típico de subida y bajada, con un aumento marcado durante los dos primeros días. El estudio respalda que la abstinencia del vapeo es real, pero no establece un reloj universal de recuperación día a día.';
+
+  @override
+  String get vapingHealthReference =>
+      'A qué te expone el vapeo\n\nFuente: CDC — Health Effects of Vaping\n\nLos CDC indican que la mayoría de los cigarrillos electrónicos contienen nicotina adictiva. El aerosol puede contener nicotina, sustancias cancerígenas, metales pesados como níquel, estaño y plomo, partículas que llegan profundamente a los pulmones, compuestos orgánicos volátiles y algunos aromatizantes dañinos. La abstinencia de nicotina puede causar irritabilidad, ansiedad o inquietud, ánimo bajo, problemas de sueño y concentración, hambre y ganas intensas, y estos síntomas disminuyen con el tiempo. Los efectos a largo plazo del vapeo siguen estudiándose, así que Quitter celebra la abstinencia real en vez de copiar los plazos del cigarrillo para monóxido de carbono, alquitrán, cáncer o riesgo cardíaco.';
 }

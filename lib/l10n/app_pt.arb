@@ -1715,78 +1715,6 @@
   "@smokingMilestone1825Description": {
     "description": "Smoking milestone day 1825 description"
   },
-  "vapingMilestone1Title": "Pico do desejo por nicotina",
-  "@vapingMilestone1Title": {
-    "description": "Vaping milestone day 1 title"
-  },
-  "vapingMilestone1Description": "Seu cérebro está fazendo birra de nicotina, mas já está ganhando! Dentro de 24 horas, os níveis de nicotina caem drasticamente. Os piores desejos acontecem agora, mas também são os mais importantes para superar.",
-  "@vapingMilestone1Description": {
-    "description": "Vaping milestone day 1 description"
-  },
-  "vapingMilestone3Title": "A respiração melhora",
-  "@vapingMilestone3Title": {
-    "description": "Vaping milestone day 3 title"
-  },
-  "vapingMilestone3Description": "Seus pulmões estão dançando alegremente! Os tubos brônquicos começam a relaxar e a capacidade pulmonar começa a melhorar. Aquela sensação de aperto no peito por causa da vaporização já está começando a diminuir.",
-  "@vapingMilestone3Description": {
-    "description": "Vaping milestone day 3 description"
-  },
-  "vapingMilestone7Title": "Retorno de sabor e cheiro",
-  "@vapingMilestone7Title": {
-    "description": "Vaping milestone day 7 title"
-  },
-  "vapingMilestone7Description": "A comida está prestes a ficar deliciosa novamente! A nicotina amortece as papilas gustativas e os receptores olfativos. Uma semana depois, seus superpoderes sensoriais estão fazendo sua turnê de retorno.",
-  "@vapingMilestone7Description": {
-    "description": "Vaping milestone day 7 description"
-  },
-  "vapingMilestone14Title": "A circulação melhora",
-  "@vapingMilestone14Title": {
-    "description": "Vaping milestone day 14 title"
-  },
-  "vapingMilestone14Description": "Seu sangue está fluindo como um campeão! A nicotina contrai os vasos sanguíneos, mas duas semanas sem fumar e a sua circulação melhora dramaticamente. Mãos e pés frios, vá embora!",
-  "@vapingMilestone14Description": {
-    "description": "Vaping milestone day 14 description"
-  },
-  "vapingMilestone30Title": "Recuperação da Função Pulmonar",
-  "@vapingMilestone30Title": {
-    "description": "Vaping milestone day 30 title"
-  },
-  "vapingMilestone30Description": "Seus pulmões estão praticamente fazendo um desfile de comemoração! Os cílios (pequenos limpadores de pulmões) se regeneraram e a função pulmonar melhorou significativamente. Aquela tosse matinal é história!",
-  "@vapingMilestone30Description": {
-    "description": "Vaping milestone day 30 description"
-  },
-  "vapingMilestone60Title": "Níveis de ansiedade normalizam",
-  "@vapingMilestone60Title": {
-    "description": "Vaping milestone day 60 title"
-  },
-  "vapingMilestone60Description": "Reviravolta na história: vaporizar estava piorando a ansiedade, não melhorando! Dois meses depois, seu nível habitual de ansiedade está mais baixo e seu sistema nervoso está se acalmando.",
-  "@vapingMilestone60Description": {
-    "description": "Vaping milestone day 60 description"
-  },
-  "vapingMilestone90Title": "Foco e memória nítida",
-  "@vapingMilestone90Title": {
-    "description": "Vaping milestone day 90 title"
-  },
-  "vapingMilestone90Description": "A névoa cerebral saiu do prédio! Três meses sem nicotina e seu foco, memória e pensamento claro ficarão notavelmente melhores. É como atualizar sua RAM mental.",
-  "@vapingMilestone90Description": {
-    "description": "Vaping milestone day 90 description"
-  },
-  "vapingMilestone180Title": "Recuperação da saúde bucal",
-  "@vapingMilestone180Title": {
-    "description": "Vaping milestone day 180 title"
-  },
-  "vapingMilestone180Description": "Sua boca está enviando cartões de agradecimento! Seis meses sem vape e a inflamação das gengivas diminui, as manchas nos dentes desaparecem e o risco de problemas de saúde bucal diminui substancialmente.",
-  "@vapingMilestone180Description": {
-    "description": "Vaping milestone day 180 description"
-  },
-  "vapingMilestone365Title": "Redução de Risco Cardiovascular",
-  "@vapingMilestone365Title": {
-    "description": "Vaping milestone day 365 title"
-  },
-  "vapingMilestone365Description": "Seu coração está literalmente mais forte! Um ano inteiro e o risco de doenças cardíacas caiu significativamente. Seu sistema cardiovascular se recuperou do ataque diário da nicotina.",
-  "@vapingMilestone365Description": {
-    "description": "Vaping milestone day 365 description"
-  },
   "marijuanaMilestone1Title": "Começam os sintomas de abstinência",
   "@marijuanaMilestone1Title": {
     "description": "Marijuana milestone day 1 title"
@@ -2557,5 +2485,43 @@
   "settingsLocalePersian": "Persa",
   "@settingsLocalePersian": {
     "description": "Persian language option"
+  },
+  "vapingStreakTitle": "Sem vapear: dia {days}",
+  "@vapingStreakTitle": {
+    "description": "Vaping milestone title with elapsed day count",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "vapingDay1Description": "Primeiro dia sem vape. Se o teu vape continha nicotina, desejos fortes, irritabilidade, inquietação, humor em baixo, sono pior ou dificuldade de concentração podem ser sintomas de privação de nicotina — não uma razão para voltar a alimentá-la. De qualquer forma, já estás a quebrar o ciclo do vaping.",
+  "@vapingDay1Description": {
+    "description": "Vaping milestone day 1 evidence-based description"
+  },
+  "vapingDay3Description": "Três dias sem vapear. Num estudo clínico com ex-fumadores que usavam cigarros eletrónicos diariamente, a abstinência aumentou nos primeiros dois dias e seguiu o padrão típico de subida e descida. Já atravessaste a forte onda inicial; os desejos ainda podem aparecer, mas não estão ao volante.",
+  "@vapingDay3Description": {
+    "description": "Vaping milestone day 3 evidence-based description"
+  },
+  "vapingDay7Description": "Sete dias completos sem inalar aerossol de vape. É uma semana sem nova exposição do vaping a nicotina, partículas ultrafinas, metais pesados, compostos orgânicos voláteis ou outras substâncias nocivas que o aerossol pode transportar. Bela sequência — continua.",
+  "@vapingDay7Description": {
+    "description": "Vaping milestone day 7 evidence-based description"
+  },
+  "vapingLongStreakDescription": "{days} dias sem dar mais uma passa de aerossol de vape. São {days} dias sem nova exposição do vaping às substâncias nocivas que esse aerossol pode transportar. Se o teu vape continha nicotina, também são {days} dias sem reforçar essa dependência. Sequência enorme — segue em frente.",
+  "@vapingLongStreakDescription": {
+    "description": "Vaping long-streak evidence-based description",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "vapingWithdrawalReference": "Abstinência de cigarros eletrónicos e sintomas de privação\n\nFonte: Hughes et al., Nicotine & Tobacco Research (2020)\n\nEm 109 ex-fumadores que usavam cigarros eletrónicos diariamente, seis dias de abstinência confirmada biologicamente aumentaram os sintomas de privação de nicotina e os desejos. Os sintomas seguiram o padrão típico de subida e descida, com um aumento forte nos primeiros dois dias de abstinência. O estudo confirma que a abstinência do vape é real, mas não estabelece um relógio universal de recuperação dia a dia.",
+  "@vapingWithdrawalReference": {
+    "description": "Localized reference summary for e-cigarette abstinence and withdrawal"
+  },
+  "vapingHealthReference": "A que te expõe o vaping\n\nFonte: CDC — Health Effects of Vaping\n\nO CDC indica que a maioria dos cigarros eletrónicos contém nicotina aditiva. O aerossol pode conter nicotina, substâncias cancerígenas, metais pesados como níquel, estanho e chumbo, partículas minúsculas que chegam ao fundo dos pulmões, compostos orgânicos voláteis e alguns aromatizantes nocivos. A privação de nicotina pode causar irritabilidade, ansiedade ou inquietação, humor em baixo, problemas de sono e concentração, fome e desejos, e estes sintomas diminuem com o tempo. Os efeitos de longo prazo do vaping continuam a ser estudados, por isso o Quitter celebra a abstinência real em vez de copiar os prazos do cigarro para monóxido de carbono, alcatrão, cancro ou risco cardíaco.",
+  "@vapingHealthReference": {
+    "description": "Localized reference summary for CDC vaping health effects"
   }
 }

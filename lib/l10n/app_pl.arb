@@ -1339,7 +1339,7 @@
   "@alcoholSubtitleNotStarted": {
     "description": "Subtitle for not started alcohol quit journey"
   },
-  "vapingPageTitle": "Zwycięstwo bez pochwy",
+  "vapingPageTitle": "Zwycięstwo bez wapowania",
   "@vapingPageTitle": {
     "description": "Page title for vaping tracking"
   },
@@ -1714,78 +1714,6 @@
   "smokingMilestone1825Description": "Pięć lat zwycięstwa! Wchodzisz w okres 5–10 lat, w którym dodatkowe ryzyko nowotworów jamy ustnej, gardła i krtani spada o połowę, a ryzyko udaru nadal maleje. Długoterminowe korzyści właśnie nabierają rozpędu.",
   "@smokingMilestone1825Description": {
     "description": "Smoking milestone day 1825 description"
-  },
-  "vapingMilestone1Title": "Szczyt apetytu nikotyny",
-  "@vapingMilestone1Title": {
-    "description": "Vaping milestone day 1 title"
-  },
-  "vapingMilestone1Description": "W ciągu 24 godzin, poziom nikotyny spada dramatycznie. Najgorsze pragnienia zdarzają się teraz, ale są one również najważniejsze, aby przepchnąć.",
-  "@vapingMilestone1Description": {
-    "description": "Vaping milestone day 1 description"
-  },
-  "vapingMilestone3Title": "Poprawia oddychanie",
-  "@vapingMilestone3Title": {
-    "description": "Vaping milestone day 3 title"
-  },
-  "vapingMilestone3Description": "Twoje płuca robią szczęśliwy taniec! Rurki oskrzelowe zaczynają się relaksować i pojemność płuc zaczyna improwizować.",
-  "@vapingMilestone3Description": {
-    "description": "Vaping milestone day 3 description"
-  },
-  "vapingMilestone7Title": "Powrot zapachu smaku",
-  "@vapingMilestone7Title": {
-    "description": "Vaping milestone day 7 title"
-  },
-  "vapingMilestone7Description": "Jedzenie jest o smaku niesamowite ponownie! Nikotyna tłumi kubki smakowe i zapachu receptor. tydzień w, i swoje supermoce sensoryczne robią ich comeback tournee.",
-  "@vapingMilestone7Description": {
-    "description": "Vaping milestone day 7 description"
-  },
-  "vapingMilestone14Title": "Poprawa cyrkulacji",
-  "@vapingMilestone14Title": {
-    "description": "Vaping milestone day 14 title"
-  },
-  "vapingMilestone14Description": "Twoja krew płynie jak szampion! Nikotyna kondensatory krwi, ale dwa tygodnie wolne od dymu i krążenie jest dramatycznie improwizowane. zimne ręce i stopy, begone!",
-  "@vapingMilestone14Description": {
-    "description": "Vaping milestone day 14 description"
-  },
-  "vapingMilestone30Title": "Odzyskiwanie funkcji płuc",
-  "@vapingMilestone30Title": {
-    "description": "Vaping milestone day 30 title"
-  },
-  "vapingMilestone30Description": "Twoje płuca praktycznie rzucają paradę uroczystości! Cilia jest malutkich czyścicieli płuc) zregenerowały się i funkcje płuc znacznie się poprawiły.",
-  "@vapingMilestone30Description": {
-    "description": "Vaping milestone day 30 description"
-  },
-  "vapingMilestone60Title": "Lęk Poziom Normalize",
-  "@vapingMilestone60Title": {
-    "description": "Vaping milestone day 60 title"
-  },
-  "vapingMilestone60Description": "Plot twist: vaping był co lęk gorzej, nie lepiej! Dwa miesiące w, twój zwykły poziom lęku jest niższy i twój system nerwowy jest usadowiony.",
-  "@vapingMilestone60Description": {
-    "description": "Vaping milestone day 60 description"
-  },
-  "vapingMilestone90Title": "Naostrzanie ostrości i pamięci",
-  "@vapingMilestone90Title": {
-    "description": "Vaping milestone day 90 title"
-  },
-  "vapingMilestone90Description": "Mgła mózgowa opuściła budynek! Trzy miesiące bez nikotyny i twoje skupienie, pamięć, i jasne myślenie są znacznie lepsze.",
-  "@vapingMilestone90Description": {
-    "description": "Vaping milestone day 90 description"
-  },
-  "vapingMilestone180Title": "Regeneracja zdrowia jamy ustnej",
-  "@vapingMilestone180Title": {
-    "description": "Vaping milestone day 180 title"
-  },
-  "vapingMilestone180Description": "Twoje usta wysyłają podziękowania za karty! Sześć miesięcy bezpochwowe i zapalenie dziąseł, zabarwienie zębów fades, i ryzyko ustnych problemów zdrowotnych spada znacząco.",
-  "@vapingMilestone180Description": {
-    "description": "Vaping milestone day 180 description"
-  },
-  "vapingMilestone365Title": "Zmniejszenie ryzyka sercowo- naczyniowego",
-  "@vapingMilestone365Title": {
-    "description": "Vaping milestone day 365 title"
-  },
-  "vapingMilestone365Description": "Twoje serce jest dosłownie mocniejsze! Jeden pełny rok i ryzyko choroby serca spadła znacząco. Twój układ sercowo – naczyniowy odzyskał z nikotyneozy codzienne kurs napaści.",
-  "@vapingMilestone365Description": {
-    "description": "Vaping milestone day 365 description"
   },
   "marijuanaMilestone1Title": "Objawy odstawienne",
   "@marijuanaMilestone1Title": {
@@ -2557,5 +2485,43 @@
   "settingsLocalePersian": "Perski",
   "@settingsLocalePersian": {
     "description": "Persian language option"
+  },
+  "vapingStreakTitle": "Bez wapowania: dzień {days}",
+  "@vapingStreakTitle": {
+    "description": "Vaping milestone title with elapsed day count",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "vapingDay1Description": "Pierwszy dzień bez vape’a. Jeśli Twój vape zawierał nikotynę, głód, drażliwość, niepokój, gorszy nastrój, problemy ze snem albo skupieniem mogą być objawami odstawienia nikotyny — nie powodem, by znów ją podawać. Tak czy inaczej już przerywasz cykl wapowania.",
+  "@vapingDay1Description": {
+    "description": "Vaping milestone day 1 evidence-based description"
+  },
+  "vapingDay3Description": "Trzy dni bez wapowania. W badaniu klinicznym byłych palaczy codziennie używających e-papierosów objawy odstawienia nasiliły się w pierwszych dwóch dniach abstynencji, a potem miały typowy przebieg wzrostu i spadku. Najostrzejszą wczesną falę masz za sobą; głód może wracać, ale nie on trzyma kierownicę.",
+  "@vapingDay3Description": {
+    "description": "Vaping milestone day 3 evidence-based description"
+  },
+  "vapingDay7Description": "Pełne siedem dni bez wdychania aerozolu z vape’a. To tydzień bez nowej ekspozycji z wapowania na nikotynę, ultradrobne cząstki, metale ciężkie, lotne związki organiczne i inne szkodliwe substancje, które aerozol może zawierać. Czysta seria — jedź dalej.",
+  "@vapingDay7Description": {
+    "description": "Vaping milestone day 7 evidence-based description"
+  },
+  "vapingLongStreakDescription": "{days} dni bez kolejnego zaciągnięcia się aerozolem z vape’a. To {days} dni bez nowej ekspozycji z wapowania na szkodliwe substancje, które aerozol może zawierać. Jeśli Twój vape zawierał nikotynę, to także {days} dni bez wzmacniania tej zależności. Ogromna seria — kontynuuj.",
+  "@vapingLongStreakDescription": {
+    "description": "Vaping long-streak evidence-based description",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "vapingWithdrawalReference": "Abstynencja od e-papierosów i objawy odstawienia\n\nŹródło: Hughes i wsp., Nicotine & Tobacco Research (2020)\n\nU 109 byłych palaczy codziennie używających e-papierosów sześć dni biologicznie potwierdzonej abstynencji zwiększyło objawy odstawienia nikotyny i głód. Objawy miały typowy przebieg wzrostu i spadku, z wyraźnym nasileniem w pierwszych dwóch dniach abstynencji. Badanie potwierdza realne odstawienie e-papierosów, ale nie ustala uniwersalnego dziennego harmonogramu powrotu do zdrowia.",
+  "@vapingWithdrawalReference": {
+    "description": "Localized reference summary for e-cigarette abstinence and withdrawal"
+  },
+  "vapingHealthReference": "Na co naraża wapowanie\n\nŹródło: CDC — Health Effects of Vaping\n\nCDC podaje, że większość e-papierosów zawiera uzależniającą nikotynę. Aerozol może zawierać nikotynę, substancje rakotwórcze, metale ciężkie takie jak nikiel, cyna i ołów, drobne cząstki docierające głęboko do płuc, lotne związki organiczne oraz niektóre szkodliwe substancje smakowe. Odstawienie nikotyny może powodować drażliwość, lęk lub niepokój, obniżony nastrój, problemy ze snem i koncentracją, głód oraz silną chęć użycia; objawy z czasem słabną. Długoterminowe skutki wapowania są nadal badane, więc Quitter celebruje realną abstynencję zamiast kopiować z papierosów terminy dotyczące tlenku węgla, smoły, raka czy ryzyka sercowego.",
+  "@vapingHealthReference": {
+    "description": "Localized reference summary for CDC vaping health effects"
   }
 }

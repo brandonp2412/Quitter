@@ -2202,69 +2202,6 @@ class AppLocalizationsDe extends AppLocalizations {
       'Fünf Jahre Sieg! Sie treten jetzt in das 5-bis-10-Jahres-Fenster ein, in dem das zusätzliche Risiko für Mund-, Rachen- und Kehlkopfkrebs um die Hälfte sinkt, während das Schlaganfallrisiko weiter abnimmt. Die Langzeitgewinne legen jetzt richtig los.';
 
   @override
-  String get vapingMilestone1Title => 'Nikotin Cravings Peak';
-
-  @override
-  String get vapingMilestone1Description =>
-      'Dein Gehirn wirft einen Nikotin-Wutanfall, aber du gewinnst bereits! Innerhalb von 24 Stunden sinkt der Nikotinspiegel dramatisch. Die schlimmsten Heißhunger passieren jetzt, aber sie sind auch die wichtigsten durchzudrücken.';
-
-  @override
-  String get vapingMilestone3Title => 'Atmung verbessert';
-
-  @override
-  String get vapingMilestone3Description =>
-      'Deine Lungen tanzen fröhlich! Bronchien beginnen sich zu entspannen und die Lungenkapazität beginnt sich zu verbessern. Dieses enge Brustgefühl vom Dampfen fängt bereits an, sich zu entspannen.';
-
-  @override
-  String get vapingMilestone7Title => 'Geschmack & Geruch Rückkehr';
-
-  @override
-  String get vapingMilestone7Description =>
-      'Das Essen wird wieder erstaunlich schmecken! Nikotin dämpft Geschmacksknospen und Geruchsrezeptoren. Eine Woche später machen Ihre sensorischen Superkräfte ihre Comeback-Tour.';
-
-  @override
-  String get vapingMilestone14Title => 'Zirkulation verbessert';
-
-  @override
-  String get vapingMilestone14Description =>
-      'Dein Blut fließt wie ein Champion! Nikotin verengt die Blutgefäße, aber zwei Wochen rauchfrei und Ihre Durchblutung verbessert sich dramatisch. Kalte Hände und Füße, begone!';
-
-  @override
-  String get vapingMilestone30Title => 'Wiederherstellung der Lungenfunktion';
-
-  @override
-  String get vapingMilestone30Description =>
-      'Ihre Lungen werfen praktisch eine Feierparade! Zilien (winzige Lungenreiniger) haben sich regeneriert und die Lungenfunktion hat sich signifikant verbessert. Dieser Morgenhusten ist Geschichte!';
-
-  @override
-  String get vapingMilestone60Title => 'Angstniveaus normalisieren';
-
-  @override
-  String get vapingMilestone60Description =>
-      'Plot Twist: Vaping machte Angst schlimmer, nicht besser! Nach zwei Monaten ist Ihre übliche Angststufe niedriger und Ihr Nervensystem beruhigt sich.';
-
-  @override
-  String get vapingMilestone90Title => 'Focus und Memory Sharpen';
-
-  @override
-  String get vapingMilestone90Description =>
-      'Gehirnnebel hat das Gebäude verlassen! Drei Monate ohne Nikotin und Ihr Fokus, Gedächtnis und klares Denken sind deutlich besser. Es ist, als würde man seinen mentalen RAM verbessern.';
-
-  @override
-  String get vapingMilestone180Title => 'Erholung der Mundgesundheit';
-
-  @override
-  String get vapingMilestone180Description =>
-      'Dein Mund schickt Dankeskarten! Sechs Monate vape-frei und Zahnfleischentzündung nimmt ab, Zahnflecken verblassen, und das Risiko von Mundgesundheitsproblemen sinkt erheblich.';
-
-  @override
-  String get vapingMilestone365Title => 'Kardiovaskuläre Risikominderung';
-
-  @override
-  String get vapingMilestone365Description =>
-      'Dein Herz ist buchstäblich stärker! Ein ganzes Jahr und Ihr Risiko für Herzerkrankungen ist signifikant gesunken. Ihr Herz-Kreislauf-System hat sich vom täglichen Angriffsverlauf von Nikotin erholt.';
-
-  @override
   String get marijuanaMilestone1Title => 'Entzugserscheinungen beginnen';
 
   @override
@@ -3717,4 +3654,34 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get settingsLocalePersian => 'Persisch';
+
+  @override
+  String vapingStreakTitle(int days) {
+    return 'Vape-frei: Tag $days';
+  }
+
+  @override
+  String get vapingDay1Description =>
+      'Tag eins ohne Vape. Wenn dein Vape Nikotin enthielt, können Verlangen, Reizbarkeit, Unruhe, gedrückte Stimmung, schlechter Schlaf oder Konzentrationsnebel Nikotinentzug sein — kein Grund, ihn wieder zu füttern. So oder so durchbrichst du bereits die Vaping-Schleife.';
+
+  @override
+  String get vapingDay3Description =>
+      'Drei Tage vape-frei. In einer klinischen Studie mit ehemaligen Rauchern, die täglich E-Zigaretten nutzten, stieg der Entzug in den ersten zwei abstinenten Tagen an und zeigte den typischen Anstieg-und-Abfall-Verlauf. Die scharfe frühe Welle liegt hinter dir; Verlangen kann noch auftauchen, aber es sitzt nicht am Steuer.';
+
+  @override
+  String get vapingDay7Description =>
+      'Sieben volle Tage ohne Vape-Aerosol. Eine Woche ohne neue Exposition durch Vaping gegenüber Nikotin, ultrafeinen Partikeln, Schwermetallen, flüchtigen organischen Verbindungen und anderen schädlichen Stoffen, die das Aerosol enthalten kann. Starke Serie — weiter so.';
+
+  @override
+  String vapingLongStreakDescription(int days) {
+    return '$days Tage ohne einen weiteren Zug Vape-Aerosol. Das sind $days Tage ohne neue Vaping-Exposition gegenüber den schädlichen Stoffen, die das Aerosol enthalten kann. Wenn dein Vape Nikotin enthielt, sind es außerdem $days Tage, ohne diese Abhängigkeit weiter zu verstärken. Riesige Serie — bleib dran.';
+  }
+
+  @override
+  String get vapingWithdrawalReference =>
+      'E-Zigaretten-Abstinenz und Entzug\n\nQuelle: Hughes et al., Nicotine & Tobacco Research (2020)\n\nBei 109 ehemaligen Rauchern mit täglichem E-Zigaretten-Konsum führten sechs Tage biologisch bestätigter Abstinenz zu mehr Nikotinentzugssymptomen und Verlangen. Die Symptome zeigten den typischen Anstieg-und-Abfall-Verlauf, mit einem deutlichen Anstieg in den ersten zwei abstinenten Tagen. Die Studie belegt echten E-Zigaretten-Entzug, aber keinen universellen taggenauen Erholungsplan.';
+
+  @override
+  String get vapingHealthReference =>
+      'Womit Vaping dich belastet\n\nQuelle: CDC — Health Effects of Vaping\n\nLaut CDC enthalten die meisten E-Zigaretten süchtig machendes Nikotin. Vape-Aerosol kann Nikotin, krebserregende Chemikalien, Schwermetalle wie Nickel, Zinn und Blei, tief lungengängige Partikel, flüchtige organische Verbindungen und schädliche Aromastoffe enthalten. Nikotinentzug kann Reizbarkeit, Angst oder Unruhe, gedrückte Stimmung, Schlaf- und Konzentrationsprobleme, Hunger und Verlangen auslösen; diese Symptome lassen mit der Zeit nach. Langzeitfolgen des Vapings werden weiter erforscht, daher feiert Quitter echte Abstinenz statt Zigaretten-Zeitpläne für Kohlenmonoxid, Teer, Krebs oder Herzrisiko zu übernehmen.';
 }

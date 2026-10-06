@@ -2051,69 +2051,6 @@ class AppLocalizationsJa extends AppLocalizations {
       '禁煙5年の大勝利！口・のど・喉頭がんの上乗せリスクが半分に下がり、脳卒中リスクも下がり続ける5〜10年の期間に入りました。長期戦のメリットが本格的に効いてきます。';
 
   @override
-  String get vapingMilestone1Title => 'ニコチン渇望がピークに';
-
-  @override
-  String get vapingMilestone1Description =>
-      '脳がニコチンを求めて暴れていますが、あなたはもう勝ち始めています！24時間以内にニコチンレベルは劇的に低下します。最悪の渇望は今起きていますが、乗り越えることが最も重要です。';
-
-  @override
-  String get vapingMilestone3Title => '呼吸が改善';
-
-  @override
-  String get vapingMilestone3Description =>
-      '電子タバコをやめて3日。気管支がゆるみ始め、肺活量も改善に向かいます。ベイピングによる胸の締め付け感も和らぎ始めています。';
-
-  @override
-  String get vapingMilestone7Title => '味覚と嗅覚が戻る';
-
-  @override
-  String get vapingMilestone7Description =>
-      'ニコチンは味蕾と嗅覚受容体の働きを鈍らせます。電子タバコをやめて1週間で味覚と嗅覚が回復し始め、食べ物の味もより鮮明に感じられるようになります。';
-
-  @override
-  String get vapingMilestone14Title => '血行が改善';
-
-  @override
-  String get vapingMilestone14Description =>
-      'ニコチンは血管を収縮させますが、電子タバコをやめて2週間で血行は大きく改善します。手足の冷えも和らいでいきます。';
-
-  @override
-  String get vapingMilestone30Title => '肺機能の回復';
-
-  @override
-  String get vapingMilestone30Description =>
-      '電子タバコをやめて1ヶ月。気道の繊毛（肺の中を掃除する小さな毛）が再生し、肺機能が大きく改善しています。朝の咳も減ってきます。';
-
-  @override
-  String get vapingMilestone60Title => '不安レベルが正常化';
-
-  @override
-  String get vapingMilestone60Description =>
-      'どんでん返し：ベイピングは不安を良くするどころか悪化させていました！2ヶ月経つと、普段の不安レベルは低くなり、神経系も落ち着いてきます。';
-
-  @override
-  String get vapingMilestone90Title => '集中力と記憶力が鋭くなる';
-
-  @override
-  String get vapingMilestone90Description =>
-      '頭のもやはもう退場です！ニコチンなしで3ヶ月、集中力、記憶力、明晰な思考が大きく改善しています。まるで頭のRAMをアップグレードしたような感覚です。';
-
-  @override
-  String get vapingMilestone180Title => '口腔の健康が回復';
-
-  @override
-  String get vapingMilestone180Description =>
-      '電子タバコをやめて6ヶ月。歯茎の炎症が減り、歯の着色も薄くなり、口腔トラブルのリスクが大きく下がっています。';
-
-  @override
-  String get vapingMilestone365Title => '心血管リスクの低減';
-
-  @override
-  String get vapingMilestone365Description =>
-      '心臓が文字通り強くなりました！丸1年で心臓病のリスクが大幅に低下しました。心血管系がニコチンの日々の攻撃コースから回復しました。';
-
-  @override
   String get marijuanaMilestone1Title => '離脱症状が始まる';
 
   @override
@@ -3528,4 +3465,34 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get settingsLocalePersian => 'ペルシア語';
+
+  @override
+  String vapingStreakTitle(int days) {
+    return 'ベイプなし：$days日目';
+  }
+
+  @override
+  String get vapingDay1Description =>
+      'ベイプなしの1日目。使っていたベイプにニコチンが入っていたなら、強い欲求、イライラ、落ち着かなさ、気分の落ち込み、眠りにくさ、集中しづらさはニコチン離脱のことがあります。ニコチンを足す理由ではありません。どちらにしても、ベイプのループはもう断ち始めています。';
+
+  @override
+  String get vapingDay3Description =>
+      'ベイプなしで3日。毎日電子タバコを使っていた元喫煙者の臨床研究では、離脱症状は最初の2日間に増え、その後は典型的な上がって下がる経過を示しました。鋭い初期の波は越えています。欲求が来ても、主導権はあなたにあります。';
+
+  @override
+  String get vapingDay7Description =>
+      'ベイプのエアロゾルを吸わずに丸7日。ニコチン、超微粒子、重金属、揮発性有機化合物など、エアロゾルに含まれ得る有害物質への新たなベイプ由来曝露が1週間ありません。いい流れです。このまま続けましょう。';
+
+  @override
+  String vapingLongStreakDescription(int days) {
+    return 'ベイプのエアロゾルをもう一吸いもしないで$days日。エアロゾルに含まれ得る有害物質への新たなベイプ由来曝露も$days日ありません。使っていたベイプにニコチンが入っていたなら、その依存を強めずに$days日でもあります。大きな連続記録です。前へ進み続けましょう。';
+  }
+
+  @override
+  String get vapingWithdrawalReference =>
+      '電子タバコ断ちと離脱\n\n出典：Hughes ら, Nicotine & Tobacco Research (2020)\n\n毎日電子タバコを使っていた元喫煙者109人で、生物学的に確認された6日間の断ちによってニコチン離脱症状と欲求が増えました。症状は典型的な上がって下がる離脱パターンを示し、最初の2日間に強い増加が見られました。電子タバコの離脱が実在することは支持されますが、誰にでも当てはまる日単位の回復時計を示した研究ではありません。';
+
+  @override
+  String get vapingHealthReference =>
+      'ベイプで何に曝露されるか\n\n出典：CDC — Health Effects of Vaping\n\nCDCは、多くの電子タバコに依存性のあるニコチンが含まれるとしています。エアロゾルにはニコチン、発がん性化学物質、ニッケル・スズ・鉛などの重金属、肺の奥まで届く微粒子、揮発性有機化合物、一部の有害な香料成分が含まれることがあります。ニコチン離脱では、イライラ、不安や落ち着かなさ、気分の落ち込み、睡眠・集中の問題、空腹、欲求が起こり得て、時間とともに弱まります。ベイプの長期影響はまだ研究中なので、Quitterは紙巻きタバコの一酸化炭素、タール、がん、心血管リスクの時間軸を流用せず、実際の継続断ちを祝います。';
 }

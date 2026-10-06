@@ -2235,72 +2235,6 @@ class AppLocalizationsFr extends AppLocalizations {
       'Cinq ans de victoire ! Vous entrez dans la fenêtre des 5–10 ans où le sur-risque de cancers de la bouche, de la gorge et du larynx diminue de moitié, tandis que le risque d’AVC continue de baisser. Les bénéfices à long terme passent à la vitesse supérieure.';
 
   @override
-  String get vapingMilestone1Title =>
-      'Les envies de nicotine atteignent leur pic';
-
-  @override
-  String get vapingMilestone1Description =>
-      'Votre cerveau réclame sa nicotine, mais vous êtes déjà en train de gagner ! En 24 heures, le niveau de nicotine chute fortement. Les envies les plus intenses surviennent maintenant, mais ce sont aussi les plus importantes à dépasser.';
-
-  @override
-  String get vapingMilestone3Title => 'La respiration s\'améliore';
-
-  @override
-  String get vapingMilestone3Description =>
-      'Vos poumons respirent mieux ! Les bronches commencent à se détendre et la capacité pulmonaire à s\'améliorer. Cette sensation d\'oppression liée au vapotage commence déjà à diminuer.';
-
-  @override
-  String get vapingMilestone7Title => 'Le goût et l\'odorat reviennent';
-
-  @override
-  String get vapingMilestone7Description =>
-      'Les aliments vont retrouver toute leur saveur ! La nicotine atténue le goût et l\'odorat. Après une semaine, vos sens font leur grand retour.';
-
-  @override
-  String get vapingMilestone14Title => 'La circulation s\'améliore';
-
-  @override
-  String get vapingMilestone14Description =>
-      'Votre sang circule bien mieux ! La nicotine contracte les vaisseaux sanguins, mais après deux semaines sans vapotage, votre circulation s\'améliore nettement. Adieu les mains et les pieds froids !';
-
-  @override
-  String get vapingMilestone30Title => 'Récupération de la fonction pulmonaire';
-
-  @override
-  String get vapingMilestone30Description =>
-      'Vos poumons ont de quoi célébrer ! Les cils bronchiques, ces minuscules nettoyeurs des poumons, se sont régénérés et la fonction pulmonaire s\'est nettement améliorée. La toux du matin appartient au passé !';
-
-  @override
-  String get vapingMilestone60Title => 'Le niveau d\'anxiété se normalise';
-
-  @override
-  String get vapingMilestone60Description =>
-      'Surprise : le vapotage aggravait l\'anxiété au lieu de l\'apaiser ! Après deux mois, votre niveau habituel d\'anxiété est plus bas et votre système nerveux se stabilise.';
-
-  @override
-  String get vapingMilestone90Title =>
-      'La concentration et la mémoire s\'affinent';
-
-  @override
-  String get vapingMilestone90Description =>
-      'Le brouillard mental s\'est dissipé ! Après trois mois sans nicotine, votre concentration, votre mémoire et votre clarté mentale se sont nettement améliorées. Comme si votre mémoire vive mentale avait été augmentée.';
-
-  @override
-  String get vapingMilestone180Title =>
-      'Récupération de la santé bucco-dentaire';
-
-  @override
-  String get vapingMilestone180Description =>
-      'Votre bouche vous remercie ! Après six mois sans vapotage, l\'inflammation des gencives diminue, les taches sur les dents s\'estompent et votre risque de problèmes bucco-dentaires baisse nettement.';
-
-  @override
-  String get vapingMilestone365Title => 'Réduction du risque cardiovasculaire';
-
-  @override
-  String get vapingMilestone365Description =>
-      'Votre cœur est réellement plus fort ! Après une année entière, votre risque de maladie cardiaque a nettement diminué. Votre système cardiovasculaire a récupéré des agressions quotidiennes de la nicotine.';
-
-  @override
   String get marijuanaMilestone1Title => 'Début des symptômes de sevrage';
 
   @override
@@ -3772,4 +3706,34 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get settingsLocalePersian => 'Persan';
+
+  @override
+  String vapingStreakTitle(int days) {
+    return 'Sans vape : jour $days';
+  }
+
+  @override
+  String get vapingDay1Description =>
+      'Premier jour sans vape. Si ta vape contenait de la nicotine, envies fortes, irritabilité, agitation, moral en baisse, mauvais sommeil ou concentration floue peuvent être du sevrage nicotinique — pas une raison de le nourrir à nouveau. Dans tous les cas, tu casses déjà la boucle du vapotage.';
+
+  @override
+  String get vapingDay3Description =>
+      'Trois jours sans vape. Dans une étude clinique menée chez d’anciens fumeurs vapotant chaque jour, le sevrage a augmenté pendant les deux premiers jours d’abstinence puis a suivi le schéma classique de montée puis de baisse. Tu as passé la forte vague du début ; les envies peuvent encore surgir, mais elles ne tiennent pas le volant.';
+
+  @override
+  String get vapingDay7Description =>
+      'Sept jours complets sans inhaler d’aérosol de vape. Une semaine sans nouvelle exposition liée au vapotage à la nicotine, aux particules ultrafines, aux métaux lourds, aux composés organiques volatils ou à d’autres substances nocives que l’aérosol peut contenir. Belle série — continue.';
+
+  @override
+  String vapingLongStreakDescription(int days) {
+    return '$days jours sans reprendre une bouffée d’aérosol de vape. Cela fait $days jours sans nouvelle exposition liée au vapotage aux substances nocives que cet aérosol peut transporter. Si ta vape contenait de la nicotine, cela fait aussi $days jours sans renforcer cette dépendance. Énorme série — continue d’avancer.';
+  }
+
+  @override
+  String get vapingWithdrawalReference =>
+      'Abstinence de cigarette électronique et sevrage\n\nSource : Hughes et al., Nicotine & Tobacco Research (2020)\n\nChez 109 anciens fumeurs utilisant quotidiennement une cigarette électronique, six jours d’abstinence confirmée biologiquement ont augmenté les symptômes de sevrage nicotinique et les envies. Les symptômes ont suivi le schéma classique de montée puis de baisse, avec une forte hausse pendant les deux premiers jours d’abstinence. L’étude confirme un vrai sevrage lié à la cigarette électronique, mais n’établit pas un calendrier universel de récupération jour par jour.';
+
+  @override
+  String get vapingHealthReference =>
+      'Ce à quoi le vapotage t’expose\n\nSource : CDC — Health Effects of Vaping\n\nLes CDC indiquent que la plupart des cigarettes électroniques contiennent de la nicotine addictive. L’aérosol peut contenir de la nicotine, des substances cancérogènes, des métaux lourds comme le nickel, l’étain et le plomb, de très fines particules pouvant pénétrer profondément dans les poumons, des composés organiques volatils et certains arômes nocifs. Le sevrage nicotinique peut provoquer irritabilité, anxiété ou agitation, moral en baisse, troubles du sommeil et de la concentration, faim et envies ; ces symptômes diminuent avec le temps. Les effets à long terme du vapotage sont encore étudiés, donc Quitter célèbre l’abstinence réelle au lieu de reprendre les délais du tabac pour le monoxyde de carbone, le goudron, le cancer ou le risque cardiaque.';
 }

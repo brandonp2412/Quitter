@@ -1715,78 +1715,6 @@
   "@smokingMilestone1825Description": {
     "description": "Smoking milestone day 1825 description"
   },
-  "vapingMilestone1Title": "Puncak Mengidam Nikotin",
-  "@vapingMilestone1Title": {
-    "description": "Vaping milestone day 1 title"
-  },
-  "vapingMilestone1Description": "Otak Anda mengamuk nikotin, tapi Anda sudah menang! Dalam waktu 24 jam, kadar nikotin turun drastis. Nafsu mengidam yang terburuk memang terjadi saat ini, namun hal tersebut juga merupakan hal yang paling penting untuk dilampaui.",
-  "@vapingMilestone1Description": {
-    "description": "Vaping milestone day 1 description"
-  },
-  "vapingMilestone3Title": "Pernapasan Meningkat",
-  "@vapingMilestone3Title": {
-    "description": "Vaping milestone day 3 title"
-  },
-  "vapingMilestone3Description": "Paru-parumu menari gembira! Saluran bronkial mulai rileks dan kapasitas paru-paru mulai membaik. Rasa sesak di dada akibat vaping sudah mulai mereda.",
-  "@vapingMilestone3Description": {
-    "description": "Vaping milestone day 3 description"
-  },
-  "vapingMilestone7Title": "Pengembalian Rasa & Bau",
-  "@vapingMilestone7Title": {
-    "description": "Vaping milestone day 7 title"
-  },
-  "vapingMilestone7Description": "Makanan akan terasa luar biasa lagi! Nikotin meredam indra perasa dan reseptor penciuman. Seminggu berlalu, dan kekuatan super sensorik Anda kembali melakukan tur.",
-  "@vapingMilestone7Description": {
-    "description": "Vaping milestone day 7 description"
-  },
-  "vapingMilestone14Title": "Sirkulasi Meningkat",
-  "@vapingMilestone14Title": {
-    "description": "Vaping milestone day 14 title"
-  },
-  "vapingMilestone14Description": "Darahmu mengalir seperti seorang juara! Nikotin menyempitkan pembuluh darah, tetapi dua minggu bebas rokok dan sirkulasi Anda meningkat secara dramatis. Tangan dan kaki dingin, pergilah!",
-  "@vapingMilestone14Description": {
-    "description": "Vaping milestone day 14 description"
-  },
-  "vapingMilestone30Title": "Pemulihan Fungsi Paru-paru",
-  "@vapingMilestone30Title": {
-    "description": "Vaping milestone day 30 title"
-  },
-  "vapingMilestone30Description": "Paru-parumu seperti mengadakan parade perayaan! Silia (pembersih paru-paru kecil) telah beregenerasi dan fungsi paru-paru meningkat secara signifikan. Batuk pagi itu tinggal sejarah!",
-  "@vapingMilestone30Description": {
-    "description": "Vaping milestone day 30 description"
-  },
-  "vapingMilestone60Title": "Tingkat Kecemasan Menjadi Normal",
-  "@vapingMilestone60Title": {
-    "description": "Vaping milestone day 60 title"
-  },
-  "vapingMilestone60Description": "Plot twist: vaping memperburuk kecemasan, bukan lebih baik! Dua bulan kemudian, tingkat kecemasan Anda biasanya lebih rendah dan sistem saraf Anda mulai tenang.",
-  "@vapingMilestone60Description": {
-    "description": "Vaping milestone day 60 description"
-  },
-  "vapingMilestone90Title": "Fokus dan Mempertajam Memori",
-  "@vapingMilestone90Title": {
-    "description": "Vaping milestone day 90 title"
-  },
-  "vapingMilestone90Description": "Kabut otak telah meninggalkan gedung! Tiga bulan tanpa nikotin dan fokus, ingatan, serta pemikiran jernih Anda jauh lebih baik. Ini seperti meningkatkan RAM mental Anda.",
-  "@vapingMilestone90Description": {
-    "description": "Vaping milestone day 90 description"
-  },
-  "vapingMilestone180Title": "Pemulihan Kesehatan Mulut",
-  "@vapingMilestone180Title": {
-    "description": "Vaping milestone day 180 title"
-  },
-  "vapingMilestone180Description": "Mulutmu mengirimkan kartu ucapan terima kasih! Enam bulan bebas vape dan peradangan gusi berkurang, noda gigi memudar, dan risiko masalah kesehatan mulut menurun drastis.",
-  "@vapingMilestone180Description": {
-    "description": "Vaping milestone day 180 description"
-  },
-  "vapingMilestone365Title": "Pengurangan Risiko Kardiovaskular",
-  "@vapingMilestone365Title": {
-    "description": "Vaping milestone day 365 title"
-  },
-  "vapingMilestone365Description": "Hatimu benar-benar lebih kuat! Satu tahun penuh dan risiko penyakit jantung Anda turun secara signifikan. Sistem kardiovaskular Anda telah pulih dari serangan harian nikotin.",
-  "@vapingMilestone365Description": {
-    "description": "Vaping milestone day 365 description"
-  },
   "marijuanaMilestone1Title": "Gejala Penarikan Dimulai",
   "@marijuanaMilestone1Title": {
     "description": "Marijuana milestone day 1 title"
@@ -2557,5 +2485,43 @@
   "settingsLocalePersian": "Persia",
   "@settingsLocalePersian": {
     "description": "Persian language option"
+  },
+  "vapingStreakTitle": "Bebas vape: hari ke-{days}",
+  "@vapingStreakTitle": {
+    "description": "Vaping milestone title with elapsed day count",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "vapingDay1Description": "Hari pertama tanpa vape. Jika vape-mu mengandung nikotin, ngidam, mudah marah, gelisah, suasana hati turun, sulit tidur, atau susah fokus bisa menjadi gejala putus nikotin — bukan alasan untuk memberinya nikotin lagi. Apa pun itu, kamu sudah mulai memutus siklus vaping.",
+  "@vapingDay1Description": {
+    "description": "Vaping milestone day 1 evidence-based description"
+  },
+  "vapingDay3Description": "Tiga hari bebas vape. Dalam studi klinis pada mantan perokok yang memakai rokok elektronik setiap hari, gejala putus meningkat selama dua hari pertama tanpa vape lalu mengikuti pola naik-turun khas putus zat. Gelombang awal yang tajam sudah kamu lewati; ngidam masih bisa muncul, tapi bukan dia yang memegang kendali.",
+  "@vapingDay3Description": {
+    "description": "Vaping milestone day 3 evidence-based description"
+  },
+  "vapingDay7Description": "Tujuh hari penuh tanpa menghirup aerosol vape. Itu berarti seminggu tanpa paparan baru dari vaping terhadap nikotin, partikel ultrahalus, logam berat, senyawa organik volatil, atau zat berbahaya lain yang dapat dibawa aerosol. Rentetan bersih — lanjutkan.",
+  "@vapingDay7Description": {
+    "description": "Vaping milestone day 7 evidence-based description"
+  },
+  "vapingLongStreakDescription": "{days} hari tanpa mengambil satu isapan aerosol vape lagi. Itu {days} hari tanpa paparan baru dari vaping terhadap zat berbahaya yang dapat dibawa aerosol. Jika vape-mu mengandung nikotin, itu juga {days} hari tanpa memperkuat ketergantungan tersebut. Rentetan besar — terus maju.",
+  "@vapingLongStreakDescription": {
+    "description": "Vaping long-streak evidence-based description",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "vapingWithdrawalReference": "Abstinensi rokok elektronik dan gejala putus\n\nSumber: Hughes dkk., Nicotine & Tobacco Research (2020)\n\nPada 109 mantan perokok yang memakai rokok elektronik setiap hari, enam hari abstinensi yang dikonfirmasi secara biologis meningkatkan gejala putus nikotin dan rasa ingin memakai. Gejalanya mengikuti pola naik-turun khas putus zat, dengan peningkatan kuat pada dua hari pertama abstinensi. Studi ini mendukung bahwa putus dari rokok elektronik itu nyata, tetapi tidak menetapkan jadwal pemulihan universal dari hari ke hari.",
+  "@vapingWithdrawalReference": {
+    "description": "Localized reference summary for e-cigarette abstinence and withdrawal"
+  },
+  "vapingHealthReference": "Paparan dari vaping\n\nSumber: CDC — Health Effects of Vaping\n\nCDC menyatakan sebagian besar rokok elektronik mengandung nikotin yang membuat ketagihan. Aerosol vape dapat mengandung nikotin, bahan kimia penyebab kanker, logam berat seperti nikel, timah, dan timbal, partikel sangat kecil yang masuk jauh ke paru-paru, senyawa organik volatil, serta beberapa bahan perasa berbahaya. Putus nikotin dapat menyebabkan mudah marah, cemas atau gelisah, suasana hati turun, masalah tidur dan konsentrasi, lapar, serta ngidam; gejala ini memudar seiring waktu. Efek jangka panjang vaping masih diteliti, jadi Quitter merayakan abstinensi nyata alih-alih meminjam jadwal rokok untuk karbon monoksida, tar, kanker, atau risiko jantung.",
+  "@vapingHealthReference": {
+    "description": "Localized reference summary for CDC vaping health effects"
   }
 }

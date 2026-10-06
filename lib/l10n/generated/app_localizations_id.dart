@@ -2196,69 +2196,6 @@ class AppLocalizationsId extends AppLocalizations {
       'Lima tahun kemenangan! Anda memasuki jendela 5–10 tahun ketika risiko tambahan kanker mulut, tenggorokan, dan laring turun setengah, sementara risiko stroke terus menurun. Manfaat jangka panjang kini benar-benar mulai terasa.';
 
   @override
-  String get vapingMilestone1Title => 'Puncak Mengidam Nikotin';
-
-  @override
-  String get vapingMilestone1Description =>
-      'Otak Anda mengamuk nikotin, tapi Anda sudah menang! Dalam waktu 24 jam, kadar nikotin turun drastis. Nafsu mengidam yang terburuk memang terjadi saat ini, namun hal tersebut juga merupakan hal yang paling penting untuk dilampaui.';
-
-  @override
-  String get vapingMilestone3Title => 'Pernapasan Meningkat';
-
-  @override
-  String get vapingMilestone3Description =>
-      'Paru-parumu menari gembira! Saluran bronkial mulai rileks dan kapasitas paru-paru mulai membaik. Rasa sesak di dada akibat vaping sudah mulai mereda.';
-
-  @override
-  String get vapingMilestone7Title => 'Pengembalian Rasa & Bau';
-
-  @override
-  String get vapingMilestone7Description =>
-      'Makanan akan terasa luar biasa lagi! Nikotin meredam indra perasa dan reseptor penciuman. Seminggu berlalu, dan kekuatan super sensorik Anda kembali melakukan tur.';
-
-  @override
-  String get vapingMilestone14Title => 'Sirkulasi Meningkat';
-
-  @override
-  String get vapingMilestone14Description =>
-      'Darahmu mengalir seperti seorang juara! Nikotin menyempitkan pembuluh darah, tetapi dua minggu bebas rokok dan sirkulasi Anda meningkat secara dramatis. Tangan dan kaki dingin, pergilah!';
-
-  @override
-  String get vapingMilestone30Title => 'Pemulihan Fungsi Paru-paru';
-
-  @override
-  String get vapingMilestone30Description =>
-      'Paru-parumu seperti mengadakan parade perayaan! Silia (pembersih paru-paru kecil) telah beregenerasi dan fungsi paru-paru meningkat secara signifikan. Batuk pagi itu tinggal sejarah!';
-
-  @override
-  String get vapingMilestone60Title => 'Tingkat Kecemasan Menjadi Normal';
-
-  @override
-  String get vapingMilestone60Description =>
-      'Plot twist: vaping memperburuk kecemasan, bukan lebih baik! Dua bulan kemudian, tingkat kecemasan Anda biasanya lebih rendah dan sistem saraf Anda mulai tenang.';
-
-  @override
-  String get vapingMilestone90Title => 'Fokus dan Mempertajam Memori';
-
-  @override
-  String get vapingMilestone90Description =>
-      'Kabut otak telah meninggalkan gedung! Tiga bulan tanpa nikotin dan fokus, ingatan, serta pemikiran jernih Anda jauh lebih baik. Ini seperti meningkatkan RAM mental Anda.';
-
-  @override
-  String get vapingMilestone180Title => 'Pemulihan Kesehatan Mulut';
-
-  @override
-  String get vapingMilestone180Description =>
-      'Mulutmu mengirimkan kartu ucapan terima kasih! Enam bulan bebas vape dan peradangan gusi berkurang, noda gigi memudar, dan risiko masalah kesehatan mulut menurun drastis.';
-
-  @override
-  String get vapingMilestone365Title => 'Pengurangan Risiko Kardiovaskular';
-
-  @override
-  String get vapingMilestone365Description =>
-      'Hatimu benar-benar lebih kuat! Satu tahun penuh dan risiko penyakit jantung Anda turun secara signifikan. Sistem kardiovaskular Anda telah pulih dari serangan harian nikotin.';
-
-  @override
   String get marijuanaMilestone1Title => 'Gejala Penarikan Dimulai';
 
   @override
@@ -3705,4 +3642,34 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get settingsLocalePersian => 'Persia';
+
+  @override
+  String vapingStreakTitle(int days) {
+    return 'Bebas vape: hari ke-$days';
+  }
+
+  @override
+  String get vapingDay1Description =>
+      'Hari pertama tanpa vape. Jika vape-mu mengandung nikotin, ngidam, mudah marah, gelisah, suasana hati turun, sulit tidur, atau susah fokus bisa menjadi gejala putus nikotin — bukan alasan untuk memberinya nikotin lagi. Apa pun itu, kamu sudah mulai memutus siklus vaping.';
+
+  @override
+  String get vapingDay3Description =>
+      'Tiga hari bebas vape. Dalam studi klinis pada mantan perokok yang memakai rokok elektronik setiap hari, gejala putus meningkat selama dua hari pertama tanpa vape lalu mengikuti pola naik-turun khas putus zat. Gelombang awal yang tajam sudah kamu lewati; ngidam masih bisa muncul, tapi bukan dia yang memegang kendali.';
+
+  @override
+  String get vapingDay7Description =>
+      'Tujuh hari penuh tanpa menghirup aerosol vape. Itu berarti seminggu tanpa paparan baru dari vaping terhadap nikotin, partikel ultrahalus, logam berat, senyawa organik volatil, atau zat berbahaya lain yang dapat dibawa aerosol. Rentetan bersih — lanjutkan.';
+
+  @override
+  String vapingLongStreakDescription(int days) {
+    return '$days hari tanpa mengambil satu isapan aerosol vape lagi. Itu $days hari tanpa paparan baru dari vaping terhadap zat berbahaya yang dapat dibawa aerosol. Jika vape-mu mengandung nikotin, itu juga $days hari tanpa memperkuat ketergantungan tersebut. Rentetan besar — terus maju.';
+  }
+
+  @override
+  String get vapingWithdrawalReference =>
+      'Abstinensi rokok elektronik dan gejala putus\n\nSumber: Hughes dkk., Nicotine & Tobacco Research (2020)\n\nPada 109 mantan perokok yang memakai rokok elektronik setiap hari, enam hari abstinensi yang dikonfirmasi secara biologis meningkatkan gejala putus nikotin dan rasa ingin memakai. Gejalanya mengikuti pola naik-turun khas putus zat, dengan peningkatan kuat pada dua hari pertama abstinensi. Studi ini mendukung bahwa putus dari rokok elektronik itu nyata, tetapi tidak menetapkan jadwal pemulihan universal dari hari ke hari.';
+
+  @override
+  String get vapingHealthReference =>
+      'Paparan dari vaping\n\nSumber: CDC — Health Effects of Vaping\n\nCDC menyatakan sebagian besar rokok elektronik mengandung nikotin yang membuat ketagihan. Aerosol vape dapat mengandung nikotin, bahan kimia penyebab kanker, logam berat seperti nikel, timah, dan timbal, partikel sangat kecil yang masuk jauh ke paru-paru, senyawa organik volatil, serta beberapa bahan perasa berbahaya. Putus nikotin dapat menyebabkan mudah marah, cemas atau gelisah, suasana hati turun, masalah tidur dan konsentrasi, lapar, serta ngidam; gejala ini memudar seiring waktu. Efek jangka panjang vaping masih diteliti, jadi Quitter merayakan abstinensi nyata alih-alih meminjam jadwal rokok untuk karbon monoksida, tar, kanker, atau risiko jantung.';
 }

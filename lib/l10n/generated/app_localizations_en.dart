@@ -2158,69 +2158,6 @@ class AppLocalizationsEn extends AppLocalizations {
       'Five years of victory! You’re entering the 5–10 year window where the added risk of mouth, throat, and voice-box cancers drops by half, while stroke risk keeps falling. The long-game benefits are kicking in hard.';
 
   @override
-  String get vapingMilestone1Title => 'Nicotine Cravings Peak';
-
-  @override
-  String get vapingMilestone1Description =>
-      'Your brain is throwing a nicotine tantrum, but you\'re already winning! Within 24 hours, nicotine levels drop dramatically. The worst cravings happen now, but they\'re also the most important to push through.';
-
-  @override
-  String get vapingMilestone3Title => 'Breathing Improves';
-
-  @override
-  String get vapingMilestone3Description =>
-      'Your lungs are doing a happy dance! Bronchial tubes begin to relax and lung capacity starts improving. That tight chest feeling from vaping is already beginning to ease up.';
-
-  @override
-  String get vapingMilestone7Title => 'Taste & Smell Return';
-
-  @override
-  String get vapingMilestone7Description =>
-      'Food is about to taste amazing again! Nicotine dampens taste buds and smell receptors. A week in, and your sensory superpowers are making their comeback tour.';
-
-  @override
-  String get vapingMilestone14Title => 'Circulation Improves';
-
-  @override
-  String get vapingMilestone14Description =>
-      'Your blood is flowing like a champion! Nicotine constricts blood vessels, but two weeks smoke-free and your circulation is dramatically improving. Cold hands and feet, begone!';
-
-  @override
-  String get vapingMilestone30Title => 'Lung Function Recovery';
-
-  @override
-  String get vapingMilestone30Description =>
-      'Your lungs are practically throwing a celebration parade! Cilia (tiny lung cleaners) have regenerated and lung function has improved significantly. That morning cough is history!';
-
-  @override
-  String get vapingMilestone60Title => 'Anxiety Levels Normalize';
-
-  @override
-  String get vapingMilestone60Description =>
-      'Plot twist: vaping was making anxiety worse, not better! Two months in, your usual anxiety level is lower and your nervous system is settling.';
-
-  @override
-  String get vapingMilestone90Title => 'Focus and Memory Sharpen';
-
-  @override
-  String get vapingMilestone90Description =>
-      'Brain fog has left the building! Three months without nicotine and your focus, memory, and clear thinking are markedly better. It\'s like upgrading your mental RAM.';
-
-  @override
-  String get vapingMilestone180Title => 'Oral Health Recovery';
-
-  @override
-  String get vapingMilestone180Description =>
-      'Your mouth is sending thank-you cards! Six months vape-free and gum inflammation decreases, tooth staining fades, and your risk of oral health issues drops substantially.';
-
-  @override
-  String get vapingMilestone365Title => 'Cardiovascular Risk Reduction';
-
-  @override
-  String get vapingMilestone365Description =>
-      'Your heart is literally stronger! One full year and your risk of heart disease has dropped significantly. Your cardiovascular system has recovered from nicotine\'s daily assault course.';
-
-  @override
   String get marijuanaMilestone1Title => 'Withdrawal Symptoms Begin';
 
   @override
@@ -3659,4 +3596,34 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get settingsLocalePersian => 'Persian';
+
+  @override
+  String vapingStreakTitle(int days) {
+    return 'Vape-free: day $days';
+  }
+
+  @override
+  String get vapingDay1Description =>
+      'Day one without the vape. If your vape contained nicotine, cravings, irritability, restlessness, low mood, poor sleep or fuzzy focus can be nicotine withdrawal — not a reason to feed it. Either way, you’re already breaking the vaping loop.';
+
+  @override
+  String get vapingDay3Description =>
+      'Three days vape-free. In a clinical study of former smokers who vaped daily, withdrawal rose during the first two abstinent days and followed the classic rise-and-fall pattern. You’ve made it through that sharp early surge; cravings can still show up, but they don’t own the controls.';
+
+  @override
+  String get vapingDay7Description =>
+      'Seven full days without inhaling vape aerosol. That’s a week with no new vaping exposure to nicotine, ultrafine particles, heavy metals, volatile organic compounds or other harmful substances the aerosol can carry. Clear streak — keep it rolling.';
+
+  @override
+  String vapingLongStreakDescription(int days) {
+    return '$days days without taking another hit of vape aerosol. That’s $days days with no new vaping exposure to the harmful substances that aerosol can carry. If your vape contained nicotine, it’s also $days days without reinforcing that dependence. Huge streak — keep it moving.';
+  }
+
+  @override
+  String get vapingWithdrawalReference =>
+      'E-cigarette abstinence and withdrawal\n\nSource: Hughes et al., Nicotine & Tobacco Research (2020)\n\nIn 109 former smokers who were daily e-cigarette users, six days of biologically confirmed abstinence increased nicotine-withdrawal symptoms and cravings. Symptoms followed the classic rise-and-fall pattern of withdrawal, with a strong increase during the first two abstinent days. The study supports real e-cigarette withdrawal; it does not establish a universal day-by-day recovery clock.';
+
+  @override
+  String get vapingHealthReference =>
+      'What vaping exposes you to\n\nSource: CDC — Health Effects of Vaping\n\nCDC says most e-cigarettes contain addictive nicotine. Vape aerosol can contain nicotine, cancer-causing chemicals, heavy metals such as nickel, tin and lead, tiny particles that reach deep into the lungs, volatile organic compounds, and some harmful flavoring chemicals. Nicotine withdrawal can include irritability, anxiety or restlessness, low mood, sleep and concentration problems, hunger and cravings, and these symptoms fade over time. Long-term vaping effects are still being studied, so Quitter celebrates sustained abstinence instead of borrowing cigarette carbon-monoxide, tar, cancer or heart-risk timelines.';
 }

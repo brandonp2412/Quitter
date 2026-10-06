@@ -1712,78 +1712,6 @@
   "@smokingMilestone1825Description": {
     "description": "Smoking milestone day 1825 description"
   },
-  "vapingMilestone1Title": "尼古丁渴望达到顶峰",
-  "@vapingMilestone1Title": {
-    "description": "Vaping milestone day 1 title"
-  },
-  "vapingMilestone1Description": "您的大脑正在发尼古丁脾气，但您已经赢了！在24小时内，尼古丁水平急剧下降。最糟糕的渴望现在发生，但它们也是最需要克服的。",
-  "@vapingMilestone1Description": {
-    "description": "Vaping milestone day 1 description"
-  },
-  "vapingMilestone3Title": "呼吸改善",
-  "@vapingMilestone3Title": {
-    "description": "Vaping milestone day 3 title"
-  },
-  "vapingMilestone3Description": "停用电子烟三天后，支气管开始放松，肺活量逐步改善，电子烟引起的胸闷也开始缓解。",
-  "@vapingMilestone3Description": {
-    "description": "Vaping milestone day 3 description"
-  },
-  "vapingMilestone7Title": "味觉和嗅觉恢复",
-  "@vapingMilestone7Title": {
-    "description": "Vaping milestone day 7 title"
-  },
-  "vapingMilestone7Description": "尼古丁会使味蕾和嗅觉受体变得迟钝。停用电子烟一周后，味觉和嗅觉开始恢复，食物的味道也会变得更鲜明。",
-  "@vapingMilestone7Description": {
-    "description": "Vaping milestone day 7 description"
-  },
-  "vapingMilestone14Title": "血液循环改善",
-  "@vapingMilestone14Title": {
-    "description": "Vaping milestone day 14 title"
-  },
-  "vapingMilestone14Description": "尼古丁会收缩血管。停用电子烟两周后，血液循环已明显改善，手脚冰凉也会逐渐缓解。",
-  "@vapingMilestone14Description": {
-    "description": "Vaping milestone day 14 description"
-  },
-  "vapingMilestone30Title": "肺功能恢复",
-  "@vapingMilestone30Title": {
-    "description": "Vaping milestone day 30 title"
-  },
-  "vapingMilestone30Description": "停用电子烟一个月后，气道纤毛（负责清除异物的微小结构）已经再生，肺功能也明显改善，晨起咳嗽会逐渐减少。",
-  "@vapingMilestone30Description": {
-    "description": "Vaping milestone day 30 description"
-  },
-  "vapingMilestone60Title": "焦虑水平正常化",
-  "@vapingMilestone60Title": {
-    "description": "Vaping milestone day 60 title"
-  },
-  "vapingMilestone60Description": "剧情反转：吸电子烟其实让焦虑更糟，而不是更好！两个月后，您平时的焦虑水平更低，神经系统也正在平稳下来。",
-  "@vapingMilestone60Description": {
-    "description": "Vaping milestone day 60 description"
-  },
-  "vapingMilestone90Title": "专注力和记忆力更敏锐",
-  "@vapingMilestone90Title": {
-    "description": "Vaping milestone day 90 title"
-  },
-  "vapingMilestone90Description": "脑雾已经退场！三个月没有尼古丁，您的专注力、记忆力和清晰思维都明显改善。就像给大脑的内存做了升级。",
-  "@vapingMilestone90Description": {
-    "description": "Vaping milestone day 90 description"
-  },
-  "vapingMilestone180Title": "口腔健康恢复",
-  "@vapingMilestone180Title": {
-    "description": "Vaping milestone day 180 title"
-  },
-  "vapingMilestone180Description": "您的嘴巴正在发送感谢卡！六个月无电子烟，牙龈炎症减少，牙齿染色消退，口腔健康问题的风险大幅下降。",
-  "@vapingMilestone180Description": {
-    "description": "Vaping milestone day 180 description"
-  },
-  "vapingMilestone365Title": "心血管风险降低",
-  "@vapingMilestone365Title": {
-    "description": "Vaping milestone day 365 title"
-  },
-  "vapingMilestone365Description": "您的心脏真的变强了！整整一年，您患心脏病的风险显著下降。您的心血管系统已经从尼古丁的日常攻击中恢复过来。",
-  "@vapingMilestone365Description": {
-    "description": "Vaping milestone day 365 description"
-  },
   "marijuanaMilestone1Title": "戒断症状开始",
   "@marijuanaMilestone1Title": {
     "description": "Marijuana milestone day 1 title"
@@ -2554,5 +2482,43 @@
   "settingsLocalePersian": "波斯语",
   "@settingsLocalePersian": {
     "description": "Persian language option"
+  },
+  "vapingStreakTitle": "无电子烟：第 {days} 天",
+  "@vapingStreakTitle": {
+    "description": "Vaping milestone title with elapsed day count",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "vapingDay1Description": "不抽电子烟的第1天。如果您使用的电子烟含有尼古丁，强烈渴求、烦躁、坐立不安、情绪低落、睡不好或难以集中注意力都可能是尼古丁戒断——不是再次补充尼古丁的理由。无论如何，您已经在打破电子烟的循环。",
+  "@vapingDay1Description": {
+    "description": "Vaping milestone day 1 evidence-based description"
+  },
+  "vapingDay3Description": "无电子烟第3天。一项针对每天使用电子烟的前吸烟者的临床研究发现，戒断症状在最初两天明显上升，随后呈现典型的先升后降模式。最尖锐的早期浪头您已经扛过去了；渴求仍可能出现，但方向盘不在它手里。",
+  "@vapingDay3Description": {
+    "description": "Vaping milestone day 3 evidence-based description"
+  },
+  "vapingDay7Description": "整整7天没有吸入电子烟气溶胶。这意味着一周没有新的电子烟暴露：尼古丁、超细颗粒、重金属、挥发性有机化合物，以及气溶胶可能携带的其他有害物质。漂亮的连续记录——继续。",
+  "@vapingDay7Description": {
+    "description": "Vaping milestone day 7 evidence-based description"
+  },
+  "vapingLongStreakDescription": "{days} 天没有再吸一口电子烟气溶胶。这就是 {days} 天没有新的电子烟有害物质暴露。如果您使用的电子烟含有尼古丁，也就是 {days} 天没有继续强化这种依赖。很大的连续记录——继续向前。",
+  "@vapingLongStreakDescription": {
+    "description": "Vaping long-streak evidence-based description",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "vapingWithdrawalReference": "电子烟停用与戒断\n\n来源：Hughes 等，Nicotine & Tobacco Research (2020)\n\n在109名每天使用电子烟的前吸烟者中，经过生物学确认的6天停用使尼古丁戒断症状和渴求增加。症状呈现典型的先升后降模式，并在最初两天明显增加。研究支持电子烟戒断确实存在，但并没有给出适用于所有人的逐日恢复时间表。",
+  "@vapingWithdrawalReference": {
+    "description": "Localized reference summary for e-cigarette abstinence and withdrawal"
+  },
+  "vapingHealthReference": "电子烟会带来哪些暴露\n\n来源：CDC — Health Effects of Vaping\n\nCDC指出，大多数电子烟含有会成瘾的尼古丁。电子烟气溶胶可能含有尼古丁、致癌化学物、镍锡铅等重金属、可深入肺部的微小颗粒、挥发性有机化合物和某些有害香味化学物。尼古丁戒断可包括烦躁、焦虑或不安、情绪低落、睡眠和注意力问题、饥饿及渴求，而且这些症状会随时间减弱。电子烟的长期影响仍在研究中，所以 Quitter 庆祝真实的持续停用，而不是照搬纸烟关于一氧化碳、焦油、癌症或心脏风险的时间线。",
+  "@vapingHealthReference": {
+    "description": "Localized reference summary for CDC vaping health effects"
   }
 }

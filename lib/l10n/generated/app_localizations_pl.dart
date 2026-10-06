@@ -1884,7 +1884,7 @@ class AppLocalizationsPl extends AppLocalizations {
   String get alcoholSubtitleNotStarted => 'Gotowy na jaśniejsze ciebie?';
 
   @override
-  String get vapingPageTitle => 'Zwycięstwo bez pochwy';
+  String get vapingPageTitle => 'Zwycięstwo bez wapowania';
 
   @override
   String get vapingHeaderStarted => 'Czyste niebo przed nami!';
@@ -2210,70 +2210,6 @@ class AppLocalizationsPl extends AppLocalizations {
   @override
   String get smokingMilestone1825Description =>
       'Pięć lat zwycięstwa! Wchodzisz w okres 5–10 lat, w którym dodatkowe ryzyko nowotworów jamy ustnej, gardła i krtani spada o połowę, a ryzyko udaru nadal maleje. Długoterminowe korzyści właśnie nabierają rozpędu.';
-
-  @override
-  String get vapingMilestone1Title => 'Szczyt apetytu nikotyny';
-
-  @override
-  String get vapingMilestone1Description =>
-      'W ciągu 24 godzin, poziom nikotyny spada dramatycznie. Najgorsze pragnienia zdarzają się teraz, ale są one również najważniejsze, aby przepchnąć.';
-
-  @override
-  String get vapingMilestone3Title => 'Poprawia oddychanie';
-
-  @override
-  String get vapingMilestone3Description =>
-      'Twoje płuca robią szczęśliwy taniec! Rurki oskrzelowe zaczynają się relaksować i pojemność płuc zaczyna improwizować.';
-
-  @override
-  String get vapingMilestone7Title => 'Powrot zapachu smaku';
-
-  @override
-  String get vapingMilestone7Description =>
-      'Jedzenie jest o smaku niesamowite ponownie! Nikotyna tłumi kubki smakowe i zapachu receptor. tydzień w, i swoje supermoce sensoryczne robią ich comeback tournee.';
-
-  @override
-  String get vapingMilestone14Title => 'Poprawa cyrkulacji';
-
-  @override
-  String get vapingMilestone14Description =>
-      'Twoja krew płynie jak szampion! Nikotyna kondensatory krwi, ale dwa tygodnie wolne od dymu i krążenie jest dramatycznie improwizowane. zimne ręce i stopy, begone!';
-
-  @override
-  String get vapingMilestone30Title => 'Odzyskiwanie funkcji płuc';
-
-  @override
-  String get vapingMilestone30Description =>
-      'Twoje płuca praktycznie rzucają paradę uroczystości! Cilia jest malutkich czyścicieli płuc) zregenerowały się i funkcje płuc znacznie się poprawiły.';
-
-  @override
-  String get vapingMilestone60Title => 'Lęk Poziom Normalize';
-
-  @override
-  String get vapingMilestone60Description =>
-      'Plot twist: vaping był co lęk gorzej, nie lepiej! Dwa miesiące w, twój zwykły poziom lęku jest niższy i twój system nerwowy jest usadowiony.';
-
-  @override
-  String get vapingMilestone90Title => 'Naostrzanie ostrości i pamięci';
-
-  @override
-  String get vapingMilestone90Description =>
-      'Mgła mózgowa opuściła budynek! Trzy miesiące bez nikotyny i twoje skupienie, pamięć, i jasne myślenie są znacznie lepsze.';
-
-  @override
-  String get vapingMilestone180Title => 'Regeneracja zdrowia jamy ustnej';
-
-  @override
-  String get vapingMilestone180Description =>
-      'Twoje usta wysyłają podziękowania za karty! Sześć miesięcy bezpochwowe i zapalenie dziąseł, zabarwienie zębów fades, i ryzyko ustnych problemów zdrowotnych spada znacząco.';
-
-  @override
-  String get vapingMilestone365Title =>
-      'Zmniejszenie ryzyka sercowo- naczyniowego';
-
-  @override
-  String get vapingMilestone365Description =>
-      'Twoje serce jest dosłownie mocniejsze! Jeden pełny rok i ryzyko choroby serca spadła znacząco. Twój układ sercowo – naczyniowy odzyskał z nikotyneozy codzienne kurs napaści.';
 
   @override
   String get marijuanaMilestone1Title => 'Objawy odstawienne';
@@ -3731,4 +3667,34 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get settingsLocalePersian => 'Perski';
+
+  @override
+  String vapingStreakTitle(int days) {
+    return 'Bez wapowania: dzień $days';
+  }
+
+  @override
+  String get vapingDay1Description =>
+      'Pierwszy dzień bez vape’a. Jeśli Twój vape zawierał nikotynę, głód, drażliwość, niepokój, gorszy nastrój, problemy ze snem albo skupieniem mogą być objawami odstawienia nikotyny — nie powodem, by znów ją podawać. Tak czy inaczej już przerywasz cykl wapowania.';
+
+  @override
+  String get vapingDay3Description =>
+      'Trzy dni bez wapowania. W badaniu klinicznym byłych palaczy codziennie używających e-papierosów objawy odstawienia nasiliły się w pierwszych dwóch dniach abstynencji, a potem miały typowy przebieg wzrostu i spadku. Najostrzejszą wczesną falę masz za sobą; głód może wracać, ale nie on trzyma kierownicę.';
+
+  @override
+  String get vapingDay7Description =>
+      'Pełne siedem dni bez wdychania aerozolu z vape’a. To tydzień bez nowej ekspozycji z wapowania na nikotynę, ultradrobne cząstki, metale ciężkie, lotne związki organiczne i inne szkodliwe substancje, które aerozol może zawierać. Czysta seria — jedź dalej.';
+
+  @override
+  String vapingLongStreakDescription(int days) {
+    return '$days dni bez kolejnego zaciągnięcia się aerozolem z vape’a. To $days dni bez nowej ekspozycji z wapowania na szkodliwe substancje, które aerozol może zawierać. Jeśli Twój vape zawierał nikotynę, to także $days dni bez wzmacniania tej zależności. Ogromna seria — kontynuuj.';
+  }
+
+  @override
+  String get vapingWithdrawalReference =>
+      'Abstynencja od e-papierosów i objawy odstawienia\n\nŹródło: Hughes i wsp., Nicotine & Tobacco Research (2020)\n\nU 109 byłych palaczy codziennie używających e-papierosów sześć dni biologicznie potwierdzonej abstynencji zwiększyło objawy odstawienia nikotyny i głód. Objawy miały typowy przebieg wzrostu i spadku, z wyraźnym nasileniem w pierwszych dwóch dniach abstynencji. Badanie potwierdza realne odstawienie e-papierosów, ale nie ustala uniwersalnego dziennego harmonogramu powrotu do zdrowia.';
+
+  @override
+  String get vapingHealthReference =>
+      'Na co naraża wapowanie\n\nŹródło: CDC — Health Effects of Vaping\n\nCDC podaje, że większość e-papierosów zawiera uzależniającą nikotynę. Aerozol może zawierać nikotynę, substancje rakotwórcze, metale ciężkie takie jak nikiel, cyna i ołów, drobne cząstki docierające głęboko do płuc, lotne związki organiczne oraz niektóre szkodliwe substancje smakowe. Odstawienie nikotyny może powodować drażliwość, lęk lub niepokój, obniżony nastrój, problemy ze snem i koncentracją, głód oraz silną chęć użycia; objawy z czasem słabną. Długoterminowe skutki wapowania są nadal badane, więc Quitter celebruje realną abstynencję zamiast kopiować z papierosów terminy dotyczące tlenku węgla, smoły, raka czy ryzyka sercowego.';
 }

@@ -2048,69 +2048,6 @@ class AppLocalizationsZh extends AppLocalizations {
       '戒烟五年，大胜一场！您正进入5–10年的关键窗口：口腔、咽喉和喉头癌的额外风险会减半，中风风险也继续下降。长期收益正在强势兑现。';
 
   @override
-  String get vapingMilestone1Title => '尼古丁渴望达到顶峰';
-
-  @override
-  String get vapingMilestone1Description =>
-      '您的大脑正在发尼古丁脾气，但您已经赢了！在24小时内，尼古丁水平急剧下降。最糟糕的渴望现在发生，但它们也是最需要克服的。';
-
-  @override
-  String get vapingMilestone3Title => '呼吸改善';
-
-  @override
-  String get vapingMilestone3Description =>
-      '停用电子烟三天后，支气管开始放松，肺活量逐步改善，电子烟引起的胸闷也开始缓解。';
-
-  @override
-  String get vapingMilestone7Title => '味觉和嗅觉恢复';
-
-  @override
-  String get vapingMilestone7Description =>
-      '尼古丁会使味蕾和嗅觉受体变得迟钝。停用电子烟一周后，味觉和嗅觉开始恢复，食物的味道也会变得更鲜明。';
-
-  @override
-  String get vapingMilestone14Title => '血液循环改善';
-
-  @override
-  String get vapingMilestone14Description =>
-      '尼古丁会收缩血管。停用电子烟两周后，血液循环已明显改善，手脚冰凉也会逐渐缓解。';
-
-  @override
-  String get vapingMilestone30Title => '肺功能恢复';
-
-  @override
-  String get vapingMilestone30Description =>
-      '停用电子烟一个月后，气道纤毛（负责清除异物的微小结构）已经再生，肺功能也明显改善，晨起咳嗽会逐渐减少。';
-
-  @override
-  String get vapingMilestone60Title => '焦虑水平正常化';
-
-  @override
-  String get vapingMilestone60Description =>
-      '剧情反转：吸电子烟其实让焦虑更糟，而不是更好！两个月后，您平时的焦虑水平更低，神经系统也正在平稳下来。';
-
-  @override
-  String get vapingMilestone90Title => '专注力和记忆力更敏锐';
-
-  @override
-  String get vapingMilestone90Description =>
-      '脑雾已经退场！三个月没有尼古丁，您的专注力、记忆力和清晰思维都明显改善。就像给大脑的内存做了升级。';
-
-  @override
-  String get vapingMilestone180Title => '口腔健康恢复';
-
-  @override
-  String get vapingMilestone180Description =>
-      '您的嘴巴正在发送感谢卡！六个月无电子烟，牙龈炎症减少，牙齿染色消退，口腔健康问题的风险大幅下降。';
-
-  @override
-  String get vapingMilestone365Title => '心血管风险降低';
-
-  @override
-  String get vapingMilestone365Description =>
-      '您的心脏真的变强了！整整一年，您患心脏病的风险显著下降。您的心血管系统已经从尼古丁的日常攻击中恢复过来。';
-
-  @override
   String get marijuanaMilestone1Title => '戒断症状开始';
 
   @override
@@ -3525,6 +3462,36 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get settingsLocalePersian => '波斯语';
+
+  @override
+  String vapingStreakTitle(int days) {
+    return '无电子烟：第 $days 天';
+  }
+
+  @override
+  String get vapingDay1Description =>
+      '不抽电子烟的第1天。如果您使用的电子烟含有尼古丁，强烈渴求、烦躁、坐立不安、情绪低落、睡不好或难以集中注意力都可能是尼古丁戒断——不是再次补充尼古丁的理由。无论如何，您已经在打破电子烟的循环。';
+
+  @override
+  String get vapingDay3Description =>
+      '无电子烟第3天。一项针对每天使用电子烟的前吸烟者的临床研究发现，戒断症状在最初两天明显上升，随后呈现典型的先升后降模式。最尖锐的早期浪头您已经扛过去了；渴求仍可能出现，但方向盘不在它手里。';
+
+  @override
+  String get vapingDay7Description =>
+      '整整7天没有吸入电子烟气溶胶。这意味着一周没有新的电子烟暴露：尼古丁、超细颗粒、重金属、挥发性有机化合物，以及气溶胶可能携带的其他有害物质。漂亮的连续记录——继续。';
+
+  @override
+  String vapingLongStreakDescription(int days) {
+    return '$days 天没有再吸一口电子烟气溶胶。这就是 $days 天没有新的电子烟有害物质暴露。如果您使用的电子烟含有尼古丁，也就是 $days 天没有继续强化这种依赖。很大的连续记录——继续向前。';
+  }
+
+  @override
+  String get vapingWithdrawalReference =>
+      '电子烟停用与戒断\n\n来源：Hughes 等，Nicotine & Tobacco Research (2020)\n\n在109名每天使用电子烟的前吸烟者中，经过生物学确认的6天停用使尼古丁戒断症状和渴求增加。症状呈现典型的先升后降模式，并在最初两天明显增加。研究支持电子烟戒断确实存在，但并没有给出适用于所有人的逐日恢复时间表。';
+
+  @override
+  String get vapingHealthReference =>
+      '电子烟会带来哪些暴露\n\n来源：CDC — Health Effects of Vaping\n\nCDC指出，大多数电子烟含有会成瘾的尼古丁。电子烟气溶胶可能含有尼古丁、致癌化学物、镍锡铅等重金属、可深入肺部的微小颗粒、挥发性有机化合物和某些有害香味化学物。尼古丁戒断可包括烦躁、焦虑或不安、情绪低落、睡眠和注意力问题、饥饿及渴求，而且这些症状会随时间减弱。电子烟的长期影响仍在研究中，所以 Quitter 庆祝真实的持续停用，而不是照搬纸烟关于一氧化碳、焦油、癌症或心脏风险的时间线。';
 }
 
 /// The translations for Chinese, using the Han script (`zh_Hant`).
@@ -5571,69 +5538,6 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
       '戒菸五年，大勝一場！您正進入5–10年的關鍵窗口：口腔、咽喉和喉頭癌的額外風險會減半，中風風險也持續下降。長期收益正在強勢兌現。';
 
   @override
-  String get vapingMilestone1Title => '尼古丁渴望達到頂峰';
-
-  @override
-  String get vapingMilestone1Description =>
-      '您的大腦正在發尼古丁脾氣，但您已經贏了！在24小時內，尼古丁水平急劇下降。最糟糕的渴望現在發生，但它們也是最需要克服的。';
-
-  @override
-  String get vapingMilestone3Title => '呼吸改善';
-
-  @override
-  String get vapingMilestone3Description =>
-      '停用電子煙三天後，支氣管開始放松，肺活量逐步改善，電子煙引起的胸悶也開始緩解。';
-
-  @override
-  String get vapingMilestone7Title => '味覺和嗅覺恢復';
-
-  @override
-  String get vapingMilestone7Description =>
-      '尼古丁會使味蕾和嗅覺受體變得遲鈍。停用電子煙一周後，味覺和嗅覺開始恢復，食物的味道也會變得更鮮明。';
-
-  @override
-  String get vapingMilestone14Title => '血液循環改善';
-
-  @override
-  String get vapingMilestone14Description =>
-      '尼古丁會收縮血管。停用電子煙兩周後，血液循環已明顯改善，手腳冰涼也會逐漸緩解。';
-
-  @override
-  String get vapingMilestone30Title => '肺功能恢復';
-
-  @override
-  String get vapingMilestone30Description =>
-      '停用電子煙一個月後，氣道纖毛（負責清除異物的微小結構）已經再生，肺功能也明顯改善，晨起咳嗽會逐漸減少。';
-
-  @override
-  String get vapingMilestone60Title => '焦慮水平正常化';
-
-  @override
-  String get vapingMilestone60Description =>
-      '劇情反轉：吸電子煙其實讓焦慮更糟，而不是更好！兩個月後，您平時的焦慮水平更低，神經系統也正在平穩下來。';
-
-  @override
-  String get vapingMilestone90Title => '專注力和記憶力更敏銳';
-
-  @override
-  String get vapingMilestone90Description =>
-      '腦霧已經退場！三個月沒有尼古丁，您的專注力、記憶力和清晰思維都明顯改善。就像給大腦的內存做了升級。';
-
-  @override
-  String get vapingMilestone180Title => '口腔健康恢復';
-
-  @override
-  String get vapingMilestone180Description =>
-      '您的嘴巴正在發送感謝卡！六個月無電子煙，牙齦炎症減少，牙齒染色消退，口腔健康問題的風險大幅下降。';
-
-  @override
-  String get vapingMilestone365Title => '心血管風險降低';
-
-  @override
-  String get vapingMilestone365Description =>
-      '您的心臟真的變強了！整整一年，您患心臟病的風險顯著下降。您的心血管系統已經從尼古丁的日常攻擊中恢復過來。';
-
-  @override
   String get marijuanaMilestone1Title => '戒斷症狀開始';
 
   @override
@@ -7048,4 +6952,34 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get settingsLocalePersian => '波斯語';
+
+  @override
+  String vapingStreakTitle(int days) {
+    return '無電子煙：第 $days 天';
+  }
+
+  @override
+  String get vapingDay1Description =>
+      '不抽電子煙的第1天。如果您使用的電子煙含有尼古丁，強烈渴求、煩躁、坐立不安、情緒低落、睡不好或難以集中注意力都可能是尼古丁戒斷——不是再次補充尼古丁的理由。無論如何，您已經在打破電子煙的循環。';
+
+  @override
+  String get vapingDay3Description =>
+      '無電子煙第3天。一項針對每天使用電子煙的前吸菸者的臨床研究發現，戒斷症狀在最初兩天明顯上升，之後呈現典型的先升後降模式。最尖銳的早期浪頭您已經撐過去了；渴求仍可能出現，但方向盤不在它手裡。';
+
+  @override
+  String get vapingDay7Description =>
+      '整整7天沒有吸入電子煙氣溶膠。這代表一週沒有新的電子煙暴露：尼古丁、超細顆粒、重金屬、揮發性有機化合物，以及氣溶膠可能攜帶的其他有害物質。漂亮的連續紀錄——繼續。';
+
+  @override
+  String vapingLongStreakDescription(int days) {
+    return '$days 天沒有再吸一口電子煙氣溶膠。這就是 $days 天沒有新的電子煙有害物質暴露。如果您使用的電子煙含有尼古丁，也就是 $days 天沒有繼續強化這種依賴。很大的連續紀錄——繼續向前。';
+  }
+
+  @override
+  String get vapingWithdrawalReference =>
+      '電子煙停用與戒斷\n\n來源：Hughes 等，Nicotine & Tobacco Research (2020)\n\n在109名每天使用電子煙的前吸菸者中，經生物學確認的6天停用使尼古丁戒斷症狀和渴求增加。症狀呈現典型的先升後降模式，並在最初兩天明顯增加。研究支持電子煙戒斷確實存在，但沒有給出適用於所有人的逐日恢復時間表。';
+
+  @override
+  String get vapingHealthReference =>
+      '電子煙會帶來哪些暴露\n\n來源：CDC — Health Effects of Vaping\n\nCDC指出，大多數電子煙含有會成癮的尼古丁。電子煙氣溶膠可能含有尼古丁、致癌化學物、鎳錫鉛等重金屬、可深入肺部的微小顆粒、揮發性有機化合物和某些有害香味化學物。尼古丁戒斷可包括煩躁、焦慮或不安、情緒低落、睡眠和注意力問題、飢餓及渴求，而且這些症狀會隨時間減弱。電子煙的長期影響仍在研究中，所以 Quitter 慶祝真實的持續停用，而不是照搬紙菸關於一氧化碳、焦油、癌症或心臟風險的時間線。';
 }
