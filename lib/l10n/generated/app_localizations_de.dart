@@ -2808,11 +2808,12 @@ class AppLocalizationsDe extends AppLocalizations {
       'Neunzig Tage ohne TCA sind ein großer Meilenstein. Die stärkste Studienlage hier beschreibt eine kurzfristige Behandlung, keinen festen Erholungszeitplan nach dem Absetzen. Dieser Meilenstein feiert deshalb das, was sicher ist: drei Monate ohne TCA-Behandlung.';
 
   @override
-  String get tcaMilestone180Title => 'Sechs Monate: Herz und Denken Erholung';
+  String get tcaMilestone180Title =>
+      'Sechs Monate: Die meisten blieben rückfallfrei';
 
   @override
   String get tcaMilestone180Description =>
-      'Sechs Monate ermöglichen eine starke Erholung des Herzrhythmus, des Gedächtnisses und der Denkgeschwindigkeit. Die Herz-Rhythmus-Veränderungen und der Gehirnnebel, die durch TCAs verursacht werden, hatten Monate zu lösen.';
+      'Bei Menschen, die Antidepressiva nach der Behandlung einer schweren Depression absetzten, fand eine Metaanalyse mit 35 Studien nach sechs Monaten eine gepoolte Rückfallrate von 34,8 % – etwa 65 % blieben rückfallfrei. Das ist eine enorme Strecke stabiler Zeit.';
 
   @override
   String get tcaMilestone365Title => 'Ein Jahr: Erholung erreicht';
@@ -3630,7 +3631,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get tcaReferenceDay180 =>
-      'Sechs Monate nach TCAs: Herz und Denken Erholung\n\nWiederherstellungssignal für langfristige Daten\nDie vorzeitige Entzugszeit nach TCAs ist normalerweise mild und löst sich innerhalb von ein bis zwei Wochen auf. Sechs Monate nach einer überwachten Verjüngung mussten sich Herzfrequenz, Gedächtnis und Denkeffekte von TCAs monatelang erholen.\n\nKardiovaskuläre Erholung\nNach sechs Monaten sollten die direkten Auswirkungen von TCAs auf den Herzrhythmus lange gelöst sein:\n• Normaler Herzrhythmus ohne drogenbedingten Einfluss\n• Die Herzfrequenzvariabilität (ein Maß dafür, wie gut sich Ihr Herz anpasst) wird voraussichtlich erheblich verbessert\n• Schwindel im Stehen völlig gelöst\n\nDenken und Memory Recovery\nTCAs können Gehirnnebel und Gedächtnisprobleme verursachen, indem sie Acetylcholin blockieren, insbesondere bei älteren Erwachsenen. Diese Effekte verbessern sich, nachdem das Medikament gestoppt wurde. Nach sechs Monaten:\n• Speicherkonsolidierung deutlich verbessert\n• Verarbeitungsgeschwindigkeit normalisiert\n• Planung, Arbeitsgedächtnis und die Fähigkeit, zwischen Aufgaben oder Ideen zu wechseln, werden sinnvoll wiederhergestellt';
+      'Sechs Monate nach dem Absetzen von Antidepressiva: Die meisten blieben rückfallfrei\n\nSechs-Monats-Marke für Rückfälle\nEine Metaanalyse von 2024 fasste 35 randomisierte Studien zum Absetzen von Antidepressiva bei Menschen zusammen, die wegen einer schweren Depression behandelt worden waren. Die gepoolte Rückfallrate lag sechs Monate nach dem Absetzen bei 34,81 % – entsprechend blieben etwa 65 % bis zu diesem Zeitpunkt rückfallfrei.\n\nEin echtes Langzeitergebnis\nDieselbe Analyse fand nach zwölf Monaten eine Rückfallrate von 45,12 %. Sechs Monate sind damit eine bedeutsame Stabilitätsmarke: Die meisten Teilnehmenden der zusammengefassten Studien waren bis dahin nicht rückfällig geworden.\n\nFortschritt schützen\nWenn depressive Beschwerden zurückkehren, wende dich frühzeitig an deine behandelnde Fachperson. Sechs Monate sind eine starke Phase der Stabilität, die es zu schützen lohnt.';
 
   @override
   String get tcaReferenceDay365 =>

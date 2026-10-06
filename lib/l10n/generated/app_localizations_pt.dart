@@ -2826,11 +2826,11 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get tcaMilestone180Title =>
-      'Seis Meses: Recuperação do Coração e do Pensamento';
+      'Seis Meses: A Maioria Manteve-se Sem Recaída';
 
   @override
   String get tcaMilestone180Description =>
-      'Seis meses permitem uma grande recuperação do ritmo cardíaco, da memória e da velocidade de pensamento. As alterações no ritmo cardíaco e a confusão mental causadas pelos ADTs levaram meses para serem resolvidas.';
+      'Entre pessoas que interromperam antidepressivos após tratamento para depressão major, uma meta-análise de 35 ensaios encontrou uma taxa agrupada de recaída de 34,8% aos seis meses — cerca de 65% manteve-se sem recaída. É um enorme período de estabilidade.';
 
   @override
   String get tcaMilestone365Title => 'Um ano: Recuperação alcançada';
@@ -3649,7 +3649,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get tcaReferenceDay180 =>
-      'Seis meses após ACTs: recuperação do coração e do pensamento\n\nSinal de recuperação em dados de longo prazo\nO período de abstinência precoce após os ADTs é geralmente leve e desaparece dentro de uma a duas semanas. Seis meses após uma redução gradual supervisionada, os efeitos dos ADTs na frequência cardíaca, na memória e no pensamento tiveram meses para se recuperar.\n\nRecuperação Cardiovascular\nAos seis meses, os efeitos diretos dos ADTs no ritmo cardíaco devem estar resolvidos há muito tempo:\n• Ritmo cardíaco normal mantido sem influência de drogas\n• Espera-se que a variabilidade da frequência cardíaca (uma medida de quão bem o seu coração se adapta) seja substancialmente melhorada\n• Tontura ao ficar em pé totalmente resolvida\n\nPensamento e recuperação de memória\nOs TCAs podem causar confusão mental e problemas de memória ao bloquear a acetilcolina, especialmente em adultos mais velhos. Esses efeitos melhoram após a interrupção do medicamento. Aos seis meses:\n• A consolidação da memória melhorou substancialmente\n• Velocidade de processamento normalizada\n• O planeamento, a memória de trabalho e a capacidade de alternar entre tarefas ou ideias são recuperados de forma significativa';
+      'Seis Meses Após Interromper Antidepressivos: A Maioria Manteve-se Sem Recaída\n\nMarco de Recaída aos Seis Meses\nUma meta-análise de 2024 reuniu 35 ensaios aleatorizados de descontinuação de antidepressivos em pessoas tratadas por depressão major. A taxa agrupada de recaída após a descontinuação foi de 34,81% aos seis meses — o equivalente a cerca de 65% permanecer sem recaída nesse momento.\n\nUm Resultado Real a Longo Prazo\nA mesma análise encontrou uma taxa de recaída de 45,12% aos 12 meses. Seis meses são um marco importante de estabilidade: a maioria dos participantes dos ensaios agrupados ainda não tinha recaído.\n\nProtege o Progresso\nSe os sintomas depressivos começarem a regressar, contacta cedo o teu profissional de saúde. Chegar aos seis meses é um enorme período de estabilidade que vale a pena proteger.';
 
   @override
   String get tcaReferenceDay365 =>
@@ -6517,11 +6517,11 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get tcaMilestone180Title =>
-      'Seis Meses: Recuperação do Coração e do Pensamento';
+      'Seis Meses: A Maioria Permaneceu Sem Recaída';
 
   @override
   String get tcaMilestone180Description =>
-      'Seis meses permitem uma grande recuperação do ritmo cardíaco, da memória e da velocidade de pensamento. As alterações no ritmo cardíaco e a confusão mental causadas pelos ADTs levaram meses para serem resolvidas.';
+      'Entre pessoas que interromperam antidepressivos após tratamento para depressão maior, uma meta-análise de 35 ensaios encontrou uma taxa combinada de recaída de 34,8% aos seis meses — cerca de 65% permaneceu sem recaída. É um enorme período de estabilidade.';
 
   @override
   String get tcaMilestone365Title => 'Um ano: Recuperação alcançada';
@@ -7340,7 +7340,7 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get tcaReferenceDay180 =>
-      'Seis meses após ACTs: recuperação do coração e do pensamento\n\nSinal de recuperação em dados de longo prazo\nO período de abstinência precoce após os ADTs é geralmente leve e desaparece dentro de uma a duas semanas. Seis meses após uma redução gradual supervisionada, os efeitos dos ADTs na frequência cardíaca, na memória e no pensamento tiveram meses para se recuperar.\n\nRecuperação Cardiovascular\nAos seis meses, os efeitos diretos dos ADTs no ritmo cardíaco devem estar resolvidos há muito tempo:\n• Ritmo cardíaco normal mantido sem influência de drogas\n• Espera-se que a variabilidade da frequência cardíaca (uma medida de quão bem o seu coração se adapta) seja substancialmente melhorada\n• Tontura ao ficar em pé totalmente resolvida\n\nPensamento e recuperação de memória\nOs TCAs podem causar confusão mental e problemas de memória ao bloquear a acetilcolina, especialmente em adultos mais velhos. Esses efeitos melhoram após a interrupção do medicamento. Aos seis meses:\n• A consolidação da memória melhorou substancialmente\n• Velocidade de processamento normalizada\n• O planejamento, a memória de trabalho e a capacidade de alternar entre tarefas ou ideias são recuperados de forma significativa';
+      'Seis Meses Após Interromper Antidepressivos: A Maioria Permaneceu Sem Recaída\n\nMarco de Recaída aos Seis Meses\nUma meta-análise de 2024 reuniu 35 ensaios randomizados de descontinuação de antidepressivos em pessoas tratadas por depressão maior. A taxa combinada de recaída após a descontinuação foi de 34,81% aos seis meses — equivalente a cerca de 65% permanecer sem recaída nesse ponto.\n\nUm Resultado Real de Longo Prazo\nA mesma análise encontrou uma taxa de recaída de 45,12% aos 12 meses. Seis meses são um marco importante de estabilidade: a maioria dos participantes dos ensaios combinados ainda não tinha recaído.\n\nProteja o Progresso\nSe os sintomas depressivos começarem a voltar, entre em contato cedo com seu profissional de saúde. Chegar aos seis meses é um enorme período de estabilidade que vale a pena proteger.';
 
   @override
   String get tcaReferenceDay365 =>

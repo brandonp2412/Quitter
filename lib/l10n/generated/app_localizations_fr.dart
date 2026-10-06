@@ -2857,11 +2857,11 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get tcaMilestone180Title =>
-      'Six mois : récupération cardiaque et cognitive';
+      'Six mois : la majorité est restée sans rechute';
 
   @override
   String get tcaMilestone180Description =>
-      'Six mois permettent une récupération importante du rythme cardiaque, de la mémoire et de la vitesse de pensée. Les modifications du rythme cardiaque et le brouillard mental causés par les ATC ont eu des mois pour se résorber.';
+      'Chez des personnes ayant arrêté un antidépresseur après un traitement pour dépression majeure, une méta-analyse de 35 essais a trouvé un taux groupé de rechute de 34,8 % à six mois : environ 65 % sont restées sans rechute. C’est une énorme période de stabilité.';
 
   @override
   String get tcaMilestone365Title => 'Un an : récupération accomplie';
@@ -3681,7 +3681,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get tcaReferenceDay180 =>
-      'Six mois après l\'arrêt des tricycliques : récupération du cœur et des fonctions cognitives\n\nCe que montrent les données à long terme\nLa période de sevrage précoce après l\'arrêt des tricycliques est généralement légère et disparaît en une à deux semaines. Six mois après une diminution progressive supervisée, les effets des tricycliques sur le rythme cardiaque, la mémoire et la pensée ont eu plusieurs mois pour récupérer.\n\nRécupération cardiovasculaire\nAu bout de six mois, les effets directs des tricycliques sur le rythme cardiaque devraient être résolus depuis longtemps :\n• maintien d\'un rythme cardiaque normal sans influence pharmacologique\n• variabilité de la fréquence cardiaque — une mesure de la capacité d\'adaptation du cœur — qui devrait s\'être nettement améliorée\n• disparition complète des vertiges au passage en position debout\n\nRécupération de la pensée et de la mémoire\nLes tricycliques peuvent provoquer un brouillard mental et des troubles de mémoire en bloquant l\'acétylcholine, en particulier chez les personnes âgées. Ces effets s\'améliorent après l\'arrêt du médicament. À six mois :\n• la consolidation de la mémoire s\'est nettement améliorée\n• la vitesse de traitement s\'est normalisée\n• la planification, la mémoire de travail et la capacité à passer d\'une tâche ou d\'une idée à une autre ont récupéré de manière significative';
+      'Six mois après l’arrêt des antidépresseurs : la majorité est restée sans rechute\n\nPoint de repère à six mois\nUne méta-analyse de 2024 a regroupé 35 essais randomisés d’arrêt d’antidépresseurs chez des personnes traitées pour dépression majeure. Le taux groupé de rechute après l’arrêt était de 34,81 % à six mois, soit environ 65 % de personnes encore sans rechute à ce stade.\n\nUn vrai résultat à long terme\nLa même analyse a trouvé un taux de rechute de 45,12 % à 12 mois. Six mois constituent donc un repère important de stabilité : la majorité des participants des essais regroupés n’avaient pas rechuté à ce moment-là.\n\nProtège tes progrès\nSi les symptômes dépressifs commencent à revenir, contacte rapidement ton professionnel de santé. Atteindre six mois représente une grande période de stabilité qui mérite d’être protégée.';
 
   @override
   String get tcaReferenceDay365 =>

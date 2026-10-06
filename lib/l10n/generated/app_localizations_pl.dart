@@ -2819,12 +2819,11 @@ class AppLocalizationsPl extends AppLocalizations {
       'Dziewięćdziesiąt dni bez TCA to ogromny kamień milowy. Najmocniejsze dane z badań dotyczą tu krótkotrwałego leczenia, a nie sztywnego harmonogramu zdrowienia po odstawieniu. Ten etap celebruje więc to, co pewne: trzy miesiące bez leczenia TCA.';
 
   @override
-  String get tcaMilestone180Title =>
-      'Sześć miesięcy: Odzyskiwanie serca i myślenia';
+  String get tcaMilestone180Title => 'Sześć miesięcy: większość bez nawrotu';
 
   @override
   String get tcaMilestone180Description =>
-      'Sześć miesięcy pozwala na znaczne ożywienie rytmu serca, pamięci i szybkiego myślenia. Zmiany rytmu serca i mgły mózgu spowodowane przez TCA miały miesiące do rozwiązania.';
+      'Wśród osób odstawiających leki przeciwdepresyjne po leczeniu dużej depresji metaanaliza 35 badań wykazała łączny odsetek nawrotów 34,8% po sześciu miesiącach — około 65% osób pozostało bez nawrotu. To ogromny odcinek stabilności.';
 
   @override
   String get tcaMilestone365Title => 'Jeden rok: Odzyskiwanie osiągnięte';
@@ -3643,7 +3642,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get tcaReferenceDay180 =>
-      'Sześć miesięcy po TCAS- Serce i Myślenie\n\nSygnał odzyskiwania danych dotyczących danych długoterminowych\nWczesny okres karencji po podaniu produktu TCAs jest zwykle łagodny i ustępuje w ciągu jednego do dwóch tygodń. w ciągu sześciu miesięcy po nadzorowanym zabiegu, reakcja serca, zapamiętanie i myślenie działania produktu TCAs miały miesiące do odzyskania.\n\nOdzysk sercowo – naczyniowy\nW ciągu sześciu miesięcy, TCAsproved bezpośredni wpływ na rytm serca powinien być długo rozwiązany:\n• Normalny rytm serca utrzymywany bez wpływu na działanie leków\n• Zmienność częstości akcji serca jest miarą tego, jak dobrze dostosowuje się serce ), która oczekuje znaczącej poprawy\n• Zawroty głowy w pozycji stojącej w pełni ustąpiły\n\nMyślenie i odzyskiwanie pamięci\nTCA może powodować mgła mózgu i problemy z pamięcią poprzez blokowanie acetylocholiny, zwłaszcza w starszych dorosłach. efekty te poprawiają się po przerwaniu leku. W sześciu miesiącach:\n• Znacząco poprawiła się konsolidacja pamięci\n• Znormalizowana prędkość przetwarzania\n• Planowanie, zapamiętywanie pracy oraz zdolność do przełączania się pomiędzy zadaniami lub pomysłami są w istotny sposób odzyskiwane';
+      'Sześć miesięcy po odstawieniu leków przeciwdepresyjnych: większość bez nawrotu\n\nSześciomiesięczny punkt kontrolny nawrotu\nMetaanaliza z 2024 roku połączyła 35 randomizowanych badań odstawiania leków przeciwdepresyjnych u osób leczonych z powodu dużej depresji. Łączny odsetek nawrotów po odstawieniu wyniósł 34,81% po sześciu miesiącach — czyli około 65% osób pozostawało wtedy bez nawrotu.\n\nRzeczywisty wynik długoterminowy\nTa sama analiza wykazała odsetek nawrotów 45,12% po 12 miesiącach. Sześć miesięcy to ważny punkt stabilności: większość uczestników połączonych badań nie doświadczyła do tego czasu nawrotu.\n\nChroń postęp\nJeśli objawy depresji zaczną wracać, wcześnie skontaktuj się z lekarzem. Sześć miesięcy to ogromny okres stabilności, który warto chronić.';
 
   @override
   String get tcaReferenceDay365 =>

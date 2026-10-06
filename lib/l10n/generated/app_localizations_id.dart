@@ -2796,11 +2796,11 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get tcaMilestone180Title =>
-      'Enam Bulan: Pemulihan Jantung dan Berpikir';
+      'Enam Bulan: Kebanyakan Tetap Tanpa Kambuh';
 
   @override
   String get tcaMilestone180Description =>
-      'Enam bulan memungkinkan pemulihan besar dalam ritme jantung, memori, dan kecepatan berpikir. Perubahan ritme jantung dan kabut otak yang disebabkan oleh TCA membutuhkan waktu berbulan-bulan untuk diselesaikan.';
+      'Pada orang yang menghentikan antidepresan setelah pengobatan depresi mayor, meta-analisis 35 uji menemukan angka kekambuhan gabungan 34,8% pada enam bulan—sekitar 65% tetap tanpa kambuh. Itu adalah rentang stabilitas yang sangat besar.';
 
   @override
   String get tcaMilestone365Title => 'Satu Tahun: Pemulihan Tercapai';
@@ -3618,7 +3618,7 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get tcaReferenceDay180 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Enam Bulan Setelah Menghentikan Antidepresan: Kebanyakan Tetap Tanpa Kambuh\n\nTitik Enam Bulan untuk Kekambuhan\nMeta-analisis tahun 2024 menggabungkan 35 uji acak penghentian antidepresan pada orang yang dirawat karena depresi mayor. Angka kekambuhan gabungan setelah penghentian adalah 34,81% pada enam bulan—setara dengan sekitar 65% tetap tanpa kambuh pada titik itu.\n\nHasil Jangka Panjang yang Nyata\nAnalisis yang sama menemukan angka kekambuhan 45,12% pada 12 bulan. Enam bulan adalah titik stabilitas yang bermakna: sebagian besar peserta dalam uji gabungan belum mengalami kekambuhan pada saat itu.\n\nLindungi Kemajuan\nJika gejala depresi mulai kembali, hubungi tenaga kesehatan Anda lebih awal. Mencapai enam bulan adalah rentang stabilitas besar yang layak dijaga.';
 
   @override
   String get tcaReferenceDay365 =>

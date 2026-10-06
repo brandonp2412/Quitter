@@ -2752,11 +2752,11 @@ class AppLocalizationsEn extends AppLocalizations {
       'Ninety days without a TCA is a serious milestone. The strongest trial evidence here describes short-term treatment, not a fixed post-stop recovery clock, so this milestone celebrates what is certain: three months off TCA treatment.';
 
   @override
-  String get tcaMilestone180Title => 'Six Months: Heart and Thinking Recovery';
+  String get tcaMilestone180Title => 'Six Months: Most Stayed Relapse-Free';
 
   @override
   String get tcaMilestone180Description =>
-      'Six months allows major recovery in heart rhythm, memory, and thinking speed. The heart-rhythm changes and brain fog caused by TCAs have had months to resolve.';
+      'Among people discontinuing antidepressants after treatment for major depression, a 35-trial meta-analysis found a 34.8% pooled relapse rate at six months—about 65% remained relapse-free. That is a huge stretch of stability.';
 
   @override
   String get tcaMilestone365Title => 'One Year: Recovery Achieved';
@@ -3572,7 +3572,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get tcaReferenceDay180 =>
-      'Six Months After TCAs: Heart and Thinking Recovery\n\nRecovery Signal on Long-Term Data\nThe early withdrawal period after TCAs is usually mild and resolves within one to two weeks. By six months after a supervised taper, the heart-rate, memory, and thinking effects of TCAs have had months to recover.\n\nCardiovascular Recovery\nBy six months, TCAs\' direct effects on heart rhythm should be long resolved:\n• Normal heart rhythm maintained without drug-driven influence\n• Heart rate variability (a measure of how well your heart adapts) expected to be substantially improved\n• Dizziness on standing fully resolved\n\nThinking and Memory Recovery\nTCAs can cause brain fog and memory problems by blocking acetylcholine, especially in older adults. Those effects improve after the drug is stopped. At six months:\n• Memory consolidation substantially improved\n• Processing speed normalised\n• Planning, working memory, and the ability to switch between tasks or ideas are meaningfully recovered';
+      'Six Months After Antidepressant Discontinuation: Most Stayed Relapse-Free\n\nSix-Month Relapse Checkpoint\nA 2024 meta-analysis pooled 35 randomized antidepressant discontinuation trials in people treated for major depressive disorder. The pooled relapse rate after discontinuation was 34.81% at six months—equivalent to about 65% remaining relapse-free at that checkpoint.\n\nA Real Long-Term Outcome\nThe same analysis found a 45.12% relapse rate at 12 months. Six months is a meaningful stability checkpoint: most participants in the pooled trials had not relapsed by then.\n\nProtect the Progress\nIf depressive symptoms start returning, contact your clinician early. Reaching six months is a huge stretch of stability worth protecting.';
 
   @override
   String get tcaReferenceDay365 =>

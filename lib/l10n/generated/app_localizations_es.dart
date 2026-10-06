@@ -2828,11 +2828,11 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get tcaMilestone180Title =>
-      'Seis meses: recuperación cardíaca y cognitiva';
+      'Seis meses: la mayoría siguió sin recaída';
 
   @override
   String get tcaMilestone180Description =>
-      'Seis meses permiten una gran recuperación del ritmo cardiaco, la memoria y la velocidad de pensamiento. Los cambios del ritmo cardiaco y la niebla mental causados por los tricíclicos han tenido meses para resolverse.';
+      'Entre personas que dejaron antidepresivos tras tratar una depresión mayor, un metanálisis de 35 ensayos halló una tasa agrupada de recaída del 34,8 % a los seis meses: alrededor del 65 % siguió sin recaída. Es un enorme tramo de estabilidad.';
 
   @override
   String get tcaMilestone365Title => 'Un año: recuperación conseguida';
@@ -3651,7 +3651,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get tcaReferenceDay180 =>
-      'Seis meses después de los tricíclicos: recuperación cardiaca y cognitiva\n\nSeñal de recuperación a largo plazo\nEl periodo inicial de retirada tras los tricíclicos suele ser leve y resolverse en una o dos semanas. A los seis meses de completar una reducción supervisada, los efectos de los tricíclicos sobre la frecuencia cardiaca, la memoria y el pensamiento han tenido meses para recuperarse.\n\nRecuperación cardiovascular\nA los seis meses, los efectos directos de los tricíclicos sobre el ritmo cardiaco deberían haberse resuelto desde hace tiempo:\n• Ritmo cardiaco normal mantenido sin influencia farmacológica\n• Se espera una mejora importante de la variabilidad de la frecuencia cardiaca, una medida de la capacidad del corazón para adaptarse\n• Los mareos al ponerse de pie deberían haberse resuelto\n\nRecuperación del pensamiento y la memoria\nLos tricíclicos pueden causar niebla mental y problemas de memoria al bloquear la acetilcolina, especialmente en personas mayores. Estos efectos mejoran después de suspender el medicamento. A los seis meses:\n• La consolidación de la memoria ha mejorado de forma importante\n• La velocidad de procesamiento se ha normalizado\n• La planificación, la memoria de trabajo y la capacidad de cambiar entre tareas o ideas se han recuperado de forma significativa';
+      'Seis meses tras dejar los antidepresivos: la mayoría siguió sin recaída\n\nPunto de control de recaída a los seis meses\nUn metanálisis de 2024 agrupó 35 ensayos aleatorizados de discontinuación de antidepresivos en personas tratadas por depresión mayor. La tasa agrupada de recaída tras la discontinuación fue del 34,81 % a los seis meses, equivalente a que alrededor del 65 % siguiera sin recaída en ese punto.\n\nUn resultado real a largo plazo\nEl mismo análisis encontró una tasa de recaída del 45,12 % a los 12 meses. Seis meses son un punto de estabilidad importante: la mayoría de los participantes de los ensayos agrupados no había recaído para entonces.\n\nProtege el progreso\nSi empiezan a volver los síntomas depresivos, contacta pronto con tu profesional de salud. Llegar a seis meses es un gran tramo de estabilidad que merece protección.';
 
   @override
   String get tcaReferenceDay365 =>
