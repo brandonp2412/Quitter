@@ -607,14 +607,14 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get steroidsMilestone365Description =>
-      'Une année sans stéroïdes. Chez la plupart des personnes, les hormones et l\'humeur se sont normalisées ; une testostérone durablement basse au-delà de ce stade justifie une évaluation spécialisée.';
+      'Une année complète sans stéroïdes est une étape énorme. La récupération hormonale se poursuit souvent sur plusieurs mois, tandis que le volume testiculaire, la production de spermatozoïdes et la libido peuvent encore s’améliorer pendant des mois, voire des années. Des symptômes persistants de faible testostérone méritent une évaluation spécialisée.';
 
   @override
   String get steroidsMilestone730Title => 'Deux ans — une nouvelle normalité';
 
   @override
   String get steroidsMilestone730Description =>
-      'Deux ans sans stéroïdes. Vos taux hormonaux reflètent désormais les niveaux naturels de votre corps ; des symptômes persistants de faible testostérone doivent être évalués par un spécialiste.';
+      'Deux ans sans stéroïdes. La récupération après les AAS varie, mais votre propre système hormonal a eu beaucoup de temps pour récupérer. Si des symptômes de faible testostérone persistent, faites-les évaluer par un spécialiste plutôt que de reprendre un cycle.';
 
   @override
   String get appTitle => 'Quitter';
@@ -3655,11 +3655,11 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get steroidsReferenceDay365 =>
-      'Un an sans stéroïdes anabolisants\n\nSource : « Anabolic androgenic steroid-induced hypogonadism, a reversible condition in male individuals? A systematic review », sur PubMed\n\nUn an sans stéroïdes\nUne année d’arrêt offre au système hormonal une longue période de récupération. La testostérone, l’humeur, la libido, la force naturelle et la santé cardiovasculaire ont toutes eu beaucoup de temps pour récupérer.\n\nÀ long terme\nSi des symptômes de faible testostérone sont toujours présents au bout d’un an, l’étape suivante appropriée est un bilan hormonal spécialisé. Continuer à ne pas prendre de stéroïdes protège les progrès déjà accomplis.';
+      'Un an sans stéroïdes anabolisants\n\nSource : \"Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review,\" Endocrine Connections (2023)\n\nUn an sans stéroïdes\nLa récupération après les AAS est très variable. La revue décrit une récupération presque complète de la testostérone sur plusieurs mois, une récupération des gonadotrophines en environ trois à six mois, et une récupération du volume testiculaire et de la production de spermatozoïdes sur des mois à des années. La récupération psychologique est moins prévisible.\n\nUn an, ça compte\nUne année complète sans stéroïdes est une étape énorme, pas une échéance universelle à laquelle toutes les hormones doivent être normalisées. Si des symptômes de faible testostérone persistent, une évaluation spécialisée peut faire le point sur la récupération.';
 
   @override
   String get steroidsReferenceDay730 =>
-      'Deux ans sans stéroïdes anabolisants\n\nSource : « Anabolic androgenic steroid-induced hypogonadism, a reversible condition in male individuals? A systematic review », sur PubMed\n\nUne nouvelle normalité\nAprès deux ans, vos taux hormonaux reflètent la production naturelle de votre organisme. Chez la plupart des hommes qui récupèrent, l\'humeur, la libido, la force et la motivation sont stables sans stéroïdes.\n\nRécupération hormonale à long terme\nLes recherches montrent que la testostérone récupère sur plusieurs mois, tandis que les hormones qui stimulent les testicules reviennent généralement en trois à six mois. Le volume testiculaire, la production de spermatozoïdes et la libido peuvent continuer à s\'améliorer pendant des mois, voire des années. Après deux ans, des symptômes persistants de faible testostérone doivent être évalués par un spécialiste, et non traités par un nouveau cycle de stéroïdes.';
+      'Deux ans sans stéroïdes anabolisants\n\nSource : \"Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review,\" Endocrine Connections (2023)\n\nDeux ans solides\nDeux ans sans stéroïdes représentent une longue période sans nouvelle exposition. La récupération varie selon des facteurs tels que l’âge et l’importance de l’usage antérieur d’androgènes ; il n’existe pas de seuil universel de deux ans auquel toutes les hormones doivent être normales.\n\nLe long terme\nLa revue décrit une récupération de la testostérone sur plusieurs mois et des gonadotrophines en environ trois à six mois, tandis que le volume testiculaire et la production de spermatozoïdes peuvent continuer à récupérer pendant des mois ou des années. Des symptômes persistants de faible testostérone méritent une évaluation spécialisée, pas un nouveau cycle de stéroïdes.';
 
   @override
   String get tcaReferenceDay3 =>

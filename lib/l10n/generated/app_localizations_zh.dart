@@ -574,14 +574,14 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get steroidsMilestone365Description =>
-      '停用类固醇一年。对大多数人来说，激素和情绪已经正常化；此点之后持续的睾酮偏低需要专科评估。';
+      '停用类固醇整整一年，是一个巨大的里程碑。激素恢复往往需要数月，而睾丸大小、精子生成和性欲可能在数月至数年间继续改善。若低睾酮症状持续存在，值得请专科医生评估。';
 
   @override
   String get steroidsMilestone730Title => '两年——新的常态';
 
   @override
   String get steroidsMilestone730Description =>
-      '停用类固醇两年。现在的激素水平反映的是身体本身的自然水平；如果低睾酮症状仍在持续，应请专科医生评估。';
+      '停用类固醇两年。AAS 停用后的恢复因人而异，但您已经给了自身激素系统很长的恢复时间。若低睾酮症状仍在持续，请让专科医生评估，而不是再开始一个周期。';
 
   @override
   String get appTitle => 'Quitter';
@@ -3411,11 +3411,11 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get steroidsReferenceDay365 =>
-      '停用合成代谢类固醇一年\n\n来源：《Anabolic androgenic steroid-induced hypogonadism, a reversible condition in male individuals? A systematic review》，见PubMed\n\n一年无类固醇\n一年停用给了激素系统一个漫长的恢复窗口。睾酮、情绪、性欲、自然力量和心脏健康都有了充足的时间来恢复。\n\n长期图景\n如果低睾酮症状在一年时仍然存在，专科激素评估是正确的下一步。保持停用类固醇，能保护已经取得的恢复。';
+      '停用合成代谢类固醇一年\n\n来源：\"Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review,\" Endocrine Connections (2023)\n\n一年无类固醇\nAAS 停用后的恢复差异很大。该综述报告，睾酮在数月内可接近完全恢复，促性腺激素通常约三至六个月恢复，而睾丸大小和精子生成可能在数月至数年间继续恢复。心理恢复则更难预测。\n\n一年依然意义重大\n停用类固醇整整一年是一个巨大的里程碑，但并不存在一个适用于所有人的“激素必须在一年内恢复正常”的期限。若低睾酮症状仍然存在，专科评估可以帮助确认您的恢复进展。';
 
   @override
   String get steroidsReferenceDay730 =>
-      '停用合成代谢类固醇两年\n\n来源：《Anabolic androgenic steroid-induced hypogonadism, a reversible condition in male individuals? A systematic review》，见PubMed\n\n一个新的常态\n到两年时，你的激素水平反映了你身体的自然产生。对大多数恢复的男性来说，情绪、性欲、力量和动力在没有类固醇的情况下是稳定的。\n\n长期激素恢复\n研究显示睾酮会在数月内恢复，而向睾丸发出信号的激素通常在三到六个月内恢复。睾丸大小、精子产生和性欲可以在数月至数年内持续改善。到两年时，持续存在的低睾酮症状应交给专科医生，而不是再来一个类固醇周期。';
+      '停用合成代谢类固醇两年\n\n来源：\"Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review,\" Endocrine Connections (2023)\n\n坚实的两年\n停用类固醇两年，意味着很长一段时间没有再次暴露。恢复会受到年龄和既往雄激素使用程度等因素影响，并不存在一个适用于所有人的“两年时激素必须正常”的终点。\n\n长期恢复\n该综述报告，睾酮恢复需要数月，促性腺激素约三至六个月，而睾丸大小和精子生成可能在数月至数年间继续恢复。若低睾酮症状持续存在，应请专科医生评估，而不是再进行一个类固醇周期。';
 
   @override
   String get tcaReferenceDay3 =>
@@ -4064,14 +4064,14 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get steroidsMilestone365Description =>
-      '停用類固醇一年。對大多數人來說，激素和情緒已經正常化；此點之後持續的睪酮偏低需要專科評估。';
+      '停用類固醇整整一年，是一個巨大的里程碑。荷爾蒙恢復往往需要數月，而睪丸大小、精子生成和性慾可能在數月至數年間持續改善。若低睪酮症狀持續存在，值得請專科醫師評估。';
 
   @override
   String get steroidsMilestone730Title => '兩年——新的常態';
 
   @override
   String get steroidsMilestone730Description =>
-      '停用類固醇兩年。現在的激素水平反映的是身體本身的自然水平；如果低睪酮症狀仍在持續，應請專科醫生評估。';
+      '停用類固醇兩年。AAS 停用後的恢復因人而異，但您已經給了自身荷爾蒙系統很長的恢復時間。若低睪酮症狀仍在持續，請讓專科醫師評估，而不是再開始一個週期。';
 
   @override
   String get appTitle => 'Quitter';
@@ -6901,11 +6901,11 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get steroidsReferenceDay365 =>
-      '停用合成代謝類固醇一年\n\n來源：《Anabolic androgenic steroid-induced hypogonadism, a reversible condition in male individuals? A systematic review》，見PubMed\n\n一年無類固醇\n一年停用給了激素系統一個漫長的恢復窗口。睪酮、情緒、性慾、自然力量和心臟健康都有了充足的時間來恢復。\n\n長期圖景\n如果低睪酮症狀在一年時仍然存在，專科激素評估是正確的下一步。保持停用類固醇，能保護已經取得的恢復。';
+      '停用合成代謝類固醇一年\n\n來源：\"Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review,\" Endocrine Connections (2023)\n\n一年無類固醇\nAAS 停用後的恢復差異很大。該綜述報告，睪酮在數月內可接近完全恢復，促性腺激素通常約三至六個月恢復，而睪丸大小和精子生成可能在數月至數年間持續恢復。心理恢復則更難預測。\n\n一年依然意義重大\n停用類固醇整整一年是一個巨大的里程碑，但並不存在一個適用於所有人的「荷爾蒙必須在一年內恢復正常」期限。若低睪酮症狀仍然存在，專科評估可以協助確認您的恢復進度。';
 
   @override
   String get steroidsReferenceDay730 =>
-      '停用合成代謝類固醇兩年\n\n來源：《Anabolic androgenic steroid-induced hypogonadism, a reversible condition in male individuals? A systematic review》，見PubMed\n\n一個新的常態\n到兩年時，你的激素水平反映了你身體的自然產生。對大多數恢復的男性來說，情緒、性慾、力量和動力在沒有類固醇的情況下是穩定的。\n\n長期激素恢復\n研究顯示睪酮會在數月內恢復，而向睪丸發出信號的激素通常在三到六個月內恢復。睪丸大小、精子產生和性慾可以在數月至數年內持續改善。到兩年時，持續存在的低睪酮症狀應交給專科醫生，而不是再來一個類固醇週期。';
+      '停用合成代謝類固醇兩年\n\n來源：\"Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review,\" Endocrine Connections (2023)\n\n扎實的兩年\n停用類固醇兩年，意味著很長一段時間沒有再次暴露。恢復會受到年齡和過往雄激素使用程度等因素影響，並不存在一個適用於所有人的「兩年時荷爾蒙必須正常」終點。\n\n長期恢復\n該綜述報告，睪酮恢復需要數月，促性腺激素約三至六個月，而睪丸大小和精子生成可能在數月至數年間持續恢復。若低睪酮症狀持續存在，應請專科醫師評估，而不是再進行一個類固醇週期。';
 
   @override
   String get tcaReferenceDay3 =>

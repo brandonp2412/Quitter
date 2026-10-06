@@ -575,14 +575,14 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get steroidsMilestone365Description =>
-      'ステロイドなしの1年。ほとんどの人でホルモンと気分は正常化しています；この時点以降の持続的な低テストステロンは専門医の評価が必要です。';
+      'ステロイドなしで丸1年は大きな節目です。ホルモンの回復は数か月かけて進むことが多く、精巣の大きさ、精子産生、性欲は数か月から数年にわたり改善が続くことがあります。低テストステロン症状が続く場合は、専門医の評価を受ける価値があります。';
 
   @override
   String get steroidsMilestone730Title => '2年—新しい日常';
 
   @override
   String get steroidsMilestone730Description =>
-      'ステロイドなしで2年。現在のホルモン値は体本来の自然な水準を反映しています。低テストステロンの症状が続く場合は、専門医に確認してもらいましょう。';
+      'ステロイドなしで2年。AAS中止後の回復には個人差がありますが、体本来のホルモン系には長い回復期間がありました。低テストステロン症状が続くなら、再びサイクルを始めるのではなく専門医に評価してもらいましょう。';
 
   @override
   String get appTitle => 'Quitter';
@@ -3414,11 +3414,11 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get steroidsReferenceDay365 =>
-      'アナボリックステロイドを断って1年\n\n出典：\"Anabolic androgenic steroid-induced hypogonadism, a reversible condition in male individuals? A systematic review,\" PubMed所収\n\nステロイドなしの1年\n1年の断薬は、ホルモン系に長い回復の期間を与えます。テストステロン、気分、性欲、自然な筋力、心臓の健康は、いずれも回復するための十分な時間を得ました。\n\n長期的な全体像\n1年時点で低テストステロンの症状がまだあるなら、専門医によるホルモン評価が次の正しいステップです。ステロイドを断ち続けることは、すでに得られた回復を守ります。';
+      'アナボリックステロイドを断って1年\n\n出典：\"Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review,\" Endocrine Connections (2023)\n\nステロイドなしの1年\nAAS中止後の回復には大きな個人差があります。このレビューでは、テストステロンは数か月かけてほぼ完全に回復し、ゴナドトロピンは約3〜6か月で回復し、精巣の大きさと精子産生は数か月から数年かけて回復しうると報告しています。心理面の回復はより予測しにくいとされています。\n\n1年は大きな節目\nステロイドなしで丸1年は大きな節目ですが、全員のホルモンが必ず正常化する共通の期限ではありません。低テストステロン症状が続く場合は、専門医の評価で回復状況を確認できます。';
 
   @override
   String get steroidsReferenceDay730 =>
-      'アナボリックステロイドを断って2年\n\n出典：\"Anabolic androgenic steroid-induced hypogonadism, a reversible condition in male individuals? A systematic review,\" PubMed所収\n\n新しい日常\n2年までには、あなたのホルモンレベルは体の自然な産生を反映しています。回復するほとんどの男性では、気分、性欲、筋力、意欲はステロイドなしで安定しています。\n\n長期的なホルモン回復\n研究は、テストステロンが数ヶ月かけて回復し、精巣に信号を送るホルモンは通常3〜6ヶ月以内に回復することを示しています。精巣の大きさ、精子産生、性欲は数ヶ月から数年かけて改善し続けます。2年時点で持続する低テストステロンの症状は、別のステロイドサイクルではなく、専門医に委ねるべきものです。';
+      'アナボリックステロイドを断って2年\n\n出典：\"Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review,\" Endocrine Connections (2023)\n\n2年間を積み重ねた\nステロイドなしの2年は、再曝露なしで過ごした長い期間です。回復は年齢や以前のアンドロゲン使用量などによって異なり、2年で全員のホルモンが必ず正常になるという共通のゴールはありません。\n\n長期の回復\nこのレビューでは、テストステロンは数か月、ゴナドトロピンは約3〜6か月で回復し、精巣の大きさと精子産生は数か月から数年にわたり回復が続くことがあると報告しています。低テストステロン症状が続く場合は、別のステロイドサイクルではなく専門医の評価が必要です。';
 
   @override
   String get tcaReferenceDay3 =>

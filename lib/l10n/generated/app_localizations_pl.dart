@@ -601,14 +601,14 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get steroidsMilestone365Description =>
-      'Rok wolnego od steroidów. Dla większości, hormony i nastrój są normalizowane; trwałe niskie testosteronu przeszłości ten punkt gwarantuje ocenę specjalistyczną.';
+      'Pełny rok bez sterydów to ogromny kamień milowy. Odbudowa hormonalna często trwa miesiącami, a wielkość jąder, produkcja plemników i libido mogą poprawiać się przez miesiące lub lata. Utrzymujące się objawy niskiego testosteronu warto skonsultować ze specjalistą.';
 
   @override
   String get steroidsMilestone730Title => 'Dwa lata w nowym standardzie';
 
   @override
   String get steroidsMilestone730Description =>
-      'Dwa lata poza steroidami. Hormony teraz odzwierciedlać ciała naturalne poziomy; bieżące objawy niskiego testosteronu powinny być sprawdzane przez specjalistę.';
+      'Dwa lata bez sterydów. Powrót do zdrowia po AAS jest bardzo indywidualny, ale własny układ hormonalny miał dużo czasu na regenerację. Jeśli objawy niskiego testosteronu nadal się utrzymują, warto je ocenić u specjalisty zamiast wracać do kolejnego cyklu.';
 
   @override
   String get appTitle => 'Quitter';
@@ -3616,11 +3616,11 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get steroidsReferenceDay365 =>
-      'Rok poza Sterydy anaboliczne\n\nŹródło: \"Anabolic androgenic steroid-induced hypogonadism, a reversible condition in male individuals? A systematic review,\" on PubMed\n\nRok wolny\nRok wolnego daje hormonowi długą regenerację okienko. Testosterone, moode, libido, naturalne wzmocnienie, i zdrowie serca wszystkie miały znaczny czas na regenerację.\n\nObraz długookresowy\nJeśli objawy niskiego testosteronu są nadal obecne w ciągu jednego roku, specjalistyczna ocena hormonalna jest właściwym następnym krokiem.';
+      'Rok bez sterydów anabolicznych\n\nŹródło: \"Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review,\" Endocrine Connections (2023)\n\nRok bez sterydów\nRegeneracja po AAS jest bardzo zróżnicowana. Przegląd opisuje niemal pełny powrót testosteronu w ciągu miesięcy, powrót gonadotropin w około trzy do sześciu miesięcy oraz regenerację wielkości jąder i produkcji plemników przez miesiące lub lata. Regeneracja psychiczna jest mniej przewidywalna.\n\nRok naprawdę się liczy\nPełny rok bez sterydów to ogromny kamień milowy, ale nie uniwersalny termin, do którego wszystkie hormony muszą się unormować. Jeśli objawy niskiego testosteronu nadal występują, specjalistyczna ocena może pokazać, na jakim etapie jest regeneracja.';
 
   @override
   String get steroidsReferenceDay730 =>
-      'Dwa lata off Sterydy anaboliczne\n\nŹródło: \"Anabolic androgenic steroid-induced hypogonadism, a reversible condition in male individuals? A systematic review,\" on PubMed\n\nA New Normal\nW ciągu dwóch lat poziom hormonów odzwierciedla organizm naturalnej produkcji. Dla większości mężczyzn, którzy odzyskują, mood, libido, wzmocnienie, i motywacja są stabilne bez steroidów.\n\nDługoterminowy odzysk hormonu\nBadania pokazują, że testosteron odzyskuje ponad miesiące, podczas gdy hormony, które sygnalizują jąder zwykle odzyskać w ciągu trzech do sześciu miesięcy. rozmiar jąder, produkcja spermy, i libido może utrzymać poprawę w ciągu miesięcy do lat.W dwóch latach, trwałe objawy niskiego testosteronu należą do specjalisty, a nie inny cykl sterydów.';
+      'Dwa lata bez sterydów anabolicznych\n\nŹródło: \"Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review,\" Endocrine Connections (2023)\n\nDwa mocne lata\nDwa lata bez sterydów to długi okres bez ponownej ekspozycji. Regeneracja zależy między innymi od wieku i skali wcześniejszego używania androgenów; nie ma uniwersalnej granicy dwóch lat, po której hormony każdej osoby muszą być prawidłowe.\n\nDługi dystans\nPrzegląd opisuje regenerację testosteronu w ciągu miesięcy i gonadotropin w około trzy do sześciu miesięcy, a wielkość jąder i produkcja plemników mogą poprawiać się przez miesiące lub lata. Utrzymujące się objawy niskiego testosteronu wymagają oceny specjalisty, a nie kolejnego cyklu sterydów.';
 
   @override
   String get tcaReferenceDay3 =>

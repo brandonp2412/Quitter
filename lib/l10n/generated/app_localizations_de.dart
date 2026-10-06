@@ -597,14 +597,14 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get steroidsMilestone365Description =>
-      'Ein Jahr weg von Steroiden. Für die meisten haben sich Hormone und Stimmung normalisiert; Anhaltend niedriges Testosteron nach diesem Punkt erfordert eine fachkundige Beurteilung.';
+      'Ein volles Jahr ohne Steroide ist ein riesiger Meilenstein. Die hormonelle Erholung verläuft oft über Monate; Hodengröße, Spermienproduktion und Libido können sich über Monate bis Jahre weiter erholen. Anhaltende Symptome eines Testosteronmangels sollten fachärztlich abgeklärt werden.';
 
   @override
   String get steroidsMilestone730Title => 'Zwei Jahre – eine neue Normalität';
 
   @override
   String get steroidsMilestone730Description =>
-      'Zwei Jahre weg von Steroiden. Ihre Hormone spiegeln jetzt die natürlichen Niveaus Ihres Körpers wider; laufende Low-Testosteron-Symptome sollten von einem Spezialisten überprüft werden.';
+      'Zwei Jahre ohne Steroide. Die Erholung nach AAS ist unterschiedlich, aber Ihr eigenes Hormonsystem hatte viel Zeit zur Erholung. Wenn Symptome eines Testosteronmangels anhalten, lassen Sie sie fachärztlich abklären, statt einen weiteren Zyklus zu beginnen.';
 
   @override
   String get appTitle => 'Quittung';
@@ -3603,11 +3603,11 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get steroidsReferenceDay365 =>
-      'Ein Jahr aus anabole Steroide\n\nQuelle: \"Anabole androgene Steroid-induzierte Hypogonadismus, eine reversible Bedingung bei männlichen Individuen?\" Eine systematische Überprüfung, auf PubMed\n\nEin Jahr frei\nEin freies Jahr gibt dem Hormonsystem ein langes Erholungsfenster. Testosteron, Stimmung, Libido, natürliche Stärke und Herzgesundheit hatten alle viel Zeit, sich zu erholen.\n\nDas langfristige Bild\nWenn Low-Testosteron-Symptome nach einem Jahr noch vorhanden sind, ist eine spezialisierte Hormonbewertung der richtige nächste Schritt. Bleiben weg von Steroiden schützt die Erholung bereits gemacht.';
+      'Ein Jahr ohne anabole Steroide\n\nQuelle: \"Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review,\" Endocrine Connections (2023)\n\nEin Jahr frei\nDie Erholung nach AAS ist sehr unterschiedlich. Der Review beschreibt eine nahezu vollständige Erholung des Testosterons über Monate, eine Erholung der Gonadotropine nach etwa drei bis sechs Monaten und eine Erholung von Hodengröße und Spermienproduktion über Monate bis Jahre. Die psychische Erholung ist weniger vorhersehbar.\n\nEin Jahr zählt\nEin volles Jahr ohne Steroide ist ein großer Meilenstein, aber kein allgemeingültiger Zeitpunkt, an dem alle Hormonwerte normal sein müssen. Bei anhaltenden Symptomen eines Testosteronmangels kann eine fachärztliche Untersuchung klären, wie die Erholung verläuft.';
 
   @override
   String get steroidsReferenceDay730 =>
-      'Zwei Jahre weg anabole Steroide\n\nQuelle: \"Anabole androgene Steroid-induzierte Hypogonadismus, eine reversible Bedingung bei männlichen Individuen?\" Eine systematische Überprüfung, auf PubMed\n\nEine neue Normalität\nNach zwei Jahren spiegeln Ihre Hormonspiegel die natürliche Produktion Ihres Körpers wider. Für die meisten Männer, die sich erholen, sind Stimmung, Libido, Stärke und Motivation ohne Steroide stabil.\n\nLangfristige Hormonwiederherstellung\nUntersuchungen zeigen, dass sich Testosteron über Monate erholt, während sich die Hormone, die die Hoden signalisieren, normalerweise innerhalb von drei bis sechs Monaten erholen. Hodengröße, Spermienproduktion und Libido können sich über Monate bis Jahre verbessern. Nach zwei Jahren gehören anhaltende Low-Testosteron-Symptome zu einem Spezialisten, nicht zu einem anderen Steroidzyklus.';
+      'Zwei Jahre ohne anabole Steroide\n\nQuelle: \"Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review,\" Endocrine Connections (2023)\n\nZwei starke Jahre\nZwei Jahre ohne Steroide sind eine lange Zeit ohne erneute Exposition. Die Erholung hängt unter anderem von Alter und Ausmaß des früheren Androgenkonsums ab; es gibt keinen allgemeingültigen Zwei-Jahres-Punkt, an dem alle Hormonwerte normal sein müssen.\n\nDer lange Weg\nDer Review beschreibt eine Erholung des Testosterons über Monate und der Gonadotropine nach etwa drei bis sechs Monaten; Hodengröße und Spermienproduktion können sich über Monate bis Jahre weiter erholen. Anhaltende Symptome eines Testosteronmangels gehören fachärztlich abgeklärt — nicht mit einem weiteren Steroidzyklus behandelt.';
 
   @override
   String get tcaReferenceDay3 =>

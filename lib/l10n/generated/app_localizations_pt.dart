@@ -598,14 +598,14 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get steroidsMilestone365Description =>
-      'Um ano sem esteróides. Para a maioria, os hormônios e o humor normalizaram; A baixa testosterona persistente após esse ponto justifica uma avaliação especializada.';
+      'Um ano completo sem esteróides é um marco enorme. A recuperação hormonal costuma decorrer ao longo de meses, enquanto o tamanho testicular, a produção de espermatozoides e a libido podem continuar a melhorar durante meses ou anos. Sintomas persistentes de testosterona baixa merecem avaliação por um especialista.';
 
   @override
   String get steroidsMilestone730Title => 'Dois anos — um novo normal';
 
   @override
   String get steroidsMilestone730Description =>
-      'Dois anos sem esteróides. Seus hormônios agora refletem os níveis naturais do seu corpo; Os sintomas contínuos de baixa testosterona devem ser verificados por um especialista.';
+      'Dois anos sem esteróides. A recuperação após AAS varia, mas o seu próprio sistema hormonal teve muito tempo para recuperar. Se os sintomas de testosterona baixa persistirem, procure avaliação especializada em vez de iniciar outro ciclo.';
 
   @override
   String get appTitle => 'Quitter';
@@ -3624,11 +3624,11 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get steroidsReferenceDay365 =>
-      'Um ano sem esteróides anabolizantes\n\nFonte: \"Hipogonadismo induzido por esteróides anabólicos androgênicos, uma condição reversível em indivíduos do sexo masculino? Uma revisão sistemática\", no PubMed\n\nUm ano sem consumo\nUm ano sem esteroides dá ao sistema hormonal uma longa janela de recuperação. A testosterona, o humor, a libido, a força natural e a saúde do coração tiveram um tempo substancial para se recuperar.\n\nA imagem de longo prazo\nSe os sintomas de níveis baixos de testosterona ainda estiverem presentes após um ano, a avaliação hormonal especializada é o próximo passo certo. Ficar sem esteróides protege a recuperação já feita.';
+      'Um ano sem esteróides anabolizantes\n\nFonte: \"Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review,\" Endocrine Connections (2023)\n\nUm ano livre\nA recuperação após AAS é muito variável. A revisão descreve recuperação quase completa da testosterona ao longo de meses, recuperação das gonadotrofinas em cerca de três a seis meses e recuperação do tamanho testicular e da produção de espermatozoides ao longo de meses a anos. A recuperação psicológica é menos previsível.\n\nUm ano conta\nUm ano completo sem esteróides é um marco enorme, não um prazo universal para todas as hormonas estarem normalizadas. Se persistirem sintomas de testosterona baixa, uma avaliação especializada pode verificar como está a recuperação.';
 
   @override
   String get steroidsReferenceDay730 =>
-      'Dois anos sem esteroides anabolizantes\n\nFonte: \"Hipogonadismo induzido por esteróides anabólicos androgênicos, uma condição reversível em indivíduos do sexo masculino? Uma revisão sistemática\", no PubMed\n\nUm novo normal\nAos dois anos, seus níveis hormonais refletem a produção natural do seu corpo. Para a maioria dos homens que se recuperam, o humor, a libido, a força e a motivação permanecem estáveis sem esteróides.\n\nRecuperação hormonal a longo prazo\nA pesquisa mostra que a testosterona se recupera ao longo de meses, enquanto os hormônios que sinalizam os testículos geralmente se recuperam dentro de três a seis meses. O tamanho dos testículos, a produção de espermatozoides e a libido podem continuar melhorando ao longo de meses ou anos. Aos dois anos, os sintomas persistentes de baixa testosterona pertencem a um especialista, e não a outro ciclo de esteróides.';
+      'Dois anos sem esteróides anabolizantes\n\nFonte: \"Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review,\" Endocrine Connections (2023)\n\nDois anos fortes\nDois anos sem esteróides são um longo período sem nova exposição. A recuperação varia com fatores como a idade e a intensidade do uso prévio de androgénios; não existe um ponto universal aos dois anos em que todas as hormonas tenham de estar normais.\n\nO longo prazo\nA revisão descreve recuperação da testosterona ao longo de meses e das gonadotrofinas em cerca de três a seis meses, enquanto o tamanho testicular e a produção de espermatozoides podem continuar a recuperar ao longo de meses a anos. Sintomas persistentes de testosterona baixa merecem avaliação especializada — não outro ciclo de esteróides.';
 
   @override
   String get tcaReferenceDay3 =>

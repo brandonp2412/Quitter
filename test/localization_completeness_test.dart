@@ -670,12 +670,13 @@ void main() {
       french['steroidsReferenceDay365'],
       allOf(
         contains(
-          'Anabolic androgenic steroid-induced hypogonadism, '
-          'a reversible condition in male individuals? A systematic review',
+          'Physical, psychological and biochemical recovery from '
+          'anabolic steroid-induced hypogonadism: a scoping review',
         ),
-        contains('la force naturelle et la santé cardiovasculaire'),
-        contains('un bilan hormonal spécialisé'),
-        contains('protège les progrès déjà accomplis'),
+        contains('gonadotrophines'),
+        contains('trois à six mois'),
+        contains('des mois à des années'),
+        contains('une évaluation spécialisée'),
       ),
     );
   });

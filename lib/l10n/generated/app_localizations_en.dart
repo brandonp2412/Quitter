@@ -589,14 +589,14 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get steroidsMilestone365Description =>
-      'A year off steroids. For most, hormones and mood have normalised; persistent low testosterone past this point warrants specialist assessment.';
+      'A full year steroid-free is a huge milestone. Hormone recovery often unfolds over months, while testicular size, sperm production, and libido can keep improving over months to years. Persistent low-testosterone symptoms deserve specialist assessment.';
 
   @override
   String get steroidsMilestone730Title => 'Two Years — A New Normal';
 
   @override
   String get steroidsMilestone730Description =>
-      'Two years off steroids. Your hormones now reflect your body\'s natural levels; ongoing low-testosterone symptoms should be checked by a specialist.';
+      'Two years steroid-free. Recovery after AAS varies, but you\'ve given your own hormone system a long runway. If low-testosterone symptoms are still hanging on, get them assessed rather than reaching for another cycle.';
 
   @override
   String get appTitle => 'Quitter';
@@ -3545,11 +3545,11 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get steroidsReferenceDay365 =>
-      'One Year Off Anabolic Steroids\n\nSource: \"Anabolic androgenic steroid-induced hypogonadism, a reversible condition in male individuals? A systematic review,\" on PubMed\n\nA Year Free\nA year off gives the hormone system a long recovery window. Testosterone, mood, libido, natural strength, and heart health have all had substantial time to recover.\n\nThe Long-Term Picture\nIf low-testosterone symptoms are still present at one year, specialist hormone assessment is the right next step. Staying off steroids protects the recovery already made.';
+      'One Year Off Anabolic Steroids\n\nSource: \"Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review,\" Endocrine Connections (2023)\n\nA Year Free\nRecovery after AAS is highly variable. The review reports near-complete testosterone recovery over months, gonadotropin recovery over about three to six months, and recovery of testicular size and sperm production over months to years. Psychological recovery is less predictable.\n\nOne Year Still Counts\nA full year steroid-free is a huge milestone, not a universal hormone-normalisation deadline. If low-testosterone symptoms are still present, specialist assessment can check where your recovery stands.';
 
   @override
   String get steroidsReferenceDay730 =>
-      'Two Years Off Anabolic Steroids\n\nSource: \"Anabolic androgenic steroid-induced hypogonadism, a reversible condition in male individuals? A systematic review,\" on PubMed\n\nA New Normal\nBy two years, your hormone levels reflect your body\'s natural production. For most men who recover, mood, libido, strength, and motivation are stable without steroids.\n\nLong-Term Hormone Recovery\nResearch shows testosterone recovering over months, while the hormones that signal the testes usually recover within three to six months. Testicle size, sperm production, and libido can keep improving over months to years. At two years, persistent low-testosterone symptoms belong with a specialist, not another steroid cycle.';
+      'Two Years Off Anabolic Steroids\n\nSource: \"Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review,\" Endocrine Connections (2023)\n\nTwo Years Strong\nTwo years steroid-free is a long stretch without re-exposure. Recovery varies with factors including age and the extent of prior androgen use; there is no universal two-year hormone finish line.\n\nThe Long Game\nThe review reports testosterone recovery over months and gonadotropin recovery over about three to six months, while testicular size and sperm production may keep recovering over months to years. Persistent low-testosterone symptoms deserve specialist assessment — not another steroid cycle.';
 
   @override
   String get tcaReferenceDay3 =>

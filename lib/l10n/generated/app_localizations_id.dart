@@ -598,14 +598,14 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get steroidsMilestone365Description =>
-      'Setahun berhenti menggunakan steroid. Bagi sebagian besar orang, hormon dan suasana hati telah kembali normal; testosteron rendah yang terus-menerus melewati titik ini memerlukan penilaian spesialis.';
+      'Setahun penuh tanpa steroid adalah pencapaian besar. Pemulihan hormon sering berlangsung selama berbulan-bulan, sementara ukuran testis, produksi sperma, dan libido dapat terus membaik selama berbulan-bulan hingga bertahun-tahun. Gejala testosteron rendah yang menetap layak dinilai oleh spesialis.';
 
   @override
   String get steroidsMilestone730Title => 'Dua Tahun — Keadaan Normal Baru';
 
   @override
   String get steroidsMilestone730Description =>
-      'Dua tahun berhenti menggunakan steroid. Hormon Anda sekarang mencerminkan tingkat alami tubuh Anda; gejala testosteron rendah yang sedang berlangsung harus diperiksa oleh spesialis.';
+      'Dua tahun tanpa steroid. Pemulihan setelah AAS berbeda-beda, tetapi sistem hormon alami tubuh Anda sudah mendapat waktu yang panjang untuk pulih. Jika gejala testosteron rendah masih menetap, periksakan ke spesialis daripada kembali menjalani siklus lain.';
 
   @override
   String get appTitle => 'Berhenti';
@@ -3591,11 +3591,11 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get steroidsReferenceDay365 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Satu Tahun Tanpa Steroid Anabolik\n\nSumber: \"Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review,\" Endocrine Connections (2023)\n\nSatu Tahun Bebas\nPemulihan setelah AAS sangat bervariasi. Tinjauan ini melaporkan pemulihan testosteron yang mendekati lengkap dalam hitungan bulan, pemulihan gonadotropin sekitar tiga hingga enam bulan, serta pemulihan ukuran testis dan produksi sperma selama berbulan-bulan hingga bertahun-tahun. Pemulihan psikologis lebih sulit diprediksi.\n\nSatu Tahun Tetap Berarti\nSetahun penuh tanpa steroid adalah pencapaian besar, bukan batas waktu universal saat semua hormon harus sudah normal. Jika gejala testosteron rendah masih ada, penilaian spesialis dapat memeriksa sejauh mana pemulihan Anda.';
 
   @override
   String get steroidsReferenceDay730 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Dua Tahun Tanpa Steroid Anabolik\n\nSumber: \"Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review,\" Endocrine Connections (2023)\n\nDua Tahun Kuat\nDua tahun tanpa steroid adalah waktu yang panjang tanpa paparan ulang. Pemulihan berbeda-beda menurut faktor seperti usia dan tingkat penggunaan androgen sebelumnya; tidak ada titik dua tahun yang berlaku untuk semua orang ketika seluruh hormon harus sudah normal.\n\nPerjalanan Panjang\nTinjauan ini melaporkan pemulihan testosteron selama beberapa bulan dan gonadotropin sekitar tiga hingga enam bulan, sedangkan ukuran testis dan produksi sperma dapat terus pulih selama berbulan-bulan hingga bertahun-tahun. Gejala testosteron rendah yang menetap layak dinilai oleh spesialis, bukan ditangani dengan siklus steroid lain.';
 
   @override
   String get tcaReferenceDay3 =>
