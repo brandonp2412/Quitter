@@ -2850,12 +2850,11 @@ class AppLocalizationsFr extends AppLocalizations {
       'Après un mois, les systèmes qui contrôlent le rythme cardiaque, la tension artérielle, la digestion et la transpiration se stabilisent. Les changements du rythme cardiaque et de la tension se rapprochent de la normale, et le sommeil paradoxal revient.';
 
   @override
-  String get tcaMilestone90Title =>
-      'Trois mois : stabilisation des systèmes neurochimiques';
+  String get tcaMilestone90Title => 'Trois mois : 90 jours sans tricycliques';
 
   @override
   String get tcaMilestone90Description =>
-      'Les ATC agissent sur plusieurs systèmes neurochimiques. Trois mois leur donnent beaucoup de temps pour se stabiliser. L\'humeur, la clarté mentale et le bien-être physique sont nettement meilleurs.';
+      'Quatre-vingt-dix jours sans tricyclique, c’est un cap majeur. Les meilleures données disponibles ici portent sur un traitement à court terme, pas sur un calendrier fixe de récupération après l’arrêt. Ce cap célèbre donc ce qui est certain : trois mois sans traitement tricyclique.';
 
   @override
   String get tcaMilestone180Title =>
@@ -3679,7 +3678,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get tcaReferenceDay90 =>
-      'Trois mois après l\'arrêt des tricycliques : les principaux risques sont derrière vous\n\nCe que montrent les données\nUne méta-analyse de 2024 portant sur 103 essais randomisés et 10 590 participants a conclu que, par rapport à un placebo, les tricycliques réduisent bien les symptômes dépressifs, mais qu\'ils s\'accompagnent aussi d\'un risque presque trois fois plus élevé d\'événement indésirable grave (rapport de cotes de 2,78). Les essais eux-mêmes ne suivaient les participants que pendant douze semaines au maximum sous traitement. Il n\'existe donc pas de données contrôlées à long terme sur ce qui se passe après l\'arrêt. Tout ce qui suit repose sur la compréhension clinique générale de la pharmacologie des tricycliques, et non sur un résultat spécifique de ces essais.\n\nLa récupération de plusieurs systèmes\nLes tricycliques agissent sur un éventail plus large de systèmes neurochimiques que les ISRS ou les IRSN :\n• système sérotoninergique : en cours de réadaptation\n• système noradrénergique : en cours de réadaptation\n• système cholinergique : retour progressif à la normale\n• système histaminergique : la sédation de type antihistaminique a disparu\n\nAu bout de trois mois, tous ces systèmes ont eu beaucoup de temps pour récupérer et, tout aussi important, le risque accru d\'événement indésirable grave associé au traitement actif par tricycliques est désormais derrière vous. De nombreuses personnes constatent :\n• une pensée plus claire, en particulier pour la mémoire et l\'attention\n• une humeur plus stable\n• davantage d\'énergie et de motivation\n• moins de sédation et une meilleure vigilance';
+      'Trois mois après les tricycliques : 90 jours sans traitement\n\nCe que montrent les données\nUne revue systématique et méta-analyse de 2024 a inclus 103 essais randomisés totalisant 10 590 participants. Par rapport au placebo, les tricycliques réduisaient les symptômes dépressifs, mais les événements indésirables graves étaient plus fréquents (rapport de cotes 2,78 ; IC à 95 % : 2,18–3,55 ; 35 essais). Tous les résultats présentaient un risque élevé de biais et le niveau de certitude des données était faible ou très faible. Les essais ne mesuraient les résultats qu’à la fin du traitement, au plus tard 12 semaines après la randomisation.\n\nCe que signifient trois mois\nCes données ne mesurent pas la sérotonine, la noradrénaline, l’acétylcholine, l’histamine, la mémoire, l’humeur, l’énergie ou la motivation trois mois après l’arrêt. Elles ne peuvent donc pas fixer une échéance universelle de trois mois pour une récupération neurochimique ou cognitive.\n\nTrois mois restent un cap énorme : 90 jours sans traitement tricyclique en cours. Cette réussite se suffit à elle-même.';
 
   @override
   String get tcaReferenceDay180 =>

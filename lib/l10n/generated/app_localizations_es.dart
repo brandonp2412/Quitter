@@ -2822,12 +2822,11 @@ class AppLocalizationsEs extends AppLocalizations {
       'Al mes, se estabilizan los sistemas corporales que controlan la frecuencia cardiaca, la presión arterial, la digestión y la sudoración. Los cambios del ritmo cardiaco y la presión arterial avanzan hacia la normalidad, y regresa el sueño REM con sueños.';
 
   @override
-  String get tcaMilestone90Title =>
-      'Tres meses: se estabilizan los sistemas neuroquímicos';
+  String get tcaMilestone90Title => 'Tres meses: 90 días sin tricíclicos';
 
   @override
   String get tcaMilestone90Description =>
-      'Los antidepresivos tricíclicos afectan a varios sistemas neuroquímicos. Tres meses les dan bastante tiempo para estabilizarse. El ánimo, la claridad de pensamiento y el bienestar físico mejoran notablemente.';
+      'Noventa días sin un antidepresivo tricíclico son un gran hito. La evidencia más sólida aquí describe el tratamiento a corto plazo, no un calendario fijo de recuperación tras dejarlo. Este hito celebra lo que sí es seguro: tres meses sin tratamiento con tricíclicos.';
 
   @override
   String get tcaMilestone180Title =>
@@ -3650,7 +3649,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get tcaReferenceDay90 =>
-      'Tres meses después de los tricíclicos: dejando atrás los riesgos del tratamiento\n\nLo que muestra la evidencia\nUn metaanálisis de 2024 de 103 ensayos aleatorizados, con 10.590 participantes, encontró que los tricíclicos reducen los síntomas depresivos frente a placebo, pero también se asocian con casi el triple de probabilidades de un acontecimiento adverso grave (odds ratio 2,78). Los propios ensayos solo siguieron a las personas durante un máximo de 12 semanas de tratamiento, por lo que no existen datos controlados a largo plazo sobre lo que ocurre tras suspenderlos. Lo que sigue refleja la comprensión clínica general de la farmacología de los tricíclicos, no un hallazgo específico de esos ensayos.\n\nRecuperación de varios sistemas\nLos tricíclicos afectan a una gama más amplia de sistemas neuroquímicos que los ISRS o los IRSN:\n• Sistema de serotonina: reajustándose\n• Sistema de noradrenalina: reajustándose\n• Sistema de acetilcolina: volviendo hacia la normalidad\n• Sistema de histamina: la sedación de tipo antihistamínico ya se ha resuelto\n\nA los tres meses, todos estos sistemas han tenido un tiempo considerable para recuperarse y, además, el mayor riesgo de acontecimientos adversos graves asociado al tratamiento activo ya no está presente. Muchas personas notan:\n• Mayor claridad mental, especialmente en memoria y atención\n• Mejor estabilidad del estado de ánimo\n• Más energía y motivación\n• Menos sedación y mayor estado de alerta';
+      'Tres meses después de los tricíclicos: 90 días sin tratamiento\n\nLo que muestra la evidencia\nUna revisión sistemática y metaanálisis de 2024 incluyó 103 ensayos aleatorizados con 10.590 participantes. Frente a placebo, los tricíclicos redujeron los síntomas depresivos, pero los acontecimientos adversos graves fueron más frecuentes (odds ratio 2,78; IC del 95%: 2,18–3,55; 35 ensayos). Todos los resultados tenían alto riesgo de sesgo y la certeza de la evidencia era baja o muy baja. Los ensayos midieron los resultados únicamente al final del tratamiento, como máximo 12 semanas después de la aleatorización.\n\nQué significan tres meses\nEsta evidencia no mide serotonina, noradrenalina, acetilcolina, histamina, memoria, estado de ánimo, energía ni motivación tres meses después de dejar el tratamiento. Por tanto, no puede establecer un plazo universal de tres meses para la recuperación neuroquímica o cognitiva.\n\nAun así, tres meses son un hito enorme: 90 días sin tratamiento continuo con tricíclicos. Ese logro se sostiene por sí solo.';
 
   @override
   String get tcaReferenceDay180 =>

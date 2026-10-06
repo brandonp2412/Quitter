@@ -2745,12 +2745,11 @@ class AppLocalizationsEn extends AppLocalizations {
       'At one month, the body systems that control heart rate, blood pressure, digestion, and sweating are settling. Heart rhythm and blood-pressure changes are moving toward normal, and REM dream sleep is returning.';
 
   @override
-  String get tcaMilestone90Title =>
-      'Three Months: Brain-Chemical Systems Settling';
+  String get tcaMilestone90Title => 'Three Months: 90 Days TCA-Free';
 
   @override
   String get tcaMilestone90Description =>
-      'TCAs affect several brain-chemical systems. Three months gives them substantial time to settle. Mood, clear thinking, and physical wellbeing are markedly better.';
+      'Ninety days without a TCA is a serious milestone. The strongest trial evidence here describes short-term treatment, not a fixed post-stop recovery clock, so this milestone celebrates what is certain: three months off TCA treatment.';
 
   @override
   String get tcaMilestone180Title => 'Six Months: Heart and Thinking Recovery';
@@ -3569,7 +3568,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get tcaReferenceDay90 =>
-      'Three Months After TCAs: Leaving the Real Risks Behind\n\nWhat the Evidence Shows\nA 2024 meta-analysis of 103 randomised trials (10,590 participants) found that, compared with placebo, TCAs do reduce depressive symptoms — but also come with nearly triple the odds of a serious adverse event (odds ratio 2.78). The trials themselves only followed people for up to 12 weeks on-treatment, so there\'s no controlled long-term data on what happens after stopping. Everything below reflects general clinical understanding of TCA pharmacology, not a specific finding from this trial evidence.\n\nThe Multi-System Recovery\nTCAs affect a broader range of brain chemical systems than SSRIs or SNRIs:\n• Serotonin system: adjusting\n• Noradrenaline system: adjusting\n• Acetylcholine system: settling back to normal\n• Histamine system: the antihistamine-like sedation has resolved\n\nAt three months, all of these systems have had substantial time to recover, and — just as importantly — the elevated serious-adverse-event risk that comes with active TCA treatment is behind you. Many people notice:\n• Improved clear thinking — particularly memory and attention\n• Better mood stability\n• Improved energy and motivation\n• Reduced sedation and improved alertness';
+      'Three Months After TCAs: 90 Days Off Treatment\n\nWhat the Evidence Shows\nA 2024 systematic review and meta-analysis included 103 randomised trials with 10,590 participants. Compared with placebo, TCAs reduced depressive symptoms, but serious adverse events were more common (odds ratio 2.78; 95% CI 2.18–3.55; 35 trials). All results were at high risk of bias and the certainty of the evidence was low or very low. The trials measured outcomes only at the end of treatment, no later than 12 weeks after randomisation.\n\nWhat Three Months Means\nThis evidence does not measure serotonin, noradrenaline, acetylcholine, histamine, memory, mood, energy, or motivation three months after stopping. It therefore cannot establish a universal three-month neurochemical or cognitive recovery deadline.\n\nThree months is still a huge milestone: 90 days without ongoing TCA treatment. That achievement stands on its own.';
 
   @override
   String get tcaReferenceDay180 =>

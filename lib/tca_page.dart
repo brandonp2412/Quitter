@@ -109,25 +109,17 @@ class TcaPage extends StatelessWidget {
         title: l10n.tcaMilestone90Title,
         description: l10n.tcaMilestone90Description,
         reference:
-            "PubMed - Jakobsen et al. (2024), BMJ Mental Health — 'Benefits and harms of tricyclic antidepressants'",
-        link: "https://pubmed.ncbi.nlm.nih.gov/39093721/",
-        referenceDate: "May 2026",
+            "PMC - Kamp et al. (2024), BMJ Mental Health — 'Beneficial and harmful effects of tricyclic antidepressants for adults with major depressive disorder'",
+        link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10806869/",
+        referenceDate: "October 2026",
         localizedReferenceContent: l10n.tcaReferenceDay90,
         referenceContent:
-            "Three Months After TCAs: Leaving the Real Risks Behind\n\n"
+            "Three Months After TCAs: 90 Days Off Treatment\n\n"
             "What the Evidence Shows\n"
-            "A 2024 meta-analysis of 103 randomised trials (10,590 participants) found that, compared with placebo, TCAs do reduce depressive symptoms — but also come with nearly triple the odds of a serious adverse event (odds ratio 2.78). The trials themselves only followed people for up to 12 weeks on-treatment, so there's no controlled long-term data on what happens after stopping. Everything below reflects general clinical understanding of TCA pharmacology, not a specific finding from this trial evidence.\n\n"
-            "The Multi-System Recovery\n"
-            "TCAs affect a broader range of brain chemical systems than SSRIs or SNRIs:\n"
-            "• Serotonin system: adjusting\n"
-            "• Noradrenaline system: adjusting\n"
-            "• Acetylcholine system: settling back to normal\n"
-            "• Histamine system: the antihistamine-like sedation has resolved\n\n"
-            "At three months, all of these systems have had substantial time to recover, and — just as importantly — the elevated serious-adverse-event risk that comes with active TCA treatment is behind you. Many people notice:\n"
-            "• Improved clear thinking — particularly memory and attention\n"
-            "• Better mood stability\n"
-            "• Improved energy and motivation\n"
-            "• Reduced sedation and improved alertness",
+            "A 2024 systematic review and meta-analysis included 103 randomised trials with 10,590 participants. Compared with placebo, TCAs reduced depressive symptoms, but serious adverse events were more common (odds ratio 2.78; 95% CI 2.18–3.55; 35 trials). All results were at high risk of bias and the certainty of the evidence was low or very low. The trials measured outcomes only at the end of treatment, no later than 12 weeks after randomisation.\n\n"
+            "What Three Months Means\n"
+            "This evidence does not measure serotonin, noradrenaline, acetylcholine, histamine, memory, mood, energy, or motivation three months after stopping. It therefore cannot establish a universal three-month neurochemical or cognitive recovery deadline.\n\n"
+            "Three months is still a huge milestone: 90 days without ongoing TCA treatment. That achievement stands on its own.",
       ),
       QuitMilestone(
         day: 180,

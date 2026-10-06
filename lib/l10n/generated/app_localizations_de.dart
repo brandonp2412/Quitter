@@ -2801,12 +2801,11 @@ class AppLocalizationsDe extends AppLocalizations {
       'Nach einem Monat beruhigen sich die Körpersysteme, die Herzfrequenz, Blutdruck, Verdauung und Schwitzen kontrollieren. Herzrhythmus- und Blutdruckänderungen bewegen sich in Richtung Normalität, und der REM-Traumschlaf kehrt zurück.';
 
   @override
-  String get tcaMilestone90Title =>
-      'Drei Monate: Gehirn-chemische Systeme Settling';
+  String get tcaMilestone90Title => 'Drei Monate: 90 Tage ohne TCA';
 
   @override
   String get tcaMilestone90Description =>
-      'TCAs beeinflussen mehrere gehirnchemische Systeme. Drei Monate geben ihnen viel Zeit, sich niederzulassen. Stimmung, klares Denken und körperliches Wohlbefinden sind deutlich besser.';
+      'Neunzig Tage ohne TCA sind ein großer Meilenstein. Die stärkste Studienlage hier beschreibt eine kurzfristige Behandlung, keinen festen Erholungszeitplan nach dem Absetzen. Dieser Meilenstein feiert deshalb das, was sicher ist: drei Monate ohne TCA-Behandlung.';
 
   @override
   String get tcaMilestone180Title => 'Sechs Monate: Herz und Denken Erholung';
@@ -3627,7 +3626,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get tcaReferenceDay90 =>
-      'Drei Monate nach TCAs: Die wirklichen Risiken hinter sich lassen\n\nWas die Beweise zeigen\nEine Meta-Analyse von 103 randomisierten Studien aus dem Jahr 2024 (10.590 Teilnehmer) ergab, dass TCAs im Vergleich zu Placebo depressive Symptome reduzieren, aber auch mit einer fast dreifachen Wahrscheinlichkeit eines schwerwiegenden unerwünschten Ereignisses (Odds Ratio 2,78) einhergehen. Die Studien selbst folgten nur bis zu 12 Wochen lang der Behandlung, so dass es keine kontrollierten Langzeitdaten darüber gibt, was nach dem Absetzen passiert. Alles unten spiegelt das allgemeine klinische Verständnis der TCA-Pharmakologie wider, nicht ein spezifisches Ergebnis aus dieser Studie.\n\nMulti-System Recovery\nTCAs beeinflussen ein breiteres Spektrum von chemischen Systemen des Gehirns als SSRIs oder SNRIs:\n• Serotonin-System: Anpassung\n• Noradrenalin-System: Anpassung\n• Acetylcholin-System: wieder normal\n• Histamin-System: die Antihistaminikum-ähnliche Sedierung hat sich aufgelöst\n\nNach drei Monaten hatten alle diese Systeme erhebliche Zeit, sich zu erholen, und - ebenso wichtig - das erhöhte Risiko für ernste unerwünschte Ereignisse, das mit einer aktiven TCA-Behandlung einhergeht, liegt hinter Ihnen. Viele Menschen bemerken:\n• Verbessertes klares Denken - insbesondere Gedächtnis und Aufmerksamkeit\n• Bessere Stimmungsstabilität\n• Verbesserte Energie und Motivation\n• Reduzierte Sedierung und verbesserte Wachsamkeit';
+      'Drei Monate nach TCAs: 90 Tage ohne Behandlung\n\nWas die Evidenz zeigt\nEine systematische Übersichtsarbeit und Meta-Analyse von 2024 umfasste 103 randomisierte Studien mit 10.590 Teilnehmenden. Im Vergleich zu Placebo verringerten TCAs depressive Symptome, schwerwiegende unerwünschte Ereignisse traten jedoch häufiger auf (Odds Ratio 2,78; 95-%-KI 2,18–3,55; 35 Studien). Alle Ergebnisse hatten ein hohes Verzerrungsrisiko, und die Evidenzsicherheit war niedrig oder sehr niedrig. Die Studien erfassten die Endpunkte nur am Ende der Behandlung, spätestens 12 Wochen nach der Randomisierung.\n\nWas drei Monate bedeuten\nDiese Evidenz misst drei Monate nach dem Absetzen weder Serotonin, Noradrenalin, Acetylcholin und Histamin noch Gedächtnis, Stimmung, Energie oder Motivation. Sie kann daher keinen allgemeingültigen Drei-Monats-Zeitpunkt für neurochemische oder kognitive Erholung festlegen.\n\nDrei Monate bleiben ein riesiger Meilenstein: 90 Tage ohne laufende TCA-Behandlung. Diese Leistung steht für sich.';
 
   @override
   String get tcaReferenceDay180 =>

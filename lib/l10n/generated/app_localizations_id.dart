@@ -2788,12 +2788,11 @@ class AppLocalizationsId extends AppLocalizations {
       'Dalam satu bulan, sistem tubuh yang mengontrol detak jantung, tekanan darah, pencernaan, dan keringat mulai membaik. Irama jantung dan perubahan tekanan darah bergerak menuju normal, dan tidur mimpi REM kembali.';
 
   @override
-  String get tcaMilestone90Title =>
-      'Tiga Bulan: Penyelesaian Sistem Kimia Otak';
+  String get tcaMilestone90Title => 'Tiga Bulan: 90 Hari Bebas TCA';
 
   @override
   String get tcaMilestone90Description =>
-      'TCA mempengaruhi beberapa sistem kimia otak. Tiga bulan memberi mereka waktu yang cukup untuk menetap. Suasana hati, pemikiran jernih, dan kesejahteraan fisik jauh lebih baik.';
+      'Sembilan puluh hari tanpa TCA adalah pencapaian besar. Bukti uji klinis terkuat di sini membahas pengobatan jangka pendek, bukan jadwal pemulihan tetap setelah berhenti. Jadi, pencapaian ini merayakan hal yang pasti: tiga bulan tanpa pengobatan TCA.';
 
   @override
   String get tcaMilestone180Title =>
@@ -3615,7 +3614,7 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get tcaReferenceDay90 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Tiga Bulan Setelah TCA: 90 Hari Tanpa Pengobatan\n\nApa yang Ditunjukkan Bukti\nTinjauan sistematis dan meta-analisis tahun 2024 mencakup 103 uji acak dengan 10.590 peserta. Dibandingkan plasebo, TCA mengurangi gejala depresi, tetapi kejadian tidak diinginkan serius lebih sering terjadi (odds ratio 2,78; IK 95% 2,18–3,55; 35 uji). Semua hasil memiliki risiko bias tinggi dan kepastian buktinya rendah atau sangat rendah. Uji-uji tersebut hanya mengukur hasil pada akhir pengobatan, paling lambat 12 minggu setelah randomisasi.\n\nArti Tiga Bulan\nBukti ini tidak mengukur serotonin, noradrenalin, asetilkolin, histamin, memori, suasana hati, energi, atau motivasi tiga bulan setelah berhenti. Karena itu, bukti ini tidak dapat menetapkan batas waktu universal tiga bulan untuk pemulihan neurokimia atau kognitif.\n\nTiga bulan tetap merupakan pencapaian besar: 90 hari tanpa pengobatan TCA yang berkelanjutan. Pencapaian itu layak dirayakan dengan sendirinya.';
 
   @override
   String get tcaReferenceDay180 =>

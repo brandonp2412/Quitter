@@ -2812,12 +2812,11 @@ class AppLocalizationsPl extends AppLocalizations {
       'W jednym miesiącu, systemy ciała, które kontrolują choroby serca, ciśnienie krwi, trawienie, i pocenie się są ułożone. Rytm serca i zmiany ciśnienia krwi idą w kierunku normalnego, i REM sen sen wraca.';
 
   @override
-  String get tcaMilestone90Title =>
-      'Trzy miesiące: Układy Brain- Chemical Settling';
+  String get tcaMilestone90Title => 'Trzy miesiące: 90 dni bez TCA';
 
   @override
   String get tcaMilestone90Description =>
-      'TCA wpływają na kilka systemów mózgowo – chemicznych. Trzy miesiące daje im znaczny czas na ustalenie. Mood, jasne myślenie, i fizyczne samopoczucie są znacznie lepsze.';
+      'Dziewięćdziesiąt dni bez TCA to ogromny kamień milowy. Najmocniejsze dane z badań dotyczą tu krótkotrwałego leczenia, a nie sztywnego harmonogramu zdrowienia po odstawieniu. Ten etap celebruje więc to, co pewne: trzy miesiące bez leczenia TCA.';
 
   @override
   String get tcaMilestone180Title =>
@@ -3640,7 +3639,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get tcaReferenceDay90 =>
-      'Trzy miesiące po TCAS: Pozostawienie prawdziwych zagrożeń\n\nCo dowód pokazuje\nW 2024 r. metaanaliza 103 randomizowanych badań wynosiła 10,590 uczestników ) stwierdzono, że w porównaniu z placebo TCA zmniejsza objawy depresyjne, ale także pochodzi z prawie trzykrotnym prawdopodobieństwem wystąpienia poważnych zdarzeń niepożądanych stosunek szans 2.7808. Sam badania śledziły ludzi tylko przez okres do 12 tygodni po leczeniu, więc nie ma kontrolowanych długoterminowych danych na temat tego, co dzieje się po zatrzymaniu. Wszystko poniżej odzwierciedla ogólne kliniczne zrozumienie TCA farmakologiczne, nie jest to specyficzne wyniki tego badania.\n\nOdzyskiwanie wielosystemowe\nTCAs wpływają na szerszy zakres systemów chemicznych mózgu niż SSRIs lub SNRIs:\n• System serotoninowy: dostosowywanie\n• System noradrenaliny: dostosowywanie\n• System acetylocholiny: powrót do normy\n• Układ histaminy: uspokojenie przeciwhistaminowe ustąpiło\n\nW ciągu trzech miesięcy wszystkie te systemy miały znaczny czas na odzyskanie, i równie ważne jest, aby zwiększyć ryzyko poważnych zdarzeń reklamowych, które wiąże się z aktywnym leczeniem TCA jest za Tobą. Wiele osób zauważa:\n• Ulepszone jasne myślenie, szczególnie pamięć i uwaga\n• Lepsza stabilność nastroju\n• Lepsza energia i motywacja\n• Zmniejszenie sedacji i poprawa czujności';
+      'Trzy miesiące po TCA: 90 dni bez leczenia\n\nCo pokazują dowody\nPrzegląd systematyczny i metaanaliza z 2024 roku objęły 103 randomizowane badania z udziałem 10 590 osób. W porównaniu z placebo TCA zmniejszały objawy depresji, ale poważne zdarzenia niepożądane występowały częściej (iloraz szans 2,78; 95% CI 2,18–3,55; 35 badań). Wszystkie wyniki obarczone były wysokim ryzykiem błędu systematycznego, a pewność dowodów była niska lub bardzo niska. Badania oceniały wyniki wyłącznie na końcu leczenia, nie później niż 12 tygodni po randomizacji.\n\nCo oznaczają trzy miesiące\nTe dane nie mierzą poziomu serotoniny, noradrenaliny, acetylocholiny ani histaminy, ani pamięci, nastroju, energii czy motywacji trzy miesiące po odstawieniu. Nie mogą więc wyznaczać uniwersalnego trzymiesięcznego terminu neurochemicznego lub poznawczego powrotu do zdrowia.\n\nTrzy miesiące to nadal ogromny kamień milowy: 90 dni bez trwającego leczenia TCA. To osiągnięcie broni się samo.';
 
   @override
   String get tcaReferenceDay180 =>

@@ -2820,12 +2820,11 @@ class AppLocalizationsPt extends AppLocalizations {
       'Em um mês, os sistemas do corpo que controlam a frequência cardíaca, a pressão arterial, a digestão e a transpiração estão a estabilizar-se. As alterações do ritmo cardíaco e da pressão arterial estão a normalizar-se e o sono REM dos sonhos está retornando.';
 
   @override
-  String get tcaMilestone90Title =>
-      'Três Meses: Assentamento de Sistemas Químicos Cerebrais';
+  String get tcaMilestone90Title => 'Três meses: 90 dias sem TCA';
 
   @override
   String get tcaMilestone90Description =>
-      'Os TCAs afetam vários sistemas químicos cerebrais. Três meses lhes dão um tempo substancial para se estabelecerem. Humor, pensamento claro e bem-estar físico são notavelmente melhores.';
+      'Noventa dias sem um TCA são um grande marco. A evidência de ensaios mais forte aqui descreve tratamento de curto prazo, não um calendário fixo de recuperação após a interrupção. Este marco celebra, por isso, o que é certo: três meses sem tratamento com TCA.';
 
   @override
   String get tcaMilestone180Title =>
@@ -3648,7 +3647,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get tcaReferenceDay90 =>
-      'Três meses após os ACTs: deixando os riscos reais para trás\n\nO que as evidências mostram\nUma meta-análise de 2024 de 103 ensaios aleatorizados (10.590 participantes) descobriu que, em comparação com o placebo, os ADTs reduzem os sintomas depressivos – mas também apresentam quase o triplo das probabilidades de um evento adverso grave (razão de probabilidades 2,78). Os próprios ensaios apenas acompanharam as pessoas durante até 12 semanas de tratamento, pelo que não existem dados controlados a longo prazo sobre o que acontece após a interrupção. Tudo o que se segue reflecte a compreensão clínica geral da farmacologia do TCA, e não uma descoberta específica das evidências deste ensaio.\n\nA recuperação multissistema\nOs TCAs afetam uma gama mais ampla de sistemas químicos cerebrais do que os ISRS ou SNRIs:\n• Sistema de serotonina: ajuste\n• Sistema de noradrenalina: ajuste\n• Sistema de acetilcolina: voltando ao normal\n• Sistema histamínico: a sedação semelhante ao anti-histamínico foi resolvida\n\nAos três meses, todos esses sistemas tiveram um tempo substancial para se recuperar e – tão importante quanto – o elevado risco de eventos adversos graves que acompanha o tratamento ativo com TCA ficou para trás. Muitas pessoas notam:\n• Melhoria do pensamento claro – especialmente memória e atenção\n• Melhor estabilidade de humor\n• Maior energia e motivação\n• Sedação reduzida e melhor estado de alerta';
+      'Três meses após os TCA: 90 dias sem tratamento\n\nO que mostram as evidências\nUma revisão sistemática e meta-análise de 2024 incluiu 103 ensaios aleatorizados com 10 590 participantes. Em comparação com placebo, os TCA reduziram os sintomas depressivos, mas os acontecimentos adversos graves foram mais frequentes (odds ratio 2,78; IC 95% 2,18–3,55; 35 ensaios). Todos os resultados apresentavam elevado risco de viés e a certeza da evidência era baixa ou muito baixa. Os ensaios mediram os resultados apenas no fim do tratamento, no máximo 12 semanas após a aleatorização.\n\nO que significam três meses\nEsta evidência não mede serotonina, noradrenalina, acetilcolina, histamina, memória, humor, energia ou motivação três meses após a interrupção. Por isso, não pode estabelecer um prazo universal de três meses para recuperação neuroquímica ou cognitiva.\n\nTrês meses continuam a ser um marco enorme: 90 dias sem tratamento contínuo com TCA. Essa conquista vale por si própria.';
 
   @override
   String get tcaReferenceDay180 =>
