@@ -2804,12 +2804,11 @@ class AppLocalizationsEs extends AppLocalizations {
       'La retirada suele empezar en pocos días y a menudo dura varias semanas. A la semana todavía pueden estar presentes náuseas, sudoración, problemas de sueño, palpitaciones y mareo. Siete días son un progreso real, y la recuperación puede seguir avanzando a ritmos distintos.';
 
   @override
-  String get tcaMilestone14Title =>
-      'Dos semanas: revierten los efectos anticolinérgicos';
+  String get tcaMilestone14Title => 'Dos semanas: 14 días sin tricíclicos';
 
   @override
   String get tcaMilestone14Description =>
-      'La sequedad de boca, el estreñimiento, la dificultad para orinar y la visión borrosa causados por los tricíclicos están revirtiendo a medida que se recupera el sistema de acetilcolina. La memoria y la atención también suelen sentirse más claras.';
+      'La retirada de los antidepresivos tricíclicos puede afectar al aparato digestivo, el sueño, el cuerpo, el movimiento y el ánimo; se proponen el rebote colinérgico y adrenérgico como mecanismos. Dos semanas sin ellos es un gran hito, pero la evidencia no establece un calendario fijo de recuperación de 14 días.';
 
   @override
   String get tcaMilestone30Title =>
@@ -3639,7 +3638,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get tcaReferenceDay14 =>
-      'Dos semanas después de los tricíclicos: se revierten los efectos anticolinérgicos\n\nDisminuye la carga anticolinérgica\nLos tricíclicos ejercen efectos anticolinérgicos importantes que afectan a varios sistemas del organismo. A medida que esa carga disminuye durante las dos primeras semanas:\n\nBeneficios físicos\n• Se resuelve la sequedad de boca y las glándulas salivales recuperan su función normal\n• Se resuelve el estreñimiento y se restablece de forma natural la motilidad intestinal\n• Se normaliza la función urinaria y mejora la retención urinaria que pueden causar los tricíclicos\n• Se aclara la visión borrosa y los ojos vuelven a adaptarse normalmente a la luz\n\nBeneficios para el pensamiento y la memoria\nLa acetilcolina es esencial para la memoria, la atención y el aprendizaje. Las vías colinérgicas suprimidas por los tricíclicos se están recuperando:\n• Mejora la memoria de trabajo\n• Aumenta la velocidad de procesamiento\n• Vuelve la claridad mental\n\nMuchas personas se sorprenden al darse cuenta de cuánto se habían acostumbrado a la niebla mental y a las dificultades de memoria durante el tratamiento con tricíclicos.';
+      'Dos semanas después de los tricíclicos: un hito real\n\nLo que muestra la evidencia\nUna revisión clínica sobre la retirada de antidepresivos tricíclicos encontró que el malestar gastrointestinal y otros síntomas físicos, los trastornos del sueño, los trastornos del movimiento y la manía se han relacionado con la retirada. Se proponen la hiperactividad colinérgica y adrenérgica como mecanismos.\n\nNo existe un reinicio fijo a las dos semanas\nLa revisión no demuestra que la sequedad de boca, el estreñimiento, la micción, la visión, la memoria o la velocidad de procesamiento se recuperen según un calendario de 14 días. La retirada varía entre personas y algunos síntomas pueden durar más que este hito.\n\nCatorce días siguen contando\nLa retirada de tricíclicos es real, pero no funciona con cronómetro. Dos semanas sin tricíclicos siguen siendo un gran hito aunque tu recuperación avance a su propio ritmo.';
 
   @override
   String get tcaReferenceDay30 =>

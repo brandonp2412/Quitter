@@ -2772,12 +2772,11 @@ class AppLocalizationsId extends AppLocalizations {
       'Gejala putus antidepresan biasanya mulai dalam beberapa hari dan sering berlangsung beberapa minggu. Setelah satu minggu, mual, keringat, gangguan tidur, jantung berdebar, dan pusing masih bisa terasa. Tujuh hari adalah kemajuan nyata, dan pemulihan dapat terus bergerak dengan waktu yang berbeda-beda.';
 
   @override
-  String get tcaMilestone14Title =>
-      'Dua Minggu: Pembalikan Efek Antikolinergik';
+  String get tcaMilestone14Title => 'Dua Minggu: 14 Hari Tanpa TCA';
 
   @override
   String get tcaMilestone14Description =>
-      'Mulut kering, sembelit, kesulitan buang air kecil, dan penglihatan kabur yang disebabkan oleh TCA akan hilang seiring dengan pemulihan sistem asetilkolin. Ingatan dan perhatian juga sering kali terasa lebih jelas.';
+      'Putus TCA dapat memengaruhi pencernaan, tidur, tubuh, gerakan, dan suasana hati; aktivitas kolinergik dan adrenergik yang berlebihan diusulkan sebagai mekanisme. Dua minggu tanpa TCA adalah pencapaian besar, tetapi bukti tidak menetapkan jadwal pemulihan tetap selama 14 hari.';
 
   @override
   String get tcaMilestone30Title =>
@@ -3606,7 +3605,7 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get tcaReferenceDay14 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Dua Minggu Setelah TCA: Pencapaian Nyata\n\nApa yang Ditunjukkan Bukti\nSebuah tinjauan klinis tentang penghentian antidepresan trisiklik menemukan bahwa gangguan pencernaan dan keluhan fisik lain, gangguan tidur, gangguan gerakan, serta mania telah dikaitkan dengan putus obat. Aktivitas kolinergik dan adrenergik yang berlebihan diusulkan sebagai mekanisme.\n\nTidak Ada Reset Pasti dalam Dua Minggu\nTinjauan tersebut tidak menetapkan bahwa mulut kering, sembelit, fungsi berkemih, penglihatan, ingatan, atau kecepatan pemrosesan pulih menurut jadwal tetap 14 hari. Putus obat berbeda pada tiap orang dan sebagian gejala dapat bertahan melewati pencapaian ini.\n\nEmpat Belas Hari Tetap Berarti\nPutus TCA itu nyata, tetapi tidak berjalan dengan stopwatch. Dua minggu tanpa TCA tetap merupakan pencapaian besar meskipun pemulihanmu bergerak sesuai ritmenya sendiri.';
 
   @override
   String get tcaReferenceDay30 =>

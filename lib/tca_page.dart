@@ -67,20 +67,13 @@ class TcaPage extends StatelessWidget {
         referenceDate: "May 2026",
         localizedReferenceContent: l10n.tcaReferenceDay14,
         referenceContent:
-            "Two Weeks After TCAs: Antiacetylcholine Effects Reversing\n\n"
-            "The Antiacetylcholine Burden Lifts\n"
-            "TCAs impose significant acetylcholine-blocking effects on the body that affect multiple systems. As this burden lifts over the first two weeks:\n\n"
-            "Physical Benefits\n"
-            "• Dry mouth resolving — salivary gland function returning to normal\n"
-            "• Constipation resolving — bowel motility naturally restored\n"
-            "• Urinary function normalising — the urinary retention that TCAs can cause is resolving\n"
-            "• Blurred vision clearing — eyes adjusting normally to light again\n\n"
-            "Thinking and Memory Benefits\n"
-            "Acetylcholine is essential for memory, attention, and learning. The acetylcholine pathways suppressed by TCAs are recovering:\n"
-            "• Working memory improving\n"
-            "• Processing speed increasing\n"
-            "• Mental clarity returning\n\n"
-            "Many people are surprised by how much brain fog and memory trouble they had adapted to while taking TCAs.",
+            "Two Weeks After TCAs: A Real Milestone\n\n"
+            "What the Evidence Shows\n"
+            "A clinical review of TCA discontinuation found that gastrointestinal and other physical distress, sleep disturbance, movement disorders, and mania have been linked to withdrawal. Cholinergic and adrenergic overdrive are proposed mechanisms.\n\n"
+            "No Fixed Two-Week Reset\n"
+            "The review does not establish that dry mouth, constipation, urination, vision, memory, or processing speed recover on a 14-day schedule. Withdrawal can vary from person to person, and some symptoms may outlast this milestone.\n\n"
+            "Fourteen Days Still Counts\n"
+            "TCA withdrawal is real, but it does not run on a stopwatch. Two weeks TCA-free is still a huge milestone even if your recovery is moving on its own timeline.",
       ),
       QuitMilestone(
         day: 30,

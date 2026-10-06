@@ -2796,12 +2796,11 @@ class AppLocalizationsPl extends AppLocalizations {
       'Objawy odstawienne zwykle zaczynają się w ciągu kilku dni i często trwają kilka tygodni. Po tygodniu nadal mogą występować nudności, pocenie się, problemy ze snem, kołatanie serca i zawroty głowy. Siedem dni to realny postęp, a poprawa może postępować w różnym tempie.';
 
   @override
-  String get tcaMilestone14Title =>
-      'Dwa tygodnie: Odwracanie działania antycholinergicznego';
+  String get tcaMilestone14Title => 'Dwa tygodnie: 14 dni bez TLPD';
 
   @override
   String get tcaMilestone14Description =>
-      'Suche usta, zaparcia, problemy z oddawaniem moczu, i niewyraźne widzenie spowodowane przez TCA cofają się, gdy system acetylocholiny odzyskuje. Pamięć i uwaga często czują się również jaśniejsze.';
+      'Odstawienie trójpierścieniowych leków przeciwdepresyjnych może wpływać na przewód pokarmowy, sen, ciało, ruch i nastrój; jako możliwe mechanizmy proponuje się nadmierną aktywność cholinergiczną i adrenergiczną. Dwa tygodnie bez leku to wielki kamień milowy, ale dowody nie ustalają stałego 14-dniowego harmonogramu powrotu do zdrowia.';
 
   @override
   String get tcaMilestone30Title =>
@@ -3631,7 +3630,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get tcaReferenceDay14 =>
-      'Dwa tygodnie po TCAs: Odwracanie efektów przeciwacetylocholiny\n\nAntyacetylocholina Burden Lifts\nTCAs wywierają na organizm znaczny wpływ blokowania acetylocholiny, który wpływa na wiele systemów.\n\nKorzyści fizyczne\n• Suchość w jamie ustnej ustępująca funkcji ślinianki gruczołu powracającego do normy\n• Zaparcia ustępujące ruchliwość jelit naturalnie przywrócona\n• Czynność moczu normalizująca zmniejszenie retencji moczu, którą TCA może powodować ustępuje\n• Niewyraźne widzenie oczyszczanie oczy dostosowujące się normalnie do światła ponownie\n\nKorzyści z myślenia i pamięci\nAcetylocholina jest niezbędna do zapamiętywania, uwagi i uczenia się. Ścieżki acetylocholiny tłumione przez TCA odzyskują:\n• Poprawianie pamięci roboczej\n• Zwiększenie prędkości przetwarzania\n• Powracająca jasność umysłu\n\nWiele osób jest zdziwionych, jak wiele mgły mózgowej i problemów z pamięcią przystosowały się do podczas przyjmowania TCAs. se';
+      'Dwa tygodnie po TLPD: prawdziwy kamień milowy\n\nCo pokazują dowody\nPrzegląd kliniczny dotyczący odstawiania trójpierścieniowych leków przeciwdepresyjnych wskazuje, że z odstawieniem wiązano dolegliwości żołądkowo-jelitowe i inne objawy fizyczne, zaburzenia snu, zaburzenia ruchowe oraz manię. Jako możliwe mechanizmy proponuje się nadmierną aktywność cholinergiczną i adrenergiczną.\n\nNie ma stałego dwutygodniowego resetu\nPrzegląd nie wykazuje, że suchość w ustach, zaparcia, oddawanie moczu, wzrok, pamięć lub szybkość przetwarzania wracają do normy według stałego 14-dniowego harmonogramu. Przebieg odstawienia różni się między osobami, a część objawów może trwać dłużej niż ten kamień milowy.\n\nCzternaście dni nadal się liczy\nOdstawienie TLPD jest realne, ale nie działa jak stoper. Dwa tygodnie bez TLPD to nadal wielki kamień milowy, nawet jeśli twoja regeneracja ma własne tempo.';
 
   @override
   String get tcaReferenceDay30 =>

@@ -2785,12 +2785,11 @@ class AppLocalizationsDe extends AppLocalizations {
       'Entzugssymptome beginnen meist innerhalb weniger Tage und dauern oft einige Wochen. Nach einer Woche können Übelkeit, Schwitzen, Schlafprobleme, Herzklopfen und Schwindel noch vorhanden sein. Sieben Tage sind echter Fortschritt, und die Erholung kann sich auf unterschiedlichen Zeitachsen weiterentwickeln.';
 
   @override
-  String get tcaMilestone14Title =>
-      'Zwei Wochen: Anticholinerge Effekte Reversing';
+  String get tcaMilestone14Title => 'Zwei Wochen: 14 Tage ohne TZA';
 
   @override
   String get tcaMilestone14Description =>
-      'Der trockene Mund, Verstopfung, Probleme beim Wasserlassen und verschwommenes Sehen, die durch TCAs verursacht werden, kehren sich um, wenn sich das Acetylcholinsystem erholt. Gedächtnis und Aufmerksamkeit fühlen sich oft auch klarer an.';
+      'Ein TZA-Entzug kann Magen-Darm-Trakt, Schlaf, Körper, Bewegung und Stimmung betreffen; cholinerge und adrenerge Überaktivität werden als mögliche Mechanismen vorgeschlagen. Zwei Wochen ohne TZA sind ein großer Meilenstein, aber die Evidenz belegt keinen festen 14-Tage-Erholungsplan.';
 
   @override
   String get tcaMilestone30Title =>
@@ -3618,7 +3617,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get tcaReferenceDay14 =>
-      'Zwei Wochen nach TCAs: Antiacetylcholin-Effekte Reversing\n\nDie Antiacetylcholin Burden Lifts\nTCAs verhängen signifikante Acetylcholin-blockierende Effekte auf den Körper, die mehrere Systeme beeinflussen. Da sich diese Belastung in den ersten zwei Wochen erhöht:\n\nKörperliche Vorteile\n• Trockene Mundauflösung - Speicheldrüsenfunktion wieder normal\n• Verstopfung lösen - Darmmotilität natürlich wiederhergestellt\n• Normalisierung der Harnfunktion - die Harnretention, die TCAs verursachen können, löst sich auf\n• Verschwommenes Sehvermögen - Augen passen sich wieder normal an\n\nDenken und Gedächtnis Vorteile\nAcetylcholin ist wichtig für Gedächtnis, Aufmerksamkeit und Lernen. Die durch TCA unterdrückten Acetylcholinwege erholen sich:\n• Arbeitsgedächtnis verbessern\n• Verarbeitungsgeschwindigkeit steigt\n• Mentale Klarheit kehrt zurück\n\nViele Menschen sind überrascht, wie viel Gehirnnebel und Gedächtnisprobleme sie während der Einnahme von TCAs angepasst hatten.';
+      'Zwei Wochen nach TZA: Ein echter Meilenstein\n\nWas die Evidenz zeigt\nEine klinische Übersicht zum Absetzen trizyklischer Antidepressiva beschreibt Magen-Darm- und andere körperliche Beschwerden, Schlafstörungen, Bewegungsstörungen und Manie im Zusammenhang mit Entzug. Als mögliche Mechanismen werden cholinerge und adrenerge Überaktivität vorgeschlagen.\n\nKein fester Zwei-Wochen-Reset\nDie Übersicht belegt nicht, dass sich Mundtrockenheit, Verstopfung, Wasserlassen, Sehen, Gedächtnis oder Verarbeitungsgeschwindigkeit nach einem festen 14-Tage-Zeitplan erholen. Entzug verläuft individuell, und manche Symptome können über diesen Meilenstein hinaus anhalten.\n\nVierzehn Tage zählen trotzdem\nTZA-Entzug ist real, aber er läuft nicht nach Stoppuhr. Zwei Wochen ohne TZA sind weiterhin ein großer Meilenstein, auch wenn deine Erholung ihren eigenen Zeitplan hat.';
 
   @override
   String get tcaReferenceDay30 =>

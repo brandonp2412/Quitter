@@ -2834,11 +2834,11 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get tcaMilestone14Title =>
-      'Deux semaines : inversion des effets anticholinergiques';
+      'Deux semaines : 14 jours sans tricycliques';
 
   @override
   String get tcaMilestone14Description =>
-      'La bouche sèche, la constipation, les difficultés à uriner et la vision trouble causées par les ATC s\'atténuent à mesure que le système cholinergique récupère. La mémoire et l\'attention semblent souvent plus claires elles aussi.';
+      'Le sevrage des antidépresseurs tricycliques peut toucher l’intestin, le sommeil, le corps, les mouvements et l’humeur ; une hyperactivité cholinergique et adrénergique est proposée comme mécanisme. Deux semaines sans traitement, c’est une étape majeure, mais les données n’établissent pas de calendrier fixe de récupération à 14 jours.';
 
   @override
   String get tcaMilestone30Title =>
@@ -3669,7 +3669,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get tcaReferenceDay14 =>
-      'Deux semaines après l\'arrêt des tricycliques : les effets anticholinergiques s\'inversent\n\nLa charge anticholinergique diminue\nLes tricycliques exercent sur l\'organisme des effets anticholinergiques importants qui touchent plusieurs systèmes. À mesure que cette charge disparaît au cours des deux premières semaines :\n\nBénéfices physiques\n• la sécheresse buccale se résout, avec un retour du fonctionnement normal des glandes salivaires\n• la constipation disparaît à mesure que la motricité intestinale se rétablit naturellement\n• la fonction urinaire se normalise et la rétention que les tricycliques peuvent provoquer se résout\n• la vision floue s\'améliore et les yeux retrouvent une adaptation normale à la lumière\n\nBénéfices pour la pensée et la mémoire\nL\'acétylcholine est essentielle à la mémoire, à l\'attention et à l\'apprentissage. Les voies cholinergiques freinées par les tricycliques récupèrent :\n• la mémoire de travail s\'améliore\n• la vitesse de traitement augmente\n• la clarté mentale revient\n\nBeaucoup de personnes sont surprises de constater à quel point elles s\'étaient habituées au brouillard mental et aux difficultés de mémoire pendant le traitement par tricycliques.';
+      'Deux semaines après les tricycliques : une vraie étape\n\nCe que montrent les données\nUne revue clinique de l’arrêt des antidépresseurs tricycliques a associé au sevrage des troubles gastro-intestinaux et d’autres symptômes physiques, des troubles du sommeil, des troubles du mouvement et des épisodes maniaques. Une hyperactivité cholinergique et adrénergique est proposée comme mécanisme.\n\nPas de remise à zéro fixe en deux semaines\nLa revue n’établit pas que la bouche sèche, la constipation, la miction, la vision, la mémoire ou la vitesse de traitement récupèrent selon un calendrier fixe de 14 jours. Le sevrage varie d’une personne à l’autre et certains symptômes peuvent dépasser cette étape.\n\nQuatorze jours, ça compte toujours\nLe sevrage des tricycliques est réel, mais il ne fonctionne pas au chronomètre. Deux semaines sans tricycliques restent une étape majeure, même si ta récupération suit son propre rythme.';
 
   @override
   String get tcaReferenceDay30 =>

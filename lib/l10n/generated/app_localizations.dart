@@ -4791,13 +4791,13 @@ abstract class AppLocalizations {
   /// No description provided for @tcaMilestone14Title.
   ///
   /// In en, this message translates to:
-  /// **'Two Weeks: Anticholinergic Effects Reversing'**
+  /// **'Two Weeks: 14 Days TCA-Free'**
   String get tcaMilestone14Title;
 
   /// No description provided for @tcaMilestone14Description.
   ///
   /// In en, this message translates to:
-  /// **'The dry mouth, constipation, trouble urinating, and blurred vision caused by TCAs are reversing as the acetylcholine system recovers. Memory and attention often feel clearer too.'**
+  /// **'TCA withdrawal can hit the gut, sleep, body, movement, and mood; cholinergic and adrenergic rebound are proposed mechanisms. Two weeks off is a huge milestone, but the evidence does not establish a fixed 14-day recovery clock.'**
   String get tcaMilestone14Description;
 
   /// No description provided for @tcaMilestone30Title.
@@ -6075,7 +6075,7 @@ abstract class AppLocalizations {
   /// No description provided for @tcaReferenceDay14.
   ///
   /// In en, this message translates to:
-  /// **'Two Weeks After TCAs: Antiacetylcholine Effects Reversing\n\nThe Antiacetylcholine Burden Lifts\nTCAs impose significant acetylcholine-blocking effects on the body that affect multiple systems. As this burden lifts over the first two weeks:\n\nPhysical Benefits\n• Dry mouth resolving — salivary gland function returning to normal\n• Constipation resolving — bowel motility naturally restored\n• Urinary function normalising — the urinary retention that TCAs can cause is resolving\n• Blurred vision clearing — eyes adjusting normally to light again\n\nThinking and Memory Benefits\nAcetylcholine is essential for memory, attention, and learning. The acetylcholine pathways suppressed by TCAs are recovering:\n• Working memory improving\n• Processing speed increasing\n• Mental clarity returning\n\nMany people are surprised by how much brain fog and memory trouble they had adapted to while taking TCAs.'**
+  /// **'Two Weeks After TCAs: A Real Milestone\n\nWhat the Evidence Shows\nA clinical review of TCA discontinuation found that gastrointestinal and other physical distress, sleep disturbance, movement disorders, and mania have been linked to withdrawal. Cholinergic and adrenergic overdrive are proposed mechanisms.\n\nNo Fixed Two-Week Reset\nThe review does not establish that dry mouth, constipation, urination, vision, memory, or processing speed recover on a 14-day schedule. Withdrawal can vary from person to person, and some symptoms may outlast this milestone.\n\nFourteen Days Still Counts\nTCA withdrawal is real, but it does not run on a stopwatch. Two weeks TCA-free is still a huge milestone even if your recovery is moving on its own timeline.'**
   String get tcaReferenceDay14;
 
   /// No description provided for @tcaReferenceDay30.
