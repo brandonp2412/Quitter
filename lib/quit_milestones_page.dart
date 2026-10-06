@@ -5,11 +5,13 @@ import 'package:provider/provider.dart';
 import 'package:quitter/addiction_provider.dart';
 import 'package:quitter/confetti_widget.dart';
 import 'package:quitter/l10n/generated/app_localizations.dart';
+import 'package:quitter/milestone_reference_page.dart';
 import 'package:quitter/quit_milestone.dart';
 import 'package:quitter/settings_provider.dart';
 import 'package:quitter/timeline_tile.dart';
 import 'package:quitter/utils.dart';
 import 'package:share_plus/share_plus.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class QuitMilestonesPage extends StatefulWidget {
   final String title;
@@ -201,6 +203,19 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
       started = true;
     });
     _updateQuitDate(quitDate);
+  }
+
+  void _openMilestoneBenefits(QuitMilestone milestone) {
+    if (milestone.referenceContent != null) {
+      Navigator.push(
+        context,
+        MaterialPageRoute(
+          builder: (_) => MilestoneReferencePage(milestone: milestone),
+        ),
+      );
+    } else {
+      launchUrl(Uri.parse(milestone.link));
+    }
   }
 
   void _showClearMilestoneBottomSheet(QuitMilestone milestone) {
@@ -514,6 +529,7 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
 
                       return GestureDetector(
                         key: index == _targetIndex ? _targetTileKey : null,
+                        onTap: () => _openMilestoneBenefits(milestone),
                         onLongPress: () =>
                             _showClearMilestoneBottomSheet(milestone),
                         child: TimelineTile(
