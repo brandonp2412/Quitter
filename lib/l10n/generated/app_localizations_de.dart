@@ -2722,11 +2722,12 @@ class AppLocalizationsDe extends AppLocalizations {
       'Ein Monat ist ein wichtiger Meilenstein. Sowohl Serotonin- als auch Noradrenalinsysteme balancieren aktiv. Die Schlafqualität und das Energieniveau stabilisieren sich. Viele Menschen bemerken eine verbesserte emotionale Reichweite, wenn sich die Wirkung des Medikaments auf die emotionale Abstumpfung zu lösen beginnt.';
 
   @override
-  String get snriMilestone90Title => 'Drei Monate: Dual System Rebalancing';
+  String get snriMilestone90Title =>
+      'Drei Monate: Das typische Entzugsfenster liegt hinter dir';
 
   @override
   String get snriMilestone90Description =>
-      'Drei Monate sind ein wichtiger Meilenstein der Erholung. Das Serotonin- und Noradrenalinsystem hatte Monate Zeit, sich anzupassen. Stimmung, Angst, Fokus und klares Denken sind nach einem überwachten Taper sinnvoll besser.';
+      'SNRI-Entzug beginnt typischerweise innerhalb weniger Tage und dauert einige Wochen. Nach 90 Tagen liegt dieses übliche Symptomfenster deutlich hinter dir — ein konkreter Meilenstein der Erholung.';
 
   @override
   String get snriMilestone180Title => 'Sechs Monate: Neurologische Erholung';
@@ -3508,7 +3509,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get snriReferenceDay90 =>
-      'Drei Monate nach SNRIs: Gut Vergangenheit Rückzug\n\nQuelle: \"Antidepressivum-Entzugssyndrom\", Therapeutics Letter 112 (2018), Therapeutics Initiative, im NCBI Bookshelf\n\nWarum SNRIs zusätzliche Pflege verdienen\nDiese Evidenzüberprüfung identifiziert kurze Halbwertszeit-Antidepressiva - einschließlich Venlafaxin und Duloxetin (beide SNRIs) - als ein höheres Risiko für Entzugserscheinungen. Eine vom Hersteller finanzierte Studie ergab, dass 51% der Menschen, die Duloxetin absetzen, ein oder mehrere Symptome hatten. So kann SNRI-Entzug ausgesprochen werden, was genau der Grund ist, warum ein allmählicher, überwachter Taper wichtig ist.\n\nWo drei Monate sitzen\nDer Brief stellt fest, dass Entzugserscheinungen \"normalerweise innerhalb weniger Tage nach dem Absetzen auftreten\" und dass \"die meisten Antidepressiva-Entzugserscheinungen innerhalb von 2 Wochen verschwinden\" (gelegentlich länger). Mit drei Monaten liegt die akute Entzugsphase deutlich hinter der großen Mehrheit der Menschen.\n\nWiederherstellungssignal auf \"Receptor Recovery\"\nBeliebte Zeitlinien behaupten, dass sich das Serotonin- und Noradrenalinsystem um drei Monate \"vollständig ausgeglichen\" hat. Die soliden Beweise betreffen das Entzugssyndrom und sein Timing, nicht eine genaue Rezeptor-Wiederherstellung Uhr. Was ist zuverlässig: Nach drei Monaten hat sich die Entzugsphase in der Regel aufgelöst, und viele Menschen bemerken die emotionale Abstumpfung, die einige Gefühle bei SNRIs nach dem Aufhören lindern.\n\nEntzug gegen Rückfall\nDer Brief empfiehlt, den Rückzug von einer echten Rückkehr der zugrunde liegenden Bedingung zu unterscheiden. Wenn Angst oder schlechte Stimmung nach drei Monaten anhält, überprüfen Sie es mit Ihrem verschreibenden Arzt, anstatt davon auszugehen, dass es nur Rückzug ist.';
+      'Drei Monate nach SNRIs: Das typische Entzugsfenster liegt hinter dir\n\nQuelle: Fava et al. (2018), \"Withdrawal Symptoms after Serotonin-Noradrenaline Reuptake Inhibitor Discontinuation: Systematic Review\", Psychotherapy and Psychosomatics\n\nWie SNRI-Entzug typischerweise verläuft\nIn 61 Berichten — darunter 22 doppelblinde randomisierte kontrollierte Studien — wurden nach allen untersuchten SNRI-Typen Entzugssymptome beschrieben. Sie begannen typischerweise innerhalb weniger Tage nach dem Absetzen und dauerten einige Wochen, auch bei schrittweisem Ausschleichen. Für Venlafaxin wurde über die Berichte hinweg eine höhere Häufigkeit beschrieben.\n\nWarum Tag 90 zählt\nNeunzig Tage liegen deutlich jenseits dieses typischen Verlaufs von einigen Wochen. Mit drei Monaten liegt das übliche SNRI-Entzugsfenster hinter dir.\n\nLängere Verläufe kommen vor\nDie Übersicht fand auch später einsetzende oder länger anhaltende Beschwerden. Wenn nach drei Monaten noch erhebliche Symptome bestehen, besprich sie mit deiner verschreibenden Fachperson.';
 
   @override
   String get snriReferenceDay180 =>

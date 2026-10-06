@@ -2742,11 +2742,11 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get snriMilestone90Title =>
-      'Tres meses: reequilibrio de ambos sistemas';
+      'Tres meses: superaste la fase habitual de retirada';
 
   @override
   String get snriMilestone90Description =>
-      'Tres meses son un gran hito de recuperación. Los sistemas de serotonina y noradrenalina han tenido meses para adaptarse. El ánimo, la ansiedad, la concentración y la claridad de pensamiento mejoran de forma importante tras una reducción supervisada.';
+      'La retirada de los IRSN suele empezar a los pocos días y durar unas semanas. A los 90 días, esa fase habitual de síntomas queda claramente atrás: un hito de recuperación concreto.';
 
   @override
   String get snriMilestone180Title => 'Seis meses: recuperación neurológica';
@@ -3527,7 +3527,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get snriReferenceDay90 =>
-      'Tres meses después de los IRSN: muy por encima de la fase de retirada\n\nFuente: \"Antidepressant Withdrawal Syndrome,\" Therapeutics Letter 112 (2018), Therapeutics Initiative, en NCBI Bookshelf\n\nPor qué los IRSN requieren especial cuidado\nEsta revisión de la evidencia destaca los antidepresivos de semivida corta, entre ellos la venlafaxina y la duloxetina, ambos IRSN, por presentar mayor riesgo de síntomas de retirada. Un estudio financiado por el fabricante encontró que el 51 % de las personas que suspendieron duloxetina experimentaron uno o más síntomas. La retirada de los IRSN puede, por tanto, ser marcada, precisamente por lo que resulta importante una reducción gradual y supervisada.\n\nDónde se sitúan tres meses\nLa Therapeutics Letter señala que los síntomas de retirada \"suelen aparecer a los pocos días de suspender\" el tratamiento y que \"la mayoría de los síntomas de retirada de antidepresivos se resuelven en dos semanas\", aunque a veces duran más. A los tres meses, la fase aguda de retirada ha quedado muy atrás para la gran mayoría de las personas.\n\nSeñal de recuperación y \"recuperación de receptores\"\nAlgunas cronologías populares afirman que los sistemas de serotonina y noradrenalina se han \"reequilibrado por completo\" a los tres meses. La evidencia sólida se refiere al síndrome de retirada y a su duración, no a un reloj preciso de recuperación de receptores. Lo fiable es que, a los tres meses, la fase de retirada normalmente se ha resuelto y muchas personas notan que disminuye el embotamiento emocional que pueden sentir con los IRSN tras suspenderlos.\n\nRetirada frente a recaída\nLa Therapeutics Letter aconseja distinguir la retirada de un verdadero retorno de la condición subyacente. Si la ansiedad o el bajo estado de ánimo persisten a los tres meses, conviene revisarlo con la persona que prescribe el tratamiento en lugar de asumir que se debe únicamente a la retirada.';
+      'Tres meses después de los IRSN: superaste la fase habitual de retirada\n\nFuente: Fava et al. (2018), \"Withdrawal Symptoms after Serotonin-Noradrenaline Reuptake Inhibitor Discontinuation: Systematic Review\", Psychotherapy and Psychosomatics\n\nCómo suele ser la retirada de los IRSN\nEn 61 informes — incluidos 22 ensayos controlados aleatorizados y doble ciego — se describieron síntomas de retirada con todos los tipos de IRSN estudiados. Normalmente empezaban a los pocos días de suspender el fármaco y duraban unas semanas, incluso con reducción gradual. La venlafaxina mostró una mayor frecuencia de síntomas de retirada entre los informes.\n\nPor qué importa el día 90\nNoventa días quedan muy por encima de ese curso habitual de unas semanas. Llegar a tres meses significa que la fase habitual de retirada de los IRSN está detrás de ti.\n\nTambién puede haber cursos más largos\nLa revisión también encontró alteraciones de inicio tardío o más persistentes. Si a los tres meses siguen activos síntomas importantes, revísalos con quien te prescribe el tratamiento.';
 
   @override
   String get snriReferenceDay180 =>

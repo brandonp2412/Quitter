@@ -2545,11 +2545,11 @@ class AppLocalizationsZh extends AppLocalizations {
       '一个月是一个重要的里程碑。血清素和去甲肾上腺素系统都在积极重新平衡。睡眠质量和精力水平正在稳定。随着药物造成的情绪钝化效应开始消退，许多人会注意到情绪体验范围有所改善。';
 
   @override
-  String get snriMilestone90Title => '三个月：双重系统重新平衡';
+  String get snriMilestone90Title => '三个月：已走过典型戒断期';
 
   @override
   String get snriMilestone90Description =>
-      '三个月是一个重要的恢复里程碑。血清素和去甲肾上腺素系统已经有几个月时间适应。经过医疗监督下的减药后，情绪、焦虑、专注力和清晰思维都明显改善。';
+      'SNRI戒断症状通常在停药后几天内开始，并持续数周。到第90天，这个常见的症状期已经远远过去——这是一个具体的恢复里程碑。';
 
   @override
   String get snriMilestone180Title => '六个月：神经学恢复';
@@ -3315,7 +3315,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get snriReferenceDay90 =>
-      '停用SNRI三个月：早已度过戒断\n\n来源：《Antidepressant Withdrawal Syndrome》，Therapeutics Letter 112（2018），Therapeutics Initiative，见NCBI Bookshelf\n\n为什么SNRI值得格外小心\n这篇证据综述特别指出，短半衰期抗抑郁药——包括文拉法辛和度洛西汀（两者都是SNRI）——带有更高的戒断症状风险。一项由制造商资助的研究发现，51%停用度洛西汀的人出现了一种或多种症状。因此SNRI戒断可能很明显，这正是逐步、受监督的减量如此重要的原因。\n\n三个月处于什么位置\n该Letter指出，戒断症状“通常在停药后几天内出现”，“大多数抗抑郁药戒断症状在2周内消退”（偶尔更长）。到三个月时，急性戒断阶段对绝大多数人来说早已过去。\n\n关于“受体恢复”的恢复信号\n流行的说法声称血清素和去甲肾上腺素系统在三个月时已“完全重新平衡”。可靠的证据涉及戒断综合征及其时间，而非精确的受体恢复时钟。可以确信的是：到三个月时戒断阶段通常已经消退，许多人注意到在SNRI上感到的情绪麻木在停药后有所缓解。\n\n戒断与复发\n该Letter建议把戒断与基础疾病的真正复发区分开来。如果焦虑或情绪低落在三个月时持续存在，应与你的开药医生一起评估，而不是想当然地认为这只是戒断。';
+      '停用SNRI三个月：已走过典型戒断期\n\n来源：Fava等（2018），《Withdrawal Symptoms after Serotonin-Noradrenaline Reuptake Inhibitor Discontinuation: Systematic Review》，Psychotherapy and Psychosomatics\n\nSNRI戒断通常怎样发展\n在61份报告中——其中包括22项双盲随机对照试验——所有被研究的SNRI类型在停药后都报告了戒断症状。症状通常在停药后几天内开始，并持续数周，即使采用逐步减量也是如此。各项报告中，文拉法辛的戒断症状发生率更高。\n\n为什么第90天很重要\n90天已经远远超过了通常持续数周的过程。达到三个月意味着常见的SNRI戒断期已经在你身后。\n\n也可能出现更长的过程\n该综述还发现了较晚出现或持续更久的症状。如果三个月时仍有明显症状，请与开药医生讨论。';
 
   @override
   String get snriReferenceDay180 =>
@@ -6035,11 +6035,11 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
       '一個月是一個重要的里程碑。血清素和去甲腎上腺素系統都在積極重新平衡。睡眠質量和精力水平正在穩定。隨著藥物造成的情緒鈍化效應開始消退，許多人會注意到情緒體驗範圍有所改善。';
 
   @override
-  String get snriMilestone90Title => '三個月：雙重系統重新平衡';
+  String get snriMilestone90Title => '三個月：已走過典型戒斷期';
 
   @override
   String get snriMilestone90Description =>
-      '三個月是一個重要的恢復里程碑。血清素和去甲腎上腺素系統已經有幾個月時間適應。經過醫療監督下的減藥後，情緒、焦慮、專注力和清晰思維都明顯改善。';
+      'SNRI戒斷症狀通常在停藥後幾天內開始，並持續數週。到第90天，這個常見的症狀期已經遠遠過去——這是一個具體的恢復里程碑。';
 
   @override
   String get snriMilestone180Title => '六個月：神經學恢復';
@@ -6805,7 +6805,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get snriReferenceDay90 =>
-      '停用SNRI三個月：早已度過戒斷\n\n來源：《Antidepressant Withdrawal Syndrome》，Therapeutics Letter 112（2018），Therapeutics Initiative，見NCBI Bookshelf\n\n為甚麼SNRI值得格外小心\n這篇證據綜述特別指出，短半衰期抗抑鬱藥——包括文拉法辛和度洛西汀（兩者都是SNRI）——帶有更高的戒斷症狀風險。一項由製造商資助的研究發現，51%停用度洛西汀的人出現了一種或多種症狀。因此SNRI戒斷可能很明顯，這正是逐步、受監督的減量如此重要的原因。\n\n三個月處於甚麼位置\n該Letter指出，戒斷症狀“通常在停藥後幾天內出現”，“大多數抗抑鬱藥戒斷症狀在2周內消退”（偶爾更長）。到三個月時，急性戒斷階段對絕大多數人來說早已過去。\n\n關於“受體恢復”的恢復信號\n流行的說法聲稱血清素和去甲腎上腺素系統在三個月時已“完全重新平衡”。可靠的證據涉及戒斷綜合徵及其時間，而非精確的受體恢復時鐘。可以確信的是：到三個月時戒斷階段通常已經消退，許多人注意到在SNRI上感到的情緒麻木在停藥後有所緩解。\n\n戒斷與復發\n該Letter建議把戒斷與基礎疾病的真正復發區分開來。如果焦慮或情緒低落在三個月時持續存在，應與你的開藥醫生一起評估，而不是想當然地認為這只是戒斷。';
+      '停用SNRI三個月：已走過典型戒斷期\n\n來源：Fava等（2018），《Withdrawal Symptoms after Serotonin-Noradrenaline Reuptake Inhibitor Discontinuation: Systematic Review》，Psychotherapy and Psychosomatics\n\nSNRI戒斷通常如何發展\n在61份報告中——其中包括22項雙盲隨機對照試驗——所有被研究的SNRI類型在停藥後都報告了戒斷症狀。症狀通常在停藥後幾天內開始，並持續數週，即使採用逐步減量也是如此。各項報告中，文拉法辛的戒斷症狀發生率較高。\n\n為甚麼第90天很重要\n90天已經遠遠超過通常持續數週的過程。達到三個月意味著常見的SNRI戒斷期已經在你身後。\n\n也可能出現更長的過程\n該綜述還發現了較晚出現或持續更久的症狀。如果三個月時仍有明顯症狀，請與開藥醫生討論。';
 
   @override
   String get snriReferenceDay180 =>

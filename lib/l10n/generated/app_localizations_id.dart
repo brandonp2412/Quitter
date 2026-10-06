@@ -2710,11 +2710,11 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get snriMilestone90Title =>
-      'Tiga Bulan: Penyeimbangan Kembali Sistem Ganda';
+      'Tiga Bulan: Melewati Masa Putus Obat yang Umum';
 
   @override
   String get snriMilestone90Description =>
-      'Tiga bulan adalah tonggak pemulihan yang besar. Sistem serotonin dan noradrenalin membutuhkan waktu berbulan-bulan untuk menyesuaikan diri. Suasana hati, kecemasan, fokus, dan pemikiran jernih jauh lebih baik setelah pengurangan yang diawasi.';
+      'Putus obat SNRI biasanya mulai dalam beberapa hari dan berlangsung beberapa minggu. Pada hari ke-90, masa gejala yang umum itu sudah jauh terlewati — tonggak pemulihan yang nyata.';
 
   @override
   String get snriMilestone180Title => 'Enam Bulan: Pemulihan Neurologis';
@@ -3495,7 +3495,7 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get snriReferenceDay90 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Tiga Bulan Setelah SNRI: Melewati Masa Putus Obat yang Umum\n\nSumber: Fava dkk. (2018), \"Withdrawal Symptoms after Serotonin-Noradrenaline Reuptake Inhibitor Discontinuation: Systematic Review\", Psychotherapy and Psychosomatics\n\nPola Umum Putus Obat SNRI\nDalam 61 laporan — termasuk 22 uji acak terkontrol tersamar ganda — gejala putus obat dilaporkan pada semua jenis SNRI yang diteliti. Gejala biasanya mulai dalam beberapa hari setelah penghentian dan berlangsung beberapa minggu, termasuk dengan penurunan dosis bertahap. Venlafaksin menunjukkan prevalensi gejala putus obat yang lebih tinggi di berbagai laporan.\n\nMengapa Hari ke-90 Penting\nSembilan puluh hari sudah jauh melewati pola beberapa minggu yang umum itu. Mencapai tiga bulan berarti masa putus obat SNRI yang lazim sudah berada di belakang Anda.\n\nPerjalanan yang Lebih Lama Bisa Terjadi\nTinjauan ini juga menemukan gangguan yang muncul lebih lambat atau bertahan lebih lama. Jika gejala yang berarti masih aktif pada tiga bulan, tinjau bersama dokter yang meresepkan obat.';
 
   @override
   String get snriReferenceDay180 =>

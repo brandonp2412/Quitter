@@ -2668,11 +2668,12 @@ class AppLocalizationsEn extends AppLocalizations {
       'One month marks a significant milestone. Both serotonin and norepinephrine systems are actively rebalancing. Sleep quality and energy levels are stabilising. Many people notice improved emotional range as the medication\'s effect on emotional blunting begins to resolve.';
 
   @override
-  String get snriMilestone90Title => 'Three Months: Dual System Rebalancing';
+  String get snriMilestone90Title =>
+      'Three Months: Past the Typical Withdrawal Window';
 
   @override
   String get snriMilestone90Description =>
-      'Three months is a major recovery milestone. The serotonin and noradrenaline systems have had months to adjust. Mood, anxiety, focus, and clear thinking are meaningfully better after a supervised taper.';
+      'SNRI withdrawal typically starts within a few days and lasts a few weeks. At 90 days, you\'re well beyond that usual symptom window — a concrete recovery milestone.';
 
   @override
   String get snriMilestone180Title => 'Six Months: Neurological Recovery';
@@ -3448,7 +3449,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get snriReferenceDay90 =>
-      'Three Months After SNRIs: Well Past Withdrawal\n\nSource: \"Antidepressant Withdrawal Syndrome,\" Therapeutics Letter 112 (2018), Therapeutics Initiative, on the NCBI Bookshelf\n\nWhy SNRIs Deserve Extra Care\nThis evidence review singles out short half-life antidepressants — including venlafaxine and duloxetine (both SNRIs) — as carrying a higher risk of withdrawal symptoms. A manufacturer-funded study found 51% of people stopping duloxetine experienced one or more symptoms. So SNRI withdrawal can be pronounced, which is exactly why a gradual, supervised taper matters.\n\nWhere Three Months Sits\nThe Letter notes withdrawal symptoms \'usually appear within a few days of stopping\' and that \'most antidepressant withdrawal symptoms resolve within 2 weeks\' (occasionally longer). By three months, the acute withdrawal phase is well behind the great majority of people.\n\nRecovery Signal on \'Receptor Recovery\'\nPopular timelines claim the serotonin and noradrenaline systems have \'fully rebalanced\' by three months. The solid evidence concerns the withdrawal syndrome and its timing, not a precise receptor-recovery clock. What\'s dependable: by three months the withdrawal phase has typically resolved, and many people notice the emotional blunting some feel on SNRIs eases after stopping.\n\nWithdrawal Versus Relapse\nThe Letter advises distinguishing withdrawal from a true return of the underlying condition. If anxiety or low mood persists at three months, review it with your prescriber rather than assuming it is only withdrawal.';
+      'Three Months After SNRIs: Past the Typical Withdrawal Window\n\nSource: Fava et al. (2018), \"Withdrawal Symptoms after Serotonin-Noradrenaline Reuptake Inhibitor Discontinuation: Systematic Review,\" Psychotherapy and Psychosomatics\n\nWhat SNRI Withdrawal Usually Does\nAcross 61 reports — including 22 double-blind randomized controlled trials — withdrawal symptoms were reported after every SNRI type studied. Symptoms typically began within a few days of discontinuation and lasted a few weeks, including with gradual tapering. Venlafaxine had a higher prevalence of withdrawal symptoms across reports.\n\nWhy Day 90 Matters\nNinety days is well beyond that typical few-week course. Reaching three months means the usual SNRI withdrawal window is behind you.\n\nLonger Courses Can Happen\nThe review also found later-onset or longer-lasting disturbances. If significant symptoms are still active at three months, review them with your prescriber.';
 
   @override
   String get snriReferenceDay180 =>

@@ -2735,11 +2735,11 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get snriMilestone90Title =>
-      'Trzy miesiące: Dual System Rebalansowania';
+      'Trzy miesiące: typowy okres odstawienia za Tobą';
 
   @override
   String get snriMilestone90Description =>
-      'Trzy miesiące jest głównym kamieniem milowym rekonwalescencji. Systemy serotoniny i noradrenaliny miały miesiące na dostosowanie.';
+      'Odstawienie SNRI zwykle zaczyna się w ciągu kilku dni i trwa kilka tygodni. Po 90 dniach typowy okres objawów jest już daleko za Tobą — to konkretny kamień milowy zdrowienia.';
 
   @override
   String get snriMilestone180Title => 'Sześć miesięcy: Odzysk neurologiczny';
@@ -3519,7 +3519,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get snriReferenceDay90 =>
-      'Trzy miesiące po SNRIs: Przeszłość cofnięcia\n\nŹródło: \"Antidepressant Withdrawal Syndrome,\" Therapeutics Letter 112 (2018), Therapeutics Initiative, on the NCBI Bookshelf\n\nDlaczego SNRIs zasługuje na dodatkową opiekę\nW niniejszym przeglądzie przedstawiono krótki okres półtrwania leków przeciwdepresyjnych, w tym wenlafaksyny i duloksetyny, które powodują zwiększone ryzyko wystąpienia objawów odstawiennych. W badaniu finansowanym przez Komitet stwierdzono, że u 51% pacjentów, którzy zaprzestali stosowania duloksetyny, wystąpił jeden lub więcej objawów.\n\nGdzie jest trzy miesiące.\nList zauważa objawy odstawienne zwykle pojawiają się w ciągu kilku dni od zatrzymania i, że najbardziej przeciwdepresyjne objawy odstawienne ustępują w ciągu 2 tygodnia.Przez trzy miesiące, ostra faza odstawienia jest znacznie za dużą większością osób.\n\nSygnał odzyskiwania na Receptorze Recoverysions\nPopularne linie czasowe twierdzą, że systemy serotoniny i noradrenaliny zostały w pełni zrebalansowane przez trzy miesiące. Solidne dowody dotyczą syndromu odstawienia i jego czasu, a nie precyzyjnego zegara receptor- recovery. Niezależnie od tego, co jest zależne: przez trzy miesiące faza wycofania zazwyczaj rozwiązała, a wiele osób zauważa emocjonalne rozmycie niektórych uczuć na SNRI choroby po zatrzymaniu.\n\nCzasy odstawienne Nawrót\nList zaleca rozróżnienie wycofania się z prawdziwego powrotu podstawowych uwarunkowań. jeśli niepokój lub niski nastrój utrzymuje się w trzech miesiącach, należy go zapoznać się z przepisującym zamiast zakładać, że jest tylko z drawall.';
+      'Trzy miesiące po SNRI: typowy okres odstawienia za Tobą\n\nŹródło: Fava i wsp. (2018), \"Withdrawal Symptoms after Serotonin-Noradrenaline Reuptake Inhibitor Discontinuation: Systematic Review\", Psychotherapy and Psychosomatics\n\nTypowy przebieg odstawienia SNRI\nW 61 publikacjach — w tym 22 podwójnie zaślepionych randomizowanych badaniach kontrolowanych — opisywano objawy odstawienne po każdym badanym typie SNRI. Zwykle zaczynały się w ciągu kilku dni od odstawienia i trwały kilka tygodni, także przy stopniowym zmniejszaniu dawki. W publikacjach większą częstość objawów odstawiennych obserwowano przy wenlafaksynie.\n\nDlaczego 90. dzień ma znaczenie\nDziewięćdziesiąt dni to znacznie dłużej niż typowy kilkutygodniowy przebieg. Osiągnięcie trzech miesięcy oznacza, że typowy okres odstawienia SNRI jest już za Tobą.\n\nMożliwy jest dłuższy przebieg\nPrzegląd odnotował też objawy pojawiające się później lub utrzymujące się dłużej. Jeśli po trzech miesiącach nadal występują istotne objawy, omów je z osobą prowadzącą leczenie.';
 
   @override
   String get snriReferenceDay180 =>

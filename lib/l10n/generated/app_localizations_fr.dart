@@ -2771,11 +2771,11 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get snriMilestone90Title =>
-      'Trois mois : rééquilibrage des deux systèmes';
+      'Trois mois : la période habituelle de sevrage est derrière vous';
 
   @override
   String get snriMilestone90Description =>
-      'Trois mois constituent une étape majeure. Les systèmes de la sérotonine et de la noradrénaline ont eu plusieurs mois pour s\'adapter. L\'humeur, l\'anxiété, la concentration et la clarté mentale sont sensiblement meilleures après une diminution supervisée.';
+      'Le sevrage des IRSN commence généralement en quelques jours et dure quelques semaines. À 90 jours, cette période habituelle de symptômes est largement derrière vous — un jalon concret de récupération.';
 
   @override
   String get snriMilestone180Title => 'Six mois : récupération neurologique';
@@ -3558,7 +3558,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get snriReferenceDay90 =>
-      'Trois mois après l\'arrêt des IRSN : le sevrage est largement derrière vous\n\nSource : « Antidepressant Withdrawal Syndrome », Therapeutics Letter 112 (2018), Therapeutics Initiative, sur NCBI Bookshelf\n\nPourquoi les IRSN demandent une attention particulière\nCette revue des données souligne que les antidépresseurs à demi-vie courte — notamment la venlafaxine et la duloxétine, qui sont toutes deux des IRSN — présentent un risque plus élevé de symptômes de sevrage. Une étude financée par un fabricant a constaté que 51 % des personnes arrêtant la duloxétine avaient présenté un ou plusieurs symptômes. Le sevrage des IRSN peut donc être marqué, ce qui explique précisément l\'importance d\'une diminution progressive et supervisée.\n\nOù en est-on à trois mois\nLa Letter indique que les symptômes de sevrage « apparaissent généralement dans les quelques jours suivant l\'arrêt » et que « la plupart des symptômes de sevrage des antidépresseurs disparaissent en deux semaines », parfois plus tard. Au bout de trois mois, la phase aiguë est largement terminée pour la grande majorité des personnes.\n\nCe que l\'on peut réellement dire de la « récupération des récepteurs »\nDes chronologies populaires affirment que les systèmes de la sérotonine et de la noradrénaline seraient « complètement rééquilibrés » en trois mois. Les données solides portent sur le syndrome de sevrage et sa durée, pas sur une horloge précise de récupération des récepteurs. Ce qui est fiable, c\'est qu\'à trois mois le sevrage est généralement résolu et que de nombreuses personnes constatent que l\'émoussement émotionnel parfois ressenti sous IRSN diminue après l\'arrêt.\n\nSevrage ou rechute\nLa Letter recommande de distinguer le sevrage d\'un véritable retour du trouble sous-jacent. Si l\'anxiété ou une baisse de moral persiste à trois mois, faites-en le point avec votre prescripteur au lieu de supposer qu\'il s\'agit uniquement du sevrage.';
+      'Trois mois après les IRSN : la période habituelle de sevrage est derrière vous\n\nSource : Fava et al. (2018), \"Withdrawal Symptoms after Serotonin-Noradrenaline Reuptake Inhibitor Discontinuation: Systematic Review\", Psychotherapy and Psychosomatics\n\nLe déroulement habituel du sevrage des IRSN\nDans 61 publications — dont 22 essais contrôlés randomisés en double aveugle — des symptômes de sevrage ont été signalés après tous les types d\'IRSN étudiés. Ils débutaient généralement quelques jours après l\'arrêt et duraient quelques semaines, y compris avec une diminution progressive. La venlafaxine présentait une fréquence plus élevée de symptômes de sevrage dans les publications.\n\nPourquoi le jour 90 compte\nQuatre-vingt-dix jours vont bien au-delà de cette évolution habituelle de quelques semaines. Atteindre trois mois signifie que la période habituelle de sevrage des IRSN est derrière vous.\n\nDes évolutions plus longues existent\nLa revue a aussi relevé des troubles plus tardifs ou plus persistants. Si des symptômes importants sont encore présents à trois mois, faites le point avec votre prescripteur.';
 
   @override
   String get snriReferenceDay180 =>

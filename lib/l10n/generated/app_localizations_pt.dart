@@ -2739,11 +2739,11 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get snriMilestone90Title =>
-      'Três Meses: Reequilíbrio Duplo do Sistema';
+      'Três meses: para lá da janela típica de abstinência';
 
   @override
   String get snriMilestone90Description =>
-      'Três meses é um marco importante na recuperação. Os sistemas de serotonina e noradrenalina tiveram meses para se ajustar. Humor, ansiedade, foco e pensamento claro são significativamente melhores após uma redução gradual supervisionada.';
+      'A abstinência de SNRIs costuma começar em poucos dias e durar algumas semanas. Aos 90 dias, essa janela habitual de sintomas está claramente para trás — um marco concreto de recuperação.';
 
   @override
   String get snriMilestone180Title => 'Seis Meses: Recuperação Neurológica';
@@ -3525,7 +3525,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get snriReferenceDay90 =>
-      'Três meses após SNRIs: abstinência bem passada\n\nFonte: \"Síndrome de abstinência de antidepressivos\", Therapeutics Letter 112 (2018), Therapeutics Initiative, na estante do NCBI\n\nPor que os SNRIs merecem cuidado extra\nEsta revisão de evidências destaca os antidepressivos de meia-vida curta – incluindo a venlafaxina e a duloxetina (ambos IRSNs) – como apresentando um risco maior de sintomas de abstinência. Um estudo financiado pelo fabricante descobriu que 51% das pessoas que interromperam a duloxetina apresentaram um ou mais sintomas. Portanto, a abstinência do SNRI pode ser pronunciada, e é exatamente por isso que uma redução gradual e supervisionada é importante.\n\nOnde ficam três meses\nA Carta observa que os sintomas de abstinência “geralmente aparecem alguns dias após a interrupção” e que “a maioria dos sintomas de abstinência de antidepressivos desaparecem dentro de 2 semanas” (ocasionalmente mais tempo). Aos três meses, a fase aguda de abstinência já está bem atrasada para a grande maioria das pessoas.\n\nSinal de recuperação em \'Recuperação do receptor\'\nCronogramas populares afirmam que os sistemas de serotonina e noradrenalina foram “totalmente reequilibrados” em três meses. A evidência sólida diz respeito à síndrome de abstinência e ao seu momento, e não a um relógio preciso de recuperação dos receptores. O que é confiável: em três meses, a fase de abstinência normalmente foi resolvida e muitas pessoas notam que o embotamento emocional que alguns sentem nos IRSNs diminui após a interrupção.\n\nAbstinência versus recaída\nA Carta aconselha distinguir a abstinência de um verdadeiro retorno da condição subjacente. Se a ansiedade ou o mau humor persistirem após três meses, revise-os com o seu médico, em vez de presumir que se trata apenas de uma abstinência.';
+      'Três meses após SNRIs: para lá da janela típica de abstinência\n\nFonte: Fava et al. (2018), \"Withdrawal Symptoms after Serotonin-Noradrenaline Reuptake Inhibitor Discontinuation: Systematic Review\", Psychotherapy and Psychosomatics\n\nComo costuma decorrer a abstinência de SNRIs\nEm 61 relatórios — incluindo 22 ensaios controlados aleatorizados e duplamente cegos — foram descritos sintomas de abstinência após todos os tipos de SNRI estudados. Os sintomas começavam normalmente poucos dias após a interrupção e duravam algumas semanas, mesmo com redução gradual. A venlafaxina apresentou maior prevalência de sintomas de abstinência entre os relatórios.\n\nPorque o dia 90 importa\nNoventa dias ficam muito para lá desse curso típico de algumas semanas. Chegar aos três meses significa que a janela habitual de abstinência de SNRIs está para trás.\n\nTambém podem existir cursos mais longos\nA revisão também encontrou perturbações de início tardio ou mais persistentes. Se ainda houver sintomas importantes aos três meses, reveja-os com o profissional que prescreve a medicação.';
 
   @override
   String get snriReferenceDay180 =>
@@ -6427,11 +6427,11 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get snriMilestone90Title =>
-      'Três Meses: Reequilíbrio Duplo do Sistema';
+      'Três meses: além do período típico de abstinência';
 
   @override
   String get snriMilestone90Description =>
-      'Três meses é um marco importante na recuperação. Os sistemas de serotonina e noradrenalina tiveram meses para se ajustar. Humor, ansiedade, foco e pensamento claro são significativamente melhores após uma redução gradual supervisionada.';
+      'A abstinência de SNRIs costuma começar em poucos dias e durar algumas semanas. Aos 90 dias, esse período habitual de sintomas já ficou bem para trás — um marco concreto de recuperação.';
 
   @override
   String get snriMilestone180Title => 'Seis Meses: Recuperação Neurológica';
@@ -7215,7 +7215,7 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get snriReferenceDay90 =>
-      'Três meses após SNRIs: retirada bem passada\n\nFonte: \"Síndrome de abstinência de antidepressivos\", Therapeutics Letter 112 (2018), Therapeutics Initiative, na estante do NCBI\n\nPor que os SNRIs merecem cuidado extra\nEsta revisão de evidências destaca os antidepressivos de meia-vida curta – incluindo a venlafaxina e a duloxetina (ambos IRSNs) – como apresentando um risco maior de sintomas de abstinência. Um estudo financiado pelo fabricante descobriu que 51% das pessoas que interromperam a duloxetina apresentaram um ou mais sintomas. Portanto, a retirada do SNRI pode ser pronunciada, e é exatamente por isso que uma redução gradual e supervisionada é importante.\n\nOnde ficam três meses\nA Carta observa que os sintomas de abstinência “geralmente aparecem alguns dias após a interrupção” e que “a maioria dos sintomas de abstinência de antidepressivos desaparecem dentro de 2 semanas” (ocasionalmente mais tempo).Aos três meses, a fase aguda de abstinência já está bem atrasada para a grande maioria das pessoas.\n\nSinal de recuperação em \'Recuperação do receptor\'\nCronogramas populares afirmam que os sistemas de serotonina e noradrenalina foram “totalmente reequilibrados” em três meses. A evidência sólida diz respeito à síndrome de abstinência e ao seu momento, e não a um relógio preciso de recuperação dos receptores. O que é confiável: em três meses, a fase de abstinência normalmente foi resolvida e muitas pessoas notam que o embotamento emocional que alguns sentem nos IRSNs diminui após a interrupção.\n\nRetirada versus recaída\nA Carta aconselha distinguir a retirada de um verdadeiro retorno da condição subjacente. Se a ansiedade ou o mau humor persistirem após três meses, revise-os com o seu médico, em vez de presumir que se trata apenas de uma abstinência.';
+      'Três meses após SNRIs: além do período típico de abstinência\n\nFonte: Fava et al. (2018), \"Withdrawal Symptoms after Serotonin-Noradrenaline Reuptake Inhibitor Discontinuation: Systematic Review\", Psychotherapy and Psychosomatics\n\nComo costuma ser a abstinência de SNRIs\nEm 61 relatos — incluindo 22 ensaios clínicos randomizados, controlados e duplo-cegos — foram descritos sintomas de abstinência após todos os tipos de SNRI estudados. Os sintomas geralmente começavam poucos dias após a interrupção e duravam algumas semanas, inclusive com redução gradual. A venlafaxina apresentou maior prevalência de sintomas de abstinência entre os relatos.\n\nPor que o dia 90 importa\nNoventa dias ficam muito além desse curso típico de algumas semanas. Chegar a três meses significa que o período habitual de abstinência de SNRIs ficou para trás.\n\nTambém podem ocorrer cursos mais longos\nA revisão também encontrou alterações de início tardio ou mais persistentes. Se sintomas importantes ainda estiverem ativos aos três meses, converse com o profissional que prescreveu o medicamento.';
 
   @override
   String get snriReferenceDay180 =>
