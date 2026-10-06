@@ -2486,11 +2486,11 @@ class AppLocalizationsZh extends AppLocalizations {
       '六个月让神经系统有了充分的调整时间。大脑的血清素系统已经恢复到自然平衡。许多人报告情绪体验范围有所改善；对于曾出现此问题的人，SSRI引起的性功能障碍通常也已在此时消退。';
 
   @override
-  String get ssriMilestone365Title => '一年：康复实现';
+  String get ssriMilestone365Title => '一年：重要里程碑';
 
   @override
   String get ssriMilestone365Description =>
-      '一年标志着一个完整的恢复周期。研究显示，完成逐渐减药并获得心理支持的大多数人在一年后仍保持良好状态，生活质量与继续服药者相当或更好。';
+      '停药整整一年是一个重要里程碑。在 ANTLER 试验中，许多长期使用抗抑郁药并停药的人在 52 周内没有复发，不过停药后的复发更常见，平均生活质量也低于维持治疗组。如果一年后您仍然状态良好，这是真正值得庆祝的进步。';
 
   @override
   String get settingsShowSsriTracking => '显示SSRI追踪';
@@ -3387,7 +3387,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get ssriReferenceDay365 =>
-      '停用SSRI一年：可测量的恢复\n\n来源：Duffy et al.（2021），Health Technology Assessment——the ANTLER trial\n\n这项试验实际发现了什么\nANTLER在英国初级保健中随访了长期使用抗抑郁药的人，他们要么继续服药，要么停药。在接下来的一年里，停药的人中有56%复发，而继续服药的人中为39%——大约是两倍的风险——而且停药组平均报告的生活质量略低。\n\n更完整的图景\n尽管复发率更高，但相当一部分停药的人并未复发，并且在不用药的情况下保持良好。大约三分之一停药的人最终重新开始服用抗抑郁药——这是一个合理的临床选择，而非失败。\n\n关于未来的说明\n对一些人来说，抑郁和焦虑是慢性疾病。如果基础疾病重新显现，重新用药并不是失败。目标是健康幸福——无论接下来发生什么，成功停药一年都是一项真正的成就。';
+      '长期使用抗抑郁药后停药一年：ANTLER 实际测量了什么\n\n来源：Duffy 等（2021），Health Technology Assessment — ANTLER 试验\n\n这项试验实际发现了什么\nANTLER 将英国初级保健中 478 名状态稳定到可以考虑停止长期抗抑郁药治疗的成年人随机分组。到第 52 周，停药组有 56% 复发，维持治疗组为 39%。按时间计算的复发风险率约为两倍（HR 2.06）；但实际观察到的一年复发比例是 56% 对 39%，并不是两倍。\n\n完整情况\n停药并不是死路：44% 的参与者在 52 周试验期间没有复发。不过平均结果更支持维持治疗：停药组的停药症状更多，12 个月内质量调整生命年更少。被分配停药的参与者中有 39% 重新开始了原来的抗抑郁药。\n\n你的一年里程碑\n如果你已经停药一年并且状态良好，这是非常大的成就。ANTLER 并不是说所有人都应该继续用药，也不是说所有人都应该停药；它说明了为什么复发风险和治疗决定需要个体化随访。如果需要重新开始用药，这是临床选择，不是失败。';
 
   @override
   String get steroidsReferenceDay1 =>
@@ -5976,11 +5976,11 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
       '六個月讓神經系統有了充分的調整時間。大腦的血清素系統已經恢復到自然平衡。許多人報告情緒體驗範圍有所改善；對於曾出現此問題的人，SSRI引起的性功能障礙通常也已在此時消退。';
 
   @override
-  String get ssriMilestone365Title => '一年：康復實現';
+  String get ssriMilestone365Title => '一年：重要里程碑';
 
   @override
   String get ssriMilestone365Description =>
-      '一年標誌著一個完整的恢復週期。研究顯示，完成逐漸減藥並獲得心理支持的大多數人在一年後仍保持良好狀態，生活質量與繼續服藥者相當或更好。';
+      '停藥整整一年是一個重要里程碑。在 ANTLER 試驗中，許多長期使用抗憂鬱藥並停藥的人在 52 週內沒有復發，不過停藥後的復發更常見，平均生活品質也低於維持治療組。如果一年後您仍然狀態良好，這是真正值得慶祝的進步。';
 
   @override
   String get settingsShowSsriTracking => '顯示SSRI追蹤';
@@ -6877,7 +6877,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get ssriReferenceDay365 =>
-      '停用SSRI一年：可測量的恢復\n\n來源：Duffy et al.（2021），Health Technology Assessment——the ANTLER trial\n\n這項試驗實際發現了甚麼\nANTLER在英國初級保健中隨訪了長期使用抗抑鬱藥的人，他們要麼繼續服藥，要麼停藥。在接下來的一年里，停藥的人中有56%復發，而繼續服藥的人中為39%——大約是兩倍的風險——而且停藥組平均報告的生活質量略低。\n\n更完整的圖景\n儘管復發率更高，但相當一部分停藥的人並未復發，並且在不用藥的情況下保持良好。大約三分之一停藥的人最終重新開始服用抗抑鬱藥——這是一個合理的臨床選擇，而非失敗。\n\n關於未來的說明\n對一些人來說，抑鬱和焦慮是慢性疾病。如果基礎疾病重新顯現，重新用藥並不是失敗。目標是健康幸福——無論接下來發生甚麼，成功停藥一年都是一項真正的成就。';
+      '長期使用抗憂鬱藥後停藥一年：ANTLER 實際測量了什麼\n\n來源：Duffy 等（2021），Health Technology Assessment — ANTLER 試驗\n\n這項試驗實際發現了什麼\nANTLER 將英國基層醫療中 478 名狀態穩定到可以考慮停止長期抗憂鬱藥治療的成年人隨機分組。到第 52 週，停藥組有 56% 復發，維持治療組為 39%。按時間計算的復發風險率約為兩倍（HR 2.06）；但實際觀察到的一年復發比例是 56% 對 39%，並不是兩倍。\n\n完整情況\n停藥並不是死路：44% 的參與者在 52 週試驗期間沒有復發。不過平均結果更支持維持治療：停藥組的停藥症狀更多，12 個月內品質調整生命年更少。被分配停藥的參與者中有 39% 重新開始了原來的抗憂鬱藥。\n\n你的一年里程碑\n如果你已經停藥一年並且狀態良好，這是非常大的成就。ANTLER 並不是說所有人都應該繼續用藥，也不是說所有人都應該停藥；它說明了為什麼復發風險和治療決定需要個別化追蹤。如果需要重新開始用藥，這是臨床選擇，不是失敗。';
 
   @override
   String get steroidsReferenceDay1 =>

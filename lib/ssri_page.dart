@@ -150,19 +150,19 @@ class SsriPage extends StatelessWidget {
         title: l10n.ssriMilestone365Title,
         description: l10n.ssriMilestone365Description,
         reference:
-            "Duffy et al. (2021) - ANTLER RCT, Antidepressant Discontinuation in Primary Care (PubMed)",
+            "Duffy et al. (2021) — ANTLER RCT, Health Technology Assessment (PubMed)",
         link: "https://pubmed.ncbi.nlm.nih.gov/34842135/",
         referenceDate: "May 2026",
         localizedReferenceContent: l10n.ssriReferenceDay365,
         referenceContent:
-            "One Year After SSRIs: Measured Recovery\n\n"
+            "One Year After Long-Term Antidepressants: What ANTLER Measured\n\n"
             "Source: Duffy et al. (2021), Health Technology Assessment — the ANTLER trial\n\n"
             "What This Trial Actually Found\n"
-            "ANTLER followed long-term antidepressant users in UK primary care who either stayed on medication or discontinued. Over the following year, 56% of those who discontinued relapsed, compared with 39% of those who stayed on medication — roughly double the risk — and the discontinuation group reported somewhat lower quality of life on average.\n\n"
+            "ANTLER randomized 478 adults in UK primary care who were well enough to consider stopping long-term antidepressants. By 52 weeks, 56% of the discontinuation group had relapsed, versus 39% of the maintenance group. The time-to-relapse hazard was about doubled (HR 2.06); the observed one-year relapse proportions themselves were 56% vs 39%, not twice as high.\n\n"
             "The Fuller Picture\n"
-            "Despite the higher relapse rate, a substantial share of people who discontinued did not relapse and remained well without medication. About a third of those who discontinued eventually restarted their antidepressant — a reasonable clinical choice, not a failure.\n\n"
-            "A Note on the Future\n"
-            "Depression and anxiety are chronic conditions for some people. There is no failure in returning to medication if the underlying condition reasserts itself. The goal is wellbeing — and one year of successful discontinuation is a genuine achievement regardless of what comes next.",
+            "Discontinuation wasn't a dead end: 44% did not relapse during the 52-week trial. But average outcomes favored maintenance: the discontinuation group had more withdrawal symptoms and fewer quality-adjusted life-years over 12 months. 39% of those assigned to discontinue returned to their original antidepressant.\n\n"
+            "Your One-Year Milestone\n"
+            "If you've reached a year off and you're doing well, that's a huge achievement. ANTLER does not say everyone should stay on medication or everyone should stop; it shows why relapse risk and treatment decisions deserve individual follow-up. Restarting medication if you need it is a clinical choice, not a failure.",
       ),
     ];
   }

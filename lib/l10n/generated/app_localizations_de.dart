@@ -2658,11 +2658,11 @@ class AppLocalizationsDe extends AppLocalizations {
       'Sechs Monate ermöglichen eine erhebliche neurologische Anpassung. Die Serotoninsysteme des Gehirns haben ihr natürliches Gleichgewicht gefunden. Viele Menschen berichten von einer verbesserten emotionalen Reichweite und für diejenigen, die es erlebt haben, hat sich die sexuelle Dysfunktion, die durch SSRIs verursacht wird, typischerweise aufgelöst.';
 
   @override
-  String get ssriMilestone365Title => 'Ein Jahr: Erholung erreicht';
+  String get ssriMilestone365Title => 'Ein Jahr: Ein riesiger Meilenstein';
 
   @override
   String get ssriMilestone365Description =>
-      'Ein Jahr markiert einen vollständigen Zyklus der Erholung. Die Forschung zeigt, dass die Mehrheit, die eine allmähliche Verjüngung abgeschlossen und psychologische Unterstützung erhalten hat, nach einem Jahr gut bleibt, wobei die Lebensqualität vergleichbar oder besser ist als diejenigen, die Medikamente einnahmen.';
+      'Ein ganzes Jahr ohne das Medikament ist ein riesiger Meilenstein. In ANTLER kamen viele Langzeitnutzer von Antidepressiva nach dem Absetzen 52 Wochen ohne Rückfall durch, auch wenn Rückfälle nach dem Absetzen häufiger waren als unter Erhaltungstherapie. Wenn es dir nach einem Jahr gut geht, ist das echter Fortschritt, den du feiern darfst.';
 
   @override
   String get settingsShowSsriTracking => 'SSRI Tracking anzeigen';
@@ -3579,7 +3579,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get ssriReferenceDay365 =>
-      'Ein Jahr nach SSRIs: Gemessene Erholung\n\nQuelle: Duffy et al. (2021), Health Technology Assessment — die ANTLER-Studie\n\nWas diese Studie tatsächlich gefunden hat\nANTLER folgte langfristigen Antidepressiva-Nutzern in der britischen Grundversorgung, die entweder Medikamente einnahmen oder abbrachen. Im folgenden Jahr traten 56% derjenigen, die abbrachen, einen Rückfall ein, verglichen mit 39% derjenigen, die Medikamente einnahmen - etwa das Doppelte des Risikos - und die Abbruchgruppe berichtete im Durchschnitt über eine etwas geringere Lebensqualität.\n\nDas vollständigere Bild\nTrotz der höheren Rückfallrate, ein erheblicher Anteil der Menschen, die abgebrochen nicht zurückfallen und blieb gut ohne Medikamente. Etwa ein Drittel derjenigen, die abbrachen, starteten schließlich ihr Antidepressivum neu - eine vernünftige klinische Wahl, kein Versagen.\n\nEine Note zur Zukunft\nDepression und Angst sind chronische Bedingungen für manche Menschen. Es gibt keinen Fehler bei der Rückkehr zu Medikamenten, wenn sich der zugrunde liegende Zustand wieder bestätigt. Das Ziel ist Wohlbefinden - und ein Jahr erfolgreicher Einstellung ist eine echte Leistung, unabhängig davon, was als nächstes kommt.';
+      'Ein Jahr nach langfristiger Antidepressiva-Einnahme: Was ANTLER gemessen hat\n\nQuelle: Duffy et al. (2021), Health Technology Assessment — die ANTLER-Studie\n\nWas die Studie tatsächlich zeigte\nANTLER randomisierte 478 Erwachsene in der britischen Primärversorgung, denen es gut genug ging, um ein Absetzen langfristig eingenommener Antidepressiva in Betracht zu ziehen. Nach 52 Wochen hatten 56 % der Absetzgruppe einen Rückfall, gegenüber 39 % der Erhaltungsgruppe. Die zeitbezogene Rückfall-Hazard war etwa doppelt so hoch (HR 2,06); die beobachteten Rückfallanteile nach einem Jahr betrugen jedoch 56 % gegenüber 39 % und waren nicht doppelt so hoch.\n\nDas ganze Bild\nAbsetzen war keineswegs aussichtslos: 44 % erlitten während der 52-wöchigen Studie keinen Rückfall. Im Durchschnitt schnitt die Erhaltungstherapie jedoch besser ab: Die Absetzgruppe hatte mehr Entzugssymptome und über 12 Monate weniger qualitätsadjustierte Lebensjahre. 39 % der zum Absetzen Eingeteilten kehrten zu ihrem ursprünglichen Antidepressivum zurück.\n\nDein Ein-Jahres-Meilenstein\nWenn du ein Jahr ohne das Medikament erreicht hast und es dir gut geht, ist das eine große Leistung. ANTLER sagt weder, dass alle auf Medikamenten bleiben sollten, noch dass alle absetzen sollten; die Studie zeigt, warum Rückfallrisiko und Behandlungsentscheidungen individuell begleitet werden sollten. Ein Medikament bei Bedarf wieder zu beginnen, ist eine klinische Entscheidung und kein Versagen.';
 
   @override
   String get steroidsReferenceDay1 =>

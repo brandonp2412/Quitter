@@ -2671,11 +2671,11 @@ class AppLocalizationsPl extends AppLocalizations {
       'Sześć miesięcy pozwala na znaczną korektęneurologiczną. Systemy serotoninowe mózgu znalazły swoją naturalną równowagę. Wiele osób zgłasza poprawę zakresu emocjonalnego i, dla tych, którzy tego doświadczyli, zaburzenia seksualne spowodowane przez SSRI zazwyczaj rozwiązano.';
 
   @override
-  String get ssriMilestone365Title => 'Jeden rok: Odzyskiwanie osiągnięte';
+  String get ssriMilestone365Title => 'Rok: ogromny kamień milowy';
 
   @override
   String get ssriMilestone365Description =>
-      'Jeden rok oznacza pełny cykl odzyskiwania. Badania pokazują, że większość, którzy ukończyli stopniową stopniową stopniową i otrzymał wsparcie psychologiczne pozostają dobre na jeden rok, z jakością życia porównywalne lub lepsze niż ci, którzy pozostali na medycynie.';
+      'Pełny rok bez leku to ogromny kamień milowy. W badaniu ANTLER wiele osób długo przyjmujących leki przeciwdepresyjne, które je odstawiły, przeszło 52 tygodnie bez nawrotu, choć nawrót był częstszy po odstawieniu niż podczas leczenia podtrzymującego. Jeśli po roku czujesz się dobrze, to realny postęp wart świętowania.';
 
   @override
   String get settingsShowSsriTracking => 'Pokaż śledzenie SSRI';
@@ -3592,7 +3592,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get ssriReferenceDay365 =>
-      'Rok po SSRIS- Zmierzony odzysk\n\nŹródło: Duffy et al. (2021), Health Technology Assessment — the ANTLER trial\n\nCo to próbne rzeczywiście znaleziono\nANTLER obserwował długotrwałe leczenie przeciwdepresyjne w leczeniu podstawowym w Zjednoczonym Królestwie, które albo pozostawało na lekach, albo przestało być stosowane. W następnym roku 56% pacjentów, którzy przerwali leczenie, w porównaniu z 39% pacjentów, którzy pozostali na lekach, znacznie podwoiło ryzyko, a grupa pacjentów, u których przerwano leczenie, zgłaszała nieco niższą jakość życia na poziomie średniej.\n\nObraz Fullera\nPomimo zwiększonej częstości nawrotów, znaczna część osób, które przerwały leczenie, nie powróciła i pozostała dobrze bez leczenia. Około jedna trzecia z tych, którzy przerwali leczenie, ostatecznie wznowiła leczenie przeciwdepresyjne, co było rozsądnym wyborem klinicznym, a nie niepowodzeniem.\n\nNota o przyszłości\nDepresja i niepokój są chroniczne warunki dla niektórych ludzi. Nie ma niepowodzenia w powrocie do leków, jeśli warunek się ponownie. Celem jest dobre samopoczucie i jeden rok pomyślnego zaprzestania jest prawdziwym osiągnięciem, niezależnie od tego, co nastąpi później.';
+      'Rok po długotrwałym stosowaniu leków przeciwdepresyjnych: co zmierzyło ANTLER\n\nŹródło: Duffy i wsp. (2021), Health Technology Assessment — badanie ANTLER\n\nCo naprawdę wykazało badanie\nANTLER objęło losowym przydziałem 478 dorosłych pacjentów podstawowej opieki zdrowotnej w Wielkiej Brytanii, którzy czuli się na tyle dobrze, by rozważyć odstawienie długotrwale stosowanych leków przeciwdepresyjnych. Do 52. tygodnia nawrót wystąpił u 56% osób w grupie odstawienia i u 39% w grupie leczenia podtrzymującego. Hazard nawrotu w czasie był około dwukrotnie wyższy (HR 2,06), ale obserwowane roczne odsetki nawrotów wynosiły 56% wobec 39% — nie dwa razy więcej.\n\nPełniejszy obraz\nOdstawienie nie było ślepą uliczką: 44% uczestników nie miało nawrotu w ciągu 52 tygodni badania. Średnio wyniki przemawiały jednak za leczeniem podtrzymującym: w grupie odstawienia było więcej objawów odstawiennych i mniej lat życia skorygowanych o jakość w ciągu 12 miesięcy. 39% osób przydzielonych do odstawienia wróciło do swojego pierwotnego leku przeciwdepresyjnego.\n\nTwój roczny kamień milowy\nJeśli masz za sobą rok bez leku i czujesz się dobrze, to ogromne osiągnięcie. ANTLER nie mówi, że każdy powinien pozostać na leku ani że każdy powinien go odstawić; pokazuje, dlaczego ryzyko nawrotu i decyzje o leczeniu wymagają indywidualnej kontroli. Powrót do leku, jeśli go potrzebujesz, jest decyzją kliniczną, a nie porażką.';
 
   @override
   String get steroidsReferenceDay1 =>

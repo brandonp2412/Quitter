@@ -2706,11 +2706,11 @@ class AppLocalizationsFr extends AppLocalizations {
       'Six mois permettent une adaptation neurologique importante. Les systèmes sérotoninergiques du cerveau ont retrouvé leur équilibre naturel. Beaucoup rapportent une gamme émotionnelle plus riche et, chez ceux qui en souffraient, les troubles sexuels causés par les ISRS se sont généralement résolus.';
 
   @override
-  String get ssriMilestone365Title => 'Un an : récupération accomplie';
+  String get ssriMilestone365Title => 'Un an : un cap énorme';
 
   @override
   String get ssriMilestone365Description =>
-      'Un an représente un cycle complet de récupération. Les recherches montrent que la majorité des personnes ayant terminé une diminution progressive avec un soutien psychologique vont bien à un an, avec une qualité de vie comparable ou meilleure que celle des personnes restées sous traitement.';
+      'Une année complète sans le médicament est un cap énorme. Dans ANTLER, de nombreuses personnes sous antidépresseurs au long cours qui ont arrêté ont traversé 52 semaines sans rechute, même si les rechutes étaient plus fréquentes après l\'arrêt qu\'avec un traitement d\'entretien. Si vous allez bien au bout d\'un an, c\'est un vrai progrès qui mérite d\'être célébré.';
 
   @override
   String get settingsShowSsriTracking => 'Afficher le suivi des ISRS';
@@ -3631,7 +3631,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get ssriReferenceDay365 =>
-      'Un an après l\'arrêt des ISRS : une récupération mesurée\n\nSource : Duffy et al. (2021), Health Technology Assessment — essai ANTLER\n\nCe que cet essai a réellement constaté\nANTLER a suivi, en soins primaires au Royaume-Uni, des personnes utilisant des antidépresseurs à long terme qui soit poursuivaient leur traitement, soit l\'arrêtaient. Au cours de l\'année suivante, 56 % des personnes ayant arrêté ont rechuté, contre 39 % de celles ayant poursuivi le traitement — soit un risque approximativement deux fois plus élevé — et le groupe ayant arrêté a rapporté en moyenne une qualité de vie légèrement plus faible.\n\nLe tableau complet\nMalgré ce taux de rechute plus élevé, une part importante des personnes ayant arrêté n\'a pas rechuté et est restée en bonne santé sans médicament. Environ un tiers des personnes ayant arrêté ont finalement repris leur antidépresseur : il s\'agit d\'un choix clinique raisonnable, et non d\'un échec.\n\nUn mot sur la suite\nLa dépression et l\'anxiété sont des troubles chroniques chez certaines personnes. Reprendre un médicament si le trouble sous-jacent réapparaît n\'est pas un échec. L\'objectif est le bien-être, et une année d\'arrêt réussi reste un véritable accomplissement, quelle que soit la suite.';
+      'Un an après un traitement antidépresseur au long cours : ce qu\'ANTLER a mesuré\n\nSource : Duffy et al. (2021), Health Technology Assessment — essai ANTLER\n\nCe que l\'essai a réellement montré\nANTLER a randomisé 478 adultes suivis en soins primaires au Royaume-Uni, suffisamment bien pour envisager l\'arrêt d\'un traitement antidépresseur au long cours. À 52 semaines, 56 % du groupe arrêt avaient rechuté, contre 39 % du groupe maintien. Le risque instantané de rechute au fil du temps était environ doublé (HR 2,06) ; les proportions observées de rechute à un an étaient, elles, de 56 % contre 39 %, et non deux fois plus élevées.\n\nLe tableau complet\nL\'arrêt n\'était pas une impasse : 44 % n\'ont pas rechuté pendant les 52 semaines de l\'essai. Mais, en moyenne, les résultats favorisaient le maintien : le groupe arrêt présentait davantage de symptômes de sevrage et moins d\'années de vie ajustées sur la qualité sur 12 mois. 39 % des personnes assignées à l\'arrêt ont repris leur antidépresseur d\'origine.\n\nVotre cap d\'un an\nSi vous avez atteint un an sans le médicament et que vous allez bien, c\'est une réussite majeure. ANTLER ne dit ni que tout le monde doit rester sous traitement ni que tout le monde doit arrêter ; l\'étude montre pourquoi le risque de rechute et les décisions thérapeutiques méritent un suivi individuel. Reprendre un médicament si vous en avez besoin est un choix clinique, pas un échec.';
 
   @override
   String get steroidsReferenceDay1 =>

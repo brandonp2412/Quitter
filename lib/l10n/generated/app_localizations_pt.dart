@@ -2673,11 +2673,11 @@ class AppLocalizationsPt extends AppLocalizations {
       'Seis meses permitem um ajuste neurológico substancial. Os sistemas de serotonina do cérebro encontraram seu equilíbrio natural. Muitas pessoas relatam melhora do alcance emocional e, para aquelas que vivenciaram isso, a disfunção sexual causada pelos ISRSs normalmente foi resolvida.';
 
   @override
-  String get ssriMilestone365Title => 'Um ano: recuperação alcançada';
+  String get ssriMilestone365Title => 'Um ano: um marco enorme';
 
   @override
   String get ssriMilestone365Description =>
-      'Um ano marca um ciclo completo de recuperação. A investigação mostra que a maioria dos que completaram uma redução gradual e receberam apoio psicológico permanecem bem ao fim de um ano, com qualidade de vida comparável ou melhor do que aqueles que permaneceram sob medicação.';
+      'Um ano inteiro sem o medicamento é um marco enorme. No ANTLER, muitas pessoas que usavam antidepressivos há longo prazo e os suspenderam passaram 52 semanas sem recaída, embora a recaída tenha sido mais frequente após a suspensão do que com tratamento de manutenção. Se ao fim de um ano você está bem, isso é progresso real e merece ser celebrado.';
 
   @override
   String get settingsShowSsriTracking => 'Mostrar acompanhamento de SSRI';
@@ -3600,7 +3600,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get ssriReferenceDay365 =>
-      'Um ano após ISRS: recuperação medida\n\nFonte: Duffy et al.(2021), Avaliação de Tecnologias em Saúde — o ensaio ANTLER\n\nO que este teste realmente encontrou\nANTLER acompanhou utilizadores de antidepressivos de longa data na atenção primária do Reino Unido que permaneceram com a medicação ou a interromperam. No ano seguinte, 56% dos que interromperam o tratamento tiveram uma recaída, em comparação com 39% dos que continuaram a tomar a medicação – aproximadamente o dobro do risco – e o grupo que interrompeu o tratamento relatou, em média, uma qualidade de vida um pouco inferior.\n\nA imagem mais completa\nApesar da taxa de recaída mais elevada, uma percentagem substancial de pessoas que interromperam o tratamento não teve recaída e permaneceu bem sem medicação. Cerca de um terço dos que interromperam o tratamento acabaram por reiniciar o seu antidepressivo – uma escolha clínica razoável, não um fracasso.\n\nUma nota sobre o futuro\nDepressão e ansiedade são condições crônicas para algumas pessoas. Não há falha no retorno à medicação se a condição subjacente se reafirmar. O objetivo é o bem-estar – e um ano de descontinuação bem-sucedida é uma conquista genuína, independentemente do que vier a seguir.';
+      'Um ano após antidepressivos de longa duração: o que o ANTLER mediu\n\nFonte: Duffy et al. (2021), Health Technology Assessment — ensaio ANTLER\n\nO que o ensaio realmente encontrou\nO ANTLER randomizou 478 adultos na atenção primária do Reino Unido que estavam bem o bastante para considerar interromper antidepressivos de longa duração. Em 52 semanas, 56% do grupo de suspensão tiveram recaída, contra 39% do grupo de manutenção. O hazard de recaída ao longo do tempo foi aproximadamente o dobro (HR 2,06); as proporções observadas de recaída em um ano foram 56% versus 39%, e não o dobro.\n\nO quadro completo\nInterromper não foi um beco sem saída: 44% não tiveram recaída durante as 52 semanas do ensaio. Mas, em média, os resultados favoreceram a manutenção: o grupo de suspensão teve mais sintomas de retirada e menos anos de vida ajustados pela qualidade ao longo de 12 meses. 39% das pessoas designadas para suspender voltaram ao antidepressivo original.\n\nSeu marco de um ano\nSe você chegou a um ano sem o medicamento e está bem, isso é uma grande conquista. O ANTLER não diz que todos devem continuar medicados nem que todos devem parar; mostra por que o risco de recaída e as decisões de tratamento merecem acompanhamento individual. Retomar a medicação se você precisar é uma decisão clínica, não uma falha.';
 
   @override
   String get steroidsReferenceDay1 =>

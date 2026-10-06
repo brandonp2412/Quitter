@@ -2647,11 +2647,11 @@ class AppLocalizationsId extends AppLocalizations {
       'Enam bulan memungkinkan penyesuaian neurologis yang substansial. Sistem serotonin otak telah menemukan keseimbangan alaminya. Banyak orang melaporkan peningkatan rentang emosi dan, bagi mereka yang mengalaminya, disfungsi seksual yang disebabkan oleh SSRI biasanya telah teratasi.';
 
   @override
-  String get ssriMilestone365Title => 'Satu Tahun: Pemulihan Tercapai';
+  String get ssriMilestone365Title => 'Satu Tahun: Tonggak Besar';
 
   @override
   String get ssriMilestone365Description =>
-      'Satu tahun menandai siklus pemulihan yang lengkap. Penelitian menunjukkan mayoritas orang yang menyelesaikan pengurangan bertahap dan menerima dukungan psikologis tetap sehat selama satu tahun, dengan kualitas hidup yang sebanding atau lebih baik dibandingkan mereka yang tetap menjalani pengobatan.';
+      'Satu tahun penuh tanpa obat adalah tonggak besar. Dalam ANTLER, banyak pengguna antidepresan jangka panjang yang berhenti berhasil melewati 52 minggu tanpa kambuh, meski kekambuhan lebih sering terjadi setelah berhenti dibandingkan dengan terapi pemeliharaan. Jika setelah setahun kamu tetap baik-baik saja, itu kemajuan nyata yang layak dirayakan.';
 
   @override
   String get settingsShowSsriTracking => 'Tampilkan pelacakan SSRI';
@@ -3567,7 +3567,7 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get ssriReferenceDay365 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Satu Tahun Setelah Antidepresan Jangka Panjang: Apa yang Diukur ANTLER\n\nSumber: Duffy dkk. (2021), Health Technology Assessment — uji ANTLER\n\nApa yang Sebenarnya Ditemukan Uji Ini\nANTLER mengacak 478 orang dewasa di layanan primer Inggris yang kondisinya cukup baik untuk mempertimbangkan berhenti dari antidepresan jangka panjang. Pada 52 minggu, 56% kelompok penghentian mengalami kekambuhan, dibandingkan 39% kelompok pemeliharaan. Hazard kekambuhan dari waktu ke waktu kira-kira dua kali lipat (HR 2,06); tetapi proporsi kekambuhan satu tahun yang diamati adalah 56% vs 39%, bukan dua kali lipat.\n\nGambaran Lengkap\nBerhenti bukan jalan buntu: 44% tidak mengalami kekambuhan selama uji 52 minggu. Namun secara rata-rata hasil lebih baik pada terapi pemeliharaan: kelompok penghentian mengalami lebih banyak gejala putus obat dan lebih sedikit tahun hidup yang disesuaikan dengan kualitas selama 12 bulan. Sebanyak 39% peserta yang dialokasikan untuk berhenti kembali ke antidepresan awal mereka.\n\nTonggak Satu Tahunmu\nJika kamu sudah mencapai satu tahun tanpa obat dan tetap merasa baik, itu pencapaian besar. ANTLER tidak mengatakan semua orang harus terus minum obat atau semua orang harus berhenti; penelitian ini menunjukkan mengapa risiko kekambuhan dan keputusan pengobatan perlu ditindaklanjuti secara individual. Memulai kembali obat bila diperlukan adalah pilihan klinis, bukan kegagalan.';
 
   @override
   String get steroidsReferenceDay1 =>

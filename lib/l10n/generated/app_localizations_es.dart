@@ -2677,11 +2677,11 @@ class AppLocalizationsEs extends AppLocalizations {
       'Seis meses permiten una adaptación neurológica considerable. Los sistemas de serotonina del cerebro han encontrado su equilibrio natural. Muchas personas describen una mayor amplitud emocional y, en quienes la experimentaron, la disfunción sexual causada por los ISRS suele haberse resuelto.';
 
   @override
-  String get ssriMilestone365Title => 'Un año: recuperación conseguida';
+  String get ssriMilestone365Title => 'Un año: un gran hito';
 
   @override
   String get ssriMilestone365Description =>
-      'Un año marca un ciclo completo de recuperación. Las investigaciones muestran que la mayoría de quienes completaron una reducción gradual y recibieron apoyo psicológico siguen bien al año, con una calidad de vida comparable o mejor que la de quienes continuaron con la medicación.';
+      'Un año completo sin el medicamento es un gran hito. En ANTLER, muchas personas que llevaban años tomando antidepresivos y los dejaron pasaron 52 semanas sin recaída, aunque las recaídas fueron más frecuentes tras suspenderlos que con tratamiento de mantenimiento. Si al cumplir un año sigues bien, es un progreso real que merece celebrarse.';
 
   @override
   String get settingsShowSsriTracking => 'Mostrar seguimiento de ISRS';
@@ -3602,7 +3602,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get ssriReferenceDay365 =>
-      'Un año después de los ISRS: recuperación medida\n\nFuente: Duffy et al. (2021), Health Technology Assessment — ensayo ANTLER\n\nLo que realmente encontró este ensayo\nANTLER siguió a usuarios de antidepresivos a largo plazo en atención primaria del Reino Unido que continuaron con la medicación o la suspendieron. Durante el año siguiente, el 56 % de quienes suspendieron recayeron, frente al 39 % de quienes continuaron con el tratamiento, lo que supone aproximadamente el doble de riesgo, y el grupo que suspendió informó de una calidad de vida algo menor de media.\n\nLa imagen completa\nA pesar de la mayor tasa de recaída, una proporción importante de quienes suspendieron el tratamiento no recayó y se mantuvo bien sin medicación. Aproximadamente un tercio de quienes lo suspendieron acabaron reiniciando el antidepresivo, una decisión clínica razonable y no un fracaso.\n\nUna nota sobre el futuro\nLa depresión y la ansiedad son condiciones crónicas para algunas personas. Volver a la medicación si reaparece la condición subyacente no representa un fracaso. El objetivo es el bienestar, y un año de discontinuación mantenida es un logro real independientemente de lo que ocurra después.';
+      'Un año tras dejar antidepresivos de larga duración: lo que midió ANTLER\n\nFuente: Duffy et al. (2021), Health Technology Assessment — ensayo ANTLER\n\nLo que encontró realmente el ensayo\nANTLER aleatorizó a 478 adultos de atención primaria del Reino Unido que se encontraban lo bastante bien como para plantearse dejar antidepresivos de larga duración. A las 52 semanas, había recaído el 56 % del grupo de suspensión, frente al 39 % del grupo de mantenimiento. El hazard de recaída a lo largo del tiempo fue aproximadamente el doble (HR 2,06); las proporciones observadas de recaída al año fueron 56 % frente a 39 %, no el doble.\n\nLa imagen completa\nDejar el tratamiento no fue un callejón sin salida: el 44 % no recayó durante las 52 semanas del ensayo. Pero, en promedio, los resultados favorecieron el mantenimiento: el grupo de suspensión tuvo más síntomas de retirada y menos años de vida ajustados por calidad durante 12 meses. El 39 % de quienes fueron asignados a suspender volvió a su antidepresivo original.\n\nTu hito de un año\nSi has llegado a un año sin el medicamento y te encuentras bien, es un logro enorme. ANTLER no dice que todo el mundo deba seguir medicado ni que todo el mundo deba dejarlo; muestra por qué el riesgo de recaída y las decisiones de tratamiento merecen seguimiento individual. Volver a tomar medicación si la necesitas es una decisión clínica, no un fracaso.';
 
   @override
   String get steroidsReferenceDay1 =>
