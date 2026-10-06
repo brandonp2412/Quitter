@@ -2849,11 +2849,12 @@ class AppLocalizationsFr extends AppLocalizations {
       'Les symptômes typiques d’arrêt des antidépresseurs durent généralement une à deux semaines. À 30 jours, la plupart des personnes ont dépassé cette phase aiguë ; les symptômes pseudo-grippaux, les nausées, les troubles de l’équilibre, l’insomnie, les perturbations sensorielles et l’hyperactivation ont généralement diminué ou disparu.';
 
   @override
-  String get tcaMilestone90Title => 'Trois mois : 90 jours sans tricycliques';
+  String get tcaMilestone90Title =>
+      'Trois mois : le sevrage aigu est loin derrière vous';
 
   @override
   String get tcaMilestone90Description =>
-      'Quatre-vingt-dix jours sans tricyclique, c’est un cap majeur. Les meilleures données disponibles ici portent sur un traitement à court terme, pas sur un calendrier fixe de récupération après l’arrêt. Ce cap célèbre donc ce qui est certain : trois mois sans traitement tricyclique.';
+      'Les symptômes typiques d’arrêt des antidépresseurs durent généralement une à deux semaines. À 90 jours, vous êtes plus de dix semaines au-delà de la fin de cette fenêtre aiguë habituelle ; les symptômes pseudo-grippaux, les nausées, les troubles de l’équilibre, l’insomnie, les perturbations sensorielles et l’hyperactivation ont généralement diminué ou disparu depuis longtemps.';
 
   @override
   String get tcaMilestone180Title =>
@@ -3678,7 +3679,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get tcaReferenceDay90 =>
-      'Trois mois après les tricycliques : 90 jours sans traitement\n\nCe que montrent les données\nUne revue systématique et méta-analyse de 2024 a inclus 103 essais randomisés totalisant 10 590 participants. Par rapport au placebo, les tricycliques réduisaient les symptômes dépressifs, mais les événements indésirables graves étaient plus fréquents (rapport de cotes 2,78 ; IC à 95 % : 2,18–3,55 ; 35 essais). Tous les résultats présentaient un risque élevé de biais et le niveau de certitude des données était faible ou très faible. Les essais ne mesuraient les résultats qu’à la fin du traitement, au plus tard 12 semaines après la randomisation.\n\nCe que signifient trois mois\nCes données ne mesurent pas la sérotonine, la noradrénaline, l’acétylcholine, l’histamine, la mémoire, l’humeur, l’énergie ou la motivation trois mois après l’arrêt. Elles ne peuvent donc pas fixer une échéance universelle de trois mois pour une récupération neurochimique ou cognitive.\n\nTrois mois restent un cap énorme : 90 jours sans traitement tricyclique en cours. Cette réussite se suffit à elle-même.';
+      'Trois mois après l’arrêt des tricycliques : le sevrage aigu est loin derrière vous\n\nLa fenêtre aiguë habituelle\nWarner et ses collègues indiquent que les symptômes d’arrêt des antidépresseurs sont généralement légers et durent une à deux semaines. Les tricycliques sont explicitement inclus ; les troubles de l’équilibre et du mouvement peuvent être particulièrement caractéristiques après l’arrêt d’un TCA.\n\nCe que signifie le jour 90\nÀ 90 jours, vous êtes plus de dix semaines au-delà de la fin de cette fenêtre aiguë habituelle. Si vous avez eu les symptômes classiques de la première vague—symptômes pseudo-grippaux, nausées, troubles de l’équilibre, insomnie, perturbations sensorielles et hyperactivation—ils ont généralement diminué ou disparu depuis longtemps.\n\nQuatre-vingt-dix jours forts\nTrois mois sans TCA constituent un jalon concret de récupération : le sevrage aigu est généralement loin derrière vous. Si des symptômes dépressifs importants réapparaissent, contactez rapidement votre médecin.';
 
   @override
   String get tcaReferenceDay180 =>

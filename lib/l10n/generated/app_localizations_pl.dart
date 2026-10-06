@@ -2812,11 +2812,12 @@ class AppLocalizationsPl extends AppLocalizations {
       'Typowe objawy odstawienia leków przeciwdepresyjnych trwają zwykle od jednego do dwóch tygodni. Po 30 dniach większość osób ma już za sobą tę ostrą fazę; objawy grypopodobne, nudności, zaburzenia równowagi, bezsenność, zaburzenia czucia i nadmierne pobudzenie zwykle wyraźnie słabną lub ustępują.';
 
   @override
-  String get tcaMilestone90Title => 'Trzy miesiące: 90 dni bez TCA';
+  String get tcaMilestone90Title =>
+      'Trzy miesiące: ostry zespół odstawienny daleko za tobą';
 
   @override
   String get tcaMilestone90Description =>
-      'Dziewięćdziesiąt dni bez TCA to ogromny kamień milowy. Najmocniejsze dane z badań dotyczą tu krótkotrwałego leczenia, a nie sztywnego harmonogramu zdrowienia po odstawieniu. Ten etap celebruje więc to, co pewne: trzy miesiące bez leczenia TCA.';
+      'Typowe objawy odstawienia leków przeciwdepresyjnych trwają zwykle od jednego do dwóch tygodni. Po 90 dniach jesteś ponad dziesięć tygodni za górną granicą tego typowego ostrego okna; objawy grypopodobne, nudności, zaburzenia równowagi, bezsenność, zaburzenia czucia i nadmierne pobudzenie zwykle dawno już osłabły lub ustąpiły.';
 
   @override
   String get tcaMilestone180Title => 'Sześć miesięcy: większość bez nawrotu';
@@ -3638,7 +3639,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get tcaReferenceDay90 =>
-      'Trzy miesiące po TCA: 90 dni bez leczenia\n\nCo pokazują dowody\nPrzegląd systematyczny i metaanaliza z 2024 roku objęły 103 randomizowane badania z udziałem 10 590 osób. W porównaniu z placebo TCA zmniejszały objawy depresji, ale poważne zdarzenia niepożądane występowały częściej (iloraz szans 2,78; 95% CI 2,18–3,55; 35 badań). Wszystkie wyniki obarczone były wysokim ryzykiem błędu systematycznego, a pewność dowodów była niska lub bardzo niska. Badania oceniały wyniki wyłącznie na końcu leczenia, nie później niż 12 tygodni po randomizacji.\n\nCo oznaczają trzy miesiące\nTe dane nie mierzą poziomu serotoniny, noradrenaliny, acetylocholiny ani histaminy, ani pamięci, nastroju, energii czy motywacji trzy miesiące po odstawieniu. Nie mogą więc wyznaczać uniwersalnego trzymiesięcznego terminu neurochemicznego lub poznawczego powrotu do zdrowia.\n\nTrzy miesiące to nadal ogromny kamień milowy: 90 dni bez trwającego leczenia TCA. To osiągnięcie broni się samo.';
+      'Trzy miesiące po odstawieniu TCA: ostry zespół odstawienny daleko za tobą\n\nTypowe ostre okno\nWarner i wsp. podają, że objawy odstawienia leków przeciwdepresyjnych są zwykle łagodne i trwają od jednego do dwóch tygodni. TCA są wyraźnie uwzględnione; po ich odstawieniu szczególnie charakterystyczne mogą być problemy z równowagą i ruchem.\n\nCo oznacza 90. dzień\nPo 90 dniach jesteś ponad dziesięć tygodni za górną granicą tego typowego ostrego okna. Jeśli wystąpiły klasyczne objawy pierwszej fali—objawy grypopodobne, nudności, zaburzenia równowagi, bezsenność, zaburzenia czucia i nadmierne pobudzenie—zwykle dawno już osłabły lub ustąpiły.\n\nDziewięćdziesiąt mocnych dni\nTrzy miesiące bez TCA to konkretny marker zdrowienia: ostry zespół odstawienny zwykle jest już daleko za tobą. Jeśli wracają istotne objawy depresji, skontaktuj się wcześnie z lekarzem.';
 
   @override
   String get tcaReferenceDay180 =>

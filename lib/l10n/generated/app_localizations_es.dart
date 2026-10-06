@@ -2820,11 +2820,12 @@ class AppLocalizationsEs extends AppLocalizations {
       'Los síntomas típicos de discontinuación de antidepresivos suelen durar de una a dos semanas. A los 30 días, la mayoría de las personas ya ha superado esa fase aguda; los síntomas gripales, las náuseas, el desequilibrio, el insomnio, las alteraciones sensoriales y la hiperactivación suelen haber remitido o desaparecido.';
 
   @override
-  String get tcaMilestone90Title => 'Tres meses: 90 días sin tricíclicos';
+  String get tcaMilestone90Title =>
+      'Tres meses: la retirada aguda quedó muy atrás';
 
   @override
   String get tcaMilestone90Description =>
-      'Noventa días sin un antidepresivo tricíclico son un gran hito. La evidencia más sólida aquí describe el tratamiento a corto plazo, no un calendario fijo de recuperación tras dejarlo. Este hito celebra lo que sí es seguro: tres meses sin tratamiento con tricíclicos.';
+      'Los síntomas típicos de discontinuación de antidepresivos suelen durar de una a dos semanas. A los 90 días, estás más de diez semanas más allá del final de esa ventana aguda habitual; los síntomas gripales, las náuseas, el desequilibrio, el insomnio, las alteraciones sensoriales y la hiperactivación suelen haber remitido o desaparecido hace tiempo.';
 
   @override
   String get tcaMilestone180Title =>
@@ -3647,7 +3648,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get tcaReferenceDay90 =>
-      'Tres meses después de los tricíclicos: 90 días sin tratamiento\n\nLo que muestra la evidencia\nUna revisión sistemática y metaanálisis de 2024 incluyó 103 ensayos aleatorizados con 10.590 participantes. Frente a placebo, los tricíclicos redujeron los síntomas depresivos, pero los acontecimientos adversos graves fueron más frecuentes (odds ratio 2,78; IC del 95%: 2,18–3,55; 35 ensayos). Todos los resultados tenían alto riesgo de sesgo y la certeza de la evidencia era baja o muy baja. Los ensayos midieron los resultados únicamente al final del tratamiento, como máximo 12 semanas después de la aleatorización.\n\nQué significan tres meses\nEsta evidencia no mide serotonina, noradrenalina, acetilcolina, histamina, memoria, estado de ánimo, energía ni motivación tres meses después de dejar el tratamiento. Por tanto, no puede establecer un plazo universal de tres meses para la recuperación neuroquímica o cognitiva.\n\nAun así, tres meses son un hito enorme: 90 días sin tratamiento continuo con tricíclicos. Ese logro se sostiene por sí solo.';
+      'Tres meses después de los tricíclicos: la retirada aguda quedó muy atrás\n\nLa ventana aguda habitual\nWarner y sus colegas informan de que los síntomas de discontinuación de antidepresivos suelen ser leves y durar de una a dos semanas. Los tricíclicos están incluidos explícitamente; los problemas de equilibrio y movimiento pueden ser especialmente característicos tras suspender un TCA.\n\nQué significa el día 90\nA los 90 días, estás más de diez semanas más allá del final de esa ventana aguda habitual. Si tuviste los síntomas clásicos de la primera oleada—síntomas gripales, náuseas, desequilibrio, insomnio, alteraciones sensoriales e hiperactivación—normalmente ya han remitido o desaparecido hace tiempo.\n\nNoventa días fuertes\nTres meses sin TCA son un hito concreto de recuperación: la retirada aguda suele quedar muy atrás. Si reaparecen síntomas depresivos importantes, consulta pronto con tu profesional sanitario.';
 
   @override
   String get tcaReferenceDay180 =>

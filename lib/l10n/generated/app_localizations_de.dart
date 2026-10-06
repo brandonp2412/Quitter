@@ -2801,11 +2801,12 @@ class AppLocalizationsDe extends AppLocalizations {
       'Typische Absetzsymptome von Antidepressiva dauern meist ein bis zwei Wochen. Nach 30 Tagen liegt diese akute Phase für die meisten Menschen hinter ihnen; grippeähnliche Beschwerden, Übelkeit, Gleichgewichtsstörungen, Schlaflosigkeit, sensorische Störungen und Übererregung sind meist deutlich abgeklungen oder verschwunden.';
 
   @override
-  String get tcaMilestone90Title => 'Drei Monate: 90 Tage ohne TCA';
+  String get tcaMilestone90Title =>
+      'Drei Monate: Akuter Entzug weit hinter dir';
 
   @override
   String get tcaMilestone90Description =>
-      'Neunzig Tage ohne TCA sind ein großer Meilenstein. Die stärkste Studienlage hier beschreibt eine kurzfristige Behandlung, keinen festen Erholungszeitplan nach dem Absetzen. Dieser Meilenstein feiert deshalb das, was sicher ist: drei Monate ohne TCA-Behandlung.';
+      'Typische Absetzsymptome von Antidepressiva dauern meist ein bis zwei Wochen. Nach 90 Tagen bist du mehr als zehn Wochen über das obere Ende dieses üblichen akuten Zeitfensters hinaus; grippeähnliche Beschwerden, Übelkeit, Gleichgewichtsstörungen, Schlaflosigkeit, sensorische Störungen und Übererregung sind meist längst abgeklungen oder verschwunden.';
 
   @override
   String get tcaMilestone180Title =>
@@ -3628,7 +3629,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get tcaReferenceDay90 =>
-      'Drei Monate nach TCAs: 90 Tage ohne Behandlung\n\nWas die Evidenz zeigt\nEine systematische Übersichtsarbeit und Meta-Analyse von 2024 umfasste 103 randomisierte Studien mit 10.590 Teilnehmenden. Im Vergleich zu Placebo verringerten TCAs depressive Symptome, schwerwiegende unerwünschte Ereignisse traten jedoch häufiger auf (Odds Ratio 2,78; 95-%-KI 2,18–3,55; 35 Studien). Alle Ergebnisse hatten ein hohes Verzerrungsrisiko, und die Evidenzsicherheit war niedrig oder sehr niedrig. Die Studien erfassten die Endpunkte nur am Ende der Behandlung, spätestens 12 Wochen nach der Randomisierung.\n\nWas drei Monate bedeuten\nDiese Evidenz misst drei Monate nach dem Absetzen weder Serotonin, Noradrenalin, Acetylcholin und Histamin noch Gedächtnis, Stimmung, Energie oder Motivation. Sie kann daher keinen allgemeingültigen Drei-Monats-Zeitpunkt für neurochemische oder kognitive Erholung festlegen.\n\nDrei Monate bleiben ein riesiger Meilenstein: 90 Tage ohne laufende TCA-Behandlung. Diese Leistung steht für sich.';
+      'Drei Monate nach TCA: Akuter Entzug weit hinter dir\n\nDas übliche akute Zeitfenster\nWarner et al. berichten, dass Absetzsymptome von Antidepressiva meist mild sind und ein bis zwei Wochen dauern. Trizyklische Antidepressiva sind ausdrücklich eingeschlossen; Gleichgewichts- und Bewegungsprobleme können nach dem Absetzen besonders typisch sein.\n\nWas Tag 90 bedeutet\nNach 90 Tagen bist du mehr als zehn Wochen über das obere Ende dieses üblichen akuten Zeitfensters hinaus. Wenn du die klassischen ersten Absetzsymptome hattest—grippeähnliche Beschwerden, Übelkeit, Gleichgewichtsstörungen, Schlaflosigkeit, sensorische Störungen und Übererregung—sind sie meist längst abgeklungen oder verschwunden.\n\n90 Tage stark\nDrei Monate ohne TCA sind ein konkreter Erholungsmarker: Der akute Entzug liegt meist weit hinter dir. Wenn deutliche depressive Symptome zurückkehren, wende dich frühzeitig an deine Ärztin oder deinen Arzt.';
 
   @override
   String get tcaReferenceDay180 =>

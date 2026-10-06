@@ -4815,13 +4815,13 @@ abstract class AppLocalizations {
   /// No description provided for @tcaMilestone90Title.
   ///
   /// In en, this message translates to:
-  /// **'Three Months: 90 Days TCA-Free'**
+  /// **'Three Months: Acute Withdrawal Well Behind'**
   String get tcaMilestone90Title;
 
   /// No description provided for @tcaMilestone90Description.
   ///
   /// In en, this message translates to:
-  /// **'Ninety days without a TCA is a serious milestone. The strongest trial evidence here describes short-term treatment, not a fixed post-stop recovery clock, so this milestone celebrates what is certain: three months off TCA treatment.'**
+  /// **'Typical antidepressant discontinuation symptoms usually last one to two weeks. At 90 days, you’re more than ten weeks beyond the upper end of that usual acute window; flu-like symptoms, nausea, imbalance, insomnia, sensory disturbances, and hyperarousal have usually long since eased or resolved.'**
   String get tcaMilestone90Description;
 
   /// No description provided for @tcaMilestone180Title.
@@ -6087,7 +6087,7 @@ abstract class AppLocalizations {
   /// No description provided for @tcaReferenceDay90.
   ///
   /// In en, this message translates to:
-  /// **'Three Months After TCAs: 90 Days Off Treatment\n\nWhat the Evidence Shows\nA 2024 systematic review and meta-analysis included 103 randomised trials with 10,590 participants. Compared with placebo, TCAs reduced depressive symptoms, but serious adverse events were more common (odds ratio 2.78; 95% CI 2.18–3.55; 35 trials). All results were at high risk of bias and the certainty of the evidence was low or very low. The trials measured outcomes only at the end of treatment, no later than 12 weeks after randomisation.\n\nWhat Three Months Means\nThis evidence does not measure serotonin, noradrenaline, acetylcholine, histamine, memory, mood, energy, or motivation three months after stopping. It therefore cannot establish a universal three-month neurochemical or cognitive recovery deadline.\n\nThree months is still a huge milestone: 90 days without ongoing TCA treatment. That achievement stands on its own.'**
+  /// **'Three Months After TCAs: Acute Withdrawal Well Behind\n\nThe Usual Acute Window\nWarner et al. report that antidepressant discontinuation symptoms are usually mild and last one to two weeks. TCAs are explicitly included; balance and movement problems can be especially characteristic after stopping a TCA.\n\nWhat Day 90 Means\nAt 90 days, you are more than ten weeks beyond the upper end of that usual acute window. For people who had classic first-wave symptoms—flu-like symptoms, nausea, imbalance, insomnia, sensory disturbances, and hyperarousal—those symptoms have usually long since eased or resolved.\n\nNinety Days Strong\nThree months TCA-free is a concrete recovery milestone: acute withdrawal is usually well behind you. If significant depressive symptoms are returning, contact your clinician early.'**
   String get tcaReferenceDay90;
 
   /// No description provided for @tcaReferenceDay180.

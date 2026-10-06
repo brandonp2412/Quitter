@@ -98,17 +98,18 @@ class TcaPage extends StatelessWidget {
         title: l10n.tcaMilestone90Title,
         description: l10n.tcaMilestone90Description,
         reference:
-            "PMC - Kamp et al. (2024), BMJ Mental Health — 'Beneficial and harmful effects of tricyclic antidepressants for adults with major depressive disorder'",
-        link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10806869/",
+            "American Family Physician - Warner et al. (2006) — 'Antidepressant Discontinuation Syndrome'",
+        link: "https://www.aafp.org/pubs/afp/issues/2006/0801/p449.html",
         referenceDate: "October 2026",
         localizedReferenceContent: l10n.tcaReferenceDay90,
         referenceContent:
-            "Three Months After TCAs: 90 Days Off Treatment\n\n"
-            "What the Evidence Shows\n"
-            "A 2024 systematic review and meta-analysis included 103 randomised trials with 10,590 participants. Compared with placebo, TCAs reduced depressive symptoms, but serious adverse events were more common (odds ratio 2.78; 95% CI 2.18–3.55; 35 trials). All results were at high risk of bias and the certainty of the evidence was low or very low. The trials measured outcomes only at the end of treatment, no later than 12 weeks after randomisation.\n\n"
-            "What Three Months Means\n"
-            "This evidence does not measure serotonin, noradrenaline, acetylcholine, histamine, memory, mood, energy, or motivation three months after stopping. It therefore cannot establish a universal three-month neurochemical or cognitive recovery deadline.\n\n"
-            "Three months is still a huge milestone: 90 days without ongoing TCA treatment. That achievement stands on its own.",
+            "Three Months After TCAs: Acute Withdrawal Well Behind\n\n"
+            "The Usual Acute Window\n"
+            "Warner et al. report that antidepressant discontinuation symptoms are usually mild and last one to two weeks. TCAs are explicitly included; balance and movement problems can be especially characteristic after stopping a TCA.\n\n"
+            "What Day 90 Means\n"
+            "At 90 days, you are more than ten weeks beyond the upper end of that usual acute window. For people who had classic first-wave symptoms—flu-like symptoms, nausea, imbalance, insomnia, sensory disturbances, and hyperarousal—those symptoms have usually long since eased or resolved.\n\n"
+            "Ninety Days Strong\n"
+            "Three months TCA-free is a concrete recovery milestone: acute withdrawal is usually well behind you. If significant depressive symptoms are returning, contact your clinician early.",
       ),
       QuitMilestone(
         day: 180,

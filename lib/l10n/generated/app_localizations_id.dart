@@ -2788,11 +2788,12 @@ class AppLocalizationsId extends AppLocalizations {
       'Gejala penghentian antidepresan yang khas biasanya berlangsung satu hingga dua minggu. Pada hari ke-30, kebanyakan orang sudah melewati fase akut itu; gejala seperti flu, mual, gangguan keseimbangan, insomnia, gangguan sensorik, dan hiperaktivasi biasanya sudah mereda atau hilang.';
 
   @override
-  String get tcaMilestone90Title => 'Tiga Bulan: 90 Hari Bebas TCA';
+  String get tcaMilestone90Title =>
+      'Tiga Bulan: Fase Akut Sudah Jauh Terlewati';
 
   @override
   String get tcaMilestone90Description =>
-      'Sembilan puluh hari tanpa TCA adalah pencapaian besar. Bukti uji klinis terkuat di sini membahas pengobatan jangka pendek, bukan jadwal pemulihan tetap setelah berhenti. Jadi, pencapaian ini merayakan hal yang pasti: tiga bulan tanpa pengobatan TCA.';
+      'Gejala penghentian antidepresan yang khas biasanya berlangsung satu hingga dua minggu. Pada hari ke-90, Anda sudah lebih dari sepuluh minggu melewati batas atas fase akut yang umum itu; gejala seperti flu, mual, gangguan keseimbangan, insomnia, gangguan sensorik, dan hiperaktivasi biasanya sudah lama mereda atau hilang.';
 
   @override
   String get tcaMilestone180Title =>
@@ -3615,7 +3616,7 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get tcaReferenceDay90 =>
-      'Tiga Bulan Setelah TCA: 90 Hari Tanpa Pengobatan\n\nApa yang Ditunjukkan Bukti\nTinjauan sistematis dan meta-analisis tahun 2024 mencakup 103 uji acak dengan 10.590 peserta. Dibandingkan plasebo, TCA mengurangi gejala depresi, tetapi kejadian tidak diinginkan serius lebih sering terjadi (odds ratio 2,78; IK 95% 2,18–3,55; 35 uji). Semua hasil memiliki risiko bias tinggi dan kepastian buktinya rendah atau sangat rendah. Uji-uji tersebut hanya mengukur hasil pada akhir pengobatan, paling lambat 12 minggu setelah randomisasi.\n\nArti Tiga Bulan\nBukti ini tidak mengukur serotonin, noradrenalin, asetilkolin, histamin, memori, suasana hati, energi, atau motivasi tiga bulan setelah berhenti. Karena itu, bukti ini tidak dapat menetapkan batas waktu universal tiga bulan untuk pemulihan neurokimia atau kognitif.\n\nTiga bulan tetap merupakan pencapaian besar: 90 hari tanpa pengobatan TCA yang berkelanjutan. Pencapaian itu layak dirayakan dengan sendirinya.';
+      'Tiga Bulan Setelah TCA: Fase Akut Sudah Jauh Terlewati\n\nFase Akut yang Umum\nWarner dan rekan melaporkan bahwa gejala penghentian antidepresan biasanya ringan dan berlangsung satu hingga dua minggu. TCA secara eksplisit termasuk dalam ulasan; gangguan keseimbangan dan gerakan dapat menjadi ciri yang lebih khas setelah TCA dihentikan.\n\nArti Hari ke-90\nPada hari ke-90, Anda sudah lebih dari sepuluh minggu melewati batas atas fase akut yang umum itu. Jika Anda mengalami gejala klasik gelombang pertama—gejala seperti flu, mual, gangguan keseimbangan, insomnia, gangguan sensorik, dan hiperaktivasi—gejala tersebut biasanya sudah lama mereda atau hilang.\n\nSembilan Puluh Hari Kuat\nTiga bulan bebas TCA adalah penanda pemulihan yang nyata: fase akut biasanya sudah jauh terlewati. Jika gejala depresi yang bermakna kembali, hubungi tenaga kesehatan Anda lebih awal.';
 
   @override
   String get tcaReferenceDay180 =>

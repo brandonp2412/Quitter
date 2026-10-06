@@ -2818,11 +2818,12 @@ class AppLocalizationsPt extends AppLocalizations {
       'Os sintomas típicos de descontinuação de antidepressivos costumam durar uma a duas semanas. Aos 30 dias, a maioria das pessoas já ultrapassou essa fase aguda; sintomas gripais, náuseas, desequilíbrio, insónia, alterações sensoriais e hiperativação costumam ter diminuído ou desaparecido.';
 
   @override
-  String get tcaMilestone90Title => 'Três meses: 90 dias sem TCA';
+  String get tcaMilestone90Title =>
+      'Três meses: a fase aguda da descontinuação ficou bem para trás';
 
   @override
   String get tcaMilestone90Description =>
-      'Noventa dias sem um TCA são um grande marco. A evidência de ensaios mais forte aqui descreve tratamento de curto prazo, não um calendário fixo de recuperação após a interrupção. Este marco celebra, por isso, o que é certo: três meses sem tratamento com TCA.';
+      'Os sintomas típicos de descontinuação de antidepressivos costumam durar uma a duas semanas. Aos 90 dias, já passaram mais de dez semanas desde o limite superior dessa janela aguda habitual; sintomas gripais, náuseas, desequilíbrio, insónia, alterações sensoriais e hiperativação costumam ter diminuído ou desaparecido há muito.';
 
   @override
   String get tcaMilestone180Title =>
@@ -3645,7 +3646,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get tcaReferenceDay90 =>
-      'Três meses após os TCA: 90 dias sem tratamento\n\nO que mostram as evidências\nUma revisão sistemática e meta-análise de 2024 incluiu 103 ensaios aleatorizados com 10 590 participantes. Em comparação com placebo, os TCA reduziram os sintomas depressivos, mas os acontecimentos adversos graves foram mais frequentes (odds ratio 2,78; IC 95% 2,18–3,55; 35 ensaios). Todos os resultados apresentavam elevado risco de viés e a certeza da evidência era baixa ou muito baixa. Os ensaios mediram os resultados apenas no fim do tratamento, no máximo 12 semanas após a aleatorização.\n\nO que significam três meses\nEsta evidência não mede serotonina, noradrenalina, acetilcolina, histamina, memória, humor, energia ou motivação três meses após a interrupção. Por isso, não pode estabelecer um prazo universal de três meses para recuperação neuroquímica ou cognitiva.\n\nTrês meses continuam a ser um marco enorme: 90 dias sem tratamento contínuo com TCA. Essa conquista vale por si própria.';
+      'Três meses após os TCA: a fase aguda da descontinuação ficou bem para trás\n\nA janela aguda habitual\nWarner e colegas referem que os sintomas de descontinuação de antidepressivos são geralmente ligeiros e duram uma a duas semanas. Os TCA estão explicitamente incluídos; problemas de equilíbrio e movimento podem ser especialmente característicos após a sua suspensão.\n\nO que significa o dia 90\nAos 90 dias, já passaram mais de dez semanas desde o limite superior dessa janela aguda habitual. Se teve os sintomas clássicos da primeira vaga—sintomas gripais, náuseas, desequilíbrio, insónia, alterações sensoriais e hiperativação—estes costumam ter diminuído ou desaparecido há muito.\n\nNoventa dias fortes\nTrês meses sem TCA são um marco concreto de recuperação: a fase aguda da descontinuação costuma estar bem para trás. Se regressarem sintomas depressivos importantes, contacte cedo o seu médico.';
 
   @override
   String get tcaReferenceDay180 =>
@@ -6509,11 +6510,11 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get tcaMilestone90Title =>
-      'Três Meses: Assentamento de Sistemas Químicos Cerebrais';
+      'Três meses: a fase aguda da retirada ficou bem para trás';
 
   @override
   String get tcaMilestone90Description =>
-      'Os TCAs afetam vários sistemas químicos cerebrais. Três meses lhes dão um tempo substancial para se estabelecerem. Humor, pensamento claro e bem-estar físico são notavelmente melhores.';
+      'Os sintomas típicos de descontinuação de antidepressivos costumam durar de uma a duas semanas. Aos 90 dias, já passaram mais de dez semanas desde o limite superior dessa janela aguda habitual; sintomas gripais, náusea, desequilíbrio, insônia, alterações sensoriais e hiperativação geralmente diminuíram ou desapareceram há muito.';
 
   @override
   String get tcaMilestone180Title =>
@@ -7336,7 +7337,7 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get tcaReferenceDay90 =>
-      'Três meses após os ACTs: deixando os riscos reais para trás\n\nO que as evidências mostram\nUma meta-análise de 2024 de 103 ensaios aleatorizados (10.590 participantes) descobriu que, em comparação com o placebo, os ADTs reduzem os sintomas depressivos – mas também apresentam quase o triplo das probabilidades de um evento adverso grave (razão de probabilidades 2,78).Os próprios ensaios apenas acompanharam as pessoas durante até 12 semanas de tratamento, pelo que não existem dados controlados a longo prazo sobre o que acontece após a interrupção. Tudo o que se segue reflecte a compreensão clínica geral da farmacologia do TCA, e não uma descoberta específica das evidências deste ensaio.\n\nA recuperação multissistema\nOs TCAs afetam uma gama mais ampla de sistemas químicos cerebrais do que os ISRS ou SNRIs:\n• Sistema de serotonina: ajuste\n• Sistema de noradrenalina: ajuste\n• Sistema de acetilcolina: voltando ao normal\n• Sistema histamínico: a sedação semelhante ao anti-histamínico foi resolvida\n\nAos três meses, todos esses sistemas tiveram um tempo substancial para se recuperar e – tão importante quanto – o elevado risco de eventos adversos graves que acompanha o tratamento ativo com TCA ficou para trás. Muitas pessoas notam:\n• Melhoria do pensamento claro – especialmente memória e atenção\n• Melhor estabilidade de humor\n• Maior energia e motivação\n• Sedação reduzida e melhor estado de alerta';
+      'Três meses após os TCAs: a fase aguda da retirada ficou bem para trás\n\nA janela aguda habitual\nWarner e colegas relatam que os sintomas de descontinuação de antidepressivos geralmente são leves e duram de uma a duas semanas. Os TCAs estão explicitamente incluídos; problemas de equilíbrio e movimento podem ser especialmente característicos após a interrupção de um TCA.\n\nO que o dia 90 significa\nAos 90 dias, já passaram mais de dez semanas desde o limite superior dessa janela aguda habitual. Se você teve os sintomas clássicos da primeira onda—sintomas gripais, náusea, desequilíbrio, insônia, alterações sensoriais e hiperativação—eles geralmente diminuíram ou desapareceram há muito.\n\nNoventa dias fortes\nTrês meses sem TCA são um marco concreto de recuperação: a fase aguda da retirada geralmente ficou bem para trás. Se sintomas depressivos importantes voltarem, entre em contato cedo com seu médico.';
 
   @override
   String get tcaReferenceDay180 =>
