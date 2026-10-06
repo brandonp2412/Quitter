@@ -2789,7 +2789,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get tcaMilestone14Description =>
-      'Ein TZA-Entzug kann Magen-Darm-Trakt, Schlaf, Körper, Bewegung und Stimmung betreffen; cholinerge und adrenerge Überaktivität werden als mögliche Mechanismen vorgeschlagen. Zwei Wochen ohne TZA sind ein großer Meilenstein, aber die Evidenz belegt keinen festen 14-Tage-Erholungsplan.';
+      'Ein TZA-Entzug kann Magen-Darm-Trakt, Schlaf, Körper, Bewegung und Stimmung betreffen; cholinerge und adrenerge Überaktivität werden als mögliche Mechanismen vorgeschlagen. Zwei Wochen ohne TZA sind ein großer Meilenstein, und die Erholung geht im eigenen Tempo weiter.';
 
   @override
   String get tcaMilestone30Title =>
@@ -3617,7 +3617,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get tcaReferenceDay14 =>
-      'Zwei Wochen nach TZA: Ein echter Meilenstein\n\nWas die Evidenz zeigt\nEine klinische Übersicht zum Absetzen trizyklischer Antidepressiva beschreibt Magen-Darm- und andere körperliche Beschwerden, Schlafstörungen, Bewegungsstörungen und Manie im Zusammenhang mit Entzug. Als mögliche Mechanismen werden cholinerge und adrenerge Überaktivität vorgeschlagen.\n\nKein fester Zwei-Wochen-Reset\nDie Übersicht belegt nicht, dass sich Mundtrockenheit, Verstopfung, Wasserlassen, Sehen, Gedächtnis oder Verarbeitungsgeschwindigkeit nach einem festen 14-Tage-Zeitplan erholen. Entzug verläuft individuell, und manche Symptome können über diesen Meilenstein hinaus anhalten.\n\nVierzehn Tage zählen trotzdem\nTZA-Entzug ist real, aber er läuft nicht nach Stoppuhr. Zwei Wochen ohne TZA sind weiterhin ein großer Meilenstein, auch wenn deine Erholung ihren eigenen Zeitplan hat.';
+      'Zwei Wochen nach TZA: Ein echter Meilenstein\n\nWas die Evidenz zeigt\nEine klinische Übersicht zum Absetzen trizyklischer Antidepressiva beschreibt Magen-Darm- und andere körperliche Beschwerden, Schlafstörungen, Bewegungsstörungen und Manie im Zusammenhang mit Entzug. Als mögliche Mechanismen werden cholinerge und adrenerge Überaktivität vorgeschlagen.\n\nDie Erholung geht weiter\nTZA-Entzug verläuft von Mensch zu Mensch unterschiedlich. Art und Stärke der Symptome können variieren, und die Erholung geht im eigenen Tempo weiter, während sich der Körper nach dem Absetzen anpasst.\n\nVierzehn starke Tage\nZwei Wochen ohne TZA sind ein großer Meilenstein. Dein Körper hatte vierzehn Tage mehr Zeit zur Anpassung, und jeder Tag schafft mehr Abstand zur fortlaufenden TZA-Exposition.';
 
   @override
   String get tcaReferenceDay30 =>

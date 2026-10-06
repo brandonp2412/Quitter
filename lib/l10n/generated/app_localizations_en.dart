@@ -2733,7 +2733,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get tcaMilestone14Description =>
-      'TCA withdrawal can hit the gut, sleep, body, movement, and mood; cholinergic and adrenergic rebound are proposed mechanisms. Two weeks off is a huge milestone, but the evidence does not establish a fixed 14-day recovery clock.';
+      'TCA withdrawal can hit the gut, sleep, body, movement, and mood; cholinergic and adrenergic rebound are proposed mechanisms. Two weeks off is a huge milestone, and recovery keeps moving on its own timeline.';
 
   @override
   String get tcaMilestone30Title =>
@@ -3559,7 +3559,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get tcaReferenceDay14 =>
-      'Two Weeks After TCAs: A Real Milestone\n\nWhat the Evidence Shows\nA clinical review of TCA discontinuation found that gastrointestinal and other physical distress, sleep disturbance, movement disorders, and mania have been linked to withdrawal. Cholinergic and adrenergic overdrive are proposed mechanisms.\n\nNo Fixed Two-Week Reset\nThe review does not establish that dry mouth, constipation, urination, vision, memory, or processing speed recover on a 14-day schedule. Withdrawal can vary from person to person, and some symptoms may outlast this milestone.\n\nFourteen Days Still Counts\nTCA withdrawal is real, but it does not run on a stopwatch. Two weeks TCA-free is still a huge milestone even if your recovery is moving on its own timeline.';
+      'Two Weeks After TCAs: A Real Milestone\n\nWhat the Evidence Shows\nA clinical review of TCA discontinuation found that gastrointestinal and other physical distress, sleep disturbance, movement disorders, and mania have been linked to withdrawal. Cholinergic and adrenergic overdrive are proposed mechanisms.\n\nRecovery Keeps Moving\nTCA withdrawal varies from person to person. The mix and intensity of symptoms can differ, and recovery continues at its own pace as the body adjusts after discontinuation.\n\nFourteen Days Strong\nTwo weeks TCA-free is a huge milestone. You have given your body fourteen days to keep adjusting, and every day adds more distance from ongoing TCA exposure.';
 
   @override
   String get tcaReferenceDay30 =>

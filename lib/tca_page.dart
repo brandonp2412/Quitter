@@ -70,10 +70,10 @@ class TcaPage extends StatelessWidget {
             "Two Weeks After TCAs: A Real Milestone\n\n"
             "What the Evidence Shows\n"
             "A clinical review of TCA discontinuation found that gastrointestinal and other physical distress, sleep disturbance, movement disorders, and mania have been linked to withdrawal. Cholinergic and adrenergic overdrive are proposed mechanisms.\n\n"
-            "No Fixed Two-Week Reset\n"
-            "The review does not establish that dry mouth, constipation, urination, vision, memory, or processing speed recover on a 14-day schedule. Withdrawal can vary from person to person, and some symptoms may outlast this milestone.\n\n"
-            "Fourteen Days Still Counts\n"
-            "TCA withdrawal is real, but it does not run on a stopwatch. Two weeks TCA-free is still a huge milestone even if your recovery is moving on its own timeline.",
+            "Recovery Keeps Moving\n"
+            "TCA withdrawal varies from person to person. The mix and intensity of symptoms can differ, and recovery continues at its own pace as the body adjusts after discontinuation.\n\n"
+            "Fourteen Days Strong\n"
+            "Two weeks TCA-free is a huge milestone. You have given your body fourteen days to keep adjusting, and every day adds more distance from ongoing TCA exposure.",
       ),
       QuitMilestone(
         day: 30,

@@ -2776,7 +2776,7 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get tcaMilestone14Description =>
-      'Putus TCA dapat memengaruhi pencernaan, tidur, tubuh, gerakan, dan suasana hati; aktivitas kolinergik dan adrenergik yang berlebihan diusulkan sebagai mekanisme. Dua minggu tanpa TCA adalah pencapaian besar, tetapi bukti tidak menetapkan jadwal pemulihan tetap selama 14 hari.';
+      'Putus TCA dapat memengaruhi pencernaan, tidur, tubuh, gerakan, dan suasana hati; aktivitas kolinergik dan adrenergik yang berlebihan diusulkan sebagai mekanisme. Dua minggu tanpa TCA adalah pencapaian besar, dan pemulihan terus bergerak dengan ritmenya sendiri.';
 
   @override
   String get tcaMilestone30Title =>
@@ -3605,7 +3605,7 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get tcaReferenceDay14 =>
-      'Dua Minggu Setelah TCA: Pencapaian Nyata\n\nApa yang Ditunjukkan Bukti\nSebuah tinjauan klinis tentang penghentian antidepresan trisiklik menemukan bahwa gangguan pencernaan dan keluhan fisik lain, gangguan tidur, gangguan gerakan, serta mania telah dikaitkan dengan putus obat. Aktivitas kolinergik dan adrenergik yang berlebihan diusulkan sebagai mekanisme.\n\nTidak Ada Reset Pasti dalam Dua Minggu\nTinjauan tersebut tidak menetapkan bahwa mulut kering, sembelit, fungsi berkemih, penglihatan, ingatan, atau kecepatan pemrosesan pulih menurut jadwal tetap 14 hari. Putus obat berbeda pada tiap orang dan sebagian gejala dapat bertahan melewati pencapaian ini.\n\nEmpat Belas Hari Tetap Berarti\nPutus TCA itu nyata, tetapi tidak berjalan dengan stopwatch. Dua minggu tanpa TCA tetap merupakan pencapaian besar meskipun pemulihanmu bergerak sesuai ritmenya sendiri.';
+      'Dua Minggu Setelah TCA: Pencapaian Nyata\n\nApa yang Ditunjukkan Bukti\nSebuah tinjauan klinis tentang penghentian antidepresan trisiklik menemukan bahwa gangguan pencernaan dan keluhan fisik lain, gangguan tidur, gangguan gerakan, serta mania telah dikaitkan dengan putus obat. Aktivitas kolinergik dan adrenergik yang berlebihan diusulkan sebagai mekanisme.\n\nPemulihan Terus Bergerak\nPutus TCA berbeda pada tiap orang. Campuran dan intensitas gejala dapat berbeda, dan pemulihan terus bergerak dengan ritmenya sendiri saat tubuh menyesuaikan diri setelah penghentian.\n\nEmpat Belas Hari Kuat\nDua minggu tanpa TCA adalah pencapaian besar. Tubuhmu sudah mendapat empat belas hari untuk terus menyesuaikan diri, dan setiap hari menambah jarak dari paparan TCA yang berkelanjutan.';
 
   @override
   String get tcaReferenceDay30 =>

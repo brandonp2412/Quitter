@@ -2806,7 +2806,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get tcaMilestone14Description =>
-      'A retirada dos antidepressivos tricíclicos pode afetar o intestino, o sono, o corpo, o movimento e o humor; a hiperatividade colinérgica e adrenérgica é proposta como mecanismo. Duas semanas sem o medicamento são um grande marco, mas a evidência não estabelece um calendário fixo de recuperação de 14 dias.';
+      'A retirada dos antidepressivos tricíclicos pode afetar o intestino, o sono, o corpo, o movimento e o humor; a hiperatividade colinérgica e adrenérgica é proposta como mecanismo. Duas semanas sem o medicamento são um grande marco, e a recuperação continua ao seu próprio ritmo.';
 
   @override
   String get tcaMilestone30Title =>
@@ -3636,7 +3636,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get tcaReferenceDay14 =>
-      'Duas semanas após os tricíclicos: um marco real\n\nO que mostram as evidências\nUma revisão clínica sobre a interrupção de antidepressivos tricíclicos encontrou associação entre a retirada e desconforto gastrointestinal e outros sintomas físicos, perturbações do sono, perturbações do movimento e mania. A hiperatividade colinérgica e adrenérgica é proposta como mecanismo.\n\nNão existe um reset fixo em duas semanas\nA revisão não estabelece que boca seca, obstipação, micção, visão, memória ou velocidade de processamento recuperem segundo um calendário fixo de 14 dias. A retirada varia entre pessoas e alguns sintomas podem durar para além deste marco.\n\nCatorze dias continuam a contar\nA retirada de tricíclicos é real, mas não funciona com cronómetro. Duas semanas sem tricíclicos continuam a ser um grande marco, mesmo que a tua recuperação siga o seu próprio ritmo.';
+      'Duas semanas após os tricíclicos: um marco real\n\nO que mostram as evidências\nUma revisão clínica sobre a interrupção de antidepressivos tricíclicos encontrou associação entre a retirada e desconforto gastrointestinal e outros sintomas físicos, perturbações do sono, perturbações do movimento e mania. A hiperatividade colinérgica e adrenérgica é proposta como mecanismo.\n\nA recuperação continua\nA retirada de tricíclicos varia de pessoa para pessoa. A combinação e a intensidade dos sintomas podem ser diferentes, e a recuperação continua ao seu próprio ritmo enquanto o corpo se adapta após a interrupção.\n\nCatorze dias fortes\nDuas semanas sem tricíclicos são um grande marco. O teu corpo teve catorze dias para continuar a adaptar-se, e cada dia aumenta a distância da exposição contínua ao medicamento.';
 
   @override
   String get tcaReferenceDay30 =>
@@ -6554,12 +6554,11 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
       'O rebote da acetilcolina geralmente atinge o pico nos primeiros dias e começa a diminuir em uma semana. Os sintomas estomacais, a sudorese e a sensação de gripe estão diminuindo, enquanto os sistemas do corpo que controlam a frequência cardíaca, a digestão e a sudorese voltam ao normal.';
 
   @override
-  String get tcaMilestone14Title =>
-      'Duas semanas: reversão dos efeitos anticolinérgicos';
+  String get tcaMilestone14Title => 'Duas semanas: 14 dias sem tricíclicos';
 
   @override
   String get tcaMilestone14Description =>
-      'A boca seca, a prisão de ventre, a dificuldade para urinar e a visão turva causadas pelos ADTs são revertidas à medida que o sistema de acetilcolina se recupera. A memória e a atenção também costumam parecer mais claras.';
+      'A retirada dos antidepressivos tricíclicos pode afetar o intestino, o sono, o corpo, os movimentos e o humor; a hiperatividade colinérgica e adrenérgica é proposta como mecanismo. Duas semanas sem o medicamento são um grande marco, e a recuperação segue avançando no seu próprio ritmo.';
 
   @override
   String get tcaMilestone30Title =>
@@ -7390,7 +7389,7 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get tcaReferenceDay14 =>
-      'Duas semanas após os ADTs: reversão dos efeitos da antiacetilcolina\n\nOs elevadores de carga antiacetilcolina\nOs TCAs impõem efeitos significativos de bloqueio da acetilcolina no corpo que afetam vários sistemas. À medida que esse fardo diminui nas primeiras duas semanas:\n\nBenefícios físicos\n• Resolução da boca seca — função das glândulas salivares retornando ao normal\n• Resolução da constipação – motilidade intestinal restaurada naturalmente\n• Normalização da função urinária – a retenção urinária que os ADTs podem causar está desaparecendo\n• Limpeza da visão turva — olhos se ajustando normalmente à luz novamente\n\nBenefícios de pensamento e memória\nA acetilcolina é essencial para memória, atenção e aprendizagem. As vias da acetilcolina suprimidas pelos TCAs estão se recuperando:\n• Melhoria da memória de trabalho\n• Aumento da velocidade de processamento\n• Clareza mental retornando\n\nMuitas pessoas ficam surpresas com a quantidade de confusão mental e problemas de memória aos quais se adaptaram enquanto tomavam ADTs.';
+      'Duas semanas após os tricíclicos: um marco real\n\nO que mostram as evidências\nUma revisão clínica sobre a interrupção de antidepressivos tricíclicos encontrou associação entre a retirada e desconforto gastrointestinal e outros sintomas físicos, distúrbios do sono, distúrbios do movimento e mania. A hiperatividade colinérgica e adrenérgica é proposta como mecanismo.\n\nA recuperação segue avançando\nA retirada de tricíclicos varia de pessoa para pessoa. A combinação e a intensidade dos sintomas podem ser diferentes, e a recuperação continua no seu próprio ritmo enquanto o corpo se adapta após a interrupção.\n\nCatorze dias fortes\nDuas semanas sem tricíclicos são um grande marco. Seu corpo teve catorze dias para continuar se adaptando, e cada dia aumenta a distância da exposição contínua ao medicamento.';
 
   @override
   String get tcaReferenceDay30 =>

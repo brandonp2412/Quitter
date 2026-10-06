@@ -2808,7 +2808,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get tcaMilestone14Description =>
-      'La retirada de los antidepresivos tricíclicos puede afectar al aparato digestivo, el sueño, el cuerpo, el movimiento y el ánimo; se proponen el rebote colinérgico y adrenérgico como mecanismos. Dos semanas sin ellos es un gran hito, pero la evidencia no establece un calendario fijo de recuperación de 14 días.';
+      'La retirada de los antidepresivos tricíclicos puede afectar al aparato digestivo, el sueño, el cuerpo, el movimiento y el ánimo; se proponen la hiperactividad colinérgica y adrenérgica como mecanismos. Dos semanas sin ellos es un gran hito, y la recuperación sigue avanzando a su propio ritmo.';
 
   @override
   String get tcaMilestone30Title =>
@@ -3638,7 +3638,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get tcaReferenceDay14 =>
-      'Dos semanas después de los tricíclicos: un hito real\n\nLo que muestra la evidencia\nUna revisión clínica sobre la retirada de antidepresivos tricíclicos encontró que el malestar gastrointestinal y otros síntomas físicos, los trastornos del sueño, los trastornos del movimiento y la manía se han relacionado con la retirada. Se proponen la hiperactividad colinérgica y adrenérgica como mecanismos.\n\nNo existe un reinicio fijo a las dos semanas\nLa revisión no demuestra que la sequedad de boca, el estreñimiento, la micción, la visión, la memoria o la velocidad de procesamiento se recuperen según un calendario de 14 días. La retirada varía entre personas y algunos síntomas pueden durar más que este hito.\n\nCatorce días siguen contando\nLa retirada de tricíclicos es real, pero no funciona con cronómetro. Dos semanas sin tricíclicos siguen siendo un gran hito aunque tu recuperación avance a su propio ritmo.';
+      'Dos semanas después de los tricíclicos: un hito real\n\nLo que muestra la evidencia\nUna revisión clínica sobre la retirada de antidepresivos tricíclicos encontró que el malestar gastrointestinal y otros síntomas físicos, los trastornos del sueño, los trastornos del movimiento y la manía se han relacionado con la retirada. Se proponen la hiperactividad colinérgica y adrenérgica como mecanismos.\n\nLa recuperación sigue avanzando\nLa retirada de tricíclicos varía de una persona a otra. La combinación y la intensidad de los síntomas pueden ser diferentes, y la recuperación continúa a su propio ritmo mientras el cuerpo se adapta tras la retirada.\n\nCatorce días fuertes\nDos semanas sin tricíclicos es un gran hito. Le has dado a tu cuerpo catorce días para seguir adaptándose, y cada día añade más distancia de la exposición continua al medicamento.';
 
   @override
   String get tcaReferenceDay30 =>

@@ -2838,7 +2838,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get tcaMilestone14Description =>
-      'Le sevrage des antidépresseurs tricycliques peut toucher l’intestin, le sommeil, le corps, les mouvements et l’humeur ; une hyperactivité cholinergique et adrénergique est proposée comme mécanisme. Deux semaines sans traitement, c’est une étape majeure, mais les données n’établissent pas de calendrier fixe de récupération à 14 jours.';
+      'Le sevrage des antidépresseurs tricycliques peut toucher l’intestin, le sommeil, le corps, les mouvements et l’humeur ; une hyperactivité cholinergique et adrénergique est proposée comme mécanisme. Deux semaines sans traitement, c’est une étape majeure, et la récupération continue à son propre rythme.';
 
   @override
   String get tcaMilestone30Title =>
@@ -3669,7 +3669,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get tcaReferenceDay14 =>
-      'Deux semaines après les tricycliques : une vraie étape\n\nCe que montrent les données\nUne revue clinique de l’arrêt des antidépresseurs tricycliques a associé au sevrage des troubles gastro-intestinaux et d’autres symptômes physiques, des troubles du sommeil, des troubles du mouvement et des épisodes maniaques. Une hyperactivité cholinergique et adrénergique est proposée comme mécanisme.\n\nPas de remise à zéro fixe en deux semaines\nLa revue n’établit pas que la bouche sèche, la constipation, la miction, la vision, la mémoire ou la vitesse de traitement récupèrent selon un calendrier fixe de 14 jours. Le sevrage varie d’une personne à l’autre et certains symptômes peuvent dépasser cette étape.\n\nQuatorze jours, ça compte toujours\nLe sevrage des tricycliques est réel, mais il ne fonctionne pas au chronomètre. Deux semaines sans tricycliques restent une étape majeure, même si ta récupération suit son propre rythme.';
+      'Deux semaines après les tricycliques : une vraie étape\n\nCe que montrent les données\nUne revue clinique de l’arrêt des antidépresseurs tricycliques a associé au sevrage des troubles gastro-intestinaux et d’autres symptômes physiques, des troubles du sommeil, des troubles du mouvement et des épisodes maniaques. Une hyperactivité cholinergique et adrénergique est proposée comme mécanisme.\n\nLa récupération continue\nLe sevrage des tricycliques varie d’une personne à l’autre. Le mélange et l’intensité des symptômes peuvent différer, et la récupération continue à son propre rythme pendant que le corps s’adapte après l’arrêt.\n\nQuatorze jours solides\nDeux semaines sans tricycliques, c’est une étape majeure. Ton corps a eu quatorze jours de plus pour s’adapter, et chaque jour augmente la distance avec l’exposition continue au traitement.';
 
   @override
   String get tcaReferenceDay30 =>

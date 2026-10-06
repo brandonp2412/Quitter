@@ -2800,7 +2800,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get tcaMilestone14Description =>
-      'Odstawienie trójpierścieniowych leków przeciwdepresyjnych może wpływać na przewód pokarmowy, sen, ciało, ruch i nastrój; jako możliwe mechanizmy proponuje się nadmierną aktywność cholinergiczną i adrenergiczną. Dwa tygodnie bez leku to wielki kamień milowy, ale dowody nie ustalają stałego 14-dniowego harmonogramu powrotu do zdrowia.';
+      'Odstawienie trójpierścieniowych leków przeciwdepresyjnych może wpływać na przewód pokarmowy, sen, ciało, ruch i nastrój; jako możliwe mechanizmy proponuje się nadmierną aktywność cholinergiczną i adrenergiczną. Dwa tygodnie bez leku to wielki kamień milowy, a regeneracja idzie dalej we własnym tempie.';
 
   @override
   String get tcaMilestone30Title =>
@@ -3630,7 +3630,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get tcaReferenceDay14 =>
-      'Dwa tygodnie po TLPD: prawdziwy kamień milowy\n\nCo pokazują dowody\nPrzegląd kliniczny dotyczący odstawiania trójpierścieniowych leków przeciwdepresyjnych wskazuje, że z odstawieniem wiązano dolegliwości żołądkowo-jelitowe i inne objawy fizyczne, zaburzenia snu, zaburzenia ruchowe oraz manię. Jako możliwe mechanizmy proponuje się nadmierną aktywność cholinergiczną i adrenergiczną.\n\nNie ma stałego dwutygodniowego resetu\nPrzegląd nie wykazuje, że suchość w ustach, zaparcia, oddawanie moczu, wzrok, pamięć lub szybkość przetwarzania wracają do normy według stałego 14-dniowego harmonogramu. Przebieg odstawienia różni się między osobami, a część objawów może trwać dłużej niż ten kamień milowy.\n\nCzternaście dni nadal się liczy\nOdstawienie TLPD jest realne, ale nie działa jak stoper. Dwa tygodnie bez TLPD to nadal wielki kamień milowy, nawet jeśli twoja regeneracja ma własne tempo.';
+      'Dwa tygodnie po TLPD: prawdziwy kamień milowy\n\nCo pokazują dowody\nPrzegląd kliniczny dotyczący odstawiania trójpierścieniowych leków przeciwdepresyjnych wskazuje, że z odstawieniem wiązano dolegliwości żołądkowo-jelitowe i inne objawy fizyczne, zaburzenia snu, zaburzenia ruchowe oraz manię. Jako możliwe mechanizmy proponuje się nadmierną aktywność cholinergiczną i adrenergiczną.\n\nRegeneracja trwa dalej\nOdstawienie TLPD przebiega różnie u różnych osób. Zestaw i nasilenie objawów mogą się różnić, a regeneracja trwa we własnym tempie, gdy organizm przystosowuje się po odstawieniu.\n\nCzternaście mocnych dni\nDwa tygodnie bez TLPD to wielki kamień milowy. Twój organizm miał czternaście dni na dalszą adaptację, a każdy dzień zwiększa dystans od ciągłej ekspozycji na lek.';
 
   @override
   String get tcaReferenceDay30 =>
