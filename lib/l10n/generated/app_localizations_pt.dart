@@ -2802,11 +2802,12 @@ class AppLocalizationsPt extends AppLocalizations {
       'A descontinuação costuma começar em poucos dias e muitas vezes dura algumas semanas. Ao fim de uma semana, náuseas, suor, problemas de sono, palpitações e tonturas ainda podem estar presentes. Sete dias são progresso real, e a recuperação pode continuar a ritmos diferentes.';
 
   @override
-  String get tcaMilestone14Title => 'Duas semanas: 14 dias sem tricíclicos';
+  String get tcaMilestone14Title =>
+      'Duas semanas: a retirada aguda costuma estar a aliviar';
 
   @override
   String get tcaMilestone14Description =>
-      'A retirada dos antidepressivos tricíclicos pode afetar o intestino, o sono, o corpo, o movimento e o humor; a hiperatividade colinérgica e adrenérgica é proposta como mecanismo. Duas semanas sem o medicamento são um grande marco, e a recuperação continua ao seu próprio ritmo.';
+      'Sintomas típicos da retirada de antidepressivos, como náuseas, insónia, desequilíbrio, alterações sensoriais e hiperativação, costumam durar uma a duas semanas. Ao dia 14, muitas pessoas estão a chegar ao fim desta fase aguda.';
 
   @override
   String get tcaMilestone30Title =>
@@ -3636,7 +3637,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get tcaReferenceDay14 =>
-      'Duas semanas após os tricíclicos: um marco real\n\nO que mostram as evidências\nUma revisão clínica sobre a interrupção de antidepressivos tricíclicos encontrou associação entre a retirada e desconforto gastrointestinal e outros sintomas físicos, perturbações do sono, perturbações do movimento e mania. A hiperatividade colinérgica e adrenérgica é proposta como mecanismo.\n\nA recuperação continua\nA retirada de tricíclicos varia de pessoa para pessoa. A combinação e a intensidade dos sintomas podem ser diferentes, e a recuperação continua ao seu próprio ritmo enquanto o corpo se adapta após a interrupção.\n\nCatorze dias fortes\nDuas semanas sem tricíclicos são um grande marco. O teu corpo teve catorze dias para continuar a adaptar-se, e cada dia aumenta a distância da exposição contínua ao medicamento.';
+      'Duas semanas após os tricíclicos: a retirada aguda costuma estar a aliviar\n\nA janela aguda habitual\nUma revisão clínica da síndrome de retirada de antidepressivos relata que sintomas típicos — incluindo sintomas tipo gripe, insónia, náuseas, desequilíbrio, alterações sensoriais e hiperativação — costumam durar uma a duas semanas.\n\nO que significa o dia 14\nAo fim de duas semanas, muitas pessoas estão a chegar ao fim da fase clássica de retirada aguda. Os sintomas da primeira vaga costumam estar bastante mais leves nesta altura.\n\nCatorze dias sem tricíclicos\nIsto torna o dia 14 num verdadeiro marco de recuperação: a vaga aguda costuma estar a quebrar e a fase inicial mais dura começa a ficar para trás.';
 
   @override
   String get tcaReferenceDay30 =>
@@ -5896,69 +5897,6 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
       'Cinco anos de vitória!O risco de câncer de boca, garganta, esôfago e bexiga caiu pela metade. O risco de câncer de pulmão também diminuiu significativamente. Suas células tiveram tempo para se reparar e se regenerar.';
 
   @override
-  String get vapingMilestone1Title => 'Pico do desejo por nicotina';
-
-  @override
-  String get vapingMilestone1Description =>
-      'Seu cérebro está fazendo birra de nicotina, mas você já está ganhando!Dentro de 24 horas, os níveis de nicotina caem drasticamente. Os piores desejos acontecem agora, mas também são os mais importantes para superar.';
-
-  @override
-  String get vapingMilestone3Title => 'A respiração melhora';
-
-  @override
-  String get vapingMilestone3Description =>
-      'Seus pulmões estão dançando alegremente!Os tubos brônquicos começam a relaxar e a capacidade pulmonar começa a melhorar. Aquela sensação de aperto no peito por causa da vaporização já está começando a diminuir.';
-
-  @override
-  String get vapingMilestone7Title => 'Retorno de sabor e cheiro';
-
-  @override
-  String get vapingMilestone7Description =>
-      'A comida está prestes a ficar deliciosa novamente!A nicotina amortece as papilas gustativas e os receptores olfativos. Uma semana depois, seus superpoderes sensoriais estão fazendo sua turnê de retorno.';
-
-  @override
-  String get vapingMilestone14Title => 'A circulação melhora';
-
-  @override
-  String get vapingMilestone14Description =>
-      'Seu sangue está fluindo como um campeão!A nicotina contrai os vasos sanguíneos, mas duas semanas sem fumar e a sua circulação melhora dramaticamente. Mãos e pés frios, vá embora!';
-
-  @override
-  String get vapingMilestone30Title => 'Recuperação da Função Pulmonar';
-
-  @override
-  String get vapingMilestone30Description =>
-      'Seus pulmões estão praticamente fazendo um desfile de comemoração!Os cílios (pequenos limpadores de pulmões) se regeneraram e a função pulmonar melhorou significativamente. Aquela tosse matinal é história!';
-
-  @override
-  String get vapingMilestone60Title => 'Níveis de ansiedade normalizam';
-
-  @override
-  String get vapingMilestone60Description =>
-      'Reviravolta na história: vaporizar estava piorando a ansiedade, não melhorando!Dois meses depois, seu nível habitual de ansiedade está mais baixo e seu sistema nervoso está se acalmando.';
-
-  @override
-  String get vapingMilestone90Title => 'Foco e memória nítida';
-
-  @override
-  String get vapingMilestone90Description =>
-      'A névoa cerebral saiu do prédio!Três meses sem nicotina e seu foco, memória e pensamento claro ficarão notavelmente melhores. É como atualizar sua RAM mental.';
-
-  @override
-  String get vapingMilestone180Title => 'Recuperação da saúde bucal';
-
-  @override
-  String get vapingMilestone180Description =>
-      'Sua boca está enviando cartões de agradecimento!Seis meses sem vape e a inflamação das gengivas diminui, as manchas nos dentes desaparecem e o risco de problemas de saúde bucal diminui substancialmente.';
-
-  @override
-  String get vapingMilestone365Title => 'Redução de Risco Cardiovascular';
-
-  @override
-  String get vapingMilestone365Description =>
-      'Seu coração está literalmente mais forte!Um ano inteiro e o risco de doenças cardíacas caiu significativamente. Seu sistema cardiovascular se recuperou do ataque diário da nicotina.';
-
-  @override
   String get marijuanaMilestone1Title => 'Começam os sintomas de abstinência';
 
   @override
@@ -6554,11 +6492,12 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
       'O rebote da acetilcolina geralmente atinge o pico nos primeiros dias e começa a diminuir em uma semana. Os sintomas estomacais, a sudorese e a sensação de gripe estão diminuindo, enquanto os sistemas do corpo que controlam a frequência cardíaca, a digestão e a sudorese voltam ao normal.';
 
   @override
-  String get tcaMilestone14Title => 'Duas semanas: 14 dias sem tricíclicos';
+  String get tcaMilestone14Title =>
+      'Duas semanas: a retirada aguda costuma estar diminuindo';
 
   @override
   String get tcaMilestone14Description =>
-      'A retirada dos antidepressivos tricíclicos pode afetar o intestino, o sono, o corpo, os movimentos e o humor; a hiperatividade colinérgica e adrenérgica é proposta como mecanismo. Duas semanas sem o medicamento são um grande marco, e a recuperação segue avançando no seu próprio ritmo.';
+      'Sintomas típicos da retirada de antidepressivos, como náusea, insônia, desequilíbrio, alterações sensoriais e hiperativação, costumam durar de uma a duas semanas. No dia 14, muitas pessoas estão chegando ao fim dessa fase aguda.';
 
   @override
   String get tcaMilestone30Title =>
@@ -7389,7 +7328,7 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get tcaReferenceDay14 =>
-      'Duas semanas após os tricíclicos: um marco real\n\nO que mostram as evidências\nUma revisão clínica sobre a interrupção de antidepressivos tricíclicos encontrou associação entre a retirada e desconforto gastrointestinal e outros sintomas físicos, distúrbios do sono, distúrbios do movimento e mania. A hiperatividade colinérgica e adrenérgica é proposta como mecanismo.\n\nA recuperação segue avançando\nA retirada de tricíclicos varia de pessoa para pessoa. A combinação e a intensidade dos sintomas podem ser diferentes, e a recuperação continua no seu próprio ritmo enquanto o corpo se adapta após a interrupção.\n\nCatorze dias fortes\nDuas semanas sem tricíclicos são um grande marco. Seu corpo teve catorze dias para continuar se adaptando, e cada dia aumenta a distância da exposição contínua ao medicamento.';
+      'Duas semanas após os tricíclicos: a retirada aguda costuma estar diminuindo\n\nA janela aguda habitual\nUma revisão clínica da síndrome de retirada de antidepressivos relata que sintomas típicos — incluindo sintomas parecidos com gripe, insônia, náusea, desequilíbrio, alterações sensoriais e hiperativação — costumam durar de uma a duas semanas.\n\nO que significa o dia 14\nCom duas semanas, muitas pessoas estão chegando ao fim da fase clássica de retirada aguda. Os sintomas da primeira onda costumam estar bem mais leves nesse ponto.\n\nCatorze dias sem tricíclicos\nIsso faz do dia 14 um marco real de recuperação: a onda aguda costuma estar quebrando e o trecho inicial mais pesado começa a ficar para trás.';
 
   @override
   String get tcaReferenceDay30 =>

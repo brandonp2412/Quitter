@@ -435,6 +435,14 @@ class AppLocalizationsKo extends AppLocalizations {
       '6개월간 합성 칸나비노이드를 사용하지 마세요. 금단 증상은 오랫동안 해결되었으며 이러한 약물의 심각한 위험은 사라졌습니다.';
 
   @override
+  String get synthetic_cannabinoidsWithdrawalReference =>
+      'Synthetic Cannabinoid Withdrawal\n\nSource: Craft et al. (2022), Psychopharmacology, PMC\n\nIn 284 people who had used synthetic cannabinoid receptor agonists more than 10 times in the previous year and tried to stop, 82.7% reported at least one withdrawal symptom after more than a day without use. Sleep problems (59.2%), irritability (55.6%), and low mood (54.2%) were most common; sweating, palpitations, craving, agitation, and shakiness were also reported. More frequent and heavier use was linked to more symptoms. Among participants who compared both drugs, synthetic-cannabinoid withdrawal was rated more severe than withdrawal from high-potency cannabis.';
+
+  @override
+  String get synthetic_cannabinoidsRiskReference =>
+      'Synthetic Cannabinoid Withdrawal and Acute Risk\n\nSource: Cooper (2016), Current Psychiatry Reports, PMC\n\nClinical reports describe withdrawal after daily synthetic-cannabinoid use occurring soon after the last dose, with severe anxiety, insomnia, nausea and vomiting, sweating, palpitations, tremor, agitation, and cravings. Severe cases have included recurring seizures and cardiovascular or breathing problems. The review also describes synthetic-cannabinoid intoxication as unpredictable and sometimes severe, including psychosis, seizures, cardiac events, and kidney injury. Severe or escalating symptoms need prompt medical assessment.';
+
+  @override
   String get mdmaPageTitle => 'MDMA 복구';
 
   @override
@@ -2087,69 +2095,6 @@ class AppLocalizationsKo extends AppLocalizations {
       '5년의 승리! 구강암, 인후암, 식도암, 방광암 발병 위험이 절반으로 감소했습니다. 폐암 위험도 크게 감소했습니다. 당신의 세포는 수리하고 재생될 시간을 가졌습니다.';
 
   @override
-  String get vapingMilestone1Title => '니코틴 갈망 최고치';
-
-  @override
-  String get vapingMilestone1Description =>
-      '당신의 두뇌는 니코틴 짜증을 내고 있지만 당신은 이미 승리하고 있습니다! 24시간 이내에 니코틴 수치가 급격히 떨어집니다. 최악의 갈망은 지금 발생하지만, 이를 극복하는 것이 가장 중요하기도 합니다.';
-
-  @override
-  String get vapingMilestone3Title => '호흡이 좋아진다';
-
-  @override
-  String get vapingMilestone3Description =>
-      '당신의 폐는 행복한 춤을 추고 있습니다! 기관지가 이완되기 시작하고 폐활량이 향상되기 시작합니다. 베이핑으로 인해 답답했던 가슴의 느낌이 이미 완화되기 시작했습니다.';
-
-  @override
-  String get vapingMilestone7Title => '맛과 냄새의 반환';
-
-  @override
-  String get vapingMilestone7Description =>
-      '음식이 다시금 맛있어질 것 같아요! 니코틴은 미뢰와 후각 수용체를 약화시킵니다. 일주일이 지나면 당신의 초능력 감각이 컴백 투어를 시작합니다.';
-
-  @override
-  String get vapingMilestone14Title => '순환이 개선됩니다';
-
-  @override
-  String get vapingMilestone14Description =>
-      '당신의 피는 챔피언처럼 흐르고 있습니다! 니코틴은 혈관을 수축하지만 2주 동안 금연을 하면 혈액 순환이 극적으로 좋아집니다. 차가운 손발, 물러가세요!';
-
-  @override
-  String get vapingMilestone30Title => '폐 기능 회복';
-
-  @override
-  String get vapingMilestone30Description =>
-      '당신의 폐는 사실상 축하 퍼레이드를 펼치고 있습니다! 섬모(작은 폐 청소부)가 재생되고 폐 기능이 크게 향상되었습니다. 그 아침 기침은 역사입니다!';
-
-  @override
-  String get vapingMilestone60Title => '불안 수준이 정상화됩니다';
-
-  @override
-  String get vapingMilestone60Description =>
-      '줄거리 반전: 베이핑은 불안을 더 악화시키는 것이 아니라 더 악화시켰습니다! 두 달이 지나면 평소의 불안 수준이 낮아지고 신경계가 안정됩니다.';
-
-  @override
-  String get vapingMilestone90Title => '집중력과 기억력 향상';
-
-  @override
-  String get vapingMilestone90Description =>
-      '뇌 안개가 건물을 떠났습니다! 3개월간 니코틴을 끊으면 집중력, 기억력, 명확한 사고력이 눈에 띄게 좋아집니다. 이는 정신적 RAM을 업그레이드하는 것과 같습니다.';
-
-  @override
-  String get vapingMilestone180Title => '구강 건강 회복';
-
-  @override
-  String get vapingMilestone180Description =>
-      '당신의 입이 감사 카드를 보내고 있습니다! 6개월 동안 베이프를 사용하지 않으면 잇몸 염증이 감소하고 치아 착색이 사라지며 구강 건강 문제의 위험이 크게 줄어듭니다.';
-
-  @override
-  String get vapingMilestone365Title => '심혈관 위험 감소';
-
-  @override
-  String get vapingMilestone365Description =>
-      '당신의 마음은 말 그대로 더 강해졌습니다! 1년이 지나면 심장병 발병 위험이 크게 감소합니다. 귀하의 심혈관 시스템은 매일의 니코틴 공격 과정에서 회복되었습니다.';
-
-  @override
   String get marijuanaMilestone1Title => '금단 증상이 시작됨';
 
   @override
@@ -2706,11 +2651,11 @@ class AppLocalizationsKo extends AppLocalizations {
       '아세틸콜린 반동은 일반적으로 처음 며칠 동안 최고조에 달하고 일주일 정도 지나면 완화되기 시작합니다. 위장 증상, 발한 및 독감과 같은 느낌이 감소하는 반면, 심박수, 소화 및 발한을 조절하는 신체 시스템은 정상으로 돌아옵니다.';
 
   @override
-  String get tcaMilestone14Title => '2주: TCA 없이 14일';
+  String get tcaMilestone14Title => '2주: 급성 금단이 보통 가라앉기 시작합니다';
 
   @override
   String get tcaMilestone14Description =>
-      'TCA 중단은 위장, 수면, 신체, 움직임, 기분에 영향을 줄 수 있으며, 콜린성 및 아드레날린성 과활성이 가능한 기전으로 제안됩니다. TCA 없이 2주는 큰 이정표이며, 회복은 자신만의 속도로 계속 나아갑니다.';
+      '메스꺼움, 불면, 균형 장애, 감각 이상, 과각성 같은 전형적인 항우울제 중단 증상은 보통 1~2주 지속됩니다. 14일째에는 많은 사람이 이 급성 구간의 끝에 가까워집니다.';
 
   @override
   String get tcaMilestone30Title => '한 달: 자율신경계 안정화';
@@ -3529,7 +3474,7 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get tcaReferenceDay14 =>
-      'TCA 중단 2주 후: 진짜 이정표\n\n근거가 보여주는 것\nTCA 중단에 대한 임상 리뷰에서는 위장관 및 기타 신체적 불편, 수면 장애, 운동 장애, 조증이 금단과 연관되어 보고되었습니다. 콜린성 및 아드레날린성 과활성이 가능한 기전으로 제안됩니다.\n\n회복은 계속 나아갑니다\nTCA 금단은 사람마다 다르게 나타납니다. 증상의 조합과 강도도 다양하며, 중단 후 몸이 적응하는 동안 회복은 각자의 속도로 계속됩니다.\n\n강한 14일\nTCA 없이 2주는 큰 이정표입니다. 몸에는 14일 동안 적응할 시간이 쌓였고, 하루하루가 지속적인 TCA 노출에서 더 멀어지는 시간입니다.';
+      'TCA 중단 2주 후: 급성 금단이 보통 가라앉기 시작합니다\n\n일반적인 급성 구간\n항우울제 중단 증후군에 대한 임상 리뷰에서는 독감 유사 증상, 불면, 메스꺼움, 균형 장애, 감각 이상, 과각성 같은 전형적인 증상이 보통 1~2주 지속된다고 보고합니다.\n\n14일째의 의미\n2주가 되면 많은 사람이 전형적인 급성 중단 구간의 끝에 도달합니다. 첫 번째 파도의 증상은 이 시점에서 상당히 완화되는 경우가 많습니다.\n\nTCA 없이 14일\n14일은 분명한 회복 지점입니다. 급성 금단의 파도가 보통 꺾이기 시작하고, 가장 거친 초기 구간을 지나고 있습니다.';
 
   @override
   String get tcaReferenceDay30 =>
@@ -3564,4 +3509,34 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get settingsLocalePersian => '페르시아어';
+
+  @override
+  String vapingStreakTitle(int days) {
+    return 'Vape-free: day $days';
+  }
+
+  @override
+  String get vapingDay1Description =>
+      'Day one without the vape. If your vape contained nicotine, cravings, irritability, restlessness, low mood, poor sleep or fuzzy focus can be nicotine withdrawal — not a reason to feed it. Either way, you’re already breaking the vaping loop.';
+
+  @override
+  String get vapingDay3Description =>
+      'Three days vape-free. In a clinical study of former smokers who vaped daily, withdrawal rose during the first two abstinent days and followed the classic rise-and-fall pattern. You’ve made it through that sharp early surge; cravings can still show up, but they don’t own the controls.';
+
+  @override
+  String get vapingDay7Description =>
+      'Seven full days without inhaling vape aerosol. That’s a week with no new vaping exposure to nicotine, ultrafine particles, heavy metals, volatile organic compounds or other harmful substances the aerosol can carry. Clear streak — keep it rolling.';
+
+  @override
+  String vapingLongStreakDescription(int days) {
+    return '$days days without taking another hit of vape aerosol. That’s $days days with no new vaping exposure to the harmful substances that aerosol can carry. If your vape contained nicotine, it’s also $days days without reinforcing that dependence. Huge streak — keep it moving.';
+  }
+
+  @override
+  String get vapingWithdrawalReference =>
+      'E-cigarette abstinence and withdrawal\n\nSource: Hughes et al., Nicotine & Tobacco Research (2020)\n\nIn 109 former smokers who were daily e-cigarette users, six days of biologically confirmed abstinence increased nicotine-withdrawal symptoms and cravings. Symptoms followed the classic rise-and-fall pattern of withdrawal, with a strong increase during the first two abstinent days. The study supports real e-cigarette withdrawal; it does not establish a universal day-by-day recovery clock.';
+
+  @override
+  String get vapingHealthReference =>
+      'What vaping exposes you to\n\nSource: CDC — Health Effects of Vaping\n\nCDC says most e-cigarettes contain addictive nicotine. Vape aerosol can contain nicotine, cancer-causing chemicals, heavy metals such as nickel, tin and lead, tiny particles that reach deep into the lungs, volatile organic compounds, and some harmful flavoring chemicals. Nicotine withdrawal can include irritability, anxiety or restlessness, low mood, sleep and concentration problems, hunger and cravings, and these symptoms fade over time. Long-term vaping effects are still being studied, so Quitter celebrates sustained abstinence instead of borrowing cigarette carbon-monoxide, tar, cancer or heart-risk timelines.';
 }

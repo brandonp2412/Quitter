@@ -2804,11 +2804,12 @@ class AppLocalizationsEs extends AppLocalizations {
       'La retirada suele empezar en pocos días y a menudo dura varias semanas. A la semana todavía pueden estar presentes náuseas, sudoración, problemas de sueño, palpitaciones y mareo. Siete días son un progreso real, y la recuperación puede seguir avanzando a ritmos distintos.';
 
   @override
-  String get tcaMilestone14Title => 'Dos semanas: 14 días sin tricíclicos';
+  String get tcaMilestone14Title =>
+      'Dos semanas: la retirada aguda suele estar cediendo';
 
   @override
   String get tcaMilestone14Description =>
-      'La retirada de los antidepresivos tricíclicos puede afectar al aparato digestivo, el sueño, el cuerpo, el movimiento y el ánimo; se proponen la hiperactividad colinérgica y adrenérgica como mecanismos. Dos semanas sin ellos es un gran hito, y la recuperación sigue avanzando a su propio ritmo.';
+      'Los síntomas típicos de retirada de antidepresivos, como náuseas, insomnio, desequilibrio, alteraciones sensoriales e hiperactivación, suelen durar entre una y dos semanas. En el día 14, muchas personas están llegando al final de esa fase aguda.';
 
   @override
   String get tcaMilestone30Title =>
@@ -3638,7 +3639,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get tcaReferenceDay14 =>
-      'Dos semanas después de los tricíclicos: un hito real\n\nLo que muestra la evidencia\nUna revisión clínica sobre la retirada de antidepresivos tricíclicos encontró que el malestar gastrointestinal y otros síntomas físicos, los trastornos del sueño, los trastornos del movimiento y la manía se han relacionado con la retirada. Se proponen la hiperactividad colinérgica y adrenérgica como mecanismos.\n\nLa recuperación sigue avanzando\nLa retirada de tricíclicos varía de una persona a otra. La combinación y la intensidad de los síntomas pueden ser diferentes, y la recuperación continúa a su propio ritmo mientras el cuerpo se adapta tras la retirada.\n\nCatorce días fuertes\nDos semanas sin tricíclicos es un gran hito. Le has dado a tu cuerpo catorce días para seguir adaptándose, y cada día añade más distancia de la exposición continua al medicamento.';
+      'Dos semanas después de los tricíclicos: la retirada aguda suele estar cediendo\n\nLa ventana aguda habitual\nUna revisión clínica del síndrome de retirada de antidepresivos informa que los síntomas típicos —incluidos síntomas gripales, insomnio, náuseas, desequilibrio, alteraciones sensoriales e hiperactivación— suelen durar entre una y dos semanas.\n\nQué significa el día 14\nA las dos semanas, muchas personas están llegando al final de la fase clásica de retirada aguda. Los síntomas de la primera oleada suelen haber disminuido de forma importante a estas alturas.\n\nCatorce días sin tricíclicos\nEso convierte el día 14 en un marcador real de recuperación: la oleada aguda suele estar rompiéndose y ya estás dejando atrás el tramo inicial más duro.';
 
   @override
   String get tcaReferenceDay30 =>

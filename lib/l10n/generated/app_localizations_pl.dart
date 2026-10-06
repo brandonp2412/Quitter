@@ -2796,11 +2796,12 @@ class AppLocalizationsPl extends AppLocalizations {
       'Objawy odstawienne zwykle zaczynają się w ciągu kilku dni i często trwają kilka tygodni. Po tygodniu nadal mogą występować nudności, pocenie się, problemy ze snem, kołatanie serca i zawroty głowy. Siedem dni to realny postęp, a poprawa może postępować w różnym tempie.';
 
   @override
-  String get tcaMilestone14Title => 'Dwa tygodnie: 14 dni bez TLPD';
+  String get tcaMilestone14Title =>
+      'Dwa tygodnie: ostry etap odstawienia zwykle słabnie';
 
   @override
   String get tcaMilestone14Description =>
-      'Odstawienie trójpierścieniowych leków przeciwdepresyjnych może wpływać na przewód pokarmowy, sen, ciało, ruch i nastrój; jako możliwe mechanizmy proponuje się nadmierną aktywność cholinergiczną i adrenergiczną. Dwa tygodnie bez leku to wielki kamień milowy, a regeneracja idzie dalej we własnym tempie.';
+      'Typowe objawy odstawienia leków przeciwdepresyjnych, takie jak nudności, bezsenność, zaburzenia równowagi, objawy czuciowe i nadmierne pobudzenie, zwykle trwają od jednego do dwóch tygodni. W 14. dniu wiele osób dociera do końca tej ostrej fazy.';
 
   @override
   String get tcaMilestone30Title =>
@@ -3630,7 +3631,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get tcaReferenceDay14 =>
-      'Dwa tygodnie po TLPD: prawdziwy kamień milowy\n\nCo pokazują dowody\nPrzegląd kliniczny dotyczący odstawiania trójpierścieniowych leków przeciwdepresyjnych wskazuje, że z odstawieniem wiązano dolegliwości żołądkowo-jelitowe i inne objawy fizyczne, zaburzenia snu, zaburzenia ruchowe oraz manię. Jako możliwe mechanizmy proponuje się nadmierną aktywność cholinergiczną i adrenergiczną.\n\nRegeneracja trwa dalej\nOdstawienie TLPD przebiega różnie u różnych osób. Zestaw i nasilenie objawów mogą się różnić, a regeneracja trwa we własnym tempie, gdy organizm przystosowuje się po odstawieniu.\n\nCzternaście mocnych dni\nDwa tygodnie bez TLPD to wielki kamień milowy. Twój organizm miał czternaście dni na dalszą adaptację, a każdy dzień zwiększa dystans od ciągłej ekspozycji na lek.';
+      'Dwa tygodnie po TLPD: ostry etap odstawienia zwykle słabnie\n\nTypowe ostre okno\nPrzegląd kliniczny zespołu odstawienia leków przeciwdepresyjnych podaje, że typowe objawy — w tym objawy grypopodobne, bezsenność, nudności, zaburzenia równowagi, objawy czuciowe i nadmierne pobudzenie — zwykle trwają od jednego do dwóch tygodni.\n\nCo oznacza dzień 14\nPo dwóch tygodniach wiele osób dociera do końca klasycznej ostrej fazy odstawienia. Objawy pierwszej fali są często wyraźnie słabsze na tym etapie.\n\nCzternaście dni bez TLPD\nDzień 14 staje się więc realnym markerem zdrowienia: ostra fala odstawienia często zaczyna się załamywać, a najtrudniejszy początek zostaje z tyłu.';
 
   @override
   String get tcaReferenceDay30 =>

@@ -2785,11 +2785,12 @@ class AppLocalizationsDe extends AppLocalizations {
       'Entzugssymptome beginnen meist innerhalb weniger Tage und dauern oft einige Wochen. Nach einer Woche können Übelkeit, Schwitzen, Schlafprobleme, Herzklopfen und Schwindel noch vorhanden sein. Sieben Tage sind echter Fortschritt, und die Erholung kann sich auf unterschiedlichen Zeitachsen weiterentwickeln.';
 
   @override
-  String get tcaMilestone14Title => 'Zwei Wochen: 14 Tage ohne TZA';
+  String get tcaMilestone14Title =>
+      'Zwei Wochen: Der akute Entzug lässt meist nach';
 
   @override
   String get tcaMilestone14Description =>
-      'Ein TZA-Entzug kann Magen-Darm-Trakt, Schlaf, Körper, Bewegung und Stimmung betreffen; cholinerge und adrenerge Überaktivität werden als mögliche Mechanismen vorgeschlagen. Zwei Wochen ohne TZA sind ein großer Meilenstein, und die Erholung geht im eigenen Tempo weiter.';
+      'Typische Absetzsymptome wie Übelkeit, Schlaflosigkeit, Gleichgewichtsstörungen, Missempfindungen und Übererregung dauern meist ein bis zwei Wochen. An Tag 14 erreichen viele Menschen das Ende dieses akuten Entzugsfensters.';
 
   @override
   String get tcaMilestone30Title =>
@@ -3617,7 +3618,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get tcaReferenceDay14 =>
-      'Zwei Wochen nach TZA: Ein echter Meilenstein\n\nWas die Evidenz zeigt\nEine klinische Übersicht zum Absetzen trizyklischer Antidepressiva beschreibt Magen-Darm- und andere körperliche Beschwerden, Schlafstörungen, Bewegungsstörungen und Manie im Zusammenhang mit Entzug. Als mögliche Mechanismen werden cholinerge und adrenerge Überaktivität vorgeschlagen.\n\nDie Erholung geht weiter\nTZA-Entzug verläuft von Mensch zu Mensch unterschiedlich. Art und Stärke der Symptome können variieren, und die Erholung geht im eigenen Tempo weiter, während sich der Körper nach dem Absetzen anpasst.\n\nVierzehn starke Tage\nZwei Wochen ohne TZA sind ein großer Meilenstein. Dein Körper hatte vierzehn Tage mehr Zeit zur Anpassung, und jeder Tag schafft mehr Abstand zur fortlaufenden TZA-Exposition.';
+      'Zwei Wochen nach TZA: Der akute Entzug lässt meist nach\n\nDas übliche akute Zeitfenster\nEine klinische Übersicht zum Antidepressiva-Absetzsyndrom beschreibt typische Symptome — darunter grippeähnliche Beschwerden, Schlaflosigkeit, Übelkeit, Gleichgewichtsstörungen, Missempfindungen und Übererregung — die meist ein bis zwei Wochen anhalten.\n\nWas Tag 14 bedeutet\nNach zwei Wochen erreichen viele Menschen das Ende des klassischen akuten Absetzfensters. Die Symptome der ersten Welle lassen zu diesem Zeitpunkt oft deutlich nach.\n\nVierzehn Tage ohne TZA\nDamit ist Tag 14 ein echter Erholungsmarker: Die akute Entzugswelle bricht häufig ab, und die härteste frühe Phase liegt zunehmend hinter dir.';
 
   @override
   String get tcaReferenceDay30 =>

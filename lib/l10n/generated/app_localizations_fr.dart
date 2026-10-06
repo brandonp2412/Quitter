@@ -2834,11 +2834,11 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get tcaMilestone14Title =>
-      'Deux semaines : 14 jours sans tricycliques';
+      'Deux semaines : le sevrage aigu s’atténue généralement';
 
   @override
   String get tcaMilestone14Description =>
-      'Le sevrage des antidépresseurs tricycliques peut toucher l’intestin, le sommeil, le corps, les mouvements et l’humeur ; une hyperactivité cholinergique et adrénergique est proposée comme mécanisme. Deux semaines sans traitement, c’est une étape majeure, et la récupération continue à son propre rythme.';
+      'Les symptômes typiques d’arrêt des antidépresseurs, comme nausées, insomnie, troubles de l’équilibre, sensations anormales et hyperactivation, durent généralement une à deux semaines. Au jour 14, beaucoup arrivent à la fin de cette phase aiguë.';
 
   @override
   String get tcaMilestone30Title =>
@@ -3669,7 +3669,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get tcaReferenceDay14 =>
-      'Deux semaines après les tricycliques : une vraie étape\n\nCe que montrent les données\nUne revue clinique de l’arrêt des antidépresseurs tricycliques a associé au sevrage des troubles gastro-intestinaux et d’autres symptômes physiques, des troubles du sommeil, des troubles du mouvement et des épisodes maniaques. Une hyperactivité cholinergique et adrénergique est proposée comme mécanisme.\n\nLa récupération continue\nLe sevrage des tricycliques varie d’une personne à l’autre. Le mélange et l’intensité des symptômes peuvent différer, et la récupération continue à son propre rythme pendant que le corps s’adapte après l’arrêt.\n\nQuatorze jours solides\nDeux semaines sans tricycliques, c’est une étape majeure. Ton corps a eu quatorze jours de plus pour s’adapter, et chaque jour augmente la distance avec l’exposition continue au traitement.';
+      'Deux semaines après les tricycliques : le sevrage aigu s’atténue généralement\n\nLa fenêtre aiguë habituelle\nUne revue clinique du syndrome d’arrêt des antidépresseurs rapporte que les symptômes typiques — notamment état grippal, insomnie, nausées, troubles de l’équilibre, sensations anormales et hyperactivation — durent généralement une à deux semaines.\n\nCe que signifie le jour 14\nAprès deux semaines, beaucoup arrivent à la fin de la phase classique de sevrage aigu. Les symptômes de la première vague sont souvent nettement atténués à ce stade.\n\nQuatorze jours sans tricycliques\nLe jour 14 devient ainsi un vrai marqueur de récupération : la vague aiguë est souvent en train de se briser et la période initiale la plus difficile recule.';
 
   @override
   String get tcaReferenceDay30 =>

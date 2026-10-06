@@ -2729,11 +2729,12 @@ class AppLocalizationsEn extends AppLocalizations {
       'Withdrawal usually starts within days and often lasts a few weeks. At one week, symptoms such as nausea, sweating, sleep trouble, palpitations and dizziness may still be active. Seven days is real progress, and recovery can keep moving on different timelines.';
 
   @override
-  String get tcaMilestone14Title => 'Two Weeks: 14 Days TCA-Free';
+  String get tcaMilestone14Title =>
+      'Two Weeks: Acute Withdrawal Is Usually Easing';
 
   @override
   String get tcaMilestone14Description =>
-      'TCA withdrawal can hit the gut, sleep, body, movement, and mood; cholinergic and adrenergic rebound are proposed mechanisms. Two weeks off is a huge milestone, and recovery keeps moving on its own timeline.';
+      'Typical antidepressant discontinuation symptoms such as nausea, insomnia, imbalance, sensory disturbances, and hyperarousal usually last one to two weeks. At day 14, many people are reaching the far end of that acute withdrawal window.';
 
   @override
   String get tcaMilestone30Title =>
@@ -3559,7 +3560,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get tcaReferenceDay14 =>
-      'Two Weeks After TCAs: A Real Milestone\n\nWhat the Evidence Shows\nA clinical review of TCA discontinuation found that gastrointestinal and other physical distress, sleep disturbance, movement disorders, and mania have been linked to withdrawal. Cholinergic and adrenergic overdrive are proposed mechanisms.\n\nRecovery Keeps Moving\nTCA withdrawal varies from person to person. The mix and intensity of symptoms can differ, and recovery continues at its own pace as the body adjusts after discontinuation.\n\nFourteen Days Strong\nTwo weeks TCA-free is a huge milestone. You have given your body fourteen days to keep adjusting, and every day adds more distance from ongoing TCA exposure.';
+      'Two Weeks After TCAs: Acute Withdrawal Is Usually Easing\n\nThe Usual Acute Window\nA clinical review of antidepressant discontinuation syndrome reports that typical symptoms — including flu-like symptoms, insomnia, nausea, imbalance, sensory disturbances, and hyperarousal — usually last one to two weeks.\n\nWhat Day 14 Means\nAt two weeks, many people are reaching the far end of the classic acute discontinuation window. The first-wave symptoms are often easing substantially by this point.\n\nFourteen Days TCA-Free\nThat makes day 14 a real recovery marker: the acute withdrawal wave is often breaking, and you are moving beyond the roughest early stretch.';
 
   @override
   String get tcaReferenceDay30 =>

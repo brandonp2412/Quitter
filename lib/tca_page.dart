@@ -62,18 +62,18 @@ class TcaPage extends StatelessWidget {
         title: l10n.tcaMilestone14Title,
         description: l10n.tcaMilestone14Description,
         reference:
-            "PubMed - Garner et al. (1993), Annals of Pharmacotherapy — 'Tricyclic antidepressant withdrawal syndrome'",
-        link: "https://pubmed.ncbi.nlm.nih.gov/8219442/",
-        referenceDate: "May 2026",
+            "PubMed - Warner et al. (2006), American Family Physician — 'Antidepressant discontinuation syndrome'",
+        link: "https://pubmed.ncbi.nlm.nih.gov/16913164/",
+        referenceDate: "Oct 2026",
         localizedReferenceContent: l10n.tcaReferenceDay14,
         referenceContent:
-            "Two Weeks After TCAs: A Real Milestone\n\n"
-            "What the Evidence Shows\n"
-            "A clinical review of TCA discontinuation found that gastrointestinal and other physical distress, sleep disturbance, movement disorders, and mania have been linked to withdrawal. Cholinergic and adrenergic overdrive are proposed mechanisms.\n\n"
-            "Recovery Keeps Moving\n"
-            "TCA withdrawal varies from person to person. The mix and intensity of symptoms can differ, and recovery continues at its own pace as the body adjusts after discontinuation.\n\n"
-            "Fourteen Days Strong\n"
-            "Two weeks TCA-free is a huge milestone. You have given your body fourteen days to keep adjusting, and every day adds more distance from ongoing TCA exposure.",
+            "Two Weeks After TCAs: Acute Withdrawal Is Usually Easing\n\n"
+            "The Usual Acute Window\n"
+            "A clinical review of antidepressant discontinuation syndrome reports that typical symptoms — including flu-like symptoms, insomnia, nausea, imbalance, sensory disturbances, and hyperarousal — usually last one to two weeks.\n\n"
+            "What Day 14 Means\n"
+            "At two weeks, many people are reaching the far end of the classic acute discontinuation window. The first-wave symptoms are often easing substantially by this point.\n\n"
+            "Fourteen Days TCA-Free\n"
+            "That makes day 14 a real recovery marker: the acute withdrawal wave is often breaking, and you are moving beyond the roughest early stretch.",
       ),
       QuitMilestone(
         day: 30,

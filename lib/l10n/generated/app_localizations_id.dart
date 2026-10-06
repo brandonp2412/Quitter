@@ -2772,11 +2772,12 @@ class AppLocalizationsId extends AppLocalizations {
       'Gejala putus antidepresan biasanya mulai dalam beberapa hari dan sering berlangsung beberapa minggu. Setelah satu minggu, mual, keringat, gangguan tidur, jantung berdebar, dan pusing masih bisa terasa. Tujuh hari adalah kemajuan nyata, dan pemulihan dapat terus bergerak dengan waktu yang berbeda-beda.';
 
   @override
-  String get tcaMilestone14Title => 'Dua Minggu: 14 Hari Tanpa TCA';
+  String get tcaMilestone14Title =>
+      'Dua Minggu: Putus Akut Biasanya Mulai Mereda';
 
   @override
   String get tcaMilestone14Description =>
-      'Putus TCA dapat memengaruhi pencernaan, tidur, tubuh, gerakan, dan suasana hati; aktivitas kolinergik dan adrenergik yang berlebihan diusulkan sebagai mekanisme. Dua minggu tanpa TCA adalah pencapaian besar, dan pemulihan terus bergerak dengan ritmenya sendiri.';
+      'Gejala khas penghentian antidepresan seperti mual, insomnia, gangguan keseimbangan, gangguan sensorik, dan hiperaktivasi biasanya berlangsung satu hingga dua minggu. Pada hari ke-14, banyak orang mencapai ujung fase akut ini.';
 
   @override
   String get tcaMilestone30Title =>
@@ -3605,7 +3606,7 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get tcaReferenceDay14 =>
-      'Dua Minggu Setelah TCA: Pencapaian Nyata\n\nApa yang Ditunjukkan Bukti\nSebuah tinjauan klinis tentang penghentian antidepresan trisiklik menemukan bahwa gangguan pencernaan dan keluhan fisik lain, gangguan tidur, gangguan gerakan, serta mania telah dikaitkan dengan putus obat. Aktivitas kolinergik dan adrenergik yang berlebihan diusulkan sebagai mekanisme.\n\nPemulihan Terus Bergerak\nPutus TCA berbeda pada tiap orang. Campuran dan intensitas gejala dapat berbeda, dan pemulihan terus bergerak dengan ritmenya sendiri saat tubuh menyesuaikan diri setelah penghentian.\n\nEmpat Belas Hari Kuat\nDua minggu tanpa TCA adalah pencapaian besar. Tubuhmu sudah mendapat empat belas hari untuk terus menyesuaikan diri, dan setiap hari menambah jarak dari paparan TCA yang berkelanjutan.';
+      'Dua Minggu Setelah TCA: Putus Akut Biasanya Mulai Mereda\n\nJendela Akut yang Umum\nSebuah tinjauan klinis tentang sindrom penghentian antidepresan melaporkan bahwa gejala khas — termasuk gejala mirip flu, insomnia, mual, gangguan keseimbangan, gangguan sensorik, dan hiperaktivasi — biasanya berlangsung satu hingga dua minggu.\n\nArti Hari ke-14\nPada dua minggu, banyak orang sudah mencapai ujung jendela penghentian akut klasik. Gejala gelombang pertama sering kali sudah jauh lebih ringan pada titik ini.\n\nEmpat Belas Hari Tanpa TCA\nItu membuat hari ke-14 menjadi penanda pemulihan yang nyata: gelombang putus akut sering kali sedang pecah, dan bagian awal yang paling berat mulai tertinggal.';
 
   @override
   String get tcaReferenceDay30 =>
