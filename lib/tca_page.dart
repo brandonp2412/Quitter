@@ -23,19 +23,17 @@ class TcaPage extends StatelessWidget {
         referenceDate: "May 2026",
         localizedReferenceContent: l10n.tcaReferenceDay3,
         referenceContent:
-            "TCA Discontinuation: The First Days — Acetylcholine Rebound\n\n"
+            "TCA Discontinuation: The First Days — Cholinergic Rebound\n\n"
             "Source: Dilsaver, Feinberg & Greden (1983), American Journal of Psychiatry — 'Antidepressant withdrawal symptoms treated with anticholinergic agents' (case report, 3 patients)\n\n"
-            "What Makes TCA Discontinuation Different\n"
-            "Tricyclic antidepressants differ fundamentally from SSRIs and SNRIs in their mechanism. In addition to blocking serotonin and norepinephrine reuptake, TCAs strongly block the body's acetylcholine system. When you stop, that system bounces back.\n\n"
-            "Acetylcholine Rebound Symptoms\n"
-            "Unlike SSRI discontinuation, TCA withdrawal produces an acetylcholine rebound:\n"
-            "• Nausea, vomiting, and diarrhoea\n"
-            "• Excessive salivation and sweating\n"
-            "• Headache and muscle aches\n"
-            "• Insomnia with vivid or disturbing dreams\n"
-            "• Anxiety and restlessness\n\n"
-            "Common TCAs and Their Profiles\n"
-            "Amitriptyline and imipramine have the strongest acetylcholine-blocking effects and typically produce the most pronounced rebound. Nortriptyline has somewhat milder effects. Clomipramine also has significant serotonin-related effects alongside its acetylcholine-blocking profile.",
+            "Why TCAs Can Feel Different\n"
+            "Many TCAs have anticholinergic effects alongside their serotonin and noradrenaline activity. In three published cases, withdrawal symptoms after abrupt discontinuation or rapid taper responded to anticholinergic treatment, leading the authors to implicate central cholinergic overdrive.\n\n"
+            "Symptoms Reported with TCA Withdrawal\n"
+            "• Nausea, vomiting, diarrhoea, abdominal pain, and loss of appetite\n"
+            "• Insomnia or other sleep disturbance\n"
+            "• Anxiety, agitation, and irritability\n"
+            "• Headaches and other physical symptoms\n\n"
+            "Timing Varies\n"
+            "Withdrawal can hit early, especially after abrupt stopping or a fast taper. This three-patient case report supports cholinergic rebound as a mechanism. It was not designed to establish a fixed day-by-day timeline or compare individual TCAs by rebound severity.",
       ),
       QuitMilestone(
         day: 7,
@@ -46,16 +44,18 @@ class TcaPage extends StatelessWidget {
         referenceDate: "May 2026",
         localizedReferenceContent: l10n.tcaReferenceDay7,
         referenceContent:
-            "One Week After TCAs: Acetylcholine Symptoms Easing\n\n"
-            "The Acetylcholine Recovery\n"
-            "The acetylcholine rebound typically reaches its peak within the first few days and begins to ease substantially by one week. As the acetylcholine system returns toward its natural level:\n\n"
-            "What's Improving\n"
-            "• Gastrointestinal symptoms (nausea, cramping, diarrhoea) are reducing\n"
-            "• Sweating and flu-like symptoms are easing\n"
-            "• Sleep, though still disrupted, is beginning to stabilise\n"
-            "• The excessive salivation is resolving\n\n"
-            "Automatic body Nervous System\n"
-            "TCAs affect the body's automatic functions — heart rate, blood pressure, digestion — through several mechanisms. By one week, the most intense automatic body symptoms — including dizziness when standing and rapid heart rate changes — is beginning to resolve as the nervous system readjusts.",
+            "One Week After TCAs: Through the First Stretch\n\n"
+            "What One Week Means\n"
+            "NHS guidance says antidepressant withdrawal usually begins within a few days and lasts a few weeks. Some people have severe withdrawal or symptoms that last months or longer.\n\n"
+            "Symptoms That Can Still Be in Play\n"
+            "• Headache and aching muscles\n"
+            "• Nausea and sweating\n"
+            "• A racing, fluttering, pounding, or skipping heartbeat\n"
+            "• Dizziness or unsteadiness\n"
+            "• Sleep problems, strange dreams, and tiredness\n"
+            "• Restlessness, irritability, anxiety, low mood, or difficulty thinking\n\n"
+            "Seven Days Is Progress\n"
+            "A full week off a TCA is worth celebrating. NHS guidance describes withdrawal over days to weeks, sometimes longer, so symptoms involving heart rate, digestion, sleep, and other autonomic functions can settle on different timelines.",
       ),
       QuitMilestone(
         day: 14,

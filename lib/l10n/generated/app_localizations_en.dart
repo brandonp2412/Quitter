@@ -2715,18 +2715,18 @@ class AppLocalizationsEn extends AppLocalizations {
   String get tcaSubtitleNotStarted => 'See what happens when you taper off';
 
   @override
-  String get tcaMilestone3Title => 'Day 3: Acetylcholine Rebound Peaks';
+  String get tcaMilestone3Title => 'Day 3: Cholinergic Rebound';
 
   @override
   String get tcaMilestone3Description =>
-      'TCAs block acetylcholine. After stopping, that system can briefly become overactive. Symptoms include nausea, diarrhoea, stomach cramps, heavy sweating, headache, muscle aches, and insomnia. These symptoms usually peak early and then ease.';
+      'TCAs can trigger withdrawal after stopping, with cholinergic overdrive one proposed mechanism. Nausea, diarrhoea, stomach pain, insomnia, anxiety, agitation and headaches can hit early—especially after abrupt stopping or a fast taper. Day 3 is a milestone; timing and intensity vary.';
 
   @override
-  String get tcaMilestone7Title => 'One Week: Rebound Symptoms Easing';
+  String get tcaMilestone7Title => 'One Week: Through the First Stretch';
 
   @override
   String get tcaMilestone7Description =>
-      'The acetylcholine rebound usually peaks in the first few days and starts easing by one week. Stomach symptoms, sweating, and flu-like feelings are reducing, while the body systems that control heart rate, digestion, and sweating return toward normal.';
+      'Withdrawal usually starts within days and often lasts a few weeks. At one week, symptoms such as nausea, sweating, sleep trouble, palpitations and dizziness may still be active. Seven days is real progress, and recovery can keep moving on different timelines.';
 
   @override
   String get tcaMilestone14Title =>
@@ -3552,11 +3552,11 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get tcaReferenceDay3 =>
-      'TCA Discontinuation: The First Days — Acetylcholine Rebound\n\nSource: Dilsaver, Feinberg & Greden (1983), American Journal of Psychiatry — \'Antidepressant withdrawal symptoms treated with anticholinergic agents\' (case report, 3 patients)\n\nWhat Makes TCA Discontinuation Different\nTricyclic antidepressants differ fundamentally from SSRIs and SNRIs in their mechanism. In addition to blocking serotonin and norepinephrine reuptake, TCAs strongly block the body\'s acetylcholine system. When you stop, that system bounces back.\n\nAcetylcholine Rebound Symptoms\nUnlike SSRI discontinuation, TCA withdrawal produces an acetylcholine rebound:\n• Nausea, vomiting, and diarrhoea\n• Excessive salivation and sweating\n• Headache and muscle aches\n• Insomnia with vivid or disturbing dreams\n• Anxiety and restlessness\n\nCommon TCAs and Their Profiles\nAmitriptyline and imipramine have the strongest acetylcholine-blocking effects and typically produce the most pronounced rebound. Nortriptyline has somewhat milder effects. Clomipramine also has significant serotonin-related effects alongside its acetylcholine-blocking profile.';
+      'TCA Discontinuation: The First Days — Cholinergic Rebound\n\nSource: Dilsaver, Feinberg & Greden (1983), American Journal of Psychiatry — \'Antidepressant withdrawal symptoms treated with anticholinergic agents\' (case report, 3 patients)\n\nWhy TCAs Can Feel Different\nMany TCAs have anticholinergic effects alongside their serotonin and noradrenaline activity. In three published cases, withdrawal symptoms after abrupt discontinuation or rapid taper responded to anticholinergic treatment, leading the authors to implicate central cholinergic overdrive.\n\nSymptoms Reported with TCA Withdrawal\n• Nausea, vomiting, diarrhoea, abdominal pain, and loss of appetite\n• Insomnia or other sleep disturbance\n• Anxiety, agitation, and irritability\n• Headaches and other physical symptoms\n\nTiming Varies\nWithdrawal can hit early, especially after abrupt stopping or a fast taper. This three-patient case report supports cholinergic rebound as a mechanism. It was not designed to establish a fixed day-by-day timeline or compare individual TCAs by rebound severity.';
 
   @override
   String get tcaReferenceDay7 =>
-      'One Week After TCAs: Acetylcholine Symptoms Easing\n\nThe Acetylcholine Recovery\nThe acetylcholine rebound typically reaches its peak within the first few days and begins to ease substantially by one week. As the acetylcholine system returns toward its natural level:\n\nWhat\'s Improving\n• Gastrointestinal symptoms (nausea, cramping, diarrhoea) are reducing\n• Sweating and flu-like symptoms are easing\n• Sleep, though still disrupted, is beginning to stabilise\n• The excessive salivation is resolving\n\nAutomatic body Nervous System\nTCAs affect the body\'s automatic functions — heart rate, blood pressure, digestion — through several mechanisms. By one week, the most intense automatic body symptoms — including dizziness when standing and rapid heart rate changes — is beginning to resolve as the nervous system readjusts.';
+      'One Week After TCAs: Through the First Stretch\n\nWhat One Week Means\nNHS guidance says antidepressant withdrawal usually begins within a few days and lasts a few weeks. Some people have severe withdrawal or symptoms that last months or longer.\n\nSymptoms That Can Still Be in Play\n• Headache and aching muscles\n• Nausea and sweating\n• A racing, fluttering, pounding, or skipping heartbeat\n• Dizziness or unsteadiness\n• Sleep problems, strange dreams, and tiredness\n• Restlessness, irritability, anxiety, low mood, or difficulty thinking\n\nSeven Days Is Progress\nA full week off a TCA is worth celebrating. NHS guidance describes withdrawal over days to weeks, sometimes longer, so symptoms involving heart rate, digestion, sleep, and other autonomic functions can settle on different timelines.';
 
   @override
   String get tcaReferenceDay14 =>

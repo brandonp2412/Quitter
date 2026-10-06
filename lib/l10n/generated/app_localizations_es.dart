@@ -2790,20 +2790,18 @@ class AppLocalizationsEs extends AppLocalizations {
       'Descubre qué ocurre al reducirlos gradualmente';
 
   @override
-  String get tcaMilestone3Title =>
-      'Día 3: el rebote de acetilcolina alcanza su pico';
+  String get tcaMilestone3Title => 'Día 3: Rebote colinérgico';
 
   @override
   String get tcaMilestone3Description =>
-      'Los antidepresivos tricíclicos bloquean la acetilcolina. Al dejarlos, ese sistema puede volverse brevemente hiperactivo. Los síntomas incluyen náuseas, diarrea, calambres abdominales, sudoración intensa, dolor de cabeza, dolores musculares e insomnio. Suelen alcanzar su máximo pronto y después disminuyen.';
+      'Dejar un TCA puede provocar un síndrome de retirada real; la hiperactividad colinérgica es uno de los mecanismos propuestos. Náuseas, diarrea, dolor abdominal, insomnio, ansiedad, agitación y dolor de cabeza pueden aparecer pronto, sobre todo tras una retirada brusca o rápida. El día 3 es un hito; el momento y la intensidad de los síntomas varían.';
 
   @override
-  String get tcaMilestone7Title =>
-      'Una semana: disminuyen los síntomas de rebote';
+  String get tcaMilestone7Title => 'Una semana: Primera etapa superada';
 
   @override
   String get tcaMilestone7Description =>
-      'El rebote de acetilcolina suele alcanzar su máximo en los primeros días y empieza a disminuir al cabo de una semana. Los síntomas digestivos, la sudoración y las sensaciones parecidas a la gripe se reducen mientras los sistemas que controlan la frecuencia cardiaca, la digestión y la sudoración vuelven hacia la normalidad.';
+      'La retirada suele empezar en pocos días y a menudo dura varias semanas. A la semana todavía pueden estar presentes náuseas, sudoración, problemas de sueño, palpitaciones y mareo. Siete días son un progreso real, y la recuperación puede seguir avanzando a ritmos distintos.';
 
   @override
   String get tcaMilestone14Title =>
@@ -3633,11 +3631,11 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get tcaReferenceDay3 =>
-      'Suspensión de los tricíclicos: los primeros días — rebote de acetilcolina\n\nFuente: Dilsaver, Feinberg & Greden (1983), American Journal of Psychiatry — \"Antidepressant withdrawal symptoms treated with anticholinergic agents\" (informe de casos, 3 pacientes)\n\nQué hace diferente la discontinuación de los tricíclicos\nLos antidepresivos tricíclicos difieren de forma importante de los ISRS y los IRSN en su mecanismo. Además de bloquear la recaptación de serotonina y noradrenalina, los tricíclicos bloquean con fuerza el sistema de acetilcolina. Al suspenderlos, ese sistema puede producir un efecto de rebote.\n\nSíntomas del rebote de acetilcolina\nA diferencia de la discontinuación de los ISRS, la retirada de tricíclicos puede producir rebote colinérgico:\n• Náuseas, vómitos y diarrea\n• Salivación y sudoración excesivas\n• Dolor de cabeza y dolores musculares\n• Insomnio con sueños vívidos o inquietantes\n• Ansiedad e inquietud\n\nTricíclicos frecuentes y sus perfiles\nLa amitriptilina y la imipramina tienen algunos de los efectos anticolinérgicos más intensos y suelen producir un rebote más marcado. La nortriptilina presenta efectos algo más leves. La clomipramina también tiene efectos serotoninérgicos importantes además de su perfil anticolinérgico.';
+      'Suspensión de TCA: los primeros días — rebote colinérgico\n\nFuente: Dilsaver, Feinberg & Greden (1983), American Journal of Psychiatry — \'Antidepressant withdrawal symptoms treated with anticholinergic agents\' (informe de 3 casos)\n\nPor qué la retirada de TCA puede sentirse diferente\nMuchos TCA tienen efectos anticolinérgicos además de actuar sobre serotonina y noradrenalina. En tres casos publicados, los síntomas de retirada tras una suspensión brusca o una reducción rápida respondieron al tratamiento anticolinérgico, por lo que los autores propusieron la hiperactividad colinérgica central como mecanismo.\n\nSíntomas descritos en la retirada de TCA\n• Náuseas, vómitos, diarrea, dolor abdominal y pérdida de apetito\n• Insomnio u otros trastornos del sueño\n• Ansiedad, agitación e irritabilidad\n• Dolor de cabeza y otros síntomas físicos\n\nEl tiempo varía\nLa retirada puede hacerse notar pronto, sobre todo tras una suspensión brusca o una reducción rápida. Este informe de tres casos respalda el rebote colinérgico como mecanismo. No fue diseñado para fijar un calendario día a día ni para comparar los TCA según la intensidad del rebote.';
 
   @override
   String get tcaReferenceDay7 =>
-      'Una semana después de los tricíclicos: disminuyen los síntomas por rebote de acetilcolina\n\nRecuperación de la acetilcolina\nEl rebote de acetilcolina suele alcanzar su máximo durante los primeros días y empieza a disminuir de forma importante al cabo de una semana. A medida que el sistema de acetilcolina vuelve hacia su nivel natural:\n\nQué está mejorando\n• Disminuyen los síntomas gastrointestinales, como náuseas, cólicos y diarrea\n• Se reducen la sudoración y los síntomas similares a la gripe\n• El sueño, aunque todavía puede estar alterado, empieza a estabilizarse\n• La salivación excesiva se va resolviendo\n\nSistema nervioso autónomo\nLos tricíclicos afectan funciones automáticas del organismo, como la frecuencia cardiaca, la presión arterial y la digestión, mediante varios mecanismos. Al cabo de una semana, los síntomas autonómicos más intensos, incluidos los mareos al ponerse de pie y los cambios rápidos de frecuencia cardiaca, empiezan a resolverse a medida que el sistema nervioso se reajusta.';
+      'Una semana después de los TCA: primera etapa superada\n\nQué significa una semana\nSegún el NHS, la retirada de antidepresivos suele empezar en pocos días y durar varias semanas. En algunas personas puede ser intensa o prolongarse durante meses o más.\n\nSíntomas que todavía pueden estar presentes\n• Dolor de cabeza y muscular\n• Náuseas y sudoración\n• Latidos acelerados, aleteo, golpes fuertes o saltos del corazón\n• Mareo o inestabilidad\n• Problemas de sueño, sueños extraños y cansancio\n• Inquietud, irritabilidad, ansiedad, ánimo bajo o dificultad para pensar\n\nSiete días son progreso\nUna semana completa sin TCA merece celebrarse. El NHS describe la retirada a lo largo de días o semanas, a veces más, por lo que los síntomas relacionados con el ritmo cardiaco, la digestión, el sueño y otras funciones autónomas pueden asentarse a ritmos distintos.';
 
   @override
   String get tcaReferenceDay14 =>

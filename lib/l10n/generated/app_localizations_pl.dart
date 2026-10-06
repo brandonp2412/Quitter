@@ -2782,18 +2782,18 @@ class AppLocalizationsPl extends AppLocalizations {
       'Zobaczymy, co się stanie, gdy się odprężysz.';
 
   @override
-  String get tcaMilestone3Title => 'Dzień 3: Acetylocholina Peaks Rebound';
+  String get tcaMilestone3Title => 'Dzień 3: Odbicie cholinergiczne';
 
   @override
   String get tcaMilestone3Description =>
-      'TCA blokować acetylocholine. po zatrzymaniu, że system może stać się krótko zbyt aktywne. objawy obejmują naiwność, biegunka, skurcze żołądka, ciężkie dreszcze, głowy, bóle mięśni, i insomnia. Te objawy zwykle szczytowe wcześnie, a następnie łatwo.';
+      'Odstawienie TCA może wywołać rzeczywisty zespół odstawienny, a nadaktywność cholinergiczna jest jednym z proponowanych mechanizmów. Nudności, biegunka, ból brzucha, bezsenność, lęk, pobudzenie i ból głowy mogą pojawić się wcześnie, szczególnie po nagłym odstawieniu lub zbyt szybkim zmniejszaniu dawki. Dzień 3 to kamień milowy; moment wystąpienia i nasilenie objawów są różne.';
 
   @override
-  String get tcaMilestone7Title => 'Jeden tydzień: Objawy odbicia Easing';
+  String get tcaMilestone7Title => 'Tydzień: Pierwszy etap za Tobą';
 
   @override
   String get tcaMilestone7Description =>
-      'Acetylocholina odbija się zwykle szczyty w ciągu pierwszych kilku dni i zaczyna luzować w ciągu jednego tygodnia. Objawy żołądkowe, drenaż, i podobne do siebie uczucia redukują się, podczas gdy systemy ciała, które kontrolują tętno rate, trawienie i pocenie się wracają do normy.';
+      'Objawy odstawienne zwykle zaczynają się w ciągu kilku dni i często trwają kilka tygodni. Po tygodniu nadal mogą występować nudności, pocenie się, problemy ze snem, kołatanie serca i zawroty głowy. Siedem dni to realny postęp, a poprawa może postępować w różnym tempie.';
 
   @override
   String get tcaMilestone14Title =>
@@ -3623,11 +3623,11 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get tcaReferenceDay3 =>
-      'Przerwanie stosowania TCA: pierwsze dni w przypadku powrotu acetylocholiny\n\nŹródło: Dilsaver, Feinberg & Greden (1983), American Journal of Psychiatry — \'Antidepressant withdrawal symptoms treated with anticholinergic agents\' (case report, 3 patients)\n\nCo sprawia, że TCA zaprzestanie leczenia jest inne\nTrójpierścieniowe leki przeciwdepresyjne różnią się zasadniczo od SSRI. i SNRI. Oprócz blokowania serotoniny i noradrenaliny reuptake, TCAs silnie blokować ciała system acetylocholiny. Po zatrzymaniu, że system odbija się.\n\nObjawy odbicia acetylocholiny\nW przeciwieństwie do zaprzestania stosowania SSRI, wycofanie produktu TCA powoduje powstanie reboundu acetylocholiny:\n• Nudności, wymioty i biegunka\n• Nadmierne ślinienie i pocenie się\n• Ból głowy i bóle mięśni\n• Bezsenność z żywymi lub niepokojącymi snami\n• Lęk i niepokój\n\nWspólne TCA i ich profile\nAmitryptylina i imipramina mają najsilniejsze działanie blokujące acetylocholinę i zazwyczaj wytwarzają najwyraźniejsze działanie rebounda. nortryptylina ma nieco łagodniejsze działanie. Klomipramina ma również znaczące działanie związane z serotoniną wraz z profilem blokowania acetylocholiny.';
+      'Odstawienie TCA: pierwsze dni — odbicie cholinergiczne\n\nŹródło: Dilsaver, Feinberg & Greden (1983), American Journal of Psychiatry — \'Antidepressant withdrawal symptoms treated with anticholinergic agents\' (opis 3 przypadków)\n\nDlaczego odstawienie TCA może być inne\nWiele TCA ma działanie antycholinergiczne obok wpływu na serotoninę i noradrenalinę. W trzech opublikowanych przypadkach objawy odstawienne po nagłym przerwaniu lub szybkim zmniejszeniu dawki ustąpiły po leczeniu antycholinergicznym, co skłoniło autorów do wskazania ośrodkowej nadaktywności cholinergicznej jako jednego z mechanizmów.\n\nOpisywane objawy odstawienia TCA\n• Nudności, wymioty, biegunka, ból brzucha i utrata apetytu\n• Bezsenność lub inne zaburzenia snu\n• Lęk, pobudzenie i drażliwość\n• Bóle głowy i inne objawy fizyczne\n\nTempo jest różne\nObjawy odstawienne mogą pojawić się wcześnie, zwłaszcza po nagłym przerwaniu lub szybkim zmniejszeniu dawki. Ten opis trzech przypadków wspiera odbicie cholinergiczne jako mechanizm. Badanie nie zostało zaprojektowane do ustalania stałego przebiegu dzień po dniu ani do porównywania poszczególnych TCA pod względem siły odbicia.';
 
   @override
   String get tcaReferenceDay7 =>
-      'Tydzień po TCAs: objawy acetylocholiny Easing\n\nOdzysk acetylocholiny\nOdwrócenie acetylocholiny zwykle osiąga swój szczyt w ciągu pierwszych kilku dni i zaczyna znacznie się łagodzić w ciągu jednego tygodnia.\n\nPoprawa sytuacji\n• Objawy żołądkowo- jelitowe, skurcze, biegunka ) zmniejszają się\n• Pocenie się i objawy podobne do fluorescencji ustępują.\n• Sleep, choć wciąż zakłócony, zaczyna się stabilizować\n• Nadmierne ślinienie rozwiązuje problem.\n\nAutomatyczny układ nerwowy\nTCAs wpływają na funkcje automatyczne ciała, tętno, ciśnienie krwi, trawienie przez kilka mechanizm. w ciągu jednego tygodnia, najbardziej intensywne automatyczne objawy ciała, w tym zawroty głowy, gdy stoi i szybkie zmiany częstości akcji serca zaczyna ustępować, gdy układ nerwowy wraca.';
+      'Tydzień po TCA: pierwszy etap za Tobą\n\nCo oznacza tydzień\nWedług NHS objawy odstawienia antydepresantów zwykle zaczynają się w ciągu kilku dni i trwają kilka tygodni. U części osób mogą być ciężkie albo utrzymywać się miesiącami lub dłużej.\n\nObjawy, które nadal mogą występować\n• Ból głowy i bóle mięśni\n• Nudności i pocenie się\n• Przyspieszone, trzepoczące, mocne lub nieregularne bicie serca\n• Zawroty głowy lub niestabilność\n• Problemy ze snem, dziwne sny i zmęczenie\n• Niepokój, drażliwość, lęk, obniżony nastrój lub trudności z myśleniem\n\nSiedem dni to postęp\nPełny tydzień bez TCA zasługuje na świętowanie. NHS opisuje odstawienie jako proces trwający od kilku dni do kilku tygodni, czasem dłużej, więc objawy związane z rytmem serca, trawieniem, snem i innymi funkcjami autonomicznymi mogą uspokajać się w różnym tempie.';
 
   @override
   String get tcaReferenceDay14 =>

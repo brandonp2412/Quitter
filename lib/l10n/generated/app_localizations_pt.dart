@@ -2788,20 +2788,18 @@ class AppLocalizationsPt extends AppLocalizations {
       'Veja o que acontece quando diminui gradualmente';
 
   @override
-  String get tcaMilestone3Title =>
-      'Dia 3: Picos de recuperação da acetilcolina';
+  String get tcaMilestone3Title => 'Dia 3: Rebound colinérgico';
 
   @override
   String get tcaMilestone3Description =>
-      'Os TCAs bloqueiam a acetilcolina. Depois de parar, esse sistema pode ficar hiperativo por um breve período. Os sintomas incluem náusea, diarreia, cólicas estomacais, sudorese intensa, dor de cabeça, dores musculares e insónia. Esses sintomas geralmente atingem o pico precocemente e depois diminuem.';
+      'Parar um TCA pode provocar uma síndrome de descontinuação real, sendo a hiperatividade colinérgica um dos mecanismos propostos. Náuseas, diarreia, dor abdominal, insónia, ansiedade, agitação e dor de cabeça podem surgir cedo, sobretudo após interrupção abrupta ou redução rápida. O dia 3 é um marco; o momento e a intensidade dos sintomas variam.';
 
   @override
-  String get tcaMilestone7Title =>
-      'Uma semana: alívio dos sintomas de recuperação';
+  String get tcaMilestone7Title => 'Uma semana: Primeira etapa vencida';
 
   @override
   String get tcaMilestone7Description =>
-      'O rebote da acetilcolina geralmente atinge o pico nos primeiros dias e começa a diminuir em uma semana. Os sintomas estomacais, a sudorese e a sensação de gripe estão a diminuir, enquanto os sistemas do corpo que controlam a frequência cardíaca, a digestão e a sudorese voltam ao normal.';
+      'A descontinuação costuma começar em poucos dias e muitas vezes dura algumas semanas. Ao fim de uma semana, náuseas, suor, problemas de sono, palpitações e tonturas ainda podem estar presentes. Sete dias são progresso real, e a recuperação pode continuar a ritmos diferentes.';
 
   @override
   String get tcaMilestone14Title =>
@@ -3631,11 +3629,11 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get tcaReferenceDay3 =>
-      'Descontinuação do TCA: Os primeiros dias – Recuperação da acetilcolina\n\nFonte: Dilsaver, Feinberg & Greden (1983), American Journal of Psychiatry — \'Sintomas de abstinência de antidepressivos tratados com agentes anticolinérgicos\' (relato de caso, 3 pacientes)\n\nO que torna a descontinuação do TCA diferente\nOs antidepressivos tricíclicos diferem fundamentalmente dos ISRS e SNRIs no seu mecanismo. Além de bloquear a recaptação de serotonina e noradrenalina, os ADTs bloqueiam fortemente o sistema de acetilcolina do corpo. Quando para, esse sistema se recupera.\n\nSintomas de rebote de acetilcolina\nAo contrário da descontinuação dos ISRS, a abstinência do TCA produz um rebote da acetilcolina:\n• Náuseas, vômitos e diarreia\n• Salivação e suor excessivos\n• Dor de cabeça e dores musculares\n• Insónia com sonhos vívidos ou perturbadores\n• Ansiedade e inquietação\n\nTCAs comuns e seus perfis\nA amitriptilina e a imipramina têm os efeitos bloqueadores da acetilcolina mais fortes e normalmente produzem a recuperação mais pronunciada. A nortriptilina tem efeitos um pouco mais leves. A clomipramina também tem efeitos significativos relacionados à serotonina, juntamente com seu perfil de bloqueio da acetilcolina.';
+      'Descontinuação de TCA: os primeiros dias — rebound colinérgico\n\nFonte: Dilsaver, Feinberg & Greden (1983), American Journal of Psychiatry — \'Antidepressant withdrawal symptoms treated with anticholinergic agents\' (relato de 3 casos)\n\nPorque a descontinuação de TCA pode ser diferente\nMuitos TCA têm efeitos anticolinérgicos além da ação sobre serotonina e noradrenalina. Em três casos publicados, sintomas após interrupção abrupta ou redução rápida responderam a tratamento anticolinérgico, levando os autores a propor hiperatividade colinérgica central como um dos mecanismos.\n\nSintomas relatados na descontinuação de TCA\n• Náuseas, vómitos, diarreia, dor abdominal e perda de apetite\n• Insónia ou outras perturbações do sono\n• Ansiedade, agitação e irritabilidade\n• Dores de cabeça e outros sintomas físicos\n\nO tempo varia\nOs sintomas podem surgir cedo, sobretudo após interrupção abrupta ou redução rápida. Este relato de três casos apoia o rebound colinérgico como mecanismo. Não foi concebido para estabelecer um calendário fixo dia a dia nem para comparar os TCA pela intensidade do rebound.';
 
   @override
   String get tcaReferenceDay7 =>
-      'Uma semana após ADTs: alívio dos sintomas de acetilcolina\n\nA recuperação da acetilcolina\nA recuperação da acetilcolina normalmente atinge seu pico nos primeiros dias e começa a diminuir substancialmente em uma semana. À medida que o sistema de acetilcolina retorna ao seu nível natural:\n\nO que está a melhorar\n• Os sintomas gastrointestinais (náuseas, cólicas, diarreia) estão a diminuir\n• Sudorese e sintomas semelhantes aos da gripe estão a diminuir\n• O sono, embora ainda interrompido, está começando a se estabilizar\n• A salivação excessiva está desaparecendo\n\nSistema Nervoso Corporal Automático\nOs ADTs afetam as funções automáticas do corpo – frequência cardíaca, pressão arterial, digestão – através de vários mecanismos. Em uma semana, os sintomas corporais automáticos mais intensos – incluindo tonturas ao ficar em pé e alterações rápidas da frequência cardíaca – começam a desaparecer à medida que o sistema nervoso se reajusta.';
+      'Uma semana após TCA: primeira etapa vencida\n\nO que significa uma semana\nSegundo o NHS, a descontinuação de antidepressivos costuma começar em poucos dias e durar algumas semanas. Em algumas pessoas pode ser intensa ou prolongar-se por meses ou mais.\n\nSintomas que ainda podem estar presentes\n• Dor de cabeça e dores musculares\n• Náuseas e suor\n• Coração acelerado, a tremular, a bater forte ou a falhar batimentos\n• Tonturas ou instabilidade\n• Problemas de sono, sonhos estranhos e cansaço\n• Inquietação, irritabilidade, ansiedade, humor em baixo ou dificuldade em pensar\n\nSete dias são progresso\nUma semana completa sem TCA merece ser celebrada. O NHS descreve a descontinuação ao longo de dias a semanas, por vezes mais, pelo que sintomas ligados à frequência cardíaca, digestão, sono e outras funções autónomas podem acalmar a ritmos diferentes.';
 
   @override
   String get tcaReferenceDay14 =>

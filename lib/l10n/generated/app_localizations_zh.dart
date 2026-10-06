@@ -2590,18 +2590,18 @@ class AppLocalizationsZh extends AppLocalizations {
   String get tcaSubtitleNotStarted => '看看停药后会发生什么';
 
   @override
-  String get tcaMilestone3Title => '第3天：乙酰胆碱反弹达到峰值';
+  String get tcaMilestone3Title => '第3天：胆碱能反跳';
 
   @override
   String get tcaMilestone3Description =>
-      'TCA会阻断乙酰胆碱。停药后，这个系统可能短暂变得过度活跃。症状包括恶心、腹泻、腹部痉挛、大量出汗、头痛、肌肉酸痛和失眠。这些症状通常较早达到峰值，然后逐渐缓解。';
+      '停用TCA后可能出现真实的停药症状，中枢胆碱能过度活动是提出的机制之一。恶心、腹泻、腹痛、失眠、焦虑、躁动和头痛可能较早出现，尤其是在突然停药或减量过快后。第3天是一个里程碑；症状出现的时间和强度因人而异。';
 
   @override
-  String get tcaMilestone7Title => '一周：反弹症状开始缓解';
+  String get tcaMilestone7Title => '一周：闯过第一阶段';
 
   @override
   String get tcaMilestone7Description =>
-      '乙酰胆碱反弹通常在最初几天达到峰值，并在一周左右开始缓解。胃肠症状、出汗和流感样感觉正在减少，控制心率、消化和出汗的身体系统也在逐渐恢复正常。';
+      '抗抑郁药停药症状通常在几天内开始，并常持续数周。一周后，恶心、出汗、睡眠问题、心悸和头晕仍可能存在。七天是真正的进步，恢复可以继续按不同节奏推进。';
 
   @override
   String get tcaMilestone14Title => '两周：抗胆碱能效果逆转';
@@ -3419,11 +3419,11 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get tcaReferenceDay3 =>
-      'TCA停药：最初几天——乙酰胆碱反弹\n\n来源：Dilsaver, Feinberg & Greden（1983），American Journal of Psychiatry——\'Antidepressant withdrawal symptoms treated with anticholinergic agents\'（病例报告，3名患者）\n\n是什么让TCA停药与众不同\n三环类抗抑郁药（TCA）在机制上与SSRI和SNRI根本不同。除了阻断血清素和去甲肾上腺素的再摄取之外，TCA还强烈阻断身体的乙酰胆碱系统。当你停止时，这个系统会反弹。\n\n乙酰胆碱反弹症状\n与SSRI停药不同，TCA戒断会产生乙酰胆碱反弹：\n• 恶心、呕吐和腹泻\n• 唾液和出汗过多\n• 头痛和肌肉酸痛\n• 伴有生动或令人不安梦境的失眠\n• 焦虑和坐立不安\n\n常见TCA及其特征\n阿米替林和丙咪嗪的乙酰胆碱阻断效应最强，通常产生最明显的反弹。去甲替林的效应稍微温和一些。氯米帕明除了其乙酰胆碱阻断特征之外，还有显著的血清素相关效应。';
+      '停用TCA：最初几天——胆碱能反跳\n\n来源：Dilsaver, Feinberg & Greden (1983), American Journal of Psychiatry — \'Antidepressant withdrawal symptoms treated with anticholinergic agents\'（3例病例报告）\n\n为什么停用TCA可能感觉不同\n许多TCA除了影响血清素和去甲肾上腺素，还具有抗胆碱作用。在3个已发表病例中，突然停药或快速减量后的停药症状对抗胆碱治疗有反应，因此作者提出中枢胆碱能过度活动可能是机制之一。\n\nTCA停药中报告的症状\n• 恶心、呕吐、腹泻、腹痛和食欲下降\n• 失眠或其他睡眠障碍\n• 焦虑、躁动和易怒\n• 头痛和其他身体症状\n\n时间因人而异\n停药症状可能较早出现，尤其是在突然停药或快速减量后。这份3例病例报告支持胆碱能反跳这一机制。它并不是为了建立固定的逐日时间表，也不是为了比较不同TCA的反跳强度。';
 
   @override
   String get tcaReferenceDay7 =>
-      '停用TCA一周：乙酰胆碱症状缓解\n\n乙酰胆碱的恢复\n乙酰胆碱反弹通常在最初几天达到高峰，到一周时开始大幅缓解。随着乙酰胆碱系统回到其自然水平：\n\n哪些在改善\n• 胃肠症状（恶心、痉挛、腹泻）正在减少\n• 出汗和流感样症状正在缓解\n• 睡眠虽然仍然紊乱，但开始稳定\n• 过多的唾液分泌正在消退\n\n自主神经系统\nTCA通过多种机制影响身体的自主功能——心率、血压、消化。到一周时，最强烈的自主神经症状——包括站立时头晕和心率的快速变化——随着神经系统的重新调整而开始消退。';
+      '停用TCA一周：闯过第一阶段\n\n一周意味着什么\nNHS指南指出，抗抑郁药停药症状通常在几天内开始，并持续数周。有些人的症状可能很重，或持续数月甚至更久。\n\n仍可能存在的症状\n• 头痛和肌肉酸痛\n• 恶心和出汗\n• 心跳加快、扑动、强烈跳动或漏跳感\n• 头晕或站立不稳\n• 睡眠问题、奇怪的梦和疲劳\n• 坐立不安、易怒、焦虑、情绪低落或思考困难\n\n七天就是进步\n完整一周没有使用TCA值得庆祝。NHS说明停药症状可持续数天到数周，有时更久，因此与心率、消化、睡眠和其他自主功能相关的症状可能按不同节奏逐渐缓解。';
 
   @override
   String get tcaReferenceDay14 =>
@@ -6080,18 +6080,18 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   String get tcaSubtitleNotStarted => '看看停藥後會發生甚麼';
 
   @override
-  String get tcaMilestone3Title => '第3天：乙酰膽鹼反彈達到峰值';
+  String get tcaMilestone3Title => '第3天：膽鹼能反彈';
 
   @override
   String get tcaMilestone3Description =>
-      'TCA會阻斷乙酰膽鹼。停藥後，這個系統可能短暫變得過度活躍。症狀包括惡心、腹瀉、腹部痙攣、大量出汗、頭痛、肌肉酸痛和失眠。這些症狀通常較早達到峰值，然後逐漸緩解。';
+      '停用TCA後可能出現真正的停藥症狀，中樞膽鹼能過度活化是提出的機制之一。噁心、腹瀉、腹痛、失眠、焦慮、躁動和頭痛可能較早出現，尤其是在突然停藥或減量過快後。第3天是一個里程碑；症狀出現的時間和強度因人而異。';
 
   @override
-  String get tcaMilestone7Title => '一周：反彈症狀開始緩解';
+  String get tcaMilestone7Title => '一週：撐過第一階段';
 
   @override
   String get tcaMilestone7Description =>
-      '乙酰膽鹼反彈通常在最初幾天達到峰值，並在一周左右開始緩解。胃腸症狀、出汗和流感樣感覺正在減少，控制心率、消化和出汗的身體系統也在逐漸恢復正常。';
+      '抗憂鬱藥停藥症狀通常在幾天內開始，並常持續數週。一週後，噁心、出汗、睡眠問題、心悸和頭暈仍可能存在。七天是真正的進步，恢復可以繼續按不同節奏推進。';
 
   @override
   String get tcaMilestone14Title => '兩周：抗膽鹼能效果逆轉';
@@ -6909,11 +6909,11 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get tcaReferenceDay3 =>
-      'TCA停藥：最初幾天——乙酰膽鹼反彈\n\n來源：Dilsaver, Feinberg & Greden（1983），American Journal of Psychiatry——\'Antidepressant withdrawal symptoms treated with anticholinergic agents\'（病例報告，3名患者）\n\n是甚麼讓TCA停藥與眾不同\n三環類抗抑鬱藥（TCA）在機制上與SSRI和SNRI根本不同。除了阻斷血清素和去甲腎上腺素的再攝取之外，TCA還強烈阻斷身體的乙酰膽鹼系統。當你停止時，這個系統會反彈。\n\n乙酰膽鹼反彈症狀\n與SSRI停藥不同，TCA戒斷會產生乙酰膽鹼反彈：\n• 惡心、嘔吐和腹瀉\n• 唾液和出汗過多\n• 頭痛和肌肉酸痛\n• 伴有生動或令人不安夢境的失眠\n• 焦慮和坐立不安\n\n常見TCA及其特徵\n阿米替林和丙咪嗪的乙酰膽鹼阻斷效應最強，通常產生最明顯的反彈。去甲替林的效應稍微溫和一些。氯米帕明除了其乙酰膽鹼阻斷特徵之外，還有顯著的血清素相關效應。';
+      '停用TCA：最初幾天——膽鹼能反彈\n\n來源：Dilsaver, Feinberg & Greden (1983), American Journal of Psychiatry — \'Antidepressant withdrawal symptoms treated with anticholinergic agents\'（3例病例報告）\n\n為什麼停用TCA可能感覺不同\n許多TCA除了影響血清素和去甲腎上腺素，也具有抗膽鹼作用。在3個已發表病例中，突然停藥或快速減量後的停藥症狀對抗膽鹼治療有反應，因此作者提出中樞膽鹼能過度活化可能是機制之一。\n\nTCA停藥中報告的症狀\n• 噁心、嘔吐、腹瀉、腹痛和食慾下降\n• 失眠或其他睡眠障礙\n• 焦慮、躁動和易怒\n• 頭痛和其他身體症狀\n\n時間因人而異\n停藥症狀可能較早出現，尤其是在突然停藥或快速減量後。這份3例病例報告支持膽鹼能反彈這一機制。它並不是為了建立固定的逐日時間表，也不是為了比較不同TCA的反彈強度。';
 
   @override
   String get tcaReferenceDay7 =>
-      '停用TCA一周：乙酰膽鹼症狀緩解\n\n乙酰膽鹼的恢復\n乙酰膽鹼反彈通常在最初幾天達到高峰，到一周時開始大幅緩解。隨著乙酰膽鹼系統回到其自然水平：\n\n哪些在改善\n• 胃腸症狀（惡心、痙攣、腹瀉）正在減少\n• 出汗和流感樣症狀正在緩解\n• 睡眠雖然仍然紊亂，但開始穩定\n• 過多的唾液分泌正在消退\n\n自主神經系統\nTCA通過多種機制影響身體的自主功能——心率、血壓、消化。到一周時，最強烈的自主神經症狀——包括站立時頭暈和心率的快速變化——隨著神經系統的重新調整而開始消退。';
+      '停用TCA一週：撐過第一階段\n\n一週意味著什麼\nNHS指南指出，抗憂鬱藥停藥症狀通常在幾天內開始，並持續數週。有些人的症狀可能很重，或持續數月甚至更久。\n\n仍可能存在的症狀\n• 頭痛和肌肉痠痛\n• 噁心和出汗\n• 心跳加快、撲動、強烈跳動或漏跳感\n• 頭暈或站立不穩\n• 睡眠問題、奇怪的夢和疲勞\n• 坐立不安、易怒、焦慮、情緒低落或思考困難\n\n七天就是進步\n完整一週沒有使用TCA值得慶祝。NHS說明停藥症狀可持續數天到數週，有時更久，因此與心率、消化、睡眠和其他自律功能相關的症狀可能按不同節奏逐漸緩解。';
 
   @override
   String get tcaReferenceDay14 =>

@@ -2819,19 +2819,18 @@ class AppLocalizationsFr extends AppLocalizations {
       'Découvrez ce qui se passe pendant l\'arrêt progressif';
 
   @override
-  String get tcaMilestone3Title => 'Jour 3 : pic du rebond cholinergique';
+  String get tcaMilestone3Title => 'Jour 3 : Rebond cholinergique';
 
   @override
   String get tcaMilestone3Description =>
-      'Les ATC bloquent l\'acétylcholine. Après l\'arrêt, ce système peut brièvement devenir hyperactif. Les symptômes comprennent nausées, diarrhée, crampes abdominales, fortes sueurs, maux de tête, douleurs musculaires et insomnie. Ils culminent généralement tôt puis s\'atténuent.';
+      'L\'arrêt d\'un tricyclique peut provoquer un vrai syndrome de sevrage, l\'hyperactivité cholinergique étant l\'un des mécanismes proposés. Nausées, diarrhée, douleurs abdominales, insomnie, anxiété, agitation et maux de tête peuvent apparaître tôt, surtout après un arrêt brutal ou une diminution rapide. Le jour 3 est une étape ; le moment et l\'intensité des symptômes varient.';
 
   @override
-  String get tcaMilestone7Title =>
-      'Une semaine : les symptômes de rebond diminuent';
+  String get tcaMilestone7Title => 'Une semaine : Première étape franchie';
 
   @override
   String get tcaMilestone7Description =>
-      'Le rebond cholinergique culmine généralement pendant les premiers jours et commence à diminuer après une semaine. Les symptômes digestifs, les sueurs et la sensation pseudo-grippale s\'atténuent, tandis que les systèmes contrôlant le rythme cardiaque, la digestion et la transpiration reviennent vers la normale.';
+      'Le sevrage commence généralement en quelques jours et dure souvent plusieurs semaines. Après une semaine, nausées, sueurs, troubles du sommeil, palpitations et vertiges peuvent encore être présents. Sept jours, c\'est un vrai progrès, et la récupération peut continuer selon des rythmes différents.';
 
   @override
   String get tcaMilestone14Title =>
@@ -3662,11 +3661,11 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get tcaReferenceDay3 =>
-      'Arrêt des tricycliques : les premiers jours — rebond de l\'acétylcholine\n\nSource : Dilsaver, Feinberg & Greden (1983), American Journal of Psychiatry — « Antidepressant withdrawal symptoms treated with anticholinergic agents » (rapport de cas, 3 patients)\n\nCe qui distingue l\'arrêt des tricycliques\nLes antidépresseurs tricycliques diffèrent fondamentalement des ISRS et des IRSN par leur mécanisme. En plus de bloquer la recapture de la sérotonine et de la noradrénaline, ils bloquent fortement le système cholinergique de l\'organisme. Lorsque vous les arrêtez, ce système rebondit.\n\nSymptômes du rebond cholinergique\nContrairement au sevrage des ISRS, celui des tricycliques peut provoquer un rebond de l\'acétylcholine :\n• nausées, vomissements et diarrhée\n• salivation excessive et transpiration\n• maux de tête et douleurs musculaires\n• insomnie avec rêves très vifs ou perturbants\n• anxiété et agitation\n\nTricycliques courants et profils\nL\'amitriptyline et l\'imipramine ont les effets anticholinergiques les plus marqués et provoquent généralement le rebond le plus net. La nortriptyline a des effets un peu plus modérés. La clomipramine possède aussi des effets sérotoninergiques importants en plus de son profil anticholinergique.';
+      'Arrêt des tricycliques : les premiers jours — rebond cholinergique\n\nSource : Dilsaver, Feinberg & Greden (1983), American Journal of Psychiatry — \'Antidepressant withdrawal symptoms treated with anticholinergic agents\' (rapport de 3 cas)\n\nPourquoi l\'arrêt des tricycliques peut être différent\nDe nombreux tricycliques ont des effets anticholinergiques en plus de leur action sur la sérotonine et la noradrénaline. Dans trois cas publiés, des symptômes de sevrage après arrêt brutal ou diminution rapide ont répondu à un traitement anticholinergique, ce qui a conduit les auteurs à proposer une hyperactivité cholinergique centrale comme mécanisme.\n\nSymptômes rapportés lors du sevrage des tricycliques\n• Nausées, vomissements, diarrhée, douleurs abdominales et perte d\'appétit\n• Insomnie ou autres troubles du sommeil\n• Anxiété, agitation et irritabilité\n• Maux de tête et autres symptômes physiques\n\nLe calendrier varie\nLe sevrage peut frapper tôt, surtout après un arrêt brutal ou une diminution rapide. Ce rapport de trois cas soutient le rebond cholinergique comme mécanisme. Il n\'a pas été conçu pour établir un calendrier fixe jour par jour ni pour comparer les tricycliques selon l\'intensité du rebond.';
 
   @override
   String get tcaReferenceDay7 =>
-      'Une semaine après l\'arrêt des tricycliques : les symptômes cholinergiques s\'atténuent\n\nRécupération du système cholinergique\nLe rebond de l\'acétylcholine atteint généralement son maximum dans les premiers jours puis commence à diminuer nettement au bout d\'une semaine. À mesure que le système cholinergique revient vers son niveau naturel :\n\nCe qui s\'améliore\n• les symptômes digestifs — nausées, crampes, diarrhée — diminuent\n• la transpiration et les symptômes pseudo-grippaux s\'atténuent\n• le sommeil, encore perturbé, commence à se stabiliser\n• la salivation excessive disparaît\n\nSystème nerveux autonome\nLes tricycliques affectent plusieurs fonctions automatiques de l\'organisme — rythme cardiaque, pression artérielle, digestion — par différents mécanismes. Au bout d\'une semaine, les symptômes autonomes les plus intenses, notamment les vertiges au passage en position debout et les variations rapides du rythme cardiaque, commencent à disparaître à mesure que le système nerveux se réadapte.';
+      'Une semaine après les tricycliques : première étape franchie\n\nCe que signifie une semaine\nSelon le NHS, le sevrage des antidépresseurs commence généralement en quelques jours et dure plusieurs semaines. Chez certaines personnes, il peut être sévère ou durer des mois, voire davantage.\n\nSymptômes qui peuvent encore être présents\n• Maux de tête et douleurs musculaires\n• Nausées et sueurs\n• Cœur qui s\'emballe, papillonne, cogne ou saute des battements\n• Vertiges ou instabilité\n• Troubles du sommeil, rêves étranges et fatigue\n• Agitation, irritabilité, anxiété, baisse de l\'humeur ou difficulté à réfléchir\n\nSept jours, c\'est du progrès\nUne semaine complète sans tricyclique mérite d\'être célébrée. Le NHS décrit un sevrage qui se déroule sur des jours ou des semaines, parfois davantage ; les symptômes liés au rythme cardiaque, à la digestion, au sommeil et aux autres fonctions autonomes peuvent donc se calmer à des rythmes différents.';
 
   @override
   String get tcaReferenceDay14 =>

@@ -2771,18 +2771,18 @@ class AppLocalizationsDe extends AppLocalizations {
       'Sehen Sie, was passiert, wenn Sie sich verjüngen';
 
   @override
-  String get tcaMilestone3Title => 'Tag 3: Acetylcholin Rebound Peaks';
+  String get tcaMilestone3Title => 'Tag 3: Cholinerger Rebound';
 
   @override
   String get tcaMilestone3Description =>
-      'TCAs blockieren Acetylcholin. Nach dem Anhalten kann dieses System kurzzeitig überaktiv werden. Zu den Symptomen gehören Übelkeit, Durchfall, Magenkrämpfe, starkes Schwitzen, Kopfschmerzen, Muskelschmerzen und Schlaflosigkeit. Diese Symptome in der Regel Peak früh und dann erleichtern.';
+      'Das Absetzen von TCA kann ein echtes Entzugssyndrom auslösen; eine cholinerge Überaktivität ist ein vorgeschlagener Mechanismus. Übelkeit, Durchfall, Bauchschmerzen, Schlaflosigkeit, Angst, Unruhe und Kopfschmerzen können früh auftreten – besonders nach abruptem Absetzen oder schnellem Ausschleichen. Tag 3 ist ein Meilenstein; Zeitpunkt und Stärke der Symptome sind unterschiedlich.';
 
   @override
-  String get tcaMilestone7Title => 'Eine Woche: Rebound Symptome Lockerung';
+  String get tcaMilestone7Title => 'Eine Woche: Die erste Etappe geschafft';
 
   @override
   String get tcaMilestone7Description =>
-      'Der Acetylcholin-Rebound erreicht normalerweise in den ersten Tagen seinen Höhepunkt und beginnt sich um eine Woche zu entspannen. Magensymptome, Schwitzen und grippeähnliche Gefühle reduzieren sich, während die Körpersysteme, die Herzfrequenz, Verdauung und Schwitzen kontrollieren, wieder normal werden.';
+      'Entzugssymptome beginnen meist innerhalb weniger Tage und dauern oft einige Wochen. Nach einer Woche können Übelkeit, Schwitzen, Schlafprobleme, Herzklopfen und Schwindel noch vorhanden sein. Sieben Tage sind echter Fortschritt, und die Erholung kann sich auf unterschiedlichen Zeitachsen weiterentwickeln.';
 
   @override
   String get tcaMilestone14Title =>
@@ -3610,11 +3610,11 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get tcaReferenceDay3 =>
-      'TCA Discontinuation: Die ersten Tage - Acetylcholin Rebound\n\nQuelle: Dilsaver, Feinberg & Greden (1983), American Journal of Psychiatry - \"Antidepressive Entzugserscheinungen, die mit Anticholinergika behandelt wurden\" (Fallbericht, 3 Patienten)\n\nWas TCA Discontinuation anders macht\nTrizyklische Antidepressiva unterscheiden sich grundlegend von SSRIs und SNRIs in ihrem Mechanismus. Zusätzlich zur Blockierung der Serotonin- und Noradrenalin-Wiederaufnahme blockieren TCAs stark das körpereigene Acetylcholinsystem. Wenn Sie aufhören, prallt dieses System zurück.\n\nAcetylcholin Rebound Symptome\nIm Gegensatz zum Absetzen von SSRI erzeugt der TCA-Entzug einen Acetylcholin-Rebound:\n• Übelkeit, Erbrechen und Durchfall\n• übermäßiger Speichelfluss und Schwitzen\n• Kopfschmerzen und Muskelschmerzen\n• Schlaflosigkeit mit lebhaften oder störenden Träumen\n• Angst und Unruhe\n\nGemeinsame TCAs und ihre Profile\nAmitriptylin und Imipramin haben die stärksten acetylcholinblockierenden Effekte und produzieren typischerweise den stärksten Rebound. Nortriptylin hat etwas mildere Wirkungen. Clomipramin hat auch signifikante Serotonin-bezogene Effekte neben seinem Acetylcholin-blockierenden Profil.';
+      'TCA-Absetzen: Die ersten Tage — cholinerger Rebound\n\nQuelle: Dilsaver, Feinberg & Greden (1983), American Journal of Psychiatry — \'Antidepressant withdrawal symptoms treated with anticholinergic agents\' (Fallbericht, 3 Patienten)\n\nWarum sich TCA anders anfühlen können\nViele TCA wirken neben Serotonin und Noradrenalin auch anticholinerg. In drei veröffentlichten Fällen sprachen Entzugssymptome nach abruptem Absetzen oder schnellem Ausschleichen auf eine anticholinerge Behandlung an; die Autoren vermuteten deshalb eine zentrale cholinerge Überaktivität als Mechanismus.\n\nBerichtete TCA-Entzugssymptome\n• Übelkeit, Erbrechen, Durchfall, Bauchschmerzen und Appetitverlust\n• Schlaflosigkeit oder andere Schlafstörungen\n• Angst, Unruhe und Reizbarkeit\n• Kopfschmerzen und andere körperliche Beschwerden\n\nDer Zeitpunkt variiert\nEntzug kann früh einsetzen, besonders nach abruptem Absetzen oder schnellem Ausschleichen. Dieser Fallbericht mit drei Patienten stützt den cholinergen Rebound als Mechanismus. Er war nicht darauf ausgelegt, einen festen Tag-für-Tag-Verlauf festzulegen oder einzelne TCA nach Rebound-Stärke zu vergleichen.';
 
   @override
   String get tcaReferenceDay7 =>
-      'Eine Woche nach TCAs: Acetylcholin Symptome Lockerung\n\nDie Acetylcholin Erholung\nDer Acetylcholin-Rebound erreicht typischerweise innerhalb der ersten Tage seinen Höhepunkt und beginnt sich um eine Woche erheblich zu entspannen. Wenn das Acetylcholinsystem zu seinem natürlichen Niveau zurückkehrt:\n\nWas verbessert sich\n• Gastrointestinale Symptome (Übelkeit, Krämpfe, Durchfall) reduzieren sich\n• Schwitzen und grippeähnliche Symptome lindern sich\n• Schlaf, obwohl immer noch gestört, beginnt sich zu stabilisieren\n• Der übermäßige Speichelfluss löst sich auf\n\nSelbsttätiges Körpernervensystem\nTCAs beeinflussen die automatischen Funktionen des Körpers - Herzfrequenz, Blutdruck, Verdauung - durch mehrere Mechanismen. Nach einer Woche beginnen sich die intensivsten automatischen Körpersymptome - einschließlich Schwindel beim Stehen und schnellen Herzfrequenzänderungen - zu lösen, wenn sich das Nervensystem neu anpasst.';
+      'Eine Woche nach TCA: Die erste Etappe geschafft\n\nWas eine Woche bedeutet\nLaut NHS beginnt der Entzug von Antidepressiva meist innerhalb weniger Tage und dauert einige Wochen. Bei manchen Menschen ist er schwer oder hält Monate oder länger an.\n\nSymptome, die noch auftreten können\n• Kopfschmerzen und Muskelschmerzen\n• Übelkeit und Schwitzen\n• Herzrasen, Herzflattern, starkes Herzklopfen oder Aussetzer\n• Schwindel oder Unsicherheit\n• Schlafprobleme, ungewöhnliche Träume und Müdigkeit\n• Unruhe, Reizbarkeit, Angst, gedrückte Stimmung oder Denkprobleme\n\nSieben Tage sind Fortschritt\nEine volle Woche ohne TCA ist ein Grund zum Feiern. Die NHS-Leitlinie beschreibt Entzug über Tage bis Wochen, manchmal länger; deshalb können sich Symptome rund um Herzfrequenz, Verdauung, Schlaf und andere autonome Funktionen in unterschiedlichem Tempo beruhigen.';
 
   @override
   String get tcaReferenceDay14 =>

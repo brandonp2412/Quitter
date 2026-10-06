@@ -2758,18 +2758,18 @@ class AppLocalizationsId extends AppLocalizations {
       'Lihat apa yang terjadi saat Anda melakukan pengurangan bertahap';
 
   @override
-  String get tcaMilestone3Title => 'Hari 3: Puncak Rebound Asetilkolin';
+  String get tcaMilestone3Title => 'Hari ke-3: Rebound Kolinergik';
 
   @override
   String get tcaMilestone3Description =>
-      'TCA memblokir asetilkolin. Setelah berhenti, sistem tersebut dapat menjadi terlalu aktif untuk sementara waktu. Gejalanya meliputi mual, diare, kram perut, keringat berlebih, sakit kepala, nyeri otot, dan insomnia. Gejala-gejala ini biasanya memuncak pada tahap awal dan kemudian mereda.';
+      'Berhenti TCA dapat memicu sindrom putus obat yang nyata, dengan aktivitas kolinergik berlebih sebagai salah satu mekanisme yang diusulkan. Mual, diare, sakit perut, insomnia, cemas, gelisah, dan sakit kepala dapat muncul lebih awal—terutama setelah berhenti mendadak atau taper yang terlalu cepat. Hari ke-3 adalah pencapaian; waktu dan intensitas gejala berbeda-beda.';
 
   @override
-  String get tcaMilestone7Title => 'Satu Minggu: Gejala Rebound Mereda';
+  String get tcaMilestone7Title => 'Satu Minggu: Tahap Pertama Terlewati';
 
   @override
   String get tcaMilestone7Description =>
-      'Rebound asetilkolin biasanya mencapai puncaknya dalam beberapa hari pertama dan mulai mereda dalam satu minggu. Gejala perut, berkeringat, dan rasa seperti flu berkurang, sementara sistem tubuh yang mengontrol detak jantung, pencernaan, dan keringat kembali normal.';
+      'Gejala putus antidepresan biasanya mulai dalam beberapa hari dan sering berlangsung beberapa minggu. Setelah satu minggu, mual, keringat, gangguan tidur, jantung berdebar, dan pusing masih bisa terasa. Tujuh hari adalah kemajuan nyata, dan pemulihan dapat terus bergerak dengan waktu yang berbeda-beda.';
 
   @override
   String get tcaMilestone14Title =>
@@ -3598,11 +3598,11 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get tcaReferenceDay3 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Penghentian TCA: Hari-Hari Pertama — Rebound Kolinergik\n\nSumber: Dilsaver, Feinberg & Greden (1983), American Journal of Psychiatry — \'Antidepressant withdrawal symptoms treated with anticholinergic agents\' (laporan kasus, 3 pasien)\n\nMengapa Penghentian TCA Bisa Terasa Berbeda\nBanyak TCA memiliki efek antikolinergik selain memengaruhi serotonin dan noradrenalin. Dalam tiga kasus yang dipublikasikan, gejala putus obat setelah penghentian mendadak atau taper cepat membaik dengan terapi antikolinergik, sehingga penulis mengusulkan aktivitas kolinergik pusat yang berlebihan sebagai salah satu mekanisme.\n\nGejala Putus TCA yang Dilaporkan\n• Mual, muntah, diare, sakit perut, dan hilang nafsu makan\n• Insomnia atau gangguan tidur lainnya\n• Cemas, gelisah, dan mudah tersinggung\n• Sakit kepala dan gejala fisik lainnya\n\nWaktunya Berbeda-beda\nGejala putus obat dapat muncul lebih awal, terutama setelah berhenti mendadak atau taper cepat. Laporan tiga kasus ini mendukung rebound kolinergik sebagai mekanisme. Studi ini tidak dirancang untuk menetapkan jadwal harian yang tetap atau membandingkan TCA berdasarkan beratnya rebound.';
 
   @override
   String get tcaReferenceDay7 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Satu Minggu Setelah TCA: Tahap Pertama Terlewati\n\nArti Satu Minggu\nPanduan NHS menyatakan gejala putus antidepresan biasanya mulai dalam beberapa hari dan berlangsung beberapa minggu. Pada sebagian orang, gejalanya bisa berat atau bertahan berbulan-bulan atau lebih lama.\n\nGejala yang Masih Bisa Terjadi\n• Sakit kepala dan nyeri otot\n• Mual dan berkeringat\n• Jantung berpacu, bergetar, berdebar keras, atau terasa melewatkan denyut\n• Pusing atau tidak stabil\n• Gangguan tidur, mimpi aneh, dan kelelahan\n• Gelisah, mudah tersinggung, cemas, suasana hati rendah, atau sulit berpikir\n\nTujuh Hari Adalah Kemajuan\nSatu minggu penuh tanpa TCA layak dirayakan. Panduan NHS menggambarkan putus antidepresan selama beberapa hari hingga beberapa minggu, kadang lebih lama, sehingga gejala terkait detak jantung, pencernaan, tidur, dan fungsi otonom lainnya dapat mereda dengan kecepatan yang berbeda.';
 
   @override
   String get tcaReferenceDay14 =>
