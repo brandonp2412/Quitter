@@ -2665,12 +2665,11 @@ class AppLocalizationsPt extends AppLocalizations {
       'No ensaio ANTLER, a diferença nos sintomas de abstinência após parar antidepressivos de longa duração foi maior às 12 semanas e menor nos seguimentos posteriores. Isso faz dos três meses um verdadeiro ponto de viragem no percurso de abstinência medido.';
 
   @override
-  String get ssriMilestone180Title =>
-      'Seis Meses: Ajuste Cerebral de Longo Prazo';
+  String get ssriMilestone180Title => 'Seis meses: 65% mantiveram-se bem';
 
   @override
   String get ssriMilestone180Description =>
-      'Seis meses permitem um ajuste neurológico substancial. Os sistemas de serotonina do cérebro encontraram seu equilíbrio natural. Muitas pessoas relatam melhora do alcance emocional e, para aquelas que vivenciaram isso, a disfunção sexual causada pelos ISRSs normalmente foi resolvida.';
+      'Num seguimento de seis meses após a interrupção de antidepressivos em pessoas em remissão, 54 de 83 participantes com dados de seguimento — 65% — mantiveram-se bem. Seis meses é um marco concreto de estabilidade a longo prazo.';
 
   @override
   String get ssriMilestone365Title => 'Um ano: um marco enorme';
@@ -3594,7 +3593,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get ssriReferenceDay180 =>
-      'Seis meses após os ISRS: uma visão fundamentada\n\nFonte: \"Síndrome de abstinência de antidepressivos\", Therapeutics Letter 112 (2018), Therapeutics Initiative, na estante do NCBI\n\nO que está bem estabelecido em seis meses\nEsta revisão observa que mesmo os sintomas de abstinência graves e prolongados normalmente duram semanas a meses, em vez de indefinidamente – portanto, em seis meses, a síndrome de abstinência aguda, para a grande maioria das pessoas, está claramente resolvida.\n\nSendo honesto sobre o resto\nAos seis meses, o período normal de abstinência já passou e o sistema da serotonina teve meses para se acalmar. Os efeitos colaterais sexuais geralmente melhoram após a interrupção; se persistirem, discuta-os com o seu médico.\n\nO que as pessoas comumente relatam\n• Uma gama emocional mais ampla em comparação com estar sob medicação\n• Melhor sono e energia para a maioria\n• Melhoria gradual contínua, embora o ritmo varie amplamente entre os indivíduos';
+      'Seis meses após interromper antidepressivos: 65% mantiveram-se bem\n\nFonte: Volkmann et al. (2026), European Archives of Psychiatry and Clinical Neuroscience\n\nUm resultado concreto aos seis meses\nO estudo acompanhou pessoas cuja depressão major estava em remissão enquanto interrompiam os antidepressivos. Dos 83 participantes com dados aos seis meses, 54 — 65% — mantiveram-se bem, enquanto 29 tiveram uma recaída.\n\nPorque este marco importa\nEste resultado medido aos seis meses torna-o um marco real de estabilidade a longo prazo. O estudo também avaliou os sintomas de descontinuação separadamente da recaída, ajudando a distinguir os dois.\n\nSe a depressão estiver a regressar com força, contacte cedo o profissional que lhe prescreve a medicação.';
 
   @override
   String get ssriReferenceDay365 =>
@@ -6354,12 +6353,11 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
       'No estudo ANTLER, a diferença nos sintomas de abstinência após interromper antidepressivos de longo prazo foi maior em 12 semanas e menor nos acompanhamentos posteriores. Isso faz de três meses um verdadeiro ponto de virada no curso medido da abstinência.';
 
   @override
-  String get ssriMilestone180Title =>
-      'Seis Meses: Ajuste Cerebral de Longo Prazo';
+  String get ssriMilestone180Title => 'Seis meses: 65% permaneceram bem';
 
   @override
   String get ssriMilestone180Description =>
-      'Seis meses permitem um ajuste neurológico substancial. Os sistemas de serotonina do cérebro encontraram seu equilíbrio natural. Muitas pessoas relatam melhora do alcance emocional e, para aquelas que vivenciaram isso, a disfunção sexual causada pelos ISRSs normalmente foi resolvida.';
+      'Em um acompanhamento de seis meses após a interrupção de antidepressivos em pessoas em remissão, 54 de 83 participantes com dados de acompanhamento — 65% — permaneceram bem. Seis meses é um marco concreto de estabilidade a longo prazo.';
 
   @override
   String get ssriMilestone365Title => 'Um ano: recuperação alcançada';
@@ -7285,7 +7283,7 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get ssriReferenceDay180 =>
-      'Seis meses após os ISRS: uma visão fundamentada\n\nFonte: \"Síndrome de abstinência de antidepressivos\", Therapeutics Letter 112 (2018), Therapeutics Initiative, na estante do NCBI\n\nO que está bem estabelecido em seis meses\nEsta revisão observa que mesmo os sintomas de abstinência graves e prolongados normalmente duram semanas a meses, em vez de indefinidamente – portanto, em seis meses, a síndrome de abstinência aguda, para a grande maioria das pessoas, está claramente resolvida.\n\nSendo honesto sobre o resto\nAos seis meses, o período normal de abstinência já passou e o sistema da serotonina teve meses para se acalmar. Os efeitos colaterais sexuais geralmente melhoram após a interrupção; se persistirem, discuta-os com o seu médico.\n\nO que as pessoas comumente relatam\n• Uma gama emocional mais ampla em comparação com estar sob medicação\n• Melhor sono e energia para a maioria\n• Melhoria gradual contínua, embora o ritmo varie amplamente entre os indivíduos';
+      'Seis meses após interromper antidepressivos: 65% permaneceram bem\n\nFonte: Volkmann et al. (2026), European Archives of Psychiatry and Clinical Neuroscience\n\nUm resultado concreto aos seis meses\nO estudo acompanhou pessoas cuja depressão maior estava em remissão enquanto interrompiam os antidepressivos. Dos 83 participantes com dados aos seis meses, 54 — 65% — permaneceram bem, enquanto 29 tiveram recaída.\n\nPor que este marco importa\nEsse resultado medido aos seis meses torna o momento um marco real de estabilidade a longo prazo. O estudo também avaliou os sintomas de descontinuação separadamente da recaída, ajudando a distinguir os dois.\n\nSe a depressão estiver voltando com força, procure cedo o profissional que prescreve seu tratamento.';
 
   @override
   String get ssriReferenceDay365 =>

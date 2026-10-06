@@ -2650,12 +2650,11 @@ class AppLocalizationsDe extends AppLocalizations {
       'In der ANTLER-Studie war der Unterschied bei den Entzugssymptomen nach dem Absetzen einer langfristigen Antidepressivatherapie nach 12 Wochen am größten und bei späteren Nachuntersuchungen kleiner. Damit markieren drei Monate einen echten Wendepunkt im gemessenen Entzugsverlauf.';
 
   @override
-  String get ssriMilestone180Title =>
-      'Sechs Monate: Langfristige Gehirnanpassung';
+  String get ssriMilestone180Title => 'Sechs Monate: 65 % blieben stabil';
 
   @override
   String get ssriMilestone180Description =>
-      'Sechs Monate ermöglichen eine erhebliche neurologische Anpassung. Die Serotoninsysteme des Gehirns haben ihr natürliches Gleichgewicht gefunden. Viele Menschen berichten von einer verbesserten emotionalen Reichweite und für diejenigen, die es erlebt haben, hat sich die sexuelle Dysfunktion, die durch SSRIs verursacht wird, typischerweise aufgelöst.';
+      'In einer sechsmonatigen Nachbeobachtung nach dem Absetzen von Antidepressiva blieben 54 von 83 Teilnehmenden mit Verlaufsdaten — 65 % — stabil. Sechs Monate sind damit ein konkreter Meilenstein für langfristige Stabilität.';
 
   @override
   String get ssriMilestone365Title => 'Ein Jahr: Ein riesiger Meilenstein';
@@ -3577,7 +3576,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get ssriReferenceDay180 =>
-      'Sechs Monate nach SSRIs: Eine geerdete Ansicht\n\nQuelle: \"Antidepressivum-Entzugssyndrom\", Therapeutics Letter 112 (2018), Therapeutics Initiative, im NCBI Bookshelf\n\nWas ist gut etabliert durch sechs Monate\nDiese Überprüfung stellt fest, dass selbst schwere, verlängerte Entzugserscheinungen typischerweise Wochen bis Monate und nicht auf unbestimmte Zeit dauern - so hat sich das akute Entzugssyndrom um sechs Monate für die große Mehrheit der Menschen klar aufgelöst.\n\nEhrlich sein über den Rest\nNach sechs Monaten liegt die übliche Widerrufsfrist weit hinter Ihnen und das Serotoninsystem hatte Monate Zeit, sich zu beruhigen. Sexuelle Nebenwirkungen verbessern sich normalerweise nach dem Absetzen; wenn sie bestehen bleiben, besprechen Sie sie mit Ihrem verschreibenden Arzt.\n\nWas Menschen gewöhnlich berichten\n• Ein breiterer emotionaler Bereich im Vergleich zu Medikamenten\n• Verbesserter Schlaf und Energie für die meisten\n• Fortgesetzte allmähliche Verbesserung, obwohl das Tempo zwischen den Individuen stark variiert';
+      'Sechs Monate nach dem Absetzen von Antidepressiva: 65 % blieben stabil\n\nQuelle: Volkmann et al. (2026), European Archives of Psychiatry and Clinical Neuroscience\n\nEin konkretes Sechs-Monats-Ergebnis\nDie Studie begleitete Menschen, deren schwere Depression in Remission war, während sie Antidepressiva absetzten. Von 83 Teilnehmenden mit Sechs-Monats-Daten blieben 54 — 65 % — stabil, während 29 einen Rückfall erlebten.\n\nWarum dieser Meilenstein zählt\nDieses gemessene Sechs-Monats-Ergebnis macht den Zeitpunkt zu einem echten Meilenstein langfristiger Stabilität. Die Studie erfasste Entzugssymptome zudem getrennt von Rückfällen und half so, beides zu unterscheiden.\n\nWenn depressive Symptome deutlich zurückkehren, wende dich frühzeitig an deine verschreibende Ärztin oder deinen verschreibenden Arzt.';
 
   @override
   String get ssriReferenceDay365 =>

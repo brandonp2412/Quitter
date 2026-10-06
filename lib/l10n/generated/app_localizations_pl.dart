@@ -2664,11 +2664,11 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get ssriMilestone180Title =>
-      'Sześć miesięcy: Długoterminowa regulacja mózgu';
+      'Sześć miesięcy: 65% pozostało w dobrym stanie';
 
   @override
   String get ssriMilestone180Description =>
-      'Sześć miesięcy pozwala na znaczną korektęneurologiczną. Systemy serotoninowe mózgu znalazły swoją naturalną równowagę. Wiele osób zgłasza poprawę zakresu emocjonalnego i, dla tych, którzy tego doświadczyli, zaburzenia seksualne spowodowane przez SSRI zazwyczaj rozwiązano.';
+      'W sześciomiesięcznej obserwacji po odstawieniu leków przeciwdepresyjnych u osób w remisji 54 z 83 uczestników z danymi końcowymi — 65% — pozostało w dobrym stanie. Sześć miesięcy to konkretny kamień milowy długoterminowej stabilności.';
 
   @override
   String get ssriMilestone365Title => 'Rok: ogromny kamień milowy';
@@ -3587,7 +3587,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get ssriReferenceDay180 =>
-      'Sześć miesięcy po SSRIs- widok uziemiony\n\nŹródło: \"Antidepressant Withdrawal Syndrome,\" Therapeutics Letter 112 (2018), Therapeutics Initiative, on the NCBI Bookshelf\n\nWhathagen Well- Ustanowione przez sześć miesięcy\nW przeglądzie tym zauważono, że nawet poważne, długotrwałe objawy odstawienne zwykle trwają od tygodni do miesięcy, a nie w nieskończoność, tak więc zespół ostrego odstawiennictwa, dla znacznej większości osób, jest wyraźnie rozwiązany.\n\nBycie szczerym o odpoczynku\nPrzez sześć miesięcy, zwykle okres karencji jest dobrze za tobą i system serotoniny miał miesiące do ustalenia. Seksualne działania niepożądane zwykle poprawia się po zatrzymaniu; jeśli utrzymują się, przedyskutować je z lekarzem.\n\nCo ludzie zgłaszają\n• szerszy zakres emocjonalny w porównaniu z przyjmowaniem leków\n• Poprawa snu i energii dla większości\n• Utrzymująca się stopniowa poprawa, choć tempo jest bardzo zróżnicowane w poszczególnych osobach';
+      'Sześć miesięcy po odstawieniu antydepresantów: 65% pozostało w dobrym stanie\n\nŹródło: Volkmann i wsp. (2026), European Archives of Psychiatry and Clinical Neuroscience\n\nKonkretny wynik po sześciu miesiącach\nBadanie obserwowało osoby, u których duża depresja była w remisji, podczas odstawiania leków przeciwdepresyjnych. Spośród 83 uczestników z danymi po sześciu miesiącach 54 — 65% — pozostało w dobrym stanie, a 29 miało nawrót.\n\nDlaczego ten kamień milowy ma znaczenie\nTen zmierzony wynik po sześciu miesiącach czyni ten moment realnym kamieniem milowym długoterminowej stabilności. Badanie oceniało również objawy odstawienne oddzielnie od nawrotu, pomagając rozróżnić oba zjawiska.\n\nJeśli objawy depresji wyraźnie wracają, skontaktuj się wcześnie z lekarzem prowadzącym.';
 
   @override
   String get ssriReferenceDay365 =>

@@ -2482,11 +2482,11 @@ class AppLocalizationsJa extends AppLocalizations {
       'ANTLER試験では、長期抗うつ薬を中止した後の離脱症状の差は12週時点で最大となり、その後の追跡では小さくなりました。3か月は、測定された離脱経過のはっきりした転換点です。';
 
   @override
-  String get ssriMilestone180Title => '6ヶ月：長期的な脳の適応';
+  String get ssriMilestone180Title => '6か月：65％が良好な状態を維持';
 
   @override
   String get ssriMilestone180Description =>
-      '6ヶ月で神経系は大きく適応します。脳のセロトニンシステムは自然なバランスを取り戻しています。多くの人が感情の幅の改善を報告し、該当する人ではSSRIによる性機能障害も通常この時点までに解消しています。';
+      '寛解中に抗うつ薬を中止した人を6か月追跡した研究では、転帰データのある83人中54人（65％）が良好な状態を維持しました。6か月は長期的な安定を示す具体的な節目です。';
 
   @override
   String get ssriMilestone365Title => '1年：大きな節目';
@@ -3386,7 +3386,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get ssriReferenceDay180 =>
-      'SSRI中止から6ヶ月：地に足のついた見方\n\n出典：\"Antidepressant Withdrawal Syndrome,\" Therapeutics Letter 112 (2018), Therapeutics Initiative、NCBI Bookshelf所収\n\n6ヶ月までに十分確立されていること\nこのレビューは、重度で長引く離脱症状でさえ、通常は無期限ではなく数週間から数ヶ月続くと述べています—したがって6ヶ月までには、急性の離脱症候群は大多数の人にとって明確に解消しています。\n\n残りについて正直に\n6ヶ月までには、通常の離脱期間ははるか後方にあり、セロトニン系は落ち着くための数ヶ月の時間を得ています。性機能の副作用は通常、中止後に改善します。もし持続するなら、処方医と話し合ってください。\n\n人々がよく報告すること\n• 服薬中と比べて感情の幅が広い\n• ほとんどの人で睡眠とエネルギーが改善\n• 個人差は大きいものの、緩やかな改善が続く';
+      '抗うつ薬中止から6か月：65％が良好な状態を維持\n\n出典：Volkmannほか（2026）、European Archives of Psychiatry and Clinical Neuroscience\n\n6か月時点の具体的な結果\nこの研究は、大うつ病が寛解している状態で抗うつ薬を中止した人を追跡しました。6か月の転帰データがある83人のうち54人（65％）が良好な状態を維持し、29人が再発しました。\n\nこの節目が重要な理由\n実際に測定されたこの6か月の結果は、長期的な安定を示す具体的な節目です。研究では離脱症状と再発も別々に評価し、両者を区別しやすくしています。\n\nうつ症状が強く戻っている場合は、早めに処方医へ相談してください。';
 
   @override
   String get ssriReferenceDay365 =>

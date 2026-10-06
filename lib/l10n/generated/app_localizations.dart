@@ -4563,13 +4563,13 @@ abstract class AppLocalizations {
   /// No description provided for @ssriMilestone180Title.
   ///
   /// In en, this message translates to:
-  /// **'Six Months: Long-Term Brain Adjustment'**
+  /// **'Six Months: 65% Remained Well'**
   String get ssriMilestone180Title;
 
   /// No description provided for @ssriMilestone180Description.
   ///
   /// In en, this message translates to:
-  /// **'Six months allows for substantial neurological adjustment. The brain\'s serotonin systems have found their natural balance. Many people report improved emotional range and, for those who experienced it, sexual dysfunction caused by SSRIs has typically resolved.'**
+  /// **'In a six-month antidepressant-discontinuation follow-up of people in remission, 54 of 83 participants with outcome data — 65% — remained well. Six months is a concrete long-term stability milestone.'**
   String get ssriMilestone180Description;
 
   /// No description provided for @ssriMilestone365Title.
@@ -6009,7 +6009,7 @@ abstract class AppLocalizations {
   /// No description provided for @ssriReferenceDay180.
   ///
   /// In en, this message translates to:
-  /// **'Six Months After SSRIs: A Grounded View\n\nSource: \"Antidepressant Withdrawal Syndrome,\" Therapeutics Letter 112 (2018), Therapeutics Initiative, on the NCBI Bookshelf\n\nWhat\'s Well-Established by Six Months\nThis review notes that even severe, prolonged withdrawal symptoms typically last weeks to months rather than indefinitely — so by six months the acute withdrawal syndrome has, for the great majority of people, clearly resolved.\n\nBeing Honest About the Rest\nBy six months, the usual withdrawal period is well behind you and the serotonin system has had months to settle. Sexual side effects usually improve after stopping; if they persist, discuss them with your prescriber.\n\nWhat People Commonly Report\n• A wider emotional range compared with being on medication\n• Improved sleep and energy for most\n• Continued gradual improvement, though the pace varies widely between individuals'**
+  /// **'Six Months After Antidepressant Cessation: 65% Remained Well\n\nSource: Volkmann et al. (2026), European Archives of Psychiatry and Clinical Neuroscience\n\nA Concrete Six-Month Outcome\nThe study followed people whose major depression was in remission as they discontinued antidepressants. Of 83 participants with six-month outcome data, 54 — 65% — remained well, while 29 relapsed.\n\nWhy This Milestone Matters\nThat measured six-month result makes this a real long-term stability checkpoint. The study also assessed withdrawal symptoms separately from relapse, helping distinguish the two.\n\nIf depression is returning strongly, contact your prescriber early.'**
   String get ssriReferenceDay180;
 
   /// No description provided for @ssriReferenceDay365.

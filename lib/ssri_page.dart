@@ -127,21 +127,18 @@ class SsriPage extends StatelessWidget {
         title: l10n.ssriMilestone180Title,
         description: l10n.ssriMilestone180Description,
         reference:
-            "Antidepressant Withdrawal Syndrome — Therapeutics Letter (NCBI Bookshelf)",
-        link: "https://www.ncbi.nlm.nih.gov/books/NBK598502/",
-        referenceDate: "May 2026",
+            "Volkmann et al. (2026) — Antidepressant cessation follow-up (PubMed)",
+        link: "https://pubmed.ncbi.nlm.nih.gov/40266343/",
+        referenceDate: "October 2026",
         localizedReferenceContent: l10n.ssriReferenceDay180,
         referenceContent:
-            "Six Months After SSRIs: A Grounded View\n\n"
-            "Source: \"Antidepressant Withdrawal Syndrome,\" Therapeutics Letter 112 (2018), Therapeutics Initiative, on the NCBI Bookshelf\n\n"
-            "What's Well-Established by Six Months\n"
-            "This review notes that even severe, prolonged withdrawal symptoms typically last weeks to months rather than indefinitely — so by six months the acute withdrawal syndrome has, for the great majority of people, clearly resolved.\n\n"
-            "Being Honest About the Rest\n"
-            "By six months, the usual withdrawal period is well behind you and the serotonin system has had months to settle. Sexual side effects usually improve after stopping; if they persist, discuss them with your prescriber.\n\n"
-            "What People Commonly Report\n"
-            "• A wider emotional range compared with being on medication\n"
-            "• Improved sleep and energy for most\n"
-            "• Continued gradual improvement, though the pace varies widely between individuals",
+            "Six Months After Antidepressant Cessation: 65% Remained Well\n\n"
+            "Source: Volkmann et al. (2026), European Archives of Psychiatry and Clinical Neuroscience\n\n"
+            "A Concrete Six-Month Outcome\n"
+            "The study followed people whose major depression was in remission as they discontinued antidepressants. Of 83 participants with six-month outcome data, 54 — 65% — remained well, while 29 relapsed.\n\n"
+            "Why This Milestone Matters\n"
+            "That measured six-month result makes this a real long-term stability checkpoint. The study also assessed withdrawal symptoms separately from relapse, helping distinguish the two.\n\n"
+            "If depression is returning strongly, contact your prescriber early.",
       ),
       QuitMilestone(
         day: 365,

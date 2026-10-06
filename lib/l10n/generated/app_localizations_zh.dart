@@ -2479,11 +2479,11 @@ class AppLocalizationsZh extends AppLocalizations {
       '在 ANTLER 试验中，长期使用抗抑郁药后停药所产生的停药反应差异在第 12 周最大，之后随访时变小。因此，三个月是实测停药过程中的一个明确转折点。';
 
   @override
-  String get ssriMilestone180Title => '六个月：大脑长期调整';
+  String get ssriMilestone180Title => '六个月：65%的人保持良好状态';
 
   @override
   String get ssriMilestone180Description =>
-      '六个月让神经系统有了充分的调整时间。大脑的血清素系统已经恢复到自然平衡。许多人报告情绪体验范围有所改善；对于曾出现此问题的人，SSRI引起的性功能障碍通常也已在此时消退。';
+      '一项对抑郁症缓解后停用抗抑郁药者进行六个月随访的研究中，83名有结局数据的参与者里有54人（65%）保持良好状态。六个月是长期稳定的一个具体里程碑。';
 
   @override
   String get ssriMilestone365Title => '一年：重要里程碑';
@@ -3383,7 +3383,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get ssriReferenceDay180 =>
-      '停用SSRI六个月：一个脚踏实地的视角\n\n来源：《Antidepressant Withdrawal Syndrome》，Therapeutics Letter 112（2018），Therapeutics Initiative，见NCBI Bookshelf\n\n到六个月时已被充分确立的\n这篇综述指出，即便是严重的、长期的戒断症状，通常也持续数周到数月而非无限期——因此到六个月时，对绝大多数人来说，急性戒断综合征已经明确消退。\n\n对剩下的部分坦诚\n到六个月时，通常的戒断期早已在你身后，血清素系统也有了数月的时间来安定。性副作用在停药后通常会改善；如果它们持续存在，与你的开药医生讨论。\n\n人们通常报告什么\n• 与服药期间相比更宽广的情绪范围\n• 对大多数人来说改善的睡眠和精力\n• 持续的渐进改善，尽管个体之间的速度差异很大';
+      '停用抗抑郁药六个月后：65%的人保持良好状态\n\n来源：Volkmann 等（2026），European Archives of Psychiatry and Clinical Neuroscience\n\n六个月的具体结果\n这项研究跟踪了在重度抑郁症缓解期间停用抗抑郁药的人。83名有六个月结局数据的参与者中，54人（65%）保持良好状态，29人复发。\n\n为什么这个里程碑重要\n这一实测的六个月结果，让六个月成为长期稳定的一个真实里程碑。研究还将停药症状与复发分开评估，有助于区分两者。\n\n如果抑郁症状明显重新加重，请尽早联系开药医生。';
 
   @override
   String get ssriReferenceDay365 =>
@@ -5969,11 +5969,11 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
       '在 ANTLER 試驗中，長期使用抗憂鬱藥後停藥所產生的停藥反應差異在第 12 週最大，之後追蹤時變小。因此，三個月是實測停藥過程中的一個明確轉折點。';
 
   @override
-  String get ssriMilestone180Title => '六個月：大腦長期調整';
+  String get ssriMilestone180Title => '六個月：65%的人維持良好狀態';
 
   @override
   String get ssriMilestone180Description =>
-      '六個月讓神經系統有了充分的調整時間。大腦的血清素系統已經恢復到自然平衡。許多人報告情緒體驗範圍有所改善；對於曾出現此問題的人，SSRI引起的性功能障礙通常也已在此時消退。';
+      '一項對憂鬱症緩解後停用抗憂鬱藥者進行六個月追蹤的研究中，83名有結果資料的參與者裡有54人（65%）維持良好狀態。六個月是長期穩定的一個具體里程碑。';
 
   @override
   String get ssriMilestone365Title => '一年：重要里程碑';
@@ -6873,7 +6873,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get ssriReferenceDay180 =>
-      '停用SSRI六個月：一個腳踏實地的視角\n\n來源：《Antidepressant Withdrawal Syndrome》，Therapeutics Letter 112（2018），Therapeutics Initiative，見NCBI Bookshelf\n\n到六個月時已被充分確立的\n這篇綜述指出，即便是嚴重的、長期的戒斷症狀，通常也持續數周到數月而非無限期——因此到六個月時，對絕大多數人來說，急性戒斷綜合徵已經明確消退。\n\n對剩下的部分坦誠\n到六個月時，通常的戒斷期早已在你身後，血清素系統也有了數月的時間來安定。性副作用在停藥後通常會改善；如果它們持續存在，與你的開藥醫生討論。\n\n人們通常報告甚麼\n• 與服藥期間相比更寬廣的情緒範圍\n• 對大多數人來說改善的睡眠和精力\n• 持續的漸進改善，儘管個體之間的速度差異很大';
+      '停用抗憂鬱藥六個月後：65%的人維持良好狀態\n\n來源：Volkmann 等（2026），European Archives of Psychiatry and Clinical Neuroscience\n\n六個月的具體結果\n這項研究追蹤了在重度憂鬱症緩解期間停用抗憂鬱藥的人。83名有六個月結果資料的參與者中，54人（65%）維持良好狀態，29人復發。\n\n為什麼這個里程碑重要\n這項實際量測的六個月結果，讓六個月成為長期穩定的一個真實里程碑。研究也將停藥症狀與復發分開評估，有助於區分兩者。\n\n如果憂鬱症狀明顯再度加重，請及早聯絡開藥醫師。';
 
   @override
   String get ssriReferenceDay365 =>

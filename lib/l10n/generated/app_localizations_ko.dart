@@ -2526,11 +2526,11 @@ class AppLocalizationsKo extends AppLocalizations {
       'ANTLER 시험에서 장기 항우울제를 중단한 뒤의 금단 증상 차이는 12주에 가장 컸고 이후 추적에서는 더 작아졌습니다. 그래서 3개월은 측정된 금단 경과의 분명한 전환점입니다.';
 
   @override
-  String get ssriMilestone180Title => '6개월: 장기적인 두뇌 조정';
+  String get ssriMilestone180Title => '6개월: 65%가 안정된 상태 유지';
 
   @override
   String get ssriMilestone180Description =>
-      '6개월이면 상당한 신경학적 적응이 가능해집니다. 뇌의 세로토닌 시스템이 자연스러운 균형을 찾았습니다. 많은 사람들이 감정 범위가 개선되었다고 보고하고, 이를 경험한 사람들의 경우 SSRI로 인한 성기능 장애가 일반적으로 해결되었습니다.';
+      '관해 상태에서 항우울제를 중단한 사람들을 6개월간 추적한 연구에서 결과 자료가 있는 83명 중 54명(65%)이 안정된 상태를 유지했습니다. 6개월은 장기적 안정을 보여 주는 구체적인 이정표입니다.';
 
   @override
   String get ssriMilestone365Title => '1년: 회복 달성';
@@ -3430,7 +3430,7 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get ssriReferenceDay180 =>
-      'SSRI 이후 6개월: 근거 있는 견해\n\n출처: NCBI 책장에 있는 \"항우울제 금단 증후군\", Therapeutics Letter 112(2018), Therapeutics Initiative\n\n6개월이 지나면 무엇이 잘 확립되는가\n이 리뷰에서는 심각하고 장기간 지속되는 금단 증상도 일반적으로 무한정 지속되는 것이 아니라 몇 주에서 몇 달까지 지속되므로 대다수의 사람들에게 급성 금단 증후군은 6개월이 지나면 분명하게 해결됩니다.\n\n나머지 사람들에 대해 정직하기\n6개월이 되면 일반적인 금단 기간이 훨씬 지나고 세로토닌 시스템이 안정화되는 데 몇 달이 걸립니다. 성적인 부작용은 일반적으로 중단 후 개선됩니다. 지속되는 경우 처방자와 논의하십시오.\n\n사람들이 흔히 보고하는 내용\n• 약물을 복용하는 것보다 감정의 폭이 더 넓습니다.\n• 대부분의 경우 수면과 에너지가 향상되었습니다.\n• 속도는 개인마다 크게 다르지만 지속적으로 점진적인 개선이 이루어집니다.';
+      '항우울제 중단 후 6개월: 65%가 안정된 상태 유지\n\n출처: Volkmann 외(2026), European Archives of Psychiatry and Clinical Neuroscience\n\n6개월의 구체적인 결과\n이 연구는 주요우울장애가 관해된 상태에서 항우울제를 중단한 사람들을 추적했습니다. 6개월 결과 자료가 있는 83명 중 54명(65%)이 안정된 상태를 유지했고 29명은 재발했습니다.\n\n이 이정표가 중요한 이유\n실제로 측정된 이 6개월 결과는 장기적 안정을 보여 주는 구체적인 이정표입니다. 연구는 금단 증상과 재발도 별도로 평가해 둘을 구분하는 데 도움을 줬습니다.\n\n우울 증상이 강하게 다시 나타난다면 처방 의료진에게 일찍 연락하세요.';
 
   @override
   String get ssriReferenceDay365 =>

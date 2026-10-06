@@ -2698,12 +2698,11 @@ class AppLocalizationsFr extends AppLocalizations {
       'Dans l\'essai ANTLER, l\'écart de symptômes de sevrage après l\'arrêt d\'antidépresseurs au long cours était maximal à 12 semaines puis plus faible lors des suivis ultérieurs. Trois mois représentent donc un véritable tournant dans l\'évolution mesurée du sevrage.';
 
   @override
-  String get ssriMilestone180Title =>
-      'Six mois : adaptation cérébrale à long terme';
+  String get ssriMilestone180Title => 'Six mois : 65 % sont restés stables';
 
   @override
   String get ssriMilestone180Description =>
-      'Six mois permettent une adaptation neurologique importante. Les systèmes sérotoninergiques du cerveau ont retrouvé leur équilibre naturel. Beaucoup rapportent une gamme émotionnelle plus riche et, chez ceux qui en souffraient, les troubles sexuels causés par les ISRS se sont généralement résolus.';
+      'Dans un suivi de six mois après l’arrêt d’antidépresseurs chez des personnes en rémission, 54 des 83 participants disposant de données de suivi — soit 65 % — sont restés stables. Six mois constitue un jalon concret de stabilité à long terme.';
 
   @override
   String get ssriMilestone365Title => 'Un an : un cap énorme';
@@ -3627,7 +3626,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get ssriReferenceDay180 =>
-      'Six mois après l\'arrêt des ISRS : une vision réaliste\n\nSource : « Antidepressant Withdrawal Syndrome », Therapeutics Letter 112 (2018), Therapeutics Initiative, sur NCBI Bookshelf\n\nCe qui est bien établi à six mois\nCette revue indique que même les symptômes de sevrage sévères et prolongés durent généralement des semaines à des mois plutôt qu\'indéfiniment. Au bout de six mois, le syndrome de sevrage aigu est donc clairement résolu pour la grande majorité des personnes.\n\nCe qu\'il faut dire avec prudence\nÀ six mois, la période habituelle de sevrage est largement derrière vous et le système sérotoninergique a eu plusieurs mois pour se stabiliser. Les effets indésirables sexuels s\'améliorent généralement après l\'arrêt ; s\'ils persistent, parlez-en à votre prescripteur.\n\nCe que les personnes rapportent souvent\n• une palette émotionnelle plus large que pendant le traitement\n• un sommeil et une énergie améliorés pour la plupart\n• une amélioration graduelle qui se poursuit, même si son rythme varie fortement d\'une personne à l\'autre';
+      'Six mois après l’arrêt des antidépresseurs : 65 % sont restés stables\n\nSource : Volkmann et al. (2026), European Archives of Psychiatry and Clinical Neuroscience\n\nUn résultat concret à six mois\nL’étude a suivi des personnes dont la dépression majeure était en rémission pendant l’arrêt de leurs antidépresseurs. Parmi 83 participants disposant de données à six mois, 54 — soit 65 % — sont restés stables, tandis que 29 ont rechuté.\n\nPourquoi ce jalon compte\nCe résultat mesuré à six mois en fait un véritable jalon de stabilité à long terme. L’étude a aussi évalué séparément les symptômes de sevrage et les rechutes, ce qui aide à distinguer les deux.\n\nSi la dépression revient fortement, contactez rapidement votre prescripteur.';
 
   @override
   String get ssriReferenceDay365 =>

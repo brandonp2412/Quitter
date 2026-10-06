@@ -2639,12 +2639,11 @@ class AppLocalizationsId extends AppLocalizations {
       'Dalam uji ANTLER, selisih gejala putus obat setelah menghentikan antidepresan jangka panjang paling besar pada minggu ke-12 dan lebih kecil pada tindak lanjut berikutnya. Itu menjadikan tiga bulan sebagai titik balik nyata dalam perjalanan putus obat yang terukur.';
 
   @override
-  String get ssriMilestone180Title =>
-      'Enam Bulan: Penyesuaian Otak Jangka Panjang';
+  String get ssriMilestone180Title => 'Enam Bulan: 65% Tetap Baik';
 
   @override
   String get ssriMilestone180Description =>
-      'Enam bulan memungkinkan penyesuaian neurologis yang substansial. Sistem serotonin otak telah menemukan keseimbangan alaminya. Banyak orang melaporkan peningkatan rentang emosi dan, bagi mereka yang mengalaminya, disfungsi seksual yang disebabkan oleh SSRI biasanya telah teratasi.';
+      'Dalam tindak lanjut enam bulan setelah penghentian antidepresan pada orang yang sedang remisi, 54 dari 83 peserta dengan data tindak lanjut — 65% — tetap dalam kondisi baik. Enam bulan adalah tonggak stabilitas jangka panjang yang nyata.';
 
   @override
   String get ssriMilestone365Title => 'Satu Tahun: Tonggak Besar';
@@ -3564,7 +3563,7 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get ssriReferenceDay180 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Enam Bulan Setelah Menghentikan Antidepresan: 65% Tetap Baik\n\nSumber: Volkmann dkk. (2026), European Archives of Psychiatry and Clinical Neuroscience\n\nHasil Nyata pada Enam Bulan\nStudi ini mengikuti orang dengan depresi mayor yang sedang remisi saat mereka menghentikan antidepresan. Dari 83 peserta dengan data hasil enam bulan, 54 — 65% — tetap dalam kondisi baik, sedangkan 29 mengalami kekambuhan.\n\nMengapa Tonggak Ini Penting\nHasil enam bulan yang benar-benar diukur ini menjadikannya tonggak stabilitas jangka panjang yang nyata. Studi juga menilai gejala putus obat secara terpisah dari kekambuhan, sehingga keduanya dapat dibedakan dengan lebih baik.\n\nJika depresi kembali dengan kuat, hubungi dokter yang meresepkan obat sedini mungkin.';
 
   @override
   String get ssriReferenceDay365 =>

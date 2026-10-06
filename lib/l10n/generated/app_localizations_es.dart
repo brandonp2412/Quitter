@@ -2669,12 +2669,11 @@ class AppLocalizationsEs extends AppLocalizations {
       'En el ensayo ANTLER, la diferencia en síntomas de abstinencia tras dejar antidepresivos de larga duración fue mayor a las 12 semanas y menor en los controles posteriores. Eso convierte los tres meses en un verdadero punto de inflexión del curso medido de abstinencia.';
 
   @override
-  String get ssriMilestone180Title =>
-      'Seis meses: adaptación cerebral a largo plazo';
+  String get ssriMilestone180Title => 'Seis meses: el 65 % siguió bien';
 
   @override
   String get ssriMilestone180Description =>
-      'Seis meses permiten una adaptación neurológica considerable. Los sistemas de serotonina del cerebro han encontrado su equilibrio natural. Muchas personas describen una mayor amplitud emocional y, en quienes la experimentaron, la disfunción sexual causada por los ISRS suele haberse resuelto.';
+      'En un seguimiento de seis meses tras suspender antidepresivos en personas en remisión, 54 de 83 participantes con datos de seguimiento — el 65 % — siguieron bien. Seis meses es un hito concreto de estabilidad a largo plazo.';
 
   @override
   String get ssriMilestone365Title => 'Un año: un gran hito';
@@ -3596,7 +3595,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get ssriReferenceDay180 =>
-      'Seis meses después de los ISRS: una visión realista\n\nFuente: \"Antidepressant Withdrawal Syndrome,\" Therapeutics Letter 112 (2018), Therapeutics Initiative, en NCBI Bookshelf\n\nQué está bien establecido a los seis meses\nEsta revisión señala que incluso los síntomas de retirada graves y prolongados suelen durar semanas o meses, no de forma indefinida. Por tanto, a los seis meses, el síndrome agudo de retirada se ha resuelto claramente para la gran mayoría de las personas.\n\nSer honestos sobre lo demás\nA los seis meses, el periodo habitual de retirada queda muy atrás y el sistema de serotonina ha tenido meses para estabilizarse. Los efectos secundarios sexuales suelen mejorar al suspender el tratamiento; si persisten, conviene comentarlo con quien prescribe.\n\nLo que las personas describen con frecuencia\n• Una gama emocional más amplia que durante el tratamiento\n• Mejoras del sueño y la energía en la mayoría\n• Mejoría gradual continuada, aunque el ritmo varía mucho entre personas';
+      'Seis meses después de suspender antidepresivos: el 65 % siguió bien\n\nFuente: Volkmann et al. (2026), European Archives of Psychiatry and Clinical Neuroscience\n\nUn resultado concreto a seis meses\nEl estudio siguió a personas cuya depresión mayor estaba en remisión mientras suspendían los antidepresivos. De 83 participantes con datos a seis meses, 54 — el 65 % — siguieron bien y 29 recayeron.\n\nPor qué importa este hito\nEse resultado medido a seis meses convierte este punto en un hito real de estabilidad a largo plazo. El estudio también evaluó los síntomas de retirada por separado de la recaída, ayudando a distinguir ambos fenómenos.\n\nSi la depresión está regresando con fuerza, contacta pronto con quien te prescribe el tratamiento.';
 
   @override
   String get ssriReferenceDay365 =>
