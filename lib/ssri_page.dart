@@ -108,21 +108,19 @@ class SsriPage extends StatelessWidget {
         title: l10n.ssriMilestone90Title,
         description: l10n.ssriMilestone90Description,
         reference:
-            "Antidepressant Withdrawal Syndrome — Therapeutics Letter (NCBI Bookshelf)",
-        link: "https://www.ncbi.nlm.nih.gov/books/NBK598502/",
-        referenceDate: "June 2026",
+            "Antidepressant medication to prevent depression relapse in primary care: the ANTLER RCT",
+        link: "https://pubmed.ncbi.nlm.nih.gov/34842135/",
+        referenceDate: "October 2026",
         localizedReferenceContent: l10n.ssriReferenceDay90,
         referenceContent:
-            "Three Months After SSRIs: Well Past Withdrawal\n\n"
-            "Source: \"Antidepressant Withdrawal Syndrome,\" Therapeutics Letter 112 (2018), Therapeutics Initiative, on the NCBI Bookshelf\n\n"
-            "Where Three Months Sits\n"
-            "This evidence review notes that antidepressant withdrawal symptoms 'usually appear within a few days of stopping, or dose reduction,' and that 'most antidepressant withdrawal symptoms resolve within 2 weeks' — though severe cases can last weeks to months. By three months, the acute withdrawal phase is well behind the great majority of people.\n\n"
-            "Why SSRIs Vary\n"
-            "Withdrawal is more likely with shorter half-life SSRIs (such as paroxetine) than with long half-life ones (fluoxetine). The Letter is candid that withdrawal reactions can be substantial — two systematic reviews found them 'very similar' to those from benzodiazepines — and occur in at least a third of people who stop.\n\n"
-            "Recovery Signal on 'Receptor Recovery'\n"
-            "You may see confident claims that serotonin receptors 'fully resensitise by 2–3 months.' The robust evidence is about the withdrawal syndrome and its timing, not a precise receptor-recovery clock. What's dependable: by three months the withdrawal phase has typically resolved, and many people notice the emotional blunting and sexual side effects some experience on SSRIs ease after stopping.\n\n"
-            "If Symptoms Linger\n"
-            "The Letter advises distinguishing withdrawal from a genuine return of the underlying condition. If low mood or anxiety persists at three months, that's worth reviewing with your prescriber rather than assuming it's 'just withdrawal.'",
+            "Three Months: The Withdrawal Curve Turns\n\n"
+            "Source: Duffy et al., \"Antidepressant medication to prevent depression relapse in primary care: the ANTLER RCT,\" Health Technology Assessment (2021)\n\n"
+            "Measured at 12 Weeks\n"
+            "ANTLER randomized 478 primary-care patients who had taken antidepressants for at least 9 months and felt well enough to consider stopping. Participants were taking citalopram, sertraline, fluoxetine, or mirtazapine. The difference in withdrawal symptoms between the discontinuation and maintenance groups was largest at 12 weeks and smaller at later follow-ups.\n\n"
+            "Why This Fits an SSRI Milestone\n"
+            "Three of the four study drugs — citalopram, sertraline, and fluoxetine — are SSRIs. The study's plain-language summary says the extra withdrawal symptoms after stopping were concentrated mostly in the first 3–4 months.\n\n"
+            "Three Months Strong\n"
+            "Day 90 lands right at that measured turning point. The withdrawal gap narrows after this checkpoint, making three months a concrete recovery milestone. If depression or anxiety is returning strongly, contact your prescriber early.",
       ),
       QuitMilestone(
         day: 180,

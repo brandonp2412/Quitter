@@ -2662,11 +2662,11 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get ssriMilestone90Title =>
-      'Tres meses: recuperación de los receptores de serotonina';
+      'Tres meses: La curva de abstinencia cambia';
 
   @override
   String get ssriMilestone90Description =>
-      'Tres meses son un gran hito de recuperación. El sistema de serotonina ha tenido meses para adaptarse desde que desapareció el medicamento. El ánimo, la ansiedad, la concentración y la claridad de pensamiento mejoran de forma significativa para la mayoría de las personas.';
+      'En el ensayo ANTLER, la diferencia en síntomas de abstinencia tras dejar antidepresivos de larga duración fue mayor a las 12 semanas y menor en los controles posteriores. Eso convierte los tres meses en un verdadero punto de inflexión del curso medido de abstinencia.';
 
   @override
   String get ssriMilestone180Title =>
@@ -3592,7 +3592,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get ssriReferenceDay90 =>
-      'Tres meses después de los ISRS: muy por encima de la fase de retirada\n\nFuente: \"Antidepressant Withdrawal Syndrome,\" Therapeutics Letter 112 (2018), Therapeutics Initiative, en NCBI Bookshelf\n\nDónde se sitúan tres meses\nEsta revisión de la evidencia señala que los síntomas de retirada de antidepresivos \"suelen aparecer a los pocos días de suspender o reducir la dosis\" y que \"la mayoría de los síntomas de retirada de antidepresivos se resuelven en dos semanas\", aunque los casos graves pueden durar semanas o meses. A los tres meses, la fase aguda de retirada ha quedado muy atrás para la gran mayoría de las personas.\n\nPor qué varían los ISRS\nLa retirada es más probable con ISRS de semivida corta, como la paroxetina, que con los de semivida larga, como la fluoxetina. La Therapeutics Letter reconoce que las reacciones de retirada pueden ser importantes: dos revisiones sistemáticas las encontraron \"muy similares\" a las de las benzodiacepinas, y aparecen en al menos un tercio de las personas que suspenden el tratamiento.\n\nSeñal de recuperación y \"recuperación de receptores\"\nEs posible encontrar afirmaciones tajantes de que los receptores de serotonina se \"resensibilizan por completo en 2–3 meses\". La evidencia robusta se refiere al síndrome de retirada y a su duración, no a un reloj preciso de recuperación de receptores. Lo fiable es que, a los tres meses, la fase de retirada normalmente se ha resuelto y muchas personas notan que disminuyen el embotamiento emocional y los efectos sexuales que algunas experimentan con los ISRS después de suspenderlos.\n\nSi los síntomas persisten\nLa Therapeutics Letter aconseja distinguir la retirada de un verdadero retorno de la condición subyacente. Si el bajo estado de ánimo o la ansiedad persisten a los tres meses, conviene revisarlo con quien prescribe el tratamiento en lugar de asumir que se trata \"solo de retirada\".';
+      'Tres meses: La curva de abstinencia cambia\n\nFuente: Duffy et al., \"Antidepressant medication to prevent depression relapse in primary care: the ANTLER RCT,\" Health Technology Assessment (2021)\n\nMedido a las 12 semanas\nANTLER asignó al azar a 478 pacientes de atención primaria que habían tomado antidepresivos durante al menos 9 meses y se sentían lo bastante bien como para plantearse dejarlos. Tomaban citalopram, sertralina, fluoxetina o mirtazapina. La diferencia en síntomas de abstinencia entre quienes suspendieron el tratamiento y quienes lo mantuvieron fue mayor a las 12 semanas y menor en controles posteriores.\n\nPor qué encaja como hito de los ISRS\nTres de los cuatro fármacos estudiados — citalopram, sertralina y fluoxetina — son ISRS. El resumen en lenguaje sencillo del estudio indica que el exceso de síntomas de abstinencia tras dejar el tratamiento se concentró sobre todo en los primeros 3–4 meses.\n\nTres meses fuertes\nEl día 90 cae justo en ese punto de inflexión medido. Después, la diferencia en síntomas de abstinencia se reduce, haciendo de los tres meses un hito de recuperación concreto. Si la depresión o la ansiedad vuelven con fuerza, contacta pronto con quien te prescribe el tratamiento.';
 
   @override
   String get ssriReferenceDay180 =>

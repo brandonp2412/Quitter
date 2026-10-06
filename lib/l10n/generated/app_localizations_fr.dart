@@ -2691,11 +2691,11 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get ssriMilestone90Title =>
-      'Trois mois : récupération des récepteurs sérotoninergiques';
+      'Trois mois : La courbe du sevrage s\'infléchit';
 
   @override
   String get ssriMilestone90Description =>
-      'Trois mois constituent une étape majeure. Le système sérotoninergique a eu plusieurs mois pour s\'adapter après l\'élimination du médicament. L\'humeur, l\'anxiété, la concentration et la clarté mentale sont sensiblement meilleures chez la plupart des personnes.';
+      'Dans l\'essai ANTLER, l\'écart de symptômes de sevrage après l\'arrêt d\'antidépresseurs au long cours était maximal à 12 semaines puis plus faible lors des suivis ultérieurs. Trois mois représentent donc un véritable tournant dans l\'évolution mesurée du sevrage.';
 
   @override
   String get ssriMilestone180Title =>
@@ -3623,7 +3623,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get ssriReferenceDay90 =>
-      'Trois mois après l\'arrêt des ISRS : le sevrage est largement derrière vous\n\nSource : « Antidepressant Withdrawal Syndrome », Therapeutics Letter 112 (2018), Therapeutics Initiative, sur NCBI Bookshelf\n\nOù en est-on à trois mois\nCette revue des données indique que les symptômes de sevrage des antidépresseurs « apparaissent généralement dans les quelques jours suivant l\'arrêt ou la réduction de la dose » et que « la plupart des symptômes de sevrage des antidépresseurs disparaissent en deux semaines », même si les cas sévères peuvent durer plusieurs semaines ou plusieurs mois. Au bout de trois mois, la phase aiguë du sevrage est largement terminée pour la grande majorité des personnes.\n\nPourquoi les ISRS diffèrent\nLe sevrage est plus probable avec les ISRS à demi-vie courte, comme la paroxétine, qu\'avec ceux à demi-vie longue, comme la fluoxétine. La Letter indique clairement que les réactions de sevrage peuvent être importantes : deux revues systématiques les ont jugées « très similaires » à celles des benzodiazépines, et elles surviennent chez au moins un tiers des personnes qui arrêtent.\n\nCe que l\'on peut réellement dire de la « récupération des récepteurs »\nOn rencontre parfois l\'affirmation selon laquelle les récepteurs de la sérotonine seraient « complètement resensibilisés en deux à trois mois ». Les données solides portent sur le syndrome de sevrage et sa durée, pas sur une horloge précise de récupération des récepteurs. Ce qui est fiable, c\'est qu\'à trois mois le sevrage est généralement résolu et que de nombreuses personnes constatent, après l\'arrêt, une diminution de l\'émoussement émotionnel et des effets indésirables sexuels qu\'elles pouvaient ressentir sous ISRS.\n\nSi des symptômes persistent\nLa Letter recommande de distinguer le sevrage d\'un véritable retour du trouble sous-jacent. Si une baisse de moral ou de l\'anxiété persiste à trois mois, il vaut mieux en faire le point avec votre prescripteur que supposer qu\'il s\'agit « seulement du sevrage ».';
+      'Trois mois : La courbe du sevrage s\'infléchit\n\nSource : Duffy et al., \"Antidepressant medication to prevent depression relapse in primary care: the ANTLER RCT,\" Health Technology Assessment (2021)\n\nMesuré à 12 semaines\nANTLER a randomisé 478 patients de soins primaires qui prenaient des antidépresseurs depuis au moins 9 mois et se sentaient assez bien pour envisager l\'arrêt. Ils prenaient du citalopram, de la sertraline, de la fluoxétine ou de la mirtazapine. L\'écart de symptômes de sevrage entre le groupe d\'arrêt et le groupe de maintien était maximal à 12 semaines puis plus faible lors des suivis ultérieurs.\n\nPourquoi cela correspond à un jalon ISRS\nTrois des quatre médicaments étudiés — citalopram, sertraline et fluoxétine — sont des ISRS. Le résumé grand public de l\'étude indique que l\'excès de symptômes de sevrage après l\'arrêt se concentrait surtout dans les 3–4 premiers mois.\n\nTrois mois solides\nLe jour 90 tombe exactement sur ce tournant mesuré. Ensuite, l\'écart de symptômes de sevrage diminue, ce qui fait des trois mois un jalon concret de récupération. Si la dépression ou l\'anxiété revient fortement, contacte rapidement ton prescripteur.';
 
   @override
   String get ssriReferenceDay180 =>

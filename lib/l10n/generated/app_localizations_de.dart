@@ -2643,11 +2643,11 @@ class AppLocalizationsDe extends AppLocalizations {
       'Ein Monat ist ein wichtiger Meilenstein. Die Schlafqualität verbessert sich, das Energieniveau stabilisiert sich und viele Menschen bemerken, dass ihre Stimmung beginnt, ein neues Gleichgewicht zu finden. Das Gehirn stellt aktiv seine natürliche Serotoninregulation wieder her.';
 
   @override
-  String get ssriMilestone90Title => 'Drei Monate: Serotonin-Rezeptor Erholung';
+  String get ssriMilestone90Title => 'Drei Monate: Die Entzugskurve dreht';
 
   @override
   String get ssriMilestone90Description =>
-      'Drei Monate sind ein wichtiger Meilenstein der Erholung. Das Serotonin-System hatte Monate Zeit, sich anzupassen, nachdem das Medikament verschwunden war. Stimmung, Angst, Fokus und klares Denken sind für die meisten Menschen sinnvoll besser.';
+      'In der ANTLER-Studie war der Unterschied bei den Entzugssymptomen nach dem Absetzen einer langfristigen Antidepressivatherapie nach 12 Wochen am größten und bei späteren Nachuntersuchungen kleiner. Damit markieren drei Monate einen echten Wendepunkt im gemessenen Entzugsverlauf.';
 
   @override
   String get ssriMilestone180Title =>
@@ -3573,7 +3573,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get ssriReferenceDay90 =>
-      'Drei Monate nach SSRIs: Gut Vergangenheit Rückzug\n\nQuelle: \"Antidepressivum-Entzugssyndrom\", Therapeutics Letter 112 (2018), Therapeutics Initiative, im NCBI Bookshelf\n\nWo drei Monate sitzen\nDiese Evidenzüberprüfung stellt fest, dass Antidepressiva-Entzugserscheinungen \"normalerweise innerhalb weniger Tage nach Absetzen oder Dosisreduktion auftreten\" und dass \"die meisten Antidepressiva-Entzugserscheinungen innerhalb von 2 Wochen verschwinden\" - obwohl schwere Fälle Wochen bis Monate dauern können. Mit drei Monaten liegt die akute Entzugsphase deutlich hinter der großen Mehrheit der Menschen.\n\nWarum SSRIs variieren\nEntzug ist wahrscheinlicher mit kürzeren Halbwertszeit SSRIs (wie Paroxetin) als mit langen Halbwertszeit diejenigen (Fluoxetin). Der Brief ist offen, dass Entzugsreaktionen erheblich sein können - zwei systematische Bewertungen fanden sie \"sehr ähnlich\" zu denen von Benzodiazepinen - und treten bei mindestens einem Drittel der Menschen auf, die aufhören.\n\nWiederherstellungssignal auf \"Receptor Recovery\"\nSie können zuversichtliche Behauptungen sehen, dass Serotoninrezeptoren \"um 2 bis 3 Monate vollständig resensibilisieren\". Der robuste Beweis ist über das Entzugssyndrom und sein Timing, nicht eine genaue Rezeptor-Wiederherstellung Uhr. Was ist zuverlässig: Nach drei Monaten hat sich die Entzugsphase in der Regel aufgelöst, und viele Menschen bemerken die emotionalen Abstumpfungen und sexuellen Nebenwirkungen, die einige Erfahrungen mit SSRIs nach dem Aufhören lindern.\n\nWenn Symptome verweilen\nDer Brief empfiehlt, den Rückzug von einer echten Rückkehr der zugrunde liegenden Bedingung zu unterscheiden. Wenn schlechte Stimmung oder Angst nach drei Monaten anhält, lohnt es sich, mit Ihrem Arzt zu überprüfen, anstatt anzunehmen, dass es \"nur Rückzug\" ist.';
+      'Drei Monate: Die Entzugskurve dreht\n\nQuelle: Duffy et al., \"Antidepressant medication to prevent depression relapse in primary care: the ANTLER RCT,\" Health Technology Assessment (2021)\n\nNach 12 Wochen gemessen\nANTLER randomisierte 478 Patientinnen und Patienten in der Primärversorgung, die seit mindestens 9 Monaten Antidepressiva eingenommen hatten und sich gut genug fühlten, ein Absetzen zu erwägen. Sie nahmen Citalopram, Sertralin, Fluoxetin oder Mirtazapin. Der Unterschied bei den Entzugssymptomen zwischen Absetz- und Erhaltungsgruppe war nach 12 Wochen am größten und bei späteren Nachuntersuchungen kleiner.\n\nWarum das zu einem SSRI-Meilenstein passt\nDrei der vier untersuchten Medikamente — Citalopram, Sertralin und Fluoxetin — sind SSRIs. Die allgemeinverständliche Zusammenfassung der Studie berichtet, dass die zusätzlichen Entzugssymptome nach dem Absetzen überwiegend in den ersten 3–4 Monaten auftraten.\n\nDrei Monate stark\nTag 90 liegt genau an diesem gemessenen Wendepunkt. Danach wird der Unterschied bei den Entzugssymptomen kleiner — drei Monate sind damit ein konkreter Erholungsmeilenstein. Wenn Depression oder Angst deutlich zurückkehren, wende dich frühzeitig an die verschreibende Praxis.';
 
   @override
   String get ssriReferenceDay180 =>

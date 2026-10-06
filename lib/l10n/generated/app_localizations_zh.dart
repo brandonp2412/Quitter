@@ -2472,11 +2472,11 @@ class AppLocalizationsZh extends AppLocalizations {
       '一个月是一个重要的里程碑。睡眠质量正在改善，精力水平逐渐稳定，许多人开始感觉情绪正在找到新的平衡。大脑正在积极恢复其自然的血清素调节。';
 
   @override
-  String get ssriMilestone90Title => '三个月：血清素受体恢复';
+  String get ssriMilestone90Title => '三个月：停药反应曲线开始转折';
 
   @override
   String get ssriMilestone90Description =>
-      '三个月是一个重要的恢复里程碑。药物离开身体后，血清素系统已经有几个月时间适应。对大多数人来说，情绪、焦虑、专注力和清晰思维都有明显改善。';
+      '在 ANTLER 试验中，长期使用抗抑郁药后停药所产生的停药反应差异在第 12 周最大，之后随访时变小。因此，三个月是实测停药过程中的一个明确转折点。';
 
   @override
   String get ssriMilestone180Title => '六个月：大脑长期调整';
@@ -3379,7 +3379,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get ssriReferenceDay90 =>
-      '停用SSRI三个月：早已度过戒断\n\n来源：《Antidepressant Withdrawal Syndrome》，Therapeutics Letter 112（2018），Therapeutics Initiative，见NCBI Bookshelf\n\n三个月处于什么位置\n这篇证据综述指出，抗抑郁药戒断症状“通常在停止或减少剂量后几天内出现”，“大多数抗抑郁药戒断症状在2周内消退”——尽管严重病例可能持续数周到数月。到三个月时，急性戒断阶段对绝大多数人来说早已过去。\n\n为什么SSRI各不相同\n短半衰期SSRI（如帕罗西汀）比长半衰期SSRI（氟西汀）更可能出现戒断。该Letter坦率地指出，戒断反应可能相当严重——两项系统综述发现它们与苯二氮卓类药物的反应“非常相似”——并且至少出现在三分之一停用的人身上。\n\n关于“受体恢复”的恢复信号\n你可能会看到自信的说法，称血清素受体“在2–3个月时完全重新敏感化”。可靠的证据是关于戒断综合征及其时间的，而非精确的受体恢复时钟。可以确信的是：到三个月时戒断阶段通常已经消退，许多人注意到在SSRI上感到的情绪麻木和性副作用在停药后有所缓解。\n\n如果症状持续\n该Letter建议把戒断与基础疾病的真正复发区分开来。如果情绪低落或焦虑在三个月时持续存在，值得与你的开药医生一起评估，而非想当然地认为它“只是戒断”。';
+      '三个月：停药反应曲线开始转折\n\n来源：Duffy 等，\"Antidepressant medication to prevent depression relapse in primary care: the ANTLER RCT,\" Health Technology Assessment (2021)\n\n第 12 周的测量\nANTLER 将 478 名基层医疗患者随机分组；他们已服用抗抑郁药至少 9 个月，并且状态稳定到可以考虑停药。所用药物为 citalopram、sertraline、fluoxetine 或 mirtazapine。停药组与继续用药组之间的停药反应差异在第 12 周最大，之后的随访中更小。\n\n为什么这适合作为 SSRI 里程碑\n研究的四种药物中有三种——citalopram、sertraline 和 fluoxetine——属于 SSRI。研究的通俗摘要指出，停药后额外出现的停药反应主要集中在最初 3–4 个月。\n\n强势走过三个月\n第 90 天正处在这个实测转折点。此后两组停药反应的差距会缩小，因此三个月是一个具体的恢复里程碑。如果抑郁或焦虑明显加重，请尽早联系开药医生。';
 
   @override
   String get ssriReferenceDay180 =>
@@ -5962,11 +5962,11 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
       '一個月是一個重要的里程碑。睡眠質量正在改善，精力水平逐漸穩定，許多人開始感覺情緒正在找到新的平衡。大腦正在積極恢復其自然的血清素調節。';
 
   @override
-  String get ssriMilestone90Title => '三個月：血清素受體恢復';
+  String get ssriMilestone90Title => '三個月：停藥反應曲線開始轉折';
 
   @override
   String get ssriMilestone90Description =>
-      '三個月是一個重要的恢復里程碑。藥物離開身體後，血清素系統已經有幾個月時間適應。對大多數人來說，情緒、焦慮、專注力和清晰思維都有明顯改善。';
+      '在 ANTLER 試驗中，長期使用抗憂鬱藥後停藥所產生的停藥反應差異在第 12 週最大，之後追蹤時變小。因此，三個月是實測停藥過程中的一個明確轉折點。';
 
   @override
   String get ssriMilestone180Title => '六個月：大腦長期調整';
@@ -6869,7 +6869,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get ssriReferenceDay90 =>
-      '停用SSRI三個月：早已度過戒斷\n\n來源：《Antidepressant Withdrawal Syndrome》，Therapeutics Letter 112（2018），Therapeutics Initiative，見NCBI Bookshelf\n\n三個月處於甚麼位置\n這篇證據綜述指出，抗抑鬱藥戒斷症狀“通常在停止或減少劑量後幾天內出現”，“大多數抗抑鬱藥戒斷症狀在2周內消退”——儘管嚴重病例可能持續數周到數月。到三個月時，急性戒斷階段對絕大多數人來說早已過去。\n\n為甚麼SSRI各不相同\n短半衰期SSRI（如帕羅西汀）比長半衰期SSRI（氟西汀）更可能出現戒斷。該Letter坦率地指出，戒斷反應可能相當嚴重——兩項系統綜述發現它們與苯二氮卓類藥物的反應“非常相似”——並且至少出現在三分之一停用的人身上。\n\n關於“受體恢復”的恢復信號\n你可能會看到自信的說法，稱血清素受體“在2–3個月時完全重新敏感化”。可靠的證據是關於戒斷綜合徵及其時間的，而非精確的受體恢復時鐘。可以確信的是：到三個月時戒斷階段通常已經消退，許多人注意到在SSRI上感到的情緒麻木和性副作用在停藥後有所緩解。\n\n如果症狀持續\n該Letter建議把戒斷與基礎疾病的真正復發區分開來。如果情緒低落或焦慮在三個月時持續存在，值得與你的開藥醫生一起評估，而非想當然地認為它“只是戒斷”。';
+      '三個月：停藥反應曲線開始轉折\n\n來源：Duffy 等，\"Antidepressant medication to prevent depression relapse in primary care: the ANTLER RCT,\" Health Technology Assessment (2021)\n\n第 12 週的測量\nANTLER 將 478 名基層醫療患者隨機分組；他們已服用抗憂鬱藥至少 9 個月，且狀態穩定到可以考慮停藥。所用藥物為 citalopram、sertraline、fluoxetine 或 mirtazapine。停藥組與持續用藥組之間的停藥反應差異在第 12 週最大，之後的追蹤中更小。\n\n為什麼這適合作為 SSRI 里程碑\n研究的四種藥物中有三種——citalopram、sertraline 和 fluoxetine——屬於 SSRI。研究的通俗摘要指出，停藥後額外出現的停藥反應主要集中在最初 3–4 個月。\n\n強勢走過三個月\n第 90 天正處在這個實測轉折點。此後兩組停藥反應的差距會縮小，因此三個月是一個具體的恢復里程碑。如果憂鬱或焦慮明顯加重，請儘早聯絡開藥醫師。';
 
   @override
   String get ssriReferenceDay180 =>

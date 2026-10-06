@@ -2656,11 +2656,11 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get ssriMilestone90Title =>
-      'Trzy miesiące: Odzyskiwanie receptorów serotoninowych';
+      'Trzy miesiące: Przebieg odstawienia osiąga punkt zwrotny';
 
   @override
   String get ssriMilestone90Description =>
-      'Trzy miesiące jest głównym kamieniem milowym. System serotoniny miał miesiące, aby dostosować się po leku jest odone. mood, anxiety, skoncentrowanie, i jasne myślenie są znacznie lepsze dla większości ludzi.';
+      'W badaniu ANTLER różnica w objawach odstawienia po przerwaniu długotrwałego leczenia przeciwdepresyjnego była największa po 12 tygodniach, a w późniejszych kontrolach mniejsza. Trzy miesiące są więc wyraźnym punktem zwrotnym w mierzonym przebiegu odstawienia.';
 
   @override
   String get ssriMilestone180Title =>
@@ -3583,7 +3583,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get ssriReferenceDay90 =>
-      'Trzy miesiące po SSRIs: Przeszłość cofnięcia\n\nŹródło: \"Antidepressant Withdrawal Syndrome,\" Therapeutics Letter 112 (2018), Therapeutics Initiative, on the NCBI Bookshelf\n\nGdzie jest trzy miesiące.\nTen przegląd dowodów zauważa, że objawy odstawienia antydepresyjne pojawiają się zwykle w ciągu kilku dni po przerwaniu lub redukcja dawki.\n\nDlaczego SSRIs Vary\nWycofanie się jest bardziej prawdopodobne z krótszych okresu półtrwania SSRI takich jak paroksetyny ) niż z długich okresu półtrwania tych according fluoksetyne. list jest szczery, że reakcje wycofania może być istotne, dwa systematyczne przeglądy stwierdzono je bardzo podobne do tych z benzodiazepin i występują u co najmniej jednej trzeciej osób, które zatrzymują.\n\nSygnał odzyskiwania na Receptorze Recoverysions\nMożna zauważyć pewne twierdzenia, że receptory serotoninowe w pełni resensytyzuje przez 2SIM 3 miesięcy.SIE dowody są o syndromie odstawienia i jego czas, a nie precyzyjny receptor- recovery zegark. co jest zależne: przez trzy miesiące faza odstawienia zazwyczaj rozwiązany, a wiele osób zauważa emocjonalne puchnięcie i seksualne skutki uboczne niektóre doświadczenia na SSRI łatwość po zatrzymaniu.\n\nJeśli objawy Linger\nW liście zaleca się rozróżnienie wycofania się z prawdziwego powrotu z podstawowych uwarunkowań. jeśli niski nastrój lub niepokój utrzymuje się w trzech miesiącach, że warto dokonać przeglądu z przepisującym zamiast zakładając, że jest to tylko z drawal.Review';
+      'Trzy miesiące: Przebieg odstawienia osiąga punkt zwrotny\n\nŹródło: Duffy i wsp., \"Antidepressant medication to prevent depression relapse in primary care: the ANTLER RCT,\" Health Technology Assessment (2021)\n\nPomiar po 12 tygodniach\nW badaniu ANTLER losowo przydzielono 478 pacjentów podstawowej opieki zdrowotnej, którzy przyjmowali leki przeciwdepresyjne przez co najmniej 9 miesięcy i czuli się na tyle dobrze, by rozważyć odstawienie. Przyjmowali citalopram, sertralinę, fluoksetynę lub mirtazapinę. Różnica w objawach odstawienia między grupą odstawiającą a grupą kontynuującą leczenie była największa po 12 tygodniach i mniejsza w późniejszych kontrolach.\n\nDlaczego to pasuje do kamienia milowego SSRI\nTrzy z czterech badanych leków — citalopram, sertralina i fluoksetyna — to SSRI. Proste podsumowanie badania wskazuje, że dodatkowe objawy odstawienia po przerwaniu leczenia koncentrowały się głównie w pierwszych 3–4 miesiącach.\n\nMocne trzy miesiące\nDzień 90 wypada dokładnie przy tym zmierzonym punkcie zwrotnym. Potem różnica w objawach odstawienia maleje, dzięki czemu trzy miesiące są konkretnym kamieniem milowym zdrowienia. Jeśli depresja lub lęk wyraźnie wracają, wcześnie skontaktuj się z osobą prowadzącą leczenie.';
 
   @override
   String get ssriReferenceDay180 =>

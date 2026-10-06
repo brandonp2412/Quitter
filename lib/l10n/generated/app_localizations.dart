@@ -4551,13 +4551,13 @@ abstract class AppLocalizations {
   /// No description provided for @ssriMilestone90Title.
   ///
   /// In en, this message translates to:
-  /// **'Three Months: Serotonin Receptor Recovery'**
+  /// **'Three Months: The Withdrawal Curve Turns'**
   String get ssriMilestone90Title;
 
   /// No description provided for @ssriMilestone90Description.
   ///
   /// In en, this message translates to:
-  /// **'Three months is a major recovery milestone. The serotonin system has had months to adjust after the medicine is gone. Mood, anxiety, focus, and clear thinking are meaningfully better for most people.'**
+  /// **'In the ANTLER trial, the withdrawal-symptom gap after stopping long-term antidepressants was largest at 12 weeks and smaller at later follow-ups. That makes three months a real turning point in the measured withdrawal course.'**
   String get ssriMilestone90Description;
 
   /// No description provided for @ssriMilestone180Title.
@@ -6003,7 +6003,7 @@ abstract class AppLocalizations {
   /// No description provided for @ssriReferenceDay90.
   ///
   /// In en, this message translates to:
-  /// **'Three Months After SSRIs: Well Past Withdrawal\n\nSource: \"Antidepressant Withdrawal Syndrome,\" Therapeutics Letter 112 (2018), Therapeutics Initiative, on the NCBI Bookshelf\n\nWhere Three Months Sits\nThis evidence review notes that antidepressant withdrawal symptoms \'usually appear within a few days of stopping, or dose reduction,\' and that \'most antidepressant withdrawal symptoms resolve within 2 weeks\' — though severe cases can last weeks to months. By three months, the acute withdrawal phase is well behind the great majority of people.\n\nWhy SSRIs Vary\nWithdrawal is more likely with shorter half-life SSRIs (such as paroxetine) than with long half-life ones (fluoxetine). The Letter is candid that withdrawal reactions can be substantial — two systematic reviews found them \'very similar\' to those from benzodiazepines — and occur in at least a third of people who stop.\n\nRecovery Signal on \'Receptor Recovery\'\nYou may see confident claims that serotonin receptors \'fully resensitise by 2–3 months.\' The robust evidence is about the withdrawal syndrome and its timing, not a precise receptor-recovery clock. What\'s dependable: by three months the withdrawal phase has typically resolved, and many people notice the emotional blunting and sexual side effects some experience on SSRIs ease after stopping.\n\nIf Symptoms Linger\nThe Letter advises distinguishing withdrawal from a genuine return of the underlying condition. If low mood or anxiety persists at three months, that\'s worth reviewing with your prescriber rather than assuming it\'s \'just withdrawal.\''**
+  /// **'Three Months: The Withdrawal Curve Turns\n\nSource: Duffy et al., \"Antidepressant medication to prevent depression relapse in primary care: the ANTLER RCT,\" Health Technology Assessment (2021)\n\nMeasured at 12 Weeks\nANTLER randomized 478 primary-care patients who had taken antidepressants for at least 9 months and felt well enough to consider stopping. Participants were taking citalopram, sertraline, fluoxetine, or mirtazapine. The difference in withdrawal symptoms between the discontinuation and maintenance groups was largest at 12 weeks and smaller at later follow-ups.\n\nWhy This Fits an SSRI Milestone\nThree of the four study drugs — citalopram, sertraline, and fluoxetine — are SSRIs. The study\'s plain-language summary says the extra withdrawal symptoms after stopping were concentrated mostly in the first 3–4 months.\n\nThree Months Strong\nDay 90 lands right at that measured turning point. The withdrawal gap narrows after this checkpoint, making three months a concrete recovery milestone. If depression or anxiety is returning strongly, contact your prescriber early.'**
   String get ssriReferenceDay90;
 
   /// No description provided for @ssriReferenceDay180.

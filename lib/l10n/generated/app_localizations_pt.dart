@@ -2658,11 +2658,11 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get ssriMilestone90Title =>
-      'Três Meses: Recuperação do Receptor de Serotonina';
+      'Três meses: A curva da abstinência muda de rumo';
 
   @override
   String get ssriMilestone90Description =>
-      'Três meses é um marco importante de recuperação. O sistema da serotonina teve meses para se ajustar depois que o medicamento acabou. Humor, ansiedade, foco e pensamento claro são significativamente melhores para a maioria das pessoas.';
+      'No ensaio ANTLER, a diferença nos sintomas de abstinência após parar antidepressivos de longa duração foi maior às 12 semanas e menor nos seguimentos posteriores. Isso faz dos três meses um verdadeiro ponto de viragem no percurso de abstinência medido.';
 
   @override
   String get ssriMilestone180Title =>
@@ -3590,7 +3590,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get ssriReferenceDay90 =>
-      'Três meses após SSRIs: abstinência bem passada\n\nFonte: \"Síndrome de abstinência de antidepressivos\", Therapeutics Letter 112 (2018), Therapeutics Initiative, na estante do NCBI\n\nOnde ficam três meses\nEsta revisão de evidências observa que os sintomas de abstinência de antidepressivos “geralmente aparecem alguns dias após a interrupção ou redução da dose” e que “a maioria dos sintomas de abstinência de antidepressivos desaparecem em 2 semanas” – embora os casos graves possam durar semanas a meses. Aos três meses, a fase aguda de abstinência já está bem atrasada para a grande maioria das pessoas.\n\nPor que os SSRIs variam\nA abstinência é mais provável com ISRSs de meia-vida mais curta (como a paroxetina) do que com os de meia-vida longa (fluoxetina). A Carta é franca ao afirmar que as reações de abstinência podem ser substanciais – duas revisões sistemáticas consideraram-nas “muito semelhantes” às das benzodiazepinas – e ocorrem em pelo menos um terço das pessoas que param.\n\nSinal de recuperação em \'Recuperação do receptor\'\nPode ver afirmações confiantes de que os receptores de serotonina \'resensibilizam totalmente em 2 a 3 meses\'. A evidência robusta diz respeito à síndrome de abstinência e ao seu momento, e não a um relógio preciso de recuperação dos receptores. O que é confiável: em três meses, a fase de abstinência normalmente foi resolvida e muitas pessoas notam o embotamento emocional e os efeitos colaterais sexuais que alguma experiência com os ISRSs diminuem após a interrupção.\n\nSe os sintomas persistirem\nA Carta aconselha distinguir a abstinência de um retorno genuíno da condição subjacente. Se o mau humor ou a ansiedade persistirem após três meses, vale a pena revisar isso com seu médico, em vez de presumir que é \'apenas abstinência\'.';
+      'Três meses: A curva da abstinência muda de rumo\n\nFonte: Duffy et al., \"Antidepressant medication to prevent depression relapse in primary care: the ANTLER RCT,\" Health Technology Assessment (2021)\n\nMedido às 12 semanas\nO ANTLER randomizou 478 doentes de cuidados de saúde primários que tomavam antidepressivos há pelo menos 9 meses e se sentiam suficientemente bem para considerar parar. Tomavam citalopram, sertralina, fluoxetina ou mirtazapina. A diferença nos sintomas de abstinência entre o grupo que parou e o grupo que manteve o tratamento foi maior às 12 semanas e menor nos seguimentos posteriores.\n\nPorque isto encaixa num marco dos ISRS\nTrês dos quatro medicamentos estudados — citalopram, sertralina e fluoxetina — são ISRS. O resumo em linguagem simples do estudo indica que os sintomas adicionais de abstinência após parar se concentraram sobretudo nos primeiros 3–4 meses.\n\nTrês meses fortes\nO dia 90 cai mesmo nesse ponto de viragem medido. Depois deste marco, a diferença nos sintomas de abstinência diminui, tornando os três meses um marco concreto de recuperação. Se a depressão ou a ansiedade regressarem com força, contacte cedo o profissional que prescreve a medicação.';
 
   @override
   String get ssriReferenceDay180 =>
@@ -6347,11 +6347,11 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get ssriMilestone90Title =>
-      'Três Meses: Recuperação do Receptor de Serotonina';
+      'Três meses: A curva da abstinência muda de rumo';
 
   @override
   String get ssriMilestone90Description =>
-      'Três meses é um marco importante de recuperação. O sistema da serotonina teve meses para se ajustar depois que o medicamento acabou. Humor, ansiedade, foco e pensamento claro são significativamente melhores para a maioria das pessoas.';
+      'No estudo ANTLER, a diferença nos sintomas de abstinência após interromper antidepressivos de longo prazo foi maior em 12 semanas e menor nos acompanhamentos posteriores. Isso faz de três meses um verdadeiro ponto de virada no curso medido da abstinência.';
 
   @override
   String get ssriMilestone180Title =>
@@ -7281,7 +7281,7 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get ssriReferenceDay90 =>
-      'Três meses após SSRIs: retirada bem passada\n\nFonte: \"Síndrome de abstinência de antidepressivos\", Therapeutics Letter 112 (2018), Therapeutics Initiative, na estante do NCBI\n\nOnde ficam três meses\nEsta revisão de evidências observa que os sintomas de abstinência de antidepressivos “geralmente aparecem alguns dias após a interrupção ou redução da dose” e que “a maioria dos sintomas de abstinência de antidepressivos desaparecem em 2 semanas” – embora os casos graves possam durar semanas a meses. Aos três meses, a fase aguda de abstinência já está bem atrasada para a grande maioria das pessoas.\n\nPor que os SSRIs variam\nA abstinência é mais provável com ISRSs de meia-vida mais curta (como a paroxetina) do que com os de meia-vida longa (fluoxetina).A Carta é franca ao afirmar que as reações de abstinência podem ser substanciais – duas revisões sistemáticas consideraram-nas “muito semelhantes” às das benzodiazepinas – e ocorrem em pelo menos um terço das pessoas que param.\n\nSinal de recuperação em \'Recuperação do receptor\'\nVocê pode ver afirmações confiantes de que os receptores de serotonina \'resensibilizam totalmente em 2 a 3 meses\'.A evidência robusta diz respeito à síndrome de abstinência e ao seu momento, e não a um relógio preciso de recuperação dos receptores. O que é confiável: em três meses, a fase de abstinência normalmente foi resolvida e muitas pessoas notam o embotamento emocional e os efeitos colaterais sexuais que alguma experiência com os ISRSs diminuem após a interrupção.\n\nSe os sintomas persistirem\nA Carta aconselha distinguir a retirada de um retorno genuíno da condição subjacente. Se o mau humor ou a ansiedade persistirem após três meses, vale a pena revisar isso com seu médico, em vez de presumir que é \'apenas abstinência\'.';
+      'Três meses: A curva da abstinência muda de rumo\n\nFonte: Duffy et al., \"Antidepressant medication to prevent depression relapse in primary care: the ANTLER RCT,\" Health Technology Assessment (2021)\n\nMedido em 12 semanas\nO ANTLER randomizou 478 pacientes da atenção primária que usavam antidepressivos havia pelo menos 9 meses e se sentiam bem o bastante para considerar parar. Eles usavam citalopram, sertralina, fluoxetina ou mirtazapina. A diferença nos sintomas de abstinência entre o grupo que interrompeu e o grupo que manteve o tratamento foi maior em 12 semanas e menor nos acompanhamentos posteriores.\n\nPor que isso combina com um marco de ISRS\nTrês dos quatro medicamentos estudados — citalopram, sertralina e fluoxetina — são ISRS. O resumo em linguagem simples do estudo informa que os sintomas adicionais de abstinência após a interrupção se concentraram principalmente nos primeiros 3–4 meses.\n\nTrês meses fortes\nO dia 90 cai bem nesse ponto de virada medido. Depois desse marco, a diferença nos sintomas de abstinência diminui, tornando três meses um marco concreto de recuperação. Se a depressão ou a ansiedade voltarem com força, entre em contato cedo com quem prescreve seu tratamento.';
 
   @override
   String get ssriReferenceDay180 =>

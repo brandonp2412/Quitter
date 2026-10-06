@@ -2632,11 +2632,11 @@ class AppLocalizationsId extends AppLocalizations {
       'Satu bulan menandai tonggak sejarah yang signifikan. Kualitas tidur membaik, tingkat energi menjadi stabil, dan banyak orang menyadari suasana hati mereka mulai menemukan keseimbangan baru. Otak secara aktif memulihkan regulasi serotonin alaminya.';
 
   @override
-  String get ssriMilestone90Title => 'Tiga Bulan: Pemulihan Reseptor Serotonin';
+  String get ssriMilestone90Title => 'Tiga Bulan: Kurva Putus Obat Berbalik';
 
   @override
   String get ssriMilestone90Description =>
-      'Tiga bulan adalah tonggak pemulihan yang besar. Sistem serotonin membutuhkan waktu berbulan-bulan untuk menyesuaikan diri setelah obatnya habis. Suasana hati, kecemasan, fokus, dan pemikiran jernih jauh lebih baik bagi kebanyakan orang.';
+      'Dalam uji ANTLER, selisih gejala putus obat setelah menghentikan antidepresan jangka panjang paling besar pada minggu ke-12 dan lebih kecil pada tindak lanjut berikutnya. Itu menjadikan tiga bulan sebagai titik balik nyata dalam perjalanan putus obat yang terukur.';
 
   @override
   String get ssriMilestone180Title =>
@@ -3560,7 +3560,7 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get ssriReferenceDay90 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Tiga Bulan: Kurva Putus Obat Berbalik\n\nSumber: Duffy dkk., \"Antidepressant medication to prevent depression relapse in primary care: the ANTLER RCT,\" Health Technology Assessment (2021)\n\nDiukur pada Minggu ke-12\nANTLER mengacak 478 pasien layanan primer yang telah menggunakan antidepresan setidaknya 9 bulan dan merasa cukup sehat untuk mempertimbangkan berhenti. Mereka menggunakan citalopram, sertraline, fluoxetine, atau mirtazapine. Selisih gejala putus obat antara kelompok yang menghentikan dan yang melanjutkan pengobatan paling besar pada minggu ke-12 dan lebih kecil pada tindak lanjut berikutnya.\n\nMengapa Ini Cocok sebagai Tonggak SSRI\nTiga dari empat obat yang diteliti — citalopram, sertraline, dan fluoxetine — adalah SSRI. Ringkasan awam studi tersebut menyebut gejala putus obat tambahan setelah berhenti terutama terkonsentrasi pada 3–4 bulan pertama.\n\nTiga Bulan Kuat\nHari ke-90 tepat berada di titik balik yang terukur itu. Setelah titik ini, selisih gejala putus obat mengecil, sehingga tiga bulan menjadi tonggak pemulihan yang konkret. Jika depresi atau kecemasan kembali kuat, hubungi dokter pemberi resep lebih awal.';
 
   @override
   String get ssriReferenceDay180 =>
