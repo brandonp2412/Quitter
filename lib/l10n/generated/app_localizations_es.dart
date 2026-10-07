@@ -741,11 +741,12 @@ class AppLocalizationsEs extends AppLocalizations {
       'Alrededor de dos semanas después de una retirada gradual de benzodiacepinas, un estudio clínico del sueño encontró más sueño de ondas lentas y una mejor calidad de sueño percibida. Es una señal temprana y concreta de recuperación del sueño.';
 
   @override
-  String get benzoMilestone60Title => 'Mejora la estructura del sueño';
+  String get benzoMilestone60Title =>
+      'Ocho semanas: vuelven la concentración y el equilibrio';
 
   @override
   String get benzoMilestone60Description =>
-      'Los estudios muestran que, después de 2 meses, tus patrones naturales de sueño empiezan a recuperarse. Aumenta el sueño de ondas lentas y mejora su calidad respecto a cuando tomabas benzodiacepinas, aunque la eficiencia general del sueño todavía puede estar recuperándose.';
+      'En un estudio de 8 semanas con personas mayores que llevaban mucho tiempo usando hipnóticos benzodiacepínicos, quienes completaron la retirada gradual mejoraron en memoria inmediata, atención, lenguaje y estabilidad corporal. Es una recuperación diurna medible.';
 
   @override
   String get benzoMilestone90Title => 'Se estabiliza la salud física';
@@ -3072,7 +3073,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get benzodiazepineReferenceDay60 =>
-      'Benzodiacepinas y recuperación del sueño a los dos meses\n\nFuente: Poyares et al., \"Chronic benzodiazepine usage and withdrawal in insomnia patients,\" Journal of Psychiatric Research (2004), en PubMed\n\nCómo cambian el sueño las benzodiacepinas\nLas benzodiacepinas se recetan ampliamente para el insomnio, pero alteran la arquitectura del sueño. En este estudio de polisomnografía con pacientes que habían tomado benzodiacepinas cada noche durante una media de casi siete años, el uso crónico se asoció con menos sueño de ondas lentas (sueño profundo) y más sueño ligero de fase 2. Es decir, se pierde parte del sueño profundo reparador aunque exista sensación de sedación.\n\nVuelve el sueño profundo\nEl hallazgo alentador fue que el estudio volvió a medir el sueño 15 días después de la retirada y encontró recuperación del sueño de ondas lentas y de la actividad delta respecto a las noches de uso crónico, junto con una mejor calidad subjetiva del sueño. El sueño profundo, suprimido por el fármaco, empezó a regresar en unas dos semanas.\n\nQué significa a los 60 días\nSi el sueño profundo empieza a recuperarse dentro de las primeras dos semanas, a los dos meses el cerebro ya ha tenido bastante tiempo para seguir reconstruyendo un sueño natural y reparador. El insomnio intenso de rebote de la abstinencia temprana suele haberse asentado. Los autores señalaron que la retirada empeoró el sueño al principio —otra razón por la que importa una reducción gradual—, pero al final del protocolo la calidad del sueño había mejorado respecto al periodo de uso crónico.\n\nOtras mejoras a los dos meses\nMuchos síntomas físicos tempranos de abstinencia —tensión muscular, temblores, palpitaciones y sudoración— suelen haberse aliviado o resuelto hacia los dos meses a medida que el organismo vuelve a regularse.';
+      'Benzodiacepinas: función diurna a las ocho semanas\n\nFuente: Tsunoda et al., \"Effects of discontinuing benzodiazepine-derivative hypnotics on postural sway and cognitive functions in the elderly\", International Journal of Geriatric Psychiatry (2010), en PubMed\n\nUna señal de recuperación medida a las ocho semanas\nLos investigadores siguieron a adultos de 60 años o más que vivían en una residencia y usaban hipnóticos benzodiacepínicos. La dosis se redujo gradualmente hasta retirarla durante tres semanas, y las pruebas cognitivas y de equilibrio se repitieron al final de la octava semana.\n\nSubieron la concentración y la memoria\nEntre las 26 personas que completaron el estudio, mejoraron significativamente las puntuaciones de memoria inmediata, atención y lenguaje. Son avances concretos de la función diurna medidos después de suspender las benzodiacepinas.\n\nMás estabilidad al estar de pie\nTambién mejoraron significativamente las medidas de oscilación postural con los ojos cerrados. Los autores concluyeron que retirar los hipnóticos benzodiacepínicos se asoció con una mejor estabilidad corporal y recuperación de la función cognitiva diurna en este grupo de personas mayores.\n\nEl sueño se mantuvo estable\nQuienes completaron el estudio no informaron un empeoramiento subjetivo del sueño en el cuestionario utilizado. Al final de la octava semana, el estudio registró mejoras diurnas medibles sin un deterioro informado de la calidad del sueño.';
 
   @override
   String get benzodiazepineReferenceDay90 =>

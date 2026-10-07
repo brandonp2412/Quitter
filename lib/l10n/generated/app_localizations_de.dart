@@ -750,11 +750,12 @@ class AppLocalizationsDe extends AppLocalizations {
       'Etwa zwei Wochen nach einem schrittweisen Benzodiazepin-Entzug zeigte eine klinische Schlafstudie mehr Tiefschlaf und eine bessere subjektive Schlafqualität. Das ist ein konkretes frühes Erholungssignal für den Schlaf.';
 
   @override
-  String get benzoMilestone60Title => 'Schlafarchitektur verbessert';
+  String get benzoMilestone60Title =>
+      'Acht Wochen: Fokus und Gleichgewicht kommen zurück';
 
   @override
   String get benzoMilestone60Description =>
-      'Studien zeigen, dass sich Ihre natürlichen Schlafmuster nach 2 Monaten wieder erholen. Langsamwelliger Schlaf nimmt zu und die Schlafqualität verbessert sich im Vergleich zur Einnahme von Benzodiazepinen, obwohl sich die Gesamtschlafeffizienz möglicherweise noch erholt.';
+      'In einer 8-wöchigen Studie mit älteren Langzeitanwendern von Benzodiazepin-Schlafmitteln zeigten Teilnehmende nach abgeschlossenem Ausschleichen bessere Werte bei unmittelbarem Gedächtnis, Aufmerksamkeit, Sprache und Körperstabilität. Das ist messbare Erholung am Tag.';
 
   @override
   String get benzoMilestone90Title => 'Körperliche Gesundheit stabilisiert';
@@ -3055,7 +3056,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get benzodiazepineReferenceDay60 =>
-      'Benzodiazepine und Schlaf Erholung von zwei Monaten\n\nQuelle: Poyares et al., \"Chronischer Benzodiazepingebrauch und -entzug bei Schlaflosigkeitspatienten\", Journal of Psychiatric Research (2004), auf PubMed\n\nWie Benzos den Schlaf verändern\nBenzodiazepine werden häufig für Schlaflosigkeit verschrieben, aber sie verändern die Schlafarchitektur. In dieser Polysomnographie-Studie an Patienten, die Benzodiazepine im Durchschnitt fast sieben Jahre lang nächtlich eingenommen hatten, war der chronische Gebrauch mit einem reduzierten langsamen (tiefen) Schlaf und einem leichteren Stadium-2-Schlaf verbunden - so dass die Benutzer den erholsamen Tiefschlaf verlieren, selbst wenn sie sich beruhigt fühlen.\n\nDeep Sleep kommt zurück\nDie ermutigende Erkenntnis: Die Studie maß den Schlaf 15 Tage nach dem Entzug erneut und fand eine Erholung des langsamen Schlafes und der Delta-Aktivität im Vergleich zu den Nächten mit chronischer Nutzung sowie eine verbesserte subjektive Schlafqualität. Tiefschlaf, unterdrückt durch die Droge, begann innerhalb von etwa zwei Wochen nach dem Aufhören zurückzukehren.\n\nWas bedeutet das bei 60 Tagen\nWenn sich der Tiefschlaf innerhalb von zwei Wochen erholt, hatte Ihr Gehirn nach zwei Monaten genügend Zeit, um den natürlichen, erholsamen Schlaf wieder aufzubauen. Die schwere Rebound-Schlaflosigkeit des vorzeitigen Rückzugs hat sich typischerweise beruhigt. Die Autoren waren ehrlich, dass der Entzug den Schlaf zunächst verschlechterte - weshalb eine allmähliche Verjüngung wichtig ist -, aber am Ende ihres Protokolls hatte sich die Schlafqualität gegenüber dem chronischen Benzodiazepin verbessert.\n\nWeitere Verbesserungen um zwei Monate\nViele frühe körperliche Entzugserscheinungen - Muskelverspannungen, Zittern, Herzklopfen, Schwitzen - haben sich in der Regel durch die Zwei-Monats-Marke gelockert oder gelöst, wenn der Körper wieder reguliert.';
+      'Benzodiazepine: Tagesfunktion nach acht Wochen\n\nQuelle: Tsunoda et al., \"Effects of discontinuing benzodiazepine-derivative hypnotics on postural sway and cognitive functions in the elderly\", International Journal of Geriatric Psychiatry (2010), PubMed\n\nEin messbares Erholungssignal nach acht Wochen\nDie Forschenden begleiteten Erwachsene ab 60 Jahren in einem Pflegeheim, die Benzodiazepin-Schlafmittel einnahmen. Die Dosis wurde über drei Wochen ausgeschlichen; am Ende der achten Woche wurden Kognition und Gleichgewicht erneut getestet.\n\nFokus und Gedächtnis legten zu\nBei den 26 Teilnehmenden, die die Studie abschlossen, verbesserten sich die Indexwerte für unmittelbares Gedächtnis, Aufmerksamkeit und Sprache signifikant. Das sind konkrete, gemessene Fortschritte der Tagesfunktion nach dem Absetzen von Benzodiazepinen.\n\nSicherer auf den Beinen\nAuch Messwerte des Körperschwankens bei geschlossenen Augen verbesserten sich signifikant. Die Autoren folgerten, dass das Absetzen von Benzodiazepin-Schlafmitteln in dieser älteren Gruppe mit besserer Körperstabilität und einer Erholung der kognitiven Tagesfunktion verbunden war.\n\nDer Schlaf blieb stabil\nDie Teilnehmenden berichteten im verwendeten Schlaffragebogen keine subjektive Verschlechterung des Schlafs. Am Acht-Wochen-Endpunkt zeigte die Studie messbare Tagesgewinne ohne berichteten Verlust an Schlafqualität.';
 
   @override
   String get benzodiazepineReferenceDay90 =>

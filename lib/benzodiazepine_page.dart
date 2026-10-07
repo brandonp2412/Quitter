@@ -57,21 +57,21 @@ class BenzodiazepinePage extends StatelessWidget {
         title: l10n.benzoMilestone60Title,
         description: l10n.benzoMilestone60Description,
         reference:
-            "Chronic Benzodiazepine Usage and Withdrawal in Insomnia Patients (PubMed)",
-        link: "https://pubmed.ncbi.nlm.nih.gov/15003439/",
-        referenceDate: "June 2026",
+            "Effects of Discontinuing Benzodiazepine-Derivative Hypnotics on Postural Sway and Cognitive Functions in the Elderly (PubMed)",
+        link: "https://pubmed.ncbi.nlm.nih.gov/20054834/",
+        referenceDate: "October 2026",
         localizedReferenceContent: l10n.benzodiazepineReferenceDay60,
         referenceContent:
-            "Benzodiazepines and Sleep Recovery by Two Months\n\n"
-            "Source: Poyares et al., \"Chronic benzodiazepine usage and withdrawal in insomnia patients,\" Journal of Psychiatric Research (2004), on PubMed\n\n"
-            "How Benzos Change Sleep\n"
-            "Benzodiazepines are widely prescribed for insomnia, but they alter sleep architecture. In this polysomnography study of patients who had taken benzodiazepines nightly for an average of nearly seven years, chronic use was associated with reduced slow-wave (deep) sleep and more light stage-2 sleep — so users lose restorative deep sleep even while feeling sedated.\n\n"
-            "Deep Sleep Comes Back\n"
-            "The encouraging finding: the study measured sleep again 15 days after withdrawal and found recovery of slow-wave sleep and delta activity compared with the chronic-use nights, along with improved subjective sleep quality. Deep sleep, suppressed by the drug, began returning within about two weeks of stopping.\n\n"
-            "What This Means at 60 Days\n"
-            "If deep sleep is recovering within two weeks, then by two months your brain has had ample time to keep rebuilding natural, restorative sleep. The severe rebound insomnia of early withdrawal has typically settled. The authors were honest that withdrawal worsened sleep at first — which is why a gradual taper matters — but by the end of their protocol, sleep quality had improved over chronic benzodiazepine use.\n\n"
-            "Other Improvements by Two Months\n"
-            "Many early physical withdrawal symptoms — muscle tension, tremor, palpitations, sweating — have typically eased or resolved by the two-month mark as the body re-regulates.",
+            "Benzodiazepines: Daytime Function at Eight Weeks\n\n"
+            "Source: Tsunoda et al., \"Effects of discontinuing benzodiazepine-derivative hypnotics on postural sway and cognitive functions in the elderly,\" International Journal of Geriatric Psychiatry (2010), on PubMed\n\n"
+            "A Measured Eight-Week Recovery Signal\n"
+            "Researchers followed adults aged 60 and older living in a nursing home who used benzodiazepine hypnotics. Their dose was tapered off over three weeks, with cognitive and balance testing repeated at the eight-week endpoint.\n\n"
+            "Focus and Memory Moved Up\n"
+            "Among 26 completers, immediate memory, attention, and language index scores improved significantly. These are concrete daytime-function gains measured after benzodiazepine discontinuation.\n\n"
+            "Steadier on Your Feet\n"
+            "Measures of postural sway with eyes closed improved significantly too. The authors concluded that discontinuing benzodiazepine hypnotics was associated with better body stability and recovery of daytime cognitive function in this older group.\n\n"
+            "Sleep Held Steady\n"
+            "Completers did not report subjective worsening of sleep on the study's sleep questionnaire. At the eight-week endpoint, the study captured measurable daytime gains without a reported sleep-quality penalty.",
       ),
       QuitMilestone(
         day: 90,

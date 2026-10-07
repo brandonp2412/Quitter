@@ -764,11 +764,11 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get benzoMilestone60Title =>
-      'Amélioration de l\'architecture du sommeil';
+      'Huit semaines : concentration et équilibre reviennent';
 
   @override
   String get benzoMilestone60Description =>
-      'Les études montrent qu\'après 2 mois, vos rythmes naturels de sommeil commencent à se rétablir. Le sommeil lent augmente et sa qualité s\'améliore par rapport à la période de prise de benzodiazépines, même si l\'efficacité globale du sommeil peut encore être en récupération.';
+      'Dans une étude de 8 semaines menée chez des personnes âgées utilisant depuis longtemps des hypnotiques benzodiazépiniques, celles qui ont terminé le sevrage progressif ont amélioré leur mémoire immédiate, leur attention, leurs scores de langage et leur stabilité corporelle. Une récupération diurne mesurable.';
 
   @override
   String get benzoMilestone90Title => 'Stabilisation de la santé physique';
@@ -3105,7 +3105,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get benzodiazepineReferenceDay60 =>
-      'Benzodiazépines et récupération du sommeil à deux mois\n\nSource : Poyares et al., « Chronic benzodiazepine usage and withdrawal in insomnia patients », Journal of Psychiatric Research (2004), PubMed\n\nComment les benzodiazépines modifient le sommeil\nLes benzodiazépines sont largement prescrites contre l\'insomnie, mais elles modifient l\'architecture du sommeil. Dans cette étude polysomnographique de patients ayant pris des benzodiazépines chaque soir pendant près de sept ans en moyenne, l\'usage chronique était associé à moins de sommeil lent profond et davantage de sommeil léger de stade 2 — les utilisateurs perdent donc une partie du sommeil profond réparateur même s\'ils se sentent sédatés.\n\nLe sommeil profond revient\nRésultat encourageant : l\'étude a de nouveau mesuré le sommeil 15 jours après le sevrage et constaté une récupération du sommeil lent et de l\'activité delta par rapport aux nuits sous usage chronique, ainsi qu\'une amélioration subjective de la qualité du sommeil. Le sommeil profond, supprimé par le médicament, commençait à revenir environ deux semaines après l\'arrêt.\n\nCe que cela signifie à 60 jours\nSi le sommeil profond récupère dès les deux premières semaines, alors à deux mois le cerveau a eu largement le temps de poursuivre la reconstruction d\'un sommeil naturel et réparateur. L\'insomnie sévère de rebond du début du sevrage s\'est généralement calmée. Les auteurs indiquent honnêtement que le sevrage aggravait d\'abord le sommeil — d\'où l\'importance d\'une diminution progressive — mais qu\'à la fin du protocole la qualité du sommeil était meilleure que sous usage chronique.\n\nAutres améliorations à deux mois\nBeaucoup de symptômes physiques précoces — tension musculaire, tremblements, palpitations, sueurs — ont généralement diminué ou disparu à deux mois à mesure que le corps se régule de nouveau.';
+      'Benzodiazépines : fonctionnement diurne à huit semaines\n\nSource : Tsunoda et al., \"Effects of discontinuing benzodiazepine-derivative hypnotics on postural sway and cognitive functions in the elderly\", International Journal of Geriatric Psychiatry (2010), sur PubMed\n\nUn signal de récupération mesuré à huit semaines\nLes chercheurs ont suivi des adultes de 60 ans et plus vivant en maison de retraite et utilisant des hypnotiques benzodiazépiniques. La dose a été diminuée progressivement jusqu’à l’arrêt sur trois semaines, puis les tests cognitifs et d’équilibre ont été répétés à la fin de la huitième semaine.\n\nConcentration et mémoire en hausse\nParmi les 26 personnes ayant terminé l’étude, les scores de mémoire immédiate, d’attention et de langage se sont améliorés de façon significative. Ce sont des gains concrets de fonctionnement diurne mesurés après l’arrêt des benzodiazépines.\n\nPlus stable sur ses appuis\nLes mesures d’oscillation posturale les yeux fermés se sont également améliorées de façon significative. Les auteurs ont conclu que l’arrêt des hypnotiques benzodiazépiniques était associé, dans ce groupe âgé, à une meilleure stabilité corporelle et à une récupération des fonctions cognitives diurnes.\n\nLe sommeil est resté stable\nLes participants ayant terminé l’étude n’ont pas signalé d’aggravation subjective du sommeil dans le questionnaire utilisé. À huit semaines, l’étude a mis en évidence des gains diurnes mesurables sans baisse rapportée de la qualité du sommeil.';
 
   @override
   String get benzodiazepineReferenceDay90 =>

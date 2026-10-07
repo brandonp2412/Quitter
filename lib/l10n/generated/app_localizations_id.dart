@@ -747,11 +747,12 @@ class AppLocalizationsId extends AppLocalizations {
       'Sekitar dua minggu setelah penghentian benzodiazepin secara bertahap, sebuah studi tidur klinis menemukan peningkatan tidur gelombang lambat dan kualitas tidur yang dirasakan. Ini adalah tanda pemulihan awal yang nyata pada sistem tidur.';
 
   @override
-  String get benzoMilestone60Title => 'Arsitektur Tidur Meningkat';
+  String get benzoMilestone60Title =>
+      'Delapan minggu: fokus dan keseimbangan membaik';
 
   @override
   String get benzoMilestone60Description =>
-      'Penelitian menunjukkan bahwa setelah 2 bulan, pola tidur alami Anda mulai pulih. Tidur gelombang lambat meningkat dan kualitas tidur meningkat dibandingkan dengan penggunaan benzodiazepin, meskipun efisiensi tidur secara keseluruhan mungkin masih dalam tahap pemulihan.';
+      'Dalam studi 8 minggu pada pengguna lama obat tidur benzodiazepin yang lebih tua, peserta yang menyelesaikan penurunan dosis hingga berhenti menunjukkan peningkatan pada memori langsung, perhatian, skor bahasa, dan kestabilan tubuh. Ini pemulihan fungsi siang hari yang terukur.';
 
   @override
   String get benzoMilestone90Title => 'Kesehatan Fisik Stabil';
@@ -3040,7 +3041,7 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get benzodiazepineReferenceDay60 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Benzodiazepin: fungsi siang hari pada delapan minggu\n\nSumber: Tsunoda dkk., \"Effects of discontinuing benzodiazepine-derivative hypnotics on postural sway and cognitive functions in the elderly\", International Journal of Geriatric Psychiatry (2010), di PubMed\n\nSinyal Pemulihan Delapan Minggu yang Terukur\nPeneliti mengikuti orang dewasa berusia 60 tahun ke atas yang tinggal di panti perawatan dan menggunakan obat tidur benzodiazepin. Dosis mereka diturunkan bertahap hingga berhenti selama tiga minggu, lalu tes kognitif dan keseimbangan diulang pada akhir minggu kedelapan.\n\nFokus dan Memori Meningkat\nDi antara 26 peserta yang menyelesaikan studi, skor memori langsung, perhatian, dan bahasa meningkat secara signifikan. Ini adalah peningkatan nyata fungsi siang hari yang diukur setelah penghentian benzodiazepin.\n\nLebih Stabil Saat Berdiri\nUkuran goyangan postural dengan mata tertutup juga meningkat secara signifikan. Para penulis menyimpulkan bahwa penghentian obat tidur benzodiazepin pada kelompok usia lanjut ini berkaitan dengan kestabilan tubuh yang lebih baik dan pemulihan fungsi kognitif pada siang hari.\n\nTidur Tetap Stabil\nPeserta yang menyelesaikan studi tidak melaporkan memburuknya tidur secara subjektif pada kuesioner tidur. Pada akhir minggu kedelapan, studi mencatat peningkatan fungsi siang hari yang terukur tanpa penurunan kualitas tidur yang dilaporkan.';
 
   @override
   String get benzodiazepineReferenceDay90 =>

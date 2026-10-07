@@ -750,11 +750,12 @@ class AppLocalizationsPt extends AppLocalizations {
       'Cerca de duas semanas após a retirada gradual de benzodiazepinas, um estudo clínico do sono encontrou mais sono de ondas lentas e melhor qualidade de sono relatada. É um sinal concreto de recuperação precoce do sono.';
 
   @override
-  String get benzoMilestone60Title => 'A arquitetura do sono melhora';
+  String get benzoMilestone60Title =>
+      'Oito semanas: foco e equilíbrio recuperam';
 
   @override
   String get benzoMilestone60Description =>
-      'Estudos mostram que após 2 meses, os seus padrões naturais de sono começam a ser restaurados. O sono de ondas lentas aumenta e a qualidade do sono melhora em comparação com o uso de benzodiazepínicos, embora a eficiência geral do sono ainda possa estar se recuperando.';
+      'Num estudo de 8 semanas com pessoas mais velhas que usavam hipnóticos benzodiazepínicos há muito tempo, quem concluiu a redução gradual até à suspensão apresentou melhor memória imediata, atenção, linguagem e estabilidade corporal. É uma recuperação diurna mensurável.';
 
   @override
   String get benzoMilestone90Title => 'Estabilização da saúde física';
@@ -3071,7 +3072,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get benzodiazepineReferenceDay60 =>
-      'Benzodiazepínicos e recuperação do sono em dois meses\n\nFonte: Poyares et al., \"Uso crônico de benzodiazepínicos e abstinência em pacientes com insónia\", Journal of Psychiatric Research (2004), no PubMed\n\nComo Benzos muda o sono\nOs benzodiazepínicos são amplamente prescritos para a insónia, mas alteram a arquitetura do sono. Neste estudo de polissonografia de pacientes que tomaram benzodiazepínicos todas as noites por uma média de quase sete anos, o uso crônico foi associado à redução do sono de ondas lentas (profundo) e a mais sono leve de estágio 2 – de modo que os utilizadores perdem o sono profundo restaurador mesmo quando se sentem sedados.\n\nO sono profundo volta\nA descoberta encorajadora: o estudo mediu o sono novamente 15 dias após a abstinência e encontrou recuperação do sono de ondas lentas e da atividade delta em comparação com as noites de uso crônico, juntamente com melhora na qualidade subjetiva do sono. O sono profundo, suprimido pela droga, começou a retornar cerca de duas semanas após a interrupção.\n\nO que isso significa em 60 dias\nSe o sono profundo estiver se recuperando em duas semanas, então em dois meses seu cérebro terá tempo suficiente para continuar a reconstruir o sono natural e restaurador. A grave insónia de rebote da abstinência precoce normalmente se resolveu. Os autores foram honestos ao afirmar que a abstinência piorou o sono no início – razão pela qual uma redução gradual é importante – mas, no final do protocolo, a qualidade do sono melhorou em relação ao uso crônico de benzodiazepínicos.\n\nOutras melhorias em dois meses\nMuitos sintomas iniciais de abstinência física – tensão muscular, tremor, palpitações, sudorese – geralmente diminuíram ou desapareceram na marca de dois meses, à medida que o corpo se re-regula.';
+      'Benzodiazepinas: função diurna às oito semanas\n\nFonte: Tsunoda et al., \"Effects of discontinuing benzodiazepine-derivative hypnotics on postural sway and cognitive functions in the elderly\", International Journal of Geriatric Psychiatry (2010), no PubMed\n\nUm sinal de recuperação medido às oito semanas\nOs investigadores acompanharam adultos com 60 ou mais anos, residentes num lar e utilizadores de hipnóticos benzodiazepínicos. A dose foi reduzida gradualmente até à suspensão ao longo de três semanas, e os testes cognitivos e de equilíbrio foram repetidos no final da oitava semana.\n\nFoco e memória melhoraram\nEntre as 26 pessoas que concluíram o estudo, melhoraram significativamente os índices de memória imediata, atenção e linguagem. São ganhos concretos de funcionamento diurno medidos após a suspensão das benzodiazepinas.\n\nMais estabilidade de pé\nAs medidas de oscilação postural com os olhos fechados também melhoraram significativamente. Os autores concluíram que suspender hipnóticos benzodiazepínicos esteve associado a melhor estabilidade corporal e recuperação da função cognitiva diurna neste grupo mais velho.\n\nO sono manteve-se estável\nQuem concluiu o estudo não relatou agravamento subjetivo do sono no questionário utilizado. No final da oitava semana, o estudo registou ganhos diurnos mensuráveis sem perda relatada da qualidade do sono.';
 
   @override
   String get benzodiazepineReferenceDay90 =>
@@ -4444,11 +4445,12 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
       'Cerca de duas semanas após a retirada gradual de benzodiazepínicos, um estudo clínico do sono encontrou mais sono de ondas lentas e melhor qualidade de sono relatada. É um sinal concreto de recuperação precoce do sono.';
 
   @override
-  String get benzoMilestone60Title => 'A arquitetura do sono melhora';
+  String get benzoMilestone60Title =>
+      'Oito semanas: foco e equilíbrio melhoram';
 
   @override
   String get benzoMilestone60Description =>
-      'Estudos mostram que após 2 meses, os seus padrões naturais de sono começam a ser restaurados. O sono de ondas lentas aumenta e a qualidade do sono melhora em comparação com o uso de benzodiazepínicos, embora a eficiência geral do sono ainda possa estar se recuperando.';
+      'Em um estudo de 8 semanas com pessoas mais velhas que usavam hipnóticos benzodiazepínicos há muito tempo, quem concluiu a redução gradual até parar apresentou melhora de memória imediata, atenção, linguagem e estabilidade corporal. É recuperação diurna mensurável.';
 
   @override
   String get benzoMilestone90Title => 'Estabilização da saúde física';
@@ -6763,7 +6765,7 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get benzodiazepineReferenceDay60 =>
-      'Benzodiazepínicos e recuperação do sono em dois meses\n\nFonte: Poyares et al., \"Uso crônico de benzodiazepínicos e retirada em pacientes com insônia\", Journal of Psychiatric Research (2004), no PubMed\n\nComo Benzos muda o sono\nOs benzodiazepínicos são amplamente prescritos para a insônia, mas alteram a arquitetura do sono. Neste estudo de polissonografia de pacientes que tomaram benzodiazepínicos todas as noites por uma média de quase sete anos, o uso crônico foi associado à redução do sono de ondas lentas (profundo) e a mais sono leve de estágio 2 – de modo que os usuários perdem o sono profundo restaurador mesmo quando se sentem sedados.\n\nO sono profundo volta\nA descoberta encorajadora: o estudo mediu o sono novamente 15 dias após a retirada e encontrou recuperação do sono de ondas lentas e da atividade delta em comparação com as noites de uso crônico, juntamente com melhora na qualidade subjetiva do sono. O sono profundo, suprimido pela droga, começou a retornar cerca de duas semanas após a interrupção.\n\nO que isso significa em 60 dias\nSe o sono profundo estiver se recuperando em duas semanas, então em dois meses seu cérebro terá tempo suficiente para continuar a reconstruir o sono natural e restaurador. A grave insônia de rebote da abstinência precoce normalmente se resolveu. Os autores foram honestos ao afirmar que a abstinência piorou o sono no início – razão pela qual uma redução gradual é importante – mas, no final do protocolo, a qualidade do sono melhorou em relação ao uso crônico de benzodiazepínicos.\n\nOutras melhorias em dois meses\nMuitos sintomas iniciais de abstinência física – tensão muscular, tremor, palpitações, sudorese – geralmente diminuíram ou desapareceram na marca de dois meses, à medida que o corpo se re-regula.';
+      'Benzodiazepínicos: função diurna em oito semanas\n\nFonte: Tsunoda et al., \"Effects of discontinuing benzodiazepine-derivative hypnotics on postural sway and cognitive functions in the elderly\", International Journal of Geriatric Psychiatry (2010), no PubMed\n\nUm sinal de recuperação medido em oito semanas\nOs pesquisadores acompanharam adultos com 60 anos ou mais que viviam em uma instituição de cuidados e usavam hipnóticos benzodiazepínicos. A dose foi reduzida gradualmente até a interrupção ao longo de três semanas, e os testes cognitivos e de equilíbrio foram repetidos no final da oitava semana.\n\nFoco e memória melhoraram\nEntre as 26 pessoas que concluíram o estudo, os índices de memória imediata, atenção e linguagem melhoraram significativamente. São ganhos concretos de funcionamento durante o dia medidos após a interrupção dos benzodiazepínicos.\n\nMais firmeza em pé\nAs medidas de oscilação postural com os olhos fechados também melhoraram significativamente. Os autores concluíram que interromper hipnóticos benzodiazepínicos esteve associado a melhor estabilidade corporal e recuperação da função cognitiva diurna nesse grupo mais velho.\n\nO sono ficou estável\nQuem concluiu o estudo não relatou piora subjetiva do sono no questionário utilizado. No final da oitava semana, o estudo registrou ganhos diurnos mensuráveis sem queda relatada na qualidade do sono.';
 
   @override
   String get benzodiazepineReferenceDay90 =>

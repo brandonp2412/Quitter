@@ -712,11 +712,11 @@ class AppLocalizationsZh extends AppLocalizations {
       '逐步停用苯二氮卓约两周后，一项临床睡眠研究发现慢波睡眠增加，受试者自评睡眠质量也有所改善。这是睡眠系统开始早期恢复的一个具体信号。';
 
   @override
-  String get benzoMilestone60Title => '睡眠结构改善';
+  String get benzoMilestone60Title => '八周：专注力和平衡能力回升';
 
   @override
   String get benzoMilestone60Description =>
-      '研究表明，2个月后您的自然睡眠模式开始恢复。慢波睡眠增加，与服用苯二氮卓时相比睡眠质量改善，尽管整体睡眠效率可能仍在恢复中。';
+      '一项为期8周、针对长期使用苯二氮䓬类安眠药老年人的研究发现，完成逐步减量并停药的人在即时记忆、注意力、语言评分和身体稳定性上都有改善。这是可测量的日间功能恢复。';
 
   @override
   String get benzoMilestone90Title => '身体健康稳定';
@@ -2859,7 +2859,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get benzodiazepineReferenceDay60 =>
-      '苯二氮卓与两个月时的睡眠恢复\n\n来源：Poyares et al.，《Chronic benzodiazepine usage and withdrawal in insomnia patients》，Journal of Psychiatric Research（2004），PubMed\n\n苯二氮卓如何改变睡眠\n苯二氮卓被广泛用于治疗失眠，但它们会改变睡眠结构。在这项多导睡眠图研究中，受试者平均每晚服用苯二氮卓近七年，慢性用药与慢波（深度）睡眠减少、浅睡眠第2阶段增多相关——因此，使用者即使感到昏昏欲睡，也会失去恢复性的深度睡眠。\n\n深度睡眠回来了\n令人鼓舞的发现是：该研究在停药15天后再次测量睡眠，发现与慢性用药的那些夜晚相比，慢波睡眠和δ活动得到恢复，同时主观睡眠质量也得到改善。被药物抑制的深度睡眠，在停药后约两周内开始恢复。\n\n这在60天时意味着什么\n如果深度睡眠能在两周内恢复，那么到两个月时，你的大脑已经有充足的时间继续重建自然的、恢复性的睡眠。早期戒断中严重的反跳性失眠通常已经平息。作者坦言，停药起初确实会加重睡眠问题——这正是逐步减量重要的原因——但到他们方案结束时，睡眠质量已经优于长期服用苯二氮卓时的水平。\n\n两个月时的其他改善\n许多早期身体戒断症状——肌肉紧张、震颤、心悸、出汗——到两个月时通常已经缓解或消失，因为身体在重新调节。';
+      '苯二氮䓬类药物：八周时的日间功能\n\n来源：Tsunoda 等，\"Effects of discontinuing benzodiazepine-derivative hypnotics on postural sway and cognitive functions in the elderly\"，International Journal of Geriatric Psychiatry（2010），PubMed\n\n八周时可测量的恢复信号\n研究人员随访了居住在护理机构、使用苯二氮䓬类安眠药的60岁及以上成人。药物在三周内逐步减量直至停用，并在第八周结束时再次进行认知和平衡测试。\n\n专注力和记忆力上升\n在完成研究的26人中，即时记忆、注意力和语言指数评分均显著改善。这是在停用苯二氮䓬类药物后直接测得的日间功能进步。\n\n站得更稳\n闭眼时的姿势摇摆指标也显著改善。作者认为，在这组老年人中，停用苯二氮䓬类安眠药与更好的身体稳定性和日间认知功能恢复相关。\n\n睡眠保持稳定\n完成研究的人在睡眠问卷中没有报告主观睡眠恶化。到第八周结束时，研究记录到可测量的日间功能改善，同时没有报告睡眠质量下降。';
 
   @override
   String get benzodiazepineReferenceDay90 =>
@@ -4202,11 +4202,11 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
       '逐步停用苯二氮卓約兩週後，一項臨床睡眠研究發現慢波睡眠增加，受試者自評睡眠品質也有所改善。這是睡眠系統開始早期恢復的一個具體訊號。';
 
   @override
-  String get benzoMilestone60Title => '睡眠結構改善';
+  String get benzoMilestone60Title => '八週：專注力與平衡能力回升';
 
   @override
   String get benzoMilestone60Description =>
-      '研究表明，2個月後您的自然睡眠模式開始恢復。慢波睡眠增加，與服用苯二氮卓時相比睡眠質量改善，儘管整體睡眠效率可能仍在恢復中。';
+      '一項為期8週、針對長期使用苯二氮䓬類安眠藥老年人的研究發現，完成逐步減量並停藥的人在即時記憶、注意力、語言評分和身體穩定性上都有改善。這是可測量的日間功能恢復。';
 
   @override
   String get benzoMilestone90Title => '身體健康穩定';
@@ -6349,7 +6349,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get benzodiazepineReferenceDay60 =>
-      '苯二氮卓與兩個月時的睡眠恢復\n\n來源：Poyares et al.，《Chronic benzodiazepine usage and withdrawal in insomnia patients》，Journal of Psychiatric Research（2004），PubMed\n\n苯二氮卓如何改變睡眠\n苯二氮卓被廣泛用於治療失眠，但它們會改變睡眠結構。在這項多導睡眠圖研究中，受試者平均每晚服用苯二氮卓近七年，慢性用藥與慢波（深度）睡眠減少、淺睡眠第2階段增多相關——因此，使用者即使感到昏昏欲睡，也會失去恢復性的深度睡眠。\n\n深度睡眠回來了\n令人鼓舞的發現是：該研究在停藥15天後再次測量睡眠，發現與慢性用藥的那些夜晚相比，慢波睡眠和δ活動得到恢復，同時主觀睡眠質量也得到改善。被藥物抑制的深度睡眠，在停藥後約兩周內開始恢復。\n\n這在60天時意味著甚麼\n如果深度睡眠能在兩周內恢復，那麼到兩個月時，你的大腦已經有充足的時間繼續重建自然的、恢復性的睡眠。早期戒斷中嚴重的反跳性失眠通常已經平息。作者坦言，停藥起初確實會加重睡眠問題——這正是逐步減量重要的原因——但到他們方案結束時，睡眠質量已經優於長期服用苯二氮卓時的水平。\n\n兩個月時的其他改善\n許多早期身體戒斷症狀——肌肉緊張、震顫、心悸、出汗——到兩個月時通常已經緩解或消失，因為身體在重新調節。';
+      '苯二氮䓬類藥物：八週時的日間功能\n\n來源：Tsunoda 等，\"Effects of discontinuing benzodiazepine-derivative hypnotics on postural sway and cognitive functions in the elderly\"，International Journal of Geriatric Psychiatry（2010），PubMed\n\n八週時可測量的恢復訊號\n研究人員追蹤了居住在照護機構、使用苯二氮䓬類安眠藥的60歲以上成人。藥物在三週內逐步減量直至停用，並在第八週結束時再次進行認知與平衡測試。\n\n專注力和記憶力上升\n在完成研究的26人中，即時記憶、注意力和語言指數評分均顯著改善。這是在停用苯二氮䓬類藥物後直接測得的日間功能進步。\n\n站得更穩\n閉眼時的姿勢搖擺指標也顯著改善。作者認為，在這組老年人中，停用苯二氮䓬類安眠藥與更好的身體穩定性和日間認知功能恢復相關。\n\n睡眠維持穩定\n完成研究的人在睡眠問卷中沒有回報主觀睡眠惡化。到第八週結束時，研究記錄到可測量的日間功能改善，同時沒有回報睡眠品質下降。';
 
   @override
   String get benzodiazepineReferenceDay90 =>

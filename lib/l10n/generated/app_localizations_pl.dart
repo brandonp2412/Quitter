@@ -754,11 +754,12 @@ class AppLocalizationsPl extends AppLocalizations {
       'Około dwóch tygodni po stopniowym odstawieniu benzodiazepin badanie kliniczne snu wykazało więcej snu wolnofalowego i lepszą zgłaszaną jakość snu. To konkretny, wczesny sygnał regeneracji snu.';
 
   @override
-  String get benzoMilestone60Title => 'Poprawia architekturę snu';
+  String get benzoMilestone60Title =>
+      'Osiem tygodni: wracają skupienie i równowaga';
 
   @override
   String get benzoMilestone60Description =>
-      'Badania pokazują, że po 2 miesiącach, naturalne wzorce snu zaczynają się restaurować. Slow – fala sen wzrasta i jakość snu poprawia się w porównaniu do podczas przyjmowania benzodiazepin, nawet jeśli ogólna wydajność snu może być nadal odzyskiwanie.';
+      'W 8-tygodniowym badaniu starszych osób długo stosujących nasenne benzodiazepiny uczestnicy, którzy ukończyli stopniowe odstawianie, uzyskali lepsze wyniki pamięci bezpośredniej, uwagi, języka i stabilności ciała. To mierzalna poprawa funkcjonowania w dzień.';
 
   @override
   String get benzoMilestone90Title => 'Stan zdrowia fizycznego stabilizuje';
@@ -3065,7 +3066,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get benzodiazepineReferenceDay60 =>
-      'Benzodiazepiny i regeneracja snu przez dwa miesiące\n\nŹródło: Poyares et al., \"Chronic benzodiazepine usage and withdrawal in insomnia patients,\" Journal of Psychiatric Research (2004), on PubMed\n\nJak Benzos zmienić sen\nBenzodiazepiny są powszechnie przepisywane na bezsenność, ale zmieniają architekturę snu. W tym badaniu polisomnograficznym pacjentów, którzy przyjmowali benzodiazepiny w nocy średnio przez prawie siedem lat, przewlekłe stosowanie było związane z zmniejszonym spowalniającym się falą głębokości ) snu i więcej lekkiej stacy- Sleep więc użytkownicy tracą regenerujący głęboki sen nawet podczas odczuwania sedated.\n\nGłęboki sen wraca\nZachęcające ustalenia: badanie zmierzone sen ponownie 15 dni po odstawieniu i znalazł rekonwalescencję snu powolnych fal i delta aktywności w porównaniu z chronicznych – użyciu nocy, wraz z poprawą subiektywnej jakości snu. Głęboki sen, tłumiony przez narkotyk, zaczął powracać w ciągu około dwóch tygodni od zatrzymania.\n\nCo to oznacza w 60 Dni\nJeśli głęboki sen dochodzi do siebie w ciągu dwóch tygodni, to o dwa miesiące twój mózg miał wystarczająco dużo czasu, aby utrzymać odbudowę naturalnej, regenerujący sen. Ciężka bezsenność odbicia wczesnej odstawienności. autorzy byli uczciwi, że wycofanie pogorszył sen na początku, dlatego stopniowy stożek ma znaczenie, ale pod koniec ich protocol, jakość snu poprawiła się nad przewlekłym benzodiazepin wykorzystania.\n\nInne ulepszenia przez dwa miesiące\nWiele wczesnych fizycznych objawów odstawiennych nasila napięcie mięśni, drżenie, kołatanie serca, pocenie się zwykle ustępują lub ustępują po dwumiesięcznym oznaczeniu, w miarę reregulacji ciała. zy';
+      'Benzodiazepiny: funkcjonowanie w dzień po ośmiu tygodniach\n\nŹródło: Tsunoda i wsp., \"Effects of discontinuing benzodiazepine-derivative hypnotics on postural sway and cognitive functions in the elderly\", International Journal of Geriatric Psychiatry (2010), PubMed\n\nMierzalny sygnał poprawy po ośmiu tygodniach\nBadacze obserwowali dorosłych w wieku 60 lat i starszych mieszkających w domu opieki, którzy stosowali nasenne benzodiazepiny. Dawki stopniowo zmniejszano do odstawienia przez trzy tygodnie, a pod koniec ósmego tygodnia ponownie wykonano testy poznawcze i równowagi.\n\nSkupienie i pamięć poszły w górę\nWśród 26 osób, które ukończyły badanie, istotnie poprawiły się wyniki pamięci bezpośredniej, uwagi i języka. To konkretne, zmierzone korzyści w funkcjonowaniu dziennym po odstawieniu benzodiazepin.\n\nPewniej na nogach\nIstotnie poprawiły się też pomiary wychyleń postawy przy zamkniętych oczach. Autorzy uznali, że odstawienie nasennych benzodiazepin w tej starszej grupie wiązało się z lepszą stabilnością ciała i poprawą dziennych funkcji poznawczych.\n\nSen pozostał stabilny\nOsoby, które ukończyły badanie, nie zgłaszały subiektywnego pogorszenia snu w zastosowanym kwestionariuszu. W ósmym tygodniu badanie wykazało mierzalne korzyści w ciągu dnia bez zgłaszanego pogorszenia jakości snu.';
 
   @override
   String get benzodiazepineReferenceDay90 =>
