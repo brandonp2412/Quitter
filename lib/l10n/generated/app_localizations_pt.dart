@@ -396,7 +396,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get synthetic_cannabinoidsInfoBox =>
-      'Os canabinoides sintéticos (“Spice”, “K2”) podem ser muito mais potentes e imprevisíveis do que a canábis. A abstinência pode ser mais grave, com relatos de convulsões, psicose, agitação e batimento cardíaco acelerado. Sintomas graves exigem assistência médica urgente.';
+      'Os canabinoides sintéticos (“Spice”, “K2”) podem ser muito mais potentes e imprevisíveis do que a canábis. A abstinência pode ser mais grave, com relatos de convulsões, agitação e batimento cardíaco acelerado; a intoxicação aguda também pode causar psicose. Sintomas graves exigem assistência médica urgente.';
 
   @override
   String get addictionSyntheticCannabinoids => 'Canabinóides Sintéticos';
@@ -406,7 +406,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get synthetic_cannabinoidsMilestone1Description =>
-      'A abstinência pode surgir rapidamente após uso frequente. Foram relatados problemas de sono, irritabilidade, humor deprimido, suor, palpitações, agitação e tremores — e casos graves podem incluir convulsões ou psicose.';
+      'A abstinência pode surgir rapidamente após uso frequente. Foram relatados problemas de sono, irritabilidade, humor deprimido, suor, palpitações, agitação e tremores — e casos graves podem incluir convulsões recorrentes ou problemas cardiovasculares ou respiratórios.';
 
   @override
   String get synthetic_cannabinoidsMilestone3Title => 'O duro início';
@@ -4118,7 +4118,7 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get synthetic_cannabinoidsInfoBox =>
-      'Os canabinoides sintéticos (“Spice”, “K2”) podem ser muito mais potentes e imprevisíveis do que a cannabis. A abstinência pode ser mais grave, e há relatos de convulsões, psicose, agitação e frequência cardíaca acelerada. Sintomas graves exigem atendimento médico urgente.';
+      'Os canabinoides sintéticos (“Spice”, “K2”) podem ser muito mais potentes e imprevisíveis do que a cannabis. A abstinência pode ser mais grave, com relatos de convulsões, agitação e frequência cardíaca acelerada; a intoxicação aguda também pode causar psicose. Sintomas graves exigem atendimento médico urgente.';
 
   @override
   String get addictionSyntheticCannabinoids => 'Canabinóides Sintéticos';
@@ -4128,7 +4128,7 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get synthetic_cannabinoidsMilestone1Description =>
-      'A abstinência pode aparecer rapidamente após uso frequente. Problemas de sono, irritabilidade, humor deprimido, suor, palpitações, agitação e tremores são relatados — e casos graves podem incluir convulsões ou psicose.';
+      'A abstinência pode aparecer rapidamente após uso frequente. Problemas de sono, irritabilidade, humor deprimido, suor, palpitações, agitação e tremores são relatados — e casos graves podem incluir convulsões recorrentes ou problemas cardiovasculares ou respiratórios.';
 
   @override
   String get synthetic_cannabinoidsMilestone3Title =>

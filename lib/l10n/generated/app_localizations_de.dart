@@ -397,7 +397,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get synthetic_cannabinoidsInfoBox =>
-      'Synthetische Cannabinoide („Spice“, „K2“) können deutlich stärker und unberechenbarer sein als Cannabis. Der Entzug kann schwerer verlaufen; berichtet wurden Krampfanfälle, Psychosen, starke Unruhe und Herzrasen. Schwere Symptome brauchen sofortige medizinische Hilfe.';
+      'Synthetische Cannabinoide („Spice“, „K2“) können deutlich stärker und unberechenbarer sein als Cannabis. Der Entzug kann schwerer verlaufen; berichtet wurden Krampfanfälle, starke Unruhe und Herzrasen, während eine akute Intoxikation auch Psychosen auslösen kann. Schwere Symptome brauchen sofortige medizinische Hilfe.';
 
   @override
   String get addictionSyntheticCannabinoids => 'Synthetische Cannabinoide';
@@ -407,7 +407,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get synthetic_cannabinoidsMilestone1Description =>
-      'Nach häufigem Konsum kann der Entzug schnell einsetzen. Schlafprobleme, Reizbarkeit, gedrückte Stimmung, Schwitzen, Herzklopfen, Unruhe und Zittern sind beschrieben – schwere Fälle können Krampfanfälle oder Psychosen umfassen.';
+      'Nach häufigem Konsum kann der Entzug schnell einsetzen. Schlafprobleme, Reizbarkeit, gedrückte Stimmung, Schwitzen, Herzklopfen, Unruhe und Zittern sind beschrieben – schwere Fälle können wiederkehrende Krampfanfälle sowie Herz-Kreislauf- oder Atemprobleme umfassen.';
 
   @override
   String get synthetic_cannabinoidsMilestone3Title => 'Der harte Anfang';

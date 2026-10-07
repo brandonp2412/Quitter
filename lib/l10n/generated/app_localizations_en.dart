@@ -391,7 +391,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get synthetic_cannabinoidsInfoBox =>
-      'Synthetic cannabinoids (“Spice”, “K2”) can be far more potent and unpredictable than cannabis. Withdrawal can be more severe, and reports include seizures, psychosis, agitation, and a fast heart rate. Severe symptoms need urgent medical care.';
+      'Synthetic cannabinoids (“Spice”, “K2”) can be far more potent and unpredictable than cannabis. Withdrawal can be more severe, with seizures, agitation, and a fast heart rate reported; acute intoxication can also cause psychosis. Severe symptoms need urgent medical care.';
 
   @override
   String get addictionSyntheticCannabinoids => 'Synthetic Cannabinoids';
@@ -401,7 +401,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get synthetic_cannabinoidsMilestone1Description =>
-      'Withdrawal can hit fast after frequent use. Sleep trouble, irritability, low mood, sweating, palpitations, agitation, and shakes are all reported — and severe cases can include seizures or psychosis.';
+      'Withdrawal can hit fast after frequent use. Sleep trouble, irritability, low mood, sweating, palpitations, agitation, and shakes are all reported — and severe cases can include recurring seizures or cardiovascular or breathing problems.';
 
   @override
   String get synthetic_cannabinoidsMilestone3Title => 'The Rough Early Stretch';

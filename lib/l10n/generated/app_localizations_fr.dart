@@ -402,7 +402,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get synthetic_cannabinoidsInfoBox =>
-      'Les cannabinoïdes de synthèse (« Spice », « K2 ») peuvent être bien plus puissants et imprévisibles que le cannabis. Le sevrage peut être plus sévère, avec des cas de convulsions, psychose, agitation et accélération du rythme cardiaque. Les symptômes graves nécessitent des soins médicaux urgents.';
+      'Les cannabinoïdes de synthèse (« Spice », « K2 ») peuvent être bien plus puissants et imprévisibles que le cannabis. Le sevrage peut être plus sévère, avec des cas de convulsions, agitation et accélération du rythme cardiaque ; l’intoxication aiguë peut aussi provoquer une psychose. Les symptômes graves nécessitent des soins médicaux urgents.';
 
   @override
   String get addictionSyntheticCannabinoids => 'Cannabinoïdes de synthèse';
@@ -412,7 +412,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get synthetic_cannabinoidsMilestone1Description =>
-      'Le sevrage peut frapper vite après un usage fréquent. Troubles du sommeil, irritabilité, humeur dépressive, sueurs, palpitations, agitation et tremblements sont rapportés — les cas graves peuvent inclure des convulsions ou une psychose.';
+      'Le sevrage peut frapper vite après un usage fréquent. Troubles du sommeil, irritabilité, humeur dépressive, sueurs, palpitations, agitation et tremblements sont rapportés — les cas graves peuvent inclure des convulsions répétées ou des problèmes cardiovasculaires ou respiratoires.';
 
   @override
   String get synthetic_cannabinoidsMilestone3Title => 'Le début difficile';

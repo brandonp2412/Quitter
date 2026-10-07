@@ -393,7 +393,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get synthetic_cannabinoidsInfoBox =>
-      'Los cannabinoides sintéticos (“Spice”, “K2”) pueden ser mucho más potentes e impredecibles que el cannabis. La abstinencia puede ser más grave, y se han descrito convulsiones, psicosis, agitación y taquicardia. Los síntomas graves requieren atención médica urgente.';
+      'Los cannabinoides sintéticos (“Spice”, “K2”) pueden ser mucho más potentes e impredecibles que el cannabis. La abstinencia puede ser más grave, y se han descrito convulsiones, agitación y taquicardia; la intoxicación aguda también puede causar psicosis. Los síntomas graves requieren atención médica urgente.';
 
   @override
   String get addictionSyntheticCannabinoids => 'Cannabinoides sintéticos';
@@ -403,7 +403,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get synthetic_cannabinoidsMilestone1Description =>
-      'La abstinencia puede aparecer rápido tras un consumo frecuente. Se han descrito problemas de sueño, irritabilidad, ánimo bajo, sudoración, palpitaciones, agitación y temblores; los casos graves pueden incluir convulsiones o psicosis.';
+      'La abstinencia puede aparecer rápido tras un consumo frecuente. Se han descrito problemas de sueño, irritabilidad, ánimo bajo, sudoración, palpitaciones, agitación y temblores; los casos graves pueden incluir convulsiones recurrentes o problemas cardiovasculares o respiratorios.';
 
   @override
   String get synthetic_cannabinoidsMilestone3Title => 'El duro tramo inicial';

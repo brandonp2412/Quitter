@@ -789,7 +789,7 @@ abstract class AppLocalizations {
   /// No description provided for @synthetic_cannabinoidsInfoBox.
   ///
   /// In en, this message translates to:
-  /// **'Synthetic cannabinoids (“Spice”, “K2”) can be far more potent and unpredictable than cannabis. Withdrawal can be more severe, and reports include seizures, psychosis, agitation, and a fast heart rate. Severe symptoms need urgent medical care.'**
+  /// **'Synthetic cannabinoids (“Spice”, “K2”) can be far more potent and unpredictable than cannabis. Withdrawal can be more severe, with seizures, agitation, and a fast heart rate reported; acute intoxication can also cause psychosis. Severe symptoms need urgent medical care.'**
   String get synthetic_cannabinoidsInfoBox;
 
   /// No description provided for @addictionSyntheticCannabinoids.
@@ -807,7 +807,7 @@ abstract class AppLocalizations {
   /// No description provided for @synthetic_cannabinoidsMilestone1Description.
   ///
   /// In en, this message translates to:
-  /// **'Withdrawal can hit fast after frequent use. Sleep trouble, irritability, low mood, sweating, palpitations, agitation, and shakes are all reported — and severe cases can include seizures or psychosis.'**
+  /// **'Withdrawal can hit fast after frequent use. Sleep trouble, irritability, low mood, sweating, palpitations, agitation, and shakes are all reported — and severe cases can include recurring seizures or cardiovascular or breathing problems.'**
   String get synthetic_cannabinoidsMilestone1Description;
 
   /// No description provided for @synthetic_cannabinoidsMilestone3Title.

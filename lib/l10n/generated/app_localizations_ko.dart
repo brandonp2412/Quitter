@@ -380,7 +380,7 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get synthetic_cannabinoidsInfoBox =>
-      '합성 칸나비노이드(“Spice”, “K2”)는 대마초보다 훨씬 강력하고 예측하기 어려울 수 있습니다. 금단은 더 심할 수 있으며 발작, 정신병적 증상, 초조, 빠른 심박수 등이 보고되었습니다. 심한 증상이 나타나면 즉시 의료 도움을 받으세요.';
+      '합성 칸나비노이드(“Spice”, “K2”)는 대마초보다 훨씬 강력하고 예측하기 어려울 수 있습니다. 금단은 더 심할 수 있으며 발작, 초조, 빠른 심박수 등이 보고되었습니다. 급성 중독은 정신병적 증상을 일으킬 수도 있습니다. 심한 증상이 나타나면 즉시 의료 도움을 받으세요.';
 
   @override
   String get addictionSyntheticCannabinoids => '합성 칸나비노이드';
@@ -390,7 +390,7 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get synthetic_cannabinoidsMilestone1Description =>
-      '잦은 사용 뒤에는 금단이 빠르게 나타날 수 있습니다. 수면 문제, 과민함, 우울한 기분, 발한, 두근거림, 초조, 떨림이 보고되며, 심한 경우 발작이나 정신병적 증상이 나타날 수 있습니다.';
+      '잦은 사용 뒤에는 금단이 빠르게 나타날 수 있습니다. 수면 문제, 과민함, 우울한 기분, 발한, 두근거림, 초조, 떨림이 보고되며, 심한 경우 반복되는 발작이나 심혈관 또는 호흡기 문제가 나타날 수 있습니다.';
 
   @override
   String get synthetic_cannabinoidsMilestone3Title => '힘든 초반 구간';

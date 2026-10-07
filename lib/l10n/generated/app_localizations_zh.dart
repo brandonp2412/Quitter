@@ -380,7 +380,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get synthetic_cannabinoidsInfoBox =>
-      '合成大麻素（“Spice”“K2”）可能比大麻强效得多，也更难预测。戒断可能更严重，已有癫痫发作、精神病性症状、躁动和心跳过快的报告。严重症状需要紧急就医。';
+      '合成大麻素（“Spice”“K2”）可能比大麻强效得多，也更难预测。戒断可能更严重，已有癫痫发作、躁动和心跳过快的报告；急性中毒还可能引发精神病性症状。严重症状需要紧急就医。';
 
   @override
   String get addictionSyntheticCannabinoids => '合成大麻素';
@@ -390,7 +390,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get synthetic_cannabinoidsMilestone1Description =>
-      '频繁使用后，戒断可能很快出现。已有睡眠问题、易怒、情绪低落、出汗、心悸、躁动和颤抖的报告；严重病例还可能出现癫痫发作或精神病性症状。';
+      '频繁使用后，戒断可能很快出现。已有睡眠问题、易怒、情绪低落、出汗、心悸、躁动和颤抖的报告；严重病例还可能出现反复癫痫发作或心血管、呼吸问题。';
 
   @override
   String get synthetic_cannabinoidsMilestone3Title => '艰难的早期阶段';
@@ -3886,7 +3886,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get synthetic_cannabinoidsInfoBox =>
-      '合成大麻素（「Spice」「K2」）可能比大麻強效得多，也更難預測。戒斷可能更嚴重，已有癲癇發作、精神病性症狀、躁動和心跳過快的報告。嚴重症狀需要緊急就醫。';
+      '合成大麻素（「Spice」「K2」）可能比大麻強效得多，也更難預測。戒斷可能更嚴重，已有癲癇發作、躁動和心跳過快的報告；急性中毒還可能引發精神病性症狀。嚴重症狀需要緊急就醫。';
 
   @override
   String get addictionSyntheticCannabinoids => '合成大麻素';
@@ -3896,7 +3896,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get synthetic_cannabinoidsMilestone1Description =>
-      '頻繁使用後，戒斷可能很快出現。已有睡眠問題、易怒、情緒低落、出汗、心悸、躁動和顫抖的報告；嚴重病例還可能出現癲癇發作或精神病性症狀。';
+      '頻繁使用後，戒斷可能很快出現。已有睡眠問題、易怒、情緒低落、出汗、心悸、躁動和顫抖的報告；嚴重病例還可能出現反覆癲癇發作或心血管、呼吸問題。';
 
   @override
   String get synthetic_cannabinoidsMilestone3Title => '艱難的早期階段';

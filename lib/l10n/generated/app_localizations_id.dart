@@ -398,7 +398,7 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get synthetic_cannabinoidsInfoBox =>
-      'Kanabinoid sintetis (“Spice”, “K2”) dapat jauh lebih kuat dan tidak terduga dibanding ganja. Putus zat dapat lebih berat, dengan laporan kejang, psikosis, agitasi, dan detak jantung cepat. Gejala berat memerlukan pertolongan medis segera.';
+      'Kanabinoid sintetis (“Spice”, “K2”) dapat jauh lebih kuat dan tidak terduga dibanding ganja. Putus zat dapat lebih berat, dengan laporan kejang, agitasi, dan detak jantung cepat; keracunan akut juga dapat menyebabkan psikosis. Gejala berat memerlukan pertolongan medis segera.';
 
   @override
   String get addictionSyntheticCannabinoids => 'Cannabinoid Sintetis';
@@ -408,7 +408,7 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get synthetic_cannabinoidsMilestone1Description =>
-      'Putus zat dapat muncul cepat setelah penggunaan yang sering. Gangguan tidur, mudah marah, suasana hati rendah, berkeringat, jantung berdebar, agitasi, dan gemetar semuanya dilaporkan — kasus berat dapat mencakup kejang atau psikosis.';
+      'Putus zat dapat muncul cepat setelah penggunaan yang sering. Gangguan tidur, mudah marah, suasana hati rendah, berkeringat, jantung berdebar, agitasi, dan gemetar semuanya dilaporkan — kasus berat dapat mencakup kejang berulang atau masalah kardiovaskular atau pernapasan.';
 
   @override
   String get synthetic_cannabinoidsMilestone3Title => 'Masa Awal yang Berat';

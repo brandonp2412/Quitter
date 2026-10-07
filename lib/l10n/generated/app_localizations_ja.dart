@@ -380,7 +380,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get synthetic_cannabinoidsInfoBox =>
-      '合成カンナビノイド（「Spice」「K2」）は、大麻よりはるかに強力で予測不能なことがあります。離脱はより重くなる場合があり、けいれん、精神病症状、興奮、頻脈が報告されています。重い症状には緊急の医療対応が必要です。';
+      '合成カンナビノイド（「Spice」「K2」）は、大麻よりはるかに強力で予測不能なことがあります。離脱はより重くなる場合があり、けいれん、興奮、頻脈が報告されています。急性中毒では精神病症状が起こることもあります。重い症状には緊急の医療対応が必要です。';
 
   @override
   String get addictionSyntheticCannabinoids => '合成カンナビノイド';
@@ -390,7 +390,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get synthetic_cannabinoidsMilestone1Description =>
-      '頻繁に使用していた場合、離脱は早く始まることがあります。睡眠障害、いら立ち、気分の落ち込み、発汗、動悸、興奮、震えが報告されており、重い例ではけいれんや精神病症状もあります。';
+      '頻繁に使用していた場合、離脱は早く始まることがあります。睡眠障害、いら立ち、気分の落ち込み、発汗、動悸、興奮、震えが報告されており、重い例では反復するけいれんや心血管・呼吸器の問題もあります。';
 
   @override
   String get synthetic_cannabinoidsMilestone3Title => '厳しい序盤';

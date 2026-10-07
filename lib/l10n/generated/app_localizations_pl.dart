@@ -398,7 +398,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get synthetic_cannabinoidsInfoBox =>
-      'Syntetyczne kannabinoidy („Spice”, „K2”) mogą być znacznie silniejsze i bardziej nieprzewidywalne niż konopie. Odstawienie może być cięższe; opisywano drgawki, psychozę, pobudzenie i przyspieszone tętno. Ciężkie objawy wymagają pilnej pomocy medycznej.';
+      'Syntetyczne kannabinoidy („Spice”, „K2”) mogą być znacznie silniejsze i bardziej nieprzewidywalne niż konopie. Odstawienie może być cięższe; opisywano drgawki, pobudzenie i przyspieszone tętno, a ostre zatrucie może również wywołać psychozę. Ciężkie objawy wymagają pilnej pomocy medycznej.';
 
   @override
   String get addictionSyntheticCannabinoids => 'Syntetyczne kannabinoidy';
@@ -408,7 +408,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get synthetic_cannabinoidsMilestone1Description =>
-      'Po częstym używaniu objawy odstawienia mogą pojawić się szybko. Opisywano problemy ze snem, drażliwość, obniżony nastrój, poty, kołatanie serca, pobudzenie i drżenie — ciężkie przypadki mogą obejmować drgawki lub psychozę.';
+      'Po częstym używaniu objawy odstawienia mogą pojawić się szybko. Opisywano problemy ze snem, drażliwość, obniżony nastrój, poty, kołatanie serca, pobudzenie i drżenie — ciężkie przypadki mogą obejmować nawracające drgawki albo problemy sercowo-naczyniowe lub oddechowe.';
 
   @override
   String get synthetic_cannabinoidsMilestone3Title => 'Trudny początek';
