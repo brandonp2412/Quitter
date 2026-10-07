@@ -2027,11 +2027,11 @@ class AppLocalizationsZh extends AppLocalizations {
   String get smokingMilestone90Description => '戒烟三个月后，心血管风险已明显下降，心脏和血管正在持续恢复。';
 
   @override
-  String get smokingMilestone180Title => '免疫系统增强';
+  String get smokingMilestone180Title => '肺部免疫细胞重新振作';
 
   @override
   String get smokingMilestone180Description =>
-      '戒烟六个月后，白细胞功能明显恢复，免疫系统对抗感染的能力也得到改善。';
+      '戒烟六个月是肺部免疫真正的胜利。一项手术研究中，戒烟3–12个月者的肺泡巨噬细胞抗菌反应，比戒烟两个月时更接近从不吸烟者的模式。肺部第一线免疫细胞已经有数月时间恢复。';
 
   @override
   String get smokingMilestone365Title => '中风风险显著降低';
@@ -3303,7 +3303,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get smokingReferenceDay180 =>
-      '六个月：免疫防御恢复\n\n来源：Smoke-free period and recovery of alveolar immune-cell function（PubMed）\n\n吸烟会抑制肺部深处的免疫细胞，损害它们吞噬和杀灭细菌的能力。恢复是渐进的——那些仅戒断2个月的人受损最严重，而功能会随着更长的戒断稳步改善。到6个月时，肺部免疫防御已经大幅恢复。\n\n这意味着什么\n肺部能更有效地清除吸入的细菌和颗粒，降低对感冒、流感和肺炎的易感性。\n\n免疫防御会持续改善到六个月之后——但到现在，身体的保护力已经明显强于最初几周。';
+      '六个月：肺部免疫细胞重新振作\n\n来源：Smoke-free period and recovery of alveolar immune-cell function（PubMed）\n\n吸烟会抑制肺泡巨噬细胞——这些位于肺部深处的免疫细胞负责吞噬并杀灭细菌。\n\n研究测量了什么\n研究人员比较了15名从不吸烟者、15名当前吸烟者和41名已戒烟2个月、3–5个月或6–12个月的既往吸烟者在全身麻醉期间的表现。\n\n一个具体的恢复信号\n麻醉期间，当前吸烟者和戒烟两个月者的肺泡巨噬细胞吞噬作用与杀菌活性下降幅度，是从不吸烟者的1.5–3倍。戒烟3–12个月后，抗微生物反应比两个月时更接近从不吸烟者的模式。\n\n炎症信号恢复得更慢，细胞因子反应差异可持续至六个月。六个月是肺部免疫恢复的一个真实节点，而修复还会继续。';
 
   @override
   String get smokingReferenceDay365 =>
@@ -5533,11 +5533,11 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   String get smokingMilestone90Description => '戒煙三個月後，心血管風險已明顯下降，心臟和血管正在持續恢復。';
 
   @override
-  String get smokingMilestone180Title => '免疫系統增強';
+  String get smokingMilestone180Title => '肺部免疫細胞重新振作';
 
   @override
   String get smokingMilestone180Description =>
-      '戒煙六個月後，白細胞功能明顯恢復，免疫系統對抗感染的能力也得到改善。';
+      '戒煙六個月是肺部免疫真正的勝利。一項手術研究中，戒煙3–12個月者的肺泡巨噬細胞抗菌反應，比戒煙兩個月時更接近從不吸煙者的模式。肺部第一線免疫細胞已經有數月時間恢復。';
 
   @override
   String get smokingMilestone365Title => '中風風險顯著降低';
@@ -6809,7 +6809,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get smokingReferenceDay180 =>
-      '六個月：免疫防禦恢復\n\n來源：Smoke-free period and recovery of alveolar immune-cell function（PubMed）\n\n吸煙會抑制肺部深處的免疫細胞，損害它們吞噬和殺滅細菌的能力。恢復是漸進的——那些僅戒斷2個月的人受損最嚴重，而功能會隨著更長的戒斷穩步改善。到6個月時，肺部免疫防禦已經大幅恢復。\n\n這意味著甚麼\n肺部能更有效地清除吸入的細菌和顆粒，降低對感冒、流感和肺炎的易感性。\n\n免疫防禦會持續改善到六個月之後——但到現在，身體的保護力已經明顯強於最初幾周。';
+      '六個月：肺部免疫細胞重新振作\n\n來源：Smoke-free period and recovery of alveolar immune-cell function（PubMed）\n\n吸煙會抑制肺泡巨噬細胞——這些位於肺部深處的免疫細胞負責吞噬並殺滅細菌。\n\n研究測量了甚麼\n研究人員比較了15名從不吸煙者、15名目前吸煙者和41名已戒煙2個月、3–5個月或6–12個月的既往吸煙者在全身麻醉期間的表現。\n\n一個具體的恢復訊號\n麻醉期間，目前吸煙者和戒煙兩個月者的肺泡巨噬細胞吞噬作用與殺菌活性下降幅度，是從不吸煙者的1.5–3倍。戒煙3–12個月後，抗微生物反應比兩個月時更接近從不吸煙者的模式。\n\n炎症訊號恢復得較慢，細胞因子反應差異可持續至六個月。六個月是肺部免疫恢復的一個真實節點，而修復還會繼續。';
 
   @override
   String get smokingReferenceDay365 =>

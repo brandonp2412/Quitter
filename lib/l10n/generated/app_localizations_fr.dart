@@ -2217,11 +2217,12 @@ class AppLocalizationsFr extends AppLocalizations {
       'Votre cœur vous remercie ! Après trois mois sans tabac, votre risque cardiovasculaire a déjà sensiblement diminué. Votre système cardiovasculaire récupère plus vite que vous ne l\'imaginez.';
 
   @override
-  String get smokingMilestone180Title => 'Le système immunitaire se renforce';
+  String get smokingMilestone180Title =>
+      'Les cellules immunitaires pulmonaires rebondissent';
 
   @override
   String get smokingMilestone180Description =>
-      'Votre système immunitaire vient de passer au niveau supérieur ! Après six mois sans tabac, vos globules blancs ont retrouvé toute leur efficacité et combattent les infections comme ils sont faits pour le faire.';
+      'Six mois sans tabac, c’est une vraie victoire pour l’immunité pulmonaire. Dans une étude chirurgicale, les réponses antibactériennes des macrophages alvéolaires après 3–12 mois sans tabac se rapprochaient davantage du profil des personnes n’ayant jamais fumé qu’à deux mois. Les défenses pulmonaires ont eu des mois pour récupérer.';
 
   @override
   String get smokingMilestone365Title => 'Le risque d\'AVC diminue nettement';
@@ -3548,7 +3549,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get smokingReferenceDay180 =>
-      'Six mois : les défenses immunitaires récupèrent\n\nSource : Smoke-free period and recovery of alveolar immune-cell function (PubMed)\n\nLe tabagisme affaiblit les cellules immunitaires situées au plus profond des poumons et réduit leur capacité à engloutir et à détruire les bactéries. La récupération est progressive : les personnes abstinentes depuis seulement deux mois présentent les altérations les plus marquées, tandis que la fonction s\'améliore régulièrement avec la durée de l\'abstinence. Après six mois, les défenses immunitaires pulmonaires ont récupéré de manière importante.\n\nCe que cela signifie\nLes poumons peuvent éliminer plus efficacement les bactéries et les particules inhalées, ce qui réduit la vulnérabilité aux rhumes, à la grippe et à la pneumonie.\n\nLes défenses immunitaires continuent de s\'améliorer au-delà de six mois, mais à ce stade la protection de l\'organisme est déjà nettement plus forte qu\'au cours des premières semaines.';
+      'Six mois : les cellules immunitaires pulmonaires rebondissent\n\nSource : Smoke-free period and recovery of alveolar immune-cell function (PubMed)\n\nLe tabagisme peut inhiber les macrophages alvéolaires, des cellules immunitaires profondes du poumon qui engloutissent et détruisent les bactéries.\n\nCe que l’étude a mesuré\nLes chercheurs ont comparé 15 personnes n’ayant jamais fumé, 15 fumeurs actuels et 41 anciens fumeurs qui étaient sans tabac depuis 2 mois, 3–5 mois ou 6–12 mois lors d’une anesthésie générale.\n\nUn signal concret de récupération\nPendant l’anesthésie, la baisse de la phagocytose et de l’activité bactéricide des macrophages alvéolaires était 1,5 à 3 fois plus importante chez les fumeurs actuels et les personnes ayant arrêté depuis deux mois que chez les personnes n’ayant jamais fumé. Après 3–12 mois sans tabac, les réponses antimicrobiennes étaient plus proches du profil des non-fumeurs qu’à deux mois.\n\nLa signalisation inflammatoire récupérait plus lentement, avec des différences de réponses des cytokines encore visibles jusqu’à six mois. Six mois constitue un vrai cap de récupération immunitaire pulmonaire, et la guérison se poursuit.';
 
   @override
   String get smokingReferenceDay365 =>

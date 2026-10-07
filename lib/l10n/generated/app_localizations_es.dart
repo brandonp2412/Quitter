@@ -2186,11 +2186,12 @@ class AppLocalizationsEs extends AppLocalizations {
       '¡Tu corazón te lo está agradeciendo! Tras tres meses sin fumar, tu riesgo cardiovascular ya ha disminuido considerablemente. Tu sistema cardiovascular se recupera más rápido de lo que quizá imaginabas.';
 
   @override
-  String get smokingMilestone180Title => 'El sistema inmunitario se fortalece';
+  String get smokingMilestone180Title =>
+      'Las células inmunitarias del pulmón se recuperan';
 
   @override
   String get smokingMilestone180Description =>
-      '¡Tu sistema inmunitario acaba de recibir una gran mejora! Tras seis meses sin fumar, tus glóbulos blancos han recuperado su capacidad para combatir infecciones con eficacia.';
+      'Seis meses sin fumar son una victoria real para las defensas pulmonares. En un estudio quirúrgico, las respuestas antibacterianas de los macrófagos alveolares tras 3–12 meses sin fumar se parecían más al patrón de quienes nunca fumaron que a los dos meses. Tus defensas pulmonares llevan meses recuperándose.';
 
   @override
   String get smokingMilestone365Title =>
@@ -3519,7 +3520,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get smokingReferenceDay180 =>
-      'Seis meses: se recuperan las defensas inmunitarias\n\nFuente: Smoke-free period and recovery of alveolar immune-cell function (PubMed)\n\nFumar suprime las células inmunitarias profundas de los pulmones y reduce su capacidad para engullir y eliminar bacterias. La recuperación es gradual: quienes solo llevan dos meses sin fumar todavía muestran más alteración, mientras que la función mejora de forma constante con una abstinencia más prolongada. A los seis meses, las defensas inmunitarias pulmonares se han recuperado de forma importante.\n\nQué significa esto\nLos pulmones pueden eliminar con mayor eficacia bacterias y partículas inhaladas, lo que reduce la susceptibilidad a resfriados, gripe y neumonía.\n\nLas defensas inmunitarias siguen mejorando después de los seis meses, pero a estas alturas la protección del organismo es notablemente mayor que durante las primeras semanas.';
+      'Seis meses: las células inmunitarias del pulmón se recuperan\n\nFuente: Smoke-free period and recovery of alveolar immune-cell function (PubMed)\n\nFumar puede suprimir los macrófagos alveolares, células inmunitarias profundas del pulmón que engullen y destruyen bacterias.\n\nQué midió el estudio\nLos investigadores compararon a 15 personas que nunca fumaron, 15 fumadores actuales y 41 exfumadores que llevaban 2 meses, 3–5 meses o 6–12 meses sin fumar durante una anestesia general.\n\nUna señal concreta de recuperación\nDurante la anestesia, la caída de la fagocitosis y de la actividad bactericida de los macrófagos alveolares fue entre 1,5 y 3 veces mayor en fumadores actuales y personas con dos meses sin fumar que en quienes nunca fumaron. Tras 3–12 meses sin fumar, las respuestas antimicrobianas estaban más cerca del patrón de quienes nunca fumaron que a los dos meses.\n\nLa señalización inflamatoria se recuperó más lentamente, con diferencias en la respuesta de citocinas todavía visibles hasta los seis meses. Seis meses es un punto real de recuperación inmunitaria pulmonar, y la mejoría continúa.';
 
   @override
   String get smokingReferenceDay365 =>

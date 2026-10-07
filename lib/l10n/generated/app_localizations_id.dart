@@ -2176,11 +2176,11 @@ class AppLocalizationsId extends AppLocalizations {
       'Hatimu mengirimkan surat cinta! Tiga bulan bebas rokok dan risiko kardiovaskular Anda telah menurun secara signifikan. Sistem kardiovaskular Anda pulih lebih cepat dari yang Anda bayangkan.';
 
   @override
-  String get smokingMilestone180Title => 'Sistem Kekebalan Tubuh Menguat';
+  String get smokingMilestone180Title => 'Sel Imun Paru Mulai Bangkit';
 
   @override
   String get smokingMilestone180Description =>
-      'Sistem kekebalan tubuh Anda baru saja ditingkatkan! Enam bulan tanpa merokok dan sel darah putih Anda kembali ke kekuatan penuhnya, melawan infeksi seperti layaknya seorang juara sejak lahir.';
+      'Enam bulan bebas rokok adalah kemenangan nyata bagi pertahanan paru. Dalam studi bedah, respons makrofag alveolar melawan bakteri setelah 3–12 bulan bebas rokok lebih mendekati pola orang yang tidak pernah merokok dibanding pada dua bulan. Sel pertahanan terdepan paru Anda sudah punya berbulan-bulan untuk pulih.';
 
   @override
   String get smokingMilestone365Title =>
@@ -3489,7 +3489,7 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get smokingReferenceDay180 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Enam Bulan: Sel Imun Paru Mulai Bangkit\n\nSumber: Smoke-free period and recovery of alveolar immune-cell function (PubMed)\n\nMerokok dapat menekan makrofag alveolar — sel imun jauh di dalam paru yang menelan dan membunuh bakteri.\n\nApa yang diukur\nPeneliti membandingkan 15 orang yang tidak pernah merokok, 15 perokok aktif, dan 41 mantan perokok yang telah bebas rokok selama 2 bulan, 3–5 bulan, atau 6–12 bulan saat menjalani anestesi umum.\n\nTanda pemulihan yang nyata\nSelama anestesi, penurunan fagositosis dan aktivitas membunuh bakteri pada makrofag alveolar 1,5–3 kali lebih besar pada perokok aktif dan mereka yang baru berhenti dua bulan dibanding orang yang tidak pernah merokok. Setelah 3–12 bulan bebas rokok, respons antimikroba lebih mendekati pola orang yang tidak pernah merokok dibanding pada dua bulan.\n\nSinyal peradangan pulih lebih lambat, dengan perbedaan respons sitokin masih terlihat hingga enam bulan. Enam bulan adalah titik nyata dalam pemulihan kekebalan paru, dan proses pemulihan terus berlanjut.';
 
   @override
   String get smokingReferenceDay365 =>

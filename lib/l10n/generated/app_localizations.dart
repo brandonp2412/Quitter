@@ -3783,13 +3783,13 @@ abstract class AppLocalizations {
   /// Smoking milestone day 180 title
   ///
   /// In en, this message translates to:
-  /// **'Immune System Strengthens'**
+  /// **'Lung Immune Cells Bounce Back'**
   String get smokingMilestone180Title;
 
   /// Smoking milestone day 180 description
   ///
   /// In en, this message translates to:
-  /// **'Your immune system just got a superhero upgrade! Six months without smoking and your white blood cells are back to full strength, fighting infections like the champions they were born to be.'**
+  /// **'Six months smoke-free is a real lung-immune win. In a surgical study, alveolar macrophage bacteria-fighting responses at 3–12 months smoke-free were closer to the never-smoker pattern than at two months. Your lungs’ front-line immune cells have had months to recover.'**
   String get smokingMilestone180Description;
 
   /// Smoking milestone day 365 title
@@ -5889,7 +5889,7 @@ abstract class AppLocalizations {
   /// No description provided for @smokingReferenceDay180.
   ///
   /// In en, this message translates to:
-  /// **'Six Months: Immune Defences Recover\n\nSource: Smoke-free period and recovery of alveolar immune-cell function (PubMed)\n\nSmoking suppresses the immune cells deep in the lungs, impairing their ability to engulf and kill bacteria. Recovery is gradual — those only 2 months abstinent show the most impairment, while function improves steadily with longer abstinence. By 6 months, pulmonary immune defences have substantially recovered.\n\nWhat this means\nThe lungs can clear inhaled bacteria and particles more effectively, reducing susceptibility to colds, flu, and pneumonia.\n\nImmune defences keep improving beyond six months — but by now the body\'s protection is markedly stronger than it was in those early weeks.'**
+  /// **'Six Months: Lung Immune Cells Bounce Back\n\nSource: Smoke-free period and recovery of alveolar immune-cell function (PubMed)\n\nSmoking can suppress alveolar macrophages — immune cells deep in the lungs that engulf and kill bacteria.\n\nWhat the study measured\nResearchers compared 15 never-smokers, 15 current smokers, and 41 former smokers who had been smoke-free for 2 months, 3–5 months, or 6–12 months during general anesthesia.\n\nA concrete recovery signal\nDuring anesthesia, the drop in alveolar-macrophage phagocytosis and bacteria-killing activity was 1.5–3 times greater in current smokers and two-month quitters than in never-smokers. At 3–12 months smoke-free, antimicrobial responses were closer to the never-smoker pattern than at two months.\n\nInflammatory signaling recovered on a slower timetable, with altered cytokine responses still seen through six months. Six months is a real checkpoint in lung immune recovery, with more healing still ahead.'**
   String get smokingReferenceDay180;
 
   /// No description provided for @smokingReferenceDay365.

@@ -159,15 +159,22 @@ class SmokingPage extends StatelessWidget {
         reference:
             "Smoke-free period and recovery of alveolar immune-cell function (PubMed)",
         link: "https://pubmed.ncbi.nlm.nih.gov/11465626/",
-        referenceDate: "June 2026",
+        referenceDate: "October 2026",
         localizedReferenceContent: l10n.smokingReferenceDay180,
-        referenceContent:
-            "Six Months: Immune Defences Recover\n\n"
-            "Source: Smoke-free period and recovery of alveolar immune-cell function (PubMed)\n\n"
-            "Smoking suppresses the immune cells deep in the lungs, impairing their ability to engulf and kill bacteria. Recovery is gradual — those only 2 months abstinent show the most impairment, while function improves steadily with longer abstinence. By 6 months, pulmonary immune defences have substantially recovered.\n\n"
-            "What this means\n"
-            "The lungs can clear inhaled bacteria and particles more effectively, reducing susceptibility to colds, flu, and pneumonia.\n\n"
-            "Immune defences keep improving beyond six months — but by now the body's protection is markedly stronger than it was in those early weeks.",
+        referenceContent: """
+Six Months: Lung Immune Cells Bounce Back
+
+Source: Smoke-free period and recovery of alveolar immune-cell function (PubMed)
+
+Smoking can suppress alveolar macrophages — immune cells deep in the lungs that engulf and kill bacteria.
+
+What the study measured
+Researchers compared 15 never-smokers, 15 current smokers, and 41 former smokers who had been smoke-free for 2 months, 3–5 months, or 6–12 months during general anesthesia.
+
+A concrete recovery signal
+During anesthesia, the drop in alveolar-macrophage phagocytosis and bacteria-killing activity was 1.5–3 times greater in current smokers and two-month quitters than in never-smokers. At 3–12 months smoke-free, antimicrobial responses were closer to the never-smoker pattern than at two months.
+
+Inflammatory signaling recovered on a slower timetable, with altered cytokine responses still seen through six months. Six months is a real checkpoint in lung immune recovery, with more healing still ahead.""",
       ),
       QuitMilestone(
         day: 365,

@@ -2183,11 +2183,11 @@ class AppLocalizationsDe extends AppLocalizations {
       'Dein Herz schickt Liebesbriefe! Drei Monate rauchfrei und Ihr kardiovaskuläres Risiko ist bereits erheblich gesunken. Ihr Herz-Kreislauf-System heilt schneller, als Sie es für möglich halten.';
 
   @override
-  String get smokingMilestone180Title => 'Immunsystem stärkt sich';
+  String get smokingMilestone180Title => 'Lungen-Immunzellen kommen zurück';
 
   @override
   String get smokingMilestone180Description =>
-      'Dein Immunsystem hat gerade ein Superhelden-Upgrade bekommen! Sechs Monate ohne Rauchen und Ihre weißen Blutkörperchen sind wieder zu voller Kraft und bekämpfen Infektionen wie die Champions, für die sie geboren wurden.';
+      'Sechs Monate rauchfrei sind ein echter Gewinn für die Lungenabwehr. In einer Operationsstudie lagen die bakterienbekämpfenden Reaktionen der Alveolarmakrophagen nach 3–12 rauchfreien Monaten näher am Muster von Nie-Rauchern als nach zwei Monaten. Die Abwehrzellen deiner Lunge hatten Monate Zeit zur Erholung.';
 
   @override
   String get smokingMilestone365Title =>
@@ -3503,7 +3503,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get smokingReferenceDay180 =>
-      'Sechs Monate: Immunabwehr erholt sich\n\nQuelle: Rauchfreie Periode und Wiederherstellung der alveolaren Immunzellfunktion (PubMed)\n\nRauchen unterdrückt die Immunzellen tief in den Lungen und beeinträchtigt ihre Fähigkeit, Bakterien zu verschlingen und abzutöten. Die Erholung ist allmählich - diese nur 2 Monate abstinent zeigen die größte Beeinträchtigung, während die Funktion mit längerer Abstinenz stetig verbessert. Nach 6 Monaten haben sich die pulmonalen Immunabwehren weitgehend erholt.\n\nWas das bedeutet\nDie Lungen können eingeatmete Bakterien und Partikel effektiver reinigen und die Anfälligkeit für Erkältungen, Grippe und Lungenentzündung reduzieren.\n\nDie Immunabwehr verbessert sich über sechs Monate hinaus - aber der Schutz des Körpers ist jetzt deutlich stärker als in diesen frühen Wochen.';
+      'Sechs Monate: Lungen-Immunzellen kommen zurück\n\nQuelle: Smoke-free period and recovery of alveolar immune-cell function (PubMed)\n\nRauchen kann Alveolarmakrophagen unterdrücken – Immunzellen tief in der Lunge, die Bakterien aufnehmen und abtöten.\n\nWas die Studie untersuchte\nVerglichen wurden 15 Nie-Raucher, 15 aktuelle Raucher und 41 ehemalige Raucher, die zum Zeitpunkt einer Vollnarkose seit 2 Monaten, 3–5 Monaten oder 6–12 Monaten rauchfrei waren.\n\nEin konkretes Erholungssignal\nWährend der Narkose war der Rückgang von Phagozytose und bakterienabtötender Aktivität der Alveolarmakrophagen bei aktuellen Rauchern und Zwei-Monats-Aufhörern 1,5- bis 3-mal stärker als bei Nie-Rauchern. Nach 3–12 rauchfreien Monaten lagen die antimikrobiellen Reaktionen näher am Muster der Nie-Raucher als nach zwei Monaten.\n\nEntzündliche Signalreaktionen erholten sich langsamer; Unterschiede der Zytokinantworten waren bis sechs Monate zu sehen. Sechs Monate sind ein echter Meilenstein der Immunerholung in der Lunge – und die Heilung geht weiter.';
 
   @override
   String get smokingReferenceDay365 =>

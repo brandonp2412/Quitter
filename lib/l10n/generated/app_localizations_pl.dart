@@ -2193,11 +2193,12 @@ class AppLocalizationsPl extends AppLocalizations {
       'Twoje serce wysyła listy miłosne! Trzy miesiące wolne od dymu i twoje ryzyko sercowo – naczyniowe już spadła znacznie. Twój układ sercowo – naczyniowy goi się szybciej, niż myślisz, że możliwe.';
 
   @override
-  String get smokingMilestone180Title => 'Wzmacnia układ immunologiczny';
+  String get smokingMilestone180Title =>
+      'Komórki odpornościowe płuc wracają do formy';
 
   @override
   String get smokingMilestone180Description =>
-      'Sześć miesięcy bez palenia, a twoje białe krwinki wróciły do stanu pełnego, zwalczając infekcje jak mistrzowie, do których się urodzili.';
+      'Sześć miesięcy bez palenia to prawdziwy sukces dla odporności płuc. W badaniu okołooperacyjnym odpowiedź przeciwbakteryjna makrofagów pęcherzykowych po 3–12 miesiącach bez papierosów była bliższa wzorcowi osób nigdy niepalących niż po dwóch miesiącach. Pierwsza linia obrony płuc miała miesiące na regenerację.';
 
   @override
   String get smokingMilestone365Title =>
@@ -3510,7 +3511,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get smokingReferenceDay180 =>
-      'Sześć miesięcy: Odzyskiwanie broni immunologicznej\n\nŹródło: Smoke-free period and recovery of alveolar immune-cell function (PubMed)\n\nPalenie hamuje komórki odpornościowe głęboko w łokciach, zaburzając ich zdolność do absorbowania i zabijania bakterii.Recovery jest stopniowo ustępuje te tylko 2 miesiące abstynent wykazują najbardziej upośledzone, podczas gdy funkcja poprawia się stopniowo z dłuższym abstynencji. Przez 6 miesięcy, immunologiczne obronne płuca znacznie odzyskane.\n\nCo to znaczy?\nPłuca mogą skuteczniej usuwać wdychane bakterie i cząstki, zmniejszając podatność na choroby nowotworowe, fluorescencyjne i pneumonia.\n\nObrona immunologiczna poprawia się po sześciu miesiącach, ale do tej pory ochrona ciała jest znacznie silniejsza niż w tych wczesnych tygodniach.';
+      'Sześć miesięcy: komórki odpornościowe płuc wracają do formy\n\nŹródło: Smoke-free period and recovery of alveolar immune-cell function (PubMed)\n\nPalenie może osłabiać makrofagi pęcherzykowe — komórki odpornościowe głęboko w płucach, które pochłaniają i zabijają bakterie.\n\nCo mierzono\nBadacze porównali 15 osób nigdy niepalących, 15 aktualnych palaczy i 41 byłych palaczy, którzy w czasie znieczulenia ogólnego nie palili od 2 miesięcy, 3–5 miesięcy lub 6–12 miesięcy.\n\nKonkretny sygnał regeneracji\nPodczas znieczulenia spadek fagocytozy i aktywności bakteriobójczej makrofagów pęcherzykowych był 1,5–3 razy większy u aktualnych palaczy i osób po dwóch miesiącach bez palenia niż u osób nigdy niepalących. Po 3–12 miesiącach bez palenia odpowiedzi przeciwdrobnoustrojowe były bliższe wzorcowi osób nigdy niepalących niż po dwóch miesiącach.\n\nSygnalizacja zapalna wracała do normy wolniej; różnice w odpowiedziach cytokin były widoczne do sześciu miesięcy. Sześć miesięcy to prawdziwy etap regeneracji odporności płuc, a poprawa trwa dalej.';
 
   @override
   String get smokingReferenceDay365 =>
