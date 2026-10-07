@@ -2426,11 +2426,11 @@ class AppLocalizationsKo extends AppLocalizations {
       '5년은 장기 유지보수입니다. CSBD는 고통이나 장애로 인한 지속적인 통제력 상실로 임상적으로 정의되므로 수년에 걸쳐 통제력과 기능을 잘 유지하는 것은 그 자체로 의미 있는 결과입니다.';
 
   @override
-  String get customMilestone1Title => '초기 복구 단계가 시작됩니다';
+  String get customMilestone1Title => '첫 24시간 완료';
 
   @override
   String get customMilestone1Description =>
-      '당신의 몸이 치유 과정을 시작합니다! 금연 후 24시간 이내에 신체는 독소를 제거하고 중독성 물질 없이 기능하도록 조정되기 시작합니다. 수면 장애는 흔하지만 회복 과정의 일부입니다.';
+      '끊기로 한 습관 없이 꼬박 하루를 보냈습니다. 목표가 어떤 물질의 사용과 관련되어 있다면 금단과 회복 과정에서 수면 문제가 나타날 수 있습니다. 수면 변화는 기록해 볼 만한 실제 초기 신호입니다.';
 
   @override
   String get customMilestone3Title => '금단 증상 최고';

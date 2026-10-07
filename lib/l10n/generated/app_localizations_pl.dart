@@ -2560,11 +2560,11 @@ class AppLocalizationsPl extends AppLocalizations {
       'Pięć lat jest długoterminowe. CSBD jest klinicznie definiowany przez uporczywą utratę kontroli z powodu niepokoju lub upośledzenia, więc utrzymanie kontroli i funkcjonowanie dobrze przez lata jest znaczącym wynikiem w swoim własnym zakresie.';
 
   @override
-  String get customMilestone1Title => 'Początkowa faza odzyskiwania';
+  String get customMilestone1Title => 'Pierwsze 24 godziny za Tobą';
 
   @override
   String get customMilestone1Description =>
-      'Twoje ciało rozpoczyna proces uzdrawiania! W ciągu 24 godzin od rzucenia, twój system zaczyna oczyszczać toksyny i dostosować się do funkcjonowania bez substancji uzależniających. Zaburzenia snu są powszechne, ale częścią procesu odzyskiwania.';
+      'Masz za sobą pełną dobę bez nawyku, który chcesz zakończyć. Jeśli Twój cel dotyczy substancji, zaburzenia snu mogą pojawiać się podczas odstawienia i zdrowienia, więc zmiany snu są realnym wczesnym sygnałem, który warto obserwować.';
 
   @override
   String get customMilestone3Title => 'Objawy odstawienne Szczyt';

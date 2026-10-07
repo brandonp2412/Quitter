@@ -4383,13 +4383,13 @@ abstract class AppLocalizations {
   /// Custom milestone day 1 title
   ///
   /// In en, this message translates to:
-  /// **'Initial Recovery Phase Begins'**
+  /// **'First 24 Hours Complete'**
   String get customMilestone1Title;
 
   /// Custom milestone day 1 description
   ///
   /// In en, this message translates to:
-  /// **'Your body starts the healing process! Within 24 hours of quitting, your system begins to clear toxins and adjust to functioning without addictive substances. Sleep disturbances are common but part of the recovery process.'**
+  /// **'You’ve completed a full day without the habit you chose to stop. If your goal involves a substance, sleep disruption can occur during withdrawal and recovery, so changes in sleep are a real early signal worth tracking.'**
   String get customMilestone1Description;
 
   /// Custom milestone day 3 title

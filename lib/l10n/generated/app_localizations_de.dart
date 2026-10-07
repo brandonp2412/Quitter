@@ -2552,11 +2552,11 @@ class AppLocalizationsDe extends AppLocalizations {
       'Fünf Jahre sind langfristige Wartung. CSBD wird klinisch durch anhaltenden Kontrollverlust mit Stress oder Beeinträchtigung definiert, so dass die Aufrechterhaltung der Kontrolle und das Funktionieren über Jahre hinweg ein sinnvolles Ergebnis für sich ist.';
 
   @override
-  String get customMilestone1Title => 'Erste Erholungsphase beginnt';
+  String get customMilestone1Title => 'Die ersten 24 Stunden sind geschafft';
 
   @override
   String get customMilestone1Description =>
-      'Dein Körper beginnt den Heilungsprozess! Innerhalb von 24 Stunden nach dem Aufhören beginnt Ihr System, Giftstoffe zu beseitigen und sich an das Funktionieren ohne süchtig machende Substanzen anzupassen. Schlafstörungen sind häufig, aber Teil des Erholungsprozesses.';
+      'Du hast einen ganzen Tag ohne die Gewohnheit geschafft, die du beenden möchtest. Wenn dein Ziel eine Substanz betrifft, können während Entzug und Erholung Schlafstörungen auftreten. Veränderungen deines Schlafs sind daher ein echtes frühes Signal, das du im Blick behalten kannst.';
 
   @override
   String get customMilestone3Title => 'Entzugserscheinungen Peak';

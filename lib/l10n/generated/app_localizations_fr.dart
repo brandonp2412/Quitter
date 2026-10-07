@@ -2592,12 +2592,11 @@ class AppLocalizationsFr extends AppLocalizations {
       'Cinq ans représentent un maintien à long terme. Le trouble du comportement sexuel compulsif est cliniquement défini par une perte persistante de contrôle accompagnée de détresse ou d\'altération du fonctionnement ; maintenir le contrôle et bien fonctionner pendant des années constitue donc un résultat significatif en soi.';
 
   @override
-  String get customMilestone1Title =>
-      'Début de la phase initiale de récupération';
+  String get customMilestone1Title => 'Les premières 24 heures sont faites';
 
   @override
   String get customMilestone1Description =>
-      'Votre corps commence à guérir ! Dans les 24 heures suivant l\'arrêt, votre organisme commence à éliminer les substances et à s\'adapter à fonctionner sans elles. Les troubles du sommeil sont fréquents mais font partie du processus de récupération.';
+      'Vous avez passé une journée entière sans l’habitude que vous avez choisi d’arrêter. Si votre objectif concerne une substance, des troubles du sommeil peuvent survenir pendant le sevrage et la récupération ; les changements de sommeil sont donc un vrai signal précoce à surveiller.';
 
   @override
   String get customMilestone3Title => 'Pic des symptômes de sevrage';

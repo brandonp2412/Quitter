@@ -2499,11 +2499,11 @@ class AppLocalizationsEn extends AppLocalizations {
       'Five years is long-term maintenance. CSBD is clinically defined by persistent loss of control with distress or impairment, so maintaining control and functioning well over years is a meaningful outcome in its own right.';
 
   @override
-  String get customMilestone1Title => 'Initial Recovery Phase Begins';
+  String get customMilestone1Title => 'First 24 Hours Complete';
 
   @override
   String get customMilestone1Description =>
-      'Your body starts the healing process! Within 24 hours of quitting, your system begins to clear toxins and adjust to functioning without addictive substances. Sleep disturbances are common but part of the recovery process.';
+      'You’ve completed a full day without the habit you chose to stop. If your goal involves a substance, sleep disruption can occur during withdrawal and recovery, so changes in sleep are a real early signal worth tracking.';
 
   @override
   String get customMilestone3Title => 'Withdrawal Symptoms Peak';

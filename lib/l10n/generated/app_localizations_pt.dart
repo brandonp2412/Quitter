@@ -2562,11 +2562,11 @@ class AppLocalizationsPt extends AppLocalizations {
       'Cinco anos é uma manutenção de longo prazo. A CSBD é clinicamente definida pela perda persistente de controle com sofrimento ou prejuízo, portanto, manter o controle e funcionar bem ao longo dos anos é um resultado significativo por si só.';
 
   @override
-  String get customMilestone1Title => 'Começa a fase de recuperação inicial';
+  String get customMilestone1Title => 'Primeiras 24 horas concluídas';
 
   @override
   String get customMilestone1Description =>
-      'Seu corpo inicia o processo de cura! Dentro de 24 horas após parar de fumar, seu sistema começa a eliminar as toxinas e a se ajustar para funcionar sem substâncias viciantes. Os distúrbios do sono são comuns, mas fazem parte do processo de recuperação.';
+      'Completou um dia inteiro sem o hábito que decidiu deixar. Se o seu objetivo envolve uma substância, podem surgir perturbações do sono durante a abstinência e a recuperação; por isso, alterações no sono são um sinal inicial real que vale a pena acompanhar.';
 
   @override
   String get customMilestone3Title => 'Pico dos sintomas de abstinência';
@@ -6271,11 +6271,11 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
       'Cinco anos é uma manutenção de longo prazo. A CSBD é clinicamente definida pela perda persistente de controle com sofrimento ou prejuízo, portanto, manter o controle e funcionar bem ao longo dos anos é um resultado significativo por si só.';
 
   @override
-  String get customMilestone1Title => 'Começa a fase de recuperação inicial';
+  String get customMilestone1Title => 'Primeiras 24 horas concluídas';
 
   @override
   String get customMilestone1Description =>
-      'Seu corpo inicia o processo de cura!Dentro de 24 horas após parar de fumar, seu sistema começa a eliminar as toxinas e a se ajustar para funcionar sem substâncias viciantes. Os distúrbios do sono são comuns, mas fazem parte do processo de recuperação.';
+      'Você completou um dia inteiro sem o hábito que decidiu abandonar. Se o seu objetivo envolve uma substância, podem ocorrer alterações do sono durante a abstinência e a recuperação; por isso, mudanças no sono são um sinal inicial real que vale a pena acompanhar.';
 
   @override
   String get customMilestone3Title => 'Pico dos sintomas de abstinência';

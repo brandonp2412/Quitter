@@ -2382,11 +2382,11 @@ class AppLocalizationsJa extends AppLocalizations {
       '5年は長期維持です。CSBDは、持続的なコントロール喪失と、それによる苦痛や生活上の支障を中心に定義されます。何年にもわたりコントロールと良好な機能を保てていること自体が、意味のある成果です。';
 
   @override
-  String get customMilestone1Title => '回復の初期段階が始まる';
+  String get customMilestone1Title => '最初の24時間を達成';
 
   @override
   String get customMilestone1Description =>
-      '体が癒しのプロセスを開始します！やめてから24時間以内に、あなたの体は毒素を排出し、依存物質なしで機能するように調整を始めます。睡眠障害は一般的ですが、回復プロセスの一部です。';
+      'やめると決めた習慣なしで、丸1日を達成しました。目標が物質の使用に関するものなら、離脱や回復の途中で睡眠が乱れることがあります。睡眠の変化は、記録しておく価値のある現実的な初期サインです。';
 
   @override
   String get customMilestone3Title => '離脱症状がピークに';

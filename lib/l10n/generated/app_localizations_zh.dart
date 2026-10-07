@@ -2379,11 +2379,11 @@ class AppLocalizationsZh extends AppLocalizations {
       '五年属于长期维持。CSBD的临床定义核心是持续失去控制并造成痛苦或功能受损，因此多年保持控制并维持良好生活功能，本身就是有意义的结果。';
 
   @override
-  String get customMilestone1Title => '初始康复阶段开始';
+  String get customMilestone1Title => '完成最初24小时';
 
   @override
   String get customMilestone1Description =>
-      '您的身体开始愈合过程！在戒除后的24小时内，您的系统开始清除毒素并适应在没有成瘾物质的情况下运作。睡眠障碍很常见，但也是康复过程的一部分。';
+      '你已经完整度过了一天，没有再做你选择停止的习惯。如果你的目标涉及某种物质，戒断和恢复期间可能出现睡眠问题，因此睡眠变化是一个值得记录的真实早期信号。';
 
   @override
   String get customMilestone3Title => '戒断症状达到顶峰';
@@ -5885,11 +5885,11 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
       '五年屬於長期維持。CSBD的臨床定義核心是持續失去控制並造成痛苦或功能受損，因此多年保持控制並維持良好生活功能，本身就是有意義的結果。';
 
   @override
-  String get customMilestone1Title => '初始康復階段開始';
+  String get customMilestone1Title => '完成最初 24 小時';
 
   @override
   String get customMilestone1Description =>
-      '您的身體開始愈合過程！在戒除後的24小時內，您的系統開始清除毒素並適應在沒有成癮物質的情況下運作。睡眠障礙很常見，但也是康復過程的一部分。';
+      '你已完整度過一天，沒有再做你選擇停止的習慣。如果你的目標涉及某種物質，戒斷與復原期間可能出現睡眠問題，因此睡眠變化是值得記錄的真實早期訊號。';
 
   @override
   String get customMilestone3Title => '戒斷症狀達到頂峰';

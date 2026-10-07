@@ -2565,12 +2565,11 @@ class AppLocalizationsEs extends AppLocalizations {
       'Cinco años representan mantenimiento a largo plazo. El trastorno de conducta sexual compulsiva se define clínicamente por una pérdida persistente de control acompañada de malestar o deterioro, por lo que mantener el control y funcionar bien durante años es un resultado significativo por sí mismo.';
 
   @override
-  String get customMilestone1Title =>
-      'Comienza la fase inicial de recuperación';
+  String get customMilestone1Title => 'Primeras 24 horas completadas';
 
   @override
   String get customMilestone1Description =>
-      '¡Tu cuerpo empieza el proceso de recuperación! En las primeras 24 horas tras dejarlo, el organismo empieza a eliminar sustancias y a adaptarse a funcionar sin aquello de lo que dependía. Las alteraciones del sueño son frecuentes y forman parte del proceso de recuperación.';
+      'Has completado un día entero sin el hábito que decidiste dejar. Si tu objetivo está relacionado con una sustancia, pueden aparecer alteraciones del sueño durante la abstinencia y la recuperación, así que los cambios en tu sueño son una señal temprana real que merece seguimiento.';
 
   @override
   String get customMilestone3Title =>

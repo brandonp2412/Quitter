@@ -2542,11 +2542,11 @@ class AppLocalizationsId extends AppLocalizations {
       'Lima tahun adalah pemeliharaan jangka panjang. CSBD secara klinis didefinisikan sebagai hilangnya kendali secara terus-menerus disertai tekanan atau gangguan, sehingga mempertahankan kendali dan berfungsi dengan baik selama bertahun-tahun merupakan hasil yang berarti.';
 
   @override
-  String get customMilestone1Title => 'Fase Pemulihan Awal Dimulai';
+  String get customMilestone1Title => '24 Jam Pertama Selesai';
 
   @override
   String get customMilestone1Description =>
-      'Tubuh Anda memulai proses penyembuhan! Dalam waktu 24 jam setelah berhenti, sistem Anda mulai membersihkan racun dan menyesuaikan diri agar berfungsi tanpa zat adiktif. Gangguan tidur sering terjadi tetapi merupakan bagian dari proses pemulihan.';
+      'Anda telah melewati satu hari penuh tanpa kebiasaan yang Anda pilih untuk dihentikan. Jika tujuan Anda berkaitan dengan suatu zat, gangguan tidur dapat terjadi selama putus zat dan pemulihan, jadi perubahan tidur adalah sinyal awal nyata yang layak dipantau.';
 
   @override
   String get customMilestone3Title => 'Puncak Gejala Penarikan';
