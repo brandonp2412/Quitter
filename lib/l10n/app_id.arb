@@ -337,11 +337,11 @@
       }
     }
   },
-  "statsMoneySavedTitle": "Uang Tersimpan",
+  "statsMoneySavedTitle": "Perkiraan uang yang dihemat",
   "@statsMoneySavedTitle": {
     "description": "Section title for the money saved card on stats page"
   },
-  "statsMoneySavedEstimate": "Diperkirakan berdasarkan penggunaan rata-rata",
+  "statsMoneySavedEstimate": "Menggunakan nilai default harian bawaan Quitter",
   "@statsMoneySavedEstimate": {
     "description": "Disclaimer text on the money saved card"
   },
@@ -371,7 +371,7 @@
   "@statsEquivalentVacation": {
     "description": "Fun equivalence for money saved — a vacation"
   },
-  "statsTimeSavedTitle": "Waktu Direbut Kembali",
+  "statsTimeSavedTitle": "Perkiraan waktu yang didapat kembali",
   "@statsTimeSavedTitle": {
     "description": "Section title for the time saved card on stats page"
   },

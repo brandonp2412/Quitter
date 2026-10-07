@@ -1094,11 +1094,11 @@ class AppLocalizationsFr extends AppLocalizations {
   }
 
   @override
-  String get statsMoneySavedTitle => 'Argent économisé';
+  String get statsMoneySavedTitle => 'Économies estimées';
 
   @override
   String get statsMoneySavedEstimate =>
-      'Estimation basée sur la consommation moyenne';
+      'Utilise les valeurs quotidiennes par défaut intégrées de Quitter';
 
   @override
   String statsEquivalentCoffees(int count) {
@@ -1119,7 +1119,7 @@ class AppLocalizationsFr extends AppLocalizations {
       'Cela représente des vacances à l\'étranger';
 
   @override
-  String get statsTimeSavedTitle => 'Temps récupéré';
+  String get statsTimeSavedTitle => 'Temps récupéré estimé';
 
   @override
   String statsHoursSaved(int hours) {

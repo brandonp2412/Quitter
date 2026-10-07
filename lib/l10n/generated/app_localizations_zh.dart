@@ -1021,10 +1021,10 @@ class AppLocalizationsZh extends AppLocalizations {
   }
 
   @override
-  String get statsMoneySavedTitle => '节省金额';
+  String get statsMoneySavedTitle => '预计节省金额';
 
   @override
-  String get statsMoneySavedEstimate => '根据平均使用量估算';
+  String get statsMoneySavedEstimate => '使用 Quitter 内置的每日默认值';
 
   @override
   String statsEquivalentCoffees(int count) {
@@ -1043,7 +1043,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get statsEquivalentVacation => '足够一次出国旅行';
 
   @override
-  String get statsTimeSavedTitle => '重获时间';
+  String get statsTimeSavedTitle => '预计找回的时间';
 
   @override
   String statsHoursSaved(int hours) {
@@ -4527,10 +4527,10 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   }
 
   @override
-  String get statsMoneySavedTitle => '節省金額';
+  String get statsMoneySavedTitle => '預估節省金額';
 
   @override
-  String get statsMoneySavedEstimate => '根據平均使用量估算';
+  String get statsMoneySavedEstimate => '使用 Quitter 內建的每日預設值';
 
   @override
   String statsEquivalentCoffees(int count) {
@@ -4549,7 +4549,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   String get statsEquivalentVacation => '足夠一次出國旅行';
 
   @override
-  String get statsTimeSavedTitle => '重獲時間';
+  String get statsTimeSavedTitle => '預估找回的時間';
 
   @override
   String statsHoursSaved(int hours) {

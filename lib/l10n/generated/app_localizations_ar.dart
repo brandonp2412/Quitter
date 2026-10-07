@@ -1038,10 +1038,11 @@ class AppLocalizationsAr extends AppLocalizations {
   }
 
   @override
-  String get statsMoneySavedTitle => 'المال المحفوظة';
+  String get statsMoneySavedTitle => 'المال المُوفَّر المقدر';
 
   @override
-  String get statsMoneySavedEstimate => 'مقدر على أساس متوسط ​​الاستخدام';
+  String get statsMoneySavedEstimate =>
+      'يستخدم القيم اليومية الافتراضية المضمّنة في Quitter';
 
   @override
   String statsEquivalentCoffees(int count) {
@@ -1060,7 +1061,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get statsEquivalentVacation => 'هذه عطلة في الخارج';
 
   @override
-  String get statsTimeSavedTitle => 'الوقت المستعاد';
+  String get statsTimeSavedTitle => 'الوقت المستعاد المقدر';
 
   @override
   String statsHoursSaved(int hours) {

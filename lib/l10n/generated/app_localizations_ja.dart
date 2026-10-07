@@ -1022,10 +1022,10 @@ class AppLocalizationsJa extends AppLocalizations {
   }
 
   @override
-  String get statsMoneySavedTitle => '節約した金額';
+  String get statsMoneySavedTitle => '推定節約額';
 
   @override
-  String get statsMoneySavedEstimate => '平均的な使用量に基づく推定値';
+  String get statsMoneySavedEstimate => 'Quitter 内蔵の1日あたりの既定値を使用';
 
   @override
   String statsEquivalentCoffees(int count) {
@@ -1044,7 +1044,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get statsEquivalentVacation => '海外旅行1回分';
 
   @override
-  String get statsTimeSavedTitle => '取り戻した時間';
+  String get statsTimeSavedTitle => '推定で取り戻した時間';
 
   @override
   String statsHoursSaved(int hours) {

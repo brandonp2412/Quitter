@@ -1929,13 +1929,13 @@ abstract class AppLocalizations {
   /// Section title for the money saved card on stats page
   ///
   /// In en, this message translates to:
-  /// **'Money Saved'**
+  /// **'Estimated Money Saved'**
   String get statsMoneySavedTitle;
 
-  /// Disclaimer text on the money saved card
+  /// Disclaimer text shown on the money and time estimate cards
   ///
   /// In en, this message translates to:
-  /// **'Estimated based on average usage'**
+  /// **'Uses Quitter\'s built-in daily defaults'**
   String get statsMoneySavedEstimate;
 
   /// Fun equivalence for money saved — coffees
@@ -1965,7 +1965,7 @@ abstract class AppLocalizations {
   /// Section title for the time saved card on stats page
   ///
   /// In en, this message translates to:
-  /// **'Time Reclaimed'**
+  /// **'Estimated Time Reclaimed'**
   String get statsTimeSavedTitle;
 
   /// Hours of time saved

@@ -337,11 +337,11 @@
       }
     }
   },
-  "statsMoneySavedTitle": "เงินที่บันทึกไว้",
+  "statsMoneySavedTitle": "เงินที่ประหยัดได้โดยประมาณ",
   "@statsMoneySavedTitle": {
     "description": "Section title for the money saved card on stats page"
   },
-  "statsMoneySavedEstimate": "ประมาณจากการใช้งานโดยเฉลี่ย",
+  "statsMoneySavedEstimate": "ใช้ค่าเริ่มต้นรายวันในตัวของ Quitter",
   "@statsMoneySavedEstimate": {
     "description": "Disclaimer text on the money saved card"
   },
@@ -371,7 +371,7 @@
   "@statsEquivalentVacation": {
     "description": "Fun equivalence for money saved — a vacation"
   },
-  "statsTimeSavedTitle": "เวลาที่เรียกคืน",
+  "statsTimeSavedTitle": "เวลาที่ได้คืนโดยประมาณ",
   "@statsTimeSavedTitle": {
     "description": "Section title for the time saved card on stats page"
   },

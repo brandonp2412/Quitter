@@ -335,11 +335,11 @@
       }
     }
   },
-  "statsMoneySavedTitle": "돈이 절약되었습니다",
+  "statsMoneySavedTitle": "예상 절약 금액",
   "@statsMoneySavedTitle": {
     "description": "Section title for the money saved card on stats page"
   },
-  "statsMoneySavedEstimate": "평균 사용량을 기준으로 추정",
+  "statsMoneySavedEstimate": "Quitter에 내장된 일일 기본값을 사용합니다",
   "@statsMoneySavedEstimate": {
     "description": "Disclaimer text on the money saved card"
   },
@@ -369,7 +369,7 @@
   "@statsEquivalentVacation": {
     "description": "Fun equivalence for money saved — a vacation"
   },
-  "statsTimeSavedTitle": "회수된 시간",
+  "statsTimeSavedTitle": "예상 절약 시간",
   "@statsTimeSavedTitle": {
     "description": "Section title for the time saved card on stats page"
   },

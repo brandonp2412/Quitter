@@ -337,11 +337,11 @@
       }
     }
   },
-  "statsMoneySavedTitle": "المال المحفوظة",
+  "statsMoneySavedTitle": "المال المُوفَّر المقدر",
   "@statsMoneySavedTitle": {
     "description": "Section title for the money saved card on stats page"
   },
-  "statsMoneySavedEstimate": "مقدر على أساس متوسط ​​الاستخدام",
+  "statsMoneySavedEstimate": "يستخدم القيم اليومية الافتراضية المضمّنة في Quitter",
   "@statsMoneySavedEstimate": {
     "description": "Disclaimer text on the money saved card"
   },
@@ -371,7 +371,7 @@
   "@statsEquivalentVacation": {
     "description": "Fun equivalence for money saved — a vacation"
   },
-  "statsTimeSavedTitle": "الوقت المستعاد",
+  "statsTimeSavedTitle": "الوقت المستعاد المقدر",
   "@statsTimeSavedTitle": {
     "description": "Section title for the time saved card on stats page"
   },

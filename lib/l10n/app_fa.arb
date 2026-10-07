@@ -337,11 +337,11 @@
       }
     }
   },
-  "statsMoneySavedTitle": "پول صرفه‌جویی‌شده",
+  "statsMoneySavedTitle": "پول پس‌اندازشدهٔ برآوردی",
   "@statsMoneySavedTitle": {
     "description": "Section title for the money saved card on stats page"
   },
-  "statsMoneySavedEstimate": "برآورد بر اساس میانگین مصرف",
+  "statsMoneySavedEstimate": "از مقادیر پیش‌فرض روزانهٔ داخلی Quitter استفاده می‌کند",
   "@statsMoneySavedEstimate": {
     "description": "Disclaimer text on the money saved card"
   },
@@ -371,7 +371,7 @@
   "@statsEquivalentVacation": {
     "description": "Fun equivalence for money saved — a vacation"
   },
-  "statsTimeSavedTitle": "زمان پس‌گرفته‌شده",
+  "statsTimeSavedTitle": "زمان بازیافتهٔ برآوردی",
   "@statsTimeSavedTitle": {
     "description": "Section title for the time saved card on stats page"
   },

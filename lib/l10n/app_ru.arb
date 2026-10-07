@@ -337,11 +337,11 @@
       }
     }
   },
-  "statsMoneySavedTitle": "Экономия денег",
+  "statsMoneySavedTitle": "Расчётная экономия",
   "@statsMoneySavedTitle": {
     "description": "Section title for the money saved card on stats page"
   },
-  "statsMoneySavedEstimate": "Оценка на основе среднего потребления",
+  "statsMoneySavedEstimate": "Используются встроенные ежедневные значения по умолчанию Quitter",
   "@statsMoneySavedEstimate": {
     "description": "Disclaimer text on the money saved card"
   },
@@ -371,7 +371,7 @@
   "@statsEquivalentVacation": {
     "description": "Fun equivalence for money saved — a vacation"
   },
-  "statsTimeSavedTitle": "Возвращённое время",
+  "statsTimeSavedTitle": "Оценка возвращённого времени",
   "@statsTimeSavedTitle": {
     "description": "Section title for the time saved card on stats page"
   },

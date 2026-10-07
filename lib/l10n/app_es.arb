@@ -337,11 +337,11 @@
       }
     }
   },
-  "statsMoneySavedTitle": "Dinero ahorrado",
+  "statsMoneySavedTitle": "Dinero ahorrado estimado",
   "@statsMoneySavedTitle": {
     "description": "Section title for the money saved card on stats page"
   },
-  "statsMoneySavedEstimate": "Estimado según el consumo medio",
+  "statsMoneySavedEstimate": "Usa los valores diarios predeterminados integrados de Quitter",
   "@statsMoneySavedEstimate": {
     "description": "Disclaimer text on the money saved card"
   },
@@ -371,7 +371,7 @@
   "@statsEquivalentVacation": {
     "description": "Fun equivalence for money saved — a vacation"
   },
-  "statsTimeSavedTitle": "Tiempo recuperado",
+  "statsTimeSavedTitle": "Tiempo recuperado estimado",
   "@statsTimeSavedTitle": {
     "description": "Section title for the time saved card on stats page"
   },

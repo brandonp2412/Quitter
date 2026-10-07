@@ -1046,10 +1046,11 @@ class AppLocalizationsFa extends AppLocalizations {
   }
 
   @override
-  String get statsMoneySavedTitle => 'پول صرفه‌جویی‌شده';
+  String get statsMoneySavedTitle => 'پول پس‌اندازشدهٔ برآوردی';
 
   @override
-  String get statsMoneySavedEstimate => 'برآورد بر اساس میانگین مصرف';
+  String get statsMoneySavedEstimate =>
+      'از مقادیر پیش‌فرض روزانهٔ داخلی Quitter استفاده می‌کند';
 
   @override
   String statsEquivalentCoffees(int count) {
@@ -1068,7 +1069,7 @@ class AppLocalizationsFa extends AppLocalizations {
   String get statsEquivalentVacation => 'این معادل یک سفر خارجی است';
 
   @override
-  String get statsTimeSavedTitle => 'زمان پس‌گرفته‌شده';
+  String get statsTimeSavedTitle => 'زمان بازیافتهٔ برآوردی';
 
   @override
   String statsHoursSaved(int hours) {

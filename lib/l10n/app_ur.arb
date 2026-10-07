@@ -337,11 +337,11 @@
       }
     }
   },
-  "statsMoneySavedTitle": "پیسہ محفوظ",
+  "statsMoneySavedTitle": "تخمینی بچت",
   "@statsMoneySavedTitle": {
     "description": "Section title for the money saved card on stats page"
   },
-  "statsMoneySavedEstimate": "اوسط استعمال پر مبنی نقل و حمل",
+  "statsMoneySavedEstimate": "Quitter کی پہلے سے طے شدہ یومیہ قدریں استعمال ہوتی ہیں",
   "@statsMoneySavedEstimate": {
     "description": "Disclaimer text on the money saved card"
   },
@@ -371,7 +371,7 @@
   "@statsEquivalentVacation": {
     "description": "Fun equivalence for money saved — a vacation"
   },
-  "statsTimeSavedTitle": "وقت دوبارہ شروع",
+  "statsTimeSavedTitle": "واپس حاصل شدہ وقت کا تخمینہ",
   "@statsTimeSavedTitle": {
     "description": "Section title for the time saved card on stats page"
   },

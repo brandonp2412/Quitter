@@ -1050,10 +1050,11 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
-  String get statsMoneySavedTitle => 'Money Saved';
+  String get statsMoneySavedTitle => 'Estimated Money Saved';
 
   @override
-  String get statsMoneySavedEstimate => 'Estimated based on average usage';
+  String get statsMoneySavedEstimate =>
+      'Uses Quitter\'s built-in daily defaults';
 
   @override
   String statsEquivalentCoffees(int count) {
@@ -1072,7 +1073,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get statsEquivalentVacation => 'That\'s a vacation abroad';
 
   @override
-  String get statsTimeSavedTitle => 'Time Reclaimed';
+  String get statsTimeSavedTitle => 'Estimated Time Reclaimed';
 
   @override
   String statsHoursSaved(int hours) {

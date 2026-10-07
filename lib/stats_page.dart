@@ -522,7 +522,7 @@ class _MoneySavedCard extends StatelessWidget {
     final theme = Theme.of(context);
     final currencyFmt = NumberFormat.currency(
       locale: l10n.localeName,
-      symbol: '\$',
+      symbol: 'US\$',
       decimalDigits: 0,
     );
     final equivalence = _equivalence(moneySaved, l10n);
@@ -713,6 +713,14 @@ class _TimeSavedCard extends StatelessWidget {
                   ),
                 ],
               ),
+            ),
+          ),
+          const SizedBox(height: 8),
+          Text(
+            l10n.statsMoneySavedEstimate,
+            style: theme.textTheme.bodySmall?.copyWith(
+              color: theme.colorScheme.onSurface.withValues(alpha: 0.45),
+              fontStyle: FontStyle.italic,
             ),
           ),
         ],

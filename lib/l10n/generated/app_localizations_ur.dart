@@ -1061,10 +1061,11 @@ class AppLocalizationsUr extends AppLocalizations {
   }
 
   @override
-  String get statsMoneySavedTitle => 'پیسہ محفوظ';
+  String get statsMoneySavedTitle => 'تخمینی بچت';
 
   @override
-  String get statsMoneySavedEstimate => 'اوسط استعمال پر مبنی نقل و حمل';
+  String get statsMoneySavedEstimate =>
+      'Quitter کی پہلے سے طے شدہ یومیہ قدریں استعمال ہوتی ہیں';
 
   @override
   String statsEquivalentCoffees(int count) {
@@ -1083,7 +1084,7 @@ class AppLocalizationsUr extends AppLocalizations {
   String get statsEquivalentVacation => 'کہ بیرون ملک چھٹی ہے۔';
 
   @override
-  String get statsTimeSavedTitle => 'وقت دوبارہ شروع';
+  String get statsTimeSavedTitle => 'واپس حاصل شدہ وقت کا تخمینہ';
 
   @override
   String statsHoursSaved(int hours) {

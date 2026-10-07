@@ -1024,10 +1024,10 @@ class AppLocalizationsKo extends AppLocalizations {
   }
 
   @override
-  String get statsMoneySavedTitle => '돈이 절약되었습니다';
+  String get statsMoneySavedTitle => '예상 절약 금액';
 
   @override
-  String get statsMoneySavedEstimate => '평균 사용량을 기준으로 추정';
+  String get statsMoneySavedEstimate => 'Quitter에 내장된 일일 기본값을 사용합니다';
 
   @override
   String statsEquivalentCoffees(int count) {
@@ -1046,7 +1046,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get statsEquivalentVacation => '해외여행이군요';
 
   @override
-  String get statsTimeSavedTitle => '회수된 시간';
+  String get statsTimeSavedTitle => '예상 절약 시간';
 
   @override
   String statsHoursSaved(int hours) {

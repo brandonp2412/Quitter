@@ -337,11 +337,11 @@
       }
     }
   },
-  "statsMoneySavedTitle": "節約した金額",
+  "statsMoneySavedTitle": "推定節約額",
   "@statsMoneySavedTitle": {
     "description": "Section title for the money saved card on stats page"
   },
-  "statsMoneySavedEstimate": "平均的な使用量に基づく推定値",
+  "statsMoneySavedEstimate": "Quitter 内蔵の1日あたりの既定値を使用",
   "@statsMoneySavedEstimate": {
     "description": "Disclaimer text on the money saved card"
   },
@@ -371,7 +371,7 @@
   "@statsEquivalentVacation": {
     "description": "Fun equivalence for money saved — a vacation"
   },
-  "statsTimeSavedTitle": "取り戻した時間",
+  "statsTimeSavedTitle": "推定で取り戻した時間",
   "@statsTimeSavedTitle": {
     "description": "Section title for the time saved card on stats page"
   },

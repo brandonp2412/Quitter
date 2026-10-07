@@ -337,11 +337,11 @@
       }
     }
   },
-  "statsMoneySavedTitle": "节省金额",
+  "statsMoneySavedTitle": "预计节省金额",
   "@statsMoneySavedTitle": {
     "description": "Section title for the money saved card on stats page"
   },
-  "statsMoneySavedEstimate": "根据平均使用量估算",
+  "statsMoneySavedEstimate": "使用 Quitter 内置的每日默认值",
   "@statsMoneySavedEstimate": {
     "description": "Disclaimer text on the money saved card"
   },
@@ -371,7 +371,7 @@
   "@statsEquivalentVacation": {
     "description": "Fun equivalence for money saved — a vacation"
   },
-  "statsTimeSavedTitle": "重获时间",
+  "statsTimeSavedTitle": "预计找回的时间",
   "@statsTimeSavedTitle": {
     "description": "Section title for the time saved card on stats page"
   },

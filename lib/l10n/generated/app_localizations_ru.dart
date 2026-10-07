@@ -1084,10 +1084,11 @@ class AppLocalizationsRu extends AppLocalizations {
   }
 
   @override
-  String get statsMoneySavedTitle => 'Экономия денег';
+  String get statsMoneySavedTitle => 'Расчётная экономия';
 
   @override
-  String get statsMoneySavedEstimate => 'Оценка на основе среднего потребления';
+  String get statsMoneySavedEstimate =>
+      'Используются встроенные ежедневные значения по умолчанию Quitter';
 
   @override
   String statsEquivalentCoffees(int count) {
@@ -1106,7 +1107,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get statsEquivalentVacation => 'Это отпуск за границей';
 
   @override
-  String get statsTimeSavedTitle => 'Возвращённое время';
+  String get statsTimeSavedTitle => 'Оценка возвращённого времени';
 
   @override
   String statsHoursSaved(int hours) {

@@ -337,13 +337,13 @@
       }
     }
   },
-  "statsMoneySavedTitle": "Money Saved",
+  "statsMoneySavedTitle": "Estimated Money Saved",
   "@statsMoneySavedTitle": {
     "description": "Section title for the money saved card on stats page"
   },
-  "statsMoneySavedEstimate": "Estimated based on average usage",
+  "statsMoneySavedEstimate": "Uses Quitter's built-in daily defaults",
   "@statsMoneySavedEstimate": {
-    "description": "Disclaimer text on the money saved card"
+    "description": "Disclaimer text shown on the money and time estimate cards"
   },
   "statsEquivalentCoffees": "That's about {count} coffees",
   "@statsEquivalentCoffees": {
@@ -371,7 +371,7 @@
   "@statsEquivalentVacation": {
     "description": "Fun equivalence for money saved — a vacation"
   },
-  "statsTimeSavedTitle": "Time Reclaimed",
+  "statsTimeSavedTitle": "Estimated Time Reclaimed",
   "@statsTimeSavedTitle": {
     "description": "Section title for the time saved card on stats page"
   },
