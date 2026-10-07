@@ -2383,7 +2383,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get customMilestone1Description =>
-      '你已经完整度过了一天，没有再做你选择停止的习惯。如果你的目标涉及某种物质，戒断和恢复期间可能出现睡眠问题，因此睡眠变化是一个值得记录的真实早期信号。';
+      '你已经完整度过了一天，没有再做你选择停止的习惯。停止某些物质后的最初几天，戒断可能扰乱睡眠，而睡眠变化也可能延续到恢复期。记录睡眠能让这些变化更容易被察觉。';
 
   @override
   String get customMilestone3Title => '戒断症状达到顶峰';
@@ -5889,7 +5889,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get customMilestone1Description =>
-      '你已完整度過一天，沒有再做你選擇停止的習慣。如果你的目標涉及某種物質，戒斷與復原期間可能出現睡眠問題，因此睡眠變化是值得記錄的真實早期訊號。';
+      '你已完整度過一天，沒有再做你選擇停止的習慣。停止某些物質後的最初幾天，戒斷可能擾亂睡眠，而睡眠變化也可能延續到復原期。記錄睡眠能讓這些變化更容易被察覺。';
 
   @override
   String get customMilestone3Title => '戒斷症狀達到頂峰';

@@ -2504,7 +2504,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get customMilestone1Description =>
-      'You’ve completed a full day without the habit you chose to stop. If your goal involves a substance, sleep disruption can occur during withdrawal and recovery, so changes in sleep are a real early signal worth tracking.';
+      'You’ve completed a full day without the habit you chose to stop. In the first days after stopping some substances, withdrawal can disrupt sleep, and sleep changes may continue into recovery. Tracking your sleep can make those changes easier to spot.';
 
   @override
   String get customMilestone3Title => 'Withdrawal Symptoms Peak';

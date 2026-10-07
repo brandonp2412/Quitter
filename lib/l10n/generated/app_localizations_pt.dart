@@ -2567,7 +2567,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get customMilestone1Description =>
-      'Completou um dia inteiro sem o hábito que decidiu deixar. Se o seu objetivo envolve uma substância, podem surgir perturbações do sono durante a abstinência e a recuperação; por isso, alterações no sono são um sinal inicial real que vale a pena acompanhar.';
+      'Completou um dia inteiro sem o hábito que decidiu deixar. Nos primeiros dias após deixar de consumir algumas substâncias, a abstinência pode perturbar o sono, e essas alterações podem continuar durante a recuperação. Acompanhar o seu sono pode tornar essas mudanças mais fáceis de identificar.';
 
   @override
   String get customMilestone3Title => 'Pico dos sintomas de abstinência';
@@ -6287,7 +6287,7 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get customMilestone1Description =>
-      'Você completou um dia inteiro sem o hábito que decidiu abandonar. Se o seu objetivo envolve uma substância, podem ocorrer alterações do sono durante a abstinência e a recuperação; por isso, mudanças no sono são um sinal inicial real que vale a pena acompanhar.';
+      'Você completou um dia inteiro sem o hábito que decidiu abandonar. Nos primeiros dias após parar de usar algumas substâncias, a abstinência pode atrapalhar o sono, e essas mudanças podem continuar durante a recuperação. Acompanhar seu sono pode ajudar a perceber essas mudanças com mais facilidade.';
 
   @override
   String get customMilestone3Title => 'Pico dos sintomas de abstinência';

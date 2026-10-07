@@ -2092,7 +2092,7 @@
   "@customMilestone1Title": {
     "description": "Custom milestone day 1 title"
   },
-  "customMilestone1Description": "Has completado un día entero sin el hábito que decidiste dejar. Si tu objetivo está relacionado con una sustancia, pueden aparecer alteraciones del sueño durante la abstinencia y la recuperación, así que los cambios en tu sueño son una señal temprana real que merece seguimiento.",
+  "customMilestone1Description": "Has completado un día entero sin el hábito que decidiste dejar. En los primeros días tras dejar algunas sustancias, la abstinencia puede alterar el sueño y esos cambios pueden continuar durante la recuperación. Registrar tu sueño puede ayudarte a detectar esos cambios con más facilidad.",
   "@customMilestone1Description": {
     "description": "Custom milestone day 1 description"
   },

@@ -2386,7 +2386,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get customMilestone1Description =>
-      'やめると決めた習慣なしで、丸1日を達成しました。目標が物質の使用に関するものなら、離脱や回復の途中で睡眠が乱れることがあります。睡眠の変化は、記録しておく価値のある現実的な初期サインです。';
+      'やめると決めた習慣なしで、丸1日を達成しました。物質によっては、やめて最初の数日に離脱で睡眠が乱れ、その変化が回復期まで続くことがあります。睡眠を記録しておくと、こうした変化に気づきやすくなります。';
 
   @override
   String get customMilestone3Title => '離脱症状がピークに';

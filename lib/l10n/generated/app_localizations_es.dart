@@ -2570,7 +2570,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get customMilestone1Description =>
-      'Has completado un día entero sin el hábito que decidiste dejar. Si tu objetivo está relacionado con una sustancia, pueden aparecer alteraciones del sueño durante la abstinencia y la recuperación, así que los cambios en tu sueño son una señal temprana real que merece seguimiento.';
+      'Has completado un día entero sin el hábito que decidiste dejar. En los primeros días tras dejar algunas sustancias, la abstinencia puede alterar el sueño y esos cambios pueden continuar durante la recuperación. Registrar tu sueño puede ayudarte a detectar esos cambios con más facilidad.';
 
   @override
   String get customMilestone3Title =>

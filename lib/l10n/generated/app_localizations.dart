@@ -4389,7 +4389,7 @@ abstract class AppLocalizations {
   /// Custom milestone day 1 description
   ///
   /// In en, this message translates to:
-  /// **'You’ve completed a full day without the habit you chose to stop. If your goal involves a substance, sleep disruption can occur during withdrawal and recovery, so changes in sleep are a real early signal worth tracking.'**
+  /// **'You’ve completed a full day without the habit you chose to stop. In the first days after stopping some substances, withdrawal can disrupt sleep, and sleep changes may continue into recovery. Tracking your sleep can make those changes easier to spot.'**
   String get customMilestone1Description;
 
   /// Custom milestone day 3 title

@@ -2564,7 +2564,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get customMilestone1Description =>
-      'Masz za sobą pełną dobę bez nawyku, który chcesz zakończyć. Jeśli Twój cel dotyczy substancji, zaburzenia snu mogą pojawiać się podczas odstawienia i zdrowienia, więc zmiany snu są realnym wczesnym sygnałem, który warto obserwować.';
+      'Masz za sobą pełną dobę bez nawyku, który chcesz zakończyć. W pierwszych dniach po odstawieniu niektórych substancji objawy odstawienia mogą zaburzać sen, a zmiany snu mogą utrzymywać się podczas zdrowienia. Śledzenie snu może ułatwić zauważenie tych zmian.';
 
   @override
   String get customMilestone3Title => 'Objawy odstawienne Szczyt';

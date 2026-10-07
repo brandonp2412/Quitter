@@ -2557,7 +2557,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get customMilestone1Description =>
-      'Du hast einen ganzen Tag ohne die Gewohnheit geschafft, die du beenden möchtest. Wenn dein Ziel eine Substanz betrifft, können während Entzug und Erholung Schlafstörungen auftreten. Veränderungen deines Schlafs sind daher ein echtes frühes Signal, das du im Blick behalten kannst.';
+      'Du hast einen ganzen Tag ohne die Gewohnheit geschafft, die du beenden möchtest. In den ersten Tagen nach dem Absetzen mancher Substanzen kann der Entzug den Schlaf stören, und Schlafveränderungen können bis in die Erholung anhalten. Wenn du deinen Schlaf beobachtest, lassen sich diese Veränderungen leichter erkennen.';
 
   @override
   String get customMilestone3Title => 'Entzugserscheinungen Peak';

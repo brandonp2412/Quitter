@@ -2546,7 +2546,7 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get customMilestone1Description =>
-      'Anda telah melewati satu hari penuh tanpa kebiasaan yang Anda pilih untuk dihentikan. Jika tujuan Anda berkaitan dengan suatu zat, gangguan tidur dapat terjadi selama putus zat dan pemulihan, jadi perubahan tidur adalah sinyal awal nyata yang layak dipantau.';
+      'Anda telah melewati satu hari penuh tanpa kebiasaan yang Anda pilih untuk dihentikan. Pada hari-hari pertama setelah berhenti dari beberapa zat, putus zat dapat mengganggu tidur, dan perubahan tidur dapat berlanjut selama pemulihan. Memantau tidur dapat membantu Anda lebih mudah melihat perubahan tersebut.';
 
   @override
   String get customMilestone3Title => 'Puncak Gejala Penarikan';

@@ -2596,7 +2596,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get customMilestone1Description =>
-      'Vous avez passé une journée entière sans l’habitude que vous avez choisi d’arrêter. Si votre objectif concerne une substance, des troubles du sommeil peuvent survenir pendant le sevrage et la récupération ; les changements de sommeil sont donc un vrai signal précoce à surveiller.';
+      'Vous avez passé une journée entière sans l’habitude que vous avez choisi d’arrêter. Dans les premiers jours après l’arrêt de certaines substances, le sevrage peut perturber le sommeil, et ces changements peuvent se poursuivre pendant la récupération. Suivre votre sommeil peut vous aider à repérer plus facilement ces changements.';
 
   @override
   String get customMilestone3Title => 'Pic des symptômes de sevrage';
