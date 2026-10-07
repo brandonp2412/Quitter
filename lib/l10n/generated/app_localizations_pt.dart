@@ -7416,4 +7416,34 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get settingsLocalePersian => 'Persa';
+
+  @override
+  String vapingStreakTitle(int days) {
+    return 'Sem vape: dia $days';
+  }
+
+  @override
+  String get vapingDay1Description =>
+      'Primeiro dia sem vape. Se o seu vape tinha nicotina, fissura, irritabilidade, inquietação, desânimo, sono ruim ou dificuldade de concentração podem ser abstinência de nicotina. Ao atravessar essa primeira fase, você já está quebrando o ciclo do vape.';
+
+  @override
+  String get vapingDay3Description =>
+      'Três dias sem vape. Em um estudo clínico com ex-fumantes que usavam cigarro eletrônico diariamente, os sintomas de abstinência aumentaram nos dois primeiros dias sem uso e depois seguiram o padrão clássico de subida e queda. Você já atravessou essa onda inicial mais forte; a fissura ainda pode aparecer, mas não está no comando.';
+
+  @override
+  String get vapingDay7Description =>
+      'Sete dias completos sem inalar aerossol do vape. É uma semana sem nova exposição às substâncias que esse aerossol pode carregar: nicotina, partículas minúsculas, metais pesados, compostos orgânicos voláteis e outros compostos nocivos. Sequência limpa — continue.';
+
+  @override
+  String vapingLongStreakDescription(int days) {
+    return '$days dias sem dar outra tragada de aerossol do vape. São $days dias sem nova exposição às substâncias nocivas que esse aerossol pode carregar. Se o seu vape tinha nicotina, também são $days dias sem reforçar essa dependência. Sequência gigante — siga em frente.';
+  }
+
+  @override
+  String get vapingWithdrawalReference =>
+      'Abstinência de cigarros eletrônicos e sintomas de abstinência\n\nFonte: Hughes et al., Nicotine & Tobacco Research (2020)\n\nEm 109 ex-fumantes que usavam cigarros eletrônicos diariamente, seis dias de abstinência confirmada biologicamente aumentaram os sintomas de abstinência de nicotina e a fissura. Os sintomas seguiram o padrão clássico de subida e queda, com aumento forte nos dois primeiros dias sem uso. O estudo mostra que parar de usar cigarro eletrônico pode produzir abstinência real e que os primeiros dias podem ser a fase mais intensa.';
+
+  @override
+  String get vapingHealthReference =>
+      'Ao que o vape expõe você\n\nFonte: CDC — Health Effects of Vaping\n\nO CDC informa que a maioria dos cigarros eletrônicos contém nicotina, que causa dependência. O aerossol do vape pode conter nicotina, substâncias cancerígenas, metais pesados como níquel, estanho e chumbo, partículas minúsculas que chegam profundamente aos pulmões, compostos orgânicos voláteis e alguns aromatizantes nocivos. A abstinência de nicotina pode causar irritabilidade, ansiedade ou inquietação, desânimo, problemas de sono e concentração, fome e fissura, e esses sintomas diminuem com o tempo. Cada dia sem vape evita uma nova exposição a esse aerossol e, se havia nicotina, acrescenta mais um dia sem reforçar essa dependência.';
 }

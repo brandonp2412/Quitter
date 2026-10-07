@@ -3528,31 +3528,31 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String vapingStreakTitle(int days) {
-    return 'Vape-free: day $days';
+    return '베이프 없이: $days일째';
   }
 
   @override
   String get vapingDay1Description =>
-      'Day one without the vape. If your vape contained nicotine, cravings, irritability, restlessness, low mood, poor sleep or fuzzy focus can be nicotine withdrawal — not a reason to feed it. Either way, you’re already breaking the vaping loop.';
+      '베이프 없이 첫날입니다. 사용하던 베이프에 니코틴이 들어 있었다면 갈망, 짜증, 안절부절못함, 기분 저하, 수면 문제, 집중력 저하는 니코틴 금단일 수 있습니다. 이 첫 고비를 넘기며 이미 베이핑의 고리를 끊고 있습니다.';
 
   @override
   String get vapingDay3Description =>
-      'Three days vape-free. In a clinical study of former smokers who vaped daily, withdrawal rose during the first two abstinent days and followed the classic rise-and-fall pattern. You’ve made it through that sharp early surge; cravings can still show up, but they don’t own the controls.';
+      '베이프 없이 3일. 과거 흡연자이면서 매일 전자담배를 사용하던 사람들을 대상으로 한 임상 연구에서 금단 증상은 중단 첫 이틀 동안 크게 증가한 뒤 전형적인 상승-하강 패턴을 보였습니다. 그 가파른 초기 파도를 지나왔습니다. 갈망이 다시 와도 운전대는 당신이 잡고 있습니다.';
 
   @override
   String get vapingDay7Description =>
-      'Seven full days without inhaling vape aerosol. That’s a week with no new vaping exposure to nicotine, ultrafine particles, heavy metals, volatile organic compounds or other harmful substances the aerosol can carry. Clear streak — keep it rolling.';
+      '베이프 에어로졸을 들이마시지 않은 7일. 에어로졸에 포함될 수 있는 니코틴, 미세 입자, 중금속, 휘발성 유기화합물과 기타 유해 물질에 새로 노출되지 않은 일주일입니다. 깔끔한 연속 기록 — 계속 이어가세요.';
 
   @override
   String vapingLongStreakDescription(int days) {
-    return '$days days without taking another hit of vape aerosol. That’s $days days with no new vaping exposure to the harmful substances that aerosol can carry. If your vape contained nicotine, it’s also $days days without reinforcing that dependence. Huge streak — keep it moving.';
+    return '$days일 동안 베이프 에어로졸을 한 모금도 더 들이마시지 않았습니다. 에어로졸에 포함될 수 있는 유해 물질에 새로 노출되지 않은 $days일입니다. 사용하던 베이프에 니코틴이 들어 있었다면 그 의존을 다시 강화하지 않은 시간도 $days일입니다. 엄청난 연속 기록 — 계속 가세요.';
   }
 
   @override
   String get vapingWithdrawalReference =>
-      'E-cigarette abstinence and withdrawal\n\nSource: Hughes et al., Nicotine & Tobacco Research (2020)\n\nIn 109 former smokers who were daily e-cigarette users, six days of biologically confirmed abstinence increased nicotine-withdrawal symptoms and cravings. Symptoms followed the classic rise-and-fall pattern of withdrawal, with a strong increase during the first two abstinent days. The study supports real e-cigarette withdrawal; it does not establish a universal day-by-day recovery clock.';
+      '전자담배 중단과 금단 증상\n\n출처: Hughes et al., Nicotine & Tobacco Research (2020)\n\n과거 흡연자이면서 매일 전자담배를 사용하던 109명을 대상으로 한 연구에서, 생물학적으로 확인된 6일간의 중단 기간 동안 니코틴 금단 증상과 갈망이 증가했습니다. 증상은 전형적인 상승-하강 패턴을 보였고 중단 첫 이틀 동안 특히 크게 증가했습니다. 이 연구는 전자담배 중단이 실제 금단을 일으킬 수 있고 초기 며칠이 가장 거센 구간일 수 있음을 보여줍니다.';
 
   @override
   String get vapingHealthReference =>
-      'What vaping exposes you to\n\nSource: CDC — Health Effects of Vaping\n\nCDC says most e-cigarettes contain addictive nicotine. Vape aerosol can contain nicotine, cancer-causing chemicals, heavy metals such as nickel, tin and lead, tiny particles that reach deep into the lungs, volatile organic compounds, and some harmful flavoring chemicals. Nicotine withdrawal can include irritability, anxiety or restlessness, low mood, sleep and concentration problems, hunger and cravings, and these symptoms fade over time. Long-term vaping effects are still being studied, so Quitter celebrates sustained abstinence instead of borrowing cigarette carbon-monoxide, tar, cancer or heart-risk timelines.';
+      '베이핑이 노출시키는 것\n\n출처: CDC — Health Effects of Vaping\n\nCDC에 따르면 대부분의 전자담배에는 중독성 니코틴이 들어 있습니다. 베이프 에어로졸에는 니코틴, 발암 물질, 니켈·주석·납 같은 중금속, 폐 깊숙이 들어갈 수 있는 미세 입자, 휘발성 유기화합물과 일부 유해 향료 화학물질이 포함될 수 있습니다. 니코틴 금단에는 짜증, 불안이나 초조, 기분 저하, 수면·집중 문제, 허기와 갈망이 나타날 수 있으며 이런 증상은 시간이 지나면서 줄어듭니다. 베이프 없이 지내는 날마다 이런 에어로졸에 대한 새로운 노출을 피하고, 니코틴을 사용했다면 그 의존을 다시 강화하지 않는 시간이 쌓입니다.';
 }

@@ -1716,77 +1716,43 @@
   "@smokingMilestone1825Description": {
     "description": "Smoking milestone day 1825 description"
   },
-  "vapingMilestone1Title": "니코틴 갈망 최고치",
-  "@vapingMilestone1Title": {
-    "description": "Vaping milestone day 1 title"
+  "vapingStreakTitle": "베이프 없이: {days}일째",
+  "@vapingStreakTitle": {
+    "description": "Vaping milestone title with elapsed day count",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
   },
-  "vapingMilestone1Description": "당신의 두뇌는 니코틴 짜증을 내고 있지만 당신은 이미 승리하고 있습니다! 24시간 이내에 니코틴 수치가 급격히 떨어집니다. 최악의 갈망은 지금 발생하지만, 이를 극복하는 것이 가장 중요하기도 합니다.",
-  "@vapingMilestone1Description": {
-    "description": "Vaping milestone day 1 description"
+  "vapingDay1Description": "베이프 없이 첫날입니다. 사용하던 베이프에 니코틴이 들어 있었다면 갈망, 짜증, 안절부절못함, 기분 저하, 수면 문제, 집중력 저하는 니코틴 금단일 수 있습니다. 이 첫 고비를 넘기며 이미 베이핑의 고리를 끊고 있습니다.",
+  "@vapingDay1Description": {
+    "description": "Vaping milestone day 1 evidence-based description"
   },
-  "vapingMilestone3Title": "호흡이 좋아진다",
-  "@vapingMilestone3Title": {
-    "description": "Vaping milestone day 3 title"
+  "vapingDay3Description": "베이프 없이 3일. 과거 흡연자이면서 매일 전자담배를 사용하던 사람들을 대상으로 한 임상 연구에서 금단 증상은 중단 첫 이틀 동안 크게 증가한 뒤 전형적인 상승-하강 패턴을 보였습니다. 그 가파른 초기 파도를 지나왔습니다. 갈망이 다시 와도 운전대는 당신이 잡고 있습니다.",
+  "@vapingDay3Description": {
+    "description": "Vaping milestone day 3 evidence-based description"
   },
-  "vapingMilestone3Description": "당신의 폐는 행복한 춤을 추고 있습니다! 기관지가 이완되기 시작하고 폐활량이 향상되기 시작합니다. 베이핑으로 인해 답답했던 가슴의 느낌이 이미 완화되기 시작했습니다.",
-  "@vapingMilestone3Description": {
-    "description": "Vaping milestone day 3 description"
+  "vapingDay7Description": "베이프 에어로졸을 들이마시지 않은 7일. 에어로졸에 포함될 수 있는 니코틴, 미세 입자, 중금속, 휘발성 유기화합물과 기타 유해 물질에 새로 노출되지 않은 일주일입니다. 깔끔한 연속 기록 — 계속 이어가세요.",
+  "@vapingDay7Description": {
+    "description": "Vaping milestone day 7 evidence-based description"
   },
-  "vapingMilestone7Title": "맛과 냄새의 반환",
-  "@vapingMilestone7Title": {
-    "description": "Vaping milestone day 7 title"
+  "vapingLongStreakDescription": "{days}일 동안 베이프 에어로졸을 한 모금도 더 들이마시지 않았습니다. 에어로졸에 포함될 수 있는 유해 물질에 새로 노출되지 않은 {days}일입니다. 사용하던 베이프에 니코틴이 들어 있었다면 그 의존을 다시 강화하지 않은 시간도 {days}일입니다. 엄청난 연속 기록 — 계속 가세요.",
+  "@vapingLongStreakDescription": {
+    "description": "Vaping long-streak evidence-based description",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
   },
-  "vapingMilestone7Description": "음식이 다시금 맛있어질 것 같아요! 니코틴은 미뢰와 후각 수용체를 약화시킵니다. 일주일이 지나면 당신의 초능력 감각이 컴백 투어를 시작합니다.",
-  "@vapingMilestone7Description": {
-    "description": "Vaping milestone day 7 description"
+  "vapingWithdrawalReference": "전자담배 중단과 금단 증상\n\n출처: Hughes et al., Nicotine & Tobacco Research (2020)\n\n과거 흡연자이면서 매일 전자담배를 사용하던 109명을 대상으로 한 연구에서, 생물학적으로 확인된 6일간의 중단 기간 동안 니코틴 금단 증상과 갈망이 증가했습니다. 증상은 전형적인 상승-하강 패턴을 보였고 중단 첫 이틀 동안 특히 크게 증가했습니다. 이 연구는 전자담배 중단이 실제 금단을 일으킬 수 있고 초기 며칠이 가장 거센 구간일 수 있음을 보여줍니다.",
+  "@vapingWithdrawalReference": {
+    "description": "Localized reference summary for e-cigarette abstinence and withdrawal"
   },
-  "vapingMilestone14Title": "순환이 개선됩니다",
-  "@vapingMilestone14Title": {
-    "description": "Vaping milestone day 14 title"
-  },
-  "vapingMilestone14Description": "당신의 피는 챔피언처럼 흐르고 있습니다! 니코틴은 혈관을 수축하지만 2주 동안 금연을 하면 혈액 순환이 극적으로 좋아집니다. 차가운 손발, 물러가세요!",
-  "@vapingMilestone14Description": {
-    "description": "Vaping milestone day 14 description"
-  },
-  "vapingMilestone30Title": "폐 기능 회복",
-  "@vapingMilestone30Title": {
-    "description": "Vaping milestone day 30 title"
-  },
-  "vapingMilestone30Description": "당신의 폐는 사실상 축하 퍼레이드를 펼치고 있습니다! 섬모(작은 폐 청소부)가 재생되고 폐 기능이 크게 향상되었습니다. 그 아침 기침은 역사입니다!",
-  "@vapingMilestone30Description": {
-    "description": "Vaping milestone day 30 description"
-  },
-  "vapingMilestone60Title": "불안 수준이 정상화됩니다",
-  "@vapingMilestone60Title": {
-    "description": "Vaping milestone day 60 title"
-  },
-  "vapingMilestone60Description": "줄거리 반전: 베이핑은 불안을 더 악화시키는 것이 아니라 더 악화시켰습니다! 두 달이 지나면 평소의 불안 수준이 낮아지고 신경계가 안정됩니다.",
-  "@vapingMilestone60Description": {
-    "description": "Vaping milestone day 60 description"
-  },
-  "vapingMilestone90Title": "집중력과 기억력 향상",
-  "@vapingMilestone90Title": {
-    "description": "Vaping milestone day 90 title"
-  },
-  "vapingMilestone90Description": "뇌 안개가 건물을 떠났습니다! 3개월간 니코틴을 끊으면 집중력, 기억력, 명확한 사고력이 눈에 띄게 좋아집니다. 이는 정신적 RAM을 업그레이드하는 것과 같습니다.",
-  "@vapingMilestone90Description": {
-    "description": "Vaping milestone day 90 description"
-  },
-  "vapingMilestone180Title": "구강 건강 회복",
-  "@vapingMilestone180Title": {
-    "description": "Vaping milestone day 180 title"
-  },
-  "vapingMilestone180Description": "당신의 입이 감사 카드를 보내고 있습니다! 6개월 동안 베이프를 사용하지 않으면 잇몸 염증이 감소하고 치아 착색이 사라지며 구강 건강 문제의 위험이 크게 줄어듭니다.",
-  "@vapingMilestone180Description": {
-    "description": "Vaping milestone day 180 description"
-  },
-  "vapingMilestone365Title": "심혈관 위험 감소",
-  "@vapingMilestone365Title": {
-    "description": "Vaping milestone day 365 title"
-  },
-  "vapingMilestone365Description": "당신의 마음은 말 그대로 더 강해졌습니다! 1년이 지나면 심장병 발병 위험이 크게 감소합니다. 귀하의 심혈관 시스템은 매일의 니코틴 공격 과정에서 회복되었습니다.",
-  "@vapingMilestone365Description": {
-    "description": "Vaping milestone day 365 description"
+  "vapingHealthReference": "베이핑이 노출시키는 것\n\n출처: CDC — Health Effects of Vaping\n\nCDC에 따르면 대부분의 전자담배에는 중독성 니코틴이 들어 있습니다. 베이프 에어로졸에는 니코틴, 발암 물질, 니켈·주석·납 같은 중금속, 폐 깊숙이 들어갈 수 있는 미세 입자, 휘발성 유기화합물과 일부 유해 향료 화학물질이 포함될 수 있습니다. 니코틴 금단에는 짜증, 불안이나 초조, 기분 저하, 수면·집중 문제, 허기와 갈망이 나타날 수 있으며 이런 증상은 시간이 지나면서 줄어듭니다. 베이프 없이 지내는 날마다 이런 에어로졸에 대한 새로운 노출을 피하고, 니코틴을 사용했다면 그 의존을 다시 강화하지 않는 시간이 쌓입니다.",
+  "@vapingHealthReference": {
+    "description": "Localized reference summary for CDC vaping health effects"
   },
   "marijuanaMilestone1Title": "금단 증상이 시작됨",
   "@marijuanaMilestone1Title": {
