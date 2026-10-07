@@ -5918,11 +5918,12 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
       'Um ano inteiro de liberdade!O risco de acidente vascular cerebral diminuiu substancialmente e os vasos sanguíneos estão cicatrizando perfeitamente. Você deu oficialmente ao seu cérebro o presente de melhor circulação e proteção.';
 
   @override
-  String get smokingMilestone1825Title => 'Risco de câncer cai (5 anos)';
+  String get smokingMilestone1825Title =>
+      'Alguns riscos de câncer despencam (5–10 anos)';
 
   @override
   String get smokingMilestone1825Description =>
-      'Cinco anos de vitória!O risco de câncer de boca, garganta, esôfago e bexiga caiu pela metade. O risco de câncer de pulmão também diminuiu significativamente. Suas células tiveram tempo para se reparar e se regenerar.';
+      'Cinco anos de vitória! Você está entrando na janela de 5–10 anos em que o risco adicional de câncer de boca, garganta e laringe cai pela metade, enquanto o risco de AVC continua diminuindo. Os benefícios de longo prazo estão chegando com força.';
 
   @override
   String get marijuanaMilestone1Title => 'Começam os sintomas de abstinência';

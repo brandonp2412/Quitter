@@ -2088,11 +2088,11 @@ class AppLocalizationsKo extends AppLocalizations {
       '1년의 자유를 누리세요! 뇌졸중 위험이 크게 감소했으며 혈관이 아름답게 치유되고 있습니다. 당신은 공식적으로 두뇌에 더 나은 순환과 보호라는 선물을 주었습니다.';
 
   @override
-  String get smokingMilestone1825Title => '암 위험이 급락합니다(5년)';
+  String get smokingMilestone1825Title => '일부 암 위험이 크게 줄어듭니다 (5~10년)';
 
   @override
   String get smokingMilestone1825Description =>
-      '5년의 승리! 구강암, 인후암, 식도암, 방광암 발병 위험이 절반으로 감소했습니다. 폐암 위험도 크게 감소했습니다. 당신의 세포는 수리하고 재생될 시간을 가졌습니다.';
+      '5년의 승리! 이제 5~10년 구간에 들어섭니다. 이 기간에는 입·목·후두암의 추가 위험이 절반으로 줄고, 뇌졸중 위험도 계속 낮아집니다. 장기적인 건강 이득이 제대로 쌓이고 있습니다.';
 
   @override
   String get marijuanaMilestone1Title => '금단 증상이 시작됨';
