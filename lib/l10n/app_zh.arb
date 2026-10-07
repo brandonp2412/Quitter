@@ -1952,21 +1952,29 @@
   "@nicotinePouchesReferenceDay3": {
     "description": "Nicotine pouches day 3 detailed reference"
   },
-  "nicotinePouchesMilestone7Title": "口腔健康改善",
+  "nicotinePouchesMilestone7Title": "一周：戒断症状正在缓解",
   "@nicotinePouchesMilestone7Title": {
     "description": "Nicotine pouches milestone day 7 title"
   },
-  "nicotinePouchesMilestone7Description": "停用尼古丁袋一周后，牙龈血流开始恢复正常，愈合也随之开始。尼古丁袋可能导致牙龈刺激和萎缩。",
+  "nicotinePouchesMilestone7Description": "停用尼古丁袋一周，意味着你已经越过通常在第3天左右出现的尼古丁戒断高峰。症状通常会在随后3–4周逐渐减轻——你已经走上下坡路。",
   "@nicotinePouchesMilestone7Description": {
     "description": "Nicotine pouches milestone day 7 description"
   },
-  "nicotinePouchesMilestone14Title": "血液循环增强",
+  "nicotinePouchesMilestone14Title": "两周：戒断继续缓解",
   "@nicotinePouchesMilestone14Title": {
     "description": "Nicotine pouches milestone day 14 title"
   },
-  "nicotinePouchesMilestone14Description": "血管也在恢复。尼古丁会收缩血管；停用两周后，血液循环已明显改善，手脚也会逐渐暖和起来。",
+  "nicotinePouchesMilestone14Description": "停用尼古丁袋两周，意味着你已经深入高峰后通常持续3–4周的缓解阶段。曲线仍在向下——真正的恢复正在进行。",
   "@nicotinePouchesMilestone14Description": {
     "description": "Nicotine pouches milestone day 14 description"
+  },
+  "nicotinePouchesReferenceDay7": "一周：戒断症状正在缓解\n\n来源：McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\n这篇综述报告，长期使用含尼古丁产品后停止使用，戒断症状可在4–24小时内出现，通常在第3天左右达到高峰，随后在3–4周内逐渐减轻。\n\n实打实的一周成果\n到一周时，你已经比典型高峰多走了好几天，并进入缓解阶段。综述还指出，戒断强度会因尼古丁的摄入方式不同而有所差异，因此每个人的体验强度并不相同。\n\n停用尼古丁袋一周，意味着典型早期戒断曲线上最陡的一段已经在你身后。",
+  "@nicotinePouchesReferenceDay7": {
+    "description": "Nicotine pouches day 7 detailed reference"
+  },
+  "nicotinePouchesReferenceDay14": "两周：戒断继续缓解\n\n来源：McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\n这篇综述将尼古丁戒断的典型高峰放在第3天左右，并指出症状会在随后3–4周逐渐减轻。\n\n深入缓解阶段\n到两周时，你已经深入高峰后的缓解窗口。综述涵盖长期使用含尼古丁产品，并指出戒断强度会随尼古丁摄入方式不同而变化。\n\n停用尼古丁袋两周，是下降曲线上的一个明确节点：典型戒断症状仍在继续减轻。",
+  "@nicotinePouchesReferenceDay14": {
+    "description": "Nicotine pouches day 14 detailed reference"
   },
   "nicotinePouchesMilestone30Title": "应激反应正常化",
   "@nicotinePouchesMilestone30Title": {

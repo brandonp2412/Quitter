@@ -1955,21 +1955,29 @@
   "@nicotinePouchesReferenceDay3": {
     "description": "Nicotine pouches day 3 detailed reference"
   },
-  "nicotinePouchesMilestone7Title": "صحت کے مسائل",
+  "nicotinePouchesMilestone7Title": "ایک ہفتہ: ترک کی علامات کم ہو رہی ہیں",
   "@nicotinePouchesMilestone7Title": {
     "description": "Nicotine pouches milestone day 7 title"
   },
-  "nicotinePouchesMilestone7Description": "آپ کے مندر ایک جشن پھینک رہے ہیں! اِس کی ایک وجہ یہ ہے کہ اِس کی وجہ سے اِس کا رنگ خراب ہو جاتا ہے ۔ ایک ہفتہ گزرنے کے بعد خون آپ کے معدے میں نارمل ہو جاتا ہے اور علاج شروع ہو جاتا ہے۔",
+  "nicotinePouchesMilestone7Description": "نکوٹین پاؤچ کے بغیر ایک ہفتہ آپ کو نکوٹین ترک کرنے کی عام تیسرے دن والی چوٹی سے آگے لے آتا ہے۔ علامات عموماً اگلے 3–4 ہفتوں میں کم ہوتی رہتی ہیں — آپ پہلے ہی نیچے اترتی ڈھلان پر ہیں۔",
   "@nicotinePouchesMilestone7Description": {
     "description": "Nicotine pouches milestone day 7 description"
   },
-  "nicotinePouchesMilestone14Title": "اِن سوالوں کا جواب دیں",
+  "nicotinePouchesMilestone14Title": "دو ہفتے: علامات مسلسل کم ہو رہی ہیں",
   "@nicotinePouchesMilestone14Title": {
     "description": "Nicotine pouches milestone day 14 title"
   },
-  "nicotinePouchesMilestone14Description": "آپ کی رگیں خوشی سے رقص کر رہی ہیں! نکوٹین خون کی نالیوں کو جذب کرتی ہے لیکن دو ہفتے آزاد اور آپ کی گردش کو بہت بہتر بنایا جاتا ہے ۔ ہیلو، گرم ہاتھوں اور پاؤں!",
+  "nicotinePouchesMilestone14Description": "نکوٹین پاؤچ کے بغیر دو ہفتے آپ کو تیسرے دن کی عام چوٹی کے بعد آنے والے 3–4 ہفتوں کے کمی والے مرحلے میں کافی آگے لے آتے ہیں۔ منحنی اب بھی نیچے جا رہا ہے — حقیقی بحالی جاری ہے۔",
   "@nicotinePouchesMilestone14Description": {
     "description": "Nicotine pouches milestone day 14 description"
+  },
+  "nicotinePouchesReferenceDay7": "ایک ہفتہ: ترک کی علامات کم ہو رہی ہیں\n\nماخذ: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nجائزے کے مطابق نکوٹین والی مصنوعات کے طویل استعمال کو روکنے کے 4–24 گھنٹے بعد ترک کی علامات شروع ہو سکتی ہیں، تقریباً تیسرے دن عروج پر پہنچتی ہیں، اور پھر اگلے 3–4 ہفتوں میں کم ہوتی رہتی ہیں۔\n\nایک ہفتے کی حقیقی کامیابی\nایک ہفتے پر آپ عام چوٹی سے کئی دن آگے اور علامات کے کم ہونے والے مرحلے میں ہوتے ہیں۔ جائزہ یہ بھی بتاتا ہے کہ ترک کی شدت اس بات سے مختلف ہو سکتی ہے کہ نکوٹین کس طریقے سے لی جاتی تھی، اس لیے ہر شخص میں شدت ایک جیسی نہیں ہوتی۔\n\nنکوٹین پاؤچ کے بغیر ایک ہفتہ اس بات کی علامت ہے کہ ابتدائی ترک کے عام منحنی کا سب سے تیز حصہ پیچھے رہ چکا ہے۔",
+  "@nicotinePouchesReferenceDay7": {
+    "description": "Nicotine pouches day 7 detailed reference"
+  },
+  "nicotinePouchesReferenceDay14": "دو ہفتے: علامات مسلسل کم ہو رہی ہیں\n\nماخذ: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nجائزہ نکوٹین ترک کرنے کی عام چوٹی تقریباً تیسرے دن بتاتا ہے اور کہتا ہے کہ علامات اگلے 3–4 ہفتوں میں کم ہوتی رہتی ہیں۔\n\nکمی والے مرحلے میں کافی آگے\nدو ہفتوں پر آپ چوٹی کے بعد علامات کم ہونے والے مرحلے میں کافی آگے آ چکے ہوتے ہیں۔ یہ جائزہ نکوٹین والی مصنوعات کے طویل استعمال کا احاطہ کرتا ہے اور بتاتا ہے کہ ترک کی شدت نکوٹین لینے کے طریقے کے لحاظ سے مختلف ہوتی ہے۔\n\nنکوٹین پاؤچ کے بغیر دو ہفتے نیچے جاتے منحنی پر ایک واضح سنگ میل ہیں: عام ترک کی علامات مسلسل کم ہو رہی ہیں۔",
+  "@nicotinePouchesReferenceDay14": {
+    "description": "Nicotine pouches day 14 detailed reference"
   },
   "nicotinePouchesMilestone30Title": "دباؤ کی وجہ سے مایوسی عام ہو جاتی ہے",
   "@nicotinePouchesMilestone30Title": {

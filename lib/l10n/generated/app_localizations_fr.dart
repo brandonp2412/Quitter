@@ -2465,19 +2465,27 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get nicotinePouchesMilestone7Title =>
-      'La santé bucco-dentaire s\'améliore';
+      'Une semaine : le sevrage s’atténue';
 
   @override
   String get nicotinePouchesMilestone7Description =>
-      'Vos gencives ont de quoi célébrer ! Les sachets de nicotine peuvent provoquer irritation et récession gingivales. Après une semaine, la circulation sanguine des gencives se normalise et la guérison commence.';
+      'Une semaine sans sachet de nicotine vous place après le pic habituel du sevrage nicotinique, autour du troisième jour. Les symptômes diminuent généralement pendant les 3–4 semaines suivantes : vous êtes déjà sur la pente descendante.';
 
   @override
   String get nicotinePouchesMilestone14Title =>
-      'Amélioration de la circulation';
+      'Deux semaines : le sevrage continue de s’atténuer';
 
   @override
   String get nicotinePouchesMilestone14Description =>
-      'Vos vaisseaux sanguins respirent mieux ! La nicotine les contracte, mais après deux semaines sans nicotine, votre circulation s\'est nettement améliorée. Bonjour les mains et les pieds plus chauds !';
+      'Deux semaines sans sachet de nicotine vous placent bien dans la phase de diminution de 3–4 semaines qui suit habituellement le pic du troisième jour. La courbe continue de descendre : la récupération est bien en marche.';
+
+  @override
+  String get nicotinePouchesReferenceDay7 =>
+      'Une semaine : le sevrage s’atténue\n\nSource : McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nLa revue indique que le sevrage après un usage chronique de produits contenant de la nicotine commence 4–24 heures après l’arrêt, atteint un pic vers le troisième jour, puis diminue au cours des 3–4 semaines suivantes.\n\nUne vraie victoire à une semaine\nAprès une semaine, vous êtes plusieurs jours au-delà du pic habituel et dans la phase de diminution. La revue précise aussi que l’intensité du sevrage varie selon la façon dont la nicotine était consommée ; l’intensité diffère donc d’une personne à l’autre.\n\nUne semaine sans sachet signifie que la partie la plus raide de la courbe habituelle du sevrage précoce est derrière vous.';
+
+  @override
+  String get nicotinePouchesReferenceDay14 =>
+      'Deux semaines : le sevrage continue de s’atténuer\n\nSource : McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nLa revue situe le pic habituel du sevrage nicotinique autour du troisième jour et indique que les symptômes diminuent pendant les 3–4 semaines suivantes.\n\nBien engagé dans la descente\nÀ deux semaines, vous êtes bien avancé dans cette phase post-pic. La revue porte sur l’usage chronique de produits contenant de la nicotine et note que l’intensité du sevrage varie selon le mode de consommation.\n\nDeux semaines sans sachet constituent un repère concret sur cette courbe descendante : le sevrage typique continue de s’atténuer.';
 
   @override
   String get nicotinePouchesMilestone30Title =>

@@ -1952,21 +1952,29 @@
   "@nicotinePouchesReferenceDay3": {
     "description": "Nicotine pouches day 3 detailed reference"
   },
-  "nicotinePouchesMilestone7Title": "Mejora la salud bucal",
+  "nicotinePouchesMilestone7Title": "Una semana: la abstinencia afloja",
   "@nicotinePouchesMilestone7Title": {
     "description": "Nicotine pouches milestone day 7 title"
   },
-  "nicotinePouchesMilestone7Description": "¡Tus encías lo celebran! Las bolsitas de nicotina pueden causar irritación y retracción de las encías. Tras una semana, el flujo sanguíneo hacia las encías se normaliza y empieza la recuperación.",
+  "nicotinePouchesMilestone7Description": "Una semana sin bolsitas de nicotina te deja atrás el pico típico de abstinencia de nicotina del día tres. Los síntomas suelen ir bajando durante las 3–4 semanas siguientes: ya estás en la bajada.",
   "@nicotinePouchesMilestone7Description": {
     "description": "Nicotine pouches milestone day 7 description"
   },
-  "nicotinePouchesMilestone14Title": "Mejora de la circulación",
+  "nicotinePouchesMilestone14Title": "Dos semanas: la abstinencia sigue bajando",
   "@nicotinePouchesMilestone14Title": {
     "description": "Nicotine pouches milestone day 14 title"
   },
-  "nicotinePouchesMilestone14Description": "¡Tus vasos sanguíneos lo agradecen! La nicotina contrae los vasos sanguíneos, pero tras dos semanas sin ella la circulación mejora considerablemente. ¡Hola, manos y pies más calientes!",
+  "nicotinePouchesMilestone14Description": "Dos semanas sin bolsitas de nicotina te sitúan de lleno en las 3–4 semanas de descenso que suelen seguir al pico del día tres. La curva sigue bajando: recuperación real en marcha.",
   "@nicotinePouchesMilestone14Description": {
     "description": "Nicotine pouches milestone day 14 description"
+  },
+  "nicotinePouchesReferenceDay7": "Una semana: la abstinencia afloja\n\nFuente: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nLa revisión informa de que la abstinencia tras el uso crónico de productos con nicotina empieza 4–24 horas después de dejarla, alcanza su pico alrededor del día 3 y luego disminuye durante las 3–4 semanas siguientes.\n\nUna victoria real de una semana\nAl llegar a una semana, llevas varios días más allá del pico típico y ya estás en la fase de descenso. La revisión también señala que la intensidad de la abstinencia varía según cómo se consumía la nicotina, así que no se siente igual en todas las personas.\n\nUna semana sin bolsitas significa que la parte más empinada de la curva típica de abstinencia temprana ya quedó atrás.",
+  "@nicotinePouchesReferenceDay7": {
+    "description": "Nicotine pouches day 7 detailed reference"
+  },
+  "nicotinePouchesReferenceDay14": "Dos semanas: la abstinencia sigue bajando\n\nFuente: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nLa revisión sitúa el pico típico de abstinencia de nicotina alrededor del día 3 y señala que los síntomas disminuyen durante las 3–4 semanas siguientes.\n\nDe lleno en el descenso\nA las dos semanas ya estás bien metido en esa fase posterior al pico. La revisión abarca el uso crónico de productos con nicotina y señala que la intensidad de la abstinencia varía según la forma de consumo.\n\nDos semanas sin bolsitas son un punto concreto en la curva descendente: el síndrome de abstinencia típico sigue aflojando.",
+  "@nicotinePouchesReferenceDay14": {
+    "description": "Nicotine pouches day 14 detailed reference"
   },
   "nicotinePouchesMilestone30Title": "La respuesta al estrés se normaliza",
   "@nicotinePouchesMilestone30Title": {

@@ -2262,18 +2262,26 @@ class AppLocalizationsJa extends AppLocalizations {
       '3日目：ニコチン離脱のピーク\n\n出典：McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nこのレビューでは、慢性的なニコチン使用をやめた後の典型的な離脱ピークをおよそ3日目としています。\n\nここからの曲線\nピーク後、症状は通常その後3〜4週間かけて弱まります。また、離脱の強さはニコチンの摂取方法によって異なるとされ、強さには個人差があります。\n\n3日目は努力してたどり着いた大きな節目です。典型的な初期離脱曲線の頂上まで来ました。';
 
   @override
-  String get nicotinePouchesMilestone7Title => '口腔の健康が改善';
+  String get nicotinePouchesMilestone7Title => '1週間：離脱症状が和らぎ始める';
 
   @override
   String get nicotinePouchesMilestone7Description =>
-      'ニコチンパウチをやめて1週間。パウチで刺激や退縮が起こることのある歯茎への血流が正常化し、回復が始まっています。';
+      'ニコチンパウチなしで1週間。通常3日目ごろに来るニコチン離脱のピークは過ぎています。症状はその後3〜4週間かけて徐々に弱まるのが一般的で、すでに下り坂です。';
 
   @override
-  String get nicotinePouchesMilestone14Title => '血行が向上';
+  String get nicotinePouchesMilestone14Title => '2週間：離脱症状はさらに軽く';
 
   @override
   String get nicotinePouchesMilestone14Description =>
-      '血管も回復中です。ニコチンは血管を収縮させますが、ニコチンなしで2週間が経つと血流が大きく改善します。手足の冷えも和らいでいきます。';
+      'ニコチンパウチなしで2週間。3日目ごろのピーク後に続く3〜4週間の漸減期の真っただ中です。全体の波はまだ下がっています。確かな回復の途中です。';
+
+  @override
+  String get nicotinePouchesReferenceDay7 =>
+      '1週間：離脱症状が和らぎ始める\n\n出典: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nこのレビューでは、ニコチンを含む製品を慢性的に使用した後の離脱症状は中止から4〜24時間で始まり、約3日目にピークを迎え、その後3〜4週間かけて弱まると報告しています。\n\n1週間という確かな節目\n1週間たった時点では、一般的なピークから数日が過ぎ、漸減期に入っています。また、離脱症状の強さはニコチンの摂取方法によって異なるため、人によって強さに差があることも示されています。\n\nニコチンパウチなしで1週間ということは、一般的な早期離脱曲線の最も急な部分を越えたということです。';
+
+  @override
+  String get nicotinePouchesReferenceDay14 =>
+      '2週間：離脱症状はさらに軽く\n\n出典: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nこのレビューでは、ニコチン離脱の一般的なピークは約3日目で、その後3〜4週間かけて症状が弱まるとしています。\n\n漸減期の真っただ中\n2週間たった時点では、ピーク後の漸減期にしっかり入っています。このレビューはニコチンを含む製品の慢性的使用を対象としており、離脱症状の強さはニコチンの摂取方法によって異なると述べています。\n\nニコチンパウチなしで2週間は、下向きの曲線上の具体的な節目です。一般的な離脱症状は引き続き和らいでいます。';
 
   @override
   String get nicotinePouchesMilestone30Title => 'ストレス反応が正常化';

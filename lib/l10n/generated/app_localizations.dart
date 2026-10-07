@@ -4179,26 +4179,38 @@ abstract class AppLocalizations {
   /// Nicotine pouches milestone day 7 title
   ///
   /// In en, this message translates to:
-  /// **'Oral Health Improves'**
+  /// **'One Week: Withdrawal Is Easing'**
   String get nicotinePouchesMilestone7Title;
 
   /// Nicotine pouches milestone day 7 description
   ///
   /// In en, this message translates to:
-  /// **'Your gums are throwing a celebration! Nicotine pouches can cause gum irritation and recession. After a week, blood flow to your gums normalizes and healing begins.'**
+  /// **'One week pouch-free puts you past the typical day-three nicotine-withdrawal peak. Symptoms usually taper over the following 3–4 weeks — you’re already on the downslope.'**
   String get nicotinePouchesMilestone7Description;
 
   /// Nicotine pouches milestone day 14 title
   ///
   /// In en, this message translates to:
-  /// **'Circulation Enhancement'**
+  /// **'Two Weeks: Withdrawal Keeps Easing'**
   String get nicotinePouchesMilestone14Title;
 
   /// Nicotine pouches milestone day 14 description
   ///
   /// In en, this message translates to:
-  /// **'Your blood vessels are doing a happy dance! Nicotine constricts blood vessels, but two weeks free and your circulation is significantly improved. Hello, warmer hands and feet!'**
+  /// **'Two weeks pouch-free puts you well into the 3–4-week taper that typically follows nicotine withdrawal’s day-three peak. The curve is still coming down — real recovery in motion.'**
   String get nicotinePouchesMilestone14Description;
+
+  /// Nicotine pouches day 7 detailed reference
+  ///
+  /// In en, this message translates to:
+  /// **'One Week: Withdrawal Is Easing\n\nSource: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nThe review reports that withdrawal from chronic use of nicotine-containing products begins 4–24 hours after stopping, peaks around day 3, then tapers over the following 3–4 weeks.\n\nA real one-week win\nAt one week, you’re several days past the typical peak and into the taper phase. The review also notes that withdrawal severity varies with how nicotine was consumed, so intensity differs between people.\n\nOne week pouch-free means the steepest part of the typical early withdrawal curve is behind you.'**
+  String get nicotinePouchesReferenceDay7;
+
+  /// Nicotine pouches day 14 detailed reference
+  ///
+  /// In en, this message translates to:
+  /// **'Two Weeks: Withdrawal Keeps Easing\n\nSource: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nThe review places the typical nicotine-withdrawal peak around day 3 and says symptoms taper over the following 3–4 weeks.\n\nWell into the taper\nAt two weeks, you’re well into that post-peak taper window. The review covers chronic use of nicotine-containing products and notes that withdrawal severity varies with how nicotine was consumed.\n\nTwo weeks pouch-free is a concrete checkpoint on the downward curve: the typical withdrawal syndrome is continuing to ease.'**
+  String get nicotinePouchesReferenceDay14;
 
   /// Nicotine pouches milestone day 30 title
   ///

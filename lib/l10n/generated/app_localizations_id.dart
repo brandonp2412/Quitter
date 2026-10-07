@@ -2417,18 +2417,28 @@ class AppLocalizationsId extends AppLocalizations {
       'Hari Ketiga: Puncak Putus Nikotin\n\nSumber: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nTinjauan ini menempatkan puncak khas putus nikotin sekitar hari ketiga setelah menghentikan penggunaan nikotin kronis.\n\nKurva setelah ini\nSetelah puncak, gejala biasanya mereda selama 3–4 minggu berikutnya. Tinjauan ini juga mencatat bahwa tingkat keparahan dipengaruhi oleh cara nikotin dikonsumsi, jadi intensitas tepatnya berbeda pada tiap orang.\n\nHari ketiga adalah tonggak yang diperjuangkan: Anda sudah mencapai puncak kurva awal putus nikotin yang khas.';
 
   @override
-  String get nicotinePouchesMilestone7Title => 'Kesehatan Mulut Meningkat';
+  String get nicotinePouchesMilestone7Title =>
+      'Satu Minggu: Gejala Putus Nikotin Mereda';
 
   @override
   String get nicotinePouchesMilestone7Description =>
-      'Gusimu sedang mengadakan perayaan! Kantong nikotin dapat menyebabkan iritasi dan resesi gusi. Setelah seminggu, aliran darah ke gusi Anda menjadi normal dan penyembuhan dimulai.';
+      'Satu minggu tanpa kantong nikotin menempatkanmu melewati puncak gejala putus nikotin yang biasanya terjadi sekitar hari ketiga. Gejala umumnya mereda selama 3–4 minggu berikutnya — kamu sudah berada di sisi menurun.';
 
   @override
-  String get nicotinePouchesMilestone14Title => 'Peningkatan Sirkulasi';
+  String get nicotinePouchesMilestone14Title =>
+      'Dua Minggu: Gejala Terus Mereda';
 
   @override
   String get nicotinePouchesMilestone14Description =>
-      'Pembuluh darahmu menari gembira! Nikotin menyempitkan pembuluh darah, tetapi dua minggu bebas dan sirkulasi Anda meningkat secara signifikan. Halo, tangan dan kaki yang lebih hangat!';
+      'Dua minggu tanpa kantong nikotin menempatkanmu jauh di dalam fase penurunan 3–4 minggu yang biasanya mengikuti puncak hari ketiga. Kurvanya masih turun — pemulihan nyata sedang berjalan.';
+
+  @override
+  String get nicotinePouchesReferenceDay7 =>
+      'Satu Minggu: Gejala Putus Nikotin Mereda\n\nSumber: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nTinjauan tersebut melaporkan bahwa gejala putus setelah penggunaan kronis produk yang mengandung nikotin mulai 4–24 jam setelah berhenti, mencapai puncak sekitar hari ke-3, lalu mereda selama 3–4 minggu berikutnya.\n\nKemenangan nyata satu minggu\nPada satu minggu, kamu sudah beberapa hari melewati puncak yang umum dan masuk ke fase penurunan. Tinjauan itu juga mencatat bahwa tingkat keparahan putus nikotin berbeda menurut cara nikotin dikonsumsi, sehingga intensitasnya berbeda antarorang.\n\nSatu minggu tanpa kantong nikotin berarti bagian paling curam dari kurva putus nikotin awal yang umum sudah berada di belakangmu.';
+
+  @override
+  String get nicotinePouchesReferenceDay14 =>
+      'Dua Minggu: Gejala Terus Mereda\n\nSumber: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nTinjauan tersebut menempatkan puncak umum putus nikotin sekitar hari ke-3 dan menyatakan bahwa gejala mereda selama 3–4 minggu berikutnya.\n\nJauh masuk fase penurunan\nPada dua minggu, kamu sudah jauh masuk ke jendela penurunan setelah puncak. Tinjauan ini membahas penggunaan kronis produk yang mengandung nikotin dan mencatat bahwa keparahan putus nikotin berbeda menurut cara nikotin dikonsumsi.\n\nDua minggu tanpa kantong nikotin adalah titik nyata pada kurva menurun: sindrom putus nikotin yang umum terus mereda.';
 
   @override
   String get nicotinePouchesMilestone30Title => 'Respon Stres Menjadi Normal';

@@ -2436,18 +2436,28 @@ class AppLocalizationsPt extends AppLocalizations {
       'Dia três: pico da abstinência de nicotina\n\nFonte: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nA revisão situa o pico típico da abstinência de nicotina por volta do terceiro dia após interromper o uso crónico de nicotina.\n\nA curva a partir daqui\nDepois do pico, os sintomas costumam diminuir ao longo das 3–4 semanas seguintes. A revisão também indica que a intensidade depende da forma como a nicotina era consumida, pelo que a intensidade exata é individual.\n\nO terceiro dia é um marco conquistado com esforço: chegou ao topo da curva típica da abstinência inicial.';
 
   @override
-  String get nicotinePouchesMilestone7Title => 'A saúde bucal melhora';
+  String get nicotinePouchesMilestone7Title =>
+      'Uma semana: a abstinência está a aliviar';
 
   @override
   String get nicotinePouchesMilestone7Description =>
-      'Suas gengivas estão comemorando! As saquetas de nicotina podem causar irritação e recessão nas gengivas. Depois de uma semana, o fluxo sanguíneo para as gengivas se normaliza e a cicatrização começa.';
+      'Uma semana sem saquetas de nicotina coloca-o para lá do pico típico da abstinência de nicotina, por volta do terceiro dia. Os sintomas costumam diminuir ao longo das 3–4 semanas seguintes — já está na descida.';
 
   @override
-  String get nicotinePouchesMilestone14Title => 'Melhoria da circulação';
+  String get nicotinePouchesMilestone14Title =>
+      'Duas semanas: a abstinência continua a aliviar';
 
   @override
   String get nicotinePouchesMilestone14Description =>
-      'Seus vasos sanguíneos estão dançando alegremente! A nicotina contrai os vasos sanguíneos, mas duas semanas livres e sua circulação melhora significativamente. Olá, mãos e pés mais quentes!';
+      'Duas semanas sem saquetas de nicotina colocam-no bem dentro da fase de redução de 3–4 semanas que costuma seguir-se ao pico do terceiro dia. A curva continua a descer — recuperação real em andamento.';
+
+  @override
+  String get nicotinePouchesReferenceDay7 =>
+      'Uma semana: a abstinência está a aliviar\n\nFonte: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nA revisão relata que a abstinência após o uso crónico de produtos com nicotina começa 4–24 horas depois de parar, atinge o pico por volta do 3.º dia e depois diminui ao longo das 3–4 semanas seguintes.\n\nUma vitória real ao fim de uma semana\nAo fim de uma semana, já passaram vários dias desde o pico típico e entrou na fase de redução. A revisão também observa que a intensidade da abstinência varia consoante a forma como a nicotina era consumida, pelo que a intensidade difere entre pessoas.\n\nUma semana sem saquetas significa que a parte mais íngreme da curva típica de abstinência inicial já ficou para trás.';
+
+  @override
+  String get nicotinePouchesReferenceDay14 =>
+      'Duas semanas: a abstinência continua a aliviar\n\nFonte: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nA revisão situa o pico típico da abstinência de nicotina por volta do 3.º dia e refere que os sintomas diminuem ao longo das 3–4 semanas seguintes.\n\nBem dentro da fase de redução\nAo fim de duas semanas, já está bem dentro dessa fase posterior ao pico. A revisão abrange o uso crónico de produtos com nicotina e observa que a intensidade da abstinência varia consoante a forma de consumo.\n\nDuas semanas sem saquetas são um marco concreto na curva descendente: a abstinência típica continua a aliviar.';
 
   @override
   String get nicotinePouchesMilestone30Title => 'Resposta ao stress normaliza';
@@ -6133,18 +6143,28 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
       'Dia três: pico da abstinência de nicotina\n\nFonte: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nA revisão situa o pico típico da abstinência de nicotina por volta do terceiro dia após interromper o uso crônico de nicotina.\n\nA curva daqui para frente\nDepois do pico, os sintomas costumam diminuir ao longo das 3–4 semanas seguintes. A revisão também observa que a intensidade depende da forma como a nicotina era consumida, então a intensidade exata é individual.\n\nO terceiro dia é um marco conquistado com esforço: você chegou ao topo da curva típica da abstinência inicial.';
 
   @override
-  String get nicotinePouchesMilestone7Title => 'A saúde bucal melhora';
+  String get nicotinePouchesMilestone7Title =>
+      'Uma semana: a abstinência está diminuindo';
 
   @override
   String get nicotinePouchesMilestone7Description =>
-      'Suas gengivas estão comemorando!As bolsas de nicotina podem causar irritação e recessão nas gengivas. Depois de uma semana, o fluxo sanguíneo para as gengivas se normaliza e a cicatrização começa.';
+      'Uma semana sem bolsas de nicotina coloca você depois do pico típico da abstinência de nicotina, por volta do terceiro dia. Os sintomas costumam diminuir ao longo das 3–4 semanas seguintes — você já está na descida.';
 
   @override
-  String get nicotinePouchesMilestone14Title => 'Melhoria da circulação';
+  String get nicotinePouchesMilestone14Title =>
+      'Duas semanas: a abstinência continua diminuindo';
 
   @override
   String get nicotinePouchesMilestone14Description =>
-      'Seus vasos sanguíneos estão dançando alegremente!A nicotina contrai os vasos sanguíneos, mas duas semanas livres e sua circulação melhora significativamente. Olá, mãos e pés mais quentes!';
+      'Duas semanas sem bolsas de nicotina colocam você bem dentro da fase de queda de 3–4 semanas que costuma vir depois do pico do terceiro dia. A curva segue descendo — recuperação real em andamento.';
+
+  @override
+  String get nicotinePouchesReferenceDay7 =>
+      'Uma semana: a abstinência está diminuindo\n\nFonte: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nA revisão relata que a abstinência após o uso crônico de produtos com nicotina começa 4–24 horas depois de parar, atinge o pico por volta do 3º dia e depois diminui ao longo das 3–4 semanas seguintes.\n\nUma vitória real de uma semana\nAo completar uma semana, você já está alguns dias além do pico típico e entrou na fase de queda. A revisão também observa que a intensidade da abstinência varia conforme a forma de consumo da nicotina, então a intensidade difere entre as pessoas.\n\nUma semana sem bolsas significa que a parte mais íngreme da curva típica de abstinência inicial já ficou para trás.';
+
+  @override
+  String get nicotinePouchesReferenceDay14 =>
+      'Duas semanas: a abstinência continua diminuindo\n\nFonte: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nA revisão situa o pico típico da abstinência de nicotina por volta do 3º dia e afirma que os sintomas diminuem ao longo das 3–4 semanas seguintes.\n\nBem dentro da fase de queda\nCom duas semanas, você já está bem dentro dessa fase após o pico. A revisão aborda o uso crônico de produtos com nicotina e observa que a intensidade da abstinência varia conforme a forma de consumo.\n\nDuas semanas sem bolsas são um marco concreto na curva descendente: a abstinência típica continua diminuindo.';
 
   @override
   String get nicotinePouchesMilestone30Title =>

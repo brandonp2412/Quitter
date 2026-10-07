@@ -1955,21 +1955,29 @@
   "@nicotinePouchesReferenceDay3": {
     "description": "Nicotine pouches day 3 detailed reference"
   },
-  "nicotinePouchesMilestone7Title": "تتحسن صحة الفم",
+  "nicotinePouchesMilestone7Title": "أسبوع واحد: أعراض الانسحاب تخف",
   "@nicotinePouchesMilestone7Title": {
     "description": "Nicotine pouches milestone day 7 title"
   },
-  "nicotinePouchesMilestone7Description": "لثتك تقيم احتفالاً! أكياس النيكوتين يمكن أن تسبب تهيج اللثة وانحسارها. بعد أسبوع، يعود تدفق الدم إلى لثتك إلى طبيعته ويبدأ الشفاء.",
+  "nicotinePouchesMilestone7Description": "أسبوع كامل بلا أكياس نيكوتين يضعك بعد الذروة المعتادة لأعراض انسحاب النيكوتين في اليوم الثالث. عادةً ما تتراجع الأعراض خلال الأسابيع 3–4 التالية — وأنت بالفعل على المنحدر.",
   "@nicotinePouchesMilestone7Description": {
     "description": "Nicotine pouches milestone day 7 description"
   },
-  "nicotinePouchesMilestone14Title": "تعزيز الدورة الدموية",
+  "nicotinePouchesMilestone14Title": "أسبوعان: أعراض الانسحاب تواصل التراجع",
   "@nicotinePouchesMilestone14Title": {
     "description": "Nicotine pouches milestone day 14 title"
   },
-  "nicotinePouchesMilestone14Description": "الأوعية الدموية الخاصة بك تقوم برقصة سعيدة! يعمل النيكوتين على تضييق الأوعية الدموية، ولكن لمدة أسبوعين تتحسن الدورة الدموية لديك بشكل ملحوظ. مرحبًا، أيدي وأقدام أكثر دفئًا!",
+  "nicotinePouchesMilestone14Description": "أسبوعان بلا أكياس نيكوتين يضعانك بوضوح داخل فترة التراجع الممتدة 3–4 أسابيع التي تلي عادةً ذروة اليوم الثالث. المنحنى ما زال ينخفض — تعافٍ حقيقي قيد التقدم.",
   "@nicotinePouchesMilestone14Description": {
     "description": "Nicotine pouches milestone day 14 description"
+  },
+  "nicotinePouchesReferenceDay7": "أسبوع واحد: أعراض الانسحاب تخف\n\nالمصدر: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nتذكر المراجعة أن الانسحاب بعد الاستخدام المزمن للمنتجات المحتوية على النيكوتين يبدأ خلال 4–24 ساعة من التوقف، ويبلغ ذروته قرابة اليوم الثالث، ثم تتراجع الأعراض خلال الأسابيع 3–4 التالية.\n\nإنجاز حقيقي بعد أسبوع\nعند مرور أسبوع تكون قد تجاوزت الذروة المعتادة بعدة أيام ودخلت مرحلة التراجع. وتشير المراجعة أيضًا إلى أن شدة الانسحاب تختلف باختلاف طريقة تناول النيكوتين، لذلك تختلف شدة الأعراض بين الأشخاص.\n\nأسبوع كامل بلا أكياس نيكوتين يعني أن أشد جزء من منحنى الانسحاب المبكر المعتاد أصبح خلفك.",
+  "@nicotinePouchesReferenceDay7": {
+    "description": "Nicotine pouches day 7 detailed reference"
+  },
+  "nicotinePouchesReferenceDay14": "أسبوعان: أعراض الانسحاب تواصل التراجع\n\nالمصدر: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nتضع المراجعة الذروة المعتادة لانسحاب النيكوتين قرابة اليوم الثالث وتذكر أن الأعراض تتراجع خلال الأسابيع 3–4 التالية.\n\nفي قلب مرحلة التراجع\nبعد أسبوعين تكون قد دخلت بوضوح في نافذة التراجع التي تلي الذروة. وتتناول المراجعة الاستخدام المزمن للمنتجات المحتوية على النيكوتين وتذكر أن شدة الانسحاب تختلف حسب طريقة تناول النيكوتين.\n\nأسبوعان بلا أكياس نيكوتين محطة واضحة على المنحنى الهابط: أعراض الانسحاب المعتادة تواصل التراجع.",
+  "@nicotinePouchesReferenceDay14": {
+    "description": "Nicotine pouches day 14 detailed reference"
   },
   "nicotinePouchesMilestone30Title": "تطبيع الاستجابة للإجهاد",
   "@nicotinePouchesMilestone30Title": {

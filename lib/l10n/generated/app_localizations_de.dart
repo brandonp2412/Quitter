@@ -2427,18 +2427,28 @@ class AppLocalizationsDe extends AppLocalizations {
       'Tag drei: Höhepunkt des Nikotinentzugs\n\nQuelle: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nDie Übersichtsarbeit verortet den typischen Höhepunkt des Nikotinentzugs etwa am dritten Tag nach dem Ende chronischen Nikotinkonsums.\n\nDie Kurve ab hier\nNach dem Höhepunkt klingen die Symptome üblicherweise über die folgenden 3–4 Wochen ab. Die Übersichtsarbeit weist außerdem darauf hin, dass die Entzugsstärke davon abhängt, wie Nikotin konsumiert wurde; die genaue Intensität ist daher individuell.\n\nTag drei ist ein hart erarbeiteter Meilenstein: Sie haben den Gipfel der typischen frühen Entzugskurve erreicht.';
 
   @override
-  String get nicotinePouchesMilestone7Title => 'Mundgesundheit verbessert';
+  String get nicotinePouchesMilestone7Title =>
+      'Eine Woche: Der Entzug lässt nach';
 
   @override
   String get nicotinePouchesMilestone7Description =>
-      'Dein Zahnfleisch wirft eine Feier! Nikotinbeutel können Zahnfleischreizungen und Rezessionen verursachen. Nach einer Woche normalisiert sich der Blutfluss zu Ihrem Zahnfleisch und die Heilung beginnt.';
+      'Eine Woche ohne Nikotinbeutel bringt dich über den typischen Nikotinentzugs-Gipfel um Tag drei hinaus. Die Symptome klingen meist in den folgenden 3–4 Wochen ab – du bist bereits auf dem absteigenden Ast.';
 
   @override
-  String get nicotinePouchesMilestone14Title => 'Verbesserung der Zirkulation';
+  String get nicotinePouchesMilestone14Title =>
+      'Zwei Wochen: Der Entzug lässt weiter nach';
 
   @override
   String get nicotinePouchesMilestone14Description =>
-      'Deine Blutgefäße tanzen fröhlich! Nikotin verengt die Blutgefäße, aber zwei Wochen frei und Ihre Durchblutung ist deutlich verbessert. Hallo, wärmere Hände und Füße!';
+      'Zwei Wochen ohne Nikotinbeutel bringen dich mitten in die 3–4-wöchige Abklingphase nach dem typischen Gipfel um Tag drei. Die Kurve zeigt weiter nach unten – echte Erholung in Bewegung.';
+
+  @override
+  String get nicotinePouchesReferenceDay7 =>
+      'Eine Woche: Der Entzug lässt nach\n\nQuelle: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nDie Übersichtsarbeit berichtet, dass der Entzug nach chronischem Gebrauch nikotinhaltiger Produkte 4–24 Stunden nach dem Absetzen beginnt, ungefähr am dritten Tag seinen Höhepunkt erreicht und dann über die folgenden 3–4 Wochen abklingt.\n\nEin echter Wochenerfolg\nNach einer Woche liegst du mehrere Tage hinter dem typischen Höhepunkt und bist in der Abklingphase. Die Arbeit weist außerdem darauf hin, dass die Stärke des Entzugs davon abhängt, wie Nikotin konsumiert wurde; die Intensität unterscheidet sich also von Person zu Person.\n\nEine Woche ohne Nikotinbeutel bedeutet: Der steilste Teil der typischen frühen Entzugskurve liegt hinter dir.';
+
+  @override
+  String get nicotinePouchesReferenceDay14 =>
+      'Zwei Wochen: Der Entzug lässt weiter nach\n\nQuelle: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nDie Übersichtsarbeit setzt den typischen Höhepunkt des Nikotinentzugs ungefähr auf Tag drei und beschreibt ein Abklingen der Symptome über die folgenden 3–4 Wochen.\n\nMitten in der Abklingphase\nNach zwei Wochen bist du weit in diesem Zeitraum nach dem Höhepunkt angekommen. Die Arbeit behandelt chronischen Gebrauch nikotinhaltiger Produkte und weist darauf hin, dass die Stärke des Entzugs je nach Konsumform variiert.\n\nZwei Wochen ohne Nikotinbeutel sind ein klarer Punkt auf der abfallenden Kurve: Der typische Entzug lässt weiter nach.';
 
   @override
   String get nicotinePouchesMilestone30Title =>

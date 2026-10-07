@@ -1952,21 +1952,29 @@
   "@nicotinePouchesReferenceDay3": {
     "description": "Nicotine pouches day 3 detailed reference"
   },
-  "nicotinePouchesMilestone7Title": "Здоровье полости рта улучшается",
+  "nicotinePouchesMilestone7Title": "Одна неделя: синдром отмены ослабевает",
   "@nicotinePouchesMilestone7Title": {
     "description": "Nicotine pouches milestone day 7 title"
   },
-  "nicotinePouchesMilestone7Description": "Ваши десны устраивают праздник! Никотиновые пакетики могут вызвать раздражение и рецессию десен. Через неделю приток крови к деснам нормализуется и начинается заживление.",
+  "nicotinePouchesMilestone7Description": "Неделя без никотиновых пакетиков означает, что типичный пик никотиновой отмены примерно на третий день уже позади. Симптомы обычно ослабевают в течение следующих 3–4 недель — вы уже на нисходящей части кривой.",
   "@nicotinePouchesMilestone7Description": {
     "description": "Nicotine pouches milestone day 7 description"
   },
-  "nicotinePouchesMilestone14Title": "Улучшение кровообращения",
+  "nicotinePouchesMilestone14Title": "Две недели: симптомы продолжают ослабевать",
   "@nicotinePouchesMilestone14Title": {
     "description": "Nicotine pouches milestone day 14 title"
   },
-  "nicotinePouchesMilestone14Description": "Ваши кровеносные сосуды танцуют счастливый танец! Никотин сужает кровеносные сосуды, но через две недели ваше кровообращение значительно улучшится. Привет, потеплее рукам и ногам!",
+  "nicotinePouchesMilestone14Description": "Две недели без никотиновых пакетиков — это уже заметная часть 3–4-недельного периода снижения симптомов после типичного пика примерно на третий день. Кривая продолжает идти вниз — восстановление идёт.",
   "@nicotinePouchesMilestone14Description": {
     "description": "Nicotine pouches milestone day 14 description"
+  },
+  "nicotinePouchesReferenceDay7": "Одна неделя: синдром отмены ослабевает\n\nИсточник: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nОбзор сообщает, что синдром отмены после хронического употребления никотинсодержащих продуктов начинается через 4–24 часа после прекращения, достигает пика примерно на 3-й день, а затем симптомы ослабевают в течение следующих 3–4 недель.\n\nНастоящая победа за неделю\nЧерез неделю вы уже на несколько дней дальше типичного пика и находитесь в фазе снижения симптомов. Обзор также отмечает, что выраженность отмены зависит от способа употребления никотина, поэтому у разных людей она различается.\n\nНеделя без никотиновых пакетиков означает, что самый крутой участок типичной ранней кривой отмены уже позади.",
+  "@nicotinePouchesReferenceDay7": {
+    "description": "Nicotine pouches day 7 detailed reference"
+  },
+  "nicotinePouchesReferenceDay14": "Две недели: симптомы продолжают ослабевать\n\nИсточник: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nОбзор помещает типичный пик никотиновой отмены примерно на 3-й день и сообщает, что симптомы ослабевают в течение следующих 3–4 недель.\n\nУже глубоко в фазе снижения\nЧерез две недели вы уже далеко продвинулись в периоде снижения после пика. Обзор касается хронического употребления никотинсодержащих продуктов и отмечает, что выраженность отмены зависит от способа употребления никотина.\n\nДве недели без пакетиков — конкретная точка на нисходящей кривой: типичный синдром отмены продолжает ослабевать.",
+  "@nicotinePouchesReferenceDay14": {
+    "description": "Nicotine pouches day 14 detailed reference"
   },
   "nicotinePouchesMilestone30Title": "Реакция на стресс нормализуется",
   "@nicotinePouchesMilestone30Title": {

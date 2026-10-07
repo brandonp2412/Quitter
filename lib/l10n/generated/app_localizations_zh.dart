@@ -2259,18 +2259,26 @@ class AppLocalizationsZh extends AppLocalizations {
       '第3天：尼古丁戒断高峰\n\n来源：McLaughlin、Dani 与 De Biasi — Nicotine Withdrawal\n\n该综述把长期使用尼古丁停止后的典型戒断高峰放在大约第3天。\n\n从这里开始的曲线\n高峰之后，症状通常会在接下来的3–4周逐渐减轻。综述还指出，戒断严重程度会随尼古丁摄入方式而变化，因此具体强度因人而异。\n\n第3天是您靠坚持赢来的里程碑：您已经到达典型早期戒断曲线的顶点。';
 
   @override
-  String get nicotinePouchesMilestone7Title => '口腔健康改善';
+  String get nicotinePouchesMilestone7Title => '一周：戒断症状正在缓解';
 
   @override
   String get nicotinePouchesMilestone7Description =>
-      '停用尼古丁袋一周后，牙龈血流开始恢复正常，愈合也随之开始。尼古丁袋可能导致牙龈刺激和萎缩。';
+      '停用尼古丁袋一周，意味着你已经越过通常在第3天左右出现的尼古丁戒断高峰。症状通常会在随后3–4周逐渐减轻——你已经走上下坡路。';
 
   @override
-  String get nicotinePouchesMilestone14Title => '血液循环增强';
+  String get nicotinePouchesMilestone14Title => '两周：戒断继续缓解';
 
   @override
   String get nicotinePouchesMilestone14Description =>
-      '血管也在恢复。尼古丁会收缩血管；停用两周后，血液循环已明显改善，手脚也会逐渐暖和起来。';
+      '停用尼古丁袋两周，意味着你已经深入高峰后通常持续3–4周的缓解阶段。曲线仍在向下——真正的恢复正在进行。';
+
+  @override
+  String get nicotinePouchesReferenceDay7 =>
+      '一周：戒断症状正在缓解\n\n来源：McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\n这篇综述报告，长期使用含尼古丁产品后停止使用，戒断症状可在4–24小时内出现，通常在第3天左右达到高峰，随后在3–4周内逐渐减轻。\n\n实打实的一周成果\n到一周时，你已经比典型高峰多走了好几天，并进入缓解阶段。综述还指出，戒断强度会因尼古丁的摄入方式不同而有所差异，因此每个人的体验强度并不相同。\n\n停用尼古丁袋一周，意味着典型早期戒断曲线上最陡的一段已经在你身后。';
+
+  @override
+  String get nicotinePouchesReferenceDay14 =>
+      '两周：戒断继续缓解\n\n来源：McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\n这篇综述将尼古丁戒断的典型高峰放在第3天左右，并指出症状会在随后3–4周逐渐减轻。\n\n深入缓解阶段\n到两周时，你已经深入高峰后的缓解窗口。综述涵盖长期使用含尼古丁产品，并指出戒断强度会随尼古丁摄入方式不同而变化。\n\n停用尼古丁袋两周，是下降曲线上的一个明确节点：典型戒断症状仍在继续减轻。';
 
   @override
   String get nicotinePouchesMilestone30Title => '应激反应正常化';
@@ -5757,18 +5765,26 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
       '第3天：尼古丁戒斷高峰\n\n來源：McLaughlin、Dani 與 De Biasi — Nicotine Withdrawal\n\n該綜述把長期使用尼古丁停止後的典型戒斷高峰放在大約第3天。\n\n從這裡開始的曲線\n高峰之後，症狀通常會在接下來的3–4週逐漸減輕。綜述還指出，戒斷嚴重程度會隨尼古丁攝取方式而變化，因此具體強度因人而異。\n\n第3天是您靠堅持贏來的里程碑：您已經到達典型早期戒斷曲線的頂點。';
 
   @override
-  String get nicotinePouchesMilestone7Title => '口腔健康改善';
+  String get nicotinePouchesMilestone7Title => '一週：戒斷症狀正在緩解';
 
   @override
   String get nicotinePouchesMilestone7Description =>
-      '停用尼古丁袋一周後，牙齦血流開始恢復正常，愈合也隨之開始。尼古丁袋可能導致牙齦刺激和萎縮。';
+      '停用尼古丁袋一週，代表你已經越過通常在第3天左右出現的尼古丁戒斷高峰。症狀通常會在隨後3–4週逐漸減輕——你已經走上下坡路。';
 
   @override
-  String get nicotinePouchesMilestone14Title => '血液循環增強';
+  String get nicotinePouchesMilestone14Title => '兩週：戒斷持續緩解';
 
   @override
   String get nicotinePouchesMilestone14Description =>
-      '血管也在恢復。尼古丁會收縮血管；停用兩周後，血液循環已明顯改善，手腳也會逐漸暖和起來。';
+      '停用尼古丁袋兩週，代表你已經深入高峰後通常持續3–4週的緩解階段。曲線仍在向下——真正的恢復正在進行。';
+
+  @override
+  String get nicotinePouchesReferenceDay7 =>
+      '一週：戒斷症狀正在緩解\n\n來源：McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\n這篇綜述指出，長期使用含尼古丁產品後停止使用，戒斷症狀可在4–24小時內出現，通常在第3天左右達到高峰，之後在3–4週內逐漸減輕。\n\n實實在在的一週成果\n到一週時，你已經比典型高峰多走了好幾天，並進入緩解階段。綜述也指出，戒斷強度會因尼古丁攝取方式不同而有所差異，因此每個人的強度並不相同。\n\n停用尼古丁袋一週，代表典型早期戒斷曲線最陡的一段已經在你身後。';
+
+  @override
+  String get nicotinePouchesReferenceDay14 =>
+      '兩週：戒斷持續緩解\n\n來源：McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\n這篇綜述將尼古丁戒斷的典型高峰放在第3天左右，並指出症狀會在隨後3–4週逐漸減輕。\n\n深入緩解階段\n到兩週時，你已經深入高峰後的緩解窗口。綜述涵蓋長期使用含尼古丁產品，並指出戒斷強度會隨尼古丁攝取方式不同而變化。\n\n停用尼古丁袋兩週，是下降曲線上的一個明確節點：典型戒斷症狀仍在持續減輕。';
 
   @override
   String get nicotinePouchesMilestone30Title => '應激反應正常化';

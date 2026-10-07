@@ -1955,21 +1955,29 @@
   "@nicotinePouchesReferenceDay3": {
     "description": "Nicotine pouches day 3 detailed reference"
   },
-  "nicotinePouchesMilestone7Title": "Kesehatan Mulut Meningkat",
+  "nicotinePouchesMilestone7Title": "Satu Minggu: Gejala Putus Nikotin Mereda",
   "@nicotinePouchesMilestone7Title": {
     "description": "Nicotine pouches milestone day 7 title"
   },
-  "nicotinePouchesMilestone7Description": "Gusimu sedang mengadakan perayaan! Kantong nikotin dapat menyebabkan iritasi dan resesi gusi. Setelah seminggu, aliran darah ke gusi Anda menjadi normal dan penyembuhan dimulai.",
+  "nicotinePouchesMilestone7Description": "Satu minggu tanpa kantong nikotin menempatkanmu melewati puncak gejala putus nikotin yang biasanya terjadi sekitar hari ketiga. Gejala umumnya mereda selama 3–4 minggu berikutnya — kamu sudah berada di sisi menurun.",
   "@nicotinePouchesMilestone7Description": {
     "description": "Nicotine pouches milestone day 7 description"
   },
-  "nicotinePouchesMilestone14Title": "Peningkatan Sirkulasi",
+  "nicotinePouchesMilestone14Title": "Dua Minggu: Gejala Terus Mereda",
   "@nicotinePouchesMilestone14Title": {
     "description": "Nicotine pouches milestone day 14 title"
   },
-  "nicotinePouchesMilestone14Description": "Pembuluh darahmu menari gembira! Nikotin menyempitkan pembuluh darah, tetapi dua minggu bebas dan sirkulasi Anda meningkat secara signifikan. Halo, tangan dan kaki yang lebih hangat!",
+  "nicotinePouchesMilestone14Description": "Dua minggu tanpa kantong nikotin menempatkanmu jauh di dalam fase penurunan 3–4 minggu yang biasanya mengikuti puncak hari ketiga. Kurvanya masih turun — pemulihan nyata sedang berjalan.",
   "@nicotinePouchesMilestone14Description": {
     "description": "Nicotine pouches milestone day 14 description"
+  },
+  "nicotinePouchesReferenceDay7": "Satu Minggu: Gejala Putus Nikotin Mereda\n\nSumber: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nTinjauan tersebut melaporkan bahwa gejala putus setelah penggunaan kronis produk yang mengandung nikotin mulai 4–24 jam setelah berhenti, mencapai puncak sekitar hari ke-3, lalu mereda selama 3–4 minggu berikutnya.\n\nKemenangan nyata satu minggu\nPada satu minggu, kamu sudah beberapa hari melewati puncak yang umum dan masuk ke fase penurunan. Tinjauan itu juga mencatat bahwa tingkat keparahan putus nikotin berbeda menurut cara nikotin dikonsumsi, sehingga intensitasnya berbeda antarorang.\n\nSatu minggu tanpa kantong nikotin berarti bagian paling curam dari kurva putus nikotin awal yang umum sudah berada di belakangmu.",
+  "@nicotinePouchesReferenceDay7": {
+    "description": "Nicotine pouches day 7 detailed reference"
+  },
+  "nicotinePouchesReferenceDay14": "Dua Minggu: Gejala Terus Mereda\n\nSumber: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nTinjauan tersebut menempatkan puncak umum putus nikotin sekitar hari ke-3 dan menyatakan bahwa gejala mereda selama 3–4 minggu berikutnya.\n\nJauh masuk fase penurunan\nPada dua minggu, kamu sudah jauh masuk ke jendela penurunan setelah puncak. Tinjauan ini membahas penggunaan kronis produk yang mengandung nikotin dan mencatat bahwa keparahan putus nikotin berbeda menurut cara nikotin dikonsumsi.\n\nDua minggu tanpa kantong nikotin adalah titik nyata pada kurva menurun: sindrom putus nikotin yang umum terus mereda.",
+  "@nicotinePouchesReferenceDay14": {
+    "description": "Nicotine pouches day 14 detailed reference"
   },
   "nicotinePouchesMilestone30Title": "Respon Stres Menjadi Normal",
   "@nicotinePouchesMilestone30Title": {

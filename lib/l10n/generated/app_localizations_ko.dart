@@ -2306,18 +2306,26 @@ class AppLocalizationsKo extends AppLocalizations {
       '3일째: 니코틴 금단의 정점\n\n출처: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\n이 리뷰는 만성적인 니코틴 사용을 중단한 뒤 전형적인 금단 정점을 약 3일째로 봅니다.\n\n여기서부터의 곡선\n정점 이후 증상은 보통 다음 3~4주 동안 점차 줄어듭니다. 리뷰는 금단 강도 역시 니코틴 섭취 방식에 따라 달라진다고 설명하므로 정확한 강도에는 개인차가 있습니다.\n\n3일째는 힘들게 얻은 이정표입니다. 전형적인 초기 금단 곡선의 꼭대기에 도달했습니다.';
 
   @override
-  String get nicotinePouchesMilestone7Title => '구강 건강이 향상됩니다';
+  String get nicotinePouchesMilestone7Title => '1주: 금단 증상이 완화 중';
 
   @override
   String get nicotinePouchesMilestone7Description =>
-      '당신의 잇몸이 축하를 보내고 있습니다! 니코틴 파우치는 잇몸 염증과 잇몸 퇴축을 유발할 수 있습니다. 일주일이 지나면 잇몸으로의 혈류가 정상화되고 치유가 시작됩니다.';
+      '니코틴 파우치 없이 1주를 보내면 보통 3일째쯤 오는 니코틴 금단의 정점을 지난 상태입니다. 증상은 이후 3–4주에 걸쳐 대체로 줄어듭니다. 이미 내리막에 들어섰습니다.';
 
   @override
-  String get nicotinePouchesMilestone14Title => '순환 증진';
+  String get nicotinePouchesMilestone14Title => '2주: 금단 증상이 계속 완화 중';
 
   @override
   String get nicotinePouchesMilestone14Description =>
-      '당신의 혈관이 행복한 춤을 추고 있습니다! 니코틴은 혈관을 수축하지만 2주 동안 무료로 사용하면 혈액 순환이 크게 개선됩니다. 안녕하세요, 따뜻한 손과 발!';
+      '니코틴 파우치 없이 2주를 보내면 보통 3일째 정점 뒤에 이어지는 3–4주의 완화 구간에 한참 들어와 있습니다. 곡선은 계속 내려가고 있습니다. 실제 회복이 진행 중입니다.';
+
+  @override
+  String get nicotinePouchesReferenceDay7 =>
+      '1주: 금단 증상이 완화 중\n\n출처: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\n이 리뷰는 니코틴 함유 제품을 만성적으로 사용하다 중단하면 4–24시간 뒤 금단이 시작되고, 약 3일째에 정점에 도달한 뒤 다음 3–4주 동안 증상이 줄어든다고 보고합니다.\n\n확실한 1주 성과\n1주가 되면 보통의 정점에서 며칠 지난 상태로 완화 단계에 들어갑니다. 또한 금단의 강도는 니코틴을 어떤 방식으로 섭취했는지에 따라 달라져 사람마다 다를 수 있다고 설명합니다.\n\n니코틴 파우치 없이 1주는 일반적인 초기 금단 곡선의 가장 가파른 구간을 이미 지났다는 뜻입니다.';
+
+  @override
+  String get nicotinePouchesReferenceDay14 =>
+      '2주: 금단 증상이 계속 완화 중\n\n출처: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\n이 리뷰는 니코틴 금단의 일반적인 정점을 약 3일째로 보고, 이후 3–4주 동안 증상이 줄어든다고 설명합니다.\n\n완화 구간 한가운데\n2주가 되면 정점 이후의 완화 구간에 충분히 들어와 있습니다. 이 리뷰는 니코틴 함유 제품의 만성 사용을 다루며, 금단 강도는 니코틴 섭취 방식에 따라 달라진다고 설명합니다.\n\n니코틴 파우치 없이 2주는 내려가는 곡선 위의 분명한 지점입니다. 일반적인 금단 증상은 계속 완화되고 있습니다.';
 
   @override
   String get nicotinePouchesMilestone30Title => '스트레스 반응이 정상화됩니다';

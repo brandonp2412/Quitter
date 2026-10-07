@@ -2435,18 +2435,27 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get nicotinePouchesMilestone7Title =>
-      'Poprawia stan zdrowia jamy ustnej';
+      'Tydzień: odstawienie łagodnieje';
 
   @override
   String get nicotinePouchesMilestone7Description =>
-      'Twoje dziąsła rzucają hołd! Nikotynowe saszetki mogą powodować podrażnienie i recesja gumy. Po tygodniu, przepływ krwi do dziąseł normalizuje i gojenie początków.';
+      'Tydzień bez saszetek nikotynowych oznacza, że typowy szczyt odstawienia około trzeciego dnia jest już za Tobą. Objawy zwykle słabną przez kolejne 3–4 tygodnie — jesteś już na opadającej części krzywej.';
 
   @override
-  String get nicotinePouchesMilestone14Title => 'Zwiększenie cyrkulacji';
+  String get nicotinePouchesMilestone14Title =>
+      'Dwa tygodnie: objawy dalej słabną';
 
   @override
   String get nicotinePouchesMilestone14Description =>
-      'Twoje naczynia krwionośne robią szczęśliwy taniec! Nikotyna kontingens krwi vessels, ale dwa tygodnie za darmo i krążenie jest znacznie poprawione. Hello, cieplejsze ręce i nogi!';
+      'Dwa tygodnie bez saszetek nikotynowych oznaczają, że jesteś już głęboko w 3–4-tygodniowym okresie wygaszania po typowym szczycie około trzeciego dnia. Krzywa nadal opada — to realny proces zdrowienia.';
+
+  @override
+  String get nicotinePouchesReferenceDay7 =>
+      'Tydzień: odstawienie łagodnieje\n\nŹródło: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nPrzegląd podaje, że odstawienie po przewlekłym używaniu produktów zawierających nikotynę zaczyna się 4–24 godziny po zaprzestaniu, osiąga szczyt około 3. dnia, a następnie objawy słabną przez kolejne 3–4 tygodnie.\n\nPrawdziwe zwycięstwo po tygodniu\nPo tygodniu jesteś już kilka dni za typowym szczytem i w fazie wygaszania objawów. Przegląd zaznacza też, że nasilenie odstawienia zależy od sposobu przyjmowania nikotyny, więc różni się między osobami.\n\nTydzień bez saszetek oznacza, że najbardziej stromy odcinek typowej wczesnej krzywej odstawienia jest już za Tobą.';
+
+  @override
+  String get nicotinePouchesReferenceDay14 =>
+      'Dwa tygodnie: objawy dalej słabną\n\nŹródło: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nPrzegląd umieszcza typowy szczyt odstawienia nikotyny około 3. dnia i podaje, że objawy słabną przez kolejne 3–4 tygodnie.\n\nGłęboko w fazie wygaszania\nPo dwóch tygodniach jesteś już wyraźnie w okresie wygaszania po szczycie. Przegląd dotyczy przewlekłego używania produktów zawierających nikotynę i zaznacza, że nasilenie odstawienia różni się zależnie od sposobu przyjmowania nikotyny.\n\nDwa tygodnie bez saszetek to konkretny punkt na opadającej krzywej: typowe objawy odstawienia nadal słabną.';
 
   @override
   String get nicotinePouchesMilestone30Title =>

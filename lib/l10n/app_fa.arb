@@ -1955,21 +1955,29 @@
   "@nicotinePouchesReferenceDay3": {
     "description": "Nicotine pouches day 3 detailed reference"
   },
-  "nicotinePouchesMilestone7Title": "بهبود سلامت دهان",
+  "nicotinePouchesMilestone7Title": "یک هفته: علائم ترک رو به کاهش است",
   "@nicotinePouchesMilestone7Title": {
     "description": "Nicotine pouches milestone day 7 title"
   },
-  "nicotinePouchesMilestone7Description": "لثه‌هایتان جشن گرفته‌اند! کیسه‌های نیکوتین می‌توانند باعث تحریک و پس‌روی لثه شوند. پس از یک هفته، جریان خون لثه طبیعی می‌شود و ترمیم آغاز می‌گردد.",
+  "nicotinePouchesMilestone7Description": "یک هفته بدون کیسه نیکوتین یعنی از اوج معمول ترک نیکوتین در حدود روز سوم عبور کرده‌اید. علائم معمولاً طی ۳–۴ هفته بعد کاهش می‌یابند — شما همین حالا در سراشیبی هستید.",
   "@nicotinePouchesMilestone7Description": {
     "description": "Nicotine pouches milestone day 7 description"
   },
-  "nicotinePouchesMilestone14Title": "بهبود گردش خون",
+  "nicotinePouchesMilestone14Title": "دو هفته: علائم ترک همچنان کاهش می‌یابد",
   "@nicotinePouchesMilestone14Title": {
     "description": "Nicotine pouches milestone day 14 title"
   },
-  "nicotinePouchesMilestone14Description": "رگ‌های خونی‌تان خوشحال‌اند! نیکوتین رگ‌ها را تنگ می‌کند، اما پس از دو هفته بدون آن، گردش خون به‌طور قابل‌توجهی بهتر است. سلام به دست‌وپای گرم‌تر!",
+  "nicotinePouchesMilestone14Description": "دو هفته بدون کیسه نیکوتین شما را کاملاً وارد دوره کاهش ۳–۴ هفته‌ای پس از اوج معمول روز سوم می‌کند. منحنی هنوز رو به پایین است — یعنی بهبود واقعی در جریان است.",
   "@nicotinePouchesMilestone14Description": {
     "description": "Nicotine pouches milestone day 14 description"
+  },
+  "nicotinePouchesReferenceDay7": "یک هفته: علائم ترک رو به کاهش است\n\nمنبع: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nاین مرور گزارش می‌کند که ترک پس از مصرف مزمن محصولات حاوی نیکوتین ۴–۲۴ ساعت پس از قطع شروع می‌شود، حدود روز سوم به اوج می‌رسد و سپس طی ۳–۴ هفته بعد کاهش می‌یابد.\n\nیک برد واقعی در یک هفته\nدر پایان هفته اول، چند روز از اوج معمول گذشته و وارد مرحله کاهش شده‌اید. مرور همچنین اشاره می‌کند که شدت ترک به روش مصرف نیکوتین بستگی دارد، بنابراین شدت علائم بین افراد متفاوت است.\n\nیک هفته بدون کیسه نیکوتین یعنی شیب‌دارترین بخش منحنی معمول ترک اولیه پشت سر شماست.",
+  "@nicotinePouchesReferenceDay7": {
+    "description": "Nicotine pouches day 7 detailed reference"
+  },
+  "nicotinePouchesReferenceDay14": "دو هفته: علائم ترک همچنان کاهش می‌یابد\n\nمنبع: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nاین مرور اوج معمول ترک نیکوتین را حدود روز سوم قرار می‌دهد و می‌گوید علائم طی ۳–۴ هفته بعد کاهش می‌یابند.\n\nدر دل مرحله کاهش\nدر دو هفته، به‌خوبی وارد بازه کاهش پس از اوج شده‌اید. مرور مصرف مزمن محصولات حاوی نیکوتین را بررسی می‌کند و اشاره دارد که شدت ترک با روش مصرف نیکوتین تفاوت دارد.\n\nدو هفته بدون کیسه نیکوتین یک نقطه روشن روی منحنی نزولی است: علائم معمول ترک همچنان رو به کاهش‌اند.",
+  "@nicotinePouchesReferenceDay14": {
+    "description": "Nicotine pouches day 14 detailed reference"
   },
   "nicotinePouchesMilestone30Title": "طبیعی‌شدن پاسخ به استرس",
   "@nicotinePouchesMilestone30Title": {

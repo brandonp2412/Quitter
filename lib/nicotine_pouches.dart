@@ -50,6 +50,44 @@ After the peak, symptoms usually taper over the following 3–4 weeks. The revie
 
 Day three is a hard-earned milestone: you've reached the top of the typical early withdrawal curve.''',
       ),
+      7: QuitMilestone(
+        day: 7,
+        title: l10n.nicotinePouchesMilestone7Title,
+        description: l10n.nicotinePouchesMilestone7Description,
+        reference: sourceName,
+        link: sourceUrl,
+        referenceDate: 'October 2026',
+        localizedReferenceContent: l10n.nicotinePouchesReferenceDay7,
+        referenceContent: '''One Week: Withdrawal Is Easing
+
+Source: McLaughlin, Dani & De Biasi — Nicotine Withdrawal
+
+The review reports that withdrawal from chronic use of nicotine-containing products begins 4–24 hours after stopping, peaks around day 3, then tapers over the following 3–4 weeks.
+
+A real one-week win
+At one week, you're several days past the typical peak and into the taper phase. The review also notes that withdrawal severity varies with how nicotine was consumed, so intensity differs between people.
+
+One week pouch-free means the steepest part of the typical early withdrawal curve is behind you.''',
+      ),
+      14: QuitMilestone(
+        day: 14,
+        title: l10n.nicotinePouchesMilestone14Title,
+        description: l10n.nicotinePouchesMilestone14Description,
+        reference: sourceName,
+        link: sourceUrl,
+        referenceDate: 'October 2026',
+        localizedReferenceContent: l10n.nicotinePouchesReferenceDay14,
+        referenceContent: '''Two Weeks: Withdrawal Keeps Easing
+
+Source: McLaughlin, Dani & De Biasi — Nicotine Withdrawal
+
+The review places the typical nicotine-withdrawal peak around day 3 and says symptoms taper over the following 3–4 weeks.
+
+Well into the taper
+At two weeks, you're well into that post-peak taper window. The review covers chronic use of nicotine-containing products and notes that withdrawal severity varies with how nicotine was consumed.
+
+Two weeks pouch-free is a concrete checkpoint on the downward curve: the typical withdrawal syndrome is continuing to ease.''',
+      ),
     };
   }
 
