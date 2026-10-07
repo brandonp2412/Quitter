@@ -749,11 +749,12 @@ class AppLocalizationsEs extends AppLocalizations {
       'En un estudio de 8 semanas con personas mayores que llevaban mucho tiempo usando hipnóticos benzodiacepínicos, quienes completaron la retirada gradual mejoraron en memoria inmediata, atención, lenguaje y estabilidad corporal. Es una recuperación diurna medible.';
 
   @override
-  String get benzoMilestone90Title => 'Se estabiliza la salud física';
+  String get benzoMilestone90Title =>
+      'Tres meses: pensamiento más rápido, menos sedación';
 
   @override
   String get benzoMilestone90Description =>
-      'Alrededor de los 3 meses, muchos síntomas físicos de abstinencia han mejorado de forma importante. Tu cuerpo sigue adaptándose a funcionar sin medicación. La ansiedad y el ánimo todavía pueden fluctuar, pero el funcionamiento general mejora.';
+      'A las 12 semanas de terminar la reducción gradual, quienes llevaban años usando benzodiacepinas y lograron dejarlas completaron más rápido tareas cognitivas cronometradas y declararon menos sedación mental y física que quienes seguían tomándolas. Es una recuperación diurna medible.';
 
   @override
   String get benzoMilestone180Title =>
@@ -3077,7 +3078,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get benzodiazepineReferenceDay90 =>
-      'Tres meses después de las benzodiacepinas: la salud física se estabiliza\n\nFuente: Ashton, \"Protracted withdrawal syndromes from benzodiazepines,\" Journal of Substance Abuse Treatment (1991), en PubMed\n\nEstabilización física\nA los 90 días, la fase aguda ya suele haber quedado atrás. En personas que completaron una reducción gradual supervisada, la mayoría de los síntomas físicos de abstinencia —temblores, palpitaciones, dolores de cabeza y las peores alteraciones del sueño— se han aliviado considerablemente, y el sueño suele ser más estable.\n\nPor qué algunos síntomas persisten\nAshton documenta que algunos síntomas pueden durar meses. A los tres meses, todavía pueden aparecer ansiedad residual, niebla mental y cambios sensoriales mientras el cerebro continúa su reajuste lento y reversible.\n\nDos razones por las que puede persistir la ansiedad\n1. El sistema GABA del cerebro todavía se está readaptando hacia una sensibilidad normal, un proceso lento\n2. Cualquier ansiedad subyacente que contribuyera al uso de benzodiacepinas ahora se siente sin el amortiguador farmacológico\n\nUn buen momento para la terapia\nCon los peores síntomas tempranos ya atrás, los tres meses pueden ser un buen momento para apoyarse en terapias psicológicas como la terapia cognitivo-conductual (TCC) para la ansiedad y desarrollar estrategias de afrontamiento mientras el sistema nervioso sigue estabilizándose.';
+      'Tres meses después de las benzodiacepinas: pensamiento más rápido, menos sedación\n\nFuente: Rickels et al., \"Psychomotor performance of long-term benzodiazepine users before, during, and after benzodiazepine discontinuation,\" Journal of Clinical Psychopharmacology (1999), on PubMed\n\nUna señal de recuperación medida a las 12 semanas\nLos investigadores evaluaron a usuarios de benzodiacepinas de larga duración antes de la reducción y de nuevo 5 y 12 semanas después. Hubo datos de 12 semanas para 77 personas, y la ausencia de benzodiacepinas en quienes completaron la retirada se confirmó con análisis de sangre semanales.\n\nRendimiento cognitivo más rápido\nQuienes lograron dejar las benzodiacepinas completaron más rápido las tareas de copia de símbolos y sustitución dígito-símbolo que los participantes que seguían tomándolas. La diferencia siguió siendo significativa al tener en cuenta la edad, la educación y las puntuaciones iniciales.\n\nMenos sedación mental y física\nQuienes completaron la retirada también informaron de menos sedación mental y física que las personas que seguían tomando benzodiacepinas.\n\nCómo pueden verse tres meses\nEn quienes completaron la retirada en este estudio, 12 semanas después de la reducción hubo mejoras medibles en la velocidad de procesamiento y menos sedación mental y física. El pensamiento fue más rápido y la sensación de estar sedado disminuyó.';
 
   @override
   String get benzodiazepineReferenceDay180 =>

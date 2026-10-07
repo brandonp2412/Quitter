@@ -758,11 +758,12 @@ class AppLocalizationsDe extends AppLocalizations {
       'In einer 8-wöchigen Studie mit älteren Langzeitanwendern von Benzodiazepin-Schlafmitteln zeigten Teilnehmende nach abgeschlossenem Ausschleichen bessere Werte bei unmittelbarem Gedächtnis, Aufmerksamkeit, Sprache und Körperstabilität. Das ist messbare Erholung am Tag.';
 
   @override
-  String get benzoMilestone90Title => 'Körperliche Gesundheit stabilisiert';
+  String get benzoMilestone90Title =>
+      'Drei Monate: Schnelleres Denken, weniger Sedierung';
 
   @override
   String get benzoMilestone90Description =>
-      'Rund 3 Monate haben sich viele körperliche Entzugserscheinungen signifikant verbessert. Ihr Körper passt sich weiterhin an das Funktionieren ohne Medikamente an. Angst und Stimmung können immer noch schwanken, aber die Gesamtfunktion verbessert sich.';
+      'Zwölf Wochen nach dem Ausschleichen erledigten langjährige Benzodiazepin-Nutzer, die erfolgreich abgesetzt hatten, zeitabhängige kognitive Aufgaben schneller und berichteten über weniger geistige und körperliche Sedierung als Personen, die weiterhin Benzodiazepine einnahmen. Das ist messbare Erholung im Alltag.';
 
   @override
   String get benzoMilestone180Title =>
@@ -3060,7 +3061,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get benzodiazepineReferenceDay90 =>
-      'Drei Monate nach Benzodiazepinen: Körperliche Gesundheitsstabilisierung\n\nQuelle: Ashton, \"Protracted Entzugssyndroms von Benzodiazepinen\", Journal of Substance Abuse Treatment (1991), auf PubMed\n\nPhysische Stabilisierung\nNach 90 Tagen liegt die akute Phase weit hinter Ihnen. Für Menschen, die eine verwaltete Verjüngung abgeschlossen haben, haben die meisten körperlichen Entzugserscheinungen - Zittern, Herzklopfen, Kopfschmerzen und die schlimmste Schlafstörung - erheblich nachgelassen, und der Schlaf ist im Allgemeinen stabiler.\n\nWarum einige Symptome bestehen bleiben\nAshton dokumentiert, dass einige Symptome monatelang anhalten können. Nach drei Monaten können anhaltende Angst, Gehirnnebel und sensorische Veränderungen immer noch auftreten, während das Gehirn seine langsame, reversible Neujustierung fortsetzt.\n\nZwei Gründe Anxiety Lingers\n1. Das GABA-System des Gehirns passt sich immer noch an die normale Empfindlichkeit an - ein langsamer Prozess\n2. Jede zugrunde liegende Angst, die zu Benzokonsum führte, ist jetzt ohne einen drogengesteuerten Puffer zu spüren\n\nEine gute Zeit für die Therapie\nMit den schlimmsten frühen Symptomen hinter Ihnen sind drei Monate ein starker Punkt, um Unterstützung wie Gesprächstherapie wie CBT (CBT) für Angst zu nutzen und Bewältigungsfähigkeiten aufzubauen, während sich das Nervensystem beruhigt.';
+      'Drei Monate nach Benzodiazepinen: Schnelleres Denken, weniger Sedierung\n\nQuelle: Rickels et al., \"Psychomotor performance of long-term benzodiazepine users before, during, and after benzodiazepine discontinuation,\" Journal of Clinical Psychopharmacology (1999), on PubMed\n\nEin messbares Erholungssignal nach 12 Wochen\nDie Forschenden testeten langjährige Benzodiazepin-Nutzer vor dem Ausschleichen sowie 5 und 12 Wochen danach. Für 77 Personen lagen 12-Wochen-Daten vor; bei erfolgreichen Absetzern wurde die Benzodiazepinfreiheit durch wöchentliche Blutuntersuchungen bestätigt.\n\nSchnellere kognitive Leistung\nPersonen, die Benzodiazepine erfolgreich abgesetzt hatten, erledigten Symbolkopier- und Zahlen-Symbol-Zuordnungsaufgaben schneller als Teilnehmende, die weiterhin Benzodiazepine einnahmen. Der Unterschied blieb unter Berücksichtigung von Alter, Bildung und Ausgangswerten signifikant.\n\nWeniger geistige und körperliche Sedierung\nErfolgreiche Absetzer berichteten außerdem über weniger geistige und körperliche Sedierung als Personen, die weiterhin Benzodiazepine einnahmen.\n\nWie sich drei Monate anfühlen können\nBei den erfolgreichen Absetzern dieser Studie zeigten sich 12 Wochen nach dem Ausschleichen messbare Fortschritte bei der Verarbeitungsgeschwindigkeit und weniger geistige und körperliche Sedierung. Das Denken wurde schneller und das sedierte Gefühl ließ nach.';
 
   @override
   String get benzodiazepineReferenceDay180 =>

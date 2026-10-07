@@ -771,11 +771,12 @@ class AppLocalizationsFr extends AppLocalizations {
       'Dans une étude de 8 semaines menée chez des personnes âgées utilisant depuis longtemps des hypnotiques benzodiazépiniques, celles qui ont terminé le sevrage progressif ont amélioré leur mémoire immédiate, leur attention, leurs scores de langage et leur stabilité corporelle. Une récupération diurne mesurable.';
 
   @override
-  String get benzoMilestone90Title => 'Stabilisation de la santé physique';
+  String get benzoMilestone90Title =>
+      'Trois mois : pensée plus rapide, moins de sédation';
 
   @override
   String get benzoMilestone90Description =>
-      'Vers 3 mois, de nombreux symptômes physiques du sevrage se sont nettement améliorés. Votre corps continue de s\'adapter à fonctionner sans médicament. L\'anxiété et l\'humeur peuvent encore fluctuer, mais le fonctionnement général s\'améliore.';
+      'Douze semaines après le sevrage progressif, les utilisateurs de benzodiazépines au long cours qui avaient réussi à arrêter ont effectué plus vite des tâches cognitives chronométrées et signalé moins de sédation mentale et physique que ceux qui continuaient les benzodiazépines. C’est une récupération diurne mesurable.';
 
   @override
   String get benzoMilestone180Title =>
@@ -3109,7 +3110,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get benzodiazepineReferenceDay90 =>
-      'Trois mois après les benzodiazépines : la santé physique se stabilise\n\nSource : Ashton, « Protracted withdrawal syndromes from benzodiazepines », Journal of Substance Abuse Treatment (1991), PubMed\n\nStabilisation physique\nÀ 90 jours, la phase aiguë est loin derrière vous. Chez les personnes ayant terminé une diminution encadrée, la plupart des symptômes physiques — tremblements, palpitations, maux de tête et les pires perturbations du sommeil — se sont nettement atténués, et le sommeil est généralement plus stable.\n\nPourquoi certains symptômes persistent\nAshton indique que certains symptômes peuvent durer plusieurs mois. À trois mois, une anxiété persistante, un brouillard mental et des changements sensoriels peuvent encore apparaître pendant que le cerveau poursuit sa lente réadaptation réversible.\n\nDeux raisons pour lesquelles l\'anxiété persiste\n1. Le système GABA du cerveau continue de se réadapter vers une sensibilité normale — un processus lent\n2. Toute anxiété sous-jacente ayant conduit à l\'usage de benzodiazépines est désormais ressentie sans le tampon fourni par le médicament\n\nUn bon moment pour la thérapie\nLe pire des symptômes précoces étant derrière vous, trois mois est un moment propice pour utiliser des soutiens comme une thérapie par la parole, notamment la TCC, afin de traiter l\'anxiété et construire des stratégies d\'adaptation pendant que le système nerveux continue de se stabiliser.';
+      'Trois mois après les benzodiazépines : pensée plus rapide, moins de sédation\n\nSource : Rickels et al., \"Psychomotor performance of long-term benzodiazepine users before, during, and after benzodiazepine discontinuation,\" Journal of Clinical Psychopharmacology (1999), on PubMed\n\nUn signal de récupération mesuré à 12 semaines\nLes chercheurs ont testé des utilisateurs de benzodiazépines au long cours avant le sevrage, puis 5 et 12 semaines après. Soixante-dix-sept personnes disposaient de données à 12 semaines, et l’absence de benzodiazépines chez ceux ayant réussi le sevrage était confirmée par des analyses sanguines hebdomadaires.\n\nDes performances cognitives plus rapides\nLes personnes ayant réussi à arrêter les benzodiazépines réalisaient plus vite les tâches de copie de symboles et de substitution chiffre-symbole que les participants qui continuaient à en prendre. La différence restait significative après prise en compte de l’âge, du niveau d’études et des scores initiaux.\n\nMoins de sédation mentale et physique\nLes personnes ayant réussi le sevrage signalaient aussi moins de sédation mentale et physique que celles qui continuaient les benzodiazépines.\n\nÀ quoi peuvent ressembler trois mois\nChez les personnes ayant réussi le sevrage dans cette étude, 12 semaines après la diminution progressive, la vitesse de traitement s’était améliorée de façon mesurable et la sédation mentale et physique avait diminué. La pensée allait plus vite et la sensation d’être sédaté s’atténuait.';
 
   @override
   String get benzodiazepineReferenceDay180 =>

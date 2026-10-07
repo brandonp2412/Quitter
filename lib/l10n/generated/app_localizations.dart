@@ -1395,13 +1395,13 @@ abstract class AppLocalizations {
   /// No description provided for @benzoMilestone90Title.
   ///
   /// In en, this message translates to:
-  /// **'Physical Health Stabilizes'**
+  /// **'Three Months: Faster Thinking, Less Sedation'**
   String get benzoMilestone90Title;
 
   /// No description provided for @benzoMilestone90Description.
   ///
   /// In en, this message translates to:
-  /// **'Around 3 months, many physical withdrawal symptoms have significantly improved. Your body is continuing to adjust to functioning without medication. Anxiety and mood may still fluctuate, but overall functioning improves.'**
+  /// **'At 12 weeks after tapering, long-term benzodiazepine users who successfully discontinued them completed speeded cognitive tasks faster and reported less mental and physical sedation than people still taking benzodiazepines. That is measurable daytime recovery.'**
   String get benzoMilestone90Description;
 
   /// No description provided for @benzoMilestone180Title.
@@ -5229,7 +5229,7 @@ abstract class AppLocalizations {
   /// No description provided for @benzodiazepineReferenceDay90.
   ///
   /// In en, this message translates to:
-  /// **'Three Months After Benzodiazepines: Physical Health Stabilises\n\nSource: Ashton, \"Protracted withdrawal syndromes from benzodiazepines,\" Journal of Substance Abuse Treatment (1991), on PubMed\n\nPhysical Stabilisation\nBy 90 days, the acute phase is well behind you. For people who completed a managed taper, most of the physical withdrawal symptoms — tremor, palpitations, headaches, and the worst sleep disruption — have eased substantially, and sleep is generally more stable.\n\nWhy Some Symptoms Persist\nAshton documents that some symptoms can last for months. At three months, lingering anxiety, brain fog, and sensory changes can still appear while the brain continues its slow, reversible readjustment.\n\nTwo Reasons Anxiety Lingers\n1. The brain\'s GABA system is still re-adapting toward normal sensitivity — a slow process\n2. Any underlying anxiety that led to benzo use is now felt without a drug-driven buffer\n\nA Good Time for Therapy\nWith the worst early symptoms behind you, three months is a strong point to use support such as talking therapy such as CBT (CBT) for anxiety and build coping skills while the nervous system keeps settling.'**
+  /// **'Three Months After Benzodiazepines: Faster Thinking, Less Sedation\n\nSource: Rickels et al., \"Psychomotor performance of long-term benzodiazepine users before, during, and after benzodiazepine discontinuation,\" Journal of Clinical Psychopharmacology (1999), on PubMed\n\nA Measured 12-Week Recovery Signal\nResearchers tested long-term benzodiazepine users before tapering and again 5 and 12 weeks after tapering. Seventy-seven people had 12-week data, and successful taperers had benzodiazepine-free status confirmed with weekly blood tests.\n\nFaster Cognitive Performance\nPeople who successfully tapered off benzodiazepines completed symbol-copying and digit-symbol substitution tasks faster than participants still taking benzodiazepines. The difference was significant after accounting for age, education, and baseline test scores.\n\nLess Mental & Physical Sedation\nSuccessful taperers also reported lower mental and physical sedation than people still taking benzodiazepines.\n\nWhat Three Months Can Look Like\nFor successful taperers in this study, 12 weeks after tapering brought measurable gains in processing speed and less mental and physical sedation. Thinking moved faster, and the sedated feeling eased.'**
   String get benzodiazepineReferenceDay90;
 
   /// No description provided for @benzodiazepineReferenceDay180.

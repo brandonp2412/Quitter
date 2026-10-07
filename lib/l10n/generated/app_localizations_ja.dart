@@ -720,11 +720,11 @@ class AppLocalizationsJa extends AppLocalizations {
       'ベンゾジアゼピン系睡眠薬を長期使用していた高齢者を対象とした8週間の研究では、減量して中止まで完了した人で、即時記憶、注意、言語スコア、身体の安定性が改善しました。日中機能の回復が実測された結果です。';
 
   @override
-  String get benzoMilestone90Title => '身体的健康の安定';
+  String get benzoMilestone90Title => '3か月：思考が速くなり、鎮静感が軽くなる';
 
   @override
   String get benzoMilestone90Description =>
-      '約3ヶ月で、多くの身体的離脱症状が大幅に改善しています。体は薬なしでの機能に適応し続けています。不安や気分はまだ変動するかもしれませんが、全体的な機能は改善します。';
+      '減量終了から12週間後、長期にベンゾジアゼピンを使用していて中止に成功した人は、使用を続けていた人より時間制限のある認知課題を速くこなし、精神的・身体的な鎮静感も少ないと報告しました。日中の回復を測定できた結果です。';
 
   @override
   String get benzoMilestone180Title => '思考力と記憶の回復が始まる';
@@ -2866,7 +2866,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get benzodiazepineReferenceDay90 =>
-      'ベンゾジアゼピン中止から3ヶ月：身体的健康の安定\n\n出典：Ashton, \"Protracted withdrawal syndromes from benzodiazepines,\" Journal of Substance Abuse Treatment (1991),、PubMed所収\n\n身体的な安定\n90日までには、急性期はすでに大きく過ぎています。管理された漸減を完了した人では、身体的な離脱症状のほとんど—震え、動悸、頭痛、最悪の睡眠障害—が大幅に和らぎ、睡眠は概ねより安定しています。\n\n一部の症状が続く理由\nAshtonは、一部の症状が数ヶ月続くことがあると記録しています。3ヶ月の時点でも、脳がそのゆっくりとした可逆的な再調整を続ける間、残存する不安、頭のもや、感覚の変化が現れることがあります。\n\n不安が残る2つの理由\n1. 脳のGABA系がまだ正常な感受性へ向けて再適応している途中である—ゆっくりとした過程\n2. ベンゾジアゼピン使用につながった元々の不安が、今は薬による緩衝なしに感じられる\n\n治療に適した時期\n最悪の初期症状が過ぎた3ヶ月は、CBTなどのトークセラピーを不安対策に活用し、神経系が落ち着き続ける間にコーピングスキルを築くのに適した時点です。';
+      'ベンゾジアゼピン中止から3か月：思考が速くなり、鎮静感が軽くなる\n\n出典: Rickels et al., \"Psychomotor performance of long-term benzodiazepine users before, during, and after benzodiazepine discontinuation,\" Journal of Clinical Psychopharmacology (1999), on PubMed\n\n12週間で測定された回復のサイン\n研究では、長期ベンゾジアゼピン使用者を減量前、減量後5週、12週に検査しました。12週時点のデータは77人分あり、中止に成功した人は毎週の血液検査でベンゾジアゼピンを使用していないことが確認されました。\n\n認知課題が速くなる\n中止に成功した人は、使用を続けていた参加者より、記号写字課題と数字記号置換課題を速く完了しました。年齢、教育歴、開始時の得点を考慮しても差は有意でした。\n\n精神的・身体的な鎮静感が軽くなる\n中止に成功した人は、ベンゾジアゼピンを続けていた人より精神的・身体的な鎮静感も少ないと報告しました。\n\n3か月で見えてくる変化\nこの研究で中止に成功した人では、減量から12週間後に処理速度の改善と精神的・身体的な鎮静感の低下が測定されました。思考のスピードが上がり、ぼんやりした鎮静感が軽くなっていました。';
 
   @override
   String get benzodiazepineReferenceDay180 =>

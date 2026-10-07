@@ -758,11 +758,12 @@ class AppLocalizationsPt extends AppLocalizations {
       'Num estudo de 8 semanas com pessoas mais velhas que usavam hipnóticos benzodiazepínicos há muito tempo, quem concluiu a redução gradual até à suspensão apresentou melhor memória imediata, atenção, linguagem e estabilidade corporal. É uma recuperação diurna mensurável.';
 
   @override
-  String get benzoMilestone90Title => 'Estabilização da saúde física';
+  String get benzoMilestone90Title =>
+      'Três meses: pensamento mais rápido, menos sedação';
 
   @override
   String get benzoMilestone90Description =>
-      'Por volta dos 3 meses, muitos sintomas físicos de abstinência melhoraram significativamente. Seu corpo continua a se ajustar para funcionar sem medicação. A ansiedade e o humor ainda podem flutuar, mas o funcionamento geral melhora.';
+      'Doze semanas após o desmame, utilizadores de benzodiazepinas de longa duração que conseguiram parar concluíram mais depressa tarefas cognitivas cronometradas e relataram menos sedação mental e física do que quem continuava a tomar benzodiazepinas. É uma recuperação diurna mensurável.';
 
   @override
   String get benzoMilestone180Title =>
@@ -3076,7 +3077,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get benzodiazepineReferenceDay90 =>
-      'Três meses após os benzodiazepínicos: a saúde física se estabiliza\n\nFonte: Ashton, \"Síndromes de abstinência prolongada de benzodiazepínicos\", Journal of Substance Abuse Treatment (1991), no PubMed\n\nEstabilização Física\nAos 90 dias, a fase aguda já passou. Para as pessoas que completaram uma redução gradual controlada, a maioria dos sintomas físicos de abstinência – tremores, palpitações, dores de cabeça e as piores perturbações do sono – diminuíram substancialmente e o sono é geralmente mais estável.\n\nPor que alguns sintomas persistem\nAshton documenta que alguns sintomas podem durar meses. Aos três meses, ansiedade persistente, confusão mental e alterações sensoriais ainda podem aparecer enquanto o cérebro continua seu reajuste lento e reversível.\n\nDuas razões pelas quais a ansiedade persiste\n1. O sistema GABA do cérebro ainda está se readaptando à sensibilidade normal – um processo lento\n2. Qualquer ansiedade subjacente que levou ao uso de benzo agora é sentida sem um tampão impulsionado pelas drogas\n\nUm bom momento para terapia\nCom os piores sintomas iniciais atrás de si, três meses é um ponto forte para usar suporte, como terapia de fala, como TCC (TCC), para ansiedade e desenvolver habilidades de enfrentamento enquanto o sistema nervoso continua se acalmando.';
+      'Três meses após benzodiazepinas: pensamento mais rápido, menos sedação\n\nFonte: Rickels et al., \"Psychomotor performance of long-term benzodiazepine users before, during, and after benzodiazepine discontinuation,\" Journal of Clinical Psychopharmacology (1999), on PubMed\n\nUm sinal de recuperação medido às 12 semanas\nOs investigadores testaram utilizadores de benzodiazepinas de longa duração antes do desmame e novamente 5 e 12 semanas depois. Havia dados às 12 semanas para 77 pessoas, e nos participantes que conseguiram parar o estado sem benzodiazepinas foi confirmado por análises ao sangue semanais.\n\nDesempenho cognitivo mais rápido\nAs pessoas que conseguiram deixar as benzodiazepinas concluíram mais depressa tarefas de cópia de símbolos e de substituição dígito-símbolo do que participantes que continuavam a tomar benzodiazepinas. A diferença manteve-se significativa após considerar idade, escolaridade e resultados iniciais.\n\nMenos sedação mental e física\nQuem conseguiu parar também relatou menos sedação mental e física do que quem continuava a tomar benzodiazepinas.\n\nComo podem ser três meses\nNos participantes que conseguiram parar neste estudo, 12 semanas após o desmame houve ganhos mensuráveis na velocidade de processamento e menos sedação mental e física. O pensamento ficou mais rápido e a sensação de sedação diminuiu.';
 
   @override
   String get benzodiazepineReferenceDay180 =>
@@ -4453,11 +4454,12 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
       'Em um estudo de 8 semanas com pessoas mais velhas que usavam hipnóticos benzodiazepínicos há muito tempo, quem concluiu a redução gradual até parar apresentou melhora de memória imediata, atenção, linguagem e estabilidade corporal. É recuperação diurna mensurável.';
 
   @override
-  String get benzoMilestone90Title => 'Estabilização da saúde física';
+  String get benzoMilestone90Title =>
+      'Três meses: raciocínio mais rápido, menos sedação';
 
   @override
   String get benzoMilestone90Description =>
-      'Por volta dos 3 meses, muitos sintomas físicos de abstinência melhoraram significativamente. Seu corpo continua a se ajustar para funcionar sem medicação. A ansiedade e o humor ainda podem flutuar, mas o funcionamento geral melhora.';
+      'Doze semanas após o desmame, pessoas que usavam benzodiazepínicos há muito tempo e conseguiram parar fizeram mais rápido tarefas cognitivas cronometradas e relataram menos sedação mental e física do que quem continuava usando benzodiazepínicos. É uma recuperação diurna mensurável.';
 
   @override
   String get benzoMilestone180Title =>
@@ -6769,7 +6771,7 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get benzodiazepineReferenceDay90 =>
-      'Três meses após os benzodiazepínicos: a saúde física se estabiliza\n\nFonte: Ashton, \"Síndromes de abstinência prolongada de benzodiazepínicos\", Journal of Substance Abuse Treatment (1991), no PubMed\n\nEstabilização Física\nAos 90 dias, a fase aguda já passou. Para as pessoas que completaram uma redução gradual controlada, a maioria dos sintomas físicos de abstinência – tremores, palpitações, dores de cabeça e as piores perturbações do sono – diminuíram substancialmente e o sono é geralmente mais estável.\n\nPor que alguns sintomas persistem\nAshton documenta que alguns sintomas podem durar meses. Aos três meses, ansiedade persistente, confusão mental e alterações sensoriais ainda podem aparecer enquanto o cérebro continua seu reajuste lento e reversível.\n\nDuas razões pelas quais a ansiedade persiste\n1. O sistema GABA do cérebro ainda está se readaptando à sensibilidade normal – um processo lento\n2. Qualquer ansiedade subjacente que levou ao uso de benzo agora é sentida sem um tampão impulsionado pelas drogas\n\nUm bom momento para terapia\nCom os piores sintomas iniciais atrás de você, três meses é um ponto forte para usar suporte, como terapia de fala, como TCC (TCC), para ansiedade e desenvolver habilidades de enfrentamento enquanto o sistema nervoso continua se acalmando.';
+      'Três meses após os benzodiazepínicos: raciocínio mais rápido, menos sedação\n\nFonte: Rickels et al., \"Psychomotor performance of long-term benzodiazepine users before, during, and after benzodiazepine discontinuation,\" Journal of Clinical Psychopharmacology (1999), on PubMed\n\nUm sinal de recuperação medido em 12 semanas\nOs pesquisadores testaram usuários de benzodiazepínicos de longa duração antes do desmame e novamente 5 e 12 semanas depois. Havia dados de 12 semanas para 77 pessoas, e nos participantes que conseguiram parar a ausência de benzodiazepínicos foi confirmada por exames de sangue semanais.\n\nDesempenho cognitivo mais rápido\nAs pessoas que conseguiram deixar os benzodiazepínicos concluíram mais rápido tarefas de cópia de símbolos e substituição dígito-símbolo do que participantes que continuavam usando benzodiazepínicos. A diferença continuou significativa após considerar idade, escolaridade e resultados iniciais.\n\nMenos sedação mental e física\nQuem conseguiu parar também relatou menos sedação mental e física do que quem continuava usando benzodiazepínicos.\n\nComo podem ser três meses\nNos participantes que conseguiram parar neste estudo, 12 semanas após o desmame houve ganhos mensuráveis na velocidade de processamento e menos sedação mental e física. O raciocínio ficou mais rápido e a sensação de sedação diminuiu.';
 
   @override
   String get benzodiazepineReferenceDay180 =>

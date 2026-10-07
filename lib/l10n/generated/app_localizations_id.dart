@@ -755,11 +755,12 @@ class AppLocalizationsId extends AppLocalizations {
       'Dalam studi 8 minggu pada pengguna lama obat tidur benzodiazepin yang lebih tua, peserta yang menyelesaikan penurunan dosis hingga berhenti menunjukkan peningkatan pada memori langsung, perhatian, skor bahasa, dan kestabilan tubuh. Ini pemulihan fungsi siang hari yang terukur.';
 
   @override
-  String get benzoMilestone90Title => 'Kesehatan Fisik Stabil';
+  String get benzoMilestone90Title =>
+      'Tiga Bulan: Berpikir Lebih Cepat, Sedasi Berkurang';
 
   @override
   String get benzoMilestone90Description =>
-      'Sekitar 3 bulan, banyak gejala penarikan diri secara fisik telah membaik secara signifikan. Tubuh Anda terus menyesuaikan diri untuk berfungsi tanpa obat. Kecemasan dan suasana hati mungkin masih berfluktuasi, namun fungsi secara keseluruhan membaik.';
+      'Pada 12 minggu setelah taper selesai, pengguna benzodiazepin jangka panjang yang berhasil berhenti menyelesaikan tugas kognitif berkecepatan lebih cepat dan melaporkan sedasi mental serta fisik yang lebih ringan dibanding orang yang masih memakai benzodiazepin. Itu adalah pemulihan fungsi siang hari yang terukur.';
 
   @override
   String get benzoMilestone180Title => 'Pemikiran dan Ingatan Mulai Pulih';
@@ -3045,7 +3046,7 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get benzodiazepineReferenceDay90 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Tiga Bulan Setelah Benzodiazepin: Berpikir Lebih Cepat, Sedasi Berkurang\n\nSumber: Rickels et al., \"Psychomotor performance of long-term benzodiazepine users before, during, and after benzodiazepine discontinuation,\" Journal of Clinical Psychopharmacology (1999), on PubMed\n\nSinyal Pemulihan yang Terukur pada 12 Minggu\nPeneliti menguji pengguna benzodiazepin jangka panjang sebelum taper, lalu kembali 5 dan 12 minggu setelah taper. Data 12 minggu tersedia untuk 77 orang, dan status bebas benzodiazepin pada peserta yang berhasil berhenti dikonfirmasi dengan pemeriksaan darah mingguan.\n\nKinerja Kognitif Lebih Cepat\nPeserta yang berhasil berhenti dari benzodiazepin menyelesaikan tugas menyalin simbol dan substitusi digit-simbol lebih cepat daripada peserta yang masih memakai benzodiazepin. Perbedaannya tetap signifikan setelah memperhitungkan usia, pendidikan, dan skor awal.\n\nSedasi Mental dan Fisik Berkurang\nPeserta yang berhasil berhenti juga melaporkan sedasi mental dan fisik yang lebih ringan dibanding orang yang masih memakai benzodiazepin.\n\nSeperti Apa Tiga Bulan Itu\nPada peserta yang berhasil berhenti dalam studi ini, 12 minggu setelah taper terlihat peningkatan terukur dalam kecepatan pemrosesan dan penurunan sedasi mental serta fisik. Pikiran bergerak lebih cepat dan rasa tersedasi berkurang.';
 
   @override
   String get benzodiazepineReferenceDay180 =>

@@ -762,11 +762,12 @@ class AppLocalizationsPl extends AppLocalizations {
       'W 8-tygodniowym badaniu starszych osób długo stosujących nasenne benzodiazepiny uczestnicy, którzy ukończyli stopniowe odstawianie, uzyskali lepsze wyniki pamięci bezpośredniej, uwagi, języka i stabilności ciała. To mierzalna poprawa funkcjonowania w dzień.';
 
   @override
-  String get benzoMilestone90Title => 'Stan zdrowia fizycznego stabilizuje';
+  String get benzoMilestone90Title =>
+      'Trzy miesiące: szybsze myślenie, mniej sedacji';
 
   @override
   String get benzoMilestone90Description =>
-      'Około 3 miesięcy, wiele fizycznych objawów odstawiennych znacznie się poprawiło. Twoje ciało nadal dostosowuje się do funkcjonowania bez medykacji. lęk i nastrój może nadal się wahać, ale ogólnie działa poprawa.';
+      'Dwanaście tygodni po zakończeniu stopniowego odstawiania osoby długo stosujące benzodiazepiny, którym udało się je odstawić, szybciej wykonywały zadania poznawcze na czas i zgłaszały mniejszą sedację psychiczną i fizyczną niż osoby nadal przyjmujące benzodiazepiny. To mierzalna poprawa funkcjonowania w ciągu dnia.';
 
   @override
   String get benzoMilestone180Title =>
@@ -3070,7 +3071,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get benzodiazepineReferenceDay90 =>
-      'Trzy miesiące po benzodiazepinach: Stabilizacja zdrowia fizycznego\n\nŹródło: Ashton, \"Protracted withdrawal syndromes from benzodiazepines,\" Journal of Substance Abuse Treatment (1991), on PubMed\n\nStabilizacja fizyczna\nW ciągu 90 dni, ostra faza jest dobrze za Tobą. Dla ludzi, którzy ukończyli zarządzane tasiemce, większość fizycznych objawów odstawienia nasilają drżenie, palpitacje, głowy, i najgorsze zaburzenia snu znacznie ustąpiły, a sen jest na ogół bardziej stabilny.\n\nDlaczego niektóre objawy Persist\nAshton dokumentuje, że niektóre objawy mogą trwać miesiąc. w trzech miesiącach, utrzymujące się niepokój, mgła mózgu i zmiany sensoryczne mogą się nadal pojawić, podczas gdy mózg nadal jest wolny i odwracalny.\n\nDwa powody lęk Lingers\n1. System GABA mózgu nadal dostosowuje się do normalnej czułości, co opóźnia proces\n2. Wszelkie obawy, które doprowadziły do benzo korzystania jest teraz odczuwalne bez bufora narkotyków\n\nDobry czas na terapię\nZ najgorszymi wczesnymi objawami za tobą, trzy miesiące jest silny punkt do wykorzystania wsparcia, takich jak terapia talking, takich jak CBT CBTZ) na lęk i budować umiejętności radzenia sobie, podczas gdy system nerwowy utrzymuje się.';
+      'Trzy miesiące po benzodiazepinach: szybsze myślenie, mniej sedacji\n\nŹródło: Rickels et al., \"Psychomotor performance of long-term benzodiazepine users before, during, and after benzodiazepine discontinuation,\" Journal of Clinical Psychopharmacology (1999), on PubMed\n\nMierzalny sygnał poprawy po 12 tygodniach\nBadacze testowali osoby długotrwale stosujące benzodiazepiny przed stopniowym odstawianiem oraz 5 i 12 tygodni później. Dane z 12. tygodnia były dostępne dla 77 osób, a u osób, które skutecznie odstawiły lek, brak benzodiazepin potwierdzano cotygodniowymi badaniami krwi.\n\nSzybsze wykonywanie zadań poznawczych\nOsoby, które skutecznie odstawiły benzodiazepiny, szybciej wykonywały zadania kopiowania symboli i zastępowania cyfr symbolami niż uczestnicy nadal przyjmujący benzodiazepiny. Różnica pozostawała istotna po uwzględnieniu wieku, wykształcenia i wyników wyjściowych.\n\nMniej sedacji psychicznej i fizycznej\nOsoby po skutecznym odstawieniu zgłaszały też mniejszą sedację psychiczną i fizyczną niż osoby nadal przyjmujące benzodiazepiny.\n\nJak mogą wyglądać trzy miesiące\nW tej grupie skutecznego odstawienia 12 tygodni po taperze odnotowano mierzalną poprawę szybkości przetwarzania i mniejszą sedację psychiczną oraz fizyczną. Myślenie było szybsze, a uczucie otępienia słabło.';
 
   @override
   String get benzodiazepineReferenceDay180 =>

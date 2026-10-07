@@ -719,11 +719,11 @@ class AppLocalizationsZh extends AppLocalizations {
       '一项为期8周、针对长期使用苯二氮䓬类安眠药老年人的研究发现，完成逐步减量并停药的人在即时记忆、注意力、语言评分和身体稳定性上都有改善。这是可测量的日间功能恢复。';
 
   @override
-  String get benzoMilestone90Title => '身体健康稳定';
+  String get benzoMilestone90Title => '三个月：思维更快，镇静感更轻';
 
   @override
   String get benzoMilestone90Description =>
-      '大约3个月时，许多身体戒断症状已显著改善。您的身体继续适应在没有药物的情况下运作。焦虑和情绪可能仍会波动，但整体功能改善。';
+      '逐步减量结束12周后，长期使用苯二氮䓬类药物并成功停药的人完成计时认知任务更快，报告的精神和身体镇静感也少于仍在使用苯二氮䓬类药物的人。这是可测量的日间功能恢复。';
 
   @override
   String get benzoMilestone180Title => '思维和记忆开始恢复';
@@ -2863,7 +2863,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get benzodiazepineReferenceDay90 =>
-      '停用苯二氮卓三个月后：身体健康趋于稳定\n\n来源：Ashton，《Protracted withdrawal syndromes from benzodiazepines》，Journal of Substance Abuse Treatment（1991），PubMed\n\n身体趋于稳定\n到90天时，急性期早已过去。对于完成了规范减量的人来说，大多数身体戒断症状——震颤、心悸、头痛以及最严重的睡眠紊乱——都已大幅缓解，睡眠也普遍更加稳定。\n\n为什么有些症状会持续\nAshton记载，有些症状可能持续数月。到三个月时，残留的焦虑、脑雾和感觉变化仍可能出现，而大脑会继续其缓慢、可逆的重新调整。\n\n焦虑持续的两个原因\n1. 大脑的GABA系统仍在向正常敏感性重新适应——这是一个缓慢的过程\n2. 当初导致使用苯二氮卓的任何潜在焦虑，如今在没有药物缓冲的情况下被感知到\n\n接受心理治疗的好时机\n最严重的早期症状已经过去，三个月是一个强有力的节点，可以借助谈话疗法（如针对焦虑的认知行为疗法CBT）等支持手段，在神经系统继续安定的同时培养应对技能。';
+      '停用苯二氮䓬类药物三个月：思维更快，镇静感更轻\n\n来源：Rickels et al., \"Psychomotor performance of long-term benzodiazepine users before, during, and after benzodiazepine discontinuation,\" Journal of Clinical Psychopharmacology (1999), on PubMed\n\n12周时可测量的恢复信号\n研究人员在逐步减量前，以及减量后5周和12周，对长期使用苯二氮䓬类药物的人进行了测试。共有77人有12周数据；成功停药者通过每周血液检测确认未再使用苯二氮䓬类药物。\n\n认知任务完成得更快\n成功停用苯二氮䓬类药物的人，在符号抄写和数字-符号替换任务上的完成速度快于仍在用药的参与者。即使考虑年龄、教育程度和基线成绩，这一差异仍有统计学意义。\n\n精神和身体镇静感更轻\n成功停药者还报告，比仍在使用苯二氮䓬类药物的人有更少的精神和身体镇静感。\n\n三个月可能是什么样\n在这项研究中，成功停药者在逐步减量12周后，处理速度出现可测量的改善，精神和身体镇静感也减轻了。思维更快，昏沉的感觉也更淡。';
 
   @override
   String get benzodiazepineReferenceDay180 =>
@@ -4209,11 +4209,11 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
       '一項為期8週、針對長期使用苯二氮䓬類安眠藥老年人的研究發現，完成逐步減量並停藥的人在即時記憶、注意力、語言評分和身體穩定性上都有改善。這是可測量的日間功能恢復。';
 
   @override
-  String get benzoMilestone90Title => '身體健康穩定';
+  String get benzoMilestone90Title => '三個月：思考更快，鎮靜感更輕';
 
   @override
   String get benzoMilestone90Description =>
-      '大約3個月時，許多身體戒斷症狀已顯著改善。您的身體繼續適應在沒有藥物的情況下運作。焦慮和情緒可能仍會波動，但整體功能改善。';
+      '逐步減量結束12週後，長期使用苯二氮䓬類藥物並成功停藥的人完成計時認知任務更快，回報的精神與身體鎮靜感也少於仍在使用苯二氮䓬類藥物的人。這是可測量的日間功能恢復。';
 
   @override
   String get benzoMilestone180Title => '思維和記憶開始恢復';
@@ -6353,7 +6353,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get benzodiazepineReferenceDay90 =>
-      '停用苯二氮卓三個月後：身體健康趨於穩定\n\n來源：Ashton，《Protracted withdrawal syndromes from benzodiazepines》，Journal of Substance Abuse Treatment（1991），PubMed\n\n身體趨於穩定\n到90天時，急性期早已過去。對於完成了規範減量的人來說，大多數身體戒斷症狀——震顫、心悸、頭痛以及最嚴重的睡眠紊亂——都已大幅緩解，睡眠也普遍更加穩定。\n\n為甚麼有些症狀會持續\nAshton記載，有些症狀可能持續數月。到三個月時，殘留的焦慮、腦霧和感覺變化仍可能出現，而大腦會繼續其緩慢、可逆的重新調整。\n\n焦慮持續的兩個原因\n1. 大腦的GABA系統仍在向正常敏感性重新適應——這是一個緩慢的過程\n2. 當初導致使用苯二氮卓的任何潛在焦慮，如今在沒有藥物緩衝的情況下被感知到\n\n接受心理治療的好時機\n最嚴重的早期症狀已經過去，三個月是一個強有力的節點，可以借助談話療法（如針對焦慮的認知行為療法CBT）等支持手段，在神經系統繼續安定的同時培養應對技能。';
+      '停用苯二氮䓬類藥物三個月：思考更快，鎮靜感更輕\n\n來源：Rickels et al., \"Psychomotor performance of long-term benzodiazepine users before, during, and after benzodiazepine discontinuation,\" Journal of Clinical Psychopharmacology (1999), on PubMed\n\n12週時可測量的恢復訊號\n研究人員在逐步減量前，以及減量後5週和12週，測試長期使用苯二氮䓬類藥物的人。共有77人有12週資料；成功停藥者以每週血液檢查確認未再使用苯二氮䓬類藥物。\n\n認知任務完成得更快\n成功停用苯二氮䓬類藥物的人，在符號抄寫與數字-符號替換任務上的完成速度快於仍在用藥的參與者。即使考量年齡、教育程度與基線成績，差異仍具有統計意義。\n\n精神與身體鎮靜感更輕\n成功停藥者也回報，比仍在使用苯二氮䓬類藥物的人有較少的精神與身體鎮靜感。\n\n三個月可能是什麼樣\n在這項研究中，成功停藥者在逐步減量12週後，處理速度出現可測量的改善，精神與身體鎮靜感也減輕了。思考更快，昏沉的感覺也更淡。';
 
   @override
   String get benzodiazepineReferenceDay180 =>
