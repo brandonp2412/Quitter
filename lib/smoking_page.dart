@@ -13,6 +13,7 @@ class SmokingPage extends StatelessWidget {
   final String? subtitleNotStarted;
   final Map<int, QuitMilestone> Function(AppLocalizations)?
   milestoneOverridesBuilder;
+  final Set<int>? milestoneDays;
 
   const SmokingPage({
     super.key,
@@ -24,6 +25,7 @@ class SmokingPage extends StatelessWidget {
     this.subtitleStarted,
     this.subtitleNotStarted,
     this.milestoneOverridesBuilder,
+    this.milestoneDays,
   });
 
   List<QuitMilestone> _getMilestones(AppLocalizations l10n) {
@@ -223,6 +225,7 @@ Inflammatory signaling recovered on a slower timetable, with altered cytokine re
     final overrides =
         milestoneOverridesBuilder?.call(l10n) ?? <int, QuitMilestone>{};
     final milestones = _getMilestones(l10n)
+        .where((milestone) => milestoneDays?.contains(milestone.day) ?? true)
         .map((milestone) => overrides[milestone.day] ?? milestone)
         .toList(growable: false);
 

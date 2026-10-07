@@ -103,6 +103,7 @@ Two weeks pouch-free is a concrete checkpoint on the downward curve: the typical
       subtitleStarted: l10n.nicotinePouchesSubtitleStarted,
       subtitleNotStarted: l10n.nicotinePouchesSubtitleNotStarted,
       milestoneOverridesBuilder: _milestoneOverrides,
+      milestoneDays: const {1, 3, 7, 14},
     );
   }
 }

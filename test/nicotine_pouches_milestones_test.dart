@@ -45,6 +45,13 @@ void main() {
     final page = tester.widget<QuitMilestonesPage>(
       find.byType(QuitMilestonesPage),
     );
+    expect(page.milestones.map((milestone) => milestone.day).toList(), [
+      1,
+      3,
+      7,
+      14,
+    ]);
+
     final day1 = page.milestones.singleWhere((milestone) => milestone.day == 1);
     final day3 = page.milestones.singleWhere((milestone) => milestone.day == 3);
     final day7 = page.milestones.singleWhere((milestone) => milestone.day == 7);
