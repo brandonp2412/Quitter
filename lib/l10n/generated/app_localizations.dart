@@ -1359,13 +1359,13 @@ abstract class AppLocalizations {
   /// No description provided for @benzoMilestone7Title.
   ///
   /// In en, this message translates to:
-  /// **'Early Withdrawal Phase'**
+  /// **'First Week: Full Onset Window'**
   String get benzoMilestone7Title;
 
   /// No description provided for @benzoMilestone7Description.
   ///
   /// In en, this message translates to:
-  /// **'After completing a gradual taper, early withdrawal symptoms like rebound anxiety and insomnia may appear. This is your nervous system beginning to readjust. Medical support during this phase is crucial for safety and comfort.'**
+  /// **'By day 7, you’ve reached the full typical onset window: withdrawal usually begins 1–2 days after short-acting benzodiazepines and 2–7 days after long-acting ones. A gradual taper matters because it helps prevent seizures.'**
   String get benzoMilestone7Description;
 
   /// No description provided for @benzoMilestone14Title.
@@ -5211,7 +5211,7 @@ abstract class AppLocalizations {
   /// No description provided for @benzodiazepineReferenceDay7.
   ///
   /// In en, this message translates to:
-  /// **'Benzodiazepine Withdrawal: The First Week\n\nSource: \"Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings,\" World Health Organization (2009), on the NCBI Bookshelf\n\nNote on Benzo Withdrawal Safety\nBenzodiazepine withdrawal can be dangerous. The WHO guidelines are explicit that the safest approach is to give benzodiazepines in gradually decreasing amounts, which \'helps to relieve benzodiazepine withdrawal symptoms and prevent the development of seizures.\' Do not stop abruptly after prolonged use — work with a doctor on a taper.\n\nWhen Withdrawal Appears\nThe WHO timeline depends on the drug\'s duration of action:\n• Short-acting (oxazepam, alprazolam, temazepam): withdrawal begins 1–2 days after the last dose and continues for 2–4 weeks or longer\n• Long-acting (diazepam, nitrazepam): withdrawal begins 2–7 days after the last dose and continues for 2–8 weeks or longer\nThe first-week milestone is the point at which even longer-acting benzodiazepines have cleared enough for withdrawal to be in full effect.\n\nEarly Withdrawal Symptoms\n• Rebound anxiety — often more intense than the original anxiety the drug treated\n• Insomnia and disturbed sleep\n• Tremors and muscle tension\n• Sweating and palpitations\n• Heightened sensitivity to light and sound\n\nMonitoring\nThe WHO guidelines note that withdrawal severity \'can fluctuate markedly,\' so formal scales are not recommended; instead a clinician should check in every few hours, provide reassurance, and explain symptoms. Benzodiazepines enhance GABA, the brain\'s main calming signal; long-term use blunts that system, so removing the drug leaves the brain over-excited — the source of the anxiety, tremor, and seizure risk that make a gradual taper essential.'**
+  /// **'Benzodiazepine Withdrawal: The First Week\n\nSource: \"Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings,\" World Health Organization (2009), on the NCBI Bookshelf\n\nSafety First\nBenzodiazepine withdrawal can cause seizures. WHO guidance says the safest management is benzodiazepines in gradually decreasing amounts, which relieves withdrawal symptoms and helps prevent seizures. After prolonged use, do not stop abruptly — work with a clinician on a taper.\n\nWhen Withdrawal Begins\nThe WHO timeline depends on the drug\'s duration of action:\n• Short-acting (oxazepam, alprazolam, temazepam): withdrawal typically begins 1–2 days after the last dose and continues for 2–4 weeks or longer\n• Long-acting (diazepam, nitrazepam): withdrawal typically begins 2–7 days after the last dose and continues for 2–8 weeks or longer\nThe first week spans the typical onset window even for long-acting benzodiazepines.\n\nWhat Symptoms Can Look Like\nWHO lists anxiety, insomnia, restlessness, agitation or irritability, poor concentration or memory, and muscle tension or aches.\n\nMonitoring\nWithdrawal severity can fluctuate markedly. WHO recommends regular monitoring for symptoms and complications; in its closed-setting protocol, healthcare workers speak with patients every 3–4 hours and provide reassurance and explanation as needed.'**
   String get benzodiazepineReferenceDay7;
 
   /// No description provided for @benzodiazepineReferenceDay14.

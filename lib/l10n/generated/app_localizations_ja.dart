@@ -699,11 +699,11 @@ class AppLocalizationsJa extends AppLocalizations {
   String get benzoSubtitleNotStarted => 'やめたら何が起きるか見てみましょう';
 
   @override
-  String get benzoMilestone7Title => '早期離脱期';
+  String get benzoMilestone7Title => '最初の1週間：発症時期の全範囲';
 
   @override
   String get benzoMilestone7Description =>
-      '段階的減量の完了後、リバウンド不安や不眠などの初期離脱症状が現れることがあります。これは神経系が再調整を始めている証拠です。この期間中の医療サポートは安全性と快適さのために重要です。';
+      '7日目までで、典型的な離脱症状の発症時期を一通りカバーします。短時間作用型では通常、最終服用から1～2日、長時間作用型では2～7日で始まります。けいれん予防のためにも、段階的な減量が重要です。';
 
   @override
   String get benzoMilestone14Title => '急性離脱のピーク';
@@ -2854,7 +2854,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get benzodiazepineReferenceDay7 =>
-      'ベンゾジアゼピン離脱：最初の1週間\n\n出典：「Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings」、世界保健機関（2009）、NCBI Bookshelf\n\nベンゾジアゼピン離脱の安全性に関する注意\nベンゾジアゼピンの離脱は危険を伴うことがあります。WHOのガイドラインは、最も安全な方法はベンゾジアゼピンを徐々に減量しながら投与することだと明示しており、それによって「ベンゾジアゼピンの離脱症状を緩和し、けいれんの発症を防ぐ」としています。長期使用後に急に中止しないでください—医師とともに漸減（テーパー）に取り組んでください。\n\n離脱が現れる時期\nWHOのタイムラインは薬の作用時間によって異なります：\n• 短時間作用型（オキサゼパム、アルプラゾラム、テマゼパム）：最終服用から1〜2日で離脱が始まり、2〜4週間以上続く\n• 長時間作用型（ジアゼパム、ニトラゼパム）：最終服用から2〜7日で離脱が始まり、2〜8週間以上続く\n最初の1週間という節目は、長時間作用型のベンゾジアゼピンでさえ、離脱が完全に現れるまで十分に体外へ排出された時点です。\n\n初期の離脱症状\n• リバウンド不安—薬が治療していた元の不安よりも強いことが多い\n• 不眠と睡眠障害\n• 震えと筋肉の緊張\n• 発汗と動悸\n• 光や音に対する過敏性の亢進\n\nモニタリング\nWHOのガイドラインは、離脱の重症度は「著しく変動し得る」ため、形式的な尺度は推奨されないとしています。その代わりに臨床医が数時間ごとに確認し、安心させ、症状を説明すべきです。ベンゾジアゼピンは脳の主要な鎮静シグナルであるGABAを増強します。長期使用はその系を鈍らせるため、薬を取り除くと脳は過興奮状態になります—これが、段階的な漸減を不可欠にする不安、震え、けいれんリスクの源です。';
+      'ベンゾジアゼピン離脱：最初の1週間\n\n出典：\"Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings\"、世界保健機関（2009）、NCBI Bookshelf\n\n安全を最優先に\nベンゾジアゼピンの離脱では、けいれんが起こることがあります。WHOは、ベンゾジアゼピンを段階的に減量する方法が最も安全で、離脱症状を和らげ、けいれん予防にも役立つとしています。長期使用後は急に中止せず、医療従事者と相談して減量してください。\n\n離脱症状が始まる時期\nWHOの目安は薬の作用時間によって異なります。\n• 短時間作用型（oxazepam、alprazolam、temazepam）：通常は最終服用から1～2日で始まり、2～4週間以上続くことがあります\n• 長時間作用型（diazepam、nitrazepam）：通常は最終服用から2～7日で始まり、2～8週間以上続くことがあります\n最初の1週間は、長時間作用型を含む典型的な発症時期をカバーします。\n\nみられる症状\nWHOは、不安、不眠、落ち着かなさ、興奮またはいらだち、集中力や記憶力の低下、筋肉の緊張や痛みを挙げています。\n\nモニタリング\n離脱症状の強さは大きく変動することがあります。WHOは症状と合併症を定期的に確認するよう勧めており、閉鎖環境向けの手順では、医療従事者が3～4時間ごとに患者と話し、必要に応じて安心できる説明を行います。';
 
   @override
   String get benzodiazepineReferenceDay14 =>

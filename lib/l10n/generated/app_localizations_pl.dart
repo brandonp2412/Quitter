@@ -739,11 +739,12 @@ class AppLocalizationsPl extends AppLocalizations {
       'Zobacz, co się stanie, gdy odejdziesz.';
 
   @override
-  String get benzoMilestone7Title => 'Wczesna faza wycofania';
+  String get benzoMilestone7Title =>
+      'Pierwszy tydzień: pełne okno początku objawów';
 
   @override
   String get benzoMilestone7Description =>
-      'Po stopniowym zwężaniu, wczesne objawy odstawienne, takie jak lęk z odbicia i bezsenność mogą się uspokoić. Jest to twój układ nerwowy zaczyna się ponownie dostosowywać. pomoc medyczna w tej fazie jest kluczowe dla bezpieczeństwa i komfortu.';
+      'Do 7. dnia obejmujesz całe typowe okno początku objawów: po krótko działających benzodiazepinach odstawienie zwykle zaczyna się po 1–2 dniach, a po długo działających po 2–7 dniach. Stopniowe zmniejszanie dawki pomaga zapobiegać napadom drgawkowym.';
 
   @override
   String get benzoMilestone14Title => 'Ostry szczyt odstawienny';
@@ -3056,7 +3057,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get benzodiazepineReferenceDay7 =>
-      'Benzodiazepina w czasie leczenia: pierwszy tydzień\n\nŹródło: \"Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings,\" World Health Organization (2009), on the NCBI Bookshelf\n\nUwaga dotycząca bezpieczeństwa wycofywania Benzo\nBenzodiazepiny wycofanie może być niebezpieczne.Wytyczne WHO są jasne, że najbezpieczniejszym podejściem jest dać benzodiazepiny w stopniowo zmniejszających się kwotach, które pomagają złagodzić objawy odstawienia benzodiazepiny i zapobiec rozwojowi zakrzepicy.Nie należy nagle przestać po długotrwałym użyciu pracować z lekarzem na tasiemce.\n\nW przypadku wystąpienia objawów odstawiennych\nCzas trwania WHO zależy od czasu trwania działania:\n• Krótkodziałający lek Remoxazepam, alprazolam, temazepam: odstawienie rozpoczyna się 1 tydzień po ostatniej dawce i trwa 2 tygodnie lub dłużej.\n• Długotrwałe działanie antagonistów receptora, nitrazepamu: odstawienie rozpoczyna się 2 tygodnie po przyjęciu ostatniej dawki i trwa 2 tygodnie lub dłużej.\nKamień milowy pierwszego tygodnia to moment, w którym nawet dłużej działające benzodiazepiny oczyszczają się wystarczająco, aby wycofanie było w pełni skuteczne.\n\nWczesne objawy odstawienne\n• Niepokój odbicia często bardziej intensywny niż pierwotny lęk leczonego leku\n• Bezsenność i zaburzenia snu\n• Drżenia i napięcie mięśni\n• Pocenie się i kołatanie serca\n• Wrażliwość hartowana na światło i dźwięk\n\nMonitorowanie\nWytyczne WHO wskazują, że stopień nasilenia odstawienia może ulegać znacznemu wahaniom, więc nie zaleca się formalnych skal; zamiast tego lekarz powinien sprawdzić w co kilka godzin, zapewnić regenerację i wyjaśnić objawy. Benzodiazepiny zwiększają GABA, mózgi główne uspokajające sygnał; długotrwałe rzuty, które system, więc usunięcie leku pozostawia mózg nadmiernie podekscytowany, źródła niepokoju, drżenia i ryzyka drgań, które sprawiają, że stopniowy coraz mniejsze esential.';
+      'Odstawienie benzodiazepin: pierwszy tydzień\n\nŹródło: \"Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings\", Światowa Organizacja Zdrowia (2009), NCBI Bookshelf\n\nBezpieczeństwo przede wszystkim\nOdstawienie benzodiazepin może wywołać napady drgawkowe. WHO wskazuje, że najbezpieczniejsze postępowanie polega na stopniowym zmniejszaniu dawki benzodiazepiny; łagodzi to objawy odstawienne i pomaga zapobiegać napadom. Po długotrwałym stosowaniu nie odstawiaj leku nagle — zmniejszaj dawkę z pomocą personelu medycznego.\n\nKiedy zaczyna się odstawienie\nWedług WHO czas zależy od długości działania leku:\n• Krótko działające (oxazepam, alprazolam, temazepam): zwykle 1–2 dni po ostatniej dawce, przez 2–4 tygodnie lub dłużej\n• Długo działające (diazepam, nitrazepam): zwykle 2–7 dni po ostatniej dawce, przez 2–8 tygodni lub dłużej\nPierwszy tydzień obejmuje typowe okno początku objawów także dla długo działających benzodiazepin.\n\nJak mogą wyglądać objawy\nWHO wymienia lęk, bezsenność, niepokój ruchowy, pobudzenie lub drażliwość, problemy z koncentracją lub pamięcią oraz napięcie lub bóle mięśni.\n\nMonitorowanie\nNasilenie objawów może znacznie się wahać. WHO zaleca regularne monitorowanie objawów i powikłań; w protokole dla placówek zamkniętych personel rozmawia z pacjentem co 3–4 godziny, uspokaja go i w razie potrzeby wyjaśnia objawy.';
 
   @override
   String get benzodiazepineReferenceDay14 =>

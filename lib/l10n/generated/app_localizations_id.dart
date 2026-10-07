@@ -733,11 +733,11 @@ class AppLocalizationsId extends AppLocalizations {
       'Lihat apa yang terjadi ketika Anda berhenti';
 
   @override
-  String get benzoMilestone7Title => 'Fase Penarikan Awal';
+  String get benzoMilestone7Title => 'Minggu Pertama: Jendela Awal Lengkap';
 
   @override
   String get benzoMilestone7Description =>
-      'Setelah menyelesaikan pengurangan bertahap, gejala penarikan awal seperti kecemasan yang meningkat dan insomnia mungkin muncul. Ini adalah sistem saraf Anda yang mulai menyesuaikan diri. Dukungan medis selama fase ini sangat penting untuk keamanan dan kenyamanan.';
+      'Pada hari ke-7, seluruh jendela awal yang umum sudah tercakup: putus benzodiazepin kerja singkat biasanya mulai 1–2 hari setelah dosis terakhir, sedangkan yang kerja panjang 2–7 hari. Penurunan dosis bertahap penting karena membantu mencegah kejang.';
 
   @override
   String get benzoMilestone14Title => 'Puncak Penarikan Akut';
@@ -3032,7 +3032,7 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get benzodiazepineReferenceDay7 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Putus Benzodiazepin: Minggu Pertama\n\nSumber: \"Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings\", Organisasi Kesehatan Dunia (2009), di NCBI Bookshelf\n\nUtamakan Keselamatan\nPutus benzodiazepin dapat menyebabkan kejang. Pedoman WHO menyatakan bahwa penanganan paling aman adalah memberikan benzodiazepin dalam jumlah yang dikurangi secara bertahap; cara ini meredakan gejala putus obat dan membantu mencegah kejang. Setelah penggunaan jangka panjang, jangan berhenti mendadak — lakukan penurunan dosis bersama tenaga kesehatan.\n\nKapan Gejala Mulai\nJadwal WHO bergantung pada lama kerja obat:\n• Kerja singkat (oxazepam, alprazolam, temazepam): biasanya mulai 1–2 hari setelah dosis terakhir dan berlangsung 2–4 minggu atau lebih\n• Kerja panjang (diazepam, nitrazepam): biasanya mulai 2–7 hari setelah dosis terakhir dan berlangsung 2–8 minggu atau lebih\nMinggu pertama mencakup jendela awal yang umum bahkan untuk benzodiazepin kerja panjang.\n\nBentuk Gejala\nWHO mencantumkan kecemasan, insomnia, gelisah, agitasi atau mudah marah, gangguan konsentrasi atau ingatan, serta ketegangan atau nyeri otot.\n\nPemantauan\nTingkat keparahan gejala dapat berfluktuasi tajam. WHO menganjurkan pemantauan rutin terhadap gejala dan komplikasi; dalam protokol fasilitas tertutupnya, petugas kesehatan berbicara dengan pasien setiap 3–4 jam serta memberi penjelasan dan dukungan sesuai kebutuhan.';
 
   @override
   String get benzodiazepineReferenceDay14 =>

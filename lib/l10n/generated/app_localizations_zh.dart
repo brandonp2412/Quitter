@@ -698,11 +698,11 @@ class AppLocalizationsZh extends AppLocalizations {
   String get benzoSubtitleNotStarted => '看看戒除后会发生什么';
 
   @override
-  String get benzoMilestone7Title => '早期戒断阶段';
+  String get benzoMilestone7Title => '第一周：覆盖完整起始窗口';
 
   @override
   String get benzoMilestone7Description =>
-      '完成逐步减量后，可能会出现反跳性焦虑和失眠等早期戒断症状。这是您的神经系统开始重新调整。此阶段的医疗支持对安全和舒适至关重要。';
+      '到第7天，您已经覆盖了典型的戒断起始窗口：短效苯二氮䓬类通常在末次服药后1–2天开始，长效药通常在2–7天开始。逐步减量很重要，因为这有助于预防癫痫发作。';
 
   @override
   String get benzoMilestone14Title => '急性戒断高峰';
@@ -2851,7 +2851,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get benzodiazepineReferenceDay7 =>
-      '苯二氮卓戒断：第一周\n\n来源：世界卫生组织（2009）《Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings》，NCBI Bookshelf\n\n关于苯二氮卓戒断安全的提示\n苯二氮卓戒断可能很危险。WHO指南明确指出，最安全的做法是逐步递减苯二氮卓的用量，这“有助于缓解苯二氮卓戒断症状并预防癫痫发作”。长期使用后切勿突然停药——应与医生共同制定减量方案。\n\n戒断何时出现\nWHO的时间线取决于药物的作用时长：\n• 短效类（奥沙西泮、阿普唑仑、替马西泮）：戒断在最后一次服药后1–2天开始，持续2–4周或更久\n• 长效类（地西泮、硝西泮）：戒断在最后一次服药后2–7天开始，持续2–8周或更久\n第一周的里程碑正是这样一个时间点：即便是长效苯二氮卓，此时也已清除到足以让戒断全面显现的程度。\n\n早期戒断症状\n• 反跳性焦虑——往往比药物原本治疗的那种焦虑更强烈\n• 失眠和睡眠紊乱\n• 震颤和肌肉紧张\n• 出汗和心悸\n• 对光和声音的敏感度升高\n\n监测\nWHO指南指出，戒断的严重程度“可能剧烈波动”，因此不推荐使用正式量表；相反，临床医生应每隔几小时检查一次，给予安抚并解释症状。苯二氮卓会增强GABA——大脑主要的镇静信号；长期使用会使该系统变得迟钝，因此撤除药物后大脑会处于过度兴奋状态——这正是焦虑、震颤和癫痫发作风险的来源，也是必须逐步减量的原因。';
+      '苯二氮䓬类戒断：第一周\n\n来源：《Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings》，世界卫生组织（2009），NCBI Bookshelf\n\n安全第一\n苯二氮䓬类戒断可能引发癫痫发作。WHO指出，最安全的处理方式是逐步减少苯二氮䓬类用量，这既能缓解戒断症状，也有助于预防癫痫发作。长期使用后不要突然停药——应在医务人员指导下逐步减量。\n\n戒断何时开始\nWHO给出的时间取决于药物作用持续时间：\n• 短效（oxazepam、alprazolam、temazepam）：通常在末次服药后1–2天开始，并持续2–4周或更久\n• 长效（diazepam、nitrazepam）：通常在末次服药后2–7天开始，并持续2–8周或更久\n第一周覆盖了包括长效苯二氮䓬类在内的典型戒断起始窗口。\n\n可能出现的症状\nWHO列出焦虑、失眠、坐立不安、激动或易怒、注意力或记忆力下降，以及肌肉紧张或疼痛。\n\n监测\n戒断严重程度可能明显波动。WHO建议定期监测症状和并发症；在其封闭环境方案中，医务人员每3–4小时与患者交谈，并按需给予安抚和解释。';
 
   @override
   String get benzodiazepineReferenceDay14 =>
@@ -4188,11 +4188,11 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   String get benzoSubtitleNotStarted => '看看戒除後會發生甚麼';
 
   @override
-  String get benzoMilestone7Title => '早期戒斷階段';
+  String get benzoMilestone7Title => '第一週：涵蓋完整起始窗口';
 
   @override
   String get benzoMilestone7Description =>
-      '完成逐步減量後，可能會出現反跳性焦慮和失眠等早期戒斷症狀。這是您的神經系統開始重新調整。此階段的醫療支持對安全和舒適至關重要。';
+      '到第7天，你已涵蓋典型的戒斷起始窗口：短效苯二氮䓬類通常在最後一次服藥後1–2天開始，長效藥通常在2–7天開始。逐步減量很重要，因為這有助於預防癲癇發作。';
 
   @override
   String get benzoMilestone14Title => '急性戒斷高峰';
@@ -6341,7 +6341,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get benzodiazepineReferenceDay7 =>
-      '苯二氮卓戒斷：第一周\n\n來源：世界衛生組織（2009）《Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings》，NCBI Bookshelf\n\n關於苯二氮卓戒斷安全的提示\n苯二氮卓戒斷可能很危險。WHO指南明確指出，最安全的做法是逐步遞減苯二氮卓的用量，這“有助於緩解苯二氮卓戒斷症狀並預防癲癇發作”。長期使用後切勿突然停藥——應與醫生共同制定減量方案。\n\n戒斷何時出現\nWHO的時間線取決於藥物的作用時長：\n• 短效類（奧沙西泮、阿普唑侖、替馬西泮）：戒斷在最後一次服藥後1–2天開始，持續2–4周或更久\n• 長效類（地西泮、硝西泮）：戒斷在最後一次服藥後2–7天開始，持續2–8周或更久\n第一周的里程碑正是這樣一個時間點：即便是長效苯二氮卓，此時也已清除到足以讓戒斷全面顯現的程度。\n\n早期戒斷症狀\n• 反跳性焦慮——往往比藥物原本治療的那種焦慮更強烈\n• 失眠和睡眠紊亂\n• 震顫和肌肉緊張\n• 出汗和心悸\n• 對光和聲音的敏感度升高\n\n監測\nWHO指南指出，戒斷的嚴重程度“可能劇烈波動”，因此不推薦使用正式量表；相反，臨床醫生應每隔幾小時檢查一次，給予安撫並解釋症狀。苯二氮卓會增強GABA——大腦主要的鎮靜信號；長期使用會使該系統變得遲鈍，因此撤除藥物後大腦會處於過度興奮狀態——這正是焦慮、震顫和癲癇發作風險的來源，也是必須逐步減量的原因。';
+      '苯二氮䓬類戒斷：第一週\n\n來源：《Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings》，世界衛生組織（2009），NCBI Bookshelf\n\n安全第一\n苯二氮䓬類戒斷可能引發癲癇發作。WHO指出，最安全的處理方式是逐步減少苯二氮䓬類用量，既能緩解戒斷症狀，也有助於預防癲癇發作。長期使用後不要突然停藥——應在醫療人員指導下逐步減量。\n\n戒斷何時開始\nWHO給出的時間取決於藥物作用持續時間：\n• 短效（oxazepam、alprazolam、temazepam）：通常在最後一次服藥後1–2天開始，並持續2–4週或更久\n• 長效（diazepam、nitrazepam）：通常在最後一次服藥後2–7天開始，並持續2–8週或更久\n第一週涵蓋包括長效苯二氮䓬類在內的典型戒斷起始窗口。\n\n可能出現的症狀\nWHO列出焦慮、失眠、坐立不安、激動或易怒、注意力或記憶力下降，以及肌肉緊張或疼痛。\n\n監測\n戒斷嚴重程度可能明顯波動。WHO建議定期監測症狀和併發症；在其封閉環境方案中，醫療人員每3–4小時與患者交談，並按需要給予安撫和說明。';
 
   @override
   String get benzodiazepineReferenceDay14 =>

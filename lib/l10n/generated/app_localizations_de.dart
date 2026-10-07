@@ -735,11 +735,12 @@ class AppLocalizationsDe extends AppLocalizations {
       'Sehen Sie, was passiert, wenn Sie aufhören';
 
   @override
-  String get benzoMilestone7Title => 'Frühe Rücknahmephase';
+  String get benzoMilestone7Title =>
+      'Erste Woche: Volles Zeitfenster für den Beginn';
 
   @override
   String get benzoMilestone7Description =>
-      'Nach Abschluss einer allmählichen Verjüngung können frühe Entzugserscheinungen wie Rebound-Angst und Schlaflosigkeit auftreten. Dies ist dein Nervensystem, das anfängt, sich neu zu justieren. Medizinische Unterstützung in dieser Phase ist entscheidend für Sicherheit und Komfort.';
+      'Bis Tag 7 ist das gesamte typische Zeitfenster für den Beginn erreicht: Bei kurz wirksamen Benzodiazepinen beginnt der Entzug meist nach 1–2 Tagen, bei lang wirksamen nach 2–7 Tagen. Langsames Ausschleichen ist wichtig, weil es Krampfanfälle verhindern hilft.';
 
   @override
   String get benzoMilestone14Title => 'Akute Entzugsspitze';
@@ -3046,7 +3047,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get benzodiazepineReferenceDay7 =>
-      'Benzodiazepin-Entzug: Die erste Woche\n\nQuelle: \"Klinische Richtlinien für das Entzugsmanagement und die Behandlung von Drogenabhängigkeit in geschlossenen Umgebungen\", Weltgesundheitsorganisation (2009), auf dem NCBI Bookshelf\n\nHinweis auf Benzo Entzug Sicherheit\nBenzodiazepin-Entzug kann gefährlich sein. Die WHO-Leitlinien sind ausdrücklich, dass der sicherste Ansatz darin besteht, Benzodiazepine in allmählich abnehmenden Mengen zu verabreichen, was \"hilft, Benzodiazepin-Entzugserscheinungen zu lindern und die Entwicklung von Anfällen zu verhindern\". Stoppen Sie nicht abrupt nach längerem Gebrauch - arbeiten Sie mit einem Arzt auf einem Taper.\n\nWenn der Rückzug erscheint\nDie WHO-Zeitleiste hängt von der Wirkungsdauer des Medikaments ab:\n• Kurzwirksam (Oxazepam, Alprazolam, Temazepam): Der Entzug beginnt 1-2 Tage nach der letzten Dosis und dauert 2-4 Wochen oder länger an.\n• Langwirksam (Diazepam, Nitrazepam): Entzug beginnt 2-7 Tage nach der letzten Dosis und dauert 2-8 Wochen oder länger an\nDer Meilenstein der ersten Woche ist der Punkt, an dem sich auch länger wirkende Benzodiazepine so weit geklärt haben, dass der Entzug in vollem Umfang erfolgen kann.\n\nFrühe Entzugserscheinungen\n• Rebound-Angst - oft intensiver als die ursprüngliche Angst, die das Medikament behandelt hat\n• Schlaflosigkeit und gestörter Schlaf\n• Zittern und Muskelverspannungen\n• Schwitzen und Herzklopfen\n• Erhöhte Empfindlichkeit gegenüber Licht und Ton\n\nÜberwachung\nDie WHO-Richtlinien weisen darauf hin, dass der Entzug \"merklich schwanken kann\", so dass formale Skalen nicht empfohlen werden; stattdessen sollte ein Kliniker alle paar Stunden einchecken, Beruhigung geben und Symptome erklären. Benzodiazepine verbessern GABA, das wichtigste beruhigende Signal des Gehirns; Langzeitgebrauch stumpft dieses System ab, so dass das Entfernen des Medikaments das Gehirn überreizt - die Quelle der Angst, des Zitterns und des Anfallsrisikos, das eine allmähliche Verjüngung unerlässlich macht.';
+      'Benzodiazepin-Entzug: Die erste Woche\n\nQuelle: \"Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings\", Weltgesundheitsorganisation (2009), NCBI Bookshelf\n\nSicherheit zuerst\nEin Benzodiazepin-Entzug kann Krampfanfälle verursachen. Laut WHO ist die sicherste Behandlung eine schrittweise Verringerung der Benzodiazepin-Dosis; das lindert Entzugssymptome und hilft, Krampfanfälle zu verhindern. Nach längerem Gebrauch nicht abrupt absetzen — gemeinsam mit medizinischem Fachpersonal ausschleichen.\n\nWann der Entzug beginnt\nDer WHO-Zeitplan hängt von der Wirkdauer ab:\n• Kurz wirksam (Oxazepam, Alprazolam, Temazepam): Beginn typischerweise 1–2 Tage nach der letzten Dosis, Dauer 2–4 Wochen oder länger\n• Lang wirksam (Diazepam, Nitrazepam): Beginn typischerweise 2–7 Tage nach der letzten Dosis, Dauer 2–8 Wochen oder länger\nDie erste Woche umfasst damit das typische Beginnfenster auch für lang wirksame Benzodiazepine.\n\nMögliche Symptome\nDie WHO nennt Angst, Schlaflosigkeit, Unruhe, Agitiertheit oder Reizbarkeit, Konzentrations- oder Gedächtnisprobleme sowie Muskelverspannungen oder -schmerzen.\n\nÜberwachung\nDie Stärke der Entzugssymptome kann deutlich schwanken. Die WHO empfiehlt regelmäßige Kontrollen auf Symptome und Komplikationen; in ihrem Protokoll für geschlossene Einrichtungen sprechen Fachkräfte alle 3–4 Stunden mit den Betroffenen und geben bei Bedarf Beruhigung und Erklärungen.';
 
   @override
   String get benzodiazepineReferenceDay14 =>

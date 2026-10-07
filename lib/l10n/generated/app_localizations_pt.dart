@@ -735,11 +735,12 @@ class AppLocalizationsPt extends AppLocalizations {
   String get benzoSubtitleNotStarted => 'Veja o que acontece quando deixa';
 
   @override
-  String get benzoMilestone7Title => 'Fase de Abstinência Antecipada';
+  String get benzoMilestone7Title =>
+      'Primeira semana: janela completa de início';
 
   @override
   String get benzoMilestone7Description =>
-      'Depois de completar uma redução gradual, podem aparecer sintomas de abstinência precoce, como ansiedade rebote e insónia. Este é o seu sistema nervoso começando a se reajustar. O apoio médico durante esta fase é crucial para a segurança e o conforto.';
+      'Ao dia 7, já percorreste toda a janela típica de início: a abstinência costuma começar 1–2 dias após benzodiazepinas de ação curta e 2–7 dias após as de ação longa. A redução gradual é importante porque ajuda a prevenir convulsões.';
 
   @override
   String get benzoMilestone14Title => 'Pico de Abstinência Aguda';
@@ -3062,7 +3063,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get benzodiazepineReferenceDay7 =>
-      'Abstinência de benzodiazepínicos: a primeira semana\n\nFonte: \"Diretrizes Clínicas para Gestão de Abstinência e Tratamento da Dependência de Drogas em Ambientes Fechados\", Organização Mundial da Saúde (2009), na estante do NCBI\n\nNota sobre segurança de abstinência de Benzo\nA abstinência de benzodiazepínicos pode ser perigosa. As directrizes da OMS são explícitas que a abordagem mais segura é administrar benzodiazepinas em quantidades gradualmente decrescentes, o que “ajuda a aliviar os sintomas de abstinência das benzodiazepinas e a prevenir o desenvolvimento de convulsões”. Não pare abruptamente após uso prolongado – trabalhe com um médico para diminuir gradualmente.\n\nQuando a abstinência aparece\nO cronograma da OMS depende da duração da ação do medicamento:\n• Ação curta (oxazepam, alprazolam, temazepam): a abstinência começa 1–2 dias após a última dose e continua por 2–4 semanas ou mais\n• Ação prolongada (diazepam, nitrazepam): a abstinência começa 2–7 dias após a última dose e continua por 2–8 semanas ou mais\nO marco da primeira semana é o ponto em que mesmo os benzodiazepínicos de ação mais prolongada foram eliminados o suficiente para que a abstinência tenha efeito total.\n\nSintomas de abstinência precoce\n• Ansiedade de rebote — muitas vezes mais intensa do que a ansiedade original tratada pela droga\n• Insónia e distúrbios do sono\n• Tremores e tensão muscular\n• Sudorese e palpitações\n• Maior sensibilidade à luz e ao som\n\nAcompanhamento\nAs directrizes da OMS observam que a gravidade da abstinência “pode flutuar acentuadamente”, pelo que as escalas formais não são recomendadas; em vez disso, um médico deve fazer check-in a cada poucas horas, tranquilizar e explicar os sintomas. Os benzodiazepínicos aumentam o GABA, o principal sinal calmante do cérebro; o uso a longo prazo embota esse sistema, de modo que a remoção da droga deixa o cérebro superexcitado – a fonte da ansiedade, do tremor e do risco de convulsão que tornam essencial uma redução gradual.';
+      'Abstinência de benzodiazepinas: a primeira semana\n\nFonte: \"Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings\", Organização Mundial da Saúde (2009), NCBI Bookshelf\n\nSegurança em primeiro lugar\nA abstinência de benzodiazepinas pode causar convulsões. A OMS indica que a abordagem mais segura é reduzir gradualmente a quantidade de benzodiazepina, o que alivia os sintomas e ajuda a prevenir convulsões. Após uso prolongado, não pares de forma abrupta — faz a redução gradual com um profissional de saúde.\n\nQuando começa a abstinência\nO calendário da OMS depende da duração de ação do medicamento:\n• Ação curta (oxazepam, alprazolam, temazepam): costuma começar 1–2 dias após a última dose e continuar durante 2–4 semanas ou mais\n• Ação longa (diazepam, nitrazepam): costuma começar 2–7 dias após a última dose e continuar durante 2–8 semanas ou mais\nA primeira semana cobre a janela típica de início mesmo para benzodiazepinas de ação longa.\n\nComo podem ser os sintomas\nA OMS lista ansiedade, insónia, inquietação, agitação ou irritabilidade, dificuldades de concentração ou memória e tensão ou dores musculares.\n\nMonitorização\nA intensidade da abstinência pode variar bastante. A OMS recomenda monitorização regular de sintomas e complicações; no seu protocolo para ambientes fechados, os profissionais falam com o doente a cada 3–4 horas e dão tranquilização e explicações quando necessário.';
 
   @override
   String get benzodiazepineReferenceDay14 =>
@@ -4428,11 +4429,12 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
       'Veja o que acontece quando você desiste';
 
   @override
-  String get benzoMilestone7Title => 'Fase de Retirada Antecipada';
+  String get benzoMilestone7Title =>
+      'Primeira semana: janela completa de início';
 
   @override
   String get benzoMilestone7Description =>
-      'Depois de completar uma redução gradual, podem aparecer sintomas de abstinência precoce, como ansiedade rebote e insônia. Este é o seu sistema nervoso começando a se reajustar. O apoio médico durante esta fase é crucial para a segurança e o conforto.';
+      'No dia 7, você já alcançou toda a janela típica de início: a abstinência costuma começar 1–2 dias após benzodiazepínicos de ação curta e 2–7 dias após os de ação longa. A redução gradual é importante porque ajuda a prevenir convulsões.';
 
   @override
   String get benzoMilestone14Title => 'Pico de Retirada Aguda';
@@ -6753,7 +6755,7 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get benzodiazepineReferenceDay7 =>
-      'Abstinência de benzodiazepínicos: a primeira semana\n\nFonte: \"Diretrizes Clínicas para Gerenciamento de Abstinência e Tratamento da Dependência de Drogas em Ambientes Fechados\", Organização Mundial da Saúde (2009), na estante do NCBI\n\nNota sobre segurança de retirada de Benzo\nA abstinência de benzodiazepínicos pode ser perigosa. As directrizes da OMS são explícitas que a abordagem mais segura é administrar benzodiazepinas em quantidades gradualmente decrescentes, o que “ajuda a aliviar os sintomas de abstinência das benzodiazepinas e a prevenir o desenvolvimento de convulsões”.Não pare abruptamente após uso prolongado – trabalhe com um médico para diminuir gradualmente.\n\nQuando a retirada aparece\nO cronograma da OMS depende da duração da ação do medicamento:\n• Ação curta (oxazepam, alprazolam, temazepam): a retirada começa 1–2 dias após a última dose e continua por 2–4 semanas ou mais\n• Ação prolongada (diazepam, nitrazepam): a retirada começa 2–7 dias após a última dose e continua por 2–8 semanas ou mais\nO marco da primeira semana é o ponto em que mesmo os benzodiazepínicos de ação mais prolongada foram eliminados o suficiente para que a abstinência tenha efeito total.\n\nSintomas de abstinência precoce\n• Ansiedade de rebote — muitas vezes mais intensa do que a ansiedade original tratada pela droga\n• Insônia e distúrbios do sono\n• Tremores e tensão muscular\n• Sudorese e palpitações\n• Maior sensibilidade à luz e ao som\n\nMonitoramento\nAs directrizes da OMS observam que a gravidade da abstinência “pode flutuar acentuadamente”, pelo que as escalas formais não são recomendadas; em vez disso, um médico deve fazer check-in a cada poucas horas, tranquilizar e explicar os sintomas. Os benzodiazepínicos aumentam o GABA, o principal sinal calmante do cérebro; o uso a longo prazo embota esse sistema, de modo que a remoção da droga deixa o cérebro superexcitado – a fonte da ansiedade, do tremor e do risco de convulsão que tornam essencial uma redução gradual.';
+      'Abstinência de benzodiazepínicos: a primeira semana\n\nFonte: \"Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings\", Organização Mundial da Saúde (2009), NCBI Bookshelf\n\nSegurança em primeiro lugar\nA abstinência de benzodiazepínicos pode causar convulsões. A OMS indica que a abordagem mais segura é reduzir gradualmente a quantidade de benzodiazepínico, o que alivia os sintomas e ajuda a prevenir convulsões. Após uso prolongado, não pare de forma abrupta — faça a redução gradual com um profissional de saúde.\n\nQuando começa a abstinência\nO cronograma da OMS depende da duração de ação do medicamento:\n• Ação curta (oxazepam, alprazolam, temazepam): costuma começar 1–2 dias após a última dose e continuar por 2–4 semanas ou mais\n• Ação longa (diazepam, nitrazepam): costuma começar 2–7 dias após a última dose e continuar por 2–8 semanas ou mais\nA primeira semana cobre a janela típica de início mesmo para benzodiazepínicos de ação longa.\n\nComo podem ser os sintomas\nA OMS lista ansiedade, insônia, inquietação, agitação ou irritabilidade, dificuldade de concentração ou memória e tensão ou dores musculares.\n\nMonitoramento\nA intensidade da abstinência pode variar bastante. A OMS recomenda monitoramento regular de sintomas e complicações; em seu protocolo para ambientes fechados, os profissionais falam com o paciente a cada 3–4 horas e oferecem tranquilização e explicações quando necessário.';
 
   @override
   String get benzodiazepineReferenceDay14 =>

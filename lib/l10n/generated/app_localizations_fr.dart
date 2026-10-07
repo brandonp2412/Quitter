@@ -747,11 +747,12 @@ class AppLocalizationsFr extends AppLocalizations {
       'Découvrez ce qui se passe lorsque vous arrêtez';
 
   @override
-  String get benzoMilestone7Title => 'Phase de sevrage précoce';
+  String get benzoMilestone7Title =>
+      'Première semaine : fenêtre complète de début';
 
   @override
   String get benzoMilestone7Description =>
-      'Après une diminution progressive, des symptômes de sevrage précoce comme l\'anxiété de rebond et l\'insomnie peuvent apparaître. Votre système nerveux commence à se réadapter. Un suivi médical pendant cette phase est essentiel pour la sécurité et le confort.';
+      'Au jour 7, toute la fenêtre habituelle de début est couverte : le sevrage commence généralement 1–2 jours après les benzodiazépines à courte durée d’action et 2–7 jours après celles à longue durée d’action. Une diminution progressive aide à prévenir les crises convulsives.';
 
   @override
   String get benzoMilestone14Title => 'Pic du sevrage aigu';
@@ -3095,7 +3096,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get benzodiazepineReferenceDay7 =>
-      'Sevrage des benzodiazépines : la première semaine\n\nSource : « Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings », Organisation mondiale de la Santé (2009), NCBI Bookshelf\n\nRemarque sur la sécurité du sevrage\nLe sevrage des benzodiazépines peut être dangereux. Les recommandations de l\'OMS indiquent clairement que l\'approche la plus sûre consiste à administrer des benzodiazépines à doses progressivement décroissantes, ce qui « aide à soulager les symptômes de sevrage et à prévenir l\'apparition de crises convulsives ». N\'arrêtez pas brutalement après un usage prolongé — établissez un plan de diminution avec un médecin.\n\nQuand le sevrage apparaît\nLe calendrier de l\'OMS dépend de la durée d\'action du médicament :\n• Courte durée d\'action (oxazépam, alprazolam, témazépam) : début 1 à 2 jours après la dernière dose, pendant 2 à 4 semaines ou davantage\n• Longue durée d\'action (diazépam, nitrazépam) : début 2 à 7 jours après la dernière dose, pendant 2 à 8 semaines ou davantage\nLa première semaine est le moment où même les benzodiazépines à longue durée d\'action ont suffisamment diminué pour que le sevrage soit pleinement installé.\n\nSymptômes précoces\n• Anxiété de rebond — souvent plus intense que l\'anxiété initialement traitée\n• Insomnie et sommeil perturbé\n• Tremblements et tension musculaire\n• Sueurs et palpitations\n• Sensibilité accrue à la lumière et au son\n\nSurveillance\nLes recommandations de l\'OMS précisent que la sévérité peut « fluctuer fortement » ; plutôt que des échelles formelles, un clinicien doit évaluer régulièrement, rassurer et expliquer les symptômes. Les benzodiazépines renforcent le GABA, principal signal calmant du cerveau ; un usage prolongé émousse ce système, si bien que l\'arrêt laisse temporairement le cerveau surexcité — source de l\'anxiété, des tremblements et du risque convulsif qui rendent une diminution progressive essentielle.';
+      'Sevrage des benzodiazépines : la première semaine\n\nSource : \"Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings\", Organisation mondiale de la Santé (2009), NCBI Bookshelf\n\nLa sécurité d’abord\nLe sevrage des benzodiazépines peut provoquer des crises convulsives. L’OMS indique que la prise en charge la plus sûre consiste à diminuer progressivement les doses, ce qui soulage les symptômes et aide à prévenir les crises. Après un usage prolongé, n’arrêtez pas brutalement — faites une diminution progressive avec un professionnel de santé.\n\nQuand le sevrage commence\nLe calendrier de l’OMS dépend de la durée d’action :\n• Courte durée d’action (oxazépam, alprazolam, témazépam) : début habituel 1–2 jours après la dernière dose, durée de 2–4 semaines ou plus\n• Longue durée d’action (diazépam, nitrazépam) : début habituel 2–7 jours après la dernière dose, durée de 2–8 semaines ou plus\nLa première semaine couvre donc la fenêtre habituelle de début, même pour les benzodiazépines à longue durée d’action.\n\nÀ quoi peuvent ressembler les symptômes\nL’OMS cite l’anxiété, l’insomnie, l’agitation, l’irritabilité, les difficultés de concentration ou de mémoire ainsi que les tensions ou douleurs musculaires.\n\nSurveillance\nL’intensité du sevrage peut fluctuer fortement. L’OMS recommande une surveillance régulière des symptômes et complications ; dans son protocole en milieu fermé, les soignants parlent au patient toutes les 3–4 heures et apportent rassurance et explications si nécessaire.';
 
   @override
   String get benzodiazepineReferenceDay14 =>

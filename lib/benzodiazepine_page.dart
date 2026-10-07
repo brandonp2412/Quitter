@@ -16,26 +16,22 @@ class BenzodiazepinePage extends StatelessWidget {
         reference:
             "WHO Clinical Guidelines for Withdrawal Management (NCBI Bookshelf)",
         link: "https://www.ncbi.nlm.nih.gov/books/NBK310652/",
-        referenceDate: "June 2026",
+        referenceDate: "October 2026",
         localizedReferenceContent: l10n.benzodiazepineReferenceDay7,
         referenceContent:
             "Benzodiazepine Withdrawal: The First Week\n\n"
             "Source: \"Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings,\" World Health Organization (2009), on the NCBI Bookshelf\n\n"
-            "Note on Benzo Withdrawal Safety\n"
-            "Benzodiazepine withdrawal can be dangerous. The WHO guidelines are explicit that the safest approach is to give benzodiazepines in gradually decreasing amounts, which 'helps to relieve benzodiazepine withdrawal symptoms and prevent the development of seizures.' Do not stop abruptly after prolonged use — work with a doctor on a taper.\n\n"
-            "When Withdrawal Appears\n"
+            "Safety First\n"
+            "Benzodiazepine withdrawal can cause seizures. WHO guidance says the safest management is benzodiazepines in gradually decreasing amounts, which relieves withdrawal symptoms and helps prevent seizures. After prolonged use, do not stop abruptly — work with a clinician on a taper.\n\n"
+            "When Withdrawal Begins\n"
             "The WHO timeline depends on the drug's duration of action:\n"
-            "• Short-acting (oxazepam, alprazolam, temazepam): withdrawal begins 1–2 days after the last dose and continues for 2–4 weeks or longer\n"
-            "• Long-acting (diazepam, nitrazepam): withdrawal begins 2–7 days after the last dose and continues for 2–8 weeks or longer\n"
-            "The first-week milestone is the point at which even longer-acting benzodiazepines have cleared enough for withdrawal to be in full effect.\n\n"
-            "Early Withdrawal Symptoms\n"
-            "• Rebound anxiety — often more intense than the original anxiety the drug treated\n"
-            "• Insomnia and disturbed sleep\n"
-            "• Tremors and muscle tension\n"
-            "• Sweating and palpitations\n"
-            "• Heightened sensitivity to light and sound\n\n"
+            "• Short-acting (oxazepam, alprazolam, temazepam): withdrawal typically begins 1–2 days after the last dose and continues for 2–4 weeks or longer\n"
+            "• Long-acting (diazepam, nitrazepam): withdrawal typically begins 2–7 days after the last dose and continues for 2–8 weeks or longer\n"
+            "The first week spans the typical onset window even for long-acting benzodiazepines.\n\n"
+            "What Symptoms Can Look Like\n"
+            "WHO lists anxiety, insomnia, restlessness, agitation or irritability, poor concentration or memory, and muscle tension or aches.\n\n"
             "Monitoring\n"
-            "The WHO guidelines note that withdrawal severity 'can fluctuate markedly,' so formal scales are not recommended; instead a clinician should check in every few hours, provide reassurance, and explain symptoms. Benzodiazepines enhance GABA, the brain's main calming signal; long-term use blunts that system, so removing the drug leaves the brain over-excited — the source of the anxiety, tremor, and seizure risk that make a gradual taper essential.",
+            "Withdrawal severity can fluctuate markedly. WHO recommends regular monitoring for symptoms and complications; in its closed-setting protocol, healthcare workers speak with patients every 3–4 hours and provide reassurance and explanation as needed.",
       ),
       QuitMilestone(
         day: 14,
