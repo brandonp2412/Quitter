@@ -755,11 +755,12 @@ class AppLocalizationsFr extends AppLocalizations {
       'Au jour 7, toute la fenêtre habituelle de début est couverte : le sevrage commence généralement 1–2 jours après les benzodiazépines à courte durée d’action et 2–7 jours après celles à longue durée d’action. Une diminution progressive aide à prévenir les crises convulsives.';
 
   @override
-  String get benzoMilestone14Title => 'Pic du sevrage aigu';
+  String get benzoMilestone14Title =>
+      'Deux semaines : le sommeil profond revient';
 
   @override
   String get benzoMilestone14Description =>
-      'Les symptômes de sevrage aigu atteignent généralement leur maximum au cours des deux premières semaines. Vous pouvez ressentir de l\'anxiété, des troubles du sommeil et un inconfort physique. Bien que difficiles, ces symptômes indiquent que votre cerveau commence à récupérer et à se rééquilibrer.';
+      'Environ deux semaines après un sevrage progressif des benzodiazépines, une étude clinique du sommeil a observé davantage de sommeil lent profond et une meilleure qualité de sommeil ressentie. C’est un signal concret de récupération précoce du sommeil.';
 
   @override
   String get benzoMilestone60Title =>
@@ -3100,7 +3101,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get benzodiazepineReferenceDay14 =>
-      'Sevrage des benzodiazépines : deux semaines\n\nSource : Ashton, « Protracted withdrawal syndromes from benzodiazepines », Journal of Substance Abuse Treatment (1991), PubMed\n\nToujours en sevrage aigu\nAprès deux semaines, beaucoup de personnes — surtout celles qui arrêtent une benzodiazépine à longue durée d\'action — sont encore dans la phase aiguë, lorsque le déséquilibre entre les systèmes calmant (GABA) et excitateur du cerveau est le plus marqué. Anxiété, insomnie et troubles perceptifs sont fréquents.\n\nPourquoi le sevrage peut durer\nLa professeure Heather Ashton décrit comment les premiers symptômes peuvent se prolonger. Anxiété, insomnie, difficultés à penser clairement et changements sensoriels peuvent durer plusieurs mois parce que les adaptations de tolérance du cerveau mettent du temps à s\'inverser.\n\nDes changements lentement réversibles\nAshton les décrit comme des « changements fonctionnels lentement réversibles du système nerveux central ». Le message central est celui de la récupération : le système nerveux inverse progressivement les adaptations fonctionnelles créées par une exposition prolongée aux benzodiazépines.\n\nLa diminution progressive est essentielle\nLes données soutiennent fortement un sevrage lent et supervisé comme moyen le plus sûr d\'arrêter, afin de laisser le cerveau se réadapter progressivement plutôt que de subir une perte soudaine de signalisation inhibitrice.';
+      'Sevrage des benzodiazépines : deux semaines\n\nSource : Poyares et al., \"Chronic benzodiazepine usage and withdrawal in insomnia patients\", Journal of Psychiatric Research (2004), PubMed\n\nUn vrai signal de récupération à deux semaines\nLes chercheurs ont suivi des personnes souffrant d’insomnie persistante qui prenaient des benzodiazépines chaque soir depuis des années, puis ont mesuré leur sommeil 15 jours après un sevrage progressif. Le sommeil lent profond, l’activité delta de l’EEG du sommeil et la qualité de sommeil ressentie se sont améliorés par rapport aux mesures réalisées pendant l’usage chronique de benzodiazépines.\n\nLe sommeil profond revient\nLe sommeil lent profond est la phase la plus profonde du sommeil non paradoxal. Au 15e jour, le sommeil lent profond et l’activité delta étaient plus élevés, tandis que le sommeil non paradoxal de stade 2 avait diminué vers le profil observé chez les témoins en bonne santé.\n\nUne récupération précoce, mesurée\nLe sommeil s’est d’abord dégradé juste après l’arrêt chez les participants qui ont terminé le sevrage, puis les mesures objectives du sommeil profond et la qualité de sommeil ressentie se sont améliorées au suivi du 15e jour. Cela fait de la barre des deux semaines un véritable jalon de récupération mesuré.';
 
   @override
   String get benzodiazepineReferenceDay60 =>

@@ -705,11 +705,11 @@ class AppLocalizationsZh extends AppLocalizations {
       '到第7天，您已经覆盖了典型的戒断起始窗口：短效苯二氮䓬类通常在末次服药后1–2天开始，长效药通常在2–7天开始。逐步减量很重要，因为这有助于预防癫痫发作。';
 
   @override
-  String get benzoMilestone14Title => '急性戒断高峰';
+  String get benzoMilestone14Title => '两周：深度睡眠开始回归';
 
   @override
   String get benzoMilestone14Description =>
-      '急性戒断症状通常在前两周内达到高峰。您可能会经历焦虑、睡眠障碍和身体不适。这些症状虽然具有挑战性，但表明您的大脑正在开始愈合和重新平衡。';
+      '逐步停用苯二氮卓约两周后，一项临床睡眠研究发现慢波睡眠增加，受试者自评睡眠质量也有所改善。这是睡眠系统开始早期恢复的一个具体信号。';
 
   @override
   String get benzoMilestone60Title => '睡眠结构改善';
@@ -2855,7 +2855,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get benzodiazepineReferenceDay14 =>
-      '苯二氮卓戒断：两周\n\n来源：Ashton，《Protracted withdrawal syndromes from benzodiazepines》，Journal of Substance Abuse Treatment（1991），PubMed\n\n仍处于急性戒断期\n到两周时，许多人——尤其是停用长效苯二氮卓的人——仍处于急性期，此时大脑镇静系统（GABA）与兴奋系统之间的失衡最为明显。焦虑、失眠和知觉障碍都很常见。\n\n为什么苯二氮卓戒断会迁延\nHeather Ashton教授描述了最初的戒断症状如何演变成更持久的问题。焦虑、失眠、思维不清晰和感觉变化可能持续数月，因为大脑的耐受性改变逆转得很慢。\n\n缓慢可逆的改变\nAshton将这些描述为“中枢神经系统中缓慢可逆的功能性改变”。其核心主张是恢复：神经系统会逐步逆转长期苯二氮卓暴露所造成的那种功能性适应。\n\n逐步减量是关键\n证据有力地支持将缓慢、受监督的减量作为最安全的停药方式，让大脑逐步重新适应，而不是突然面对抑制性信号的缺失。';
+      '苯二氮卓戒断：两周\n\n来源：Poyares 等，《Chronic benzodiazepine usage and withdrawal in insomnia patients》，Journal of Psychiatric Research（2004），PubMed\n\n两周左右出现了真实的恢复信号\n研究人员随访了长期失眠、连续多年每晚服用苯二氮卓的人，并在逐步停药15天后再次测量睡眠。与长期使用苯二氮卓期间相比，慢波睡眠、睡眠EEG中的δ活动以及受试者自评睡眠质量均有所改善。\n\n深度睡眠正在回来\n慢波睡眠是非快速眼动睡眠中最深的阶段。到第15天，慢波睡眠和δ活动更高，而第2阶段非快速眼动睡眠则朝健康对照组所见的模式下降。\n\n早期恢复，已有测量\n完成停药的参与者在停药后最初睡眠变差，但到第15天随访时，客观的深睡指标和自评睡眠质量都得到改善。因此，两周这个节点是一个真实、可测量的恢复里程碑。';
 
   @override
   String get benzodiazepineReferenceDay60 =>
@@ -4195,11 +4195,11 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
       '到第7天，你已涵蓋典型的戒斷起始窗口：短效苯二氮䓬類通常在最後一次服藥後1–2天開始，長效藥通常在2–7天開始。逐步減量很重要，因為這有助於預防癲癇發作。';
 
   @override
-  String get benzoMilestone14Title => '急性戒斷高峰';
+  String get benzoMilestone14Title => '兩週：深度睡眠開始回歸';
 
   @override
   String get benzoMilestone14Description =>
-      '急性戒斷症狀通常在前兩周內達到高峰。您可能會經歷焦慮、睡眠障礙和身體不適。這些症狀雖然具有挑戰性，但表明您的大腦正在開始愈合和重新平衡。';
+      '逐步停用苯二氮卓約兩週後，一項臨床睡眠研究發現慢波睡眠增加，受試者自評睡眠品質也有所改善。這是睡眠系統開始早期恢復的一個具體訊號。';
 
   @override
   String get benzoMilestone60Title => '睡眠結構改善';
@@ -6345,7 +6345,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get benzodiazepineReferenceDay14 =>
-      '苯二氮卓戒斷：兩周\n\n來源：Ashton，《Protracted withdrawal syndromes from benzodiazepines》，Journal of Substance Abuse Treatment（1991），PubMed\n\n仍處於急性戒斷期\n到兩周時，許多人——尤其是停用長效苯二氮卓的人——仍處於急性期，此時大腦鎮靜系統（GABA）與興奮系統之間的失衡最為明顯。焦慮、失眠和知覺障礙都很常見。\n\n為甚麼苯二氮卓戒斷會遷延\nHeather Ashton教授描述了最初的戒斷症狀如何演變成更持久的問題。焦慮、失眠、思維不清晰和感覺變化可能持續數月，因為大腦的耐受性改變逆轉得很慢。\n\n緩慢可逆的改變\nAshton將這些描述為“中樞神經系統中緩慢可逆的功能性改變”。其核心主張是恢復：神經系統會逐步逆轉長期苯二氮卓暴露所造成的那種功能性適應。\n\n逐步減量是關鍵\n證據有力地支持將緩慢、受監督的減量作為最安全的停藥方式，讓大腦逐步重新適應，而不是突然面對抑制性信號的缺失。';
+      '苯二氮卓戒斷：兩週\n\n來源：Poyares 等，《Chronic benzodiazepine usage and withdrawal in insomnia patients》，Journal of Psychiatric Research（2004），PubMed\n\n兩週左右出現了真實的恢復訊號\n研究人員追蹤了長期失眠、連續多年每晚服用苯二氮卓的人，並在逐步停藥15天後再次測量睡眠。與長期使用苯二氮卓期間相比，慢波睡眠、睡眠EEG中的δ活動以及受試者自評睡眠品質均有所改善。\n\n深度睡眠正在回來\n慢波睡眠是非快速動眼睡眠中最深的階段。到第15天，慢波睡眠和δ活動更高，而第2階段非快速動眼睡眠則朝健康對照組所見的模式下降。\n\n早期恢復，已有測量\n完成停藥的參與者在停藥後最初睡眠變差，但到第15天追蹤時，客觀的深睡指標和自評睡眠品質都得到改善。因此，兩週這個節點是一個真實、可測量的恢復里程碑。';
 
   @override
   String get benzodiazepineReferenceDay60 =>

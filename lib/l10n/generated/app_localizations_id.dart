@@ -740,11 +740,11 @@ class AppLocalizationsId extends AppLocalizations {
       'Pada hari ke-7, seluruh jendela awal yang umum sudah tercakup: putus benzodiazepin kerja singkat biasanya mulai 1–2 hari setelah dosis terakhir, sedangkan yang kerja panjang 2–7 hari. Penurunan dosis bertahap penting karena membantu mencegah kejang.';
 
   @override
-  String get benzoMilestone14Title => 'Puncak Penarikan Akut';
+  String get benzoMilestone14Title => 'Dua Minggu: Tidur Nyenyak Mulai Pulih';
 
   @override
   String get benzoMilestone14Description =>
-      'Gejala penarikan akut biasanya mencapai puncaknya dalam dua minggu pertama. Anda mungkin mengalami kecemasan, gangguan tidur, dan ketidaknyamanan fisik. Gejala-gejala ini, meski menantang, menunjukkan otak Anda mulai pulih dan seimbang.';
+      'Sekitar dua minggu setelah penghentian benzodiazepin secara bertahap, sebuah studi tidur klinis menemukan peningkatan tidur gelombang lambat dan kualitas tidur yang dirasakan. Ini adalah tanda pemulihan awal yang nyata pada sistem tidur.';
 
   @override
   String get benzoMilestone60Title => 'Arsitektur Tidur Meningkat';
@@ -3036,7 +3036,7 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get benzodiazepineReferenceDay14 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Penghentian Benzodiazepin: Dua Minggu\n\nSumber: Poyares dkk., \"Chronic benzodiazepine usage and withdrawal in insomnia patients\", Journal of Psychiatric Research (2004), di PubMed\n\nSinyal Pemulihan Nyata Sekitar Dua Minggu\nPeneliti mengikuti orang dengan insomnia menetap yang telah menggunakan benzodiazepin setiap malam selama bertahun-tahun, lalu mengukur tidur mereka lagi 15 hari setelah penghentian bertahap. Tidur gelombang lambat, aktivitas delta EEG saat tidur, dan kualitas tidur yang dirasakan semuanya membaik dibandingkan pengukuran saat penggunaan benzodiazepin kronis.\n\nTidur Nyenyak Mulai Kembali\nTidur gelombang lambat adalah tahap terdalam dari tidur non-REM. Pada hari ke-15, tidur gelombang lambat dan aktivitas delta meningkat, sementara tidur non-REM tahap 2 menurun ke arah pola yang terlihat pada kelompok kontrol sehat.\n\nPemulihan Awal yang Terukur\nTidur memburuk segera setelah penghentian pada peserta yang berhasil menyelesaikannya, kemudian ukuran objektif tidur nyenyak dan kualitas tidur yang dirasakan membaik pada tindak lanjut hari ke-15. Itu menjadikan titik dua minggu sebagai tonggak pemulihan yang nyata dan terukur.';
 
   @override
   String get benzodiazepineReferenceDay60 =>

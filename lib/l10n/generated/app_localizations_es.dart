@@ -734,11 +734,11 @@ class AppLocalizationsEs extends AppLocalizations {
       'Al día 7 ya has alcanzado toda la ventana típica de inicio: la abstinencia suele comenzar 1–2 días después de las benzodiacepinas de acción corta y 2–7 días después de las de acción larga. Una reducción gradual es importante porque ayuda a prevenir convulsiones.';
 
   @override
-  String get benzoMilestone14Title => 'Pico de abstinencia aguda';
+  String get benzoMilestone14Title => 'Dos semanas: vuelve el sueño profundo';
 
   @override
   String get benzoMilestone14Description =>
-      'Los síntomas de abstinencia aguda suelen alcanzar su punto máximo durante las dos primeras semanas. Puedes experimentar ansiedad, alteraciones del sueño y malestar físico. Aunque son difíciles, estos síntomas indican que tu cerebro está empezando a recuperarse y reequilibrarse.';
+      'Alrededor de dos semanas después de una retirada gradual de benzodiacepinas, un estudio clínico del sueño encontró más sueño de ondas lentas y una mejor calidad de sueño percibida. Es una señal temprana y concreta de recuperación del sueño.';
 
   @override
   String get benzoMilestone60Title => 'Mejora la estructura del sueño';
@@ -3068,7 +3068,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get benzodiazepineReferenceDay14 =>
-      'Abstinencia de benzodiacepinas: dos semanas\n\nFuente: Ashton, \"Protracted withdrawal syndromes from benzodiazepines,\" Journal of Substance Abuse Treatment (1991), en PubMed\n\nAún en la fase aguda\nA las dos semanas, muchas personas —especialmente quienes dejan benzodiacepinas de acción prolongada— siguen en la fase aguda, cuando el desequilibrio entre los sistemas inhibidores del cerebro (GABA) y los excitadores puede ser más pronunciado. La ansiedad, el insomnio y las alteraciones perceptivas son frecuentes.\n\nPor qué la abstinencia puede prolongarse\nLa profesora Heather Ashton describe cómo los primeros síntomas de abstinencia pueden mezclarse con problemas de mayor duración. La ansiedad, el insomnio, la dificultad para pensar con claridad y los cambios sensoriales pueden continuar durante meses porque las adaptaciones de tolerancia del cerebro pueden tardar en revertirse.\n\nCambios lentamente reversibles\nAshton caracteriza estos fenómenos como cambios funcionales del sistema nervioso central que se revierten lentamente. La idea central es la recuperación: el sistema nervioso va deshaciendo de forma progresiva las adaptaciones funcionales creadas por la exposición prolongada a benzodiacepinas.\n\nLa reducción gradual es clave\nLa evidencia respalda una reducción lenta y supervisada como la forma más segura de dejar las benzodiacepinas, dando tiempo al cerebro para readaptarse gradualmente en lugar de enfrentarse a una pérdida brusca de señalización inhibidora.';
+      'Abstinencia de benzodiacepinas: dos semanas\n\nFuente: Poyares et al., \"Chronic benzodiazepine usage and withdrawal in insomnia patients\", Journal of Psychiatric Research (2004), en PubMed\n\nUna señal real de recuperación a las dos semanas\nLos investigadores siguieron a personas con insomnio persistente que habían tomado benzodiacepinas cada noche durante años y volvieron a medir su sueño 15 días después de una retirada gradual. El sueño de ondas lentas, la actividad delta del EEG durante el sueño y la calidad de sueño percibida mejoraron frente a las mediciones realizadas durante el uso crónico de benzodiacepinas.\n\nEl sueño profundo está volviendo\nEl sueño de ondas lentas es la fase más profunda del sueño no REM. Para el día 15, el sueño de ondas lentas y la actividad delta eran mayores, mientras que el sueño no REM de fase 2 había disminuido hacia el patrón observado en controles sanos.\n\nRecuperación temprana, medida\nEl sueño empeoró justo después de la retirada en quienes la completaron, pero para el seguimiento del día 15 mejoraron las medidas objetivas de sueño profundo y la calidad de sueño percibida. Eso convierte la marca de dos semanas en un hito de recuperación real y medido.';
 
   @override
   String get benzodiazepineReferenceDay60 =>

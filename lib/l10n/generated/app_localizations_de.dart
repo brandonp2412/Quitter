@@ -743,11 +743,11 @@ class AppLocalizationsDe extends AppLocalizations {
       'Bis Tag 7 ist das gesamte typische Zeitfenster für den Beginn erreicht: Bei kurz wirksamen Benzodiazepinen beginnt der Entzug meist nach 1–2 Tagen, bei lang wirksamen nach 2–7 Tagen. Langsames Ausschleichen ist wichtig, weil es Krampfanfälle verhindern hilft.';
 
   @override
-  String get benzoMilestone14Title => 'Akute Entzugsspitze';
+  String get benzoMilestone14Title => 'Zwei Wochen: Tiefschlaf erholt sich';
 
   @override
   String get benzoMilestone14Description =>
-      'Akute Entzugserscheinungen erreichen typischerweise innerhalb der ersten zwei Wochen ihren Höhepunkt. Sie können Angst, Schlafstörungen und körperliche Beschwerden erleben. Diese Symptome zeigen, während herausfordernd, Ihr Gehirn beginnt zu heilen und wieder auszugleichen.';
+      'Etwa zwei Wochen nach einem schrittweisen Benzodiazepin-Entzug zeigte eine klinische Schlafstudie mehr Tiefschlaf und eine bessere subjektive Schlafqualität. Das ist ein konkretes frühes Erholungssignal für den Schlaf.';
 
   @override
   String get benzoMilestone60Title => 'Schlafarchitektur verbessert';
@@ -3051,7 +3051,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get benzodiazepineReferenceDay14 =>
-      'Benzodiazepin-Entzug: Zwei Wochen\n\nQuelle: Ashton, \"Protracted Entzugssyndroms von Benzodiazepinen\", Journal of Substance Abuse Treatment (1991), auf PubMed\n\nImmer noch in akutem Rückzug\nNach zwei Wochen befinden sich viele Menschen - insbesondere diejenigen, die länger wirkende Benzodiazepine einnehmen - noch in der akuten Phase, wenn das Ungleichgewicht zwischen dem beruhigenden (GABA) und dem erregenden System des Gehirns am ausgeprägtesten ist. Angst, Schlaflosigkeit und Wahrnehmungsstörungen sind üblich.\n\nWarum Benzo-Rückzug sich ziehen kann\nProfessor Heather Ashton beschreibt, wie sich die ersten Entzugserscheinungen in länger anhaltende Probleme einfügen können. Angst, Schlaflosigkeit, Schwierigkeiten beim klaren Denken und sensorische Veränderungen können monatelang andauern, weil die Toleranzänderungen des Gehirns sich langsam umkehren können.\n\nLangsam reversible Veränderungen\nAshton charakterisiert diese als \"langsam reversible funktionelle Veränderungen im zentralen Nervensystem\". Der zentrale Anspruch ist die Erholung: Das Nervensystem kehrt schrittweise die funktionellen Anpassungen um, die durch eine langfristige Benzodiazepin-Exposition entstehen.\n\nStufenverjüngung Ist der Schlüssel\nDie Beweise unterstützen stark eine langsame, überwachte Verjüngung als der sicherste Weg, um zu stoppen, so dass das Gehirn allmählich wieder anpassen, anstatt einen plötzlichen Verlust der hemmenden Signalisierung.';
+      'Benzodiazepin-Entzug: Zwei Wochen\n\nQuelle: Poyares et al., \"Chronic benzodiazepine usage and withdrawal in insomnia patients\", Journal of Psychiatric Research (2004), PubMed\n\nEin echtes Erholungssignal nach rund zwei Wochen\nDie Forschenden untersuchten Menschen mit anhaltender Insomnie, die jahrelang jede Nacht Benzodiazepine eingenommen hatten, und maßen den Schlaf 15 Tage nach einem schrittweisen Entzug erneut. Tiefschlaf, Delta-Aktivität im Schlaf-EEG und die subjektive Schlafqualität verbesserten sich gegenüber den Messungen während des chronischen Benzodiazepin-Gebrauchs.\n\nDer Tiefschlaf kommt zurück\nDer Slow-Wave-Schlaf ist die tiefste Phase des Non-REM-Schlafs. Am 15. Tag waren Tiefschlaf und Delta-Aktivität höher, während der Non-REM-Schlaf der Phase 2 in Richtung des Musters gesunder Kontrollpersonen zurückging.\n\nFrühe Erholung, gemessen\nDirekt nach dem Entzug verschlechterte sich der Schlaf bei den Teilnehmenden, die ihn abschlossen. Bis zur Kontrolle am 15. Tag verbesserten sich dann objektive Tiefschlafwerte und die berichtete Schlafqualität. Damit ist die Zwei-Wochen-Marke ein echter, gemessener Erholungsmeilenstein.';
 
   @override
   String get benzodiazepineReferenceDay60 =>

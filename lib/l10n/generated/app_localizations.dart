@@ -1371,13 +1371,13 @@ abstract class AppLocalizations {
   /// No description provided for @benzoMilestone14Title.
   ///
   /// In en, this message translates to:
-  /// **'Acute Withdrawal Peak'**
+  /// **'Two Weeks: Deep Sleep Rebounds'**
   String get benzoMilestone14Title;
 
   /// No description provided for @benzoMilestone14Description.
   ///
   /// In en, this message translates to:
-  /// **'Acute withdrawal symptoms typically peak within the first two weeks. You may experience anxiety, sleep disturbances, and physical discomfort. These symptoms, while challenging, indicate your brain is starting to heal and rebalance.'**
+  /// **'Around two weeks after gradual benzodiazepine withdrawal, a clinical sleep study found deeper slow-wave sleep and better reported sleep quality. That’s a concrete early recovery signal for the sleeping brain.'**
   String get benzoMilestone14Description;
 
   /// No description provided for @benzoMilestone60Title.
@@ -5217,7 +5217,7 @@ abstract class AppLocalizations {
   /// No description provided for @benzodiazepineReferenceDay14.
   ///
   /// In en, this message translates to:
-  /// **'Benzodiazepine Withdrawal: Two Weeks\n\nSource: Ashton, \"Protracted withdrawal syndromes from benzodiazepines,\" Journal of Substance Abuse Treatment (1991), on PubMed\n\nStill in Acute Withdrawal\nAt two weeks, many people — especially those coming off longer-acting benzodiazepines — are still in the acute phase, when the imbalance between the brain\'s calming (GABA) and excitatory systems is most pronounced. Anxiety, insomnia, and perceptual disturbances are common.\n\nWhy Benzo Withdrawal Can Drag On\nProfessor Heather Ashton describes how the first withdrawal symptoms can blend into longer-lasting problems. Anxiety, insomnia, trouble thinking clearly, and sensory changes can continue for months because the brain\'s tolerance changes can be slow to reverse.\n\nSlowly Reversible Changes\nAshton characterises these as \'slowly reversible functional changes in the central nervous system.\' The central claim is recovery: the nervous system progressively reverses the functional adaptations created by long-term benzodiazepine exposure.\n\nGradual Taper Is Key\nThe evidence strongly supports a slow, supervised taper as the safest way to stop, letting the brain gradually re-adapt rather than facing a sudden loss of inhibitory signalling.'**
+  /// **'Benzodiazepine Withdrawal: Two Weeks\n\nSource: Poyares et al., \"Chronic benzodiazepine usage and withdrawal in insomnia patients,\" Journal of Psychiatric Research (2004), on PubMed\n\nA Real Two-Week Sleep Recovery Signal\nResearchers followed people with persistent insomnia who had taken benzodiazepines nightly for years and measured sleep again 15 days after gradual withdrawal. Slow-wave sleep, sleep EEG delta activity, and subjective sleep quality all improved compared with measurements during chronic benzodiazepine use.\n\nDeep Sleep Is Coming Back\nSlow-wave sleep is the deepest stage of non-REM sleep. By day 15, slow-wave sleep and delta activity were higher, while stage 2 non-REM sleep had fallen toward the pattern seen in healthy controls.\n\nEarly Recovery, Measured\nSleep worsened immediately after withdrawal for the participants who completed it, then objective deep-sleep measures and reported sleep quality improved by the 15-day follow-up. That makes the two-week mark a genuine, measured recovery milestone.'**
   String get benzodiazepineReferenceDay14;
 
   /// No description provided for @benzodiazepineReferenceDay60.

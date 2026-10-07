@@ -706,11 +706,11 @@ class AppLocalizationsJa extends AppLocalizations {
       '7日目までで、典型的な離脱症状の発症時期を一通りカバーします。短時間作用型では通常、最終服用から1～2日、長時間作用型では2～7日で始まります。けいれん予防のためにも、段階的な減量が重要です。';
 
   @override
-  String get benzoMilestone14Title => '急性離脱のピーク';
+  String get benzoMilestone14Title => '2週間：深い睡眠が戻り始める';
 
   @override
   String get benzoMilestone14Description =>
-      '急性離脱症状は通常最初の2週間以内にピークを迎えます。不安、睡眠障害、身体的不快感を経験するかもしれません。これらの症状は困難ですが、脳が癒え始め再バランスしていることを示しています。';
+      'ベンゾジアゼピンを段階的に中止して約2週間後、臨床睡眠研究では徐波睡眠が増え、本人が感じる睡眠の質も改善しました。睡眠が早い段階から回復し始めることを示す具体的なサインです。';
 
   @override
   String get benzoMilestone60Title => '睡眠構造の改善';
@@ -2858,7 +2858,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get benzodiazepineReferenceDay14 =>
-      'ベンゾジアゼピン離脱：2週間\n\n出典：Ashton, \"Protracted withdrawal syndromes from benzodiazepines,\" Journal of Substance Abuse Treatment (1991),、PubMed所収\n\nまだ急性離脱の最中\n2週間の時点では、多くの人—特に作用時間の長いベンゾジアゼピンをやめた人—はまだ急性期にあり、脳の鎮静系（GABA）と興奮系の不均衡が最も顕著な時期です。不安、不眠、知覚の障害がよくみられます。\n\nベンゾジアゼピン離脱が長引く理由\nHeather Ashton教授は、最初の離脱症状がより長く続く問題へと移行し得ることを説明しています。不安、不眠、思考がはっきりしない状態、感覚の変化は、脳の耐性変化が元に戻るのに時間がかかるため、数ヶ月続くことがあります。\n\nゆっくりと可逆的な変化\nAshtonはこれらを「中枢神経系における、ゆっくりと可逆的な機能変化」と特徴づけています。その中心的な主張は回復です：神経系は、長期のベンゾジアゼピン曝露が作り出した機能的適応を徐々に元に戻していきます。\n\n段階的な漸減が鍵\nエビデンスは、最も安全な中止方法として、ゆっくりとした医療監督下の漸減を強く支持しています。抑制性シグナルの突然の喪失に直面するのではなく、脳を徐々に再適応させるのです。';
+      'ベンゾジアゼピン離脱：2週間\n\n出典：Poyares ら, \"Chronic benzodiazepine usage and withdrawal in insomnia patients\", Journal of Psychiatric Research (2004), PubMed\n\n約2週間で確認された実際の回復サイン\n研究では、長年にわたり毎晩ベンゾジアゼピンを使用していた持続性不眠症の人を追跡し、段階的な中止から15日後に睡眠を再評価しました。慢性的な使用中と比べて、徐波睡眠、睡眠EEGのデルタ活動、本人が感じる睡眠の質がいずれも改善しました。\n\n深い睡眠が戻ってくる\n徐波睡眠はノンレム睡眠の最も深い段階です。15日目には徐波睡眠とデルタ活動が増え、ステージ2のノンレム睡眠は健康な対照群でみられたパターンに近づく方向へ減少しました。\n\n早期回復を実測\n中止を完了した参加者では直後に睡眠が悪化しましたが、15日目の追跡では客観的な深睡眠指標と本人が感じる睡眠の質が改善しました。2週間という節目は、実際に測定された回復のマイルストーンです。';
 
   @override
   String get benzodiazepineReferenceDay60 =>

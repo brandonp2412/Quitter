@@ -747,11 +747,11 @@ class AppLocalizationsPl extends AppLocalizations {
       'Do 7. dnia obejmujesz całe typowe okno początku objawów: po krótko działających benzodiazepinach odstawienie zwykle zaczyna się po 1–2 dniach, a po długo działających po 2–7 dniach. Stopniowe zmniejszanie dawki pomaga zapobiegać napadom drgawkowym.';
 
   @override
-  String get benzoMilestone14Title => 'Ostry szczyt odstawienny';
+  String get benzoMilestone14Title => 'Dwa tygodnie: wraca głęboki sen';
 
   @override
   String get benzoMilestone14Description =>
-      'Ostre objawy odstawienne zwykle szczytowe w ciągu pierwszych dwóch tygodni. Możesz doświadczyć anxiety, zaburzenia snu, i fizyczne dyskomfortu. Te objawy, podczas konkurowania, wskazują, że mózg zaczyna się goić i rebalansować.';
+      'Około dwóch tygodni po stopniowym odstawieniu benzodiazepin badanie kliniczne snu wykazało więcej snu wolnofalowego i lepszą zgłaszaną jakość snu. To konkretny, wczesny sygnał regeneracji snu.';
 
   @override
   String get benzoMilestone60Title => 'Poprawia architekturę snu';
@@ -3061,7 +3061,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get benzodiazepineReferenceDay14 =>
-      'Benzodiazepina w czasie leczenia: dwa tygodnie\n\nŹródło: Ashton, \"Protracted withdrawal syndromes from benzodiazepines,\" Journal of Substance Abuse Treatment (1991), on PubMed\n\nNadal w ostrym odstąpieniu\nW dwa tygodnie, wielu ludzi szczególnie tych, którzy wychodzą z dłużej działających benzodiazepin nadal w fazie ostrej, gdy brak równowagi między mózgów uspokajających GABA ) i systemów wzbudzających jest najbardziej wypowiedziane. anxiety, insomnia, i zaburzenia percepcyjne są powszechne.\n\nDlaczego Benzo wycofuje się może się przeciągnąć\nProfesor Heather Ashton opisuje, w jaki sposób pierwsze objawy odstawienne mogą się mieścić w długotrwałe problemy. Anxietya, bezsenność, problemy z myśleniem w sposób jasny, a zmiany sensoryczne mogą trwać miesiącami, ponieważ zmiany tolerancji mózgów mogą być powolne do odwrócenia.\n\nPowoli odwracalne zmiany\nAshton opisuje je jako powoli odwracalne zmiany funkcjonalne w ośrodkowym systemie nerwowym.Centralne roszczenie jest odzyskiwane: układ nerwowy stopniowo odwraca funkcjonalne dostosowania spowodowane długotrwałą ekspozycją benzodiazepin.\n\nStopniowe Taper jest kluczem\nDowody zdecydowanie popiera powolne, nadzorowane stożek jako najbezpieczniejszy sposób zatrzymania, pozwalając mózgu stopniowo dostosowywać się zamiast stawić czoła nagłej utraty hamowania sygnalizacji.';
+      'Odstawienie benzodiazepin: dwa tygodnie\n\nŹródło: Poyares i wsp., \"Chronic benzodiazepine usage and withdrawal in insomnia patients\", Journal of Psychiatric Research (2004), PubMed\n\nRzeczywisty sygnał poprawy po około dwóch tygodniach\nBadacze obserwowali osoby z przewlekłą bezsennością, które przez lata przyjmowały benzodiazepiny każdej nocy, i ponownie zbadali ich sen 15 dni po stopniowym odstawieniu. W porównaniu z okresem przewlekłego stosowania benzodiazepin poprawiły się sen wolnofalowy, aktywność delta w EEG snu oraz zgłaszana jakość snu.\n\nGłęboki sen wraca\nSen wolnofalowy jest najgłębszym etapem snu NREM. Do 15. dnia zwiększyły się sen wolnofalowy i aktywność delta, a sen NREM w stadium 2 zmniejszył się w kierunku wzorca obserwowanego u zdrowych osób z grupy kontrolnej.\n\nWczesna poprawa potwierdzona pomiarem\nU uczestników, którzy ukończyli odstawianie, sen pogorszył się bezpośrednio po odstawieniu, ale do kontroli w 15. dniu poprawiły się obiektywne wskaźniki głębokiego snu i zgłaszana jakość snu. Dzięki temu dwa tygodnie są rzeczywistym, zmierzonym kamieniem milowym regeneracji.';
 
   @override
   String get benzodiazepineReferenceDay60 =>

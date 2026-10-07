@@ -743,11 +743,11 @@ class AppLocalizationsPt extends AppLocalizations {
       'Ao dia 7, já percorreste toda a janela típica de início: a abstinência costuma começar 1–2 dias após benzodiazepinas de ação curta e 2–7 dias após as de ação longa. A redução gradual é importante porque ajuda a prevenir convulsões.';
 
   @override
-  String get benzoMilestone14Title => 'Pico de Abstinência Aguda';
+  String get benzoMilestone14Title => 'Duas semanas: o sono profundo regressa';
 
   @override
   String get benzoMilestone14Description =>
-      'Os sintomas agudos de abstinência normalmente atingem o pico nas primeiras duas semanas. Pode sentir ansiedade, distúrbios do sono e desconforto físico. Esses sintomas, embora desafiadores, indicam que seu cérebro está começando a se curar e a se reequilibrar.';
+      'Cerca de duas semanas após a retirada gradual de benzodiazepinas, um estudo clínico do sono encontrou mais sono de ondas lentas e melhor qualidade de sono relatada. É um sinal concreto de recuperação precoce do sono.';
 
   @override
   String get benzoMilestone60Title => 'A arquitetura do sono melhora';
@@ -3067,7 +3067,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get benzodiazepineReferenceDay14 =>
-      'Abstinência de benzodiazepínicos: duas semanas\n\nFonte: Ashton, \"Síndromes de abstinência prolongada de benzodiazepínicos\", Journal of Substance Abuse Treatment (1991), no PubMed\n\nAinda em abstinência aguda\nApós duas semanas, muitas pessoas – especialmente aquelas que estão abandonando os benzodiazepínicos de ação mais prolongada – ainda estão na fase aguda, quando o desequilíbrio entre os sistemas calmante (GABA) e excitatório do cérebro é mais pronunciado. Ansiedade, insónia e distúrbios perceptivos são comuns.\n\nPor que a abstinência do Benzo pode se arrastar\nA professora Heather Ashton descreve como os primeiros sintomas de abstinência podem se misturar a problemas duradouros. Ansiedade, insónia, dificuldade para pensar com clareza e alterações sensoriais podem continuar por meses porque as alterações de tolerância do cérebro podem demorar para serem revertidas.\n\nMudanças lentamente reversíveis\nAshton as caracteriza como “mudanças funcionais lentamente reversíveis no sistema nervoso central”. A reivindicação central é a recuperação: o sistema nervoso reverte progressivamente as adaptações funcionais criadas pela exposição prolongada aos benzodiazepínicos.\n\nA redução gradual é a chave\nA evidência apoia fortemente uma redução lenta e supervisionada como a forma mais segura de parar, permitindo que o cérebro se readapte gradualmente, em vez de enfrentar uma perda súbita de sinalização inibitória.';
+      'Abstinência de benzodiazepinas: duas semanas\n\nFonte: Poyares et al., \"Chronic benzodiazepine usage and withdrawal in insomnia patients\", Journal of Psychiatric Research (2004), no PubMed\n\nUm sinal real de recuperação por volta das duas semanas\nOs investigadores acompanharam pessoas com insónia persistente que tinham tomado benzodiazepinas todas as noites durante anos e voltaram a medir o sono 15 dias após uma retirada gradual. O sono de ondas lentas, a atividade delta no EEG do sono e a qualidade de sono relatada melhoraram em comparação com as medições feitas durante o uso crónico de benzodiazepinas.\n\nO sono profundo está a voltar\nO sono de ondas lentas é a fase mais profunda do sono não REM. No dia 15, o sono de ondas lentas e a atividade delta estavam mais elevados, enquanto o sono não REM de fase 2 tinha diminuído na direção do padrão observado em controlos saudáveis.\n\nRecuperação precoce, medida\nO sono piorou imediatamente após a retirada nos participantes que a concluíram, mas até ao seguimento do dia 15 melhoraram as medidas objetivas de sono profundo e a qualidade de sono relatada. Isso faz das duas semanas um marco de recuperação real e medido.';
 
   @override
   String get benzodiazepineReferenceDay60 =>
@@ -4437,11 +4437,11 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
       'No dia 7, você já alcançou toda a janela típica de início: a abstinência costuma começar 1–2 dias após benzodiazepínicos de ação curta e 2–7 dias após os de ação longa. A redução gradual é importante porque ajuda a prevenir convulsões.';
 
   @override
-  String get benzoMilestone14Title => 'Pico de Retirada Aguda';
+  String get benzoMilestone14Title => 'Duas semanas: o sono profundo volta';
 
   @override
   String get benzoMilestone14Description =>
-      'Os sintomas agudos de abstinência normalmente atingem o pico nas primeiras duas semanas. Você pode sentir ansiedade, distúrbios do sono e desconforto físico. Esses sintomas, embora desafiadores, indicam que seu cérebro está começando a se curar e a se reequilibrar.';
+      'Cerca de duas semanas após a retirada gradual de benzodiazepínicos, um estudo clínico do sono encontrou mais sono de ondas lentas e melhor qualidade de sono relatada. É um sinal concreto de recuperação precoce do sono.';
 
   @override
   String get benzoMilestone60Title => 'A arquitetura do sono melhora';
@@ -6759,7 +6759,7 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get benzodiazepineReferenceDay14 =>
-      'Retirada de benzodiazepínicos: duas semanas\n\nFonte: Ashton, \"Síndromes de abstinência prolongada de benzodiazepínicos\", Journal of Substance Abuse Treatment (1991), no PubMed\n\nAinda em abstinência aguda\nApós duas semanas, muitas pessoas – especialmente aquelas que estão abandonando os benzodiazepínicos de ação mais prolongada – ainda estão na fase aguda, quando o desequilíbrio entre os sistemas calmante (GABA) e excitatório do cérebro é mais pronunciado. Ansiedade, insônia e distúrbios perceptivos são comuns.\n\nPor que a retirada do Benzo pode se arrastar\nA professora Heather Ashton descreve como os primeiros sintomas de abstinência podem se misturar a problemas duradouros. Ansiedade, insônia, dificuldade para pensar com clareza e alterações sensoriais podem continuar por meses porque as alterações de tolerância do cérebro podem demorar para serem revertidas.\n\nMudanças lentamente reversíveis\nAshton as caracteriza como “mudanças funcionais lentamente reversíveis no sistema nervoso central”.A reivindicação central é a recuperação: o sistema nervoso reverte progressivamente as adaptações funcionais criadas pela exposição prolongada aos benzodiazepínicos.\n\nA redução gradual é a chave\nA evidência apoia fortemente uma redução lenta e supervisionada como a forma mais segura de parar, permitindo que o cérebro se readapte gradualmente, em vez de enfrentar uma perda súbita de sinalização inibitória.';
+      'Retirada de benzodiazepínicos: duas semanas\n\nFonte: Poyares et al., \"Chronic benzodiazepine usage and withdrawal in insomnia patients\", Journal of Psychiatric Research (2004), no PubMed\n\nUm sinal real de recuperação por volta de duas semanas\nOs pesquisadores acompanharam pessoas com insônia persistente que tomavam benzodiazepínicos todas as noites havia anos e mediram o sono novamente 15 dias após uma retirada gradual. O sono de ondas lentas, a atividade delta no EEG do sono e a qualidade de sono relatada melhoraram em comparação com as medições feitas durante o uso crônico de benzodiazepínicos.\n\nO sono profundo está voltando\nO sono de ondas lentas é a fase mais profunda do sono não REM. No dia 15, o sono de ondas lentas e a atividade delta estavam maiores, enquanto o sono não REM de estágio 2 havia diminuído na direção do padrão observado em controles saudáveis.\n\nRecuperação precoce, medida\nO sono piorou imediatamente após a retirada nos participantes que a concluíram, mas até o acompanhamento do dia 15 melhoraram as medidas objetivas de sono profundo e a qualidade de sono relatada. Isso faz da marca de duas semanas um marco de recuperação real e medido.';
 
   @override
   String get benzodiazepineReferenceDay60 =>

@@ -38,21 +38,19 @@ class BenzodiazepinePage extends StatelessWidget {
         title: l10n.benzoMilestone14Title,
         description: l10n.benzoMilestone14Description,
         reference:
-            "Protracted Withdrawal Syndromes From Benzodiazepines (PubMed)",
-        link: "https://pubmed.ncbi.nlm.nih.gov/1675688/",
-        referenceDate: "June 2026",
+            "Chronic Benzodiazepine Usage and Withdrawal in Insomnia Patients (PubMed)",
+        link: "https://pubmed.ncbi.nlm.nih.gov/15003439/",
+        referenceDate: "October 2026",
         localizedReferenceContent: l10n.benzodiazepineReferenceDay14,
         referenceContent:
             "Benzodiazepine Withdrawal: Two Weeks\n\n"
-            "Source: Ashton, \"Protracted withdrawal syndromes from benzodiazepines,\" Journal of Substance Abuse Treatment (1991), on PubMed\n\n"
-            "Still in Acute Withdrawal\n"
-            "At two weeks, many people — especially those coming off longer-acting benzodiazepines — are still in the acute phase, when the imbalance between the brain's calming (GABA) and excitatory systems is most pronounced. Anxiety, insomnia, and perceptual disturbances are common.\n\n"
-            "Why Benzo Withdrawal Can Drag On\n"
-            "Professor Heather Ashton describes how the first withdrawal symptoms can blend into longer-lasting problems. Anxiety, insomnia, trouble thinking clearly, and sensory changes can continue for months because the brain's tolerance changes can be slow to reverse.\n\n"
-            "Slowly Reversible Changes\n"
-            "Ashton characterises these as 'slowly reversible functional changes in the central nervous system.' The central claim is recovery: the nervous system progressively reverses the functional adaptations created by long-term benzodiazepine exposure.\n\n"
-            "Gradual Taper Is Key\n"
-            "The evidence strongly supports a slow, supervised taper as the safest way to stop, letting the brain gradually re-adapt rather than facing a sudden loss of inhibitory signalling.",
+            "Source: Poyares et al., \"Chronic benzodiazepine usage and withdrawal in insomnia patients,\" Journal of Psychiatric Research (2004), on PubMed\n\n"
+            "A Real Two-Week Sleep Recovery Signal\n"
+            "Researchers followed people with persistent insomnia who had taken benzodiazepines nightly for years and measured sleep again 15 days after gradual withdrawal. Slow-wave sleep, sleep EEG delta activity, and subjective sleep quality all improved compared with measurements during chronic benzodiazepine use.\n\n"
+            "Deep Sleep Is Coming Back\n"
+            "Slow-wave sleep is the deepest stage of non-REM sleep. By day 15, slow-wave sleep and delta activity were higher, while stage 2 non-REM sleep had fallen toward the pattern seen in healthy controls.\n\n"
+            "Early Recovery, Measured\n"
+            "Sleep worsened immediately after withdrawal for the participants who completed it, then objective deep-sleep measures and reported sleep quality improved by the 15-day follow-up. That makes the two-week mark a genuine, measured recovery milestone.",
       ),
       QuitMilestone(
         day: 60,
