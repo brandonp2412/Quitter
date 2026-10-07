@@ -3690,7 +3690,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get vapingDay3Description =>
-      'Drei Tage vape-frei. In einer klinischen Studie mit ehemaligen Rauchern, die täglich E-Zigaretten nutzten, stieg der Entzug in den ersten zwei abstinenten Tagen an und zeigte den typischen Anstieg-und-Abfall-Verlauf. Die scharfe frühe Welle liegt hinter dir; Verlangen kann noch auftauchen, aber es sitzt nicht am Steuer.';
+      'Drei Tage vape-frei. In einer klinischen Studie mit ehemaligen Rauchern, die täglich E-Zigaretten nutzten, erreichte der mittlere Entzugswert am ersten oder zweiten Tag seinen Höhepunkt und sank dann über die folgenden vier abstinenten Tage. Du bist jetzt über das frühe Spitzenfenster dieser Studie hinaus; Verlangen kann noch auftauchen, aber es sitzt nicht am Steuer.';
 
   @override
   String get vapingDay7Description =>

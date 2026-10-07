@@ -3493,7 +3493,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get vapingDay3Description =>
-      'ベイプなしで3日。毎日電子タバコを使っていた元喫煙者の臨床研究では、離脱症状は最初の2日間に増え、その後は典型的な上がって下がる経過を示しました。鋭い初期の波は越えています。欲求が来ても、主導権はあなたにあります。';
+      'ベイプなしで3日。毎日電子タバコを使っていた元喫煙者の臨床研究では、離脱症状の平均値は1日目または2日目にピークを迎え、その後の4日間は低下しました。今は、その研究で見られた初期ピークの時期を越えています。欲求が来ても、主導権はあなたにあります。';
 
   @override
   String get vapingDay7Description =>

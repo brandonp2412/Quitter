@@ -3735,7 +3735,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get vapingDay3Description =>
-      'Trois jours sans vape. Dans une étude clinique menée chez d’anciens fumeurs vapotant chaque jour, le sevrage a augmenté pendant les deux premiers jours d’abstinence puis a suivi le schéma classique de montée puis de baisse. Tu as passé la forte vague du début ; les envies peuvent encore surgir, mais elles ne tiennent pas le volant.';
+      'Trois jours sans vape. Dans une étude clinique menée chez d’anciens fumeurs vapotant chaque jour, le niveau moyen de sevrage a culminé au 1er ou au 2e jour, puis a diminué pendant les quatre jours d’abstinence suivants. Tu es maintenant au-delà de la fenêtre du pic précoce observée dans cette étude ; les envies peuvent encore surgir, mais elles ne tiennent pas le volant.';
 
   @override
   String get vapingDay7Description =>

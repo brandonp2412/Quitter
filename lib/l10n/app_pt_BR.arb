@@ -1729,7 +1729,7 @@
   "@vapingDay1Description": {
     "description": "Vaping milestone day 1 evidence-based description"
   },
-  "vapingDay3Description": "Três dias sem vape. Em um estudo clínico com ex-fumantes que usavam cigarro eletrônico diariamente, os sintomas de abstinência aumentaram nos dois primeiros dias sem uso e depois seguiram o padrão clássico de subida e queda. Você já atravessou essa onda inicial mais forte; a fissura ainda pode aparecer, mas não está no comando.",
+  "vapingDay3Description": "Três dias sem vape. Em um estudo clínico com ex-fumantes que usavam cigarro eletrônico diariamente, a média dos sintomas de abstinência atingiu o pico no dia 1 ou 2 e depois caiu ao longo dos quatro dias seguintes sem uso. Você já está além da janela de pico inicial observada nesse estudo; a fissura ainda pode aparecer, mas não está no comando.",
   "@vapingDay3Description": {
     "description": "Vaping milestone day 3 evidence-based description"
   },

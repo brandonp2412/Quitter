@@ -3490,7 +3490,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get vapingDay3Description =>
-      '无电子烟第3天。一项针对每天使用电子烟的前吸烟者的临床研究发现，戒断症状在最初两天明显上升，随后呈现典型的先升后降模式。最尖锐的早期浪头您已经扛过去了；渴求仍可能出现，但方向盘不在它手里。';
+      '无电子烟第3天。一项针对每天使用电子烟的前吸烟者的临床研究发现，平均戒断症状在第1天或第2天达到峰值，随后在接下来的4天戒断期持续下降。现在您已经越过了该研究中的早期峰值窗口；渴求仍可能出现，但方向盘不在它手里。';
 
   @override
   String get vapingDay7Description =>
@@ -6996,7 +6996,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get vapingDay3Description =>
-      '無電子煙第3天。一項針對每天使用電子煙的前吸菸者的臨床研究發現，戒斷症狀在最初兩天明顯上升，之後呈現典型的先升後降模式。最尖銳的早期浪頭您已經撐過去了；渴求仍可能出現，但方向盤不在它手裡。';
+      '無電子煙第3天。一項針對每天使用電子煙的前吸菸者的臨床研究發現，平均戒斷症狀在第1天或第2天達到高峰，之後在接下來4天的戒斷期持續下降。現在您已經越過該研究中的早期高峰區間；渴求仍可能出現，但方向盤不在它手裡。';
 
   @override
   String get vapingDay7Description =>

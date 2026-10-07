@@ -2512,7 +2512,7 @@
   "@vapingDay1Description": {
     "description": "Vaping milestone day 1 evidence-based description"
   },
-  "vapingDay3Description": "无电子烟第3天。一项针对每天使用电子烟的前吸烟者的临床研究发现，戒断症状在最初两天明显上升，随后呈现典型的先升后降模式。最尖锐的早期浪头您已经扛过去了；渴求仍可能出现，但方向盘不在它手里。",
+  "vapingDay3Description": "无电子烟第3天。一项针对每天使用电子烟的前吸烟者的临床研究发现，平均戒断症状在第1天或第2天达到峰值，随后在接下来的4天戒断期持续下降。现在您已经越过了该研究中的早期峰值窗口；渴求仍可能出现，但方向盘不在它手里。",
   "@vapingDay3Description": {
     "description": "Vaping milestone day 3 evidence-based description"
   },

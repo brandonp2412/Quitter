@@ -3707,7 +3707,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get vapingDay3Description =>
-      'Tres días sin vapear. En un estudio clínico con exfumadores que usaban cigarrillos electrónicos a diario, la abstinencia aumentó durante los dos primeros días y siguió el patrón típico de subir y bajar. Ya cruzaste esa oleada inicial fuerte; las ganas pueden aparecer, pero no llevan el volante.';
+      'Tres días sin vapear. En un estudio clínico con exfumadores que usaban cigarrillos electrónicos a diario, la puntuación media de los síntomas de abstinencia alcanzó su pico el día 1 o 2 y luego descendió durante los cuatro días siguientes sin vapear. Ya estás más allá de la ventana del pico temprano observada en ese estudio; las ganas pueden aparecer, pero no llevan el volante.';
 
   @override
   String get vapingDay7Description =>

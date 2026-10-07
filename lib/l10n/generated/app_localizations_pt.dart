@@ -3706,7 +3706,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get vapingDay3Description =>
-      'Três dias sem vapear. Num estudo clínico com ex-fumadores que usavam cigarros eletrónicos diariamente, a abstinência aumentou nos primeiros dois dias e seguiu o padrão típico de subida e descida. Já atravessaste a forte onda inicial; os desejos ainda podem aparecer, mas não estão ao volante.';
+      'Três dias sem vapear. Num estudo clínico com ex-fumadores que usavam cigarros eletrónicos diariamente, a média dos sintomas de abstinência atingiu o pico no 1.º ou 2.º dia e depois diminuiu ao longo dos quatro dias seguintes de abstinência. Já estás para lá da janela de pico inicial observada nesse estudo; os desejos ainda podem aparecer, mas não estão ao volante.';
 
   @override
   String get vapingDay7Description =>
@@ -7428,7 +7428,7 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get vapingDay3Description =>
-      'Três dias sem vape. Em um estudo clínico com ex-fumantes que usavam cigarro eletrônico diariamente, os sintomas de abstinência aumentaram nos dois primeiros dias sem uso e depois seguiram o padrão clássico de subida e queda. Você já atravessou essa onda inicial mais forte; a fissura ainda pode aparecer, mas não está no comando.';
+      'Três dias sem vape. Em um estudo clínico com ex-fumantes que usavam cigarro eletrônico diariamente, a média dos sintomas de abstinência atingiu o pico no dia 1 ou 2 e depois caiu ao longo dos quatro dias seguintes sem uso. Você já está além da janela de pico inicial observada nesse estudo; a fissura ainda pode aparecer, mas não está no comando.';
 
   @override
   String get vapingDay7Description =>

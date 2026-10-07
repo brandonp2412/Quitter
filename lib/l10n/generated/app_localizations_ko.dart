@@ -3537,7 +3537,7 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get vapingDay3Description =>
-      '베이프 없이 3일. 과거 흡연자이면서 매일 전자담배를 사용하던 사람들을 대상으로 한 임상 연구에서 금단 증상은 중단 첫 이틀 동안 크게 증가한 뒤 전형적인 상승-하강 패턴을 보였습니다. 그 가파른 초기 파도를 지나왔습니다. 갈망이 다시 와도 운전대는 당신이 잡고 있습니다.';
+      '베이프 없이 3일. 과거 흡연자이면서 매일 전자담배를 사용하던 사람들을 대상으로 한 임상 연구에서 평균 금단 증상 점수는 1일째 또는 2일째 정점을 찍은 뒤 다음 4일간 감소했습니다. 이제 그 연구에서 관찰된 초기 정점 구간을 지났습니다. 갈망이 다시 와도 운전대는 당신이 잡고 있습니다.';
 
   @override
   String get vapingDay7Description =>

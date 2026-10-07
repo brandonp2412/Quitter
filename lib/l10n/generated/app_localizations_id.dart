@@ -3676,7 +3676,7 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get vapingDay3Description =>
-      'Tiga hari bebas vape. Dalam studi klinis pada mantan perokok yang memakai rokok elektronik setiap hari, gejala putus meningkat selama dua hari pertama tanpa vape lalu mengikuti pola naik-turun khas putus zat. Gelombang awal yang tajam sudah kamu lewati; ngidam masih bisa muncul, tapi bukan dia yang memegang kendali.';
+      'Tiga hari bebas vape. Dalam studi klinis pada mantan perokok yang memakai rokok elektronik setiap hari, skor rata-rata gejala putus mencapai puncak pada hari ke-1 atau ke-2, lalu menurun selama empat hari abstinensi berikutnya. Kamu sekarang sudah melewati jendela puncak awal yang terlihat dalam studi itu; ngidam masih bisa muncul, tapi bukan dia yang memegang kendali.';
 
   @override
   String get vapingDay7Description =>

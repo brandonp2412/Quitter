@@ -3698,7 +3698,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get vapingDay3Description =>
-      'Trzy dni bez wapowania. W badaniu klinicznym byłych palaczy codziennie używających e-papierosów objawy odstawienia nasiliły się w pierwszych dwóch dniach abstynencji, a potem miały typowy przebieg wzrostu i spadku. Najostrzejszą wczesną falę masz za sobą; głód może wracać, ale nie on trzyma kierownicę.';
+      'Trzy dni bez wapowania. W badaniu klinicznym byłych palaczy codziennie używających e-papierosów średni poziom objawów odstawienia osiągał szczyt 1. lub 2. dnia, a następnie spadał przez kolejne cztery dni abstynencji. Jesteś już poza wczesnym oknem szczytowym obserwowanym w tym badaniu; głód może wracać, ale nie on trzyma kierownicę.';
 
   @override
   String get vapingDay7Description =>

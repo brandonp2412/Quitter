@@ -3627,7 +3627,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get vapingDay3Description =>
-      'Three days vape-free. In a clinical study of former smokers who vaped daily, withdrawal rose during the first two abstinent days and followed the classic rise-and-fall pattern. You’ve made it through that sharp early surge; cravings can still show up, but they don’t own the controls.';
+      'Three days vape-free. In a clinical study of former smokers who vaped daily, mean withdrawal peaked on day 1 or 2, then declined across the next four abstinent days. You’re now beyond that study’s early peak window; cravings can still show up, but they don’t own the controls.';
 
   @override
   String get vapingDay7Description =>
