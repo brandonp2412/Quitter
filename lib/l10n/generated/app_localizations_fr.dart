@@ -2108,11 +2108,12 @@ class AppLocalizationsFr extends AppLocalizations {
       'Vos cycles de sommeil paradoxal commencent à se normaliser dès le premier jour. Même si l\'alcool peut vous aider à vous endormir au début, il perturbe le sommeil profond et les cycles de sommeil paradoxal pendant la nuit, ce qui fragmente le repos.';
 
   @override
-  String get alcoholMilestone3Title => 'Le niveau d\'hydratation se rétablit';
+  String get alcoholMilestone3Title =>
+      'Jour 3 : Le sevrage aigu atteint son pic';
 
   @override
   String get alcoholMilestone3Description =>
-      'Vos reins récupèrent des effets diurétiques de l\'alcool. L\'alcool inhibe l\'hormone antidiurétique, augmentant les urines et la déshydratation. Au troisième jour, l\'équilibre hydrique de votre corps s\'améliore nettement.';
+      'Trois jours, c\'est une étape énorme : les symptômes du sevrage alcoolique culminent souvent vers 72 heures. Tremblements, insomnie, agitation, sueurs, rythme cardiaque rapide et hypertension peuvent être particulièrement marqués maintenant. Un sevrage sévère peut encore apparaître plus tard, notamment un délire entre 3 et 8 jours après l\'arrêt.';
 
   @override
   String get alcoholMilestone7Title => 'Le système immunitaire se renforce';
@@ -3062,7 +3063,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get alcoholReferenceDay3 =>
-      'La phase aiguë et le début du rétablissement\n\nSource : « Alcohol Withdrawal », StatPearls — publication évaluée par les pairs, NIH National Library of Medicine\n\nLes premières 24 à 72 heures\nStatPearls indique que les symptômes de sevrage apparaissent quelques heures après le dernier verre — tremblements, insomnie, agitation, sueurs, augmentation du rythme cardiaque et de la tension artérielle — et culminent généralement vers 72 heures. La plupart des personnes ont dépassé le pire de la phase aiguë à la fin du troisième jour. Un sevrage sévère (crises convulsives ou delirium tremens, qui selon StatPearls peut survenir jusqu\'à 3 à 5 jours après l\'arrêt ou la réduction) est une urgence médicale : les personnes ayant une consommation importante quotidiens ne doivent pas arrêter brutalement sans avis médical.\n\nLes envies viennent par vagues\nLes envies s\'intensifient souvent au cours des premiers jours, mais une envie isolée est brève — elle disparaît généralement en quelques minutes. Savoir que chaque vague retombe d\'elle-même aide à la traverser.\n\nL\'hydratation se rétablit\nL\'alcool inhibe l\'hormone antidiurétique (ADH), ce qui pousse les reins à éliminer davantage d\'eau et laisse les consommateurs réguliers chroniquement déshydratés. Quand l\'alcool s\'arrête, cet effet diurétique cesse et l\'équilibre hydrique commence à se rétablir au cours des premiers jours — souvent avec une peau plus nette et une énergie plus stable.\n\nL\'esprit et le sommeil commencent à se stabiliser\nÀ mesure que la phase aiguë passe, la chimie cérébrale perturbée par l\'alcool (GABA et glutamate) commence à se rééquilibrer. La clarté mentale s\'améliore et le sommeil — très fragmenté au début du sevrage — évolue vers une meilleure qualité au cours de la première semaine.';
+      'Jour trois : La fenêtre du pic de sevrage\n\nSource : \"Alcohol Withdrawal\", StatPearls — publication évaluée par les pairs, NIH National Library of Medicine\n\nVers 72 heures\nLes symptômes du sevrage alcoolique peuvent commencer en quelques heures et culminent souvent vers 72 heures. StatPearls cite les tremblements, l\'insomnie, l\'agitation, les sueurs, l\'hypertension, l\'accélération du rythme cardiaque et les convulsions parmi les signes de cet état d\'hyperexcitabilité.\n\nTrois jours solides\nAtteindre 72 heures est une étape énorme, car ce moment se situe en plein dans la fenêtre de pic documentée pour de nombreux symptômes aigus.\n\nLe sevrage sévère peut survenir plus tard\nLe délire de sevrage alcoolique (delirium tremens) peut survenir 3 à 8 jours après l\'arrêt et peut être fatal. Un sevrage sévère est une urgence médicale. Les personnes qui boivent beaucoup chaque jour, ainsi que celles ayant déjà eu des convulsions ou un délire de sevrage, doivent demander un avis médical plutôt que d\'arrêter brutalement sans soutien.';
 
   @override
   String get alcoholReferenceDay7 =>

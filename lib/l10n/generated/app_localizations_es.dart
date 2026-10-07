@@ -2077,11 +2077,11 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get alcoholMilestone3Title =>
-      'Se recuperan los niveles de hidratación';
+      'Día 3: La abstinencia aguda llega a su pico';
 
   @override
   String get alcoholMilestone3Description =>
-      'Tus riñones se están recuperando de los efectos diuréticos del alcohol. El alcohol inhibe la hormona antidiurética, lo que aumenta la micción y la deshidratación. Para el tercer día, el equilibrio de líquidos del organismo mejora de forma importante.';
+      'Tres días es un hito enorme: los síntomas de abstinencia del alcohol suelen alcanzar su pico alrededor de las 72 horas. El temblor, el insomnio, la agitación, la sudoración, la taquicardia y la presión arterial alta pueden estar especialmente intensos ahora. La abstinencia grave todavía puede aparecer después, incluido el delirio entre 3 y 8 días tras dejar el alcohol.';
 
   @override
   String get alcoholMilestone7Title => 'El sistema inmunitario se fortalece';
@@ -3031,7 +3031,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get alcoholReferenceDay3 =>
-      'La fase aguda y la recuperación temprana\n\nFuente: \"Abstinencia de alcohol\", StatPearls, revisado por pares, Biblioteca Nacional de Medicina de los NIH\n\nLas primeras 24 a 72 horas\nStatPearls documenta que los síntomas de abstinencia aparecen pocas horas después de la última bebida (temblor, insomnio, agitación, sudoración, aumento del ritmo cardíaco y la presión arterial) y que los síntomas suelen alcanzar su punto máximo alrededor de las 72 horas. La mayoría de las personas han superado lo peor de la fase aguda al final del tercer día. La abstinencia grave (convulsiones o delirium tremens, que según StatPearls puede ocurrir en cualquier momento hasta 3 a 5 días después de suspender o reducir el consumo) es una emergencia médica: los bebedores diarios empedernidos no deben dejar de beber abruptamente sin consejo médico.\n\nLos antojos vienen en oleadas\nLos antojos a menudo se intensifican durante los primeros días, pero un antojo individual dura poco y suele pasar en cuestión de minutos. Reconocer que cada ola amaina por sí sola hace que sea más fácil superarlas.\n\nLa hidratación se recupera\nEl alcohol suprime la hormona antidiurética (ADH), lo que hace que los riñones excreten más agua y deja a los bebedores habituales con deshidratación crónica. Una vez que se deja de beber, este efecto diurético termina y el equilibrio de líquidos comienza a recuperarse durante los primeros días, lo que a menudo se nota como una piel más clara y energía más estable.\n\nLa mente y el sueño comienzan a calmarse\nA medida que pasa la fase aguda, la química cerebral que el alcohol alteró (GABA y glutamato) comienza a reequilibrarse. La claridad mental mejora y el sueño, muy fragmentado durante la abstinencia temprana, comienza a tener una mejor calidad durante la primera semana.';
+      'Día tres: La ventana de máxima abstinencia\n\nFuente: \"Alcohol Withdrawal\", StatPearls — revisado por pares, NIH National Library of Medicine\n\nAlrededor de las 72 horas\nLos síntomas de abstinencia del alcohol pueden empezar pocas horas después y suelen alcanzar su punto máximo alrededor de las 72 horas. StatPearls incluye temblor, insomnio, agitación, sudoración, presión arterial alta, taquicardia y convulsiones entre los signos de este estado de hiperexcitabilidad.\n\nTres días fuertes\nLlegar a las 72 horas es un hito enorme porque coincide con la ventana de máxima intensidad documentada para muchos síntomas agudos.\n\nLa abstinencia grave puede aparecer más tarde\nEl delirio por abstinencia de alcohol (delirium tremens) puede aparecer entre 3 y 8 días después de dejarlo y puede ser mortal. La abstinencia grave es una urgencia médica. Las personas que beben mucho a diario y quienes tengan antecedentes de convulsiones o delirio por abstinencia deben buscar consejo médico en vez de dejarlo bruscamente sin apoyo.';
 
   @override
   String get alcoholReferenceDay7 =>

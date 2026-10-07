@@ -2087,11 +2087,12 @@ class AppLocalizationsPl extends AppLocalizations {
       'Cykle snu REM zaczynają się normalizować w ciągu pierwszego dnia. Podczas gdy alkohol może pomóc zasnąć początkowo, zakłóca głęboki sen i cykli REM przez całą noc, powodując rozdrobniony sen.';
 
   @override
-  String get alcoholMilestone3Title => 'Poziomy nawadniania Przywracanie';
+  String get alcoholMilestone3Title =>
+      'Dzień 3: Ostry zespół odstawienny osiąga szczyt';
 
   @override
   String get alcoholMilestone3Description =>
-      'Twoje nerki są odzyskiwanie z alkoholikami działanie moczopędne. Alkohol hamuje leki moczopędne, prowadzi do zwiększonego oddawania moczu i dehydratacji.';
+      'Trzy dni to ogromny kamień milowy: objawy odstawienia alkoholu często osiągają szczyt około 72. godziny. Drżenie, bezsenność, pobudzenie, poty, szybkie tętno i wysokie ciśnienie mogą być teraz najsilniejsze. Ciężkie odstawienie może pojawić się także później, w tym majaczenie między 3. a 8. dniem po odstawieniu.';
 
   @override
   String get alcoholMilestone7Title => 'Wzmacnia układ immunologiczny';
@@ -3023,7 +3024,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get alcoholReferenceDay3 =>
-      'Faza ostra i wczesna regeneracja\n\nŹródło: \"Alcohol Withdrawal,\" StatPearls — peer-reviewed, NIH National Library of Medicine\n\nPierwszy 24X72 Godziny\nStatPearls dokumentuje, że objawy odstawienne pojawiają się w ciągu kilku godzin od ostatniego napoju drżenie, bezsenność, pobudzenie, drżenie, podwyższone tętno i ciśnienie tętnicze krwi i że objawy zazwyczaj osiągają wartość szczytową około 72 godziny. większość ludzi jest w najgorszej fazie ostrej do końca dnia trzy. Ciężkie przypadki odstawienia, lub delirium tremens, które StatPearls notuje może wystąpić w każdym punkcie do 3 – 5 dni po zatrzymaniu lub cięciu ) jest stanem medycznym: ciężkie codzienne picie nie powinny nagle przestać bez pomocy medycznej.\n\nPragnienia przychodzą w fale\nZachcianki często nasilają się w ciągu pierwszych kilku dni, ale indywidualne pragnienie jest krótkotrwałe zwykle przechodzi w ciągu minut.Uznając, że każda fala ustępuje na własną rękę sprawia, że łatwiej jest im jeździć.\n\nOdzyskiwanie nawadniania\nAlkohol tłumi hormon antydiuretyczny ADHYAH, co nerki wydalają więcej wody i pozostawiając regularne picie przewlekle odwodnione. Po spożyciu, ten efekt moczopędny kończy się i równowaga płynów zaczyna się odzyskiwać w ciągu pierwszych kilku dni często zauważane jako jaśniejsze skóry i twardsza energia.\n\nUmysł i sen Rozpoczynają ugodę\nWraz z przejściem fazy ostrej, chemia mózgu, która zakłóciła działanie alkoholu, GABA i glutamat ) zaczyna się rebalansować. Jasność umysłu poprawia się, a sen znacznie rozdrobniony w czasie wczesnego odstawienia zaczyna zmierzać w kierunku lepszej jakości w pierwszym tygodniu.';
+      'Dzień trzeci: Okno szczytu odstawienia\n\nŹródło: \"Alcohol Withdrawal\", StatPearls — recenzowane, NIH National Library of Medicine\n\nOkoło 72 godzin\nObjawy odstawienia alkoholu mogą rozpocząć się w ciągu kilku godzin i często osiągają szczyt około 72. godziny. StatPearls wymienia drżenie, bezsenność, pobudzenie, poty, wysokie ciśnienie, szybkie tętno i napady drgawkowe jako oznaki tego stanu nadmiernego pobudzenia.\n\nTrzy mocne dni\nDotarcie do 72 godzin to ogromny kamień milowy, bo wypada dokładnie w udokumentowanym oknie szczytu wielu ostrych objawów.\n\nCiężkie odstawienie może pojawić się później\nMajaczenie alkoholowe (delirium tremens) może wystąpić 3–8 dni po odstawieniu i może być śmiertelne. Ciężkie odstawienie jest stanem nagłym. Osoby pijące dużo codziennie oraz osoby z wcześniejszymi napadami drgawkowymi lub majaczeniem odstawiennym powinny zasięgnąć porady medycznej zamiast nagle odstawiać alkohol bez wsparcia.';
 
   @override
   String get alcoholReferenceDay7 =>

@@ -2078,11 +2078,12 @@ class AppLocalizationsDe extends AppLocalizations {
       'Ihre REM-Schlafzyklen beginnen sich innerhalb des ersten Tages zu normalisieren. Während Alkohol Ihnen beim Einschlafen helfen kann, stört er den Tiefschlaf und die REM-Zyklen während der Nacht und verursacht fragmentierten Schlaf.';
 
   @override
-  String get alcoholMilestone3Title => 'Hydratation Ebenen wiederherstellen';
+  String get alcoholMilestone3Title =>
+      'Tag 3: Akuter Entzug erreicht seinen Höhepunkt';
 
   @override
   String get alcoholMilestone3Description =>
-      'Ihre Nieren erholen sich von den harntreibenden Wirkungen von Alkohol. Alkohol unterdrückt antidiuretisches Hormon, was zu erhöhtem Wasserlassen und Dehydrierung führt. Am Tag 3 verbessert sich der Flüssigkeitshaushalt Ihres Körpers erheblich.';
+      'Drei Tage sind ein riesiger Meilenstein: Alkoholentzugs-Symptome erreichen häufig um etwa 72 Stunden ihren Höhepunkt. Zittern, Schlaflosigkeit, Unruhe, Schwitzen, schneller Puls und hoher Blutdruck können jetzt besonders stark sein. Schwerer Entzug kann auch später auftreten, einschließlich Delir innerhalb von 3–8 Tagen nach dem Absetzen.';
 
   @override
   String get alcoholMilestone7Title => 'Immunsystem stärkt sich';
@@ -3013,7 +3014,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get alcoholReferenceDay3 =>
-      'Die akute Phase und frühe Erholung\n\nQuelle: \"Alkoholentzug\", StatPearls - Peer-Review, NIH National Library of Medicine\n\nDie ersten 24-72 Stunden\nStatPearls dokumentiert, dass Entzugserscheinungen innerhalb von Stunden nach dem letzten Getränk auftreten - Zittern, Schlaflosigkeit, Unruhe, Schwitzen, erhöhte Herzfrequenz und Blutdruck - und dass die Symptome typischerweise etwa 72 Stunden betragen. Die meisten Menschen sind über das Schlimmste der akuten Phase bis zum Ende des dritten Tages. Ein schwerer Entzug (Anfälle oder Delirium tremens, die StatPearls-Notizen jederzeit bis zu 3 bis 5 Tage nach dem Absetzen oder Abschneiden auftreten können) ist ein medizinischer Notfall: Schwere tägliche Trinker sollten nicht abrupt ohne ärztlichen Rat aufhören.\n\nCravings kommen in Wellen\nDas verlangen intensiviert sich oft in den ersten tagen, aber ein individuelles verlangen ist kurzlebig - normalerweise innerhalb von minuten. Zu erkennen, dass jede Welle von selbst abklingt, macht sie leichter zu reiten.\n\nHydratationsrückgewinnung\nAlkohol unterdrückt antidiuretisches Hormon (ADH), wodurch die Nieren mehr Wasser ausscheiden und regelmäßige Trinker chronisch dehydriert bleiben. Sobald das Trinken aufhört, endet dieser harntreibende Effekt und der Flüssigkeitshaushalt beginnt sich in den ersten Tagen zu erholen - oft als klarere Haut und stabilere Energie wahrgenommen.\n\nGeist und Schlaf beginnen sich zu beruhigen\nWährend die akute Phase vergeht, beginnt sich die Gehirnchemie, die Alkohol gestört hat (GABA und Glutamat), wieder auszugleichen. Die geistige Klarheit verbessert sich und der Schlaf - während des frühen Rückzugs schlecht fragmentiert - beginnt in der ersten Woche in Richtung einer besseren Qualität zu tendieren.';
+      'Tag drei: Das Spitzenfenster des Entzugs\n\nQuelle: \"Alcohol Withdrawal\", StatPearls — peer-reviewt, NIH National Library of Medicine\n\nUm 72 Stunden\nAlkoholentzugs-Symptome können innerhalb weniger Stunden beginnen und erreichen häufig um etwa 72 Stunden ihren Höhepunkt. StatPearls nennt Zittern, Schlaflosigkeit, Unruhe, Schwitzen, hohen Blutdruck, schnellen Puls und Krampfanfälle als Zeichen dieses übererregten Zustands.\n\nDrei Tage stark\n72 Stunden zu erreichen ist ein riesiger Meilenstein, weil dieser Zeitpunkt genau im dokumentierten Spitzenfenster vieler akuter Symptome liegt.\n\nSchwerer Entzug kann später kommen\nEin Alkoholentzugsdelir (Delirium tremens) kann 3–8 Tage nach dem Absetzen auftreten und tödlich verlaufen. Schwerer Entzug ist ein medizinischer Notfall. Menschen mit starkem täglichem Alkoholkonsum sowie Personen mit früheren Entzugskrampfanfällen oder Delir sollten ärztlichen Rat einholen und nicht ohne Unterstützung abrupt aufhören.';
 
   @override
   String get alcoholReferenceDay7 =>

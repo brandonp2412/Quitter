@@ -3615,13 +3615,13 @@ abstract class AppLocalizations {
   /// Alcohol milestone day 3 title
   ///
   /// In en, this message translates to:
-  /// **'Hydration Levels Restore'**
+  /// **'Day 3: Acute Withdrawal Peaks'**
   String get alcoholMilestone3Title;
 
   /// Alcohol milestone day 3 description
   ///
   /// In en, this message translates to:
-  /// **'Your kidneys are recovering from alcohol\'s diuretic effects. Alcohol suppresses antidiuretic hormone, leading to increased urination and dehydration. By day 3, your body\'s fluid balance is improving significantly.'**
+  /// **'Three days in is a huge milestone: alcohol-withdrawal symptoms often peak around 72 hours. Tremor, insomnia, agitation, sweating, fast heart rate and high blood pressure can be strongest around now. Severe withdrawal can still develop later, including delirium 3–8 days after stopping.'**
   String get alcoholMilestone3Description;
 
   /// Alcohol milestone day 7 title
@@ -5163,7 +5163,7 @@ abstract class AppLocalizations {
   /// No description provided for @alcoholReferenceDay3.
   ///
   /// In en, this message translates to:
-  /// **'The Acute Phase and Early Recovery\n\nSource: \"Alcohol Withdrawal,\" StatPearls — peer-reviewed, NIH National Library of Medicine\n\nThe First 24–72 Hours\nStatPearls documents that withdrawal symptoms appear within hours of the last drink — tremor, insomnia, agitation, sweating, raised heart rate and blood pressure — and that symptoms typically peak around 72 hours. Most people are over the worst of the acute phase by the end of day three. Severe withdrawal (seizures, or delirium tremens, which StatPearls notes can occur at any point up to 3 to 5 days after stopping or cutting down) is a medical emergency: heavy daily drinkers should not stop abruptly without medical advice.\n\nCravings Come in Waves\nCravings often intensify across the first several days, but an individual craving is short-lived — usually passing within minutes. Recognising that each wave subsides on its own makes them easier to ride out.\n\nHydration Recovers\nAlcohol suppresses antidiuretic hormone (ADH), making the kidneys excrete more water and leaving regular drinkers chronically dehydrated. Once drinking stops, this diuretic effect ends and fluid balance begins to recover over the first few days — often noticed as clearer skin and steadier energy.\n\nMind and Sleep Begin to Settle\nAs the acute phase passes, the brain chemistry that alcohol disrupted (GABA and glutamate) starts to rebalance. Mental clarity improves and sleep — badly fragmented during early withdrawal — begins trending toward better quality over the first week.'**
+  /// **'Day Three: The Withdrawal Peak Window\n\nSource: \"Alcohol Withdrawal,\" StatPearls — peer-reviewed, NIH National Library of Medicine\n\nAround 72 Hours\nAlcohol withdrawal symptoms can begin within hours and often peak around 72 hours. StatPearls lists tremor, insomnia, agitation, sweating, high blood pressure, fast heart rate, and seizures among the signs of this hyperexcitable state.\n\nThree Days Strong\nReaching 72 hours is a huge milestone because it sits right on the documented peak window for many acute symptoms. The nervous system is reacting to the sudden loss of alcohol\'s inhibitory GABA effect while excess glutamate drives autonomic overactivity.\n\nSevere Withdrawal Can Arrive Later\nAlcohol-withdrawal delirium (delirium tremens) can occur 3–8 days after cessation and can be fatal. Severe withdrawal is a medical emergency. Heavy daily drinkers, and anyone with a history of withdrawal seizures or delirium, should get medical advice rather than stopping abruptly without support.\n\nWhat to Watch For\nFever, severe agitation, heavy sweating, hallucinations, disorientation, seizures, very fast heart rate, or very high blood pressure need urgent medical attention.'**
   String get alcoholReferenceDay3;
 
   /// No description provided for @alcoholReferenceDay7.

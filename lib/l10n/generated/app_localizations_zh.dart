@@ -1930,11 +1930,11 @@ class AppLocalizationsZh extends AppLocalizations {
       '您的快速眼动睡眠周期在第一天内开始正常化。虽然酒精最初可能帮助您入睡，但它会扰乱整晚的深度睡眠和快速眼动周期，导致睡眠碎片化。';
 
   @override
-  String get alcoholMilestone3Title => '水分水平恢复';
+  String get alcoholMilestone3Title => '第3天：急性戒断达到高峰';
 
   @override
   String get alcoholMilestone3Description =>
-      '您的肾脏正在从酒精的利尿作用中恢复。酒精会抑制抗利尿激素，导致排尿增加和脱水。到第3天，您体内的液体平衡将显著改善。';
+      '坚持三天是个巨大的里程碑：酒精戒断症状常在约72小时达到高峰。震颤、失眠、躁动、出汗、心率加快和血压升高此时可能最明显。严重戒断仍可能更晚出现，包括停酒后3–8天发生的谵妄。';
 
   @override
   String get alcoholMilestone7Title => '免疫系统增强';
@@ -2819,7 +2819,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get alcoholReferenceDay3 =>
-      '急性期与早期恢复\n\n来源：《Alcohol Withdrawal》，StatPearls——同行评审，NIH国家医学图书馆\n\n最初的24–72小时\nStatPearls记载，戒断症状会在最后一次饮酒后的数小时内出现——包括震颤、失眠、激越、出汗、心率和血压升高——并且症状通常在72小时左右达到高峰。到第三天结束时，大多数人已经度过急性期最严重的阶段。严重戒断（癫痫发作，或震颤性谵妄——StatPearls指出后者可能在停止或减量后长达3至5天内的任何时间点出现）属于医疗急症：每日大量饮酒者不应在未经医嘱的情况下突然停饮。\n\n渴求如潮水般涌来\n渴求常常在最初几天内加剧，但单次渴求是短暂的——通常几分钟内就会过去。认识到每一波渴求都会自行消退，能让人更容易熬过去。\n\n水分恢复\n酒精会抑制抗利尿激素（ADH），使肾脏排出更多水分，让长期饮酒者处于慢性脱水状态。一旦停止饮酒，这种利尿效应就会结束，体液平衡在最初几天开始恢复——通常表现为皮肤更清爽、精力更稳定。\n\n心神与睡眠开始安定\n随着急性期过去，被酒精扰乱的大脑化学（GABA和谷氨酸）开始重新平衡。思维清晰度改善，而在戒断早期严重破碎的睡眠也开始在第一周内趋向更好的质量。';
+      '第3天：戒断高峰窗口\n\n来源：《Alcohol Withdrawal》，StatPearls——同行评审，NIH国家医学图书馆\n\n约72小时\n酒精戒断症状可在停酒后数小时内出现，并常在约72小时达到高峰。StatPearls列出的高兴奋状态表现包括震颤、失眠、躁动、出汗、高血压、心率加快和癫痫发作。\n\n三天很强\n达到72小时是一个巨大的里程碑，因为这正处在许多急性症状有记录的高峰窗口。\n\n严重戒断可能更晚出现\n酒精戒断性谵妄（delirium tremens）可在停酒后3–8天发生，并可能致命。严重戒断属于医疗急症。每天大量饮酒的人，以及有戒断癫痫或谵妄史的人，应寻求医疗建议，不要在缺乏支持的情况下突然停酒。';
 
   @override
   String get alcoholReferenceDay7 =>
@@ -5420,11 +5420,11 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
       '您的快速眼動睡眠週期在第一天內開始正常化。雖然酒精最初可能幫助您入睡，但它會擾亂整晚的深度睡眠和快速眼動週期，導致睡眠碎片化。';
 
   @override
-  String get alcoholMilestone3Title => '水分水平恢復';
+  String get alcoholMilestone3Title => '第3天：急性戒斷達到高峰';
 
   @override
   String get alcoholMilestone3Description =>
-      '您的腎臟正在從酒精的利尿作用中恢復。酒精會抑制抗利尿激素，導致排尿增加和脫水。到第3天，您體內的液體平衡將顯著改善。';
+      '堅持三天是個巨大的里程碑：酒精戒斷症狀常在約72小時達到高峰。顫抖、失眠、躁動、出汗、心跳加快和血壓升高此時可能最明顯。嚴重戒斷仍可能更晚出現，包括停酒後3–8天發生的譫妄。';
 
   @override
   String get alcoholMilestone7Title => '免疫系統增強';
@@ -6309,7 +6309,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get alcoholReferenceDay3 =>
-      '急性期與早期恢復\n\n來源：《Alcohol Withdrawal》，StatPearls——同行評審，NIH國家醫學圖書館\n\n最初的24–72小時\nStatPearls記載，戒斷症狀會在最後一次飲酒後的數小時內出現——包括震顫、失眠、激越、出汗、心率和血壓升高——並且症狀通常在72小時左右達到高峰。到第三天結束時，大多數人已經度過急性期最嚴重的階段。嚴重戒斷（癲癇發作，或震顫性譫妄——StatPearls指出後者可能在停止或減量後長達3至5天內的任何時間點出現）屬於醫療急症：每日大量飲酒者不應在未經醫囑的情況下突然停飲。\n\n渴求如潮水般湧來\n渴求常常在最初幾天內加劇，但單次渴求是短暫的——通常幾分鐘內就會過去。認識到每一波渴求都會自行消退，能讓人更容易熬過去。\n\n水分恢復\n酒精會抑制抗利尿激素（ADH），使腎臟排出更多水分，讓長期飲酒者處於慢性脫水狀態。一旦停止飲酒，這種利尿效應就會結束，體液平衡在最初幾天開始恢復——通常表現為皮膚更清爽、精力更穩定。\n\n心神與睡眠開始安定\n隨著急性期過去，被酒精擾亂的大腦化學（GABA和谷氨酸）開始重新平衡。思維清晰度改善，而在戒斷早期嚴重破碎的睡眠也開始在第一周內趨向更好的質量。';
+      '第3天：戒斷高峰窗口\n\n來源：《Alcohol Withdrawal》，StatPearls——同行評審，NIH國家醫學圖書館\n\n約72小時\n酒精戒斷症狀可在停酒後數小時內出現，並常在約72小時達到高峰。StatPearls列出的高度興奮狀態表現包括顫抖、失眠、躁動、出汗、高血壓、心跳加快和癲癇發作。\n\n三天很強\n達到72小時是一個巨大的里程碑，因為這正處在許多急性症狀有記錄的高峰窗口。\n\n嚴重戒斷可能更晚出現\n酒精戒斷性譫妄（delirium tremens）可在停酒後3–8天發生，並可能致命。嚴重戒斷屬於醫療急症。每天大量飲酒的人，以及有戒斷癲癇或譫妄病史的人，應尋求醫療建議，不要在缺乏支援的情況下突然停酒。';
 
   @override
   String get alcoholReferenceDay7 =>

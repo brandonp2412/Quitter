@@ -2084,11 +2084,12 @@ class AppLocalizationsPt extends AppLocalizations {
       'Seus ciclos de sono REM começam a normalizar no primeiro dia. Embora o álcool possa ajudá-lo a adormecer inicialmente, ele perturba o sono profundo e os ciclos REM durante a noite, causando um sono fragmentado.';
 
   @override
-  String get alcoholMilestone3Title => 'Restauração dos níveis de hidratação';
+  String get alcoholMilestone3Title =>
+      'Dia 3: A abstinência aguda atinge o pico';
 
   @override
   String get alcoholMilestone3Description =>
-      'Seus rins estão a recuperar dos efeitos diuréticos do álcool. O álcool suprime o hormônio antidiurético, levando ao aumento da micção e à desidratação. No terceiro dia, o equilíbrio de fluidos do seu corpo está a melhorar significativamente.';
+      'Três dias é um marco enorme: os sintomas de abstinência do álcool atingem frequentemente o pico por volta das 72 horas. Tremores, insónia, agitação, suor, frequência cardíaca acelerada e pressão arterial elevada podem estar mais intensos agora. A abstinência grave ainda pode surgir mais tarde, incluindo delírio entre 3 e 8 dias após parar.';
 
   @override
   String get alcoholMilestone7Title => 'Sistema imunológico fortalece';
@@ -3029,7 +3030,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get alcoholReferenceDay3 =>
-      'A Fase Aguda e Recuperação Precoce\n\nFonte: \"Abstinência de Álcool\", StatPearls - revisado por pares, NIH National Library of Medicine\n\nAs primeiras 24 a 72 horas\nStatPearls documenta que os sintomas de abstinência aparecem horas após a última bebida – tremor, insónia, agitação, sudorese, aumento da frequência cardíaca e pressão arterial – e que os sintomas geralmente atingem o pico em torno de 72 horas. A maioria das pessoas superou o pior da fase aguda no final do terceiro dia. A abstinência grave (convulsões ou delirium tremens, que o StatPearls observa pode ocorrer a qualquer momento até 3 a 5 dias após a interrupção ou redução) é uma emergência médica: quem bebe muito diariamente não deve parar abruptamente sem orientação médica.\n\nOs desejos vêm em ondas\nOs desejos muitas vezes se intensificam nos primeiros dias, mas um desejo individual dura pouco – geralmente passando em minutos. Reconhecer que cada onda desaparece por si só torna mais fácil superá-las.\n\nA hidratação recupera\nO álcool suprime o hormônio antidiurético (ADH), fazendo com que os rins excretem mais água e deixando os bebedores regulares cronicamente desidratados. Assim que parar de beber, este efeito diurético termina e o equilíbrio de fluidos começa a recuperar durante os primeiros dias – muitas vezes notado como pele mais clara e energia mais estável.\n\nMente e sono começam a se acalmar\nÀ medida que a fase aguda passa, a química cerebral que o álcool interrompeu (GABA e glutamato) começa a se reequilibrar. A clareza mental melhora e o sono – muito fragmentado durante a abstinência precoce – começa a tender para uma melhor qualidade durante a primeira semana.';
+      'Dia três: A janela do pico de abstinência\n\nFonte: \"Alcohol Withdrawal\", StatPearls — revisto por pares, NIH National Library of Medicine\n\nPor volta das 72 horas\nOs sintomas de abstinência do álcool podem começar em poucas horas e atingem frequentemente o pico por volta das 72 horas. O StatPearls inclui tremores, insónia, agitação, suor, pressão arterial elevada, frequência cardíaca acelerada e convulsões entre os sinais deste estado de hiperexcitabilidade.\n\nTrês dias fortes\nChegar às 72 horas é um marco enorme porque este momento fica exatamente na janela de pico documentada para muitos sintomas agudos.\n\nA abstinência grave pode chegar mais tarde\nO delírio de abstinência do álcool (delirium tremens) pode ocorrer 3–8 dias após parar e pode ser fatal. A abstinência grave é uma emergência médica. Quem bebe muito diariamente e quem tem antecedentes de convulsões ou delírio de abstinência deve procurar aconselhamento médico em vez de parar abruptamente sem apoio.';
 
   @override
   String get alcoholReferenceDay7 =>
@@ -5772,11 +5773,12 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
       'Seus ciclos de sono REM começam a normalizar no primeiro dia. Embora o álcool possa ajudá-lo a adormecer inicialmente, ele perturba o sono profundo e os ciclos REM durante a noite, causando um sono fragmentado.';
 
   @override
-  String get alcoholMilestone3Title => 'Restauração dos níveis de hidratação';
+  String get alcoholMilestone3Title =>
+      'Dia 3: A abstinência aguda atinge o pico';
 
   @override
   String get alcoholMilestone3Description =>
-      'Seus rins estão se recuperando dos efeitos diuréticos do álcool. O álcool suprime o hormônio antidiurético, levando ao aumento da micção e à desidratação. No terceiro dia, o equilíbrio de fluidos do seu corpo está melhorando significativamente.';
+      'Três dias é um marco enorme: os sintomas de abstinência do álcool costumam atingir o pico por volta das 72 horas. Tremores, insônia, agitação, suor, frequência cardíaca acelerada e pressão alta podem estar mais intensos agora. A abstinência grave ainda pode surgir mais tarde, incluindo delírio entre 3 e 8 dias após parar.';
 
   @override
   String get alcoholMilestone7Title => 'Sistema imunológico fortalece';
@@ -6719,7 +6721,7 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get alcoholReferenceDay3 =>
-      'A Fase Aguda e Recuperação Precoce\n\nFonte: \"Abstinência de Álcool\", StatPearls - revisado por pares, NIH National Library of Medicine\n\nAs primeiras 24 a 72 horas\nStatPearls documenta que os sintomas de abstinência aparecem horas após a última bebida – tremor, insônia, agitação, sudorese, aumento da frequência cardíaca e pressão arterial – e que os sintomas geralmente atingem o pico em torno de 72 horas. A maioria das pessoas superou o pior da fase aguda no final do terceiro dia. A abstinência grave (convulsões ou delirium tremens, que o StatPearls observa pode ocorrer a qualquer momento até 3 a 5 dias após a interrupção ou redução) é uma emergência médica: quem bebe muito diariamente não deve parar abruptamente sem orientação médica.\n\nOs desejos vêm em ondas\nOs desejos muitas vezes se intensificam nos primeiros dias, mas um desejo individual dura pouco – geralmente passando em minutos. Reconhecer que cada onda desaparece por si só torna mais fácil superá-las.\n\nA hidratação recupera\nO álcool suprime o hormônio antidiurético (ADH), fazendo com que os rins excretem mais água e deixando os bebedores regulares cronicamente desidratados. Assim que parar de beber, este efeito diurético termina e o equilíbrio de fluidos começa a recuperar durante os primeiros dias – muitas vezes notado como pele mais clara e energia mais estável.\n\nMente e sono começam a se acalmar\nÀ medida que a fase aguda passa, a química cerebral que o álcool interrompeu (GABA e glutamato) começa a se reequilibrar. A clareza mental melhora e o sono – muito fragmentado durante a abstinência precoce – começa a tender para uma melhor qualidade durante a primeira semana.';
+      'Dia três: A janela do pico de abstinência\n\nFonte: \"Alcohol Withdrawal\", StatPearls — revisado por pares, NIH National Library of Medicine\n\nPor volta das 72 horas\nOs sintomas de abstinência do álcool podem começar em poucas horas e costumam atingir o pico por volta das 72 horas. O StatPearls inclui tremores, insônia, agitação, suor, pressão alta, frequência cardíaca acelerada e convulsões entre os sinais desse estado de hiperexcitabilidade.\n\nTrês dias fortes\nChegar às 72 horas é um marco enorme porque esse momento fica exatamente na janela de pico documentada para muitos sintomas agudos.\n\nA abstinência grave pode chegar mais tarde\nO delírio de abstinência do álcool (delirium tremens) pode ocorrer 3–8 dias após parar e pode ser fatal. A abstinência grave é uma emergência médica. Quem bebe muito diariamente e quem tem histórico de convulsões ou delírio de abstinência deve buscar orientação médica em vez de parar abruptamente sem apoio.';
 
   @override
   String get alcoholReferenceDay7 =>

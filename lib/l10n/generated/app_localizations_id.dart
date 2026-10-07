@@ -2071,11 +2071,12 @@ class AppLocalizationsId extends AppLocalizations {
       'Siklus tidur REM Anda mulai normal pada hari pertama. Meskipun alkohol mungkin membantu Anda tertidur pada awalnya, alkohol mengganggu siklus tidur nyenyak dan REM sepanjang malam, sehingga menyebabkan tidur terfragmentasi.';
 
   @override
-  String get alcoholMilestone3Title => 'Pemulihan Tingkat Hidrasi';
+  String get alcoholMilestone3Title =>
+      'Hari 3: Putus Alkohol Akut Mencapai Puncak';
 
   @override
   String get alcoholMilestone3Description =>
-      'Ginjal Anda pulih dari efek diuretik alkohol. Alkohol menekan hormon antidiuretik, menyebabkan peningkatan buang air kecil dan dehidrasi. Pada hari ke 3, keseimbangan cairan tubuh Anda meningkat secara signifikan.';
+      'Tiga hari adalah pencapaian besar: gejala putus alkohol sering memuncak sekitar 72 jam. Tremor, insomnia, agitasi, berkeringat, denyut jantung cepat, dan tekanan darah tinggi dapat terasa paling kuat saat ini. Putus alkohol berat masih dapat muncul kemudian, termasuk delirium pada 3–8 hari setelah berhenti.';
 
   @override
   String get alcoholMilestone7Title => 'Sistem Kekebalan Tubuh Menguat';
@@ -2999,7 +3000,7 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get alcoholReferenceDay3 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Hari Ketiga: Jendela Puncak Putus Alkohol\n\nSumber: \"Alcohol Withdrawal\", StatPearls — ditinjau sejawat, NIH National Library of Medicine\n\nSekitar 72 Jam\nGejala putus alkohol dapat mulai dalam hitungan jam dan sering memuncak sekitar 72 jam. StatPearls mencantumkan tremor, insomnia, agitasi, berkeringat, tekanan darah tinggi, denyut jantung cepat, dan kejang sebagai tanda keadaan hipereksitasi ini.\n\nTiga Hari Kuat\nMencapai 72 jam adalah pencapaian besar karena waktunya tepat berada pada jendela puncak yang terdokumentasi untuk banyak gejala akut.\n\nPutus Alkohol Berat Bisa Datang Belakangan\nDelirium akibat putus alkohol (delirium tremens) dapat terjadi 3–8 hari setelah berhenti dan dapat berakibat fatal. Putus alkohol berat adalah keadaan darurat medis. Orang yang minum berat setiap hari, serta siapa pun dengan riwayat kejang atau delirium akibat putus alkohol, sebaiknya mencari saran medis daripada berhenti mendadak tanpa dukungan.';
 
   @override
   String get alcoholReferenceDay7 =>
