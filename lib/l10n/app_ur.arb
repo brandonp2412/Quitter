@@ -363,7 +363,7 @@
       }
     }
   },
-  "statsEquivalentFlight": "کہ کہیں کوئی نئی پرواز ہے",
+  "statsEquivalentFlight": "یہ کسی نئی جگہ کی پرواز کے لیے کافی ہے",
   "@statsEquivalentFlight": {
     "description": "Fun equivalence for money saved — a flight ticket"
   },

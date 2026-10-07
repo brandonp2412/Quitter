@@ -1046,12 +1046,12 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String statsEquivalentCoffees(int count) {
-    return 'هذا يتعلق بقهوة $count';
+    return 'هذا يعادل تقريبًا $count أكواب من القهوة';
   }
 
   @override
   String statsEquivalentMeals(int count) {
-    return 'هذا يتعلق بوجبات مطعم $count';
+    return 'هذا يعادل تقريبًا $count وجبات في المطاعم';
   }
 
   @override
@@ -1070,7 +1070,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String statsEquivalentBooks(int count) {
-    return 'يكفي أن تقرأ عن كتب $count';
+    return 'يكفي لقراءة نحو $count كتب';
   }
 
   @override

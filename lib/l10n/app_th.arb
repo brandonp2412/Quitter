@@ -384,7 +384,7 @@
       }
     }
   },
-  "statsEquivalentBooks": "อ่านหนังสือเกี่ยวกับ {count} มากพอแล้ว",
+  "statsEquivalentBooks": "เพียงพอสำหรับอ่านหนังสือประมาณ {count} เล่ม",
   "@statsEquivalentBooks": {
     "description": "Fun equivalence for time saved — books read",
     "placeholders": {
@@ -393,7 +393,7 @@
       }
     }
   },
-  "statsEquivalentMovies": "เพียงพอที่จะรับชมภาพยนตร์เกี่ยวกับ {count}",
+  "statsEquivalentMovies": "เพียงพอสำหรับดูภาพยนตร์ประมาณ {count} เรื่อง",
   "@statsEquivalentMovies": {
     "description": "Fun equivalence for time saved — movies watched",
     "placeholders": {

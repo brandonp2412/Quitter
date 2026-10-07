@@ -343,7 +343,7 @@
   "@statsMoneySavedEstimate": {
     "description": "Disclaimer text on the money saved card"
   },
-  "statsEquivalentCoffees": "{count} 커피에 관한 것입니다.",
+  "statsEquivalentCoffees": "대략 커피 {count}잔 정도예요.",
   "@statsEquivalentCoffees": {
     "description": "Fun equivalence for money saved — coffees",
     "placeholders": {
@@ -352,7 +352,7 @@
       }
     }
   },
-  "statsEquivalentMeals": "{count} 레스토랑 식사에 관한 것입니다.",
+  "statsEquivalentMeals": "대략 레스토랑 식사 {count}끼 정도예요.",
   "@statsEquivalentMeals": {
     "description": "Fun equivalence for money saved — restaurant meals",
     "placeholders": {
@@ -382,7 +382,7 @@
       }
     }
   },
-  "statsEquivalentBooks": "{count} 책에 대해 읽을 만큼 충분합니다.",
+  "statsEquivalentBooks": "책을 약 {count}권 읽을 수 있는 시간이에요.",
   "@statsEquivalentBooks": {
     "description": "Fun equivalence for time saved — books read",
     "placeholders": {

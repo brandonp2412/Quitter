@@ -1085,12 +1085,12 @@ class AppLocalizationsTh extends AppLocalizations {
 
   @override
   String statsEquivalentBooks(int count) {
-    return 'อ่านหนังสือเกี่ยวกับ $count มากพอแล้ว';
+    return 'เพียงพอสำหรับอ่านหนังสือประมาณ $count เล่ม';
   }
 
   @override
   String statsEquivalentMovies(int count) {
-    return 'เพียงพอที่จะรับชมภาพยนตร์เกี่ยวกับ $count';
+    return 'เพียงพอสำหรับดูภาพยนตร์ประมาณ $count เรื่อง';
   }
 
   @override

@@ -1031,12 +1031,12 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String statsEquivalentCoffees(int count) {
-    return '$count 커피에 관한 것입니다.';
+    return '대략 커피 $count잔 정도예요.';
   }
 
   @override
   String statsEquivalentMeals(int count) {
-    return '$count 레스토랑 식사에 관한 것입니다.';
+    return '대략 레스토랑 식사 $count끼 정도예요.';
   }
 
   @override
@@ -1055,7 +1055,7 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String statsEquivalentBooks(int count) {
-    return '$count 책에 대해 읽을 만큼 충분합니다.';
+    return '책을 약 $count권 읽을 수 있는 시간이에요.';
   }
 
   @override

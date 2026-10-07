@@ -345,7 +345,7 @@
   "@statsMoneySavedEstimate": {
     "description": "Disclaimer text on the money saved card"
   },
-  "statsEquivalentCoffees": "Itu tentang kopi {count}",
+  "statsEquivalentCoffees": "Itu setara dengan sekitar {count} cangkir kopi",
   "@statsEquivalentCoffees": {
     "description": "Fun equivalence for money saved — coffees",
     "placeholders": {
@@ -354,7 +354,7 @@
       }
     }
   },
-  "statsEquivalentMeals": "Itu tentang makanan restoran {count}",
+  "statsEquivalentMeals": "Itu setara dengan sekitar {count} kali makan di restoran",
   "@statsEquivalentMeals": {
     "description": "Fun equivalence for money saved — restaurant meals",
     "placeholders": {
@@ -384,7 +384,7 @@
       }
     }
   },
-  "statsEquivalentBooks": "Cukup membaca tentang buku {count}",
+  "statsEquivalentBooks": "Cukup untuk membaca sekitar {count} buku",
   "@statsEquivalentBooks": {
     "description": "Fun equivalence for time saved — books read",
     "placeholders": {
@@ -393,7 +393,7 @@
       }
     }
   },
-  "statsEquivalentMovies": "Cukup untuk menonton tentang film {count}",
+  "statsEquivalentMovies": "Cukup untuk menonton sekitar {count} film",
   "@statsEquivalentMovies": {
     "description": "Fun equivalence for time saved — movies watched",
     "placeholders": {

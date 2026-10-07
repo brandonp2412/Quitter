@@ -1077,12 +1077,12 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String statsEquivalentCoffees(int count) {
-    return 'Itu tentang kopi $count';
+    return 'Itu setara dengan sekitar $count cangkir kopi';
   }
 
   @override
   String statsEquivalentMeals(int count) {
-    return 'Itu tentang makanan restoran $count';
+    return 'Itu setara dengan sekitar $count kali makan di restoran';
   }
 
   @override
@@ -1102,12 +1102,12 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String statsEquivalentBooks(int count) {
-    return 'Cukup membaca tentang buku $count';
+    return 'Cukup untuk membaca sekitar $count buku';
   }
 
   @override
   String statsEquivalentMovies(int count) {
-    return 'Cukup untuk menonton tentang film $count';
+    return 'Cukup untuk menonton sekitar $count film';
   }
 
   @override

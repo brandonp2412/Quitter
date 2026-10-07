@@ -1078,7 +1078,7 @@ class AppLocalizationsUr extends AppLocalizations {
   }
 
   @override
-  String get statsEquivalentFlight => 'کہ کہیں کوئی نئی پرواز ہے';
+  String get statsEquivalentFlight => 'یہ کسی نئی جگہ کی پرواز کے لیے کافی ہے';
 
   @override
   String get statsEquivalentVacation => 'کہ بیرون ملک چھٹی ہے۔';

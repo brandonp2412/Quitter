@@ -345,7 +345,7 @@
   "@statsMoneySavedEstimate": {
     "description": "Disclaimer text on the money saved card"
   },
-  "statsEquivalentCoffees": "هذا يتعلق بقهوة {count}",
+  "statsEquivalentCoffees": "هذا يعادل تقريبًا {count} أكواب من القهوة",
   "@statsEquivalentCoffees": {
     "description": "Fun equivalence for money saved — coffees",
     "placeholders": {
@@ -354,7 +354,7 @@
       }
     }
   },
-  "statsEquivalentMeals": "هذا يتعلق بوجبات مطعم {count}",
+  "statsEquivalentMeals": "هذا يعادل تقريبًا {count} وجبات في المطاعم",
   "@statsEquivalentMeals": {
     "description": "Fun equivalence for money saved — restaurant meals",
     "placeholders": {
@@ -384,7 +384,7 @@
       }
     }
   },
-  "statsEquivalentBooks": "يكفي أن تقرأ عن كتب {count}",
+  "statsEquivalentBooks": "يكفي لقراءة نحو {count} كتب",
   "@statsEquivalentBooks": {
     "description": "Fun equivalence for time saved — books read",
     "placeholders": {

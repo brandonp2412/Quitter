@@ -1083,16 +1083,17 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String statsEquivalentCoffees(int count) {
-    return 'Das ist über $count Kaffee';
+    return 'Das sind etwa $count Tassen Kaffee';
   }
 
   @override
   String statsEquivalentMeals(int count) {
-    return 'Das ist über $count Restaurant Mahlzeiten';
+    return 'Das sind etwa $count Restaurantmahlzeiten';
   }
 
   @override
-  String get statsEquivalentFlight => 'Das ist ein Flug irgendwo neu';
+  String get statsEquivalentFlight =>
+      'Das entspricht einem Flug an einen neuen Ort';
 
   @override
   String get statsEquivalentVacation => 'Das ist ein Urlaub im Ausland';
@@ -1112,7 +1113,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String statsEquivalentMovies(int count) {
-    return 'Genug zu sehen über $count Filme';
+    return 'Genug, um etwa $count Filme anzusehen';
   }
 
   @override
