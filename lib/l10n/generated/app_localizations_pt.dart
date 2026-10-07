@@ -4098,7 +4098,7 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get synthetic_cannabinoidsPageTitle =>
-      'Recuperação de Canabinóides Sintéticos';
+      'Recuperação de Canabinoides Sintéticos';
 
   @override
   String get synthetic_cannabinoidsHeaderStarted =>
@@ -4118,59 +4118,68 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get synthetic_cannabinoidsInfoBox =>
-      'Os canabinoides sintéticos (“Spice”, “K2”) são muito mais potentes que a cannabis, e a sua abstinência é semelhante, mas mais grave – com ansiedade e ritmo cardíaco acelerado. Usuários pesados ​​podem precisar de desintoxicação com suporte médico.';
+      'Os canabinoides sintéticos (“Spice”, “K2”) podem ser muito mais potentes e imprevisíveis do que a cannabis. A abstinência pode ser mais grave, e há relatos de convulsões, psicose, agitação e frequência cardíaca acelerada. Sintomas graves exigem atendimento médico urgente.';
 
   @override
   String get addictionSyntheticCannabinoids => 'Canabinóides Sintéticos';
 
   @override
-  String get synthetic_cannabinoidsMilestone1Title => 'Início da retirada';
+  String get synthetic_cannabinoidsMilestone1Title => 'Início da abstinência';
 
   @override
   String get synthetic_cannabinoidsMilestone1Description =>
-      'A abstinência de canabinóides sintéticos pode começar dentro de horas a um ou dois dias. Espere ansiedade, irritabilidade, batimentos cardíacos acelerados, sudorese e problemas de sono.';
+      'A abstinência pode aparecer rapidamente após uso frequente. Problemas de sono, irritabilidade, humor deprimido, suor, palpitações, agitação e tremores são relatados — e casos graves podem incluir convulsões ou psicose.';
 
   @override
-  String get synthetic_cannabinoidsMilestone3Title => 'Pico dos sintomas';
+  String get synthetic_cannabinoidsMilestone3Title =>
+      'O trecho puxado do começo';
 
   @override
   String get synthetic_cannabinoidsMilestone3Description =>
-      'Os sintomas tendem a atingir o pico nos primeiros dias – ansiedade mais forte, irritabilidade, sono insatisfatório e desejos. Este é o trecho mais difícil.';
+      'Três dias sem usar. A abstinência de canabinoides sintéticos pode ser mais intensa do que a da cannabis de alta potência, então esse começo não é brincadeira. Você já está abrindo uma distância real da próxima dose.';
 
   @override
-  String get synthetic_cannabinoidsMilestone7Title => 'Atenuação da Fase Aguda';
+  String get synthetic_cannabinoidsMilestone7Title => 'Uma semana firme';
 
   @override
   String get synthetic_cannabinoidsMilestone7Description =>
-      'Em uma semana os sintomas mais intensos estão diminuindo. O sono, a frequência cardíaca e o humor começam a se acalmar.';
+      'Uma semana completa. A abstinência de canabinoides sintéticos pode ser grave e mais física do que a abstinência de cannabis. Sete dias sem outra dose são uma grande vitória.';
 
   @override
-  String get synthetic_cannabinoidsMilestone14Title => 'Sono e ajuste de humor';
+  String get synthetic_cannabinoidsMilestone14Title => 'Duas semanas sem usar';
 
   @override
   String get synthetic_cannabinoidsMilestone14Description =>
-      'Duas semanas depois, o sono e o humor estão mais estáveis e a frequência cardíaca acelerada da abstinência precoce foi resolvida.';
+      'Duas semanas livres. Canabinoides sintéticos são outra história: você acumulou catorze dias sem nova exposição a uma classe de drogas ligada a convulsões, psicose e problemas cardíacos.';
 
   @override
-  String get synthetic_cannabinoidsMilestone30Title => 'Um mês livre';
+  String get synthetic_cannabinoidsMilestone30Title => 'Um mês sem usar';
 
   @override
   String get synthetic_cannabinoidsMilestone30Description =>
-      'Em um mês a maioria dos sintomas de abstinência foram resolvidos. O sono, o humor e a clareza melhoram significativamente.';
+      'Um mês inteiro sem usar. São trinta dias sem nova exposição à potência imprevisível e à toxicidade aguda dos canabinoides sintéticos. Marco enorme.';
 
   @override
-  String get synthetic_cannabinoidsMilestone90Title => 'Três meses depois';
+  String get synthetic_cannabinoidsMilestone90Title => 'Três meses livres';
 
   @override
   String get synthetic_cannabinoidsMilestone90Description =>
-      'Três meses claros, o humor e o sono estão estáveis e os desejos são raros. O sistema canabinóide do cérebro foi reregulado.';
+      'Três meses livres. Você manteve uma grande distância de uma classe de drogas ligada a abstinência grave, convulsões, problemas cardiovasculares e psicose. Continue assim.';
 
   @override
-  String get synthetic_cannabinoidsMilestone180Title => 'Meio ano grátis';
+  String get synthetic_cannabinoidsMilestone180Title => 'Meio ano livre';
 
   @override
   String get synthetic_cannabinoidsMilestone180Description =>
-      'Seis meses sem canabinóides sintéticos. A abstinência já foi resolvida há muito tempo e os sérios riscos desses medicamentos ficaram para trás.';
+      'Meio ano livre. Seis meses sem canabinoides sintéticos é enorme — seis meses sem encarar de novo os riscos agudos imprevisíveis dessa classe de drogas.';
+
+  @override
+  String get synthetic_cannabinoidsWithdrawalReference =>
+      'Abstinência de canabinoides sintéticos\n\nFonte: Craft et al. (2022), Psychopharmacology, PMC\n\nEntre 284 pessoas que tinham usado agonistas sintéticos dos receptores canabinoides mais de dez vezes no ano anterior e tentado parar, 82,7% relataram pelo menos um sintoma de abstinência após mais de um dia sem usar. Os sintomas mais comuns foram problemas de sono (59,2%), irritabilidade (55,6%) e humor deprimido (54,2%); também foram relatados suor, palpitações, fissura, agitação e tremores. Uso mais frequente e em maior quantidade esteve associado a mais sintomas. Entre os participantes que compararam as duas drogas, a abstinência de canabinoides sintéticos foi avaliada como mais grave do que a da cannabis de alta potência.';
+
+  @override
+  String get synthetic_cannabinoidsRiskReference =>
+      'Abstinência de canabinoides sintéticos e risco agudo\n\nFonte: Cooper (2016), Current Psychiatry Reports, PMC\n\nRelatos clínicos descrevem abstinência após uso diário de canabinoides sintéticos surgindo pouco depois da última dose, com ansiedade intensa, insônia, náusea e vômitos, suor, palpitações, tremor, agitação e fissura. Casos graves incluíram convulsões recorrentes e problemas cardiovasculares ou respiratórios. A revisão também descreve a intoxicação por canabinoides sintéticos como imprevisível e às vezes grave, incluindo psicose, convulsões, eventos cardíacos e lesão renal. Sintomas graves ou em piora exigem avaliação médica rápida.';
 
   @override
   String get mdmaPageTitle => 'Recuperação de MDMA';

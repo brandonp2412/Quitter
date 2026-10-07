@@ -364,7 +364,7 @@ class AppLocalizationsKo extends AppLocalizations {
       '2년간의 금주 기간은 연구 결과에 따르면 납 첨가 휘발유로 인한 손상을 제외하고 뇌 기능이 실질적으로 회복되는 것으로 나타났습니다.';
 
   @override
-  String get synthetic_cannabinoidsPageTitle => '합성 칸나비노이드 회수';
+  String get synthetic_cannabinoidsPageTitle => '합성 칸나비노이드 회복';
 
   @override
   String get synthetic_cannabinoidsHeaderStarted => '귀하의 회복 여정';
@@ -380,67 +380,67 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get synthetic_cannabinoidsInfoBox =>
-      '합성 칸나비노이드(“Spice”, “K2”)는 칸나비스보다 훨씬 더 강력하며, 금단 증상은 비슷하지만 불안과 빠른 심박수로 인해 더 심각합니다. 무거운 사용자는 의학적으로 지원되는 해독이 필요할 수 있습니다.';
+      '합성 칸나비노이드(“Spice”, “K2”)는 대마초보다 훨씬 강력하고 예측하기 어려울 수 있습니다. 금단은 더 심할 수 있으며 발작, 정신병적 증상, 초조, 빠른 심박수 등이 보고되었습니다. 심한 증상이 나타나면 즉시 의료 도움을 받으세요.';
 
   @override
   String get addictionSyntheticCannabinoids => '합성 칸나비노이드';
 
   @override
-  String get synthetic_cannabinoidsMilestone1Title => '출금 시작';
+  String get synthetic_cannabinoidsMilestone1Title => '금단 시작';
 
   @override
   String get synthetic_cannabinoidsMilestone1Description =>
-      '합성 칸나비노이드의 중단은 몇 시간에서 하루나 이틀 내에 시작될 수 있습니다. 불안, 과민성, 빠른 심박수, 발한 및 수면 문제를 예상하십시오.';
+      '잦은 사용 뒤에는 금단이 빠르게 나타날 수 있습니다. 수면 문제, 과민함, 우울한 기분, 발한, 두근거림, 초조, 떨림이 보고되며, 심한 경우 발작이나 정신병적 증상이 나타날 수 있습니다.';
 
   @override
-  String get synthetic_cannabinoidsMilestone3Title => '최고 증상';
+  String get synthetic_cannabinoidsMilestone3Title => '힘든 초반 구간';
 
   @override
   String get synthetic_cannabinoidsMilestone3Description =>
-      '가장 심한 불안, 과민성, 수면 부족, 갈망 등 증상은 처음 며칠 동안 최고조에 달하는 경향이 있습니다. 이것은 가장 어려운 스트레칭입니다.';
+      '3일째입니다. 합성 칸나비노이드 금단은 고효능 대마초보다 더 심할 수 있어 이 초반 구간은 만만치 않습니다. 이미 다음 사용과의 거리를 확실히 벌리고 있습니다.';
 
   @override
-  String get synthetic_cannabinoidsMilestone7Title => '급성기 완화';
+  String get synthetic_cannabinoidsMilestone7Title => '일주일, 강하게';
 
   @override
   String get synthetic_cannabinoidsMilestone7Description =>
-      '일주일이 지나면 가장 심한 증상이 완화됩니다. 수면, 심박수, 기분이 안정되기 시작합니다.';
+      '일주일을 해냈습니다. 합성 칸나비노이드 금단은 심할 수 있고 대마초 금단보다 신체 증상이 더 두드러질 수 있습니다. 7일 동안 다시 사용하지 않은 건 큰 승리입니다.';
 
   @override
-  String get synthetic_cannabinoidsMilestone14Title => '수면과 기분 안정';
+  String get synthetic_cannabinoidsMilestone14Title => '2주 연속 성공';
 
   @override
   String get synthetic_cannabinoidsMilestone14Description =>
-      '2주가 지나면 수면과 기분이 더욱 안정되고 조기 금단 증상으로 인한 빠른 심박수가 해결되었습니다.';
+      '2주째입니다. 합성 칸나비노이드는 만만한 약물이 아닙니다. 발작, 정신병적 증상, 심장 문제와 연관된 이 약물군에 다시 노출되지 않은 채 14일을 쌓았습니다.';
 
   @override
-  String get synthetic_cannabinoidsMilestone30Title => '한 달 클리어';
+  String get synthetic_cannabinoidsMilestone30Title => '한 달 연속 성공';
 
   @override
   String get synthetic_cannabinoidsMilestone30Description =>
-      '한 달이 지나면 대부분의 금단 증상이 해결됩니다. 수면, 기분, 선명도가 눈에 띄게 향상됩니다.';
+      '한 달을 온전히 해냈습니다. 예측하기 어려운 강도와 급성 독성을 가진 합성 칸나비노이드에 다시 노출되지 않은 30일입니다. 엄청난 이정표입니다.';
 
   @override
-  String get synthetic_cannabinoidsMilestone90Title => '3개월 후';
+  String get synthetic_cannabinoidsMilestone90Title => '3개월째';
 
   @override
   String get synthetic_cannabinoidsMilestone90Description =>
-      '3개월은 맑고 기분과 수면이 안정적이며 갈망이 거의 없습니다. 뇌의 칸나비노이드 시스템이 재조정되었습니다.';
+      '3개월째입니다. 심한 금단, 발작, 심혈관 문제, 정신병적 증상과 연관된 약물군과 큰 거리를 유지해 왔습니다. 이 흐름을 계속 이어가세요.';
 
   @override
-  String get synthetic_cannabinoidsMilestone180Title => '반년 무료';
+  String get synthetic_cannabinoidsMilestone180Title => '반년의 자유';
 
   @override
   String get synthetic_cannabinoidsMilestone180Description =>
-      '6개월간 합성 칸나비노이드를 사용하지 마세요. 금단 증상은 오랫동안 해결되었으며 이러한 약물의 심각한 위험은 사라졌습니다.';
+      '반년을 해냈습니다. 합성 칸나비노이드 없이 보낸 6개월은 대단합니다. 예측하기 어려운 급성 위험에 다시 노출되지 않은 6개월입니다.';
 
   @override
   String get synthetic_cannabinoidsWithdrawalReference =>
-      'Synthetic Cannabinoid Withdrawal\n\nSource: Craft et al. (2022), Psychopharmacology, PMC\n\nIn 284 people who had used synthetic cannabinoid receptor agonists more than 10 times in the previous year and tried to stop, 82.7% reported at least one withdrawal symptom after more than a day without use. Sleep problems (59.2%), irritability (55.6%), and low mood (54.2%) were most common; sweating, palpitations, craving, agitation, and shakiness were also reported. More frequent and heavier use was linked to more symptoms. Among participants who compared both drugs, synthetic-cannabinoid withdrawal was rated more severe than withdrawal from high-potency cannabis.';
+      '합성 칸나비노이드 금단\n\n출처: Craft et al. (2022), Psychopharmacology, PMC\n\n지난 1년 동안 합성 칸나비노이드 수용체 작용제를 10회 넘게 사용했고 중단을 시도한 284명 가운데, 하루 넘게 사용하지 않았을 때 82.7%가 적어도 한 가지 금단 증상을 보고했습니다. 가장 흔한 증상은 수면 문제(59.2%), 과민함(55.6%), 우울한 기분(54.2%)이었고, 발한, 두근거림, 갈망, 초조, 떨림도 보고됐습니다. 더 자주, 더 많은 양을 사용할수록 증상 수가 많았습니다. 두 약물을 직접 비교한 참가자들은 합성 칸나비노이드 금단을 고효능 대마초 금단보다 더 심하게 평가했습니다.';
 
   @override
   String get synthetic_cannabinoidsRiskReference =>
-      'Synthetic Cannabinoid Withdrawal and Acute Risk\n\nSource: Cooper (2016), Current Psychiatry Reports, PMC\n\nClinical reports describe withdrawal after daily synthetic-cannabinoid use occurring soon after the last dose, with severe anxiety, insomnia, nausea and vomiting, sweating, palpitations, tremor, agitation, and cravings. Severe cases have included recurring seizures and cardiovascular or breathing problems. The review also describes synthetic-cannabinoid intoxication as unpredictable and sometimes severe, including psychosis, seizures, cardiac events, and kidney injury. Severe or escalating symptoms need prompt medical assessment.';
+      '합성 칸나비노이드 금단과 급성 위험\n\n출처: Cooper (2016), Current Psychiatry Reports, PMC\n\n임상 보고에서는 합성 칸나비노이드를 매일 사용하다 중단한 뒤 마지막 사용 직후부터 심한 불안, 불면, 메스꺼움과 구토, 발한, 두근거림, 떨림, 초조, 갈망 같은 금단 증상이 나타날 수 있다고 설명합니다. 심한 사례에는 반복되는 발작과 심혈관 또는 호흡기 문제가 포함되었습니다. 이 리뷰는 합성 칸나비노이드 중독이 예측하기 어렵고 때로는 심각할 수 있으며, 정신병적 증상, 발작, 심장 사건, 신장 손상 등이 보고됐다고 정리합니다. 심하거나 악화되는 증상은 신속한 의료 평가가 필요합니다.';
 
   @override
   String get mdmaPageTitle => 'MDMA 복구';
