@@ -1931,21 +1931,29 @@
   "@socialMediaMilestone365Description": {
     "description": "Social media milestone day 365 description"
   },
-  "nicotinePouchesMilestone1Title": "Zapach smaku Rozpocząć odzyskiwanie",
+  "nicotinePouchesMilestone1Title": "Odstawienie już się zaczęło",
   "@nicotinePouchesMilestone1Title": {
     "description": "Nicotine pouches milestone day 1 title"
   },
-  "nicotinePouchesMilestone1Description": "Nikotyna tłumi swoje kubki smakowe i zapach receptorów. po zaledwie 24 godziny bez woreczków, zmysły te zaczynają swój comeback tournee! Jedzenie jest o smak niesamowite ponownie.",
+  "nicotinePouchesMilestone1Description": "Objawy odstawienia nikotyny mogą zacząć się 4–24 godziny po ostatniej saszetce. Pierwszy dzień bez saszetek to prawdziwy biologiczny kamień milowy — organizm już przystosowuje się do życia bez kolejnych dawek nikotyny.",
   "@nicotinePouchesMilestone1Description": {
     "description": "Nicotine pouches milestone day 1 description"
   },
-  "nicotinePouchesMilestone3Title": "Nikotyna całkowicie oczyszczona",
+  "nicotinePouchesMilestone3Title": "Odstawienie osiąga szczyt",
   "@nicotinePouchesMilestone3Title": {
     "description": "Nicotine pouches milestone day 3 title"
   },
-  "nicotinePouchesMilestone3Description": "Twoje ciało oficjalnie wyeksmitowało nikotynę! Podczas gdy objawy odstawienia mogą się teraz szczytować, pamiętaj - to jest twój mózg przełączanie się na wolność. Najtrudniejsza część jest prawie skończona.",
+  "nicotinePouchesMilestone3Description": "Odstawienie nikotyny zwykle osiąga szczyt około trzeciego dnia, a potem słabnie przez kolejne 3–4 tygodnie. Jesteś na szczycie wzgórza — od tego miejsca ogólny trend prowadzi w dół.",
   "@nicotinePouchesMilestone3Description": {
     "description": "Nicotine pouches milestone day 3 description"
+  },
+  "nicotinePouchesReferenceDay1": "Dzień pierwszy: zaczyna się odstawienie nikotyny\n\nŹródło: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nPrzegląd dotyczący odstawienia po przewlekłym używaniu produktów zawierających nikotynę podaje, że zespół odstawienny może rozpocząć się 4–24 godziny po zaprzestaniu używania. Dlatego pierwszy dzień bez saszetek jest rzeczywistym fizjologicznym kamieniem milowym.\n\nCo dalej\nObjawy zwykle osiągają szczyt około 3. dnia, a następnie słabną przez kolejne 3–4 tygodnie. Nasilenie odstawienia zależy także od sposobu przyjmowania nikotyny, więc doświadczenie może różnić się między osobami.",
+  "@nicotinePouchesReferenceDay1": {
+    "description": "Nicotine pouches day 1 detailed reference"
+  },
+  "nicotinePouchesReferenceDay3": "Dzień trzeci: szczyt odstawienia nikotyny\n\nŹródło: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nPrzegląd wskazuje, że typowy szczyt odstawienia nikotyny przypada około trzeciego dnia po zaprzestaniu przewlekłego używania nikotyny.\n\nKrzywa od tego miejsca\nPo szczycie objawy zwykle słabną przez kolejne 3–4 tygodnie. Przegląd zaznacza też, że nasilenie zależy od sposobu przyjmowania nikotyny, więc dokładna intensywność jest indywidualna.\n\nTrzeci dzień to ciężko wypracowany kamień milowy: jesteś na szczycie typowej wczesnej krzywej odstawienia.",
+  "@nicotinePouchesReferenceDay3": {
+    "description": "Nicotine pouches day 3 detailed reference"
   },
   "nicotinePouchesMilestone7Title": "Poprawia stan zdrowia jamy ustnej",
   "@nicotinePouchesMilestone7Title": {

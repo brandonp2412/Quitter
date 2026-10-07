@@ -2394,18 +2394,27 @@ class AppLocalizationsId extends AppLocalizations {
       'Satu tahun penuh hidup yang disengaja! Anda telah mendapatkan kembali 1.000+ jam, membentuk hubungan yang lebih dalam, dan membuktikan bahwa momen terbaik dalam hidup tidak dimaksudkan untuk dibagikan - melainkan untuk dialami. Anda resmi menjadi legenda kesehatan digital!';
 
   @override
-  String get nicotinePouchesMilestone1Title => 'Rasa & Bau Mulai Pemulihan';
+  String get nicotinePouchesMilestone1Title =>
+      'Gejala Putus Nikotin Sudah Dimulai';
 
   @override
   String get nicotinePouchesMilestone1Description =>
-      'Nikotin menumpulkan indra perasa dan reseptor penciuman Anda. Setelah 24 jam tanpa kantong, indra ini memulai tur comeback mereka! Makanan akan terasa luar biasa lagi.';
+      'Putus nikotin dapat mulai 4–24 jam setelah kantong terakhir Anda. Hari pertama tanpa kantong adalah tonggak biologis nyata — tubuh Anda sudah beradaptasi dengan hidup tanpa asupan nikotin berulang.';
 
   @override
-  String get nicotinePouchesMilestone3Title => 'Nikotin Dihilangkan Sepenuhnya';
+  String get nicotinePouchesMilestone3Title => 'Putus Nikotin Mencapai Puncak';
 
   @override
   String get nicotinePouchesMilestone3Description =>
-      'Tubuh Anda secara resmi telah mengusir semua nikotin! Meskipun gejala penarikan diri mungkin mencapai puncaknya saat ini, ingatlah - ini adalah otak Anda yang sedang mempersiapkan diri untuk kebebasan. Bagian tersulitnya hampir berakhir.';
+      'Putus nikotin biasanya mencapai puncak sekitar hari ketiga, lalu mereda selama 3–4 minggu berikutnya. Anda sudah berada di puncak bukit — dari sini, tren keseluruhannya menurun.';
+
+  @override
+  String get nicotinePouchesReferenceDay1 =>
+      'Hari Pertama: Putus Nikotin Dimulai\n\nSumber: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nTinjauan tentang penghentian penggunaan kronis produk yang mengandung nikotin melaporkan bahwa sindrom putus nikotin dapat dimulai 4–24 jam setelah berhenti. Itu membuat hari pertama tanpa kantong menjadi tonggak fisiologis yang nyata.\n\nApa selanjutnya\nGejala biasanya mencapai puncak sekitar hari ke-3 lalu mereda selama 3–4 minggu berikutnya. Intensitas putus nikotin berbeda menurut cara nikotin dikonsumsi, sehingga pengalaman tiap orang dapat berbeda.';
+
+  @override
+  String get nicotinePouchesReferenceDay3 =>
+      'Hari Ketiga: Puncak Putus Nikotin\n\nSumber: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nTinjauan ini menempatkan puncak khas putus nikotin sekitar hari ketiga setelah menghentikan penggunaan nikotin kronis.\n\nKurva setelah ini\nSetelah puncak, gejala biasanya mereda selama 3–4 minggu berikutnya. Tinjauan ini juga mencatat bahwa tingkat keparahan dipengaruhi oleh cara nikotin dikonsumsi, jadi intensitas tepatnya berbeda pada tiap orang.\n\nHari ketiga adalah tonggak yang diperjuangkan: Anda sudah mencapai puncak kurva awal putus nikotin yang khas.';
 
   @override
   String get nicotinePouchesMilestone7Title => 'Kesehatan Mulut Meningkat';

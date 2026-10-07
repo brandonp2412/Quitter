@@ -1928,21 +1928,29 @@
   "@socialMediaMilestone365Description": {
     "description": "Social media milestone day 365 description"
   },
-  "nicotinePouchesMilestone1Title": "味覚と嗅覚が回復し始める",
+  "nicotinePouchesMilestone1Title": "離脱が始まっています",
   "@nicotinePouchesMilestone1Title": {
     "description": "Nicotine pouches milestone day 1 title"
   },
-  "nicotinePouchesMilestone1Description": "ニコチンは味蕾と嗅覚受容体の働きを鈍らせます。パウチをやめてわずか24時間で、味覚と嗅覚が回復し始めます。食べ物の味も少しずつ鮮明になってきます。",
+  "nicotinePouchesMilestone1Description": "ニコチン離脱は最後のパウチから4〜24時間で始まることがあります。パウチなしで迎える最初の1日は本物の生理学的マイルストーンです。体はすでに、繰り返しニコチンが入ってこない状態へ適応し始めています。",
   "@nicotinePouchesMilestone1Description": {
     "description": "Nicotine pouches milestone day 1 description"
   },
-  "nicotinePouchesMilestone3Title": "ニコチンが完全に排出",
+  "nicotinePouchesMilestone3Title": "離脱がピークに",
   "@nicotinePouchesMilestone3Title": {
     "description": "Nicotine pouches milestone day 3 title"
   },
-  "nicotinePouchesMilestone3Description": "体内のニコチンはほぼ排出されました。離脱症状はこの頃に強くなることがありますが、脳はニコチンなしの状態に適応し始めています。つらい時期はもう少しです。",
+  "nicotinePouchesMilestone3Description": "ニコチン離脱は通常3日目前後にピークを迎え、その後3〜4週間かけて弱まっていきます。いまが山の頂上です。ここから全体の流れは下り坂です。",
   "@nicotinePouchesMilestone3Description": {
     "description": "Nicotine pouches milestone day 3 description"
+  },
+  "nicotinePouchesReferenceDay1": "1日目：ニコチン離脱が始まる\n\n出典：McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nニコチン含有製品を慢性的に使用した後の離脱を扱ったレビューでは、離脱症候群は中止後4〜24時間で始まることがあると報告されています。パウチなしで過ごす最初の1日は、明確な生理学的マイルストーンです。\n\nこの先の流れ\n症状は通常3日目前後にピークを迎え、その後3〜4週間かけて弱まります。離脱の強さはニコチンの摂取方法によって異なるため、体験には個人差があります。",
+  "@nicotinePouchesReferenceDay1": {
+    "description": "Nicotine pouches day 1 detailed reference"
+  },
+  "nicotinePouchesReferenceDay3": "3日目：ニコチン離脱のピーク\n\n出典：McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nこのレビューでは、慢性的なニコチン使用をやめた後の典型的な離脱ピークをおよそ3日目としています。\n\nここからの曲線\nピーク後、症状は通常その後3〜4週間かけて弱まります。また、離脱の強さはニコチンの摂取方法によって異なるとされ、強さには個人差があります。\n\n3日目は努力してたどり着いた大きな節目です。典型的な初期離脱曲線の頂上まで来ました。",
+  "@nicotinePouchesReferenceDay3": {
+    "description": "Nicotine pouches day 3 detailed reference"
   },
   "nicotinePouchesMilestone7Title": "口腔の健康が改善",
   "@nicotinePouchesMilestone7Title": {

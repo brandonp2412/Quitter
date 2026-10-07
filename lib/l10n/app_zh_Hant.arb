@@ -1928,21 +1928,29 @@
   "@socialMediaMilestone365Description": {
     "description": "Social media milestone day 365 description"
   },
-  "nicotinePouchesMilestone1Title": "味覺和嗅覺開始恢復",
+  "nicotinePouchesMilestone1Title": "戒斷已經開始",
   "@nicotinePouchesMilestone1Title": {
     "description": "Nicotine pouches milestone day 1 title"
   },
-  "nicotinePouchesMilestone1Description": "尼古丁會使味蕾和嗅覺受體變得遲鈍。停用尼古丁袋僅24小時後，味覺和嗅覺就開始恢復，食物的味道也會逐漸變得更鮮明。",
+  "nicotinePouchesMilestone1Description": "尼古丁戒斷可在最後一袋後4–24小時內開始。您不再使用尼古丁袋的第一天是真正的生理里程碑——身體已經開始適應不再反覆攝取尼古丁的狀態。",
   "@nicotinePouchesMilestone1Description": {
     "description": "Nicotine pouches milestone day 1 description"
   },
-  "nicotinePouchesMilestone3Title": "尼古丁完全清除",
+  "nicotinePouchesMilestone3Title": "戒斷達到高峰",
   "@nicotinePouchesMilestone3Title": {
     "description": "Nicotine pouches milestone day 3 title"
   },
-  "nicotinePouchesMilestone3Description": "體內的尼古丁已經基本清除。戒斷症狀可能在這時達到高峰，但大腦正在適應沒有尼古丁的狀態。最難熬的階段很快就會過去。",
+  "nicotinePouchesMilestone3Description": "尼古丁戒斷通常在第3天左右達到高峰，隨後在接下來的3–4週逐漸減輕。您已經到達山頂——從這裡開始，整體趨勢向下。",
   "@nicotinePouchesMilestone3Description": {
     "description": "Nicotine pouches milestone day 3 description"
+  },
+  "nicotinePouchesReferenceDay1": "第1天：尼古丁戒斷開始\n\n來源：McLaughlin、Dani 與 De Biasi — Nicotine Withdrawal\n\n一篇關於長期使用含尼古丁產品後戒斷的綜述指出，戒斷症候群可在停止後的4–24小時內開始。因此，不再使用尼古丁袋的第一天是真正的生理里程碑。\n\n接下來會怎樣\n症狀通常在第3天左右達到高峰，隨後在接下來的3–4週逐漸減輕。戒斷強度會隨尼古丁攝取方式而變化，因此每個人的體驗可能不同。",
+  "@nicotinePouchesReferenceDay1": {
+    "description": "Nicotine pouches day 1 detailed reference"
+  },
+  "nicotinePouchesReferenceDay3": "第3天：尼古丁戒斷高峰\n\n來源：McLaughlin、Dani 與 De Biasi — Nicotine Withdrawal\n\n該綜述把長期使用尼古丁停止後的典型戒斷高峰放在大約第3天。\n\n從這裡開始的曲線\n高峰之後，症狀通常會在接下來的3–4週逐漸減輕。綜述還指出，戒斷嚴重程度會隨尼古丁攝取方式而變化，因此具體強度因人而異。\n\n第3天是您靠堅持贏來的里程碑：您已經到達典型早期戒斷曲線的頂點。",
+  "@nicotinePouchesReferenceDay3": {
+    "description": "Nicotine pouches day 3 detailed reference"
   },
   "nicotinePouchesMilestone7Title": "口腔健康改善",
   "@nicotinePouchesMilestone7Title": {

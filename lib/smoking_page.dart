@@ -11,6 +11,8 @@ class SmokingPage extends StatelessWidget {
   final String? headerNotStarted;
   final String? subtitleStarted;
   final String? subtitleNotStarted;
+  final Map<int, QuitMilestone> Function(AppLocalizations)?
+  milestoneOverridesBuilder;
 
   const SmokingPage({
     super.key,
@@ -21,6 +23,7 @@ class SmokingPage extends StatelessWidget {
     this.headerNotStarted,
     this.subtitleStarted,
     this.subtitleNotStarted,
+    this.milestoneOverridesBuilder,
   });
 
   List<QuitMilestone> _getMilestones(AppLocalizations l10n) {
@@ -210,11 +213,16 @@ class SmokingPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context)!;
+    final overrides =
+        milestoneOverridesBuilder?.call(l10n) ?? <int, QuitMilestone>{};
+    final milestones = _getMilestones(l10n)
+        .map((milestone) => overrides[milestone.day] ?? milestone)
+        .toList(growable: false);
 
     return QuitMilestonesPage(
       title: pageTitle ?? l10n.smokingPageTitle,
       storageKey: storageKey,
-      milestones: _getMilestones(l10n),
+      milestones: milestones,
       headerStarted: headerStarted ?? l10n.smokingHeaderStarted,
       headerNotStarted: headerNotStarted ?? l10n.smokingHeaderNotStarted,
       subtitleStarted: subtitleStarted ?? l10n.smokingSubtitleStarted,

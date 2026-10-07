@@ -2416,19 +2416,26 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get nicotinePouchesMilestone1Title =>
-      'Empiezan a recuperarse el gusto y el olfato';
+      'La abstinencia ya está en marcha';
 
   @override
   String get nicotinePouchesMilestone1Description =>
-      'La nicotina reduce la sensibilidad de las papilas gustativas y los receptores del olfato. Tras solo 24 horas sin bolsitas, estos sentidos empiezan a recuperarse. ¡La comida está a punto de volver a saber genial!';
+      'La abstinencia de nicotina puede comenzar entre 4 y 24 horas después de tu última bolsita. Tu primer día sin bolsitas es un hito biológico real: tu organismo ya se está adaptando a vivir sin dosis repetidas de nicotina.';
 
   @override
-  String get nicotinePouchesMilestone3Title =>
-      'La nicotina se ha eliminado por completo';
+  String get nicotinePouchesMilestone3Title => 'La abstinencia alcanza su pico';
 
   @override
   String get nicotinePouchesMilestone3Description =>
-      'Tu organismo ya ha eliminado toda la nicotina. Aunque los síntomas de abstinencia pueden alcanzar su pico ahora, recuerda que tu cerebro se está reajustando para vivir sin ella. La parte más difícil está casi superada.';
+      'La abstinencia de nicotina suele alcanzar su pico alrededor del tercer día y luego disminuir durante las 3–4 semanas siguientes. Estás en la cima de la cuesta: a partir de aquí, la tendencia general va hacia abajo.';
+
+  @override
+  String get nicotinePouchesReferenceDay1 =>
+      'Día uno: comienza la abstinencia de nicotina\n\nFuente: McLaughlin, Dani y De Biasi — Nicotine Withdrawal\n\nUna revisión de la abstinencia tras el uso crónico de productos con nicotina informa que el síndrome puede comenzar entre 4 y 24 horas después de dejarla. Por eso, el primer día sin bolsitas es un hito fisiológico real.\n\nLo que viene después\nLos síntomas suelen alcanzar su pico alrededor del día 3 y luego disminuir durante las 3–4 semanas siguientes. La intensidad varía según cómo se consumía la nicotina, por lo que la experiencia puede ser distinta para cada persona.';
+
+  @override
+  String get nicotinePouchesReferenceDay3 =>
+      'Día tres: pico de abstinencia de nicotina\n\nFuente: McLaughlin, Dani y De Biasi — Nicotine Withdrawal\n\nLa revisión sitúa el pico típico de la abstinencia de nicotina aproximadamente en el tercer día después de dejar el consumo crónico.\n\nLa curva a partir de aquí\nTras el pico, los síntomas suelen disminuir durante las 3–4 semanas siguientes. La revisión también señala que la intensidad depende de cómo se consumía la nicotina, así que el nivel exacto es individual.\n\nEl tercer día es un hito ganado a pulso: has llegado a la cima de la curva típica de abstinencia temprana.';
 
   @override
   String get nicotinePouchesMilestone7Title => 'Mejora la salud bucal';

@@ -1931,21 +1931,29 @@
   "@socialMediaMilestone365Description": {
     "description": "Social media milestone day 365 description"
   },
-  "nicotinePouchesMilestone1Title": "Rasa & Bau Mulai Pemulihan",
+  "nicotinePouchesMilestone1Title": "Gejala Putus Nikotin Sudah Dimulai",
   "@nicotinePouchesMilestone1Title": {
     "description": "Nicotine pouches milestone day 1 title"
   },
-  "nicotinePouchesMilestone1Description": "Nikotin menumpulkan indra perasa dan reseptor penciuman Anda. Setelah 24 jam tanpa kantong, indra ini memulai tur comeback mereka! Makanan akan terasa luar biasa lagi.",
+  "nicotinePouchesMilestone1Description": "Putus nikotin dapat mulai 4–24 jam setelah kantong terakhir Anda. Hari pertama tanpa kantong adalah tonggak biologis nyata — tubuh Anda sudah beradaptasi dengan hidup tanpa asupan nikotin berulang.",
   "@nicotinePouchesMilestone1Description": {
     "description": "Nicotine pouches milestone day 1 description"
   },
-  "nicotinePouchesMilestone3Title": "Nikotin Dihilangkan Sepenuhnya",
+  "nicotinePouchesMilestone3Title": "Putus Nikotin Mencapai Puncak",
   "@nicotinePouchesMilestone3Title": {
     "description": "Nicotine pouches milestone day 3 title"
   },
-  "nicotinePouchesMilestone3Description": "Tubuh Anda secara resmi telah mengusir semua nikotin! Meskipun gejala penarikan diri mungkin mencapai puncaknya saat ini, ingatlah - ini adalah otak Anda yang sedang mempersiapkan diri untuk kebebasan. Bagian tersulitnya hampir berakhir.",
+  "nicotinePouchesMilestone3Description": "Putus nikotin biasanya mencapai puncak sekitar hari ketiga, lalu mereda selama 3–4 minggu berikutnya. Anda sudah berada di puncak bukit — dari sini, tren keseluruhannya menurun.",
   "@nicotinePouchesMilestone3Description": {
     "description": "Nicotine pouches milestone day 3 description"
+  },
+  "nicotinePouchesReferenceDay1": "Hari Pertama: Putus Nikotin Dimulai\n\nSumber: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nTinjauan tentang penghentian penggunaan kronis produk yang mengandung nikotin melaporkan bahwa sindrom putus nikotin dapat dimulai 4–24 jam setelah berhenti. Itu membuat hari pertama tanpa kantong menjadi tonggak fisiologis yang nyata.\n\nApa selanjutnya\nGejala biasanya mencapai puncak sekitar hari ke-3 lalu mereda selama 3–4 minggu berikutnya. Intensitas putus nikotin berbeda menurut cara nikotin dikonsumsi, sehingga pengalaman tiap orang dapat berbeda.",
+  "@nicotinePouchesReferenceDay1": {
+    "description": "Nicotine pouches day 1 detailed reference"
+  },
+  "nicotinePouchesReferenceDay3": "Hari Ketiga: Puncak Putus Nikotin\n\nSumber: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nTinjauan ini menempatkan puncak khas putus nikotin sekitar hari ketiga setelah menghentikan penggunaan nikotin kronis.\n\nKurva setelah ini\nSetelah puncak, gejala biasanya mereda selama 3–4 minggu berikutnya. Tinjauan ini juga mencatat bahwa tingkat keparahan dipengaruhi oleh cara nikotin dikonsumsi, jadi intensitas tepatnya berbeda pada tiap orang.\n\nHari ketiga adalah tonggak yang diperjuangkan: Anda sudah mencapai puncak kurva awal putus nikotin yang khas.",
+  "@nicotinePouchesReferenceDay3": {
+    "description": "Nicotine pouches day 3 detailed reference"
   },
   "nicotinePouchesMilestone7Title": "Kesehatan Mulut Meningkat",
   "@nicotinePouchesMilestone7Title": {

@@ -2414,20 +2414,26 @@ class AppLocalizationsPt extends AppLocalizations {
       'Um ano inteiro de vida intencional! Recuperou mais de 1.000 horas, formou relacionamentos mais profundos e provou que os melhores momentos da vida não foram feitos para serem compartilhados - eles foram feitos para serem vivenciados. É oficialmente uma lenda do bem-estar digital!';
 
   @override
-  String get nicotinePouchesMilestone1Title =>
-      'Sabor e olfato iniciam recuperação';
+  String get nicotinePouchesMilestone1Title => 'A abstinência já começou';
 
   @override
   String get nicotinePouchesMilestone1Description =>
-      'A nicotina embota as papilas gustativas e os receptores olfativos. Depois de apenas 24 horas sem bolsas, esses sentidos iniciam sua turnê de retorno! A comida está prestes a ter um sabor incrível novamente.';
+      'A abstinência de nicotina pode começar 4–24 horas após a última bolsa. O primeiro dia sem bolsas é um verdadeiro marco biológico — o organismo já está a adaptar-se à vida sem doses repetidas de nicotina.';
 
   @override
-  String get nicotinePouchesMilestone3Title =>
-      'Nicotina completamente eliminada';
+  String get nicotinePouchesMilestone3Title => 'A abstinência atinge o pico';
 
   @override
   String get nicotinePouchesMilestone3Description =>
-      'Seu corpo eliminou oficialmente toda a nicotina! Embora os sintomas de abstinência possam atingir o pico agora, lembre-se: este é o seu cérebro se reconectando para a liberdade. A parte mais difícil está quase no fim.';
+      'A abstinência de nicotina costuma atingir o pico por volta do terceiro dia e depois diminui ao longo das 3–4 semanas seguintes. Chegou ao topo da colina — daqui para a frente, a tendência geral é descer.';
+
+  @override
+  String get nicotinePouchesReferenceDay1 =>
+      'Dia um: começa a abstinência de nicotina\n\nFonte: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nUma revisão sobre a abstinência após uso crónico de produtos com nicotina refere que a síndrome de abstinência pode começar 4–24 horas depois de parar. Por isso, o primeiro dia sem bolsas é um verdadeiro marco fisiológico.\n\nO que vem a seguir\nOs sintomas costumam atingir o pico por volta do dia 3 e depois diminuem ao longo das 3–4 semanas seguintes. A intensidade varia consoante a forma como a nicotina era consumida, por isso a experiência pode variar de pessoa para pessoa.';
+
+  @override
+  String get nicotinePouchesReferenceDay3 =>
+      'Dia três: pico da abstinência de nicotina\n\nFonte: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nA revisão situa o pico típico da abstinência de nicotina por volta do terceiro dia após interromper o uso crónico de nicotina.\n\nA curva a partir daqui\nDepois do pico, os sintomas costumam diminuir ao longo das 3–4 semanas seguintes. A revisão também indica que a intensidade depende da forma como a nicotina era consumida, pelo que a intensidade exata é individual.\n\nO terceiro dia é um marco conquistado com esforço: chegou ao topo da curva típica da abstinência inicial.';
 
   @override
   String get nicotinePouchesMilestone7Title => 'A saúde bucal melhora';
@@ -6105,20 +6111,26 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
       'Um ano inteiro de vida intencional!Você recuperou mais de 1.000 horas, formou relacionamentos mais profundos e provou que os melhores momentos da vida não foram feitos para serem compartilhados - eles foram feitos para serem vivenciados. Você é oficialmente uma lenda do bem-estar digital!';
 
   @override
-  String get nicotinePouchesMilestone1Title =>
-      'Sabor e olfato iniciam recuperação';
+  String get nicotinePouchesMilestone1Title => 'A abstinência já começou';
 
   @override
   String get nicotinePouchesMilestone1Description =>
-      'A nicotina embota as papilas gustativas e os receptores olfativos. Depois de apenas 24 horas sem bolsas, esses sentidos iniciam sua turnê de retorno!A comida está prestes a ter um sabor incrível novamente.';
+      'A abstinência de nicotina pode começar 4–24 horas após a última bolsa. O primeiro dia sem bolsas é um verdadeiro marco biológico — seu organismo já está se adaptando à vida sem doses repetidas de nicotina.';
 
   @override
-  String get nicotinePouchesMilestone3Title =>
-      'Nicotina completamente eliminada';
+  String get nicotinePouchesMilestone3Title => 'A abstinência atinge o pico';
 
   @override
   String get nicotinePouchesMilestone3Description =>
-      'Seu corpo eliminou oficialmente toda a nicotina!Embora os sintomas de abstinência possam atingir o pico agora, lembre-se: este é o seu cérebro se reconectando para a liberdade. A parte mais difícil está quase no fim.';
+      'A abstinência de nicotina costuma atingir o pico por volta do terceiro dia e depois diminui ao longo das 3–4 semanas seguintes. Você chegou ao topo da colina — daqui para a frente, a tendência geral é de queda.';
+
+  @override
+  String get nicotinePouchesReferenceDay1 =>
+      'Dia um: começa a abstinência de nicotina\n\nFonte: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nUma revisão sobre a abstinência após uso crônico de produtos com nicotina relata que a síndrome de abstinência pode começar 4–24 horas depois de parar. Por isso, o primeiro dia sem bolsas é um verdadeiro marco fisiológico.\n\nO que vem depois\nOs sintomas costumam atingir o pico por volta do dia 3 e depois diminuem ao longo das 3–4 semanas seguintes. A intensidade varia conforme a forma como a nicotina era consumida, por isso a experiência pode variar de pessoa para pessoa.';
+
+  @override
+  String get nicotinePouchesReferenceDay3 =>
+      'Dia três: pico da abstinência de nicotina\n\nFonte: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nA revisão situa o pico típico da abstinência de nicotina por volta do terceiro dia após interromper o uso crônico de nicotina.\n\nA curva daqui para frente\nDepois do pico, os sintomas costumam diminuir ao longo das 3–4 semanas seguintes. A revisão também observa que a intensidade depende da forma como a nicotina era consumida, então a intensidade exata é individual.\n\nO terceiro dia é um marco conquistado com esforço: você chegou ao topo da curva típica da abstinência inicial.';
 
   @override
   String get nicotinePouchesMilestone7Title => 'A saúde bucal melhora';

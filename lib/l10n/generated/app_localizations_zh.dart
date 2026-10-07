@@ -2237,18 +2237,26 @@ class AppLocalizationsZh extends AppLocalizations {
       '有意识地减少社交媒体整整一年。您已经收回1000多个小时，建立了更深的人际关系，也把更多最好的时刻留给亲身体验，而不是分享。这个里程碑非常值得庆祝。';
 
   @override
-  String get nicotinePouchesMilestone1Title => '味觉和嗅觉开始恢复';
+  String get nicotinePouchesMilestone1Title => '戒断已经开始';
 
   @override
   String get nicotinePouchesMilestone1Description =>
-      '尼古丁会使味蕾和嗅觉受体变得迟钝。停用尼古丁袋仅24小时后，味觉和嗅觉就开始恢复，食物的味道也会逐渐变得更鲜明。';
+      '尼古丁戒断可在最后一袋后的4–24小时内开始。您不再使用尼古丁袋的第一天是真正的生理里程碑——身体已经开始适应不再反复摄入尼古丁的状态。';
 
   @override
-  String get nicotinePouchesMilestone3Title => '尼古丁完全清除';
+  String get nicotinePouchesMilestone3Title => '戒断达到高峰';
 
   @override
   String get nicotinePouchesMilestone3Description =>
-      '体内的尼古丁已经基本清除。戒断症状可能在这时达到高峰，但大脑正在适应没有尼古丁的状态。最难熬的阶段很快就会过去。';
+      '尼古丁戒断通常在第3天左右达到高峰，随后在接下来的3–4周逐渐减轻。您已经到达山顶——从这里开始，整体趋势向下。';
+
+  @override
+  String get nicotinePouchesReferenceDay1 =>
+      '第1天：尼古丁戒断开始\n\n来源：McLaughlin、Dani 与 De Biasi — Nicotine Withdrawal\n\n一篇关于长期使用含尼古丁产品后戒断的综述指出，戒断综合征可在停止后的4–24小时内开始。因此，不再使用尼古丁袋的第一天是真正的生理里程碑。\n\n接下来会怎样\n症状通常在第3天左右达到高峰，随后在接下来的3–4周逐渐减轻。戒断强度会随尼古丁摄入方式而变化，因此每个人的体验可能不同。';
+
+  @override
+  String get nicotinePouchesReferenceDay3 =>
+      '第3天：尼古丁戒断高峰\n\n来源：McLaughlin、Dani 与 De Biasi — Nicotine Withdrawal\n\n该综述把长期使用尼古丁停止后的典型戒断高峰放在大约第3天。\n\n从这里开始的曲线\n高峰之后，症状通常会在接下来的3–4周逐渐减轻。综述还指出，戒断严重程度会随尼古丁摄入方式而变化，因此具体强度因人而异。\n\n第3天是您靠坚持赢来的里程碑：您已经到达典型早期戒断曲线的顶点。';
 
   @override
   String get nicotinePouchesMilestone7Title => '口腔健康改善';
@@ -5727,18 +5735,26 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
       '有意識地減少社交媒體整整一年。您已經收回1000多個小時，建立了更深的人際關係，也把更多最好的時刻留給親身體驗，而不是分享。這個里程碑非常值得慶祝。';
 
   @override
-  String get nicotinePouchesMilestone1Title => '味覺和嗅覺開始恢復';
+  String get nicotinePouchesMilestone1Title => '戒斷已經開始';
 
   @override
   String get nicotinePouchesMilestone1Description =>
-      '尼古丁會使味蕾和嗅覺受體變得遲鈍。停用尼古丁袋僅24小時後，味覺和嗅覺就開始恢復，食物的味道也會逐漸變得更鮮明。';
+      '尼古丁戒斷可在最後一袋後4–24小時內開始。您不再使用尼古丁袋的第一天是真正的生理里程碑——身體已經開始適應不再反覆攝取尼古丁的狀態。';
 
   @override
-  String get nicotinePouchesMilestone3Title => '尼古丁完全清除';
+  String get nicotinePouchesMilestone3Title => '戒斷達到高峰';
 
   @override
   String get nicotinePouchesMilestone3Description =>
-      '體內的尼古丁已經基本清除。戒斷症狀可能在這時達到高峰，但大腦正在適應沒有尼古丁的狀態。最難熬的階段很快就會過去。';
+      '尼古丁戒斷通常在第3天左右達到高峰，隨後在接下來的3–4週逐漸減輕。您已經到達山頂——從這裡開始，整體趨勢向下。';
+
+  @override
+  String get nicotinePouchesReferenceDay1 =>
+      '第1天：尼古丁戒斷開始\n\n來源：McLaughlin、Dani 與 De Biasi — Nicotine Withdrawal\n\n一篇關於長期使用含尼古丁產品後戒斷的綜述指出，戒斷症候群可在停止後的4–24小時內開始。因此，不再使用尼古丁袋的第一天是真正的生理里程碑。\n\n接下來會怎樣\n症狀通常在第3天左右達到高峰，隨後在接下來的3–4週逐漸減輕。戒斷強度會隨尼古丁攝取方式而變化，因此每個人的體驗可能不同。';
+
+  @override
+  String get nicotinePouchesReferenceDay3 =>
+      '第3天：尼古丁戒斷高峰\n\n來源：McLaughlin、Dani 與 De Biasi — Nicotine Withdrawal\n\n該綜述把長期使用尼古丁停止後的典型戒斷高峰放在大約第3天。\n\n從這裡開始的曲線\n高峰之後，症狀通常會在接下來的3–4週逐漸減輕。綜述還指出，戒斷嚴重程度會隨尼古丁攝取方式而變化，因此具體強度因人而異。\n\n第3天是您靠堅持贏來的里程碑：您已經到達典型早期戒斷曲線的頂點。';
 
   @override
   String get nicotinePouchesMilestone7Title => '口腔健康改善';

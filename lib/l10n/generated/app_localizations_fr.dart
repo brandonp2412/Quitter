@@ -2442,20 +2442,26 @@ class AppLocalizationsFr extends AppLocalizations {
       'Une année entière de vie intentionnelle ! Vous avez récupéré plus de 1 000 heures, noué des relations plus profondes et montré que les meilleurs moments ne sont pas faits pour être publiés, mais vécus. Vous êtes désormais une légende du bien-être numérique !';
 
   @override
-  String get nicotinePouchesMilestone1Title =>
-      'Le goût et l\'odorat commencent à récupérer';
+  String get nicotinePouchesMilestone1Title => 'Le sevrage est en cours';
 
   @override
   String get nicotinePouchesMilestone1Description =>
-      'La nicotine émousse le goût et l\'odorat. Après seulement 24 heures sans sachets, ces sens commencent leur grand retour ! Les aliments vont retrouver toute leur saveur.';
+      'Le sevrage nicotinique peut commencer 4 à 24 heures après votre dernier sachet. Votre première journée sans sachet est un vrai cap biologique : votre organisme s’adapte déjà à la vie sans apports répétés de nicotine.';
 
   @override
-  String get nicotinePouchesMilestone3Title =>
-      'La nicotine est entièrement éliminée';
+  String get nicotinePouchesMilestone3Title => 'Le sevrage atteint son pic';
 
   @override
   String get nicotinePouchesMilestone3Description =>
-      'Votre corps a officiellement expulsé toute la nicotine ! Même si les symptômes de sevrage peuvent culminer maintenant, souvenez-vous : votre cerveau se recâble pour la liberté. Le plus dur est presque terminé.';
+      'Le sevrage nicotinique atteint généralement son pic vers le troisième jour, puis diminue au cours des 3 à 4 semaines suivantes. Vous êtes au sommet de la côte : à partir d’ici, la tendance générale descend.';
+
+  @override
+  String get nicotinePouchesReferenceDay1 =>
+      'Jour 1 : le sevrage nicotinique commence\n\nSource : McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nUne revue du sevrage après usage chronique de produits contenant de la nicotine rapporte que le syndrome de sevrage peut commencer 4 à 24 heures après l’arrêt. La première journée sans sachet est donc un véritable cap physiologique.\n\nLa suite\nLes symptômes culminent généralement vers le 3e jour puis diminuent au cours des 3 à 4 semaines suivantes. L’intensité varie selon la manière dont la nicotine était consommée, de sorte que l’expérience diffère d’une personne à l’autre.';
+
+  @override
+  String get nicotinePouchesReferenceDay3 =>
+      'Jour 3 : pic du sevrage nicotinique\n\nSource : McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nLa revue situe le pic typique du sevrage nicotinique autour du troisième jour après l’arrêt d’un usage chronique de nicotine.\n\nLa courbe à partir d’ici\nAprès le pic, les symptômes diminuent généralement au cours des 3 à 4 semaines suivantes. La revue note aussi que l’intensité du sevrage varie selon le mode de consommation de la nicotine ; l’intensité exacte est donc individuelle.\n\nLe troisième jour est un cap gagné de haute lutte : vous avez atteint le sommet de la courbe habituelle du sevrage précoce.';
 
   @override
   String get nicotinePouchesMilestone7Title =>

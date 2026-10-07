@@ -1931,21 +1931,29 @@
   "@socialMediaMilestone365Description": {
     "description": "Social media milestone day 365 description"
   },
-  "nicotinePouchesMilestone1Title": "آغاز بازیابی چشایی و بویایی",
+  "nicotinePouchesMilestone1Title": "ترک شروع شده است",
   "@nicotinePouchesMilestone1Title": {
     "description": "Nicotine pouches milestone day 1 title"
   },
-  "nicotinePouchesMilestone1Description": "نیکوتین حس چشایی و گیرنده‌های بویایی را کُند می‌کند. فقط ۲۴ ساعت بدون کیسه نیکوتین و این حواس شروع به بازگشت می‌کنند! غذا دوباره فوق‌العاده خواهد بود.",
+  "nicotinePouchesMilestone1Description": "علائم ترک نیکوتین می‌تواند ۴ تا ۲۴ ساعت پس از آخرین کیسه شروع شود. اولین روز بدون کیسه یک نقطه عطف زیستی واقعی است — بدن شما همین حالا دارد با زندگی بدون دریافت مکرر نیکوتین سازگار می‌شود.",
   "@nicotinePouchesMilestone1Description": {
     "description": "Nicotine pouches milestone day 1 description"
   },
-  "nicotinePouchesMilestone3Title": "پاک‌شدن کامل نیکوتین",
+  "nicotinePouchesMilestone3Title": "ترک به اوج می‌رسد",
   "@nicotinePouchesMilestone3Title": {
     "description": "Nicotine pouches milestone day 3 title"
   },
-  "nicotinePouchesMilestone3Description": "بدن شما رسماً تمام نیکوتین را بیرون کرده است! علائم ترک شاید اکنون به اوج برسند، اما یادتان باشد مغز در حال بازآرایی برای آزادی است. سخت‌ترین بخش تقریباً تمام شده.",
+  "nicotinePouchesMilestone3Description": "ترک نیکوتین معمولاً حوالی روز سوم به اوج می‌رسد و سپس طی ۳ تا ۴ هفته بعد فروکش می‌کند. به بالای تپه رسیده‌اید — از اینجا به بعد روند کلی رو به پایین است.",
   "@nicotinePouchesMilestone3Description": {
     "description": "Nicotine pouches milestone day 3 description"
+  },
+  "nicotinePouchesReferenceDay1": "روز اول: ترک نیکوتین آغاز می‌شود\n\nمنبع: McLaughlin، Dani و De Biasi — Nicotine Withdrawal\n\nمروری بر ترک پس از مصرف مزمن محصولات حاوی نیکوتین گزارش می‌کند که سندرم ترک می‌تواند ۴ تا ۲۴ ساعت پس از توقف شروع شود. بنابراین اولین روز بدون کیسه یک نقطه عطف فیزیولوژیک واقعی است.\n\nبعد چه می‌شود\nعلائم معمولاً حوالی روز سوم به اوج می‌رسند و سپس طی ۳ تا ۴ هفته بعد فروکش می‌کنند. شدت ترک با شیوه مصرف نیکوتین تفاوت دارد، بنابراین تجربه افراد یکسان نیست.",
+  "@nicotinePouchesReferenceDay1": {
+    "description": "Nicotine pouches day 1 detailed reference"
+  },
+  "nicotinePouchesReferenceDay3": "روز سوم: اوج ترک نیکوتین\n\nمنبع: McLaughlin، Dani و De Biasi — Nicotine Withdrawal\n\nاین مرور، اوج معمول ترک نیکوتین را حدود روز سوم پس از قطع مصرف مزمن نیکوتین قرار می‌دهد.\n\nمسیر از اینجا\nپس از اوج، علائم معمولاً طی ۳ تا ۴ هفته بعد فروکش می‌کنند. این مرور همچنین می‌گوید شدت ترک با شیوه مصرف نیکوتین تفاوت دارد، بنابراین شدت دقیق برای هر فرد متفاوت است.\n\nروز سوم یک نقطه عطف سخت‌به‌دست‌آمده است: به قله منحنی معمول ترک اولیه رسیده‌اید.",
+  "@nicotinePouchesReferenceDay3": {
+    "description": "Nicotine pouches day 3 detailed reference"
   },
   "nicotinePouchesMilestone7Title": "بهبود سلامت دهان",
   "@nicotinePouchesMilestone7Title": {

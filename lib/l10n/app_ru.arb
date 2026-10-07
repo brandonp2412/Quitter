@@ -1928,21 +1928,29 @@
   "@socialMediaMilestone365Description": {
     "description": "Social media milestone day 365 description"
   },
-  "nicotinePouchesMilestone1Title": "Вкус и обоняние начинают выздоровление",
+  "nicotinePouchesMilestone1Title": "Отмена уже началась",
   "@nicotinePouchesMilestone1Title": {
     "description": "Nicotine pouches milestone day 1 title"
   },
-  "nicotinePouchesMilestone1Description": "Никотин притупляет вкусовые рецепторы и обонятельные рецепторы. Спустя всего 24 часа без сумок эти чувства начинают свое возвращение! Еда снова станет восхитительной на вкус.",
+  "nicotinePouchesMilestone1Description": "Никотиновая абстиненция может начаться через 4–24 часа после последнего пакетика. Первый день без пакетиков — настоящий биологический рубеж: организм уже адаптируется к жизни без повторных доз никотина.",
   "@nicotinePouchesMilestone1Description": {
     "description": "Nicotine pouches milestone day 1 description"
   },
-  "nicotinePouchesMilestone3Title": "Никотин полностью выведен из организма",
+  "nicotinePouchesMilestone3Title": "Абстиненция достигает пика",
   "@nicotinePouchesMilestone3Title": {
     "description": "Nicotine pouches milestone day 3 title"
   },
-  "nicotinePouchesMilestone3Description": "Ваше тело официально избавилось от никотина! Хотя симптомы абстиненции могут сейчас достичь своего пика, помните: это ваш мозг перенастраивается на свободу. Самое сложное почти позади.",
+  "nicotinePouchesMilestone3Description": "Никотиновая абстиненция обычно достигает пика примерно на третий день, а затем ослабевает в течение следующих 3–4 недель. Вы на вершине холма — дальше общий тренд идёт вниз.",
   "@nicotinePouchesMilestone3Description": {
     "description": "Nicotine pouches milestone day 3 description"
+  },
+  "nicotinePouchesReferenceDay1": "День первый: начинается никотиновая абстиненция\n\nИсточник: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nОбзор отмены после хронического использования никотинсодержащих продуктов сообщает, что синдром отмены может начаться через 4–24 часа после прекращения. Поэтому первый день без пакетиков — настоящий физиологический рубеж.\n\nЧто дальше\nСимптомы обычно достигают пика примерно на 3-й день, а затем ослабевают в течение следующих 3–4 недель. Интенсивность зависит и от способа употребления никотина, поэтому ощущения у разных людей могут различаться.",
+  "@nicotinePouchesReferenceDay1": {
+    "description": "Nicotine pouches day 1 detailed reference"
+  },
+  "nicotinePouchesReferenceDay3": "День третий: пик никотиновой абстиненции\n\nИсточник: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nОбзор помещает типичный пик никотиновой абстиненции примерно на третий день после прекращения хронического употребления никотина.\n\nКривая дальше\nПосле пика симптомы обычно ослабевают в течение следующих 3–4 недель. Обзор также отмечает, что тяжесть зависит от способа употребления никотина, поэтому точная интенсивность индивидуальна.\n\nТретий день — заслуженный рубеж: вы достигли вершины типичной ранней кривой отмены.",
+  "@nicotinePouchesReferenceDay3": {
+    "description": "Nicotine pouches day 3 detailed reference"
   },
   "nicotinePouchesMilestone7Title": "Здоровье полости рта улучшается",
   "@nicotinePouchesMilestone7Title": {

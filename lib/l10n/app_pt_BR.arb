@@ -2004,21 +2004,29 @@
   "@socialMediaMilestone365Description": {
     "description": "Social media milestone day 365 description"
   },
-  "nicotinePouchesMilestone1Title": "Sabor e olfato iniciam recuperação",
+  "nicotinePouchesMilestone1Title": "A abstinência já começou",
   "@nicotinePouchesMilestone1Title": {
     "description": "Nicotine pouches milestone day 1 title"
   },
-  "nicotinePouchesMilestone1Description": "A nicotina embota as papilas gustativas e os receptores olfativos. Depois de apenas 24 horas sem bolsas, esses sentidos iniciam sua turnê de retorno!A comida está prestes a ter um sabor incrível novamente.",
+  "nicotinePouchesMilestone1Description": "A abstinência de nicotina pode começar 4–24 horas após a última bolsa. O primeiro dia sem bolsas é um verdadeiro marco biológico — seu organismo já está se adaptando à vida sem doses repetidas de nicotina.",
   "@nicotinePouchesMilestone1Description": {
     "description": "Nicotine pouches milestone day 1 description"
   },
-  "nicotinePouchesMilestone3Title": "Nicotina completamente eliminada",
+  "nicotinePouchesMilestone3Title": "A abstinência atinge o pico",
   "@nicotinePouchesMilestone3Title": {
     "description": "Nicotine pouches milestone day 3 title"
   },
-  "nicotinePouchesMilestone3Description": "Seu corpo eliminou oficialmente toda a nicotina!Embora os sintomas de abstinência possam atingir o pico agora, lembre-se: este é o seu cérebro se reconectando para a liberdade. A parte mais difícil está quase no fim.",
+  "nicotinePouchesMilestone3Description": "A abstinência de nicotina costuma atingir o pico por volta do terceiro dia e depois diminui ao longo das 3–4 semanas seguintes. Você chegou ao topo da colina — daqui para a frente, a tendência geral é de queda.",
   "@nicotinePouchesMilestone3Description": {
     "description": "Nicotine pouches milestone day 3 description"
+  },
+  "nicotinePouchesReferenceDay1": "Dia um: começa a abstinência de nicotina\n\nFonte: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nUma revisão sobre a abstinência após uso crônico de produtos com nicotina relata que a síndrome de abstinência pode começar 4–24 horas depois de parar. Por isso, o primeiro dia sem bolsas é um verdadeiro marco fisiológico.\n\nO que vem depois\nOs sintomas costumam atingir o pico por volta do dia 3 e depois diminuem ao longo das 3–4 semanas seguintes. A intensidade varia conforme a forma como a nicotina era consumida, por isso a experiência pode variar de pessoa para pessoa.",
+  "@nicotinePouchesReferenceDay1": {
+    "description": "Nicotine pouches day 1 detailed reference"
+  },
+  "nicotinePouchesReferenceDay3": "Dia três: pico da abstinência de nicotina\n\nFonte: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nA revisão situa o pico típico da abstinência de nicotina por volta do terceiro dia após interromper o uso crônico de nicotina.\n\nA curva daqui para frente\nDepois do pico, os sintomas costumam diminuir ao longo das 3–4 semanas seguintes. A revisão também observa que a intensidade depende da forma como a nicotina era consumida, então a intensidade exata é individual.\n\nO terceiro dia é um marco conquistado com esforço: você chegou ao topo da curva típica da abstinência inicial.",
+  "@nicotinePouchesReferenceDay3": {
+    "description": "Nicotine pouches day 3 detailed reference"
   },
   "nicotinePouchesMilestone7Title": "A saúde bucal melhora",
   "@nicotinePouchesMilestone7Title": {

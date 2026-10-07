@@ -1931,21 +1931,29 @@
   "@socialMediaMilestone365Description": {
     "description": "Social media milestone day 365 description"
   },
-  "nicotinePouchesMilestone1Title": "التذوق والشم يبدأان في التعافي",
+  "nicotinePouchesMilestone1Title": "بدأ الانسحاب",
   "@nicotinePouchesMilestone1Title": {
     "description": "Nicotine pouches milestone day 1 title"
   },
-  "nicotinePouchesMilestone1Description": "النيكوتين يضعف براعم التذوق ومستقبلات الشم لديك. بعد 24 ساعة فقط من عدم وجود أكياس، تبدأ هذه الحواس جولة عودتها! الطعام على وشك أن يكون مذاقه رائعًا مرة أخرى.",
+  "nicotinePouchesMilestone1Description": "يمكن أن يبدأ انسحاب النيكوتين خلال 4–24 ساعة من آخر كيس. يومك الأول بلا أكياس هو علامة بيولوجية حقيقية — جسمك يتكيف بالفعل مع الحياة من دون جرعات نيكوتين متكررة.",
   "@nicotinePouchesMilestone1Description": {
     "description": "Nicotine pouches milestone day 1 description"
   },
-  "nicotinePouchesMilestone3Title": "تم مسح النيكوتين بالكامل",
+  "nicotinePouchesMilestone3Title": "ذروة الانسحاب",
   "@nicotinePouchesMilestone3Title": {
     "description": "Nicotine pouches milestone day 3 title"
   },
-  "nicotinePouchesMilestone3Description": "لقد قام جسمك بطرد كل النيكوتين رسميًا! على الرغم من أن أعراض الانسحاب قد تصل إلى ذروتها الآن، تذكر - أن هذا هو دماغك الذي يعيد توصيل نفسه من أجل الحرية. الجزء الأصعب قد انتهى تقريبًا.",
+  "nicotinePouchesMilestone3Description": "يبلغ انسحاب النيكوتين ذروته عادةً قرب اليوم الثالث، ثم يخف تدريجيًا خلال الأسابيع 3–4 التالية. لقد وصلت إلى قمة التل — ومن هنا يتجه المسار العام إلى الانخفاض.",
   "@nicotinePouchesMilestone3Description": {
     "description": "Nicotine pouches milestone day 3 description"
+  },
+  "nicotinePouchesReferenceDay1": "اليوم الأول: يبدأ انسحاب النيكوتين\n\nالمصدر: McLaughlin وDani وDe Biasi — Nicotine Withdrawal\n\nتشير مراجعة للانسحاب بعد الاستخدام المزمن للمنتجات المحتوية على النيكوتين إلى أن متلازمة الانسحاب يمكن أن تبدأ خلال 4–24 ساعة من التوقف. لذلك فإن أول يوم بلا أكياس يمثل علامة فسيولوجية حقيقية.\n\nما التالي\nتبلغ الأعراض ذروتها عادةً قرب اليوم الثالث ثم تخف خلال الأسابيع 3–4 التالية. وتختلف شدة الانسحاب باختلاف طريقة استهلاك النيكوتين، لذلك قد تختلف التجربة من شخص لآخر.",
+  "@nicotinePouchesReferenceDay1": {
+    "description": "Nicotine pouches day 1 detailed reference"
+  },
+  "nicotinePouchesReferenceDay3": "اليوم الثالث: ذروة انسحاب النيكوتين\n\nالمصدر: McLaughlin وDani وDe Biasi — Nicotine Withdrawal\n\nتضع المراجعة الذروة المعتادة لانسحاب النيكوتين قرب اليوم الثالث بعد إيقاف الاستخدام المزمن للنيكوتين.\n\nالمسار من هنا\nبعد الذروة، تخف الأعراض عادةً خلال الأسابيع 3–4 التالية. كما تشير المراجعة إلى أن شدة الانسحاب تختلف باختلاف طريقة استهلاك النيكوتين، لذلك تختلف الشدة الدقيقة من شخص لآخر.\n\nاليوم الثالث علامة تستحق الاحتفال: لقد وصلت إلى قمة منحنى الانسحاب المبكر المعتاد.",
+  "@nicotinePouchesReferenceDay3": {
+    "description": "Nicotine pouches day 3 detailed reference"
   },
   "nicotinePouchesMilestone7Title": "تتحسن صحة الفم",
   "@nicotinePouchesMilestone7Title": {

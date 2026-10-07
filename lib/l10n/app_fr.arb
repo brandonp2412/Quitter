@@ -672,10 +672,18 @@
   "socialMediaMilestone180Description": "Six mois avec beaucoup moins de réseaux et vous vous épanouissez pleinement ! Les études à long terme montrent que réduire les réseaux sociaux entraîne des améliorations durables du bien-être, de l'estime de soi et de la satisfaction de vie. Vous prouvez que la vie réelle a beaucoup à offrir !",
   "socialMediaMilestone365Title": "Maître du zen numérique débloqué 🏆",
   "socialMediaMilestone365Description": "Une année entière de vie intentionnelle ! Vous avez récupéré plus de 1 000 heures, noué des relations plus profondes et montré que les meilleurs moments ne sont pas faits pour être publiés, mais vécus. Vous êtes désormais une légende du bien-être numérique !",
-  "nicotinePouchesMilestone1Title": "Le goût et l'odorat commencent à récupérer",
-  "nicotinePouchesMilestone1Description": "La nicotine émousse le goût et l'odorat. Après seulement 24 heures sans sachets, ces sens commencent leur grand retour ! Les aliments vont retrouver toute leur saveur.",
-  "nicotinePouchesMilestone3Title": "La nicotine est entièrement éliminée",
-  "nicotinePouchesMilestone3Description": "Votre corps a officiellement expulsé toute la nicotine ! Même si les symptômes de sevrage peuvent culminer maintenant, souvenez-vous : votre cerveau se recâble pour la liberté. Le plus dur est presque terminé.",
+  "nicotinePouchesMilestone1Title": "Le sevrage est en cours",
+  "nicotinePouchesMilestone1Description": "Le sevrage nicotinique peut commencer 4 à 24 heures après votre dernier sachet. Votre première journée sans sachet est un vrai cap biologique : votre organisme s’adapte déjà à la vie sans apports répétés de nicotine.",
+  "nicotinePouchesMilestone3Title": "Le sevrage atteint son pic",
+  "nicotinePouchesMilestone3Description": "Le sevrage nicotinique atteint généralement son pic vers le troisième jour, puis diminue au cours des 3 à 4 semaines suivantes. Vous êtes au sommet de la côte : à partir d’ici, la tendance générale descend.",
+  "nicotinePouchesReferenceDay1": "Jour 1 : le sevrage nicotinique commence\n\nSource : McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nUne revue du sevrage après usage chronique de produits contenant de la nicotine rapporte que le syndrome de sevrage peut commencer 4 à 24 heures après l’arrêt. La première journée sans sachet est donc un véritable cap physiologique.\n\nLa suite\nLes symptômes culminent généralement vers le 3e jour puis diminuent au cours des 3 à 4 semaines suivantes. L’intensité varie selon la manière dont la nicotine était consommée, de sorte que l’expérience diffère d’une personne à l’autre.",
+  "@nicotinePouchesReferenceDay1": {
+    "description": "Nicotine pouches day 1 detailed reference"
+  },
+  "nicotinePouchesReferenceDay3": "Jour 3 : pic du sevrage nicotinique\n\nSource : McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nLa revue situe le pic typique du sevrage nicotinique autour du troisième jour après l’arrêt d’un usage chronique de nicotine.\n\nLa courbe à partir d’ici\nAprès le pic, les symptômes diminuent généralement au cours des 3 à 4 semaines suivantes. La revue note aussi que l’intensité du sevrage varie selon le mode de consommation de la nicotine ; l’intensité exacte est donc individuelle.\n\nLe troisième jour est un cap gagné de haute lutte : vous avez atteint le sommet de la courbe habituelle du sevrage précoce.",
+  "@nicotinePouchesReferenceDay3": {
+    "description": "Nicotine pouches day 3 detailed reference"
+  },
   "nicotinePouchesMilestone7Title": "La santé bucco-dentaire s'améliore",
   "nicotinePouchesMilestone7Description": "Vos gencives ont de quoi célébrer ! Les sachets de nicotine peuvent provoquer irritation et récession gingivales. Après une semaine, la circulation sanguine des gencives se normalise et la guérison commence.",
   "nicotinePouchesMilestone14Title": "Amélioration de la circulation",

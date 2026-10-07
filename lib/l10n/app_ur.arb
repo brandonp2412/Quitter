@@ -1931,21 +1931,29 @@
   "@socialMediaMilestone365Description": {
     "description": "Social media milestone day 365 description"
   },
-  "nicotinePouchesMilestone1Title": "خوشبو اور سمیل بیگین ریختہ (انگریزی:",
+  "nicotinePouchesMilestone1Title": "نکوٹین کی دستبرداری شروع ہو گئی ہے",
   "@nicotinePouchesMilestone1Title": {
     "description": "Nicotine pouches milestone day 1 title"
   },
-  "nicotinePouchesMilestone1Description": "نکوٹین آپ کے مزاج اور خوشبودار کھانوں کو آلودہ کرتی ہے ۔ صرف ۲۴ گھنٹے بغیر ہی ، یہ حواس انکے واپس آنے کا سفر شروع کر دیتے ہیں ! کھانا ایک بار پھر حیران‌کُن خوشبودار کھانا ہے ۔",
+  "nicotinePouchesMilestone1Description": "نکوٹین کی دستبرداری آخری پاؤچ کے 4–24 گھنٹے بعد شروع ہو سکتی ہے۔ پاؤچ کے بغیر پہلا دن ایک حقیقی حیاتیاتی سنگِ میل ہے — آپ کا جسم بار بار نکوٹین ملے بغیر زندگی کے مطابق ڈھلنا شروع کر چکا ہے۔",
   "@nicotinePouchesMilestone1Description": {
     "description": "Nicotine pouches milestone day 1 description"
   },
-  "nicotinePouchesMilestone3Title": "نکوٹین کی کُل‌وقتی خدمت",
+  "nicotinePouchesMilestone3Title": "دستبرداری عروج پر پہنچتی ہے",
   "@nicotinePouchesMilestone3Title": {
     "description": "Nicotine pouches milestone day 3 title"
   },
-  "nicotinePouchesMilestone3Description": "آپ کے جسم نے سرکاری طور پر تمام نکوٹین کو نکال دیا ہے! یاد رکھیں کہ آپ کا دماغ آزادی کے لئے دوبارہ شروع کر رہا ہے ۔ سب سے مشکل حصہ تقریباً ختم ہو گیا ہے ۔",
+  "nicotinePouchesMilestone3Description": "نکوٹین کی دستبرداری عموماً تیسرے دن کے قریب عروج پر پہنچتی ہے، پھر اگلے 3–4 ہفتوں میں بتدریج کم ہوتی ہے۔ آپ پہاڑی کی چوٹی پر پہنچ گئے ہیں — یہاں سے مجموعی رجحان نیچے کی طرف ہے۔",
   "@nicotinePouchesMilestone3Description": {
     "description": "Nicotine pouches milestone day 3 description"
+  },
+  "nicotinePouchesReferenceDay1": "پہلا دن: نکوٹین کی دستبرداری شروع ہوتی ہے\n\nماخذ: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nنکوٹین والے مصنوعات کے طویل استعمال کے بعد دستبرداری کے جائزے کے مطابق، دستبرداری کی علامات چھوڑنے کے 4–24 گھنٹے بعد شروع ہو سکتی ہیں۔ اسی لیے پاؤچ کے بغیر پہلا دن ایک حقیقی جسمانی سنگِ میل ہے۔\n\nاس کے بعد کیا ہوتا ہے\nعلامات عموماً تیسرے دن کے قریب عروج پر پہنچتی ہیں اور پھر اگلے 3–4 ہفتوں میں کم ہوتی ہیں۔ شدت اس بات کے مطابق مختلف ہو سکتی ہے کہ نکوٹین کس طرح استعمال کی جاتی تھی، اس لیے ہر شخص کا تجربہ مختلف ہو سکتا ہے۔",
+  "@nicotinePouchesReferenceDay1": {
+    "description": "Nicotine pouches day 1 detailed reference"
+  },
+  "nicotinePouchesReferenceDay3": "تیسرا دن: نکوٹین کی دستبرداری کا عروج\n\nماخذ: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nیہ جائزہ طویل نکوٹین استعمال بند کرنے کے بعد معمول کی دستبرداری کے عروج کو تقریباً تیسرے دن رکھتا ہے۔\n\nیہاں سے آگے\nعروج کے بعد علامات عموماً اگلے 3–4 ہفتوں میں کم ہوتی ہیں۔ جائزہ یہ بھی بتاتا ہے کہ شدت نکوٹین کے استعمال کے طریقے کے مطابق بدلتی ہے، اس لیے درست شدت ہر فرد میں مختلف ہو سکتی ہے۔\n\nتیسرا دن محنت سے حاصل کیا ہوا سنگِ میل ہے: آپ ابتدائی دستبرداری کے معمول کے منحنی کی چوٹی تک پہنچ گئے ہیں۔",
+  "@nicotinePouchesReferenceDay3": {
+    "description": "Nicotine pouches day 3 detailed reference"
   },
   "nicotinePouchesMilestone7Title": "صحت کے مسائل",
   "@nicotinePouchesMilestone7Title": {

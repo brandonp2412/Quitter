@@ -1934,21 +1934,29 @@
   "@socialMediaMilestone365Description": {
     "description": "Social media milestone day 365 description"
   },
-  "nicotinePouchesMilestone1Title": "Taste & Smell Begin Recovery",
+  "nicotinePouchesMilestone1Title": "Withdrawal Is Underway",
   "@nicotinePouchesMilestone1Title": {
     "description": "Nicotine pouches milestone day 1 title"
   },
-  "nicotinePouchesMilestone1Description": "Nicotine dulls your taste buds and smell receptors. After just 24 hours without pouches, these senses start their comeback tour! Food is about to taste amazing again.",
+  "nicotinePouchesMilestone1Description": "Nicotine withdrawal can begin 4–24 hours after your last pouch. Your first pouch-free day is a real biological milestone — your system is already adapting to life without repeated nicotine.",
   "@nicotinePouchesMilestone1Description": {
     "description": "Nicotine pouches milestone day 1 description"
   },
-  "nicotinePouchesMilestone3Title": "Nicotine Completely Cleared",
+  "nicotinePouchesMilestone3Title": "Withdrawal Peaks",
   "@nicotinePouchesMilestone3Title": {
     "description": "Nicotine pouches milestone day 3 title"
   },
-  "nicotinePouchesMilestone3Description": "Your body has officially evicted all nicotine! While withdrawal symptoms might peak around now, remember - this is your brain rewiring itself for freedom. The hardest part is almost over.",
+  "nicotinePouchesMilestone3Description": "Nicotine withdrawal typically peaks around day three, then tapers over the next 3–4 weeks. You’re at the top of the hill — from here, the overall trend is down.",
   "@nicotinePouchesMilestone3Description": {
     "description": "Nicotine pouches milestone day 3 description"
+  },
+  "nicotinePouchesReferenceDay1": "Day One: Nicotine Withdrawal Begins\n\nSource: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nA review of withdrawal from chronic use of nicotine-containing products reports that the withdrawal syndrome can begin 4–24 hours after stopping. That makes the first pouch-free day a real physiological milestone.\n\nWhat happens next\nSymptoms typically peak around day 3 and then taper over the following 3–4 weeks. Withdrawal intensity varies with how nicotine was consumed, so the experience can differ from person to person.",
+  "@nicotinePouchesReferenceDay1": {
+    "description": "Nicotine pouches day 1 detailed reference"
+  },
+  "nicotinePouchesReferenceDay3": "Day Three: Peak Nicotine Withdrawal\n\nSource: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nThe review places the typical nicotine-withdrawal peak at about the third day after stopping chronic nicotine use.\n\nThe curve from here\nAfter the peak, symptoms usually taper over the following 3–4 weeks. The review also notes that withdrawal severity varies with how nicotine was consumed, so the exact intensity is individual.\n\nDay three is a hard-earned milestone: you've reached the top of the typical early withdrawal curve.",
+  "@nicotinePouchesReferenceDay3": {
+    "description": "Nicotine pouches day 3 detailed reference"
   },
   "nicotinePouchesMilestone7Title": "Oral Health Improves",
   "@nicotinePouchesMilestone7Title": {

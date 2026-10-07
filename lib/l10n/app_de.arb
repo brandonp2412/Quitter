@@ -672,10 +672,18 @@
   "socialMediaMilestone180Description": "Sechs Monate offline und du bist offiziell erfolgreich! Langzeitstudien zeigen, dass die Verringerung der Nutzung sozialer Medien zu nachhaltigen Verbesserungen des Wohlbefindens, des Selbstwertgefühls und der Lebenszufriedenheit führt. Du bist der lebende Beweis dafür, dass das Leben in der realen Welt besser ist!",
   "socialMediaMilestone365Title": "Digitaler Zen-Meister erreicht 🏆",
   "socialMediaMilestone365Description": "Ein volles Jahr absichtlichen Lebens! Sie haben mehr als 1.000 Stunden zurückgewonnen, tiefere Beziehungen aufgebaut und bewiesen, dass die besten Momente im Leben nicht zum Teilen gedacht sind - sie sind zum Erleben gedacht. Sie sind offiziell eine digitale Wellness-Legende!",
-  "nicotinePouchesMilestone1Title": "Geschmack & Geruch Beginnen Erholung",
-  "nicotinePouchesMilestone1Description": "Nikotin stumpft Ihre Geschmacksknospen und Geruchsrezeptoren. Nach nur 24 Stunden ohne Beutel beginnen diese Sinne ihre Comeback-Tour! Das Essen wird wieder erstaunlich schmecken.",
-  "nicotinePouchesMilestone3Title": "Nikotin vollständig gelöscht",
-  "nicotinePouchesMilestone3Description": "Ihr Körper hat offiziell alle Nikotin vertrieben! Während Entzugserscheinungen jetzt ihren Höhepunkt erreichen können, denken Sie daran - dies ist Ihr Gehirn, das sich für die Freiheit neu verdrahtet. Der schwierigste Teil ist fast vorbei.",
+  "nicotinePouchesMilestone1Title": "Der Entzug hat begonnen",
+  "nicotinePouchesMilestone1Description": "Der Nikotinentzug kann 4–24 Stunden nach Ihrem letzten Beutel beginnen. Ihr erster beutelfreier Tag ist ein echter biologischer Meilenstein — Ihr Körper stellt sich bereits auf ein Leben ohne wiederholte Nikotinzufuhr ein.",
+  "nicotinePouchesMilestone3Title": "Der Entzug erreicht seinen Höhepunkt",
+  "nicotinePouchesMilestone3Description": "Der Nikotinentzug erreicht typischerweise um Tag drei seinen Höhepunkt und klingt dann in den folgenden 3–4 Wochen ab. Sie sind oben auf dem Hügel — von hier an zeigt der Gesamttrend nach unten.",
+  "nicotinePouchesReferenceDay1": "Tag eins: Der Nikotinentzug beginnt\n\nQuelle: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nEine Übersichtsarbeit zum Entzug nach chronischem Gebrauch nikotinhaltiger Produkte berichtet, dass das Entzugssyndrom 4–24 Stunden nach dem Absetzen beginnen kann. Damit ist der erste beutelfreie Tag ein echter physiologischer Meilenstein.\n\nWas als Nächstes passiert\nDie Symptome erreichen typischerweise um Tag 3 ihren Höhepunkt und klingen dann in den folgenden 3–4 Wochen ab. Die Stärke des Entzugs hängt auch davon ab, wie Nikotin konsumiert wurde, daher kann das Erleben von Person zu Person unterschiedlich sein.",
+  "@nicotinePouchesReferenceDay1": {
+    "description": "Nicotine pouches day 1 detailed reference"
+  },
+  "nicotinePouchesReferenceDay3": "Tag drei: Höhepunkt des Nikotinentzugs\n\nQuelle: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nDie Übersichtsarbeit verortet den typischen Höhepunkt des Nikotinentzugs etwa am dritten Tag nach dem Ende chronischen Nikotinkonsums.\n\nDie Kurve ab hier\nNach dem Höhepunkt klingen die Symptome üblicherweise über die folgenden 3–4 Wochen ab. Die Übersichtsarbeit weist außerdem darauf hin, dass die Entzugsstärke davon abhängt, wie Nikotin konsumiert wurde; die genaue Intensität ist daher individuell.\n\nTag drei ist ein hart erarbeiteter Meilenstein: Sie haben den Gipfel der typischen frühen Entzugskurve erreicht.",
+  "@nicotinePouchesReferenceDay3": {
+    "description": "Nicotine pouches day 3 detailed reference"
+  },
   "nicotinePouchesMilestone7Title": "Mundgesundheit verbessert",
   "nicotinePouchesMilestone7Description": "Dein Zahnfleisch wirft eine Feier! Nikotinbeutel können Zahnfleischreizungen und Rezessionen verursachen. Nach einer Woche normalisiert sich der Blutfluss zu Ihrem Zahnfleisch und die Heilung beginnt.",
   "nicotinePouchesMilestone14Title": "Verbesserung der Zirkulation",

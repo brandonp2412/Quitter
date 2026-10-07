@@ -2284,18 +2284,26 @@ class AppLocalizationsKo extends AppLocalizations {
       '1년 동안 의도적인 삶을 살아보세요! 당신은 1,000시간 이상을 투자하고 더 깊은 관계를 형성했으며 인생 최고의 순간은 공유하기 위한 것이 아니라 경험하기 위한 것임을 증명했습니다. 당신은 공식적으로 디지털 웰니스의 전설이 되었습니다!';
 
   @override
-  String get nicotinePouchesMilestone1Title => '맛과 냄새가 회복되기 시작합니다';
+  String get nicotinePouchesMilestone1Title => '금단이 시작됐습니다';
 
   @override
   String get nicotinePouchesMilestone1Description =>
-      '니코틴은 미뢰와 후각 수용체를 둔화시킵니다. 파우치 없이 단 24시간 만에 이 감각들의 컴백 투어가 시작됩니다! 음식의 맛이 다시 놀라워질 것입니다.';
+      '니코틴 금단은 마지막 파우치 후 4~24시간 안에 시작될 수 있습니다. 파우치 없이 보낸 첫날은 분명한 생물학적 이정표입니다. 몸은 이미 반복적인 니코틴 공급 없이 지내는 상태에 적응하고 있습니다.';
 
   @override
-  String get nicotinePouchesMilestone3Title => '니코틴이 완전히 제거됨';
+  String get nicotinePouchesMilestone3Title => '금단이 정점에 도달합니다';
 
   @override
   String get nicotinePouchesMilestone3Description =>
-      '당신의 몸은 공식적으로 모든 니코틴을 제거했습니다! 금단 증상은 지금쯤 최고조에 달할 수 있지만 기억하세요. 이것은 자유를 위해 두뇌가 스스로 재배선되는 것입니다. 가장 어려운 부분이 거의 끝났습니다.';
+      '니코틴 금단은 보통 3일째 무렵 정점에 이른 뒤 다음 3~4주 동안 점차 줄어듭니다. 지금이 언덕의 꼭대기입니다. 여기서부터 전체 흐름은 내려갑니다.';
+
+  @override
+  String get nicotinePouchesReferenceDay1 =>
+      '1일째: 니코틴 금단이 시작됩니다\n\n출처: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\n니코틴 함유 제품의 만성 사용 중단을 다룬 리뷰에 따르면 금단 증후군은 중단 후 4~24시간 안에 시작될 수 있습니다. 따라서 파우치 없이 보내는 첫날은 실제 생리학적 이정표입니다.\n\n다음 단계\n증상은 보통 3일째 무렵 정점에 이른 뒤 다음 3~4주 동안 줄어듭니다. 금단의 강도는 니코틴 섭취 방식에 따라 달라질 수 있어 경험에는 개인차가 있습니다.';
+
+  @override
+  String get nicotinePouchesReferenceDay3 =>
+      '3일째: 니코틴 금단의 정점\n\n출처: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\n이 리뷰는 만성적인 니코틴 사용을 중단한 뒤 전형적인 금단 정점을 약 3일째로 봅니다.\n\n여기서부터의 곡선\n정점 이후 증상은 보통 다음 3~4주 동안 점차 줄어듭니다. 리뷰는 금단 강도 역시 니코틴 섭취 방식에 따라 달라진다고 설명하므로 정확한 강도에는 개인차가 있습니다.\n\n3일째는 힘들게 얻은 이정표입니다. 전형적인 초기 금단 곡선의 꼭대기에 도달했습니다.';
 
   @override
   String get nicotinePouchesMilestone7Title => '구강 건강이 향상됩니다';
