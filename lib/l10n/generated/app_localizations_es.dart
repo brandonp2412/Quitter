@@ -4065,4 +4065,48 @@ class AppLocalizationsEs extends AppLocalizations {
   @override
   String get inhalantsReferenceDay1825 =>
       'Cinco años sin inhalantes\n\nFuente: Cairney et al., «Estudio prospectivo de los cambios neurocognitivos 15 años después del abuso crónico de inhalantes», Addiction (2013), PubMed\n\nUn hito a largo plazo\nEl estudio respalda la posibilidad de una recuperación neurológica y cognitiva importante con abstinencia prolongada cuando no hay encefalopatía por plomo. Sus evaluaciones fueron a los dos y a los 15 años, por lo que no define los cinco años como una meta biológica universal.\n\nCinco años construidos\nCinco años son un progreso duradero y un gran periodo de vida lejos de los inhalantes. La evidencia respalda la recuperación a largo plazo, reconociendo que las lesiones graves relacionadas con el plomo pueden persistir.';
+
+  @override
+  String get maoiMilestone730Title => 'Dos años: Camino firme';
+
+  @override
+  String get maoiMilestone730Description =>
+      'Dos años después de dejar un IMAO representan un periodo considerable de cambio mantenido. La investigación sobre la retirada de tranilcipromina describe riesgos agudos de discontinuación, pero no define un punto biológico especial a los dos años. Este hito celebra la constancia, el apoyo y las rutinas que le han traído hasta aquí.';
+
+  @override
+  String get maoiMilestone1095Title => 'Tres años: Progreso duradero';
+
+  @override
+  String get maoiMilestone1095Description =>
+      'Tres años reflejan otro año completo manteniendo el rumbo elegido. La investigación sobre la discontinuación de IMAO no establece un umbral fisiológico de recuperación a los tres años; el logro es el patrón duradero de decisiones y apoyo construido en la vida cotidiana.';
+
+  @override
+  String get maoiMilestone1460Title => 'Cuatro años: Continuidad firme';
+
+  @override
+  String get maoiMilestone1460Description =>
+      'Cuatro años son constancia sostenida a través de cambios, tensiones y rutinas. La literatura sobre IMAO no identifica una meta médica universal a los cuatro años; este hito reconoce la continuidad que ha mantenido.';
+
+  @override
+  String get maoiMilestone1825Title => 'Cinco años: Cambio duradero';
+
+  @override
+  String get maoiMilestone1825Description =>
+      'Cinco años son un gran hito a largo plazo. La evidencia sobre la retirada de IMAO se centra en la discontinuación y en dejar el tratamiento con seguridad, no en una fecha de curación a los cinco años. El logro es la magnitud del tiempo, los hábitos y el apoyo que ha sostenido.';
+
+  @override
+  String get maoiReferenceDay730 =>
+      'Dos años después de los IMAO\n\nFuente: Gahr et al. (2013), revisión sistemática sobre retirada y discontinuación de tranilcipromina.\n\nLa revisión documenta síndromes potencialmente graves tras la interrupción brusca de tranilcipromina, pero no establece un umbral biológico especial de recuperación a los dos años. Este aniversario marca, por tanto, cambio sostenido, apoyo y rutinas, no una meta médica.';
+
+  @override
+  String get maoiReferenceDay1095 =>
+      'Tres años después de los IMAO\n\nFuente: Gahr et al. (2013), revisión sistemática sobre retirada y discontinuación de tranilcipromina.\n\nLa revisión caracteriza la retirada y discontinuación agudas, pero no define un punto fisiológico de recuperación a los tres años. Tres años celebran otro año completo manteniendo el rumbo elegido y el apoyo que ayudó a hacerlo duradero.';
+
+  @override
+  String get maoiReferenceDay1460 =>
+      'Cuatro años después de los IMAO\n\nFuente: Gahr et al. (2013), revisión sistemática sobre retirada y discontinuación de tranilcipromina.\n\nLa evidencia publicada sobre la discontinuación de IMAO no identifica un punto biológico universal a los cuatro años. Este aniversario refleja constancia sostenida entre cambios, tensiones y rutinas, sin inventar una fecha clínica.';
+
+  @override
+  String get maoiReferenceDay1825 =>
+      'Cinco años después de los IMAO\n\nFuente: Gahr et al. (2013), revisión sistemática sobre retirada y discontinuación de tranilcipromina.\n\nLa literatura aborda el riesgo de discontinuación y cómo dejar el tratamiento con seguridad; no define cinco años como fecha de curación ni como meta biológica universal. Aun así, cinco años son un gran hito por el tiempo, los hábitos y el apoyo mantenidos durante 1.825 días.';
 }

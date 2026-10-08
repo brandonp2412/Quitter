@@ -4034,4 +4034,48 @@ class AppLocalizationsId extends AppLocalizations {
   @override
   String get inhalantsReferenceDay1825 =>
       'Lima tahun tanpa inhalansia\n\nSumber: Cairney dkk., “Studi prospektif perubahan neurokognitif 15 tahun setelah penyalahgunaan inhalansia kronis”, Addiction (2013), PubMed\n\nTonggak jangka panjang\nStudi mendukung kemungkinan pemulihan neurologis dan kognitif yang besar melalui abstinensi jangka panjang bila ensefalopati timbal tidak ada. Penilaian dilakukan pada dua dan 15 tahun, sehingga lima tahun bukan garis akhir biologis universal.\n\nLima tahun terbangun\nLima tahun adalah kemajuan tahan lama dan rentang hidup yang panjang tanpa inhalansia. Bukti mendukung pemulihan jangka panjang sambil mengakui bahwa cedera berat terkait timbal dapat menetap.';
+
+  @override
+  String get maoiMilestone730Title => 'Dua Tahun: Langkah Mantap';
+
+  @override
+  String get maoiMilestone730Description =>
+      'Dua tahun setelah berhenti dari MAOI merupakan rentang panjang perubahan yang dipertahankan. Penelitian penghentian tranylcypromine menjelaskan risiko akut, tetapi tidak menetapkan titik akhir biologis khusus pada dua tahun. Tonggak ini merayakan konsistensi, dukungan, dan rutinitas yang membawa Anda sampai di sini.';
+
+  @override
+  String get maoiMilestone1095Title => 'Tiga Tahun: Kemajuan Bertahan';
+
+  @override
+  String get maoiMilestone1095Description =>
+      'Tiga tahun berarti satu tahun penuh lagi mempertahankan arah yang Anda pilih. Penelitian penghentian MAOI tidak menetapkan ambang pemulihan fisiologis pada tiga tahun; pencapaiannya adalah pola pilihan dan dukungan yang bertahan dalam kehidupan sehari-hari.';
+
+  @override
+  String get maoiMilestone1460Title => 'Empat Tahun: Konsisten Kuat';
+
+  @override
+  String get maoiMilestone1460Description =>
+      'Empat tahun menunjukkan ketekunan melalui perubahan, tekanan, dan rutinitas. Literatur MAOI tidak mengenali garis akhir medis universal pada empat tahun; tonggak ini menghargai kesinambungan yang telah Anda pertahankan.';
+
+  @override
+  String get maoiMilestone1825Title => 'Lima Tahun: Perubahan Bertahan';
+
+  @override
+  String get maoiMilestone1825Description =>
+      'Lima tahun adalah tonggak jangka panjang yang besar. Bukti tentang penghentian MAOI berfokus pada risiko penghentian dan cara berhenti dengan aman, bukan tanggal sembuh pada lima tahun. Pencapaiannya adalah besarnya waktu, kebiasaan, dan dukungan yang telah Anda pertahankan.';
+
+  @override
+  String get maoiReferenceDay730 =>
+      'Dua tahun setelah MAOI\n\nSumber: Gahr dkk. (2013), tinjauan sistematis tentang gejala putus dan penghentian tranylcypromine.\n\nTinjauan ini mendokumentasikan sindrom yang berpotensi berat setelah tranylcypromine dihentikan mendadak, tetapi tidak menetapkan ambang pemulihan biologis khusus pada dua tahun. Peringatan ini menandai perubahan, dukungan, dan rutinitas yang bertahan, bukan garis akhir medis.';
+
+  @override
+  String get maoiReferenceDay1095 =>
+      'Tiga tahun setelah MAOI\n\nSumber: Gahr dkk. (2013), tinjauan sistematis tentang gejala putus dan penghentian tranylcypromine.\n\nTinjauan ini menggambarkan penghentian akut, tetapi tidak menentukan titik pemulihan fisiologis pada tiga tahun. Tiga tahun merayakan satu tahun penuh lagi mempertahankan arah yang dipilih dan dukungan yang membuatnya bertahan.';
+
+  @override
+  String get maoiReferenceDay1460 =>
+      'Empat tahun setelah MAOI\n\nSumber: Gahr dkk. (2013), tinjauan sistematis tentang gejala putus dan penghentian tranylcypromine.\n\nBukti yang dipublikasikan tidak menemukan titik akhir biologis universal pada empat tahun. Tonggak ini mencerminkan ketekunan melalui perubahan, tekanan, dan rutinitas tanpa mengada-adakan batas waktu klinis.';
+
+  @override
+  String get maoiReferenceDay1825 =>
+      'Lima tahun setelah MAOI\n\nSumber: Gahr dkk. (2013), tinjauan sistematis tentang gejala putus dan penghentian tranylcypromine.\n\nLiteratur membahas risiko penghentian dan cara berhenti dengan aman; lima tahun tidak didefinisikan sebagai tanggal sembuh atau garis akhir biologis universal. Lima tahun tetap menjadi tonggak besar karena waktu, kebiasaan, dan dukungan yang dipertahankan selama 1.825 hari.';
 }

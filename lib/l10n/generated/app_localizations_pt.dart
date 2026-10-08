@@ -4064,6 +4064,50 @@ class AppLocalizationsPt extends AppLocalizations {
   @override
   String get inhalantsReferenceDay1825 =>
       'Cinco anos sem inalantes\n\nFonte: Cairney et al., «Estudo prospetivo das alterações neurocognitivas 15 anos após abuso crónico de inalantes», Addiction (2013), PubMed\n\nUm marco de longo prazo\nO estudo apoia a possibilidade de recuperação neurológica e cognitiva substancial com abstinência prolongada quando não existe encefalopatia por chumbo. As avaliações foram aos dois e aos 15 anos, por isso não define os cinco anos como uma meta biológica universal.\n\nCinco anos construídos\nCinco anos são progresso duradouro e um grande período de vida longe dos inalantes. A evidência apoia a recuperação a longo prazo, reconhecendo que lesões graves relacionadas com chumbo podem persistir.';
+
+  @override
+  String get maoiMilestone730Title => 'Dois anos: Caminho firme';
+
+  @override
+  String get maoiMilestone730Description =>
+      'Dois anos após deixar um IMAO representam um longo período de mudança mantida. A investigação sobre a suspensão da tranilcipromina descreve riscos agudos, mas não define um ponto biológico especial aos dois anos. Este marco celebra a consistência, o apoio e as rotinas que o trouxeram até aqui.';
+
+  @override
+  String get maoiMilestone1095Title => 'Três anos: Progresso duradouro';
+
+  @override
+  String get maoiMilestone1095Description =>
+      'Três anos representam mais um ano completo a manter o rumo escolhido. A investigação sobre a suspensão dos IMAO não estabelece um limiar fisiológico de recuperação aos três anos; a conquista é o padrão duradouro de escolhas e apoio construído no quotidiano.';
+
+  @override
+  String get maoiMilestone1460Title => 'Quatro anos: Continuidade firme';
+
+  @override
+  String get maoiMilestone1460Description =>
+      'Quatro anos mostram consistência ao longo de mudanças, tensões e rotinas. A literatura sobre IMAO não identifica uma meta médica universal aos quatro anos; este marco reconhece a continuidade que manteve.';
+
+  @override
+  String get maoiMilestone1825Title => 'Cinco anos: Mudança duradoura';
+
+  @override
+  String get maoiMilestone1825Description =>
+      'Cinco anos são um grande marco de longo prazo. A evidência sobre a suspensão dos IMAO centra-se na descontinuação e na interrupção segura, não numa data de cura aos cinco anos. A conquista está no tempo, nos hábitos e no apoio que manteve.';
+
+  @override
+  String get maoiReferenceDay730 =>
+      'Dois anos após os IMAO\n\nFonte: Gahr et al. (2013), revisão sistemática sobre abstinência e suspensão da tranilcipromina.\n\nA revisão documenta síndromes potencialmente graves após a interrupção abrupta da tranilcipromina, mas não estabelece um limiar biológico especial de recuperação aos dois anos. Este aniversário representa mudança sustentada, apoio e rotinas, não uma meta médica.';
+
+  @override
+  String get maoiReferenceDay1095 =>
+      'Três anos após os IMAO\n\nFonte: Gahr et al. (2013), revisão sistemática sobre abstinência e suspensão da tranilcipromina.\n\nA revisão caracteriza a fase aguda de abstinência e suspensão, mas não define um ponto fisiológico de recuperação aos três anos. Três anos celebram mais um ano completo no rumo escolhido e o apoio que ajudou a torná-lo duradouro.';
+
+  @override
+  String get maoiReferenceDay1460 =>
+      'Quatro anos após os IMAO\n\nFonte: Gahr et al. (2013), revisão sistemática sobre abstinência e suspensão da tranilcipromina.\n\nA evidência publicada sobre a suspensão de IMAO não identifica um ponto biológico universal aos quatro anos. Este marco reflete consistência mantida através de mudanças, tensões e rotinas, sem inventar um prazo clínico.';
+
+  @override
+  String get maoiReferenceDay1825 =>
+      'Cinco anos após os IMAO\n\nFonte: Gahr et al. (2013), revisão sistemática sobre abstinência e suspensão da tranilcipromina.\n\nA literatura aborda o risco de suspensão e a interrupção segura; não define cinco anos como data de cura nem como meta biológica universal. Cinco anos continuam a ser um marco importante pelo tempo, hábitos e apoio mantidos ao longo de 1 825 dias.';
 }
 
 /// The translations for Portuguese, as used in Brazil (`pt_BR`).
@@ -8126,4 +8170,48 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
   @override
   String get inhalantsReferenceDay1825 =>
       'Cinco anos sem inalantes\n\nFonte: Cairney et al., «Estudo prospectivo das alterações neurocognitivas 15 anos após abuso crônico de inalantes», Addiction (2013), PubMed\n\nUm marco de longo prazo\nO estudo apoia a possibilidade de recuperação neurológica e cognitiva substancial com abstinência prolongada quando não há encefalopatia por chumbo. As avaliações ocorreram aos dois e aos 15 anos, por isso não define cinco anos como uma meta biológica universal.\n\nCinco anos construídos\nCinco anos são progresso duradouro e um grande período de vida longe dos inalantes. A evidência apoia a recuperação de longo prazo, reconhecendo que lesões graves relacionadas ao chumbo podem persistir.';
+
+  @override
+  String get maoiMilestone730Title => 'Dois anos: Caminho firme';
+
+  @override
+  String get maoiMilestone730Description =>
+      'Dois anos após parar um IMAO representam um longo período de mudança mantida. A pesquisa sobre a retirada da tranilcipromina descreve riscos agudos de descontinuação, mas não define um ponto biológico especial aos dois anos. Este marco celebra a constância, o apoio e as rotinas que trouxeram você até aqui.';
+
+  @override
+  String get maoiMilestone1095Title => 'Três anos: Progresso duradouro';
+
+  @override
+  String get maoiMilestone1095Description =>
+      'Três anos representam mais um ano inteiro mantendo a direção escolhida. A pesquisa sobre descontinuação de IMAO não estabelece um limiar fisiológico de recuperação aos três anos; a conquista está no padrão duradouro de escolhas e apoio construído no dia a dia.';
+
+  @override
+  String get maoiMilestone1460Title => 'Quatro anos: Continuidade firme';
+
+  @override
+  String get maoiMilestone1460Description =>
+      'Quatro anos mostram constância através de mudanças, estresses e rotinas. A literatura sobre IMAO não identifica uma linha de chegada médica universal aos quatro anos; este marco reconhece a continuidade que você manteve.';
+
+  @override
+  String get maoiMilestone1825Title => 'Cinco anos: Mudança duradoura';
+
+  @override
+  String get maoiMilestone1825Description =>
+      'Cinco anos são um grande marco de longo prazo. As evidências sobre retirada de IMAO se concentram na descontinuação e na interrupção segura, não em uma data de cura aos cinco anos. A conquista está na dimensão do tempo, dos hábitos e do apoio que você sustentou.';
+
+  @override
+  String get maoiReferenceDay730 =>
+      'Dois anos após os IMAO\n\nFonte: Gahr et al. (2013), revisão sistemática sobre retirada e descontinuação da tranilcipromina.\n\nA revisão documenta síndromes potencialmente graves após a interrupção abrupta da tranilcipromina, mas não estabelece um limiar biológico especial de recuperação aos dois anos. Este aniversário marca mudança sustentada, apoio e rotinas, não uma linha de chegada médica.';
+
+  @override
+  String get maoiReferenceDay1095 =>
+      'Três anos após os IMAO\n\nFonte: Gahr et al. (2013), revisão sistemática sobre retirada e descontinuação da tranilcipromina.\n\nA revisão caracteriza a retirada e a descontinuação agudas, mas não define um ponto fisiológico de recuperação aos três anos. Três anos celebram mais um ano inteiro mantendo a direção escolhida e o apoio que ajudou a torná-la duradoura.';
+
+  @override
+  String get maoiReferenceDay1460 =>
+      'Quatro anos após os IMAO\n\nFonte: Gahr et al. (2013), revisão sistemática sobre retirada e descontinuação da tranilcipromina.\n\nAs evidências publicadas sobre descontinuação de IMAO não identificam um ponto biológico universal aos quatro anos. Este marco reflete constância sustentada por mudanças, estresses e rotinas, sem inventar um prazo clínico.';
+
+  @override
+  String get maoiReferenceDay1825 =>
+      'Cinco anos após os IMAO\n\nFonte: Gahr et al. (2013), revisão sistemática sobre retirada e descontinuação da tranilcipromina.\n\nA literatura aborda risco de descontinuação e interrupção segura; não define cinco anos como data de cura nem como linha de chegada biológica universal. Cinco anos ainda são um grande marco pelo tempo, hábitos e apoio sustentados ao longo de 1.825 dias.';
 }

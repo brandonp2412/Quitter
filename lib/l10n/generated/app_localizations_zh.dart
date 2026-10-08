@@ -3849,6 +3849,50 @@ class AppLocalizationsZh extends AppLocalizations {
   @override
   String get inhalantsReferenceDay1825 =>
       '远离吸入剂五年\n\n来源：Cairney等，《慢性吸入剂滥用15年后的神经认知变化前瞻性研究》，Addiction（2013），PubMed\n\n长期里程碑\n研究支持这样的可能性：在没有铅性脑病时，长期戒用可伴随显著的神经和认知恢复。研究的评估节点是两年和15年，因此没有把五年定义为统一的生物学终点。\n\n五年的积累\n五年是持久的进步，也是远离吸入剂生活的一大段时间。证据支持长期康复，同时也承认严重的铅相关损伤可能持续存在。';
+
+  @override
+  String get maoiMilestone730Title => '两年：步伐稳健';
+
+  @override
+  String get maoiMilestone730Description =>
+      '停用单胺氧化酶抑制剂两年，是一段持续保持改变的漫长时间。关于反苯环丙胺停药的研究描述了急性停药风险，但并未把两年定义为特殊的生物学恢复终点。这个里程碑庆祝的是一路坚持下来的稳定、支持和日常习惯。';
+
+  @override
+  String get maoiMilestone1095Title => '三年：进展长久';
+
+  @override
+  String get maoiMilestone1095Description =>
+      '三年意味着又完整坚持了一年自己选择的方向。单胺氧化酶抑制剂停药研究并未设定“三年生理恢复阈值”；真正的成就是在日常生活中持续建立并保持的选择与支持。';
+
+  @override
+  String get maoiMilestone1460Title => '四年：持续坚定';
+
+  @override
+  String get maoiMilestone1460Description =>
+      '四年代表在季节变化、压力和生活节奏变化中持续坚持。相关文献并未把四年确定为人人适用的医学终点；这个里程碑纪念的是一直保持下来的连续性。';
+
+  @override
+  String get maoiMilestone1825Title => '五年：改变扎根';
+
+  @override
+  String get maoiMilestone1825Description =>
+      '五年是重要的长期里程碑。关于单胺氧化酶抑制剂停药的证据关注停药风险和安全停药，并没有“五年即治愈”的日期。真正值得纪念的是长期积累的时间、习惯与支持。';
+
+  @override
+  String get maoiReferenceDay730 =>
+      '停用单胺氧化酶抑制剂两年\n\n来源：Gahr 等（2013），关于反苯环丙胺戒断与停药现象的系统综述。\n\n综述记录了突然停用反苯环丙胺后可能出现的严重综合征，但没有把两年设为特殊的生物学恢复阈值。因此，这个周年纪念的是持续的改变、支持和习惯，而不是医学终点。';
+
+  @override
+  String get maoiReferenceDay1095 =>
+      '停用单胺氧化酶抑制剂三年\n\n来源：Gahr 等（2013），关于反苯环丙胺戒断与停药现象的系统综述。\n\n综述描述了急性戒断和停药现象，但没有把三年定义为生理恢复点。三年纪念的是又完整坚持了一年自己选择的方向，以及让这种坚持能够延续的支持。';
+
+  @override
+  String get maoiReferenceDay1460 =>
+      '停用单胺氧化酶抑制剂四年\n\n来源：Gahr 等（2013），关于反苯环丙胺戒断与停药现象的系统综述。\n\n现有证据并未指出四年是普遍适用的生物学终点。这个里程碑反映的是在变化、压力和日常节奏中仍然持续坚持，而不是人为设定一个临床期限。';
+
+  @override
+  String get maoiReferenceDay1825 =>
+      '停用单胺氧化酶抑制剂五年\n\n来源：Gahr 等（2013），关于反苯环丙胺戒断与停药现象的系统综述。\n\n文献讨论停药风险和安全停药，并没有把五年定义为治愈日期或普遍的生物学终点。即便如此，1825天里持续积累的时间、习惯和支持，仍然构成重要的长期里程碑。';
 }
 
 /// The translations for Chinese, using the Han script (`zh_Hant`).
@@ -7696,4 +7740,48 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   @override
   String get inhalantsReferenceDay1825 =>
       '遠離吸入劑五年\n\n來源：Cairney等，《慢性吸入劑濫用15年後的神經認知變化前瞻性研究》，Addiction（2013），PubMed\n\n長期里程碑\n研究支持這樣的可能性：在沒有鉛性腦病時，長期戒用可伴隨顯著的神經和認知恢復。研究的評估節點是兩年和15年，因此沒有把五年定義為統一的生物學終點。\n\n五年的累積\n五年是持久的進步，也是遠離吸入劑生活的一大段時間。證據支持長期康復，同時也承認嚴重的鉛相關損傷可能持續存在。';
+
+  @override
+  String get maoiMilestone730Title => '兩年：步伐穩健';
+
+  @override
+  String get maoiMilestone730Description =>
+      '停用單胺氧化酶抑制劑兩年，是一段持續維持改變的長時間。關於反苯環丙胺停藥的研究描述了急性停藥風險，但並未把兩年定義為特殊的生物學恢復終點。這個里程碑慶祝的是一路維持的穩定、支持與日常習慣。';
+
+  @override
+  String get maoiMilestone1095Title => '三年：進展長久';
+
+  @override
+  String get maoiMilestone1095Description =>
+      '三年代表又完整維持了一年自己選擇的方向。單胺氧化酶抑制劑停藥研究並未設定「三年生理恢復門檻」；真正的成就是在日常生活中持續建立並維持的選擇與支持。';
+
+  @override
+  String get maoiMilestone1460Title => '四年：持續堅定';
+
+  @override
+  String get maoiMilestone1460Description =>
+      '四年代表在季節變化、壓力與生活節奏改變中持續堅持。相關文獻並未把四年確定為人人適用的醫學終點；這個里程碑紀念的是一直維持下來的連續性。';
+
+  @override
+  String get maoiMilestone1825Title => '五年：改變扎根';
+
+  @override
+  String get maoiMilestone1825Description =>
+      '五年是重要的長期里程碑。關於單胺氧化酶抑制劑停藥的證據著重於停藥風險與安全停藥，並沒有「五年即治癒」的日期。真正值得紀念的是長期累積的時間、習慣與支持。';
+
+  @override
+  String get maoiReferenceDay730 =>
+      '停用單胺氧化酶抑制劑兩年\n\n來源：Gahr 等（2013），關於反苯環丙胺戒斷與停藥現象的系統性回顧。\n\n回顧記錄了突然停用反苯環丙胺後可能出現的嚴重症候群，但沒有把兩年設為特殊的生物學恢復門檻。因此，這個週年紀念的是持續的改變、支持與習慣，而不是醫學終點。';
+
+  @override
+  String get maoiReferenceDay1095 =>
+      '停用單胺氧化酶抑制劑三年\n\n來源：Gahr 等（2013），關於反苯環丙胺戒斷與停藥現象的系統性回顧。\n\n回顧描述了急性戒斷與停藥現象，但沒有把三年定義為生理恢復點。三年紀念的是又完整維持了一年自己選擇的方向，以及讓這份堅持得以延續的支持。';
+
+  @override
+  String get maoiReferenceDay1460 =>
+      '停用單胺氧化酶抑制劑四年\n\n來源：Gahr 等（2013），關於反苯環丙胺戒斷與停藥現象的系統性回顧。\n\n現有證據並未指出四年是普遍適用的生物學終點。這個里程碑反映的是在變化、壓力與日常節奏中仍持續堅持，而不是人為設定一個臨床期限。';
+
+  @override
+  String get maoiReferenceDay1825 =>
+      '停用單胺氧化酶抑制劑五年\n\n來源：Gahr 等（2013），關於反苯環丙胺戒斷與停藥現象的系統性回顧。\n\n文獻討論停藥風險與安全停藥，並沒有把五年定義為治癒日期或普遍的生物學終點。即使如此，1825天裡持續累積的時間、習慣與支持，仍然構成重要的長期里程碑。';
 }

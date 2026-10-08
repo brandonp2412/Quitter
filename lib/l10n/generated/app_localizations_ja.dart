@@ -3852,4 +3852,48 @@ class AppLocalizationsJa extends AppLocalizations {
   @override
   String get inhalantsReferenceDay1825 =>
       '吸入剤を断って5年\n\n出典：Cairneyら「慢性的な吸入剤乱用から15年後の神経認知変化を追った前向き研究」Addiction（2013年）、PubMed掲載\n\n長期の節目\nこの研究は、鉛脳症がない場合に長期禁断で神経・認知機能が大きく回復し得ることを支持しています。評価時点は2年と15年であり、5年を一律の生物学的終点とはしていません。\n\n積み上げた5年\n5年は吸入剤から離れて築いた長い期間であり、持続した前進です。根拠は長期的な回復を支持する一方、重い鉛関連損傷が残る場合もあることを示しています。';
+
+  @override
+  String get maoiMilestone730Title => '2年：揺るぎない歩み';
+
+  @override
+  String get maoiMilestone730Description =>
+      'MAOIを中止して2年は、変化を保ち続けてきた大きな期間です。トラニルシプロミン中止の研究は急性の離脱リスクを示しますが、2年を特別な生物学的回復点とは定めていません。この節目は、ここまで支えた継続、支援、習慣そのものをたたえます。';
+
+  @override
+  String get maoiMilestone1095Title => '3年：続く前進';
+
+  @override
+  String get maoiMilestone1095Description =>
+      '3年は、選んだ方向をさらに1年間保った証です。MAOI中止の研究は3年を生理学的な回復の境界とは定めていません。日々の選択と支援を長く積み重ねてきたこと自体が成果です。';
+
+  @override
+  String get maoiMilestone1460Title => '4年：確かな継続';
+
+  @override
+  String get maoiMilestone1460Description =>
+      '4年は、季節やストレス、生活の変化を越えて続けてきた歩みです。MAOIに関する文献は4年を普遍的な医学的ゴールとはしていません。この節目は、保ち続けた継続性をたたえます。';
+
+  @override
+  String get maoiMilestone1825Title => '5年：根づいた変化';
+
+  @override
+  String get maoiMilestone1825Description =>
+      '5年は大きな長期の節目です。MAOI離脱のエビデンスは中止時のリスクと安全な中止を扱っており、5年を治癒の日とは定めていません。積み重ねた時間、習慣、支援の大きさそのものが成果です。';
+
+  @override
+  String get maoiReferenceDay730 =>
+      'MAOI中止から2年\n\n出典：Gahrら（2013）、トラニルシプロミンの離脱・中止反応に関する系統的レビュー。\n\nこのレビューは急な中止後に重い症候群が起こり得ることを示しますが、2年を特別な生物学的回復の境界とはしていません。この記念日は医学的なゴールではなく、続いてきた変化、支援、習慣を示します。';
+
+  @override
+  String get maoiReferenceDay1095 =>
+      'MAOI中止から3年\n\n出典：Gahrら（2013）、トラニルシプロミンの離脱・中止反応に関する系統的レビュー。\n\nレビューは急性の離脱・中止反応を整理していますが、3年を生理学的回復点とは定めていません。3年は、選んだ方向をさらに1年間維持し、それを支えた支援が続いたことをたたえる節目です。';
+
+  @override
+  String get maoiReferenceDay1460 =>
+      'MAOI中止から4年\n\n出典：Gahrら（2013）、トラニルシプロミンの離脱・中止反応に関する系統的レビュー。\n\n公表されたエビデンスは4年を普遍的な生物学的終点とはしていません。この節目は、変化する状況やストレス、生活習慣の中でも継続してきたことを、架空の医学的期限なしにたたえます。';
+
+  @override
+  String get maoiReferenceDay1825 =>
+      'MAOI中止から5年\n\n出典：Gahrら（2013）、トラニルシプロミンの離脱・中止反応に関する系統的レビュー。\n\n文献は離脱リスクと安全な中止を扱い、5年を治癒日や普遍的な生物学的ゴールとは定めていません。それでも1825日にわたり積み重ねた時間、習慣、支援は大きな節目に値します。';
 }

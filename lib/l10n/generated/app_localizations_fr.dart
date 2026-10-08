@@ -4089,4 +4089,48 @@ class AppLocalizationsFr extends AppLocalizations {
   @override
   String get inhalantsReferenceDay1825 =>
       'Cinq ans sans inhalants\n\nSource : Cairney et coll., « Étude prospective des changements neurocognitifs 15 ans après un usage chronique d’inhalants », Addiction (2013), PubMed\n\nUn jalon à long terme\nL’étude soutient la possibilité d’une récupération neurologique et cognitive importante avec une abstinence prolongée en l’absence d’encéphalopathie au plomb. Les évaluations ont eu lieu à deux et 15 ans; elle ne présente donc pas cinq ans comme une limite biologique universelle.\n\nCinq ans construits\nCinq ans constituent un progrès durable et une longue période de vie sans inhalants. Les données soutiennent la récupération à long terme tout en reconnaissant que de graves lésions liées au plomb peuvent persister.';
+
+  @override
+  String get maoiMilestone730Title => 'Deux ans : Cap solide';
+
+  @override
+  String get maoiMilestone730Description =>
+      'Deux ans après l’arrêt d’un IMAO représentent une longue période de changement maintenu. Les recherches sur l’arrêt de la tranylcypromine décrivent des risques aigus de sevrage, mais ne définissent pas de seuil biologique particulier à deux ans. Ce jalon célèbre la constance, le soutien et les habitudes qui vous ont mené jusque-là.';
+
+  @override
+  String get maoiMilestone1095Title => 'Trois ans : Progrès durable';
+
+  @override
+  String get maoiMilestone1095Description =>
+      'Trois ans représentent une année complète de plus à maintenir la direction choisie. Les recherches sur l’arrêt des IMAO n’établissent pas de seuil physiologique de récupération à trois ans ; l’accomplissement réside dans la continuité des choix et du soutien construite au quotidien.';
+
+  @override
+  String get maoiMilestone1460Title => 'Quatre ans : Cap maintenu';
+
+  @override
+  String get maoiMilestone1460Description =>
+      'Quatre ans témoignent d’une constance maintenue malgré les changements, le stress et les routines. La littérature sur les IMAO n’identifie pas de ligne d’arrivée médicale universelle à quatre ans ; ce jalon honore la continuité que vous avez préservée.';
+
+  @override
+  String get maoiMilestone1825Title => 'Cinq ans : Changement durable';
+
+  @override
+  String get maoiMilestone1825Description =>
+      'Cinq ans constituent un jalon majeur à long terme. Les données sur l’arrêt des IMAO portent sur le sevrage et l’arrêt en sécurité, pas sur une date de guérison à cinq ans. L’accomplissement réside dans l’ampleur du temps, des habitudes et du soutien que vous avez maintenus.';
+
+  @override
+  String get maoiReferenceDay730 =>
+      'Deux ans après les IMAO\n\nSource : Gahr et al. (2013), revue systématique du sevrage et de l’arrêt de la tranylcypromine.\n\nLa revue décrit des syndromes potentiellement graves après un arrêt brutal de la tranylcypromine, mais n’établit pas de seuil biologique particulier de récupération à deux ans. Cet anniversaire marque donc un changement durable, du soutien et des habitudes, et non une ligne d’arrivée médicale.';
+
+  @override
+  String get maoiReferenceDay1095 =>
+      'Trois ans après les IMAO\n\nSource : Gahr et al. (2013), revue systématique du sevrage et de l’arrêt de la tranylcypromine.\n\nLa revue caractérise les phénomènes aigus de sevrage et d’arrêt, mais ne définit pas de point physiologique de récupération à trois ans. Trois ans célèbrent une année complète de plus dans la direction choisie et le soutien qui l’a rendue durable.';
+
+  @override
+  String get maoiReferenceDay1460 =>
+      'Quatre ans après les IMAO\n\nSource : Gahr et al. (2013), revue systématique du sevrage et de l’arrêt de la tranylcypromine.\n\nLes données publiées sur l’arrêt des IMAO n’identifient pas de seuil biologique universel à quatre ans. Ce jalon reflète une constance maintenue au fil des changements, du stress et des habitudes, sans inventer d’échéance clinique.';
+
+  @override
+  String get maoiReferenceDay1825 =>
+      'Cinq ans après les IMAO\n\nSource : Gahr et al. (2013), revue systématique du sevrage et de l’arrêt de la tranylcypromine.\n\nLa littérature traite des risques de sevrage et de l’arrêt en sécurité ; elle ne définit pas cinq ans comme une date de guérison ni comme une ligne d’arrivée biologique universelle. Cinq ans restent un jalon majeur pour le temps, les habitudes et le soutien maintenus pendant 1 825 jours.';
 }

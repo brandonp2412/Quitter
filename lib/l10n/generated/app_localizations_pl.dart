@@ -4056,4 +4056,48 @@ class AppLocalizationsPl extends AppLocalizations {
   @override
   String get inhalantsReferenceDay1825 =>
       'Pięć lat bez inhalantów\n\nŹródło: Cairney i wsp., „Prospektywne badanie zmian neurokognitywnych 15 lat po przewlekłym nadużywaniu inhalantów”, Addiction (2013), PubMed\n\nDługoterminowy kamień milowy\nBadanie wspiera możliwość znacznej poprawy neurologicznej i poznawczej przy długotrwałej abstynencji bez encefalopatii ołowiowej. Punkty oceny przypadały po dwóch i 15 latach, więc pięć lat nie jest przedstawione jako uniwersalna granica biologiczna.\n\nPięć lat zbudowane\nPięć lat to trwały postęp i duży fragment życia bez inhalantów. Dowody wspierają długoterminową poprawę, uwzględniając możliwość utrzymywania się ciężkich uszkodzeń związanych z ołowiem.';
+
+  @override
+  String get maoiMilestone730Title => 'Dwa lata: Stabilny kierunek';
+
+  @override
+  String get maoiMilestone730Description =>
+      'Dwa lata po odstawieniu inhibitora MAO to długi okres utrzymanej zmiany. Badania nad odstawieniem tranylcyprominy opisują ostre ryzyko zespołu odstawiennego, ale nie wyznaczają szczególnego biologicznego punktu końcowego po dwóch latach. Ten kamień milowy docenia konsekwencję, wsparcie i rutyny, które doprowadziły Państwa tutaj.';
+
+  @override
+  String get maoiMilestone1095Title => 'Trzy lata: Trwały postęp';
+
+  @override
+  String get maoiMilestone1095Description =>
+      'Trzy lata oznaczają kolejny pełny rok utrzymywania wybranego kierunku. Badania nad odstawieniem inhibitorów MAO nie określają fizjologicznego progu zdrowienia po trzech latach; osiągnięciem jest trwały wzorzec wyborów i wsparcia budowany w codziennym życiu.';
+
+  @override
+  String get maoiMilestone1460Title => 'Cztery lata: Stała ciągłość';
+
+  @override
+  String get maoiMilestone1460Description =>
+      'Cztery lata to konsekwencja utrzymana mimo zmian, stresu i codziennych rutyn. Literatura dotycząca inhibitorów MAO nie wskazuje uniwersalnej medycznej mety po czterech latach; ten kamień milowy honoruje zachowaną ciągłość.';
+
+  @override
+  String get maoiMilestone1825Title => 'Pięć lat: Trwała zmiana';
+
+  @override
+  String get maoiMilestone1825Description =>
+      'Pięć lat to ważny długoterminowy kamień milowy. Dowody dotyczące odstawienia inhibitorów MAO skupiają się na ryzyku i bezpiecznym zakończeniu leczenia, a nie na dacie wyleczenia po pięciu latach. Osiągnięciem jest skala czasu, nawyków i wsparcia, które udało się utrzymać.';
+
+  @override
+  String get maoiReferenceDay730 =>
+      'Dwa lata po inhibitorach MAO\n\nŹródło: Gahr i wsp. (2013), przegląd systematyczny odstawienia i objawów po przerwaniu tranylcyprominy.\n\nPrzegląd opisuje potencjalnie ciężkie zespoły po nagłym odstawieniu tranylcyprominy, lecz nie ustanawia szczególnego biologicznego progu zdrowienia po dwóch latach. Ta rocznica oznacza więc trwałą zmianę, wsparcie i rutyny, a nie medyczną metę.';
+
+  @override
+  String get maoiReferenceDay1095 =>
+      'Trzy lata po inhibitorach MAO\n\nŹródło: Gahr i wsp. (2013), przegląd systematyczny odstawienia i objawów po przerwaniu tranylcyprominy.\n\nPrzegląd charakteryzuje ostre objawy odstawienne, lecz nie określa fizjologicznego punktu zdrowienia po trzech latach. Trzy lata to kolejny pełny rok utrzymywania wybranego kierunku i wsparcia, które pomogło uczynić go trwałym.';
+
+  @override
+  String get maoiReferenceDay1460 =>
+      'Cztery lata po inhibitorach MAO\n\nŹródło: Gahr i wsp. (2013), przegląd systematyczny odstawienia i objawów po przerwaniu tranylcyprominy.\n\nOpublikowane dowody nie wskazują uniwersalnego biologicznego punktu końcowego po czterech latach. Ten kamień milowy odzwierciedla trwałą konsekwencję mimo zmian, stresu i rutyn, bez wymyślania klinicznego terminu.';
+
+  @override
+  String get maoiReferenceDay1825 =>
+      'Pięć lat po inhibitorach MAO\n\nŹródło: Gahr i wsp. (2013), przegląd systematyczny odstawienia i objawów po przerwaniu tranylcyprominy.\n\nLiteratura omawia ryzyko odstawienia i bezpieczne zakończenie leczenia; nie określa pięciu lat jako daty wyleczenia ani uniwersalnej biologicznej mety. Pięć lat pozostaje ważnym kamieniem milowym ze względu na czas, nawyki i wsparcie utrzymane przez 1825 dni.';
 }

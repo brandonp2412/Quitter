@@ -161,6 +161,75 @@ class MaoiPage extends StatelessWidget {
             "A Note on MAOIs\n"
             "MAOIs remain uniquely effective for certain treatment-resistant conditions and atypical depression. Successful discontinuation does not diminish their value as medications — it demonstrates the brain's capacity for recovery and the patient's ability to navigate an exceptionally demanding medical process. One lasting precaution: continue to tell any new prescriber or anaesthetist about past MAOI use, since some drug-interaction risks are worth flagging indefinitely.",
       ),
+
+      QuitMilestone(
+        day: 730,
+        title: l10n.maoiMilestone730Title,
+        description: l10n.maoiMilestone730Description,
+        reference:
+            "Gahr et al. (2013) - Tranylcypromine Withdrawal Review (PubMed)",
+        link: "https://pubmed.ncbi.nlm.nih.gov/23359339/",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.maoiReferenceDay730,
+        referenceContent:
+            "Two Years After MAOIs\n\n"
+            "Source: Gahr et al. (2013), \"Withdrawal and discontinuation phenomena associated with tranylcypromine: a systematic review.\"\n\n"
+            "What the Evidence Says\n"
+            "The review documents potentially severe withdrawal or discontinuation syndromes after abrupt tranylcypromine cessation. It does not establish a special biological recovery threshold at two years.\n\n"
+            "What This Milestone Means\n"
+            "Two years is therefore a celebration of sustained change, support, and routines rather than a medical finish line.",
+      ),
+      QuitMilestone(
+        day: 1095,
+        title: l10n.maoiMilestone1095Title,
+        description: l10n.maoiMilestone1095Description,
+        reference:
+            "Gahr et al. (2013) - Tranylcypromine Withdrawal Review (PubMed)",
+        link: "https://pubmed.ncbi.nlm.nih.gov/23359339/",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.maoiReferenceDay1095,
+        referenceContent:
+            "Three Years After MAOIs\n\n"
+            "Source: Gahr et al. (2013), \"Withdrawal and discontinuation phenomena associated with tranylcypromine: a systematic review.\"\n\n"
+            "What the Evidence Says\n"
+            "The review characterises acute withdrawal and discontinuation after tranylcypromine, but it does not define a three-year physiological recovery point.\n\n"
+            "What This Milestone Means\n"
+            "Three years marks another full year of maintaining the direction you chose. The durable pattern of choices and support is the achievement here.",
+      ),
+      QuitMilestone(
+        day: 1460,
+        title: l10n.maoiMilestone1460Title,
+        description: l10n.maoiMilestone1460Description,
+        reference:
+            "Gahr et al. (2013) - Tranylcypromine Withdrawal Review (PubMed)",
+        link: "https://pubmed.ncbi.nlm.nih.gov/23359339/",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.maoiReferenceDay1460,
+        referenceContent:
+            "Four Years After MAOIs\n\n"
+            "Source: Gahr et al. (2013), \"Withdrawal and discontinuation phenomena associated with tranylcypromine: a systematic review.\"\n\n"
+            "What the Evidence Says\n"
+            "Published MAOI discontinuation evidence does not identify a universal four-year biological endpoint. The systematic review instead focuses on the acute risks of abrupt tranylcypromine cessation.\n\n"
+            "What This Milestone Means\n"
+            "Four years reflects sustained follow-through across changing seasons, stresses, and routines. That continuity is worth celebrating on its own.",
+      ),
+      QuitMilestone(
+        day: 1825,
+        title: l10n.maoiMilestone1825Title,
+        description: l10n.maoiMilestone1825Description,
+        reference:
+            "Gahr et al. (2013) - Tranylcypromine Withdrawal Review (PubMed)",
+        link: "https://pubmed.ncbi.nlm.nih.gov/23359339/",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.maoiReferenceDay1825,
+        referenceContent:
+            "Five Years After MAOIs\n\n"
+            "Source: Gahr et al. (2013), \"Withdrawal and discontinuation phenomena associated with tranylcypromine: a systematic review.\"\n\n"
+            "What the Evidence Says\n"
+            "The MAOI withdrawal literature addresses discontinuation risk and safe stopping; it does not define five years as a cure date or universal biological finish line.\n\n"
+            "What This Milestone Means\n"
+            "Five years is a major long-term milestone because of the time, habits, and support sustained across 1,825 days, without needing an invented medical claim.",
+      ),
     ];
   }
 

@@ -6761,6 +6761,78 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Five Years Off Inhalants\n\nSource: Cairney et al., \"A prospective study of neurocognitive changes 15 years after chronic inhalant abuse,\" Addiction (2013), on PubMed\n\nA Long-Term Milestone\nThe study supports the possibility of substantial neurological and cognitive recovery with long-term abstinence when lead encephalopathy is absent. Its measured checkpoints were two and 15 years, so it does not claim that five years is a universal biological finish line.\n\nFive Years Built\nFive years is durable progress: a large span of life maintained away from inhalants. The evidence supports long-term recovery while recognising that severe lead-related injury can remain persistent.'**
   String get inhalantsReferenceDay1825;
+
+  /// No description provided for @maoiMilestone730Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Two Years: Steady Ground'**
+  String get maoiMilestone730Title;
+
+  /// No description provided for @maoiMilestone730Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Two years after stopping an MAOI is a substantial stretch of maintained change. Research on tranylcypromine withdrawal describes acute discontinuation risk, but does not define a special biological endpoint at two years. This milestone celebrates the consistency, support, and routines that carried you here.'**
+  String get maoiMilestone730Description;
+
+  /// No description provided for @maoiMilestone1095Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Three Years: Lasting Progress'**
+  String get maoiMilestone1095Title;
+
+  /// No description provided for @maoiMilestone1095Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Three years reflects another full year of maintaining the direction you chose. MAOI discontinuation research does not establish a three-year physiological recovery threshold, so the achievement is the durable pattern of choices and support built across everyday life.'**
+  String get maoiMilestone1095Description;
+
+  /// No description provided for @maoiMilestone1460Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Four Years: Strong Continuity'**
+  String get maoiMilestone1460Title;
+
+  /// No description provided for @maoiMilestone1460Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Four years is sustained follow-through across changing seasons, stresses, and routines. The MAOI literature does not identify a universal four-year medical finish line; this milestone honours the continuity you have maintained.'**
+  String get maoiMilestone1460Description;
+
+  /// No description provided for @maoiMilestone1825Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Five Years: Enduring Change'**
+  String get maoiMilestone1825Title;
+
+  /// No description provided for @maoiMilestone1825Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Five years is a major long-term milestone. Evidence on MAOI withdrawal focuses on discontinuation and safe stopping, not a five-year cure date. The achievement here is the scale of the time, habits, and support you have sustained.'**
+  String get maoiMilestone1825Description;
+
+  /// No description provided for @maoiReferenceDay730.
+  ///
+  /// In en, this message translates to:
+  /// **'Two Years After MAOIs\n\nSource: Gahr et al. (2013), systematic review of tranylcypromine withdrawal and discontinuation.\n\nThe review documents potentially severe syndromes after abrupt tranylcypromine cessation, but it does not establish a special biological recovery threshold at two years. This anniversary therefore marks sustained change, support, and routines rather than a medical finish line.'**
+  String get maoiReferenceDay730;
+
+  /// No description provided for @maoiReferenceDay1095.
+  ///
+  /// In en, this message translates to:
+  /// **'Three Years After MAOIs\n\nSource: Gahr et al. (2013), systematic review of tranylcypromine withdrawal and discontinuation.\n\nThe review characterises acute withdrawal and discontinuation after tranylcypromine, but it does not define a three-year physiological recovery point. Three years celebrates another full year of maintaining the direction you chose and the support that helped make it durable.'**
+  String get maoiReferenceDay1095;
+
+  /// No description provided for @maoiReferenceDay1460.
+  ///
+  /// In en, this message translates to:
+  /// **'Four Years After MAOIs\n\nSource: Gahr et al. (2013), systematic review of tranylcypromine withdrawal and discontinuation.\n\nPublished MAOI discontinuation evidence does not identify a universal four-year biological endpoint. Four years instead reflects sustained follow-through across changing seasons, stresses, and routines, which is worth celebrating without inventing a clinical deadline.'**
+  String get maoiReferenceDay1460;
+
+  /// No description provided for @maoiReferenceDay1825.
+  ///
+  /// In en, this message translates to:
+  /// **'Five Years After MAOIs\n\nSource: Gahr et al. (2013), systematic review of tranylcypromine withdrawal and discontinuation.\n\nThe MAOI withdrawal literature addresses discontinuation risk and safe stopping; it does not define five years as a cure date or universal biological finish line. Five years is still a major milestone because of the time, habits, and support sustained across 1,825 days.'**
+  String get maoiReferenceDay1825;
 }
 
 class _AppLocalizationsDelegate
