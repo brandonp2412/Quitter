@@ -4177,4 +4177,48 @@ class AppLocalizationsFr extends AppLocalizations {
   @override
   String get marijuanaReferenceDay1825 =>
       'Cinq ans sans cannabis\n\nSource : SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nL’avis de SAMHSA soutient des soins adaptés tout au long de la vie et ne définit ni date de guérison à cinq ans ni ligne d’arrivée biologique universelle pour le trouble lié à l’usage de cannabis.\n\nCinq ans sont un accomplissement majeur à long terme : une demi-décennie de direction, d’habitudes pratiquées et de soutien.';
+
+  @override
+  String get mdmaMilestone730Title => 'Deux ans : bases solides';
+
+  @override
+  String get mdmaMilestone730Description =>
+      'Deux ans sans MDMA marquent un changement durable. La meilleure synthèse disponible ne fixe pas deux ans comme seuil biologique de récupération ; ce jalon célèbre donc la constance, les habitudes et le soutien, sans inventer une échéance médicale.';
+
+  @override
+  String get mdmaReferenceDay730 =>
+      'Deux ans sans MDMA\n\nSource : Ung et al. (2026), revue systématique et méta-analyse des résultats neurocognitifs après une abstinence durable de MDMA.\n\nLa revue incluait des études avec au moins six mois d\'abstinence, jugeait les données de faible qualité et n\'a pas montré qu\'une abstinence plus longue prédisait de façon fiable une meilleure récupération de l\'apprentissage ou de la mémoire. Elle ne définit pas deux ans comme seuil biologique universel.\n\nDeux ans restent un marqueur important de changement durable, construit par des choix répétés plutôt que par une date médicale.';
+
+  @override
+  String get mdmaMilestone1095Title => 'Trois ans : élan durable';
+
+  @override
+  String get mdmaMilestone1095Description =>
+      'Trois ans ajoutent une année entière d\'élan durable. La recherche ne définit pas de point final neurocognitif universel à trois ans ; la réussite réside dans la direction maintenue au quotidien.';
+
+  @override
+  String get mdmaReferenceDay1095 =>
+      'Trois ans sans MDMA\n\nSource : Ung et al. (2026), revue systématique et méta-analyse sur l\'abstinence durable de MDMA.\n\nLes études disponibles ne définissent pas un moment à trois ans où les effets cognitifs disparaissent universellement. La revue n\'a trouvé aucun lien fiable entre une abstinence plus longue et une meilleure récupération de l\'apprentissage ou de la mémoire, et a jugé les données de faible qualité.\n\nTrois ans célèbrent un élan et une constance durables sans prétendre à une échéance biologique non démontrée.';
+
+  @override
+  String get mdmaMilestone1460Title => 'Quatre ans : racines profondes';
+
+  @override
+  String get mdmaMilestone1460Description =>
+      'Quatre ans reflètent un changement profondément installé. Les données après une abstinence prolongée de MDMA restent limitées ; c\'est donc la continuité elle-même qui mérite d\'être célébrée, pas une échéance de récupération inventée.';
+
+  @override
+  String get mdmaReferenceDay1460 =>
+      'Quatre ans sans MDMA\n\nSource : Ung et al. (2026), revue systématique et méta-analyse sur l\'abstinence durable de MDMA.\n\nLa recherche reste limitée et ne fixe pas quatre ans comme seuil universel de récupération. Certaines différences mesurées peuvent persister, et la revue souligne la faible qualité des données disponibles.\n\nQuatre ans marquent un changement solidement ancré à travers les routines, les difficultés et les saisons. Cette continuité est la réussite.';
+
+  @override
+  String get mdmaMilestone1825Title => 'Cinq ans : changement durable';
+
+  @override
+  String get mdmaMilestone1825Description =>
+      'Cinq ans représentent une demi-décennie de direction maintenue. Les données actuelles ne justifient pas d\'en faire une date universelle de guérison, mais le temps, les habitudes et le soutien maintenus pendant 1 825 jours méritent d\'être reconnus.';
+
+  @override
+  String get mdmaReferenceDay1825 =>
+      'Cinq ans sans MDMA\n\nSource : Ung et al. (2026), revue systématique et méta-analyse sur l\'abstinence durable de MDMA.\n\nLes données actuelles ne permettent pas de considérer cinq ans comme une date de guérison ni comme un point final neurocognitif universel. La revue rapporte des données limitées et de faible qualité, sans schéma fiable d\'une meilleure récupération de l\'apprentissage ou de la mémoire avec une abstinence plus longue.\n\nCinq ans restent un jalon majeur à long terme : une demi-décennie de direction maintenue mérite d\'être reconnue pour elle-même.';
 }

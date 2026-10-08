@@ -4144,4 +4144,48 @@ class AppLocalizationsPl extends AppLocalizations {
   @override
   String get marijuanaReferenceDay1825 =>
       'Pięć lat bez konopi\n\nŹródło: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nZalecenie SAMHSA wspiera dopasowaną opiekę na różnych etapach życia i nie określa pięcioletniej daty wyleczenia ani uniwersalnej biologicznej mety dla zaburzenia związanego z używaniem konopi.\n\nPięć lat to duże długoterminowe osiągnięcie: pół dekady kierunku, wypracowanych rutyn i wsparcia.';
+
+  @override
+  String get mdmaMilestone730Title => 'Dwa lata: mocne podstawy';
+
+  @override
+  String get mdmaMilestone730Description =>
+      'Dwa lata bez MDMA oznaczają trwałą zmianę. Najlepszy obecny przegląd nie uznaje dwóch lat za biologiczny punkt odzyskania sprawności, więc ten kamień milowy celebruje konsekwencję, rutyny i wsparcie zamiast wymyślonej granicy medycznej.';
+
+  @override
+  String get mdmaReferenceDay730 =>
+      'Dwa lata bez MDMA\n\nŹródło: Ung i in. (2026), przegląd systematyczny i metaanaliza długoterminowych wyników neurokognitywnych po utrzymanej abstynencji od MDMA.\n\nPrzegląd obejmował badania z co najmniej sześcioma miesiącami abstynencji, ocenił jakość dowodów jako niską i nie wykazał, by dłuższa abstynencja wiarygodnie przewidywała większą poprawę uczenia się lub pamięci. Nie ustala dwóch lat jako uniwersalnego biologicznego punktu powrotu do zdrowia.\n\nDwa lata to nadal ważny znak trwałej zmiany, zbudowany z powtarzanych wyborów, a nie z medycznej daty końcowej.';
+
+  @override
+  String get mdmaMilestone1095Title => 'Trzy lata: trwały impet';
+
+  @override
+  String get mdmaMilestone1095Description =>
+      'Trzy lata to kolejny pełny rok trwałego impetu. Badania nie wyznaczają uniwersalnego neurokognitywnego punktu końcowego po trzech latach; osiągnięciem jest kierunek utrzymywany w codziennym życiu.';
+
+  @override
+  String get mdmaReferenceDay1095 =>
+      'Trzy lata bez MDMA\n\nŹródło: Ung i in. (2026), przegląd systematyczny i metaanaliza utrzymanej abstynencji od MDMA.\n\nDostępne badania nie wyznaczają momentu po trzech latach, w którym skutki poznawcze powszechnie ustępują. Przegląd nie znalazł wiarygodnego związku między dłuższą abstynencją a większą poprawą uczenia się lub pamięci i ocenił dowody jako niskiej jakości.\n\nTrzy lata celebrują trwały impet i konsekwencję bez twierdzenia o nieudowodnionej biologicznej granicy.';
+
+  @override
+  String get mdmaMilestone1460Title => 'Cztery lata: głębokie korzenie';
+
+  @override
+  String get mdmaMilestone1460Description =>
+      'Cztery lata odzwierciedlają głęboko utrwaloną zmianę. Dowody po długotrwałej abstynencji od MDMA pozostają ograniczone, więc warto celebrować samą ciągłość, a nie wymyślony termin powrotu do zdrowia.';
+
+  @override
+  String get mdmaReferenceDay1460 =>
+      'Cztery lata bez MDMA\n\nŹródło: Ung i in. (2026), przegląd systematyczny i metaanaliza utrzymanej abstynencji od MDMA.\n\nBadania pozostają ograniczone i nie ustanawiają czterech lat jako uniwersalnego progu powrotu do zdrowia. Niektóre mierzone różnice mogą się utrzymywać, a przegląd podkreśla niską jakość dostępnych dowodów.\n\nCztery lata oznaczają głęboko utrwaloną zmianę mimo zmieniających się rutyn, napięć i etapów życia. Ta ciągłość jest osiągnięciem.';
+
+  @override
+  String get mdmaMilestone1825Title => 'Pięć lat: trwała zmiana';
+
+  @override
+  String get mdmaMilestone1825Description =>
+      'Pięć lat to pół dekady utrzymanego kierunku. Obecne dowody nie uzasadniają nazywania tego uniwersalną datą wyleczenia, ale czas, nawyki i wsparcie utrzymane przez 1825 dni zasługują na uznanie.';
+
+  @override
+  String get mdmaReferenceDay1825 =>
+      'Pięć lat bez MDMA\n\nŹródło: Ung i in. (2026), przegląd systematyczny i metaanaliza utrzymanej abstynencji od MDMA.\n\nObecne dowody nie uzasadniają traktowania pięciu lat jako daty wyleczenia ani uniwersalnego neurokognitywnego punktu końcowego. Przegląd znalazł ograniczone, niskiej jakości dowody i brak wiarygodnego wzorca większej poprawy uczenia się lub pamięci przy dłuższej abstynencji.\n\nPięć lat pozostaje dużym długoterminowym kamieniem milowym: pół dekady utrzymanego kierunku zasługuje na uznanie samo w sobie.';
 }

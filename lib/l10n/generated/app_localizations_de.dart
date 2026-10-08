@@ -4138,4 +4138,48 @@ class AppLocalizationsDe extends AppLocalizations {
   @override
   String get marijuanaReferenceDay1825 =>
       'Fünf Jahre ohne Cannabis\n\nQuelle: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nDie SAMHSA-Empfehlung unterstützt angepasste Versorgung über die Lebensspanne und definiert weder ein Heilungsdatum nach fünf Jahren noch einen allgemeinen biologischen Endpunkt für Cannabiskonsumstörung.\n\nFünf Jahre sind eine große langfristige Leistung: ein halbes Jahrzehnt mit klarer Richtung, eingeübten Routinen und Unterstützung.';
+
+  @override
+  String get mdmaMilestone730Title => 'Zwei Jahre: starkes Fundament';
+
+  @override
+  String get mdmaMilestone730Description =>
+      'Zwei Jahre ohne MDMA stehen für anhaltende Veränderung. Die beste aktuelle Übersichtsarbeit legt zwei Jahre nicht als biologischen Erholungspunkt fest. Dieser Meilenstein würdigt daher Beständigkeit, Routinen und Unterstützung statt einer erfundenen medizinischen Ziellinie.';
+
+  @override
+  String get mdmaReferenceDay730 =>
+      'Zwei Jahre ohne MDMA\n\nQuelle: Ung et al. (2026), systematische Übersichtsarbeit und Metaanalyse zu langfristigen neurokognitiven Ergebnissen nach anhaltender MDMA-Abstinenz.\n\nDie Übersichtsarbeit schloss Studien mit mindestens sechs Monaten Abstinenz ein, bewertete die Evidenz als von geringer Qualität und fand keinen verlässlichen Zusammenhang zwischen längerer Abstinenz und stärkerer Erholung von Lernen oder Gedächtnis. Zwei Jahre werden nicht als universeller biologischer Erholungspunkt definiert.\n\nZwei Jahre bleiben ein bedeutender Marker anhaltender Veränderung, aufgebaut durch wiederholte Entscheidungen statt durch ein medizinisches Enddatum.';
+
+  @override
+  String get mdmaMilestone1095Title => 'Drei Jahre: beständiger Schwung';
+
+  @override
+  String get mdmaMilestone1095Description =>
+      'Drei Jahre bedeuten ein weiteres volles Jahr beständigen Schwungs. Die Forschung definiert keinen universellen neurokognitiven Endpunkt nach drei Jahren; die Leistung ist die im Alltag beibehaltene Richtung.';
+
+  @override
+  String get mdmaReferenceDay1095 =>
+      'Drei Jahre ohne MDMA\n\nQuelle: Ung et al. (2026), systematische Übersichtsarbeit und Metaanalyse zu anhaltender MDMA-Abstinenz.\n\nDie verfügbaren Studien definieren keinen Zeitpunkt nach drei Jahren, an dem kognitive Auswirkungen allgemein verschwinden. Die Übersichtsarbeit fand keinen verlässlichen Zusammenhang zwischen längerer Abstinenz und stärkerer Erholung von Lernen oder Gedächtnis und bewertete die Evidenz als von geringer Qualität.\n\nDrei Jahre würdigen dauerhaften Schwung und Beständigkeit, ohne eine unbelegte biologische Frist zu behaupten.';
+
+  @override
+  String get mdmaMilestone1460Title => 'Vier Jahre: tiefe Wurzeln';
+
+  @override
+  String get mdmaMilestone1460Description =>
+      'Vier Jahre stehen für tief verankerte Veränderung. Die Evidenz nach langfristiger MDMA-Abstinenz bleibt begrenzt; gefeiert wird daher die Beständigkeit selbst und kein erfundener Erholungszeitpunkt.';
+
+  @override
+  String get mdmaReferenceDay1460 =>
+      'Vier Jahre ohne MDMA\n\nQuelle: Ung et al. (2026), systematische Übersichtsarbeit und Metaanalyse zu anhaltender MDMA-Abstinenz.\n\nDie Forschung bleibt begrenzt und legt vier Jahre nicht als universelle Erholungsschwelle fest. Einige gemessene Unterschiede können fortbestehen, und die Übersichtsarbeit weist auf die geringe Qualität der zugrunde liegenden Evidenz hin.\n\nVier Jahre markieren tief verankerte Veränderung über wechselnde Routinen, Belastungen und Lebensphasen hinweg. Diese Kontinuität ist die Leistung.';
+
+  @override
+  String get mdmaMilestone1825Title => 'Fünf Jahre: dauerhafte Veränderung';
+
+  @override
+  String get mdmaMilestone1825Description =>
+      'Fünf Jahre sind ein halbes Jahrzehnt beibehaltener Richtung. Die aktuelle Evidenz rechtfertigt kein universelles Heilungsdatum, doch die über 1.825 Tage getragenen Gewohnheiten und Unterstützungsstrukturen verdienen Anerkennung.';
+
+  @override
+  String get mdmaReferenceDay1825 =>
+      'Fünf Jahre ohne MDMA\n\nQuelle: Ung et al. (2026), systematische Übersichtsarbeit und Metaanalyse zu anhaltender MDMA-Abstinenz.\n\nDie aktuelle Evidenz stützt weder ein Heilungsdatum nach fünf Jahren noch einen universellen neurokognitiven Endpunkt. Die Übersichtsarbeit fand begrenzte, qualitativ schwache Evidenz und kein verlässliches Muster stärkerer Lern- oder Gedächtniserholung bei längerer Abstinenz.\n\nFünf Jahre bleiben ein bedeutender langfristiger Meilenstein: Ein halbes Jahrzehnt beibehaltener Richtung verdient Anerkennung aus sich selbst heraus.';
 }

@@ -4153,4 +4153,48 @@ class AppLocalizationsEs extends AppLocalizations {
   @override
   String get marijuanaReferenceDay1825 =>
       'Cinco años sin cannabis\n\nFuente: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nEl documento de SAMHSA respalda una atención adaptada a lo largo de la vida y no define una fecha de curación a los cinco años ni una meta biológica universal para el trastorno por consumo de cannabis.\n\nCinco años son un gran logro a largo plazo: medio decenio de rumbo, rutinas practicadas y apoyo sostenido.';
+
+  @override
+  String get mdmaMilestone730Title => 'Dos años: bases firmes';
+
+  @override
+  String get mdmaMilestone730Description =>
+      'Dos años sin MDMA representan un cambio sostenido. La mejor revisión disponible no fija los dos años como punto biológico de recuperación, así que este hito celebra la constancia, las rutinas y el apoyo sin inventar una meta médica.';
+
+  @override
+  String get mdmaReferenceDay730 =>
+      'Dos años sin MDMA\n\nFuente: Ung et al. (2026), revisión sistemática y metaanálisis sobre resultados neurocognitivos tras abstinencia sostenida de MDMA.\n\nLa revisión incluyó estudios con al menos seis meses de abstinencia, consideró baja la calidad de la evidencia y no halló que una abstinencia más larga predijera de forma fiable una mayor recuperación del aprendizaje o la memoria. No establece los dos años como punto biológico universal de recuperación.\n\nDos años siguen siendo una señal importante de cambio sostenido, construida con decisiones repetidas y no con una fecha médica límite.';
+
+  @override
+  String get mdmaMilestone1095Title => 'Tres años: impulso firme';
+
+  @override
+  String get mdmaMilestone1095Description =>
+      'Tres años añaden otro año completo de impulso duradero. La investigación no define un final neurocognitivo universal a los tres años; el logro es la dirección mantenida en la vida cotidiana.';
+
+  @override
+  String get mdmaReferenceDay1095 =>
+      'Tres años sin MDMA\n\nFuente: Ung et al. (2026), revisión sistemática y metaanálisis sobre abstinencia sostenida de MDMA.\n\nLos estudios disponibles no definen un momento a los tres años en que los efectos cognitivos desaparezcan de forma universal. La revisión no encontró una relación fiable entre más tiempo de abstinencia y mayor recuperación del aprendizaje o la memoria, y calificó la evidencia como de baja calidad.\n\nTres años celebran un impulso y una constancia duraderos sin afirmar un plazo biológico que la evidencia no respalda.';
+
+  @override
+  String get mdmaMilestone1460Title => 'Cuatro años: raíces profundas';
+
+  @override
+  String get mdmaMilestone1460Description =>
+      'Cuatro años reflejan un cambio profundamente asentado. La evidencia tras una abstinencia prolongada de MDMA sigue siendo limitada, así que merece celebrarse la continuidad en sí, no un plazo de recuperación inventado.';
+
+  @override
+  String get mdmaReferenceDay1460 =>
+      'Cuatro años sin MDMA\n\nFuente: Ung et al. (2026), revisión sistemática y metaanálisis sobre abstinencia sostenida de MDMA.\n\nLa investigación sigue siendo limitada y no establece cuatro años como umbral universal de recuperación. Algunas diferencias medidas pueden persistir y la revisión advierte que la evidencia subyacente es de baja calidad.\n\nCuatro años marcan un cambio bien arraigado a través de rutinas, tensiones y etapas distintas. Esa continuidad es el logro.';
+
+  @override
+  String get mdmaMilestone1825Title => 'Cinco años: cambio duradero';
+
+  @override
+  String get mdmaMilestone1825Description =>
+      'Cinco años son media década de dirección mantenida. La evidencia actual no permite llamarlo una fecha universal de curación, pero el tiempo, los hábitos y el apoyo sostenidos durante 1825 días merecen reconocimiento.';
+
+  @override
+  String get mdmaReferenceDay1825 =>
+      'Cinco años sin MDMA\n\nFuente: Ung et al. (2026), revisión sistemática y metaanálisis sobre abstinencia sostenida de MDMA.\n\nLa evidencia actual no respalda tratar los cinco años como una fecha de curación ni como un final neurocognitivo universal. La revisión encontró evidencia limitada y de baja calidad, sin un patrón fiable de mayor recuperación del aprendizaje o la memoria con más abstinencia.\n\nCinco años siguen siendo un gran hito a largo plazo: media década de dirección mantenida merece reconocimiento por sí misma.';
 }

@@ -3937,6 +3937,50 @@ class AppLocalizationsZh extends AppLocalizations {
   @override
   String get marijuanaReferenceDay1825 =>
       '五年不使用大麻\n\n来源： SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nSAMHSA指南支持在人生不同阶段提供适合个人的支持，也没有把五年定义为大麻使用障碍的治愈日期或统一的生物学终点。\n\n五年是一项重大的长期成就：半个十年里持续保持方向、习惯和支持。';
+
+  @override
+  String get mdmaMilestone730Title => '两年：稳固基础';
+
+  @override
+  String get mdmaMilestone730Description =>
+      '两年未使用 MDMA，代表持续而稳定的改变。当前最佳综述并未把两年定义为生物学恢复节点，因此这个里程碑庆祝的是坚持、习惯与支持，而不是虚构的医学终点。';
+
+  @override
+  String get mdmaReferenceDay730 =>
+      '未使用 MDMA 两年\n\n来源：Ung 等（2026），关于持续停止 MDMA 后长期神经认知结果的系统综述与荟萃分析。\n\n综述纳入至少停止使用六个月的研究，认为证据质量较低，也没有发现停止时间越长就能可靠预测学习或记忆恢复越明显。研究并未把两年定义为普遍适用的生物学恢复节点。\n\n两年仍是持续改变的重要标志，它来自一次次选择，而不是某个医学截止日期。';
+
+  @override
+  String get mdmaMilestone1095Title => '三年：持续动力';
+
+  @override
+  String get mdmaMilestone1095Description =>
+      '三年又累积了一整年的持续动力。研究并未把三年定义为普遍适用的神经认知终点；真正的成果，是在日常生活中一直保持方向。';
+
+  @override
+  String get mdmaReferenceDay1095 =>
+      '未使用 MDMA 三年\n\n来源：Ung 等（2026），关于持续停止 MDMA 的系统综述与荟萃分析。\n\n现有研究并未确定三年时认知影响会在所有人身上统一消失。综述没有发现停止时间越长与学习或记忆恢复越明显之间存在可靠关系，并把证据质量评为较低。\n\n三年庆祝的是持续动力与稳定坚持，而不是声称存在没有证据支持的生物学期限。';
+
+  @override
+  String get mdmaMilestone1460Title => '四年：深厚根基';
+
+  @override
+  String get mdmaMilestone1460Description =>
+      '四年代表改变已经深深扎根。关于长期停止 MDMA 后的证据仍然有限，因此值得庆祝的是持续本身，而不是人为设定的恢复期限。';
+
+  @override
+  String get mdmaReferenceDay1460 =>
+      '未使用 MDMA 四年\n\n来源：Ung 等（2026），关于持续停止 MDMA 的系统综述与荟萃分析。\n\n相关研究仍然有限，也没有把四年确立为普遍适用的恢复阈值。部分测量差异可能持续存在，而综述提醒现有证据质量较低。\n\n四年意味着改变跨越不同日常、压力与阶段后依然稳固。这样的持续本身就是成果。';
+
+  @override
+  String get mdmaMilestone1825Title => '五年：持久改变';
+
+  @override
+  String get mdmaMilestone1825Description =>
+      '五年是半个十年的持续方向。现有证据不足以把这个时间点称为普遍的治愈日期，但在 1,825 天里持续下来的时间、习惯与支持值得认可。';
+
+  @override
+  String get mdmaReferenceDay1825 =>
+      '未使用 MDMA 五年\n\n来源：Ung 等（2026），关于持续停止 MDMA 的系统综述与荟萃分析。\n\n现有证据不支持把五年视为治愈日期或普遍适用的神经认知终点。综述发现证据有限且质量较低，也没有可靠模式表明停止时间越长，学习或记忆恢复就越明显。\n\n五年仍是重要的长期里程碑：半个十年的持续方向本身就值得认可。';
 }
 
 /// The translations for Chinese, using the Han script (`zh_Hant`).
@@ -7872,4 +7916,48 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   @override
   String get marijuanaReferenceDay1825 =>
       '五年不使用大麻\n\n來源： SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nSAMHSA指引支持在人生不同階段提供適合個人的支持，也沒有把五年定義為大麻使用障礙的治癒日期或一致的生物學終點。\n\n五年是一項重大的長期成就：半個十年裡持續保持方向、習慣與支持。';
+
+  @override
+  String get mdmaMilestone730Title => '兩年：穩固基礎';
+
+  @override
+  String get mdmaMilestone730Description =>
+      '兩年未使用 MDMA，代表持續而穩定的改變。現有最佳綜述並未把兩年定義為生物學恢復節點，因此這個里程碑慶祝的是堅持、習慣與支持，而不是虛構的醫療終點。';
+
+  @override
+  String get mdmaReferenceDay730 =>
+      '未使用 MDMA 兩年\n\n來源：Ung 等（2026），關於持續停止 MDMA 後長期神經認知結果的系統性綜述與統合分析。\n\n綜述納入至少停止使用六個月的研究，認為證據品質偏低，也沒有發現停止時間越長就能可靠預測學習或記憶恢復越明顯。研究並未把兩年定義為普遍適用的生物學恢復節點。\n\n兩年仍是持續改變的重要標誌，它來自一次次選擇，而不是某個醫療截止日期。';
+
+  @override
+  String get mdmaMilestone1095Title => '三年：持續動能';
+
+  @override
+  String get mdmaMilestone1095Description =>
+      '三年又累積了一整年的持續動能。研究並未把三年定義為普遍適用的神經認知終點；真正的成果，是在日常生活中一直維持方向。';
+
+  @override
+  String get mdmaReferenceDay1095 =>
+      '未使用 MDMA 三年\n\n來源：Ung 等（2026），關於持續停止 MDMA 的系統性綜述與統合分析。\n\n現有研究並未確定三年時認知影響會在所有人身上統一消失。綜述沒有發現停止時間越長與學習或記憶恢復越明顯之間存在可靠關係，並把證據品質評為偏低。\n\n三年慶祝的是持續動能與穩定堅持，而不是聲稱存在沒有證據支持的生物學期限。';
+
+  @override
+  String get mdmaMilestone1460Title => '四年：深厚根基';
+
+  @override
+  String get mdmaMilestone1460Description =>
+      '四年代表改變已經深深扎根。關於長期停止 MDMA 後的證據仍然有限，因此值得慶祝的是持續本身，而不是人為設定的恢復期限。';
+
+  @override
+  String get mdmaReferenceDay1460 =>
+      '未使用 MDMA 四年\n\n來源：Ung 等（2026），關於持續停止 MDMA 的系統性綜述與統合分析。\n\n相關研究仍然有限，也沒有把四年確立為普遍適用的恢復門檻。部分測量差異可能持續存在，而綜述提醒現有證據品質偏低。\n\n四年意味著改變跨越不同日常、壓力與階段後依然穩固。這樣的持續本身就是成果。';
+
+  @override
+  String get mdmaMilestone1825Title => '五年：持久改變';
+
+  @override
+  String get mdmaMilestone1825Description =>
+      '五年是半個十年的持續方向。現有證據不足以把這個時間點稱為普遍的治癒日期，但在 1,825 天裡持續下來的時間、習慣與支持值得肯定。';
+
+  @override
+  String get mdmaReferenceDay1825 =>
+      '未使用 MDMA 五年\n\n來源：Ung 等（2026），關於持續停止 MDMA 的系統性綜述與統合分析。\n\n現有證據不支持把五年視為治癒日期或普遍適用的神經認知終點。綜述發現證據有限且品質偏低，也沒有可靠模式顯示停止時間越長，學習或記憶恢復就越明顯。\n\n五年仍是重要的長期里程碑：半個十年的持續方向本身就值得肯定。';
 }

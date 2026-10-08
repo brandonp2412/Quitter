@@ -4073,4 +4073,48 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get marijuanaReferenceDay1825 =>
       'Five Years Without Cannabis\n\nSource: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nThe SAMHSA advisory supports tailored care across the lifespan and does not define a five-year cure date or universal biological finish line for cannabis use disorder.\n\nFive years is a major long-term achievement: sustained direction, practiced routines, and support carried across half a decade.';
+
+  @override
+  String get mdmaMilestone730Title => 'Two Years: Built to Last';
+
+  @override
+  String get mdmaMilestone730Description =>
+      'Two years without MDMA marks sustained change. The best current review does not establish a two-year biological recovery point, so this milestone celebrates consistency, routines, and support instead of an invented medical finish line.';
+
+  @override
+  String get mdmaReferenceDay730 =>
+      'Two Years Off MDMA\n\nSource: Ung et al. (2026), systematic review and meta-analysis of long-term neurocognitive outcomes after sustained MDMA abstinence.\n\nThe review included studies with at least six months of abstinence, judged the evidence low quality, and did not find that longer abstinence reliably predicted better learning and memory outcomes. It does not establish two years as a universal biological recovery point.\n\nTwo years is still a substantial marker of sustained change, built through repeated choices rather than a medical finish line.';
+
+  @override
+  String get mdmaMilestone1095Title => 'Three Years: Strong Momentum';
+
+  @override
+  String get mdmaMilestone1095Description =>
+      'Three years brings another full year of durable momentum. Research does not define a universal three-year neurocognitive endpoint; the achievement is the direction maintained across everyday life.';
+
+  @override
+  String get mdmaReferenceDay1095 =>
+      'Three Years Off MDMA\n\nSource: Ung et al. (2026), systematic review and meta-analysis of long-term neurocognitive outcomes after sustained MDMA abstinence.\n\nAvailable studies do not define a three-year point when cognitive effects universally resolve. The review found no reliable relationship between longer abstinence and greater learning or memory recovery, and rated the evidence low quality.\n\nThree years therefore celebrates durable momentum and consistency without claiming an unsupported biological deadline.';
+
+  @override
+  String get mdmaMilestone1460Title => 'Four Years: Deep Roots';
+
+  @override
+  String get mdmaMilestone1460Description =>
+      'Four years reflects deeply established change. Evidence after long-term MDMA abstinence remains limited, so celebrate the continuity itself rather than a made-up recovery deadline.';
+
+  @override
+  String get mdmaReferenceDay1460 =>
+      'Four Years Off MDMA\n\nSource: Ung et al. (2026), systematic review and meta-analysis of long-term neurocognitive outcomes after sustained MDMA abstinence.\n\nResearch after sustained abstinence remains limited and does not establish four years as a universal recovery threshold. Some measured differences may persist, while the review cautions that the underlying evidence is low quality.\n\nFour years marks deeply established change across changing routines, stresses, and seasons. That continuity is the achievement.';
+
+  @override
+  String get mdmaMilestone1825Title => 'Five Years: Enduring Change';
+
+  @override
+  String get mdmaMilestone1825Description =>
+      'Five years is half a decade of maintained direction. Current evidence does not justify calling it a universal cure date, but the time, habits, and support sustained across 1,825 days are worth recognising.';
+
+  @override
+  String get mdmaReferenceDay1825 =>
+      'Five Years Off MDMA\n\nSource: Ung et al. (2026), systematic review and meta-analysis of long-term neurocognitive outcomes after sustained MDMA abstinence.\n\nThe current evidence does not support treating five years as a cure date or universal neurocognitive finish line. The review found limited, low-quality evidence and no dependable pattern of greater learning or memory recovery with longer abstinence.\n\nFive years remains a major long-term milestone: half a decade of maintained direction deserves recognition on its own terms.';
 }

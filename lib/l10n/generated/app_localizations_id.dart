@@ -4122,4 +4122,48 @@ class AppLocalizationsId extends AppLocalizations {
   @override
   String get marijuanaReferenceDay1825 =>
       'Lima tahun tanpa kanabis\n\nSumber: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nPanduan SAMHSA mendukung perawatan yang disesuaikan sepanjang kehidupan dan tidak menetapkan tanggal sembuh lima tahun atau garis akhir biologis universal untuk gangguan penggunaan kanabis.\n\nLima tahun adalah pencapaian jangka panjang yang besar: setengah dekade arah, rutinitas, dan dukungan yang terus dipertahankan.';
+
+  @override
+  String get mdmaMilestone730Title => 'Dua Tahun: Fondasi Kokoh';
+
+  @override
+  String get mdmaMilestone730Description =>
+      'Dua tahun tanpa MDMA menandai perubahan yang bertahan. Tinjauan terbaik saat ini tidak menetapkan dua tahun sebagai titik pemulihan biologis, jadi tonggak ini merayakan konsistensi, rutinitas, dan dukungan tanpa mengarang garis akhir medis.';
+
+  @override
+  String get mdmaReferenceDay730 =>
+      'Dua Tahun Tanpa MDMA\n\nSumber: Ung dkk. (2026), tinjauan sistematis dan meta-analisis hasil neurokognitif jangka panjang setelah abstinensi MDMA yang berkelanjutan.\n\nTinjauan mencakup studi dengan setidaknya enam bulan abstinensi, menilai kualitas bukti rendah, dan tidak menemukan bahwa abstinensi lebih lama secara andal memprediksi pemulihan belajar atau memori yang lebih baik. Dua tahun tidak ditetapkan sebagai titik pemulihan biologis universal.\n\nDua tahun tetap menjadi penanda penting perubahan berkelanjutan, dibangun melalui pilihan berulang, bukan tanggal akhir medis.';
+
+  @override
+  String get mdmaMilestone1095Title => 'Tiga Tahun: Momentum Kuat';
+
+  @override
+  String get mdmaMilestone1095Description =>
+      'Tiga tahun menambah satu tahun penuh momentum yang bertahan. Penelitian tidak menetapkan titik akhir neurokognitif universal pada tiga tahun; pencapaiannya adalah arah yang tetap terjaga dalam kehidupan sehari-hari.';
+
+  @override
+  String get mdmaReferenceDay1095 =>
+      'Tiga Tahun Tanpa MDMA\n\nSumber: Ung dkk. (2026), tinjauan sistematis dan meta-analisis abstinensi MDMA berkelanjutan.\n\nStudi yang tersedia tidak menetapkan titik tiga tahun ketika efek kognitif pulih secara universal. Tinjauan tidak menemukan hubungan andal antara abstinensi lebih lama dan pemulihan belajar atau memori yang lebih besar, serta menilai buktinya berkualitas rendah.\n\nTiga tahun merayakan momentum dan konsistensi yang bertahan tanpa mengklaim batas biologis yang tidak didukung.';
+
+  @override
+  String get mdmaMilestone1460Title => 'Empat Tahun: Akar Kuat';
+
+  @override
+  String get mdmaMilestone1460Description =>
+      'Empat tahun mencerminkan perubahan yang sudah tertanam kuat. Bukti setelah abstinensi MDMA jangka panjang masih terbatas, jadi rayakan kesinambungannya sendiri, bukan tenggat pemulihan yang dibuat-buat.';
+
+  @override
+  String get mdmaReferenceDay1460 =>
+      'Empat Tahun Tanpa MDMA\n\nSumber: Ung dkk. (2026), tinjauan sistematis dan meta-analisis abstinensi MDMA berkelanjutan.\n\nPenelitian masih terbatas dan tidak menetapkan empat tahun sebagai ambang pemulihan universal. Beberapa perbedaan terukur dapat bertahan, dan tinjauan mengingatkan bahwa bukti dasarnya berkualitas rendah.\n\nEmpat tahun menandai perubahan yang tertanam kuat melewati rutinitas, tekanan, dan fase hidup yang berbeda. Kesinambungan itulah pencapaiannya.';
+
+  @override
+  String get mdmaMilestone1825Title => 'Lima Tahun: Perubahan Bertahan';
+
+  @override
+  String get mdmaMilestone1825Description =>
+      'Lima tahun adalah setengah dekade arah yang terjaga. Bukti saat ini tidak membenarkan penyebutan ini sebagai tanggal sembuh universal, tetapi waktu, kebiasaan, dan dukungan yang dipertahankan selama 1.825 hari layak dihargai.';
+
+  @override
+  String get mdmaReferenceDay1825 =>
+      'Lima Tahun Tanpa MDMA\n\nSumber: Ung dkk. (2026), tinjauan sistematis dan meta-analisis abstinensi MDMA berkelanjutan.\n\nBukti saat ini tidak mendukung lima tahun sebagai tanggal sembuh atau garis akhir neurokognitif universal. Tinjauan menemukan bukti terbatas berkualitas rendah dan tidak menemukan pola andal bahwa abstinensi lebih lama menghasilkan pemulihan belajar atau memori yang lebih besar.\n\nLima tahun tetap merupakan tonggak jangka panjang yang besar: setengah dekade arah yang terjaga layak dihargai dengan sendirinya.';
 }

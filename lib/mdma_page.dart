@@ -90,6 +90,62 @@ class MdmaPage extends StatelessWidget {
         referenceContent:
             "One Year Off MDMA\n\nSource: \"Serotonin transporter availability, neurocognitive function and their correlation in abstinent MDMA users,\" on PubMed\n\nA Year On\nWith a year of abstinence, the brain's serotonin processing has recovered substantially and mood is stable.\n\nRecovery Signal\nA full year of abstinence gives the serotonin system a prolonged recovery window. Imaging research shows serotonin-recycling capacity rises with abstinence, making substantial serotonin recovery the clearest biological signal at this stage.",
       ),
+      QuitMilestone(
+        day: 730,
+        title: l10n.mdmaMilestone730Title,
+        description: l10n.mdmaMilestone730Description,
+        reference: "Ung et al. (2026) - MDMA neurocognition review",
+        link: "https://pubmed.ncbi.nlm.nih.gov/41255336/",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.mdmaReferenceDay730,
+        referenceContent:
+            "Two Years Off MDMA\n\n"
+            "Source: Ung et al. (2026), systematic review and meta-analysis of long-term neurocognitive outcomes after sustained MDMA abstinence.\n\n"
+            "The review included studies with at least six months of abstinence, judged the evidence low quality, and did not find that longer abstinence reliably predicted better learning and memory outcomes. It does not establish two years as a universal biological recovery point.\n\n"
+            "Two years is still a substantial marker of sustained change, built through repeated choices rather than a medical finish line.",
+      ),
+      QuitMilestone(
+        day: 1095,
+        title: l10n.mdmaMilestone1095Title,
+        description: l10n.mdmaMilestone1095Description,
+        reference: "Ung et al. (2026) - MDMA neurocognition review",
+        link: "https://pubmed.ncbi.nlm.nih.gov/41255336/",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.mdmaReferenceDay1095,
+        referenceContent:
+            "Three Years Off MDMA\n\n"
+            "Source: Ung et al. (2026), systematic review and meta-analysis of long-term neurocognitive outcomes after sustained MDMA abstinence.\n\n"
+            "Available studies do not define a three-year point when cognitive effects universally resolve. The review found no reliable relationship between longer abstinence and greater learning or memory recovery, and rated the evidence low quality.\n\n"
+            "Three years therefore celebrates durable momentum and consistency without claiming an unsupported biological deadline.",
+      ),
+      QuitMilestone(
+        day: 1460,
+        title: l10n.mdmaMilestone1460Title,
+        description: l10n.mdmaMilestone1460Description,
+        reference: "Ung et al. (2026) - MDMA neurocognition review",
+        link: "https://pubmed.ncbi.nlm.nih.gov/41255336/",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.mdmaReferenceDay1460,
+        referenceContent:
+            "Four Years Off MDMA\n\n"
+            "Source: Ung et al. (2026), systematic review and meta-analysis of long-term neurocognitive outcomes after sustained MDMA abstinence.\n\n"
+            "Research after sustained abstinence remains limited and does not establish four years as a universal recovery threshold. Some measured differences may persist, while the review cautions that the underlying evidence is low quality.\n\n"
+            "Four years marks deeply established change across changing routines, stresses, and seasons. That continuity is the achievement.",
+      ),
+      QuitMilestone(
+        day: 1825,
+        title: l10n.mdmaMilestone1825Title,
+        description: l10n.mdmaMilestone1825Description,
+        reference: "Ung et al. (2026) - MDMA neurocognition review",
+        link: "https://pubmed.ncbi.nlm.nih.gov/41255336/",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.mdmaReferenceDay1825,
+        referenceContent:
+            "Five Years Off MDMA\n\n"
+            "Source: Ung et al. (2026), systematic review and meta-analysis of long-term neurocognitive outcomes after sustained MDMA abstinence.\n\n"
+            "The current evidence does not support treating five years as a cure date or universal neurocognitive finish line. The review found limited, low-quality evidence and no dependable pattern of greater learning or memory recovery with longer abstinence.\n\n"
+            "Five years remains a major long-term milestone: half a decade of maintained direction deserves recognition on its own terms.",
+      ),
     ];
   }
 
