@@ -3968,4 +3968,37 @@ class AppLocalizationsFr extends AppLocalizations {
   @override
   String get ghbReferenceDay1825 =>
       'Cinq ans sans GHB : grand cap\n\nSource : SAMHSA, Rétablissement et soutien au rétablissement\n\nLa SAMHSA décrit le rétablissement comme un processus de changement continu et individuel et ne fixe aucun point final biologique propre au GHB pour ces anniversaires.\n\nCinq ans représentent 1 825 jours de changement maintenu. Une demi-décennie d\'engagement répété mérite une vraie reconnaissance.';
+
+  @override
+  String get inhalantsMilestone1095Title => 'Trois ans : progrès durable';
+
+  @override
+  String get inhalantsMilestone1095Description =>
+      'Trois ans sans inhalants représentent un progrès soutenu. Les données appuient une récupération à long terme sans fixer un seuil biologique particulier à trois ans.';
+
+  @override
+  String get inhalantsMilestone1460Title => 'Quatre ans : progrès constant';
+
+  @override
+  String get inhalantsMilestone1460Description =>
+      'Quatre ans constituent une nouvelle période importante de récupération. Les données soutiennent la poursuite de l’abstinence, pas une fin universelle de la récupération cérébrale à quatre ans.';
+
+  @override
+  String get inhalantsMilestone1825Title => 'Cinq ans : bases solides';
+
+  @override
+  String get inhalantsMilestone1825Description =>
+      'Cinq ans marquent un progrès durable qui mérite d’être célébré. Une abstinence prolongée peut soutenir la récupération, selon la nature et la gravité des lésions antérieures.';
+
+  @override
+  String get inhalantsReferenceDay1095 =>
+      'Trois ans sans inhalants\n\nSource : Cairney et coll., « Étude prospective des changements neurocognitifs 15 ans après un usage chronique d’inhalants », Addiction (2013), PubMed\n\nAu-delà de deux ans\nL’étude a constaté une récupération importante après deux ans d’abstinence chez les participants sans encéphalopathie au plomb et a suivi la même cohorte jusqu’à 15 ans. Elle ne définit aucun seuil biologique particulier à trois ans.\n\nTrois ans de progrès\nTrois ans représentent une abstinence durable. La récupération peut se poursuivre à long terme, selon l’exposition et les lésions antérieures; une encéphalopathie au plomb peut laisser des déficits persistants.';
+
+  @override
+  String get inhalantsReferenceDay1460 =>
+      'Quatre ans sans inhalants\n\nSource : Cairney et coll., « Étude prospective des changements neurocognitifs 15 ans après un usage chronique d’inhalants », Addiction (2013), PubMed\n\nRécupération à long terme\nDans le groupe sans encéphalopathie au plomb, la plupart des scores étaient normalisés à deux ans et la cohorte a été réévaluée à 15 ans. L’article n’attribue aucun événement particulier à la quatrième année.\n\nQuatre ans de distance\nQuatre ans ajoutent une année entière d’abstinence durable et renforcent les bases de la récupération. Les résultats varient, surtout lorsqu’une atteinte neurologique grave existait déjà.';
+
+  @override
+  String get inhalantsReferenceDay1825 =>
+      'Cinq ans sans inhalants\n\nSource : Cairney et coll., « Étude prospective des changements neurocognitifs 15 ans après un usage chronique d’inhalants », Addiction (2013), PubMed\n\nUn jalon à long terme\nL’étude soutient la possibilité d’une récupération neurologique et cognitive importante avec une abstinence prolongée en l’absence d’encéphalopathie au plomb. Les évaluations ont eu lieu à deux et 15 ans; elle ne présente donc pas cinq ans comme une limite biologique universelle.\n\nCinq ans construits\nCinq ans constituent un progrès durable et une longue période de vie sans inhalants. Les données soutiennent la récupération à long terme tout en reconnaissant que de graves lésions liées au plomb peuvent persister.';
 }

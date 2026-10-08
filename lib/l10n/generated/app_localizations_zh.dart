@@ -3728,6 +3728,39 @@ class AppLocalizationsZh extends AppLocalizations {
   @override
   String get ghbReferenceDay1825 =>
       '不使用 GHB 五年：重要里程碑\n\n来源：SAMHSA，康复与康复支持\n\nSAMHSA 将康复描述为持续且因人而异的改变过程，并未为这些周年设定 GHB 特有的生物学终点。\n\n五年意味着保持改变了 1,825 天。长期反复做出同一方向的选择，值得真正的认可。';
+
+  @override
+  String get inhalantsMilestone1095Title => '三年：康复根基更稳';
+
+  @override
+  String get inhalantsMilestone1095Description =>
+      '远离吸入剂三年代表持续而扎实的进步。研究支持长期康复，但并未把第三年设定为特殊的生物学界限。';
+
+  @override
+  String get inhalantsMilestone1460Title => '四年：稳步向前';
+
+  @override
+  String get inhalantsMilestone1460Description =>
+      '四年是康复历程中又一段重要积累。证据支持持续戒用，并不支持把第四年视为大脑康复的统一终点。';
+
+  @override
+  String get inhalantsMilestone1825Title => '五年：根基坚实';
+
+  @override
+  String get inhalantsMilestone1825Description =>
+      '五年代表值得庆祝的持久进步。长期戒用可以支持康复，但结果仍取决于既往损伤的类型和严重程度。';
+
+  @override
+  String get inhalantsReferenceDay1095 =>
+      '远离吸入剂三年\n\n来源：Cairney等，《慢性吸入剂滥用15年后的神经认知变化前瞻性研究》，Addiction（2013），PubMed\n\n超过两年\n研究发现，没有铅性脑病的参与者在戒用两年后出现显著恢复，并对同一队列随访至15年。研究没有提出第三年存在特殊的生物学阈值。\n\n三年的进步\n三年代表持续戒用。长期康复仍可继续，但结果会受以往暴露和损伤影响；铅性脑病可能留下持续性缺损。';
+
+  @override
+  String get inhalantsReferenceDay1460 =>
+      '远离吸入剂四年\n\n来源：Cairney等，《慢性吸入剂滥用15年后的神经认知变化前瞻性研究》，Addiction（2013），PubMed\n\n长期康复\n在没有铅性脑病的组别中，多数测量结果在两年时已恢复到正常范围，并在15年时再次评估。论文没有把第四年对应到某个独立的康复事件。\n\n四年的距离\n四年又增加了完整一年的持续戒用，并进一步巩固康复基础。结果因人而异，尤其是在以往存在严重神经损伤时。';
+
+  @override
+  String get inhalantsReferenceDay1825 =>
+      '远离吸入剂五年\n\n来源：Cairney等，《慢性吸入剂滥用15年后的神经认知变化前瞻性研究》，Addiction（2013），PubMed\n\n长期里程碑\n研究支持这样的可能性：在没有铅性脑病时，长期戒用可伴随显著的神经和认知恢复。研究的评估节点是两年和15年，因此没有把五年定义为统一的生物学终点。\n\n五年的积累\n五年是持久的进步，也是远离吸入剂生活的一大段时间。证据支持长期康复，同时也承认严重的铅相关损伤可能持续存在。';
 }
 
 /// The translations for Chinese, using the Han script (`zh_Hant`).
@@ -7454,4 +7487,37 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   @override
   String get ghbReferenceDay1825 =>
       '不使用 GHB 五年：重要里程碑\n\n來源：SAMHSA，復元與復元支持\n\nSAMHSA 將復元描述為持續且因人而異的改變過程，並未為這些週年設定 GHB 特有的生物學終點。\n\n五年代表維持改變了 1,825 天。長期反覆做出同一方向的選擇，值得真正的肯定。';
+
+  @override
+  String get inhalantsMilestone1095Title => '三年：康復根基更穩';
+
+  @override
+  String get inhalantsMilestone1095Description =>
+      '遠離吸入劑三年代表持續而扎實的進步。研究支持長期康復，但並未把第三年設定為特殊的生物學界線。';
+
+  @override
+  String get inhalantsMilestone1460Title => '四年：穩步向前';
+
+  @override
+  String get inhalantsMilestone1460Description =>
+      '四年是康復歷程中又一段重要累積。證據支持持續戒用，並不支持把第四年視為大腦康復的統一終點。';
+
+  @override
+  String get inhalantsMilestone1825Title => '五年：根基堅實';
+
+  @override
+  String get inhalantsMilestone1825Description =>
+      '五年代表值得慶祝的持久進步。長期戒用可以支持康復，但結果仍取決於既往損傷的類型和嚴重程度。';
+
+  @override
+  String get inhalantsReferenceDay1095 =>
+      '遠離吸入劑三年\n\n來源：Cairney等，《慢性吸入劑濫用15年後的神經認知變化前瞻性研究》，Addiction（2013），PubMed\n\n超過兩年\n研究發現，沒有鉛性腦病的參與者在戒用兩年後出現顯著恢復，並對同一隊列追蹤至15年。研究沒有提出第三年存在特殊的生物學閾值。\n\n三年的進步\n三年代表持續戒用。長期康復仍可繼續，但結果會受以往暴露和損傷影響；鉛性腦病可能留下持續性缺損。';
+
+  @override
+  String get inhalantsReferenceDay1460 =>
+      '遠離吸入劑四年\n\n來源：Cairney等，《慢性吸入劑濫用15年後的神經認知變化前瞻性研究》，Addiction（2013），PubMed\n\n長期康復\n在沒有鉛性腦病的組別中，多數測量結果在兩年時已恢復到正常範圍，並在15年時再次評估。論文沒有把第四年對應到某個獨立的康復事件。\n\n四年的距離\n四年又增加了完整一年的持續戒用，並進一步鞏固康復基礎。結果因人而異，尤其是在以往存在嚴重神經損傷時。';
+
+  @override
+  String get inhalantsReferenceDay1825 =>
+      '遠離吸入劑五年\n\n來源：Cairney等，《慢性吸入劑濫用15年後的神經認知變化前瞻性研究》，Addiction（2013），PubMed\n\n長期里程碑\n研究支持這樣的可能性：在沒有鉛性腦病時，長期戒用可伴隨顯著的神經和認知恢復。研究的評估節點是兩年和15年，因此沒有把五年定義為統一的生物學終點。\n\n五年的累積\n五年是持久的進步，也是遠離吸入劑生活的一大段時間。證據支持長期康復，同時也承認嚴重的鉛相關損傷可能持續存在。';
 }

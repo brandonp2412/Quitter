@@ -3943,6 +3943,39 @@ class AppLocalizationsPt extends AppLocalizations {
   @override
   String get ghbReferenceDay1825 =>
       'Cinco anos sem GHB: Grande marco\n\nFonte: SAMHSA, Recuperação e apoio à recuperação\n\nA SAMHSA descreve a recuperação como um processo de mudança contínuo e individual e não define um ponto final biológico específico do GHB nestes aniversários.\n\nCinco anos são 1 825 dias de mudança mantida. Meia década de compromisso repetido merece verdadeiro reconhecimento.';
+
+  @override
+  String get inhalantsMilestone1095Title => 'Três anos: recuperação sólida';
+
+  @override
+  String get inhalantsMilestone1095Description =>
+      'Três anos sem inalantes representam progresso sustentado. A investigação apoia a recuperação a longo prazo sem definir um limite biológico especial aos três anos.';
+
+  @override
+  String get inhalantsMilestone1460Title => 'Quatro anos: progresso firme';
+
+  @override
+  String get inhalantsMilestone1460Description =>
+      'Quatro anos são mais um período importante de recuperação. A evidência apoia a abstinência continuada, não uma meta universal de recuperação cerebral aos quatro anos.';
+
+  @override
+  String get inhalantsMilestone1825Title => 'Cinco anos: bases fortes';
+
+  @override
+  String get inhalantsMilestone1825Description =>
+      'Cinco anos assinalam progresso duradouro que merece ser celebrado. A abstinência prolongada pode apoiar a recuperação, embora os resultados dependam das lesões anteriores.';
+
+  @override
+  String get inhalantsReferenceDay1095 =>
+      'Três anos sem inalantes\n\nFonte: Cairney et al., «Estudo prospetivo das alterações neurocognitivas 15 anos após abuso crónico de inalantes», Addiction (2013), PubMed\n\nPara além dos dois anos\nO estudo encontrou recuperação substancial após dois anos de abstinência em participantes sem encefalopatia por chumbo e acompanhou a mesma coorte até aos 15 anos. Não definiu um limiar biológico especial aos três anos.\n\nTrês anos de progresso\nTrês anos representam abstinência sustentada. A recuperação pode continuar a longo prazo, embora dependa da exposição e das lesões anteriores; a encefalopatia por chumbo pode deixar défices persistentes.';
+
+  @override
+  String get inhalantsReferenceDay1460 =>
+      'Quatro anos sem inalantes\n\nFonte: Cairney et al., «Estudo prospetivo das alterações neurocognitivas 15 anos após abuso crónico de inalantes», Addiction (2013), PubMed\n\nRecuperação a longo prazo\nNo grupo sem encefalopatia por chumbo, a maioria dos resultados tinha normalizado aos dois anos e a coorte foi novamente avaliada aos 15 anos. O artigo não atribui um acontecimento específico ao quarto ano.\n\nQuatro anos de distância\nQuatro anos acrescentam mais um ano inteiro de abstinência sustentada e reforçam a base da recuperação. Os resultados variam, sobretudo quando existiu lesão neurológica grave.';
+
+  @override
+  String get inhalantsReferenceDay1825 =>
+      'Cinco anos sem inalantes\n\nFonte: Cairney et al., «Estudo prospetivo das alterações neurocognitivas 15 anos após abuso crónico de inalantes», Addiction (2013), PubMed\n\nUm marco de longo prazo\nO estudo apoia a possibilidade de recuperação neurológica e cognitiva substancial com abstinência prolongada quando não existe encefalopatia por chumbo. As avaliações foram aos dois e aos 15 anos, por isso não define os cinco anos como uma meta biológica universal.\n\nCinco anos construídos\nCinco anos são progresso duradouro e um grande período de vida longe dos inalantes. A evidência apoia a recuperação a longo prazo, reconhecendo que lesões graves relacionadas com chumbo podem persistir.';
 }
 
 /// The translations for Portuguese, as used in Brazil (`pt_BR`).
@@ -7884,4 +7917,37 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
   @override
   String get ghbReferenceDay1825 =>
       'Cinco anos sem GHB: Grande marco\n\nFonte: SAMHSA, Recuperação e apoio à recuperação\n\nA SAMHSA descreve a recuperação como um processo de mudança contínuo e individual e não define um ponto final biológico específico do GHB nesses aniversários.\n\nCinco anos são 1.825 dias de mudança mantida. Meia década de compromisso repetido merece reconhecimento de verdade.';
+
+  @override
+  String get inhalantsMilestone1095Title => 'Três anos: recuperação sólida';
+
+  @override
+  String get inhalantsMilestone1095Description =>
+      'Três anos sem inalantes representam progresso sustentado. A pesquisa apoia a recuperação de longo prazo sem definir um limite biológico especial aos três anos.';
+
+  @override
+  String get inhalantsMilestone1460Title => 'Quatro anos: progresso firme';
+
+  @override
+  String get inhalantsMilestone1460Description =>
+      'Quatro anos são mais um período importante de recuperação. A evidência apoia a abstinência contínua, não uma meta universal de recuperação cerebral aos quatro anos.';
+
+  @override
+  String get inhalantsMilestone1825Title => 'Cinco anos: bases fortes';
+
+  @override
+  String get inhalantsMilestone1825Description =>
+      'Cinco anos marcam um progresso duradouro que merece celebração. A abstinência prolongada pode apoiar a recuperação, embora os resultados dependam das lesões anteriores.';
+
+  @override
+  String get inhalantsReferenceDay1095 =>
+      'Três anos sem inalantes\n\nFonte: Cairney et al., «Estudo prospectivo das alterações neurocognitivas 15 anos após abuso crônico de inalantes», Addiction (2013), PubMed\n\nAlém dos dois anos\nO estudo encontrou recuperação substancial após dois anos de abstinência em participantes sem encefalopatia por chumbo e acompanhou a mesma coorte até os 15 anos. Não definiu um limiar biológico especial aos três anos.\n\nTrês anos de progresso\nTrês anos representam abstinência sustentada. A recuperação pode continuar no longo prazo, embora dependa da exposição e das lesões anteriores; a encefalopatia por chumbo pode deixar déficits persistentes.';
+
+  @override
+  String get inhalantsReferenceDay1460 =>
+      'Quatro anos sem inalantes\n\nFonte: Cairney et al., «Estudo prospectivo das alterações neurocognitivas 15 anos após abuso crônico de inalantes», Addiction (2013), PubMed\n\nRecuperação de longo prazo\nNo grupo sem encefalopatia por chumbo, a maioria dos resultados havia normalizado aos dois anos e a coorte foi avaliada novamente aos 15 anos. O artigo não atribui um evento específico ao quarto ano.\n\nQuatro anos de distância\nQuatro anos acrescentam mais um ano inteiro de abstinência sustentada e fortalecem a base da recuperação. Os resultados variam, especialmente quando houve lesão neurológica grave.';
+
+  @override
+  String get inhalantsReferenceDay1825 =>
+      'Cinco anos sem inalantes\n\nFonte: Cairney et al., «Estudo prospectivo das alterações neurocognitivas 15 anos após abuso crônico de inalantes», Addiction (2013), PubMed\n\nUm marco de longo prazo\nO estudo apoia a possibilidade de recuperação neurológica e cognitiva substancial com abstinência prolongada quando não há encefalopatia por chumbo. As avaliações ocorreram aos dois e aos 15 anos, por isso não define cinco anos como uma meta biológica universal.\n\nCinco anos construídos\nCinco anos são progresso duradouro e um grande período de vida longe dos inalantes. A evidência apoia a recuperação de longo prazo, reconhecendo que lesões graves relacionadas ao chumbo podem persistir.';
 }

@@ -3928,4 +3928,37 @@ class AppLocalizationsDe extends AppLocalizations {
   @override
   String get ghbReferenceDay1825 =>
       'Fünf Jahre ohne GHB: Großer Meilenstein\n\nQuelle: SAMHSA, Genesung und Unterstützung der Genesung\n\nSAMHSA beschreibt Genesung als fortlaufenden, individuellen Veränderungsprozess und nennt für diese Jahrestage keinen GHB-spezifischen biologischen Endpunkt.\n\nFünf Jahre entsprechen 1.825 Tagen aufrechterhaltener Veränderung. Ein halbes Jahrzehnt konsequenter Entscheidungen verdient echte Anerkennung.';
+
+  @override
+  String get inhalantsMilestone1095Title => 'Drei Jahre: Erholung wächst';
+
+  @override
+  String get inhalantsMilestone1095Description =>
+      'Drei Jahre ohne Inhalationsmittel sind beständiger Fortschritt. Die Forschung stützt langfristige Erholung, ohne einen besonderen biologischen Endpunkt nach drei Jahren festzulegen.';
+
+  @override
+  String get inhalantsMilestone1460Title => 'Vier Jahre: stetiger Fortschritt';
+
+  @override
+  String get inhalantsMilestone1460Description =>
+      'Vier Jahre sind eine weitere große Strecke der Erholung. Die Evidenz stützt fortgesetzte Abstinenz, nicht ein allgemeines Ende der Gehirnerholung nach vier Jahren.';
+
+  @override
+  String get inhalantsMilestone1825Title => 'Fünf Jahre: starke Basis';
+
+  @override
+  String get inhalantsMilestone1825Description =>
+      'Fünf Jahre markieren dauerhaften Fortschritt, der gefeiert werden darf. Langfristige Abstinenz kann Erholung unterstützen; das Ergebnis hängt weiterhin von früheren Schäden ab.';
+
+  @override
+  String get inhalantsReferenceDay1095 =>
+      'Drei Jahre ohne Inhalationsmittel\n\nQuelle: Cairney et al., „Prospektive Studie zu neurokognitiven Veränderungen 15 Jahre nach chronischem Inhalationsmittelmissbrauch“, Addiction (2013), PubMed\n\nJenseits von zwei Jahren\nDie Studie fand nach zwei Jahren Abstinenz eine deutliche Erholung bei Teilnehmenden ohne Bleienzephalopathie und untersuchte dieselbe Kohorte bis zum 15. Jahr. Einen besonderen biologischen Schwellenwert nach drei Jahren nennt sie nicht.\n\nDrei Jahre Fortschritt\nDrei Jahre stehen für anhaltende Abstinenz. Langfristige Erholung kann weitergehen, wobei frühere Belastung und Schädigung das Ergebnis beeinflussen; eine Bleienzephalopathie kann dauerhafte Defizite hinterlassen.';
+
+  @override
+  String get inhalantsReferenceDay1460 =>
+      'Vier Jahre ohne Inhalationsmittel\n\nQuelle: Cairney et al., „Prospektive Studie zu neurokognitiven Veränderungen 15 Jahre nach chronischem Inhalationsmittelmissbrauch“, Addiction (2013), PubMed\n\nLangfristige Erholung\nIn der Gruppe ohne Bleienzephalopathie waren die meisten Messwerte nach zwei Jahren normalisiert; die Kohorte wurde nach 15 Jahren erneut untersucht. Die Studie ordnet dem vierten Jahr kein besonderes Erholungsereignis zu.\n\nVier Jahre Abstand\nVier Jahre bedeuten ein weiteres volles Jahr anhaltender Abstinenz und eine starke Grundlage für die Erholung. Die Ergebnisse unterscheiden sich, besonders nach schweren neurologischen Schäden.';
+
+  @override
+  String get inhalantsReferenceDay1825 =>
+      'Fünf Jahre ohne Inhalationsmittel\n\nQuelle: Cairney et al., „Prospektive Studie zu neurokognitiven Veränderungen 15 Jahre nach chronischem Inhalationsmittelmissbrauch“, Addiction (2013), PubMed\n\nEin langfristiger Meilenstein\nDie Studie stützt die Möglichkeit deutlicher neurologischer und kognitiver Erholung bei langfristiger Abstinenz ohne Bleienzephalopathie. Gemessen wurde nach zwei und nach 15 Jahren; fünf Jahre werden daher nicht als allgemeine biologische Ziellinie dargestellt.\n\nFünf Jahre aufgebaut\nFünf Jahre sind dauerhafter Fortschritt und ein großer Lebensabschnitt ohne Inhalationsmittel. Die Evidenz stützt langfristige Erholung und erkennt zugleich an, dass schwere bleibedingte Schäden fortbestehen können.';
 }

@@ -3864,4 +3864,37 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get ghbReferenceDay1825 =>
       'Five Years Without GHB: Half a Decade\n\nSource: SAMHSA, Recovery and Recovery Support\n\nSAMHSA describes recovery as an ongoing, individual process of change. It does not set a GHB-specific biological endpoint at any of these anniversaries.\n\nFive years is 1,825 days of maintained change: half a decade of repeatedly choosing a different direction. That scale of commitment deserves real credit.';
+
+  @override
+  String get inhalantsMilestone1095Title => 'Three Years: Recovery Grows';
+
+  @override
+  String get inhalantsMilestone1095Description =>
+      'Three years away from inhalants is sustained progress. Research supports long-term recovery without defining a special three-year biological endpoint.';
+
+  @override
+  String get inhalantsMilestone1460Title => 'Four Years: Steady Progress';
+
+  @override
+  String get inhalantsMilestone1460Description =>
+      'Four years is another substantial stretch of recovery. The evidence supports continued abstinence, not a universal four-year finish line for brain recovery.';
+
+  @override
+  String get inhalantsMilestone1825Title => 'Five Years: Strong Foundations';
+
+  @override
+  String get inhalantsMilestone1825Description =>
+      'Five years marks durable progress worth celebrating. Long-term abstinence can support recovery, while outcomes still depend on the type and severity of prior injury.';
+
+  @override
+  String get inhalantsReferenceDay1095 =>
+      'Three Years Off Inhalants\n\nSource: Cairney et al., \"A prospective study of neurocognitive changes 15 years after chronic inhalant abuse,\" Addiction (2013), on PubMed\n\nBeyond Two Years\nThe study found substantial recovery after two years of abstinence in participants without lead encephalopathy and followed the same cohort to 15 years. It did not identify a special three-year biological threshold.\n\nThree Years of Progress\nThree years marks sustained abstinence. Long-term recovery can continue, while outcomes depend on prior exposure and injury; lead encephalopathy may leave persistent deficits.';
+
+  @override
+  String get inhalantsReferenceDay1460 =>
+      'Four Years Off Inhalants\n\nSource: Cairney et al., \"A prospective study of neurocognitive changes 15 years after chronic inhalant abuse,\" Addiction (2013), on PubMed\n\nRecovery Over the Long Term\nMost measured scores had normalised by two years in the group without lead encephalopathy, and the cohort was assessed again at 15 years. The paper does not assign a distinct recovery event to year four.\n\nFour Years of Distance\nFour years adds another full year of sustained abstinence and a strong recovery foundation. Outcomes vary, especially when prior inhalant exposure caused severe neurological injury.';
+
+  @override
+  String get inhalantsReferenceDay1825 =>
+      'Five Years Off Inhalants\n\nSource: Cairney et al., \"A prospective study of neurocognitive changes 15 years after chronic inhalant abuse,\" Addiction (2013), on PubMed\n\nA Long-Term Milestone\nThe study supports the possibility of substantial neurological and cognitive recovery with long-term abstinence when lead encephalopathy is absent. Its measured checkpoints were two and 15 years, so it does not claim that five years is a universal biological finish line.\n\nFive Years Built\nFive years is durable progress: a large span of life maintained away from inhalants. The evidence supports long-term recovery while recognising that severe lead-related injury can remain persistent.';
 }

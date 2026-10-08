@@ -94,6 +94,42 @@ class InhalantsPage extends StatelessWidget {
         referenceContent:
             "Two Years Off Inhalants\n\nSource: \"A prospective study of neurocognitive changes 15 years after chronic inhalant abuse,\" on PubMed\n\nThe Two-Year Mark\nThis is the key milestone in the research: deficits reflecting brain damage from long-term solvent use showed substantial recovery after two years of abstinence. The authors concluded that, in the absence of brain damage from leaded petrol, long-term abstinence may allow recovery of normal brain function.\n\nRecovery Signal\nThe major exception is damage from leaded petrol abuse, which can cause persistent deficits. Otherwise, two years of abstinence represents the brain's best documented opportunity to heal — alongside a life rebuilt around it.",
       ),
+      QuitMilestone(
+        day: 1095,
+        title: l10n.inhalantsMilestone1095Title,
+        description: l10n.inhalantsMilestone1095Description,
+        reference:
+            "Neurocognitive changes 15 years after chronic inhalant abuse (PubMed)",
+        link: "https://pubmed.ncbi.nlm.nih.gov/23490054/",
+        referenceDate: "June 2026",
+        localizedReferenceContent: l10n.inhalantsReferenceDay1095,
+        referenceContent:
+            "Three Years Off Inhalants\n\nSource: \"A prospective study of neurocognitive changes 15 years after chronic inhalant abuse,\" on PubMed\n\nBeyond the Two-Year Finding\nThe study found substantial recovery after two years of abstinence in participants without lead encephalopathy, then followed the same cohort out to 15 years. It did not identify a special three-year biological threshold.\n\nWhat Three Years Marks\nThree years is sustained progress worth recognising. Long-term abstinence gives recovery more time, while outcomes still depend on prior exposure and injury. Lead encephalopathy was the important exception in this study and could leave persistent deficits.",
+      ),
+      QuitMilestone(
+        day: 1460,
+        title: l10n.inhalantsMilestone1460Title,
+        description: l10n.inhalantsMilestone1460Description,
+        reference:
+            "Neurocognitive changes 15 years after chronic inhalant abuse (PubMed)",
+        link: "https://pubmed.ncbi.nlm.nih.gov/23490054/",
+        referenceDate: "June 2026",
+        localizedReferenceContent: l10n.inhalantsReferenceDay1460,
+        referenceContent:
+            "Four Years Off Inhalants\n\nSource: \"A prospective study of neurocognitive changes 15 years after chronic inhalant abuse,\" on PubMed\n\nRecovery Over the Long Term\nThe research supports recovery as a long process rather than a single deadline: most scores had normalised by two years in the non-encephalopathic group, and the cohort was followed again at 15 years. The paper does not assign a distinct recovery event to year four.\n\nFour Years of Distance\nFour years adds another full year of sustained abstinence and a strong recovery foundation. Individual outcomes vary, especially when prior inhalant exposure caused severe neurological injury.",
+      ),
+      QuitMilestone(
+        day: 1825,
+        title: l10n.inhalantsMilestone1825Title,
+        description: l10n.inhalantsMilestone1825Description,
+        reference:
+            "Neurocognitive changes 15 years after chronic inhalant abuse (PubMed)",
+        link: "https://pubmed.ncbi.nlm.nih.gov/23490054/",
+        referenceDate: "June 2026",
+        localizedReferenceContent: l10n.inhalantsReferenceDay1825,
+        referenceContent:
+            "Five Years Off Inhalants\n\nSource: \"A prospective study of neurocognitive changes 15 years after chronic inhalant abuse,\" on PubMed\n\nA Long-Term Milestone\nThis prospective study supports the possibility of substantial neurological and cognitive recovery with long-term abstinence when lead encephalopathy is absent. Its measured checkpoints were two and 15 years, so it does not claim that five years is a universal biological finish line.\n\nFive Years Built\nFive years is durable progress: a large span of life maintained away from inhalants. The evidence supports continuing recovery over the long term while recognising that severe lead-related injury can remain persistent.",
+      ),
     ];
   }
 

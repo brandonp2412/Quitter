@@ -3935,4 +3935,37 @@ class AppLocalizationsPl extends AppLocalizations {
   @override
   String get ghbReferenceDay1825 =>
       'Pięć lat bez GHB: Wielki kamień milowy\n\nŹródło: SAMHSA, Zdrowienie i wsparcie zdrowienia\n\nSAMHSA opisuje zdrowienie jako ciągły, indywidualny proces zmiany i nie wyznacza dla tych rocznic biologicznego punktu końcowego właściwego dla GHB.\n\nPięć lat to 1 825 dni podtrzymywanej zmiany. Pół dekady konsekwentnych wyborów zasługuje na prawdziwe uznanie.';
+
+  @override
+  String get inhalantsMilestone1095Title => 'Trzy lata: trwały postęp';
+
+  @override
+  String get inhalantsMilestone1095Description =>
+      'Trzy lata bez inhalantów to trwały postęp. Badania wspierają perspektywę długoterminowej poprawy, ale nie wyznaczają szczególnej granicy biologicznej po trzech latach.';
+
+  @override
+  String get inhalantsMilestone1460Title => 'Cztery lata: stały postęp';
+
+  @override
+  String get inhalantsMilestone1460Description =>
+      'Cztery lata to kolejny znaczący okres zdrowienia. Dowody wspierają dalszą abstynencję, a nie uniwersalny koniec regeneracji mózgu dokładnie po czterech latach.';
+
+  @override
+  String get inhalantsMilestone1825Title => 'Pięć lat: mocne podstawy';
+
+  @override
+  String get inhalantsMilestone1825Description =>
+      'Pięć lat to trwały postęp wart świętowania. Długotrwała abstynencja może wspierać poprawę, a wyniki nadal zależą od rodzaju i nasilenia wcześniejszych uszkodzeń.';
+
+  @override
+  String get inhalantsReferenceDay1095 =>
+      'Trzy lata bez inhalantów\n\nŹródło: Cairney i wsp., „Prospektywne badanie zmian neurokognitywnych 15 lat po przewlekłym nadużywaniu inhalantów”, Addiction (2013), PubMed\n\nPoza drugim rokiem\nBadanie wykazało znaczną poprawę po dwóch latach abstynencji u osób bez encefalopatii ołowiowej i objęło tę samą kohortę obserwacją do 15 lat. Nie wskazano szczególnego progu biologicznego po trzech latach.\n\nTrzy lata postępu\nTrzy lata oznaczają utrzymaną abstynencję. Poprawa może trwać długoterminowo, a jej zakres zależy od wcześniejszej ekspozycji i uszkodzeń; encefalopatia ołowiowa może pozostawiać trwałe deficyty.';
+
+  @override
+  String get inhalantsReferenceDay1460 =>
+      'Cztery lata bez inhalantów\n\nŹródło: Cairney i wsp., „Prospektywne badanie zmian neurokognitywnych 15 lat po przewlekłym nadużywaniu inhalantów”, Addiction (2013), PubMed\n\nDługoterminowa poprawa\nW grupie bez encefalopatii ołowiowej większość wyników była prawidłowa po dwóch latach, a kohortę ponownie oceniono po 15 latach. Publikacja nie przypisuje czwartej rocznicy odrębnego zdarzenia zdrowotnego.\n\nCztery lata dystansu\nCztery lata dodają kolejny pełny rok utrzymanej abstynencji i wzmacniają podstawy zdrowienia. Wyniki różnią się, zwłaszcza po ciężkich uszkodzeniach neurologicznych.';
+
+  @override
+  String get inhalantsReferenceDay1825 =>
+      'Pięć lat bez inhalantów\n\nŹródło: Cairney i wsp., „Prospektywne badanie zmian neurokognitywnych 15 lat po przewlekłym nadużywaniu inhalantów”, Addiction (2013), PubMed\n\nDługoterminowy kamień milowy\nBadanie wspiera możliwość znacznej poprawy neurologicznej i poznawczej przy długotrwałej abstynencji bez encefalopatii ołowiowej. Punkty oceny przypadały po dwóch i 15 latach, więc pięć lat nie jest przedstawione jako uniwersalna granica biologiczna.\n\nPięć lat zbudowane\nPięć lat to trwały postęp i duży fragment życia bez inhalantów. Dowody wspierają długoterminową poprawę, uwzględniając możliwość utrzymywania się ciężkich uszkodzeń związanych z ołowiem.';
 }
