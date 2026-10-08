@@ -81,7 +81,7 @@ class AppLocalizationsEn extends AppLocalizations {
       'A full year free of kratom. The opioid system has long re-regulated, cravings are infrequent, and the habit no longer organises your day.';
 
   @override
-  String get gabapentinoidsPageTitle => 'Gabapentinoid Recovery';
+  String get gabapentinoidsPageTitle => 'Gabapentinoids';
 
   @override
   String get gabapentinoidsHeaderStarted => 'Your Recovery Journey';
@@ -371,8 +371,7 @@ class AppLocalizationsEn extends AppLocalizations {
       'Two years of abstinence is the window in which studies found substantial recovery of brain function — outside of damage from leaded petrol, which can persist.';
 
   @override
-  String get synthetic_cannabinoidsPageTitle =>
-      'Synthetic Cannabinoids Recovery';
+  String get synthetic_cannabinoidsPageTitle => 'Synthetic Cannabinoids';
 
   @override
   String get synthetic_cannabinoidsHeaderStarted => 'Your Recovery Journey';
@@ -526,7 +525,7 @@ class AppLocalizationsEn extends AppLocalizations {
       'A year free of MDMA. Serotonin function and mood have had extended time to recover, and anxiety related to use typically resolves by now.';
 
   @override
-  String get steroidsPageTitle => 'Anabolic Steroid Recovery';
+  String get steroidsPageTitle => 'Anabolic Steroids';
 
   @override
   String get steroidsHeaderStarted => 'Your Recovery Journey';
@@ -704,7 +703,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get enableNotificationsSubtitle => 'Turn on or off all notifications';
 
   @override
-  String get benzoPageTitle => 'Benzodiazepine Recovery';
+  String get benzoPageTitle => 'Benzodiazepines';
 
   @override
   String get benzoHeaderStarted => 'Your Recovery Journey';
@@ -872,7 +871,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get addictionNitrousOxide => 'Nitrous Oxide';
 
   @override
-  String get nitrousOxidePageTitle => 'Nitrous Oxide Recovery';
+  String get nitrousOxidePageTitle => 'Nitrous Oxide';
 
   @override
   String get nitrousOxideHeaderStarted => 'Your Recovery Journey';
@@ -1846,7 +1845,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get vapingSubtitleNotStarted => 'Ready to ditch the vape? ✨';
 
   @override
-  String get smokingPageTitle => 'Smoke-free & soaring';
+  String get smokingPageTitle => 'Smoke-free';
 
   @override
   String get smokingHeaderStarted => 'Breathe easy!';
@@ -1861,7 +1860,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get smokingSubtitleNotStarted => 'Ready to reclaim your health? ✨';
 
   @override
-  String get marijuanaPageTitle => 'Cannabis-free journey';
+  String get marijuanaPageTitle => 'Cannabis-free';
 
   @override
   String get marijuanaHeaderStarted => 'Clear mind rising!';
@@ -1913,7 +1912,7 @@ class AppLocalizationsEn extends AppLocalizations {
       'Recovery is a medical process. Always consult healthcare professionals.';
 
   @override
-  String get socialMediaPageTitle => 'Digital detox delight';
+  String get socialMediaPageTitle => 'Digital Detox';
 
   @override
   String get socialMediaHeaderStarted => 'Unplug & play!';
@@ -1928,7 +1927,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get socialMediaSubtitleNotStarted => 'Ready to reclaim your time? 🚀';
 
   @override
-  String get pornographyPageTitle => 'Pornography Recovery';
+  String get pornographyPageTitle => 'Pornography';
 
   @override
   String get pornographyHeaderStarted => 'Building lasting control';

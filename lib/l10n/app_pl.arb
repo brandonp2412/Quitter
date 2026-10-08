@@ -1,5 +1,5 @@
 {
-  "kratomPageTitle": "Odzyskiwanie Kratom",
+  "kratomPageTitle": "Kratom",
   "kratomHeaderStarted": "Twoja podróż po powrocie do zdrowia",
   "kratomHeaderNotStarted": "Korzyści z rzucenia Kratom",
   "kratomSubtitleStarted": "Śledź swój postęp i świętować każdy kamień milowy",
@@ -20,7 +20,7 @@
   "kratomMilestone90Description": "Trzy miesiące abstynencji daje nagrody mózgów i obwody stresu przedłużył czas do reregulacji. Mood, koncentracja, i motywacja są wyraźnie stałe.",
   "kratomMilestone365Title": "Jeden rok wolny",
   "kratomMilestone365Description": "Pełen rok wolny od krytomu. System opioidów od dawna jest regulowany, pragnienia są rzadkie, a nawyk nie organizuje już dnia.",
-  "gabapentinoidsPageTitle": "Odzyskiwanie gabapentinoidu",
+  "gabapentinoidsPageTitle": "Gabapentynoidy",
   "gabapentinoidsHeaderStarted": "Twoja podróż po powrocie do zdrowia",
   "gabapentinoidsHeaderNotStarted": "Korzyści z rzucenia Gabapentyny / Pregabaliny",
   "gabapentinoidsSubtitleStarted": "Śledź swój postęp i świętować każdy kamień milowy",
@@ -83,7 +83,7 @@
   "ketamineMilestone180Description": "Objawy pęcherza miały wydłużony czas na poprawę, a psychologiczne przyciąganie ketaminy osłabło rozważnie.",
   "ketamineMilestone365Title": "Jeden rok wolny",
   "ketamineMilestone365Description": "Rok wolny od ketaminy. Myślenie, nastrojenie, i uczucie, gdy uszkodzenia pęcherza zostały złapane wczesnej funkcji pęcherza moczowego miały pełny rok do odzyskania.",
-  "inhalantsPageTitle": "Odzyskiwanie inhalatorów",
+  "inhalantsPageTitle": "Substancje wziewne",
   "inhalantsHeaderStarted": "Twoja podróż po powrocie do zdrowia",
   "inhalantsHeaderNotStarted": "Korzyści z odpuszczenia inhalantów",
   "inhalantsSubtitleStarted": "Śledź swój postęp i świętować każdy kamień milowy",
@@ -104,7 +104,7 @@
   "inhalantsMilestone365Description": "Rok abstynencji przynosi znaczną regenerację neurologiczną większości ludzi, a w drugim roku spodziewane są dalsze zyski.",
   "inhalantsMilestone730Title": "Dwa lata od czasu do czasu leczenia",
   "inhalantsMilestone730Description": "Dwa lata abstynencji jest to okno, w którym badania wykazały znaczne ożywienie funkcji mózgu poza uszkodzeniem z petrolu ołowianego, które może trwać.",
-  "synthetic_cannabinoidsPageTitle": "Regeneracja po syntetycznych kannabinoidach",
+  "synthetic_cannabinoidsPageTitle": "Synt. kannabinoidy",
   "synthetic_cannabinoidsHeaderStarted": "Twoja droga do regeneracji",
   "synthetic_cannabinoidsHeaderNotStarted": "Korzyści z odstawienia syntetycznych kannabinoidów",
   "synthetic_cannabinoidsSubtitleStarted": "Śledź postępy i świętuj każdy kamień milowy",
@@ -127,7 +127,7 @@
   "synthetic_cannabinoidsMilestone180Description": "Pół roku bez używania. Sześć miesięcy bez syntetycznych kannabinoidów to ogromne osiągnięcie — sześć miesięcy bez kolejnej rundy ich nieprzewidywalnych ostrych zagrożeń.",
   "synthetic_cannabinoidsWithdrawalReference": "Odstawienie syntetycznych kannabinoidów\n\nŹródło: Craft et al. (2022), Psychopharmacology, PMC\n\nWśród 284 osób, które w poprzednim roku używały syntetycznych agonistów receptorów kannabinoidowych ponad dziesięć razy i próbowały przestać, 82,7% zgłosiło co najmniej jeden objaw odstawienia po ponad jednej dobie bez używania. Najczęstsze były problemy ze snem (59,2%), drażliwość (55,6%) i obniżony nastrój (54,2%); zgłaszano też poty, kołatanie serca, głód substancji, pobudzenie i drżenie. Częstsze i większe używanie wiązało się z większą liczbą objawów. W bezpośrednim porównaniu odstawienie syntetycznych kannabinoidów oceniano jako cięższe niż odstawienie konopi o wysokiej mocy.",
   "synthetic_cannabinoidsRiskReference": "Odstawienie i ostre ryzyko syntetycznych kannabinoidów\n\nŹródło: Cooper (2016), Current Psychiatry Reports, PMC\n\nOpisy kliniczne wskazują, że po codziennym używaniu objawy odstawienia mogą pojawić się szybko po ostatniej dawce i obejmować silny lęk, bezsenność, nudności i wymioty, poty, kołatanie serca, drżenie, pobudzenie i głód substancji. W ciężkich przypadkach występowały nawracające drgawki oraz problemy sercowo-naczyniowe lub oddechowe. Przegląd opisuje też nieprzewidywalne i czasem ciężkie zatrucia, w tym psychozę, drgawki, incydenty sercowe i uszkodzenie nerek. Ciężkie lub nasilające się objawy wymagają szybkiej oceny medycznej.",
-  "mdmaPageTitle": "Odzyskiwanie MDMA",
+  "mdmaPageTitle": "MDMA",
   "mdmaHeaderStarted": "Twoja podróż po powrocie do zdrowia",
   "mdmaHeaderNotStarted": "Korzyści z rezygnacji z MDMA",
   "mdmaSubtitleStarted": "Śledź swój postęp i świętować każdy kamień milowy",
@@ -148,7 +148,7 @@
   "mdmaMilestone90Description": "Trzy miesiące abstynencji wspiera kontynuację odzyskiwania serotoniny. nastrojów i snu są stabilne; stany lękowe w następujących miesiącach.",
   "mdmaMilestone365Title": "Jeden rok wolny",
   "mdmaMilestone365Description": "Rok wolny od MDMA. Funkcja i nastrój serotoniny miały wydłużony czas do odzyskania, i niepokój związany z użyciem zazwyczaj rozwiązuje się do teraz.",
-  "steroidsPageTitle": "Odzyskiwanie sterydów anabolicznych",
+  "steroidsPageTitle": "Sterydy anaboliczne",
   "steroidsHeaderStarted": "Twoja podróż po powrocie do zdrowia",
   "steroidsHeaderNotStarted": "Korzyści z rzucenia sterydów anabolicznych",
   "steroidsSubtitleStarted": "Śledź swój postęp i świętować każdy kamień milowy",
@@ -179,7 +179,7 @@
     "description": "Tab label for the main Quitter tab"
   },
   "tabQuitter": "Quitter",
-  "adderallPageTitle": "Rezygnacja z dodatku",
+  "adderallPageTitle": "Adderall",
   "adderallHeaderStarted": "Twoja podróż po powrocie do zdrowia",
   "adderallHeaderNotStarted": "Gotowy do startu?",
   "adderallSubtitleStarted": "Śledź swój postęp i świętować każdy kamień milowy, jak twój mózg leczy",
@@ -206,7 +206,7 @@
   "showAllSubtitle": "Włącz lub wyłącz wszystkie główne elementy ekranu",
   "enableNotifications": "Włącz wszystkie powiadomienia",
   "enableNotificationsSubtitle": "Włącza lub wyłącza wszystkie powiadomienia",
-  "benzoPageTitle": "Odzysk benzodiazepiny",
+  "benzoPageTitle": "Benzodiazepiny",
   "benzoHeaderStarted": "Twoja podróż po powrocie do zdrowia",
   "benzoHeaderNotStarted": "Korzyści z rzucenia benzodiazepin",
   "benzoSubtitleStarted": "Śledź swój postęp i świętować każdy kamień milowy",
@@ -255,7 +255,7 @@
   "methMilestone730Title": "Dwa lata - Trwała windykacja",
   "methMilestone730Description": "Dwa lata bez metamfetaminy daje mózgowi trwały czas na uzdrowienie.",
   "addictionNitrousOxide": "Tlenek azotu",
-  "nitrousOxidePageTitle": "Odzyskiwanie tlenku azotu",
+  "nitrousOxidePageTitle": "Podtlenek azotu",
   "nitrousOxideHeaderStarted": "Twoja podróż po powrocie do zdrowia",
   "nitrousOxideHeaderNotStarted": "Gotowy do startu?",
   "nitrousOxideSubtitleStarted": "Śledź swój postęp i świętować każdy kamień milowy",
@@ -276,7 +276,7 @@
   "nitrousOxideMilestone365Description": "Cały rok wolny od tlenku azotu. Twoje sklepy B12 są restored, twój system nerwowy miał rok na uzdrowienie, i ryzyko sercowo – naczyniowe z podwyższonych homocysteiny rozwiązał. Twoje ciało działa na własną chemię ponownie.",
   "addictionCocaine": "Kokaina",
   "addictionAdderall": "Adderall",
-  "cocainePageTitle": "Odzyskiwanie kokainy",
+  "cocainePageTitle": "Kokaina",
   "cocaineHeaderStarted": "Twoja podróż po powrocie do zdrowia",
   "cocaineHeaderNotStarted": "Gotowy do startu?",
   "cocaineSubtitleStarted": "Śledź swój postęp i świętować każdy kamień milowy",
@@ -1339,7 +1339,7 @@
   "@alcoholSubtitleNotStarted": {
     "description": "Subtitle for not started alcohol quit journey"
   },
-  "vapingPageTitle": "Zwycięstwo bez wapowania",
+  "vapingPageTitle": "Bez wapowania",
   "@vapingPageTitle": {
     "description": "Page title for vaping tracking"
   },
@@ -1359,7 +1359,7 @@
   "@vapingSubtitleNotStarted": {
     "description": "Subtitle for not started vaping quit journey"
   },
-  "smokingPageTitle": "Bezwędzarnictwo bez dymu",
+  "smokingPageTitle": "Bez papierosów",
   "@smokingPageTitle": {
     "description": "Page title for smoking tracking"
   },
@@ -1379,7 +1379,7 @@
   "@smokingSubtitleNotStarted": {
     "description": "Subtitle for not started smoking quit journey"
   },
-  "marijuanaPageTitle": "Podróż wolna od konopi indyjskich",
+  "marijuanaPageTitle": "Bez konopi",
   "@marijuanaPageTitle": {
     "description": "Page title for marijuana tracking"
   },
@@ -1399,7 +1399,7 @@
   "@marijuanaSubtitleNotStarted": {
     "description": "Subtitle for not started marijuana quit journey"
   },
-  "nicotinePouchesPageTitle": "Moc wolna od pouchów",
+  "nicotinePouchesPageTitle": "Bez saszetek",
   "@nicotinePouchesPageTitle": {
     "description": "Page title for nicotine pouches tracking"
   },
@@ -1443,7 +1443,7 @@
   "@opioidsInfoBox": {
     "description": "Important information box message for opioids recovery"
   },
-  "socialMediaPageTitle": "Cyfrowy detox zachwyt",
+  "socialMediaPageTitle": "Cyfrowy detoks",
   "@socialMediaPageTitle": {
     "description": "Page title for social media tracking"
   },
@@ -1463,7 +1463,7 @@
   "@socialMediaSubtitleNotStarted": {
     "description": "Subtitle for not started social media quit journey"
   },
-  "pornographyPageTitle": "Odzyskiwanie pornografii",
+  "pornographyPageTitle": "Pornografia",
   "@pornographyPageTitle": {
     "description": "Page title for adult content tracking"
   },
@@ -2242,7 +2242,7 @@
   "@addictionMaoi": {
     "description": "MAOI addiction name"
   },
-  "maoiPageTitle": "Odzyskiwanie MAOI",
+  "maoiPageTitle": "IMAO",
   "maoiHeaderStarted": "Twoja podróż po powrocie do zdrowia",
   "maoiHeaderNotStarted": "Korzyści związane z odciąganiem IMAO",
   "maoiSubtitleStarted": "Śledź swój postęp i świętować każdy kamień milowy",

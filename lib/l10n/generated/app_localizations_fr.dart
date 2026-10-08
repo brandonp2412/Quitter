@@ -9,7 +9,7 @@ class AppLocalizationsFr extends AppLocalizations {
   AppLocalizationsFr([String locale = 'fr']) : super(locale);
 
   @override
-  String get kratomPageTitle => 'Rétablissement après le kratom';
+  String get kratomPageTitle => 'Kratom';
 
   @override
   String get kratomHeaderStarted => 'Votre parcours de rétablissement';
@@ -83,8 +83,7 @@ class AppLocalizationsFr extends AppLocalizations {
       'Une année entière sans kratom. Le système opioïde s\'est rééquilibré depuis longtemps, les envies sont rares et cette habitude n\'organise plus votre journée.';
 
   @override
-  String get gabapentinoidsPageTitle =>
-      'Rétablissement après les gabapentinoïdes';
+  String get gabapentinoidsPageTitle => 'Gabapentinoïdes';
 
   @override
   String get gabapentinoidsHeaderStarted => 'Votre parcours de rétablissement';
@@ -160,7 +159,7 @@ class AppLocalizationsFr extends AppLocalizations {
       'Six mois sans traitement. Le médicament a depuis longtemps quitté votre quotidien et tout symptôme de rebond a disparu.';
 
   @override
-  String get ghbPageTitle => 'Rétablissement après le GHB';
+  String get ghbPageTitle => 'GHB';
 
   @override
   String get ghbHeaderStarted => 'Votre parcours de rétablissement';
@@ -233,7 +232,7 @@ class AppLocalizationsFr extends AppLocalizations {
       'Six mois sans GHB. Les symptômes de sevrage persistants ont en grande partie disparu, et l\'humeur, le sommeil et la clarté mentale sont revenus à la normale.';
 
   @override
-  String get ketaminePageTitle => 'Rétablissement après la kétamine';
+  String get ketaminePageTitle => 'Kétamine';
 
   @override
   String get ketamineHeaderStarted => 'Votre parcours de rétablissement';
@@ -306,8 +305,7 @@ class AppLocalizationsFr extends AppLocalizations {
       'Une année sans kétamine. La pensée, l\'humeur et — lorsque les lésions ont été détectées tôt — la fonction vésicale ont bénéficié d\'une année entière de récupération.';
 
   @override
-  String get inhalantsPageTitle =>
-      'Rétablissement après les substances inhalées';
+  String get inhalantsPageTitle => 'Produits inhalés';
 
   @override
   String get inhalantsHeaderStarted => 'Votre parcours de rétablissement';
@@ -381,8 +379,7 @@ class AppLocalizationsFr extends AppLocalizations {
       'Deux ans d\'abstinence correspondent à la période au cours de laquelle les études ont observé une récupération importante des fonctions cérébrales — à l\'exception des dommages causés par l\'essence au plomb, qui peuvent persister.';
 
   @override
-  String get synthetic_cannabinoidsPageTitle =>
-      'Rétablissement après les cannabinoïdes de synthèse';
+  String get synthetic_cannabinoidsPageTitle => 'Cannabinoïdes synth.';
 
   @override
   String get synthetic_cannabinoidsHeaderStarted =>
@@ -467,7 +464,7 @@ class AppLocalizationsFr extends AppLocalizations {
       'Sevrage et risques aigus des cannabinoïdes de synthèse\n\nSource : Cooper (2016), Current Psychiatry Reports, PMC\n\nDes observations cliniques décrivent un sevrage après usage quotidien pouvant survenir rapidement après la dernière dose, avec forte anxiété, insomnie, nausées et vomissements, sueurs, palpitations, tremblements, agitation et envie de consommer. Des cas graves ont comporté des convulsions répétées ainsi que des problèmes cardiovasculaires ou respiratoires. La revue décrit aussi une intoxication imprévisible et parfois sévère, notamment psychose, convulsions, événements cardiaques et atteinte rénale. Des symptômes graves ou qui s’aggravent nécessitent une évaluation médicale rapide.';
 
   @override
-  String get mdmaPageTitle => 'Rétablissement après la MDMA';
+  String get mdmaPageTitle => 'MDMA';
 
   @override
   String get mdmaHeaderStarted => 'Votre parcours de rétablissement';
@@ -540,8 +537,7 @@ class AppLocalizationsFr extends AppLocalizations {
       'Une année sans MDMA. La fonction sérotoninergique et l\'humeur ont eu beaucoup de temps pour se rétablir, et l\'anxiété liée à la consommation disparaît généralement à ce stade.';
 
   @override
-  String get steroidsPageTitle =>
-      'Rétablissement après les stéroïdes anabolisants';
+  String get steroidsPageTitle => 'Stéroïdes anabolisants';
 
   @override
   String get steroidsHeaderStarted => 'Votre parcours de rétablissement';
@@ -729,7 +725,7 @@ class AppLocalizationsFr extends AppLocalizations {
       'Activer ou désactiver toutes les notifications';
 
   @override
-  String get benzoPageTitle => 'Rétablissement après les benzodiazépines';
+  String get benzoPageTitle => 'Benzodiazépines';
 
   @override
   String get benzoHeaderStarted => 'Votre parcours de rétablissement';
@@ -822,7 +818,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get addictionBenzos => 'Benzodiazépines';
 
   @override
-  String get methPageTitle => 'Rétablissement après la méthamphétamine';
+  String get methPageTitle => 'Méthamphétamine';
 
   @override
   String get methHeaderStarted => 'Votre parcours de rétablissement';
@@ -908,8 +904,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get addictionNitrousOxide => 'Protoxyde d\'azote';
 
   @override
-  String get nitrousOxidePageTitle =>
-      'Rétablissement après le protoxyde d\'azote';
+  String get nitrousOxidePageTitle => 'Protoxyde d\'azote';
 
   @override
   String get nitrousOxideHeaderStarted => 'Votre parcours de rétablissement';
@@ -985,7 +980,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get addictionAdderall => 'Adderall';
 
   @override
-  String get cocainePageTitle => 'Rétablissement après la cocaïne';
+  String get cocainePageTitle => 'Cocaïne';
 
   @override
   String get cocaineHeaderStarted => 'Votre parcours de rétablissement';
@@ -1843,7 +1838,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get whatsNewEnjoyingButton => 'Vous aimez l\'application ?';
 
   @override
-  String get enjoyingPageTitle => 'Vous aimez l\'application ?';
+  String get enjoyingPageTitle => 'Vous aimez l\'appli ?';
 
   @override
   String get enjoyingLeaveReview => 'Laisser un avis';
@@ -1896,7 +1891,7 @@ class AppLocalizationsFr extends AppLocalizations {
       'Prêt pour une version plus lumineuse de vous-même ? ✨';
 
   @override
-  String get vapingPageTitle => 'Victoire sans vapotage';
+  String get vapingPageTitle => 'Sans vapotage';
 
   @override
   String get vapingHeaderStarted => 'Un horizon plus clair !';
@@ -1911,7 +1906,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get vapingSubtitleNotStarted => 'Prêt à laisser tomber la vape ? ✨';
 
   @override
-  String get smokingPageTitle => 'Sans fumée et en plein essor';
+  String get smokingPageTitle => 'Sans fumée';
 
   @override
   String get smokingHeaderStarted => 'Respirez librement !';
@@ -1928,7 +1923,7 @@ class AppLocalizationsFr extends AppLocalizations {
       'Prêt à reprendre votre santé en main ? ✨';
 
   @override
-  String get marijuanaPageTitle => 'Parcours sans cannabis';
+  String get marijuanaPageTitle => 'Sans cannabis';
 
   @override
   String get marijuanaHeaderStarted => 'L\'esprit s\'éclaircit !';
@@ -1945,7 +1940,7 @@ class AppLocalizationsFr extends AppLocalizations {
       'Prêt pour un lendemain plus clair ? 🌱';
 
   @override
-  String get nicotinePouchesPageTitle => 'La force sans sachets';
+  String get nicotinePouchesPageTitle => 'Sachets de nicotine';
 
   @override
   String get nicotinePouchesHeaderStarted => 'Frais et libre !';
@@ -1962,7 +1957,7 @@ class AppLocalizationsFr extends AppLocalizations {
       'Prêt à laisser tomber les sachets ? 🚀';
 
   @override
-  String get opioidsPageTitle => 'Chemin vers la sérénité';
+  String get opioidsPageTitle => 'Vers la sérénité';
 
   @override
   String get opioidsHeaderStarted => 'Plus fort chaque jour !';
@@ -1982,7 +1977,7 @@ class AppLocalizationsFr extends AppLocalizations {
       'Le rétablissement est un processus médical. Consultez toujours des professionnels de santé.';
 
   @override
-  String get socialMediaPageTitle => 'Le plaisir d\'une détox numérique';
+  String get socialMediaPageTitle => 'Détox numérique';
 
   @override
   String get socialMediaHeaderStarted => 'Déconnectez-vous et profitez !';
@@ -1999,7 +1994,7 @@ class AppLocalizationsFr extends AppLocalizations {
       'Prêt à reprendre votre temps ? 🚀';
 
   @override
-  String get pornographyPageTitle => 'Rétablissement face à la pornographie';
+  String get pornographyPageTitle => 'Pornographie';
 
   @override
   String get pornographyHeaderStarted => 'Construire un contrôle durable';
@@ -2659,7 +2654,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get addictionSsri => 'ISRS';
 
   @override
-  String get ssriPageTitle => 'Rétablissement après les ISRS';
+  String get ssriPageTitle => 'ISRS';
 
   @override
   String get ssriHeaderStarted => 'Votre parcours de rétablissement';
@@ -2739,7 +2734,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get addictionSnri => 'IRSN';
 
   @override
-  String get snriPageTitle => 'Rétablissement après les IRSN';
+  String get snriPageTitle => 'IRSN';
 
   @override
   String get snriHeaderStarted => 'Votre parcours de rétablissement';
@@ -2819,7 +2814,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get addictionTca => 'ATC';
 
   @override
-  String get tcaPageTitle => 'Rétablissement après les ATC';
+  String get tcaPageTitle => 'ATC';
 
   @override
   String get tcaHeaderStarted => 'Votre parcours de rétablissement';
@@ -2899,7 +2894,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get addictionMaoi => 'IMAO';
 
   @override
-  String get maoiPageTitle => 'Rétablissement après les IMAO';
+  String get maoiPageTitle => 'IMAO';
 
   @override
   String get maoiHeaderStarted => 'Votre parcours de rétablissement';

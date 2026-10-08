@@ -1,5 +1,5 @@
 {
-  "kratomPageTitle": "Recuperación del kratom",
+  "kratomPageTitle": "Kratom",
   "kratomHeaderStarted": "Tu camino de recuperación",
   "kratomHeaderNotStarted": "Beneficios de dejar el kratom",
   "kratomSubtitleStarted": "Sigue tu progreso y celebra cada hito",
@@ -20,7 +20,7 @@
   "kratomMilestone90Description": "Tres meses de abstinencia dan a los circuitos cerebrales de recompensa y estrés tiempo prolongado para volver a regularse. El ánimo, la concentración y la motivación son notablemente más estables.",
   "kratomMilestone365Title": "Un año libre",
   "kratomMilestone365Description": "Un año completo sin kratom. El sistema opioide lleva tiempo regulado de nuevo, los deseos de consumir son poco frecuentes y el hábito ya no organiza tu día.",
-  "gabapentinoidsPageTitle": "Recuperación de gabapentinoides",
+  "gabapentinoidsPageTitle": "Gabapentinoides",
   "gabapentinoidsHeaderStarted": "Tu camino de recuperación",
   "gabapentinoidsHeaderNotStarted": "Beneficios de dejar la gabapentina / pregabalina",
   "gabapentinoidsSubtitleStarted": "Sigue tu progreso y celebra cada hito",
@@ -41,7 +41,7 @@
   "gabapentinoidsMilestone90Description": "Tras tres meses sin consumir, el sistema nervioso se ha readaptado por completo. La mayoría de las personas se siente estable, con sueño y ánimo normales.",
   "gabapentinoidsMilestone180Title": "Medio año libre",
   "gabapentinoidsMilestone180Description": "Seis meses sin consumir. El fármaco hace tiempo que dejó de formar parte de tu rutina y cualquier síntoma de rebote se ha resuelto.",
-  "ghbPageTitle": "Recuperación del GHB",
+  "ghbPageTitle": "GHB",
   "ghbHeaderStarted": "Tu camino de recuperación",
   "ghbHeaderNotStarted": "Beneficios de dejar el GHB",
   "ghbSubtitleStarted": "Sigue tu progreso y celebra cada hito",
@@ -62,7 +62,7 @@
   "ghbMilestone90Description": "A los tres meses, la ansiedad, los problemas de sueño y de ánimo que persistían van disminuyendo mientras se estabiliza el sistema calmante GABA del cerebro.",
   "ghbMilestone180Title": "Medio año libre",
   "ghbMilestone180Description": "Seis meses sin GHB. La abstinencia persistente se ha resuelto en gran medida y el ánimo, el sueño y la claridad mental han vuelto a la normalidad.",
-  "ketaminePageTitle": "Recuperación de la ketamina",
+  "ketaminePageTitle": "Ketamina",
   "ketamineHeaderStarted": "Tu camino de recuperación",
   "ketamineHeaderNotStarted": "Beneficios de dejar la ketamina",
   "ketamineSubtitleStarted": "Sigue tu progreso y celebra cada hito",
@@ -83,7 +83,7 @@
   "ketamineMilestone180Description": "Seis meses sin consumir. Los síntomas de la vejiga han tenido más tiempo para mejorar y la atracción psicológica de la ketamina se ha debilitado considerablemente.",
   "ketamineMilestone365Title": "Un año libre",
   "ketamineMilestone365Description": "Un año sin ketamina. El pensamiento, el ánimo y, cuando el daño vesical se detectó pronto, la función de la vejiga han tenido un año completo para recuperarse.",
-  "inhalantsPageTitle": "Recuperación de inhalantes",
+  "inhalantsPageTitle": "Inhalantes",
   "inhalantsHeaderStarted": "Tu camino de recuperación",
   "inhalantsHeaderNotStarted": "Beneficios de dejar los inhalantes",
   "inhalantsSubtitleStarted": "Sigue tu progreso y celebra cada hito",
@@ -104,7 +104,7 @@
   "inhalantsMilestone365Description": "Un año de abstinencia aporta una recuperación neurológica considerable a la mayoría de las personas, y se esperan nuevas mejoras durante el segundo año.",
   "inhalantsMilestone730Title": "Dos años — recuperación a largo plazo",
   "inhalantsMilestone730Description": "Dos años de abstinencia es el periodo en el que los estudios han encontrado una recuperación considerable de la función cerebral, salvo en los daños causados por gasolina con plomo, que pueden persistir.",
-  "synthetic_cannabinoidsPageTitle": "Recuperación de cannabinoides sintéticos",
+  "synthetic_cannabinoidsPageTitle": "Cannabinoides sint.",
   "synthetic_cannabinoidsHeaderStarted": "Tu camino de recuperación",
   "synthetic_cannabinoidsHeaderNotStarted": "Beneficios de dejar los cannabinoides sintéticos",
   "synthetic_cannabinoidsSubtitleStarted": "Sigue tu progreso y celebra cada hito",
@@ -127,7 +127,7 @@
   "synthetic_cannabinoidsMilestone180Description": "Medio año libre. Seis meses sin cannabinoides sintéticos es enorme: seis meses sin asumir otra vez sus riesgos agudos impredecibles.",
   "synthetic_cannabinoidsWithdrawalReference": "Abstinencia de cannabinoides sintéticos\n\nFuente: Craft et al. (2022), Psychopharmacology, PMC\n\nEntre 284 personas que habían usado agonistas sintéticos de los receptores cannabinoides más de diez veces el año anterior e intentaron dejarlos, el 82,7 % informó al menos un síntoma de abstinencia tras más de un día sin consumo. Los más frecuentes fueron problemas de sueño (59,2 %), irritabilidad (55,6 %) y ánimo bajo (54,2 %); también se informaron sudoración, palpitaciones, deseo de consumir, agitación y temblores. Un consumo más frecuente e intenso se relacionó con más síntomas. En la comparación directa, la abstinencia de cannabinoides sintéticos se valoró como más grave que la del cannabis de alta potencia.",
   "synthetic_cannabinoidsRiskReference": "Abstinencia y riesgo agudo de los cannabinoides sintéticos\n\nFuente: Cooper (2016), Current Psychiatry Reports, PMC\n\nLos informes clínicos describen abstinencia tras el uso diario que puede aparecer poco después de la última dosis, con ansiedad intensa, insomnio, náuseas y vómitos, sudoración, palpitaciones, temblor, agitación y deseo de consumir. Los casos graves han incluido convulsiones recurrentes y problemas cardiovasculares o respiratorios. La revisión también describe una intoxicación impredecible y a veces grave, con psicosis, convulsiones, eventos cardíacos y lesión renal. Los síntomas graves o en aumento requieren valoración médica rápida.",
-  "mdmaPageTitle": "Recuperación del MDMA",
+  "mdmaPageTitle": "MDMA",
   "mdmaHeaderStarted": "Tu camino de recuperación",
   "mdmaHeaderNotStarted": "Beneficios de dejar el MDMA",
   "mdmaSubtitleStarted": "Sigue tu progreso y celebra cada hito",
@@ -148,7 +148,7 @@
   "mdmaMilestone90Description": "Tres meses de abstinencia favorecen la recuperación continua del sistema de serotonina. El ánimo y el sueño son estables; la ansiedad disminuye durante los meses siguientes.",
   "mdmaMilestone365Title": "Un año libre",
   "mdmaMilestone365Description": "Un año sin MDMA. La función de la serotonina y el ánimo han tenido mucho tiempo para recuperarse, y la ansiedad relacionada con el consumo suele haberse resuelto a estas alturas.",
-  "steroidsPageTitle": "Recuperación de esteroides anabólicos",
+  "steroidsPageTitle": "Esteroides anabólicos",
   "steroidsHeaderStarted": "Tu camino de recuperación",
   "steroidsHeaderNotStarted": "Beneficios de dejar los esteroides anabólicos",
   "steroidsSubtitleStarted": "Sigue tu progreso y celebra cada hito",
@@ -206,7 +206,7 @@
   "showAllSubtitle": "Activa o desactiva todos los elementos de la pantalla principal",
   "enableNotifications": "Activar todas las notificaciones",
   "enableNotificationsSubtitle": "Activa o desactiva todas las notificaciones",
-  "benzoPageTitle": "Recuperación de benzodiacepinas",
+  "benzoPageTitle": "Benzodiacepinas",
   "benzoHeaderStarted": "Tu camino de recuperación",
   "benzoHeaderNotStarted": "Beneficios de dejar las benzodiacepinas",
   "benzoSubtitleStarted": "Sigue tu progreso y celebra cada hito",
@@ -231,7 +231,7 @@
   "benzoMilestone1095Description": "A los tres años, el largo periodo de abstinencia queda muy atrás para la mayoría. El sueño, el ánimo, la memoria y la atención han tenido años para recuperarse, y la vida cotidiana suele ser mucho mejor que durante el consumo prolongado.",
   "addictionMeth": "Metanfetamina",
   "addictionBenzos": "Benzodiacepinas",
-  "methPageTitle": "Recuperación de la metanfetamina",
+  "methPageTitle": "Metanfetamina",
   "methHeaderStarted": "Tu camino de recuperación",
   "methHeaderNotStarted": "Deja la pipa",
   "methSubtitleStarted": "Sigue tu progreso y celebra cada hito",
@@ -255,7 +255,7 @@
   "methMilestone730Title": "Dos años - recuperación sostenida",
   "methMilestone730Description": "Dos años sin metanfetamina dan al cerebro un tiempo prolongado para recuperarse. La atención, el ánimo, la memoria y la calidad de vida diaria continúan mejorando.",
   "addictionNitrousOxide": "Óxido nitroso",
-  "nitrousOxidePageTitle": "Recuperación del óxido nitroso",
+  "nitrousOxidePageTitle": "Óxido nitroso",
   "nitrousOxideHeaderStarted": "Tu camino de recuperación",
   "nitrousOxideHeaderNotStarted": "¿Listo para empezar?",
   "nitrousOxideSubtitleStarted": "Sigue tu progreso y celebra cada hito",
@@ -276,7 +276,7 @@
   "nitrousOxideMilestone365Description": "Un año completo sin óxido nitroso. Tus reservas de vitamina B12 se han restablecido, tu sistema nervioso ha tenido un año para recuperarse y el riesgo cardiovascular asociado a una homocisteína elevada se ha resuelto. Tu organismo vuelve a funcionar sin la interferencia del óxido nitroso.",
   "addictionCocaine": "Cocaína",
   "addictionAdderall": "Adderall",
-  "cocainePageTitle": "Recuperación de la cocaína",
+  "cocainePageTitle": "Cocaína",
   "cocaineHeaderStarted": "Tu camino de recuperación",
   "cocaineHeaderNotStarted": "¿Listo para empezar?",
   "cocaineSubtitleStarted": "Sigue tu progreso y celebra cada hito",
@@ -1273,7 +1273,7 @@
   "@whatsNewEnjoyingButton": {
     "description": "Button text to go to enjoying page from what's new"
   },
-  "enjoyingPageTitle": "¿Te gusta la aplicación?",
+  "enjoyingPageTitle": "¿Te gusta la app?",
   "@enjoyingPageTitle": {
     "description": "Title for enjoying the app page"
   },
@@ -1356,7 +1356,7 @@
   "@vapingSubtitleNotStarted": {
     "description": "Subtitle for not started vaping quit journey"
   },
-  "smokingPageTitle": "Sin humo y en ascenso",
+  "smokingPageTitle": "Sin humo",
   "@smokingPageTitle": {
     "description": "Page title for smoking tracking"
   },
@@ -1376,7 +1376,7 @@
   "@smokingSubtitleNotStarted": {
     "description": "Subtitle for not started smoking quit journey"
   },
-  "marijuanaPageTitle": "Camino sin cannabis",
+  "marijuanaPageTitle": "Sin cannabis",
   "@marijuanaPageTitle": {
     "description": "Page title for marijuana tracking"
   },
@@ -1416,7 +1416,7 @@
   "@nicotinePouchesSubtitleNotStarted": {
     "description": "Subtitle for not started nicotine pouches quit journey"
   },
-  "opioidsPageTitle": "Camino hacia la calma",
+  "opioidsPageTitle": "Camino a la calma",
   "@opioidsPageTitle": {
     "description": "Page title for opioids tracking"
   },
@@ -1440,7 +1440,7 @@
   "@opioidsInfoBox": {
     "description": "Important information box message for opioids recovery"
   },
-  "socialMediaPageTitle": "El placer de la desintoxicación digital",
+  "socialMediaPageTitle": "Detox digital",
   "@socialMediaPageTitle": {
     "description": "Page title for social media tracking"
   },
@@ -1460,7 +1460,7 @@
   "@socialMediaSubtitleNotStarted": {
     "description": "Subtitle for not started social media quit journey"
   },
-  "pornographyPageTitle": "Recuperación de la pornografía",
+  "pornographyPageTitle": "Pornografía",
   "@pornographyPageTitle": {
     "description": "Page title for adult content tracking"
   },
@@ -2164,7 +2164,7 @@
   "@addictionSsri": {
     "description": "SSRI addiction name"
   },
-  "ssriPageTitle": "Recuperación de ISRS",
+  "ssriPageTitle": "ISRS",
   "ssriHeaderStarted": "Tu camino de recuperación",
   "ssriHeaderNotStarted": "Beneficios de reducir gradualmente los ISRS",
   "ssriSubtitleStarted": "Sigue tu progreso y celebra cada hito",
@@ -2189,7 +2189,7 @@
   "@addictionSnri": {
     "description": "SNRI addiction name"
   },
-  "snriPageTitle": "Recuperación de IRSN",
+  "snriPageTitle": "IRSN",
   "snriHeaderStarted": "Tu camino de recuperación",
   "snriHeaderNotStarted": "Beneficios de reducir gradualmente los IRSN",
   "snriSubtitleStarted": "Sigue tu progreso y celebra cada hito",
@@ -2214,7 +2214,7 @@
   "@addictionTca": {
     "description": "Tricyclic antidepressant addiction name"
   },
-  "tcaPageTitle": "Recuperación de antidepresivos tricíclicos",
+  "tcaPageTitle": "Tricíclicos",
   "tcaHeaderStarted": "Tu camino de recuperación",
   "tcaHeaderNotStarted": "Beneficios de reducir gradualmente los tricíclicos",
   "tcaSubtitleStarted": "Sigue tu progreso y celebra cada hito",
@@ -2239,7 +2239,7 @@
   "@addictionMaoi": {
     "description": "MAOI addiction name"
   },
-  "maoiPageTitle": "Recuperación de IMAO",
+  "maoiPageTitle": "IMAO",
   "maoiHeaderStarted": "Tu camino de recuperación",
   "maoiHeaderNotStarted": "Beneficios de reducir gradualmente los IMAO",
   "maoiSubtitleStarted": "Sigue tu progreso y celebra cada hito",

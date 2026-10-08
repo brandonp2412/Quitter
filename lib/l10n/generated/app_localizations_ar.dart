@@ -369,7 +369,7 @@ class AppLocalizationsAr extends AppLocalizations {
       'إن عامين من الامتناع عن ممارسة الجنس هي النافذة التي وجدت فيها الدراسات انتعاشًا كبيرًا في وظائف المخ، باستثناء الأضرار الناجمة عن البنزين الذي يحتوي على الرصاص، والذي يمكن أن يستمر.';
 
   @override
-  String get synthetic_cannabinoidsPageTitle => 'استعادة القنب الاصطناعية';
+  String get synthetic_cannabinoidsPageTitle => 'كانابينويدات صناعية';
 
   @override
   String get synthetic_cannabinoidsHeaderStarted => 'رحلة التعافي الخاصة بك';
@@ -451,7 +451,7 @@ class AppLocalizationsAr extends AppLocalizations {
       'انسحاب شبائه القنب الاصطناعية والمخاطر الحادة\n\nالمصدر: Cooper (2016)، Current Psychiatry Reports، PMC\n\nتصف التقارير السريرية انسحابًا بعد الاستخدام اليومي قد يبدأ سريعًا بعد الجرعة الأخيرة، مع قلق شديد وأرق وغثيان وقيء وتعرق وخفقان ورعشة وهياج ورغبة في التعاطي. وشملت الحالات الشديدة نوبات اختلاج متكررة ومشكلات قلبية وعائية أو تنفسية. كما تصف المراجعة التسمم بأنه غير متوقع وقد يكون شديدًا، بما في ذلك الذهان ونوبات الاختلاج والحوادث القلبية وإصابة الكلى. الأعراض الشديدة أو المتفاقمة تحتاج إلى تقييم طبي سريع.';
 
   @override
-  String get mdmaPageTitle => 'استرداد عقار إم دي إم إيه';
+  String get mdmaPageTitle => 'إم دي إم إيه';
 
   @override
   String get mdmaHeaderStarted => 'رحلة التعافي الخاصة بك';
@@ -522,7 +522,7 @@ class AppLocalizationsAr extends AppLocalizations {
       'سنة خالية من عقار إم دي إم إيه. لقد استغرقت وظيفة السيروتونين والمزاج وقتًا أطول للتعافي، وعادةً ما يتم حل القلق المرتبط بالاستخدام الآن.';
 
   @override
-  String get steroidsPageTitle => 'استعادة الستيرويد الابتنائية';
+  String get steroidsPageTitle => 'ستيرويدات بنائية';
 
   @override
   String get steroidsHeaderStarted => 'رحلة التعافي الخاصة بك';
@@ -696,7 +696,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get enableNotificationsSubtitle => 'تشغيل أو إيقاف جميع الإشعارات';
 
   @override
-  String get benzoPageTitle => 'استعادة البنزوديازيبين';
+  String get benzoPageTitle => 'بنزوديازيبينات';
 
   @override
   String get benzoHeaderStarted => 'رحلة التعافي الخاصة بك';
@@ -780,7 +780,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get addictionBenzos => 'بنزوس';
 
   @override
-  String get methPageTitle => 'استرداد الميثامفيتامين';
+  String get methPageTitle => 'ميثامفيتامين';
 
   @override
   String get methHeaderStarted => 'رحلة التعافي الخاصة بك';
@@ -861,7 +861,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get addictionNitrousOxide => 'أكسيد النيتروز';
 
   @override
-  String get nitrousOxidePageTitle => 'استعادة أكسيد النيتروز';
+  String get nitrousOxidePageTitle => 'أكسيد النيتروز';
 
   @override
   String get nitrousOxideHeaderStarted => 'رحلة التعافي الخاصة بك';
@@ -1840,7 +1840,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get alcoholSubtitleNotStarted => 'على استعداد لأكثر إشراقا لك؟ ✨';
 
   @override
-  String get vapingPageTitle => 'انتصار خالي من التدخين الإلكتروني';
+  String get vapingPageTitle => 'بلا سجائر إلكترونية';
 
   @override
   String get vapingHeaderStarted => 'سماء صافية أمامك!';
@@ -1855,7 +1855,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get vapingSubtitleNotStarted => 'على استعداد للتخلي عن vape؟ ✨';
 
   @override
-  String get smokingPageTitle => 'خالية من التدخين وارتفاع';
+  String get smokingPageTitle => 'بلا تدخين';
 
   @override
   String get smokingHeaderStarted => 'تنفس بسهولة!';
@@ -1920,7 +1920,7 @@ class AppLocalizationsAr extends AppLocalizations {
       'التعافي هو عملية طبية. استشر دائمًا المتخصصين في الرعاية الصحية.';
 
   @override
-  String get socialMediaPageTitle => 'فرحة التخلص من السموم الرقمية';
+  String get socialMediaPageTitle => 'توازن رقمي';
 
   @override
   String get socialMediaHeaderStarted => 'افصل واللعب!';
@@ -1935,7 +1935,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get socialMediaSubtitleNotStarted => 'هل أنت مستعد لاستعادة وقتك؟ 🚀';
 
   @override
-  String get pornographyPageTitle => 'استعادة المواد الإباحية';
+  String get pornographyPageTitle => 'المواد الإباحية';
 
   @override
   String get pornographyHeaderStarted => 'بناء السيطرة الدائمة';

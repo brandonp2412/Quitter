@@ -255,7 +255,7 @@ abstract class AppLocalizations {
   /// No description provided for @gabapentinoidsPageTitle.
   ///
   /// In en, this message translates to:
-  /// **'Gabapentinoid Recovery'**
+  /// **'Gabapentinoids'**
   String get gabapentinoidsPageTitle;
 
   /// No description provided for @gabapentinoidsHeaderStarted.
@@ -759,7 +759,7 @@ abstract class AppLocalizations {
   /// No description provided for @synthetic_cannabinoidsPageTitle.
   ///
   /// In en, this message translates to:
-  /// **'Synthetic Cannabinoids Recovery'**
+  /// **'Synthetic Cannabinoids'**
   String get synthetic_cannabinoidsPageTitle;
 
   /// No description provided for @synthetic_cannabinoidsHeaderStarted.
@@ -1023,7 +1023,7 @@ abstract class AppLocalizations {
   /// No description provided for @steroidsPageTitle.
   ///
   /// In en, this message translates to:
-  /// **'Anabolic Steroid Recovery'**
+  /// **'Anabolic Steroids'**
   String get steroidsPageTitle;
 
   /// No description provided for @steroidsHeaderStarted.
@@ -1329,7 +1329,7 @@ abstract class AppLocalizations {
   /// No description provided for @benzoPageTitle.
   ///
   /// In en, this message translates to:
-  /// **'Benzodiazepine Recovery'**
+  /// **'Benzodiazepines'**
   String get benzoPageTitle;
 
   /// No description provided for @benzoHeaderStarted.
@@ -1623,7 +1623,7 @@ abstract class AppLocalizations {
   /// No description provided for @nitrousOxidePageTitle.
   ///
   /// In en, this message translates to:
-  /// **'Nitrous Oxide Recovery'**
+  /// **'Nitrous Oxide'**
   String get nitrousOxidePageTitle;
 
   /// No description provided for @nitrousOxideHeaderStarted.
@@ -3285,7 +3285,7 @@ abstract class AppLocalizations {
   /// Page title for smoking tracking
   ///
   /// In en, this message translates to:
-  /// **'Smoke-free & soaring'**
+  /// **'Smoke-free'**
   String get smokingPageTitle;
 
   /// Header for started smoking quit journey
@@ -3315,7 +3315,7 @@ abstract class AppLocalizations {
   /// Page title for marijuana tracking
   ///
   /// In en, this message translates to:
-  /// **'Cannabis-free journey'**
+  /// **'Cannabis-free'**
   String get marijuanaPageTitle;
 
   /// Header for started marijuana quit journey
@@ -3411,7 +3411,7 @@ abstract class AppLocalizations {
   /// Page title for social media tracking
   ///
   /// In en, this message translates to:
-  /// **'Digital detox delight'**
+  /// **'Digital Detox'**
   String get socialMediaPageTitle;
 
   /// Header for started social media quit journey
@@ -3441,7 +3441,7 @@ abstract class AppLocalizations {
   /// Page title for adult content tracking
   ///
   /// In en, this message translates to:
-  /// **'Pornography Recovery'**
+  /// **'Pornography'**
   String get pornographyPageTitle;
 
   /// Header for started adult content quit journey

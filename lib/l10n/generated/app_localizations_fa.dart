@@ -81,7 +81,7 @@ class AppLocalizationsFa extends AppLocalizations {
       'یک سال کامل بدون کراتوم. سامانه اپیوئیدی مدت‌هاست دوباره تنظیم شده، میل به مصرف کم‌تکرار است و این عادت دیگر برنامه روزانه شما را تعیین نمی‌کند.';
 
   @override
-  String get gabapentinoidsPageTitle => 'بهبودی از گاباپنتینوئیدها';
+  String get gabapentinoidsPageTitle => 'گاباپنتینوئیدها';
 
   @override
   String get gabapentinoidsHeaderStarted => 'مسیر بهبودی شما';
@@ -300,7 +300,7 @@ class AppLocalizationsFa extends AppLocalizations {
       'یک سال بدون کتامین. تفکر، خلق و — اگر آسیب مثانه زود تشخیص داده شده باشد — عملکرد مثانه یک سال کامل فرصت بهبود داشته‌اند.';
 
   @override
-  String get inhalantsPageTitle => 'بهبودی از مواد استنشاقی';
+  String get inhalantsPageTitle => 'مواد استنشاقی';
 
   @override
   String get inhalantsHeaderStarted => 'مسیر بهبودی شما';
@@ -373,8 +373,7 @@ class AppLocalizationsFa extends AppLocalizations {
       'دو سال پرهیز بازه‌ای است که پژوهش‌ها در آن بهبود چشمگیر عملکرد مغز را یافته‌اند — به‌جز آسیب ناشی از بنزین سرب‌دار که می‌تواند پایدار بماند.';
 
   @override
-  String get synthetic_cannabinoidsPageTitle =>
-      'بهبودی از کانابینوئیدهای مصنوعی';
+  String get synthetic_cannabinoidsPageTitle => 'کانابینوئیدهای مصنوعی';
 
   @override
   String get synthetic_cannabinoidsHeaderStarted => 'مسیر بهبودی شما';
@@ -528,7 +527,7 @@ class AppLocalizationsFa extends AppLocalizations {
       'یک سال بدون MDMA. عملکرد سروتونین و خلق زمان زیادی برای بهبود داشته‌اند و اضطراب مرتبط با مصرف معمولاً تا این زمان برطرف می‌شود.';
 
   @override
-  String get steroidsPageTitle => 'بهبودی از استروئیدهای آنابولیک';
+  String get steroidsPageTitle => 'استروئیدهای آنابولیک';
 
   @override
   String get steroidsHeaderStarted => 'مسیر بهبودی شما';
@@ -702,7 +701,7 @@ class AppLocalizationsFa extends AppLocalizations {
   String get enableNotificationsSubtitle => 'روشن یا خاموش‌کردن همه اعلان‌ها';
 
   @override
-  String get benzoPageTitle => 'بهبودی از بنزودیازپین‌ها';
+  String get benzoPageTitle => 'بنزودیازپین‌ها';
 
   @override
   String get benzoHeaderStarted => 'مسیر بهبودی شما';
@@ -869,7 +868,7 @@ class AppLocalizationsFa extends AppLocalizations {
   String get addictionNitrousOxide => 'نیتروس اکساید';
 
   @override
-  String get nitrousOxidePageTitle => 'بهبودی از نیتروس اکساید';
+  String get nitrousOxidePageTitle => 'نیتروس اکساید';
 
   @override
   String get nitrousOxideHeaderStarted => 'مسیر بهبودی شما';
@@ -1874,7 +1873,7 @@ class AppLocalizationsFa extends AppLocalizations {
   String get marijuanaSubtitleNotStarted => 'برای فردایی شفاف‌تر آماده‌اید؟ 🌱';
 
   @override
-  String get nicotinePouchesPageTitle => 'قدرت بدون کیسه نیکوتین';
+  String get nicotinePouchesPageTitle => 'بدون کیسه نیکوتین';
 
   @override
   String get nicotinePouchesHeaderStarted => 'تازه و آزاد!';

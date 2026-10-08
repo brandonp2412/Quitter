@@ -20,7 +20,7 @@
   "kratomMilestone90Description": "การงดเว้นเป็นเวลาสามเดือนจะทำให้รางวัลของสมองและวงจรความเครียดยืดเวลาออกไปในการควบคุมใหม่อารมณ์ สมาธิ และแรงจูงใจจะมั่นคงขึ้นอย่างเห็นได้ชัด",
   "kratomMilestone365Title": "ฟรีหนึ่งปี",
   "kratomMilestone365Description": "หนึ่งปีเต็มฟรีกระท่อมระบบฝิ่นได้รับการควบคุมใหม่มายาวนาน ความอยากเกิดขึ้นไม่บ่อยนัก และนิสัยไม่ส่งผลต่อวันของคุณอีกต่อไป",
-  "gabapentinoidsPageTitle": "การกู้คืนกาบาเพนตินอยด์",
+  "gabapentinoidsPageTitle": "กาบาเพนตินอยด์",
   "gabapentinoidsHeaderStarted": "การเดินทางเพื่อการฟื้นฟูของคุณ",
   "gabapentinoidsHeaderNotStarted": "ประโยชน์ของการเลิกใช้ยากาบาเพนติน / พรีกาบาลิน",
   "gabapentinoidsSubtitleStarted": "ติดตามความคืบหน้าของคุณและเฉลิมฉลองแต่ละเหตุการณ์สำคัญ",
@@ -104,7 +104,7 @@
   "inhalantsMilestone365Description": "การงดเว้นหนึ่งปีทำให้คนส่วนใหญ่ฟื้นตัวได้มาก โดยคาดว่าจะเพิ่มขึ้นอย่างต่อเนื่องจนถึงปีที่สอง",
   "inhalantsMilestone730Title": "สองปี — การรักษาระยะยาว",
   "inhalantsMilestone730Description": "การงดเว้นเป็นเวลา 2 ปีเป็นช่วงที่การศึกษาพบว่าการทำงานของสมองฟื้นตัวได้อย่างมาก นอกเหนือจากความเสียหายจากน้ำมันที่มีสารตะกั่วซึ่งอาจยังคงอยู่",
-  "synthetic_cannabinoidsPageTitle": "การกู้คืนสารแคนนาบินอยด์สังเคราะห์",
+  "synthetic_cannabinoidsPageTitle": "แคนนาบินอยด์สังเคราะห์",
   "synthetic_cannabinoidsHeaderStarted": "การเดินทางเพื่อการฟื้นฟูของคุณ",
   "synthetic_cannabinoidsHeaderNotStarted": "ประโยชน์ของการเลิกใช้สารแคนนาบินอยด์สังเคราะห์",
   "synthetic_cannabinoidsSubtitleStarted": "ติดตามความคืบหน้าของคุณและเฉลิมฉลองแต่ละเหตุการณ์สำคัญ",
@@ -148,7 +148,7 @@
   "mdmaMilestone90Description": "การงดเว้นสามเดือนช่วยให้ระบบเซโรโทนินฟื้นตัวได้อย่างต่อเนื่องอารมณ์และการนอนหลับมีเสถียรภาพความวิตกกังวลบรรเทาลงในเดือนต่อๆ ไป",
   "mdmaMilestone365Title": "ฟรีหนึ่งปี",
   "mdmaMilestone365Description": "หนึ่งปีปราศจาก MDMAฟังก์ชันและอารมณ์ของเซโรโทนินมีเวลาฟื้นตัวนานขึ้น และความวิตกกังวลเกี่ยวกับการใช้มักจะคลี่คลายลงแล้ว",
-  "steroidsPageTitle": "การกู้คืนสเตียรอยด์อะนาโบลิก",
+  "steroidsPageTitle": "สเตียรอยด์อะนาโบลิก",
   "steroidsHeaderStarted": "การเดินทางเพื่อการฟื้นฟูของคุณ",
   "steroidsHeaderNotStarted": "ประโยชน์ของการเลิกใช้สเตียรอยด์อะนาโบลิก",
   "steroidsSubtitleStarted": "ติดตามความคืบหน้าของคุณและเฉลิมฉลองแต่ละเหตุการณ์สำคัญ",
@@ -206,7 +206,7 @@
   "showAllSubtitle": "เปิดหรือปิดใช้งานรายการหน้าจอหลักทั้งหมด",
   "enableNotifications": "เปิดใช้งานการแจ้งเตือนทั้งหมด",
   "enableNotificationsSubtitle": "เปิดหรือปิดการแจ้งเตือนทั้งหมด",
-  "benzoPageTitle": "การกู้คืนเบนโซไดอะซีพีน",
+  "benzoPageTitle": "เบนโซไดอะซีพีน",
   "benzoHeaderStarted": "การเดินทางเพื่อการฟื้นฟูของคุณ",
   "benzoHeaderNotStarted": "ประโยชน์ของการเลิกใช้ยาเบนโซ",
   "benzoSubtitleStarted": "ติดตามความคืบหน้าของคุณและเฉลิมฉลองแต่ละเหตุการณ์สำคัญ",
@@ -255,7 +255,7 @@
   "methMilestone730Title": "สองปี - การฟื้นฟูอย่างยั่งยืน",
   "methMilestone730Description": "การไม่ใช้ยา 2 ปีทำให้สมองมีเวลาในการรักษาต่อไปความสนใจ อารมณ์ ความทรงจำ และคุณภาพชีวิตในแต่ละวันดีขึ้นอย่างต่อเนื่อง",
   "addictionNitrousOxide": "ไนตรัสออกไซด์",
-  "nitrousOxidePageTitle": "การกู้คืนไนตรัสออกไซด์",
+  "nitrousOxidePageTitle": "ไนตรัสออกไซด์",
   "nitrousOxideHeaderStarted": "การเดินทางเพื่อการฟื้นฟูของคุณ",
   "nitrousOxideHeaderNotStarted": "พร้อมที่จะเริ่มหรือยัง?",
   "nitrousOxideSubtitleStarted": "ติดตามความคืบหน้าของคุณและเฉลิมฉลองแต่ละเหตุการณ์สำคัญ",
@@ -1276,7 +1276,7 @@
   "@whatsNewEnjoyingButton": {
     "description": "Button text to go to enjoying page from what's new"
   },
-  "enjoyingPageTitle": "เพลิดเพลินกับแอพไหม?",
+  "enjoyingPageTitle": "ชอบแอปนี้ไหม?",
   "@enjoyingPageTitle": {
     "description": "Title for enjoying the app page"
   },
@@ -1304,7 +1304,7 @@
   "@enjoyingDonateSubtitle": {
     "description": "Subtitle for donate option"
   },
-  "alcoholPageTitle": "เงียบขรึมและเป็นประกาย",
+  "alcoholPageTitle": "เลิกเหล้า",
   "@alcoholPageTitle": {
     "description": "Page title for alcohol tracking"
   },
@@ -1339,7 +1339,7 @@
   "@alcoholSubtitleNotStarted": {
     "description": "Subtitle for not started alcohol quit journey"
   },
-  "vapingPageTitle": "ชัยชนะที่ปราศจาก Vape",
+  "vapingPageTitle": "เลิกบุหรี่ไฟฟ้า",
   "@vapingPageTitle": {
     "description": "Page title for vaping tracking"
   },
@@ -1379,7 +1379,7 @@
   "@smokingSubtitleNotStarted": {
     "description": "Subtitle for not started smoking quit journey"
   },
-  "marijuanaPageTitle": "การเดินทางที่ปราศจากกัญชา",
+  "marijuanaPageTitle": "เลิกกัญชา",
   "@marijuanaPageTitle": {
     "description": "Page title for marijuana tracking"
   },
@@ -1443,7 +1443,7 @@
   "@opioidsInfoBox": {
     "description": "Important information box message for opioids recovery"
   },
-  "socialMediaPageTitle": "ความสุขในการดีท็อกซ์แบบดิจิทัล",
+  "socialMediaPageTitle": "ดีท็อกซ์ดิจิทัล",
   "@socialMediaPageTitle": {
     "description": "Page title for social media tracking"
   },

@@ -20,7 +20,7 @@
   "kratomMilestone90Description": "Berpantang selama tiga bulan akan memberikan waktu yang lebih lama bagi sirkuit penghargaan dan stres otak untuk mengatur ulang. Suasana hati, fokus, dan motivasi terasa lebih stabil.",
   "kratomMilestone365Title": "Gratis Satu Tahun",
   "kratomMilestone365Description": "Setahun penuh bebas kratom. Sistem opioid telah lama diatur ulang, keinginan mengidam jarang terjadi, dan kebiasaan tersebut tidak lagi mengatur hari Anda.",
-  "gabapentinoidsPageTitle": "Pemulihan Gabapentinoid",
+  "gabapentinoidsPageTitle": "Gabapentinoid",
   "gabapentinoidsHeaderStarted": "Perjalanan Pemulihan Anda",
   "gabapentinoidsHeaderNotStarted": "Manfaat Berhenti Gabapentin / Pregabalin",
   "gabapentinoidsSubtitleStarted": "Lacak kemajuan Anda dan rayakan setiap pencapaian",
@@ -83,7 +83,7 @@
   "ketamineMilestone180Description": "Enam bulan gratis. Gejala kandung kemih sudah lama membaik, dan pengaruh psikologis ketamin telah melemah secara signifikan.",
   "ketamineMilestone365Title": "Gratis Satu Tahun",
   "ketamineMilestone365Description": "Setahun bebas ketamin. Cara berpikir, suasana hati, dan - ketika kerusakan kandung kemih diketahui sejak dini - fungsi kandung kemih membutuhkan waktu satu tahun penuh untuk pulih.",
-  "inhalantsPageTitle": "Pemulihan Inhalansia",
+  "inhalantsPageTitle": "Inhalansia",
   "inhalantsHeaderStarted": "Perjalanan Pemulihan Anda",
   "inhalantsHeaderNotStarted": "Manfaat Berhenti Menghirup Inhalansia",
   "inhalantsSubtitleStarted": "Lacak kemajuan Anda dan rayakan setiap pencapaian",
@@ -104,7 +104,7 @@
   "inhalantsMilestone365Description": "Setahun pantang membawa pemulihan neurologis yang substansial bagi kebanyakan orang, dan kemajuan yang berkelanjutan diharapkan terjadi pada tahun kedua.",
   "inhalantsMilestone730Title": "Dua Tahun — Penyembuhan Jangka Panjang",
   "inhalantsMilestone730Description": "Dua tahun berpantang adalah jendela di mana penelitian menemukan pemulihan fungsi otak secara substansial – di luar kerusakan akibat bensin bertimbal, yang dapat bertahan lama.",
-  "synthetic_cannabinoidsPageTitle": "Pemulihan Cannabinoid Sintetis",
+  "synthetic_cannabinoidsPageTitle": "Kanabinoid Sintetis",
   "synthetic_cannabinoidsHeaderStarted": "Perjalanan Pemulihan Anda",
   "synthetic_cannabinoidsHeaderNotStarted": "Manfaat Berhenti dari Cannabinoid Sintetis",
   "synthetic_cannabinoidsSubtitleStarted": "Lacak kemajuan Anda dan rayakan setiap pencapaian",
@@ -148,7 +148,7 @@
   "mdmaMilestone90Description": "Pantang selama tiga bulan mendukung pemulihan sistem serotonin yang berkelanjutan. Suasana hati dan tidur stabil; kecemasan mereda pada bulan-bulan berikutnya.",
   "mdmaMilestone365Title": "Gratis Satu Tahun",
   "mdmaMilestone365Description": "Setahun bebas MDMA. Fungsi serotonin dan suasana hati membutuhkan waktu yang lama untuk pulih, dan kecemasan terkait penggunaan serotonin biasanya sudah teratasi sekarang.",
-  "steroidsPageTitle": "Pemulihan Steroid Anabolik",
+  "steroidsPageTitle": "Steroid Anabolik",
   "steroidsHeaderStarted": "Perjalanan Pemulihan Anda",
   "steroidsHeaderNotStarted": "Manfaat Berhenti dari Steroid Anabolik",
   "steroidsSubtitleStarted": "Lacak kemajuan Anda dan rayakan setiap pencapaian",
@@ -206,7 +206,7 @@
   "showAllSubtitle": "Mengaktifkan atau menonaktifkan semua item layar utama",
   "enableNotifications": "Aktifkan semua notifikasi",
   "enableNotificationsSubtitle": "Aktifkan atau nonaktifkan semua notifikasi",
-  "benzoPageTitle": "Pemulihan Benzodiazepin",
+  "benzoPageTitle": "Benzodiazepin",
   "benzoHeaderStarted": "Perjalanan Pemulihan Anda",
   "benzoHeaderNotStarted": "Manfaat Berhenti dari Benzodiazepin",
   "benzoSubtitleStarted": "Lacak kemajuan Anda dan rayakan setiap pencapaian",
@@ -255,7 +255,7 @@
   "methMilestone730Title": "Dua Tahun - Pemulihan Berkelanjutan",
   "methMilestone730Description": "Dua tahun tanpa sabu memberi otak waktu yang lama untuk pulih. Perhatian, suasana hati, ingatan, dan kualitas hidup sehari-hari terus meningkat.",
   "addictionNitrousOxide": "Nitrous Oksida",
-  "nitrousOxidePageTitle": "Pemulihan Nitrous Oksida",
+  "nitrousOxidePageTitle": "Nitrous Oksida",
   "nitrousOxideHeaderStarted": "Perjalanan Pemulihan Anda",
   "nitrousOxideHeaderNotStarted": "Siap Memulai?",
   "nitrousOxideSubtitleStarted": "Lacak kemajuan Anda dan rayakan setiap pencapaian",
@@ -1276,7 +1276,7 @@
   "@whatsNewEnjoyingButton": {
     "description": "Button text to go to enjoying page from what's new"
   },
-  "enjoyingPageTitle": "Menikmati aplikasinya?",
+  "enjoyingPageTitle": "Suka aplikasinya?",
   "@enjoyingPageTitle": {
     "description": "Title for enjoying the app page"
   },
@@ -1339,7 +1339,7 @@
   "@alcoholSubtitleNotStarted": {
     "description": "Subtitle for not started alcohol quit journey"
   },
-  "vapingPageTitle": "Kemenangan bebas vape",
+  "vapingPageTitle": "Bebas vape",
   "@vapingPageTitle": {
     "description": "Page title for vaping tracking"
   },
@@ -1359,7 +1359,7 @@
   "@vapingSubtitleNotStarted": {
     "description": "Subtitle for not started vaping quit journey"
   },
-  "smokingPageTitle": "Bebas asap rokok & melonjak",
+  "smokingPageTitle": "Bebas rokok",
   "@smokingPageTitle": {
     "description": "Page title for smoking tracking"
   },
@@ -1379,7 +1379,7 @@
   "@smokingSubtitleNotStarted": {
     "description": "Subtitle for not started smoking quit journey"
   },
-  "marijuanaPageTitle": "Perjalanan bebas ganja",
+  "marijuanaPageTitle": "Bebas ganja",
   "@marijuanaPageTitle": {
     "description": "Page title for marijuana tracking"
   },
@@ -1399,7 +1399,7 @@
   "@marijuanaSubtitleNotStarted": {
     "description": "Subtitle for not started marijuana quit journey"
   },
-  "nicotinePouchesPageTitle": "Kekuatan Tanpa Kantong",
+  "nicotinePouchesPageTitle": "Kantong nikotin",
   "@nicotinePouchesPageTitle": {
     "description": "Page title for nicotine pouches tracking"
   },
@@ -1419,7 +1419,7 @@
   "@nicotinePouchesSubtitleNotStarted": {
     "description": "Subtitle for not started nicotine pouches quit journey"
   },
-  "opioidsPageTitle": "Jalan menuju perdamaian",
+  "opioidsPageTitle": "Menuju ketenangan",
   "@opioidsPageTitle": {
     "description": "Page title for opioids tracking"
   },
@@ -1443,7 +1443,7 @@
   "@opioidsInfoBox": {
     "description": "Important information box message for opioids recovery"
   },
-  "socialMediaPageTitle": "Kenikmatan detoks digital",
+  "socialMediaPageTitle": "Detoks digital",
   "@socialMediaPageTitle": {
     "description": "Page title for social media tracking"
   },
@@ -1463,7 +1463,7 @@
   "@socialMediaSubtitleNotStarted": {
     "description": "Subtitle for not started social media quit journey"
   },
-  "pornographyPageTitle": "Pemulihan Pornografi",
+  "pornographyPageTitle": "Pornografi",
   "@pornographyPageTitle": {
     "description": "Page title for adult content tracking"
   },

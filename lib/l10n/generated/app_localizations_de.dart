@@ -82,7 +82,7 @@ class AppLocalizationsDe extends AppLocalizations {
       'Ein ganzes Jahr frei von Kratom. Das Opioid-System ist seit langem neu reguliert, Heißhunger ist selten, und die Gewohnheit organisiert nicht mehr Ihren Tag.';
 
   @override
-  String get gabapentinoidsPageTitle => 'Gabapentinoid-Rückgewinnung';
+  String get gabapentinoidsPageTitle => 'Gabapentinoide';
 
   @override
   String get gabapentinoidsHeaderStarted => 'Ihre Recovery Journey';
@@ -156,7 +156,7 @@ class AppLocalizationsDe extends AppLocalizations {
       'Sechs Monate frei. Das Medikament ist lange aus Ihrer Routine verschwunden, und alle Rebound-Symptome haben sich gelöst.';
 
   @override
-  String get ghbPageTitle => 'THB-Rückgewinnung';
+  String get ghbPageTitle => 'GHB';
 
   @override
   String get ghbHeaderStarted => 'Ihre Recovery Journey';
@@ -229,7 +229,7 @@ class AppLocalizationsDe extends AppLocalizations {
       'Sechs Monate frei von GHB. Verweilender Rückzug hat sich weitgehend aufgelöst, und Stimmung, Schlaf und klares Denken sind wieder normal.';
 
   @override
-  String get ketaminePageTitle => 'Ketaminrückgewinnung';
+  String get ketaminePageTitle => 'Ketamin';
 
   @override
   String get ketamineHeaderStarted => 'Ihre Recovery Journey';
@@ -302,7 +302,7 @@ class AppLocalizationsDe extends AppLocalizations {
       'Ein Jahr frei von Ketamin. Denken, Stimmung und - wenn Blasenschaden früh gefangen wurde - Blasenfunktion hatten ein ganzes Jahr zu erholen.';
 
   @override
-  String get inhalantsPageTitle => 'Inhalationsrückgewinnung';
+  String get inhalantsPageTitle => 'Inhalantien';
 
   @override
   String get inhalantsHeaderStarted => 'Ihre Recovery Journey';
@@ -377,8 +377,7 @@ class AppLocalizationsDe extends AppLocalizations {
       'Zwei Jahre Abstinenz sind das Fenster, in dem Studien eine erhebliche Wiederherstellung der Gehirnfunktion fanden - außerhalb von Schäden durch verbleites Benzin, die bestehen bleiben können.';
 
   @override
-  String get synthetic_cannabinoidsPageTitle =>
-      'Synthetische Cannabinoide Erholung';
+  String get synthetic_cannabinoidsPageTitle => 'Synth. Cannabinoide';
 
   @override
   String get synthetic_cannabinoidsHeaderStarted => 'Ihre Recovery Journey';
@@ -460,7 +459,7 @@ class AppLocalizationsDe extends AppLocalizations {
       'Entzug und akute Risiken synthetischer Cannabinoide\n\nQuelle: Cooper (2016), Current Psychiatry Reports, PMC\n\nKlinische Berichte beschreiben nach täglichem Konsum einen rasch einsetzenden Entzug mit starker Angst, Schlaflosigkeit, Übelkeit und Erbrechen, Schwitzen, Herzklopfen, Zittern, Unruhe und Verlangen. Schwere Fälle umfassten wiederkehrende Krampfanfälle sowie Herz-Kreislauf- oder Atemprobleme. Der Review beschreibt auch die akute Wirkung als unberechenbar und teils schwerwiegend, einschließlich Psychosen, Krampfanfällen, Herzereignissen und Nierenschäden. Schwere oder zunehmende Symptome brauchen rasche medizinische Abklärung.';
 
   @override
-  String get mdmaPageTitle => 'MDMA-Wiederherstellung';
+  String get mdmaPageTitle => 'MDMA';
 
   @override
   String get mdmaHeaderStarted => 'Ihre Recovery Journey';
@@ -533,7 +532,7 @@ class AppLocalizationsDe extends AppLocalizations {
       'Ein Jahr frei von MDMA. Serotonin-Funktion und -Stimmung hatten längere Zeit, um sich zu erholen, und die mit der Verwendung verbundene Angst löst sich typischerweise auf.';
 
   @override
-  String get steroidsPageTitle => 'Anabole Steroid Erholung';
+  String get steroidsPageTitle => 'Anabole Steroide';
 
   @override
   String get steroidsHeaderStarted => 'Ihre Recovery Journey';
@@ -717,7 +716,7 @@ class AppLocalizationsDe extends AppLocalizations {
       'Schalten Sie alle Benachrichtigungen ein oder aus';
 
   @override
-  String get benzoPageTitle => 'Benzodiazepine Erholung';
+  String get benzoPageTitle => 'Benzodiazepine';
 
   @override
   String get benzoHeaderStarted => 'Ihre Recovery Journey';
@@ -808,7 +807,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get addictionBenzos => 'Benzodiazepine';
 
   @override
-  String get methPageTitle => 'Meth-Rückgewinnung';
+  String get methPageTitle => 'Methamphetamin';
 
   @override
   String get methHeaderStarted => 'Ihre Recovery Journey';
@@ -891,7 +890,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get addictionNitrousOxide => 'Stickoxide';
 
   @override
-  String get nitrousOxidePageTitle => 'Rückgewinnung von Stickstoffoxiden';
+  String get nitrousOxidePageTitle => 'Lachgas';
 
   @override
   String get nitrousOxideHeaderStarted => 'Ihre Recovery Journey';
@@ -1817,7 +1816,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get whatsNewEnjoyingButton => 'Genießen Sie die App?';
 
   @override
-  String get enjoyingPageTitle => 'Genießen Sie die App?';
+  String get enjoyingPageTitle => 'Gefällt dir die App?';
 
   @override
   String get enjoyingLeaveReview => 'Hinterlasse eine Überprüfung';
@@ -1839,7 +1838,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get enjoyingDonateSubtitle => 'Unterstützungsentwicklung';
 
   @override
-  String get alcoholPageTitle => 'Nüchtern und Schaum';
+  String get alcoholPageTitle => 'Nüchtern & stark';
 
   @override
   String alcoholPageQuitDateDisplay(DateTime quitDate, int days) {
@@ -1885,7 +1884,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get vapingSubtitleNotStarted => 'Bereit, den Vape zu verlassen?';
 
   @override
-  String get smokingPageTitle => 'Rauchfrei und aufsteigend';
+  String get smokingPageTitle => 'Rauchfrei';
 
   @override
   String get smokingHeaderStarted => 'Atmen Sie leicht!';
@@ -1901,7 +1900,7 @@ class AppLocalizationsDe extends AppLocalizations {
       'Bist du bereit, deine Gesundheit zurückzugewinnen?';
 
   @override
-  String get marijuanaPageTitle => 'Cannabisfreie Reise';
+  String get marijuanaPageTitle => 'Cannabisfrei';
 
   @override
   String get marijuanaHeaderStarted => 'Klarer Geist steigt!';
@@ -1917,7 +1916,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get marijuanaSubtitleNotStarted => 'Bereit für ein klareres Morgen?';
 
   @override
-  String get nicotinePouchesPageTitle => 'Stark ohne Nikotinbeutel';
+  String get nicotinePouchesPageTitle => 'Ohne Nikotinbeutel';
 
   @override
   String get nicotinePouchesHeaderStarted => 'Frisch & kostenlos!';
@@ -1954,7 +1953,7 @@ class AppLocalizationsDe extends AppLocalizations {
       'Genesung ist ein medizinischer Prozess. Konsultieren Sie immer medizinische Fachkräfte.';
 
   @override
-  String get socialMediaPageTitle => 'Digital Detox Freude';
+  String get socialMediaPageTitle => 'Social-Media-Pause';
 
   @override
   String get socialMediaHeaderStarted => 'Unplug & Play!';
@@ -1971,7 +1970,7 @@ class AppLocalizationsDe extends AppLocalizations {
       'Bereit, Ihre Zeit zurückzugewinnen?';
 
   @override
-  String get pornographyPageTitle => 'Pornografie Erholung';
+  String get pornographyPageTitle => 'Pornografie';
 
   @override
   String get pornographyHeaderStarted => 'Aufbau einer dauerhaften Kontrolle';
@@ -2696,7 +2695,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get addictionSnri => 'SNRI';
 
   @override
-  String get snriPageTitle => 'SNRI-Rückgewinnung';
+  String get snriPageTitle => 'SNRI';
 
   @override
   String get snriHeaderStarted => 'Ihre Recovery Journey';
@@ -2777,7 +2776,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get addictionTca => 'Trizyklische Antidepressiva';
 
   @override
-  String get tcaPageTitle => 'TCA-Rückgewinnung';
+  String get tcaPageTitle => 'TCA';
 
   @override
   String get tcaHeaderStarted => 'Ihre Recovery Journey';
@@ -2858,7 +2857,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get addictionMaoi => 'MAOI';
 
   @override
-  String get maoiPageTitle => 'MAOI-Wiederherstellung';
+  String get maoiPageTitle => 'MAOI';
 
   @override
   String get maoiHeaderStarted => 'Ihre Recovery Journey';

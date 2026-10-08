@@ -104,7 +104,7 @@
   "inhalantsMilestone365Description": "يجلب عام من الامتناع عن ممارسة الجنس انتعاشًا عصبيًا كبيرًا لمعظم الناس، مع توقع استمرار المكاسب خلال السنة الثانية.",
   "inhalantsMilestone730Title": "سنتان - شفاء طويل الأمد",
   "inhalantsMilestone730Description": "إن عامين من الامتناع عن ممارسة الجنس هي النافذة التي وجدت فيها الدراسات انتعاشًا كبيرًا في وظائف المخ، باستثناء الأضرار الناجمة عن البنزين الذي يحتوي على الرصاص، والذي يمكن أن يستمر.",
-  "synthetic_cannabinoidsPageTitle": "استعادة القنب الاصطناعية",
+  "synthetic_cannabinoidsPageTitle": "كانابينويدات صناعية",
   "synthetic_cannabinoidsHeaderStarted": "رحلة التعافي الخاصة بك",
   "synthetic_cannabinoidsHeaderNotStarted": "فوائد الإقلاع عن القنب الاصطناعي",
   "synthetic_cannabinoidsSubtitleStarted": "تتبع تقدمك واحتفل بكل إنجاز",
@@ -127,7 +127,7 @@
   "synthetic_cannabinoidsMilestone180Description": "نصف عام بلا استخدام. ستة أشهر من دون شبائه القنب الاصطناعية إنجاز هائل — ستة أشهر من دون جولة جديدة من مخاطرها الحادة غير المتوقعة.",
   "synthetic_cannabinoidsWithdrawalReference": "انسحاب شبائه القنب الاصطناعية\n\nالمصدر: Craft وآخرون (2022)، Psychopharmacology، PMC\n\nشملت الدراسة 284 شخصًا استخدموا ناهضات مستقبلات القنب الاصطناعية أكثر من عشر مرات في العام السابق وحاولوا التوقف. بعد أكثر من يوم بلا استخدام، أبلغ 82.7٪ عن عرض انسحاب واحد على الأقل. كانت مشكلات النوم (59.2٪) والتهيج (55.6٪) وانخفاض المزاج (54.2٪) الأكثر شيوعًا، كما أُبلغ عن التعرق والخفقان والرغبة في التعاطي والهياج والرعشة. ارتبط الاستخدام الأكثر تكرارًا والأكبر بظهور أعراض أكثر. وعند المقارنة المباشرة، عُدّ انسحاب شبائه القنب الاصطناعية أشد من انسحاب القنب عالي الفعالية.",
   "synthetic_cannabinoidsRiskReference": "انسحاب شبائه القنب الاصطناعية والمخاطر الحادة\n\nالمصدر: Cooper (2016)، Current Psychiatry Reports، PMC\n\nتصف التقارير السريرية انسحابًا بعد الاستخدام اليومي قد يبدأ سريعًا بعد الجرعة الأخيرة، مع قلق شديد وأرق وغثيان وقيء وتعرق وخفقان ورعشة وهياج ورغبة في التعاطي. وشملت الحالات الشديدة نوبات اختلاج متكررة ومشكلات قلبية وعائية أو تنفسية. كما تصف المراجعة التسمم بأنه غير متوقع وقد يكون شديدًا، بما في ذلك الذهان ونوبات الاختلاج والحوادث القلبية وإصابة الكلى. الأعراض الشديدة أو المتفاقمة تحتاج إلى تقييم طبي سريع.",
-  "mdmaPageTitle": "استرداد عقار إم دي إم إيه",
+  "mdmaPageTitle": "إم دي إم إيه",
   "mdmaHeaderStarted": "رحلة التعافي الخاصة بك",
   "mdmaHeaderNotStarted": "فوائد الإقلاع عن عقار إم دي إم إيه",
   "mdmaSubtitleStarted": "تتبع تقدمك واحتفل بكل إنجاز",
@@ -148,7 +148,7 @@
   "mdmaMilestone90Description": "ثلاثة أشهر من الامتناع عن ممارسة الجنس تدعم استمرار تعافي نظام السيروتونين. المزاج والنوم مستقران. القلق يخفف خلال الأشهر التالية.",
   "mdmaMilestone365Title": "سنة واحدة مجانية",
   "mdmaMilestone365Description": "سنة خالية من عقار إم دي إم إيه. لقد استغرقت وظيفة السيروتونين والمزاج وقتًا أطول للتعافي، وعادةً ما يتم حل القلق المرتبط بالاستخدام الآن.",
-  "steroidsPageTitle": "استعادة الستيرويد الابتنائية",
+  "steroidsPageTitle": "ستيرويدات بنائية",
   "steroidsHeaderStarted": "رحلة التعافي الخاصة بك",
   "steroidsHeaderNotStarted": "فوائد الإقلاع عن المنشطات الابتنائية",
   "steroidsSubtitleStarted": "تتبع تقدمك واحتفل بكل إنجاز",
@@ -206,7 +206,7 @@
   "showAllSubtitle": "تمكين أو تعطيل كافة عناصر الشاشة الرئيسية",
   "enableNotifications": "تمكين كافة الإخطارات",
   "enableNotificationsSubtitle": "تشغيل أو إيقاف جميع الإشعارات",
-  "benzoPageTitle": "استعادة البنزوديازيبين",
+  "benzoPageTitle": "بنزوديازيبينات",
   "benzoHeaderStarted": "رحلة التعافي الخاصة بك",
   "benzoHeaderNotStarted": "فوائد الإقلاع عن البنزوديازيبينات",
   "benzoSubtitleStarted": "تتبع تقدمك واحتفل بكل إنجاز",
@@ -231,7 +231,7 @@
   "benzoMilestone1095Description": "في ثلاث سنوات، تكون فترة الانسحاب الطويلة بعيدة عن معظم الناس. لقد استغرق النوم والمزاج والذاكرة والاهتمام سنوات للتعافي، وعادةً ما تكون الحياة اليومية أفضل بكثير مما كانت عليه أثناء الاستخدام طويل الأمد.",
   "addictionMeth": "ميث",
   "addictionBenzos": "بنزوس",
-  "methPageTitle": "استرداد الميثامفيتامين",
+  "methPageTitle": "ميثامفيتامين",
   "methHeaderStarted": "رحلة التعافي الخاصة بك",
   "methHeaderNotStarted": "إسقاط الزجاج",
   "methSubtitleStarted": "تتبع تقدمك واحتفل بكل إنجاز",
@@ -255,7 +255,7 @@
   "methMilestone730Title": "سنتان - التعافي المستدام",
   "methMilestone730Description": "عامين بدون الميثامفيتامين يمنح الدماغ وقتًا مستدامًا للشفاء. يستمر الاهتمام والمزاج والذاكرة ونوعية الحياة اليومية في التحسن.",
   "addictionNitrousOxide": "أكسيد النيتروز",
-  "nitrousOxidePageTitle": "استعادة أكسيد النيتروز",
+  "nitrousOxidePageTitle": "أكسيد النيتروز",
   "nitrousOxideHeaderStarted": "رحلة التعافي الخاصة بك",
   "nitrousOxideHeaderNotStarted": "هل أنت مستعد للبدء؟",
   "nitrousOxideSubtitleStarted": "تتبع تقدمك واحتفل بكل إنجاز",
@@ -1339,7 +1339,7 @@
   "@alcoholSubtitleNotStarted": {
     "description": "Subtitle for not started alcohol quit journey"
   },
-  "vapingPageTitle": "انتصار خالي من التدخين الإلكتروني",
+  "vapingPageTitle": "بلا سجائر إلكترونية",
   "@vapingPageTitle": {
     "description": "Page title for vaping tracking"
   },
@@ -1359,7 +1359,7 @@
   "@vapingSubtitleNotStarted": {
     "description": "Subtitle for not started vaping quit journey"
   },
-  "smokingPageTitle": "خالية من التدخين وارتفاع",
+  "smokingPageTitle": "بلا تدخين",
   "@smokingPageTitle": {
     "description": "Page title for smoking tracking"
   },
@@ -1443,7 +1443,7 @@
   "@opioidsInfoBox": {
     "description": "Important information box message for opioids recovery"
   },
-  "socialMediaPageTitle": "فرحة التخلص من السموم الرقمية",
+  "socialMediaPageTitle": "توازن رقمي",
   "@socialMediaPageTitle": {
     "description": "Page title for social media tracking"
   },
@@ -1463,7 +1463,7 @@
   "@socialMediaSubtitleNotStarted": {
     "description": "Subtitle for not started social media quit journey"
   },
-  "pornographyPageTitle": "استعادة المواد الإباحية",
+  "pornographyPageTitle": "المواد الإباحية",
   "@pornographyPageTitle": {
     "description": "Page title for adult content tracking"
   },

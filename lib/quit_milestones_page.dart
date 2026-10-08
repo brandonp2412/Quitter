@@ -403,7 +403,11 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
       child: Scaffold(
         backgroundColor: colorScheme.surface,
         appBar: AppBar(
-          title: Text(widget.title),
+          title: FittedBox(
+            fit: BoxFit.scaleDown,
+            alignment: AlignmentDirectional.centerStart,
+            child: Text(widget.title, maxLines: 1),
+          ),
           actions: [
             IconButton(
               icon: const Icon(Icons.share),

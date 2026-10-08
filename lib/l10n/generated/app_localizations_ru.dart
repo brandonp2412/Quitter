@@ -9,7 +9,7 @@ class AppLocalizationsRu extends AppLocalizations {
   AppLocalizationsRu([String locale = 'ru']) : super(locale);
 
   @override
-  String get kratomPageTitle => 'Восстановление после кратома';
+  String get kratomPageTitle => 'Кратом';
 
   @override
   String get kratomHeaderStarted => 'Ваш путь восстановления';
@@ -82,7 +82,7 @@ class AppLocalizationsRu extends AppLocalizations {
       'Целый год без кратома. Опиоидная система уже давно отрегулирована, тяга к кратому возникает редко, и привычка больше не организует ваш день.';
 
   @override
-  String get gabapentinoidsPageTitle => 'Восстановление после габапентиноидов';
+  String get gabapentinoidsPageTitle => 'Габапентиноиды';
 
   @override
   String get gabapentinoidsHeaderStarted => 'Ваш путь восстановления';
@@ -158,7 +158,7 @@ class AppLocalizationsRu extends AppLocalizations {
       'Шесть месяцев без габапентиноидов. Препарат давно исчез из повседневной жизни, а симптомы отмены и рикошета уже прошли.';
 
   @override
-  String get ghbPageTitle => 'Восстановление после ГОМК';
+  String get ghbPageTitle => 'ГОМК';
 
   @override
   String get ghbHeaderStarted => 'Ваш путь восстановления';
@@ -230,7 +230,7 @@ class AppLocalizationsRu extends AppLocalizations {
       'Шесть месяцев без ГОМК. Затянувшаяся абстиненция в значительной степени прошла, а настроение, сон и ясное мышление вернулись в норму.';
 
   @override
-  String get ketaminePageTitle => 'Восстановление после кетамина';
+  String get ketaminePageTitle => 'Кетамин';
 
   @override
   String get ketamineHeaderStarted => 'Ваш путь восстановления';
@@ -304,7 +304,7 @@ class AppLocalizationsRu extends AppLocalizations {
       'Год без кетамина. Мышлению, настроению и — если повреждение мочевого пузыря было обнаружено на ранней стадии — функции мочевого пузыря потребовались целый год, чтобы восстановиться.';
 
   @override
-  String get inhalantsPageTitle => 'Восстановление после ингалянтов';
+  String get inhalantsPageTitle => 'Ингалянты';
 
   @override
   String get inhalantsHeaderStarted => 'Ваш путь восстановления';
@@ -378,8 +378,7 @@ class AppLocalizationsRu extends AppLocalizations {
       'Два года воздержания — это период, в течение которого исследования обнаружили существенное восстановление функций мозга, если не считать повреждений от этилированного бензина, которые могут сохраняться.';
 
   @override
-  String get synthetic_cannabinoidsPageTitle =>
-      'Восстановление после синтетических каннабиноидов';
+  String get synthetic_cannabinoidsPageTitle => 'Синт. каннабиноиды';
 
   @override
   String get synthetic_cannabinoidsHeaderStarted => 'Ваш путь восстановления';
@@ -465,7 +464,7 @@ class AppLocalizationsRu extends AppLocalizations {
       'Отмена и острые риски синтетических каннабиноидов\n\nИсточник: Cooper (2016), Current Psychiatry Reports, PMC\n\nКлинические сообщения описывают быструю отмену после ежедневного употребления: сильную тревогу, бессонницу, тошноту и рвоту, потливость, сердцебиение, тремор, возбуждение и тягу. В тяжёлых случаях отмечались повторные судороги, а также сердечно-сосудистые или дыхательные проблемы. Обзор также описывает непредсказуемую и иногда тяжёлую интоксикацию, включая психоз, судороги, сердечные события и поражение почек. Тяжёлые или нарастающие симптомы требуют быстрой медицинской оценки.';
 
   @override
-  String get mdmaPageTitle => 'Восстановление после МДМА';
+  String get mdmaPageTitle => 'МДМА';
 
   @override
   String get mdmaHeaderStarted => 'Ваш путь восстановления';
@@ -538,8 +537,7 @@ class AppLocalizationsRu extends AppLocalizations {
       'Год без МДМА. Для восстановления функции серотонина и настроения потребовалось продолжительное время, и тревога, связанная с употреблением, обычно к настоящему времени проходит.';
 
   @override
-  String get steroidsPageTitle =>
-      'Восстановление после анаболических стероидов';
+  String get steroidsPageTitle => 'Анаболики';
 
   @override
   String get steroidsHeaderStarted => 'Ваш путь восстановления';
@@ -623,7 +621,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get tabQuitter => 'Quitter';
 
   @override
-  String get adderallPageTitle => 'Восстановление после Adderall';
+  String get adderallPageTitle => 'Аддералл';
 
   @override
   String get adderallHeaderStarted => 'Ваш путь восстановления';
@@ -724,7 +722,7 @@ class AppLocalizationsRu extends AppLocalizations {
       'Включить или отключить все уведомления';
 
   @override
-  String get benzoPageTitle => 'Восстановление после бензодиазепинов';
+  String get benzoPageTitle => 'Бензодиазепины';
 
   @override
   String get benzoHeaderStarted => 'Ваш путь восстановления';
@@ -814,7 +812,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get addictionBenzos => 'Бензодиазепины';
 
   @override
-  String get methPageTitle => 'Восстановление после метамфетамина';
+  String get methPageTitle => 'Метамфетамин';
 
   @override
   String get methHeaderStarted => 'Ваш путь восстановления';
@@ -899,7 +897,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get addictionNitrousOxide => 'Закись азота';
 
   @override
-  String get nitrousOxidePageTitle => 'Восстановление после закиси азота';
+  String get nitrousOxidePageTitle => 'Закись азота';
 
   @override
   String get nitrousOxideHeaderStarted => 'Ваш путь восстановления';
@@ -975,7 +973,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get addictionAdderall => 'Аддералл';
 
   @override
-  String get cocainePageTitle => 'Восстановление после кокаина';
+  String get cocainePageTitle => 'Кокаин';
 
   @override
   String get cocaineHeaderStarted => 'Ваш путь восстановления';
@@ -1842,7 +1840,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get whatsNewEnjoyingButton => 'Нравится приложение?';
 
   @override
-  String get enjoyingPageTitle => 'Нравится приложение?';
+  String get enjoyingPageTitle => 'Нравится?';
 
   @override
   String get enjoyingLeaveReview => 'Оставить отзыв';
@@ -1863,7 +1861,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get enjoyingDonateSubtitle => 'Поддержка развития';
 
   @override
-  String get alcoholPageTitle => 'Трезвый и сверкающий';
+  String get alcoholPageTitle => 'Трезвость';
 
   @override
   String alcoholPageQuitDateDisplay(DateTime quitDate, int days) {
@@ -1911,7 +1909,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get vapingSubtitleNotStarted => 'Готовы бросить вейп? ✨';
 
   @override
-  String get smokingPageTitle => 'Бездымный и парящий';
+  String get smokingPageTitle => 'Без дыма';
 
   @override
   String get smokingHeaderStarted => 'Дышите спокойно!';
@@ -1928,7 +1926,7 @@ class AppLocalizationsRu extends AppLocalizations {
       'Готовы восстановить свое здоровье? ✨';
 
   @override
-  String get marijuanaPageTitle => 'Путь без каннабиса';
+  String get marijuanaPageTitle => 'Без каннабиса';
 
   @override
   String get marijuanaHeaderStarted => 'Ясный разум поднимается!';
@@ -1945,7 +1943,7 @@ class AppLocalizationsRu extends AppLocalizations {
       'Готовы к более ясному завтрашнему дню? 🌱';
 
   @override
-  String get nicotinePouchesPageTitle => 'Мощность без мешочка';
+  String get nicotinePouchesPageTitle => 'Без паучей';
 
   @override
   String get nicotinePouchesHeaderStarted => 'Свежесть и свобода!';
@@ -1981,7 +1979,7 @@ class AppLocalizationsRu extends AppLocalizations {
       'Выздоровление – это медицинский процесс. Всегда консультируйтесь с медицинскими работниками.';
 
   @override
-  String get socialMediaPageTitle => 'Цифровой детокс-наслаждение';
+  String get socialMediaPageTitle => 'Цифровой детокс';
 
   @override
   String get socialMediaHeaderStarted => 'Отключите и играйте!';
@@ -1996,7 +1994,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get socialMediaSubtitleNotStarted => 'Готовы вернуть себе время? 🚀';
 
   @override
-  String get pornographyPageTitle => 'Восстановление при отказе от порнографии';
+  String get pornographyPageTitle => 'Порнография';
 
   @override
   String get pornographyHeaderStarted => 'Создание постоянного контроля';
@@ -2648,7 +2646,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get addictionSsri => 'СИОЗС';
 
   @override
-  String get ssriPageTitle => 'Восстановление после СИОЗС';
+  String get ssriPageTitle => 'СИОЗС';
 
   @override
   String get ssriHeaderStarted => 'Ваш путь восстановления';
@@ -2729,7 +2727,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get addictionSnri => 'СИОЗСН';
 
   @override
-  String get snriPageTitle => 'Восстановление после СИОЗСН';
+  String get snriPageTitle => 'СИОЗСН';
 
   @override
   String get snriHeaderStarted => 'Ваш путь восстановления';
@@ -2810,7 +2808,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get addictionTca => 'ТЦА';
 
   @override
-  String get tcaPageTitle => 'Восстановление после ТЦА';
+  String get tcaPageTitle => 'ТЦА';
 
   @override
   String get tcaHeaderStarted => 'Ваш путь восстановления';
@@ -2888,7 +2886,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get addictionMaoi => 'ИМАО';
 
   @override
-  String get maoiPageTitle => 'Восстановление после ИМАО';
+  String get maoiPageTitle => 'ИМАО';
 
   @override
   String get maoiHeaderStarted => 'Ваш путь восстановления';

@@ -81,7 +81,7 @@ class AppLocalizationsTh extends AppLocalizations {
       'หนึ่งปีเต็มฟรีกระท่อมระบบฝิ่นได้รับการควบคุมใหม่มายาวนาน ความอยากเกิดขึ้นไม่บ่อยนัก และนิสัยไม่ส่งผลต่อวันของคุณอีกต่อไป';
 
   @override
-  String get gabapentinoidsPageTitle => 'การกู้คืนกาบาเพนตินอยด์';
+  String get gabapentinoidsPageTitle => 'กาบาเพนตินอยด์';
 
   @override
   String get gabapentinoidsHeaderStarted => 'การเดินทางเพื่อการฟื้นฟูของคุณ';
@@ -372,8 +372,7 @@ class AppLocalizationsTh extends AppLocalizations {
       'การงดเว้นเป็นเวลา 2 ปีเป็นช่วงที่การศึกษาพบว่าการทำงานของสมองฟื้นตัวได้อย่างมาก นอกเหนือจากความเสียหายจากน้ำมันที่มีสารตะกั่วซึ่งอาจยังคงอยู่';
 
   @override
-  String get synthetic_cannabinoidsPageTitle =>
-      'การกู้คืนสารแคนนาบินอยด์สังเคราะห์';
+  String get synthetic_cannabinoidsPageTitle => 'แคนนาบินอยด์สังเคราะห์';
 
   @override
   String get synthetic_cannabinoidsHeaderStarted =>
@@ -529,7 +528,7 @@ class AppLocalizationsTh extends AppLocalizations {
       'หนึ่งปีปราศจาก MDMAฟังก์ชันและอารมณ์ของเซโรโทนินมีเวลาฟื้นตัวนานขึ้น และความวิตกกังวลเกี่ยวกับการใช้มักจะคลี่คลายลงแล้ว';
 
   @override
-  String get steroidsPageTitle => 'การกู้คืนสเตียรอยด์อะนาโบลิก';
+  String get steroidsPageTitle => 'สเตียรอยด์อะนาโบลิก';
 
   @override
   String get steroidsHeaderStarted => 'การเดินทางเพื่อการฟื้นฟูของคุณ';
@@ -707,7 +706,7 @@ class AppLocalizationsTh extends AppLocalizations {
   String get enableNotificationsSubtitle => 'เปิดหรือปิดการแจ้งเตือนทั้งหมด';
 
   @override
-  String get benzoPageTitle => 'การกู้คืนเบนโซไดอะซีพีน';
+  String get benzoPageTitle => 'เบนโซไดอะซีพีน';
 
   @override
   String get benzoHeaderStarted => 'การเดินทางเพื่อการฟื้นฟูของคุณ';
@@ -874,7 +873,7 @@ class AppLocalizationsTh extends AppLocalizations {
   String get addictionNitrousOxide => 'ไนตรัสออกไซด์';
 
   @override
-  String get nitrousOxidePageTitle => 'การกู้คืนไนตรัสออกไซด์';
+  String get nitrousOxidePageTitle => 'ไนตรัสออกไซด์';
 
   @override
   String get nitrousOxideHeaderStarted => 'การเดินทางเพื่อการฟื้นฟูของคุณ';
@@ -1783,7 +1782,7 @@ class AppLocalizationsTh extends AppLocalizations {
   String get whatsNewEnjoyingButton => 'เพลิดเพลินกับแอพไหม?';
 
   @override
-  String get enjoyingPageTitle => 'เพลิดเพลินกับแอพไหม?';
+  String get enjoyingPageTitle => 'ชอบแอปนี้ไหม?';
 
   @override
   String get enjoyingLeaveReview => 'แสดงความคิดเห็น';
@@ -1804,7 +1803,7 @@ class AppLocalizationsTh extends AppLocalizations {
   String get enjoyingDonateSubtitle => 'รองรับการพัฒนา';
 
   @override
-  String get alcoholPageTitle => 'เงียบขรึมและเป็นประกาย';
+  String get alcoholPageTitle => 'เลิกเหล้า';
 
   @override
   String alcoholPageQuitDateDisplay(DateTime quitDate, int days) {
@@ -1835,7 +1834,7 @@ class AppLocalizationsTh extends AppLocalizations {
   String get alcoholSubtitleNotStarted => 'พร้อมให้คุณสดใสยิ่งขึ้นหรือยัง?✨';
 
   @override
-  String get vapingPageTitle => 'ชัยชนะที่ปราศจาก Vape';
+  String get vapingPageTitle => 'เลิกบุหรี่ไฟฟ้า';
 
   @override
   String get vapingHeaderStarted => 'ท้องฟ้าสดใสข้างหน้า!';
@@ -1866,7 +1865,7 @@ class AppLocalizationsTh extends AppLocalizations {
       'พร้อมที่จะฟื้นฟูสุขภาพของคุณแล้วหรือยัง?✨';
 
   @override
-  String get marijuanaPageTitle => 'การเดินทางที่ปราศจากกัญชา';
+  String get marijuanaPageTitle => 'เลิกกัญชา';
 
   @override
   String get marijuanaHeaderStarted => 'จิตใจแจ่มใสขึ้น!';
@@ -1919,7 +1918,7 @@ class AppLocalizationsTh extends AppLocalizations {
       'การฟื้นตัวเป็นกระบวนการทางการแพทย์ปรึกษาผู้เชี่ยวชาญด้านสุขภาพเสมอ';
 
   @override
-  String get socialMediaPageTitle => 'ความสุขในการดีท็อกซ์แบบดิจิทัล';
+  String get socialMediaPageTitle => 'ดีท็อกซ์ดิจิทัล';
 
   @override
   String get socialMediaHeaderStarted => 'ถอดปลั๊กแล้วเล่น!';

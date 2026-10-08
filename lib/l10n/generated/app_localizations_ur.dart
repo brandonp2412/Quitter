@@ -81,8 +81,7 @@ class AppLocalizationsUr extends AppLocalizations {
       'ایک مکمل سال کریٹم سے آزاد ہو گیا۔ اپائزڈ سسٹم طویل عرصے سے دوبارہ آباد ہوا ہے، غیر فعال ہے، اور عادت اب آپ کے دن کو منسلک نہیں کرتی۔';
 
   @override
-  String get gabapentinoidsPageTitle =>
-      'کیا آپ نے کبھی سوچا ہے کہ ” کیا مَیں اِس بیماری میں مبتلا ہوں ؟';
+  String get gabapentinoidsPageTitle => 'گاباپینٹینوئڈز';
 
   @override
   String get gabapentinoidsHeaderStarted => 'آپ کا بحالی کا سفر';
@@ -229,7 +228,7 @@ class AppLocalizationsUr extends AppLocalizations {
       'چھ ماہ آزاد جی ایچ بی - اِس سے ظاہر ہوتا ہے کہ اُن کی سوچ بدل گئی ہے اور اُن کی سوچ بدل گئی ہے ۔';
 
   @override
-  String get ketaminePageTitle => 'کیٹامین دوبارہ پیدا ہونے والا ہے';
+  String get ketaminePageTitle => 'کیٹامین';
 
   @override
   String get ketamineHeaderStarted => 'آپ کا بحالی کا سفر';
@@ -302,7 +301,7 @@ class AppLocalizationsUr extends AppLocalizations {
       'ایک سال کیٹمین سے مفت. سوچنے ، مزاج اور — جب بِل‌دار نقصان کا شکار ہو جاتا ہے تو اُس کے پاس صحت‌مند ہونے کے لئے مکمل سال ہوتا ہے ۔';
 
   @override
-  String get inhalantsPageTitle => 'اِن چیزوں کی وجہ سے اُن کا دل خوش ہو گیا ۔';
+  String get inhalantsPageTitle => 'نشہ آور بخارات';
 
   @override
   String get inhalantsHeaderStarted => 'آپ کا بحالی کا سفر';
@@ -375,7 +374,7 @@ class AppLocalizationsUr extends AppLocalizations {
       'دو سال کے طویل عرصے میں دماغ کی کارکردگی کی بحالی کا مطالعہ کرنے والے نقصان سے باہر — جو ثابت‌قدم رہ سکتا ہے ۔';
 
   @override
-  String get synthetic_cannabinoidsPageTitle => 'مصنوعی کینابینوئڈز سے بحالی';
+  String get synthetic_cannabinoidsPageTitle => 'مصنوعی کینابینوئڈز';
 
   @override
   String get synthetic_cannabinoidsHeaderStarted => 'آپ کا بحالی کا سفر';
@@ -529,7 +528,7 @@ class AppLocalizationsUr extends AppLocalizations {
       'ایک سال ممس سے آزاد ہو گیا۔ اِس لئے اُس نے اِس بات پر غور کِیا ہے کہ اُس نے اُن کی مدد کیسے کی ہے ۔';
 
   @override
-  String get steroidsPageTitle => 'انابولک seroid Recrety -';
+  String get steroidsPageTitle => 'انابولک سٹیرائڈز';
 
   @override
   String get steroidsHeaderStarted => 'آپ کا بحالی کا سفر';
@@ -613,7 +612,7 @@ class AppLocalizationsUr extends AppLocalizations {
   String get tabQuitter => 'Quitter';
 
   @override
-  String get adderallPageTitle => 'زیادہ سے زیادہ تقسیم کرنا';
+  String get adderallPageTitle => 'ایڈیرال';
 
   @override
   String get adderallHeaderStarted => 'آپ کا بحالی کا سفر';
@@ -1287,8 +1286,7 @@ class AppLocalizationsUr extends AppLocalizations {
   String get addictionSmokelessTobacco => 'ڈی‌پ / چی‌انگ کا وائرس';
 
   @override
-  String get smokelessTobaccoPageTitle =>
-      'پَکْنَرْنَا أَوْمَا يَوْمَئِنَ الْمُسْمِينَ سانچہ:قرآن-سورہ 20 آیت 28۔';
+  String get smokelessTobaccoPageTitle => 'بے دھواں تمباکو';
 
   @override
   String get smokelessTobaccoHeaderStarted => 'Nicotine-Free سفر';
@@ -1792,7 +1790,7 @@ class AppLocalizationsUr extends AppLocalizations {
   String get whatsNewEnjoyingButton => 'ایپ سے لطف اندوز ہو رہا ہے؟';
 
   @override
-  String get enjoyingPageTitle => 'ایپ سے لطف اندوز ہو رہا ہے؟';
+  String get enjoyingPageTitle => 'ایپ پسند آئی؟';
 
   @override
   String get enjoyingLeaveReview => 'ایک جائزے کو چھوڑ دیجیے';
@@ -1931,7 +1929,7 @@ class AppLocalizationsUr extends AppLocalizations {
       'پس‌منظر ایک طبّی عمل ہے ۔ ہمیشہ صحت کی دیکھ بھال کرنے والوں سے مشورہ کریں ۔';
 
   @override
-  String get socialMediaPageTitle => 'ڈیجیٹل ڈیوٹکس خوشی حاصل کرتے ہیں۔';
+  String get socialMediaPageTitle => 'ڈیجیٹل ڈیٹوکس';
 
   @override
   String get socialMediaHeaderStarted => 'unplug & کھيل!';
@@ -2820,8 +2818,7 @@ class AppLocalizationsUr extends AppLocalizations {
   String get addictionMaoi => 'مَیں';
 
   @override
-  String get maoiPageTitle =>
-      'مَیں نے اِس بات پر غور کِیا کہ مَیں کس علاقے میں ہوں ۔';
+  String get maoiPageTitle => 'ایم اے او آئی';
 
   @override
   String get maoiHeaderStarted => 'آپ کا بحالی کا سفر';

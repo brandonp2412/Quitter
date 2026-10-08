@@ -9,7 +9,7 @@ class AppLocalizationsEs extends AppLocalizations {
   AppLocalizationsEs([String locale = 'es']) : super(locale);
 
   @override
-  String get kratomPageTitle => 'Recuperación del kratom';
+  String get kratomPageTitle => 'Kratom';
 
   @override
   String get kratomHeaderStarted => 'Tu camino de recuperación';
@@ -80,7 +80,7 @@ class AppLocalizationsEs extends AppLocalizations {
       'Un año completo sin kratom. El sistema opioide lleva tiempo regulado de nuevo, los deseos de consumir son poco frecuentes y el hábito ya no organiza tu día.';
 
   @override
-  String get gabapentinoidsPageTitle => 'Recuperación de gabapentinoides';
+  String get gabapentinoidsPageTitle => 'Gabapentinoides';
 
   @override
   String get gabapentinoidsHeaderStarted => 'Tu camino de recuperación';
@@ -156,7 +156,7 @@ class AppLocalizationsEs extends AppLocalizations {
       'Seis meses sin consumir. El fármaco hace tiempo que dejó de formar parte de tu rutina y cualquier síntoma de rebote se ha resuelto.';
 
   @override
-  String get ghbPageTitle => 'Recuperación del GHB';
+  String get ghbPageTitle => 'GHB';
 
   @override
   String get ghbHeaderStarted => 'Tu camino de recuperación';
@@ -227,7 +227,7 @@ class AppLocalizationsEs extends AppLocalizations {
       'Seis meses sin GHB. La abstinencia persistente se ha resuelto en gran medida y el ánimo, el sueño y la claridad mental han vuelto a la normalidad.';
 
   @override
-  String get ketaminePageTitle => 'Recuperación de la ketamina';
+  String get ketaminePageTitle => 'Ketamina';
 
   @override
   String get ketamineHeaderStarted => 'Tu camino de recuperación';
@@ -299,7 +299,7 @@ class AppLocalizationsEs extends AppLocalizations {
       'Un año sin ketamina. El pensamiento, el ánimo y, cuando el daño vesical se detectó pronto, la función de la vejiga han tenido un año completo para recuperarse.';
 
   @override
-  String get inhalantsPageTitle => 'Recuperación de inhalantes';
+  String get inhalantsPageTitle => 'Inhalantes';
 
   @override
   String get inhalantsHeaderStarted => 'Tu camino de recuperación';
@@ -373,8 +373,7 @@ class AppLocalizationsEs extends AppLocalizations {
       'Dos años de abstinencia es el periodo en el que los estudios han encontrado una recuperación considerable de la función cerebral, salvo en los daños causados por gasolina con plomo, que pueden persistir.';
 
   @override
-  String get synthetic_cannabinoidsPageTitle =>
-      'Recuperación de cannabinoides sintéticos';
+  String get synthetic_cannabinoidsPageTitle => 'Cannabinoides sint.';
 
   @override
   String get synthetic_cannabinoidsHeaderStarted => 'Tu camino de recuperación';
@@ -456,7 +455,7 @@ class AppLocalizationsEs extends AppLocalizations {
       'Abstinencia y riesgo agudo de los cannabinoides sintéticos\n\nFuente: Cooper (2016), Current Psychiatry Reports, PMC\n\nLos informes clínicos describen abstinencia tras el uso diario que puede aparecer poco después de la última dosis, con ansiedad intensa, insomnio, náuseas y vómitos, sudoración, palpitaciones, temblor, agitación y deseo de consumir. Los casos graves han incluido convulsiones recurrentes y problemas cardiovasculares o respiratorios. La revisión también describe una intoxicación impredecible y a veces grave, con psicosis, convulsiones, eventos cardíacos y lesión renal. Los síntomas graves o en aumento requieren valoración médica rápida.';
 
   @override
-  String get mdmaPageTitle => 'Recuperación del MDMA';
+  String get mdmaPageTitle => 'MDMA';
 
   @override
   String get mdmaHeaderStarted => 'Tu camino de recuperación';
@@ -527,7 +526,7 @@ class AppLocalizationsEs extends AppLocalizations {
       'Un año sin MDMA. La función de la serotonina y el ánimo han tenido mucho tiempo para recuperarse, y la ansiedad relacionada con el consumo suele haberse resuelto a estas alturas.';
 
   @override
-  String get steroidsPageTitle => 'Recuperación de esteroides anabólicos';
+  String get steroidsPageTitle => 'Esteroides anabólicos';
 
   @override
   String get steroidsHeaderStarted => 'Tu camino de recuperación';
@@ -711,7 +710,7 @@ class AppLocalizationsEs extends AppLocalizations {
       'Activa o desactiva todas las notificaciones';
 
   @override
-  String get benzoPageTitle => 'Recuperación de benzodiacepinas';
+  String get benzoPageTitle => 'Benzodiacepinas';
 
   @override
   String get benzoHeaderStarted => 'Tu camino de recuperación';
@@ -799,7 +798,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String get addictionBenzos => 'Benzodiacepinas';
 
   @override
-  String get methPageTitle => 'Recuperación de la metanfetamina';
+  String get methPageTitle => 'Metanfetamina';
 
   @override
   String get methHeaderStarted => 'Tu camino de recuperación';
@@ -883,7 +882,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String get addictionNitrousOxide => 'Óxido nitroso';
 
   @override
-  String get nitrousOxidePageTitle => 'Recuperación del óxido nitroso';
+  String get nitrousOxidePageTitle => 'Óxido nitroso';
 
   @override
   String get nitrousOxideHeaderStarted => 'Tu camino de recuperación';
@@ -960,7 +959,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String get addictionAdderall => 'Adderall';
 
   @override
-  String get cocainePageTitle => 'Recuperación de la cocaína';
+  String get cocainePageTitle => 'Cocaína';
 
   @override
   String get cocaineHeaderStarted => 'Tu camino de recuperación';
@@ -1815,7 +1814,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String get whatsNewEnjoyingButton => '¿Te gusta la aplicación?';
 
   @override
-  String get enjoyingPageTitle => '¿Te gusta la aplicación?';
+  String get enjoyingPageTitle => '¿Te gusta la app?';
 
   @override
   String get enjoyingLeaveReview => 'Deja una reseña';
@@ -1883,7 +1882,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String get vapingSubtitleNotStarted => '¿Listo para dejar el vapeo? ✨';
 
   @override
-  String get smokingPageTitle => 'Sin humo y en ascenso';
+  String get smokingPageTitle => 'Sin humo';
 
   @override
   String get smokingHeaderStarted => '¡Respira con facilidad!';
@@ -1899,7 +1898,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String get smokingSubtitleNotStarted => '¿Listo para recuperar tu salud? ✨';
 
   @override
-  String get marijuanaPageTitle => 'Camino sin cannabis';
+  String get marijuanaPageTitle => 'Sin cannabis';
 
   @override
   String get marijuanaHeaderStarted => '¡Una mente cada vez más clara!';
@@ -1933,7 +1932,7 @@ class AppLocalizationsEs extends AppLocalizations {
       '¿Listo para dejar las bolsitas? 🚀';
 
   @override
-  String get opioidsPageTitle => 'Camino hacia la calma';
+  String get opioidsPageTitle => 'Camino a la calma';
 
   @override
   String get opioidsHeaderStarted => '¡Más fuerte cada día!';
@@ -1952,7 +1951,7 @@ class AppLocalizationsEs extends AppLocalizations {
       'La recuperación es un proceso médico. Consulta siempre con profesionales sanitarios.';
 
   @override
-  String get socialMediaPageTitle => 'El placer de la desintoxicación digital';
+  String get socialMediaPageTitle => 'Detox digital';
 
   @override
   String get socialMediaHeaderStarted => '¡Desconecta y disfruta!';
@@ -1970,7 +1969,7 @@ class AppLocalizationsEs extends AppLocalizations {
       '¿Listo para recuperar tu tiempo? 🚀';
 
   @override
-  String get pornographyPageTitle => 'Recuperación de la pornografía';
+  String get pornographyPageTitle => 'Pornografía';
 
   @override
   String get pornographyHeaderStarted => 'Construyendo un control duradero';
@@ -2634,7 +2633,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String get addictionSsri => 'ISRS';
 
   @override
-  String get ssriPageTitle => 'Recuperación de ISRS';
+  String get ssriPageTitle => 'ISRS';
 
   @override
   String get ssriHeaderStarted => 'Tu camino de recuperación';
@@ -2713,7 +2712,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String get addictionSnri => 'IRSN';
 
   @override
-  String get snriPageTitle => 'Recuperación de IRSN';
+  String get snriPageTitle => 'IRSN';
 
   @override
   String get snriHeaderStarted => 'Tu camino de recuperación';
@@ -2793,7 +2792,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String get addictionTca => 'Antidepresivos tricíclicos';
 
   @override
-  String get tcaPageTitle => 'Recuperación de antidepresivos tricíclicos';
+  String get tcaPageTitle => 'Tricíclicos';
 
   @override
   String get tcaHeaderStarted => 'Tu camino de recuperación';
@@ -2873,7 +2872,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String get addictionMaoi => 'IMAO';
 
   @override
-  String get maoiPageTitle => 'Recuperación de IMAO';
+  String get maoiPageTitle => 'IMAO';
 
   @override
   String get maoiHeaderStarted => 'Tu camino de recuperación';

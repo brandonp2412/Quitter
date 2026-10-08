@@ -82,7 +82,7 @@ class AppLocalizationsId extends AppLocalizations {
       'Setahun penuh bebas kratom. Sistem opioid telah lama diatur ulang, keinginan mengidam jarang terjadi, dan kebiasaan tersebut tidak lagi mengatur hari Anda.';
 
   @override
-  String get gabapentinoidsPageTitle => 'Pemulihan Gabapentinoid';
+  String get gabapentinoidsPageTitle => 'Gabapentinoid';
 
   @override
   String get gabapentinoidsHeaderStarted => 'Perjalanan Pemulihan Anda';
@@ -303,7 +303,7 @@ class AppLocalizationsId extends AppLocalizations {
       'Setahun bebas ketamin. Cara berpikir, suasana hati, dan - ketika kerusakan kandung kemih diketahui sejak dini - fungsi kandung kemih membutuhkan waktu satu tahun penuh untuk pulih.';
 
   @override
-  String get inhalantsPageTitle => 'Pemulihan Inhalansia';
+  String get inhalantsPageTitle => 'Inhalansia';
 
   @override
   String get inhalantsHeaderStarted => 'Perjalanan Pemulihan Anda';
@@ -378,8 +378,7 @@ class AppLocalizationsId extends AppLocalizations {
       'Dua tahun berpantang adalah jendela di mana penelitian menemukan pemulihan fungsi otak secara substansial – di luar kerusakan akibat bensin bertimbal, yang dapat bertahan lama.';
 
   @override
-  String get synthetic_cannabinoidsPageTitle =>
-      'Pemulihan Cannabinoid Sintetis';
+  String get synthetic_cannabinoidsPageTitle => 'Kanabinoid Sintetis';
 
   @override
   String get synthetic_cannabinoidsHeaderStarted => 'Perjalanan Pemulihan Anda';
@@ -534,7 +533,7 @@ class AppLocalizationsId extends AppLocalizations {
       'Setahun bebas MDMA. Fungsi serotonin dan suasana hati membutuhkan waktu yang lama untuk pulih, dan kecemasan terkait penggunaan serotonin biasanya sudah teratasi sekarang.';
 
   @override
-  String get steroidsPageTitle => 'Pemulihan Steroid Anabolik';
+  String get steroidsPageTitle => 'Steroid Anabolik';
 
   @override
   String get steroidsHeaderStarted => 'Perjalanan Pemulihan Anda';
@@ -716,7 +715,7 @@ class AppLocalizationsId extends AppLocalizations {
       'Aktifkan atau nonaktifkan semua notifikasi';
 
   @override
-  String get benzoPageTitle => 'Pemulihan Benzodiazepin';
+  String get benzoPageTitle => 'Benzodiazepin';
 
   @override
   String get benzoHeaderStarted => 'Perjalanan Pemulihan Anda';
@@ -886,7 +885,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get addictionNitrousOxide => 'Nitrous Oksida';
 
   @override
-  String get nitrousOxidePageTitle => 'Pemulihan Nitrous Oksida';
+  String get nitrousOxidePageTitle => 'Nitrous Oksida';
 
   @override
   String get nitrousOxideHeaderStarted => 'Perjalanan Pemulihan Anda';
@@ -1808,7 +1807,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get whatsNewEnjoyingButton => 'Menikmati aplikasinya?';
 
   @override
-  String get enjoyingPageTitle => 'Menikmati aplikasinya?';
+  String get enjoyingPageTitle => 'Suka aplikasinya?';
 
   @override
   String get enjoyingLeaveReview => 'Tinggalkan ulasan';
@@ -1860,7 +1859,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get alcoholSubtitleNotStarted => 'Siap untuk Anda yang lebih cerah? ✨';
 
   @override
-  String get vapingPageTitle => 'Kemenangan bebas vape';
+  String get vapingPageTitle => 'Bebas vape';
 
   @override
   String get vapingHeaderStarted => 'Langit cerah di depan!';
@@ -1875,7 +1874,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get vapingSubtitleNotStarted => 'Siap membuang vape? ✨';
 
   @override
-  String get smokingPageTitle => 'Bebas asap rokok & melonjak';
+  String get smokingPageTitle => 'Bebas rokok';
 
   @override
   String get smokingHeaderStarted => 'Bernapaslah dengan mudah!';
@@ -1892,7 +1891,7 @@ class AppLocalizationsId extends AppLocalizations {
       'Siap untuk mendapatkan kembali kesehatan Anda? ✨';
 
   @override
-  String get marijuanaPageTitle => 'Perjalanan bebas ganja';
+  String get marijuanaPageTitle => 'Bebas ganja';
 
   @override
   String get marijuanaHeaderStarted => 'Pikiran jernih meningkat!';
@@ -1909,7 +1908,7 @@ class AppLocalizationsId extends AppLocalizations {
       'Siap untuk hari esok yang lebih cerah? 🌱';
 
   @override
-  String get nicotinePouchesPageTitle => 'Kekuatan Tanpa Kantong';
+  String get nicotinePouchesPageTitle => 'Kantong nikotin';
 
   @override
   String get nicotinePouchesHeaderStarted => 'Segar & gratis!';
@@ -1926,7 +1925,7 @@ class AppLocalizationsId extends AppLocalizations {
       'Siap membuang kantongnya? 🚀';
 
   @override
-  String get opioidsPageTitle => 'Jalan menuju perdamaian';
+  String get opioidsPageTitle => 'Menuju ketenangan';
 
   @override
   String get opioidsHeaderStarted => 'Lebih kuat setiap hari!';
@@ -1946,7 +1945,7 @@ class AppLocalizationsId extends AppLocalizations {
       'Pemulihan adalah proses medis. Selalu berkonsultasi dengan profesional kesehatan.';
 
   @override
-  String get socialMediaPageTitle => 'Kenikmatan detoks digital';
+  String get socialMediaPageTitle => 'Detoks digital';
 
   @override
   String get socialMediaHeaderStarted => 'Cabut & mainkan!';
@@ -1963,7 +1962,7 @@ class AppLocalizationsId extends AppLocalizations {
       'Siap untuk mendapatkan kembali waktu Anda? 🚀';
 
   @override
-  String get pornographyPageTitle => 'Pemulihan Pornografi';
+  String get pornographyPageTitle => 'Pornografi';
 
   @override
   String get pornographyHeaderStarted => 'Membangun kendali yang langgeng';

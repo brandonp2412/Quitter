@@ -9,7 +9,7 @@ class AppLocalizationsPl extends AppLocalizations {
   AppLocalizationsPl([String locale = 'pl']) : super(locale);
 
   @override
-  String get kratomPageTitle => 'Odzyskiwanie Kratom';
+  String get kratomPageTitle => 'Kratom';
 
   @override
   String get kratomHeaderStarted => 'Twoja podróż po powrocie do zdrowia';
@@ -82,7 +82,7 @@ class AppLocalizationsPl extends AppLocalizations {
       'Pełen rok wolny od krytomu. System opioidów od dawna jest regulowany, pragnienia są rzadkie, a nawyk nie organizuje już dnia.';
 
   @override
-  String get gabapentinoidsPageTitle => 'Odzyskiwanie gabapentinoidu';
+  String get gabapentinoidsPageTitle => 'Gabapentynoidy';
 
   @override
   String get gabapentinoidsHeaderStarted =>
@@ -302,7 +302,7 @@ class AppLocalizationsPl extends AppLocalizations {
       'Rok wolny od ketaminy. Myślenie, nastrojenie, i uczucie, gdy uszkodzenia pęcherza zostały złapane wczesnej funkcji pęcherza moczowego miały pełny rok do odzyskania.';
 
   @override
-  String get inhalantsPageTitle => 'Odzyskiwanie inhalatorów';
+  String get inhalantsPageTitle => 'Substancje wziewne';
 
   @override
   String get inhalantsHeaderStarted => 'Twoja podróż po powrocie do zdrowia';
@@ -377,8 +377,7 @@ class AppLocalizationsPl extends AppLocalizations {
       'Dwa lata abstynencji jest to okno, w którym badania wykazały znaczne ożywienie funkcji mózgu poza uszkodzeniem z petrolu ołowianego, które może trwać.';
 
   @override
-  String get synthetic_cannabinoidsPageTitle =>
-      'Regeneracja po syntetycznych kannabinoidach';
+  String get synthetic_cannabinoidsPageTitle => 'Synt. kannabinoidy';
 
   @override
   String get synthetic_cannabinoidsHeaderStarted =>
@@ -463,7 +462,7 @@ class AppLocalizationsPl extends AppLocalizations {
       'Odstawienie i ostre ryzyko syntetycznych kannabinoidów\n\nŹródło: Cooper (2016), Current Psychiatry Reports, PMC\n\nOpisy kliniczne wskazują, że po codziennym używaniu objawy odstawienia mogą pojawić się szybko po ostatniej dawce i obejmować silny lęk, bezsenność, nudności i wymioty, poty, kołatanie serca, drżenie, pobudzenie i głód substancji. W ciężkich przypadkach występowały nawracające drgawki oraz problemy sercowo-naczyniowe lub oddechowe. Przegląd opisuje też nieprzewidywalne i czasem ciężkie zatrucia, w tym psychozę, drgawki, incydenty sercowe i uszkodzenie nerek. Ciężkie lub nasilające się objawy wymagają szybkiej oceny medycznej.';
 
   @override
-  String get mdmaPageTitle => 'Odzyskiwanie MDMA';
+  String get mdmaPageTitle => 'MDMA';
 
   @override
   String get mdmaHeaderStarted => 'Twoja podróż po powrocie do zdrowia';
@@ -535,7 +534,7 @@ class AppLocalizationsPl extends AppLocalizations {
       'Rok wolny od MDMA. Funkcja i nastrój serotoniny miały wydłużony czas do odzyskania, i niepokój związany z użyciem zazwyczaj rozwiązuje się do teraz.';
 
   @override
-  String get steroidsPageTitle => 'Odzyskiwanie sterydów anabolicznych';
+  String get steroidsPageTitle => 'Sterydy anaboliczne';
 
   @override
   String get steroidsHeaderStarted => 'Twoja podróż po powrocie do zdrowia';
@@ -620,7 +619,7 @@ class AppLocalizationsPl extends AppLocalizations {
   String get tabQuitter => 'Quitter';
 
   @override
-  String get adderallPageTitle => 'Rezygnacja z dodatku';
+  String get adderallPageTitle => 'Adderall';
 
   @override
   String get adderallHeaderStarted => 'Twoja podróż po powrocie do zdrowia';
@@ -722,7 +721,7 @@ class AppLocalizationsPl extends AppLocalizations {
       'Włącza lub wyłącza wszystkie powiadomienia';
 
   @override
-  String get benzoPageTitle => 'Odzysk benzodiazepiny';
+  String get benzoPageTitle => 'Benzodiazepiny';
 
   @override
   String get benzoHeaderStarted => 'Twoja podróż po powrocie do zdrowia';
@@ -897,7 +896,7 @@ class AppLocalizationsPl extends AppLocalizations {
   String get addictionNitrousOxide => 'Tlenek azotu';
 
   @override
-  String get nitrousOxidePageTitle => 'Odzyskiwanie tlenku azotu';
+  String get nitrousOxidePageTitle => 'Podtlenek azotu';
 
   @override
   String get nitrousOxideHeaderStarted => 'Twoja podróż po powrocie do zdrowia';
@@ -973,7 +972,7 @@ class AppLocalizationsPl extends AppLocalizations {
   String get addictionAdderall => 'Adderall';
 
   @override
-  String get cocainePageTitle => 'Odzyskiwanie kokainy';
+  String get cocainePageTitle => 'Kokaina';
 
   @override
   String get cocaineHeaderStarted => 'Twoja podróż po powrocie do zdrowia';
@@ -1887,7 +1886,7 @@ class AppLocalizationsPl extends AppLocalizations {
   String get alcoholSubtitleNotStarted => 'Gotowy na jaśniejsze ciebie?';
 
   @override
-  String get vapingPageTitle => 'Zwycięstwo bez wapowania';
+  String get vapingPageTitle => 'Bez wapowania';
 
   @override
   String get vapingHeaderStarted => 'Czyste niebo przed nami!';
@@ -1902,7 +1901,7 @@ class AppLocalizationsPl extends AppLocalizations {
   String get vapingSubtitleNotStarted => 'Gotowy, by porzucić Vape?';
 
   @override
-  String get smokingPageTitle => 'Bezwędzarnictwo bez dymu';
+  String get smokingPageTitle => 'Bez papierosów';
 
   @override
   String get smokingHeaderStarted => 'Oddychaj spokojnie!';
@@ -1917,7 +1916,7 @@ class AppLocalizationsPl extends AppLocalizations {
   String get smokingSubtitleNotStarted => 'Gotowy do odzyskania zdrowia?';
 
   @override
-  String get marijuanaPageTitle => 'Podróż wolna od konopi indyjskich';
+  String get marijuanaPageTitle => 'Bez konopi';
 
   @override
   String get marijuanaHeaderStarted => 'Czysty umysł!';
@@ -1933,7 +1932,7 @@ class AppLocalizationsPl extends AppLocalizations {
   String get marijuanaSubtitleNotStarted => 'Gotowy na jaśniejsze jutro?';
 
   @override
-  String get nicotinePouchesPageTitle => 'Moc wolna od pouchów';
+  String get nicotinePouchesPageTitle => 'Bez saszetek';
 
   @override
   String get nicotinePouchesHeaderStarted => 'Świeże, bezduszne!';
@@ -1968,7 +1967,7 @@ class AppLocalizationsPl extends AppLocalizations {
       'Odzyskiwanie jest procesem medycznym. zawsze konsultuj się z pracownikami służby zdrowia.';
 
   @override
-  String get socialMediaPageTitle => 'Cyfrowy detox zachwyt';
+  String get socialMediaPageTitle => 'Cyfrowy detoks';
 
   @override
   String get socialMediaHeaderStarted => 'Odłącz odtwarzanie!';
@@ -1984,7 +1983,7 @@ class AppLocalizationsPl extends AppLocalizations {
   String get socialMediaSubtitleNotStarted => 'Gotowy, by odzyskać swój czas?';
 
   @override
-  String get pornographyPageTitle => 'Odzyskiwanie pornografii';
+  String get pornographyPageTitle => 'Pornografia';
 
   @override
   String get pornographyHeaderStarted => 'Trwała kontrola budynków';
@@ -2863,7 +2862,7 @@ class AppLocalizationsPl extends AppLocalizations {
   String get addictionMaoi => 'IMAO';
 
   @override
-  String get maoiPageTitle => 'Odzyskiwanie MAOI';
+  String get maoiPageTitle => 'IMAO';
 
   @override
   String get maoiHeaderStarted => 'Twoja podróż po powrocie do zdrowia';

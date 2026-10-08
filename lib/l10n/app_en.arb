@@ -20,7 +20,7 @@
   "kratomMilestone90Description": "Three months of abstinence gives the brain's reward and stress circuits extended time to re-regulate. Mood, focus, and motivation are noticeably steadier.",
   "kratomMilestone365Title": "One Year Free",
   "kratomMilestone365Description": "A full year free of kratom. The opioid system has long re-regulated, cravings are infrequent, and the habit no longer organises your day.",
-  "gabapentinoidsPageTitle": "Gabapentinoid Recovery",
+  "gabapentinoidsPageTitle": "Gabapentinoids",
   "gabapentinoidsHeaderStarted": "Your Recovery Journey",
   "gabapentinoidsHeaderNotStarted": "Benefits of Quitting Gabapentin / Pregabalin",
   "gabapentinoidsSubtitleStarted": "Track your progress and celebrate each milestone",
@@ -104,7 +104,7 @@
   "inhalantsMilestone365Description": "A year of abstinence brings substantial neurological recovery for most people, with continued gains expected through the second year.",
   "inhalantsMilestone730Title": "Two Years — Long-Term Healing",
   "inhalantsMilestone730Description": "Two years of abstinence is the window in which studies found substantial recovery of brain function — outside of damage from leaded petrol, which can persist.",
-  "synthetic_cannabinoidsPageTitle": "Synthetic Cannabinoids Recovery",
+  "synthetic_cannabinoidsPageTitle": "Synthetic Cannabinoids",
   "synthetic_cannabinoidsHeaderStarted": "Your Recovery Journey",
   "synthetic_cannabinoidsHeaderNotStarted": "Benefits of Quitting Synthetic Cannabinoids",
   "synthetic_cannabinoidsSubtitleStarted": "Track your progress and celebrate each milestone",
@@ -148,7 +148,7 @@
   "mdmaMilestone90Description": "Three months of abstinence supports continued serotonin-system recovery. Mood and sleep are stable; anxiety eases over the following months.",
   "mdmaMilestone365Title": "One Year Free",
   "mdmaMilestone365Description": "A year free of MDMA. Serotonin function and mood have had extended time to recover, and anxiety related to use typically resolves by now.",
-  "steroidsPageTitle": "Anabolic Steroid Recovery",
+  "steroidsPageTitle": "Anabolic Steroids",
   "steroidsHeaderStarted": "Your Recovery Journey",
   "steroidsHeaderNotStarted": "Benefits of Quitting Anabolic Steroids",
   "steroidsSubtitleStarted": "Track your progress and celebrate each milestone",
@@ -206,7 +206,7 @@
   "showAllSubtitle": "Enable or disable all main screen items",
   "enableNotifications": "Enable all notifications",
   "enableNotificationsSubtitle": "Turn on or off all notifications",
-  "benzoPageTitle": "Benzodiazepine Recovery",
+  "benzoPageTitle": "Benzodiazepines",
   "benzoHeaderStarted": "Your Recovery Journey",
   "benzoHeaderNotStarted": "Benefits of Quitting Benzodiazepines",
   "benzoSubtitleStarted": "Track your progress and celebrate each milestone",
@@ -255,7 +255,7 @@
   "methMilestone730Title": "Two Years - Sustained Recovery",
   "methMilestone730Description": "Two years without meth gives the brain sustained time to heal. Attention, mood, memory, and day-to-day quality of life continue to improve.",
   "addictionNitrousOxide": "Nitrous Oxide",
-  "nitrousOxidePageTitle": "Nitrous Oxide Recovery",
+  "nitrousOxidePageTitle": "Nitrous Oxide",
   "nitrousOxideHeaderStarted": "Your Recovery Journey",
   "nitrousOxideHeaderNotStarted": "Ready to Start?",
   "nitrousOxideSubtitleStarted": "Track your progress and celebrate each milestone",
@@ -1362,7 +1362,7 @@
   "@vapingSubtitleNotStarted": {
     "description": "Subtitle for not started vaping quit journey"
   },
-  "smokingPageTitle": "Smoke-free & soaring",
+  "smokingPageTitle": "Smoke-free",
   "@smokingPageTitle": {
     "description": "Page title for smoking tracking"
   },
@@ -1382,7 +1382,7 @@
   "@smokingSubtitleNotStarted": {
     "description": "Subtitle for not started smoking quit journey"
   },
-  "marijuanaPageTitle": "Cannabis-free journey",
+  "marijuanaPageTitle": "Cannabis-free",
   "@marijuanaPageTitle": {
     "description": "Page title for marijuana tracking"
   },
@@ -1446,7 +1446,7 @@
   "@opioidsInfoBox": {
     "description": "Important information box message for opioids recovery"
   },
-  "socialMediaPageTitle": "Digital detox delight",
+  "socialMediaPageTitle": "Digital Detox",
   "@socialMediaPageTitle": {
     "description": "Page title for social media tracking"
   },
@@ -1466,7 +1466,7 @@
   "@socialMediaSubtitleNotStarted": {
     "description": "Subtitle for not started social media quit journey"
   },
-  "pornographyPageTitle": "Pornography Recovery",
+  "pornographyPageTitle": "Pornography",
   "@pornographyPageTitle": {
     "description": "Page title for adult content tracking"
   },
