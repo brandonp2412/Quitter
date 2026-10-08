@@ -4188,6 +4188,42 @@ abstract class AppLocalizations {
   /// **'Two years of strength and resilience! You\'ve built new neural pathways, coping strategies, and life patterns. Research shows that reaching this milestone dramatically reduces relapse risk. You\'re a recovery warrior!'**
   String get opioidMilestone730Description;
 
+  /// Opioid milestone day 1095 title
+  ///
+  /// In en, this message translates to:
+  /// **'Three Years - Recovery Endures'**
+  String get opioidMilestone1095Title;
+
+  /// Opioid milestone day 1095 description
+  ///
+  /// In en, this message translates to:
+  /// **'Three years of sustained recovery. The routines, support, treatment, and daily choices that got you here are worth celebrating.'**
+  String get opioidMilestone1095Description;
+
+  /// Opioid milestone day 1460 title
+  ///
+  /// In en, this message translates to:
+  /// **'Four Years - Strong Foundation'**
+  String get opioidMilestone1460Title;
+
+  /// Opioid milestone day 1460 description
+  ///
+  /// In en, this message translates to:
+  /// **'Four years of steady change have made recovery a durable part of your life. That foundation deserves recognition.'**
+  String get opioidMilestone1460Description;
+
+  /// Opioid milestone day 1825 title
+  ///
+  /// In en, this message translates to:
+  /// **'Five Years - Half a Decade'**
+  String get opioidMilestone1825Title;
+
+  /// Opioid milestone day 1825 description
+  ///
+  /// In en, this message translates to:
+  /// **'Five years is half a decade of sustained change. That is an enormous achievement in its own right.'**
+  String get opioidMilestone1825Description;
+
   /// Social media milestone day 1 title
   ///
   /// In en, this message translates to:
@@ -6137,6 +6173,24 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Two Years Off Opioids: A Stable Foundation\n\nSource: \"Treatment of Opioid Use Disorder,\" Centers for Disease Control and Prevention (CDC)\n\nA Chronic Condition, Managed Well\nThe CDC describes opioid use disorder as \'a chronic disease that can affect anyone\' — \'a medical condition, not a moral failing.\' Reaching two years of sustained recovery means you have been managing that condition successfully through one of its most vulnerable periods.\n\nWhat the CDC Says Works\nThe CDC\'s guidance centres on treatments that keep recovery stable over the long term:\n• Medications for opioid use disorder — buprenorphine, methadone, and naltrexone — which it calls especially effective\n• Combining medication with behavioural therapy and counselling\n• Treatment that lasts for varying lengths of time, tailored to the person\nThe CDC notes these medications help \'normalize brain chemistry\' and relieve cravings — the chemistry that felt hijacked in active addiction works with you again.\n\nStaying Safe\nThe CDC urges people in recovery to ask their doctor about the risk of returning to use and overdose, and to keep naloxone on hand. Tolerance falls during abstinence, so a return to opioids after this long is especially dangerous — knowing that is part of protecting what you\'ve built.\n\nTwo Years In\nThe CDC is clear that recovery is often a long-term process rather than a finish line. Two years is not the end of the journey — it is a stable, healthy foundation, and strong evidence that the approach you are using works.'**
   String get opioidReferenceDay730;
+
+  /// No description provided for @opioidReferenceDay1095.
+  ///
+  /// In en, this message translates to:
+  /// **'Three Years - Recovery Endures\n\nSource: Centers for Disease Control and Prevention (CDC), “Treatment of Opioid Use Disorder”\n\nCDC guidance describes opioid use disorder as a chronic, treatable condition. Treatment can take different forms and last for different lengths of time, and medication treatment is an evidence-based recovery option.\n\nThe guidance does not define a three-year biological endpoint. This milestone celebrates 1,095 days of sustained recovery and the support, treatment, and daily choices that made it possible.'**
+  String get opioidReferenceDay1095;
+
+  /// No description provided for @opioidReferenceDay1460.
+  ///
+  /// In en, this message translates to:
+  /// **'Four Years - Strong Foundation\n\nSource: Centers for Disease Control and Prevention (CDC), “Treatment of Opioid Use Disorder”\n\nCDC guidance says recovery is possible and treatment should be individualized. It supports medication treatment and behavioral care without setting one timetable that everyone must follow.\n\nThere is no CDC four-year biological finish line. Four years instead marks a durable pattern of recovery and another full year of protecting what has been built.'**
+  String get opioidReferenceDay1460;
+
+  /// No description provided for @opioidReferenceDay1825.
+  ///
+  /// In en, this message translates to:
+  /// **'Five Years - Half a Decade\n\nSource: Centers for Disease Control and Prevention (CDC), “Treatment of Opioid Use Disorder”\n\nCDC guidance treats recovery as individual and does not set an anniversary when treatment must end or recovery becomes biologically complete.\n\nFive years is half a decade of sustained change. That achievement stands on its own and does not need an invented medical finish line.'**
+  String get opioidReferenceDay1825;
 
   /// No description provided for @pornographyReferenceDay1.
   ///

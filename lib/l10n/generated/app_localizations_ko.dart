@@ -2312,6 +2312,27 @@ class AppLocalizationsKo extends AppLocalizations {
       '2년간의 강인함과 회복력! 당신은 새로운 신경 경로, 대처 전략, 생활 패턴을 구축했습니다. 연구에 따르면 이 이정표에 도달하면 재발 위험이 극적으로 감소합니다. 당신은 회복 전사입니다!';
 
   @override
+  String get opioidMilestone1095Title => '3년 - 이어지는 회복';
+
+  @override
+  String get opioidMilestone1095Description =>
+      '3년 동안 회복을 이어왔습니다. 여기까지 함께한 습관, 지원, 치료, 매일의 선택은 충분히 축하받을 만합니다.';
+
+  @override
+  String get opioidMilestone1460Title => '4년 - 단단한 기반';
+
+  @override
+  String get opioidMilestone1460Description =>
+      '4년의 꾸준한 변화로 회복은 삶의 단단한 일부가 되었습니다. 그 기반 자체가 큰 성과입니다.';
+
+  @override
+  String get opioidMilestone1825Title => '5년 - 다섯 해의 변화';
+
+  @override
+  String get opioidMilestone1825Description =>
+      '5년은 다섯 해 동안 이어온 변화입니다. 그 자체로 매우 큰 성취입니다.';
+
+  @override
   String get socialMediaMilestone1Title => '디지털 디톡스 첫날! 🎯';
 
   @override
@@ -3496,6 +3517,18 @@ class AppLocalizationsKo extends AppLocalizations {
   @override
   String get opioidReferenceDay730 =>
       '오피오이드 2년 사용 중단: 안정적인 기반\n\n출처: \"오피오이드 사용 장애 치료\", 질병 통제 예방 센터(CDC)\n\n만성 질환, 잘 관리됨\nCDC는 오피오이드 사용 장애를 \'누구에게나 영향을 미칠 수 있는 만성 질환\', 즉 \'도덕적 결함이 아닌 의학적 상태\'라고 설명합니다. 2년간의 지속적인 회복에 도달했다는 것은 가장 취약한 기간 중 하나를 통해 해당 상태를 성공적으로 관리해 왔다는 것을 의미합니다.\n\nCDC가 효과가 있다고 말하는 것\nCDC 지침은 장기적으로 회복을 안정적으로 유지하는 치료법에 중점을 두고 있습니다.\n• 오피오이드 사용 장애에 대한 약물(부프레노르핀, 메타돈, 날트렉손)은 특히 효과적이라고 합니다.\n• 약물 치료와 행동 치료 및 상담을 병행합니다.\n• 개인에 맞춰 다양한 기간 동안 지속되는 치료\nCDC는 이러한 약물이 \'뇌 화학을 정상화\'하고 갈망을 완화하는 데 도움이 된다고 지적합니다. 활성 중독에서 납치된 느낌이 들었던 화학이 다시 작용합니다.\n\n안전 유지\nCDC는 회복 중인 사람들에게 다시 사용하거나 과다복용할 위험에 대해 의사에게 문의하고 날록손을 항상 준비할 것을 촉구합니다. 금주 중에는 내성이 떨어지기 때문에 오랫동안 오피오이드를 다시 사용하는 것은 특히 위험합니다. 이것이 여러분이 구축한 것을 보호하는 것의 일부라는 것을 알기 때문입니다.\n\n2년 후\nCDC는 회복이 결승선이 아닌 장기적인 과정인 경우가 많다는 점을 분명히 밝혔습니다. 2년은 여정의 끝이 아닙니다. 이는 안정적이고 건전한 기초이며 귀하가 사용하는 접근 방식이 효과가 있다는 강력한 증거입니다.';
+
+  @override
+  String get opioidReferenceDay1095 =>
+      '3년 - 이어지는 회복\n\n출처: 미국 질병통제예방센터(CDC), 「오피오이드 사용장애 치료」\n\nCDC는 오피오이드 사용장애를 치료 가능한 만성 질환으로 설명합니다. 치료 형태와 기간은 사람마다 다를 수 있으며 약물치료도 근거가 있는 선택지입니다.\n\nCDC는 3년을 생물학적 회복의 끝으로 정하지 않습니다. 이 이정표는 1,095일 동안 이어온 회복을 축하합니다.';
+
+  @override
+  String get opioidReferenceDay1460 =>
+      '4년 - 단단한 기반\n\n출처: 미국 질병통제예방센터(CDC), 「오피오이드 사용장애 치료」\n\nCDC는 회복이 가능하며 치료는 개인의 필요에 맞춰야 한다고 안내합니다. 모두에게 같은 기간을 적용하지 않습니다.\n\n4년은 생물학적 결승선이 아니라, 변화를 지켜온 단단한 기록입니다.';
+
+  @override
+  String get opioidReferenceDay1825 =>
+      '5년 - 다섯 해의 변화\n\n출처: 미국 질병통제예방센터(CDC), 「오피오이드 사용장애 치료」\n\nCDC는 회복을 개인별 과정으로 다루며, 치료를 끝내야 하는 특정 기념일이나 생물학적 완성 시점을 정하지 않습니다.\n\n5년은 다섯 해 동안 이어온 변화입니다. 그 성취는 그 자체로 충분히 큽니다.';
 
   @override
   String get pornographyReferenceDay1 =>

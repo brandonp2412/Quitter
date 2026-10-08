@@ -2438,6 +2438,27 @@ class AppLocalizationsPl extends AppLocalizations {
       'Dwa lata siły i trwałości! Zbudowałeś nowe ścieżki neuronowe, radzenie sobie ze strategiami i wzorcami życia. Badania pokazują, że osiągnięcie tego kamienia milowego dramatycznie zmniejsza ryzyko nawrotu.';
 
   @override
+  String get opioidMilestone1095Title => 'Trzy lata - Trwała zmiana';
+
+  @override
+  String get opioidMilestone1095Description =>
+      'Trzy lata trwałego zdrowienia. Rutyny, wsparcie, leczenie i codzienne wybory, które doprowadziły Cię do tego miejsca, zasługują na świętowanie.';
+
+  @override
+  String get opioidMilestone1460Title => 'Cztery lata - Mocny fundament';
+
+  @override
+  String get opioidMilestone1460Description =>
+      'Cztery lata stałej zmiany sprawiły, że zdrowienie stało się trwałą częścią Twojego życia. Ten fundament zasługuje na uznanie.';
+
+  @override
+  String get opioidMilestone1825Title => 'Pięć lat - Pół dekady';
+
+  @override
+  String get opioidMilestone1825Description =>
+      'Pięć lat to pół dekady trwałej zmiany. To ogromne osiągnięcie samo w sobie.';
+
+  @override
   String get socialMediaMilestone1Title => 'Digital Detox Day!';
 
   @override
@@ -3656,6 +3677,18 @@ class AppLocalizationsPl extends AppLocalizations {
   @override
   String get opioidReferenceDay730 =>
       'Dwa lata Off Opioids: stabilna Fundacja\n\nŹródło: \"Treatment of Opioid Use Disorder,\" Centers for Disease Control and Prevention (CDC)\n\nPrzewlekłe warunki, zarządzane dobrze\nCDC opisuje zaburzenia zażywania opioidów jako przewlekłą chorobę, która może wpływać na jakiekolwiek schorzenie, a nie na moralne niepowodzenie. Osiągnięcie dwóch lat trwałej rehabilitacji oznacza, że z powodzeniem zarządzałeś tym schorzeniem przez jeden z jego najbardziej wrażliwych okresów.\n\nCo CDC mówi, że działa\nOśrodki naprowadzania CDCZRED na zabiegi, które utrzymują stabilność odzysku w długim okresie:\n• Leki stosowane w leczeniu zaburzeń opioidowych: buprenorfina, metadon i naltrekson, które to leki są szczególnie skuteczne\n• Łączenie leków z terapią behawioralną i doradztwem\n• Leczenie, które trwa przez różne długości czasu, dostosowane do osoby\nCDC zauważa, że te leki pomagają poprawić chemię mózgu i łagodzić pragnienia, co chemia, która czuła się porwana w aktywnych uzależnień działa z tobą ponownie.\n\nPozostawanie bezpieczne\nCDC zachęca ludzi w rekonwalescencji, aby zapytali lekarza o ryzyko powrotu do stosowania i przedawkowania, i aby utrzymać nalokson w ręku. Tolerancja spada podczas abstynencji, więc powrót do opioidów po tak długim czasie jest szczególnie niebezpieczny wiedząc, że jest to część ochrony tego, co ty budujesz.\n\nDwa lata w\nCDC jest jasne, że ożywienie jest często procesem długoterminowym, a nie metą. Dwa lata nie jest końcem podróży, jest to stabilna, zdrowa fundacja i mocne dowody, że podejście używasz pracy.';
+
+  @override
+  String get opioidReferenceDay1095 =>
+      'Trzy lata - Trwała zmiana\n\nŹródło: amerykańskie Centra Kontroli i Prewencji Chorób (CDC), „Leczenie zaburzenia używania opioidów”\n\nWytyczne opisują to zaburzenie jako przewlekłą, leczalną chorobę. Leczenie może mieć różne formy i trwać różnie długo, a leczenie farmakologiczne jest opcją opartą na dowodach.\n\nWytyczne nie wyznaczają biologicznego końca zdrowienia po trzech latach. Ten kamień milowy świętuje 1095 dni trwałego zdrowienia.';
+
+  @override
+  String get opioidReferenceDay1460 =>
+      'Cztery lata - Mocny fundament\n\nŹródło: amerykańskie Centra Kontroli i Prewencji Chorób (CDC), „Leczenie zaburzenia używania opioidów”\n\nWytyczne podkreślają, że zdrowienie jest możliwe, a leczenie powinno być dopasowane do osoby, bez jednego harmonogramu dla wszystkich.\n\nCztery lata nie są biologiczną linią mety, lecz dowodem utrwalonej zmiany.';
+
+  @override
+  String get opioidReferenceDay1825 =>
+      'Pięć lat - Pół dekady\n\nŹródło: amerykańskie Centra Kontroli i Prewencji Chorób (CDC), „Leczenie zaburzenia używania opioidów”\n\nWytyczne traktują zdrowienie indywidualnie i nie wskazują rocznicy, w której leczenie powinno się skończyć albo zdrowienie stać się biologicznie kompletne.\n\nPięć lat to pół dekady trwałej zmiany. To osiągnięcie jest wartościowe samo w sobie.';
 
   @override
   String get pornographyReferenceDay1 =>

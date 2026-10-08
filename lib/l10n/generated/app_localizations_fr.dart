@@ -2459,6 +2459,27 @@ class AppLocalizationsFr extends AppLocalizations {
       'Deux ans de force et de résilience ! Vous avez créé de nouveaux circuits neuronaux, de nouvelles stratégies d\'adaptation et de nouvelles habitudes de vie. Les recherches montrent qu\'atteindre cette étape réduit fortement le risque de rechute. Vous êtes un combattant du rétablissement !';
 
   @override
+  String get opioidMilestone1095Title => 'Trois ans - Cap durable';
+
+  @override
+  String get opioidMilestone1095Description =>
+      'Trois ans de rétablissement durable. Les routines, le soutien, les soins et les choix quotidiens qui vous ont mené ici méritent d’être célébrés.';
+
+  @override
+  String get opioidMilestone1460Title => 'Quatre ans - Base solide';
+
+  @override
+  String get opioidMilestone1460Description =>
+      'Quatre ans de changement régulier ont fait du rétablissement une partie solide de votre vie. Cette base mérite d’être reconnue.';
+
+  @override
+  String get opioidMilestone1825Title => 'Cinq ans - Une demi-décennie';
+
+  @override
+  String get opioidMilestone1825Description =>
+      'Cinq ans, c’est une demi-décennie de changement durable. C’est un accomplissement immense en soi.';
+
+  @override
   String get socialMediaMilestone1Title =>
       'Premier jour de détox numérique ! 🎯';
 
@@ -3689,6 +3710,18 @@ class AppLocalizationsFr extends AppLocalizations {
   @override
   String get opioidReferenceDay730 =>
       'Deux ans sans opioïdes : une base stable\n\nSource : « Treatment of Opioid Use Disorder », Centers for Disease Control and Prevention (CDC)\n\nUne maladie chronique, bien prise en charge\nLe CDC décrit le trouble lié à l\'usage d\'opioïdes comme « une maladie chronique qui peut toucher n\'importe qui » : « un problème médical, pas un défaut moral ». Atteindre deux années de rétablissement durable signifie que vous avez réussi à prendre en charge cette maladie pendant l\'une de ses périodes les plus vulnérables.\n\nCe qui fonctionne selon le CDC\nLes recommandations du CDC mettent l\'accent sur des traitements qui aident à stabiliser le rétablissement à long terme :\n• les médicaments du trouble lié à l\'usage d\'opioïdes — buprénorphine, méthadone et naltrexone — que le CDC qualifie de particulièrement efficaces\n• l\'association des médicaments à une thérapie comportementale et à un accompagnement\n• un traitement d\'une durée variable, adapté à chaque personne\nLe CDC indique que ces médicaments aident à « normaliser la chimie du cerveau » et à soulager les envies : la chimie cérébrale qui semblait détournée pendant la dépendance active travaille de nouveau avec vous.\n\nRester en sécurité\nLe CDC encourage les personnes en rétablissement à parler avec leur médecin du risque de reprise et de surdose, et à garder de la naloxone à portée de main. La tolérance diminue pendant l\'abstinence ; reprendre des opioïdes après une période aussi longue est donc particulièrement dangereux. Le savoir fait partie de la protection de ce que vous avez construit.\n\nAprès deux ans\nLe CDC souligne que le rétablissement est souvent un processus de long terme plutôt qu\'une ligne d\'arrivée. Deux ans ne marquent pas la fin du parcours : ils constituent une base stable et saine, ainsi qu\'une preuve solide que l\'approche que vous suivez fonctionne.';
+
+  @override
+  String get opioidReferenceDay1095 =>
+      'Trois ans - Cap durable\n\nSource : Centres américains pour le contrôle et la prévention des maladies (CDC), « Traitement du trouble lié à l’usage d’opioïdes »\n\nLe guide décrit ce trouble comme une maladie chronique qui se traite. Les soins peuvent prendre plusieurs formes et durer plus ou moins longtemps ; les traitements médicamenteux font partie des options fondées sur les preuves.\n\nLe guide ne fixe pas de point final biologique à trois ans. Cette étape célèbre 1 095 jours de rétablissement durable.';
+
+  @override
+  String get opioidReferenceDay1460 =>
+      'Quatre ans - Base solide\n\nSource : Centres américains pour le contrôle et la prévention des maladies (CDC), « Traitement du trouble lié à l’usage d’opioïdes »\n\nLe guide indique que le rétablissement est possible et que les soins doivent être adaptés à chaque personne, sans calendrier unique.\n\nQuatre ans ne constituent pas une ligne d’arrivée biologique ; ils marquent une continuité solide du changement.';
+
+  @override
+  String get opioidReferenceDay1825 =>
+      'Cinq ans - Une demi-décennie\n\nSource : Centres américains pour le contrôle et la prévention des maladies (CDC), « Traitement du trouble lié à l’usage d’opioïdes »\n\nLe guide présente le rétablissement comme individuel et ne fixe pas d’anniversaire auquel les soins devraient s’arrêter ou le rétablissement devenir biologiquement complet.\n\nCinq ans représentent une demi-décennie de changement durable. Cet accomplissement se suffit à lui-même.';
 
   @override
   String get pornographyReferenceDay1 =>

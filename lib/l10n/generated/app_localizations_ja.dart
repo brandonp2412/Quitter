@@ -2268,6 +2268,27 @@ class AppLocalizationsJa extends AppLocalizations {
       '2年間の回復を続けてきました。新しい神経経路、対処法、生活パターンが築かれています。研究では、この節目まで回復を続けると再発リスクが大きく低下することが示されています。';
 
   @override
+  String get opioidMilestone1095Title => '3年 - 積み重ねた回復';
+
+  @override
+  String get opioidMilestone1095Description =>
+      '3年間、回復を続けてきました。ここまで支えた習慣、支援、治療、日々の選択は、十分に祝う価値があります。';
+
+  @override
+  String get opioidMilestone1460Title => '4年 - 揺るぎない土台';
+
+  @override
+  String get opioidMilestone1460Description =>
+      '4年間の着実な変化によって、回復は生活の確かな一部になりました。その土台は大きな成果です。';
+
+  @override
+  String get opioidMilestone1825Title => '5年 - 五年の歩み';
+
+  @override
+  String get opioidMilestone1825Description =>
+      '5年は、変化を続けてきた半 दशकです。それだけで、とても大きな達成です。';
+
+  @override
   String get socialMediaMilestone1Title => 'デジタルデトックス1日目！ 🎯';
 
   @override
@@ -3452,6 +3473,18 @@ class AppLocalizationsJa extends AppLocalizations {
   @override
   String get opioidReferenceDay730 =>
       'オピオイドを断って2年：安定した基盤\n\n出典：「Treatment of Opioid Use Disorder」、Centers for Disease Control and Prevention (CDC)\n\n慢性疾患を、うまく管理する\nCDCは、オピオイド使用障害を「誰にでも起こり得る慢性疾患」—「道徳的な失敗ではなく、医学的な状態」—と説明しています。2年間の持続的回復に到達したことは、その最も脆弱な期間の一つを通じて、その状態をうまく管理してきたことを意味します。\n\nCDCが有効とするもの\nCDCの指針は、回復を長期的に安定させる治療を中心としています：\n• オピオイド使用障害の薬—ブプレノルフィン、メサドン、ナルトレキソン—これらを特に効果的としています\n• 薬と行動療法・カウンセリングの併用\n• 人に合わせて、さまざまな長さで続く治療\nCDCは、これらの薬が「脳化学を正常化」し渇望を和らげる助けとなると指摘しています—活動的な依存で乗っ取られていた化学物質が、再びあなたとともに働くのです。\n\n安全を保つ\nCDCは、回復中の人に、使用と過量摂取へ戻るリスクについて医師に尋ね、ナロキソンを手元に置いておくよう促しています。断薬中は耐性が低下するため、これほど長く断った後のオピオイドへの復帰は特に危険です—それを知っておくことが、築いたものを守る一部です。\n\n2年経過\nCDCは、回復はゴールラインではなく長期的な過程であることが多いと明確にしています。2年は旅の終わりではありません—それは安定した健康的な基盤であり、あなたが使っているアプローチが機能しているという強い証拠です。';
+
+  @override
+  String get opioidReferenceDay1095 =>
+      '3年 - 積み重ねた回復\n\n出典：米国疾病予防管理センター（CDC）「オピオイド使用障害の治療」\n\nCDCはオピオイド使用障害を治療可能な慢性疾患とし、治療の形や期間は人によって異なり、薬物療法も根拠のある選択肢だとしています。\n\n3年で生物学的に回復が完了するとは定めていません。この節目は、1095日間続けてきた回復そのものを祝うものです。';
+
+  @override
+  String get opioidReferenceDay1460 =>
+      '4年 - 揺るぎない土台\n\n出典：米国疾病予防管理センター（CDC）「オピオイド使用障害の治療」\n\nCDCは回復が可能であり、治療は一人ひとりに合わせるべきだとしています。全員に同じ期間を求めるものではありません。\n\n4年は生物学的なゴールではなく、変化を守り続けてきた確かな積み重ねです。';
+
+  @override
+  String get opioidReferenceDay1825 =>
+      '5年 - 五年の歩み\n\n出典：米国疾病予防管理センター（CDC）「オピオイド使用障害の治療」\n\nCDCは回復を個別の過程として扱い、治療を終えるべき年数や、生物学的に完全になる年数を定めていません。\n\n5年は、五年間続けてきた変化の積み重ねです。その達成は、それだけで十分に大きなものです。';
 
   @override
   String get pornographyReferenceDay1 =>

@@ -2418,6 +2418,27 @@ class AppLocalizationsId extends AppLocalizations {
       'Dua tahun kekuatan dan ketahanan! Anda telah membangun jalur saraf baru, strategi penanggulangan, dan pola hidup. Penelitian menunjukkan bahwa mencapai tahap ini secara dramatis mengurangi risiko kambuh. Anda adalah pejuang pemulihan!';
 
   @override
+  String get opioidMilestone1095Title => 'Tiga Tahun - Tetap Pulih';
+
+  @override
+  String get opioidMilestone1095Description =>
+      'Tiga tahun pemulihan berkelanjutan. Rutinitas, dukungan, perawatan, dan pilihan harian yang membawa Anda sampai di sini layak dirayakan.';
+
+  @override
+  String get opioidMilestone1460Title => 'Empat Tahun - Fondasi Kuat';
+
+  @override
+  String get opioidMilestone1460Description =>
+      'Empat tahun perubahan yang konsisten telah menjadikan pemulihan bagian yang kokoh dari hidup Anda. Fondasi ini layak diapresiasi.';
+
+  @override
+  String get opioidMilestone1825Title => 'Lima Tahun - Setengah Dekade';
+
+  @override
+  String get opioidMilestone1825Description =>
+      'Lima tahun adalah setengah dekade perubahan berkelanjutan. Itu adalah pencapaian besar dengan sendirinya.';
+
+  @override
   String get socialMediaMilestone1Title => 'Detoks Digital Hari Pertama! 🎯';
 
   @override
@@ -3634,6 +3655,18 @@ class AppLocalizationsId extends AppLocalizations {
   @override
   String get opioidReferenceDay730 =>
       'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+
+  @override
+  String get opioidReferenceDay1095 =>
+      'Tiga Tahun - Tetap Pulih\n\nSumber: Pusat Pengendalian dan Pencegahan Penyakit AS (CDC), “Perawatan Gangguan Penggunaan Opioid”\n\nPanduan menggambarkan gangguan penggunaan opioid sebagai kondisi kronis yang dapat diobati. Perawatan dapat berbeda bentuk dan lamanya, dan pengobatan merupakan pilihan berbasis bukti.\n\nPanduan tidak menetapkan titik akhir biologis pada tiga tahun. Tonggak ini merayakan 1.095 hari pemulihan berkelanjutan.';
+
+  @override
+  String get opioidReferenceDay1460 =>
+      'Empat Tahun - Fondasi Kuat\n\nSumber: Pusat Pengendalian dan Pencegahan Penyakit AS (CDC), “Perawatan Gangguan Penggunaan Opioid”\n\nPanduan menyatakan bahwa pemulihan mungkin tercapai dan perawatan perlu disesuaikan dengan kebutuhan masing-masing orang, tanpa satu jadwal yang berlaku untuk semua.\n\nEmpat tahun bukan garis akhir biologis, melainkan bukti perubahan yang terus dipertahankan.';
+
+  @override
+  String get opioidReferenceDay1825 =>
+      'Lima Tahun - Setengah Dekade\n\nSumber: Pusat Pengendalian dan Pencegahan Penyakit AS (CDC), “Perawatan Gangguan Penggunaan Opioid”\n\nPanduan memandang pemulihan sebagai proses individual dan tidak menetapkan ulang tahun ketika perawatan harus berakhir atau pemulihan menjadi lengkap secara biologis.\n\nLima tahun adalah setengah dekade perubahan berkelanjutan. Pencapaian itu layak dirayakan.';
 
   @override
   String get pornographyReferenceDay1 =>

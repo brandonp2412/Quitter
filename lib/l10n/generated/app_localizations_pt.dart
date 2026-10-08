@@ -2438,6 +2438,27 @@ class AppLocalizationsPt extends AppLocalizations {
       'Dois anos de força e resiliência! Construiu novos caminhos neurais, estratégias de enfrentamento e padrões de vida. A pesquisa mostra que atingir esse marco reduz drasticamente o risco de recaída. É um guerreiro da recuperação!';
 
   @override
+  String get opioidMilestone1095Title => 'Três anos - Mudança duradoura';
+
+  @override
+  String get opioidMilestone1095Description =>
+      'Três anos de recuperação sustentada. As rotinas, o apoio, o tratamento e as escolhas diárias que o trouxeram até aqui merecem ser celebrados.';
+
+  @override
+  String get opioidMilestone1460Title => 'Quatro anos - Base sólida';
+
+  @override
+  String get opioidMilestone1460Description =>
+      'Quatro anos de mudança constante tornaram a recuperação uma parte sólida da sua vida. Essa base merece reconhecimento.';
+
+  @override
+  String get opioidMilestone1825Title => 'Cinco anos - Meia década';
+
+  @override
+  String get opioidMilestone1825Description =>
+      'Cinco anos são meia década de mudança sustentada. É uma enorme conquista por si só.';
+
+  @override
   String get socialMediaMilestone1Title =>
       'Primeiro dia de desintoxicação digital!🎯';
 
@@ -3664,6 +3685,18 @@ class AppLocalizationsPt extends AppLocalizations {
   @override
   String get opioidReferenceDay730 =>
       'Dois anos sem opioides: uma base estável\n\nFonte: \"Tratamento do transtorno por uso de opióides\", Centros de Controle e Prevenção de Doenças (CDC)\n\nUma condição crônica, bem gerenciada\nO CDC descreve o transtorno por uso de opioides como “uma doença crônica que pode afetar qualquer pessoa” – “uma condição médica, não uma falha moral”. Alcançar dois anos de recuperação sustentada significa que tem gerenciado essa condição com sucesso durante um de seus períodos mais vulneráveis.\n\nO que o CDC diz que funciona\nA orientação do CDC centra-se em tratamentos que mantêm a recuperação estável a longo prazo:\n• Medicamentos para transtorno de uso de opioides – buprenorfina, metadona e naltrexona – que são considerados especialmente eficazes\n• Combinar medicação com terapia comportamental e aconselhamento\n• Tratamento que dura períodos variados, adaptados à pessoa\nO CDC observa que esses medicamentos ajudam a “normalizar a química do cérebro” e a aliviar os desejos – a química que parecia sequestrada no vício ativo funciona consigo novamente.\n\nFicar seguro\nO CDC insta as pessoas em recuperação a perguntarem ao seu médico sobre o risco de voltar a usar e a sobredosagem, e a manterem a naloxona à mão. A tolerância cai durante a abstinência, portanto, retornar aos opioides depois de tanto tempo é especialmente perigoso – saber que isso faz parte da proteção do que construiu.\n\nDois anos depois\nO CDC deixa claro que a recuperação é muitas vezes um processo de longo prazo e não uma linha de chegada. Dois anos não é o fim da jornada – é uma base estável e saudável e uma forte evidência de que a abordagem que está usando funciona.';
+
+  @override
+  String get opioidReferenceDay1095 =>
+      'Três anos - Mudança duradoura\n\nFonte: Centros de Controlo e Prevenção de Doenças dos EUA (CDC), «Tratamento da perturbação por uso de opioides»\n\nA orientação descreve esta perturbação como uma condição crónica e tratável. O tratamento pode assumir várias formas e durações, e o tratamento medicamentoso é uma opção baseada em evidência.\n\nA orientação não define um ponto final biológico aos três anos. Este marco celebra 1095 dias de recuperação sustentada.';
+
+  @override
+  String get opioidReferenceDay1460 =>
+      'Quatro anos - Base sólida\n\nFonte: Centros de Controlo e Prevenção de Doenças dos EUA (CDC), «Tratamento da perturbação por uso de opioides»\n\nA orientação afirma que a recuperação é possível e que o tratamento deve ser individualizado, sem um calendário único para todas as pessoas.\n\nQuatro anos não são uma meta biológica universal, mas uma demonstração duradoura da mudança mantida.';
+
+  @override
+  String get opioidReferenceDay1825 =>
+      'Cinco anos - Meia década\n\nFonte: Centros de Controlo e Prevenção de Doenças dos EUA (CDC), «Tratamento da perturbação por uso de opioides»\n\nA orientação trata a recuperação como um processo individual e não fixa uma data em que o tratamento deva terminar ou a recuperação fique biologicamente completa.\n\nCinco anos são meia década de mudança sustentada. Essa conquista vale por si só.';
 
   @override
   String get pornographyReferenceDay1 =>
@@ -6708,6 +6741,27 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
       'Dois anos de força e resiliência!Você construiu novos caminhos neurais, estratégias de enfrentamento e padrões de vida. A pesquisa mostra que atingir esse marco reduz drasticamente o risco de recaída. Você é um guerreiro da recuperação!';
 
   @override
+  String get opioidMilestone1095Title => 'Três anos - Mudança duradoura';
+
+  @override
+  String get opioidMilestone1095Description =>
+      'Três anos de recuperação sustentada. As rotinas, o apoio, o tratamento e as escolhas diárias que trouxeram você até aqui merecem ser celebrados.';
+
+  @override
+  String get opioidMilestone1460Title => 'Quatro anos - Base sólida';
+
+  @override
+  String get opioidMilestone1460Description =>
+      'Quatro anos de mudança constante fizeram da recuperação uma parte sólida da sua vida. Essa base merece reconhecimento.';
+
+  @override
+  String get opioidMilestone1825Title => 'Cinco anos - Meia década';
+
+  @override
+  String get opioidMilestone1825Description =>
+      'Cinco anos são meia década de mudança sustentada. É uma conquista enorme por si só.';
+
+  @override
   String get socialMediaMilestone1Title =>
       'Primeiro dia de desintoxicação digital!🎯';
 
@@ -7937,6 +7991,18 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
   @override
   String get opioidReferenceDay730 =>
       'Dois anos sem opioides: uma base estável\n\nFonte: \"Tratamento do transtorno por uso de opióides\", Centros de Controle e Prevenção de Doenças (CDC)\n\nUma condição crônica, bem gerenciada\nO CDC descreve o transtorno por uso de opioides como “uma doença crônica que pode afetar qualquer pessoa” – “uma condição médica, não uma falha moral”.Alcançar dois anos de recuperação sustentada significa que você tem gerenciado essa condição com sucesso durante um de seus períodos mais vulneráveis.\n\nO que o CDC diz que funciona\nA orientação do CDC centra-se em tratamentos que mantêm a recuperação estável a longo prazo:\n• Medicamentos para transtorno de uso de opioides – buprenorfina, metadona e naltrexona – que são considerados especialmente eficazes\n• Combinar medicação com terapia comportamental e aconselhamento\n• Tratamento que dura períodos variados, adaptados à pessoa\nO CDC observa que esses medicamentos ajudam a “normalizar a química do cérebro” e a aliviar os desejos – a química que parecia sequestrada no vício ativo funciona com você novamente.\n\nFicar seguro\nO CDC insta as pessoas em recuperação a perguntarem ao seu médico sobre o risco de voltar a usar e a sobredosagem, e a manterem a naloxona à mão. A tolerância cai durante a abstinência, portanto, retornar aos opioides depois de tanto tempo é especialmente perigoso – saber que isso faz parte da proteção do que você construiu.\n\nDois anos depois\nO CDC deixa claro que a recuperação é muitas vezes um processo de longo prazo e não uma linha de chegada. Dois anos não é o fim da jornada – é uma base estável e saudável e uma forte evidência de que a abordagem que você está usando funciona.';
+
+  @override
+  String get opioidReferenceDay1095 =>
+      'Três anos - Mudança duradoura\n\nFonte: Centros de Controle e Prevenção de Doenças dos EUA (CDC), “Tratamento do transtorno por uso de opioides”\n\nA orientação descreve o transtorno como uma condição crônica e tratável. O tratamento pode ter formas e durações diferentes, e o tratamento com medicamentos é uma opção baseada em evidências.\n\nA orientação não define um ponto final biológico aos três anos. Este marco celebra 1.095 dias de recuperação sustentada.';
+
+  @override
+  String get opioidReferenceDay1460 =>
+      'Quatro anos - Base sólida\n\nFonte: Centros de Controle e Prevenção de Doenças dos EUA (CDC), “Tratamento do transtorno por uso de opioides”\n\nA orientação diz que a recuperação é possível e que o tratamento deve ser individualizado, sem um cronograma único para todas as pessoas.\n\nQuatro anos não são uma linha de chegada biológica, mas uma demonstração duradoura da mudança mantida.';
+
+  @override
+  String get opioidReferenceDay1825 =>
+      'Cinco anos - Meia década\n\nFonte: Centros de Controle e Prevenção de Doenças dos EUA (CDC), “Tratamento do transtorno por uso de opioides”\n\nA orientação trata a recuperação como um processo individual e não define um aniversário em que o tratamento deva terminar ou a recuperação se torne biologicamente completa.\n\nCinco anos são meia década de mudança sustentada. Essa conquista vale por si só.';
 
   @override
   String get pornographyReferenceDay1 =>

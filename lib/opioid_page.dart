@@ -242,6 +242,57 @@ class OpioidPage extends StatelessWidget {
             "Two Years In\n"
             "The CDC is clear that recovery is often a long-term process rather than a finish line. Two years is not the end of the journey — it is a stable, healthy foundation, and strong evidence that the approach you are using works.",
       ),
+      QuitMilestone(
+        day: 1095,
+        title: l10n.opioidMilestone1095Title,
+        description: l10n.opioidMilestone1095Description,
+        reference: "Treatment of Opioid Use Disorder (CDC)",
+        link:
+            "https://www.cdc.gov/overdose-prevention/treatment/opioid-use-disorder.html",
+        referenceDate: "August 2024",
+        localizedReferenceContent: l10n.opioidReferenceDay1095,
+        referenceContent: """Three Years - Recovery Endures
+
+Source: Centers for Disease Control and Prevention (CDC), "Treatment of Opioid Use Disorder"
+
+CDC guidance describes opioid use disorder as a chronic, treatable condition. Treatment can take different forms and last for different lengths of time, and medication treatment is an evidence-based recovery option.
+
+The guidance does not define a three-year biological endpoint. This milestone celebrates 1,095 days of sustained recovery and the support, treatment, and daily choices that made it possible.""",
+      ),
+      QuitMilestone(
+        day: 1460,
+        title: l10n.opioidMilestone1460Title,
+        description: l10n.opioidMilestone1460Description,
+        reference: "Treatment of Opioid Use Disorder (CDC)",
+        link:
+            "https://www.cdc.gov/overdose-prevention/treatment/opioid-use-disorder.html",
+        referenceDate: "August 2024",
+        localizedReferenceContent: l10n.opioidReferenceDay1460,
+        referenceContent: """Four Years - Strong Foundation
+
+Source: Centers for Disease Control and Prevention (CDC), "Treatment of Opioid Use Disorder"
+
+CDC guidance says recovery is possible and treatment should be individualized. It supports medication treatment and behavioral care without setting one timetable that everyone must follow.
+
+There is no CDC four-year biological finish line. Four years instead marks a durable pattern of recovery and another full year of protecting what has been built.""",
+      ),
+      QuitMilestone(
+        day: 1825,
+        title: l10n.opioidMilestone1825Title,
+        description: l10n.opioidMilestone1825Description,
+        reference: "Treatment of Opioid Use Disorder (CDC)",
+        link:
+            "https://www.cdc.gov/overdose-prevention/treatment/opioid-use-disorder.html",
+        referenceDate: "August 2024",
+        localizedReferenceContent: l10n.opioidReferenceDay1825,
+        referenceContent: """Five Years - Half a Decade
+
+Source: Centers for Disease Control and Prevention (CDC), "Treatment of Opioid Use Disorder"
+
+CDC guidance treats recovery as individual and does not set an anniversary when treatment must end or recovery becomes biologically complete.
+
+Five years is half a decade of sustained change. That achievement stands on its own and does not need an invented medical finish line.""",
+      ),
     ];
   }
 

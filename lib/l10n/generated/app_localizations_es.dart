@@ -2437,6 +2437,27 @@ class AppLocalizationsEs extends AppLocalizations {
       '¡Dos años de fortaleza y resiliencia! Has creado nuevas vías neuronales, estrategias de afrontamiento y patrones de vida. Las investigaciones muestran que alcanzar este hito reduce drásticamente el riesgo de recaída. ¡Eres un luchador de la recuperación!';
 
   @override
+  String get opioidMilestone1095Title => 'Tres años - Cambio duradero';
+
+  @override
+  String get opioidMilestone1095Description =>
+      'Tres años de recuperación sostenida. Las rutinas, el apoyo, el tratamiento y las decisiones diarias que te han traído hasta aquí merecen celebrarse.';
+
+  @override
+  String get opioidMilestone1460Title => 'Cuatro años - Base sólida';
+
+  @override
+  String get opioidMilestone1460Description =>
+      'Cuatro años de cambio constante han convertido la recuperación en una parte sólida de tu vida. Esa base merece reconocimiento.';
+
+  @override
+  String get opioidMilestone1825Title => 'Cinco años - Media década';
+
+  @override
+  String get opioidMilestone1825Description =>
+      'Cinco años son media década de cambio sostenido. Es un logro enorme por sí mismo.';
+
+  @override
   String get socialMediaMilestone1Title =>
       '¡Primer día de desintoxicación digital! 🎯';
 
@@ -3665,6 +3686,18 @@ class AppLocalizationsEs extends AppLocalizations {
   @override
   String get opioidReferenceDay730 =>
       'Dos años sin opioides: una base estable\n\nFuente: \"Treatment of Opioid Use Disorder,\" Centers for Disease Control and Prevention (CDC)\n\nUna condición crónica bien gestionada\nLos CDC describen el trastorno por consumo de opioides como una enfermedad crónica que puede afectar a cualquiera y como una condición médica, no un fallo moral. Alcanzar dos años de recuperación sostenida significa haber gestionado esa condición con éxito durante uno de sus periodos más vulnerables.\n\nLo que los CDC dicen que funciona\nLa orientación de los CDC se centra en tratamientos que ayudan a mantener una recuperación estable a largo plazo:\n• Medicamentos para el trastorno por consumo de opioides, como buprenorfina, metadona y naltrexona\n• Combinación de medicación con terapia conductual y asesoramiento\n• Tratamiento durante el tiempo que necesite cada persona\nLos CDC señalan que estos medicamentos ayudan a normalizar la química cerebral y a aliviar los deseos de consumir.\n\nMantenerse a salvo\nLos CDC recomiendan que las personas en recuperación hablen con su profesional sanitario sobre el riesgo de volver al consumo y de sobredosis, y sobre la disponibilidad de naloxona. La tolerancia disminuye durante la abstinencia, por lo que volver a los opioides después de un periodo prolongado puede ser especialmente peligroso.\n\nA los dos años\nLos CDC dejan claro que la recuperación suele ser un proceso a largo plazo y no una línea de meta. Dos años no son el final del recorrido: son una base estable y saludable sobre la que seguir construyendo.';
+
+  @override
+  String get opioidReferenceDay1095 =>
+      'Tres años - Cambio duradero\n\nFuente: Centros para el Control y la Prevención de Enfermedades (CDC), «Tratamiento del trastorno por consumo de opioides»\n\nLa guía describe este trastorno como una afección crónica y tratable. El tratamiento puede adoptar distintas formas y durar distintos periodos; la medicación es una opción basada en la evidencia.\n\nLa guía no define un punto final biológico a los tres años. Este hito celebra 1095 días de recuperación sostenida.';
+
+  @override
+  String get opioidReferenceDay1460 =>
+      'Cuatro años - Base sólida\n\nFuente: Centros para el Control y la Prevención de Enfermedades (CDC), «Tratamiento del trastorno por consumo de opioides»\n\nLa guía indica que la recuperación es posible y que el tratamiento debe adaptarse a cada persona, sin imponer un calendario único.\n\nCuatro años no son una meta biológica universal, sino una muestra duradera del cambio que has mantenido.';
+
+  @override
+  String get opioidReferenceDay1825 =>
+      'Cinco años - Media década\n\nFuente: Centros para el Control y la Prevención de Enfermedades (CDC), «Tratamiento del trastorno por consumo de opioides»\n\nLa guía trata la recuperación como un proceso individual y no fija un aniversario en el que el tratamiento deba terminar o la recuperación quede biológicamente completa.\n\nCinco años son media década de cambio sostenido. Ese logro se sostiene por sí mismo.';
 
   @override
   String get pornographyReferenceDay1 =>

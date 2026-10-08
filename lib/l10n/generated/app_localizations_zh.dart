@@ -2265,6 +2265,26 @@ class AppLocalizationsZh extends AppLocalizations {
       '持续康复两年后，您已经建立了新的神经通路、应对策略和生活模式。研究显示，达到这一阶段通常伴随显著更低的复发风险。两年的坚持本身就是重要成果。';
 
   @override
+  String get opioidMilestone1095Title => '三年 - 康复持续';
+
+  @override
+  String get opioidMilestone1095Description =>
+      '持续康复三年。让您走到今天的习惯、支持、治疗和日常选择，都值得庆祝。';
+
+  @override
+  String get opioidMilestone1460Title => '四年 - 坚实基础';
+
+  @override
+  String get opioidMilestone1460Description =>
+      '四年的持续改变让康复成为您生活中稳固的一部分，这份基础值得肯定。';
+
+  @override
+  String get opioidMilestone1825Title => '五年 - 五载坚持';
+
+  @override
+  String get opioidMilestone1825Description => '五年就是半个十年的持续改变，这本身就是一项了不起的成就。';
+
+  @override
   String get socialMediaMilestone1Title => '数字排毒第一天！ 🎯';
 
   @override
@@ -3449,6 +3469,18 @@ class AppLocalizationsZh extends AppLocalizations {
   @override
   String get opioidReferenceDay730 =>
       '停用阿片类药物两年：一个稳定的基础\n\n来源：《Treatment of Opioid Use Disorder》，美国疾病控制与预防中心（CDC）\n\n一种慢性疾病，管理得当\nCDC将阿片类药物使用障碍描述为“一种可能影响任何人的慢性疾病”——“一种医学状况，而非道德缺陷”。达到两年的持续恢复，意味着你已经在其最脆弱的时期之一成功管理了这一状况。\n\nCDC认为有效的做法\nCDC的指导以能长期保持恢复稳定的治疗为核心：\n• 阿片类药物使用障碍的药物——丁丙诺啡、美沙酮和纳曲酮——CDC称其尤其有效\n• 将药物与行为治疗和咨询相结合\n• 持续时间长短不一、因人而异的治疗\nCDC指出，这些药物有助于“使大脑化学正常化”并缓解渴求——在活跃成瘾中感觉被劫持的化学机制，再次与你并肩协作。\n\n保持安全\nCDC敦促恢复中的人向医生询问重新使用和过量的风险，并随身备好纳洛酮。戒断期间耐受性下降，因此这么久之后重新使用阿片类药物尤其危险——了解这一点是保护你所建立成果的一部分。\n\n两年之时\nCDC明确指出，恢复往往是一个长期过程，而非终点线。两年不是旅程的终点——它是一个稳定、健康的基础，也是你所用方法有效的有力证据。';
+
+  @override
+  String get opioidReferenceDay1095 =>
+      '三年 - 康复持续\n\n来源：美国疾病控制与预防中心（CDC）《阿片类药物使用障碍的治疗》\n\n指南将阿片类药物使用障碍描述为可治疗的慢性疾病。治疗形式和持续时间因人而异，药物治疗也是有证据支持的选择。\n\n指南并未把三年定义为生物学上的康复终点。这一里程碑庆祝的是1095天持续的康复。';
+
+  @override
+  String get opioidReferenceDay1460 =>
+      '四年 - 坚实基础\n\n来源：美国疾病控制与预防中心（CDC）《阿片类药物使用障碍的治疗》\n\n指南指出康复是可能的，治疗应根据个人需要调整，而不是套用统一时限。\n\n四年并不是生物学上的终点，而是持续改变已经形成坚实基础的证明。';
+
+  @override
+  String get opioidReferenceDay1825 =>
+      '五年 - 五载坚持\n\n来源：美国疾病控制与预防中心（CDC）《阿片类药物使用障碍的治疗》\n\n指南把康复视为因人而异的过程，并未规定在哪个周年必须结束治疗，也没有定义生物学上“完全康复”的日期。\n\n五年是半个十年的持续改变，这项成就本身就值得庆祝。';
 
   @override
   String get pornographyReferenceDay1 =>
@@ -6321,6 +6353,26 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
       '持續康復兩年後，您已經建立了新的神經通路、應對策略和生活模式。研究顯示，達到這一階段通常伴隨顯著更低的復發風險。兩年的堅持本身就是重要成果。';
 
   @override
+  String get opioidMilestone1095Title => '三年 - 康復持續';
+
+  @override
+  String get opioidMilestone1095Description =>
+      '持續康復三年。讓您走到今天的習慣、支持、治療和每日選擇，都值得慶祝。';
+
+  @override
+  String get opioidMilestone1460Title => '四年 - 穩固基礎';
+
+  @override
+  String get opioidMilestone1460Description =>
+      '四年的持續改變讓康復成為您生活中穩固的一部分，這份基礎值得肯定。';
+
+  @override
+  String get opioidMilestone1825Title => '五年 - 五載堅持';
+
+  @override
+  String get opioidMilestone1825Description => '五年就是半個十年的持續改變，這本身就是一項了不起的成就。';
+
+  @override
   String get socialMediaMilestone1Title => '數字排毒第一天！ 🎯';
 
   @override
@@ -7505,6 +7557,18 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   @override
   String get opioidReferenceDay730 =>
       '停用阿片類藥物兩年：一個穩定的基礎\n\n來源：《Treatment of Opioid Use Disorder》，美國疾病控制與預防中心（CDC）\n\n一種慢性疾病，管理得當\nCDC將阿片類藥物使用障礙描述為“一種可能影響任何人的慢性疾病”——“一種醫學狀況，而非道德缺陷”。達到兩年的持續恢復，意味著你已經在其最脆弱的時期之一成功管理了這一狀況。\n\nCDC認為有效的做法\nCDC的指導以能長期保持恢復穩定的治療為核心：\n• 阿片類藥物使用障礙的藥物——丁丙諾啡、美沙酮和納曲酮——CDC稱其尤其有效\n• 將藥物與行為治療和咨詢相結合\n• 持續時間長短不一、因人而異的治療\nCDC指出，這些藥物有助於“使大腦化學正常化”並緩解渴求——在活躍成癮中感覺被劫持的化學機制，再次與你並肩協作。\n\n保持安全\nCDC敦促恢復中的人向醫生詢問重新使用和過量的風險，並隨身備好納洛酮。戒斷期間耐受性下降，因此這麼久之後重新使用阿片類藥物尤其危險——瞭解這一點是保護你所建立成果的一部分。\n\n兩年之時\nCDC明確指出，恢復往往是一個長期過程，而非終點線。兩年不是旅程的終點——它是一個穩定、健康的基礎，也是你所用方法有效的有力證據。';
+
+  @override
+  String get opioidReferenceDay1095 =>
+      '三年 - 康復持續\n\n來源：美國疾病管制與預防中心（CDC）《鴉片類藥物使用障礙的治療》\n\n指南將鴉片類藥物使用障礙描述為可治療的慢性疾病。治療形式與持續時間因人而異，藥物治療也是有證據支持的選擇。\n\n指南並未把三年定義為生物學上的康復終點。這個里程碑慶祝的是1095天持續的康復。';
+
+  @override
+  String get opioidReferenceDay1460 =>
+      '四年 - 穩固基礎\n\n來源：美國疾病管制與預防中心（CDC）《鴉片類藥物使用障礙的治療》\n\n指南指出康復是可能的，治療應依個人需要調整，而不是套用統一時限。\n\n四年不是生物學上的終點，而是持續改變已形成穩固基礎的證明。';
+
+  @override
+  String get opioidReferenceDay1825 =>
+      '五年 - 五載堅持\n\n來源：美國疾病管制與預防中心（CDC）《鴉片類藥物使用障礙的治療》\n\n指南把康復視為因人而異的過程，沒有規定在哪個週年必須結束治療，也沒有定義生物學上「完全康復」的日期。\n\n五年是半個十年的持續改變，這項成就本身就值得慶祝。';
 
   @override
   String get pornographyReferenceDay1 =>

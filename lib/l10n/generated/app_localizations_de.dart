@@ -2430,6 +2430,27 @@ class AppLocalizationsDe extends AppLocalizations {
       'Zwei Jahre Kraft und Resilienz! Sie haben neue neuronale Wege, Bewältigungsstrategien und Lebensmuster aufgebaut. Die Forschung zeigt, dass das Erreichen dieses Meilensteins das Rückfallrisiko dramatisch reduziert. Du bist ein Genesungskrieger!';
 
   @override
+  String get opioidMilestone1095Title => 'Drei Jahre - Stabiler Weg';
+
+  @override
+  String get opioidMilestone1095Description =>
+      'Drei Jahre beständige Genesung. Die Routinen, Unterstützung, Behandlung und täglichen Entscheidungen, die Sie hierhergebracht haben, verdienen Anerkennung.';
+
+  @override
+  String get opioidMilestone1460Title => 'Vier Jahre - Starkes Fundament';
+
+  @override
+  String get opioidMilestone1460Description =>
+      'Vier Jahre stetiger Veränderung haben die Genesung zu einem belastbaren Teil Ihres Lebens gemacht. Dieses Fundament verdient Anerkennung.';
+
+  @override
+  String get opioidMilestone1825Title => 'Fünf Jahre - Halbes Jahrzehnt';
+
+  @override
+  String get opioidMilestone1825Description =>
+      'Fünf Jahre sind ein halbes Jahrzehnt beständiger Veränderung. Das ist eine große Leistung für sich.';
+
+  @override
   String get socialMediaMilestone1Title => 'Digital Detox Day One!';
 
   @override
@@ -3649,6 +3670,18 @@ class AppLocalizationsDe extends AppLocalizations {
   @override
   String get opioidReferenceDay730 =>
       'Zwei Jahre Opioide: Eine stabile Stiftung\n\nQuelle: \"Behandlung von Opioid-Einsatz-Störung,\" Centers for Disease Control and Prevention (CDC)\n\nEin chronischer Zustand, gut verwaltet\nDie CDC beschreibt Opioidkonsumstörung als \"eine chronische Krankheit, die jeden betreffen kann\" - \"ein medizinischer Zustand, kein moralisches Versagen.\" Das Erreichen von zwei Jahren nachhaltiger Genesung bedeutet, dass Sie diesen Zustand erfolgreich durch eine seiner anfälligsten Perioden gemanagt haben.\n\nWas die CDC sagt, funktioniert\nDie Leitlinien der CDC konzentrieren sich auf Behandlungen, die die Erholung langfristig stabil halten:\n• Medikamente für Opioid-Einsatz Störung - Buprenorphin, Methadon und Naltrexon - die es als besonders wirksam bezeichnet\n• Kombination von Medikamenten mit Verhaltenstherapie und Beratung\n• Behandlung, die unterschiedlich lange dauert, auf die Person zugeschnitten\nDie cdc stellt fest, dass diese medikamente helfen, die gehirnchemie zu normalisieren und das verlangen zu lindern - die chemie, die sich in aktiver sucht entführt fühlte, funktioniert wieder mit ihnen.\n\nSicher bleiben\nDie CDC fordert Menschen in der Genesung auf, ihren Arzt über das Risiko der Rückkehr zur Verwendung und Überdosierung zu befragen und Naloxon zur Hand zu halten. Toleranz fällt während der Abstinenz, so dass eine Rückkehr zu Opioiden nach dieser langen Zeit besonders gefährlich ist - zu wissen, dass es Teil des Schutzes ist, was Sie gebaut haben.\n\nZwei Jahre in\nDie CDC ist klar, dass die Erholung oft ein langfristiger Prozess und nicht eine Ziellinie ist. Zwei Jahre sind nicht das Ende der Reise - es ist eine stabile, gesunde Grundlage und ein starker Beweis dafür, dass der Ansatz, den Sie verwenden, funktioniert.';
+
+  @override
+  String get opioidReferenceDay1095 =>
+      'Drei Jahre - Stabiler Weg\n\nQuelle: US-Zentren für Krankheitskontrolle und Prävention (CDC), „Behandlung der Opioidkonsumstörung“\n\nDie Leitlinie beschreibt die Opioidkonsumstörung als chronische, behandelbare Erkrankung. Behandlung kann unterschiedliche Formen haben und unterschiedlich lange dauern; medikamentöse Behandlung ist eine evidenzbasierte Option.\n\nSie legt keinen biologischen Endpunkt nach drei Jahren fest. Dieser Meilenstein würdigt 1.095 Tage anhaltender Genesung.';
+
+  @override
+  String get opioidReferenceDay1460 =>
+      'Vier Jahre - Starkes Fundament\n\nQuelle: US-Zentren für Krankheitskontrolle und Prävention (CDC), „Behandlung der Opioidkonsumstörung“\n\nDie Leitlinie betont, dass Genesung möglich ist und die Behandlung individuell angepasst werden sollte. Einen einheitlichen Zeitplan gibt sie nicht vor.\n\nVier Jahre sind daher keine medizinische Ziellinie, sondern ein starkes Zeichen für dauerhaft gelebte Veränderung.';
+
+  @override
+  String get opioidReferenceDay1825 =>
+      'Fünf Jahre - Halbes Jahrzehnt\n\nQuelle: US-Zentren für Krankheitskontrolle und Prävention (CDC), „Behandlung der Opioidkonsumstörung“\n\nDie Leitlinie betrachtet Genesung individuell und nennt keinen Jahrestag, an dem Behandlung enden oder Genesung biologisch abgeschlossen sein muss.\n\nFünf Jahre sind ein halbes Jahrzehnt beständiger Veränderung. Diese Leistung steht für sich.';
 
   @override
   String get pornographyReferenceDay1 =>
