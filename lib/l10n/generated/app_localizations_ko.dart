@@ -4061,4 +4061,48 @@ class AppLocalizationsKo extends AppLocalizations {
   @override
   String get mdmaReferenceDay1825 =>
       'MDMA 없이 5년\n\n출처: Ung 등(2026), 지속적인 MDMA 금단에 대한 체계적 문헌고찰 및 메타분석.\n\n현재 근거는 5년을 완치 날짜나 보편적인 신경인지적 종착점으로 보는 것을 지지하지 않습니다. 검토에서는 제한적이고 질이 낮은 근거만 확인됐고, 더 긴 금단이 학습이나 기억의 더 큰 회복으로 이어진다는 신뢰할 만한 패턴도 없었습니다.\n\n5년은 여전히 중요한 장기 이정표입니다. 5년 동안 방향을 지켜 온 사실 자체가 인정받을 만합니다.';
+
+  @override
+  String get nitrousOxideMilestone730Title => '2년 - 이어지는 진전';
+
+  @override
+  String get nitrousOxideMilestone730Description =>
+      '아산화질소 없이 2년은 다시 노출되지 않은 730일입니다. 신경학적 경과는 사람마다 다르고 중단과 치료 뒤 부분 회복이 흔히 보고됩니다. 이 이정표는 정해진 의학적 종료 시점이 아니라 지속적인 보호를 기념합니다.';
+
+  @override
+  String get nitrousOxideReferenceDay730 =>
+      '2년 - 이어지는 진전\n\n출처: Marsden, Sharma, Rotella(2022), 만성 아산화질소 사용에 대한 체계적 문헌고찰.\n\n이 문헌고찰은 만성 사용에서 신경학적 문제가 특징적이고 비타민 B12 보충이 주된 치료이며 부분 회복이 가장 흔히 보고된 결과라고 정리했습니다. 보편적인 다년간 회복 일정은 제시하지 않았습니다.\n\n아산화질소 없이 2년은 다시 노출되지 않은 730일입니다. 신경학적 경과는 사람마다 다르고 중단과 치료 뒤 부분 회복이 흔히 보고됩니다. 이 이정표는 정해진 의학적 종료 시점이 아니라 지속적인 보호를 기념합니다.';
+
+  @override
+  String get nitrousOxideMilestone1095Title => '3년 - 더 단단한 기반';
+
+  @override
+  String get nitrousOxideMilestone1095Description =>
+      '3년은 위험을 만들었던 노출을 다시 시작하지 않은 긴 기간입니다. 연구는 신경 회복을 이 기념일에 연결하지 않습니다. 성과는 1095일 동안 변화를 유지한 데 있습니다.';
+
+  @override
+  String get nitrousOxideReferenceDay1095 =>
+      '3년 - 더 단단한 기반\n\n출처: Marsden, Sharma, Rotella(2022), 만성 아산화질소 사용에 대한 체계적 문헌고찰.\n\n이 문헌고찰은 만성 사용에서 신경학적 문제가 특징적이고 비타민 B12 보충이 주된 치료이며 부분 회복이 가장 흔히 보고된 결과라고 정리했습니다. 보편적인 다년간 회복 일정은 제시하지 않았습니다.\n\n3년은 위험을 만들었던 노출을 다시 시작하지 않은 긴 기간입니다. 연구는 신경 회복을 이 기념일에 연결하지 않습니다. 성과는 1095일 동안 변화를 유지한 데 있습니다.';
+
+  @override
+  String get nitrousOxideMilestone1460Title => '4년 - 지속되는 변화';
+
+  @override
+  String get nitrousOxideMilestone1460Description =>
+      '4년은 이미 쌓은 진전을 한 해 더 지켜낸 시간입니다. 아산화질소 연구에서는 회복 정도가 다양하고 일부는 후유증이 남습니다. 보편적인 4년 회복선은 제시되지 않습니다.';
+
+  @override
+  String get nitrousOxideReferenceDay1460 =>
+      '4년 - 지속되는 변화\n\n출처: Marsden, Sharma, Rotella(2022), 만성 아산화질소 사용에 대한 체계적 문헌고찰.\n\n이 문헌고찰은 만성 사용에서 신경학적 문제가 특징적이고 비타민 B12 보충이 주된 치료이며 부분 회복이 가장 흔히 보고된 결과라고 정리했습니다. 보편적인 다년간 회복 일정은 제시하지 않았습니다.\n\n4년은 이미 쌓은 진전을 한 해 더 지켜낸 시간입니다. 아산화질소 연구에서는 회복 정도가 다양하고 일부는 후유증이 남습니다. 보편적인 4년 회복선은 제시되지 않습니다.';
+
+  @override
+  String get nitrousOxideMilestone1825Title => '5년 - 오래가는 변화';
+
+  @override
+  String get nitrousOxideMilestone1825Description =>
+      '아산화질소 없이 5년은 지속적인 변화의 반십년입니다. 근거에 기반한 5년 신경학적 리셋 시점은 없으며, 1825일 동안 방향을 유지한 것이 이정표입니다.';
+
+  @override
+  String get nitrousOxideReferenceDay1825 =>
+      '5년 - 오래가는 변화\n\n출처: Marsden, Sharma, Rotella(2022), 만성 아산화질소 사용에 대한 체계적 문헌고찰.\n\n이 문헌고찰은 만성 사용에서 신경학적 문제가 특징적이고 비타민 B12 보충이 주된 치료이며 부분 회복이 가장 흔히 보고된 결과라고 정리했습니다. 보편적인 다년간 회복 일정은 제시하지 않았습니다.\n\n아산화질소 없이 5년은 지속적인 변화의 반십년입니다. 근거에 기반한 5년 신경학적 리셋 시점은 없으며, 1825일 동안 방향을 유지한 것이 이정표입니다.';
 }

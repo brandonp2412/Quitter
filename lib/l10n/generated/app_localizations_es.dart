@@ -4230,4 +4230,49 @@ class AppLocalizationsEs extends AppLocalizations {
   @override
   String get mdmaReferenceDay1825 =>
       'Cinco años sin MDMA\n\nFuente: Ung et al. (2026), revisión sistemática y metaanálisis sobre abstinencia sostenida de MDMA.\n\nLa evidencia actual no respalda tratar los cinco años como una fecha de curación ni como un final neurocognitivo universal. La revisión encontró evidencia limitada y de baja calidad, sin un patrón fiable de mayor recuperación del aprendizaje o la memoria con más abstinencia.\n\nCinco años siguen siendo un gran hito a largo plazo: media década de dirección mantenida merece reconocimiento por sí misma.';
+
+  @override
+  String get nitrousOxideMilestone730Title => 'Dos años - El progreso sigue';
+
+  @override
+  String get nitrousOxideMilestone730Description =>
+      'Dos años sin óxido nitroso son 730 días sin una nueva exposición. Los resultados neurológicos varían y la recuperación parcial es frecuente tras dejarlo y recibir tratamiento, así que este hito celebra la protección sostenida, no una fecha médica fija.';
+
+  @override
+  String get nitrousOxideReferenceDay730 =>
+      'Dos años - El progreso sigue\n\nFuente: Marsden, Sharma y Rotella (2022), revisión sistemática del uso crónico de óxido nitroso.\n\nLa revisión halló que los problemas neurológicos eran característicos del uso crónico, que la reposición de vitamina B12 era el tratamiento principal y que la recuperación parcial era el resultado más comunicado. No estableció un calendario universal de recuperación de varios años.\n\nDos años sin óxido nitroso son 730 días sin una nueva exposición. Los resultados neurológicos varían y la recuperación parcial es frecuente tras dejarlo y recibir tratamiento, así que este hito celebra la protección sostenida, no una fecha médica fija.';
+
+  @override
+  String get nitrousOxideMilestone1095Title => 'Tres años - Base más firme';
+
+  @override
+  String get nitrousOxideMilestone1095Description =>
+      'Tres años son mucho tiempo sin reiniciar la exposición que generaba el riesgo. La investigación no vincula la recuperación nerviosa con este aniversario; el logro es mantener el cambio durante 1095 días.';
+
+  @override
+  String get nitrousOxideReferenceDay1095 =>
+      'Tres años - Base más firme\n\nFuente: Marsden, Sharma y Rotella (2022), revisión sistemática del uso crónico de óxido nitroso.\n\nLa revisión halló que los problemas neurológicos eran característicos del uso crónico, que la reposición de vitamina B12 era el tratamiento principal y que la recuperación parcial era el resultado más comunicado. No estableció un calendario universal de recuperación de varios años.\n\nTres años son mucho tiempo sin reiniciar la exposición que generaba el riesgo. La investigación no vincula la recuperación nerviosa con este aniversario; el logro es mantener el cambio durante 1095 días.';
+
+  @override
+  String get nitrousOxideMilestone1460Title => 'Cuatro años - Cambio duradero';
+
+  @override
+  String get nitrousOxideMilestone1460Description =>
+      'Cuatro años significan otro año completo protegiendo el progreso ya conseguido. Los estudios sobre óxido nitroso muestran recuperación variable y déficits persistentes en algunos casos, no una meta universal a los cuatro años.';
+
+  @override
+  String get nitrousOxideReferenceDay1460 =>
+      'Cuatro años - Cambio duradero\n\nFuente: Marsden, Sharma y Rotella (2022), revisión sistemática del uso crónico de óxido nitroso.\n\nLa revisión halló que los problemas neurológicos eran característicos del uso crónico, que la reposición de vitamina B12 era el tratamiento principal y que la recuperación parcial era el resultado más comunicado. No estableció un calendario universal de recuperación de varios años.\n\nCuatro años significan otro año completo protegiendo el progreso ya conseguido. Los estudios sobre óxido nitroso muestran recuperación variable y déficits persistentes en algunos casos, no una meta universal a los cuatro años.';
+
+  @override
+  String get nitrousOxideMilestone1825Title =>
+      'Cinco años - Cambio que perdura';
+
+  @override
+  String get nitrousOxideMilestone1825Description =>
+      'Cinco años sin óxido nitroso son medio decenio de cambio sostenido. No existe una fecha de reinicio neurológico basada en evidencia a los cinco años; el hito son 1825 días manteniendo el rumbo.';
+
+  @override
+  String get nitrousOxideReferenceDay1825 =>
+      'Cinco años - Cambio que perdura\n\nFuente: Marsden, Sharma y Rotella (2022), revisión sistemática del uso crónico de óxido nitroso.\n\nLa revisión halló que los problemas neurológicos eran característicos del uso crónico, que la reposición de vitamina B12 era el tratamiento principal y que la recuperación parcial era el resultado más comunicado. No estableció un calendario universal de recuperación de varios años.\n\nCinco años sin óxido nitroso son medio decenio de cambio sostenido. No existe una fecha de reinicio neurológico basada en evidencia a los cinco años; el hito son 1825 días manteniendo el rumbo.';
 }

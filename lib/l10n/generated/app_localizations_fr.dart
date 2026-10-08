@@ -4254,4 +4254,49 @@ class AppLocalizationsFr extends AppLocalizations {
   @override
   String get mdmaReferenceDay1825 =>
       'Cinq ans sans MDMA\n\nSource : Ung et al. (2026), revue systématique et méta-analyse sur l\'abstinence durable de MDMA.\n\nLes données actuelles ne permettent pas de considérer cinq ans comme une date de guérison ni comme un point final neurocognitif universel. La revue rapporte des données limitées et de faible qualité, sans schéma fiable d\'une meilleure récupération de l\'apprentissage ou de la mémoire avec une abstinence plus longue.\n\nCinq ans restent un jalon majeur à long terme : une demi-décennie de direction maintenue mérite d\'être reconnue pour elle-même.';
+
+  @override
+  String get nitrousOxideMilestone730Title => 'Deux ans - Le progrès tient';
+
+  @override
+  String get nitrousOxideMilestone730Description =>
+      'Deux ans sans protoxyde d’azote représentent 730 jours sans nouvelle exposition. Les résultats neurologiques varient et une récupération partielle est souvent rapportée après l’arrêt et le traitement ; ce cap célèbre donc une protection durable, pas une échéance médicale fixe.';
+
+  @override
+  String get nitrousOxideReferenceDay730 =>
+      'Deux ans - Le progrès tient\n\nSource : Marsden, Sharma et Rotella (2022), revue systématique de l’usage chronique de protoxyde d’azote.\n\nLa revue décrit les atteintes neurologiques comme caractéristiques de l’usage chronique, le remplacement de la vitamine B12 comme traitement principal et la récupération partielle comme l’issue la plus souvent rapportée. Elle ne définit aucun calendrier universel de récupération sur plusieurs années.\n\nDeux ans sans protoxyde d’azote représentent 730 jours sans nouvelle exposition. Les résultats neurologiques varient et une récupération partielle est souvent rapportée après l’arrêt et le traitement ; ce cap célèbre donc une protection durable, pas une échéance médicale fixe.';
+
+  @override
+  String get nitrousOxideMilestone1095Title => 'Trois ans - Base plus solide';
+
+  @override
+  String get nitrousOxideMilestone1095Description =>
+      'Trois ans constituent une longue période sans reprendre l’exposition à l’origine du risque. La recherche ne rattache pas la récupération nerveuse à cet anniversaire ; l’accomplissement est d’avoir maintenu le changement pendant 1095 jours.';
+
+  @override
+  String get nitrousOxideReferenceDay1095 =>
+      'Trois ans - Base plus solide\n\nSource : Marsden, Sharma et Rotella (2022), revue systématique de l’usage chronique de protoxyde d’azote.\n\nLa revue décrit les atteintes neurologiques comme caractéristiques de l’usage chronique, le remplacement de la vitamine B12 comme traitement principal et la récupération partielle comme l’issue la plus souvent rapportée. Elle ne définit aucun calendrier universel de récupération sur plusieurs années.\n\nTrois ans constituent une longue période sans reprendre l’exposition à l’origine du risque. La recherche ne rattache pas la récupération nerveuse à cet anniversaire ; l’accomplissement est d’avoir maintenu le changement pendant 1095 jours.';
+
+  @override
+  String get nitrousOxideMilestone1460Title =>
+      'Quatre ans - Changement durable';
+
+  @override
+  String get nitrousOxideMilestone1460Description =>
+      'Quatre ans, c’est une année entière de plus à protéger les progrès déjà acquis. Les études sur le protoxyde d’azote décrivent une récupération variable et parfois des séquelles persistantes, pas une ligne d’arrivée universelle à quatre ans.';
+
+  @override
+  String get nitrousOxideReferenceDay1460 =>
+      'Quatre ans - Changement durable\n\nSource : Marsden, Sharma et Rotella (2022), revue systématique de l’usage chronique de protoxyde d’azote.\n\nLa revue décrit les atteintes neurologiques comme caractéristiques de l’usage chronique, le remplacement de la vitamine B12 comme traitement principal et la récupération partielle comme l’issue la plus souvent rapportée. Elle ne définit aucun calendrier universel de récupération sur plusieurs années.\n\nQuatre ans, c’est une année entière de plus à protéger les progrès déjà acquis. Les études sur le protoxyde d’azote décrivent une récupération variable et parfois des séquelles persistantes, pas une ligne d’arrivée universelle à quatre ans.';
+
+  @override
+  String get nitrousOxideMilestone1825Title => 'Cinq ans - Changement qui dure';
+
+  @override
+  String get nitrousOxideMilestone1825Description =>
+      'Cinq ans sans protoxyde d’azote représentent une demi-décennie de changement durable. Aucune date de « réinitialisation » neurologique à cinq ans n’est établie par les preuves ; le cap est celui de 1825 jours dans la même direction.';
+
+  @override
+  String get nitrousOxideReferenceDay1825 =>
+      'Cinq ans - Changement qui dure\n\nSource : Marsden, Sharma et Rotella (2022), revue systématique de l’usage chronique de protoxyde d’azote.\n\nLa revue décrit les atteintes neurologiques comme caractéristiques de l’usage chronique, le remplacement de la vitamine B12 comme traitement principal et la récupération partielle comme l’issue la plus souvent rapportée. Elle ne définit aucun calendrier universel de récupération sur plusieurs années.\n\nCinq ans sans protoxyde d’azote représentent une demi-décennie de changement durable. Aucune date de « réinitialisation » neurologique à cinq ans n’est établie par les preuves ; le cap est celui de 1825 jours dans la même direction.';
 }

@@ -4199,4 +4199,50 @@ class AppLocalizationsId extends AppLocalizations {
   @override
   String get mdmaReferenceDay1825 =>
       'Lima Tahun Tanpa MDMA\n\nSumber: Ung dkk. (2026), tinjauan sistematis dan meta-analisis abstinensi MDMA berkelanjutan.\n\nBukti saat ini tidak mendukung lima tahun sebagai tanggal sembuh atau garis akhir neurokognitif universal. Tinjauan menemukan bukti terbatas berkualitas rendah dan tidak menemukan pola andal bahwa abstinensi lebih lama menghasilkan pemulihan belajar atau memori yang lebih besar.\n\nLima tahun tetap merupakan tonggak jangka panjang yang besar: setengah dekade arah yang terjaga layak dihargai dengan sendirinya.';
+
+  @override
+  String get nitrousOxideMilestone730Title => 'Dua Tahun - Kemajuan Bertahan';
+
+  @override
+  String get nitrousOxideMilestone730Description =>
+      'Dua tahun tanpa dinitrogen oksida berarti 730 hari tanpa paparan baru. Hasil neurologis beragam dan pemulihan sebagian sering dilaporkan setelah berhenti serta mendapat perawatan, jadi tonggak ini merayakan perlindungan yang berkelanjutan, bukan batas medis yang pasti.';
+
+  @override
+  String get nitrousOxideReferenceDay730 =>
+      'Dua Tahun - Kemajuan Bertahan\n\nSumber: Marsden, Sharma & Rotella (2022), tinjauan sistematis penggunaan kronis dinitrogen oksida.\n\nTinjauan tersebut menemukan masalah neurologis sebagai ciri penggunaan kronis, penggantian vitamin B12 sebagai terapi utama, dan pemulihan sebagian sebagai hasil yang paling sering dilaporkan. Tinjauan itu tidak menetapkan jadwal pemulihan universal selama bertahun-tahun.\n\nDua tahun tanpa dinitrogen oksida berarti 730 hari tanpa paparan baru. Hasil neurologis beragam dan pemulihan sebagian sering dilaporkan setelah berhenti serta mendapat perawatan, jadi tonggak ini merayakan perlindungan yang berkelanjutan, bukan batas medis yang pasti.';
+
+  @override
+  String get nitrousOxideMilestone1095Title => 'Tiga Tahun - Dasar Lebih Kuat';
+
+  @override
+  String get nitrousOxideMilestone1095Description =>
+      'Tiga tahun adalah waktu yang panjang tanpa mengulang paparan yang menimbulkan risiko. Penelitian tidak mengaitkan pemulihan saraf dengan peringatan ini; pencapaiannya adalah mempertahankan perubahan selama 1095 hari.';
+
+  @override
+  String get nitrousOxideReferenceDay1095 =>
+      'Tiga Tahun - Dasar Lebih Kuat\n\nSumber: Marsden, Sharma & Rotella (2022), tinjauan sistematis penggunaan kronis dinitrogen oksida.\n\nTinjauan tersebut menemukan masalah neurologis sebagai ciri penggunaan kronis, penggantian vitamin B12 sebagai terapi utama, dan pemulihan sebagian sebagai hasil yang paling sering dilaporkan. Tinjauan itu tidak menetapkan jadwal pemulihan universal selama bertahun-tahun.\n\nTiga tahun adalah waktu yang panjang tanpa mengulang paparan yang menimbulkan risiko. Penelitian tidak mengaitkan pemulihan saraf dengan peringatan ini; pencapaiannya adalah mempertahankan perubahan selama 1095 hari.';
+
+  @override
+  String get nitrousOxideMilestone1460Title =>
+      'Empat Tahun - Perubahan Bertahan';
+
+  @override
+  String get nitrousOxideMilestone1460Description =>
+      'Empat tahun berarti satu tahun penuh lagi melindungi kemajuan yang sudah dibangun. Studi dinitrogen oksida menunjukkan pemulihan yang beragam dan defisit menetap pada sebagian kasus, bukan garis akhir universal empat tahun.';
+
+  @override
+  String get nitrousOxideReferenceDay1460 =>
+      'Empat Tahun - Perubahan Bertahan\n\nSumber: Marsden, Sharma & Rotella (2022), tinjauan sistematis penggunaan kronis dinitrogen oksida.\n\nTinjauan tersebut menemukan masalah neurologis sebagai ciri penggunaan kronis, penggantian vitamin B12 sebagai terapi utama, dan pemulihan sebagian sebagai hasil yang paling sering dilaporkan. Tinjauan itu tidak menetapkan jadwal pemulihan universal selama bertahun-tahun.\n\nEmpat tahun berarti satu tahun penuh lagi melindungi kemajuan yang sudah dibangun. Studi dinitrogen oksida menunjukkan pemulihan yang beragam dan defisit menetap pada sebagian kasus, bukan garis akhir universal empat tahun.';
+
+  @override
+  String get nitrousOxideMilestone1825Title =>
+      'Lima Tahun - Perubahan Langgeng';
+
+  @override
+  String get nitrousOxideMilestone1825Description =>
+      'Lima tahun tanpa dinitrogen oksida adalah setengah dekade perubahan berkelanjutan. Tidak ada tanggal reset neurologis lima tahun yang berbasis bukti; tonggaknya adalah 1825 hari mempertahankan arah.';
+
+  @override
+  String get nitrousOxideReferenceDay1825 =>
+      'Lima Tahun - Perubahan Langgeng\n\nSumber: Marsden, Sharma & Rotella (2022), tinjauan sistematis penggunaan kronis dinitrogen oksida.\n\nTinjauan tersebut menemukan masalah neurologis sebagai ciri penggunaan kronis, penggantian vitamin B12 sebagai terapi utama, dan pemulihan sebagian sebagai hasil yang paling sering dilaporkan. Tinjauan itu tidak menetapkan jadwal pemulihan universal selama bertahun-tahun.\n\nLima tahun tanpa dinitrogen oksida adalah setengah dekade perubahan berkelanjutan. Tidak ada tanggal reset neurologis lima tahun yang berbasis bukti; tonggaknya adalah 1825 hari mempertahankan arah.';
 }

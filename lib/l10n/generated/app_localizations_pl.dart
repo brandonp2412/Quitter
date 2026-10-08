@@ -4221,4 +4221,49 @@ class AppLocalizationsPl extends AppLocalizations {
   @override
   String get mdmaReferenceDay1825 =>
       'Pięć lat bez MDMA\n\nŹródło: Ung i in. (2026), przegląd systematyczny i metaanaliza utrzymanej abstynencji od MDMA.\n\nObecne dowody nie uzasadniają traktowania pięciu lat jako daty wyleczenia ani uniwersalnego neurokognitywnego punktu końcowego. Przegląd znalazł ograniczone, niskiej jakości dowody i brak wiarygodnego wzorca większej poprawy uczenia się lub pamięci przy dłuższej abstynencji.\n\nPięć lat pozostaje dużym długoterminowym kamieniem milowym: pół dekady utrzymanego kierunku zasługuje na uznanie samo w sobie.';
+
+  @override
+  String get nitrousOxideMilestone730Title => 'Dwa lata - Postęp trwa';
+
+  @override
+  String get nitrousOxideMilestone730Description =>
+      'Dwa lata bez podtlenku azotu to 730 dni bez ponownej ekspozycji. Wyniki neurologiczne są różne, a po zaprzestaniu używania i leczeniu często opisywana jest częściowa poprawa, dlatego ten kamień milowy świętuje trwałą ochronę, a nie sztywny medyczny termin.';
+
+  @override
+  String get nitrousOxideReferenceDay730 =>
+      'Dwa lata - Postęp trwa\n\nŹródło: Marsden, Sharma i Rotella (2022), przegląd systematyczny przewlekłego używania podtlenku azotu.\n\nPrzegląd wskazał problemy neurologiczne jako charakterystyczne dla przewlekłego używania, uzupełnianie witaminy B12 jako główne leczenie oraz częściową poprawę jako najczęściej opisywany wynik. Nie określono uniwersalnego wieloletniego harmonogramu powrotu do zdrowia.\n\nDwa lata bez podtlenku azotu to 730 dni bez ponownej ekspozycji. Wyniki neurologiczne są różne, a po zaprzestaniu używania i leczeniu często opisywana jest częściowa poprawa, dlatego ten kamień milowy świętuje trwałą ochronę, a nie sztywny medyczny termin.';
+
+  @override
+  String get nitrousOxideMilestone1095Title =>
+      'Trzy lata - Mocniejsza podstawa';
+
+  @override
+  String get nitrousOxideMilestone1095Description =>
+      'Trzy lata to długi okres bez powrotu do ekspozycji, która tworzyła ryzyko. Badania nie przypisują regeneracji nerwów do tej rocznicy; osiągnięciem jest utrzymanie zmiany przez 1095 dni.';
+
+  @override
+  String get nitrousOxideReferenceDay1095 =>
+      'Trzy lata - Mocniejsza podstawa\n\nŹródło: Marsden, Sharma i Rotella (2022), przegląd systematyczny przewlekłego używania podtlenku azotu.\n\nPrzegląd wskazał problemy neurologiczne jako charakterystyczne dla przewlekłego używania, uzupełnianie witaminy B12 jako główne leczenie oraz częściową poprawę jako najczęściej opisywany wynik. Nie określono uniwersalnego wieloletniego harmonogramu powrotu do zdrowia.\n\nTrzy lata to długi okres bez powrotu do ekspozycji, która tworzyła ryzyko. Badania nie przypisują regeneracji nerwów do tej rocznicy; osiągnięciem jest utrzymanie zmiany przez 1095 dni.';
+
+  @override
+  String get nitrousOxideMilestone1460Title => 'Cztery lata - Trwała zmiana';
+
+  @override
+  String get nitrousOxideMilestone1460Description =>
+      'Cztery lata oznaczają kolejny pełny rok ochrony już osiągniętego postępu. Badania nad podtlenkiem azotu pokazują zróżnicowaną poprawę i czasem trwałe deficyty, a nie uniwersalną czteroletnią linię mety.';
+
+  @override
+  String get nitrousOxideReferenceDay1460 =>
+      'Cztery lata - Trwała zmiana\n\nŹródło: Marsden, Sharma i Rotella (2022), przegląd systematyczny przewlekłego używania podtlenku azotu.\n\nPrzegląd wskazał problemy neurologiczne jako charakterystyczne dla przewlekłego używania, uzupełnianie witaminy B12 jako główne leczenie oraz częściową poprawę jako najczęściej opisywany wynik. Nie określono uniwersalnego wieloletniego harmonogramu powrotu do zdrowia.\n\nCztery lata oznaczają kolejny pełny rok ochrony już osiągniętego postępu. Badania nad podtlenkiem azotu pokazują zróżnicowaną poprawę i czasem trwałe deficyty, a nie uniwersalną czteroletnią linię mety.';
+
+  @override
+  String get nitrousOxideMilestone1825Title => 'Pięć lat - Zmiana, która trwa';
+
+  @override
+  String get nitrousOxideMilestone1825Description =>
+      'Pięć lat bez podtlenku azotu to pół dekady trwałej zmiany. Nie ma opartej na dowodach daty neurologicznego „resetu” po pięciu latach; kamieniem milowym jest 1825 dni utrzymanego kierunku.';
+
+  @override
+  String get nitrousOxideReferenceDay1825 =>
+      'Pięć lat - Zmiana, która trwa\n\nŹródło: Marsden, Sharma i Rotella (2022), przegląd systematyczny przewlekłego używania podtlenku azotu.\n\nPrzegląd wskazał problemy neurologiczne jako charakterystyczne dla przewlekłego używania, uzupełnianie witaminy B12 jako główne leczenie oraz częściową poprawę jako najczęściej opisywany wynik. Nie określono uniwersalnego wieloletniego harmonogramu powrotu do zdrowia.\n\nPięć lat bez podtlenku azotu to pół dekady trwałej zmiany. Nie ma opartej na dowodach daty neurologicznego „resetu” po pięciu latach; kamieniem milowym jest 1825 dni utrzymanego kierunku.';
 }

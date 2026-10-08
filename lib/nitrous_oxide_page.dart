@@ -136,6 +136,74 @@ class NitrousOxidePage extends StatelessWidget {
             "What's Certain\n"
             "A year without nitrous oxide is a year without further methionine synthase inactivation. That's the one guarantee both sources support.",
       ),
+      QuitMilestone(
+        day: 730,
+        title: l10n.nitrousOxideMilestone730Title,
+        description: l10n.nitrousOxideMilestone730Description,
+        reference:
+            "Marsden et al. (2022) - Chronic nitrous oxide systematic review",
+        link: "https://pubmed.ncbi.nlm.nih.gov/35695047/",
+        referenceDate: "August 2022",
+        localizedReferenceContent: l10n.nitrousOxideReferenceDay730,
+        referenceContent: '''Two Years - Progress Holds
+
+Source: Marsden, Sharma & Rotella, "Clinical manifestations and outcomes of chronic nitrous oxide misuse: A systematic review," Emergency Medicine Australasia (2022), PubMed
+
+The review found neurological problems were the characteristic presentation of chronic nitrous oxide misuse and that vitamin B12 replacement was the main treatment. Partial recovery was the most commonly reported outcome, while the published evidence did not define a universal long-term recovery timetable.
+
+Two years without nitrous oxide is 730 days without renewed exposure. This milestone celebrates sustained protection and maintained change, not a fixed neurological finish line.''',
+      ),
+      QuitMilestone(
+        day: 1095,
+        title: l10n.nitrousOxideMilestone1095Title,
+        description: l10n.nitrousOxideMilestone1095Description,
+        reference:
+            "Marsden et al. (2022) - Chronic nitrous oxide systematic review",
+        link: "https://pubmed.ncbi.nlm.nih.gov/35695047/",
+        referenceDate: "August 2022",
+        localizedReferenceContent: l10n.nitrousOxideReferenceDay1095,
+        referenceContent: '''Three Years - Stronger Ground
+
+Source: Marsden, Sharma & Rotella, "Clinical manifestations and outcomes of chronic nitrous oxide misuse: A systematic review," Emergency Medicine Australasia (2022), PubMed
+
+The systematic review describes variable outcomes after chronic nitrous oxide toxicity and reports partial recovery most often. It does not map nerve recovery to three years or establish an anniversary-specific biological endpoint.
+
+Three years is 1095 days of maintaining a different direction. The achievement is the durability of that change.''',
+      ),
+      QuitMilestone(
+        day: 1460,
+        title: l10n.nitrousOxideMilestone1460Title,
+        description: l10n.nitrousOxideMilestone1460Description,
+        reference:
+            "Marsden et al. (2022) - Chronic nitrous oxide systematic review",
+        link: "https://pubmed.ncbi.nlm.nih.gov/35695047/",
+        referenceDate: "August 2022",
+        localizedReferenceContent: l10n.nitrousOxideReferenceDay1460,
+        referenceContent: '''Four Years - Built to Last
+
+Source: Marsden, Sharma & Rotella, "Clinical manifestations and outcomes of chronic nitrous oxide misuse: A systematic review," Emergency Medicine Australasia (2022), PubMed
+
+Published nitrous oxide case literature shows recovery can be incomplete and differs between people. The review does not support a universal four-year neurological recovery deadline.
+
+Four years means another full year of protecting the progress already made. That sustained direction is worth celebrating on its own.''',
+      ),
+      QuitMilestone(
+        day: 1825,
+        title: l10n.nitrousOxideMilestone1825Title,
+        description: l10n.nitrousOxideMilestone1825Description,
+        reference:
+            "Marsden et al. (2022) - Chronic nitrous oxide systematic review",
+        link: "https://pubmed.ncbi.nlm.nih.gov/35695047/",
+        referenceDate: "August 2022",
+        localizedReferenceContent: l10n.nitrousOxideReferenceDay1825,
+        referenceContent: '''Five Years - Lasting Change
+
+Source: Marsden, Sharma & Rotella, "Clinical manifestations and outcomes of chronic nitrous oxide misuse: A systematic review," Emergency Medicine Australasia (2022), PubMed
+
+The evidence supports cessation and treatment of functional vitamin B12 deficiency, but it does not establish a five-year neurological reset date. Reported outcomes vary, with partial recovery most common in the reviewed literature.
+
+Five years without nitrous oxide is 1825 days of sustained change. Half a decade is the milestone; no invented medical finish line is needed.''',
+      ),
     ];
   }
 

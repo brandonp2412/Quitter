@@ -4215,4 +4215,50 @@ class AppLocalizationsDe extends AppLocalizations {
   @override
   String get mdmaReferenceDay1825 =>
       'Fünf Jahre ohne MDMA\n\nQuelle: Ung et al. (2026), systematische Übersichtsarbeit und Metaanalyse zu anhaltender MDMA-Abstinenz.\n\nDie aktuelle Evidenz stützt weder ein Heilungsdatum nach fünf Jahren noch einen universellen neurokognitiven Endpunkt. Die Übersichtsarbeit fand begrenzte, qualitativ schwache Evidenz und kein verlässliches Muster stärkerer Lern- oder Gedächtniserholung bei längerer Abstinenz.\n\nFünf Jahre bleiben ein bedeutender langfristiger Meilenstein: Ein halbes Jahrzehnt beibehaltener Richtung verdient Anerkennung aus sich selbst heraus.';
+
+  @override
+  String get nitrousOxideMilestone730Title => 'Zwei Jahre - Fortschritt hält';
+
+  @override
+  String get nitrousOxideMilestone730Description =>
+      'Zwei Jahre ohne Lachgas sind 730 Tage ohne erneute Exposition. Die neurologischen Verläufe unterscheiden sich, und nach Absetzen und Behandlung wird häufig nur eine teilweise Erholung berichtet. Dieser Meilenstein feiert daher anhaltenden Schutz statt eines festen medizinischen Endpunkts.';
+
+  @override
+  String get nitrousOxideReferenceDay730 =>
+      'Zwei Jahre - Fortschritt hält\n\nQuelle: Marsden, Sharma & Rotella (2022), systematische Übersichtsarbeit zu chronischem Lachgasmissbrauch.\n\nDie Übersichtsarbeit beschreibt neurologische Probleme als typische Folge chronischen Lachgasmissbrauchs, Vitamin-B12-Ersatz als wichtigste Behandlung und eine teilweise Erholung als am häufigsten berichtetes Ergebnis. Einen allgemeinen mehrjährigen Erholungszeitplan legt sie nicht fest.\n\nZwei Jahre ohne Lachgas sind 730 Tage ohne erneute Exposition. Die neurologischen Verläufe unterscheiden sich, und nach Absetzen und Behandlung wird häufig nur eine teilweise Erholung berichtet. Dieser Meilenstein feiert daher anhaltenden Schutz statt eines festen medizinischen Endpunkts.';
+
+  @override
+  String get nitrousOxideMilestone1095Title => 'Drei Jahre - Fester Boden';
+
+  @override
+  String get nitrousOxideMilestone1095Description =>
+      'Drei Jahre sind eine lange Zeit ohne erneute Exposition. Die Forschung ordnet die Erholung der Nerven nicht diesem Jahrestag zu; die Leistung besteht darin, die Veränderung 1095 Tage lang aufrechtzuerhalten.';
+
+  @override
+  String get nitrousOxideReferenceDay1095 =>
+      'Drei Jahre - Fester Boden\n\nQuelle: Marsden, Sharma & Rotella (2022), systematische Übersichtsarbeit zu chronischem Lachgasmissbrauch.\n\nDie Übersichtsarbeit beschreibt neurologische Probleme als typische Folge chronischen Lachgasmissbrauchs, Vitamin-B12-Ersatz als wichtigste Behandlung und eine teilweise Erholung als am häufigsten berichtetes Ergebnis. Einen allgemeinen mehrjährigen Erholungszeitplan legt sie nicht fest.\n\nDrei Jahre sind eine lange Zeit ohne erneute Exposition. Die Forschung ordnet die Erholung der Nerven nicht diesem Jahrestag zu; die Leistung besteht darin, die Veränderung 1095 Tage lang aufrechtzuerhalten.';
+
+  @override
+  String get nitrousOxideMilestone1460Title =>
+      'Vier Jahre - Dauerhaft aufgebaut';
+
+  @override
+  String get nitrousOxideMilestone1460Description =>
+      'Vier Jahre bedeuten ein weiteres volles Jahr, in dem der erreichte Fortschritt geschützt wurde. Studien zu Lachgas zeigen unterschiedliche Erholungsverläufe und teils bleibende Defizite, keine allgemeine Vier-Jahres-Ziellinie.';
+
+  @override
+  String get nitrousOxideReferenceDay1460 =>
+      'Vier Jahre - Dauerhaft aufgebaut\n\nQuelle: Marsden, Sharma & Rotella (2022), systematische Übersichtsarbeit zu chronischem Lachgasmissbrauch.\n\nDie Übersichtsarbeit beschreibt neurologische Probleme als typische Folge chronischen Lachgasmissbrauchs, Vitamin-B12-Ersatz als wichtigste Behandlung und eine teilweise Erholung als am häufigsten berichtetes Ergebnis. Einen allgemeinen mehrjährigen Erholungszeitplan legt sie nicht fest.\n\nVier Jahre bedeuten ein weiteres volles Jahr, in dem der erreichte Fortschritt geschützt wurde. Studien zu Lachgas zeigen unterschiedliche Erholungsverläufe und teils bleibende Defizite, keine allgemeine Vier-Jahres-Ziellinie.';
+
+  @override
+  String get nitrousOxideMilestone1825Title =>
+      'Fünf Jahre - Dauerhafte Veränderung';
+
+  @override
+  String get nitrousOxideMilestone1825Description =>
+      'Fünf Jahre ohne Lachgas sind ein halbes Jahrzehnt anhaltender Veränderung. Es gibt keinen evidenzbasierten neurologischen Reset nach fünf Jahren; der Meilenstein sind 1825 Tage beständige Richtung.';
+
+  @override
+  String get nitrousOxideReferenceDay1825 =>
+      'Fünf Jahre - Dauerhafte Veränderung\n\nQuelle: Marsden, Sharma & Rotella (2022), systematische Übersichtsarbeit zu chronischem Lachgasmissbrauch.\n\nDie Übersichtsarbeit beschreibt neurologische Probleme als typische Folge chronischen Lachgasmissbrauchs, Vitamin-B12-Ersatz als wichtigste Behandlung und eine teilweise Erholung als am häufigsten berichtetes Ergebnis. Einen allgemeinen mehrjährigen Erholungszeitplan legt sie nicht fest.\n\nFünf Jahre ohne Lachgas sind ein halbes Jahrzehnt anhaltender Veränderung. Es gibt keinen evidenzbasierten neurologischen Reset nach fünf Jahren; der Meilenstein sind 1825 Tage beständige Richtung.';
 }

@@ -4017,4 +4017,48 @@ class AppLocalizationsJa extends AppLocalizations {
   @override
   String get mdmaReferenceDay1825 =>
       'MDMAを使わずに5年\n\n出典：Ungら（2026）、持続的なMDMA断薬に関する系統的レビューとメタ解析。\n\n現在の証拠は、5年を治癒日や普遍的な神経認知上の終点として扱うことを支持していません。レビューは限られた低品質のエビデンスを報告し、断薬が長いほど学習や記憶の回復が大きいという確かな傾向も示していません。\n\n5年はそれでも大きな長期節目です。5年間にわたって方向を保ったこと自体が評価に値します。';
+
+  @override
+  String get nitrousOxideMilestone730Title => '2年 - 続く前進';
+
+  @override
+  String get nitrousOxideMilestone730Description =>
+      '亜酸化窒素を使わず2年、再曝露のない730日です。神経学的な経過には幅があり、中止と治療後は部分的な回復が最も多く報告されています。この節目は固定された医学的期限ではなく、継続した保護を祝うものです。';
+
+  @override
+  String get nitrousOxideReferenceDay730 =>
+      '2年 - 続く前進\n\n出典: Marsden、Sharma、Rotella（2022）、慢性的な亜酸化窒素使用に関する系統的レビュー。\n\nこのレビューでは、神経学的問題が慢性使用の代表的な所見で、ビタミンB12補充が主な治療であり、部分的な回復が最も多く報告された転帰でした。一律の数年単位の回復スケジュールは示されていません。\n\n亜酸化窒素を使わず2年、再曝露のない730日です。神経学的な経過には幅があり、中止と治療後は部分的な回復が最も多く報告されています。この節目は固定された医学的期限ではなく、継続した保護を祝うものです。';
+
+  @override
+  String get nitrousOxideMilestone1095Title => '3年 - より強い土台';
+
+  @override
+  String get nitrousOxideMilestone1095Description =>
+      '3年は、リスクを生んだ曝露を再開せずに過ごした長い期間です。神経の回復をこの記念日に結び付ける根拠はなく、1095日間変化を維持したこと自体が成果です。';
+
+  @override
+  String get nitrousOxideReferenceDay1095 =>
+      '3年 - より強い土台\n\n出典: Marsden、Sharma、Rotella（2022）、慢性的な亜酸化窒素使用に関する系統的レビュー。\n\nこのレビューでは、神経学的問題が慢性使用の代表的な所見で、ビタミンB12補充が主な治療であり、部分的な回復が最も多く報告された転帰でした。一律の数年単位の回復スケジュールは示されていません。\n\n3年は、リスクを生んだ曝露を再開せずに過ごした長い期間です。神経の回復をこの記念日に結び付ける根拠はなく、1095日間変化を維持したこと自体が成果です。';
+
+  @override
+  String get nitrousOxideMilestone1460Title => '4年 - 持続する変化';
+
+  @override
+  String get nitrousOxideMilestone1460Description =>
+      '4年は、築いた前進をさらに1年間守ったことを意味します。亜酸化窒素の研究では回復の程度はさまざまで、後遺症が残る例もあります。4年を一律の回復期限とはしていません。';
+
+  @override
+  String get nitrousOxideReferenceDay1460 =>
+      '4年 - 持続する変化\n\n出典: Marsden、Sharma、Rotella（2022）、慢性的な亜酸化窒素使用に関する系統的レビュー。\n\nこのレビューでは、神経学的問題が慢性使用の代表的な所見で、ビタミンB12補充が主な治療であり、部分的な回復が最も多く報告された転帰でした。一律の数年単位の回復スケジュールは示されていません。\n\n4年は、築いた前進をさらに1年間守ったことを意味します。亜酸化窒素の研究では回復の程度はさまざまで、後遺症が残る例もあります。4年を一律の回復期限とはしていません。';
+
+  @override
+  String get nitrousOxideMilestone1825Title => '5年 - 長く続く変化';
+
+  @override
+  String get nitrousOxideMilestone1825Description =>
+      '亜酸化窒素を使わず5年は、持続した変化の半 दशकです。5年で神経がリセットされるという根拠はありません。1825日間方向を保ったことが、この節目の意味です。';
+
+  @override
+  String get nitrousOxideReferenceDay1825 =>
+      '5年 - 長く続く変化\n\n出典: Marsden、Sharma、Rotella（2022）、慢性的な亜酸化窒素使用に関する系統的レビュー。\n\nこのレビューでは、神経学的問題が慢性使用の代表的な所見で、ビタミンB12補充が主な治療であり、部分的な回復が最も多く報告された転帰でした。一律の数年単位の回復スケジュールは示されていません。\n\n亜酸化窒素を使わず5年は、持続した変化の半 दशकです。5年で神経がリセットされるという根拠はありません。1825日間方向を保ったことが、この節目の意味です。';
 }

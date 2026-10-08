@@ -4014,6 +4014,50 @@ class AppLocalizationsZh extends AppLocalizations {
   @override
   String get mdmaReferenceDay1825 =>
       '未使用 MDMA 五年\n\n来源：Ung 等（2026），关于持续停止 MDMA 的系统综述与荟萃分析。\n\n现有证据不支持把五年视为治愈日期或普遍适用的神经认知终点。综述发现证据有限且质量较低，也没有可靠模式表明停止时间越长，学习或记忆恢复就越明显。\n\n五年仍是重要的长期里程碑：半个十年的持续方向本身就值得认可。';
+
+  @override
+  String get nitrousOxideMilestone730Title => '两年 - 进展仍在延续';
+
+  @override
+  String get nitrousOxideMilestone730Description =>
+      '停止使用一氧化二氮满两年，意味着730天没有再次暴露。神经系统结局存在差异，停止使用并接受治疗后最常见的是部分恢复，因此这一里程碑庆祝的是持续的保护，而不是人为设定的医学终点。';
+
+  @override
+  String get nitrousOxideReferenceDay730 =>
+      '两年 - 进展仍在延续\n\n来源：Marsden、Sharma 与 Rotella（2022），慢性一氧化二氮使用的系统综述。\n\n该综述指出，神经系统问题是慢性使用的典型表现，维生素B12替代是主要治疗方式，而部分恢复是最常报告的结局。综述并未给出通用于所有人的多年恢复时间表。\n\n停止使用一氧化二氮满两年，意味着730天没有再次暴露。神经系统结局存在差异，停止使用并接受治疗后最常见的是部分恢复，因此这一里程碑庆祝的是持续的保护，而不是人为设定的医学终点。';
+
+  @override
+  String get nitrousOxideMilestone1095Title => '三年 - 基础更加稳固';
+
+  @override
+  String get nitrousOxideMilestone1095Description =>
+      '三年是一段很长的时间，没有重新开始造成风险的暴露。研究并未把神经恢复与这个周年节点绑定；真正的成就是让改变持续了1095天。';
+
+  @override
+  String get nitrousOxideReferenceDay1095 =>
+      '三年 - 基础更加稳固\n\n来源：Marsden、Sharma 与 Rotella（2022），慢性一氧化二氮使用的系统综述。\n\n该综述指出，神经系统问题是慢性使用的典型表现，维生素B12替代是主要治疗方式，而部分恢复是最常报告的结局。综述并未给出通用于所有人的多年恢复时间表。\n\n三年是一段很长的时间，没有重新开始造成风险的暴露。研究并未把神经恢复与这个周年节点绑定；真正的成就是让改变持续了1095天。';
+
+  @override
+  String get nitrousOxideMilestone1460Title => '四年 - 改变持续扎根';
+
+  @override
+  String get nitrousOxideMilestone1460Description =>
+      '四年意味着又完整地保护了既有进展一年。关于一氧化二氮的研究显示恢复程度各不相同，部分病例仍有持续缺损，并不存在通用的四年恢复终点。';
+
+  @override
+  String get nitrousOxideReferenceDay1460 =>
+      '四年 - 改变持续扎根\n\n来源：Marsden、Sharma 与 Rotella（2022），慢性一氧化二氮使用的系统综述。\n\n该综述指出，神经系统问题是慢性使用的典型表现，维生素B12替代是主要治疗方式，而部分恢复是最常报告的结局。综述并未给出通用于所有人的多年恢复时间表。\n\n四年意味着又完整地保护了既有进展一年。关于一氧化二氮的研究显示恢复程度各不相同，部分病例仍有持续缺损，并不存在通用的四年恢复终点。';
+
+  @override
+  String get nitrousOxideMilestone1825Title => '五年 - 持久的改变';
+
+  @override
+  String get nitrousOxideMilestone1825Description =>
+      '停止使用一氧化二氮五年，是持续改变的半个十年。没有证据支持所谓五年神经系统“重置”日期；1825天持续保持方向本身就是里程碑。';
+
+  @override
+  String get nitrousOxideReferenceDay1825 =>
+      '五年 - 持久的改变\n\n来源：Marsden、Sharma 与 Rotella（2022），慢性一氧化二氮使用的系统综述。\n\n该综述指出，神经系统问题是慢性使用的典型表现，维生素B12替代是主要治疗方式，而部分恢复是最常报告的结局。综述并未给出通用于所有人的多年恢复时间表。\n\n停止使用一氧化二氮五年，是持续改变的半个十年。没有证据支持所谓五年神经系统“重置”日期；1825天持续保持方向本身就是里程碑。';
 }
 
 /// The translations for Chinese, using the Han script (`zh_Hant`).
@@ -8026,4 +8070,48 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   @override
   String get mdmaReferenceDay1825 =>
       '未使用 MDMA 五年\n\n來源：Ung 等（2026），關於持續停止 MDMA 的系統性綜述與統合分析。\n\n現有證據不支持把五年視為治癒日期或普遍適用的神經認知終點。綜述發現證據有限且品質偏低，也沒有可靠模式顯示停止時間越長，學習或記憶恢復就越明顯。\n\n五年仍是重要的長期里程碑：半個十年的持續方向本身就值得肯定。';
+
+  @override
+  String get nitrousOxideMilestone730Title => '兩年 - 進展仍在延續';
+
+  @override
+  String get nitrousOxideMilestone730Description =>
+      '停止使用一氧化二氮滿兩年，代表730天沒有再次暴露。神經系統結果各有不同，停止使用並接受治療後最常見的是部分恢復，因此這個里程碑慶祝的是持續保護，而不是人為設定的醫療終點。';
+
+  @override
+  String get nitrousOxideReferenceDay730 =>
+      '兩年 - 進展仍在延續\n\n來源：Marsden、Sharma 與 Rotella（2022），慢性一氧化二氮使用的系統綜述。\n\n該綜述指出，神經系統問題是慢性使用的典型表現，維生素B12替代是主要治療方式，而部分恢復是最常報告的結果。綜述並未提出適用於所有人的多年恢復時間表。\n\n停止使用一氧化二氮滿兩年，代表730天沒有再次暴露。神經系統結果各有不同，停止使用並接受治療後最常見的是部分恢復，因此這個里程碑慶祝的是持續保護，而不是人為設定的醫療終點。';
+
+  @override
+  String get nitrousOxideMilestone1095Title => '三年 - 基礎更加穩固';
+
+  @override
+  String get nitrousOxideMilestone1095Description =>
+      '三年是一段很長的時間，沒有重新開始造成風險的暴露。研究並未把神經恢復與這個週年節點綁定；真正的成就是讓改變持續了1095天。';
+
+  @override
+  String get nitrousOxideReferenceDay1095 =>
+      '三年 - 基礎更加穩固\n\n來源：Marsden、Sharma 與 Rotella（2022），慢性一氧化二氮使用的系統綜述。\n\n該綜述指出，神經系統問題是慢性使用的典型表現，維生素B12替代是主要治療方式，而部分恢復是最常報告的結果。綜述並未提出適用於所有人的多年恢復時間表。\n\n三年是一段很長的時間，沒有重新開始造成風險的暴露。研究並未把神經恢復與這個週年節點綁定；真正的成就是讓改變持續了1095天。';
+
+  @override
+  String get nitrousOxideMilestone1460Title => '四年 - 改變持續扎根';
+
+  @override
+  String get nitrousOxideMilestone1460Description =>
+      '四年代表又完整地保護既有進展一年。關於一氧化二氮的研究顯示恢復程度各有不同，部分個案仍有持續缺損，並不存在通用的四年恢復終點。';
+
+  @override
+  String get nitrousOxideReferenceDay1460 =>
+      '四年 - 改變持續扎根\n\n來源：Marsden、Sharma 與 Rotella（2022），慢性一氧化二氮使用的系統綜述。\n\n該綜述指出，神經系統問題是慢性使用的典型表現，維生素B12替代是主要治療方式，而部分恢復是最常報告的結果。綜述並未提出適用於所有人的多年恢復時間表。\n\n四年代表又完整地保護既有進展一年。關於一氧化二氮的研究顯示恢復程度各有不同，部分個案仍有持續缺損，並不存在通用的四年恢復終點。';
+
+  @override
+  String get nitrousOxideMilestone1825Title => '五年 - 持久的改變';
+
+  @override
+  String get nitrousOxideMilestone1825Description =>
+      '停止使用一氧化二氮五年，是持續改變的半個十年。沒有證據支持所謂五年神經系統「重置」日期；1825天持續保持方向本身就是里程碑。';
+
+  @override
+  String get nitrousOxideReferenceDay1825 =>
+      '五年 - 持久的改變\n\n來源：Marsden、Sharma 與 Rotella（2022），慢性一氧化二氮使用的系統綜述。\n\n該綜述指出，神經系統問題是慢性使用的典型表現，維生素B12替代是主要治療方式，而部分恢復是最常報告的結果。綜述並未提出適用於所有人的多年恢復時間表。\n\n停止使用一氧化二氮五年，是持續改變的半個十年。沒有證據支持所謂五年神經系統「重置」日期；1825天持續保持方向本身就是里程碑。';
 }
