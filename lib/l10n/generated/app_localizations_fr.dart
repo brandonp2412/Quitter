@@ -2318,6 +2318,27 @@ class AppLocalizationsFr extends AppLocalizations {
       'Une année entière de liberté ! Votre risque d\'AVC a fortement diminué et vos vaisseaux sanguins récupèrent remarquablement. Vous avez offert à votre cerveau une meilleure circulation et davantage de protection.';
 
   @override
+  String get smokingMilestone730Title => 'Deux ans : le cœur gagne';
+
+  @override
+  String get smokingMilestone730Description =>
+      'Deux ans sans tabac représentent un grand bénéfice cardiovasculaire. Selon les CDC, le risque d’infarctus chute fortement entre 1 et 2 ans après l’arrêt, tandis que le risque de maladie coronarienne continue de diminuer à plus long terme.';
+
+  @override
+  String get smokingMilestone1095Title => 'Trois ans : risque cardiaque réduit';
+
+  @override
+  String get smokingMilestone1095Description =>
+      'Trois ans sans tabac marquent le début de la période de 3 à 6 ans des CDC, durant laquelle le sur-risque de maladie coronarienne est réduit de moitié. La baisse se construit sur cette période, pas en un jour précis.';
+
+  @override
+  String get smokingMilestone1460Title => 'Quatre ans : le cœur progresse';
+
+  @override
+  String get smokingMilestone1460Description =>
+      'Quatre ans sans tabac se situent dans la période de 3 à 6 ans des CDC, durant laquelle le sur-risque de maladie coronarienne est réduit de moitié. Le bénéfice cardiovasculaire à long terme continue de s’accumuler.';
+
+  @override
   String get smokingMilestone1825Title =>
       'Certains risques de cancer chutent (5–10 ans)';
 
@@ -3823,6 +3844,18 @@ class AppLocalizationsFr extends AppLocalizations {
   @override
   String get smokingReferenceDay365 =>
       'Un an : le risque d\'infarctus diminue fortement\n\nSource : PMC — Smoking Cessation and Stroke Outcome ; CDC, Benefits of Quitting Smoking\n\nLe tabagisme double approximativement le risque d\'AVC en favorisant l\'accumulation de plaques dans les artères, en augmentant la coagulation et la pression artérielle, et en endommageant les vaisseaux sanguins du cerveau. La chronologie des bénéfices de l\'arrêt publiée par le CDC situe la forte baisse du risque d\'infarctus entre un et deux ans : vous entrez donc dans cette période.\n\nChronologie de la récupération\nLa normalisation complète du risque d\'AVC prend plus de temps. L\'étude citée sur les AVC a suivi les personnes ayant arrêté pendant une durée médiane de près de cinq ans pour mettre en évidence un taux d\'AVC sensiblement inférieur à celui des personnes continuant à fumer. Les données du CDC situent une division par deux du risque de maladie coronarienne entre trois et six ans, et une diminution du risque d\'AVC sur une période de cinq à dix ans.\n\nUn an reste un véritable jalon médical : la partie la plus forte de la baisse du risque aigu est derrière vous, même si les bénéfices cardiovasculaires et anticancéreux à long terme continuent de s\'accumuler pendant des années.';
+
+  @override
+  String get smokingReferenceDay730 =>
+      'Deux ans : les bénéfices cardiovasculaires continuent\n\nSource : CDC, bénéfices de l’arrêt du tabac\n\nLes CDC indiquent que le risque d’infarctus diminue fortement entre 1 et 2 ans après l’arrêt. Deux ans correspondent à l’extrémité de cette période étayée, et non à un basculement soudain en une seule journée.\n\nLa tendance se poursuit : le sur-risque de maladie coronarienne continue de baisser et est réduit de moitié sur la période de 3 à 6 ans. Deux ans sans tabac méritent d’être célébrés sans inventer une date biologique exacte.';
+
+  @override
+  String get smokingReferenceDay1095 =>
+      'Trois ans : la fenêtre cardiaque commence\n\nSource : CDC, bénéfices de l’arrêt du tabac\n\nLes CDC situent la réduction de moitié du sur-risque de maladie coronarienne entre 3 et 6 ans après l’arrêt. Trois ans correspondent au début de cette plage.\n\nLes données décrivent une période et non un seuil instantané. À trois ans, la réduction du risque cardiovasculaire à long terme est bien engagée et continue de progresser.';
+
+  @override
+  String get smokingReferenceDay1460 =>
+      'Quatre ans : les bénéfices cardiaques progressent\n\nSource : CDC, bénéfices de l’arrêt du tabac\n\nQuatre ans sans tabac se trouvent dans la période de 3 à 6 ans des CDC, durant laquelle le sur-risque de maladie coronarienne est réduit de moitié par rapport à la poursuite du tabagisme.\n\nCette plage compte : elle évite d’affirmer un basculement biologique exactement à quatre ans tout en reconnaissant une période médicalement étayée d’amélioration cardiovasculaire importante.';
 
   @override
   String get smokingReferenceDay1825 =>

@@ -2289,6 +2289,27 @@ class AppLocalizationsDe extends AppLocalizations {
       'Ein volles Jahr Freiheit! Ihr Schlaganfallrisiko ist erheblich gesunken und Ihre Blutgefäße heilen wunderschön. Sie haben Ihrem Gehirn offiziell die Gabe einer besseren Zirkulation und eines besseren Schutzes gegeben.';
 
   @override
+  String get smokingMilestone730Title => 'Zwei Jahre: Herz gewinnt';
+
+  @override
+  String get smokingMilestone730Description =>
+      'Zwei Jahre rauchfrei sind ein großer Gewinn für Herz und Gefäße. Laut CDC sinkt das Herzinfarktrisiko innerhalb von 1–2 Jahren nach dem Aufhören stark; das Risiko einer koronaren Herzkrankheit nimmt danach weiter ab.';
+
+  @override
+  String get smokingMilestone1095Title => 'Drei Jahre: Herzrisiko sinkt';
+
+  @override
+  String get smokingMilestone1095Description =>
+      'Drei Jahre rauchfrei markieren den Beginn des CDC-Zeitraums von 3–6 Jahren, in dem das zusätzliche Risiko einer koronaren Herzkrankheit um die Hälfte sinkt. Die Abnahme entwickelt sich über den Zeitraum, nicht an einem einzelnen Tag.';
+
+  @override
+  String get smokingMilestone1460Title => 'Vier Jahre: Herz profitiert';
+
+  @override
+  String get smokingMilestone1460Description =>
+      'Vier Jahre rauchfrei liegen mitten im CDC-Zeitraum von 3–6 Jahren, in dem das zusätzliche Risiko einer koronaren Herzkrankheit um die Hälfte sinkt. Der langfristige Herz-Kreislauf-Nutzen wächst weiter.';
+
+  @override
   String get smokingMilestone1825Title =>
       'Einige Krebsrisiken stürzen ab (5–10 Jahre)';
 
@@ -3783,6 +3804,18 @@ class AppLocalizationsDe extends AppLocalizations {
   @override
   String get smokingReferenceDay365 =>
       'Ein Jahr: Herzinfarktrisiko fällt stark\n\nQuelle: PMC — Raucherentwöhnung und Schlaganfall-Ergebnis; CDC, Vorteile der Raucherentwöhnung\n\nRauchen verdoppelt in etwa das Schlaganfallrisiko, indem es den Aufbau von Arterienplaque fördert, die Blutgerinnung erhöht, den Blutdruck erhöht und die zerebralen Blutgefäße schädigt. Die CDC eigene Quitting-Vorteile Timeline bringt den scharfen Rückgang des Herzinfarktrisikos an der 1-zu-2-Jahres-Marke - Sie sind an der Vorderkante dieses Fensters.\n\nErholungszeitplan\nDie vollständige Normalisierung des Schlaganfallrisikos dauert länger: Die zitierte Schlaganfallstudie folgte Quittern für einen Median von fast fünf Jahren, um eine signifikant niedrigere Schlaganfallrate als fortgesetzte Raucher zu zeigen, und CDC-Daten legen das Risiko für koronare Herzerkrankungen auf 3 bis 6 Jahre halbiert, wobei das Schlaganfallrisiko über die 5- bis 10-Jahres-Marke sinkt.\n\nEin Jahr ist immer noch ein echter medizinischer Meilenstein - der steilste Teil des akuten Risikorückgangs liegt hinter Ihnen, obwohl die längerfristigen kardiovaskulären und Krebsvorteile jahrelang weiter wachsen.';
+
+  @override
+  String get smokingReferenceDay730 =>
+      'Zwei Jahre: Herz-Kreislauf-Gewinne gehen weiter\n\nQuelle: CDC, Vorteile des Rauchstopps\n\nDie CDC berichtet, dass das Herzinfarktrisiko innerhalb von 1–2 Jahren nach dem Rauchstopp stark sinkt. Zwei Jahre markieren das Ende dieses belegten Zeitfensters, keinen plötzlichen Umschaltpunkt.\n\nDer langfristige Trend setzt sich fort: Das zusätzliche Risiko einer koronaren Herzkrankheit nimmt weiter ab und sinkt im Zeitraum von 3–6 Jahren um die Hälfte. Zwei rauchfreie Jahre sind ein großer Erfolg, ohne daraus einen exakten biologischen Stichtag zu machen.';
+
+  @override
+  String get smokingReferenceDay1095 =>
+      'Drei Jahre: Das Herz-Zeitfenster beginnt\n\nQuelle: CDC, Vorteile des Rauchstopps\n\nDie CDC ordnet die Halbierung des zusätzlichen Risikos einer koronaren Herzkrankheit in den Zeitraum von 3–6 Jahren nach dem Rauchstopp ein. Drei Jahre sind der Beginn dieses Bereichs.\n\nDie Evidenz beschreibt ein Zeitfenster und keinen sofortigen Schwellenwert. Nach drei Jahren ist die langfristige Senkung des Herz-Kreislauf-Risikos klar im Gang und entwickelt sich weiter.';
+
+  @override
+  String get smokingReferenceDay1460 =>
+      'Vier Jahre: Der Herzschutz wächst weiter\n\nQuelle: CDC, Vorteile des Rauchstopps\n\nVier rauchfreie Jahre liegen innerhalb des CDC-Zeitraums von 3–6 Jahren, in dem das zusätzliche Risiko einer koronaren Herzkrankheit gegenüber weiterem Rauchen um die Hälfte sinkt.\n\nDieser Bereich ist wichtig: Er vermeidet die Behauptung eines exakten biologischen Umschaltpunkts nach vier Jahren und würdigt dennoch eine medizinisch belegte Phase großer Herz-Kreislauf-Verbesserungen.';
 
   @override
   String get smokingReferenceDay1825 =>

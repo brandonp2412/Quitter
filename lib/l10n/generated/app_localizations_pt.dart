@@ -2298,6 +2298,27 @@ class AppLocalizationsPt extends AppLocalizations {
       'Um ano inteiro de liberdade! O risco de acidente vascular cerebral diminuiu substancialmente e os vasos sanguíneos estão cicatrizando perfeitamente. Deu oficialmente ao seu cérebro o presente de melhor circulação e proteção.';
 
   @override
+  String get smokingMilestone730Title => 'Dois anos: o coração ganha';
+
+  @override
+  String get smokingMilestone730Description =>
+      'Dois anos sem fumar são uma grande conquista cardiovascular. O CDC indica que o risco de enfarte cai acentuadamente entre 1 e 2 anos após deixar de fumar, enquanto o risco de doença coronária continua a diminuir a longo prazo.';
+
+  @override
+  String get smokingMilestone1095Title => 'Três anos: risco cardíaco desce';
+
+  @override
+  String get smokingMilestone1095Description =>
+      'Três anos sem fumar marcam o início do intervalo de 3 a 6 anos do CDC, em que o risco adicional de doença coronária é reduzido para metade. A redução desenvolve-se ao longo do intervalo, não num único dia.';
+
+  @override
+  String get smokingMilestone1460Title => 'Quatro anos: o coração progride';
+
+  @override
+  String get smokingMilestone1460Description =>
+      'Quatro anos sem fumar ficam dentro do intervalo de 3 a 6 anos do CDC, em que o risco adicional de doença coronária é reduzido para metade. O benefício cardiovascular a longo prazo continua a crescer.';
+
+  @override
   String get smokingMilestone1825Title =>
       'O risco de alguns cancros cai a pique (5–10 anos)';
 
@@ -3798,6 +3819,18 @@ class AppLocalizationsPt extends AppLocalizations {
   @override
   String get smokingReferenceDay365 =>
       'Um ano: o risco de ataque cardíaco cai acentuadamente\n\nFonte: PMC — Cessação do Tabagismo e Resultado do AVC; CDC, Benefícios de parar de fumar\n\nFumar praticamente duplica o risco de acidente vascular cerebral, promovendo o acúmulo de placas nas artérias, aumentando a coagulação sanguínea, aumentando a pressão arterial e danificando os vasos sanguíneos cerebrais. O cronograma de benefícios de abandono do próprio CDC coloca a queda acentuada no risco de ataque cardíaco na marca de 1 a 2 anos – está no limite dessa janela.\n\nCronograma de recuperação\nA normalização total do risco de AVC leva mais tempo: o estudo de AVC citado acompanhou os que abandonaram o hábito durante uma mediana de quase cinco anos para mostrar uma taxa de AVC significativamente mais baixa do que os fumantes continuados, e os dados do CDC colocam o risco de doença coronariana reduzido pela metade em 3 a 6 anos, com o risco de AVC diminuindo ao longo da marca de 5 a 10 anos.\n\nUm ano ainda é um marco médico genuíno – a parte mais acentuada do declínio do risco agudo já ficou para trás, embora os benefícios cardiovasculares e oncológicos a longo prazo continuem a aumentar durante anos.';
+
+  @override
+  String get smokingReferenceDay730 =>
+      'Dois anos: os ganhos cardiovasculares continuam\n\nFonte: CDC, benefícios de deixar de fumar\n\nO CDC indica que o risco de enfarte cai acentuadamente entre 1 e 2 anos após deixar de fumar. Dois anos marcam o fim desse intervalo apoiado pela evidência, não uma mudança súbita num único dia.\n\nA tendência de longo prazo continua: o risco adicional de doença coronária continua a baixar e é reduzido para metade no período de 3 a 6 anos. Dois anos sem fumar merecem ser celebrados sem inventar uma data biológica exata.';
+
+  @override
+  String get smokingReferenceDay1095 =>
+      'Três anos: começa a janela cardíaca\n\nFonte: CDC, benefícios de deixar de fumar\n\nO CDC situa a redução para metade do risco adicional de doença coronária entre 3 e 6 anos após deixar de fumar. Três anos são o início desse intervalo.\n\nA evidência descreve uma janela temporal, não um limiar instantâneo. Aos três anos, a redução do risco cardiovascular a longo prazo já está bem encaminhada e continua a acumular-se.';
+
+  @override
+  String get smokingReferenceDay1460 =>
+      'Quatro anos: os benefícios cardíacos crescem\n\nFonte: CDC, benefícios de deixar de fumar\n\nQuatro anos sem fumar ficam dentro do intervalo de 3 a 6 anos do CDC, em que o risco adicional de doença coronária é reduzido para metade em comparação com continuar a fumar.\n\nEsse intervalo é importante: evita afirmar uma mudança biológica exata aos quatro anos e reconhece, ao mesmo tempo, um período clinicamente fundamentado de grande melhoria cardiovascular.';
 
   @override
   String get smokingReferenceDay1825 =>
@@ -6634,6 +6667,27 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
       'Um ano inteiro de liberdade!O risco de acidente vascular cerebral diminuiu substancialmente e os vasos sanguíneos estão cicatrizando perfeitamente. Você deu oficialmente ao seu cérebro o presente de melhor circulação e proteção.';
 
   @override
+  String get smokingMilestone730Title => 'Dois anos: o coração ganha';
+
+  @override
+  String get smokingMilestone730Description =>
+      'Dois anos sem fumar são uma grande conquista cardiovascular. O CDC informa que o risco de infarto cai bastante entre 1 e 2 anos após parar de fumar, enquanto o risco de doença coronariana continua diminuindo no longo prazo.';
+
+  @override
+  String get smokingMilestone1095Title => 'Três anos: risco cardíaco cai';
+
+  @override
+  String get smokingMilestone1095Description =>
+      'Três anos sem fumar marcam o início do intervalo de 3 a 6 anos do CDC, em que o risco adicional de doença coronariana é reduzido pela metade. A redução acontece ao longo desse período, não em um único dia.';
+
+  @override
+  String get smokingMilestone1460Title => 'Quatro anos: o coração melhora';
+
+  @override
+  String get smokingMilestone1460Description =>
+      'Quatro anos sem fumar ficam dentro do intervalo de 3 a 6 anos do CDC, em que o risco adicional de doença coronariana é reduzido pela metade. O benefício cardiovascular de longo prazo continua aumentando.';
+
+  @override
   String get smokingMilestone1825Title =>
       'Alguns riscos de câncer despencam (5–10 anos)';
 
@@ -8137,6 +8191,18 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
   @override
   String get smokingReferenceDay365 =>
       'Um ano: o risco de ataque cardíaco cai acentuadamente\n\nFonte: PMC — Cessação do Tabagismo e Resultado do AVC; CDC, Benefícios de parar de fumar\n\nFumar praticamente duplica o risco de acidente vascular cerebral, promovendo o acúmulo de placas nas artérias, aumentando a coagulação sanguínea, aumentando a pressão arterial e danificando os vasos sanguíneos cerebrais. O cronograma de benefícios de abandono do próprio CDC coloca a queda acentuada no risco de ataque cardíaco na marca de 1 a 2 anos – você está no limite dessa janela.\n\nCronograma de recuperação\nA normalização total do risco de AVC leva mais tempo: o estudo de AVC citado acompanhou os que abandonaram o hábito durante uma mediana de quase cinco anos para mostrar uma taxa de AVC significativamente mais baixa do que os fumantes continuados, e os dados do CDC colocam o risco de doença coronariana reduzido pela metade em 3 a 6 anos, com o risco de AVC diminuindo ao longo da marca de 5 a 10 anos.\n\nUm ano ainda é um marco médico genuíno – a parte mais acentuada do declínio do risco agudo já ficou para trás, embora os benefícios cardiovasculares e oncológicos a longo prazo continuem a aumentar durante anos.';
+
+  @override
+  String get smokingReferenceDay730 =>
+      'Dois anos: os ganhos cardiovasculares continuam\n\nFonte: CDC, benefícios de parar de fumar\n\nO CDC informa que o risco de infarto cai bastante entre 1 e 2 anos após parar de fumar. Dois anos marcam o fim desse intervalo sustentado por evidências, não uma mudança repentina em um único dia.\n\nA tendência de longo prazo continua: o risco adicional de doença coronariana segue caindo e é reduzido pela metade no período de 3 a 6 anos. Dois anos sem fumar merecem ser celebrados sem inventar uma data biológica exata.';
+
+  @override
+  String get smokingReferenceDay1095 =>
+      'Três anos: começa a janela cardíaca\n\nFonte: CDC, benefícios de parar de fumar\n\nO CDC situa a redução pela metade do risco adicional de doença coronariana entre 3 e 6 anos após parar de fumar. Três anos são o início desse intervalo.\n\nAs evidências descrevem uma janela de tempo, não um limite instantâneo. Aos três anos, a redução do risco cardiovascular de longo prazo já está bem encaminhada e continua avançando.';
+
+  @override
+  String get smokingReferenceDay1460 =>
+      'Quatro anos: os benefícios cardíacos crescem\n\nFonte: CDC, benefícios de parar de fumar\n\nQuatro anos sem fumar ficam dentro do intervalo de 3 a 6 anos do CDC, em que o risco adicional de doença coronariana é reduzido pela metade em comparação com continuar fumando.\n\nEsse intervalo é importante: evita afirmar uma mudança biológica exata aos quatro anos e, ao mesmo tempo, reconhece um período clinicamente fundamentado de grande melhora cardiovascular.';
 
   @override
   String get smokingReferenceDay1825 =>

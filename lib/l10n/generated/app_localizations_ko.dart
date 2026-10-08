@@ -2179,6 +2179,27 @@ class AppLocalizationsKo extends AppLocalizations {
       '1년의 자유를 누리세요! 뇌졸중 위험이 크게 감소했으며 혈관이 아름답게 치유되고 있습니다. 당신은 공식적으로 두뇌에 더 나은 순환과 보호라는 선물을 주었습니다.';
 
   @override
+  String get smokingMilestone730Title => '2년: 심장이 더 건강하게';
+
+  @override
+  String get smokingMilestone730Description =>
+      '금연 2년은 심혈관 건강에 큰 성과입니다. CDC에 따르면 심근경색 위험은 금연 후 1~2년 사이에 크게 감소하며, 관상동맥질환 위험은 장기적으로 계속 낮아집니다.';
+
+  @override
+  String get smokingMilestone1095Title => '3년: 심장 위험이 더 낮아집니다';
+
+  @override
+  String get smokingMilestone1095Description =>
+      '금연 3년은 관상동맥질환의 추가 위험이 절반으로 감소하는 CDC의 3~6년 구간이 시작되는 시점입니다. 감소는 이 기간에 걸쳐 진행되며 특정 하루에 일어나는 변화가 아닙니다.';
+
+  @override
+  String get smokingMilestone1460Title => '4년: 심장 이점이 쌓입니다';
+
+  @override
+  String get smokingMilestone1460Description =>
+      '금연 4년은 관상동맥질환의 추가 위험이 절반으로 감소하는 CDC의 3~6년 구간 안에 있습니다. 장기적인 심혈관 이점은 계속 커집니다.';
+
+  @override
   String get smokingMilestone1825Title => '일부 암 위험이 크게 줄어듭니다 (5~10년)';
 
   @override
@@ -3630,6 +3651,18 @@ class AppLocalizationsKo extends AppLocalizations {
   @override
   String get smokingReferenceDay365 =>
       '1년: 심장마비 위험이 급격히 감소\n\n출처: PMC — 흡연 중단 및 뇌졸중 결과; CDC, 금연의 이점\n\n흡연은 동맥 플라크 축적을 촉진하고 혈액 응고를 증가시키며 혈압을 높이고 뇌혈관을 손상시켜 뇌졸중 위험을 대략 두 배로 증가시킵니다. CDC의 금연 혜택 타임라인에 따르면 1~2년 내에 심장마비 위험이 급격히 감소합니다. 귀하는 그 기간의 최전선에 있습니다.\n\n복구 일정\n전체 뇌졸중 위험 정상화에는 더 오랜 시간이 걸립니다. 인용된 뇌졸중 연구에서는 금연자를 중앙값 거의 5년 동안 추적한 결과 계속 흡연하는 사람보다 뇌졸중 발생률이 유의미하게 낮은 것으로 나타났습니다. CDC 데이터에 따르면 관상동맥 심장 질환 위험은 3~6년에 절반으로 줄어들고 뇌졸중 위험은 5~10년에 걸쳐 감소합니다.\n\n1년은 여전히 ​​진정한 의학적 이정표입니다. 장기적인 심혈관 및 암 혜택이 수년간 계속 축적되더라도 급성 위험 감소의 가장 가파른 부분은 뒤에 있습니다.';
+
+  @override
+  String get smokingReferenceDay730 =>
+      '2년: 심혈관 이점이 계속됩니다\n\n출처: CDC, 금연의 건강상 이점\n\nCDC에 따르면 심근경색 위험은 금연 후 1~2년 사이에 크게 감소합니다. 2년은 그 근거가 제시하는 범위의 끝이지, 특정 하루에 갑자기 바뀐다는 뜻은 아닙니다.\n\n장기적인 흐름도 이어집니다. 관상동맥질환의 추가 위험은 계속 낮아지고 3~6년 사이에 절반으로 감소합니다. 정확한 생물학적 날짜를 만들지 않아도 금연 2년은 충분히 큰 성과입니다.';
+
+  @override
+  String get smokingReferenceDay1095 =>
+      '3년: 심장 개선 구간이 시작됩니다\n\n출처: CDC, 금연의 건강상 이점\n\nCDC는 관상동맥질환의 추가 위험이 절반으로 줄어드는 시기를 금연 후 3~6년으로 제시합니다. 3년은 그 범위의 시작입니다.\n\n근거는 하나의 기간을 설명하며 즉각적인 경계선을 뜻하지 않습니다. 3년이 되면 장기적인 심혈관 위험 감소가 이미 뚜렷하게 진행 중이며 이점은 계속 쌓입니다.';
+
+  @override
+  String get smokingReferenceDay1460 =>
+      '4년: 심장 건강 이점이 계속됩니다\n\n출처: CDC, 금연의 건강상 이점\n\n금연 4년은 CDC가 제시한 3~6년 구간 안에 있으며, 계속 흡연하는 경우와 비교해 관상동맥질환의 추가 위험이 절반으로 줄어드는 시기입니다.\n\n이 범위는 4년이라는 정확한 날짜에 생물학적 전환이 일어난다고 주장하지 않으면서도, 의학적 근거가 있는 큰 심혈관 개선 시기를 제대로 인정하게 해 줍니다.';
 
   @override
   String get smokingReferenceDay1825 =>

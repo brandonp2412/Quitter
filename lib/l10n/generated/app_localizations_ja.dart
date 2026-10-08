@@ -2135,6 +2135,27 @@ class AppLocalizationsJa extends AppLocalizations {
       '禁煙1周年！脳卒中リスクは大幅に低下し、血管の回復も進んでいます。脳への血流が改善し、脳卒中から守る効果も高まっています。';
 
   @override
+  String get smokingMilestone730Title => '2年：心血管への大きな成果';
+
+  @override
+  String get smokingMilestone730Description =>
+      '禁煙2年は心血管にとって大きな節目です。CDCでは、心筋梗塞のリスクは禁煙後1～2年で大きく低下し、冠動脈疾患のリスクはその後も長期的に低下するとしています。';
+
+  @override
+  String get smokingMilestone1095Title => '3年：心臓リスクがさらに低下';
+
+  @override
+  String get smokingMilestone1095Description =>
+      '禁煙3年は、冠動脈疾患の上乗せリスクが半減するというCDCの3～6年の期間の始まりです。低下はこの期間を通して進み、特定の1日に起こるものではありません。';
+
+  @override
+  String get smokingMilestone1460Title => '4年：心臓への効果が積み重なる';
+
+  @override
+  String get smokingMilestone1460Description =>
+      '禁煙4年は、冠動脈疾患の上乗せリスクが半減するというCDCの3～6年の期間内です。長期的な心血管への効果は今も積み重なっています。';
+
+  @override
   String get smokingMilestone1825Title => '一部のがんリスクが大幅低下（5〜10年）';
 
   @override
@@ -3586,6 +3607,18 @@ class AppLocalizationsJa extends AppLocalizations {
   @override
   String get smokingReferenceDay365 =>
       '1年：心臓発作のリスクが急激に低下する\n\n出典：PMC — Smoking Cessation and Stroke Outcome; CDC, Benefits of Quitting Smoking\n\n喫煙は、動脈のプラーク蓄積を促進し、血液凝固を増やし、血圧を上げ、脳血管を損傷することで、脳卒中のリスクをおよそ2倍にします。CDC自身の禁煙の利益タイムラインは、心臓発作リスクの急激な低下を1〜2年の時点に置いています—あなたはその期間の最先端にいます。\n\n回復のタイムライン\n脳卒中リスクの完全な正常化にはより時間がかかります：引用された脳卒中の研究は、喫煙を続けた人より有意に低い脳卒中率を示すために、禁煙者を中央値で約5年追跡しました。CDCのデータは、冠動脈心疾患リスクの半減を3〜6年、脳卒中リスクの低下を5〜10年の時点に置いています。\n\nそれでも1年は本物の医学的マイルストーンです—長期的な心血管系とがんの利益は今後も何年も積み重なり続けますが、急性リスク低下の最も急な部分はすでに通過しています。';
+
+  @override
+  String get smokingReferenceDay730 =>
+      '2年：心血管への効果は続く\n\n出典：CDC「禁煙の健康上の利点」\n\nCDCでは、心筋梗塞のリスクは禁煙後1～2年で大きく低下するとしています。2年はその根拠が示す期間の終点であり、特定の日に突然変化するという意味ではありません。\n\n長期的な改善は続きます。冠動脈疾患の上乗せリスクはさらに低下し、3～6年の期間に半減するとされています。正確な生物学的日付を作り出すことなく、禁煙2年という成果を十分に祝えます。';
+
+  @override
+  String get smokingReferenceDay1095 =>
+      '3年：心臓への改善期間が始まる\n\n出典：CDC「禁煙の健康上の利点」\n\nCDCは、冠動脈疾患の上乗せリスクが半減する時期を禁煙後3～6年としています。3年はその範囲の始まりです。\n\n根拠が示すのは期間であり、瞬間的な境界ではありません。3年時点では長期的な心血管リスク低下が着実に進んでおり、その効果はさらに積み重なります。';
+
+  @override
+  String get smokingReferenceDay1460 =>
+      '4年：心臓への効果はさらに続く\n\n出典：CDC「禁煙の健康上の利点」\n\n禁煙4年はCDCが示す3～6年の期間内にあり、喫煙を続けた場合と比べて冠動脈疾患の上乗せリスクが半減するとされています。\n\nこの幅のある期間を示すことで、4年ちょうどに生物学的な切り替わりが起こるとは主張せず、医学的根拠のある大きな心血管改善の時期を適切に評価できます。';
 
   @override
   String get smokingReferenceDay1825 =>

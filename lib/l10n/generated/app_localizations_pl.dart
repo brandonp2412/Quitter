@@ -2299,6 +2299,27 @@ class AppLocalizationsPl extends AppLocalizations {
       'Jeden pełny rok wolności! Twoje ryzyko udaru zmniejszył się znacznie, a naczynia krwionośne są goją się pięknie.';
 
   @override
+  String get smokingMilestone730Title => 'Dwa lata: serce zyskuje';
+
+  @override
+  String get smokingMilestone730Description =>
+      'Dwa lata bez palenia to duży sukces dla serca i naczyń. CDC podaje, że ryzyko zawału wyraźnie spada w ciągu 1–2 lat po rzuceniu palenia, a ryzyko choroby wieńcowej nadal maleje w dłuższej perspektywie.';
+
+  @override
+  String get smokingMilestone1095Title => 'Trzy lata: ryzyko serca spada';
+
+  @override
+  String get smokingMilestone1095Description =>
+      'Trzy lata bez palenia rozpoczynają wskazany przez CDC okres 3–6 lat, w którym dodatkowe ryzyko choroby wieńcowej spada o połowę. Spadek rozwija się w całym tym okresie, a nie jednego dnia.';
+
+  @override
+  String get smokingMilestone1460Title => 'Cztery lata: serce dalej zyskuje';
+
+  @override
+  String get smokingMilestone1460Description =>
+      'Cztery lata bez palenia mieszczą się w okresie 3–6 lat wskazanym przez CDC, w którym dodatkowe ryzyko choroby wieńcowej spada o połowę. Długoterminowe korzyści sercowo-naczyniowe nadal rosną.';
+
+  @override
   String get smokingMilestone1825Title =>
       'Ryzyko części nowotworów gwałtownie spada (5–10 lat)';
 
@@ -3790,6 +3811,18 @@ class AppLocalizationsPl extends AppLocalizations {
   @override
   String get smokingReferenceDay365 =>
       'Jeden rok: Atak serca ryzyko spada Sharply\n\nŹródło: PMC — Smoking Cessation and Stroke Outcome; CDC, Benefits of Quitting Smoking\n\nPalenie z grubsza podwaja ryzyko udaru poprzez promowanie budowy tętnic, zwiększenie zatkania krwi, zwiększenie ciśnienia krwi, i uszkodzenia mózgu wessels. CDCREY własne quitting- korzyści osi czasu stawia ostry spadek ryzyka ataku serca na 1 – do – 2 – rok znak rozpoznawczy yougeure na przedniej krawędzi tego okna.\n\nTerminy odzyskiwania\nPełna normalizacja ryzyka wystąpienia udaru trwa dłużej: w cytowanym badaniu dotyczącym udaru nastąpiło ustąpienie objawów średnio przez prawie pięć lat, aby wykazać znacznie niższy wskaźnik udaru niż w przypadku palenia w dalszym ciągu, a dane CDC wskazują na zmniejszenie o połowę ryzyka choroby wieńcowej o 3 do 6 lat, przy czym ryzyko udaru mózgu spadło w okresie od 5 do 10 lat.\n\nRok to wciąż prawdziwy medyczny kamień milowy, a najsilniejsza część spadku ryzyka jest za tobą, mimo że długoterminowe korzyści z chorób układu krążenia i raka nadal rosną przez lata.';
+
+  @override
+  String get smokingReferenceDay730 =>
+      'Dwa lata: korzyści sercowo-naczyniowe trwają\n\nŹródło: CDC, korzyści z rzucenia palenia\n\nCDC podaje, że ryzyko zawału wyraźnie spada w ciągu 1–2 lat po rzuceniu palenia. Dwa lata oznaczają koniec tego przedziału opartego na dowodach, a nie nagłą zmianę w konkretnym dniu.\n\nDługoterminowy trend trwa: dodatkowe ryzyko choroby wieńcowej nadal spada i zmniejsza się o połowę w okresie 3–6 lat. Dwa lata bez palenia to powód do świętowania bez tworzenia sztucznej, dokładnej daty biologicznej.';
+
+  @override
+  String get smokingReferenceDay1095 =>
+      'Trzy lata: zaczyna się okno korzyści dla serca\n\nŹródło: CDC, korzyści z rzucenia palenia\n\nCDC umieszcza spadek dodatkowego ryzyka choroby wieńcowej o połowę w okresie 3–6 lat po rzuceniu palenia. Trzy lata są początkiem tego zakresu.\n\nDowody opisują przedział czasu, a nie natychmiastowy próg. Po trzech latach długoterminowe zmniejszanie ryzyka sercowo-naczyniowego jest już wyraźnie zaawansowane i nadal postępuje.';
+
+  @override
+  String get smokingReferenceDay1460 =>
+      'Cztery lata: korzyści dla serca rosną\n\nŹródło: CDC, korzyści z rzucenia palenia\n\nCztery lata bez palenia mieszczą się w okresie 3–6 lat wskazanym przez CDC, w którym dodatkowe ryzyko choroby wieńcowej spada o połowę w porównaniu z dalszym paleniem.\n\nTen zakres ma znaczenie: pozwala uniknąć twierdzenia o dokładnej biologicznej zmianie po czterech latach, a jednocześnie uznaje medycznie potwierdzony okres dużej poprawy sercowo-naczyniowej.';
 
   @override
   String get smokingReferenceDay1825 =>

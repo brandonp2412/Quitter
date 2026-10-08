@@ -2293,6 +2293,27 @@ class AppLocalizationsEs extends AppLocalizations {
       '¡Un año entero de libertad! Tu riesgo de ictus ha disminuido considerablemente y tus vasos sanguíneos siguen recuperándose. Has dado a tu cerebro el beneficio de una mejor circulación y protección.';
 
   @override
+  String get smokingMilestone730Title => 'Dos años: el corazón gana';
+
+  @override
+  String get smokingMilestone730Description =>
+      'Dos años sin fumar son un gran logro cardiovascular. Los CDC indican que el riesgo de infarto cae con fuerza entre 1 y 2 años tras dejarlo, mientras el riesgo de cardiopatía coronaria sigue disminuyendo a largo plazo.';
+
+  @override
+  String get smokingMilestone1095Title => 'Tres años: baja el riesgo cardíaco';
+
+  @override
+  String get smokingMilestone1095Description =>
+      'Tres años sin fumar marcan el inicio del intervalo de 3 a 6 años de los CDC, en el que el riesgo adicional de cardiopatía coronaria se reduce a la mitad. La reducción se desarrolla durante ese periodo, no en un solo día.';
+
+  @override
+  String get smokingMilestone1460Title => 'Cuatro años: el corazón mejora';
+
+  @override
+  String get smokingMilestone1460Description =>
+      'Cuatro años sin fumar quedan dentro del intervalo de 3 a 6 años de los CDC, en el que el riesgo adicional de cardiopatía coronaria se reduce a la mitad. El beneficio cardiovascular a largo plazo sigue creciendo.';
+
+  @override
   String get smokingMilestone1825Title =>
       'Algunos riesgos de cáncer caen en picado (5–10 años)';
 
@@ -3799,6 +3820,18 @@ class AppLocalizationsEs extends AppLocalizations {
   @override
   String get smokingReferenceDay365 =>
       'Un año: disminuye de forma marcada el riesgo cardiovascular\n\nFuente: PMC — Smoking Cessation and Stroke Outcome; CDC, Benefits of Quitting Smoking\n\nFumar aproximadamente duplica el riesgo de ictus al favorecer la acumulación de placa arterial, aumentar la coagulación, elevar la presión arterial y dañar los vasos sanguíneos cerebrales. La cronología de beneficios del CDC sitúa la caída pronunciada del riesgo de infarto en la ventana de 1 a 2 años; al cumplir un año estás entrando en ese periodo.\n\nCronología de recuperación\nLa normalización completa del riesgo de ictus tarda más. El estudio citado sobre ictus siguió a personas que dejaron de fumar durante una mediana de casi cinco años para mostrar una tasa de ictus claramente menor que entre quienes seguían fumando. Los datos del CDC sitúan una reducción aproximada a la mitad del riesgo de cardiopatía coronaria entre 3 y 6 años, mientras que el riesgo de ictus sigue disminuyendo durante la ventana de 5 a 10 años.\n\nUn año sigue siendo un hito médico real: la parte más rápida de la reducción del riesgo agudo ya ha quedado atrás, aunque los beneficios cardiovasculares y frente al cáncer siguen acumulándose durante años.';
+
+  @override
+  String get smokingReferenceDay730 =>
+      'Dos años: continúan las mejoras cardiovasculares\n\nFuente: CDC, beneficios de dejar de fumar\n\nLos CDC indican que el riesgo de infarto disminuye con fuerza entre 1 y 2 años tras dejar de fumar. Dos años marcan el extremo de ese intervalo respaldado por la evidencia, no un cambio repentino en un día concreto.\n\nLa tendencia continúa: el riesgo adicional de cardiopatía coronaria sigue bajando y se reduce a la mitad durante el periodo de 3 a 6 años. Dos años sin fumar merecen celebrarse sin convertir una fecha en un umbral biológico exacto.';
+
+  @override
+  String get smokingReferenceDay1095 =>
+      'Tres años: empieza la ventana cardíaca\n\nFuente: CDC, beneficios de dejar de fumar\n\nLos CDC sitúan la reducción a la mitad del riesgo adicional de cardiopatía coronaria entre 3 y 6 años después de dejar de fumar. Tres años son el inicio de ese intervalo.\n\nLa evidencia describe una ventana temporal, no un umbral instantáneo. Al llegar a tres años, la reducción del riesgo cardiovascular a largo plazo está bien encaminada y continúa acumulándose.';
+
+  @override
+  String get smokingReferenceDay1460 =>
+      'Cuatro años: siguen creciendo los beneficios\n\nFuente: CDC, beneficios de dejar de fumar\n\nCuatro años sin fumar están dentro del intervalo de 3 a 6 años de los CDC, en el que el riesgo adicional de cardiopatía coronaria se reduce a la mitad frente a seguir fumando.\n\nEse intervalo importa: evita afirmar un cambio biológico exacto a los cuatro años y, al mismo tiempo, reconoce una etapa médicamente respaldada de gran mejora cardiovascular.';
 
   @override
   String get smokingReferenceDay1825 =>

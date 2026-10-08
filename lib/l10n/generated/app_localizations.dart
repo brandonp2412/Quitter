@@ -3960,6 +3960,42 @@ abstract class AppLocalizations {
   /// **'One full year of freedom! Your stroke risk has decreased substantially, and your blood vessels are healing beautifully. You\'ve officially given your brain the gift of better circulation and protection.'**
   String get smokingMilestone365Description;
 
+  /// Smoking milestone day 730 title
+  ///
+  /// In en, this message translates to:
+  /// **'Two Years: Stronger Heart'**
+  String get smokingMilestone730Title;
+
+  /// Smoking milestone day 730 description
+  ///
+  /// In en, this message translates to:
+  /// **'Two years smoke-free is a major cardiovascular win. CDC says heart-attack risk falls sharply within 1–2 years after quitting, while coronary-heart-disease risk continues to decline over the longer term.'**
+  String get smokingMilestone730Description;
+
+  /// Smoking milestone day 1095 title
+  ///
+  /// In en, this message translates to:
+  /// **'Three Years: Heart Risk Falling'**
+  String get smokingMilestone1095Title;
+
+  /// Smoking milestone day 1095 description
+  ///
+  /// In en, this message translates to:
+  /// **'Three years smoke-free puts you at the start of CDC’s 3–6-year window in which the added risk of coronary heart disease drops by half. The reduction develops across the window, not on one exact day.'**
+  String get smokingMilestone1095Description;
+
+  /// Smoking milestone day 1460 title
+  ///
+  /// In en, this message translates to:
+  /// **'Four Years: Heart Gains Build'**
+  String get smokingMilestone1460Title;
+
+  /// Smoking milestone day 1460 description
+  ///
+  /// In en, this message translates to:
+  /// **'Four years smoke-free places you inside CDC’s 3–6-year window where the added risk of coronary heart disease drops by half. Your long-term cardiovascular benefit is still building.'**
+  String get smokingMilestone1460Description;
+
   /// Smoking milestone day 1825 title
   ///
   /// In en, this message translates to:
@@ -6347,6 +6383,24 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'One Year: Heart Attack Risk Falls Sharply\n\nSource: PMC — Smoking Cessation and Stroke Outcome; CDC, Benefits of Quitting Smoking\n\nSmoking roughly doubles stroke risk by promoting artery plaque buildup, increasing blood clotting, raising blood pressure, and damaging cerebral blood vessels. The CDC\'s own quitting-benefits timeline puts the sharp drop in heart attack risk at the 1-to-2-year mark — you\'re at the front edge of that window.\n\nRecovery Timeline\nFull stroke-risk normalisation takes longer: the cited stroke study followed quitters for a median of nearly five years to show a meaningfully lower stroke rate than continued smokers, and CDC data puts halved coronary heart disease risk at 3 to 6 years, with stroke risk decreasing over the 5-to-10-year mark.\n\nOne year is still a genuine medical milestone — the steepest part of the acute-risk decline is behind you, even though the longer-term cardiovascular and cancer benefits continue to build for years.'**
   String get smokingReferenceDay365;
+
+  /// No description provided for @smokingReferenceDay730.
+  ///
+  /// In en, this message translates to:
+  /// **'Two Years: Cardiovascular Gains Continue\n\nSource: CDC, Benefits of Quitting Smoking\n\nCDC reports that heart-attack risk falls sharply within 1–2 years after quitting. Two years marks the far edge of that evidence window, not a single-day switch.\n\nThe longer trend continues: added coronary-heart-disease risk keeps declining and is reported to drop by half during the 3–6-year period. Two years smoke-free is worth celebrating without pretending the body changes on one exact date.'**
+  String get smokingReferenceDay730;
+
+  /// No description provided for @smokingReferenceDay1095.
+  ///
+  /// In en, this message translates to:
+  /// **'Three Years: The 3–6-Year Heart Window Begins\n\nSource: CDC, Benefits of Quitting Smoking\n\nCDC places the halving of added coronary-heart-disease risk in a 3–6-year period after smoking cessation. Three years is the beginning of that range.\n\nThe evidence describes a window, not an instant threshold. Reaching three years means long-term cardiovascular risk reduction is well underway while the benefit continues to accumulate.'**
+  String get smokingReferenceDay1095;
+
+  /// No description provided for @smokingReferenceDay1460.
+  ///
+  /// In en, this message translates to:
+  /// **'Four Years: Heart Benefits Keep Building\n\nSource: CDC, Benefits of Quitting Smoking\n\nFour years smoke-free sits inside CDC’s 3–6-year window in which the added risk of coronary heart disease drops by half compared with continued smoking.\n\nThat range matters: it avoids claiming an exact four-year biological switch while still recognizing a medically grounded period of major cardiovascular improvement.'**
+  String get smokingReferenceDay1460;
 
   /// No description provided for @smokingReferenceDay1825.
   ///

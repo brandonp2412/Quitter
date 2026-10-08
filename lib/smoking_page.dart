@@ -195,6 +195,48 @@ Inflammatory signaling recovered on a slower timetable, with altered cytokine re
             "One year is still a genuine medical milestone — the steepest part of the acute-risk decline is behind you, even though the longer-term cardiovascular and cancer benefits continue to build for years.",
       ),
       QuitMilestone(
+        day: 730,
+        title: l10n.smokingMilestone730Title,
+        description: l10n.smokingMilestone730Description,
+        reference: "CDC - Benefits of Quitting Smoking",
+        link: "https://www.cdc.gov/tobacco/about/benefits-of-quitting.html",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.smokingReferenceDay730,
+        referenceContent:
+            "Two Years: Cardiovascular Gains Continue\n\n"
+            "Source: CDC, Benefits of Quitting Smoking\n\n"
+            "CDC reports that heart-attack risk falls sharply within 1–2 years after quitting. Two years marks the far edge of that evidence window, not a single-day switch.\n\n"
+            "The longer trend continues: added coronary-heart-disease risk keeps declining and is reported to drop by half during the 3–6-year period. Two years smoke-free is worth celebrating without pretending the body changes on one exact date.",
+      ),
+      QuitMilestone(
+        day: 1095,
+        title: l10n.smokingMilestone1095Title,
+        description: l10n.smokingMilestone1095Description,
+        reference: "CDC - Benefits of Quitting Smoking",
+        link: "https://www.cdc.gov/tobacco/about/benefits-of-quitting.html",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.smokingReferenceDay1095,
+        referenceContent:
+            "Three Years: The 3–6-Year Heart Window Begins\n\n"
+            "Source: CDC, Benefits of Quitting Smoking\n\n"
+            "CDC places the halving of added coronary-heart-disease risk in a 3–6-year period after smoking cessation. Three years is the beginning of that range.\n\n"
+            "The evidence describes a window, not an instant threshold. Reaching three years means long-term cardiovascular risk reduction is well underway while the benefit continues to accumulate.",
+      ),
+      QuitMilestone(
+        day: 1460,
+        title: l10n.smokingMilestone1460Title,
+        description: l10n.smokingMilestone1460Description,
+        reference: "CDC - Benefits of Quitting Smoking",
+        link: "https://www.cdc.gov/tobacco/about/benefits-of-quitting.html",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.smokingReferenceDay1460,
+        referenceContent:
+            "Four Years: Heart Benefits Keep Building\n\n"
+            "Source: CDC, Benefits of Quitting Smoking\n\n"
+            "Four years smoke-free sits inside CDC's 3–6-year window in which the added risk of coronary heart disease drops by half compared with continued smoking.\n\n"
+            "That range matters: it avoids claiming an exact four-year biological switch while still recognizing a medically grounded period of major cardiovascular improvement.",
+      ),
+      QuitMilestone(
         day: 1825,
         title: l10n.smokingMilestone1825Title,
         description: l10n.smokingMilestone1825Description,

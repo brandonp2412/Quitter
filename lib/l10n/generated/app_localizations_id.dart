@@ -2281,6 +2281,27 @@ class AppLocalizationsId extends AppLocalizations {
       'Satu tahun penuh kebebasan! Risiko stroke Anda telah menurun secara signifikan, dan pembuluh darah Anda pulih dengan baik. Anda secara resmi telah memberikan otak Anda hadiah sirkulasi dan perlindungan yang lebih baik.';
 
   @override
+  String get smokingMilestone730Title => 'Dua Tahun: Jantung Lebih Kuat';
+
+  @override
+  String get smokingMilestone730Description =>
+      'Dua tahun bebas rokok adalah pencapaian besar bagi jantung dan pembuluh darah. CDC menyatakan risiko serangan jantung turun tajam dalam 1–2 tahun setelah berhenti, sedangkan risiko penyakit jantung koroner terus menurun dalam jangka panjang.';
+
+  @override
+  String get smokingMilestone1095Title => 'Tiga Tahun: Risiko Jantung Turun';
+
+  @override
+  String get smokingMilestone1095Description =>
+      'Tiga tahun bebas rokok menandai awal rentang 3–6 tahun CDC, ketika risiko tambahan penyakit jantung koroner berkurang setengah. Penurunan berlangsung sepanjang rentang itu, bukan pada satu hari tertentu.';
+
+  @override
+  String get smokingMilestone1460Title => 'Empat Tahun: Manfaat Jantung Naik';
+
+  @override
+  String get smokingMilestone1460Description =>
+      'Empat tahun bebas rokok berada di dalam rentang 3–6 tahun CDC, ketika risiko tambahan penyakit jantung koroner berkurang setengah. Manfaat kardiovaskular jangka panjang terus bertambah.';
+
+  @override
   String get smokingMilestone1825Title =>
       'Risiko Beberapa Kanker Anjlok (5–10 Tahun)';
 
@@ -3769,6 +3790,18 @@ class AppLocalizationsId extends AppLocalizations {
   @override
   String get smokingReferenceDay365 =>
       'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+
+  @override
+  String get smokingReferenceDay730 =>
+      'Dua Tahun: Manfaat Kardiovaskular Berlanjut\n\nSumber: CDC, manfaat berhenti merokok\n\nCDC menyatakan risiko serangan jantung turun tajam dalam 1–2 tahun setelah berhenti. Dua tahun menandai ujung rentang bukti itu, bukan perubahan mendadak pada satu hari tertentu.\n\nTren jangka panjang terus berjalan: risiko tambahan penyakit jantung koroner terus turun dan berkurang setengah dalam rentang 3–6 tahun. Dua tahun bebas rokok layak dirayakan tanpa menganggap ada tanggal biologis yang tepat.';
+
+  @override
+  String get smokingReferenceDay1095 =>
+      'Tiga Tahun: Rentang Manfaat Jantung Dimulai\n\nSumber: CDC, manfaat berhenti merokok\n\nCDC menempatkan penurunan setengah risiko tambahan penyakit jantung koroner pada 3–6 tahun setelah berhenti merokok. Tiga tahun adalah awal rentang tersebut.\n\nBukti menggambarkan suatu rentang waktu, bukan ambang seketika. Pada tiga tahun, penurunan risiko kardiovaskular jangka panjang sudah berlangsung kuat dan terus bertambah.';
+
+  @override
+  String get smokingReferenceDay1460 =>
+      'Empat Tahun: Manfaat Jantung Terus Bertambah\n\nSumber: CDC, manfaat berhenti merokok\n\nEmpat tahun bebas rokok berada dalam rentang 3–6 tahun CDC, ketika risiko tambahan penyakit jantung koroner berkurang setengah dibandingkan terus merokok.\n\nRentang ini penting karena tidak mengklaim perubahan biologis tepat pada empat tahun, sambil tetap mengakui masa perbaikan kardiovaskular besar yang didukung bukti medis.';
 
   @override
   String get smokingReferenceDay1825 =>

@@ -2132,6 +2132,27 @@ class AppLocalizationsZh extends AppLocalizations {
       '戒烟整整一年！中风风险已大幅降低，血管也在持续修复。更好的脑部血液循环正在进一步保护大脑。';
 
   @override
+  String get smokingMilestone730Title => '两年：心血管获益延续';
+
+  @override
+  String get smokingMilestone730Description =>
+      '戒烟两年是重要的心血管健康成果。CDC指出，戒烟后1至2年内心肌梗死风险会明显下降，而冠心病风险此后仍会长期继续下降。';
+
+  @override
+  String get smokingMilestone1095Title => '三年：心脏风险继续下降';
+
+  @override
+  String get smokingMilestone1095Description =>
+      '戒烟三年进入CDC所述的3至6年区间，在这一期间冠心病的额外风险会减半。风险下降是在整个区间内逐步形成的，并非集中在某一天。';
+
+  @override
+  String get smokingMilestone1460Title => '四年：心血管获益持续累积';
+
+  @override
+  String get smokingMilestone1460Description =>
+      '戒烟四年处于CDC所述的3至6年区间内，在这一期间冠心病的额外风险会减半。长期心血管获益仍在继续累积。';
+
+  @override
   String get smokingMilestone1825Title => '部分癌症风险大幅下降（5–10年）';
 
   @override
@@ -3582,6 +3603,18 @@ class AppLocalizationsZh extends AppLocalizations {
   @override
   String get smokingReferenceDay365 =>
       '一年：心脏病发作风险大幅下降\n\n来源：PMC——Smoking Cessation and Stroke Outcome；CDC，Benefits of Quitting Smoking\n\n吸烟通过促进动脉斑块积聚、增加血液凝固、升高血压和损害脑血管，使中风风险大约翻倍。CDC自己的戒烟益处时间线将心脏病发作风险的急剧下降放在1到2年节点——你正处在这个窗口的前沿。\n\n恢复时间线\n中风风险的完全正常化需要更长时间：所引用的中风研究对戒烟者进行了中位数近五年的随访，才显示出比持续吸烟者有意义地更低的中风率，而CDC数据将冠心病风险减半放在3到6年，中风风险则在5到10年节点下降。\n\n一年仍然是一个真正的医学里程碑——急性风险下降最陡峭的部分已经在你身后，尽管更长期的心血管和癌症益处还会持续积累数年。';
+
+  @override
+  String get smokingReferenceDay730 =>
+      '两年：心血管获益继续累积\n\n来源：CDC，戒烟的健康益处\n\nCDC指出，戒烟后1至2年内心肌梗死风险会明显下降。两年是这一证据区间的末端，并不意味着身体会在某一天突然发生变化。\n\n长期趋势仍在继续：冠心病的额外风险会进一步下降，并在戒烟后3至6年的区间内减半。戒烟两年本身就值得庆祝，无需虚构一个精确的生理变化日期。';
+
+  @override
+  String get smokingReferenceDay1095 =>
+      '三年：进入心脏获益区间\n\n来源：CDC，戒烟的健康益处\n\nCDC将冠心病额外风险减半的时间范围列为戒烟后3至6年。三年是这一范围的起点。\n\n证据描述的是一个时间区间，而不是瞬间跨越的门槛。达到三年时，长期心血管风险下降已经持续推进，获益还会继续累积。';
+
+  @override
+  String get smokingReferenceDay1460 =>
+      '四年：心脏获益继续增加\n\n来源：CDC，戒烟的健康益处\n\n戒烟四年位于CDC所述的3至6年区间内，与继续吸烟相比，冠心病的额外风险在这一时期会减半。\n\n采用这一时间范围可以避免声称身体会在第四年某一天发生精确的生理切换，同时仍能准确体现有医学依据的重要心血管改善阶段。';
 
   @override
   String get smokingReferenceDay1825 =>
@@ -6253,6 +6286,27 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
       '戒煙整整一年！中風風險已大幅降低，血管也在持續修復。更好的腦部血液循環正在進一步保護大腦。';
 
   @override
+  String get smokingMilestone730Title => '兩年：心血管益處延續';
+
+  @override
+  String get smokingMilestone730Description =>
+      '戒菸兩年是重要的心血管健康成果。CDC指出，戒菸後1至2年內心肌梗塞風險會明顯下降，而冠心病風險此後仍會長期繼續下降。';
+
+  @override
+  String get smokingMilestone1095Title => '三年：心臟風險繼續下降';
+
+  @override
+  String get smokingMilestone1095Description =>
+      '戒菸三年進入CDC所述的3至6年區間，在這一期間冠心病的額外風險會減半。風險下降是在整個區間內逐步形成的，並非集中在某一天。';
+
+  @override
+  String get smokingMilestone1460Title => '四年：心血管益處持續累積';
+
+  @override
+  String get smokingMilestone1460Description =>
+      '戒菸四年處於CDC所述的3至6年區間內，在這一期間冠心病的額外風險會減半。長期心血管益處仍在繼續累積。';
+
+  @override
   String get smokingMilestone1825Title => '部分癌症風險大幅下降（5–10年）';
 
   @override
@@ -7703,6 +7757,18 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   @override
   String get smokingReferenceDay365 =>
       '一年：心臟病發作風險大幅下降\n\n來源：PMC——Smoking Cessation and Stroke Outcome；CDC，Benefits of Quitting Smoking\n\n吸煙通過促進動脈斑塊積聚、增加血液凝固、升高血壓和損害腦血管，使中風風險大約翻倍。CDC自己的戒煙益處時間線將心臟病發作風險的急劇下降放在1到2年節點——你正處在這個窗口的前沿。\n\n恢復時間線\n中風風險的完全正常化需要更長時間：所引用的中風研究對戒煙者進行了中位數近五年的隨訪，才顯示出比持續吸煙者有意義地更低的中風率，而CDC數據將冠心病風險減半放在3到6年，中風風險則在5到10年節點下降。\n\n一年仍然是一個真正的醫學里程碑——急性風險下降最陡峭的部分已經在你身後，儘管更長期的心血管和癌症益處還會持續積累數年。';
+
+  @override
+  String get smokingReferenceDay730 =>
+      '兩年：心血管益處繼續累積\n\n來源：CDC，戒菸的健康益處\n\nCDC指出，戒菸後1至2年內心肌梗塞風險會明顯下降。兩年是這一證據區間的末端，並不表示身體會在某一天突然發生變化。\n\n長期趨勢仍在繼續：冠心病的額外風險會進一步下降，並在戒菸後3至6年的區間內減半。戒菸兩年本身就值得慶祝，不必虛構一個精確的生理變化日期。';
+
+  @override
+  String get smokingReferenceDay1095 =>
+      '三年：進入心臟益處區間\n\n來源：CDC，戒菸的健康益處\n\nCDC將冠心病額外風險減半的時間範圍列為戒菸後3至6年。三年是這一範圍的起點。\n\n證據描述的是一個時間區間，而不是瞬間跨越的門檻。達到三年時，長期心血管風險下降已經持續推進，益處還會繼續累積。';
+
+  @override
+  String get smokingReferenceDay1460 =>
+      '四年：心臟益處繼續增加\n\n來源：CDC，戒菸的健康益處\n\n戒菸四年位於CDC所述的3至6年區間內，與繼續吸菸相比，冠心病的額外風險在這一時期會減半。\n\n採用這一時間範圍可以避免聲稱身體會在第四年某一天發生精確的生理切換，同時仍能準確呈現有醫學依據的重要心血管改善階段。';
 
   @override
   String get smokingReferenceDay1825 =>
