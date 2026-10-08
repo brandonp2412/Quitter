@@ -2657,6 +2657,27 @@ class AppLocalizationsDe extends AppLocalizations {
       'Einjährige follow-up-daten aus einer akzeptanzbasierten behandlungsstudie ergaben, dass die teilnehmer nicht zu den hypersexualitätsniveaus der vorbehandlung zurückkehrten. Ein Jahr anhaltender Veränderungen ist ein glaubwürdiger Beweis für ein dauerhaftes Muster, kein magisches Gehirn-Reset-Datum.';
 
   @override
+  String get pornographyMilestone730Title => 'Zwei Jahre: Stabile Kontrolle';
+
+  @override
+  String get pornographyMilestone730Description =>
+      'Zwei Jahre anhaltende Veränderung sind eine starke Verhaltensleistung. Die Forschung zu CSBD und problematischer Pornografienutzung betrachtet Kontrolle, Belastung, Funktionsfähigkeit und Kontext statt eines universellen Zwei-Jahres-Neustarts des Gehirns. Bewahren Sie die Routinen, die gute Entscheidungen erleichtern.';
+
+  @override
+  String get pornographyMilestone1095Title => 'Drei Jahre: Dauerhaft';
+
+  @override
+  String get pornographyMilestone1095Description =>
+      'Drei Jahre zeigen, dass die Veränderung viele Stimmungen, Routinen und Lebensereignisse überstanden hat. Es gibt keine evidenzbasierte biologische Drei-Jahres-Ziellinie; anhaltende Kontrolle und bessere Funktionsfähigkeit sind bereits wichtige Ergebnisse.';
+
+  @override
+  String get pornographyMilestone1460Title => 'Vier Jahre: Beständig';
+
+  @override
+  String get pornographyMilestone1460Description =>
+      'Vier Jahre sind dauerhafte Aufrechterhaltung. Die beste Evidenz betrachtet CSBD und problematische Pornografienutzung als komplex und individuell. Entscheidend bleiben Kontrolle, Belastung, Beziehungen, Zeitnutzung und die Frage, ob das alte Muster das Leben noch beeinträchtigt.';
+
+  @override
   String get pornographyMilestone1825Title => 'Fünf Jahre Kontrolle';
 
   @override
@@ -3714,6 +3735,18 @@ class AppLocalizationsDe extends AppLocalizations {
   @override
   String get pornographyReferenceDay365 =>
       'Ein Jahr: Beweise für dauerhafte Verhaltensänderung\n\nQuelle: Einjährige Follow-up-Effekte einer akzeptanzbasierten Behandlung für Hypersexualität (2026).\n\nNach einem einjährigen Follow-up waren die Teilnehmer dieser akzeptanzbasierten Behandlungsstudie nicht zu ihrem Vorbehandlungsniveau der Hypersexualität zurückgekehrt. Die Autoren beschrieben die Ergebnisse als vorläufigen Beweis für dauerhafte, klinisch sinnvolle Vorteile, mit wahrgenommener Kontrolle über das Verlangen unter den Prozessen, die im Laufe der Zeit verfolgt werden.\n\nDies ist die Behandlung follow-up-Beweise, nicht der Nachweis einer ein-Jahres-hirn-reset. Die aussagekräftige Behauptung ist ohnehin besser: Die klinisch relevante Kontrolle kann ein Jahr bestehen bleiben, anstatt zu verschwinden, sobald die erste Intervention endet.\n\nEin Jahr Ihrer eigenen gepflegten Veränderung ist auch ein großer persönlicher Datensatz. Vergleichen Sie aktuelle Kontrolle, Stress, Funktion, Beziehungen und Zeitnutzung mit dem, wo Sie begonnen haben; das sind die Ergebnisse, die klinisch wichtig sind.';
+
+  @override
+  String get pornographyReferenceDay730 =>
+      'Zwei Jahre: Stabile Kontrolle\n\nQuelle: Ince et al. (2026), Überblick zu CSBD und problematischer Pornografienutzung.\n\nDie Forschung beschreibt diese Probleme als komplex und individuell und betrachtet Kontrolle, Belastung, Funktionsfähigkeit und Kontext. Eine allgemeine biologische Zwei-Jahres-Grenze wird nicht belegt.\n\nZwei Jahre stehen deshalb für belastbare Verhaltensänderung. Anhaltende Kontrolle und bessere Funktionsfähigkeit sind selbst bedeutsame Ergebnisse.';
+
+  @override
+  String get pornographyReferenceDay1095 =>
+      'Drei Jahre: Dauerhaft\n\nQuelle: Ince et al. (2026), Überblick zu CSBD und problematischer Pornografienutzung.\n\nDie aktuelle Evidenz definiert keinen biologischen Endpunkt nach drei Jahren. Klinisch zählen weiterhin Kontrolle, Belastung, Beeinträchtigung, Kontext und Funktionsfähigkeit.\n\nDrei Jahre belegen Beständigkeit. Eine über wechselnde Routinen und Lebensphasen erhaltene Veränderung ist es wert, geschützt zu werden.';
+
+  @override
+  String get pornographyReferenceDay1460 =>
+      'Vier Jahre: Beständig\n\nQuelle: Ince et al. (2026), Überblick zu CSBD und problematischer Pornografienutzung.\n\nDie Forschung betont Unterschiede zwischen Menschen und den jeweiligen Kontext und stützt keinen allgemeinen biologischen Abschluss nach vier Jahren.\n\nVier Jahre können dennoch tiefe Stabilität zeigen. Wenn das alte Muster Entscheidungen, Beziehungen und Alltag nicht mehr beherrscht, ist das ein substanzieller Langzeiterfolg.';
 
   @override
   String get pornographyReferenceDay1825 =>

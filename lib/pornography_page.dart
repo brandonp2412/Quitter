@@ -139,6 +139,51 @@ class PornographyPage extends StatelessWidget {
             'A year of your own maintained change is also a large personal dataset. Compare current control, distress, functioning, relationships, and time use with where you started; those are the outcomes that matter clinically.',
       ),
       QuitMilestone(
+        day: 730,
+        title: l10n.pornographyMilestone730Title,
+        description: l10n.pornographyMilestone730Description,
+        reference: 'Ince et al. (2026) - expert review of CSBD and PPU',
+        link: 'https://pubmed.ncbi.nlm.nih.gov/41879870/',
+        referenceDate: 'October 2026',
+        localizedReferenceContent: l10n.pornographyReferenceDay730,
+        referenceContent:
+            'Two Years: Steady Control\n\n'
+            'Source: Ince et al., Compulsive sexual behavior disorder (CSBD) and problematic pornography use (PPU): a comprehensive, interdisciplinary, and expert-informed narrative review (2026).\n\n'
+            'The review describes CSBD and problematic pornography use as complex problems involving control, distress, functioning, context, and individual differences. It does not establish a universal two-year biological recovery or brain-reset threshold.\n\n'
+            'Two years still matters. Maintaining the direction you chose for 730 days means the change has survived ordinary stress, routine changes, boredom, privacy, and other contexts that can pull old patterns back into view. Sustained control and functioning are meaningful outcomes without needing a fictional neurological deadline.\n\n'
+            'Keep the routines that make good choices easier. Long-term maintenance is not a lesser goal; it is the point.',
+      ),
+      QuitMilestone(
+        day: 1095,
+        title: l10n.pornographyMilestone1095Title,
+        description: l10n.pornographyMilestone1095Description,
+        reference: 'Ince et al. (2026) - expert review of CSBD and PPU',
+        link: 'https://pubmed.ncbi.nlm.nih.gov/41879870/',
+        referenceDate: 'October 2026',
+        localizedReferenceContent: l10n.pornographyReferenceDay1095,
+        referenceContent:
+            'Three Years: Built to Last\n\n'
+            'Source: Ince et al., Compulsive sexual behavior disorder (CSBD) and problematic pornography use (PPU): a comprehensive, interdisciplinary, and expert-informed narrative review (2026).\n\n'
+            'Current evidence does not define a three-year biological finish line for problematic pornography use. The clinically relevant questions remain whether the behaviour is controlled, whether distress or impairment has eased, and whether life is functioning better.\n\n'
+            'Three years is therefore evidence about durability, not a claim about a hidden brain percentage. You have maintained this direction across seasons, routines, and life changes. That repeated success is worth treating as a strong pattern rather than a temporary streak.\n\n'
+            'Protect what made the change durable, especially the habits and boundaries that reduce friction when stress rises.',
+      ),
+      QuitMilestone(
+        day: 1460,
+        title: l10n.pornographyMilestone1460Title,
+        description: l10n.pornographyMilestone1460Description,
+        reference: 'Ince et al. (2026) - expert review of CSBD and PPU',
+        link: 'https://pubmed.ncbi.nlm.nih.gov/41879870/',
+        referenceDate: 'October 2026',
+        localizedReferenceContent: l10n.pornographyReferenceDay1460,
+        referenceContent:
+            'Four Years: Durable Change\n\n'
+            'Source: Ince et al., Compulsive sexual behavior disorder (CSBD) and problematic pornography use (PPU): a comprehensive, interdisciplinary, and expert-informed narrative review (2026).\n\n'
+            'The modern evidence base emphasizes heterogeneity and context. It does not support a universal four-year point at which everyone is biologically finished recovering.\n\n'
+            'What four years can show is depth of maintenance. If the old pattern no longer dominates your choices, consumes large amounts of time, or disrupts relationships and functioning, those are substantive outcomes in the same domains clinicians actually care about.\n\n'
+            'Keep judging progress by control and quality of life rather than by internet timelines. Four years of maintained change has already earned the right to be called durable.',
+      ),
+      QuitMilestone(
         day: 1825,
         title: l10n.pornographyMilestone1825Title,
         description: l10n.pornographyMilestone1825Description,

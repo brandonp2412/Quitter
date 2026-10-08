@@ -4560,6 +4560,42 @@ abstract class AppLocalizations {
   /// **'One-year follow-up data from an acceptance-based treatment study found participants did not return to pretreatment hypersexuality levels. A year of maintained change is credible evidence of a durable pattern, not a magical brain-reset date.'**
   String get pornographyMilestone365Description;
 
+  /// Pornography milestone day 730 title
+  ///
+  /// In en, this message translates to:
+  /// **'Two Years: Steady Control'**
+  String get pornographyMilestone730Title;
+
+  /// Pornography milestone day 730 description
+  ///
+  /// In en, this message translates to:
+  /// **'Two years of maintained change is a serious behavioural achievement. Current CSBD/PPU evidence focuses on control, distress, functioning, and context, not a universal two-year brain reset. Keep protecting the routines that make your choices easier.'**
+  String get pornographyMilestone730Description;
+
+  /// Pornography milestone day 1095 title
+  ///
+  /// In en, this message translates to:
+  /// **'Three Years: Built to Last'**
+  String get pornographyMilestone1095Title;
+
+  /// Pornography milestone day 1095 description
+  ///
+  /// In en, this message translates to:
+  /// **'Three years shows the change has survived a wide range of moods, routines, and life events. There is no evidence-based three-year biological finish line; sustained control and better functioning are meaningful outcomes themselves.'**
+  String get pornographyMilestone1095Description;
+
+  /// Pornography milestone day 1460 title
+  ///
+  /// In en, this message translates to:
+  /// **'Four Years: Durable Change'**
+  String get pornographyMilestone1460Title;
+
+  /// Pornography milestone day 1460 description
+  ///
+  /// In en, this message translates to:
+  /// **'Four years is durable maintenance. The strongest evidence treats CSBD/PPU as complex and individual, so keep measuring what matters: control, distress, relationships, time use, and whether the old pattern still interferes with life.'**
+  String get pornographyMilestone1460Description;
+
   /// Pornography milestone day 1825 title
   ///
   /// In en, this message translates to:
@@ -6239,6 +6275,24 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'One Year: Evidence for Durable Behaviour Change\n\nSource: One-year follow-up effects of an acceptance-based treatment for hypersexuality (2026).\n\nAt one-year follow-up, participants in this acceptance-based treatment study had not returned to their pretreatment levels of hypersexuality. The authors described the findings as preliminary evidence of durable, clinically meaningful benefits, with perceived control over craving among the processes followed over time.\n\nThis is treatment follow-up evidence, not proof of a one-year brain reset. The meaningful claim is better anyway: clinically relevant control can persist for a year rather than disappearing as soon as the initial intervention ends.\n\nA year of your own maintained change is also a large personal dataset. Compare current control, distress, functioning, relationships, and time use with where you started; those are the outcomes that matter clinically.'**
   String get pornographyReferenceDay365;
+
+  /// Reference content for pornography milestone day 730
+  ///
+  /// In en, this message translates to:
+  /// **'Two Years: Steady Control\n\nSource: Ince et al., Compulsive sexual behavior disorder (CSBD) and problematic pornography use (PPU): a comprehensive, interdisciplinary, and expert-informed narrative review (2026).\n\nThe review treats CSBD and problematic pornography use as complex, individual problems involving control, distress, functioning, and context. It does not establish a universal two-year biological recovery threshold.\n\nTwo years therefore marks durable behavioural maintenance, not a hidden neurological finish line. Sustained control and better functioning are meaningful outcomes in their own right.'**
+  String get pornographyReferenceDay730;
+
+  /// Reference content for pornography milestone day 1095
+  ///
+  /// In en, this message translates to:
+  /// **'Three Years: Built to Last\n\nSource: Ince et al., Compulsive sexual behavior disorder (CSBD) and problematic pornography use (PPU): a comprehensive, interdisciplinary, and expert-informed narrative review (2026).\n\nCurrent evidence does not define a three-year biological endpoint for problematic pornography use. Clinical attention stays on control, distress, impairment, context, and functioning.\n\nThree years is evidence of durability. A pattern maintained across changing routines and life circumstances is worth protecting even without a universal biological countdown.'**
+  String get pornographyReferenceDay1095;
+
+  /// Reference content for pornography milestone day 1460
+  ///
+  /// In en, this message translates to:
+  /// **'Four Years: Durable Change\n\nSource: Ince et al., Compulsive sexual behavior disorder (CSBD) and problematic pornography use (PPU): a comprehensive, interdisciplinary, and expert-informed narrative review (2026).\n\nThe evidence base emphasizes heterogeneity and context and does not support a universal four-year point at which biological recovery is complete.\n\nFour years can still demonstrate deep maintenance. If the old pattern no longer dominates choices or disrupts relationships and functioning, those are substantive long-term outcomes.'**
+  String get pornographyReferenceDay1460;
 
   /// No description provided for @pornographyReferenceDay1825.
   ///

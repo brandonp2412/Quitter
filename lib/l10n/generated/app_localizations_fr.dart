@@ -2692,6 +2692,27 @@ class AppLocalizationsFr extends AppLocalizations {
       'Les données de suivi à un an d\'une étude sur un traitement fondé sur l\'acceptation montrent que les participants ne sont pas revenus aux niveaux d\'hypersexualité d\'avant traitement. Un an de changement maintenu est un signe crédible d\'une habitude durable, pas une date magique de « réinitialisation du cerveau ».';
 
   @override
+  String get pornographyMilestone730Title => 'Deux ans : contrôle stable';
+
+  @override
+  String get pornographyMilestone730Description =>
+      'Deux ans de changement maintenu constituent une réussite comportementale solide. Les données sur le trouble du comportement sexuel compulsif et l’usage problématique de pornographie portent sur le contrôle, la détresse, le fonctionnement et le contexte, pas sur une réinitialisation cérébrale universelle à deux ans. Préservez les habitudes qui facilitent vos choix.';
+
+  @override
+  String get pornographyMilestone1095Title => 'Trois ans : changement solide';
+
+  @override
+  String get pornographyMilestone1095Description =>
+      'Trois ans montrent que le changement a traversé de nombreuses humeurs, habitudes et étapes de vie. Il n’existe pas de ligne d’arrivée biologique fondée sur les preuves à trois ans ; un contrôle durable et un meilleur fonctionnement sont déjà des résultats significatifs.';
+
+  @override
+  String get pornographyMilestone1460Title => 'Quatre ans : changement durable';
+
+  @override
+  String get pornographyMilestone1460Description =>
+      'Quatre ans représentent un maintien durable. Les meilleures données décrivent ces difficultés comme complexes et individuelles ; continuez donc à observer ce qui compte réellement : contrôle, détresse, relations, emploi du temps et impact de l’ancien schéma sur la vie.';
+
+  @override
   String get pornographyMilestone1825Title => 'Cinq ans de contrôle';
 
   @override
@@ -3754,6 +3775,18 @@ class AppLocalizationsFr extends AppLocalizations {
   @override
   String get pornographyReferenceDay365 =>
       'Un an : des données en faveur d\'un changement comportemental durable\n\nSource : One-year follow-up effects of an acceptance-based treatment for hypersexuality (2026).\n\nLors du suivi à un an, les participants à cette étude d\'un traitement fondé sur l\'acceptation n\'étaient pas revenus à leurs niveaux d\'hypersexualité d\'avant le traitement. Les auteurs ont décrit ces résultats comme des données préliminaires en faveur de bénéfices durables et cliniquement significatifs, le contrôle perçu des envies faisant partie des processus suivis au fil du temps.\n\nIl s\'agit de données de suivi après traitement, et non de la preuve d\'une « réinitialisation du cerveau » au bout d\'un an. La conclusion utile est meilleure : un contrôle cliniquement pertinent peut persister pendant un an au lieu de disparaître dès la fin de l\'intervention initiale.\n\nUne année de changement maintenu vous donne également beaucoup d\'informations sur votre propre évolution. Comparez votre contrôle actuel, votre détresse, votre fonctionnement, vos relations et votre emploi du temps à votre situation de départ : ce sont ces résultats qui comptent cliniquement.';
+
+  @override
+  String get pornographyReferenceDay730 =>
+      'Deux ans : contrôle stable\n\nSource : Ince et al. (2026), synthèse sur le trouble du comportement sexuel compulsif et l’usage problématique de pornographie.\n\nLa littérature décrit des problèmes complexes et individuels, évalués par le contrôle, la détresse, le fonctionnement et le contexte. Elle n’établit aucun seuil biologique universel à deux ans.\n\nDeux ans marquent donc un maintien comportemental durable. Le contrôle soutenu et un meilleur fonctionnement sont déjà des résultats importants.';
+
+  @override
+  String get pornographyReferenceDay1095 =>
+      'Trois ans : changement solide\n\nSource : Ince et al. (2026), synthèse sur le trouble du comportement sexuel compulsif et l’usage problématique de pornographie.\n\nLes données actuelles ne définissent aucun terme biologique à trois ans. L’évaluation clinique reste centrée sur le contrôle, la détresse, l’altération du fonctionnement, le contexte et la vie quotidienne.\n\nTrois ans témoignent de la durabilité. Un changement maintenu malgré l’évolution des habitudes et des circonstances mérite d’être protégé.';
+
+  @override
+  String get pornographyReferenceDay1460 =>
+      'Quatre ans : changement durable\n\nSource : Ince et al. (2026), synthèse sur le trouble du comportement sexuel compulsif et l’usage problématique de pornographie.\n\nLes données insistent sur la diversité des situations et ne soutiennent aucun point universel de récupération biologique complète à quatre ans.\n\nQuatre ans peuvent néanmoins montrer un maintien profond. Si l’ancien schéma ne dirige plus les choix et ne perturbe plus les relations ou le fonctionnement, c’est un résultat durable et substantiel.';
 
   @override
   String get pornographyReferenceDay1825 =>

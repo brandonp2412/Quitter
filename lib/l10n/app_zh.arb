@@ -2112,6 +2112,12 @@
   "@pornographyMilestone365Description": {
     "description": "Pornography milestone day 365 description"
   },
+  "pornographyMilestone730Title": "两年：稳定掌控",
+  "pornographyMilestone730Description": "持续两年的改变是一项重要的行为成果。有关强迫性性行为障碍和问题性色情内容使用的证据关注掌控、痛苦程度、生活功能和情境，而不是人人适用的“两年大脑重置”。请继续保留那些让健康选择更容易的习惯。",
+  "pornographyMilestone1095Title": "三年：改变更稳固",
+  "pornographyMilestone1095Description": "三年说明这项改变经受了不同情绪、日常安排和生活事件。没有证据支持“三年即达到生物学终点”的说法；持续掌控和更好的生活功能本身就是重要成果。",
+  "pornographyMilestone1460Title": "四年：持久改变",
+  "pornographyMilestone1460Description": "四年代表持久维持。最佳证据认为强迫性性行为障碍和问题性色情内容使用复杂且因人而异，因此仍应关注真正重要的方面：掌控、痛苦程度、关系、时间使用，以及旧模式是否还在干扰生活。",
   "pornographyMilestone1825Title": "五年的控制",
   "@pornographyMilestone1825Title": {
     "description": "Pornography milestone day 1825 title"
@@ -2489,6 +2495,9 @@
   "pornographyReferenceDay1": "第一天：重新掌控\n\n来源：Kraus et al.，Compulsive sexual behaviour disorder in the ICD-11，World Psychiatry（2018）\n\n临床上重要的问题不是色情使用本身。强迫性行为障碍的定义是：当一种模式造成显著的痛苦或功能损害时，持续难以控制重复的性行为。有问题的色情使用可能是这个更广泛问题的一种表现形式。\n\n这使得第一天变得具体而非神秘：你已经打断了一种你判定为失控的行为。完成的一天并不能证明大脑和神经的重置，但它确实给了你关于冲动何时出现、什么情境触发它们、以及你可以转而做什么的第一次真实观察。\n\n如果你的使用并不令人痛苦、不造成损害、也不难以控制，那么临床上的CSBD框架可能并不适用于你。这些里程碑针对的是那些有意改变有问题或强迫性使用的人。",
   "pornographyReferenceDay14": "两周：绘制真正重要的触发因素\n\n来源：Biopsychosocial Determinants of Problematic Pornography Use: A Systematic Review（2023）\n\n这篇综述综合了66项研究，发现有问题的色情使用与多种因素的混合有关，而非单一的多巴胺机制。反复被识别的心理和社会因素包括渴求、压力、回避、孤独、自尊、负面信念和应对方式。\n\n两周让你反复暴露于工作日、周末、无聊、压力、独处、设备和可能诱发旧行为的其他情境。利用这些数据。如果压力是触发因素，设计一种压力应对方式。如果孤独是触发因素，增加联系。如果容易接触到是触发因素，改变环境。\n\n证据支持针对问题使用的驱动因素下功夫；它并不要求假装每个人都遵循同样的生物倒计时。",
   "pornographyReferenceDay180": "六个月：长期症状控制可以保持\n\n来源：Hallberg et al.，A Randomized Controlled Study of Group-Administered Cognitive Behavioral Therapy for Hypersexual Disorder in Men，Journal of Sexual Medicine（2019）\n\n在137名性行为失控的男性中，为期七周的团体CBT比等待名单带来了更大的性欲亢进症状和性强迫的减少，同时改善了精神健康。治疗收益在三个月和六个月的随访中都保持稳定。\n\n这项研究涵盖的是更广泛的性欲亢进障碍，而非仅仅色情戒断，因此不应被转述为每个人都在六个月时在生物学上恢复了。它确实支持一个更有力也更有用的陈述：强迫性性行为的持续改善可以在这段时长内保持稳定。\n\n因此，六个月是一个维持性的里程碑。保留那些让控制变得更容易的习惯，而不是把这一天当作拆解它们的许可。",
+  "pornographyReferenceDay730": "两年：稳定掌控\n\n来源：Ince 等（2026）关于强迫性性行为障碍和问题性色情内容使用的综述。\n\n研究认为这些问题复杂且因人而异，重点评估掌控、痛苦程度、生活功能和情境。没有证据确立统一的两年生物学恢复门槛。\n\n因此，两年代表行为改变得到长期维持。持续的掌控和生活功能改善本身就是有意义的结果。",
+  "pornographyReferenceDay1095": "三年：改变更稳固\n\n来源：Ince 等（2026）关于强迫性性行为障碍和问题性色情内容使用的综述。\n\n现有证据没有设定三年的生物学终点。临床上仍关注掌控、痛苦程度、功能受损、情境和日常生活。\n\n三年体现了改变的持久性。即使日常安排和生活环境变化仍能维持的改变，值得继续保护。",
+  "pornographyReferenceDay1460": "四年：持久改变\n\n来源：Ince 等（2026）关于强迫性性行为障碍和问题性色情内容使用的综述。\n\n证据强调个体差异和情境，并不支持“四年时人人都完成生物学恢复”这一统一标准。\n\n不过，四年仍可体现深度维持。如果旧模式不再主导选择，也不再破坏关系或生活功能，这就是实质性的长期成果。",
   "pornographyReferenceDay1825": "五年：长期控制才是结局\n\n来源：Compulsive sexual behavior disorder and problematic pornography use: a comprehensive interdisciplinary expert-informed review（2026）\n\n现代综述将CSBD和有问题的色情使用视为涉及控制、痛苦、功能、情境和个体差异的复杂问题。并不存在经过验证的五年大脑和神经重置阈值。\n\n但五年并不是一个空洞的里程碑。它是1,825天维持你所选择的行为方向。由于临床问题是伴有痛苦或损害的持续失控，因此数年间持续的控制和恢复的功能本身就是有意义的结局。\n\n到这个阶段，有用的问题不再是你大脑是否达到了某个虚构的重塑百分比。而是旧的模式是否仍然控制着你的选择，或扰乱你想要的生活。如果它不再如此，那就是一项实质性的长期成功。",
   "pornographyReferenceDay3": "第三天：了解冲动可能是什么样子\n\n来源：Lewczuk et al.，Withdrawal and tolerance as related to compulsive sexual behavior disorder and problematic pornography use，Journal of Behavioral Addictions（2022）\n\n在一项预先注册的、具有全国代表性的波兰样本中（1,541名成年人），更强的自报类戒断体验与更高的CSBD和有问题的色情使用严重程度相关。在有问题的色情使用参与者中，常被报告的体验包括难以停止的性念头、难以控制的欲望、性唤起增强、易怒、情绪变化和睡眠问题。\n\n坐立不安、闯入性的性念头、强烈的冲动和易怒，在问题使用更严重的人身上有记载。如果它们大约在第三天出现，就把它们当作真实的类戒断模式来对待，并管理触发因素。\n\n写下哪些冲动实际发生了、它们之前发生了什么、以及什么应对方式有帮助。当触发因素被命名，而不是被当作一个神秘的大脑事件时，恢复就更容易引导。",
   "pornographyReferenceDay30": "一个月：控制比简单的频率计数更重要\n\n来源：Bőthe et al.，Are sexual functioning problems associated with frequent pornography use and/or problematic pornography use?，Addictive Behaviors（2021）\n\n在一个包含14,581名成年人的社区样本中，有问题的色情使用与男性和女性的性功能问题都存在中等程度的正相关。色情使用频率本身与这些问题的相关性较弱且为负。\n\n这一区分很重要。证据并不支持告诉每个色情使用者，观看频率本身就会损害性功能。临床上更相关的目标是失控以及围绕该模式的问题。\n\n到一个月时，将现在的生活与开始时相比：沉迷程度、损失的时间、停止的能力、性功能、关系冲突和痛苦。这些变化比等待一个神话般的第30天大脑重置更重要。",

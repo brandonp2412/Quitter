@@ -2664,6 +2664,27 @@ class AppLocalizationsPl extends AppLocalizations {
       'Rok utrzymywania się zmian jest wiarygodnym dowodem na trwały wzorzec, a nie magiczną datę resetowania mózgu.';
 
   @override
+  String get pornographyMilestone730Title => 'Dwa lata: stabilna kontrola';
+
+  @override
+  String get pornographyMilestone730Description =>
+      'Dwa lata utrzymanej zmiany to ważne osiągnięcie behawioralne. Badania nad CSBD i problematycznym korzystaniem z pornografii skupiają się na kontroli, cierpieniu, funkcjonowaniu i kontekście, a nie na uniwersalnym dwuletnim „resecie mózgu”. Warto chronić rutyny ułatwiające dobre decyzje.';
+
+  @override
+  String get pornographyMilestone1095Title => 'Trzy lata: trwała zmiana';
+
+  @override
+  String get pornographyMilestone1095Description =>
+      'Trzy lata pokazują, że zmiana przetrwała różne nastroje, rutyny i wydarzenia życiowe. Nie istnieje oparta na dowodach biologiczna meta po trzech latach; trwała kontrola i lepsze funkcjonowanie są już znaczącymi rezultatami.';
+
+  @override
+  String get pornographyMilestone1460Title => 'Cztery lata: trwałość';
+
+  @override
+  String get pornographyMilestone1460Description =>
+      'Cztery lata to trwałe utrzymanie zmiany. Najlepsze dowody traktują CSBD i problematyczne korzystanie z pornografii jako zjawiska złożone i indywidualne; nadal warto oceniać kontrolę, cierpienie, relacje, wykorzystanie czasu i wpływ starego wzorca na życie.';
+
+  @override
   String get pornographyMilestone1825Title => 'Pięć lat kontroli';
 
   @override
@@ -3721,6 +3742,18 @@ class AppLocalizationsPl extends AppLocalizations {
   @override
   String get pornographyReferenceDay365 =>
       'Jeden rok: Dowody na trwałą zmianę zachowania\n\nŹródło: One-year follow-up effects of an acceptance-based treatment for hypersexuality (2026).\n\nPo upływie roku uczestnicy tego badania nie powrócili do poziomu hiperseksualności przed leczeniem. Autorzy opisali wyniki jako wstępne dowody trwałych, klinicznie istotnych korzyści, z postrzeganą kontrolą nad pożądaniem wśród procesów, które następują z upływem czasu.\n\nJest to dowód na kontynuację leczenia, a nie dowód jednorocznego przesiedlenia mózgów. Znaczne twierdzenie jest lepsze w każdym razie: klinicznie istotna kontrola może trwać przez rok, a nie znikać jak tylko skończy się pierwsza interwencja.\n\nRok własnych utrzymanych zmian jest również dużą osobistą dataset. Porównaj bieżące kontrole, stres, funkcje, relacje, i wykorzystanie czasu tam, gdzie rozpoczął; są to wyniki, które mają znaczenie klinicznie.';
+
+  @override
+  String get pornographyReferenceDay730 =>
+      'Dwa lata: stabilna kontrola\n\nŹródło: Ince i wsp. (2026), przegląd dotyczący CSBD i problematycznego korzystania z pornografii.\n\nBadania opisują te problemy jako złożone i indywidualne, oceniając kontrolę, cierpienie, funkcjonowanie i kontekst. Nie ustalają uniwersalnego biologicznego progu dwóch lat.\n\nDwa lata oznaczają więc trwałe utrzymanie zmiany. Stała kontrola i lepsze funkcjonowanie są ważnymi wynikami same w sobie.';
+
+  @override
+  String get pornographyReferenceDay1095 =>
+      'Trzy lata: trwała zmiana\n\nŹródło: Ince i wsp. (2026), przegląd dotyczący CSBD i problematycznego korzystania z pornografii.\n\nObecne dowody nie określają biologicznego punktu końcowego po trzech latach. Klinicznie nadal liczą się kontrola, cierpienie, ograniczenie funkcjonowania, kontekst i codzienne życie.\n\nTrzy lata świadczą o trwałości. Zmianę utrzymaną mimo różnych rutyn i okoliczności warto nadal chronić.';
+
+  @override
+  String get pornographyReferenceDay1460 =>
+      'Cztery lata: trwałość\n\nŹródło: Ince i wsp. (2026), przegląd dotyczący CSBD i problematycznego korzystania z pornografii.\n\nDowody podkreślają różnice indywidualne i kontekst i nie potwierdzają uniwersalnego momentu pełnego biologicznego zakończenia zdrowienia po czterech latach.\n\nCztery lata mogą jednak pokazywać głęboką stabilność. Jeśli stary wzorzec nie kieruje już wyborami ani nie zakłóca relacji i funkcjonowania, jest to istotny wynik długoterminowy.';
 
   @override
   String get pornographyReferenceDay1825 =>

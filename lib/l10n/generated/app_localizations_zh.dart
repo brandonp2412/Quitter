@@ -2483,6 +2483,27 @@ class AppLocalizationsZh extends AppLocalizations {
       '一项接纳式治疗的一年随访发现，参与者的过度性行为没有回到治疗前水平。一年持续的改变更能说明新的行为模式已经稳定下来，而不是存在某个让大脑突然“重置”的神奇日期。';
 
   @override
+  String get pornographyMilestone730Title => '两年：稳定掌控';
+
+  @override
+  String get pornographyMilestone730Description =>
+      '持续两年的改变是一项重要的行为成果。有关强迫性性行为障碍和问题性色情内容使用的证据关注掌控、痛苦程度、生活功能和情境，而不是人人适用的“两年大脑重置”。请继续保留那些让健康选择更容易的习惯。';
+
+  @override
+  String get pornographyMilestone1095Title => '三年：改变更稳固';
+
+  @override
+  String get pornographyMilestone1095Description =>
+      '三年说明这项改变经受了不同情绪、日常安排和生活事件。没有证据支持“三年即达到生物学终点”的说法；持续掌控和更好的生活功能本身就是重要成果。';
+
+  @override
+  String get pornographyMilestone1460Title => '四年：持久改变';
+
+  @override
+  String get pornographyMilestone1460Description =>
+      '四年代表持久维持。最佳证据认为强迫性性行为障碍和问题性色情内容使用复杂且因人而异，因此仍应关注真正重要的方面：掌控、痛苦程度、关系、时间使用，以及旧模式是否还在干扰生活。';
+
+  @override
   String get pornographyMilestone1825Title => '五年的控制';
 
   @override
@@ -3513,6 +3534,18 @@ class AppLocalizationsZh extends AppLocalizations {
   @override
   String get pornographyReferenceDay365 =>
       '一年：持久行为改变的证据\n\n来源：One-year follow-up effects of an acceptance-based treatment for hypersexuality（2026）\n\n在一年的随访中，这项基于接纳的治疗研究的参与者并未回到他们治疗前的性欲亢进水平。作者将这些发现描述为持久、具有临床意义益处的初步证据，其中对渴求的感知控制是随时间被追踪的过程之一。\n\n这是治疗随访的证据，而非一年大脑重置的证据。有意义的说法无论如何都更好：临床上相关的控制可以持续一年，而不是在最初的干预一结束就消失。\n\n你自己维持改变的一年，也是一份庞大的个人数据集。将现在的控制、痛苦、功能、人际关系和时间使用与你开始的地方相比；这些才是临床上重要的结局。';
+
+  @override
+  String get pornographyReferenceDay730 =>
+      '两年：稳定掌控\n\n来源：Ince 等（2026）关于强迫性性行为障碍和问题性色情内容使用的综述。\n\n研究认为这些问题复杂且因人而异，重点评估掌控、痛苦程度、生活功能和情境。没有证据确立统一的两年生物学恢复门槛。\n\n因此，两年代表行为改变得到长期维持。持续的掌控和生活功能改善本身就是有意义的结果。';
+
+  @override
+  String get pornographyReferenceDay1095 =>
+      '三年：改变更稳固\n\n来源：Ince 等（2026）关于强迫性性行为障碍和问题性色情内容使用的综述。\n\n现有证据没有设定三年的生物学终点。临床上仍关注掌控、痛苦程度、功能受损、情境和日常生活。\n\n三年体现了改变的持久性。即使日常安排和生活环境变化仍能维持的改变，值得继续保护。';
+
+  @override
+  String get pornographyReferenceDay1460 =>
+      '四年：持久改变\n\n来源：Ince 等（2026）关于强迫性性行为障碍和问题性色情内容使用的综述。\n\n证据强调个体差异和情境，并不支持“四年时人人都完成生物学恢复”这一统一标准。\n\n不过，四年仍可体现深度维持。如果旧模式不再主导选择，也不再破坏关系或生活功能，这就是实质性的长期成果。';
 
   @override
   String get pornographyReferenceDay1825 =>
@@ -6571,6 +6604,27 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
       '一項接納式治療的一年隨訪發現，參與者的過度性行為沒有回到治療前水平。一年持續的改變更能說明新的行為模式已經穩定下來，而不是存在某個讓大腦突然“重置”的神奇日期。';
 
   @override
+  String get pornographyMilestone730Title => '兩年：穩定掌控';
+
+  @override
+  String get pornographyMilestone730Description =>
+      '持續兩年的改變是一項重要的行為成果。有關強迫性性行為障礙與問題性色情內容使用的證據著重掌控、痛苦程度、生活功能和情境，而不是人人適用的「兩年大腦重置」。請繼續保留那些讓健康選擇更容易的習慣。';
+
+  @override
+  String get pornographyMilestone1095Title => '三年：改變更穩固';
+
+  @override
+  String get pornographyMilestone1095Description =>
+      '三年說明這項改變經歷不同情緒、日常安排和生活事件後仍然維持。沒有證據支持「三年即達到生物學終點」；持續掌控和更好的生活功能本身就是重要成果。';
+
+  @override
+  String get pornographyMilestone1460Title => '四年：持久改變';
+
+  @override
+  String get pornographyMilestone1460Description =>
+      '四年代表持久維持。最佳證據認為強迫性性行為障礙和問題性色情內容使用複雜且因人而異，因此仍應關注真正重要的面向：掌控、痛苦程度、關係、時間使用，以及舊模式是否仍在干擾生活。';
+
+  @override
   String get pornographyMilestone1825Title => '五年的控制';
 
   @override
@@ -7601,6 +7655,18 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   @override
   String get pornographyReferenceDay365 =>
       '一年：持久行為改變的證據\n\n來源：One-year follow-up effects of an acceptance-based treatment for hypersexuality（2026）\n\n在一年的隨訪中，這項基於接納的治療研究的參與者並未回到他們治療前的性慾亢進水平。作者將這些發現描述為持久、具有臨床意義益處的初步證據，其中對渴求的感知控制是隨時間被追蹤的過程之一。\n\n這是治療隨訪的證據，而非一年大腦重置的證據。有意義的說法無論如何都更好：臨床上相關的控制可以持續一年，而不是在最初的干預一結束就消失。\n\n你自己維持改變的一年，也是一份龐大的個人數據集。將現在的控制、痛苦、功能、人際關係和時間使用與你開始的地方相比；這些才是臨床上重要的結局。';
+
+  @override
+  String get pornographyReferenceDay730 =>
+      '兩年：穩定掌控\n\n來源：Ince 等（2026）關於強迫性性行為障礙與問題性色情內容使用的綜述。\n\n研究認為這些問題複雜且因人而異，重點評估掌控、痛苦程度、生活功能與情境。沒有證據確立統一的兩年生物學恢復門檻。\n\n因此，兩年代表行為改變得到長期維持。持續的掌控與生活功能改善本身就是有意義的結果。';
+
+  @override
+  String get pornographyReferenceDay1095 =>
+      '三年：改變更穩固\n\n來源：Ince 等（2026）關於強迫性性行為障礙與問題性色情內容使用的綜述。\n\n現有證據沒有設定三年的生物學終點。臨床上仍著重掌控、痛苦程度、功能受損、情境和日常生活。\n\n三年體現改變的持久性。即使日常安排和生活環境改變仍能維持的改變，值得繼續保護。';
+
+  @override
+  String get pornographyReferenceDay1460 =>
+      '四年：持久改變\n\n來源：Ince 等（2026）關於強迫性性行為障礙與問題性色情內容使用的綜述。\n\n證據強調個體差異和情境，並不支持「四年時人人都完成生物學恢復」這項統一標準。\n\n不過，四年仍可體現深度維持。如果舊模式不再主導選擇，也不再破壞關係或生活功能，這就是實質性的長期成果。';
 
   @override
   String get pornographyReferenceDay1825 =>

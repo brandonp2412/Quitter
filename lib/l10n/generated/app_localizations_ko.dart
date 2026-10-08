@@ -2531,6 +2531,27 @@ class AppLocalizationsKo extends AppLocalizations {
       '수용 기반 치료 연구의 1년 후속 데이터에 따르면 참가자들은 치료 전 성욕과다 수준으로 돌아가지 않은 것으로 나타났습니다. 1년간의 지속적인 변화는 마법의 두뇌 재설정 날짜가 아니라 내구성 있는 패턴의 신뢰할 수 있는 증거입니다.';
 
   @override
+  String get pornographyMilestone730Title => '2년: 안정된 통제';
+
+  @override
+  String get pornographyMilestone730Description =>
+      '2년 동안 변화를 유지한 것은 큰 행동적 성과입니다. CSBD와 문제적 음란물 이용에 관한 근거는 모두에게 적용되는 2년의 뇌 재설정이 아니라 통제력, 고통, 기능, 맥락을 중요하게 봅니다. 좋은 선택을 쉽게 만드는 습관을 계속 지키세요.';
+
+  @override
+  String get pornographyMilestone1095Title => '3년: 단단해진 변화';
+
+  @override
+  String get pornographyMilestone1095Description =>
+      '3년은 변화가 다양한 기분, 일상, 삶의 사건을 지나서도 유지됐음을 보여줍니다. 3년에 생물학적으로 끝난다는 근거는 없으며, 지속적인 통제력과 더 나은 기능 자체가 중요한 결과입니다.';
+
+  @override
+  String get pornographyMilestone1460Title => '4년: 오래가는 변화';
+
+  @override
+  String get pornographyMilestone1460Description =>
+      '4년은 장기 유지의 단계입니다. 가장 좋은 근거는 CSBD와 문제적 음란물 이용을 복잡하고 개인차가 큰 문제로 보므로, 통제력, 고통, 관계, 시간 사용, 이전 패턴이 삶을 방해하는지를 계속 살피는 것이 중요합니다.';
+
+  @override
   String get pornographyMilestone1825Title => '5년간의 통제';
 
   @override
@@ -3561,6 +3582,18 @@ class AppLocalizationsKo extends AppLocalizations {
   @override
   String get pornographyReferenceDay365 =>
       '1년: 지속적인 행동 변화에 대한 증거\n\n출처: 성과다증에 대한 수용 기반 치료의 1년 후속 효과(2026).\n\n1년의 추적 조사에서, 이 수용 기반 치료 연구의 참가자들은 치료 전 수준의 성욕 과잉으로 돌아가지 않았습니다. 저자는 이번 연구 결과를 시간이 지남에 따라 진행되는 과정 중 갈망에 대한 인지된 통제와 함께 지속적이고 임상적으로 의미 있는 이점에 대한 예비 증거라고 설명했습니다.\n\n이는 치료 추적 관찰 증거이지 1년 간의 뇌 재설정 증거가 아닙니다. 어쨌든 의미 있는 주장이 더 좋습니다. 임상적으로 관련된 통제는 초기 개입이 끝나자마자 사라지는 것이 아니라 1년 동안 지속될 수 있습니다.\n\n1년 동안 직접 관리한 변경 사항은 대규모 개인 데이터 세트이기도 합니다. 현재 통제, 고통, 기능, 관계 및 시간 사용을 시작한 곳과 비교하십시오. 이것이 임상적으로 중요한 결과입니다.';
+
+  @override
+  String get pornographyReferenceDay730 =>
+      '2년: 안정된 통제\n\n출처: Ince 외(2026)의 CSBD 및 문제적 음란물 이용 종설.\n\n연구는 이러한 문제를 통제력, 고통, 기능, 맥락이 얽힌 복잡하고 개인차가 큰 문제로 봅니다. 2년에 생물학적 회복이 일괄적으로 완료된다는 기준은 제시하지 않습니다.\n\n따라서 2년은 행동 변화가 오래 유지되었다는 뜻입니다. 지속적인 통제력과 기능 향상 자체가 의미 있는 결과입니다.';
+
+  @override
+  String get pornographyReferenceDay1095 =>
+      '3년: 단단해진 변화\n\n출처: Ince 외(2026)의 CSBD 및 문제적 음란물 이용 종설.\n\n현재 근거는 3년이라는 생물학적 종점을 정하지 않습니다. 임상적으로는 통제력, 고통, 기능 저하, 맥락, 일상 기능을 계속 살핍니다.\n\n3년은 변화의 지속성을 보여줍니다. 일상과 상황이 바뀌어도 유지된 변화는 계속 지킬 가치가 있습니다.';
+
+  @override
+  String get pornographyReferenceDay1460 =>
+      '4년: 오래가는 변화\n\n출처: Ince 외(2026)의 CSBD 및 문제적 음란물 이용 종설.\n\n근거는 개인차와 맥락을 강조하며 4년에 모두의 생물학적 회복이 완료된다는 보편적 기준을 지지하지 않습니다.\n\n그래도 4년은 깊은 유지 상태를 보여줄 수 있습니다. 이전 패턴이 선택을 지배하지 않고 관계나 기능을 방해하지 않는다면 그것은 실질적인 장기 성과입니다.';
 
   @override
   String get pornographyReferenceDay1825 =>

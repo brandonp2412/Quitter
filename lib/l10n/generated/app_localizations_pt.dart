@@ -2667,6 +2667,27 @@ class AppLocalizationsPt extends AppLocalizations {
       'Dados de acompanhamento de um ano de um estudo de tratamento baseado na aceitação revelaram que os participantes não retornaram aos níveis de hipersexualidade anteriores ao tratamento. Um ano de mudanças contínuas é uma evidência confiável de um padrão duradouro, e não uma data mágica para uma reinicialização cerebral.';
 
   @override
+  String get pornographyMilestone730Title => 'Dois anos: controlo estável';
+
+  @override
+  String get pornographyMilestone730Description =>
+      'Dois anos de mudança mantida são uma conquista comportamental importante. A evidência sobre CSBD e uso problemático de pornografia foca controlo, sofrimento, funcionamento e contexto, não uma reinicialização cerebral universal aos dois anos. Preserve as rotinas que facilitam boas escolhas.';
+
+  @override
+  String get pornographyMilestone1095Title => 'Três anos: mudança sólida';
+
+  @override
+  String get pornographyMilestone1095Description =>
+      'Três anos mostram que a mudança resistiu a diferentes estados de espírito, rotinas e acontecimentos da vida. Não existe uma meta biológica de três anos sustentada pela evidência; controlo duradouro e melhor funcionamento já são resultados significativos.';
+
+  @override
+  String get pornographyMilestone1460Title => 'Quatro anos: mudança duradoura';
+
+  @override
+  String get pornographyMilestone1460Description =>
+      'Quatro anos representam manutenção duradoura. A melhor evidência trata o CSBD e o uso problemático de pornografia como fenómenos complexos e individuais; continue a avaliar o que importa: controlo, sofrimento, relações, uso do tempo e interferência do padrão antigo na vida.';
+
+  @override
   String get pornographyMilestone1825Title => 'Cinco anos de controle';
 
   @override
@@ -3729,6 +3750,18 @@ class AppLocalizationsPt extends AppLocalizations {
   @override
   String get pornographyReferenceDay365 =>
       'Um ano: evidências de mudança duradoura de comportamento\n\nFonte: Efeitos de acompanhamento de um ano de um tratamento baseado na aceitação para hipersexualidade (2026).\n\nNo acompanhamento de um ano, os participantes deste estudo de tratamento baseado na aceitação não retornaram aos níveis de hipersexualidade anteriores ao tratamento. Os autores descreveram os resultados como evidências preliminares de benefícios duradouros e clinicamente significativos, com controle percebido sobre o desejo entre os processos seguidos ao longo do tempo.\n\nEsta é uma evidência de acompanhamento do tratamento, não uma prova de uma reinicialização cerebral de um ano. De qualquer forma, a afirmação significativa é melhor: o controlo clinicamente relevante pode persistir durante um ano em vez de desaparecer assim que a intervenção inicial termina.\n\nUm ano de mudanças mantidas por si também é um grande conjunto de dados pessoais. Compare o controle atual, a angústia, o funcionamento, os relacionamentos e o uso do tempo com o ponto de partida; esses são os resultados que importam clinicamente.';
+
+  @override
+  String get pornographyReferenceDay730 =>
+      'Dois anos: controlo estável\n\nFonte: Ince et al. (2026), revisão sobre CSBD e uso problemático de pornografia.\n\nA investigação descreve problemas complexos e individuais, avaliando controlo, sofrimento, funcionamento e contexto. Não estabelece um limiar biológico universal de dois anos.\n\nAssim, dois anos representam manutenção comportamental duradoura. Controlo sustentado e melhor funcionamento são resultados importantes por si mesmos.';
+
+  @override
+  String get pornographyReferenceDay1095 =>
+      'Três anos: mudança sólida\n\nFonte: Ince et al. (2026), revisão sobre CSBD e uso problemático de pornografia.\n\nA evidência atual não define um ponto final biológico aos três anos. A atenção clínica continua centrada no controlo, sofrimento, impacto, contexto e funcionamento.\n\nTrês anos demonstram durabilidade. Uma mudança mantida através de rotinas e circunstâncias diferentes merece continuar protegida.';
+
+  @override
+  String get pornographyReferenceDay1460 =>
+      'Quatro anos: mudança duradoura\n\nFonte: Ince et al. (2026), revisão sobre CSBD e uso problemático de pornografia.\n\nA evidência destaca diferenças individuais e contexto e não apoia um ponto universal de recuperação biológica completa aos quatro anos.\n\nAinda assim, quatro anos podem demonstrar manutenção profunda. Se o padrão antigo já não domina escolhas nem prejudica relações ou funcionamento, isso é um resultado duradouro e substancial.';
 
   @override
   String get pornographyReferenceDay1825 =>
@@ -6971,6 +7004,27 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
       'Dados de acompanhamento de um ano de um estudo de tratamento baseado na aceitação revelaram que os participantes não retornaram aos níveis de hipersexualidade anteriores ao tratamento. Um ano de mudanças contínuas é uma evidência confiável de um padrão duradouro, e não uma data mágica para uma reinicialização cerebral.';
 
   @override
+  String get pornographyMilestone730Title => 'Dois anos: controle estável';
+
+  @override
+  String get pornographyMilestone730Description =>
+      'Dois anos de mudança mantida são uma conquista comportamental importante. As evidências sobre CSBD e uso problemático de pornografia focam controle, sofrimento, funcionamento e contexto, não uma reinicialização cerebral universal aos dois anos. Preserve as rotinas que facilitam boas escolhas.';
+
+  @override
+  String get pornographyMilestone1095Title => 'Três anos: mudança sólida';
+
+  @override
+  String get pornographyMilestone1095Description =>
+      'Três anos mostram que a mudança resistiu a diferentes estados de humor, rotinas e acontecimentos da vida. Não existe uma meta biológica de três anos sustentada por evidências; controle duradouro e melhor funcionamento já são resultados significativos.';
+
+  @override
+  String get pornographyMilestone1460Title => 'Quatro anos: mudança duradoura';
+
+  @override
+  String get pornographyMilestone1460Description =>
+      'Quatro anos representam manutenção duradoura. As melhores evidências tratam o CSBD e o uso problemático de pornografia como fenômenos complexos e individuais; continue avaliando o que importa: controle, sofrimento, relações, uso do tempo e interferência do padrão antigo na vida.';
+
+  @override
   String get pornographyMilestone1825Title => 'Cinco anos de controle';
 
   @override
@@ -8035,6 +8089,18 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
   @override
   String get pornographyReferenceDay365 =>
       'Um ano: evidências de mudança duradoura de comportamento\n\nFonte: Efeitos de acompanhamento de um ano de um tratamento baseado na aceitação para hipersexualidade (2026).\n\nNo acompanhamento de um ano, os participantes deste estudo de tratamento baseado na aceitação não retornaram aos níveis de hipersexualidade anteriores ao tratamento. Os autores descreveram os resultados como evidências preliminares de benefícios duradouros e clinicamente significativos, com controle percebido sobre o desejo entre os processos seguidos ao longo do tempo.\n\nEsta é uma evidência de acompanhamento do tratamento, não uma prova de uma reinicialização cerebral de um ano. De qualquer forma, a afirmação significativa é melhor: o controlo clinicamente relevante pode persistir durante um ano em vez de desaparecer assim que a intervenção inicial termina.\n\nUm ano de mudanças mantidas por você também é um grande conjunto de dados pessoais. Compare o controle atual, a angústia, o funcionamento, os relacionamentos e o uso do tempo com o ponto de partida; esses são os resultados que importam clinicamente.';
+
+  @override
+  String get pornographyReferenceDay730 =>
+      'Dois anos: controle estável\n\nFonte: Ince et al. (2026), revisão sobre CSBD e uso problemático de pornografia.\n\nA pesquisa descreve problemas complexos e individuais, avaliando controle, sofrimento, funcionamento e contexto. Ela não estabelece um limite biológico universal de dois anos.\n\nAssim, dois anos representam manutenção comportamental duradoura. Controle sustentado e melhor funcionamento são resultados importantes por si só.';
+
+  @override
+  String get pornographyReferenceDay1095 =>
+      'Três anos: mudança sólida\n\nFonte: Ince et al. (2026), revisão sobre CSBD e uso problemático de pornografia.\n\nAs evidências atuais não definem um ponto final biológico aos três anos. A atenção clínica continua focada em controle, sofrimento, prejuízo, contexto e funcionamento.\n\nTrês anos demonstram durabilidade. Uma mudança mantida em diferentes rotinas e circunstâncias merece continuar protegida.';
+
+  @override
+  String get pornographyReferenceDay1460 =>
+      'Quatro anos: mudança duradoura\n\nFonte: Ince et al. (2026), revisão sobre CSBD e uso problemático de pornografia.\n\nAs evidências destacam diferenças individuais e contexto e não apoiam um ponto universal de recuperação biológica completa aos quatro anos.\n\nMesmo assim, quatro anos podem demonstrar manutenção profunda. Se o padrão antigo já não domina escolhas nem prejudica relações ou funcionamento, isso é um resultado duradouro e substancial.';
 
   @override
   String get pornographyReferenceDay1825 =>

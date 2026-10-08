@@ -2487,6 +2487,27 @@ class AppLocalizationsJa extends AppLocalizations {
       '受容ベース治療の1年追跡研究では、参加者の過度な性的行動は治療前の水準には戻りませんでした。1年間維持された変化は、「ある日突然脳がリセットされる」という考えではなく、持続する新しい行動パターンを示す根拠になります。';
 
   @override
+  String get pornographyMilestone730Title => '2年：安定したコントロール';
+
+  @override
+  String get pornographyMilestone730Description =>
+      '2年間変化を維持できたことは大きな行動上の成果です。CSBDや問題のあるポルノ利用の研究は、誰にでも当てはまる2年後の脳のリセットではなく、コントロール、苦痛、生活機能、状況を重視しています。良い選択をしやすくする習慣を守り続けましょう。';
+
+  @override
+  String get pornographyMilestone1095Title => '3年：揺るがない変化';
+
+  @override
+  String get pornographyMilestone1095Description =>
+      '3年間続いた変化は、さまざまな気分、生活習慣、出来事を越えてきたことを示します。3年で生物学的に完了するという根拠はなく、持続するコントロールと生活機能の改善自体が大切な成果です。';
+
+  @override
+  String get pornographyMilestone1460Title => '4年：続く確かな変化';
+
+  @override
+  String get pornographyMilestone1460Description =>
+      '4年は長期的な維持の節目です。現在の研究はCSBDや問題のあるポルノ利用を複雑で個人差のある問題として扱うため、コントロール、苦痛、人間関係、時間の使い方、旧来のパターンが生活を妨げているかを見続けることが重要です。';
+
+  @override
   String get pornographyMilestone1825Title => '5年間のコントロール';
 
   @override
@@ -3517,6 +3538,18 @@ class AppLocalizationsJa extends AppLocalizations {
   @override
   String get pornographyReferenceDay365 =>
       '1年：持続的な行動変化のエビデンス\n\n出典：One-year follow-up effects of an acceptance-based treatment for hypersexuality (2026).\n\n1年のフォローアップ時点で、このアクセプタンスベースの治療研究の参加者は、治療前の過剰性の水準に戻っていませんでした。著者らは、この知見を持続的で臨床的に意味のある利益の予備的エビデンスとし、渇望に対する知覚されたコントロールを時間とともに追跡した過程の一つに含めました。\n\nこれは治療のフォローアップのエビデンスであり、1年間の脳リセットの証明ではありません。意味のある主張はそれよりも優れています：臨床的に関連するコントロールは、最初の介入が終わるとすぐに消えるのではなく、1年間持続し得るのです。\n\nあなた自身が維持した変化の1年は、大きな個人データでもあります。現在のコントロール、苦痛、機能、人間関係、時間の使い方を始めたときと比較してください。それらが臨床的に重要な転帰です。';
+
+  @override
+  String get pornographyReferenceDay730 =>
+      '2年：安定したコントロール\n\n出典：Inceら（2026）によるCSBDと問題のあるポルノ利用の総説。\n\n研究では、これらをコントロール、苦痛、生活機能、状況が関わる複雑で個人差の大きい問題として扱っています。2年で一律に生物学的回復が完了するという基準は示されていません。\n\nしたがって2年は、行動変化を長く維持できた節目です。持続するコントロールと生活機能の改善そのものに意味があります。';
+
+  @override
+  String get pornographyReferenceDay1095 =>
+      '3年：揺るがない変化\n\n出典：Inceら（2026）によるCSBDと問題のあるポルノ利用の総説。\n\n現在のエビデンスは、3年という生物学的な終点を定めていません。臨床では引き続き、コントロール、苦痛、機能障害、状況、日常生活が重視されます。\n\n3年は変化の持続性を示します。生活習慣や状況が変わっても保たれた変化は、今後も守る価値があります。';
+
+  @override
+  String get pornographyReferenceDay1460 =>
+      '4年：続く確かな変化\n\n出典：Inceら（2026）によるCSBDと問題のあるポルノ利用の総説。\n\n研究は個人差と状況を重視しており、4年で誰もが生物学的回復を完了するという普遍的な基準を支持していません。\n\nそれでも4年は深い維持を示せます。旧来のパターンが選択を支配せず、人間関係や生活機能を乱していないなら、それは実質的な長期成果です。';
 
   @override
   String get pornographyReferenceDay1825 =>

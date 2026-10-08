@@ -2646,6 +2646,28 @@ class AppLocalizationsId extends AppLocalizations {
       'Data tindak lanjut satu tahun dari studi pengobatan berbasis penerimaan menemukan peserta tidak kembali ke tingkat hiperseksualitas sebelum pengobatan. Perubahan yang dipertahankan selama setahun adalah bukti kredibel dari pola yang bertahan lama, bukan tanggal yang ajaib untuk mengatur ulang otak.';
 
   @override
+  String get pornographyMilestone730Title => 'Dua Tahun: Kendali Stabil';
+
+  @override
+  String get pornographyMilestone730Description =>
+      'Dua tahun perubahan yang terjaga adalah pencapaian perilaku yang besar. Bukti tentang CSBD dan penggunaan pornografi bermasalah berfokus pada kendali, tekanan, fungsi, dan konteks, bukan pada pemulihan otak universal tepat dua tahun. Pertahankan rutinitas yang memudahkan pilihan yang sehat.';
+
+  @override
+  String get pornographyMilestone1095Title => 'Tiga Tahun: Makin Kokoh';
+
+  @override
+  String get pornographyMilestone1095Description =>
+      'Tiga tahun menunjukkan bahwa perubahan telah bertahan melewati berbagai suasana hati, rutinitas, dan peristiwa hidup. Tidak ada garis akhir biologis tiga tahun yang didukung bukti; kendali yang bertahan dan fungsi yang lebih baik sudah merupakan hasil penting.';
+
+  @override
+  String get pornographyMilestone1460Title =>
+      'Empat Tahun: Perubahan Tahan Lama';
+
+  @override
+  String get pornographyMilestone1460Description =>
+      'Empat tahun adalah pemeliharaan yang tahan lama. Bukti terbaik melihat CSBD dan penggunaan pornografi bermasalah sebagai masalah yang kompleks dan individual; tetap ukur hal yang penting: kendali, tekanan, hubungan, penggunaan waktu, dan apakah pola lama masih mengganggu kehidupan.';
+
+  @override
   String get pornographyMilestone1825Title => 'Kontrol Lima Tahun';
 
   @override
@@ -3699,6 +3721,18 @@ class AppLocalizationsId extends AppLocalizations {
   @override
   String get pornographyReferenceDay365 =>
       'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+
+  @override
+  String get pornographyReferenceDay730 =>
+      'Dua Tahun: Kendali Stabil\n\nSumber: Ince dkk. (2026), tinjauan tentang CSBD dan penggunaan pornografi bermasalah.\n\nPenelitian menggambarkan masalah ini sebagai sesuatu yang kompleks dan berbeda pada tiap orang, dengan perhatian pada kendali, tekanan, fungsi, dan konteks. Tidak ada ambang biologis universal pada dua tahun.\n\nKarena itu, dua tahun menandai pemeliharaan perubahan yang tahan lama. Kendali yang bertahan dan fungsi yang lebih baik adalah hasil yang bermakna.';
+
+  @override
+  String get pornographyReferenceDay1095 =>
+      'Tiga Tahun: Makin Kokoh\n\nSumber: Ince dkk. (2026), tinjauan tentang CSBD dan penggunaan pornografi bermasalah.\n\nBukti saat ini tidak menetapkan titik akhir biologis pada tiga tahun. Penilaian klinis tetap berfokus pada kendali, tekanan, gangguan fungsi, konteks, dan kehidupan sehari-hari.\n\nTiga tahun menunjukkan daya tahan. Perubahan yang bertahan melalui rutinitas dan keadaan yang berbeda layak terus dijaga.';
+
+  @override
+  String get pornographyReferenceDay1460 =>
+      'Empat Tahun: Perubahan Tahan Lama\n\nSumber: Ince dkk. (2026), tinjauan tentang CSBD dan penggunaan pornografi bermasalah.\n\nBukti menekankan perbedaan antarorang dan konteks serta tidak mendukung titik universal pemulihan biologis lengkap pada empat tahun.\n\nMeski demikian, empat tahun dapat menunjukkan pemeliharaan yang mendalam. Jika pola lama tidak lagi menguasai pilihan atau mengganggu hubungan dan fungsi, itu adalah hasil jangka panjang yang nyata.';
 
   @override
   String get pornographyReferenceDay1825 =>
