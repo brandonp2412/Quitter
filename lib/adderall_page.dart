@@ -220,6 +220,74 @@ class AdderallPage extends StatelessWidget {
             "What This Means at One Year\n"
             "For most people — particularly those who took Adderall at prescribed doses — a year off means reward, attention, and motivation systems are working well day to day. Heavier or longer use can take more time, but recovery continues. Relapse risk is much lower than in early recovery.",
       ),
+      QuitMilestone(
+        day: 730,
+        title: l10n.adderallMilestone730Title,
+        description: l10n.adderallMilestone730Description,
+        reference: "Treatment of Stimulant Use Disorders (SAMHSA)",
+        link:
+            "https://www.samhsa.gov/resource/ebp/treatment-stimulant-use-disorders",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.adderallReferenceDay730,
+        referenceContent:
+            "Two Years Off Adderall: Durable Progress\n\n"
+            "Source: SAMHSA, Treatment of Stimulant Use Disorders\n\n"
+            "What the Evidence Supports\n"
+            "SAMHSA's evidence guide covers amphetamine-type stimulants, including prescription stimulant misuse, and describes evidence-based approaches that support recovery. It does not set a two-year biological reset date.\n\n"
+            "What This Milestone Means\n"
+            "Two years is still a major achievement: sustained recovery is built through repeated choices, support, and habits over time. Celebrate the stability you've created and keep using what works.",
+      ),
+      QuitMilestone(
+        day: 1095,
+        title: l10n.adderallMilestone1095Title,
+        description: l10n.adderallMilestone1095Description,
+        reference: "Treatment of Stimulant Use Disorders (SAMHSA)",
+        link:
+            "https://www.samhsa.gov/resource/ebp/treatment-stimulant-use-disorders",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.adderallReferenceDay1095,
+        referenceContent:
+            "Three Years Off Adderall: Recovery With Momentum\n\n"
+            "Source: SAMHSA, Treatment of Stimulant Use Disorders\n\n"
+            "Evidence Without a Made-Up Deadline\n"
+            "SAMHSA supports evidence-based treatment and long-term recovery from stimulant use disorders, including problems involving prescription stimulants. The guide does not claim that a particular brain change finishes at three years.\n\n"
+            "What This Milestone Means\n"
+            "Three years reflects durable change carried through ordinary days as well as difficult ones. Keep the routines, relationships, and support that helped you reach this point.",
+      ),
+      QuitMilestone(
+        day: 1460,
+        title: l10n.adderallMilestone1460Title,
+        description: l10n.adderallMilestone1460Description,
+        reference: "Treatment of Stimulant Use Disorders (SAMHSA)",
+        link:
+            "https://www.samhsa.gov/resource/ebp/treatment-stimulant-use-disorders",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.adderallReferenceDay1460,
+        referenceContent:
+            "Four Years Off Adderall: Long-Term Change in Practice\n\n"
+            "Source: SAMHSA, Treatment of Stimulant Use Disorders\n\n"
+            "What the Evidence Says\n"
+            "SAMHSA's guide focuses on treatments and supports that help people achieve long-term recovery. It does not define a four-year medical finish line, so this milestone is about sustained progress rather than an invented health promise.\n\n"
+            "What This Milestone Means\n"
+            "Four years shows consistency on a genuinely long timescale. The life around recovery matters too: protect the structures and people that keep your progress steady.",
+      ),
+      QuitMilestone(
+        day: 1825,
+        title: l10n.adderallMilestone1825Title,
+        description: l10n.adderallMilestone1825Description,
+        reference: "Treatment of Stimulant Use Disorders (SAMHSA)",
+        link:
+            "https://www.samhsa.gov/resource/ebp/treatment-stimulant-use-disorders",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.adderallReferenceDay1825,
+        referenceContent:
+            "Five Years Off Adderall: Half a Decade of Progress\n\n"
+            "Source: SAMHSA, Treatment of Stimulant Use Disorders\n\n"
+            "Long-Term Recovery, Honestly Framed\n"
+            "SAMHSA recognizes long-term recovery as an important goal of stimulant-use-disorder care. Its evidence guide does not promise a special biological event at five years, and this milestone does not need one to matter.\n\n"
+            "What This Milestone Means\n"
+            "Five years is 1,825 days of maintaining a different direction. That is a substantial body of lived evidence that your change can endure. Celebrate it, then keep doing the things that made it possible.",
+      ),
     ];
   }
 

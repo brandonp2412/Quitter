@@ -762,6 +762,20 @@ class AppLocalizationsJa extends AppLocalizations {
       '3年経つと、長い離脱期間は多くの人にとって遠い過去になっています。睡眠、気分、記憶、注意力には何年もの回復時間があり、日々の生活は長期使用中より通常は大きく改善しています。';
 
   @override
+  String get benzoMilestone1460Title => '4年：確かな前進';
+
+  @override
+  String get benzoMilestone1460Description =>
+      'ベンゾジアゼピンを離れて4年。日々積み重ねてきた長い回復の歩みです。回復の速さは人それぞれなので、この節目では全員に共通のゴールを決めつけず、培ってきた安定、習慣、回復力を祝います。';
+
+  @override
+  String get benzoMilestone1825Title => '5年：強い土台';
+
+  @override
+  String get benzoMilestone1825Description =>
+      '5年は大きな長期的成果です。回復に一つの時間表はありませんが、5年間続けた変化は、何千日もの実践と支え、そしてベンゾジアゼピンの先に築いてきた生活を意味します。';
+
+  @override
   String get addictionMeth => 'メタンフェタミン';
 
   @override
@@ -2502,7 +2516,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get ssriMilestone180Description =>
-      '寛解中に抗うつ薬を中止した人を6か月追跡した研究では、転帰データのある83人中54人（65％）が良好な状態を維持しました。6か月は長期的な安定を示す具体的な節目です。';
+      '寛解中に抗うつ薬を中止した人を6か月追跡した研究では、転帰データのある83人中54人（65％）が良好な状態を維持しました。6か月は長期的な安定を示す具体的な節目であり、神経系の回復速度が人によって異なることとも両立します。';
 
   @override
   String get ssriMilestone365Title => '1年：大きな節目';
@@ -2882,7 +2896,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get benzodiazepineReferenceDay90 =>
-      'ベンゾジアゼピン中止から3か月：思考が速くなり、鎮静感が軽くなる\n\n出典: Rickels et al., \"Psychomotor performance of long-term benzodiazepine users before, during, and after benzodiazepine discontinuation,\" Journal of Clinical Psychopharmacology (1999), on PubMed\n\n12週間で測定された回復のサイン\n研究では、長期ベンゾジアゼピン使用者を減量前、減量後5週、12週に検査しました。12週時点のデータは77人分あり、中止に成功した人は毎週の血液検査でベンゾジアゼピンを使用していないことが確認されました。\n\n認知課題が速くなる\n中止に成功した人は、使用を続けていた参加者より、記号写字課題と数字記号置換課題を速く完了しました。年齢、教育歴、開始時の得点を考慮しても差は有意でした。\n\n精神的・身体的な鎮静感が軽くなる\n中止に成功した人は、ベンゾジアゼピンを続けていた人より精神的・身体的な鎮静感も少ないと報告しました。\n\n3か月で見えてくる変化\nこの研究で中止に成功した人では、減量から12週間後に処理速度の改善と精神的・身体的な鎮静感の低下が測定されました。思考のスピードが上がり、ぼんやりした鎮静感が軽くなっていました。';
+      'ベンゾジアゼピン中止から3か月：思考が速くなり、鎮静感が軽くなる\n\n出典: Rickels et al., \"Psychomotor performance of long-term benzodiazepine users before, during, and after benzodiazepine discontinuation,\" Journal of Clinical Psychopharmacology (1999)（PubMed収載）\n\n12週間で測定された回復のサイン\n研究では、長期ベンゾジアゼピン使用者を減量前、減量後5週、12週に検査しました。12週時点のデータは77人分あり、中止に成功した人は毎週の血液検査でベンゾジアゼピンを使用していないことが確認されました。\n\n認知課題が速くなる\n中止に成功した人は、使用を続けていた参加者より、記号写字課題と数字記号置換課題を速く完了しました。年齢、教育歴、開始時の得点を考慮しても差は有意でした。\n\n精神的・身体的な鎮静感が軽くなる\n中止に成功した人は、ベンゾジアゼピンを続けていた人より精神的・身体的な鎮静感も少ないと報告しました。\n\n3か月で見えてくる変化\nこの研究で中止に成功した人では、減量から12週間後に処理速度の改善と精神的・身体的な鎮静感の低下が測定されました。思考のスピードが上がり、ぼんやりした鎮静感が軽くなっていました。';
 
   @override
   String get benzodiazepineReferenceDay180 =>
@@ -2903,6 +2917,14 @@ class AppLocalizationsJa extends AppLocalizations {
   @override
   String get benzodiazepineReferenceDay1095 =>
       'ベンゾジアゼピン中止から3年：長期的な治癒\n\n出典：Barker et al., \"Persistence of cognitive effects after withdrawal from long-term benzodiazepine use: a meta-analysis,\" Archives of Clinical Neuropsychology (2004),、PubMed所収\n\n長期的な視点\n3年はベンゾジアゼピン回復の時間軸の最も遠い地点に位置します。大多数の人にとっては、重度で長く続く離脱の後でさえ、生活を乱す症状はとうに過ぎ去り、生活の質は使用中と比べて一変しています。\n\nメタアナリシスが発見したこと\n長期使用者の研究を統合した結果、断薬後の多くの領域での回復が示されました。長年にわたる断薬を通じて、支配的なストーリーは思考、記憶、日々の機能の広範な回復です。\n\n回復のサイン\n長期の研究は、思考と記憶の多くの領域にわたる回復を示しています。3年までには、初期および残存する離脱の段階は遠い過去のものであり、それらの成果は何年もかけて強まっています。\n\n希望のメッセージ\nベンゾジアゼピン回復の道のりは医療の中でも最も過酷なものの一つであり、3年間の持続的な治癒は深遠な達成です。エビデンスは明確です：脳は実質的に癒え、ほとんどの人が明晰さ、睡眠、感情の幅を回復し、改善は時間とともに続きます。';
+
+  @override
+  String get benzodiazepineReferenceDay1460 =>
+      'ベンゾジアゼピン中止から4年：持続する前進\n\n出典：ASAM主導の多職種による「ベンゾジアゼピン漸減に関する共同臨床診療ガイドライン」（2025年）\n\nガイドラインが示すこと\n中止後の適応は、薬が体から排出されるまでの時間をはるかに超えて続くことがあります。一部では遷延性離脱症状が数か月から数年続くため、回復は個別に見守り支える必要があるとされています。\n\n4年という節目の意味\nガイドラインは、4年で誰もが到達する生物学的な終点を定めていません。だからこそ、この節目は誇張せずに、回復がそれぞれの速度で進むことを認めながら、4年間続けてきた変化そのものを祝います。\n\n祝う価値のある節目\n4年は1,460日です。回復が順調でも波があっても、その積み重ねは確かな成果です。';
+
+  @override
+  String get benzodiazepineReferenceDay1825 =>
+      'ベンゾジアゼピン中止から5年：長期的な成果\n\n出典：ASAM主導の多職種による「ベンゾジアゼピン漸減に関する共同臨床診療ガイドライン」（2025年）\n\n一つのゴールはない\nガイドラインは、離脱や中止後の適応には個人差があると強調しています。5年で脳や身体が完全に回復したと一律に判断する基準は設けていません。\n\n5年が表すもの\n5年は本物の長期的な節目です。1,825日続けた変化の中で、習慣、支え、日常生活が何年もかけて根づいてきました。\n\n積み重ねそのものを評価する\nこの節目が祝うのは、作られた医学的期限ではなく、積み重ねた取り組みそのものです。5年間続いた前進は、それだけで大きな成果です。';
 
   @override
   String get cocaineReferenceDay1 =>
@@ -3511,4 +3533,48 @@ class AppLocalizationsJa extends AppLocalizations {
   @override
   String get vapingHealthReference =>
       'ベイプで何に曝露されるか\n\n出典：CDC — Health Effects of Vaping\n\nCDCは、多くの電子タバコに依存性のあるニコチンが含まれるとしています。エアロゾルにはニコチン、発がん性化学物質、ニッケル・スズ・鉛などの重金属、肺の奥まで届く微粒子、揮発性有機化合物、一部の有害な香料成分が含まれることがあります。ニコチン離脱では、イライラ、不安や落ち着かなさ、気分の落ち込み、睡眠・集中の問題、空腹、欲求が起こり得て、時間とともに弱まります。ベイプの長期影響はまだ研究中なので、Quitterは紙巻きタバコの一酸化炭素、タール、がん、心血管リスクの時間軸を流用せず、実際の継続断ちを祝います。';
+
+  @override
+  String get adderallMilestone730Title => '2年：続く変化';
+
+  @override
+  String get adderallMilestone730Description =>
+      'Adderallの乱用をやめて2年。短い連続記録ではなく、持続してきた変化です。これからも支えになる習慣と選択を積み重ねてきました。';
+
+  @override
+  String get adderallReferenceDay730 =>
+      'Adderallの乱用をやめて2年：続く前進\n\n出典：SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSAのガイドは、処方刺激薬の乱用を含むアンフェタミン系刺激薬を対象に、回復を支えるエビデンスに基づくケアを扱っています。2年で生物学的に「リセット」されるとは定めていません。\n\nそれでも2年は大きな節目です。長い期間にわたって変化を保ってきました。築いた安定を祝い、役立っている方法をこれからも続けてください。';
+
+  @override
+  String get adderallMilestone1095Title => '3年：揺るぎない土台';
+
+  @override
+  String get adderallMilestone1095Description =>
+      '3年は、毎日の積み重ねで得た長期的な前進です。ここまでを可能にした生活、習慣、支えをこれからも大切にしてください。';
+
+  @override
+  String get adderallReferenceDay1095 =>
+      'Adderallの乱用をやめて3年：勢いのある回復\n\n出典：SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSAは、処方刺激薬に関わる問題を含む刺激薬使用障害について、エビデンスに基づく治療と長期的な回復を支持しています。このガイドは、特定の脳の変化が3年で完了するとは述べていません。\n\n3年という期間は、普通の日も難しい日も越えて続いてきた変化を示します。ここまでを支えた習慣、人間関係、支援をこれからも守ってください。';
+
+  @override
+  String get adderallMilestone1460Title => '4年：深く根づいた変化';
+
+  @override
+  String get adderallMilestone1460Description =>
+      '4年は見事な継続です。この節目が示すのは、乱用から離れ続けていることと、その周りに築いた安定です。';
+
+  @override
+  String get adderallReferenceDay1460 =>
+      'Adderallの乱用をやめて4年：長期的な変化を日常に\n\n出典：SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSAのガイドは、長期的な回復を助ける治療と支援に焦点を当てています。4年を医学的なゴールとは定めていないため、この節目は作られた健康上の約束ではなく、続いてきた前進を祝うものです。\n\n4年は本当に長い時間軸での継続を示します。前進を安定させている仕組みと人とのつながりを大切にしてください。';
+
+  @override
+  String get adderallMilestone1825Title => '5年：大きな節目';
+
+  @override
+  String get adderallMilestone1825Description =>
+      '5年はしっかり祝う価値があります。1,825日間、別の方向を選び続け、変化が続き得ることを何年もの経験で示してきました。';
+
+  @override
+  String get adderallReferenceDay1825 =>
+      'Adderallの乱用をやめて5年：5年間の前進\n\n出典：SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSAは、刺激薬使用障害のケアにおいて長期的な回復を重要な目標として認めています。ガイドは5年で特別な生物学的変化が起こるとは約束しておらず、この節目の価値にそのような約束は必要ありません。\n\n5年は、1,825日間にわたって違う方向を保ってきたということです。変化を続けられるという十分な実体験です。しっかり祝い、ここまでを可能にしたことを続けてください。';
 }

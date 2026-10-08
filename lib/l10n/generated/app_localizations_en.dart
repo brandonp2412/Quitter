@@ -783,6 +783,20 @@ class AppLocalizationsEn extends AppLocalizations {
       'At three years, the long withdrawal period is far behind most people. Sleep, mood, memory, and attention have had years to recover, and day-to-day life is typically far better than during long-term use.';
 
   @override
+  String get benzoMilestone1460Title => 'Four Years: Lasting Progress';
+
+  @override
+  String get benzoMilestone1460Description =>
+      'Four years after benzodiazepines is a long stretch of recovery built day by day. Recovery timelines vary, so this anniversary celebrates the stability, routines, and resilience you have strengthened without pretending there is one universal finish line.';
+
+  @override
+  String get benzoMilestone1825Title => 'Five Years: Strong Foundations';
+
+  @override
+  String get benzoMilestone1825Description =>
+      'Five years is a major long-term achievement. Recovery does not follow one timetable, but five years of sustained change means thousands of days of practice, support, and life built beyond benzodiazepines.';
+
+  @override
   String get addictionMeth => 'Meth';
 
   @override
@@ -3038,6 +3052,14 @@ class AppLocalizationsEn extends AppLocalizations {
       'Three Years After Benzodiazepines: Long-Term Healing\n\nSource: Barker et al., \"Persistence of cognitive effects after withdrawal from long-term benzodiazepine use: a meta-analysis,\" Archives of Clinical Neuropsychology (2004), on PubMed\n\nThe Long View\nThree years sits at the far end of the benzo recovery timeline. For the great majority of people, even after severe long-lasting withdrawal, disruptive symptoms are well behind them and quality of life is transformed compared with active use.\n\nWhat the Meta-Analysis Found\nCombined studies of long-term users show recovery in many areas after withdrawal. Over years of abstinence, the dominant story is broad recovery in thinking, memory, and day-to-day function.\n\nRecovery Signal\nLong-term research shows recovery across many areas of thinking and memory. By three years, the early and lingering withdrawal phases are far behind you and those gains have had years to strengthen.\n\nA Message of Hope\nThe benzo recovery journey is one of the most demanding in medicine, and three years of sustained healing is a profound achievement. The evidence is clear: the brain heals substantially, most people recover their clarity, sleep, and emotional range, and improvement continues with time.';
 
   @override
+  String get benzodiazepineReferenceDay1460 =>
+      'Four Years After Benzodiazepines: Sustained Progress\n\nSource: Joint Clinical Practice Guideline on Benzodiazepine Tapering, ASAM-led multidisciplinary guideline (2025)\n\nWhat the Guideline Supports\nThe guideline notes that adjustment after benzodiazepine discontinuation can last well beyond drug elimination. Some people experience protracted withdrawal for months or years, and recovery should be followed and supported individually.\n\nWhat Four Years Means\nThe guideline does not define a universal four-year biological endpoint. This milestone therefore marks something the evidence can support without exaggeration: four years of sustained change, with recovery allowed to follow its own pace.\n\nA Milestone Worth Marking\nFour years is 1,460 days. That is a durable achievement, whether recovery felt smooth, uneven, or somewhere in between.';
+
+  @override
+  String get benzodiazepineReferenceDay1825 =>
+      'Five Years After Benzodiazepines: Long-Term Achievement\n\nSource: Joint Clinical Practice Guideline on Benzodiazepine Tapering, ASAM-led multidisciplinary guideline (2025)\n\nNo Single Finish Line\nThe guideline emphasizes that benzodiazepine withdrawal and post-discontinuation adjustment vary between people. It does not set a universal five-year point at which the brain or body is declared fully recovered.\n\nWhat Five Years Represents\nFive years is a genuine long-term anniversary: sustained change across 1,825 days, with routines, support, and everyday life having years to take root.\n\nKeep the Credit Where It Belongs\nThis milestone celebrates the work itself, not an invented medical deadline. Five years of sustained progress is substantial on its own.';
+
+  @override
   String get cocaineReferenceDay1 =>
       'Cocaine Withdrawal: The First 24 Hours\n\nSource: \"Withdrawal Syndromes,\" StatPearls (NCBI Bookshelf), U.S. National Library of Medicine\n\nCocaine and the Brain\nCocaine blocks the reuptake of dopamine (and other monoamines) in the brain\'s reward circuits, causing dopamine to accumulate and producing intense euphoria and energy. With regular use the brain adapts by down-regulating this system, so that without the drug, normal activities feel flat.\n\nThe Crash\nStatPearls describes stimulant withdrawal as beginning with a \"crash\" once use stops, characterised by marked depression, excessive sleep, hunger, low mood, and severe slowing of movement and thinking. In the first 24 hours this typically includes:\n• Extreme fatigue and increased need for sleep\n• Depressed mood and slower movement and thinking\n• Increased appetite (cocaine suppresses appetite)\n\nCravings, irritability, and anxiety are also very commonly reported during this window in the broader addiction literature, even though StatPearls doesn\'t itemise them as part of the crash specifically.\n\nUnlike Some Other Drugs\nStatPearls notes that stimulant withdrawal is treated with observation and supportive care; unlike alcohol or benzodiazepine withdrawal, it does not typically cause seizures or delirium. The principal danger is psychological — depression and, in heavy users, suicidal ideation can occur during the crash, so support and monitoring are advisable.\n\nNo Approved Medication\nThere are currently no medications approved to treat cocaine withdrawal; management is supportive, and non-drug approaches such as contingency management are the evidence-based treatments for the underlying use disorder.';
 
@@ -3644,4 +3666,48 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get vapingHealthReference =>
       'What vaping exposes you to\n\nSource: CDC — Health Effects of Vaping\n\nCDC says most e-cigarettes contain addictive nicotine. Vape aerosol can contain nicotine, cancer-causing chemicals, heavy metals such as nickel, tin and lead, tiny particles that reach deep into the lungs, volatile organic compounds, and some harmful flavoring chemicals. Nicotine withdrawal can include irritability, anxiety or restlessness, low mood, sleep and concentration problems, hunger and cravings, and these symptoms fade over time. Long-term vaping effects are still being studied, so Quitter celebrates sustained abstinence instead of borrowing cigarette carbon-monoxide, tar, cancer or heart-risk timelines.';
+
+  @override
+  String get adderallMilestone730Title => 'Two Years: Durable Change';
+
+  @override
+  String get adderallMilestone730Description =>
+      'Two years without misusing Adderall is sustained change, not a short streak. You’ve built routines and choices that can carry you forward.';
+
+  @override
+  String get adderallReferenceDay730 =>
+      'Two Years Off Adderall: Durable Progress\n\nSource: SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSA’s guide covers amphetamine-type stimulants, including prescription stimulant misuse, and supports evidence-based care for recovery. It does not define a two-year biological reset.\n\nTwo years is still a major achievement. You have maintained change over a long stretch; celebrate the stability you’ve built and keep using what works.';
+
+  @override
+  String get adderallMilestone1095Title => 'Three Years: Strong Ground';
+
+  @override
+  String get adderallMilestone1095Description =>
+      'Three years is long-term progress you’ve earned day by day. Keep protecting the life, habits, and support that made it possible.';
+
+  @override
+  String get adderallReferenceDay1095 =>
+      'Three Years Off Adderall: Recovery With Momentum\n\nSource: SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSA supports evidence-based treatment and long-term recovery from stimulant use disorders, including problems involving prescription stimulants. The guide does not claim that a particular brain change finishes at three years.\n\nThree years reflects durable change carried through ordinary days as well as difficult ones. Keep the routines, relationships, and support that helped you reach this point.';
+
+  @override
+  String get adderallMilestone1460Title => 'Four Years: Deep Roots';
+
+  @override
+  String get adderallMilestone1460Description =>
+      'Four years shows remarkable consistency. The milestone is your sustained freedom from misuse and the stability you’ve built around it.';
+
+  @override
+  String get adderallReferenceDay1460 =>
+      'Four Years Off Adderall: Long-Term Change in Practice\n\nSource: SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSA’s guide focuses on treatments and supports that help people achieve long-term recovery. It does not define a four-year medical finish line, so this milestone is about sustained progress rather than an invented health promise.\n\nFour years shows consistency on a genuinely long timescale. Protect the structures and people that keep your progress steady.';
+
+  @override
+  String get adderallMilestone1825Title => 'Five Years: A Huge Win';
+
+  @override
+  String get adderallMilestone1825Description =>
+      'Five years is worth celebrating. You’ve maintained a different direction for 1,825 days and built years of evidence that change can last.';
+
+  @override
+  String get adderallReferenceDay1825 =>
+      'Five Years Off Adderall: Half a Decade of Progress\n\nSource: SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSA recognizes long-term recovery as an important goal of stimulant-use-disorder care. Its evidence guide does not promise a special biological event at five years, and this milestone does not need one to matter.\n\nFive years is 1,825 days of maintaining a different direction. That is a substantial body of lived evidence that your change can endure. Celebrate it, then keep doing the things that made it possible.';
 }

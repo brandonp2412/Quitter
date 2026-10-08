@@ -812,6 +812,20 @@ class AppLocalizationsFr extends AppLocalizations {
       'À trois ans, la longue période de sevrage est loin derrière la plupart des personnes. Le sommeil, l\'humeur, la mémoire et l\'attention ont eu des années pour récupérer, et la vie quotidienne est généralement bien meilleure qu\'au cours d\'une utilisation prolongée.';
 
   @override
+  String get benzoMilestone1460Title => 'Quatre ans : progrès durable';
+
+  @override
+  String get benzoMilestone1460Description =>
+      'Quatre ans sans benzodiazépines représentent un long parcours de rétablissement construit jour après jour. Les rythmes variant d’une personne à l’autre, cet anniversaire célèbre la stabilité, les habitudes et la résilience renforcées, sans prétendre qu’il existe une ligne d’arrivée universelle.';
+
+  @override
+  String get benzoMilestone1825Title => 'Cinq ans : bases solides';
+
+  @override
+  String get benzoMilestone1825Description =>
+      'Cinq ans constituent une grande réussite à long terme. Le rétablissement ne suit pas un calendrier unique, mais cinq années de changement durable représentent des milliers de jours de pratique, de soutien et de vie construite au-delà des benzodiazépines.';
+
+  @override
   String get addictionMeth => 'Méthamphétamine';
 
   @override
@@ -3142,6 +3156,14 @@ class AppLocalizationsFr extends AppLocalizations {
       'Trois ans après les benzodiazépines : guérison à long terme\n\nSource : Barker et al., « Persistence of cognitive effects after withdrawal from long-term benzodiazepine use: a meta-analysis », Archives of Clinical Neuropsychology (2004), PubMed\n\nLa perspective à long terme\nTrois ans se situent à l\'extrémité de la chronologie de récupération. Pour la grande majorité des personnes, même après un sevrage sévère et prolongé, les symptômes perturbateurs sont loin derrière elles et la qualité de vie est transformée par rapport à l\'usage actif.\n\nCe que la méta-analyse a trouvé\nLes études combinées d\'utilisateurs au long cours montrent une récupération dans de nombreux domaines après l\'arrêt. Au fil des années d\'abstinence, l\'histoire dominante est celle d\'une large récupération de la pensée, de la mémoire et du fonctionnement quotidien.\n\nSignal de récupération\nLa recherche à long terme montre une récupération dans de nombreux domaines cognitifs. À trois ans, les phases de sevrage précoce et prolongé sont loin derrière et ces progrès ont eu des années pour se renforcer.\n\nUn message d\'espoir\nLe rétablissement après benzodiazépines est l\'un des parcours les plus exigeants en médecine, et trois années de guérison durable constituent une réussite profonde. Les données sont claires : le cerveau récupère de façon importante, la plupart des personnes retrouvent clarté, sommeil et amplitude émotionnelle, et l\'amélioration se poursuit avec le temps.';
 
   @override
+  String get benzodiazepineReferenceDay1460 =>
+      'Quatre ans après les benzodiazépines : progrès durable\n\nSource : Guide clinique conjoint sur la diminution progressive des benzodiazépines, guide multidisciplinaire dirigé par l’ASAM (2025)\n\nCe que soutient le guide\nLe guide indique que l’adaptation après l’arrêt peut durer bien au-delà de l’élimination du médicament. Certaines personnes peuvent présenter des symptômes de sevrage prolongés pendant des mois ou des années ; le rétablissement doit donc être suivi et soutenu individuellement.\n\nCe que signifient quatre ans\nLe guide ne définit aucun point biologique universel à quatre ans. Ce jalon célèbre donc, sans exagération, quatre années de changement durable, en laissant au rétablissement son propre rythme.\n\nUn jalon à célébrer\nQuatre ans représentent 1 460 jours. C’est une réussite durable, que le parcours ait été fluide, irrégulier ou entre les deux.';
+
+  @override
+  String get benzodiazepineReferenceDay1825 =>
+      'Cinq ans après les benzodiazépines : réussite à long terme\n\nSource : Guide clinique conjoint sur la diminution progressive des benzodiazépines, guide multidisciplinaire dirigé par l’ASAM (2025)\n\nPas de ligne d’arrivée unique\nLe guide souligne que le sevrage des benzodiazépines et l’adaptation après l’arrêt diffèrent selon les personnes. Il ne fixe pas de point universel à cinq ans où le cerveau ou le corps seraient déclarés complètement rétablis.\n\nCe que représentent cinq ans\nCinq ans constituent un véritable anniversaire à long terme : 1 825 jours de changement durable, avec des années pour que les habitudes, le soutien et la vie quotidienne prennent racine.\n\nLe mérite revient au travail accompli\nCe jalon célèbre le chemin parcouru, pas une échéance médicale inventée. Cinq années de progrès durable sont importantes en elles-mêmes.';
+
+  @override
   String get cocaineReferenceDay1 =>
       'Sevrage de la cocaïne : les premières 24 heures\n\nSource : « Withdrawal Syndromes », StatPearls (NCBI Bookshelf), U.S. National Library of Medicine\n\nLa cocaïne et le cerveau\nLa cocaïne bloque la recapture de la dopamine — ainsi que d\'autres monoamines — dans les circuits de récompense du cerveau, ce qui provoque son accumulation et entraîne une euphorie et une énergie intenses. Avec un usage régulier, le cerveau s\'adapte en réduisant l\'activité de ce système, si bien que sans la substance les activités ordinaires semblent ternes.\n\nLa phase d’épuisement\nStatPearls décrit le sevrage stimulant comme commençant par une « phase d’épuisement » à l\'arrêt, caractérisé par une dépression marquée, un sommeil excessif, de la faim, une baisse de moral et un ralentissement important des mouvements et de la pensée. Pendant les premières 24 heures, cela comprend généralement :\n• Fatigue extrême et besoin accru de sommeil\n• Humeur dépressive et ralentissement des mouvements et de la pensée\n• Augmentation de l\'appétit (la cocaïne le supprime)\n\nLes envies, l\'irritabilité et l\'anxiété sont également très fréquemment rapportées pendant cette période dans la littérature plus large sur les dépendances, même si StatPearls ne les détaille pas spécifiquement dans cette phase d’épuisement.\n\nContrairement à certaines autres substances\nStatPearls indique que le sevrage stimulant est pris en charge par observation et soins de soutien ; contrairement au sevrage de l\'alcool ou des benzodiazépines, il ne provoque généralement ni crises convulsives ni délirium. Le principal danger est psychologique — une dépression et, chez les personnes ayant une consommation importante, des idées suicidaires peuvent survenir pendant cette phase d’épuisement ; soutien et surveillance sont donc recommandés.\n\nAucun médicament approuvé\nAucun médicament n\'est actuellement approuvé pour traiter spécifiquement le sevrage de la cocaïne ; la prise en charge est de soutien, et des approches non médicamenteuses comme la gestion des contingences constituent des traitements fondés sur les données pour le trouble d\'usage sous-jacent.';
 
@@ -3748,4 +3770,48 @@ class AppLocalizationsFr extends AppLocalizations {
   @override
   String get vapingHealthReference =>
       'Ce à quoi le vapotage t’expose\n\nSource : CDC — Health Effects of Vaping\n\nLes CDC indiquent que la plupart des cigarettes électroniques contiennent de la nicotine addictive. L’aérosol peut contenir de la nicotine, des substances cancérogènes, des métaux lourds comme le nickel, l’étain et le plomb, de très fines particules pouvant pénétrer profondément dans les poumons, des composés organiques volatils et certains arômes nocifs. Le sevrage nicotinique peut provoquer irritabilité, anxiété ou agitation, moral en baisse, troubles du sommeil et de la concentration, faim et envies ; ces symptômes diminuent avec le temps. Les effets à long terme du vapotage sont encore étudiés, donc Quitter célèbre l’abstinence réelle au lieu de reprendre les délais du tabac pour le monoxyde de carbone, le goudron, le cancer ou le risque cardiaque.';
+
+  @override
+  String get adderallMilestone730Title => 'Deux ans : changement durable';
+
+  @override
+  String get adderallMilestone730Description =>
+      'Deux ans sans usage détourné d’Adderall, c’est un changement durable, pas une courte série. Vous avez construit des habitudes et des choix capables de vous porter plus loin.';
+
+  @override
+  String get adderallReferenceDay730 =>
+      'Deux ans sans usage détourné d’Adderall : des progrès durables\n\nSource : SAMHSA, Treatment of Stimulant Use Disorders\n\nLe guide de la SAMHSA couvre les stimulants de type amphétamine, y compris l’usage détourné de stimulants sur ordonnance, et soutient des soins fondés sur les données probantes pour le rétablissement. Il ne définit pas de « réinitialisation » biologique à deux ans.\n\nDeux ans restent une réussite majeure. Vous avez maintenu le changement sur une longue période ; célébrez la stabilité construite et continuez ce qui fonctionne.';
+
+  @override
+  String get adderallMilestone1095Title => 'Trois ans : base solide';
+
+  @override
+  String get adderallMilestone1095Description =>
+      'Trois ans représentent des progrès à long terme gagnés jour après jour. Continuez à protéger la vie, les habitudes et les soutiens qui les ont rendus possibles.';
+
+  @override
+  String get adderallReferenceDay1095 =>
+      'Trois ans sans usage détourné d’Adderall : un rétablissement qui avance\n\nSource : SAMHSA, Treatment of Stimulant Use Disorders\n\nLa SAMHSA soutient les traitements fondés sur les données probantes et le rétablissement à long terme des troubles liés aux stimulants, y compris ceux impliquant des stimulants sur ordonnance. Le guide n’affirme pas qu’un changement cérébral précis s’achève à trois ans.\n\nTrois ans reflètent un changement durable, maintenu dans les jours ordinaires comme dans les jours difficiles. Gardez les habitudes, les relations et les soutiens qui vous ont mené jusque-là.';
+
+  @override
+  String get adderallMilestone1460Title => 'Quatre ans : racines profondes';
+
+  @override
+  String get adderallMilestone1460Description =>
+      'Quatre ans témoignent d’une constance remarquable. Cette étape célèbre votre liberté durable vis-à-vis de l’usage détourné et la stabilité construite autour d’elle.';
+
+  @override
+  String get adderallReferenceDay1460 =>
+      'Quatre ans sans usage détourné d’Adderall : le changement à long terme en pratique\n\nSource : SAMHSA, Treatment of Stimulant Use Disorders\n\nLe guide de la SAMHSA se concentre sur les traitements et soutiens qui aident à atteindre un rétablissement à long terme. Il ne fixe pas de ligne d’arrivée médicale à quatre ans ; cette étape célèbre donc des progrès durables sans inventer de promesse de santé.\n\nQuatre ans montrent une constance sur une durée réellement longue. Protégez les structures et les personnes qui maintiennent vos progrès.';
+
+  @override
+  String get adderallMilestone1825Title => 'Cinq ans : immense victoire';
+
+  @override
+  String get adderallMilestone1825Description =>
+      'Cinq ans méritent d’être célébrés. Vous avez gardé un cap différent pendant 1 825 jours et accumulé des années montrant que le changement peut durer.';
+
+  @override
+  String get adderallReferenceDay1825 =>
+      'Cinq ans sans usage détourné d’Adderall : une demi-décennie de progrès\n\nSource : SAMHSA, Treatment of Stimulant Use Disorders\n\nLa SAMHSA reconnaît le rétablissement à long terme comme un objectif important des soins pour les troubles liés aux stimulants. Son guide ne promet pas d’événement biologique particulier à cinq ans, et cette étape n’en a pas besoin pour compter.\n\nCinq ans, ce sont 1 825 jours à maintenir un cap différent. C’est une expérience vécue considérable montrant que votre changement peut durer. Célébrez-la, puis continuez ce qui l’a rendue possible.';
 }

@@ -801,6 +801,20 @@ class AppLocalizationsDe extends AppLocalizations {
       'Mit drei Jahren liegt die lange Widerrufsfrist weit hinter den meisten Menschen. Schlaf, Stimmung, Gedächtnis und Aufmerksamkeit mussten sich jahrelang erholen, und das tägliche Leben ist in der Regel viel besser als bei langfristiger Nutzung.';
 
   @override
+  String get benzoMilestone1460Title => 'Vier Jahre: Starker Fortschritt';
+
+  @override
+  String get benzoMilestone1460Description =>
+      'Vier Jahre ohne Benzodiazepine sind eine lange, Tag für Tag aufgebaute Erholungsstrecke. Da Erholung unterschiedlich verläuft, feiert dieser Jahrestag die Stabilität, Routinen und Widerstandskraft, die Sie gestärkt haben, ohne ein einheitliches Ziel für alle zu behaupten.';
+
+  @override
+  String get benzoMilestone1825Title => 'Fünf Jahre: Starkes Fundament';
+
+  @override
+  String get benzoMilestone1825Description =>
+      'Fünf Jahre sind eine große langfristige Leistung. Erholung folgt keinem einheitlichen Zeitplan, doch fünf Jahre nachhaltiger Veränderung bedeuten Tausende Tage Übung, Unterstützung und ein Leben, das über Benzodiazepine hinaus aufgebaut wurde.';
+
+  @override
   String get addictionMeth => 'Methamphetamin';
 
   @override
@@ -3102,6 +3116,14 @@ class AppLocalizationsDe extends AppLocalizations {
       'Drei Jahre nach Benzodiazepinen: Langzeitheilung\n\nQuelle: Barker et al., \"Persistence of cognitive effects after retreat from long term benzodiazepine use: a meta-analysis\", Archives of Clinical Neuropsychology (2004), auf PubMed\n\nDie lange Sicht\nDrei Jahre sitzen am anderen Ende der Benzo-Wiederherstellung Timeline. Für die große Mehrheit der Menschen, auch nach schweren lang anhaltenden Entzug, störende Symptome sind weit hinter ihnen und Lebensqualität verändert sich im Vergleich zu aktiven Nutzung.\n\nWas die Meta-Analyse gefunden hat\nKombinierte Studien von Langzeitnutzern zeigen Erholung in vielen Bereichen nach dem Rückzug. Über Jahre der Abstinenz ist die dominante Geschichte eine breite Erholung des Denkens, des Gedächtnisses und der täglichen Funktion.\n\nWiederfindungssignal\nLangzeitforschung zeigt Erholung in vielen Bereichen des Denkens und Gedächtnisses. Nach drei Jahren liegen die frühen und anhaltenden Rückzugsphasen weit hinter Ihnen und diese Gewinne hatten Jahre, um sich zu stärken.\n\nEine Botschaft der Hoffnung\nDie Benzo-Recovery-Reise ist eine der anspruchsvollsten in der Medizin, und drei Jahre anhaltende Heilung ist eine tiefgreifende Leistung. Die Beweise sind klar: Das Gehirn heilt erheblich, die meisten Menschen erholen ihre Klarheit, ihren Schlaf und ihre emotionale Reichweite, und die Verbesserung setzt sich mit der Zeit fort.';
 
   @override
+  String get benzodiazepineReferenceDay1460 =>
+      'Vier Jahre nach Benzodiazepinen: Nachhaltiger Fortschritt\n\nQuelle: Gemeinsame klinische Leitlinie zum Ausschleichen von Benzodiazepinen, multidisziplinär unter Leitung der ASAM (2025)\n\nWas die Leitlinie stützt\nDie Leitlinie weist darauf hin, dass die Anpassung nach dem Absetzen weit länger dauern kann als die Ausscheidung des Medikaments. Bei manchen Menschen können anhaltende Entzugssymptome Monate oder Jahre bestehen; Erholung sollte daher individuell begleitet und unterstützt werden.\n\nWas vier Jahre bedeuten\nDie Leitlinie definiert keinen universellen biologischen Endpunkt nach vier Jahren. Dieser Meilenstein würdigt daher ohne Übertreibung vier Jahre nachhaltiger Veränderung, während Erholung ihr eigenes Tempo haben darf.\n\nEin Meilenstein, der zählt\nVier Jahre sind 1.460 Tage. Das ist eine beständige Leistung, egal ob die Erholung glatt, wechselhaft oder irgendwo dazwischen verlief.';
+
+  @override
+  String get benzodiazepineReferenceDay1825 =>
+      'Fünf Jahre nach Benzodiazepinen: Langfristige Leistung\n\nQuelle: Gemeinsame klinische Leitlinie zum Ausschleichen von Benzodiazepinen, multidisziplinär unter Leitung der ASAM (2025)\n\nKein einheitlicher Endpunkt\nDie Leitlinie betont, dass Benzodiazepin-Entzug und die Anpassung nach dem Absetzen von Mensch zu Mensch verschieden sind. Sie nennt keinen universellen Fünfjahreszeitpunkt, an dem Gehirn oder Körper als vollständig erholt gelten.\n\nWofür fünf Jahre stehen\nFünf Jahre sind ein echter langfristiger Jahrestag: 1.825 Tage nachhaltiger Veränderung, in denen Routinen, Unterstützung und Alltag jahrelang Wurzeln schlagen konnten.\n\nDie Leistung zählt\nDieser Meilenstein feiert die geleistete Arbeit, nicht eine erfundene medizinische Frist. Fünf Jahre beständiger Fortschritt sind für sich genommen bedeutend.';
+
+  @override
   String get cocaineReferenceDay1 =>
       'Kokainentzug: Die ersten 24 Stunden\n\nQuelle: \"Entzugssyndromen\", StatPearls (NCBI Bookshelf), US National Library of Medicine\n\nKokain und das Gehirn\nKokain blockiert die Wiederaufnahme von Dopamin (und anderen Monoaminen) in den Belohnungskreisläufen des Gehirns, wodurch sich Dopamin ansammelt und intensive Euphorie und Energie produziert. Bei regelmäßigem Gebrauch passt sich das Gehirn an, indem es dieses System herunterreguliert, so dass sich normale Aktivitäten ohne das Medikament flach anfühlen.\n\nDer Crash\nStatPearls beschreibt Stimulanzien-Entzug als Beginn mit einem \"Crash\" einmal Gebrauchsstopps, gekennzeichnet durch deutliche Depression, übermäßigen Schlaf, Hunger, schlechte Stimmung und starke Verlangsamung der Bewegung und des Denkens. In den ersten 24 Stunden umfasst dies typischerweise:\n• Extreme Müdigkeit und erhöhter Schlafbedarf\n• Depressive Stimmung und langsamere Bewegung und Denken\n• Erhöhter Appetit (Kokain unterdrückt den Appetit)\n\nHeißhunger, Reizbarkeit und Angst werden auch in diesem Fenster in der breiteren Suchtliteratur sehr häufig berichtet, obwohl StatPearls sie nicht als Teil des Absturzes spezifisch aufführt.\n\nIm Gegensatz zu anderen Drogen\nStatPearls stellt fest, dass Stimulanzienentzug mit Beobachtung und unterstützender Pflege behandelt wird; Im Gegensatz zu Alkohol oder Benzodiazepinentzug verursacht er typischerweise keine Anfälle oder Delirium. Die Hauptgefahr ist psychologisch - Depressionen und bei schweren Benutzern können Selbstmordgedanken während des Absturzes auftreten, so dass Unterstützung und Überwachung ratsam sind.\n\nKeine zugelassenen Medikamente\nEs gibt derzeit keine Medikamente zugelassen, um Kokain-Entzug zu behandeln; Management ist unterstützend, und nicht-medikamentöse Ansätze wie Kontingenzmanagement sind die evidenzbasierten Behandlungen für die zugrunde liegende Gebrauchsstörung.';
 
@@ -3708,4 +3730,48 @@ class AppLocalizationsDe extends AppLocalizations {
   @override
   String get vapingHealthReference =>
       'Womit Vaping dich belastet\n\nQuelle: CDC — Health Effects of Vaping\n\nLaut CDC enthalten die meisten E-Zigaretten süchtig machendes Nikotin. Vape-Aerosol kann Nikotin, krebserregende Chemikalien, Schwermetalle wie Nickel, Zinn und Blei, tief lungengängige Partikel, flüchtige organische Verbindungen und schädliche Aromastoffe enthalten. Nikotinentzug kann Reizbarkeit, Angst oder Unruhe, gedrückte Stimmung, Schlaf- und Konzentrationsprobleme, Hunger und Verlangen auslösen; diese Symptome lassen mit der Zeit nach. Langzeitfolgen des Vapings werden weiter erforscht, daher feiert Quitter echte Abstinenz statt Zigaretten-Zeitpläne für Kohlenmonoxid, Teer, Krebs oder Herzrisiko zu übernehmen.';
+
+  @override
+  String get adderallMilestone730Title => 'Zwei Jahre: dauerhafte Veränderung';
+
+  @override
+  String get adderallMilestone730Description =>
+      'Zwei Jahre ohne missbräuchliche Adderall-Einnahme sind nachhaltige Veränderung, keine kurze Serie. Du hast Routinen und Entscheidungen aufgebaut, die dich weitertragen können.';
+
+  @override
+  String get adderallReferenceDay730 =>
+      'Zwei Jahre ohne Adderall-Missbrauch: dauerhafter Fortschritt\n\nQuelle: SAMHSA, Treatment of Stimulant Use Disorders\n\nDer SAMHSA-Leitfaden behandelt amphetaminartige Stimulanzien einschließlich des Missbrauchs verschreibungspflichtiger Stimulanzien und unterstützt evidenzbasierte Behandlung für die Genesung. Einen biologischen Neustart nach zwei Jahren definiert er nicht.\n\nZwei Jahre sind trotzdem ein großer Erfolg. Du hast Veränderung über lange Zeit aufrechterhalten. Feiere die Stabilität, die du aufgebaut hast, und behalte bei, was funktioniert.';
+
+  @override
+  String get adderallMilestone1095Title => 'Drei Jahre: fester Boden';
+
+  @override
+  String get adderallMilestone1095Description =>
+      'Drei Jahre sind langfristiger Fortschritt, den du dir Tag für Tag erarbeitet hast. Schütze weiter das Leben, die Gewohnheiten und die Unterstützung, die ihn möglich gemacht haben.';
+
+  @override
+  String get adderallReferenceDay1095 =>
+      'Drei Jahre ohne Adderall-Missbrauch: Genesung mit Schwung\n\nQuelle: SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSA unterstützt evidenzbasierte Behandlung und langfristige Genesung bei Stimulanzienkonsumstörungen, auch wenn verschreibungspflichtige Stimulanzien betroffen sind. Der Leitfaden behauptet nicht, dass eine bestimmte Veränderung im Gehirn nach drei Jahren abgeschlossen ist.\n\nDrei Jahre stehen für dauerhafte Veränderung durch gewöhnliche wie schwierige Tage. Bewahre die Routinen, Beziehungen und Unterstützung, die dich bis hierher gebracht haben.';
+
+  @override
+  String get adderallMilestone1460Title => 'Vier Jahre: tiefe Wurzeln';
+
+  @override
+  String get adderallMilestone1460Description =>
+      'Vier Jahre zeigen bemerkenswerte Beständigkeit. Dieser Meilenstein feiert deine anhaltende Freiheit vom Missbrauch und die Stabilität, die du darum aufgebaut hast.';
+
+  @override
+  String get adderallReferenceDay1460 =>
+      'Vier Jahre ohne Adderall-Missbrauch: langfristige Veränderung im Alltag\n\nQuelle: SAMHSA, Treatment of Stimulant Use Disorders\n\nDer SAMHSA-Leitfaden konzentriert sich auf Behandlungen und Unterstützung, die langfristige Genesung fördern. Er definiert keine medizinische Ziellinie nach vier Jahren; dieser Meilenstein steht daher für anhaltenden Fortschritt statt für ein erfundenes Gesundheitsversprechen.\n\nVier Jahre zeigen Beständigkeit über einen wirklich langen Zeitraum. Schütze die Strukturen und Menschen, die deinen Fortschritt stabil halten.';
+
+  @override
+  String get adderallMilestone1825Title => 'Fünf Jahre: ein großer Erfolg';
+
+  @override
+  String get adderallMilestone1825Description =>
+      'Fünf Jahre sind ein Grund zum Feiern. Du hast 1.825 Tage lang eine andere Richtung beibehalten und jahrelang gezeigt, dass Veränderung Bestand haben kann.';
+
+  @override
+  String get adderallReferenceDay1825 =>
+      'Fünf Jahre ohne Adderall-Missbrauch: ein halbes Jahrzehnt Fortschritt\n\nQuelle: SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSA betrachtet langfristige Genesung als wichtiges Ziel der Behandlung von Stimulanzienkonsumstörungen. Der Leitfaden verspricht kein besonderes biologisches Ereignis nach fünf Jahren, und dieser Meilenstein braucht keines, um bedeutsam zu sein.\n\nFünf Jahre sind 1.825 Tage in einer anderen Richtung. Das ist viel gelebte Erfahrung dafür, dass deine Veränderung Bestand haben kann. Feiere sie und halte an dem fest, was sie möglich gemacht hat.';
 }

@@ -805,6 +805,20 @@ class AppLocalizationsPl extends AppLocalizations {
       'Po trzech latach, długi okres karencji jest daleko za większością ludzi. Śpiący, nastrojowy, pamiętający, i uwaga miała lata do odzyskania, a życie na dzień jest zazwyczaj dużo lepsze niż podczas długotrwałego użytkowania.';
 
   @override
+  String get benzoMilestone1460Title => 'Cztery lata: Trwały postęp';
+
+  @override
+  String get benzoMilestone1460Description =>
+      'Cztery lata bez benzodiazepin to długi odcinek zdrowienia budowany dzień po dniu. Ponieważ tempo zdrowienia jest różne, ta rocznica celebruje wzmocnioną stabilność, nawyki i odporność bez udawania, że istnieje jedna meta dla wszystkich.';
+
+  @override
+  String get benzoMilestone1825Title => 'Pięć lat: Mocne podstawy';
+
+  @override
+  String get benzoMilestone1825Description =>
+      'Pięć lat to duże długoterminowe osiągnięcie. Zdrowienie nie ma jednego harmonogramu, ale pięć lat trwałej zmiany oznacza tysiące dni praktyki, wsparcia i życia budowanego poza benzodiazepinami.';
+
+  @override
   String get addictionMeth => 'Meta';
 
   @override
@@ -3109,6 +3123,14 @@ class AppLocalizationsPl extends AppLocalizations {
       'Trzy lata po benzodiazepinach: Długoterminowe leczenie\n\nŹródło: Barker et al., \"Persistence of cognitive effects after withdrawal from long-term benzodiazepine use: a meta-analysis,\" Archives of Clinical Neuropsychology (2004), on PubMed\n\nDługi widok\nTrzy lata znajduje się na końcu okresu regeneracji benzo. Dla większości ludzi, nawet po poważnych długotrwałych z drawall, objawy destrukcyjne są dobrze za nimi i jakość życia jest przekształcana w porównaniu z aktywnym wykorzystaniem.\n\nCo Meta- Analiza Znaleziono\nPołączone badania długoterminowych użytkowników wykazują poprawę w wielu obszarach po drawaniu. przez lata abstynencji, dominująca historia jest szeroka regeneracja w thinking, memory, and day – to – day functions.\n\nSygnał odzyskiwania\nDługoterminowe badania pokazują poprawę wielu obszarów myślenia i pamięci. Do trzech lat, wczesne i utrzymujące się fazy wycofania są daleko za tobą i te zyski miały lata do wzmocnienia.\n\nWiadomość o nadziei\nPodróż benzo rekonwalescencja jest jednym z najbardziej wymagających w medycynie, a trzy lata długotrwałego uzdrawiania jest głębokim osiągnięcia.Dowody są jasne: mózg leczy się w sposób zasadniczy, większość ludzi odzyskuje swoją klarowność, sen i rangę emocjonalną, a poprawa trwa z czasem.';
 
   @override
+  String get benzodiazepineReferenceDay1460 =>
+      'Cztery lata po benzodiazepinach: trwały postęp\n\nŹródło: Wspólne wytyczne praktyki klinicznej dotyczące stopniowego odstawiania benzodiazepin, wielodyscyplinarne wytyczne pod przewodnictwem ASAM (2025)\n\nCo potwierdzają wytyczne\nWytyczne wskazują, że adaptacja po odstawieniu może trwać znacznie dłużej niż usuwanie leku z organizmu. U części osób przedłużone objawy odstawienne mogą utrzymywać się miesiącami lub latami, dlatego zdrowienie powinno być monitorowane i wspierane indywidualnie.\n\nCo oznaczają cztery lata\nWytyczne nie określają uniwersalnego biologicznego punktu końcowego po czterech latach. Ten kamień milowy bez przesady celebruje więc cztery lata trwałej zmiany, pozwalając zdrowieniu przebiegać we własnym tempie.\n\nKamień milowy wart świętowania\nCztery lata to 1 460 dni. To trwałe osiągnięcie niezależnie od tego, czy zdrowienie było płynne, nierówne czy gdzieś pośrodku.';
+
+  @override
+  String get benzodiazepineReferenceDay1825 =>
+      'Pięć lat po benzodiazepinach: długoterminowe osiągnięcie\n\nŹródło: Wspólne wytyczne praktyki klinicznej dotyczące stopniowego odstawiania benzodiazepin, wielodyscyplinarne wytyczne pod przewodnictwem ASAM (2025)\n\nNie ma jednej mety\nWytyczne podkreślają, że odstawienie benzodiazepin i adaptacja po ich zakończeniu różnią się między ludźmi. Nie wyznaczają uniwersalnego punktu po pięciu latach, w którym mózg lub ciało uznaje się za całkowicie zregenerowane.\n\nCo oznacza pięć lat\nPięć lat to prawdziwa długoterminowa rocznica: 1 825 dni trwałej zmiany, podczas których nawyki, wsparcie i codzienne życie miały lata, by się zakorzenić.\n\nDoceniaj wykonaną pracę\nTen kamień milowy celebruje sam wysiłek, a nie wymyślony medyczny termin. Pięć lat trwałego postępu jest znaczące samo w sobie.';
+
+  @override
   String get cocaineReferenceDay1 =>
       'Kokaina Withdrawal- pierwsze 24 godziny\n\nŹródło: \"Withdrawal Syndromes,\" StatPearls (NCBI Bookshelf), U.S. National Library of Medicine\n\nKokaina i mózg\nKokaina blokuje wychwyt dopaminy i innych monoaminotyków ) w obwodach nagrody mózgowej, powodując gromadzenie dopaminy i generowanie intensywnej euforii i energii. z regularnym wykorzystaniem mózgu dostosowuje się poprzez obniżenie regulacji tego systemu, tak, że bez leków, normalne działania czują się płaskie.\n\nThe Crash\nStatPearls opisuje pobudzające odstawienie leku jako początek od ustąpienia po przerwaniu stosowania leku, charakteryzującego się wyraźną depresją, nadmiernym śpiochem, głodem, słabym samopoczuciem oraz ciężkim spowolnieniem ruchu i myślenia. W ciągu pierwszych 24 godzin zazwyczaj obejmuje to:\n• Ekstremalne zmęczenie i zwiększone zapotrzebowanie na sen\n• Upośledzony nastrój, wolniejszy ruch i myślenie\n• Zwiększenie apetytu Kokaina hamuje apetyt )\n\nRzeźby, drażliwość, i niepokój są również bardzo często zgłaszane w tym oknie w szerszym literaturze uzależnienia, nawet jeśli StatPearls nie cementuje ich jako część specyfiki katastrofy.\n\nW przeciwieństwie do innych leków\nStatPearls zauważa, że leczenie odstawienia stymulantu jest prowadzone z obserwacją i opieką wspomagającą; w przeciwieństwie do alkoholu lub benzodiazepiny z drawal.Głównym zagrożeniem jest depresja psychiczna, a u pacjentów ciężkich, myśli samobójcze mogą wystąpić w trakcie przyjmowania, więc wsparcie i monitorowanie są wskazane.\n\nBrak zatwierdzonych leków\nObecnie nie ma żadnych leków zatwierdzonych do leczenia kokainy z drawalem; zarządzanie jest popierane, a podejścia niezwiązane z narkotykami, takie jak zarządzanie sytuacjami awaryjnymi są oparte na dowodach leczenia w przypadku choroby podstawowej.';
 
@@ -3715,4 +3737,48 @@ class AppLocalizationsPl extends AppLocalizations {
   @override
   String get vapingHealthReference =>
       'Na co naraża wapowanie\n\nŹródło: CDC — Health Effects of Vaping\n\nCDC podaje, że większość e-papierosów zawiera uzależniającą nikotynę. Aerozol może zawierać nikotynę, substancje rakotwórcze, metale ciężkie takie jak nikiel, cyna i ołów, drobne cząstki docierające głęboko do płuc, lotne związki organiczne oraz niektóre szkodliwe substancje smakowe. Odstawienie nikotyny może powodować drażliwość, lęk lub niepokój, obniżony nastrój, problemy ze snem i koncentracją, głód oraz silną chęć użycia; objawy z czasem słabną. Długoterminowe skutki wapowania są nadal badane, więc Quitter celebruje realną abstynencję zamiast kopiować z papierosów terminy dotyczące tlenku węgla, smoły, raka czy ryzyka sercowego.';
+
+  @override
+  String get adderallMilestone730Title => 'Dwa lata: trwała zmiana';
+
+  @override
+  String get adderallMilestone730Description =>
+      'Dwa lata bez nadużywania Adderallu to trwała zmiana, nie krótka passa. Masz już rutyny i wybory, które mogą dalej prowadzić Cię naprzód.';
+
+  @override
+  String get adderallReferenceDay730 =>
+      'Dwa lata bez nadużywania Adderallu: trwały postęp\n\nŹródło: SAMHSA, Treatment of Stimulant Use Disorders\n\nPrzewodnik SAMHSA obejmuje stymulanty typu amfetaminowego, w tym nadużywanie leków stymulujących na receptę, i wspiera oparte na dowodach leczenie sprzyjające zdrowieniu. Nie wyznacza biologicznego „resetu” po dwóch latach.\n\nDwa lata to mimo wszystko wielkie osiągnięcie. Zmiana utrzymuje się od dawna; doceń zbudowaną stabilność i nadal korzystaj z tego, co Ci służy.';
+
+  @override
+  String get adderallMilestone1095Title => 'Trzy lata: mocny grunt';
+
+  @override
+  String get adderallMilestone1095Description =>
+      'Trzy lata to długofalowy postęp wypracowany dzień po dniu. Nadal chroń życie, nawyki i wsparcie, które go umożliwiły.';
+
+  @override
+  String get adderallReferenceDay1095 =>
+      'Trzy lata bez nadużywania Adderallu: zdrowienie z rozpędem\n\nŹródło: SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSA wspiera leczenie oparte na dowodach i długoterminowe zdrowienie z zaburzeń związanych z używaniem stymulantów, także leków na receptę. Przewodnik nie twierdzi, że konkretna zmiana w mózgu kończy się po trzech latach.\n\nTrzy lata oznaczają trwałą zmianę utrzymaną zarówno w zwykłe, jak i trudne dni. Zachowaj rutyny, relacje i wsparcie, które pomogły Ci dojść tak daleko.';
+
+  @override
+  String get adderallMilestone1460Title => 'Cztery lata: głębokie korzenie';
+
+  @override
+  String get adderallMilestone1460Description =>
+      'Cztery lata pokazują niezwykłą konsekwencję. Ten kamień milowy celebruje trwałe odejście od nadużywania i stabilność zbudowaną wokół tej zmiany.';
+
+  @override
+  String get adderallReferenceDay1460 =>
+      'Cztery lata bez nadużywania Adderallu: długoterminowa zmiana w praktyce\n\nŹródło: SAMHSA, Treatment of Stimulant Use Disorders\n\nPrzewodnik SAMHSA skupia się na leczeniu i wsparciu pomagającym osiągnąć długoterminowe zdrowienie. Nie wyznacza medycznej mety po czterech latach, więc ten kamień milowy dotyczy trwałego postępu, a nie wymyślonej obietnicy zdrowotnej.\n\nCztery lata pokazują konsekwencję w naprawdę długiej perspektywie. Dbaj o struktury i ludzi, którzy pomagają utrzymać ten postęp.';
+
+  @override
+  String get adderallMilestone1825Title => 'Pięć lat: wielki sukces';
+
+  @override
+  String get adderallMilestone1825Description =>
+      'Pięć lat zasługuje na świętowanie. Przez 1 825 dni utrzymujesz inny kierunek i masz za sobą lata doświadczeń pokazujących, że zmiana może trwać.';
+
+  @override
+  String get adderallReferenceDay1825 =>
+      'Pięć lat bez nadużywania Adderallu: pół dekady postępu\n\nŹródło: SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSA uznaje długoterminowe zdrowienie za ważny cel opieki nad osobami z zaburzeniami związanymi z używaniem stymulantów. Przewodnik nie obiecuje szczególnego wydarzenia biologicznego po pięciu latach i ten kamień milowy nie potrzebuje takiej obietnicy.\n\nPięć lat to 1 825 dni utrzymywania innego kierunku. To ogromna ilość życiowego doświadczenia pokazująca, że Twoja zmiana może trwać. Świętuj ją i nadal rób to, co ją umożliwiło.';
 }

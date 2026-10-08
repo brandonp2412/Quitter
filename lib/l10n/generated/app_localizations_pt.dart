@@ -801,6 +801,20 @@ class AppLocalizationsPt extends AppLocalizations {
       'Aos três anos, o longo período de abstinência está muito atrás da maioria das pessoas. O sono, o humor, a memória e a atenção levaram anos para se recuperar, e a vida cotidiana costuma ser muito melhor do que durante o uso prolongado.';
 
   @override
+  String get benzoMilestone1460Title => 'Quatro anos: Progresso duradouro';
+
+  @override
+  String get benzoMilestone1460Description =>
+      'Quatro anos sem benzodiazepinas são um longo percurso de recuperação construído dia após dia. Como os ritmos variam, este aniversário celebra a estabilidade, as rotinas e a resiliência reforçadas, sem fingir que existe uma única meta para toda a gente.';
+
+  @override
+  String get benzoMilestone1825Title => 'Cinco anos: Base sólida';
+
+  @override
+  String get benzoMilestone1825Description =>
+      'Cinco anos são uma grande conquista a longo prazo. A recuperação não segue um único calendário, mas cinco anos de mudança sustentada representam milhares de dias de prática, apoio e vida construída para além das benzodiazepinas.';
+
+  @override
   String get addictionMeth => 'Metanfetamina';
 
   @override
@@ -3117,6 +3131,14 @@ class AppLocalizationsPt extends AppLocalizations {
       'Três anos após os benzodiazepínicos: cura a longo prazo\n\nFonte: Barker et al., \"Persistência de efeitos cognitivos após abstinência do uso de benzodiazepínicos a longo prazo: uma meta-análise\", Archives of Clinical Neuropsychology (2004), no PubMed\n\nA visão de longo prazo\nTrês anos estão no final do cronograma de recuperação do benzo. Para a grande maioria das pessoas, mesmo após uma abstinência grave e prolongada, os sintomas perturbadores já passaram e a qualidade de vida é transformada em comparação com o uso ativo.\n\nO que a meta-análise encontrou\nEstudos combinados de utilizadores de longo prazo mostram recuperação em muitas áreas após a abstinência. Ao longo de anos de abstinência, a história dominante é a ampla recuperação do pensamento, da memória e das funções do dia-a-dia.\n\nSinal de recuperação\nPesquisas de longo prazo mostram recuperação em muitas áreas do pensamento e da memória. Aos três anos, as fases de abstinência precoce e prolongada já ficaram para trás e esses ganhos tiveram anos para se fortalecerem.\n\nUma mensagem de esperança\nA jornada de recuperação do benzo é uma das mais exigentes da medicina, e três anos de cura sustentada são uma conquista profunda. A evidência é clara: o cérebro cicatriza substancialmente, a maioria das pessoas recupera a clareza, o sono e a amplitude emocional, e a melhoria continua com o tempo.';
 
   @override
+  String get benzodiazepineReferenceDay1460 =>
+      'Quatro anos após as benzodiazepinas: progresso sustentado\n\nFonte: Diretriz conjunta de prática clínica sobre redução gradual de benzodiazepinas, diretriz multidisciplinar liderada pela ASAM (2025)\n\nO que a diretriz sustenta\nA diretriz observa que a adaptação após a suspensão pode durar muito além da eliminação do medicamento. Algumas pessoas podem ter sintomas de abstinência prolongados durante meses ou anos, pelo que a recuperação deve ser acompanhada e apoiada individualmente.\n\nO que significam quatro anos\nA diretriz não define um ponto biológico universal aos quatro anos. Este marco celebra, sem exageros, quatro anos de mudança sustentada, permitindo que a recuperação siga o seu próprio ritmo.\n\nUm marco que merece celebração\nQuatro anos são 1 460 dias. É uma conquista duradoura, quer a recuperação tenha sido tranquila, irregular ou algo entre ambas.';
+
+  @override
+  String get benzodiazepineReferenceDay1825 =>
+      'Cinco anos após as benzodiazepinas: conquista a longo prazo\n\nFonte: Diretriz conjunta de prática clínica sobre redução gradual de benzodiazepinas, diretriz multidisciplinar liderada pela ASAM (2025)\n\nNão existe uma única meta\nA diretriz salienta que a abstinência e a adaptação após a suspensão variam entre pessoas. Não estabelece um ponto universal aos cinco anos em que o cérebro ou o corpo sejam considerados totalmente recuperados.\n\nO que representam cinco anos\nCinco anos são um verdadeiro aniversário a longo prazo: 1 825 dias de mudança sustentada, com anos para as rotinas, o apoio e a vida quotidiana criarem raízes.\n\nO mérito está no trabalho realizado\nEste marco celebra o próprio trabalho, não um prazo médico inventado. Cinco anos de progresso sustentado são importantes por si só.';
+
+  @override
   String get cocaineReferenceDay1 =>
       'Abstinência de cocaína: as primeiras 24 horas\n\nFonte: \"Síndromes de Abstinência\", StatPearls (NCBI Bookshelf), Biblioteca Nacional de Medicina dos EUA\n\nCocaína e o Cérebro\nA cocaína bloqueia a recaptação de dopamina (e outras monoaminas) nos circuitos de recompensa do cérebro, fazendo com que a dopamina se acumule e produza intensa euforia e energia. Com o uso regular, o cérebro se adapta regulando negativamente esse sistema, de modo que, sem a droga, as atividades normais parecem planas.\n\nO acidente\nStatPearls descreve a abstinência de estimulantes como começando com um \"choque\" quando o uso é interrompido, caracterizado por depressão acentuada, sono excessivo, fome, mau humor e grave lentidão de movimentos e pensamentos. Nas primeiras 24 horas, isso normalmente inclui:\n• Fadiga extrema e maior necessidade de sono\n• Humor deprimido e movimentos e pensamentos mais lentos\n• Aumento do apetite (a cocaína suprime o apetite)\n\nDesejos, irritabilidade e ansiedade também são comumente relatados durante esta janela na literatura mais ampla sobre dependência, embora StatPearls não os liste especificamente como parte da crise.\n\nAo contrário de algumas outras drogas\nStatPearls observa que a abstinência de estimulantes é tratada com observação e cuidados de suporte; ao contrário da abstinência de álcool ou benzodiazepínicos, normalmente não causa convulsões ou delírio. O principal perigo é psicológico – depressão e, em utilizadores pesados, pode ocorrer ideação suicida durante a quebra, pelo que é aconselhável apoio e monitorização.\n\nNenhum medicamento aprovado\nAtualmente não existem medicamentos aprovados para tratar a abstinência de cocaína; o manejo é de suporte, e abordagens não medicamentosas, como o manejo de contingências, são os tratamentos baseados em evidências para o transtorno de uso subjacente.';
 
@@ -3723,6 +3745,50 @@ class AppLocalizationsPt extends AppLocalizations {
   @override
   String get vapingHealthReference =>
       'A que te expõe o vaping\n\nFonte: CDC — Health Effects of Vaping\n\nO CDC indica que a maioria dos cigarros eletrónicos contém nicotina aditiva. O aerossol pode conter nicotina, substâncias cancerígenas, metais pesados como níquel, estanho e chumbo, partículas minúsculas que chegam ao fundo dos pulmões, compostos orgânicos voláteis e alguns aromatizantes nocivos. A privação de nicotina pode causar irritabilidade, ansiedade ou inquietação, humor em baixo, problemas de sono e concentração, fome e desejos, e estes sintomas diminuem com o tempo. Os efeitos de longo prazo do vaping continuam a ser estudados, por isso o Quitter celebra a abstinência real em vez de copiar os prazos do cigarro para monóxido de carbono, alcatrão, cancro ou risco cardíaco.';
+
+  @override
+  String get adderallMilestone730Title => 'Dois anos: mudança duradoura';
+
+  @override
+  String get adderallMilestone730Description =>
+      'Dois anos sem uso indevido de Adderall são uma mudança sustentada, não uma sequência curta. Criou rotinas e escolhas que podem continuar a levá-lo em frente.';
+
+  @override
+  String get adderallReferenceDay730 =>
+      'Dois anos sem uso indevido de Adderall: progresso duradouro\n\nFonte: SAMHSA, Treatment of Stimulant Use Disorders\n\nO guia da SAMHSA abrange estimulantes do tipo anfetamina, incluindo o uso indevido de estimulantes sujeitos a receita, e apoia cuidados baseados na evidência para a recuperação. Não define uma «reinicialização» biológica aos dois anos.\n\nAinda assim, dois anos são uma grande conquista. Manteve a mudança durante muito tempo; celebre a estabilidade que construiu e continue a usar o que funciona.';
+
+  @override
+  String get adderallMilestone1095Title => 'Três anos: base sólida';
+
+  @override
+  String get adderallMilestone1095Description =>
+      'Três anos representam progresso de longo prazo conquistado dia após dia. Continue a proteger a vida, os hábitos e o apoio que o tornaram possível.';
+
+  @override
+  String get adderallReferenceDay1095 =>
+      'Três anos sem uso indevido de Adderall: recuperação com impulso\n\nFonte: SAMHSA, Treatment of Stimulant Use Disorders\n\nA SAMHSA apoia tratamento baseado na evidência e recuperação de longo prazo das perturbações por uso de estimulantes, incluindo problemas com estimulantes sujeitos a receita. O guia não afirma que uma alteração cerebral específica termina aos três anos.\n\nTrês anos refletem uma mudança duradoura, mantida tanto nos dias normais como nos difíceis. Preserve as rotinas, relações e apoios que o ajudaram a chegar até aqui.';
+
+  @override
+  String get adderallMilestone1460Title => 'Quatro anos: raízes profundas';
+
+  @override
+  String get adderallMilestone1460Description =>
+      'Quatro anos mostram uma consistência notável. Este marco celebra a liberdade sustentada do uso indevido e a estabilidade que construiu à sua volta.';
+
+  @override
+  String get adderallReferenceDay1460 =>
+      'Quatro anos sem uso indevido de Adderall: mudança de longo prazo na prática\n\nFonte: SAMHSA, Treatment of Stimulant Use Disorders\n\nO guia da SAMHSA centra-se em tratamentos e apoios que ajudam as pessoas a alcançar recuperação de longo prazo. Não define uma linha de chegada médica aos quatro anos, por isso este marco celebra progresso sustentado sem inventar promessas de saúde.\n\nQuatro anos mostram consistência numa escala verdadeiramente longa. Proteja as estruturas e as pessoas que mantêm o seu progresso estável.';
+
+  @override
+  String get adderallMilestone1825Title => 'Cinco anos: uma grande vitória';
+
+  @override
+  String get adderallMilestone1825Description =>
+      'Cinco anos merecem ser celebrados. Manteve uma direção diferente durante 1 825 dias e acumulou anos de provas de que a mudança pode durar.';
+
+  @override
+  String get adderallReferenceDay1825 =>
+      'Cinco anos sem uso indevido de Adderall: meia década de progresso\n\nFonte: SAMHSA, Treatment of Stimulant Use Disorders\n\nA SAMHSA reconhece a recuperação de longo prazo como um objetivo importante dos cuidados nas perturbações por uso de estimulantes. O guia não promete um acontecimento biológico especial aos cinco anos, e este marco não precisa disso para ter valor.\n\nCinco anos são 1 825 dias a manter uma direção diferente. É uma grande quantidade de experiência vivida a mostrar que a sua mudança pode durar. Celebre-a e continue a fazer o que a tornou possível.';
 }
 
 /// The translations for Portuguese, as used in Brazil (`pt_BR`).
@@ -4521,6 +4587,20 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
   @override
   String get benzoMilestone1095Description =>
       'Aos três anos, o longo período de retirada está muito atrás da maioria das pessoas. O sono, o humor, a memória e a atenção levaram anos para se recuperar, e a vida cotidiana costuma ser muito melhor do que durante o uso prolongado.';
+
+  @override
+  String get benzoMilestone1460Title => 'Quatro anos: Progresso duradouro';
+
+  @override
+  String get benzoMilestone1460Description =>
+      'Quatro anos sem benzodiazepínicos são um longo percurso de recuperação construído dia após dia. Como os ritmos variam, este aniversário celebra a estabilidade, as rotinas e a resiliência fortalecidas, sem fingir que existe uma única linha de chegada para todos.';
+
+  @override
+  String get benzoMilestone1825Title => 'Cinco anos: Base sólida';
+
+  @override
+  String get benzoMilestone1825Description =>
+      'Cinco anos são uma grande conquista de longo prazo. A recuperação não segue um único cronograma, mas cinco anos de mudança sustentada representam milhares de dias de prática, apoio e vida construída além dos benzodiazepínicos.';
 
   @override
   String get addictionMeth => 'Metanfetamina';
@@ -6838,6 +6918,14 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
       'Três anos após os benzodiazepínicos: cura a longo prazo\n\nFonte: Barker et al., \"Persistência de efeitos cognitivos após retirada do uso de benzodiazepínicos a longo prazo: uma meta-análise\", Archives of Clinical Neuropsychology (2004), no PubMed\n\nA visão de longo prazo\nTrês anos estão no final do cronograma de recuperação do benzo. Para a grande maioria das pessoas, mesmo após uma abstinência grave e prolongada, os sintomas perturbadores já passaram e a qualidade de vida é transformada em comparação com o uso ativo.\n\nO que a meta-análise encontrou\nEstudos combinados de usuários de longo prazo mostram recuperação em muitas áreas após a retirada. Ao longo de anos de abstinência, a história dominante é a ampla recuperação do pensamento, da memória e das funções do dia-a-dia.\n\nSinal de recuperação\nPesquisas de longo prazo mostram recuperação em muitas áreas do pensamento e da memória. Aos três anos, as fases de retirada precoce e prolongada já ficaram para trás e esses ganhos tiveram anos para se fortalecerem.\n\nUma mensagem de esperança\nA jornada de recuperação do benzo é uma das mais exigentes da medicina, e três anos de cura sustentada são uma conquista profunda. A evidência é clara: o cérebro cicatriza substancialmente, a maioria das pessoas recupera a clareza, o sono e a amplitude emocional, e a melhoria continua com o tempo.';
 
   @override
+  String get benzodiazepineReferenceDay1460 =>
+      'Quatro anos após os benzodiazepínicos: progresso sustentado\n\nFonte: Diretriz conjunta de prática clínica sobre redução gradual de benzodiazepínicos, diretriz multidisciplinar liderada pela ASAM (2025)\n\nO que a diretriz sustenta\nA diretriz observa que a adaptação após a suspensão pode durar muito além da eliminação do medicamento. Algumas pessoas podem ter sintomas de abstinência prolongados por meses ou anos, por isso a recuperação deve ser acompanhada e apoiada individualmente.\n\nO que quatro anos significam\nA diretriz não define um ponto biológico universal aos quatro anos. Este marco celebra, sem exageros, quatro anos de mudança sustentada, permitindo que a recuperação siga seu próprio ritmo.\n\nUm marco que merece celebração\nQuatro anos são 1.460 dias. É uma conquista duradoura, seja a recuperação tranquila, irregular ou algo entre as duas.';
+
+  @override
+  String get benzodiazepineReferenceDay1825 =>
+      'Cinco anos após os benzodiazepínicos: conquista de longo prazo\n\nFonte: Diretriz conjunta de prática clínica sobre redução gradual de benzodiazepínicos, diretriz multidisciplinar liderada pela ASAM (2025)\n\nNão existe uma única linha de chegada\nA diretriz destaca que a abstinência e a adaptação após a suspensão variam entre as pessoas. Ela não estabelece um ponto universal aos cinco anos em que cérebro ou corpo sejam considerados totalmente recuperados.\n\nO que cinco anos representam\nCinco anos são um verdadeiro aniversário de longo prazo: 1.825 dias de mudança sustentada, com anos para rotinas, apoio e vida cotidiana criarem raízes.\n\nO mérito está no trabalho realizado\nEste marco celebra o próprio trabalho, não um prazo médico inventado. Cinco anos de progresso sustentado são importantes por si só.';
+
+  @override
   String get cocaineReferenceDay1 =>
       'Abstinência de cocaína: as primeiras 24 horas\n\nFonte: \"Síndromes de Abstinência\", StatPearls (NCBI Bookshelf), Biblioteca Nacional de Medicina dos EUA\n\nCocaína e o Cérebro\nA cocaína bloqueia a recaptação de dopamina (e outras monoaminas) nos circuitos de recompensa do cérebro, fazendo com que a dopamina se acumule e produza intensa euforia e energia. Com o uso regular, o cérebro se adapta regulando negativamente esse sistema, de modo que, sem a droga, as atividades normais parecem planas.\n\nO acidente\nStatPearls descreve a abstinência de estimulantes como começando com um \"choque\" quando o uso é interrompido, caracterizado por depressão acentuada, sono excessivo, fome, mau humor e grave lentidão de movimentos e pensamentos. Nas primeiras 24 horas, isso normalmente inclui:\n• Fadiga extrema e maior necessidade de sono\n• Humor deprimido e movimentos e pensamentos mais lentos\n• Aumento do apetite (a cocaína suprime o apetite)\n\nDesejos, irritabilidade e ansiedade também são comumente relatados durante esta janela na literatura mais ampla sobre dependência, embora StatPearls não os liste especificamente como parte da crise.\n\nAo contrário de algumas outras drogas\nStatPearls observa que a abstinência de estimulantes é tratada com observação e cuidados de suporte; ao contrário da abstinência de álcool ou benzodiazepínicos, normalmente não causa convulsões ou delírio. O principal perigo é psicológico – depressão e, em utilizadores pesados, pode ocorrer ideação suicida durante o acidente, pelo que é aconselhável apoio e monitorização.\n\nNenhum medicamento aprovado\nAtualmente não existem medicamentos aprovados para tratar a abstinência de cocaína; o manejo é de suporte, e abordagens não medicamentosas, como o manejo de contingências, são os tratamentos baseados em evidências para o transtorno de uso subjacente.';
 
@@ -7247,7 +7335,7 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get smokingReferenceDay1825 =>
-      'Cinco anos: queda no risco de câncer\n\nFonte: CDC, Benefícios de parar de fumar\n\nAos cinco anos, chegam alguns dos benefícios mais dramáticos do câncer.\n\nMarcos de cinco a dez anos\n• Risco adicional de câncer de boca, garganta e caixa vocal: reduzido pela metade\n• Risco de acidente vascular cerebral: diminuindo\n\nAinda à frente\n• Dez anos: risco de morte por cancro do pulmão reduzido aproximadamente para metade (após 10-15 anos); risco de câncer de bexiga, esôfago e rim diminuindo\n• Quinze anos: risco de doença coronariana próximo ao de um não fumante\n• Vinte anos: risco de cancro da boca, garganta e caixa vocal próximo dos níveis dos não fumadores; risco adicional de câncer cervical caiu pela metade\n\nCinco anos sem fumar é uma conquista genuína – agora você está dentro da janela onde algumas das reduções mais significativas do risco de câncer acontecem, embora vários benefícios (como a normalização total do risco de doença coronariana) ainda estejam a anos de distância.';
+      'Cinco anos: começam grandes reduções no risco de câncer\n\nFonte: CDC, benefícios de parar de fumar\n\nCinco anos colocam você no início de uma importante janela de redução de riscos.\n\nMarcos entre cinco e dez anos\n• O risco adicional de câncer de boca, garganta e laringe cai pela metade\n• O risco de AVC diminui\n\nAinda pela frente\n• Por volta de 10 anos: diminui o risco de câncer de bexiga, esôfago e rim\n• Entre 10 e 15 anos: o risco adicional de câncer de pulmão cai pela metade\n• Aos 15 anos: o risco de doença coronariana fica próximo ao de quem não fuma\n• Aos 20 anos: o risco de câncer de boca, garganta e laringe fica próximo ao de quem não fuma; o risco adicional de câncer do colo do útero cai cerca da metade\n\nCinco anos sem fumar são um marco enorme: você entrou na janela em que grandes reduções nos riscos de câncer e AVC começam a se consolidar, com outros ganhos importantes ainda pela frente.';
 
   @override
   String get snriReferenceDay3 =>
@@ -7371,11 +7459,11 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get tcaReferenceDay3 =>
-      'Descontinuação do TCA: Os primeiros dias – Recuperação da acetilcolina\n\nFonte: Dilsaver, Feinberg & Greden (1983), American Journal of Psychiatry — \'Sintomas de abstinência de antidepressivos tratados com agentes anticolinérgicos\' (relato de caso, 3 pacientes)\n\nO que torna a descontinuação do TCA diferente\nOs antidepressivos tricíclicos diferem fundamentalmente dos ISRS e SNRIs no seu mecanismo. Além de bloquear a recaptação de serotonina e noradrenalina, os ADTs bloqueiam fortemente o sistema de acetilcolina do corpo. Quando você para, esse sistema se recupera.\n\nSintomas de rebote de acetilcolina\nAo contrário da descontinuação dos ISRS, a retirada do TCA produz um rebote da acetilcolina:\n• Náuseas, vômitos e diarreia\n• Salivação e suor excessivos\n• Dor de cabeça e dores musculares\n• Insônia com sonhos vívidos ou perturbadores\n• Ansiedade e inquietação\n\nTCAs comuns e seus perfis\nA amitriptilina e a imipramina têm os efeitos bloqueadores da acetilcolina mais fortes e normalmente produzem a recuperação mais pronunciada. A nortriptilina tem efeitos um pouco mais leves. A clomipramina também tem efeitos significativos relacionados à serotonina, juntamente com seu perfil de bloqueio da acetilcolina.';
+      'Descontinuação de TCA: primeiros dias — rebote colinérgico\n\nFonte: Dilsaver, Feinberg & Greden (1983), American Journal of Psychiatry — relato de caso com 3 pacientes sobre sintomas de retirada de antidepressivos tratados com agentes anticolinérgicos\n\nPor que os TCAs podem ser diferentes\nMuitos TCAs têm efeitos anticolinérgicos além de sua ação sobre serotonina e noradrenalina. Em três casos publicados, sintomas após interrupção abrupta ou redução rápida responderam a tratamento anticolinérgico, levando os autores a considerar uma hiperatividade colinérgica central como mecanismo.\n\nSintomas relatados na retirada de TCA\n• Náusea, vômito, diarreia, dor abdominal e perda de apetite\n• Insônia ou outro distúrbio do sono\n• Ansiedade, agitação e irritabilidade\n• Dor de cabeça e outros sintomas físicos\n\nO tempo varia\nA retirada pode começar cedo, principalmente após interrupção abrupta ou redução rápida. Esse relato de três casos apoia o rebote colinérgico como mecanismo, mas não foi desenhado para definir uma cronologia fixa dia a dia nem comparar a intensidade do rebote entre diferentes TCAs.';
 
   @override
   String get tcaReferenceDay7 =>
-      'Uma semana após ADTs: alívio dos sintomas de acetilcolina\n\nA recuperação da acetilcolina\nA recuperação da acetilcolina normalmente atinge seu pico nos primeiros dias e começa a diminuir substancialmente em uma semana. À medida que o sistema de acetilcolina retorna ao seu nível natural:\n\nO que está melhorando\n• Os sintomas gastrointestinais (náuseas, cólicas, diarreia) estão diminuindo\n• Sudorese e sintomas semelhantes aos da gripe estão diminuindo\n• O sono, embora ainda interrompido, está começando a se estabilizar\n• A salivação excessiva está desaparecendo\n\nSistema Nervoso Corporal Automático\nOs ADTs afetam as funções automáticas do corpo – frequência cardíaca, pressão arterial, digestão – através de vários mecanismos. Em uma semana, os sintomas corporais automáticos mais intensos – incluindo tonturas ao ficar em pé e alterações rápidas da frequência cardíaca – começam a desaparecer à medida que o sistema nervoso se reajusta.';
+      'Uma semana após TCAs: vencendo o primeiro trecho\n\nO que uma semana significa\nA orientação do NHS diz que a retirada de antidepressivos geralmente começa em poucos dias e dura algumas semanas. Algumas pessoas têm sintomas intensos ou que persistem por meses ou mais.\n\nSintomas que ainda podem aparecer\n• Dor de cabeça e dores musculares\n• Náusea e suor\n• Coração acelerado, vibrando, batendo forte ou falhando\n• Tontura ou instabilidade\n• Problemas de sono, sonhos estranhos e cansaço\n• Inquietação, irritabilidade, ansiedade, humor deprimido ou dificuldade para pensar\n\nSete dias são progresso\nUma semana inteira sem TCA merece ser celebrada. A orientação do NHS descreve retirada por dias a semanas, às vezes por mais tempo, então sintomas ligados à frequência cardíaca, digestão, sono e outras funções autonômicas podem se resolver em ritmos diferentes.';
 
   @override
   String get tcaReferenceDay14 =>
@@ -7444,4 +7532,48 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
   @override
   String get vapingHealthReference =>
       'Ao que o vape expõe você\n\nFonte: CDC — Health Effects of Vaping\n\nO CDC informa que a maioria dos cigarros eletrônicos contém nicotina, que causa dependência. O aerossol do vape pode conter nicotina, substâncias cancerígenas, metais pesados como níquel, estanho e chumbo, partículas minúsculas que chegam profundamente aos pulmões, compostos orgânicos voláteis e alguns aromatizantes nocivos. A abstinência de nicotina pode causar irritabilidade, ansiedade ou inquietação, desânimo, problemas de sono e concentração, fome e fissura, e esses sintomas diminuem com o tempo. Cada dia sem vape evita uma nova exposição a esse aerossol e, se havia nicotina, acrescenta mais um dia sem reforçar essa dependência.';
+
+  @override
+  String get adderallMilestone730Title => 'Dois anos: mudança duradoura';
+
+  @override
+  String get adderallMilestone730Description =>
+      'Dois anos sem uso indevido de Adderall são uma mudança sustentada, não uma sequência curta. Você construiu rotinas e escolhas que podem continuar levando você adiante.';
+
+  @override
+  String get adderallReferenceDay730 =>
+      'Dois anos sem uso indevido de Adderall: progresso duradouro\n\nFonte: SAMHSA, Treatment of Stimulant Use Disorders\n\nO guia da SAMHSA aborda estimulantes do tipo anfetamina, inclusive o uso indevido de estimulantes prescritos, e apoia cuidados baseados em evidências para a recuperação. Ele não define uma “reinicialização” biológica aos dois anos.\n\nMesmo assim, dois anos são uma grande conquista. Você manteve a mudança por muito tempo; celebre a estabilidade que construiu e continue usando o que funciona.';
+
+  @override
+  String get adderallMilestone1095Title => 'Três anos: base sólida';
+
+  @override
+  String get adderallMilestone1095Description =>
+      'Três anos são progresso de longo prazo conquistado dia após dia. Continue protegendo a vida, os hábitos e o apoio que tornaram isso possível.';
+
+  @override
+  String get adderallReferenceDay1095 =>
+      'Três anos sem uso indevido de Adderall: recuperação com impulso\n\nFonte: SAMHSA, Treatment of Stimulant Use Disorders\n\nA SAMHSA apoia tratamento baseado em evidências e recuperação de longo prazo dos transtornos por uso de estimulantes, inclusive problemas com estimulantes prescritos. O guia não afirma que uma mudança cerebral específica termina aos três anos.\n\nTrês anos refletem uma mudança duradoura mantida tanto nos dias comuns quanto nos difíceis. Preserve as rotinas, relações e apoios que ajudaram você a chegar até aqui.';
+
+  @override
+  String get adderallMilestone1460Title => 'Quatro anos: raízes profundas';
+
+  @override
+  String get adderallMilestone1460Description =>
+      'Quatro anos mostram uma consistência notável. Este marco celebra a liberdade sustentada do uso indevido e a estabilidade que você construiu ao redor dela.';
+
+  @override
+  String get adderallReferenceDay1460 =>
+      'Quatro anos sem uso indevido de Adderall: mudança de longo prazo na prática\n\nFonte: SAMHSA, Treatment of Stimulant Use Disorders\n\nO guia da SAMHSA se concentra em tratamentos e apoios que ajudam as pessoas a alcançar recuperação de longo prazo. Ele não define uma linha de chegada médica aos quatro anos, então este marco celebra progresso sustentado sem inventar promessas de saúde.\n\nQuatro anos mostram consistência em uma escala realmente longa. Proteja as estruturas e as pessoas que mantêm seu progresso estável.';
+
+  @override
+  String get adderallMilestone1825Title => 'Cinco anos: uma grande vitória';
+
+  @override
+  String get adderallMilestone1825Description =>
+      'Cinco anos merecem ser celebrados. Você manteve uma direção diferente por 1.825 dias e acumulou anos de evidências de que a mudança pode durar.';
+
+  @override
+  String get adderallReferenceDay1825 =>
+      'Cinco anos sem uso indevido de Adderall: meia década de progresso\n\nFonte: SAMHSA, Treatment of Stimulant Use Disorders\n\nA SAMHSA reconhece a recuperação de longo prazo como um objetivo importante do cuidado dos transtornos por uso de estimulantes. Seu guia não promete um evento biológico especial aos cinco anos, e este marco não precisa disso para ter valor.\n\nCinco anos são 1.825 dias mantendo uma direção diferente. É muita experiência vivida mostrando que sua mudança pode durar. Celebre e continue fazendo o que tornou isso possível.';
 }

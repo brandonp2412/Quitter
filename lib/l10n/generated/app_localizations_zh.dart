@@ -761,6 +761,20 @@ class AppLocalizationsZh extends AppLocalizations {
       '三年时，对大多数人来说漫长的戒断期已经远去。睡眠、情绪、记忆和注意力都有了数年的恢复时间，日常生活通常也比长期用药期间好得多。';
 
   @override
+  String get benzoMilestone1460Title => '四年：稳固进展';
+
+  @override
+  String get benzoMilestone1460Description =>
+      '停用苯二氮卓四年，是日复一日积累起来的一段漫长康复历程。每个人的恢复节奏不同，因此这个周年纪念的是您不断巩固的稳定、习惯与韧性，而不是假设所有人都有同一条终点线。';
+
+  @override
+  String get benzoMilestone1825Title => '五年：坚实基础';
+
+  @override
+  String get benzoMilestone1825Description =>
+      '五年是一项重要的长期成就。康复没有统一时间表，但五年的持续改变意味着数千天的练习、支持，以及在苯二氮卓之外逐步建立起来的生活。';
+
+  @override
   String get addictionMeth => '冰毒';
 
   @override
@@ -2263,14 +2277,14 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get nicotinePouchesMilestone7Description =>
-      '停用尼古丁袋一周，意味着你已经越过通常在第3天左右出现的尼古丁戒断高峰。症状通常会在随后3–4周逐渐减轻——你已经走上下坡路。';
+      '停用尼古丁袋一周，意味着您已经越过通常在第3天左右出现的尼古丁戒断高峰。症状通常会在随后3–4周逐渐减轻——您已经走上下坡路。';
 
   @override
   String get nicotinePouchesMilestone14Title => '两周：戒断继续缓解';
 
   @override
   String get nicotinePouchesMilestone14Description =>
-      '停用尼古丁袋两周，意味着你已经深入高峰后通常持续3–4周的缓解阶段。曲线仍在向下——真正的恢复正在进行。';
+      '停用尼古丁袋两周，意味着您已经深入高峰后通常持续3–4周的缓解阶段。曲线仍在向下——真正的恢复正在进行。';
 
   @override
   String get nicotinePouchesReferenceDay7 =>
@@ -2383,7 +2397,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get customMilestone1Description =>
-      '你已经完整度过了一天，没有再做你选择停止的习惯。停止某些物质后的最初几天，戒断可能扰乱睡眠，而睡眠变化也可能延续到恢复期。记录睡眠能让这些变化更容易被察觉。';
+      '您已经完整度过了一天，没有再做您选择停止的习惯。停止某些物质后的最初几天，戒断可能扰乱睡眠，而睡眠变化也可能延续到恢复期。记录睡眠能让这些变化更容易被察觉。';
 
   @override
   String get customMilestone3Title => '戒断症状达到顶峰';
@@ -2499,7 +2513,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get ssriMilestone180Description =>
-      '一项对抑郁症缓解后停用抗抑郁药者进行六个月随访的研究中，83名有结局数据的参与者里有54人（65%）保持良好状态。六个月是长期稳定的一个具体里程碑。';
+      '一项对抑郁症缓解后停用抗抑郁药者进行六个月随访的研究中，83名有结局数据的参与者里有54人（65%）保持良好状态。六个月是长期稳定的一个具体里程碑，也与神经系统恢复速度因人而异这一事实相符。';
 
   @override
   String get ssriMilestone365Title => '一年：重要里程碑';
@@ -2900,6 +2914,14 @@ class AppLocalizationsZh extends AppLocalizations {
   @override
   String get benzodiazepineReferenceDay1095 =>
       '停用苯二氮卓三年后：长期愈合\n\n来源：Barker et al.，《Persistence of cognitive effects after withdrawal from long-term benzodiazepine use: a meta-analysis》，Archives of Clinical Neuropsychology（2004），PubMed\n\n长远视角\n三年处于苯二氮卓恢复时间线的最远端。对绝大多数人来说，即便经历过严重而漫长的戒断，破坏性症状也早已过去，与用药期间相比，生活质量发生了根本性的改变。\n\n荟萃分析发现了什么\n对长期使用者的汇总研究显示，戒断后在许多方面都出现了恢复。在数年的戒断中，主导性的故事是思维、记忆和日常功能的广泛恢复。\n\n恢复信号\n长期研究显示思维和记忆在许多方面都有恢复。到三年时，早期和残留的戒断阶段都早已远去，那些成果也有了数年时间来巩固。\n\n一条充满希望的信息\n苯二氮卓的恢复之旅是医学上最艰巨的历程之一，三年的持续愈合是一项意义深远的成就。证据是明确的：大脑会实质性愈合，大多数人恢复了清晰度、睡眠和情绪范围，而且改善会随着时间继续。';
+
+  @override
+  String get benzodiazepineReferenceDay1460 =>
+      '停用苯二氮卓四年：持续进展\n\n来源：由 ASAM 牵头的多学科《苯二氮卓逐步减量联合临床实践指南》（2025）\n\n指南支持什么\n指南指出，停用苯二氮卓后的适应过程可能远远长于药物从体内清除所需的时间。有些人会出现持续数月或数年的迁延性戒断症状，因此康复应根据个人情况持续随访并提供支持。\n\n四年意味着什么\n指南并未规定一个适用于所有人的四年生物学终点。因此，这个里程碑不夸大医学结论，而是庆祝四年的持续改变，并允许康复按各自节奏前进。\n\n值得纪念的里程碑\n四年是1,460天。无论康复过程顺利、起伏，还是介于两者之间，这都是一项稳固的成就。';
+
+  @override
+  String get benzodiazepineReferenceDay1825 =>
+      '停用苯二氮卓五年：长期成就\n\n来源：由 ASAM 牵头的多学科《苯二氮卓逐步减量联合临床实践指南》（2025）\n\n没有统一终点\n指南强调，苯二氮卓戒断以及停药后的适应过程因人而异。它没有设定一个统一的五年节点来宣告大脑或身体已经完全恢复。\n\n五年代表什么\n五年是真正的长期周年：1,825天的持续改变，让习惯、支持与日常生活拥有数年时间逐渐扎根。\n\n把肯定留给真实的努力\n这个里程碑庆祝的是实际付出的努力，而不是虚构的医学期限。五年的持续进展本身就很重要。';
 
   @override
   String get cocaineReferenceDay1 =>
@@ -3508,6 +3530,50 @@ class AppLocalizationsZh extends AppLocalizations {
   @override
   String get vapingHealthReference =>
       '电子烟会带来哪些暴露\n\n来源：CDC — Health Effects of Vaping\n\nCDC指出，大多数电子烟含有会成瘾的尼古丁。电子烟气溶胶可能含有尼古丁、致癌化学物、镍锡铅等重金属、可深入肺部的微小颗粒、挥发性有机化合物和某些有害香味化学物。尼古丁戒断可包括烦躁、焦虑或不安、情绪低落、睡眠和注意力问题、饥饿及渴求，而且这些症状会随时间减弱。电子烟的长期影响仍在研究中，所以 Quitter 庆祝真实的持续停用，而不是照搬纸烟关于一氧化碳、焦油、癌症或心脏风险的时间线。';
+
+  @override
+  String get adderallMilestone730Title => '两年：持久的改变';
+
+  @override
+  String get adderallMilestone730Description =>
+      '两年没有滥用 Adderall，这不是短暂的连续记录，而是持续的改变。您已经建立起能继续带您向前的习惯和选择。';
+
+  @override
+  String get adderallReferenceDay730 =>
+      '停止滥用 Adderall 两年：持久的进步\n\n来源：SAMHSA，Treatment of Stimulant Use Disorders\n\nSAMHSA 的指南涵盖安非他命类兴奋剂，包括处方兴奋剂的滥用，并支持以证据为基础的康复照护。它并没有规定两年时会发生生物学上的“重置”。\n\n即便如此，两年仍是很大的成就。您已经在很长一段时间里维持了改变；庆祝您建立的稳定，并继续坚持真正有效的方法。';
+
+  @override
+  String get adderallMilestone1095Title => '三年：更稳的基础';
+
+  @override
+  String get adderallMilestone1095Description =>
+      '三年是您一天一天积累起来的长期进步。继续保护让这一切成为可能的生活、习惯和支持。';
+
+  @override
+  String get adderallReferenceDay1095 =>
+      '停止滥用 Adderall 三年：康复持续向前\n\n来源：SAMHSA，Treatment of Stimulant Use Disorders\n\nSAMHSA 支持对兴奋剂使用障碍进行循证治疗和长期康复，其中包括与处方兴奋剂有关的问题。该指南并未声称某项特定的脑部变化会在三年时完成。\n\n三年代表一种经受过普通日子和艰难日子的持久改变。继续守住那些帮助您走到这里的习惯、关系和支持。';
+
+  @override
+  String get adderallMilestone1460Title => '四年：扎下深根';
+
+  @override
+  String get adderallMilestone1460Description =>
+      '四年展现了非凡的坚持。这个里程碑庆祝您持续远离滥用，以及围绕这种改变建立起来的稳定。';
+
+  @override
+  String get adderallReferenceDay1460 =>
+      '停止滥用 Adderall 四年：把长期改变活出来\n\n来源：SAMHSA，Treatment of Stimulant Use Disorders\n\nSAMHSA 的指南关注能够帮助人们实现长期康复的治疗和支持。它没有把四年定义为医学上的终点，因此这个里程碑庆祝的是持续的进步，而不是虚构的健康承诺。\n\n四年是在真正长期的尺度上保持一致。继续保护那些让您的进步保持稳定的结构和重要的人。';
+
+  @override
+  String get adderallMilestone1825Title => '五年：了不起的胜利';
+
+  @override
+  String get adderallMilestone1825Description =>
+      '五年值得庆祝。您已经沿着不同的方向走了 1,825 天，并用多年的经历证明改变可以持续。';
+
+  @override
+  String get adderallReferenceDay1825 =>
+      '停止滥用 Adderall 五年：半个十年的进步\n\n来源：SAMHSA，Treatment of Stimulant Use Disorders\n\nSAMHSA 把长期康复视为兴奋剂使用障碍照护的重要目标。其指南并没有承诺五年时会出现某个特殊的生物学事件，而这个里程碑也不需要这样的承诺才有意义。\n\n五年就是 1,825 天持续选择不同的方向。这是一大段真实生活的证据，说明您的改变可以延续。好好庆祝，然后继续做那些让这一切成为可能的事。';
 }
 
 /// The translations for Chinese, using the Han script (`zh_Hant`).
@@ -4265,6 +4331,20 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   @override
   String get benzoMilestone1095Description =>
       '三年時，對大多數人來說漫長的戒斷期已經遠去。睡眠、情緒、記憶和注意力都有了數年的恢復時間，日常生活通常也比長期用藥期間好得多。';
+
+  @override
+  String get benzoMilestone1460Title => '四年：穩固進展';
+
+  @override
+  String get benzoMilestone1460Description =>
+      '停用苯二氮卓四年，是日復一日累積起來的一段長期復原歷程。每個人的恢復節奏不同，因此這個週年紀念的是您持續鞏固的穩定、習慣與韌性，而不是假設所有人都有同一條終點線。';
+
+  @override
+  String get benzoMilestone1825Title => '五年：堅實基礎';
+
+  @override
+  String get benzoMilestone1825Description =>
+      '五年是一項重要的長期成就。復原沒有統一時間表，但五年的持續改變代表數千天的練習、支持，以及在苯二氮卓之外逐步建立起來的生活。';
 
   @override
   String get addictionMeth => '冰毒';
@@ -6408,6 +6488,14 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
       '停用苯二氮卓三年後：長期愈合\n\n來源：Barker et al.，《Persistence of cognitive effects after withdrawal from long-term benzodiazepine use: a meta-analysis》，Archives of Clinical Neuropsychology（2004），PubMed\n\n長遠視角\n三年處於苯二氮卓恢復時間線的最遠端。對絕大多數人來說，即便經歷過嚴重而漫長的戒斷，破壞性症狀也早已過去，與用藥期間相比，生活質量發生了根本性的改變。\n\n薈萃分析發現了甚麼\n對長期使用者的匯總研究顯示，戒斷後在許多方面都出現了恢復。在數年的戒斷中，主導性的故事是思維、記憶和日常功能的廣泛恢復。\n\n恢復信號\n長期研究顯示思維和記憶在許多方面都有恢復。到三年時，早期和殘留的戒斷階段都早已遠去，那些成果也有了數年時間來鞏固。\n\n一條充滿希望的信息\n苯二氮卓的恢復之旅是醫學上最艱巨的歷程之一，三年的持續愈合是一項意義深遠的成就。證據是明確的：大腦會實質性愈合，大多數人恢復了清晰度、睡眠和情緒範圍，而且改善會隨著時間繼續。';
 
   @override
+  String get benzodiazepineReferenceDay1460 =>
+      '停用苯二氮卓四年：持續進展\n\n來源：由 ASAM 主導的多專業《苯二氮卓逐步減量聯合臨床實務指引》（2025）\n\n指引支持什麼\n指引指出，停用苯二氮卓後的適應過程可能遠遠長於藥物從體內清除所需的時間。有些人會出現持續數月或數年的延長性戒斷症狀，因此復原應依個別情況持續追蹤並提供支持。\n\n四年代表什麼\n指引並未規定一個適用所有人的四年生物學終點。因此，這個里程碑不誇大醫學結論，而是慶祝四年的持續改變，並讓復原依各自節奏前進。\n\n值得紀念的里程碑\n四年是1,460天。無論復原過程順利、起伏，或介於兩者之間，這都是一項穩固的成就。';
+
+  @override
+  String get benzodiazepineReferenceDay1825 =>
+      '停用苯二氮卓五年：長期成就\n\n來源：由 ASAM 主導的多專業《苯二氮卓逐步減量聯合臨床實務指引》（2025）\n\n沒有統一終點\n指引強調，苯二氮卓戒斷以及停藥後的適應過程因人而異。它沒有設定一個統一的五年節點來宣告大腦或身體已經完全恢復。\n\n五年代表什麼\n五年是真正的長期週年：1,825天的持續改變，讓習慣、支持與日常生活擁有數年時間逐漸扎根。\n\n把肯定留給真實的努力\n這個里程碑慶祝的是實際付出的努力，而不是虛構的醫學期限。五年的持續進展本身就很重要。';
+
+  @override
   String get cocaineReferenceDay1 =>
       '可卡因戒斷：最初24小時\n\n來源：《Withdrawal Syndromes》，StatPearls（NCBI Bookshelf），美國國家醫學圖書館\n\n可卡因與大腦\n可卡因會阻斷大腦獎賞迴路中多巴胺（以及其他單胺類物質）的再攝取，使多巴胺積聚並產生強烈的欣快感和精力。隨著長期使用，大腦會通過下調這一系統來適應，因此一旦沒有藥物，正常的活動也會顯得平淡無味。\n\n崩潰期\nStatPearls將興奮劑戒斷描述為：一旦停止使用，便從一次“崩潰”開始，其特徵是顯著的抑鬱、過度睡眠、飢餓、情緒低落，以及運動和思維的嚴重遲緩。在最初24小時內，這通常包括：\n• 極度疲勞和睡眠需求增加\n• 情緒低落，運動和思維遲緩\n• 食慾增加（可卡因會抑制食慾）\n\n在更廣泛的成癮文獻中，渴求、易怒和焦慮在這一窗口期也常被廣泛報告，儘管StatPearls並未將它們明確列為崩潰期的一部分。\n\n與其他一些藥物不同\nStatPearls指出，興奮劑戒斷可通過觀察和支持性護理來處理；與酒精或苯二氮卓戒斷不同，它通常不會引起癲癇發作或譫妄。主要的危險在心理層面——在崩潰期，抑鬱以及（在大量使用的人中）自殺意念可能出現，因此建議給予支持和監測。\n\n沒有獲批的藥物\n目前尚無獲批用於治療可卡因戒斷的藥物；處理方式是支持性的，而諸如應急管理等非藥物手段，是針對潛在物質使用障礙的循證療法。';
 
@@ -7014,4 +7102,48 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   @override
   String get vapingHealthReference =>
       '電子煙會帶來哪些暴露\n\n來源：CDC — Health Effects of Vaping\n\nCDC指出，大多數電子煙含有會成癮的尼古丁。電子煙氣溶膠可能含有尼古丁、致癌化學物、鎳錫鉛等重金屬、可深入肺部的微小顆粒、揮發性有機化合物和某些有害香味化學物。尼古丁戒斷可包括煩躁、焦慮或不安、情緒低落、睡眠和注意力問題、飢餓及渴求，而且這些症狀會隨時間減弱。電子煙的長期影響仍在研究中，所以 Quitter 慶祝真實的持續停用，而不是照搬紙菸關於一氧化碳、焦油、癌症或心臟風險的時間線。';
+
+  @override
+  String get adderallMilestone730Title => '兩年：持久的改變';
+
+  @override
+  String get adderallMilestone730Description =>
+      '兩年沒有濫用 Adderall，這不是短暫的連續紀錄，而是持續的改變。您已經建立起能繼續帶您向前的習慣和選擇。';
+
+  @override
+  String get adderallReferenceDay730 =>
+      '停止濫用 Adderall 兩年：持久的進步\n\n來源：SAMHSA，Treatment of Stimulant Use Disorders\n\nSAMHSA 的指南涵蓋安非他命類興奮劑，包括處方興奮劑的濫用，並支持以證據為基礎的復原照護。它並沒有規定兩年時會發生生物學上的「重置」。\n\n即便如此，兩年仍是很大的成就。您已經在很長一段時間裡維持了改變；慶祝您建立的穩定，並繼續堅持真正有效的方法。';
+
+  @override
+  String get adderallMilestone1095Title => '三年：更穩的基礎';
+
+  @override
+  String get adderallMilestone1095Description =>
+      '三年是您一天一天累積起來的長期進步。繼續保護讓這一切成為可能的生活、習慣和支持。';
+
+  @override
+  String get adderallReferenceDay1095 =>
+      '停止濫用 Adderall 三年：復原持續向前\n\n來源：SAMHSA，Treatment of Stimulant Use Disorders\n\nSAMHSA 支持對興奮劑使用障礙進行循證治療和長期復原，其中包括與處方興奮劑有關的問題。該指南並未聲稱某項特定的腦部變化會在三年時完成。\n\n三年代表一種經歷過普通日子和艱難日子的持久改變。繼續守住那些幫助您走到這裡的習慣、關係和支持。';
+
+  @override
+  String get adderallMilestone1460Title => '四年：扎下深根';
+
+  @override
+  String get adderallMilestone1460Description =>
+      '四年展現了非凡的堅持。這個里程碑慶祝您持續遠離濫用，以及圍繞這種改變建立起來的穩定。';
+
+  @override
+  String get adderallReferenceDay1460 =>
+      '停止濫用 Adderall 四年：把長期改變活出來\n\n來源：SAMHSA，Treatment of Stimulant Use Disorders\n\nSAMHSA 的指南著重於能幫助人們實現長期復原的治療和支持。它沒有把四年定義為醫學上的終點，因此這個里程碑慶祝的是持續的進步，而不是虛構的健康承諾。\n\n四年是在真正長期的尺度上保持一致。繼續保護那些讓您的進步保持穩定的結構和重要的人。';
+
+  @override
+  String get adderallMilestone1825Title => '五年：了不起的勝利';
+
+  @override
+  String get adderallMilestone1825Description =>
+      '五年值得慶祝。您已經沿著不同的方向走了 1,825 天，並用多年的經歷證明改變可以持續。';
+
+  @override
+  String get adderallReferenceDay1825 =>
+      '停止濫用 Adderall 五年：半個十年的進步\n\n來源：SAMHSA，Treatment of Stimulant Use Disorders\n\nSAMHSA 把長期復原視為興奮劑使用障礙照護的重要目標。其指南並沒有承諾五年時會出現某個特殊的生物學事件，而這個里程碑也不需要這樣的承諾才有意義。\n\n五年就是 1,825 天持續選擇不同的方向。這是一大段真實生活的證據，說明您的改變可以延續。好好慶祝，然後繼續做那些讓這一切成為可能的事。';
 }

@@ -199,6 +199,46 @@ class BenzodiazepinePage extends StatelessWidget {
             "A Message of Hope\n"
             "The benzo recovery journey is one of the most demanding in medicine, and three years of sustained healing is a profound achievement. The evidence is clear: the brain heals substantially, most people recover their clarity, sleep, and emotional range, and improvement continues with time.",
       ),
+      QuitMilestone(
+        day: 1460,
+        title: l10n.benzoMilestone1460Title,
+        description: l10n.benzoMilestone1460Description,
+        reference:
+            "Joint Clinical Practice Guideline on Benzodiazepine Tapering (ASAM)",
+        link:
+            "https://www.asam.org/quality-care/clinical-guidelines/benzodiazepine-tapering",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.benzodiazepineReferenceDay1460,
+        referenceContent:
+            "Four Years After Benzodiazepines: Sustained Progress\n\n"
+            "Source: Joint Clinical Practice Guideline on Benzodiazepine Tapering, ASAM-led multidisciplinary guideline (2025)\n\n"
+            "What the Guideline Supports\n"
+            "The guideline notes that adjustment after benzodiazepine discontinuation can last well beyond drug elimination. Some people experience protracted withdrawal for months or years, and recovery should be followed and supported individually.\n\n"
+            "What Four Years Means\n"
+            "The guideline does not define a universal four-year biological endpoint. This milestone therefore marks something the evidence can support without exaggeration: four years of sustained change, with recovery allowed to follow its own pace.\n\n"
+            "A Milestone Worth Marking\n"
+            "Four years is 1,460 days. That is a durable achievement, whether recovery felt smooth, uneven, or somewhere in between.",
+      ),
+      QuitMilestone(
+        day: 1825,
+        title: l10n.benzoMilestone1825Title,
+        description: l10n.benzoMilestone1825Description,
+        reference:
+            "Joint Clinical Practice Guideline on Benzodiazepine Tapering (ASAM)",
+        link:
+            "https://www.asam.org/quality-care/clinical-guidelines/benzodiazepine-tapering",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.benzodiazepineReferenceDay1825,
+        referenceContent:
+            "Five Years After Benzodiazepines: Long-Term Achievement\n\n"
+            "Source: Joint Clinical Practice Guideline on Benzodiazepine Tapering, ASAM-led multidisciplinary guideline (2025)\n\n"
+            "No Single Finish Line\n"
+            "The guideline emphasizes that benzodiazepine withdrawal and post-discontinuation adjustment vary between people. It does not set a universal five-year point at which the brain or body is declared fully recovered.\n\n"
+            "What Five Years Represents\n"
+            "Five years is a genuine long-term anniversary: sustained change across 1,825 days, with routines, support, and everyday life having years to take root.\n\n"
+            "Keep the Credit Where It Belongs\n"
+            "This milestone celebrates the work itself, not an invented medical deadline. Five years of sustained progress is substantial on its own.",
+      ),
     ];
   }
 

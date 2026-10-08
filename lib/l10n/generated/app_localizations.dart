@@ -1464,6 +1464,30 @@ abstract class AppLocalizations {
   /// **'At three years, the long withdrawal period is far behind most people. Sleep, mood, memory, and attention have had years to recover, and day-to-day life is typically far better than during long-term use.'**
   String get benzoMilestone1095Description;
 
+  /// No description provided for @benzoMilestone1460Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Four Years: Lasting Progress'**
+  String get benzoMilestone1460Title;
+
+  /// No description provided for @benzoMilestone1460Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Four years after benzodiazepines is a long stretch of recovery built day by day. Recovery timelines vary, so this anniversary celebrates the stability, routines, and resilience you have strengthened without pretending there is one universal finish line.'**
+  String get benzoMilestone1460Description;
+
+  /// No description provided for @benzoMilestone1825Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Five Years: Strong Foundations'**
+  String get benzoMilestone1825Title;
+
+  /// No description provided for @benzoMilestone1825Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Five years is a major long-term achievement. Recovery does not follow one timetable, but five years of sustained change means thousands of days of practice, support, and life built beyond benzodiazepines.'**
+  String get benzoMilestone1825Description;
+
   /// No description provided for @addictionMeth.
   ///
   /// In en, this message translates to:
@@ -5286,6 +5310,18 @@ abstract class AppLocalizations {
   /// **'Three Years After Benzodiazepines: Long-Term Healing\n\nSource: Barker et al., \"Persistence of cognitive effects after withdrawal from long-term benzodiazepine use: a meta-analysis,\" Archives of Clinical Neuropsychology (2004), on PubMed\n\nThe Long View\nThree years sits at the far end of the benzo recovery timeline. For the great majority of people, even after severe long-lasting withdrawal, disruptive symptoms are well behind them and quality of life is transformed compared with active use.\n\nWhat the Meta-Analysis Found\nCombined studies of long-term users show recovery in many areas after withdrawal. Over years of abstinence, the dominant story is broad recovery in thinking, memory, and day-to-day function.\n\nRecovery Signal\nLong-term research shows recovery across many areas of thinking and memory. By three years, the early and lingering withdrawal phases are far behind you and those gains have had years to strengthen.\n\nA Message of Hope\nThe benzo recovery journey is one of the most demanding in medicine, and three years of sustained healing is a profound achievement. The evidence is clear: the brain heals substantially, most people recover their clarity, sleep, and emotional range, and improvement continues with time.'**
   String get benzodiazepineReferenceDay1095;
 
+  /// No description provided for @benzodiazepineReferenceDay1460.
+  ///
+  /// In en, this message translates to:
+  /// **'Four Years After Benzodiazepines: Sustained Progress\n\nSource: Joint Clinical Practice Guideline on Benzodiazepine Tapering, ASAM-led multidisciplinary guideline (2025)\n\nWhat the Guideline Supports\nThe guideline notes that adjustment after benzodiazepine discontinuation can last well beyond drug elimination. Some people experience protracted withdrawal for months or years, and recovery should be followed and supported individually.\n\nWhat Four Years Means\nThe guideline does not define a universal four-year biological endpoint. This milestone therefore marks something the evidence can support without exaggeration: four years of sustained change, with recovery allowed to follow its own pace.\n\nA Milestone Worth Marking\nFour years is 1,460 days. That is a durable achievement, whether recovery felt smooth, uneven, or somewhere in between.'**
+  String get benzodiazepineReferenceDay1460;
+
+  /// No description provided for @benzodiazepineReferenceDay1825.
+  ///
+  /// In en, this message translates to:
+  /// **'Five Years After Benzodiazepines: Long-Term Achievement\n\nSource: Joint Clinical Practice Guideline on Benzodiazepine Tapering, ASAM-led multidisciplinary guideline (2025)\n\nNo Single Finish Line\nThe guideline emphasizes that benzodiazepine withdrawal and post-discontinuation adjustment vary between people. It does not set a universal five-year point at which the brain or body is declared fully recovered.\n\nWhat Five Years Represents\nFive years is a genuine long-term anniversary: sustained change across 1,825 days, with routines, support, and everyday life having years to take root.\n\nKeep the Credit Where It Belongs\nThis milestone celebrates the work itself, not an invented medical deadline. Five years of sustained progress is substantial on its own.'**
+  String get benzodiazepineReferenceDay1825;
+
   /// No description provided for @cocaineReferenceDay1.
   ///
   /// In en, this message translates to:
@@ -6203,6 +6239,78 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'What vaping exposes you to\n\nSource: CDC — Health Effects of Vaping\n\nCDC says most e-cigarettes contain addictive nicotine. Vape aerosol can contain nicotine, cancer-causing chemicals, heavy metals such as nickel, tin and lead, tiny particles that reach deep into the lungs, volatile organic compounds, and some harmful flavoring chemicals. Nicotine withdrawal can include irritability, anxiety or restlessness, low mood, sleep and concentration problems, hunger and cravings, and these symptoms fade over time. Long-term vaping effects are still being studied, so Quitter celebrates sustained abstinence instead of borrowing cigarette carbon-monoxide, tar, cancer or heart-risk timelines.'**
   String get vapingHealthReference;
+
+  /// No description provided for @adderallMilestone730Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Two Years: Durable Change'**
+  String get adderallMilestone730Title;
+
+  /// No description provided for @adderallMilestone730Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Two years without misusing Adderall is sustained change, not a short streak. You’ve built routines and choices that can carry you forward.'**
+  String get adderallMilestone730Description;
+
+  /// No description provided for @adderallReferenceDay730.
+  ///
+  /// In en, this message translates to:
+  /// **'Two Years Off Adderall: Durable Progress\n\nSource: SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSA’s guide covers amphetamine-type stimulants, including prescription stimulant misuse, and supports evidence-based care for recovery. It does not define a two-year biological reset.\n\nTwo years is still a major achievement. You have maintained change over a long stretch; celebrate the stability you’ve built and keep using what works.'**
+  String get adderallReferenceDay730;
+
+  /// No description provided for @adderallMilestone1095Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Three Years: Strong Ground'**
+  String get adderallMilestone1095Title;
+
+  /// No description provided for @adderallMilestone1095Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Three years is long-term progress you’ve earned day by day. Keep protecting the life, habits, and support that made it possible.'**
+  String get adderallMilestone1095Description;
+
+  /// No description provided for @adderallReferenceDay1095.
+  ///
+  /// In en, this message translates to:
+  /// **'Three Years Off Adderall: Recovery With Momentum\n\nSource: SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSA supports evidence-based treatment and long-term recovery from stimulant use disorders, including problems involving prescription stimulants. The guide does not claim that a particular brain change finishes at three years.\n\nThree years reflects durable change carried through ordinary days as well as difficult ones. Keep the routines, relationships, and support that helped you reach this point.'**
+  String get adderallReferenceDay1095;
+
+  /// No description provided for @adderallMilestone1460Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Four Years: Deep Roots'**
+  String get adderallMilestone1460Title;
+
+  /// No description provided for @adderallMilestone1460Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Four years shows remarkable consistency. The milestone is your sustained freedom from misuse and the stability you’ve built around it.'**
+  String get adderallMilestone1460Description;
+
+  /// No description provided for @adderallReferenceDay1460.
+  ///
+  /// In en, this message translates to:
+  /// **'Four Years Off Adderall: Long-Term Change in Practice\n\nSource: SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSA’s guide focuses on treatments and supports that help people achieve long-term recovery. It does not define a four-year medical finish line, so this milestone is about sustained progress rather than an invented health promise.\n\nFour years shows consistency on a genuinely long timescale. Protect the structures and people that keep your progress steady.'**
+  String get adderallReferenceDay1460;
+
+  /// No description provided for @adderallMilestone1825Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Five Years: A Huge Win'**
+  String get adderallMilestone1825Title;
+
+  /// No description provided for @adderallMilestone1825Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Five years is worth celebrating. You’ve maintained a different direction for 1,825 days and built years of evidence that change can last.'**
+  String get adderallMilestone1825Description;
+
+  /// No description provided for @adderallReferenceDay1825.
+  ///
+  /// In en, this message translates to:
+  /// **'Five Years Off Adderall: Half a Decade of Progress\n\nSource: SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSA recognizes long-term recovery as an important goal of stimulant-use-disorder care. Its evidence guide does not promise a special biological event at five years, and this milestone does not need one to matter.\n\nFive years is 1,825 days of maintaining a different direction. That is a substantial body of lived evidence that your change can endure. Celebrate it, then keep doing the things that made it possible.'**
+  String get adderallReferenceDay1825;
 }
 
 class _AppLocalizationsDelegate

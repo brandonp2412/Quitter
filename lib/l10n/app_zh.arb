@@ -229,6 +229,10 @@
   "benzoMilestone730Description": "两年标志着显著恢复。大多数人的思维清晰得多，情绪更稳定，生活质量也比长期使用苯二氮卓时好得多。",
   "benzoMilestone1095Title": "三年：长期康复",
   "benzoMilestone1095Description": "三年时，对大多数人来说漫长的戒断期已经远去。睡眠、情绪、记忆和注意力都有了数年的恢复时间，日常生活通常也比长期用药期间好得多。",
+  "benzoMilestone1460Title": "四年：稳固进展",
+  "benzoMilestone1460Description": "停用苯二氮卓四年，是日复一日积累起来的一段漫长康复历程。每个人的恢复节奏不同，因此这个周年纪念的是您不断巩固的稳定、习惯与韧性，而不是假设所有人都有同一条终点线。",
+  "benzoMilestone1825Title": "五年：坚实基础",
+  "benzoMilestone1825Description": "五年是一项重要的长期成就。康复没有统一时间表，但五年的持续改变意味着数千天的练习、支持，以及在苯二氮卓之外逐步建立起来的生活。",
   "addictionMeth": "冰毒",
   "addictionBenzos": "苯二氮卓",
   "methPageTitle": "冰毒戒断",
@@ -1956,7 +1960,7 @@
   "@nicotinePouchesMilestone7Title": {
     "description": "Nicotine pouches milestone day 7 title"
   },
-  "nicotinePouchesMilestone7Description": "停用尼古丁袋一周，意味着你已经越过通常在第3天左右出现的尼古丁戒断高峰。症状通常会在随后3–4周逐渐减轻——你已经走上下坡路。",
+  "nicotinePouchesMilestone7Description": "停用尼古丁袋一周，意味着您已经越过通常在第3天左右出现的尼古丁戒断高峰。症状通常会在随后3–4周逐渐减轻——您已经走上下坡路。",
   "@nicotinePouchesMilestone7Description": {
     "description": "Nicotine pouches milestone day 7 description"
   },
@@ -1964,7 +1968,7 @@
   "@nicotinePouchesMilestone14Title": {
     "description": "Nicotine pouches milestone day 14 title"
   },
-  "nicotinePouchesMilestone14Description": "停用尼古丁袋两周，意味着你已经深入高峰后通常持续3–4周的缓解阶段。曲线仍在向下——真正的恢复正在进行。",
+  "nicotinePouchesMilestone14Description": "停用尼古丁袋两周，意味着您已经深入高峰后通常持续3–4周的缓解阶段。曲线仍在向下——真正的恢复正在进行。",
   "@nicotinePouchesMilestone14Description": {
     "description": "Nicotine pouches milestone day 14 description"
   },
@@ -2092,7 +2096,7 @@
   "@customMilestone1Title": {
     "description": "Custom milestone day 1 title"
   },
-  "customMilestone1Description": "你已经完整度过了一天，没有再做你选择停止的习惯。停止某些物质后的最初几天，戒断可能扰乱睡眠，而睡眠变化也可能延续到恢复期。记录睡眠能让这些变化更容易被察觉。",
+  "customMilestone1Description": "您已经完整度过了一天，没有再做您选择停止的习惯。停止某些物质后的最初几天，戒断可能扰乱睡眠，而睡眠变化也可能延续到恢复期。记录睡眠能让这些变化更容易被察觉。",
   "@customMilestone1Description": {
     "description": "Custom milestone day 1 description"
   },
@@ -2180,7 +2184,7 @@
   "ssriMilestone90Title": "三个月：停药反应曲线开始转折",
   "ssriMilestone90Description": "在 ANTLER 试验中，长期使用抗抑郁药后停药所产生的停药反应差异在第 12 周最大，之后随访时变小。因此，三个月是实测停药过程中的一个明确转折点。",
   "ssriMilestone180Title": "六个月：65%的人保持良好状态",
-  "ssriMilestone180Description": "一项对抑郁症缓解后停用抗抑郁药者进行六个月随访的研究中，83名有结局数据的参与者里有54人（65%）保持良好状态。六个月是长期稳定的一个具体里程碑。",
+  "ssriMilestone180Description": "一项对抑郁症缓解后停用抗抑郁药者进行六个月随访的研究中，83名有结局数据的参与者里有54人（65%）保持良好状态。六个月是长期稳定的一个具体里程碑，也与神经系统恢复速度因人而异这一事实相符。",
   "ssriMilestone365Title": "一年：重要里程碑",
   "ssriMilestone365Description": "停药整整一年是一个重要里程碑。在 ANTLER 试验中，许多长期使用抗抑郁药并停药的人在 52 周内没有复发，不过停药后的复发更常见，平均生活质量也低于维持治疗组。如果一年后您仍然状态良好，这是真正值得庆祝的进步。",
   "settingsShowSsriTracking": "显示SSRI追踪",
@@ -2327,6 +2331,8 @@
   "alcoholReferenceDay7": "免疫系统如何恢复\n\n来源：《Alcohol and the Immune System》（Sarkar, Jung & Wang），Alcohol Research: Current Reviews——同行评审，由NIH托管\n\n酒精如何削弱免疫力\n酒精以多种方式削弱免疫系统。即使是一次大量饮酒，也能让抗感染能力下降长达24小时。长期饮酒会减少白细胞、扰乱免疫信号，并损害肠道和肺部防御，从而增加感染风险和伤口愈合缓慢的风险。\n\n消除伤害\n一旦停饮，其中许多影响会得到改善。白细胞和免疫信号开始恢复，肠道和气道防御也开始修复。在第一周内，你的免疫系统不再每天被打压，对常见感染的抵抗力也开始提高。\n\n一个渐进的过程\n免疫系统的完全恢复需要一周以上的时间，修复的程度取决于饮酒有多重、有多久——但停止饮酒的第一周正是重建开始的地方。",
   "alcoholReferenceDay90": "戒酒三个月后的思维与记忆\n\n来源：关于戒酒后神经心理恢复的系统综述（PubMed Central，2024）——同行评审\n\n证据表明了什么\n这项综述汇总了追踪人们停止饮酒后思维和记忆如何恢复的研究。大多数能力会在大约六到十二个月内趋向正常，其中一些会改善得更早。\n\n哪些最先改善\n有两项能力突出地早于其他能力恢复：基本处理速度（该综述发现它通常在大约一个月时恢复，尽管更复杂任务的准确性会滞后）和工作记忆更新。到大约三个月时，许多人已经注意到这些能力的提升。\n\n哪些需要更长时间\n注意力、计划、决策、冲动控制、知觉和记忆会在六到十二个月的恢复窗口期内持续改善。\n\n影响恢复的因素\n该综述指出，恢复受到年龄、吸烟状况和病前能力等因素的影响——但令人鼓舞的是，它并不始终取决于过去饮酒的总量。恢复是预期中的走向。\n\n为什么这很重要\n更清晰的思维就是实实在在的康复：更好的注意力和决策能力有助于人们坚持治疗并避免复发。",
   "benzodiazepineReferenceDay1095": "停用苯二氮卓三年后：长期愈合\n\n来源：Barker et al.，《Persistence of cognitive effects after withdrawal from long-term benzodiazepine use: a meta-analysis》，Archives of Clinical Neuropsychology（2004），PubMed\n\n长远视角\n三年处于苯二氮卓恢复时间线的最远端。对绝大多数人来说，即便经历过严重而漫长的戒断，破坏性症状也早已过去，与用药期间相比，生活质量发生了根本性的改变。\n\n荟萃分析发现了什么\n对长期使用者的汇总研究显示，戒断后在许多方面都出现了恢复。在数年的戒断中，主导性的故事是思维、记忆和日常功能的广泛恢复。\n\n恢复信号\n长期研究显示思维和记忆在许多方面都有恢复。到三年时，早期和残留的戒断阶段都早已远去，那些成果也有了数年时间来巩固。\n\n一条充满希望的信息\n苯二氮卓的恢复之旅是医学上最艰巨的历程之一，三年的持续愈合是一项意义深远的成就。证据是明确的：大脑会实质性愈合，大多数人恢复了清晰度、睡眠和情绪范围，而且改善会随着时间继续。",
+  "benzodiazepineReferenceDay1460": "停用苯二氮卓四年：持续进展\n\n来源：由 ASAM 牵头的多学科《苯二氮卓逐步减量联合临床实践指南》（2025）\n\n指南支持什么\n指南指出，停用苯二氮卓后的适应过程可能远远长于药物从体内清除所需的时间。有些人会出现持续数月或数年的迁延性戒断症状，因此康复应根据个人情况持续随访并提供支持。\n\n四年意味着什么\n指南并未规定一个适用于所有人的四年生物学终点。因此，这个里程碑不夸大医学结论，而是庆祝四年的持续改变，并允许康复按各自节奏前进。\n\n值得纪念的里程碑\n四年是1,460天。无论康复过程顺利、起伏，还是介于两者之间，这都是一项稳固的成就。",
+  "benzodiazepineReferenceDay1825": "停用苯二氮卓五年：长期成就\n\n来源：由 ASAM 牵头的多学科《苯二氮卓逐步减量联合临床实践指南》（2025）\n\n没有统一终点\n指南强调，苯二氮卓戒断以及停药后的适应过程因人而异。它没有设定一个统一的五年节点来宣告大脑或身体已经完全恢复。\n\n五年代表什么\n五年是真正的长期周年：1,825天的持续改变，让习惯、支持与日常生活拥有数年时间逐渐扎根。\n\n把肯定留给真实的努力\n这个里程碑庆祝的是实际付出的努力，而不是虚构的医学期限。五年的持续进展本身就很重要。",
   "benzodiazepineReferenceDay14": "苯二氮卓戒断：两周\n\n来源：Poyares 等，《Chronic benzodiazepine usage and withdrawal in insomnia patients》，Journal of Psychiatric Research（2004），PubMed\n\n两周左右出现了真实的恢复信号\n研究人员随访了长期失眠、连续多年每晚服用苯二氮卓的人，并在逐步停药15天后再次测量睡眠。与长期使用苯二氮卓期间相比，慢波睡眠、睡眠EEG中的δ活动以及受试者自评睡眠质量均有所改善。\n\n深度睡眠正在回来\n慢波睡眠是非快速眼动睡眠中最深的阶段。到第15天，慢波睡眠和δ活动更高，而第2阶段非快速眼动睡眠则朝健康对照组所见的模式下降。\n\n早期恢复，已有测量\n完成停药的参与者在停药后最初睡眠变差，但到第15天随访时，客观的深睡指标和自评睡眠质量都得到改善。因此，两周这个节点是一个真实、可测量的恢复里程碑。",
   "benzodiazepineReferenceDay180": "六个月时的思维与记忆：可测量的进步\n\n来源：Tata et al.，《Lack of cognitive recovery following withdrawal from long-term benzodiazepine use》，Psychological Medicine（1994），PubMed\n\n这项研究做了什么\n这项研究对21名长期服用苯二氮卓的患者进行了测试，分别在停药前、停药后不久以及戒断六个月时进行，并与匹配的对照组比较。这是苯二氮卓恢复文献中最坦率的数据点之一。\n\n它发现了什么\n在停药前，患者在言语学习、记忆、运动速度、视觉协调和视觉推理方面存在问题。停药后几乎没有什么变化。到六个月时，其中几个方面已经出现了可测量的改善。\n\n这意味着什么\n到六个月时，言语学习、记忆、运动速度和视觉协调都已出现可测量的恢复。这种改善已经很明显，而且还有继续发展的空间。\n\n更大的图景\n如果你在六个月时仍感到头脑发懵，这项研究告诉我们：这是意料之中的，坚持戒断才是前进的道路。更长期的研究显示，恢复会持续到远超这一节点——大脑会继续愈合。",
   "benzodiazepineReferenceDay365": "停用苯二氮卓一年后：思维与记忆持续恢复\n\n来源：Barker et al.，《Persistence of cognitive effects after withdrawal from long-term benzodiazepine use: a meta-analysis》，Archives of Clinical Neuropsychology（2004），PubMed\n\n我们所拥有的最强证据\n研究人员汇总了在停药至少六个月后对长期苯二氮卓使用者重新进行测试的研究。汇总结果显示，戒断后思维和记忆出现了明显的恢复。\n\n好消息\n汇总研究发现，戒断后思维和记忆的多个方面出现了真实、可测量的改善。到大约一年时，与用药期间相比，这种恢复是广泛而明显的。\n\n恢复仍在继续\n汇总研究发现思维和记忆出现了广泛的恢复。到一年时，你已经沿着一条在六个月时就可测量的恢复趋势走了很远。\n\n这在一年时意味着什么\n到一年时，可以预期思维、记忆和清晰度会出现实质性恢复——大多数人会感到自己明显比用药期间更加敏锐。但如果某些方面仍显滞后，这与证据是一致的，并不意味着你停滞不前。恢复仍在继续，一年的戒断是这条道路上一个重要而有价值的里程碑。",
@@ -2536,5 +2542,17 @@
   "vapingHealthReference": "电子烟会带来哪些暴露\n\n来源：CDC — Health Effects of Vaping\n\nCDC指出，大多数电子烟含有会成瘾的尼古丁。电子烟气溶胶可能含有尼古丁、致癌化学物、镍锡铅等重金属、可深入肺部的微小颗粒、挥发性有机化合物和某些有害香味化学物。尼古丁戒断可包括烦躁、焦虑或不安、情绪低落、睡眠和注意力问题、饥饿及渴求，而且这些症状会随时间减弱。电子烟的长期影响仍在研究中，所以 Quitter 庆祝真实的持续停用，而不是照搬纸烟关于一氧化碳、焦油、癌症或心脏风险的时间线。",
   "@vapingHealthReference": {
     "description": "Localized reference summary for CDC vaping health effects"
-  }
+  },
+  "adderallMilestone730Title": "两年：持久的改变",
+  "adderallMilestone730Description": "两年没有滥用 Adderall，这不是短暂的连续记录，而是持续的改变。您已经建立起能继续带您向前的习惯和选择。",
+  "adderallReferenceDay730": "停止滥用 Adderall 两年：持久的进步\n\n来源：SAMHSA，Treatment of Stimulant Use Disorders\n\nSAMHSA 的指南涵盖安非他命类兴奋剂，包括处方兴奋剂的滥用，并支持以证据为基础的康复照护。它并没有规定两年时会发生生物学上的“重置”。\n\n即便如此，两年仍是很大的成就。您已经在很长一段时间里维持了改变；庆祝您建立的稳定，并继续坚持真正有效的方法。",
+  "adderallMilestone1095Title": "三年：更稳的基础",
+  "adderallMilestone1095Description": "三年是您一天一天积累起来的长期进步。继续保护让这一切成为可能的生活、习惯和支持。",
+  "adderallReferenceDay1095": "停止滥用 Adderall 三年：康复持续向前\n\n来源：SAMHSA，Treatment of Stimulant Use Disorders\n\nSAMHSA 支持对兴奋剂使用障碍进行循证治疗和长期康复，其中包括与处方兴奋剂有关的问题。该指南并未声称某项特定的脑部变化会在三年时完成。\n\n三年代表一种经受过普通日子和艰难日子的持久改变。继续守住那些帮助您走到这里的习惯、关系和支持。",
+  "adderallMilestone1460Title": "四年：扎下深根",
+  "adderallMilestone1460Description": "四年展现了非凡的坚持。这个里程碑庆祝您持续远离滥用，以及围绕这种改变建立起来的稳定。",
+  "adderallReferenceDay1460": "停止滥用 Adderall 四年：把长期改变活出来\n\n来源：SAMHSA，Treatment of Stimulant Use Disorders\n\nSAMHSA 的指南关注能够帮助人们实现长期康复的治疗和支持。它没有把四年定义为医学上的终点，因此这个里程碑庆祝的是持续的进步，而不是虚构的健康承诺。\n\n四年是在真正长期的尺度上保持一致。继续保护那些让您的进步保持稳定的结构和重要的人。",
+  "adderallMilestone1825Title": "五年：了不起的胜利",
+  "adderallMilestone1825Description": "五年值得庆祝。您已经沿着不同的方向走了 1,825 天，并用多年的经历证明改变可以持续。",
+  "adderallReferenceDay1825": "停止滥用 Adderall 五年：半个十年的进步\n\n来源：SAMHSA，Treatment of Stimulant Use Disorders\n\nSAMHSA 把长期康复视为兴奋剂使用障碍照护的重要目标。其指南并没有承诺五年时会出现某个特殊的生物学事件，而这个里程碑也不需要这样的承诺才有意义。\n\n五年就是 1,825 天持续选择不同的方向。这是一大段真实生活的证据，说明您的改变可以延续。好好庆祝，然后继续做那些让这一切成为可能的事。"
 }
