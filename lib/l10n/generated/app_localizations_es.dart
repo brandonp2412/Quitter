@@ -4109,4 +4109,48 @@ class AppLocalizationsEs extends AppLocalizations {
   @override
   String get maoiReferenceDay1825 =>
       'Cinco años después de los IMAO\n\nFuente: Gahr et al. (2013), revisión sistemática sobre retirada y discontinuación de tranilcipromina.\n\nLa literatura aborda el riesgo de discontinuación y cómo dejar el tratamiento con seguridad; no define cinco años como fecha de curación ni como meta biológica universal. Aun así, cinco años son un gran hito por el tiempo, los hábitos y el apoyo mantenidos durante 1.825 días.';
+
+  @override
+  String get marijuanaMilestone730Title => 'Dos años: Bases sólidas';
+
+  @override
+  String get marijuanaMilestone730Description =>
+      'Dos años sin cannabis representan un periodo considerable de cambio sostenido. SAMHSA recomienda una atención adaptada a la persona y a su etapa vital, no un reloj universal de recuperación. Este hito celebra las rutinas y el apoyo que te han traído hasta aquí.';
+
+  @override
+  String get marijuanaReferenceDay730 =>
+      'Dos años sin cannabis\n\nFuente: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nSAMHSA señala que el trastorno por consumo de cannabis varía según la persona y la etapa vital, y recomienda atención individualizada y basada en evidencia. No establece un umbral biológico universal de recuperación a los dos años.\n\nPor eso, dos años marcan cambio sostenido, rutinas y apoyo, no una meta médica final.';
+
+  @override
+  String get marijuanaMilestone1095Title => 'Tres años: Impulso duradero';
+
+  @override
+  String get marijuanaMilestone1095Description =>
+      'Tres años reflejan un impulso duradero. El trastorno por consumo de cannabis no sigue un curso idéntico para todo el mundo y SAMHSA no establece un punto biológico a los tres años. El logro es otro año completo de decisiones y apoyo mantenidos.';
+
+  @override
+  String get marijuanaReferenceDay1095 =>
+      'Tres años sin cannabis\n\nFuente: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nEl documento destaca que los riesgos, síntomas y necesidades de tratamiento relacionados con el cannabis varían entre personas y etapas de la vida. No identifica un punto biológico universal a los tres años.\n\nTres años celebran decisiones duraderas y el apoyo que ha ayudado a mantenerlas.';
+
+  @override
+  String get marijuanaMilestone1460Title => 'Cuatro años: Cambio firme';
+
+  @override
+  String get marijuanaMilestone1460Description =>
+      'Cuatro años muestran un cambio bien consolidado. La orientación basada en evidencia pone el foco en las necesidades individuales, no en un umbral universal de cuatro años. Celebra la constancia mantenida entre cambios de rutina, estrés y etapas de la vida.';
+
+  @override
+  String get marijuanaReferenceDay1460 =>
+      'Cuatro años sin cannabis\n\nFuente: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nSAMHSA recomienda atención individualizada y basada en evidencia porque el trastorno por consumo de cannabis no sigue un único curso. El documento no fija un umbral universal de recuperación a los cuatro años.\n\nCuatro años reflejan continuidad entre cambios de rutina, estrés y etapas. Esa constancia es el hito.';
+
+  @override
+  String get marijuanaMilestone1825Title => 'Cinco años: Progreso duradero';
+
+  @override
+  String get marijuanaMilestone1825Description =>
+      'Cinco años son un gran logro a largo plazo. SAMHSA no define una fecha de curación a los cinco años para el trastorno por consumo de cannabis. El hito es medio decenio de dirección, rutinas practicadas y apoyo sostenido.';
+
+  @override
+  String get marijuanaReferenceDay1825 =>
+      'Cinco años sin cannabis\n\nFuente: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nEl documento de SAMHSA respalda una atención adaptada a lo largo de la vida y no define una fecha de curación a los cinco años ni una meta biológica universal para el trastorno por consumo de cannabis.\n\nCinco años son un gran logro a largo plazo: medio decenio de rumbo, rutinas practicadas y apoyo sostenido.';
 }

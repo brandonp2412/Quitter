@@ -4022,4 +4022,48 @@ class AppLocalizationsAr extends AppLocalizations {
   @override
   String get maoiReferenceDay1825 =>
       'خمسة أعوام بعد مثبطات أكسيداز أحادي الأمين\n\nالمصدر: غار وزملاؤه (2013)، مراجعة منهجية لأعراض انسحاب وانقطاع ترانيلسيبرومين.\n\nتتناول الأدبيات مخاطر الانقطاع والإيقاف الآمن؛ ولا تعرف خمس سنوات كتاريخ شفاء أو خط نهاية بيولوجي عام. تبقى خمس سنوات مرحلة كبيرة بسبب الوقت والعادات والدعم المستمر طوال 1825 يوماً.';
+
+  @override
+  String get marijuanaMilestone730Title => 'عامان: أساس قوي';
+
+  @override
+  String get marijuanaMilestone730Description =>
+      'عامان من دون القنب فترة كبيرة من التغيير المستمر. توصي SAMHSA برعاية تناسب الشخص ومرحلة حياته بدل اعتماد جدول واحد للتعافي. يحتفي هذا الإنجاز بالعادات والدعم اللذين أوصلاك إلى هنا.';
+
+  @override
+  String get marijuanaReferenceDay730 =>
+      'عامان من دون القنب\n\nالمصدر: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nتوضح SAMHSA أن اضطراب استخدام القنب يختلف باختلاف الشخص ومرحلة الحياة، وتوصي برعاية مخصصة ومبنية على الأدلة. ولا تحدد عتبة بيولوجية موحدة للتعافي عند عامين.\n\nلذلك يمثل العامان تغييرا مستمرا وعادات ودعما، لا خط نهاية طبيا.';
+
+  @override
+  String get marijuanaMilestone1095Title => 'ثلاثة أعوام: زخم مستمر';
+
+  @override
+  String get marijuanaMilestone1095Description =>
+      'ثلاثة أعوام تعكس زخما ثابتا. اضطراب استخدام القنب لا يسير بالطريقة نفسها لدى الجميع، ولا تحدد SAMHSA نقطة بيولوجية خاصة عند ثلاثة أعوام. الإنجاز هو عام كامل إضافي من الخيارات والدعم المستمرين.';
+
+  @override
+  String get marijuanaReferenceDay1095 =>
+      'ثلاثة أعوام من دون القنب\n\nالمصدر: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nتؤكد الإرشادات أن المخاطر والأعراض واحتياجات العلاج المرتبطة بالقنب تختلف بين الأشخاص ومراحل الحياة. ولا تحدد نقطة بيولوجية موحدة عند ثلاثة أعوام.\n\nتحتفي ثلاثة أعوام بخيارات ثابتة وبالدعم الذي ساعدها على الاستمرار.';
+
+  @override
+  String get marijuanaMilestone1460Title => 'أربعة أعوام: تغيير راسخ';
+
+  @override
+  String get marijuanaMilestone1460Description =>
+      'أربعة أعوام تعكس تغييرا راسخا. تركز الإرشادات المبنية على الأدلة على احتياجات الفرد لا على حد موحد للتعافي بعد أربعة أعوام. احتفل بالثبات الذي حافظت عليه رغم تغير الروتين والضغوط ومراحل الحياة.';
+
+  @override
+  String get marijuanaReferenceDay1460 =>
+      'أربعة أعوام من دون القنب\n\nالمصدر: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nتوصي SAMHSA برعاية فردية ومبنية على الأدلة لأن اضطراب استخدام القنب لا يتبع مسارا واحدا لدى الجميع. ولا تضع الإرشادات حدا موحدا للتعافي عند أربعة أعوام.\n\nتعكس أربعة أعوام الاستمرار رغم تغير الروتين والضغوط ومراحل الحياة. هذا الثبات هو الإنجاز.';
+
+  @override
+  String get marijuanaMilestone1825Title => 'خمسة أعوام: تقدم مستمر';
+
+  @override
+  String get marijuanaMilestone1825Description =>
+      'خمسة أعوام إنجاز كبير على المدى الطويل. لا تحدد SAMHSA تاريخ شفاء عند خمسة أعوام لاضطراب استخدام القنب. الإنجاز هو نصف عقد من الاتجاه الواضح والعادات التي مارستها والدعم الذي حافظت عليه.';
+
+  @override
+  String get marijuanaReferenceDay1825 =>
+      'خمسة أعوام من دون القنب\n\nالمصدر: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nتدعم إرشادات SAMHSA رعاية مخصصة عبر مراحل الحياة، ولا تحدد تاريخ شفاء عند خمسة أعوام أو نهاية بيولوجية موحدة لاضطراب استخدام القنب.\n\nخمسة أعوام إنجاز كبير طويل الأمد: نصف عقد من الاتجاه والعادات والدعم المستمر.';
 }

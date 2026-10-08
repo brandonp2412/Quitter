@@ -4093,4 +4093,49 @@ class AppLocalizationsDe extends AppLocalizations {
   @override
   String get maoiReferenceDay1825 =>
       'Fünf Jahre nach MAO-Hemmern\n\nQuelle: Gahr et al. (2013), systematische Übersicht zu Entzug und Absetzreaktionen bei Tranylcypromin.\n\nDie Literatur behandelt Absetzrisiken und sicheres Beenden, definiert fünf Jahre aber weder als Heilungsdatum noch als allgemeine biologische Ziellinie. Fünf Jahre bleiben ein großer Meilenstein wegen der über 1.825 Tage getragenen Zeit, Gewohnheiten und Unterstützung.';
+
+  @override
+  String get marijuanaMilestone730Title => 'Zwei Jahre: Starkes Fundament';
+
+  @override
+  String get marijuanaMilestone730Description =>
+      'Zwei Jahre ohne Cannabis sind eine lange Phase beständiger Veränderung. SAMHSA empfiehlt eine Betreuung, die an Person und Lebensphase angepasst ist, statt einer einheitlichen Genesungsuhr. Dieser Meilenstein würdigt die Routinen und Unterstützung, die dich bis hierher getragen haben.';
+
+  @override
+  String get marijuanaReferenceDay730 =>
+      'Zwei Jahre ohne Cannabis\n\nQuelle: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nSAMHSA beschreibt, dass sich Cannabiskonsumstörung je nach Person und Lebensphase unterscheidet, und empfiehlt individuell zugeschnittene, evidenzbasierte Versorgung. Eine allgemeine biologische Erholungsgrenze nach zwei Jahren wird nicht festgelegt.\n\nZwei Jahre stehen daher für anhaltende Veränderung, Routinen und Unterstützung, nicht für eine medizinische Ziellinie.';
+
+  @override
+  String get marijuanaMilestone1095Title => 'Drei Jahre: Dauerhafter Schwung';
+
+  @override
+  String get marijuanaMilestone1095Description =>
+      'Drei Jahre stehen für anhaltenden Schwung. Eine Cannabiskonsumstörung verläuft nicht bei allen gleich, und SAMHSA nennt keinen biologischen Endpunkt nach drei Jahren. Entscheidend ist ein weiteres volles Jahr, in dem Entscheidungen und Unterstützung Bestand hatten.';
+
+  @override
+  String get marijuanaReferenceDay1095 =>
+      'Drei Jahre ohne Cannabis\n\nQuelle: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nDie Empfehlung betont, dass Risiken, Symptome und Behandlungsbedürfnisse rund um Cannabis zwischen Menschen und Lebensphasen variieren. Einen allgemeinen biologischen Endpunkt nach drei Jahren nennt sie nicht.\n\nDrei Jahre würdigen beständige Entscheidungen und die Unterstützung, die ihnen Dauer gegeben hat.';
+
+  @override
+  String get marijuanaMilestone1460Title => 'Vier Jahre: Fest verankert';
+
+  @override
+  String get marijuanaMilestone1460Description =>
+      'Vier Jahre zeigen, wie fest die Veränderung geworden ist. Evidenzbasierte Leitlinien betonen individuelle Bedürfnisse statt einer allgemeinen Vierjahresgrenze. Feiere die Beständigkeit, die du durch wechselnde Routinen, Belastungen und Jahreszeiten getragen hast.';
+
+  @override
+  String get marijuanaReferenceDay1460 =>
+      'Vier Jahre ohne Cannabis\n\nQuelle: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nSAMHSA empfiehlt individuelle, evidenzbasierte Versorgung, weil Cannabiskonsumstörung nicht bei allen gleich verläuft. Eine allgemeine Erholungsgrenze nach vier Jahren wird nicht festgelegt.\n\nVier Jahre zeigen Kontinuität durch wechselnde Routinen, Belastungen und Jahreszeiten. Diese Beständigkeit ist der Meilenstein.';
+
+  @override
+  String get marijuanaMilestone1825Title =>
+      'Fünf Jahre: Dauerhafter Fortschritt';
+
+  @override
+  String get marijuanaMilestone1825Description =>
+      'Fünf Jahre sind eine große langfristige Leistung. SAMHSA nennt kein Heilungsdatum nach fünf Jahren für eine Cannabiskonsumstörung. Der Meilenstein ist ein halbes Jahrzehnt an Richtung, eingeübten Routinen und tragender Unterstützung.';
+
+  @override
+  String get marijuanaReferenceDay1825 =>
+      'Fünf Jahre ohne Cannabis\n\nQuelle: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nDie SAMHSA-Empfehlung unterstützt angepasste Versorgung über die Lebensspanne und definiert weder ein Heilungsdatum nach fünf Jahren noch einen allgemeinen biologischen Endpunkt für Cannabiskonsumstörung.\n\nFünf Jahre sind eine große langfristige Leistung: ein halbes Jahrzehnt mit klarer Richtung, eingeübten Routinen und Unterstützung.';
 }

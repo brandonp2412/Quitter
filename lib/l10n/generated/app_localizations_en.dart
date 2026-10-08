@@ -4029,4 +4029,48 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get maoiReferenceDay1825 =>
       'Five Years After MAOIs\n\nSource: Gahr et al. (2013), systematic review of tranylcypromine withdrawal and discontinuation.\n\nThe MAOI withdrawal literature addresses discontinuation risk and safe stopping; it does not define five years as a cure date or universal biological finish line. Five years is still a major milestone because of the time, habits, and support sustained across 1,825 days.';
+
+  @override
+  String get marijuanaMilestone730Title => 'Two Years: Strong Foundations';
+
+  @override
+  String get marijuanaMilestone730Description =>
+      'Two years without cannabis is a substantial stretch of sustained change. SAMHSA recommends care tailored to the person and life stage rather than a universal recovery clock, so this milestone celebrates the routines and support that carried you here.';
+
+  @override
+  String get marijuanaReferenceDay730 =>
+      'Two Years Without Cannabis\n\nSource: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nSAMHSA says cannabis use disorder varies by person and life stage and calls for tailored, evidence-based care. It does not define a universal biological recovery threshold at two years.\n\nTwo years therefore marks sustained change, routines, and support, not a medical finish line.';
+
+  @override
+  String get marijuanaMilestone1095Title => 'Three Years: Lasting Momentum';
+
+  @override
+  String get marijuanaMilestone1095Description =>
+      'Three years marks durable momentum. Cannabis use disorder does not follow one identical course, and SAMHSA does not define a three-year biological endpoint. The achievement is another full year of choices and support holding steady.';
+
+  @override
+  String get marijuanaReferenceDay1095 =>
+      'Three Years Without Cannabis\n\nSource: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nThe advisory emphasizes that cannabis-related risks, symptoms, and treatment needs differ across people and stages of life. It does not identify a universal three-year biological endpoint.\n\nThree years celebrates durable choices and the support that helped those choices keep holding.';
+
+  @override
+  String get marijuanaMilestone1460Title => 'Four Years: Deeply Established';
+
+  @override
+  String get marijuanaMilestone1460Description =>
+      'Four years reflects deeply established change. Evidence-based guidance emphasizes individual needs, not a universal four-year recovery threshold. Celebrate the consistency you have carried through changing routines, stress, and seasons.';
+
+  @override
+  String get marijuanaReferenceDay1460 =>
+      'Four Years Without Cannabis\n\nSource: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nSAMHSA recommends individualized, evidence-based care because cannabis use disorder does not follow one identical course. The advisory does not set a universal four-year recovery threshold.\n\nFour years reflects continuity through changing routines, stresses, and seasons. That consistency is the milestone.';
+
+  @override
+  String get marijuanaMilestone1825Title => 'Five Years: Enduring Progress';
+
+  @override
+  String get marijuanaMilestone1825Description =>
+      'Five years is a major long-term achievement. SAMHSA does not define a five-year cure date for cannabis use disorder, so the milestone is the half-decade of direction, practiced routines, and support you have sustained.';
+
+  @override
+  String get marijuanaReferenceDay1825 =>
+      'Five Years Without Cannabis\n\nSource: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nThe SAMHSA advisory supports tailored care across the lifespan and does not define a five-year cure date or universal biological finish line for cannabis use disorder.\n\nFive years is a major long-term achievement: sustained direction, practiced routines, and support carried across half a decade.';
 }

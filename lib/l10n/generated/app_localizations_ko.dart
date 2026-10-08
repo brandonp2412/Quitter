@@ -3940,4 +3940,48 @@ class AppLocalizationsKo extends AppLocalizations {
   @override
   String get maoiReferenceDay1825 =>
       'MAOI 중단 후 5년\n\n출처: Gahr 등(2013), 트라닐시프로민 금단 및 중단 현상에 대한 체계적 문헌고찰.\n\n문헌은 중단 위험과 안전한 중단을 다루며 5년을 완치일이나 보편적 생물학적 종착점으로 정의하지 않습니다. 그래도 1,825일 동안 이어 온 시간, 습관, 지원은 큰 이정표입니다.';
+
+  @override
+  String get marijuanaMilestone730Title => '2년: 단단한 기반';
+
+  @override
+  String get marijuanaMilestone730Description =>
+      '대마를 끊은 지 2년은 오랫동안 변화를 이어 온 큰 이정표입니다. SAMHSA는 모두에게 같은 회복 시계를 적용하기보다 개인과 삶의 단계에 맞춘 지원을 권합니다. 여기까지 이어 온 습관과 도움을 기념할 때입니다.';
+
+  @override
+  String get marijuanaReferenceDay730 =>
+      '대마를 끊은 지 2년\n\n출처: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nSAMHSA는 대마 사용 장애가 개인과 삶의 단계에 따라 다르므로 맞춤형 근거 기반 지원이 필요하다고 설명합니다. 2년이라는 공통의 생물학적 회복 기준은 제시하지 않습니다.\n\n따라서 2년은 의학적 결승선이 아니라 이어 온 변화, 습관, 지원을 보여 주는 이정표입니다.';
+
+  @override
+  String get marijuanaMilestone1095Title => '3년: 이어지는 전진';
+
+  @override
+  String get marijuanaMilestone1095Description =>
+      '3년은 변화의 흐름이 오래 이어졌다는 뜻입니다. 대마 사용 장애의 경과는 사람마다 다르며 SAMHSA는 3년이라는 공통의 생물학적 종점을 제시하지 않습니다. 선택과 지원을 또 한 해 지켜 온 것 자체가 성과입니다.';
+
+  @override
+  String get marijuanaReferenceDay1095 =>
+      '대마를 끊은 지 3년\n\n출처: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\n이 지침은 대마와 관련된 위험, 증상, 치료 필요가 사람과 삶의 단계에 따라 다르다고 강조합니다. 3년이라는 공통의 생물학적 종점은 제시하지 않습니다.\n\n3년은 오래 이어 온 선택과 그 선택을 지탱한 지원을 기념하는 시간입니다.';
+
+  @override
+  String get marijuanaMilestone1460Title => '4년: 자리 잡은 변화';
+
+  @override
+  String get marijuanaMilestone1460Description =>
+      '4년은 변화가 깊이 자리 잡았음을 보여 줍니다. 근거 기반 지침은 공통된 4년 회복 기준보다 개인의 필요를 강조합니다. 달라지는 일상과 스트레스 속에서도 이어 온 꾸준함을 기념할 수 있습니다.';
+
+  @override
+  String get marijuanaReferenceDay1460 =>
+      '대마를 끊은 지 4년\n\n출처: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nSAMHSA는 대마 사용 장애가 모두 같은 경과를 따르지 않으므로 개인별 근거 기반 지원을 권합니다. 4년이라는 공통의 회복 기준은 설정하지 않습니다.\n\n4년은 달라지는 일상과 스트레스 속에서도 이어 온 꾸준함을 보여 줍니다. 그 지속성이 이정표입니다.';
+
+  @override
+  String get marijuanaMilestone1825Title => '5년: 지속된 성장';
+
+  @override
+  String get marijuanaMilestone1825Description =>
+      '5년은 큰 장기 성과입니다. SAMHSA는 대마 사용 장애가 5년에 완치된다는 날짜를 정하지 않습니다. 5년 동안 방향, 익힌 습관, 지원을 이어 온 것이 이 이정표의 의미입니다.';
+
+  @override
+  String get marijuanaReferenceDay1825 =>
+      '대마를 끊은 지 5년\n\n출처: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nSAMHSA 지침은 삶의 단계에 맞춘 지원을 권하며 대마 사용 장애에 대해 5년 완치 날짜나 공통의 생물학적 종점을 정하지 않습니다.\n\n5년은 큰 장기 성과입니다. 5년 동안 방향, 익힌 습관, 지원을 이어 온 시간을 뜻합니다.';
 }

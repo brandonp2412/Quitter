@@ -4053,4 +4053,48 @@ class AppLocalizationsUr extends AppLocalizations {
   @override
   String get maoiReferenceDay1825 =>
       'ایم اے او آئی کے بعد پانچ سال\n\nماخذ: گاہر اور ساتھی (2013)، ٹرانیل سائپرومین کی واپسی اور بندش پر منظم جائزہ۔\n\nتحقیق انخلا کے خطرات اور محفوظ بندش پر بات کرتی ہے؛ پانچ سال کو علاج کی تاریخ یا عالمی حیاتیاتی اختتامی لکیر نہیں سمجھا جاتا۔ پھر بھی 1825 دن تک برقرار وقت، عادات اور مدد کی وجہ سے یہ ایک بڑا سنگِ میل ہے۔';
+
+  @override
+  String get marijuanaMilestone730Title => 'دو سال: مضبوط بنیاد';
+
+  @override
+  String get marijuanaMilestone730Description =>
+      'کینابس کے بغیر دو سال مسلسل تبدیلی کا ایک بڑا عرصہ ہے۔ SAMHSA سب کے لیے ایک ہی بحالی کی گھڑی کے بجائے فرد اور زندگی کے مرحلے کے مطابق مدد کی سفارش کرتا ہے۔ یہ سنگ میل ان عادتوں اور حمایت کا جشن ہے جنہوں نے آپ کو یہاں تک پہنچایا۔';
+
+  @override
+  String get marijuanaReferenceDay730 =>
+      'کینابس کے بغیر دو سال\n\nماخذ: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nSAMHSA کے مطابق کینابس استعمال کی خرابی فرد اور زندگی کے مرحلے کے لحاظ سے مختلف ہوتی ہے، اس لیے ذاتی اور شواہد پر مبنی نگہداشت مناسب ہے۔ دو سال پر کوئی مشترک حیاتیاتی بحالی کی حد مقرر نہیں کی گئی۔\n\nاس لیے دو سال مسلسل تبدیلی، عادتوں اور حمایت کی علامت ہیں، طبی اختتامی لکیر کی نہیں۔';
+
+  @override
+  String get marijuanaMilestone1095Title => 'تین سال: مستقل رفتار';
+
+  @override
+  String get marijuanaMilestone1095Description =>
+      'تین سال پائیدار رفتار کی علامت ہیں۔ کینابس استعمال کی خرابی ہر شخص میں ایک ہی طرح نہیں چلتی، اور SAMHSA تین سال پر کوئی مشترک حیاتیاتی اختتام مقرر نہیں کرتا۔ کامیابی ایک اور پورا سال مستقل فیصلوں اور حمایت کا ہے۔';
+
+  @override
+  String get marijuanaReferenceDay1095 =>
+      'کینابس کے بغیر تین سال\n\nماخذ: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nرہنمائی واضح کرتی ہے کہ کینابس سے متعلق خطرات، علامات اور علاج کی ضروریات افراد اور زندگی کے مراحل کے لحاظ سے مختلف ہوتی ہیں۔ تین سال پر کوئی مشترک حیاتیاتی اختتام مقرر نہیں کیا گیا۔\n\nتین سال مستقل فیصلوں اور اس حمایت کا جشن ہیں جس نے انہیں قائم رکھنے میں مدد دی۔';
+
+  @override
+  String get marijuanaMilestone1460Title => 'چار سال: پختہ تبدیلی';
+
+  @override
+  String get marijuanaMilestone1460Description =>
+      'چار سال دکھاتے ہیں کہ تبدیلی مضبوطی سے قائم ہو چکی ہے۔ شواہد پر مبنی رہنمائی مشترک چار سالہ حد کے بجائے فرد کی ضروریات پر زور دیتی ہے۔ بدلتے معمولات، دباؤ اور زندگی کے مراحل میں قائم رہنے والی مستقل مزاجی قابل جشن ہے۔';
+
+  @override
+  String get marijuanaReferenceDay1460 =>
+      'کینابس کے بغیر چار سال\n\nماخذ: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nSAMHSA ذاتی اور شواہد پر مبنی نگہداشت کی سفارش کرتا ہے کیونکہ کینابس استعمال کی خرابی سب میں ایک ہی راستہ اختیار نہیں کرتی۔ چار سال پر کوئی مشترک بحالی کی حد مقرر نہیں کی گئی۔\n\nچار سال بدلتے معمولات، دباؤ اور زندگی کے مراحل میں تسلسل کی علامت ہیں۔ یہی مستقل مزاجی سنگ میل ہے۔';
+
+  @override
+  String get marijuanaMilestone1825Title => 'پانچ سال: پائیدار پیش رفت';
+
+  @override
+  String get marijuanaMilestone1825Description =>
+      'پانچ سال ایک بڑی طویل مدتی کامیابی ہے۔ SAMHSA کینابس استعمال کی خرابی کے لیے پانچ سال کی کوئی علاج کی تاریخ مقرر نہیں کرتا۔ اصل سنگ میل نصف دہائی کی سمت، پختہ عادتیں اور مسلسل حمایت ہیں۔';
+
+  @override
+  String get marijuanaReferenceDay1825 =>
+      'کینابس کے بغیر پانچ سال\n\nماخذ: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nSAMHSA کی رہنمائی زندگی کے مختلف مراحل میں موزوں نگہداشت کی حمایت کرتی ہے اور کینابس استعمال کی خرابی کے لیے پانچ سال کی علاج کی تاریخ یا مشترک حیاتیاتی اختتام مقرر نہیں کرتی۔\n\nپانچ سال ایک بڑی طویل مدتی کامیابی ہے: نصف دہائی کی سمت، پختہ عادتیں اور مسلسل حمایت۔';
 }

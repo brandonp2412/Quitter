@@ -4078,4 +4078,48 @@ class AppLocalizationsId extends AppLocalizations {
   @override
   String get maoiReferenceDay1825 =>
       'Lima tahun setelah MAOI\n\nSumber: Gahr dkk. (2013), tinjauan sistematis tentang gejala putus dan penghentian tranylcypromine.\n\nLiteratur membahas risiko penghentian dan cara berhenti dengan aman; lima tahun tidak didefinisikan sebagai tanggal sembuh atau garis akhir biologis universal. Lima tahun tetap menjadi tonggak besar karena waktu, kebiasaan, dan dukungan yang dipertahankan selama 1.825 hari.';
+
+  @override
+  String get marijuanaMilestone730Title => 'Dua Tahun: Fondasi Kuat';
+
+  @override
+  String get marijuanaMilestone730Description =>
+      'Dua tahun tanpa kanabis adalah rentang perubahan yang panjang dan terjaga. SAMHSA menganjurkan perawatan yang disesuaikan dengan orang dan tahap kehidupannya, bukan jadwal pemulihan yang sama untuk semua. Tonggak ini merayakan rutinitas dan dukungan yang membawamu sampai sini.';
+
+  @override
+  String get marijuanaReferenceDay730 =>
+      'Dua tahun tanpa kanabis\n\nSumber: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nSAMHSA menjelaskan bahwa gangguan penggunaan kanabis berbeda menurut orang dan tahap kehidupan serta menganjurkan perawatan yang disesuaikan dan berbasis bukti. Tidak ada batas pemulihan biologis universal pada dua tahun.\n\nKarena itu, dua tahun menandai perubahan, rutinitas, dan dukungan yang bertahan, bukan garis akhir medis.';
+
+  @override
+  String get marijuanaMilestone1095Title => 'Tiga Tahun: Momentum Bertahan';
+
+  @override
+  String get marijuanaMilestone1095Description =>
+      'Tiga tahun menunjukkan momentum yang bertahan. Gangguan penggunaan kanabis tidak berjalan sama pada setiap orang, dan SAMHSA tidak menetapkan titik biologis khusus pada tiga tahun. Pencapaiannya adalah satu tahun lagi ketika pilihan dan dukungan tetap kokoh.';
+
+  @override
+  String get marijuanaReferenceDay1095 =>
+      'Tiga tahun tanpa kanabis\n\nSumber: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nPanduan tersebut menekankan bahwa risiko, gejala, dan kebutuhan perawatan terkait kanabis berbeda antarorang dan tahap kehidupan. Tidak ada titik akhir biologis universal pada tiga tahun.\n\nTiga tahun merayakan pilihan yang tahan lama dan dukungan yang membantu pilihan itu tetap bertahan.';
+
+  @override
+  String get marijuanaMilestone1460Title => 'Empat Tahun: Makin Mantap';
+
+  @override
+  String get marijuanaMilestone1460Description =>
+      'Empat tahun mencerminkan perubahan yang sudah sangat mapan. Panduan berbasis bukti menekankan kebutuhan tiap orang, bukan batas pemulihan universal empat tahun. Rayakan konsistensi yang tetap terjaga melalui perubahan rutinitas, tekanan, dan musim hidup.';
+
+  @override
+  String get marijuanaReferenceDay1460 =>
+      'Empat tahun tanpa kanabis\n\nSumber: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nSAMHSA menganjurkan perawatan individual berbasis bukti karena gangguan penggunaan kanabis tidak mengikuti satu pola yang sama. Panduan itu tidak menetapkan batas pemulihan universal pada empat tahun.\n\nEmpat tahun mencerminkan kesinambungan melalui perubahan rutinitas, tekanan, dan musim hidup. Konsistensi itulah tonggaknya.';
+
+  @override
+  String get marijuanaMilestone1825Title => 'Lima Tahun: Kemajuan Bertahan';
+
+  @override
+  String get marijuanaMilestone1825Description =>
+      'Lima tahun adalah pencapaian jangka panjang yang besar. SAMHSA tidak menetapkan tanggal sembuh lima tahun untuk gangguan penggunaan kanabis. Tonggaknya adalah setengah dekade arah yang terjaga, rutinitas yang dilatih, dan dukungan yang dipertahankan.';
+
+  @override
+  String get marijuanaReferenceDay1825 =>
+      'Lima tahun tanpa kanabis\n\nSumber: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nPanduan SAMHSA mendukung perawatan yang disesuaikan sepanjang kehidupan dan tidak menetapkan tanggal sembuh lima tahun atau garis akhir biologis universal untuk gangguan penggunaan kanabis.\n\nLima tahun adalah pencapaian jangka panjang yang besar: setengah dekade arah, rutinitas, dan dukungan yang terus dipertahankan.';
 }

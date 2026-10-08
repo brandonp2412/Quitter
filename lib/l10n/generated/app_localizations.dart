@@ -6833,6 +6833,78 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Five Years After MAOIs\n\nSource: Gahr et al. (2013), systematic review of tranylcypromine withdrawal and discontinuation.\n\nThe MAOI withdrawal literature addresses discontinuation risk and safe stopping; it does not define five years as a cure date or universal biological finish line. Five years is still a major milestone because of the time, habits, and support sustained across 1,825 days.'**
   String get maoiReferenceDay1825;
+
+  /// No description provided for @marijuanaMilestone730Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Two Years: Strong Foundations'**
+  String get marijuanaMilestone730Title;
+
+  /// No description provided for @marijuanaMilestone730Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Two years without cannabis is a substantial stretch of sustained change. SAMHSA recommends care tailored to the person and life stage rather than a universal recovery clock, so this milestone celebrates the routines and support that carried you here.'**
+  String get marijuanaMilestone730Description;
+
+  /// No description provided for @marijuanaReferenceDay730.
+  ///
+  /// In en, this message translates to:
+  /// **'Two Years Without Cannabis\n\nSource: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nSAMHSA says cannabis use disorder varies by person and life stage and calls for tailored, evidence-based care. It does not define a universal biological recovery threshold at two years.\n\nTwo years therefore marks sustained change, routines, and support, not a medical finish line.'**
+  String get marijuanaReferenceDay730;
+
+  /// No description provided for @marijuanaMilestone1095Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Three Years: Lasting Momentum'**
+  String get marijuanaMilestone1095Title;
+
+  /// No description provided for @marijuanaMilestone1095Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Three years marks durable momentum. Cannabis use disorder does not follow one identical course, and SAMHSA does not define a three-year biological endpoint. The achievement is another full year of choices and support holding steady.'**
+  String get marijuanaMilestone1095Description;
+
+  /// No description provided for @marijuanaReferenceDay1095.
+  ///
+  /// In en, this message translates to:
+  /// **'Three Years Without Cannabis\n\nSource: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nThe advisory emphasizes that cannabis-related risks, symptoms, and treatment needs differ across people and stages of life. It does not identify a universal three-year biological endpoint.\n\nThree years celebrates durable choices and the support that helped those choices keep holding.'**
+  String get marijuanaReferenceDay1095;
+
+  /// No description provided for @marijuanaMilestone1460Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Four Years: Deeply Established'**
+  String get marijuanaMilestone1460Title;
+
+  /// No description provided for @marijuanaMilestone1460Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Four years reflects deeply established change. Evidence-based guidance emphasizes individual needs, not a universal four-year recovery threshold. Celebrate the consistency you have carried through changing routines, stress, and seasons.'**
+  String get marijuanaMilestone1460Description;
+
+  /// No description provided for @marijuanaReferenceDay1460.
+  ///
+  /// In en, this message translates to:
+  /// **'Four Years Without Cannabis\n\nSource: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nSAMHSA recommends individualized, evidence-based care because cannabis use disorder does not follow one identical course. The advisory does not set a universal four-year recovery threshold.\n\nFour years reflects continuity through changing routines, stresses, and seasons. That consistency is the milestone.'**
+  String get marijuanaReferenceDay1460;
+
+  /// No description provided for @marijuanaMilestone1825Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Five Years: Enduring Progress'**
+  String get marijuanaMilestone1825Title;
+
+  /// No description provided for @marijuanaMilestone1825Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Five years is a major long-term achievement. SAMHSA does not define a five-year cure date for cannabis use disorder, so the milestone is the half-decade of direction, practiced routines, and support you have sustained.'**
+  String get marijuanaMilestone1825Description;
+
+  /// No description provided for @marijuanaReferenceDay1825.
+  ///
+  /// In en, this message translates to:
+  /// **'Five Years Without Cannabis\n\nSource: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nThe SAMHSA advisory supports tailored care across the lifespan and does not define a five-year cure date or universal biological finish line for cannabis use disorder.\n\nFive years is a major long-term achievement: sustained direction, practiced routines, and support carried across half a decade.'**
+  String get marijuanaReferenceDay1825;
 }
 
 class _AppLocalizationsDelegate

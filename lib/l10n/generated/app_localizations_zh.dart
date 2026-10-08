@@ -3893,6 +3893,50 @@ class AppLocalizationsZh extends AppLocalizations {
   @override
   String get maoiReferenceDay1825 =>
       '停用单胺氧化酶抑制剂五年\n\n来源：Gahr 等（2013），关于反苯环丙胺戒断与停药现象的系统综述。\n\n文献讨论停药风险和安全停药，并没有把五年定义为治愈日期或普遍的生物学终点。即便如此，1825天里持续积累的时间、习惯和支持，仍然构成重要的长期里程碑。';
+
+  @override
+  String get marijuanaMilestone730Title => '两年：基础更稳';
+
+  @override
+  String get marijuanaMilestone730Description =>
+      '两年不使用大麻，是持续改变的一段重要历程。SAMHSA建议根据个人和人生阶段提供支持，而不是套用统一的恢复时钟。这个里程碑值得庆祝一路坚持下来的习惯和支持。';
+
+  @override
+  String get marijuanaReferenceDay730 =>
+      '两年不使用大麻\n\n来源： SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nSAMHSA指出，大麻使用障碍会因个人和人生阶段而不同，因此应提供个体化、循证的支持。它没有设定两年时统一的生物学恢复门槛。\n\n因此，两年代表持续的改变、习惯和支持，而不是医学上的终点线。';
+
+  @override
+  String get marijuanaMilestone1095Title => '三年：持续前进';
+
+  @override
+  String get marijuanaMilestone1095Description =>
+      '三年代表持续的前进势头。大麻使用障碍并不会在每个人身上按同样轨迹发展，SAMHSA也没有规定三年时统一的生物学终点。又完整坚持一年，本身就是成果。';
+
+  @override
+  String get marijuanaReferenceDay1095 =>
+      '三年不使用大麻\n\n来源： SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\n该指南强调，与大麻有关的风险、症状和治疗需要会因个人和人生阶段而异。它没有规定三年时统一的生物学终点。\n\n三年值得庆祝的是长期保持的选择，以及帮助这些选择持续下去的支持。';
+
+  @override
+  String get marijuanaMilestone1460Title => '四年：改变扎根';
+
+  @override
+  String get marijuanaMilestone1460Description =>
+      '四年说明改变已经深深扎根。循证指南强调个体需要，而不是统一的四年恢复门槛。生活节奏、压力和环境不断变化，仍能保持一致，这份坚持值得庆祝。';
+
+  @override
+  String get marijuanaReferenceDay1460 =>
+      '四年不使用大麻\n\n来源： SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nSAMHSA建议提供个体化、循证的支持，因为大麻使用障碍并不是人人都按同一轨迹发展。该指南没有设定四年时统一的恢复门槛。\n\n四年体现了在生活节奏、压力和环境变化中仍然保持连续性。这份一致本身就是里程碑。';
+
+  @override
+  String get marijuanaMilestone1825Title => '五年：长期进步';
+
+  @override
+  String get marijuanaMilestone1825Description =>
+      '五年是一项重大的长期成就。SAMHSA没有把五年定义为大麻使用障碍的治愈日期。真正的里程碑，是半个十年里持续保持方向、习惯和支持。';
+
+  @override
+  String get marijuanaReferenceDay1825 =>
+      '五年不使用大麻\n\n来源： SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nSAMHSA指南支持在人生不同阶段提供适合个人的支持，也没有把五年定义为大麻使用障碍的治愈日期或统一的生物学终点。\n\n五年是一项重大的长期成就：半个十年里持续保持方向、习惯和支持。';
 }
 
 /// The translations for Chinese, using the Han script (`zh_Hant`).
@@ -7784,4 +7828,48 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   @override
   String get maoiReferenceDay1825 =>
       '停用單胺氧化酶抑制劑五年\n\n來源：Gahr 等（2013），關於反苯環丙胺戒斷與停藥現象的系統性回顧。\n\n文獻討論停藥風險與安全停藥，並沒有把五年定義為治癒日期或普遍的生物學終點。即使如此，1825天裡持續累積的時間、習慣與支持，仍然構成重要的長期里程碑。';
+
+  @override
+  String get marijuanaMilestone730Title => '兩年：基礎更穩';
+
+  @override
+  String get marijuanaMilestone730Description =>
+      '兩年不使用大麻，是持續改變的一段重要歷程。SAMHSA建議依個人與人生階段提供支持，而不是套用一致的恢復時鐘。這個里程碑值得慶祝一路維持下來的習慣與支持。';
+
+  @override
+  String get marijuanaReferenceDay730 =>
+      '兩年不使用大麻\n\n來源： SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nSAMHSA指出，大麻使用障礙會因個人與人生階段而不同，因此應提供個別化、循證的支持。它沒有設定兩年時一致的生物學恢復門檻。\n\n因此，兩年代表持續的改變、習慣與支持，而不是醫學上的終點線。';
+
+  @override
+  String get marijuanaMilestone1095Title => '三年：持續前進';
+
+  @override
+  String get marijuanaMilestone1095Description =>
+      '三年代表持續的前進動力。大麻使用障礙不會在每個人身上依相同軌跡發展，SAMHSA也沒有規定三年時一致的生物學終點。又完整維持一年，本身就是成果。';
+
+  @override
+  String get marijuanaReferenceDay1095 =>
+      '三年不使用大麻\n\n來源： SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\n該指引強調，與大麻有關的風險、症狀與治療需要會因個人與人生階段而異。它沒有規定三年時一致的生物學終點。\n\n三年值得慶祝的是長期保持的選擇，以及幫助這些選擇持續下去的支持。';
+
+  @override
+  String get marijuanaMilestone1460Title => '四年：改變扎根';
+
+  @override
+  String get marijuanaMilestone1460Description =>
+      '四年表示改變已經深深扎根。循證指引強調個別需要，而不是一致的四年恢復門檻。生活節奏、壓力與環境不斷變化，仍能保持一致，這份堅持值得慶祝。';
+
+  @override
+  String get marijuanaReferenceDay1460 =>
+      '四年不使用大麻\n\n來源： SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nSAMHSA建議提供個別化、循證的支持，因為大麻使用障礙並不是人人都依同一軌跡發展。該指引沒有設定四年時一致的恢復門檻。\n\n四年體現了在生活節奏、壓力與環境變化中仍然保持連續性。這份一致本身就是里程碑。';
+
+  @override
+  String get marijuanaMilestone1825Title => '五年：長期進步';
+
+  @override
+  String get marijuanaMilestone1825Description =>
+      '五年是一項重大的長期成就。SAMHSA沒有把五年定義為大麻使用障礙的治癒日期。真正的里程碑，是半個十年裡持續保持方向、習慣與支持。';
+
+  @override
+  String get marijuanaReferenceDay1825 =>
+      '五年不使用大麻\n\n來源： SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nSAMHSA指引支持在人生不同階段提供適合個人的支持，也沒有把五年定義為大麻使用障礙的治癒日期或一致的生物學終點。\n\n五年是一項重大的長期成就：半個十年裡持續保持方向、習慣與支持。';
 }

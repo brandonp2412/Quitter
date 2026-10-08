@@ -4133,4 +4133,48 @@ class AppLocalizationsFr extends AppLocalizations {
   @override
   String get maoiReferenceDay1825 =>
       'Cinq ans après les IMAO\n\nSource : Gahr et al. (2013), revue systématique du sevrage et de l’arrêt de la tranylcypromine.\n\nLa littérature traite des risques de sevrage et de l’arrêt en sécurité ; elle ne définit pas cinq ans comme une date de guérison ni comme une ligne d’arrivée biologique universelle. Cinq ans restent un jalon majeur pour le temps, les habitudes et le soutien maintenus pendant 1 825 jours.';
+
+  @override
+  String get marijuanaMilestone730Title => 'Deux ans : Bases solides';
+
+  @override
+  String get marijuanaMilestone730Description =>
+      'Deux ans sans cannabis représentent une longue période de changement maintenu. SAMHSA recommande des soins adaptés à la personne et à son étape de vie, plutôt qu’un calendrier universel de rétablissement. Ce cap célèbre les habitudes et le soutien qui vous ont mené jusque-là.';
+
+  @override
+  String get marijuanaReferenceDay730 =>
+      'Deux ans sans cannabis\n\nSource : SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nSAMHSA indique que le trouble lié à l’usage de cannabis varie selon la personne et l’étape de vie, et recommande des soins adaptés et fondés sur les données. Elle ne définit pas de seuil biologique universel de rétablissement à deux ans.\n\nDeux ans marquent donc un changement durable, des habitudes et du soutien, pas une ligne d’arrivée médicale.';
+
+  @override
+  String get marijuanaMilestone1095Title => 'Trois ans : Élan durable';
+
+  @override
+  String get marijuanaMilestone1095Description =>
+      'Trois ans témoignent d’un élan durable. Le trouble lié à l’usage de cannabis ne suit pas le même parcours pour tout le monde et SAMHSA ne fixe pas de point biologique à trois ans. L’accomplissement est une année de plus où choix et soutien ont tenu.';
+
+  @override
+  String get marijuanaReferenceDay1095 =>
+      'Trois ans sans cannabis\n\nSource : SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nL’avis souligne que les risques, les symptômes et les besoins de traitement liés au cannabis varient selon les personnes et les étapes de vie. Il ne fixe pas de point biologique universel à trois ans.\n\nTrois ans célèbrent des choix durables et le soutien qui a aidé à les maintenir.';
+
+  @override
+  String get marijuanaMilestone1460Title => 'Quatre ans : Changement ancré';
+
+  @override
+  String get marijuanaMilestone1460Description =>
+      'Quatre ans montrent un changement solidement ancré. Les recommandations fondées sur les données mettent l’accent sur les besoins individuels, pas sur un seuil universel à quatre ans. Célébrez la constance maintenue malgré les routines, le stress et les saisons qui changent.';
+
+  @override
+  String get marijuanaReferenceDay1460 =>
+      'Quatre ans sans cannabis\n\nSource : SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nSAMHSA recommande des soins individualisés et fondés sur les données parce que le trouble lié à l’usage de cannabis ne suit pas un parcours identique. L’avis ne fixe pas de seuil universel à quatre ans.\n\nQuatre ans reflètent une continuité malgré les changements de routine, le stress et les saisons. Cette constance est le cap.';
+
+  @override
+  String get marijuanaMilestone1825Title => 'Cinq ans : Progrès durable';
+
+  @override
+  String get marijuanaMilestone1825Description =>
+      'Cinq ans constituent un accomplissement majeur à long terme. SAMHSA ne définit pas de date de guérison à cinq ans pour le trouble lié à l’usage de cannabis. Le cap est ce demi-décennie de direction, d’habitudes consolidées et de soutien.';
+
+  @override
+  String get marijuanaReferenceDay1825 =>
+      'Cinq ans sans cannabis\n\nSource : SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nL’avis de SAMHSA soutient des soins adaptés tout au long de la vie et ne définit ni date de guérison à cinq ans ni ligne d’arrivée biologique universelle pour le trouble lié à l’usage de cannabis.\n\nCinq ans sont un accomplissement majeur à long terme : une demi-décennie de direction, d’habitudes pratiquées et de soutien.';
 }

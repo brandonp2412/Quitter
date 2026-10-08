@@ -242,6 +242,66 @@ class MarijuanaPage extends StatelessWidget {
             "Recovery Signal\n"
             "Former users abstinent for about 29 months matched non-users on the study's hippocampus health measures. At one year, the memory system is already moving along that documented recovery path toward normal.",
       ),
+      QuitMilestone(
+        day: 730,
+        title: l10n.marijuanaMilestone730Title,
+        description: l10n.marijuanaMilestone730Description,
+        reference: "SAMHSA (2026) - Cannabis Use Disorder Advisory",
+        link:
+            "https://www.samhsa.gov/resource/ebp/advisory-addressing-cannabis-use-disorder-primary-care-settings-lifespan-approach",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.marijuanaReferenceDay730,
+        referenceContent:
+            "Two Years Without Cannabis\n\n"
+            "Source: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\n"
+            "SAMHSA says cannabis use disorder varies by person and life stage and calls for tailored, evidence-based care. It does not define a universal biological recovery threshold at two years.\n\n"
+            "Two years therefore marks sustained change, routines, and support, not a medical finish line.",
+      ),
+      QuitMilestone(
+        day: 1095,
+        title: l10n.marijuanaMilestone1095Title,
+        description: l10n.marijuanaMilestone1095Description,
+        reference: "SAMHSA (2026) - Cannabis Use Disorder Advisory",
+        link:
+            "https://www.samhsa.gov/resource/ebp/advisory-addressing-cannabis-use-disorder-primary-care-settings-lifespan-approach",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.marijuanaReferenceDay1095,
+        referenceContent:
+            "Three Years Without Cannabis\n\n"
+            "Source: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\n"
+            "The advisory emphasizes that cannabis-related risks, symptoms, and treatment needs differ across people and stages of life. It does not identify a universal three-year biological endpoint.\n\n"
+            "Three years celebrates durable choices and the support that helped those choices keep holding.",
+      ),
+      QuitMilestone(
+        day: 1460,
+        title: l10n.marijuanaMilestone1460Title,
+        description: l10n.marijuanaMilestone1460Description,
+        reference: "SAMHSA (2026) - Cannabis Use Disorder Advisory",
+        link:
+            "https://www.samhsa.gov/resource/ebp/advisory-addressing-cannabis-use-disorder-primary-care-settings-lifespan-approach",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.marijuanaReferenceDay1460,
+        referenceContent:
+            "Four Years Without Cannabis\n\n"
+            "Source: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\n"
+            "SAMHSA recommends individualized, evidence-based care because cannabis use disorder does not follow one identical course. The advisory does not set a universal four-year recovery threshold.\n\n"
+            "Four years reflects continuity through changing routines, stresses, and seasons. That consistency is the milestone.",
+      ),
+      QuitMilestone(
+        day: 1825,
+        title: l10n.marijuanaMilestone1825Title,
+        description: l10n.marijuanaMilestone1825Description,
+        reference: "SAMHSA (2026) - Cannabis Use Disorder Advisory",
+        link:
+            "https://www.samhsa.gov/resource/ebp/advisory-addressing-cannabis-use-disorder-primary-care-settings-lifespan-approach",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.marijuanaReferenceDay1825,
+        referenceContent:
+            "Five Years Without Cannabis\n\n"
+            "Source: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\n"
+            "The SAMHSA advisory supports tailored care across the lifespan and does not define a five-year cure date or universal biological finish line for cannabis use disorder.\n\n"
+            "Five years is a major long-term achievement: sustained direction, practiced routines, and support carried across half a decade.",
+      ),
     ];
   }
 

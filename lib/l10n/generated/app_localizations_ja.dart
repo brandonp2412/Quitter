@@ -3896,4 +3896,48 @@ class AppLocalizationsJa extends AppLocalizations {
   @override
   String get maoiReferenceDay1825 =>
       'MAOI中止から5年\n\n出典：Gahrら（2013）、トラニルシプロミンの離脱・中止反応に関する系統的レビュー。\n\n文献は離脱リスクと安全な中止を扱い、5年を治癒日や普遍的な生物学的ゴールとは定めていません。それでも1825日にわたり積み重ねた時間、習慣、支援は大きな節目に値します。';
+
+  @override
+  String get marijuanaMilestone730Title => '2年：確かな土台';
+
+  @override
+  String get marijuanaMilestone730Description =>
+      '大麻をやめて2年は、変化を長く続けてきた大きな節目です。SAMHSAは一律の回復時計ではなく、本人とライフステージに合わせた支援を勧めています。ここまで支えてきた習慣と周囲の支援を祝う日です。';
+
+  @override
+  String get marijuanaReferenceDay730 =>
+      '大麻をやめて2年\n\n出典： SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nSAMHSAは、大麻使用障害は本人やライフステージによって異なるため、個別化された根拠に基づく支援が必要だとしています。2年という一律の生物学的な回復基準は示していません。\n\nそのため2年は、医学的な終点ではなく、続いてきた変化、習慣、支援を示す節目です。';
+
+  @override
+  String get marijuanaMilestone1095Title => '3年：続く前進';
+
+  @override
+  String get marijuanaMilestone1095Description =>
+      '3年は、前進が長く続いていることを示します。大麻使用障害の経過は人によって異なり、SAMHSAは3年という一律の生物学的な到達点を示していません。選択と支援をさらに1年積み重ねたこと自体が成果です。';
+
+  @override
+  String get marijuanaReferenceDay1095 =>
+      '大麻をやめて3年\n\n出典： SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nこの指針は、大麻に関するリスク、症状、治療上の必要性が人やライフステージによって異なると説明しています。3年という一律の生物学的な到達点は示していません。\n\n3年は、長く続く選択と、それを支えてきた周囲の支援を祝う節目です。';
+
+  @override
+  String get marijuanaMilestone1460Title => '4年：根づいた変化';
+
+  @override
+  String get marijuanaMilestone1460Description =>
+      '4年は、変化が生活に深く根づいたことを示します。根拠に基づく指針は個人差を重視し、4年という一律の回復基準を設けていません。生活の変化や負担を越えて続けた一貫性を祝えます。';
+
+  @override
+  String get marijuanaReferenceDay1460 =>
+      '大麻をやめて4年\n\n出典： SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nSAMHSAは、大麻使用障害が全員同じ経過をたどるわけではないため、個別化された根拠に基づく支援を勧めています。4年という一律の回復基準は設けていません。\n\n4年は、生活の変化や負担の中でも続けてきた一貫性を示します。その継続自体が節目です。';
+
+  @override
+  String get marijuanaMilestone1825Title => '5年：積み重ねた前進';
+
+  @override
+  String get marijuanaMilestone1825Description =>
+      '5年は長期的な大きな成果です。SAMHSAは大麻使用障害について5年で治るという期限を定めていません。5年間にわたり、選んだ方向、習慣、支援を積み重ねたことがこの節目です。';
+
+  @override
+  String get marijuanaReferenceDay1825 =>
+      '大麻をやめて5年\n\n出典： SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nSAMHSAの指針は、生涯の各段階に合わせた支援を勧めており、大麻使用障害について5年で治るという期限や一律の生物学的な終点を定めていません。\n\n5年は長期的な大きな成果です。5年間にわたり、選んだ方向、習慣、支援を積み重ねてきたことを示します。';
 }

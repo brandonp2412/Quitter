@@ -4108,6 +4108,50 @@ class AppLocalizationsPt extends AppLocalizations {
   @override
   String get maoiReferenceDay1825 =>
       'Cinco anos após os IMAO\n\nFonte: Gahr et al. (2013), revisão sistemática sobre abstinência e suspensão da tranilcipromina.\n\nA literatura aborda o risco de suspensão e a interrupção segura; não define cinco anos como data de cura nem como meta biológica universal. Cinco anos continuam a ser um marco importante pelo tempo, hábitos e apoio mantidos ao longo de 1 825 dias.';
+
+  @override
+  String get marijuanaMilestone730Title => 'Dois anos: Base sólida';
+
+  @override
+  String get marijuanaMilestone730Description =>
+      'Dois anos sem canábis representam um longo período de mudança sustentada. A SAMHSA recomenda cuidados adaptados à pessoa e à fase da vida, em vez de um relógio universal de recuperação. Este marco celebra as rotinas e o apoio que te trouxeram até aqui.';
+
+  @override
+  String get marijuanaReferenceDay730 =>
+      'Dois anos sem canábis\n\nFonte: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nA SAMHSA indica que a perturbação por consumo de canábis varia consoante a pessoa e a fase da vida e recomenda cuidados personalizados e baseados em evidência. Não define um limiar biológico universal de recuperação aos dois anos.\n\nAssim, dois anos marcam mudança sustentada, rotinas e apoio, não uma linha de chegada médica.';
+
+  @override
+  String get marijuanaMilestone1095Title => 'Três anos: Ritmo duradouro';
+
+  @override
+  String get marijuanaMilestone1095Description =>
+      'Três anos mostram um ritmo duradouro. A perturbação por consumo de canábis não segue o mesmo percurso em todas as pessoas, e a SAMHSA não define um ponto biológico aos três anos. A conquista é mais um ano inteiro de escolhas e apoio mantidos.';
+
+  @override
+  String get marijuanaReferenceDay1095 =>
+      'Três anos sem canábis\n\nFonte: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nO documento salienta que riscos, sintomas e necessidades de tratamento relacionados com canábis variam entre pessoas e fases da vida. Não identifica um ponto biológico universal aos três anos.\n\nTrês anos celebram escolhas duradouras e o apoio que ajudou a mantê-las.';
+
+  @override
+  String get marijuanaMilestone1460Title => 'Quatro anos: Mudança consolidada';
+
+  @override
+  String get marijuanaMilestone1460Description =>
+      'Quatro anos refletem uma mudança bem consolidada. A orientação baseada em evidência realça necessidades individuais, não um limiar universal aos quatro anos. Celebra a consistência mantida através de mudanças de rotina, stress e diferentes fases.';
+
+  @override
+  String get marijuanaReferenceDay1460 =>
+      'Quatro anos sem canábis\n\nFonte: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nA SAMHSA recomenda cuidados individualizados e baseados em evidência porque a perturbação por consumo de canábis não segue um único percurso. O documento não fixa um limiar universal de recuperação aos quatro anos.\n\nQuatro anos refletem continuidade através de mudanças de rotina, stress e fases da vida. Essa consistência é o marco.';
+
+  @override
+  String get marijuanaMilestone1825Title => 'Cinco anos: Progresso duradouro';
+
+  @override
+  String get marijuanaMilestone1825Description =>
+      'Cinco anos são uma grande conquista a longo prazo. A SAMHSA não define uma data de cura aos cinco anos para a perturbação por consumo de canábis. O marco é meia década de direção, rotinas praticadas e apoio sustentado.';
+
+  @override
+  String get marijuanaReferenceDay1825 =>
+      'Cinco anos sem canábis\n\nFonte: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nO documento da SAMHSA apoia cuidados adaptados ao longo da vida e não define uma data de cura aos cinco anos nem uma meta biológica universal para a perturbação por consumo de canábis.\n\nCinco anos são uma grande conquista a longo prazo: meia década de direção, rotinas praticadas e apoio sustentado.';
 }
 
 /// The translations for Portuguese, as used in Brazil (`pt_BR`).
@@ -8214,4 +8258,48 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
   @override
   String get maoiReferenceDay1825 =>
       'Cinco anos após os IMAO\n\nFonte: Gahr et al. (2013), revisão sistemática sobre retirada e descontinuação da tranilcipromina.\n\nA literatura aborda risco de descontinuação e interrupção segura; não define cinco anos como data de cura nem como linha de chegada biológica universal. Cinco anos ainda são um grande marco pelo tempo, hábitos e apoio sustentados ao longo de 1.825 dias.';
+
+  @override
+  String get marijuanaMilestone730Title => 'Dois anos: Base sólida';
+
+  @override
+  String get marijuanaMilestone730Description =>
+      'Dois anos sem cannabis representam um longo período de mudança sustentada. A SAMHSA recomenda cuidado adaptado à pessoa e à fase da vida, não um relógio universal de recuperação. Este marco celebra as rotinas e o apoio que trouxeram você até aqui.';
+
+  @override
+  String get marijuanaReferenceDay730 =>
+      'Dois anos sem cannabis\n\nFonte: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nA SAMHSA afirma que o transtorno por uso de cannabis varia conforme a pessoa e a fase da vida e recomenda cuidado personalizado e baseado em evidências. Não define um limite biológico universal de recuperação aos dois anos.\n\nAssim, dois anos marcam mudança sustentada, rotinas e apoio, não uma linha de chegada médica.';
+
+  @override
+  String get marijuanaMilestone1095Title => 'Três anos: Ritmo duradouro';
+
+  @override
+  String get marijuanaMilestone1095Description =>
+      'Três anos mostram um ritmo duradouro. O transtorno por uso de cannabis não segue o mesmo percurso para todas as pessoas, e a SAMHSA não define um ponto biológico aos três anos. A conquista é mais um ano inteiro de escolhas e apoio mantidos.';
+
+  @override
+  String get marijuanaReferenceDay1095 =>
+      'Três anos sem cannabis\n\nFonte: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nO documento destaca que riscos, sintomas e necessidades de tratamento ligados à cannabis variam entre pessoas e fases da vida. Não identifica um ponto biológico universal aos três anos.\n\nTrês anos celebram escolhas duradouras e o apoio que ajudou a mantê-las.';
+
+  @override
+  String get marijuanaMilestone1460Title => 'Quatro anos: Mudança consolidada';
+
+  @override
+  String get marijuanaMilestone1460Description =>
+      'Quatro anos refletem uma mudança bem consolidada. A orientação baseada em evidências destaca necessidades individuais, não um limite universal aos quatro anos. Celebre a consistência mantida diante de mudanças de rotina, estresse e fases da vida.';
+
+  @override
+  String get marijuanaReferenceDay1460 =>
+      'Quatro anos sem cannabis\n\nFonte: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nA SAMHSA recomenda cuidado individualizado e baseado em evidências porque o transtorno por uso de cannabis não segue um único percurso. O documento não fixa um limite universal de recuperação aos quatro anos.\n\nQuatro anos refletem continuidade diante de mudanças de rotina, estresse e fases da vida. Essa consistência é o marco.';
+
+  @override
+  String get marijuanaMilestone1825Title => 'Cinco anos: Progresso duradouro';
+
+  @override
+  String get marijuanaMilestone1825Description =>
+      'Cinco anos são uma grande conquista de longo prazo. A SAMHSA não define uma data de cura aos cinco anos para o transtorno por uso de cannabis. O marco é meia década de direção, rotinas praticadas e apoio sustentado.';
+
+  @override
+  String get marijuanaReferenceDay1825 =>
+      'Cinco anos sem cannabis\n\nFonte: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nO documento da SAMHSA apoia cuidado adaptado ao longo da vida e não define uma data de cura aos cinco anos nem uma linha de chegada biológica universal para o transtorno por uso de cannabis.\n\nCinco anos são uma grande conquista de longo prazo: meia década de direção, rotinas praticadas e apoio sustentado.';
 }

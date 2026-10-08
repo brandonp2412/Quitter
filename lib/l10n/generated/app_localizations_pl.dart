@@ -4100,4 +4100,48 @@ class AppLocalizationsPl extends AppLocalizations {
   @override
   String get maoiReferenceDay1825 =>
       'Pięć lat po inhibitorach MAO\n\nŹródło: Gahr i wsp. (2013), przegląd systematyczny odstawienia i objawów po przerwaniu tranylcyprominy.\n\nLiteratura omawia ryzyko odstawienia i bezpieczne zakończenie leczenia; nie określa pięciu lat jako daty wyleczenia ani uniwersalnej biologicznej mety. Pięć lat pozostaje ważnym kamieniem milowym ze względu na czas, nawyki i wsparcie utrzymane przez 1825 dni.';
+
+  @override
+  String get marijuanaMilestone730Title => 'Dwa lata: Mocne podstawy';
+
+  @override
+  String get marijuanaMilestone730Description =>
+      'Dwa lata bez konopi to długi okres utrzymanej zmiany. SAMHSA zaleca opiekę dopasowaną do osoby i etapu życia, a nie jeden uniwersalny zegar zdrowienia. Ten kamień milowy docenia rutyny i wsparcie, które doprowadziły cię aż tutaj.';
+
+  @override
+  String get marijuanaReferenceDay730 =>
+      'Dwa lata bez konopi\n\nŹródło: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nSAMHSA wskazuje, że zaburzenie związane z używaniem konopi różni się zależnie od osoby i etapu życia, oraz zaleca dopasowaną opiekę opartą na dowodach. Nie definiuje uniwersalnego biologicznego progu zdrowienia po dwóch latach.\n\nDwa lata oznaczają więc trwałą zmianę, rutyny i wsparcie, a nie medyczną linię mety.';
+
+  @override
+  String get marijuanaMilestone1095Title => 'Trzy lata: Trwały impet';
+
+  @override
+  String get marijuanaMilestone1095Description =>
+      'Trzy lata oznaczają trwały impet. Zaburzenie związane z używaniem konopi nie przebiega identycznie u wszystkich, a SAMHSA nie wyznacza biologicznego punktu końcowego po trzech latach. Osiągnięciem jest kolejny pełny rok stabilnych wyborów i wsparcia.';
+
+  @override
+  String get marijuanaReferenceDay1095 =>
+      'Trzy lata bez konopi\n\nŹródło: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nZalecenie podkreśla, że ryzyko, objawy i potrzeby leczenia związane z konopiami różnią się między osobami i etapami życia. Nie wskazuje uniwersalnego biologicznego punktu końcowego po trzech latach.\n\nTrzy lata celebrują trwałe wybory i wsparcie, które pomogło im się utrzymać.';
+
+  @override
+  String get marijuanaMilestone1460Title => 'Cztery lata: Ugruntowana zmiana';
+
+  @override
+  String get marijuanaMilestone1460Description =>
+      'Cztery lata pokazują głęboko ugruntowaną zmianę. Zalecenia oparte na dowodach podkreślają indywidualne potrzeby, a nie uniwersalny próg czterech lat. Warto świętować konsekwencję utrzymaną mimo zmian rutyny, stresu i kolejnych etapów życia.';
+
+  @override
+  String get marijuanaReferenceDay1460 =>
+      'Cztery lata bez konopi\n\nŹródło: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nSAMHSA zaleca zindywidualizowaną opiekę opartą na dowodach, ponieważ zaburzenie związane z używaniem konopi nie ma jednego przebiegu. Nie wyznacza uniwersalnego progu zdrowienia po czterech latach.\n\nCztery lata pokazują ciągłość mimo zmian rutyny, stresu i kolejnych etapów. To właśnie ta konsekwencja jest kamieniem milowym.';
+
+  @override
+  String get marijuanaMilestone1825Title => 'Pięć lat: Trwały postęp';
+
+  @override
+  String get marijuanaMilestone1825Description =>
+      'Pięć lat to duże długoterminowe osiągnięcie. SAMHSA nie określa pięcioletniej daty wyleczenia z zaburzenia związanego z używaniem konopi. Kamieniem milowym jest pół dekady kierunku, wypracowanych rutyn i utrzymywanego wsparcia.';
+
+  @override
+  String get marijuanaReferenceDay1825 =>
+      'Pięć lat bez konopi\n\nŹródło: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nZalecenie SAMHSA wspiera dopasowaną opiekę na różnych etapach życia i nie określa pięcioletniej daty wyleczenia ani uniwersalnej biologicznej mety dla zaburzenia związanego z używaniem konopi.\n\nPięć lat to duże długoterminowe osiągnięcie: pół dekady kierunku, wypracowanych rutyn i wsparcia.';
 }

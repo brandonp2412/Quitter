@@ -4012,4 +4012,48 @@ class AppLocalizationsFa extends AppLocalizations {
   @override
   String get maoiReferenceDay1825 =>
       'پنج سال پس از مهارکننده‌های مونوآمین‌اکسیداز\n\nمنبع: گار و همکاران (۲۰۱۳)، مرور نظام‌مند علائم ترک و قطع ترانیل‌سیپرومین.\n\nمنابع به خطرهای قطع و توقف ایمن می‌پردازند و پنج سال را تاریخ درمان قطعی یا خط پایان زیستی همگانی نمی‌دانند. با این حال پنج سال به دلیل زمان، عادت‌ها و حمایتی که در ۱۸۲۵ روز حفظ شده، نقطه عطف بزرگی است.';
+
+  @override
+  String get marijuanaMilestone730Title => 'دو سال: پایه‌ای محکم';
+
+  @override
+  String get marijuanaMilestone730Description =>
+      'دو سال بدون کانابیس دوره‌ای چشمگیر از تغییر پایدار است. SAMHSA مراقبتی را توصیه می‌کند که با فرد و مرحله زندگی او هماهنگ باشد، نه یک ساعت یکسان برای بهبود همه. این نقطه عطف از عادت‌ها و حمایتی تجلیل می‌کند که شما را تا اینجا رسانده‌اند.';
+
+  @override
+  String get marijuanaReferenceDay730 =>
+      'دو سال بدون کانابیس\n\nمنبع: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nSAMHSA توضیح می‌دهد که اختلال مصرف کانابیس بسته به فرد و مرحله زندگی متفاوت است و مراقبت شخصی‌سازی‌شده و مبتنی بر شواهد را توصیه می‌کند. آستانه زیستی همگانی برای بهبود در دو سال تعیین نشده است.\n\nبنابراین دو سال نشانه تغییر پایدار، عادت‌ها و حمایت است، نه خط پایان پزشکی.';
+
+  @override
+  String get marijuanaMilestone1095Title => 'سه سال: حرکت پایدار';
+
+  @override
+  String get marijuanaMilestone1095Description =>
+      'سه سال نشان‌دهنده حرکتی پایدار است. اختلال مصرف کانابیس در همه افراد مسیر یکسانی ندارد و SAMHSA نقطه زیستی ویژه‌ای برای سه سال تعیین نمی‌کند. دستاورد اصلی، یک سال کامل دیگر از انتخاب‌ها و حمایت پایدار است.';
+
+  @override
+  String get marijuanaReferenceDay1095 =>
+      'سه سال بدون کانابیس\n\nمنبع: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nاین راهنما تأکید می‌کند که خطرها، نشانه‌ها و نیازهای درمانی مرتبط با کانابیس میان افراد و مراحل زندگی متفاوت است. نقطه زیستی همگانی در سه سال تعریف نشده است.\n\nسه سال از انتخاب‌های ماندگار و حمایتی تجلیل می‌کند که به دوام آن‌ها کمک کرده است.';
+
+  @override
+  String get marijuanaMilestone1460Title => 'چهار سال: تغییر ریشه‌دار';
+
+  @override
+  String get marijuanaMilestone1460Description =>
+      'چهار سال نشان می‌دهد تغییر عمیقا جا افتاده است. راهنمای مبتنی بر شواهد بر نیازهای فردی تأکید دارد، نه آستانه همگانی چهار ساله. ثباتی را که در میان تغییر برنامه‌ها، فشارها و مراحل زندگی حفظ کرده‌اید جشن بگیرید.';
+
+  @override
+  String get marijuanaReferenceDay1460 =>
+      'چهار سال بدون کانابیس\n\nمنبع: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nSAMHSA مراقبت فردی و مبتنی بر شواهد را توصیه می‌کند، زیرا اختلال مصرف کانابیس در همه یک مسیر واحد ندارد. این راهنما آستانه همگانی بهبود در چهار سال تعیین نمی‌کند.\n\nچهار سال نشان‌دهنده تداوم در میان تغییر برنامه‌ها، فشارها و مراحل زندگی است. همین ثبات نقطه عطف است.';
+
+  @override
+  String get marijuanaMilestone1825Title => 'پنج سال: پیشرفت ماندگار';
+
+  @override
+  String get marijuanaMilestone1825Description =>
+      'پنج سال یک دستاورد بزرگ بلندمدت است. SAMHSA برای اختلال مصرف کانابیس تاریخ درمان قطعی پنج ساله تعیین نمی‌کند. این نقطه عطف، نیم دهه جهت‌گیری، عادت‌های تمرین‌شده و حمایت پایدار است.';
+
+  @override
+  String get marijuanaReferenceDay1825 =>
+      'پنج سال بدون کانابیس\n\nمنبع: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nراهنمای SAMHSA از مراقبت متناسب در مراحل مختلف زندگی حمایت می‌کند و برای اختلال مصرف کانابیس تاریخ درمان قطعی پنج ساله یا پایان زیستی همگانی تعیین نمی‌کند.\n\nپنج سال یک دستاورد بزرگ بلندمدت است: نیم دهه جهت‌گیری، عادت‌های تمرین‌شده و حمایت پایدار.';
 }
