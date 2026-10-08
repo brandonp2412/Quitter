@@ -3357,6 +3357,39 @@ class AppLocalizationsJa extends AppLocalizations {
       'メスを断って2年：思考と気分は改善し続ける\n\n出典：Iudicello et al., \"Longer Term Improvement in Neurocognitive Functioning and Affective Distress Among Methamphetamine Users Who Achieve Stable Abstinence,\" Journal of Clinical and Experimental Neuropsychology (2010),、PubMed Central所収\n\n1年を超えて続く回復\nこの研究は、メタンフェタミン使用者を約13ヶ月追跡し、安定して断薬した人を継続使用者および健康な対照群と比較しました。安定した断薬は全体的な思考を改善し感情的な苦痛を軽減し、その成果は1年を超えて続きました。\n\n改善するもの\n• 断薬者の全体的な思考は健康な対照群に追いついた一方、継続使用者は有意に障害されたままだった\n• 最大の成果は処理速度と運動能力で、特に開始時に最も障害されていた人で顕著だった\n• 気分は著しく改善：抑うつと全体的な気分に有意な改善を示したのは断薬者だけだった\n\n回復のサイン\n安定した断薬者は全体的な思考で健康な対照群に追いつき、感情的な苦痛も少ないと報告しました。言語学習、ワーキングメモリ、計画、集中力は最初の1年を超えて改善し続けることができ、回復の傾向は2年目にも続きます。\n\n2年経過\nエビデンスに基づくメッセージ：持続的な断薬は1年を大きく超えても報われ続けます—より鋭い思考、より良い気分、着実に改善する機能—一部の領域が戻るのに時間がかかるとしても。';
 
   @override
+  String get methMilestone1095Title => '3年 - 回復は続く';
+
+  @override
+  String get methMilestone1095Description =>
+      'メタンフェタミンを使わず3年。これは週ではなく年単位で積み重ねた持続的な変化です。価値があるのはその継続そのもの。回復の習慣や支えを根付かせるための1年を、さらに重ねました。';
+
+  @override
+  String get methReferenceDay1095 =>
+      '3年 - 回復は続く\n\n出典: Cao et al., \"Magnitude and Abstinence Trajectories of Neurocognitive Deficits in Methamphetamine Use Disorder: A Systematic Review and Meta-analysis,\" Journal of Addiction Medicine (2026), PubMed\n\n2026年の系統的レビューとメタ解析は、9,045人を含む68件の独立研究を統合しました。断薬期間と認知機能の推移を解析できた期間は最長280日で、各領域のエビデンスの確実性は「非常に低い」と評価されました。この根拠から、この記念日に生物学的回復が完了すると定めることはできません。\n\nメタンフェタミンを使わず3年。これは週ではなく年単位で積み重ねた持続的な変化です。価値があるのはその継続そのもの。回復の習慣や支えを根付かせるための1年を、さらに重ねました。';
+
+  @override
+  String get methMilestone1460Title => '4年 - 深い土台';
+
+  @override
+  String get methMilestone1460Description =>
+      '4年は、変化がしっかり続いてきた時間です。研究は4年で脳の回復が完了するとは定めていません。この節目は、築いてきたものをさらに1年間守り続けたことを祝います。';
+
+  @override
+  String get methReferenceDay1460 =>
+      '4年 - 深い土台\n\n出典: Cao et al., \"Magnitude and Abstinence Trajectories of Neurocognitive Deficits in Methamphetamine Use Disorder: A Systematic Review and Meta-analysis,\" Journal of Addiction Medicine (2026), PubMed\n\n2026年の系統的レビューとメタ解析は、9,045人を含む68件の独立研究を統合しました。断薬期間と認知機能の推移を解析できた期間は最長280日で、各領域のエビデンスの確実性は「非常に低い」と評価されました。この根拠から、この記念日に生物学的回復が完了すると定めることはできません。\n\n4年は、変化がしっかり続いてきた時間です。研究は4年で脳の回復が完了するとは定めていません。この節目は、築いてきたものをさらに1年間守り続けたことを祝います。';
+
+  @override
+  String get methMilestone1825Title => '5年 - 続く変化';
+
+  @override
+  String get methMilestone1825Description =>
+      'メタンフェタミンを使わず5年は、大きな長期的節目です。科学は5年で生物学的回復が完了すると約束できません。それでも、5年間続けてきた変化そのものは確かな祝うべき成果です。';
+
+  @override
+  String get methReferenceDay1825 =>
+      '5年 - 続く変化\n\n出典: Cao et al., \"Magnitude and Abstinence Trajectories of Neurocognitive Deficits in Methamphetamine Use Disorder: A Systematic Review and Meta-analysis,\" Journal of Addiction Medicine (2026), PubMed\n\n2026年の系統的レビューとメタ解析は、9,045人を含む68件の独立研究を統合しました。断薬期間と認知機能の推移を解析できた期間は最長280日で、各領域のエビデンスの確実性は「非常に低い」と評価されました。この根拠から、この記念日に生物学的回復が完了すると定めることはできません。\n\nメタンフェタミンを使わず5年は、大きな長期的節目です。科学は5年で生物学的回復が完了すると約束できません。それでも、5年間続けてきた変化そのものは確かな祝うべき成果です。';
+
+  @override
   String get nitrousOxideReferenceDay1 =>
       '1日目：ガスは消えた、しかしB12に注意\n\n出典：Knuf & Maani, \"Nitrous Oxide,\" StatPearls (NCBI Bookshelf)\n\nどれほど速く排出されるか\n亜酸化窒素の作用発現は速く—2〜5分—、吸入をやめると同じくらい速く体外へ排出されます。今日の時点で、ガス自体は体内に残っていません。\n\n本当のリスクはガスではない\nやめた後に重要なのは、反復的な曝露がすでに何をしたかです。亜酸化窒素は、ビタミンB12に依存する酵素であるメチオニン合成酵素を不活性化します。StatPearlsは、反復的な曝露—職業的であれ娯楽目的であれ—が巨赤芽球性貧血と脳・神経機能障害を引き起こし、まれに脊髄の変性をもたらし得ると指摘しています。\n\n大量または頻繁に使用していた場合\n亜酸化窒素は、オピオイドやアルコールのような身体的離脱症候群を引き起こすとは文書化されていません。したがって1日目は、体が薬を要求しているという話ではありません。B12関連の症状—次のいくつかのマイルストーンで扱います—に注意を向け始め、現れたら検査を受けることが重要です。';
 

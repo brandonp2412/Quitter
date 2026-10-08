@@ -3569,6 +3569,39 @@ class AppLocalizationsPt extends AppLocalizations {
       'Dois anos sem metanfetamina: pensamento e humor continuam a melhorar\n\nFonte: Iudicello et al., \"Melhoria a longo prazo no funcionamento neurocognitivo e sofrimento afetivo entre utilizadores de metanfetamina que alcançam abstinência estável\", Journal of Clinical and Experimental Neuropsychology (2010), no PubMed Central\n\nRecuperação que continua após um ano\nEste estudo acompanhou utilizadores de metanfetamina por cerca de 13 meses e comparou abstêmios estáveis com utilizadores continuados e controles saudáveis. A abstinência estável melhorou o pensamento geral e reduziu o sofrimento emocional, com os ganhos continuando além de um ano.\n\nO que melhora\n• O pensamento geral em abstêmios alcançou controles saudáveis, enquanto os utilizadores continuados permaneceram significativamente prejudicados\n• Os maiores ganhos foram na velocidade de processamento e na capacidade motora, especialmente para aqueles mais prejudicados no início\n• O humor melhorou acentuadamente: apenas os abstêmios apresentaram melhora significativa na depressão e no humor geral\n\nSinal de recuperação\nOs abstêmios estáveis alcançaram controles saudáveis no pensamento geral e relataram menos sofrimento emocional. A aprendizagem verbal, a memória de trabalho, o planeamento e a concentração podem continuar a melhorar para além do primeiro ano, pelo que a tendência de recuperação continua no segundo ano.\n\nDois anos depois\nA mensagem baseada em evidências: a abstinência sustentada continua a dar frutos bem depois do primeiro ano – pensamento mais aguçado, melhor humor e melhoria constante da função – mesmo que algumas áreas demorem mais para voltar.';
 
   @override
+  String get methMilestone1095Title => 'Três anos - Recuperação duradoura';
+
+  @override
+  String get methMilestone1095Description =>
+      'Três anos sem metanfetamina representam uma mudança sustentada medida em anos, não em semanas. A conquista é a própria duração: as rotinas e os apoios da recuperação tiveram mais um ano inteiro para criar raízes.';
+
+  @override
+  String get methReferenceDay1095 =>
+      'Três anos - Recuperação duradoura\n\nFonte: Cao et al., \"Magnitude and Abstinence Trajectories of Neurocognitive Deficits in Methamphetamine Use Disorder: A Systematic Review and Meta-analysis,\" Journal of Addiction Medicine (2026), PubMed\n\nUma revisão sistemática e meta-análise de 2026 reuniu 68 estudos independentes com 9 045 participantes. As análises da trajetória durante a abstinência abrangeram apenas períodos até 280 dias, e a certeza da evidência foi classificada como muito baixa. Estes dados não permitem definir um prazo biológico de recuperação para este aniversário.\n\nTrês anos sem metanfetamina representam uma mudança sustentada medida em anos, não em semanas. A conquista é a própria duração: as rotinas e os apoios da recuperação tiveram mais um ano inteiro para criar raízes.';
+
+  @override
+  String get methMilestone1460Title => 'Quatro anos - Bases sólidas';
+
+  @override
+  String get methMilestone1460Description =>
+      'Quatro anos representam um período sólido de mudança. A investigação não define uma meta de recuperação cerebral aos quatro anos, por isso este marco celebra mais um ano inteiro a proteger aquilo que construíste.';
+
+  @override
+  String get methReferenceDay1460 =>
+      'Quatro anos - Bases sólidas\n\nFonte: Cao et al., \"Magnitude and Abstinence Trajectories of Neurocognitive Deficits in Methamphetamine Use Disorder: A Systematic Review and Meta-analysis,\" Journal of Addiction Medicine (2026), PubMed\n\nUma revisão sistemática e meta-análise de 2026 reuniu 68 estudos independentes com 9 045 participantes. As análises da trajetória durante a abstinência abrangeram apenas períodos até 280 dias, e a certeza da evidência foi classificada como muito baixa. Estes dados não permitem definir um prazo biológico de recuperação para este aniversário.\n\nQuatro anos representam um período sólido de mudança. A investigação não define uma meta de recuperação cerebral aos quatro anos, por isso este marco celebra mais um ano inteiro a proteger aquilo que construíste.';
+
+  @override
+  String get methMilestone1825Title => 'Cinco anos - Mudança duradoura';
+
+  @override
+  String get methMilestone1825Description =>
+      'Cinco anos sem metanfetamina são um grande marco a longo prazo. A ciência não pode prometer um ponto final biológico aos cinco anos; o certo são cinco anos de mudança sustentada que merecem ser celebrados.';
+
+  @override
+  String get methReferenceDay1825 =>
+      'Cinco anos - Mudança duradoura\n\nFonte: Cao et al., \"Magnitude and Abstinence Trajectories of Neurocognitive Deficits in Methamphetamine Use Disorder: A Systematic Review and Meta-analysis,\" Journal of Addiction Medicine (2026), PubMed\n\nUma revisão sistemática e meta-análise de 2026 reuniu 68 estudos independentes com 9 045 participantes. As análises da trajetória durante a abstinência abrangeram apenas períodos até 280 dias, e a certeza da evidência foi classificada como muito baixa. Estes dados não permitem definir um prazo biológico de recuperação para este aniversário.\n\nCinco anos sem metanfetamina são um grande marco a longo prazo. A ciência não pode prometer um ponto final biológico aos cinco anos; o certo são cinco anos de mudança sustentada que merecem ser celebrados.';
+
+  @override
   String get nitrousOxideReferenceDay1 =>
       'Dia Um: O Gás Acabou, mas Assista B12\n\nFonte: Knuf & Maani, \"Óxido Nitroso\", StatPearls (Estante NCBI)\n\nQuão rápido ele limpa\nO óxido nitroso tem um rápido início de ação – 2 a 5 minutos – e é eliminado do corpo com a mesma rapidez quando para de inalá-lo. Até hoje, nenhum gás permanece em seu sistema.\n\nO verdadeiro risco não é o gás\nO que importa depois de parar é o que a exposição repetida já pode ter feito. O óxido nitroso inativa a metionina sintase, uma enzima que depende da vitamina B12. StatPearls observa que a exposição repetida – ocupacional ou recreativa – pode levar à anemia megaloblástica e à disfunção cerebral e nervosa e, em casos raros, à degeneração da medula espinhal.\n\nSe usou muito ou frequentemente\nNão está documentado que o óxido nitroso cause uma síndrome de abstinência física como os opioides ou o álcool, portanto, o primeiro dia não é sobre seu corpo exigir a droga. Trata-se de começar a prestar atenção aos sintomas relacionados à B12 – abordados nos próximos marcos – e ser verificado se algum aparecer.';
 
@@ -7761,6 +7794,39 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
   @override
   String get methReferenceDay730 =>
       'Dois anos sem metanfetamina: pensamento e humor continuam melhorando\n\nFonte: Iudicello et al., \"Melhoria a longo prazo no funcionamento neurocognitivo e sofrimento afetivo entre usuários de metanfetamina que alcançam abstinência estável\", Journal of Clinical and Experimental Neuropsychology (2010), no PubMed Central\n\nRecuperação que continua após um ano\nEste estudo acompanhou usuários de metanfetamina por cerca de 13 meses e comparou abstêmios estáveis com usuários continuados e controles saudáveis. A abstinência estável melhorou o pensamento geral e reduziu o sofrimento emocional, com os ganhos continuando além de um ano.\n\nO que melhora\n• O pensamento geral em abstêmios alcançou controles saudáveis, enquanto os usuários continuados permaneceram significativamente prejudicados\n• Os maiores ganhos foram na velocidade de processamento e na capacidade motora, especialmente para aqueles mais prejudicados no início\n• O humor melhorou acentuadamente: apenas os abstêmios apresentaram melhora significativa na depressão e no humor geral\n\nSinal de recuperação\nOs abstêmios estáveis alcançaram controles saudáveis no pensamento geral e relataram menos sofrimento emocional. A aprendizagem verbal, a memória de trabalho, o planeamento e a concentração podem continuar a melhorar para além do primeiro ano, pelo que a tendência de recuperação continua no segundo ano.\n\nDois anos depois\nA mensagem baseada em evidências: a abstinência sustentada continua a dar frutos bem depois do primeiro ano – pensamento mais aguçado, melhor humor e melhoria constante da função – mesmo que algumas áreas demorem mais para voltar.';
+
+  @override
+  String get methMilestone1095Title => 'Três anos - Recuperação duradoura';
+
+  @override
+  String get methMilestone1095Description =>
+      'Três anos sem metanfetamina representam uma mudança sustentada medida em anos, não em semanas. A conquista é a própria durabilidade: rotinas e apoios de recuperação tiveram mais um ano inteiro para se firmar.';
+
+  @override
+  String get methReferenceDay1095 =>
+      'Três anos - Recuperação duradoura\n\nFonte: Cao et al., \"Magnitude and Abstinence Trajectories of Neurocognitive Deficits in Methamphetamine Use Disorder: A Systematic Review and Meta-analysis,\" Journal of Addiction Medicine (2026), PubMed\n\nUma revisão sistemática e meta-análise de 2026 reuniu 68 estudos independentes com 9.045 participantes. As análises da trajetória na abstinência cobriram apenas períodos de até 280 dias, e a certeza das evidências foi classificada como muito baixa. Esses dados não estabelecem um prazo biológico de recuperação para este aniversário.\n\nTrês anos sem metanfetamina representam uma mudança sustentada medida em anos, não em semanas. A conquista é a própria durabilidade: rotinas e apoios de recuperação tiveram mais um ano inteiro para se firmar.';
+
+  @override
+  String get methMilestone1460Title => 'Quatro anos - Bases sólidas';
+
+  @override
+  String get methMilestone1460Description =>
+      'Quatro anos representam uma mudança duradoura. A pesquisa não define uma linha de chegada para a recuperação cerebral aos quatro anos, então este marco celebra mais um ano inteiro protegendo o que você construiu.';
+
+  @override
+  String get methReferenceDay1460 =>
+      'Quatro anos - Bases sólidas\n\nFonte: Cao et al., \"Magnitude and Abstinence Trajectories of Neurocognitive Deficits in Methamphetamine Use Disorder: A Systematic Review and Meta-analysis,\" Journal of Addiction Medicine (2026), PubMed\n\nUma revisão sistemática e meta-análise de 2026 reuniu 68 estudos independentes com 9.045 participantes. As análises da trajetória na abstinência cobriram apenas períodos de até 280 dias, e a certeza das evidências foi classificada como muito baixa. Esses dados não estabelecem um prazo biológico de recuperação para este aniversário.\n\nQuatro anos representam uma mudança duradoura. A pesquisa não define uma linha de chegada para a recuperação cerebral aos quatro anos, então este marco celebra mais um ano inteiro protegendo o que você construiu.';
+
+  @override
+  String get methMilestone1825Title => 'Cinco anos - Mudança duradoura';
+
+  @override
+  String get methMilestone1825Description =>
+      'Cinco anos sem metanfetamina são um grande marco de longo prazo. A ciência não pode prometer um ponto final biológico aos cinco anos; o que é certo são cinco anos de mudança sustentada que merecem ser celebrados.';
+
+  @override
+  String get methReferenceDay1825 =>
+      'Cinco anos - Mudança duradoura\n\nFonte: Cao et al., \"Magnitude and Abstinence Trajectories of Neurocognitive Deficits in Methamphetamine Use Disorder: A Systematic Review and Meta-analysis,\" Journal of Addiction Medicine (2026), PubMed\n\nUma revisão sistemática e meta-análise de 2026 reuniu 68 estudos independentes com 9.045 participantes. As análises da trajetória na abstinência cobriram apenas períodos de até 280 dias, e a certeza das evidências foi classificada como muito baixa. Esses dados não estabelecem um prazo biológico de recuperação para este aniversário.\n\nCinco anos sem metanfetamina são um grande marco de longo prazo. A ciência não pode prometer um ponto final biológico aos cinco anos; o que é certo são cinco anos de mudança sustentada que merecem ser celebrados.';
 
   @override
   String get nitrousOxideReferenceDay1 =>

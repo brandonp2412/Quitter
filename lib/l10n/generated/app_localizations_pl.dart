@@ -3561,6 +3561,39 @@ class AppLocalizationsPl extends AppLocalizations {
       'Dwa lata bez method: Myślenie i nastrojenie utrzymać poprawę\n\nŹródło: Iudicello et al., \"Longer Term Improvement in Neurocognitive Functioning and Affective Distress Among Methamphetamine Users Who Achieve Stable Abstinence,\" Journal of Clinical and Experimental Neuropsychology (2010), on PubMed Central\n\nOdzyskanie, które trwa przez rok\nBadanie to było kontynuowane przez użytkowników metamfetaminy przez około 13 miesięcy i porównywano stabilne osoby wstrzymujące się od głosu z trwałymi użytkownikami i zdrowymi kontrolami. Stabilne abstynencje poprawiły ogólne myślenie i zmniejszyły rozpad emocjonalny, a zyski utrzymywały się po roku.\n\nCo poprawia\n• Ogólne myślenie u osób wstrzymujących się od głosu, które dostały się do zdrowych kontroli, podczas gdy pacjenci kontynuujący leczenie pozostawali w znacznym stopniu upośledzeni\n• Największe korzyści odnotowano w szybkości przetwarzania i zdolności motorycznej, zwłaszcza dla osób najbardziej upośledzonych na początku\n• Nastroje uległy poprawie: tylko osoby wstrzymujące się od głosu wykazały znaczącą poprawę depresji i ogólnego nastroju.\n\nSygnał odzyskiwania\nStabilni wstrzymujący się od głosu, którzy doszli do zdrowych kontroli nad ogólnym myśleniem i zgłosili mniejsze problemy emocjonalne. Uczenie się werbalne, pamięć robocza, planowanie i skupienie mogą się nadal poprawiać po pierwszym roku, tak więc tendencja regeneracji utrzymuje się w drugim roku.\n\nDwa lata w\nWiadomość oparta na dowodach: długotrwała abstynencja opłaca się w ostatnim roku, znacznie ostrzejsze myślenie, lepszy nastrój i stale poprawiająca się funkcja, nawet jeśli kilka obszarów zajmie więcej czasu, aby powrócić.';
 
   @override
+  String get methMilestone1095Title => 'Trzy lata - Trwała poprawa';
+
+  @override
+  String get methMilestone1095Description =>
+      'Trzy lata bez metamfetaminy to trwała zmiana liczona w latach, nie tygodniach. Osiągnięciem jest sama jej wytrwałość: nawyki i wsparcie w zdrowieniu miały kolejny pełny rok, by się umocnić.';
+
+  @override
+  String get methReferenceDay1095 =>
+      'Trzy lata - Trwała poprawa\n\nŹródło: Cao et al., \"Magnitude and Abstinence Trajectories of Neurocognitive Deficits in Methamphetamine Use Disorder: A Systematic Review and Meta-analysis,\" Journal of Addiction Medicine (2026), PubMed\n\nPrzegląd systematyczny i metaanaliza z 2026 roku objęły 68 niezależnych badań z 9 045 uczestnikami. Analizy zmian podczas abstynencji obejmowały okresy tylko do 280 dni, a pewność dowodów w poszczególnych obszarach oceniono jako bardzo niską. Dane te nie pozwalają wyznaczyć biologicznego terminu pełnego powrotu do zdrowia na tę rocznicę.\n\nTrzy lata bez metamfetaminy to trwała zmiana liczona w latach, nie tygodniach. Osiągnięciem jest sama jej wytrwałość: nawyki i wsparcie w zdrowieniu miały kolejny pełny rok, by się umocnić.';
+
+  @override
+  String get methMilestone1460Title => 'Cztery lata - Mocne podstawy';
+
+  @override
+  String get methMilestone1460Description =>
+      'Cztery lata to solidny okres trwałej zmiany. Badania nie wyznaczają czteroletniej mety regeneracji mózgu, dlatego ten kamień milowy świętuje kolejny pełny rok ochrony tego, co udało Ci się zbudować.';
+
+  @override
+  String get methReferenceDay1460 =>
+      'Cztery lata - Mocne podstawy\n\nŹródło: Cao et al., \"Magnitude and Abstinence Trajectories of Neurocognitive Deficits in Methamphetamine Use Disorder: A Systematic Review and Meta-analysis,\" Journal of Addiction Medicine (2026), PubMed\n\nPrzegląd systematyczny i metaanaliza z 2026 roku objęły 68 niezależnych badań z 9 045 uczestnikami. Analizy zmian podczas abstynencji obejmowały okresy tylko do 280 dni, a pewność dowodów w poszczególnych obszarach oceniono jako bardzo niską. Dane te nie pozwalają wyznaczyć biologicznego terminu pełnego powrotu do zdrowia na tę rocznicę.\n\nCztery lata to solidny okres trwałej zmiany. Badania nie wyznaczają czteroletniej mety regeneracji mózgu, dlatego ten kamień milowy świętuje kolejny pełny rok ochrony tego, co udało Ci się zbudować.';
+
+  @override
+  String get methMilestone1825Title => 'Pięć lat - Trwała zmiana';
+
+  @override
+  String get methMilestone1825Description =>
+      'Pięć lat bez metamfetaminy to ważny długoterminowy kamień milowy. Nauka nie może obiecać biologicznego punktu końcowego po pięciu latach; pewne jest pięć lat trwałej zmiany wartej świętowania.';
+
+  @override
+  String get methReferenceDay1825 =>
+      'Pięć lat - Trwała zmiana\n\nŹródło: Cao et al., \"Magnitude and Abstinence Trajectories of Neurocognitive Deficits in Methamphetamine Use Disorder: A Systematic Review and Meta-analysis,\" Journal of Addiction Medicine (2026), PubMed\n\nPrzegląd systematyczny i metaanaliza z 2026 roku objęły 68 niezależnych badań z 9 045 uczestnikami. Analizy zmian podczas abstynencji obejmowały okresy tylko do 280 dni, a pewność dowodów w poszczególnych obszarach oceniono jako bardzo niską. Dane te nie pozwalają wyznaczyć biologicznego terminu pełnego powrotu do zdrowia na tę rocznicę.\n\nPięć lat bez metamfetaminy to ważny długoterminowy kamień milowy. Nauka nie może obiecać biologicznego punktu końcowego po pięciu latach; pewne jest pięć lat trwałej zmiany wartej świętowania.';
+
+  @override
   String get nitrousOxideReferenceDay1 =>
       'Dzień pierwszy: Gaz zniknął, ale oglądaj B12\n\nŹródło: Knuf & Maani, \"Nitrous Oxide,\" StatPearls (NCBI Bookshelf)\n\nJak szybko się rozmywa.\nPodtlenek azotu ma szybki początek działania od 2 do 5 minut i wydostaje się z organizmu tak szybko, jak tylko przestaniesz wdychać.\n\nThe Real Risk Isnreatt the Gas\nCo ważne po zaprzestaniu jest to, co powtarzające się narażenie może już zrobić. Podtlenek azotu inaktywuje syntazę metioniny, enzym, który zależy od witaminy B12. StatPearls zauważa, że wielokrotne narażenie na działanie substancji czynnej lub rekreacyjnej może prowadzić do anemii megaloblastycznej oraz zaburzeń czynności mózgu i nerwów, a w rzadkich przypadkach, degeneracji rdzenia kręgowego.\n\nJeśli używasz mocno lub często\nPodtlenek azotu jest udokumentowany, aby spowodować zespół fizycznego wycofania się, jak opioidy lub alkohol zrobić, więc dzień jeden jest o organizmie domagając się narkotyk. Itgets o rozpoczęciu zwracać uwagę na objawy związane z B12, które obejmują w najbliższych kilku etapach i sprawdzanie, czy jakiekolwiek odwołania.';
 

@@ -219,6 +219,60 @@ class MethPage extends StatelessWidget {
             "Two Years In\n"
             "The evidence-based message: sustained abstinence keeps paying off well past the first year — sharper thinking, better mood, and steadily improving function — even if a few areas take longer to come back.",
       ),
+      QuitMilestone(
+        day: 1095,
+        title: l10n.methMilestone1095Title,
+        description: l10n.methMilestone1095Description,
+        reference: "Cao et al. (2026) - Meth neurocognition meta-analysis",
+        link: "https://pubmed.ncbi.nlm.nih.gov/42748562/",
+        referenceDate: "September 2026",
+        localizedReferenceContent: l10n.methReferenceDay1095,
+        referenceContent:
+            "Three Years Without Meth: Evidence Has Limits\n\n"
+            "Source: Cao et al., \"Magnitude and Abstinence Trajectories of Neurocognitive Deficits in Methamphetamine Use Disorder: A Systematic Review and Meta-analysis,\" Journal of Addiction Medicine (2026), on PubMed\n\n"
+            "What the Review Found\n"
+            "This meta-analysis combined 68 independent studies with 9,045 participants and found cognitive deficits across 13 domains in people with methamphetamine use disorder. It also examined how cognition related to abstinence in seven domains.\n\n"
+            "What the Evidence Cannot Say\n"
+            "The abstinence windows available for those trajectory analyses extended only to 280 days, and the certainty of evidence across domains was rated very low. The review therefore cannot establish a three-year point at which cognition or the brain is fully recovered.\n\n"
+            "Why Three Years Still Matters\n"
+            "Three years is far beyond the abstinence window this review could evaluate. This anniversary celebrates the durability of the change itself, not an invented biological finish line.",
+      ),
+      QuitMilestone(
+        day: 1460,
+        title: l10n.methMilestone1460Title,
+        description: l10n.methMilestone1460Description,
+        reference: "Cao et al. (2026) - Meth neurocognition meta-analysis",
+        link: "https://pubmed.ncbi.nlm.nih.gov/42748562/",
+        referenceDate: "September 2026",
+        localizedReferenceContent: l10n.methReferenceDay1460,
+        referenceContent:
+            "Four Years Without Meth: No Invented Finish Line\n\n"
+            "Source: Cao et al., \"Magnitude and Abstinence Trajectories of Neurocognitive Deficits in Methamphetamine Use Disorder: A Systematic Review and Meta-analysis,\" Journal of Addiction Medicine (2026), on PubMed\n\n"
+            "What the Review Found\n"
+            "Across 68 studies, the review found meaningful cognitive difficulties associated with methamphetamine use disorder, but the available abstinence-trajectory evidence was limited and uncertain.\n\n"
+            "What Four Years Means Scientifically\n"
+            "The trajectory data reached only 280 days and were rated very low certainty, so the research does not support a specific neurological recovery event at four years. Claims of a four-year biological reset would go beyond the evidence.\n\n"
+            "What Four Years Means Here\n"
+            "It marks another full year of sustained change. Four years deserves recognition for its endurance without needing a medical claim the research cannot support.",
+      ),
+      QuitMilestone(
+        day: 1825,
+        title: l10n.methMilestone1825Title,
+        description: l10n.methMilestone1825Description,
+        reference: "Cao et al. (2026) - Meth neurocognition meta-analysis",
+        link: "https://pubmed.ncbi.nlm.nih.gov/42748562/",
+        referenceDate: "September 2026",
+        localizedReferenceContent: l10n.methReferenceDay1825,
+        referenceContent:
+            "Five Years Without Meth: A Long-Term Achievement\n\n"
+            "Source: Cao et al., \"Magnitude and Abstinence Trajectories of Neurocognitive Deficits in Methamphetamine Use Disorder: A Systematic Review and Meta-analysis,\" Journal of Addiction Medicine (2026), on PubMed\n\n"
+            "What the Evidence Shows\n"
+            "The review confirms that cognitive effects in methamphetamine use disorder are important enough to study carefully, while also showing how limited the evidence is for predicting recovery from abstinence alone.\n\n"
+            "What It Does Not Show\n"
+            "Its abstinence-trajectory evidence extended only to 280 days and was rated very low certainty. It cannot promise a five-year biological endpoint, complete cognitive recovery, or a universal timeline.\n\n"
+            "Five Years In\n"
+            "Five years without meth is a major long-term milestone on its own terms. The evidence-based message is simple: celebrate five years of sustained change without turning an anniversary into a medical promise.",
+      ),
     ];
   }
 

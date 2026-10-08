@@ -3401,6 +3401,39 @@ class AppLocalizationsKo extends AppLocalizations {
       '마약 없이 2년: 사고와 기분이 계속 개선됨\n\n출처: Iudicello 등, \"안정적인 금욕을 달성한 메스암페타민 사용자의 신경인지 기능 및 정서적 고통의 장기적 개선\", Journal of Clinical and Experimental Neuropsychology(2010), PubMed Central\n\n1년이 넘도록 계속되는 회복\n이 연구에서는 약 13개월 동안 메스암페타민 사용자를 추적하고 안정적인 금주군과 지속적인 사용자 및 건강한 대조군을 비교했습니다. 안정적인 금욕은 전반적인 사고력을 향상시키고 정서적 고통을 감소시켰으며, 1년 이상 지속되는 효과를 보였습니다.\n\n개선 사항\n• 기권자의 전반적인 사고는 건전한 통제에 따라잡혔지만 계속 사용자는 상당히 손상된 상태를 유지했습니다.\n• 처리 속도와 운동 능력이 가장 크게 향상되었으며, 특히 시작 시 가장 장애가 심한 사람들의 경우 더욱 그렇습니다.\n• 기분이 눈에 띄게 개선되었습니다. 기권한 사람만이 우울증과 전반적인 기분이 크게 개선되었습니다.\n\n회복 신호\n안정된 기권자는 전반적인 사고에 대한 건전한 통제를 따라잡았으며 정서적 고통이 덜하다고 보고했습니다. 언어 학습, 작업 기억, 계획 및 집중력은 첫 해 이후에도 계속 향상될 수 있으므로 회복 추세는 두 번째 해에도 계속됩니다.\n\n2년 후\n증거 기반 메시지: 지속적인 금욕은 첫 해가 지나도 계속해서 성과를 거두고 있습니다. 즉, 몇 가지 영역이 회복되는 데 시간이 더 걸리더라도 더 예리한 사고, 더 나은 기분, 꾸준한 기능 개선 등이 있습니다.';
 
   @override
+  String get methMilestone1095Title => '3년 - 회복이 이어집니다';
+
+  @override
+  String get methMilestone1095Description =>
+      '메스암페타민 없이 3년을 보냈다는 것은 몇 주가 아니라 몇 년으로 측정되는 지속적인 변화입니다. 성취의 핵심은 그 지속성 자체입니다. 회복 습관과 지지 기반이 뿌리내릴 시간을 한 해 더 쌓았습니다.';
+
+  @override
+  String get methReferenceDay1095 =>
+      '3년 - 회복이 이어집니다\n\n출처: Cao et al., \"Magnitude and Abstinence Trajectories of Neurocognitive Deficits in Methamphetamine Use Disorder: A Systematic Review and Meta-analysis,\" Journal of Addiction Medicine (2026), PubMed\n\n2026년 체계적 문헌고찰 및 메타분석은 9,045명이 참여한 68개 독립 연구를 종합했습니다. 금욕 기간에 따른 변화 분석은 최대 280일까지의 자료만 다뤘고, 영역별 근거 확실성은 매우 낮게 평가됐습니다. 따라서 이 근거로 특정 기념일을 생물학적 회복의 완료 시점으로 정할 수 없습니다.\n\n메스암페타민 없이 3년을 보냈다는 것은 몇 주가 아니라 몇 년으로 측정되는 지속적인 변화입니다. 성취의 핵심은 그 지속성 자체입니다. 회복 습관과 지지 기반이 뿌리내릴 시간을 한 해 더 쌓았습니다.';
+
+  @override
+  String get methMilestone1460Title => '4년 - 단단한 기반';
+
+  @override
+  String get methMilestone1460Description =>
+      '4년은 변화가 단단히 이어진 시간입니다. 연구는 4년에 뇌 회복이 끝난다는 기준을 제시하지 않습니다. 이 이정표는 지금까지 만든 기반을 또 한 해 지켜낸 것을 기념합니다.';
+
+  @override
+  String get methReferenceDay1460 =>
+      '4년 - 단단한 기반\n\n출처: Cao et al., \"Magnitude and Abstinence Trajectories of Neurocognitive Deficits in Methamphetamine Use Disorder: A Systematic Review and Meta-analysis,\" Journal of Addiction Medicine (2026), PubMed\n\n2026년 체계적 문헌고찰 및 메타분석은 9,045명이 참여한 68개 독립 연구를 종합했습니다. 금욕 기간에 따른 변화 분석은 최대 280일까지의 자료만 다뤘고, 영역별 근거 확실성은 매우 낮게 평가됐습니다. 따라서 이 근거로 특정 기념일을 생물학적 회복의 완료 시점으로 정할 수 없습니다.\n\n4년은 변화가 단단히 이어진 시간입니다. 연구는 4년에 뇌 회복이 끝난다는 기준을 제시하지 않습니다. 이 이정표는 지금까지 만든 기반을 또 한 해 지켜낸 것을 기념합니다.';
+
+  @override
+  String get methMilestone1825Title => '5년 - 지속되는 변화';
+
+  @override
+  String get methMilestone1825Description =>
+      '메스암페타민 없이 5년은 큰 장기 이정표입니다. 과학은 5년에 생물학적 회복이 끝난다고 약속할 수 없습니다. 분명한 것은 5년 동안 지속한 변화 자체가 축하할 가치가 있다는 점입니다.';
+
+  @override
+  String get methReferenceDay1825 =>
+      '5년 - 지속되는 변화\n\n출처: Cao et al., \"Magnitude and Abstinence Trajectories of Neurocognitive Deficits in Methamphetamine Use Disorder: A Systematic Review and Meta-analysis,\" Journal of Addiction Medicine (2026), PubMed\n\n2026년 체계적 문헌고찰 및 메타분석은 9,045명이 참여한 68개 독립 연구를 종합했습니다. 금욕 기간에 따른 변화 분석은 최대 280일까지의 자료만 다뤘고, 영역별 근거 확실성은 매우 낮게 평가됐습니다. 따라서 이 근거로 특정 기념일을 생물학적 회복의 완료 시점으로 정할 수 없습니다.\n\n메스암페타민 없이 5년은 큰 장기 이정표입니다. 과학은 5년에 생물학적 회복이 끝난다고 약속할 수 없습니다. 분명한 것은 5년 동안 지속한 변화 자체가 축하할 가치가 있다는 점입니다.';
+
+  @override
   String get nitrousOxideReferenceDay1 =>
       '첫째 날: 가스는 사라졌지만 B12를 시청하세요\n\n출처: Knuf & Maani, \"Nitrous Oxide\", StatPearls(NCBI 책장)\n\n얼마나 빨리 지워지는가\n아산화질소는 2~5분 내에 작용이 빠르게 시작되며, 흡입을 중단하면 몸에서 빠르게 제거됩니다. 오늘까지 가스 자체는 시스템에 남아 있지 않습니다.\n\n진짜 위험은 가스가 아니다\n중단 후 중요한 것은 반복 노출이 이미 이루어졌을 수 있다는 것입니다. 아산화질소는 비타민 B12에 의존하는 효소인 메티오닌 합성효소를 비활성화합니다. StatPearls는 직업적이든 오락적이든 반복적인 노출로 인해 거대적아구성 빈혈과 뇌 및 신경 기능 장애가 발생할 수 있으며 드물게는 척수의 퇴행이 발생할 수 있다고 지적합니다.\n\n많이 또는 자주 사용하는 경우\n아산화질소는 아편유사제나 알코올처럼 신체적 금단 증후군을 유발하는 것으로 기록되지 않았습니다. 따라서 첫 번째 날은 신체가 약물을 요구하는 것이 아닙니다. 이는 B12 관련 증상에 주의를 기울이기 시작하고(다음 몇 가지 단계에서 다루어짐) 증상이 나타나는지 확인하는 것입니다.';
 

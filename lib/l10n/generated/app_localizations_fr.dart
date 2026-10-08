@@ -3594,6 +3594,39 @@ class AppLocalizationsFr extends AppLocalizations {
       'Deux ans sans méthamphétamine : pensée et humeur continuent de s\'améliorer\n\nSource : Iudicello et al., « Longer Term Improvement in Neurocognitive Functioning and Affective Distress Among Methamphetamine Users Who Achieve Stable Abstinence », Journal of Clinical and Experimental Neuropsychology (2010), PubMed Central\n\nUne récupération qui se poursuit au-delà d\'un an\nCette étude a suivi des utilisateurs pendant environ 13 mois et comparé des abstinents stables, des consommateurs persistants et des témoins sains. L\'abstinence stable améliorait la cognition globale et réduisait la détresse émotionnelle, avec des progrès qui se poursuivaient au-delà d\'un an.\n\nCe qui s\'améliore\n• Les performances cognitives globales des abstinents ont rejoint celles des témoins sains, tandis que les consommateurs persistants restaient significativement altérés\n• Les plus grands gains concernaient la vitesse de traitement et les capacités motrices, surtout chez les personnes les plus touchées au départ\n• L\'humeur s\'améliorait nettement : seuls les abstinents montraient une amélioration significative de la dépression et de l\'humeur globale\n\nSignal de récupération\nLes abstinents stables ont rejoint les témoins sains sur la cognition globale et rapportaient moins de détresse émotionnelle. L\'apprentissage verbal, la mémoire de travail, la planification et la concentration peuvent continuer de progresser au-delà de la première année, si bien que la tendance se poursuit pendant la deuxième année.\n\nAprès deux ans\nLe message soutenu par les données est que l\'abstinence durable continue de porter ses fruits bien après la première année — pensée plus vive, meilleure humeur et fonctionnement en amélioration régulière — même si quelques domaines demandent plus de temps.';
 
   @override
+  String get methMilestone1095Title => 'Trois ans - Rétablissement durable';
+
+  @override
+  String get methMilestone1095Description =>
+      'Trois ans sans méthamphétamine représentent un changement durable qui se mesure en années, pas en semaines. La réussite tient à cette durée même : les habitudes et les soutiens du rétablissement ont eu une année entière de plus pour s’ancrer.';
+
+  @override
+  String get methReferenceDay1095 =>
+      'Trois ans - Rétablissement durable\n\nSource: Cao et al., \"Magnitude and Abstinence Trajectories of Neurocognitive Deficits in Methamphetamine Use Disorder: A Systematic Review and Meta-analysis,\" Journal of Addiction Medicine (2026), PubMed\n\nUne revue systématique et méta-analyse de 2026 a synthétisé 68 études indépendantes portant sur 9 045 participants. Les analyses de trajectoire selon l’abstinence ne couvraient que des périodes allant jusqu’à 280 jours, et le niveau de certitude des preuves était jugé très faible. Ces données ne permettent pas de fixer une échéance biologique de récupération à cet anniversaire.\n\nTrois ans sans méthamphétamine représentent un changement durable qui se mesure en années, pas en semaines. La réussite tient à cette durée même : les habitudes et les soutiens du rétablissement ont eu une année entière de plus pour s’ancrer.';
+
+  @override
+  String get methMilestone1460Title => 'Quatre ans - Bases solides';
+
+  @override
+  String get methMilestone1460Description =>
+      'Quatre ans représentent une période solide de changement. La recherche ne fixe pas une ligne d’arrivée de la récupération cérébrale à quatre ans ; ce jalon célèbre donc une année entière de plus à protéger ce que vous avez construit.';
+
+  @override
+  String get methReferenceDay1460 =>
+      'Quatre ans - Bases solides\n\nSource: Cao et al., \"Magnitude and Abstinence Trajectories of Neurocognitive Deficits in Methamphetamine Use Disorder: A Systematic Review and Meta-analysis,\" Journal of Addiction Medicine (2026), PubMed\n\nUne revue systématique et méta-analyse de 2026 a synthétisé 68 études indépendantes portant sur 9 045 participants. Les analyses de trajectoire selon l’abstinence ne couvraient que des périodes allant jusqu’à 280 jours, et le niveau de certitude des preuves était jugé très faible. Ces données ne permettent pas de fixer une échéance biologique de récupération à cet anniversaire.\n\nQuatre ans représentent une période solide de changement. La recherche ne fixe pas une ligne d’arrivée de la récupération cérébrale à quatre ans ; ce jalon célèbre donc une année entière de plus à protéger ce que vous avez construit.';
+
+  @override
+  String get methMilestone1825Title => 'Cinq ans - Changement durable';
+
+  @override
+  String get methMilestone1825Description =>
+      'Cinq ans sans méthamphétamine constituent un grand jalon à long terme. La science ne peut pas promettre un point final biologique à cinq ans ; ce qui est certain, ce sont cinq années de changement durable qui méritent d’être célébrées.';
+
+  @override
+  String get methReferenceDay1825 =>
+      'Cinq ans - Changement durable\n\nSource: Cao et al., \"Magnitude and Abstinence Trajectories of Neurocognitive Deficits in Methamphetamine Use Disorder: A Systematic Review and Meta-analysis,\" Journal of Addiction Medicine (2026), PubMed\n\nUne revue systématique et méta-analyse de 2026 a synthétisé 68 études indépendantes portant sur 9 045 participants. Les analyses de trajectoire selon l’abstinence ne couvraient que des périodes allant jusqu’à 280 jours, et le niveau de certitude des preuves était jugé très faible. Ces données ne permettent pas de fixer une échéance biologique de récupération à cet anniversaire.\n\nCinq ans sans méthamphétamine constituent un grand jalon à long terme. La science ne peut pas promettre un point final biologique à cinq ans ; ce qui est certain, ce sont cinq années de changement durable qui méritent d’être célébrées.';
+
+  @override
   String get nitrousOxideReferenceDay1 =>
       'Premier jour : le gaz est éliminé, mais surveillez la vitamine B12\n\nSource : Knuf & Maani, « Nitrous Oxide », StatPearls (NCBI Bookshelf)\n\nÀ quelle vitesse le protoxyde d\'azote est-il éliminé ?\nLe protoxyde d\'azote agit rapidement — en deux à cinq minutes — et disparaît tout aussi vite de l\'organisme lorsque l\'inhalation cesse. À ce stade, le gaz lui-même n\'est plus présent dans votre organisme.\n\nLe vrai risque n\'est pas le gaz\nAprès l\'arrêt, l\'important est ce que des expositions répétées ont peut-être déjà provoqué. Le protoxyde d\'azote inactive la méthionine synthase, une enzyme dépendante de la vitamine B12. StatPearls indique que des expositions répétées — professionnelles ou récréatives — peuvent entraîner une anémie mégaloblastique ainsi que des troubles du cerveau et des nerfs et, dans de rares cas, une dégénérescence de la moelle épinière.\n\nSi votre usage était important ou fréquent\nLe protoxyde d\'azote n\'est pas décrit comme provoquant un syndrome de sevrage physique comparable à celui des opioïdes ou de l\'alcool. Le premier jour n\'est donc pas une période où le corps exige le produit : il s\'agit plutôt de commencer à surveiller d\'éventuels symptômes liés à la vitamine B12 — abordés dans les prochains jalons — et de consulter s\'ils apparaissent.';
 

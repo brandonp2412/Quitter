@@ -3570,6 +3570,39 @@ class AppLocalizationsEs extends AppLocalizations {
       'Dos años sin metanfetamina: el pensamiento y el ánimo siguen mejorando\n\nFuente: Iudicello et al., \"Longer Term Improvement in Neurocognitive Functioning and Affective Distress Among Methamphetamine Users Who Achieve Stable Abstinence,\" Journal of Clinical and Experimental Neuropsychology (2010), en PubMed Central\n\nUna recuperación que continúa después del primer año\nEste estudio siguió durante unos 13 meses a personas que habían consumido metanfetamina y comparó a quienes mantuvieron una abstinencia estable con quienes continuaron consumiendo y con controles sanos. La abstinencia estable mejoró el funcionamiento cognitivo general y redujo el malestar emocional, con avances que continuaron más allá del primer año.\n\nQué mejora\n• El funcionamiento cognitivo general de quienes mantuvieron la abstinencia alcanzó al de los controles sanos, mientras quienes siguieron consumiendo permanecieron significativamente afectados\n• Las mayores mejoras se observaron en la velocidad de procesamiento y la capacidad motora, especialmente entre quienes estaban más afectados al inicio\n• El estado de ánimo mejoró de forma marcada: solo quienes mantuvieron la abstinencia mostraron una mejora significativa de la depresión y del ánimo general\n\nSeñal de recuperación\nQuienes mantuvieron una abstinencia estable alcanzaron a los controles sanos en funcionamiento cognitivo general e informaron de menos malestar emocional. El aprendizaje verbal, la memoria de trabajo, la planificación y la concentración pueden seguir mejorando más allá del primer año, por lo que la tendencia de recuperación continúa durante el segundo.\n\nA los dos años\nEl mensaje respaldado por la evidencia es que la abstinencia sostenida sigue aportando beneficios mucho después del primer año: pensamiento más ágil, mejor estado de ánimo y funcionamiento que continúa mejorando, aunque algunas áreas puedan tardar más en recuperarse.';
 
   @override
+  String get methMilestone1095Title => 'Tres años - La recuperación perdura';
+
+  @override
+  String get methMilestone1095Description =>
+      'Tres años sin metanfetamina son un cambio sostenido medido en años, no en semanas. El logro es su propia duración: las rutinas y los apoyos de recuperación han tenido otro año completo para afianzarse.';
+
+  @override
+  String get methReferenceDay1095 =>
+      'Tres años - La recuperación perdura\n\nFuente: Cao et al., \"Magnitude and Abstinence Trajectories of Neurocognitive Deficits in Methamphetamine Use Disorder: A Systematic Review and Meta-analysis,\" Journal of Addiction Medicine (2026), PubMed\n\nUna revisión sistemática y metaanálisis de 2026 reunió 68 estudios independientes con 9.045 participantes. Sus análisis de la trayectoria durante la abstinencia solo abarcaron hasta 280 días y la certeza de la evidencia se calificó como muy baja. Estos datos no permiten fijar una fecha biológica de recuperación en este aniversario.\n\nTres años sin metanfetamina son un cambio sostenido medido en años, no en semanas. El logro es su propia duración: las rutinas y los apoyos de recuperación han tenido otro año completo para afianzarse.';
+
+  @override
+  String get methMilestone1460Title => 'Cuatro años - Bases firmes';
+
+  @override
+  String get methMilestone1460Description =>
+      'Cuatro años representan un cambio duradero. La investigación no define un punto final de recuperación cerebral a los cuatro años, así que este hito celebra otro año completo protegiendo lo que has construido.';
+
+  @override
+  String get methReferenceDay1460 =>
+      'Cuatro años - Bases firmes\n\nFuente: Cao et al., \"Magnitude and Abstinence Trajectories of Neurocognitive Deficits in Methamphetamine Use Disorder: A Systematic Review and Meta-analysis,\" Journal of Addiction Medicine (2026), PubMed\n\nUna revisión sistemática y metaanálisis de 2026 reunió 68 estudios independientes con 9.045 participantes. Sus análisis de la trayectoria durante la abstinencia solo abarcaron hasta 280 días y la certeza de la evidencia se calificó como muy baja. Estos datos no permiten fijar una fecha biológica de recuperación en este aniversario.\n\nCuatro años representan un cambio duradero. La investigación no define un punto final de recuperación cerebral a los cuatro años, así que este hito celebra otro año completo protegiendo lo que has construido.';
+
+  @override
+  String get methMilestone1825Title => 'Cinco años - Cambio duradero';
+
+  @override
+  String get methMilestone1825Description =>
+      'Cinco años sin metanfetamina son un gran hito a largo plazo. La ciencia no puede prometer un punto final biológico a los cinco años; lo seguro son cinco años de cambio sostenido que merecen celebrarse.';
+
+  @override
+  String get methReferenceDay1825 =>
+      'Cinco años - Cambio duradero\n\nFuente: Cao et al., \"Magnitude and Abstinence Trajectories of Neurocognitive Deficits in Methamphetamine Use Disorder: A Systematic Review and Meta-analysis,\" Journal of Addiction Medicine (2026), PubMed\n\nUna revisión sistemática y metaanálisis de 2026 reunió 68 estudios independientes con 9.045 participantes. Sus análisis de la trayectoria durante la abstinencia solo abarcaron hasta 280 días y la certeza de la evidencia se calificó como muy baja. Estos datos no permiten fijar una fecha biológica de recuperación en este aniversario.\n\nCinco años sin metanfetamina son un gran hito a largo plazo. La ciencia no puede prometer un punto final biológico a los cinco años; lo seguro son cinco años de cambio sostenido que merecen celebrarse.';
+
+  @override
   String get nitrousOxideReferenceDay1 =>
       'Día uno: el gas ya se ha eliminado, pero vigila la vitamina B12\n\nFuente: Knuf & Maani, \"Nitrous Oxide,\" StatPearls (NCBI Bookshelf)\n\nQué rápido se elimina\nEl óxido nitroso tiene un inicio de acción rápido, de 2 a 5 minutos, y se elimina del organismo con la misma rapidez una vez que dejas de inhalarlo. A estas alturas, ya no queda gas en tu sistema.\n\nEl verdadero riesgo no es el gas\nLo que importa después de dejarlo es el daño que una exposición repetida pueda haber causado ya. El óxido nitroso inactiva la metionina sintasa, una enzima que depende de la vitamina B12. StatPearls señala que la exposición repetida, ya sea laboral o recreativa, puede provocar anemia megaloblástica y disfunción cerebral y nerviosa y, en casos poco frecuentes, degeneración de la médula espinal.\n\nSi consumías mucho o con frecuencia\nNo está documentado que el óxido nitroso cause un síndrome de abstinencia física como los opioides o el alcohol, por lo que el primer día no consiste en que el cuerpo esté exigiendo la sustancia. Se trata de empezar a prestar atención a posibles síntomas relacionados con la B12, que se describen en los próximos hitos, y de solicitar una evaluación si aparece alguno.';
 

@@ -5988,6 +5988,60 @@ abstract class AppLocalizations {
   /// **'Two Years Without Meth: Thinking and Mood Keep Improving\n\nSource: Iudicello et al., \"Longer Term Improvement in Neurocognitive Functioning and Affective Distress Among Methamphetamine Users Who Achieve Stable Abstinence,\" Journal of Clinical and Experimental Neuropsychology (2010), on PubMed Central\n\nRecovery That Continues Past a Year\nThis study followed methamphetamine users for about 13 months and compared stable abstainers with continued users and healthy controls. Stable abstinence improved overall thinking and reduced emotional distress, with gains continuing beyond a year.\n\nWhat Improves\n• Overall thinking in abstainers caught up to healthy controls, while continued users stayed significantly impaired\n• The biggest gains were in processing speed and motor ability, especially for those most impaired at the start\n• Mood improved markedly: only the abstainers showed significant improvement in depression and overall mood\n\nRecovery Signal\nStable abstainers caught up to healthy controls on overall thinking and reported less emotional distress. Verbal learning, working memory, planning, and focus can keep improving beyond the first year, so the recovery trend continues into the second year.\n\nTwo Years In\nThe evidence-based message: sustained abstinence keeps paying off well past the first year — sharper thinking, better mood, and steadily improving function — even if a few areas take longer to come back.'**
   String get methReferenceDay730;
 
+  /// No description provided for @methMilestone1095Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Three Years - Recovery Endures'**
+  String get methMilestone1095Title;
+
+  /// No description provided for @methMilestone1095Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Three years without meth is sustained change measured in years, not weeks. The achievement is the durability itself: recovery routines and supports have had another full year to take root.'**
+  String get methMilestone1095Description;
+
+  /// No description provided for @methReferenceDay1095.
+  ///
+  /// In en, this message translates to:
+  /// **'Three Years - Recovery Endures\n\nSource: Cao et al., \"Magnitude and Abstinence Trajectories of Neurocognitive Deficits in Methamphetamine Use Disorder: A Systematic Review and Meta-analysis,\" Journal of Addiction Medicine (2026), PubMed\n\nA 2026 systematic review and meta-analysis synthesized 68 independent studies involving 9,045 participants. Its abstinence-trajectory analyses used windows only up to 280 days, and certainty across domains was rated very low. That evidence cannot establish a biological recovery deadline at this anniversary.\n\nThree years without meth is sustained change measured in years, not weeks. The achievement is the durability itself: recovery routines and supports have had another full year to take root.'**
+  String get methReferenceDay1095;
+
+  /// No description provided for @methMilestone1460Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Four Years - Deep Foundations'**
+  String get methMilestone1460Title;
+
+  /// No description provided for @methMilestone1460Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Four years is a durable stretch of change. Research does not define a four-year brain-recovery finish line, so this milestone celebrates another full year of protecting what you have built.'**
+  String get methMilestone1460Description;
+
+  /// No description provided for @methReferenceDay1460.
+  ///
+  /// In en, this message translates to:
+  /// **'Four Years - Deep Foundations\n\nSource: Cao et al., \"Magnitude and Abstinence Trajectories of Neurocognitive Deficits in Methamphetamine Use Disorder: A Systematic Review and Meta-analysis,\" Journal of Addiction Medicine (2026), PubMed\n\nA 2026 systematic review and meta-analysis synthesized 68 independent studies involving 9,045 participants. Its abstinence-trajectory analyses used windows only up to 280 days, and certainty across domains was rated very low. That evidence cannot establish a biological recovery deadline at this anniversary.\n\nFour years is a durable stretch of change. Research does not define a four-year brain-recovery finish line, so this milestone celebrates another full year of protecting what you have built.'**
+  String get methReferenceDay1460;
+
+  /// No description provided for @methMilestone1825Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Five Years - Lasting Change'**
+  String get methMilestone1825Title;
+
+  /// No description provided for @methMilestone1825Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Five years without meth is a major long-term milestone. Science cannot promise a five-year biological endpoint; what is certain is five years of sustained change worth celebrating.'**
+  String get methMilestone1825Description;
+
+  /// No description provided for @methReferenceDay1825.
+  ///
+  /// In en, this message translates to:
+  /// **'Five Years - Lasting Change\n\nSource: Cao et al., \"Magnitude and Abstinence Trajectories of Neurocognitive Deficits in Methamphetamine Use Disorder: A Systematic Review and Meta-analysis,\" Journal of Addiction Medicine (2026), PubMed\n\nA 2026 systematic review and meta-analysis synthesized 68 independent studies involving 9,045 participants. Its abstinence-trajectory analyses used windows only up to 280 days, and certainty across domains was rated very low. That evidence cannot establish a biological recovery deadline at this anniversary.\n\nFive years without meth is a major long-term milestone. Science cannot promise a five-year biological endpoint; what is certain is five years of sustained change worth celebrating.'**
+  String get methReferenceDay1825;
+
   /// No description provided for @nitrousOxideReferenceDay1.
   ///
   /// In en, this message translates to:

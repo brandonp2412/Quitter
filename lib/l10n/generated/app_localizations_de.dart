@@ -3554,6 +3554,39 @@ class AppLocalizationsDe extends AppLocalizations {
       'Zwei Jahre ohne Meth: Denken und Stimmung verbessern sich weiter\n\nQuelle: Iudicello et al., \"Longer Term Improvement in Neurocognitive Functioning and Affective Distress Among Methamphetamine Users Who Achieve Stable Abstinence\", Journal of Clinical and Experimental Neuropsychology (2010), auf PubMed Central\n\nErholung, die nach einem Jahr weitergeht\nDiese Studie folgte Methamphetamin-Benutzern für etwa 13 Monate und verglich stabile Abstinenzler mit fortgesetzten Benutzern und gesunden Kontrollen. Stabile Abstinenz verbesserte das Gesamtdenken und reduzierte die emotionale Belastung, wobei die Gewinne über ein Jahr hinaus anhielten.\n\nWas verbessert\n• Gesamtdenken bei Abstinenzlern, die gesunden Kontrollen unterzogen wurden, während fortgesetzte Benutzer signifikant beeinträchtigt blieben\n• Die größten Zuwächse waren die Verarbeitungsgeschwindigkeit und die Motorfähigkeit, insbesondere für diejenigen, die zu Beginn am stärksten beeinträchtigt waren\n• Die Stimmung verbesserte sich deutlich: Nur die Abstinenzler zeigten eine signifikante Verbesserung der Depression und der allgemeinen Stimmung\n\nWiederfindungssignal\nStabile Abstinenzler holten sich gesunde Kontrollen des Gesamtdenkens und berichteten von weniger emotionaler Belastung. Verbales Lernen, Arbeitsgedächtnis, Planung und Fokus können sich über das erste Jahr hinaus weiter verbessern, so dass sich der Erholungstrend auch im zweiten Jahr fortsetzt.\n\nZwei Jahre in\nDie evidenzbasierte Botschaft: Nachhaltige Abstinenz zahlt sich nach dem ersten Jahr aus - schärferes Denken, bessere Stimmung und stetig verbesserte Funktion - auch wenn einige Bereiche länger brauchen, um wiederzukommen.';
 
   @override
+  String get methMilestone1095Title => 'Drei Jahre - Stabile Erholung';
+
+  @override
+  String get methMilestone1095Description =>
+      'Drei Jahre ohne Methamphetamin sind eine anhaltende Veränderung, die in Jahren statt Wochen gemessen wird. Die Leistung liegt in der Beständigkeit selbst: Routinen und Unterstützung für die Erholung konnten ein weiteres volles Jahr Wurzeln schlagen.';
+
+  @override
+  String get methReferenceDay1095 =>
+      'Drei Jahre - Stabile Erholung\n\nQuelle: Cao et al., \"Magnitude and Abstinence Trajectories of Neurocognitive Deficits in Methamphetamine Use Disorder: A Systematic Review and Meta-analysis,\" Journal of Addiction Medicine (2026), PubMed\n\nEine systematische Übersichtsarbeit und Metaanalyse aus dem Jahr 2026 fasste 68 unabhängige Studien mit 9.045 Teilnehmenden zusammen. Die Analysen zum Verlauf während der Abstinenz reichten nur bis 280 Tage, und die Evidenzsicherheit wurde über die Bereiche hinweg als sehr niedrig bewertet. Diese Daten können für diesen Jahrestag keinen biologischen Zeitpunkt vollständiger Erholung festlegen.\n\nDrei Jahre ohne Methamphetamin sind eine anhaltende Veränderung, die in Jahren statt Wochen gemessen wird. Die Leistung liegt in der Beständigkeit selbst: Routinen und Unterstützung für die Erholung konnten ein weiteres volles Jahr Wurzeln schlagen.';
+
+  @override
+  String get methMilestone1460Title => 'Vier Jahre - Starkes Fundament';
+
+  @override
+  String get methMilestone1460Description =>
+      'Vier Jahre sind eine beständige Phase der Veränderung. Die Forschung definiert nach vier Jahren keine Ziellinie der Gehirnerholung, daher würdigt dieser Meilenstein ein weiteres volles Jahr, in dem Sie das Erreichte geschützt haben.';
+
+  @override
+  String get methReferenceDay1460 =>
+      'Vier Jahre - Starkes Fundament\n\nQuelle: Cao et al., \"Magnitude and Abstinence Trajectories of Neurocognitive Deficits in Methamphetamine Use Disorder: A Systematic Review and Meta-analysis,\" Journal of Addiction Medicine (2026), PubMed\n\nEine systematische Übersichtsarbeit und Metaanalyse aus dem Jahr 2026 fasste 68 unabhängige Studien mit 9.045 Teilnehmenden zusammen. Die Analysen zum Verlauf während der Abstinenz reichten nur bis 280 Tage, und die Evidenzsicherheit wurde über die Bereiche hinweg als sehr niedrig bewertet. Diese Daten können für diesen Jahrestag keinen biologischen Zeitpunkt vollständiger Erholung festlegen.\n\nVier Jahre sind eine beständige Phase der Veränderung. Die Forschung definiert nach vier Jahren keine Ziellinie der Gehirnerholung, daher würdigt dieser Meilenstein ein weiteres volles Jahr, in dem Sie das Erreichte geschützt haben.';
+
+  @override
+  String get methMilestone1825Title => 'Fünf Jahre - Dauerhafte Änderung';
+
+  @override
+  String get methMilestone1825Description =>
+      'Fünf Jahre ohne Methamphetamin sind ein großer langfristiger Meilenstein. Die Wissenschaft kann keinen biologischen Endpunkt nach fünf Jahren versprechen; sicher sind fünf Jahre anhaltender Veränderung, die Anerkennung verdienen.';
+
+  @override
+  String get methReferenceDay1825 =>
+      'Fünf Jahre - Dauerhafte Änderung\n\nQuelle: Cao et al., \"Magnitude and Abstinence Trajectories of Neurocognitive Deficits in Methamphetamine Use Disorder: A Systematic Review and Meta-analysis,\" Journal of Addiction Medicine (2026), PubMed\n\nEine systematische Übersichtsarbeit und Metaanalyse aus dem Jahr 2026 fasste 68 unabhängige Studien mit 9.045 Teilnehmenden zusammen. Die Analysen zum Verlauf während der Abstinenz reichten nur bis 280 Tage, und die Evidenzsicherheit wurde über die Bereiche hinweg als sehr niedrig bewertet. Diese Daten können für diesen Jahrestag keinen biologischen Zeitpunkt vollständiger Erholung festlegen.\n\nFünf Jahre ohne Methamphetamin sind ein großer langfristiger Meilenstein. Die Wissenschaft kann keinen biologischen Endpunkt nach fünf Jahren versprechen; sicher sind fünf Jahre anhaltender Veränderung, die Anerkennung verdienen.';
+
+  @override
   String get nitrousOxideReferenceDay1 =>
       'Tag Eins: Das Gas ist weg, aber sehen Sie B12\n\nQuelle: Knuf & Maani, \"Nitrous Oxide\", StatPearls (NCBI Bookshelf)\n\nWie schnell es löscht\nLachgas hat einen schnellen Wirkungseintritt - 2 bis 5 Minuten - und verschwindet genauso schnell aus dem Körper, wenn Sie aufhören, es zu inhalieren. Bis heute bleibt nichts von dem Gas selbst in Ihrem System.\n\nDas wahre Risiko ist nicht das Gas\nWas nach dem Stoppen wichtig ist, ist, was wiederholte Exposition bereits getan haben kann. Lachgas inaktiviert Methioninsynthase, ein Enzym, das auf Vitamin B12 angewiesen ist. StatPearls stellt fest, dass wiederholte Exposition - berufliche oder Freizeit - zu megaloblastischer Anämie und Hirn- und Nervenfunktionsstörungen und in seltenen Fällen zu einer Degeneration des Rückenmarks führen kann.\n\nWenn Sie stark oder oft verwendet\nLachgas ist nicht dokumentiert, um ein körperliches Entzugssyndrom wie Opioide oder Alkohol zu verursachen, also geht es am ersten Tag nicht darum, dass Ihr Körper das Medikament fordert. Es geht darum, auf B12-bezogene Symptome zu achten - die in den nächsten Meilensteinen behandelt werden - und überprüft zu werden, wenn irgendwelche auftreten.';
 

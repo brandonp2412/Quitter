@@ -3354,6 +3354,39 @@ class AppLocalizationsZh extends AppLocalizations {
       '停用甲基苯丙胺两年：思维和情绪持续改善\n\n来源：Iudicello et al.，《Longer Term Improvement in Neurocognitive Functioning and Affective Distress Among Methamphetamine Users Who Achieve Stable Abstinence》，Journal of Clinical and Experimental Neuropsychology（2010），见PubMed Central\n\n持续超过一年的恢复\n这项研究对甲基苯丙胺使用者进行了约13个月的随访，并将稳定戒断者与持续使用者和健康对照者进行了比较。稳定的戒断改善了整体思维并减少了情绪困扰，收获持续到一年以上。\n\n哪些在改善\n• 戒断者的整体思维追上了健康对照者，而持续使用者仍显著受损\n• 最大的收获在于处理速度和运动能力，尤其是对那些一开始受损最严重的人\n• 情绪明显改善：只有戒断者在抑郁和整体情绪上显示出显著改善\n\n恢复信号\n稳定戒断者在整体思维上追上了健康对照者，并报告了更少的情绪困扰。言语学习、工作记忆、计划和专注力可以持续改善到第一年之后，因此恢复趋势会延续到第二年。\n\n两年之时\n有证据支持的信息是：持续戒断在远超第一年之后仍然持续带来回报——思维更敏锐、情绪更好、功能稳步改善——即便有少数领域需要更长时间才能恢复。';
 
   @override
+  String get methMilestone1095Title => '三年 - 康复延续';
+
+  @override
+  String get methMilestone1095Description =>
+      '三年没有使用甲基苯丙胺，是以“年”而不是“周”衡量的持续改变。真正值得肯定的是这种持久性：康复习惯和支持又多了一整年扎根。';
+
+  @override
+  String get methReferenceDay1095 =>
+      '三年 - 康复延续\n\n来源: Cao et al., \"Magnitude and Abstinence Trajectories of Neurocognitive Deficits in Methamphetamine Use Disorder: A Systematic Review and Meta-analysis,\" Journal of Addiction Medicine (2026), PubMed\n\n2026年的系统综述和荟萃分析整合了68项独立研究，共9,045名参与者。其戒断时间轨迹分析最长只到280天，而且各领域的证据确定性被评为非常低。因此，这些证据无法把这个周年定义为生物学康复的期限。\n\n三年没有使用甲基苯丙胺，是以“年”而不是“周”衡量的持续改变。真正值得肯定的是这种持久性：康复习惯和支持又多了一整年扎根。';
+
+  @override
+  String get methMilestone1460Title => '四年 - 根基更稳';
+
+  @override
+  String get methMilestone1460Description =>
+      '四年是一段扎实而持久的改变。研究并没有界定“四年就是大脑康复终点”，因此这个里程碑庆祝的是您又完整一年守住已经建立的一切。';
+
+  @override
+  String get methReferenceDay1460 =>
+      '四年 - 根基更稳\n\n来源: Cao et al., \"Magnitude and Abstinence Trajectories of Neurocognitive Deficits in Methamphetamine Use Disorder: A Systematic Review and Meta-analysis,\" Journal of Addiction Medicine (2026), PubMed\n\n2026年的系统综述和荟萃分析整合了68项独立研究，共9,045名参与者。其戒断时间轨迹分析最长只到280天，而且各领域的证据确定性被评为非常低。因此，这些证据无法把这个周年定义为生物学康复的期限。\n\n四年是一段扎实而持久的改变。研究并没有界定“四年就是大脑康复终点”，因此这个里程碑庆祝的是您又完整一年守住已经建立的一切。';
+
+  @override
+  String get methMilestone1825Title => '五年 - 改变长久';
+
+  @override
+  String get methMilestone1825Description =>
+      '五年没有使用甲基苯丙胺，是重要的长期里程碑。科学无法保证五年就是某个生物学终点；可以确定的是，五年的持续改变本身就值得庆祝。';
+
+  @override
+  String get methReferenceDay1825 =>
+      '五年 - 改变长久\n\n来源: Cao et al., \"Magnitude and Abstinence Trajectories of Neurocognitive Deficits in Methamphetamine Use Disorder: A Systematic Review and Meta-analysis,\" Journal of Addiction Medicine (2026), PubMed\n\n2026年的系统综述和荟萃分析整合了68项独立研究，共9,045名参与者。其戒断时间轨迹分析最长只到280天，而且各领域的证据确定性被评为非常低。因此，这些证据无法把这个周年定义为生物学康复的期限。\n\n五年没有使用甲基苯丙胺，是重要的长期里程碑。科学无法保证五年就是某个生物学终点；可以确定的是，五年的持续改变本身就值得庆祝。';
+
+  @override
   String get nitrousOxideReferenceDay1 =>
       '第一天：气体已经离开，但要留意B12\n\n来源：Knuf & Maani，《Nitrous Oxide》，StatPearls（NCBI Bookshelf）\n\n它清除得有多快\n笑气起效迅速——2到5分钟——并且一旦你停止吸入，它同样迅速地从体内清除。到今天，气体本身已不在你的系统中残留。\n\n真正的风险不是气体\n停止后重要的是反复暴露可能已经造成的影响。笑气会使蛋氨酸合酶失活，这是一种依赖维生素B12的酶。StatPearls指出，反复暴露——无论是职业性的还是娱乐性的——都可能导致巨幼细胞性贫血以及大脑和神经功能障碍，在罕见情况下还会导致脊髓变性。\n\n如果你曾大量或经常使用\n笑气并未被记载会像阿片类药物或酒精那样引起身体戒断综合征，因此第一天并非你的身体在渴求这种药物。它关乎的是开始留意与B12相关的症状——将在接下来几个里程碑中介绍——并在任何症状出现时去做检查。';
 
@@ -7331,6 +7364,39 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   @override
   String get methReferenceDay730 =>
       '停用甲基苯丙胺兩年：思維和情緒持續改善\n\n來源：Iudicello et al.，《Longer Term Improvement in Neurocognitive Functioning and Affective Distress Among Methamphetamine Users Who Achieve Stable Abstinence》，Journal of Clinical and Experimental Neuropsychology（2010），見PubMed Central\n\n持續超過一年的恢復\n這項研究對甲基苯丙胺使用者進行了約13個月的隨訪，並將穩定戒斷者與持續使用者和健康對照者進行了比較。穩定的戒斷改善了整體思維並減少了情緒困擾，收穫持續到一年以上。\n\n哪些在改善\n• 戒斷者的整體思維追上了健康對照者，而持續使用者仍顯著受損\n• 最大的收穫在於處理速度和運動能力，尤其是對那些一開始受損最嚴重的人\n• 情緒明顯改善：只有戒斷者在抑鬱和整體情緒上顯示出顯著改善\n\n恢復信號\n穩定戒斷者在整體思維上追上了健康對照者，並報告了更少的情緒困擾。言語學習、工作記憶、計劃和專注力可以持續改善到第一年之後，因此恢復趨勢會延續到第二年。\n\n兩年之時\n有證據支持的信息是：持續戒斷在遠超第一年之後仍然持續帶來回報——思維更敏銳、情緒更好、功能穩步改善——即便有少數領域需要更長時間才能恢復。';
+
+  @override
+  String get methMilestone1095Title => '三年 - 復元持續';
+
+  @override
+  String get methMilestone1095Description =>
+      '三年沒有使用甲基安非他命，是以「年」而不是「週」衡量的持續改變。真正值得肯定的是這份持久性：復元習慣與支持又多了一整年扎根。';
+
+  @override
+  String get methReferenceDay1095 =>
+      '三年 - 復元持續\n\n來源: Cao et al., \"Magnitude and Abstinence Trajectories of Neurocognitive Deficits in Methamphetamine Use Disorder: A Systematic Review and Meta-analysis,\" Journal of Addiction Medicine (2026), PubMed\n\n2026年的系統性回顧與統合分析整合了68項獨立研究，共9,045名參與者。其戒用時間軌跡分析最長只到280天，而且各領域的證據確定性被評為非常低。因此，這些證據無法把這個週年定義為生理復元的期限。\n\n三年沒有使用甲基安非他命，是以「年」而不是「週」衡量的持續改變。真正值得肯定的是這份持久性：復元習慣與支持又多了一整年扎根。';
+
+  @override
+  String get methMilestone1460Title => '四年 - 根基更穩';
+
+  @override
+  String get methMilestone1460Description =>
+      '四年是一段扎實而持久的改變。研究沒有界定「四年就是大腦復元終點」，所以這個里程碑慶祝的是你又完整一年守住已建立的一切。';
+
+  @override
+  String get methReferenceDay1460 =>
+      '四年 - 根基更穩\n\n來源: Cao et al., \"Magnitude and Abstinence Trajectories of Neurocognitive Deficits in Methamphetamine Use Disorder: A Systematic Review and Meta-analysis,\" Journal of Addiction Medicine (2026), PubMed\n\n2026年的系統性回顧與統合分析整合了68項獨立研究，共9,045名參與者。其戒用時間軌跡分析最長只到280天，而且各領域的證據確定性被評為非常低。因此，這些證據無法把這個週年定義為生理復元的期限。\n\n四年是一段扎實而持久的改變。研究沒有界定「四年就是大腦復元終點」，所以這個里程碑慶祝的是你又完整一年守住已建立的一切。';
+
+  @override
+  String get methMilestone1825Title => '五年 - 改變長存';
+
+  @override
+  String get methMilestone1825Description =>
+      '五年沒有使用甲基安非他命，是重大的長期里程碑。科學無法保證五年就是某個生理終點；可以確定的是，五年的持續改變本身就值得慶祝。';
+
+  @override
+  String get methReferenceDay1825 =>
+      '五年 - 改變長存\n\n來源: Cao et al., \"Magnitude and Abstinence Trajectories of Neurocognitive Deficits in Methamphetamine Use Disorder: A Systematic Review and Meta-analysis,\" Journal of Addiction Medicine (2026), PubMed\n\n2026年的系統性回顧與統合分析整合了68項獨立研究，共9,045名參與者。其戒用時間軌跡分析最長只到280天，而且各領域的證據確定性被評為非常低。因此，這些證據無法把這個週年定義為生理復元的期限。\n\n五年沒有使用甲基安非他命，是重大的長期里程碑。科學無法保證五年就是某個生理終點；可以確定的是，五年的持續改變本身就值得慶祝。';
 
   @override
   String get nitrousOxideReferenceDay1 =>
