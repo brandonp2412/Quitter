@@ -303,6 +303,34 @@ class AppLocalizationsId extends AppLocalizations {
       'Setahun bebas ketamin. Cara berpikir, suasana hati, dan - ketika kerusakan kandung kemih diketahui sejak dini - fungsi kandung kemih membutuhkan waktu satu tahun penuh untuk pulih.';
 
   @override
+  String get ketamineMilestone730Title => 'Dua Tahun: Dasar Lebih Kokoh';
+
+  @override
+  String get ketamineMilestone730Description =>
+      'Dua tahun tanpa ketamin adalah kemajuan yang berkelanjutan. Tetap berhenti mencegah paparan kembali, sementara pemulihan setelah penggunaan sebelumnya dapat berbeda pada setiap orang.';
+
+  @override
+  String get ketamineMilestone1095Title => 'Tiga Tahun: Momentum Terbangun';
+
+  @override
+  String get ketamineMilestone1095Description =>
+      'Tiga tahun menandai kemajuan yang bertahan. Riset mendukung adanya perbaikan setelah berhenti dari ketamin, tetapi tidak menetapkan titik biologis khusus pada tahun ketiga.';
+
+  @override
+  String get ketamineMilestone1460Title => 'Empat Tahun: Kekuatan Stabil';
+
+  @override
+  String get ketamineMilestone1460Description =>
+      'Empat tahun menambah satu tahun lagi jauh dari ketamin. Pemulihan jangka panjang dapat terus berlangsung, dengan hasil yang dipengaruhi paparan sebelumnya dan cedera yang ada.';
+
+  @override
+  String get ketamineMilestone1825Title => 'Lima Tahun: Akar yang Dalam';
+
+  @override
+  String get ketamineMilestone1825Description =>
+      'Lima tahun adalah tonggak besar yang berkelanjutan. Menjaga rutinitas dan dukungan yang membantu kemajuan ini ikut mempertahankan fondasi yang kuat.';
+
+  @override
   String get inhalantsPageTitle => 'Inhalansia';
 
   @override
@@ -3293,6 +3321,22 @@ class AppLocalizationsId extends AppLocalizations {
   @override
   String get ketamineReferenceDay365 =>
       'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+
+  @override
+  String get ketamineReferenceDay730 =>
+      'Dua tahun tanpa ketamin\n\nSumber: tinjauan komprehensif tahun 2022 tentang sistitis akibat ketamin (PubMed Central).\n\nTinjauan tersebut sangat menganjurkan penghentian ketamin dan mencatat bahwa penyakit tahap awal sering membaik setelah berhenti, sedangkan pemulihan dapat tidak lengkap bila cedera sudah lebih berat. Tinjauan itu tidak menetapkan garis akhir biologis universal pada dua tahun; tonggak ini merayakan kemajuan berkelanjutan tanpa menjanjikan hasil medis yang sama untuk semua orang.';
+
+  @override
+  String get ketamineReferenceDay1095 =>
+      'Tiga tahun tanpa ketamin\n\nSumber: tinjauan komprehensif tahun 2022 tentang sistitis akibat ketamin (PubMed Central).\n\nTinjauan tersebut sangat menganjurkan penghentian ketamin dan mencatat bahwa penyakit tahap awal sering membaik setelah berhenti, sedangkan pemulihan dapat tidak lengkap bila cedera sudah lebih berat. Tinjauan itu tidak menetapkan ambang pemulihan khusus pada tiga tahun; tiga tahun menandai kemajuan yang bertahan, sementara hasil tetap berbeda pada tiap orang.';
+
+  @override
+  String get ketamineReferenceDay1460 =>
+      'Empat tahun tanpa ketamin\n\nSumber: tinjauan komprehensif tahun 2022 tentang sistitis akibat ketamin (PubMed Central).\n\nTinjauan tersebut sangat menganjurkan penghentian ketamin dan mencatat bahwa penyakit tahap awal sering membaik setelah berhenti, sedangkan pemulihan dapat tidak lengkap bila cedera sudah lebih berat. Tinjauan itu tidak mengaitkan tahun keempat dengan peristiwa biologis tertentu; empat tahun menandai fondasi pemulihan yang kuat, bukan janji medis.';
+
+  @override
+  String get ketamineReferenceDay1825 =>
+      'Lima tahun tanpa ketamin\n\nSumber: tinjauan komprehensif tahun 2022 tentang sistitis akibat ketamin (PubMed Central).\n\nTinjauan tersebut sangat menganjurkan penghentian ketamin dan mencatat bahwa penyakit tahap awal sering membaik setelah berhenti, sedangkan pemulihan dapat tidak lengkap bila cedera sudah lebih berat. Tinjauan itu tidak menetapkan lima tahun sebagai titik akhir biologis universal; tonggak ini merayakan kemajuan besar yang berkelanjutan tanpa mengklaim kesembuhan yang pasti.';
 
   @override
   String get kratomReferenceDay1 =>

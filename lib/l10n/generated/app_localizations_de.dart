@@ -302,6 +302,34 @@ class AppLocalizationsDe extends AppLocalizations {
       'Ein Jahr frei von Ketamin. Denken, Stimmung und - wenn Blasenschaden früh gefangen wurde - Blasenfunktion hatten ein ganzes Jahr zu erholen.';
 
   @override
+  String get ketamineMilestone730Title => 'Zwei Jahre: Fester Boden';
+
+  @override
+  String get ketamineMilestone730Description =>
+      'Zwei Jahre ohne Ketamin sind nachhaltiger Fortschritt. Weiterhin darauf zu verzichten verhindert erneute Exposition; die Erholung nach früherem Konsum bleibt individuell.';
+
+  @override
+  String get ketamineMilestone1095Title => 'Drei Jahre: Schwung gefestigt';
+
+  @override
+  String get ketamineMilestone1095Description =>
+      'Drei Jahre stehen für beständigen Fortschritt. Forschung zeigt Verbesserungen nach dem Absetzen von Ketamin, aber keinen besonderen biologischen Endpunkt nach drei Jahren.';
+
+  @override
+  String get ketamineMilestone1460Title => 'Vier Jahre: Stetige Stärke';
+
+  @override
+  String get ketamineMilestone1460Description =>
+      'Vier Jahre bedeuten ein weiteres Jahr Abstand zu Ketamin. Langfristige Erholung kann weitergehen; das Ergebnis hängt von früherem Konsum und vorhandenen Schäden ab.';
+
+  @override
+  String get ketamineMilestone1825Title => 'Fünf Jahre: Tiefe Wurzeln';
+
+  @override
+  String get ketamineMilestone1825Description =>
+      'Fünf Jahre sind ein großer langfristiger Meilenstein. Bewährte Routinen und Unterstützung weiter zu pflegen stärkt das aufgebaute Fundament.';
+
+  @override
   String get inhalantsPageTitle => 'Inhalantien';
 
   @override
@@ -3308,6 +3336,22 @@ class AppLocalizationsDe extends AppLocalizations {
   @override
   String get ketamineReferenceDay365 =>
       'Ein Jahr vor Ketamin\n\nQuelle: \"Ketamin-induzierte Zystitis: Eine umfassende Überprüfung\", auf PubMed Central\n\nEin Jahr später\nZwölf Monate Abstinenz geben der Blase in frühen Fällen die volle Chance, sich zu erholen, und lassen Denken und Gedächtnis und Stimmung stabil und klar. Die psychologische Abhängigkeit, die das Aufhören schwer machte, ist weitgehend verblasst.\n\nDas größere Bild\nEin freies Jahr ist eine tiefgreifende Veränderung - in körperlicher Gesundheit, Klarheit und Selbstführung. Die Unterstützung, die dich hierher gebracht hat, schützt es.';
+
+  @override
+  String get ketamineReferenceDay730 =>
+      'Zwei Jahre ohne Ketamin\n\nQuelle: umfassende Übersicht zu ketamininduzierter Zystitis von 2022 (PubMed Central).\n\nDie Übersicht empfiehlt das Absetzen von Ketamin ausdrücklich. Früh erkannte Erkrankungen bessern sich nach dem Absetzen häufig, bei fortgeschrittenen Schäden kann die Erholung unvollständig bleiben. Sie definiert nach zwei Jahren keine allgemeine biologische Ziellinie; der Meilenstein würdigt nachhaltigen Fortschritt ohne ein einheitliches medizinisches Ergebnis zu versprechen.';
+
+  @override
+  String get ketamineReferenceDay1095 =>
+      'Drei Jahre ohne Ketamin\n\nQuelle: umfassende Übersicht zu ketamininduzierter Zystitis von 2022 (PubMed Central).\n\nDie Übersicht empfiehlt das Absetzen von Ketamin ausdrücklich. Früh erkannte Erkrankungen bessern sich nach dem Absetzen häufig, bei fortgeschrittenen Schäden kann die Erholung unvollständig bleiben. Sie nennt keine besondere Erholungsschwelle nach drei Jahren; drei Jahre stehen für beständigen Fortschritt, während Ergebnisse individuell bleiben.';
+
+  @override
+  String get ketamineReferenceDay1460 =>
+      'Vier Jahre ohne Ketamin\n\nQuelle: umfassende Übersicht zu ketamininduzierter Zystitis von 2022 (PubMed Central).\n\nDie Übersicht empfiehlt das Absetzen von Ketamin ausdrücklich. Früh erkannte Erkrankungen bessern sich nach dem Absetzen häufig, bei fortgeschrittenen Schäden kann die Erholung unvollständig bleiben. Sie ordnet dem vierten Jahr kein besonderes biologisches Ereignis zu; vier Jahre markieren ein starkes Fundament, nicht ein medizinisches Versprechen.';
+
+  @override
+  String get ketamineReferenceDay1825 =>
+      'Fünf Jahre ohne Ketamin\n\nQuelle: umfassende Übersicht zu ketamininduzierter Zystitis von 2022 (PubMed Central).\n\nDie Übersicht empfiehlt das Absetzen von Ketamin ausdrücklich. Früh erkannte Erkrankungen bessern sich nach dem Absetzen häufig, bei fortgeschrittenen Schäden kann die Erholung unvollständig bleiben. Sie definiert fünf Jahre nicht als allgemeinen biologischen Endpunkt; der Meilenstein würdigt großen langfristigen Fortschritt statt eine garantierte Heilung zu behaupten.';
 
   @override
   String get kratomReferenceDay1 =>

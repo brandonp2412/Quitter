@@ -302,6 +302,34 @@ class AppLocalizationsPt extends AppLocalizations {
       'Um ano sem cetamina. O pensamento, o humor e – quando os danos na bexiga foram detectados precocemente – a função da bexiga tiveram um ano inteiro para se recuperar.';
 
   @override
+  String get ketamineMilestone730Title => 'Dois anos: Base mais firme';
+
+  @override
+  String get ketamineMilestone730Description =>
+      'Dois anos sem cetamina representam um progresso sustentado. Continuar sem usar evita nova exposição, embora a recuperação após o uso anterior varie de pessoa para pessoa.';
+
+  @override
+  String get ketamineMilestone1095Title => 'Três anos: Impulso sólido';
+
+  @override
+  String get ketamineMilestone1095Description =>
+      'Três anos marcam um progresso duradouro. A investigação apoia melhorias após parar a cetamina, mas não define um ponto biológico especial aos três anos.';
+
+  @override
+  String get ketamineMilestone1460Title => 'Quatro anos: Força constante';
+
+  @override
+  String get ketamineMilestone1460Description =>
+      'Quatro anos acrescentam mais um ano de distância da cetamina. A recuperação a longo prazo pode continuar, dependendo da exposição anterior e de eventuais lesões.';
+
+  @override
+  String get ketamineMilestone1825Title => 'Cinco anos: Raízes profundas';
+
+  @override
+  String get ketamineMilestone1825Description =>
+      'Cinco anos são um grande marco sustentado. Manter as rotinas e o apoio que permitiram este progresso ajuda a preservar uma base sólida.';
+
+  @override
   String get inhalantsPageTitle => 'Inalantes';
 
   @override
@@ -3325,6 +3353,22 @@ class AppLocalizationsPt extends AppLocalizations {
       'Um ano sem cetamina\n\nFonte: \"Cistite induzida por cetamina: uma revisão abrangente\", no PubMed Central\n\nUm ano depois\nDoze meses de abstinência dão à bexiga, em casos precoces, a oportunidade máxima de recuperação e deixam o pensamento, a memória e o humor estáveis e claros. A dependência psicológica que dificultava a parada desapareceu em grande parte.\n\nO panorama geral\nUm ano livre é uma mudança profunda – na saúde física, na clareza e na autodireção. Manter o apoio que o trouxe até aqui protege isso.';
 
   @override
+  String get ketamineReferenceDay730 =>
+      'Dois anos sem cetamina\n\nFonte: revisão abrangente de 2022 sobre cistite induzida por cetamina (PubMed Central).\n\nA revisão recomenda firmemente parar a cetamina e refere que a doença em fase inicial melhora muitas vezes após a cessação, enquanto a recuperação pode ser incompleta quando a lesão é mais avançada. Não define dois anos como uma meta biológica universal; este marco celebra progresso sustentado sem prometer o mesmo resultado médico para todas as pessoas.';
+
+  @override
+  String get ketamineReferenceDay1095 =>
+      'Três anos sem cetamina\n\nFonte: revisão abrangente de 2022 sobre cistite induzida por cetamina (PubMed Central).\n\nA revisão recomenda firmemente parar a cetamina e refere que a doença em fase inicial melhora muitas vezes após a cessação, enquanto a recuperação pode ser incompleta quando a lesão é mais avançada. Não identifica um limiar especial de recuperação aos três anos; três anos representam progresso duradouro, embora os resultados continuem a variar.';
+
+  @override
+  String get ketamineReferenceDay1460 =>
+      'Quatro anos sem cetamina\n\nFonte: revisão abrangente de 2022 sobre cistite induzida por cetamina (PubMed Central).\n\nA revisão recomenda firmemente parar a cetamina e refere que a doença em fase inicial melhora muitas vezes após a cessação, enquanto a recuperação pode ser incompleta quando a lesão é mais avançada. Não associa o quarto ano a um acontecimento biológico específico; quatro anos marcam uma base forte de recuperação, não uma promessa médica.';
+
+  @override
+  String get ketamineReferenceDay1825 =>
+      'Cinco anos sem cetamina\n\nFonte: revisão abrangente de 2022 sobre cistite induzida por cetamina (PubMed Central).\n\nA revisão recomenda firmemente parar a cetamina e refere que a doença em fase inicial melhora muitas vezes após a cessação, enquanto a recuperação pode ser incompleta quando a lesão é mais avançada. Não define cinco anos como um ponto final biológico universal; este marco celebra um grande progresso sustentado sem afirmar uma cura garantida.';
+
+  @override
   String get kratomReferenceDay1 =>
       'Abstinência do Kratom: o primeiro dia\n\nFonte: Swogger et al.(2022), \"Compreendendo o uso do Kratom: um guia para profissionais de saúde\", Frontiers in Pharmacology\n\nPor que a abstinência acontece\nOs compostos ativos do Kratom atuam nos mesmos receptores opioides que os opioides clássicos. Com o uso regular, o corpo se adapta, então a interrupção produz uma abstinência semelhante à dos opioides. Este guia clínico descreve a dependência e a abstinência como riscos reconhecidos do uso regular da kratom.\n\nO que as evidências mostram sobre o início\nEstudos em animais citados no guia mostram sinais de abstinência somática surgindo em cerca de 12 horas, com efeitos semelhantes aos da ansiedade evidentes em 24 horas; O tempo preciso de início em humanos é menos estabelecido, mas os primeiros sintomas comumente relatados incluem:\n• Inquietação, ansiedade e irritabilidade\n• Dores musculares e coriza\n• Suor e olhos lacrimejantes\n• Desejos\n\nUma nota sobre gravidade\nO guia observa que uma utilização mais prolongada e doses mais elevadas estão associadas a uma abstinência mais grave e mais duradoura. Vale a pena procurar apoio médico supervisionado, especialmente se o kratom tiver sido usado em altas doses ou junto com opioides.';
 
@@ -4274,6 +4318,34 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
   @override
   String get ketamineMilestone365Description =>
       'Um ano sem cetamina. O pensamento, o humor e – quando os danos na bexiga foram detectados precocemente – a função da bexiga tiveram um ano inteiro para se recuperar.';
+
+  @override
+  String get ketamineMilestone730Title => 'Dois anos: Base mais firme';
+
+  @override
+  String get ketamineMilestone730Description =>
+      'Dois anos sem cetamina representam um progresso sustentado. Continuar sem usar evita nova exposição, embora a recuperação após o uso anterior varie de pessoa para pessoa.';
+
+  @override
+  String get ketamineMilestone1095Title => 'Três anos: Ritmo consolidado';
+
+  @override
+  String get ketamineMilestone1095Description =>
+      'Três anos marcam um progresso duradouro. A pesquisa apoia melhorias depois de parar a cetamina, mas não define um ponto biológico especial aos três anos.';
+
+  @override
+  String get ketamineMilestone1460Title => 'Quatro anos: Força constante';
+
+  @override
+  String get ketamineMilestone1460Description =>
+      'Quatro anos acrescentam mais um ano de distância da cetamina. A recuperação de longo prazo pode continuar, dependendo da exposição anterior e de possíveis lesões.';
+
+  @override
+  String get ketamineMilestone1825Title => 'Cinco anos: Raízes profundas';
+
+  @override
+  String get ketamineMilestone1825Description =>
+      'Cinco anos são um grande marco sustentado. Manter as rotinas e o apoio que tornaram esse progresso possível ajuda a preservar uma base sólida.';
 
   @override
   String get inhalantsPageTitle => 'Inalantes';
@@ -7297,6 +7369,22 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
   @override
   String get ketamineReferenceDay365 =>
       'Um ano de folga com cetamina\n\nFonte: \"Cistite induzida por cetamina: uma revisão abrangente\", no PubMed Central\n\nUm ano depois\nDoze meses de abstinência dão à bexiga, em casos precoces, a oportunidade máxima de recuperação e deixam o pensamento, a memória e o humor estáveis e claros. A dependência psicológica que dificultava a parada desapareceu em grande parte.\n\nO panorama geral\nUm ano livre é uma mudança profunda – na saúde física, na clareza e na autodireção. Manter o apoio que o trouxe até aqui protege isso.';
+
+  @override
+  String get ketamineReferenceDay730 =>
+      'Dois anos sem cetamina\n\nFonte: revisão abrangente de 2022 sobre cistite induzida por cetamina (PubMed Central).\n\nA revisão recomenda fortemente parar a cetamina e observa que a doença em estágio inicial costuma melhorar após a interrupção, enquanto a recuperação pode ser incompleta quando a lesão é mais avançada. Ela não define dois anos como uma meta biológica universal; este marco celebra progresso sustentado sem prometer o mesmo resultado médico para todas as pessoas.';
+
+  @override
+  String get ketamineReferenceDay1095 =>
+      'Três anos sem cetamina\n\nFonte: revisão abrangente de 2022 sobre cistite induzida por cetamina (PubMed Central).\n\nA revisão recomenda fortemente parar a cetamina e observa que a doença em estágio inicial costuma melhorar após a interrupção, enquanto a recuperação pode ser incompleta quando a lesão é mais avançada. Ela não identifica um limiar especial de recuperação aos três anos; três anos representam progresso duradouro, embora os resultados continuem individuais.';
+
+  @override
+  String get ketamineReferenceDay1460 =>
+      'Quatro anos sem cetamina\n\nFonte: revisão abrangente de 2022 sobre cistite induzida por cetamina (PubMed Central).\n\nA revisão recomenda fortemente parar a cetamina e observa que a doença em estágio inicial costuma melhorar após a interrupção, enquanto a recuperação pode ser incompleta quando a lesão é mais avançada. Ela não associa o quarto ano a um evento biológico específico; quatro anos marcam uma base forte de recuperação, não uma promessa médica.';
+
+  @override
+  String get ketamineReferenceDay1825 =>
+      'Cinco anos sem cetamina\n\nFonte: revisão abrangente de 2022 sobre cistite induzida por cetamina (PubMed Central).\n\nA revisão recomenda fortemente parar a cetamina e observa que a doença em estágio inicial costuma melhorar após a interrupção, enquanto a recuperação pode ser incompleta quando a lesão é mais avançada. Ela não define cinco anos como um ponto final biológico universal; este marco celebra um grande progresso sustentado sem afirmar uma cura garantida.';
 
   @override
   String get kratomReferenceDay1 =>

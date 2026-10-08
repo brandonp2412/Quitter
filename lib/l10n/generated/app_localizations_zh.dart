@@ -293,6 +293,34 @@ class AppLocalizationsZh extends AppLocalizations {
       '一年没有氯胺酮。思维、情绪以及在膀胱损伤较早发现时的膀胱功能，都已经有整整一年时间恢复。';
 
   @override
+  String get ketamineMilestone730Title => '两年：基础更稳';
+
+  @override
+  String get ketamineMilestone730Description =>
+      '两年未使用氯胺酮，是持续而稳定的进展。继续停止使用可避免再次暴露，而既往使用后的恢复情况因人而异。';
+
+  @override
+  String get ketamineMilestone1095Title => '三年：势头已成';
+
+  @override
+  String get ketamineMilestone1095Description =>
+      '三年代表持久的进展。研究支持停止氯胺酮后可能出现改善，但并未把第三年设定为特殊的生物学终点。';
+
+  @override
+  String get ketamineMilestone1460Title => '四年：稳步坚实';
+
+  @override
+  String get ketamineMilestone1460Description =>
+      '四年意味着又增加了一年与氯胺酮的距离。长期恢复仍可能继续，结果取决于既往暴露和已有损伤。';
+
+  @override
+  String get ketamineMilestone1825Title => '五年：根基更深';
+
+  @override
+  String get ketamineMilestone1825Description =>
+      '五年是重要的长期里程碑。继续保持促成这些进展的生活规律和支持，有助于巩固已经建立的基础。';
+
+  @override
   String get inhalantsPageTitle => '吸入剂戒断';
 
   @override
@@ -3110,6 +3138,22 @@ class AppLocalizationsZh extends AppLocalizations {
       '停用氯胺酮一年\n\n来源：《Ketamine-Induced Cystitis: A Comprehensive Review》，PubMed Central\n\n一年之后\n十二个月的戒断，让早期发现的病例中的膀胱获得了最充分的恢复机会，也让思维、记忆和情绪保持稳定和清晰。让停用变得困难的心理依赖已基本消退。\n\n更大的图景\n一年不碰是一个意义深远的改变——体现在身体健康、清晰度和自我掌控上。保留那些把你带到这里来的支持，就能守护这一切。';
 
   @override
+  String get ketamineReferenceDay730 =>
+      '停止氯胺酮两年\n\n来源：2022 年关于氯胺酮诱发膀胱炎的综合综述（PubMed Central）。\n\n该综述强烈建议停止使用氯胺酮，并指出早期病变在停止使用后常有改善，而较严重的损伤可能无法完全恢复。 综述并未把两年定义为普遍适用的生物学终点；这一里程碑用于肯定持续的进展，而不是承诺所有人都会得到相同的医学结果。';
+
+  @override
+  String get ketamineReferenceDay1095 =>
+      '停止氯胺酮三年\n\n来源：2022 年关于氯胺酮诱发膀胱炎的综合综述（PubMed Central）。\n\n该综述强烈建议停止使用氯胺酮，并指出早期病变在停止使用后常有改善，而较严重的损伤可能无法完全恢复。 综述并未提出三年时存在特殊的恢复阈值；三年代表持久进展，但具体结果仍有个体差异。';
+
+  @override
+  String get ketamineReferenceDay1460 =>
+      '停止氯胺酮四年\n\n来源：2022 年关于氯胺酮诱发膀胱炎的综合综述（PubMed Central）。\n\n该综述强烈建议停止使用氯胺酮，并指出早期病变在停止使用后常有改善，而较严重的损伤可能无法完全恢复。 综述并未把第四年与某个特定生物学事件相联系；四年代表稳固的恢复基础，而不是医学承诺。';
+
+  @override
+  String get ketamineReferenceDay1825 =>
+      '停止氯胺酮五年\n\n来源：2022 年关于氯胺酮诱发膀胱炎的综合综述（PubMed Central）。\n\n该综述强烈建议停止使用氯胺酮，并指出早期病变在停止使用后常有改善，而较严重的损伤可能无法完全恢复。 综述并未把五年定义为普遍适用的生物学终点；这一里程碑用于肯定长期积累的重大进展，而不是声称一定能够治愈。';
+
+  @override
   String get kratomReferenceDay1 =>
       '卡痛叶戒断：第一天\n\n来源：Swogger et al.（2022），《Understanding Kratom Use: A Guide for Healthcare Providers》，Frontiers in Pharmacology\n\n为什么会出现戒断\n卡痛叶的活性化合物作用于与传统阿片类药物相同的阿片受体。长期使用后身体会适应，因此停用会产生类似阿片类药物的戒断。这份临床指南将依赖和戒断描述为长期使用卡痛叶的公认风险。\n\n关于发作时间的证据\n指南中引用的动物研究显示，躯体戒断体征在大约12小时内出现，到24小时时焦虑样效应已经明显；人体确切的发作时间尚不明确，但常被报告的早期症状包括：\n• 坐立不安、焦虑和易怒\n• 肌肉酸痛和流鼻涕\n• 出汗和流泪\n• 渴求\n\n关于严重程度的说明\n该指南指出，使用时间越长、剂量越高，戒断就越严重、越持久。值得寻求受监督的医疗支持，尤其是在高剂量使用卡痛叶、或与阿片类药物同时使用时。';
 
@@ -4050,6 +4094,34 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   @override
   String get ketamineMilestone365Description =>
       '一年沒有氯胺酮。思維、情緒以及在膀胱損傷較早發現時的膀胱功能，都已經有整整一年時間恢復。';
+
+  @override
+  String get ketamineMilestone730Title => '兩年：基礎更穩';
+
+  @override
+  String get ketamineMilestone730Description =>
+      '兩年未使用氯胺酮，是持續而穩定的進展。繼續停止使用可避免再次暴露，而過往使用後的恢復情況因人而異。';
+
+  @override
+  String get ketamineMilestone1095Title => '三年：勢頭已成';
+
+  @override
+  String get ketamineMilestone1095Description =>
+      '三年代表持久的進展。研究支持停止氯胺酮後可能出現改善，但並未把第三年設定為特殊的生物學終點。';
+
+  @override
+  String get ketamineMilestone1460Title => '四年：穩步堅實';
+
+  @override
+  String get ketamineMilestone1460Description =>
+      '四年意味著又增加了一年與氯胺酮的距離。長期恢復仍可能繼續，結果取決於過往暴露和已有損傷。';
+
+  @override
+  String get ketamineMilestone1825Title => '五年：根基更深';
+
+  @override
+  String get ketamineMilestone1825Description =>
+      '五年是重要的長期里程碑。繼續維持促成這些進展的生活規律和支持，有助於鞏固已建立的基礎。';
 
   @override
   String get inhalantsPageTitle => '吸入劑戒斷';
@@ -6867,6 +6939,22 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   @override
   String get ketamineReferenceDay365 =>
       '停用氯胺酮一年\n\n來源：《Ketamine-Induced Cystitis: A Comprehensive Review》，PubMed Central\n\n一年之後\n十二個月的戒斷，讓早期發現的病例中的膀胱獲得了最充分的恢復機會，也讓思維、記憶和情緒保持穩定和清晰。讓停用變得困難的心理依賴已基本消退。\n\n更大的圖景\n一年不碰是一個意義深遠的改變——體現在身體健康、清晰度和自我掌控上。保留那些把你帶到這裡來的支持，就能守護這一切。';
+
+  @override
+  String get ketamineReferenceDay730 =>
+      '停止氯胺酮兩年\n\n來源：2022 年關於氯胺酮誘發膀胱炎的綜合綜述（PubMed Central）。\n\n該綜述強烈建議停止使用氯胺酮，並指出早期病變在停止使用後常有改善，而較嚴重的損傷可能無法完全恢復。 綜述並未把兩年定義為普遍適用的生物學終點；這一里程碑用來肯定持續的進展，而不是承諾所有人都會得到相同的醫療結果。';
+
+  @override
+  String get ketamineReferenceDay1095 =>
+      '停止氯胺酮三年\n\n來源：2022 年關於氯胺酮誘發膀胱炎的綜合綜述（PubMed Central）。\n\n該綜述強烈建議停止使用氯胺酮，並指出早期病變在停止使用後常有改善，而較嚴重的損傷可能無法完全恢復。 綜述並未提出三年時存在特殊的恢復門檻；三年代表持久進展，但具體結果仍有個體差異。';
+
+  @override
+  String get ketamineReferenceDay1460 =>
+      '停止氯胺酮四年\n\n來源：2022 年關於氯胺酮誘發膀胱炎的綜合綜述（PubMed Central）。\n\n該綜述強烈建議停止使用氯胺酮，並指出早期病變在停止使用後常有改善，而較嚴重的損傷可能無法完全恢復。 綜述並未把第四年與某個特定生物學事件相連；四年代表穩固的恢復基礎，而不是醫療承諾。';
+
+  @override
+  String get ketamineReferenceDay1825 =>
+      '停止氯胺酮五年\n\n來源：2022 年關於氯胺酮誘發膀胱炎的綜合綜述（PubMed Central）。\n\n該綜述強烈建議停止使用氯胺酮，並指出早期病變在停止使用後常有改善，而較嚴重的損傷可能無法完全恢復。 綜述並未把五年定義為普遍適用的生物學終點；這一里程碑用來肯定長期累積的重大進展，而不是聲稱一定能夠治癒。';
 
   @override
   String get kratomReferenceDay1 =>

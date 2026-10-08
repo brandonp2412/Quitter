@@ -630,6 +630,54 @@ abstract class AppLocalizations {
   /// **'A year free of ketamine. Thinking, mood, and — when bladder damage was caught early — bladder function have had a full year to recover.'**
   String get ketamineMilestone365Description;
 
+  /// No description provided for @ketamineMilestone730Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Two Years: Stronger Ground'**
+  String get ketamineMilestone730Title;
+
+  /// No description provided for @ketamineMilestone730Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Two years without ketamine is sustained progress. Staying stopped avoids renewed exposure while recovery from earlier use can vary.'**
+  String get ketamineMilestone730Description;
+
+  /// No description provided for @ketamineMilestone1095Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Three Years: Momentum Built'**
+  String get ketamineMilestone1095Title;
+
+  /// No description provided for @ketamineMilestone1095Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Three years marks durable progress. Research supports improvement after stopping ketamine, but not a special three-year biological endpoint.'**
+  String get ketamineMilestone1095Description;
+
+  /// No description provided for @ketamineMilestone1460Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Four Years: Steady Strength'**
+  String get ketamineMilestone1460Title;
+
+  /// No description provided for @ketamineMilestone1460Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Four years adds another year of distance from ketamine. Long-term recovery can continue, while outcomes depend on prior exposure and injury.'**
+  String get ketamineMilestone1460Description;
+
+  /// No description provided for @ketamineMilestone1825Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Five Years: Deep Roots'**
+  String get ketamineMilestone1825Title;
+
+  /// No description provided for @ketamineMilestone1825Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Five years is a major sustained milestone. Protecting the routines and support behind that progress helps keep the foundation strong.'**
+  String get ketamineMilestone1825Description;
+
   /// No description provided for @inhalantsPageTitle.
   ///
   /// In en, this message translates to:
@@ -5609,6 +5657,30 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'One Year Off Ketamine\n\nSource: \"Ketamine-Induced Cystitis: A Comprehensive Review,\" on PubMed Central\n\nA Year On\nTwelve months of abstinence gives the bladder, in early-caught cases, the fullest chance to recover, and leaves thinking and memory and mood stable and clear. The psychological dependence that made stopping hard has largely faded.\n\nThe Bigger Picture\nA year free is a profound change — in physical health, clarity, and self-direction. Keeping the support that got you here protects it.'**
   String get ketamineReferenceDay365;
+
+  /// No description provided for @ketamineReferenceDay730.
+  ///
+  /// In en, this message translates to:
+  /// **'Two Years Off Ketamine\n\nSource: a 2022 comprehensive review of ketamine-induced cystitis (PubMed Central).\n\nThe review strongly recommends stopping ketamine and notes that early disease often improves after cessation, while recovery can be incomplete when injury is more advanced. It does not define a universal two-year biological finish line; this milestone celebrates sustained progress without promising the same medical outcome for everyone.'**
+  String get ketamineReferenceDay730;
+
+  /// No description provided for @ketamineReferenceDay1095.
+  ///
+  /// In en, this message translates to:
+  /// **'Three Years Off Ketamine\n\nSource: a 2022 comprehensive review of ketamine-induced cystitis (PubMed Central).\n\nThe review strongly recommends stopping ketamine and notes that early disease often improves after cessation, while recovery can be incomplete when injury is more advanced. It does not identify a special three-year recovery threshold; three years marks durable progress while individual outcomes still vary.'**
+  String get ketamineReferenceDay1095;
+
+  /// No description provided for @ketamineReferenceDay1460.
+  ///
+  /// In en, this message translates to:
+  /// **'Four Years Off Ketamine\n\nSource: a 2022 comprehensive review of ketamine-induced cystitis (PubMed Central).\n\nThe review strongly recommends stopping ketamine and notes that early disease often improves after cessation, while recovery can be incomplete when injury is more advanced. It does not assign a distinct biological event to year four; four years marks a strong recovery foundation without turning an anniversary into a medical promise.'**
+  String get ketamineReferenceDay1460;
+
+  /// No description provided for @ketamineReferenceDay1825.
+  ///
+  /// In en, this message translates to:
+  /// **'Five Years Off Ketamine\n\nSource: a 2022 comprehensive review of ketamine-induced cystitis (PubMed Central).\n\nThe review strongly recommends stopping ketamine and notes that early disease often improves after cessation, while recovery can be incomplete when injury is more advanced. It does not define five years as a universal biological endpoint; this milestone celebrates substantial sustained progress rather than claiming a guaranteed cure.'**
+  String get ketamineReferenceDay1825;
 
   /// No description provided for @kratomReferenceDay1.
   ///

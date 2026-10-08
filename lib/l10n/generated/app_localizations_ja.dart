@@ -293,6 +293,34 @@ class AppLocalizationsJa extends AppLocalizations {
       'ケタミンなしで1年。思考と気分、そして膀胱損傷が早期に見つかった場合は膀胱機能にも、丸1年の回復期間が与えられました。';
 
   @override
+  String get ketamineMilestone730Title => '2年：確かな土台';
+
+  @override
+  String get ketamineMilestone730Description =>
+      'ケタミンをやめて2年。再びケタミンにさらされることを避けながら積み重ねた、持続的な前進です。以前の使用からの回復には個人差があります。';
+
+  @override
+  String get ketamineMilestone1095Title => '3年：積み重ねた前進';
+
+  @override
+  String get ketamineMilestone1095Description =>
+      'ケタミンをやめて3年。研究では中止後の改善が示されていますが、3年という時点に特別な生物学的到達点があるとはされていません。';
+
+  @override
+  String get ketamineMilestone1460Title => '4年：揺るがない歩み';
+
+  @override
+  String get ketamineMilestone1460Description =>
+      'ケタミンをやめて4年。さらに1年、ケタミンから距離を保ってきた節目です。長期的な回復は続く可能性があり、経過は以前の使用量や既存の障害によって異なります。';
+
+  @override
+  String get ketamineMilestone1825Title => '5年：深く根づいた土台';
+
+  @override
+  String get ketamineMilestone1825Description =>
+      'ケタミンをやめて5年。大きな長期の節目です。ここまでを支えた生活習慣や支援を保つことが、築いた土台を守る助けになります。';
+
+  @override
   String get inhalantsPageTitle => '吸入剤回復';
 
   @override
@@ -3111,6 +3139,22 @@ class AppLocalizationsJa extends AppLocalizations {
   @override
   String get ketamineReferenceDay365 =>
       'ケタミンを断って1年\n\n出典：「Ketamine-Induced Cystitis: A Comprehensive Review」、PubMed Central\n\n1年経過\n12ヶ月の断薬は、早期に発見された症例では膀胱に回復する最大限の機会を与え、思考と記憶と気分を安定して明晰に保ちます。やめることを難しくしていた心理的依存はほぼ消えています。\n\nより大きな視点\n1年間ケタミンを使わずに過ごせたことは、身体の健康、思考の明晰さ、自分で選択する力に大きな変化をもたらします。ここまで支えてくれた仕組みを続けることが、その変化を守ります。';
+
+  @override
+  String get ketamineReferenceDay730 =>
+      'ケタミンをやめて2年\n\n出典：ケタミン誘発性膀胱炎に関する2022年の包括的レビュー（PubMed Central）。\n\nこのレビューはケタミンの中止を強く推奨し、早期の病変は中止後に改善することが多い一方、進行した障害では回復が不完全な場合があるとしています。 2年を普遍的な生物学的ゴールとは定めていません。この節目は、誰にでも同じ医学的結果を約束するものではなく、持続してきた前進をたたえるものです。';
+
+  @override
+  String get ketamineReferenceDay1095 =>
+      'ケタミンをやめて3年\n\n出典：ケタミン誘発性膀胱炎に関する2022年の包括的レビュー（PubMed Central）。\n\nこのレビューはケタミンの中止を強く推奨し、早期の病変は中止後に改善することが多い一方、進行した障害では回復が不完全な場合があるとしています。 3年に特別な回復の境界があるとはしていません。3年は確かな前進の節目ですが、経過には個人差があります。';
+
+  @override
+  String get ketamineReferenceDay1460 =>
+      'ケタミンをやめて4年\n\n出典：ケタミン誘発性膀胱炎に関する2022年の包括的レビュー（PubMed Central）。\n\nこのレビューはケタミンの中止を強く推奨し、早期の病変は中止後に改善することが多い一方、進行した障害では回復が不完全な場合があるとしています。 4年目に特別な生物学的変化が起こるとはしていません。4年は強い回復の土台を示す節目であり、医学的な保証ではありません。';
+
+  @override
+  String get ketamineReferenceDay1825 =>
+      'ケタミンをやめて5年\n\n出典：ケタミン誘発性膀胱炎に関する2022年の包括的レビュー（PubMed Central）。\n\nこのレビューはケタミンの中止を強く推奨し、早期の病変は中止後に改善することが多い一方、進行した障害では回復が不完全な場合があるとしています。 5年を普遍的な生物学的終点とはしていません。この節目は、治癒を保証するのではなく、長く続けてきた大きな前進をたたえます。';
 
   @override
   String get kratomReferenceDay1 =>

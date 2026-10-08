@@ -293,6 +293,34 @@ class AppLocalizationsKo extends AppLocalizations {
       '케타민 없이 1년. 생각, 기분, 그리고 방광 손상이 조기에 발견되었을 때 방광 기능이 회복되는 데 꼬박 1년이 걸렸습니다.';
 
   @override
+  String get ketamineMilestone730Title => '2년: 단단한 기반';
+
+  @override
+  String get ketamineMilestone730Description =>
+      '케타민 없이 2년을 이어 온 것은 지속적인 진전입니다. 다시 노출되는 일을 피하는 동안 이전 사용에서의 회복 속도는 사람마다 다를 수 있습니다.';
+
+  @override
+  String get ketamineMilestone1095Title => '3년: 쌓아 올린 흐름';
+
+  @override
+  String get ketamineMilestone1095Description =>
+      '3년은 오래 이어진 진전을 뜻합니다. 연구는 케타민 중단 뒤의 개선을 뒷받침하지만, 3년에 특별한 생물학적 종착점이 있다고 보지는 않습니다.';
+
+  @override
+  String get ketamineMilestone1460Title => '4년: 꾸준한 힘';
+
+  @override
+  String get ketamineMilestone1460Description =>
+      '4년은 케타민과 거리를 둔 시간이 한 해 더 쌓인 것입니다. 장기적인 회복은 이어질 수 있으며 결과는 과거 노출과 기존 손상에 따라 달라집니다.';
+
+  @override
+  String get ketamineMilestone1825Title => '5년: 깊어진 뿌리';
+
+  @override
+  String get ketamineMilestone1825Description =>
+      '5년은 큰 장기 이정표입니다. 지금까지의 진전을 만든 일상과 지원을 지켜 가는 것이 단단한 기반을 유지하는 데 도움이 됩니다.';
+
+  @override
   String get inhalantsPageTitle => '흡입제 회수';
 
   @override
@@ -3155,6 +3183,22 @@ class AppLocalizationsKo extends AppLocalizations {
   @override
   String get ketamineReferenceDay365 =>
       '케타민 1년 할인\n\n출처: PubMed Central의 \"케타민 유발 방광염: 종합적인 검토\"\n\n1년\n12개월 동안의 금욕은 초기에 발견된 경우 방광에 완전한 회복 기회를 제공하고 사고, 기억 및 기분을 안정적이고 깨끗하게 유지합니다. 정지를 어렵게 만들었던 심리적 의존성은 크게 사라졌습니다.\n\n더 큰 그림\n1년 무료는 신체 건강, 명확성 및 자기 방향성에 있어서 엄청난 변화입니다. 당신을 여기에 있게 한 지원을 유지하면 그것을 보호할 수 있습니다.';
+
+  @override
+  String get ketamineReferenceDay730 =>
+      '케타민 없이 2년\n\n출처: 케타민 유발 방광염에 관한 2022년 종합 문헌고찰(PubMed Central).\n\n이 문헌고찰은 케타민 중단을 강하게 권고하며, 초기 질환은 중단 후 호전되는 경우가 많지만 손상이 진행된 경우 회복이 불완전할 수 있다고 설명합니다. 2년을 보편적인 생물학적 종착점으로 정하지는 않습니다. 이 이정표는 모두에게 같은 의학적 결과를 약속하지 않고 지속된 진전을 기념합니다.';
+
+  @override
+  String get ketamineReferenceDay1095 =>
+      '케타민 없이 3년\n\n출처: 케타민 유발 방광염에 관한 2022년 종합 문헌고찰(PubMed Central).\n\n이 문헌고찰은 케타민 중단을 강하게 권고하며, 초기 질환은 중단 후 호전되는 경우가 많지만 손상이 진행된 경우 회복이 불완전할 수 있다고 설명합니다. 3년에 특별한 회복 경계가 있다고 보지는 않습니다. 3년은 오래 이어진 진전을 뜻하지만 결과에는 개인차가 있습니다.';
+
+  @override
+  String get ketamineReferenceDay1460 =>
+      '케타민 없이 4년\n\n출처: 케타민 유발 방광염에 관한 2022년 종합 문헌고찰(PubMed Central).\n\n이 문헌고찰은 케타민 중단을 강하게 권고하며, 초기 질환은 중단 후 호전되는 경우가 많지만 손상이 진행된 경우 회복이 불완전할 수 있다고 설명합니다. 4년째에 특정한 생물학적 사건이 있다고 보지는 않습니다. 4년은 강한 회복 기반을 보여 주는 이정표이지 의학적 약속은 아닙니다.';
+
+  @override
+  String get ketamineReferenceDay1825 =>
+      '케타민 없이 5년\n\n출처: 케타민 유발 방광염에 관한 2022년 종합 문헌고찰(PubMed Central).\n\n이 문헌고찰은 케타민 중단을 강하게 권고하며, 초기 질환은 중단 후 호전되는 경우가 많지만 손상이 진행된 경우 회복이 불완전할 수 있다고 설명합니다. 5년을 보편적인 생물학적 종착점으로 정하지는 않습니다. 이 이정표는 완치를 보장하기보다 오랫동안 이어진 큰 진전을 기념합니다.';
 
   @override
   String get kratomReferenceDay1 =>

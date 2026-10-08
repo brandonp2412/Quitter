@@ -88,6 +88,50 @@ class KetaminePage extends StatelessWidget {
         referenceContent:
             "One Year Off Ketamine\n\nSource: \"Ketamine-Induced Cystitis: A Comprehensive Review,\" on PubMed Central\n\nA Year On\nTwelve months of abstinence gives the bladder, in early-caught cases, the fullest chance to recover, and leaves thinking and memory and mood stable and clear. The psychological dependence that made stopping hard has largely faded.\n\nThe Bigger Picture\nA year free is a profound change — in physical health, clarity, and self-direction. Keeping the support that got you here protects it.",
       ),
+      QuitMilestone(
+        day: 730,
+        title: l10n.ketamineMilestone730Title,
+        description: l10n.ketamineMilestone730Description,
+        reference: "Ketamine-Induced Cystitis: A Comprehensive Review (PMC)",
+        link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9476224/",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.ketamineReferenceDay730,
+        referenceContent:
+            "Two Years Off Ketamine\n\nSource: \"Ketamine-Induced Cystitis: A Comprehensive Review of the Urologic Effects of This Psychoactive Drug,\" on PubMed Central\n\nWhat the Evidence Says\nA 2022 review says stopping ketamine is strongly recommended for ketamine-induced cystitis. Early disease often improves after cessation, while recovery can be incomplete when injury is more advanced.\n\nTwo Years\nThe review does not define a universal two-year biological finish line. This milestone celebrates sustained progress and continued distance from renewed ketamine exposure without promising the same medical outcome for everyone.",
+      ),
+      QuitMilestone(
+        day: 1095,
+        title: l10n.ketamineMilestone1095Title,
+        description: l10n.ketamineMilestone1095Description,
+        reference: "Ketamine-Induced Cystitis: A Comprehensive Review (PMC)",
+        link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9476224/",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.ketamineReferenceDay1095,
+        referenceContent:
+            "Three Years Off Ketamine\n\nSource: \"Ketamine-Induced Cystitis: A Comprehensive Review of the Urologic Effects of This Psychoactive Drug,\" on PubMed Central\n\nRecovery Has No Single Clock\nThe review supports ketamine cessation as the foundation of recovery from ketamine-induced cystitis and notes that outcomes depend on how advanced the injury is. It does not identify a special three-year recovery threshold.\n\nThree Years\nThree years is durable progress: another full year maintained away from ketamine. Long-term recovery can continue, but individual outcomes still depend on prior exposure and any existing injury.",
+      ),
+      QuitMilestone(
+        day: 1460,
+        title: l10n.ketamineMilestone1460Title,
+        description: l10n.ketamineMilestone1460Description,
+        reference: "Ketamine-Induced Cystitis: A Comprehensive Review (PMC)",
+        link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9476224/",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.ketamineReferenceDay1460,
+        referenceContent:
+            "Four Years Off Ketamine\n\nSource: \"Ketamine-Induced Cystitis: A Comprehensive Review of the Urologic Effects of This Psychoactive Drug,\" on PubMed Central\n\nLong-Term Progress\nStopping ketamine helps prevent further ketamine-related urinary tract injury, and early ketamine-induced cystitis can improve after cessation. More advanced damage may need additional treatment and can recover incompletely.\n\nFour Years\nThe evidence does not assign a distinct biological event to year four. Four years instead marks a strong, sustained recovery foundation without turning an anniversary into a medical promise.",
+      ),
+      QuitMilestone(
+        day: 1825,
+        title: l10n.ketamineMilestone1825Title,
+        description: l10n.ketamineMilestone1825Description,
+        reference: "Ketamine-Induced Cystitis: A Comprehensive Review (PMC)",
+        link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9476224/",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.ketamineReferenceDay1825,
+        referenceContent:
+            "Five Years Off Ketamine\n\nSource: \"Ketamine-Induced Cystitis: A Comprehensive Review of the Urologic Effects of This Psychoactive Drug,\" on PubMed Central\n\nA Major Long-Term Milestone\nThe review supports continued ketamine cessation because it can improve urinary symptoms and helps prevent further ketamine-related urinary tract damage. Recovery remains individual, especially after severe injury.\n\nFive Years\nFive years is substantial sustained progress. The research does not define it as a universal biological endpoint, so this milestone celebrates the time and recovery foundation built rather than claiming a guaranteed cure.",
+      ),
     ];
   }
 

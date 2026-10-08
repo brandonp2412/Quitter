@@ -302,6 +302,34 @@ class AppLocalizationsPl extends AppLocalizations {
       'Rok wolny od ketaminy. Myślenie, nastrojenie, i uczucie, gdy uszkodzenia pęcherza zostały złapane wczesnej funkcji pęcherza moczowego miały pełny rok do odzyskania.';
 
   @override
+  String get ketamineMilestone730Title => 'Dwa lata: Mocniejszy grunt';
+
+  @override
+  String get ketamineMilestone730Description =>
+      'Dwa lata bez ketaminy to trwały postęp. Dalsze nieużywanie zapobiega ponownej ekspozycji, a tempo zdrowienia po wcześniejszym używaniu może być różne.';
+
+  @override
+  String get ketamineMilestone1095Title => 'Trzy lata: Utrwalony impet';
+
+  @override
+  String get ketamineMilestone1095Description =>
+      'Trzy lata oznaczają trwały postęp. Badania wskazują na poprawę po odstawieniu ketaminy, ale nie wyznaczają szczególnego biologicznego punktu po trzech latach.';
+
+  @override
+  String get ketamineMilestone1460Title => 'Cztery lata: Stała siła';
+
+  @override
+  String get ketamineMilestone1460Description =>
+      'Cztery lata to kolejny rok z dala od ketaminy. Długoterminowa poprawa może trwać dalej, a wynik zależy od wcześniejszej ekspozycji i istniejących uszkodzeń.';
+
+  @override
+  String get ketamineMilestone1825Title => 'Pięć lat: Głębokie korzenie';
+
+  @override
+  String get ketamineMilestone1825Description =>
+      'Pięć lat to ważny, długoterminowy kamień milowy. Utrzymywanie rutyn i wsparcia, które pomogły dojść tak daleko, wzmacnia zbudowane podstawy.';
+
+  @override
   String get inhalantsPageTitle => 'Substancje wziewne';
 
   @override
@@ -3315,6 +3343,22 @@ class AppLocalizationsPl extends AppLocalizations {
   @override
   String get ketamineReferenceDay365 =>
       'Rok bez ketaminy\n\nŹródło: \"Ketamine-Induced Cystitis: A Comprehensive Review,\" on PubMed Central\n\nRok\nDwanaście miesięcy abstynencji daje bladder, w przypadkach ciężko złowionych, najpełniejszą szansę na odzyskanie, i pozostawia myślenie i pamięć i nastrój stabilny i jasne. Psychologiczne uzależnienie, które uczyniło zatrzymanie trudne w dużej mierze zanikła.\n\nWiększy obraz\nRok wolny to głęboka zmiana w zdrowiu fizycznym, klarowności i samokierowaniu.';
+
+  @override
+  String get ketamineReferenceDay730 =>
+      'Dwa lata bez ketaminy\n\nŹródło: kompleksowy przegląd z 2022 r. dotyczący zapalenia pęcherza wywołanego ketaminą (PubMed Central).\n\nPrzegląd zdecydowanie zaleca odstawienie ketaminy i wskazuje, że wczesna choroba często poprawia się po zaprzestaniu używania, natomiast przy zaawansowanych uszkodzeniach powrót do zdrowia może być niepełny. Nie określa dwóch lat jako uniwersalnej biologicznej mety; ten kamień milowy docenia trwały postęp bez obiecywania identycznego wyniku medycznego dla wszystkich.';
+
+  @override
+  String get ketamineReferenceDay1095 =>
+      'Trzy lata bez ketaminy\n\nŹródło: kompleksowy przegląd z 2022 r. dotyczący zapalenia pęcherza wywołanego ketaminą (PubMed Central).\n\nPrzegląd zdecydowanie zaleca odstawienie ketaminy i wskazuje, że wczesna choroba często poprawia się po zaprzestaniu używania, natomiast przy zaawansowanych uszkodzeniach powrót do zdrowia może być niepełny. Nie wskazuje szczególnego progu poprawy po trzech latach; trzy lata oznaczają trwały postęp, choć wyniki pozostają indywidualne.';
+
+  @override
+  String get ketamineReferenceDay1460 =>
+      'Cztery lata bez ketaminy\n\nŹródło: kompleksowy przegląd z 2022 r. dotyczący zapalenia pęcherza wywołanego ketaminą (PubMed Central).\n\nPrzegląd zdecydowanie zaleca odstawienie ketaminy i wskazuje, że wczesna choroba często poprawia się po zaprzestaniu używania, natomiast przy zaawansowanych uszkodzeniach powrót do zdrowia może być niepełny. Nie przypisuje czwartemu rokowi szczególnego zdarzenia biologicznego; cztery lata oznaczają mocne podstawy, a nie obietnicę medyczną.';
+
+  @override
+  String get ketamineReferenceDay1825 =>
+      'Pięć lat bez ketaminy\n\nŹródło: kompleksowy przegląd z 2022 r. dotyczący zapalenia pęcherza wywołanego ketaminą (PubMed Central).\n\nPrzegląd zdecydowanie zaleca odstawienie ketaminy i wskazuje, że wczesna choroba często poprawia się po zaprzestaniu używania, natomiast przy zaawansowanych uszkodzeniach powrót do zdrowia może być niepełny. Nie uznaje pięciu lat za uniwersalny biologiczny punkt końcowy; ten kamień milowy docenia znaczny trwały postęp bez obiecywania gwarantowanego wyleczenia.';
 
   @override
   String get kratomReferenceDay1 =>

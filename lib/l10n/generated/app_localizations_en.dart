@@ -299,6 +299,34 @@ class AppLocalizationsEn extends AppLocalizations {
       'A year free of ketamine. Thinking, mood, and — when bladder damage was caught early — bladder function have had a full year to recover.';
 
   @override
+  String get ketamineMilestone730Title => 'Two Years: Stronger Ground';
+
+  @override
+  String get ketamineMilestone730Description =>
+      'Two years without ketamine is sustained progress. Staying stopped avoids renewed exposure while recovery from earlier use can vary.';
+
+  @override
+  String get ketamineMilestone1095Title => 'Three Years: Momentum Built';
+
+  @override
+  String get ketamineMilestone1095Description =>
+      'Three years marks durable progress. Research supports improvement after stopping ketamine, but not a special three-year biological endpoint.';
+
+  @override
+  String get ketamineMilestone1460Title => 'Four Years: Steady Strength';
+
+  @override
+  String get ketamineMilestone1460Description =>
+      'Four years adds another year of distance from ketamine. Long-term recovery can continue, while outcomes depend on prior exposure and injury.';
+
+  @override
+  String get ketamineMilestone1825Title => 'Five Years: Deep Roots';
+
+  @override
+  String get ketamineMilestone1825Description =>
+      'Five years is a major sustained milestone. Protecting the routines and support behind that progress helps keep the foundation strong.';
+
+  @override
   String get inhalantsPageTitle => 'Inhalants Recovery';
 
   @override
@@ -3244,6 +3272,22 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get ketamineReferenceDay365 =>
       'One Year Off Ketamine\n\nSource: \"Ketamine-Induced Cystitis: A Comprehensive Review,\" on PubMed Central\n\nA Year On\nTwelve months of abstinence gives the bladder, in early-caught cases, the fullest chance to recover, and leaves thinking and memory and mood stable and clear. The psychological dependence that made stopping hard has largely faded.\n\nThe Bigger Picture\nA year free is a profound change — in physical health, clarity, and self-direction. Keeping the support that got you here protects it.';
+
+  @override
+  String get ketamineReferenceDay730 =>
+      'Two Years Off Ketamine\n\nSource: a 2022 comprehensive review of ketamine-induced cystitis (PubMed Central).\n\nThe review strongly recommends stopping ketamine and notes that early disease often improves after cessation, while recovery can be incomplete when injury is more advanced. It does not define a universal two-year biological finish line; this milestone celebrates sustained progress without promising the same medical outcome for everyone.';
+
+  @override
+  String get ketamineReferenceDay1095 =>
+      'Three Years Off Ketamine\n\nSource: a 2022 comprehensive review of ketamine-induced cystitis (PubMed Central).\n\nThe review strongly recommends stopping ketamine and notes that early disease often improves after cessation, while recovery can be incomplete when injury is more advanced. It does not identify a special three-year recovery threshold; three years marks durable progress while individual outcomes still vary.';
+
+  @override
+  String get ketamineReferenceDay1460 =>
+      'Four Years Off Ketamine\n\nSource: a 2022 comprehensive review of ketamine-induced cystitis (PubMed Central).\n\nThe review strongly recommends stopping ketamine and notes that early disease often improves after cessation, while recovery can be incomplete when injury is more advanced. It does not assign a distinct biological event to year four; four years marks a strong recovery foundation without turning an anniversary into a medical promise.';
+
+  @override
+  String get ketamineReferenceDay1825 =>
+      'Five Years Off Ketamine\n\nSource: a 2022 comprehensive review of ketamine-induced cystitis (PubMed Central).\n\nThe review strongly recommends stopping ketamine and notes that early disease often improves after cessation, while recovery can be incomplete when injury is more advanced. It does not define five years as a universal biological endpoint; this milestone celebrates substantial sustained progress rather than claiming a guaranteed cure.';
 
   @override
   String get kratomReferenceDay1 =>

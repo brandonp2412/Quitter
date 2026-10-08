@@ -305,6 +305,34 @@ class AppLocalizationsFr extends AppLocalizations {
       'Une année sans kétamine. La pensée, l\'humeur et — lorsque les lésions ont été détectées tôt — la fonction vésicale ont bénéficié d\'une année entière de récupération.';
 
   @override
+  String get ketamineMilestone730Title => 'Deux ans : base plus solide';
+
+  @override
+  String get ketamineMilestone730Description =>
+      'Deux ans sans kétamine représentent un progrès durable. Continuer à s\'en passer évite une nouvelle exposition, tandis que la récupération après un usage antérieur varie selon les personnes.';
+
+  @override
+  String get ketamineMilestone1095Title => 'Trois ans : élan durable';
+
+  @override
+  String get ketamineMilestone1095Description =>
+      'Trois ans marquent un progrès solide. Les recherches montrent des améliorations après l\'arrêt de la kétamine, sans établir de seuil biologique particulier à trois ans.';
+
+  @override
+  String get ketamineMilestone1460Title => 'Quatre ans : force stable';
+
+  @override
+  String get ketamineMilestone1460Description =>
+      'Quatre ans ajoutent une année de plus loin de la kétamine. La récupération à long terme peut se poursuivre, selon l\'exposition passée et les éventuelles lésions.';
+
+  @override
+  String get ketamineMilestone1825Title => 'Cinq ans : racines profondes';
+
+  @override
+  String get ketamineMilestone1825Description =>
+      'Cinq ans constituent une étape majeure et durable. Préserver les habitudes et le soutien qui ont permis ce progrès aide à consolider les acquis.';
+
+  @override
   String get inhalantsPageTitle => 'Produits inhalés';
 
   @override
@@ -3348,6 +3376,22 @@ class AppLocalizationsFr extends AppLocalizations {
   @override
   String get ketamineReferenceDay365 =>
       'Un an sans kétamine\n\nSource : « Ketamine-Induced Cystitis: A Comprehensive Review », PubMed Central\n\nUn an plus tard\nDouze mois d\'abstinence donnent à la vessie, lorsque les lésions ont été détectées tôt, sa meilleure chance de récupérer et laissent la pensée, la mémoire et l\'humeur stables et claires. La dépendance psychologique qui rendait l\'arrêt difficile s\'est largement estompée.\n\nVue d\'ensemble\nUne année de liberté représente un changement profond — en santé physique, en clarté et en autonomie. Conserver le soutien qui vous a permis d\'arriver jusque-là aide à le protéger.';
+
+  @override
+  String get ketamineReferenceDay730 =>
+      'Deux ans sans kétamine\n\nSource : revue complète de 2022 sur la cystite induite par la kétamine (PubMed Central).\n\nLa revue recommande fortement l\'arrêt de la kétamine et indique que les formes précoces s\'améliorent souvent après l\'arrêt, alors que la récupération peut rester incomplète lorsque les lésions sont avancées. Elle ne fixe pas de ligne d\'arrivée biologique universelle à deux ans ; cette étape célèbre un progrès durable sans promettre le même résultat médical à tout le monde.';
+
+  @override
+  String get ketamineReferenceDay1095 =>
+      'Trois ans sans kétamine\n\nSource : revue complète de 2022 sur la cystite induite par la kétamine (PubMed Central).\n\nLa revue recommande fortement l\'arrêt de la kétamine et indique que les formes précoces s\'améliorent souvent après l\'arrêt, alors que la récupération peut rester incomplète lorsque les lésions sont avancées. Elle ne définit pas de seuil de récupération particulier à trois ans ; trois ans marquent un progrès durable, avec des résultats qui restent individuels.';
+
+  @override
+  String get ketamineReferenceDay1460 =>
+      'Quatre ans sans kétamine\n\nSource : revue complète de 2022 sur la cystite induite par la kétamine (PubMed Central).\n\nLa revue recommande fortement l\'arrêt de la kétamine et indique que les formes précoces s\'améliorent souvent après l\'arrêt, alors que la récupération peut rester incomplète lorsque les lésions sont avancées. Elle n\'associe pas la quatrième année à un événement biologique précis ; quatre ans représentent une base solide, pas une promesse médicale.';
+
+  @override
+  String get ketamineReferenceDay1825 =>
+      'Cinq ans sans kétamine\n\nSource : revue complète de 2022 sur la cystite induite par la kétamine (PubMed Central).\n\nLa revue recommande fortement l\'arrêt de la kétamine et indique que les formes précoces s\'améliorent souvent après l\'arrêt, alors que la récupération peut rester incomplète lorsque les lésions sont avancées. Elle ne définit pas cinq ans comme un point final biologique universel ; cette étape célèbre un progrès durable majeur sans prétendre à une guérison garantie.';
 
   @override
   String get kratomReferenceDay1 =>

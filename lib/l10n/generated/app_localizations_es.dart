@@ -299,6 +299,34 @@ class AppLocalizationsEs extends AppLocalizations {
       'Un año sin ketamina. El pensamiento, el ánimo y, cuando el daño vesical se detectó pronto, la función de la vejiga han tenido un año completo para recuperarse.';
 
   @override
+  String get ketamineMilestone730Title => 'Dos años: base más firme';
+
+  @override
+  String get ketamineMilestone730Description =>
+      'Dos años sin ketamina representan un progreso sostenido. Mantener la abstinencia evita una nueva exposición, aunque la recuperación tras el consumo previo varía entre personas.';
+
+  @override
+  String get ketamineMilestone1095Title => 'Tres años: impulso sólido';
+
+  @override
+  String get ketamineMilestone1095Description =>
+      'Tres años marcan un progreso duradero. La investigación respalda mejorías tras dejar la ketamina, pero no un punto biológico especial al cumplir tres años.';
+
+  @override
+  String get ketamineMilestone1460Title => 'Cuatro años: fuerza constante';
+
+  @override
+  String get ketamineMilestone1460Description =>
+      'Cuatro años añaden otro año de distancia de la ketamina. La recuperación a largo plazo puede continuar y depende de la exposición previa y de posibles lesiones.';
+
+  @override
+  String get ketamineMilestone1825Title => 'Cinco años: raíces profundas';
+
+  @override
+  String get ketamineMilestone1825Description =>
+      'Cinco años son un gran hito sostenido. Mantener las rutinas y el apoyo que hicieron posible este progreso ayuda a conservar una base sólida.';
+
+  @override
   String get inhalantsPageTitle => 'Inhalantes';
 
   @override
@@ -3324,6 +3352,22 @@ class AppLocalizationsEs extends AppLocalizations {
   @override
   String get ketamineReferenceDay365 =>
       'Un año sin ketamina\n\nFuente: \"Cistitis inducida por ketamina: una revisión completa\", en PubMed Central\n\nUn año después\nDoce meses de abstinencia dan a la vejiga, en los casos detectados tempranamente, la mayor oportunidad de recuperarse, y dejan el pensamiento, la memoria y el estado de ánimo estables y claros. La dependencia psicológica que hacía difícil detenerse se ha desvanecido en gran medida.\n\nEl panorama más amplio\nUn año sin ketamina supone un cambio profundo en la salud física, la claridad mental y la capacidad de dirigir la propia vida. Mantener los apoyos que te han ayudado a llegar hasta aquí contribuye a proteger ese progreso.';
+
+  @override
+  String get ketamineReferenceDay730 =>
+      'Dos años sin ketamina\n\nFuente: revisión integral de 2022 sobre la cistitis inducida por ketamina (PubMed Central).\n\nLa revisión recomienda firmemente dejar la ketamina y señala que los casos tempranos suelen mejorar tras suspenderla, mientras que la recuperación puede ser incompleta cuando el daño es avanzado. No define una meta biológica universal a los dos años; este hito celebra un progreso sostenido sin prometer el mismo resultado médico para todas las personas.';
+
+  @override
+  String get ketamineReferenceDay1095 =>
+      'Tres años sin ketamina\n\nFuente: revisión integral de 2022 sobre la cistitis inducida por ketamina (PubMed Central).\n\nLa revisión recomienda firmemente dejar la ketamina y señala que los casos tempranos suelen mejorar tras suspenderla, mientras que la recuperación puede ser incompleta cuando el daño es avanzado. No identifica un umbral especial de recuperación a los tres años; tres años representan un progreso duradero, aunque los resultados siguen siendo individuales.';
+
+  @override
+  String get ketamineReferenceDay1460 =>
+      'Cuatro años sin ketamina\n\nFuente: revisión integral de 2022 sobre la cistitis inducida por ketamina (PubMed Central).\n\nLa revisión recomienda firmemente dejar la ketamina y señala que los casos tempranos suelen mejorar tras suspenderla, mientras que la recuperación puede ser incompleta cuando el daño es avanzado. No asigna un acontecimiento biológico específico al cuarto año; cuatro años marcan una base firme de recuperación, no una promesa médica.';
+
+  @override
+  String get ketamineReferenceDay1825 =>
+      'Cinco años sin ketamina\n\nFuente: revisión integral de 2022 sobre la cistitis inducida por ketamina (PubMed Central).\n\nLa revisión recomienda firmemente dejar la ketamina y señala que los casos tempranos suelen mejorar tras suspenderla, mientras que la recuperación puede ser incompleta cuando el daño es avanzado. No define cinco años como un punto final biológico universal; el hito celebra un progreso sostenido importante sin afirmar una curación garantizada.';
 
   @override
   String get kratomReferenceDay1 =>
