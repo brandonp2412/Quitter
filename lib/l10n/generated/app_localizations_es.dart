@@ -2665,6 +2665,39 @@ class AppLocalizationsEs extends AppLocalizations {
       '¡Has construido una nueva vida! Dos años de recuperación demuestran una resiliencia y un compromiso extraordinarios. La abstinencia a largo plazo suele aportar cambios positivos profundos en todas las áreas de la vida y un riesgo de recaída considerablemente menor.';
 
   @override
+  String get customMilestone1095Title => 'Tres años: raíces profundas';
+
+  @override
+  String get customMilestone1095Description =>
+      'Tres años de recuperación son un progreso sostenido. Las rutinas, relaciones y habilidades que has practicado han tenido años para afianzarse. Sigue construyendo sobre lo que funciona.';
+
+  @override
+  String get customMilestone1460Title => 'Cuatro años: cambio duradero';
+
+  @override
+  String get customMilestone1460Description =>
+      'Cuatro años hacen visible un cambio duradero. Las decisiones y el apoyo que te trajeron hasta aquí ya forman parte de la vida cotidiana. Protégelos y sigue avanzando.';
+
+  @override
+  String get customMilestone1825Title => 'Cinco años: media década';
+
+  @override
+  String get customMilestone1825Description =>
+      'Cinco años son media década de progreso sostenido. Celebra la vida, las habilidades y la red de apoyo que has construido, y sigue cuidando las rutinas que te ayudan a prosperar.';
+
+  @override
+  String get customReferenceDay1095 =>
+      'Tres años de recuperación: raíces profundas\n\nFuente: NIDA, Drogas, cerebro y conducta: la ciencia de la adicción\n\nNIDA describe los trastornos por consumo de sustancias como tratables y la recuperación como dejar el consumo y retomar una vida productiva. No establece un plazo biológico universal de tres años para todas las sustancias.\n\nTres años son un logro duradero. Las rutinas, el apoyo y las decisiones que te trajeron hasta aquí han tenido años para arraigarse.';
+
+  @override
+  String get customReferenceDay1460 =>
+      'Cuatro años de recuperación: cambio duradero\n\nFuente: NIDA, Drogas, cerebro y conducta: la ciencia de la adicción\n\nNIDA presenta la adicción como una afección tratable que puede manejarse con éxito. No define un punto final de salud universal a los cuatro años para cada sustancia o persona.\n\nCuatro años hacen visible la constancia. Sigue protegiendo los hábitos, las relaciones y el apoyo que sostienen tu recuperación.';
+
+  @override
+  String get customReferenceDay1825 =>
+      'Cinco años de recuperación: media década\n\nFuente: NIDA, Drogas, cerebro y conducta: la ciencia de la adicción\n\nNIDA respalda el tratamiento y la recuperación basados en la evidencia, pero no afirma que todas las personas alcancen el mismo estado biológico a los cinco años.\n\nCinco años son media década de progreso sostenido. Celebra lo que has construido y sigue invirtiendo en lo que funciona.';
+
+  @override
   String get addictionSsri => 'ISRS';
 
   @override

@@ -2658,6 +2658,39 @@ class AppLocalizationsPl extends AppLocalizations {
       'Zbudowałeś nowe życie! Dwa lata odnowy wykazują niezwykłą odporność i zaangażowanie. Długoterminowa trzeźwość często przynosi głębokie pozytywne zmiany we wszystkich obszarach życia i znacznie zmniejszone ryzyko nawrotu.';
 
   @override
+  String get customMilestone1095Title => 'Trzy lata: mocne korzenie';
+
+  @override
+  String get customMilestone1095Description =>
+      'Trzy lata zdrowienia to trwały postęp. Rutyny, relacje i sposoby radzenia sobie miały lata, by się umocnić. Warto nadal rozwijać to, co działa.';
+
+  @override
+  String get customMilestone1460Title => 'Cztery lata: trwała zmiana';
+
+  @override
+  String get customMilestone1460Description =>
+      'Cztery lata pokazują trwałą zmianę. Wybory i wsparcie, które pozwoliły dojść tak daleko, są już częścią codzienności. Warto je chronić i iść dalej.';
+
+  @override
+  String get customMilestone1825Title => 'Pięć lat: pół dekady';
+
+  @override
+  String get customMilestone1825Description =>
+      'Pięć lat to pół dekady trwałego postępu. Warto świętować zbudowane życie, umiejętności i sieć wsparcia oraz nadal dbać o rutyny, które pomagają się rozwijać.';
+
+  @override
+  String get customReferenceDay1095 =>
+      'Trzy lata zdrowienia: mocne korzenie\n\nŹródło: NIDA, Narkotyki, mózg i zachowanie: nauka o uzależnieniu\n\nNIDA opisuje zaburzenia związane z używaniem substancji jako możliwe do leczenia, a zdrowienie jako zaprzestanie używania narkotyków i powrót do produktywnego życia. Nie wyznacza uniwersalnej biologicznej granicy trzech lat dla wszystkich substancji.\n\nTrzy lata to trwałe osiągnięcie. Rutyny, wsparcie i wybory, które doprowadziły do tego miejsca, miały lata, by się zakorzenić.';
+
+  @override
+  String get customReferenceDay1460 =>
+      'Cztery lata zdrowienia: trwała zmiana\n\nŹródło: NIDA, Narkotyki, mózg i zachowanie: nauka o uzależnieniu\n\nNIDA przedstawia uzależnienie jako stan możliwy do leczenia i skutecznego kontrolowania. Nie określa uniwersalnego czteroletniego punktu końcowego zdrowienia dla każdej substancji ani osoby.\n\nCztery lata pokazują siłę konsekwencji. Warto nadal chronić nawyki, relacje i wsparcie, które pomagają utrzymać zdrowienie.';
+
+  @override
+  String get customReferenceDay1825 =>
+      'Pięć lat zdrowienia: pół dekady\n\nŹródło: NIDA, Narkotyki, mózg i zachowanie: nauka o uzależnieniu\n\nNIDA wspiera leczenie i zdrowienie oparte na dowodach, ale nie twierdzi, że po pięciu latach każda osoba osiąga ten sam stan biologiczny.\n\nPięć lat to pół dekady trwałego postępu. Warto świętować to, co udało się zbudować, i nadal inwestować w to, co działa.';
+
+  @override
   String get addictionSsri => 'SSRI';
 
   @override

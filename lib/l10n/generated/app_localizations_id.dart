@@ -2639,6 +2639,39 @@ class AppLocalizationsId extends AppLocalizations {
       'Anda telah membangun kehidupan baru! Pemulihan selama dua tahun menunjukkan ketahanan dan komitmen yang luar biasa. Ketenangan jangka panjang sering kali membawa perubahan positif yang besar di semua bidang kehidupan dan secara signifikan mengurangi risiko kambuh.';
 
   @override
+  String get customMilestone1095Title => 'Tiga Tahun: Akar yang Kuat';
+
+  @override
+  String get customMilestone1095Description =>
+      'Tiga tahun pemulihan adalah kemajuan yang berkelanjutan. Rutinitas, hubungan, dan keterampilan menghadapi tantangan telah bertumbuh selama bertahun-tahun. Teruskan hal-hal yang terbukti membantu.';
+
+  @override
+  String get customMilestone1460Title => 'Empat Tahun: Perubahan Bertahan';
+
+  @override
+  String get customMilestone1460Description =>
+      'Empat tahun membuat perubahan yang bertahan terlihat nyata. Pilihan dan dukungan yang membawa Anda sampai di sini kini menjadi bagian dari keseharian. Jaga semuanya dan terus maju.';
+
+  @override
+  String get customMilestone1825Title => 'Lima Tahun: Setengah Dekade';
+
+  @override
+  String get customMilestone1825Description =>
+      'Lima tahun adalah setengah dekade kemajuan yang berkelanjutan. Rayakan kehidupan, keterampilan, dan jaringan dukungan yang telah Anda bangun, lalu terus rawat rutinitas yang membantu Anda berkembang.';
+
+  @override
+  String get customReferenceDay1095 =>
+      'Tiga Tahun Pemulihan: Akar yang Kuat\n\nSumber: NIDA, Narkoba, Otak, dan Perilaku: Ilmu tentang Adiksi\n\nNIDA menjelaskan gangguan penggunaan zat sebagai kondisi yang dapat diobati dan pemulihan sebagai berhenti menggunakan narkoba lalu kembali menjalani hidup yang produktif. Tidak ada batas biologis tiga tahun yang berlaku untuk semua zat.\n\nTiga tahun adalah pencapaian yang kokoh. Rutinitas, dukungan, dan pilihan yang membawa Anda ke sini telah bertumbuh selama bertahun-tahun.';
+
+  @override
+  String get customReferenceDay1460 =>
+      'Empat Tahun Pemulihan: Perubahan Bertahan\n\nSumber: NIDA, Narkoba, Otak, dan Perilaku: Ilmu tentang Adiksi\n\nNIDA memandang adiksi sebagai kondisi yang dapat diobati dan dikelola dengan baik. Tidak ada titik akhir kesehatan empat tahun yang berlaku untuk setiap zat atau setiap orang.\n\nEmpat tahun menunjukkan kekuatan konsistensi. Terus jaga kebiasaan, hubungan, dan dukungan yang membuat pemulihan tetap bertahan.';
+
+  @override
+  String get customReferenceDay1825 =>
+      'Lima Tahun Pemulihan: Setengah Dekade\n\nSumber: NIDA, Narkoba, Otak, dan Perilaku: Ilmu tentang Adiksi\n\nNIDA mendukung pengobatan dan pemulihan berbasis bukti, tetapi tidak menyatakan bahwa setiap orang mencapai kondisi biologis yang sama setelah lima tahun.\n\nLima tahun adalah setengah dekade kemajuan berkelanjutan. Rayakan apa yang telah Anda bangun dan terus pertahankan hal-hal yang terbukti membantu.';
+
+  @override
   String get addictionSsri => 'SSRI';
 
   @override

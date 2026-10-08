@@ -2212,6 +2212,15 @@
   "@customMilestone730Description": {
     "description": "Custom milestone day 730 description"
   },
+  "customMilestone1095Title": "Três anos: raízes fortes",
+  "customMilestone1095Description": "Três anos de recuperação representam progresso sustentado. As rotinas, relações e estratégias praticadas tiveram anos para se fortalecer. Continue construindo sobre o que funciona.",
+  "customMilestone1460Title": "Quatro anos: mudança duradoura",
+  "customMilestone1460Description": "Quatro anos tornam uma mudança duradoura visível. As escolhas e o apoio que trouxeram você até aqui já fazem parte do cotidiano. Proteja tudo isso e continue avançando.",
+  "customMilestone1825Title": "Cinco anos: meia década",
+  "customMilestone1825Description": "Cinco anos são meia década de progresso sustentado. Celebre a vida, as habilidades e a rede de apoio que você construiu e continue investindo nas rotinas que ajudam você a prosperar.",
+  "customReferenceDay1095": "Três anos de recuperação: raízes fortes\n\nFonte: NIDA, Drogas, cérebro e comportamento: a ciência da dependência\n\nA NIDA descreve os transtornos por uso de substâncias como tratáveis e a recuperação como parar de usar drogas e retomar uma vida produtiva. Ela não estabelece um prazo biológico universal de três anos para todas as substâncias.\n\nTrês anos são uma conquista duradoura. As rotinas, o apoio e as escolhas que trouxeram você até aqui tiveram anos para criar raízes.",
+  "customReferenceDay1460": "Quatro anos de recuperação: mudança duradoura\n\nFonte: NIDA, Drogas, cérebro e comportamento: a ciência da dependência\n\nA NIDA apresenta a dependência como uma condição tratável que pode ser administrada com sucesso. Ela não define um ponto final de saúde universal aos quatro anos para todas as substâncias ou pessoas.\n\nQuatro anos tornam a consistência visível. Continue protegendo os hábitos, as relações e o apoio que tornam a recuperação sustentável.",
+  "customReferenceDay1825": "Cinco anos de recuperação: meia década\n\nFonte: NIDA, Drogas, cérebro e comportamento: a ciência da dependência\n\nA NIDA apoia tratamento e recuperação baseados em evidências, mas não afirma que todas as pessoas atinjam o mesmo estado biológico depois de cinco anos.\n\nCinco anos são meia década de progresso sustentado. Celebre o que você construiu e continue investindo no que funciona.",
   "addictionSsri": "ISRSs",
   "@addictionSsri": {
     "description": "SSRI addiction name"

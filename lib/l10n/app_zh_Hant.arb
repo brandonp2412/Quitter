@@ -2170,6 +2170,15 @@
   "@customMilestone730Description": {
     "description": "Custom milestone day 730 description"
   },
+  "customMilestone1095Title": "三年：根基更穩",
+  "customMilestone1095Description": "三年的康復代表持續的進步。您維持的習慣、人際關係和應對方法已經有多年時間逐漸扎根。繼續鞏固真正適合您的做法。",
+  "customMilestone1460Title": "四年：改變更持久",
+  "customMilestone1460Description": "四年讓持久的改變清楚可見。幫助您走到今天的選擇和支持，如今已經融入日常生活。繼續珍惜並穩步前行。",
+  "customMilestone1825Title": "五年：半個十年",
+  "customMilestone1825Description": "五年是持續進步的半個十年。慶祝您建立的生活、能力和支持網絡，並繼續投入那些幫助您成長的習慣。",
+  "customReferenceDay1095": "康復三年：根基更穩\n\n來源：NIDA，《藥物、大腦與行為：成癮科學》\n\nNIDA指出，物質使用障礙可以治療，並將康復描述為停止使用藥物並重新過上有成效的生活。該資料沒有為所有物質設定統一的「三年生物學恢復終點」。\n\n三年本身就是一項持久的成就。幫助您走到這裡的習慣、支持和選擇，已經有多年時間逐漸扎根。",
+  "customReferenceDay1460": "康復四年：改變更持久\n\n來源：NIDA，《藥物、大腦與行為：成癮科學》\n\nNIDA將成癮描述為可以治療並成功管理的狀況，但沒有為每種物質或每個人設定統一的「四年健康終點」。\n\n四年讓堅持的力量清楚可見。繼續保護那些讓康復更可持續的習慣、人際關係和支持。",
+  "customReferenceDay1825": "康復五年：半個十年\n\n來源：NIDA，《藥物、大腦與行為：成癮科學》\n\nNIDA支持實證治療與康復，但並未聲稱每個人在五年後都會達到相同的生物學狀態。\n\n五年是持續進步的半個十年。慶祝您已經建立的一切，並繼續投入真正有效的做法。",
   "addictionSsri": "SSRI",
   "@addictionSsri": {
     "description": "SSRI addiction name"

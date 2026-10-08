@@ -2524,6 +2524,39 @@ class AppLocalizationsKo extends AppLocalizations {
       '당신은 새로운 삶을 구축했습니다! 2년간의 회복은 놀라운 회복력과 헌신을 보여줍니다. 장기간의 절주는 종종 삶의 모든 영역에서 심오하고 긍정적인 변화를 가져오고 재발 위험을 크게 감소시킵니다.';
 
   @override
+  String get customMilestone1095Title => '3년: 깊게 내린 뿌리';
+
+  @override
+  String get customMilestone1095Description =>
+      '3년의 회복은 꾸준히 쌓아 온 진전입니다. 실천해 온 습관과 관계, 대처 기술은 여러 해 동안 단단해질 시간을 가졌습니다. 도움이 되는 것을 계속 이어 가세요.';
+
+  @override
+  String get customMilestone1460Title => '4년: 오래가는 변화';
+
+  @override
+  String get customMilestone1460Description =>
+      '4년은 오래가는 변화를 눈에 보이게 합니다. 여기까지 이끈 선택과 지원은 이제 일상의 일부가 되었습니다. 소중히 지키며 계속 나아가세요.';
+
+  @override
+  String get customMilestone1825Title => '5년: 큰 이정표';
+
+  @override
+  String get customMilestone1825Description =>
+      '5년은 꾸준한 진전이 쌓인 큰 기념일입니다. 만들어 온 삶과 기술, 지원망을 축하하고 앞으로도 도움이 되는 습관에 힘을 주세요.';
+
+  @override
+  String get customReferenceDay1095 =>
+      '회복 3년: 깊게 내린 뿌리\n\n출처: NIDA, 약물·뇌·행동: 중독의 과학\n\nNIDA는 물질사용장애를 치료할 수 있는 상태로 설명하고, 회복을 약물 사용을 멈추고 생산적인 삶으로 돌아가는 과정으로 설명합니다. 모든 물질에 공통으로 적용되는 3년의 생물학적 완료 시점을 제시하지는 않습니다.\n\n3년 자체가 오래 이어진 성취입니다. 여기까지 이끈 습관과 지원, 선택은 여러 해 동안 뿌리내릴 시간을 가졌습니다.';
+
+  @override
+  String get customReferenceDay1460 =>
+      '회복 4년: 오래가는 변화\n\n출처: NIDA, 약물·뇌·행동: 중독의 과학\n\nNIDA는 중독을 치료하고 성공적으로 관리할 수 있는 상태로 설명합니다. 모든 물질이나 모든 사람에게 적용되는 4년의 건강상 종착점을 정하지 않습니다.\n\n4년은 꾸준함의 힘을 보여 줍니다. 회복을 지속 가능하게 하는 습관과 관계, 지원을 계속 지켜 주세요.';
+
+  @override
+  String get customReferenceDay1825 =>
+      '회복 5년: 큰 이정표의 걸음\n\n출처: NIDA, 약물·뇌·행동: 중독의 과학\n\nNIDA는 근거에 기반한 치료와 회복을 지지하지만, 5년 뒤 모든 사람이 같은 생물학적 상태에 도달한다고 주장하지 않습니다.\n\n5년은 꾸준한 진전이 쌓인 큰 기간입니다. 지금까지 만든 것을 축하하고 도움이 되는 것에 계속 힘을 주세요.';
+
+  @override
   String get addictionSsri => 'SSRI';
 
   @override

@@ -2650,6 +2650,39 @@ class AppLocalizationsDe extends AppLocalizations {
       'Du hast dir ein neues Leben aufgebaut! Zwei Jahre Erholung zeigen bemerkenswerte Widerstandsfähigkeit und Engagement. Langfristige Nüchternheit bringt oft tiefgreifende positive Veränderungen in allen Bereichen des Lebens und deutlich reduziertes Risiko eines Rückfalls.';
 
   @override
+  String get customMilestone1095Title => 'Drei Jahre: Tiefe Wurzeln';
+
+  @override
+  String get customMilestone1095Description =>
+      'Drei Jahre Genesung sind nachhaltiger Fortschritt. Routinen, Beziehungen und Bewältigungsstrategien konnten sich über Jahre festigen. Bauen Sie weiter auf dem auf, was Ihnen hilft.';
+
+  @override
+  String get customMilestone1460Title => 'Vier Jahre: Dauerhafte Veränderung';
+
+  @override
+  String get customMilestone1460Description =>
+      'Vier Jahre machen dauerhafte Veränderung sichtbar. Die Entscheidungen und die Unterstützung, die Sie hierhergebracht haben, gehören inzwischen zum Alltag. Schützen Sie sie und gehen Sie weiter.';
+
+  @override
+  String get customMilestone1825Title => 'Fünf Jahre: Ein halbes Jahrzehnt';
+
+  @override
+  String get customMilestone1825Description =>
+      'Fünf Jahre sind ein halbes Jahrzehnt nachhaltigen Fortschritts. Feiern Sie das Leben, die Fähigkeiten und das Unterstützungsnetz, das Sie aufgebaut haben, und pflegen Sie weiter, was Ihnen guttut.';
+
+  @override
+  String get customReferenceDay1095 =>
+      'Drei Jahre Genesung: Tiefe Wurzeln\n\nQuelle: NIDA, Drogen, Gehirn und Verhalten: Die Wissenschaft der Abhängigkeit\n\nNIDA beschreibt Substanzgebrauchsstörungen als behandelbar und Genesung als Weg weg vom Drogenkonsum hin zu einem produktiven Leben. Es gibt keinen allgemeinen biologischen Drei-Jahres-Endpunkt für alle Substanzen.\n\nDrei Jahre sind eine beständige Leistung. Routinen, Unterstützung und Entscheidungen konnten über Jahre Wurzeln schlagen.';
+
+  @override
+  String get customReferenceDay1460 =>
+      'Vier Jahre Genesung: Dauerhafte Veränderung\n\nQuelle: NIDA, Drogen, Gehirn und Verhalten: Die Wissenschaft der Abhängigkeit\n\nNIDA beschreibt Abhängigkeit als behandelbare Erkrankung, die erfolgreich bewältigt werden kann. Einen allgemeinen gesundheitlichen Endpunkt nach vier Jahren für jede Substanz und jede Person gibt es nicht.\n\nVier Jahre machen Beständigkeit sichtbar. Schützen Sie weiter die Gewohnheiten, Beziehungen und Unterstützung, die Ihre Genesung tragen.';
+
+  @override
+  String get customReferenceDay1825 =>
+      'Fünf Jahre Genesung: Ein halbes Jahrzehnt\n\nQuelle: NIDA, Drogen, Gehirn und Verhalten: Die Wissenschaft der Abhängigkeit\n\nNIDA unterstützt evidenzbasierte Behandlung und Genesung, behauptet aber nicht, dass jeder Mensch nach fünf Jahren denselben biologischen Zustand erreicht.\n\nFünf Jahre sind ein halbes Jahrzehnt nachhaltigen Fortschritts. Feiern Sie, was Sie aufgebaut haben, und investieren Sie weiter in das, was funktioniert.';
+
+  @override
   String get addictionSsri => 'SSRI';
 
   @override

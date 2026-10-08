@@ -4548,6 +4548,60 @@ abstract class AppLocalizations {
   /// **'You\'ve built a new life! Two years of recovery demonstrates remarkable resilience and commitment. Long-term sobriety often brings profound positive changes in all areas of life and significantly reduced risk of relapse.'**
   String get customMilestone730Description;
 
+  /// No description provided for @customMilestone1095Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Three Years: Deep Roots'**
+  String get customMilestone1095Title;
+
+  /// No description provided for @customMilestone1095Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Three years of recovery is sustained progress. The routines, relationships, and coping skills you\'ve practiced have had years to deepen. Keep building on what works.'**
+  String get customMilestone1095Description;
+
+  /// No description provided for @customMilestone1460Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Four Years: Lasting Change'**
+  String get customMilestone1460Title;
+
+  /// No description provided for @customMilestone1460Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Four years is lasting change made visible through consistency. The choices and support that carried you here are part of daily life now. Protect them and keep moving forward.'**
+  String get customMilestone1460Description;
+
+  /// No description provided for @customMilestone1825Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Five Years: Half a Decade'**
+  String get customMilestone1825Title;
+
+  /// No description provided for @customMilestone1825Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Five years is half a decade of sustained progress. Celebrate the life, skills, and support network you\'ve built, and keep investing in the routines that help you thrive.'**
+  String get customMilestone1825Description;
+
+  /// No description provided for @customReferenceDay1095.
+  ///
+  /// In en, this message translates to:
+  /// **'Three Years of Recovery: Deep Roots\n\nSource: NIDA, Drugs, Brains, and Behavior: The Science of Addiction\n\nNIDA describes substance use disorders as treatable and recovery as stopping drug use and resuming a productive life. It does not set a universal three-year biological recovery deadline across substances.\n\nThree years is a durable achievement in its own right. The routines, support, and choices that carried you here have had years to take root.'**
+  String get customReferenceDay1095;
+
+  /// No description provided for @customReferenceDay1460.
+  ///
+  /// In en, this message translates to:
+  /// **'Four Years of Recovery: Lasting Change\n\nSource: NIDA, Drugs, Brains, and Behavior: The Science of Addiction\n\nNIDA presents addiction as a treatable condition that can be managed successfully. It does not define a universal four-year health endpoint for every substance or person.\n\nFour years is lasting change made visible through consistency. Keep protecting the habits, relationships, and support that make recovery sustainable.'**
+  String get customReferenceDay1460;
+
+  /// No description provided for @customReferenceDay1825.
+  ///
+  /// In en, this message translates to:
+  /// **'Five Years of Recovery: Half a Decade\n\nSource: NIDA, Drugs, Brains, and Behavior: The Science of Addiction\n\nNIDA supports evidence-based treatment and recovery but does not claim that every person reaches the same biological state at five years.\n\nFive years is half a decade of sustained progress. Celebrate the life, skills, and support network you have built and keep investing in what works.'**
+  String get customReferenceDay1825;
+
   /// SSRI addiction name
   ///
   /// In en, this message translates to:

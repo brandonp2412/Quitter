@@ -2170,6 +2170,15 @@
   "@customMilestone730Description": {
     "description": "Custom milestone day 730 description"
   },
+  "customMilestone1095Title": "三年：根基更稳",
+  "customMilestone1095Description": "三年的康复代表持续的进步。您坚持的习惯、人际关系和应对方法已经有多年时间逐渐扎根。继续巩固真正适合您的做法。",
+  "customMilestone1460Title": "四年：改变更持久",
+  "customMilestone1460Description": "四年让持久的改变清晰可见。帮助您走到今天的选择和支持，如今已经融入日常生活。继续珍惜并稳步前行。",
+  "customMilestone1825Title": "五年：半个十年",
+  "customMilestone1825Description": "五年是持续进步的半个十年。庆祝您建立的生活、能力和支持网络，并继续投入那些帮助您成长的习惯。",
+  "customReferenceDay1095": "康复三年：根基更稳\n\n来源：NIDA，《药物、大脑与行为：成瘾科学》\n\nNIDA指出，物质使用障碍是可以治疗的，并将康复描述为停止使用药物并重新过上有成效的生活。该资料没有为所有物质设定统一的“三年生物学恢复终点”。\n\n三年本身就是一项持久的成就。帮助您走到这里的习惯、支持和选择，已经有多年时间逐渐扎根。",
+  "customReferenceDay1460": "康复四年：改变更持久\n\n来源：NIDA，《药物、大脑与行为：成瘾科学》\n\nNIDA将成瘾描述为可以治疗并成功管理的状况，但没有为每种物质或每个人设定统一的“四年健康终点”。\n\n四年让坚持的力量清晰可见。继续保护那些让康复更可持续的习惯、人际关系和支持。",
+  "customReferenceDay1825": "康复五年：半个十年\n\n来源：NIDA，《药物、大脑与行为：成瘾科学》\n\nNIDA支持循证治疗与康复，但并未声称每个人在五年后都会达到相同的生物学状态。\n\n五年是持续进步的半个十年。庆祝您已经建立的一切，并继续投入真正有效的做法。",
   "addictionSsri": "SSRI",
   "@addictionSsri": {
     "description": "SSRI addiction name"

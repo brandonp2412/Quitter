@@ -2686,6 +2686,39 @@ class AppLocalizationsFr extends AppLocalizations {
       'Vous avez construit une nouvelle vie ! Deux ans de rétablissement démontrent une résilience et un engagement remarquables. L\'abstinence à long terme apporte souvent de profonds changements positifs dans tous les domaines de la vie et réduit nettement le risque de rechute.';
 
   @override
+  String get customMilestone1095Title => 'Trois ans : des racines solides';
+
+  @override
+  String get customMilestone1095Description =>
+      'Trois ans de rétablissement représentent un progrès durable. Les habitudes, les relations et les stratégies travaillées ont eu le temps de s\'ancrer. Continuez à renforcer ce qui fonctionne.';
+
+  @override
+  String get customMilestone1460Title => 'Quatre ans : un changement durable';
+
+  @override
+  String get customMilestone1460Description =>
+      'Quatre ans rendent le changement durable visible. Les choix et les soutiens qui vous ont mené jusque-là font désormais partie du quotidien. Préservez-les et continuez d\'avancer.';
+
+  @override
+  String get customMilestone1825Title => 'Cinq ans : une demi-décennie';
+
+  @override
+  String get customMilestone1825Description =>
+      'Cinq ans représentent une demi-décennie de progrès durable. Célébrez la vie, les compétences et le réseau de soutien construits, puis continuez à cultiver les habitudes qui vous font avancer.';
+
+  @override
+  String get customReferenceDay1095 =>
+      'Trois ans de rétablissement : des racines solides\n\nSource : NIDA, Drogues, cerveau et comportement : la science de l\'addiction\n\nNIDA décrit les troubles liés à l\'usage de substances comme traitables et le rétablissement comme l\'arrêt de la consommation suivi d\'un retour à une vie productive. Aucun délai biologique universel de trois ans n\'est fixé pour toutes les substances.\n\nTrois ans constituent une réussite durable. Les habitudes, les soutiens et les choix qui vous ont conduit ici ont eu des années pour s\'ancrer.';
+
+  @override
+  String get customReferenceDay1460 =>
+      'Quatre ans de rétablissement : un changement durable\n\nSource : NIDA, Drogues, cerveau et comportement : la science de l\'addiction\n\nNIDA présente l\'addiction comme un trouble traitable qui peut être pris en charge avec succès. Elle ne définit pas de point final universel de santé à quatre ans pour chaque substance ou chaque personne.\n\nQuatre ans rendent la constance visible. Continuez à protéger les habitudes, les relations et les soutiens qui rendent le rétablissement durable.';
+
+  @override
+  String get customReferenceDay1825 =>
+      'Cinq ans de rétablissement : une demi-décennie\n\nSource : NIDA, Drogues, cerveau et comportement : la science de l\'addiction\n\nNIDA soutient les traitements et le rétablissement fondés sur les preuves, sans affirmer que chaque personne atteint le même état biologique au bout de cinq ans.\n\nCinq ans représentent une demi-décennie de progrès durable. Célébrez ce que vous avez construit et continuez à investir dans ce qui fonctionne.';
+
+  @override
   String get addictionSsri => 'ISRS';
 
   @override

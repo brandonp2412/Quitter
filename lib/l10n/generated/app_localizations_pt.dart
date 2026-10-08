@@ -2662,6 +2662,39 @@ class AppLocalizationsPt extends AppLocalizations {
       'Construiu uma nova vida! Dois anos de recuperação demonstram uma resiliência e um compromisso notáveis. A sobriedade a longo prazo traz frequentemente mudanças positivas profundas em todas as áreas da vida e reduz significativamente o risco de recaída.';
 
   @override
+  String get customMilestone1095Title => 'Três anos: raízes firmes';
+
+  @override
+  String get customMilestone1095Description =>
+      'Três anos de recuperação representam progresso sustentado. As rotinas, relações e estratégias praticadas tiveram anos para se consolidar. Continue a reforçar o que resulta.';
+
+  @override
+  String get customMilestone1460Title => 'Quatro anos: mudança duradoura';
+
+  @override
+  String get customMilestone1460Description =>
+      'Quatro anos tornam visível uma mudança duradoura. As escolhas e o apoio que permitiram chegar até aqui já fazem parte do quotidiano. Proteja-os e continue a avançar.';
+
+  @override
+  String get customMilestone1825Title => 'Cinco anos: meia década';
+
+  @override
+  String get customMilestone1825Description =>
+      'Cinco anos são meia década de progresso sustentado. Celebre a vida, as capacidades e a rede de apoio que construiu e continue a investir nas rotinas que ajudam a prosperar.';
+
+  @override
+  String get customReferenceDay1095 =>
+      'Três anos de recuperação: raízes firmes\n\nFonte: NIDA, Drogas, cérebro e comportamento: a ciência da dependência\n\nA NIDA descreve as perturbações por uso de substâncias como tratáveis e a recuperação como a interrupção do consumo e o regresso a uma vida produtiva. Não estabelece um prazo biológico universal de três anos para todas as substâncias.\n\nTrês anos são uma conquista duradoura. As rotinas, o apoio e as escolhas que permitiram chegar até aqui tiveram anos para criar raízes.';
+
+  @override
+  String get customReferenceDay1460 =>
+      'Quatro anos de recuperação: mudança duradoura\n\nFonte: NIDA, Drogas, cérebro e comportamento: a ciência da dependência\n\nA NIDA apresenta a dependência como uma condição tratável que pode ser gerida com sucesso. Não define um ponto final de saúde universal aos quatro anos para todas as substâncias ou pessoas.\n\nQuatro anos tornam a consistência visível. Continue a proteger os hábitos, as relações e o apoio que tornam a recuperação sustentável.';
+
+  @override
+  String get customReferenceDay1825 =>
+      'Cinco anos de recuperação: meia década\n\nFonte: NIDA, Drogas, cérebro e comportamento: a ciência da dependência\n\nA NIDA apoia tratamento e recuperação baseados em evidência, mas não afirma que todas as pessoas atinjam o mesmo estado biológico ao fim de cinco anos.\n\nCinco anos são meia década de progresso sustentado. Celebre o que construiu e continue a investir no que resulta.';
+
+  @override
   String get addictionSsri => 'ISRSs';
 
   @override
@@ -6522,6 +6555,39 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
   @override
   String get customMilestone730Description =>
       'Você construiu uma nova vida!Dois anos de recuperação demonstram uma resiliência e um compromisso notáveis. A sobriedade a longo prazo traz frequentemente mudanças positivas profundas em todas as áreas da vida e reduz significativamente o risco de recaída.';
+
+  @override
+  String get customMilestone1095Title => 'Três anos: raízes fortes';
+
+  @override
+  String get customMilestone1095Description =>
+      'Três anos de recuperação representam progresso sustentado. As rotinas, relações e estratégias praticadas tiveram anos para se fortalecer. Continue construindo sobre o que funciona.';
+
+  @override
+  String get customMilestone1460Title => 'Quatro anos: mudança duradoura';
+
+  @override
+  String get customMilestone1460Description =>
+      'Quatro anos tornam uma mudança duradoura visível. As escolhas e o apoio que trouxeram você até aqui já fazem parte do cotidiano. Proteja tudo isso e continue avançando.';
+
+  @override
+  String get customMilestone1825Title => 'Cinco anos: meia década';
+
+  @override
+  String get customMilestone1825Description =>
+      'Cinco anos são meia década de progresso sustentado. Celebre a vida, as habilidades e a rede de apoio que você construiu e continue investindo nas rotinas que ajudam você a prosperar.';
+
+  @override
+  String get customReferenceDay1095 =>
+      'Três anos de recuperação: raízes fortes\n\nFonte: NIDA, Drogas, cérebro e comportamento: a ciência da dependência\n\nA NIDA descreve os transtornos por uso de substâncias como tratáveis e a recuperação como parar de usar drogas e retomar uma vida produtiva. Ela não estabelece um prazo biológico universal de três anos para todas as substâncias.\n\nTrês anos são uma conquista duradoura. As rotinas, o apoio e as escolhas que trouxeram você até aqui tiveram anos para criar raízes.';
+
+  @override
+  String get customReferenceDay1460 =>
+      'Quatro anos de recuperação: mudança duradoura\n\nFonte: NIDA, Drogas, cérebro e comportamento: a ciência da dependência\n\nA NIDA apresenta a dependência como uma condição tratável que pode ser administrada com sucesso. Ela não define um ponto final de saúde universal aos quatro anos para todas as substâncias ou pessoas.\n\nQuatro anos tornam a consistência visível. Continue protegendo os hábitos, as relações e o apoio que tornam a recuperação sustentável.';
+
+  @override
+  String get customReferenceDay1825 =>
+      'Cinco anos de recuperação: meia década\n\nFonte: NIDA, Drogas, cérebro e comportamento: a ciência da dependência\n\nA NIDA apoia tratamento e recuperação baseados em evidências, mas não afirma que todas as pessoas atinjam o mesmo estado biológico depois de cinco anos.\n\nCinco anos são meia década de progresso sustentado. Celebre o que você construiu e continue investindo no que funciona.';
 
   @override
   String get addictionSsri => 'ISRSs';

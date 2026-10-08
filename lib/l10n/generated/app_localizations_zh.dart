@@ -2477,6 +2477,39 @@ class AppLocalizationsZh extends AppLocalizations {
       '您已经建立起新的生活！两年的康复体现了非凡的韧性和坚持。长期保持戒除状态通常会给生活各方面带来深刻的积极变化，并显著降低复发风险。';
 
   @override
+  String get customMilestone1095Title => '三年：根基更稳';
+
+  @override
+  String get customMilestone1095Description =>
+      '三年的康复代表持续的进步。您坚持的习惯、人际关系和应对方法已经有多年时间逐渐扎根。继续巩固真正适合您的做法。';
+
+  @override
+  String get customMilestone1460Title => '四年：改变更持久';
+
+  @override
+  String get customMilestone1460Description =>
+      '四年让持久的改变清晰可见。帮助您走到今天的选择和支持，如今已经融入日常生活。继续珍惜并稳步前行。';
+
+  @override
+  String get customMilestone1825Title => '五年：半个十年';
+
+  @override
+  String get customMilestone1825Description =>
+      '五年是持续进步的半个十年。庆祝您建立的生活、能力和支持网络，并继续投入那些帮助您成长的习惯。';
+
+  @override
+  String get customReferenceDay1095 =>
+      '康复三年：根基更稳\n\n来源：NIDA，《药物、大脑与行为：成瘾科学》\n\nNIDA指出，物质使用障碍是可以治疗的，并将康复描述为停止使用药物并重新过上有成效的生活。该资料没有为所有物质设定统一的“三年生物学恢复终点”。\n\n三年本身就是一项持久的成就。帮助您走到这里的习惯、支持和选择，已经有多年时间逐渐扎根。';
+
+  @override
+  String get customReferenceDay1460 =>
+      '康复四年：改变更持久\n\n来源：NIDA，《药物、大脑与行为：成瘾科学》\n\nNIDA将成瘾描述为可以治疗并成功管理的状况，但没有为每种物质或每个人设定统一的“四年健康终点”。\n\n四年让坚持的力量清晰可见。继续保护那些让康复更可持续的习惯、人际关系和支持。';
+
+  @override
+  String get customReferenceDay1825 =>
+      '康复五年：半个十年\n\n来源：NIDA，《药物、大脑与行为：成瘾科学》\n\nNIDA支持循证治疗与康复，但并未声称每个人在五年后都会达到相同的生物学状态。\n\n五年是持续进步的半个十年。庆祝您已经建立的一切，并继续投入真正有效的做法。';
+
+  @override
   String get addictionSsri => 'SSRI';
 
   @override
@@ -6124,6 +6157,39 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   @override
   String get customMilestone730Description =>
       '您已經建立起新的生活！兩年的康復體現了非凡的韌性和堅持。長期保持戒除狀態通常會給生活各方面帶來深刻的積極變化，並顯著降低復發風險。';
+
+  @override
+  String get customMilestone1095Title => '三年：根基更穩';
+
+  @override
+  String get customMilestone1095Description =>
+      '三年的康復代表持續的進步。您維持的習慣、人際關係和應對方法已經有多年時間逐漸扎根。繼續鞏固真正適合您的做法。';
+
+  @override
+  String get customMilestone1460Title => '四年：改變更持久';
+
+  @override
+  String get customMilestone1460Description =>
+      '四年讓持久的改變清楚可見。幫助您走到今天的選擇和支持，如今已經融入日常生活。繼續珍惜並穩步前行。';
+
+  @override
+  String get customMilestone1825Title => '五年：半個十年';
+
+  @override
+  String get customMilestone1825Description =>
+      '五年是持續進步的半個十年。慶祝您建立的生活、能力和支持網絡，並繼續投入那些幫助您成長的習慣。';
+
+  @override
+  String get customReferenceDay1095 =>
+      '康復三年：根基更穩\n\n來源：NIDA，《藥物、大腦與行為：成癮科學》\n\nNIDA指出，物質使用障礙可以治療，並將康復描述為停止使用藥物並重新過上有成效的生活。該資料沒有為所有物質設定統一的「三年生物學恢復終點」。\n\n三年本身就是一項持久的成就。幫助您走到這裡的習慣、支持和選擇，已經有多年時間逐漸扎根。';
+
+  @override
+  String get customReferenceDay1460 =>
+      '康復四年：改變更持久\n\n來源：NIDA，《藥物、大腦與行為：成癮科學》\n\nNIDA將成癮描述為可以治療並成功管理的狀況，但沒有為每種物質或每個人設定統一的「四年健康終點」。\n\n四年讓堅持的力量清楚可見。繼續保護那些讓康復更可持續的習慣、人際關係和支持。';
+
+  @override
+  String get customReferenceDay1825 =>
+      '康復五年：半個十年\n\n來源：NIDA，《藥物、大腦與行為：成癮科學》\n\nNIDA支持實證治療與康復，但並未聲稱每個人在五年後都會達到相同的生物學狀態。\n\n五年是持續進步的半個十年。慶祝您已經建立的一切，並繼續投入真正有效的做法。';
 
   @override
   String get addictionSsri => 'SSRI';

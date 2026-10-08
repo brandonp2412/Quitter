@@ -2597,6 +2597,39 @@ class AppLocalizationsEn extends AppLocalizations {
       'You\'ve built a new life! Two years of recovery demonstrates remarkable resilience and commitment. Long-term sobriety often brings profound positive changes in all areas of life and significantly reduced risk of relapse.';
 
   @override
+  String get customMilestone1095Title => 'Three Years: Deep Roots';
+
+  @override
+  String get customMilestone1095Description =>
+      'Three years of recovery is sustained progress. The routines, relationships, and coping skills you\'ve practiced have had years to deepen. Keep building on what works.';
+
+  @override
+  String get customMilestone1460Title => 'Four Years: Lasting Change';
+
+  @override
+  String get customMilestone1460Description =>
+      'Four years is lasting change made visible through consistency. The choices and support that carried you here are part of daily life now. Protect them and keep moving forward.';
+
+  @override
+  String get customMilestone1825Title => 'Five Years: Half a Decade';
+
+  @override
+  String get customMilestone1825Description =>
+      'Five years is half a decade of sustained progress. Celebrate the life, skills, and support network you\'ve built, and keep investing in the routines that help you thrive.';
+
+  @override
+  String get customReferenceDay1095 =>
+      'Three Years of Recovery: Deep Roots\n\nSource: NIDA, Drugs, Brains, and Behavior: The Science of Addiction\n\nNIDA describes substance use disorders as treatable and recovery as stopping drug use and resuming a productive life. It does not set a universal three-year biological recovery deadline across substances.\n\nThree years is a durable achievement in its own right. The routines, support, and choices that carried you here have had years to take root.';
+
+  @override
+  String get customReferenceDay1460 =>
+      'Four Years of Recovery: Lasting Change\n\nSource: NIDA, Drugs, Brains, and Behavior: The Science of Addiction\n\nNIDA presents addiction as a treatable condition that can be managed successfully. It does not define a universal four-year health endpoint for every substance or person.\n\nFour years is lasting change made visible through consistency. Keep protecting the habits, relationships, and support that make recovery sustainable.';
+
+  @override
+  String get customReferenceDay1825 =>
+      'Five Years of Recovery: Half a Decade\n\nSource: NIDA, Drugs, Brains, and Behavior: The Science of Addiction\n\nNIDA supports evidence-based treatment and recovery but does not claim that every person reaches the same biological state at five years.\n\nFive years is half a decade of sustained progress. Celebrate the life, skills, and support network you have built and keep investing in what works.';
+
+  @override
   String get addictionSsri => 'SSRIs';
 
   @override
