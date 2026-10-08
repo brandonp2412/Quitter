@@ -3684,6 +3684,50 @@ class AppLocalizationsZh extends AppLocalizations {
   @override
   String get alcoholReferenceDay1825 =>
       '戒酒五年：重要里程碑\n\n来源：NIAAA，Recovery Research Definitions\n\nNIAAA 把一至五年称为持续期，把超过五年称为稳定期。因此正好五年仍位于持续期的最末端。该框架还包括 AUD 症状缓解，所以不能仅凭戒酒就作出临床诊断。\n\n五年不饮酒是 1,825 天持续维持改变。无需虚构证据不支持的医学终点，半个十年的坚持本身就值得充分肯定。';
+
+  @override
+  String get ghbMilestone730Title => '两年：稳步前行';
+
+  @override
+  String get ghbMilestone730Description =>
+      '不使用 GHB 满两年，代表持续改变了 730 天。SAMHSA 将康复描述为持续且因人而异的过程，因此这个里程碑庆祝的是坚持，而不是统一的医学终点。';
+
+  @override
+  String get ghbReferenceDay730 =>
+      '不使用 GHB 两年：稳步前行\n\n来源：SAMHSA，康复与康复支持\n\nSAMHSA 将康复描述为持续且因人而异的改变过程，并未为这些周年设定 GHB 特有的生物学终点。\n\n两年意味着沿着不同方向坚持了 730 天。这份持续性，以及帮助维持它的人、习惯和支持，都值得肯定。';
+
+  @override
+  String get ghbMilestone1095Title => '三年：根基更稳';
+
+  @override
+  String get ghbMilestone1095Description =>
+      '不使用 GHB 满三年，代表保持改变了 1,095 天。康复因人而异；这个里程碑肯定的是逐步建立的稳定，而不是虚构的生物学期限。';
+
+  @override
+  String get ghbReferenceDay1095 =>
+      '不使用 GHB 三年：根基更稳\n\n来源：SAMHSA，康复与康复支持\n\nSAMHSA 将康复描述为持续且因人而异的改变过程，并未为这些周年设定 GHB 特有的生物学终点。\n\n三年意味着保持改变了 1,095 天。这是一段重要的稳定记录，也体现了对康复支持基础的长期维护。';
+
+  @override
+  String get ghbMilestone1460Title => '四年：改变持久';
+
+  @override
+  String get ghbMilestone1460Description =>
+      '不使用 GHB 满四年，代表持久改变了 1,460 天。成就的价值就在于这种持续性，以及帮助维持它的习惯、关系与支持。';
+
+  @override
+  String get ghbReferenceDay1460 =>
+      '不使用 GHB 四年：改变持久\n\n来源：SAMHSA，康复与康复支持\n\nSAMHSA 将康复描述为持续且因人而异的改变过程，并未为这些周年设定 GHB 特有的生物学终点。\n\n四年意味着在日常生活中持续改变了 1,460 天。这样的持久本身就是值得庆祝的成就。';
+
+  @override
+  String get ghbMilestone1825Title => '五年：重要里程碑';
+
+  @override
+  String get ghbMilestone1825Description =>
+      '不使用 GHB 满五年，代表保持改变了整整五年。SAMHSA 将康复视为持续过程，因此 1,825 天本身就是值得庆祝的里程碑。';
+
+  @override
+  String get ghbReferenceDay1825 =>
+      '不使用 GHB 五年：重要里程碑\n\n来源：SAMHSA，康复与康复支持\n\nSAMHSA 将康复描述为持续且因人而异的改变过程，并未为这些周年设定 GHB 特有的生物学终点。\n\n五年意味着保持改变了 1,825 天。长期反复做出同一方向的选择，值得真正的认可。';
 }
 
 /// The translations for Chinese, using the Han script (`zh_Hant`).
@@ -7366,4 +7410,48 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   @override
   String get alcoholReferenceDay1825 =>
       '戒酒五年：重要里程碑\n\n來源：NIAAA，Recovery Research Definitions\n\nNIAAA 把一至五年稱為持續期，把超過五年稱為穩定期。因此正好五年仍位於持續期的最末端。該框架還包括 AUD 症狀緩解，所以不能僅憑戒酒就作出臨床診斷。\n\n五年不飲酒是 1,825 天持續維持改變。無需虛構證據不支持的醫學終點，半個十年的堅持本身就值得充分肯定。';
+
+  @override
+  String get ghbMilestone730Title => '兩年：穩步前行';
+
+  @override
+  String get ghbMilestone730Description =>
+      '不使用 GHB 滿兩年，代表持續改變了 730 天。SAMHSA 將復元描述為持續且因人而異的過程，因此這個里程碑慶祝的是堅持，而不是統一的醫學終點。';
+
+  @override
+  String get ghbReferenceDay730 =>
+      '不使用 GHB 兩年：穩步前行\n\n來源：SAMHSA，復元與復元支持\n\nSAMHSA 將復元描述為持續且因人而異的改變過程，並未為這些週年設定 GHB 特有的生物學終點。\n\n兩年代表沿著不同方向持續了 730 天。這份持續性，以及協助維持它的人、習慣與支持，都值得肯定。';
+
+  @override
+  String get ghbMilestone1095Title => '三年：根基更穩';
+
+  @override
+  String get ghbMilestone1095Description =>
+      '不使用 GHB 滿三年，代表維持改變了 1,095 天。復元因人而異；這個里程碑肯定的是逐步建立的穩定，而不是虛構的生物學期限。';
+
+  @override
+  String get ghbReferenceDay1095 =>
+      '不使用 GHB 三年：根基更穩\n\n來源：SAMHSA，復元與復元支持\n\nSAMHSA 將復元描述為持續且因人而異的改變過程，並未為這些週年設定 GHB 特有的生物學終點。\n\n三年代表維持改變了 1,095 天。這是一段重要的穩定紀錄，也體現了對復元支持基礎的長期維護。';
+
+  @override
+  String get ghbMilestone1460Title => '四年：改變持久';
+
+  @override
+  String get ghbMilestone1460Description =>
+      '不使用 GHB 滿四年，代表持久改變了 1,460 天。成就的價值就在於這份持續性，以及協助維持它的習慣、關係與支持。';
+
+  @override
+  String get ghbReferenceDay1460 =>
+      '不使用 GHB 四年：改變持久\n\n來源：SAMHSA，復元與復元支持\n\nSAMHSA 將復元描述為持續且因人而異的改變過程，並未為這些週年設定 GHB 特有的生物學終點。\n\n四年代表在日常生活中持續改變了 1,460 天。這樣的持久本身就是值得慶祝的成就。';
+
+  @override
+  String get ghbMilestone1825Title => '五年：重要里程碑';
+
+  @override
+  String get ghbMilestone1825Description =>
+      '不使用 GHB 滿五年，代表維持改變了整整五年。SAMHSA 將復元視為持續過程，因此 1,825 天本身就是值得慶祝的里程碑。';
+
+  @override
+  String get ghbReferenceDay1825 =>
+      '不使用 GHB 五年：重要里程碑\n\n來源：SAMHSA，復元與復元支持\n\nSAMHSA 將復元描述為持續且因人而異的改變過程，並未為這些週年設定 GHB 特有的生物學終點。\n\n五年代表維持改變了 1,825 天。長期反覆做出同一方向的選擇，值得真正的肯定。';
 }

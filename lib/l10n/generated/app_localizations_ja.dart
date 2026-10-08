@@ -3687,4 +3687,48 @@ class AppLocalizationsJa extends AppLocalizations {
   @override
   String get alcoholReferenceDay1825 =>
       '断酒5年：大きな節目\n\n出典：NIAAA, Recovery Research Definitions\n\nNIAAAは1〜5年を「持続」、5年を超える期間を「安定」としています。そのため、ちょうど5年はまだ「持続」の最も長い側に位置します。また、この枠組みにはAUD症状の寛解も含まれるため、断酒だけを臨床診断として扱うべきではありません。\n\n5年間の断酒は1,825日間の継続した変化です。根拠のない医学的ゴールを作らなくても、5年という長い積み重ねは十分に大きな成果です。';
+
+  @override
+  String get ghbMilestone730Title => '2年：揺るぎない前進';
+
+  @override
+  String get ghbMilestone730Description =>
+      'GHBをやめて2年は、変化を730日積み重ねた節目です。SAMHSAは回復を一人ひとり異なる継続的な過程と捉えており、ここで祝うのは一律の医学的な期限ではなく、その継続です。';
+
+  @override
+  String get ghbReferenceDay730 =>
+      'GHBをやめて2年：揺るぎない前進\n\n出典：SAMHSA「回復と回復支援」\n\nSAMHSAは回復を一人ひとり異なる継続的な変化の過程と説明しており、これらの年数にGHB特有の生物学的な終点を定めていません。\n\n2年は730日、別の方向を保ってきた積み重ねです。その継続と、それを支える人、習慣、支援を大切な成果として認められます。';
+
+  @override
+  String get ghbMilestone1095Title => '3年：より確かな土台';
+
+  @override
+  String get ghbMilestone1095Description =>
+      'GHBをやめて3年は、変化を1,095日保った歩みです。回復の道筋は人それぞれであり、この節目は作り上げた安定を称えるもので、架空の生物学的期限を示すものではありません。';
+
+  @override
+  String get ghbReferenceDay1095 =>
+      'GHBをやめて3年：より確かな土台\n\n出典：SAMHSA「回復と回復支援」\n\nSAMHSAは回復を一人ひとり異なる継続的な変化の過程と説明しており、これらの年数にGHB特有の生物学的な終点を定めていません。\n\n3年は1,095日、変化を保ってきた歩みです。安定を築き、回復を支えるものを守ってきた大きな実績です。';
+
+  @override
+  String get ghbMilestone1460Title => '4年：続く変化';
+
+  @override
+  String get ghbMilestone1460Description =>
+      'GHBをやめて4年は、変化を1,460日続けた実績です。価値はその持続そのものと、それを支える習慣、人とのつながり、支援にあります。';
+
+  @override
+  String get ghbReferenceDay1460 =>
+      'GHBをやめて4年：続く変化\n\n出典：SAMHSA「回復と回復支援」\n\nSAMHSAは回復を一人ひとり異なる継続的な変化の過程と説明しており、これらの年数にGHB特有の生物学的な終点を定めていません。\n\n4年は1,460日、日常の中で変化を続けてきた歩みです。その持続そのものが称えるべき成果です。';
+
+  @override
+  String get ghbMilestone1825Title => '5年：大きな節目';
+
+  @override
+  String get ghbMilestone1825Description =>
+      'GHBをやめて5年は、変化を1,825日保った大きな節目です。SAMHSAは回復を継続的な過程と捉えており、この積み重ね自体に十分な価値があります。';
+
+  @override
+  String get ghbReferenceDay1825 =>
+      'GHBをやめて5年：大きな節目\n\n出典：SAMHSA「回復と回復支援」\n\nSAMHSAは回復を一人ひとり異なる継続的な変化の過程と説明しており、これらの年数にGHB特有の生物学的な終点を定めていません。\n\n5年は1,825日、変化を保ってきた歩みです。長い期間にわたり選択を積み重ねたことには、確かな価値があります。';
 }

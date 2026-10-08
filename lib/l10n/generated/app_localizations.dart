@@ -6491,6 +6491,78 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Five Years Alcohol-Free: A Major Milestone\n\nSource: NIAAA, Recovery Research Definitions\n\nNIAAA calls one to five years the sustained duration category and reserves stable for more than five years. Exactly five years therefore sits at the far edge of the sustained window. The framework also includes remission from AUD symptoms, so abstinence alone should not be treated as a clinical diagnosis.\n\nFive years alcohol-free is 1,825 days of maintained change. Half a decade deserves real credit without inventing a medical finish line the evidence does not support.'**
   String get alcoholReferenceDay1825;
+
+  /// No description provided for @ghbMilestone730Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Two Years: Durable Progress'**
+  String get ghbMilestone730Title;
+
+  /// No description provided for @ghbMilestone730Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Two years without GHB is 730 days of sustained change. SAMHSA describes recovery as an ongoing, individual process, so this milestone celebrates consistency rather than a universal medical finish line.'**
+  String get ghbMilestone730Description;
+
+  /// No description provided for @ghbReferenceDay730.
+  ///
+  /// In en, this message translates to:
+  /// **'Two Years Without GHB: Durable Progress\n\nSource: SAMHSA, Recovery and Recovery Support\n\nSAMHSA describes recovery as an ongoing, individual process of change. It does not set a GHB-specific biological endpoint at any of these anniversaries.\n\nTwo years is 730 days of maintaining a different direction. Celebrate the durability and keep the people, routines, and support that make it sustainable.'**
+  String get ghbReferenceDay730;
+
+  /// No description provided for @ghbMilestone1095Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Three Years: Stronger Ground'**
+  String get ghbMilestone1095Title;
+
+  /// No description provided for @ghbMilestone1095Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Three years without GHB is 1,095 days of maintained change. Recovery is individual; this milestone honours the stability built over time, not an invented biological deadline.'**
+  String get ghbMilestone1095Description;
+
+  /// No description provided for @ghbReferenceDay1095.
+  ///
+  /// In en, this message translates to:
+  /// **'Three Years Without GHB: Stronger Ground\n\nSource: SAMHSA, Recovery and Recovery Support\n\nSAMHSA describes recovery as an ongoing, individual process of change. It does not set a GHB-specific biological endpoint at any of these anniversaries.\n\nThree years is 1,095 days of maintained change. That is a substantial record of stability and of protecting what helps recovery continue.'**
+  String get ghbReferenceDay1095;
+
+  /// No description provided for @ghbMilestone1460Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Four Years: Lasting Change'**
+  String get ghbMilestone1460Title;
+
+  /// No description provided for @ghbMilestone1460Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Four years without GHB is 1,460 days of lasting change. The achievement is the durability itself, supported by the routines, relationships, and help that keep recovery moving.'**
+  String get ghbMilestone1460Description;
+
+  /// No description provided for @ghbReferenceDay1460.
+  ///
+  /// In en, this message translates to:
+  /// **'Four Years Without GHB: Lasting Change\n\nSource: SAMHSA, Recovery and Recovery Support\n\nSAMHSA describes recovery as an ongoing, individual process of change. It does not set a GHB-specific biological endpoint at any of these anniversaries.\n\nFour years is 1,460 days of carrying change through ordinary life. The durability itself deserves recognition, along with the support and habits behind it.'**
+  String get ghbReferenceDay1460;
+
+  /// No description provided for @ghbMilestone1825Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Five Years: Half a Decade'**
+  String get ghbMilestone1825Title;
+
+  /// No description provided for @ghbMilestone1825Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Five years without GHB is half a decade of maintained change. SAMHSA treats recovery as an ongoing process, making 1,825 days a milestone worth celebrating on its own.'**
+  String get ghbMilestone1825Description;
+
+  /// No description provided for @ghbReferenceDay1825.
+  ///
+  /// In en, this message translates to:
+  /// **'Five Years Without GHB: Half a Decade\n\nSource: SAMHSA, Recovery and Recovery Support\n\nSAMHSA describes recovery as an ongoing, individual process of change. It does not set a GHB-specific biological endpoint at any of these anniversaries.\n\nFive years is 1,825 days of maintained change: half a decade of repeatedly choosing a different direction. That scale of commitment deserves real credit.'**
+  String get ghbReferenceDay1825;
 }
 
 class _AppLocalizationsDelegate

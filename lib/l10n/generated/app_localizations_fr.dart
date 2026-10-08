@@ -3924,4 +3924,48 @@ class AppLocalizationsFr extends AppLocalizations {
   @override
   String get alcoholReferenceDay1825 =>
       'Cinq ans sans alcool : un grand jalon\n\nSource : NIAAA, Recovery Research Definitions\n\nLe NIAAA appelle soutenue la durée d’un à cinq ans et réserve stable à plus de cinq ans. Exactement cinq ans se trouvent donc encore à l’extrémité de la fenêtre soutenue. Le cadre inclut aussi la rémission des symptômes du trouble lié à l’usage d’alcool ; l’abstinence seule ne constitue pas un diagnostic clinique.\n\nCinq ans sans alcool, ce sont 1 825 jours de changement maintenu. Un demi-décennie mérite un vrai crédit sans inventer une ligne d’arrivée médicale non étayée.';
+
+  @override
+  String get ghbMilestone730Title => 'Deux ans : progrès durable';
+
+  @override
+  String get ghbMilestone730Description =>
+      'Deux ans sans GHB représentent 730 jours de changement maintenu. La SAMHSA décrit le rétablissement comme un processus continu et individuel ; ce cap célèbre donc la constance, pas une échéance médicale universelle.';
+
+  @override
+  String get ghbReferenceDay730 =>
+      'Deux ans sans GHB : progrès durable\n\nSource : SAMHSA, Rétablissement et soutien au rétablissement\n\nLa SAMHSA décrit le rétablissement comme un processus de changement continu et individuel et ne fixe aucun point final biologique propre au GHB pour ces anniversaires.\n\nDeux ans représentent 730 jours dans une autre direction. Cette constance et les soutiens qui la rendent durable méritent d\'être reconnus.';
+
+  @override
+  String get ghbMilestone1095Title => 'Trois ans : bases plus solides';
+
+  @override
+  String get ghbMilestone1095Description =>
+      'Trois ans sans GHB représentent 1 095 jours de changement maintenu. Le rétablissement est individuel ; ce cap honore la stabilité construite dans le temps, pas une échéance biologique inventée.';
+
+  @override
+  String get ghbReferenceDay1095 =>
+      'Trois ans sans GHB : bases plus solides\n\nSource : SAMHSA, Rétablissement et soutien au rétablissement\n\nLa SAMHSA décrit le rétablissement comme un processus de changement continu et individuel et ne fixe aucun point final biologique propre au GHB pour ces anniversaires.\n\nTrois ans représentent 1 095 jours de changement maintenu. C\'est une solide preuve de stabilité et de protection de ce qui soutient le rétablissement.';
+
+  @override
+  String get ghbMilestone1460Title => 'Quatre ans : changement durable';
+
+  @override
+  String get ghbMilestone1460Description =>
+      'Quatre ans sans GHB représentent 1 460 jours de changement durable. La réussite tient à cette continuité et aux habitudes, relations et soutiens qui permettent de la préserver.';
+
+  @override
+  String get ghbReferenceDay1460 =>
+      'Quatre ans sans GHB : changement durable\n\nSource : SAMHSA, Rétablissement et soutien au rétablissement\n\nLa SAMHSA décrit le rétablissement comme un processus de changement continu et individuel et ne fixe aucun point final biologique propre au GHB pour ces anniversaires.\n\nQuatre ans représentent 1 460 jours de changement porté dans la vie quotidienne. Cette durée est en elle-même une réussite.';
+
+  @override
+  String get ghbMilestone1825Title => 'Cinq ans : grand cap';
+
+  @override
+  String get ghbMilestone1825Description =>
+      'Cinq ans sans GHB représentent une demi-décennie de changement maintenu. La SAMHSA considère le rétablissement comme un processus continu ; 1 825 jours constituent donc un cap qui mérite d\'être célébré.';
+
+  @override
+  String get ghbReferenceDay1825 =>
+      'Cinq ans sans GHB : grand cap\n\nSource : SAMHSA, Rétablissement et soutien au rétablissement\n\nLa SAMHSA décrit le rétablissement comme un processus de changement continu et individuel et ne fixe aucun point final biologique propre au GHB pour ces anniversaires.\n\nCinq ans représentent 1 825 jours de changement maintenu. Une demi-décennie d\'engagement répété mérite une vraie reconnaissance.';
 }

@@ -3900,4 +3900,48 @@ class AppLocalizationsEs extends AppLocalizations {
   @override
   String get alcoholReferenceDay1825 =>
       'Cinco años sin alcohol: un gran hito\n\nFuente: NIAAA, Recovery Research Definitions\n\nNIAAA llama sostenida a la duración de uno a cinco años y reserva estable para más de cinco años. Por tanto, exactamente cinco años siguen en el extremo del periodo sostenido. El marco también incluye la remisión de síntomas del AUD, así que la abstinencia por sí sola no debe tratarse como un diagnóstico clínico.\n\nCinco años sin alcohol son 1.825 días de cambio mantenido. Medio decenio merece reconocimiento real sin inventar una meta médica que la evidencia no respalda.';
+
+  @override
+  String get ghbMilestone730Title => 'Dos años: Progreso duradero';
+
+  @override
+  String get ghbMilestone730Description =>
+      'Dos años sin GHB son 730 días de cambio sostenido. SAMHSA describe la recuperación como un proceso continuo e individual, así que este hito celebra la constancia y no una meta médica universal.';
+
+  @override
+  String get ghbReferenceDay730 =>
+      'Dos años sin GHB: Progreso duradero\n\nFuente: SAMHSA, Recuperación y apoyo a la recuperación\n\nSAMHSA describe la recuperación como un proceso de cambio continuo e individual y no fija un punto biológico específico para GHB en ninguno de estos aniversarios.\n\nDos años son 730 días manteniendo una dirección distinta. La constancia y los apoyos que la hacen sostenible merecen reconocimiento.';
+
+  @override
+  String get ghbMilestone1095Title => 'Tres años: Base más firme';
+
+  @override
+  String get ghbMilestone1095Description =>
+      'Tres años sin GHB son 1.095 días de cambio mantenido. La recuperación es individual; este hito reconoce la estabilidad construida con el tiempo, no un plazo biológico inventado.';
+
+  @override
+  String get ghbReferenceDay1095 =>
+      'Tres años sin GHB: Base más firme\n\nFuente: SAMHSA, Recuperación y apoyo a la recuperación\n\nSAMHSA describe la recuperación como un proceso de cambio continuo e individual y no fija un punto biológico específico para GHB en ninguno de estos aniversarios.\n\nTres años son 1.095 días de cambio mantenido. Es un historial importante de estabilidad y de cuidado de aquello que sostiene la recuperación.';
+
+  @override
+  String get ghbMilestone1460Title => 'Cuatro años: Cambio duradero';
+
+  @override
+  String get ghbMilestone1460Description =>
+      'Cuatro años sin GHB son 1.460 días de cambio duradero. El logro está en su continuidad y en las rutinas, relaciones y apoyos que ayudan a sostenerla.';
+
+  @override
+  String get ghbReferenceDay1460 =>
+      'Cuatro años sin GHB: Cambio duradero\n\nFuente: SAMHSA, Recuperación y apoyo a la recuperación\n\nSAMHSA describe la recuperación como un proceso de cambio continuo e individual y no fija un punto biológico específico para GHB en ninguno de estos aniversarios.\n\nCuatro años son 1.460 días llevando el cambio por la vida cotidiana. La duración misma es un logro digno de celebrar.';
+
+  @override
+  String get ghbMilestone1825Title => 'Cinco años: Gran hito';
+
+  @override
+  String get ghbMilestone1825Description =>
+      'Cinco años sin GHB son medio decenio de cambio mantenido. SAMHSA entiende la recuperación como un proceso continuo, por lo que 1.825 días merecen celebrarse por sí mismos.';
+
+  @override
+  String get ghbReferenceDay1825 =>
+      'Cinco años sin GHB: Gran hito\n\nFuente: SAMHSA, Recuperación y apoyo a la recuperación\n\nSAMHSA describe la recuperación como un proceso de cambio continuo e individual y no fija un punto biológico específico para GHB en ninguno de estos aniversarios.\n\nCinco años son 1.825 días de cambio mantenido. Medio decenio de compromiso repetido merece un reconocimiento real.';
 }

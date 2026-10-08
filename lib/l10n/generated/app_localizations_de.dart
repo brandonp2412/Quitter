@@ -3884,4 +3884,48 @@ class AppLocalizationsDe extends AppLocalizations {
   @override
   String get alcoholReferenceDay1825 =>
       'Fünf Jahre alkoholfrei: Großer Meilenstein\n\nQuelle: NIAAA, Recovery Research Definitions\n\nNIAAA bezeichnet ein bis fünf Jahre als anhaltende Zeitkategorie und mehr als fünf Jahre als stabil. Genau fünf Jahre liegen daher noch am äußersten Rand des anhaltenden Fensters. Das Modell umfasst außerdem die Remission von AUD-Symptomen; Alkoholfreiheit allein ist keine klinische Diagnose.\n\nFünf alkoholfreie Jahre sind 1.825 Tage beständiger Veränderung. Ein halbes Jahrzehnt verdient echte Anerkennung, ganz ohne erfundene medizinische Ziellinie.';
+
+  @override
+  String get ghbMilestone730Title => 'Zwei Jahre: Beständiger Fortschritt';
+
+  @override
+  String get ghbMilestone730Description =>
+      'Zwei Jahre ohne GHB sind 730 Tage beständiger Veränderung. SAMHSA beschreibt Genesung als fortlaufenden, individuellen Prozess; gefeiert wird daher die Beständigkeit, nicht eine allgemeine medizinische Ziellinie.';
+
+  @override
+  String get ghbReferenceDay730 =>
+      'Zwei Jahre ohne GHB: Beständiger Fortschritt\n\nQuelle: SAMHSA, Genesung und Unterstützung der Genesung\n\nSAMHSA beschreibt Genesung als fortlaufenden, individuellen Veränderungsprozess und nennt für diese Jahrestage keinen GHB-spezifischen biologischen Endpunkt.\n\nZwei Jahre entsprechen 730 Tagen in einer anderen Richtung. Diese Beständigkeit sowie hilfreiche Menschen, Routinen und Unterstützung verdienen Anerkennung.';
+
+  @override
+  String get ghbMilestone1095Title => 'Drei Jahre: Festerer Boden';
+
+  @override
+  String get ghbMilestone1095Description =>
+      'Drei Jahre ohne GHB sind 1.095 Tage aufrechterhaltener Veränderung. Genesung verläuft individuell; dieser Meilenstein würdigt die gewachsene Stabilität statt einer erfundenen biologischen Frist.';
+
+  @override
+  String get ghbReferenceDay1095 =>
+      'Drei Jahre ohne GHB: Festerer Boden\n\nQuelle: SAMHSA, Genesung und Unterstützung der Genesung\n\nSAMHSA beschreibt Genesung als fortlaufenden, individuellen Veränderungsprozess und nennt für diese Jahrestage keinen GHB-spezifischen biologischen Endpunkt.\n\nDrei Jahre entsprechen 1.095 Tagen aufrechterhaltener Veränderung. Das ist ein beachtlicher Nachweis von Stabilität und geschützten Grundlagen der Genesung.';
+
+  @override
+  String get ghbMilestone1460Title => 'Vier Jahre: Dauerhafte Veränderung';
+
+  @override
+  String get ghbMilestone1460Description =>
+      'Vier Jahre ohne GHB sind 1.460 Tage dauerhafter Veränderung. Der Wert liegt in der Beständigkeit selbst und in Gewohnheiten, Beziehungen und Unterstützung, die sie tragen.';
+
+  @override
+  String get ghbReferenceDay1460 =>
+      'Vier Jahre ohne GHB: Dauerhafte Veränderung\n\nQuelle: SAMHSA, Genesung und Unterstützung der Genesung\n\nSAMHSA beschreibt Genesung als fortlaufenden, individuellen Veränderungsprozess und nennt für diese Jahrestage keinen GHB-spezifischen biologischen Endpunkt.\n\nVier Jahre entsprechen 1.460 Tagen, in denen Veränderung durch den Alltag getragen wurde. Diese Dauerhaftigkeit ist selbst eine Leistung.';
+
+  @override
+  String get ghbMilestone1825Title => 'Fünf Jahre: Großer Meilenstein';
+
+  @override
+  String get ghbMilestone1825Description =>
+      'Fünf Jahre ohne GHB sind ein halbes Jahrzehnt aufrechterhaltener Veränderung. SAMHSA versteht Genesung als fortlaufenden Prozess; 1.825 Tage sind daher aus sich heraus ein großer Meilenstein.';
+
+  @override
+  String get ghbReferenceDay1825 =>
+      'Fünf Jahre ohne GHB: Großer Meilenstein\n\nQuelle: SAMHSA, Genesung und Unterstützung der Genesung\n\nSAMHSA beschreibt Genesung als fortlaufenden, individuellen Veränderungsprozess und nennt für diese Jahrestage keinen GHB-spezifischen biologischen Endpunkt.\n\nFünf Jahre entsprechen 1.825 Tagen aufrechterhaltener Veränderung. Ein halbes Jahrzehnt konsequenter Entscheidungen verdient echte Anerkennung.';
 }

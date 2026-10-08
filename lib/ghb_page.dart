@@ -104,6 +104,62 @@ class GhbPage extends StatelessWidget {
         referenceContent:
             "Six Months Off GHB\n\nSource: \"Characterization of the GHB Withdrawal Syndrome,\" on PubMed Central\n\nHalf a Year On\nBy six months, the acute GHB withdrawal syndrome is long resolved and recovery has shifted completely from detoxification to stable sleep, craving control, and relapse prevention. The dangerous autonomic and delirium-prone phase belongs to the first days and weeks, not this stage.\n\nThe Bigger Picture\nGetting through GHB withdrawal safely and staying off for half a year is a major achievement given how dangerous the early phase is, and how real the relapse risk — driven partly by lingering craving and insomnia — can be. The routines and support that got you here are worth keeping.",
       ),
+      QuitMilestone(
+        day: 730,
+        title: l10n.ghbMilestone730Title,
+        description: l10n.ghbMilestone730Description,
+        reference: "Recovery and Recovery Support (SAMHSA)",
+        link: "https://www.samhsa.gov/substance-use/recovery",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.ghbReferenceDay730,
+        referenceContent:
+            "Two Years Without GHB: Durable Progress\n\n"
+            "Source: SAMHSA, Recovery and Recovery Support\n\n"
+            "SAMHSA describes recovery as a process of change through which people improve health and wellness, live self-directed lives, and strive to reach their full potential. It does not set a GHB-specific biological endpoint at two years.\n\n"
+            "Two years is 730 days of maintaining a different direction. Celebrate the durability and keep the people, routines, and support that make it sustainable.",
+      ),
+      QuitMilestone(
+        day: 1095,
+        title: l10n.ghbMilestone1095Title,
+        description: l10n.ghbMilestone1095Description,
+        reference: "Recovery and Recovery Support (SAMHSA)",
+        link: "https://www.samhsa.gov/substance-use/recovery",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.ghbReferenceDay1095,
+        referenceContent:
+            "Three Years Without GHB: Stronger Ground\n\n"
+            "Source: SAMHSA, Recovery and Recovery Support\n\n"
+            "SAMHSA frames recovery as an ongoing, individual process rather than a fixed biological timetable. Its guidance supports continued recovery and connection without claiming a special GHB-specific event at year three.\n\n"
+            "Three years is 1,095 days of maintained change. That is a substantial record of choosing the life you are building and protecting what helps it continue.",
+      ),
+      QuitMilestone(
+        day: 1460,
+        title: l10n.ghbMilestone1460Title,
+        description: l10n.ghbMilestone1460Description,
+        reference: "Recovery and Recovery Support (SAMHSA)",
+        link: "https://www.samhsa.gov/substance-use/recovery",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.ghbReferenceDay1460,
+        referenceContent:
+            "Four Years Without GHB: Lasting Change\n\n"
+            "Source: SAMHSA, Recovery and Recovery Support\n\n"
+            "Recovery does not need an invented four-year medical finish line to be meaningful. SAMHSA describes recovery as a process that supports health, wellness, self-direction, and a fulfilling life, with paths and supports that differ from person to person.\n\n"
+            "Four years is 1,460 days of carrying change through ordinary life. The durability itself is worth celebrating, along with the support and habits that helped you build it.",
+      ),
+      QuitMilestone(
+        day: 1825,
+        title: l10n.ghbMilestone1825Title,
+        description: l10n.ghbMilestone1825Description,
+        reference: "Recovery and Recovery Support (SAMHSA)",
+        link: "https://www.samhsa.gov/substance-use/recovery",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.ghbReferenceDay1825,
+        referenceContent:
+            "Five Years Without GHB: Half a Decade\n\n"
+            "Source: SAMHSA, Recovery and Recovery Support\n\n"
+            "SAMHSA treats recovery as an ongoing process of change and does not define a universal GHB-specific biological endpoint at five years. The milestone can stand on its own without a medical promise the evidence does not support.\n\n"
+            "Five years is 1,825 days of maintained change: half a decade of repeatedly choosing a different direction. Celebrate the scale of that achievement and keep protecting what makes it sustainable.",
+      ),
     ];
   }
 

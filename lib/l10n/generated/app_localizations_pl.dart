@@ -3891,4 +3891,48 @@ class AppLocalizationsPl extends AppLocalizations {
   @override
   String get alcoholReferenceDay1825 =>
       'Pięć lat bez alkoholu: wielki kamień milowy\n\nŹródło: NIAAA, Recovery Research Definitions\n\nNIAAA nazywa okres od jednego do pięciu lat utrwalonym, a ponad pięć lat stabilnym. Dokładnie pięć lat nadal leży więc na skraju okresu utrwalonego. Ramy obejmują także remisję objawów AUD, dlatego sama abstynencja nie jest diagnozą kliniczną.\n\nPięć lat bez alkoholu to 1825 dni utrzymanej zmiany. Pół dekady zasługuje na prawdziwe uznanie bez wymyślania medycznej mety, której nie potwierdzają dowody.';
+
+  @override
+  String get ghbMilestone730Title => 'Dwa lata: Trwały postęp';
+
+  @override
+  String get ghbMilestone730Description =>
+      'Dwa lata bez GHB to 730 dni utrwalanej zmiany. SAMHSA opisuje zdrowienie jako ciągły i indywidualny proces, więc ten kamień milowy celebruje konsekwencję, a nie uniwersalną granicę medyczną.';
+
+  @override
+  String get ghbReferenceDay730 =>
+      'Dwa lata bez GHB: Trwały postęp\n\nŹródło: SAMHSA, Zdrowienie i wsparcie zdrowienia\n\nSAMHSA opisuje zdrowienie jako ciągły, indywidualny proces zmiany i nie wyznacza dla tych rocznic biologicznego punktu końcowego właściwego dla GHB.\n\nDwa lata to 730 dni utrzymywania innego kierunku. Ta konsekwencja oraz ludzie, nawyki i wsparcie, które ją podtrzymują, zasługują na uznanie.';
+
+  @override
+  String get ghbMilestone1095Title => 'Trzy lata: Mocniejszy grunt';
+
+  @override
+  String get ghbMilestone1095Description =>
+      'Trzy lata bez GHB to 1 095 dni podtrzymywanej zmiany. Zdrowienie ma indywidualny przebieg; ten kamień milowy docenia zbudowaną stabilność, a nie wymyślony termin biologiczny.';
+
+  @override
+  String get ghbReferenceDay1095 =>
+      'Trzy lata bez GHB: Mocniejszy grunt\n\nŹródło: SAMHSA, Zdrowienie i wsparcie zdrowienia\n\nSAMHSA opisuje zdrowienie jako ciągły, indywidualny proces zmiany i nie wyznacza dla tych rocznic biologicznego punktu końcowego właściwego dla GHB.\n\nTrzy lata to 1 095 dni podtrzymywanej zmiany. To znaczący zapis stabilności i dbania o to, co wspiera zdrowienie.';
+
+  @override
+  String get ghbMilestone1460Title => 'Cztery lata: Trwała zmiana';
+
+  @override
+  String get ghbMilestone1460Description =>
+      'Cztery lata bez GHB to 1 460 dni trwałej zmiany. Osiągnięciem jest sama jej trwałość oraz nawyki, relacje i wsparcie, które pomagają ją podtrzymywać.';
+
+  @override
+  String get ghbReferenceDay1460 =>
+      'Cztery lata bez GHB: Trwała zmiana\n\nŹródło: SAMHSA, Zdrowienie i wsparcie zdrowienia\n\nSAMHSA opisuje zdrowienie jako ciągły, indywidualny proces zmiany i nie wyznacza dla tych rocznic biologicznego punktu końcowego właściwego dla GHB.\n\nCztery lata to 1 460 dni przenoszenia zmiany przez codzienne życie. Sama trwałość jest osiągnięciem wartym świętowania.';
+
+  @override
+  String get ghbMilestone1825Title => 'Pięć lat: Wielki kamień milowy';
+
+  @override
+  String get ghbMilestone1825Description =>
+      'Pięć lat bez GHB to pół dekady podtrzymywanej zmiany. SAMHSA traktuje zdrowienie jako proces ciągły, dlatego 1 825 dni samo w sobie jest warte świętowania.';
+
+  @override
+  String get ghbReferenceDay1825 =>
+      'Pięć lat bez GHB: Wielki kamień milowy\n\nŹródło: SAMHSA, Zdrowienie i wsparcie zdrowienia\n\nSAMHSA opisuje zdrowienie jako ciągły, indywidualny proces zmiany i nie wyznacza dla tych rocznic biologicznego punktu końcowego właściwego dla GHB.\n\nPięć lat to 1 825 dni podtrzymywanej zmiany. Pół dekady konsekwentnych wyborów zasługuje na prawdziwe uznanie.';
 }

@@ -3731,4 +3731,48 @@ class AppLocalizationsKo extends AppLocalizations {
   @override
   String get alcoholReferenceDay1825 =>
       '금주 5년: 큰 이정표\n\n출처: NIAAA, Recovery Research Definitions\n\nNIAAA는 1~5년을 지속 기간, 5년 초과를 안정 기간으로 구분합니다. 따라서 정확히 5년은 아직 지속 구간의 가장 끝에 있습니다. 이 틀에는 AUD 증상의 관해도 포함되므로 금주만으로 임상적 진단을 내릴 수는 없습니다.\n\n5년간 금주는 1,825일 동안 변화를 유지한 기록입니다. 근거 없는 의학적 결승선을 만들지 않아도 5년이라는 긴 시간의 변화는 충분히 큰 성취입니다.';
+
+  @override
+  String get ghbMilestone730Title => '2년: 꾸준한 진전';
+
+  @override
+  String get ghbMilestone730Description =>
+      'GHB 없이 2년은 변화를 730일 이어 온 기록입니다. SAMHSA는 회복을 지속적이고 개인적인 과정으로 설명하므로, 이 이정표는 보편적인 의학적 종료점이 아니라 꾸준함을 기념합니다.';
+
+  @override
+  String get ghbReferenceDay730 =>
+      'GHB 없이 2년: 꾸준한 진전\n\n출처: SAMHSA, 회복과 회복 지원\n\nSAMHSA는 회복을 지속적이고 개인적인 변화의 과정으로 설명하며, 이 연차들에 GHB만의 생물학적 종료점을 정하지 않습니다.\n\n2년은 다른 방향을 730일 유지한 기록입니다. 그 꾸준함과 이를 지탱한 사람, 습관, 지원 모두 인정받을 만합니다.';
+
+  @override
+  String get ghbMilestone1095Title => '3년: 더 단단한 기반';
+
+  @override
+  String get ghbMilestone1095Description =>
+      'GHB 없이 3년은 변화를 1,095일 유지한 기록입니다. 회복은 사람마다 다르며, 이 이정표는 만들어 온 안정성을 기리는 것이지 가상의 생물학적 기한을 뜻하지 않습니다.';
+
+  @override
+  String get ghbReferenceDay1095 =>
+      'GHB 없이 3년: 더 단단한 기반\n\n출처: SAMHSA, 회복과 회복 지원\n\nSAMHSA는 회복을 지속적이고 개인적인 변화의 과정으로 설명하며, 이 연차들에 GHB만의 생물학적 종료점을 정하지 않습니다.\n\n3년은 변화를 1,095일 유지한 기록입니다. 안정성을 쌓고 회복을 지탱하는 기반을 지켜 온 의미 있는 성취입니다.';
+
+  @override
+  String get ghbMilestone1460Title => '4년: 이어지는 변화';
+
+  @override
+  String get ghbMilestone1460Description =>
+      'GHB 없이 4년은 변화를 1,460일 지속한 기록입니다. 성취의 가치는 그 지속성 자체와 이를 뒷받침한 습관, 관계, 지원에 있습니다.';
+
+  @override
+  String get ghbReferenceDay1460 =>
+      'GHB 없이 4년: 이어지는 변화\n\n출처: SAMHSA, 회복과 회복 지원\n\nSAMHSA는 회복을 지속적이고 개인적인 변화의 과정으로 설명하며, 이 연차들에 GHB만의 생물학적 종료점을 정하지 않습니다.\n\n4년은 일상 속에서 변화를 1,460일 이어 온 기록입니다. 그 지속성 자체가 중요한 성취입니다.';
+
+  @override
+  String get ghbMilestone1825Title => '5년: 큰 이정표';
+
+  @override
+  String get ghbMilestone1825Description =>
+      'GHB 없이 5년은 변화를 1,825일 유지한 큰 이정표입니다. SAMHSA는 회복을 지속적인 과정으로 보며, 이 긴 기록 자체가 충분히 기념할 가치가 있습니다.';
+
+  @override
+  String get ghbReferenceDay1825 =>
+      'GHB 없이 5년: 큰 이정표\n\n출처: SAMHSA, 회복과 회복 지원\n\nSAMHSA는 회복을 지속적이고 개인적인 변화의 과정으로 설명하며, 이 연차들에 GHB만의 생물학적 종료점을 정하지 않습니다.\n\n5년은 변화를 1,825일 유지한 기록입니다. 오랜 기간 선택을 반복해 온 노력에는 분명한 가치가 있습니다.';
 }

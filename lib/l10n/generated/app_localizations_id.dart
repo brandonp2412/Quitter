@@ -3869,4 +3869,48 @@ class AppLocalizationsId extends AppLocalizations {
   @override
   String get alcoholReferenceDay1825 =>
       'Lima Tahun Tanpa Alkohol: Tonggak Besar\n\nSumber: NIAAA, Recovery Research Definitions\n\nNIAAA menyebut satu hingga lima tahun sebagai kategori durasi berkelanjutan dan menyebut lebih dari lima tahun sebagai stabil. Jadi tepat lima tahun masih berada di ujung rentang berkelanjutan. Kerangka ini juga mencakup remisi gejala AUD, sehingga pantang saja tidak boleh dianggap sebagai diagnosis klinis.\n\nLima tahun tanpa alkohol adalah 1.825 hari perubahan yang dipertahankan. Setengah dekade pantas mendapat penghargaan nyata tanpa menciptakan garis akhir medis yang tidak didukung bukti.';
+
+  @override
+  String get ghbMilestone730Title => 'Dua Tahun: Kemajuan Bertahan';
+
+  @override
+  String get ghbMilestone730Description =>
+      'Dua tahun tanpa GHB berarti 730 hari perubahan yang bertahan. SAMHSA menggambarkan pemulihan sebagai proses berkelanjutan dan pribadi, jadi tonggak ini merayakan konsistensi, bukan garis akhir medis yang berlaku untuk semua.';
+
+  @override
+  String get ghbReferenceDay730 =>
+      'Dua Tahun Tanpa GHB: Kemajuan Bertahan\n\nSumber: SAMHSA, Pemulihan dan Dukungan Pemulihan\n\nSAMHSA menggambarkan pemulihan sebagai proses perubahan yang berkelanjutan dan pribadi, tanpa menetapkan titik akhir biologis khusus GHB pada peringatan tahun ini.\n\nDua tahun berarti 730 hari mempertahankan arah yang berbeda. Konsistensi serta orang, rutinitas, dan dukungan yang menjaganya patut dihargai.';
+
+  @override
+  String get ghbMilestone1095Title => 'Tiga Tahun: Pijakan Lebih Kuat';
+
+  @override
+  String get ghbMilestone1095Description =>
+      'Tiga tahun tanpa GHB berarti 1.095 hari perubahan yang dipertahankan. Pemulihan bersifat pribadi; tonggak ini menghargai kestabilan yang dibangun, bukan tenggat biologis buatan.';
+
+  @override
+  String get ghbReferenceDay1095 =>
+      'Tiga Tahun Tanpa GHB: Pijakan Lebih Kuat\n\nSumber: SAMHSA, Pemulihan dan Dukungan Pemulihan\n\nSAMHSA menggambarkan pemulihan sebagai proses perubahan yang berkelanjutan dan pribadi, tanpa menetapkan titik akhir biologis khusus GHB pada peringatan tahun ini.\n\nTiga tahun berarti 1.095 hari perubahan yang dipertahankan. Ini merupakan rekam jejak kestabilan yang besar dan perlindungan terhadap hal-hal yang menopang pemulihan.';
+
+  @override
+  String get ghbMilestone1460Title => 'Empat Tahun: Perubahan Bertahan';
+
+  @override
+  String get ghbMilestone1460Description =>
+      'Empat tahun tanpa GHB berarti 1.460 hari perubahan yang bertahan. Pencapaiannya ada pada daya tahan itu sendiri serta kebiasaan, hubungan, dan dukungan yang menjaganya.';
+
+  @override
+  String get ghbReferenceDay1460 =>
+      'Empat Tahun Tanpa GHB: Perubahan Bertahan\n\nSumber: SAMHSA, Pemulihan dan Dukungan Pemulihan\n\nSAMHSA menggambarkan pemulihan sebagai proses perubahan yang berkelanjutan dan pribadi, tanpa menetapkan titik akhir biologis khusus GHB pada peringatan tahun ini.\n\nEmpat tahun berarti 1.460 hari membawa perubahan melewati kehidupan sehari-hari. Daya tahan itu sendiri merupakan pencapaian.';
+
+  @override
+  String get ghbMilestone1825Title => 'Lima Tahun: Tonggak Besar';
+
+  @override
+  String get ghbMilestone1825Description =>
+      'Lima tahun tanpa GHB berarti setengah dekade perubahan yang dipertahankan. SAMHSA memandang pemulihan sebagai proses berkelanjutan, sehingga 1.825 hari layak dirayakan sebagai tonggak tersendiri.';
+
+  @override
+  String get ghbReferenceDay1825 =>
+      'Lima Tahun Tanpa GHB: Tonggak Besar\n\nSumber: SAMHSA, Pemulihan dan Dukungan Pemulihan\n\nSAMHSA menggambarkan pemulihan sebagai proses perubahan yang berkelanjutan dan pribadi, tanpa menetapkan titik akhir biologis khusus GHB pada peringatan tahun ini.\n\nLima tahun berarti 1.825 hari perubahan yang dipertahankan. Setengah dekade komitmen berulang pantas mendapat penghargaan nyata.';
 }
