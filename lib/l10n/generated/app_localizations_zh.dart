@@ -3574,6 +3574,50 @@ class AppLocalizationsZh extends AppLocalizations {
   @override
   String get adderallReferenceDay1825 =>
       '停止滥用 Adderall 五年：半个十年的进步\n\n来源：SAMHSA，Treatment of Stimulant Use Disorders\n\nSAMHSA 把长期康复视为兴奋剂使用障碍照护的重要目标。其指南并没有承诺五年时会出现某个特殊的生物学事件，而这个里程碑也不需要这样的承诺才有意义。\n\n五年就是 1,825 天持续选择不同的方向。这是一大段真实生活的证据，说明您的改变可以延续。好好庆祝，然后继续做那些让这一切成为可能的事。';
+
+  @override
+  String get alcoholMilestone730Title => '两年：持续前进';
+
+  @override
+  String get alcoholMilestone730Description =>
+      '两年不饮酒处于 NIAAA 在康复研究中使用的“一至五年持续期”内。这是值得珍惜和守护的重要成就。';
+
+  @override
+  String get alcoholReferenceDay730 =>
+      '戒酒两年：持续前进\n\n来源：NIAAA，Recovery Research Definitions\n\nNIAAA 将酒精使用障碍缓解和停止重度饮酒持续一至五年定义为“持续”时长类别。不饮酒比饮酒阈值更严格，但仅凭戒酒并不能证明满足全部临床缓解标准。\n\n两年就是连续 730 天维持改变。庆祝这份坚持，也继续守护让它延续的习惯、关系和支持。';
+
+  @override
+  String get alcoholMilestone1095Title => '三年：根基更稳';
+
+  @override
+  String get alcoholMilestone1095Description =>
+      '三年不饮酒代表 1,095 天的长期改变。NIAAA 在康复研究中把这一时长归入持续期。';
+
+  @override
+  String get alcoholReferenceDay1095 =>
+      '戒酒三年：根基更稳\n\n来源：NIAAA，Recovery Research Definitions\n\nNIAAA 将酒精使用障碍缓解和停止重度饮酒维持一至五年作为“持续”时长类别，并没有声称第三年会出现某种特殊的生物学重置。\n\n三年就是 1,095 天不断巩固不同的生活模式。这份持续本身就很有意义，也值得继续保护让你走到这里的支持系统。';
+
+  @override
+  String get alcoholMilestone1460Title => '四年：改变长久';
+
+  @override
+  String get alcoholMilestone1460Description =>
+      '四年不饮酒说明改变已经维持了真正很长的时间。值得庆祝的是这种持久性本身，而不是虚构的医学期限。';
+
+  @override
+  String get alcoholReferenceDay1460 =>
+      '戒酒四年：改变长久\n\n来源：NIAAA，Recovery Research Definitions\n\n四年仍处于 NIAAA 在研究中使用的一至五年持续期内。这个框架关注缓解和停止重度饮酒能否持续，并不是说每个人的身体或大脑都会在同一天到达同一个终点。\n\n四年不饮酒意味着改变经历了普通日子、压力、季节和各种节点仍然保持。持久本身就是成就。';
+
+  @override
+  String get alcoholMilestone1825Title => '五年：重要里程碑';
+
+  @override
+  String get alcoholMilestone1825Description =>
+      '五年不饮酒到达 NIAAA 一至五年持续期的上沿。“稳定”时长类别要在超过五年后才开始。';
+
+  @override
+  String get alcoholReferenceDay1825 =>
+      '戒酒五年：重要里程碑\n\n来源：NIAAA，Recovery Research Definitions\n\nNIAAA 把一至五年称为持续期，把超过五年称为稳定期。因此正好五年仍位于持续期的最末端。该框架还包括 AUD 症状缓解，所以不能仅凭戒酒就作出临床诊断。\n\n五年不饮酒是 1,825 天持续维持改变。无需虚构证据不支持的医学终点，半个十年的坚持本身就值得充分肯定。';
 }
 
 /// The translations for Chinese, using the Han script (`zh_Hant`).
@@ -7146,4 +7190,48 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   @override
   String get adderallReferenceDay1825 =>
       '停止濫用 Adderall 五年：半個十年的進步\n\n來源：SAMHSA，Treatment of Stimulant Use Disorders\n\nSAMHSA 把長期復原視為興奮劑使用障礙照護的重要目標。其指南並沒有承諾五年時會出現某個特殊的生物學事件，而這個里程碑也不需要這樣的承諾才有意義。\n\n五年就是 1,825 天持續選擇不同的方向。這是一大段真實生活的證據，說明您的改變可以延續。好好慶祝，然後繼續做那些讓這一切成為可能的事。';
+
+  @override
+  String get alcoholMilestone730Title => '兩年：持續前進';
+
+  @override
+  String get alcoholMilestone730Description =>
+      '兩年不飲酒處於 NIAAA 在康復研究中使用的「一至五年持續期」內。這是值得珍惜和守護的重要成就。';
+
+  @override
+  String get alcoholReferenceDay730 =>
+      '戒酒兩年：持續前進\n\n來源：NIAAA，Recovery Research Definitions\n\nNIAAA 將酒精使用障礙緩解和停止重度飲酒持續一至五年定義為「持續」時長類別。不飲酒比飲酒門檻更嚴格，但僅憑戒酒並不能證明符合全部臨床緩解標準。\n\n兩年就是連續 730 天維持改變。慶祝這份堅持，也繼續守護讓它延續的習慣、關係和支持。';
+
+  @override
+  String get alcoholMilestone1095Title => '三年：根基更穩';
+
+  @override
+  String get alcoholMilestone1095Description =>
+      '三年不飲酒代表 1,095 天的長期改變。NIAAA 在康復研究中把這一時長歸入持續期。';
+
+  @override
+  String get alcoholReferenceDay1095 =>
+      '戒酒三年：根基更穩\n\n來源：NIAAA，Recovery Research Definitions\n\nNIAAA 將酒精使用障礙緩解和停止重度飲酒維持一至五年作為「持續」時長類別，並沒有聲稱第三年會出現某種特殊的生物學重置。\n\n三年就是 1,095 天不斷鞏固不同的生活模式。這份持續本身就很有意義，也值得繼續保護讓你走到這裡的支持系統。';
+
+  @override
+  String get alcoholMilestone1460Title => '四年：改變長久';
+
+  @override
+  String get alcoholMilestone1460Description =>
+      '四年不飲酒說明改變已經維持了真正很長的時間。值得慶祝的是這種持久性本身，而不是虛構的醫學期限。';
+
+  @override
+  String get alcoholReferenceDay1460 =>
+      '戒酒四年：改變長久\n\n來源：NIAAA，Recovery Research Definitions\n\n四年仍處於 NIAAA 在研究中使用的一至五年持續期內。這個框架關注緩解和停止重度飲酒能否持續，並不是說每個人的身體或大腦都會在同一天到達同一個終點。\n\n四年不飲酒意味著改變經歷了普通日子、壓力、季節和各種節點仍然保持。持久本身就是成就。';
+
+  @override
+  String get alcoholMilestone1825Title => '五年：重要里程碑';
+
+  @override
+  String get alcoholMilestone1825Description =>
+      '五年不飲酒到達 NIAAA 一至五年持續期的上沿。「穩定」時長類別要在超過五年後才開始。';
+
+  @override
+  String get alcoholReferenceDay1825 =>
+      '戒酒五年：重要里程碑\n\n來源：NIAAA，Recovery Research Definitions\n\nNIAAA 把一至五年稱為持續期，把超過五年稱為穩定期。因此正好五年仍位於持續期的最末端。該框架還包括 AUD 症狀緩解，所以不能僅憑戒酒就作出臨床診斷。\n\n五年不飲酒是 1,825 天持續維持改變。無需虛構證據不支持的醫學終點，半個十年的堅持本身就值得充分肯定。';
 }

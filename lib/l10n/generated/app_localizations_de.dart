@@ -3774,4 +3774,48 @@ class AppLocalizationsDe extends AppLocalizations {
   @override
   String get adderallReferenceDay1825 =>
       'Fünf Jahre ohne Adderall-Missbrauch: ein halbes Jahrzehnt Fortschritt\n\nQuelle: SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSA betrachtet langfristige Genesung als wichtiges Ziel der Behandlung von Stimulanzienkonsumstörungen. Der Leitfaden verspricht kein besonderes biologisches Ereignis nach fünf Jahren, und dieser Meilenstein braucht keines, um bedeutsam zu sein.\n\nFünf Jahre sind 1.825 Tage in einer anderen Richtung. Das ist viel gelebte Erfahrung dafür, dass deine Veränderung Bestand haben kann. Feiere sie und halte an dem fest, was sie möglich gemacht hat.';
+
+  @override
+  String get alcoholMilestone730Title => '2 Jahre: Dauerhafter Fortschritt';
+
+  @override
+  String get alcoholMilestone730Description =>
+      'Zwei alkoholfreie Jahre liegen im von NIAAA für die Forschung verwendeten Zeitfenster von ein bis fünf Jahren für anhaltende Erholung. Das ist ein großer Erfolg, den es zu schützen gilt.';
+
+  @override
+  String get alcoholReferenceDay730 =>
+      'Zwei Jahre alkoholfrei: Dauerhafter Fortschritt\n\nQuelle: NIAAA, Recovery Research Definitions\n\nNIAAA verwendet ein bis fünf Jahre als Zeitkategorie „sustained“ für eine über die Zeit aufrechterhaltene Remission der Alkoholkonsumstörung und das Ende starken Trinkens. Alkoholfreiheit geht über die Trinkgrenze hinaus, beweist aber allein nicht jedes klinische Remissionskriterium.\n\nZwei Jahre sind 730 Tage beständiger Veränderung. Feiere diese Konsequenz und schütze weiter die Routinen, Beziehungen und Unterstützung, die sie tragen.';
+
+  @override
+  String get alcoholMilestone1095Title => '3 Jahre: Starkes Fundament';
+
+  @override
+  String get alcoholMilestone1095Description =>
+      'Drei alkoholfreie Jahre bedeuten 1.095 Tage langfristiger Veränderung. NIAAA ordnet diese Dauer dem anhaltenden Zeitfenster seiner Erholungsforschung zu.';
+
+  @override
+  String get alcoholReferenceDay1095 =>
+      'Drei Jahre alkoholfrei: Starkes Fundament\n\nQuelle: NIAAA, Recovery Research Definitions\n\nNIAAA verwendet ein bis fünf Jahre als anhaltende Zeitkategorie für Remission der Alkoholkonsumstörung und das Ende starken Trinkens. Ein besonderer biologischer Neustart im dritten Jahr wird nicht behauptet.\n\nDrei Jahre sind 1.095 Tage, an denen ein anderes Muster gefestigt wurde. Diese Beständigkeit zählt für sich, und die Unterstützung, die dich hierhergebracht hat, bleibt wertvoll.';
+
+  @override
+  String get alcoholMilestone1460Title => '4 Jahre: Dauerhafte Veränderung';
+
+  @override
+  String get alcoholMilestone1460Description =>
+      'Vier alkoholfreie Jahre zeigen Veränderung über einen wirklich langen Zeitraum. Der Meilenstein ist die Beständigkeit selbst, nicht eine erfundene medizinische Frist.';
+
+  @override
+  String get alcoholReferenceDay1460 =>
+      'Vier Jahre alkoholfrei: Dauerhafte Veränderung\n\nQuelle: NIAAA, Recovery Research Definitions\n\nVier Jahre liegen weiterhin im von NIAAA verwendeten anhaltenden Zeitfenster von ein bis fünf Jahren. Das Modell beschreibt aufrechterhaltene Remission und das Ende starken Trinkens; es behauptet nicht, dass Körper oder Gehirn aller Menschen am selben Datum dieselbe Ziellinie erreichen.\n\nVier alkoholfreie Jahre bedeuten Veränderung durch Alltag, Stress, Jahreszeiten und Meilensteine hindurch. Die Dauerhaftigkeit ist selbst der Erfolg.';
+
+  @override
+  String get alcoholMilestone1825Title => '5 Jahre: Großer Meilenstein';
+
+  @override
+  String get alcoholMilestone1825Description =>
+      'Fünf alkoholfreie Jahre erreichen den oberen Rand des NIAAA-Zeitfensters von ein bis fünf Jahren. Die Kategorie „stabil“ beginnt erst nach mehr als fünf Jahren.';
+
+  @override
+  String get alcoholReferenceDay1825 =>
+      'Fünf Jahre alkoholfrei: Großer Meilenstein\n\nQuelle: NIAAA, Recovery Research Definitions\n\nNIAAA bezeichnet ein bis fünf Jahre als anhaltende Zeitkategorie und mehr als fünf Jahre als stabil. Genau fünf Jahre liegen daher noch am äußersten Rand des anhaltenden Fensters. Das Modell umfasst außerdem die Remission von AUD-Symptomen; Alkoholfreiheit allein ist keine klinische Diagnose.\n\nFünf alkoholfreie Jahre sind 1.825 Tage beständiger Veränderung. Ein halbes Jahrzehnt verdient echte Anerkennung, ganz ohne erfundene medizinische Ziellinie.';
 }

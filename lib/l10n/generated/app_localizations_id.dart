@@ -3759,4 +3759,48 @@ class AppLocalizationsId extends AppLocalizations {
   @override
   String get adderallReferenceDay1825 =>
       'Lima Tahun Tanpa Penyalahgunaan Adderall: Setengah Dekade Kemajuan\n\nSumber: SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSA mengakui pemulihan jangka panjang sebagai tujuan penting perawatan gangguan penggunaan stimulan. Panduannya tidak menjanjikan peristiwa biologis khusus pada lima tahun, dan tonggak ini tidak memerlukannya untuk berarti.\n\nLima tahun adalah 1.825 hari mempertahankan arah yang berbeda. Itu adalah pengalaman hidup yang kuat bahwa perubahan Anda dapat bertahan. Rayakan, lalu teruskan hal-hal yang membuatnya mungkin.';
+
+  @override
+  String get alcoholMilestone730Title => 'Dua Tahun: Kemajuan Mantap';
+
+  @override
+  String get alcoholMilestone730Description =>
+      'Dua tahun tanpa alkohol berada dalam rentang satu hingga lima tahun yang NIAAA gunakan sebagai durasi berkelanjutan dalam riset pemulihan. Ini pencapaian besar yang layak dijaga.';
+
+  @override
+  String get alcoholReferenceDay730 =>
+      'Dua Tahun Tanpa Alkohol: Kemajuan Mantap\n\nSumber: NIAAA, Recovery Research Definitions\n\nNIAAA memakai satu hingga lima tahun sebagai kategori durasi berkelanjutan untuk remisi gangguan penggunaan alkohol dan berhentinya konsumsi berat yang dipertahankan dari waktu ke waktu. Tidak minum melampaui ambang konsumsi, tetapi pantang saja tidak membuktikan semua kriteria remisi klinis.\n\nDua tahun berarti 730 hari mempertahankan perubahan. Rayakan konsistensi itu dan terus jaga rutinitas, hubungan, dan dukungan yang membuatnya bertahan.';
+
+  @override
+  String get alcoholMilestone1095Title => 'Tiga Tahun: Landasan Kuat';
+
+  @override
+  String get alcoholMilestone1095Description =>
+      'Tiga tahun tanpa alkohol adalah 1.095 hari perubahan jangka panjang. NIAAA menempatkan durasi ini dalam rentang berkelanjutan riset pemulihan.';
+
+  @override
+  String get alcoholReferenceDay1095 =>
+      'Tiga Tahun Tanpa Alkohol: Landasan Kuat\n\nSumber: NIAAA, Recovery Research Definitions\n\nNIAAA memakai satu hingga lima tahun sebagai kategori durasi berkelanjutan untuk remisi gangguan penggunaan alkohol dan berhentinya konsumsi berat. NIAAA tidak menyatakan ada reset biologis khusus pada tahun ketiga.\n\nTiga tahun berarti 1.095 hari memperkuat pola yang berbeda. Konsistensi itu bermakna dengan sendirinya, dan dukungan yang membawamu sampai sini layak dipertahankan.';
+
+  @override
+  String get alcoholMilestone1460Title => 'Empat Tahun: Perubahan Awet';
+
+  @override
+  String get alcoholMilestone1460Description =>
+      'Empat tahun tanpa alkohol menunjukkan perubahan yang bertahan pada skala waktu yang benar-benar panjang. Pencapaiannya adalah daya tahan itu sendiri, bukan tenggat medis yang dibuat-buat.';
+
+  @override
+  String get alcoholReferenceDay1460 =>
+      'Empat Tahun Tanpa Alkohol: Perubahan Awet\n\nSumber: NIAAA, Recovery Research Definitions\n\nEmpat tahun masih berada dalam rentang berkelanjutan satu hingga lima tahun yang NIAAA gunakan dalam riset. Kerangka ini membahas remisi dan berhentinya konsumsi berat yang dipertahankan, bukan klaim bahwa tubuh atau otak setiap orang mencapai garis akhir yang sama pada tanggal yang sama.\n\nEmpat tahun tanpa alkohol berarti perubahan yang bertahan melewati hari biasa, stres, musim, dan berbagai tonggak. Daya tahannya sendiri adalah pencapaian.';
+
+  @override
+  String get alcoholMilestone1825Title => 'Lima Tahun: Tonggak Besar';
+
+  @override
+  String get alcoholMilestone1825Description =>
+      'Lima tahun tanpa alkohol mencapai ujung atas rentang berkelanjutan satu hingga lima tahun NIAAA. Kategori stabil baru dimulai setelah lebih dari lima tahun.';
+
+  @override
+  String get alcoholReferenceDay1825 =>
+      'Lima Tahun Tanpa Alkohol: Tonggak Besar\n\nSumber: NIAAA, Recovery Research Definitions\n\nNIAAA menyebut satu hingga lima tahun sebagai kategori durasi berkelanjutan dan menyebut lebih dari lima tahun sebagai stabil. Jadi tepat lima tahun masih berada di ujung rentang berkelanjutan. Kerangka ini juga mencakup remisi gejala AUD, sehingga pantang saja tidak boleh dianggap sebagai diagnosis klinis.\n\nLima tahun tanpa alkohol adalah 1.825 hari perubahan yang dipertahankan. Setengah dekade pantas mendapat penghargaan nyata tanpa menciptakan garis akhir medis yang tidak didukung bukti.';
 }

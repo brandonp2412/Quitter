@@ -3710,4 +3710,48 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get adderallReferenceDay1825 =>
       'Five Years Off Adderall: Half a Decade of Progress\n\nSource: SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSA recognizes long-term recovery as an important goal of stimulant-use-disorder care. Its evidence guide does not promise a special biological event at five years, and this milestone does not need one to matter.\n\nFive years is 1,825 days of maintaining a different direction. That is a substantial body of lived evidence that your change can endure. Celebrate it, then keep doing the things that made it possible.';
+
+  @override
+  String get alcoholMilestone730Title => 'Two Years: Sustained Progress';
+
+  @override
+  String get alcoholMilestone730Description =>
+      'Two years alcohol-free falls within the one-to-five-year sustained time window NIAAA uses in recovery research. That is a major achievement worth protecting.';
+
+  @override
+  String get alcoholReferenceDay730 =>
+      'Two Years Alcohol-Free: Sustained Progress\n\nSource: NIAAA, Recovery Research Definitions\n\nNIAAA uses one to five years as the sustained duration category for remission from alcohol use disorder and cessation from heavy drinking maintained over time. An alcohol-free streak goes beyond the drinking threshold, but abstinence alone does not establish every clinical remission criterion.\n\nTwo years is 730 days of maintained change. Celebrate the consistency and keep protecting the routines, relationships, and support that help it last.';
+
+  @override
+  String get alcoholMilestone1095Title => 'Three Years: Stronger Ground';
+
+  @override
+  String get alcoholMilestone1095Description =>
+      'Three years alcohol-free is long-term change carried through 1,095 days. NIAAA places this duration within its sustained recovery-research window.';
+
+  @override
+  String get alcoholReferenceDay1095 =>
+      'Three Years Alcohol-Free: Stronger Ground\n\nSource: NIAAA, Recovery Research Definitions\n\nNIAAA uses one to five years as the sustained duration category for remission from alcohol use disorder and cessation from heavy drinking maintained over time. It does not claim a special biological reset at year three.\n\nThree years is 1,095 days of reinforcing a different pattern. That consistency matters in its own right, and the supports that got you here are worth protecting.';
+
+  @override
+  String get alcoholMilestone1460Title => 'Four Years: Lasting Change';
+
+  @override
+  String get alcoholMilestone1460Description =>
+      'Four years alcohol-free shows change maintained on a genuinely long timescale. The milestone is the durability itself, not an invented medical deadline.';
+
+  @override
+  String get alcoholReferenceDay1460 =>
+      'Four Years Alcohol-Free: Lasting Change\n\nSource: NIAAA, Recovery Research Definitions\n\nFour years remains inside NIAAA\'s one-to-five-year sustained duration window used in recovery research. The framework is about maintained remission and cessation from heavy drinking, not a claim that every person\'s body or brain reaches the same finish line on the same date.\n\nFour years alcohol-free shows change carried through ordinary days, stress, seasons, and milestones. The achievement is the durability itself.';
+
+  @override
+  String get alcoholMilestone1825Title => 'Five Years: A Major Milestone';
+
+  @override
+  String get alcoholMilestone1825Description =>
+      'Five years alcohol-free reaches the far edge of NIAAA\'s one-to-five-year sustained window. Its stable duration category begins only after more than five years.';
+
+  @override
+  String get alcoholReferenceDay1825 =>
+      'Five Years Alcohol-Free: A Major Milestone\n\nSource: NIAAA, Recovery Research Definitions\n\nNIAAA calls one to five years the sustained duration category and reserves stable for more than five years. Exactly five years therefore sits at the far edge of the sustained window. The framework also includes remission from AUD symptoms, so abstinence alone should not be treated as a clinical diagnosis.\n\nFive years alcohol-free is 1,825 days of maintained change. Half a decade deserves real credit without inventing a medical finish line the evidence does not support.';
 }

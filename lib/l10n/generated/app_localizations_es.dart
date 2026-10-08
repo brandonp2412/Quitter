@@ -3790,4 +3790,48 @@ class AppLocalizationsEs extends AppLocalizations {
   @override
   String get adderallReferenceDay1825 =>
       'Cinco años sin uso indebido de Adderall: media década de progreso\n\nFuente: SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSA reconoce la recuperación a largo plazo como una meta importante de la atención de los trastornos por consumo de estimulantes. Su guía no promete un acontecimiento biológico especial a los cinco años, y este hito no lo necesita para ser importante.\n\nCinco años son 1.825 días manteniendo un rumbo distinto. Es una gran cantidad de experiencia vivida que demuestra que tu cambio puede perdurar. Celébralo y sigue haciendo lo que lo hizo posible.';
+
+  @override
+  String get alcoholMilestone730Title => 'Dos años: progreso sostenido';
+
+  @override
+  String get alcoholMilestone730Description =>
+      'Dos años sin alcohol están dentro del periodo de uno a cinco años que NIAAA usa como duración sostenida en la investigación sobre recuperación. Es un gran logro que merece protección.';
+
+  @override
+  String get alcoholReferenceDay730 =>
+      'Dos años sin alcohol: progreso sostenido\n\nFuente: NIAAA, Recovery Research Definitions\n\nNIAAA usa de uno a cinco años como categoría de duración sostenida para la remisión del trastorno por consumo de alcohol y el cese del consumo intenso mantenidos en el tiempo. No beber supera el umbral de consumo, pero la abstinencia por sí sola no demuestra todos los criterios clínicos de remisión.\n\nDos años son 730 días manteniendo el cambio. Celebra esa constancia y sigue cuidando las rutinas, relaciones y apoyos que la hacen durar.';
+
+  @override
+  String get alcoholMilestone1095Title => 'Tres años: base más firme';
+
+  @override
+  String get alcoholMilestone1095Description =>
+      'Tres años sin alcohol son 1.095 días de cambio a largo plazo. NIAAA sitúa esta duración dentro de su periodo sostenido de investigación sobre recuperación.';
+
+  @override
+  String get alcoholReferenceDay1095 =>
+      'Tres años sin alcohol: una base más firme\n\nFuente: NIAAA, Recovery Research Definitions\n\nNIAAA usa de uno a cinco años como categoría de duración sostenida para la remisión del trastorno por consumo de alcohol y el cese del consumo intenso. No afirma que exista un reinicio biológico especial al tercer año.\n\nTres años son 1.095 días reforzando un patrón diferente. Esa constancia importa por sí misma, y merece la pena proteger los apoyos que te han traído hasta aquí.';
+
+  @override
+  String get alcoholMilestone1460Title => 'Cuatro años: cambio duradero';
+
+  @override
+  String get alcoholMilestone1460Description =>
+      'Cuatro años sin alcohol muestran un cambio mantenido durante un periodo realmente largo. El logro es su duración, no una fecha médica inventada.';
+
+  @override
+  String get alcoholReferenceDay1460 =>
+      'Cuatro años sin alcohol: cambio duradero\n\nFuente: NIAAA, Recovery Research Definitions\n\nCuatro años siguen dentro del periodo sostenido de uno a cinco años que NIAAA usa en investigación. El marco trata de remisión mantenida y cese del consumo intenso, no de afirmar que el cuerpo o el cerebro de todos llegue a la misma meta el mismo día.\n\nCuatro años sin alcohol muestran un cambio que ha atravesado días normales, estrés, estaciones y celebraciones. La propia durabilidad es el logro.';
+
+  @override
+  String get alcoholMilestone1825Title => 'Cinco años: gran hito';
+
+  @override
+  String get alcoholMilestone1825Description =>
+      'Cinco años sin alcohol llegan al límite superior del periodo sostenido de uno a cinco años de NIAAA. Su categoría estable empieza solo después de más de cinco años.';
+
+  @override
+  String get alcoholReferenceDay1825 =>
+      'Cinco años sin alcohol: un gran hito\n\nFuente: NIAAA, Recovery Research Definitions\n\nNIAAA llama sostenida a la duración de uno a cinco años y reserva estable para más de cinco años. Por tanto, exactamente cinco años siguen en el extremo del periodo sostenido. El marco también incluye la remisión de síntomas del AUD, así que la abstinencia por sí sola no debe tratarse como un diagnóstico clínico.\n\nCinco años sin alcohol son 1.825 días de cambio mantenido. Medio decenio merece reconocimiento real sin inventar una meta médica que la evidencia no respalda.';
 }

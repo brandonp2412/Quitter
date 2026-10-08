@@ -3577,4 +3577,48 @@ class AppLocalizationsJa extends AppLocalizations {
   @override
   String get adderallReferenceDay1825 =>
       'Adderallの乱用をやめて5年：5年間の前進\n\n出典：SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSAは、刺激薬使用障害のケアにおいて長期的な回復を重要な目標として認めています。ガイドは5年で特別な生物学的変化が起こるとは約束しておらず、この節目の価値にそのような約束は必要ありません。\n\n5年は、1,825日間にわたって違う方向を保ってきたということです。変化を続けられるという十分な実体験です。しっかり祝い、ここまでを可能にしたことを続けてください。';
+
+  @override
+  String get alcoholMilestone730Title => '2年：続く前進';
+
+  @override
+  String get alcoholMilestone730Description =>
+      '2年間の断酒は、NIAAAが回復研究で「持続」とする1〜5年の期間に入ります。守り続ける価値のある大きな達成です。';
+
+  @override
+  String get alcoholReferenceDay730 =>
+      '断酒2年：続く前進\n\n出典：NIAAA, Recovery Research Definitions\n\nNIAAAは、アルコール使用障害の寛解と大量飲酒の中止が維持された期間について、1〜5年を「持続」の区分としています。断酒は飲酒量の基準を上回る変化ですが、断酒だけで臨床的な寛解基準のすべてを満たすとは限りません。\n\n2年は730日間、変化を維持したということです。その継続を祝い、支えてきた習慣・人間関係・支援をこれからも大切にしてください。';
+
+  @override
+  String get alcoholMilestone1095Title => '3年：強い土台';
+
+  @override
+  String get alcoholMilestone1095Description =>
+      '3年間の断酒は1,095日続いた長期的な変化です。NIAAAの回復研究では、この期間は「持続」の範囲に入ります。';
+
+  @override
+  String get alcoholReferenceDay1095 =>
+      '断酒3年：強い土台\n\n出典：NIAAA, Recovery Research Definitions\n\nNIAAAは、アルコール使用障害の寛解と大量飲酒の中止について、1〜5年を「持続」の期間区分としています。3年で特別な生物学的リセットが起こるとは述べていません。\n\n3年は1,095日間、別の生き方を強めてきた時間です。その継続にはそれ自体に意味があり、ここまで支えた仕組みを守る価値があります。';
+
+  @override
+  String get alcoholMilestone1460Title => '4年：根づいた変化';
+
+  @override
+  String get alcoholMilestone1460Description =>
+      '4年間の断酒は、本当に長い時間にわたって変化を維持した証です。大切なのは継続そのもので、架空の医学的期限ではありません。';
+
+  @override
+  String get alcoholReferenceDay1460 =>
+      '断酒4年：根づいた変化\n\n出典：NIAAA, Recovery Research Definitions\n\n4年は、NIAAAが研究で使う1〜5年の「持続」期間の中にあります。この枠組みは寛解と大量飲酒の中止が維持されることを扱うもので、すべての人の体や脳が同じ日に同じゴールへ到達するとするものではありません。\n\n4年間の断酒は、日常、ストレス、季節、節目を越えて変化を保ってきたということです。続いていること自体が成果です。';
+
+  @override
+  String get alcoholMilestone1825Title => '5年：大きな節目';
+
+  @override
+  String get alcoholMilestone1825Description =>
+      '5年間の断酒は、NIAAAが「持続」とする1〜5年の上端です。「安定」の区分は5年を超えてから始まります。';
+
+  @override
+  String get alcoholReferenceDay1825 =>
+      '断酒5年：大きな節目\n\n出典：NIAAA, Recovery Research Definitions\n\nNIAAAは1〜5年を「持続」、5年を超える期間を「安定」としています。そのため、ちょうど5年はまだ「持続」の最も長い側に位置します。また、この枠組みにはAUD症状の寛解も含まれるため、断酒だけを臨床診断として扱うべきではありません。\n\n5年間の断酒は1,825日間の継続した変化です。根拠のない医学的ゴールを作らなくても、5年という長い積み重ねは十分に大きな成果です。';
 }

@@ -3781,4 +3781,48 @@ class AppLocalizationsPl extends AppLocalizations {
   @override
   String get adderallReferenceDay1825 =>
       'Pięć lat bez nadużywania Adderallu: pół dekady postępu\n\nŹródło: SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSA uznaje długoterminowe zdrowienie za ważny cel opieki nad osobami z zaburzeniami związanymi z używaniem stymulantów. Przewodnik nie obiecuje szczególnego wydarzenia biologicznego po pięciu latach i ten kamień milowy nie potrzebuje takiej obietnicy.\n\nPięć lat to 1 825 dni utrzymywania innego kierunku. To ogromna ilość życiowego doświadczenia pokazująca, że Twoja zmiana może trwać. Świętuj ją i nadal rób to, co ją umożliwiło.';
+
+  @override
+  String get alcoholMilestone730Title => 'Dwa lata: trwały postęp';
+
+  @override
+  String get alcoholMilestone730Description =>
+      'Dwa lata bez alkoholu mieszczą się w przedziale od roku do pięciu lat, który NIAAA stosuje jako okres utrwalony w badaniach nad zdrowieniem. To duże osiągnięcie warte ochrony.';
+
+  @override
+  String get alcoholReferenceDay730 =>
+      'Dwa lata bez alkoholu: trwały postęp\n\nŹródło: NIAAA, Recovery Research Definitions\n\nNIAAA używa okresu od jednego do pięciu lat jako kategorii utrwalonej dla remisji zaburzenia używania alkoholu oraz zaprzestania intensywnego picia utrzymanych w czasie. Abstynencja wykracza poza próg picia, ale sama nie potwierdza wszystkich klinicznych kryteriów remisji.\n\nDwa lata to 730 dni utrzymanej zmiany. Świętuj tę konsekwencję i dalej chroń rutyny, relacje i wsparcie, które pomagają jej trwać.';
+
+  @override
+  String get alcoholMilestone1095Title => 'Trzy lata: mocny grunt';
+
+  @override
+  String get alcoholMilestone1095Description =>
+      'Trzy lata bez alkoholu to 1095 dni długotrwałej zmiany. NIAAA zalicza ten okres do utrwalonego przedziału używanego w badaniach nad zdrowieniem.';
+
+  @override
+  String get alcoholReferenceDay1095 =>
+      'Trzy lata bez alkoholu: mocny grunt\n\nŹródło: NIAAA, Recovery Research Definitions\n\nNIAAA używa od jednego do pięciu lat jako utrwalonej kategorii czasu dla remisji zaburzenia używania alkoholu i zaprzestania intensywnego picia. Nie twierdzi, że w trzecim roku następuje szczególny biologiczny reset.\n\nTrzy lata to 1095 dni wzmacniania innego wzorca. Ta konsekwencja ma wartość sama w sobie, a wsparcie, które pozwoliło tu dotrzeć, warto chronić.';
+
+  @override
+  String get alcoholMilestone1460Title => 'Cztery lata: trwała zmiana';
+
+  @override
+  String get alcoholMilestone1460Description =>
+      'Cztery lata bez alkoholu pokazują zmianę utrzymaną przez naprawdę długi czas. Kamieniem milowym jest sama trwałość, nie wymyślony termin medyczny.';
+
+  @override
+  String get alcoholReferenceDay1460 =>
+      'Cztery lata bez alkoholu: trwała zmiana\n\nŹródło: NIAAA, Recovery Research Definitions\n\nCztery lata nadal mieszczą się w utrwalonym przedziale od jednego do pięciu lat używanym przez NIAAA w badaniach. Ramy dotyczą utrzymanej remisji i zaprzestania intensywnego picia, a nie twierdzenia, że ciało lub mózg każdej osoby osiąga tę samą metę tego samego dnia.\n\nCztery lata bez alkoholu pokazują zmianę utrzymaną przez codzienność, stres, pory roku i ważne chwile. Sama trwałość jest osiągnięciem.';
+
+  @override
+  String get alcoholMilestone1825Title => 'Pięć lat: wielki kamień milowy';
+
+  @override
+  String get alcoholMilestone1825Description =>
+      'Pięć lat bez alkoholu dochodzi do górnej granicy przedziału od roku do pięciu lat NIAAA. Kategoria stabilna zaczyna się dopiero po ponad pięciu latach.';
+
+  @override
+  String get alcoholReferenceDay1825 =>
+      'Pięć lat bez alkoholu: wielki kamień milowy\n\nŹródło: NIAAA, Recovery Research Definitions\n\nNIAAA nazywa okres od jednego do pięciu lat utrwalonym, a ponad pięć lat stabilnym. Dokładnie pięć lat nadal leży więc na skraju okresu utrwalonego. Ramy obejmują także remisję objawów AUD, dlatego sama abstynencja nie jest diagnozą kliniczną.\n\nPięć lat bez alkoholu to 1825 dni utrzymanej zmiany. Pół dekady zasługuje na prawdziwe uznanie bez wymyślania medycznej mety, której nie potwierdzają dowody.';
 }

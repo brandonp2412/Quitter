@@ -3621,4 +3621,48 @@ class AppLocalizationsKo extends AppLocalizations {
   @override
   String get adderallReferenceDay1825 =>
       'Adderall 오남용 없이 5년: 5년의 진전\n\n출처: SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSA는 자극제 사용장애 치료에서 장기 회복을 중요한 목표로 인정합니다. 지침은 5년에 특별한 생물학적 사건이 일어난다고 약속하지 않으며, 이 이정표의 의미에 그런 약속은 필요하지 않습니다.\n\n5년은 1,825일 동안 다른 방향을 유지해 온 시간입니다. 변화가 지속될 수 있다는 강력한 실제 경험입니다. 충분히 기념하고, 여기까지 가능하게 한 것들을 계속 이어 가세요.';
+
+  @override
+  String get alcoholMilestone730Title => '2년: 꾸준한 전진';
+
+  @override
+  String get alcoholMilestone730Description =>
+      '2년간 금주는 NIAAA가 회복 연구에서 지속 기간으로 보는 1~5년 구간에 들어갑니다. 계속 지켜 갈 가치가 있는 큰 성취입니다.';
+
+  @override
+  String get alcoholReferenceDay730 =>
+      '금주 2년: 꾸준한 전진\n\n출처: NIAAA, Recovery Research Definitions\n\nNIAAA는 알코올 사용장애의 관해와 과음 중단이 유지된 기간 중 1~5년을 ‘지속’ 범주로 봅니다. 금주는 음주량 기준보다 더 엄격한 변화지만, 금주만으로 모든 임상적 관해 기준을 충족했다고 볼 수는 없습니다.\n\n2년은 730일 동안 변화를 유지한 시간입니다. 그 꾸준함을 축하하고, 이를 지탱한 습관과 관계, 지원을 계속 지켜 가세요.';
+
+  @override
+  String get alcoholMilestone1095Title => '3년: 단단한 기반';
+
+  @override
+  String get alcoholMilestone1095Description =>
+      '3년간 금주는 1,095일 이어진 장기적 변화입니다. NIAAA 회복 연구에서는 이 기간을 지속 구간 안에 둡니다.';
+
+  @override
+  String get alcoholReferenceDay1095 =>
+      '금주 3년: 단단한 기반\n\n출처: NIAAA, Recovery Research Definitions\n\nNIAAA는 알코올 사용장애의 관해와 과음 중단이 유지되는 1~5년을 지속 기간 범주로 사용합니다. 3년에 특별한 생물학적 리셋이 일어난다고 주장하지는 않습니다.\n\n3년은 1,095일 동안 다른 패턴을 강화해 온 시간입니다. 그 꾸준함 자체에 의미가 있으며, 여기까지 오게 한 지원을 계속 지킬 가치가 있습니다.';
+
+  @override
+  String get alcoholMilestone1460Title => '4년: 오래가는 변화';
+
+  @override
+  String get alcoholMilestone1460Description =>
+      '4년간 금주는 정말 긴 시간 동안 변화를 유지했다는 뜻입니다. 중요한 것은 지속성 자체이지, 만들어 낸 의학적 마감일이 아닙니다.';
+
+  @override
+  String get alcoholReferenceDay1460 =>
+      '금주 4년: 오래가는 변화\n\n출처: NIAAA, Recovery Research Definitions\n\n4년은 NIAAA가 연구에서 사용하는 1~5년의 지속 기간 안에 있습니다. 이 틀은 관해와 과음 중단이 유지되는지를 다루며, 모든 사람의 몸이나 뇌가 같은 날 같은 결승선에 도달한다고 말하지 않습니다.\n\n4년간 금주는 평범한 날, 스트레스, 계절과 여러 이정표를 지나며 변화를 지켜 온 기록입니다. 그 지속성 자체가 성취입니다.';
+
+  @override
+  String get alcoholMilestone1825Title => '5년: 큰 이정표';
+
+  @override
+  String get alcoholMilestone1825Description =>
+      '5년간 금주는 NIAAA의 1~5년 지속 구간 끝에 닿습니다. ‘안정’ 범주는 5년을 넘긴 뒤부터 시작합니다.';
+
+  @override
+  String get alcoholReferenceDay1825 =>
+      '금주 5년: 큰 이정표\n\n출처: NIAAA, Recovery Research Definitions\n\nNIAAA는 1~5년을 지속 기간, 5년 초과를 안정 기간으로 구분합니다. 따라서 정확히 5년은 아직 지속 구간의 가장 끝에 있습니다. 이 틀에는 AUD 증상의 관해도 포함되므로 금주만으로 임상적 진단을 내릴 수는 없습니다.\n\n5년간 금주는 1,825일 동안 변화를 유지한 기록입니다. 근거 없는 의학적 결승선을 만들지 않아도 5년이라는 긴 시간의 변화는 충분히 큰 성취입니다.';
 }

@@ -194,6 +194,66 @@ class AlcoholPage extends StatelessWidget {
             "Compounding Benefits\n"
             "Reaching a year also locks in the cardiovascular and liver gains of abstinence — lower blood pressure, reduced arrhythmia risk, and continued liver healing — alongside the falling cancer risk.",
       ),
+      QuitMilestone(
+        day: 730,
+        title: l10n.alcoholMilestone730Title,
+        description: l10n.alcoholMilestone730Description,
+        reference: "NIAAA Recovery Research Definitions",
+        link:
+            "https://www.niaaa.nih.gov/research/niaaa-recovery-from-alcohol-use-disorder/definitions",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.alcoholReferenceDay730,
+        referenceContent:
+            "Two Years Alcohol-Free: Sustained Progress\n\n"
+            "Source: NIAAA, Recovery Research Definitions\n\n"
+            "NIAAA defines recovery from alcohol use disorder around both remission from AUD and cessation from heavy drinking. Its research framework labels one to five years maintained over time as the sustained duration category. An alcohol-free streak goes beyond the drinking threshold, but abstinence alone does not establish every clinical remission criterion.\n\n"
+            "Two years is still a major long-term achievement: 730 days of maintaining the change. Celebrate the consistency and keep the routines, relationships, and support that help it last.",
+      ),
+      QuitMilestone(
+        day: 1095,
+        title: l10n.alcoholMilestone1095Title,
+        description: l10n.alcoholMilestone1095Description,
+        reference: "NIAAA Recovery Research Definitions",
+        link:
+            "https://www.niaaa.nih.gov/research/niaaa-recovery-from-alcohol-use-disorder/definitions",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.alcoholReferenceDay1095,
+        referenceContent:
+            "Three Years Alcohol-Free: Stronger Ground\n\n"
+            "Source: NIAAA, Recovery Research Definitions\n\n"
+            "NIAAA uses one to five years as the sustained duration category for remission from AUD and cessation from heavy drinking maintained over time. It does not claim a special biological reset at year three, and this milestone does not need one.\n\n"
+            "Three years is 1,095 days of choosing and reinforcing a different pattern. That consistency is meaningful in its own right, and the supports that got you here are worth protecting.",
+      ),
+      QuitMilestone(
+        day: 1460,
+        title: l10n.alcoholMilestone1460Title,
+        description: l10n.alcoholMilestone1460Description,
+        reference: "NIAAA Recovery Research Definitions",
+        link:
+            "https://www.niaaa.nih.gov/research/niaaa-recovery-from-alcohol-use-disorder/definitions",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.alcoholReferenceDay1460,
+        referenceContent:
+            "Four Years Alcohol-Free: Lasting Change\n\n"
+            "Source: NIAAA, Recovery Research Definitions\n\n"
+            "Four years remains inside NIAAA's one-to-five-year sustained duration window used in recovery research. The framework is about maintained remission and cessation from heavy drinking, not a claim that every person's body or brain reaches the same finish line on the same date.\n\n"
+            "Four years alcohol-free shows change maintained across seasons, stress, ordinary days, and milestones. The achievement is the durability itself.",
+      ),
+      QuitMilestone(
+        day: 1825,
+        title: l10n.alcoholMilestone1825Title,
+        description: l10n.alcoholMilestone1825Description,
+        reference: "NIAAA Recovery Research Definitions",
+        link:
+            "https://www.niaaa.nih.gov/research/niaaa-recovery-from-alcohol-use-disorder/definitions",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.alcoholReferenceDay1825,
+        referenceContent:
+            "Five Years Alcohol-Free: A Major Milestone\n\n"
+            "Source: NIAAA, Recovery Research Definitions\n\n"
+            "NIAAA's research framework calls one to five years the sustained duration category and reserves stable for more than five years. Exactly five years therefore sits at the far edge of the sustained window rather than beyond it. The framework also includes AUD symptom remission, so abstinence alone should not be treated as a clinical diagnosis.\n\n"
+            "Five years alcohol-free is 1,825 days of maintained change. Half a decade deserves real credit, without inventing a medical finish line that the evidence does not support.",
+      ),
     ];
   }
 

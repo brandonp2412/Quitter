@@ -3789,6 +3789,50 @@ class AppLocalizationsPt extends AppLocalizations {
   @override
   String get adderallReferenceDay1825 =>
       'Cinco anos sem uso indevido de Adderall: meia década de progresso\n\nFonte: SAMHSA, Treatment of Stimulant Use Disorders\n\nA SAMHSA reconhece a recuperação de longo prazo como um objetivo importante dos cuidados nas perturbações por uso de estimulantes. O guia não promete um acontecimento biológico especial aos cinco anos, e este marco não precisa disso para ter valor.\n\nCinco anos são 1 825 dias a manter uma direção diferente. É uma grande quantidade de experiência vivida a mostrar que a sua mudança pode durar. Celebre-a e continue a fazer o que a tornou possível.';
+
+  @override
+  String get alcoholMilestone730Title => 'Dois anos: progresso sustentado';
+
+  @override
+  String get alcoholMilestone730Description =>
+      'Dois anos sem álcool ficam no intervalo de um a cinco anos que a NIAAA usa como duração sustentada na investigação sobre recuperação. É uma grande conquista que merece ser protegida.';
+
+  @override
+  String get alcoholReferenceDay730 =>
+      'Dois anos sem álcool: progresso sustentado\n\nFonte: NIAAA, Recovery Research Definitions\n\nA NIAAA usa um a cinco anos como categoria de duração sustentada para a remissão da perturbação por uso de álcool e a cessação do consumo intenso mantidas ao longo do tempo. A abstinência vai além do limite de consumo, mas por si só não demonstra todos os critérios clínicos de remissão.\n\nDois anos são 730 dias de mudança mantida. Celebra essa consistência e continua a proteger as rotinas, relações e apoios que a tornam duradoura.';
+
+  @override
+  String get alcoholMilestone1095Title => 'Três anos: base mais forte';
+
+  @override
+  String get alcoholMilestone1095Description =>
+      'Três anos sem álcool são 1.095 dias de mudança a longo prazo. A NIAAA coloca esta duração dentro do seu intervalo sustentado de investigação sobre recuperação.';
+
+  @override
+  String get alcoholReferenceDay1095 =>
+      'Três anos sem álcool: base mais forte\n\nFonte: NIAAA, Recovery Research Definitions\n\nA NIAAA usa um a cinco anos como categoria de duração sustentada para a remissão da perturbação por uso de álcool e a cessação do consumo intenso. Não afirma existir um reinício biológico especial no terceiro ano.\n\nTrês anos são 1.095 dias a reforçar um padrão diferente. Essa consistência tem valor por si só, e vale a pena proteger os apoios que te trouxeram até aqui.';
+
+  @override
+  String get alcoholMilestone1460Title => 'Quatro anos: mudança duradoura';
+
+  @override
+  String get alcoholMilestone1460Description =>
+      'Quatro anos sem álcool mostram uma mudança mantida numa escala realmente longa. O marco é a própria durabilidade, não um prazo médico inventado.';
+
+  @override
+  String get alcoholReferenceDay1460 =>
+      'Quatro anos sem álcool: mudança duradoura\n\nFonte: NIAAA, Recovery Research Definitions\n\nQuatro anos continuam dentro do intervalo sustentado de um a cinco anos usado pela NIAAA na investigação. O modelo trata de remissão mantida e cessação do consumo intenso, não afirma que o corpo ou cérebro de todas as pessoas chega à mesma meta na mesma data.\n\nQuatro anos sem álcool mostram mudança através do quotidiano, do stress, das estações e dos marcos. A durabilidade é, por si só, a conquista.';
+
+  @override
+  String get alcoholMilestone1825Title => 'Cinco anos: grande marco';
+
+  @override
+  String get alcoholMilestone1825Description =>
+      'Cinco anos sem álcool chegam ao limite superior do intervalo sustentado de um a cinco anos da NIAAA. A categoria estável só começa depois de mais de cinco anos.';
+
+  @override
+  String get alcoholReferenceDay1825 =>
+      'Cinco anos sem álcool: um grande marco\n\nFonte: NIAAA, Recovery Research Definitions\n\nA NIAAA chama sustentada à duração de um a cinco anos e reserva estável para mais de cinco anos. Exatamente cinco anos continuam, portanto, no extremo do intervalo sustentado. O modelo também inclui remissão de sintomas de AUD; a abstinência por si só não deve ser tratada como diagnóstico clínico.\n\nCinco anos sem álcool são 1.825 dias de mudança mantida. Meio decénio merece reconhecimento real sem inventar uma meta médica que a evidência não apoia.';
 }
 
 /// The translations for Portuguese, as used in Brazil (`pt_BR`).
@@ -7576,4 +7620,48 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
   @override
   String get adderallReferenceDay1825 =>
       'Cinco anos sem uso indevido de Adderall: meia década de progresso\n\nFonte: SAMHSA, Treatment of Stimulant Use Disorders\n\nA SAMHSA reconhece a recuperação de longo prazo como um objetivo importante do cuidado dos transtornos por uso de estimulantes. Seu guia não promete um evento biológico especial aos cinco anos, e este marco não precisa disso para ter valor.\n\nCinco anos são 1.825 dias mantendo uma direção diferente. É muita experiência vivida mostrando que sua mudança pode durar. Celebre e continue fazendo o que tornou isso possível.';
+
+  @override
+  String get alcoholMilestone730Title => 'Dois anos: progresso sustentado';
+
+  @override
+  String get alcoholMilestone730Description =>
+      'Dois anos sem álcool ficam no intervalo de um a cinco anos que o NIAAA usa como duração sustentada na pesquisa sobre recuperação. É uma grande conquista que merece ser protegida.';
+
+  @override
+  String get alcoholReferenceDay730 =>
+      'Dois anos sem álcool: progresso sustentado\n\nFonte: NIAAA, Recovery Research Definitions\n\nO NIAAA usa de um a cinco anos como categoria de duração sustentada para a remissão do transtorno por uso de álcool e a interrupção do consumo pesado mantidas ao longo do tempo. A abstinência vai além do limite de consumo, mas sozinha não comprova todos os critérios clínicos de remissão.\n\nDois anos são 730 dias de mudança mantida. Celebre essa consistência e continue protegendo as rotinas, relações e apoios que ajudam a mantê-la.';
+
+  @override
+  String get alcoholMilestone1095Title => 'Três anos: base mais forte';
+
+  @override
+  String get alcoholMilestone1095Description =>
+      'Três anos sem álcool são 1.095 dias de mudança de longo prazo. O NIAAA coloca essa duração dentro da janela sustentada usada em pesquisas sobre recuperação.';
+
+  @override
+  String get alcoholReferenceDay1095 =>
+      'Três anos sem álcool: base mais forte\n\nFonte: NIAAA, Recovery Research Definitions\n\nO NIAAA usa de um a cinco anos como categoria de duração sustentada para a remissão do transtorno por uso de álcool e a interrupção do consumo pesado. Não afirma que exista um reinício biológico especial no terceiro ano.\n\nTrês anos são 1.095 dias reforçando um padrão diferente. Essa consistência importa por si só, e os apoios que trouxeram você até aqui merecem ser protegidos.';
+
+  @override
+  String get alcoholMilestone1460Title => 'Quatro anos: mudança duradoura';
+
+  @override
+  String get alcoholMilestone1460Description =>
+      'Quatro anos sem álcool mostram uma mudança mantida por um período realmente longo. O marco é a própria durabilidade, não um prazo médico inventado.';
+
+  @override
+  String get alcoholReferenceDay1460 =>
+      'Quatro anos sem álcool: mudança duradoura\n\nFonte: NIAAA, Recovery Research Definitions\n\nQuatro anos ainda estão dentro da janela sustentada de um a cinco anos usada pelo NIAAA em pesquisa. O modelo trata de remissão mantida e interrupção do consumo pesado, não afirma que o corpo ou o cérebro de todas as pessoas chegue à mesma linha de chegada na mesma data.\n\nQuatro anos sem álcool mostram mudança atravessando dias comuns, estresse, estações e marcos. A própria durabilidade é a conquista.';
+
+  @override
+  String get alcoholMilestone1825Title => 'Cinco anos: grande marco';
+
+  @override
+  String get alcoholMilestone1825Description =>
+      'Cinco anos sem álcool chegam ao limite superior da janela sustentada de um a cinco anos do NIAAA. A categoria estável só começa depois de mais de cinco anos.';
+
+  @override
+  String get alcoholReferenceDay1825 =>
+      'Cinco anos sem álcool: um grande marco\n\nFonte: NIAAA, Recovery Research Definitions\n\nO NIAAA chama de sustentada a duração de um a cinco anos e reserva estável para mais de cinco anos. Exatamente cinco anos, portanto, ainda ficam no extremo da janela sustentada. O modelo também inclui a remissão dos sintomas de AUD; abstinência sozinha não deve ser tratada como diagnóstico clínico.\n\nCinco anos sem álcool são 1.825 dias de mudança mantida. Meia década merece crédito real sem inventar uma linha de chegada médica que as evidências não sustentam.';
 }
