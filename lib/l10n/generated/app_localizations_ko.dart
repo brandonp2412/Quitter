@@ -80,6 +80,34 @@ class AppLocalizationsKo extends AppLocalizations {
       '1년 동안 크라톰이 없습니다. 오피오이드 시스템은 오랫동안 재규제되었으며 갈망은 드물고 습관이 더 이상 하루를 구성하지 않습니다.';
 
   @override
+  String get kratomMilestone730Title => '2년: 단단한 기반';
+
+  @override
+  String get kratomMilestone730Description =>
+      '크라톰 없이 보낸 2년은 오래 이어진 변화의 시간입니다. 이 길을 지탱한 습관과 선택이 일상의 일부로 자리 잡기에 충분한 시간이었습니다.';
+
+  @override
+  String get kratomMilestone1095Title => '3년: 이어지는 동력';
+
+  @override
+  String get kratomMilestone1095Description =>
+      '3년은 크라톰 너머에 만든 삶을 한 해 더 이어 왔다는 뜻입니다. 그 꾸준함 자체가 시간 속에서 쌓인 동력입니다.';
+
+  @override
+  String get kratomMilestone1460Title => '4년: 안정된 자유';
+
+  @override
+  String get kratomMilestone1460Description =>
+      '4년은 수천 번의 일상적인 선택이 만든 지속적인 자유입니다. 예전에는 계속 힘을 써야 했던 일이 이제는 삶의 중심에서 더 멀어질 수 있습니다.';
+
+  @override
+  String get kratomMilestone1825Title => '5년: 뿌리내린 변화';
+
+  @override
+  String get kratomMilestone1825Description =>
+      '5년은 큰 기념일입니다. 같은 방향을 1,825일 지켜 왔습니다. 그 선택을 중심으로 만들어진 삶 자체가 성취입니다.';
+
+  @override
   String get gabapentinoidsPageTitle => '가바펜티노이드 회수';
 
   @override
@@ -3227,6 +3255,22 @@ class AppLocalizationsKo extends AppLocalizations {
   @override
   String get kratomReferenceDay365 =>
       '크라톰 1년 할인\n\n출처: 국립 약물 남용 연구소(NIDA), \"Kratom\"\n\n과거의 급성 금단 증상\nNIDA는 구체적인 1년 크라톰 회복 일정을 발표하지 않지만, 1년 동안 금주를 지속하는 것은 크라톰 연구에 기록된 급성 및 초기 심리적 금단 기간을 훨씬 뛰어넘는 기간입니다. 이 지점에 도달한 대부분의 사람들에게 갈망은 드물고 관리하기가 훨씬 쉽습니다.\n\n더 큰 그림\n1년간의 금욕은 건강, 재정, 자기주도의 실질적인 변화를 의미합니다. 지원과의 연결을 유지하면 진행 상황을 안전하게 유지하는 데 도움이 됩니다.';
+
+  @override
+  String get kratomReferenceDay730 =>
+      '크라톰 없이 2년\n\n출처: Stanciu et al. (2021), “Pharmacotherapy for Management of \'Kratom Use Disorder\': A Systematic Literature Review With Survey of Experts.”\n\n근거가 말하는 것\n이 문헌고찰은 크라톰 의존, 재발 위험, 장기 관리 접근을 다룹니다. 동시에 크라톰의 장기 금단 상태를 유지하기 위한 확립된 지침은 없다고 밝힙니다. 이 기념일을 생물학적 회복의 완료 시점으로 규정하는 근거도 없습니다.\n\n이 기념일의 의미\n이 날짜는 의학적 마감 시점이 아니라 지속해 온 변화를 기념하는 날로 보는 것이 적절합니다. 여러 해 동안 이어 온 습관, 지원, 선택은 그 자체로 중요한 성취입니다.';
+
+  @override
+  String get kratomReferenceDay1095 =>
+      '크라톰 없이 3년\n\n출처: Stanciu et al. (2021), “Pharmacotherapy for Management of \'Kratom Use Disorder\': A Systematic Literature Review With Survey of Experts.”\n\n근거가 말하는 것\n이 문헌고찰은 크라톰 의존, 재발 위험, 장기 관리 접근을 다룹니다. 동시에 크라톰의 장기 금단 상태를 유지하기 위한 확립된 지침은 없다고 밝힙니다. 이 기념일을 생물학적 회복의 완료 시점으로 규정하는 근거도 없습니다.\n\n이 기념일의 의미\n이 날짜는 의학적 마감 시점이 아니라 지속해 온 변화를 기념하는 날로 보는 것이 적절합니다. 여러 해 동안 이어 온 습관, 지원, 선택은 그 자체로 중요한 성취입니다.';
+
+  @override
+  String get kratomReferenceDay1460 =>
+      '크라톰 없이 4년\n\n출처: Stanciu et al. (2021), “Pharmacotherapy for Management of \'Kratom Use Disorder\': A Systematic Literature Review With Survey of Experts.”\n\n근거가 말하는 것\n이 문헌고찰은 크라톰 의존, 재발 위험, 장기 관리 접근을 다룹니다. 동시에 크라톰의 장기 금단 상태를 유지하기 위한 확립된 지침은 없다고 밝힙니다. 이 기념일을 생물학적 회복의 완료 시점으로 규정하는 근거도 없습니다.\n\n이 기념일의 의미\n이 날짜는 의학적 마감 시점이 아니라 지속해 온 변화를 기념하는 날로 보는 것이 적절합니다. 여러 해 동안 이어 온 습관, 지원, 선택은 그 자체로 중요한 성취입니다.';
+
+  @override
+  String get kratomReferenceDay1825 =>
+      '크라톰 없이 5년\n\n출처: Stanciu et al. (2021), “Pharmacotherapy for Management of \'Kratom Use Disorder\': A Systematic Literature Review With Survey of Experts.”\n\n근거가 말하는 것\n이 문헌고찰은 크라톰 의존, 재발 위험, 장기 관리 접근을 다룹니다. 동시에 크라톰의 장기 금단 상태를 유지하기 위한 확립된 지침은 없다고 밝힙니다. 이 기념일을 생물학적 회복의 완료 시점으로 규정하는 근거도 없습니다.\n\n이 기념일의 의미\n이 날짜는 의학적 마감 시점이 아니라 지속해 온 변화를 기념하는 날로 보는 것이 적절합니다. 여러 해 동안 이어 온 습관, 지원, 선택은 그 자체로 중요한 성취입니다.';
 
   @override
   String get maoiReferenceDay3 =>

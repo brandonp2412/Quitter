@@ -82,6 +82,34 @@ class AppLocalizationsId extends AppLocalizations {
       'Setahun penuh bebas kratom. Sistem opioid telah lama diatur ulang, keinginan mengidam jarang terjadi, dan kebiasaan tersebut tidak lagi mengatur hari Anda.';
 
   @override
+  String get kratomMilestone730Title => 'Dua Tahun: Dasar Kuat';
+
+  @override
+  String get kratomMilestone730Description =>
+      'Dua tahun tanpa kratom adalah rentang perubahan yang panjang dan bertahan. Rutinitas serta pilihan yang menopang perjalanan ini sudah punya waktu untuk menjadi bagian dari keseharian.';
+
+  @override
+  String get kratomMilestone1095Title => 'Tiga Tahun: Momentum Terjaga';
+
+  @override
+  String get kratomMilestone1095Description =>
+      'Tiga tahun berarti satu tahun penuh lagi menjalani hidup yang dibangun melampaui kratom. Konsistensi itu adalah momentum yang diperoleh sedikit demi sedikit.';
+
+  @override
+  String get kratomMilestone1460Title => 'Empat Tahun: Bebas dan Stabil';
+
+  @override
+  String get kratomMilestone1460Description =>
+      'Empat tahun adalah kebebasan yang bertahan, ditopang ribuan keputusan sehari-hari. Hal yang dulu membutuhkan usaha terus-menerus kini dapat semakin jauh dari pusat kehidupan.';
+
+  @override
+  String get kratomMilestone1825Title => 'Lima Tahun: Perubahan Bertahan';
+
+  @override
+  String get kratomMilestone1825Description =>
+      'Lima tahun adalah hari jadi besar: 1.825 hari mempertahankan arah yang sama. Kehidupan yang dibangun di sekitar pilihan itu adalah pencapaiannya.';
+
+  @override
   String get gabapentinoidsPageTitle => 'Gabapentinoid';
 
   @override
@@ -3365,6 +3393,22 @@ class AppLocalizationsId extends AppLocalizations {
   @override
   String get kratomReferenceDay365 =>
       'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+
+  @override
+  String get kratomReferenceDay730 =>
+      'Dua tahun tanpa kratom\n\nSumber: Stanciu et al. (2021), “Pharmacotherapy for Management of \'Kratom Use Disorder\': A Systematic Literature Review With Survey of Experts.”\n\nApa kata bukti\nTinjauan ini membahas ketergantungan kratom, risiko kambuh, dan pendekatan penanganan jangka panjang. Tinjauan tersebut juga menyatakan bahwa belum ada pedoman baku untuk mempertahankan abstinensi kratom dalam jangka panjang. Bukti tidak menetapkan hari jadi ini sebagai titik akhir pemulihan biologis.\n\nArti pencapaian ini\nHari jadi ini paling tepat dirayakan sebagai perubahan yang terus dipertahankan, bukan sebagai tenggat medis. Rutinitas, dukungan, dan pilihan yang bertahan selama bertahun-tahun merupakan pencapaian penting dengan sendirinya.';
+
+  @override
+  String get kratomReferenceDay1095 =>
+      'Tiga tahun tanpa kratom\n\nSumber: Stanciu et al. (2021), “Pharmacotherapy for Management of \'Kratom Use Disorder\': A Systematic Literature Review With Survey of Experts.”\n\nApa kata bukti\nTinjauan ini membahas ketergantungan kratom, risiko kambuh, dan pendekatan penanganan jangka panjang. Tinjauan tersebut juga menyatakan bahwa belum ada pedoman baku untuk mempertahankan abstinensi kratom dalam jangka panjang. Bukti tidak menetapkan hari jadi ini sebagai titik akhir pemulihan biologis.\n\nArti pencapaian ini\nHari jadi ini paling tepat dirayakan sebagai perubahan yang terus dipertahankan, bukan sebagai tenggat medis. Rutinitas, dukungan, dan pilihan yang bertahan selama bertahun-tahun merupakan pencapaian penting dengan sendirinya.';
+
+  @override
+  String get kratomReferenceDay1460 =>
+      'Empat tahun tanpa kratom\n\nSumber: Stanciu et al. (2021), “Pharmacotherapy for Management of \'Kratom Use Disorder\': A Systematic Literature Review With Survey of Experts.”\n\nApa kata bukti\nTinjauan ini membahas ketergantungan kratom, risiko kambuh, dan pendekatan penanganan jangka panjang. Tinjauan tersebut juga menyatakan bahwa belum ada pedoman baku untuk mempertahankan abstinensi kratom dalam jangka panjang. Bukti tidak menetapkan hari jadi ini sebagai titik akhir pemulihan biologis.\n\nArti pencapaian ini\nHari jadi ini paling tepat dirayakan sebagai perubahan yang terus dipertahankan, bukan sebagai tenggat medis. Rutinitas, dukungan, dan pilihan yang bertahan selama bertahun-tahun merupakan pencapaian penting dengan sendirinya.';
+
+  @override
+  String get kratomReferenceDay1825 =>
+      'Lima tahun tanpa kratom\n\nSumber: Stanciu et al. (2021), “Pharmacotherapy for Management of \'Kratom Use Disorder\': A Systematic Literature Review With Survey of Experts.”\n\nApa kata bukti\nTinjauan ini membahas ketergantungan kratom, risiko kambuh, dan pendekatan penanganan jangka panjang. Tinjauan tersebut juga menyatakan bahwa belum ada pedoman baku untuk mempertahankan abstinensi kratom dalam jangka panjang. Bukti tidak menetapkan hari jadi ini sebagai titik akhir pemulihan biologis.\n\nArti pencapaian ini\nHari jadi ini paling tepat dirayakan sebagai perubahan yang terus dipertahankan, bukan sebagai tenggat medis. Rutinitas, dukungan, dan pilihan yang bertahan selama bertahun-tahun merupakan pencapaian penting dengan sendirinya.';
 
   @override
   String get maoiReferenceDay3 =>

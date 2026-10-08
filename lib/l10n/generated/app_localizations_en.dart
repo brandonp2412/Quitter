@@ -81,6 +81,34 @@ class AppLocalizationsEn extends AppLocalizations {
       'A full year free of kratom. The opioid system has long re-regulated, cravings are infrequent, and the habit no longer organises your day.';
 
   @override
+  String get kratomMilestone730Title => 'Two Years: Solid Ground';
+
+  @override
+  String get kratomMilestone730Description =>
+      'Two years without kratom is a durable stretch of change. The routines and choices that got you here have had time to become part of everyday life.';
+
+  @override
+  String get kratomMilestone1095Title => 'Three Years: Momentum Yours';
+
+  @override
+  String get kratomMilestone1095Description =>
+      'Three years means another full year of choosing the life built beyond kratom. That consistency is momentum earned over time.';
+
+  @override
+  String get kratomMilestone1460Title => 'Four Years: Steady Freedom';
+
+  @override
+  String get kratomMilestone1460Description =>
+      'Four years is sustained freedom backed by thousands of ordinary decisions. What once took constant effort can now sit farther in the background.';
+
+  @override
+  String get kratomMilestone1825Title => 'Five Years: Built to Last';
+
+  @override
+  String get kratomMilestone1825Description =>
+      'Five years is a major anniversary: 1,825 days of keeping the same direction. The life built around that choice is the achievement.';
+
+  @override
   String get gabapentinoidsPageTitle => 'Gabapentinoids';
 
   @override
@@ -3316,6 +3344,22 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get kratomReferenceDay365 =>
       'One Year Off Kratom\n\nSource: National Institute on Drug Abuse (NIDA), \"Kratom\"\n\nWell Past Acute Withdrawal\nNIDA doesn\'t publish a specific one-year kratom recovery timeline, but a year of sustained abstinence is well beyond the acute and early psychological withdrawal window documented in the kratom research. For most people who reach this point, cravings are infrequent and far easier to manage.\n\nThe Bigger Picture\nA year of abstinence represents a substantial change in health, finances, and self-direction. Staying connected to support helps keep that progress secure.';
+
+  @override
+  String get kratomReferenceDay730 =>
+      'Two Years Off Kratom\n\nSource: Stanciu et al. (2021), “Pharmacotherapy for Management of \'Kratom Use Disorder\': A Systematic Literature Review With Survey of Experts.”\n\nWhat the Evidence Says\nThe review describes kratom dependence, relapse risk, and approaches to long-term management. It also states that there are no established guidelines for maintaining long-term abstinence from kratom. The evidence does not define this anniversary as a biological recovery endpoint.\n\nWhat This Milestone Means\nThis anniversary is best treated as a celebration of sustained change, not a medical deadline. The routines, support, and choices maintained across these years are meaningful achievements in their own right.';
+
+  @override
+  String get kratomReferenceDay1095 =>
+      'Three Years Off Kratom\n\nSource: Stanciu et al. (2021), “Pharmacotherapy for Management of \'Kratom Use Disorder\': A Systematic Literature Review With Survey of Experts.”\n\nWhat the Evidence Says\nThe review describes kratom dependence, relapse risk, and approaches to long-term management. It also states that there are no established guidelines for maintaining long-term abstinence from kratom. The evidence does not define this anniversary as a biological recovery endpoint.\n\nWhat This Milestone Means\nThis anniversary is best treated as a celebration of sustained change, not a medical deadline. The routines, support, and choices maintained across these years are meaningful achievements in their own right.';
+
+  @override
+  String get kratomReferenceDay1460 =>
+      'Four Years Off Kratom\n\nSource: Stanciu et al. (2021), “Pharmacotherapy for Management of \'Kratom Use Disorder\': A Systematic Literature Review With Survey of Experts.”\n\nWhat the Evidence Says\nThe review describes kratom dependence, relapse risk, and approaches to long-term management. It also states that there are no established guidelines for maintaining long-term abstinence from kratom. The evidence does not define this anniversary as a biological recovery endpoint.\n\nWhat This Milestone Means\nThis anniversary is best treated as a celebration of sustained change, not a medical deadline. The routines, support, and choices maintained across these years are meaningful achievements in their own right.';
+
+  @override
+  String get kratomReferenceDay1825 =>
+      'Five Years Off Kratom\n\nSource: Stanciu et al. (2021), “Pharmacotherapy for Management of \'Kratom Use Disorder\': A Systematic Literature Review With Survey of Experts.”\n\nWhat the Evidence Says\nThe review describes kratom dependence, relapse risk, and approaches to long-term management. It also states that there are no established guidelines for maintaining long-term abstinence from kratom. The evidence does not define this anniversary as a biological recovery endpoint.\n\nWhat This Milestone Means\nThis anniversary is best treated as a celebration of sustained change, not a medical deadline. The routines, support, and choices maintained across these years are meaningful achievements in their own right.';
 
   @override
   String get maoiReferenceDay3 =>

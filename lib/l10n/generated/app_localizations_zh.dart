@@ -80,6 +80,34 @@ class AppLocalizationsZh extends AppLocalizations {
       '一整年没有卡痛叶。阿片系统已经长期重新调节，渴求很少出现，这个习惯不再支配您的日常生活。';
 
   @override
+  String get kratomMilestone730Title => '两年：基础稳固';
+
+  @override
+  String get kratomMilestone730Description =>
+      '两年不再使用卡痛叶，已经是一段持久而稳定的改变。一路形成的日常习惯和选择，也有充分时间融入生活。';
+
+  @override
+  String get kratomMilestone1095Title => '三年：势头延续';
+
+  @override
+  String get kratomMilestone1095Description =>
+      '三年意味着在卡痛叶之外建立的生活又延续了整整一年。这样的持续性，就是长期积累而成的势头。';
+
+  @override
+  String get kratomMilestone1460Title => '四年：稳定自主';
+
+  @override
+  String get kratomMilestone1460Description =>
+      '四年的稳定自主来自数千次普通的日常选择。曾经需要持续用力维持的事情，如今可以进一步退到生活背景中。';
+
+  @override
+  String get kratomMilestone1825Title => '五年：改变扎根';
+
+  @override
+  String get kratomMilestone1825Description =>
+      '五年是重要的周年节点：1825天持续保持同一方向。围绕这一选择建立起来的生活，本身就是成就。';
+
+  @override
   String get gabapentinoidsPageTitle => '加巴喷丁类药物戒断';
 
   @override
@@ -3182,6 +3210,22 @@ class AppLocalizationsZh extends AppLocalizations {
       '停用卡痛叶一年\n\n来源：美国国家药物滥用研究所（NIDA），《Kratom》\n\n早已越过急性戒断\nNIDA并没有公布具体的卡痛叶一年恢复时间线，但一年的持续戒断早已超出卡痛叶研究中记载的急性期和早期心理戒断窗口。对大多数走到这一步的人来说，渴求很少出现，也远更容易应对。\n\n更大的图景\n一年的戒断代表着健康、财务状况和自我掌控上的实质性改变。保持与支持系统的联系，有助于守护这份进展。';
 
   @override
+  String get kratomReferenceDay730 =>
+      '两年不再使用卡痛叶\n\n来源：Stanciu et al. (2021), “Pharmacotherapy for Management of \'Kratom Use Disorder\': A Systematic Literature Review With Survey of Experts.”\n\n证据说明什么\n这篇综述讨论了卡痛叶依赖、复发风险和长期管理方法，同时指出，目前尚无维持卡痛叶长期停用状态的成熟指南。现有证据也没有把这个周年节点定义为生物学上的康复终点。\n\n这个节点意味着什么\n更合适的理解，是把这个周年节点视为持续改变的庆祝，而不是医学上的截止日期。多年保持下来的习惯、支持和选择，本身就是有意义的成果。';
+
+  @override
+  String get kratomReferenceDay1095 =>
+      '三年不再使用卡痛叶\n\n来源：Stanciu et al. (2021), “Pharmacotherapy for Management of \'Kratom Use Disorder\': A Systematic Literature Review With Survey of Experts.”\n\n证据说明什么\n这篇综述讨论了卡痛叶依赖、复发风险和长期管理方法，同时指出，目前尚无维持卡痛叶长期停用状态的成熟指南。现有证据也没有把这个周年节点定义为生物学上的康复终点。\n\n这个节点意味着什么\n更合适的理解，是把这个周年节点视为持续改变的庆祝，而不是医学上的截止日期。多年保持下来的习惯、支持和选择，本身就是有意义的成果。';
+
+  @override
+  String get kratomReferenceDay1460 =>
+      '四年不再使用卡痛叶\n\n来源：Stanciu et al. (2021), “Pharmacotherapy for Management of \'Kratom Use Disorder\': A Systematic Literature Review With Survey of Experts.”\n\n证据说明什么\n这篇综述讨论了卡痛叶依赖、复发风险和长期管理方法，同时指出，目前尚无维持卡痛叶长期停用状态的成熟指南。现有证据也没有把这个周年节点定义为生物学上的康复终点。\n\n这个节点意味着什么\n更合适的理解，是把这个周年节点视为持续改变的庆祝，而不是医学上的截止日期。多年保持下来的习惯、支持和选择，本身就是有意义的成果。';
+
+  @override
+  String get kratomReferenceDay1825 =>
+      '五年不再使用卡痛叶\n\n来源：Stanciu et al. (2021), “Pharmacotherapy for Management of \'Kratom Use Disorder\': A Systematic Literature Review With Survey of Experts.”\n\n证据说明什么\n这篇综述讨论了卡痛叶依赖、复发风险和长期管理方法，同时指出，目前尚无维持卡痛叶长期停用状态的成熟指南。现有证据也没有把这个周年节点定义为生物学上的康复终点。\n\n这个节点意味着什么\n更合适的理解，是把这个周年节点视为持续改变的庆祝，而不是医学上的截止日期。多年保持下来的习惯、支持和选择，本身就是有意义的成果。';
+
+  @override
   String get maoiReferenceDay3 =>
       'MAOI停药：风险最高的阶段\n\n来源：Dilsaver（1988），关于MAOI停药反应的研究\n\n重要安全警告\n在所有抗抑郁药类别中，MAOI的停药风险最为严重。突然停药——尤其是苯乙肼和反苯环丙胺——可能引起严重反应，包括：\n• 严重的焦虑和激越\n• 言语急迫和坐立不安\n• 失眠或嗜睡\n• 幻觉\n• 谵妄和偏执性精神病\n\n如果你正在出现这些症状，请立即就医。\n\nMAOI如何起作用\nMAOI通过不可逆地与单胺氧化酶（MAO-A和MAO-B）结合并使其失活来发挥作用。这些酶通常负责分解大脑和肠道中的血清素、去甲肾上腺素、多巴胺和酪胺。由于被摧毁的是酶本身而不只是被阻断，恢复取决于身体产生新的酶，而不是药物从血液中清除的速度。';
 
@@ -3881,6 +3925,34 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   @override
   String get kratomMilestone365Description =>
       '一整年沒有卡痛葉。阿片系統已經長期重新調節，渴求很少出現，這個習慣不再支配您的日常生活。';
+
+  @override
+  String get kratomMilestone730Title => '兩年：基礎穩固';
+
+  @override
+  String get kratomMilestone730Description =>
+      '兩年不再使用卡痛葉，已是一段持久而穩定的改變。一路形成的日常習慣與選擇，也有充分時間融入生活。';
+
+  @override
+  String get kratomMilestone1095Title => '三年：步伐延續';
+
+  @override
+  String get kratomMilestone1095Description =>
+      '三年代表在卡痛葉之外建立的生活又延續了整整一年。這份持續性，就是長時間累積而成的步伐。';
+
+  @override
+  String get kratomMilestone1460Title => '四年：穩定自主';
+
+  @override
+  String get kratomMilestone1460Description =>
+      '四年的穩定自主來自數千次平凡的日常選擇。曾經需要持續用力維持的事，如今可以進一步退到生活背景。';
+
+  @override
+  String get kratomMilestone1825Title => '五年：改變扎根';
+
+  @override
+  String get kratomMilestone1825Description =>
+      '五年是重要的週年節點：1825天持續維持同一方向。圍繞這項選擇建立起來的生活，本身就是成就。';
 
   @override
   String get gabapentinoidsPageTitle => '加巴噴丁類藥物戒斷';
@@ -6983,6 +7055,22 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   @override
   String get kratomReferenceDay365 =>
       '停用卡痛葉一年\n\n來源：美國國家藥物濫用研究所（NIDA），《Kratom》\n\n早已越過急性戒斷\nNIDA並沒有公佈具體的卡痛葉一年恢復時間線，但一年的持續戒斷早已超出卡痛葉研究中記載的急性期和早期心理戒斷窗口。對大多數走到這一步的人來說，渴求很少出現，也遠更容易應對。\n\n更大的圖景\n一年的戒斷代表著健康、財務狀況和自我掌控上的實質性改變。保持與支持系統的聯繫，有助於守護這份進展。';
+
+  @override
+  String get kratomReferenceDay730 =>
+      '兩年不再使用卡痛葉\n\n來源：Stanciu 等（2021），〈卡痛葉使用障礙的藥物治療：文獻系統性回顧與專家調查〉。\n\n證據說明什麼\n這篇綜述討論卡痛葉依賴、復發風險與長期管理方式，同時指出，目前尚無維持卡痛葉長期停用狀態的成熟指引。現有證據也沒有把這個週年節點定義為生物學上的康復終點。\n\n這個節點代表什麼\n更合適的理解，是把這個週年節點視為持續改變的慶祝，而不是醫學上的截止日期。多年維持下來的習慣、支持與選擇，本身就是有意義的成果。';
+
+  @override
+  String get kratomReferenceDay1095 =>
+      '三年不再使用卡痛葉\n\n來源：Stanciu 等（2021），〈卡痛葉使用障礙的藥物治療：文獻系統性回顧與專家調查〉。\n\n證據說明什麼\n這篇綜述討論卡痛葉依賴、復發風險與長期管理方式，同時指出，目前尚無維持卡痛葉長期停用狀態的成熟指引。現有證據也沒有把這個週年節點定義為生物學上的康復終點。\n\n這個節點代表什麼\n更合適的理解，是把這個週年節點視為持續改變的慶祝，而不是醫學上的截止日期。多年維持下來的習慣、支持與選擇，本身就是有意義的成果。';
+
+  @override
+  String get kratomReferenceDay1460 =>
+      '四年不再使用卡痛葉\n\n來源：Stanciu 等（2021），〈卡痛葉使用障礙的藥物治療：文獻系統性回顧與專家調查〉。\n\n證據說明什麼\n這篇綜述討論卡痛葉依賴、復發風險與長期管理方式，同時指出，目前尚無維持卡痛葉長期停用狀態的成熟指引。現有證據也沒有把這個週年節點定義為生物學上的康復終點。\n\n這個節點代表什麼\n更合適的理解，是把這個週年節點視為持續改變的慶祝，而不是醫學上的截止日期。多年維持下來的習慣、支持與選擇，本身就是有意義的成果。';
+
+  @override
+  String get kratomReferenceDay1825 =>
+      '五年不再使用卡痛葉\n\n來源：Stanciu 等（2021），〈卡痛葉使用障礙的藥物治療：文獻系統性回顧與專家調查〉。\n\n證據說明什麼\n這篇綜述討論卡痛葉依賴、復發風險與長期管理方式，同時指出，目前尚無維持卡痛葉長期停用狀態的成熟指引。現有證據也沒有把這個週年節點定義為生物學上的康復終點。\n\n這個節點代表什麼\n更合適的理解，是把這個週年節點視為持續改變的慶祝，而不是醫學上的截止日期。多年維持下來的習慣、支持與選擇，本身就是有意義的成果。';
 
   @override
   String get maoiReferenceDay3 =>

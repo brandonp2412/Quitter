@@ -83,6 +83,34 @@ class AppLocalizationsFr extends AppLocalizations {
       'Une année entière sans kratom. Le système opioïde s\'est rééquilibré depuis longtemps, les envies sont rares et cette habitude n\'organise plus votre journée.';
 
   @override
+  String get kratomMilestone730Title => 'Deux ans : bases solides';
+
+  @override
+  String get kratomMilestone730Description =>
+      'Deux ans sans kratom représentent une longue période de changement durable. Les habitudes et les choix qui ont soutenu ce parcours ont eu le temps de s\'ancrer dans le quotidien.';
+
+  @override
+  String get kratomMilestone1095Title => 'Trois ans : élan durable';
+
+  @override
+  String get kratomMilestone1095Description =>
+      'Trois ans ajoutent une année entière à une vie construite au-delà du kratom. Cette constance est un élan acquis avec le temps.';
+
+  @override
+  String get kratomMilestone1460Title => 'Quatre ans : liberté stable';
+
+  @override
+  String get kratomMilestone1460Description =>
+      'Quatre ans, c\'est une liberté durable portée par des milliers de décisions ordinaires. Ce qui demandait autrefois un effort constant peut désormais rester davantage en arrière-plan.';
+
+  @override
+  String get kratomMilestone1825Title => 'Cinq ans : changement durable';
+
+  @override
+  String get kratomMilestone1825Description =>
+      'Cinq ans constituent un anniversaire majeur : 1 825 jours dans la même direction. La vie construite autour de ce choix est l\'accomplissement.';
+
+  @override
   String get gabapentinoidsPageTitle => 'Gabapentinoïdes';
 
   @override
@@ -3420,6 +3448,22 @@ class AppLocalizationsFr extends AppLocalizations {
   @override
   String get kratomReferenceDay365 =>
       'Un an sans kratom\n\nSource : National Institute on Drug Abuse (NIDA), « Kratom »\n\nBien au-delà du sevrage aigu\nLe NIDA ne publie pas de chronologie spécifique de récupération sur un an pour le kratom, mais une année d\'abstinence durable est très au-delà de la fenêtre aiguë et psychologique précoce documentée dans la recherche. Pour la plupart des personnes arrivées à ce stade, les envies sont rares et beaucoup plus faciles à gérer.\n\nVue d\'ensemble\nUne année d\'abstinence représente un changement important en matière de santé, de finances et d\'autonomie. Rester en lien avec du soutien aide à protéger ces progrès.';
+
+  @override
+  String get kratomReferenceDay730 =>
+      'Deux ans sans kratom\n\nSource : Stanciu et al. (2021), “Pharmacotherapy for Management of \'Kratom Use Disorder\': A Systematic Literature Review With Survey of Experts.”\n\nCe que disent les données\nLa revue décrit la dépendance au kratom, le risque de rechute et les approches de prise en charge à long terme. Elle précise aussi qu\'il n\'existe pas de recommandations établies pour maintenir une abstinence durable du kratom. Les données ne définissent pas cet anniversaire comme un point final biologique de la récupération.\n\nCe que signifie cette étape\nCet anniversaire est avant tout l\'occasion de célébrer un changement maintenu, pas une échéance médicale. Les habitudes, le soutien et les choix conservés pendant ces années sont déjà des réussites importantes.';
+
+  @override
+  String get kratomReferenceDay1095 =>
+      'Trois ans sans kratom\n\nSource : Stanciu et al. (2021), “Pharmacotherapy for Management of \'Kratom Use Disorder\': A Systematic Literature Review With Survey of Experts.”\n\nCe que disent les données\nLa revue décrit la dépendance au kratom, le risque de rechute et les approches de prise en charge à long terme. Elle précise aussi qu\'il n\'existe pas de recommandations établies pour maintenir une abstinence durable du kratom. Les données ne définissent pas cet anniversaire comme un point final biologique de la récupération.\n\nCe que signifie cette étape\nCet anniversaire est avant tout l\'occasion de célébrer un changement maintenu, pas une échéance médicale. Les habitudes, le soutien et les choix conservés pendant ces années sont déjà des réussites importantes.';
+
+  @override
+  String get kratomReferenceDay1460 =>
+      'Quatre ans sans kratom\n\nSource : Stanciu et al. (2021), “Pharmacotherapy for Management of \'Kratom Use Disorder\': A Systematic Literature Review With Survey of Experts.”\n\nCe que disent les données\nLa revue décrit la dépendance au kratom, le risque de rechute et les approches de prise en charge à long terme. Elle précise aussi qu\'il n\'existe pas de recommandations établies pour maintenir une abstinence durable du kratom. Les données ne définissent pas cet anniversaire comme un point final biologique de la récupération.\n\nCe que signifie cette étape\nCet anniversaire est avant tout l\'occasion de célébrer un changement maintenu, pas une échéance médicale. Les habitudes, le soutien et les choix conservés pendant ces années sont déjà des réussites importantes.';
+
+  @override
+  String get kratomReferenceDay1825 =>
+      'Cinq ans sans kratom\n\nSource : Stanciu et al. (2021), “Pharmacotherapy for Management of \'Kratom Use Disorder\': A Systematic Literature Review With Survey of Experts.”\n\nCe que disent les données\nLa revue décrit la dépendance au kratom, le risque de rechute et les approches de prise en charge à long terme. Elle précise aussi qu\'il n\'existe pas de recommandations établies pour maintenir une abstinence durable du kratom. Les données ne définissent pas cet anniversaire comme un point final biologique de la récupération.\n\nCe que signifie cette étape\nCet anniversaire est avant tout l\'occasion de célébrer un changement maintenu, pas une échéance médicale. Les habitudes, le soutien et les choix conservés pendant ces années sont déjà des réussites importantes.';
 
   @override
   String get maoiReferenceDay3 =>

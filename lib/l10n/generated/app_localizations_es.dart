@@ -80,6 +80,34 @@ class AppLocalizationsEs extends AppLocalizations {
       'Un año completo sin kratom. El sistema opioide lleva tiempo regulado de nuevo, los deseos de consumir son poco frecuentes y el hábito ya no organiza tu día.';
 
   @override
+  String get kratomMilestone730Title => 'Dos años: Base firme';
+
+  @override
+  String get kratomMilestone730Description =>
+      'Dos años sin kratom representan un periodo largo de cambio sostenido. Las rutinas y decisiones que sostuvieron este camino han tenido tiempo de integrarse en la vida diaria.';
+
+  @override
+  String get kratomMilestone1095Title => 'Tres años: Impulso propio';
+
+  @override
+  String get kratomMilestone1095Description =>
+      'Tres años suman otro año completo de una vida construida más allá del kratom. Esa constancia es un impulso ganado con el tiempo.';
+
+  @override
+  String get kratomMilestone1460Title => 'Cuatro años: Libertad estable';
+
+  @override
+  String get kratomMilestone1460Description =>
+      'Cuatro años son libertad sostenida por miles de decisiones cotidianas. Lo que antes exigía esfuerzo constante puede ocupar ahora un lugar mucho más pequeño.';
+
+  @override
+  String get kratomMilestone1825Title => 'Cinco años: Cambio duradero';
+
+  @override
+  String get kratomMilestone1825Description =>
+      'Cinco años marcan un aniversario importante: 1825 días manteniendo la misma dirección. La vida construida alrededor de esa decisión es el logro.';
+
+  @override
   String get gabapentinoidsPageTitle => 'Gabapentinoides';
 
   @override
@@ -3396,6 +3424,22 @@ class AppLocalizationsEs extends AppLocalizations {
   @override
   String get kratomReferenceDay365 =>
       'Un año sin kratom\n\nFuente: National Institute on Drug Abuse (NIDA), \"Kratom\"\n\nMuy por encima de la abstinencia aguda\nEl NIDA no publica una cronología específica de recuperación de un año para el kratom, pero un año de abstinencia mantenida queda muy por encima de la ventana aguda y psicológica temprana documentada en la investigación. Para la mayoría de las personas que llegan a este punto, los deseos de consumir son poco frecuentes y mucho más fáciles de manejar.\n\nLa perspectiva general\nUn año de abstinencia representa un cambio importante en salud, finanzas y capacidad de dirigir la propia vida. Mantenerse conectado con apoyos útiles ayuda a proteger ese progreso.';
+
+  @override
+  String get kratomReferenceDay730 =>
+      'Dos años sin kratom\n\nFuente: Stanciu et al. (2021), “Pharmacotherapy for Management of \'Kratom Use Disorder\': A Systematic Literature Review With Survey of Experts.”\n\nQué dice la evidencia\nLa revisión describe la dependencia del kratom, el riesgo de recaída y enfoques de manejo a largo plazo. También señala que no existen pautas establecidas para mantener la abstinencia de kratom a largo plazo. La evidencia no define este aniversario como un punto final biológico de recuperación.\n\nQué significa este hito\nConviene celebrar este aniversario como un cambio sostenido, no como una fecha límite médica. Las rutinas, el apoyo y las decisiones mantenidas durante estos años son logros valiosos por sí mismos.';
+
+  @override
+  String get kratomReferenceDay1095 =>
+      'Tres años sin kratom\n\nFuente: Stanciu et al. (2021), “Pharmacotherapy for Management of \'Kratom Use Disorder\': A Systematic Literature Review With Survey of Experts.”\n\nQué dice la evidencia\nLa revisión describe la dependencia del kratom, el riesgo de recaída y enfoques de manejo a largo plazo. También señala que no existen pautas establecidas para mantener la abstinencia de kratom a largo plazo. La evidencia no define este aniversario como un punto final biológico de recuperación.\n\nQué significa este hito\nConviene celebrar este aniversario como un cambio sostenido, no como una fecha límite médica. Las rutinas, el apoyo y las decisiones mantenidas durante estos años son logros valiosos por sí mismos.';
+
+  @override
+  String get kratomReferenceDay1460 =>
+      'Cuatro años sin kratom\n\nFuente: Stanciu et al. (2021), “Pharmacotherapy for Management of \'Kratom Use Disorder\': A Systematic Literature Review With Survey of Experts.”\n\nQué dice la evidencia\nLa revisión describe la dependencia del kratom, el riesgo de recaída y enfoques de manejo a largo plazo. También señala que no existen pautas establecidas para mantener la abstinencia de kratom a largo plazo. La evidencia no define este aniversario como un punto final biológico de recuperación.\n\nQué significa este hito\nConviene celebrar este aniversario como un cambio sostenido, no como una fecha límite médica. Las rutinas, el apoyo y las decisiones mantenidas durante estos años son logros valiosos por sí mismos.';
+
+  @override
+  String get kratomReferenceDay1825 =>
+      'Cinco años sin kratom\n\nFuente: Stanciu et al. (2021), “Pharmacotherapy for Management of \'Kratom Use Disorder\': A Systematic Literature Review With Survey of Experts.”\n\nQué dice la evidencia\nLa revisión describe la dependencia del kratom, el riesgo de recaída y enfoques de manejo a largo plazo. También señala que no existen pautas establecidas para mantener la abstinencia de kratom a largo plazo. La evidencia no define este aniversario como un punto final biológico de recuperación.\n\nQué significa este hito\nConviene celebrar este aniversario como un cambio sostenido, no como una fecha límite médica. Las rutinas, el apoyo y las decisiones mantenidas durante estos años son logros valiosos por sí mismos.';
 
   @override
   String get maoiReferenceDay3 =>

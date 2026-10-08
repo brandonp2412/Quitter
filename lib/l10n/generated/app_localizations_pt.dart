@@ -82,6 +82,34 @@ class AppLocalizationsPt extends AppLocalizations {
       'Um ano inteiro sem kratom. O sistema opioide há muito se reregula, os desejos são raros e o hábito não organiza mais o seu dia.';
 
   @override
+  String get kratomMilestone730Title => 'Dois anos: Base sólida';
+
+  @override
+  String get kratomMilestone730Description =>
+      'Dois anos sem kratom representam um longo período de mudança sustentada. As rotinas e escolhas que apoiaram este percurso tiveram tempo para se tornar parte do dia a dia.';
+
+  @override
+  String get kratomMilestone1095Title => 'Três anos: Ritmo consolidado';
+
+  @override
+  String get kratomMilestone1095Description =>
+      'Três anos significam mais um ano inteiro de uma vida construída para além do kratom. Essa consistência é um ritmo conquistado ao longo do tempo.';
+
+  @override
+  String get kratomMilestone1460Title => 'Quatro anos: Liberdade estável';
+
+  @override
+  String get kratomMilestone1460Description =>
+      'Quatro anos são liberdade sustentada por milhares de decisões comuns. Aquilo que antes exigia esforço constante pode agora ficar muito mais longe do centro da vida.';
+
+  @override
+  String get kratomMilestone1825Title => 'Cinco anos: Mudança duradoura';
+
+  @override
+  String get kratomMilestone1825Description =>
+      'Cinco anos são um grande aniversário: 1825 dias a manter a mesma direção. A vida construída em torno dessa escolha é a verdadeira conquista.';
+
+  @override
   String get gabapentinoidsPageTitle => 'Gabapentinoides';
 
   @override
@@ -3397,6 +3425,22 @@ class AppLocalizationsPt extends AppLocalizations {
       'Um ano sem Kratom\n\nFonte: Instituto Nacional sobre Abuso de Drogas (NIDA), \"Kratom\"\n\nBem Passada a Abstinência Aguda\nO NIDA não publica um cronograma específico de recuperação do kratom de um ano, mas um ano de abstinência sustentada está muito além da janela de abstinência psicológica aguda e precoce documentada na pesquisa do kratom. Para a maioria das pessoas que chegam a esse ponto, os desejos são raros e muito mais fáceis de controlar.\n\nO panorama geral\nUm ano de abstinência representa uma mudança substancial na saúde, nas finanças e na autogestão. Permanecer conectado ao suporte ajuda a manter esse progresso seguro.';
 
   @override
+  String get kratomReferenceDay730 =>
+      'Dois anos sem kratom\n\nFonte: Stanciu et al. (2021), “Pharmacotherapy for Management of \'Kratom Use Disorder\': A Systematic Literature Review With Survey of Experts.”\n\nO que dizem as evidências\nA revisão descreve a dependência de kratom, o risco de recaída e abordagens de gestão a longo prazo. Também afirma que não existem orientações estabelecidas para manter a abstinência de kratom a longo prazo. As evidências não definem este aniversário como um ponto final biológico da recuperação.\n\nO significado deste marco\nEste aniversário deve ser encarado como uma celebração de mudança sustentada, não como um prazo médico. As rotinas, o apoio e as escolhas mantidas ao longo destes anos são conquistas importantes por si só.';
+
+  @override
+  String get kratomReferenceDay1095 =>
+      'Três anos sem kratom\n\nFonte: Stanciu et al. (2021), “Pharmacotherapy for Management of \'Kratom Use Disorder\': A Systematic Literature Review With Survey of Experts.”\n\nO que dizem as evidências\nA revisão descreve a dependência de kratom, o risco de recaída e abordagens de gestão a longo prazo. Também afirma que não existem orientações estabelecidas para manter a abstinência de kratom a longo prazo. As evidências não definem este aniversário como um ponto final biológico da recuperação.\n\nO significado deste marco\nEste aniversário deve ser encarado como uma celebração de mudança sustentada, não como um prazo médico. As rotinas, o apoio e as escolhas mantidas ao longo destes anos são conquistas importantes por si só.';
+
+  @override
+  String get kratomReferenceDay1460 =>
+      'Quatro anos sem kratom\n\nFonte: Stanciu et al. (2021), “Pharmacotherapy for Management of \'Kratom Use Disorder\': A Systematic Literature Review With Survey of Experts.”\n\nO que dizem as evidências\nA revisão descreve a dependência de kratom, o risco de recaída e abordagens de gestão a longo prazo. Também afirma que não existem orientações estabelecidas para manter a abstinência de kratom a longo prazo. As evidências não definem este aniversário como um ponto final biológico da recuperação.\n\nO significado deste marco\nEste aniversário deve ser encarado como uma celebração de mudança sustentada, não como um prazo médico. As rotinas, o apoio e as escolhas mantidas ao longo destes anos são conquistas importantes por si só.';
+
+  @override
+  String get kratomReferenceDay1825 =>
+      'Cinco anos sem kratom\n\nFonte: Stanciu et al. (2021), “Pharmacotherapy for Management of \'Kratom Use Disorder\': A Systematic Literature Review With Survey of Experts.”\n\nO que dizem as evidências\nA revisão descreve a dependência de kratom, o risco de recaída e abordagens de gestão a longo prazo. Também afirma que não existem orientações estabelecidas para manter a abstinência de kratom a longo prazo. As evidências não definem este aniversário como um ponto final biológico da recuperação.\n\nO significado deste marco\nEste aniversário deve ser encarado como uma celebração de mudança sustentada, não como um prazo médico. As rotinas, o apoio e as escolhas mantidas ao longo destes anos são conquistas importantes por si só.';
+
+  @override
   String get maoiReferenceDay3 =>
       'Descontinuação do IMAO: a fase de maior risco\n\nFonte: Dilsaver (1988), pesquisa sobre reações de abstinência de IMAO\n\nAviso crítico de segurança\nOs IMAOs apresentam os riscos de descontinuação mais graves de qualquer classe de antidepressivos. A cessação abrupta – particularmente de fenelzina e tranilcipromina – pode produzir reações graves, incluindo:\n• Ansiedade e agitação intensas\n• Fala pressionada e inquietação\n• Insónia ou sonolência\n• Alucinações\n• Delirium e psicose paranóica\n\nSe estiver apresentando esses sintomas, procure atendimento médico imediato.\n\nComo funcionam os IMAOs\nOs IMAOs atuam ligando-se irreversivelmente e desativando as enzimas monoamina oxidase (MAO-A e MAO-B). Essas enzimas normalmente decompõem a serotonina, a noradrenalina, a dopamina e a tiramina no cérebro e no intestino. Como a própria enzima é destruída e não apenas bloqueada, a recuperação depende da produção de enzima nova pelo corpo, e não da rapidez com que o medicamento limpa a corrente sanguínea.';
 
@@ -4098,6 +4142,34 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
   @override
   String get kratomMilestone365Description =>
       'Um ano inteiro sem kratom. O sistema opioide há muito se reregula, os desejos são raros e o hábito não organiza mais o seu dia.';
+
+  @override
+  String get kratomMilestone730Title => 'Dois anos: Base firme';
+
+  @override
+  String get kratomMilestone730Description =>
+      'Dois anos sem kratom são um longo período de mudança sustentada. As rotinas e escolhas que apoiaram esse caminho tiveram tempo para virar parte do dia a dia.';
+
+  @override
+  String get kratomMilestone1095Title => 'Três anos: Impulso constante';
+
+  @override
+  String get kratomMilestone1095Description =>
+      'Três anos significam mais um ano inteiro de uma vida construída além do kratom. Essa constância é um impulso conquistado ao longo do tempo.';
+
+  @override
+  String get kratomMilestone1460Title => 'Quatro anos: Liberdade estável';
+
+  @override
+  String get kratomMilestone1460Description =>
+      'Quatro anos são liberdade sustentada por milhares de decisões comuns. O que antes exigia esforço constante agora pode ficar bem mais distante do centro da vida.';
+
+  @override
+  String get kratomMilestone1825Title => 'Cinco anos: Mudança que fica';
+
+  @override
+  String get kratomMilestone1825Description =>
+      'Cinco anos são um grande aniversário: 1.825 dias mantendo a mesma direção. A vida construída em torno dessa escolha é a conquista.';
 
   @override
   String get gabapentinoidsPageTitle => 'Gabapentinoides';
@@ -7413,6 +7485,22 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
   @override
   String get kratomReferenceDay365 =>
       'Um ano de desconto no Kratom\n\nFonte: Instituto Nacional sobre Abuso de Drogas (NIDA), \"Kratom\"\n\nBem Passada a Abstinência Aguda\nO NIDA não publica um cronograma específico de recuperação do kratom de um ano, mas um ano de abstinência sustentada está muito além da janela de abstinência psicológica aguda e precoce documentada na pesquisa do kratom. Para a maioria das pessoas que chegam a esse ponto, os desejos são raros e muito mais fáceis de controlar.\n\nO panorama geral\nUm ano de abstinência representa uma mudança substancial na saúde, nas finanças e na autogestão. Permanecer conectado ao suporte ajuda a manter esse progresso seguro.';
+
+  @override
+  String get kratomReferenceDay730 =>
+      'Dois anos sem kratom\n\nFonte: Stanciu et al. (2021), “Pharmacotherapy for Management of \'Kratom Use Disorder\': A Systematic Literature Review With Survey of Experts.”\n\nO que as evidências dizem\nA revisão descreve dependência de kratom, risco de recaída e abordagens de manejo de longo prazo. Também afirma que não existem diretrizes estabelecidas para manter a abstinência de kratom no longo prazo. As evidências não definem este aniversário como um ponto final biológico da recuperação.\n\nO que este marco significa\nEste aniversário é melhor entendido como uma celebração de mudança sustentada, não como um prazo médico. Rotinas, apoio e escolhas mantidos ao longo desses anos são conquistas importantes por si só.';
+
+  @override
+  String get kratomReferenceDay1095 =>
+      'Três anos sem kratom\n\nFonte: Stanciu et al. (2021), “Pharmacotherapy for Management of \'Kratom Use Disorder\': A Systematic Literature Review With Survey of Experts.”\n\nO que as evidências dizem\nA revisão descreve dependência de kratom, risco de recaída e abordagens de manejo de longo prazo. Também afirma que não existem diretrizes estabelecidas para manter a abstinência de kratom no longo prazo. As evidências não definem este aniversário como um ponto final biológico da recuperação.\n\nO que este marco significa\nEste aniversário é melhor entendido como uma celebração de mudança sustentada, não como um prazo médico. Rotinas, apoio e escolhas mantidos ao longo desses anos são conquistas importantes por si só.';
+
+  @override
+  String get kratomReferenceDay1460 =>
+      'Quatro anos sem kratom\n\nFonte: Stanciu et al. (2021), “Pharmacotherapy for Management of \'Kratom Use Disorder\': A Systematic Literature Review With Survey of Experts.”\n\nO que as evidências dizem\nA revisão descreve dependência de kratom, risco de recaída e abordagens de manejo de longo prazo. Também afirma que não existem diretrizes estabelecidas para manter a abstinência de kratom no longo prazo. As evidências não definem este aniversário como um ponto final biológico da recuperação.\n\nO que este marco significa\nEste aniversário é melhor entendido como uma celebração de mudança sustentada, não como um prazo médico. Rotinas, apoio e escolhas mantidos ao longo desses anos são conquistas importantes por si só.';
+
+  @override
+  String get kratomReferenceDay1825 =>
+      'Cinco anos sem kratom\n\nFonte: Stanciu et al. (2021), “Pharmacotherapy for Management of \'Kratom Use Disorder\': A Systematic Literature Review With Survey of Experts.”\n\nO que as evidências dizem\nA revisão descreve dependência de kratom, risco de recaída e abordagens de manejo de longo prazo. Também afirma que não existem diretrizes estabelecidas para manter a abstinência de kratom no longo prazo. As evidências não definem este aniversário como um ponto final biológico da recuperação.\n\nO que este marco significa\nEste aniversário é melhor entendido como uma celebração de mudança sustentada, não como um prazo médico. Rotinas, apoio e escolhas mantidos ao longo desses anos são conquistas importantes por si só.';
 
   @override
   String get maoiReferenceDay3 =>

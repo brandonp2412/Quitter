@@ -82,6 +82,34 @@ class AppLocalizationsDe extends AppLocalizations {
       'Ein ganzes Jahr frei von Kratom. Das Opioid-System ist seit langem neu reguliert, Heißhunger ist selten, und die Gewohnheit organisiert nicht mehr Ihren Tag.';
 
   @override
+  String get kratomMilestone730Title => 'Zwei Jahre: Fester Boden';
+
+  @override
+  String get kratomMilestone730Description =>
+      'Zwei Jahre ohne Kratom sind eine lange Phase beständiger Veränderung. Die Routinen und Entscheidungen auf diesem Weg konnten Teil des Alltags werden.';
+
+  @override
+  String get kratomMilestone1095Title => 'Drei Jahre: Eigener Schwung';
+
+  @override
+  String get kratomMilestone1095Description =>
+      'Drei Jahre bedeuten ein weiteres volles Jahr mit dem Leben jenseits von Kratom. Diese Beständigkeit ist über lange Zeit aufgebauter Schwung.';
+
+  @override
+  String get kratomMilestone1460Title => 'Vier Jahre: Stabile Freiheit';
+
+  @override
+  String get kratomMilestone1460Description =>
+      'Vier Jahre sind anhaltende Freiheit, getragen von Tausenden alltäglichen Entscheidungen. Was früher ständig Kraft kostete, kann heute weiter in den Hintergrund treten.';
+
+  @override
+  String get kratomMilestone1825Title => 'Fünf Jahre: Dauerhaft stark';
+
+  @override
+  String get kratomMilestone1825Description =>
+      'Fünf Jahre sind ein großes Jubiläum: 1.825 Tage in derselben Richtung. Das Leben, das um diese Entscheidung gewachsen ist, ist die eigentliche Leistung.';
+
+  @override
   String get gabapentinoidsPageTitle => 'Gabapentinoide';
 
   @override
@@ -3380,6 +3408,22 @@ class AppLocalizationsDe extends AppLocalizations {
   @override
   String get kratomReferenceDay365 =>
       'Ein Jahr vor Kratom\n\nQuelle: Nationales Institut für Drogenmissbrauch (NIDA), \"Kratom\"\n\nGut Vergangenheit Akute Entzug\nNIDA veröffentlicht keine spezifische einjährige Kratom-Wiederherstellungszeitleiste, aber ein Jahr anhaltender Abstinenz liegt weit über dem akuten und frühen psychologischen Rückzugsfenster, das in der Kratom-Forschung dokumentiert wurde. Für die meisten Menschen, die diesen Punkt erreichen, sind Heißhunger selten und viel einfacher zu verwalten.\n\nDas größere Bild\nEin Jahr der Abstinenz stellt eine wesentliche Veränderung in Gesundheit, Finanzen und Selbstorientierung dar. Mit dem Support in Verbindung zu bleiben, hilft, diesen Fortschritt sicher zu halten.';
+
+  @override
+  String get kratomReferenceDay730 =>
+      'Zwei Jahre ohne Kratom\n\nQuelle: Stanciu et al. (2021), „Pharmacotherapy for Management of \'Kratom Use Disorder\': A Systematic Literature Review With Survey of Experts.“\n\nWas die Evidenz sagt\nDie Übersichtsarbeit beschreibt Kratom-Abhängigkeit, Rückfallrisiken und Ansätze für ein langfristiges Management. Sie hält zugleich fest, dass es keine etablierten Leitlinien zur Aufrechterhaltung langfristiger Abstinenz von Kratom gibt. Dieses Jubiläum wird nicht als biologischer Endpunkt der Erholung definiert.\n\nWas dieses Jubiläum bedeutet\nDieses Datum ist am besten als Feier einer dauerhaft aufrechterhaltenen Veränderung zu verstehen, nicht als medizinische Frist. Routinen, Unterstützung und Entscheidungen, die über diese Jahre Bestand hatten, sind für sich genommen bedeutsam.';
+
+  @override
+  String get kratomReferenceDay1095 =>
+      'Drei Jahre ohne Kratom\n\nQuelle: Stanciu et al. (2021), „Pharmacotherapy for Management of \'Kratom Use Disorder\': A Systematic Literature Review With Survey of Experts.“\n\nWas die Evidenz sagt\nDie Übersichtsarbeit beschreibt Kratom-Abhängigkeit, Rückfallrisiken und Ansätze für ein langfristiges Management. Sie hält zugleich fest, dass es keine etablierten Leitlinien zur Aufrechterhaltung langfristiger Abstinenz von Kratom gibt. Dieses Jubiläum wird nicht als biologischer Endpunkt der Erholung definiert.\n\nWas dieses Jubiläum bedeutet\nDieses Datum ist am besten als Feier einer dauerhaft aufrechterhaltenen Veränderung zu verstehen, nicht als medizinische Frist. Routinen, Unterstützung und Entscheidungen, die über diese Jahre Bestand hatten, sind für sich genommen bedeutsam.';
+
+  @override
+  String get kratomReferenceDay1460 =>
+      'Vier Jahre ohne Kratom\n\nQuelle: Stanciu et al. (2021), „Pharmacotherapy for Management of \'Kratom Use Disorder\': A Systematic Literature Review With Survey of Experts.“\n\nWas die Evidenz sagt\nDie Übersichtsarbeit beschreibt Kratom-Abhängigkeit, Rückfallrisiken und Ansätze für ein langfristiges Management. Sie hält zugleich fest, dass es keine etablierten Leitlinien zur Aufrechterhaltung langfristiger Abstinenz von Kratom gibt. Dieses Jubiläum wird nicht als biologischer Endpunkt der Erholung definiert.\n\nWas dieses Jubiläum bedeutet\nDieses Datum ist am besten als Feier einer dauerhaft aufrechterhaltenen Veränderung zu verstehen, nicht als medizinische Frist. Routinen, Unterstützung und Entscheidungen, die über diese Jahre Bestand hatten, sind für sich genommen bedeutsam.';
+
+  @override
+  String get kratomReferenceDay1825 =>
+      'Fünf Jahre ohne Kratom\n\nQuelle: Stanciu et al. (2021), „Pharmacotherapy for Management of \'Kratom Use Disorder\': A Systematic Literature Review With Survey of Experts.“\n\nWas die Evidenz sagt\nDie Übersichtsarbeit beschreibt Kratom-Abhängigkeit, Rückfallrisiken und Ansätze für ein langfristiges Management. Sie hält zugleich fest, dass es keine etablierten Leitlinien zur Aufrechterhaltung langfristiger Abstinenz von Kratom gibt. Dieses Jubiläum wird nicht als biologischer Endpunkt der Erholung definiert.\n\nWas dieses Jubiläum bedeutet\nDieses Datum ist am besten als Feier einer dauerhaft aufrechterhaltenen Veränderung zu verstehen, nicht als medizinische Frist. Routinen, Unterstützung und Entscheidungen, die über diese Jahre Bestand hatten, sind für sich genommen bedeutsam.';
 
   @override
   String get maoiReferenceDay3 =>

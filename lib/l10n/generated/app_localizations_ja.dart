@@ -80,6 +80,34 @@ class AppLocalizationsJa extends AppLocalizations {
       'クラトムなしの丸1年。オピオイド系は長く再調整され、渇望は稀で、習慣が日々を支配することはなくなりました。';
 
   @override
+  String get kratomMilestone730Title => '2年：確かな土台';
+
+  @override
+  String get kratomMilestone730Description =>
+      'クラトムを使わずに2年。長く続く変化が日常に根づくには十分な時間です。ここまで支えた習慣や選択が、暮らしの一部として積み重なっています。';
+
+  @override
+  String get kratomMilestone1095Title => '3年：積み上げた勢い';
+
+  @override
+  String get kratomMilestone1095Description =>
+      '3年は、クラトムの先に築いた生活をさらに1年間続けた証です。その継続そのものが、時間をかけて得た力になります。';
+
+  @override
+  String get kratomMilestone1460Title => '4年：揺るがない自由';
+
+  @override
+  String get kratomMilestone1460Description =>
+      '4年は、何千もの日々の選択に支えられた継続的な自由です。以前は絶えず意識していたことも、今では生活の中心から遠ざけられます。';
+
+  @override
+  String get kratomMilestone1825Title => '5年：根づいた変化';
+
+  @override
+  String get kratomMilestone1825Description =>
+      '5年は大きな節目です。同じ方向を1,825日積み重ねてきました。その選択の周りに築かれた生活こそが成果です。';
+
+  @override
   String get gabapentinoidsPageTitle => 'ガバペンチノイド回復';
 
   @override
@@ -3183,6 +3211,22 @@ class AppLocalizationsJa extends AppLocalizations {
   @override
   String get kratomReferenceDay365 =>
       'クラトムを断って1年\n\n出典：National Institute on Drug Abuse (NIDA), \"Kratom\"\n\n急性離脱をはるかに超えて\nNIDAは特定の1年後のクラトム回復タイムラインを公表していませんが、1年間の持続的な断薬は、クラトム研究で文書化されている急性および初期の心理的離脱の期間をはるかに超えています。この地点に到達したほとんどの人にとって、渇望はまれで、はるかに管理しやすくなっています。\n\nより大きな視点\n1年間の断薬は、健康、財政、自己決定における実質的な変化を意味します。サポートとつながり続けることが、その進歩を確かなものに保ちます。';
+
+  @override
+  String get kratomReferenceDay730 =>
+      'クラトムを使わずに2年\n\n出典：Stanciu et al. (2021), “Pharmacotherapy for Management of \'Kratom Use Disorder\': A Systematic Literature Review With Survey of Experts.”\n\nエビデンスが示すこと\nこのレビューは、クラトム依存、再発リスク、長期的な管理の方法を扱っています。同時に、クラトムの長期禁欲を維持するための確立されたガイドラインはないとしています。この節目を生物学的な回復の完了点とする根拠はありません。\n\nこの節目の意味\nこの日は医学的な締め切りではなく、続いてきた変化を祝う節目です。何年も維持してきた習慣、支援、選択には、それ自体に大きな意味があります。';
+
+  @override
+  String get kratomReferenceDay1095 =>
+      'クラトムを使わずに3年\n\n出典：Stanciu et al. (2021), “Pharmacotherapy for Management of \'Kratom Use Disorder\': A Systematic Literature Review With Survey of Experts.”\n\nエビデンスが示すこと\nこのレビューは、クラトム依存、再発リスク、長期的な管理の方法を扱っています。同時に、クラトムの長期禁欲を維持するための確立されたガイドラインはないとしています。この節目を生物学的な回復の完了点とする根拠はありません。\n\nこの節目の意味\nこの日は医学的な締め切りではなく、続いてきた変化を祝う節目です。何年も維持してきた習慣、支援、選択には、それ自体に大きな意味があります。';
+
+  @override
+  String get kratomReferenceDay1460 =>
+      'クラトムを使わずに4年\n\n出典：Stanciu et al. (2021), “Pharmacotherapy for Management of \'Kratom Use Disorder\': A Systematic Literature Review With Survey of Experts.”\n\nエビデンスが示すこと\nこのレビューは、クラトム依存、再発リスク、長期的な管理の方法を扱っています。同時に、クラトムの長期禁欲を維持するための確立されたガイドラインはないとしています。この節目を生物学的な回復の完了点とする根拠はありません。\n\nこの節目の意味\nこの日は医学的な締め切りではなく、続いてきた変化を祝う節目です。何年も維持してきた習慣、支援、選択には、それ自体に大きな意味があります。';
+
+  @override
+  String get kratomReferenceDay1825 =>
+      'クラトムを使わずに5年\n\n出典：Stanciu et al. (2021), “Pharmacotherapy for Management of \'Kratom Use Disorder\': A Systematic Literature Review With Survey of Experts.”\n\nエビデンスが示すこと\nこのレビューは、クラトム依存、再発リスク、長期的な管理の方法を扱っています。同時に、クラトムの長期禁欲を維持するための確立されたガイドラインはないとしています。この節目を生物学的な回復の完了点とする根拠はありません。\n\nこの節目の意味\nこの日は医学的な締め切りではなく、続いてきた変化を祝う節目です。何年も維持してきた習慣、支援、選択には、それ自体に大きな意味があります。';
 
   @override
   String get maoiReferenceDay3 =>

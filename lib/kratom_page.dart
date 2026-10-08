@@ -90,6 +90,54 @@ class KratomPage extends StatelessWidget {
         referenceContent:
             "One Year Off Kratom\n\nSource: National Institute on Drug Abuse (NIDA), \"Kratom\"\n\nWell Past Acute Withdrawal\nNIDA doesn't publish a specific one-year kratom recovery timeline, but a year of sustained abstinence is well beyond the acute and early psychological withdrawal window documented in the kratom research. For most people who reach this point, cravings are infrequent and far easier to manage.\n\nThe Bigger Picture\nA year of abstinence represents a substantial change in health, finances, and self-direction. Staying connected to support helps keep that progress secure.",
       ),
+      QuitMilestone(
+        day: 730,
+        title: l10n.kratomMilestone730Title,
+        description: l10n.kratomMilestone730Description,
+        reference:
+            "Stanciu et al. (2021) - Kratom Use Disorder Management (PubMed)",
+        link: "https://pubmed.ncbi.nlm.nih.gov/33974767/",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.kratomReferenceDay730,
+        referenceContent:
+            "Two Years Off Kratom\n\nSource: Stanciu et al. (2021), \"Pharmacotherapy for Management of 'Kratom Use Disorder': A Systematic Literature Review With Survey of Experts.\"\n\nWhat the Evidence Says\nThe review describes kratom dependence, relapse risk, and approaches to long-term management. It also states that there are no established guidelines for maintaining long-term abstinence from kratom. The evidence does not define two years as a biological recovery endpoint.\n\nWhat This Milestone Means\nTwo years is best treated as a celebration of sustained change, not a medical deadline. The routines, support, and choices that carried you here are meaningful achievements in their own right.",
+      ),
+      QuitMilestone(
+        day: 1095,
+        title: l10n.kratomMilestone1095Title,
+        description: l10n.kratomMilestone1095Description,
+        reference:
+            "Stanciu et al. (2021) - Kratom Use Disorder Management (PubMed)",
+        link: "https://pubmed.ncbi.nlm.nih.gov/33974767/",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.kratomReferenceDay1095,
+        referenceContent:
+            "Three Years Off Kratom\n\nSource: Stanciu et al. (2021), \"Pharmacotherapy for Management of 'Kratom Use Disorder': A Systematic Literature Review With Survey of Experts.\"\n\nWhat the Evidence Says\nThe review supports taking kratom dependence and relapse prevention seriously, but it does not establish a three-year physiological recovery point or a universal timetable for long-term abstinence.\n\nWhat This Milestone Means\nThree years marks another full year of maintaining the direction you chose. That continuing consistency matters even when the science cannot attach a biological percentage or finish line to the date.",
+      ),
+      QuitMilestone(
+        day: 1460,
+        title: l10n.kratomMilestone1460Title,
+        description: l10n.kratomMilestone1460Description,
+        reference:
+            "Stanciu et al. (2021) - Kratom Use Disorder Management (PubMed)",
+        link: "https://pubmed.ncbi.nlm.nih.gov/33974767/",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.kratomReferenceDay1460,
+        referenceContent:
+            "Four Years Off Kratom\n\nSource: Stanciu et al. (2021), \"Pharmacotherapy for Management of 'Kratom Use Disorder': A Systematic Literature Review With Survey of Experts.\"\n\nWhat the Evidence Says\nPublished guidance on kratom use disorder remains limited, and the review found no established standard for maintaining long-term abstinence. It does not support a specific four-year medical recovery claim.\n\nWhat This Milestone Means\nFour years reflects sustained follow-through: repeated choices, routines, and support held across a long stretch of real life. That durable change is worth celebrating without inventing a clinical deadline.",
+      ),
+      QuitMilestone(
+        day: 1825,
+        title: l10n.kratomMilestone1825Title,
+        description: l10n.kratomMilestone1825Description,
+        reference:
+            "Stanciu et al. (2021) - Kratom Use Disorder Management (PubMed)",
+        link: "https://pubmed.ncbi.nlm.nih.gov/33974767/",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.kratomReferenceDay1825,
+        referenceContent:
+            "Five Years Off Kratom\n\nSource: Stanciu et al. (2021), \"Pharmacotherapy for Management of 'Kratom Use Disorder': A Systematic Literature Review With Survey of Experts.\"\n\nWhat the Evidence Says\nThe kratom treatment literature recognizes dependence, relapse risk, and the need for long-term management, while also noting the absence of established guidance for maintaining long-term abstinence. It does not define five years as a universal biological endpoint.\n\nWhat This Milestone Means\nFive years is 1,825 days of sustained direction. The evidence does not need to invent a cure date for that achievement to be substantial: the life and habits built across those years are the milestone.",
+      ),
     ];
   }
 

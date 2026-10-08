@@ -82,6 +82,34 @@ class AppLocalizationsPl extends AppLocalizations {
       'Pełen rok wolny od krytomu. System opioidów od dawna jest regulowany, pragnienia są rzadkie, a nawyk nie organizuje już dnia.';
 
   @override
+  String get kratomMilestone730Title => 'Dwa lata: Mocny fundament';
+
+  @override
+  String get kratomMilestone730Description =>
+      'Dwa lata bez kratomu to długi okres trwałej zmiany. Rutyny i decyzje, które podtrzymywały ten kierunek, miały czas stać się częścią codzienności.';
+
+  @override
+  String get kratomMilestone1095Title => 'Trzy lata: Własny rozpęd';
+
+  @override
+  String get kratomMilestone1095Description =>
+      'Trzy lata oznaczają kolejny pełny rok życia zbudowanego poza kratomem. Ta konsekwencja to rozpęd wypracowany przez długi czas.';
+
+  @override
+  String get kratomMilestone1460Title => 'Cztery lata: Trwała wolność';
+
+  @override
+  String get kratomMilestone1460Description =>
+      'Cztery lata to trwała wolność wsparta tysiącami zwykłych codziennych decyzji. To, co kiedyś wymagało stałego wysiłku, może dziś pozostawać znacznie dalej w tle.';
+
+  @override
+  String get kratomMilestone1825Title => 'Pięć lat: Trwała zmiana';
+
+  @override
+  String get kratomMilestone1825Description =>
+      'Pięć lat to ważna rocznica: 1825 dni utrzymywania tego samego kierunku. Życie zbudowane wokół tej decyzji jest właściwym osiągnięciem.';
+
+  @override
   String get gabapentinoidsPageTitle => 'Gabapentynoidy';
 
   @override
@@ -3387,6 +3415,22 @@ class AppLocalizationsPl extends AppLocalizations {
   @override
   String get kratomReferenceDay365 =>
       'Rok poza Kratomem\n\nŹródło: National Institute on Drug Abuse (NIDA), \"Kratom\"\n\nPrzeszłe ostre wycofanie\nNIDA nie opublikuje określonego jednorocznego czasu regeneracji kratomu, ale rok trwałej abstynencji jest znacznie powyżej ostrego i wczesnego okna wycofania psychologicznego udokumentowanego w badaniach kratomu. Dla większości ludzi, którzy osiągają ten punkt, pragnienia są rzadkie i znacznie łatwiejsze do zarządzania.\n\nWiększy obraz\nRok abstynencji stanowi istotną zmianę w zdrowiu, finansach i samokierowaniu.';
+
+  @override
+  String get kratomReferenceDay730 =>
+      'Dwa lata bez kratomu\n\nŹródło: Stanciu et al. (2021), “Pharmacotherapy for Management of \'Kratom Use Disorder\': A Systematic Literature Review With Survey of Experts.”\n\nCo mówią dowody\nPrzegląd opisuje zależność od kratomu, ryzyko nawrotu i podejścia do długoterminowego leczenia. Zaznacza też, że nie istnieją ustalone wytyczne dotyczące utrzymywania długotrwałej abstynencji od kratomu. Dowody nie określają tej rocznicy jako biologicznego punktu końcowego zdrowienia.\n\nCo oznacza ten etap\nNajlepiej traktować tę rocznicę jako świętowanie utrzymywanej zmiany, a nie medyczny termin graniczny. Rutyny, wsparcie i decyzje utrzymywane przez te lata są ważnym osiągnięciem same w sobie.';
+
+  @override
+  String get kratomReferenceDay1095 =>
+      'Trzy lata bez kratomu\n\nŹródło: Stanciu et al. (2021), “Pharmacotherapy for Management of \'Kratom Use Disorder\': A Systematic Literature Review With Survey of Experts.”\n\nCo mówią dowody\nPrzegląd opisuje zależność od kratomu, ryzyko nawrotu i podejścia do długoterminowego leczenia. Zaznacza też, że nie istnieją ustalone wytyczne dotyczące utrzymywania długotrwałej abstynencji od kratomu. Dowody nie określają tej rocznicy jako biologicznego punktu końcowego zdrowienia.\n\nCo oznacza ten etap\nNajlepiej traktować tę rocznicę jako świętowanie utrzymywanej zmiany, a nie medyczny termin graniczny. Rutyny, wsparcie i decyzje utrzymywane przez te lata są ważnym osiągnięciem same w sobie.';
+
+  @override
+  String get kratomReferenceDay1460 =>
+      'Cztery lata bez kratomu\n\nŹródło: Stanciu et al. (2021), “Pharmacotherapy for Management of \'Kratom Use Disorder\': A Systematic Literature Review With Survey of Experts.”\n\nCo mówią dowody\nPrzegląd opisuje zależność od kratomu, ryzyko nawrotu i podejścia do długoterminowego leczenia. Zaznacza też, że nie istnieją ustalone wytyczne dotyczące utrzymywania długotrwałej abstynencji od kratomu. Dowody nie określają tej rocznicy jako biologicznego punktu końcowego zdrowienia.\n\nCo oznacza ten etap\nNajlepiej traktować tę rocznicę jako świętowanie utrzymywanej zmiany, a nie medyczny termin graniczny. Rutyny, wsparcie i decyzje utrzymywane przez te lata są ważnym osiągnięciem same w sobie.';
+
+  @override
+  String get kratomReferenceDay1825 =>
+      'Pięć lat bez kratomu\n\nŹródło: Stanciu et al. (2021), “Pharmacotherapy for Management of \'Kratom Use Disorder\': A Systematic Literature Review With Survey of Experts.”\n\nCo mówią dowody\nPrzegląd opisuje zależność od kratomu, ryzyko nawrotu i podejścia do długoterminowego leczenia. Zaznacza też, że nie istnieją ustalone wytyczne dotyczące utrzymywania długotrwałej abstynencji od kratomu. Dowody nie określają tej rocznicy jako biologicznego punktu końcowego zdrowienia.\n\nCo oznacza ten etap\nNajlepiej traktować tę rocznicę jako świętowanie utrzymywanej zmiany, a nie medyczny termin graniczny. Rutyny, wsparcie i decyzje utrzymywane przez te lata są ważnym osiągnięciem same w sobie.';
 
   @override
   String get maoiReferenceDay3 =>
