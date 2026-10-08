@@ -1011,6 +1011,27 @@ class AppLocalizationsJa extends AppLocalizations {
       '脳の治癒は記憶、集中力、感情調節の持続的改善とともに続いています。神経経路は大幅に再編成され、より健康的なパターンとより良い全体的な健康を支えています。';
 
   @override
+  String get cocaineMilestone1095Title => '3年：より強い土台';
+
+  @override
+  String get cocaineMilestone1095Description =>
+      'コカインを使わず3年。積み重ねてきた習慣、人とのつながり、対処スキルが年月とともに根づき、回復を支える土台がさらに強くなっています。';
+
+  @override
+  String get cocaineMilestone1460Title => '4年：続く前進';
+
+  @override
+  String get cocaineMilestone1460Description =>
+      'コカインを使わず4年。さらに1年積み重ねたことで、回復を支える習慣と人とのつながりがいっそう強くなっています。';
+
+  @override
+  String get cocaineMilestone1825Title => '5年：根づいた変化';
+
+  @override
+  String get cocaineMilestone1825Description =>
+      'コカインを使わず5年。5年間積み重ねた一貫した選択によって、コカインではなく自分の価値観、人間関係、目標を中心にした生活が根づいています。';
+
+  @override
   String get tabJournal => '日記';
 
   @override
@@ -2961,6 +2982,18 @@ class AppLocalizationsJa extends AppLocalizations {
   @override
   String get cocaineReferenceDay730 =>
       'コカインを断って2年：持続的回復\n\n出典：「Recovering from Cocaine: Insights from Clinical and Preclinical Investigations」、Neuroscience & Biobehavioral Reviews (2013)、PubMed Central\n\n長期的な視点\nこのレビューは、長期のコカイン断薬についてヒトおよび動物研究が示すものをまとめています。その中心的な結論は、前頭皮質機能の保持と回復が長期断薬の最も重要な指標であるというものです—長期の断薬者（10ヶ月以上）は、より短期の断薬者より高い前頭皮質活動を示しました。\n\n癒え続けるもの\n• コカインが変化させたドーパミン指標は、断薬の継続とともに正常へ向かい続ける\n• 使用中および断薬初期の使用者に見られる灰白質・白質の統合性の低下は、より長い断薬によって—おそらくミエリンの成熟の継続を通じて—回復し得る\n• 前頭のコントロール回路—衝動のコントロール、判断、感情の調整—が強まる\n\n回復のサイン\n著者らは真摯な科学的留保を提示しています：長期断薬者に見られる差の一部は「生存者効果」—もともと脳の統合性が高い人が断薬を維持しやすい—を反映している可能性があり、回復のみによるものではないかもしれないということです。明確なのは、2年間のコカイン断薬は、非使用者にはるかに近い機能の脳と、単なる断薬ではなく実質的に再構築された生活を支えるということです。';
+
+  @override
+  String get cocaineReferenceDay1095 =>
+      'コカインなしで3年：より強い土台\n\n出典：SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSAのエビデンスに基づくガイドはコカインを明確に対象とし、長期的な回復を支える方法を扱っています。3年を一律の生物学的な到達点とはしていません。\n\n3年そのものが持続した大きな成果です。回復を支える習慣、支援、対処法をこれからも大切にしてください。';
+
+  @override
+  String get cocaineReferenceDay1460 =>
+      'コカインなしで4年：続く前進\n\n出典：SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSAはコカインを含む刺激薬使用障害について、エビデンスに基づく治療と長期回復の支援を示しています。4年を一律の医学的な終点とは定めていません。\n\n4年は、普通の日も難しい時期も大切な節目も越えて続いた変化の証です。';
+
+  @override
+  String get cocaineReferenceDay1825 =>
+      'コカインなしで5年：根づいた変化\n\n出典：SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSAのガイドは、コカインを含む刺激薬使用障害からの長期回復を目指すエビデンスに基づく支援を推奨しています。5年を生物学的なゴールとはしていません。\n\n5年は、変化を保ち続けた半 दशकです。その積み重ねと、そこから築いた生活こそがこの節目です。';
 
   @override
   String get ghbReferenceDay1 =>

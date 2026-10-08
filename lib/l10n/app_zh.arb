@@ -303,6 +303,12 @@
   "cocaineMilestone365Description": "您的心脏和心血管系统已取得显著恢复。血压和心率已正常化。心脏病发作和中风的风险已大幅下降。您的身体在愈合。",
   "cocaineMilestone730Title": "两年——持续康复",
   "cocaineMilestone730Description": "大脑愈合持续进行，记忆、专注力和情绪调节持续改善。您的神经通路已显著重组，支持更健康的模式和更好的整体健康。",
+  "cocaineMilestone1095Title": "三年：更稳固的基础",
+  "cocaineMilestone1095Description": "远离可卡因三年，是持续而扎实的进步。长期建立的日常习惯、人际关系和应对方式经过多年巩固，正在为康复提供更稳固的基础。",
+  "cocaineMilestone1460Title": "四年：持久的前进",
+  "cocaineMilestone1460Description": "远离可卡因四年，代表着持久的前进。又一年没有可卡因，让支撑康复的习惯和支持体系变得更加稳固。",
+  "cocaineMilestone1825Title": "五年：扎实的改变",
+  "cocaineMilestone1825Description": "远离可卡因五年，是一个重要周年。半个十年的坚持，让生活越来越由自身的价值观、关系和目标塑造，而不是由可卡因塑造。",
   "tabJournal": "日记",
   "@tabJournal": {
     "description": "Tab label for the Journal tab"
@@ -2349,6 +2355,9 @@
   "cocaineReferenceDay60": "停用可卡因两个月：情绪和奖赏开始恢复\n\n来源：《Recovering from Cocaine: Insights from Clinical and Preclinical Investigations》，Neuroscience & Biobehavioral Reviews（2013），PubMed Central\n\n大脑在做什么\n这篇综述综合了关于停止使用可卡因后大脑变化的人类和动物研究。慢性可卡因会改变多巴胺系统并降低额叶皮层的活动；这些系统的恢复，正是人们在戒断早期所注意到的情绪和动力改善的基础。\n\n奖赏系统的进展\n在动物研究中，可卡因引起的多巴胺受体和再循环蛋白的变化随着持续戒断而向健康水平回落。随着奖赏系统恢复，深重的快感缺失逐渐消散，日常的奖赏——食物、人际联系、成就——又重新让人感到满足。\n\n恢复信号\n到两个月时，情绪正在改善，睡眠更加稳定，而多巴胺和额叶皮层系统仍在继续重建。灵长类动物研究显示，可卡因相关的D1受体和转运体变化正随着持续戒断向对照水平回落。",
   "cocaineReferenceDay7": "停用可卡因一周：身体恢复开始\n\n来源：《Withdrawal Syndromes》，StatPearls（NCBI Bookshelf），美国国家医学图书馆\n\n急性期正在结束\nStatPearls将可卡因戒断描述为从最初的崩溃期转入更长的恢复阶段。到第一周结束时，最严重的症状通常在缓解，而多巴胺系统仍在继续重建。\n\n身体恢复正在进行\n一旦可卡因的交感神经刺激停止，它对心血管、食欲、睡眠和气道的影响就会在接下来几天到几周内开始逆转：\n• 心率和血压向正常回落\n• 食欲逐渐恢复（可卡因会强烈抑制食欲）\n• 睡眠模式开始稳定\n• 如果可卡因是经鼻吸食，鼻腔通道开始愈合\n\n心理症状仍在继续\nStatPearls指出，抑郁和快感缺失是兴奋剂戒断的特征，并且会比身体症状持续更久：\n• 情绪仍然低落，尽管不如高峰期那么严重\n• 由线索触发的渴求依然强烈\n• 注意力和动力仍然受损\n\n急性期后阶段\n此后，戒断会转入持续数周乃至数月的、在情绪、渴求和清晰思维方面更平稳的改善。了解这一规律，能让恢复中较慢的那部分变得更容易应对。",
   "cocaineReferenceDay730": "停用可卡因两年：持续恢复\n\n来源：《Recovering from Cocaine: Insights from Clinical and Preclinical Investigations》，Neuroscience & Biobehavioral Reviews（2013），PubMed Central\n\n长远视角\n这篇综述汇集了人类和动物研究关于长期停用可卡因的发现。其核心结论是，额叶皮层功能的保持与恢复是长期戒断最重要的标志——长期戒断者（10个月以上）比短期戒断者表现出更高的额叶皮层活动。\n\n什么在继续愈合\n• 被可卡因改变的多巴胺标志物随着持续戒断继续向正常水平靠拢\n• 在活跃使用者和戒断早期使用者身上看到的灰质和白质完整性下降，可能随着更长时间的戒断而逆转，这或许是通过持续的髓鞘成熟实现的\n• 额叶控制回路——冲动控制、判断、情绪调节——在增强\n\n恢复信号\n作者们提出了一个真诚的科学性提醒：长期戒断者之间的一些差异可能反映了一种“幸存者效应”——起初大脑完整性更好的人可能更容易保持戒断——而不仅仅是恢复本身。但清楚的是，停用可卡因两年所支持的，是一个功能上远比使用者更接近非使用者的大脑，以及一种不只是戒断、而是被实质重建的生活。",
+  "cocaineReferenceDay1095": "远离可卡因三年：更稳固的基础\n\n来源：SAMHSA，Treatment of Stimulant Use Disorders\n\nSAMHSA 的循证指南明确涵盖可卡因，并关注支持长期康复的方法。它没有把三年设定为人人相同的生物学终点。\n\n三年本身就是持久的成就。继续守住那些让康复可持续的习惯、支持和应对策略。",
+  "cocaineReferenceDay1460": "远离可卡因四年：持久的前进\n\n来源：SAMHSA，Treatment of Stimulant Use Disorders\n\nSAMHSA 介绍了针对兴奋剂使用障碍（包括可卡因）的循证方法，并强调长期康复支持。它没有设定统一的四年医学终点。\n\n四年说明这种改变经受住了普通日子、艰难时期和重要时刻。",
+  "cocaineReferenceDay1825": "远离可卡因五年：扎实的改变\n\n来源：SAMHSA，Treatment of Stimulant Use Disorders\n\nSAMHSA 指南支持以长期康复为目标的循证照护，适用于包括可卡因在内的兴奋剂使用障碍。它没有把五年称为生物学终点。\n\n五年是半个十年的持续改变。这份坚持，以及由此建立的生活，就是值得纪念的里程碑。",
   "cocaineReferenceDay90": "停用可卡因三个月：多巴胺标志物回升\n\n来源：《Recovering from Cocaine: Insights from Clinical and Preclinical Investigations》，Neuroscience & Biobehavioral Reviews（2013），PubMed Central\n\n为什么90天是一个里程碑\n这篇综述强调，三个月这个时间点在生物学上具有重要意义。在非人灵长类动物中，被可卡因升高的多巴胺D1受体和转运体，在约90天的戒断后显示出“回到对照水平的证据”——这是奖赏系统能在药物消失后重新调整的直接证据。\n\n大脑前部\n作者们强调，大脑前部的恢复是长期戒断最重要的标志之一。这一区域负责冲动控制、决策和自我控制，随着它的恢复，这些能力也会增强。\n\n90天显示了什么\n到90天时，灵长类动物研究发现D1、D2和多巴胺转运体的密度已与非用药对照组无显著差异。即便在长期暴露之后，到这一时间点，多巴胺系统的大幅恢复已清晰可见，并会随着戒断继续。",
   "ghbReferenceDay1": "GHB戒断：最初的数小时\n\n来源：《Characterization of the GHB Withdrawal Syndrome》，PubMed Central\n\n⚠ 这是医疗急症\nGHB戒断属于最危险的物质戒断之一，可与严重的酒精和苯二氮卓戒断相匹敌。若不治疗，超过一半的病例会进展为谵妄，并伴有危险的心率和血压波动以及癫痫发作。任何依赖GHB、GBL或1,4-丁二醇的人，都应寻求受监督的住院解毒，而不是独自停药。\n\n为什么它来得这么快\nGHB的半衰期只有30–60分钟，依赖者通常需要每2–3小时补一次药，才能避免戒断——比酒精或苯二氮卓快得多。正是这种快速的药代动力学，使得症状会比其他镇静催眠药的戒断更早出现。\n\n早期症状\n焦虑、失眠、震颤、出汗、心率加快和血压升高。",
   "ghbReferenceDay14": "停用GHB两周\n\n来源：《Characterization of the GHB Withdrawal Syndrome》，PubMed Central\n\n已过急性综合征\n到两周时，该研究描述的急性身体综合征——在受监督治疗下，其递减和恢复阶段合计平均约17天——通常已经解决或非常接近解决。心率、血压和大多数身体症状应该正在趋于稳定。\n\n什么仍在残留\n该研究特别指出，一些患者在出院时渴求和失眠仍然存在，并指出这些可能促成复吸风险。即便危险的早期阶段已经过去，此时支持和规律的生活仍然很重要。",

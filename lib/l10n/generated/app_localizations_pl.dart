@@ -1070,6 +1070,27 @@ class AppLocalizationsPl extends AppLocalizations {
       'Uzdrowienie mózgu kontynuuje się z trwałą poprawą w zapamiętywaniu, skupieniu i regulacji emocjonalnych.Twoje ścieżki nerwowe znacznie się zreorganizowały, wspierając zdrowsze wzorce i lepsze ogólne samopoczucie.';
 
   @override
+  String get cocaineMilestone1095Title => 'Trzy lata: Mocny fundament';
+
+  @override
+  String get cocaineMilestone1095Description =>
+      'Trzy lata bez kokainy to trwały postęp. Rutyny, relacje i sposoby radzenia sobie miały lata, by się umocnić i stworzyć silniejszy fundament zdrowienia.';
+
+  @override
+  String get cocaineMilestone1460Title => 'Cztery lata: Trwały rozpęd';
+
+  @override
+  String get cocaineMilestone1460Description =>
+      'Cztery lata to trwały rozpęd. Kolejny rok życia bez kokainy wzmocnił nawyki i wsparcie, które pomagają utrzymać zdrowienie.';
+
+  @override
+  String get cocaineMilestone1825Title => 'Pięć lat: Utrwalona zmiana';
+
+  @override
+  String get cocaineMilestone1825Description =>
+      'Pięć lat to wielka rocznica. Pół dekady konsekwencji zbudowało życie coraz bardziej kształtowane przez twoje wartości, relacje i cele, a nie przez kokainę.';
+
+  @override
   String get tabJournal => 'Dziennik';
 
   @override
@@ -3165,6 +3186,18 @@ class AppLocalizationsPl extends AppLocalizations {
   @override
   String get cocaineReferenceDay730 =>
       'Dwa lata bez kokainy: Trwała poprawa\n\nŹródło: \"Recovering from Cocaine: Insights from Clinical and Preclinical Investigations,\" Neuroscience & Biobehavioral Reviews (2013), on PubMed Central\n\nDługi widok\nW przeglądzie tym zebrano wyniki badań na ludziach i zwierzętach na temat rozszerzonej abstynencji kokainowej. Jej głównym wnioskiem jest to, że zachowanie i odzyskanie funkcji kory czołowej jest najważniejszym wskaźnikiem długotrwałej abstynencji, a także długotrwałych abstynencji ( 10 + miesiące ) wykazały większą aktywność kory czołowej niż krótkotrwałe abstynencje.\n\nCo trwa do uzdrowienia\n• Znaczniki dopaminy zmienione przez kokainę nadal zmierzają do normy z trwałą abstynencją\n• Zmniejszona integralność substancji ziele- i biało- obserwowana u aktywnych i silnie abstynentnych osób może odwrócić się w dłuższym okresie abstynencji, prawdopodobnie poprzez dalsze dojrzewanie mieliny.\n• Obwody kontroli frontalnej Kontrola impulsów, osądy, Umacnianie regulacji emocjonalnych\n\nSygnał odzyskiwania\nAutorzy podnoszą prawdziwą uwagę naukową: niektóre z różnic w długoterminowych wstrzymujących się od głosu mogą odzwierciedlać skutki dla osób, które rozpoczęły się z większą integralnością mózgu może być łatwiej pozostać abstynentem niż samotnym. Co jest jasne, że dwa lata bez kokainy wspiera mózg funkcjonujący znacznie bliżej nieużytkowników, a życie, które nie jest tylko abstynentem, ale znacznie odbudowywać.';
+
+  @override
+  String get cocaineReferenceDay1095 =>
+      'Trzy lata bez kokainy: Mocny fundament\n\nŹródło: SAMHSA, Treatment of Stimulant Use Disorders\n\nPrzewodnik SAMHSA wyraźnie obejmuje kokainę i oparte na dowodach praktyki wspierające długoterminowe zdrowienie. Nie wyznacza uniwersalnej biologicznej granicy po trzech latach.\n\nTrzy lata to trwałe osiągnięcie samo w sobie. Chroń rutyny, wsparcie i strategie, które podtrzymują zdrowienie.';
+
+  @override
+  String get cocaineReferenceDay1460 =>
+      'Cztery lata bez kokainy: Trwały rozpęd\n\nŹródło: SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSA opisuje oparte na dowodach podejścia do zaburzeń związanych ze stymulantami, w tym kokainą, wspierające długoterminowe zdrowienie. Nie wskazuje uniwersalnego medycznego punktu końcowego po czterech latach.\n\nCztery lata pokazują zmianę utrzymaną w zwykłe dni, trudne okresy i ważne chwile.';
+
+  @override
+  String get cocaineReferenceDay1825 =>
+      'Pięć lat bez kokainy: Utrwalona zmiana\n\nŹródło: SAMHSA, Treatment of Stimulant Use Disorders\n\nPrzewodnik SAMHSA wspiera opartą na dowodach opiekę ukierunkowaną na długoterminowe zdrowienie z zaburzeń związanych ze stymulantami, w tym kokainą. Pięć lat nie jest przedstawiane jako biologiczna linia mety.\n\nPięć lat to pół dekady utrzymanej zmiany. Ta konsekwencja i zbudowane wokół niej życie są właściwym kamieniem milowym.';
 
   @override
   String get ghbReferenceDay1 =>

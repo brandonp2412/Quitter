@@ -1077,6 +1077,27 @@ class AppLocalizationsFr extends AppLocalizations {
       'La récupération cérébrale se poursuit avec des améliorations durables de la mémoire, de la concentration et de la régulation émotionnelle. Vos circuits neuronaux se sont profondément réorganisés, favorisant des habitudes plus saines et un meilleur bien-être général.';
 
   @override
+  String get cocaineMilestone1095Title => 'Trois ans : Bases solides';
+
+  @override
+  String get cocaineMilestone1095Description =>
+      'Trois ans sans cocaïne représentent un progrès durable. Tes routines, tes relations et tes stratégies d\'adaptation ont eu des années pour se renforcer et donner une base plus solide à ton rétablissement.';
+
+  @override
+  String get cocaineMilestone1460Title => 'Quatre ans : Élan durable';
+
+  @override
+  String get cocaineMilestone1460Description =>
+      'Quatre ans, c\'est un élan durable. Une année de plus sans cocaïne a renforcé les habitudes et les soutiens qui rendent ton rétablissement solide.';
+
+  @override
+  String get cocaineMilestone1825Title => 'Cinq ans : Changement ancré';
+
+  @override
+  String get cocaineMilestone1825Description =>
+      'Cinq ans sont un anniversaire majeur. Un demi-décennie de constance a construit une vie de plus en plus guidée par tes valeurs, tes relations et tes objectifs plutôt que par la cocaïne.';
+
+  @override
   String get tabJournal => 'Journal';
 
   @override
@@ -3198,6 +3219,18 @@ class AppLocalizationsFr extends AppLocalizations {
   @override
   String get cocaineReferenceDay730 =>
       'Deux ans sans cocaïne : rétablissement durable\n\nSource : « Recovering from Cocaine: Insights from Clinical and Preclinical Investigations », Neuroscience & Biobehavioral Reviews (2013), PubMed Central\n\nLa perspective à long terme\nCette revue rassemble ce que les études humaines et animales montrent sur l\'abstinence prolongée de cocaïne. Sa conclusion centrale est que la préservation et la récupération du fonctionnement du cortex frontal constituent le marqueur le plus important de l\'abstinence à long terme — les personnes abstinentes depuis plus de 10 mois montraient davantage d\'activité frontale que celles abstinentes depuis moins longtemps.\n\nCe qui continue de guérir\n• Les marqueurs dopaminergiques modifiés par la cocaïne continuent d\'évoluer vers la normale avec l\'abstinence\n• La diminution de l\'intégrité de la matière grise et blanche observée pendant l\'usage actif et au début de l\'abstinence peut s\'inverser sur une abstinence plus longue, possiblement grâce à la maturation continue de la myéline\n• Les circuits de contrôle frontal — contrôle des impulsions, jugement, régulation émotionnelle — se renforcent\n\nSignal de récupération\nLes auteurs apportent une prudence scientifique réelle : une partie des différences observées chez les abstinents de longue durée peut refléter un « effet survivant » — les personnes ayant au départ une meilleure intégrité cérébrale peuvent avoir plus de facilité à rester abstinentes — plutôt que la récupération seule. Ce qui est clair, c\'est que deux années sans cocaïne favorisent un cerveau fonctionnant bien plus près de celui d\'un non-consommateur, et une vie non seulement abstinente mais profondément reconstruite.';
+
+  @override
+  String get cocaineReferenceDay1095 =>
+      'Trois ans sans cocaïne : Bases solides\n\nSource : SAMHSA, Treatment of Stimulant Use Disorders\n\nLe guide de la SAMHSA couvre explicitement la cocaïne et les pratiques fondées sur les preuves qui soutiennent le rétablissement à long terme. Il ne fixe pas d\'échéance biologique universelle à trois ans.\n\nTrois ans constituent déjà une réussite durable. Préserve les routines, les soutiens et les stratégies qui rendent ton rétablissement viable.';
+
+  @override
+  String get cocaineReferenceDay1460 =>
+      'Quatre ans sans cocaïne : Élan durable\n\nSource : SAMHSA, Treatment of Stimulant Use Disorders\n\nLa SAMHSA décrit des approches fondées sur les preuves pour les troubles liés aux stimulants, dont la cocaïne, avec un objectif de rétablissement à long terme. Elle ne définit pas de point final médical universel à quatre ans.\n\nQuatre ans montrent un changement maintenu dans le quotidien, les périodes difficiles et les grands moments.';
+
+  @override
+  String get cocaineReferenceDay1825 =>
+      'Cinq ans sans cocaïne : Changement ancré\n\nSource : SAMHSA, Treatment of Stimulant Use Disorders\n\nLe guide de la SAMHSA soutient des soins fondés sur les preuves visant le rétablissement à long terme des troubles liés aux stimulants, dont la cocaïne. Il ne présente pas cinq ans comme une ligne d\'arrivée biologique.\n\nCinq ans représentent un demi-décennie de changement maintenu. Cette constance et la vie construite autour d\'elle sont le véritable jalon.';
 
   @override
   String get ghbReferenceDay1 =>

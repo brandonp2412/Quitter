@@ -1010,6 +1010,27 @@ class AppLocalizationsZh extends AppLocalizations {
       '大脑愈合持续进行，记忆、专注力和情绪调节持续改善。您的神经通路已显著重组，支持更健康的模式和更好的整体健康。';
 
   @override
+  String get cocaineMilestone1095Title => '三年：更稳固的基础';
+
+  @override
+  String get cocaineMilestone1095Description =>
+      '远离可卡因三年，是持续而扎实的进步。长期建立的日常习惯、人际关系和应对方式经过多年巩固，正在为康复提供更稳固的基础。';
+
+  @override
+  String get cocaineMilestone1460Title => '四年：持久的前进';
+
+  @override
+  String get cocaineMilestone1460Description =>
+      '远离可卡因四年，代表着持久的前进。又一年没有可卡因，让支撑康复的习惯和支持体系变得更加稳固。';
+
+  @override
+  String get cocaineMilestone1825Title => '五年：扎实的改变';
+
+  @override
+  String get cocaineMilestone1825Description =>
+      '远离可卡因五年，是一个重要周年。半个十年的坚持，让生活越来越由自身的价值观、关系和目标塑造，而不是由可卡因塑造。';
+
+  @override
   String get tabJournal => '日记';
 
   @override
@@ -2960,6 +2981,18 @@ class AppLocalizationsZh extends AppLocalizations {
       '停用可卡因两年：持续恢复\n\n来源：《Recovering from Cocaine: Insights from Clinical and Preclinical Investigations》，Neuroscience & Biobehavioral Reviews（2013），PubMed Central\n\n长远视角\n这篇综述汇集了人类和动物研究关于长期停用可卡因的发现。其核心结论是，额叶皮层功能的保持与恢复是长期戒断最重要的标志——长期戒断者（10个月以上）比短期戒断者表现出更高的额叶皮层活动。\n\n什么在继续愈合\n• 被可卡因改变的多巴胺标志物随着持续戒断继续向正常水平靠拢\n• 在活跃使用者和戒断早期使用者身上看到的灰质和白质完整性下降，可能随着更长时间的戒断而逆转，这或许是通过持续的髓鞘成熟实现的\n• 额叶控制回路——冲动控制、判断、情绪调节——在增强\n\n恢复信号\n作者们提出了一个真诚的科学性提醒：长期戒断者之间的一些差异可能反映了一种“幸存者效应”——起初大脑完整性更好的人可能更容易保持戒断——而不仅仅是恢复本身。但清楚的是，停用可卡因两年所支持的，是一个功能上远比使用者更接近非使用者的大脑，以及一种不只是戒断、而是被实质重建的生活。';
 
   @override
+  String get cocaineReferenceDay1095 =>
+      '远离可卡因三年：更稳固的基础\n\n来源：SAMHSA，Treatment of Stimulant Use Disorders\n\nSAMHSA 的循证指南明确涵盖可卡因，并关注支持长期康复的方法。它没有把三年设定为人人相同的生物学终点。\n\n三年本身就是持久的成就。继续守住那些让康复可持续的习惯、支持和应对策略。';
+
+  @override
+  String get cocaineReferenceDay1460 =>
+      '远离可卡因四年：持久的前进\n\n来源：SAMHSA，Treatment of Stimulant Use Disorders\n\nSAMHSA 介绍了针对兴奋剂使用障碍（包括可卡因）的循证方法，并强调长期康复支持。它没有设定统一的四年医学终点。\n\n四年说明这种改变经受住了普通日子、艰难时期和重要时刻。';
+
+  @override
+  String get cocaineReferenceDay1825 =>
+      '远离可卡因五年：扎实的改变\n\n来源：SAMHSA，Treatment of Stimulant Use Disorders\n\nSAMHSA 指南支持以长期康复为目标的循证照护，适用于包括可卡因在内的兴奋剂使用障碍。它没有把五年称为生物学终点。\n\n五年是半个十年的持续改变。这份坚持，以及由此建立的生活，就是值得纪念的里程碑。';
+
+  @override
   String get ghbReferenceDay1 =>
       'GHB戒断：最初的数小时\n\n来源：《Characterization of the GHB Withdrawal Syndrome》，PubMed Central\n\n⚠ 这是医疗急症\nGHB戒断属于最危险的物质戒断之一，可与严重的酒精和苯二氮卓戒断相匹敌。若不治疗，超过一半的病例会进展为谵妄，并伴有危险的心率和血压波动以及癫痫发作。任何依赖GHB、GBL或1,4-丁二醇的人，都应寻求受监督的住院解毒，而不是独自停药。\n\n为什么它来得这么快\nGHB的半衰期只有30–60分钟，依赖者通常需要每2–3小时补一次药，才能避免戒断——比酒精或苯二氮卓快得多。正是这种快速的药代动力学，使得症状会比其他镇静催眠药的戒断更早出现。\n\n早期症状\n焦虑、失眠、震颤、出汗、心率加快和血压升高。';
 
@@ -4624,6 +4657,27 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   @override
   String get cocaineMilestone730Description =>
       '大腦愈合持續進行，記憶、專注力和情緒調節持續改善。您的神經通路已顯著重組，支持更健康的模式和更好的整體健康。';
+
+  @override
+  String get cocaineMilestone1095Title => '三年：更穩固的基礎';
+
+  @override
+  String get cocaineMilestone1095Description =>
+      '遠離古柯鹼三年，是持續而踏實的進步。長期建立的日常習慣、人際關係和應對方式經過多年鞏固，正為復原提供更穩固的基礎。';
+
+  @override
+  String get cocaineMilestone1460Title => '四年：持久的前進';
+
+  @override
+  String get cocaineMilestone1460Description =>
+      '遠離古柯鹼四年，代表持久的前進。又一年沒有古柯鹼，讓支撐復原的習慣與支持系統變得更加穩固。';
+
+  @override
+  String get cocaineMilestone1825Title => '五年：扎實的改變';
+
+  @override
+  String get cocaineMilestone1825Description =>
+      '遠離古柯鹼五年，是一個重要週年。半個十年的堅持，讓生活愈來愈由自身的價值觀、關係和目標塑造，而不是由古柯鹼塑造。';
 
   @override
   String get tabJournal => '日記';
@@ -6574,6 +6628,18 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   @override
   String get cocaineReferenceDay730 =>
       '停用可卡因兩年：持續恢復\n\n來源：《Recovering from Cocaine: Insights from Clinical and Preclinical Investigations》，Neuroscience & Biobehavioral Reviews（2013），PubMed Central\n\n長遠視角\n這篇綜述匯集了人類和動物研究關於長期停用可卡因的發現。其核心結論是，額葉皮層功能的保持與恢復是長期戒斷最重要的標誌——長期戒斷者（10個月以上）比短期戒斷者表現出更高的額葉皮層活動。\n\n甚麼在繼續愈合\n• 被可卡因改變的多巴胺標誌物隨著持續戒斷繼續向正常水平靠攏\n• 在活躍使用者和戒斷早期使用者身上看到的灰質和白質完整性下降，可能隨著更長時間的戒斷而逆轉，這或許是通過持續的髓鞘成熟實現的\n• 額葉控制迴路——衝動控制、判斷、情緒調節——在增強\n\n恢復信號\n作者們提出了一個真誠的科學性提醒：長期戒斷者之間的一些差異可能反映了一種“幸存者效應”——起初大腦完整性更好的人可能更容易保持戒斷——而不僅僅是恢復本身。但清楚的是，停用可卡因兩年所支持的，是一個功能上遠比使用者更接近非使用者的大腦，以及一種不只是戒斷、而是被實質重建的生活。';
+
+  @override
+  String get cocaineReferenceDay1095 =>
+      '遠離古柯鹼三年：更穩固的基礎\n\n來源：SAMHSA，Treatment of Stimulant Use Disorders\n\nSAMHSA 的實證指南明確涵蓋古柯鹼，並著重支持長期復原的方法。它沒有把三年設定為人人相同的生物學終點。\n\n三年本身就是持久的成就。繼續守住那些讓復原可持續的習慣、支持和應對策略。';
+
+  @override
+  String get cocaineReferenceDay1460 =>
+      '遠離古柯鹼四年：持久的前進\n\n來源：SAMHSA，Treatment of Stimulant Use Disorders\n\nSAMHSA 介紹針對興奮劑使用障礙（包括古柯鹼）的實證方法，並強調長期復原支持。它沒有設定統一的四年醫學終點。\n\n四年顯示這份改變經歷了平凡日子、艱難時期和重要時刻仍然持續。';
+
+  @override
+  String get cocaineReferenceDay1825 =>
+      '遠離古柯鹼五年：扎實的改變\n\n來源：SAMHSA，Treatment of Stimulant Use Disorders\n\nSAMHSA 指南支持以長期復原為目標的實證照護，適用於包括古柯鹼在內的興奮劑使用障礙。它沒有把五年稱為生物學終點。\n\n五年是半個十年的持續改變。這份堅持，以及由此建立的生活，就是值得紀念的里程碑。';
 
   @override
   String get ghbReferenceDay1 =>

@@ -1062,6 +1062,27 @@ class AppLocalizationsDe extends AppLocalizations {
       'Die Gehirnheilung setzt sich mit anhaltenden Verbesserungen des Gedächtnisses, des Fokus und der emotionalen Regulierung fort. Ihre Nervenbahnen haben sich erheblich neu organisiert und unterstützen gesündere Muster und ein besseres allgemeines Wohlbefinden.';
 
   @override
+  String get cocaineMilestone1095Title => 'Drei Jahre: Starkes Fundament';
+
+  @override
+  String get cocaineMilestone1095Description =>
+      'Drei Jahre ohne Kokain sind nachhaltiger Fortschritt. Routinen, Beziehungen und Bewältigungsstrategien konnten sich über Jahre festigen und geben deiner Genesung ein starkes Fundament.';
+
+  @override
+  String get cocaineMilestone1460Title => 'Vier Jahre: Dauerhafter Schwung';
+
+  @override
+  String get cocaineMilestone1460Description =>
+      'Vier Jahre zeigen dauerhaften Schwung. Ein weiteres Jahr ohne Kokain hat die Gewohnheiten und die Unterstützung gestärkt, die deine Genesung stabil halten.';
+
+  @override
+  String get cocaineMilestone1825Title => 'Fünf Jahre: Dauerhaft gefestigt';
+
+  @override
+  String get cocaineMilestone1825Description =>
+      'Fünf Jahre sind ein großer Jahrestag. Ein halbes Jahrzehnt Beständigkeit hat ein Leben gefestigt, das stärker von deinen Werten, Beziehungen und Zielen als von Kokain bestimmt wird.';
+
+  @override
   String get tabJournal => 'Tagebuch';
 
   @override
@@ -3158,6 +3179,18 @@ class AppLocalizationsDe extends AppLocalizations {
   @override
   String get cocaineReferenceDay730 =>
       'Zwei Jahre ohne Kokain: Nachhaltige Erholung\n\nQuelle: \"Wiederherstellung von Kokain: Erkenntnisse aus klinischen und präklinischen Untersuchungen\", Neuroscience & Biobehavioral Reviews (2013), auf PubMed Central\n\nDie lange Sicht\nIn diesem Review wird zusammengefasst, was Human- und Tierstudien über eine erweiterte Kokainabstinenz zeigen. Seine zentrale Schlussfolgerung ist, dass die Erhaltung und Wiederherstellung der frontalen Kortexfunktion der wichtigste Marker für langfristige Abstinenz ist - Langzeit-Abstinenz (10+ Monate) zeigten eine höhere frontale Kortexaktivität als kürzerfristige Abstinenz.\n\nWas weiter heilt\n• Dopaminmarker, die durch Kokain verändert werden, bewegen sich mit anhaltender Abstinenz weiter in Richtung Normalität\n• Reduzierte Grau- und Weißsubstanzintegrität bei aktiven und früh abstinenten Nutzern kann sich bei längerer Abstinenz umkehren, möglicherweise durch fortgesetzte Myelinreifung\n• Frontal-Control-Schaltung - Impulskontrolle, Urteil, emotionale Regulierung - stärkt\n\nWiederfindungssignal\nDie Autoren heben eine echte wissenschaftliche Vorsicht: Einige der Unterschiede bei Langzeit-Abstinenten können einen \"Überlebenseffekt\" widerspiegeln - Menschen, die mit größerer Integrität des Gehirns begannen, finden es möglicherweise einfacher, abstinent zu bleiben - anstatt sich allein zu erholen. Klar ist, dass zwei Jahre kokainfrei ein Gehirn unterstützen, das viel näher an einem Nicht-Nutzer arbeitet, und ein Leben, das nicht nur abstinent, sondern wesentlich wieder aufgebaut ist.';
+
+  @override
+  String get cocaineReferenceDay1095 =>
+      'Drei Jahre ohne Kokain: Starkes Fundament\n\nQuelle: SAMHSA, Treatment of Stimulant Use Disorders\n\nDer evidenzbasierte Leitfaden der SAMHSA behandelt ausdrücklich Kokain und langfristige Genesung. Er nennt keinen allgemeinen biologischen Endpunkt nach drei Jahren.\n\nDrei Jahre sind für sich genommen eine beständige Leistung. Schütze die Routinen, Unterstützung und Strategien, die deine Genesung tragen.';
+
+  @override
+  String get cocaineReferenceDay1460 =>
+      'Vier Jahre ohne Kokain: Dauerhafter Schwung\n\nQuelle: SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSA beschreibt evidenzbasierte Behandlung von Stimulanzienkonsumstörungen einschließlich Kokain und Unterstützung für langfristige Genesung. Einen allgemeinen medizinischen Endpunkt nach vier Jahren nennt der Leitfaden nicht.\n\nVier Jahre zeigen Veränderung, die Alltag, Belastungen und große Meilensteine überdauert.';
+
+  @override
+  String get cocaineReferenceDay1825 =>
+      'Fünf Jahre ohne Kokain: Dauerhaft gefestigt\n\nQuelle: SAMHSA, Treatment of Stimulant Use Disorders\n\nDer SAMHSA-Leitfaden unterstützt evidenzbasierte Versorgung mit dem Ziel langfristiger Genesung bei Stimulanzienkonsumstörungen einschließlich Kokain. Fünf Jahre werden nicht als biologischer Schlusspunkt bezeichnet.\n\nFünf Jahre bedeuten ein halbes Jahrzehnt aufrechterhaltener Veränderung. Diese Beständigkeit ist der Meilenstein.';
 
   @override
   String get ghbReferenceDay1 =>

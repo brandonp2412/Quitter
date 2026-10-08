@@ -1054,6 +1054,27 @@ class AppLocalizationsEs extends AppLocalizations {
       'La recuperación cerebral continúa con mejoras sostenidas en la memoria, la concentración y la regulación emocional. Tus vías neuronales se han reorganizado de forma importante, favoreciendo patrones más saludables y un mayor bienestar general.';
 
   @override
+  String get cocaineMilestone1095Title => 'Tres años: Bases más fuertes';
+
+  @override
+  String get cocaineMilestone1095Description =>
+      'Tres años sin cocaína representan un progreso sostenido. Las rutinas, relaciones y herramientas que has construido han tenido años para afianzarse y dar bases más fuertes a tu recuperación.';
+
+  @override
+  String get cocaineMilestone1460Title => 'Cuatro años: Impulso duradero';
+
+  @override
+  String get cocaineMilestone1460Description =>
+      'Cuatro años muestran un impulso duradero. Otro año eligiendo una vida sin cocaína ha reforzado los hábitos y apoyos que sostienen tu recuperación.';
+
+  @override
+  String get cocaineMilestone1825Title => 'Cinco años: Cambio consolidado';
+
+  @override
+  String get cocaineMilestone1825Description =>
+      'Cinco años son un aniversario enorme. Medio decenio de constancia ha construido una vida cada vez más guiada por tus valores, relaciones y metas en lugar de la cocaína.';
+
+  @override
   String get tabJournal => 'Diario';
 
   @override
@@ -3174,6 +3195,18 @@ class AppLocalizationsEs extends AppLocalizations {
   @override
   String get cocaineReferenceDay730 =>
       'Dos años sin cocaína: recuperación sostenida\n\nFuente: \"Recuperación de la cocaína: conocimientos de investigaciones clínicas y preclínicas\", Neuroscience & Biobehavioral Reviews (2013), en PubMed Central\n\nLa visión a largo plazo\nEsta revisión reúne lo que los estudios en humanos y animales muestran sobre la abstinencia prolongada de cocaína. Su conclusión central es que la preservación y recuperación de la función de la corteza frontal es el marcador más importante de la abstinencia a largo plazo: las personas con abstinencia a largo plazo (más de 10 meses) mostraron una mayor actividad de la corteza frontal que las personas con abstinencia a corto plazo.\n\nLo que continúa sanando\n• Los marcadores de dopamina alterados por la cocaína continúan normalizándose con una abstinencia sostenida\n• La integridad reducida de la materia gris y blanca observada en personas con consumo activo o en abstinencia temprana puede revertirse con una abstinencia más prolongada, posiblemente a través de la maduración continua de la mielina.\n• Los circuitos de control frontal (control de impulsos, juicio, regulación emocional) se fortalecen\n\nSeñal de recuperación\nLos autores plantean una cautela científica importante: parte de la diferencia entre los abstemios a largo plazo puede reflejar un \"efecto de supervivencia\" (a las personas que comenzaron con una mayor integridad cerebral les puede resultar más fácil mantenerse en abstinencia) en lugar de reflejar solo la recuperación. Lo que está claro es que dos años sin cocaína se asocian con un cerebro que funciona mucho más cerca del de una persona que no consume, y una vida que no es meramente abstinente sino sustancialmente reconstruida.';
+
+  @override
+  String get cocaineReferenceDay1095 =>
+      'Tres años sin cocaína: Bases más fuertes\n\nFuente: SAMHSA, Treatment of Stimulant Use Disorders\n\nLa guía de SAMHSA incluye explícitamente la cocaína y prácticas que apoyan la recuperación a largo plazo. No establece un plazo biológico universal de tres años.\n\nTres años son un logro duradero por sí mismos. Mantén las rutinas, el apoyo y las estrategias que hacen sostenible tu recuperación.';
+
+  @override
+  String get cocaineReferenceDay1460 =>
+      'Cuatro años sin cocaína: Impulso duradero\n\nFuente: SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSA describe enfoques basados en la evidencia para los trastornos por estimulantes, incluida la cocaína, orientados a la recuperación a largo plazo. No identifica un punto final médico universal a los cuatro años.\n\nCuatro años muestran un cambio mantenido en días normales, momentos difíciles y grandes hitos.';
+
+  @override
+  String get cocaineReferenceDay1825 =>
+      'Cinco años sin cocaína: Cambio consolidado\n\nFuente: SAMHSA, Treatment of Stimulant Use Disorders\n\nLa guía de SAMHSA apoya la atención basada en la evidencia para la recuperación a largo plazo de los trastornos por estimulantes, incluida la cocaína. No presenta los cinco años como una meta biológica final.\n\nCinco años son medio decenio de cambio mantenido. Esa constancia y la vida construida a su alrededor son el verdadero hito.';
 
   @override
   String get ghbReferenceDay1 =>

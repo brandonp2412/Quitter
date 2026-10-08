@@ -210,6 +210,51 @@ class CocainePage extends StatelessWidget {
             "Recovery Signal\n"
             "The authors raise a genuine scientific caution: some of the difference in long-term abstainers may reflect a \"survivor effect\" — people who began with greater brain integrity may find it easier to stay abstinent — rather than recovery alone. What is clear is that two years cocaine-free supports a brain functioning far closer to a non-user's, and a life that is not merely abstinent but substantially rebuilt.",
       ),
+      QuitMilestone(
+        day: 1095,
+        title: l10n.cocaineMilestone1095Title,
+        description: l10n.cocaineMilestone1095Description,
+        reference: "SAMHSA Treatment of Stimulant Use Disorders",
+        link:
+            "https://www.samhsa.gov/resource/ebp/treatment-stimulant-use-disorders",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.cocaineReferenceDay1095,
+        referenceContent:
+            "Three Years Without Cocaine: Stronger Foundations\n\n"
+            "Source: SAMHSA, Treatment of Stimulant Use Disorders\n\n"
+            "SAMHSA's evidence-based guide explicitly covers cocaine and focuses on practices that support long-term recovery. It does not set a universal three-year biological recovery deadline.\n\n"
+            "Three years is a durable achievement in its own right. Keep the routines, support, and coping skills that make recovery sustainable.",
+      ),
+      QuitMilestone(
+        day: 1460,
+        title: l10n.cocaineMilestone1460Title,
+        description: l10n.cocaineMilestone1460Description,
+        reference: "SAMHSA Treatment of Stimulant Use Disorders",
+        link:
+            "https://www.samhsa.gov/resource/ebp/treatment-stimulant-use-disorders",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.cocaineReferenceDay1460,
+        referenceContent:
+            "Four Years Without Cocaine: Lasting Momentum\n\n"
+            "Source: SAMHSA, Treatment of Stimulant Use Disorders\n\n"
+            "SAMHSA describes evidence-based approaches for stimulant use disorders, including cocaine, and frames treatment around supporting long-term recovery. It does not identify a universal four-year medical endpoint.\n\n"
+            "Four years shows change maintained across ordinary days, difficult periods, and major milestones. The durability of that recovery is worth celebrating.",
+      ),
+      QuitMilestone(
+        day: 1825,
+        title: l10n.cocaineMilestone1825Title,
+        description: l10n.cocaineMilestone1825Description,
+        reference: "SAMHSA Treatment of Stimulant Use Disorders",
+        link:
+            "https://www.samhsa.gov/resource/ebp/treatment-stimulant-use-disorders",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.cocaineReferenceDay1825,
+        referenceContent:
+            "Five Years Without Cocaine: Built to Last\n\n"
+            "Source: SAMHSA, Treatment of Stimulant Use Disorders\n\n"
+            "SAMHSA's guide supports evidence-based care aimed at long-term recovery from stimulant use disorders, including cocaine use disorder. It does not claim that five years is a biological finish line.\n\n"
+            "Five years is half a decade of maintained change. That consistency, and the life built around it, is the milestone.",
+      ),
     ];
   }
 

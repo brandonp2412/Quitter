@@ -1038,6 +1038,27 @@ class AppLocalizationsEn extends AppLocalizations {
       'Brain healing continues with sustained improvements in memory, focus, and emotional regulation. Your neural pathways have significantly reorganized, supporting healthier patterns and better overall wellbeing.';
 
   @override
+  String get cocaineMilestone1095Title => 'Three Years: Stronger Foundations';
+
+  @override
+  String get cocaineMilestone1095Description =>
+      'Three years cocaine-free is sustained progress. The routines, relationships, and coping skills you\'ve built have had years to deepen, giving recovery stronger foundations.';
+
+  @override
+  String get cocaineMilestone1460Title => 'Four Years: Lasting Momentum';
+
+  @override
+  String get cocaineMilestone1460Description =>
+      'Four years is lasting momentum. Another year of choosing life beyond cocaine has reinforced the habits and support that keep recovery durable.';
+
+  @override
+  String get cocaineMilestone1825Title => 'Five Years: Built to Last';
+
+  @override
+  String get cocaineMilestone1825Description =>
+      'Five years is a major anniversary. Half a decade of consistency has built a life increasingly shaped by your values, relationships, and goals instead of cocaine.';
+
+  @override
   String get tabJournal => 'Journal';
 
   @override
@@ -3094,6 +3115,18 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get cocaineReferenceDay730 =>
       'Two Years Without Cocaine: Sustained Recovery\n\nSource: \"Recovering from Cocaine: Insights from Clinical and Preclinical Investigations,\" Neuroscience & Biobehavioral Reviews (2013), on PubMed Central\n\nThe Long View\nThis review draws together what human and animal studies show about extended cocaine abstinence. Its central conclusion is that preservation and recovery of frontal-cortex function is the most important marker of long-term abstinence — long-term abstainers (10+ months) showed higher frontal-cortex activity than shorter-term abstainers.\n\nWhat Continues to Heal\n• Dopamine markers altered by cocaine continue moving toward normal with sustained abstinence\n• Reduced grey- and white-matter integrity seen in active and early-abstinent users may reverse over longer abstinence, possibly through continued myelin maturation\n• Frontal-control circuitry — impulse control, judgement, emotional regulation — strengthens\n\nRecovery Signal\nThe authors raise a genuine scientific caution: some of the difference in long-term abstainers may reflect a \"survivor effect\" — people who began with greater brain integrity may find it easier to stay abstinent — rather than recovery alone. What is clear is that two years cocaine-free supports a brain functioning far closer to a non-user\'s, and a life that is not merely abstinent but substantially rebuilt.';
+
+  @override
+  String get cocaineReferenceDay1095 =>
+      'Three Years Without Cocaine: Stronger Foundations\n\nSource: SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSA\'s evidence-based guide explicitly covers cocaine and focuses on practices that support long-term recovery. It does not set a universal three-year biological recovery deadline.\n\nThree years is a durable achievement in its own right. Keep the routines, support, and coping skills that make recovery sustainable.';
+
+  @override
+  String get cocaineReferenceDay1460 =>
+      'Four Years Without Cocaine: Lasting Momentum\n\nSource: SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSA describes evidence-based approaches for stimulant use disorders, including cocaine, and frames treatment around supporting long-term recovery. It does not identify a universal four-year medical endpoint.\n\nFour years shows change maintained across ordinary days, difficult periods, and major milestones. The durability of that recovery is worth celebrating.';
+
+  @override
+  String get cocaineReferenceDay1825 =>
+      'Five Years Without Cocaine: Built to Last\n\nSource: SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSA\'s guide supports evidence-based care aimed at long-term recovery from stimulant use disorders, including cocaine use disorder. It does not claim that five years is a biological finish line.\n\nFive years is half a decade of maintained change. That consistency, and the life built around it, is the milestone.';
 
   @override
   String get ghbReferenceDay1 =>

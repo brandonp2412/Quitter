@@ -1908,6 +1908,42 @@ abstract class AppLocalizations {
   /// **'Brain healing continues with sustained improvements in memory, focus, and emotional regulation. Your neural pathways have significantly reorganized, supporting healthier patterns and better overall wellbeing.'**
   String get cocaineMilestone730Description;
 
+  /// No description provided for @cocaineMilestone1095Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Three Years: Stronger Foundations'**
+  String get cocaineMilestone1095Title;
+
+  /// No description provided for @cocaineMilestone1095Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Three years cocaine-free is sustained progress. The routines, relationships, and coping skills you\'ve built have had years to deepen, giving recovery stronger foundations.'**
+  String get cocaineMilestone1095Description;
+
+  /// No description provided for @cocaineMilestone1460Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Four Years: Lasting Momentum'**
+  String get cocaineMilestone1460Title;
+
+  /// No description provided for @cocaineMilestone1460Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Four years is lasting momentum. Another year of choosing life beyond cocaine has reinforced the habits and support that keep recovery durable.'**
+  String get cocaineMilestone1460Description;
+
+  /// No description provided for @cocaineMilestone1825Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Five Years: Built to Last'**
+  String get cocaineMilestone1825Title;
+
+  /// No description provided for @cocaineMilestone1825Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Five years is a major anniversary. Half a decade of consistency has built a life increasingly shaped by your values, relationships, and goals instead of cocaine.'**
+  String get cocaineMilestone1825Description;
+
   /// Tab label for the Journal tab
   ///
   /// In en, this message translates to:
@@ -5375,6 +5411,24 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Two Years Without Cocaine: Sustained Recovery\n\nSource: \"Recovering from Cocaine: Insights from Clinical and Preclinical Investigations,\" Neuroscience & Biobehavioral Reviews (2013), on PubMed Central\n\nThe Long View\nThis review draws together what human and animal studies show about extended cocaine abstinence. Its central conclusion is that preservation and recovery of frontal-cortex function is the most important marker of long-term abstinence — long-term abstainers (10+ months) showed higher frontal-cortex activity than shorter-term abstainers.\n\nWhat Continues to Heal\n• Dopamine markers altered by cocaine continue moving toward normal with sustained abstinence\n• Reduced grey- and white-matter integrity seen in active and early-abstinent users may reverse over longer abstinence, possibly through continued myelin maturation\n• Frontal-control circuitry — impulse control, judgement, emotional regulation — strengthens\n\nRecovery Signal\nThe authors raise a genuine scientific caution: some of the difference in long-term abstainers may reflect a \"survivor effect\" — people who began with greater brain integrity may find it easier to stay abstinent — rather than recovery alone. What is clear is that two years cocaine-free supports a brain functioning far closer to a non-user\'s, and a life that is not merely abstinent but substantially rebuilt.'**
   String get cocaineReferenceDay730;
+
+  /// No description provided for @cocaineReferenceDay1095.
+  ///
+  /// In en, this message translates to:
+  /// **'Three Years Without Cocaine: Stronger Foundations\n\nSource: SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSA\'s evidence-based guide explicitly covers cocaine and focuses on practices that support long-term recovery. It does not set a universal three-year biological recovery deadline.\n\nThree years is a durable achievement in its own right. Keep the routines, support, and coping skills that make recovery sustainable.'**
+  String get cocaineReferenceDay1095;
+
+  /// No description provided for @cocaineReferenceDay1460.
+  ///
+  /// In en, this message translates to:
+  /// **'Four Years Without Cocaine: Lasting Momentum\n\nSource: SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSA describes evidence-based approaches for stimulant use disorders, including cocaine, and frames treatment around supporting long-term recovery. It does not identify a universal four-year medical endpoint.\n\nFour years shows change maintained across ordinary days, difficult periods, and major milestones. The durability of that recovery is worth celebrating.'**
+  String get cocaineReferenceDay1460;
+
+  /// No description provided for @cocaineReferenceDay1825.
+  ///
+  /// In en, this message translates to:
+  /// **'Five Years Without Cocaine: Built to Last\n\nSource: SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSA\'s guide supports evidence-based care aimed at long-term recovery from stimulant use disorders, including cocaine use disorder. It does not claim that five years is a biological finish line.\n\nFive years is half a decade of maintained change. That consistency, and the life built around it, is the milestone.'**
+  String get cocaineReferenceDay1825;
 
   /// No description provided for @ghbReferenceDay1.
   ///

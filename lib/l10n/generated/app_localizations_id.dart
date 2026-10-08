@@ -1056,6 +1056,27 @@ class AppLocalizationsId extends AppLocalizations {
       'Penyembuhan otak berlanjut dengan peningkatan berkelanjutan dalam memori, fokus, dan regulasi emosional. Jalur saraf Anda telah ditata ulang secara signifikan, mendukung pola yang lebih sehat dan kesejahteraan yang lebih baik secara keseluruhan.';
 
   @override
+  String get cocaineMilestone1095Title => 'Tiga Tahun: Fondasi Kuat';
+
+  @override
+  String get cocaineMilestone1095Description =>
+      'Tiga tahun bebas kokain adalah kemajuan yang bertahan. Rutinitas, hubungan, dan keterampilan menghadapi masalah yang kamu bangun telah menguat selama bertahun-tahun dan menjadi fondasi pemulihan.';
+
+  @override
+  String get cocaineMilestone1460Title => 'Empat Tahun: Momentum Bertahan';
+
+  @override
+  String get cocaineMilestone1460Description =>
+      'Empat tahun menunjukkan momentum yang bertahan. Satu tahun lagi menjalani hidup tanpa kokain telah memperkuat kebiasaan dan dukungan yang menjaga pemulihan tetap kokoh.';
+
+  @override
+  String get cocaineMilestone1825Title => 'Lima Tahun: Perubahan Mengakar';
+
+  @override
+  String get cocaineMilestone1825Description =>
+      'Lima tahun adalah peringatan besar. Setengah dekade konsistensi telah membangun hidup yang semakin dibentuk oleh nilai, hubungan, dan tujuanmu, bukan oleh kokain.';
+
+  @override
   String get tabJournal => 'Jurnal';
 
   @override
@@ -3143,6 +3164,18 @@ class AppLocalizationsId extends AppLocalizations {
   @override
   String get cocaineReferenceDay730 =>
       'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+
+  @override
+  String get cocaineReferenceDay1095 =>
+      'Tiga Tahun Tanpa Kokain: Fondasi Kuat\n\nSumber: SAMHSA, Treatment of Stimulant Use Disorders\n\nPanduan berbasis bukti SAMHSA secara jelas mencakup kokain dan praktik yang mendukung pemulihan jangka panjang. Panduan ini tidak menetapkan batas biologis universal pada tahun ketiga.\n\nTiga tahun adalah pencapaian yang kokoh. Pertahankan rutinitas, dukungan, dan strategi yang membuat pemulihan berkelanjutan.';
+
+  @override
+  String get cocaineReferenceDay1460 =>
+      'Empat Tahun Tanpa Kokain: Momentum Bertahan\n\nSumber: SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSA menjelaskan pendekatan berbasis bukti untuk gangguan penggunaan stimulan, termasuk kokain, yang mendukung pemulihan jangka panjang. Tidak ada titik akhir medis universal pada tahun keempat.\n\nEmpat tahun menunjukkan perubahan yang bertahan melewati hari biasa, masa sulit, dan pencapaian besar.';
+
+  @override
+  String get cocaineReferenceDay1825 =>
+      'Lima Tahun Tanpa Kokain: Perubahan Mengakar\n\nSumber: SAMHSA, Treatment of Stimulant Use Disorders\n\nPanduan SAMHSA mendukung perawatan berbasis bukti untuk pemulihan jangka panjang dari gangguan penggunaan stimulan, termasuk kokain. Lima tahun tidak disebut sebagai garis akhir biologis.\n\nLima tahun adalah setengah dekade perubahan yang dipertahankan. Konsistensi itu dan kehidupan yang dibangun di sekitarnya adalah pencapaiannya.';
 
   @override
   String get ghbReferenceDay1 =>

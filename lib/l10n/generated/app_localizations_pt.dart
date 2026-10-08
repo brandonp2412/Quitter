@@ -1062,6 +1062,27 @@ class AppLocalizationsPt extends AppLocalizations {
       'A cura cerebral continua com melhorias sustentadas na memória, concentração e regulação emocional. Suas vias neurais foram significativamente reorganizadas, apoiando padrões mais saudáveis e um melhor bem-estar geral.';
 
   @override
+  String get cocaineMilestone1095Title => 'Três anos: Bases mais fortes';
+
+  @override
+  String get cocaineMilestone1095Description =>
+      'Três anos sem cocaína representam progresso sustentado. As rotinas, relações e estratégias que construíste tiveram anos para se consolidar e dar bases mais fortes à recuperação.';
+
+  @override
+  String get cocaineMilestone1460Title => 'Quatro anos: Progresso duradouro';
+
+  @override
+  String get cocaineMilestone1460Description =>
+      'Quatro anos mostram progresso duradouro. Mais um ano a escolher uma vida sem cocaína reforçou os hábitos e o apoio que mantêm a recuperação sólida.';
+
+  @override
+  String get cocaineMilestone1825Title => 'Cinco anos: Mudança consolidada';
+
+  @override
+  String get cocaineMilestone1825Description =>
+      'Cinco anos são um grande aniversário. Meia década de consistência construiu uma vida cada vez mais guiada pelos teus valores, relações e objetivos, e não pela cocaína.';
+
+  @override
   String get tabJournal => 'Diário';
 
   @override
@@ -3175,6 +3196,18 @@ class AppLocalizationsPt extends AppLocalizations {
       'Dois anos sem cocaína: recuperação sustentada\n\nFonte: \"Recovering from Cocaine: Insights from Clinical and Preclinical Investigations\", Neuroscience & Biobehavioral Reviews (2013), no PubMed Central\n\nA visão de longo prazo\nEsta revisão reúne o que estudos em humanos e animais mostram sobre a abstinência prolongada de cocaína. A sua conclusão central é que a preservação e recuperação da função do córtex frontal é o marcador mais importante da abstinência a longo prazo – os abstêmios a longo prazo (mais de 10 meses) apresentaram maior atividade do córtex frontal do que os abstêmios a curto prazo.\n\nO que continua a curar\n• Os marcadores de dopamina alterados pela cocaína continuam voltando ao normal com abstinência sustentada\n• A integridade reduzida da substância cinzenta e branca observada em utilizadores ativos e em abstinência precoce pode ser revertida com uma abstinência mais prolongada, possivelmente através da maturação contínua da mielina\n• Circuito de controle frontal – controle de impulso, julgamento, regulação emocional – fortalece\n\nSinal de recuperação\nOs autores levantam uma cauecrã científica genuína: algumas das diferenças entre os abstêmios de longo prazo podem refletir um “efeito de sobrevivência” – pessoas que começaram com maior integridade cerebral podem achar mais fácil permanecer abstinentes – em vez de apenas recuperarem. O que está claro é que dois anos sem cocaína apoiam um cérebro que funciona muito mais próximo do de um não-utilizador e uma vida que não é apenas abstinente, mas substancialmente reconstruída.';
 
   @override
+  String get cocaineReferenceDay1095 =>
+      'Três anos sem cocaína: Bases mais fortes\n\nFonte: SAMHSA, Treatment of Stimulant Use Disorders\n\nO guia da SAMHSA abrange explicitamente a cocaína e práticas baseadas na evidência que apoiam a recuperação a longo prazo. Não define um prazo biológico universal aos três anos.\n\nTrês anos são uma conquista duradoura por si só. Mantém as rotinas, o apoio e as estratégias que tornam a recuperação sustentável.';
+
+  @override
+  String get cocaineReferenceDay1460 =>
+      'Quatro anos sem cocaína: Progresso duradouro\n\nFonte: SAMHSA, Treatment of Stimulant Use Disorders\n\nA SAMHSA descreve abordagens baseadas na evidência para perturbações por uso de estimulantes, incluindo cocaína, orientadas para a recuperação a longo prazo. Não identifica um ponto final médico universal aos quatro anos.\n\nQuatro anos mostram mudança mantida nos dias comuns, nos períodos difíceis e nos grandes marcos.';
+
+  @override
+  String get cocaineReferenceDay1825 =>
+      'Cinco anos sem cocaína: Mudança consolidada\n\nFonte: SAMHSA, Treatment of Stimulant Use Disorders\n\nO guia da SAMHSA apoia cuidados baseados na evidência para a recuperação a longo prazo de perturbações por uso de estimulantes, incluindo cocaína. Não apresenta cinco anos como uma linha de chegada biológica.\n\nCinco anos são meia década de mudança mantida. Essa consistência e a vida construída à sua volta são o verdadeiro marco.';
+
+  @override
   String get ghbReferenceDay1 =>
       'Abstinência de GHB: as primeiras horas\n\nFonte: \"Caracterização da Síndrome de Abstinência de GHB\", no PubMed Central\n\n⚠ Esta é uma emergência médica\nA abstinência de GHB está entre as abstinências de substâncias mais perigosas, rivalizando com a abstinência grave de álcool e benzodiazepínicos. Se não for tratada, pode evoluir para delírio em mais de metade dos casos, com oscilações perigosas na frequência cardíaca e na pressão arterial e convulsões. Qualquer pessoa dependente de GHB, GBL ou 1,4-butanodiol deve procurar desintoxicação hospitalar supervisionada, em vez de parar sozinha.\n\nPor que começa tão rápido\nA meia-vida do GHB é de apenas 30 a 60 minutos, e os utilizadores dependentes normalmente precisam redosear a cada 2 a 3 horas apenas para evitar a abstinência – muito mais rápido do que o álcool ou os benzodiazepínicos. Essa rápida farmacocinética é a razão pela qual os sintomas podem aparecer muito mais cedo do que com outras abstinências sedativas-hipnóticas.\n\nSintomas iniciais\nAnsiedade, insónia, tremor, sudorese, batimentos cardíacos acelerados e aumento da pressão arterial.';
 
@@ -4892,6 +4925,27 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
   @override
   String get cocaineMilestone730Description =>
       'A cura cerebral continua com melhorias sustentadas na memória, concentração e regulação emocional. Suas vias neurais foram significativamente reorganizadas, apoiando padrões mais saudáveis ​​e um melhor bem-estar geral.';
+
+  @override
+  String get cocaineMilestone1095Title => 'Três anos: Base mais forte';
+
+  @override
+  String get cocaineMilestone1095Description =>
+      'Três anos sem cocaína são um progresso sustentado. As rotinas, relações e estratégias que você construiu tiveram anos para se fortalecer e dar uma base mais firme à recuperação.';
+
+  @override
+  String get cocaineMilestone1460Title => 'Quatro anos: Ritmo duradouro';
+
+  @override
+  String get cocaineMilestone1460Description =>
+      'Quatro anos mostram um ritmo duradouro. Mais um ano escolhendo uma vida sem cocaína reforçou os hábitos e o apoio que mantêm a recuperação firme.';
+
+  @override
+  String get cocaineMilestone1825Title => 'Cinco anos: Mudança consolidada';
+
+  @override
+  String get cocaineMilestone1825Description =>
+      'Cinco anos são um grande aniversário. Meia década de consistência construiu uma vida cada vez mais guiada por seus valores, relações e objetivos, e não pela cocaína.';
 
   @override
   String get tabJournal => 'Diário';
@@ -7004,6 +7058,18 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
   @override
   String get cocaineReferenceDay730 =>
       'Dois anos sem cocaína: recuperação sustentada\n\nFonte: \"Recovering from Cocaine: Insights from Clinical and Preclinical Investigations\", Neuroscience & Biobehavioral Reviews (2013), no PubMed Central\n\nA visão de longo prazo\nEsta revisão reúne o que estudos em humanos e animais mostram sobre a abstinência prolongada de cocaína. A sua conclusão central é que a preservação e recuperação da função do córtex frontal é o marcador mais importante da abstinência a longo prazo – os abstêmios a longo prazo (mais de 10 meses) apresentaram maior atividade do córtex frontal do que os abstêmios a curto prazo.\n\nO que continua a curar\n• Os marcadores de dopamina alterados pela cocaína continuam voltando ao normal com abstinência sustentada\n• A integridade reduzida da substância cinzenta e branca observada em usuários ativos e em abstinência precoce pode ser revertida com uma abstinência mais prolongada, possivelmente através da maturação contínua da mielina\n• Circuito de controle frontal – controle de impulso, julgamento, regulação emocional – fortalece\n\nSinal de recuperação\nOs autores levantam uma cautela científica genuína: algumas das diferenças entre os abstêmios de longo prazo podem refletir um “efeito de sobrevivência” – pessoas que começaram com maior integridade cerebral podem achar mais fácil permanecer abstinentes – em vez de apenas recuperarem. O que está claro é que dois anos sem cocaína apoiam um cérebro que funciona muito mais próximo do de um não-usuário e uma vida que não é apenas abstinente, mas substancialmente reconstruída.';
+
+  @override
+  String get cocaineReferenceDay1095 =>
+      'Três anos sem cocaína: Base mais forte\n\nFonte: SAMHSA, Treatment of Stimulant Use Disorders\n\nO guia da SAMHSA inclui explicitamente a cocaína e práticas baseadas em evidências que apoiam a recuperação de longo prazo. Ele não define um prazo biológico universal de três anos.\n\nTrês anos são uma conquista duradoura por si só. Preserve as rotinas, o apoio e as estratégias que tornam sua recuperação sustentável.';
+
+  @override
+  String get cocaineReferenceDay1460 =>
+      'Quatro anos sem cocaína: Ritmo duradouro\n\nFonte: SAMHSA, Treatment of Stimulant Use Disorders\n\nA SAMHSA descreve abordagens baseadas em evidências para transtornos por uso de estimulantes, incluindo cocaína, voltadas à recuperação de longo prazo. Não há um ponto final médico universal aos quatro anos.\n\nQuatro anos mostram uma mudança mantida em dias comuns, períodos difíceis e grandes conquistas.';
+
+  @override
+  String get cocaineReferenceDay1825 =>
+      'Cinco anos sem cocaína: Mudança consolidada\n\nFonte: SAMHSA, Treatment of Stimulant Use Disorders\n\nO guia da SAMHSA apoia cuidados baseados em evidências para a recuperação de longo prazo de transtornos por uso de estimulantes, incluindo cocaína. Ele não trata cinco anos como uma linha de chegada biológica.\n\nCinco anos são meia década de mudança mantida. Essa consistência e a vida construída ao redor dela são o verdadeiro marco.';
 
   @override
   String get ghbReferenceDay1 =>

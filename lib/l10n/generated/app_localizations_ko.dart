@@ -1013,6 +1013,27 @@ class AppLocalizationsKo extends AppLocalizations {
       '뇌 치유는 기억력, 집중력, 감정 조절의 지속적인 개선을 통해 계속됩니다. 신경 경로가 크게 재구성되어 더 건강한 패턴과 더 나은 전반적인 웰빙을 지원합니다.';
 
   @override
+  String get cocaineMilestone1095Title => '3년: 더 단단한 기반';
+
+  @override
+  String get cocaineMilestone1095Description =>
+      '코카인 없이 3년을 이어온 것은 꾸준한 진전입니다. 그동안 만든 일상, 관계, 대처 기술이 여러 해에 걸쳐 자리 잡으며 회복의 기반을 더 단단하게 만들었습니다.';
+
+  @override
+  String get cocaineMilestone1460Title => '4년: 이어지는 전진';
+
+  @override
+  String get cocaineMilestone1460Description =>
+      '코카인 없이 4년을 이어왔습니다. 또 한 해를 더 쌓으며 회복을 지탱하는 습관과 지원이 한층 더 단단해졌습니다.';
+
+  @override
+  String get cocaineMilestone1825Title => '5년: 뿌리내린 변화';
+
+  @override
+  String get cocaineMilestone1825Description =>
+      '코카인 없이 5년은 큰 기념일입니다. 5년 동안의 꾸준함이 코카인보다 자신의 가치, 관계, 목표를 중심으로 한 삶을 더 깊이 자리 잡게 했습니다.';
+
+  @override
   String get tabJournal => '신문';
 
   @override
@@ -3005,6 +3026,18 @@ class AppLocalizationsKo extends AppLocalizations {
   @override
   String get cocaineReferenceDay730 =>
       '코카인 없이 2년: 지속적인 회복\n\n출처: PubMed Central의 \"코카인으로부터의 회복: 임상 및 전임상 조사로부터의 통찰력,\" 신경과학 및 생물행동 리뷰(2013)\n\n장기적 관점\n이 리뷰는 인간과 동물 연구에서 확장된 코카인 금욕에 대해 보여주는 내용을 종합합니다. 그 중심 결론은 전두엽 피질 기능의 보존과 회복이 장기 금욕의 가장 중요한 지표라는 것입니다. 장기 금욕자(10개월 이상)는 단기 금욕자보다 전두엽 피질 활동이 더 높은 것으로 나타났습니다.\n\n계속해서 치유되는 것\n• 코카인에 의해 변경된 도파민 지표는 금주를 지속하면서 정상을 향해 계속 이동합니다.\n• 활동적이거나 초기에 금주한 사용자에게서 나타나는 회백질 완전성 감소는 금욕 기간이 길어지면 아마도 지속적인 미엘린 성숙을 통해 역전될 수 있습니다.\n• 정면 제어 회로(충동 제어, 판단, 감정 조절) 강화\n\n회복 신호\n저자는 진정한 과학적 경고를 제기합니다. 장기 금욕자의 차이 중 일부는 \"생존자 효과\"를 반영할 수 있습니다. 즉, 뇌 완전성이 뛰어난 사람들은 금욕을 유지하는 것이 혼자 회복하는 것보다 더 쉽다는 것을 알 수 있습니다. 분명한 것은 2년 동안 코카인을 사용하지 않으면 뇌가 비사용자와 훨씬 더 가깝게 기능하고, 단순히 금주하는 것이 아니라 실질적으로 재건되는 삶을 지원한다는 것입니다.';
+
+  @override
+  String get cocaineReferenceDay1095 =>
+      '코카인 없이 3년: 더 단단한 기반\n\n출처: SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSA의 근거 기반 지침은 코카인을 명확히 다루며 장기 회복을 돕는 방법에 초점을 둡니다. 3년을 모두에게 적용되는 생물학적 종착점으로 정하지는 않습니다.\n\n3년 자체가 오래 이어온 큰 성취입니다. 회복을 지속 가능하게 해 주는 일상, 지원, 대처 전략을 계속 지켜가세요.';
+
+  @override
+  String get cocaineReferenceDay1460 =>
+      '코카인 없이 4년: 이어지는 전진\n\n출처: SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSA는 코카인을 포함한 자극제 사용 장애에 대해 근거 기반 접근과 장기 회복 지원을 설명합니다. 4년을 보편적인 의학적 종착점으로 제시하지는 않습니다.\n\n4년은 평범한 날과 힘든 시기, 큰 순간을 지나서도 변화가 이어졌다는 증거입니다.';
+
+  @override
+  String get cocaineReferenceDay1825 =>
+      '코카인 없이 5년: 뿌리내린 변화\n\n출처: SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSA 지침은 코카인을 포함한 자극제 사용 장애에서 장기 회복을 목표로 하는 근거 기반 치료를 지지합니다. 5년을 생물학적 결승선으로 주장하지는 않습니다.\n\n5년은 변화를 꾸준히 유지해 온 시간입니다. 그 꾸준함과 그 위에 세운 삶이 바로 이 이정표입니다.';
 
   @override
   String get ghbReferenceDay1 =>
