@@ -507,6 +507,40 @@ class AppLocalizationsAr extends AppLocalizations {
       'انسحاب شبائه القنب الاصطناعية والمخاطر الحادة\n\nالمصدر: Cooper (2016)، Current Psychiatry Reports، PMC\n\nتصف التقارير السريرية انسحابًا بعد الاستخدام اليومي قد يبدأ سريعًا بعد الجرعة الأخيرة، مع قلق شديد وأرق وغثيان وقيء وتعرق وخفقان ورعشة وهياج ورغبة في التعاطي. وشملت الحالات الشديدة نوبات اختلاج متكررة ومشكلات قلبية وعائية أو تنفسية. كما تصف المراجعة التسمم بأنه غير متوقع وقد يكون شديدًا، بما في ذلك الذهان ونوبات الاختلاج والحوادث القلبية وإصابة الكلى. الأعراض الشديدة أو المتفاقمة تحتاج إلى تقييم طبي سريع.';
 
   @override
+  String get synthetic_cannabinoidsMilestone730Title => 'عامان — أرض ثابتة';
+
+  @override
+  String get synthetic_cannabinoidsMilestone730Description =>
+      'عامان بلا كانابينويدات صناعية. لقد بنيت 730 يومًا من دون العودة إليها. هذا الثبات يستحق احتفالًا حقيقيًا.';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1095Title =>
+      'ثلاثة أعوام — ما زلت قويًا';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1095Description =>
+      'ثلاثة أعوام بلا كانابينويدات صناعية. أصبح التغيير يُقاس بالسنوات لا بالأيام، وأنت تواصل المضي قدمًا.';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1460Title =>
+      'أربعة أعوام — تغيير راسخ';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1460Description =>
+      'أربعة أعوام بلا كانابينويدات صناعية. ما بدأ كتوقف أصبح تغييرًا ثابتًا: 1460 يومًا بعيدًا عنها.';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1825Title => 'خمسة أعوام — نصف عقد';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1825Description =>
+      'خمسة أعوام بلا كانابينويدات صناعية. نصف عقد إنجاز ضخم على المدى الطويل. هذا التقدم لك.';
+
+  @override
+  String get synthetic_cannabinoidsLongTermReference =>
+      'الكانابينويدات الصناعية: ما الذي تدعمه الأدلة\n\nالمصدر: إرشادات التوافق الصادرة عن British Association for Psychopharmacology حول الاعتماد على المواد (2026)، PMC\n\nتذكر الإرشادات أن الكانابينويدات الصناعية قد تسبب متلازمة انسحاب أشد من القنب وقد تتطلب إزالة السموم داخل المستشفى. كما تنص على عدم وجود علاج دوائي قائم على الأدلة للمداومة أو الوقاية من الانتكاس في حالة الكانابينويدات الصناعية.\n\nلا تحدد الإرشادات 2 أو 3 أو 4 أو 5 سنوات كعتبة بيولوجية للتعافي. لذلك تحتفل هذه الذكريات السنوية بالتقدم المستمر من دون ادعاء موعد طبي لا تدعمه الأدلة.';
+
+  @override
   String get mdmaPageTitle => 'إم دي إم إيه';
 
   @override

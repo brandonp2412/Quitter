@@ -511,6 +511,40 @@ class AppLocalizationsFa extends AppLocalizations {
       'ترک و خطرات حاد کانابینوئیدهای مصنوعی\n\nمنبع: Cooper (2016)، Current Psychiatry Reports، PMC\n\nگزارش‌های بالینی نشان می‌دهند پس از مصرف روزانه، علائم ترک می‌توانند کمی بعد از آخرین دوز شروع شوند و شامل اضطراب شدید، بی‌خوابی، تهوع و استفراغ، تعریق، تپش قلب، لرزش، بی‌قراری و میل به مصرف باشند. موارد شدید شامل تشنج‌های تکرارشونده و مشکلات قلبی‌عروقی یا تنفسی بوده‌اند. این مرور مسمومیت را نیز پیش‌بینی‌ناپذیر و گاه شدید توصیف می‌کند، از جمله روان‌پریشی، تشنج، رویدادهای قلبی و آسیب کلیه. علائم شدید یا رو به بدتر شدن نیاز به ارزیابی سریع پزشکی دارند.';
 
   @override
+  String get synthetic_cannabinoidsMilestone730Title => 'دو سال — پایه‌ای محکم';
+
+  @override
+  String get synthetic_cannabinoidsMilestone730Description =>
+      'دو سال بدون کانابینوئیدهای مصنوعی. ۷۳۰ روز را بدون بازگشت به آن‌ها ساخته‌ای. این پایداری واقعاً ارزش جشن گرفتن دارد.';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1095Title =>
+      'سه سال — همچنان استوار';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1095Description =>
+      'سه سال بدون کانابینوئیدهای مصنوعی. تغییر حالا با سال سنجیده می‌شود، نه روز. همچنان رو به جلو حرکت می‌کنی.';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1460Title =>
+      'چهار سال — تغییری ماندگار';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1460Description =>
+      'چهار سال بدون کانابینوئیدهای مصنوعی. چیزی که با ترک شروع شد به تغییری پایدار تبدیل شده: ۱۴۶۰ روز دوری.';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1825Title => 'پنج سال — نیم دهه';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1825Description =>
+      'پنج سال بدون کانابینوئیدهای مصنوعی. نیم دهه یک پیروزی بزرگ بلندمدت است. این پیشرفت متعلق به توست.';
+
+  @override
+  String get synthetic_cannabinoidsLongTermReference =>
+      'کانابینوئیدهای مصنوعی: آنچه شواهد پشتیبانی می‌کنند\n\nمنبع: راهنمای اجماعی British Association for Psychopharmacology درباره وابستگی به مواد (۲۰۲۶)، PMC\n\nاین راهنما می‌گوید کانابینوئیدهای مصنوعی می‌توانند سندرم ترک شدیدتری نسبت به کانابیس ایجاد کنند و گاهی نیاز به سم‌زدایی بستری باشد. همچنین اعلام می‌کند برای درمان نگهدارنده یا پیشگیری از عود در مصرف کانابینوئیدهای مصنوعی، دارودرمانی مبتنی بر شواهد وجود ندارد.\n\nاین راهنما ۲، ۳، ۴ یا ۵ سال را به‌عنوان آستانه زیستی بهبود تعریف نمی‌کند. بنابراین این سالگردها پیشرفت پایدار را جشن می‌گیرند، بدون ادعای ضرب‌الاجل پزشکی که شواهد از آن پشتیبانی نمی‌کنند.';
+
+  @override
   String get mdmaPageTitle => 'بهبودی از MDMA';
 
   @override

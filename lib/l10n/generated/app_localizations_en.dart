@@ -509,6 +509,42 @@ class AppLocalizationsEn extends AppLocalizations {
       'Synthetic Cannabinoid Withdrawal and Acute Risk\n\nSource: Cooper (2016), Current Psychiatry Reports, PMC\n\nClinical reports describe withdrawal after daily synthetic-cannabinoid use occurring soon after the last dose, with severe anxiety, insomnia, nausea and vomiting, sweating, palpitations, tremor, agitation, and cravings. Severe cases have included recurring seizures and cardiovascular or breathing problems. The review also describes synthetic-cannabinoid intoxication as unpredictable and sometimes severe, including psychosis, seizures, cardiac events, and kidney injury. Severe or escalating symptoms need prompt medical assessment.';
 
   @override
+  String get synthetic_cannabinoidsMilestone730Title =>
+      'Two Years — Solid Ground';
+
+  @override
+  String get synthetic_cannabinoidsMilestone730Description =>
+      'Two years free. You’ve built 730 days without returning to synthetic cannabinoids. That kind of consistency deserves a proper celebration.';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1095Title =>
+      'Three Years — Still Strong';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1095Description =>
+      'Three years free. This is sustained change measured in years now, not days. You’ve kept choosing life beyond synthetic cannabinoids.';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1460Title =>
+      'Four Years — Built to Last';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1460Description =>
+      'Four years free. What started as quitting has become something durable: 1,460 days of staying clear of synthetic cannabinoids.';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1825Title =>
+      'Five Years — Half a Decade';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1825Description =>
+      'Five years free. Half a decade without synthetic cannabinoids is a huge long-term win. That is progress worth owning.';
+
+  @override
+  String get synthetic_cannabinoidsLongTermReference =>
+      'Synthetic Cannabinoids: What the Evidence Supports\n\nSource: British Association for Psychopharmacology consensus guidelines on substance dependence (2026), PMC\n\nThe guideline says synthetic cannabinoids can produce a more severe withdrawal syndrome than cannabis and may require inpatient detoxification. It also states that there is no evidence-based pharmacotherapy for maintenance or relapse prevention for synthetic cannabinoids.\n\nThe guideline does not define a 2-, 3-, 4-, or 5-year biological recovery threshold. These anniversaries therefore celebrate sustained progress without claiming a medical deadline that the evidence does not support.';
+
+  @override
   String get mdmaPageTitle => 'MDMA Recovery';
 
   @override

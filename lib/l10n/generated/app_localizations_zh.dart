@@ -499,6 +499,38 @@ class AppLocalizationsZh extends AppLocalizations {
       '合成大麻素戒断与急性风险\n\n来源：Cooper（2016），Current Psychiatry Reports，PMC\n\n临床报告显示，每日使用者在最后一次使用后不久就可能出现戒断，包括严重焦虑、失眠、恶心和呕吐、出汗、心悸、颤抖、躁动和渴求。重症病例包括反复癫痫发作以及心血管或呼吸问题。综述还指出，合成大麻素急性中毒具有不可预测性，有时很严重，可出现精神病性症状、癫痫发作、心脏事件和肾损伤。严重或持续加重的症状需要尽快接受医疗评估。';
 
   @override
+  String get synthetic_cannabinoidsMilestone730Title => '两年 — 根基稳固';
+
+  @override
+  String get synthetic_cannabinoidsMilestone730Description =>
+      '两年没有使用合成大麻素。您已经连续730天没有再回到它们身边。这样的坚持值得认真庆祝。';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1095Title => '三年 — 依然坚定';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1095Description =>
+      '三年没有使用合成大麻素。改变如今已经按年计算，而不是按天。您仍在继续向前。';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1460Title => '四年 — 持久的改变';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1460Description =>
+      '四年没有使用合成大麻素。最初的戒用已经变成持久的改变：1460天远离它们。';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1825Title => '五年 — 半个十年';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1825Description =>
+      '五年没有使用合成大麻素。半个十年是一项巨大的长期成就。这份进步属于您。';
+
+  @override
+  String get synthetic_cannabinoidsLongTermReference =>
+      '合成大麻素：证据支持什么\n\n来源：British Association for Psychopharmacology 关于物质依赖的共识指南（2026），PMC\n\n指南指出，合成大麻素可能引起比大麻更严重的戒断综合征，有时需要住院脱毒。指南还指出，目前没有用于合成大麻素维持治疗或复发预防的循证药物治疗。\n\n指南没有把2年、3年、4年或5年定义为生物学恢复阈值。因此，这些周年节点庆祝的是持续的进步，而不是声称存在证据并不支持的医学期限。';
+
+  @override
   String get mdmaPageTitle => 'MDMA戒断';
 
   @override
@@ -4816,6 +4848,38 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   @override
   String get synthetic_cannabinoidsRiskReference =>
       '合成大麻素戒斷與急性風險\n\n來源：Cooper（2016），Current Psychiatry Reports，PMC\n\n臨床報告顯示，每日使用者在最後一次使用後不久就可能出現戒斷，包括嚴重焦慮、失眠、噁心和嘔吐、出汗、心悸、顫抖、躁動和渴求。重症病例包括反覆癲癇發作以及心血管或呼吸問題。綜述還指出，合成大麻素急性中毒具有不可預測性，有時很嚴重，可出現精神病性症狀、癲癇發作、心臟事件和腎損傷。嚴重或持續加重的症狀需要儘快接受醫療評估。';
+
+  @override
+  String get synthetic_cannabinoidsMilestone730Title => '兩年 — 根基穩固';
+
+  @override
+  String get synthetic_cannabinoidsMilestone730Description =>
+      '兩年沒有使用合成大麻素。您已經連續730天沒有再回到它們身邊。這樣的堅持值得認真慶祝。';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1095Title => '三年 — 依然堅定';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1095Description =>
+      '三年沒有使用合成大麻素。改變如今已經按年計算，而不是按天。您仍在繼續向前。';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1460Title => '四年 — 持久的改變';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1460Description =>
+      '四年沒有使用合成大麻素。最初的戒用已經變成持久的改變：1460天遠離它們。';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1825Title => '五年 — 半個十年';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1825Description =>
+      '五年沒有使用合成大麻素。半個十年是一項巨大的長期成就。這份進步屬於您。';
+
+  @override
+  String get synthetic_cannabinoidsLongTermReference =>
+      '合成大麻素：證據支持什麼\n\n來源：British Association for Psychopharmacology 關於物質依賴的共識指南（2026），PMC\n\n指南指出，合成大麻素可能引起比大麻更嚴重的戒斷症候群，有時需要住院脫毒。指南也指出，目前沒有用於合成大麻素維持治療或復發預防的循證藥物治療。\n\n指南沒有把2年、3年、4年或5年定義為生物學恢復閾值。因此，這些週年節點慶祝的是持續的進步，而不是聲稱存在證據並不支持的醫學期限。';
 
   @override
   String get mdmaPageTitle => 'MDMA戒斷';

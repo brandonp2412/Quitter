@@ -512,6 +512,40 @@ class AppLocalizationsUr extends AppLocalizations {
       'مصنوعی کینابینوئڈز کی واپسی اور شدید خطرات\n\nماخذ: Cooper (2016)، Current Psychiatry Reports، PMC\n\nطبی رپورٹس میں روزانہ استعمال کے بعد آخری خوراک کے کچھ ہی وقت بعد شروع ہونے والی واپسی بیان کی گئی ہے، جس میں شدید پریشانی، بے خوابی، متلی اور قے، پسینہ، دل کی دھڑکن، کپکپی، بے چینی اور طلب شامل ہیں۔ شدید صورتوں میں بار بار دورے اور قلبی یا سانس کے مسائل بھی رپورٹ ہوئے۔ جائزے میں نشہ آور اثرات کو غیر متوقع اور کبھی شدید بھی بتایا گیا ہے، جن میں نفسیاتی علامات، دورے، دل کے واقعات اور گردے کی چوٹ شامل ہیں۔ شدید یا بگڑتی علامات کے لیے فوری طبی جانچ ضروری ہے۔';
 
   @override
+  String get synthetic_cannabinoidsMilestone730Title => 'دو سال — مضبوط بنیاد';
+
+  @override
+  String get synthetic_cannabinoidsMilestone730Description =>
+      'مصنوعی کینابینوائڈز کے بغیر دو سال۔ آپ نے دوبارہ استعمال کیے بغیر 730 دن مکمل کیے ہیں۔ یہ مستقل مزاجی واقعی جشن کے لائق ہے۔';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1095Title =>
+      'تین سال — اب بھی مضبوط';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1095Description =>
+      'مصنوعی کینابینوائڈز کے بغیر تین سال۔ اب یہ تبدیلی دنوں نہیں بلکہ برسوں میں ناپی جاتی ہے، اور آپ مسلسل آگے بڑھ رہے ہیں۔';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1460Title =>
+      'چار سال — پائیدار تبدیلی';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1460Description =>
+      'مصنوعی کینابینوائڈز کے بغیر چار سال۔ چھوڑنے کا فیصلہ اب ایک پائیدار تبدیلی بن چکا ہے: 1460 دن کی دوری۔';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1825Title => 'پانچ سال — نصف دہائی';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1825Description =>
+      'مصنوعی کینابینوائڈز کے بغیر پانچ سال۔ نصف دہائی ایک بہت بڑی طویل مدتی کامیابی ہے۔ یہ پیش رفت آپ کی ہے۔';
+
+  @override
+  String get synthetic_cannabinoidsLongTermReference =>
+      'مصنوعی کینابینوائڈز: شواہد کیا بتاتے ہیں\n\nماخذ: British Association for Psychopharmacology کی مادّہ انحصار سے متعلق متفقہ رہنما ہدایات (2026)، PMC\n\nرہنما ہدایات کے مطابق مصنوعی کینابینوائڈز، کینابس کے مقابلے میں زیادہ شدید انخلا پیدا کر سکتے ہیں اور بعض صورتوں میں ہسپتال میں ڈی ٹاکس کی ضرورت پڑ سکتی ہے۔ یہ بھی بتایا گیا ہے کہ نگہداشت یا دوبارہ استعمال سے بچاؤ کے لیے کوئی شواہد پر مبنی دوائی موجود نہیں۔\n\nیہ ہدایات 2، 3، 4 یا 5 سال کو حیاتیاتی بحالی کی حد قرار نہیں دیتیں۔ اس لیے یہ سالگرہیں کسی غیر ثابت شدہ طبی مدت کا دعویٰ کیے بغیر مسلسل پیش رفت کا جشن مناتی ہیں۔';
+
+  @override
   String get mdmaPageTitle => 'مُنادی کا کام';
 
   @override

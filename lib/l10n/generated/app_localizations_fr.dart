@@ -520,6 +520,42 @@ class AppLocalizationsFr extends AppLocalizations {
       'Sevrage et risques aigus des cannabinoïdes de synthèse\n\nSource : Cooper (2016), Current Psychiatry Reports, PMC\n\nDes observations cliniques décrivent un sevrage après usage quotidien pouvant survenir rapidement après la dernière dose, avec forte anxiété, insomnie, nausées et vomissements, sueurs, palpitations, tremblements, agitation et envie de consommer. Des cas graves ont comporté des convulsions répétées ainsi que des problèmes cardiovasculaires ou respiratoires. La revue décrit aussi une intoxication imprévisible et parfois sévère, notamment psychose, convulsions, événements cardiaques et atteinte rénale. Des symptômes graves ou qui s’aggravent nécessitent une évaluation médicale rapide.';
 
   @override
+  String get synthetic_cannabinoidsMilestone730Title =>
+      'Deux ans — Base solide';
+
+  @override
+  String get synthetic_cannabinoidsMilestone730Description =>
+      'Deux ans sans cannabinoïdes de synthèse. Tu as construit 730 jours sans y revenir. Une telle constance mérite d’être célébrée.';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1095Title =>
+      'Trois ans — Toujours solide';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1095Description =>
+      'Trois ans sans cannabinoïdes de synthèse. Le changement se mesure désormais en années, plus en jours. Tu continues d’avancer.';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1460Title =>
+      'Quatre ans — Du solide';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1460Description =>
+      'Quatre ans sans cannabinoïdes de synthèse. Ce qui a commencé par un arrêt est devenu durable : 1 460 jours de recul.';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1825Title =>
+      'Cinq ans — Une demi-décennie';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1825Description =>
+      'Cinq ans sans cannabinoïdes de synthèse. Une demi-décennie, c’est une immense réussite à long terme. Ce progrès t’appartient.';
+
+  @override
+  String get synthetic_cannabinoidsLongTermReference =>
+      'Cannabinoïdes de synthèse : ce que montrent les données\n\nSource : recommandations consensuelles de la British Association for Psychopharmacology sur la dépendance aux substances (2026), PMC\n\nLes recommandations indiquent que les cannabinoïdes de synthèse peuvent provoquer un sevrage plus sévère que le cannabis et parfois nécessiter une désintoxication en milieu hospitalier. Elles précisent aussi qu’il n’existe pas de pharmacothérapie fondée sur les preuves pour le traitement d’entretien ou la prévention des rechutes.\n\nElles ne définissent aucun seuil biologique de récupération à 2, 3, 4 ou 5 ans. Ces anniversaires célèbrent donc des progrès durables sans inventer une échéance médicale que les données ne soutiennent pas.';
+
+  @override
   String get mdmaPageTitle => 'MDMA';
 
   @override

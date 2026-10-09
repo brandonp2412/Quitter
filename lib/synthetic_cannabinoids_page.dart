@@ -12,6 +12,8 @@ class SyntheticCannabinoidsPage extends StatelessWidget {
       'https://pmc.ncbi.nlm.nih.gov/articles/PMC9110517/';
   static const _clinicalReviewLink =
       'https://pmc.ncbi.nlm.nih.gov/articles/PMC4923337/';
+  static const _longTermGuidelineLink =
+      'https://pmc.ncbi.nlm.nih.gov/articles/PMC13222391/';
 
   List<QuitMilestone> _getMilestones(AppLocalizations l10n) {
     return [
@@ -79,6 +81,46 @@ class SyntheticCannabinoidsPage extends StatelessWidget {
         link: _clinicalReviewLink,
         referenceDate: 'October 2026',
         localizedReferenceContent: l10n.synthetic_cannabinoidsRiskReference,
+      ),
+      QuitMilestone(
+        day: 730,
+        title: l10n.synthetic_cannabinoidsMilestone730Title,
+        description: l10n.synthetic_cannabinoidsMilestone730Description,
+        reference:
+            'British Association for Psychopharmacology — substance-dependence consensus guideline',
+        link: _longTermGuidelineLink,
+        referenceDate: 'October 2026',
+        localizedReferenceContent: l10n.synthetic_cannabinoidsLongTermReference,
+      ),
+      QuitMilestone(
+        day: 1095,
+        title: l10n.synthetic_cannabinoidsMilestone1095Title,
+        description: l10n.synthetic_cannabinoidsMilestone1095Description,
+        reference:
+            'British Association for Psychopharmacology — substance-dependence consensus guideline',
+        link: _longTermGuidelineLink,
+        referenceDate: 'October 2026',
+        localizedReferenceContent: l10n.synthetic_cannabinoidsLongTermReference,
+      ),
+      QuitMilestone(
+        day: 1460,
+        title: l10n.synthetic_cannabinoidsMilestone1460Title,
+        description: l10n.synthetic_cannabinoidsMilestone1460Description,
+        reference:
+            'British Association for Psychopharmacology — substance-dependence consensus guideline',
+        link: _longTermGuidelineLink,
+        referenceDate: 'October 2026',
+        localizedReferenceContent: l10n.synthetic_cannabinoidsLongTermReference,
+      ),
+      QuitMilestone(
+        day: 1825,
+        title: l10n.synthetic_cannabinoidsMilestone1825Title,
+        description: l10n.synthetic_cannabinoidsMilestone1825Description,
+        reference:
+            'British Association for Psychopharmacology — substance-dependence consensus guideline',
+        link: _longTermGuidelineLink,
+        referenceDate: 'October 2026',
+        localizedReferenceContent: l10n.synthetic_cannabinoidsLongTermReference,
       ),
     ];
   }

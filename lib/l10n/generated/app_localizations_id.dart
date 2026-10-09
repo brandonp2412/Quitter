@@ -516,6 +516,42 @@ class AppLocalizationsId extends AppLocalizations {
       'Putus zat dan risiko akut kanabinoid sintetis\n\nSumber: Cooper (2016), Current Psychiatry Reports, PMC\n\nLaporan klinis menggambarkan putus zat setelah penggunaan harian yang dapat muncul segera setelah dosis terakhir, dengan kecemasan berat, insomnia, mual dan muntah, keringat, jantung berdebar, tremor, agitasi, dan keinginan memakai. Kasus berat mencakup kejang berulang serta masalah kardiovaskular atau pernapasan. Tinjauan ini juga menggambarkan keracunan yang tidak terduga dan kadang berat, termasuk psikosis, kejang, kejadian jantung, dan cedera ginjal. Gejala berat atau yang memburuk memerlukan penilaian medis segera.';
 
   @override
+  String get synthetic_cannabinoidsMilestone730Title =>
+      'Dua Tahun — Landasan Kokoh';
+
+  @override
+  String get synthetic_cannabinoidsMilestone730Description =>
+      'Dua tahun bebas dari kanabinoid sintetis. Kamu sudah membangun 730 hari tanpa kembali menggunakannya. Konsistensi ini layak dirayakan.';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1095Title =>
+      'Tiga Tahun — Tetap Kuat';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1095Description =>
+      'Tiga tahun bebas dari kanabinoid sintetis. Perubahan ini sekarang dihitung dalam tahun, bukan hari. Kamu terus melangkah maju.';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1460Title =>
+      'Empat Tahun — Bertahan Lama';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1460Description =>
+      'Empat tahun bebas dari kanabinoid sintetis. Berhenti telah menjadi sesuatu yang bertahan: 1.460 hari menjauh darinya.';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1825Title =>
+      'Lima Tahun — Setengah Dekade';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1825Description =>
+      'Lima tahun bebas dari kanabinoid sintetis. Setengah dekade adalah kemenangan jangka panjang yang besar. Kemajuan ini milikmu.';
+
+  @override
+  String get synthetic_cannabinoidsLongTermReference =>
+      'Kanabinoid sintetis: apa yang didukung bukti\n\nSumber: pedoman konsensus British Association for Psychopharmacology tentang ketergantungan zat (2026), PMC\n\nPedoman menyatakan bahwa kanabinoid sintetis dapat menimbulkan sindrom putus zat yang lebih berat daripada kanabis dan mungkin memerlukan detoksifikasi rawat inap. Pedoman juga menyatakan belum ada farmakoterapi berbasis bukti untuk pemeliharaan atau pencegahan kekambuhan pada penggunaan kanabinoid sintetis.\n\nPedoman tidak menetapkan ambang pemulihan biologis pada 2, 3, 4, atau 5 tahun. Karena itu, tonggak ini merayakan kemajuan yang bertahan tanpa mengklaim batas waktu medis yang tidak didukung bukti.';
+
+  @override
   String get mdmaPageTitle => 'Pemulihan MDMA';
 
   @override

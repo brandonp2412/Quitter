@@ -499,6 +499,38 @@ class AppLocalizationsKo extends AppLocalizations {
       '합성 칸나비노이드 금단과 급성 위험\n\n출처: Cooper (2016), Current Psychiatry Reports, PMC\n\n임상 보고에서는 합성 칸나비노이드를 매일 사용하다 중단한 뒤 마지막 사용 직후부터 심한 불안, 불면, 메스꺼움과 구토, 발한, 두근거림, 떨림, 초조, 갈망 같은 금단 증상이 나타날 수 있다고 설명합니다. 심한 사례에는 반복되는 발작과 심혈관 또는 호흡기 문제가 포함되었습니다. 이 리뷰는 합성 칸나비노이드 중독이 예측하기 어렵고 때로는 심각할 수 있으며, 정신병적 증상, 발작, 심장 사건, 신장 손상 등이 보고됐다고 정리합니다. 심하거나 악화되는 증상은 신속한 의료 평가가 필요합니다.';
 
   @override
+  String get synthetic_cannabinoidsMilestone730Title => '2년 — 단단한 기반';
+
+  @override
+  String get synthetic_cannabinoidsMilestone730Description =>
+      '합성 칸나비노이드 없이 2년. 다시 사용하지 않고 730일을 쌓았습니다. 이런 꾸준함은 제대로 축하할 만합니다.';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1095Title => '3년 — 여전히 굳건하게';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1095Description =>
+      '합성 칸나비노이드 없이 3년. 이제 변화는 일수가 아니라 연 단위로 이어지고 있습니다. 계속 앞으로 나아가고 있습니다.';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1460Title => '4년 — 오래가는 변화';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1460Description =>
+      '합성 칸나비노이드 없이 4년. 끊기로 한 선택이 1,460일 동안 이어진 단단한 변화가 되었습니다.';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1825Title => '5년 — 큰 이정표';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1825Description =>
+      '합성 칸나비노이드 없이 5년. 5년을 이어온 것 자체가 아주 큰 장기적 성취입니다. 이 진전은 온전히 당신의 것입니다.';
+
+  @override
+  String get synthetic_cannabinoidsLongTermReference =>
+      '합성 칸나비노이드: 근거가 뒷받침하는 내용\n\n출처: British Association for Psychopharmacology의 물질 의존 치료 합의 지침(2026), PMC\n\n이 지침은 합성 칸나비노이드가 대마보다 더 심한 금단 증후군을 일으킬 수 있고 입원 해독이 필요할 수도 있다고 설명합니다. 또한 유지 치료나 재발 예방을 위한 근거 기반 약물치료는 없다고 명시합니다.\n\n이 지침은 2년, 3년, 4년 또는 5년을 생물학적 회복의 기준점으로 정하지 않습니다. 따라서 이 기념일들은 근거 없는 의학적 마감선을 주장하지 않고 지속된 진전을 축하합니다.';
+
+  @override
   String get mdmaPageTitle => 'MDMA 복구';
 
   @override

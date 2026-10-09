@@ -511,6 +511,41 @@ class AppLocalizationsEs extends AppLocalizations {
       'Abstinencia y riesgo agudo de los cannabinoides sintéticos\n\nFuente: Cooper (2016), Current Psychiatry Reports, PMC\n\nLos informes clínicos describen abstinencia tras el uso diario que puede aparecer poco después de la última dosis, con ansiedad intensa, insomnio, náuseas y vómitos, sudoración, palpitaciones, temblor, agitación y deseo de consumir. Los casos graves han incluido convulsiones recurrentes y problemas cardiovasculares o respiratorios. La revisión también describe una intoxicación impredecible y a veces grave, con psicosis, convulsiones, eventos cardíacos y lesión renal. Los síntomas graves o en aumento requieren valoración médica rápida.';
 
   @override
+  String get synthetic_cannabinoidsMilestone730Title => 'Dos años — Base firme';
+
+  @override
+  String get synthetic_cannabinoidsMilestone730Description =>
+      'Dos años sin cannabinoides sintéticos. Has construido 730 días sin volver a ellos. Esa constancia merece una celebración de verdad.';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1095Title =>
+      'Tres años — Sigues fuerte';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1095Description =>
+      'Tres años sin cannabinoides sintéticos. El cambio ya se mide en años, no en días. Sigues eligiendo una vida lejos de ellos.';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1460Title =>
+      'Cuatro años — Para durar';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1460Description =>
+      'Cuatro años sin cannabinoides sintéticos. Lo que empezó como dejarlo se ha vuelto duradero: 1.460 días manteniéndote lejos.';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1825Title =>
+      'Cinco años — Media década';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1825Description =>
+      'Cinco años sin cannabinoides sintéticos. Media década es una enorme victoria a largo plazo. Ese progreso es tuyo.';
+
+  @override
+  String get synthetic_cannabinoidsLongTermReference =>
+      'Cannabinoides sintéticos: qué respalda la evidencia\n\nFuente: guía de consenso de la British Association for Psychopharmacology sobre dependencia de sustancias (2026), PMC\n\nLa guía señala que los cannabinoides sintéticos pueden producir una abstinencia más grave que el cannabis y que a veces puede ser necesaria una desintoxicación hospitalaria. También indica que no existe una farmacoterapia basada en evidencia para mantenimiento o prevención de recaídas con cannabinoides sintéticos.\n\nLa guía no define un umbral biológico de recuperación a los 2, 3, 4 o 5 años. Por eso estos aniversarios celebran el progreso sostenido sin afirmar un plazo médico que la evidencia no respalda.';
+
+  @override
   String get mdmaPageTitle => 'MDMA';
 
   @override

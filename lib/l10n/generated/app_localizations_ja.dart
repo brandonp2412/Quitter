@@ -499,6 +499,38 @@ class AppLocalizationsJa extends AppLocalizations {
       '合成カンナビノイドの離脱と急性リスク\n\n出典：Cooper（2016）、Current Psychiatry Reports、PMC\n\n臨床報告では、毎日使用していた人で最終使用後まもなく離脱が現れ、強い不安、不眠、吐き気・嘔吐、発汗、動悸、震え、興奮、渇望などがみられています。重い例では反復するけいれんや心血管・呼吸の問題も報告されています。また、急性中毒は予測しにくく、精神病症状、けいれん、心臓の異常、腎障害など重篤になり得るとされています。重い症状や悪化する症状は速やかな医療評価が必要です。';
 
   @override
+  String get synthetic_cannabinoidsMilestone730Title => '2年 — 確かな土台';
+
+  @override
+  String get synthetic_cannabinoidsMilestone730Description =>
+      '合成カンナビノイドを使わず2年。戻らずに730日を積み重ねました。この継続は、しっかり祝う価値があります。';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1095Title => '3年 — 変わらず前へ';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1095Description =>
+      '合成カンナビノイドを使わず3年。変化はもう日数ではなく年単位です。これからも、その先の生活を選び続けています。';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1460Title => '4年 — 続く強さ';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1460Description =>
+      '合成カンナビノイドを使わず4年。やめるという決断が、1,460日続く確かな変化になりました。';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1825Title => '5年 — 大きな節目';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1825Description =>
+      '合成カンナビノイドを使わず5年。5年間続けてきたこと自体が大きな長期的達成です。この歩みはあなた自身のものです。';
+
+  @override
+  String get synthetic_cannabinoidsLongTermReference =>
+      '合成カンナビノイド：エビデンスで言えること\n\n出典：British Association for Psychopharmacology の物質依存に関するコンセンサスガイドライン（2026年）、PMC\n\nこのガイドラインでは、合成カンナビノイドは大麻より重い離脱症候群を起こすことがあり、入院での解毒が必要になる場合があるとしています。また、維持療法や再発予防について、エビデンスに基づく薬物療法はないとしています。\n\n2年、3年、4年、5年を生物学的な回復の節目とする根拠は示されていません。したがって、これらの記念日は、エビデンスのない医学的期限を主張せず、続いてきた歩みそのものを祝うものです。';
+
+  @override
   String get mdmaPageTitle => 'MDMA回復';
 
   @override

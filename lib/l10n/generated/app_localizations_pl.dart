@@ -518,6 +518,42 @@ class AppLocalizationsPl extends AppLocalizations {
       'Odstawienie i ostre ryzyko syntetycznych kannabinoidów\n\nŹródło: Cooper (2016), Current Psychiatry Reports, PMC\n\nOpisy kliniczne wskazują, że po codziennym używaniu objawy odstawienia mogą pojawić się szybko po ostatniej dawce i obejmować silny lęk, bezsenność, nudności i wymioty, poty, kołatanie serca, drżenie, pobudzenie i głód substancji. W ciężkich przypadkach występowały nawracające drgawki oraz problemy sercowo-naczyniowe lub oddechowe. Przegląd opisuje też nieprzewidywalne i czasem ciężkie zatrucia, w tym psychozę, drgawki, incydenty sercowe i uszkodzenie nerek. Ciężkie lub nasilające się objawy wymagają szybkiej oceny medycznej.';
 
   @override
+  String get synthetic_cannabinoidsMilestone730Title =>
+      'Dwa lata — Mocny grunt';
+
+  @override
+  String get synthetic_cannabinoidsMilestone730Description =>
+      'Dwa lata bez syntetycznych kannabinoidów. To 730 dni bez powrotu do nich. Taka konsekwencja zasługuje na prawdziwe świętowanie.';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1095Title =>
+      'Trzy lata — Wciąż mocno';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1095Description =>
+      'Trzy lata bez syntetycznych kannabinoidów. Zmianę liczysz już w latach, nie dniach. Nadal wybierasz życie z dala od nich.';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1460Title =>
+      'Cztery lata — Na trwałe';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1460Description =>
+      'Cztery lata bez syntetycznych kannabinoidów. To, co zaczęło się od odstawienia, stało się trwałe: 1460 dni z dala od nich.';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1825Title =>
+      'Pięć lat — Pół dekady';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1825Description =>
+      'Pięć lat bez syntetycznych kannabinoidów. Pół dekady to ogromne długoterminowe zwycięstwo. Ten postęp jest Twój.';
+
+  @override
+  String get synthetic_cannabinoidsLongTermReference =>
+      'Syntetyczne kannabinoidy: co potwierdzają dowody\n\nŹródło: wytyczne konsensusowe British Association for Psychopharmacology dotyczące leczenia uzależnień (2026), PMC\n\nWytyczne wskazują, że syntetyczne kannabinoidy mogą powodować cięższy zespół odstawienny niż konopie i czasem wymagać detoksykacji szpitalnej. Stwierdzają też, że nie ma opartej na dowodach farmakoterapii podtrzymującej ani zapobiegającej nawrotom w przypadku syntetycznych kannabinoidów.\n\nWytyczne nie określają biologicznego progu zdrowienia po 2, 3, 4 ani 5 latach. Te rocznice celebrują więc trwały postęp bez przypisywania medycznego terminu, którego dowody nie potwierdzają.';
+
+  @override
   String get mdmaPageTitle => 'MDMA';
 
   @override

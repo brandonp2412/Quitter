@@ -990,6 +990,60 @@ abstract class AppLocalizations {
   /// **'Synthetic Cannabinoid Withdrawal and Acute Risk\n\nSource: Cooper (2016), Current Psychiatry Reports, PMC\n\nClinical reports describe withdrawal after daily synthetic-cannabinoid use occurring soon after the last dose, with severe anxiety, insomnia, nausea and vomiting, sweating, palpitations, tremor, agitation, and cravings. Severe cases have included recurring seizures and cardiovascular or breathing problems. The review also describes synthetic-cannabinoid intoxication as unpredictable and sometimes severe, including psychosis, seizures, cardiac events, and kidney injury. Severe or escalating symptoms need prompt medical assessment.'**
   String get synthetic_cannabinoidsRiskReference;
 
+  /// No description provided for @synthetic_cannabinoidsMilestone730Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Two Years — Solid Ground'**
+  String get synthetic_cannabinoidsMilestone730Title;
+
+  /// No description provided for @synthetic_cannabinoidsMilestone730Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Two years free. You’ve built 730 days without returning to synthetic cannabinoids. That kind of consistency deserves a proper celebration.'**
+  String get synthetic_cannabinoidsMilestone730Description;
+
+  /// No description provided for @synthetic_cannabinoidsMilestone1095Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Three Years — Still Strong'**
+  String get synthetic_cannabinoidsMilestone1095Title;
+
+  /// No description provided for @synthetic_cannabinoidsMilestone1095Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Three years free. This is sustained change measured in years now, not days. You’ve kept choosing life beyond synthetic cannabinoids.'**
+  String get synthetic_cannabinoidsMilestone1095Description;
+
+  /// No description provided for @synthetic_cannabinoidsMilestone1460Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Four Years — Built to Last'**
+  String get synthetic_cannabinoidsMilestone1460Title;
+
+  /// No description provided for @synthetic_cannabinoidsMilestone1460Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Four years free. What started as quitting has become something durable: 1,460 days of staying clear of synthetic cannabinoids.'**
+  String get synthetic_cannabinoidsMilestone1460Description;
+
+  /// No description provided for @synthetic_cannabinoidsMilestone1825Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Five Years — Half a Decade'**
+  String get synthetic_cannabinoidsMilestone1825Title;
+
+  /// No description provided for @synthetic_cannabinoidsMilestone1825Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Five years free. Half a decade without synthetic cannabinoids is a huge long-term win. That is progress worth owning.'**
+  String get synthetic_cannabinoidsMilestone1825Description;
+
+  /// No description provided for @synthetic_cannabinoidsLongTermReference.
+  ///
+  /// In en, this message translates to:
+  /// **'Synthetic Cannabinoids: What the Evidence Supports\n\nSource: British Association for Psychopharmacology consensus guidelines on substance dependence (2026), PMC\n\nThe guideline says synthetic cannabinoids can produce a more severe withdrawal syndrome than cannabis and may require inpatient detoxification. It also states that there is no evidence-based pharmacotherapy for maintenance or relapse prevention for synthetic cannabinoids.\n\nThe guideline does not define a 2-, 3-, 4-, or 5-year biological recovery threshold. These anniversaries therefore celebrate sustained progress without claiming a medical deadline that the evidence does not support.'**
+  String get synthetic_cannabinoidsLongTermReference;
+
   /// No description provided for @mdmaPageTitle.
   ///
   /// In en, this message translates to:

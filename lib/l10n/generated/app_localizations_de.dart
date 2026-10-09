@@ -515,6 +515,42 @@ class AppLocalizationsDe extends AppLocalizations {
       'Entzug und akute Risiken synthetischer Cannabinoide\n\nQuelle: Cooper (2016), Current Psychiatry Reports, PMC\n\nKlinische Berichte beschreiben nach täglichem Konsum einen rasch einsetzenden Entzug mit starker Angst, Schlaflosigkeit, Übelkeit und Erbrechen, Schwitzen, Herzklopfen, Zittern, Unruhe und Verlangen. Schwere Fälle umfassten wiederkehrende Krampfanfälle sowie Herz-Kreislauf- oder Atemprobleme. Der Review beschreibt auch die akute Wirkung als unberechenbar und teils schwerwiegend, einschließlich Psychosen, Krampfanfällen, Herzereignissen und Nierenschäden. Schwere oder zunehmende Symptome brauchen rasche medizinische Abklärung.';
 
   @override
+  String get synthetic_cannabinoidsMilestone730Title =>
+      'Zwei Jahre — Fester Boden';
+
+  @override
+  String get synthetic_cannabinoidsMilestone730Description =>
+      'Zwei Jahre frei. Du hast 730 Tage geschafft, ohne zu synthetischen Cannabinoiden zurückzukehren. Diese Beständigkeit verdient eine echte Feier.';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1095Title =>
+      'Drei Jahre — Weiter stark';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1095Description =>
+      'Drei Jahre frei. Veränderung misst sich jetzt in Jahren, nicht in Tagen. Du entscheidest dich weiter für ein Leben ohne synthetische Cannabinoide.';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1460Title =>
+      'Vier Jahre — Dauerhaft stark';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1460Description =>
+      'Vier Jahre frei. Aus dem Aufhören ist etwas Dauerhaftes geworden: 1.460 Tage ohne synthetische Cannabinoide.';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1825Title =>
+      'Fünf Jahre — Ein halbes Jahrzehnt';
+
+  @override
+  String get synthetic_cannabinoidsMilestone1825Description =>
+      'Fünf Jahre frei. Ein halbes Jahrzehnt ohne synthetische Cannabinoide ist ein riesiger langfristiger Erfolg. Darauf kannst du stolz sein.';
+
+  @override
+  String get synthetic_cannabinoidsLongTermReference =>
+      'Synthetische Cannabinoide: Was die Evidenz stützt\n\nQuelle: Konsensusleitlinie der British Association for Psychopharmacology zur Behandlung von Substanzabhängigkeit (2026), PMC\n\nDie Leitlinie beschreibt, dass synthetische Cannabinoide ein schwereres Entzugssyndrom als Cannabis verursachen können und mitunter eine stationäre Entgiftung erfordern. Für Erhaltungstherapie oder Rückfallprävention bei synthetischen Cannabinoiden gibt es laut Leitlinie keine evidenzbasierte Pharmakotherapie.\n\nDie Leitlinie definiert keine biologische Erholungsschwelle nach 2, 3, 4 oder 5 Jahren. Diese Jahrestage feiern deshalb anhaltenden Fortschritt, ohne eine medizinische Frist zu behaupten, die durch die Evidenz nicht gestützt wird.';
+
+  @override
   String get mdmaPageTitle => 'MDMA';
 
   @override
