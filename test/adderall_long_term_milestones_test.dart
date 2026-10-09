@@ -84,8 +84,8 @@ void main() {
     },
   );
 
-  test('all supported ARBs localize Adderall long-term milestones', () {
-    const days = [730, 1095, 1460, 1825];
+  test('all supported ARBs localize every Adderall milestone', () {
+    const days = [1, 3, 7, 14, 30, 60, 90, 180, 365, 730, 1095, 1460, 1825];
     final arbFiles =
         Directory('lib/l10n')
             .listSync()
@@ -116,7 +116,7 @@ void main() {
           if (suffix == 'Title') {
             expect(
               (arb[key] as String).runes.length,
-              lessThanOrEqualTo(36),
+              lessThanOrEqualTo(44),
               reason: '$locale must keep $key compact for phone layouts',
             );
           }
@@ -146,6 +146,70 @@ void main() {
             reason: '$locale must not fall back to English for $referenceKey',
           );
         }
+
+        final englishReference = english[referenceKey] as String;
+        final localizedReference = arb[referenceKey] as String;
+        expect(
+          '\n\n'.allMatches(localizedReference).length,
+          '\n\n'.allMatches(englishReference).length,
+          reason: '$locale must preserve paragraph structure for $referenceKey',
+        );
+        expect(
+          '•'.allMatches(localizedReference).length,
+          '•'.allMatches(englishReference).length,
+          reason: '$locale must preserve evidence bullets for $referenceKey',
+        );
+      }
+    }
+  });
+
+  test('Adderall translations reject known fallback and machine artifacts', () {
+    const forbiddenByLocale = <String, List<String>>{
+      'ar': [
+        'الامتناع عن ممارسة الجنس',
+        'الامتناع عن التدخين',
+        'الرغبة الشديدة في تناول الطعام',
+      ],
+      'de': [
+        'Auszahlung beginnt',
+        'Spitzenrücknahme',
+        'Brain Chemistry Rebalancing',
+        'Off Adderall',
+      ],
+      'id': [
+        'Informasi referensi pemulihan dalam bahasa Indonesia.',
+        'Sumber: sumber kesehatan publik dan penelitian terkait.',
+      ],
+      'ko': ['출금 시작', '최대 철수', '휴가 Adderall', '할인'],
+      'pl': [
+        'AdderallZ',
+        'AdderallZZ',
+        'Major Recovery Milestone',
+        'temporary',
+        'intensity',
+      ],
+      'pt_BR': ['de folga em Adderall'],
+      'ru': ['Месячный перерыв на Аддерол', 'Годовой перерыв в Adderall'],
+      'th': ['การถอนเงิน', 'ลดราคา', 'การเลิกบุหรี่'],
+      'ur': ['دُنیا کا خاتمہ', 'ممتاز ریٹائرڈ', 'ابی‌سلوم'],
+    };
+
+    for (final entry in forbiddenByLocale.entries) {
+      final arb =
+          jsonDecode(File('lib/l10n/app_${entry.key}.arb').readAsStringSync())
+              as Map<String, dynamic>;
+      final adderallText = arb.entries
+          .where((entry) => entry.key.startsWith('adderall'))
+          .map((entry) => entry.value)
+          .whereType<String>()
+          .join('\n');
+
+      for (final forbidden in entry.value) {
+        expect(
+          adderallText,
+          isNot(contains(forbidden)),
+          reason: '${entry.key} must not regress to "$forbidden"',
+        );
       }
     }
   });

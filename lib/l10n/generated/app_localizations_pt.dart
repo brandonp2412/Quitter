@@ -730,69 +730,69 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get adderallMilestone1Description =>
-      'Pode sentir fadiga, depressão e apetite aumentados à medida que seu corpo começa a se ajustar à vida sem estimulantes. Isso é normal e temporário. Mantenha-se hidratado e descanse quando necessário.';
+      'Pode sentir mais cansaço, humor deprimido e aumento do apetite à medida que o seu corpo se adapta à vida sem estimulantes. É normal e temporário. Beba líquidos suficientes e descanse quando precisar.';
 
   @override
-  String get adderallMilestone3Title => 'Dia 3: Pico de Abstinência';
+  String get adderallMilestone3Title => 'Dia 3: pico da abstinência';
 
   @override
   String get adderallMilestone3Description =>
-      'Os sintomas de abstinência atingem o seu pico de intensidade. Pode sentir forte fadiga, irritabilidade e dificuldade de concentração. Esta é a parte mais difícil - mas fica melhor a partir daqui. Considere entrar em contacto com seu sistema de suporte.';
+      'Os sintomas de abstinência atingem a intensidade máxima. Pode sentir cansaço intenso, irritabilidade e dificuldade de concentração. É muitas vezes a fase mais difícil, mas a partir daqui tende a melhorar. Procure o apoio de pessoas de confiança quando precisar.';
 
   @override
   String get adderallMilestone7Title =>
-      'Uma semana: melhora dos sintomas físicos';
+      'Uma semana: os sintomas físicos melhoram';
 
   @override
   String get adderallMilestone7Description =>
-      'Os piores sintomas de abstinência física estão começando a desaparecer. Os padrões de sono começam a normalizar e os níveis de energia melhoram lentamente. Seu corpo está se adaptando para funcionar sem estimulantes.';
+      'Os sintomas físicos de abstinência mais intensos começam a diminuir. O sono começa a normalizar-se e os níveis de energia melhoram gradualmente. O seu corpo está a adaptar-se a funcionar sem estimulantes.';
 
   @override
   String get adderallMilestone14Title =>
-      'Duas semanas: retorno da estabilidade emocional';
+      'Duas semanas: maior estabilidade emocional';
 
   @override
   String get adderallMilestone14Description =>
-      'As oscilações de humor e a irritabilidade estão a diminuir. Está a recuperar o equilíbrio emocional à medida que a química do seu cérebro se estabiliza. Muitas pessoas acham que esta semana marca um ponto de viragem na sua jornada de recuperação.';
+      'As oscilações de humor e a irritabilidade estão a diminuir. À medida que o cérebro continua a adaptar-se, recupera também maior equilíbrio emocional. Para muitas pessoas, esta fase marca um ponto de viragem na recuperação.';
 
   @override
   String get adderallMilestone30Title =>
-      'Um Mês: Reequilíbrio da Química Cerebral';
+      'Um mês: o cérebro recupera o equilíbrio';
 
   @override
   String get adderallMilestone30Description =>
-      'Seu cérebro está se curando ativamente. A produção natural de dopamina está a melhorar e poderá notar melhor concentração e motivação sem medicação. A qualidade do sono e o apetite estão a regressar aos padrões normais.';
+      'O cérebro continua a recuperar. A função natural da dopamina melhora e pode notar mais concentração e motivação sem o medicamento. A qualidade do sono e o apetite estão a regressar a padrões mais habituais.';
 
   @override
   String get adderallMilestone60Title =>
-      'Dois Meses: Melhoria do Pensamento e da Memória';
+      'Dois meses: pensamento e memória melhoram';
 
   @override
   String get adderallMilestone60Description =>
-      'Melhorias significativas na clareza mental, memória e estabilidade do humor. O sistema de recompensa do seu cérebro está se curando, tornando as atividades cotidianas mais naturalmente gratificantes. Muitas pessoas relatam que se sentem mais parecidas com elas mesmas.';
+      'A clareza mental, a memória e a estabilidade do humor podem melhorar de forma significativa. O sistema de recompensa do cérebro está a recuperar, fazendo com que as atividades do dia a dia voltem a ser naturalmente gratificantes. Muitas pessoas começam a sentir-se mais elas próprias.';
 
   @override
   String get adderallMilestone90Title =>
-      'Três Meses: Marco Importante de Recuperação';
+      'Três meses: marco importante da recuperação';
 
   @override
   String get adderallMilestone90Description =>
-      'A maioria dos sintomas de abstinência foram resolvidos. Seu cérebro fez progressos substanciais na cura. Os níveis naturais de energia, foco e regulação emocional são significativamente melhorados. Esta é uma grande conquista que vale a pena comemorar.';
+      'A maioria dos sintomas de abstinência já diminuiu. O cérebro fez progressos importantes na recuperação. A energia natural, a concentração e a regulação emocional podem estar muito melhores. É uma conquista que merece ser celebrada.';
 
   @override
   String get adderallMilestone180Title =>
-      'Seis Meses: A Cura Cerebral Continua';
+      'Seis meses: a recuperação cerebral continua';
 
   @override
   String get adderallMilestone180Description =>
-      'A sinalização da dopamina continua a se recuperar. O foco, a memória, o humor e a qualidade de vida no dia a dia continuam a melhorar.';
+      'A sinalização da dopamina continua a recuperar. A concentração, a memória, o humor e a qualidade de vida diária podem continuar a melhorar.';
 
   @override
-  String get adderallMilestone365Title => 'Um ano: recuperação quase completa';
+  String get adderallMilestone365Title => 'Um ano: recuperação muito avançada';
 
   @override
   String get adderallMilestone365Description =>
-      'O sistema de dopamina do seu cérebro restaurou em grande parte o funcionamento normal. Provou sua resiliência e reconstruiu sua vida sem dependência de estimulantes. Este marco representa uma transformação completa – comemore o quão longe chegou!';
+      'O sistema de dopamina do cérebro recuperou em grande parte o funcionamento normal. Demonstrou resiliência e reconstruiu a sua vida sem dependência de estimulantes. Celebre o caminho que percorreu.';
 
   @override
   String get showAllItems => 'Mostrar todos os itens';
@@ -5421,14 +5421,14 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get adderallMilestone1Title =>
-      'Primeiras 24 horas: início da retirada';
+      'Primeiras 24 horas: início da abstinência';
 
   @override
   String get adderallMilestone1Description =>
       'Você pode sentir fadiga, depressão e apetite aumentados à medida que seu corpo começa a se ajustar à vida sem estimulantes. Isso é normal e temporário. Mantenha-se hidratado e descanse quando necessário.';
 
   @override
-  String get adderallMilestone3Title => 'Dia 3: Pico de Retirada';
+  String get adderallMilestone3Title => 'Dia 3: pico da abstinência';
 
   @override
   String get adderallMilestone3Description =>
@@ -5444,7 +5444,7 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get adderallMilestone14Title =>
-      'Duas semanas: retorno da estabilidade emocional';
+      'Duas semanas: maior estabilidade emocional';
 
   @override
   String get adderallMilestone14Description =>
@@ -5460,7 +5460,7 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get adderallMilestone60Title =>
-      'Dois Meses: Melhoria do Pensamento e da Memória';
+      'Dois meses: pensamento e memória melhoram';
 
   @override
   String get adderallMilestone60Description =>
@@ -5472,7 +5472,7 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get adderallMilestone90Description =>
-      'A maioria dos sintomas de abstinência foram resolvidos. Seu cérebro fez progressos substanciais na cura. Os níveis naturais de energia, foco e regulação emocional são significativamente melhorados. Esta é uma grande conquista que vale a pena comemorar.';
+      'A maioria dos sintomas de abstinência já desapareceu. Seu cérebro fez progressos substanciais na cura. Os níveis naturais de energia, foco e regulação emocional melhoraram significativamente. Esta é uma grande conquista que vale a pena comemorar.';
 
   @override
   String get adderallMilestone180Title =>
@@ -8073,27 +8073,27 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get adderallReferenceDay14 =>
-      'Duas semanas de folga em Adderall: na fase de recuperação mais longa\n\nFonte: \"Diretrizes Clínicas para Gerenciamento de Abstinência e Tratamento da Dependência de Drogas em Ambientes Fechados\", Organização Mundial da Saúde (2009), na estante do NCBI\n\nPassada a Fase Aguda\nA OMS estima que a retirada mais difícil do estimulante ocorra em cerca de três a cinco dias, seguida por um período de recuperação mais brando que dura cerca de um a dois meses. Em duas semanas, o acidente já ficou para trás.\n\nComo é a fase de recuperação mais longa\nO sono pesado, a agitação e as dores musculares desapareceram em grande parte. O que resta é geralmente mais brando: humor deprimido ou variável, motivação reduzida e desejos intermitentes à medida que o sistema de recompensa do cérebro se reajusta.\n\nSono e apetite\nO aumento do sono e do apetite da fase aguda está se normalizando. À medida que o sono se estabiliza, o humor, a concentração e a energia tendem a acompanhar.\n\nRisco de recaída e TDAH\nEste ainda é um período de maior risco, especialmente se os sintomas subjacentes de TDAH retornarem sem medicação. As directrizes da OMS enfatizam o apoio psicológico e as competências de prevenção de recaídas; para pessoas que tomaram Adderall para TDAH, este é um bom momento para discutir estratégias ou alternativas não estimulantes com um médico.';
+      'Duas semanas sem Adderall: entrando na fase de recuperação mais longa\n\nFonte: \"Diretrizes Clínicas para Gerenciamento de Abstinência e Tratamento da Dependência de Drogas em Ambientes Fechados\", Organização Mundial da Saúde (2009), na estante do NCBI\n\nPassada a Fase Aguda\nA OMS estima que a retirada mais difícil do estimulante ocorra em cerca de três a cinco dias, seguida por um período de recuperação mais brando que dura cerca de um a dois meses. Em duas semanas, o acidente já ficou para trás.\n\nComo é a fase de recuperação mais longa\nO sono pesado, a agitação e as dores musculares desapareceram em grande parte. O que resta é geralmente mais brando: humor deprimido ou variável, motivação reduzida e desejos intermitentes à medida que o sistema de recompensa do cérebro se reajusta.\n\nSono e apetite\nO aumento do sono e do apetite da fase aguda está se normalizando. À medida que o sono se estabiliza, o humor, a concentração e a energia tendem a acompanhar.\n\nRisco de recaída e TDAH\nEste ainda é um período de maior risco, especialmente se os sintomas subjacentes de TDAH retornarem sem medicação. As directrizes da OMS enfatizam o apoio psicológico e as competências de prevenção de recaídas; para pessoas que tomaram Adderall para TDAH, este é um bom momento para discutir estratégias ou alternativas não estimulantes com um médico.';
 
   @override
   String get adderallReferenceDay30 =>
-      'Um mês de folga em Adderall: a maioria dos sintomas atrás de você\n\nFonte: Li & Shoptaw, \"Clinical Management of Psychostimulant Withdrawal: Review of the Evidence,\" Addiction (2023), no PubMed Central\n\nOnde fica um mês\nA revisão conclui que a maioria dos sintomas de abstinência desaparecem nas primeiras duas a três semanas. Aos 30 dias, a maior parte deles já melhorou e o humor e a motivação geralmente estão muito melhores do que na primeira semana.\n\nA fase de recuperação posterior\nDe um a seis meses, a memória, o planejamento, o foco e a tomada de decisões continuam a melhorar. Em um mês, a crise acabou e esses ganhos já estão em andamento.\n\nHumor e motivação\nA profunda perda de prazer causada pelo acidente já foi praticamente dissipada. As atividades que pareciam tristes na primeira semana começam a ser gratificantes novamente à medida que a sinalização natural da dopamina se recupera.\n\nPara pessoas com TDAH\nSe Adderall foi prescrito para TDAH, os sintomas subjacentes podem ser mais perceptíveis agora. Trabalhar com um profissional de saúde sobre estratégias ou alternativas não estimulantes é importante durante esta fase.';
+      'Um mês sem Adderall: a maioria dos sintomas ficou para trás\n\nFonte: Li & Shoptaw, \"Clinical Management of Psychostimulant Withdrawal: Review of the Evidence,\" Addiction (2023), no PubMed Central\n\nOnde fica um mês\nA revisão conclui que a maioria dos sintomas de abstinência desaparecem nas primeiras duas a três semanas. Aos 30 dias, a maior parte deles já melhorou e o humor e a motivação geralmente estão muito melhores do que na primeira semana.\n\nA fase de recuperação posterior\nDe um a seis meses, a memória, o planejamento, o foco e a tomada de decisões continuam a melhorar. Em um mês, a crise acabou e esses ganhos já estão em andamento.\n\nHumor e motivação\nA profunda perda de prazer causada pelo acidente já foi praticamente dissipada. As atividades que pareciam tristes na primeira semana começam a ser gratificantes novamente à medida que a sinalização natural da dopamina se recupera.\n\nPara pessoas com TDAH\nSe Adderall foi prescrito para TDAH, os sintomas subjacentes podem ser mais perceptíveis agora. Trabalhar com um profissional de saúde sobre estratégias ou alternativas não estimulantes é importante durante esta fase.';
 
   @override
   String get adderallReferenceDay60 =>
-      'Dois meses de folga em Adderall: a fase de recuperação mais longa termina\n\nFonte: \"Diretrizes Clínicas para Gerenciamento de Abstinência e Tratamento da Dependência de Drogas em Ambientes Fechados\", Organização Mundial da Saúde (2009), na estante do NCBI\n\nOnde ficam dois meses\nA OMS descreve um período de recuperação mais brando, durando cerca de um a dois meses após a queda inicial. Aos 60 dias, você está no final dessa janela e os sintomas persistentes estão desaparecendo em grande parte.\n\nO que melhora\nA agitação, o humor deprimido e os distúrbios do sono e do apetite da lista de diretrizes para a abstinência de estimulantes foram, para a maioria das pessoas, resolvidos substancialmente:\n• O humor habitual é mais estável, com menos oscilações da recuperação inicial\n• O sono e o apetite normalizaram\n• O sistema de recompensa responde mais prontamente aos prazeres do dia a dia – comida, exercício, conexão\n\nSinal de recuperação\nDoses mais altas e uso mais prolongado podem fazer com que a recuperação demore mais, enquanto permanecer abstinente mantém o humor, a motivação e o pensamento claro voltando ao normal nos meses seguintes.\n\nSaúde Física\nOs efeitos estimulantes sobre a frequência cardíaca, o apetite e o peso diminuem à medida que a droga desaparece da vida diária e a tensão cardiovascular causada pelo uso de estimulantes é aliviada.';
+      'Dois meses sem Adderall: a fase de recuperação mais longa chega ao fim\n\nFonte: \"Diretrizes Clínicas para Gerenciamento de Abstinência e Tratamento da Dependência de Drogas em Ambientes Fechados\", Organização Mundial da Saúde (2009), na estante do NCBI\n\nOnde ficam dois meses\nA OMS descreve um período de recuperação mais brando, durando cerca de um a dois meses após a queda inicial. Aos 60 dias, você está no final dessa janela e os sintomas persistentes estão desaparecendo em grande parte.\n\nO que melhora\nA agitação, o humor deprimido e os distúrbios do sono e do apetite da lista de diretrizes para a abstinência de estimulantes foram, para a maioria das pessoas, resolvidos substancialmente:\n• O humor habitual é mais estável, com menos oscilações da recuperação inicial\n• O sono e o apetite normalizaram\n• O sistema de recompensa responde mais prontamente aos prazeres do dia a dia – comida, exercício, conexão\n\nSinal de recuperação\nDoses mais altas e uso mais prolongado podem fazer com que a recuperação demore mais, enquanto permanecer abstinente mantém o humor, a motivação e o pensamento claro voltando ao normal nos meses seguintes.\n\nSaúde Física\nOs efeitos estimulantes sobre a frequência cardíaca, o apetite e o peso diminuem à medida que a droga desaparece da vida diária e a tensão cardiovascular causada pelo uso de estimulantes é aliviada.';
 
   @override
   String get adderallReferenceDay90 =>
-      'Três meses de folga em Adderall: através do pior, ainda curando\n\nFonte: Li & Shoptaw, \"Clinical Management of Psychostimulant Withdrawal: Review of the Evidence,\" Addiction (2023), no PubMed Central\n\nOnde ficam 90 dias\nAos três meses, os primeiros sintomas já desapareceram, enquanto a memória, o planejamento, o foco, a tomada de decisões e o sistema de recompensa continuam a melhorar.\n\nO pensamento e a memória continuam se recuperando\nA revisão conclui que a memória, o planejamento, o foco e as decisões sobre riscos podem continuar melhorando durante meses. Aos 90 dias, a concentração e a memória ainda estão se movendo na direção certa com a abstinência contínua.\n\nPor que esta janela ainda é importante\nNenhum medicamento aprovado pela FDA visa especificamente a abstinência de estimulantes; portanto, estrutura, terapia, exercícios, sono e suporte são as ferramentas que conduzem a recuperação nesta fase. Construir esses hábitos agora é o que leva a recuperação adiante.\n\nO panorama geral\nTrês meses é uma verdadeira conquista – os períodos físicos e emocionais mais difíceis ficaram para trás, e a trajetória a partir daqui, com abstinência contínua, é de melhoria constante.';
+      'Três meses sem Adderall: o pior passou, a recuperação continua\n\nFonte: Li & Shoptaw, \"Clinical Management of Psychostimulant Withdrawal: Review of the Evidence,\" Addiction (2023), no PubMed Central\n\nOnde ficam 90 dias\nAos três meses, os primeiros sintomas já desapareceram, enquanto a memória, o planejamento, o foco, a tomada de decisões e o sistema de recompensa continuam a melhorar.\n\nO pensamento e a memória continuam se recuperando\nA revisão conclui que a memória, o planejamento, o foco e as decisões sobre riscos podem continuar melhorando durante meses. Aos 90 dias, a concentração e a memória ainda estão se movendo na direção certa com a abstinência contínua.\n\nPor que esta janela ainda é importante\nNenhum medicamento aprovado pela FDA visa especificamente a abstinência de estimulantes; portanto, estrutura, terapia, exercícios, sono e suporte são as ferramentas que conduzem a recuperação nesta fase. Construir esses hábitos agora é o que leva a recuperação adiante.\n\nO panorama geral\nTrês meses é uma verdadeira conquista – os períodos físicos e emocionais mais difíceis ficaram para trás, e a trajetória a partir daqui, com abstinência contínua, é de melhoria constante.';
 
   @override
   String get adderallReferenceDay180 =>
-      'Seis meses de folga em Adderall: a parte difícil já passou\n\nFonte: \"Síndromes de Abstinência\", StatPearls (NCBI Bookshelf), Biblioteca Nacional de Medicina dos EUA\n\nO que StatPearls diz sobre estimulantes\nEsta referência clínica descreve a recuperação do estimulante como uma queda seguida de uma melhora gradual. Problemas comuns incluem depressão, dormir muito, aumento da fome, mau humor e movimentos e pensamentos mais lentos. A depressão pode durar várias semanas, com uma recuperação mais branda continuando além disso.\n\nOnde ficam seis meses\nAos seis meses, você já passou do período agudo e da fase depressiva de várias semanas que StatPearls descreve. A recuperação lenta a que se refere teve um tempo substancial para progredir e, para a maioria das pessoas, o humor, o sono, o apetite e a motivação habituais estão agora estáveis ​​e confiáveis.\n\nSinal de recuperação\nStatPearls descreve uma recuperação gradual além das semanas iniciais. Aos seis meses, o colapso agudo e a fase depressiva de várias semanas já ficaram para trás, com humor, sono, apetite e motivação estáveis ​​agora como padrão dominante.\n\nRelação com TDAH\nPara pessoas que tomaram Adderall para TDAH, seis meses de abstinência é um bom ponto para uma revisão lúcida com um médico dos sintomas atuais e se abordagens não estimulantes – exercício, sono, estrutura, terapia ou medicação alternativa – estão atendendo às suas necessidades.';
+      'Seis meses sem Adderall: muito além da parte mais difícil\n\nFonte: \"Síndromes de Abstinência\", StatPearls (NCBI Bookshelf), Biblioteca Nacional de Medicina dos EUA\n\nO que StatPearls diz sobre estimulantes\nEsta referência clínica descreve a recuperação do estimulante como uma queda seguida de uma melhora gradual. Problemas comuns incluem depressão, dormir muito, aumento da fome, mau humor e movimentos e pensamentos mais lentos. A depressão pode durar várias semanas, com uma recuperação mais branda continuando além disso.\n\nOnde ficam seis meses\nAos seis meses, você já passou do período agudo e da fase depressiva de várias semanas que StatPearls descreve. A recuperação lenta a que se refere teve um tempo substancial para progredir e, para a maioria das pessoas, o humor, o sono, o apetite e a motivação habituais estão agora estáveis ​​e confiáveis.\n\nSinal de recuperação\nStatPearls descreve uma recuperação gradual além das semanas iniciais. Aos seis meses, o colapso agudo e a fase depressiva de várias semanas já ficaram para trás, com humor, sono, apetite e motivação estáveis ​​agora como padrão dominante.\n\nRelação com TDAH\nPara pessoas que tomaram Adderall para TDAH, seis meses de abstinência é um bom ponto para uma revisão lúcida com um médico dos sintomas atuais e se abordagens não estimulantes – exercício, sono, estrutura, terapia ou medicação alternativa – estão atendendo às suas necessidades.';
 
   @override
   String get adderallReferenceDay365 =>
-      'Um ano de folga em Adderall: recuperação substancial, enquadrada honestamente\n\nFonte: Berman et al., \"Potenciais efeitos adversos do tratamento com anfetaminas no cérebro e no comportamento: uma revisão\", Molecular Psychiatry (2008), no PubMed Central\n\nSobre esta revisão\nEsta revisão rastreia o que a exposição a altas doses ou a longo prazo de anfetaminas pode fazer ao cérebro e documenta a recuperação mensurável durante a abstinência.\n\nO que diz sobre recuperação\nA revisão documenta a recuperação do fluxo sanguíneo cerebral e das proteínas que reciclam a dopamina após abstinência prolongada. Algumas áreas do cérebro se recuperam mais rapidamente do que outras, mas a direção geral é clara: o cérebro se recupera após a interrupção do uso.\n\nRecuperação a longo prazo\nA revisão documenta uma recuperação mensurável no fluxo sanguíneo cerebral e na reciclagem de dopamina após abstinência prolongada. Com um ano, esses sistemas cerebrais tiveram um ano inteiro para serem reconstruídos.\n\nO que isso significa em um ano\nPara a maioria das pessoas – especialmente aquelas que tomaram Adderall nas doses prescritas – um ano de folga significa que os sistemas de recompensa, atenção e motivação estão funcionando bem no dia a dia. O uso mais intenso ou prolongado pode levar mais tempo, mas a recuperação continua. O risco de recaída é muito menor do que na recuperação inicial.';
+      'Um ano sem Adderall: recuperação substancial, com uma perspectiva realista\n\nFonte: Berman et al., \"Potenciais efeitos adversos do tratamento com anfetaminas no cérebro e no comportamento: uma revisão\", Molecular Psychiatry (2008), no PubMed Central\n\nSobre esta revisão\nEsta revisão rastreia o que a exposição a altas doses ou a longo prazo de anfetaminas pode fazer ao cérebro e documenta a recuperação mensurável durante a abstinência.\n\nO que diz sobre recuperação\nA revisão documenta a recuperação do fluxo sanguíneo cerebral e das proteínas que reciclam a dopamina após abstinência prolongada. Algumas áreas do cérebro se recuperam mais rapidamente do que outras, mas a direção geral é clara: o cérebro se recupera após a interrupção do uso.\n\nRecuperação a longo prazo\nA revisão documenta uma recuperação mensurável no fluxo sanguíneo cerebral e na reciclagem de dopamina após abstinência prolongada. Com um ano, esses sistemas cerebrais tiveram um ano inteiro para serem reconstruídos.\n\nO que isso significa em um ano\nPara a maioria das pessoas – especialmente aquelas que tomaram Adderall nas doses prescritas – um ano de folga significa que os sistemas de recompensa, atenção e motivação estão funcionando bem no dia a dia. O uso mais intenso ou prolongado pode levar mais tempo, mas a recuperação continua. O risco de recaída é muito menor do que na recuperação inicial.';
 
   @override
   String get alcoholReferenceDay1 =>

@@ -748,7 +748,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get adderallMilestone7Title =>
-      'Une semaine : amélioration des symptômes physiques';
+      'Une semaine : symptômes physiques en baisse';
 
   @override
   String get adderallMilestone7Description =>
@@ -756,15 +756,14 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get adderallMilestone14Title =>
-      'Deux semaines : retour de la stabilité émotionnelle';
+      'Deux semaines : stabilité émotionnelle';
 
   @override
   String get adderallMilestone14Description =>
       'Les sautes d\'humeur et l\'irritabilité diminuent. Vous retrouvez votre équilibre émotionnel à mesure que la chimie du cerveau se stabilise. Beaucoup considèrent cette semaine comme un tournant dans leur parcours de rétablissement.';
 
   @override
-  String get adderallMilestone30Title =>
-      'Un mois : rééquilibrage de la chimie cérébrale';
+  String get adderallMilestone30Title => 'Un mois : le cerveau se rééquilibre';
 
   @override
   String get adderallMilestone30Description =>
@@ -772,7 +771,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get adderallMilestone60Title =>
-      'Deux mois : amélioration de la pensée et de la mémoire';
+      'Deux mois : pensée et mémoire s’améliorent';
 
   @override
   String get adderallMilestone60Description =>
@@ -788,7 +787,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get adderallMilestone180Title =>
-      'Six mois : la récupération du cerveau continue';
+      'Six mois : le cerveau continue de récupérer';
 
   @override
   String get adderallMilestone180Description =>
@@ -3392,7 +3391,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get adderallReferenceDay1 =>
-      'Sevrage des amphétamines : ce qui se passe au début\n\nSource : MedlinePlus (U.S. National Library of Medicine)\n\nQue sont les amphétamines ?\nLes amphétamines sont des stimulants qui comprennent à la fois des substances illicites (comme le « speed ») et des médicaments sur ordonnance utilisés pour traiter le TDAH et la narcolepsie (comme l\'Adderall et le Vyvanse). Elles augmentent fortement la dopamine et la noradrénaline, ce qui peut entraîner une grande capacité de concentration, un surcroît d\'énergie et de l\'euphorie. Avec une consommation régulière importante, le cerveau s\'adapte à ces poussées répétées ; l\'arrêt peut donc temporairement faire baisser l\'humeur, l\'énergie et la motivation.\n\nSymptômes fréquents du sevrage\nMedlinePlus cite comme symptômes typiques lors de l\'arrêt des amphétamines :\n• Forte envie de la substance\n• Sautes d\'humeur allant de la dépression à l\'agitation et à l\'anxiété\n• Fatigue toute la journée\n• Difficultés de concentration\n• Hallucinations (voir ou entendre des choses qui n\'existent pas)\n• Réactions physiques comme maux de tête, douleurs, augmentation de l\'appétit et mauvais sommeil\n\nLe sevrage est-il dangereux ?\nMedlinePlus ne décrit pas le sevrage des amphétamines comme médicalement dangereux en lui-même, mais indique que des symptômes sévères peuvent nécessiter un programme résidentiel et que les problèmes d\'humeur et émotionnels liés aux amphétamines — notamment la dépression — peuvent être graves et nécessiter un soutien.\n\nObtenir de l\'aide\nMedlinePlus recommande de contacter un professionnel de santé si vous ou une personne de votre entourage êtes dépendant des amphétamines et avez besoin d\'aide pour arrêter. En cas de pensées d\'automutilation, la ressource oriente vers les services de crise appropriés.';
+      'Sevrage des amphétamines : ce qui se passe au début\n\nSource : MedlinePlus (U.S. National Library of Medicine)\n\nQue sont les amphétamines ?\nLes amphétamines sont des stimulants qui comprennent à la fois des substances illicites (comme le « speed ») et des médicaments sur ordonnance utilisés pour traiter le TDAH et la narcolepsie (comme l\'Adderall et le Vyvanse). Elles augmentent fortement la dopamine et la noradrénaline, ce qui peut entraîner une grande capacité de concentration, un surcroît d\'énergie et de l\'euphorie. Avec une consommation régulière importante, le cerveau s\'adapte à ces poussées répétées ; l\'arrêt peut donc temporairement faire baisser l\'humeur, l\'énergie et la motivation.\n\nSymptômes fréquents du sevrage\nMedlinePlus cite comme symptômes typiques lors de l\'arrêt des amphétamines :\n• Forte envie de la substance\n• Sautes d\'humeur allant de la dépression à l\'agitation et à l\'anxiété\n• Fatigue toute la journée\n• Difficultés de concentration\n• Hallucinations (voir ou entendre des choses qui n\'existent pas)\n• Réactions physiques comme maux de tête, douleurs, augmentation de l\'appétit et mauvais sommeil\n\nLe sevrage est-il dangereux ?\nMedlinePlus ne décrit pas le sevrage des amphétamines comme médicalement dangereux en lui-même, mais indique que des symptômes sévères peuvent nécessiter un programme résidentiel et que les problèmes d\'humeur et émotionnels liés aux amphétamines — notamment la dépression — peuvent être graves et nécessiter un soutien.\n\nObtenir de l\'aide\nMedlinePlus recommande de contacter un professionnel de santé si vous ou une personne de votre entourage êtes dépendant des amphétamines et avez besoin d\'aide pour arrêter. En cas de pensées d’automutilation, la ressource oriente vers les services de crise tels que le 988 ou le 911.';
 
   @override
   String get adderallReferenceDay3 =>

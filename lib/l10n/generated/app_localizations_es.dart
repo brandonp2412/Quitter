@@ -757,7 +757,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get adderallMilestone60Title =>
-      'Dos meses: mejoran el pensamiento y la memoria';
+      'Dos meses: mejoran pensamiento y memoria';
 
   @override
   String get adderallMilestone60Description =>
@@ -773,7 +773,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get adderallMilestone180Title =>
-      'Seis meses: continúa la recuperación cerebral';
+      'Seis meses: el cerebro sigue recuperándose';
 
   @override
   String get adderallMilestone180Description =>
