@@ -2970,6 +2970,50 @@ class AppLocalizationsEs extends AppLocalizations {
       'Un año marca un ciclo completo de recuperación de los sistemas de serotonina y noradrenalina. Las investigaciones muestran de forma consistente que quienes dejan los IRSN con éxito bajo supervisión médica y con apoyo psicológico mantienen buenos resultados al año.';
 
   @override
+  String get snriMilestone730Title => '2 años: Paso firme';
+
+  @override
+  String get snriMilestone730Description =>
+      'Dos años desde que completaste la reducción gradual del SNRI merecen celebrarse. La experiencia de abstinencia varía, así que este aniversario marca un progreso sostenido, no un plazo biológico universal de recuperación.';
+
+  @override
+  String get snriReferenceDay730 =>
+      'Dos años tras los SNRI: Una marca de progreso\n\nFuente: Royal College of Psychiatrists — Dejar los antidepresivos\n\nLos antidepresivos normalmente no deben suspenderse de golpe. La reducción debe adaptarse a cada persona; duloxetina o venlafaxina pueden requerir reducciones más lentas durante meses o más.\n\nLa guía no define un umbral biológico a los dos años. Este aniversario celebra el progreso sostenido.';
+
+  @override
+  String get snriMilestone1095Title => '3 años: Progreso firme';
+
+  @override
+  String get snriMilestone1095Description =>
+      'Tres años son un tramo importante de vida después de la reducción. Celebra las rutinas, el apoyo y las decisiones que han sostenido tu progreso; la medicina no define una recuperación especial en esta fecha.';
+
+  @override
+  String get snriReferenceDay1095 =>
+      'Tres años tras los SNRI: Progreso duradero\n\nFuente: Royal College of Psychiatrists — Dejar los antidepresivos\n\nLa experiencia de abstinencia cambia entre personas. La velocidad de reducción debe considerar a la persona, la duración del tratamiento, síntomas previos y el medicamento utilizado.\n\nNinguna guía clínica establece tres años como plazo universal de recuperación de SNRI; este hito reconoce tu progreso.';
+
+  @override
+  String get snriMilestone1460Title => '4 años: Fuerza con el tiempo';
+
+  @override
+  String get snriMilestone1460Description =>
+      'Cuatro años reflejan un progreso duradero construido con el tiempo. Tu experiencia es individual y este hito honra lo que has mantenido sin afirmar un calendario neurológico fijo.';
+
+  @override
+  String get snriReferenceDay1460 =>
+      'Cuatro años tras los SNRI: Progreso a largo plazo\n\nFuente: Royal College of Psychiatrists — Dejar los antidepresivos\n\nEl Royal College describe la abstinencia como variable y recomienda reducciones graduales e individualizadas. Duloxetina y venlafaxina están entre los fármacos con mayor riesgo de síntomas de abstinencia.\n\nEso no crea un hito neurológico a los cuatro años; hoy se celebra el progreso sostenido.';
+
+  @override
+  String get snriMilestone1825Title => '5 años: Cinco años logrados';
+
+  @override
+  String get snriMilestone1825Description =>
+      'Cinco años son un gran hito personal. Celebran el progreso a largo plazo después de dejar un SNRI, reconociendo que la abstinencia y la recuperación no siguen un único calendario.';
+
+  @override
+  String get snriReferenceDay1825 =>
+      'Cinco años tras los SNRI: Hito de cinco años\n\nFuente: Royal College of Psychiatrists — Dejar los antidepresivos\n\nLa guía se centra en una reducción segura e individualizada y en responder a los síntomas, no en un calendario fijo para todo el mundo.\n\nNo establece un umbral de recuperación a los cinco años basado en evidencia. Aun así, cinco años son un aniversario personal significativo.';
+
+  @override
   String get settingsShowSnriTracking => 'Mostrar seguimiento de IRSN';
 
   @override

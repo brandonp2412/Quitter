@@ -2895,6 +2895,50 @@ class AppLocalizationsEn extends AppLocalizations {
       'One year marks a complete cycle of dual serotonin-norepinephrine recovery. Research consistently shows that people who successfully discontinue SNRIs under medical supervision and with psychological support maintain good outcomes at one year.';
 
   @override
+  String get snriMilestone730Title => 'Two Years: Steady Ground';
+
+  @override
+  String get snriMilestone730Description =>
+      'Two years since completing your SNRI taper is worth celebrating. Withdrawal experiences vary, so this anniversary marks sustained progress rather than a universal biological recovery deadline.';
+
+  @override
+  String get snriReferenceDay730 =>
+      'Two Years After SNRIs: A Progress Marker\n\nSource: Royal College of Psychiatrists — Stopping antidepressants\n\nThe Royal College advises that antidepressants should not usually be stopped suddenly. Tapering should be adapted to the individual, and higher-withdrawal-risk medicines such as duloxetine or venlafaxine may need slower reductions over months or longer.\n\nThe guidance does not define a two-year biological recovery threshold after stopping an SNRI. This anniversary celebrates sustained progress without claiming that a specific brain or body process completes today.';
+
+  @override
+  String get snriMilestone1095Title => 'Three Years: Progress Held';
+
+  @override
+  String get snriMilestone1095Description =>
+      'Three years is a substantial stretch of life beyond the taper. Celebrate the routines, support, and choices that have carried your progress this far; medicine does not define a special recovery threshold at this date.';
+
+  @override
+  String get snriReferenceDay1095 =>
+      'Three Years After SNRIs: Progress That Lasts\n\nSource: Royal College of Psychiatrists — Stopping antidepressants\n\nWithdrawal experiences differ from person to person. Tapering speed should reflect the individual, treatment duration, prior withdrawal symptoms, and the medicine being taken.\n\nNo clinical guidance establishes three years as a universal SNRI recovery deadline. This milestone recognises the progress and stability maintained over three years.';
+
+  @override
+  String get snriMilestone1460Title => 'Four Years: Strength in Time';
+
+  @override
+  String get snriMilestone1460Description =>
+      'Four years reflects durable progress built over time. Your experience is individual, and this milestone honours what you have maintained without claiming a fixed neurological timetable.';
+
+  @override
+  String get snriReferenceDay1460 =>
+      'Four Years After SNRIs: Long-Term Progress\n\nSource: Royal College of Psychiatrists — Stopping antidepressants\n\nThe Royal College describes antidepressant withdrawal as variable and recommends gradual, individualised dose reductions. Duloxetine and venlafaxine are among medicines with a higher risk of withdrawal symptoms.\n\nThat evidence does not create a four-year neurological milestone. Today celebrates four years of sustained progress, not a claim that everyone follows the same biological timetable.';
+
+  @override
+  String get snriMilestone1825Title => 'Five Years: Five-Year Victory';
+
+  @override
+  String get snriMilestone1825Description =>
+      'Five years is a major personal milestone. It celebrates long-term progress after stopping an SNRI while recognising that antidepressant withdrawal and recovery do not follow one universal schedule.';
+
+  @override
+  String get snriReferenceDay1825 =>
+      'Five Years After SNRIs: Five-Year Milestone\n\nSource: Royal College of Psychiatrists — Stopping antidepressants\n\nThe Royal College guidance focuses on safe, individualised tapering and responding to withdrawal symptoms rather than assigning one fixed recovery schedule to everyone.\n\nThere is no evidence-based five-year SNRI recovery threshold in that guidance. Five years is still a meaningful personal anniversary and a strong marker of long-term progress.';
+
+  @override
   String get settingsShowSnriTracking => 'Show SNRI tracking';
 
   @override

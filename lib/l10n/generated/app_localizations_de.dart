@@ -2953,6 +2953,50 @@ class AppLocalizationsDe extends AppLocalizations {
       'Ein Jahr markiert einen vollständigen Zyklus der doppelten Serotonin-Norepinephrin-Wiederherstellung. Die Forschung zeigt konsequent, dass Menschen, die SNRIs unter medizinischer Aufsicht und mit psychologischer Unterstützung erfolgreich absetzen, nach einem Jahr gute Ergebnisse erzielen.';
 
   @override
+  String get snriMilestone730Title => '2 Jahre: Fester Boden';
+
+  @override
+  String get snriMilestone730Description =>
+      'Zwei Jahre nach dem Abschluss des SNRI-Ausschleichens sind ein Grund zum Feiern. Entzugserfahrungen unterscheiden sich, daher steht dieser Jahrestag für anhaltenden Fortschritt und nicht für eine allgemeine biologische Genesungsfrist.';
+
+  @override
+  String get snriReferenceDay730 =>
+      'Zwei Jahre nach SNRIs: Ein Fortschrittsmarker\n\nQuelle: Royal College of Psychiatrists — Antidepressiva absetzen\n\nAntidepressiva sollten normalerweise nicht abrupt abgesetzt werden. Das Ausschleichen sollte individuell angepasst werden; Duloxetin oder Venlafaxin können langsamere Reduktionen über Monate oder länger erfordern.\n\nDie Leitlinie definiert keine biologische Zwei-Jahres-Schwelle nach einem SNRI. Dieser Jahrestag feiert anhaltenden Fortschritt.';
+
+  @override
+  String get snriMilestone1095Title => '3 Jahre: Fortschritt hält';
+
+  @override
+  String get snriMilestone1095Description =>
+      'Drei Jahre sind eine lange Zeit nach dem Ausschleichen. Feiere die Gewohnheiten, Unterstützung und Entscheidungen, die dich bis hierher getragen haben; die Medizin definiert für dieses Datum keine besondere Genesungsschwelle.';
+
+  @override
+  String get snriReferenceDay1095 =>
+      'Drei Jahre nach SNRIs: Fortschritt, der bleibt\n\nQuelle: Royal College of Psychiatrists — Antidepressiva absetzen\n\nEntzugserfahrungen sind individuell. Tempo, Behandlungsdauer, frühere Entzugssymptome und das jeweilige Medikament sollten beim Ausschleichen berücksichtigt werden.\n\nKeine klinische Leitlinie legt drei Jahre als allgemeine SNRI-Genesungsfrist fest; dieser Meilenstein würdigt deinen Fortschritt.';
+
+  @override
+  String get snriMilestone1460Title => '4 Jahre: Gewachsene Stärke';
+
+  @override
+  String get snriMilestone1460Description =>
+      'Vier Jahre stehen für beständigen Fortschritt, der mit der Zeit gewachsen ist. Deine Erfahrung ist individuell, und dieser Meilenstein würdigt, was du erhalten hast, ohne einen festen neurologischen Zeitplan zu behaupten.';
+
+  @override
+  String get snriReferenceDay1460 =>
+      'Vier Jahre nach SNRIs: Langfristiger Fortschritt\n\nQuelle: Royal College of Psychiatrists — Antidepressiva absetzen\n\nDas Royal College beschreibt Entzug als unterschiedlich und empfiehlt schrittweise, individuelle Dosisreduktionen. Duloxetin und Venlafaxin zählen zu den Medikamenten mit höherem Entzugsrisiko.\n\nDaraus ergibt sich kein neurologischer Vier-Jahres-Meilenstein; heute werden vier Jahre Fortschritt gefeiert.';
+
+  @override
+  String get snriMilestone1825Title => '5 Jahre: Fünf Jahre geschafft';
+
+  @override
+  String get snriMilestone1825Description =>
+      'Fünf Jahre sind ein bedeutender persönlicher Meilenstein. Sie feiern langfristigen Fortschritt nach dem Absetzen eines SNRI und berücksichtigen, dass Entzug und Erholung keinem einheitlichen Zeitplan folgen.';
+
+  @override
+  String get snriReferenceDay1825 =>
+      'Fünf Jahre nach SNRIs: Fünf-Jahres-Meilenstein\n\nQuelle: Royal College of Psychiatrists — Antidepressiva absetzen\n\nDie Leitlinie konzentriert sich auf sicheres, individuelles Ausschleichen und den Umgang mit Entzugssymptomen statt auf einen festen Zeitplan für alle.\n\nSie nennt keine evidenzbasierte Fünf-Jahres-Schwelle. Fünf Jahre bleiben dennoch ein bedeutsamer persönlicher Jahrestag.';
+
+  @override
   String get settingsShowSnriTracking => 'SNRI Tracking anzeigen';
 
   @override

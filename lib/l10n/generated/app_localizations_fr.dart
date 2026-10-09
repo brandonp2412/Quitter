@@ -2992,6 +2992,50 @@ class AppLocalizationsFr extends AppLocalizations {
       'Un an représente un cycle complet de récupération des systèmes sérotoninergique et noradrénergique. Les recherches montrent régulièrement que les personnes qui arrêtent avec succès les IRSN sous supervision médicale et avec un soutien psychologique conservent de bons résultats à un an.';
 
   @override
+  String get snriMilestone730Title => '2 ans : Cap solide';
+
+  @override
+  String get snriMilestone730Description =>
+      'Deux ans après la fin de votre diminution progressive du SNRI méritent d’être célébrés. Le sevrage varie selon les personnes : cet anniversaire marque donc un progrès durable, pas une échéance biologique universelle.';
+
+  @override
+  String get snriReferenceDay730 =>
+      'Deux ans après les SNRI : Un repère de progrès\n\nSource : Royal College of Psychiatrists — Arrêter les antidépresseurs\n\nLes antidépresseurs ne doivent généralement pas être arrêtés brutalement. La diminution doit être adaptée à chacun ; la duloxétine ou la venlafaxine peuvent nécessiter des réductions plus lentes sur plusieurs mois ou davantage.\n\nLes recommandations ne définissent pas de seuil biologique à deux ans. Cet anniversaire célèbre un progrès durable.';
+
+  @override
+  String get snriMilestone1095Title => '3 ans : Progrès durable';
+
+  @override
+  String get snriMilestone1095Description =>
+      'Trois ans représentent une longue période après la diminution. Célébrez les habitudes, le soutien et les choix qui ont porté vos progrès ; la médecine ne fixe aucun seuil particulier de récupération à cette date.';
+
+  @override
+  String get snriReferenceDay1095 =>
+      'Trois ans après les SNRI : Des progrès qui durent\n\nSource : Royal College of Psychiatrists — Arrêter les antidépresseurs\n\nLe vécu du sevrage diffère selon les personnes. Le rythme de diminution doit tenir compte de la personne, de la durée du traitement, des symptômes antérieurs et du médicament.\n\nAucune recommandation clinique ne fixe trois ans comme délai universel de récupération après un SNRI ; ce jalon reconnaît vos progrès.';
+
+  @override
+  String get snriMilestone1460Title => '4 ans : Force dans le temps';
+
+  @override
+  String get snriMilestone1460Description =>
+      'Quatre ans reflètent un progrès solide construit au fil du temps. Votre expérience est individuelle et ce jalon honore ce que vous avez maintenu sans imposer de calendrier neurologique fixe.';
+
+  @override
+  String get snriReferenceDay1460 =>
+      'Quatre ans après les SNRI : Progrès à long terme\n\nSource : Royal College of Psychiatrists — Arrêter les antidépresseurs\n\nLe Royal College décrit un sevrage variable et recommande des réductions progressives et individualisées. La duloxétine et la venlafaxine présentent un risque plus élevé de symptômes de sevrage.\n\nCes données ne créent pas un jalon neurologique à quatre ans ; aujourd’hui célèbre un progrès durable.';
+
+  @override
+  String get snriMilestone1825Title => '5 ans : Cinq ans accomplis';
+
+  @override
+  String get snriMilestone1825Description =>
+      'Cinq ans constituent un grand jalon personnel. Ils célèbrent les progrès à long terme après l’arrêt d’un SNRI tout en reconnaissant que le sevrage et le rétablissement ne suivent pas un calendrier unique.';
+
+  @override
+  String get snriReferenceDay1825 =>
+      'Cinq ans après les SNRI : Jalon des cinq ans\n\nSource : Royal College of Psychiatrists — Arrêter les antidépresseurs\n\nLes recommandations privilégient une diminution sûre et individualisée et une réponse adaptée aux symptômes, pas un calendrier fixe identique pour tous.\n\nElles ne définissent pas de seuil de récupération à cinq ans fondé sur les preuves. Cinq ans restent un anniversaire personnel important.';
+
+  @override
   String get settingsShowSnriTracking => 'Afficher le suivi des IRSN';
 
   @override

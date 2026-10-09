@@ -2968,6 +2968,50 @@ class AppLocalizationsPt extends AppLocalizations {
       'Um ano marca um ciclo completo de recuperação dupla serotonina-norepinefrina. A investigação mostra consistentemente que as pessoas que descontinuam com sucesso os IRSN sob supervisão médica e com apoio psicológico mantêm bons resultados ao fim de um ano.';
 
   @override
+  String get snriMilestone730Title => '2 anos: Passo firme';
+
+  @override
+  String get snriMilestone730Description =>
+      'Dois anos desde o fim da redução gradual do SNRI merecem ser celebrados. As experiências de abstinência variam, por isso este aniversário marca progresso sustentado, não um prazo biológico universal de recuperação.';
+
+  @override
+  String get snriReferenceDay730 =>
+      'Dois anos após os SNRI: Um marco de progresso\n\nFonte: Royal College of Psychiatrists — Parar antidepressivos\n\nOs antidepressivos normalmente não devem ser interrompidos de forma abrupta. A redução deve ser individual; duloxetina ou venlafaxina podem exigir reduções mais lentas durante meses ou mais.\n\nAs orientações não definem um limiar biológico aos dois anos. Este aniversário celebra progresso sustentado.';
+
+  @override
+  String get snriMilestone1095Title => '3 anos: Progresso mantido';
+
+  @override
+  String get snriMilestone1095Description =>
+      'Três anos são um período significativo depois da redução. Celebre as rotinas, o apoio e as escolhas que sustentaram o seu progresso; a medicina não define um limiar especial de recuperação nesta data.';
+
+  @override
+  String get snriReferenceDay1095 =>
+      'Três anos após os SNRI: Progresso que dura\n\nFonte: Royal College of Psychiatrists — Parar antidepressivos\n\nAs experiências de abstinência diferem entre pessoas. A velocidade da redução deve considerar o indivíduo, a duração do tratamento, sintomas anteriores e o medicamento.\n\nNenhuma orientação clínica estabelece três anos como prazo universal de recuperação de SNRI. Este marco reconhece o seu progresso.';
+
+  @override
+  String get snriMilestone1460Title => '4 anos: Força com o tempo';
+
+  @override
+  String get snriMilestone1460Description =>
+      'Quatro anos refletem progresso duradouro construído ao longo do tempo. A sua experiência é individual e este marco honra o que manteve sem afirmar um calendário neurológico fixo.';
+
+  @override
+  String get snriReferenceDay1460 =>
+      'Quatro anos após os SNRI: Progresso a longo prazo\n\nFonte: Royal College of Psychiatrists — Parar antidepressivos\n\nO Royal College recomenda reduções graduais e individualizadas. Duloxetina e venlafaxina estão entre os medicamentos com maior risco de sintomas de abstinência.\n\nEstas evidências não criam um marco neurológico aos quatro anos. Hoje celebra-se progresso sustentado.';
+
+  @override
+  String get snriMilestone1825Title => '5 anos: Cinco anos vencidos';
+
+  @override
+  String get snriMilestone1825Description =>
+      'Cinco anos são um grande marco pessoal. Celebram o progresso a longo prazo depois de parar um SNRI, reconhecendo que a abstinência e a recuperação não seguem um único calendário.';
+
+  @override
+  String get snriReferenceDay1825 =>
+      'Cinco anos após os SNRI: Marco de cinco anos\n\nFonte: Royal College of Psychiatrists — Parar antidepressivos\n\nAs orientações focam uma redução segura e individualizada e a resposta aos sintomas, não um calendário fixo para todos.\n\nNão existe um limiar de recuperação aos cinco anos baseado em evidências. Cinco anos continuam a ser um aniversário pessoal significativo.';
+
+  @override
   String get settingsShowSnriTracking => 'Mostrar acompanhamento SNRI';
 
   @override
@@ -7336,6 +7380,50 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
   @override
   String get snriMilestone365Description =>
       'Um ano marca um ciclo completo de recuperação dupla serotonina-norepinefrina. A investigação mostra consistentemente que as pessoas que descontinuam com sucesso os IRSN sob supervisão médica e com apoio psicológico mantêm bons resultados ao fim de um ano.';
+
+  @override
+  String get snriMilestone730Title => '2 anos: Passo firme';
+
+  @override
+  String get snriMilestone730Description =>
+      'Dois anos desde o fim da redução gradual do SNRI merecem comemoração. As experiências de abstinência variam, então este aniversário marca progresso sustentado, não um prazo biológico universal de recuperação.';
+
+  @override
+  String get snriReferenceDay730 =>
+      'Dois anos após os SNRI: Um marco de progresso\n\nFonte: Royal College of Psychiatrists — Como parar antidepressivos\n\nAntidepressivos normalmente não devem ser interrompidos de repente. A redução deve ser individual; duloxetina ou venlafaxina podem exigir reduções mais lentas por meses ou mais.\n\nA orientação não define um limite biológico aos dois anos. Este aniversário comemora o progresso sustentado.';
+
+  @override
+  String get snriMilestone1095Title => '3 anos: Progresso mantido';
+
+  @override
+  String get snriMilestone1095Description =>
+      'Três anos representam um longo período depois da redução. Comemore as rotinas, o apoio e as escolhas que sustentaram seu progresso; a medicina não define um limite especial de recuperação nesta data.';
+
+  @override
+  String get snriReferenceDay1095 =>
+      'Três anos após os SNRI: Progresso que permanece\n\nFonte: Royal College of Psychiatrists — Como parar antidepressivos\n\nAs experiências de abstinência variam. A velocidade da redução deve considerar a pessoa, o tempo de tratamento, sintomas anteriores e o medicamento.\n\nNenhuma diretriz clínica estabelece três anos como prazo universal de recuperação de SNRI. Este marco reconhece seu progresso.';
+
+  @override
+  String get snriMilestone1460Title => '4 anos: Força com o tempo';
+
+  @override
+  String get snriMilestone1460Description =>
+      'Quatro anos refletem um progresso duradouro construído com o tempo. Sua experiência é individual, e este marco valoriza o que você manteve sem afirmar um cronograma neurológico fixo.';
+
+  @override
+  String get snriReferenceDay1460 =>
+      'Quatro anos após os SNRI: Progresso de longo prazo\n\nFonte: Royal College of Psychiatrists — Como parar antidepressivos\n\nO Royal College recomenda reduções graduais e individualizadas. Duloxetina e venlafaxina têm maior risco de sintomas de abstinência.\n\nEssas evidências não criam um marco neurológico aos quatro anos. Hoje são comemorados quatro anos de progresso.';
+
+  @override
+  String get snriMilestone1825Title => '5 anos: Cinco anos conquistados';
+
+  @override
+  String get snriMilestone1825Description =>
+      'Cinco anos são um grande marco pessoal. Eles celebram o progresso de longo prazo após parar um SNRI, reconhecendo que a abstinência e a recuperação não seguem um único cronograma.';
+
+  @override
+  String get snriReferenceDay1825 =>
+      'Cinco anos após os SNRI: Marco de cinco anos\n\nFonte: Royal College of Psychiatrists — Como parar antidepressivos\n\nA diretriz foca uma redução segura e individualizada e a resposta aos sintomas, não um cronograma fixo para todos.\n\nEla não estabelece um limite de recuperação aos cinco anos baseado em evidências. Mesmo assim, cinco anos são um aniversário pessoal importante.';
 
   @override
   String get settingsShowSnriTracking => 'Mostrar rastreamento SNRI';

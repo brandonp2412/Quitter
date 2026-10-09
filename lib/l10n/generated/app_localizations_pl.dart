@@ -2962,6 +2962,50 @@ class AppLocalizationsPl extends AppLocalizations {
       'Rok oznacza pełny cykl podwójnego serotoniny – noradrenaliny odzyskiwania. Badania konsekwentnie pokazuje, że ludzie, którzy z powodzeniem zaprzestać SNRI pod nadzorem medycznym i przy pomocy wsparcia psychologicznego utrzymać dobre wyniki w jednym roku.';
 
   @override
+  String get snriMilestone730Title => '2 lata: Pewny grunt';
+
+  @override
+  String get snriMilestone730Description =>
+      'Dwa lata od zakończenia odstawiania SNRI to powód do świętowania. Przebieg objawów odstawiennych jest różny, więc ta rocznica oznacza trwały postęp, a nie uniwersalny biologiczny termin regeneracji.';
+
+  @override
+  String get snriReferenceDay730 =>
+      'Dwa lata po SNRI: Znacznik postępu\n\nŹródło: Royal College of Psychiatrists — Odstawianie leków przeciwdepresyjnych\n\nLeków przeciwdepresyjnych zwykle nie należy odstawiać nagle. Tempo powinno być indywidualne; duloksetyna lub wenlafaksyna mogą wymagać wolniejszej redukcji przez wiele miesięcy lub dłużej.\n\nWytyczne nie określają dwuletniego biologicznego progu regeneracji. Ta rocznica świętuje trwały postęp.';
+
+  @override
+  String get snriMilestone1095Title => '3 lata: Trwały postęp';
+
+  @override
+  String get snriMilestone1095Description =>
+      'Trzy lata to znaczący okres życia po odstawieniu. Świętuj nawyki, wsparcie i decyzje, które utrzymały Twój postęp; medycyna nie wyznacza na tę datę szczególnego progu regeneracji.';
+
+  @override
+  String get snriReferenceDay1095 =>
+      'Trzy lata po SNRI: Postęp, który trwa\n\nŹródło: Royal College of Psychiatrists — Odstawianie leków przeciwdepresyjnych\n\nDoświadczenia z odstawianiem są różne. Tempo redukcji powinno uwzględniać osobę, długość leczenia, wcześniejsze objawy i stosowany lek.\n\nŻadne wytyczne kliniczne nie ustanawiają trzech lat jako uniwersalnego terminu regeneracji. Ten kamień milowy docenia Twój postęp.';
+
+  @override
+  String get snriMilestone1460Title => '4 lata: Siła z czasem';
+
+  @override
+  String get snriMilestone1460Description =>
+      'Cztery lata odzwierciedlają trwały postęp budowany z czasem. Twoje doświadczenie jest indywidualne, a ten kamień milowy honoruje to, co udało się utrzymać, bez przypisywania stałego neurologicznego harmonogramu.';
+
+  @override
+  String get snriReferenceDay1460 =>
+      'Cztery lata po SNRI: Długotrwały postęp\n\nŹródło: Royal College of Psychiatrists — Odstawianie leków przeciwdepresyjnych\n\nRoyal College zaleca stopniowe, indywidualne zmniejszanie dawki. Duloksetyna i wenlafaksyna mają wyższe ryzyko objawów odstawiennych.\n\nTe dane nie tworzą neurologicznego kamienia milowego po czterech latach. Dziś świętujemy trwały postęp.';
+
+  @override
+  String get snriMilestone1825Title => '5 lat: Pięć lat osiągnięte';
+
+  @override
+  String get snriMilestone1825Description =>
+      'Pięć lat to ważny osobisty kamień milowy. Świętuje długoterminowy postęp po odstawieniu SNRI, uznając, że odstawianie i regeneracja nie przebiegają według jednego harmonogramu.';
+
+  @override
+  String get snriReferenceDay1825 =>
+      'Pięć lat po SNRI: Pięcioletni kamień milowy\n\nŹródło: Royal College of Psychiatrists — Odstawianie leków przeciwdepresyjnych\n\nWytyczne koncentrują się na bezpiecznym, indywidualnym zmniejszaniu dawki i reagowaniu na objawy, nie na jednym harmonogramie dla wszystkich.\n\nNie określają pięcioletniego progu regeneracji opartego na dowodach. Pięć lat pozostaje ważną osobistą rocznicą.';
+
+  @override
   String get settingsShowSnriTracking => 'Pokaż śledzenie SNRI';
 
   @override

@@ -2768,6 +2768,50 @@ class AppLocalizationsZh extends AppLocalizations {
       '一年标志着血清素和去甲肾上腺素双系统完整的恢复周期。研究一贯显示，在医疗监督和心理支持下成功停用SNRI的人，一年后仍能保持良好结果。';
 
   @override
+  String get snriMilestone730Title => '2年：稳步前行';
+
+  @override
+  String get snriMilestone730Description =>
+      '完成 SNRI 逐步减量后两年值得庆祝。停药体验因人而异，因此这个周年纪念代表持续进步，而不是适用于所有人的生物学恢复期限。';
+
+  @override
+  String get snriReferenceDay730 =>
+      '停用 SNRI 两年：进步的标志\n\n来源：Royal College of Psychiatrists《停止使用抗抑郁药》\n\n抗抑郁药通常不应突然停用，减量应根据个人情况调整；度洛西汀或文拉法辛可能需要在数月甚至更长时间内更缓慢地减量。\n\n指南没有把两年定义为生物学恢复门槛。这个纪念日庆祝持续的进步。';
+
+  @override
+  String get snriMilestone1095Title => '3年：进步延续';
+
+  @override
+  String get snriMilestone1095Description =>
+      '减量结束后三年是一段很长的历程。庆祝一路提供支持的习惯、帮助和选择；医学并没有把这一天定义为特殊的恢复门槛。';
+
+  @override
+  String get snriReferenceDay1095 =>
+      '停用 SNRI 三年：持久的进步\n\n来源：Royal College of Psychiatrists《停止使用抗抑郁药》\n\n停药体验因人而异。减量速度应结合个人情况、治疗时长、既往症状以及所用药物来决定。\n\n没有临床指南把三年规定为普遍适用的 SNRI 恢复期限。这个里程碑肯定你的进步。';
+
+  @override
+  String get snriMilestone1460Title => '4年：时间沉淀的力量';
+
+  @override
+  String get snriMilestone1460Description =>
+      '四年体现了随时间累积的持久进步。每个人的经历都不同，这个里程碑肯定长期维持的成果，而不声称存在固定的神经系统时间表。';
+
+  @override
+  String get snriReferenceDay1460 =>
+      '停用 SNRI 四年：长期进步\n\n来源：Royal College of Psychiatrists《停止使用抗抑郁药》\n\n该学院建议逐步、个体化地减量。度洛西汀和文拉法辛的停药症状风险较高。\n\n这些证据并不能产生一个“四年神经恢复”门槛。今天庆祝的是持续的进步。';
+
+  @override
+  String get snriMilestone1825Title => '5年：五年成就';
+
+  @override
+  String get snriMilestone1825Description =>
+      '五年是重要的个人里程碑。它庆祝停用 SNRI 后的长期进步，同时承认停药反应与恢复并不存在人人相同的时间表。';
+
+  @override
+  String get snriReferenceDay1825 =>
+      '停用 SNRI 五年：五年里程碑\n\n来源：Royal College of Psychiatrists《停止使用抗抑郁药》\n\n指南重点是安全、个体化的减量以及对症状作出反应，而不是给所有人规定同一个恢复时间表。\n\n指南没有基于证据的“五年 SNRI 恢复门槛”。即便如此，五年仍然是有意义的个人纪念日。';
+
+  @override
   String get settingsShowSnriTracking => '显示SNRI追踪';
 
   @override
@@ -6920,6 +6964,50 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   @override
   String get snriMilestone365Description =>
       '一年標誌著血清素和去甲腎上腺素雙系統完整的恢復週期。研究一貫顯示，在醫療監督和心理支持下成功停用SNRI的人，一年後仍能保持良好結果。';
+
+  @override
+  String get snriMilestone730Title => '2年：穩步前行';
+
+  @override
+  String get snriMilestone730Description =>
+      '完成 SNRI 逐步減量後兩年值得慶祝。停藥經驗因人而異，因此這個週年紀念代表持續進步，而不是適用於所有人的生物學恢復期限。';
+
+  @override
+  String get snriReferenceDay730 =>
+      '停用 SNRI 兩年：進步的標誌\n\n來源：Royal College of Psychiatrists《停止使用抗憂鬱藥》\n\n抗憂鬱藥通常不應突然停用，減量應依個人情況調整；度洛西汀或文拉法辛可能需要在數月甚至更長時間內更緩慢地減量。\n\n指南沒有把兩年定義為生物學恢復門檻。這個紀念日慶祝持續的進步。';
+
+  @override
+  String get snriMilestone1095Title => '3年：進步延續';
+
+  @override
+  String get snriMilestone1095Description =>
+      '減量結束後三年是一段很長的歷程。慶祝一路提供支持的習慣、協助與選擇；醫學並沒有把這一天定義為特殊的恢復門檻。';
+
+  @override
+  String get snriReferenceDay1095 =>
+      '停用 SNRI 三年：持久的進步\n\n來源：Royal College of Psychiatrists《停止使用抗憂鬱藥》\n\n停藥經驗因人而異。減量速度應結合個人情況、治療時長、過往症狀以及所用藥物來決定。\n\n沒有臨床指南把三年規定為普遍適用的 SNRI 恢復期限。這個里程碑肯定你的進步。';
+
+  @override
+  String get snriMilestone1460Title => '4年：時間累積的力量';
+
+  @override
+  String get snriMilestone1460Description =>
+      '四年體現了隨時間累積的持久進步。每個人的經驗都不同，這個里程碑肯定長期維持的成果，而不聲稱存在固定的神經系統時間表。';
+
+  @override
+  String get snriReferenceDay1460 =>
+      '停用 SNRI 四年：長期進步\n\n來源：Royal College of Psychiatrists《停止使用抗憂鬱藥》\n\n該學院建議逐步、個別化地減量。度洛西汀和文拉法辛的停藥症狀風險較高。\n\n這些證據並不能產生一個「四年神經恢復」門檻。今天慶祝的是持續的進步。';
+
+  @override
+  String get snriMilestone1825Title => '5年：五年成就';
+
+  @override
+  String get snriMilestone1825Description =>
+      '五年是重要的個人里程碑。它慶祝停用 SNRI 後的長期進步，同時承認停藥反應與恢復並不存在人人相同的時間表。';
+
+  @override
+  String get snriReferenceDay1825 =>
+      '停用 SNRI 五年：五年里程碑\n\n來源：Royal College of Psychiatrists《停止使用抗憂鬱藥》\n\n指南重點是安全、個別化的減量以及對症狀作出回應，而不是給所有人規定同一個恢復時間表。\n\n指南沒有基於證據的「五年 SNRI 恢復門檻」。即便如此，五年仍然是有意義的個人紀念日。';
 
   @override
   String get settingsShowSnriTracking => '顯示SNRI追蹤';

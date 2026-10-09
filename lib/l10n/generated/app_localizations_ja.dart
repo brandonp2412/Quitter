@@ -2772,6 +2772,50 @@ class AppLocalizationsJa extends AppLocalizations {
       '1年は、セロトニンとノルエピネフリンの両方が回復する完全なサイクルの節目です。研究では、医療者の監督下で心理的サポートを受けながらSNRIを無事に中止した人は、1年後も良好な転帰を維持することが一貫して示されています。';
 
   @override
+  String get snriMilestone730Title => '2年：確かな歩み';
+
+  @override
+  String get snriMilestone730Description =>
+      'SNRIの減薬を終えて2年は、十分に祝う価値のある節目です。離脱症状の経過には個人差があるため、この日付は普遍的な生物学的回復期限ではなく、継続してきた歩みを示します。';
+
+  @override
+  String get snriReferenceDay730 =>
+      'SNRI中止から2年：歩みの節目\n\n出典：Royal College of Psychiatrists「抗うつ薬の中止」\n\n抗うつ薬は通常、突然中止せず個人に合わせて減薬します。デュロキセチンやベンラファキシンでは、数か月以上かけたより緩やかな減量が必要になることがあります。\n\n指針は2年を生物学的回復の境界とは定めていません。この節目は継続してきた歩みを祝うものです。';
+
+  @override
+  String get snriMilestone1095Title => '3年：続いてきた前進';
+
+  @override
+  String get snriMilestone1095Description =>
+      '減薬を終えてから3年は大きな時間の積み重ねです。ここまで支えた習慣、支援、選択を祝いましょう。医学的に、この日を特別な回復の境界とする根拠はありません。';
+
+  @override
+  String get snriReferenceDay1095 =>
+      'SNRI中止から3年：続く前進\n\n出典：Royal College of Psychiatrists「抗うつ薬の中止」\n\n離脱症状の経験は人によって異なり、減薬の速さは本人の状態、治療期間、過去の症状、薬に合わせる必要があります。\n\n3年を普遍的な回復期限とする臨床指針はありません。この節目は3年間の前進を称えます。';
+
+  @override
+  String get snriMilestone1460Title => '4年：時間が育てた強さ';
+
+  @override
+  String get snriMilestone1460Description =>
+      '4年は、時間をかけて築いた持続的な前進を示します。経験は一人ひとり異なり、この節目は固定された神経学的な時間表を主張せず、維持してきたものを称えます。';
+
+  @override
+  String get snriReferenceDay1460 =>
+      'SNRI中止から4年：長期の前進\n\n出典：Royal College of Psychiatrists「抗うつ薬の中止」\n\n離脱には個人差があり、段階的で個別化した減薬が推奨されています。デュロキセチンとベンラファキシンは離脱症状のリスクが高い薬です。\n\nこれにより4年という神経学的な境界が生まれるわけではありません。今日は継続した前進を祝います。';
+
+  @override
+  String get snriMilestone1825Title => '5年：5年間の達成';
+
+  @override
+  String get snriMilestone1825Description =>
+      '5年は大きな個人的節目です。SNRI中止後の長期的な歩みを祝いながら、抗うつ薬の離脱と回復には全員共通の時間表がないことも認める節目です。';
+
+  @override
+  String get snriReferenceDay1825 =>
+      'SNRI中止から5年：5年の節目\n\n出典：Royal College of Psychiatrists「抗うつ薬の中止」\n\n指針は、全員に同じ回復期間を当てはめるのではなく、安全で個別化した減薬と症状への対応を重視しています。\n\n根拠に基づく5年回復境界はありません。それでも5年は意味のある個人的な記念日です。';
+
+  @override
   String get settingsShowSnriTracking => 'SNRIの記録を表示';
 
   @override

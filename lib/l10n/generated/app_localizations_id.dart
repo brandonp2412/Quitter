@@ -2940,6 +2940,50 @@ class AppLocalizationsId extends AppLocalizations {
       'Satu tahun menandai siklus lengkap pemulihan ganda serotonin-norepinefrin. Penelitian secara konsisten menunjukkan bahwa orang yang berhasil menghentikan SNRI di bawah pengawasan medis dan dengan dukungan psikologis akan mempertahankan hasil yang baik dalam satu tahun.';
 
   @override
+  String get snriMilestone730Title => '2 Tahun: Langkah Mantap';
+
+  @override
+  String get snriMilestone730Description =>
+      'Dua tahun sejak menyelesaikan penurunan dosis SNRI layak dirayakan. Pengalaman putus obat berbeda-beda, jadi peringatan ini menandai kemajuan yang bertahan, bukan batas pemulihan biologis untuk semua orang.';
+
+  @override
+  String get snriReferenceDay730 =>
+      'Dua Tahun Setelah SNRI: Penanda Kemajuan\n\nSumber: Royal College of Psychiatrists — Menghentikan antidepresan\n\nAntidepresan umumnya tidak boleh dihentikan mendadak. Penurunan dosis perlu disesuaikan; duloxetine atau venlafaxine dapat memerlukan pengurangan lebih lambat selama berbulan-bulan atau lebih.\n\nPanduan tidak menetapkan batas pemulihan biologis dua tahun. Peringatan ini merayakan kemajuan yang bertahan.';
+
+  @override
+  String get snriMilestone1095Title => '3 Tahun: Kemajuan Bertahan';
+
+  @override
+  String get snriMilestone1095Description =>
+      'Tiga tahun adalah rentang hidup yang berarti setelah penurunan dosis. Rayakan rutinitas, dukungan, dan pilihan yang menjaga kemajuanmu; ilmu kedokteran tidak menetapkan ambang pemulihan khusus pada tanggal ini.';
+
+  @override
+  String get snriReferenceDay1095 =>
+      'Tiga Tahun Setelah SNRI: Kemajuan yang Bertahan\n\nSumber: Royal College of Psychiatrists — Menghentikan antidepresan\n\nPengalaman putus obat berbeda pada setiap orang. Kecepatan penurunan perlu mempertimbangkan individu, lama pengobatan, gejala sebelumnya, dan obat yang digunakan.\n\nTidak ada panduan klinis yang menetapkan tiga tahun sebagai tenggat pemulihan universal; tonggak ini mengakui kemajuanmu.';
+
+  @override
+  String get snriMilestone1460Title => '4 Tahun: Kekuatan Bertumbuh';
+
+  @override
+  String get snriMilestone1460Description =>
+      'Empat tahun mencerminkan kemajuan tahan lama yang dibangun dari waktu ke waktu. Pengalamanmu bersifat individual, dan tonggak ini menghargai apa yang telah kamu pertahankan tanpa mengklaim jadwal neurologis yang tetap.';
+
+  @override
+  String get snriReferenceDay1460 =>
+      'Empat Tahun Setelah SNRI: Kemajuan Jangka Panjang\n\nSumber: Royal College of Psychiatrists — Menghentikan antidepresan\n\nRoyal College menjelaskan bahwa putus antidepresan bervariasi dan menganjurkan penurunan bertahap yang disesuaikan. Duloxetine dan venlafaxine memiliki risiko gejala putus obat lebih tinggi.\n\nBukti itu tidak menciptakan tonggak neurologis empat tahun; hari ini merayakan kemajuan yang bertahan.';
+
+  @override
+  String get snriMilestone1825Title => '5 Tahun: Lima Tahun Tercapai';
+
+  @override
+  String get snriMilestone1825Description =>
+      'Lima tahun adalah tonggak pribadi yang besar. Ini merayakan kemajuan jangka panjang setelah berhenti dari SNRI sambil mengakui bahwa putus obat dan pemulihan tidak mengikuti satu jadwal yang sama.';
+
+  @override
+  String get snriReferenceDay1825 =>
+      'Lima Tahun Setelah SNRI: Tonggak Lima Tahun\n\nSumber: Royal College of Psychiatrists — Menghentikan antidepresan\n\nPanduan berfokus pada penurunan dosis yang aman dan individual serta penanganan gejala, bukan satu jadwal pemulihan untuk semua orang.\n\nTidak ada batas pemulihan SNRI lima tahun berbasis bukti. Meski begitu, lima tahun tetap merupakan peringatan pribadi yang bermakna.';
+
+  @override
   String get settingsShowSnriTracking => 'Tampilkan pelacakan SNRI';
 
   @override

@@ -167,6 +167,66 @@ class SnriPage extends StatelessWidget {
             "The Significance of This Milestone\n"
             "Successfully discontinuing an SNRI — particularly venlafaxine — is a significant achievement. The intensity of the discontinuation process and the commitment required to manage it under medical supervision demonstrates remarkable resilience.",
       ),
+      QuitMilestone(
+        day: 730,
+        title: l10n.snriMilestone730Title,
+        description: l10n.snriMilestone730Description,
+        reference: "Royal College of Psychiatrists - Stopping antidepressants",
+        link:
+            "https://www.rcpsych.ac.uk/mental-health/treatments-and-wellbeing/stopping-antidepressants",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.snriReferenceDay730,
+        referenceContent:
+            "Two Years After SNRIs: A Progress Marker\n\n"
+            "Source: Royal College of Psychiatrists — Stopping antidepressants\n\n"
+            "The Royal College advises that antidepressants should not usually be stopped suddenly. Tapering should be adapted to the individual, and people taking higher-withdrawal-risk medicines such as duloxetine or venlafaxine may need slower reductions over months or longer.\n\n"
+            "The guidance does not define a two-year biological recovery threshold after stopping an SNRI. This anniversary celebrates two years of sustained progress without claiming that a specific brain or body process completes today.",
+      ),
+      QuitMilestone(
+        day: 1095,
+        title: l10n.snriMilestone1095Title,
+        description: l10n.snriMilestone1095Description,
+        reference: "Royal College of Psychiatrists - Stopping antidepressants",
+        link:
+            "https://www.rcpsych.ac.uk/mental-health/treatments-and-wellbeing/stopping-antidepressants",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.snriReferenceDay1095,
+        referenceContent:
+            "Three Years After SNRIs: Progress That Lasts\n\n"
+            "Source: Royal College of Psychiatrists — Stopping antidepressants\n\n"
+            "Withdrawal experiences differ from person to person. The Royal College notes that tapering speed should reflect the individual, treatment duration, prior withdrawal symptoms, and the medicine being taken.\n\n"
+            "No clinical guidance establishes three years as a universal SNRI recovery deadline. This milestone recognises the progress and stability you have maintained over three years.",
+      ),
+      QuitMilestone(
+        day: 1460,
+        title: l10n.snriMilestone1460Title,
+        description: l10n.snriMilestone1460Description,
+        reference: "Royal College of Psychiatrists - Stopping antidepressants",
+        link:
+            "https://www.rcpsych.ac.uk/mental-health/treatments-and-wellbeing/stopping-antidepressants",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.snriReferenceDay1460,
+        referenceContent:
+            "Four Years After SNRIs: Long-Term Progress\n\n"
+            "Source: Royal College of Psychiatrists — Stopping antidepressants\n\n"
+            "The Royal College describes antidepressant withdrawal as variable and recommends gradual, individualised dose reductions. Duloxetine and venlafaxine are listed among medicines with a higher risk of withdrawal symptoms.\n\n"
+            "That evidence does not create a four-year neurological milestone. Today is a celebration of four years of sustained progress, not a claim that every person follows the same biological timetable.",
+      ),
+      QuitMilestone(
+        day: 1825,
+        title: l10n.snriMilestone1825Title,
+        description: l10n.snriMilestone1825Description,
+        reference: "Royal College of Psychiatrists - Stopping antidepressants",
+        link:
+            "https://www.rcpsych.ac.uk/mental-health/treatments-and-wellbeing/stopping-antidepressants",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.snriReferenceDay1825,
+        referenceContent:
+            "Five Years After SNRIs: Five-Year Milestone\n\n"
+            "Source: Royal College of Psychiatrists — Stopping antidepressants\n\n"
+            "The Royal College guidance focuses on safe, individualised tapering and on responding to withdrawal symptoms rather than assigning one fixed recovery schedule to everyone.\n\n"
+            "There is no evidence-based five-year SNRI recovery threshold in that guidance. Five years is still a meaningful personal anniversary and a strong marker of long-term progress.",
+      ),
     ];
   }
 
