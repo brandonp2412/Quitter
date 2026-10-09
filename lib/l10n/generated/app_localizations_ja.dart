@@ -4204,4 +4204,48 @@ class AppLocalizationsJa extends AppLocalizations {
   @override
   String get nitrousOxideReferenceDay1825 =>
       '5年 - 長く続く変化\n\n出典: Marsden、Sharma、Rotella（2022）、慢性的な亜酸化窒素使用に関する系統的レビュー。\n\nこのレビューでは、神経学的問題が慢性使用の代表的な所見で、ビタミンB12補充が主な治療であり、部分的な回復が最も多く報告された転帰でした。一律の数年単位の回復スケジュールは示されていません。\n\n亜酸化窒素を使わず5年は、持続した変化の半 दशकです。5年で神経がリセットされるという根拠はありません。1825日間方向を保ったことが、この節目の意味です。';
+
+  @override
+  String get socialMediaMilestone730Title => '2年：時間を取り戻した';
+
+  @override
+  String get socialMediaMilestone730Description =>
+      '自分の注意をどこに向けるかを選び続けて2年。最初は「休む」ことだったものが、今ではフィードに一日のリズムを決められない安定した暮らし方になっています。';
+
+  @override
+  String get socialMediaReferenceDay730 =>
+      'ソーシャルメディアを適切な位置に置いて2年\n\n出典：Ramadhan ら「Impacts of digital social media detox for mental health: A systematic review and meta-analysis」Narra J（2024）、PubMed PMID 39280291\n\nこのメタ解析はデジタルデトックス介入の10研究を統合しました。抑うつ症状は全体として改善しましたが、生活満足度、ストレス、全般的な精神的ウェルビーイングでは統合効果は統計学的に有意ではありませんでした。\n\nこれらの研究は「2年で健康が切り替わる」という基準を示していません。730日は、生物学的なリセット日ではなく、意識的なデジタル選択を2年間続けた節目です。';
+
+  @override
+  String get socialMediaMilestone1095Title => '3年：注意は自分のもの';
+
+  @override
+  String get socialMediaMilestone1095Description =>
+      '3年、つまり1,095日間、ソーシャルメディアを必要な位置に置き続けてきました。日課、人間関係、何もしない時間まで、意識的な選択を軸に育ててきた年月です。';
+
+  @override
+  String get socialMediaReferenceDay1095 =>
+      '3年：注意を自分の意思で使う\n\n出典：Ramadhan ら「Impacts of digital social media detox for mental health: A systematic review and meta-analysis」Narra J（2024）、PubMed PMID 39280291\n\nこのメタ解析はデジタルデトックス介入の10研究を統合しました。抑うつ症状は全体として改善しましたが、生活満足度、ストレス、全般的な精神的ウェルビーイングでは統合効果は統計学的に有意ではありませんでした。\n\n研究は1,095日を精神面や神経学的な終点とは定義していません。この節目は、デジタル習慣を3年間意識して選び続けたことを祝うものです。';
+
+  @override
+  String get socialMediaMilestone1460Title => '4年：意識的な選択が日常';
+
+  @override
+  String get socialMediaMilestone1460Description =>
+      '4年間続いた変化は、もう実験ではありません。季節の変化やストレス、退屈、新しい生活リズムを越えて続いたこと自体が大きな節目です。';
+
+  @override
+  String get socialMediaReferenceDay1460 =>
+      '4年：意識的な選択が日常に\n\n出典：Ramadhan ら「Impacts of digital social media detox for mental health: A systematic review and meta-analysis」Narra J（2024）、PubMed PMID 39280291\n\nこのメタ解析はデジタルデトックス介入の10研究を統合しました。抑うつ症状は全体として改善しましたが、生活満足度、ストレス、全般的な精神的ウェルビーイングでは統合効果は統計学的に有意ではありませんでした。\n\nこのレビューは4年間の離脱・減量効果を検証していません。1,460日は医学的な期限ではなく、日常の中でより健全な境界を4年間保った行動上の節目です。';
+
+  @override
+  String get socialMediaMilestone1825Title => '5年：フィードの外へ';
+
+  @override
+  String get socialMediaMilestone1825Description =>
+      '5年は、意識的なデジタル生活を続けた大きな節目です。その境界線は、証明し続ける課題ではなく、すでに暮らし方の一部になっています。';
+
+  @override
+  String get socialMediaReferenceDay1825 =>
+      '5年：フィードの外にある生活\n\n出典：Ramadhan ら「Impacts of digital social media detox for mental health: A systematic review and meta-analysis」Narra J（2024）、PubMed PMID 39280291\n\nこのメタ解析はデジタルデトックス介入の10研究を統合しました。抑うつ症状は全体として改善しましたが、生活満足度、ストレス、全般的な精神的ウェルビーイングでは統合効果は統計学的に有意ではありませんでした。\n\nこのレビューは5年後の結果を示していません。1,825日は、脳の「リセット時期」を作り上げることなく、意識的なデジタル選択を5年間続けた事実そのものを祝う日です。';
 }

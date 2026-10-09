@@ -4442,4 +4442,48 @@ class AppLocalizationsFr extends AppLocalizations {
   @override
   String get nitrousOxideReferenceDay1825 =>
       'Cinq ans - Changement qui dure\n\nSource : Marsden, Sharma et Rotella (2022), revue systématique de l’usage chronique de protoxyde d’azote.\n\nLa revue décrit les atteintes neurologiques comme caractéristiques de l’usage chronique, le remplacement de la vitamine B12 comme traitement principal et la récupération partielle comme l’issue la plus souvent rapportée. Elle ne définit aucun calendrier universel de récupération sur plusieurs années.\n\nCinq ans sans protoxyde d’azote représentent une demi-décennie de changement durable. Aucune date de « réinitialisation » neurologique à cinq ans n’est établie par les preuves ; le cap est celui de 1825 jours dans la même direction.';
+
+  @override
+  String get socialMediaMilestone730Title => '2 ans : Temps retrouvé';
+
+  @override
+  String get socialMediaMilestone730Description =>
+      'Deux ans à choisir où va votre attention. Ce qui avait commencé comme une pause est devenu une manière de vivre durable, sans laisser le fil dicter le rythme de vos journées.';
+
+  @override
+  String get socialMediaReferenceDay730 =>
+      'Deux ans avec les réseaux à leur place\n\nSource : Ramadhan et al., « Impacts of digital social media detox for mental health: A systematic review and meta-analysis », Narra J (2024), PubMed PMID 39280291\n\nLa méta-analyse a regroupé 10 études sur des interventions de détox numérique. Les symptômes dépressifs ont diminué globalement ; aucun effet combiné statistiquement significatif n’a été observé sur la satisfaction de vie, le stress ou le bien-être mental global.\n\nLes interventions étudiées n’établissent aucun seuil de santé à deux ans. Le jour 730 célèbre deux années de choix numériques intentionnels, pas une date de « réinitialisation » biologique.';
+
+  @override
+  String get socialMediaMilestone1095Title => '3 ans : Attention maîtrisée';
+
+  @override
+  String get socialMediaMilestone1095Description =>
+      'Trois ans, soit 1 095 jours à garder les réseaux sociaux à leur juste place. Vos routines, vos relations et vos temps calmes ont eu des années pour se construire autour de choix délibérés.';
+
+  @override
+  String get socialMediaReferenceDay1095 =>
+      'Trois ans : votre attention, vos règles\n\nSource : Ramadhan et al., « Impacts of digital social media detox for mental health: A systematic review and meta-analysis », Narra J (2024), PubMed PMID 39280291\n\nLa méta-analyse a regroupé 10 études sur des interventions de détox numérique. Les symptômes dépressifs ont diminué globalement ; aucun effet combiné statistiquement significatif n’a été observé sur la satisfaction de vie, le stress ou le bien-être mental global.\n\nLa recherche ne définit pas 1 095 jours comme un point final psychique ou neurologique. Ce cap célèbre trois ans d’habitudes numériques choisies.';
+
+  @override
+  String get socialMediaMilestone1460Title => '4 ans : Choix devenus naturels';
+
+  @override
+  String get socialMediaMilestone1460Description =>
+      'Quatre ans de changement maintenu, ce n’est plus une expérience. Votre habitude a traversé les saisons, le stress, l’ennui et de nouvelles routines. Cette constance est le cap à célébrer.';
+
+  @override
+  String get socialMediaReferenceDay1460 =>
+      'Quatre ans : le choix conscient est devenu naturel\n\nSource : Ramadhan et al., « Impacts of digital social media detox for mental health: A systematic review and meta-analysis », Narra J (2024), PubMed PMID 39280291\n\nLa méta-analyse a regroupé 10 études sur des interventions de détox numérique. Les symptômes dépressifs ont diminué globalement ; aucun effet combiné statistiquement significatif n’a été observé sur la satisfaction de vie, le stress ou le bien-être mental global.\n\nLa revue n’étudie pas un cap de quatre ans. Le jour 1 460 est un anniversaire comportemental : quatre années à maintenir une limite plus saine dans la vie quotidienne.';
+
+  @override
+  String get socialMediaMilestone1825Title => '5 ans : Au-delà du fil';
+
+  @override
+  String get socialMediaMilestone1825Description =>
+      'Cinq ans, c’est une demi-décennie de vie numérique intentionnelle. La limite est devenue une partie de votre façon de vivre, pas quelque chose que vous devez encore prouver.';
+
+  @override
+  String get socialMediaReferenceDay1825 =>
+      'Cinq ans : la vie au-delà du fil\n\nSource : Ramadhan et al., « Impacts of digital social media detox for mental health: A systematic review and meta-analysis », Narra J (2024), PubMed PMID 39280291\n\nLa méta-analyse a regroupé 10 études sur des interventions de détox numérique. Les symptômes dépressifs ont diminué globalement ; aucun effet combiné statistiquement significatif n’a été observé sur la satisfaction de vie, le stress ou le bien-être mental global.\n\nLa revue n’établit pas de résultats à cinq ans. Le jour 1 825 célèbre une demi-décennie de choix numériques intentionnels, sans inventer de calendrier neurologique.';
 }

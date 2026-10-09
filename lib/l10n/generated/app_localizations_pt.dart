@@ -4418,6 +4418,50 @@ class AppLocalizationsPt extends AppLocalizations {
   @override
   String get nitrousOxideReferenceDay1825 =>
       'Cinco anos - Mudança que perdura\n\nFonte: Marsden, Sharma e Rotella (2022), revisão sistemática do uso crónico de óxido nitroso.\n\nA revisão identificou problemas neurológicos como característicos do uso crónico, a reposição de vitamina B12 como principal tratamento e a recuperação parcial como o resultado mais relatado. Não definiu um calendário universal de recuperação ao longo de vários anos.\n\nCinco anos sem óxido nitroso são meia década de mudança sustentada. Não existe uma data de reinício neurológico aos cinco anos baseada em evidência; o marco são 1825 dias a manter a direção.';
+
+  @override
+  String get socialMediaMilestone730Title => '2 anos: Tempo recuperado';
+
+  @override
+  String get socialMediaMilestone730Description =>
+      'Há dois anos que decide onde coloca a sua atenção. O que começou como uma pausa tornou-se uma forma de viver duradoura, sem deixar o feed ditar o ritmo do seu dia.';
+
+  @override
+  String get socialMediaReferenceDay730 =>
+      'Dois anos com as redes sociais no devido lugar\n\nFonte: Ramadhan et al., “Impacts of digital social media detox for mental health: A systematic review and meta-analysis”, Narra J (2024), PubMed PMID 39280291\n\nA meta-análise reuniu 10 estudos sobre intervenções de detox digital. No conjunto, os sintomas depressivos diminuíram; não houve efeitos combinados estatisticamente significativos na satisfação com a vida, stress ou bem-estar mental geral.\n\nAs intervenções estudadas não estabelecem um limiar de saúde aos dois anos. O dia 730 celebra dois anos de escolhas digitais intencionais, não uma data de reinício biológico.';
+
+  @override
+  String get socialMediaMilestone1095Title => '3 anos: Atenção nas suas mãos';
+
+  @override
+  String get socialMediaMilestone1095Description =>
+      'Três anos são 1 095 dias a manter as redes sociais no lugar certo. Rotinas, relações e tempo livre tiveram anos para crescer em torno de escolhas conscientes.';
+
+  @override
+  String get socialMediaReferenceDay1095 =>
+      'Três anos: atenção nos seus termos\n\nFonte: Ramadhan et al., “Impacts of digital social media detox for mental health: A systematic review and meta-analysis”, Narra J (2024), PubMed PMID 39280291\n\nA meta-análise reuniu 10 estudos sobre intervenções de detox digital. No conjunto, os sintomas depressivos diminuíram; não houve efeitos combinados estatisticamente significativos na satisfação com a vida, stress ou bem-estar mental geral.\n\nA investigação não define 1 095 dias como um ponto final de saúde mental ou neurológica. Este marco celebra três anos de hábitos digitais deliberados.';
+
+  @override
+  String get socialMediaMilestone1460Title => '4 anos: Escolha consciente';
+
+  @override
+  String get socialMediaMilestone1460Description =>
+      'Quatro anos de mudança sustentada já não são uma experiência. O hábito atravessou fases diferentes, stress, tédio e novas rotinas. Essa consistência é o marco.';
+
+  @override
+  String get socialMediaReferenceDay1460 =>
+      'Quatro anos: escolha consciente por defeito\n\nFonte: Ramadhan et al., “Impacts of digital social media detox for mental health: A systematic review and meta-analysis”, Narra J (2024), PubMed PMID 39280291\n\nA meta-análise reuniu 10 estudos sobre intervenções de detox digital. No conjunto, os sintomas depressivos diminuíram; não houve efeitos combinados estatisticamente significativos na satisfação com a vida, stress ou bem-estar mental geral.\n\nA revisão não testa um marco de quatro anos. O dia 1 460 é um aniversário comportamental: quatro anos a manter um limite mais saudável na vida quotidiana.';
+
+  @override
+  String get socialMediaMilestone1825Title => '5 anos: Para lá do feed';
+
+  @override
+  String get socialMediaMilestone1825Description =>
+      'Cinco anos são meia década de vida digital intencional. Manteve o limite tempo suficiente para que faça parte da forma como vive, e não de algo que ainda tenha de provar.';
+
+  @override
+  String get socialMediaReferenceDay1825 =>
+      'Cinco anos: vida para lá do feed\n\nFonte: Ramadhan et al., “Impacts of digital social media detox for mental health: A systematic review and meta-analysis”, Narra J (2024), PubMed PMID 39280291\n\nA meta-análise reuniu 10 estudos sobre intervenções de detox digital. No conjunto, os sintomas depressivos diminuíram; não houve efeitos combinados estatisticamente significativos na satisfação com a vida, stress ou bem-estar mental geral.\n\nA revisão não estabelece resultados a cinco anos. O dia 1 825 celebra meia década de escolhas digitais intencionais, sem inventar um prazo para um “reinício” cerebral.';
 }
 
 /// The translations for Portuguese, as used in Brazil (`pt_BR`).
@@ -8834,4 +8878,48 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
   @override
   String get nitrousOxideReferenceDay1825 =>
       'Cinco anos - Mudança que permanece\n\nFonte: Marsden, Sharma e Rotella (2022), revisão sistemática do uso crônico de óxido nitroso.\n\nA revisão encontrou problemas neurológicos como característica do uso crônico, reposição de vitamina B12 como principal tratamento e recuperação parcial como o resultado mais relatado. Ela não definiu um cronograma universal de recuperação de vários anos.\n\nCinco anos sem óxido nitroso são meia década de mudança sustentada. Não existe uma data de reinício neurológico aos cinco anos baseada em evidências; o marco são 1825 dias mantendo a direção.';
+
+  @override
+  String get socialMediaMilestone730Title => '2 anos: Tempo recuperado';
+
+  @override
+  String get socialMediaMilestone730Description =>
+      'Há dois anos você decide para onde vai sua atenção. O que começou como uma pausa virou um jeito duradouro de viver, sem deixar o feed ditar o ritmo do seu dia.';
+
+  @override
+  String get socialMediaReferenceDay730 =>
+      'Dois anos com as redes sociais no lugar certo\n\nFonte: Ramadhan et al., “Impacts of digital social media detox for mental health: A systematic review and meta-analysis”, Narra J (2024), PubMed PMID 39280291\n\nA meta-análise reuniu 10 estudos sobre intervenções de detox digital. No conjunto, os sintomas depressivos diminuíram; não houve efeitos combinados estatisticamente significativos sobre satisfação com a vida, estresse ou bem-estar mental geral.\n\nAs intervenções estudadas não estabelecem um limiar de saúde aos dois anos. O dia 730 celebra dois anos de escolhas digitais intencionais, não uma data de reinício biológico.';
+
+  @override
+  String get socialMediaMilestone1095Title => '3 anos: Atenção nas suas mãos';
+
+  @override
+  String get socialMediaMilestone1095Description =>
+      'Três anos são 1.095 dias mantendo as redes sociais no lugar certo. Suas rotinas, relações e tempo livre tiveram anos para crescer em torno de escolhas conscientes.';
+
+  @override
+  String get socialMediaReferenceDay1095 =>
+      'Três anos: atenção nos seus termos\n\nFonte: Ramadhan et al., “Impacts of digital social media detox for mental health: A systematic review and meta-analysis”, Narra J (2024), PubMed PMID 39280291\n\nA meta-análise reuniu 10 estudos sobre intervenções de detox digital. No conjunto, os sintomas depressivos diminuíram; não houve efeitos combinados estatisticamente significativos sobre satisfação com a vida, estresse ou bem-estar mental geral.\n\nA pesquisa não define 1.095 dias como um ponto final de saúde mental ou neurológica. Este marco celebra três anos de hábitos digitais deliberados.';
+
+  @override
+  String get socialMediaMilestone1460Title => '4 anos: Escolha consciente';
+
+  @override
+  String get socialMediaMilestone1460Description =>
+      'Quatro anos de mudança sustentada já não são um experimento. O hábito passou por fases diferentes, estresse, tédio e novas rotinas. Essa constância é o marco.';
+
+  @override
+  String get socialMediaReferenceDay1460 =>
+      'Quatro anos: escolha consciente como padrão\n\nFonte: Ramadhan et al., “Impacts of digital social media detox for mental health: A systematic review and meta-analysis”, Narra J (2024), PubMed PMID 39280291\n\nA meta-análise reuniu 10 estudos sobre intervenções de detox digital. No conjunto, os sintomas depressivos diminuíram; não houve efeitos combinados estatisticamente significativos sobre satisfação com a vida, estresse ou bem-estar mental geral.\n\nA revisão não testa um marco de quatro anos. O dia 1.460 é um aniversário comportamental: quatro anos mantendo um limite mais saudável na vida cotidiana.';
+
+  @override
+  String get socialMediaMilestone1825Title => '5 anos: Além do feed';
+
+  @override
+  String get socialMediaMilestone1825Description =>
+      'Cinco anos são meia década de vida digital intencional. Você manteve esse limite por tempo suficiente para ele fazer parte de como vive, e não de algo que ainda precise provar.';
+
+  @override
+  String get socialMediaReferenceDay1825 =>
+      'Cinco anos: vida além do feed\n\nFonte: Ramadhan et al., “Impacts of digital social media detox for mental health: A systematic review and meta-analysis”, Narra J (2024), PubMed PMID 39280291\n\nA meta-análise reuniu 10 estudos sobre intervenções de detox digital. No conjunto, os sintomas depressivos diminuíram; não houve efeitos combinados estatisticamente significativos sobre satisfação com a vida, estresse ou bem-estar mental geral.\n\nA revisão não estabelece resultados a cinco anos. O dia 1.825 celebra meia década de escolhas digitais intencionais, sem inventar um prazo de “reinício” cerebral.';
 }

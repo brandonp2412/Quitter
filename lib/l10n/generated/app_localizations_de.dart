@@ -4404,4 +4404,49 @@ class AppLocalizationsDe extends AppLocalizations {
   @override
   String get nitrousOxideReferenceDay1825 =>
       'Fünf Jahre - Dauerhafte Veränderung\n\nQuelle: Marsden, Sharma & Rotella (2022), systematische Übersichtsarbeit zu chronischem Lachgasmissbrauch.\n\nDie Übersichtsarbeit beschreibt neurologische Probleme als typische Folge chronischen Lachgasmissbrauchs, Vitamin-B12-Ersatz als wichtigste Behandlung und eine teilweise Erholung als am häufigsten berichtetes Ergebnis. Einen allgemeinen mehrjährigen Erholungszeitplan legt sie nicht fest.\n\nFünf Jahre ohne Lachgas sind ein halbes Jahrzehnt anhaltender Veränderung. Es gibt keinen evidenzbasierten neurologischen Reset nach fünf Jahren; der Meilenstein sind 1825 Tage beständige Richtung.';
+
+  @override
+  String get socialMediaMilestone730Title => '2 Jahre: Zeit zurück';
+
+  @override
+  String get socialMediaMilestone730Description =>
+      'Seit zwei Jahren entscheiden Sie selbst, wohin Ihre Aufmerksamkeit geht. Aus einer Pause ist eine stabile Lebensweise geworden, in der der Feed nicht mehr den Takt des Tages vorgibt.';
+
+  @override
+  String get socialMediaReferenceDay730 =>
+      'Zwei Jahre mit sozialen Medien an ihrem Platz\n\nQuelle: Ramadhan et al., „Impacts of digital social media detox for mental health: A systematic review and meta-analysis“, Narra J (2024), PubMed PMID 39280291\n\nDie Metaanalyse fasste 10 Studien zu Digital-Detox-Interventionen zusammen. Depressive Symptome gingen insgesamt zurück; für Lebenszufriedenheit, Stress und allgemeines psychisches Wohlbefinden zeigten sich keine statistisch signifikanten gepoolten Effekte.\n\nDie untersuchten Interventionen belegen keinen gesundheitlichen Schwellenwert nach zwei Jahren. Tag 730 feiert zwei Jahre bewusster digitaler Entscheidungen, nicht einen biologischen Reset.';
+
+  @override
+  String get socialMediaMilestone1095Title =>
+      '3 Jahre: Aufmerksamkeit bei Ihnen';
+
+  @override
+  String get socialMediaMilestone1095Description =>
+      'Drei Jahre sind 1.095 Tage, in denen soziale Medien ihren Platz behalten haben. Routinen, Beziehungen und freie Zeit konnten sich jahrelang um bewusste Entscheidungen herum entwickeln.';
+
+  @override
+  String get socialMediaReferenceDay1095 =>
+      'Drei Jahre: Aufmerksamkeit nach Ihren Regeln\n\nQuelle: Ramadhan et al., „Impacts of digital social media detox for mental health: A systematic review and meta-analysis“, Narra J (2024), PubMed PMID 39280291\n\nDie Metaanalyse fasste 10 Studien zu Digital-Detox-Interventionen zusammen. Depressive Symptome gingen insgesamt zurück; für Lebenszufriedenheit, Stress und allgemeines psychisches Wohlbefinden zeigten sich keine statistisch signifikanten gepoolten Effekte.\n\nDie Forschung definiert 1.095 Tage nicht als psychischen oder neurologischen Endpunkt. Dieser Meilenstein würdigt drei Jahre bewusst gesteuerter digitaler Gewohnheiten.';
+
+  @override
+  String get socialMediaMilestone1460Title => '4 Jahre: Bewusst als Standard';
+
+  @override
+  String get socialMediaMilestone1460Description =>
+      'Vier Jahre beständiger Veränderung sind kein Experiment mehr. Ihre Gewohnheit hat wechselnde Lebensphasen, Stress, Langeweile und neue Routinen überstanden. Genau diese Beständigkeit ist der Meilenstein.';
+
+  @override
+  String get socialMediaReferenceDay1460 =>
+      'Vier Jahre: Bewusst als Standard\n\nQuelle: Ramadhan et al., „Impacts of digital social media detox for mental health: A systematic review and meta-analysis“, Narra J (2024), PubMed PMID 39280291\n\nDie Metaanalyse fasste 10 Studien zu Digital-Detox-Interventionen zusammen. Depressive Symptome gingen insgesamt zurück; für Lebenszufriedenheit, Stress und allgemeines psychisches Wohlbefinden zeigten sich keine statistisch signifikanten gepoolten Effekte.\n\nDie Metaanalyse untersucht keinen Vierjahres-Meilenstein. Tag 1.460 ist ein Verhaltensjubiläum: vier Jahre einer stabilen, gesünderen Grenze im Alltag.';
+
+  @override
+  String get socialMediaMilestone1825Title => '5 Jahre: Jenseits des Feeds';
+
+  @override
+  String get socialMediaMilestone1825Description =>
+      'Fünf Jahre sind ein halbes Jahrzehnt bewussten digitalen Lebens. Die Grenze besteht lange genug, um Teil Ihres Alltags zu sein, nicht etwas, das Sie noch beweisen müssen.';
+
+  @override
+  String get socialMediaReferenceDay1825 =>
+      'Fünf Jahre: Leben jenseits des Feeds\n\nQuelle: Ramadhan et al., „Impacts of digital social media detox for mental health: A systematic review and meta-analysis“, Narra J (2024), PubMed PMID 39280291\n\nDie Metaanalyse fasste 10 Studien zu Digital-Detox-Interventionen zusammen. Depressive Symptome gingen insgesamt zurück; für Lebenszufriedenheit, Stress und allgemeines psychisches Wohlbefinden zeigten sich keine statistisch signifikanten gepoolten Effekte.\n\nDie Studie belegt keine Fünfjahresergebnisse. Tag 1.825 feiert ein halbes Jahrzehnt bewusster digitaler Entscheidungen, ohne eine erfundene neurologische Frist.';
 }

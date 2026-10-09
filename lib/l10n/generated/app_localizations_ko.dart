@@ -4248,4 +4248,48 @@ class AppLocalizationsKo extends AppLocalizations {
   @override
   String get nitrousOxideReferenceDay1825 =>
       '5년 - 오래가는 변화\n\n출처: Marsden, Sharma, Rotella(2022), 만성 아산화질소 사용에 대한 체계적 문헌고찰.\n\n이 문헌고찰은 만성 사용에서 신경학적 문제가 특징적이고 비타민 B12 보충이 주된 치료이며 부분 회복이 가장 흔히 보고된 결과라고 정리했습니다. 보편적인 다년간 회복 일정은 제시하지 않았습니다.\n\n아산화질소 없이 5년은 지속적인 변화의 반십년입니다. 근거에 기반한 5년 신경학적 리셋 시점은 없으며, 1825일 동안 방향을 유지한 것이 이정표입니다.';
+
+  @override
+  String get socialMediaMilestone730Title => '2년: 되찾은 시간';
+
+  @override
+  String get socialMediaMilestone730Description =>
+      '주의를 어디에 둘지 스스로 선택한 지 2년입니다. 잠깐의 휴식으로 시작한 변화가 이제는 피드가 하루의 리듬을 정하지 않는 안정된 생활 방식이 되었습니다.';
+
+  @override
+  String get socialMediaReferenceDay730 =>
+      '소셜 미디어를 제자리에 둔 2년\n\n출처: Ramadhan 외, “Impacts of digital social media detox for mental health: A systematic review and meta-analysis”, Narra J (2024), PubMed PMID 39280291\n\n이 메타분석은 디지털 디톡스 개입 10개 연구를 종합했습니다. 우울 증상은 전체적으로 감소했지만, 삶의 만족도·스트레스·전반적 정신적 웰빙에 대한 통합 효과는 통계적으로 유의하지 않았습니다.\n\n포함된 연구는 2년이라는 건강 기준점을 제시하지 않습니다. 730일은 생물학적 리셋 날짜가 아니라, 의식적인 디지털 선택을 2년간 이어 온 성취입니다.';
+
+  @override
+  String get socialMediaMilestone1095Title => '3년: 주의의 주인은 나';
+
+  @override
+  String get socialMediaMilestone1095Description =>
+      '3년, 즉 1,095일 동안 소셜 미디어를 제자리에 두었습니다. 일상, 관계, 쉬는 시간까지 의식적인 선택을 중심으로 자라 온 시간입니다.';
+
+  @override
+  String get socialMediaReferenceDay1095 =>
+      '3년: 주의를 내 뜻대로\n\n출처: Ramadhan 외, “Impacts of digital social media detox for mental health: A systematic review and meta-analysis”, Narra J (2024), PubMed PMID 39280291\n\n이 메타분석은 디지털 디톡스 개입 10개 연구를 종합했습니다. 우울 증상은 전체적으로 감소했지만, 삶의 만족도·스트레스·전반적 정신적 웰빙에 대한 통합 효과는 통계적으로 유의하지 않았습니다.\n\n연구는 1,095일을 정신건강 또는 신경학적 종착점으로 정의하지 않습니다. 이 이정표는 디지털 습관을 3년간 의식적으로 관리해 온 시간을 기념합니다.';
+
+  @override
+  String get socialMediaMilestone1460Title => '4년: 의식적 선택이 기본';
+
+  @override
+  String get socialMediaMilestone1460Description =>
+      '4년간 이어진 변화는 더 이상 실험이 아닙니다. 계절과 스트레스, 지루함, 새로운 일상을 지나도 유지되었습니다. 그 꾸준함 자체가 이정표입니다.';
+
+  @override
+  String get socialMediaReferenceDay1460 =>
+      '4년: 의식적 선택이 기본이 되다\n\n출처: Ramadhan 외, “Impacts of digital social media detox for mental health: A systematic review and meta-analysis”, Narra J (2024), PubMed PMID 39280291\n\n이 메타분석은 디지털 디톡스 개입 10개 연구를 종합했습니다. 우울 증상은 전체적으로 감소했지만, 삶의 만족도·스트레스·전반적 정신적 웰빙에 대한 통합 효과는 통계적으로 유의하지 않았습니다.\n\n이 리뷰는 4년 장기 결과를 검증하지 않았습니다. 1,460일은 의학적 시한이 아니라 일상 속에서 더 건강한 경계를 4년간 유지한 행동의 기념일입니다.';
+
+  @override
+  String get socialMediaMilestone1825Title => '5년: 피드 너머의 삶';
+
+  @override
+  String get socialMediaMilestone1825Description =>
+      '5년은 의도적인 디지털 생활을 이어 온 큰 이정표입니다. 이 경계는 더 이상 증명해야 할 과제가 아니라 생활 방식의 한 부분이 되었습니다.';
+
+  @override
+  String get socialMediaReferenceDay1825 =>
+      '5년: 피드 너머의 삶\n\n출처: Ramadhan 외, “Impacts of digital social media detox for mental health: A systematic review and meta-analysis”, Narra J (2024), PubMed PMID 39280291\n\n이 메타분석은 디지털 디톡스 개입 10개 연구를 종합했습니다. 우울 증상은 전체적으로 감소했지만, 삶의 만족도·스트레스·전반적 정신적 웰빙에 대한 통합 효과는 통계적으로 유의하지 않았습니다.\n\n이 리뷰는 5년 결과를 확립하지 않습니다. 1,825일은 ‘뇌 리셋’ 시점을 만들어내지 않고도, 의도적인 디지털 선택을 5년 동안 유지한 사실 자체를 축하할 이유입니다.';
 }

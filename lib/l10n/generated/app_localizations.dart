@@ -7337,6 +7337,78 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Five Years - Lasting Change\n\nSource: Marsden, Sharma & Rotella (2022), systematic review of chronic nitrous oxide misuse.\n\nThe review found neurological problems were characteristic of chronic nitrous oxide misuse, vitamin B12 replacement was the main treatment, and partial recovery was the most commonly reported outcome. It did not define a universal multi-year recovery timetable.\n\nFive years without nitrous oxide is half a decade of sustained change. There is no evidence-based five-year neurological reset date; 1825 days of maintained direction is the milestone.'**
   String get nitrousOxideReferenceDay1825;
+
+  /// No description provided for @socialMediaMilestone730Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Two Years: Time Reclaimed'**
+  String get socialMediaMilestone730Title;
+
+  /// No description provided for @socialMediaMilestone730Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Two years of choosing where your attention goes. What began as a break is now a durable way of living, with the feed no longer setting the rhythm of your day.'**
+  String get socialMediaMilestone730Description;
+
+  /// No description provided for @socialMediaReferenceDay730.
+  ///
+  /// In en, this message translates to:
+  /// **'Two Years With Social Media in Its Place\n\nSource: Ramadhan et al., “Impacts of digital social media detox for mental health: A systematic review and meta-analysis,” Narra J (2024), PubMed PMID 39280291\n\nThe meta-analysis combined 10 studies of digital-detox interventions. Depressive symptoms improved overall; pooled effects on life satisfaction, stress, and overall mental well-being were not statistically significant.\n\nThe included interventions do not establish a two-year health threshold. Day 730 celebrates two years of sustained, intentional digital choices, not a biological reset deadline.'**
+  String get socialMediaReferenceDay730;
+
+  /// No description provided for @socialMediaMilestone1095Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Three Years: Attention Yours'**
+  String get socialMediaMilestone1095Title;
+
+  /// No description provided for @socialMediaMilestone1095Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Three years is 1,095 days of keeping social media in its place. Your routines, relationships, and downtime have had years to grow around choices you make deliberately.'**
+  String get socialMediaMilestone1095Description;
+
+  /// No description provided for @socialMediaReferenceDay1095.
+  ///
+  /// In en, this message translates to:
+  /// **'Three Years: Attention on Your Terms\n\nSource: Ramadhan et al., “Impacts of digital social media detox for mental health: A systematic review and meta-analysis,” Narra J (2024), PubMed PMID 39280291\n\nThe meta-analysis combined 10 studies of digital-detox interventions. Depressive symptoms improved overall; pooled effects on life satisfaction, stress, and overall mental well-being were not statistically significant.\n\nThe research does not define 1,095 days as a mental-health or neurological endpoint. This milestone celebrates three years of keeping your digital habits deliberate.'**
+  String get socialMediaReferenceDay1095;
+
+  /// No description provided for @socialMediaMilestone1460Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Four Years: Deliberate by Default'**
+  String get socialMediaMilestone1460Title;
+
+  /// No description provided for @socialMediaMilestone1460Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Four years of sustained change is no experiment. The habit you built has lasted through changing seasons, stress, boredom, and new routines. That consistency is the milestone.'**
+  String get socialMediaMilestone1460Description;
+
+  /// No description provided for @socialMediaReferenceDay1460.
+  ///
+  /// In en, this message translates to:
+  /// **'Four Years: Deliberate by Default\n\nSource: Ramadhan et al., “Impacts of digital social media detox for mental health: A systematic review and meta-analysis,” Narra J (2024), PubMed PMID 39280291\n\nThe meta-analysis combined 10 studies of digital-detox interventions. Depressive symptoms improved overall; pooled effects on life satisfaction, stress, and overall mental well-being were not statistically significant.\n\nThe review does not test a four-year abstinence or reduction milestone. Day 1,460 is a behavioural anniversary: four years of maintaining a healthier boundary through ordinary life.'**
+  String get socialMediaReferenceDay1460;
+
+  /// No description provided for @socialMediaMilestone1825Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Five Years: Beyond the Feed'**
+  String get socialMediaMilestone1825Title;
+
+  /// No description provided for @socialMediaMilestone1825Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Five years is half a decade of intentional digital life. You have maintained the boundary long enough for it to be part of how you live, not something you are still trying to prove.'**
+  String get socialMediaMilestone1825Description;
+
+  /// No description provided for @socialMediaReferenceDay1825.
+  ///
+  /// In en, this message translates to:
+  /// **'Five Years: Life Beyond the Feed\n\nSource: Ramadhan et al., “Impacts of digital social media detox for mental health: A systematic review and meta-analysis,” Narra J (2024), PubMed PMID 39280291\n\nThe meta-analysis combined 10 studies of digital-detox interventions. Depressive symptoms improved overall; pooled effects on life satisfaction, stress, and overall mental well-being were not statistically significant.\n\nThe review does not establish five-year outcomes. Day 1,825 is worth celebrating for what it actually is: half a decade of intentional digital choices, without an invented brain-reset timeline.'**
+  String get socialMediaReferenceDay1825;
 }
 
 class _AppLocalizationsDelegate

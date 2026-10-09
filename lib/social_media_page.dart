@@ -215,6 +215,78 @@ class SocialMediaPage extends StatelessWidget {
             "What Comes Next\n"
             "A year of deliberate change has reset the relationship. Whether you return to limited, intentional use or stay off entirely, the compulsive loop has been broken — and that is the durable win.",
       ),
+      QuitMilestone(
+        day: 730,
+        title: l10n.socialMediaMilestone730Title,
+        description: l10n.socialMediaMilestone730Description,
+        reference: "Ramadhan et al. - Digital social media detox meta-analysis",
+        link: "https://pubmed.ncbi.nlm.nih.gov/39280291/",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.socialMediaReferenceDay730,
+        referenceContent:
+            "Two Years With Social Media in Its Place\n\n"
+            "Source: Ramadhan et al., \"Impacts of digital social media detox for mental health: A systematic review and meta-analysis,\" Narra J (2024), PubMed PMID 39280291\n\n"
+            "What the Evidence Supports\n"
+            "The meta-analysis combined 10 studies of digital-detox interventions. Depressive symptoms improved overall; pooled effects on life satisfaction, stress, and overall mental well-being were not statistically significant.\n\n"
+            "What It Does Not Show\n"
+            "The included interventions do not establish a two-year health threshold. Day 730 is worth celebrating because you have sustained an intentional pattern for two years, not because research says a biological reset happens today.\n\n"
+            "Two Years Strong\n"
+            "Two years of deciding when, how, or whether to use the feed is a durable achievement in its own right.",
+      ),
+      QuitMilestone(
+        day: 1095,
+        title: l10n.socialMediaMilestone1095Title,
+        description: l10n.socialMediaMilestone1095Description,
+        reference: "Ramadhan et al. - Digital social media detox meta-analysis",
+        link: "https://pubmed.ncbi.nlm.nih.gov/39280291/",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.socialMediaReferenceDay1095,
+        referenceContent:
+            "Three Years: Attention on Your Terms\n\n"
+            "Source: Ramadhan et al., \"Impacts of digital social media detox for mental health: A systematic review and meta-analysis,\" Narra J (2024), PubMed PMID 39280291\n\n"
+            "What the Evidence Supports\n"
+            "Across 10 studies, digital-detox interventions were associated with lower depressive symptoms overall, while pooled effects on life satisfaction, stress, and overall mental well-being were not statistically significant.\n\n"
+            "No Three-Year Clinical Deadline\n"
+            "The research does not define 1,095 days as a mental-health or neurological endpoint. This milestone marks three years of keeping your digital habits deliberate without turning short-term evidence into a long-term medical promise.\n\n"
+            "Three Years Yours\n"
+            "Three years of protecting your attention through changing routines is sustained change worth celebrating.",
+      ),
+      QuitMilestone(
+        day: 1460,
+        title: l10n.socialMediaMilestone1460Title,
+        description: l10n.socialMediaMilestone1460Description,
+        reference: "Ramadhan et al. - Digital social media detox meta-analysis",
+        link: "https://pubmed.ncbi.nlm.nih.gov/39280291/",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.socialMediaReferenceDay1460,
+        referenceContent:
+            "Four Years: Deliberate by Default\n\n"
+            "Source: Ramadhan et al., \"Impacts of digital social media detox for mental health: A systematic review and meta-analysis,\" Narra J (2024), PubMed PMID 39280291\n\n"
+            "The Evidence Has Limits\n"
+            "The review found a pooled reduction in depressive symptoms after digital-detox interventions, but not significant pooled improvements in life satisfaction, stress, or overall mental well-being. It does not test a four-year abstinence or reduction milestone.\n\n"
+            "What Day 1,460 Means\n"
+            "Four years is therefore a behavioural anniversary, not a medical deadline. You have kept the healthier boundary through enough ordinary life for it to be a durable pattern rather than a temporary experiment.\n\n"
+            "Four Years Strong\n"
+            "Consistency across four years is the achievement.",
+      ),
+      QuitMilestone(
+        day: 1825,
+        title: l10n.socialMediaMilestone1825Title,
+        description: l10n.socialMediaMilestone1825Description,
+        reference: "Ramadhan et al. - Digital social media detox meta-analysis",
+        link: "https://pubmed.ncbi.nlm.nih.gov/39280291/",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.socialMediaReferenceDay1825,
+        referenceContent:
+            "Five Years: Life Beyond the Feed\n\n"
+            "Source: Ramadhan et al., \"Impacts of digital social media detox for mental health: A systematic review and meta-analysis,\" Narra J (2024), PubMed PMID 39280291\n\n"
+            "What the Research Says\n"
+            "The meta-analysis supports a modest pooled reduction in depressive symptoms from digital-detox interventions. It found no statistically significant pooled effect on life satisfaction, stress, or overall mental well-being, and it does not establish five-year outcomes.\n\n"
+            "Half a Decade\n"
+            "Day 1,825 is worth celebrating for what it actually is: five years of intentional digital choices. No invented brain-reset timeline is needed to make half a decade meaningful.\n\n"
+            "Built to Last\n"
+            "You have maintained the boundary long enough for it to be part of how you live.",
+      ),
     ];
   }
 

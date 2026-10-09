@@ -4320,4 +4320,48 @@ class AppLocalizationsFa extends AppLocalizations {
   @override
   String get nitrousOxideReferenceDay1825 =>
       'پنج سال - تغییر پایدار\n\nمنبع: Marsden، Sharma و Rotella ‏(۲۰۲۲)، مرور نظام‌مند مصرف مزمن نیتروس اکساید.\n\nاین مرور نشان داد مشکلات عصبی از ویژگی‌های مصرف مزمن است، جایگزینی ویتامین B12 درمان اصلی است و بهبود نسبی بیشترین پیامد گزارش‌شده بوده است. این مطالعه جدول زمانی چندساله و همگانی برای بهبود تعیین نکرد.\n\nپنج سال بدون نیتروس اکساید نیم‌دهه تغییر پایدار است. تاریخ مبتنی بر شواهدی برای «بازنشانی» عصبی در پنج سال وجود ندارد؛ نقطه عطف، ۱۸۲۵ روز حفظ مسیر است.';
+
+  @override
+  String get socialMediaMilestone730Title => 'دو سال: زمان پس‌گرفته';
+
+  @override
+  String get socialMediaMilestone730Description =>
+      'دو سال است که خودتان تصمیم می‌گیرید توجه‌تان را کجا صرف کنید. چیزی که با یک وقفه شروع شد، حالا به شیوه‌ای پایدار برای زندگی تبدیل شده و فید دیگر ریتم روزتان را تعیین نمی‌کند.';
+
+  @override
+  String get socialMediaReferenceDay730 =>
+      'دو سال با شبکه‌های اجتماعی در جای درست\n\nمنبع: Ramadhan و همکاران، “Impacts of digital social media detox for mental health: A systematic review and meta-analysis”، Narra J (2024)، PubMed PMID 39280291\n\nاین فراتحلیل ۱۰ مطالعه درباره مداخلات «سم‌زدایی دیجیتال» را ترکیب کرد. در مجموع علائم افسردگی کاهش یافت، اما اثر تجمیعی بر رضایت از زندگی، استرس و بهزیستی روانی کلی از نظر آماری معنادار نبود.\n\nاین پژوهش‌ها یک آستانهٔ سلامت دوساله تعیین نمی‌کنند. روز ۷۳۰ جشن دو سال انتخاب دیجیتال آگاهانه است، نه موعدی برای «بازنشانی» زیستی.';
+
+  @override
+  String get socialMediaMilestone1095Title => 'سه سال: توجه در اختیار شما';
+
+  @override
+  String get socialMediaMilestone1095Description =>
+      'سه سال یعنی ۱۰۹۵ روز که شبکه‌های اجتماعی را در جای خود نگه داشته‌اید. عادت‌ها، رابطه‌ها و زمان آزاد شما سال‌ها فرصت داشته‌اند حول انتخاب‌های آگاهانه رشد کنند.';
+
+  @override
+  String get socialMediaReferenceDay1095 =>
+      'سه سال: توجه طبق انتخاب شما\n\nمنبع: Ramadhan و همکاران، “Impacts of digital social media detox for mental health: A systematic review and meta-analysis”، Narra J (2024)، PubMed PMID 39280291\n\nاین فراتحلیل ۱۰ مطالعه درباره مداخلات «سم‌زدایی دیجیتال» را ترکیب کرد. در مجموع علائم افسردگی کاهش یافت، اما اثر تجمیعی بر رضایت از زندگی، استرس و بهزیستی روانی کلی از نظر آماری معنادار نبود.\n\nپژوهش ۱۰۹۵ روز را نقطهٔ پایان روانی یا عصب‌شناختی تعریف نمی‌کند. این نقطهٔ عطف، سه سال مدیریت آگاهانهٔ عادت‌های دیجیتال را جشن می‌گیرد.';
+
+  @override
+  String get socialMediaMilestone1460Title => 'چهار سال: انتخاب آگاهانه';
+
+  @override
+  String get socialMediaMilestone1460Description =>
+      'چهار سال تغییر پایدار دیگر یک آزمایش نیست. این عادت از تغییر شرایط، استرس، بی‌حوصلگی و برنامه‌های تازه عبور کرده است. همین ثبات، نقطهٔ عطف است.';
+
+  @override
+  String get socialMediaReferenceDay1460 =>
+      'چهار سال: انتخاب آگاهانه به عادت تبدیل شده\n\nمنبع: Ramadhan و همکاران، “Impacts of digital social media detox for mental health: A systematic review and meta-analysis”، Narra J (2024)، PubMed PMID 39280291\n\nاین فراتحلیل ۱۰ مطالعه درباره مداخلات «سم‌زدایی دیجیتال» را ترکیب کرد. در مجموع علائم افسردگی کاهش یافت، اما اثر تجمیعی بر رضایت از زندگی، استرس و بهزیستی روانی کلی از نظر آماری معنادار نبود.\n\nاین مرور، نتیجهٔ چهارساله را بررسی نکرده است. روز ۱۴۶۰ یک سالگرد رفتاری است: چهار سال حفظ مرزی سالم‌تر در زندگی روزمره.';
+
+  @override
+  String get socialMediaMilestone1825Title => 'پنج سال: فراتر از فید';
+
+  @override
+  String get socialMediaMilestone1825Description =>
+      'پنج سال یعنی نیم دهه زندگی دیجیتال آگاهانه. این مرز را آن‌قدر حفظ کرده‌اید که بخشی از شیوهٔ زندگی‌تان شده، نه چیزی که هنوز لازم باشد ثابتش کنید.';
+
+  @override
+  String get socialMediaReferenceDay1825 =>
+      'پنج سال: زندگی فراتر از فید\n\nمنبع: Ramadhan و همکاران، “Impacts of digital social media detox for mental health: A systematic review and meta-analysis”، Narra J (2024)، PubMed PMID 39280291\n\nاین فراتحلیل ۱۰ مطالعه درباره مداخلات «سم‌زدایی دیجیتال» را ترکیب کرد. در مجموع علائم افسردگی کاهش یافت، اما اثر تجمیعی بر رضایت از زندگی، استرس و بهزیستی روانی کلی از نظر آماری معنادار نبود.\n\nاین مرور نتیجهٔ پنج‌ساله‌ای تعیین نمی‌کند. روز ۱۸۲۵ نیم دهه انتخاب دیجیتال آگاهانه را جشن می‌گیرد، بدون ساختن جدول زمانی خیالی برای «بازنشانی مغز».';
 }

@@ -4389,4 +4389,48 @@ class AppLocalizationsId extends AppLocalizations {
   @override
   String get nitrousOxideReferenceDay1825 =>
       'Lima Tahun - Perubahan Langgeng\n\nSumber: Marsden, Sharma & Rotella (2022), tinjauan sistematis penggunaan kronis dinitrogen oksida.\n\nTinjauan tersebut menemukan masalah neurologis sebagai ciri penggunaan kronis, penggantian vitamin B12 sebagai terapi utama, dan pemulihan sebagian sebagai hasil yang paling sering dilaporkan. Tinjauan itu tidak menetapkan jadwal pemulihan universal selama bertahun-tahun.\n\nLima tahun tanpa dinitrogen oksida adalah setengah dekade perubahan berkelanjutan. Tidak ada tanggal reset neurologis lima tahun yang berbasis bukti; tonggaknya adalah 1825 hari mempertahankan arah.';
+
+  @override
+  String get socialMediaMilestone730Title => '2 Tahun: Waktu Kembali';
+
+  @override
+  String get socialMediaMilestone730Description =>
+      'Dua tahun memilih sendiri ke mana perhatian Anda pergi. Yang bermula sebagai jeda kini menjadi cara hidup yang tahan lama, tanpa linimasa menentukan ritme hari Anda.';
+
+  @override
+  String get socialMediaReferenceDay730 =>
+      'Dua tahun dengan media sosial pada porsinya\n\nSumber: Ramadhan dkk., “Impacts of digital social media detox for mental health: A systematic review and meta-analysis”, Narra J (2024), PubMed PMID 39280291\n\nMeta-analisis ini menggabungkan 10 studi tentang intervensi detoks digital. Secara keseluruhan gejala depresi menurun; efek gabungan pada kepuasan hidup, stres, dan kesejahteraan mental umum tidak signifikan secara statistik.\n\nIntervensi yang diteliti tidak menetapkan ambang kesehatan dua tahun. Hari ke-730 merayakan dua tahun pilihan digital yang disengaja, bukan tenggat pemulihan biologis.';
+
+  @override
+  String get socialMediaMilestone1095Title => '3 Tahun: Perhatian Milik Anda';
+
+  @override
+  String get socialMediaMilestone1095Description =>
+      'Tiga tahun berarti 1.095 hari menempatkan media sosial pada porsinya. Rutinitas, hubungan, dan waktu senggang Anda telah bertahun-tahun tumbuh di sekitar pilihan yang disengaja.';
+
+  @override
+  String get socialMediaReferenceDay1095 =>
+      'Tiga tahun: perhatian sesuai kendali Anda\n\nSumber: Ramadhan dkk., “Impacts of digital social media detox for mental health: A systematic review and meta-analysis”, Narra J (2024), PubMed PMID 39280291\n\nMeta-analisis ini menggabungkan 10 studi tentang intervensi detoks digital. Secara keseluruhan gejala depresi menurun; efek gabungan pada kepuasan hidup, stres, dan kesejahteraan mental umum tidak signifikan secara statistik.\n\nRiset tidak menetapkan 1.095 hari sebagai titik akhir kesehatan mental atau neurologis. Tonggak ini merayakan tiga tahun kebiasaan digital yang disengaja.';
+
+  @override
+  String get socialMediaMilestone1460Title => '4 Tahun: Sengaja Jadi Kebiasaan';
+
+  @override
+  String get socialMediaMilestone1460Description =>
+      'Empat tahun perubahan yang bertahan bukan lagi eksperimen. Kebiasaan ini sudah melewati perubahan musim hidup, stres, kebosanan, dan rutinitas baru. Konsistensi itulah pencapaiannya.';
+
+  @override
+  String get socialMediaReferenceDay1460 =>
+      'Empat tahun: pilihan sadar menjadi kebiasaan\n\nSumber: Ramadhan dkk., “Impacts of digital social media detox for mental health: A systematic review and meta-analysis”, Narra J (2024), PubMed PMID 39280291\n\nMeta-analisis ini menggabungkan 10 studi tentang intervensi detoks digital. Secara keseluruhan gejala depresi menurun; efek gabungan pada kepuasan hidup, stres, dan kesejahteraan mental umum tidak signifikan secara statistik.\n\nTinjauan ini tidak menguji tonggak empat tahun. Hari ke-1.460 adalah peringatan perilaku: empat tahun mempertahankan batas yang lebih sehat dalam kehidupan sehari-hari.';
+
+  @override
+  String get socialMediaMilestone1825Title => '5 Tahun: Di Luar Linimasa';
+
+  @override
+  String get socialMediaMilestone1825Description =>
+      'Lima tahun adalah setengah dekade kehidupan digital yang disengaja. Batas ini sudah cukup lama dipertahankan hingga menjadi bagian dari cara Anda hidup, bukan sesuatu yang masih perlu dibuktikan.';
+
+  @override
+  String get socialMediaReferenceDay1825 =>
+      'Lima tahun: hidup di luar linimasa\n\nSumber: Ramadhan dkk., “Impacts of digital social media detox for mental health: A systematic review and meta-analysis”, Narra J (2024), PubMed PMID 39280291\n\nMeta-analisis ini menggabungkan 10 studi tentang intervensi detoks digital. Secara keseluruhan gejala depresi menurun; efek gabungan pada kepuasan hidup, stres, dan kesejahteraan mental umum tidak signifikan secara statistik.\n\nTinjauan ini tidak menetapkan hasil lima tahun. Hari ke-1.825 merayakan setengah dekade pilihan digital yang disengaja tanpa mengarang jadwal “reset” otak.';
 }

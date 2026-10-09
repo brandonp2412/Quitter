@@ -4200,6 +4200,50 @@ class AppLocalizationsZh extends AppLocalizations {
   @override
   String get nitrousOxideReferenceDay1825 =>
       '五年 - 持久的改变\n\n来源：Marsden、Sharma 与 Rotella（2022），慢性一氧化二氮使用的系统综述。\n\n该综述指出，神经系统问题是慢性使用的典型表现，维生素B12替代是主要治疗方式，而部分恢复是最常报告的结局。综述并未给出通用于所有人的多年恢复时间表。\n\n停止使用一氧化二氮五年，是持续改变的半个十年。没有证据支持所谓五年神经系统“重置”日期；1825天持续保持方向本身就是里程碑。';
+
+  @override
+  String get socialMediaMilestone730Title => '2年：收回时间';
+
+  @override
+  String get socialMediaMilestone730Description =>
+      '两年来，您一直自己决定把注意力放在哪里。最初的一次暂停，已经变成稳定的生活方式，不再让信息流决定一天的节奏。';
+
+  @override
+  String get socialMediaReferenceDay730 =>
+      '两年：让社交媒体回到合适的位置\n\n来源：Ramadhan 等，《Impacts of digital social media detox for mental health: A systematic review and meta-analysis》，Narra J（2024），PubMed PMID 39280291\n\n这项荟萃分析汇总了10项数字排毒干预研究。总体上抑郁症状有所下降；对生活满意度、压力和整体心理福祉的合并效应则未达到统计学显著。\n\n这些研究并没有证明“两年”是某个健康阈值。第730天值得庆祝，是因为您持续两年做出了有意识的数字选择，而不是因为今天会发生某种生理重置。';
+
+  @override
+  String get socialMediaMilestone1095Title => '3年：注意力由您掌握';
+
+  @override
+  String get socialMediaMilestone1095Description =>
+      '三年就是1,095天始终把社交媒体放在合适的位置。您的日常、人际关系和空闲时间，已经围绕主动选择成长了好几年。';
+
+  @override
+  String get socialMediaReferenceDay1095 =>
+      '三年：注意力按您的规则分配\n\n来源：Ramadhan 等，《Impacts of digital social media detox for mental health: A systematic review and meta-analysis》，Narra J（2024），PubMed PMID 39280291\n\n这项荟萃分析汇总了10项数字排毒干预研究。总体上抑郁症状有所下降；对生活满意度、压力和整体心理福祉的合并效应则未达到统计学显著。\n\n研究并没有把1,095天定义为心理或神经学上的终点。这个里程碑庆祝的是三年来持续主动管理数字习惯。';
+
+  @override
+  String get socialMediaMilestone1460Title => '4年：主动选择成了日常';
+
+  @override
+  String get socialMediaMilestone1460Description =>
+      '持续四年的改变早已不是一次实验。它经受了生活变化、压力、无聊和新习惯。真正值得庆祝的，就是这份持续性。';
+
+  @override
+  String get socialMediaReferenceDay1460 =>
+      '四年：主动选择成为默认方式\n\n来源：Ramadhan 等，《Impacts of digital social media detox for mental health: A systematic review and meta-analysis》，Narra J（2024），PubMed PMID 39280291\n\n这项荟萃分析汇总了10项数字排毒干预研究。总体上抑郁症状有所下降；对生活满意度、压力和整体心理福祉的合并效应则未达到统计学显著。\n\n这篇综述没有检验四年期结果。第1,460天是行为上的周年节点：您已经在日常生活中维持更健康的边界整整四年。';
+
+  @override
+  String get socialMediaMilestone1825Title => '5年：生活不只在信息流';
+
+  @override
+  String get socialMediaMilestone1825Description =>
+      '五年是半个十年的有意识数字生活。这个边界维持得足够久，已经成为您的生活方式，而不是仍需证明的事情。';
+
+  @override
+  String get socialMediaReferenceDay1825 =>
+      '五年：生活不只在信息流\n\n来源：Ramadhan 等，《Impacts of digital social media detox for mental health: A systematic review and meta-analysis》，Narra J（2024），PubMed PMID 39280291\n\n这项荟萃分析汇总了10项数字排毒干预研究。总体上抑郁症状有所下降；对生活满意度、压力和整体心理福祉的合并效应则未达到统计学显著。\n\n这篇综述没有建立五年期结果。第1,825天值得庆祝，因为这是半个十年的有意识数字选择，无需编造所谓“脑重置”的时间表。';
 }
 
 /// The translations for Chinese, using the Han script (`zh_Hant`).
@@ -8398,4 +8442,48 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   @override
   String get nitrousOxideReferenceDay1825 =>
       '五年 - 持久的改變\n\n來源：Marsden、Sharma 與 Rotella（2022），慢性一氧化二氮使用的系統綜述。\n\n該綜述指出，神經系統問題是慢性使用的典型表現，維生素B12替代是主要治療方式，而部分恢復是最常報告的結果。綜述並未提出適用於所有人的多年恢復時間表。\n\n停止使用一氧化二氮五年，是持續改變的半個十年。沒有證據支持所謂五年神經系統「重置」日期；1825天持續保持方向本身就是里程碑。';
+
+  @override
+  String get socialMediaMilestone730Title => '2年：收回時間';
+
+  @override
+  String get socialMediaMilestone730Description =>
+      '兩年來，你一直自己決定把注意力放在哪裡。最初的一次暫停，已經變成穩定的生活方式，不再讓動態牆決定一天的節奏。';
+
+  @override
+  String get socialMediaReferenceDay730 =>
+      '兩年：讓社群媒體回到合適的位置\n\n來源：Ramadhan 等，《Impacts of digital social media detox for mental health: A systematic review and meta-analysis》，Narra J（2024），PubMed PMID 39280291\n\n這項統合分析彙整了10項數位排毒介入研究。整體而言憂鬱症狀有所下降；對生活滿意度、壓力與整體心理福祉的合併效果則未達統計顯著。\n\n這些研究並沒有證明「兩年」是某個健康門檻。第730天值得慶祝，是因為你持續兩年做出有意識的數位選擇，而不是因為今天會發生某種生理重置。';
+
+  @override
+  String get socialMediaMilestone1095Title => '3年：注意力由你掌握';
+
+  @override
+  String get socialMediaMilestone1095Description =>
+      '三年就是1,095天始終把社群媒體放在合適的位置。你的日常、人際關係和空閒時間，已經圍繞主動選擇成長了好幾年。';
+
+  @override
+  String get socialMediaReferenceDay1095 =>
+      '三年：注意力按你的規則分配\n\n來源：Ramadhan 等，《Impacts of digital social media detox for mental health: A systematic review and meta-analysis》，Narra J（2024），PubMed PMID 39280291\n\n這項統合分析彙整了10項數位排毒介入研究。整體而言憂鬱症狀有所下降；對生活滿意度、壓力與整體心理福祉的合併效果則未達統計顯著。\n\n研究並沒有把1,095天定義為心理或神經學上的終點。這個里程碑慶祝的是三年來持續主動管理數位習慣。';
+
+  @override
+  String get socialMediaMilestone1460Title => '4年：主動選擇成了日常';
+
+  @override
+  String get socialMediaMilestone1460Description =>
+      '持續四年的改變早已不是一次實驗。它經歷了生活變化、壓力、無聊和新習慣。真正值得慶祝的，就是這份持續性。';
+
+  @override
+  String get socialMediaReferenceDay1460 =>
+      '四年：主動選擇成為預設方式\n\n來源：Ramadhan 等，《Impacts of digital social media detox for mental health: A systematic review and meta-analysis》，Narra J（2024），PubMed PMID 39280291\n\n這項統合分析彙整了10項數位排毒介入研究。整體而言憂鬱症狀有所下降；對生活滿意度、壓力與整體心理福祉的合併效果則未達統計顯著。\n\n這篇綜述沒有檢驗四年期結果。第1,460天是行為上的週年節點：你已經在日常生活中維持更健康的界線整整四年。';
+
+  @override
+  String get socialMediaMilestone1825Title => '5年：生活不只在動態牆';
+
+  @override
+  String get socialMediaMilestone1825Description =>
+      '五年是半個十年的有意識數位生活。這個界線維持得夠久，已經成為你的生活方式，而不是仍需證明的事情。';
+
+  @override
+  String get socialMediaReferenceDay1825 =>
+      '五年：生活不只在動態牆\n\n來源：Ramadhan 等，《Impacts of digital social media detox for mental health: A systematic review and meta-analysis》，Narra J（2024），PubMed PMID 39280291\n\n這項統合分析彙整了10項數位排毒介入研究。整體而言憂鬱症狀有所下降；對生活滿意度、壓力與整體心理福祉的合併效果則未達統計顯著。\n\n這篇綜述沒有建立五年期結果。第1,825天值得慶祝，因為這是半個十年的有意識數位選擇，不需要編造所謂「大腦重置」的時間表。';
 }

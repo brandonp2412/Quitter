@@ -4409,4 +4409,48 @@ class AppLocalizationsPl extends AppLocalizations {
   @override
   String get nitrousOxideReferenceDay1825 =>
       'Pięć lat - Zmiana, która trwa\n\nŹródło: Marsden, Sharma i Rotella (2022), przegląd systematyczny przewlekłego używania podtlenku azotu.\n\nPrzegląd wskazał problemy neurologiczne jako charakterystyczne dla przewlekłego używania, uzupełnianie witaminy B12 jako główne leczenie oraz częściową poprawę jako najczęściej opisywany wynik. Nie określono uniwersalnego wieloletniego harmonogramu powrotu do zdrowia.\n\nPięć lat bez podtlenku azotu to pół dekady trwałej zmiany. Nie ma opartej na dowodach daty neurologicznego „resetu” po pięciu latach; kamieniem milowym jest 1825 dni utrzymanego kierunku.';
+
+  @override
+  String get socialMediaMilestone730Title => '2 lata: Odzyskany czas';
+
+  @override
+  String get socialMediaMilestone730Description =>
+      'Od dwóch lat to Ty decydujesz, gdzie kierujesz uwagę. To, co zaczęło się jako przerwa, stało się trwałym sposobem życia, w którym feed nie wyznacza rytmu dnia.';
+
+  @override
+  String get socialMediaReferenceDay730 =>
+      'Dwa lata z mediami społecznościowymi na swoim miejscu\n\nŹródło: Ramadhan i in., “Impacts of digital social media detox for mental health: A systematic review and meta-analysis”, Narra J (2024), PubMed PMID 39280291\n\nMetaanaliza objęła 10 badań interwencji typu digital detox. Ogólnie zmniejszyły się objawy depresyjne; łączne efekty dla satysfakcji z życia, stresu i ogólnego dobrostanu psychicznego nie były statystycznie istotne.\n\nBadane interwencje nie wyznaczają dwuletniego progu zdrowotnego. Dzień 730 świętuje dwa lata świadomych wyborów cyfrowych, a nie biologiczny termin „resetu”.';
+
+  @override
+  String get socialMediaMilestone1095Title => '3 lata: Uwaga pod kontrolą';
+
+  @override
+  String get socialMediaMilestone1095Description =>
+      'Trzy lata to 1 095 dni trzymania mediów społecznościowych na właściwym miejscu. Rutyny, relacje i wolny czas miały lata, by rozwijać się wokół świadomych wyborów.';
+
+  @override
+  String get socialMediaReferenceDay1095 =>
+      'Trzy lata: uwaga na Twoich zasadach\n\nŹródło: Ramadhan i in., “Impacts of digital social media detox for mental health: A systematic review and meta-analysis”, Narra J (2024), PubMed PMID 39280291\n\nMetaanaliza objęła 10 badań interwencji typu digital detox. Ogólnie zmniejszyły się objawy depresyjne; łączne efekty dla satysfakcji z życia, stresu i ogólnego dobrostanu psychicznego nie były statystycznie istotne.\n\nBadania nie określają 1 095 dni jako punktu końcowego zdrowia psychicznego lub neurologicznego. To rocznica trzech lat świadomego zarządzania nawykami cyfrowymi.';
+
+  @override
+  String get socialMediaMilestone1460Title => '4 lata: Świadomy wybór na stałe';
+
+  @override
+  String get socialMediaMilestone1460Description =>
+      'Cztery lata trwałej zmiany to już nie eksperyment. Ten nawyk przetrwał zmiany, stres, nudę i nowe rutyny. Właśnie ta konsekwencja jest osiągnięciem.';
+
+  @override
+  String get socialMediaReferenceDay1460 =>
+      'Cztery lata: świadomy wybór stał się normą\n\nŹródło: Ramadhan i in., “Impacts of digital social media detox for mental health: A systematic review and meta-analysis”, Narra J (2024), PubMed PMID 39280291\n\nMetaanaliza objęła 10 badań interwencji typu digital detox. Ogólnie zmniejszyły się objawy depresyjne; łączne efekty dla satysfakcji z życia, stresu i ogólnego dobrostanu psychicznego nie były statystycznie istotne.\n\nPrzegląd nie testuje czteroletniego kamienia milowego. Dzień 1 460 to rocznica zachowania: cztery lata utrzymywania zdrowszej granicy w codziennym życiu.';
+
+  @override
+  String get socialMediaMilestone1825Title => '5 lat: Życie poza feedem';
+
+  @override
+  String get socialMediaMilestone1825Description =>
+      'Pięć lat to pół dekady świadomego życia cyfrowego. Ta granica istnieje już tak długo, że stała się częścią sposobu życia, a nie czymś, co wciąż trzeba udowadniać.';
+
+  @override
+  String get socialMediaReferenceDay1825 =>
+      'Pięć lat: życie poza feedem\n\nŹródło: Ramadhan i in., “Impacts of digital social media detox for mental health: A systematic review and meta-analysis”, Narra J (2024), PubMed PMID 39280291\n\nMetaanaliza objęła 10 badań interwencji typu digital detox. Ogólnie zmniejszyły się objawy depresyjne; łączne efekty dla satysfakcji z życia, stresu i ogólnego dobrostanu psychicznego nie były statystycznie istotne.\n\nPrzegląd nie ustala wyników po pięciu latach. Dzień 1 825 świętuje pół dekady świadomych wyborów cyfrowych bez wymyślania terminu „resetu” mózgu.';
 }

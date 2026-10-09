@@ -4330,4 +4330,48 @@ class AppLocalizationsAr extends AppLocalizations {
   @override
   String get nitrousOxideReferenceDay1825 =>
       'خمسة أعوام - تغيير دائم\n\nالمصدر: Marsden وSharma وRotella ‏(2022)، مراجعة منهجية للاستخدام المزمن لأكسيد النيتروز.\n\nوجدت المراجعة أن المشكلات العصبية سمة شائعة للاستخدام المزمن، وأن تعويض فيتامين B12 هو العلاج الرئيسي، وأن التعافي الجزئي هو النتيجة الأكثر وروداً. ولم تحدد جدولاً زمنياً عاماً للتعافي يمتد لسنوات.\n\nخمسة أعوام من دون أكسيد النيتروز هي نصف عقد من التغيير المستمر. لا يوجد تاريخ مدعوم بالأدلة لإعادة ضبط عصبي بعد خمس سنوات؛ المحطة هي 1825 يوماً من الحفاظ على الاتجاه.';
+
+  @override
+  String get socialMediaMilestone730Title => 'سنتان: وقت مستعاد';
+
+  @override
+  String get socialMediaMilestone730Description =>
+      'عامان وأنت تختار أين تضع انتباهك. ما بدأ كاستراحة أصبح أسلوب حياة ثابتًا لا تفرض فيه الخلاصة إيقاع يومك.';
+
+  @override
+  String get socialMediaReferenceDay730 =>
+      'سنتان ووسائل التواصل في مكانها المناسب\n\nالمصدر: Ramadhan وآخرون، “Impacts of digital social media detox for mental health: A systematic review and meta-analysis”، Narra J (2024)، PubMed PMID 39280291\n\nجمع التحليل التلوي 10 دراسات لتدخلات التقليل أو الانقطاع الرقمي. انخفضت أعراض الاكتئاب إجمالًا، بينما لم تكن التأثيرات المجمعة على الرضا عن الحياة والضغط والرفاه النفسي العام ذات دلالة إحصائية.\n\nلا تثبت هذه التدخلات وجود حد صحي خاص بعد عامين. اليوم 730 يحتفل بعامين من الاختيارات الرقمية الواعية، لا بموعد لإعادة ضبط بيولوجية.';
+
+  @override
+  String get socialMediaMilestone1095Title => '3 سنوات: انتباهك بيدك';
+
+  @override
+  String get socialMediaMilestone1095Description =>
+      'ثلاث سنوات، أي 1095 يومًا، وأنت تُبقي وسائل التواصل في مكانها المناسب. عاداتك وعلاقاتك ووقت فراغك نمت لسنوات حول اختيارات واعية.';
+
+  @override
+  String get socialMediaReferenceDay1095 =>
+      'ثلاث سنوات: انتباهك وفق شروطك\n\nالمصدر: Ramadhan وآخرون، “Impacts of digital social media detox for mental health: A systematic review and meta-analysis”، Narra J (2024)، PubMed PMID 39280291\n\nجمع التحليل التلوي 10 دراسات لتدخلات التقليل أو الانقطاع الرقمي. انخفضت أعراض الاكتئاب إجمالًا، بينما لم تكن التأثيرات المجمعة على الرضا عن الحياة والضغط والرفاه النفسي العام ذات دلالة إحصائية.\n\nلا تحدد الأبحاث 1095 يومًا كنقطة نهاية نفسية أو عصبية. هذا الإنجاز يحتفل بثلاث سنوات من إدارة العادات الرقمية بوعي.';
+
+  @override
+  String get socialMediaMilestone1460Title => '4 سنوات: الاختيار صار عادة';
+
+  @override
+  String get socialMediaMilestone1460Description =>
+      'أربع سنوات من التغيير المستمر لم تعد تجربة. هذه العادة صمدت أمام تغيّر الظروف والضغط والملل والروتين الجديد. هذا الثبات هو الإنجاز.';
+
+  @override
+  String get socialMediaReferenceDay1460 =>
+      'أربع سنوات: الوعي أصبح هو الوضع الطبيعي\n\nالمصدر: Ramadhan وآخرون، “Impacts of digital social media detox for mental health: A systematic review and meta-analysis”، Narra J (2024)، PubMed PMID 39280291\n\nجمع التحليل التلوي 10 دراسات لتدخلات التقليل أو الانقطاع الرقمي. انخفضت أعراض الاكتئاب إجمالًا، بينما لم تكن التأثيرات المجمعة على الرضا عن الحياة والضغط والرفاه النفسي العام ذات دلالة إحصائية.\n\nلا تختبر المراجعة نتيجة تمتد لأربع سنوات. اليوم 1460 ذكرى سلوكية: أربع سنوات من الحفاظ على حدود أكثر صحة في الحياة اليومية.';
+
+  @override
+  String get socialMediaMilestone1825Title => '5 سنوات: حياة خارج الخلاصة';
+
+  @override
+  String get socialMediaMilestone1825Description =>
+      'خمس سنوات هي نصف عقد من الحياة الرقمية الواعية. حافظت على هذا الحد طويلًا بما يكفي ليصبح جزءًا من طريقة عيشك، لا شيئًا ما زلت تحاول إثباته.';
+
+  @override
+  String get socialMediaReferenceDay1825 =>
+      'خمس سنوات: حياة تتجاوز الخلاصة\n\nالمصدر: Ramadhan وآخرون، “Impacts of digital social media detox for mental health: A systematic review and meta-analysis”، Narra J (2024)، PubMed PMID 39280291\n\nجمع التحليل التلوي 10 دراسات لتدخلات التقليل أو الانقطاع الرقمي. انخفضت أعراض الاكتئاب إجمالًا، بينما لم تكن التأثيرات المجمعة على الرضا عن الحياة والضغط والرفاه النفسي العام ذات دلالة إحصائية.\n\nلا تثبت المراجعة نتائج خاصة بعد خمس سنوات. اليوم 1825 يحتفل بنصف عقد من الاختيارات الرقمية الواعية من دون اختراع جدول زمني لـ«إعادة ضبط الدماغ».';
 }
