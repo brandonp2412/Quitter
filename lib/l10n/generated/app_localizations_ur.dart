@@ -4405,4 +4405,48 @@ class AppLocalizationsUr extends AppLocalizations {
   @override
   String get socialMediaReferenceDay1825 =>
       'پانچ سال: فیڈ سے آگے زندگی\n\nماخذ: Ramadhan وغیرہ، “Impacts of digital social media detox for mental health: A systematic review and meta-analysis”، Narra J (2024)، PubMed PMID 39280291\n\nاس میٹا تجزیے میں ڈیجیٹل ڈیٹوکس مداخلتوں کی 10 مطالعات شامل تھیں۔ مجموعی طور پر افسردگی کی علامات کم ہوئیں، جبکہ زندگی سے اطمینان، تناؤ اور مجموعی ذہنی بہبود پر مشترکہ اثرات شماریاتی طور پر نمایاں نہیں تھے۔\n\nیہ جائزہ پانچ سالہ نتائج قائم نہیں کرتا۔ دن 1,825 شعوری ڈیجیٹل انتخاب کی نصف دہائی کا جشن ہے، بغیر کسی فرضی “دماغی ری سیٹ” ٹائم لائن کے۔';
+
+  @override
+  String get ssriMilestone730Title => '2 سال: مستحکم پیش رفت';
+
+  @override
+  String get ssriMilestone730Description =>
+      'SSRI بند کرنے کے دو سال ایک بڑی ذاتی منزل ہیں۔ دوا چھوڑنے کی علامات ہر شخص میں مختلف ہو سکتی ہیں، اس لیے یہ سالگرہ کسی ایک حیاتیاتی بحالی کی مدت کا دعویٰ کیے بغیر مسلسل پیش رفت کا جشن ہے۔';
+
+  @override
+  String get ssriReferenceDay730 =>
+      'SSRI کے بعد دو سال: مستحکم پیش رفت\n\nماخذ: Royal College of Psychiatrists — Stopping antidepressants\n\nرہنمائی کے مطابق اینٹی ڈپریسنٹس عموماً اچانک بند نہیں کرنے چاہییں اور خوراک کم کرنے کا طریقہ ہر فرد کے مطابق ہونا چاہیے۔ علامات مختلف ہو سکتی ہیں۔\n\nیہ رہنمائی SSRI کے بعد دو سال کو حیاتیاتی بحالی کی حد قرار نہیں دیتی۔ دن 730 دو سال کی مسلسل پیش رفت کا جشن ہے۔';
+
+  @override
+  String get ssriMilestone1095Title => '3 سال: پیش رفت برقرار';
+
+  @override
+  String get ssriMilestone1095Description =>
+      'SSRI کی بتدریج کمی اور بندش کے بعد تین سال ایک طویل سفر ہے۔ یہ سالگرہ اس استحکام، معمولات اور مدد کو سراہتی ہے جنہوں نے پیش رفت برقرار رکھی؛ طبی رہنمائی اس تاریخ کو خاص بحالی کی حد نہیں مانتی۔';
+
+  @override
+  String get ssriReferenceDay1095 =>
+      'SSRI کے بعد تین سال: پیش رفت برقرار\n\nماخذ: Royal College of Psychiatrists — Stopping antidepressants\n\nرہنمائی بتاتی ہے کہ دوا چھوڑنے کا تجربہ فرداً فرداً مختلف ہوتا ہے، اور خوراک کم کرنے کی رفتار علاج کی مدت اور پچھلی علامات جیسے عوامل پر منحصر ہوتی ہے۔\n\nتین سال SSRI بحالی کی عالمی مدت نہیں۔ دن 1095 تین سال کی برقرار پیش رفت کو تسلیم کرتا ہے۔';
+
+  @override
+  String get ssriMilestone1460Title => '4 سال: مضبوط بنیاد';
+
+  @override
+  String get ssriMilestone1460Description =>
+      'چار سال وقت کے ساتھ بننے والی پائیدار پیش رفت کی علامت ہیں۔ دوا چھوڑنے اور بحالی کا تجربہ ہر فرد میں مختلف ہے؛ یہ سنگِ میل کسی مقررہ اعصابی شیڈول کے بغیر ثابت قدمی کو سراہتا ہے۔';
+
+  @override
+  String get ssriReferenceDay1460 =>
+      'SSRI کے بعد چار سال: مضبوط بنیاد\n\nماخذ: Royal College of Psychiatrists — Stopping antidepressants\n\nرہنمائی بتدریج اور انفرادی خوراک میں کمی کی سفارش کرتی ہے کیونکہ علامات کی شدت اور مدت مختلف ہوتی ہے۔ بعض افراد کو کئی ماہ یا اس سے زیادہ وقت درکار ہوتا ہے۔\n\nیہ شواہد چار سال کو اعصابی اختتام نہیں بناتے۔ دن 1460 چار سال کی مسلسل تبدیلی کا جشن ہے۔';
+
+  @override
+  String get ssriMilestone1825Title => '5 سال: بڑا سنگِ میل';
+
+  @override
+  String get ssriMilestone1825Description =>
+      'پانچ سال ایک بڑا ذاتی سنگِ میل ہیں: SSRI بند کرنے کے بعد نصف دہائی کی مسلسل پیش رفت۔ طبی رہنمائی پانچ سال کی کوئی عالمی بحالی کی حد مقرر نہیں کرتی۔';
+
+  @override
+  String get ssriReferenceDay1825 =>
+      'SSRI کے بعد پانچ سال: بڑا سنگِ میل\n\nماخذ: Royal College of Psychiatrists — Stopping antidepressants\n\nرہنمائی محفوظ اور انفرادی بتدریج کمی اور علامات کے مطابق ردعمل پر توجہ دیتی ہے، نہ کہ سب کے لیے ایک ہی بحالی کے شیڈول پر۔\n\nSSRI کے لیے پانچ سال کی ثبوت پر مبنی بحالی کی حد مقرر نہیں۔ دن 1825 پھر بھی ایک اہم سالگرہ ہے۔';
 }

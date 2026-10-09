@@ -4374,4 +4374,48 @@ class AppLocalizationsAr extends AppLocalizations {
   @override
   String get socialMediaReferenceDay1825 =>
       'خمس سنوات: حياة تتجاوز الخلاصة\n\nالمصدر: Ramadhan وآخرون، “Impacts of digital social media detox for mental health: A systematic review and meta-analysis”، Narra J (2024)، PubMed PMID 39280291\n\nجمع التحليل التلوي 10 دراسات لتدخلات التقليل أو الانقطاع الرقمي. انخفضت أعراض الاكتئاب إجمالًا، بينما لم تكن التأثيرات المجمعة على الرضا عن الحياة والضغط والرفاه النفسي العام ذات دلالة إحصائية.\n\nلا تثبت المراجعة نتائج خاصة بعد خمس سنوات. اليوم 1825 يحتفل بنصف عقد من الاختيارات الرقمية الواعية من دون اختراع جدول زمني لـ«إعادة ضبط الدماغ».';
+
+  @override
+  String get ssriMilestone730Title => 'عامان: تقدم ثابت';
+
+  @override
+  String get ssriMilestone730Description =>
+      'عامان بعد إيقاف أحد أدوية SSRI يمثلان محطة شخصية كبيرة. تختلف تجربة الانسحاب كثيرًا بين الأشخاص، لذلك تحتفي هذه الذكرى بالتقدم المستمر من دون ادعاء موعد بيولوجي موحّد للتعافي.';
+
+  @override
+  String get ssriReferenceDay730 =>
+      'عامان بعد SSRI: تقدم ثابت\n\nالمصدر: Royal College of Psychiatrists — Stopping antidepressants\n\nتوضح الإرشادات أن مضادات الاكتئاب لا ينبغي عادةً إيقافها فجأة، وأن خفض الجرعة يجب أن يكون ملائمًا لكل شخص. تختلف أعراض الانسحاب من شخص لآخر.\n\nلا تحدد الإرشادات عتبة بيولوجية للتعافي عند عامين بعد SSRI. اليوم 730 يحتفي بعامين من التقدم المستمر.';
+
+  @override
+  String get ssriMilestone1095Title => '3 أعوام: تقدم مستمر';
+
+  @override
+  String get ssriMilestone1095Description =>
+      'ثلاثة أعوام بعد خفض SSRI وإيقافه مدة طويلة. تحتفي هذه الذكرى بالاستقرار والعادات والدعم التي حافظت على التقدم؛ ولا تحدد الإرشادات السريرية عتبة خاصة للتعافي في هذا التاريخ.';
+
+  @override
+  String get ssriReferenceDay1095 =>
+      'ثلاثة أعوام بعد SSRI: تقدم مستمر\n\nالمصدر: Royal College of Psychiatrists — Stopping antidepressants\n\nتصف الإرشادات الانسحاب بأنه فردي، وتعتمد سرعة خفض الجرعة على عوامل مثل مدة العلاج والأعراض التي ظهرت مع محاولات الخفض السابقة.\n\nلا تعتبر ثلاثة أعوام موعدًا موحّدًا للتعافي بعد SSRI. اليوم 1095 يقدّر ثلاثة أعوام من التقدم المحفوظ.';
+
+  @override
+  String get ssriMilestone1460Title => '4 أعوام: أساس أقوى';
+
+  @override
+  String get ssriMilestone1460Description =>
+      'أربعة أعوام تعكس تقدمًا مستدامًا بُني مع الوقت. تختلف تجربة الانسحاب والتعافي بين الأشخاص؛ وهذه المحطة تحتفي بالثبات من دون اختراع جدول عصبي ثابت.';
+
+  @override
+  String get ssriReferenceDay1460 =>
+      'أربعة أعوام بعد SSRI: أساس أقوى\n\nالمصدر: Royal College of Psychiatrists — Stopping antidepressants\n\nتوصي الإرشادات بخفض تدريجي وفردي لأن شدة أعراض الانسحاب ومدتها تختلف. وقد يحتاج بعض الأشخاص إلى أشهر أو أكثر.\n\nلا يجعل ذلك أربعة أعوام نقطة نهاية عصبية. اليوم 1460 يحتفي بأربعة أعوام من التغيير المستمر.';
+
+  @override
+  String get ssriMilestone1825Title => '5 أعوام: محطة كبيرة';
+
+  @override
+  String get ssriMilestone1825Description =>
+      'خمسة أعوام محطة شخصية كبيرة: نصف عقد من التقدم المستمر بعد إيقاف SSRI. ولا تحدد الإرشادات السريرية عتبة موحّدة للتعافي عند خمسة أعوام.';
+
+  @override
+  String get ssriReferenceDay1825 =>
+      'خمسة أعوام بعد SSRI: محطة كبيرة\n\nالمصدر: Royal College of Psychiatrists — Stopping antidepressants\n\nتركز الإرشادات على الخفض الآمن والفردي والاستجابة للأعراض، لا على فرض جدول تعافٍ واحد على الجميع.\n\nلا توجد فيها عتبة مثبتة للتعافي بعد خمسة أعوام من SSRI. ومع ذلك يبقى اليوم 1825 ذكرى مهمة.';
 }

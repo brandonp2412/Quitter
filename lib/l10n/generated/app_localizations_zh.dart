@@ -4244,6 +4244,50 @@ class AppLocalizationsZh extends AppLocalizations {
   @override
   String get socialMediaReferenceDay1825 =>
       '五年：生活不只在信息流\n\n来源：Ramadhan 等，《Impacts of digital social media detox for mental health: A systematic review and meta-analysis》，Narra J（2024），PubMed PMID 39280291\n\n这项荟萃分析汇总了10项数字排毒干预研究。总体上抑郁症状有所下降；对生活满意度、压力和整体心理福祉的合并效应则未达到统计学显著。\n\n这篇综述没有建立五年期结果。第1,825天值得庆祝，因为这是半个十年的有意识数字选择，无需编造所谓“脑重置”的时间表。';
+
+  @override
+  String get ssriMilestone730Title => '2年：稳步前进';
+
+  @override
+  String get ssriMilestone730Description =>
+      '停用 SSRI 两年是重要的个人里程碑。停药反应因人而异，因此这个周年纪念的是持续进展，并不声称存在统一的生物学恢复期限。';
+
+  @override
+  String get ssriReferenceDay730 =>
+      '停用 SSRI 两年：稳步前进\n\n来源：Royal College of Psychiatrists — Stopping antidepressants\n\n指南指出，抗抑郁药通常不应突然停用，减量应根据个人情况调整。停药症状在人与人之间差异很大。\n\n指南并未把停用 SSRI 两年定义为生物学恢复阈值。第 730 天纪念的是两年来持续保持的进展。';
+
+  @override
+  String get ssriMilestone1095Title => '3年：持续进展';
+
+  @override
+  String get ssriMilestone1095Description =>
+      '逐步减停 SSRI 后三年是一段很长的历程。这个周年肯定维持进展的稳定、习惯和支持；临床指南并未把这一天设为特殊的恢复阈值。';
+
+  @override
+  String get ssriReferenceDay1095 =>
+      '停用 SSRI 三年：持续进展\n\n来源：Royal College of Psychiatrists — Stopping antidepressants\n\n指南强调停药过程具有个体差异，减量速度会受到用药时长以及以往减量时是否出现症状等因素影响。\n\n三年并不是普遍适用的 SSRI 恢复期限。第 1095 天代表三年来一直维持的进展。';
+
+  @override
+  String get ssriMilestone1460Title => '4年：基础更稳';
+
+  @override
+  String get ssriMilestone1460Description =>
+      '四年体现了随时间积累的持久进展。停药和恢复具有个体差异，这个里程碑庆祝持续性，而不是编造固定的神经系统时间表。';
+
+  @override
+  String get ssriReferenceDay1460 =>
+      '停用 SSRI 四年：基础更稳\n\n来源：Royal College of Psychiatrists — Stopping antidepressants\n\n指南建议循序、个体化地减量，因为停药症状的强度和持续时间因人而异，有些人需要数月甚至更久。\n\n这些证据并没有把四年设为神经系统终点。第 1460 天纪念四年来持续的改变。';
+
+  @override
+  String get ssriMilestone1825Title => '5年：重要里程碑';
+
+  @override
+  String get ssriMilestone1825Description =>
+      '五年是重要的个人里程碑，代表停用 SSRI 后半个十年的持续进展。临床指南并未定义统一的五年恢复阈值。';
+
+  @override
+  String get ssriReferenceDay1825 =>
+      '停用 SSRI 五年：重要里程碑\n\n来源：Royal College of Psychiatrists — Stopping antidepressants\n\n指南关注安全、个体化的减量和对症状的处理，而不是给所有人规定同一个恢复时间表。\n\n指南没有设定有证据支持的 SSRI 五年恢复阈值。第 1825 天仍然是值得纪念的重要周年。';
 }
 
 /// The translations for Chinese, using the Han script (`zh_Hant`).
@@ -8486,4 +8530,48 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   @override
   String get socialMediaReferenceDay1825 =>
       '五年：生活不只在動態牆\n\n來源：Ramadhan 等，《Impacts of digital social media detox for mental health: A systematic review and meta-analysis》，Narra J（2024），PubMed PMID 39280291\n\n這項統合分析彙整了10項數位排毒介入研究。整體而言憂鬱症狀有所下降；對生活滿意度、壓力與整體心理福祉的合併效果則未達統計顯著。\n\n這篇綜述沒有建立五年期結果。第1,825天值得慶祝，因為這是半個十年的有意識數位選擇，不需要編造所謂「大腦重置」的時間表。';
+
+  @override
+  String get ssriMilestone730Title => '2 年：穩步前進';
+
+  @override
+  String get ssriMilestone730Description =>
+      '停用 SSRI 兩年是重要的個人里程碑。停藥反應因人而異，因此這個週年紀念的是持續進展，並不聲稱存在統一的生物學恢復期限。';
+
+  @override
+  String get ssriReferenceDay730 =>
+      '停用 SSRI 兩年：穩步前進\n\n來源：Royal College of Psychiatrists — Stopping antidepressants\n\n指引指出，抗抑鬱藥通常不應突然停用，減量應按個人情況調整。停藥症狀在人與人之間差異很大。\n\n指引並未把停用 SSRI 兩年定義為生物學恢復門檻。第 730 天紀念的是兩年來持續保持的進展。';
+
+  @override
+  String get ssriMilestone1095Title => '3 年：持續進展';
+
+  @override
+  String get ssriMilestone1095Description =>
+      '逐步減停 SSRI 後三年是一段很長的歷程。這個週年肯定維持進展的穩定、習慣和支持；臨床指引並未把這一天設為特殊的恢復門檻。';
+
+  @override
+  String get ssriReferenceDay1095 =>
+      '停用 SSRI 三年：持續進展\n\n來源：Royal College of Psychiatrists — Stopping antidepressants\n\n指引強調停藥過程具有個體差異，減量速度會受到用藥時間以及以往減量時是否出現症狀等因素影響。\n\n三年並不是普遍適用的 SSRI 恢復期限。第 1095 天代表三年來一直維持的進展。';
+
+  @override
+  String get ssriMilestone1460Title => '4 年：基礎更穩';
+
+  @override
+  String get ssriMilestone1460Description =>
+      '四年體現了隨時間累積的持久進展。停藥和恢復具有個體差異，這個里程碑慶祝持續性，而不是編造固定的神經系統時間表。';
+
+  @override
+  String get ssriReferenceDay1460 =>
+      '停用 SSRI 四年：基礎更穩\n\n來源：Royal College of Psychiatrists — Stopping antidepressants\n\n指引建議循序、個體化地減量，因為停藥症狀的強度和持續時間因人而異，有些人需要數月甚至更久。\n\n這些證據並沒有把四年設為神經系統終點。第 1460 天紀念四年來持續的改變。';
+
+  @override
+  String get ssriMilestone1825Title => '5 年：重要里程碑';
+
+  @override
+  String get ssriMilestone1825Description =>
+      '五年是重要的個人里程碑，代表停用 SSRI 後半個十年的持續進展。臨床指引並未定義統一的五年恢復門檻。';
+
+  @override
+  String get ssriReferenceDay1825 =>
+      '停用 SSRI 五年：重要里程碑\n\n來源：Royal College of Psychiatrists — Stopping antidepressants\n\n指引著重安全、個體化的減量和對症狀的處理，而不是為所有人規定同一個恢復時間表。\n\n指引沒有設定有證據支持的 SSRI 五年恢復門檻。第 1825 天仍然是值得紀念的重要週年。';
 }

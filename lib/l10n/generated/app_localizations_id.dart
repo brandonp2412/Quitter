@@ -4433,4 +4433,48 @@ class AppLocalizationsId extends AppLocalizations {
   @override
   String get socialMediaReferenceDay1825 =>
       'Lima tahun: hidup di luar linimasa\n\nSumber: Ramadhan dkk., “Impacts of digital social media detox for mental health: A systematic review and meta-analysis”, Narra J (2024), PubMed PMID 39280291\n\nMeta-analisis ini menggabungkan 10 studi tentang intervensi detoks digital. Secara keseluruhan gejala depresi menurun; efek gabungan pada kepuasan hidup, stres, dan kesejahteraan mental umum tidak signifikan secara statistik.\n\nTinjauan ini tidak menetapkan hasil lima tahun. Hari ke-1.825 merayakan setengah dekade pilihan digital yang disengaja tanpa mengarang jadwal “reset” otak.';
+
+  @override
+  String get ssriMilestone730Title => '2 Tahun: Kemajuan Stabil';
+
+  @override
+  String get ssriMilestone730Description =>
+      'Dua tahun setelah berhenti dari SSRI adalah pencapaian pribadi yang besar. Pengalaman putus obat sangat beragam, jadi peringatan ini merayakan kemajuan yang bertahan tanpa mengklaim batas pemulihan biologis yang berlaku untuk semua.';
+
+  @override
+  String get ssriReferenceDay730 =>
+      'Dua Tahun Setelah SSRI: Kemajuan Stabil\n\nSumber: Royal College of Psychiatrists — Stopping antidepressants\n\nPanduan menyatakan antidepresan umumnya tidak boleh dihentikan mendadak dan penurunan dosis perlu disesuaikan dengan tiap orang. Gejala putus obat berbeda-beda.\n\nPanduan itu tidak menetapkan ambang pemulihan biologis dua tahun setelah SSRI. Hari ke-730 merayakan dua tahun kemajuan yang bertahan.';
+
+  @override
+  String get ssriMilestone1095Title => '3 Tahun: Kemajuan Bertahan';
+
+  @override
+  String get ssriMilestone1095Description =>
+      'Tiga tahun setelah penurunan SSRI adalah perjalanan panjang. Peringatan ini menghargai kestabilan, rutinitas, dan dukungan yang mempertahankan kemajuan; panduan klinis tidak menetapkan ambang khusus pada tanggal ini.';
+
+  @override
+  String get ssriReferenceDay1095 =>
+      'Tiga Tahun Setelah SSRI: Kemajuan Bertahan\n\nSumber: Royal College of Psychiatrists — Stopping antidepressants\n\nPanduan menjelaskan bahwa putus obat bersifat individual. Kecepatan penurunan dosis bergantung antara lain pada lama penggunaan obat dan gejala saat penurunan sebelumnya.\n\nTiga tahun bukan batas pemulihan SSRI yang berlaku untuk semua. Hari ke-1095 menghargai tiga tahun kemajuan yang terjaga.';
+
+  @override
+  String get ssriMilestone1460Title => '4 Tahun: Pijakan Lebih Kuat';
+
+  @override
+  String get ssriMilestone1460Description =>
+      'Empat tahun mencerminkan kemajuan tahan lama yang dibangun seiring waktu. Putus obat dan pemulihan berbeda pada tiap orang; tonggak ini menghargai konsistensi tanpa mengarang jadwal neurologis tetap.';
+
+  @override
+  String get ssriReferenceDay1460 =>
+      'Empat Tahun Setelah SSRI: Pijakan Lebih Kuat\n\nSumber: Royal College of Psychiatrists — Stopping antidepressants\n\nPanduan menganjurkan penurunan dosis bertahap dan individual karena tingkat serta lamanya gejala putus obat berbeda-beda. Sebagian orang memerlukan waktu berbulan-bulan atau lebih.\n\nBukti itu tidak menciptakan titik akhir neurologis empat tahun. Hari ke-1460 merayakan empat tahun perubahan yang bertahan.';
+
+  @override
+  String get ssriMilestone1825Title => '5 Tahun: Tonggak Besar';
+
+  @override
+  String get ssriMilestone1825Description =>
+      'Lima tahun adalah tonggak pribadi yang besar: setengah dekade kemajuan yang bertahan setelah berhenti dari SSRI. Panduan klinis tidak menetapkan ambang pemulihan lima tahun yang berlaku untuk semua.';
+
+  @override
+  String get ssriReferenceDay1825 =>
+      'Lima Tahun Setelah SSRI: Tonggak Besar\n\nSumber: Royal College of Psychiatrists — Stopping antidepressants\n\nPanduan berfokus pada penurunan dosis yang aman dan individual serta penanganan gejala, bukan satu jadwal pemulihan yang sama bagi semua orang.\n\nTidak ada ambang pemulihan SSRI lima tahun yang ditetapkan. Hari ke-1825 tetap merupakan peringatan yang bermakna.';
 }

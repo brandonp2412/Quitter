@@ -7409,6 +7409,78 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Five Years: Life Beyond the Feed\n\nSource: Ramadhan et al., “Impacts of digital social media detox for mental health: A systematic review and meta-analysis,” Narra J (2024), PubMed PMID 39280291\n\nThe meta-analysis combined 10 studies of digital-detox interventions. Depressive symptoms improved overall; pooled effects on life satisfaction, stress, and overall mental well-being were not statistically significant.\n\nThe review does not establish five-year outcomes. Day 1,825 is worth celebrating for what it actually is: half a decade of intentional digital choices, without an invented brain-reset timeline.'**
   String get socialMediaReferenceDay1825;
+
+  /// No description provided for @ssriMilestone730Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Two Years: Steady Progress'**
+  String get ssriMilestone730Title;
+
+  /// No description provided for @ssriMilestone730Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Two years after stopping an SSRI is a major personal milestone. Withdrawal experiences vary widely, so this anniversary celebrates sustained progress without claiming a universal biological recovery deadline.'**
+  String get ssriMilestone730Description;
+
+  /// No description provided for @ssriReferenceDay730.
+  ///
+  /// In en, this message translates to:
+  /// **'Two Years After SSRIs: Steady Progress\n\nSource: Royal College of Psychiatrists — Stopping antidepressants\n\nThe Royal College says antidepressants should not usually be stopped suddenly and that tapering should be adapted to the individual. Withdrawal experiences vary, and some people need slower reductions over months or longer.\n\nThe guidance does not define a two-year biological recovery threshold after stopping an SSRI. Day 730 celebrates two years of sustained progress, not a fixed neurological timetable.'**
+  String get ssriReferenceDay730;
+
+  /// No description provided for @ssriMilestone1095Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Three Years: Progress Sustained'**
+  String get ssriMilestone1095Title;
+
+  /// No description provided for @ssriMilestone1095Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Three years is a long stretch beyond an SSRI taper. Celebrate the routines, support, and choices that have carried this progress; clinical guidance does not define a special recovery threshold at this date.'**
+  String get ssriMilestone1095Description;
+
+  /// No description provided for @ssriReferenceDay1095.
+  ///
+  /// In en, this message translates to:
+  /// **'Three Years After SSRIs: Progress Sustained\n\nSource: Royal College of Psychiatrists — Stopping antidepressants\n\nThe guidance describes withdrawal as individual: tapering pace depends on factors such as how long the medicine was taken and whether previous dose reductions caused symptoms.\n\nIt does not establish three years as a universal SSRI recovery deadline. Day 1095 recognises progress maintained over three years without inventing a clinical threshold.'**
+  String get ssriReferenceDay1095;
+
+  /// No description provided for @ssriMilestone1460Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Four Years: Stronger Ground'**
+  String get ssriMilestone1460Title;
+
+  /// No description provided for @ssriMilestone1460Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Four years reflects durable progress built over time. Withdrawal and recovery experiences are individual, so this milestone honours what has been maintained without claiming a fixed neurological timetable.'**
+  String get ssriMilestone1460Description;
+
+  /// No description provided for @ssriReferenceDay1460.
+  ///
+  /// In en, this message translates to:
+  /// **'Four Years After SSRIs: Stronger Ground\n\nSource: Royal College of Psychiatrists — Stopping antidepressants\n\nThe Royal College recommends gradual, individualised tapering because withdrawal severity and duration differ between people. Some people need reductions spread across months or longer.\n\nThat evidence does not create a four-year neurological endpoint. Day 1460 celebrates four years of sustained change and the stability built along the way.'**
+  String get ssriReferenceDay1460;
+
+  /// No description provided for @ssriMilestone1825Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Five Years: Major Milestone'**
+  String get ssriMilestone1825Title;
+
+  /// No description provided for @ssriMilestone1825Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Five years is a major personal milestone: half a decade of sustained progress after stopping an SSRI. Clinical guidance does not define a universal five-year recovery threshold.'**
+  String get ssriMilestone1825Description;
+
+  /// No description provided for @ssriReferenceDay1825.
+  ///
+  /// In en, this message translates to:
+  /// **'Five Years After SSRIs: Major Milestone\n\nSource: Royal College of Psychiatrists — Stopping antidepressants\n\nThe guidance focuses on safe, individualised tapering and responding to symptoms rather than assigning one fixed recovery schedule to everyone.\n\nThere is no evidence-based five-year SSRI recovery threshold in that guidance. Day 1825 is still a major personal anniversary: half a decade of sustained progress.'**
+  String get ssriReferenceDay1825;
 }
 
 class _AppLocalizationsDelegate

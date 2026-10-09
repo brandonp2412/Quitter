@@ -4248,4 +4248,48 @@ class AppLocalizationsJa extends AppLocalizations {
   @override
   String get socialMediaReferenceDay1825 =>
       '5年：フィードの外にある生活\n\n出典：Ramadhan ら「Impacts of digital social media detox for mental health: A systematic review and meta-analysis」Narra J（2024）、PubMed PMID 39280291\n\nこのメタ解析はデジタルデトックス介入の10研究を統合しました。抑うつ症状は全体として改善しましたが、生活満足度、ストレス、全般的な精神的ウェルビーイングでは統合効果は統計学的に有意ではありませんでした。\n\nこのレビューは5年後の結果を示していません。1,825日は、脳の「リセット時期」を作り上げることなく、意識的なデジタル選択を5年間続けた事実そのものを祝う日です。';
+
+  @override
+  String get ssriMilestone730Title => '2年：着実な前進';
+
+  @override
+  String get ssriMilestone730Description =>
+      'SSRIを中止して2年は大きな節目です。離脱症状の経過には大きな個人差があるため、この記念日は一律の生物学的な回復期限を示すのではなく、続いてきた前進そのものを祝います。';
+
+  @override
+  String get ssriReferenceDay730 =>
+      'SSRI中止から2年：着実な前進\n\n出典：Royal College of Psychiatrists — Stopping antidepressants\n\n同ガイダンスは、抗うつ薬を通常は急に中止せず、減量を個人に合わせるよう勧めています。離脱症状の現れ方には個人差があります。\n\nSSRI中止後2年を生物学的な回復の境目とはしていません。730日目は、2年間続いてきた前進を祝う節目です。';
+
+  @override
+  String get ssriMilestone1095Title => '3年：前進を維持';
+
+  @override
+  String get ssriMilestone1095Description =>
+      'SSRIの減量・中止から3年は長い道のりです。安定や日々の習慣、支えによって続いてきた前進をたたえる節目であり、医療ガイダンスがこの日を特別な回復境界としているわけではありません。';
+
+  @override
+  String get ssriReferenceDay1095 =>
+      'SSRI中止から3年：前進を維持\n\n出典：Royal College of Psychiatrists — Stopping antidepressants\n\n離脱の経過は個人ごとに異なり、減量速度は服用期間や過去の減量時の症状などに左右されるとされています。\n\n3年はSSRI回復の一律な期限ではありません。1095日目は、3年間維持された前進を認める節目です。';
+
+  @override
+  String get ssriMilestone1460Title => '4年：より確かな土台';
+
+  @override
+  String get ssriMilestone1460Description =>
+      '4年は、時間をかけて築かれた持続的な前進を示します。離脱や回復には個人差があるため、固定された神経学的な予定表を作らず、続いてきた安定を祝います。';
+
+  @override
+  String get ssriReferenceDay1460 =>
+      'SSRI中止から4年：より確かな土台\n\n出典：Royal College of Psychiatrists — Stopping antidepressants\n\n離脱症状の強さや期間は人によって異なるため、段階的で個別化された減量が推奨されています。数か月以上かける必要がある人もいます。\n\nこの根拠は4年を神経学的な終点とはしていません。1460日目は、4年間続いた変化を祝う節目です。';
+
+  @override
+  String get ssriMilestone1825Title => '5年：大きな節目';
+
+  @override
+  String get ssriMilestone1825Description =>
+      '5年は大きな個人的節目です。SSRI中止後、5年間にわたり前進を維持してきた期間であり、医療ガイダンスは一律の5年回復基準を設けていません。';
+
+  @override
+  String get ssriReferenceDay1825 =>
+      'SSRI中止から5年：大きな節目\n\n出典：Royal College of Psychiatrists — Stopping antidepressants\n\nガイダンスは、安全で個別化された減量と症状への対応を重視し、すべての人に同じ回復予定を当てはめてはいません。\n\nSSRIに5年の回復基準は設定されていません。それでも1825日目は、半 दशकの持続的な前進を示す大切な節目です。';
 }

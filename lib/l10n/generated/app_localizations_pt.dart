@@ -4462,6 +4462,50 @@ class AppLocalizationsPt extends AppLocalizations {
   @override
   String get socialMediaReferenceDay1825 =>
       'Cinco anos: vida para lá do feed\n\nFonte: Ramadhan et al., “Impacts of digital social media detox for mental health: A systematic review and meta-analysis”, Narra J (2024), PubMed PMID 39280291\n\nA meta-análise reuniu 10 estudos sobre intervenções de detox digital. No conjunto, os sintomas depressivos diminuíram; não houve efeitos combinados estatisticamente significativos na satisfação com a vida, stress ou bem-estar mental geral.\n\nA revisão não estabelece resultados a cinco anos. O dia 1 825 celebra meia década de escolhas digitais intencionais, sem inventar um prazo para um “reinício” cerebral.';
+
+  @override
+  String get ssriMilestone730Title => '2 anos: Progresso firme';
+
+  @override
+  String get ssriMilestone730Description =>
+      'Dois anos após parar um ISRS são um grande marco pessoal. A experiência de descontinuação varia muito, por isso este aniversário celebra progresso sustentado sem afirmar um prazo biológico universal de recuperação.';
+
+  @override
+  String get ssriReferenceDay730 =>
+      'Dois anos após os ISRS: Progresso firme\n\nFonte: Royal College of Psychiatrists — Stopping antidepressants\n\nA orientação diz que os antidepressivos não devem, em geral, ser interrompidos de repente e que o desmame deve ser adaptado a cada pessoa. Os sintomas variam bastante.\n\nNão define um limiar biológico de recuperação aos dois anos após um ISRS. O dia 730 celebra dois anos de progresso sustentado.';
+
+  @override
+  String get ssriMilestone1095Title => '3 anos: Progresso mantido';
+
+  @override
+  String get ssriMilestone1095Description =>
+      'Três anos após o desmame de um ISRS representam um percurso longo. Este aniversário reconhece a estabilidade, as rotinas e o apoio que sustentaram o progresso; a orientação clínica não fixa aqui um limiar especial.';
+
+  @override
+  String get ssriReferenceDay1095 =>
+      'Três anos após os ISRS: Progresso mantido\n\nFonte: Royal College of Psychiatrists — Stopping antidepressants\n\nA orientação descreve a descontinuação como individual. O ritmo do desmame depende, entre outros fatores, da duração do tratamento e de sintomas em reduções anteriores.\n\nNão estabelece três anos como prazo universal de recuperação de um ISRS. O dia 1095 reconhece três anos de progresso mantido.';
+
+  @override
+  String get ssriMilestone1460Title => '4 anos: Base mais sólida';
+
+  @override
+  String get ssriMilestone1460Description =>
+      'Quatro anos refletem progresso duradouro construído ao longo do tempo. Descontinuação e recuperação são individuais; este marco honra a consistência sem inventar um calendário neurológico fixo.';
+
+  @override
+  String get ssriReferenceDay1460 =>
+      'Quatro anos após os ISRS: Base mais sólida\n\nFonte: Royal College of Psychiatrists — Stopping antidepressants\n\nA orientação recomenda um desmame gradual e individualizado, porque a intensidade e a duração dos sintomas variam. Algumas pessoas precisam de meses ou mais.\n\nIsto não cria um ponto final neurológico aos quatro anos. O dia 1460 celebra quatro anos de mudança sustentada.';
+
+  @override
+  String get ssriMilestone1825Title => '5 anos: Grande marco';
+
+  @override
+  String get ssriMilestone1825Description =>
+      'Cinco anos são um grande marco pessoal: meia década de progresso sustentado após parar um ISRS. A orientação clínica não define um limiar universal de recuperação aos cinco anos.';
+
+  @override
+  String get ssriReferenceDay1825 =>
+      'Cinco anos após os ISRS: Grande marco\n\nFonte: Royal College of Psychiatrists — Stopping antidepressants\n\nA orientação centra-se num desmame seguro e individualizado e na resposta aos sintomas, não num calendário de recuperação igual para todos.\n\nNão estabelece um limiar de recuperação de cinco anos para os ISRS. O dia 1825 continua a ser um aniversário importante.';
 }
 
 /// The translations for Portuguese, as used in Brazil (`pt_BR`).
@@ -8922,4 +8966,48 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
   @override
   String get socialMediaReferenceDay1825 =>
       'Cinco anos: vida além do feed\n\nFonte: Ramadhan et al., “Impacts of digital social media detox for mental health: A systematic review and meta-analysis”, Narra J (2024), PubMed PMID 39280291\n\nA meta-análise reuniu 10 estudos sobre intervenções de detox digital. No conjunto, os sintomas depressivos diminuíram; não houve efeitos combinados estatisticamente significativos sobre satisfação com a vida, estresse ou bem-estar mental geral.\n\nA revisão não estabelece resultados a cinco anos. O dia 1.825 celebra meia década de escolhas digitais intencionais, sem inventar um prazo de “reinício” cerebral.';
+
+  @override
+  String get ssriMilestone730Title => '2 anos: Progresso firme';
+
+  @override
+  String get ssriMilestone730Description =>
+      'Dois anos após parar um ISRS são um grande marco pessoal. A experiência de retirada varia bastante, então este aniversário celebra progresso sustentado sem afirmar um prazo biológico universal de recuperação.';
+
+  @override
+  String get ssriReferenceDay730 =>
+      'Dois anos após os ISRS: Progresso firme\n\nFonte: Royal College of Psychiatrists — Stopping antidepressants\n\nA orientação diz que antidepressivos normalmente não devem ser interrompidos de uma vez e que a redução gradual deve ser adaptada a cada pessoa. Os sintomas de retirada variam.\n\nEla não define um limiar biológico de recuperação aos dois anos após um ISRS. O dia 730 celebra dois anos de progresso sustentado.';
+
+  @override
+  String get ssriMilestone1095Title => '3 anos: Progresso mantido';
+
+  @override
+  String get ssriMilestone1095Description =>
+      'Três anos após a redução gradual de um ISRS representam um caminho longo. Este aniversário reconhece a estabilidade, as rotinas e o apoio que sustentaram o progresso; a orientação clínica não fixa um limiar especial nessa data.';
+
+  @override
+  String get ssriReferenceDay1095 =>
+      'Três anos após os ISRS: Progresso mantido\n\nFonte: Royal College of Psychiatrists — Stopping antidepressants\n\nA orientação descreve a retirada como individual. O ritmo da redução depende, entre outros fatores, do tempo de tratamento e de sintomas em reduções anteriores.\n\nEla não estabelece três anos como prazo universal de recuperação de um ISRS. O dia 1095 reconhece três anos de progresso mantido.';
+
+  @override
+  String get ssriMilestone1460Title => '4 anos: Base mais sólida';
+
+  @override
+  String get ssriMilestone1460Description =>
+      'Quatro anos refletem progresso duradouro construído com o tempo. Retirada e recuperação são individuais; este marco valoriza a consistência sem inventar um cronograma neurológico fixo.';
+
+  @override
+  String get ssriReferenceDay1460 =>
+      'Quatro anos após os ISRS: Base mais sólida\n\nFonte: Royal College of Psychiatrists — Stopping antidepressants\n\nA orientação recomenda redução gradual e individualizada, porque a intensidade e a duração da retirada variam. Algumas pessoas precisam de meses ou mais.\n\nIsso não cria um ponto final neurológico aos quatro anos. O dia 1460 celebra quatro anos de mudança sustentada.';
+
+  @override
+  String get ssriMilestone1825Title => '5 anos: Grande marco';
+
+  @override
+  String get ssriMilestone1825Description =>
+      'Cinco anos são um grande marco pessoal: meia década de progresso sustentado após parar um ISRS. A orientação clínica não define um limiar universal de recuperação aos cinco anos.';
+
+  @override
+  String get ssriReferenceDay1825 =>
+      'Cinco anos após os ISRS: Grande marco\n\nFonte: Royal College of Psychiatrists — Stopping antidepressants\n\nA orientação se concentra em redução segura e individualizada e em responder aos sintomas, não em impor o mesmo cronograma de recuperação a todo mundo.\n\nEla não estabelece um limiar de recuperação de cinco anos para os ISRS. O dia 1825 continua sendo um aniversário importante.';
 }

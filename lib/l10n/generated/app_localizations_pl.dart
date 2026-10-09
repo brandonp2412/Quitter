@@ -4453,4 +4453,48 @@ class AppLocalizationsPl extends AppLocalizations {
   @override
   String get socialMediaReferenceDay1825 =>
       'Pięć lat: życie poza feedem\n\nŹródło: Ramadhan i in., “Impacts of digital social media detox for mental health: A systematic review and meta-analysis”, Narra J (2024), PubMed PMID 39280291\n\nMetaanaliza objęła 10 badań interwencji typu digital detox. Ogólnie zmniejszyły się objawy depresyjne; łączne efekty dla satysfakcji z życia, stresu i ogólnego dobrostanu psychicznego nie były statystycznie istotne.\n\nPrzegląd nie ustala wyników po pięciu latach. Dzień 1 825 świętuje pół dekady świadomych wyborów cyfrowych bez wymyślania terminu „resetu” mózgu.';
+
+  @override
+  String get ssriMilestone730Title => '2 lata: Stały postęp';
+
+  @override
+  String get ssriMilestone730Description =>
+      'Dwa lata po odstawieniu SSRI to ważny osobisty kamień milowy. Objawy odstawienne bardzo się różnią, dlatego ta rocznica świętuje trwały postęp bez sugerowania uniwersalnego biologicznego terminu powrotu do zdrowia.';
+
+  @override
+  String get ssriReferenceDay730 =>
+      'Dwa lata po SSRI: Stały postęp\n\nŹródło: Royal College of Psychiatrists — Stopping antidepressants\n\nWytyczne mówią, że leków przeciwdepresyjnych zwykle nie należy odstawiać nagle, a tempo zmniejszania dawki powinno być indywidualne. Objawy odstawienne są różne.\n\nNie wyznaczają biologicznego progu dwóch lat po SSRI. Dzień 730 świętuje dwa lata utrzymanego postępu.';
+
+  @override
+  String get ssriMilestone1095Title => '3 lata: Trwały postęp';
+
+  @override
+  String get ssriMilestone1095Description =>
+      'Trzy lata po stopniowym odstawieniu SSRI to długa droga. Ta rocznica docenia stabilność, nawyki i wsparcie, które utrzymały postęp; wytyczne nie wyznaczają w tym dniu szczególnego progu zdrowienia.';
+
+  @override
+  String get ssriReferenceDay1095 =>
+      'Trzy lata po SSRI: Trwały postęp\n\nŹródło: Royal College of Psychiatrists — Stopping antidepressants\n\nWytyczne podkreślają indywidualny przebieg odstawienia. Tempo redukcji zależy m.in. od długości leczenia i wcześniejszych objawów przy zmniejszaniu dawki.\n\nTrzy lata nie są uniwersalnym terminem zdrowienia po SSRI. Dzień 1095 oznacza trzy lata utrzymanego postępu.';
+
+  @override
+  String get ssriMilestone1460Title => '4 lata: Mocniejszy grunt';
+
+  @override
+  String get ssriMilestone1460Description =>
+      'Cztery lata pokazują trwały postęp budowany z czasem. Odstawienie i zdrowienie są indywidualne; ten kamień milowy docenia konsekwencję bez wymyślania stałego neurologicznego harmonogramu.';
+
+  @override
+  String get ssriReferenceDay1460 =>
+      'Cztery lata po SSRI: Mocniejszy grunt\n\nŹródło: Royal College of Psychiatrists — Stopping antidepressants\n\nWytyczne zalecają stopniowe, indywidualne zmniejszanie dawki, ponieważ nasilenie i czas objawów odstawiennych są różne. Niektóre osoby potrzebują miesięcy lub dłużej.\n\nNie tworzy to neurologicznego punktu końcowego po czterech latach. Dzień 1460 świętuje cztery lata trwałej zmiany.';
+
+  @override
+  String get ssriMilestone1825Title => '5 lat: Wielki kamień milowy';
+
+  @override
+  String get ssriMilestone1825Description =>
+      'Pięć lat to ważny osobisty kamień milowy: pół dekady utrzymanego postępu po odstawieniu SSRI. Wytyczne nie definiują uniwersalnego pięcioletniego progu zdrowienia.';
+
+  @override
+  String get ssriReferenceDay1825 =>
+      'Pięć lat po SSRI: Wielki kamień milowy\n\nŹródło: Royal College of Psychiatrists — Stopping antidepressants\n\nWytyczne skupiają się na bezpiecznym, indywidualnym odstawianiu i reagowaniu na objawy, a nie na jednym harmonogramie zdrowienia dla wszystkich.\n\nNie wyznaczają pięcioletniego progu zdrowienia po SSRI. Dzień 1825 nadal jest znaczącą rocznicą.';
 }

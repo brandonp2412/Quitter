@@ -4462,4 +4462,48 @@ class AppLocalizationsEs extends AppLocalizations {
   @override
   String get socialMediaReferenceDay1825 =>
       'Cinco años: vida más allá de las redes\n\nFuente: Ramadhan et al., “Impacts of digital social media detox for mental health: A systematic review and meta-analysis”, Narra J (2024), PubMed PMID 39280291\n\nEl metaanálisis reunió 10 estudios sobre intervenciones de desintoxicación digital. En conjunto disminuyeron los síntomas depresivos; no hubo efectos combinados estadísticamente significativos sobre satisfacción vital, estrés ni bienestar mental general.\n\nLa revisión no establece resultados a cinco años. El día 1.825 celebra media década de decisiones digitales intencionales, sin inventar un plazo de “reinicio” cerebral.';
+
+  @override
+  String get ssriMilestone730Title => '2 años: Progreso constante';
+
+  @override
+  String get ssriMilestone730Description =>
+      'Dos años después de dejar un ISRS es un gran hito personal. La experiencia de retirada varía mucho, así que este aniversario celebra el progreso sostenido sin afirmar un plazo biológico universal de recuperación.';
+
+  @override
+  String get ssriReferenceDay730 =>
+      'Dos años tras los ISRS: Progreso constante\n\nFuente: Royal College of Psychiatrists — Stopping antidepressants\n\nLa guía indica que los antidepresivos no suelen suspenderse de golpe y que la reducción debe adaptarse a cada persona. Los síntomas de retirada varían mucho.\n\nNo define un umbral biológico de recuperación a los dos años tras un ISRS. El día 730 celebra dos años de progreso sostenido.';
+
+  @override
+  String get ssriMilestone1095Title => '3 años: Progreso sostenido';
+
+  @override
+  String get ssriMilestone1095Description =>
+      'Tres años tras la reducción de un ISRS es un tramo largo. Este aniversario reconoce la estabilidad, las rutinas y el apoyo que han mantenido el progreso; la guía clínica no fija aquí un umbral especial.';
+
+  @override
+  String get ssriReferenceDay1095 =>
+      'Tres años tras los ISRS: Progreso sostenido\n\nFuente: Royal College of Psychiatrists — Stopping antidepressants\n\nLa guía describe la retirada como individual. El ritmo de reducción depende, entre otras cosas, del tiempo de tratamiento y de síntomas previos al reducir dosis.\n\nNo establece tres años como plazo universal de recuperación de un ISRS. El día 1095 reconoce tres años de progreso mantenido.';
+
+  @override
+  String get ssriMilestone1460Title => '4 años: Base más firme';
+
+  @override
+  String get ssriMilestone1460Description =>
+      'Cuatro años reflejan un progreso duradero construido con el tiempo. La retirada y la recuperación son individuales; este hito honra lo mantenido sin inventar un calendario neurológico fijo.';
+
+  @override
+  String get ssriReferenceDay1460 =>
+      'Cuatro años tras los ISRS: Base más firme\n\nFuente: Royal College of Psychiatrists — Stopping antidepressants\n\nLa guía recomienda una reducción gradual e individualizada porque la intensidad y duración de la retirada varían. Algunas personas necesitan meses o más.\n\nEso no crea un punto final neurológico a los cuatro años. El día 1460 celebra cuatro años de cambio sostenido.';
+
+  @override
+  String get ssriMilestone1825Title => '5 años: Gran hito';
+
+  @override
+  String get ssriMilestone1825Description =>
+      'Cinco años es un gran hito personal: medio decenio de progreso sostenido tras dejar un ISRS. La guía clínica no define un umbral universal de recuperación a los cinco años.';
+
+  @override
+  String get ssriReferenceDay1825 =>
+      'Cinco años tras los ISRS: Gran hito\n\nFuente: Royal College of Psychiatrists — Stopping antidepressants\n\nLa guía se centra en una reducción segura e individualizada y en responder a los síntomas, no en asignar el mismo calendario de recuperación a todo el mundo.\n\nNo establece un umbral de recuperación de cinco años para los ISRS. El día 1825 sigue siendo un aniversario importante.';
 }

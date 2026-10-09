@@ -4364,4 +4364,48 @@ class AppLocalizationsFa extends AppLocalizations {
   @override
   String get socialMediaReferenceDay1825 =>
       'پنج سال: زندگی فراتر از فید\n\nمنبع: Ramadhan و همکاران، “Impacts of digital social media detox for mental health: A systematic review and meta-analysis”، Narra J (2024)، PubMed PMID 39280291\n\nاین فراتحلیل ۱۰ مطالعه درباره مداخلات «سم‌زدایی دیجیتال» را ترکیب کرد. در مجموع علائم افسردگی کاهش یافت، اما اثر تجمیعی بر رضایت از زندگی، استرس و بهزیستی روانی کلی از نظر آماری معنادار نبود.\n\nاین مرور نتیجهٔ پنج‌ساله‌ای تعیین نمی‌کند. روز ۱۸۲۵ نیم دهه انتخاب دیجیتال آگاهانه را جشن می‌گیرد، بدون ساختن جدول زمانی خیالی برای «بازنشانی مغز».';
+
+  @override
+  String get ssriMilestone730Title => '۲ سال: پیشرفت پایدار';
+
+  @override
+  String get ssriMilestone730Description =>
+      'دو سال پس از قطع یک SSRI یک نقطه عطف شخصی بزرگ است. تجربه علائم قطع در افراد بسیار متفاوت است، بنابراین این سالگرد پیشرفت پایدار را جشن می‌گیرد بدون آن‌که زمان‌بندی زیستی یکسانی برای بهبود ادعا کند.';
+
+  @override
+  String get ssriReferenceDay730 =>
+      'دو سال پس از SSRI: پیشرفت پایدار\n\nمنبع: Royal College of Psychiatrists — Stopping antidepressants\n\nراهنما می‌گوید داروهای ضدافسردگی معمولاً نباید ناگهانی قطع شوند و کاهش دوز باید متناسب با هر فرد باشد. علائم قطع میان افراد متفاوت است.\n\nاین راهنما آستانه زیستی دو ساله‌ای برای بهبود پس از SSRI تعیین نمی‌کند. روز ۷۳۰ دو سال پیشرفت پایدار را گرامی می‌دارد.';
+
+  @override
+  String get ssriMilestone1095Title => '۳ سال: پیشرفت ماندگار';
+
+  @override
+  String get ssriMilestone1095Description =>
+      'سه سال پس از کاهش و قطع SSRI مسیر طولانی‌ای است. این سالگرد ثبات، عادت‌ها و حمایتی را ارج می‌نهد که پیشرفت را حفظ کرده‌اند؛ راهنمای بالینی در این تاریخ آستانه ویژه‌ای برای بهبود تعیین نمی‌کند.';
+
+  @override
+  String get ssriReferenceDay1095 =>
+      'سه سال پس از SSRI: پیشرفت ماندگار\n\nمنبع: Royal College of Psychiatrists — Stopping antidepressants\n\nراهنما تأکید می‌کند که تجربه قطع فردی است و سرعت کاهش دوز به عواملی مانند مدت مصرف و علائم در کاهش‌های قبلی بستگی دارد.\n\nسه سال یک مهلت همگانی برای بهبود پس از SSRI نیست. روز ۱۰۹۵ سه سال پیشرفت حفظ‌شده را نشان می‌دهد.';
+
+  @override
+  String get ssriMilestone1460Title => '۴ سال: پایه محکم‌تر';
+
+  @override
+  String get ssriMilestone1460Description =>
+      'چهار سال نشان‌دهنده پیشرفت پایدار و ساخته‌شده در گذر زمان است. قطع و بهبود در هر فرد متفاوت است؛ این نقطه عطف بدون ساختن جدول عصبی ثابت، تداوم را گرامی می‌دارد.';
+
+  @override
+  String get ssriReferenceDay1460 =>
+      'چهار سال پس از SSRI: پایه محکم‌تر\n\nمنبع: Royal College of Psychiatrists — Stopping antidepressants\n\nراهنما کاهش تدریجی و فردی را توصیه می‌کند، زیرا شدت و مدت علائم قطع متفاوت است. برخی افراد به ماه‌ها یا زمان بیشتری نیاز دارند.\n\nاین شواهد چهار سال را نقطه پایان عصبی نمی‌دانند. روز ۱۴۶۰ چهار سال تغییر پایدار را جشن می‌گیرد.';
+
+  @override
+  String get ssriMilestone1825Title => '۵ سال: نقطه عطف بزرگ';
+
+  @override
+  String get ssriMilestone1825Description =>
+      'پنج سال یک نقطه عطف شخصی بزرگ است: نیم دهه پیشرفت پایدار پس از قطع SSRI. راهنمای بالینی آستانه همگانی پنج‌ساله‌ای برای بهبود تعیین نمی‌کند.';
+
+  @override
+  String get ssriReferenceDay1825 =>
+      'پنج سال پس از SSRI: نقطه عطف بزرگ\n\nمنبع: Royal College of Psychiatrists — Stopping antidepressants\n\nراهنما بر کاهش ایمن و فردی و پاسخ به علائم تمرکز دارد، نه یک برنامه بهبود ثابت برای همه.\n\nآستانه مبتنی بر شواهد پنج‌ساله‌ای برای بهبود پس از SSRI تعیین نشده است. روز ۱۸۲۵ همچنان یک سالگرد مهم است.';
 }

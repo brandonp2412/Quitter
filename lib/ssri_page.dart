@@ -159,6 +159,66 @@ class SsriPage extends StatelessWidget {
             "Your One-Year Milestone\n"
             "If you've reached a year off and you're doing well, that's a huge achievement. ANTLER does not say everyone should stay on medication or everyone should stop; it shows why relapse risk and treatment decisions deserve individual follow-up. Restarting medication if you need it is a clinical choice, not a failure.",
       ),
+      QuitMilestone(
+        day: 730,
+        title: l10n.ssriMilestone730Title,
+        description: l10n.ssriMilestone730Description,
+        reference: "Royal College of Psychiatrists - Stopping antidepressants",
+        link:
+            "https://www.rcpsych.ac.uk/mental-health/treatments-and-wellbeing/stopping-antidepressants",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.ssriReferenceDay730,
+        referenceContent:
+            "Two Years After SSRIs: Steady Progress\n\n"
+            "Source: Royal College of Psychiatrists — Stopping antidepressants\n\n"
+            "The Royal College says antidepressants should not usually be stopped suddenly and that tapering should be adapted to the individual. Withdrawal experiences vary, and some people need slower reductions over months or longer.\n\n"
+            "The guidance does not define a two-year biological recovery threshold after stopping an SSRI. Day 730 celebrates two years of sustained progress, not a fixed neurological timetable.",
+      ),
+      QuitMilestone(
+        day: 1095,
+        title: l10n.ssriMilestone1095Title,
+        description: l10n.ssriMilestone1095Description,
+        reference: "Royal College of Psychiatrists - Stopping antidepressants",
+        link:
+            "https://www.rcpsych.ac.uk/mental-health/treatments-and-wellbeing/stopping-antidepressants",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.ssriReferenceDay1095,
+        referenceContent:
+            "Three Years After SSRIs: Progress Sustained\n\n"
+            "Source: Royal College of Psychiatrists — Stopping antidepressants\n\n"
+            "The guidance describes withdrawal as individual: tapering pace depends on factors such as how long the medicine was taken and whether previous dose reductions caused symptoms.\n\n"
+            "It does not establish three years as a universal SSRI recovery deadline. Day 1095 recognises progress maintained over three years without inventing a clinical threshold.",
+      ),
+      QuitMilestone(
+        day: 1460,
+        title: l10n.ssriMilestone1460Title,
+        description: l10n.ssriMilestone1460Description,
+        reference: "Royal College of Psychiatrists - Stopping antidepressants",
+        link:
+            "https://www.rcpsych.ac.uk/mental-health/treatments-and-wellbeing/stopping-antidepressants",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.ssriReferenceDay1460,
+        referenceContent:
+            "Four Years After SSRIs: Stronger Ground\n\n"
+            "Source: Royal College of Psychiatrists — Stopping antidepressants\n\n"
+            "The Royal College recommends gradual, individualised tapering because withdrawal severity and duration differ between people. Some people need reductions spread across months or longer.\n\n"
+            "That evidence does not create a four-year neurological endpoint. Day 1460 celebrates four years of sustained change and the stability built along the way.",
+      ),
+      QuitMilestone(
+        day: 1825,
+        title: l10n.ssriMilestone1825Title,
+        description: l10n.ssriMilestone1825Description,
+        reference: "Royal College of Psychiatrists - Stopping antidepressants",
+        link:
+            "https://www.rcpsych.ac.uk/mental-health/treatments-and-wellbeing/stopping-antidepressants",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.ssriReferenceDay1825,
+        referenceContent:
+            "Five Years After SSRIs: Major Milestone\n\n"
+            "Source: Royal College of Psychiatrists — Stopping antidepressants\n\n"
+            "The guidance focuses on safe, individualised tapering and responding to symptoms rather than assigning one fixed recovery schedule to everyone.\n\n"
+            "There is no evidence-based five-year SSRI recovery threshold in that guidance. Day 1825 is still a major personal anniversary: half a decade of sustained progress.",
+      ),
     ];
   }
 

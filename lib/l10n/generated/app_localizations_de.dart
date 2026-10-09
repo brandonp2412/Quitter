@@ -4449,4 +4449,48 @@ class AppLocalizationsDe extends AppLocalizations {
   @override
   String get socialMediaReferenceDay1825 =>
       'Fünf Jahre: Leben jenseits des Feeds\n\nQuelle: Ramadhan et al., „Impacts of digital social media detox for mental health: A systematic review and meta-analysis“, Narra J (2024), PubMed PMID 39280291\n\nDie Metaanalyse fasste 10 Studien zu Digital-Detox-Interventionen zusammen. Depressive Symptome gingen insgesamt zurück; für Lebenszufriedenheit, Stress und allgemeines psychisches Wohlbefinden zeigten sich keine statistisch signifikanten gepoolten Effekte.\n\nDie Studie belegt keine Fünfjahresergebnisse. Tag 1.825 feiert ein halbes Jahrzehnt bewusster digitaler Entscheidungen, ohne eine erfundene neurologische Frist.';
+
+  @override
+  String get ssriMilestone730Title => '2 Jahre: Stetiger Fortschritt';
+
+  @override
+  String get ssriMilestone730Description =>
+      'Zwei Jahre nach dem Absetzen eines SSRI sind ein großer persönlicher Meilenstein. Entzugserfahrungen unterscheiden sich stark; dieses Jubiläum würdigt anhaltenden Fortschritt, ohne eine allgemeine biologische Erholungsfrist zu behaupten.';
+
+  @override
+  String get ssriReferenceDay730 =>
+      'Zwei Jahre nach SSRIs: Stetiger Fortschritt\n\nQuelle: Royal College of Psychiatrists — Stopping antidepressants\n\nDie Leitlinie rät, Antidepressiva in der Regel nicht abrupt abzusetzen und das Ausschleichen individuell anzupassen. Entzugssymptome unterscheiden sich von Mensch zu Mensch.\n\nSie definiert keine biologische Zwei-Jahres-Schwelle nach einem SSRI. Tag 730 würdigt zwei Jahre anhaltenden Fortschritts.';
+
+  @override
+  String get ssriMilestone1095Title => '3 Jahre: Fortschritt bleibt';
+
+  @override
+  String get ssriMilestone1095Description =>
+      'Drei Jahre nach dem SSRI-Ausschleichen sind eine lange Strecke. Dieses Jubiläum würdigt die Stabilität und Gewohnheiten, die diesen Fortschritt getragen haben; die Leitlinie setzt hier keine besondere Erholungsschwelle.';
+
+  @override
+  String get ssriReferenceDay1095 =>
+      'Drei Jahre nach SSRIs: Fortschritt bleibt\n\nQuelle: Royal College of Psychiatrists — Stopping antidepressants\n\nDie Leitlinie beschreibt den Entzug als individuell. Das Tempo des Ausschleichens hängt unter anderem von Behandlungsdauer und früheren Entzugssymptomen ab.\n\nDrei Jahre gelten nicht als allgemeine SSRI-Erholungsfrist. Tag 1095 würdigt drei Jahre gehaltenen Fortschritts.';
+
+  @override
+  String get ssriMilestone1460Title => '4 Jahre: Fester Boden';
+
+  @override
+  String get ssriMilestone1460Description =>
+      'Vier Jahre stehen für dauerhaften, über Zeit aufgebauten Fortschritt. Entzug und Erholung verlaufen individuell; dieser Meilenstein würdigt Beständigkeit ohne erfundenen neurologischen Zeitplan.';
+
+  @override
+  String get ssriReferenceDay1460 =>
+      'Vier Jahre nach SSRIs: Fester Boden\n\nQuelle: Royal College of Psychiatrists — Stopping antidepressants\n\nDie Leitlinie empfiehlt ein schrittweises, individuelles Ausschleichen, weil Stärke und Dauer von Entzugssymptomen variieren. Manche Menschen brauchen dafür Monate oder länger.\n\nDaraus folgt kein neurologischer Vier-Jahres-Endpunkt. Tag 1460 feiert vier Jahre anhaltender Veränderung.';
+
+  @override
+  String get ssriMilestone1825Title => '5 Jahre: Großer Meilenstein';
+
+  @override
+  String get ssriMilestone1825Description =>
+      'Fünf Jahre sind ein großer persönlicher Meilenstein: ein halbes Jahrzehnt anhaltenden Fortschritts nach einem SSRI. Die Leitlinie definiert keine allgemeine Fünf-Jahres-Erholungsschwelle.';
+
+  @override
+  String get ssriReferenceDay1825 =>
+      'Fünf Jahre nach SSRIs: Großer Meilenstein\n\nQuelle: Royal College of Psychiatrists — Stopping antidepressants\n\nDie Leitlinie konzentriert sich auf sicheres, individuelles Ausschleichen und den Umgang mit Symptomen, nicht auf einen festen Erholungsplan für alle.\n\nEine evidenzbasierte Fünf-Jahres-Schwelle für SSRIs wird nicht genannt. Tag 1825 bleibt dennoch ein bedeutendes Jubiläum.';
 }
