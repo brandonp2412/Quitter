@@ -2882,7 +2882,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get benzodiazepineReferenceDay90 =>
-      'ベンゾジアゼピン中止から3か月：思考が速くなり、鎮静感が軽くなる\n\n出典: Rickels et al., \"Psychomotor performance of long-term benzodiazepine users before, during, and after benzodiazepine discontinuation,\" Journal of Clinical Psychopharmacology (1999), on PubMed\n\n12週間で測定された回復のサイン\n研究では、長期ベンゾジアゼピン使用者を減量前、減量後5週、12週に検査しました。12週時点のデータは77人分あり、中止に成功した人は毎週の血液検査でベンゾジアゼピンを使用していないことが確認されました。\n\n認知課題が速くなる\n中止に成功した人は、使用を続けていた参加者より、記号写字課題と数字記号置換課題を速く完了しました。年齢、教育歴、開始時の得点を考慮しても差は有意でした。\n\n精神的・身体的な鎮静感が軽くなる\n中止に成功した人は、ベンゾジアゼピンを続けていた人より精神的・身体的な鎮静感も少ないと報告しました。\n\n3か月で見えてくる変化\nこの研究で中止に成功した人では、減量から12週間後に処理速度の改善と精神的・身体的な鎮静感の低下が測定されました。思考のスピードが上がり、ぼんやりした鎮静感が軽くなっていました。';
+      'ベンゾジアゼピン中止から3か月：思考が速くなり、鎮静感が軽くなる\n\n出典: Rickels et al., \"Psychomotor performance of long-term benzodiazepine users before, during, and after benzodiazepine discontinuation,\" Journal of Clinical Psychopharmacology (1999), PubMedに掲載\n\n12週間で測定された回復のサイン\n研究では、長期ベンゾジアゼピン使用者を減量前、減量後5週、12週に検査しました。12週時点のデータは77人分あり、中止に成功した人は毎週の血液検査でベンゾジアゼピンを使用していないことが確認されました。\n\n認知課題が速くなる\n中止に成功した人は、使用を続けていた参加者より、記号写字課題と数字記号置換課題を速く完了しました。年齢、教育歴、開始時の得点を考慮しても差は有意でした。\n\n精神的・身体的な鎮静感が軽くなる\n中止に成功した人は、ベンゾジアゼピンを続けていた人より精神的・身体的な鎮静感も少ないと報告しました。\n\n3か月で見えてくる変化\nこの研究で中止に成功した人では、減量から12週間後に処理速度の改善と精神的・身体的な鎮静感の低下が測定されました。思考のスピードが上がり、ぼんやりした鎮静感が軽くなっていました。';
 
   @override
   String get benzodiazepineReferenceDay180 =>

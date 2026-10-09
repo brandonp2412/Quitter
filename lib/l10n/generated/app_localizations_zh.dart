@@ -2263,7 +2263,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get nicotinePouchesMilestone7Description =>
-      '停用尼古丁袋一周，意味着你已经越过通常在第3天左右出现的尼古丁戒断高峰。症状通常会在随后3–4周逐渐减轻——你已经走上下坡路。';
+      '停用尼古丁袋一周，意味着您已经越过通常在第3天左右出现的尼古丁戒断高峰。症状通常会在随后3–4周逐渐减轻——您已经走上下坡路。';
 
   @override
   String get nicotinePouchesMilestone14Title => '两周：戒断继续缓解';
