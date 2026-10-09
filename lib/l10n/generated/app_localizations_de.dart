@@ -4134,6 +4134,38 @@ class AppLocalizationsDe extends AppLocalizations {
   }
 
   @override
+  String get vapingMilestone730Title => 'Zwei Jahre: Vape-frei stark';
+
+  @override
+  String get vapingMilestone730Description =>
+      'Zwei Jahre vape-frei. Laut CDC kann Nikotinabhängigkeit das Aufhören erschweren, und die langfristigen Gesundheitsfolgen des Vapings werden noch erforscht. Der belegbare Erfolg ist die Serie selbst: 730 Tage ohne Rückkehr zum Vape.';
+
+  @override
+  String get vapingMilestone1095Title => 'Drei Jahre: Schwung aufgebaut';
+
+  @override
+  String get vapingMilestone1095Description =>
+      'Drei Jahre vape-frei. Du hast eine schwierige Veränderung 1.095 Tage lang aufrechterhalten. Die CDC definiert keine biologische Drei-Jahres-Schwelle; feiere deshalb, was die Evidenz trägt: anhaltende Freiheit vom Vaping.';
+
+  @override
+  String get vapingMilestone1460Title => 'Vier Jahre: Fester Boden';
+
+  @override
+  String get vapingMilestone1460Description =>
+      'Vier Jahre vape-frei. Das sind 1.460 Tage, ohne die Vaping-Gewohnheit weiter zu verstärken. Die Wissenschaft kennt keine universelle Langzeit-Uhr für Erholung, aber diese beständige Veränderung ist real und feiernswert.';
+
+  @override
+  String get vapingMilestone1825Title => 'Fünf Jahre: Ein halbes Jahrzehnt';
+
+  @override
+  String get vapingMilestone1825Description =>
+      'Fünf Jahre vape-frei. Ein halbes Jahrzehnt ohne Rückkehr zum Vaping ist ein großer Langzeiterfolg. Die CDC-Evidenz macht daraus keinen medizinischen Endpunkt; der Meilenstein ist die Veränderung, die du gehalten hast.';
+
+  @override
+  String get vapingLongTermReference =>
+      'Vaping, Aufhören und Langzeit-Evidenz\n\nQuelle: CDC — Vaping and Quitting; CDC — Health Effects of Vaping\n\nDie CDC erklärt, dass Vaping zu Nikotinabhängigkeit führen kann, dass beim Aufhören Nikotinentzug auftreten kann und dass die besten Wege zum Aufhören noch erforscht werden. Auch die langfristigen Gesundheitsfolgen von E-Zigaretten werden weiterhin untersucht.\n\nDiese Quellen definieren keine biologischen Erholungsschwellen nach zwei, drei, vier oder fünf Jahren. Quitter behandelt diese Daten deshalb als Jahrestage anhaltender Vape-Freiheit, nicht als medizinische Endpunkte.';
+
+  @override
   String get vapingWithdrawalReference =>
       'E-Zigaretten-Abstinenz und Entzug\n\nQuelle: Hughes et al., Nicotine & Tobacco Research (2020)\n\nBei 109 ehemaligen Rauchern mit täglichem E-Zigaretten-Konsum führten sechs Tage biologisch bestätigter Abstinenz zu mehr Nikotinentzugssymptomen und Verlangen. Die Symptome zeigten den typischen Anstieg-und-Abfall-Verlauf, mit einem deutlichen Anstieg in den ersten zwei abstinenten Tagen. Die Studie belegt echten E-Zigaretten-Entzug, aber keinen universellen taggenauen Erholungsplan.';
 

@@ -2646,6 +2646,15 @@
       }
     }
   },
+  "vapingMilestone730Title": "2年：ベイプなしの強さ",
+  "vapingMilestone730Description": "ベイプなしで2年。CDCは、ニコチン依存が禁煙ならぬ「禁ベイプ」を難しくし得ること、そしてベイプの長期的な健康影響はまだ研究中だとしています。確かに祝える成果はこの継続そのものです。730日、ベイプに戻らず積み重ねました。",
+  "vapingMilestone1095Title": "3年：積み上げた勢い",
+  "vapingMilestone1095Description": "ベイプなしで3年。難しい変化を1,095日続けてきました。CDCは3年を生物学的な回復の境目とは定めていません。だからこそ、根拠をもって祝えるものを祝いましょう。ベイプから離れ続けていることです。",
+  "vapingMilestone1460Title": "4年：揺るがない土台",
+  "vapingMilestone1460Description": "ベイプなしで4年。ベイプ習慣を再び強めずに1,460日です。科学は誰にでも当てはまる長期回復の時計をまだ示していませんが、この持続した変化は現実で、十分に祝う価値があります。",
+  "vapingMilestone1825Title": "5年：大きな節目",
+  "vapingMilestone1825Description": "ベイプなしで5年。半 दशक、ベイプに戻らなかったことは大きな長期的成果です。CDCの根拠は5年を医療上の終点とはしていません。節目は、あなたが築いて維持した変化そのものです。",
+  "vapingLongTermReference": "ベイプ、離脱、長期的な根拠\n\n出典：CDC — Vaping and Quitting；CDC — Health Effects of Vaping\n\nCDCは、ベイプでニコチン依存が生じ得ること、やめるとニコチン離脱症状が出ることがあること、そしてベイプをやめる最善の支援方法はまだ研究中だとしています。電子タバコの長期的な健康影響についても研究が続いています。\n\nこれらの情報は、ベイプをやめて2年、3年、4年、5年という生物学的回復の境目を定めていません。Quitterではこれらの日を医療上の終点ではなく、ベイプなしの継続を祝う記念日として扱います。",
   "vapingWithdrawalReference": "電子タバコ断ちと離脱\n\n出典：Hughes ら, Nicotine & Tobacco Research (2020)\n\n毎日電子タバコを使っていた元喫煙者109人で、生物学的に確認された6日間の断ちによってニコチン離脱症状と欲求が増えました。症状は典型的な上がって下がる離脱パターンを示し、最初の2日間に強い増加が見られました。電子タバコの離脱が実在することは支持されますが、誰にでも当てはまる日単位の回復時計を示した研究ではありません。",
   "@vapingWithdrawalReference": {
     "description": "Localized reference summary for e-cigarette abstinence and withdrawal"

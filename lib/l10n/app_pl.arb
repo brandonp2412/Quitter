@@ -2649,6 +2649,15 @@
       }
     }
   },
+  "vapingMilestone730Title": "Dwa lata: moc bez wapowania",
+  "vapingMilestone730Description": "Dwa lata bez wapowania. CDC podaje, że uzależnienie od nikotyny może utrudniać rzucenie, a długoterminowe skutki zdrowotne wapowania nadal są badane. Pewnym osiągnięciem jest sama ciągłość: 730 dni bez powrotu do vape’a.",
+  "vapingMilestone1095Title": "Trzy lata: trwały rozpęd",
+  "vapingMilestone1095Description": "Trzy lata bez wapowania. Trudna zmiana utrzymuje się już 1 095 dni. CDC nie wyznacza biologicznego progu po trzech latach, więc warto świętować to, co naprawdę wspierają dowody: trwałą wolność od wapowania.",
+  "vapingMilestone1460Title": "Cztery lata: mocny grunt",
+  "vapingMilestone1460Description": "Cztery lata bez wapowania. To 1 460 dni bez ponownego wzmacniania nawyku. Nauka nie wyznacza uniwersalnego zegara długoterminowej regeneracji, ale ta trwała zmiana jest realna i zasługuje na świętowanie.",
+  "vapingMilestone1825Title": "Pięć lat: pół dekady",
+  "vapingMilestone1825Description": "Pięć lat bez wapowania. Pół dekady bez powrotu do vape’a to ogromne długoterminowe osiągnięcie. Dane CDC nie czynią z pięciu lat medycznego punktu końcowego; kamieniem milowym jest utrzymana zmiana.",
+  "vapingLongTermReference": "Wapowanie, rzucanie i dowody długoterminowe\n\nŹródło: CDC — Vaping and Quitting; CDC — Health Effects of Vaping\n\nCDC podaje, że osoby wapujące mogą uzależnić się od nikotyny, rzuceniu mogą towarzyszyć objawy odstawienia, a najlepsze sposoby pomagania w rzucaniu wapowania są nadal badane. Nadal badane są także długoterminowe skutki zdrowotne e-papierosów.\n\nŹródła te nie wyznaczają biologicznych progów regeneracji po dwóch, trzech, czterech ani pięciu latach. Dlatego Quitter traktuje te daty jako rocznice trwałego postępu bez wapowania, a nie medyczne punkty końcowe.",
   "vapingWithdrawalReference": "Abstynencja od e-papierosów i objawy odstawienia\n\nŹródło: Hughes i wsp., Nicotine & Tobacco Research (2020)\n\nU 109 byłych palaczy codziennie używających e-papierosów sześć dni biologicznie potwierdzonej abstynencji zwiększyło objawy odstawienia nikotyny i głód. Objawy miały typowy przebieg wzrostu i spadku, z wyraźnym nasileniem w pierwszych dwóch dniach abstynencji. Badanie potwierdza realne odstawienie e-papierosów, ale nie ustala uniwersalnego dziennego harmonogramu powrotu do zdrowia.",
   "@vapingWithdrawalReference": {
     "description": "Localized reference summary for e-cigarette abstinence and withdrawal"

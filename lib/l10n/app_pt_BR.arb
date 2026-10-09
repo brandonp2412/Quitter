@@ -1787,6 +1787,15 @@
       }
     }
   },
+  "vapingMilestone730Title": "Dois anos: força sem vape",
+  "vapingMilestone730Description": "Dois anos sem vape. O CDC informa que a dependência de nicotina pode dificultar parar e que os efeitos do vape na saúde a longo prazo ainda estão sendo estudados. A vitória comprovável é a própria sequência: 730 dias sem voltar ao vape.",
+  "vapingMilestone1095Title": "Três anos: impulso firme",
+  "vapingMilestone1095Description": "Três anos sem vape. Você manteve uma mudança difícil por 1.095 dias. O CDC não define um limite biológico de recuperação aos três anos, então celebre o que as evidências realmente sustentam: liberdade contínua do vape.",
+  "vapingMilestone1460Title": "Quatro anos: base sólida",
+  "vapingMilestone1460Description": "Quatro anos sem vape. São 1.460 dias sem reforçar novamente o hábito de vapear. A ciência ainda não define um relógio universal de recuperação a longo prazo, mas essa mudança duradoura é real e merece ser celebrada.",
+  "vapingMilestone1825Title": "Cinco anos: meia década",
+  "vapingMilestone1825Description": "Cinco anos sem vape. Meia década sem voltar ao vape é uma grande conquista de longo prazo. As evidências do CDC não transformam cinco anos em um ponto final médico; o marco é a mudança sustentada que você construiu.",
+  "vapingLongTermReference": "Vape, parar e evidências de longo prazo\n\nFonte: CDC — Vaping and Quitting; CDC — Health Effects of Vaping\n\nO CDC informa que quem usa vape pode desenvolver dependência de nicotina, que parar pode causar sintomas de abstinência e que as melhores formas de ajudar pessoas a parar de vapear ainda estão sendo estudadas. Os efeitos dos cigarros eletrônicos na saúde a longo prazo também continuam em estudo.\n\nEssas fontes não definem limites biológicos de recuperação aos dois, três, quatro ou cinco anos. Por isso, o Quitter trata essas datas como aniversários de progresso sustentado sem vape, e não como pontos finais médicos.",
   "vapingWithdrawalReference": "Abstinência de cigarros eletrônicos e sintomas de abstinência\n\nFonte: Hughes et al., Nicotine & Tobacco Research (2020)\n\nEm 109 ex-fumantes que usavam cigarros eletrônicos diariamente, seis dias de abstinência confirmada biologicamente aumentaram os sintomas de abstinência de nicotina e a fissura. Os sintomas seguiram o padrão clássico de subida e queda, com aumento forte nos dois primeiros dias sem uso. O estudo mostra que parar de usar cigarro eletrônico pode produzir abstinência real e que os primeiros dias podem ser a fase mais intensa.",
   "@vapingWithdrawalReference": {
     "description": "Localized reference summary for e-cigarette abstinence and withdrawal"

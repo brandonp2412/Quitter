@@ -6894,6 +6894,60 @@ abstract class AppLocalizations {
   /// **'{days} days without taking another hit of vape aerosol. That’s {days} days with no new vaping exposure to the harmful substances that aerosol can carry. If your vape contained nicotine, it’s also {days} days without reinforcing that dependence. Huge streak — keep it moving.'**
   String vapingLongStreakDescription(int days);
 
+  /// No description provided for @vapingMilestone730Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Two Years: Vape-Free Strength'**
+  String get vapingMilestone730Title;
+
+  /// No description provided for @vapingMilestone730Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Two years vape-free. CDC says nicotine addiction can make quitting hard and that vaping\'s long-term health effects are still being studied. Your proven win is the streak itself: 730 days without going back to the vape.'**
+  String get vapingMilestone730Description;
+
+  /// No description provided for @vapingMilestone1095Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Three Years: Momentum Built'**
+  String get vapingMilestone1095Title;
+
+  /// No description provided for @vapingMilestone1095Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Three years vape-free. You have kept a difficult change going for 1,095 days. CDC does not define a three-year biological recovery threshold, so celebrate what the evidence can support: sustained freedom from vaping.'**
+  String get vapingMilestone1095Description;
+
+  /// No description provided for @vapingMilestone1460Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Four Years: Stronger Ground'**
+  String get vapingMilestone1460Title;
+
+  /// No description provided for @vapingMilestone1460Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Four years vape-free. That\'s 1,460 days without reinforcing the vaping habit. Science still cannot assign a universal long-term recovery clock, but this durable change is real and worth celebrating.'**
+  String get vapingMilestone1460Description;
+
+  /// No description provided for @vapingMilestone1825Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Five Years: Half a Decade'**
+  String get vapingMilestone1825Title;
+
+  /// No description provided for @vapingMilestone1825Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Five years vape-free. Half a decade without returning to vaping is a major long-term achievement. CDC\'s evidence does not create a five-year medical endpoint; the milestone is the sustained change you built.'**
+  String get vapingMilestone1825Description;
+
+  /// No description provided for @vapingLongTermReference.
+  ///
+  /// In en, this message translates to:
+  /// **'Vaping, Quitting, and Long-Term Evidence\n\nSource: CDC — Vaping and Quitting; CDC — Health Effects of Vaping\n\nCDC says people who vape can become addicted to nicotine, quitting may cause nicotine-withdrawal symptoms, and scientists are still studying the best ways to help people quit vaping. CDC also says the long-term health effects of e-cigarettes are still being studied.\n\nThese sources do not define 2-, 3-, 4-, or 5-year biological recovery thresholds after quitting vaping. Quitter therefore treats these dates as anniversaries of sustained vape-free progress, not medical endpoints.'**
+  String get vapingLongTermReference;
+
   /// Localized reference summary for e-cigarette abstinence and withdrawal
   ///
   /// In en, this message translates to:

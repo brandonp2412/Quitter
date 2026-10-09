@@ -4149,6 +4149,38 @@ class AppLocalizationsPt extends AppLocalizations {
   }
 
   @override
+  String get vapingMilestone730Title => 'Dois anos: força sem vapear';
+
+  @override
+  String get vapingMilestone730Description =>
+      'Dois anos sem vapear. O CDC diz que a dependência da nicotina pode tornar difícil parar e que os efeitos do vaping na saúde a longo prazo continuam a ser estudados. A vitória comprovável é a própria sequência: 730 dias sem voltar ao vape.';
+
+  @override
+  String get vapingMilestone1095Title => 'Três anos: impulso firme';
+
+  @override
+  String get vapingMilestone1095Description =>
+      'Três anos sem vapear. Mantiveste uma mudança difícil durante 1 095 dias. O CDC não define um limiar biológico aos três anos, por isso celebra o que as provas realmente sustentam: liberdade contínua do vaping.';
+
+  @override
+  String get vapingMilestone1460Title => 'Quatro anos: base sólida';
+
+  @override
+  String get vapingMilestone1460Description =>
+      'Quatro anos sem vapear. São 1 460 dias sem reforçar novamente o hábito de vaping. A ciência ainda não define um relógio universal de recuperação a longo prazo, mas esta mudança duradoura é real e merece ser celebrada.';
+
+  @override
+  String get vapingMilestone1825Title => 'Cinco anos: meia década';
+
+  @override
+  String get vapingMilestone1825Description =>
+      'Cinco anos sem vapear. Meia década sem voltar ao vaping é uma grande conquista a longo prazo. A evidência do CDC não transforma os cinco anos num ponto final médico; o marco é a mudança sustentada que construíste.';
+
+  @override
+  String get vapingLongTermReference =>
+      'Vaping, deixar e evidência a longo prazo\n\nFonte: CDC — Vaping and Quitting; CDC — Health Effects of Vaping\n\nO CDC indica que quem vapeia pode desenvolver dependência de nicotina, que deixar pode causar sintomas de abstinência e que as melhores formas de ajudar a deixar o vaping continuam a ser estudadas. Os efeitos dos cigarros eletrónicos na saúde a longo prazo também continuam em investigação.\n\nEstas fontes não definem limiares biológicos de recuperação aos dois, três, quatro ou cinco anos. Por isso, o Quitter trata estas datas como aniversários de progresso sustentado sem vaping, e não como pontos finais médicos.';
+
+  @override
   String get vapingWithdrawalReference =>
       'Abstinência de cigarros eletrónicos e sintomas de privação\n\nFonte: Hughes et al., Nicotine & Tobacco Research (2020)\n\nEm 109 ex-fumadores que usavam cigarros eletrónicos diariamente, seis dias de abstinência confirmada biologicamente aumentaram os sintomas de privação de nicotina e os desejos. Os sintomas seguiram o padrão típico de subida e descida, com um aumento forte nos primeiros dois dias de abstinência. O estudo confirma que a abstinência do vape é real, mas não estabelece um relógio universal de recuperação dia a dia.';
 
@@ -8764,6 +8796,38 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
   String vapingLongStreakDescription(int days) {
     return '$days dias sem dar outra tragada de aerossol do vape. São $days dias sem nova exposição às substâncias nocivas que esse aerossol pode carregar. Se o seu vape tinha nicotina, também são $days dias sem reforçar essa dependência. Sequência gigante — siga em frente.';
   }
+
+  @override
+  String get vapingMilestone730Title => 'Dois anos: força sem vape';
+
+  @override
+  String get vapingMilestone730Description =>
+      'Dois anos sem vape. O CDC informa que a dependência de nicotina pode dificultar parar e que os efeitos do vape na saúde a longo prazo ainda estão sendo estudados. A vitória comprovável é a própria sequência: 730 dias sem voltar ao vape.';
+
+  @override
+  String get vapingMilestone1095Title => 'Três anos: impulso firme';
+
+  @override
+  String get vapingMilestone1095Description =>
+      'Três anos sem vape. Você manteve uma mudança difícil por 1.095 dias. O CDC não define um limite biológico de recuperação aos três anos, então celebre o que as evidências realmente sustentam: liberdade contínua do vape.';
+
+  @override
+  String get vapingMilestone1460Title => 'Quatro anos: base sólida';
+
+  @override
+  String get vapingMilestone1460Description =>
+      'Quatro anos sem vape. São 1.460 dias sem reforçar novamente o hábito de vapear. A ciência ainda não define um relógio universal de recuperação a longo prazo, mas essa mudança duradoura é real e merece ser celebrada.';
+
+  @override
+  String get vapingMilestone1825Title => 'Cinco anos: meia década';
+
+  @override
+  String get vapingMilestone1825Description =>
+      'Cinco anos sem vape. Meia década sem voltar ao vape é uma grande conquista de longo prazo. As evidências do CDC não transformam cinco anos em um ponto final médico; o marco é a mudança sustentada que você construiu.';
+
+  @override
+  String get vapingLongTermReference =>
+      'Vape, parar e evidências de longo prazo\n\nFonte: CDC — Vaping and Quitting; CDC — Health Effects of Vaping\n\nO CDC informa que quem usa vape pode desenvolver dependência de nicotina, que parar pode causar sintomas de abstinência e que as melhores formas de ajudar pessoas a parar de vapear ainda estão sendo estudadas. Os efeitos dos cigarros eletrônicos na saúde a longo prazo também continuam em estudo.\n\nEssas fontes não definem limites biológicos de recuperação aos dois, três, quatro ou cinco anos. Por isso, o Quitter trata essas datas como aniversários de progresso sustentado sem vape, e não como pontos finais médicos.';
 
   @override
   String get vapingWithdrawalReference =>

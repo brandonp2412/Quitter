@@ -3929,6 +3929,38 @@ class AppLocalizationsZh extends AppLocalizations {
   }
 
   @override
+  String get vapingMilestone730Title => '两年：无电子烟更坚定';
+
+  @override
+  String get vapingMilestone730Description =>
+      '无电子烟两年。CDC 指出，尼古丁依赖会让戒除更困难，而电子烟的长期健康影响仍在研究中。能够确定的胜利就是这段坚持本身：730 天没有回到电子烟。';
+
+  @override
+  String get vapingMilestone1095Title => '三年：稳健前行';
+
+  @override
+  String get vapingMilestone1095Description =>
+      '无电子烟三年。您把一项不容易的改变坚持了 1,095 天。CDC 并未把三年定义为生物学恢复阈值，所以值得庆祝的是证据真正支持的事：持续远离电子烟。';
+
+  @override
+  String get vapingMilestone1460Title => '四年：根基更稳';
+
+  @override
+  String get vapingMilestone1460Description =>
+      '无电子烟四年。这是 1,460 天没有再次强化电子烟习惯。科学仍不能给所有人设定统一的长期恢复时钟，但这种持久改变是真实的，也值得庆祝。';
+
+  @override
+  String get vapingMilestone1825Title => '五年：重大里程碑';
+
+  @override
+  String get vapingMilestone1825Description =>
+      '无电子烟五年。整整五年没有回到电子烟，是重要的长期成就。CDC 的证据并未把五年设为医学终点；真正的里程碑是您建立并保持的持续改变。';
+
+  @override
+  String get vapingLongTermReference =>
+      '电子烟、戒除与长期证据\n\n来源：CDC — Vaping and Quitting；CDC — Health Effects of Vaping\n\nCDC 指出，使用电子烟可能形成尼古丁依赖，戒除时可能出现尼古丁戒断症状，而帮助人们戒电子烟的最佳方法仍在研究中。电子烟的长期健康影响也仍在持续研究。\n\n这些资料并未把戒电子烟后的 2 年、3 年、4 年或 5 年定义为生物学恢复阈值。因此 Quitter 把这些日期作为持续无电子烟进步的周年纪念，而不是医学终点。';
+
+  @override
   String get vapingWithdrawalReference =>
       '电子烟停用与戒断\n\n来源：Hughes 等，Nicotine & Tobacco Research (2020)\n\n在109名每天使用电子烟的前吸烟者中，经过生物学确认的6天停用使尼古丁戒断症状和渴求增加。症状呈现典型的先升后降模式，并在最初两天明显增加。研究支持电子烟戒断确实存在，但并没有给出适用于所有人的逐日恢复时间表。';
 
@@ -8322,6 +8354,38 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   String vapingLongStreakDescription(int days) {
     return '$days 天沒有再吸一口電子煙氣溶膠。這就是 $days 天沒有新的電子煙有害物質暴露。如果您使用的電子煙含有尼古丁，也就是 $days 天沒有繼續強化這種依賴。很大的連續紀錄——繼續向前。';
   }
+
+  @override
+  String get vapingMilestone730Title => '兩年：無電子煙更堅定';
+
+  @override
+  String get vapingMilestone730Description =>
+      '無電子煙兩年。CDC 指出，尼古丁依賴會讓戒除更困難，而電子煙的長期健康影響仍在研究中。能夠確定的勝利就是這段堅持本身：730 天沒有回到電子煙。';
+
+  @override
+  String get vapingMilestone1095Title => '三年：穩健前行';
+
+  @override
+  String get vapingMilestone1095Description =>
+      '無電子煙三年。您把一項不容易的改變堅持了 1,095 天。CDC 並未把三年定義為生物學恢復門檻，所以值得慶祝的是證據真正支持的事：持續遠離電子煙。';
+
+  @override
+  String get vapingMilestone1460Title => '四年：根基更穩';
+
+  @override
+  String get vapingMilestone1460Description =>
+      '無電子煙四年。這是 1,460 天沒有再次強化電子煙習慣。科學仍不能替所有人設定統一的長期恢復時鐘，但這種持久改變是真實的，也值得慶祝。';
+
+  @override
+  String get vapingMilestone1825Title => '五年：重大里程碑';
+
+  @override
+  String get vapingMilestone1825Description =>
+      '無電子煙五年。整整五年沒有回到電子煙，是重要的長期成就。CDC 的證據並未把五年設為醫療終點；真正的里程碑是您建立並維持的持續改變。';
+
+  @override
+  String get vapingLongTermReference =>
+      '電子煙、戒除與長期證據\n\n來源：CDC — Vaping and Quitting；CDC — Health Effects of Vaping\n\nCDC 指出，使用電子煙可能形成尼古丁依賴，戒除時可能出現尼古丁戒斷症狀，而協助人們戒電子煙的最佳方法仍在研究中。電子煙的長期健康影響也仍在持續研究。\n\n這些資料並未把戒電子煙後的 2 年、3 年、4 年或 5 年定義為生物學恢復門檻。因此 Quitter 把這些日期作為持續無電子煙進步的週年紀念，而不是醫療終點。';
 
   @override
   String get vapingWithdrawalReference =>

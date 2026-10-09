@@ -3977,6 +3977,38 @@ class AppLocalizationsKo extends AppLocalizations {
   }
 
   @override
+  String get vapingMilestone730Title => '2년: 베이프 없는 힘';
+
+  @override
+  String get vapingMilestone730Description =>
+      '베이프 없이 2년입니다. CDC는 니코틴 의존이 끊기를 어렵게 만들 수 있고 베이핑의 장기 건강 영향은 아직 연구 중이라고 설명합니다. 확실히 축하할 수 있는 성과는 연속 기록 자체입니다. 730일 동안 베이프로 돌아가지 않았습니다.';
+
+  @override
+  String get vapingMilestone1095Title => '3년: 쌓아 온 추진력';
+
+  @override
+  String get vapingMilestone1095Description =>
+      '베이프 없이 3년입니다. 쉽지 않은 변화를 1,095일 동안 이어 왔습니다. CDC는 3년을 생물학적 회복 기준으로 정하지 않습니다. 근거가 말해 줄 수 있는 것을 축하하세요. 베이핑에서 계속 벗어나 있는 시간입니다.';
+
+  @override
+  String get vapingMilestone1460Title => '4년: 더 단단한 기반';
+
+  @override
+  String get vapingMilestone1460Description =>
+      '베이프 없이 4년입니다. 베이핑 습관을 다시 강화하지 않은 1,460일입니다. 과학은 모두에게 적용되는 장기 회복 시계를 제시하지 않지만, 이 꾸준한 변화는 실제이며 충분히 축하할 만합니다.';
+
+  @override
+  String get vapingMilestone1825Title => '5년: 큰 이정표';
+
+  @override
+  String get vapingMilestone1825Description =>
+      '베이프 없이 5년입니다. 5년 동안 베이핑으로 돌아가지 않은 것은 큰 장기 성과입니다. CDC 근거는 5년을 의학적 종점으로 만들지 않습니다. 이정표는 당신이 쌓고 지킨 변화 자체입니다.';
+
+  @override
+  String get vapingLongTermReference =>
+      '베이핑, 끊기, 장기 근거\n\n출처: CDC — Vaping and Quitting; CDC — Health Effects of Vaping\n\nCDC는 베이핑으로 니코틴 의존이 생길 수 있고, 끊을 때 니코틴 금단 증상이 나타날 수 있으며, 베이핑을 끊도록 돕는 최선의 방법은 아직 연구 중이라고 설명합니다. 전자담배의 장기 건강 영향도 계속 연구되고 있습니다.\n\n이 자료들은 베이핑을 끊은 뒤 2년, 3년, 4년, 5년을 생물학적 회복 기준으로 정의하지 않습니다. 따라서 Quitter는 이 날짜들을 의학적 종점이 아니라 베이프 없이 이어 온 진전을 기념하는 날로 다룹니다.';
+
+  @override
   String get vapingWithdrawalReference =>
       '전자담배 중단과 금단 증상\n\n출처: Hughes et al., Nicotine & Tobacco Research (2020)\n\n과거 흡연자이면서 매일 전자담배를 사용하던 109명을 대상으로 한 연구에서, 생물학적으로 확인된 6일간의 중단 기간 동안 니코틴 금단 증상과 갈망이 증가했습니다. 증상은 전형적인 상승-하강 패턴을 보였고 중단 첫 이틀 동안 특히 크게 증가했습니다. 이 연구는 전자담배 중단이 실제 금단을 일으킬 수 있고 초기 며칠이 가장 거센 구간일 수 있음을 보여줍니다.';
 

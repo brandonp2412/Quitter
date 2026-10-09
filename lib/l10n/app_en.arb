@@ -2715,6 +2715,15 @@
       }
     }
   },
+  "vapingMilestone730Title": "Two Years: Vape-Free Strength",
+  "vapingMilestone730Description": "Two years vape-free. CDC says nicotine addiction can make quitting hard and that vaping's long-term health effects are still being studied. Your proven win is the streak itself: 730 days without going back to the vape.",
+  "vapingMilestone1095Title": "Three Years: Momentum Built",
+  "vapingMilestone1095Description": "Three years vape-free. You have kept a difficult change going for 1,095 days. CDC does not define a three-year biological recovery threshold, so celebrate what the evidence can support: sustained freedom from vaping.",
+  "vapingMilestone1460Title": "Four Years: Stronger Ground",
+  "vapingMilestone1460Description": "Four years vape-free. That's 1,460 days without reinforcing the vaping habit. Science still cannot assign a universal long-term recovery clock, but this durable change is real and worth celebrating.",
+  "vapingMilestone1825Title": "Five Years: Half a Decade",
+  "vapingMilestone1825Description": "Five years vape-free. Half a decade without returning to vaping is a major long-term achievement. CDC's evidence does not create a five-year medical endpoint; the milestone is the sustained change you built.",
+  "vapingLongTermReference": "Vaping, Quitting, and Long-Term Evidence\n\nSource: CDC — Vaping and Quitting; CDC — Health Effects of Vaping\n\nCDC says people who vape can become addicted to nicotine, quitting may cause nicotine-withdrawal symptoms, and scientists are still studying the best ways to help people quit vaping. CDC also says the long-term health effects of e-cigarettes are still being studied.\n\nThese sources do not define 2-, 3-, 4-, or 5-year biological recovery thresholds after quitting vaping. Quitter therefore treats these dates as anniversaries of sustained vape-free progress, not medical endpoints.",
   "vapingWithdrawalReference": "E-cigarette abstinence and withdrawal\n\nSource: Hughes et al., Nicotine & Tobacco Research (2020)\n\nIn 109 former smokers who were daily e-cigarette users, six days of biologically confirmed abstinence increased nicotine-withdrawal symptoms and cravings. Symptoms followed the classic rise-and-fall pattern of withdrawal, with a strong increase during the first two abstinent days. The study supports real e-cigarette withdrawal; it does not establish a universal day-by-day recovery clock.",
   "@vapingWithdrawalReference": {
     "description": "Localized reference summary for e-cigarette abstinence and withdrawal"

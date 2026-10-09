@@ -2646,6 +2646,15 @@
       }
     }
   },
+  "vapingMilestone730Title": "兩年：無電子煙更堅定",
+  "vapingMilestone730Description": "無電子煙兩年。CDC 指出，尼古丁依賴會讓戒除更困難，而電子煙的長期健康影響仍在研究中。能夠確定的勝利就是這段堅持本身：730 天沒有回到電子煙。",
+  "vapingMilestone1095Title": "三年：穩健前行",
+  "vapingMilestone1095Description": "無電子煙三年。您把一項不容易的改變堅持了 1,095 天。CDC 並未把三年定義為生物學恢復門檻，所以值得慶祝的是證據真正支持的事：持續遠離電子煙。",
+  "vapingMilestone1460Title": "四年：根基更穩",
+  "vapingMilestone1460Description": "無電子煙四年。這是 1,460 天沒有再次強化電子煙習慣。科學仍不能替所有人設定統一的長期恢復時鐘，但這種持久改變是真實的，也值得慶祝。",
+  "vapingMilestone1825Title": "五年：重大里程碑",
+  "vapingMilestone1825Description": "無電子煙五年。整整五年沒有回到電子煙，是重要的長期成就。CDC 的證據並未把五年設為醫療終點；真正的里程碑是您建立並維持的持續改變。",
+  "vapingLongTermReference": "電子煙、戒除與長期證據\n\n來源：CDC — Vaping and Quitting；CDC — Health Effects of Vaping\n\nCDC 指出，使用電子煙可能形成尼古丁依賴，戒除時可能出現尼古丁戒斷症狀，而協助人們戒電子煙的最佳方法仍在研究中。電子煙的長期健康影響也仍在持續研究。\n\n這些資料並未把戒電子煙後的 2 年、3 年、4 年或 5 年定義為生物學恢復門檻。因此 Quitter 把這些日期作為持續無電子煙進步的週年紀念，而不是醫療終點。",
   "vapingWithdrawalReference": "電子煙停用與戒斷\n\n來源：Hughes 等，Nicotine & Tobacco Research (2020)\n\n在109名每天使用電子煙的前吸菸者中，經生物學確認的6天停用使尼古丁戒斷症狀和渴求增加。症狀呈現典型的先升後降模式，並在最初兩天明顯增加。研究支持電子煙戒斷確實存在，但沒有給出適用於所有人的逐日恢復時間表。",
   "@vapingWithdrawalReference": {
     "description": "Localized reference summary for e-cigarette abstinence and withdrawal"

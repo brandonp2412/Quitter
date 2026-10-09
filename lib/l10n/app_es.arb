@@ -2646,6 +2646,15 @@
       }
     }
   },
+  "vapingMilestone730Title": "Dos años: fuerza sin vapear",
+  "vapingMilestone730Description": "Dos años sin vapear. Los CDC señalan que la adicción a la nicotina puede dificultar dejarlo y que los efectos a largo plazo del vapeo siguen estudiándose. El logro respaldado es la propia racha: 730 días sin volver al vapeo.",
+  "vapingMilestone1095Title": "Tres años: impulso firme",
+  "vapingMilestone1095Description": "Tres años sin vapear. Has mantenido un cambio difícil durante 1.095 días. Los CDC no definen un umbral biológico a los tres años, así que celebra lo que sí respalda la evidencia: libertad sostenida del vapeo.",
+  "vapingMilestone1460Title": "Cuatro años: terreno sólido",
+  "vapingMilestone1460Description": "Cuatro años sin vapear. Son 1.460 días sin reforzar el hábito del vapeo. La ciencia aún no puede asignar un reloj universal de recuperación a largo plazo, pero este cambio duradero es real y merece celebrarse.",
+  "vapingMilestone1825Title": "Cinco años: medio decenio",
+  "vapingMilestone1825Description": "Cinco años sin vapear. Medio decenio sin volver al vapeo es un gran logro a largo plazo. La evidencia de los CDC no convierte los cinco años en un final médico; el hito es el cambio sostenido que has construido.",
+  "vapingLongTermReference": "Vapeo, abandono y evidencia a largo plazo\n\nFuente: CDC — Vaping and Quitting; CDC — Health Effects of Vaping\n\nLos CDC indican que quienes vapean pueden desarrollar adicción a la nicotina, que al dejarlo pueden aparecer síntomas de abstinencia y que todavía se estudian las mejores formas de ayudar a dejar el vapeo. También señalan que los efectos de salud a largo plazo de los cigarrillos electrónicos siguen investigándose.\n\nEstas fuentes no definen umbrales biológicos de recuperación a los dos, tres, cuatro o cinco años. Por eso Quitter trata estas fechas como aniversarios de progreso sostenido sin vapear, no como puntos finales médicos.",
   "vapingWithdrawalReference": "Abstinencia de cigarrillos electrónicos y síndrome de retirada\n\nFuente: Hughes et al., Nicotine & Tobacco Research (2020)\n\nEn 109 exfumadores que usaban cigarrillos electrónicos a diario, seis días de abstinencia confirmada biológicamente aumentaron los síntomas de abstinencia de nicotina y las ganas de vapear. Los síntomas siguieron el patrón típico de subida y bajada, con un aumento marcado durante los dos primeros días. El estudio respalda que la abstinencia del vapeo es real, pero no establece un reloj universal de recuperación día a día.",
   "@vapingWithdrawalReference": {
     "description": "Localized reference summary for e-cigarette abstinence and withdrawal"

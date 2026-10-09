@@ -1186,6 +1186,15 @@
       }
     }
   },
+  "vapingMilestone730Title": "Deux ans : solide sans vape",
+  "vapingMilestone730Description": "Deux ans sans vape. Les CDC indiquent que la dépendance à la nicotine peut rendre l’arrêt difficile et que les effets à long terme du vapotage sont encore étudiés. Le gain démontrable, c’est la continuité elle-même : 730 jours sans reprendre la vape.",
+  "vapingMilestone1095Title": "Trois ans : élan durable",
+  "vapingMilestone1095Description": "Trois ans sans vape. Tu as maintenu un changement difficile pendant 1 095 jours. Les CDC ne définissent pas de seuil biologique à trois ans ; célèbre donc ce que les données permettent d’affirmer : une liberté durable vis-à-vis du vapotage.",
+  "vapingMilestone1460Title": "Quatre ans : terrain solide",
+  "vapingMilestone1460Description": "Quatre ans sans vape. Cela fait 1 460 jours sans renforcer l’habitude de vapoter. La science ne fixe toujours pas d’horloge universelle de récupération à long terme, mais ce changement durable est réel et mérite d’être célébré.",
+  "vapingMilestone1825Title": "Cinq ans : un demi-décennie",
+  "vapingMilestone1825Description": "Cinq ans sans vape. Une demi-décennie sans reprendre le vapotage est une réussite majeure à long terme. Les données des CDC n’en font pas un point final médical ; le jalon, c’est le changement durable que tu as construit.",
+  "vapingLongTermReference": "Vapotage, arrêt et données à long terme\n\nSource : CDC — Vaping and Quitting ; CDC — Health Effects of Vaping\n\nLes CDC indiquent que le vapotage peut entraîner une dépendance à la nicotine, que l’arrêt peut provoquer des symptômes de sevrage et que les meilleures façons d’aider à arrêter le vapotage sont encore étudiées. Ils précisent aussi que les effets à long terme des cigarettes électroniques sur la santé restent à l’étude.\n\nCes sources ne définissent pas de seuil biologique de récupération à deux, trois, quatre ou cinq ans. Quitter traite donc ces dates comme des anniversaires de progrès durable sans vape, pas comme des points finaux médicaux.",
   "vapingWithdrawalReference": "Abstinence de cigarette électronique et sevrage\n\nSource : Hughes et al., Nicotine & Tobacco Research (2020)\n\nChez 109 anciens fumeurs utilisant quotidiennement une cigarette électronique, six jours d’abstinence confirmée biologiquement ont augmenté les symptômes de sevrage nicotinique et les envies. Les symptômes ont suivi le schéma classique de montée puis de baisse, avec une forte hausse pendant les deux premiers jours d’abstinence. L’étude confirme un vrai sevrage lié à la cigarette électronique, mais n’établit pas un calendrier universel de récupération jour par jour.",
   "@vapingWithdrawalReference": {
     "description": "Localized reference summary for e-cigarette abstinence and withdrawal"

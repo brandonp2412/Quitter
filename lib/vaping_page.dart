@@ -12,6 +12,8 @@ class VapingPage extends StatelessWidget {
       'https://pmc.ncbi.nlm.nih.gov/articles/PMC7171279/';
   static const _healthEffectsLink =
       'https://www.cdc.gov/tobacco/e-cigarettes/health-effects.html';
+  static const _quittingLink =
+      'https://www.cdc.gov/tobacco/e-cigarettes/quitting.html';
 
   List<QuitMilestone> _getMilestones(AppLocalizations l10n) {
     return [
@@ -52,6 +54,42 @@ class VapingPage extends StatelessWidget {
           referenceDate: 'October 2026',
           localizedReferenceContent: l10n.vapingHealthReference,
         ),
+      QuitMilestone(
+        day: 730,
+        title: l10n.vapingMilestone730Title,
+        description: l10n.vapingMilestone730Description,
+        reference: 'CDC — Vaping and Quitting',
+        link: _quittingLink,
+        referenceDate: 'October 2026',
+        localizedReferenceContent: l10n.vapingLongTermReference,
+      ),
+      QuitMilestone(
+        day: 1095,
+        title: l10n.vapingMilestone1095Title,
+        description: l10n.vapingMilestone1095Description,
+        reference: 'CDC — Vaping and Quitting',
+        link: _quittingLink,
+        referenceDate: 'October 2026',
+        localizedReferenceContent: l10n.vapingLongTermReference,
+      ),
+      QuitMilestone(
+        day: 1460,
+        title: l10n.vapingMilestone1460Title,
+        description: l10n.vapingMilestone1460Description,
+        reference: 'CDC — Vaping and Quitting',
+        link: _quittingLink,
+        referenceDate: 'October 2026',
+        localizedReferenceContent: l10n.vapingLongTermReference,
+      ),
+      QuitMilestone(
+        day: 1825,
+        title: l10n.vapingMilestone1825Title,
+        description: l10n.vapingMilestone1825Description,
+        reference: 'CDC — Vaping and Quitting',
+        link: _quittingLink,
+        referenceDate: 'October 2026',
+        localizedReferenceContent: l10n.vapingLongTermReference,
+      ),
     ];
   }
 

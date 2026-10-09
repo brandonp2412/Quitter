@@ -4120,6 +4120,38 @@ class AppLocalizationsId extends AppLocalizations {
   }
 
   @override
+  String get vapingMilestone730Title => 'Dua Tahun: Makin Kuat';
+
+  @override
+  String get vapingMilestone730Description =>
+      'Dua tahun bebas vape. CDC menyatakan ketergantungan nikotin dapat membuat berhenti terasa sulit dan dampak kesehatan jangka panjang vaping masih diteliti. Kemenangan yang benar-benar dapat dipastikan adalah rentetannya sendiri: 730 hari tanpa kembali ke vape.';
+
+  @override
+  String get vapingMilestone1095Title => 'Tiga Tahun: Momentum Kuat';
+
+  @override
+  String get vapingMilestone1095Description =>
+      'Tiga tahun bebas vape. Kamu mempertahankan perubahan yang sulit selama 1.095 hari. CDC tidak menetapkan ambang pemulihan biologis tiga tahun, jadi rayakan hal yang memang didukung bukti: kebebasan berkelanjutan dari vaping.';
+
+  @override
+  String get vapingMilestone1460Title => 'Empat Tahun: Pijakan Kokoh';
+
+  @override
+  String get vapingMilestone1460Description =>
+      'Empat tahun bebas vape. Itu 1.460 hari tanpa memperkuat kebiasaan vaping lagi. Ilmu pengetahuan belum memiliki jam pemulihan jangka panjang yang berlaku untuk semua orang, tetapi perubahan tahan lama ini nyata dan layak dirayakan.';
+
+  @override
+  String get vapingMilestone1825Title => 'Lima Tahun: Setengah Dekade';
+
+  @override
+  String get vapingMilestone1825Description =>
+      'Lima tahun bebas vape. Setengah dekade tanpa kembali ke vaping adalah pencapaian jangka panjang yang besar. Bukti CDC tidak menjadikan lima tahun sebagai titik akhir medis; tonggaknya adalah perubahan berkelanjutan yang kamu bangun.';
+
+  @override
+  String get vapingLongTermReference =>
+      'Vaping, Berhenti, dan Bukti Jangka Panjang\n\nSumber: CDC — Vaping and Quitting; CDC — Health Effects of Vaping\n\nCDC menyatakan bahwa orang yang vaping dapat mengalami ketergantungan nikotin, berhenti dapat memicu gejala putus nikotin, dan cara terbaik membantu orang berhenti vaping masih diteliti. CDC juga menyebut dampak kesehatan jangka panjang rokok elektronik masih dipelajari.\n\nSumber-sumber ini tidak menetapkan ambang pemulihan biologis pada dua, tiga, empat, atau lima tahun setelah berhenti vaping. Karena itu Quitter memperlakukan tanggal-tanggal ini sebagai hari jadi kemajuan bebas vape yang berkelanjutan, bukan titik akhir medis.';
+
+  @override
   String get vapingWithdrawalReference =>
       'Abstinensi rokok elektronik dan gejala putus\n\nSumber: Hughes dkk., Nicotine & Tobacco Research (2020)\n\nPada 109 mantan perokok yang memakai rokok elektronik setiap hari, enam hari abstinensi yang dikonfirmasi secara biologis meningkatkan gejala putus nikotin dan rasa ingin memakai. Gejalanya mengikuti pola naik-turun khas putus zat, dengan peningkatan kuat pada dua hari pertama abstinensi. Studi ini mendukung bahwa putus dari rokok elektronik itu nyata, tetapi tidak menetapkan jadwal pemulihan universal dari hari ke hari.';
 
