@@ -2693,6 +2693,52 @@ class AppLocalizationsFr extends AppLocalizations {
       'Une année de liberté ! Votre risque de problèmes de santé liés à la nicotine continue de chuter. Vous avez brisé le cycle de dépendance et repris votre autonomie. C\'est réellement héroïque ! 🏆';
 
   @override
+  String get nicotinePouchesMilestone730Title => 'Deux ans : libre des sachets';
+
+  @override
+  String get nicotinePouchesMilestone730Description =>
+      'Deux années complètes sans sachets de nicotine. La recherche n’a pas établi de seuil particulier de récupération à deux ans : ce jalon célèbre donc deux ans sans exposition répétée à la nicotine des sachets et un changement que tu as maintenu.';
+
+  @override
+  String get nicotinePouchesReferenceDay730 =>
+      'Deux ans : libre des sachets\n\nSource : Rungraungrayabkul et al. (2024), revue systématique sur les sachets de nicotine et la santé bucco-dentaire\n\nLa revue n’a trouvé que trois études humaines, totalisant 190 participants, toutes jugées à haut risque de biais. Elle n’a pas établi de seuil de récupération deux ans après l’arrêt.\n\nDeux ans sans sachets restent un grand jalon de changement durable. Cette étape célèbre cette réussite sans inventer de calendrier médical.';
+
+  @override
+  String get nicotinePouchesMilestone1095Title =>
+      'Trois ans : la liberté tient';
+
+  @override
+  String get nicotinePouchesMilestone1095Description =>
+      'Trois ans sans sachets, c’est une victoire durable. Les effets à long terme des sachets de nicotine sont encore étudiés ; le constat honnête est simple : trois ans de liberté maintenue vis-à-vis de leur nicotine.';
+
+  @override
+  String get nicotinePouchesReferenceDay1095 =>
+      'Trois ans : la liberté tient\n\nSource : CDC — Sachets de nicotine\n\nLe CDC indique que davantage de recherches sont nécessaires pour comprendre les effets à court et à long terme des sachets de nicotine. Il ne décrit aucun changement médical particulier trois ans après l’arrêt.\n\nTrois ans sans sachets méritent d’être célébrés pour ce qu’ils sont : trois ans de liberté durable vis-à-vis de leur nicotine.';
+
+  @override
+  String get nicotinePouchesMilestone1460Title => 'Quatre ans : ça tient';
+
+  @override
+  String get nicotinePouchesMilestone1460Description =>
+      'Quatre ans sans sachets montrent une vraie constance. Aucun basculement médical validé n’est connu à quatre ans, mais le succès est bien réel : quatre ans sans revenir à l’habitude des sachets.';
+
+  @override
+  String get nicotinePouchesReferenceDay1460 =>
+      'Quatre ans : ça tient\n\nSource : Rungraungrayabkul et al. (2024), revue systématique sur les sachets de nicotine et la santé bucco-dentaire\n\nLa revue conclut que les données sur les effets bucco-dentaires à court et à long terme restent limitées et que davantage de recherches sont nécessaires. Elle ne soutient pas l’existence d’un événement universel de récupération exactement à quatre ans.\n\nQuatre ans sans sachets constituent un jalon de changement durable, sans avoir besoin d’une affirmation médicale non démontrée.';
+
+  @override
+  String get nicotinePouchesMilestone1825Title =>
+      'Cinq ans : victoire des cinq ans';
+
+  @override
+  String get nicotinePouchesMilestone1825Description =>
+      'Cinq ans sans sachets, c’est immense. La recherche à long terme évolue encore ; ce jalon ne fait donc aucune promesse de santé inventée et célèbre cinq années de changement durable.';
+
+  @override
+  String get nicotinePouchesReferenceDay1825 =>
+      'Cinq ans : victoire des cinq ans\n\nSource : CDC — Sachets de nicotine\n\nLe CDC rappelle que les sachets de nicotine sont relativement récents et que leurs effets à long terme sont encore étudiés. Les données actuelles n’établissent pas d’événement précis de récupération à cinq ans.\n\nCinq ans sans sachets sont déjà une réussite énorme : cinq années de changement durable.';
+
+  @override
   String get pornographyMilestone1Title => 'Reprendre le contrôle';
 
   @override

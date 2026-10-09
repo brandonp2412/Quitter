@@ -50,6 +50,10 @@ void main() {
       3,
       7,
       14,
+      730,
+      1095,
+      1460,
+      1825,
     ]);
 
     final day1 = page.milestones.singleWhere((milestone) => milestone.day == 1);

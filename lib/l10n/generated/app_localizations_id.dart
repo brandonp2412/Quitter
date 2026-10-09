@@ -2646,6 +2646,53 @@ class AppLocalizationsId extends AppLocalizations {
       'Satu tahun kebebasan! Risiko Anda terhadap masalah kesehatan terkait nikotin terus menurun. Anda telah memutus siklus kecanduan dan mendapatkan kembali otonomi Anda. Itu sungguh heroik! 🏆';
 
   @override
+  String get nicotinePouchesMilestone730Title =>
+      'Dua Tahun: Kuat Tanpa Kantong';
+
+  @override
+  String get nicotinePouchesMilestone730Description =>
+      'Dua tahun penuh tanpa kantong nikotin. Riset belum menetapkan ambang pemulihan khusus pada dua tahun, jadi pencapaian ini merayakan dua tahun tanpa paparan nikotin berulang dari kantong dan perubahan yang berhasil dipertahankan.';
+
+  @override
+  String get nicotinePouchesReferenceDay730 =>
+      'Dua Tahun: Kuat Tanpa Kantong\n\nSumber: Rungraungrayabkul dkk. (2024), tinjauan sistematis tentang kantong nikotin dan kesehatan mulut\n\nTinjauan ini hanya menemukan tiga studi pada manusia dengan total 190 peserta, dan semuanya dinilai berisiko bias tinggi. Tinjauan tersebut tidak menetapkan ambang pemulihan pada dua tahun setelah berhenti.\n\nDua tahun tanpa kantong tetap merupakan pencapaian besar dari perubahan yang bertahan. Entri ini merayakan keberhasilan itu tanpa mengarang jadwal medis.';
+
+  @override
+  String get nicotinePouchesMilestone1095Title =>
+      'Tiga Tahun: Kebebasan Bertahan';
+
+  @override
+  String get nicotinePouchesMilestone1095Description =>
+      'Tiga tahun tanpa kantong adalah kemenangan yang bertahan lama. Efek jangka panjang kantong nikotin masih diteliti, jadi inti yang jujur sederhana: tiga tahun bebas secara konsisten dari nikotin kantong.';
+
+  @override
+  String get nicotinePouchesReferenceDay1095 =>
+      'Tiga Tahun: Kebebasan Bertahan\n\nSumber: CDC — Kantong Nikotin\n\nCDC menyatakan bahwa riset lebih lanjut diperlukan untuk memahami efek kesehatan jangka pendek dan panjang dari kantong nikotin. CDC tidak menyebut perubahan medis khusus pada tiga tahun setelah berhenti.\n\nTiga tahun tanpa kantong layak dirayakan apa adanya: tiga tahun bebas secara konsisten dari nikotin kantong.';
+
+  @override
+  String get nicotinePouchesMilestone1460Title => 'Empat Tahun: Tetap Kokoh';
+
+  @override
+  String get nicotinePouchesMilestone1460Description =>
+      'Empat tahun tanpa kantong menunjukkan konsistensi nyata. Tidak ada perubahan medis tervalidasi yang terjadi tepat pada empat tahun, tetapi ada pencapaian yang sangat nyata: empat tahun tanpa kembali ke kebiasaan memakai kantong.';
+
+  @override
+  String get nicotinePouchesReferenceDay1460 =>
+      'Empat Tahun: Tetap Kokoh\n\nSumber: Rungraungrayabkul dkk. (2024), tinjauan sistematis tentang kantong nikotin dan kesehatan mulut\n\nTinjauan menyimpulkan bahwa bukti tentang efek kesehatan mulut jangka pendek dan panjang masih terbatas dan riset lebih lanjut diperlukan. Bukti itu tidak mendukung peristiwa pemulihan universal tepat pada empat tahun.\n\nEmpat tahun tanpa kantong adalah tonggak perubahan yang bertahan tanpa perlu klaim medis yang belum terbukti.';
+
+  @override
+  String get nicotinePouchesMilestone1825Title =>
+      'Lima Tahun: Kemenangan Besar';
+
+  @override
+  String get nicotinePouchesMilestone1825Description =>
+      'Lima tahun tanpa kantong adalah pencapaian besar. Riset jangka panjang masih berkembang, jadi tonggak ini tidak membuat janji kesehatan yang dibuat-buat; yang dirayakan adalah lima tahun perubahan yang bertahan.';
+
+  @override
+  String get nicotinePouchesReferenceDay1825 =>
+      'Lima Tahun: Kemenangan Besar\n\nSumber: CDC — Kantong Nikotin\n\nCDC mencatat bahwa kantong nikotin relatif baru dan efek kesehatan jangka panjangnya masih dipelajari. Bukti saat ini tidak menetapkan peristiwa pemulihan khusus pada lima tahun.\n\nLima tahun tanpa kantong adalah pencapaian besar dengan sendirinya: lima tahun perubahan yang bertahan.';
+
+  @override
   String get pornographyMilestone1Title => 'Mengambil Kembali Kendali';
 
   @override

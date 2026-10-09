@@ -2670,6 +2670,53 @@ class AppLocalizationsEs extends AppLocalizations {
       '¡Un año de libertad! El riesgo de problemas de salud relacionados con la nicotina sigue cayendo. Has roto el ciclo de la adicción y recuperado tu autonomía. ¡Es un logro enorme! 🏆';
 
   @override
+  String get nicotinePouchesMilestone730Title =>
+      'Dos años: fuerza sin bolsitas';
+
+  @override
+  String get nicotinePouchesMilestone730Description =>
+      'Dos años completos sin bolsitas de nicotina. La investigación no ha establecido un umbral especial de recuperación a los dos años, así que este hito celebra dos años sin exposición repetida a la nicotina de las bolsitas y un cambio que has mantenido.';
+
+  @override
+  String get nicotinePouchesReferenceDay730 =>
+      'Dos años: fuerza sin bolsitas\n\nFuente: Rungraungrayabkul et al. (2024), revisión sistemática sobre bolsitas de nicotina y salud oral\n\nLa revisión encontró solo tres estudios en humanos, con 190 participantes, y los tres fueron considerados de alto riesgo de sesgo. No estableció un umbral de recuperación a los dos años de dejar las bolsitas.\n\nDos años sin bolsitas siguen siendo un gran hito de cambio sostenido. Esta entrada celebra ese logro sin inventar un calendario médico.';
+
+  @override
+  String get nicotinePouchesMilestone1095Title =>
+      'Tres años: la libertad sigue';
+
+  @override
+  String get nicotinePouchesMilestone1095Description =>
+      'Tres años sin bolsitas es una victoria duradera. Los efectos a largo plazo de las bolsitas de nicotina aún se están estudiando, así que el mensaje honesto es sencillo: tres años de libertad sostenida de la nicotina de las bolsitas.';
+
+  @override
+  String get nicotinePouchesReferenceDay1095 =>
+      'Tres años: la libertad sigue\n\nFuente: CDC — Bolsitas de nicotina\n\nLos CDC indican que hace falta más investigación para comprender los efectos a corto y largo plazo de las bolsitas de nicotina. No señalan un cambio médico específico a los tres años de dejarlas.\n\nTres años sin bolsitas merecen celebrarse por lo que son: tres años de libertad sostenida de la nicotina de las bolsitas.';
+
+  @override
+  String get nicotinePouchesMilestone1460Title =>
+      'Cuatro años: hecho para durar';
+
+  @override
+  String get nicotinePouchesMilestone1460Description =>
+      'Cuatro años sin bolsitas demuestran constancia. No existe un cambio médico validado que ocurra justo a los cuatro años, pero sí hay un logro muy real: cuatro años sin volver al hábito de las bolsitas.';
+
+  @override
+  String get nicotinePouchesReferenceDay1460 =>
+      'Cuatro años: hecho para durar\n\nFuente: Rungraungrayabkul et al. (2024), revisión sistemática sobre bolsitas de nicotina y salud oral\n\nLa revisión concluye que la evidencia sobre efectos orales a corto y largo plazo sigue siendo limitada y que hace falta más investigación. No respalda un acontecimiento universal de recuperación justo a los cuatro años.\n\nCuatro años sin bolsitas son un hito de cambio sostenido, sin necesidad de una afirmación médica no demostrada.';
+
+  @override
+  String get nicotinePouchesMilestone1825Title => 'Cinco años: victoria total';
+
+  @override
+  String get nicotinePouchesMilestone1825Description =>
+      'Cinco años sin bolsitas es enorme. La investigación a largo plazo aún está evolucionando, así que este hito no promete beneficios de salud inventados: celebra cinco años de cambio sostenido.';
+
+  @override
+  String get nicotinePouchesReferenceDay1825 =>
+      'Cinco años: victoria total\n\nFuente: CDC — Bolsitas de nicotina\n\nLos CDC señalan que las bolsitas de nicotina son relativamente nuevas y que sus efectos a largo plazo aún se estudian. La evidencia actual no establece un acontecimiento específico de recuperación a los cinco años.\n\nCinco años sin bolsitas son un logro enorme por sí solos: cinco años de cambio sostenido.';
+
+  @override
   String get pornographyMilestone1Title => 'Recuperando el control';
 
   @override

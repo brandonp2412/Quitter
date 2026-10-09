@@ -4554,6 +4554,78 @@ abstract class AppLocalizations {
   /// **'One year of freedom! Your risk of nicotine-related health issues continues to plummet. You\'ve broken the addiction cycle and reclaimed your autonomy. That\'s genuinely heroic! 🏆'**
   String get nicotinePouchesMilestone365Description;
 
+  /// Nicotine pouches milestone day 730 title
+  ///
+  /// In en, this message translates to:
+  /// **'Two Years: Pouch-Free Power'**
+  String get nicotinePouchesMilestone730Title;
+
+  /// Nicotine pouches milestone day 730 description
+  ///
+  /// In en, this message translates to:
+  /// **'Two full years pouch-free. Research has not established a special two-year recovery threshold, so this milestone celebrates two years without repeated pouch nicotine exposure and a change you have sustained.'**
+  String get nicotinePouchesMilestone730Description;
+
+  /// Nicotine pouches reference content for day 730
+  ///
+  /// In en, this message translates to:
+  /// **'Two Years: Pouch-Free Power\n\nSource: Rungraungrayabkul et al. (2024), systematic review of nicotine-pouch oral health\n\nThe review found only three human studies with 190 participants, all judged at high risk of bias. It did not establish a two-year recovery threshold after stopping.\n\nTwo years pouch-free is still a major sustained-change milestone. This entry celebrates that achievement without inventing a medical timeline.'**
+  String get nicotinePouchesReferenceDay730;
+
+  /// Nicotine pouches milestone day 1095 title
+  ///
+  /// In en, this message translates to:
+  /// **'Three Years: Freedom Holds'**
+  String get nicotinePouchesMilestone1095Title;
+
+  /// Nicotine pouches milestone day 1095 description
+  ///
+  /// In en, this message translates to:
+  /// **'Three years pouch-free is a durable win. Scientists are still studying the long-term effects of nicotine pouches, so the honest headline is simple: three years of sustained freedom from pouch nicotine.'**
+  String get nicotinePouchesMilestone1095Description;
+
+  /// Nicotine pouches reference content for day 1095
+  ///
+  /// In en, this message translates to:
+  /// **'Three Years: Freedom Holds\n\nSource: CDC — Nicotine Pouches\n\nCDC says more research is needed to understand the short- and long-term health effects of nicotine pouches. It does not identify a specific medical change at three years after stopping.\n\nThree years pouch-free is worth celebrating for what it is: three years of sustained freedom from pouch nicotine.'**
+  String get nicotinePouchesReferenceDay1095;
+
+  /// Nicotine pouches milestone day 1460 title
+  ///
+  /// In en, this message translates to:
+  /// **'Four Years: Built to Last'**
+  String get nicotinePouchesMilestone1460Title;
+
+  /// Nicotine pouches milestone day 1460 description
+  ///
+  /// In en, this message translates to:
+  /// **'Four pouch-free years are proof of consistency. There is no validated four-year medical switch, but there is a very real achievement: four years without returning to the pouch habit.'**
+  String get nicotinePouchesMilestone1460Description;
+
+  /// Nicotine pouches reference content for day 1460
+  ///
+  /// In en, this message translates to:
+  /// **'Four Years: Built to Last\n\nSource: Rungraungrayabkul et al. (2024), systematic review of nicotine-pouch oral health\n\nThe review concludes that evidence on short- and long-term oral-health effects remains limited and more research is needed. It does not support a universal four-year recovery event.\n\nFour years pouch-free is a milestone in sustained change, without needing an unsupported medical claim.'**
+  String get nicotinePouchesReferenceDay1460;
+
+  /// Nicotine pouches milestone day 1825 title
+  ///
+  /// In en, this message translates to:
+  /// **'Five Years: Five-Year Victory'**
+  String get nicotinePouchesMilestone1825Title;
+
+  /// Nicotine pouches milestone day 1825 description
+  ///
+  /// In en, this message translates to:
+  /// **'Five years pouch-free is enormous. Long-term nicotine-pouch research is still developing, so this milestone makes no invented health promise — it celebrates five years of sustained change.'**
+  String get nicotinePouchesMilestone1825Description;
+
+  /// Nicotine pouches reference content for day 1825
+  ///
+  /// In en, this message translates to:
+  /// **'Five Years: Five-Year Victory\n\nSource: CDC — Nicotine Pouches\n\nCDC notes that nicotine pouches are relatively new and their long-term health effects are still being studied. Current evidence does not establish a specific five-year recovery event.\n\nFive years pouch-free is a huge achievement on its own: five years of sustained change.'**
+  String get nicotinePouchesReferenceDay1825;
+
   /// Pornography milestone day 1 title
   ///
   /// In en, this message translates to:

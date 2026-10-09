@@ -2658,6 +2658,51 @@ class AppLocalizationsDe extends AppLocalizations {
       'Ein Jahr Freiheit! Ihr Risiko für nikotinbedingte Gesundheitsprobleme sinkt weiter. Du hast den Suchtzyklus durchbrochen und deine Autonomie zurückgewonnen. Das ist echt heroisch! 🏆';
 
   @override
+  String get nicotinePouchesMilestone730Title => 'Zwei Jahre: Beutelfrei stark';
+
+  @override
+  String get nicotinePouchesMilestone730Description =>
+      'Zwei volle Jahre ohne Nikotinbeutel. Die Forschung kennt keinen besonderen medizinischen Wendepunkt nach zwei Jahren. Dieser Meilenstein feiert deshalb zwei Jahre ohne wiederholte Nikotinaufnahme aus Beuteln und eine Veränderung, die Bestand hat.';
+
+  @override
+  String get nicotinePouchesReferenceDay730 =>
+      'Zwei Jahre: Beutelfrei stark\n\nQuelle: Rungraungrayabkul et al. (2024), systematische Übersichtsarbeit zur Mundgesundheit bei Nikotinbeuteln\n\nDie Übersichtsarbeit fand nur drei Humanstudien mit insgesamt 190 Teilnehmenden; alle wurden mit hohem Verzerrungsrisiko bewertet. Einen Erholungs-Schwellenwert genau nach zwei Jahren nach dem Aufhören zeigte sie nicht.\n\nZwei Jahre ohne Beutel sind trotzdem ein großer Meilenstein dauerhafter Veränderung. Dieser Eintrag feiert die Leistung, ohne eine medizinische Zeitleiste zu erfinden.';
+
+  @override
+  String get nicotinePouchesMilestone1095Title => 'Drei Jahre: Freiheit hält';
+
+  @override
+  String get nicotinePouchesMilestone1095Description =>
+      'Drei Jahre ohne Nikotinbeutel sind ein dauerhafter Erfolg. Die Langzeitwirkungen von Nikotinbeuteln werden weiterhin erforscht. Die ehrliche Schlagzeile lautet daher: drei Jahre beständige Freiheit vom Nikotin aus Beuteln.';
+
+  @override
+  String get nicotinePouchesReferenceDay1095 =>
+      'Drei Jahre: Freiheit hält\n\nQuelle: CDC — Nikotinbeutel\n\nLaut CDC ist weitere Forschung nötig, um die kurz- und langfristigen gesundheitlichen Auswirkungen von Nikotinbeuteln zu verstehen. Eine besondere medizinische Veränderung genau drei Jahre nach dem Aufhören wird nicht genannt.\n\nDrei Jahre ohne Beutel sind genau deshalb feiernswert: drei Jahre beständige Freiheit vom Nikotin aus Beuteln.';
+
+  @override
+  String get nicotinePouchesMilestone1460Title => 'Vier Jahre: Dauerhaft stark';
+
+  @override
+  String get nicotinePouchesMilestone1460Description =>
+      'Vier Jahre ohne Nikotinbeutel zeigen echte Beständigkeit. Es gibt keinen bestätigten medizinischen Schalter nach vier Jahren, aber einen sehr realen Erfolg: vier Jahre ohne Rückkehr zur Beutelgewohnheit.';
+
+  @override
+  String get nicotinePouchesReferenceDay1460 =>
+      'Vier Jahre: Dauerhaft stark\n\nQuelle: Rungraungrayabkul et al. (2024), systematische Übersichtsarbeit zur Mundgesundheit bei Nikotinbeuteln\n\nDie Übersichtsarbeit kommt zu dem Schluss, dass die Evidenz zu kurz- und langfristigen Auswirkungen auf die Mundgesundheit begrenzt bleibt und weitere Forschung nötig ist. Ein allgemeines Erholungsereignis genau nach vier Jahren wird nicht gestützt.\n\nVier Jahre ohne Beutel sind ein Meilenstein dauerhafter Veränderung, ganz ohne unbelegte medizinische Behauptung.';
+
+  @override
+  String get nicotinePouchesMilestone1825Title =>
+      'Fünf Jahre: Fünf-Jahres-Sieg';
+
+  @override
+  String get nicotinePouchesMilestone1825Description =>
+      'Fünf Jahre ohne Nikotinbeutel sind gewaltig. Die Langzeitforschung entwickelt sich noch, deshalb macht dieser Meilenstein kein erfundenes Gesundheitsversprechen. Er feiert fünf Jahre beständige Veränderung.';
+
+  @override
+  String get nicotinePouchesReferenceDay1825 =>
+      'Fünf Jahre: Fünf-Jahres-Sieg\n\nQuelle: CDC — Nikotinbeutel\n\nDas CDC weist darauf hin, dass Nikotinbeutel relativ neu sind und ihre langfristigen gesundheitlichen Auswirkungen noch untersucht werden. Die aktuelle Evidenz zeigt kein besonderes Erholungsereignis genau nach fünf Jahren.\n\nFünf Jahre ohne Beutel sind für sich genommen eine enorme Leistung: fünf Jahre beständige Veränderung.';
+
+  @override
   String get pornographyMilestone1Title => 'Die Kontrolle zurücknehmen';
 
   @override

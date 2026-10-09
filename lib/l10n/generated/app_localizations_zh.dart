@@ -2480,6 +2480,50 @@ class AppLocalizationsZh extends AppLocalizations {
       '停用尼古丁袋整整一年！尼古丁相关健康问题的风险继续下降。您已经打破成瘾循环，重新掌握了自己的选择。这是非常了不起的成就！ 🏆';
 
   @override
+  String get nicotinePouchesMilestone730Title => '两年：无尼古丁袋的力量';
+
+  @override
+  String get nicotinePouchesMilestone730Description =>
+      '整整两年没有使用尼古丁袋。研究尚未证实停用两年时存在特殊的恢复节点，因此这个里程碑庆祝的是两年没有反复接触袋装尼古丁，以及持续坚持下来的改变。';
+
+  @override
+  String get nicotinePouchesReferenceDay730 =>
+      '两年：无尼古丁袋的力量\n\n来源：Rungraungrayabkul 等（2024），尼古丁袋与口腔健康系统综述\n\n该综述只找到3项人体研究，共190名参与者，而且全部被评为高偏倚风险。它没有证明停用两年时存在特定的恢复阈值。\n\n即便如此，两年不用尼古丁袋仍是长期改变的重要里程碑。这里庆祝真实的坚持，不虚构医学时间表。';
+
+  @override
+  String get nicotinePouchesMilestone1095Title => '三年：自由依然稳固';
+
+  @override
+  String get nicotinePouchesMilestone1095Description =>
+      '三年不用尼古丁袋，是一项持久的胜利。尼古丁袋的长期影响仍在研究中，所以最可靠的结论很简单：已经连续三年摆脱了袋装尼古丁。';
+
+  @override
+  String get nicotinePouchesReferenceDay1095 =>
+      '三年：自由依然稳固\n\n来源：美国疾控中心（CDC）— 尼古丁袋\n\nCDC指出，还需要更多研究来了解尼古丁袋的短期和长期健康影响，并未指出停用三年时会发生特定的医学变化。\n\n三年不用尼古丁袋本身就值得庆祝：连续三年摆脱袋装尼古丁。';
+
+  @override
+  String get nicotinePouchesMilestone1460Title => '四年：改变经得住时间';
+
+  @override
+  String get nicotinePouchesMilestone1460Description =>
+      '四年不用尼古丁袋，体现了真正的坚持。没有证据证明四年时会发生某个医学上的“开关”，但有一个非常真实的成就：四年没有回到使用尼古丁袋的习惯。';
+
+  @override
+  String get nicotinePouchesReferenceDay1460 =>
+      '四年：改变经得住时间\n\n来源：Rungraungrayabkul 等（2024），尼古丁袋与口腔健康系统综述\n\n综述认为，关于短期和长期口腔健康影响的证据仍然有限，还需要更多研究。它并不支持所有人在停用四年时都会出现某种特定恢复事件。\n\n四年不用尼古丁袋，就是持续改变的重要里程碑，不需要没有依据的医学承诺来证明它的价值。';
+
+  @override
+  String get nicotinePouchesMilestone1825Title => '五年：五年大胜利';
+
+  @override
+  String get nicotinePouchesMilestone1825Description =>
+      '五年不用尼古丁袋，是非常大的成就。长期研究仍在发展，因此这个里程碑不承诺虚构的健康效果，而是庆祝五年持续不断的改变。';
+
+  @override
+  String get nicotinePouchesReferenceDay1825 =>
+      '五年：五年大胜利\n\n来源：美国疾控中心（CDC）— 尼古丁袋\n\nCDC指出，尼古丁袋是相对较新的产品，其长期健康影响仍在研究中。现有证据没有确定停用五年时会发生特定的恢复事件。\n\n五年不用尼古丁袋本身就是巨大的成就：五年持续不断的改变。';
+
+  @override
   String get pornographyMilestone1Title => '重新掌握控制权';
 
   @override
@@ -6905,6 +6949,50 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   @override
   String get nicotinePouchesMilestone365Description =>
       '停用尼古丁袋整整一年！尼古丁相關健康問題的風險繼續下降。您已經打破成癮循環，重新掌握了自己的選擇。這是非常了不起的成就！ 🏆';
+
+  @override
+  String get nicotinePouchesMilestone730Title => '兩年：無尼古丁袋的力量';
+
+  @override
+  String get nicotinePouchesMilestone730Description =>
+      '整整兩年沒有使用尼古丁袋。研究尚未證實停用兩年時存在特殊的恢復節點，因此這個里程碑慶祝的是兩年沒有反覆接觸袋裝尼古丁，以及持續維持的改變。';
+
+  @override
+  String get nicotinePouchesReferenceDay730 =>
+      '兩年：無尼古丁袋的力量\n\n來源：Rungraungrayabkul 等（2024），尼古丁袋與口腔健康系統性回顧\n\n這篇回顧只找到3項人體研究，共190名參與者，而且全部被評為高偏誤風險。它沒有證明停用兩年時存在特定的恢復門檻。\n\n即使如此，兩年不用尼古丁袋仍是長期改變的重要里程碑。這裡慶祝真實的堅持，不虛構醫學時間表。';
+
+  @override
+  String get nicotinePouchesMilestone1095Title => '三年：自由依然穩固';
+
+  @override
+  String get nicotinePouchesMilestone1095Description =>
+      '三年不用尼古丁袋，是一項持久的勝利。尼古丁袋的長期影響仍在研究中，所以最可靠的結論很簡單：已經連續三年擺脫袋裝尼古丁。';
+
+  @override
+  String get nicotinePouchesReferenceDay1095 =>
+      '三年：自由依然穩固\n\n來源：美國疾病管制與預防中心（CDC）— 尼古丁袋\n\nCDC指出，仍需要更多研究來了解尼古丁袋的短期與長期健康影響，並未指出停用三年時會發生特定的醫學變化。\n\n三年不用尼古丁袋本身就值得慶祝：連續三年擺脫袋裝尼古丁。';
+
+  @override
+  String get nicotinePouchesMilestone1460Title => '四年：改變經得起時間';
+
+  @override
+  String get nicotinePouchesMilestone1460Description =>
+      '四年不用尼古丁袋，展現了真正的持續力。沒有證據證明四年時會發生某個醫學上的「開關」，但有一個非常真實的成就：四年沒有回到使用尼古丁袋的習慣。';
+
+  @override
+  String get nicotinePouchesReferenceDay1460 =>
+      '四年：改變經得起時間\n\n來源：Rungraungrayabkul 等（2024），尼古丁袋與口腔健康系統性回顧\n\n回顧指出，關於短期與長期口腔健康影響的證據仍有限，還需要更多研究。它並不支持所有人在停用四年時都會出現某種特定恢復事件。\n\n四年不用尼古丁袋，就是持續改變的重要里程碑，不需要沒有依據的醫學承諾來證明價值。';
+
+  @override
+  String get nicotinePouchesMilestone1825Title => '五年：五年大勝利';
+
+  @override
+  String get nicotinePouchesMilestone1825Description =>
+      '五年不用尼古丁袋，是非常大的成就。長期研究仍在發展，因此這個里程碑不承諾虛構的健康效果，而是慶祝五年持續不斷的改變。';
+
+  @override
+  String get nicotinePouchesReferenceDay1825 =>
+      '五年：五年大勝利\n\n來源：美國疾病管制與預防中心（CDC）— 尼古丁袋\n\nCDC指出，尼古丁袋是相對較新的產品，其長期健康影響仍在研究中。現有證據沒有確定停用五年時會發生特定的恢復事件。\n\n五年不用尼古丁袋本身就是巨大的成就：五年持續不斷的改變。';
 
   @override
   String get pornographyMilestone1Title => '重新掌握控制權';

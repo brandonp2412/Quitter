@@ -2668,6 +2668,52 @@ class AppLocalizationsPt extends AppLocalizations {
       'Um ano de liberdade! O risco de problemas de saúde relacionados à nicotina continua a cair. Quebrou o ciclo do vício e recuperou sua autonomia. Isso é genuinamente heróico!🏆';
 
   @override
+  String get nicotinePouchesMilestone730Title => 'Dois anos: força sem bolsas';
+
+  @override
+  String get nicotinePouchesMilestone730Description =>
+      'Dois anos completos sem bolsas de nicotina. A investigação não estabeleceu um limiar especial de recuperação aos dois anos, por isso este marco celebra dois anos sem exposição repetida à nicotina das bolsas e uma mudança que foi mantida.';
+
+  @override
+  String get nicotinePouchesReferenceDay730 =>
+      'Dois anos: força sem bolsas\n\nFonte: Rungraungrayabkul et al. (2024), revisão sistemática sobre bolsas de nicotina e saúde oral\n\nA revisão encontrou apenas três estudos em seres humanos, com 190 participantes no total, todos avaliados com elevado risco de viés. Não estabeleceu um limiar de recuperação aos dois anos após a cessação.\n\nDois anos sem bolsas continuam a ser um grande marco de mudança sustentada. Esta entrada celebra essa conquista sem inventar um calendário médico.';
+
+  @override
+  String get nicotinePouchesMilestone1095Title =>
+      'Três anos: a liberdade mantém-se';
+
+  @override
+  String get nicotinePouchesMilestone1095Description =>
+      'Três anos sem bolsas é uma vitória duradoura. Os efeitos a longo prazo das bolsas de nicotina continuam a ser estudados, por isso a mensagem honesta é simples: três anos de liberdade sustentada da nicotina das bolsas.';
+
+  @override
+  String get nicotinePouchesReferenceDay1095 =>
+      'Três anos: a liberdade mantém-se\n\nFonte: CDC — Bolsas de nicotina\n\nO CDC afirma que é necessária mais investigação para compreender os efeitos de curto e longo prazo das bolsas de nicotina na saúde. Não identifica uma alteração médica específica exatamente três anos após a cessação.\n\nTrês anos sem bolsas merecem ser celebrados pelo que são: três anos de liberdade sustentada da nicotina das bolsas.';
+
+  @override
+  String get nicotinePouchesMilestone1460Title =>
+      'Quatro anos: mudança duradoura';
+
+  @override
+  String get nicotinePouchesMilestone1460Description =>
+      'Quatro anos sem bolsas mostram verdadeira consistência. Não existe uma mudança médica validada que aconteça exatamente aos quatro anos, mas existe uma conquista bem real: quatro anos sem regressar ao hábito das bolsas.';
+
+  @override
+  String get nicotinePouchesReferenceDay1460 =>
+      'Quatro anos: mudança duradoura\n\nFonte: Rungraungrayabkul et al. (2024), revisão sistemática sobre bolsas de nicotina e saúde oral\n\nA revisão conclui que a evidência sobre efeitos de curto e longo prazo na saúde oral continua limitada e que é necessária mais investigação. Não apoia um acontecimento universal de recuperação exatamente aos quatro anos.\n\nQuatro anos sem bolsas são um marco de mudança sustentada, sem necessidade de uma afirmação médica sem suporte.';
+
+  @override
+  String get nicotinePouchesMilestone1825Title => 'Cinco anos: grande vitória';
+
+  @override
+  String get nicotinePouchesMilestone1825Description =>
+      'Cinco anos sem bolsas é uma conquista enorme. A investigação a longo prazo ainda está a evoluir, por isso este marco não faz promessas de saúde inventadas: celebra cinco anos de mudança sustentada.';
+
+  @override
+  String get nicotinePouchesReferenceDay1825 =>
+      'Cinco anos: grande vitória\n\nFonte: CDC — Bolsas de nicotina\n\nO CDC assinala que as bolsas de nicotina são relativamente recentes e que os seus efeitos de longo prazo na saúde continuam a ser estudados. A evidência atual não estabelece um acontecimento específico de recuperação aos cinco anos.\n\nCinco anos sem bolsas são uma conquista enorme por si só: cinco anos de mudança sustentada.';
+
+  @override
   String get pornographyMilestone1Title => 'Retomando o controle';
 
   @override
@@ -7313,6 +7359,51 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
   @override
   String get nicotinePouchesMilestone365Description =>
       'Um ano de liberdade!O risco de problemas de saúde relacionados à nicotina continua a cair. Você quebrou o ciclo do vício e recuperou sua autonomia. Isso é genuinamente heróico!🏆';
+
+  @override
+  String get nicotinePouchesMilestone730Title => 'Dois anos: força sem sachês';
+
+  @override
+  String get nicotinePouchesMilestone730Description =>
+      'Dois anos completos sem sachês de nicotina. A pesquisa não estabeleceu um marco especial de recuperação aos dois anos, então este momento celebra dois anos sem exposição repetida à nicotina dos sachês e uma mudança que você manteve.';
+
+  @override
+  String get nicotinePouchesReferenceDay730 =>
+      'Dois anos: força sem sachês\n\nFonte: Rungraungrayabkul et al. (2024), revisão sistemática sobre sachês de nicotina e saúde bucal\n\nA revisão encontrou apenas três estudos com seres humanos, totalizando 190 participantes, e todos foram avaliados com alto risco de viés. Ela não estabeleceu um marco de recuperação aos dois anos após parar.\n\nDois anos sem sachês ainda são uma grande conquista de mudança sustentada. Esta etapa celebra esse resultado sem inventar uma linha do tempo médica.';
+
+  @override
+  String get nicotinePouchesMilestone1095Title => 'Três anos: liberdade firme';
+
+  @override
+  String get nicotinePouchesMilestone1095Description =>
+      'Três anos sem sachês são uma vitória duradoura. Os efeitos de longo prazo dos sachês de nicotina ainda estão sendo estudados, então a mensagem honesta é simples: três anos de liberdade contínua da nicotina dos sachês.';
+
+  @override
+  String get nicotinePouchesReferenceDay1095 =>
+      'Três anos: liberdade firme\n\nFonte: CDC — Sachês de nicotina\n\nO CDC afirma que são necessárias mais pesquisas para entender os efeitos de curto e longo prazo dos sachês de nicotina na saúde. Não aponta uma mudança médica específica exatamente três anos depois de parar.\n\nTrês anos sem sachês merecem ser comemorados pelo que são: três anos de liberdade contínua da nicotina dos sachês.';
+
+  @override
+  String get nicotinePouchesMilestone1460Title =>
+      'Quatro anos: mudança duradoura';
+
+  @override
+  String get nicotinePouchesMilestone1460Description =>
+      'Quatro anos sem sachês mostram consistência de verdade. Não existe uma mudança médica validada que aconteça exatamente aos quatro anos, mas existe uma conquista muito real: quatro anos sem voltar ao hábito dos sachês.';
+
+  @override
+  String get nicotinePouchesReferenceDay1460 =>
+      'Quatro anos: mudança duradoura\n\nFonte: Rungraungrayabkul et al. (2024), revisão sistemática sobre sachês de nicotina e saúde bucal\n\nA revisão conclui que as evidências sobre efeitos de curto e longo prazo na saúde bucal ainda são limitadas e que mais pesquisas são necessárias. Ela não sustenta um evento universal de recuperação exatamente aos quatro anos.\n\nQuatro anos sem sachês são um marco de mudança sustentada, sem precisar de uma afirmação médica sem evidência.';
+
+  @override
+  String get nicotinePouchesMilestone1825Title => 'Cinco anos: grande vitória';
+
+  @override
+  String get nicotinePouchesMilestone1825Description =>
+      'Cinco anos sem sachês são uma conquista enorme. A pesquisa de longo prazo ainda está evoluindo, então este marco não faz promessas de saúde inventadas: celebra cinco anos de mudança sustentada.';
+
+  @override
+  String get nicotinePouchesReferenceDay1825 =>
+      'Cinco anos: grande vitória\n\nFonte: CDC — Sachês de nicotina\n\nO CDC observa que os sachês de nicotina são relativamente novos e que seus efeitos de longo prazo na saúde ainda estão sendo estudados. As evidências atuais não estabelecem um evento específico de recuperação aos cinco anos.\n\nCinco anos sem sachês são uma conquista enorme por si só: cinco anos de mudança sustentada.';
 
   @override
   String get pornographyMilestone1Title => 'Retomando o controle';

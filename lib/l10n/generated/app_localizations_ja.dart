@@ -2484,6 +2484,50 @@ class AppLocalizationsJa extends AppLocalizations {
       'ニコチンパウチをやめて1年！ニコチン関連の健康リスクは低下し続けています。依存のサイクルを断ち切り、自分の選択を取り戻しました。大きな成果です！ 🏆';
 
   @override
+  String get nicotinePouchesMilestone730Title => '2年達成：ポーチなしの力';
+
+  @override
+  String get nicotinePouchesMilestone730Description =>
+      'ニコチンポーチなしで丸2年。研究では2年時点に特別な回復の節目は確認されていません。だからこそ、繰り返すポーチ由来ニコチンへの曝露を2年間避け、変化を続けてきた事実を祝う節目です。';
+
+  @override
+  String get nicotinePouchesReferenceDay730 =>
+      '2年達成：ポーチなしの力\n\n出典：Rungraungrayabkul ら（2024）、ニコチンポーチと口腔健康に関する系統的レビュー\n\nこのレビューで見つかったヒト研究は3件、計190人のみで、すべてバイアスリスクが高いと評価されました。中止後2年で特別な回復閾値があるとは示していません。\n\nそれでも2年間ポーチを使わなかったことは、継続した変化の大きな節目です。医学的な時間表を作り上げず、その達成そのものを祝います。';
+
+  @override
+  String get nicotinePouchesMilestone1095Title => '3年達成：自由が続く';
+
+  @override
+  String get nicotinePouchesMilestone1095Description =>
+      'ニコチンポーチなしで3年は、長く続いた大きな勝利です。長期影響は今も研究中なので、確かな見出しはシンプルです。ポーチ由来ニコチンから3年間離れ続けました。';
+
+  @override
+  String get nicotinePouchesReferenceDay1095 =>
+      '3年達成：自由が続く\n\n出典：CDC「ニコチンポーチ」\n\nCDCは、ニコチンポーチの短期・長期の健康影響を理解するにはさらに研究が必要だとしています。中止後ちょうど3年で特別な医学的変化が起こるとは示していません。\n\n3年間ポーチを使わなかったことは、それ自体が祝う価値のある成果です。ポーチ由来ニコチンから3年間離れ続けました。';
+
+  @override
+  String get nicotinePouchesMilestone1460Title => '4年達成：積み重ねた強さ';
+
+  @override
+  String get nicotinePouchesMilestone1460Description =>
+      'ニコチンポーチなしの4年間は、確かな継続の証です。4年で起こると確認された医学的な切り替わりはありませんが、4年間ポーチ習慣に戻らなかったという現実の成果があります。';
+
+  @override
+  String get nicotinePouchesReferenceDay1460 =>
+      '4年達成：積み重ねた強さ\n\n出典：Rungraungrayabkul ら（2024）、ニコチンポーチと口腔健康に関する系統的レビュー\n\nレビューは、短期・長期の口腔健康影響に関する証拠はまだ限られ、追加研究が必要だと結論づけています。ちょうど4年で誰にでも起こる回復イベントは支持していません。\n\n4年間ポーチを使わなかったことは、裏付けのない医学的主張がなくても十分に大きな継続の節目です。';
+
+  @override
+  String get nicotinePouchesMilestone1825Title => '5年達成：大きな勝利';
+
+  @override
+  String get nicotinePouchesMilestone1825Description =>
+      'ニコチンポーチなしで5年は、とても大きな成果です。長期研究はまだ発展中なので、この節目は作られた健康効果を約束せず、5年間続いた変化そのものを祝います。';
+
+  @override
+  String get nicotinePouchesReferenceDay1825 =>
+      '5年達成：大きな勝利\n\n出典：CDC「ニコチンポーチ」\n\nCDCは、ニコチンポーチは比較的新しく、長期の健康影響は今も研究中だとしています。現在の証拠では、5年時点に特別な回復イベントがあるとは示されていません。\n\n5年間ポーチを使わなかったことは、それだけで非常に大きな成果です。5年間、変化を続けてきました。';
+
+  @override
   String get pornographyMilestone1Title => 'コントロールを取り戻す';
 
   @override
