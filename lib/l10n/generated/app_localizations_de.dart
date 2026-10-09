@@ -3114,6 +3114,50 @@ class AppLocalizationsDe extends AppLocalizations {
       'Bei Menschen, die Antidepressiva nach der Behandlung einer schweren Depression absetzten, fand eine Metaanalyse mit 35 Studien nach 12 Monaten eine gepoolte Rückfallrate von 45,12 % – etwa 55 % blieben ein volles Jahr rückfallfrei. Das ist ein großer Meilenstein langfristiger Stabilität.';
 
   @override
+  String get tcaMilestone730Title => '2 Jahre: Fester Boden';
+
+  @override
+  String get tcaMilestone730Description =>
+      'Zwei Jahre seit dem Ende des TCA-Ausschleichens sind ein bedeutender Meilenstein. Absetzerfahrungen unterscheiden sich, daher würdigt dieses Datum anhaltenden Fortschritt statt einer allgemeinen biologischen Ziellinie.';
+
+  @override
+  String get tcaReferenceDay730 =>
+      'Zwei Jahre nach TCA: Anhaltender Fortschritt\n\nQuelle: NICE NG222 — Depression in adults: treatment and management\n\nNICE nennt TCA ausdrücklich unter den Antidepressiva, bei denen Absetzsymptome auftreten können. Erfahrungen unterscheiden sich, und die Dosis sollte schrittweise und an die einzelne Person angepasst reduziert werden.\n\nDie Leitlinie definiert keine biologische Zwei-Jahres-Schwelle. Dieser Jahrestag würdigt zwei Jahre anhaltenden Fortschritts ohne eine allgemeine Ziellinie zu erfinden.';
+
+  @override
+  String get tcaMilestone1095Title => '3 Jahre: Fortschritt hält';
+
+  @override
+  String get tcaMilestone1095Description =>
+      'Drei Jahre zeigen, wie viel Beständigkeit sich aufgebaut hat. Leitlinien setzen für dieses Datum keinen besonderen TCA-Erholungsendpunkt; gefeiert werden die Stabilität, Routinen und Entscheidungen, die über diese Jahre getragen haben.';
+
+  @override
+  String get tcaReferenceDay1095 =>
+      'Drei Jahre nach TCA: Fortschritt bleibt\n\nQuelle: NICE NG222 — Depression in adults: treatment and management\n\nNICE nennt TCA ausdrücklich unter den Antidepressiva, bei denen Absetzsymptome auftreten können. Erfahrungen unterscheiden sich, und die Dosis sollte schrittweise und an die einzelne Person angepasst reduziert werden.\n\nDie Leitlinie nennt drei Jahre nicht als allgemeines Erholungsziel. Dieser Meilenstein würdigt die über drei Jahre erhaltene Stabilität und Entwicklung.';
+
+  @override
+  String get tcaMilestone1460Title => '4 Jahre: Dauerhaft gefestigt';
+
+  @override
+  String get tcaMilestone1460Description =>
+      'Vier Jahre stehen für dauerhaft aufgebauten Fortschritt. Die Zeit nach dem Absetzen eines TCA verläuft individuell; dieser Meilenstein würdigt das Erreichte, ohne einen festen neurologischen Zeitplan zu behaupten.';
+
+  @override
+  String get tcaReferenceDay1460 =>
+      'Vier Jahre nach TCA: Langfristiger Fortschritt\n\nQuelle: NICE NG222 — Depression in adults: treatment and management\n\nNICE nennt TCA ausdrücklich unter den Antidepressiva, bei denen Absetzsymptome auftreten können. Erfahrungen unterscheiden sich, und die Dosis sollte schrittweise und an die einzelne Person angepasst reduziert werden.\n\nFür vier Jahre gibt es in der Leitlinie keine biologische Schwelle. Der Tag bleibt ein sinnvoller Marker für langfristigen Fortschritt.';
+
+  @override
+  String get tcaMilestone1825Title => '5 Jahre: Beständiger Fortschritt';
+
+  @override
+  String get tcaMilestone1825Description =>
+      'Fünf Jahre sind ein großer persönlicher Meilenstein. Sie stehen für langfristig erhaltene Veränderung nach einem TCA, ohne zu behaupten, dass bei allen Menschen heute derselbe biologische Prozess endet.';
+
+  @override
+  String get tcaReferenceDay1825 =>
+      'Fünf Jahre nach TCA: Ein großer Jahrestag\n\nQuelle: NICE NG222 — Depression in adults: treatment and management\n\nNICE nennt TCA ausdrücklich unter den Antidepressiva, bei denen Absetzsymptome auftreten können. Erfahrungen unterscheiden sich, und die Dosis sollte schrittweise und an die einzelne Person angepasst reduziert werden.\n\nDie Evidenz setzt keine Fünf-Jahres-Schwelle für die TCA-Erholung. Fünf Jahre bleiben dennoch ein bedeutender persönlicher Jahrestag.';
+
+  @override
   String get settingsShowTcaTracking => 'TCA-Tracking anzeigen';
 
   @override

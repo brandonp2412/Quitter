@@ -3128,6 +3128,50 @@ class AppLocalizationsPt extends AppLocalizations {
       'Entre pessoas que interromperam antidepressivos após tratamento para depressão major, uma meta-análise de 35 ensaios encontrou uma taxa agrupada de recaída de 45,12% aos 12 meses — cerca de 55% mantiveram-se sem recaída durante um ano inteiro. É um grande marco de estabilidade a longo prazo.';
 
   @override
+  String get tcaMilestone730Title => '2 anos: Base firme';
+
+  @override
+  String get tcaMilestone730Description =>
+      'Dois anos após concluir a redução gradual de um TCA são um marco importante. A experiência de descontinuação varia entre pessoas, por isso esta etapa celebra progresso sustentado sem afirmar uma meta biológica universal.';
+
+  @override
+  String get tcaReferenceDay730 =>
+      'Dois anos após TCA: Progresso sustentado\n\nFonte: NICE NG222 — Depression in adults: treatment and management\n\nA NICE inclui explicitamente os TCA entre os antidepressivos que podem causar sintomas de descontinuação. A experiência varia entre pessoas e a redução da dose deve ser gradual e adaptada a cada caso.\n\nA orientação não define um limiar biológico aos dois anos. Este aniversário celebra dois anos de progresso sustentado sem inventar uma meta universal.';
+
+  @override
+  String get tcaMilestone1095Title => '3 anos: Progresso mantido';
+
+  @override
+  String get tcaMilestone1095Description =>
+      'Três anos representam um longo período de progresso mantido. As orientações clínicas não definem um ponto especial de recuperação dos TCA nesta data; o mérito está na estabilidade, rotinas e escolhas mantidas ao longo destes anos.';
+
+  @override
+  String get tcaReferenceDay1095 =>
+      'Três anos após TCA: Progresso mantido\n\nFonte: NICE NG222 — Depression in adults: treatment and management\n\nA NICE inclui explicitamente os TCA entre os antidepressivos que podem causar sintomas de descontinuação. A experiência varia entre pessoas e a redução da dose deve ser gradual e adaptada a cada caso.\n\nA orientação não identifica três anos como um prazo universal de recuperação. Este marco reconhece a estabilidade e o progresso mantidos durante três anos.';
+
+  @override
+  String get tcaMilestone1460Title => '4 anos: Progresso duradouro';
+
+  @override
+  String get tcaMilestone1460Description =>
+      'Quatro anos refletem progresso duradouro construído ao longo do tempo. A experiência após parar um TCA é individual, e este marco reconhece o que foi mantido sem inventar um calendário neurológico fixo.';
+
+  @override
+  String get tcaReferenceDay1460 =>
+      'Quatro anos após TCA: Progresso a longo prazo\n\nFonte: NICE NG222 — Depression in adults: treatment and management\n\nA NICE inclui explicitamente os TCA entre os antidepressivos que podem causar sintomas de descontinuação. A experiência varia entre pessoas e a redução da dose deve ser gradual e adaptada a cada caso.\n\nA orientação não estabelece um limiar biológico aos quatro anos. Ainda assim, quatro anos são uma referência significativa de progresso a longo prazo.';
+
+  @override
+  String get tcaMilestone1825Title => '5 anos: Progresso que perdura';
+
+  @override
+  String get tcaMilestone1825Description =>
+      'Cinco anos são um grande aniversário pessoal. Assinalam uma mudança sustentada após parar um TCA, respeitando que a descontinuação e a recuperação não seguem um único calendário.';
+
+  @override
+  String get tcaReferenceDay1825 =>
+      'Cinco anos após TCA: Um grande aniversário\n\nFonte: NICE NG222 — Depression in adults: treatment and management\n\nA NICE inclui explicitamente os TCA entre os antidepressivos que podem causar sintomas de descontinuação. A experiência varia entre pessoas e a redução da dose deve ser gradual e adaptada a cada caso.\n\nA evidência não estabelece um limiar de recuperação dos TCA aos cinco anos. Cinco anos continuam a ser um grande aniversário pessoal e um forte sinal de mudança sustentada.';
+
+  @override
   String get settingsShowTcaTracking => 'Mostrar acompanhamento de TCA';
 
   @override
@@ -7699,6 +7743,50 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
   @override
   String get tcaMilestone365Description =>
       'Entre pessoas que interromperam antidepressivos após tratamento para depressão maior, uma meta-análise de 35 ensaios encontrou uma taxa combinada de recaída de 45,12% aos 12 meses — cerca de 55% permaneceram sem recaída durante um ano inteiro. É um grande marco de estabilidade a longo prazo.';
+
+  @override
+  String get tcaMilestone730Title => '2 anos: Base firme';
+
+  @override
+  String get tcaMilestone730Description =>
+      'Dois anos após concluir a redução gradual de um TCA são um marco importante. A experiência de descontinuação varia de pessoa para pessoa, então esta etapa celebra progresso sustentado sem afirmar uma meta biológica universal.';
+
+  @override
+  String get tcaReferenceDay730 =>
+      'Dois anos após TCA: Progresso sustentado\n\nFonte: NICE NG222 — Depression in adults: treatment and management\n\nA NICE inclui explicitamente os TCA entre os antidepressivos que podem causar sintomas de descontinuação. A experiência varia entre pessoas e a redução da dose deve ser gradual e adaptada a cada caso.\n\nA orientação não define um limiar biológico aos dois anos. Este aniversário celebra dois anos de progresso sustentado sem inventar uma meta universal.';
+
+  @override
+  String get tcaMilestone1095Title => '3 anos: Progresso mantido';
+
+  @override
+  String get tcaMilestone1095Description =>
+      'Três anos representam um longo período de progresso mantido. As orientações clínicas não definem um ponto especial de recuperação dos TCA nesta data; o mérito está na estabilidade, nas rotinas e nas escolhas sustentadas ao longo desses anos.';
+
+  @override
+  String get tcaReferenceDay1095 =>
+      'Três anos após TCA: Progresso mantido\n\nFonte: NICE NG222 — Depression in adults: treatment and management\n\nA NICE inclui explicitamente os TCA entre os antidepressivos que podem causar sintomas de descontinuação. A experiência varia entre pessoas e a redução da dose deve ser gradual e adaptada a cada caso.\n\nA orientação não identifica três anos como um prazo universal de recuperação. Este marco reconhece a estabilidade e o progresso mantidos durante três anos.';
+
+  @override
+  String get tcaMilestone1460Title => '4 anos: Progresso duradouro';
+
+  @override
+  String get tcaMilestone1460Description =>
+      'Quatro anos refletem um progresso duradouro construído com o tempo. A experiência após parar um TCA é individual, e este marco reconhece o que foi mantido sem inventar um cronograma neurológico fixo.';
+
+  @override
+  String get tcaReferenceDay1460 =>
+      'Quatro anos após TCA: Progresso de longo prazo\n\nFonte: NICE NG222 — Depression in adults: treatment and management\n\nA NICE inclui explicitamente os TCA entre os antidepressivos que podem causar sintomas de descontinuação. A experiência varia entre pessoas e a redução da dose deve ser gradual e adaptada a cada caso.\n\nA orientação não estabelece um limiar biológico aos quatro anos. Ainda assim, quatro anos são uma referência significativa de progresso de longo prazo.';
+
+  @override
+  String get tcaMilestone1825Title => '5 anos: Progresso que permanece';
+
+  @override
+  String get tcaMilestone1825Description =>
+      'Cinco anos são um grande aniversário pessoal. Marcam uma mudança sustentada após parar um TCA, respeitando o fato de que a descontinuação e a recuperação não seguem um único cronograma.';
+
+  @override
+  String get tcaReferenceDay1825 =>
+      'Cinco anos após TCA: Um grande aniversário\n\nFonte: NICE NG222 — Depression in adults: treatment and management\n\nA NICE inclui explicitamente os TCA entre os antidepressivos que podem causar sintomas de descontinuação. A experiência varia entre pessoas e a redução da dose deve ser gradual e adaptada a cada caso.\n\nA evidência não estabelece um limiar de recuperação dos TCA aos cinco anos. Cinco anos continuam sendo um grande aniversário pessoal e um forte sinal de mudança sustentada.';
 
   @override
   String get settingsShowTcaTracking => 'Mostrar rastreamento de TCA';

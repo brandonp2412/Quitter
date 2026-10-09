@@ -3052,6 +3052,50 @@ class AppLocalizationsEn extends AppLocalizations {
       'Among people discontinuing antidepressants after treatment for major depression, a 35-trial meta-analysis found a 45.12% pooled relapse rate at 12 months—about 55% remained relapse-free for a full year. That is a major long-term stability milestone.';
 
   @override
+  String get tcaMilestone730Title => 'Two Years: Firm Ground';
+
+  @override
+  String get tcaMilestone730Description =>
+      'Two years since finishing your TCA taper is a substantial anniversary. Withdrawal experiences vary between people, so this milestone celebrates sustained progress rather than claiming a universal biological finish line.';
+
+  @override
+  String get tcaReferenceDay730 =>
+      'Two Years After TCAs: Sustained Progress\n\nSource: NICE NG222 — Depression in adults: treatment and management\n\nNICE states that withdrawal symptoms can occur with tricyclic antidepressants (TCAs), that experiences vary between people, and that dose reduction should be gradual and individually paced. Difficult withdrawal can last longer than the usual early window.\n\nNICE does not define a two-year biological recovery threshold after stopping a TCA. This anniversary celebrates two years of sustained progress without assigning a universal finish line to recovery.';
+
+  @override
+  String get tcaMilestone1095Title => 'Three Years: Progress Holds';
+
+  @override
+  String get tcaMilestone1095Description =>
+      'Three years is a long stretch of progress held in place. Clinical guidance sets no special TCA recovery endpoint at this date; the achievement is the stability, routines, and choices sustained across those years.';
+
+  @override
+  String get tcaReferenceDay1095 =>
+      'Three Years After TCAs: Progress That Holds\n\nSource: NICE NG222 — Depression in adults: treatment and management\n\nNICE recommends that antidepressant withdrawal be tailored to the person, taking account of the medicine, treatment duration, symptoms, and response to each dose reduction. TCAs are explicitly among the antidepressants that can cause withdrawal symptoms.\n\nThe guideline does not identify three years as a universal TCA recovery deadline. This milestone recognises the stability, routines, and progress maintained across three years.';
+
+  @override
+  String get tcaMilestone1460Title => 'Four Years: Built to Last';
+
+  @override
+  String get tcaMilestone1460Description =>
+      'Four years reflects durable progress built over time. Experiences after stopping a TCA are individual, and this milestone honours what has been maintained without inventing a fixed neurological timetable.';
+
+  @override
+  String get tcaReferenceDay1460 =>
+      'Four Years After TCAs: Long-Term Progress\n\nSource: NICE NG222 — Depression in adults: treatment and management\n\nNICE describes antidepressant withdrawal as variable rather than governed by one fixed timetable. It recommends gradual dose reductions and adjusting the pace to the individual\'s symptoms and circumstances.\n\nThere is no evidence-based four-year biological threshold in the guideline. Four years is still a meaningful marker of long-term progress and of the ground held over time.';
+
+  @override
+  String get tcaMilestone1825Title => 'Five Years: Lasting Progress';
+
+  @override
+  String get tcaMilestone1825Description =>
+      'Five years is a major personal anniversary. It marks sustained change after stopping a TCA while respecting that withdrawal and recovery do not follow one universal schedule.';
+
+  @override
+  String get tcaReferenceDay1825 =>
+      'Five Years After TCAs: A Major Anniversary\n\nSource: NICE NG222 — Depression in adults: treatment and management\n\nNICE guidance focuses on safe, individualised withdrawal and monitoring rather than assigning one recovery schedule to everyone who stops an antidepressant. TCAs are among the medicines covered by that guidance.\n\nThe evidence does not create a five-year TCA recovery threshold. Five years remains a major personal anniversary and a strong marker of sustained change.';
+
+  @override
   String get settingsShowTcaTracking => 'Show TCA tracking';
 
   @override

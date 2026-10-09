@@ -147,6 +147,62 @@ class TcaPage extends StatelessWidget {
             "Protect the Progress\n"
             "If depressive symptoms start returning, contact your clinician early. Reaching a full year is a substantial achievement worth protecting.",
       ),
+      QuitMilestone(
+        day: 730,
+        title: l10n.tcaMilestone730Title,
+        description: l10n.tcaMilestone730Description,
+        reference: "NICE - Depression in adults: treatment and management",
+        link: "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.tcaReferenceDay730,
+        referenceContent:
+            "Two Years After TCAs: Sustained Progress\n\n"
+            "Source: NICE guideline NG222 — Depression in adults: treatment and management\n\n"
+            "NICE states that withdrawal symptoms can occur with tricyclic antidepressants (TCAs), that experiences vary between people, and that dose reduction should be gradual and individually paced. Difficult withdrawal can last longer than the usual early window.\n\n"
+            "NICE does not define a two-year biological recovery threshold after stopping a TCA. This anniversary celebrates two years of sustained progress without assigning a universal finish line to recovery.",
+      ),
+      QuitMilestone(
+        day: 1095,
+        title: l10n.tcaMilestone1095Title,
+        description: l10n.tcaMilestone1095Description,
+        reference: "NICE - Depression in adults: treatment and management",
+        link: "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.tcaReferenceDay1095,
+        referenceContent:
+            "Three Years After TCAs: Progress That Holds\n\n"
+            "Source: NICE guideline NG222 — Depression in adults: treatment and management\n\n"
+            "NICE recommends that antidepressant withdrawal be tailored to the person, taking account of the medicine, treatment duration, symptoms, and response to each dose reduction. TCAs are explicitly among the antidepressants that can cause withdrawal symptoms.\n\n"
+            "The guideline does not identify three years as a universal TCA recovery deadline. This milestone recognises the stability, routines, and progress maintained across three years.",
+      ),
+      QuitMilestone(
+        day: 1460,
+        title: l10n.tcaMilestone1460Title,
+        description: l10n.tcaMilestone1460Description,
+        reference: "NICE - Depression in adults: treatment and management",
+        link: "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.tcaReferenceDay1460,
+        referenceContent:
+            "Four Years After TCAs: Long-Term Progress\n\n"
+            "Source: NICE guideline NG222 — Depression in adults: treatment and management\n\n"
+            "NICE describes antidepressant withdrawal as variable rather than governed by one fixed timetable. It recommends gradual dose reductions and adjusting the pace to the individual's symptoms and circumstances.\n\n"
+            "There is no evidence-based four-year biological threshold in the guideline. Four years is still a meaningful marker of long-term progress and of the ground you have held over time.",
+      ),
+      QuitMilestone(
+        day: 1825,
+        title: l10n.tcaMilestone1825Title,
+        description: l10n.tcaMilestone1825Description,
+        reference: "NICE - Depression in adults: treatment and management",
+        link: "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+        referenceDate: "October 2026",
+        localizedReferenceContent: l10n.tcaReferenceDay1825,
+        referenceContent:
+            "Five Years After TCAs: A Major Anniversary\n\n"
+            "Source: NICE guideline NG222 — Depression in adults: treatment and management\n\n"
+            "NICE guidance focuses on safe, individualised withdrawal and monitoring rather than assigning one recovery schedule to everyone who stops an antidepressant. TCAs are among the medicines covered by that guidance.\n\n"
+            "The evidence does not create a five-year TCA recovery threshold. Five years remains a major personal anniversary and a strong marker of sustained change.",
+      ),
     ];
   }
 

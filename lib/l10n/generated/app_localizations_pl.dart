@@ -3120,6 +3120,50 @@ class AppLocalizationsPl extends AppLocalizations {
       'Wśród osób odstawiających leki przeciwdepresyjne po leczeniu dużej depresji metaanaliza 35 badań wykazała łączny odsetek nawrotów 45,12% po 12 miesiącach — około 55% pozostało bez nawrotu przez pełny rok. To ważny kamień milowy długoterminowej stabilności.';
 
   @override
+  String get tcaMilestone730Title => '2 lata: Mocny grunt';
+
+  @override
+  String get tcaMilestone730Description =>
+      'Dwa lata od zakończenia stopniowego odstawiania TCA to ważny kamień milowy. Doświadczenia związane z odstawieniem są różne, dlatego ten moment świętuje trwały postęp bez wyznaczania uniwersalnej biologicznej mety.';
+
+  @override
+  String get tcaReferenceDay730 =>
+      'Dwa lata po TCA: Trwały postęp\n\nŹródło: NICE NG222 — Depression in adults: treatment and management\n\nNICE wyraźnie wymienia TCA wśród leków przeciwdepresyjnych, po których mogą wystąpić objawy odstawienne. Przebieg różni się między osobami, a dawkę należy zmniejszać stopniowo i indywidualnie.\n\nWytyczne nie definiują biologicznego progu dwóch lat. Ta rocznica świętuje dwa lata trwałego postępu bez tworzenia uniwersalnej mety.';
+
+  @override
+  String get tcaMilestone1095Title => '3 lata: Postęp trwa';
+
+  @override
+  String get tcaMilestone1095Description =>
+      'Trzy lata to długi okres utrzymanego postępu. Wytyczne nie wyznaczają na ten dzień szczególnego końca zdrowienia po TCA; znaczenie mają stabilność, nawyki i decyzje utrzymywane przez te lata.';
+
+  @override
+  String get tcaReferenceDay1095 =>
+      'Trzy lata po TCA: Postęp utrzymany\n\nŹródło: NICE NG222 — Depression in adults: treatment and management\n\nNICE wyraźnie wymienia TCA wśród leków przeciwdepresyjnych, po których mogą wystąpić objawy odstawienne. Przebieg różni się między osobami, a dawkę należy zmniejszać stopniowo i indywidualnie.\n\nWytyczne nie wskazują trzech lat jako uniwersalnego terminu zdrowienia. Ten kamień milowy docenia stabilność i postęp utrzymane przez trzy lata.';
+
+  @override
+  String get tcaMilestone1460Title => '4 lata: Trwały postęp';
+
+  @override
+  String get tcaMilestone1460Description =>
+      'Cztery lata pokazują trwały postęp budowany z czasem. Doświadczenie po odstawieniu TCA jest indywidualne, a ten kamień milowy docenia to, co udało się utrzymać, bez tworzenia sztywnego neurologicznego harmonogramu.';
+
+  @override
+  String get tcaReferenceDay1460 =>
+      'Cztery lata po TCA: Postęp długoterminowy\n\nŹródło: NICE NG222 — Depression in adults: treatment and management\n\nNICE wyraźnie wymienia TCA wśród leków przeciwdepresyjnych, po których mogą wystąpić objawy odstawienne. Przebieg różni się między osobami, a dawkę należy zmniejszać stopniowo i indywidualnie.\n\nWytyczne nie ustanawiają biologicznego progu czterech lat. Cztery lata nadal są ważnym znacznikiem długoterminowego postępu.';
+
+  @override
+  String get tcaMilestone1825Title => '5 lat: Postęp na lata';
+
+  @override
+  String get tcaMilestone1825Description =>
+      'Pięć lat to ważna osobista rocznica. Oznacza trwałą zmianę po odstawieniu TCA, z poszanowaniem faktu, że odstawienie i zdrowienie nie przebiegają według jednego harmonogramu.';
+
+  @override
+  String get tcaReferenceDay1825 =>
+      'Pięć lat po TCA: Ważna rocznica\n\nŹródło: NICE NG222 — Depression in adults: treatment and management\n\nNICE wyraźnie wymienia TCA wśród leków przeciwdepresyjnych, po których mogą wystąpić objawy odstawienne. Przebieg różni się między osobami, a dawkę należy zmniejszać stopniowo i indywidualnie.\n\nDowody nie ustanawiają pięcioletniego progu zdrowienia po TCA. Pięć lat pozostaje ważną osobistą rocznicą i mocnym znakiem trwałej zmiany.';
+
+  @override
   String get settingsShowTcaTracking => 'Pokaż śledzenie TCA';
 
   @override

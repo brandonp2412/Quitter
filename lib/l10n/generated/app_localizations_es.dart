@@ -3128,6 +3128,50 @@ class AppLocalizationsEs extends AppLocalizations {
       'Entre personas que dejaron antidepresivos tras tratar una depresión mayor, un metanálisis de 35 ensayos halló una tasa agrupada de recaída del 45,12 % a los 12 meses: alrededor del 55 % siguió sin recaída durante un año completo. Es un gran hito de estabilidad a largo plazo.';
 
   @override
+  String get tcaMilestone730Title => '2 años: Base firme';
+
+  @override
+  String get tcaMilestone730Description =>
+      'Dos años desde que terminó la reducción gradual de un TCA son un aniversario importante. La retirada varía entre personas, así que este hito celebra un progreso sostenido sin presentar una meta biológica universal.';
+
+  @override
+  String get tcaReferenceDay730 =>
+      'Dos años tras los TCA: Progreso sostenido\n\nFuente: NICE NG222 — Depression in adults: treatment and management\n\nNICE incluye expresamente los TCA entre los antidepresivos que pueden causar síntomas de retirada. La experiencia varía entre personas y la reducción de dosis debe ser gradual y adaptada a cada caso.\n\nLa guía no define un umbral biológico a los dos años. Este aniversario celebra dos años de progreso sostenido sin inventar una meta universal.';
+
+  @override
+  String get tcaMilestone1095Title => '3 años: Progreso sostenido';
+
+  @override
+  String get tcaMilestone1095Description =>
+      'Tres años representan una larga etapa de progreso mantenido. Las guías no fijan un punto especial de recuperación del TCA en esta fecha; lo valioso es la estabilidad, las rutinas y las decisiones sostenidas durante estos años.';
+
+  @override
+  String get tcaReferenceDay1095 =>
+      'Tres años tras los TCA: Progreso que se mantiene\n\nFuente: NICE NG222 — Depression in adults: treatment and management\n\nNICE incluye expresamente los TCA entre los antidepresivos que pueden causar síntomas de retirada. La experiencia varía entre personas y la reducción de dosis debe ser gradual y adaptada a cada caso.\n\nLa guía no identifica los tres años como un plazo universal de recuperación. Este hito reconoce la estabilidad y el progreso mantenidos durante tres años.';
+
+  @override
+  String get tcaMilestone1460Title => '4 años: Progreso duradero';
+
+  @override
+  String get tcaMilestone1460Description =>
+      'Cuatro años reflejan un progreso duradero construido con el tiempo. La experiencia tras dejar un TCA es individual, y este hito reconoce lo mantenido sin inventar un calendario neurológico fijo.';
+
+  @override
+  String get tcaReferenceDay1460 =>
+      'Cuatro años tras los TCA: Progreso a largo plazo\n\nFuente: NICE NG222 — Depression in adults: treatment and management\n\nNICE incluye expresamente los TCA entre los antidepresivos que pueden causar síntomas de retirada. La experiencia varía entre personas y la reducción de dosis debe ser gradual y adaptada a cada caso.\n\nLa guía no establece un umbral biológico a los cuatro años. Aun así, cuatro años son una referencia significativa de progreso a largo plazo.';
+
+  @override
+  String get tcaMilestone1825Title => '5 años: Progreso que perdura';
+
+  @override
+  String get tcaMilestone1825Description =>
+      'Cinco años son un aniversario personal importante. Marcan un cambio sostenido tras dejar un TCA, respetando que la retirada y la recuperación no siguen un único calendario.';
+
+  @override
+  String get tcaReferenceDay1825 =>
+      'Cinco años tras los TCA: Un gran aniversario\n\nFuente: NICE NG222 — Depression in adults: treatment and management\n\nNICE incluye expresamente los TCA entre los antidepresivos que pueden causar síntomas de retirada. La experiencia varía entre personas y la reducción de dosis debe ser gradual y adaptada a cada caso.\n\nLa evidencia no establece un umbral de recuperación del TCA a los cinco años. Cinco años siguen siendo un gran aniversario personal y una señal de cambio sostenido.';
+
+  @override
   String get settingsShowTcaTracking => 'Mostrar seguimiento de tricíclicos';
 
   @override

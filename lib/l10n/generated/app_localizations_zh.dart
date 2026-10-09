@@ -2917,6 +2917,50 @@ class AppLocalizationsZh extends AppLocalizations {
       '在重度抑郁治疗后停用抗抑郁药的人群中，一项汇总35项试验的荟萃分析发现，12个月时合并复发率为45.12%——约55%的人整整一年未复发。这是长期稳定的重要里程碑。';
 
   @override
+  String get tcaMilestone730Title => '2年：基础更稳';
+
+  @override
+  String get tcaMilestone730Description =>
+      '完成 TCA 逐步减量后两年，是值得纪念的重要节点。停药体验因人而异，因此这个里程碑庆祝您持续保持的进展，而不是宣称存在适用于所有人的生物学终点。';
+
+  @override
+  String get tcaReferenceDay730 =>
+      '停止 TCA 两年：持续进展\n\n来源：NICE NG222 — Depression in adults: treatment and management\n\nNICE 明确将 TCA 列入可能出现停药症状的抗抑郁药。每个人的体验不同，指南建议逐步减量，并根据个人反应调整速度。\n\n指南没有把两年定义为生物学康复阈值。这个纪念日庆祝两年来持续保持的进展，而不虚构统一终点。';
+
+  @override
+  String get tcaMilestone1095Title => '3年：进展持续';
+
+  @override
+  String get tcaMilestone1095Description =>
+      '三年代表一段很长的持续进展。临床指南并未把这个日期设为 TCA 康复的特殊终点；真正值得肯定的是您在这些年里保持的稳定、习惯与选择。';
+
+  @override
+  String get tcaReferenceDay1095 =>
+      '停止 TCA 三年：进展保持\n\n来源：NICE NG222 — Depression in adults: treatment and management\n\nNICE 明确将 TCA 列入可能出现停药症状的抗抑郁药。每个人的体验不同，指南建议逐步减量，并根据个人反应调整速度。\n\n指南没有把三年设为统一的康复期限。这个里程碑肯定三年来保持的稳定与进展。';
+
+  @override
+  String get tcaMilestone1460Title => '4年：长期进展';
+
+  @override
+  String get tcaMilestone1460Description =>
+      '四年体现了经时间积累的持久进展。停止 TCA 后的体验各不相同，这个里程碑肯定您一直保持的成果，而不虚构固定的神经学时间表。';
+
+  @override
+  String get tcaReferenceDay1460 =>
+      '停止 TCA 四年：长期进展\n\n来源：NICE NG222 — Depression in adults: treatment and management\n\nNICE 明确将 TCA 列入可能出现停药症状的抗抑郁药。每个人的体验不同，指南建议逐步减量，并根据个人反应调整速度。\n\n指南没有设定四年的生物学阈值。四年仍然是衡量长期进展的有意义节点。';
+
+  @override
+  String get tcaMilestone1825Title => '5年：持续前行';
+
+  @override
+  String get tcaMilestone1825Description =>
+      '五年是重要的个人纪念日。它记录停止 TCA 后持续保持的改变，同时尊重停药与康复并不存在适用于所有人的统一时间表。';
+
+  @override
+  String get tcaReferenceDay1825 =>
+      '停止 TCA 五年：重要纪念日\n\n来源：NICE NG222 — Depression in adults: treatment and management\n\nNICE 明确将 TCA 列入可能出现停药症状的抗抑郁药。每个人的体验不同，指南建议逐步减量，并根据个人反应调整速度。\n\n现有证据没有设定五年的 TCA 康复阈值。五年仍是重要的个人纪念日，也是持续改变的有力标志。';
+
+  @override
   String get settingsShowTcaTracking => '显示三环类追踪';
 
   @override
@@ -7266,6 +7310,50 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   @override
   String get tcaMilestone365Description =>
       '在重度憂鬱症治療後停用抗憂鬱藥的人群中，一項彙整35項試驗的統合分析發現，12個月時的合併復發率為45.12%——約55%的人整整一年未復發。這是長期穩定的重要里程碑。';
+
+  @override
+  String get tcaMilestone730Title => '2年：基礎更穩';
+
+  @override
+  String get tcaMilestone730Description =>
+      '完成 TCA 逐步減量後兩年，是值得紀念的重要節點。停藥經驗因人而異，因此這個里程碑慶祝您持續維持的進展，而不是宣稱存在適用於所有人的生物學終點。';
+
+  @override
+  String get tcaReferenceDay730 =>
+      '停止 TCA 兩年：持續進展\n\n來源：NICE NG222 — Depression in adults: treatment and management\n\nNICE 明確將 TCA 列入可能出現停藥症狀的抗抑鬱藥。每個人的經驗不同，指引建議逐步減量，並依個人反應調整速度。\n\n指引沒有把兩年定義為生物學康復門檻。這個紀念日慶祝兩年來持續維持的進展，而不虛構統一終點。';
+
+  @override
+  String get tcaMilestone1095Title => '3年：進展持續';
+
+  @override
+  String get tcaMilestone1095Description =>
+      '三年代表一段很長的持續進展。臨床指引並未把這個日期設為 TCA 康復的特殊終點；真正值得肯定的是您在這些年裡維持的穩定、習慣與選擇。';
+
+  @override
+  String get tcaReferenceDay1095 =>
+      '停止 TCA 三年：進展維持\n\n來源：NICE NG222 — Depression in adults: treatment and management\n\nNICE 明確將 TCA 列入可能出現停藥症狀的抗抑鬱藥。每個人的經驗不同，指引建議逐步減量，並依個人反應調整速度。\n\n指引沒有把三年設為統一的康復期限。這個里程碑肯定三年來維持的穩定與進展。';
+
+  @override
+  String get tcaMilestone1460Title => '4年：長期進展';
+
+  @override
+  String get tcaMilestone1460Description =>
+      '四年體現了經時間累積的持久進展。停止 TCA 後的經驗各不相同，這個里程碑肯定您一直維持的成果，而不虛構固定的神經學時間表。';
+
+  @override
+  String get tcaReferenceDay1460 =>
+      '停止 TCA 四年：長期進展\n\n來源：NICE NG222 — Depression in adults: treatment and management\n\nNICE 明確將 TCA 列入可能出現停藥症狀的抗抑鬱藥。每個人的經驗不同，指引建議逐步減量，並依個人反應調整速度。\n\n指引沒有設定四年的生物學門檻。四年仍然是衡量長期進展的有意義節點。';
+
+  @override
+  String get tcaMilestone1825Title => '5年：持續前行';
+
+  @override
+  String get tcaMilestone1825Description =>
+      '五年是重要的個人紀念日。它記錄停止 TCA 後持續維持的改變，同時尊重停藥與康復並不存在適用於所有人的統一時間表。';
+
+  @override
+  String get tcaReferenceDay1825 =>
+      '停止 TCA 五年：重要紀念日\n\n來源：NICE NG222 — Depression in adults: treatment and management\n\nNICE 明確將 TCA 列入可能出現停藥症狀的抗抑鬱藥。每個人的經驗不同，指引建議逐步減量，並依個人反應調整速度。\n\n現有證據沒有設定五年的 TCA 康復門檻。五年仍是重要的個人紀念日，也是持續改變的有力標誌。';
 
   @override
   String get settingsShowTcaTracking => '顯示三環類追蹤';

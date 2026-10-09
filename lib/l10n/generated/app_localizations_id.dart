@@ -3100,6 +3100,50 @@ class AppLocalizationsId extends AppLocalizations {
       'Pada orang yang menghentikan antidepresan setelah pengobatan depresi mayor, meta-analisis 35 uji menemukan angka kekambuhan gabungan 45,12% pada 12 bulan—sekitar 55% tetap tanpa kambuh selama setahun penuh. Itu adalah tonggak besar stabilitas jangka panjang.';
 
   @override
+  String get tcaMilestone730Title => '2 Tahun: Landasan Kokoh';
+
+  @override
+  String get tcaMilestone730Description =>
+      'Dua tahun sejak menyelesaikan penurunan dosis TCA adalah tonggak besar. Pengalaman putus obat berbeda pada setiap orang, jadi pencapaian ini merayakan kemajuan yang bertahan tanpa mengklaim batas akhir biologis yang berlaku untuk semua.';
+
+  @override
+  String get tcaReferenceDay730 =>
+      'Dua Tahun Setelah TCA: Kemajuan Berkelanjutan\n\nSumber: NICE NG222 — Depression in adults: treatment and management\n\nNICE secara jelas memasukkan TCA sebagai antidepresan yang dapat menimbulkan gejala putus obat. Pengalaman berbeda pada tiap orang dan penurunan dosis sebaiknya dilakukan bertahap sesuai kebutuhan individu.\n\nPedoman tidak menetapkan ambang biologis dua tahun. Peringatan ini merayakan dua tahun kemajuan yang bertahan tanpa membuat garis akhir universal.';
+
+  @override
+  String get tcaMilestone1095Title => '3 Tahun: Kemajuan Terjaga';
+
+  @override
+  String get tcaMilestone1095Description =>
+      'Tiga tahun menunjukkan kemajuan yang terus terjaga. Pedoman klinis tidak menetapkan titik akhir pemulihan TCA khusus pada tanggal ini; yang layak dirayakan adalah kestabilan, kebiasaan, dan pilihan yang dipertahankan selama bertahun-tahun.';
+
+  @override
+  String get tcaReferenceDay1095 =>
+      'Tiga Tahun Setelah TCA: Kemajuan Terjaga\n\nSumber: NICE NG222 — Depression in adults: treatment and management\n\nNICE secara jelas memasukkan TCA sebagai antidepresan yang dapat menimbulkan gejala putus obat. Pengalaman berbeda pada tiap orang dan penurunan dosis sebaiknya dilakukan bertahap sesuai kebutuhan individu.\n\nPedoman tidak menetapkan tiga tahun sebagai tenggat pemulihan universal. Tonggak ini menghargai kestabilan dan kemajuan yang dipertahankan selama tiga tahun.';
+
+  @override
+  String get tcaMilestone1460Title => '4 Tahun: Kemajuan Bertahan';
+
+  @override
+  String get tcaMilestone1460Description =>
+      'Empat tahun mencerminkan kemajuan tahan lama yang dibangun seiring waktu. Pengalaman setelah berhenti TCA bersifat individual, dan tonggak ini menghargai apa yang telah dipertahankan tanpa membuat jadwal neurologis yang kaku.';
+
+  @override
+  String get tcaReferenceDay1460 =>
+      'Empat Tahun Setelah TCA: Kemajuan Jangka Panjang\n\nSumber: NICE NG222 — Depression in adults: treatment and management\n\nNICE secara jelas memasukkan TCA sebagai antidepresan yang dapat menimbulkan gejala putus obat. Pengalaman berbeda pada tiap orang dan penurunan dosis sebaiknya dilakukan bertahap sesuai kebutuhan individu.\n\nTidak ada ambang biologis empat tahun dalam pedoman tersebut. Empat tahun tetap menjadi penanda bermakna untuk kemajuan jangka panjang.';
+
+  @override
+  String get tcaMilestone1825Title => '5 Tahun: Kemajuan Berkelanjutan';
+
+  @override
+  String get tcaMilestone1825Description =>
+      'Lima tahun adalah peringatan pribadi yang besar. Ini menandai perubahan yang bertahan setelah berhenti TCA sambil mengakui bahwa putus obat dan pemulihan tidak mengikuti satu jadwal yang sama untuk semua orang.';
+
+  @override
+  String get tcaReferenceDay1825 =>
+      'Lima Tahun Setelah TCA: Peringatan Besar\n\nSumber: NICE NG222 — Depression in adults: treatment and management\n\nNICE secara jelas memasukkan TCA sebagai antidepresan yang dapat menimbulkan gejala putus obat. Pengalaman berbeda pada tiap orang dan penurunan dosis sebaiknya dilakukan bertahap sesuai kebutuhan individu.\n\nBukti tidak menetapkan ambang pemulihan TCA pada lima tahun. Lima tahun tetap menjadi peringatan pribadi yang besar dan penanda perubahan yang bertahan.';
+
+  @override
   String get settingsShowTcaTracking => 'Tampilkan pelacakan TCA';
 
   @override
