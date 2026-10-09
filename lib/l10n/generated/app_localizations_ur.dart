@@ -4449,4 +4449,37 @@ class AppLocalizationsUr extends AppLocalizations {
   @override
   String get ssriReferenceDay1825 =>
       'SSRI کے بعد پانچ سال: بڑا سنگِ میل\n\nماخذ: Royal College of Psychiatrists — Stopping antidepressants\n\nرہنمائی محفوظ اور انفرادی بتدریج کمی اور علامات کے مطابق ردعمل پر توجہ دیتی ہے، نہ کہ سب کے لیے ایک ہی بحالی کے شیڈول پر۔\n\nSSRI کے لیے پانچ سال کی ثبوت پر مبنی بحالی کی حد مقرر نہیں۔ دن 1825 پھر بھی ایک اہم سالگرہ ہے۔';
+
+  @override
+  String get steroidsMilestone1095Title => 'تین سال — مضبوط بنیاد';
+
+  @override
+  String get steroidsMilestone1095Description =>
+      'اسٹیرائڈز کے بغیر تین سال مستقل مزاجی کی بڑی علامت ہیں۔ AAS کے بعد بحالی ہر شخص میں مختلف ہوتی ہے؛ یہ سالگرہ قائم رکھی گئی مدت کا جشن ہے، کسی فرضی حیاتیاتی اختتامی لکیر کا نہیں۔';
+
+  @override
+  String get steroidsReferenceDay1095 =>
+      'اینابولک اسٹیرائڈز کے بغیر تین سال\n\nماخذ: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nتین سال کا فاصلہ\nAAS کے بعد بحالی میں بہت فرق ہوتا ہے۔ جائزے کے مطابق ٹیسٹوسٹیرون اور گوناڈوٹروپن عموماً مہینوں میں بحال ہوتے ہیں، جبکہ خصیوں کے حجم اور نطفہ سازی کی بحالی میں مہینے سے سال لگ سکتے ہیں۔ نفسیاتی بحالی کم قابلِ پیش گوئی ہے۔\n\nاس سالگرہ کا مطلب\nجائزہ تین سال کو حیاتیاتی بحالی کی آخری حد قرار نہیں دیتا۔ یہ سنگِ میل دوبارہ سامنا ہوئے بغیر تین سال کو نشان زد کرتا ہے۔ ہارمون، زرخیزی، مزاج یا جنسی کارکردگی کی مسلسل علامات طبی جانچ کی مستحق ہیں۔';
+
+  @override
+  String get steroidsMilestone1460Title => 'چار سال — پائیدار پیش رفت';
+
+  @override
+  String get steroidsMilestone1460Description =>
+      'نئے سائیکل کے بغیر چار سال پائیدار پیش رفت ہیں۔ شواہد چار سال کی بحالی کی کوئی حد مقرر نہیں کرتے؛ یہ سنگِ میل AAS سے قائم فاصلے اور اس کے پیچھے کی محنت کا جشن ہے۔';
+
+  @override
+  String get steroidsReferenceDay1460 =>
+      'اینابولک اسٹیرائڈز کے بغیر چار سال\n\nماخذ: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nچار سال کی مستقل مزاجی\nAAS کے بعد بحالی ایک ہی رفتار سے نہیں چلتی۔ جائزہ جسمانی، تولیدی، نفسیاتی اور حیاتی کیمیائی بحالی کے مختلف اوقات بیان کرتا ہے، اور کچھ تبدیلیوں میں مہینوں سے سال لگ سکتے ہیں۔\n\nکوئی گھڑی ہوئی آخری تاریخ نہیں\nشواہد پر مبنی چار سال کی بحالی کی کوئی حد موجود نہیں۔ نئے سائیکل کے بغیر چار سال پھر بھی ایک اہم کامیابی ہیں۔ مسلسل علامات اپنی جگہ طبی جانچ کی مستحق ہیں۔';
+
+  @override
+  String get steroidsMilestone1825Title => 'پانچ سال — طویل مدتی کامیابی';
+
+  @override
+  String get steroidsMilestone1825Description =>
+      'اسٹیرائڈز کے بغیر پانچ سال ایک بڑی طویل مدتی کامیابی ہیں۔ بحالی غیر یکساں ہو سکتی ہے اور کچھ مسائل باقی رہ سکتے ہیں، مگر دوبارہ سامنا ہوئے بغیر پانچ سال منانے کے قابل ہیں۔';
+
+  @override
+  String get steroidsReferenceDay1825 =>
+      'اینابولک اسٹیرائڈز کے بغیر پانچ سال\n\nماخذ: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nپانچ سال ایک بڑا سنگِ میل ہیں\nشواہد دکھاتے ہیں کہ AAS کے بعد بحالی میں بہت فرق ہوتا ہے۔ بہت سی ہارمونی تبدیلیاں کہیں پہلے بہتر ہو جاتی ہیں، جبکہ تولیدی یا نفسیاتی اثرات زیادہ طویل اور کم قابلِ پیش گوئی راستہ اختیار کر سکتے ہیں۔\n\nدوبارہ سامنا ہوئے بغیر پانچ سال\nجائزہ پانچ سال کو حیاتیاتی بحالی کی آخری حد مقرر نہیں کرتا۔ اسٹیرائڈز کے بغیر پانچ سال برقرار تبدیلی کی وجہ سے خود جشن کے قابل ہیں، اور مسلسل علامات کی طبی جانچ جاری رہنی چاہیے۔';
 }

@@ -4506,6 +4506,39 @@ class AppLocalizationsPt extends AppLocalizations {
   @override
   String get ssriReferenceDay1825 =>
       'Cinco anos após os ISRS: Grande marco\n\nFonte: Royal College of Psychiatrists — Stopping antidepressants\n\nA orientação centra-se num desmame seguro e individualizado e na resposta aos sintomas, não num calendário de recuperação igual para todos.\n\nNão estabelece um limiar de recuperação de cinco anos para os ISRS. O dia 1825 continua a ser um aniversário importante.';
+
+  @override
+  String get steroidsMilestone1095Title => 'Três anos — base sólida';
+
+  @override
+  String get steroidsMilestone1095Description =>
+      'Três anos sem esteroides representam uma enorme consistência. A recuperação após AAS varia entre pessoas; este aniversário celebra o tempo mantido, não uma suposta meta biológica.';
+
+  @override
+  String get steroidsReferenceDay1095 =>
+      'Três anos sem esteroides anabolizantes\n\nFonte: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nTrês anos de distância\nA recuperação após AAS varia muito. A revisão indica que a testosterona e as gonadotrofinas recuperam ao longo de meses, enquanto o volume testicular e a produção de espermatozoides podem levar meses a anos. A recuperação psicológica é menos previsível.\n\nO significado deste aniversário\nA revisão não define uma meta biológica aos três anos. Este marco assinala três anos sem nova exposição. Sintomas hormonais, de fertilidade, de humor ou sexuais persistentes merecem avaliação médica.';
+
+  @override
+  String get steroidsMilestone1460Title => 'Quatro anos — progresso duradouro';
+
+  @override
+  String get steroidsMilestone1460Description =>
+      'Quatro anos sem outro ciclo são progresso duradouro. A evidência não estabelece um limiar de recuperação aos quatro anos; este marco celebra a distância mantida dos AAS e o esforço que a sustenta.';
+
+  @override
+  String get steroidsReferenceDay1460 =>
+      'Quatro anos sem esteroides anabolizantes\n\nFonte: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nQuatro anos de consistência\nA recuperação após AAS não segue um único relógio. A revisão descreve recuperação física, reprodutiva, psicológica e bioquímica em prazos diferentes, e algumas alterações podem demorar meses a anos.\n\nSem prazos inventados\nNão existe um limiar de recuperação aos quatro anos sustentado por evidência. Quatro anos sem outro ciclo continuam a ser uma conquista importante. Sintomas persistentes merecem avaliação clínica por si próprios.';
+
+  @override
+  String get steroidsMilestone1825Title => 'Cinco anos — vitória duradoura';
+
+  @override
+  String get steroidsMilestone1825Description =>
+      'Cinco anos sem esteroides são uma grande vitória a longo prazo. A recuperação pode ser irregular e alguns problemas persistir, mas meio decénio sem nova exposição merece ser celebrado.';
+
+  @override
+  String get steroidsReferenceDay1825 =>
+      'Cinco anos sem esteroides anabolizantes\n\nFonte: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nCinco anos são um grande marco\nA evidência mostra que a recuperação após AAS varia muito. Muitas alterações hormonais melhoram bastante mais cedo, enquanto efeitos reprodutivos ou psicológicos podem seguir percursos mais longos e menos previsíveis.\n\nMeio decénio sem nova exposição\nA revisão não fixa uma meta biológica aos cinco anos. Cinco anos sem esteroides merecem ser celebrados pela mudança sustentada em si, e quaisquer sintomas persistentes devem continuar a ser avaliados clinicamente.';
 }
 
 /// The translations for Portuguese, as used in Brazil (`pt_BR`).
@@ -9010,4 +9043,37 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
   @override
   String get ssriReferenceDay1825 =>
       'Cinco anos após os ISRS: Grande marco\n\nFonte: Royal College of Psychiatrists — Stopping antidepressants\n\nA orientação se concentra em redução segura e individualizada e em responder aos sintomas, não em impor o mesmo cronograma de recuperação a todo mundo.\n\nEla não estabelece um limiar de recuperação de cinco anos para os ISRS. O dia 1825 continua sendo um aniversário importante.';
+
+  @override
+  String get steroidsMilestone1095Title => 'Três anos — base firme';
+
+  @override
+  String get steroidsMilestone1095Description =>
+      'Três anos sem esteroides mostram uma constância enorme. A recuperação depois dos AAS varia de pessoa para pessoa; este aniversário celebra o tempo sustentado, não uma suposta linha de chegada biológica.';
+
+  @override
+  String get steroidsReferenceDay1095 =>
+      'Três anos sem esteroides anabolizantes\n\nFonte: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nTrês anos de distância\nA recuperação depois dos AAS varia bastante. A revisão relata que testosterona e gonadotrofinas se recuperam ao longo de meses, enquanto o tamanho testicular e a produção de espermatozoides podem levar de meses a anos. A recuperação psicológica é menos previsível.\n\nO que este aniversário significa\nA revisão não define uma linha de chegada biológica aos três anos. Este marco registra três anos sem nova exposição. Sintomas hormonais, de fertilidade, de humor ou sexuais que persistem merecem avaliação médica.';
+
+  @override
+  String get steroidsMilestone1460Title => 'Quatro anos — avanço duradouro';
+
+  @override
+  String get steroidsMilestone1460Description =>
+      'Quatro anos sem outro ciclo são um avanço duradouro. As evidências não definem um limite de recuperação aos quatro anos; este marco celebra a distância mantida dos AAS e o esforço por trás dela.';
+
+  @override
+  String get steroidsReferenceDay1460 =>
+      'Quatro anos sem esteroides anabolizantes\n\nFonte: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nQuatro anos de constância\nA recuperação depois dos AAS não segue um único relógio. A revisão descreve recuperação física, reprodutiva, psicológica e bioquímica em ritmos diferentes, e algumas mudanças podem levar de meses a anos.\n\nSem prazo inventado\nNão existe um limite de recuperação aos quatro anos sustentado por evidências. Quatro anos sem outro ciclo continuam sendo uma conquista importante. Sintomas persistentes merecem avaliação clínica por seus próprios motivos.';
+
+  @override
+  String get steroidsMilestone1825Title => 'Cinco anos — vitória duradoura';
+
+  @override
+  String get steroidsMilestone1825Description =>
+      'Cinco anos sem esteroides são uma grande vitória de longo prazo. A recuperação pode ser irregular e alguns problemas persistirem, mas meia década sem nova exposição merece ser celebrada.';
+
+  @override
+  String get steroidsReferenceDay1825 =>
+      'Cinco anos sem esteroides anabolizantes\n\nFonte: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nCinco anos são um grande marco\nAs evidências mostram que a recuperação depois dos AAS varia muito. Muitas mudanças hormonais melhoram bem antes, enquanto efeitos reprodutivos ou psicológicos podem ter trajetórias mais longas e menos previsíveis.\n\nMeia década sem nova exposição\nA revisão não estabelece uma linha de chegada biológica aos cinco anos. Cinco anos sem esteroides merecem ser celebrados pela mudança sustentada em si, e qualquer sintoma persistente ainda deve ser avaliado clinicamente.';
 }

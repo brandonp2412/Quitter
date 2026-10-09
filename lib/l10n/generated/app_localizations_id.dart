@@ -4477,4 +4477,37 @@ class AppLocalizationsId extends AppLocalizations {
   @override
   String get ssriReferenceDay1825 =>
       'Lima Tahun Setelah SSRI: Tonggak Besar\n\nSumber: Royal College of Psychiatrists — Stopping antidepressants\n\nPanduan berfokus pada penurunan dosis yang aman dan individual serta penanganan gejala, bukan satu jadwal pemulihan yang sama bagi semua orang.\n\nTidak ada ambang pemulihan SSRI lima tahun yang ditetapkan. Hari ke-1825 tetap merupakan peringatan yang bermakna.';
+
+  @override
+  String get steroidsMilestone1095Title => 'Tiga Tahun — Fondasi Kuat';
+
+  @override
+  String get steroidsMilestone1095Description =>
+      'Tiga tahun tanpa steroid adalah bukti konsistensi yang besar. Pemulihan setelah AAS berbeda pada tiap orang; peringatan ini merayakan waktu yang dipertahankan, bukan garis akhir biologis yang dibuat-buat.';
+
+  @override
+  String get steroidsReferenceDay1095 =>
+      'Tiga tahun tanpa steroid anabolik\n\nSumber: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nTiga tahun berjarak\nPemulihan setelah AAS sangat bervariasi. Tinjauan ini melaporkan pemulihan testosteron dan gonadotropin selama hitungan bulan, sedangkan ukuran testis dan produksi sperma dapat pulih dalam hitungan bulan hingga tahun. Pemulihan psikologis lebih sulit diprediksi.\n\nMakna peringatan ini\nTinjauan tersebut tidak menetapkan garis akhir biologis pada tahun ketiga. Tonggak ini menandai tiga tahun tanpa paparan ulang. Gejala hormonal, kesuburan, suasana hati, atau seksual yang menetap layak dinilai secara medis.';
+
+  @override
+  String get steroidsMilestone1460Title => 'Empat Tahun — Tetap Kokoh';
+
+  @override
+  String get steroidsMilestone1460Description =>
+      'Empat tahun tanpa siklus baru adalah kemajuan yang tahan lama. Bukti tidak menetapkan ambang pemulihan empat tahun; tonggak ini merayakan jarak yang terus terjaga dari AAS dan usaha di baliknya.';
+
+  @override
+  String get steroidsReferenceDay1460 =>
+      'Empat tahun tanpa steroid anabolik\n\nSumber: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nEmpat tahun konsisten\nPemulihan setelah AAS tidak mengikuti satu jam yang sama. Tinjauan ini menggambarkan pemulihan fisik, reproduksi, psikologis, dan biokimia pada rentang waktu berbeda; sebagian perubahan dapat memerlukan hitungan bulan hingga tahun.\n\nTanpa tenggat buatan\nTidak ada ambang pemulihan empat tahun yang didukung bukti. Empat tahun tanpa siklus lain tetap merupakan pencapaian besar. Gejala yang terus ada pantas mendapat penilaian klinis tersendiri.';
+
+  @override
+  String get steroidsMilestone1825Title => 'Lima Tahun — Kemenangan Besar';
+
+  @override
+  String get steroidsMilestone1825Description =>
+      'Lima tahun tanpa steroid adalah kemenangan jangka panjang yang besar. Pemulihan dapat tidak merata dan beberapa masalah bisa menetap, tetapi setengah dekade tanpa paparan ulang layak dirayakan.';
+
+  @override
+  String get steroidsReferenceDay1825 =>
+      'Lima tahun tanpa steroid anabolik\n\nSumber: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nLima tahun adalah tonggak besar\nBukti menunjukkan bahwa pemulihan setelah AAS sangat bervariasi. Banyak perubahan hormonal membaik jauh lebih awal, sedangkan dampak reproduksi atau psikologis dapat berlangsung lebih lama dan lebih sulit diprediksi.\n\nSetengah dekade tanpa paparan ulang\nTinjauan ini tidak menetapkan garis akhir biologis pada tahun kelima. Lima tahun tanpa steroid layak dirayakan karena perubahan yang terus dipertahankan, sementara gejala yang menetap tetap perlu dinilai secara medis.';
 }

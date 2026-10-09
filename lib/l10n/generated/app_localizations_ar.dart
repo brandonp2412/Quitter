@@ -4418,4 +4418,37 @@ class AppLocalizationsAr extends AppLocalizations {
   @override
   String get ssriReferenceDay1825 =>
       'خمسة أعوام بعد SSRI: محطة كبيرة\n\nالمصدر: Royal College of Psychiatrists — Stopping antidepressants\n\nتركز الإرشادات على الخفض الآمن والفردي والاستجابة للأعراض، لا على فرض جدول تعافٍ واحد على الجميع.\n\nلا توجد فيها عتبة مثبتة للتعافي بعد خمسة أعوام من SSRI. ومع ذلك يبقى اليوم 1825 ذكرى مهمة.';
+
+  @override
+  String get steroidsMilestone1095Title => 'ثلاث سنوات — ثبات قوي';
+
+  @override
+  String get steroidsMilestone1095Description =>
+      'ثلاث سنوات بلا ستيرويدات إنجاز ثابت وطويل. يختلف التعافي بعد الستيرويدات البنائية بين الأشخاص، لذا تحتفي هذه الذكرى بالاستمرار نفسه لا بموعد بيولوجي مفترض للتعافي.';
+
+  @override
+  String get steroidsReferenceDay1095 =>
+      'ثلاث سنوات من دون الستيرويدات البنائية\n\nالمصدر: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nثلاث سنوات من المسافة\nالتعافي بعد الستيرويدات البنائية شديد التفاوت. تشير المراجعة إلى أن التعافي الهرموني يحدث عادة خلال أشهر، بينما قد يستغرق تعافي حجم الخصيتين وإنتاج الحيوانات المنوية أشهرًا إلى سنوات، ويظل التعافي النفسي أقل قابلية للتنبؤ.\n\nمعنى هذه الذكرى\nلا تحدد المراجعة خط نهاية بيولوجيًا عند ثلاث سنوات. هذه المحطة تسجل ثلاث سنوات من دون إعادة التعرض. استمرار أعراض الهرمونات أو الخصوبة أو المزاج أو الوظيفة الجنسية يستحق تقييمًا طبيًا.';
+
+  @override
+  String get steroidsMilestone1460Title => 'أربع سنوات — أساس راسخ';
+
+  @override
+  String get steroidsMilestone1460Description =>
+      'أربع سنوات من دون دورة جديدة تقدم متين. لا تحدد الأدلة عتبة تعافٍ عند أربع سنوات؛ هذه المحطة تحتفي بالمسافة المستمرة عن الستيرويدات والعمل الذي حافظ عليها.';
+
+  @override
+  String get steroidsReferenceDay1460 =>
+      'أربع سنوات من دون الستيرويدات البنائية\n\nالمصدر: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nأربع سنوات من الثبات\nلا يسير التعافي بعد الستيرويدات البنائية وفق ساعة واحدة. تصف المراجعة تعافيًا جسديًا وتناسليًا ونفسيًا وكيميائيًا حيويًا بسرعات مختلفة، وقد تستغرق بعض التغيرات أشهرًا إلى سنوات.\n\nلا موعد نهائي مختلق\nلا توجد عتبة تعافٍ مدعومة بالأدلة عند أربع سنوات. أربع سنوات من دون دورة أخرى إنجاز كبير بحد ذاته. الأعراض المستمرة تستحق تقييمًا سريريًا مستقلًا.';
+
+  @override
+  String get steroidsMilestone1825Title => 'خمس سنوات — إنجاز طويل';
+
+  @override
+  String get steroidsMilestone1825Description =>
+      'خمس سنوات بلا ستيرويدات إنجاز كبير طويل الأمد. قد يكون التعافي متفاوتًا وقد تستمر بعض المشكلات، لكن نصف عقد من دون إعادة التعرض يستحق الاحتفال.';
+
+  @override
+  String get steroidsReferenceDay1825 =>
+      'خمس سنوات من دون الستيرويدات البنائية\n\nالمصدر: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nخمس سنوات محطة كبيرة\nتُظهر الأدلة أن التعافي بعد الستيرويدات البنائية يختلف كثيرًا. تتحسن تغيّرات هرمونية عديدة في وقت أبكر، بينما قد تسير الآثار التناسلية أو النفسية في مسارات أطول وأقل قابلية للتنبؤ.\n\nنصف عقد من دون إعادة التعرض\nلا تحدد المراجعة خط نهاية بيولوجيًا عند خمس سنوات. خمس سنوات بلا ستيرويدات تستحق الاحتفال بالتغيير المستمر نفسه، مع بقاء الأعراض المستمرة سببًا للتقييم الطبي.';
 }

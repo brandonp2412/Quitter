@@ -4336,4 +4336,37 @@ class AppLocalizationsKo extends AppLocalizations {
   @override
   String get ssriReferenceDay1825 =>
       'SSRI 중단 5년: 큰 이정표\n\n출처: Royal College of Psychiatrists — Stopping antidepressants\n\n지침은 안전하고 개인화된 감량과 증상 대응에 초점을 두며, 모두에게 하나의 회복 일정을 적용하지 않습니다.\n\nSSRI에 근거 기반의 5년 회복 기준은 없습니다. 그래도 1825일은 5년간 지속된 진전을 보여 주는 중요한 기념일입니다.';
+
+  @override
+  String get steroidsMilestone1095Title => '3년 — 단단한 기반';
+
+  @override
+  String get steroidsMilestone1095Description =>
+      '스테로이드 없이 3년을 이어 온 것은 큰 꾸준함의 증거입니다. AAS 중단 후 회복은 사람마다 다르므로, 이 기념일은 가상의 생물학적 완주선이 아니라 이어 온 시간을 기념합니다.';
+
+  @override
+  String get steroidsReferenceDay1095 =>
+      '아나볼릭 스테로이드 중단 3년\n\n출처: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\n3년의 거리\nAAS 중단 후 회복은 매우 다양합니다. 이 문헌고찰은 테스토스테론과 성선자극호르몬 회복은 수개월에 걸쳐 진행되고, 고환 크기와 정자 생성은 수개월에서 수년이 걸릴 수 있다고 설명합니다. 심리적 회복은 더 예측하기 어렵습니다.\n\n이 기념일의 의미\n문헌고찰은 3년을 생물학적 회복 완료 시점으로 정하지 않습니다. 이 이정표는 재노출 없이 3년을 이어 온 시간을 뜻합니다. 호르몬, 생식능력, 기분, 성기능 증상이 지속되면 의료 평가가 필요합니다.';
+
+  @override
+  String get steroidsMilestone1460Title => '4년 — 꾸준한 전진';
+
+  @override
+  String get steroidsMilestone1460Description =>
+      '새로운 사이클 없이 4년을 이어 온 것은 오래 지속된 진전입니다. 근거는 4년이라는 회복 기준을 제시하지 않으며, 이 이정표는 AAS와 거리를 유지해 온 과정과 노력을 기념합니다.';
+
+  @override
+  String get steroidsReferenceDay1460 =>
+      '아나볼릭 스테로이드 중단 4년\n\n출처: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\n4년의 꾸준함\nAAS 중단 후 회복은 하나의 시계에 맞춰 진행되지 않습니다. 문헌고찰은 신체적, 생식적, 심리적, 생화학적 회복이 서로 다른 시간에 진행되며 일부 변화는 수개월에서 수년이 걸릴 수 있다고 설명합니다.\n\n만들어 낸 기한은 없습니다\n4년을 회복의 경계로 삼을 근거는 없습니다. 그래도 새로운 사이클 없이 4년을 이어 온 것은 큰 성취입니다. 지속되는 증상은 그 자체로 임상 평가를 받을 가치가 있습니다.';
+
+  @override
+  String get steroidsMilestone1825Title => '5년 — 장기적인 성취';
+
+  @override
+  String get steroidsMilestone1825Description =>
+      '스테로이드 없이 5년은 큰 장기적 성취입니다. 회복은 고르지 않을 수 있고 일부 문제가 남을 수 있지만, 재노출 없이 5년을 이어 온 사실은 충분히 기념할 만합니다.';
+
+  @override
+  String get steroidsReferenceDay1825 =>
+      '아나볼릭 스테로이드 중단 5년\n\n출처: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\n5년은 큰 이정표입니다\n근거는 AAS 중단 후 회복이 크게 다르다는 점을 보여 줍니다. 많은 호르몬 변화는 훨씬 일찍 좋아지지만, 생식 또는 심리적 영향은 더 길고 예측하기 어려운 경과를 보일 수 있습니다.\n\n재노출 없이 5년\n문헌고찰은 5년을 생물학적 회복 완료 시점으로 정하지 않습니다. 스테로이드 없이 5년을 이어 온 지속적인 변화 자체가 축하할 가치가 있으며, 남아 있는 증상은 계속 의료 평가를 받아야 합니다.';
 }

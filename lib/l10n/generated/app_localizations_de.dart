@@ -4493,4 +4493,37 @@ class AppLocalizationsDe extends AppLocalizations {
   @override
   String get ssriReferenceDay1825 =>
       'Fünf Jahre nach SSRIs: Großer Meilenstein\n\nQuelle: Royal College of Psychiatrists — Stopping antidepressants\n\nDie Leitlinie konzentriert sich auf sicheres, individuelles Ausschleichen und den Umgang mit Symptomen, nicht auf einen festen Erholungsplan für alle.\n\nEine evidenzbasierte Fünf-Jahres-Schwelle für SSRIs wird nicht genannt. Tag 1825 bleibt dennoch ein bedeutendes Jubiläum.';
+
+  @override
+  String get steroidsMilestone1095Title => 'Drei Jahre — fester Boden';
+
+  @override
+  String get steroidsMilestone1095Description =>
+      'Drei Jahre ohne Steroide stehen für große Beständigkeit. Die Erholung nach AAS ist individuell; dieser Jahrestag würdigt die lange Zeit ohne erneute Einnahme, nicht eine erfundene biologische Ziellinie.';
+
+  @override
+  String get steroidsReferenceDay1095 =>
+      'Drei Jahre ohne anabole Steroide\n\nQuelle: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nDrei Jahre Abstand\nDie Erholung nach AAS ist sehr unterschiedlich. Laut Übersichtsarbeit erholen sich Testosteron und Gonadotropine meist über Monate, während Hodengröße und Spermienproduktion Monate bis Jahre benötigen können. Die psychische Erholung ist weniger vorhersehbar.\n\nBedeutung dieses Jahrestags\nDie Übersichtsarbeit definiert keine biologische Ziellinie nach drei Jahren. Dieser Meilenstein markiert drei Jahre ohne erneute Exposition. Anhaltende hormonelle, Fruchtbarkeits-, Stimmungs- oder Sexualbeschwerden sollten medizinisch abgeklärt werden.';
+
+  @override
+  String get steroidsMilestone1460Title => 'Vier Jahre — dauerhaft stark';
+
+  @override
+  String get steroidsMilestone1460Description =>
+      'Vier Jahre ohne neuen Zyklus sind belastbarer Fortschritt. Die Evidenz kennt keine Vier-Jahres-Grenze der Erholung; gefeiert werden die anhaltende Distanz zu AAS und die Arbeit dahinter.';
+
+  @override
+  String get steroidsReferenceDay1460 =>
+      'Vier Jahre ohne anabole Steroide\n\nQuelle: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nVier Jahre Beständigkeit\nDie Erholung nach AAS folgt keiner einheitlichen Uhr. Die Übersichtsarbeit beschreibt körperliche, reproduktive, psychische und biochemische Erholung auf unterschiedlichen Zeitskalen; manches kann Monate bis Jahre dauern.\n\nKeine erfundene Frist\nEs gibt keine evidenzbasierte Erholungsschwelle nach vier Jahren. Vier Jahre ohne weiteren Zyklus sind dennoch eine bedeutende Leistung. Fortbestehende Beschwerden verdienen eine eigene klinische Abklärung.';
+
+  @override
+  String get steroidsMilestone1825Title => 'Fünf Jahre — Langzeiterfolg';
+
+  @override
+  String get steroidsMilestone1825Description =>
+      'Fünf Jahre ohne Steroide sind ein großer Langzeiterfolg. Erholung kann ungleich verlaufen und Beschwerden können bleiben, doch ein halbes Jahrzehnt ohne erneute Exposition zählt.';
+
+  @override
+  String get steroidsReferenceDay1825 =>
+      'Fünf Jahre ohne anabole Steroide\n\nQuelle: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nFünf Jahre sind ein großer Meilenstein\nDie Evidenz zeigt große Unterschiede bei der Erholung nach AAS. Viele hormonelle Veränderungen bessern sich deutlich früher, während reproduktive oder psychische Folgen länger und weniger vorhersehbar verlaufen können.\n\nEin halbes Jahrzehnt ohne erneute Exposition\nDie Übersichtsarbeit setzt keine biologische Ziellinie bei fünf Jahren. Fünf Jahre ohne Steroide sind wegen der anhaltenden Veränderung selbst feiernswert; fortbestehende Beschwerden sollten weiterhin medizinisch beurteilt werden.';
 }

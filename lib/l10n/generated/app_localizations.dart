@@ -7481,6 +7481,60 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Five Years After SSRIs: Major Milestone\n\nSource: Royal College of Psychiatrists — Stopping antidepressants\n\nThe guidance focuses on safe, individualised tapering and responding to symptoms rather than assigning one fixed recovery schedule to everyone.\n\nThere is no evidence-based five-year SSRI recovery threshold in that guidance. Day 1825 is still a major personal anniversary: half a decade of sustained progress.'**
   String get ssriReferenceDay1825;
+
+  /// No description provided for @steroidsMilestone1095Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Three Years — Strong Ground'**
+  String get steroidsMilestone1095Title;
+
+  /// No description provided for @steroidsMilestone1095Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Three years steroid-free is a serious stretch of consistency. Recovery after AAS varies from person to person, so this anniversary celebrates the time you\'ve built, not a promised biological finish line.'**
+  String get steroidsMilestone1095Description;
+
+  /// No description provided for @steroidsReferenceDay1095.
+  ///
+  /// In en, this message translates to:
+  /// **'Three Years Off Anabolic Steroids\n\nSource: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nThree Years of Distance\nRecovery after AAS is highly variable. The review reports testosterone and gonadotropin recovery over months, while testicular size and sperm production may recover over months to years. Psychological recovery is less predictable.\n\nWhat This Anniversary Means\nThe review does not define a three-year biological finish line. This milestone marks three years without re-exposure. Persistent low-testosterone, fertility, mood, or sexual symptoms are reasons to seek medical assessment.'**
+  String get steroidsReferenceDay1095;
+
+  /// No description provided for @steroidsMilestone1460Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Four Years — Built to Last'**
+  String get steroidsMilestone1460Title;
+
+  /// No description provided for @steroidsMilestone1460Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Four years without another cycle is durable progress. The evidence does not set a four-year recovery threshold; this milestone celebrates sustained distance from AAS and the work behind it.'**
+  String get steroidsMilestone1460Description;
+
+  /// No description provided for @steroidsReferenceDay1460.
+  ///
+  /// In en, this message translates to:
+  /// **'Four Years Off Anabolic Steroids\n\nSource: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nFour Years of Consistency\nRecovery after AAS does not follow one clock. The review describes physical, reproductive, psychological, and biochemical recovery on different timelines, with some changes taking months to years.\n\nNo Invented Deadline\nThere is no evidence-based four-year recovery threshold. Four years without another cycle is still a substantial achievement. Ongoing symptoms deserve clinical assessment on their own merits.'**
+  String get steroidsReferenceDay1460;
+
+  /// No description provided for @steroidsMilestone1825Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Five Years — Long-Term Win'**
+  String get steroidsMilestone1825Title;
+
+  /// No description provided for @steroidsMilestone1825Description.
+  ///
+  /// In en, this message translates to:
+  /// **'Five years steroid-free is a major long-term win. Recovery can be uneven and some problems may persist, but half a decade without re-exposure is worth marking in its own right.'**
+  String get steroidsMilestone1825Description;
+
+  /// No description provided for @steroidsReferenceDay1825.
+  ///
+  /// In en, this message translates to:
+  /// **'Five Years Off Anabolic Steroids\n\nSource: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nFive Years Is a Major Milestone\nThe evidence shows that recovery after AAS varies widely. Many hormonal changes improve much earlier, while reproductive or psychological effects can follow longer and less predictable courses.\n\nHalf a Decade Without Re-Exposure\nThe review does not set a five-year biological finish line. Five years steroid-free is worth celebrating for the sustained change itself, while any persistent symptoms should still be assessed medically.'**
+  String get steroidsReferenceDay1825;
 }
 
 class _AppLocalizationsDelegate

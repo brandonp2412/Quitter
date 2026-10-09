@@ -4530,4 +4530,37 @@ class AppLocalizationsFr extends AppLocalizations {
   @override
   String get ssriReferenceDay1825 =>
       'Cinq ans après les ISRS : Étape majeure\n\nSource : Royal College of Psychiatrists — Stopping antidepressants\n\nLe guide met l’accent sur une diminution sûre et individualisée et sur la réponse aux symptômes, plutôt que sur un calendrier de récupération identique pour tous.\n\nIl ne fixe pas de seuil de récupération à cinq ans pour les ISRS. Le jour 1825 reste un anniversaire important.';
+
+  @override
+  String get steroidsMilestone1095Title => 'Trois ans — bases solides';
+
+  @override
+  String get steroidsMilestone1095Description =>
+      'Trois ans sans stéroïdes représentent une constance remarquable. La récupération après les AAS varie selon les personnes ; cet anniversaire célèbre la durée tenue, pas une prétendue ligne d’arrivée biologique.';
+
+  @override
+  String get steroidsReferenceDay1095 =>
+      'Trois ans sans stéroïdes anabolisants\n\nSource : Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nTrois ans de recul\nLa récupération après les AAS est très variable. La revue indique que la testostérone et les gonadotrophines se rétablissent généralement sur plusieurs mois, tandis que le volume testiculaire et la production de spermatozoïdes peuvent demander des mois à des années. La récupération psychologique est moins prévisible.\n\nCe que signifie cet anniversaire\nLa revue ne définit aucune ligne d’arrivée biologique à trois ans. Ce jalon marque trois ans sans nouvelle exposition. Des symptômes hormonaux, de fertilité, d’humeur ou sexuels persistants méritent une évaluation médicale.';
+
+  @override
+  String get steroidsMilestone1460Title => 'Quatre ans — progrès durable';
+
+  @override
+  String get steroidsMilestone1460Description =>
+      'Quatre ans sans nouveau cycle constituent un progrès durable. Les données ne fixent aucun seuil de récupération à quatre ans ; ce jalon célèbre la distance maintenue avec les AAS et les efforts qui la soutiennent.';
+
+  @override
+  String get steroidsReferenceDay1460 =>
+      'Quatre ans sans stéroïdes anabolisants\n\nSource : Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nQuatre ans de constance\nLa récupération après les AAS ne suit pas une seule horloge. La revue décrit des récupérations physique, reproductive, psychologique et biochimique selon des rythmes différents, certains changements pouvant prendre des mois à des années.\n\nPas de délai inventé\nAucun seuil de récupération à quatre ans n’est établi par les données. Quatre ans sans nouveau cycle restent une réussite importante. Des symptômes persistants méritent une évaluation clinique pour ce qu’ils sont.';
+
+  @override
+  String get steroidsMilestone1825Title => 'Cinq ans — victoire durable';
+
+  @override
+  String get steroidsMilestone1825Description =>
+      'Cinq ans sans stéroïdes constituent une grande réussite à long terme. La récupération peut être irrégulière et certains problèmes persister, mais cinq ans sans nouvelle exposition méritent d’être célébrés.';
+
+  @override
+  String get steroidsReferenceDay1825 =>
+      'Cinq ans sans stéroïdes anabolisants\n\nSource : Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nCinq ans, un jalon majeur\nLes données montrent que la récupération après les AAS varie fortement. De nombreux changements hormonaux s’améliorent bien plus tôt, tandis que les effets reproductifs ou psychologiques peuvent suivre des parcours plus longs et moins prévisibles.\n\nUn demi-décennie sans nouvelle exposition\nLa revue ne fixe aucune ligne d’arrivée biologique à cinq ans. Cinq ans sans stéroïdes méritent d’être célébrés pour la continuité du changement, tout symptôme persistant devant encore être évalué médicalement.';
 }

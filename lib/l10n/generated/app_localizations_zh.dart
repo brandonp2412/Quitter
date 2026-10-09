@@ -4288,6 +4288,39 @@ class AppLocalizationsZh extends AppLocalizations {
   @override
   String get ssriReferenceDay1825 =>
       '停用 SSRI 五年：重要里程碑\n\n来源：Royal College of Psychiatrists — Stopping antidepressants\n\n指南关注安全、个体化的减量和对症状的处理，而不是给所有人规定同一个恢复时间表。\n\n指南没有设定有证据支持的 SSRI 五年恢复阈值。第 1825 天仍然是值得纪念的重要周年。';
+
+  @override
+  String get steroidsMilestone1095Title => '三年 — 稳固根基';
+
+  @override
+  String get steroidsMilestone1095Description =>
+      '三年未使用类固醇，是长期坚持的重要成果。AAS 停用后的恢复因人而异；这个纪念点庆祝持续积累的时间，而不是虚构的生物学终点。';
+
+  @override
+  String get steroidsReferenceDay1095 =>
+      '停用合成代谢类固醇三年\n\n来源：Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\n三年的距离\nAAS 停用后的恢复差异很大。综述指出，睾酮和促性腺激素通常在数月内恢复，而睾丸大小和精子生成可能需要数月到数年；心理恢复更难预测。\n\n这个纪念点的意义\n综述没有把三年定义为生物学恢复终点。这个里程碑代表三年没有再次暴露。持续存在的激素、生育、情绪或性功能症状应接受医学评估。';
+
+  @override
+  String get steroidsMilestone1460Title => '四年 — 持久进步';
+
+  @override
+  String get steroidsMilestone1460Description =>
+      '四年没有开始新的周期，是持久的进步。证据没有设定四年恢复阈值；这个里程碑庆祝与 AAS 持续保持距离以及背后的努力。';
+
+  @override
+  String get steroidsReferenceDay1460 =>
+      '停用合成代谢类固醇四年\n\n来源：Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\n四年的坚持\nAAS 停用后的恢复并不遵循同一个时间表。综述描述了身体、生殖、心理和生化方面不同速度的恢复，其中一些变化可能持续数月到数年。\n\n没有虚构的期限\n没有证据支持四年这一恢复阈值。四年没有开始新的周期仍然是重要成就。持续存在的症状应根据其本身接受临床评估。';
+
+  @override
+  String get steroidsMilestone1825Title => '五年 — 长期成果';
+
+  @override
+  String get steroidsMilestone1825Description =>
+      '五年未使用类固醇，是重大的长期成果。恢复可能并不均匀，一些问题也可能持续，但五年没有再次暴露本身就值得纪念。';
+
+  @override
+  String get steroidsReferenceDay1825 =>
+      '停用合成代谢类固醇五年\n\n来源：Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\n五年是重要里程碑\n证据显示，AAS 停用后的恢复差异很大。许多激素变化会更早改善，而生殖或心理方面的影响可能持续更久，也更难预测。\n\n五年没有再次暴露\n综述没有把五年设定为生物学恢复终点。五年未使用类固醇，持续改变本身就值得庆祝；任何持续存在的症状仍应接受医学评估。';
 }
 
 /// The translations for Chinese, using the Han script (`zh_Hant`).
@@ -8574,4 +8607,37 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   @override
   String get ssriReferenceDay1825 =>
       '停用 SSRI 五年：重要里程碑\n\n來源：Royal College of Psychiatrists — Stopping antidepressants\n\n指引著重安全、個體化的減量和對症狀的處理，而不是為所有人規定同一個恢復時間表。\n\n指引沒有設定有證據支持的 SSRI 五年恢復門檻。第 1825 天仍然是值得紀念的重要週年。';
+
+  @override
+  String get steroidsMilestone1095Title => '三年 — 穩固根基';
+
+  @override
+  String get steroidsMilestone1095Description =>
+      '三年未使用類固醇，是長期堅持的重要成果。AAS 停用後的恢復因人而異；這個紀念點慶祝持續累積的時間，而不是虛構的生物學終點。';
+
+  @override
+  String get steroidsReferenceDay1095 =>
+      '停用合成代謝類固醇三年\n\n来源：Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\n三年的距離\nAAS 停用後的恢復差異很大。綜述指出，睪酮和促性腺激素通常在數月內恢復，而睪丸大小和精子生成可能需要數月到數年；心理恢復更難預測。\n\n這個紀念點的意義\n綜述沒有把三年定義為生物學恢復終點。這個里程碑代表三年沒有再次暴露。持續存在的激素、生育、情緒或性功能症狀應接受醫學評估。';
+
+  @override
+  String get steroidsMilestone1460Title => '四年 — 持久進步';
+
+  @override
+  String get steroidsMilestone1460Description =>
+      '四年沒有開始新的週期，是持久的進步。證據沒有設定四年恢復門檻；這個里程碑慶祝與 AAS 持續保持距離以及背後的努力。';
+
+  @override
+  String get steroidsReferenceDay1460 =>
+      '停用合成代謝類固醇四年\n\n来源：Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\n四年的堅持\nAAS 停用後的恢復並不遵循同一個時間表。綜述描述了身體、生殖、心理和生化方面不同速度的恢復，其中一些變化可能持續數月到數年。\n\n沒有虛構的期限\n沒有證據支持四年這一恢復門檻。四年沒有開始新的週期仍然是重要成就。持續存在的症狀應依其本身接受臨床評估。';
+
+  @override
+  String get steroidsMilestone1825Title => '五年 — 長期成果';
+
+  @override
+  String get steroidsMilestone1825Description =>
+      '五年未使用類固醇，是重大的長期成果。恢復可能並不均勻，一些問題也可能持續，但五年沒有再次暴露本身就值得紀念。';
+
+  @override
+  String get steroidsReferenceDay1825 =>
+      '停用合成代謝類固醇五年\n\n来源：Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\n五年是重要里程碑\n證據顯示，AAS 停用後的恢復差異很大。許多激素變化會更早改善，而生殖或心理方面的影響可能持續更久，也更難預測。\n\n五年沒有再次暴露\n綜述沒有把五年設定為生物學恢復終點。五年未使用類固醇，持續改變本身就值得慶祝；任何持續存在的症狀仍應接受醫學評估。';
 }

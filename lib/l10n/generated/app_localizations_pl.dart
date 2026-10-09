@@ -4497,4 +4497,37 @@ class AppLocalizationsPl extends AppLocalizations {
   @override
   String get ssriReferenceDay1825 =>
       'Pięć lat po SSRI: Wielki kamień milowy\n\nŹródło: Royal College of Psychiatrists — Stopping antidepressants\n\nWytyczne skupiają się na bezpiecznym, indywidualnym odstawianiu i reagowaniu na objawy, a nie na jednym harmonogramie zdrowienia dla wszystkich.\n\nNie wyznaczają pięcioletniego progu zdrowienia po SSRI. Dzień 1825 nadal jest znaczącą rocznicą.';
+
+  @override
+  String get steroidsMilestone1095Title => 'Trzy lata — mocny fundament';
+
+  @override
+  String get steroidsMilestone1095Description =>
+      'Trzy lata bez sterydów to dowód dużej konsekwencji. Powrót do zdrowia po AAS różni się między osobami; ta rocznica świętuje utrzymany czas bez ponownej ekspozycji, a nie wymyśloną biologiczną metę.';
+
+  @override
+  String get steroidsReferenceDay1095 =>
+      'Trzy lata bez sterydów anabolicznych\n\nŹródło: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nTrzy lata dystansu\nPowrót do zdrowia po AAS jest bardzo zróżnicowany. Przegląd wskazuje, że testosteron i gonadotropiny wracają do normy w ciągu miesięcy, natomiast wielkość jąder i produkcja plemników mogą poprawiać się przez miesiące lub lata. Powrót do równowagi psychicznej jest mniej przewidywalny.\n\nZnaczenie tej rocznicy\nPrzegląd nie wyznacza biologicznej mety po trzech latach. Ten kamień milowy oznacza trzy lata bez ponownej ekspozycji. Utrzymujące się objawy hormonalne, problemy z płodnością, nastrojem lub funkcjami seksualnymi wymagają oceny medycznej.';
+
+  @override
+  String get steroidsMilestone1460Title => 'Cztery lata — trwały postęp';
+
+  @override
+  String get steroidsMilestone1460Description =>
+      'Cztery lata bez kolejnego cyklu to trwały postęp. Dowody nie wyznaczają czteroletniego progu powrotu do zdrowia; ten kamień milowy świętuje utrzymany dystans od AAS i pracę, która za nim stoi.';
+
+  @override
+  String get steroidsReferenceDay1460 =>
+      'Cztery lata bez sterydów anabolicznych\n\nŹródło: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nCztery lata konsekwencji\nPowrót do zdrowia po AAS nie przebiega według jednego zegara. Przegląd opisuje fizyczną, rozrodczą, psychiczną i biochemiczną poprawę w różnych ramach czasowych, a niektóre zmiany mogą trwać miesiące lub lata.\n\nBez wymyślonego terminu\nNie ma opartego na dowodach czteroletniego progu powrotu do zdrowia. Cztery lata bez kolejnego cyklu pozostają znaczącym osiągnięciem. Utrzymujące się objawy zasługują na osobną ocenę kliniczną.';
+
+  @override
+  String get steroidsMilestone1825Title => 'Pięć lat — trwały sukces';
+
+  @override
+  String get steroidsMilestone1825Description =>
+      'Pięć lat bez sterydów to duży długoterminowy sukces. Powrót do zdrowia bywa nierówny i niektóre problemy mogą pozostać, ale pół dekady bez ponownej ekspozycji zasługuje na świętowanie.';
+
+  @override
+  String get steroidsReferenceDay1825 =>
+      'Pięć lat bez sterydów anabolicznych\n\nŹródło: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nPięć lat to ważny kamień milowy\nDowody pokazują, że powrót do zdrowia po AAS jest bardzo zróżnicowany. Wiele zmian hormonalnych poprawia się znacznie wcześniej, natomiast skutki rozrodcze lub psychiczne mogą mieć dłuższy i mniej przewidywalny przebieg.\n\nPół dekady bez ponownej ekspozycji\nPrzegląd nie wyznacza biologicznej mety po pięciu latach. Pięć lat bez sterydów warto świętować za samą trwałość zmiany, a utrzymujące się objawy nadal powinny być oceniane medycznie.';
 }
