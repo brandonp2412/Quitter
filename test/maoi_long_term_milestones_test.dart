@@ -82,8 +82,8 @@ void main() {
     expect(descriptions, hasLength(4));
   });
 
-  test('all supported ARBs localize MAOI long-term milestones', () {
-    const days = [730, 1095, 1460, 1825];
+  test('all supported ARBs localize every MAOI milestone', () {
+    const days = [3, 7, 14, 30, 90, 180, 365, 730, 1095, 1460, 1825];
     final arbFiles =
         Directory('lib/l10n')
             .listSync()
@@ -111,7 +111,7 @@ void main() {
             isA<String>().having((value) => value.trim(), key, isNotEmpty),
             reason: '$locale must localize $key',
           );
-          if (suffix == 'Title') {
+          if (suffix == 'Title' && (locale != 'en' || day >= 730)) {
             expect(
               (arb[key] as String).runes.length,
               lessThanOrEqualTo(36),
@@ -144,7 +144,56 @@ void main() {
             reason: '$locale must not fall back to English for $referenceKey',
           );
         }
+
+        final reference = arb[referenceKey] as String;
+        final englishReference = english[referenceKey] as String;
+        expect(
+          reference.split(String.fromCharCodes([10, 10])).length - 1,
+          englishReference.split(String.fromCharCodes([10, 10])).length - 1,
+          reason: '$locale must preserve paragraph structure for $referenceKey',
+        );
+        expect(
+          '•'.allMatches(reference).length,
+          '•'.allMatches(englishReference).length,
+          reason: '$locale must preserve bullet structure for $referenceKey',
+        );
       }
     }
+  });
+
+  test('MAOI locales reject known translation artifacts', () {
+    final indonesian =
+        jsonDecode(File('lib/l10n/app_id.arb').readAsStringSync())
+            as Map<String, dynamic>;
+    final polish =
+        jsonDecode(File('lib/l10n/app_pl.arb').readAsStringSync())
+            as Map<String, dynamic>;
+    final urdu =
+        jsonDecode(File('lib/l10n/app_ur.arb').readAsStringSync())
+            as Map<String, dynamic>;
+    final korean =
+        jsonDecode(File('lib/l10n/app_ko.arb').readAsStringSync())
+            as Map<String, dynamic>;
+    final thai =
+        jsonDecode(File('lib/l10n/app_th.arb').readAsStringSync())
+            as Map<String, dynamic>;
+
+    String maoiText(Map<String, dynamic> arb) => arb.entries
+        .where((entry) => entry.key.startsWith('maoi'))
+        .map((entry) => entry.value)
+        .whereType<String>()
+        .join(String.fromCharCode(10));
+
+    expect(
+      maoiText(indonesian),
+      isNot(contains('Informasi referensi pemulihan dalam bahasa Indonesia')),
+    );
+    expect(maoiText(polish), isNot(contains('Brain-Chemical')));
+    expect(
+      maoiText(urdu),
+      isNot(contains('research on MAOI withdrawal reactions')),
+    );
+    expect(maoiText(korean), isNot(contains('효소 회수')));
+    expect(maoiText(thai), isNot(contains('other ใดๆ')));
   });
 }

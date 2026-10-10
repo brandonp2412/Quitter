@@ -95,8 +95,8 @@ void main() {
     },
   );
 
-  test('all supported ARBs localize steroid long-term milestones', () {
-    const days = [730, 1095, 1460, 1825];
+  test('all supported ARBs localize the complete steroid milestone timeline', () {
+    const days = [1, 14, 30, 90, 180, 365, 730, 1095, 1460, 1825];
     final arbFiles =
         Directory('lib/l10n')
             .listSync()
@@ -110,11 +110,58 @@ void main() {
         jsonDecode(File('lib/l10n/app_en.arb').readAsStringSync())
             as Map<String, dynamic>;
 
+    List<int> referenceShape(String value) {
+      return value
+          .split('\n\n')
+          .map(
+            (section) => section
+                .split('\n')
+                .where((line) => line.startsWith('•'))
+                .length,
+          )
+          .toList();
+    }
+
+    const forbiddenArtifacts = <String, List<String>>{
+      'de': [
+        'Zwei Wochen ab anabole Steroide',
+        'Sechs Monate off anabole Steroide',
+        'Wo die Beweispunkte',
+      ],
+      'id': [
+        'Informasi referensi pemulihan dalam bahasa Indonesia.',
+        'sumber kesehatan publik dan penelitian terkait.',
+        'Satu Tahun Lalu',
+      ],
+      'ko': ['1개월 할인', '2년 할인', '대부분의 경우 호르몬과 기분이 정상화되었습니다', '심장 건강'],
+      'pl': [
+        'Instantsterone',
+        'Bethumyalgia',
+        'Hormony Wspinaczka',
+        'Hormon Deficit zaczyna',
+      ],
+      'th': [
+        'Low Ebb',
+        'ลดหนึ่งเดือน',
+        'อาการแสดงความเห็นอกเห็นใจ',
+        'ความใคร่ต่ำขอแนะนำ',
+      ],
+      'ur': [
+        'کیا یہ خالق کی کاریگری ہے',
+        'زمین‌وآسمان',
+        'نفرت‌انگیز',
+        'انتقالِ‌خون',
+        'فارغ التحصیل شخص',
+      ],
+      'zh_Hant': ['来源：Physical, psychological'],
+    };
+
     for (final file in arbFiles) {
       final locale = file.uri.pathSegments.last
           .replaceFirst('app_', '')
           .replaceFirst('.arb', '');
       final arb = jsonDecode(file.readAsStringSync()) as Map<String, dynamic>;
+      final scopedValues = <String>[];
 
       for (final day in days) {
         for (final suffix in ['Title', 'Description']) {
@@ -124,19 +171,20 @@ void main() {
             isA<String>().having((value) => value.trim(), key, isNotEmpty),
             reason: '$locale must localize $key',
           );
-          if (suffix == 'Title') {
-            expect(
-              (arb[key] as String).runes.length,
-              lessThanOrEqualTo(36),
-              reason: '$locale must keep $key compact for phone layouts',
-            );
-          }
+          scopedValues.add(arb[key] as String);
           if (locale != 'en') {
             expect(
               arb[key],
               isNot(equals(english[key])),
               reason: '$locale must not fall back to English for $key',
             );
+            if (suffix == 'Title') {
+              expect(
+                (arb[key] as String).runes.length,
+                lessThanOrEqualTo(36),
+                reason: '$locale must keep $key compact for phone layouts',
+              );
+            }
           }
         }
 
@@ -150,13 +198,30 @@ void main() {
           ),
           reason: '$locale must localize $referenceKey',
         );
+        scopedValues.add(arb[referenceKey] as String);
         if (locale != 'en') {
           expect(
             arb[referenceKey],
             isNot(equals(english[referenceKey])),
             reason: '$locale must not fall back to English for $referenceKey',
           );
+          expect(
+            referenceShape(arb[referenceKey] as String),
+            equals(referenceShape(english[referenceKey] as String)),
+            reason:
+                '$locale must preserve paragraph and bullet structure for $referenceKey',
+          );
         }
+      }
+
+      final joinedScope = scopedValues.join('\n');
+      for (final artifact in forbiddenArtifacts[locale] ?? const <String>[]) {
+        expect(
+          joinedScope,
+          isNot(contains(artifact)),
+          reason:
+              '$locale must not reintroduce steroid translation artifact: $artifact',
+        );
       }
     }
   });

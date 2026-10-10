@@ -151,6 +151,23 @@ void main() {
           reason: '$locale must not fall back to English for $referenceKey',
         );
       }
+
+      if (locale == 'ja') {
+        final longTermKeys = <String>[
+          for (final day in days) ...[
+            'vapingMilestone${day}Title',
+            'vapingMilestone${day}Description',
+          ],
+          referenceKey,
+        ];
+        for (final key in longTermKeys) {
+          expect(
+            RegExp(r'[ऀ-ॿ]').hasMatch(arb[key] as String),
+            isFalse,
+            reason: '$key must not contain Devanagari translation artifacts',
+          );
+        }
+      }
     }
   });
 }

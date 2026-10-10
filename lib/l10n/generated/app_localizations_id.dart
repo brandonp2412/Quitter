@@ -33,53 +33,53 @@ class AppLocalizationsId extends AppLocalizations {
   String get addictionKratom => 'Kratom';
 
   @override
-  String get kratomMilestone1Title => 'Penarikan Dimulai';
+  String get kratomMilestone1Title => 'Gejala Putus Zat Dimulai';
 
   @override
   String get kratomMilestone1Description =>
-      'Kratom bekerja pada reseptor opioid, jadi dalam 6-12 jam setelah dosis terakhir Anda mungkin merasa gelisah, cemas, berkeringat, pilek, dan nyeri otot. Ini adalah sistem saraf Anda yang mulai menyesuaikan diri.';
+      'Kratom bekerja pada reseptor opioid, sehingga dalam 6–12 jam setelah dosis terakhir Anda dapat mengalami gelisah, cemas, berkeringat, pilek, dan nyeri otot. Ini adalah tanda sistem saraf mulai menyesuaikan diri.';
 
   @override
-  String get kratomMilestone3Title => 'Penarikan Puncak';
+  String get kratomMilestone3Title => 'Puncak Gejala Putus Zat';
 
   @override
   String get kratomMilestone3Description =>
-      'Gejala akut biasanya mencapai puncaknya sekitar hari ke 2–3: nyeri yang lebih parah, insomnia, sakit perut, dan suasana hati yang buruk. Ini adalah hal tersulit dan bersifat sementara.';
+      'Gejala akut biasanya memuncak sekitar hari ke-2–3: nyeri yang lebih kuat, insomnia, gangguan perut, dan suasana hati rendah. Ini biasanya fase tersulit, tetapi bersifat sementara.';
 
   @override
   String get kratomMilestone7Title => 'Gejala Akut Mereda';
 
   @override
   String get kratomMilestone7Description =>
-      'Dalam satu minggu, gejala fisik terburuk – nyeri, sakit perut, berkeringat – sebagian besar telah memudar. Tidur dan tenaga masih dalam tahap pemulihan.';
+      'Setelah satu minggu, gejala fisik terberat — nyeri, gangguan perut, dan berkeringat — sebagian besar sudah mereda. Tidur dan energi masih dalam proses pulih.';
 
   @override
-  String get kratomMilestone14Title => 'Pemulihan Suasana Hati dan Tidur';
+  String get kratomMilestone14Title => 'Tidur dan Suasana Hati Membaik';
 
   @override
   String get kratomMilestone14Description =>
-      'Dua minggu kemudian, tidur menjadi lebih nyenyak dan suasana hati menjadi lebih stabil karena kimia penghargaan di otak Anda mulai menyeimbangkan kembali.';
+      'Setelah dua minggu, tidur biasanya lebih teratur dan suasana hati lebih stabil saat sistem imbalan alami otak mulai menyeimbangkan diri kembali.';
 
   @override
-  String get kratomMilestone30Title => 'Satu Bulan Jelas';
+  String get kratomMilestone30Title => 'Satu Bulan Tanpa Kratom';
 
   @override
   String get kratomMilestone30Description =>
-      'Dalam sebulan, tubuh sudah stabil: tidur, nafsu makan, dan energi jauh lebih baik, dan frekuensi ngemil berkurang.';
+      'Setelah sebulan, tubuh lebih stabil: tidur, nafsu makan, dan energi terasa jauh lebih baik, sedangkan keinginan kuat untuk menggunakan kratom muncul lebih jarang.';
 
   @override
   String get kratomMilestone90Title => 'Fondasi Stabil';
 
   @override
   String get kratomMilestone90Description =>
-      'Berpantang selama tiga bulan akan memberikan waktu yang lebih lama bagi sirkuit penghargaan dan stres otak untuk mengatur ulang. Suasana hati, fokus, dan motivasi terasa lebih stabil.';
+      'Tiga bulan tanpa kratom memberi sirkuit imbalan dan stres otak lebih banyak waktu untuk mengatur diri kembali. Suasana hati, fokus, dan motivasi biasanya terasa lebih stabil.';
 
   @override
-  String get kratomMilestone365Title => 'Gratis Satu Tahun';
+  String get kratomMilestone365Title => 'Satu Tahun Tanpa Kratom';
 
   @override
   String get kratomMilestone365Description =>
-      'Setahun penuh bebas kratom. Sistem opioid telah lama diatur ulang, keinginan mengidam jarang terjadi, dan kebiasaan tersebut tidak lagi mengatur hari Anda.';
+      'Setahun penuh tanpa kratom. Sistem opioid telah lama mendapat waktu untuk mengatur diri kembali, keinginan menggunakan menjadi jarang, dan kebiasaan itu tidak lagi mengatur hari Anda.';
 
   @override
   String get kratomMilestone730Title => 'Dua Tahun: Dasar Kuat';
@@ -222,18 +222,18 @@ class AppLocalizationsId extends AppLocalizations {
       'Gejala memuncak sekitar 48–72 jam dan dapat meningkat menjadi agitasi parah, halusinasi, dan delirium. Fase ini memerlukan pemantauan medis.';
 
   @override
-  String get ghbMilestone7Title => 'Lulus Fase Akut';
+  String get ghbMilestone7Title => 'Fase Akut Mulai Berlalu';
 
   @override
   String get ghbMilestone7Description =>
       'Sekitar satu minggu sindrom akut biasanya hilang, meskipun delirium dapat berlangsung lebih lama pada kasus yang parah. Tubuh sudah melewati titik paling berbahaya.';
 
   @override
-  String get ghbMilestone14Title => 'Melalui yang Terburuk';
+  String get ghbMilestone14Title => 'Melewati Masa Terberat';
 
   @override
   String get ghbMilestone14Description =>
-      'Dua minggu setelahnya, penarikan diri yang parah biasanya sudah berakhir dengan sendirinya. Tidur dan stabilitas otonom kembali normal, meskipun kecemasan masih ada.';
+      'Setelah dua minggu, bahkan gejala putus zat yang berat biasanya sudah melewati fase utamanya. Tidur dan kestabilan sistem otonom mulai kembali, meski kecemasan masih dapat bertahan.';
 
   @override
   String get ghbMilestone30Title => 'Stabil Satu Bulan';
@@ -250,7 +250,7 @@ class AppLocalizationsId extends AppLocalizations {
       'Tiga bulan kemudian, gejala kecemasan, tidur, dan suasana hati yang berkepanjangan mereda seiring dengan menetapnya sistem GABA yang menenangkan di otak.';
 
   @override
-  String get ghbMilestone180Title => 'Gratis Setengah Tahun';
+  String get ghbMilestone180Title => 'Enam Bulan Bebas GHB';
 
   @override
   String get ghbMilestone180Description =>
@@ -281,54 +281,53 @@ class AppLocalizationsId extends AppLocalizations {
   String get addictionKetamine => 'Ketamin';
 
   @override
-  String get ketamineMilestone1Title => 'Kliring Sistem';
+  String get ketamineMilestone1Title => 'Ketamin Mulai Keluar';
 
   @override
   String get ketamineMilestone1Description =>
-      'Ketamine jarang menyebabkan penarikan fisik yang parah. Pada hari pertama Anda mungkin merasakan perubahan suasana hati, mengidam, berkeringat, atau jantung berdebar saat obatnya hilang.';
+      'Ketamin jarang menyebabkan gejala putus zat fisik yang berat. Pada hari pertama, perubahan suasana hati, keinginan memakai, berkeringat, atau jantung berdebar dapat muncul saat obat keluar dari tubuh.';
 
   @override
   String get ketamineMilestone7Title => 'Suasana Hati dan Keinginan';
 
   @override
   String get ketamineMilestone7Description =>
-      'Minggu pertama lebih banyak berisi tentang mengidam, suasana hati yang buruk atau berubah-ubah, dan kabut otak daripada penarikan diri secara fisik.';
+      'Minggu pertama lebih banyak ditandai keinginan memakai, suasana hati rendah atau berubah-ubah, dan kabut otak daripada gejala putus zat fisik.';
 
   @override
-  String get ketamineMilestone14Title => 'Pengangkatan Kabut Otak';
+  String get ketamineMilestone14Title => 'Kabut Otak Mulai Hilang';
 
   @override
   String get ketamineMilestone14Description =>
       'Dua minggu kemudian, pemikiran dan ingatan mulai jernih dan suasana hati menjadi stabil seiring dengan hilangnya efek disosiatif sepenuhnya.';
 
   @override
-  String get ketamineMilestone30Title =>
-      'Satu Bulan - Penyembuhan Kandung Kemih';
+  String get ketamineMilestone30Title => 'Satu Bulan — Kandung Kemih Pulih';
 
   @override
   String get ketamineMilestone30Description =>
       'Dalam sebulan, kerusakan kandung kemih dini sering kali mulai membaik setelah Anda berhenti. Suasana hati dan pemikiran lebih jernih.';
 
   @override
-  String get ketamineMilestone90Title => 'Tiga Bulan Lalu';
+  String get ketamineMilestone90Title => 'Tiga Bulan Tanpa Ketamin';
 
   @override
   String get ketamineMilestone90Description =>
       'Tiga bulan tanpa ketamin memberi kandung kemih lebih banyak waktu untuk pulih, sementara pemikiran dan suasana hati terus membaik. Mengidam lebih jarang terjadi.';
 
   @override
-  String get ketamineMilestone180Title => 'Gratis Setengah Tahun';
+  String get ketamineMilestone180Title => 'Enam Bulan Bebas Ketamin';
 
   @override
   String get ketamineMilestone180Description =>
-      'Enam bulan gratis. Gejala kandung kemih sudah lama membaik, dan pengaruh psikologis ketamin telah melemah secara signifikan.';
+      'Enam bulan tanpa ketamin. Gejala kandung kemih telah memiliki waktu lebih lama untuk membaik, dan dorongan psikologis untuk memakai ketamin jauh berkurang.';
 
   @override
-  String get ketamineMilestone365Title => 'Gratis Satu Tahun';
+  String get ketamineMilestone365Title => 'Satu Tahun Bebas Ketamin';
 
   @override
   String get ketamineMilestone365Description =>
-      'Setahun bebas ketamin. Cara berpikir, suasana hati, dan - ketika kerusakan kandung kemih diketahui sejak dini - fungsi kandung kemih membutuhkan waktu satu tahun penuh untuk pulih.';
+      'Satu tahun tanpa ketamin. Pikiran, suasana hati, dan — bila kerusakan kandung kemih ditemukan sejak dini — fungsi kandung kemih telah memiliki satu tahun penuh untuk pulih.';
 
   @override
   String get ketamineMilestone730Title => 'Dua Tahun: Dasar Lebih Kokoh';
@@ -384,54 +383,54 @@ class AppLocalizationsId extends AppLocalizations {
   String get addictionInhalants => 'Inhalansia';
 
   @override
-  String get inhalantsMilestone1Title => 'Kliring Sistem';
+  String get inhalantsMilestone1Title => 'Tubuh Mulai Membersihkan Zat';
 
   @override
   String get inhalantsMilestone1Description =>
-      'Bahan kimia yang dihirup membersihkan darah dengan cepat tetapi tertinggal di jaringan lemak. Pada hari pertama Anda mungkin merasakan sakit kepala, mudah tersinggung, mual, cemas, atau susah tidur.';
+      'Zat kimia inhalansia cepat keluar dari aliran darah, tetapi dapat bertahan di jaringan lemak. Pada hari pertama, Anda mungkin mengalami sakit kepala, mudah tersinggung, mual, cemas, atau sulit tidur.';
 
   @override
-  String get inhalantsMilestone7Title => 'Gejala Akut Mereda';
+  String get inhalantsMilestone7Title => 'Gejala Akut Mulai Mereda';
 
   @override
   String get inhalantsMilestone7Description =>
-      'Penarikan akut mencapai puncaknya sekitar hari ke 2–5 dan sebagian besar hilang dalam satu hingga dua minggu. Dalam seminggu, kondisi terburuk biasanya sudah berlalu.';
+      'Gejala putus zat akut biasanya memuncak sekitar hari ke-2 hingga ke-5 dan sebagian besar mereda dalam satu sampai dua minggu. Setelah seminggu, fase terburuk biasanya mulai terlewati.';
 
   @override
-  String get inhalantsMilestone14Title => 'Fase Akut Berakhir';
+  String get inhalantsMilestone14Title => 'Fase Akut Terlewati';
 
   @override
   String get inhalantsMilestone14Description =>
-      'Dalam dua minggu, periode penarikan awal biasanya telah berakhir. Suasana hati lebih stabil, meski kabut otak dan rasa lelah bisa berkepanjangan.';
+      'Dalam dua minggu, fase awal putus zat biasanya sudah berakhir. Suasana hati lebih stabil, meski kabut otak dan kelelahan masih dapat bertahan.';
 
   @override
-  String get inhalantsMilestone30Title => 'Satu Bulan - Pemulihan Otak';
+  String get inhalantsMilestone30Title => 'Satu Bulan — Otak Terus Pulih';
 
   @override
   String get inhalantsMilestone30Description =>
-      'Dalam sebulan, efek awal terburuk sudah berlalu dan pemikiran serta ingatan mulai pulih. Kejelasan dan suasana hati meningkat.';
+      'Setelah satu bulan, efek awal yang paling berat sudah terlewati dan kemampuan berpikir serta ingatan mulai pulih. Kejernihan pikiran dan suasana hati membaik.';
 
   @override
-  String get inhalantsMilestone90Title => 'Tiga Bulan Lalu';
+  String get inhalantsMilestone90Title => 'Tiga Bulan — Pemulihan Berlanjut';
 
   @override
   String get inhalantsMilestone90Description =>
-      'Pantang selama tiga bulan mendukung pemulihan memori, perhatian, dan fungsi motorik secara berkelanjutan. Perbaikan dilakukan secara bertahap namun nyata.';
+      'Tiga bulan tanpa inhalansia mendukung pemulihan berkelanjutan pada ingatan, perhatian, dan fungsi motorik. Perbaikannya bertahap, tetapi nyata.';
 
   @override
-  String get inhalantsMilestone365Title => 'Satu Tahun — Pemulihan Substansial';
+  String get inhalantsMilestone365Title => 'Satu Tahun — Pemulihan Besar';
 
   @override
   String get inhalantsMilestone365Description =>
-      'Setahun pantang membawa pemulihan neurologis yang substansial bagi kebanyakan orang, dan kemajuan yang berkelanjutan diharapkan terjadi pada tahun kedua.';
+      'Satu tahun tanpa inhalansia membawa pemulihan neurologis yang besar bagi kebanyakan orang, dengan kemajuan yang diperkirakan terus berlanjut pada tahun kedua.';
 
   @override
   String get inhalantsMilestone730Title =>
-      'Dua Tahun — Penyembuhan Jangka Panjang';
+      'Dua Tahun — Pemulihan Jangka Panjang';
 
   @override
   String get inhalantsMilestone730Description =>
-      'Dua tahun berpantang adalah jendela di mana penelitian menemukan pemulihan fungsi otak secara substansial – di luar kerusakan akibat bensin bertimbal, yang dapat bertahan lama.';
+      'Setelah dua tahun abstinensi, penelitian menemukan pemulihan besar pada fungsi otak. Kerusakan akibat bensin bertimbal merupakan pengecualian dan dapat menetap.';
 
   @override
   String get synthetic_cannabinoidsPageTitle => 'Kanabinoid Sintetis';
@@ -459,7 +458,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get addictionSyntheticCannabinoids => 'Cannabinoid Sintetis';
 
   @override
-  String get synthetic_cannabinoidsMilestone1Title => 'Penarikan Dimulai';
+  String get synthetic_cannabinoidsMilestone1Title => 'Putus Zat Dimulai';
 
   @override
   String get synthetic_cannabinoidsMilestone1Description =>
@@ -487,21 +486,21 @@ class AppLocalizationsId extends AppLocalizations {
       'Dua minggu bersih. Kanabinoid sintetis memang berbeda: Anda sudah melewati empat belas hari tanpa terpapar lagi pada golongan zat yang terkait dengan kejang, psikosis, dan masalah jantung.';
 
   @override
-  String get synthetic_cannabinoidsMilestone30Title => 'Satu Bulan Jelas';
+  String get synthetic_cannabinoidsMilestone30Title => 'Sebulan Bebas';
 
   @override
   String get synthetic_cannabinoidsMilestone30Description =>
       'Satu bulan penuh bersih. Tiga puluh hari tanpa terpapar lagi pada potensi yang tidak terduga dan toksisitas akut kanabinoid sintetis. Tonggak yang besar.';
 
   @override
-  String get synthetic_cannabinoidsMilestone90Title => 'Tiga Bulan Lalu';
+  String get synthetic_cannabinoidsMilestone90Title => 'Tiga Bulan Bebas';
 
   @override
   String get synthetic_cannabinoidsMilestone90Description =>
       'Tiga bulan bebas. Anda sudah memberi jarak lebar dari golongan zat yang terkait dengan putus zat berat, kejang, masalah kardiovaskular, dan psikosis. Terus lanjutkan.';
 
   @override
-  String get synthetic_cannabinoidsMilestone180Title => 'Gratis Setengah Tahun';
+  String get synthetic_cannabinoidsMilestone180Title => 'Setengah Tahun Bebas';
 
   @override
   String get synthetic_cannabinoidsMilestone180Description =>
@@ -576,53 +575,53 @@ class AppLocalizationsId extends AppLocalizations {
   String get addictionMdma => 'MDMA';
 
   @override
-  String get mdmaMilestone1Title => 'Komedo';
+  String get mdmaMilestone1Title => 'Fase Comedown';
 
   @override
   String get mdmaMilestone1Description =>
-      'Setelah MDMA, serotonin yang terkuras menghasilkan “comedown”: suasana hati yang buruk, kelelahan, mudah tersinggung, dan kurang tidur selama satu atau dua hari. Hidrasi, makanan, dan istirahat membantu.';
+      'Setelah MDMA, penurunan serotonin memicu fase “comedown”: suasana hati menurun, lelah, mudah tersinggung, dan tidur terganggu selama satu atau dua hari. Cukup minum, makan, dan beristirahat dapat membantu.';
 
   @override
-  String get mdmaMilestone3Title => 'Menyeimbangkan Kembali Suasana Hati';
+  String get mdmaMilestone3Title => 'Suasana Hati Mulai Seimbang';
 
   @override
   String get mdmaMilestone3Description =>
-      'Dalam beberapa hari, penurunan paling tajam telah berlalu. Suasana hati dan energi mulai seimbang seiring dengan terisinya kembali serotonin.';
+      'Setelah beberapa hari, bagian paling berat dari comedown biasanya sudah lewat. Suasana hati dan energi mulai kembali seimbang seiring serotonin pulih.';
 
   @override
   String get mdmaMilestone7Title => 'Fase Akut Berakhir';
 
   @override
   String get mdmaMilestone7Description =>
-      'Setelah penggunaan yang lebih berat, gejala seperti penarikan diri (suasana hati buruk, fokus buruk, mengidam) dapat berlangsung sekitar seminggu sebelum membaik.';
+      'Setelah penggunaan yang lebih berat, gejala mirip putus zat seperti suasana hati rendah, sulit fokus, dan keinginan memakai lagi dapat berlangsung sekitar satu minggu sebelum membaik.';
 
   @override
-  String get mdmaMilestone14Title => 'Dua Minggu Lalu';
+  String get mdmaMilestone14Title => 'Dua Minggu Berlalu';
 
   @override
   String get mdmaMilestone14Description =>
-      'Pantang selama dua minggu biasanya membawa perbaikan nyata pada suasana hati, tidur, dan fokus seiring pulihnya sistem serotonin.';
+      'Dua minggu tanpa MDMA biasanya membawa perbaikan nyata pada suasana hati, tidur, dan fokus seiring sistem serotonin pulih.';
 
   @override
-  String get mdmaMilestone30Title => 'Satu Bulan Jelas';
+  String get mdmaMilestone30Title => 'Satu Bulan Tanpa MDMA';
 
   @override
   String get mdmaMilestone30Description =>
-      'Dalam sebulan, suasana hati dan pemikiran jauh lebih stabil. Sistem daur ulang serotonin otak terus pulih selama Anda menghindari MDMA.';
+      'Setelah satu bulan, suasana hati dan pikiran jauh lebih stabil. Sistem daur ulang serotonin di otak terus pulih selama Anda tetap tidak menggunakan MDMA.';
 
   @override
-  String get mdmaMilestone90Title => 'Tiga Bulan Lalu';
+  String get mdmaMilestone90Title => 'Tiga Bulan Berlalu';
 
   @override
   String get mdmaMilestone90Description =>
-      'Pantang selama tiga bulan mendukung pemulihan sistem serotonin yang berkelanjutan. Suasana hati dan tidur stabil; kecemasan mereda pada bulan-bulan berikutnya.';
+      'Tiga bulan tanpa MDMA mendukung pemulihan lanjutan sistem serotonin. Suasana hati dan tidur sudah stabil; kecemasan biasanya berkurang pada bulan-bulan berikutnya.';
 
   @override
-  String get mdmaMilestone365Title => 'Gratis Satu Tahun';
+  String get mdmaMilestone365Title => 'Satu Tahun Tanpa MDMA';
 
   @override
   String get mdmaMilestone365Description =>
-      'Setahun bebas MDMA. Fungsi serotonin dan suasana hati membutuhkan waktu yang lama untuk pulih, dan kecemasan terkait penggunaan serotonin biasanya sudah teratasi sekarang.';
+      'Satu tahun tanpa MDMA. Fungsi serotonin dan suasana hati telah mendapat waktu panjang untuk pulih, dan kecemasan terkait penggunaan biasanya sudah mereda.';
 
   @override
   String get steroidsPageTitle => 'Steroid Anabolik';
@@ -664,7 +663,7 @@ class AppLocalizationsId extends AppLocalizations {
       'Minggu-minggu pertama adalah masa penurunan hormon yang paling sulit - energi, suasana hati, dan libido yang rendah. Ini adalah fase di mana banyak orang kambuh untuk menghindarinya; dukungan membantu.';
 
   @override
-  String get steroidsMilestone30Title => 'Satu Bulan - Axis Memulai Ulang';
+  String get steroidsMilestone30Title => 'Satu Bulan — Sumbu Mulai Pulih';
 
   @override
   String get steroidsMilestone30Description =>
@@ -678,14 +677,14 @@ class AppLocalizationsId extends AppLocalizations {
       'Tiga bulan kemudian, testosteron dan hormon-hormon yang mendorongnya meningkat ke arah normal bagi kebanyakan orang, dan suasana hati serta libido sering kali membaik seiring dengan itu.';
 
   @override
-  String get steroidsMilestone180Title => 'Enam Bulan — Sering Sembuh';
+  String get steroidsMilestone180Title => 'Enam Bulan — Pemulihan Maju';
 
   @override
   String get steroidsMilestone180Description =>
       'Dalam enam bulan, banyak orang mengalami pemulihan hormon yang kuat, dengan testosteron dan hormon pengontrolnya kembali normal dan gejalanya mereda.';
 
   @override
-  String get steroidsMilestone365Title => 'Satu Tahun Lalu';
+  String get steroidsMilestone365Title => 'Satu Tahun';
 
   @override
   String get steroidsMilestone365Description =>
@@ -832,23 +831,21 @@ class AppLocalizationsId extends AppLocalizations {
       'Pada hari ke-7, seluruh jendela awal yang umum sudah tercakup: putus benzodiazepin kerja singkat biasanya mulai 1–2 hari setelah dosis terakhir, sedangkan yang kerja panjang 2–7 hari. Penurunan dosis bertahap penting karena membantu mencegah kejang.';
 
   @override
-  String get benzoMilestone14Title => 'Dua Minggu: Tidur Nyenyak Mulai Pulih';
+  String get benzoMilestone14Title => 'Dua Minggu: Tidur Nyenyak Pulih';
 
   @override
   String get benzoMilestone14Description =>
       'Sekitar dua minggu setelah penghentian benzodiazepin secara bertahap, sebuah studi tidur klinis menemukan peningkatan tidur gelombang lambat dan kualitas tidur yang dirasakan. Ini adalah tanda pemulihan awal yang nyata pada sistem tidur.';
 
   @override
-  String get benzoMilestone60Title =>
-      'Delapan minggu: fokus dan keseimbangan membaik';
+  String get benzoMilestone60Title => '8 Minggu: Fokus dan Keseimbangan';
 
   @override
   String get benzoMilestone60Description =>
       'Dalam studi 8 minggu pada pengguna lama obat tidur benzodiazepin yang lebih tua, peserta yang menyelesaikan penurunan dosis hingga berhenti menunjukkan peningkatan pada memori langsung, perhatian, skor bahasa, dan kestabilan tubuh. Ini pemulihan fungsi siang hari yang terukur.';
 
   @override
-  String get benzoMilestone90Title =>
-      'Tiga Bulan: Berpikir Lebih Cepat, Sedasi Berkurang';
+  String get benzoMilestone90Title => 'Tiga Bulan: Pikiran Lebih Cepat';
 
   @override
   String get benzoMilestone90Description =>
@@ -926,67 +923,67 @@ class AppLocalizationsId extends AppLocalizations {
   String get methSubtitleNotStarted => 'Kebebasan ada dalam genggaman Anda';
 
   @override
-  String get methMilestone1Title => '24 Jam Pertama - Keruntuhan Dimulai';
+  String get methMilestone1Title => '24 Jam Pertama — Fase Crash Dimulai';
 
   @override
   String get methMilestone1Description =>
-      'Fase awal kehancuran dimulai dengan kelelahan yang mendalam dan peningkatan nafsu makan saat tubuh Anda mulai pulih. Anda mungkin mengalami depresi dan kurang tidur saat sistem Anda mulai stabil akibat rangsangan yang intens.';
+      'Fase crash awal dimulai dengan kelelahan berat dan nafsu makan meningkat saat tubuh mulai pulih. Anda mungkin merasa depresi dan tidur jauh lebih banyak ketika tubuh mulai menstabilkan diri setelah stimulasi yang intens.';
 
   @override
-  String get methMilestone3Title => 'Hari 3 - Puncak Penarikan';
+  String get methMilestone3Title => 'Hari ke-3 — Puncak Putus Zat';
 
   @override
   String get methMilestone3Description =>
-      'Mengidam meningkat secara signifikan selama periode ini seiring dengan penyesuaian tubuh Anda. Anda mungkin mengalami peningkatan energi dibandingkan fase crash, yang dapat membuat keinginan ngemil terasa lebih kuat. Ini adalah waktu yang kritis untuk pencegahan dan dukungan kambuh.';
+      'Keinginan untuk memakai meningkat kuat selama fase ini saat tubuh menyesuaikan diri. Energi dapat mulai naik dibanding fase crash, sehingga dorongan untuk memakai terasa lebih kuat. Ini masa penting untuk pencegahan kekambuhan dan dukungan.';
 
   @override
-  String get methMilestone7Title => 'Satu Minggu - Gejala Fisik Meringankan';
+  String get methMilestone7Title => 'Satu Minggu — Gejala Fisik Mereda';
 
   @override
   String get methMilestone7Description =>
-      'Gejala putus obat akut mulai mereda, meskipun tantangan psikologis masih ada. Pola tidur Anda mulai normal dan ketidaknyamanan fisik berkurang. Hal ini menandai peralihan dari gejala putus obat akut ke pasca akut.';
+      'Gejala putus zat akut mulai mereda, meski tantangan psikologis masih ada. Pola tidur mulai kembali normal dan ketidaknyamanan fisik berkurang. Ini menandai peralihan dari fase putus zat akut ke fase pasca-akut.';
 
   @override
-  String get methMilestone30Title => 'Satu Bulan - Stabilitas yang Muncul';
+  String get methMilestone30Title => 'Satu Bulan — Mulai Stabil';
 
   @override
   String get methMilestone30Description =>
-      'Fase bulan madu dimulai saat tubuh Anda pulih dan rasa lapar mulai memudar. Tingkat energi meningkat dan suasana hati membaik seiring kimia otak Anda mulai menyeimbangkan kembali. Namun tetap waspada karena tantangan masih bisa muncul.';
+      'Tubuh terus pulih dan keinginan untuk memakai mulai berkurang. Energi meningkat dan suasana hati membaik seiring kimia otak mulai menyeimbangkan diri kembali. Tetap waspada karena tantangan masih bisa muncul.';
 
   @override
-  String get methMilestone90Title => 'Tiga Bulan - Penyembuhan Otak Dimulai';
+  String get methMilestone90Title => 'Tiga Bulan — Otak Mulai Pulih';
 
   @override
   String get methMilestone90Description =>
-      'Otak Anda sedang pulih secara aktif. Perhatian, ingatan, dan pengambilan keputusan mulai terasa lebih baik ketika sistem penghargaan bergerak menuju normal.';
+      'Otak Anda sedang aktif pulih. Perhatian, ingatan, dan pengambilan keputusan mulai membaik seiring sistem penghargaan bergerak menuju kondisi yang lebih normal.';
 
   @override
-  String get methMilestone180Title => 'Enam Bulan - Pemulihan Kardiovaskular';
+  String get methMilestone180Title => 'Enam Bulan — Pemulihan Jantung';
 
   @override
   String get methMilestone180Description =>
-      'Fungsi jantung menunjukkan peningkatan yang terukur dengan pantang. Studi menunjukkan fungsi jantung dapat pulih secara signifikan selama periode ini bila dikombinasikan dengan dukungan medis. Tekanan darah dan ritme jantung terus stabil.';
+      'Fungsi jantung dapat menunjukkan perbaikan terukur setelah berhenti memakai metamfetamin. Studi menunjukkan fungsi jantung dapat membaik secara bermakna selama masa ini, terutama dengan dukungan medis. Tekanan darah dan irama jantung terus menjadi lebih stabil.';
 
   @override
-  String get methMilestone365Title => 'Satu Tahun - Pemulihan Otak Besar';
+  String get methMilestone365Title => 'Satu Tahun — Pemulihan Otak Besar';
 
   @override
   String get methMilestone365Description =>
-      'Setelah satu tahun, sistem dopamin mengalami kemajuan besar. Imbalan alami terasa lebih bermanfaat lagi, sementara suasana hati, ingatan, dan pengambilan keputusan jauh lebih baik.';
+      'Setelah satu tahun, sistem dopamin telah mengalami banyak pemulihan. Aktivitas sehari-hari kembali terasa lebih memuaskan, sementara suasana hati, ingatan, dan pengambilan keputusan jauh lebih baik.';
 
   @override
-  String get methMilestone420Title => '14 Bulan - Normalisasi Dopamin';
+  String get methMilestone420Title => '14 Bulan — Sistem Dopamin Pulih';
 
   @override
   String get methMilestone420Description =>
-      'Pemindaian otak menunjukkan protein daur ulang dopamin mendekati tingkat yang sehat pada tahap ini. Daya ingat, motivasi, dan kemampuan menikmati aktivitas sehari-hari terus meningkat.';
+      'Pemindaian otak menunjukkan protein yang mendaur ulang dopamin mendekati kadar pada orang sehat di sekitar tahap ini. Ingatan, motivasi, dan kemampuan menikmati kegiatan sehari-hari terus membaik.';
 
   @override
-  String get methMilestone730Title => 'Dua Tahun - Pemulihan Berkelanjutan';
+  String get methMilestone730Title => 'Dua Tahun — Pemulihan Berlanjut';
 
   @override
   String get methMilestone730Description =>
-      'Dua tahun tanpa sabu memberi otak waktu yang lama untuk pulih. Perhatian, suasana hati, ingatan, dan kualitas hidup sehari-hari terus meningkat.';
+      'Dua tahun tanpa metamfetamin memberi otak waktu panjang untuk terus pulih. Perhatian, suasana hati, ingatan, dan kualitas hidup sehari-hari dapat terus membaik.';
 
   @override
   String get addictionNitrousOxide => 'Nitrous Oksida';
@@ -1009,36 +1006,35 @@ class AppLocalizationsId extends AppLocalizations {
       'Lihat perubahan positif apa yang menanti Anda';
 
   @override
-  String get nitrousOxideMilestone1Title => '24 Jam Pertama - Kliring Sistem';
+  String get nitrousOxideMilestone1Title => '24 Jam Pertama – Gas Keluar';
 
   @override
   String get nitrousOxideMilestone1Description =>
       'Gas meninggalkan sistem Anda dalam beberapa menit, namun penyembuhan membutuhkan waktu lebih lama. Pusing mereda, sakit kepala mereda, dan otak Anda mulai menyesuaikan diri tanpa jalur pintas dopamin. Pemulihan B12 Anda dimulai sekarang.';
 
   @override
-  String get nitrousOxideMilestone3Title =>
-      'Hari 3 - Tidak Ada Penarikan Fisik';
+  String get nitrousOxideMilestone3Title => 'Hari 3 – Tanpa Putus Zat Fisik';
 
   @override
   String get nitrousOxideMilestone3Description =>
-      'Ini kabar baiknya: dinitrogen oksida tidak menyebabkan penarikan fisik. Dorongan yang Anda rasakan bersifat psikologis - kebiasaan dan pergaulan, bukan tubuh Anda yang menuntut suatu zat. Hal ini membuat mereka mudah dikendalikan.';
+      'Kabar baiknya: dinitrogen oksida tidak menyebabkan putus zat fisik. Dorongan yang Anda rasakan bersifat psikologis – kebiasaan dan asosiasi, bukan tubuh yang menuntut zat tersebut. Karena itu dorongan ini dapat dikelola.';
 
   @override
-  String get nitrousOxideMilestone7Title => 'Satu Minggu - B12 Meningkat';
+  String get nitrousOxideMilestone7Title => 'Satu Minggu – B12 Mulai Naik';
 
   @override
   String get nitrousOxideMilestone7Description =>
       'Satu minggu tanpa ada B12 baru yang dimusnahkan. Jika Anda sudah mulai mengonsumsi suplemen, level Anda sudah meningkat. Energi, suasana hati, dan fokus semuanya terkait dengan B12 — Anda akan mulai merasakannya meningkat.';
 
   @override
-  String get nitrousOxideMilestone14Title => 'Dua Minggu - Penyembuhan Saraf';
+  String get nitrousOxideMilestone14Title => 'Dua Minggu – Saraf Memulih';
 
   @override
   String get nitrousOxideMilestone14Description =>
       'B12 sangat penting untuk lapisan pelindung pada serabut saraf Anda. Dua minggu kemudian, proses perbaikan tersebut sedang berlangsung secara aktif. Kesemutan atau mati rasa apa pun yang Anda alami seharusnya sudah mereda - sistem saraf Anda sedang memulihkan diri.';
 
   @override
-  String get nitrousOxideMilestone30Title => 'Satu Bulan - Pengembalian Energi';
+  String get nitrousOxideMilestone30Title => 'Satu Bulan – Energi Kembali';
 
   @override
   String get nitrousOxideMilestone30Description =>
@@ -1054,7 +1050,7 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get nitrousOxideMilestone365Title =>
-      'Satu Tahun - Kesehatan Jangka Panjang Terjamin';
+      'Satu Tahun – Perlindungan Berlanjut';
 
   @override
   String get nitrousOxideMilestone365Description =>
@@ -1084,62 +1080,60 @@ class AppLocalizationsId extends AppLocalizations {
       'Lihat perubahan positif apa yang menanti Anda';
 
   @override
-  String get cocaineMilestone1Title => '24 Jam Pertama - Permulaan';
+  String get cocaineMilestone1Title => '24 Jam Pertama: Awal Perjalanan';
 
   @override
   String get cocaineMilestone1Description =>
-      'Tubuh Anda mulai menyesuaikan diri saat kadar dopamin mulai stabil. Anda mungkin mengalami kelelahan, perubahan suasana hati, dan keinginan ngemil yang kuat, namun sistem kardiovaskular Anda sudah mulai pulih.';
+      'Tubuh Anda mulai menyesuaikan diri saat kadar dopamin mulai stabil. Anda mungkin mengalami kelelahan, perubahan suasana hati, dan keinginan kuat untuk menggunakan kokain, tetapi sistem kardiovaskular Anda sudah mulai pulih.';
 
   @override
-  String get cocaineMilestone3Title => 'Hari 3 - Tantangan Puncak';
+  String get cocaineMilestone3Title => 'Hari ke-3: Tantangan Terberat';
 
   @override
   String get cocaineMilestone3Description =>
-      'Gejala putus obat sering kali mencapai puncaknya pada saat ini. Anda mungkin mengalami keinginan mengidam yang intens, mudah tersinggung, cemas, dan kelelahan. Ini bersifat sementara - otak Anda bekerja keras untuk menyeimbangkan dirinya sendiri.';
+      'Gejala putus zat sering memuncak sekitar waktu ini. Keinginan kuat untuk menggunakan, mudah tersinggung, cemas, dan kelelahan dapat muncul. Ini bersifat sementara; otak Anda sedang bekerja untuk menyeimbangkan diri kembali.';
 
   @override
-  String get cocaineMilestone7Title => 'Satu Minggu - Pemulihan Fisik Dimulai';
+  String get cocaineMilestone7Title => 'Satu Minggu: Pemulihan Fisik';
 
   @override
   String get cocaineMilestone7Description =>
-      'Gejala fisik paling intens mulai mereda. Detak jantung dan tekanan darah Anda stabil. Meskipun hasrat psikologis mungkin terus berlanjut, tubuh Anda sedang dalam proses penyembuhan.';
+      'Gejala fisik yang paling berat mulai mereda. Detak jantung dan tekanan darah mulai stabil. Keinginan psikologis mungkin masih muncul, sementara tubuh Anda terus pulih.';
 
   @override
-  String get cocaineMilestone14Title => 'Dua Minggu - Menemukan Stabilitas';
+  String get cocaineMilestone14Title => 'Dua Minggu: Mulai Stabil';
 
   @override
   String get cocaineMilestone14Description =>
-      'Banyak orang mulai merasa lebih stabil secara emosional. Tingkat energi Anda meningkat, dan gejala penarikan akut berkurang. Kesehatan jantung Anda terus meningkat secara signifikan.';
+      'Banyak orang mulai merasa lebih stabil secara emosional. Tingkat energi membaik dan gejala putus zat akut mulai mereda. Kesehatan kardiovaskular juga terus membaik.';
 
   @override
-  String get cocaineMilestone60Title =>
-      'Dua Bulan - Tidur dan Suasana Hati Meningkat';
+  String get cocaineMilestone60Title => 'Dua Bulan: Tidur dan Suasana Hati';
 
   @override
   String get cocaineMilestone60Description =>
-      'Kualitas tidur Anda terasa lebih baik karena kimia otak Anda terus menjadi normal. Anda mungkin merasa lebih istirahat dan mengalami suasana hati yang lebih stabil sepanjang hari.';
+      'Kualitas tidur terasa lebih baik saat kimia otak terus menuju kondisi normal. Anda mungkin merasa lebih segar dan mengalami suasana hati yang lebih stabil sepanjang hari.';
 
   @override
-  String get cocaineMilestone90Title => 'Tiga Bulan - Pemulihan Otak';
+  String get cocaineMilestone90Title => 'Tiga Bulan: Pemulihan Otak';
 
   @override
   String get cocaineMilestone90Description =>
-      'Sistem dopamin Anda pulih. Fokus, pengambilan keputusan, dan pengendalian emosi jauh lebih baik, dan pemikiran lebih jernih.';
+      'Sistem dopamin Anda sedang pulih. Fokus, pengambilan keputusan, dan pengaturan emosi membaik secara nyata, dan pikiran menjadi lebih jernih.';
 
   @override
-  String get cocaineMilestone180Title => 'Enam Bulan - Berpikir Lebih Jernih';
+  String get cocaineMilestone180Title => 'Enam Bulan: Pikiran Lebih Jernih';
 
   @override
   String get cocaineMilestone180Description =>
-      'Pemindaian otak menunjukkan pemulihan di bagian depan otak, area yang mendukung perencanaan dan pengendalian diri. Memori, kendali impuls, dan pemikiran jernih terus menguat.';
+      'Pemindaian otak menunjukkan pemulihan di bagian depan otak, area yang mendukung perencanaan dan pengendalian diri. Memori, kendali impuls, dan kejernihan berpikir terus menguat.';
 
   @override
-  String get cocaineMilestone365Title =>
-      'Satu Tahun - Kesehatan Kardiovaskular';
+  String get cocaineMilestone365Title => 'Satu Tahun: Kesehatan Jantung';
 
   @override
   String get cocaineMilestone365Description =>
-      'Jantung dan sistem kardiovaskular Anda telah mengalami pemulihan yang luar biasa. Tekanan darah dan detak jantung menjadi normal. Risiko serangan jantung dan stroke menurun secara signifikan. Tubuhmu sedang dalam masa penyembuhan.';
+      'Jantung dan sistem kardiovaskular Anda telah mengalami pemulihan yang berarti. Tekanan darah dan detak jantung telah kembali normal. Risiko serangan jantung dan stroke telah turun secara signifikan. Tubuh Anda terus pulih.';
 
   @override
   String get cocaineMilestone730Title => 'Dua Tahun - Pemulihan Berkelanjutan';
@@ -2236,8 +2230,7 @@ class AppLocalizationsId extends AppLocalizations {
       'Hati Anda menunjukkan peningkatan fungsi yang terukur. Organ regeneratif ini dapat pulih secara signifikan dari kerusakan akibat alkohol, dengan enzim hati dan akumulasi lemak menunjukkan perbaikan dalam waktu 2 bulan setelah berhenti mengonsumsi alkohol.';
 
   @override
-  String get alcoholMilestone90Title =>
-      'Pemikiran dan Ingatan Meningkat Secara Substansial';
+  String get alcoholMilestone90Title => 'Pikiran dan Ingatan Makin Tajam';
 
   @override
   String get alcoholMilestone90Description =>
@@ -2260,28 +2253,28 @@ class AppLocalizationsId extends AppLocalizations {
       'Pantang selama satu tahun mungkin mulai mengurangi risiko kanker. Meskipun alkohol jelas meningkatkan risiko beberapa jenis kanker (hati, payudara, kolorektal, esofagus), penelitian mengenai jangka waktu pengurangan risiko masih terus bermunculan dan bervariasi berdasarkan jenis kanker.';
 
   @override
-  String get smokingMilestone1Title => 'Karbon Monoksida Bersih';
+  String get smokingMilestone1Title => 'Karbon Monoksida Menurun';
 
   @override
   String get smokingMilestone1Description =>
-      'Darahmu bernafas lagi! Dalam waktu 24 jam, kadar karbon monoksida turun ke normal dan kadar oksigen meningkat. Jantung Anda tidak perlu bekerja lembur lagi untuk memompa darah beracun ke seluruh tubuh Anda.';
+      'Darah Anda kembali membawa lebih banyak oksigen! Dalam 24 jam, kadar karbon monoksida turun ke tingkat normal dan kadar oksigen meningkat. Jantung tidak lagi harus bekerja ekstra untuk memompa darah yang terpapar karbon monoksida ke seluruh tubuh.';
 
   @override
-  String get smokingMilestone3Title => 'Puncak Penarikan Nikotin';
+  String get smokingMilestone3Title => 'Puncak Putus Nikotin';
 
   @override
   String get smokingMilestone3Description =>
-      'Monster nikotin paling marah, tapi Anda memenangkan pertarungan! Semua nikotin telah meninggalkan sistem Anda. Nafsu mengidam yang paling buruk memang terjadi saat ini, namun hal tersebut juga merupakan tiket Anda menuju kebebasan di sisi lain.';
+      'Gejala putus nikotin sedang paling kuat, tetapi Anda berhasil melewatinya! Semua nikotin sudah keluar dari tubuh. Keinginan merokok bisa terasa paling berat sekarang, namun setiap gelombang yang terlewati membawa Anda lebih dekat pada kebebasan.';
 
   @override
-  String get smokingMilestone7Title => 'Rasa & Bau Meningkat Secara Dramatis';
+  String get smokingMilestone7Title => 'Rasa & Penciuman Membaik';
 
   @override
   String get smokingMilestone7Description =>
-      'Makanan akan menjadi petualangan lagi! Merokok merusak indra perasa dan reseptor penciuman. Satu minggu berlalu, dan Anda menemukan kembali rasa yang Anda lupa ada. Bersiaplah untuk apresiasi makanan yang serius!';
+      'Makanan mulai terasa menarik lagi! Merokok merusak indra perasa dan reseptor penciuman. Setelah satu minggu, Anda mulai menemukan kembali rasa yang sempat terlupakan. Saatnya menikmati makanan lagi!';
 
   @override
-  String get smokingMilestone14Title => 'Sirkulasi & Berjalan Meningkat';
+  String get smokingMilestone14Title => 'Sirkulasi & Jalan Membaik';
 
   @override
   String get smokingMilestone14Description =>
@@ -2292,11 +2285,10 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get smokingMilestone30Description =>
-      'Paru-parumu mengadakan pesta kembalinya! Silia telah tumbuh kembali dan menyapu aspal dan puing-puing selama bertahun-tahun. Kapasitas paru-paru meningkat secara signifikan, dan batuk perokok sudah menjadi sejarahnya.';
+      'Paru-paru Anda sedang bangkit! Silia tumbuh kembali dan membantu membersihkan lendir, tar, serta kotoran yang menumpuk. Fungsi paru membaik, dan batuk khas perokok mulai mereda.';
 
   @override
-  String get smokingMilestone90Title =>
-      'Risiko Serangan Jantung Turun Secara Signifikan';
+  String get smokingMilestone90Title => 'Risiko Serangan Jantung Turun';
 
   @override
   String get smokingMilestone90Description =>
@@ -2310,8 +2302,7 @@ class AppLocalizationsId extends AppLocalizations {
       'Enam bulan bebas rokok adalah kemenangan nyata bagi pertahanan paru. Dalam studi bedah, respons makrofag alveolar melawan bakteri setelah 3–12 bulan bebas rokok lebih mendekati pola orang yang tidak pernah merokok dibanding pada dua bulan. Sel pertahanan terdepan paru Anda sudah punya berbulan-bulan untuk pulih.';
 
   @override
-  String get smokingMilestone365Title =>
-      'Risiko Stroke Berkurang Secara Signifikan';
+  String get smokingMilestone365Title => 'Risiko Stroke Turun';
 
   @override
   String get smokingMilestone365Description =>
@@ -2339,76 +2330,74 @@ class AppLocalizationsId extends AppLocalizations {
       'Empat tahun bebas rokok berada di dalam rentang 3–6 tahun CDC, ketika risiko tambahan penyakit jantung koroner berkurang setengah. Manfaat kardiovaskular jangka panjang terus bertambah.';
 
   @override
-  String get smokingMilestone1825Title =>
-      'Risiko Beberapa Kanker Anjlok (5–10 Tahun)';
+  String get smokingMilestone1825Title => '5–10 Tahun: Risiko Kanker Turun';
 
   @override
   String get smokingMilestone1825Description =>
       'Lima tahun kemenangan! Anda memasuki jendela 5–10 tahun ketika risiko tambahan kanker mulut, tenggorokan, dan laring turun setengah, sementara risiko stroke terus menurun. Manfaat jangka panjang kini benar-benar mulai terasa.';
 
   @override
-  String get marijuanaMilestone1Title => 'Gejala Penarikan Dimulai';
+  String get marijuanaMilestone1Title => 'Gejala Putus Zat Dimulai';
 
   @override
   String get marijuanaMilestone1Description =>
-      'Otak Anda sedang menyesuaikan diri dengan kehidupan tanpa THC! Dalam waktu 24-48 jam, Anda mungkin mengalami mudah tersinggung, cemas, atau kesulitan tidur. Ini sepenuhnya normal - reseptor cannabinoid Anda mulai diatur ulang.';
+      'Otak Anda sedang menyesuaikan diri dengan hidup tanpa THC. Dalam 24–48 jam, Anda mungkin merasa mudah tersinggung, cemas, atau sulit tidur. Ini wajar: reseptor kanabinoid mulai menyesuaikan diri kembali.';
 
   @override
   String get marijuanaMilestone3Title => 'Puncak Gejala Fisik';
 
   @override
   String get marijuanaMilestone3Description =>
-      'Anda berada pada titik tersulit, tetapi semuanya menanjak mulai dari sini! Hari ke 2-6 biasanya melihat puncak gejala penarikan diri termasuk sakit kepala, berkeringat, dan perubahan suasana hati. Tubuh Anda bekerja keras untuk menyeimbangkan kembali dirinya sendiri.';
+      'Anda sedang melewati bagian yang paling berat, tetapi arahnya membaik dari sini. Hari ke-2 hingga ke-6 biasanya menjadi puncak gejala putus zat seperti sakit kepala, berkeringat, dan perubahan suasana hati. Tubuh Anda sedang bekerja keras untuk kembali seimbang.';
 
   @override
   String get marijuanaMilestone7Title => 'Pola Tidur Membaik';
 
   @override
   String get marijuanaMilestone7Description =>
-      'Mimpi indah kembali lagi! Setelah seminggu tanpa ganja, pola tidur alami Anda mulai normal. Tidur REM pulih kembali, menghasilkan mimpi yang lebih jelas dan kualitas istirahat yang lebih baik.';
+      'Mimpi mulai kembali. Setelah seminggu tanpa kanabis, pola tidur alami Anda mulai menormal. Tidur REM memantul kembali, sehingga mimpi bisa lebih jelas dan kualitas istirahat membaik.';
 
   @override
-  String get marijuanaMilestone14Title => 'Penarikan Akut Berakhir';
+  String get marijuanaMilestone14Title => 'Putus Zat Akut Berakhir';
 
   @override
   String get marijuanaMilestone14Description =>
-      'Badai telah berlalu! Sebagian besar gejala penarikan fisik berkurang secara signifikan setelah dua minggu. Suasana hati Anda menjadi stabil dan aktivitas sehari-hari menjadi lebih mudah. Bagian tersulit ada di belakang Anda.';
+      'Badai mulai berlalu. Sebagian besar gejala fisik putus zat berkurang nyata setelah dua minggu. Suasana hati mulai lebih stabil dan aktivitas sehari-hari terasa lebih mudah. Bagian terberat sudah di belakang Anda.';
 
   @override
-  String get marijuanaMilestone30Title => 'Fungsi Memori Meningkat';
+  String get marijuanaMilestone30Title => 'Fungsi Memori Membaik';
 
   @override
   String get marijuanaMilestone30Description =>
-      'Kabut otak Anda mulai hilang! Penelitian menunjukkan bahwa pembelajaran verbal dan memori mulai meningkat secara signifikan setelah menghentikan penggunaan ganja. Hipokampus, yang penting untuk pembentukan memori, mulai berfungsi lebih baik.';
+      'Kabut otak mulai terangkat. Penelitian menunjukkan pembelajaran verbal dan memori mulai membaik setelah penggunaan kanabis dihentikan. Hipokampus, yang penting untuk pembentukan memori, mulai berfungsi lebih baik.';
 
   @override
-  String get marijuanaMilestone60Title => 'Konsentrasi Menajam';
+  String get marijuanaMilestone60Title => 'Konsentrasi Meningkat';
 
   @override
   String get marijuanaMilestone60Description =>
-      'Mode fokus: diaktifkan! Dua bulan tanpa ganja dan kemampuan Anda untuk berkonsentrasi dan mempertahankan perhatian menunjukkan peningkatan yang nyata. Tugas kerja dan belajar menjadi lebih mudah untuk dikelola.';
+      'Mode fokus mulai kembali. Dua bulan tanpa kanabis dan kemampuan Anda untuk berkonsentrasi serta mempertahankan perhatian menunjukkan peningkatan nyata. Tugas kerja dan belajar menjadi lebih mudah dikelola.';
 
   @override
-  String get marijuanaMilestone90Title => 'Kembalinya Stabilitas Suasana Hati';
+  String get marijuanaMilestone90Title => 'Suasana Hati Lebih Stabil';
 
   @override
   String get marijuanaMilestone90Description =>
-      'Tiga bulan tanpa ganja membawa suasana hati yang lebih stabil, lebih sedikit kecemasan, dan pengendalian stres yang lebih baik. Keadaan emosi Anda mulai menjadi normal dan lebih sehat.';
+      'Tiga bulan tanpa kanabis dapat membawa suasana hati yang lebih stabil, lebih sedikit kecemasan, dan pengelolaan stres yang lebih baik. Keadaan emosi Anda mulai menetap ke pola yang lebih sehat.';
 
   @override
-  String get marijuanaMilestone180Title =>
-      'Pemulihan Perencanaan dan Pengambilan Keputusan';
+  String get marijuanaMilestone180Title => 'Perencanaan dan Keputusan Pulih';
 
   @override
   String get marijuanaMilestone180Description =>
-      'CEO mental Anda kembali bertanggung jawab! Enam bulan tanpa ganja membawa kemajuan besar dalam perencanaan, pengambilan keputusan, dan pemecahan masalah.';
+      'Kemampuan mengatur diri kembali memegang kendali. Enam bulan tanpa kanabis membawa kemajuan besar dalam perencanaan, pengambilan keputusan, dan pemecahan masalah.';
 
   @override
-  String get marijuanaMilestone365Title => 'Restorasi Struktur Otak';
+  String get marijuanaMilestone365Title => 'Pemulihan Struktur Otak';
 
   @override
   String get marijuanaMilestone365Description =>
-      'Satu tahun tanpa ganja memberikan waktu yang cukup bagi area otak yang berhubungan dengan memori untuk pulih. Peningkatan pembelajaran dan memori kini menjadi bagian dari kebiasaan baru Anda.';
+      'Satu tahun tanpa kanabis memberi area otak yang berkaitan dengan memori waktu yang panjang untuk pulih. Perbaikan belajar dan memori kini menjadi bagian dari keseharian baru Anda.';
 
   @override
   String get opioidMilestone1Title => 'Penarikan Akut Dimulai';
@@ -2501,66 +2490,63 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get socialMediaMilestone1Description =>
-      'Anda secara resmi telah mulai memperbarui otak Anda! Penelitian menunjukkan bahwa berpikir untuk memeriksa media sosial memicu jalur saraf yang sama dengan kecanduan. Tapi Anda sudah memutus siklusnya - ayo!';
+      'Anda resmi memulai perubahan kebiasaan digital. Dorongan untuk mengecek media sosial mungkin masih kuat, tetapi setiap kali Anda memilih untuk tidak membuka feed, Anda sedang memutus pola lama.';
 
   @override
   String get socialMediaMilestone3Title => 'FOMO? Lebih Seperti FO-NO! 😎';
 
   @override
   String get socialMediaMilestone3Description =>
-      'Tiga hari berlalu dan mereka cemas \'apa yang saya lewatkan?\' pikiran sudah memudar. Anda melatih otak Anda bahwa kehidupan nyata jauh lebih menarik daripada feed yang dikurasi!';
+      'Tiga hari berlalu, dan pikiran cemas seperti ‘apa yang saya lewatkan?’ mulai mereda. Anda sedang melatih diri bahwa kehidupan nyata lebih menarik daripada feed yang dikurasi.';
 
   @override
-  String get socialMediaMilestone7Title =>
-      'Rentang Perhatian: Ikan Mas → Manusia 🧠';
+  String get socialMediaMilestone7Title => 'Fokus Kembali ke Manusia 🧠';
 
   @override
   String get socialMediaMilestone7Description =>
-      'Minggu pertama selesai! Kemampuan Anda untuk fokus tanpa memeriksa ponsel setiap beberapa menit sudah meningkat. Penelitian menunjukkan otak kita mendambakan serangan dopamin dari notifikasi - namun Anda mengajarkan otak Anda untuk mencari imbalan di tempat lain!';
+      'Satu minggu selesai! Fokus tanpa mengecek ponsel setiap beberapa menit mulai terasa lebih mudah. Anda sedang membangun kebiasaan mencari kepuasan di luar notifikasi.';
 
   @override
-  String get socialMediaMilestone14Title =>
-      'Tidur Seperti Bayi (Bukan Zombie) 😴';
+  String get socialMediaMilestone14Title => 'Tidur Lebih Nyenyak 😴';
 
   @override
   String get socialMediaMilestone14Description =>
-      'Dua minggu tanpa scrolling sebelum tidur = kualitas tidur lebih baik! Cahaya biru dari layar menekan produksi melatonin, namun ritme tidur alami Anda kembali normal.';
+      'Dua minggu tanpa kebiasaan scrolling sebelum tidur berarti lebih banyak ruang untuk rutinitas malam yang tenang dan kualitas tidur yang lebih baik.';
 
   @override
   String get socialMediaMilestone30Title => 'Teman Sejati > Suka Palsu 💝';
 
   @override
   String get socialMediaMilestone30Description =>
-      'Satu bulan offline = pengurangan kesepian dan depresi secara signifikan! Penelitian membuktikan bahwa membatasi media sosial menciptakan peningkatan kesehatan mental yang besar. Anda telah melangkah lebih jauh!';
+      'Satu bulan dengan media sosial jauh lebih sedikit. Waktu dan perhatian yang dulu tersedot feed sekarang bisa kembali ke hubungan nyata dan aktivitas yang benar-benar Anda pilih.';
 
   @override
-  String get socialMediaMilestone60Title => 'Perangkap Perbandingan: LARI! ✨';
+  String get socialMediaMilestone60Title => 'Lolos dari Jebakan Banding ✨';
 
   @override
   String get socialMediaMilestone60Description =>
-      'Dua bulan tanpa perbandingan sosial yang konstan = kepercayaan diri yang tinggi! Penelitian secara konsisten menunjukkan bahwa penggunaan media sosial berkorelasi dengan penurunan harga diri, terutama jika dibandingkan dengan peningkatan sosial. Anda telah terbebas dari jebakan perbandingan!';
+      'Dua bulan tanpa perbandingan sosial yang terus-menerus memberi ruang bagi rasa percaya diri yang lebih stabil. Anda tidak lagi harus menilai hidup sendiri lewat unggahan orang lain.';
 
   @override
-  String get socialMediaMilestone90Title => 'Kolektor Hobi Level: Ahli 🎨';
+  String get socialMediaMilestone90Title => 'Waktu untuk Hobi 🎨';
 
   @override
   String get socialMediaMilestone90Description =>
-      'Tiga bulan = kira-kira 270+ jam diperoleh kembali! Waktu yang cukup untuk mempelajari suatu keterampilan, membaca 15+ buku, atau mendalami hobi. Otak Anda memperkuat kebiasaan yang Anda ulangi, sehingga rutinitas offline tersebut menjadi lebih mudah dan otomatis.';
+      'Tiga bulan berarti banyak waktu yang kembali ke tangan Anda. Rutinitas offline yang terus diulang kini makin mudah dan lebih otomatis.';
 
   @override
-  String get socialMediaMilestone180Title =>
-      'Kesehatan Mental Glow-Up Lengkap 🌟';
+  String get socialMediaMilestone180Title => 'Enam Bulan Lebih Terkendali 🌟';
 
   @override
   String get socialMediaMilestone180Description =>
-      'Enam bulan offline dan Anda resmi berkembang! Penelitian jangka panjang menunjukkan bahwa mengurangi penggunaan media sosial menghasilkan peningkatan kesejahteraan, harga diri, dan kepuasan hidup yang berkelanjutan. Anda adalah bukti nyata bahwa hidup lebih baik di dunia nyata!';
+      'Enam bulan mempertahankan batas digital adalah pencapaian besar. Anda sudah membuktikan bahwa perhatian tidak harus dikendalikan oleh feed.';
 
   @override
-  String get socialMediaMilestone365Title => 'Master Zen Digital Tercapai 🏆';
+  String get socialMediaMilestone365Title => 'Setahun Hidup Lebih Sengaja 🏆';
 
   @override
   String get socialMediaMilestone365Description =>
-      'Satu tahun penuh hidup yang disengaja! Anda telah mendapatkan kembali 1.000+ jam, membentuk hubungan yang lebih dalam, dan membuktikan bahwa momen terbaik dalam hidup tidak dimaksudkan untuk dibagikan - melainkan untuk dialami. Anda resmi menjadi legenda kesehatan digital!';
+      'Satu tahun penuh membuat keputusan digital dengan sengaja. Kebiasaan mengecek otomatis sudah punya waktu lama untuk melemah, sementara hubungan dan rutinitas offline punya waktu untuk tumbuh.';
 
   @override
   String get nicotinePouchesMilestone1Title =>
@@ -2698,7 +2684,7 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get pornographyMilestone1Description =>
-      'Penggunaan pornografi yang bermasalah didefinisikan sebagai gangguan kontrol dan mengakibatkan tekanan atau gangguan. Suatu hari nanti penting karena Anda telah menghentikan pola lama dan mulai mengidentifikasi apa yang memicunya.';
+      'Penggunaan pornografi yang bermasalah ditandai oleh hilangnya kendali yang menimbulkan tekanan atau gangguan fungsi. Hari pertama berarti karena Anda sudah sekali memutus pola lama dan mulai mengenali apa yang memicunya.';
 
   @override
   String get pornographyMilestone3Title => 'Ketahui Desakan Anda';
@@ -2708,7 +2694,7 @@ class AppLocalizationsId extends AppLocalizations {
       'Orang dengan masalah penggunaan yang lebih parah biasanya melaporkan pikiran seksual yang mengganggu, hasrat yang sulit dikendalikan, mudah tersinggung, perubahan suasana hati, dan masalah tidur. Hari ketiga adalah poin yang berguna untuk menyebutkan hal mana yang benar-benar terjadi pada Anda.';
 
   @override
-  String get pornographyMilestone7Title => 'Satu Minggu: Bukti Percobaan';
+  String get pornographyMilestone7Title => 'Satu Minggu: Bukti Uji Acak';
 
   @override
   String get pornographyMilestone7Description =>
@@ -2729,7 +2715,7 @@ class AppLocalizationsId extends AppLocalizations {
       'Sebulan adalah ujian kendali yang berarti. Dalam penelitian yang melibatkan 14.581 orang, masalah fungsi seksual dikaitkan lebih kuat dengan penggunaan yang bermasalah dibandingkan dengan frekuensi menonton biasa, sehingga mendapatkan kembali kendali adalah target yang lebih berbasis bukti.';
 
   @override
-  String get pornographyMilestone90Title => 'Perubahan Dapat Ditahan';
+  String get pornographyMilestone90Title => 'Perubahan Bisa Bertahan';
 
   @override
   String get pornographyMilestone90Description =>
@@ -2743,8 +2729,7 @@ class AppLocalizationsId extends AppLocalizations {
       'Sebuah studi CBT acak untuk perilaku seksual di luar kendali menemukan perbaikan gejala, kompulsifitas seksual, dan kesejahteraan yang tetap stabil pada masa tindak lanjut 3 dan 6 bulan. Pengendalian jangka panjang dapat dipertahankan.';
 
   @override
-  String get pornographyMilestone365Title =>
-      'Satu Tahun: Perubahan yang Tahan Lama';
+  String get pornographyMilestone365Title => 'Setahun: Perubahan Bertahan';
 
   @override
   String get pornographyMilestone365Description =>
@@ -2773,11 +2758,11 @@ class AppLocalizationsId extends AppLocalizations {
       'Empat tahun adalah pemeliharaan yang tahan lama. Bukti terbaik melihat CSBD dan penggunaan pornografi bermasalah sebagai masalah yang kompleks dan individual; tetap ukur hal yang penting: kendali, tekanan, hubungan, penggunaan waktu, dan apakah pola lama masih mengganggu kehidupan.';
 
   @override
-  String get pornographyMilestone1825Title => 'Kontrol Lima Tahun';
+  String get pornographyMilestone1825Title => 'Lima Tahun Tetap Terkendali';
 
   @override
   String get pornographyMilestone1825Description =>
-      'Lima tahun adalah pemeliharaan jangka panjang. CSBD secara klinis didefinisikan sebagai hilangnya kendali secara terus-menerus disertai tekanan atau gangguan, sehingga mempertahankan kendali dan berfungsi dengan baik selama bertahun-tahun merupakan hasil yang berarti.';
+      'Lima tahun menunjukkan perubahan yang terjaga dalam jangka panjang. CSBD secara klinis ditandai oleh hilangnya kendali yang menetap disertai tekanan atau gangguan fungsi, sehingga mempertahankan kendali dan fungsi yang baik selama bertahun-tahun merupakan hasil yang bermakna.';
 
   @override
   String get customMilestone1Title => '24 Jam Pertama Selesai';
@@ -2787,25 +2772,25 @@ class AppLocalizationsId extends AppLocalizations {
       'Anda telah melewati satu hari penuh tanpa kebiasaan yang Anda pilih untuk dihentikan. Pada hari-hari pertama setelah berhenti dari beberapa zat, putus zat dapat mengganggu tidur, dan perubahan tidur dapat berlanjut selama pemulihan. Memantau tidur dapat membantu Anda lebih mudah melihat perubahan tersebut.';
 
   @override
-  String get customMilestone3Title => 'Puncak Gejala Penarikan';
+  String get customMilestone3Title => 'Puncak Gejala Putus Zat';
 
   @override
   String get customMilestone3Description =>
-      'Anda menghadapi badai secara langsung! Gejala penarikan fisik biasanya mencapai puncaknya sekitar hari ke-3 untuk banyak zat, termasuk kecemasan, perubahan suasana hati, dan ketidaknyamanan fisik. Ini berarti Anda sedang melewati bagian tersulit.';
+      'Anda sedang menghadapi bagian yang berat. Pada banyak zat, gejala fisik putus zat biasanya memuncak sekitar hari ketiga, termasuk kecemasan, perubahan suasana hati, dan rasa tidak nyaman secara fisik. Artinya, Anda sedang melewati fase yang paling sulit.';
 
   @override
-  String get customMilestone7Title => 'Akhir Fase Penarikan Akut';
+  String get customMilestone7Title => 'Fase Akut Mulai Mereda';
 
   @override
   String get customMilestone7Description =>
-      'Yang terburuk ada di belakangmu! Setelah satu minggu, gejala putus obat akut mulai mereda untuk sebagian besar zat. Tubuh Anda sedang menyesuaikan diri dengan kondisi normal baru dan mulai stabil.';
+      'Bagian terburuk mulai terlewati. Setelah satu minggu, gejala akut putus zat pada banyak zat mulai mereda. Tubuh Anda sedang menyesuaikan diri dengan kondisi baru dan mulai lebih stabil.';
 
   @override
   String get customMilestone14Title => 'Stabilisasi Pemulihan Dini';
 
   @override
   String get customMilestone14Description =>
-      'Pikiran Anda jernih! Ketenangan selama dua minggu sering kali membawa peningkatan kejernihan mental dan berkurangnya nafsu makan saat otak Anda mulai beradaptasi untuk berfungsi tanpa zat adiktif.';
+      'Pikiran mulai lebih jernih. Dua minggu menjalani pemulihan sering membawa kejernihan mental yang lebih baik dan keinginan menggunakan yang berkurang, saat otak mulai beradaptasi untuk berfungsi tanpa zat adiktif.';
 
   @override
   String get customMilestone30Title => 'Pencapaian Satu Bulan';
@@ -2819,7 +2804,7 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get customMilestone90Description =>
-      'Komitmen Anda membuahkan hasil! Pemulihan selama tiga bulan merupakan pencapaian yang signifikan. Gejala putus obat pasca-akut biasanya mulai memudar, dan banyak orang melaporkan bahwa mereka merasa lebih seperti diri mereka sendiri lagi.';
+      'Komitmen Anda membuahkan hasil. Tiga bulan pemulihan adalah pencapaian besar. Gejala putus zat pasca-akut biasanya mulai memudar, dan banyak orang melaporkan mulai merasa seperti diri mereka sendiri lagi.';
 
   @override
   String get customMilestone180Title => 'Pencapaian Pemulihan Enam Bulan';
@@ -2900,7 +2885,7 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get ssriMilestone3Description =>
-      'Gejala putus obat sering kali mencapai puncaknya sekitar hari ke 2–4. SSRI mengubah cara serotonin didaur ulang, sehingga otak memerlukan waktu untuk menyesuaikan diri setelah Anda berhenti. Harapkan gejala seperti flu, pusing, susah tidur, mual, dan \'brain zaps\'. Paroxetine cenderung menyebabkan penarikan yang lebih kuat; fluoxetine bertahan lebih lama di dalam tubuh dan biasanya lebih ringan.';
+      'Gejala putus obat sering mencapai puncak sekitar hari ke-2 sampai ke-4. SSRI mengubah cara serotonin digunakan kembali, sehingga otak memerlukan waktu untuk menyesuaikan diri setelah obat dihentikan. Gejala dapat berupa rasa seperti flu, pusing, sulit tidur, mual, dan sensasi seperti sengatan listrik di kepala (“brain zaps”). Paroxetine cenderung menimbulkan gejala putus obat lebih kuat; fluoxetine bertahan jauh lebih lama di tubuh dan biasanya lebih ringan.';
 
   @override
   String get ssriMilestone7Title => 'Satu Minggu: Fase Akut Mulai Mereda';
@@ -2910,22 +2895,21 @@ class AppLocalizationsId extends AppLocalizations {
       'Gejala fisik paling intens mulai mereda. Otak Anda menyesuaikan sinyal serotoninnya agar berfungsi tanpa obat. Tidur dan nafsu makan mulai stabil.';
 
   @override
-  String get ssriMilestone14Title => 'Dua Minggu: Gejala Fisik Menyelesaikan';
+  String get ssriMilestone14Title => '2 Minggu: Gejala Fisik Mereda';
 
   @override
   String get ssriMilestone14Description =>
-      'Sebagian besar gejala penghentian fisik akut telah berkurang atau teratasi secara signifikan. Gangguan otak, mual, dan pusing memudar. Sensitivitas emosional mungkin masih meningkat seiring otak Anda terus menyeimbangkan kembali sistem serotoninnya.';
+      'Sebagian besar gejala fisik akut akibat penghentian obat sudah jauh berkurang atau mereda. Brain zaps, mual, dan pusing mulai menghilang. Kepekaan emosi masih dapat meningkat sementara otak terus menyesuaikan sistem serotoninnya.';
 
   @override
-  String get ssriMilestone30Title =>
-      'Satu Bulan: Menstabilkan Suasana Hati dan Energi';
+  String get ssriMilestone30Title => '1 Bulan: Emosi dan Energi Stabil';
 
   @override
   String get ssriMilestone30Description =>
-      'Satu bulan menandai tonggak sejarah yang signifikan. Kualitas tidur membaik, tingkat energi menjadi stabil, dan banyak orang menyadari suasana hati mereka mulai menemukan keseimbangan baru. Otak secara aktif memulihkan regulasi serotonin alaminya.';
+      'Satu bulan adalah tonggak penting. Kualitas tidur membaik, energi mulai stabil, dan banyak orang merasakan suasana hati menemukan keseimbangan baru. Otak terus menyesuaikan kembali pengaturan serotonin alaminya.';
 
   @override
-  String get ssriMilestone90Title => 'Tiga Bulan: Kurva Putus Obat Berbalik';
+  String get ssriMilestone90Title => '3 Bulan: Kurva Putus Obat Berbalik';
 
   @override
   String get ssriMilestone90Description =>
@@ -2972,15 +2956,14 @@ class AppLocalizationsId extends AppLocalizations {
       'Lihat apa yang terjadi saat Anda melakukan pengurangan bertahap';
 
   @override
-  String get snriMilestone3Title => 'Hari 3: Puncak Sindrom Penghentian Intens';
+  String get snriMilestone3Title => 'Hari 3: Puncak gejala putus obat';
 
   @override
   String get snriMilestone3Description =>
       'SNRI - khususnya venlafaxine (Effexor) - dikaitkan dengan beberapa sindrom penghentian antidepresan yang paling parah. Waktu paruh Venlafaxine yang sangat singkat (5 jam) berarti gejalanya bisa lebih intens dibandingkan kebanyakan SSRI. Gejala FINISH (perasaan seperti flu, insomnia, mual, ketidakseimbangan, gangguan sensorik, hiperarousal) mempengaruhi sistem serotonin dan norepinefrin secara bersamaan.';
 
   @override
-  String get snriMilestone7Title =>
-      'Satu Minggu: Dua Sistem Kimia Otak Menyesuaikan';
+  String get snriMilestone7Title => '1 Minggu: Dua sistem menyesuaikan';
 
   @override
   String get snriMilestone7Description =>
@@ -2991,19 +2974,17 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get snriMilestone14Description =>
-      'Sebagian besar gejala penghentian fisik akut telah berkurang secara signifikan. Gangguan otak, mual, dan pusing memudar. Penyesuaian kembali sistem norepinefrin mungkin masih menyebabkan kecemasan atau fluktuasi tekanan darah – hal ini biasanya akan hilang dalam beberapa minggu mendatang.';
+      'Sebagian besar gejala fisik akut akibat penghentian obat sudah jauh berkurang. Sensasi seperti sengatan listrik di kepala, mual, dan pusing mulai mereda. Penyesuaian sistem norepinefrin masih dapat menimbulkan kecemasan atau perubahan tekanan darah; biasanya hal ini mereda dalam beberapa minggu berikutnya.';
 
   @override
-  String get snriMilestone30Title =>
-      'Satu Bulan: Penstabilan Sistem Norepinefrin';
+  String get snriMilestone30Title => '1 Bulan: Norepinefrin stabil';
 
   @override
   String get snriMilestone30Description =>
       'Satu bulan menandai tonggak sejarah yang signifikan. Sistem serotonin dan norepinefrin secara aktif melakukan penyeimbangan kembali. Kualitas tidur dan tingkat energi menjadi stabil. Banyak orang merasakan peningkatan rentang emosi ketika efek obat terhadap penumpulan emosi mulai teratasi.';
 
   @override
-  String get snriMilestone90Title =>
-      'Tiga Bulan: Melewati Masa Putus Obat yang Umum';
+  String get snriMilestone90Title => '3 Bulan: Masa putus obat terlewati';
 
   @override
   String get snriMilestone90Description =>
@@ -3108,40 +3089,35 @@ class AppLocalizationsId extends AppLocalizations {
       'Gejala putus antidepresan biasanya mulai dalam beberapa hari dan sering berlangsung beberapa minggu. Setelah satu minggu, mual, keringat, gangguan tidur, jantung berdebar, dan pusing masih bisa terasa. Tujuh hari adalah kemajuan nyata, dan pemulihan dapat terus bergerak dengan waktu yang berbeda-beda.';
 
   @override
-  String get tcaMilestone14Title =>
-      'Dua Minggu: Putus Akut Biasanya Mulai Mereda';
+  String get tcaMilestone14Title => 'Dua Minggu: Fase Akut Mulai Reda';
 
   @override
   String get tcaMilestone14Description =>
       'Gejala khas penghentian antidepresan seperti mual, insomnia, gangguan keseimbangan, gangguan sensorik, dan hiperaktivasi biasanya berlangsung satu hingga dua minggu. Pada hari ke-14, banyak orang mencapai ujung fase akut ini.';
 
   @override
-  String get tcaMilestone30Title =>
-      'Satu Bulan: Gejala Putus Obat Akut Biasanya Sudah Mereda';
+  String get tcaMilestone30Title => 'Satu Bulan: Fase Akut Sudah Reda';
 
   @override
   String get tcaMilestone30Description =>
       'Gejala penghentian antidepresan yang khas biasanya berlangsung satu hingga dua minggu. Pada hari ke-30, kebanyakan orang sudah melewati fase akut itu; gejala seperti flu, mual, gangguan keseimbangan, insomnia, gangguan sensorik, dan hiperaktivasi biasanya sudah mereda atau hilang.';
 
   @override
-  String get tcaMilestone90Title =>
-      'Tiga Bulan: Fase Akut Sudah Jauh Terlewati';
+  String get tcaMilestone90Title => 'Tiga Bulan: Fase Akut Terlewati';
 
   @override
   String get tcaMilestone90Description =>
       'Gejala penghentian antidepresan yang khas biasanya berlangsung satu hingga dua minggu. Pada hari ke-90, Anda sudah lebih dari sepuluh minggu melewati batas atas fase akut yang umum itu; gejala seperti flu, mual, gangguan keseimbangan, insomnia, gangguan sensorik, dan hiperaktivasi biasanya sudah lama mereda atau hilang.';
 
   @override
-  String get tcaMilestone180Title =>
-      'Enam Bulan: Kebanyakan Tetap Tanpa Kambuh';
+  String get tcaMilestone180Title => 'Enam Bulan: Mayoritas Tanpa Kambuh';
 
   @override
   String get tcaMilestone180Description =>
       'Pada orang yang menghentikan antidepresan setelah pengobatan depresi mayor, meta-analisis 35 uji menemukan angka kekambuhan gabungan 34,8% pada enam bulan—sekitar 65% tetap tanpa kambuh. Itu adalah rentang stabilitas yang sangat besar.';
 
   @override
-  String get tcaMilestone365Title =>
-      'Satu Tahun: Kebanyakan Tetap Tanpa Kambuh';
+  String get tcaMilestone365Title => 'Satu Tahun: Mayoritas Tanpa Kambuh';
 
   @override
   String get tcaMilestone365Description =>
@@ -3218,32 +3194,28 @@ class AppLocalizationsId extends AppLocalizations {
       'Lihat apa yang terjadi saat Anda melakukan pengurangan bertahap';
 
   @override
-  String get maoiMilestone3Title =>
-      'Hari 3: Fase Risiko Tertinggi — Pentingnya Pengawasan Medis';
+  String get maoiMilestone3Title => 'Hari 3: Risiko Tertinggi';
 
   @override
   String get maoiMilestone3Description =>
       'MAOI membawa risiko penghentian paling serius dibandingkan kelas antidepresan mana pun. Penghentian penggunaan secara tiba-tiba – terutama phenelzine dan tranylcypromine – dapat menyebabkan agitasi parah, kebingungan, halusinasi, mioklonus, dan hipertermia. Jika Anda mengalami gejala-gejala ini, segera dapatkan bantuan medis. MAOI bekerja dengan menonaktifkan enzim MAO secara permanen; pemulihan membutuhkan tubuh untuk mensintesis enzim baru, sebuah proses yang memakan waktu sekitar 14 hari.';
 
   @override
-  String get maoiMilestone7Title =>
-      'Satu Minggu: Sintesis Enzim MAO Sedang Berlangsung';
+  String get maoiMilestone7Title => '1 Minggu: Sintesis MAO';
 
   @override
   String get maoiMilestone7Description =>
       'MAOI secara permanen menghancurkan molekul enzim MAO; pemulihan membutuhkan sintesis enzim yang sama sekali baru. Dalam satu minggu, sekitar 50% aktivitas MAO normal mungkin telah pulih. Gejala penghentian akut yang parah (delirium, mioklonus, hipertermia) berkurang secara signifikan. Pengawasan medis yang ketat tetap penting.';
 
   @override
-  String get maoiMilestone14Title =>
-      'Dua Minggu: Aktivitas Enzim MAO Pulih Secara Substansial';
+  String get maoiMilestone14Title => '2 Minggu: Aktivitas MAO Pulih';
 
   @override
   String get maoiMilestone14Description =>
       'Dua minggu adalah jangka waktu klinis standar untuk pemulihan enzim MAO setelah penghentian. Sekitar hari ke 14, aktivitas MAO-A dan MAO-B sebagian besar pulih dan metabolisme tyramine normal kembali terbentuk. Pembatasan diet yang diperlukan selama pengobatan MAOI biasanya dapat dilonggarkan dengan berkonsultasi dengan dokter yang meresepkan Anda.';
 
   @override
-  String get maoiMilestone30Title =>
-      'Satu Bulan: Penyeimbangan Kembali Sistem Kimia Otak';
+  String get maoiMilestone30Title => '1 Bulan: Sistem Otak Seimbang';
 
   @override
   String get maoiMilestone30Description =>
@@ -3376,39 +3348,39 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get alcoholReferenceDay1 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Apa yang Terjadi pada Tidur Saat Anda Berhenti Minum?\n\nSumber: \"Alcohol and the Sleeping Brain\" (Colrain, Nicholas & Baker), Handbook of Clinical Neurology — ditinjau sejawat, dihosting NIH\n\nAlkohol dan Struktur Tidur\nAlkohol bersifat sedatif, sehingga dapat mempercepat Anda tertidur dan meningkatkan tidur gelombang lambat yang dalam pada paruh pertama malam. Namun ada konsekuensinya: alkohol menekan tidur REM (rapid eye movement), tahap pemulihan yang terkait dengan penguatan memori dan pengaturan emosi, lalu membuat tidur lebih terputus pada paruh kedua malam saat alkohol dimetabolisme.\n\nMalam Pertama Tanpa Alkohol\nKarena alkohol menekan tidur REM, malam-malam pertama tanpa alkohol sering disertai REM rebound: mimpi yang lebih hidup serta tidur yang lebih ringan dan terputus sementara pola tidur normal kembali. Ini bagian pemulihan yang normal dan sementara.\n\nPemulihan Dimulai\nSaat otak menyesuaikan diri kembali selama hari dan minggu berikutnya, tidur REM dan kualitas tidur secara keseluruhan membaik. Gangguan tidur termasuk gejala terkait putus alkohol yang paling lama bertahan, tetapi cenderung mendekati normal dengan pantang yang berkelanjutan.\n\nCatatan untuk Peminum Berat\nPada orang yang minum berat setiap hari atau dalam jangka panjang, 24 jam pertama juga dapat membawa gejala putus alkohol seperti cemas, berkeringat, tremor, dan mual. Putus alkohol berat bisa berbahaya; jika Anda minum berat setiap hari, bicarakan dengan dokter sebelum berhenti mendadak.';
 
   @override
   String get alcoholReferenceDay3 =>
-      'Hari Ketiga: Jendela Puncak Putus Alkohol\n\nSumber: \"Alcohol Withdrawal\", StatPearls — ditinjau sejawat, NIH National Library of Medicine\n\nSekitar 72 Jam\nGejala putus alkohol dapat mulai dalam hitungan jam dan sering memuncak sekitar 72 jam. StatPearls mencantumkan tremor, insomnia, agitasi, berkeringat, tekanan darah tinggi, denyut jantung cepat, dan kejang sebagai tanda keadaan hipereksitasi ini.\n\nTiga Hari Kuat\nMencapai 72 jam adalah pencapaian besar karena waktunya tepat berada pada jendela puncak yang terdokumentasi untuk banyak gejala akut.\n\nPutus Alkohol Berat Bisa Datang Belakangan\nDelirium akibat putus alkohol (delirium tremens) dapat terjadi 3–8 hari setelah berhenti dan dapat berakibat fatal. Putus alkohol berat adalah keadaan darurat medis. Orang yang minum berat setiap hari, serta siapa pun dengan riwayat kejang atau delirium akibat putus alkohol, sebaiknya mencari saran medis daripada berhenti mendadak tanpa dukungan.';
+      'Hari Ketiga: Jendela Puncak Putus Alkohol\n\nSumber: \"Alcohol Withdrawal\", StatPearls — ditinjau sejawat, NIH National Library of Medicine\n\nSekitar 72 Jam\nGejala putus alkohol dapat mulai dalam hitungan jam dan sering memuncak sekitar 72 jam. StatPearls mencantumkan tremor, insomnia, agitasi, berkeringat, tekanan darah tinggi, denyut jantung cepat, dan kejang sebagai tanda keadaan hipereksitasi ini.\n\nTiga Hari Kuat\nMencapai 72 jam adalah pencapaian besar karena waktunya tepat berada pada jendela puncak yang terdokumentasi untuk banyak gejala akut.\n\nPutus Alkohol Berat Bisa Datang Belakangan\nDelirium akibat putus alkohol (delirium tremens) dapat terjadi 3–8 hari setelah berhenti dan dapat berakibat fatal. Putus alkohol berat adalah keadaan darurat medis. Orang yang minum berat setiap hari, serta siapa pun dengan riwayat kejang atau delirium akibat putus alkohol, sebaiknya mencari saran medis daripada berhenti mendadak tanpa dukungan.\n\nTanda yang Harus Diwaspadai\nDemam, agitasi berat, keringat berlebihan, halusinasi, disorientasi, kejang, denyut jantung sangat cepat, atau tekanan darah sangat tinggi memerlukan pertolongan medis segera.';
 
   @override
   String get alcoholReferenceDay7 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Bagaimana Sistem Kekebalan Pulih\n\nSumber: \"Alcohol and the Immune System\" (Sarkar, Jung & Wang), Alcohol Research: Current Reviews — ditinjau sejawat, dihosting NIH\n\nBagaimana Alkohol Melemahkan Imunitas\nAlkohol melemahkan sistem kekebalan melalui beberapa cara. Bahkan satu episode minum berat dapat menurunkan kemampuan melawan infeksi hingga 24 jam. Penggunaan jangka panjang mengurangi sel darah putih, mengganggu sinyal imun, serta merusak pertahanan usus dan paru, sehingga meningkatkan risiko infeksi dan memperlambat penyembuhan luka.\n\nMenghilangkan Paparan yang Merusak\nBanyak dampak ini mulai membaik setelah alkohol dihentikan. Sel darah putih dan sinyal imun mulai pulih, sementara pertahanan usus dan saluran napas mulai diperbaiki. Dalam minggu pertama, sistem kekebalan tidak lagi ditekan alkohol setiap hari dan ketahanan terhadap infeksi umum mulai membaik.\n\nProses Bertahap\nPemulihan imun penuh membutuhkan lebih dari satu minggu, dan tingkat perbaikan bergantung pada seberapa berat dan lama seseorang minum. Namun minggu pertama tanpa alkohol adalah saat pembangunan kembali dimulai.';
 
   @override
   String get alcoholReferenceDay14 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Pemulihan Otak Dini Saat Pantang Alkohol\n\nSumber: Bartsch AJ et al., \"Manifestations of early brain recovery associated with abstinence from alcoholism\", Brain (2007) — ditinjau sejawat\n\nMengukur Pemulihan\nStudi ini menggunakan MRI untuk mengikuti orang yang baru menjalani detoksifikasi karena ketergantungan alkohol selama minggu-minggu awal pantang, lalu membandingkannya dengan kontrol sehat. Studi ini menangkap pemulihan fisik otak setelah konsumsi alkohol berhenti.\n\nVolume Otak Bertambah Kembali\nPenggunaan alkohol kronis dapat menyusutkan otak, sebagian melalui penurunan ukuran sel yang dapat berbalik dan bukan hanya kehilangan sel permanen. Dengan pantang, peneliti mengukur kenaikan rata-rata hampir 2% pada volume otak global, terutama di sekitar serebelum, otak tengah, ventrikel, dan daerah frontal. Banyak pemulihan ini terjadi sejak awal, dalam beberapa minggu pertama tanpa alkohol.\n\nSerebelum dan Perhatian\nPemulihan sangat jelas pada daerah otak yang digunakan untuk gerak dan perhatian. Penanda kesehatan sel otak meningkat bersama perbaikan perhatian yang dapat diukur, sehingga pemulihan fisik berjalan bersama kemajuan nyata dalam kemampuan berpikir.\n\nFondasi, Bukan Garis Akhir\nFungsi tingkat tinggi seperti penalaran kompleks pulih lebih bertahap, tetapi dua minggu pertama menunjukkan bahwa otak mulai pulih dengan cepat setelah alkohol dihentikan.';
 
   @override
   String get alcoholReferenceDay30 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Tekanan Darah Turun Saat Konsumsi Alkohol Dikurangi\n\nSumber: Roerecke et al., \"The effect of a reduction in alcohol consumption on blood pressure: a systematic review and meta-analysis\", Lancet Public Health (2017) — ditinjau sejawat\n\nBuktinya\nMeta-analisis ini menggabungkan 36 uji acak dengan sekitar 2.865 peserta yang menilai apa yang terjadi pada tekanan darah ketika orang mengurangi alkohol. Hasilnya menunjukkan efek yang jelas dan bergantung pada dosis: semakin besar pengurangan konsumsi, semakin besar penurunan tekanan darah.\n\nSeberapa Besar Efeknya?\nOrang yang minum dua gelas atau kurang per hari tidak menunjukkan perubahan tekanan darah yang bermakna ketika mengurangi konsumsi. Di atas ambang itu, efeknya bergantung pada dosis dan paling kuat pada orang yang minum enam gelas atau lebih per hari lalu memangkas konsumsi sekitar separuh. Rata-rata tekanan sistolik turun sekitar 5,5 mmHg dan diastolik sekitar 4,0 mmHg. Penurunan sebesar ini bermakna secara klinis, sebanding dengan sebagian obat tekanan darah dan cukup untuk menurunkan risiko stroke serta penyakit jantung jangka panjang.\n\nMengapa Satu Bulan Penting\nAlkohol dapat menaikkan tekanan darah dengan mengaktifkan respons stres, meningkatkan kortisol, dan membuat pembuluh darah lebih kaku. Uji dalam tinjauan ini menunjukkan manfaat muncul selama beberapa minggu pengurangan yang berkelanjutan, sehingga sekitar satu bulan tanpa alkohol memberi waktu bagi tekanan darah peminum berat untuk bergerak ke tingkat yang lebih sehat.\n\nEfek Ambang\nTinjauan ini menemukan ambang yang jelas: manfaat terutama terlihat pada orang yang minum lebih dari dua gelas per hari dan makin besar ketika konsumsi sebelumnya lebih berat. Jika sebelumnya Anda peminum ringan, jangan mengharapkan manfaat tekanan darah khusus ini; peminum beratlah yang mendapat manfaat kardiovaskular nyata dan terukur dari berhenti.';
 
   @override
   String get alcoholReferenceDay60 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Pemulihan Hati Setelah Berhenti Minum\n\nSumber: National Institute on Alcohol Abuse and Alcoholism (NIAAA), \"Alcohol\'s Effects on the Body\"\n\nBagaimana Alkohol Merusak Hati\nHati memproses sebagian besar alkohol yang Anda minum dan menanggung banyak kerusakannya. NIAAA menjelaskan perkembangan cedera hati terkait alkohol: dimulai dengan hati berlemak (steatosis, penumpukan lemak di sel hati), dapat berlanjut menjadi hepatitis alkoholik, dan dengan penggunaan berat jangka panjang menjadi fibrosis serta sirosis.\n\nTahap Awal Dapat Membaik\nHal pentingnya adalah hati memiliki kemampuan regenerasi yang tinggi dan tahap awal kerusakan dapat membaik ketika minum dihentikan. Hati berlemak khususnya sering membaik dengan pantang yang berkelanjutan. Setelah sekitar dua bulan tanpa alkohol, hati mendapat waktu nyata untuk mengurangi timbunan lemak, meredakan peradangan, dan memulihkan fungsi yang lebih sehat, yang biasanya tercermin dalam penurunan enzim hati ALT dan AST.\n\nLebih dari Sekadar Hati\nNIAAA juga mencatat bahwa alkohol membebani jantung, pankreas, dan sistem kekebalan. Memberi tubuh jeda panjang dari alkohol memungkinkan sistem-sistem ini ikut pulih, yang dapat berkontribusi pada energi yang lebih stabil dan kesehatan umum yang lebih baik pada tahap ini.';
 
   @override
   String get alcoholReferenceDay90 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Pikiran dan Ingatan Setelah Tiga Bulan Tanpa Alkohol\n\nSumber: Tinjauan sistematis tentang pemulihan neuropsikologis setelah pantang alkohol (PubMed Central, 2024) — ditinjau sejawat\n\nApa yang Ditunjukkan Bukti\nTinjauan ini menggabungkan studi yang mengikuti pemulihan kemampuan berpikir dan mengingat setelah orang berhenti minum. Sebagian besar kemampuan bergerak mendekati normal dalam sekitar enam hingga dua belas bulan, dan beberapa membaik lebih awal.\n\nApa yang Pulih Lebih Dulu\nDua kemampuan menonjol sebagai yang pulih lebih awal: kecepatan pemrosesan dasar, yang biasanya membaik sekitar satu bulan meski akurasi pada tugas yang lebih rumit tertinggal, serta pembaruan memori kerja. Sekitar tiga bulan, banyak orang mulai menyadari peningkatan pada kemampuan ini.\n\nApa yang Membutuhkan Waktu Lebih Lama\nPerhatian, perencanaan, pengambilan keputusan, kontrol impuls, persepsi, dan memori terus membaik selama jendela pemulihan enam hingga dua belas bulan.\n\nApa yang Memengaruhi Pemulihan\nTinjauan mencatat bahwa pemulihan dipengaruhi faktor seperti usia, status merokok, dan kemampuan sebelum sakit, tetapi tidak secara konsisten berkaitan dengan total alkohol yang sebelumnya diminum. Arah yang diharapkan adalah pemulihan.\n\nMengapa Ini Penting\nPikiran yang lebih jernih adalah pemulihan yang praktis: perhatian dan pengambilan keputusan yang lebih baik membantu orang bertahan dalam perawatan dan menghindari kekambuhan.';
 
   @override
   String get alcoholReferenceDay180 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Pemulihan Otak Setelah Enam Bulan Tanpa Alkohol\n\nSumber: Tinjauan sejawat tentang pemulihan struktural dan fungsional otak selama pantang penggunaan zat (PubMed Central)\n\nPemulihan Terus Berlanjut\nKembalinya volume otak pada minggu-minggu awal hanyalah permulaan. Tinjauan ini mendokumentasikan bahwa dengan pantang berkelanjutan, otak terus pulih secara struktural dan fungsional: materi abu-abu pulih dan jalur materi putih yang rusak, yang mengoordinasikan komunikasi antardaerah otak, diperbaiki selama berbulan-bulan.\n\nBagian Depan Otak\nPemulihan sangat penting pada bagian depan otak yang menangani penilaian, perencanaan, dan pengendalian diri. Seiring bagian ini pulih, pengambilan keputusan dan kontrol impuls menguat.\n\nPenataan Ulang dan Fungsi Otak\nSelain perbaikan fisik, fungsi dan koneksi otak ikut pulih. Otak dapat menata ulang jalur saraf dan belajar kembali, sehingga pantang berkelanjutan menjadi masa yang sangat berguna untuk terapi dan membangun kebiasaan baru.\n\nTanda Pemulihan\nPada enam bulan, struktur dan fungsi otak jelas bergerak menuju keadaan yang lebih sehat. Tetap tanpa alkohol memberi pemulihan itu lebih banyak waktu untuk berkembang.';
 
   @override
   String get alcoholReferenceDay365 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Alkohol, Risiko Kanker, dan Berhenti Minum\n\nSumber: National Cancer Institute (NCI), \"Alcohol and Cancer Risk\"\n\nAlkohol Menyebabkan Kanker\nNCI menyatakan ada konsensus ilmiah yang kuat bahwa minum alkohol dapat menyebabkan kanker. Alkohol terkait dengan kanker rongga mulut, faring, laring, esofagus, hati, payudara, serta kolon dan rektum. Semakin banyak dan semakin lama seseorang minum, semakin tinggi risikonya.\n\nBagaimana Alkohol Mendorong Kanker\nMekanismenya mencakup asetaldehida, produk pemecahan alkohol yang beracun dan merusak DNA; stres oksidatif dan peradangan; gangguan penyerapan nutrisi pelindung; serta peningkatan estrogen pada kanker payudara.\n\nRisiko Menurun Setelah Berhenti\nNCI melaporkan bahwa berhenti minum berkaitan dengan penurunan risiko dari waktu ke waktu. Studi menunjukkan peningkatan risiko kanker rongga mulut dan esofagus menurun setelah berhenti, meski dapat membutuhkan bertahun-tahun untuk mendekati risiko orang yang tidak pernah minum. Satu tahun tanpa alkohol adalah langkah bermakna di jalur tersebut.\n\nManfaat yang Menumpuk\nMencapai satu tahun juga mempertahankan manfaat kardiovaskular dan hati dari pantang, seperti tekanan darah yang lebih rendah, risiko aritmia yang berkurang, dan pemulihan hati yang berlanjut, bersamaan dengan penurunan risiko kanker.';
 
   @override
   String get benzodiazepineReferenceDay7 =>
@@ -3424,27 +3396,27 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get benzodiazepineReferenceDay90 =>
-      'Tiga Bulan Setelah Benzodiazepin: Berpikir Lebih Cepat, Sedasi Berkurang\n\nSumber: Rickels et al., \"Psychomotor performance of long-term benzodiazepine users before, during, and after benzodiazepine discontinuation,\" Journal of Clinical Psychopharmacology (1999), on PubMed\n\nSinyal Pemulihan yang Terukur pada 12 Minggu\nPeneliti menguji pengguna benzodiazepin jangka panjang sebelum taper, lalu kembali 5 dan 12 minggu setelah taper. Data 12 minggu tersedia untuk 77 orang, dan status bebas benzodiazepin pada peserta yang berhasil berhenti dikonfirmasi dengan pemeriksaan darah mingguan.\n\nKinerja Kognitif Lebih Cepat\nPeserta yang berhasil berhenti dari benzodiazepin menyelesaikan tugas menyalin simbol dan substitusi digit-simbol lebih cepat daripada peserta yang masih memakai benzodiazepin. Perbedaannya tetap signifikan setelah memperhitungkan usia, pendidikan, dan skor awal.\n\nSedasi Mental dan Fisik Berkurang\nPeserta yang berhasil berhenti juga melaporkan sedasi mental dan fisik yang lebih ringan dibanding orang yang masih memakai benzodiazepin.\n\nSeperti Apa Tiga Bulan Itu\nPada peserta yang berhasil berhenti dalam studi ini, 12 minggu setelah taper terlihat peningkatan terukur dalam kecepatan pemrosesan dan penurunan sedasi mental serta fisik. Pikiran bergerak lebih cepat dan rasa tersedasi berkurang.';
+      'Tiga Bulan Setelah Benzodiazepin: Berpikir Lebih Cepat, Sedasi Berkurang\n\nSumber: Rickels et al., \"Psychomotor performance of long-term benzodiazepine users before, during, and after benzodiazepine discontinuation,\" Journal of Clinical Psychopharmacology (1999), di PubMed\n\nSinyal Pemulihan yang Terukur pada 12 Minggu\nPeneliti menguji pengguna benzodiazepin jangka panjang sebelum taper, lalu kembali 5 dan 12 minggu setelah taper. Data 12 minggu tersedia untuk 77 orang, dan status bebas benzodiazepin pada peserta yang berhasil berhenti dikonfirmasi dengan pemeriksaan darah mingguan.\n\nKinerja Kognitif Lebih Cepat\nPeserta yang berhasil berhenti dari benzodiazepin menyelesaikan tugas menyalin simbol dan substitusi digit-simbol lebih cepat daripada peserta yang masih memakai benzodiazepin. Perbedaannya tetap signifikan setelah memperhitungkan usia, pendidikan, dan skor awal.\n\nSedasi Mental dan Fisik Berkurang\nPeserta yang berhasil berhenti juga melaporkan sedasi mental dan fisik yang lebih ringan dibanding orang yang masih memakai benzodiazepin.\n\nSeperti Apa Tiga Bulan Itu\nPada peserta yang berhasil berhenti dalam studi ini, 12 minggu setelah taper terlihat peningkatan terukur dalam kecepatan pemrosesan dan penurunan sedasi mental serta fisik. Pikiran bergerak lebih cepat dan rasa tersedasi berkurang.';
 
   @override
   String get benzodiazepineReferenceDay180 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Pemikiran dan Ingatan pada Enam Bulan: Kemajuan yang Terukur\n\nSumber: Tata dkk., \"Lack of cognitive recovery following withdrawal from long-term benzodiazepine use,\" Psychological Medicine (1994), di PubMed\n\nApa yang Dilakukan Studi\nStudi ini menguji 21 pasien yang menggunakan benzodiazepin jangka panjang sebelum penghentian, segera setelah penghentian, dan lagi setelah enam bulan tanpa benzodiazepin, lalu membandingkannya dengan kelompok kontrol yang sepadan. Ini adalah salah satu data yang paling terbuka dalam literatur pemulihan benzodiazepin.\n\nApa yang Ditemukan\nSebelum berhenti, peserta mengalami masalah pada pembelajaran verbal, ingatan, kecepatan gerak, koordinasi visual, dan penalaran visual. Segera setelah berhenti hanya sedikit perubahan. Pada enam bulan, beberapa bidang tersebut telah membaik secara terukur.\n\nArtinya\nPada enam bulan, pembelajaran verbal, ingatan, kecepatan gerak, dan koordinasi visual menunjukkan pemulihan yang terukur. Perbaikannya sudah nyata dan masih dapat berlanjut.\n\nGambaran Lebih Besar\nJika pada enam bulan Anda masih merasa berkabut, penelitian ini menunjukkan bahwa pemulihan dapat berlangsung lebih lama. Studi jangka panjang menunjukkan perbaikan terus berlanjut setelah titik ini.';
 
   @override
   String get benzodiazepineReferenceDay365 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Satu Tahun Setelah Benzodiazepin: Pemikiran dan Ingatan Terus Pulih\n\nSumber: Barker dkk., \"Persistence of cognitive effects after withdrawal from long-term benzodiazepine use: a meta-analysis,\" Archives of Clinical Neuropsychology (2004), di PubMed\n\nBukti Terkuat yang Tersedia\nPeneliti menggabungkan studi yang menguji kembali pengguna benzodiazepin jangka panjang setelah setidaknya enam bulan berhenti. Hasil gabungan menunjukkan pemulihan nyata pada pemikiran dan ingatan setelah penghentian.\n\nKabar Baik\nStudi gabungan menemukan perbaikan yang nyata dan terukur pada beberapa bidang pemikiran dan ingatan. Sekitar satu tahun, pemulihan sudah luas dibandingkan saat masih menggunakan benzodiazepin.\n\nPemulihan Berlanjut\nStudi gabungan menunjukkan pemulihan luas pada pemikiran dan ingatan. Pada satu tahun, Anda sudah jauh mengikuti tren pemulihan yang telah terukur pada enam bulan.\n\nArti Satu Tahun\nPada sekitar satu tahun, pemikiran, ingatan, dan kejernihan biasanya sudah jauh lebih baik daripada saat penggunaan. Jika beberapa bidang masih tertinggal, itu tetap sesuai dengan bukti. Pemulihan dapat terus berlanjut.';
 
   @override
   String get benzodiazepineReferenceDay540 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      '18 Bulan Setelah Benzodiazepin: Pemulihan Lambat tetapi Nyata\n\nSumber: Ashton, \"Protracted withdrawal syndromes from benzodiazepines,\" Journal of Substance Abuse Treatment (1991), di PubMed\n\nMengapa Pemulihan Bisa Lama\nBenzodiazepin bekerja pada GABA, sistem penenang utama otak. Penggunaan jangka panjang mengubah respons sistem ini, dan perubahan tersebut dapat memerlukan waktu berbulan-bulan untuk berbalik. Karena itu pemulihan benzodiazepin sering dihitung dalam bulan, bukan minggu.\n\nPosisi 18 Bulan\nAshton menjelaskan gejala putus obat berkepanjangan yang dapat memerlukan waktu berbulan-bulan untuk mereda. Pada 18 bulan, fase terberat sudah jauh berlalu bagi kebanyakan orang, sementara kecemasan, perubahan sensorik, dan kabut otak yang tersisa telah banyak mereda.\n\nBerbalik Secara Perlahan\nAshton menggambarkan perubahan yang mendasarinya sebagai \"perubahan fungsional pada sistem saraf pusat yang dapat berbalik secara perlahan\". Lambat, tetapi dapat berbalik; lamanya waktu mencerminkan kedalaman adaptasi terhadap benzodiazepin, bukan kerusakan permanen pada kebanyakan orang.\n\nSinyal Pemulihan\nPada 18 bulan, sistem GABA yang menenangkan otak telah memiliki waktu panjang untuk menyesuaikan diri. Arah utamanya adalah pemulihan yang terus bergerak menuju kondisi normal.';
 
   @override
   String get benzodiazepineReferenceDay730 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Dua Tahun Setelah Benzodiazepin: Kemajuan Besar dan Bertahan\n\nSumber: Barker dkk., \"Persistence of cognitive effects after withdrawal from long-term benzodiazepine use: a meta-analysis,\" Archives of Clinical Neuropsychology (2004), di PubMed\n\nTonggak Pemulihan\nDua tahun adalah tonggak besar, terutama setelah proses penghentian yang panjang. Fase gejala awal dan berkepanjangan sudah jauh berlalu, dan kemajuan pada tahun pertama telah memiliki satu tahun lagi untuk menguat.\n\nYang Didukung Bukti\nStudi gabungan menunjukkan pemulihan di banyak bidang setelah penghentian. Pada dua tahun, gambaran yang didukung bukti adalah pemulihan berkelanjutan pada tidur, suasana hati, ingatan, dan kejernihan berpikir, meskipun kecepatannya berbeda pada setiap orang.\n\nSinyal Pemulihan\nStudi gabungan menunjukkan pemulihan pada banyak bidang pemikiran dan ingatan. Pada dua tahun, pemulihan yang berkelanjutan adalah harapan yang didukung bukti.\n\nMenjaga Perspektif\nDua tahun memberi waktu panjang bagi tidur, suasana hati, ingatan, dan kejernihan berpikir untuk pulih. Bukti menunjukkan perbaikan berarti, dan kemajuan masih dapat berlanjut.';
 
   @override
   String get benzodiazepineReferenceDay1095 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Tiga Tahun Setelah Benzodiazepin: Pemulihan Jangka Panjang\n\nSumber: Barker dkk., \"Persistence of cognitive effects after withdrawal from long-term benzodiazepine use: a meta-analysis,\" Archives of Clinical Neuropsychology (2004), di PubMed\n\nPandangan Jangka Panjang\nTiga tahun berada jauh di sepanjang perjalanan pemulihan benzodiazepin. Bagi sebagian besar orang, bahkan setelah gejala berkepanjangan yang berat, gejala yang mengganggu sudah jauh berlalu dan kualitas hidup sangat berbeda dibanding saat penggunaan aktif.\n\nTemuan Meta-Analisis\nStudi gabungan pada pengguna jangka panjang menunjukkan pemulihan di banyak bidang setelah penghentian. Selama bertahun-tahun tanpa benzodiazepin, pola utamanya adalah pemulihan luas pada pemikiran, ingatan, dan fungsi sehari-hari.\n\nSinyal Pemulihan\nPenelitian jangka panjang menunjukkan pemulihan pada banyak bidang pemikiran dan ingatan. Pada tiga tahun, fase awal dan berkepanjangan sudah jauh berlalu, dan kemajuan tersebut telah memiliki waktu bertahun-tahun untuk menguat.\n\nPesan Harapan\nPemulihan setelah benzodiazepin dapat menjadi perjalanan yang panjang dan berat. Tiga tahun perubahan berkelanjutan adalah pencapaian besar, dengan perbaikan yang dapat terus berlangsung seiring waktu.';
 
   @override
   String get benzodiazepineReferenceDay1460 =>
@@ -3456,39 +3428,39 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get cocaineReferenceDay1 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Putus Kokain: 24 Jam Pertama\n\nSumber: \"Withdrawal Syndromes\", StatPearls (NCBI Bookshelf), U.S. National Library of Medicine\n\nKokain dan Otak\nKokain menghambat pengambilan kembali dopamin dan monoamina lain di sirkuit penghargaan otak, sehingga dopamin menumpuk dan menimbulkan euforia serta energi yang kuat. Dengan penggunaan rutin, otak beradaptasi dengan menurunkan aktivitas sistem ini, sehingga kegiatan normal dapat terasa hambar tanpa zat tersebut.\n\nFase Crash\nStatPearls menjelaskan bahwa putus stimulan dimulai dengan fase \"crash\" setelah penggunaan dihentikan, yang ditandai depresi berat, tidur berlebihan, rasa lapar, suasana hati rendah, serta perlambatan gerak dan berpikir. Dalam 24 jam pertama, hal ini biasanya meliputi:\n• Kelelahan ekstrem dan kebutuhan tidur yang meningkat\n• Suasana hati tertekan serta gerak dan pikiran yang lebih lambat\n• Nafsu makan meningkat, karena kokain menekan nafsu makan\n\nKeinginan kuat untuk menggunakan kokain, mudah tersinggung, dan kecemasan juga sangat sering dilaporkan pada periode ini dalam literatur kecanduan yang lebih luas, meskipun StatPearls tidak mencantumkannya secara khusus sebagai bagian dari fase crash.\n\nBerbeda dari Beberapa Zat Lain\nStatPearls mencatat bahwa putus stimulan ditangani dengan observasi dan perawatan suportif. Berbeda dari putus alkohol atau benzodiazepin, kondisi ini biasanya tidak menyebabkan kejang atau delirium. Bahaya utamanya bersifat psikologis: depresi dan, pada pengguna berat, pikiran untuk bunuh diri dapat muncul selama fase crash, sehingga dukungan dan pemantauan dianjurkan.\n\nBelum Ada Obat yang Disetujui\nSaat ini belum ada obat yang disetujui khusus untuk mengobati putus kokain. Penanganannya bersifat suportif, dan pendekatan nonobat seperti manajemen kontingensi termasuk terapi berbasis bukti untuk gangguan penggunaan zat yang mendasarinya.';
 
   @override
   String get cocaineReferenceDay3 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Tiga Hari Tanpa Kokain: Tantangan Terberat\n\nSumber: \"Cocaine Toxicity\", StatPearls (NCBI Bookshelf), U.S. National Library of Medicine\n\nDampak Kokain pada Tubuh\nStatPearls menjelaskan bahwa kokain menghambat pengambilan kembali dopamin, norepinefrin, dan serotonin sehingga stimulasi simpatis berlangsung lebih lama. Mekanisme inilah yang menghasilkan euforia sekaligus bahaya, karena kokain dapat memengaruhi hampir seluruh sistem organ.\n\nHari 2–4: Puncak Putus Psikologis\nPada hari ketiga, fase crash akut biasanya beralih ke bagian paling berat dari putus psikologis:\n• Suasana hati rendah dan depresi berada pada titik paling berat\n• Kehilangan rasa senang\n• Keinginan kuat yang dipicu oleh isyarat atau pemicu\n• Kecemasan dan kegelisahan\n• Gangguan tidur: tidur berlebihan pada sebagian orang, insomnia pada yang lain\n\nBahaya Kardiovaskular Mulai Menurun\nStatPearls menyebut toksisitas kardiovaskular sebagai efek kokain yang paling mematikan: peningkatan detak jantung dan tekanan darah, meningkatnya kebutuhan oksigen otot jantung, vasospasme koroner, dan aktivasi trombosit meningkatkan risiko aritmia, infark, dan stroke bahkan pada orang muda. Waktu paruh kokain sendiri singkat, sekitar satu jam, dan pada hari ketiga zat tersebut sudah keluar dari tubuh. Namun, StatPearls mencatat bahwa metabolitnya masih dapat menyempitkan pembuluh darah selama beberapa jam setelah penggunaan, dan satu metabolit dapat bertahan selama berminggu-minggu, sehingga sebagian beban kardiovaskular dapat berlangsung lebih lama daripada kokain itu sendiri.\n\nLangkah Berikutnya\nFase akut memang berat, tetapi gejala psikologis seperti depresi, keinginan kuat, dan hilangnya rasa senang biasanya paling membutuhkan dukungan dan dapat bertahan paling lama.';
 
   @override
   String get cocaineReferenceDay7 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Satu Minggu Tanpa Kokain: Pemulihan Fisik Dimulai\n\nSumber: \"Withdrawal Syndromes\", StatPearls (NCBI Bookshelf), U.S. National Library of Medicine\n\nFase Akut Mulai Berakhir\nStatPearls menjelaskan bahwa putus kokain bergerak dari fase crash awal menuju fase pemulihan yang lebih panjang. Menjelang akhir minggu pertama, gejala terburuk biasanya mulai mereda sementara sistem dopamin terus pulih.\n\nPemulihan Fisik Berlangsung\nSetelah stimulasi simpatis akibat kokain berhenti, dampaknya pada sistem kardiovaskular, nafsu makan, tidur, dan saluran napas mulai berbalik dalam hari dan minggu berikutnya:\n• Detak jantung dan tekanan darah bergerak kembali menuju normal\n• Nafsu makan berangsur kembali, karena kokain sangat menekannya\n• Pola tidur mulai stabil\n• Saluran hidung mulai pulih bila kokain digunakan melalui hidung\n\nGejala Psikologis Dapat Berlanjut\nStatPearls mencatat bahwa depresi dan hilangnya rasa senang merupakan ciri putus stimulan dan dapat bertahan lebih lama daripada gejala fisik:\n• Suasana hati masih rendah, meski biasanya tidak seberat saat puncak\n• Keinginan yang dipicu pemicu tetap kuat\n• Konsentrasi dan motivasi masih terganggu\n\nFase Pascakut\nSetelah itu, pemulihan beralih ke minggu atau bulan dengan perbaikan yang lebih lambat namun stabil pada suasana hati, keinginan, dan kejernihan berpikir. Memahami pola ini dapat membantu menempatkan bagian pemulihan yang berjalan lebih lambat.';
 
   @override
   String get cocaineReferenceDay14 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Dua Minggu Tanpa Kokain: Mulai Stabil\n\nSumber: \"Withdrawal Syndromes\", StatPearls (NCBI Bookshelf), U.S. National Library of Medicine\n\nDua Minggu\nPada dua minggu, gejala crash berat seperti depresi mendalam, tidur berlebihan, serta perlambatan gerak dan berpikir biasanya sudah jauh mereda. Pemulihan kini lebih berfokus pada membangun kembali kesehatan otak dan emosi.\n\nSuasana Hati dan Emosi\nPada dua minggu, suasana hati masih dapat berada di bawah normal saat sistem dopamin pulih. Dibanding minggu pertama, hilangnya rasa senang yang berat mulai mereda dan momen kesejahteraan yang nyata mulai kembali.\n\nKeinginan dan Pemicu\nKeinginan yang dipicu oleh situasi tertentu tetap menjadi tantangan penting pada tahap ini. Otak telah membentuk hubungan kuat antara penggunaan kokain dan lingkungan, orang, emosi, serta aktivitas tertentu. Paparan terhadap pemicu tersebut dapat menimbulkan keinginan yang kuat meski suasana hati secara umum membaik. Menghindari lingkungan berisiko tinggi dan membangun hubungan kebiasaan baru tetap penting.\n\nTidur Membaik\nTidur biasanya lebih stabil dan menyegarkan pada dua minggu dibanding saat fase putus akut. Tidur yang lebih baik membantu suasana hati, kejernihan berpikir, dan kemampuan mengelola keinginan.\n\nMembangun Fondasi\nKarena terapi berbasis bukti untuk gangguan penggunaan stimulan bersifat perilaku, seperti manajemen kontingensi, terapi, dan dukungan sebaya, dua minggu merupakan waktu penting untuk terhubung dengan dukungan yang dapat menopang pemulihan jangka panjang.';
 
   @override
   String get cocaineReferenceDay60 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Dua Bulan Tanpa Kokain: Suasana Hati dan Sistem Penghargaan Mulai Pulih\n\nSumber: \"Recovering from Cocaine: Insights from Clinical and Preclinical Investigations\", Neuroscience & Biobehavioral Reviews (2013), PubMed Central\n\nApa yang Terjadi di Otak\nTinjauan ini merangkum studi manusia dan hewan tentang perubahan otak setelah penggunaan kokain dihentikan. Penggunaan kokain kronis mengubah sistem dopamin dan menurunkan aktivitas di korteks frontal; pemulihan sistem-sistem ini menjadi dasar bagi perbaikan suasana hati dan motivasi yang dirasakan pada awal abstinensi.\n\nKemajuan Sistem Penghargaan\nDalam studi hewan, perubahan pada reseptor dopamin dan protein pengangkut yang terkait dengan kokain bergerak kembali menuju tingkat yang lebih sehat selama abstinensi berkelanjutan. Saat sistem penghargaan pulih, hilangnya rasa senang yang berat mulai terangkat dan penghargaan sehari-hari seperti makanan, hubungan sosial, dan pencapaian kembali terasa memuaskan.\n\nTanda Pemulihan\nPada dua bulan, suasana hati membaik dan tidur lebih stabil sementara sistem dopamin dan korteks frontal terus pulih. Studi primata menunjukkan perubahan reseptor D1 dan transporter akibat kokain bergerak kembali menuju tingkat kelompok kontrol selama abstinensi berkelanjutan.';
 
   @override
   String get cocaineReferenceDay90 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Tiga Bulan Tanpa Kokain: Penanda Dopamin Mulai Pulih\n\nSumber: \"Recovering from Cocaine: Insights from Clinical and Preclinical Investigations\", Neuroscience & Biobehavioral Reviews (2013), PubMed Central\n\nMengapa 90 Hari Bermakna\nTinjauan ini menyoroti titik tiga bulan sebagai waktu yang bermakna secara biologis. Pada primata nonmanusia, reseptor dopamin D1 dan transporter yang meningkat akibat kokain menunjukkan bukti kembali menuju tingkat kelompok kontrol setelah sekitar 90 hari abstinensi. Ini merupakan bukti langsung bahwa sistem penghargaan dapat menyesuaikan diri kembali setelah zat tersebut dihentikan.\n\nBagian Depan Otak\nPara penulis menyoroti pemulihan di bagian depan otak sebagai salah satu tanda terpenting dari abstinensi yang lebih panjang. Area ini mendukung kendali impuls, pengambilan keputusan, dan pengendalian diri, dan kemampuan tersebut menguat seiring pemulihannya.\n\nApa yang Ditunjukkan 90 Hari\nPada 90 hari, studi primata menemukan bahwa kepadatan reseptor D1, D2, dan transporter dopamin tidak lagi berbeda secara signifikan dari kontrol yang tidak terpapar zat. Bahkan setelah paparan yang lama, pemulihan penting pada sistem dopamin sudah terlihat pada tahap ini dan berlanjut selama abstinensi.';
 
   @override
   String get cocaineReferenceDay180 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Enam Bulan Tanpa Kokain: Pikiran Lebih Jernih\n\nSumber: \"Structural and Functional Brain Recovery in Individuals with Substance Use Disorders During Abstinence: A Review of Longitudinal Neuroimaging Studies\", PubMed Central\n\nPemulihan yang Terlihat pada Pencitraan\nTinjauan ini menggabungkan studi pencitraan otak longitudinal yang memindai orang yang sama berulang kali ketika masa abstinensi mereka bertambah panjang. Untuk kokain, tinjauan ini melaporkan bahwa aktivitas fungsional pulih secara terukur selama abstinensi berkelanjutan.\n\nBukti Pencitraan Otak\nDua studi MRI fungsional mengikuti pengguna kokain dari waktu ke waktu dan keduanya menemukan aktivasi yang membaik di otak tengah dan talamus seiring abstinensi yang lebih lama. Dalam salah satu studi, setelah sekitar enam bulan abstinensi, pola aktivasi otak sebanding dengan kontrol sehat tanpa kecanduan. Di berbagai zat, tinjauan ini juga mencatat bahwa hasil pencitraan nuklir mengarah pada pemulihan dopaminergik selama abstinensi.\n\nMakna pada Enam Bulan\nPerbaikan fungsional ini sejalan dengan perubahan yang dilaporkan orang dalam kehidupan sehari-hari pada tahap ini:\n• Perhatian dan memori kerja yang lebih baik\n• Pengambilan keputusan yang lebih tajam dan kendali impuls yang lebih baik\n• Suasana hati yang lebih stabil dan pengaturan emosi yang lebih baik\n\nTanda Pemulihan\nPada sekitar enam bulan, satu kohort fMRI longitudinal menunjukkan pola aktivasi yang sebanding dengan kontrol sehat tanpa kecanduan, sementara aktivasi otak tengah dan area otak dalam membaik seiring masa abstinensi yang lebih panjang. Ini merupakan pemulihan fungsi otak yang terlihat langsung pada pencitraan.';
 
   @override
   String get cocaineReferenceDay365 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Satu Tahun Tanpa Kokain: Beban Kardiovaskular Berulang Berhenti\n\nSumber: \"Cocaine Toxicity\", StatPearls (NCBI Bookshelf), U.S. National Library of Medicine\n\nMengapa Jantung Menjadi Fokus\nStatPearls menyebut toksisitas kardiovaskular sebagai efek kokain yang paling mematikan. Setiap penggunaan meningkatkan detak jantung, tekanan darah, dan kebutuhan oksigen otot jantung, sekaligus menyebabkan vasospasme koroner dan mendorong pembentukan bekuan. Kombinasi ini meningkatkan risiko serangan jantung, aritmia, dan stroke bahkan pada orang muda.\n\nApa yang Hilang Setelah Setahun Abstinensi\nSetiap hari tanpa kokain berarti satu hari tanpa paparan akut tersebut. Selama satu tahun, lonjakan berulang pada tekanan darah dan detak jantung akibat penggunaan tidak lagi terjadi, risiko vasospasme koroner dan infark akut yang dipicu kokain dari penggunaan baru ikut hilang, dan jantung tidak lagi berulang kali dipaksa mengalami ketidakseimbangan kebutuhan dan pasokan oksigen.\n\nTanda Pemulihan\nBerhenti menggunakan kokain menghentikan vasospasme koroner berulang, takikardia, hipertensi, peningkatan pembekuan, dan ketidakseimbangan oksigen yang mendorong cedera jantung akut. Fibrosis atau miokarditis yang sudah ada tetap merupakan masalah medis, tetapi cedera berulang yang dipicu kokain berhenti.\n\nPemulihan Otak Juga Berlanjut\nPada satu tahun, sistem penghargaan dan pengendalian diri telah mendapat waktu yang panjang untuk pulih, mendukung kendali impuls yang lebih baik, suasana hati yang lebih stabil, dan respons yang lebih kuat terhadap penghargaan sehari-hari.';
 
   @override
   String get cocaineReferenceDay730 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Dua Tahun Tanpa Kokain: Pemulihan Berkelanjutan\n\nSumber: \"Recovering from Cocaine: Insights from Clinical and Preclinical Investigations\", Neuroscience & Biobehavioral Reviews (2013), PubMed Central\n\nPandangan Jangka Panjang\nTinjauan ini merangkum temuan studi pada manusia dan hewan tentang abstinensi kokain yang berkepanjangan. Kesimpulan utamanya adalah bahwa pemeliharaan dan pemulihan fungsi korteks frontal merupakan penanda penting abstinensi jangka panjang. Orang yang abstinen lebih lama (lebih dari 10 bulan) menunjukkan aktivitas korteks frontal yang lebih tinggi dibandingkan mereka yang abstinen dalam waktu lebih singkat.\n\nYang Terus Pulih\n• Penanda dopamin yang berubah akibat kokain terus bergerak menuju tingkat normal selama abstinensi berkelanjutan\n• Penurunan integritas materi abu-abu dan putih yang terlihat pada pengguna aktif dan orang pada masa awal abstinensi dapat membaik dengan abstinensi yang lebih lama, kemungkinan melalui pematangan mielin yang berlanjut\n• Sirkuit kontrol frontal yang mendukung pengendalian impuls, penilaian, dan regulasi emosi menjadi lebih kuat\n\nTanda Pemulihan\nPara penulis menekankan satu kehati-hatian ilmiah penting: sebagian perbedaan pada orang yang abstinen dalam jangka panjang mungkin mencerminkan \"efek penyintas\". Orang yang sejak awal memiliki integritas otak lebih baik mungkin lebih mudah mempertahankan abstinensi, sehingga perbedaan tersebut tidak dapat dianggap semata-mata sebagai hasil pemulihan. Yang jelas, dua tahun tanpa kokain mendukung fungsi otak yang jauh lebih mendekati orang yang tidak menggunakan kokain dan kehidupan yang bukan sekadar bebas dari penggunaan, tetapi telah banyak dibangun kembali.';
 
   @override
   String get cocaineReferenceDay1095 =>
@@ -3504,87 +3476,87 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get ghbReferenceDay1 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Putus GHB: Jam-Jam Pertama\n\nSumber: “Characterization of the GHB Withdrawal Syndrome”, PubMed Central\n\n⚠ Ini Keadaan Darurat Medis\nPutus GHB termasuk salah satu putus zat yang paling berbahaya, sebanding dengan putus alkohol berat dan benzodiazepin. Tanpa pengobatan, lebih dari separuh kasus dapat berkembang menjadi delirium, dengan perubahan denyut jantung dan tekanan darah yang berbahaya serta kejang. Siapa pun yang bergantung pada GHB, GBL, atau 1,4-butanediol sebaiknya menjalani detoks rawat inap dengan pengawasan, bukan berhenti sendiri.\n\nMengapa Mulainya Begitu Cepat\nWaktu paruh GHB hanya 30–60 menit. Orang yang sudah bergantung biasanya perlu menggunakan ulang setiap 2–3 jam hanya untuk mencegah gejala putus zat, jauh lebih sering daripada alkohol atau benzodiazepin. Farmakokinetik yang cepat inilah yang membuat gejalanya dapat muncul jauh lebih awal dibanding putus zat sedatif-hipnotik lain.\n\nGejala Awal\nKecemasan, insomnia, tremor, berkeringat, denyut jantung cepat, dan tekanan darah meningkat.';
 
   @override
   String get ghbReferenceDay3 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Putus GHB: Hari-Hari Terberat\n\nSumber: “Characterization of the GHB Withdrawal Syndrome”, PubMed Central\n\nMasa Paling Berat\nStudi ini menemukan beberapa gejala inti putus zat – nyeri otot, kedutan otot, rasa tegang dan tertekan, denyut jantung cepat, serta kram perut – paling berat pada tiga hari pertama. Pada hari keempat, tingkat keparahan banyak gejala turun lebih dari 70%. Masa awal ini umumnya merupakan periode berisiko tertinggi, ketika putus zat yang tidak ditangani paling mungkin berkembang menjadi delirium, kejang, atau perubahan denyut jantung dan tekanan darah yang berbahaya.\n\nGejala Berat\n• Agitasi dan kecemasan berat\n• Halusinasi pendengaran dan penglihatan, paranoia\n• Tremor, berkeringat, jantung berdebar cepat, dan tekanan darah tinggi\n• Risiko kejang\n\nPenanganan\nStudi ini menjelaskan penurunan dosis benzodiazepin dan GHB farmasi sebagai dua metode detoksifikasi yang umum digunakan, dengan beberapa bukti bahwa penurunan dosis GHB mungkin mengendalikan gejala lebih efektif daripada benzodiazepin saja. Keduanya memerlukan pemantauan ketat – kondisi ini tidak aman ditangani di rumah.';
 
   @override
   String get ghbReferenceDay7 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Satu Minggu Tanpa GHB\n\nSumber: “Characterization of the GHB Withdrawal Syndrome”, PubMed Central\n\nSebagian Besar Gejala Mulai Mereda\nBeberapa gejala inti putus zat menurun lebih dari 70% dalam tingkat keparahan atau prevalensi selama empat hari pertama. Dengan penurunan dosis di bawah pengawasan, fase penurunan dosis berlangsung rata-rata 11 hari, lalu diikuti fase pemulihan sekitar enam hari. Jadi setelah satu minggu, banyak orang sudah cukup jauh memasuki proses perbaikan walaupun prosesnya belum sepenuhnya selesai.\n\nYang Masih Bisa Bertahan\n• Berkeringat, tremor, dan tangan gemetar\n• Banyak tidur, atau sebaliknya insomnia dan gelisah\n• Keinginan menggunakan GHB\n\nStudi ini menemukan gejala-gejala tersebut berubah relatif sedikit bahkan hingga hari ke-11. Jadi, gejala yang masih bertahan pada minggu ini bukan hal yang tidak biasa. Pengawasan medis tetap penting sampai sindrom jelas mereda.';
 
   @override
   String get ghbReferenceDay14 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Dua Minggu Tanpa GHB\n\nSumber: “Characterization of the GHB Withdrawal Syndrome”, PubMed Central\n\nMelewati Sindrom Akut\nPada dua minggu, sindrom fisik akut yang dijelaskan dalam studi ini biasanya sudah mereda atau hampir selesai. Dalam perawatan dengan pengawasan, fase penurunan dosis dan pemulihan bersama-sama berlangsung rata-rata sekitar 17 hari. Denyut jantung, tekanan darah, dan sebagian besar gejala fisik seharusnya mulai stabil.\n\nYang Masih Bisa Bertahan\nStudi ini secara khusus mencatat bahwa keinginan menggunakan dan insomnia masih ada pada sebagian pasien saat pulang, dan dapat berkontribusi pada risiko kembali menggunakan. Dukungan dan rutinitas tetap penting meski fase awal yang berbahaya sudah terlewati.';
 
   @override
   String get ghbReferenceDay30 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Satu Bulan Tanpa GHB\n\nSumber: “Characterization of the GHB Withdrawal Syndrome”, PubMed Central\n\nPosisi Satu Bulan dalam Pemulihan\nPada satu bulan, fase akut dan berbahaya yang dijelaskan dalam studi ini sudah lama berlalu. Fase tersebut terutama terkonsentrasi pada hari-hari pertama, lalu diikuti periode penurunan dosis dan pemulihan dengan pengawasan yang rata-rata berlangsung sekitar dua setengah minggu. Keinginan menggunakan dan insomnia adalah risiko sisa utama untuk kembali menggunakan yang diidentifikasi saat pasien pulang.\n\nMengapa Dukungan Masih Membantu\nJika pada satu bulan masih ada keinginan menggunakan, suasana hati rendah, atau masalah tidur, hal itu sesuai dengan faktor risiko kembali menggunakan yang ditandai oleh penulis studi. Itulah sebabnya dukungan berkelanjutan dan rutinitas yang terstruktur tetap penting.';
 
   @override
   String get ghbReferenceDay90 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Tiga Bulan Tanpa GHB\n\nSumber: “Characterization of the GHB Withdrawal Syndrome”, PubMed Central\n\nTiga Bulan Pemulihan\nPada tiga bulan, sindrom putus GHB akut sudah lama selesai. Risiko sisa yang diidentifikasi saat pasien pulang adalah keinginan menggunakan dan insomnia, sehingga tiga bulan tanpa GHB memberi banyak waktu bagi tidur, kestabilan sistem otonom, dan rutinitas pencegahan kekambuhan untuk semakin kuat.\n\nYang Sering Dilaporkan\n• Suasana hati sehari-hari lebih tenang\n• Tidur lebih teratur\n• Pikiran lebih jernih dan keinginan menggunakan berkurang\n\nJika kecemasan, insomnia, atau suasana hati rendah masih menonjol pada tiga bulan, sebaiknya bicarakan dengan tenaga klinis daripada menganggapnya akan hilang sendiri.';
 
   @override
   String get ghbReferenceDay180 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Enam Bulan Tanpa GHB\n\nSumber: “Characterization of the GHB Withdrawal Syndrome”, PubMed Central\n\nSetengah Tahun Kemudian\nPada enam bulan, sindrom putus GHB akut sudah lama selesai dan pemulihan telah sepenuhnya bergeser dari detoksifikasi ke tidur yang stabil, pengelolaan keinginan menggunakan, dan pencegahan kekambuhan. Fase berbahaya yang melibatkan gangguan otonom dan risiko delirium berada pada hari-hari dan minggu-minggu awal, bukan pada tahap ini.\n\nGambaran Besarnya\nMelewati putus GHB dengan aman dan tetap tidak menggunakan selama setengah tahun adalah pencapaian besar mengingat betapa berbahayanya fase awal dan betapa nyata risiko kembali menggunakan, yang sebagian didorong oleh keinginan menggunakan dan insomnia yang menetap. Rutinitas dan dukungan yang membawa Anda sampai di sini layak dipertahankan.';
 
   @override
   String get inhalantsReferenceDay1 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Berhenti menggunakan inhalansia: hari pertama\n\nSumber: Radparvar, \"The Clinical Assessment and Treatment of Inhalant Abuse\", The Permanente Journal (2023), melalui PubMed Central\n\nMengapa putus zat terjadi\nPenggunaan inhalansia kronis menyebabkan neuroadaptasi: sistem saraf menjadi terbiasa dengan keberadaan zat. Banyak inhalansia memengaruhi sirkuit otak yang serupa dengan alkohol, sehingga berhenti menggunakannya dapat membuat otak sementara tidak seimbang. Zat kimia cepat keluar dari darah tetapi dapat tersimpan dalam lemak tubuh, sehingga waktu munculnya gejala putus zat sulit diprediksi.\n\nGejala awal\nTinjauan ini menggambarkan putus zat inhalansia sebagai kondisi yang mirip dengan putus alkohol atau benzodiazepin. Gejala yang dilaporkan meliputi:\n• Mual, muntah, dan berkeringat\n• Tremor dan detak jantung cepat\n• Insomnia dan gangguan tidur\n• Kecemasan dan mudah tersinggung\n\nCatatan keselamatan\nPada kasus yang lebih berat, tinjauan ini juga mencantumkan halusinasi, delusi, dan kejang sebagai gejala yang pernah dilaporkan. Namun, tidak ada jadwal harian yang pasti; gejala tersebut dapat terjadi, bukan bagian dari garis waktu tetap. Pengawasan medis saat detoksifikasi bijaksana, terutama bagi pengguna berat atau jangka panjang.';
 
   @override
   String get inhalantsReferenceDay7 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Satu minggu tanpa inhalansia\n\nSumber: Radparvar, \"The Clinical Assessment and Treatment of Inhalant Abuse\", The Permanente Journal (2023), melalui PubMed Central\n\nMasa akut\nDalam literatur klinis, putus zat inhalansia digambarkan mirip dengan putus alkohol atau benzodiazepin, tetapi umumnya berlangsung lebih singkat. Menjelang akhir minggu pertama, gejala fisik akut seperti mual, tremor, berkeringat, dan insomnia biasanya mulai mereda pada kebanyakan orang.\n\nYang mungkin masih terasa\n• Kelelahan dan kabut otak\n• Suasana hati rendah atau tidak stabil\n• Keinginan kuat untuk menggunakan kembali\n\nCatatan tentang abstinensi awal\nKabut otak pada tahap ini tidak berarti kerusakan permanen; otak masih menyesuaikan diri. Tonggak berikutnya membahas penelitian tentang bagaimana kemampuan berpikir dan ingatan pulih selama minggu dan bulan berikutnya.';
 
   @override
   String get inhalantsReferenceDay14 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Dua minggu tanpa inhalansia\n\nSumber: Radparvar, \"The Clinical Assessment and Treatment of Inhalant Abuse\", The Permanente Journal (2023), melalui PubMed Central\n\nMelewati fase akut\nTinjauan klinis menggambarkan putus zat inhalansia sebagai kondisi yang mirip dengan putus alkohol atau benzodiazepin, tetapi lebih singkat. Setelah dua minggu, mual, tremor, insomnia, dan kecemasan biasanya sudah mereda.\n\nJalan ke depan\nPerhatian, ingatan, gerakan, dan koordinasi pulih lebih bertahap selama beberapa bulan berikutnya. Abstinensi berkelanjutan memberi semua sistem ini waktu untuk membaik. Nutrisi yang baik, karena penggunaan inhalansia dapat menguras vitamin B12, serta tetap tidak menggunakan inhalansia membantu menciptakan kondisi untuk pemulihan.';
 
   @override
   String get inhalantsReferenceDay30 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Satu bulan tanpa inhalansia\n\nSumber: Dingwall dkk., \"Cognitive recovery during and after treatment for volatile solvent abuse\", Drug and Alcohol Dependence (2011), melalui PubMed\n\nPosisi satu bulan dalam pemulihan\nFase awal putus zat sudah jauh terlewati. Dalam penelitian ini, beberapa kemampuan belajar membaik dalam enam minggu, sedangkan koordinasi visual, ingatan, perencanaan, dan pengambilan keputusan membaik lebih bertahap selama bulan-bulan berikutnya.\n\nYang dapat membaik\n• Perhatian dan beberapa tugas belajar\n• Suasana hati dan tidur seiring tubuh menjadi lebih stabil\n• Kecepatan motorik, secara bertahap\n\nSinyal pemulihan\nKesimpulan penelitian ini jelas: ingatan, perencanaan, dan pengambilan keputusan membaik secara bertahap selama berbulan-bulan hingga bertahun-tahun abstinensi. Abstinensi berkelanjutan adalah pendorong terkuat pemulihan tersebut.';
 
   @override
   String get inhalantsReferenceDay90 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Tiga bulan tanpa inhalansia\n\nSumber: Dingwall dkk., \"Cognitive recovery during and after treatment for volatile solvent abuse\", Drug and Alcohol Dependence (2011), melalui PubMed\n\nProses yang tidak merata dan lebih panjang\nPenelitian ini mengikuti peserta setelah program perawatan delapan minggu dan menilai sebagian dari mereka lagi sekitar satu tahun kemudian. Beberapa kemampuan belajar membaik dalam enam minggu, sedangkan koordinasi visual, ingatan, perencanaan, dan pengambilan keputusan terus membaik dalam jangka yang lebih panjang.\n\nTetap di jalur\nPenelitian menunjukkan bahwa kemampuan yang pulih lebih lambat membaik secara bertahap selama berbulan-bulan hingga bertahun-tahun. Pada tiga bulan, abstinensi berkelanjutan tetap menjadi faktor terkuat untuk menambah pemulihan dari bulan ke bulan.';
 
   @override
   String get inhalantsReferenceDay365 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Satu tahun tanpa inhalansia\n\nSumber: \"A prospective study of neurocognitive changes 15 years after chronic inhalant abuse\", melalui PubMed\n\nPemulihan nyata dan terukur\nSebuah penelitian jangka panjang menemukan pemulihan besar dari gangguan otak dan kemampuan berpikir yang terkait dengan penggunaan inhalansia kronis setelah dua tahun abstinensi. Pada satu tahun, Anda sudah menempuh bagian penting dari jalur pemulihan itu.\n\nArtinya\nIngatan, perhatian, dan fungsi motorik terus membaik. Abstinensi jangka panjang memungkinkan pemulihan otak yang nyata: setelah dua tahun, sebagian besar skor fungsi otak, ingatan, dan kemampuan berpikir kembali ke kisaran normal pada pengguna kronis yang tidak mengalami kerusakan otak akibat timbal.';
 
   @override
   String get inhalantsReferenceDay730 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Dua tahun tanpa inhalansia\n\nSumber: \"A prospective study of neurocognitive changes 15 years after chronic inhalant abuse\", melalui PubMed\n\nTonggak dua tahun\nIni adalah tonggak utama dalam penelitian: defisit yang mencerminkan kerusakan otak akibat penggunaan pelarut jangka panjang menunjukkan pemulihan besar setelah dua tahun abstinensi. Para penulis menyimpulkan bahwa, tanpa kerusakan otak akibat bensin bertimbal, abstinensi jangka panjang dapat memungkinkan fungsi otak kembali normal.\n\nSinyal pemulihan\nPengecualian utama adalah kerusakan akibat penyalahgunaan bensin bertimbal, yang dapat menyebabkan defisit menetap. Di luar itu, dua tahun abstinensi merupakan kesempatan pemulihan otak yang paling terdokumentasi, bersama kehidupan yang dibangun kembali di sekitarnya.';
 
   @override
   String get ketamineReferenceDay1 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Berhenti ketamin: hari pertama\n\nSumber: “Ketamine-Induced Cystitis: A Comprehensive Review of the Urologic Effects of This Psychoactive Drug”, di PubMed Central\n\nGejala putus zat terutama bersifat psikologis\nTidak seperti opioid atau alkohol, ketamin jarang menyebabkan gejala putus zat fisik yang berat. Penghentian umumnya aman; orang lebih sering mengalami keinginan memakai dan ketergantungan psikologis daripada sakit secara fisik.\n\nYang mungkin Anda rasakan\n• Perubahan suasana hati dan suasana hati rendah\n• Keinginan memakai ketamin\n• Sesekali berkeringat atau jantung berdebar\n\nLangkah utama\nBagi siapa pun yang mengalami gejala kandung kemih, berhenti segera dan sepenuhnya adalah titik awal yang wajib untuk pemulihan — sehingga keputusan pada hari pertama sangat penting.';
 
   @override
   String get ketamineReferenceDay7 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Satu minggu tanpa ketamin\n\nSumber: “Ketamine-Induced Cystitis: A Comprehensive Review”, di PubMed Central\n\nFase psikologis\nTantangan utama pada awal berhenti ketamin bersifat psikologis: keinginan memakai, suasana hati berubah atau rendah, dan kabut otak. Gejala putus zat fisik, bila ada, biasanya ringan.\n\nKabut otak umum terjadi pada tahap ini — berkonsentrasi terasa lebih sulit, waktu reaksi melambat, dan ingatan jangka pendek dapat terasa kurang dapat diandalkan. Dampak pada pikiran dan ingatan ini membaik selama tidak memakai ketamin: sebuah studi longitudinal terhadap 114 pengguna ketamin menemukan peningkatan bermakna pada memori verbal, memori visual, kecepatan pemrosesan, serta perencanaan, fokus, dan pengambilan keputusan setelah 12 minggu tanpa ketamin.\n\nGejala kandung kemih\nJika Anda mengalami sistitis akibat ketamin (rasa ingin berkemih mendesak, sering berkemih, nyeri, atau darah dalam urine), berhenti sekarang memberi kandung kemih kesempatan terbaik untuk pulih. Nyeri dapat mendorong seseorang kembali memakai ketamin untuk mengobati diri sendiri — siklus yang lebih baik diputus dengan dukungan pengelolaan nyeri yang tepat.';
 
   @override
   String get ketamineReferenceDay14 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Dua minggu tanpa ketamin\n\nSumber: “Ketamine-Induced Cystitis: A Comprehensive Review”, di PubMed Central\n\nPikiran lebih jernih\nSetelah obat benar-benar keluar dari tubuh, kabut mental dan pikiran terputus-putus yang berkaitan dengan penggunaan ketamin secara teratur mulai berkurang. Ingatan dan konsentrasi membaik, dan suasana hati menjadi lebih stabil.\n\nPemulihan kandung kemih dimulai\nPada sistitis tahap awal, tinjauan tersebut menekankan bahwa berhenti ketamin adalah langkah terpenting untuk membalikkan gejala, dan berhenti lebih dini memberi peluang pemulihan terbaik sebelum kerusakan menjadi permanen. Dua minggu tanpa ketamin adalah awal proses tersebut.';
 
   @override
   String get ketamineReferenceDay30 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Satu bulan tanpa ketamin\n\nSumber: “Prevalence and Natural History of Urinary Symptoms Among Recreational Ketamine Users”, Winstock dkk., BJU International (2012)\n\nPemulihan kandung kemih\nLangkah terpenting untuk menangani sistitis akibat ketamin adalah berhenti memakai ketamin. Studi pada pengguna ketamin rekreasional ini menemukan bahwa 51% orang dengan gejala saluran kemih melaporkan perbaikan setelah berhenti, sedangkan kurang dari 4% memburuk. Semakin dini berhenti, semakin baik hasilnya.\n\nPikiran dan suasana hati\nKognisi dan suasana hati terus membaik pada satu bulan. Dukungan psikologis dan sosial meningkatkan peluang untuk tetap berhenti secara bermakna — penghentian lebih berhasil bila didukung.';
 
   @override
   String get ketamineReferenceDay90 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Tiga bulan tanpa ketamin\n\nSumber: “Ketamine-Induced Cystitis: A Comprehensive Review”, di PubMed Central\n\nPemulihan berlanjut\nPemulihan kandung kemih setelah ketamin sering berlangsung bertahap; tinjauan tersebut menggambarkan perbaikan tingkat keparahan gejala setelah berhenti, meski prosesnya dapat lama dan berbeda-beda. Tiga bulan memberi saluran kemih waktu berkelanjutan untuk pulih pada kasus yang merespons penghentian.\n\nPikiran\nPikiran dan suasana hati jauh lebih jernih dibandingkan pada awal berhenti, dan keinginan memakai lebih jarang. Gejala kandung kemih yang menetap atau berat sebaiknya dinilai oleh dokter urologi.';
 
   @override
   String get ketamineReferenceDay180 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Enam bulan tanpa ketamin\n\nSumber: “Ketamine-Induced Cystitis: A Comprehensive Review”, di PubMed Central\n\nSetengah tahun berlalu\nDengan terus tidak memakai ketamin, gejala kandung kemih terus membaik pada kasus yang merespons penghentian, sementara pikiran, ingatan, dan suasana hati tetap stabil. Dorongan untuk memakai jauh berkurang.\n\nTanda pemulihan\nPemulihan kerusakan kandung kemih yang sudah terjadi dapat tidak lengkap, sehingga berhenti lebih dini sangat penting. Apa pun tahap saat Anda berhenti, tetap tidak memakai ketamin memberi kandung kemih hasil terbaik yang mungkin.';
 
   @override
   String get ketamineReferenceDay365 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Satu tahun tanpa ketamin\n\nSumber: “Ketamine-Induced Cystitis: A Comprehensive Review”, di PubMed Central\n\nSatu tahun berlalu\nDua belas bulan tanpa ketamin memberi kandung kemih, pada kasus yang ditemukan sejak dini, kesempatan terluas untuk pulih dan membuat pikiran, ingatan, serta suasana hati tetap stabil dan jernih. Ketergantungan psikologis yang dahulu membuat berhenti terasa sulit sebagian besar telah mereda.\n\nGambaran besarnya\nSatu tahun tanpa ketamin adalah perubahan besar dalam kesehatan fisik, kejernihan pikiran, dan kemampuan menentukan arah sendiri. Mempertahankan dukungan yang membawa Anda sampai di sini membantu melindungi kemajuan tersebut.';
 
   @override
   String get ketamineReferenceDay730 =>
@@ -3604,31 +3576,31 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get kratomReferenceDay1 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Gejala Putus Kratom: Hari Pertama\n\nSumber: Swogger et al. (2022), “Understanding Kratom Use: A Guide for Healthcare Providers,” Frontiers in Pharmacology\n\nMengapa Gejala Putus Zat Terjadi\nSenyawa aktif kratom bekerja pada reseptor opioid yang sama seperti opioid klasik. Dengan penggunaan teratur, tubuh beradaptasi sehingga berhenti dapat memicu gejala putus zat mirip opioid. Panduan klinis ini menjelaskan ketergantungan dan gejala putus zat sebagai risiko yang diakui dari penggunaan kratom secara teratur.\n\nApa yang Ditunjukkan Bukti tentang Awal Gejala\nStudi hewan yang dikutip dalam panduan menunjukkan tanda putus zat fisik muncul dalam sekitar 12 jam, dengan efek mirip kecemasan terlihat pada 24 jam. Waktu pasti awal gejala pada manusia belum terlalu jelas, tetapi gejala awal yang umum dilaporkan meliputi:\n• Gelisah, cemas, dan mudah tersinggung\n• Nyeri otot dan pilek\n• Berkeringat dan mata berair\n• Keinginan kuat untuk menggunakan\n\nCatatan tentang Keparahan\nPanduan mencatat bahwa durasi penggunaan yang lebih lama dan dosis yang lebih tinggi berkaitan dengan gejala putus zat yang lebih berat dan lebih lama. Bantuan medis dengan pengawasan layak dipertimbangkan, terutama bila kratom digunakan dalam dosis tinggi atau bersama opioid.';
 
   @override
   String get kratomReferenceDay3 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Gejala Putus Kratom: Hari-Hari Tersulit\n\nSumber: Singh et al. (2014), Drug and Alcohol Dependence — survei terhadap 293 pengguna kratom teratur di Malaysia\n\nApa yang Ditunjukkan Bukti\nAlih-alih menemukan satu “hari puncak” tertentu, survei ini menunjukkan bahwa beratnya gejala putus zat berkaitan dengan seberapa banyak dan seberapa lama seseorang menggunakan kratom. Orang yang minum tiga gelas atau lebih kratom setiap hari memiliki kemungkinan jauh lebih tinggi mengalami ketergantungan berat dan gejala putus zat yang lebih sulit. Bagi kebanyakan orang, beberapa hari pertama setelah berhenti adalah masa yang paling berat.\n\nGejala yang Umum Dilaporkan\n• Nyeri otot dan sendi, kaki gelisah\n• Insomnia meski kelelahan\n• Mual, kram perut, dan diare\n• Cemas, suasana hati rendah, dan mudah tersinggung\n• Keinginan kuat untuk menggunakan\n\nMenjalani Fase Ini\nCukup cairan, istirahat, dan dukungan untuk gejala dapat membantu. Jika gejala putus zat sejauh ini terasa berat, hal itu lebih sesuai dengan penggunaan yang lebih banyak atau lebih lama daripada tanda bahwa ada sesuatu yang tidak biasa, dan biasanya mulai mereda dari sini.';
 
   @override
   String get kratomReferenceDay7 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Satu Minggu Tanpa Kratom\n\nSumber: Swogger et al. (2022), “Understanding Kratom Use: A Guide for Healthcare Providers,” Frontiers in Pharmacology\n\nSetelah Fase Akut\nData laporan diri manusia yang dikutip dalam panduan menunjukkan bahwa gejala putus zat mereda dalam sekitar satu hingga tiga hari bagi kebanyakan orang yang berhenti. Pada satu minggu, gejala fisik akut — nyeri otot, berkeringat, dan mual — biasanya sudah mereda pada mayoritas. Yang masih dapat tersisa lebih bersifat psikologis: kelelahan, tidur terganggu, dan suasana hati rendah, sementara reseptor opioid yang sebelumnya dirangsang kratom kembali menyesuaikan diri dengan sinyal tubuh sendiri.\n\nRisiko yang Nyata\nPanduan juga mencatat bahwa sebagian kecil orang merasa sangat sulit berhenti dari kratom, dengan gejala putus zat yang lebih berat dan lama pada pengguna yang lebih berat dan lebih lama. Minggu ini merupakan titik yang cukup umum untuk kembali menggunakan, sementara toleransi turun cepat. Kembali ke dosis sebelumnya, terutama bila opioid juga terlibat, dapat benar-benar berbahaya.';
 
   @override
   String get kratomReferenceDay14 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Dua Minggu Tanpa Kratom\n\nSumber: National Institute on Drug Abuse (NIDA), “Kratom”\n\nDi Luar Rentang yang Diteliti\nData manusia terkontrol tentang waktu gejala putus kratom umumnya hanya mencakup beberapa hari pertama, sehingga belum ada penelitian yang mapan yang menetapkan dua minggu sebagai tonggak tertentu. Yang terdokumentasi adalah pola yang lebih luas: kratom bekerja pada reseptor opioid yang sama seperti opioid klasik, dan ketika penggunaan teratur berhenti, reseptor tersebut perlahan memulihkan kepekaannya terhadap sinyal tubuh sendiri.\n\nHal yang Umum Dilaporkan\n• Nafsu makan dan energi sering membaik\n• Tidur cenderung menjadi lebih teratur\n• Suasana hati biasanya lebih stabil, meski masih dapat berubah\n\nKeinginan menggunakan masih dapat dipicu oleh stres dan pemicu yang familiar, sehingga memiliki rencana untuk menghadapinya tetap berguna.';
 
   @override
   String get kratomReferenceDay30 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Satu Bulan Tanpa Kratom\n\nSumber: National Institute on Drug Abuse (NIDA), “Kratom”\n\nSistem Imbalan Mulai Pulih\nNIDA menjelaskan bahwa kratom bekerja pada reseptor opioid di otak, dengan ketergantungan dan gejala putus zat sebagai risiko yang diakui dari penggunaan teratur. Tidak ada penelitian khusus yang menetapkan satu bulan sebagai titik pemulihan tertentu, tetapi pola umum pada ketergantungan berbasis reseptor opioid adalah respons otak terhadap kesenangan sehari-hari perlahan kembali mendekati normal selama tidak menggunakan secara berkelanjutan.\n\nYang Dapat Dibangun dalam Sebulan\nSebulan tanpa kratom berarti sebulan dengan tidur, makan, dan rutinitas yang konsisten menggantikan waktu dan tenaga yang dulu dibutuhkan untuk penggunaan. Keinginan menggunakan cenderung datang lebih jarang dan terasa lebih mudah dikelola, meski saat stres tinggi tetap menjadi waktu yang paling rentan.';
 
   @override
   String get kratomReferenceDay90 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Tiga Bulan Tanpa Kratom\n\nSumber: National Institute on Drug Abuse (NIDA), “Kratom”\n\nKondisi Sehari-hari Lebih Stabil\nKratom bekerja pada reseptor opioid, sehingga tiga bulan tanpa kratom memberi sistem imbalan dan stres otak waktu berkelanjutan untuk menjadi lebih tenang. Banyak orang melaporkan pikiran yang lebih jernih dan motivasi yang lebih stabil semakin jauh mereka dari penggunaan aktif.\n\nMengapa Ini Penting\nSemakin lama sejak penggunaan terakhir, dorongan kratom dalam keseharian cenderung makin memudar. Tonggak ini dapat menjadi fondasi yang kuat untuk pemulihan jangka panjang.';
 
   @override
   String get kratomReferenceDay365 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Satu Tahun Tanpa Kratom\n\nSumber: National Institute on Drug Abuse (NIDA), “Kratom”\n\nJauh Melewati Fase Putus Akut\nNIDA tidak menerbitkan jadwal pemulihan kratom khusus untuk satu tahun, tetapi setahun tanpa penggunaan secara berkelanjutan jauh melampaui periode putus akut dan psikologis awal yang terdokumentasi dalam penelitian kratom. Bagi kebanyakan orang yang mencapai titik ini, keinginan menggunakan jarang muncul dan jauh lebih mudah dikelola.\n\nGambaran yang Lebih Besar\nSetahun tanpa kratom mencerminkan perubahan besar dalam kesehatan, keuangan, dan arah hidup. Tetap terhubung dengan dukungan membantu menjaga kemajuan itu.';
 
   @override
   String get kratomReferenceDay730 =>
@@ -3648,131 +3620,131 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get maoiReferenceDay3 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Penghentian MAOI: Fase Risiko Tertinggi\n\nSumber: Dilsaver (1988), penelitian tentang reaksi putus MAOI\n\nPeringatan Keselamatan Penting\nMAOI memiliki risiko penghentian paling serius di antara kelas antidepresan. Penghentian mendadak — terutama phenelzine dan tranylcypromine — dapat menimbulkan reaksi berat, termasuk:\n• Kecemasan dan agitasi berat\n• Bicara terdesak dan gelisah\n• Sulit tidur atau mengantuk\n• Halusinasi\n• Delirium dan psikosis paranoid\n\nJika Anda mengalami gejala-gejala ini, segera cari pertolongan medis.\n\nCara Kerja MAOI\nMAOI bekerja dengan berikatan secara ireversibel dengan enzim monoamine oxidase (MAO-A dan MAO-B) dan menonaktifkannya. Enzim ini biasanya memecah serotonin, norepinefrin, dopamin, dan tiramin di otak dan usus. Karena enzimnya sendiri dinonaktifkan, bukan sekadar diblokir sementara, pemulihan bergantung pada tubuh yang membuat enzim baru, bukan pada seberapa cepat obat keluar dari aliran darah.';
 
   @override
   String get maoiReferenceDay7 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Satu Minggu Setelah MAOI: Sintesis Enzim MAO Berlangsung\n\nSumber: \"Monoamine Oxidase Inhibitors (MAOIs)\" (StatPearls, NCBI Bookshelf)\n\nProses Pemulihan Enzim\nBerbeda dengan SSRI, SNRI, dan TCA — yang menghambat reuptake zat kimia otak secara reversibel — MAOI ireversibel seperti phenelzine dan tranylcypromine menonaktifkan molekul enzim monoamine oxidase secara menetap. Karena itu, masa washout klinis ditentukan oleh seberapa cepat tubuh dapat membuat enzim baru — sekitar 2 minggu — bukan oleh seberapa cepat obat keluar dari aliran darah.\n\nYang Terjadi Setelah Satu Minggu\n• Sintesis enzim MAO-A dan MAO-B sudah berjalan baik, kira-kira di pertengahan rentang resintesis sekitar 2 minggu\n• Fase risiko akut yang dijelaskan pada hari ke-3 mulai berlalu, tetapi pengawasan medis yang ketat tetap penting\n\nPerhatian Diet\nPengobatan MAOI memerlukan diet rendah tiramin karena enzim ini biasanya memecah tiramin dan mencegahnya memicu krisis hipertensi. Pedoman umumnya adalah tetap mengikuti pembatasan diet selama masa resintesis ini; dokter Anda akan memberi tahu kapan pembatasan tersebut aman untuk dilonggarkan.';
 
   @override
   String get maoiReferenceDay14 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Dua Minggu Setelah MAOI: Aktivitas Enzim MAO Sebagian Besar Pulih\n\nSumber: Fritz dkk. (1983), Biological Psychiatry\n\nTitik Penting Dua Minggu\nDua minggu adalah masa washout klinis standar untuk pemulihan enzim MAO setelah penghentian MAOI ireversibel seperti tranylcypromine atau phenelzine. Dalam penelitian terhadap tranylcypromine, aktivitas katalitik MAO-B pada trombosit — yang turun tajam dalam satu hari setelah pemberian obat — kembali normal dalam kira-kira dua minggu ketika tubuh mengganti trombosit yang terpengaruh obat dengan trombosit baru yang membawa enzim aktif, meskipun kadar total protein MAO-B tidak berubah.\n\nPemulihan Enzim MAO\n• Aktivitas MAO-B pada trombosit telah pulih secara substansial pada tahap ini\n• MAO-A dan MAO-B di otak, yang secara umum mengikuti rentang resintesis serupa, juga sebagian besar telah pulih\n• Metabolisme tiramin normal mulai terbentuk kembali; pembatasan diet MAOI biasanya dapat dilonggarkan setelah berkonsultasi dengan dokter\n\nKeseimbangan Kimia Otak Kembali\nSeiring pulihnya aktivitas enzim MAO, sistem kimia otak yang dipengaruhi MAOI mulai kembali berada di bawah pengaturan alami:\n• Serotonin, norepinefrin, dan dopamin tidak lagi ditingkatkan oleh penghambatan MAO\n• Hipersensitivitas reseptor monoamina akibat peningkatan kadar monoamina selama penggunaan MAOI mulai mereda\n• Pengaturan alami suasana hati dan energi mulai kembali';
 
   @override
   String get maoiReferenceDay30 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Satu Bulan Setelah MAOI: Sistem Kimia Otak Menyeimbangkan Kembali\n\nSumber: \"Monoamine Oxidase Inhibitors (MAOIs)\" (StatPearls, NCBI Bookshelf)\n\nPenilaian Satu Bulan\nSatu bulan setelah penghentian MAOI sudah jauh melewati rentang resintesis enzim MAO sekitar 2 minggu yang dijelaskan sumber ini. Pada tahap ini aktivitas enzim MAO telah pulih dan sistem kimia otak kembali berada di bawah pengaturan alami.\n\nYang Telah Pulih Setelah Satu Bulan\n• Aktivitas enzim MAO lengkap: MAO-A dan MAO-B kembali berfungsi\n• Pembatasan diet selesai: pola makan biasa tanpa pembatasan tiramin\n• Pemecahan serotonin alami: siklus pergantian serotonin normal di otak kembali berjalan\n• Pengaturan katekolamin alami: kadar dopamin dan norepinefrin kembali diatur oleh aktivitas MAO alami\n\nPerhatian Interaksi Obat\nMAOI dapat berinteraksi secara berbahaya dengan obat serotonergik. Risiko interaksi yang terkait dengan masa washout telah berlalu pada titik satu bulan. Namun, selalu beri tahu dokter dan apoteker tentang riwayat penggunaan MAOI ketika obat baru diresepkan.';
 
   @override
   String get maoiReferenceDay90 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Tiga Bulan Setelah MAOI: Jauh Melewati Fase Putus Akut\n\nSumber: \"Antidepressant Withdrawal Syndrome,\" Therapeutics Letter 112 (2018), Therapeutics Initiative, di NCBI Bookshelf\n\nGejala Putus pada Berbagai Kelas Antidepresan\nTinjauan bukti ini membahas gejala putus antidepresan sebagai fenomena nyata yang berkaitan dengan toleransi dan ketergantungan. Bukti terperincinya terutama berfokus pada SSRI dan SNRI, tetapi reaksi putus diakui pada berbagai kelas antidepresan, termasuk setelah MAOI dihentikan. Gejala \"biasanya muncul dalam beberapa hari setelah berhenti\" dan \"sebagian besar… hilang dalam 2 minggu\", walaupun pada sebagian orang berlangsung lebih lama.\n\nPosisi Tiga Bulan\nPada tiga bulan, fase putus akut sudah jauh berlalu bagi sebagian besar orang, dan tubuh sudah lama menyesuaikan diri untuk mengatur monoamina tanpa penghambatan MAO.\n\nSinyal Pemulihan dan \"Resensitisasi Reseptor\"\nMengatakan dengan pasti bahwa semua reseptor serotonin, norepinefrin, dan dopamin telah \"kembali sensitif dalam tiga bulan\" melampaui apa yang dapat dipastikan oleh bukti. Yang dapat diandalkan adalah bahwa fase putus biasanya telah selesai, dan bagi kebanyakan orang suasana hati, energi, serta rentang emosi sedang stabil dengan pensinyalan otak yang alami dan teratur sendiri.\n\nGejala Putus atau Kekambuhan\nTherapeutics Letter menekankan pentingnya membedakan gejala putus dari kembalinya kondisi yang mendasarinya. Jika gejala masih bertahan pada tiga bulan, tinjau bersama dokter Anda alih-alih menganggap semuanya hanya gejala putus.';
 
   @override
   String get maoiReferenceDay180 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Enam Bulan Setelah MAOI: Pemulihan Jangka Panjang\n\nSumber: Zwiebel & Viguera (2022), Cleveland Clinic Journal of Medicine\n\nPenilaian Enam Bulan\nTinjauan ini menjelaskan bahwa antidepresan bekerja sebagian dengan menyebabkan downregulation reseptor monoamina dari waktu ke waktu, dan proses ini membutuhkan waktu berminggu-minggu hingga berbulan-bulan untuk berbalik setelah obat dihentikan — lebih lambat daripada resintesis enzim MAO yang berlangsung kira-kira dua minggu.\n\nPosisi Enam Bulan\nEnam bulan sudah jauh melewati rentang penyesuaian reseptor selama berminggu-minggu hingga berbulan-bulan bagi sebagian besar orang, sementara aktivitas enzim telah kembali normal dalam bulan pertama. Rentang waktu yang tepat untuk resensitisasi penuh reseptor serotonin, norepinefrin, dan dopamin tidak ditetapkan secara pasti dari hari ke hari dalam literatur. Yang dapat diandalkan adalah bahwa pada enam bulan, kebanyakan orang berfungsi dengan pensinyalan otak yang alami dan teratur sendiri.\n\nCatatan tentang Phenethylamine\nMAOI juga menghambat pemecahan phenethylamine (PEA), trace amine yang berkaitan dengan suasana hati dan energi. Metabolismenya diperkirakan kembali normal seiring pemulihan umum enzim MAO, tetapi — seperti resensitisasi reseptor — literatur penelitian tidak menetapkan rentang waktu khusus PEA yang presisi.';
 
   @override
   String get maoiReferenceDay365 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Satu Tahun Setelah MAOI: Satu Tahun Pemulihan\n\nSumber: \"Monoamine Oxidase Inhibitors (MAOIs)\" (StatPearls, NCBI Bookshelf)\n\nSatu Tahun: Pencapaian Besar\nMenyelesaikan satu tahun setelah penghentian MAOI adalah tonggak yang sangat berarti. MAOI termasuk antidepresan yang proses penghentiannya menuntut perhatian khusus karena mekanismenya yang ireversibel, diet rendah tiramin yang ketat, dan kewaspadaan terhadap interaksi obat yang berbeda dari kelas antidepresan lain.\n\nMakna Satu Tahun Ini\n• Satu tahun penuh aktivitas monoamine oxidase yang alami dan teratur sendiri, setelah resintesis enzim selesai pada bulan pertama\n• Kemampuan yang telah terbukti untuk menjaga kesejahteraan tanpa penghambatan MAO oleh obat\n• Riwayat yang cukup panjang untuk yakin bahwa risiko penghentian akut pada hari ke-3 sudah jauh berlalu\n\nCatatan tentang MAOI\nMAOI tetap sangat efektif untuk kondisi tertentu yang resisten terhadap pengobatan dan untuk depresi atipikal. Penghentian yang berhasil tidak mengurangi nilai MAOI sebagai obat; hal itu menunjukkan kemampuan otak untuk pulih dan kemampuan pasien menjalani proses medis yang sangat menuntut. Satu kewaspadaan jangka panjang: terus beri tahu dokter baru atau dokter anestesi tentang riwayat penggunaan MAOI, karena beberapa risiko interaksi obat tetap layak diinformasikan.';
 
   @override
   String get marijuanaReferenceDay1 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Putus kanabis: Hari pertama\n\nSumber: “The cannabis withdrawal syndrome: current insights,” Substance Abuse and Rehabilitation (2017), di PubMed Central\n\nPutus kanabis itu nyata\nTinjauan sejawat ini menegaskan bahwa Cannabis Withdrawal Syndrome (CWS) adalah kondisi klinis yang telah tervalidasi dengan baik dan terjadi pada sekitar 90% orang yang didiagnosis ketergantungan kanabis setelah berhenti. Tingkat keparahan puncaknya rata-rata sebanding dengan sindrom putus tembakau.\n\nMengapa putus zat terjadi\nTHC bekerja pada sistem endokanabinoid, termasuk reseptor CB1 yang berperan dalam suasana hati, nafsu makan, tidur, memori, dan stres. Pada penggunaan kronis, otak menurunkan aktivitas sistem ini; ketika kanabis dihentikan, sistem tersebut untuk sementara menjadi kurang aktif. Tinjauan ini mencatat bahwa fungsi reseptor CB1 kembali menuju normal dalam sekitar empat minggu abstinensi.\n\nAwal pada hari pertama\nTinjauan tersebut mencatat bahwa gejala fisik cenderung muncul lebih dulu, dalam 1–3 hari sejak penggunaan terakhir, sedangkan gejala psikologis muncul selama 2–10 hari. Gejala awal meliputi:\n• Mudah tersinggung, cemas, dan gelisah\n• Sulit tidur\n• Nafsu makan menurun\n• Ketegangan fisik, berkeringat, atau menggigil\n• Suasana hati tertekan\n\nKeparahan\nCWS tidak berbahaya secara medis dan gejalanya biasanya ringan hingga sedang, tetapi tinjauan ini mencatat bahwa gejalanya dapat cukup mengganggu untuk memicu kekambuhan. Karena itu, memahami garis waktunya penting.';
 
   @override
   String get marijuanaReferenceDay3 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Garis waktu putus kanabis: Hari-hari awal\n\nSumber: “Time-course of the DSM-5 cannabis withdrawal symptoms in poly-substance abusers,” BMC Psychiatry (2013), di PubMed Central\n\nPerjalanan waktu yang terukur\nStudi ini melacak gejala putus kanabis DSM-5 pada 90 pasien selama empat minggu dan memberikan gambaran yang jelas tentang bagaimana gejala meningkat lalu mereda. Keparahan keseluruhan mengikuti kurva: naik, lalu menurun pada minggu-minggu berikutnya.\n\nGejala yang memuncak lebih awal\nBeberapa gejala fisik yang paling mengganggu memuncak dalam beberapa hari pertama setelah berhenti:\n• Insomnia — memuncak sekitar hari ke-1\n• Gugup — memuncak sekitar hari ke-4\n• Suasana hati tertekan dan gejala fisik — memuncak sekitar hari ke-5\n• Gelisah — memuncak sekitar hari ke-6\n\nGejala yang memuncak lebih lambat\nStudi menemukan bahwa sebagian gejala muncul dan memuncak setelah minggu pertama:\n• Mimpi yang jelas dan tidak menyenangkan — memuncak sekitar hari ke-11\n• Mudah tersinggung dan marah — memuncak sekitar hari ke-14\n\nTidur dan kanabis\nMimpi yang jelas dan terlambat mencerminkan rebound REM: kanabis menekan tidur REM selama penggunaan, lalu otak mengompensasi setelah penggunaan berhenti. Para penulis menilai gejala ini cukup umum untuk termasuk dalam kriteria resmi putus zat.\n\nMakna hari ketiga\nPada hari ketiga, Anda berada di tengah puncak fisik awal. Insomnia, kegugupan, dan kegelisahan mendekati titik terberat. Kurva yang konsisten dan dapat diprediksi itu sendiri menenangkan: gejala ini memiliki perjalanan yang diketahui dan kemudian mereda.';
 
   @override
   String get marijuanaReferenceDay7 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Satu minggu tanpa kanabis: Melewati bagian terberat\n\nSumber: “The cannabis withdrawal syndrome: current insights,” Substance Abuse and Rehabilitation (2017), di PubMed Central\n\nPosisi satu minggu dalam sindrom putus zat\nTinjauan ini mencatat bahwa sindrom putus kanabis biasanya berlangsung hingga sekitar tiga minggu, dengan masa paling mengganggu berada antara minggu pertama dan ketiga. Pada satu minggu, gejala fisik awal seperti insomnia, hilang nafsu makan, dan gelisah biasanya sudah melewati puncaknya dan mulai mereda.\n\nYang masih menyesuaikan\nTinjauan membedakan gejala fisik yang memuncak lebih awal dari gejala psikologis yang memuncak lebih lambat. Pada satu minggu:\n• Ketidaknyamanan fisik dan nafsu makan umumnya mulai membaik\n• Tidur masih terganggu pada banyak orang, dengan mimpi jelas akibat rebound REM yang sering memuncak sekitar waktu ini\n• Mudah tersinggung dan perubahan suasana hati dapat tetap meningkat karena cenderung memuncak lebih lambat dalam dua minggu pertama\n\nNeurobiologi pemulihan\nDi balik perubahan ini, tinjauan mencatat bahwa reseptor CB1 yang sebelumnya menurun aktivitasnya kembali menuju fungsi normal dalam sekitar empat minggu abstinensi. Setelah satu minggu, proses pengaturan ulang ini sudah berlangsung meski beberapa gejala masih menetap.\n\nIntinya\nMencapai satu minggu berarti puncak fisik akut sudah terlewati. Gejala tidur dan suasana hati yang tersisa merupakan bagian dari sindrom dengan perjalanan yang diketahui dan terbatas, yang terus mereda selama beberapa minggu berikutnya.';
 
   @override
   String get marijuanaReferenceDay14 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Dua minggu tanpa kanabis: Putus zat akut berakhir\n\nSumber: Budney, AJ et al. (2003) — studi sejawat tentang perjalanan waktu putus kanabis\n\nTemuan penelitian\nStudi sejawat ini mendokumentasikan secara sistematis perjalanan gejala putus kanabis pada pengguna rutin. Hasilnya menunjukkan bahwa sindrom putus zat akut memuncak dalam minggu pertama dan sebagian besar mereda dalam dua minggu setelah berhenti untuk kebanyakan gejala.\n\nYang sebagian besar mereda pada dua minggu\nStudi mencatat bahwa pada hari ke-14, gejala berikut sebagian besar telah mereda pada peserta:\n• Ketidaknyamanan dan gejala fisik\n• Gangguan nafsu makan\n• Sebagian besar gangguan tidur\n• Puncak mudah tersinggung dan kecemasan\n\nYang dapat bertahan lebih dari dua minggu\nPenelitian juga menemukan gejala yang pada sebagian pengguna bertahan melewati dua minggu:\n• Suasana hati tertekan\n• Kesulitan berkonsentrasi\n• Kualitas tidur, meski membaik\n\nMakna dua minggu\nMelewati dua minggu penting karena berarti sindrom putus zat akut sebagian besar telah selesai. Tantangan setelah titik ini terutama berkaitan dengan pemulihan otak jangka panjang dan mengelola alasan yang mendasari penggunaan kanabis, bukan lagi respons fisiologis akut terhadap penghentian.';
 
   @override
   String get marijuanaReferenceDay30 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Satu bulan tanpa kanabis: Fungsi memori membaik\n\nSumber: Pope et al. (2001), Archives of General Psychiatry\n\nKanabis dan memori: Masalahnya\nStudi ini mengikuti pengguna kanabis berat jangka panjang selama 28 hari abstinensi yang terkonfirmasi dan membandingkan hasil tes berpikir dan memori mereka dengan pengguna ringan dan bukan pengguna. Pada awal abstinensi, serta pada hari ke-1 dan ke-7, pengguna berat tampil lebih buruk daripada kelompok kontrol dalam mengingat daftar kata. Defisit ini berkaitan dengan kadar metabolit THC dalam urine, yang lebih mencerminkan paparan baru-baru ini daripada total penggunaan seumur hidup.\n\nKabar baik: Pemulihan pada hari ke-28\nPada hari ke-28, pengguna berat, pengguna ringan, dan bukan pengguna menunjukkan hasil yang hampir sama pada tes berpikir dan memori dalam studi. Pada titik itu juga tidak ditemukan hubungan bermakna antara total penggunaan kanabis seumur hidup dan hasil tes.\n\nArtinya pada 30 hari\n• Pembelajaran verbal dan daya ingat kembali ke tingkat kelompok kontrol\n• Defisit sisa yang terlihat pada minggu pertama telah mereda\n• Defisit sebelumnya berkaitan dengan paparan baru-baru ini, bukan kerusakan permanen\n\nApa yang ditunjukkan bukti\nPada hari ke-28, pengguna berat hampir tidak dapat dibedakan dari pengguna ringan dan bukan pengguna pada seluruh rangkaian tes berpikir dan memori. Defisit pembelajaran verbal dan daya ingat yang terlihat pada minggu pertama telah pulih ke tingkat kelompok kontrol.';
 
   @override
   String get marijuanaReferenceDay60 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Dua bulan tanpa kanabis: Konsentrasi meningkat\n\nSumber: Roten et al. (2015), Addictive Behaviors\n\nPertanyaan penelitian\nStudi penghentian kanabis pada remaja dan dewasa muda ini melacak skor tes memori dan berpikir bersama tes urine selama sekitar dua bulan, membandingkan pengguna yang terus memakai dengan orang yang baru berhenti atau tetap abstinen.\n\nTemuan utama\nAbstinensi yang konsisten dikaitkan dengan peningkatan bermakna pada:\n• Skor memori gabungan\n• Memori verbal secara khusus — domain yang paling terdampak\n• Kinerja gerak dan kecepatan reaksi\n\nPada dua bulan\nSetelah kira-kira delapan minggu abstinensi yang konsisten, skor memori serta kinerja gerak dan kecepatan reaksi meningkat secara terukur dibanding saat penggunaan aktif, dan perubahan itu lebih erat mengikuti konfirmasi tidak menggunakan daripada sekadar berjalannya waktu.\n\nApa yang ditunjukkan studi\nPada remaja dan dewasa muda dengan ketergantungan kanabis, abstinensi yang konsisten menghasilkan peningkatan bermakna pada memori gabungan, memori verbal, serta kinerja gerak dan kecepatan reaksi selama kira-kira dua bulan masa penelitian.';
 
   @override
   String get marijuanaReferenceDay90 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Tiga bulan tanpa kanabis: Suasana hati lebih stabil\n\nSumber: Connor et al. (2022), Addiction — tinjauan klinis tentang putus kanabis\n\nSeperti apa garis waktu putus zat\nTinjauan ini menjelaskan bahwa gejala putus kanabis biasanya dimulai 24–48 jam setelah berhenti dan memuncak sekitar hari ke-2 hingga ke-6. Marah, agresivitas, dan suasana hati tertekan dapat muncul sejak satu minggu, tetapi biasanya memuncak setelah sekitar dua minggu abstinensi; gangguan tidur khususnya dapat bertahan lebih lama daripada gejala lain.\n\nPosisi tiga bulan\nPada tiga bulan, Anda sudah jauh melewati perjalanan putus zat yang terdokumentasi: gejala biasanya mulai dalam 24–48 jam, memuncak sekitar hari ke-2 hingga ke-6, dan gejala suasana hati serta tidur yang lebih lambat pun memuncak dalam minggu-minggu berikutnya. Sembilan puluh hari memberi efek suasana hati dan tidur yang dipicu putus zat waktu berbulan-bulan untuk mereda.\n\nCatatan tentang sistem endokanabinoid\nPenelitian putus kanabis juga menunjukkan bahwa reseptor CB1 yang aktivitasnya menurun kembali menuju fungsi normal dalam sekitar empat minggu abstinensi. Pada 90 hari, Anda sudah jauh melewati jendela pemulihan reseptor tersebut.\n\nKe depan\nTinjauan juga membahas prognosis setelah detoksifikasi dan pencegahan kekambuhan, menegaskan bahwa dukungan berkelanjutan dan strategi koping tetap penting jauh setelah masa putus zat akut.';
 
   @override
   String get marijuanaReferenceDay180 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Enam bulan tanpa kanabis: Perencanaan dan pengambilan keputusan pulih\n\nSumber: Crean, Crane & Mason (2011), Journal of Addiction Medicine\n\nPerencanaan dan keputusan setelah kanabis\nTinjauan ini memeriksa perhatian, pengambilan keputusan, pengendalian diri, memori kerja, dan kefasihan verbal dari jam-jam pertama setelah penggunaan hingga abstinensi jangka panjang. Pada enam bulan, Anda sudah jauh melewati efek jangka pendek dan berada jauh dalam masa pemulihan.\n\nTemuan penelitian\nSejumlah masalah yang terkait penggunaan berat berkurang dengan abstinensi berkelanjutan, dan beberapa studi menemukan pemulihan pada 28 hari. Area yang paling lambat pulih setelah penggunaan berat yang dimulai sejak muda meliputi:\n• Pengambilan keputusan dan kecenderungan mengambil risiko — khusus disebut sebagai domain yang defisitnya dapat bertahan jangka panjang pada pengguna berat kronis\n• Penalaran abstrak dan kemampuan verbal — terutama terganggu pada orang dewasa yang mulai menggunakan sebelum usia 17 tahun\n\nPemulihan setelah penggunaan dini\nEnam bulan jauh melampaui efek jangka pendek yang dibahas dalam tinjauan ini. Perencanaan, pengambilan keputusan, dan penalaran terus membaik dengan abstinensi berkelanjutan, sehingga mempertahankan abstinensi menjadi jalur terkuat menuju pemulihan lebih lanjut.\n\nGambaran lebih luas\nUntuk penggunaan lebih ringan yang dimulai saat dewasa, prospeknya lebih baik. Banyak orang pada enam bulan melaporkan pikiran lebih jernih, keputusan lebih stabil, dan rasa pengarahan diri yang lebih kuat. Kemajuan terbesar datang dari tetap abstinen, terutama setelah penggunaan berat atau yang dimulai sejak muda.';
 
   @override
   String get marijuanaReferenceDay365 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Satu tahun tanpa kanabis: Struktur otak pulih\n\nSumber: “Hippocampal harms, protection and recovery following regular cannabis use,” Translational Psychiatry (2016), di PubMed Central\n\nPerubahan struktur akibat kanabis\nStudi pemindaian otak ini meneliti hipokampus, area otak yang penting bagi memori, pada pengguna aktif, mantan pengguna, dan bukan pengguna. Pengguna aktif yang tidak terpapar CBD memiliki hipokampus sekitar 11% lebih kecil dan penanda kesehatan sel otak sekitar 15% lebih rendah daripada kelompok kontrol.\n\nTemuan utama: Pemulihan dengan abstinensi\nAnalisis pencocokan kurva mendukung model “perlindungan dan pemulihan”. Yang penting, mantan pengguna yang telah abstinen rata-rata sekitar 29 bulan tidak berbeda dari bukan pengguna pada ukuran integritas apa pun. Para penulis menyimpulkan bahwa gangguan area memori terkait THC “dapat pulih dengan periode abstinensi yang panjang.”\n\nPemulihan otak selama satu tahun dan seterusnya\nPada satu tahun tanpa kanabis, sistem memori otak sudah jauh memasuki pemulihan: ukuran hipokampus dan kesehatan sel otak bergerak kembali menuju normal, mendukung memori dan kendali emosi.\n\nSinyal pemulihan\nMantan pengguna yang abstinen sekitar 29 bulan setara dengan bukan pengguna pada ukuran kesehatan hipokampus dalam studi. Pada satu tahun, sistem memori sudah bergerak sepanjang jalur pemulihan yang terdokumentasi menuju normal.';
 
   @override
   String get mdmaReferenceDay1 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Setelah MDMA: Fase Comedown\n\nSumber: Meyer (2013), \"3,4-Methylenedioxymethamphetamine (MDMA): Current Perspectives,\" Substance Abuse and Rehabilitation\n\nMengapa Suasana Hati Menurun\nMDMA bekerja dengan memicu pelepasan serotonin dalam jumlah besar, disertai sebagian dopamin. Setelah itu, serotonin di otak untuk sementara berkurang. Tinjauan ini menjelaskan penurunan suasana hati, yang disebut “midweek blues”, yang diukur pada pengguna baru maupun berpengalaman 2–5 hari setelah penggunaan.\n\nYang Membantu\n• Cukup minum dan makan bergizi\n• Tidur\n• Bersabar — penurunan ini berkaitan dengan pengurangan sementara, bukan keadaan permanen\n\nComedown setelah satu kali penggunaan berbeda dari putus zat yang terkait ketergantungan. Tinjauan yang sama menggambarkan pola ketergantungan dapat melibatkan keinginan memakai lagi, tetapi bukan gejala fisik yang berat.';
 
   @override
   String get mdmaReferenceDay3 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Beberapa Hari Setelah MDMA\n\nSumber: Meyer (2013), \"3,4-Methylenedioxymethamphetamine (MDMA): Current Perspectives,\" Substance Abuse and Rehabilitation\n\nMidweek Blues\nIni kira-kira rentang waktu yang dimaksud tinjauan tersebut ketika membahas “midweek blues”: penurunan suasana hati yang diukur 2–5 hari setelah penggunaan pada pengguna baru maupun berpengalaman, dan dikaitkan dengan pengurangan serotonin jangka pendek, bukan perubahan jangka panjang.\n\nYang Mulai Membaik\n• Suasana hati biasanya mulai naik dari titik terendah sekitar waktu ini\n• Energi mulai kembali\n• Tidur mulai kembali normal';
 
   @override
   String get mdmaReferenceDay7 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Satu Minggu Setelah MDMA\n\nSumber: Meyer (2013), \"3,4-Methylenedioxymethamphetamine (MDMA): Current Perspectives,\" Substance Abuse and Rehabilitation\n\nMelewati Midweek Blues\nBagi kebanyakan orang, satu minggu sudah melewati rentang 2–5 hari yang dikaitkan tinjauan ini dengan comedown akut, sehingga suasana hati biasanya kembali mendekati normal. Tinjauan tersebut mencatat bahwa pada orang yang menggunakan MDMA berat atau berulang, keinginan memakai lagi dapat bertahan sebagai bagian dari pola ketergantungan, meski tidak digambarkan sebagai putus zat fisik yang berat.\n\nKapan Mencari Bantuan\nJika suasana hati rendah, kecemasan, atau masalah tidur masih berlanjut setelah satu minggu, itu mungkin lebih dari sekadar comedown dan layak dibicarakan dengan tenaga profesional.';
 
   @override
   String get mdmaReferenceDay14 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Dua Minggu Tanpa MDMA\n\nSumber: Meyer (2013), \"3,4-Methylenedioxymethamphetamine (MDMA): Current Perspectives,\" Substance Abuse and Rehabilitation\n\nGaris Waktu Pemulihan\nUntuk comedown setelah satu kali penggunaan, dua minggu sudah jauh melewati penurunan 2–5 hari yang didokumentasikan tinjauan ini, sehingga suasana hati, tidur, dan konsentrasi seharusnya lebih stabil. Setelah penggunaan yang lebih berat atau berulang, pemulihan berlanjut melampaui comedown; studi pencitraan pada orang yang abstinen menunjukkan kapasitas daur ulang serotonin meningkat bersama abstinensi yang berkelanjutan.\n\nArtinya bagi Anda\nJika penggunaan Anda hanya sesekali, kemungkinan bagian terburuk sudah terlewati. Jika penggunaan lebih sering atau berat, bersabarlah — pemulihan penuh pensinyalan serotonin membutuhkan waktu lebih lama dari dua minggu dan dibahas pada tonggak berikutnya.';
 
   @override
   String get mdmaReferenceDay30 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Satu Bulan Tanpa MDMA\n\nSumber: \"Serotonin transporter availability, neurocognitive function and their correlation in abstinent MDMA users,\" di PubMed\n\nPosisi Satu Bulan\nComedown akut dan gejala putus zat sudah jauh terlewati, sementara suasana hati, pikiran, dan ingatan lebih stabil. Penelitian pencitraan menunjukkan MDMA menurunkan kapasitas otak untuk memproses serotonin, dan kapasitas itu pulih dengan abstinensi berkelanjutan.\n\nSinyal Pemulihan\nPenelitian yang sama menunjukkan kapasitas daur ulang serotonin pulih dengan abstinensi yang berkelanjutan. Suasana hati dan fungsi serotonin membaik lebih dahulu, sementara ingatan mengikuti jalur pemulihannya sendiri — terus tidak menggunakan MDMA mendukung keduanya.';
 
   @override
   String get mdmaReferenceDay90 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Tiga Bulan Tanpa MDMA\n\nSumber: \"Serotonin transporter availability, neurocognitive function and their correlation in abstinent MDMA users,\" di PubMed\n\nPemulihan Berlanjut\nDengan abstinensi yang berkelanjutan, sistem serotonin otak terus pulih, terutama di wilayah otak yang lebih dalam. Suasana hati dan tidur biasanya sudah stabil pada tahap ini.\n\nSinyal Pemulihan\nAbstinensi berkelanjutan mendukung pemulihan transporter serotonin di berbagai wilayah otak, sementara suasana hati dan tidur tetap stabil dan pemulihan kemampuan berpikir serta ingatan terus berlangsung.';
 
   @override
   String get mdmaReferenceDay365 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Satu Tahun Tanpa MDMA\n\nSumber: \"Serotonin transporter availability, neurocognitive function and their correlation in abstinent MDMA users,\" di PubMed\n\nSetelah Satu Tahun\nSetelah satu tahun tanpa MDMA, pemrosesan serotonin di otak telah mendapat waktu panjang untuk pulih dan suasana hati biasanya stabil.\n\nSinyal Pemulihan\nSatu tahun penuh abstinensi memberi sistem serotonin jendela pemulihan yang panjang. Penelitian pencitraan menunjukkan kapasitas daur ulang serotonin meningkat dengan abstinensi, sehingga pemulihan serotonin yang besar menjadi sinyal biologis paling jelas pada tahap ini.';
 
   @override
   String get methReferenceDay1 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Putus Metamfetamin: 24 Jam Pertama\n\nSumber: McGregor et al., \"The nature, time course and severity of methamphetamine withdrawal,\" Addiction (2005), PubMed\n\nFase Crash\nMetamfetamin memicu pelepasan dopamin dalam jumlah besar; ketika penggunaan dihentikan, sistem ini menjadi terkuras. Studi ini melacak gejala putus zat setiap hari selama tiga minggu pertama tanpa penggunaan dan menemukan bahwa tingkat keparahan keseluruhan paling tinggi dalam 24 jam setelah penggunaan terakhir — fase “crash”, yaitu peralihan mendadak dari stimulasi ekstrem ke kelelahan fisik dan psikologis.\n\nGejala Hari Pertama\nStudi ini mendokumentasikan gejala yang paling berat pada tahap ini:\n• Kelelahan ekstrem dan tidur lebih banyak (hipersomnia)\n• Nafsu makan meningkat (metamfetamin sangat menekan nafsu makan)\n• Suasana hati depresi dan hilangnya rasa senang\n• Keinginan kuat untuk memakai\n• Kecemasan dan mudah tersinggung\n\nKeselamatan Fisik\nSindrom putus metamfetamin umumnya tidak mengancam nyawa, tetapi gejala terkait depresi yang diukur dalam studi ini dapat berat pada awal pemulihan dan dapat mencakup pikiran untuk bunuh diri. Pengawasan medis sangat dianjurkan, terutama bagi orang dengan penggunaan berat.\n\nMulai Mereda\nTemuan yang memberi harapan adalah bahwa tingkat keparahan paling tinggi pada awal lalu menurun. Setelah puncak 24 jam ini, gejala berkurang secara bertahap selama hari-hari berikutnya — titik terberat ada di awal.';
 
   @override
   String get methReferenceDay3 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Putus Metamfetamin: Hari Ketiga — Masih dalam Fase Akut\n\nSumber: McGregor et al., \"The nature, time course and severity of methamphetamine withdrawal,\" Addiction (2005), PubMed\n\nTurun dari Puncak\nStudi ini menemukan bahwa tingkat keparahan putus zat secara keseluruhan memuncak dalam 24 jam pertama lalu menurun dengan pola yang kira-kira linear sepanjang fase akut, sekitar 7–10 hari. Pada hari ketiga Anda telah melewati titik tertinggi, tetapi masih jelas berada dalam fase akut — gejala masih terasa kuat walau arahnya menurun.\n\nGejala Hari Ketiga\nGejala yang dilacak studi dan masih penting pada tahap ini:\n• Depresi dan hilangnya rasa senang\n• Keinginan kuat untuk memakai\n• Sulit berkonsentrasi dan berpikir jernih\n• Gangguan tidur — insomnia bergantian dengan hipersomnia\n• Kelelahan yang berlanjut\n\nMengapa Terasa Seperti Ini\nBeratnya putus metamfetamin mencerminkan besarnya gangguan pada sistem dopamin. Gejala terkait depresi yang diukur studi paling menonjol pada hari-hari awal ini. Yang penting, studi menemukan bahwa tingkat keparahan keseluruhan “turun mendekati tingkat kontrol pada akhir minggu pertama tanpa penggunaan.”\n\nIni Akan Berlalu\nBagian tersulit adalah beberapa hari pertama, dan data menunjukkan penurunan yang stabil setelahnya. Memahami keadaan ini sebagai efek sementara pada otak dan sistem saraf, bukan kondisi permanen, dapat membantu melewatinya.';
 
   @override
   String get methReferenceDay7 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Satu Minggu Tanpa Metamfetamin: Fase Akut Berakhir\n\nSumber: McGregor et al., \"The nature, time course and severity of methamphetamine withdrawal,\" Addiction (2005), PubMed\n\nAkhir Fase Akut\nIni salah satu temuan paling menggembirakan dari penelitian tersebut. Studi melaporkan bahwa tingkat keparahan putus zat secara keseluruhan, termasuk gejala terkait depresi yang dilacak, “turun mendekati tingkat kontrol pada akhir minggu pertama tanpa penggunaan,” menandai berakhirnya fase akut. Bagian paling curam sudah terlewati.\n\nDua Fase Putus Zat\nPenulis menggambarkan putus metamfetamin sebagai:\n• Fase akut sekitar 7–10 hari, ketika tingkat keparahan gejala turun terus dari puncak awal\n• Fase subakut setidaknya dua minggu berikutnya, dengan gejala yang lebih ringan tetapi dapat menetap\n\nYang Masih Tersisa pada Hari ke-7\nMemasuki fase subakut, tantangan utama lebih bersifat psikologis daripada crash akut:\n• Suasana hati rendah, tetapi jauh membaik dibanding hari-hari pertama\n• Keinginan memakai, terutama saat terpicu oleh isyarat\n• Konsentrasi dan ingatan masih pulih\n• Tidur masih menyesuaikan\n\nPemulihan Fisik Berlanjut\nSetelah fase akut, nafsu makan telah kembali dan energi perlahan meningkat sementara tubuh pulih dari dampak metamfetamin pada tidur, nutrisi, dan sistem kardiovaskular.';
 
   @override
   String get methReferenceDay30 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Satu Bulan Tanpa Metamfetamin: Suasana Hati Membaik, Keinginan Masih Ada\n\nSumber: Zorick et al., \"Withdrawal symptoms in abstinent methamphetamine-dependent subjects,\" Addiction (2010), PubMed Central\n\nMelacak Lima Minggu Pertama\nStudi ini mengikuti peserta dengan ketergantungan metamfetamin yang tetap tidak memakai hingga lima minggu dan membandingkannya dengan kontrol sehat, sehingga memberi gambaran yang cukup jelas tentang posisi satu bulan pemulihan.\n\nYang Membaik pada Satu Bulan\n• Gejala depresi “menurun secara substansial selama 2 minggu pertama tanpa penggunaan hingga mencapai tingkat rendah yang stabil”; pada akhir empat minggu nilainya mendekati, walau belum secara statistik sama dengan, kontrol sehat\n• Gejala psikiatrik dan gejala mirip psikosis sudah mencapai tingkat rendah pada akhir minggu kedua\nJadi pada hari ke-30, depresi berat pada fase awal putus zat sebagian besar telah mereda — sebuah perbaikan yang benar-benar terukur.\n\nYang Masih Bertahan\nStudi menegaskan bahwa satu gejala bertahan lebih lama: keinginan memakai “masih berlanjut pada tingkat yang lebih rendah sepanjang 5 minggu tanpa penggunaan.” Keinginan itu lebih lemah daripada pada minggu pertama tetapi belum hilang, sehingga satu bulan masih merupakan masa berisiko dan dukungan berkelanjutan tetap penting.\n\nIntinya\nPada satu bulan, sistem otak yang berkaitan dengan suasana hati telah cukup pulih sehingga kondisi sehari-hari terasa jauh lebih baik daripada pada awal putus zat. Keinginan yang masih muncul adalah bagian normal tahap ini, bukan tanda kegagalan.';
 
   @override
   String get methReferenceDay90 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Tiga Bulan Tanpa Metamfetamin: Pemulihan Sudah Dimulai — Bersabar\n\nSumber: Volkow et al., \"Loss of Dopamine Transporters in Methamphetamine Abusers Recovers with Protracted Abstinence,\" Journal of Neuroscience (2001)\n\nTentang Penelitian Ini\nStudi pemindaian otak penting ini menilai pengguna metamfetamin dua kali — sekitar tiga bulan setelah berhenti dan kembali sekitar 14 bulan — untuk melihat bagaimana sistem dopamin pulih.\n\nPosisi Tiga Bulan\nPada tiga bulan, fase putus zat awal sudah lama berlalu dan pemulihan dopamin yang lebih dalam sedang berlangsung. Studi yang sama kemudian menemukan bahwa protein yang mendaur ulang dopamin di area penghargaan dan gerak otak meningkat sekitar 16%–19% setelah 12–17 bulan tanpa metamfetamin.\n\nArtinya bagi Anda\nPada hari ke-90, fase putus akut sudah jauh di belakang. Suasana hati dan tidur membaik, dan keterlibatan dalam terapi dapat menjadi lebih produktif. Namun pemulihan dopamin yang lebih dalam berlangsung lebih lama sepanjang tahun berikutnya. Jika motivasi dan rasa senang masih terasa tumpul pada tiga bulan, hal itu sesuai dengan pola pemulihan dalam studi ini dan bukan tanda kegagalan.\n\nMengapa Layak Ditunggu\nStudi yang sama menunjukkan bahwa mempertahankan penghentian penggunaan mendukung pemulihan: semakin lama masa tanpa metamfetamin, semakin besar pemulihan DAT yang terukur. Tiga bulan adalah fondasi; perbaikan dapat terus berlanjut.';
 
   @override
   String get methReferenceDay180 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Enam Bulan Tanpa Metamfetamin: Jantung Dapat Pulih\n\nSumber: \"Stopping Drug Abuse Can Reverse Related Heart Damage,\" American College of Cardiology (2017), melaporkan studi di JACC: Heart Failure\n\nMetamfetamin dan Jantung\nMetamfetamin termasuk zat rekreasional yang sangat toksik bagi jantung. Zat ini dapat memicu hipertensi berat dan aritmia, dan seiring waktu dapat menyebabkan kardiomiopati terkait metamfetamin — pelemahan otot jantung yang dapat berujung pada gagal jantung.\n\nTemuan Studi\nACC melaporkan pasien dengan kardiomiopati terkait metamfetamin, semuanya dengan fungsi pompa jantung yang sangat menurun. Temuan utamanya memberi harapan: berhenti memakai metamfetamin “dapat membalikkan kerusakan yang ditimbulkan pada jantung dan memperbaiki fungsi jantung.” Pasien yang berhenti memiliki hasil jauh lebih baik daripada mereka yang terus memakai, dan penulis menekankan bahwa deteksi dini “dapat mencegah perburukan lebih lanjut pada kardiomiopati.”\n\nMengapa Enam Bulan Penting\nSetiap bulan tanpa metamfetamin menghilangkan paparan toksik berulang pada jantung dan memberi otot jantung kesempatan untuk pulih. Pada enam bulan, sistem kardiovaskular telah mendapat jeda yang panjang dan berkelanjutan dari paparan tersebut — kondisi yang berkaitan dengan perbaikan dalam studi ini.\n\nSinyal Pemulihan\nHasil yang didukung bukti cukup kuat: berhenti memakai metamfetamin dapat membalikkan sebagian kerusakan jantung terkait metamfetamin dan memperbaiki fungsi jantung. Enam bulan tanpa paparan stimulan berulang memberi jantung waktu pemulihan yang berarti.';
 
   @override
   String get methReferenceDay365 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Satu Tahun Tanpa Metamfetamin: Pemulihan Otak yang Terukur\n\nSumber: Wang et al., \"Partial Recovery of Brain Metabolism in Methamphetamine Abusers After Protracted Abstinence,\" American Journal of Psychiatry (2004), PubMed\n\nYang Ditunjukkan Pemindaian\nStudi pemindaian otak ini memeriksa pengguna metamfetamin pada awal masa tanpa penggunaan dan kembali setelah 12–17 bulan. Studi menemukan pemulihan otak yang nyata, dengan beberapa area pulih lebih cepat daripada area lain.\n\nKabar Baik: Pemulihan Otak Dalam dan Kemampuan Berpikir\nTalamus, pusat relai di bagian dalam otak, mulai menggunakan energi dengan lebih normal setelah masa tidak menggunakan yang panjang. Pemulihan ini berkaitan dengan perbaikan gerak dan memori verbal, sehingga perubahan pada pemindaian otak juga terlihat pada fungsi berpikir dan ingatan.\n\nSirkuit Penghargaan Pulih Lebih Lambat\nPada 12–17 bulan, pusat relai otak bagian dalam menunjukkan pemulihan kuat yang berkaitan dengan gerak dan memori verbal yang lebih baik. Sistem penghargaan dan motivasi juga terus menguat, sehingga gambaran satu tahun menunjukkan pemulihan besar pada kemampuan berpikir dan ingatan.\n\nArtinya pada Satu Tahun\nPada satu tahun, kemampuan berpikir dan mengingat dapat jauh lebih baik daripada pada awal pemulihan — sebuah perubahan yang jelas dan terukur. Jika motivasi atau kemampuan merasakan kesenangan masih tertinggal, hal itu sesuai dengan temuan studi, bukan kegagalan pribadi: sirkuit penghargaan dapat pulih lebih lambat dan beberapa kekurangan masih dapat terlihat setelah lebih dari satu tahun.';
 
   @override
   String get methReferenceDay420 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      '14 Bulan Tanpa Metamfetamin: Penanda Dopamin Bangkit Kembali\n\nSumber: Volkow et al., \"Loss of Dopamine Transporters in Methamphetamine Abusers Recovers with Protracted Abstinence,\" Journal of Neuroscience (2001)\n\nTemuan Utama\nStudi pemindaian otak penting ini menilai pengguna metamfetamin pada awal masa tanpa penggunaan dan kembali setelah sekitar 12–17 bulan. Protein yang mendaur ulang dopamin meningkat sekitar 16%–19% di area penghargaan dan gerak otak serta mencapai tingkat yang tidak lagi berbeda bermakna dari kontrol sehat. Masa tanpa penggunaan yang lebih lama berkaitan dengan pemulihan yang lebih besar.\n\nMengapa DAT Penting\nProtein ini mendaur ulang dopamin setelah dilepaskan. Metamfetamin menguranginya, sehingga sistem dopamin menjadi kurang teratur. Kenaikannya kembali sekitar 14 bulan merupakan tanda pemulihan yang nyata dan dapat diukur.\n\nSinyal Pemulihan\nSetelah 12–17 bulan, protein pendaur ulang dopamin di area penghargaan dan gerak meningkat sekitar 16%–19% dan mencapai tingkat kontrol sehat. Sistem dopamin menunjukkan pemulihan terukur menuju normal, sementara kemampuan berpikir, ingatan, dan gerak terus membaik.\n\nArtinya pada 14 Bulan\nSistem dopamin secara terukur bergerak kembali menuju kondisi normal — alasan nyata untuk optimis. Namun pemulihan fungsi penuh, seperti ingatan, motivasi, dan kontrol motorik halus, dapat tertinggal dari hasil pemindaian dan terus membaik selama penghentian penggunaan dipertahankan.';
 
   @override
   String get methReferenceDay730 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Dua Tahun Tanpa Metamfetamin: Pikiran dan Suasana Hati Terus Membaik\n\nSumber: Iudicello et al., \"Longer Term Improvement in Neurocognitive Functioning and Affective Distress Among Methamphetamine Users Who Achieve Stable Abstinence,\" Journal of Clinical and Experimental Neuropsychology (2010), PubMed Central\n\nPemulihan yang Berlanjut Melewati Satu Tahun\nStudi ini mengikuti pengguna metamfetamin selama sekitar 13 bulan dan membandingkan kelompok yang mempertahankan penghentian penggunaan dengan mereka yang terus memakai serta kontrol sehat. Penghentian penggunaan yang stabil memperbaiki fungsi kognitif secara keseluruhan dan mengurangi tekanan emosional, dengan perbaikan yang berlanjut melewati satu tahun.\n\nYang Membaik\n• Fungsi kognitif keseluruhan pada kelompok yang tidak memakai kembali mencapai tingkat kontrol sehat, sedangkan kelompok yang terus memakai tetap mengalami gangguan bermakna\n• Perbaikan terbesar terlihat pada kecepatan pemrosesan dan kemampuan motorik, terutama pada mereka yang paling terganggu pada awal studi\n• Suasana hati membaik jelas: hanya kelompok yang mempertahankan penghentian penggunaan yang menunjukkan perbaikan bermakna pada depresi dan suasana hati secara keseluruhan\n\nSinyal Pemulihan\nKelompok yang mempertahankan penghentian penggunaan mencapai tingkat kontrol sehat pada fungsi kognitif keseluruhan dan melaporkan lebih sedikit tekanan emosional. Pembelajaran verbal, memori kerja, perencanaan, dan fokus dapat terus membaik setelah tahun pertama, sehingga tren pemulihan berlanjut memasuki tahun kedua.\n\nDua Tahun\nPesan berbasis bukti: mempertahankan penghentian penggunaan terus memberi manfaat jauh setelah tahun pertama — pikiran lebih tajam, suasana hati lebih baik, dan fungsi yang terus membaik — meski beberapa bidang dapat memerlukan waktu lebih lama untuk pulih.';
 
   @override
   String get methMilestone1095Title => 'Tiga Tahun - Pulih Berkelanjutan';
@@ -3809,67 +3781,67 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get nitrousOxideReferenceDay1 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Hari Pertama: Gas Sudah Hilang, tetapi B12 Tetap Perlu Diperhatikan\n\nSumber: Knuf & Maani, “Nitrous Oxide,” StatPearls (NCBI Bookshelf)\n\nSeberapa Cepat Gas Hilang\nDinitrogen oksida mulai bekerja dengan cepat, sekitar 2 hingga 5 menit, dan juga keluar dari tubuh dengan cepat setelah Anda berhenti menghirupnya. Pada hari ini, gas itu sendiri sudah tidak tersisa di tubuh.\n\nRisiko Utamanya Bukan Gas yang Tersisa\nSetelah berhenti, yang perlu diperhatikan adalah dampak yang mungkin sudah terjadi akibat paparan berulang. Dinitrogen oksida menonaktifkan metionin sintase, enzim yang bergantung pada vitamin B12. StatPearls mencatat bahwa paparan berulang, baik karena pekerjaan maupun penggunaan rekreasional, dapat menyebabkan anemia megaloblastik serta gangguan fungsi otak dan saraf, dan dalam kasus jarang degenerasi sumsum tulang belakang.\n\nJika Anda Menggunakan Banyak atau Sering\nDinitrogen oksida tidak didokumentasikan menyebabkan sindrom putus zat fisik seperti opioid atau alkohol. Jadi hari pertama bukan soal tubuh menuntut zat tersebut, melainkan mulai memperhatikan gejala terkait B12 yang dibahas pada tonggak berikutnya dan memeriksakannya bila muncul.';
 
   @override
   String get nitrousOxideReferenceDay3 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      '72 Jam: Tidak Ada Putus Zat Fisik, tetapi Waspadai Gejala Saraf\n\nSumber: Knuf & Maani, StatPearls; Tikaria et al. (2026), Cureus\n\nTidak seperti opioid atau alkohol, dinitrogen oksida tidak didokumentasikan menyebabkan sindrom putus zat fisik. Dorongan pada tahap ini berkaitan dengan kebiasaan dan keinginan, bukan karena tubuh membutuhkan zat itu agar dapat berfungsi.\n\nGejala yang Perlu Diperhatikan\nTinjauan sistematis terhadap 1.809 kasus penggunaan dinitrogen oksida rekreasional (Tikaria et al., 2026) menemukan bahwa gejala otak dan saraf, terutama kesemutan atau mati rasa (parestesia), merupakan tanda paling umum dari dampak terkait B12. Gejala ini sering muncul meski pemeriksaan darah standar tampak normal. Gangguan berjalan dan kelemahan juga dilaporkan.\n\nJika Anda Mengalami Salah Satunya\nDapatkan penilaian medis. Tinjauan yang sama menemukan bahwa pemeriksaan darah standar seperti hemoglobin dan B12 serum tidak mendeteksi sebagian bermakna pasien yang terdampak. Pemeriksaan asam metilmalonat (MMA) dan homosistein lebih sensitif dan sebaiknya diminta secara khusus bila Anda menyampaikan penggunaan dinitrogen oksida.';
 
   @override
   String get nitrousOxideReferenceDay7 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Satu Minggu: Periksa Jika Penggunaan Anda Berat\n\nSumber: Tikaria et al. (2026), “The Toxic Legacy of Recreational Nitrous Oxide Use,” Cureus\n\nApa yang Ditunjukkan Bukti\nTinjauan sistematis ini menemukan bahwa kekurangan vitamin B12 akibat dinitrogen oksida sering bersifat “fungsional”: kadar B12 serum tampak normal pada sekitar separuh pasien yang terdampak, bahkan ketika kerusakan otak dan saraf benar-benar ada. Homosistein dan MMA jauh lebih sering abnormal, masing-masing pada 84% dan 73% pasien yang diperiksa, sehingga keduanya merupakan penanda yang lebih andal.\n\nApa yang Dapat Dilakukan\nJika penggunaan Anda berat atau sering, satu minggu tanpa dinitrogen oksida merupakan waktu yang masuk akal untuk menemui dokter dan secara khusus meminta pemeriksaan homosistein dan MMA, bukan hanya kadar B12 standar, terutama jika Anda mengalami kesemutan, mati rasa, gangguan keseimbangan, atau kelemahan yang tidak dapat dijelaskan.\n\nPemulihan neurologis setelah penghentian dinitrogen oksida dan pengobatan vitamin B12 sering dilaporkan. Seri klinis besar melaporkan perbaikan sebagian atau lengkap pada sebagian besar pasien yang ditindaklanjuti, dengan pemulihan berlanjut selama bulan-bulan awal setelah pengobatan.';
 
   @override
   String get nitrousOxideReferenceDay14 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Dua Minggu: Gejala Otak dan Saraf Perlu Ditindaklanjuti\n\nSumber: Tikaria et al. (2026), Cureus; Knuf & Maani, StatPearls\n\nApa yang Telah Dilaporkan\nLaporan kasus dan seri kasus yang ditinjau Tikaria et al. menggambarkan kerusakan saraf terkait dinitrogen oksida berupa hilangnya sensasi, ataksia saat berjalan, dan kadang kelemahan yang memengaruhi kemampuan berjalan. Temuan ini dapat menyerupai kondisi neurologis lain dan kadang terlewat bila penggunaan dinitrogen oksida tidak disampaikan kepada tenaga medis.\n\nSinyal Pemulihan dan Waktunya\nKedua sumber tidak menyebutkan berapa lama pemulihan biasanya berlangsung setelah penggunaan dihentikan dan kekurangan yang ada diobati. Laporan kasus menggambarkan hasil yang sangat beragam, dari pemulihan penuh hingga defisit menetap, terutama bergantung pada seberapa besar kerusakan yang terjadi sebelum diagnosis. Hal yang konsisten dalam literatur adalah bahwa pengobatan lebih dini berkaitan dengan hasil yang lebih baik.\n\nJika Anda Belum Diperiksa\nDua minggu tanpa penggunaan masih merupakan waktu yang baik untuk melakukan pemeriksaan darah, bahkan tanpa gejala, terutama homosistein dan MMA, bukan hanya B12 serum.';
 
   @override
   String get nitrousOxideReferenceDay30 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Satu Bulan: Kebiasaan dan Keinginan, Bukan Ketergantungan Fisik\n\nSumber: Knuf & Maani, “Nitrous Oxide,” StatPearls (NCBI Bookshelf)\n\nPosisi Anda Sekarang\nStatPearls tidak menggambarkan dinitrogen oksida sebagai penyebab sindrom ketergantungan fisik. Jadi setelah satu bulan, dorongan yang masih muncul lebih berkaitan dengan kebiasaan, konteks sosial, atau kebosanan daripada tubuh yang masih menyesuaikan diri dengan ketiadaan zat tersebut.\n\nTentang B12\nJika Anda sudah diperiksa dan diobati karena kekurangan B12, satu bulan merupakan waktu yang masuk akal bagi dokter untuk memeriksa apakah kadar dan gejala Anda merespons pengobatan. Jika Anda belum diperiksa meski penggunaan sebelumnya berat, tetap layak untuk menanyakannya.\n\nApa yang Terlindungi\nSetiap bulan tanpa penggunaan berarti satu bulan tanpa menambah inaktivasi metionin sintase atau risiko terhadap otak dan saraf yang menyertainya.';
 
   @override
   String get nitrousOxideReferenceDay90 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Tiga Bulan: Saatnya Memeriksa Kembali Jika Belum\n\nSumber: Tikaria et al. (2026), “The Toxic Legacy of Recreational Nitrous Oxide Use,” Cureus\n\nApa yang Kita Ketahui – dan yang Belum\nDasar bukti ini berasal dari laporan kasus dan seri kasus, bukan studi pemulihan terkontrol. Karena itu tidak ada jadwal terbitan yang andal mengenai bagaimana gejala pulih secara khusus pada tiga bulan. Bukti menunjukkan hasil sangat bervariasi: sebagian pasien dengan kekurangan ringan yang terdeteksi dini pulih sepenuhnya, sedangkan diagnosis terlambat atau kerusakan saraf yang lebih berat dapat meninggalkan defisit menetap.\n\nBagian yang Dapat Ditindaklanjuti\nJika Anda pernah mengalami gejala otak atau saraf dan belum menjalani pemeriksaan darah lanjutan atau evaluasi spesialis, tiga bulan tanpa penggunaan merupakan waktu yang masuk akal untuk melakukannya. Jika Anda telah diobati dan membaik, ini juga saat yang wajar untuk memastikan bersama dokter bahwa tren tersebut berlanjut.\n\nTetap Tidak Menggunakan adalah Hal Terpenting\nTinjauan tersebut konsisten pada satu hal: paparan berlanjut terus menonaktifkan B12 dan menambah risiko. Tidak menggunakan adalah faktor terbesar yang berpihak pada Anda.';
 
   @override
   String get nitrousOxideReferenceDay365 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Satu Tahun: Perlindungan Terbaik adalah Tetap Tidak Menggunakan\n\nSumber: Knuf & Maani, StatPearls; Tikaria et al. (2026), Cureus\n\nBatas Bukti yang Sebenarnya\nKedua sumber tidak menjanjikan jadwal pemulihan tertentu. Literatur mengenai dinitrogen oksida dan kekurangan B12 hampir seluruhnya berasal dari laporan kasus individual, bukan studi tindak lanjut jangka panjang. Mekanismenya yang sudah jelas adalah bahwa dinitrogen oksida menonaktifkan vitamin B12 setiap kali digunakan, dan berhenti menggunakannya menghentikan paparan yang terus menambah kerusakan tersebut.\n\nJika Anda Pernah Mengalami Gejala Terkait Kekurangan\nLaporan kasus menggambarkan hasil yang beragam, dari pemulihan penuh hingga gejala saraf yang menetap, terutama terkait dengan besarnya kerusakan dan seberapa dini pengobatan dimulai. Jika gejala masih ada setelah satu tahun, itu alasan untuk tetap bekerja sama dengan ahli saraf, bukan tanda bahwa tidak ada lagi yang dapat dilakukan. Pemulihan saraf dapat berlanjut dalam waktu yang panjang.\n\nHal yang Pasti\nSatu tahun tanpa dinitrogen oksida berarti satu tahun tanpa inaktivasi metionin sintase tambahan. Itulah satu kepastian yang didukung kedua sumber.';
 
   @override
   String get opioidReferenceDay1 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Putus opioid: hari pertama\n\nSumber: \"Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings,\" World Health Organization (2009), di NCBI Bookshelf\n\n⚠ Catatan keselamatan\nPutus opioid jarang berakibat fatal pada orang yang selain itu sehat, tetapi dapat menimbulkan penderitaan fisik berat dan membawa risiko tinggi untuk kembali menggunakan. Kembali memakai opioid setelah masa pantang sangat berbahaya karena toleransi turun cepat — memakai dosis yang sama seperti sebelum berhenti dapat menyebabkan overdosis fatal. Pengawasan medis dan terapi agonis opioid sangat dianjurkan.\n\nKapan putus zat dimulai\nJadwal WHO membedakan waktunya menurut jenis opioid:\n• Opioid kerja singkat (heroin, oksikodon): mulai 8–24 jam setelah penggunaan terakhir, berlangsung 4–10 hari\n• Opioid kerja panjang (metadon): mulai 12–48 jam, berlangsung 10–20 hari\n\nGejala hari pertama\nPedoman WHO mencantumkan tanda awal putus opioid:\n• Kecemasan dan agitasi\n• Kram dan nyeri otot\n• Mata dan hidung berair\n• Menguap dan berkeringat\n• Insomnia, disertai rasa panas dan dingin\n• Mual pada tahap awal\n\nMengapa terasa begitu berat\nSistem opioid mengatur nyeri, stres, kesejahteraan emosional, dan rasa nyaman dasar. Penggunaan opioid jangka panjang menekan produksi opioid alami tubuh (endorfin). Ketika opioid dihentikan, tubuh sementara kehilangan sistem kenyamanan yang biasa diandalkannya, sehingga nyeri, kecemasan, dan rasa tidak nyaman dapat terasa sangat kuat. Pedoman WHO menganjurkan perawatan suportif, termasuk minum 2–3 liter air per hari dan pemantauan 3–4 kali sehari.';
 
   @override
   String get opioidReferenceDay7 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Satu minggu tanpa opioid: gejala puncak mulai mereda\n\nSumber: \"Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings,\" World Health Organization (2009), di NCBI Bookshelf\n\nPuncak lalu mereda\nMenurut jadwal WHO, putus opioid kerja singkat berlangsung sekitar 4–10 hari, dengan gejala meningkat pada awal periode lalu berangsur mereda. Menjelang akhir minggu pertama:\n• Muntah dan diare sebagian besar sudah mereda\n• Kram otot menjadi lebih ringan\n• Penderitaan fisik berkurang secara nyata\n\nYang masih dapat terasa pada hari ke-7\nWalaupun gejala fisik akut membaik, tantangan penting masih dapat berlanjut:\n• Insomnia — gangguan tidur termasuk gejala putus opioid yang paling menetap\n• Suasana hati tertekan dan emosi terasa datar\n• Kelelahan dan kelemahan\n• Keinginan kuat untuk menggunakan\n• Kecemasan\n\nPutus zat pasca-akut\nSetelah fase putus awal, masalah tidur, perubahan suasana hati, dan gelombang keinginan untuk menggunakan dapat berlanjut selama berminggu-minggu atau berbulan-bulan. Dukungan berkelanjutan sangat penting dalam fase pemulihan yang lebih panjang ini.\n\nTerapi agonis opioid\nPedoman WHO menjelaskan metadon dan buprenorfin sebagai terapi efektif yang mengurangi beratnya putus zat dan mendukung pemulihan. Obat-obatan ini juga menurunkan kematian akibat gangguan penggunaan opioid, dan banyak orang dalam pemulihan jangka panjang yang berhasil menggunakannya selama fase awal pemulihan.';
 
   @override
   String get opioidReferenceDay14 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Dua minggu tanpa opioid: pola tidur mulai membaik\n\nSumber: penelitian farmakologi yang ditelaah sejawat tentang opioid dan tidur\n\nHubungan opioid dan tidur\nMakalah penelitian ini membahas hubungan dua arah antara penggunaan opioid dan gangguan tidur. Temuannya menunjukkan bahwa opioid dapat sangat mengganggu arsitektur tidur normal melalui beberapa mekanisme:\n• Menekan tidur gelombang lambat (tidur dalam)\n• Mengganggu tidur REM\n• Menyebabkan gangguan pernapasan saat tidur (apnea tidur sentral)\n• Mengganggu pengaturan ritme sirkadian\n\nSiklus yang saling memperburuk\nPenelitian menyoroti sifat dua arah masalah ini: opioid mengganggu tidur, sementara tidur yang buruk meningkatkan kepekaan terhadap nyeri dan intensitas keinginan untuk menggunakan, yang dapat mendorong penggunaan opioid lebih lanjut. Memutus ketergantungan opioid juga berarti memutus siklus gangguan tidur ini.\n\nTidur pada dua minggu\nSetelah 14 hari tanpa opioid, tidur mulai kembali normal:\n• Apnea tidur sentral (jika ada) dapat mereda dalam hitungan hari\n• Tidur dalam gelombang lambat mulai pulih\n• Proporsi tidur REM mulai kembali normal\n• Waktu untuk mulai tertidur menjadi lebih teratur\n\nTidur masih menjadi tantangan besar bagi banyak orang pada minggu kedua, tetapi arahnya membaik. Tidur yang lebih baik mendukung suasana hati, mengurangi keinginan untuk menggunakan, dan membantu kejernihan berpikir yang dibutuhkan dalam pemulihan.';
 
   @override
   String get opioidReferenceDay30 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Satu bulan tanpa opioid: pikiran dan ingatan mulai pulih\n\nSumber: Mayo Clinic\n\nMemahami gangguan penggunaan opioid\nMayo Clinic menjelaskan bahwa opioid menempel pada reseptor di seluruh otak dan tubuh, menghasilkan pereda nyeri, euforia, dan kantuk. Dengan penggunaan berulang, respons otak melemah dan produksi zat mirip opioid alami tubuh ikut berkurang. Hal ini menimbulkan ketergantungan fisik.\n\nPikiran dan ingatan pada satu bulan\nPada hari ke-30, pemulihan bermakna pada kemampuan berpikir dan mengingat mulai terlihat. Kabut otak terberat mulai terangkat, dan bagian depan otak yang menangani perencanaan serta pengendalian diri mulai pulih:\n• Pengambilan keputusan membaik\n• Memori kerja mulai pulih\n• Kecepatan pemrosesan meningkat\n• Konsentrasi menjadi lebih konsisten\n\nSistem endorfin\nPada satu bulan, sistem endorfin alami otak aktif pulih: otak kembali menghasilkan lebih banyak zat mirip opioidnya sendiri dan merespons dengan lebih normal. Rasa datar secara emosional dan toleransi nyeri yang lebih rendah dapat terus membaik seiring proses ini.\n\nPencegahan kekambuhan\nMayo Clinic menekankan bahwa satu bulan tanpa opioid tidak berarti risiko kembali menggunakan telah hilang — risikonya masih tinggi. Toleransi telah turun secara signifikan, sehingga kembali memakai dosis lama membawa risiko overdosis yang serius.';
 
   @override
   String get opioidReferenceDay60 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Dua bulan tanpa opioid: sirkuit stres otak mulai mereda\n\nSumber: \"Neuroplasticity of the extended amygdala in opioid withdrawal and prolonged opioid abstinence,\" Frontiers in Pharmacology (2023)\n\nDari mana perasaan negatif berasal\nUlasan ini memetakan bagaimana penggunaan opioid jangka panjang mengubah sirkuit stres dan ketakutan di otak. Saat putus zat, sirkuit ini menjadi terlalu aktif sementara sinyal dopamin di sirkuit penghargaan menurun. Kombinasi tersebut membantu menjelaskan kecemasan, suasana hati rendah, dan keinginan kuat pada awal pemulihan.\n\nMengapa dua bulan dapat membawa kelegaan\nYang penting, ulasan ini menunjukkan bahwa sebagian perubahan tersebut dapat berbalik. Dalam model hewan, berkurangnya kepadatan duri dendritik di cangkang nucleus accumbens digambarkan sebagai \"penurunan yang bertahan namun dapat berbalik\", lalu bergerak kembali menuju nilai sebelum paparan obat dalam beberapa minggu. Ketika sirkuit stres dan penghargaan kembali mengatur diri, dasar biologis gejolak emosi pada awal pemulihan ikut mereda — sejalan dengan reaktivitas yang lebih rendah dan suasana hati yang lebih stabil yang sering dilaporkan sekitar dua bulan.\n\nTanda pemulihan\nPerubahan kepadatan duri dendritik dan sirkuit stres yang dapat berbalik menunjukkan proses pemulihan biologis nyata: sirkuit yang mendorong keadaan emosi negatif akibat ketergantungan bergerak kembali menuju keadaan sebelum penggunaan obat selama masa pantang.';
 
   @override
   String get opioidReferenceDay90 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Tiga bulan tanpa opioid: sistem penghargaan mulai pulih\n\nSumber: \"Structural and Functional Brain Recovery in Individuals with Substance Use Disorders During Abstinence: A Review of Longitudinal Neuroimaging Studies,\" Drug and Alcohol Dependence (2022), di PubMed Central\n\nDopamin dan opioid\nOpioid memicu pelepasan dopamin dalam sistem penghargaan otak. Penggunaan jangka panjang dapat membuat sistem ini tertekan: dalam satu studi pemindaian otak, protein yang mendaur ulang dopamin sekitar 30% lebih rendah daripada tingkat sehat pada awal pengamatan. Hal ini membantu menjelaskan berkurangnya kemampuan merasakan kenikmatan pada gangguan penggunaan opioid dan awal pemulihan.\n\nPemulihan berlangsung bertahap\nUlasan ini mengumpulkan studi longitudinal yang memindai ulang orang yang sama selama masa pantang. Kekurangan transporter dopamin pulih sekitar 20% selama 6–12 bulan pantang, dan beberapa kelainan materi abu-abu serta materi putih di bagian frontal yang terlihat pada putus zat awal tidak lagi terdeteksi setelah sekitar satu bulan. Pada tiga bulan, Anda masih berada di bagian awal kurva pemulihan: sistem penghargaan dan frontal sudah menunjukkan perbaikan yang terukur, tetapi prosesnya belum selesai.\n\nYang dapat dirasakan\nKetika sirkuit-sirkuit ini pulih, banyak orang sekitar hari ke-90 melaporkan:\n• Lebih mampu menikmati kegiatan, makanan, dan hubungan\n• Keinginan untuk menggunakan berkurang dibanding awal pemulihan\n• Pikiran lebih jernih dan pengambilan keputusan lebih baik\n\nTanda pemulihan\nPencitraan longitudinal pada manusia menunjukkan ketersediaan transporter dopamin meningkat selama 6–12 bulan pantang, sementara kelainan materi abu-abu dan putih frontal mulai menormal lebih awal. Pada hari ke-90, pemulihan otak yang terukur sudah terlihat.';
 
   @override
   String get opioidReferenceDay180 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Enam bulan tanpa opioid: sistem imun mulai pulih\n\nSumber: \"Effects of opioid tolerance and withdrawal on the immune system,\" Journal of Neuroimmune Pharmacology (2006), di PubMed\n\nOpioid dan sistem imun\nUlasan ini menunjukkan bahwa penggunaan opioid jangka panjang dapat melemahkan sistem imun melalui beberapa cara:\n• Efek langsung opioid pada sel imun (sel T, sel NK, makrofag)\n• Gangguan bahan kimia pensinyalan imun\n• Gangguan sumbu hipotalamus-hipofisis-adrenal (HPA)\n• Peningkatan kerentanan terhadap infeksi\n\nTanda pemulihan\nPenggunaan opioid jangka panjang menekan beberapa bagian sistem imun. Setelah enam bulan tanpa opioid, tekanan terus-menerus itu sudah tidak ada selama setengah tahun dan fungsi imun memiliki waktu untuk bergerak kembali menuju kondisi normal.\n\nArti enam bulan\nEnam bulan tanpa opioid memberi sel imun, sistem pensinyalan imun, dan sistem stres tubuh waktu yang berkelanjutan untuk pulih menuju kondisi normal.\n\nMengapa ini tetap penting\nHal ini terutama relevan bagi orang yang menyuntikkan opioid karena mereka menghadapi risiko infeksi tambahan seperti HIV dan hepatitis C. Menghentikan opioid, memperbaiki nutrisi, dan mempertahankan pantang memberi sistem imun kondisi yang dibutuhkan untuk terus pulih.';
 
   @override
   String get opioidReferenceDay365 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Satu tahun tanpa opioid: struktur dan kimia otak sedang pulih\n\nSumber: \"Structural and Functional Brain Recovery in Individuals with Substance Use Disorders During Abstinence: A Review of Longitudinal Neuroimaging Studies,\" Drug and Alcohol Dependence (2022), di PubMed Central\n\nYang ditunjukkan pencitraan manusia\nUlasan ini mengumpulkan studi yang memindai orang yang sama dengan gangguan penggunaan opioid lebih dari sekali selama masa pantang. Temuannya konsisten mengarah pada pemulihan:\n• Protein pendaur ulang dopamin di area penghargaan dan gerakan, yang pada awalnya sekitar 30% di bawah normal, meningkat kira-kira 20% selama 6–12 bulan tanpa opioid\n• Kelainan materi abu-abu frontal yang terlihat pada putus zat awal tidak lagi terdeteksi setelah sekitar satu bulan pantang\n• Materi putih frontal dan cingulate serta aktivitas frontal saat istirahat juga mulai kembali normal dalam bulan pertama\n\nPosisi satu tahun\nPada dua belas bulan, Anda berada pada atau melewati jangka waktu terpanjang yang diukur studi-studi ini. Sistem dopamin telah mendapat waktu pemulihan paling lama, sementara sirkuit frontal yang mendukung pengendalian diri dan penilaian sudah membaik selama berbulan-bulan — pasangan biologis dari pikiran yang lebih jernih, keinginan yang lebih lemah, dan suasana hati yang lebih stabil yang sering digambarkan pada satu tahun.\n\nTanda pemulihan\nPada satu tahun, sinyal dari pencitraan manusia jelas mengarah pada pemulihan: ketersediaan transporter dopamin meningkat selama jendela 6–12 bulan, sementara kelainan struktural dan fungsional frontal telah memiliki waktu berbulan-bulan untuk menormal.';
 
   @override
   String get opioidReferenceDay730 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Dua tahun tanpa opioid: fondasi yang stabil\n\nSumber: \"Treatment of Opioid Use Disorder,\" Centers for Disease Control and Prevention (CDC)\n\nKondisi kronis yang dapat dikelola\nCDC menggambarkan gangguan penggunaan opioid sebagai \"penyakit kronis yang dapat memengaruhi siapa saja\" dan \"kondisi medis, bukan kegagalan moral\". Mencapai dua tahun pemulihan yang berkelanjutan berarti Anda telah mengelola kondisi ini melewati salah satu masa yang paling rentan.\n\nApa yang menurut CDC efektif\nPanduan CDC berfokus pada perawatan yang membantu menjaga pemulihan tetap stabil dalam jangka panjang:\n• Obat untuk gangguan penggunaan opioid — buprenorfin, metadon, dan naltrekson — yang disebut sangat efektif\n• Menggabungkan obat dengan terapi perilaku dan konseling\n• Lama perawatan yang disesuaikan dengan kebutuhan masing-masing orang\nCDC mencatat bahwa obat-obatan tersebut membantu \"menormalkan kimia otak\" dan meredakan keinginan untuk menggunakan.\n\nTetap aman\nCDC menganjurkan orang dalam pemulihan untuk membicarakan risiko kembali menggunakan dan overdosis dengan dokter serta menyediakan nalokson. Toleransi turun selama masa pantang, sehingga kembali memakai opioid setelah waktu yang panjang sangat berbahaya — memahami risiko ini adalah bagian dari melindungi apa yang telah Anda bangun.\n\nDua tahun\nCDC menegaskan bahwa pemulihan sering kali merupakan proses jangka panjang, bukan garis akhir. Dua tahun bukan akhir perjalanan — ini adalah fondasi yang stabil dan sehat serta bukti kuat bahwa pendekatan yang Anda jalani bekerja.';
 
   @override
   String get opioidReferenceDay1095 =>
@@ -3885,35 +3857,35 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get pornographyReferenceDay1 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Hari Pertama: Mengambil Kembali Kendali\n\nSumber: Kraus dkk., Compulsive sexual behaviour disorder in the ICD-11, World Psychiatry (2018).\n\nMasalah yang penting secara klinis bukanlah penggunaan pornografi itu sendiri. Compulsive Sexual Behaviour Disorder didefinisikan oleh kesulitan menetap dalam mengendalikan perilaku seksual berulang ketika pola tersebut menimbulkan tekanan atau gangguan fungsi yang bermakna. Penggunaan pornografi yang bermasalah dapat menjadi salah satu bentuk masalah yang lebih luas ini.\n\nKarena itu, hari pertama bersifat nyata, bukan mistis: Anda telah menghentikan perilaku yang Anda nilai sudah lepas kendali. Satu hari tidak membuktikan adanya “reset” otak atau saraf, tetapi memberi pengamatan pertama yang nyata tentang kapan dorongan muncul, situasi apa yang memicunya, dan apa yang dapat Anda lakukan sebagai gantinya.\n\nJika penggunaan Anda tidak menimbulkan tekanan, gangguan fungsi, atau kesulitan mengendalikan diri, kerangka klinis CSBD mungkin tidak berlaku bagi Anda. Tonggak ini ditujukan bagi orang yang memang sedang mengubah penggunaan yang bermasalah atau kompulsif.';
 
   @override
   String get pornographyReferenceDay3 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Hari Ketiga: Kenali Bentuk Dorongan\n\nSumber: Lewczuk dkk., Withdrawal and tolerance as related to compulsive sexual behavior disorder and problematic pornography use, Journal of Behavioral Addictions (2022).\n\nDalam sampel nasional Polandia yang telah dipraregistrasikan dan melibatkan 1.541 orang dewasa, pengalaman mirip putus zat yang dilaporkan sendiri berkaitan dengan tingkat CSBD dan penggunaan pornografi bermasalah yang lebih tinggi. Pada peserta dengan penggunaan pornografi bermasalah, pengalaman yang sering dilaporkan mencakup pikiran seksual yang sulit dihentikan, hasrat yang sulit dikendalikan, gairah meningkat, mudah tersinggung, perubahan suasana hati, dan masalah tidur.\n\nKegelisahan, pikiran seksual intrusif, dorongan kuat, dan mudah tersinggung memang terdokumentasi pada orang dengan masalah penggunaan yang lebih berat. Jika muncul sekitar hari ketiga, anggap sebagai pola mirip putus yang nyata dan kelola pemicunya.\n\nCatat dorongan yang benar-benar terjadi, apa yang mendahuluinya, dan respons apa yang membantu. Perubahan lebih mudah diarahkan ketika pemicunya diberi nama, bukan dianggap sebagai peristiwa otak yang misterius.';
 
   @override
   String get pornographyReferenceDay7 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Satu Minggu: Temuan dari Uji Abstinensi Acak\n\nSumber: Effects of a 7-Day Pornography Abstinence Period on Withdrawal-Related Symptoms in Regular Pornography Users, Archives of Sexual Behavior (2023).\n\nPeneliti mengacak 176 pengguna pornografi rutin untuk mencoba tidak menonton pornografi selama tujuh hari atau melanjutkan kebiasaan mereka seperti biasa. Pada keseluruhan sampel, abstinensi tidak meningkatkan keinginan, suasana hati negatif, atau gejala putus secara bermakna.\n\nAnalisis eksploratif menemukan peningkatan keinginan pada orang yang sekaligus memiliki skor penggunaan bermasalah tinggi dan menonton pornografi setiap hari sebelum penelitian. Temuan ini masih perlu direplikasi, tetapi berguna: minggu pertama yang berat dapat terjadi pada pengguna dengan masalah yang lebih berat, sementara uji ini tidak mendukung adanya sindrom putus pornografi yang universal.\n\nJika Anda sudah melewati satu minggu, Anda kini memiliki bukti yang lebih baik tentang pola Anda sendiri daripada yang dapat diberikan garis waktu internet yang umum.';
 
   @override
   String get pornographyReferenceDay14 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Dua Minggu: Petakan Pemicu yang Benar-Benar Penting\n\nSumber: Biopsychosocial Determinants of Problematic Pornography Use: A Systematic Review (2023).\n\nTinjauan ini merangkum 66 penelitian dan menemukan bahwa penggunaan pornografi bermasalah berkaitan dengan campuran berbagai faktor, bukan satu mekanisme dopamin sederhana. Faktor psikologis dan sosial yang berulang kali ditemukan antara lain keinginan, stres, penghindaran, kesepian, harga diri, keyakinan negatif, dan gaya menghadapi masalah.\n\nDua minggu memberi Anda paparan berulang terhadap hari kerja, akhir pekan, kebosanan, stres, privasi, perangkat, dan konteks lain yang mungkin memicu pola lama. Gunakan data itu. Jika stres adalah pemicu, siapkan respons untuk stres. Jika kesepian adalah pemicu, tambah kontak sosial. Jika akses yang terlalu mudah adalah pemicu, ubah lingkungan.\n\nBukti mendukung upaya mengatasi pendorong penggunaan yang bermasalah; bukti tidak mengharuskan kita berpura-pura bahwa semua orang mengikuti hitung mundur biologis yang sama.';
 
   @override
   String get pornographyReferenceDay30 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Satu Bulan: Kendali Lebih Penting daripada Sekadar Frekuensi\n\nSumber: Bőthe dkk., Are sexual functioning problems associated with frequent pornography use and/or problematic pornography use?, Addictive Behaviors (2021).\n\nDalam sampel komunitas berisi 14.581 orang dewasa, penggunaan pornografi bermasalah memiliki hubungan positif sedang dengan masalah fungsi seksual pada pria maupun wanita. Frekuensi penggunaan pornografi saja menunjukkan hubungan negatif yang lemah dengan masalah tersebut.\n\nPerbedaan ini penting. Bukti tidak mendukung klaim bahwa frekuensi menonton saja merusak fungsi seksual pada setiap pengguna pornografi. Sasaran yang lebih relevan secara klinis adalah hilangnya kendali dan masalah yang menyertai pola tersebut.\n\nPada satu bulan, bandingkan kehidupan Anda sekarang dengan saat memulai: seberapa besar pikiran tersita, waktu yang hilang, kemampuan berhenti, fungsi seksual, konflik hubungan, dan tekanan. Perubahan itu lebih penting daripada menunggu “reset otak” ajaib pada hari ke-30.';
 
   @override
   String get pornographyReferenceDay90 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Tiga Bulan: Perubahan yang Bertahan Itu Mungkin\n\nSumber: Crosby & Twohig, Acceptance and Commitment Therapy for Problematic Internet Pornography Use: A Randomized Trial, Behavior Therapy (2016).\n\nUji acak kecil ini membandingkan program ACT 12 sesi dengan daftar tunggu pada 28 pria dewasa. Penayangan pornografi turun jauh lebih besar pada kelompok ACT di akhir perawatan, dan penurunan yang berarti masih terlihat pada tindak lanjut tiga bulan.\n\nPenelitian ini tidak membuktikan bahwa 90 hari abstinensi saja menghasilkan efek yang sama, dan sampelnya kecil serta demografinya sempit. Namun, penelitian ini menunjukkan sesuatu yang penting: penggunaan pornografi bermasalah dapat diubah, dan keterampilan yang terstruktur dapat menghasilkan perubahan yang bertahan setelah masa perawatan langsung.\n\nJika kemajuan Anda masih terutama bergantung pada menahan diri sekuat tenaga, tiga bulan adalah saat yang baik untuk memperkuat sistem di sekitarnya: rencana menghadapi pemicu, menerima dorongan tanpa menindaklanjutinya, membuat akses lebih sulit, akuntabilitas, dan terapi bila diperlukan.';
 
   @override
   String get pornographyReferenceDay180 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Enam Bulan: Pengendalian Gejala Dapat Bertahan\n\nSumber: Hallberg dkk., A Randomized Controlled Study of Group-Administered Cognitive Behavioral Therapy for Hypersexual Disorder in Men, Journal of Sexual Medicine (2019).\n\nPada 137 pria dengan perilaku seksual yang sulit dikendalikan, CBT kelompok selama tujuh minggu menghasilkan penurunan gejala hiperseksual dan kompulsivitas seksual yang lebih besar dibanding daftar tunggu, disertai perbaikan kesejahteraan psikologis. Manfaat perawatan tetap stabil pada tindak lanjut tiga dan enam bulan.\n\nPenelitian ini mencakup gangguan hiperseksual secara lebih luas, bukan abstinensi pornografi saja, sehingga tidak boleh diubah menjadi klaim bahwa setiap orang pulih secara biologis pada enam bulan. Penelitian ini mendukung pernyataan yang lebih kuat dan berguna: perbaikan perilaku seksual kompulsif dapat tetap stabil selama rentang waktu ini.\n\nKarena itu, enam bulan adalah tonggak pemeliharaan. Pertahankan rutinitas yang membuat kendali lebih mudah, bukan menjadikan tanggal ini alasan untuk membongkarnya.';
 
   @override
   String get pornographyReferenceDay365 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Satu Tahun: Bukti Perubahan Perilaku yang Bertahan\n\nSumber: One-year follow-up effects of an acceptance-based treatment for hypersexuality (2026).\n\nPada tindak lanjut satu tahun, peserta dalam penelitian perawatan berbasis penerimaan ini tidak kembali ke tingkat hiperseksualitas sebelum perawatan. Penulis menggambarkan hasil tersebut sebagai bukti awal manfaat yang bertahan dan bermakna secara klinis, dengan kendali yang dirasakan atas keinginan sebagai salah satu proses yang diikuti dari waktu ke waktu.\n\nIni adalah bukti tindak lanjut perawatan, bukan bukti “reset otak” pada satu tahun. Klaim yang bermakna justru lebih baik: kendali yang relevan secara klinis dapat bertahan selama setahun, bukan menghilang segera setelah intervensi awal selesai.\n\nSatu tahun perubahan yang Anda pertahankan juga merupakan kumpulan data pribadi yang besar. Bandingkan kendali, tekanan, fungsi, hubungan, dan penggunaan waktu sekarang dengan saat Anda mulai; itulah hasil yang penting secara klinis.';
 
   @override
   String get pornographyReferenceDay730 =>
@@ -3929,31 +3901,31 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get pornographyReferenceDay1825 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Lima Tahun: Hasilnya adalah Kendali Jangka Panjang\n\nSumber: Compulsive sexual behavior disorder and problematic pornography use: a comprehensive interdisciplinary expert-informed review (2026).\n\nTinjauan modern memandang CSBD dan penggunaan pornografi bermasalah sebagai masalah kompleks yang melibatkan kendali, tekanan, fungsi, konteks, dan perbedaan individu. Tidak ada ambang “reset” otak dan saraf lima tahun yang telah divalidasi.\n\nNamun, lima tahun bukan tonggak kosong. Itu adalah 1.825 hari mempertahankan arah perilaku yang Anda pilih. Karena masalah klinisnya adalah hilangnya kendali yang menetap disertai tekanan atau gangguan fungsi, kendali yang berkelanjutan dan fungsi yang pulih selama bertahun-tahun merupakan hasil yang bermakna dengan sendirinya.\n\nPada tahap ini, pertanyaan yang berguna bukan lagi apakah otak Anda telah mencapai persentase “pengkabelan ulang” yang fiktif. Pertanyaannya adalah apakah pola lama masih mengendalikan pilihan atau mengganggu kehidupan yang Anda inginkan. Jika tidak, itu adalah keberhasilan jangka panjang yang nyata.';
 
   @override
   String get smokingReferenceDay1 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Hari Pertama: Manfaat Dimulai Sekarang\n\nSumber: NHS Better Health\n\nManfaat mulai muncul dalam hitungan menit — bukan hari. Begitu asap berhenti, tubuh mulai kembali menuju kondisi normal.\n\nYang terjadi hari ini\n• 20 menit: denyut nadi mulai kembali normal\n• 8 jam: karbon monoksida dalam darah turun setengah; kadar oksigen mulai pulih\n• 48 jam: karbon monoksida turun ke tingkat orang yang tidak merokok\n\nKarbon monoksida berikatan dengan sel darah merah lebih kuat daripada oksigen sehingga menggusur oksigen dari darah. Setiap organ menerima oksigen lebih sedikit daripada yang seharusnya. Dalam dua hari, keadaan ini mulai berbalik.\n\nGejala putus nikotin dimulai pada hari pertama\n• Keinginan merokok — tiap gelombang biasanya berlangsung 3–5 menit\n• Mudah tersinggung dan sulit berkonsentrasi\n• Nafsu makan meningkat\n\nGejala ini sementara dan dapat dikelola. Program NHS Better Health menyediakan dukungan gratis, termasuk aplikasi dan saran dari apoteker.';
 
   @override
   String get smokingReferenceDay3 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Hari Ketiga: Puncak Putus Nikotin\n\nSumber: McLaughlin, Dani & De Biasi\n\nSetelah 72 jam, nikotin telah keluar dari tubuh. Selama bertahun-tahun merokok, otak membentuk lebih banyak reseptor nikotin; sekarang reseptor tersebut kurang terstimulasi sehingga muncul sindrom putus nikotin.\n\nGejala yang sedang memuncak\n• Keinginan merokok — biasanya paling kuat sekarang\n• Mudah tersinggung, frustrasi, dan gelisah\n• Sulit berkonsentrasi\n• Cemas\n• Sakit kepala\n• Nafsu makan meningkat\n• Batuk (saluran napas sedang membersihkan diri — pertanda baik)\n\nIni sering menjadi hari tersulit. Setelah titik ini, gejala umumnya berangsur mereda saat otak menyesuaikan diri.\n\nTerapi pengganti nikotin (NRT), vareniklin, dan bupropion dapat secara bermakna mengurangi beratnya gejala putus nikotin pada tahap ini.';
 
   @override
   String get smokingReferenceDay7 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Satu Minggu: Rasa dan Penciuman Kembali\n\nSumber: NHS Better Health\n\nMencapai satu minggu tanpa rokok merupakan prediktor kuat keberhasilan jangka panjang — orang yang melewati minggu pertama jauh lebih mungkin berhenti untuk seterusnya.\n\nYang mulai pulih\n• Makanan terasa lebih kaya rasa\n• Bau terasa lebih jelas\n• Bernapas lebih mudah — saluran napas sedang dibersihkan\n• Sirkulasi membaik\n• Kulit terhidrasi lebih baik\n\nMerokok merusak reseptor rasa dan penciuman secara langsung; dalam beberapa hari setelah berhenti, keduanya mulai pulih.\n\nGejala putus nikotin akut mulai mereda. Keinginan fisik menjadi lebih singkat dan lebih jarang. Keinginan yang dipicu situasi tertentu masih bisa muncul, tetapi dorongan fisik terburuk sudah terlewati.';
 
   @override
   String get smokingReferenceDay14 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Dua Minggu: Sirkulasi Membaik\n\nSumber: NHS Better Health\n\nDalam 2–12 minggu setelah berhenti, sirkulasi darah membaik. Nikotin menyempitkan pembuluh darah setiap kali seseorang merokok; tanpa nikotin, pembuluh lebih rileks dan darah mengalir lebih bebas.\n\nArtinya\n• Aliran darah ke tangan, kaki, dan jaringan perifer membaik\n• Banyak orang merasakan tangan dan kaki lebih hangat\n• Berjalan dan menaiki tangga mulai terasa lebih mudah\n\nKarbon monoksida sudah tersingkir dari darah sejak hari-hari awal dan sirkulasi kini membaik, sehingga oksigen mencapai otot dengan lebih efektif.\n\nSilia yang melapisi saluran napas sedang pulih dan mendorong keluar lendir yang menumpuk. Jika Anda batuk lebih sering dari biasanya, itu bisa menjadi tanda pemulihan, bukan kemunduran.';
 
   @override
   String get smokingReferenceDay30 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Satu Bulan: Fungsi Paru Meningkat\n\nSumber: NHS Better Health\n\nBernapas menjadi lebih mudah dan fungsi paru membaik — dapat meningkat hingga 10% selama rentang 3 sampai 9 bulan. Pada satu bulan, Anda sudah berada dalam kurva pemulihan itu.\n\nYang terjadi di paru\n• Silia tumbuh kembali dan membersihkan lendir dengan lebih efektif\n• Peradangan saluran napas mulai mereda\n• Batuk khas perokok yang menetap mulai berkurang\n• Toleransi olahraga membaik\n\nBatuk, mengi, dan masalah pernapasan membaik seiring meningkatnya fungsi paru. Satu bulan adalah titik yang berarti dalam proses pemulihan tersebut.';
 
   @override
   String get smokingReferenceDay90 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Tiga Bulan: Risiko Serangan Jantung Menurun\n\nSumber: PMC — Cardiovascular Effects of Smoking and Cessation (2024)\n\nMerokok merusak jantung dan arteri melalui banyak cara: mempercepat penumpukan plak arteri, meningkatkan pembekuan darah, menaikkan tekanan darah, dan merusak lapisan arteri. Efek yang meningkatkan pembekuan mulai berbalik dalam beberapa hari setelah berhenti, dan tinjauan ini melaporkan penurunan nyata serangan jantung serta stroke dalam tahun pertama setelah berhenti.\n\nYang sudah membaik\n• Faktor pembekuan darah mulai kembali normal\n• Tekanan darah dan denyut jantung makin stabil\n• Penurunan awal terbesar dalam risiko kejadian kardiovaskular akut sudah berlangsung\n\nManfaat yang bekerja lebih lambat — seperti membalikkan dampak penumpukan plak arteri selama bertahun-tahun — membutuhkan waktu lebih lama dan dibahas pada tonggak berikutnya. Setiap bulan tanpa rokok menambah pemulihan.';
 
   @override
   String get smokingReferenceDay180 =>
@@ -3961,7 +3933,7 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get smokingReferenceDay365 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Satu Tahun: Risiko Serangan Jantung Turun Tajam\n\nSumber: PMC — Smoking Cessation and Stroke Outcome; CDC, Benefits of Quitting Smoking\n\nMerokok kira-kira menggandakan risiko stroke dengan mempercepat penumpukan plak arteri, meningkatkan pembekuan darah, menaikkan tekanan darah, dan merusak pembuluh darah otak. Garis waktu CDC tentang manfaat berhenti merokok menempatkan penurunan tajam risiko serangan jantung pada rentang 1 hingga 2 tahun — pada satu tahun, Anda berada di awal rentang tersebut.\n\nGaris waktu pemulihan\nNormalisasi penuh risiko stroke membutuhkan waktu lebih lama: studi stroke yang dikutip mengikuti orang yang berhenti merokok selama median hampir lima tahun dan menemukan tingkat stroke yang bermakna lebih rendah dibanding mereka yang terus merokok. Data CDC menempatkan penurunan setengah risiko tambahan penyakit jantung koroner pada 3 hingga 6 tahun, sementara risiko stroke terus menurun selama rentang 5 hingga 10 tahun.\n\nSatu tahun tetap merupakan tonggak medis yang nyata — bagian paling curam dari penurunan risiko akut sudah terlewati, sementara manfaat jangka panjang bagi jantung, pembuluh darah, dan risiko kanker terus bertambah selama bertahun-tahun.';
 
   @override
   String get smokingReferenceDay730 =>
@@ -3981,19 +3953,19 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get snriReferenceDay3 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Penghentian SNRI: Hari-hari pertama\n\nSumber: Harvard Health Publishing\n\nCatatan keselamatan penting\nSNRI sebaiknya dihentikan hanya di bawah pengawasan medis dengan penurunan dosis bertahap. Venlafaxine (Effexor) khususnya memiliki waktu paruh sangat pendek, sekitar 5 jam, sehingga obat keluar dari tubuh dengan cepat dan gejala penghentian dapat muncul berat dan mendadak.\n\nMengapa SNRI bisa lebih sulit dihentikan daripada SSRI\nSNRI memengaruhi dua zat kimia otak yang mengatur suasana hati — serotonin dan norepinefrin — sehingga keduanya harus menyesuaikan kembali setelah obat dihentikan. Gejala penghentian sering lebih kuat pada SNRI daripada SSRI:\n• Gejala mirip flu (lelah, berkeringat, nyeri otot)\n• Insomnia dan gangguan tidur\n• Mual — sering lebih menonjol daripada pada SSRI\n• Gangguan keseimbangan dan pusing\n• Gangguan sensorik — sensasi “sengatan listrik di kepala” dapat sangat kuat pada venlafaxine\n• Hiperarousal, mudah tersinggung, dan cemas\n\nMembandingkan SNRI\nVenlafaxine memiliki profil penghentian paling sulit karena waktu paruhnya pendek. Duloxetine (Cymbalta) cenderung sedikit lebih mudah karena waktu paruhnya lebih panjang, sekitar 12 jam. Desvenlafaxine berada di antara keduanya.';
 
   @override
   String get snriReferenceDay7 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Satu Minggu Setelah SNRI: Dua Sistem Kimia Otak Menyesuaikan\n\nSumber: NHS — Menghentikan antidepresan (panduan umum antidepresan; mekanisme norepinefrin di bawah mencerminkan farmakologi umum SNRI, bukan rincian khusus SNRI dari halaman NHS itu sendiri)\n\nTantangan Dua Sistem\nBerbeda dengan banyak antidepresan yang terutama memengaruhi satu sistem, SNRI memengaruhi serotonin dan norepinefrin. Pada satu minggu, keduanya sedang menyesuaikan.\n\nEfek Sistem Norepinefrin\nSistem norepinefrin berperan dalam respons lawan-atau-lari, pengaturan tekanan darah, dan tingkat energi. Saat menyesuaikan kembali:\n• Tekanan darah dapat berfluktuasi\n• Kecemasan dapat terasa lebih fisik (jantung berdebar, berkeringat)\n• Tingkat energi dapat tidak konsisten\n\nEfek Sistem Serotonin\nPada saat yang sama, sistem serotonin menyesuaikan dan dapat menimbulkan gejala penghentian yang lazim saat antidepresan dihentikan. Penyesuaian dua sistem sekaligus dapat membuat minggu pertama terasa lebih berat.\n\nSecara fisik, perbaikan sering terlihat sebagai tekanan darah yang lebih stabil dan lebih sedikit pusing saat berdiri. Secara emosional, suasana hati masih lebih berubah-ubah daripada pada hari ke-30, tetapi tidak lagi terasa jatuh bebas.';
 
   @override
   String get snriReferenceDay14 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Dua Minggu Setelah SNRI: Gejala Fisik Mereda\n\nSumber: Davies & Read (2019), Addictive Behaviors\n\nKondisi Dua Minggu\nBagi kebanyakan orang yang menjalani penurunan dosis dengan tepat, fase fisik akut sebagian besar sudah mereda dalam dua minggu:\n• Sensasi “sengatan listrik di kepala” jauh berkurang atau hilang\n• Mual dan gejala mirip flu mereda\n• Pusing dan masalah keseimbangan membaik\n• Tekanan darah dan denyut jantung makin stabil saat norepinefrin menyesuaikan\n\nYang Masih Dapat Berlanjut\n• Kepekaan emosi dan perubahan suasana hati\n• Kecemasan — yang sangat dipengaruhi sistem norepinefrin\n• Kelelahan, karena norepinefrin berperan dalam kewaspadaan dan energi\n\nKonteks Penelitian\nTinjauan sistematis Davies & Read (2019) di Addictive Behaviors menyimpulkan bahwa efek penghentian SNRI termasuk yang lebih berat di antara kelas antidepresan, dengan venlafaxine terkait angka gejala penghentian bermakna yang terutama tinggi.';
 
   @override
   String get snriReferenceDay30 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Satu Bulan Setelah SNRI: Stabilisasi Dua Sistem\n\nSumber: Davies & Read (2019), Addictive Behaviors — tinjauan sistematis tentang kejadian, tingkat keparahan, dan durasi gejala penghentian antidepresan\n\nFase Stabilisasi\nSatu bulan merupakan tonggak penting dalam penyesuaian serotonin dan norepinefrin. Tinjauan ini menemukan bahwa walau sebagian orang mengalami gejala penghentian lebih dari beberapa minggu, kebanyakan sudah melewati fase akut dengan gejala fisik paling berat pada titik ini.\n\nYang Biasanya Membaik pada Satu Bulan\n• Gejala fisik penghentian (sengatan listrik di kepala, mual, pusing) sudah mereda pada kebanyakan orang\n• Tekanan darah kembali menuju tingkat alaminya\n• Kualitas tidur membaik dan pola tidur REM kembali menyesuaikan\n• Tingkat energi mulai stabil seiring regulasi norepinefrin menormal\n\nBerkurangnya Penumpulan Emosi\nPengalaman yang sering dilaporkan pada tahap ini adalah berkurangnya penumpulan emosi. Banyak orang yang memakai SNRI merasa rentang emosinya menjadi “datar”. Saat obat telah keluar dan otak menyesuaikan kembali, rentang dan kepekaan emosi biasanya kembali.';
 
   @override
   String get snriReferenceDay90 =>
@@ -4001,63 +3973,63 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get snriReferenceDay180 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Enam Bulan Setelah SNRI: Pemulihan Otak dan Saraf\n\nSinyal Pemulihan pada Enam Bulan\nEnam bulan setelah penurunan dosis yang selesai di bawah pengawasan medis, fase awal penghentian SNRI yang berat sudah jauh berlalu. Suasana hati, tidur, fungsi seksual, dan kejernihan berpikir telah memiliki waktu berbulan-bulan untuk pulih:\n• Jalur serotonin: sebagian besar pulih\n• Jalur norepinefrin: menormal, sementara sistem respons stres juga makin stabil\n• Arsitektur tidur: diharapkan pulih sepenuhnya\n• Fungsi seksual: sebagian besar pulih pada kebanyakan orang (disfungsi seksual adalah efek samping umum SNRI, tetapi pada sebagian orang dapat menetap dan layak dibahas dengan dokter yang meresepkan)\n\nKetahanan terhadap Stres\nBanyak orang pada enam bulan melaporkan ketahanan yang jauh lebih baik terhadap stres sehari-hari ketika peran sistem norepinefrin dalam kewaspadaan dan respons stres — yang sangat dipengaruhi SNRI — kembali menuju tingkat alaminya.';
 
   @override
   String get snriReferenceDay365 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Satu Tahun Setelah SNRI: Pemulihan Tercapai\n\nSatu Tahun: Adaptasi Dua Sistem\nSatu tahun setelah penurunan dosis SNRI selesai, sistem serotonin dan norepinefrin telah memiliki waktu panjang untuk menyesuaikan dan menstabilkan diri.\n\nYang Sebenarnya Didukung Bukti pada Satu Tahun\nTinjauan Therapeutics Letter mencatat bahwa gejala penghentian yang terdokumentasi “biasanya muncul dalam beberapa hari setelah berhenti” dan kebanyakan mereda dalam sekitar dua minggu. Tidak ada studi terkontrol yang secara khusus mengikuti orang tepat satu tahun setelah penghentian SNRI. Gambaran klinis yang lebih luas pada jarak waktu ini mendukung bahwa:\n• Kebanyakan orang yang menyelesaikan penurunan dosis dengan tepat dan mendapat dukungan psikologis tetap dalam keadaan baik\n• Penumpulan emosi dan disfungsi seksual yang berkaitan dengan penggunaan SNRI telah pulih pada kebanyakan orang\n• Kejernihan berpikir, termasuk kemampuan berkonsentrasi, ditopang oleh fungsi alami otak\n\nArti Tonggak Ini\nBerhasil menghentikan SNRI — terutama venlafaxine — adalah pencapaian penting. Intensitas proses penghentian dan komitmen untuk menjalaninya di bawah pengawasan medis menunjukkan ketahanan yang besar.';
 
   @override
   String get socialMediaReferenceDay1 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Menjauh dari Media Sosial: Hari Pertama\n\nSumber: Lambert dkk., “Taking a One-Week Break from Social Media Improves Well-Being, Depression, and Anxiety: A Randomized Controlled Trial,” Cyberpsychology, Behavior, and Social Networking (2022), di PubMed\n\nApa yang Ditunjukkan Bukti\nDalam studi terkontrol ini, peserta diacak untuk berhenti menggunakan Facebook, Instagram, Twitter, dan TikTok selama satu minggu atau tetap menggunakannya seperti biasa. Kelompok yang beristirahat menunjukkan peningkatan kesejahteraan serta penurunan gejala depresi dan kecemasan. Ini merupakan bukti terkontrol bahwa mengambil jarak dari media sosial dapat membantu.\n\nApa yang Ditunjukkan Bukti\nPenggunaan media sosial yang kompulsif berkaitan dengan suasana hati yang lebih rendah dan kecemasan yang lebih tinggi. Uji acak menunjukkan bahwa sengaja mengurangi penggunaan dapat meningkatkan kesejahteraan sekaligus menurunkan gejala depresi dan kecemasan dalam waktu satu minggu.\n\nHari Pertama: Apa yang Mungkin Terasa\n• Gelisah dan ingin mengecek\n• Notifikasi “hantu” — merasa ponsel bergetar padahal tidak\n• Bosan saat menyesuaikan diri dengan stimulasi yang lebih sedikit\nSensasi terkait kebiasaan ini wajar dan sementara. Mengenali polanya adalah langkah pertama untuk mengubahnya.';
 
   @override
   String get socialMediaReferenceDay3 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Tiga Hari Tanpa Media Sosial: Kecemasan dan Suasana Hati\n\nSumber: Lambert dkk., “Taking a One-Week Break from Social Media Improves Well-Being, Depression, and Anxiety: A Randomized Controlled Trial,” Cyberpsychology, Behavior, and Social Networking (2022), di PubMed\n\nMengapa Jeda Dapat Membantu Suasana Hati\nDalam uji terkontrol ini, peserta yang diacak untuk berhenti menggunakan media sosial selama satu minggu mengakhiri minggu dengan kecemasan dan gejala depresi yang lebih rendah serta kesejahteraan yang lebih tinggi dibandingkan mereka yang tetap scrolling. Sebagian tekanan sehari-hari dari penggunaan berat datang dari perbandingan sosial dan rasa takut ketinggalan.\n\nApa yang Terjadi Sekitar 72 Jam\nPada awal jeda, kebiasaan itu masih terasa kuat:\n• Dorongan besar untuk mengecek, sering dipicu momen rutin seperti bangun tidur atau menunggu antrean\n• Sedikit mudah tersinggung dan gelisah\n• Bagi sebagian orang, kecemasan akibat perbandingan sosial mulai mereda\n• Kebiasaan scrolling sebelum tidur mulai melemah\n\nJebakan Perbandingan Mulai Longgar\nTanpa aliran terus-menerus dari unggahan terbaik orang lain, bahan bakar untuk perbandingan sosial berkurang. Hasil uji menunjukkan bahwa perubahan awal ini dapat terkumpul menjadi perbaikan suasana hati yang terukur pada akhir minggu pertama.';
 
   @override
   String get socialMediaReferenceDay7 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Satu Minggu Tanpa Media Sosial: Hasil yang Terukur\n\nSumber: Lambert dkk., “Taking a One-Week Break from Social Media Improves Well-Being, Depression, and Anxiety: A Randomized Controlled Trial,” Cyberpsychology, Behavior, and Social Networking (2022), di PubMed\n\nTepat Satu Minggu — dan Ada Hasil\nIni adalah tonggak yang paling langsung sesuai dengan penelitian: intervensinya memang berlangsung satu minggu. Dibandingkan peserta yang tetap menggunakan media sosial, kelompok yang beristirahat menunjukkan kesejahteraan lebih tinggi serta gejala depresi dan kecemasan lebih rendah setelah tujuh hari.\n\nYang Sering Dirasakan\nSelain perubahan suasana hati yang terukur, orang sering melaporkan:\n• Lebih banyak waktu yang kembali\n• Fokus lebih mudah karena kebiasaan berpindah perhatian terus-menerus mulai melemah\n• Malam lebih tenang dan tidur lebih mudah tanpa scrolling sebelum tidur\nPerubahan ini sejalan dengan peningkatan kesejahteraan yang diukur dalam penelitian.\n\nTeruskan\nSatu minggu adalah tonggak yang benar-benar didukung bukti. Menjaga pola yang lebih sehat memberi lebih banyak ruang untuk waktu, perhatian, dan suasana hati yang tidak dikuasai feed.';
 
   @override
   String get socialMediaReferenceDay14 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Dua Minggu dengan Media Sosial Sangat Terbatas: Hasil Dua Minggu\n\nSumber: Coyne & Woodruff, “Taking a Break: The Effects of Partaking in a Two-Week Social Media Digital Detox… among Young Adults,” Behavioral Sciences (2023), di PubMed Central\n\nTentang Penelitian Ini\nOrang dewasa muda membatasi media sosial menjadi sekitar 30 menit per hari selama dua minggu, dengan penggunaan dilacak secara objektif di ponsel mereka. Penggunaan turun sekitar 78%, sehingga penelitian ini memberi gambaran langsung tentang apa yang terjadi ketika penggunaan dikurangi tajam selama dua minggu.\n\nApa yang Membaik\nSelama dua minggu, peserta menunjukkan perbaikan pada:\n• Durasi dan kualitas tidur\n• Kepuasan hidup\n• Stres\n• Kesejahteraan yang dirasakan\n• Skor kecanduan ponsel pintar dan media sosial\nPerubahan yang diukur mencakup tidur yang lebih lama dan lebih baik, stres lebih rendah, kepuasan hidup dan kesejahteraan yang lebih tinggi, serta skor kecanduan yang lebih rendah.\n\nWaspadai Kembali ke Pola Lama\nPeneliti juga melihat penggunaan mulai naik lagi setelah intervensi. Dua minggu adalah kemajuan nyata, tetapi temuan ini menekankan pentingnya rencana yang disengaja, bukan sekadar jeda sementara.';
 
   @override
   String get socialMediaReferenceDay30 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Satu Bulan dengan Media Sosial Sangat Terbatas: Hubungan Nyata Makin Kuat\n\nSumber: Coyne & Woodruff, “Taking a Break: The Effects of Partaking in a Two-Week Social Media Digital Detox… among Young Adults,” Behavioral Sciences (2023), di PubMed Central\n\nHubungan Dapat Membaik Saat Anda Mengambil Jarak\nDalam studi ini, pengurangan media sosial berkaitan dengan hubungan yang lebih suportif, kepuasan hidup yang lebih baik, dan stres yang lebih rendah. Waktu dan perhatian yang sebelumnya tersedot feed menjadi tersedia untuk orang-orang yang benar-benar hadir dalam hidup Anda.\n\nYang Sering Terjadi Setelah Satu Bulan\nSetelah 30 hari, ketika dorongan otomatis untuk mengecek sudah lebih lemah, banyak orang menemukan:\n• Percakapan terasa lebih hadir dan lebih sedikit terputus\n• Minat pada aktivitas dan hobi dunia nyata meningkat\n• Citra diri tidak terlalu bergantung pada jumlah suka, komentar, atau pengikut\n\nSinyal Perubahan\nPada satu bulan, Anda telah mempertahankan pola yang lebih sehat selama dua kali durasi intervensi studi. Hasil yang diukur pada dua minggu tidak membuktikan efek baru yang khusus muncul pada hari ke-30, tetapi kebiasaan yang lebih disengaja sudah punya waktu tambahan untuk menjadi rutinitas.\n\nGunakan Waktu yang Kembali\nIsi waktu yang bebas dengan aktivitas yang membangun hubungan dan kepuasan nyata, bukan sekadar mengganti satu layar dengan layar lain.';
 
   @override
   String get socialMediaReferenceDay60 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Dua Bulan dengan Media Sosial Sangat Terbatas: Apa yang Didukung Bukti\n\nSumber: Ramadhan dkk., “Impacts of digital social media detox for mental health: A systematic review and meta-analysis,” Narra J (2024), di PubMed Central\n\nGambaran yang Paling Andal\nPeneliti menggabungkan hasil dari 10 studi, termasuk tujuh uji terkontrol. Hasil yang paling jelas adalah penurunan gejala depresi setelah peserta mengurangi atau menghentikan media sosial.\n\nHasil Terkuat\nAnalisis gabungan menemukan penurunan gejala depresi. Dua bulan bukan ambang klinis yang diuji secara khusus, tetapi Anda telah mempertahankan jenis pengurangan paparan digital yang dipelajari dalam intervensi tersebut.\n\nSeperti Apa Dua Bulan Itu\nDengan lebih sedikit perbandingan harian dan lebih sedikit penguatan dari feed, ada lebih banyak ruang untuk membangun citra diri yang tidak bergantung pada suka, komentar, atau jumlah pengikut. Bukti gabungan terkuat tetap berkaitan dengan gejala depresi yang lebih rendah.\n\nInti Praktisnya\nBukti mendukung perubahan yang disengaja dan dipertahankan. Gunakan tonggak dua bulan untuk menjaga batas yang Anda pilih dan berinvestasi pada sumber makna serta hubungan di luar layar.';
 
   @override
   String get socialMediaReferenceDay90 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Tiga Bulan dengan Media Sosial Sangat Terbatas: Normal Baru\n\nSumber: Coyne & Woodruff, “Taking a Break: The Effects of Partaking in a Two-Week Social Media Digital Detox… among Young Adults,” Behavioral Sciences (2023), di PubMed Central\n\nTidur Menjadi Salah Satu Hasil Utama\nDalam studi ini, peserta yang mengurangi media sosial menunjukkan perbaikan durasi dan kualitas tidur. Penelitian mengukur intervensi dua minggu, bukan ambang khusus pada tiga bulan, tetapi kebiasaan malam tanpa scrolling sudah punya waktu lebih lama untuk menetap.\n\nApa Lagi yang Membaik\nStudi yang sama menemukan perbaikan pada stres, kepuasan hidup, kesejahteraan yang dirasakan, dan hubungan yang suportif. Temuan itu berasal dari jendela intervensi studi dan tidak menetapkan hasil khusus pada hari ke-90.\n\nSinyal pada Mekanisme\nMengurangi media sosial secara tajam meningkatkan durasi dan kualitas tidur dalam studi intervensi. Menjaga kebiasaan itu selama tiga bulan dapat membantu menjadikan berkurangnya scrolling larut malam sebagai rutinitas yang lebih stabil.\n\nKehadiran dan Hubungan\nKetika refleks untuk mengisi setiap momen tenang dengan ponsel melemah, hadir dalam percakapan, makan bersama, dan waktu istirahat dapat terasa lebih alami.';
 
   @override
   String get socialMediaReferenceDay180 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Enam Bulan dengan Media Sosial Sangat Terbatas: Apa yang Diukur Penelitian\n\nSumber: Ramadhan dkk., “Impacts of digital social media detox for mental health: A systematic review and meta-analysis,” Narra J (2024), di PubMed Central\n\nApa yang Ditambahkan Meta-Analisis\nDengan menggabungkan 10 studi, termasuk tujuh uji terkontrol, peneliti menemukan penurunan gejala depresi setelah peserta mengurangi atau menghentikan penggunaan media sosial.\n\nApa yang Sebenarnya Ditemukan\n• Depresi: penurunan yang signifikan secara statistik, hasil yang paling jelas dan konsisten\n• Kepuasan hidup: tidak ada efek signifikan\n• Stres: tidak ada efek signifikan\n• Kesejahteraan mental secara keseluruhan: tidak ada efek signifikan\nHasil gabungan terkuat adalah penurunan gejala depresi. Meta-analisis ini tidak menetapkan ambang pemulihan khusus pada enam bulan.\n\nMengapa Manfaat Praktis Tetap Bisa Terasa\nEnam bulan dengan paparan feed yang lebih rendah berarti lebih banyak waktu tersedia dan lebih sedikit peluang bagi kebiasaan mengecek kompulsif untuk menguasai hari. Itu adalah manfaat praktis dari pola yang dipertahankan, bukan klaim bahwa penelitian membuktikan perubahan klinis baru tepat pada hari ke-180.\n\nTetap Kendalikan Feed\nKeuntungan terbesar datang dari memutus penggunaan yang berat, pasif, dan kompulsif. Pada enam bulan, kendali yang disengaja atas media sosial dapat menjadi kebiasaan sehari-hari.';
 
   @override
   String get socialMediaReferenceDay365 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Satu Tahun dengan Media Sosial Sangat Terbatas: Hubungan yang Diatur Ulang\n\nSumber: Ramadhan dkk., “Impacts of digital social media detox for mental health: A systematic review and meta-analysis,” Narra J (2024), di PubMed Central\n\nSatu Tahun Perubahan yang Dipertahankan\nBukti gabungan terkuat menunjukkan bahwa mengurangi media sosial dapat menurunkan gejala depresi. Penelitian tidak menetapkan satu tahun sebagai ambang kesehatan khusus; tonggak ini merayakan lamanya Anda mempertahankan pola yang lebih disengaja.\n\nYang Dibangun dalam Setahun\nSetahun memberi banyak waktu untuk hubungan nyata, hobi, keterampilan, refleksi, dan kreativitas. Kebiasaan mengecek otomatis juga punya waktu panjang untuk melemah sementara rutinitas offline menguat.\n\nManfaat yang Dipertahankan\nKeuntungan kesehatan mental yang paling jelas dalam meta-analisis adalah gejala depresi yang lebih rendah. Manfaat praktis seperti lebih banyak waktu, lebih sedikit gangguan, dan lebih sedikit pengecekan kompulsif dapat terus bertambah selama Anda mempertahankan kendali atas feed.\n\nLangkah Berikutnya\nSetahun perubahan yang disengaja telah mengubah hubungan Anda dengan media sosial. Baik Anda tetap menjauh maupun kembali dengan penggunaan yang terbatas dan sadar, kemenangan utamanya adalah keputusan digital berada di tangan Anda.';
 
   @override
   String get ssriReferenceDay3 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Penghentian SSRI: Hari-hari Pertama\n\nSumber: Harvard Health Publishing\n\nCatatan Keselamatan Penting\nSSRI hanya boleh dihentikan di bawah pengawasan medis dengan penurunan dosis bertahap. Penghentian mendadak — terutama setelah penggunaan jangka panjang — dapat sangat memperberat gejala penghentian.\n\nApa Itu Sindrom Penghentian SSRI?\nSindrom penghentian SSRI adalah fenomena medis yang terdokumentasi dengan baik dan dapat terjadi ketika SSRI dihentikan atau dosisnya dikurangi secara besar. Klinisi menggunakan singkatan FINISH untuk menggambarkan gejala umum:\n• Gejala mirip flu (lelah, berkeringat, nyeri otot)\n• Insomnia dan gangguan tidur\n• Mual\n• Gangguan keseimbangan dan pusing\n• Gangguan sensorik — terutama sensasi “brain zaps”\n• Hiperarousal, mudah tersinggung, dan cemas\n\nWaktu Paruh Berpengaruh\nFluoxetine (Prozac) memiliki waktu paruh sangat panjang, 4–6 hari, sehingga kadar obat turun lebih bertahap dan gejala penghentiannya biasanya lebih ringan. Paroxetine (Paxil) memiliki waktu paruh paling pendek di antara SSRI yang umum dan cenderung menimbulkan gejala penghentian paling kuat. Sertraline, citalopram, dan escitalopram berada di antara keduanya.';
 
   @override
   String get ssriReferenceDay7 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Satu Minggu Setelah SSRI: Fase Akut\n\nSumber: NHS — Stopping or coming off antidepressants\n\nFase Penghentian Akut\nNHS menjelaskan bahwa sebagian besar gejala penghentian antidepresan mulai dalam lima hari setelah berhenti dan pada kebanyakan orang dapat berlangsung hingga enam minggu. Pada satu minggu, gejala fisik akut sering paling terasa dan, pada orang yang menurunkan dosis bertahap, mulai menunjukkan kecenderungan mereda.\n\nYang Dapat Dirasakan pada Minggu Pertama\n• Gejala fisik seperti mual, pusing, dan rasa seperti flu dapat sangat kuat tetapi mulai mereda\n• Gangguan tidur, termasuk mimpi yang sangat nyata atau insomnia, umum terjadi\n• Emosi yang mudah berubah cepat sering terjadi pada tahap ini\n• Brain zaps masih dapat muncul tetapi biasanya mulai berkurang frekuensinya\n\nPeran Penurunan Dosis Bertahap\nNHS sangat menganjurkan penurunan dosis secara perlahan — kadang selama berbulan-bulan pada penggunaan jangka panjang — untuk mengurangi efek penghentian. Royal College of Psychiatrists juga menganjurkan pengurangan dosis yang sangat bertahap, termasuk penggunaan sediaan cair bila sesuai, bagi orang yang telah memakai SSRI lama.';
 
   @override
   String get ssriReferenceDay14 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Dua Minggu Setelah SSRI: Gejala Fisik Mereda\n\nSumber: Davies & Read (2019), Addictive Behaviors — “A systematic review into the incidence, severity and duration of antidepressant withdrawal effects”\n\nTemuan Penelitian\nTinjauan sistematis ini melaporkan bahwa sekitar 56% orang yang menghentikan antidepresan mengalami efek putus obat, dan 46% dari mereka menggambarkannya sebagai berat. Bagi banyak orang yang menjalani penurunan dosis dengan tepat, fase akut sebagian besar sudah mereda pada dua minggu:\n• Brain zaps jauh berkurang atau hilang\n• Mual dan gejala mirip flu mereda\n• Pusing dan gangguan keseimbangan membaik\n• Tidur mulai kembali normal\n\nMembedakan Penghentian dari Kekambuhan\nGejala yang muncul dalam beberapa hari setelah berhenti dan sesuai pola FINISH lebih mungkin merupakan sindrom penghentian. Gejala yang muncul setelah 2–4 minggu dan menyerupai kondisi awal yang diobati lebih mungkin merupakan kekambuhan. Penting memantau perbedaan ini bersama dokter yang meresepkan obat.';
 
   @override
   String get ssriReferenceDay30 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Satu Bulan Setelah SSRI: Stabilisasi\n\nSumber: Haddad PM (2001), Drug Safety — “Antidepressant Discontinuation Syndromes”\n\nFase Stabilisasi\nTinjauan ini menjelaskan bahwa gejala penghentian biasanya muncul cepat, dalam beberapa hari setelah antidepresan dihentikan atau dosisnya dikurangi, dan sebagian besar reaksi bersifat ringan serta singkat dan mereda tanpa terapi khusus. Satu bulan menandai peralihan dari jendela akut menuju stabilisasi; bagi banyak orang yang menyelesaikan penurunan dosis bertahap, gejala akut kini sebagian besar sudah mereda.\n\nPerubahan Emosi pada Satu Bulan\nPerubahan emosi berbeda-beda dan penting dipantau:\n• Sebagian orang awalnya merasa emosi lebih “datar” ketika otak menyesuaikan diri — biasanya membaik\n• Sebagian lain merasakan kembali emosi yang lebih hidup setelah lama tidak merasakannya\n• Tingkat kecemasan sangat bergantung pada individu dan kondisi dasarnya\n\nNilai Dukungan Non-Obat\nTerapi bicara seperti CBT dan terapi psikologis berbasis bukti lainnya efektif untuk banyak kondisi yang diobati dengan SSRI. Satu bulan adalah saat yang baik untuk memastikan dukungan tersebut tersedia.';
 
   @override
   String get ssriReferenceDay90 =>
@@ -4073,23 +4045,23 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get steroidsReferenceDay1 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Berhenti dari Steroid Anabolik: Hari-Hari Pertama\n\nSumber: \"Common symptoms associated with usage and cessation of anabolic androgenic steroids in men,\" Best Practice & Research Clinical Endocrinology & Metabolism (2022)\n\nFase Akut\nTinjauan ini menggambarkan putus AAS dalam dua fase. Fase pertama dipicu oleh aktivasi sistem saraf simpatik, bukan kadar hormon, muncul dalam 1–2 hari setelah berhenti dan dapat meliputi:\n• Sakit kepala\n• Tremor\n• Jantung berdebar\n• Mual\n\nMengapa Gejala Muncul\nSteroid anabolik juga menekan produksi testosteron alami tubuh. Otak mendeteksi steroid lalu mengurangi sinyal hormon yang biasanya mendorong produksi testosteron. Penekanan ini masih berlanjut setelah berhenti dan menjadi dasar fase kedua yang lebih lama, seperti dijelaskan pada tonggak berikutnya.\n\nCatatan Keselamatan\nDepresi dapat muncul selama penghentian steroid dan bisa menjadi serius. Cari pertolongan medis, dan segera cari bantuan darurat bila muncul pikiran untuk menyakiti diri. Dokter sering membantu memandu pemulihan; sebagian menggunakan obat sebagai dukungan.';
 
   @override
   String get steroidsReferenceDay14 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.\n\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.\n• Informasi pemulihan yang relevan.';
+      'Dua Minggu Tanpa Steroid Anabolik\n\nSumber: \"Common symptoms associated with usage and cessation of anabolic androgenic steroids in men,\" Best Practice & Research Clinical Endocrinology & Metabolism (2022)\n\nFase Berkepanjangan Mulai Terasa\nSetelah dua minggu, gejala simpatik singkat pada hari-hari pertama biasanya sudah mereda. Fase kedua yang didorong oleh kekurangan testosteron berkelanjutan menjadi lebih menonjol:\n• Kelelahan dan suasana hati rendah\n• Nyeri otot (mialgia)\n• Libido menurun\n• Insomnia dan keinginan kuat untuk memakai kembali\n\nMasih di Titik Rendah\nProduksi testosteron alami memerlukan jauh lebih dari dua minggu untuk pulih. Fase ini karena itu masih sesuai dengan proses yang diharapkan, bukan otomatis tanda bahwa ada sesuatu yang salah.\n\nJebakan yang Dikenal\nSebagian pria kembali memakai steroid khusus untuk menghindari masa ini. Hal itu mengulang siklus pemulihan, bukan mengakhirinya. Dukungan dokter atau konselor dapat membantu melewati fase ini tanpa menggunakan steroid lagi.';
 
   @override
   String get steroidsReferenceDay30 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Satu Bulan Tanpa Steroid Anabolik\n\nSumber: \"Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review,\" di PubMed\n\nPemulihan Dimulai\nSetelah berhenti, sinyal hormon yang memberi tahu testis untuk memproduksi testosteron mulai aktif kembali. Penelitian menempatkan banyak proses pemulihan ini dalam rentang tiga sampai enam bulan, jadi setelah satu bulan prosesnya sudah berjalan.\n\nYang Dapat Diharapkan\nSuasana hati rendah, libido rendah, dan kurang energi sering masih bertahan ketika kadar hormon meningkat kembali. Pemulihan dipengaruhi usia serta seberapa berat dan lama penggunaan sebelumnya.';
 
   @override
   String get steroidsReferenceDay90 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Tiga Bulan Tanpa Steroid Anabolik\n\nSumber: \"Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review,\" di PubMed\n\nSaat yang Baik untuk Tes Darah\nPada tiga bulan, sistem hormon sudah memiliki waktu untuk menunjukkan pemulihan yang bermakna. Ini merupakan saat yang berguna untuk meminta dokter memeriksa testosteron dan hormon yang mengaturnya.\n\nYang Dapat Diharapkan\nPada banyak pria, kadar hormon pada tiga bulan sedang meningkat tetapi belum sepenuhnya normal. Suasana hati dan libido sering membaik sebelum testosteron pulih sepenuhnya. Ukuran testis dan produksi sperma pulih lebih lambat dan dapat terus membaik selama tahun berikutnya. Pertumbuhan jaringan payudara (ginekomastia), bila terjadi, kecil kemungkinannya berbalik tanpa terapi khusus.';
 
   @override
   String get steroidsReferenceDay180 =>
-      'Informasi referensi pemulihan dalam bahasa Indonesia.\n\nSumber: sumber kesehatan publik dan penelitian terkait.';
+      'Enam Bulan Tanpa Steroid Anabolik\n\nSumber: \"Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review,\" di PubMed\n\nArah Bukti\nTinjauan ini melaporkan bahwa LH dan FSH, hormon yang memberi sinyal pada testis untuk membuat testosteron, biasanya pulih dalam sekitar tiga hingga enam bulan. Pada enam bulan, pemulihan testosteron sendiri juga umumnya sudah jauh berlangsung.\n\nJika Belum Pulih Sejauh Itu\nJika gejala testosteron rendah masih ada setelah enam bulan, dokter spesialis endokrin dapat menilai penyebabnya dan membahas pengobatan, bukan sekadar membiarkan Anda menunggu.';
 
   @override
   String get steroidsReferenceDay365 =>
@@ -4186,7 +4158,7 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get vapingMilestone1460Description =>
-      'Empat tahun bebas vape. Itu 1.460 hari tanpa memperkuat kebiasaan vaping lagi. Ilmu pengetahuan belum memiliki jam pemulihan jangka panjang yang berlaku untuk semua orang, tetapi perubahan tahan lama ini nyata dan layak dirayakan.';
+      'Empat tahun bebas vape. Itu 1.460 hari tanpa memperkuat kembali kebiasaan vaping. Ilmu pengetahuan belum menetapkan garis waktu pemulihan jangka panjang yang berlaku untuk semua orang, tetapi perubahan tahan lama ini nyata dan layak dirayakan.';
 
   @override
   String get vapingMilestone1825Title => 'Lima Tahun: Setengah Dekade';

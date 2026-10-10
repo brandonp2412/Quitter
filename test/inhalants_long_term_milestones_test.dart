@@ -80,11 +80,31 @@ void main() {
         expect(milestone.localizedReferenceContent, isNotEmpty);
       }
       expect(descriptions, hasLength(4));
+
+      const expectedLinks = {
+        1: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10266853/',
+        7: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10266853/',
+        14: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10266853/',
+        30: 'https://pubmed.ncbi.nlm.nih.gov/21497458/',
+        90: 'https://pubmed.ncbi.nlm.nih.gov/21497458/',
+        365: 'https://pubmed.ncbi.nlm.nih.gov/23490054/',
+        730: 'https://pubmed.ncbi.nlm.nih.gov/23490054/',
+        1095: 'https://pubmed.ncbi.nlm.nih.gov/23490054/',
+        1460: 'https://pubmed.ncbi.nlm.nih.gov/23490054/',
+        1825: 'https://pubmed.ncbi.nlm.nih.gov/23490054/',
+      };
+      for (final entry in expectedLinks.entries) {
+        final milestone = page.milestones.singleWhere(
+          (milestone) => milestone.day == entry.key,
+        );
+        expect(milestone.link, entry.value);
+        expect(milestone.localizedReferenceContent, isNotEmpty);
+      }
     },
   );
 
-  test('all supported ARBs localize inhalants long-term milestones', () {
-    const days = [1095, 1460, 1825];
+  test('all supported ARBs fully localize inhalants milestones', () {
+    const days = [1, 7, 14, 30, 90, 365, 730, 1095, 1460, 1825];
     final arbFiles =
         Directory('lib/l10n')
             .listSync()
@@ -97,6 +117,33 @@ void main() {
     final english =
         jsonDecode(File('lib/l10n/app_en.arb').readAsStringSync())
             as Map<String, dynamic>;
+
+    int paragraphCount(String value) =>
+        value.trim().split(RegExp(r'\n\s*\n')).length;
+    int bulletCount(String value) =>
+        RegExp(r'^•\s', multiLine: true).allMatches(value).length;
+
+    const knownBadFragments = <String, List<String>>{
+      'ar': ['الامتناع عن ممارسة الجنس'],
+      'de': [
+        'Rücktrittsfrist',
+        'Abhebungen',
+        'Brain Recovering',
+        'Wiedereinziehung',
+        'Off Inhal',
+      ],
+      'id': ['Informasi referensi pemulihan'],
+      'ko': ['할인', '조기 철수', '금주', '유연 휘발유'],
+      'pl': ['The Road Ahead', 'Otherwise', 'zazwyczaj ende.', '2x5'],
+      'pt_BR': [
+        'saque antecipado',
+        'folga em inalantes',
+        'utilizadores',
+        'défices',
+      ],
+      'th': ['ถอนเงิน', 'เลิกบุหรี่'],
+      'ur': ['یہوواہ', 'موٹروے'],
+    };
 
     for (final file in arbFiles) {
       final locale = file.uri.pathSegments.last
@@ -138,13 +185,43 @@ void main() {
           ),
           reason: '$locale must localize $referenceKey',
         );
+
+        final reference = arb[referenceKey] as String;
+        final englishReference = english[referenceKey] as String;
+        expect(
+          paragraphCount(reference),
+          paragraphCount(englishReference),
+          reason:
+              '$locale must preserve the section structure of $referenceKey',
+        );
+        expect(
+          bulletCount(reference),
+          bulletCount(englishReference),
+          reason: '$locale must preserve the bullet structure of $referenceKey',
+        );
+
         if (locale != 'en') {
           expect(
-            arb[referenceKey],
-            isNot(equals(english[referenceKey])),
+            reference,
+            isNot(equals(englishReference)),
             reason: '$locale must not fall back to English for $referenceKey',
           );
         }
+      }
+
+      final inhalantsText = [
+        for (final entry in arb.entries)
+          if (entry.key.startsWith('inhalantsMilestone') ||
+              entry.key.startsWith('inhalantsReference'))
+            entry.value,
+      ].join('\n');
+      for (final fragment in knownBadFragments[locale] ?? const <String>[]) {
+        expect(
+          inhalantsText,
+          isNot(contains(fragment)),
+          reason:
+              '$locale must not reintroduce known mistranslation: $fragment',
+        );
       }
     }
   });

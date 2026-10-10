@@ -91,8 +91,8 @@ void main() {
     },
   );
 
-  test('all supported ARBs localize pornography long-term milestones', () {
-    const days = [730, 1095, 1460, 1825];
+  test('all supported ARBs localize every pornography milestone', () {
+    const days = [1, 3, 7, 14, 30, 90, 180, 365, 730, 1095, 1460, 1825];
     final arbFiles =
         Directory('lib/l10n')
             .listSync()
@@ -146,11 +146,49 @@ void main() {
           ),
           reason: '$locale must localize $referenceKey',
         );
+        final reference = arb[referenceKey] as String;
+        final englishReference = english[referenceKey] as String;
+        expect(
+          reference.split('\n\n'),
+          hasLength(englishReference.split('\n\n').length),
+          reason: '$locale must preserve paragraph structure for $referenceKey',
+        );
         if (locale != 'en') {
           expect(
-            arb[referenceKey],
-            isNot(equals(english[referenceKey])),
+            reference,
+            isNot(equals(englishReference)),
             reason: '$locale must not fall back to English for $referenceKey',
+          );
+        }
+
+        if (locale == 'ur') {
+          final paragraphs = reference.split('\n\n');
+          final narrative = [paragraphs.first, ...paragraphs.skip(2)].join(' ');
+          expect(
+            narrative,
+            isNot(
+              matches(
+                RegExp(
+                  r'\b(?:reset|milestones?|reviews?|withdrawal|craving|sample|trial|pattern|timeline|review|data|control|distress|functioning|outcomes|rewiring|validated|hypersexuality)\b',
+                  caseSensitive: false,
+                ),
+              ),
+            ),
+            reason:
+                'Urdu narrative must not contain mixed English in $referenceKey',
+          );
+        }
+
+        if (locale == 'th') {
+          final paragraphs = reference.split('\n\n');
+          final narrative = [paragraphs.first, ...paragraphs.skip(2)].join(' ');
+          expect(
+            narrative,
+            isNot(
+              matches(RegExp(r'\bhypersexual(?:ity)?\b', caseSensitive: false)),
+            ),
+            reason:
+                'Thai narrative must localize clinical terminology in $referenceKey',
           );
         }
       }

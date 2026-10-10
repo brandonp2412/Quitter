@@ -118,7 +118,7 @@
   "inhalantsMilestone90Description": "Tres meses de abstinencia favorecen la recuperación continua de la memoria, la atención y la función motora. Las mejoras son graduales, pero reales.",
   "inhalantsMilestone365Title": "Un año — recuperación considerable",
   "inhalantsMilestone365Description": "Un año de abstinencia aporta una recuperación neurológica considerable a la mayoría de las personas, y se esperan nuevas mejoras durante el segundo año.",
-  "inhalantsMilestone730Title": "Dos años — recuperación a largo plazo",
+  "inhalantsMilestone730Title": "Dos años: recuperación duradera",
   "inhalantsMilestone730Description": "Dos años de abstinencia es el periodo en el que los estudios han encontrado una recuperación considerable de la función cerebral, salvo en los daños causados por gasolina con plomo, que pueden persistir.",
   "synthetic_cannabinoidsPageTitle": "Cannabinoides sint.",
   "synthetic_cannabinoidsHeaderStarted": "Tu camino de recuperación",
@@ -133,12 +133,12 @@
   "synthetic_cannabinoidsMilestone3Description": "Tres días sin consumir. La abstinencia de cannabinoides sintéticos puede ser más dura que la del cannabis de alta potencia, así que este primer tramo va en serio. Ya está poniendo una distancia real entre usted y la siguiente dosis.",
   "synthetic_cannabinoidsMilestone7Title": "Una semana fuerte",
   "synthetic_cannabinoidsMilestone7Description": "Una semana conseguida. La abstinencia de cannabinoides sintéticos puede ser grave y más física que la del cannabis. Siete días sin otra dosis es una victoria importante.",
-  "synthetic_cannabinoidsMilestone14Title": "Dos semanas libre",
-  "synthetic_cannabinoidsMilestone14Description": "Dos semanas libre. Los cannabinoides sintéticos son otra bestia: ya suma catorce días sin volver a exponerse a una clase de drogas relacionada con convulsiones, psicosis y problemas cardíacos.",
+  "synthetic_cannabinoidsMilestone14Title": "Dos semanas sin consumir",
+  "synthetic_cannabinoidsMilestone14Description": "Dos semanas sin consumir. Los cannabinoides sintéticos son otra bestia: ya suma catorce días sin volver a exponerse a una clase de drogas relacionada con convulsiones, psicosis y problemas cardíacos.",
   "synthetic_cannabinoidsMilestone30Title": "Un mes sin consumir",
   "synthetic_cannabinoidsMilestone30Description": "Un mes completo sin consumir. Son treinta días sin volver a exponerse a la potencia impredecible y la toxicidad aguda de los cannabinoides sintéticos. Un hito enorme.",
-  "synthetic_cannabinoidsMilestone90Title": "Tres meses después",
-  "synthetic_cannabinoidsMilestone90Description": "Tres meses libre. Ha puesto una gran distancia entre usted y una clase de drogas relacionada con abstinencia grave, convulsiones, problemas cardiovasculares y psicosis. Siga así.",
+  "synthetic_cannabinoidsMilestone90Title": "Tres meses sin consumir",
+  "synthetic_cannabinoidsMilestone90Description": "Tres meses sin consumir. Ha puesto una gran distancia entre usted y una clase de drogas relacionada con abstinencia grave, convulsiones, problemas cardiovasculares y psicosis. Siga así.",
   "synthetic_cannabinoidsMilestone180Title": "Medio año libre",
   "synthetic_cannabinoidsMilestone180Description": "Medio año libre. Seis meses sin cannabinoides sintéticos es enorme: seis meses sin asumir otra vez sus riesgos agudos impredecibles.",
   "synthetic_cannabinoidsWithdrawalReference": "Abstinencia de cannabinoides sintéticos\n\nFuente: Craft et al. (2022), Psychopharmacology, PMC\n\nEntre 284 personas que habían usado agonistas sintéticos de los receptores cannabinoides más de diez veces el año anterior e intentaron dejarlos, el 82,7 % informó al menos un síntoma de abstinencia tras más de un día sin consumo. Los más frecuentes fueron problemas de sueño (59,2 %), irritabilidad (55,6 %) y ánimo bajo (54,2 %); también se informaron sudoración, palpitaciones, deseo de consumir, agitación y temblores. Un consumo más frecuente e intenso se relacionó con más síntomas. En la comparación directa, la abstinencia de cannabinoides sintéticos se valoró como más grave que la del cannabis de alta potencia.",
@@ -188,7 +188,7 @@
   "steroidsMilestone30Description": "Al mes, el sistema hormonal entre el cerebro y los testículos se está reiniciando. Las hormonas que estimulan la testosterona y la propia testosterona empiezan a aumentar, aunque el ánimo bajo, la libido reducida o la falta de energía todavía pueden persistir.",
   "steroidsMilestone90Title": "Tres meses — suben las hormonas",
   "steroidsMilestone90Description": "A los tres meses, la testosterona y las hormonas que la regulan están subiendo hacia niveles normales en la mayoría de las personas, y el ánimo y la libido suelen mejorar con ellas.",
-  "steroidsMilestone180Title": "Seis meses — recuperación a menudo bien avanzada",
+  "steroidsMilestone180Title": "Seis meses — recuperación avanzada",
   "steroidsMilestone180Description": "A los seis meses, muchas personas han logrado una recuperación hormonal importante, con la testosterona y las hormonas que la controlan de nuevo dentro de los valores normales y los síntomas disminuyendo.",
   "steroidsMilestone365Title": "Un año después",
   "steroidsMilestone365Description": "Un año completo sin esteroides es un hito enorme. La recuperación hormonal suele avanzar durante meses, mientras que el tamaño testicular, la producción de espermatozoides y la libido pueden seguir mejorando durante meses o años. Los síntomas persistentes de testosterona baja merecen una evaluación especializada.",
@@ -236,15 +236,15 @@
   "benzoHeaderNotStarted": "Beneficios de dejar las benzodiacepinas",
   "benzoSubtitleStarted": "Sigue tu progreso y celebra cada hito",
   "benzoSubtitleNotStarted": "Descubre qué ocurre cuando lo dejas",
-  "benzoMilestone7Title": "Primera semana: ventana completa de inicio",
+  "benzoMilestone7Title": "Primera semana: inicio de síntomas",
   "benzoMilestone7Description": "Al día 7 ya has alcanzado toda la ventana típica de inicio: la abstinencia suele comenzar 1–2 días después de las benzodiacepinas de acción corta y 2–7 días después de las de acción larga. Una reducción gradual es importante porque ayuda a prevenir convulsiones.",
-  "benzoMilestone14Title": "Dos semanas: vuelve el sueño profundo",
+  "benzoMilestone14Title": "Dos semanas: más sueño profundo",
   "benzoMilestone14Description": "Alrededor de dos semanas después de una retirada gradual de benzodiacepinas, un estudio clínico del sueño encontró más sueño de ondas lentas y una mejor calidad de sueño percibida. Es una señal temprana y concreta de recuperación del sueño.",
-  "benzoMilestone60Title": "Ocho semanas: vuelven la concentración y el equilibrio",
+  "benzoMilestone60Title": "Ocho semanas: foco y equilibrio",
   "benzoMilestone60Description": "En un estudio de 8 semanas con personas mayores que llevaban mucho tiempo usando hipnóticos benzodiacepínicos, quienes completaron la retirada gradual mejoraron en memoria inmediata, atención, lenguaje y estabilidad corporal. Es una recuperación diurna medible.",
-  "benzoMilestone90Title": "Tres meses: pensamiento más rápido, menos sedación",
+  "benzoMilestone90Title": "Tres meses: mente más rápida",
   "benzoMilestone90Description": "A las 12 semanas de terminar la reducción gradual, quienes llevaban años usando benzodiacepinas y lograron dejarlas completaron más rápido tareas cognitivas cronometradas y declararon menos sedación mental y física que quienes seguían tomándolas. Es una recuperación diurna medible.",
-  "benzoMilestone180Title": "Empiezan a recuperarse el pensamiento y la memoria",
+  "benzoMilestone180Title": "Pensamiento y memoria se recuperan",
   "benzoMilestone180Description": "A los seis meses, la memoria y la atención muestran una mejora medible. Las investigaciones encuentran recuperación en muchas capacidades cognitivas, con avances que continúan más allá de los seis meses.",
   "benzoMilestone365Title": "Un año de recuperación",
   "benzoMilestone365Description": "Después de un año, se hacen evidentes mejoras importantes en el bienestar mental y físico. Muchas personas describen menos ansiedad, mejor calidad del sueño y una salud general mejor que durante el uso prolongado de benzodiacepinas. La recuperación cerebral continúa.",
@@ -252,7 +252,7 @@
   "benzoMilestone540Description": "A los 18 meses, la memoria, la atención y la claridad mental siguen mejorando. El sistema calmante GABA del cerebro ha tenido bastante más de un año para estabilizarse, mientras el cerebro continúa creando patrones más saludables.",
   "benzoMilestone730Title": "Dos años: grandes avances",
   "benzoMilestone730Description": "Dos años marcan una recuperación considerable. La mayoría de las personas tiene un pensamiento mucho más claro, emociones más estables y una calidad de vida mucho mejor que durante el uso prolongado de benzodiacepinas.",
-  "benzoMilestone1095Title": "Tres años: recuperación a largo plazo",
+  "benzoMilestone1095Title": "Tres años: recuperación duradera",
   "benzoMilestone1095Description": "A los tres años, el largo periodo de abstinencia queda muy atrás para la mayoría. El sueño, el ánimo, la memoria y la atención han tenido años para recuperarse, y la vida cotidiana suele ser mucho mejor que durante el consumo prolongado.",
   "benzoMilestone1460Title": "Cuatro años: Progreso firme",
   "benzoMilestone1460Description": "Cuatro años sin benzodiacepinas son un largo tramo de recuperación construido día a día. Como los ritmos varían, este aniversario celebra la estabilidad, las rutinas y la resiliencia que ha fortalecido, sin fingir que existe una única meta para todo el mundo.",
@@ -265,21 +265,21 @@
   "methHeaderNotStarted": "Deja la pipa",
   "methSubtitleStarted": "Sigue tu progreso y celebra cada hito",
   "methSubtitleNotStarted": "La libertad está a tu alcance",
-  "methMilestone1Title": "Primeras 24 horas - comienza el bajón",
+  "methMilestone1Title": "Primeras 24 h - empieza el bajón",
   "methMilestone1Description": "La fase inicial de bajón comienza con una fatiga profunda y mayor apetito mientras tu cuerpo inicia la recuperación. Puedes experimentar depresión y dormir mucho mientras tu organismo empieza a estabilizarse tras la intensa estimulación.",
   "methMilestone3Title": "Día 3 - pico de abstinencia",
   "methMilestone3Description": "Los deseos de consumir aumentan considerablemente durante este periodo mientras tu cuerpo se adapta. Puedes sentir más energía que durante la fase de bajón, lo que puede hacer que los deseos parezcan más intensos. Es un momento crucial para prevenir recaídas y buscar apoyo.",
-  "methMilestone7Title": "Una semana - disminuyen los síntomas físicos",
+  "methMilestone7Title": "Una semana - mejoría física",
   "methMilestone7Description": "Los síntomas agudos de abstinencia empiezan a disminuir, aunque los retos psicológicos continúan. Tus patrones de sueño empiezan a normalizarse y el malestar físico disminuye. Esto marca la transición de la abstinencia aguda a la posaguda.",
   "methMilestone30Title": "Un mes - aparece la estabilidad",
   "methMilestone30Description": "Comienza una fase de mejoría a medida que tu cuerpo se recupera y los deseos de consumir empiezan a disminuir. Aumenta la energía y mejora el ánimo mientras la química cerebral comienza a reequilibrarse. Aun así, mantente atento, porque todavía pueden surgir dificultades.",
-  "methMilestone90Title": "Tres meses - comienza la recuperación cerebral",
+  "methMilestone90Title": "Tres meses - recuperación cerebral",
   "methMilestone90Description": "Tu cerebro se está recuperando activamente. La atención, la memoria y la toma de decisiones empiezan a mejorar a medida que el sistema de recompensa se acerca a la normalidad.",
-  "methMilestone180Title": "Seis meses - recuperación cardiovascular",
+  "methMilestone180Title": "Seis meses - recuperación cardíaca",
   "methMilestone180Description": "La función cardiaca muestra una mejora medible con la abstinencia. Los estudios indican que puede recuperarse considerablemente durante este periodo cuando se combina con apoyo médico. La presión arterial y el ritmo cardiaco siguen estabilizándose.",
   "methMilestone365Title": "Un año - gran recuperación cerebral",
   "methMilestone365Description": "Después de un año, el sistema de dopamina ha avanzado mucho. Las recompensas naturales vuelven a resultar más gratificantes, mientras el ánimo, la memoria y la toma de decisiones mejoran notablemente.",
-  "methMilestone420Title": "14 meses - normalización de la dopamina",
+  "methMilestone420Title": "14 meses - recuperación de dopamina",
   "methMilestone420Description": "Las pruebas de imagen cerebral muestran que las proteínas que reciclan la dopamina se acercan a niveles saludables alrededor de esta etapa. La memoria, la motivación y la capacidad de disfrutar de las actividades cotidianas siguen mejorando.",
   "methMilestone730Title": "Dos años - recuperación sostenida",
   "methMilestone730Description": "Dos años sin metanfetamina dan al cerebro un tiempo prolongado para recuperarse. La atención, el ánimo, la memoria y la calidad de vida diaria continúan mejorando.",
@@ -289,19 +289,19 @@
   "nitrousOxideHeaderNotStarted": "¿Listo para empezar?",
   "nitrousOxideSubtitleStarted": "Sigue tu progreso y celebra cada hito",
   "nitrousOxideSubtitleNotStarted": "Descubre los cambios positivos que te esperan",
-  "nitrousOxideMilestone1Title": "Primeras 24 horas — eliminación de la sustancia",
+  "nitrousOxideMilestone1Title": "24 horas — el gas ya salió",
   "nitrousOxideMilestone1Description": "El gas abandona tu organismo en minutos, pero la recuperación tarda más. El mareo disminuye, el dolor de cabeza mejora y tu cerebro empieza a adaptarse sin el atajo de la dopamina. La recuperación de tu vitamina B12 comienza ahora.",
   "nitrousOxideMilestone3Title": "Día 3 - sin abstinencia física",
   "nitrousOxideMilestone3Description": "Buenas noticias: el óxido nitroso no causa abstinencia física. Los impulsos que sientes son psicológicos —hábito y asociación, no tu cuerpo exigiendo una sustancia—. Eso hace que sean manejables.",
-  "nitrousOxideMilestone7Title": "Una semana — suben los niveles de B12",
+  "nitrousOxideMilestone7Title": "Una semana — sube la B12",
   "nitrousOxideMilestone7Description": "Una semana sin que se destruya más vitamina B12. Si has empezado a suplementarla, tus niveles ya están subiendo. La energía, el ánimo y la concentración dependen de la B12; deberías empezar a notar mejoras.",
-  "nitrousOxideMilestone14Title": "Dos semanas - se recuperan los nervios",
+  "nitrousOxideMilestone14Title": "Dos semanas — sanan los nervios",
   "nitrousOxideMilestone14Description": "La vitamina B12 es esencial para la capa protectora de las fibras nerviosas. A las dos semanas, ese proceso de reparación está plenamente en marcha. Cualquier hormigueo o entumecimiento que tuvieras debería estar disminuyendo: tu sistema nervioso se está reparando.",
   "nitrousOxideMilestone30Title": "Un mes - vuelve la energía",
   "nitrousOxideMilestone30Description": "La vitamina B12 desempeña un papel clave en la producción de glóbulos rojos, lo que permite llevar oxígeno a cada célula del cuerpo. Un mes de recuperación y suplementación se traduce en bastante más energía, pensamiento más claro y un ánimo más estable.",
-  "nitrousOxideMilestone90Title": "Tres meses - recuperación neurológica",
+  "nitrousOxideMilestone90Title": "Tres meses — recuperación nerviosa",
   "nitrousOxideMilestone90Description": "Tres meses sin que se destruya más vitamina B12 equivalen a tres meses de recuperación de los nervios. El sistema nervioso tiene una gran capacidad de recuperación: la mayoría de las personas que iniciaron el tratamiento pronto nota a estas alturas una mejoría importante del hormigueo, la debilidad y la niebla mental.",
-  "nitrousOxideMilestone365Title": "Un año - salud a largo plazo asegurada",
+  "nitrousOxideMilestone365Title": "Un año — protección a largo plazo",
   "nitrousOxideMilestone365Description": "Un año completo sin óxido nitroso. Tus reservas de vitamina B12 se han restablecido, tu sistema nervioso ha tenido un año para recuperarse y el riesgo cardiovascular asociado a una homocisteína elevada se ha resuelto. Tu organismo vuelve a funcionar sin la interferencia del óxido nitroso.",
   "addictionCocaine": "Cocaína",
   "addictionAdderall": "Adderall",
@@ -1651,7 +1651,7 @@
   "@alcoholMilestone60Description": {
     "description": "Alcohol milestone day 60 description"
   },
-  "alcoholMilestone90Title": "El pensamiento y la memoria mejoran considerablemente",
+  "alcoholMilestone90Title": "Mejoran el pensamiento y la memoria",
   "@alcoholMilestone90Title": {
     "description": "Alcohol milestone day 90 title"
   },
@@ -1659,7 +1659,7 @@
   "@alcoholMilestone90Description": {
     "description": "Alcohol milestone day 90 description"
   },
-  "alcoholMilestone180Title": "Continúa la recuperación del volumen y la función cerebral",
+  "alcoholMilestone180Title": "El cerebro sigue recuperándose",
   "@alcoholMilestone180Title": {
     "description": "Alcohol milestone day 180 title"
   },
@@ -1667,7 +1667,7 @@
   "@alcoholMilestone180Description": {
     "description": "Alcohol milestone day 180 description"
   },
-  "alcoholMilestone365Title": "Puede empezar a reducirse el riesgo de cáncer",
+  "alcoholMilestone365Title": "Puede empezar a bajar el riesgo de cáncer",
   "@alcoholMilestone365Title": {
     "description": "Alcohol milestone day 365 title"
   },
@@ -1683,7 +1683,7 @@
   "@smokingMilestone1Description": {
     "description": "Smoking milestone day 1 description"
   },
-  "smokingMilestone3Title": "La abstinencia de nicotina alcanza su pico",
+  "smokingMilestone3Title": "Pico de abstinencia de nicotina",
   "@smokingMilestone3Title": {
     "description": "Smoking milestone day 3 title"
   },
@@ -1691,7 +1691,7 @@
   "@smokingMilestone3Description": {
     "description": "Smoking milestone day 3 description"
   },
-  "smokingMilestone7Title": "El gusto y el olfato mejoran notablemente",
+  "smokingMilestone7Title": "Mejoran el gusto y el olfato",
   "@smokingMilestone7Title": {
     "description": "Smoking milestone day 7 title"
   },
@@ -1699,7 +1699,7 @@
   "@smokingMilestone7Description": {
     "description": "Smoking milestone day 7 description"
   },
-  "smokingMilestone14Title": "Mejoran la circulación y la capacidad para caminar",
+  "smokingMilestone14Title": "Mejoran circulación y caminata",
   "@smokingMilestone14Title": {
     "description": "Smoking milestone day 14 title"
   },
@@ -1715,7 +1715,7 @@
   "@smokingMilestone30Description": {
     "description": "Smoking milestone day 30 description"
   },
-  "smokingMilestone90Title": "El riesgo de infarto disminuye considerablemente",
+  "smokingMilestone90Title": "Baja el riesgo de infarto",
   "@smokingMilestone90Title": {
     "description": "Smoking milestone day 90 title"
   },
@@ -1723,7 +1723,7 @@
   "@smokingMilestone90Description": {
     "description": "Smoking milestone day 90 description"
   },
-  "smokingMilestone180Title": "Las células inmunitarias del pulmón se recuperan",
+  "smokingMilestone180Title": "Defensas pulmonares se recuperan",
   "@smokingMilestone180Title": {
     "description": "Smoking milestone day 180 title"
   },
@@ -1731,7 +1731,7 @@
   "@smokingMilestone180Description": {
     "description": "Smoking milestone day 180 description"
   },
-  "smokingMilestone365Title": "El riesgo de ictus disminuye considerablemente",
+  "smokingMilestone365Title": "Baja el riesgo de ictus",
   "@smokingMilestone365Title": {
     "description": "Smoking milestone day 365 title"
   },
@@ -1745,7 +1745,7 @@
   "smokingMilestone1095Description": "Tres años sin fumar marcan el inicio del intervalo de 3 a 6 años de los CDC, en el que el riesgo adicional de cardiopatía coronaria se reduce a la mitad. La reducción se desarrolla durante ese periodo, no en un solo día.",
   "smokingMilestone1460Title": "Cuatro años: el corazón mejora",
   "smokingMilestone1460Description": "Cuatro años sin fumar quedan dentro del intervalo de 3 a 6 años de los CDC, en el que el riesgo adicional de cardiopatía coronaria se reduce a la mitad. El beneficio cardiovascular a largo plazo sigue creciendo.",
-  "smokingMilestone1825Title": "Algunos riesgos de cáncer caen en picado (5–10 años)",
+  "smokingMilestone1825Title": "5–10 años: baja el riesgo de cáncer",
   "@smokingMilestone1825Title": {
     "description": "Smoking milestone day 1825 title"
   },
@@ -1753,7 +1753,7 @@
   "@smokingMilestone1825Description": {
     "description": "Smoking milestone day 1825 description"
   },
-  "marijuanaMilestone1Title": "Comienzan los síntomas de abstinencia",
+  "marijuanaMilestone1Title": "Inicio de la abstinencia",
   "@marijuanaMilestone1Title": {
     "description": "Marijuana milestone day 1 title"
   },
@@ -1761,7 +1761,7 @@
   "@marijuanaMilestone1Description": {
     "description": "Marijuana milestone day 1 description"
   },
-  "marijuanaMilestone3Title": "Los síntomas físicos alcanzan su pico",
+  "marijuanaMilestone3Title": "Pico de síntomas físicos",
   "@marijuanaMilestone3Title": {
     "description": "Marijuana milestone day 3 title"
   },
@@ -1809,7 +1809,7 @@
   "@marijuanaMilestone90Description": {
     "description": "Marijuana milestone day 90 description"
   },
-  "marijuanaMilestone180Title": "Se recuperan la planificación y la toma de decisiones",
+  "marijuanaMilestone180Title": "Vuelven planificación y decisiones",
   "@marijuanaMilestone180Title": {
     "description": "Marijuana milestone day 180 title"
   },
@@ -1817,7 +1817,7 @@
   "@marijuanaMilestone180Description": {
     "description": "Marijuana milestone day 180 description"
   },
-  "marijuanaMilestone365Title": "Recuperación de la estructura cerebral",
+  "marijuanaMilestone365Title": "Recuperación cerebral",
   "@marijuanaMilestone365Title": {
     "description": "Marijuana milestone day 365 title"
   },
@@ -1903,7 +1903,7 @@
   "opioidMilestone1460Description": "Cuatro años de cambio constante han convertido la recuperación en una parte sólida de tu vida. Esa base merece reconocimiento.",
   "opioidMilestone1825Title": "Cinco años - Media década",
   "opioidMilestone1825Description": "Cinco años son media década de cambio sostenido. Es un logro enorme por sí mismo.",
-  "socialMediaMilestone1Title": "¡Primer día de desintoxicación digital! 🎯",
+  "socialMediaMilestone1Title": "Primer día de pausa digital 🎯",
   "@socialMediaMilestone1Title": {
     "description": "Social media milestone day 1 title"
   },
@@ -1919,7 +1919,7 @@
   "@socialMediaMilestone3Description": {
     "description": "Social media milestone day 3 description"
   },
-  "socialMediaMilestone7Title": "Capacidad de atención: pez dorado → humano 🧠",
+  "socialMediaMilestone7Title": "Tu atención vuelve 🧠",
   "@socialMediaMilestone7Title": {
     "description": "Social media milestone day 7 title"
   },
@@ -1927,7 +1927,7 @@
   "@socialMediaMilestone7Description": {
     "description": "Social media milestone day 7 description"
   },
-  "socialMediaMilestone14Title": "Duerme como un bebé (no como un zombi) 😴",
+  "socialMediaMilestone14Title": "Dos semanas, mejor sueño 😴",
   "@socialMediaMilestone14Title": {
     "description": "Social media milestone day 14 title"
   },
@@ -1943,7 +1943,7 @@
   "@socialMediaMilestone30Description": {
     "description": "Social media milestone day 30 description"
   },
-  "socialMediaMilestone60Title": "Trampa de la comparación: ¡SUPERADA! ✨",
+  "socialMediaMilestone60Title": "Fuera de la comparación ✨",
   "@socialMediaMilestone60Title": {
     "description": "Social media milestone day 60 title"
   },
@@ -1959,7 +1959,7 @@
   "@socialMediaMilestone90Description": {
     "description": "Social media milestone day 90 description"
   },
-  "socialMediaMilestone180Title": "Transformación de la salud mental completada 🌟",
+  "socialMediaMilestone180Title": "6 meses con más control 🌟",
   "@socialMediaMilestone180Title": {
     "description": "Social media milestone day 180 title"
   },
@@ -2243,15 +2243,15 @@
   "ssriHeaderNotStarted": "Beneficios de reducir gradualmente los ISRS",
   "ssriSubtitleStarted": "Sigue tu progreso y celebra cada hito",
   "ssriSubtitleNotStarted": "Descubre qué ocurre al reducirlos gradualmente",
-  "ssriMilestone3Title": "Día 3: el síndrome FINISH alcanza su pico",
+  "ssriMilestone3Title": "Día 3: Pico del síndrome FINISH",
   "ssriMilestone3Description": "Los síntomas de abstinencia suelen alcanzar su máximo entre los días 2 y 4. Los ISRS cambian la forma en que se recicla la serotonina, por lo que el cerebro necesita tiempo para adaptarse después de dejarlos. Pueden aparecer síntomas parecidos a la gripe, mareos, insomnio, náuseas y «descargas cerebrales». La paroxetina tiende a causar una abstinencia más intensa; la fluoxetina permanece mucho más tiempo en el organismo y suele ser más leve.",
-  "ssriMilestone7Title": "Una semana: empieza a disminuir la fase aguda",
+  "ssriMilestone7Title": "1 semana: La fase aguda cede",
   "ssriMilestone7Description": "Los síntomas físicos más intensos empiezan a disminuir. Tu cerebro está ajustando la señalización de serotonina para funcionar sin la medicación. El sueño y el apetito empiezan a estabilizarse.",
-  "ssriMilestone14Title": "Dos semanas: se resuelven los síntomas físicos",
+  "ssriMilestone14Title": "2 semanas: Ceden síntomas físicos",
   "ssriMilestone14Description": "La mayoría de los síntomas físicos agudos por interrupción se han reducido considerablemente o se han resuelto. Las descargas cerebrales, las náuseas y los mareos están disminuyendo. La sensibilidad emocional todavía puede estar aumentada mientras el cerebro sigue reequilibrando sus sistemas de serotonina.",
-  "ssriMilestone30Title": "Un mes: se estabilizan el ánimo y la energía",
+  "ssriMilestone30Title": "1 mes: Ánimo y energía estables",
   "ssriMilestone30Description": "Un mes marca un hito importante. La calidad del sueño mejora, los niveles de energía se estabilizan y muchas personas notan que su ánimo empieza a encontrar un nuevo equilibrio. El cerebro está recuperando activamente su regulación natural de la serotonina.",
-  "ssriMilestone90Title": "Tres meses: La curva de abstinencia cambia",
+  "ssriMilestone90Title": "3 meses: Giro en la abstinencia",
   "ssriMilestone90Description": "En el ensayo ANTLER, la diferencia en síntomas de abstinencia tras dejar antidepresivos de larga duración fue mayor a las 12 semanas y menor en los controles posteriores. Eso convierte los tres meses en un verdadero punto de inflexión del curso medido de abstinencia.",
   "ssriMilestone180Title": "Seis meses: el 65 % siguió bien",
   "ssriMilestone180Description": "En un seguimiento de seis meses tras suspender antidepresivos en personas en remisión, 54 de 83 participantes con datos de seguimiento — el 65 % — siguieron bien. Seis meses es un hito concreto de estabilidad a largo plazo.",
@@ -2268,15 +2268,15 @@
   "snriHeaderNotStarted": "Beneficios de reducir gradualmente los IRSN",
   "snriSubtitleStarted": "Sigue tu progreso y celebra cada hito",
   "snriSubtitleNotStarted": "Descubre qué ocurre al reducirlos gradualmente",
-  "snriMilestone3Title": "Día 3: el síndrome intenso de interrupción alcanza su pico",
+  "snriMilestone3Title": "Día 3: Pico de abstinencia",
   "snriMilestone3Description": "Los IRSN, especialmente la venlafaxina (Effexor), se asocian con algunos de los síndromes de interrupción de antidepresivos más intensos. La vida media muy corta de la venlafaxina (5 horas) hace que los síntomas puedan ser más intensos que con la mayoría de los ISRS. Los síntomas FINISH (sensaciones parecidas a la gripe, insomnio, náuseas, desequilibrio, alteraciones sensoriales e hiperactivación) afectan simultáneamente a los sistemas de serotonina y noradrenalina.",
-  "snriMilestone7Title": "Una semana: se ajustan dos sistemas neuroquímicos",
+  "snriMilestone7Title": "1 semana: Doble ajuste cerebral",
   "snriMilestone7Description": "Los IRSN afectan a la recaptación tanto de serotonina como de noradrenalina. Ambos sistemas se ajustan a la vez. Los síntomas físicos más intensos empiezan a disminuir, pero el mecanismo doble puede hacer que la adaptación resulte más compleja que con los ISRS por sí solos.",
-  "snriMilestone14Title": "Dos semanas: disminuyen los síntomas físicos",
+  "snriMilestone14Title": "2 semanas: Síntomas en descenso",
   "snriMilestone14Description": "La mayoría de los síntomas físicos agudos por interrupción han disminuido considerablemente. Las descargas cerebrales, las náuseas y los mareos están remitiendo. El reajuste del sistema de noradrenalina aún puede causar algo de ansiedad o fluctuaciones de la presión arterial, que suelen resolverse durante las semanas siguientes.",
-  "snriMilestone30Title": "Un mes: se estabiliza el sistema de noradrenalina",
+  "snriMilestone30Title": "1 mes: Noradrenalina estable",
   "snriMilestone30Description": "Un mes marca un hito importante. Los sistemas de serotonina y noradrenalina se están reequilibrando activamente. La calidad del sueño y los niveles de energía se estabilizan. Muchas personas notan una mayor amplitud emocional al desaparecer el efecto de aplanamiento emocional de la medicación.",
-  "snriMilestone90Title": "Tres meses: superaste la fase habitual de retirada",
+  "snriMilestone90Title": "3 meses: Abstinencia superada",
   "snriMilestone90Description": "La retirada de los IRSN suele empezar a los pocos días y durar unas semanas. A los 90 días, esa fase habitual de síntomas queda claramente atrás: un hito de recuperación concreto.",
   "snriMilestone180Title": "Seis meses: recuperación neurológica",
   "snriMilestone180Description": "Seis meses permiten un reajuste considerable de los sistemas de serotonina y noradrenalina. El eje HPA, sobre el que los IRSN influyen a través de la noradrenalina, se está normalizando. En este punto muchas personas describen una resiliencia notablemente mayor frente al estrés cotidiano.",
@@ -2309,15 +2309,15 @@
   "tcaMilestone3Description": "Dejar un TCA puede provocar un síndrome de retirada real; la hiperactividad colinérgica es uno de los mecanismos propuestos. Náuseas, diarrea, dolor abdominal, insomnio, ansiedad, agitación y dolor de cabeza pueden aparecer pronto, sobre todo tras una retirada brusca o rápida. El día 3 es un hito; el momento y la intensidad de los síntomas varían.",
   "tcaMilestone7Title": "Una semana: Primera etapa superada",
   "tcaMilestone7Description": "La retirada suele empezar en pocos días y a menudo dura varias semanas. A la semana todavía pueden estar presentes náuseas, sudoración, problemas de sueño, palpitaciones y mareo. Siete días son un progreso real, y la recuperación puede seguir avanzando a ritmos distintos.",
-  "tcaMilestone14Title": "Dos semanas: la retirada aguda suele estar cediendo",
+  "tcaMilestone14Title": "2 semanas: retirada aguda cediendo",
   "tcaMilestone14Description": "Los síntomas típicos de retirada de antidepresivos, como náuseas, insomnio, desequilibrio, alteraciones sensoriales e hiperactivación, suelen durar entre una y dos semanas. En el día 14, muchas personas están llegando al final de esa fase aguda.",
-  "tcaMilestone30Title": "Un mes: la retirada aguda suele haber cedido",
+  "tcaMilestone30Title": "1 mes: retirada aguda superada",
   "tcaMilestone30Description": "Los síntomas típicos de discontinuación de antidepresivos suelen durar de una a dos semanas. A los 30 días, la mayoría de las personas ya ha superado esa fase aguda; los síntomas gripales, las náuseas, el desequilibrio, el insomnio, las alteraciones sensoriales y la hiperactivación suelen haber remitido o desaparecido.",
-  "tcaMilestone90Title": "Tres meses: la retirada aguda quedó muy atrás",
+  "tcaMilestone90Title": "3 meses: retirada aguda atrás",
   "tcaMilestone90Description": "Los síntomas típicos de discontinuación de antidepresivos suelen durar de una a dos semanas. A los 90 días, estás más de diez semanas más allá del final de esa ventana aguda habitual; los síntomas gripales, las náuseas, el desequilibrio, el insomnio, las alteraciones sensoriales y la hiperactivación suelen haber remitido o desaparecido hace tiempo.",
-  "tcaMilestone180Title": "Seis meses: la mayoría siguió sin recaída",
+  "tcaMilestone180Title": "6 meses: mayoría sin recaída",
   "tcaMilestone180Description": "Entre personas que dejaron antidepresivos tras tratar una depresión mayor, un metanálisis de 35 ensayos halló una tasa agrupada de recaída del 34,8 % a los seis meses: alrededor del 65 % siguió sin recaída. Es un enorme tramo de estabilidad.",
-  "tcaMilestone365Title": "Un año: la mayoría siguió sin recaída",
+  "tcaMilestone365Title": "1 año: mayoría sin recaída",
   "tcaMilestone365Description": "Entre personas que dejaron antidepresivos tras tratar una depresión mayor, un metanálisis de 35 ensayos halló una tasa agrupada de recaída del 45,12 % a los 12 meses: alrededor del 55 % siguió sin recaída durante un año completo. Es un gran hito de estabilidad a largo plazo.",
   "tcaMilestone730Title": "2 años: Base firme",
   "tcaMilestone730Description": "Dos años desde que terminó la reducción gradual de un TCA son un aniversario importante. La retirada varía entre personas, así que este hito celebra un progreso sostenido sin presentar una meta biológica universal.",
@@ -2342,17 +2342,17 @@
   "maoiHeaderNotStarted": "Beneficios de reducir gradualmente los IMAO",
   "maoiSubtitleStarted": "Sigue tu progreso y celebra cada hito",
   "maoiSubtitleNotStarted": "Descubre qué ocurre al reducirlos gradualmente",
-  "maoiMilestone3Title": "Día 3: fase de mayor riesgo — supervisión médica esencial",
+  "maoiMilestone3Title": "Día 3: Riesgo máximo",
   "maoiMilestone3Description": "Los IMAO conllevan algunos de los riesgos de interrupción más graves entre los antidepresivos. La suspensión brusca, especialmente de fenelzina y tranilcipromina, puede causar agitación intensa, confusión, alucinaciones, mioclonías e hipertermia. Si experimentas estos síntomas, busca atención médica inmediata. Los IMAO actúan inactivando de forma irreversible las enzimas MAO; la recuperación requiere que el organismo sintetice enzima nueva, un proceso que tarda aproximadamente 14 días.",
-  "maoiMilestone7Title": "Una semana: síntesis de enzima MAO en marcha",
+  "maoiMilestone7Title": "Una semana: síntesis de MAO",
   "maoiMilestone7Description": "Los IMAO inactivan de forma irreversible moléculas de la enzima MAO; la recuperación requiere sintetizar enzima completamente nueva. Al cabo de una semana puede haberse recuperado aproximadamente el 50 % de la actividad normal de la MAO. Los síntomas graves de interrupción aguda (delirio, mioclonías, hipertermia) se reducen considerablemente. Sigue siendo importante una supervisión médica estrecha.",
-  "maoiMilestone14Title": "Dos semanas: actividad de la enzima MAO considerablemente recuperada",
+  "maoiMilestone14Title": "2 semanas: MAO recuperada",
   "maoiMilestone14Description": "Dos semanas es el plazo clínico habitual para la recuperación de la enzima MAO tras la interrupción. Hacia el día 14, la actividad de MAO-A y MAO-B se ha restablecido en gran medida y vuelve el metabolismo normal de la tiramina. Las restricciones dietéticas requeridas durante el tratamiento con IMAO normalmente pueden relajarse consultándolo con quien te los prescribe.",
-  "maoiMilestone30Title": "Un mes: reequilibrio de los sistemas neuroquímicos",
+  "maoiMilestone30Title": "Un mes: equilibrio neuroquímico",
   "maoiMilestone30Description": "Un mes después de dejar un IMAO, la enzima MAO vuelve a estar activa y el cerebro gestiona de forma natural la serotonina, la noradrenalina, la dopamina y la tiramina. El periodo especial de interacciones con alimentos y medicamentos ha terminado, aunque debes seguir informando a quienes te prescriban medicación de tu uso previo de IMAO.",
-  "maoiMilestone90Title": "Tres meses: se normaliza la química cerebral",
+  "maoiMilestone90Title": "3 meses: química cerebral estable",
   "maoiMilestone90Description": "Tres meses dan a los sistemas cerebrales relacionados con el ánimo y la energía bastante tiempo para reajustarse tras los IMAO. El ánimo, la energía y la claridad de pensamiento se estabilizan mientras el cerebro vuelve a gestionar estas sustancias químicas de forma natural.",
-  "maoiMilestone180Title": "Seis meses: recuperación a largo plazo",
+  "maoiMilestone180Title": "6 meses: recuperación estable",
   "maoiMilestone180Description": "Seis meses representan un periodo considerable de función natural de las monoaminas. Las poblaciones de receptores de serotonina, noradrenalina y dopamina se han normalizado. Las vías de fenetilamina (PEA), también afectadas por los IMAO, han vuelto a niveles naturales, un aspecto de la recuperación que suele pasarse por alto y contribuye a la normalización emocional.",
   "maoiMilestone365Title": "Un año: recuperación conseguida",
   "maoiMilestone365Description": "Un año después de dejar un IMAO da al cerebro y al cuerpo un año completo sin el medicamento. El ánimo, la energía, la claridad de pensamiento y la regulación neuroquímica normal han tenido bastante tiempo para estabilizarse y recuperarse.",
@@ -2416,7 +2416,7 @@
   "adderallReferenceDay180": "Seis meses sin Adderall: mucho más allá de la parte difícil\n\nFuente: \"Síndromes de abstinencia\", StatPearls (NCBI Bookshelf), Biblioteca Nacional de Medicina de EE. UU.\n\nLo que dice StatPearls sobre los estimulantes\nEsta referencia clínica describe la recuperación de estimulantes como una caída seguida de una mejora gradual. Los problemas comunes incluyen depresión, dormir mucho, aumento del hambre, mal humor y movimientos y pensamientos más lentos. La depresión puede durar varias semanas y, más allá de eso, continúa una recuperación más leve.\n\nEn qué punto están los seis meses\nA los seis meses, habrá superado con creces tanto el período agudo como la fase depresiva de varias semanas que describe StatPearls. La lenta recuperación a la que se refiere ha tenido un tiempo considerable para progresar y, para la mayoría de las personas, el estado de ánimo, el sueño, el apetito y la motivación habituales ya son estables y fiables.\n\nSeñal de recuperación\nStatPearls describe una recuperación gradual más allá de las semanas iniciales. A los seis meses, la crisis aguda y la fase depresiva de varias semanas han quedado muy atrás, siendo el estado de ánimo, el sueño, el apetito y la motivación estables el patrón dominante.\n\nRelación con el TDAH\nPara las personas que tomaron Adderall para el TDAH, seis meses de abstinencia es un buen punto para una revisión lúcida con un médico de los síntomas actuales y si los enfoques no estimulantes (ejercicio, sueño, estructura, terapia o medicación alternativa) satisfacen sus necesidades.",
   "adderallReferenceDay365": "Un año sin Adderall: recuperación sustancial con una perspectiva realista\n\nFuente: Berman et al., \"Potential Adverse Effects of Amphetamine Treatment on Brain and Behavior: A Review\", Molecular Psychiatry (2008), en PubMed Central\n\nAcerca de esta revisión\nEsta revisión analiza los efectos que la exposición a dosis altas de anfetaminas o su uso prolongado puede tener en el cerebro y documenta una recuperación mensurable durante la abstinencia.\n\nLo que dice sobre la recuperación\nLa revisión documenta la recuperación del flujo sanguíneo cerebral y de las proteínas que reciclan la dopamina después de una abstinencia prolongada. Algunas áreas del cerebro se recuperan más rápido que otras, pero la dirección general es clara: el cerebro se cura después de que cesa su uso.\n\nRecuperación a largo plazo\nLa revisión documenta una recuperación mensurable en el flujo sanguíneo cerebral y el reciclaje de dopamina después de una abstinencia prolongada. Al cabo de un año, esos sistemas cerebrales han tenido un año completo para reconstruirse.\n\nQué significa esto al año\nPara la mayoría de las personas, en particular aquellas que tomaron Adderall en las dosis prescritas, un año de descanso significa que los sistemas de recompensa, atención y motivación funcionan bien día a día. Un uso más intenso o prolongado puede llevar más tiempo, pero la recuperación continúa. El riesgo de recaída es mucho menor que en la recuperación temprana.",
   "alcoholReferenceDay1": "¿Qué sucede con tu sueño cuando dejas de beber?\n\nFuente: \"El alcohol y el cerebro durmiente\" (Colrain, Nicholas & Baker), Manual de neurología clínica, revisado por pares y organizado por los NIH\n\nArquitectura del alcohol y del sueño\nEl alcohol es sedante, por lo que acorta el tiempo necesario para conciliar el sueño y aumenta el sueño profundo de ondas lentas en la primera mitad de la noche. Pero tiene un costo: el alcohol suprime el sueño REM (movimiento ocular rápido), la etapa reparadora ligada a la consolidación de la memoria y la regulación emocional, y fragmenta el sueño en la segunda mitad de la noche a medida que se metaboliza.\n\nLa primera noche sin alcohol\nDebido a que el alcohol suprime el sueño REM, las primeras noches sin él a menudo traen un rebote REM: sueños vívidos y un sueño más ligero e interrumpido mientras regresan los patrones de sueño normales. Esta es una parte normal y temporal de la recuperación.\n\nComienza la recuperación\nA medida que el cerebro se reajusta durante los días y semanas siguientes, la fase REM y la calidad general del sueño mejoran. La alteración del sueño es uno de los síntomas más persistentes relacionados con la abstinencia, pero tiende a normalizarse con la abstinencia sostenida.\n\nUna nota sobre el consumo excesivo de alcohol\nPara los quienes llevan mucho tiempo bebiendo a diario, las primeras 24 horas también pueden provocar síntomas de abstinencia (ansiedad, sudoración, temblores, náuseas). La abstinencia grave puede ser peligrosa; si llevas tiempo bebiendo mucho todos los días, habla con un médico antes de dejar el alcohol de golpe.",
-  "alcoholReferenceDay3": "Día tres: La ventana de máxima abstinencia\n\nFuente: \"Alcohol Withdrawal\", StatPearls — revisado por pares, NIH National Library of Medicine\n\nAlrededor de las 72 horas\nLos síntomas de abstinencia del alcohol pueden empezar pocas horas después y suelen alcanzar su punto máximo alrededor de las 72 horas. StatPearls incluye temblor, insomnio, agitación, sudoración, presión arterial alta, taquicardia y convulsiones entre los signos de este estado de hiperexcitabilidad.\n\nTres días fuertes\nLlegar a las 72 horas es un hito enorme porque coincide con la ventana de máxima intensidad documentada para muchos síntomas agudos.\n\nLa abstinencia grave puede aparecer más tarde\nEl delirio por abstinencia de alcohol (delirium tremens) puede aparecer entre 3 y 8 días después de dejarlo y puede ser mortal. La abstinencia grave es una urgencia médica. Las personas que beben mucho a diario y quienes tengan antecedentes de convulsiones o delirio por abstinencia deben buscar consejo médico en vez de dejarlo bruscamente sin apoyo.",
+  "alcoholReferenceDay3": "Día tres: La ventana de máxima abstinencia\n\nFuente: \"Alcohol Withdrawal\", StatPearls — revisado por pares, NIH National Library of Medicine\n\nAlrededor de las 72 horas\nLos síntomas de abstinencia del alcohol pueden empezar pocas horas después y suelen alcanzar su punto máximo alrededor de las 72 horas. StatPearls incluye temblor, insomnio, agitación, sudoración, presión arterial alta, taquicardia y convulsiones entre los signos de este estado de hiperexcitabilidad.\n\nTres días fuertes\nLlegar a las 72 horas es un hito enorme porque coincide con la ventana de máxima intensidad documentada para muchos síntomas agudos.\n\nLa abstinencia grave puede aparecer más tarde\nEl delirio por abstinencia de alcohol (delirium tremens) puede aparecer entre 3 y 8 días después de dejarlo y puede ser mortal. La abstinencia grave es una urgencia médica. Las personas que beben mucho a diario y quienes tengan antecedentes de convulsiones o delirio por abstinencia deben buscar consejo médico en vez de dejarlo bruscamente sin apoyo.\n\nQué señales requieren atención\nLa fiebre, la agitación intensa, la sudoración abundante, las alucinaciones, la desorientación, las convulsiones, una frecuencia cardíaca muy alta o una presión arterial muy elevada requieren atención médica urgente.",
   "alcoholReferenceDay7": "Cómo se recupera el sistema inmunológico\n\nFuente: \"El alcohol y el sistema inmunológico\" (Sarkar, Jung & Wang), Alcohol Research: Current Reviews - revisado por pares, alojado por los NIH\n\nCómo el alcohol debilita la inmunidad\nEl alcohol debilita el sistema inmunológico de varias maneras. Incluso una sola sesión de consumo excesivo de alcohol puede reducir la capacidad de combatir infecciones por hasta 24 horas. El uso prolongado reduce los glóbulos blancos, altera las señales inmunitarias y daña las defensas intestinales y pulmonares, lo que aumenta el riesgo de infecciones y ralentiza la cicatrización de heridas.\n\nAl eliminar la agresión\nMuchos de estos efectos mejoran una vez que se elimina el alcohol. Los glóbulos blancos y las señales inmunes comienzan a recuperarse, mientras que las defensas del intestino y las vías respiratorias comienzan a repararse. Durante la primera semana, tu sistema inmunitario deja de sufrir esa agresión diaria y la resistencia a las infecciones comunes empieza a mejorar.\n\nUn proceso gradual\nLa recuperación inmune completa lleva más de una semana, y el grado de reparación depende de cuán intenso y prolongado haya sido el consumo de alcohol, pero la primera semana sin alcohol es donde comienza la reconstrucción.",
   "alcoholReferenceDay14": "Recuperación cerebral temprana en la abstinencia\n\nFuente: Bartsch AJ et al., \"Manifiestos de recuperación cerebral temprana asociada con la abstinencia del alcoholismo\", Brain (2007), revisado por pares.\n\nMedición de la recuperación\nEste estudio utilizó resonancia magnética para seguir a personas recientemente desintoxicadas con dependencia del alcohol durante las primeras semanas de abstinencia, comparándolas con controles sanos. Capturó la reconstrucción física del cerebro una vez que dejó de beber.\n\nRebotes del volumen cerebral\nEl consumo crónico de alcohol encoge el cerebro, en parte debido a la reducción reversible del tamaño de las células, no sólo a la pérdida celular permanente. Con la abstinencia, los investigadores midieron un aumento promedio global del volumen cerebral de casi el 2%, concentrado alrededor del cerebelo, el mesencéfalo, los ventrículos y las regiones frontales. Gran parte de este rebrote ocurre temprano, en las primeras semanas sin alcohol.\n\nCerebelo y atención\nLa recuperación fue especialmente clara en las áreas del cerebro utilizadas para el movimiento y la atención. Un marcador de la salud de las células cerebrales aumentó junto con mejoras mensurables en la atención, por lo que la curación física vino acompañada de mejoras reales en el pensamiento.\n\nUna base, no el final\nLas funciones superiores, como el razonamiento complejo, se recuperan más gradualmente, pero las dos primeras semanas establecen que el cerebro comienza a sanar rápidamente una vez que se elimina el alcohol.",
   "alcoholReferenceDay30": "La presión arterial cae cuando se deja de consumir alcohol\n\nFuente: Roerecke et al., \"El efecto de una reducción en el consumo de alcohol sobre la presión arterial: una revisión sistemática y un metanálisis\", Lancet Public Health (2017), revisado por pares\n\nLa evidencia\nEste metanálisis agrupó 36 ensayos aleatorios (alrededor de 2865 participantes) que evaluaron qué sucede con la presión arterial cuando las personas beben menos. Encontró un efecto claro, dependiente de la dosis: cuanto más reducía alguien, más bajaba su presión arterial.\n\n¿Qué tan grande es el efecto?\nLas personas que bebían dos o menos tragos al día no experimentaron cambios significativos en la presión arterial al reducirlos. Por encima de ese umbral, el efecto dependía de la dosis: fue más fuerte en las personas que bebían seis o más tragos al día y redujeron su consumo a aproximadamente la mitad, donde la presión arterial sistólica disminuyó aproximadamente 5,5 mmHg y la diastólica aproximadamente 4,0 mmHg en promedio. Una reducción de ese tamaño es clínicamente significativa: comparable a algunos medicamentos para la presión arterial y suficiente para reducir el riesgo de accidente cerebrovascular y enfermedades cardíacas a largo plazo.\n\nPor qué es importante un mes\nEl alcohol eleva la presión arterial al activar la respuesta al estrés, elevando el cortisol y endureciendo los vasos sanguíneos. Los ensayos en esta revisión muestran que el beneficio surge después de semanas de reducción sostenida, por lo que alrededor de un mes de abstinencia, la presión arterial de un bebedor empedernido ha tenido tiempo de estabilizarse hacia un nivel más saludable.\n\nUn efecto umbral\nLa revisión encontró un umbral claro: el beneficio se concentró en las personas que bebían más de dos tragos al día, y creció progresivamente cuanto más bebían antes. Si bebías poco, no esperes este beneficio específico para la presión arterial, pero quienes bebían más obtienen un beneficio cardiovascular real y medible al dejar de beber.",
@@ -2427,7 +2427,7 @@
   "benzodiazepineReferenceDay7": "Abstinencia de benzodiacepinas: la primera semana\n\nFuente: \"Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings\", Organización Mundial de la Salud (2009), en NCBI Bookshelf\n\nLa seguridad primero\nLa abstinencia de benzodiacepinas puede causar convulsiones. La OMS indica que la forma más segura de manejarla es reducir gradualmente la cantidad de benzodiacepinas, lo que alivia los síntomas y ayuda a prevenir convulsiones. Tras un uso prolongado, no las suspendas de golpe: haz una reducción gradual con un profesional sanitario.\n\nCuándo empieza la abstinencia\nEl calendario de la OMS depende de la duración de acción:\n• Acción corta (oxazepam, alprazolam, temazepam): suele empezar 1–2 días después de la última dosis y continúa 2–4 semanas o más\n• Acción larga (diazepam, nitrazepam): suele empezar 2–7 días después de la última dosis y continúa 2–8 semanas o más\nLa primera semana abarca la ventana típica de inicio incluso para las benzodiacepinas de acción larga.\n\nCómo pueden ser los síntomas\nLa OMS enumera ansiedad, insomnio, inquietud, agitación o irritabilidad, dificultad de concentración o memoria y tensión o dolor muscular.\n\nSeguimiento\nLa intensidad de la abstinencia puede fluctuar mucho. La OMS recomienda vigilar regularmente los síntomas y las complicaciones; en su protocolo para entornos cerrados, el personal sanitario habla con el paciente cada 3–4 horas y ofrece tranquilidad y explicaciones cuando hace falta.",
   "benzodiazepineReferenceDay14": "Abstinencia de benzodiacepinas: dos semanas\n\nFuente: Poyares et al., \"Chronic benzodiazepine usage and withdrawal in insomnia patients\", Journal of Psychiatric Research (2004), en PubMed\n\nUna señal real de recuperación a las dos semanas\nLos investigadores siguieron a personas con insomnio persistente que habían tomado benzodiacepinas cada noche durante años y volvieron a medir su sueño 15 días después de una retirada gradual. El sueño de ondas lentas, la actividad delta del EEG durante el sueño y la calidad de sueño percibida mejoraron frente a las mediciones realizadas durante el uso crónico de benzodiacepinas.\n\nEl sueño profundo está volviendo\nEl sueño de ondas lentas es la fase más profunda del sueño no REM. Para el día 15, el sueño de ondas lentas y la actividad delta eran mayores, mientras que el sueño no REM de fase 2 había disminuido hacia el patrón observado en controles sanos.\n\nRecuperación temprana, medida\nEl sueño empeoró justo después de la retirada en quienes la completaron, pero para el seguimiento del día 15 mejoraron las medidas objetivas de sueño profundo y la calidad de sueño percibida. Eso convierte la marca de dos semanas en un hito de recuperación real y medido.",
   "benzodiazepineReferenceDay60": "Benzodiacepinas: función diurna a las ocho semanas\n\nFuente: Tsunoda et al., \"Effects of discontinuing benzodiazepine-derivative hypnotics on postural sway and cognitive functions in the elderly\", International Journal of Geriatric Psychiatry (2010), en PubMed\n\nUna señal de recuperación medida a las ocho semanas\nLos investigadores siguieron a adultos de 60 años o más que vivían en una residencia y usaban hipnóticos benzodiacepínicos. La dosis se redujo gradualmente hasta retirarla durante tres semanas, y las pruebas cognitivas y de equilibrio se repitieron al final de la octava semana.\n\nSubieron la concentración y la memoria\nEntre las 26 personas que completaron el estudio, mejoraron significativamente las puntuaciones de memoria inmediata, atención y lenguaje. Son avances concretos de la función diurna medidos después de suspender las benzodiacepinas.\n\nMás estabilidad al estar de pie\nTambién mejoraron significativamente las medidas de oscilación postural con los ojos cerrados. Los autores concluyeron que retirar los hipnóticos benzodiacepínicos se asoció con una mejor estabilidad corporal y recuperación de la función cognitiva diurna en este grupo de personas mayores.\n\nEl sueño se mantuvo estable\nQuienes completaron el estudio no informaron un empeoramiento subjetivo del sueño en el cuestionario utilizado. Al final de la octava semana, el estudio registró mejoras diurnas medibles sin un deterioro informado de la calidad del sueño.",
-  "benzodiazepineReferenceDay90": "Tres meses después de las benzodiacepinas: pensamiento más rápido, menos sedación\n\nFuente: Rickels et al., \"Psychomotor performance of long-term benzodiazepine users before, during, and after benzodiazepine discontinuation,\" Journal of Clinical Psychopharmacology (1999), on PubMed\n\nUna señal de recuperación medida a las 12 semanas\nLos investigadores evaluaron a usuarios de benzodiacepinas de larga duración antes de la reducción y de nuevo 5 y 12 semanas después. Hubo datos de 12 semanas para 77 personas, y la ausencia de benzodiacepinas en quienes completaron la retirada se confirmó con análisis de sangre semanales.\n\nRendimiento cognitivo más rápido\nQuienes lograron dejar las benzodiacepinas completaron más rápido las tareas de copia de símbolos y sustitución dígito-símbolo que los participantes que seguían tomándolas. La diferencia siguió siendo significativa al tener en cuenta la edad, la educación y las puntuaciones iniciales.\n\nMenos sedación mental y física\nQuienes completaron la retirada también informaron de menos sedación mental y física que las personas que seguían tomando benzodiacepinas.\n\nCómo pueden verse tres meses\nEn quienes completaron la retirada en este estudio, 12 semanas después de la reducción hubo mejoras medibles en la velocidad de procesamiento y menos sedación mental y física. El pensamiento fue más rápido y la sensación de estar sedado disminuyó.",
+  "benzodiazepineReferenceDay90": "Tres meses después de las benzodiacepinas: pensamiento más rápido, menos sedación\n\nFuente: Rickels et al., \"Psychomotor performance of long-term benzodiazepine users before, during, and after benzodiazepine discontinuation,\" Journal of Clinical Psychopharmacology (1999), en PubMed\n\nUna señal de recuperación medida a las 12 semanas\nLos investigadores evaluaron a usuarios de benzodiacepinas de larga duración antes de la reducción y de nuevo 5 y 12 semanas después. Hubo datos de 12 semanas para 77 personas, y la ausencia de benzodiacepinas en quienes completaron la retirada se confirmó con análisis de sangre semanales.\n\nRendimiento cognitivo más rápido\nQuienes lograron dejar las benzodiacepinas completaron más rápido las tareas de copia de símbolos y sustitución dígito-símbolo que los participantes que seguían tomándolas. La diferencia siguió siendo significativa al tener en cuenta la edad, la educación y las puntuaciones iniciales.\n\nMenos sedación mental y física\nQuienes completaron la retirada también informaron de menos sedación mental y física que las personas que seguían tomando benzodiacepinas.\n\nCómo pueden verse tres meses\nEn quienes completaron la retirada en este estudio, 12 semanas después de la reducción hubo mejoras medibles en la velocidad de procesamiento y menos sedación mental y física. El pensamiento fue más rápido y la sensación de estar sedado disminuyó.",
   "benzodiazepineReferenceDay180": "Pensamiento y memoria a los seis meses: mejoras medibles\n\nFuente: Tata et al., \"Lack of cognitive recovery following withdrawal from long-term benzodiazepine use,\" Psychological Medicine (1994), en PubMed\n\nQué hizo el estudio\nEste estudio evaluó a 21 pacientes que habían usado benzodiacepinas a largo plazo antes de la retirada, justo después y de nuevo tras seis meses de abstinencia, comparándolos con controles equivalentes. Es uno de los datos más directos sobre recuperación cognitiva tras benzodiacepinas.\n\nQué encontró\nAntes de dejar el fármaco, los pacientes presentaban problemas de aprendizaje verbal, memoria, velocidad motora, coordinación visual y razonamiento visual. Justo después de la retirada hubo pocos cambios. A los seis meses, varias de esas áreas habían mejorado de forma medible.\n\nQué significa\nA los seis meses, el aprendizaje verbal, la memoria, la velocidad de movimiento y la coordinación visual mostraban una recuperación medible. La mejora ya era clara y todavía había margen para seguir avanzando.\n\nLa perspectiva general\nSi a los seis meses todavía notas cierta niebla mental, esta investigación indica que la recuperación puede seguir en curso. Los estudios a más largo plazo muestran que la mejoría continúa bastante más allá de este punto.",
   "benzodiazepineReferenceDay365": "Un año después de las benzodiacepinas: pensamiento y memoria siguen recuperándose\n\nFuente: Barker et al., \"Persistence of cognitive effects after withdrawal from long-term benzodiazepine use: a meta-analysis,\" Archives of Clinical Neuropsychology (2004), en PubMed\n\nLa evidencia más sólida disponible\nLos investigadores combinaron estudios que volvieron a evaluar a personas que habían usado benzodiacepinas a largo plazo después de al menos seis meses sin el fármaco. El resultado conjunto muestra una recuperación clara del pensamiento y la memoria después de la retirada.\n\nLa buena noticia\nLos estudios combinados encontraron mejoras reales y medibles en varias áreas del pensamiento y la memoria después de dejar las benzodiacepinas. Alrededor del primer año, la recuperación es amplia y evidente en comparación con el periodo de uso activo.\n\nLa recuperación continúa\nLos estudios combinados encontraron una recuperación amplia del pensamiento y la memoria. Al año, ya se ha avanzado mucho en una tendencia de recuperación que era medible a los seis meses.\n\nQué significa al cabo de un año\nCabe esperar una recuperación considerable del pensamiento, la memoria y la claridad mental al año. Si algunas áreas aún van más despacio, eso es compatible con la evidencia y no significa que el proceso se haya detenido. La recuperación continúa, y un año de abstinencia es un hito importante en ese recorrido.",
   "benzodiazepineReferenceDay540": "18 meses después de las benzodiacepinas: recuperación lenta pero real\n\nFuente: Ashton, \"Protracted withdrawal syndromes from benzodiazepines,\" Journal of Substance Abuse Treatment (1991), en PubMed\n\nPor qué la recuperación tarda tanto\nLas benzodiacepinas actúan sobre el GABA, el principal sistema inhibidor del cerebro. El uso prolongado cambia la intensidad con la que responde ese sistema, y esas adaptaciones pueden tardar meses en revertirse. Por eso la recuperación de las benzodiacepinas se mide en meses y no en semanas.\n\nDónde se sitúan los 18 meses\nAshton describe síntomas de abstinencia prolongados que pueden tardar meses en disminuir. A los 18 meses, lo peor suele haber quedado muy atrás para la mayoría de las personas y la ansiedad residual, los cambios sensoriales y la niebla mental suelen haberse asentado considerablemente.\n\nLentamente reversible\nDe forma importante, Ashton describe los cambios subyacentes como cambios funcionales del sistema nervioso central lentamente reversibles. Lentos, pero reversibles: el largo plazo refleja la profundidad de la adaptación causada por las benzodiacepinas, no necesariamente un daño permanente.\n\nSeñal de recuperación\nAshton describe estos cambios subyacentes como lentamente reversibles. A los 18 meses, el sistema GABA del cerebro ha tenido mucho tiempo para estabilizarse y la dirección dominante sigue siendo la recuperación progresiva hacia la normalidad.",
@@ -2663,9 +2663,9 @@
   "vapingMilestone1095Title": "Tres años: impulso firme",
   "vapingMilestone1095Description": "Tres años sin vapear. Has mantenido un cambio difícil durante 1.095 días. Los CDC no definen un umbral biológico a los tres años, así que celebra lo que sí respalda la evidencia: libertad sostenida del vapeo.",
   "vapingMilestone1460Title": "Cuatro años: terreno sólido",
-  "vapingMilestone1460Description": "Cuatro años sin vapear. Son 1.460 días sin reforzar el hábito del vapeo. La ciencia aún no puede asignar un reloj universal de recuperación a largo plazo, pero este cambio duradero es real y merece celebrarse.",
-  "vapingMilestone1825Title": "Cinco años: medio decenio",
-  "vapingMilestone1825Description": "Cinco años sin vapear. Medio decenio sin volver al vapeo es un gran logro a largo plazo. La evidencia de los CDC no convierte los cinco años en un final médico; el hito es el cambio sostenido que has construido.",
+  "vapingMilestone1460Description": "Cuatro años sin vapear. Son 1.460 días sin reforzar el hábito del vapeo. La ciencia aún no puede establecer un calendario universal de recuperación a largo plazo, pero este cambio duradero es real y merece celebrarse.",
+  "vapingMilestone1825Title": "Cinco años: un gran hito",
+  "vapingMilestone1825Description": "Cinco años sin vapear. Cinco años sin volver al vapeo son un gran logro a largo plazo. La evidencia de los CDC no establece un umbral médico de recuperación a los cinco años; el hito es el cambio sostenido que has construido.",
   "vapingLongTermReference": "Vapeo, abandono y evidencia a largo plazo\n\nFuente: CDC — Vaping and Quitting; CDC — Health Effects of Vaping\n\nLos CDC indican que quienes vapean pueden desarrollar adicción a la nicotina, que al dejarlo pueden aparecer síntomas de abstinencia y que todavía se estudian las mejores formas de ayudar a dejar el vapeo. También señalan que los efectos de salud a largo plazo de los cigarrillos electrónicos siguen investigándose.\n\nEstas fuentes no definen umbrales biológicos de recuperación a los dos, tres, cuatro o cinco años. Por eso Quitter trata estas fechas como aniversarios de progreso sostenido sin vapear, no como puntos finales médicos.",
   "vapingWithdrawalReference": "Abstinencia de cigarrillos electrónicos y síndrome de retirada\n\nFuente: Hughes et al., Nicotine & Tobacco Research (2020)\n\nEn 109 exfumadores que usaban cigarrillos electrónicos a diario, seis días de abstinencia confirmada biológicamente aumentaron los síntomas de abstinencia de nicotina y las ganas de vapear. Los síntomas siguieron el patrón típico de subida y bajada, con un aumento marcado durante los dos primeros días. El estudio respalda que la abstinencia del vapeo es real, pero no establece un reloj universal de recuperación día a día.",
   "@vapingWithdrawalReference": {

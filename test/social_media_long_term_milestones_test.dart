@@ -95,8 +95,8 @@ void main() {
     },
   );
 
-  test('all supported ARBs localize social media long-term milestones', () {
-    const days = [730, 1095, 1460, 1825];
+  test('all supported ARBs localize the full social media timeline', () {
+    const days = [1, 3, 7, 14, 30, 60, 90, 180, 365, 730, 1095, 1460, 1825];
     final arbFiles =
         Directory('lib/l10n')
             .listSync()
@@ -109,6 +109,12 @@ void main() {
     final english =
         jsonDecode(File('lib/l10n/app_en.arb').readAsStringSync())
             as Map<String, dynamic>;
+
+    int bulletCount(String value) => value
+        .split('\n')
+        .where((line) => line.trimLeft().startsWith('•'))
+        .length;
+    int paragraphCount(String value) => value.split('\n\n').length;
 
     for (final file in arbFiles) {
       final locale = file.uri.pathSegments.last
@@ -141,8 +147,9 @@ void main() {
         }
 
         final referenceKey = 'socialMediaReferenceDay$day';
+        final reference = arb[referenceKey];
         expect(
-          arb[referenceKey],
+          reference,
           isA<String>().having(
             (value) => value.trim(),
             referenceKey,
@@ -152,11 +159,61 @@ void main() {
         );
         if (locale != 'en') {
           expect(
-            arb[referenceKey],
+            reference,
             isNot(equals(english[referenceKey])),
             reason: '$locale must not fall back to English for $referenceKey',
           );
+          expect(
+            paragraphCount(reference as String),
+            paragraphCount(english[referenceKey] as String),
+            reason: '$locale must preserve $referenceKey paragraph structure',
+          );
+          expect(
+            bulletCount(reference),
+            bulletCount(english[referenceKey] as String),
+            reason: '$locale must preserve $referenceKey evidence bullets',
+          );
         }
+      }
+
+      final socialMediaValues = <String>[
+        for (final day in days) ...[
+          arb['socialMediaMilestone${day}Title'] as String,
+          arb['socialMediaMilestone${day}Description'] as String,
+          arb['socialMediaReferenceDay$day'] as String,
+        ],
+      ].join('\n');
+
+      switch (locale) {
+        case 'de':
+          expect(socialMediaValues, isNot(contains('Futterexposition')));
+          expect(socialMediaValues, isNot(contains('Vorbettrolle')));
+        case 'id':
+          expect(
+            socialMediaValues,
+            isNot(contains('Informasi referensi pemulihan')),
+          );
+          expect(
+            socialMediaValues,
+            isNot(contains('sumber kesehatan publik dan penelitian terkait')),
+          );
+        case 'ko':
+          expect(socialMediaValues, isNot(contains('사료 노출')));
+          expect(socialMediaValues, isNot(contains('심야의 두루마리')));
+          expect(socialMediaValues, isNot(contains('자동 검사')));
+        case 'pl':
+          expect(socialMediaValues, isNot(contains('trialgis')));
+          expect(socialMediaValues, isNot(contains('7800.000')));
+          expect(socialMediaValues, isNot(contains('anxiete')));
+          expect(socialMediaValues, isNot(contains('really,')));
+        case 'th':
+          expect(socialMediaValues, isNot(contains('ผู้คน other')));
+          expect(socialMediaValues, isNot(contains('Takeaway')));
+          expect(socialMediaValues, isNot(contains('อาหารสัตว์')));
+        case 'ur':
+          expect(socialMediaValues, isNot(contains('<unk>')));
+          expect(socialMediaValues, isNot(contains('حسن ابدال')));
+          expect(socialMediaValues, isNot(contains('کتابِ‌مُقدس')));
       }
     }
   });

@@ -82,9 +82,14 @@ void main() {
   );
 
   test(
-    'all supported ARBs localize synthetic cannabinoid long-term milestones',
+    'all supported ARBs localize the complete synthetic cannabinoid timeline',
     () {
-      const days = [730, 1095, 1460, 1825];
+      const days = [1, 3, 7, 14, 30, 90, 180, 730, 1095, 1460, 1825];
+      const referenceKeys = [
+        'synthetic_cannabinoidsWithdrawalReference',
+        'synthetic_cannabinoidsRiskReference',
+        'synthetic_cannabinoidsLongTermReference',
+      ];
       final arbFiles =
           Directory('lib/l10n')
               .listSync()
@@ -98,11 +103,46 @@ void main() {
           jsonDecode(File('lib/l10n/app_en.arb').readAsStringSync())
               as Map<String, dynamic>;
 
+      List<int> referenceShape(String value) {
+        return value
+            .split('\n\n')
+            .map(
+              (section) => section
+                  .split('\n')
+                  .where((line) => line.startsWith('•'))
+                  .length,
+            )
+            .toList();
+      }
+
+      const forbiddenArtifacts = <String, List<String>>{
+        'ar': ['شهر واحد واضح', 'ثلاثة أشهر على', 'نصف سنة مجاناً'],
+        'es': ['Dos semanas libre', 'Tres meses después', 'Tres meses libre.'],
+        'id': [
+          'Penarikan Dimulai',
+          'Satu Bulan Jelas',
+          'Tiga Bulan Lalu',
+          'Gratis Setengah Tahun',
+        ],
+        'ru': [
+          'Месяц без синтетических каннабиноидов',
+          'Полгода без синтетических каннабиноидов',
+          'Полдесятилетия',
+        ],
+        'th': [
+          'การถอนเงินเริ่มต้นขึ้น',
+          'หนึ่งเดือนเคลียร์.',
+          'สามเดือนต่อ',
+          'ฟรีครึ่งปี',
+        ],
+      };
+
       for (final file in arbFiles) {
         final locale = file.uri.pathSegments.last
             .replaceFirst('app_', '')
             .replaceFirst('.arb', '');
         final arb = jsonDecode(file.readAsStringSync()) as Map<String, dynamic>;
+        final scopedValues = <String>[];
 
         for (final day in days) {
           for (final suffix in ['Title', 'Description']) {
@@ -112,38 +152,57 @@ void main() {
               isA<String>().having((value) => value.trim(), key, isNotEmpty),
               reason: '$locale must localize $key',
             );
-            if (suffix == 'Title') {
-              expect(
-                (arb[key] as String).runes.length,
-                lessThanOrEqualTo(36),
-                reason: '$locale must keep $key compact for phone layouts',
-              );
-            }
+            scopedValues.add(arb[key] as String);
             if (locale != 'en') {
               expect(
                 arb[key],
                 isNot(equals(english[key])),
                 reason: '$locale must not fall back to English for $key',
               );
+              if (suffix == 'Title') {
+                expect(
+                  (arb[key] as String).runes.length,
+                  lessThanOrEqualTo(36),
+                  reason: '$locale must keep $key compact for phone layouts',
+                );
+              }
             }
           }
         }
 
-        const referenceKey = 'synthetic_cannabinoidsLongTermReference';
-        expect(
-          arb[referenceKey],
-          isA<String>().having(
-            (value) => value.trim(),
-            referenceKey,
-            isNotEmpty,
-          ),
-          reason: '$locale must localize $referenceKey',
-        );
-        if (locale != 'en') {
+        for (final referenceKey in referenceKeys) {
           expect(
             arb[referenceKey],
-            isNot(equals(english[referenceKey])),
-            reason: '$locale must not fall back to English for $referenceKey',
+            isA<String>().having(
+              (value) => value.trim(),
+              referenceKey,
+              isNotEmpty,
+            ),
+            reason: '$locale must localize $referenceKey',
+          );
+          scopedValues.add(arb[referenceKey] as String);
+          if (locale != 'en') {
+            expect(
+              arb[referenceKey],
+              isNot(equals(english[referenceKey])),
+              reason: '$locale must not fall back to English for $referenceKey',
+            );
+            expect(
+              referenceShape(arb[referenceKey] as String),
+              equals(referenceShape(english[referenceKey] as String)),
+              reason:
+                  '$locale must preserve paragraph and bullet structure for $referenceKey',
+            );
+          }
+        }
+
+        final joinedScope = scopedValues.join('\n');
+        for (final artifact in forbiddenArtifacts[locale] ?? const <String>[]) {
+          expect(
+            joinedScope,
+            isNot(contains(artifact)),
+            reason:
+                '$locale must not reintroduce synthetic-cannabinoid translation artifact: $artifact',
           );
         }
       }

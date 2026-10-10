@@ -144,4 +144,111 @@ void main() {
       }
     }
   });
+
+  test('all GHB milestone copy is localized and structurally faithful', () {
+    const days = [1, 3, 7, 14, 30, 90, 180, 730, 1095, 1460, 1825];
+    const forbiddenByLocale = <String, List<String>>{
+      'ar': ['الامتناع عن ممارسة الجنس', 'مجاناً'],
+      'de': [
+        'Akute Phase Passing',
+        'Auszahlungsfrist',
+        'Verjüngung',
+        'Heißhunger',
+      ],
+      'id': ['Informasi referensi pemulihan'],
+      'ko': ['할인', '휴가'],
+      'pl': ['GHBZREX', 'dysCharge', 'Off GHB', 'anxiety', 'za darmo'],
+      'pt_BR': ['desconto no GHB', 'Meio ano grátis'],
+      'th': ['การถอนเงิน', 'ความอยากอาหาร', ' other'],
+      'ur': ['<unk>', 'Audiory', 'Visual Haluciations', 'حمل گِر', 'سگریٹ'],
+    };
+
+    final arbFiles =
+        Directory('lib/l10n')
+            .listSync()
+            .whereType<File>()
+            .where((file) => RegExp(r'app_[^/]+\.arb$').hasMatch(file.path))
+            .toList()
+          ..sort((a, b) => a.path.compareTo(b.path));
+    final english =
+        jsonDecode(File('lib/l10n/app_en.arb').readAsStringSync())
+            as Map<String, dynamic>;
+
+    int paragraphCount(String value) => value.split('\n\n').length;
+    int bulletCount(String value) =>
+        RegExp(r'(^|\n)• ', multiLine: true).allMatches(value).length;
+
+    for (final file in arbFiles) {
+      final locale = file.uri.pathSegments.last
+          .replaceFirst('app_', '')
+          .replaceFirst('.arb', '');
+      final arb = jsonDecode(file.readAsStringSync()) as Map<String, dynamic>;
+      final auditedValues = <String>[];
+
+      for (final day in days) {
+        for (final suffix in ['Title', 'Description']) {
+          final key = 'ghbMilestone$day$suffix';
+          final value = arb[key];
+          expect(
+            value,
+            isA<String>().having((text) => text.trim(), key, isNotEmpty),
+            reason: '$locale must localize $key',
+          );
+          auditedValues.add(value as String);
+
+          if (suffix == 'Title') {
+            expect(
+              value.runes.length,
+              lessThanOrEqualTo(day >= 730 ? 36 : 44),
+              reason: '$locale must keep $key compact for phone layouts',
+            );
+          }
+          if (locale != 'en') {
+            expect(
+              value,
+              isNot(equals(english[key])),
+              reason: '$locale must not fall back to English for $key',
+            );
+          }
+        }
+
+        final referenceKey = 'ghbReferenceDay$day';
+        final reference = arb[referenceKey];
+        expect(
+          reference,
+          isA<String>().having((text) => text.trim(), referenceKey, isNotEmpty),
+          reason: '$locale must localize $referenceKey',
+        );
+        auditedValues.add(reference as String);
+
+        if (locale != 'en') {
+          expect(
+            reference,
+            isNot(equals(english[referenceKey])),
+            reason: '$locale must not fall back to English for $referenceKey',
+          );
+        }
+        expect(
+          paragraphCount(reference),
+          paragraphCount(english[referenceKey] as String),
+          reason: '$locale must preserve paragraph structure for $referenceKey',
+        );
+        expect(
+          bulletCount(reference),
+          bulletCount(english[referenceKey] as String),
+          reason: '$locale must preserve bullet structure for $referenceKey',
+        );
+      }
+
+      final joined = auditedValues.join('\n');
+      for (final artifact in forbiddenByLocale[locale] ?? const <String>[]) {
+        expect(
+          joined,
+          isNot(contains(artifact)),
+          reason:
+              '$locale GHB copy must not contain known translation artifact: $artifact',
+        );
+      }
+    }
+  });
 }

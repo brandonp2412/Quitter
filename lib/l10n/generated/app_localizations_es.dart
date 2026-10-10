@@ -421,8 +421,7 @@ class AppLocalizationsEs extends AppLocalizations {
       'Un año de abstinencia aporta una recuperación neurológica considerable a la mayoría de las personas, y se esperan nuevas mejoras durante el segundo año.';
 
   @override
-  String get inhalantsMilestone730Title =>
-      'Dos años — recuperación a largo plazo';
+  String get inhalantsMilestone730Title => 'Dos años: recuperación duradera';
 
   @override
   String get inhalantsMilestone730Description =>
@@ -475,11 +474,12 @@ class AppLocalizationsEs extends AppLocalizations {
       'Una semana conseguida. La abstinencia de cannabinoides sintéticos puede ser grave y más física que la del cannabis. Siete días sin otra dosis es una victoria importante.';
 
   @override
-  String get synthetic_cannabinoidsMilestone14Title => 'Dos semanas libre';
+  String get synthetic_cannabinoidsMilestone14Title =>
+      'Dos semanas sin consumir';
 
   @override
   String get synthetic_cannabinoidsMilestone14Description =>
-      'Dos semanas libre. Los cannabinoides sintéticos son otra bestia: ya suma catorce días sin volver a exponerse a una clase de drogas relacionada con convulsiones, psicosis y problemas cardíacos.';
+      'Dos semanas sin consumir. Los cannabinoides sintéticos son otra bestia: ya suma catorce días sin volver a exponerse a una clase de drogas relacionada con convulsiones, psicosis y problemas cardíacos.';
 
   @override
   String get synthetic_cannabinoidsMilestone30Title => 'Un mes sin consumir';
@@ -489,11 +489,12 @@ class AppLocalizationsEs extends AppLocalizations {
       'Un mes completo sin consumir. Son treinta días sin volver a exponerse a la potencia impredecible y la toxicidad aguda de los cannabinoides sintéticos. Un hito enorme.';
 
   @override
-  String get synthetic_cannabinoidsMilestone90Title => 'Tres meses después';
+  String get synthetic_cannabinoidsMilestone90Title =>
+      'Tres meses sin consumir';
 
   @override
   String get synthetic_cannabinoidsMilestone90Description =>
-      'Tres meses libre. Ha puesto una gran distancia entre usted y una clase de drogas relacionada con abstinencia grave, convulsiones, problemas cardiovasculares y psicosis. Siga así.';
+      'Tres meses sin consumir. Ha puesto una gran distancia entre usted y una clase de drogas relacionada con abstinencia grave, convulsiones, problemas cardiovasculares y psicosis. Siga así.';
 
   @override
   String get synthetic_cannabinoidsMilestone180Title => 'Medio año libre';
@@ -669,8 +670,7 @@ class AppLocalizationsEs extends AppLocalizations {
       'A los tres meses, la testosterona y las hormonas que la regulan están subiendo hacia niveles normales en la mayoría de las personas, y el ánimo y la libido suelen mejorar con ellas.';
 
   @override
-  String get steroidsMilestone180Title =>
-      'Seis meses — recuperación a menudo bien avanzada';
+  String get steroidsMilestone180Title => 'Seis meses — recuperación avanzada';
 
   @override
   String get steroidsMilestone180Description =>
@@ -816,39 +816,35 @@ class AppLocalizationsEs extends AppLocalizations {
   String get benzoSubtitleNotStarted => 'Descubre qué ocurre cuando lo dejas';
 
   @override
-  String get benzoMilestone7Title =>
-      'Primera semana: ventana completa de inicio';
+  String get benzoMilestone7Title => 'Primera semana: inicio de síntomas';
 
   @override
   String get benzoMilestone7Description =>
       'Al día 7 ya has alcanzado toda la ventana típica de inicio: la abstinencia suele comenzar 1–2 días después de las benzodiacepinas de acción corta y 2–7 días después de las de acción larga. Una reducción gradual es importante porque ayuda a prevenir convulsiones.';
 
   @override
-  String get benzoMilestone14Title => 'Dos semanas: vuelve el sueño profundo';
+  String get benzoMilestone14Title => 'Dos semanas: más sueño profundo';
 
   @override
   String get benzoMilestone14Description =>
       'Alrededor de dos semanas después de una retirada gradual de benzodiacepinas, un estudio clínico del sueño encontró más sueño de ondas lentas y una mejor calidad de sueño percibida. Es una señal temprana y concreta de recuperación del sueño.';
 
   @override
-  String get benzoMilestone60Title =>
-      'Ocho semanas: vuelven la concentración y el equilibrio';
+  String get benzoMilestone60Title => 'Ocho semanas: foco y equilibrio';
 
   @override
   String get benzoMilestone60Description =>
       'En un estudio de 8 semanas con personas mayores que llevaban mucho tiempo usando hipnóticos benzodiacepínicos, quienes completaron la retirada gradual mejoraron en memoria inmediata, atención, lenguaje y estabilidad corporal. Es una recuperación diurna medible.';
 
   @override
-  String get benzoMilestone90Title =>
-      'Tres meses: pensamiento más rápido, menos sedación';
+  String get benzoMilestone90Title => 'Tres meses: mente más rápida';
 
   @override
   String get benzoMilestone90Description =>
       'A las 12 semanas de terminar la reducción gradual, quienes llevaban años usando benzodiacepinas y lograron dejarlas completaron más rápido tareas cognitivas cronometradas y declararon menos sedación mental y física que quienes seguían tomándolas. Es una recuperación diurna medible.';
 
   @override
-  String get benzoMilestone180Title =>
-      'Empiezan a recuperarse el pensamiento y la memoria';
+  String get benzoMilestone180Title => 'Pensamiento y memoria se recuperan';
 
   @override
   String get benzoMilestone180Description =>
@@ -876,7 +872,7 @@ class AppLocalizationsEs extends AppLocalizations {
       'Dos años marcan una recuperación considerable. La mayoría de las personas tiene un pensamiento mucho más claro, emociones más estables y una calidad de vida mucho mejor que durante el uso prolongado de benzodiacepinas.';
 
   @override
-  String get benzoMilestone1095Title => 'Tres años: recuperación a largo plazo';
+  String get benzoMilestone1095Title => 'Tres años: recuperación duradera';
 
   @override
   String get benzoMilestone1095Description =>
@@ -918,7 +914,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String get methSubtitleNotStarted => 'La libertad está a tu alcance';
 
   @override
-  String get methMilestone1Title => 'Primeras 24 horas - comienza el bajón';
+  String get methMilestone1Title => 'Primeras 24 h - empieza el bajón';
 
   @override
   String get methMilestone1Description =>
@@ -932,8 +928,7 @@ class AppLocalizationsEs extends AppLocalizations {
       'Los deseos de consumir aumentan considerablemente durante este periodo mientras tu cuerpo se adapta. Puedes sentir más energía que durante la fase de bajón, lo que puede hacer que los deseos parezcan más intensos. Es un momento crucial para prevenir recaídas y buscar apoyo.';
 
   @override
-  String get methMilestone7Title =>
-      'Una semana - disminuyen los síntomas físicos';
+  String get methMilestone7Title => 'Una semana - mejoría física';
 
   @override
   String get methMilestone7Description =>
@@ -947,16 +942,14 @@ class AppLocalizationsEs extends AppLocalizations {
       'Comienza una fase de mejoría a medida que tu cuerpo se recupera y los deseos de consumir empiezan a disminuir. Aumenta la energía y mejora el ánimo mientras la química cerebral comienza a reequilibrarse. Aun así, mantente atento, porque todavía pueden surgir dificultades.';
 
   @override
-  String get methMilestone90Title =>
-      'Tres meses - comienza la recuperación cerebral';
+  String get methMilestone90Title => 'Tres meses - recuperación cerebral';
 
   @override
   String get methMilestone90Description =>
       'Tu cerebro se está recuperando activamente. La atención, la memoria y la toma de decisiones empiezan a mejorar a medida que el sistema de recompensa se acerca a la normalidad.';
 
   @override
-  String get methMilestone180Title =>
-      'Seis meses - recuperación cardiovascular';
+  String get methMilestone180Title => 'Seis meses - recuperación cardíaca';
 
   @override
   String get methMilestone180Description =>
@@ -970,7 +963,7 @@ class AppLocalizationsEs extends AppLocalizations {
       'Después de un año, el sistema de dopamina ha avanzado mucho. Las recompensas naturales vuelven a resultar más gratificantes, mientras el ánimo, la memoria y la toma de decisiones mejoran notablemente.';
 
   @override
-  String get methMilestone420Title => '14 meses - normalización de la dopamina';
+  String get methMilestone420Title => '14 meses - recuperación de dopamina';
 
   @override
   String get methMilestone420Description =>
@@ -1004,8 +997,7 @@ class AppLocalizationsEs extends AppLocalizations {
       'Descubre los cambios positivos que te esperan';
 
   @override
-  String get nitrousOxideMilestone1Title =>
-      'Primeras 24 horas — eliminación de la sustancia';
+  String get nitrousOxideMilestone1Title => '24 horas — el gas ya salió';
 
   @override
   String get nitrousOxideMilestone1Description =>
@@ -1019,16 +1011,14 @@ class AppLocalizationsEs extends AppLocalizations {
       'Buenas noticias: el óxido nitroso no causa abstinencia física. Los impulsos que sientes son psicológicos —hábito y asociación, no tu cuerpo exigiendo una sustancia—. Eso hace que sean manejables.';
 
   @override
-  String get nitrousOxideMilestone7Title =>
-      'Una semana — suben los niveles de B12';
+  String get nitrousOxideMilestone7Title => 'Una semana — sube la B12';
 
   @override
   String get nitrousOxideMilestone7Description =>
       'Una semana sin que se destruya más vitamina B12. Si has empezado a suplementarla, tus niveles ya están subiendo. La energía, el ánimo y la concentración dependen de la B12; deberías empezar a notar mejoras.';
 
   @override
-  String get nitrousOxideMilestone14Title =>
-      'Dos semanas - se recuperan los nervios';
+  String get nitrousOxideMilestone14Title => 'Dos semanas — sanan los nervios';
 
   @override
   String get nitrousOxideMilestone14Description =>
@@ -1043,7 +1033,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get nitrousOxideMilestone90Title =>
-      'Tres meses - recuperación neurológica';
+      'Tres meses — recuperación nerviosa';
 
   @override
   String get nitrousOxideMilestone90Description =>
@@ -1051,7 +1041,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get nitrousOxideMilestone365Title =>
-      'Un año - salud a largo plazo asegurada';
+      'Un año — protección a largo plazo';
 
   @override
   String get nitrousOxideMilestone365Description =>
@@ -2242,16 +2232,14 @@ class AppLocalizationsEs extends AppLocalizations {
       'La función de tu hígado muestra una mejora medible. Este órgano regenerativo puede recuperarse considerablemente del daño causado por el alcohol, y las enzimas hepáticas y la acumulación de grasa pueden mejorar en los primeros dos meses de abstinencia.';
 
   @override
-  String get alcoholMilestone90Title =>
-      'El pensamiento y la memoria mejoran considerablemente';
+  String get alcoholMilestone90Title => 'Mejoran el pensamiento y la memoria';
 
   @override
   String get alcoholMilestone90Description =>
       'Los primeros tres meses aportan grandes mejoras en la memoria, la concentración y la toma de decisiones, y la recuperación continúa durante los meses siguientes.';
 
   @override
-  String get alcoholMilestone180Title =>
-      'Continúa la recuperación del volumen y la función cerebral';
+  String get alcoholMilestone180Title => 'El cerebro sigue recuperándose';
 
   @override
   String get alcoholMilestone180Description =>
@@ -2259,7 +2247,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get alcoholMilestone365Title =>
-      'Puede empezar a reducirse el riesgo de cáncer';
+      'Puede empezar a bajar el riesgo de cáncer';
 
   @override
   String get alcoholMilestone365Description =>
@@ -2273,24 +2261,21 @@ class AppLocalizationsEs extends AppLocalizations {
       '¡Tu sangre vuelve a respirar! En 24 horas, los niveles de monóxido de carbono bajan hasta la normalidad y aumenta el oxígeno. Tu corazón ya no tiene que trabajar de más para bombear sangre cargada de toxinas por el cuerpo.';
 
   @override
-  String get smokingMilestone3Title =>
-      'La abstinencia de nicotina alcanza su pico';
+  String get smokingMilestone3Title => 'Pico de abstinencia de nicotina';
 
   @override
   String get smokingMilestone3Description =>
       'El monstruo de la nicotina está en su peor momento, ¡pero estás ganando la batalla! Toda la nicotina ya ha salido de tu organismo. Los deseos más intensos aparecen ahora, pero superarlos te acerca a la libertad.';
 
   @override
-  String get smokingMilestone7Title =>
-      'El gusto y el olfato mejoran notablemente';
+  String get smokingMilestone7Title => 'Mejoran el gusto y el olfato';
 
   @override
   String get smokingMilestone7Description =>
       '¡La comida está a punto de volver a ser una aventura! Fumar daña las papilas gustativas y los receptores del olfato. Después de una semana, empiezas a redescubrir sabores que habías olvidado. ¡Prepárate para disfrutar mucho más de la comida!';
 
   @override
-  String get smokingMilestone14Title =>
-      'Mejoran la circulación y la capacidad para caminar';
+  String get smokingMilestone14Title => 'Mejoran circulación y caminata';
 
   @override
   String get smokingMilestone14Description =>
@@ -2304,24 +2289,21 @@ class AppLocalizationsEs extends AppLocalizations {
       '¡Tus pulmones están celebrando su regreso! Los cilios han vuelto a crecer y ayudan a eliminar años de alquitrán y residuos. La capacidad pulmonar aumenta de forma importante y esa tos de fumador queda atrás.';
 
   @override
-  String get smokingMilestone90Title =>
-      'El riesgo de infarto disminuye considerablemente';
+  String get smokingMilestone90Title => 'Baja el riesgo de infarto';
 
   @override
   String get smokingMilestone90Description =>
       '¡Tu corazón te lo está agradeciendo! Tras tres meses sin fumar, tu riesgo cardiovascular ya ha disminuido considerablemente. Tu sistema cardiovascular se recupera más rápido de lo que quizá imaginabas.';
 
   @override
-  String get smokingMilestone180Title =>
-      'Las células inmunitarias del pulmón se recuperan';
+  String get smokingMilestone180Title => 'Defensas pulmonares se recuperan';
 
   @override
   String get smokingMilestone180Description =>
       'Seis meses sin fumar son una victoria real para las defensas pulmonares. En un estudio quirúrgico, las respuestas antibacterianas de los macrófagos alveolares tras 3–12 meses sin fumar se parecían más al patrón de quienes nunca fumaron que a los dos meses. Tus defensas pulmonares llevan meses recuperándose.';
 
   @override
-  String get smokingMilestone365Title =>
-      'El riesgo de ictus disminuye considerablemente';
+  String get smokingMilestone365Title => 'Baja el riesgo de ictus';
 
   @override
   String get smokingMilestone365Description =>
@@ -2349,24 +2331,21 @@ class AppLocalizationsEs extends AppLocalizations {
       'Cuatro años sin fumar quedan dentro del intervalo de 3 a 6 años de los CDC, en el que el riesgo adicional de cardiopatía coronaria se reduce a la mitad. El beneficio cardiovascular a largo plazo sigue creciendo.';
 
   @override
-  String get smokingMilestone1825Title =>
-      'Algunos riesgos de cáncer caen en picado (5–10 años)';
+  String get smokingMilestone1825Title => '5–10 años: baja el riesgo de cáncer';
 
   @override
   String get smokingMilestone1825Description =>
       '¡Cinco años de victoria! Entras en la ventana de 5–10 años en la que el riesgo añadido de cáncer de boca, garganta y laringe se reduce a la mitad, mientras el riesgo de ictus sigue bajando. Los beneficios a largo plazo ya están pegando fuerte.';
 
   @override
-  String get marijuanaMilestone1Title =>
-      'Comienzan los síntomas de abstinencia';
+  String get marijuanaMilestone1Title => 'Inicio de la abstinencia';
 
   @override
   String get marijuanaMilestone1Description =>
       '¡Tu cerebro se está adaptando a la vida sin THC! Entre las 24 y 48 horas puedes experimentar irritabilidad, ansiedad o dificultades para dormir. Es algo normal: tus receptores cannabinoides empiezan a reajustarse.';
 
   @override
-  String get marijuanaMilestone3Title =>
-      'Los síntomas físicos alcanzan su pico';
+  String get marijuanaMilestone3Title => 'Pico de síntomas físicos';
 
   @override
   String get marijuanaMilestone3Description =>
@@ -2408,16 +2387,14 @@ class AppLocalizationsEs extends AppLocalizations {
       'Tres meses sin cannabis aportan un ánimo más estable, menos ansiedad y un mejor control del estrés. Tu estado emocional se está asentando en una normalidad más saludable.';
 
   @override
-  String get marijuanaMilestone180Title =>
-      'Se recuperan la planificación y la toma de decisiones';
+  String get marijuanaMilestone180Title => 'Vuelven planificación y decisiones';
 
   @override
   String get marijuanaMilestone180Description =>
       '¡Tu dirección mental vuelve a estar al mando! Seis meses sin cannabis aportan grandes mejoras en planificación, toma de decisiones y resolución de problemas.';
 
   @override
-  String get marijuanaMilestone365Title =>
-      'Recuperación de la estructura cerebral';
+  String get marijuanaMilestone365Title => 'Recuperación cerebral';
 
   @override
   String get marijuanaMilestone365Description =>
@@ -2514,8 +2491,7 @@ class AppLocalizationsEs extends AppLocalizations {
       'Cinco años son media década de cambio sostenido. Es un logro enorme por sí mismo.';
 
   @override
-  String get socialMediaMilestone1Title =>
-      '¡Primer día de desintoxicación digital! 🎯';
+  String get socialMediaMilestone1Title => 'Primer día de pausa digital 🎯';
 
   @override
   String get socialMediaMilestone1Description =>
@@ -2529,16 +2505,14 @@ class AppLocalizationsEs extends AppLocalizations {
       'Tras tres días, esos pensamientos ansiosos de «¿qué me estoy perdiendo?» ya empiezan a disminuir. Estás enseñando a tu cerebro que la vida real es mucho más interesante que los contenidos seleccionados.';
 
   @override
-  String get socialMediaMilestone7Title =>
-      'Capacidad de atención: pez dorado → humano 🧠';
+  String get socialMediaMilestone7Title => 'Tu atención vuelve 🧠';
 
   @override
   String get socialMediaMilestone7Description =>
       '¡Primera semana completada! Ya mejora tu capacidad para concentrarte sin mirar el teléfono cada pocos minutos. Los estudios muestran que el cerebro ansía los picos de dopamina de las notificaciones, pero estás enseñándole a encontrar recompensas en otros lugares.';
 
   @override
-  String get socialMediaMilestone14Title =>
-      'Duerme como un bebé (no como un zombi) 😴';
+  String get socialMediaMilestone14Title => 'Dos semanas, mejor sueño 😴';
 
   @override
   String get socialMediaMilestone14Description =>
@@ -2553,8 +2527,7 @@ class AppLocalizationsEs extends AppLocalizations {
       'Un mes desconectado puede reducir considerablemente la soledad y la depresión. Las investigaciones muestran que limitar las redes sociales mejora la salud mental. ¡Tú has ido incluso más lejos!';
 
   @override
-  String get socialMediaMilestone60Title =>
-      'Trampa de la comparación: ¡SUPERADA! ✨';
+  String get socialMediaMilestone60Title => 'Fuera de la comparación ✨';
 
   @override
   String get socialMediaMilestone60Description =>
@@ -2568,8 +2541,7 @@ class AppLocalizationsEs extends AppLocalizations {
       'Tres meses equivalen a unas 270 horas o más recuperadas. Es tiempo suficiente para aprender una habilidad, leer más de 15 libros o profundizar en una afición. El cerebro fortalece los hábitos que repites, así que esas rutinas sin conexión se vuelven más fáciles y automáticas.';
 
   @override
-  String get socialMediaMilestone180Title =>
-      'Transformación de la salud mental completada 🌟';
+  String get socialMediaMilestone180Title => '6 meses con más control 🌟';
 
   @override
   String get socialMediaMilestone180Description =>
@@ -2919,39 +2891,35 @@ class AppLocalizationsEs extends AppLocalizations {
       'Descubre qué ocurre al reducirlos gradualmente';
 
   @override
-  String get ssriMilestone3Title => 'Día 3: el síndrome FINISH alcanza su pico';
+  String get ssriMilestone3Title => 'Día 3: Pico del síndrome FINISH';
 
   @override
   String get ssriMilestone3Description =>
       'Los síntomas de abstinencia suelen alcanzar su máximo entre los días 2 y 4. Los ISRS cambian la forma en que se recicla la serotonina, por lo que el cerebro necesita tiempo para adaptarse después de dejarlos. Pueden aparecer síntomas parecidos a la gripe, mareos, insomnio, náuseas y «descargas cerebrales». La paroxetina tiende a causar una abstinencia más intensa; la fluoxetina permanece mucho más tiempo en el organismo y suele ser más leve.';
 
   @override
-  String get ssriMilestone7Title =>
-      'Una semana: empieza a disminuir la fase aguda';
+  String get ssriMilestone7Title => '1 semana: La fase aguda cede';
 
   @override
   String get ssriMilestone7Description =>
       'Los síntomas físicos más intensos empiezan a disminuir. Tu cerebro está ajustando la señalización de serotonina para funcionar sin la medicación. El sueño y el apetito empiezan a estabilizarse.';
 
   @override
-  String get ssriMilestone14Title =>
-      'Dos semanas: se resuelven los síntomas físicos';
+  String get ssriMilestone14Title => '2 semanas: Ceden síntomas físicos';
 
   @override
   String get ssriMilestone14Description =>
       'La mayoría de los síntomas físicos agudos por interrupción se han reducido considerablemente o se han resuelto. Las descargas cerebrales, las náuseas y los mareos están disminuyendo. La sensibilidad emocional todavía puede estar aumentada mientras el cerebro sigue reequilibrando sus sistemas de serotonina.';
 
   @override
-  String get ssriMilestone30Title =>
-      'Un mes: se estabilizan el ánimo y la energía';
+  String get ssriMilestone30Title => '1 mes: Ánimo y energía estables';
 
   @override
   String get ssriMilestone30Description =>
       'Un mes marca un hito importante. La calidad del sueño mejora, los niveles de energía se estabilizan y muchas personas notan que su ánimo empieza a encontrar un nuevo equilibrio. El cerebro está recuperando activamente su regulación natural de la serotonina.';
 
   @override
-  String get ssriMilestone90Title =>
-      'Tres meses: La curva de abstinencia cambia';
+  String get ssriMilestone90Title => '3 meses: Giro en la abstinencia';
 
   @override
   String get ssriMilestone90Description =>
@@ -2998,40 +2966,35 @@ class AppLocalizationsEs extends AppLocalizations {
       'Descubre qué ocurre al reducirlos gradualmente';
 
   @override
-  String get snriMilestone3Title =>
-      'Día 3: el síndrome intenso de interrupción alcanza su pico';
+  String get snriMilestone3Title => 'Día 3: Pico de abstinencia';
 
   @override
   String get snriMilestone3Description =>
       'Los IRSN, especialmente la venlafaxina (Effexor), se asocian con algunos de los síndromes de interrupción de antidepresivos más intensos. La vida media muy corta de la venlafaxina (5 horas) hace que los síntomas puedan ser más intensos que con la mayoría de los ISRS. Los síntomas FINISH (sensaciones parecidas a la gripe, insomnio, náuseas, desequilibrio, alteraciones sensoriales e hiperactivación) afectan simultáneamente a los sistemas de serotonina y noradrenalina.';
 
   @override
-  String get snriMilestone7Title =>
-      'Una semana: se ajustan dos sistemas neuroquímicos';
+  String get snriMilestone7Title => '1 semana: Doble ajuste cerebral';
 
   @override
   String get snriMilestone7Description =>
       'Los IRSN afectan a la recaptación tanto de serotonina como de noradrenalina. Ambos sistemas se ajustan a la vez. Los síntomas físicos más intensos empiezan a disminuir, pero el mecanismo doble puede hacer que la adaptación resulte más compleja que con los ISRS por sí solos.';
 
   @override
-  String get snriMilestone14Title =>
-      'Dos semanas: disminuyen los síntomas físicos';
+  String get snriMilestone14Title => '2 semanas: Síntomas en descenso';
 
   @override
   String get snriMilestone14Description =>
       'La mayoría de los síntomas físicos agudos por interrupción han disminuido considerablemente. Las descargas cerebrales, las náuseas y los mareos están remitiendo. El reajuste del sistema de noradrenalina aún puede causar algo de ansiedad o fluctuaciones de la presión arterial, que suelen resolverse durante las semanas siguientes.';
 
   @override
-  String get snriMilestone30Title =>
-      'Un mes: se estabiliza el sistema de noradrenalina';
+  String get snriMilestone30Title => '1 mes: Noradrenalina estable';
 
   @override
   String get snriMilestone30Description =>
       'Un mes marca un hito importante. Los sistemas de serotonina y noradrenalina se están reequilibrando activamente. La calidad del sueño y los niveles de energía se estabilizan. Muchas personas notan una mayor amplitud emocional al desaparecer el efecto de aplanamiento emocional de la medicación.';
 
   @override
-  String get snriMilestone90Title =>
-      'Tres meses: superaste la fase habitual de retirada';
+  String get snriMilestone90Title => '3 meses: Abstinencia superada';
 
   @override
   String get snriMilestone90Description =>
@@ -3136,39 +3099,35 @@ class AppLocalizationsEs extends AppLocalizations {
       'La retirada suele empezar en pocos días y a menudo dura varias semanas. A la semana todavía pueden estar presentes náuseas, sudoración, problemas de sueño, palpitaciones y mareo. Siete días son un progreso real, y la recuperación puede seguir avanzando a ritmos distintos.';
 
   @override
-  String get tcaMilestone14Title =>
-      'Dos semanas: la retirada aguda suele estar cediendo';
+  String get tcaMilestone14Title => '2 semanas: retirada aguda cediendo';
 
   @override
   String get tcaMilestone14Description =>
       'Los síntomas típicos de retirada de antidepresivos, como náuseas, insomnio, desequilibrio, alteraciones sensoriales e hiperactivación, suelen durar entre una y dos semanas. En el día 14, muchas personas están llegando al final de esa fase aguda.';
 
   @override
-  String get tcaMilestone30Title =>
-      'Un mes: la retirada aguda suele haber cedido';
+  String get tcaMilestone30Title => '1 mes: retirada aguda superada';
 
   @override
   String get tcaMilestone30Description =>
       'Los síntomas típicos de discontinuación de antidepresivos suelen durar de una a dos semanas. A los 30 días, la mayoría de las personas ya ha superado esa fase aguda; los síntomas gripales, las náuseas, el desequilibrio, el insomnio, las alteraciones sensoriales y la hiperactivación suelen haber remitido o desaparecido.';
 
   @override
-  String get tcaMilestone90Title =>
-      'Tres meses: la retirada aguda quedó muy atrás';
+  String get tcaMilestone90Title => '3 meses: retirada aguda atrás';
 
   @override
   String get tcaMilestone90Description =>
       'Los síntomas típicos de discontinuación de antidepresivos suelen durar de una a dos semanas. A los 90 días, estás más de diez semanas más allá del final de esa ventana aguda habitual; los síntomas gripales, las náuseas, el desequilibrio, el insomnio, las alteraciones sensoriales y la hiperactivación suelen haber remitido o desaparecido hace tiempo.';
 
   @override
-  String get tcaMilestone180Title =>
-      'Seis meses: la mayoría siguió sin recaída';
+  String get tcaMilestone180Title => '6 meses: mayoría sin recaída';
 
   @override
   String get tcaMilestone180Description =>
       'Entre personas que dejaron antidepresivos tras tratar una depresión mayor, un metanálisis de 35 ensayos halló una tasa agrupada de recaída del 34,8 % a los seis meses: alrededor del 65 % siguió sin recaída. Es un enorme tramo de estabilidad.';
 
   @override
-  String get tcaMilestone365Title => 'Un año: la mayoría siguió sin recaída';
+  String get tcaMilestone365Title => '1 año: mayoría sin recaída';
 
   @override
   String get tcaMilestone365Description =>
@@ -3246,47 +3205,42 @@ class AppLocalizationsEs extends AppLocalizations {
       'Descubre qué ocurre al reducirlos gradualmente';
 
   @override
-  String get maoiMilestone3Title =>
-      'Día 3: fase de mayor riesgo — supervisión médica esencial';
+  String get maoiMilestone3Title => 'Día 3: Riesgo máximo';
 
   @override
   String get maoiMilestone3Description =>
       'Los IMAO conllevan algunos de los riesgos de interrupción más graves entre los antidepresivos. La suspensión brusca, especialmente de fenelzina y tranilcipromina, puede causar agitación intensa, confusión, alucinaciones, mioclonías e hipertermia. Si experimentas estos síntomas, busca atención médica inmediata. Los IMAO actúan inactivando de forma irreversible las enzimas MAO; la recuperación requiere que el organismo sintetice enzima nueva, un proceso que tarda aproximadamente 14 días.';
 
   @override
-  String get maoiMilestone7Title =>
-      'Una semana: síntesis de enzima MAO en marcha';
+  String get maoiMilestone7Title => 'Una semana: síntesis de MAO';
 
   @override
   String get maoiMilestone7Description =>
       'Los IMAO inactivan de forma irreversible moléculas de la enzima MAO; la recuperación requiere sintetizar enzima completamente nueva. Al cabo de una semana puede haberse recuperado aproximadamente el 50 % de la actividad normal de la MAO. Los síntomas graves de interrupción aguda (delirio, mioclonías, hipertermia) se reducen considerablemente. Sigue siendo importante una supervisión médica estrecha.';
 
   @override
-  String get maoiMilestone14Title =>
-      'Dos semanas: actividad de la enzima MAO considerablemente recuperada';
+  String get maoiMilestone14Title => '2 semanas: MAO recuperada';
 
   @override
   String get maoiMilestone14Description =>
       'Dos semanas es el plazo clínico habitual para la recuperación de la enzima MAO tras la interrupción. Hacia el día 14, la actividad de MAO-A y MAO-B se ha restablecido en gran medida y vuelve el metabolismo normal de la tiramina. Las restricciones dietéticas requeridas durante el tratamiento con IMAO normalmente pueden relajarse consultándolo con quien te los prescribe.';
 
   @override
-  String get maoiMilestone30Title =>
-      'Un mes: reequilibrio de los sistemas neuroquímicos';
+  String get maoiMilestone30Title => 'Un mes: equilibrio neuroquímico';
 
   @override
   String get maoiMilestone30Description =>
       'Un mes después de dejar un IMAO, la enzima MAO vuelve a estar activa y el cerebro gestiona de forma natural la serotonina, la noradrenalina, la dopamina y la tiramina. El periodo especial de interacciones con alimentos y medicamentos ha terminado, aunque debes seguir informando a quienes te prescriban medicación de tu uso previo de IMAO.';
 
   @override
-  String get maoiMilestone90Title =>
-      'Tres meses: se normaliza la química cerebral';
+  String get maoiMilestone90Title => '3 meses: química cerebral estable';
 
   @override
   String get maoiMilestone90Description =>
       'Tres meses dan a los sistemas cerebrales relacionados con el ánimo y la energía bastante tiempo para reajustarse tras los IMAO. El ánimo, la energía y la claridad de pensamiento se estabilizan mientras el cerebro vuelve a gestionar estas sustancias químicas de forma natural.';
 
   @override
-  String get maoiMilestone180Title => 'Seis meses: recuperación a largo plazo';
+  String get maoiMilestone180Title => '6 meses: recuperación estable';
 
   @override
   String get maoiMilestone180Description =>
@@ -3408,7 +3362,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get alcoholReferenceDay3 =>
-      'Día tres: La ventana de máxima abstinencia\n\nFuente: \"Alcohol Withdrawal\", StatPearls — revisado por pares, NIH National Library of Medicine\n\nAlrededor de las 72 horas\nLos síntomas de abstinencia del alcohol pueden empezar pocas horas después y suelen alcanzar su punto máximo alrededor de las 72 horas. StatPearls incluye temblor, insomnio, agitación, sudoración, presión arterial alta, taquicardia y convulsiones entre los signos de este estado de hiperexcitabilidad.\n\nTres días fuertes\nLlegar a las 72 horas es un hito enorme porque coincide con la ventana de máxima intensidad documentada para muchos síntomas agudos.\n\nLa abstinencia grave puede aparecer más tarde\nEl delirio por abstinencia de alcohol (delirium tremens) puede aparecer entre 3 y 8 días después de dejarlo y puede ser mortal. La abstinencia grave es una urgencia médica. Las personas que beben mucho a diario y quienes tengan antecedentes de convulsiones o delirio por abstinencia deben buscar consejo médico en vez de dejarlo bruscamente sin apoyo.';
+      'Día tres: La ventana de máxima abstinencia\n\nFuente: \"Alcohol Withdrawal\", StatPearls — revisado por pares, NIH National Library of Medicine\n\nAlrededor de las 72 horas\nLos síntomas de abstinencia del alcohol pueden empezar pocas horas después y suelen alcanzar su punto máximo alrededor de las 72 horas. StatPearls incluye temblor, insomnio, agitación, sudoración, presión arterial alta, taquicardia y convulsiones entre los signos de este estado de hiperexcitabilidad.\n\nTres días fuertes\nLlegar a las 72 horas es un hito enorme porque coincide con la ventana de máxima intensidad documentada para muchos síntomas agudos.\n\nLa abstinencia grave puede aparecer más tarde\nEl delirio por abstinencia de alcohol (delirium tremens) puede aparecer entre 3 y 8 días después de dejarlo y puede ser mortal. La abstinencia grave es una urgencia médica. Las personas que beben mucho a diario y quienes tengan antecedentes de convulsiones o delirio por abstinencia deben buscar consejo médico en vez de dejarlo bruscamente sin apoyo.\n\nQué señales requieren atención\nLa fiebre, la agitación intensa, la sudoración abundante, las alucinaciones, la desorientación, las convulsiones, una frecuencia cardíaca muy alta o una presión arterial muy elevada requieren atención médica urgente.';
 
   @override
   String get alcoholReferenceDay7 =>
@@ -3452,7 +3406,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get benzodiazepineReferenceDay90 =>
-      'Tres meses después de las benzodiacepinas: pensamiento más rápido, menos sedación\n\nFuente: Rickels et al., \"Psychomotor performance of long-term benzodiazepine users before, during, and after benzodiazepine discontinuation,\" Journal of Clinical Psychopharmacology (1999), on PubMed\n\nUna señal de recuperación medida a las 12 semanas\nLos investigadores evaluaron a usuarios de benzodiacepinas de larga duración antes de la reducción y de nuevo 5 y 12 semanas después. Hubo datos de 12 semanas para 77 personas, y la ausencia de benzodiacepinas en quienes completaron la retirada se confirmó con análisis de sangre semanales.\n\nRendimiento cognitivo más rápido\nQuienes lograron dejar las benzodiacepinas completaron más rápido las tareas de copia de símbolos y sustitución dígito-símbolo que los participantes que seguían tomándolas. La diferencia siguió siendo significativa al tener en cuenta la edad, la educación y las puntuaciones iniciales.\n\nMenos sedación mental y física\nQuienes completaron la retirada también informaron de menos sedación mental y física que las personas que seguían tomando benzodiacepinas.\n\nCómo pueden verse tres meses\nEn quienes completaron la retirada en este estudio, 12 semanas después de la reducción hubo mejoras medibles en la velocidad de procesamiento y menos sedación mental y física. El pensamiento fue más rápido y la sensación de estar sedado disminuyó.';
+      'Tres meses después de las benzodiacepinas: pensamiento más rápido, menos sedación\n\nFuente: Rickels et al., \"Psychomotor performance of long-term benzodiazepine users before, during, and after benzodiazepine discontinuation,\" Journal of Clinical Psychopharmacology (1999), en PubMed\n\nUna señal de recuperación medida a las 12 semanas\nLos investigadores evaluaron a usuarios de benzodiacepinas de larga duración antes de la reducción y de nuevo 5 y 12 semanas después. Hubo datos de 12 semanas para 77 personas, y la ausencia de benzodiacepinas en quienes completaron la retirada se confirmó con análisis de sangre semanales.\n\nRendimiento cognitivo más rápido\nQuienes lograron dejar las benzodiacepinas completaron más rápido las tareas de copia de símbolos y sustitución dígito-símbolo que los participantes que seguían tomándolas. La diferencia siguió siendo significativa al tener en cuenta la edad, la educación y las puntuaciones iniciales.\n\nMenos sedación mental y física\nQuienes completaron la retirada también informaron de menos sedación mental y física que las personas que seguían tomando benzodiacepinas.\n\nCómo pueden verse tres meses\nEn quienes completaron la retirada en este estudio, 12 semanas después de la reducción hubo mejoras medibles en la velocidad de procesamiento y menos sedación mental y física. El pensamiento fue más rápido y la sensación de estar sedado disminuyó.';
 
   @override
   String get benzodiazepineReferenceDay180 =>
@@ -4214,14 +4168,14 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get vapingMilestone1460Description =>
-      'Cuatro años sin vapear. Son 1.460 días sin reforzar el hábito del vapeo. La ciencia aún no puede asignar un reloj universal de recuperación a largo plazo, pero este cambio duradero es real y merece celebrarse.';
+      'Cuatro años sin vapear. Son 1.460 días sin reforzar el hábito del vapeo. La ciencia aún no puede establecer un calendario universal de recuperación a largo plazo, pero este cambio duradero es real y merece celebrarse.';
 
   @override
-  String get vapingMilestone1825Title => 'Cinco años: medio decenio';
+  String get vapingMilestone1825Title => 'Cinco años: un gran hito';
 
   @override
   String get vapingMilestone1825Description =>
-      'Cinco años sin vapear. Medio decenio sin volver al vapeo es un gran logro a largo plazo. La evidencia de los CDC no convierte los cinco años en un final médico; el hito es el cambio sostenido que has construido.';
+      'Cinco años sin vapear. Cinco años sin volver al vapeo son un gran logro a largo plazo. La evidencia de los CDC no establece un umbral médico de recuperación a los cinco años; el hito es el cambio sostenido que has construido.';
 
   @override
   String get vapingLongTermReference =>

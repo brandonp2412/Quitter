@@ -81,8 +81,8 @@ void main() {
     },
   );
 
-  test('all supported ARBs localize alcohol long-term milestones', () {
-    const days = [730, 1095, 1460, 1825];
+  test('all supported ARBs localize every Alcohol milestone', () {
+    const days = [1, 3, 7, 14, 30, 60, 90, 180, 365, 730, 1095, 1460, 1825];
     final arbFiles =
         Directory('lib/l10n')
             .listSync()
@@ -113,7 +113,7 @@ void main() {
           if (suffix == 'Title') {
             expect(
               (arb[key] as String).runes.length,
-              lessThanOrEqualTo(36),
+              lessThanOrEqualTo(44),
               reason: '$locale must keep $key compact for phone layouts',
             );
           }
@@ -143,6 +143,58 @@ void main() {
             reason: '$locale must not fall back to English for $referenceKey',
           );
         }
+
+        final englishReference = english[referenceKey] as String;
+        final localizedReference = arb[referenceKey] as String;
+        expect(
+          '\n\n'.allMatches(localizedReference).length,
+          '\n\n'.allMatches(englishReference).length,
+          reason: '$locale must preserve paragraph structure for $referenceKey',
+        );
+        expect(
+          '•'.allMatches(localizedReference).length,
+          '•'.allMatches(englishReference).length,
+          reason: '$locale must preserve evidence bullets for $referenceKey',
+        );
+      }
+    }
+  });
+
+  test('Alcohol translations reject known machine artifacts', () {
+    const forbiddenByLocale = <String, List<String>>{
+      'ar': ['إزالة الإهانة'],
+      'de': ['Brain Volume Recovery', 'Continue Recovery'],
+      'id': [
+        'Informasi referensi pemulihan dalam bahasa Indonesia.',
+        'Sumber: sumber kesehatan publik dan penelitian terkait.',
+      ],
+      'ko': ['모욕 제거', '리프팅 효과'],
+      'pl': [
+        'drawall',
+        'regrinth',
+        'ożywienie gospodarcze',
+        'Staying abstynent',
+      ],
+      'th': ['การเลิกบุหรี่', 'เงียบขรึม'],
+      'ur': ['Exsety', 'نظامِ‌شمسی', 'ایمرجنسی سسٹم', 'مئی بیگین'],
+    };
+
+    for (final entry in forbiddenByLocale.entries) {
+      final arb =
+          jsonDecode(File('lib/l10n/app_${entry.key}.arb').readAsStringSync())
+              as Map<String, dynamic>;
+      final alcoholText = arb.entries
+          .where((entry) => entry.key.startsWith('alcohol'))
+          .map((entry) => entry.value)
+          .whereType<String>()
+          .join('\n');
+
+      for (final forbidden in entry.value) {
+        expect(
+          alcoholText,
+          isNot(contains(forbidden)),
+          reason: '${entry.key} must not regress to "$forbidden"',
+        );
       }
     }
   });

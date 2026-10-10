@@ -54,8 +54,7 @@ class AppLocalizationsFr extends AppLocalizations {
       'Au bout d\'une semaine, les pires symptômes physiques — douleurs, troubles digestifs et sueurs — se sont largement estompés. Le sommeil et l\'énergie sont encore en cours de récupération.';
 
   @override
-  String get kratomMilestone14Title =>
-      'Récupération de l\'humeur et du sommeil';
+  String get kratomMilestone14Title => 'Humeur et sommeil en progrès';
 
   @override
   String get kratomMilestone14Description =>
@@ -668,8 +667,7 @@ class AppLocalizationsFr extends AppLocalizations {
       'Les premières semaines sont les plus difficiles de la baisse hormonale — énergie, humeur et libido réduites. C\'est une période où beaucoup rechutent pour éviter ces effets ; le soutien peut aider.';
 
   @override
-  String get steroidsMilestone30Title =>
-      'Un mois — redémarrage de l\'axe hormonal';
+  String get steroidsMilestone30Title => 'Un mois — axe hormonal relancé';
 
   @override
   String get steroidsMilestone30Description =>
@@ -683,8 +681,7 @@ class AppLocalizationsFr extends AppLocalizations {
       'Après trois mois, la testostérone et les hormones qui la stimulent remontent vers la normale chez la plupart des personnes, et l\'humeur ainsi que la libido s\'améliorent souvent en parallèle.';
 
   @override
-  String get steroidsMilestone180Title =>
-      'Six mois — récupération souvent bien avancée';
+  String get steroidsMilestone180Title => 'Six mois — récupération avancée';
 
   @override
   String get steroidsMilestone180Description =>
@@ -834,40 +831,35 @@ class AppLocalizationsFr extends AppLocalizations {
       'Découvrez ce qui se passe lorsque vous arrêtez';
 
   @override
-  String get benzoMilestone7Title =>
-      'Première semaine : fenêtre complète de début';
+  String get benzoMilestone7Title => 'Semaine 1 : début des symptômes';
 
   @override
   String get benzoMilestone7Description =>
       'Au jour 7, toute la fenêtre habituelle de début est couverte : le sevrage commence généralement 1–2 jours après les benzodiazépines à courte durée d’action et 2–7 jours après celles à longue durée d’action. Une diminution progressive aide à prévenir les crises convulsives.';
 
   @override
-  String get benzoMilestone14Title =>
-      'Deux semaines : le sommeil profond revient';
+  String get benzoMilestone14Title => 'Deux semaines : sommeil profond';
 
   @override
   String get benzoMilestone14Description =>
       'Environ deux semaines après un sevrage progressif des benzodiazépines, une étude clinique du sommeil a observé davantage de sommeil lent profond et une meilleure qualité de sommeil ressentie. C’est un signal concret de récupération précoce du sommeil.';
 
   @override
-  String get benzoMilestone60Title =>
-      'Huit semaines : concentration et équilibre reviennent';
+  String get benzoMilestone60Title => '8 semaines : attention et équilibre';
 
   @override
   String get benzoMilestone60Description =>
       'Dans une étude de 8 semaines menée chez des personnes âgées utilisant depuis longtemps des hypnotiques benzodiazépiniques, celles qui ont terminé le sevrage progressif ont amélioré leur mémoire immédiate, leur attention, leurs scores de langage et leur stabilité corporelle. Une récupération diurne mesurable.';
 
   @override
-  String get benzoMilestone90Title =>
-      'Trois mois : pensée plus rapide, moins de sédation';
+  String get benzoMilestone90Title => 'Trois mois : pensée plus vive';
 
   @override
   String get benzoMilestone90Description =>
       'Douze semaines après le sevrage progressif, les utilisateurs de benzodiazépines au long cours qui avaient réussi à arrêter ont effectué plus vite des tâches cognitives chronométrées et signalé moins de sédation mentale et physique que ceux qui continuaient les benzodiazépines. C’est une récupération diurne mesurable.';
 
   @override
-  String get benzoMilestone180Title =>
-      'La pensée et la mémoire commencent à récupérer';
+  String get benzoMilestone180Title => 'Pensée et mémoire récupèrent';
 
   @override
   String get benzoMilestone180Description =>
@@ -895,8 +887,7 @@ class AppLocalizationsFr extends AppLocalizations {
       'Deux ans marquent une récupération importante. La plupart des personnes ont une pensée beaucoup plus claire, des émotions plus stables et une qualité de vie nettement meilleure qu\'au cours d\'une utilisation prolongée de benzodiazépines.';
 
   @override
-  String get benzoMilestone1095Title =>
-      'Trois ans : rétablissement à long terme';
+  String get benzoMilestone1095Title => 'Trois ans : récupération durable';
 
   @override
   String get benzoMilestone1095Description =>
@@ -939,8 +930,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get methSubtitleNotStarted => 'La liberté est à votre portée';
 
   @override
-  String get methMilestone1Title =>
-      'Premières 24 heures — début de la phase d’épuisement';
+  String get methMilestone1Title => 'Premières 24 h — phase d’épuisement';
 
   @override
   String get methMilestone1Description =>
@@ -954,8 +944,7 @@ class AppLocalizationsFr extends AppLocalizations {
       'Les envies s\'intensifient nettement pendant cette période tandis que votre corps s\'adapte. Vous pouvez avoir davantage d\'énergie que pendant la phase d’épuisement, ce qui peut rendre les envies plus fortes. C\'est un moment crucial pour prévenir la rechute et rechercher du soutien.';
 
   @override
-  String get methMilestone7Title =>
-      'Une semaine — les symptômes physiques diminuent';
+  String get methMilestone7Title => 'Une semaine — symptômes en baisse';
 
   @override
   String get methMilestone7Description =>
@@ -969,30 +958,28 @@ class AppLocalizationsFr extends AppLocalizations {
       'La phase dite de lune de miel commence tandis que votre corps récupère et que les envies diminuent. L\'énergie augmente et l\'humeur s\'améliore à mesure que la chimie du cerveau se rééquilibre. Restez toutefois vigilant, car des difficultés peuvent encore survenir.';
 
   @override
-  String get methMilestone90Title =>
-      'Trois mois — début de la récupération cérébrale';
+  String get methMilestone90Title => 'Trois mois — cerveau en récupération';
 
   @override
   String get methMilestone90Description =>
       'Votre cerveau récupère activement. L\'attention, la mémoire et la prise de décision commencent à s\'améliorer à mesure que le système de récompense se rapproche de la normale.';
 
   @override
-  String get methMilestone180Title =>
-      'Six mois — récupération cardiovasculaire';
+  String get methMilestone180Title => 'Six mois — récupération cardiaque';
 
   @override
   String get methMilestone180Description =>
       'La fonction cardiaque montre une amélioration mesurable avec l\'abstinence. Les études montrent qu\'elle peut récupérer de façon importante pendant cette période lorsqu\'un suivi médical l\'accompagne. La tension artérielle et le rythme cardiaque continuent de se stabiliser.';
 
   @override
-  String get methMilestone365Title => 'Un an — récupération cérébrale majeure';
+  String get methMilestone365Title => 'Un an — récupération cérébrale';
 
   @override
   String get methMilestone365Description =>
       'Après un an, le système dopaminergique a beaucoup progressé. Les récompenses naturelles redeviennent plus agréables, tandis que l\'humeur, la mémoire et la prise de décision se sont nettement améliorées.';
 
   @override
-  String get methMilestone420Title => '14 mois — normalisation de la dopamine';
+  String get methMilestone420Title => '14 mois — dopamine en récupération';
 
   @override
   String get methMilestone420Description =>
@@ -1026,8 +1013,7 @@ class AppLocalizationsFr extends AppLocalizations {
       'Découvrez les changements positifs qui vous attendent';
 
   @override
-  String get nitrousOxideMilestone1Title =>
-      'Premières 24 heures — élimination du produit';
+  String get nitrousOxideMilestone1Title => '24 heures — le gaz est éliminé';
 
   @override
   String get nitrousOxideMilestone1Description =>
@@ -1064,15 +1050,14 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get nitrousOxideMilestone90Title =>
-      'Trois mois — récupération neurologique';
+      'Trois mois — récupération nerveuse';
 
   @override
   String get nitrousOxideMilestone90Description =>
       'Trois mois sans nouvelle destruction de vitamine B12, c’est trois mois de récupération des nerfs. Le système nerveux a une grande capacité de récupération : la plupart des personnes traitées rapidement constatent à ce stade une nette diminution des fourmillements, de la faiblesse et du brouillard mental.';
 
   @override
-  String get nitrousOxideMilestone365Title =>
-      'Un an — santé à long terme consolidée';
+  String get nitrousOxideMilestone365Title => 'Un an — protection à long terme';
 
   @override
   String get nitrousOxideMilestone365Description =>
@@ -2269,16 +2254,14 @@ class AppLocalizationsFr extends AppLocalizations {
       'Votre foie montre une amélioration mesurable de son fonctionnement. Cet organe régénératif peut récupérer de façon importante des dommages liés à l\'alcool ; les enzymes hépatiques et l\'accumulation de graisse s\'améliorent après environ 2 mois d\'abstinence.';
 
   @override
-  String get alcoholMilestone90Title =>
-      'La pensée et la mémoire s\'améliorent nettement';
+  String get alcoholMilestone90Title => 'Pensée et mémoire s’améliorent';
 
   @override
   String get alcoholMilestone90Description =>
       'Les trois premiers mois apportent des progrès majeurs pour la mémoire, la concentration et la prise de décision, avec une récupération qui se poursuit pendant les mois suivants.';
 
   @override
-  String get alcoholMilestone180Title =>
-      'Le volume et le fonctionnement du cerveau continuent de récupérer';
+  String get alcoholMilestone180Title => 'Le cerveau continue de récupérer';
 
   @override
   String get alcoholMilestone180Description =>
@@ -2286,7 +2269,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get alcoholMilestone365Title =>
-      'La réduction du risque de cancer peut commencer';
+      'Le risque de cancer peut commencer à baisser';
 
   @override
   String get alcoholMilestone365Description =>
@@ -2300,23 +2283,21 @@ class AppLocalizationsFr extends AppLocalizations {
       'Votre sang respire à nouveau ! En 24 heures, le taux de monoxyde de carbone revient à la normale et le niveau d\'oxygène augmente. Votre cœur n\'a plus besoin de travailler davantage pour faire circuler un sang chargé de toxines.';
 
   @override
-  String get smokingMilestone3Title => 'Le sevrage nicotinique atteint son pic';
+  String get smokingMilestone3Title => 'Pic du sevrage nicotinique';
 
   @override
   String get smokingMilestone3Description =>
       'Le monstre de la nicotine est au plus fort, mais vous êtes en train de gagner ! Toute la nicotine a quitté votre organisme. Les envies les plus fortes surviennent maintenant, mais elles sont aussi le passage vers la liberté.';
 
   @override
-  String get smokingMilestone7Title =>
-      'Le goût et l\'odorat s\'améliorent fortement';
+  String get smokingMilestone7Title => 'Goût et odorat s’améliorent';
 
   @override
   String get smokingMilestone7Description =>
       'La nourriture va redevenir une aventure ! Le tabac endommage les papilles gustatives et les récepteurs olfactifs. Après une semaine, vous redécouvrez des saveurs que vous aviez oubliées. Préparez-vous à vraiment apprécier vos repas !';
 
   @override
-  String get smokingMilestone14Title =>
-      'La circulation et la marche s\'améliorent';
+  String get smokingMilestone14Title => 'Circulation et marche s’améliorent';
 
   @override
   String get smokingMilestone14Description =>
@@ -2330,16 +2311,14 @@ class AppLocalizationsFr extends AppLocalizations {
       'Vos poumons font leur grand retour ! Les cils bronchiques ont repoussé et évacuent des années de goudron et de débris. La capacité pulmonaire augmente nettement et la toux du fumeur appartient au passé.';
 
   @override
-  String get smokingMilestone90Title =>
-      'Le risque d\'infarctus diminue nettement';
+  String get smokingMilestone90Title => 'Le risque d’infarctus baisse';
 
   @override
   String get smokingMilestone90Description =>
       'Votre cœur vous remercie ! Après trois mois sans tabac, votre risque cardiovasculaire a déjà sensiblement diminué. Votre système cardiovasculaire récupère plus vite que vous ne l\'imaginez.';
 
   @override
-  String get smokingMilestone180Title =>
-      'Les cellules immunitaires pulmonaires rebondissent';
+  String get smokingMilestone180Title => 'L’immunité pulmonaire se rétablit';
 
   @override
   String get smokingMilestone180Description =>
@@ -2374,8 +2353,7 @@ class AppLocalizationsFr extends AppLocalizations {
       'Quatre ans sans tabac se situent dans la période de 3 à 6 ans des CDC, durant laquelle le sur-risque de maladie coronarienne est réduit de moitié. Le bénéfice cardiovasculaire à long terme continue de s’accumuler.';
 
   @override
-  String get smokingMilestone1825Title =>
-      'Certains risques de cancer chutent (5–10 ans)';
+  String get smokingMilestone1825Title => '5–10 ans : risque de cancer baisse';
 
   @override
   String get smokingMilestone1825Description =>
@@ -2431,16 +2409,14 @@ class AppLocalizationsFr extends AppLocalizations {
       'Trois mois sans cannabis apportent une humeur plus stable, moins d\'anxiété et un meilleur contrôle du stress. Votre état émotionnel s\'installe dans un nouvel équilibre plus sain.';
 
   @override
-  String get marijuanaMilestone180Title =>
-      'La planification et la prise de décision récupèrent';
+  String get marijuanaMilestone180Title => 'Planification et décisions';
 
   @override
   String get marijuanaMilestone180Description =>
       'Votre directeur mental reprend les commandes ! Six mois sans cannabis apportent de grands progrès en matière de planification, de prise de décision et de résolution de problèmes.';
 
   @override
-  String get marijuanaMilestone365Title =>
-      'Restauration de la structure cérébrale';
+  String get marijuanaMilestone365Title => 'Récupération cérébrale';
 
   @override
   String get marijuanaMilestone365Description =>
@@ -2551,16 +2527,14 @@ class AppLocalizationsFr extends AppLocalizations {
       'Trois jours et les pensées anxieuses du type « qu\'est-ce que je rate ? » diminuent déjà. Vous apprenez à votre cerveau que la vraie vie est bien plus intéressante que des fils d\'actualité soigneusement mis en scène !';
 
   @override
-  String get socialMediaMilestone7Title =>
-      'Capacité d\'attention : poisson rouge → humain 🧠';
+  String get socialMediaMilestone7Title => 'Votre attention revient 🧠';
 
   @override
   String get socialMediaMilestone7Description =>
       'Première semaine terminée ! Votre capacité à rester concentré sans vérifier votre téléphone toutes les quelques minutes s\'améliore déjà. Les études montrent que notre cerveau recherche les décharges de dopamine des notifications — mais vous lui apprenez à trouver des récompenses ailleurs !';
 
   @override
-  String get socialMediaMilestone14Title =>
-      'Dormez comme un bébé, pas comme un zombie 😴';
+  String get socialMediaMilestone14Title => 'Deux semaines, mieux dormir 😴';
 
   @override
   String get socialMediaMilestone14Description =>
@@ -2574,24 +2548,21 @@ class AppLocalizationsFr extends AppLocalizations {
       'Un mois avec beaucoup moins de réseaux = une baisse importante de la solitude et de la dépression ! Les recherches montrent que limiter les réseaux sociaux améliore nettement la santé mentale. Vous êtes allé encore plus loin !';
 
   @override
-  String get socialMediaMilestone60Title =>
-      'Piège de la comparaison : ÉCHAPPÉ ! ✨';
+  String get socialMediaMilestone60Title => 'Sorti du piège des comparaisons ✨';
 
   @override
   String get socialMediaMilestone60Description =>
       'Deux mois sans comparaison sociale constante = confiance en forte hausse ! Les recherches montrent régulièrement que l\'usage des réseaux sociaux est associé à une baisse de l\'estime de soi, notamment à cause des comparaisons ascendantes. Vous vous êtes libéré du piège de la comparaison !';
 
   @override
-  String get socialMediaMilestone90Title =>
-      'Collectionneur de loisirs : niveau expert 🎨';
+  String get socialMediaMilestone90Title => 'Du temps pour vos loisirs 🎨';
 
   @override
   String get socialMediaMilestone90Description =>
       'Trois mois = environ 270 heures récupérées ! De quoi apprendre une compétence, lire plus de 15 livres ou approfondir un loisir. Votre cerveau renforce les habitudes répétées, alors ces routines hors ligne deviennent plus faciles et automatiques.';
 
   @override
-  String get socialMediaMilestone180Title =>
-      'Transformation du bien-être mental accomplie 🌟';
+  String get socialMediaMilestone180Title => '6 mois, attention maîtrisée 🌟';
 
   @override
   String get socialMediaMilestone180Description =>
@@ -2692,7 +2663,7 @@ class AppLocalizationsFr extends AppLocalizations {
       'Une année de liberté ! Votre risque de problèmes de santé liés à la nicotine continue de chuter. Vous avez brisé le cycle de dépendance et repris votre autonomie. C\'est réellement héroïque ! 🏆';
 
   @override
-  String get nicotinePouchesMilestone730Title => 'Deux ans : libre des sachets';
+  String get nicotinePouchesMilestone730Title => 'Deux ans : liberté durable';
 
   @override
   String get nicotinePouchesMilestone730Description =>
@@ -2700,11 +2671,10 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get nicotinePouchesReferenceDay730 =>
-      'Deux ans : libre des sachets\n\nSource : Rungraungrayabkul et al. (2024), revue systématique sur les sachets de nicotine et la santé bucco-dentaire\n\nLa revue n’a trouvé que trois études humaines, totalisant 190 participants, toutes jugées à haut risque de biais. Elle n’a pas établi de seuil de récupération deux ans après l’arrêt.\n\nDeux ans sans sachets restent un grand jalon de changement durable. Cette étape célèbre cette réussite sans inventer de calendrier médical.';
+      'Deux ans : liberté durable\n\nSource : Rungraungrayabkul et al. (2024), revue systématique sur les sachets de nicotine et la santé bucco-dentaire\n\nLa revue n’a trouvé que trois études humaines, totalisant 190 participants, toutes jugées à haut risque de biais. Elle n’a pas établi de seuil de récupération deux ans après l’arrêt.\n\nDeux ans sans sachets restent un grand jalon de changement durable. Cette étape célèbre cette réussite sans inventer de calendrier médical.';
 
   @override
-  String get nicotinePouchesMilestone1095Title =>
-      'Trois ans : la liberté tient';
+  String get nicotinePouchesMilestone1095Title => 'Trois ans : toujours libre';
 
   @override
   String get nicotinePouchesMilestone1095Description =>
@@ -2712,22 +2682,22 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get nicotinePouchesReferenceDay1095 =>
-      'Trois ans : la liberté tient\n\nSource : CDC — Sachets de nicotine\n\nLe CDC indique que davantage de recherches sont nécessaires pour comprendre les effets à court et à long terme des sachets de nicotine. Il ne décrit aucun changement médical particulier trois ans après l’arrêt.\n\nTrois ans sans sachets méritent d’être célébrés pour ce qu’ils sont : trois ans de liberté durable vis-à-vis de leur nicotine.';
+      'Trois ans : toujours libre\n\nSource : CDC — Sachets de nicotine\n\nLe CDC indique que davantage de recherches sont nécessaires pour comprendre les effets à court et à long terme des sachets de nicotine. Il ne décrit aucun changement médical particulier trois ans après l’arrêt.\n\nTrois ans sans sachets méritent d’être célébrés pour ce qu’ils sont : trois ans de liberté durable vis-à-vis de leur nicotine.';
 
   @override
-  String get nicotinePouchesMilestone1460Title => 'Quatre ans : ça tient';
+  String get nicotinePouchesMilestone1460Title =>
+      'Quatre ans : changement durable';
 
   @override
   String get nicotinePouchesMilestone1460Description =>
-      'Quatre ans sans sachets montrent une vraie constance. Aucun basculement médical validé n’est connu à quatre ans, mais le succès est bien réel : quatre ans sans revenir à l’habitude des sachets.';
+      'Quatre ans sans sachets montrent une vraie constance. Aucun changement médical précis n’a été validé au cap des quatre ans, mais le succès est bien réel : quatre ans sans revenir à l’habitude des sachets.';
 
   @override
   String get nicotinePouchesReferenceDay1460 =>
-      'Quatre ans : ça tient\n\nSource : Rungraungrayabkul et al. (2024), revue systématique sur les sachets de nicotine et la santé bucco-dentaire\n\nLa revue conclut que les données sur les effets bucco-dentaires à court et à long terme restent limitées et que davantage de recherches sont nécessaires. Elle ne soutient pas l’existence d’un événement universel de récupération exactement à quatre ans.\n\nQuatre ans sans sachets constituent un jalon de changement durable, sans avoir besoin d’une affirmation médicale non démontrée.';
+      'Quatre ans : changement durable\n\nSource : Rungraungrayabkul et al. (2024), revue systématique sur les sachets de nicotine et la santé bucco-dentaire\n\nLa revue conclut que les données sur les effets bucco-dentaires à court et à long terme restent limitées et que davantage de recherches sont nécessaires. Elle ne montre pas qu’une étape particulière de récupération survient chez tout le monde au cap des quatre ans.\n\nQuatre ans sans sachets constituent un jalon de changement durable, sans avoir besoin d’une affirmation médicale non démontrée.';
 
   @override
-  String get nicotinePouchesMilestone1825Title =>
-      'Cinq ans : victoire des cinq ans';
+  String get nicotinePouchesMilestone1825Title => 'Cinq ans : victoire majeure';
 
   @override
   String get nicotinePouchesMilestone1825Description =>
@@ -2735,7 +2705,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get nicotinePouchesReferenceDay1825 =>
-      'Cinq ans : victoire des cinq ans\n\nSource : CDC — Sachets de nicotine\n\nLe CDC rappelle que les sachets de nicotine sont relativement récents et que leurs effets à long terme sont encore étudiés. Les données actuelles n’établissent pas d’événement précis de récupération à cinq ans.\n\nCinq ans sans sachets sont déjà une réussite énorme : cinq années de changement durable.';
+      'Cinq ans : victoire majeure\n\nSource : CDC — Sachets de nicotine\n\nLe CDC rappelle que les sachets de nicotine sont relativement récents et que leurs effets à long terme sont encore étudiés. Les données actuelles ne montrent pas qu’une étape particulière de récupération survient précisément à cinq ans.\n\nCinq ans sans sachets sont déjà une réussite énorme : cinq années de changement durable.';
 
   @override
   String get pornographyMilestone1Title => 'Reprendre le contrôle';
@@ -2947,32 +2917,28 @@ class AppLocalizationsFr extends AppLocalizations {
       'Les symptômes de sevrage culminent souvent entre les jours 2 et 4. Les ISRS modifient le recyclage de la sérotonine ; le cerveau a donc besoin de temps pour s\'adapter après l\'arrêt. Attendez-vous à des symptômes pseudo-grippaux, des vertiges, de l\'insomnie, des nausées et des « décharges cérébrales ». La paroxétine tend à provoquer un sevrage plus marqué ; la fluoxétine reste beaucoup plus longtemps dans l\'organisme et est généralement plus facile à arrêter.';
 
   @override
-  String get ssriMilestone7Title =>
-      'Une semaine : la phase aiguë commence à diminuer';
+  String get ssriMilestone7Title => '1 semaine : la phase aiguë s’apaise';
 
   @override
   String get ssriMilestone7Description =>
       'Les symptômes physiques les plus intenses commencent à s\'atténuer. Votre cerveau adapte sa signalisation sérotoninergique pour fonctionner sans le médicament. Le sommeil et l\'appétit commencent à se stabiliser.';
 
   @override
-  String get ssriMilestone14Title =>
-      'Deux semaines : résolution des symptômes physiques';
+  String get ssriMilestone14Title => '2 semaines : symptômes en recul';
 
   @override
   String get ssriMilestone14Description =>
       'La plupart des symptômes physiques aigus d\'arrêt ont fortement diminué ou disparu. Les décharges cérébrales, les nausées et les vertiges s\'estompent. La sensibilité émotionnelle peut rester élevée pendant que le cerveau continue de rééquilibrer ses systèmes sérotoninergiques.';
 
   @override
-  String get ssriMilestone30Title =>
-      'Un mois : stabilisation de l\'humeur et de l\'énergie';
+  String get ssriMilestone30Title => '1 mois : humeur et énergie stables';
 
   @override
   String get ssriMilestone30Description =>
       'Un mois marque une étape importante. La qualité du sommeil s\'améliore, l\'énergie se stabilise et beaucoup constatent que leur humeur trouve un nouvel équilibre. Le cerveau restaure activement sa régulation naturelle de la sérotonine.';
 
   @override
-  String get ssriMilestone90Title =>
-      'Trois mois : La courbe du sevrage s\'infléchit';
+  String get ssriMilestone90Title => '3 mois : tournant du sevrage';
 
   @override
   String get ssriMilestone90Description =>
@@ -3020,39 +2986,35 @@ class AppLocalizationsFr extends AppLocalizations {
       'Découvrez ce qui se passe pendant l\'arrêt progressif';
 
   @override
-  String get snriMilestone3Title => 'Jour 3 : pic du syndrome d\'arrêt intense';
+  String get snriMilestone3Title => 'Jour 3 : Pic du sevrage';
 
   @override
   String get snriMilestone3Description =>
       'Les IRSN — en particulier la venlafaxine (Effexor) — sont associés à certains des syndromes d\'arrêt d\'antidépresseurs les plus sévères. La très courte demi-vie de la venlafaxine (5 heures) peut rendre les symptômes plus intenses qu\'avec la plupart des ISRS. Les symptômes FINISH (état pseudo-grippal, insomnie, nausées, déséquilibre, troubles sensoriels, hyperactivation) touchent simultanément les systèmes de la sérotonine et de la noradrénaline.';
 
   @override
-  String get snriMilestone7Title =>
-      'Une semaine : deux systèmes neurochimiques s\'adaptent';
+  String get snriMilestone7Title => '1 semaine : Double adaptation';
 
   @override
   String get snriMilestone7Description =>
       'Les IRSN agissent sur la recapture de la sérotonine et de la noradrénaline. Les deux systèmes s\'adaptent en même temps. Les symptômes physiques les plus intenses commencent à diminuer, mais ce double mécanisme peut rendre l\'adaptation plus complexe qu\'avec les seuls ISRS.';
 
   @override
-  String get snriMilestone14Title =>
-      'Deux semaines : les symptômes physiques s\'estompent';
+  String get snriMilestone14Title => '2 semaines : Symptômes en recul';
 
   @override
   String get snriMilestone14Description =>
       'La plupart des symptômes physiques aigus d\'arrêt ont nettement diminué. Les décharges cérébrales, les nausées et les vertiges s\'estompent. La réadaptation du système noradrénergique peut encore provoquer de l\'anxiété ou des variations de tension artérielle ; elles disparaissent généralement au cours des semaines suivantes.';
 
   @override
-  String get snriMilestone30Title =>
-      'Un mois : stabilisation du système noradrénergique';
+  String get snriMilestone30Title => '1 mois : Noradrénaline stable';
 
   @override
   String get snriMilestone30Description =>
       'Un mois marque une étape importante. Les systèmes sérotoninergique et noradrénergique se rééquilibrent activement. Le sommeil et l\'énergie se stabilisent. Beaucoup remarquent une gamme émotionnelle plus large à mesure que l\'émoussement émotionnel lié au médicament s\'atténue.';
 
   @override
-  String get snriMilestone90Title =>
-      'Trois mois : la période habituelle de sevrage est derrière vous';
+  String get snriMilestone90Title => '3 mois : Sevrage habituel passé';
 
   @override
   String get snriMilestone90Description =>
@@ -3150,47 +3112,42 @@ class AppLocalizationsFr extends AppLocalizations {
       'L\'arrêt d\'un tricyclique peut provoquer un vrai syndrome de sevrage, l\'hyperactivité cholinergique étant l\'un des mécanismes proposés. Nausées, diarrhée, douleurs abdominales, insomnie, anxiété, agitation et maux de tête peuvent apparaître tôt, surtout après un arrêt brutal ou une diminution rapide. Le jour 3 est une étape ; le moment et l\'intensité des symptômes varient.';
 
   @override
-  String get tcaMilestone7Title => 'Une semaine : Première étape franchie';
+  String get tcaMilestone7Title => '1 semaine : Première étape franchie';
 
   @override
   String get tcaMilestone7Description =>
       'Le sevrage commence généralement en quelques jours et dure souvent plusieurs semaines. Après une semaine, nausées, sueurs, troubles du sommeil, palpitations et vertiges peuvent encore être présents. Sept jours, c\'est un vrai progrès, et la récupération peut continuer selon des rythmes différents.';
 
   @override
-  String get tcaMilestone14Title =>
-      'Deux semaines : le sevrage aigu s’atténue généralement';
+  String get tcaMilestone14Title => '2 semaines : sevrage aigu en recul';
 
   @override
   String get tcaMilestone14Description =>
       'Les symptômes typiques d’arrêt des antidépresseurs, comme nausées, insomnie, troubles de l’équilibre, sensations anormales et hyperactivation, durent généralement une à deux semaines. Au jour 14, beaucoup arrivent à la fin de cette phase aiguë.';
 
   @override
-  String get tcaMilestone30Title =>
-      'Un mois : le sevrage aigu est généralement apaisé';
+  String get tcaMilestone30Title => '1 mois : sevrage aigu apaisé';
 
   @override
   String get tcaMilestone30Description =>
       'Les symptômes typiques d’arrêt des antidépresseurs durent généralement une à deux semaines. À 30 jours, la plupart des personnes ont dépassé cette phase aiguë ; les symptômes pseudo-grippaux, les nausées, les troubles de l’équilibre, l’insomnie, les perturbations sensorielles et l’hyperactivation ont généralement diminué ou disparu.';
 
   @override
-  String get tcaMilestone90Title =>
-      'Trois mois : le sevrage aigu est loin derrière vous';
+  String get tcaMilestone90Title => '3 mois : sevrage aigu loin derrière';
 
   @override
   String get tcaMilestone90Description =>
       'Les symptômes typiques d’arrêt des antidépresseurs durent généralement une à deux semaines. À 90 jours, vous êtes plus de dix semaines au-delà de la fin de cette fenêtre aiguë habituelle ; les symptômes pseudo-grippaux, les nausées, les troubles de l’équilibre, l’insomnie, les perturbations sensorielles et l’hyperactivation ont généralement diminué ou disparu depuis longtemps.';
 
   @override
-  String get tcaMilestone180Title =>
-      'Six mois : la majorité est restée sans rechute';
+  String get tcaMilestone180Title => '6 mois : majorité sans rechute';
 
   @override
   String get tcaMilestone180Description =>
       'Chez des personnes ayant arrêté un antidépresseur après un traitement pour dépression majeure, une méta-analyse de 35 essais a trouvé un taux groupé de rechute de 34,8 % à six mois : environ 65 % sont restées sans rechute. C’est une énorme période de stabilité.';
 
   @override
-  String get tcaMilestone365Title =>
-      'Un an : la majorité est restée sans rechute';
+  String get tcaMilestone365Title => '1 an : majorité sans rechute';
 
   @override
   String get tcaMilestone365Description =>
@@ -3268,40 +3225,35 @@ class AppLocalizationsFr extends AppLocalizations {
       'Découvrez ce qui se passe pendant l\'arrêt progressif';
 
   @override
-  String get maoiMilestone3Title =>
-      'Jour 3 : phase de risque maximal — supervision médicale essentielle';
+  String get maoiMilestone3Title => 'Jour 3 : risque maximal';
 
   @override
   String get maoiMilestone3Description =>
       'Les IMAO présentent les risques d\'arrêt les plus graves parmi les classes d\'antidépresseurs. Un arrêt brutal — surtout de la phénelzine ou de la tranylcypromine — peut provoquer une agitation sévère, de la confusion, des hallucinations, des myoclonies et une hyperthermie. Si vous présentez ces symptômes, consultez immédiatement. Les IMAO agissent en désactivant durablement les enzymes MAO ; la récupération exige que le corps synthétise de nouvelles enzymes, un processus qui prend environ 14 jours.';
 
   @override
-  String get maoiMilestone7Title =>
-      'Une semaine : synthèse des enzymes MAO en cours';
+  String get maoiMilestone7Title => 'Une semaine : synthèse MAO';
 
   @override
   String get maoiMilestone7Description =>
       'Les IMAO détruisent durablement les molécules d\'enzyme MAO ; la récupération nécessite d\'en synthétiser de nouvelles. Après une semaine, environ 50 % de l\'activité MAO normale peut avoir été récupérée. Les symptômes aigus sévères d\'arrêt (délirium, myoclonies, hyperthermie) sont fortement réduits. Une surveillance médicale étroite reste importante.';
 
   @override
-  String get maoiMilestone14Title =>
-      'Deux semaines : activité des enzymes MAO largement rétablie';
+  String get maoiMilestone14Title => '2 semaines : activité MAO rétablie';
 
   @override
   String get maoiMilestone14Description =>
       'Deux semaines correspondent au délai clinique habituel de récupération des enzymes MAO après l\'arrêt. Vers le 14e jour, l\'activité des MAO-A et MAO-B est en grande partie rétablie et le métabolisme normal de la tyramine reprend. Les restrictions alimentaires nécessaires pendant le traitement par IMAO peuvent généralement être assouplies en concertation avec votre prescripteur.';
 
   @override
-  String get maoiMilestone30Title =>
-      'Un mois : rééquilibrage des systèmes neurochimiques';
+  String get maoiMilestone30Title => 'Un mois : équilibre neurochimique';
 
   @override
   String get maoiMilestone30Description =>
       'Un mois après l\'arrêt d\'un IMAO, l\'enzyme MAO est de nouveau active et le cerveau gère naturellement la sérotonine, la noradrénaline, la dopamine et la tyramine. La période particulière d\'interactions alimentaires et médicamenteuses est terminée, même s\'il faut toujours informer les prescripteurs de votre usage antérieur d\'IMAO.';
 
   @override
-  String get maoiMilestone90Title =>
-      'Trois mois : normalisation de la chimie cérébrale';
+  String get maoiMilestone90Title => '3 mois : chimie cérébrale stable';
 
   @override
   String get maoiMilestone90Description =>
@@ -3431,7 +3383,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get alcoholReferenceDay3 =>
-      'Jour trois : La fenêtre du pic de sevrage\n\nSource : \"Alcohol Withdrawal\", StatPearls — publication évaluée par les pairs, NIH National Library of Medicine\n\nVers 72 heures\nLes symptômes du sevrage alcoolique peuvent commencer en quelques heures et culminent souvent vers 72 heures. StatPearls cite les tremblements, l\'insomnie, l\'agitation, les sueurs, l\'hypertension, l\'accélération du rythme cardiaque et les convulsions parmi les signes de cet état d\'hyperexcitabilité.\n\nTrois jours solides\nAtteindre 72 heures est une étape énorme, car ce moment se situe en plein dans la fenêtre de pic documentée pour de nombreux symptômes aigus.\n\nLe sevrage sévère peut survenir plus tard\nLe délire de sevrage alcoolique (delirium tremens) peut survenir 3 à 8 jours après l\'arrêt et peut être fatal. Un sevrage sévère est une urgence médicale. Les personnes qui boivent beaucoup chaque jour, ainsi que celles ayant déjà eu des convulsions ou un délire de sevrage, doivent demander un avis médical plutôt que d\'arrêter brutalement sans soutien.';
+      'Jour trois : La fenêtre du pic de sevrage\n\nSource : \"Alcohol Withdrawal\", StatPearls — publication évaluée par les pairs, NIH National Library of Medicine\n\nVers 72 heures\nLes symptômes du sevrage alcoolique peuvent commencer en quelques heures et culminent souvent vers 72 heures. StatPearls cite les tremblements, l\'insomnie, l\'agitation, les sueurs, l\'hypertension, l\'accélération du rythme cardiaque et les convulsions parmi les signes de cet état d\'hyperexcitabilité.\n\nTrois jours solides\nAtteindre 72 heures est une étape énorme, car ce moment se situe en plein dans la fenêtre de pic documentée pour de nombreux symptômes aigus.\n\nLe sevrage sévère peut survenir plus tard\nLe délire de sevrage alcoolique (delirium tremens) peut survenir 3 à 8 jours après l\'arrêt et peut être fatal. Un sevrage sévère est une urgence médicale. Les personnes qui boivent beaucoup chaque jour, ainsi que celles ayant déjà eu des convulsions ou un délire de sevrage, doivent demander un avis médical plutôt que d\'arrêter brutalement sans soutien.\n\nSignes à surveiller\nUne fièvre, une agitation intense, des sueurs abondantes, des hallucinations, une désorientation, des convulsions, un rythme cardiaque très rapide ou une tension artérielle très élevée nécessitent une prise en charge médicale urgente.';
 
   @override
   String get alcoholReferenceDay7 =>
@@ -3475,7 +3427,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get benzodiazepineReferenceDay90 =>
-      'Trois mois après les benzodiazépines : pensée plus rapide, moins de sédation\n\nSource : Rickels et al., \"Psychomotor performance of long-term benzodiazepine users before, during, and after benzodiazepine discontinuation,\" Journal of Clinical Psychopharmacology (1999), on PubMed\n\nUn signal de récupération mesuré à 12 semaines\nLes chercheurs ont testé des utilisateurs de benzodiazépines au long cours avant le sevrage, puis 5 et 12 semaines après. Soixante-dix-sept personnes disposaient de données à 12 semaines, et l’absence de benzodiazépines chez ceux ayant réussi le sevrage était confirmée par des analyses sanguines hebdomadaires.\n\nDes performances cognitives plus rapides\nLes personnes ayant réussi à arrêter les benzodiazépines réalisaient plus vite les tâches de copie de symboles et de substitution chiffre-symbole que les participants qui continuaient à en prendre. La différence restait significative après prise en compte de l’âge, du niveau d’études et des scores initiaux.\n\nMoins de sédation mentale et physique\nLes personnes ayant réussi le sevrage signalaient aussi moins de sédation mentale et physique que celles qui continuaient les benzodiazépines.\n\nÀ quoi peuvent ressembler trois mois\nChez les personnes ayant réussi le sevrage dans cette étude, 12 semaines après la diminution progressive, la vitesse de traitement s’était améliorée de façon mesurable et la sédation mentale et physique avait diminué. La pensée allait plus vite et la sensation d’être sédaté s’atténuait.';
+      'Trois mois après les benzodiazépines : pensée plus rapide, moins de sédation\n\nSource : Rickels et al., \"Psychomotor performance of long-term benzodiazepine users before, during, and after benzodiazepine discontinuation,\" Journal of Clinical Psychopharmacology (1999), sur PubMed\n\nUn signal de récupération mesuré à 12 semaines\nLes chercheurs ont testé des utilisateurs de benzodiazépines au long cours avant le sevrage, puis 5 et 12 semaines après. Soixante-dix-sept personnes disposaient de données à 12 semaines, et l’absence de benzodiazépines chez ceux ayant réussi le sevrage était confirmée par des analyses sanguines hebdomadaires.\n\nDes performances cognitives plus rapides\nLes personnes ayant réussi à arrêter les benzodiazépines réalisaient plus vite les tâches de copie de symboles et de substitution chiffre-symbole que les participants qui continuaient à en prendre. La différence restait significative après prise en compte de l’âge, du niveau d’études et des scores initiaux.\n\nMoins de sédation mentale et physique\nLes personnes ayant réussi le sevrage signalaient aussi moins de sédation mentale et physique que celles qui continuaient les benzodiazépines.\n\nÀ quoi peuvent ressembler trois mois\nChez les personnes ayant réussi le sevrage dans cette étude, 12 semaines après la diminution progressive, la vitesse de traitement s’était améliorée de façon mesurable et la sédation mentale et physique avait diminué. La pensée allait plus vite et la sensation d’être sédaté s’atténuait.';
 
   @override
   String get benzodiazepineReferenceDay180 =>
@@ -3755,7 +3707,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get marijuanaReferenceDay180 =>
-      'Six mois sans cannabis : récupération de la planification et de la prise de décision\n\nSource : Crean, Crane & Mason (2011), Journal of Addiction Medicine\n\nPlanification et prise de décision après le cannabis\nCette revue a étudié attention, prise de décision, contrôle de soi, mémoire de travail et fluidité verbale depuis les premières heures suivant l\'usage jusqu\'à l\'abstinence à long terme. À six mois, vous êtes très au-delà des effets à court terme et profondément engagé dans la récupération.\n\nCe que la recherche a trouvé\nPlusieurs difficultés liées à un usage important diminuent avec une abstinence durable, certaines études observant une récupération dès 28 jours. Les domaines les plus lents à récupérer après un usage important commencé tôt comprennent :\n• Prise de décision et prise de risque — domaines où des déficits peuvent persister plus longtemps chez les personnes ayant une consommation importante chroniques\n• Raisonnement abstrait et compétences verbales — particulièrement altérés chez les adultes ayant commencé avant 17 ans\n\nRécupération après un début précoce\nSix mois sont très au-delà des effets à court terme décrits dans cette revue. Planification, prise de décision et raisonnement continuent de s\'améliorer avec l\'abstinence, qui reste la voie la plus solide vers davantage de récupération.\n\nVue d\'ensemble\nPour un usage plus léger commencé à l\'âge adulte, les perspectives sont plus favorables — beaucoup rapportent à six mois une pensée plus claire, des décisions plus stables et un plus grand sentiment d\'autonomie. Les plus grands gains viennent de la poursuite de l\'abstinence, surtout après un usage important ou commencé tôt.';
+      'Six mois sans cannabis : récupération de la planification et de la prise de décision\n\nSource : Crean, Crane & Mason (2011), Journal of Addiction Medicine\n\nPlanification et prise de décision après le cannabis\nCette revue a étudié attention, prise de décision, contrôle de soi, mémoire de travail et fluidité verbale depuis les premières heures suivant l\'usage jusqu\'à l\'abstinence à long terme. À six mois, vous êtes très au-delà des effets à court terme et profondément engagé dans la récupération.\n\nCe que la recherche a trouvé\nPlusieurs difficultés liées à un usage important diminuent avec une abstinence durable, certaines études observant une récupération dès 28 jours. Les domaines les plus lents à récupérer après un usage important commencé tôt comprennent :\n• Prise de décision et prise de risque — domaines où des déficits peuvent persister plus longtemps chez les personnes ayant une consommation importante et chronique\n• Raisonnement abstrait et compétences verbales — particulièrement altérés chez les adultes ayant commencé avant 17 ans\n\nRécupération après un début précoce\nSix mois sont très au-delà des effets à court terme décrits dans cette revue. Planification, prise de décision et raisonnement continuent de s\'améliorer avec l\'abstinence, qui reste la voie la plus solide vers davantage de récupération.\n\nVue d\'ensemble\nPour un usage plus léger commencé à l\'âge adulte, les perspectives sont plus favorables — beaucoup rapportent à six mois une pensée plus claire, des décisions plus stables et un plus grand sentiment d\'autonomie. Les plus grands gains viennent de la poursuite de l\'abstinence, surtout après un usage important ou commencé tôt.';
 
   @override
   String get marijuanaReferenceDay365 =>
@@ -4172,11 +4124,11 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get tcaReferenceDay180 =>
-      'Six mois après l’arrêt des antidépresseurs : la majorité est restée sans rechute\n\nPoint de repère à six mois\nUne méta-analyse de 2024 a regroupé 35 essais randomisés d’arrêt d’antidépresseurs chez des personnes traitées pour dépression majeure. Le taux groupé de rechute après l’arrêt était de 34,81 % à six mois, soit environ 65 % de personnes encore sans rechute à ce stade.\n\nUn vrai résultat à long terme\nLa même analyse a trouvé un taux de rechute de 45,12 % à 12 mois. Six mois constituent donc un repère important de stabilité : la majorité des participants des essais regroupés n’avaient pas rechuté à ce moment-là.\n\nProtège tes progrès\nSi les symptômes dépressifs commencent à revenir, contacte rapidement ton professionnel de santé. Atteindre six mois représente une grande période de stabilité qui mérite d’être protégée.';
+      'Six mois après l’arrêt des antidépresseurs : la majorité est restée sans rechute\n\nPoint de repère à six mois\nUne méta-analyse de 2024 a regroupé 35 essais randomisés d’arrêt d’antidépresseurs chez des personnes traitées pour dépression majeure. Le taux groupé de rechute après l’arrêt était de 34,81 % à six mois, soit environ 65 % de personnes encore sans rechute à ce stade.\n\nUn vrai résultat à long terme\nLa même analyse a trouvé un taux de rechute de 45,12 % à 12 mois. Six mois constituent donc un repère important de stabilité : la majorité des participants des essais regroupés n’avaient pas rechuté à ce moment-là.\n\nProtégez vos progrès\nSi les symptômes dépressifs commencent à revenir, contactez rapidement votre professionnel de santé. Atteindre six mois représente une grande période de stabilité qui mérite d’être protégée.';
 
   @override
   String get tcaReferenceDay365 =>
-      'Un an après l’arrêt d’un antidépresseur : la majorité est restée sans rechute\n\nCap des douze mois\nUne méta-analyse de 2024 a regroupé 35 essais randomisés d’arrêt d’antidépresseurs chez des personnes traitées pour un trouble dépressif majeur. Le taux groupé de rechute après l’arrêt était de 45,12 % à 12 mois, soit environ 55 % encore sans rechute au cap d’un an.\n\nUne année entière de stabilité\nLa même analyse a trouvé un taux de rechute de 34,81 % à six mois. À 12 mois, la majorité des participants des essais regroupés n’avaient toujours pas rechuté. Une année entière sans rechute est un grand jalon de stabilité à long terme.\n\nProtège tes progrès\nSi des symptômes dépressifs commencent à revenir, contacte rapidement ton professionnel de santé. Atteindre une année entière est un accomplissement important qui mérite d’être protégé.';
+      'Un an après l’arrêt d’un antidépresseur : la majorité est restée sans rechute\n\nCap des douze mois\nUne méta-analyse de 2024 a regroupé 35 essais randomisés d’arrêt d’antidépresseurs chez des personnes traitées pour un trouble dépressif majeur. Le taux groupé de rechute après l’arrêt était de 45,12 % à 12 mois, soit environ 55 % encore sans rechute au cap d’un an.\n\nUne année entière de stabilité\nLa même analyse a trouvé un taux de rechute de 34,81 % à six mois. À 12 mois, la majorité des participants des essais regroupés n’avaient toujours pas rechuté. Une année entière sans rechute est un grand jalon de stabilité à long terme.\n\nProtégez vos progrès\nSi des symptômes dépressifs commencent à revenir, contactez rapidement votre professionnel de santé. Atteindre une année entière est un accomplissement important qui mérite d’être protégé.';
 
   @override
   String get settingsLocaleArabic => 'Arabe';
@@ -4237,18 +4189,18 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get vapingMilestone1460Description =>
-      'Quatre ans sans vape. Cela fait 1 460 jours sans renforcer l’habitude de vapoter. La science ne fixe toujours pas d’horloge universelle de récupération à long terme, mais ce changement durable est réel et mérite d’être célébré.';
+      'Quatre ans sans vape. Cela fait 1 460 jours sans renforcer l’habitude de vapoter. La science ne fixe toujours pas de calendrier universel de récupération à long terme, mais ce changement durable est réel et mérite d’être célébré.';
 
   @override
-  String get vapingMilestone1825Title => 'Cinq ans : un demi-décennie';
+  String get vapingMilestone1825Title => 'Cinq ans : un cap majeur';
 
   @override
   String get vapingMilestone1825Description =>
-      'Cinq ans sans vape. Une demi-décennie sans reprendre le vapotage est une réussite majeure à long terme. Les données des CDC n’en font pas un point final médical ; le jalon, c’est le changement durable que tu as construit.';
+      'Cinq ans sans vape. Cinq ans sans reprendre le vapotage constituent une réussite majeure à long terme. Les données des CDC ne font pas de cinq ans un seuil médical de récupération ; le jalon, c’est le changement durable que tu as construit.';
 
   @override
   String get vapingLongTermReference =>
-      'Vapotage, arrêt et données à long terme\n\nSource : CDC — Vaping and Quitting ; CDC — Health Effects of Vaping\n\nLes CDC indiquent que le vapotage peut entraîner une dépendance à la nicotine, que l’arrêt peut provoquer des symptômes de sevrage et que les meilleures façons d’aider à arrêter le vapotage sont encore étudiées. Ils précisent aussi que les effets à long terme des cigarettes électroniques sur la santé restent à l’étude.\n\nCes sources ne définissent pas de seuil biologique de récupération à deux, trois, quatre ou cinq ans. Quitter traite donc ces dates comme des anniversaires de progrès durable sans vape, pas comme des points finaux médicaux.';
+      'Vapotage, arrêt et données à long terme\n\nSource : CDC — Vaping and Quitting ; CDC — Health Effects of Vaping\n\nLes CDC indiquent que le vapotage peut entraîner une dépendance à la nicotine, que l’arrêt peut provoquer des symptômes de sevrage et que les meilleures façons d’aider à arrêter le vapotage sont encore étudiées. Ils précisent aussi que les effets à long terme des cigarettes électroniques sur la santé restent à l’étude.\n\nCes sources ne définissent pas de seuil biologique de récupération à deux, trois, quatre ou cinq ans. Quitter traite donc ces dates comme des anniversaires de progrès durable sans vape, et non comme des seuils médicaux de récupération.';
 
   @override
   String get vapingWithdrawalReference =>

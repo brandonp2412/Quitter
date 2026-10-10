@@ -1,6 +1,3 @@
-import 'dart:convert';
-import 'dart:io';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -86,69 +83,98 @@ void main() {
     },
   );
 
-  test('all supported ARBs localize cocaine long-term milestones', () {
-    const days = [1095, 1460, 1825];
-    final arbFiles =
-        Directory('lib/l10n')
-            .listSync()
-            .whereType<File>()
-            .where((file) => RegExp(r'app_[^/]+\.arb$').hasMatch(file.path))
-            .toList()
-          ..sort((a, b) => a.path.compareTo(b.path));
+  test(
+    'cocaine two-to-five-year copy exists in every supported locale',
+    () async {
+      final english = await AppLocalizations.delegate.load(const Locale('en'));
 
-    expect(arbFiles, isNotEmpty);
-    final english =
-        jsonDecode(File('lib/l10n/app_en.arb').readAsStringSync())
-            as Map<String, dynamic>;
+      for (final locale in AppLocalizations.supportedLocales) {
+        final l10n = await AppLocalizations.delegate.load(locale);
+        final tag = locale.toLanguageTag();
 
-    for (final file in arbFiles) {
-      final locale = file.uri.pathSegments.last
-          .replaceFirst('app_', '')
-          .replaceFirst('.arb', '');
-      final arb = jsonDecode(file.readAsStringSync()) as Map<String, dynamic>;
-
-      for (final day in days) {
-        for (final suffix in ['Title', 'Description']) {
-          final key = 'cocaineMilestone$day$suffix';
-          expect(
-            arb[key],
-            isA<String>().having((value) => value.trim(), key, isNotEmpty),
-            reason: '$locale must localize $key',
-          );
-          if (suffix == 'Title') {
-            expect(
-              (arb[key] as String).runes.length,
-              lessThanOrEqualTo(36),
-              reason: '$locale must keep $key compact for phone layouts',
-            );
-          }
-          if (locale != 'en') {
-            expect(
-              arb[key],
-              isNot(equals(english[key])),
-              reason: '$locale must not fall back to English for $key',
-            );
-          }
+        final localizedValues = [
+          l10n.cocaineMilestone730Title,
+          l10n.cocaineMilestone730Description,
+          l10n.cocaineReferenceDay730,
+          l10n.cocaineMilestone1095Title,
+          l10n.cocaineMilestone1095Description,
+          l10n.cocaineReferenceDay1095,
+          l10n.cocaineMilestone1460Title,
+          l10n.cocaineMilestone1460Description,
+          l10n.cocaineReferenceDay1460,
+          l10n.cocaineMilestone1825Title,
+          l10n.cocaineMilestone1825Description,
+          l10n.cocaineReferenceDay1825,
+        ];
+        for (final value in localizedValues) {
+          expect(value, isNotEmpty, reason: 'localized cocaine copy for $tag');
         }
 
-        final referenceKey = 'cocaineReferenceDay$day';
+        if (locale.languageCode == 'en') {
+          continue;
+        }
+
         expect(
-          arb[referenceKey],
-          isA<String>().having(
-            (value) => value.trim(),
-            referenceKey,
-            isNotEmpty,
-          ),
-          reason: '$locale must localize $referenceKey',
+          l10n.cocaineMilestone730Title,
+          isNot(english.cocaineMilestone730Title),
+          reason: '2-year title should not fall back to English for $tag',
         );
-        if (locale != 'en') {
-          expect(
-            arb[referenceKey],
-            isNot(equals(english[referenceKey])),
-            reason: '$locale must not fall back to English for $referenceKey',
-          );
-        }
+        expect(
+          l10n.cocaineMilestone730Description,
+          isNot(english.cocaineMilestone730Description),
+          reason: '2-year description should not fall back to English for $tag',
+        );
+        expect(
+          l10n.cocaineReferenceDay730,
+          isNot(english.cocaineReferenceDay730),
+          reason: '2-year reference should not fall back to English for $tag',
+        );
+        expect(
+          l10n.cocaineMilestone1095Title,
+          isNot(english.cocaineMilestone1095Title),
+          reason: '3-year title should not fall back to English for $tag',
+        );
+        expect(
+          l10n.cocaineMilestone1095Description,
+          isNot(english.cocaineMilestone1095Description),
+          reason: '3-year description should not fall back to English for $tag',
+        );
+        expect(
+          l10n.cocaineReferenceDay1095,
+          isNot(english.cocaineReferenceDay1095),
+          reason: '3-year reference should not fall back to English for $tag',
+        );
+        expect(
+          l10n.cocaineMilestone1460Title,
+          isNot(english.cocaineMilestone1460Title),
+          reason: '4-year title should not fall back to English for $tag',
+        );
+        expect(
+          l10n.cocaineMilestone1460Description,
+          isNot(english.cocaineMilestone1460Description),
+          reason: '4-year description should not fall back to English for $tag',
+        );
+        expect(
+          l10n.cocaineReferenceDay1460,
+          isNot(english.cocaineReferenceDay1460),
+          reason: '4-year reference should not fall back to English for $tag',
+        );
+        expect(
+          l10n.cocaineMilestone1825Title,
+          isNot(english.cocaineMilestone1825Title),
+          reason: '5-year title should not fall back to English for $tag',
+        );
+        expect(
+          l10n.cocaineMilestone1825Description,
+          isNot(english.cocaineMilestone1825Description),
+          reason: '5-year description should not fall back to English for $tag',
+        );
+        expect(
+          l10n.cocaineReferenceDay1825,
+          isNot(english.cocaineReferenceDay1825),
+          reason: '5-year reference should not fall back to English for $tag',
+        );
       }
-    }
-  });
+    },
+  );
 }

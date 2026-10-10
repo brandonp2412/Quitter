@@ -2203,7 +2203,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get marijuanaMilestone3Description =>
-      '您正处于最艰难的时刻，但从现在开始都是上坡路！第2-6天通常会出现戒断症状的高峰，包括头痛、出汗和情绪变化。您的身体正在努力重新平衡自己。';
+      '您正处在最艰难的阶段之一，但从这里开始通常会逐渐好转。第2至第6天，头痛、出汗和情绪变化等戒断症状往往达到高峰。您的身体正在努力重新找回平衡。';
 
   @override
   String get marijuanaMilestone7Title => '睡眠模式改善';
@@ -2506,14 +2506,14 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get nicotinePouchesMilestone1460Description =>
-      '四年不用尼古丁袋，体现了真正的坚持。没有证据证明四年时会发生某个医学上的“开关”，但有一个非常真实的成就：四年没有回到使用尼古丁袋的习惯。';
+      '四年不用尼古丁袋，体现了真正的坚持。没有证据表明停用满四年时会发生某个特定的医学变化，但有一个非常真实的成就：四年没有回到使用尼古丁袋的习惯。';
 
   @override
   String get nicotinePouchesReferenceDay1460 =>
-      '四年：改变经得住时间\n\n来源：Rungraungrayabkul 等（2024），尼古丁袋与口腔健康系统综述\n\n综述认为，关于短期和长期口腔健康影响的证据仍然有限，还需要更多研究。它并不支持所有人在停用四年时都会出现某种特定恢复事件。\n\n四年不用尼古丁袋，就是持续改变的重要里程碑，不需要没有依据的医学承诺来证明它的价值。';
+      '四年：改变经得住时间\n\n来源：Rungraungrayabkul 等（2024），尼古丁袋与口腔健康系统综述\n\n综述认为，关于短期和长期口腔健康影响的证据仍然有限，还需要更多研究。它并不支持所有人在停用满四年时都会出现某个统一的恢复节点。\n\n四年不用尼古丁袋，就是持续改变的重要里程碑，不需要没有依据的医学承诺来证明它的价值。';
 
   @override
-  String get nicotinePouchesMilestone1825Title => '五年：五年大胜利';
+  String get nicotinePouchesMilestone1825Title => '五年：了不起的成就';
 
   @override
   String get nicotinePouchesMilestone1825Description =>
@@ -2521,7 +2521,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get nicotinePouchesReferenceDay1825 =>
-      '五年：五年大胜利\n\n来源：美国疾控中心（CDC）— 尼古丁袋\n\nCDC指出，尼古丁袋是相对较新的产品，其长期健康影响仍在研究中。现有证据没有确定停用五年时会发生特定的恢复事件。\n\n五年不用尼古丁袋本身就是巨大的成就：五年持续不断的改变。';
+      '五年：了不起的成就\n\n来源：美国疾控中心（CDC）— 尼古丁袋\n\nCDC指出，尼古丁袋是相对较新的产品，其长期健康影响仍在研究中。现有证据没有表明停用满五年时会出现某个特定的恢复节点。\n\n五年不用尼古丁袋本身就是巨大的成就：五年持续不断的改变。';
 
   @override
   String get pornographyMilestone1Title => '重新掌握控制权';
@@ -3185,7 +3185,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get alcoholReferenceDay3 =>
-      '第3天：戒断高峰窗口\n\n来源：《Alcohol Withdrawal》，StatPearls——同行评审，NIH国家医学图书馆\n\n约72小时\n酒精戒断症状可在停酒后数小时内出现，并常在约72小时达到高峰。StatPearls列出的高兴奋状态表现包括震颤、失眠、躁动、出汗、高血压、心率加快和癫痫发作。\n\n三天很强\n达到72小时是一个巨大的里程碑，因为这正处在许多急性症状有记录的高峰窗口。\n\n严重戒断可能更晚出现\n酒精戒断性谵妄（delirium tremens）可在停酒后3–8天发生，并可能致命。严重戒断属于医疗急症。每天大量饮酒的人，以及有戒断癫痫或谵妄史的人，应寻求医疗建议，不要在缺乏支持的情况下突然停酒。';
+      '第3天：戒断高峰窗口\n\n来源：《Alcohol Withdrawal》，StatPearls——同行评审，NIH国家医学图书馆\n\n约72小时\n酒精戒断症状可在停酒后数小时内出现，并常在约72小时达到高峰。StatPearls列出的高兴奋状态表现包括震颤、失眠、躁动、出汗、高血压、心率加快和癫痫发作。\n\n三天很强\n达到72小时是一个巨大的里程碑，因为这正处在许多急性症状有记录的高峰窗口。\n\n严重戒断可能更晚出现\n酒精戒断性谵妄（delirium tremens）可在停酒后3–8天发生，并可能致命。严重戒断属于医疗急症。每天大量饮酒的人，以及有戒断癫痫或谵妄史的人，应寻求医疗建议，不要在缺乏支持的情况下突然停酒。\n\n需要警惕什么？\n发热、严重躁动、大量出汗、幻觉、定向障碍、癫痫发作、心率非常快或血压非常高，都需要立即就医。';
 
   @override
   String get alcoholReferenceDay7 =>
@@ -3229,7 +3229,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get benzodiazepineReferenceDay90 =>
-      '停用苯二氮䓬类药物三个月：思维更快，镇静感更轻\n\n来源：Rickels et al., \"Psychomotor performance of long-term benzodiazepine users before, during, and after benzodiazepine discontinuation,\" Journal of Clinical Psychopharmacology (1999), on PubMed\n\n12周时可测量的恢复信号\n研究人员在逐步减量前，以及减量后5周和12周，对长期使用苯二氮䓬类药物的人进行了测试。共有77人有12周数据；成功停药者通过每周血液检测确认未再使用苯二氮䓬类药物。\n\n认知任务完成得更快\n成功停用苯二氮䓬类药物的人，在符号抄写和数字-符号替换任务上的完成速度快于仍在用药的参与者。即使考虑年龄、教育程度和基线成绩，这一差异仍有统计学意义。\n\n精神和身体镇静感更轻\n成功停药者还报告，比仍在使用苯二氮䓬类药物的人有更少的精神和身体镇静感。\n\n三个月可能是什么样\n在这项研究中，成功停药者在逐步减量12周后，处理速度出现可测量的改善，精神和身体镇静感也减轻了。思维更快，昏沉的感觉也更淡。';
+      '停用苯二氮䓬类药物三个月：思维更快，镇静感更轻\n\n来源：Rickels et al., \"Psychomotor performance of long-term benzodiazepine users before, during, and after benzodiazepine discontinuation,\" Journal of Clinical Psychopharmacology (1999)，PubMed\n\n12周时可测量的恢复信号\n研究人员在逐步减量前，以及减量后5周和12周，对长期使用苯二氮䓬类药物的人进行了测试。共有77人有12周数据；成功停药者通过每周血液检测确认未再使用苯二氮䓬类药物。\n\n认知任务完成得更快\n成功停用苯二氮䓬类药物的人，在符号抄写和数字-符号替换任务上的完成速度快于仍在用药的参与者。即使考虑年龄、教育程度和基线成绩，这一差异仍有统计学意义。\n\n精神和身体镇静感更轻\n成功停药者还报告，比仍在使用苯二氮䓬类药物的人有更少的精神和身体镇静感。\n\n三个月可能是什么样\n在这项研究中，成功停药者在逐步减量12周后，处理速度出现可测量的改善，精神和身体镇静感也减轻了。思维更快，昏沉的感觉也更淡。';
 
   @override
   String get benzodiazepineReferenceDay180 =>
@@ -3497,7 +3497,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get marijuanaReferenceDay30 =>
-      '停用大麻一个月：记忆功能改善\n\n来源：Pope et al.（2001），Archives of General Psychiatry\n\n大麻与记忆：问题所在\n这项研究对大量、长期的大麻使用者进行了28天经确认的戒断随访，并将他们的思维和记忆测试结果与轻度使用者和非使用者进行了比较。在戒断开始时，以及第1天和第7天再次测试时，大量使用的人在单词表回忆上的表现差于对照组——这一缺陷与他们的尿中THC代谢物水平相关，反映的是近期药物暴露而非终身使用量。\n\n好消息：到第28天恢复\n到第28天时，大量使用的人、轻度使用者和非使用者在研究的思维和记忆测试中表现几乎相同。此时，终身大麻使用总量与测试表现之间也没有显著关系。\n\n这在30天时意味着什么\n• 言语学习和回忆已恢复到对照组水平\n• 第一周所见的残余缺陷已经消退\n• 早先剩余的缺陷与近期暴露有关，而非永久性损伤\n\n证据表明了\n到第28天，大量使用的人在研究的整套思维和记忆测试中几乎与轻度使用者和非使用者无法区分。第一周所见的言语学习和回忆缺陷已恢复到对照组水平。';
+      '停用大麻一个月：记忆功能改善\n\n来源：Pope et al.（2001），Archives of General Psychiatry\n\n大麻与记忆：问题所在\n这项研究对大量、长期的大麻使用者进行了28天经确认的戒断随访，并将他们的思维和记忆测试结果与轻度使用者和非使用者进行了比较。在戒断开始时，以及第1天和第7天再次测试时，大量使用的人在单词表回忆上的表现差于对照组——这一缺陷与他们的尿中THC代谢物水平相关，反映的是近期药物暴露而非终身使用量。\n\n好消息：到第28天恢复\n到第28天时，大量使用的人、轻度使用者和非使用者在研究的思维和记忆测试中表现几乎相同。此时，终身大麻使用总量与测试表现之间也没有显著关系。\n\n这在30天时意味着什么\n• 言语学习和回忆已恢复到对照组水平\n• 第一周所见的残余缺陷已经消退\n• 早先剩余的缺陷与近期暴露有关，而非永久性损伤\n\n证据表明\n到第28天，大量使用的人在研究的整套思维和记忆测试中几乎与轻度使用者和非使用者无法区分。第一周所见的言语学习和回忆缺陷已恢复到对照组水平。';
 
   @override
   String get marijuanaReferenceDay60 =>
@@ -3545,7 +3545,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get methReferenceDay1 =>
-      '甲基苯丙胺戒断：最初24小时\n\n来源：McGregor et al.，《The nature, time course and severity of methamphetamine withdrawal》，Addiction（2005），见PubMed\n\n崩溃期\n甲基苯丙胺促使多巴胺大量释放；当使用停止时，系统被留在了耗竭状态。这项研究在戒断的最初三周里逐日追踪了戒断症状，发现总体严重程度在最后一次使用后的24小时内达到最高——即“崩溃”，一种从极度兴奋到身心俱疲的骤然转变。\n\n第一天的症状\n该研究记载了此刻最强烈的戒断特征：\n• 极度疲劳和睡眠增加（睡眠过多）\n• 食欲增加（甲基苯丙胺会强烈抑制食欲）\n• 情绪低落和失去快感\n• 强烈的渴求\n• 焦虑和易怒\n\n身体安全\n甲基苯丙胺戒断综合征本身通常不危及生命，但该研究测量到的与抑郁相关的症状在早期可能很严重，并可能包含自杀意念。强烈建议进行医疗监督，尤其是对大量使用的人。\n\n它开始缓解\n这项研究令人鼓舞的发现是：严重程度在一开始最高，然后下降。从这个24小时的高峰开始，症状在接下来的几天里稳步下降——最糟的时刻就是开始。';
+      '甲基苯丙胺戒断：最初24小时\n\n来源：McGregor et al.，《The nature, time course and severity of methamphetamine withdrawal》，Addiction（2005），见PubMed\n\n崩溃期\n甲基苯丙胺促使多巴胺大量释放；当使用停止时，系统被留在了耗竭状态。这项研究在戒断的最初三周里逐日追踪了戒断症状，发现总体严重程度在最后一次使用后的24小时内达到最高——即“崩溃”，一种从极度兴奋到身心俱疲的骤然转变。\n\n第一天的症状\n该研究记载了此刻最强烈的戒断特征：\n• 极度疲劳和睡眠增加（睡眠过多）\n• 食欲增加（甲基苯丙胺会强烈抑制食欲）\n• 情绪低落和失去快感\n• 强烈的渴求\n• 焦虑和易怒\n\n身体安全\n甲基苯丙胺戒断综合征本身通常不危及生命，但该研究测量到的与抑郁相关的症状在早期可能很严重，并可能包含自杀意念。强烈建议进行医疗监督，尤其是对大量使用的人。\n\n开始缓解\n这项研究令人鼓舞的发现是：严重程度在一开始最高，然后下降。从这个24小时的高峰开始，症状在接下来的几天里稳步下降——最糟的时刻就是开始。';
 
   @override
   String get methReferenceDay3 =>
@@ -3573,7 +3573,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get methReferenceDay420 =>
-      '停用甲基苯丙胺14个月：多巴胺标志物反弹\n\n来源：Volkow et al.，《Loss of Dopamine Transporters in Methamphetamine Abusers Recovers with Protracted Abstinence》，Journal of Neuroscience（2001）\n\n头条发现\n这项具有里程碑意义的脑扫描研究在戒断早期以及大约12–17个月后再次对甲基苯丙胺使用者进行了检查。在大脑奖赏和运动区域回收多巴胺的蛋白质上升了约16%到19%，并达到了与健康对照不再有显著差异的水平。戒断时间越长，恢复越大。\n\n为什么DAT很重要\n这些蛋白质在多巴胺释放后将其回收。甲基苯丙胺会耗竭它们，使多巴胺系统调节不良。它们在约14个月时反弹，是愈合的一个真实、可测量的迹象。\n\n恢复信号\n在12–17个月后，奖赏和运动区域中回收多巴胺的蛋白质上升了约16%到19%，并达到了健康对照水平。多巴胺系统已可测量地向正常反弹，而思维、记忆和运动也在继续改善。\n\n这在14个月时意味着什么\n多巴胺系统的“硬件”正在可测量地向正常恢复——这是乐观的真正理由。但完全的功能恢复（记忆、动力、精细运动控制）可能滞后于影像，并会随着持续的戒断继续改善。';
+      '停用甲基苯丙胺14个月：多巴胺标志物反弹\n\n来源：Volkow et al.，《Loss of Dopamine Transporters in Methamphetamine Abusers Recovers with Protracted Abstinence》，Journal of Neuroscience（2001）\n\n主要发现\n这项具有里程碑意义的脑扫描研究在戒断早期以及大约12–17个月后再次对甲基苯丙胺使用者进行了检查。在大脑奖赏和运动区域回收多巴胺的蛋白质上升了约16%到19%，并达到了与健康对照不再有显著差异的水平。戒断时间越长，恢复越大。\n\n为什么DAT很重要\n这些蛋白质在多巴胺释放后将其回收。甲基苯丙胺会耗竭它们，使多巴胺系统调节不良。它们在约14个月时反弹，是愈合的一个真实、可测量的迹象。\n\n恢复信号\n在12–17个月后，奖赏和运动区域中回收多巴胺的蛋白质上升了约16%到19%，并达到了健康对照水平。多巴胺系统已可测量地向正常反弹，而思维、记忆和运动也在继续改善。\n\n这在14个月时意味着什么\n多巴胺系统的“硬件”正在可测量地向正常恢复——这是乐观的真正理由。但完全的功能恢复（记忆、动力、精细运动控制）可能滞后于影像，并会随着持续的戒断继续改善。';
 
   @override
   String get methReferenceDay730 =>
@@ -3674,7 +3674,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get opioidReferenceDay730 =>
-      '停用阿片类药物两年：一个稳定的基础\n\n来源：《Treatment of Opioid Use Disorder》，美国疾病控制与预防中心（CDC）\n\n一种慢性疾病，管理得当\nCDC将阿片类药物使用障碍描述为“一种可能影响任何人的慢性疾病”——“一种医学状况，而非道德缺陷”。达到两年的持续恢复，意味着你已经在其最脆弱的时期之一成功管理了这一状况。\n\nCDC认为有效的做法\nCDC的指导以能长期保持恢复稳定的治疗为核心：\n• 阿片类药物使用障碍的药物——丁丙诺啡、美沙酮和纳曲酮——CDC称其尤其有效\n• 将药物与行为治疗和咨询相结合\n• 持续时间长短不一、因人而异的治疗\nCDC指出，这些药物有助于“使大脑化学正常化”并缓解渴求——在活跃成瘾中感觉被劫持的化学机制，再次与你并肩协作。\n\n保持安全\nCDC敦促恢复中的人向医生询问重新使用和过量的风险，并随身备好纳洛酮。戒断期间耐受性下降，因此这么久之后重新使用阿片类药物尤其危险——了解这一点是保护你所建立成果的一部分。\n\n两年之时\nCDC明确指出，恢复往往是一个长期过程，而非终点线。两年不是旅程的终点——它是一个稳定、健康的基础，也是你所用方法有效的有力证据。';
+      '停用阿片类药物两年：一个稳定的基础\n\n来源：《Treatment of Opioid Use Disorder》，美国疾病控制与预防中心（CDC）\n\n一种慢性疾病，管理得当\nCDC将阿片类药物使用障碍描述为“一种可能影响任何人的慢性疾病”——“一种医学状况，而非道德缺陷”。达到两年的持续恢复，意味着您已经在其最脆弱的时期之一成功管理了这一状况。\n\nCDC认为有效的做法\nCDC的指导以能长期保持恢复稳定的治疗为核心：\n• 阿片类药物使用障碍的药物——丁丙诺啡、美沙酮和纳曲酮——CDC称其尤其有效\n• 将药物与行为治疗和咨询相结合\n• 持续时间长短不一、因人而异的治疗\nCDC指出，这些药物有助于“使大脑化学正常化”并缓解渴求——在活跃成瘾中感觉被劫持的化学机制，再次与您并肩协作。\n\n保持安全\nCDC敦促恢复中的人向医生询问重新使用和过量的风险，并随身备好纳洛酮。戒断期间耐受性下降，因此这么久之后重新使用阿片类药物尤其危险——了解这一点是保护您所建立成果的一部分。\n\n两年之时\nCDC明确指出，恢复往往是一个长期过程，而非终点线。两年不是旅程的终点——它是一个稳定、健康的基础，也是您所用方法有效的有力证据。';
 
   @override
   String get opioidReferenceDay1095 =>
@@ -3991,7 +3991,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get vapingMilestone1460Description =>
-      '无电子烟四年。这是 1,460 天没有再次强化电子烟习惯。科学仍不能给所有人设定统一的长期恢复时钟，但这种持久改变是真实的，也值得庆祝。';
+      '无电子烟四年。这是 1,460 天没有再次强化电子烟习惯。科学仍不能为所有人设定统一的长期恢复时间表，但这种持久改变是真实的，也值得庆祝。';
 
   @override
   String get vapingMilestone1825Title => '五年：重大里程碑';
@@ -6674,7 +6674,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get marijuanaMilestone3Description =>
-      '您正處於最艱難的時刻，但從現在開始都是上坡路！第2-6天通常會出現戒斷症狀的高峰，包括頭痛、出汗和情緒變化。您的身體正在努力重新平衡自己。';
+      '您正處在最艱難的階段之一，但從這裡開始通常會逐漸好轉。第2至第6天，頭痛、出汗和情緒變化等戒斷症狀往往達到高峰。您的身體正在努力重新找回平衡。';
 
   @override
   String get marijuanaMilestone7Title => '睡眠模式改善';
@@ -6977,14 +6977,14 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get nicotinePouchesMilestone1460Description =>
-      '四年不用尼古丁袋，展現了真正的持續力。沒有證據證明四年時會發生某個醫學上的「開關」，但有一個非常真實的成就：四年沒有回到使用尼古丁袋的習慣。';
+      '四年不用尼古丁袋，展現了真正的持續力。沒有證據顯示停用滿四年時會發生某個特定的醫學變化，但有一個非常真實的成就：四年沒有回到使用尼古丁袋的習慣。';
 
   @override
   String get nicotinePouchesReferenceDay1460 =>
-      '四年：改變經得起時間\n\n來源：Rungraungrayabkul 等（2024），尼古丁袋與口腔健康系統性回顧\n\n回顧指出，關於短期與長期口腔健康影響的證據仍有限，還需要更多研究。它並不支持所有人在停用四年時都會出現某種特定恢復事件。\n\n四年不用尼古丁袋，就是持續改變的重要里程碑，不需要沒有依據的醫學承諾來證明價值。';
+      '四年：改變經得起時間\n\n來源：Rungraungrayabkul 等（2024），尼古丁袋與口腔健康系統性回顧\n\n回顧指出，關於短期與長期口腔健康影響的證據仍有限，還需要更多研究。它並不支持所有人在停用滿四年時都會出現某個一致的恢復節點。\n\n四年不用尼古丁袋，就是持續改變的重要里程碑，不需要沒有依據的醫學承諾來證明價值。';
 
   @override
-  String get nicotinePouchesMilestone1825Title => '五年：五年大勝利';
+  String get nicotinePouchesMilestone1825Title => '五年：了不起的成就';
 
   @override
   String get nicotinePouchesMilestone1825Description =>
@@ -6992,7 +6992,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get nicotinePouchesReferenceDay1825 =>
-      '五年：五年大勝利\n\n來源：美國疾病管制與預防中心（CDC）— 尼古丁袋\n\nCDC指出，尼古丁袋是相對較新的產品，其長期健康影響仍在研究中。現有證據沒有確定停用五年時會發生特定的恢復事件。\n\n五年不用尼古丁袋本身就是巨大的成就：五年持續不斷的改變。';
+      '五年：了不起的成就\n\n來源：美國疾病管制與預防中心（CDC）— 尼古丁袋\n\nCDC指出，尼古丁袋是相對較新的產品，其長期健康影響仍在研究中。現有證據沒有顯示停用滿五年時會出現某個特定的恢復節點。\n\n五年不用尼古丁袋本身就是巨大的成就：五年持續不斷的改變。';
 
   @override
   String get pornographyMilestone1Title => '重新掌握控制權';
@@ -7656,7 +7656,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get alcoholReferenceDay3 =>
-      '第3天：戒斷高峰窗口\n\n來源：《Alcohol Withdrawal》，StatPearls——同行評審，NIH國家醫學圖書館\n\n約72小時\n酒精戒斷症狀可在停酒後數小時內出現，並常在約72小時達到高峰。StatPearls列出的高度興奮狀態表現包括顫抖、失眠、躁動、出汗、高血壓、心跳加快和癲癇發作。\n\n三天很強\n達到72小時是一個巨大的里程碑，因為這正處在許多急性症狀有記錄的高峰窗口。\n\n嚴重戒斷可能更晚出現\n酒精戒斷性譫妄（delirium tremens）可在停酒後3–8天發生，並可能致命。嚴重戒斷屬於醫療急症。每天大量飲酒的人，以及有戒斷癲癇或譫妄病史的人，應尋求醫療建議，不要在缺乏支援的情況下突然停酒。';
+      '第3天：戒斷高峰窗口\n\n來源：《Alcohol Withdrawal》，StatPearls——同行評審，NIH國家醫學圖書館\n\n約72小時\n酒精戒斷症狀可在停酒後數小時內出現，並常在約72小時達到高峰。StatPearls列出的高度興奮狀態表現包括顫抖、失眠、躁動、出汗、高血壓、心跳加快和癲癇發作。\n\n三天很強\n達到72小時是一個巨大的里程碑，因為這正處在許多急性症狀有記錄的高峰窗口。\n\n嚴重戒斷可能更晚出現\n酒精戒斷性譫妄（delirium tremens）可在停酒後3–8天發生，並可能致命。嚴重戒斷屬於醫療急症。每天大量飲酒的人，以及有戒斷癲癇或譫妄病史的人，應尋求醫療建議，不要在缺乏支援的情況下突然停酒。\n\n需要警惕什麼？\n發燒、嚴重躁動、大量出汗、幻覺、定向障礙、癲癇發作、心率非常快或血壓非常高，都需要立即就醫。';
 
   @override
   String get alcoholReferenceDay7 =>
@@ -7700,7 +7700,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get benzodiazepineReferenceDay90 =>
-      '停用苯二氮䓬類藥物三個月：思考更快，鎮靜感更輕\n\n來源：Rickels et al., \"Psychomotor performance of long-term benzodiazepine users before, during, and after benzodiazepine discontinuation,\" Journal of Clinical Psychopharmacology (1999), on PubMed\n\n12週時可測量的恢復訊號\n研究人員在逐步減量前，以及減量後5週和12週，測試長期使用苯二氮䓬類藥物的人。共有77人有12週資料；成功停藥者以每週血液檢查確認未再使用苯二氮䓬類藥物。\n\n認知任務完成得更快\n成功停用苯二氮䓬類藥物的人，在符號抄寫與數字-符號替換任務上的完成速度快於仍在用藥的參與者。即使考量年齡、教育程度與基線成績，差異仍具有統計意義。\n\n精神與身體鎮靜感更輕\n成功停藥者也回報，比仍在使用苯二氮䓬類藥物的人有較少的精神與身體鎮靜感。\n\n三個月可能是什麼樣\n在這項研究中，成功停藥者在逐步減量12週後，處理速度出現可測量的改善，精神與身體鎮靜感也減輕了。思考更快，昏沉的感覺也更淡。';
+      '停用苯二氮䓬類藥物三個月：思考更快，鎮靜感更輕\n\n來源：Rickels et al., \"Psychomotor performance of long-term benzodiazepine users before, during, and after benzodiazepine discontinuation,\" Journal of Clinical Psychopharmacology (1999)，PubMed\n\n12週時可測量的恢復訊號\n研究人員在逐步減量前，以及減量後5週和12週，測試長期使用苯二氮䓬類藥物的人。共有77人有12週資料；成功停藥者以每週血液檢查確認未再使用苯二氮䓬類藥物。\n\n認知任務完成得更快\n成功停用苯二氮䓬類藥物的人，在符號抄寫與數字-符號替換任務上的完成速度快於仍在用藥的參與者。即使考量年齡、教育程度與基線成績，差異仍具有統計意義。\n\n精神與身體鎮靜感更輕\n成功停藥者也回報，比仍在使用苯二氮䓬類藥物的人有較少的精神與身體鎮靜感。\n\n三個月可能是什麼樣\n在這項研究中，成功停藥者在逐步減量12週後，處理速度出現可測量的改善，精神與身體鎮靜感也減輕了。思考更快，昏沉的感覺也更淡。';
 
   @override
   String get benzodiazepineReferenceDay180 =>
@@ -7968,7 +7968,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get marijuanaReferenceDay30 =>
-      '停用大麻一個月：記憶功能改善\n\n來源：Pope et al.（2001），Archives of General Psychiatry\n\n大麻與記憶：問題所在\n這項研究對大量、長期的大麻使用者進行了28天經確認的戒斷隨訪，並將他們的思維和記憶測試結果與輕度使用者和非使用者進行了比較。在戒斷開始時，以及第1天和第7天再次測試時，大量使用的人在單詞表回憶上的表現差於對照組——這一缺陷與他們的尿中THC代謝物水平相關，反映的是近期藥物暴露而非終身使用量。\n\n好消息：到第28天恢復\n到第28天時，大量使用的人、輕度使用者和非使用者在研究的思維和記憶測試中表現幾乎相同。此時，終身大麻使用總量與測試表現之間也沒有顯著關係。\n\n這在30天時意味著甚麼\n• 言語學習和回憶已恢復到對照組水平\n• 第一周所見的殘餘缺陷已經消退\n• 早先剩餘的缺陷與近期暴露有關，而非永久性損傷\n\n證據表明瞭\n到第28天，大量使用的人在研究的整套思維和記憶測試中幾乎與輕度使用者和非使用者無法區分。第一周所見的言語學習和回憶缺陷已恢復到對照組水平。';
+      '停用大麻一個月：記憶功能改善\n\n來源：Pope et al.（2001），Archives of General Psychiatry\n\n大麻與記憶：問題所在\n這項研究對大量、長期的大麻使用者進行了28天經確認的戒斷隨訪，並將他們的思維和記憶測試結果與輕度使用者和非使用者進行了比較。在戒斷開始時，以及第1天和第7天再次測試時，大量使用的人在單詞表回憶上的表現差於對照組——這一缺陷與他們的尿中THC代謝物水平相關，反映的是近期藥物暴露而非終身使用量。\n\n好消息：到第28天恢復\n到第28天時，大量使用的人、輕度使用者和非使用者在研究的思維和記憶測試中表現幾乎相同。此時，終身大麻使用總量與測試表現之間也沒有顯著關係。\n\n這在30天時意味著甚麼\n• 言語學習和回憶已恢復到對照組水平\n• 第一周所見的殘餘缺陷已經消退\n• 早先剩餘的缺陷與近期暴露有關，而非永久性損傷\n\n證據表明\n到第28天，大量使用的人在研究的整套思維和記憶測試中幾乎與輕度使用者和非使用者無法區分。第一周所見的言語學習和回憶缺陷已恢復到對照組水平。';
 
   @override
   String get marijuanaReferenceDay60 =>
@@ -8016,7 +8016,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get methReferenceDay1 =>
-      '甲基苯丙胺戒斷：最初24小時\n\n來源：McGregor et al.，《The nature, time course and severity of methamphetamine withdrawal》，Addiction（2005），見PubMed\n\n崩潰期\n甲基苯丙胺促使多巴胺大量釋放；當使用停止時，系統被留在了耗竭狀態。這項研究在戒斷的最初三周里逐日追蹤了戒斷症狀，發現總體嚴重程度在最後一次使用後的24小時內達到最高——即“崩潰”，一種從極度興奮到身心俱疲的驟然轉變。\n\n第一天的症狀\n該研究記載了此刻最強烈的戒斷特徵：\n• 極度疲勞和睡眠增加（睡眠過多）\n• 食慾增加（甲基苯丙胺會強烈抑制食慾）\n• 情緒低落和失去快感\n• 強烈的渴求\n• 焦慮和易怒\n\n身體安全\n甲基苯丙胺戒斷綜合徵本身通常不危及生命，但該研究測量到的與抑鬱相關的症狀在早期可能很嚴重，並可能包含自殺意念。強烈建議進行醫療監督，尤其是對大量使用的人。\n\n它開始緩解\n這項研究令人鼓舞的發現是：嚴重程度在一開始最高，然後下降。從這個24小時的高峰開始，症狀在接下來的幾天里穩步下降——最糟的時刻就是開始。';
+      '甲基苯丙胺戒斷：最初24小時\n\n來源：McGregor et al.，《The nature, time course and severity of methamphetamine withdrawal》，Addiction（2005），見PubMed\n\n崩潰期\n甲基苯丙胺促使多巴胺大量釋放；當使用停止時，系統被留在了耗竭狀態。這項研究在戒斷的最初三周里逐日追蹤了戒斷症狀，發現總體嚴重程度在最後一次使用後的24小時內達到最高——即“崩潰”，一種從極度興奮到身心俱疲的驟然轉變。\n\n第一天的症狀\n該研究記載了此刻最強烈的戒斷特徵：\n• 極度疲勞和睡眠增加（睡眠過多）\n• 食慾增加（甲基苯丙胺會強烈抑制食慾）\n• 情緒低落和失去快感\n• 強烈的渴求\n• 焦慮和易怒\n\n身體安全\n甲基苯丙胺戒斷綜合徵本身通常不危及生命，但該研究測量到的與抑鬱相關的症狀在早期可能很嚴重，並可能包含自殺意念。強烈建議進行醫療監督，尤其是對大量使用的人。\n\n開始緩解\n這項研究令人鼓舞的發現是：嚴重程度在一開始最高，然後下降。從這個24小時的高峰開始，症狀在接下來的幾天里穩步下降——最糟的時刻就是開始。';
 
   @override
   String get methReferenceDay3 =>
@@ -8044,7 +8044,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get methReferenceDay420 =>
-      '停用甲基苯丙胺14個月：多巴胺標誌物反彈\n\n來源：Volkow et al.，《Loss of Dopamine Transporters in Methamphetamine Abusers Recovers with Protracted Abstinence》，Journal of Neuroscience（2001）\n\n頭條發現\n這項具有里程碑意義的腦掃描研究在戒斷早期以及大約12–17個月後再次對甲基苯丙胺使用者進行了檢查。在大腦獎賞和運動區域回收多巴胺的蛋白質上升了約16%到19%，並達到了與健康對照不再有顯著差異的水平。戒斷時間越長，恢復越大。\n\n為甚麼DAT很重要\n這些蛋白質在多巴胺釋放後將其回收。甲基苯丙胺會耗竭它們，使多巴胺系統調節不良。它們在約14個月時反彈，是愈合的一個真實、可測量的跡象。\n\n恢復信號\n在12–17個月後，獎賞和運動區域中回收多巴胺的蛋白質上升了約16%到19%，並達到了健康對照水平。多巴胺系統已可測量地向正常反彈，而思維、記憶和運動也在繼續改善。\n\n這在14個月時意味著甚麼\n多巴胺系統的“硬件”正在可測量地向正常恢復——這是樂觀的真正理由。但完全的功能恢復（記憶、動力、精細運動控制）可能滯後於影像，並會隨著持續的戒斷繼續改善。';
+      '停用甲基苯丙胺14個月：多巴胺標誌物反彈\n\n來源：Volkow et al.，《Loss of Dopamine Transporters in Methamphetamine Abusers Recovers with Protracted Abstinence》，Journal of Neuroscience（2001）\n\n主要發現\n這項具有里程碑意義的腦掃描研究在戒斷早期以及大約12–17個月後再次對甲基苯丙胺使用者進行了檢查。在大腦獎賞和運動區域回收多巴胺的蛋白質上升了約16%到19%，並達到了與健康對照不再有顯著差異的水平。戒斷時間越長，恢復越大。\n\n為甚麼DAT很重要\n這些蛋白質在多巴胺釋放後將其回收。甲基苯丙胺會耗竭它們，使多巴胺系統調節不良。它們在約14個月時反彈，是愈合的一個真實、可測量的跡象。\n\n恢復信號\n在12–17個月後，獎賞和運動區域中回收多巴胺的蛋白質上升了約16%到19%，並達到了健康對照水平。多巴胺系統已可測量地向正常反彈，而思維、記憶和運動也在繼續改善。\n\n這在14個月時意味著甚麼\n多巴胺系統的“硬件”正在可測量地向正常恢復——這是樂觀的真正理由。但完全的功能恢復（記憶、動力、精細運動控制）可能滯後於影像，並會隨著持續的戒斷繼續改善。';
 
   @override
   String get methReferenceDay730 =>
@@ -8145,7 +8145,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get opioidReferenceDay730 =>
-      '停用阿片類藥物兩年：一個穩定的基礎\n\n來源：《Treatment of Opioid Use Disorder》，美國疾病控制與預防中心（CDC）\n\n一種慢性疾病，管理得當\nCDC將阿片類藥物使用障礙描述為“一種可能影響任何人的慢性疾病”——“一種醫學狀況，而非道德缺陷”。達到兩年的持續恢復，意味著你已經在其最脆弱的時期之一成功管理了這一狀況。\n\nCDC認為有效的做法\nCDC的指導以能長期保持恢復穩定的治療為核心：\n• 阿片類藥物使用障礙的藥物——丁丙諾啡、美沙酮和納曲酮——CDC稱其尤其有效\n• 將藥物與行為治療和咨詢相結合\n• 持續時間長短不一、因人而異的治療\nCDC指出，這些藥物有助於“使大腦化學正常化”並緩解渴求——在活躍成癮中感覺被劫持的化學機制，再次與你並肩協作。\n\n保持安全\nCDC敦促恢復中的人向醫生詢問重新使用和過量的風險，並隨身備好納洛酮。戒斷期間耐受性下降，因此這麼久之後重新使用阿片類藥物尤其危險——瞭解這一點是保護你所建立成果的一部分。\n\n兩年之時\nCDC明確指出，恢復往往是一個長期過程，而非終點線。兩年不是旅程的終點——它是一個穩定、健康的基礎，也是你所用方法有效的有力證據。';
+      '停用阿片類藥物兩年：一個穩定的基礎\n\n來源：《Treatment of Opioid Use Disorder》，美國疾病控制與預防中心（CDC）\n\n一種慢性疾病，管理得當\nCDC將阿片類藥物使用障礙描述為“一種可能影響任何人的慢性疾病”——“一種醫學狀況，而非道德缺陷”。達到兩年的持續恢復，意味著您已經在其最脆弱的時期之一成功管理了這一狀況。\n\nCDC認為有效的做法\nCDC的指導以能長期保持恢復穩定的治療為核心：\n• 阿片類藥物使用障礙的藥物——丁丙諾啡、美沙酮和納曲酮——CDC稱其尤其有效\n• 將藥物與行為治療和咨詢相結合\n• 持續時間長短不一、因人而異的治療\nCDC指出，這些藥物有助於“使大腦化學正常化”並緩解渴求——在活躍成癮中感覺被劫持的化學機制，再次與您並肩協作。\n\n保持安全\nCDC敦促恢復中的人向醫生詢問重新使用和過量的風險，並隨身備好納洛酮。戒斷期間耐受性下降，因此這麼久之後重新使用阿片類藥物尤其危險——瞭解這一點是保護您所建立成果的一部分。\n\n兩年之時\nCDC明確指出，恢復往往是一個長期過程，而非終點線。兩年不是旅程的終點——它是一個穩定、健康的基礎，也是您所用方法有效的有力證據。';
 
   @override
   String get opioidReferenceDay1095 =>
@@ -8462,7 +8462,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get vapingMilestone1460Description =>
-      '無電子煙四年。這是 1,460 天沒有再次強化電子煙習慣。科學仍不能替所有人設定統一的長期恢復時鐘，但這種持久改變是真實的，也值得慶祝。';
+      '無電子煙四年。這是 1,460 天沒有再次強化電子煙習慣。科學仍不能替所有人設定統一的長期恢復時間表，但這種持久改變是真實的，也值得慶祝。';
 
   @override
   String get vapingMilestone1825Title => '五年：重大里程碑';
@@ -8921,7 +8921,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get steroidsReferenceDay1095 =>
-      '停用合成代謝類固醇三年\n\n来源：Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\n三年的距離\nAAS 停用後的恢復差異很大。綜述指出，睪酮和促性腺激素通常在數月內恢復，而睪丸大小和精子生成可能需要數月到數年；心理恢復更難預測。\n\n這個紀念點的意義\n綜述沒有把三年定義為生物學恢復終點。這個里程碑代表三年沒有再次暴露。持續存在的激素、生育、情緒或性功能症狀應接受醫學評估。';
+      '停用合成代謝類固醇三年\n\n來源：Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\n三年的距離\nAAS 停用後的恢復差異很大。綜述指出，睪酮和促性腺激素通常在數月內恢復，而睪丸大小和精子生成可能需要數月到數年；心理恢復更難預測。\n\n這個紀念點的意義\n綜述沒有把三年定義為生物學恢復終點。這個里程碑代表三年沒有再次暴露。持續存在的激素、生育、情緒或性功能症狀應接受醫學評估。';
 
   @override
   String get steroidsMilestone1460Title => '四年 — 持久進步';
@@ -8932,7 +8932,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get steroidsReferenceDay1460 =>
-      '停用合成代謝類固醇四年\n\n来源：Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\n四年的堅持\nAAS 停用後的恢復並不遵循同一個時間表。綜述描述了身體、生殖、心理和生化方面不同速度的恢復，其中一些變化可能持續數月到數年。\n\n沒有虛構的期限\n沒有證據支持四年這一恢復門檻。四年沒有開始新的週期仍然是重要成就。持續存在的症狀應依其本身接受臨床評估。';
+      '停用合成代謝類固醇四年\n\n來源：Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\n四年的堅持\nAAS 停用後的恢復並不遵循同一個時間表。綜述描述了身體、生殖、心理和生化方面不同速度的恢復，其中一些變化可能持續數月到數年。\n\n沒有虛構的期限\n沒有證據支持四年這一恢復門檻。四年沒有開始新的週期仍然是重要成就。持續存在的症狀應依其本身接受臨床評估。';
 
   @override
   String get steroidsMilestone1825Title => '五年 — 長期成果';
@@ -8943,5 +8943,5 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get steroidsReferenceDay1825 =>
-      '停用合成代謝類固醇五年\n\n来源：Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\n五年是重要里程碑\n證據顯示，AAS 停用後的恢復差異很大。許多激素變化會更早改善，而生殖或心理方面的影響可能持續更久，也更難預測。\n\n五年沒有再次暴露\n綜述沒有把五年設定為生物學恢復終點。五年未使用類固醇，持續改變本身就值得慶祝；任何持續存在的症狀仍應接受醫學評估。';
+      '停用合成代謝類固醇五年\n\n來源：Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\n五年是重要里程碑\n證據顯示，AAS 停用後的恢復差異很大。許多激素變化會更早改善，而生殖或心理方面的影響可能持續更久，也更難預測。\n\n五年沒有再次暴露\n綜述沒有把五年設定為生物學恢復終點。五年未使用類固醇，持續改變本身就值得慶祝；任何持續存在的症狀仍應接受醫學評估。';
 }

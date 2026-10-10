@@ -32,53 +32,53 @@ class AppLocalizationsAr extends AppLocalizations {
   String get addictionKratom => 'قرطوم';
 
   @override
-  String get kratomMilestone1Title => 'يبدأ الانسحاب';
+  String get kratomMilestone1Title => 'بدء أعراض الانسحاب';
 
   @override
   String get kratomMilestone1Description =>
-      'يعمل القرطوم على المستقبلات الأفيونية، لذا قد تشعر خلال 6 إلى 12 ساعة من آخر جرعة بالأرق والقلق والتعرق وسيلان الأنف وآلام في العضلات. هذا هو نظامك العصبي الذي بدأ في التكيف.';
+      'يعمل الكراتوم على المستقبلات الأفيونية، لذلك قد تشعر خلال 6–12 ساعة من آخر جرعة بالتململ والقلق والتعرق وسيلان الأنف وآلام العضلات. هذا يعني أن جهازك العصبي بدأ يتكيف.';
 
   @override
-  String get kratomMilestone3Title => 'ذروة الانسحاب';
+  String get kratomMilestone3Title => 'ذروة أعراض الانسحاب';
 
   @override
   String get kratomMilestone3Description =>
-      'عادةً ما تبلغ الأعراض الحادة ذروتها في الأيام 2-3 تقريبًا: آلام أقوى، وأرق، واضطراب في المعدة، وتدهور الحالة المزاجية. هذه هي النقطة الأصعب، وهي مؤقتة.';
+      'تبلغ الأعراض الحادة ذروتها عادةً في اليومين 2–3: آلام أشد، وأرق، واضطراب بالمعدة، وانخفاض في المزاج. هذه أصعب مرحلة، لكنها مؤقتة.';
 
   @override
-  String get kratomMilestone7Title => 'تهدأ الأعراض الحادة';
+  String get kratomMilestone7Title => 'تراجع الأعراض الحادة';
 
   @override
   String get kratomMilestone7Description =>
-      'وبحلول أسبوع واحد، تتلاشى إلى حد كبير أسوأ الأعراض الجسدية - مثل الآلام، واضطراب المعدة، والتعرق. لا يزال النوم والطاقة يتعافيان.';
+      'بعد أسبوع تكون أسوأ الأعراض الجسدية — مثل الآلام واضطراب المعدة والتعرق — قد خفّت إلى حد كبير. لا يزال النوم والطاقة في طور التعافي.';
 
   @override
-  String get kratomMilestone14Title => 'استعادة المزاج والنوم';
+  String get kratomMilestone14Title => 'تحسّن المزاج والنوم';
 
   @override
   String get kratomMilestone14Description =>
-      'بعد أسبوعين، يصبح النوم أكثر موثوقية والمزاج أكثر ثباتًا حيث تبدأ كيمياء المكافأة في دماغك في إعادة التوازن.';
+      'بعد أسبوعين يصبح النوم أكثر انتظامًا والمزاج أكثر استقرارًا مع بدء كيمياء المكافأة الطبيعية في الدماغ بإعادة التوازن.';
 
   @override
-  String get kratomMilestone30Title => 'شهر واحد واضح';
+  String get kratomMilestone30Title => 'شهر كامل بلا كراتوم';
 
   @override
   String get kratomMilestone30Description =>
-      'بعد شهر، يستقر الجسم: النوم والشهية والطاقة أفضل بشكل ملحوظ، والرغبة الشديدة في تناول الطعام أقل تواتراً.';
+      'بعد شهر يكون الجسم قد استقر بدرجة كبيرة: النوم والشهية والطاقة أفضل بوضوح، وتصبح الرغبة الملحّة في استخدام الكراتوم أقل تكرارًا.';
 
   @override
-  String get kratomMilestone90Title => 'مؤسسة مستقرة';
+  String get kratomMilestone90Title => 'أساس مستقر';
 
   @override
   String get kratomMilestone90Description =>
-      'ثلاثة أشهر من الامتناع عن ممارسة الجنس تمنح دوائر المكافأة والتوتر في الدماغ وقتًا أطول لإعادة التنظيم. المزاج والتركيز والتحفيز أكثر ثباتًا بشكل ملحوظ.';
+      'ثلاثة أشهر من الامتناع عن الكراتوم تمنح دوائر المكافأة والتوتر في الدماغ وقتًا أطول لإعادة التنظيم. يصبح المزاج والتركيز والدافع أكثر استقرارًا بشكل ملحوظ.';
 
   @override
-  String get kratomMilestone365Title => 'سنة واحدة مجانية';
+  String get kratomMilestone365Title => 'عام كامل بلا كراتوم';
 
   @override
   String get kratomMilestone365Description =>
-      'سنة كاملة خالية من القرطوم. تمت إعادة تنظيم نظام المواد الأفيونية منذ فترة طويلة، والرغبة الشديدة في تناولها نادرة، ولم تعد العادة تنظم يومك.';
+      'عام كامل من دون كراتوم. يكون الجهاز الأفيوني قد أمضى وقتًا طويلًا في إعادة التنظيم، وتصبح الرغبة الملحّة أقل تكرارًا، ولا تعود العادة تنظّم يومك.';
 
   @override
   String get kratomMilestone730Title => 'سنتان: أساس متين';
@@ -204,53 +204,53 @@ class AppLocalizationsAr extends AppLocalizations {
   String get addictionGhb => 'جي اتش بي';
 
   @override
-  String get ghbMilestone1Title => 'ابحث عن التخلص من السموم الطبية';
+  String get ghbMilestone1Title => 'اطلب مساعدة طبية للانسحاب';
 
   @override
   String get ghbMilestone1Description =>
-      'يتمتع GHB بنصف عمر قصير جدًا، لذلك يمكن أن يبدأ الانسحاب بعد 1-6 ساعات من آخر جرعة مع القلق والرعشة والأرق وسرعة ضربات القلب. يعد هذا أحد أخطر أنواع التخلص من السموم – احصل على المساعدة الطبية.';
+      'يتميز GHB بعمر نصف قصير جدًا، لذلك قد تبدأ أعراض الانسحاب بعد 1–6 ساعات من آخر جرعة، مع القلق والرعشة والأرق وتسارع ضربات القلب. هذا من أخطر أنواع الانسحاب — اطلب مساعدة طبية.';
 
   @override
-  String get ghbMilestone3Title => 'نافذة ذروة الخطر';
+  String get ghbMilestone3Title => 'ذروة فترة الخطر';
 
   @override
   String get ghbMilestone3Description =>
-      'تبلغ الأعراض ذروتها بعد حوالي 48-72 ساعة ويمكن أن تتصاعد إلى إثارة شديدة وهلوسة وهذيان. هذه المرحلة تحتاج إلى مراقبة طبية.';
+      'تبلغ الأعراض ذروتها بعد نحو 48–72 ساعة وقد تتفاقم إلى هياج شديد وهلوسة وهذيان. تحتاج هذه المرحلة إلى مراقبة طبية.';
 
   @override
-  String get ghbMilestone7Title => 'مرور المرحلة الحادة';
+  String get ghbMilestone7Title => 'المرحلة الحادة تنحسر';
 
   @override
   String get ghbMilestone7Description =>
-      'وفي غضون أسبوع تقريبًا، تختفي المتلازمة الحادة عادةً، على الرغم من أن الهذيان يمكن أن يستمر لفترة أطول في الحالات الشديدة. لقد تجاوز الجسد النقطة الأكثر خطورة.';
+      'بعد نحو أسبوع تبدأ المتلازمة الحادة عادةً بالانحسار، مع أن الهذيان قد يستمر مدة أطول في الحالات الشديدة. أخطر مرحلة أصبحت خلفك.';
 
   @override
-  String get ghbMilestone14Title => 'من خلال الأسوأ';
+  String get ghbMilestone14Title => 'تجاوزت أصعب مرحلة';
 
   @override
   String get ghbMilestone14Description =>
-      'وبعد مرور أسبوعين، عادة ما يكون الانسحاب الشديد قد انتهى. لقد عاد النوم والاستقرار اللاإرادي، على الرغم من أن القلق قد يستمر.';
+      'بعد أسبوعين يكون حتى الانسحاب الشديد قد تجاوز مرحلته الحادة عادةً. يعود النوم واستقرار الجهاز العصبي الذاتي تدريجيًا، مع احتمال استمرار القلق.';
 
   @override
-  String get ghbMilestone30Title => 'شهر واحد مستقر';
+  String get ghbMilestone30Title => 'شهر من الاستقرار';
 
   @override
   String get ghbMilestone30Description =>
-      'بعد مرور شهر، تكون فترة الانسحاب المبكر الخطيرة قد انتهت. يستمر القلق المستمر ومشاكل النوم وانخفاض الحالة المزاجية في التحسن.';
+      'بعد شهر تكون فترة الانسحاب المبكر الخطيرة قد أصبحت بعيدة خلفك. يستمر تحسن القلق المتبقي ومشكلات النوم وانخفاض المزاج.';
 
   @override
-  String get ghbMilestone90Title => 'اختفاء الأعراض العالقة';
+  String get ghbMilestone90Title => 'الأعراض المتبقية تتراجع';
 
   @override
   String get ghbMilestone90Description =>
-      'بعد مرور ثلاثة أشهر، تتراجع أعراض القلق والنوم والمزاج المستمر مع استقرار نظام GABA المهدئ في الدماغ.';
+      'بعد ثلاثة أشهر تتراجع أعراض القلق والنوم والمزاج المتبقية مع استمرار استقرار نظام GABA المثبط في الدماغ.';
 
   @override
-  String get ghbMilestone180Title => 'نصف سنة مجاناً';
+  String get ghbMilestone180Title => 'ستة أشهر من دون GHB';
 
   @override
   String get ghbMilestone180Description =>
-      'ستة أشهر خالية من GHB. لقد تم حل الانسحاب المستمر إلى حد كبير، وعاد المزاج والنوم والتفكير الواضح إلى طبيعته.';
+      'ستة أشهر من دون GHB. تكون أعراض الانسحاب الممتدة قد تراجعت إلى حد كبير، ويعود المزاج والنوم وصفاء التفكير إلى طبيعته.';
 
   @override
   String get ketaminePageTitle => 'استعادة الكيتامين';
@@ -276,7 +276,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get addictionKetamine => 'الكيتامين';
 
   @override
-  String get ketamineMilestone1Title => 'مقاصة النظام';
+  String get ketamineMilestone1Title => 'خروج الدواء من الجسم';
 
   @override
   String get ketamineMilestone1Description =>
@@ -290,39 +290,39 @@ class AppLocalizationsAr extends AppLocalizations {
       'يدور الأسبوع الأول في الغالب حول الرغبة الشديدة والمزاج المنخفض أو المتأرجح وضباب الدماغ بدلاً من الانسحاب الجسدي.';
 
   @override
-  String get ketamineMilestone14Title => 'رفع ضباب الدماغ';
+  String get ketamineMilestone14Title => 'انحسار ضباب الدماغ';
 
   @override
   String get ketamineMilestone14Description =>
       'بعد مرور أسبوعين، يبدأ التفكير والذاكرة في التحسن ويستقر المزاج مع زوال التأثيرات الانفصالية تمامًا.';
 
   @override
-  String get ketamineMilestone30Title => 'شهر واحد – شفاء المثانة';
+  String get ketamineMilestone30Title => 'شهر واحد — تعافي المثانة';
 
   @override
   String get ketamineMilestone30Description =>
       'في غضون شهر، غالبًا ما يبدأ تلف المثانة المبكر في التحسن بعد التوقف. المزاج والتفكير أكثر وضوحا.';
 
   @override
-  String get ketamineMilestone90Title => 'ثلاثة أشهر على';
+  String get ketamineMilestone90Title => 'بعد ثلاثة أشهر';
 
   @override
   String get ketamineMilestone90Description =>
       'ثلاثة أشهر بدون الكيتامين تمنح المثانة مزيدًا من الوقت للشفاء، بينما يستمر التفكير والمزاج في التحسن. الرغبة الشديدة أقل تواترا.';
 
   @override
-  String get ketamineMilestone180Title => 'نصف سنة مجاناً';
+  String get ketamineMilestone180Title => 'ستة أشهر من دون كيتامين';
 
   @override
   String get ketamineMilestone180Description =>
-      'ستة أشهر مجانية. لقد استغرقت أعراض المثانة وقتًا طويلاً لتتحسن، كما ضعف التأثير النفسي للكيتامين بشكل كبير.';
+      'ستة أشهر من دون كيتامين. كان أمام أعراض المثانة وقت أطول للتحسن، كما ضعفت الرغبة النفسية في الكيتامين بدرجة كبيرة.';
 
   @override
-  String get ketamineMilestone365Title => 'سنة واحدة مجانية';
+  String get ketamineMilestone365Title => 'عام من دون كيتامين';
 
   @override
   String get ketamineMilestone365Description =>
-      'سنة خالية من الكيتامين. التفكير، والمزاج، و- عندما تم اكتشاف تلف المثانة في وقت مبكر - كان أمام وظيفة المثانة سنة كاملة للتعافي.';
+      'عام كامل من دون كيتامين. أُتيحت للتفكير والمزاج، ولِوظيفة المثانة عندما اكتُشف الضرر مبكرًا، سنة كاملة للتعافي.';
 
   @override
   String get ketamineMilestone730Title => 'عامان: أرض أكثر ثباتًا';
@@ -376,53 +376,53 @@ class AppLocalizationsAr extends AppLocalizations {
   String get addictionInhalants => 'المستنشقات';
 
   @override
-  String get inhalantsMilestone1Title => 'مقاصة النظام';
+  String get inhalantsMilestone1Title => 'بدء تخلّص الجسم من المواد';
 
   @override
   String get inhalantsMilestone1Description =>
-      'تعمل المواد الكيميائية المستنشقة على تنظيف الدم بسرعة ولكنها تبقى في الأنسجة الدهنية. في اليوم الأول قد تشعر بالصداع أو التهيج أو الغثيان أو القلق أو الأرق.';
+      'تغادر المواد الكيميائية المستنشقة مجرى الدم بسرعة، لكنها قد تبقى في الأنسجة الدهنية. خلال اليوم الأول قد تشعر بالصداع أو التهيج أو الغثيان أو القلق أو الأرق.';
 
   @override
-  String get inhalantsMilestone7Title => 'تهدأ الأعراض الحادة';
+  String get inhalantsMilestone7Title => 'تراجع الأعراض الحادة';
 
   @override
   String get inhalantsMilestone7Description =>
-      'يصل الانسحاب الحاد إلى ذروته في الأيام 2-5 ويختفي إلى حد كبير خلال أسبوع إلى أسبوعين. وبعد مرور أسبوع، عادة ما يمر الأسوأ.';
+      'تبلغ أعراض الانسحاب الحادة ذروتها عادةً بين اليومين 2 و5، ثم تنحسر إلى حد كبير خلال أسبوع إلى أسبوعين. بعد أسبوع يكون أسوأها قد بدأ يمر عادةً.';
 
   @override
-  String get inhalantsMilestone14Title => 'انتهت المرحلة الحادة';
+  String get inhalantsMilestone14Title => 'انتهاء المرحلة الحادة';
 
   @override
   String get inhalantsMilestone14Description =>
-      'وبحلول أسبوعين، عادة ما تنتهي فترة الانسحاب المبكر. يكون المزاج أكثر استقرارًا، على الرغم من أن ضباب الدماغ والتعب يمكن أن يستمرا.';
+      'بحلول أسبوعين تكون فترة الانسحاب المبكر قد انتهت عادةً. يصبح المزاج أكثر استقرارًا، مع احتمال استمرار ضبابية التفكير والتعب.';
 
   @override
-  String get inhalantsMilestone30Title => 'شهر واحد - تعافي الدماغ';
+  String get inhalantsMilestone30Title => 'شهر واحد — الدماغ يتعافى';
 
   @override
   String get inhalantsMilestone30Description =>
-      'وبعد مرور شهر، تنتهي أسوأ التأثيرات المبكرة ويتعافى التفكير والذاكرة. يتحسن الوضوح والمزاج.';
+      'بعد شهر تكون أشد الآثار المبكرة قد أصبحت خلفك، ويبدأ التفكير والذاكرة في التعافي. يتحسن صفاء الذهن والمزاج.';
 
   @override
-  String get inhalantsMilestone90Title => 'ثلاثة أشهر على';
+  String get inhalantsMilestone90Title => 'ثلاثة أشهر من التقدم';
 
   @override
   String get inhalantsMilestone90Description =>
-      'ثلاثة أشهر من الامتناع عن ممارسة الجنس تدعم التعافي المستمر للذاكرة والانتباه والوظيفة الحركية. التحسينات تدريجية ولكنها حقيقية.';
+      'ثلاثة أشهر من الامتناع عن استخدام المستنشقات تدعم استمرار تعافي الذاكرة والانتباه والوظائف الحركية. التحسن تدريجي لكنه حقيقي.';
 
   @override
-  String get inhalantsMilestone365Title => 'سنة واحدة - انتعاش كبير';
+  String get inhalantsMilestone365Title => 'عام واحد — تعافٍ ملحوظ';
 
   @override
   String get inhalantsMilestone365Description =>
-      'يجلب عام من الامتناع عن ممارسة الجنس انتعاشًا عصبيًا كبيرًا لمعظم الناس، مع توقع استمرار المكاسب خلال السنة الثانية.';
+      'عام من الامتناع عن استخدام المستنشقات يترافق لدى معظم الناس مع تعافٍ عصبي ملحوظ، مع توقع استمرار المكاسب خلال السنة الثانية.';
 
   @override
-  String get inhalantsMilestone730Title => 'سنتان - شفاء طويل الأمد';
+  String get inhalantsMilestone730Title => 'عامان — تعافٍ طويل الأمد';
 
   @override
   String get inhalantsMilestone730Description =>
-      'إن عامين من الامتناع عن ممارسة الجنس هي النافذة التي وجدت فيها الدراسات انتعاشًا كبيرًا في وظائف المخ، باستثناء الأضرار الناجمة عن البنزين الذي يحتوي على الرصاص، والذي يمكن أن يستمر.';
+      'عامان من الامتناع هما الفترة التي وجدت فيها الدراسات تعافيًا ملحوظًا لوظائف الدماغ، باستثناء الضرر الناتج عن البنزين المحتوي على الرصاص الذي قد يستمر.';
 
   @override
   String get synthetic_cannabinoidsPageTitle => 'كانابينويدات صناعية';
@@ -478,21 +478,21 @@ class AppLocalizationsAr extends AppLocalizations {
       'أسبوعان بلا استخدام. شبائه القنب الاصطناعية مختلفة فعلًا: لقد جمعت أربعة عشر يومًا بلا إعادة تعرض لفئة من المواد المرتبطة بنوبات الاختلاج والذهان ومشكلات القلب.';
 
   @override
-  String get synthetic_cannabinoidsMilestone30Title => 'شهر واحد واضح';
+  String get synthetic_cannabinoidsMilestone30Title => 'شهر بلا استخدام';
 
   @override
   String get synthetic_cannabinoidsMilestone30Description =>
       'شهر كامل بلا استخدام. ثلاثون يومًا بلا إعادة تعرض لقوة شبائه القنب الاصطناعية غير المتوقعة وسميتها الحادة. إنجاز ضخم.';
 
   @override
-  String get synthetic_cannabinoidsMilestone90Title => 'ثلاثة أشهر على';
+  String get synthetic_cannabinoidsMilestone90Title => 'ثلاثة أشهر بلا استخدام';
 
   @override
   String get synthetic_cannabinoidsMilestone90Description =>
       'ثلاثة أشهر بلا استخدام. لقد أبقيت مسافة كبيرة بينك وبين فئة من المواد المرتبطة بانسحاب شديد ونوبات اختلاج ومشكلات قلبية وعائية وذهان. واصل التقدم.';
 
   @override
-  String get synthetic_cannabinoidsMilestone180Title => 'نصف سنة مجاناً';
+  String get synthetic_cannabinoidsMilestone180Title => 'نصف عام بلا استخدام';
 
   @override
   String get synthetic_cannabinoidsMilestone180Description =>
@@ -563,53 +563,53 @@ class AppLocalizationsAr extends AppLocalizations {
   String get addictionMdma => 'عقار إم دي إم إيه';
 
   @override
-  String get mdmaMilestone1Title => 'الكوميديا';
+  String get mdmaMilestone1Title => 'مرحلة الهبوط';
 
   @override
   String get mdmaMilestone1Description =>
-      'بعد عقار إم دي إم إيه، ينتج السيروتونين المستنزف \"حالة من الهدوء\": انخفاض الحالة المزاجية، والتعب، والتهيج، وقلة النوم لمدة يوم أو يومين. يساعد الترطيب والطعام والراحة.';
+      'بعد MDMA، قد يؤدي الانخفاض المؤقت في السيروتونين إلى مرحلة «الهبوط»: مزاج منخفض وتعب وتهيّج ونوم سيئ ليوم أو يومين. يساعد شرب الماء والطعام والراحة.';
 
   @override
-  String get mdmaMilestone3Title => 'إعادة توازن المزاج';
+  String get mdmaMilestone3Title => 'المزاج يستعيد توازنه';
 
   @override
   String get mdmaMilestone3Description =>
-      'وفي غضون أيام قليلة، مر الانهيار الأكثر حدة. يبدأ المزاج والطاقة في إعادة التوازن مع تجديد السيروتونين.';
+      'بعد بضعة أيام تكون أشد مرحلة من الهبوط قد مرّت عادةً. يبدأ المزاج والطاقة بالاستقرار مع تعافي السيروتونين.';
 
   @override
-  String get mdmaMilestone7Title => 'انتهت المرحلة الحادة';
+  String get mdmaMilestone7Title => 'انتهاء المرحلة الحادة';
 
   @override
   String get mdmaMilestone7Description =>
-      'بعد الاستخدام المكثف، يمكن أن تستمر الأعراض الشبيهة بالانسحاب (تدني الحالة المزاجية، وضعف التركيز، والرغبة الشديدة) لمدة أسبوع تقريبًا قبل أن تتحسن.';
+      'بعد الاستخدام الأثقل قد تستمر أعراض شبيهة بالانسحاب، مثل انخفاض المزاج وضعف التركيز والرغبة في الاستخدام، نحو أسبوع قبل أن تتحسن.';
 
   @override
-  String get mdmaMilestone14Title => 'أسبوعين على';
+  String get mdmaMilestone14Title => 'أسبوعان';
 
   @override
   String get mdmaMilestone14Description =>
-      'عادةً ما يؤدي الامتناع عن ممارسة الجنس لمدة أسبوعين إلى تحسن واضح في المزاج والنوم والتركيز مع تعافي نظام السيروتونين.';
+      'أسبوعان من الامتناع عن MDMA يجلبان عادةً تحسنًا واضحًا في المزاج والنوم والتركيز مع تعافي نظام السيروتونين.';
 
   @override
-  String get mdmaMilestone30Title => 'شهر واحد واضح';
+  String get mdmaMilestone30Title => 'شهر من دون MDMA';
 
   @override
   String get mdmaMilestone30Description =>
-      'في غضون شهر، يكون المزاج والتفكير أكثر ثباتًا. يستمر نظام إعادة تدوير السيروتونين في الدماغ في التعافي أثناء التوقف عن تناول عقار إم دي إم إيه.';
+      'بعد شهر يصبح المزاج والتفكير أكثر استقرارًا بكثير. يستمر نظام إعادة امتصاص السيروتونين في الدماغ بالتعافي ما دمت بعيدًا عن MDMA.';
 
   @override
-  String get mdmaMilestone90Title => 'ثلاثة أشهر على';
+  String get mdmaMilestone90Title => 'ثلاثة أشهر';
 
   @override
   String get mdmaMilestone90Description =>
-      'ثلاثة أشهر من الامتناع عن ممارسة الجنس تدعم استمرار تعافي نظام السيروتونين. المزاج والنوم مستقران. القلق يخفف خلال الأشهر التالية.';
+      'ثلاثة أشهر من الامتناع عن MDMA تدعم استمرار تعافي نظام السيروتونين. يكون المزاج والنوم أكثر استقرارًا، ويخف القلق عادةً خلال الأشهر التالية.';
 
   @override
-  String get mdmaMilestone365Title => 'سنة واحدة مجانية';
+  String get mdmaMilestone365Title => 'عام من دون MDMA';
 
   @override
   String get mdmaMilestone365Description =>
-      'سنة خالية من عقار إم دي إم إيه. لقد استغرقت وظيفة السيروتونين والمزاج وقتًا أطول للتعافي، وعادةً ما يتم حل القلق المرتبط بالاستخدام الآن.';
+      'عام كامل من دون MDMA. حصلت وظيفة السيروتونين والمزاج على وقت طويل للتعافي، وعادةً ما يكون القلق المرتبط بالاستخدام قد خف كثيرًا بحلول هذه المرحلة.';
 
   @override
   String get steroidsPageTitle => 'ستيرويدات بنائية';
@@ -663,15 +663,14 @@ class AppLocalizationsAr extends AppLocalizations {
       'وبعد مرور ثلاثة أشهر، يرتفع هرمون التستوستيرون والهرمونات التي تدفعه نحو المستوى الطبيعي بالنسبة لمعظم الناس، وغالبًا ما تتحسن الحالة المزاجية والرغبة الجنسية معهم.';
 
   @override
-  String get steroidsMilestone180Title =>
-      'ستة أشهر – غالبًا ما يتم التعافي منه';
+  String get steroidsMilestone180Title => 'ستة أشهر — تعافٍ متقدم';
 
   @override
   String get steroidsMilestone180Description =>
       'بحلول ستة أشهر، يتعافى العديد من الأشخاص بشكل قوي من الهرمونات، مع عودة هرمون التستوستيرون وهرمونات التحكم الخاصة به إلى النطاق الطبيعي وتخفيف الأعراض.';
 
   @override
-  String get steroidsMilestone365Title => 'سنة واحدة على';
+  String get steroidsMilestone365Title => 'عام كامل';
 
   @override
   String get steroidsMilestone365Description =>
@@ -801,7 +800,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get benzoSubtitleNotStarted => 'انظر ماذا يحدث عند الإقلاع عن التدخين';
 
   @override
-  String get benzoMilestone7Title => 'الأسبوع الأول: اكتمال نافذة بدء الأعراض';
+  String get benzoMilestone7Title => 'الأسبوع الأول: بدء الأعراض';
 
   @override
   String get benzoMilestone7Description =>
@@ -854,14 +853,14 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get benzoMilestone730Description =>
-      'عامين يمثل انتعاشا كبيرا. يتمتع معظم الناس بتفكير أكثر وضوحًا، وعواطف أكثر ثباتًا، ونوعية حياة أفضل بكثير مما كانت عليه أثناء استخدام البنزوديازيبين على المدى الطويل.';
+      'عامان يمثلان تعافيًا كبيرًا. لدى معظم الناس تفكير أوضح بكثير، ومشاعر أكثر استقرارًا، ونوعية حياة أفضل بكثير مما كانت عليه أثناء الاستخدام طويل الأمد للبنزوديازيبينات.';
 
   @override
   String get benzoMilestone1095Title => 'ثلاث سنوات: التعافي طويل الأمد';
 
   @override
   String get benzoMilestone1095Description =>
-      'في ثلاث سنوات، تكون فترة الانسحاب الطويلة بعيدة عن معظم الناس. لقد استغرق النوم والمزاج والذاكرة والاهتمام سنوات للتعافي، وعادةً ما تكون الحياة اليومية أفضل بكثير مما كانت عليه أثناء الاستخدام طويل الأمد.';
+      'بعد ثلاث سنوات، تكون فترة الانسحاب الطويلة قد أصبحت بعيدة بالنسبة إلى معظم الناس. لقد أتيح للنوم والمزاج والذاكرة والانتباه سنوات للتعافي، وعادةً ما تكون الحياة اليومية أفضل بكثير مما كانت عليه أثناء الاستخدام طويل الأمد.';
 
   @override
   String get benzoMilestone1460Title => 'أربع سنوات: تقدم راسخ';
@@ -899,67 +898,67 @@ class AppLocalizationsAr extends AppLocalizations {
   String get methSubtitleNotStarted => 'الحرية في متناول يدك';
 
   @override
-  String get methMilestone1Title => 'أول 24 ساعة - يبدأ الانهيار';
+  String get methMilestone1Title => 'أول 24 ساعة — تبدأ مرحلة الانهيار';
 
   @override
   String get methMilestone1Description =>
-      'تبدأ مرحلة الانهيار الأولية بالتعب الشديد وزيادة الشهية عندما يبدأ جسمك في التعافي. قد تعاني من الاكتئاب وتنام بشدة عندما يبدأ نظامك في الاستقرار نتيجة التحفيز المكثف.';
+      'تبدأ مرحلة الانهيار الأولى بإرهاق شديد وزيادة الشهية مع بدء الجسم في التعافي. قد تشعر باكتئاب وتنام لساعات أطول بينما يبدأ جسمك في الاستقرار بعد التحفيز الشديد.';
 
   @override
-  String get methMilestone3Title => 'اليوم 3 - ذروة الانسحاب';
+  String get methMilestone3Title => 'اليوم الثالث — ذروة أعراض الانسحاب';
 
   @override
   String get methMilestone3Description =>
-      'تشتد الرغبة الشديدة بشكل ملحوظ خلال هذه الفترة حيث يتكيف جسمك. قد تواجه زيادة في الطاقة مقارنة بمرحلة الانهيار، مما قد يجعل الرغبة الشديدة في تناول الطعام أقوى. هذا هو الوقت الحاسم للوقاية من الانتكاس والدعم.';
+      'تشتد الرغبة في التعاطي خلال هذه الفترة بينما يتكيف جسمك. وقد تزداد طاقتك مقارنة بمرحلة الانهيار، ما قد يجعل الرغبة في التعاطي أقوى. هذه فترة مهمة للوقاية من الانتكاس وطلب الدعم.';
 
   @override
-  String get methMilestone7Title => 'أسبوع واحد - تخفيف الأعراض الجسدية';
+  String get methMilestone7Title => 'أسبوع واحد — تخف الأعراض الجسدية';
 
   @override
   String get methMilestone7Description =>
-      'تبدأ أعراض الانسحاب الحادة في التراجع، على الرغم من استمرار التحديات النفسية. تبدأ أنماط نومك في العودة إلى طبيعتها ويقل الانزعاج الجسدي. يمثل هذا الانتقال من الانسحاب الحاد إلى الانسحاب بعد الحاد.';
+      'تبدأ أعراض الانسحاب الحاد في التراجع، مع بقاء بعض التحديات النفسية. يبدأ النوم في الانتظام ويقل الانزعاج الجسدي. وهذا يمثل الانتقال من الانسحاب الحاد إلى المرحلة التالية له.';
 
   @override
-  String get methMilestone30Title => 'شهر واحد - الاستقرار الناشئ';
+  String get methMilestone30Title => 'شهر واحد — بداية الاستقرار';
 
   @override
   String get methMilestone30Description =>
-      'تبدأ مرحلة شهر العسل عندما يشفى جسمك وتبدأ الرغبة الشديدة في تناول الطعام في التلاشي. تزداد مستويات الطاقة ويتحسن المزاج عندما تبدأ كيمياء دماغك في إعادة التوازن. ومع ذلك، يجب أن تظل يقظًا لأن التحديات لا تزال قائمة.';
+      'يواصل جسمك التعافي وتبدأ الرغبة في التعاطي في التراجع. ترتفع الطاقة ويتحسن المزاج مع بدء كيمياء الدماغ في استعادة توازنها. ومع ذلك، من المهم البقاء يقظًا لأن التحديات قد تستمر.';
 
   @override
-  String get methMilestone90Title => 'ثلاثة أشهر - يبدأ شفاء الدماغ';
+  String get methMilestone90Title => 'ثلاثة أشهر — يبدأ تعافي الدماغ';
 
   @override
   String get methMilestone90Description =>
-      'عقلك يتعافى بنشاط. يبدأ الاهتمام والذاكرة وصنع القرار في الشعور بالتحسن مع تحرك نظام المكافأة نحو الوضع الطبيعي.';
+      'يواصل دماغك التعافي. تبدأ القدرة على الانتباه والذاكرة واتخاذ القرار في التحسن مع اقتراب نظام المكافأة من حالة أكثر طبيعية.';
 
   @override
-  String get methMilestone180Title => 'ستة أشهر - تعافي القلب والأوعية الدموية';
+  String get methMilestone180Title => 'ستة أشهر — تعافٍ قلبي وعائي';
 
   @override
   String get methMilestone180Description =>
-      'تظهر وظيفة القلب تحسنًا ملموسًا مع الامتناع عن ممارسة الجنس. تشير الدراسات إلى أن وظيفة القلب يمكن أن تتعافى بشكل ملحوظ خلال هذه الفترة عندما تقترن بالدعم الطبي. يستمر ضغط الدم وإيقاع القلب في الاستقرار.';
+      'قد تُظهر وظيفة القلب تحسنًا قابلًا للقياس بعد التوقف عن الميثامفيتامين. وتشير الدراسات إلى إمكان تحسنها بدرجة مهمة خلال هذه الفترة، خصوصًا مع الدعم الطبي. كما يواصل ضغط الدم ونظم القلب الاستقرار.';
 
   @override
-  String get methMilestone365Title => 'سنة واحدة - تعافي الدماغ بشكل كبير';
+  String get methMilestone365Title => 'عام واحد — تعافٍ كبير للدماغ';
 
   @override
   String get methMilestone365Description =>
-      'وبعد مرور عام، حقق نظام الدوبامين مكاسب كبيرة. تبدو المكافآت الطبيعية أكثر فائدة مرة أخرى، في حين أن الحالة المزاجية والذاكرة وصنع القرار أفضل بشكل ملحوظ.';
+      'بعد عام، يكون نظام الدوبامين قد حقق تقدمًا كبيرًا في التعافي. تعود الأنشطة اليومية لتمنح إحساسًا أكبر بالمكافأة، بينما يتحسن المزاج والذاكرة واتخاذ القرار بوضوح.';
 
   @override
-  String get methMilestone420Title => '14 شهرًا - تطبيع الدوبامين';
+  String get methMilestone420Title => '14 شهرًا — تعافي نظام الدوبامين';
 
   @override
   String get methMilestone420Description =>
-      'تُظهر فحوصات الدماغ أن بروتينات إعادة تدوير الدوبامين تقترب من مستويات صحية في هذه المرحلة. تستمر الذاكرة والتحفيز والقدرة على الاستمتاع بالأنشطة اليومية في التحسن.';
+      'تُظهر صور الدماغ أن البروتينات التي تعيد تدوير الدوبامين تقترب في هذه المرحلة من مستويات الأصحاء. وتواصل الذاكرة والدافعية والقدرة على الاستمتاع بالأنشطة اليومية التحسن.';
 
   @override
-  String get methMilestone730Title => 'سنتان - التعافي المستدام';
+  String get methMilestone730Title => 'عامان — تعافٍ مستمر';
 
   @override
   String get methMilestone730Description =>
-      'عامين بدون الميثامفيتامين يمنح الدماغ وقتًا مستدامًا للشفاء. يستمر الاهتمام والمزاج والذاكرة ونوعية الحياة اليومية في التحسن.';
+      'يمنح عامان من دون ميثامفيتامين الدماغ وقتًا طويلًا لمواصلة التعافي. ويمكن أن يستمر تحسن الانتباه والمزاج والذاكرة وجودة الحياة اليومية.';
 
   @override
   String get addictionNitrousOxide => 'أكسيد النيتروز';
@@ -1023,8 +1022,7 @@ class AppLocalizationsAr extends AppLocalizations {
       'ثلاثة أشهر دون تدمير فيتامين B12 تعني ثلاثة أشهر من إصلاح الأعصاب. يتمتع الجهاز العصبي بالمرونة، حيث يرى معظم الأشخاص الذين بدأوا العلاج على الفور تعافيًا ملحوظًا في الوخز والضعف وضباب الدماغ عند هذه النقطة.';
 
   @override
-  String get nitrousOxideMilestone365Title =>
-      'سنة واحدة - تأمين صحي على المدى الطويل';
+  String get nitrousOxideMilestone365Title => 'سنة واحدة - حماية طويلة الأمد';
 
   @override
   String get nitrousOxideMilestone365Description =>
@@ -1053,68 +1051,67 @@ class AppLocalizationsAr extends AppLocalizations {
       'تعرف على التغييرات الإيجابية التي تنتظرك';
 
   @override
-  String get cocaineMilestone1Title => 'أول 24 ساعة - البداية';
+  String get cocaineMilestone1Title => 'أول 24 ساعة: البداية';
 
   @override
   String get cocaineMilestone1Description =>
-      'يبدأ جسمك في التكيف عندما تبدأ مستويات الدوبامين في الاستقرار. قد تشعر بالتعب وتغيرات المزاج والرغبة الشديدة في تناول الطعام، لكن نظام القلب والأوعية الدموية لديك بدأ بالفعل في التعافي.';
+      'يبدأ جسمك بالتكيف مع بدء استقرار مستويات الدوبامين. قد تشعر بالتعب وتغيرات المزاج ورغبة شديدة في تعاطي الكوكايين، لكن جهازك القلبي الوعائي يبدأ بالفعل في التعافي.';
 
   @override
-  String get cocaineMilestone3Title => 'اليوم 3 - تحدي الذروة';
+  String get cocaineMilestone3Title => 'اليوم الثالث: ذروة التحدي';
 
   @override
   String get cocaineMilestone3Description =>
-      'غالبًا ما تبلغ أعراض الانسحاب ذروتها في هذا الوقت تقريبًا. قد تواجه الرغبة الشديدة الشديدة، والتهيج، والقلق، والإرهاق. هذا أمر مؤقت، فعقلك يعمل بجد لإعادة توازن نفسه.';
+      'غالبًا ما تبلغ أعراض الانسحاب ذروتها في هذه الفترة. قد تشعر برغبة شديدة في التعاطي والتهيّج والقلق والإرهاق. هذا مؤقت؛ فدماغك يعمل على استعادة توازنه.';
 
   @override
-  String get cocaineMilestone7Title => 'أسبوع واحد - يبدأ التعافي الجسدي';
+  String get cocaineMilestone7Title => 'أسبوع واحد: بدء التعافي الجسدي';
 
   @override
   String get cocaineMilestone7Description =>
-      'بدأت الأعراض الجسدية الأكثر شدة في التراجع. يستقر معدل ضربات القلب وضغط الدم. في حين أن الرغبة الشديدة في تناول الطعام قد تستمر، إلا أن جسمك يتعافى.';
+      'تبدأ أشد الأعراض الجسدية في الانحسار. يستقر معدل ضربات القلب وضغط الدم. وقد تستمر الرغبة النفسية في التعاطي، بينما يواصل جسمك التعافي.';
 
   @override
-  String get cocaineMilestone14Title => 'أسبوعين - إيجاد الاستقرار';
+  String get cocaineMilestone14Title => 'أسبوعان: استعادة الاستقرار';
 
   @override
   String get cocaineMilestone14Description =>
-      'يبدأ الكثير من الناس في الشعور بمزيد من الاستقرار العاطفي. تتحسن مستويات الطاقة لديك، وتتراجع أعراض الانسحاب الحادة. تستمر صحة القلب والأوعية الدموية في التحسن بشكل ملحوظ.';
+      'يبدأ كثير من الناس بالشعور باستقرار عاطفي أكبر. تتحسن مستويات الطاقة وتخف أعراض الانسحاب الحادة. وتستمر صحة القلب والأوعية الدموية في التحسن.';
 
   @override
-  String get cocaineMilestone60Title => 'شهرين - تحسن النوم والمزاج';
+  String get cocaineMilestone60Title => 'شهران: تحسن النوم والمزاج';
 
   @override
   String get cocaineMilestone60Description =>
-      'تتحسن جودة نومك بشكل ملحوظ مع استمرار كيمياء دماغك في العودة إلى طبيعتها. قد تجد نفسك تشعر بمزيد من الراحة وتختبر حالة مزاجية أكثر استقرارًا طوال اليوم.';
+      'تتحسن جودة نومك بصورة ملحوظة مع استمرار عودة كيمياء الدماغ نحو طبيعتها. قد تشعر براحة أكبر وبمزاج أكثر استقرارًا خلال اليوم.';
 
   @override
-  String get cocaineMilestone90Title => 'ثلاثة أشهر - ترميم الدماغ';
+  String get cocaineMilestone90Title => 'ثلاثة أشهر: تعافي الدماغ';
 
   @override
   String get cocaineMilestone90Description =>
-      'نظام الدوبامين الخاص بك يتعافى. التركيز، واتخاذ القرار، والتحكم في الانفعالات أفضل بشكل ملحوظ، والتفكير أكثر وضوحًا.';
+      'يتعافى نظام الدوبامين لديك. يتحسن التركيز واتخاذ القرار وتنظيم المشاعر بصورة ملحوظة، ويصبح التفكير أوضح.';
 
   @override
-  String get cocaineMilestone180Title => 'ستة أشهر - تفكير أكثر وضوحًا';
+  String get cocaineMilestone180Title => 'ستة أشهر: تفكير أوضح';
 
   @override
   String get cocaineMilestone180Description =>
-      'تظهر فحوصات الدماغ تعافي الجزء الأمامي من الدماغ، وهي المنطقة التي تدعم التخطيط وضبط النفس. تستمر الذاكرة والتحكم في الانفعالات والتفكير الواضح في التعزيز.';
+      'تُظهر صور الدماغ تعافيًا في الجزء الأمامي من الدماغ، وهو المنطقة التي تدعم التخطيط وضبط النفس. وتستمر الذاكرة والتحكم في الاندفاع والتفكير الواضح في التحسن.';
 
   @override
-  String get cocaineMilestone365Title =>
-      'سنة واحدة - صحة القلب والأوعية الدموية';
+  String get cocaineMilestone365Title => 'عام واحد: صحة القلب والأوعية الدموية';
 
   @override
   String get cocaineMilestone365Description =>
-      'لقد حقق قلبك ونظام القلب والأوعية الدموية تعافيًا ملحوظًا. يتم تطبيع ضغط الدم ومعدل ضربات القلب. انخفض خطر الإصابة بالنوبات القلبية والسكتات الدماغية بشكل ملحوظ. جسمك يتعافى.';
+      'حقق قلبك وجهازك القلبي الوعائي تعافيًا ملحوظًا. عاد ضغط الدم ومعدل ضربات القلب إلى طبيعتهما. وانخفض خطر النوبة القلبية والسكتة الدماغية بصورة كبيرة. ويواصل جسمك التعافي.';
 
   @override
-  String get cocaineMilestone730Title => 'سنتان - التعافي المستدام';
+  String get cocaineMilestone730Title => 'عامان: تعافٍ مستمر';
 
   @override
   String get cocaineMilestone730Description =>
-      'يستمر شفاء الدماغ من خلال التحسينات المستمرة في الذاكرة والتركيز والتنظيم العاطفي. لقد أعيد تنظيم مساراتك العصبية بشكل كبير، مما يدعم أنماطًا أكثر صحة وصحة أفضل بشكل عام.';
+      'يستمر تعافي الدماغ مع تحسن مستمر في الذاكرة والتركيز وتنظيم المشاعر. وقد أعيد تنظيم المسارات العصبية بدرجة ملحوظة، بما يدعم أنماطًا أكثر صحة وتحسنًا في الرفاه العام.';
 
   @override
   String get cocaineMilestone1095Title => 'ثلاث سنوات: أساس أقوى';
@@ -2196,7 +2193,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get alcoholMilestone60Description =>
-      'يُظهر الكبد تحسنًا ملحوظًا في وظائفه. يمكن لهذا العضو المتجدد أن يتعافى بشكل ملحوظ من الأضرار الناجمة عن الكحول، حيث تظهر إنزيمات الكبد وتراكم الدهون تحسنًا خلال شهرين من الامتناع عن ممارسة الجنس.';
+      'يُظهر الكبد تحسنًا ملحوظًا في وظائفه. هذا العضو قادر على التجدد ويمكن أن يتعافى بدرجة كبيرة من الأضرار المرتبطة بالكحول، إذ تتحسن إنزيمات الكبد وتراكم الدهون خلال نحو شهرين من الامتناع عن الكحول.';
 
   @override
   String get alcoholMilestone90Title => 'تحسن التفكير والذاكرة بشكل كبير';
@@ -2210,31 +2207,31 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get alcoholMilestone180Description =>
-      'ستة أشهر من الرصين تمنح الدماغ وقتًا مستدامًا للتعافي. يستمر حجم الدماغ ومهارات التفكير في التحسن.';
+      'ستة أشهر بلا كحول تمنح الدماغ وقتًا ممتدًا للتعافي. ويستمر حجم الدماغ والقدرات المعرفية في التحسن.';
 
   @override
   String get alcoholMilestone365Title => 'قد يبدأ الحد من مخاطر السرطان';
 
   @override
   String get alcoholMilestone365Description =>
-      'سنة واحدة من الامتناع عن ممارسة الجنس قد تبدأ في تقليل خطر الإصابة بالسرطان. في حين أن الكحول يزيد بشكل واضح من خطر الإصابة بالعديد من أنواع السرطان (الكبد والثدي والقولون والمستقيم والمريء)، إلا أن الأبحاث حول الجدول الزمني للحد من المخاطر لا تزال في طور الظهور وتختلف حسب نوع السرطان.';
+      'عام كامل من الامتناع عن الكحول قد يبدأ معه انخفاض خطر بعض السرطانات. فالكحول يزيد بوضوح خطر عدة سرطانات (الكبد والثدي والقولون والمستقيم والمريء)، لكن أبحاث توقيت انخفاض الخطر ما تزال تتطور وتختلف حسب نوع السرطان.';
 
   @override
-  String get smokingMilestone1Title => 'يخلص من أول أكسيد الكربون';
+  String get smokingMilestone1Title => 'انخفاض أول أكسيد الكربون';
 
   @override
   String get smokingMilestone1Description =>
       'دمك يتنفس من جديد! وفي غضون 24 ساعة، تنخفض مستويات أول أكسيد الكربون إلى وضعها الطبيعي وترتفع مستويات الأكسجين. لن يحتاج قلبك إلى العمل الإضافي بعد الآن لضخ الدم المسموم إلى جميع أنحاء جسمك.';
 
   @override
-  String get smokingMilestone3Title => 'قمم انسحاب النيكوتين';
+  String get smokingMilestone3Title => 'ذروة انسحاب النيكوتين';
 
   @override
   String get smokingMilestone3Description =>
       'وحش النيكوتين في أشد حالاته غضبًا، لكنك تفوز بالمعركة! لقد ترك كل النيكوتين نظامك. أسوأ الرغبات تحدث الآن، لكنها أيضًا تذكرتك إلى الحرية على الجانب الآخر.';
 
   @override
-  String get smokingMilestone7Title => 'تحسن التذوق والشم بشكل كبير';
+  String get smokingMilestone7Title => 'تحسن التذوق والشم';
 
   @override
   String get smokingMilestone7Description =>
@@ -2248,31 +2245,28 @@ class AppLocalizationsAr extends AppLocalizations {
       'ساقيك تشكرك في كل خطوة! تتحسن الدورة الدموية بشكل كبير، مما يجعل المشي وممارسة الرياضة أسهل بشكل ملحوظ. تلك السلالم لم تعد مخيفة بعد الآن، أليس كذلك؟';
 
   @override
-  String get smokingMilestone30Title => 'تزيد وظائف الرئة';
+  String get smokingMilestone30Title => 'تحسن وظائف الرئة';
 
   @override
   String get smokingMilestone30Description =>
       'رئتيك تقيمان حفلة عودة! لقد نمت الأهداب من جديد وهي تزيل سنوات من القطران والحطام. تزداد سعة الرئة بشكل كبير، وأصبح سعال المدخن أمرًا تاريخيًا.';
 
   @override
-  String get smokingMilestone90Title =>
-      'ينخفض ​​خطر الإصابة بالنوبات القلبية بشكل ملحوظ';
+  String get smokingMilestone90Title => 'خطر النوبة القلبية ينخفض';
 
   @override
   String get smokingMilestone90Description =>
       'قلبك يرسل رسائل حب! ثلاثة أشهر خالية من التدخين، وقد انخفض بالفعل خطر الإصابة بأمراض القلب والأوعية الدموية بشكل كبير. يتعافى نظام القلب والأوعية الدموية لديك بشكل أسرع مما تظن أنه ممكن.';
 
   @override
-  String get smokingMilestone180Title =>
-      'خلايا المناعة في الرئتين تستعيد قوتها';
+  String get smokingMilestone180Title => 'مناعة الرئتين تتعافى';
 
   @override
   String get smokingMilestone180Description =>
       'ستة أشهر بلا تدخين إنجاز حقيقي لمناعة الرئتين. في دراسة جراحية، كانت استجابات البلاعم السنخية المقاومة للبكتيريا لدى من مضى على إقلاعهم 3–12 شهرًا أقرب إلى نمط غير المدخنين منها لدى من أقلعوا منذ شهرين. لقد حظيت خلايا الدفاع الأمامية في رئتيك بأشهر من التعافي.';
 
   @override
-  String get smokingMilestone365Title =>
-      'يقلل خطر الإصابة بالسكتة الدماغية بشكل كبير';
+  String get smokingMilestone365Title => 'خطر السكتة ينخفض';
 
   @override
   String get smokingMilestone365Description =>
@@ -2300,8 +2294,7 @@ class AppLocalizationsAr extends AppLocalizations {
       'أربعة أعوام بلا تدخين تقع داخل فترة 3–6 أعوام التي تشير إليها مراكز مكافحة الأمراض، حيث ينخفض الخطر الإضافي لمرض الشريان التاجي إلى النصف. وتستمر الفائدة القلبية الوعائية طويلة الأمد في الازدياد.';
 
   @override
-  String get smokingMilestone1825Title =>
-      'تنخفض مخاطر بعض السرطانات بقوة (5–10 سنوات)';
+  String get smokingMilestone1825Title => '٥–١٠ سنوات: مخاطر السرطان تنخفض';
 
   @override
   String get smokingMilestone1825Description =>
@@ -2319,7 +2312,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get marijuanaMilestone3Description =>
-      'أنت في أصعب نقطة، ولكن كل شيء شاق من هنا! عادةً ما تشهد الأيام من 2 إلى 6 ذروة أعراض الانسحاب بما في ذلك الصداع والتعرق وتغيرات المزاج. جسمك يعمل بجد لإعادة توازن نفسه.';
+      'أنت في أصعب مرحلة، لكن من هنا تبدأ الأمور بالتحسن! عادة ما تبلغ أعراض الانسحاب ذروتها بين اليومين 2 و6، بما في ذلك الصداع والتعرق وتغيرات المزاج. جسمك يعمل بجد ليستعيد توازنه.';
 
   @override
   String get marijuanaMilestone7Title => 'تحسين أنماط النوم';
@@ -2340,14 +2333,14 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get marijuanaMilestone30Description =>
-      'ضباب عقلك يتلاشى! تظهر الأبحاث أن التعلم اللفظي والذاكرة يبدأان في التحسن بشكل ملحوظ بعد التوقف عن تعاطي القنب. ويبدأ الحُصين، وهو الحُصين، وهو أمر بالغ الأهمية لتكوين الذاكرة، في العمل بشكل أفضل.';
+      'ضباب الدماغ يتلاشى! تشير الأبحاث إلى أن التعلم اللفظي والذاكرة يبدآن بالتحسن بعد التوقف عن القنب. ويبدأ الحُصين، المهم لتكوين الذاكرة، في العمل بصورة أفضل.';
 
   @override
-  String get marijuanaMilestone60Title => 'التركيز يشحذ';
+  String get marijuanaMilestone60Title => 'تحسن التركيز';
 
   @override
   String get marijuanaMilestone60Description =>
-      'وضع التركيز: مفعل! شهرين بدون الحشيش وقدرتك على التركيز والحفاظ على الاهتمام تظهر تحسنا ملحوظا. تصبح إدارة مهام العمل والدراسة أسهل بشكل ملحوظ.';
+      'وضع التركيز يعود! بعد شهرين من دون القنب تتحسن قدرتك على التركيز والحفاظ على الانتباه بشكل ملحوظ، وتصبح مهام العمل والدراسة أسهل في الإدارة.';
 
   @override
   String get marijuanaMilestone90Title => 'عودة استقرار المزاج';
@@ -2361,7 +2354,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get marijuanaMilestone180Description =>
-      'لقد عاد مديرك العقلي إلى المسؤولية! ستة أشهر بدون الحشيش تحقق مكاسب كبيرة في التخطيط وصنع القرار وحل المشكلات.';
+      'وظائفك التنفيذية تعود إلى القيادة! ستة أشهر من دون القنب ترتبط بمكاسب كبيرة في التخطيط واتخاذ القرار وحل المشكلات.';
 
   @override
   String get marijuanaMilestone365Title => 'استعادة بنية الدماغ';
@@ -2457,71 +2450,67 @@ class AppLocalizationsAr extends AppLocalizations {
       'خمس سنوات تعني نصف عقد من التغيير المستمر. إنه إنجاز كبير يستحق الاحتفال بحد ذاته.';
 
   @override
-  String get socialMediaMilestone1Title =>
-      'التخلص من السموم الرقمية في اليوم الأول! 🎯';
+  String get socialMediaMilestone1Title => 'أول يوم من الراحة الرقمية 🎯';
 
   @override
   String get socialMediaMilestone1Description =>
-      'لقد بدأت رسميًا في تجديد دماغك! تظهر الأبحاث أن مجرد التفكير في التحقق من وسائل التواصل الاجتماعي يثير نفس المسارات العصبية التي يسببها الإدمان. لكنك تكسر الدائرة بالفعل - انطلق!';
+      'لقد بدأت تغيير عاداتك الرقمية. قد تبقى رغبة التحقق من وسائل التواصل قوية، لكن كل مرة تختار فيها عدم فتحها تضعف النمط القديم.';
 
   @override
-  String get socialMediaMilestone3Title => 'FOMO؟ أشبه FO-NO! 😉';
+  String get socialMediaMilestone3Title => 'FOMO؟ أقل فأقل 😎';
 
   @override
   String get socialMediaMilestone3Description =>
-      'ثلاثة أيام وهؤلاء القلقون \"ما الذي أفتقده؟\" الأفكار تتلاشى بالفعل. أنت تدرب عقلك على أن الحياة الحقيقية هي أكثر إثارة للاهتمام من الخلاصات المنسقة!';
+      'مرت ثلاثة أيام، وأفكار مثل «ماذا أفوّت؟» بدأت تخفت. أنت تعيد توجيه انتباهك إلى الحياة الحقيقية بدل الخلاصات المنتقاة.';
 
   @override
-  String get socialMediaMilestone7Title =>
-      'مدى الانتباه: السمكة الذهبية → الإنسان 🧠';
+  String get socialMediaMilestone7Title => 'تركيزك يعود 🧠';
 
   @override
   String get socialMediaMilestone7Description =>
-      'الأسبوع الأول كامل! إن قدرتك على التركيز دون التحقق من هاتفك كل بضع دقائق تتحسن بالفعل. تظهر الدراسات أن أدمغتنا تتوق إلى الحصول على الدوبامين من الإشعارات - لكنك تعلم عقلك كيفية العثور على المكافآت في مكان آخر!';
+      'أكملت أسبوعك الأول. أصبح التركيز من دون تفقد الهاتف كل بضع دقائق أسهل، وأنت تبني مصادر للمتعة بعيدًا عن الإشعارات.';
 
   @override
-  String get socialMediaMilestone14Title => 'النوم مثل الطفل (وليس زومبي) 😴';
+  String get socialMediaMilestone14Title => 'أسبوعان ونوم أهدأ 😴';
 
   @override
   String get socialMediaMilestone14Description =>
-      'أسبوعين دون التمرير قبل النوم = جودة نوم أفضل! الضوء الأزرق المنبعث من الشاشات يمنع إنتاج الميلاتونين، لكن إيقاعات نومك الطبيعية تعود بشكل جميل.';
+      'أسبوعان من دون التمرير المعتاد قبل النوم يتركان مساحة أكبر لروتين مسائي أهدأ ونوم أفضل.';
 
   @override
-  String get socialMediaMilestone30Title =>
-      'الأصدقاء الحقيقيون> اللايكات المزيفة 💝';
+  String get socialMediaMilestone30Title => 'أصدقاء حقيقيون لا إعجابات 💝';
 
   @override
   String get socialMediaMilestone30Description =>
-      'شهر واحد دون الاتصال بالإنترنت = انخفاض كبير في الشعور بالوحدة والاكتئاب! تثبت الأبحاث أن الحد من وسائل التواصل الاجتماعي يؤدي إلى تحسينات كبيرة في الصحة العقلية. لقد ذهبت إلى أبعد من ذلك!';
+      'شهر مع استخدام أقل بكثير لوسائل التواصل يعني وقتًا وانتباهًا أكثر للعلاقات الحقيقية والأنشطة التي تختارها أنت.';
 
   @override
-  String get socialMediaMilestone60Title => 'فخ المقارنة: هرب! ✨';
+  String get socialMediaMilestone60Title => 'خارج فخ المقارنة ✨';
 
   @override
   String get socialMediaMilestone60Description =>
-      'شهرين دون مقارنة اجتماعية مستمرة = ثقة تتخطى الحدود! تظهر الأبحاث باستمرار أن استخدام وسائل التواصل الاجتماعي يرتبط بانخفاض احترام الذات، خاصة من خلال المقارنات الاجتماعية التصاعدية. لقد تحررت من فخ المقارنة!';
+      'شهران من دون المقارنة الاجتماعية المستمرة يمنحانك مساحة أكبر لبناء تقديرك لذاتك على حياتك أنت، لا على منشورات الآخرين.';
 
   @override
-  String get socialMediaMilestone90Title => 'مستوى جامع الهوايات: خبير 🎨';
+  String get socialMediaMilestone90Title => 'وقت أكثر للهوايات 🎨';
 
   @override
   String get socialMediaMilestone90Description =>
-      'ثلاثة أشهر = حوالي 270+ ساعة مستصلحة! وهذا وقت كافٍ لتعلم مهارة ما، أو قراءة أكثر من 15 كتابًا، أو التعمق في إحدى الهوايات. يعمل دماغك على تقوية العادات التي تكررها، لذلك تصبح تلك الإجراءات الروتينية خارج الإنترنت أسهل وأكثر تلقائية.';
+      'ثلاثة أشهر تعني وقتًا كثيرًا استعدته. الروتينات خارج الإنترنت التي تكررها أصبحت أسهل وأكثر تلقائية.';
 
   @override
-  String get socialMediaMilestone180Title => 'اكتمال توهج الصحة العقلية 🌟';
+  String get socialMediaMilestone180Title => '6 أشهر والاهتمام بيدك 🌟';
 
   @override
   String get socialMediaMilestone180Description =>
-      'ستة أشهر دون اتصال بالإنترنت وأنت مزدهر رسميًا! تظهر الدراسات طويلة المدى أن تقليل استخدام وسائل التواصل الاجتماعي يؤدي إلى تحسينات مستدامة في الرفاهية واحترام الذات والرضا عن الحياة. أنت دليل حي على أن الحياة أفضل في العالم الحقيقي!';
+      'ستة أشهر من الحفاظ على حدودك الرقمية إنجاز كبير. لقد أثبت لنفسك أن الخلاصة لا يجب أن تقرر أين يذهب انتباهك.';
 
   @override
-  String get socialMediaMilestone365Title =>
-      'تم تحقيق برنامج Zen Master الرقمي 🏆';
+  String get socialMediaMilestone365Title => 'عام من الخيارات الرقمية 🏆';
 
   @override
   String get socialMediaMilestone365Description =>
-      'سنة كاملة من العيش المتعمد! لقد استعدت أكثر من 1000 ساعة، وكوّنت علاقات أعمق، وأثبتت أن أفضل اللحظات في الحياة ليست مخصصة للمشاركة، بل للتجربة. أنت رسميًا أسطورة العافية الرقمية!';
+      'عام كامل من القرارات الرقمية الواعية. تراجع اندفاع التحقق التلقائي مع الوقت، بينما نمت العلاقات والاهتمامات والعادات خارج الإنترنت.';
 
   @override
   String get nicotinePouchesMilestone1Title => 'بدأ الانسحاب';
@@ -2663,11 +2652,11 @@ class AppLocalizationsAr extends AppLocalizations {
       'عادة ما يبلغ الأشخاص الذين يعانون من استخدام إشكالي أكثر شدة عن أفكار جنسية متطفلة، ورغبة يصعب السيطرة عليها، والتهيج، وتغيرات المزاج، ومشاكل في النوم. يعد اليوم الثالث نقطة مفيدة لتحديد أي من هذه الأمور يحدث بالفعل بالنسبة لك.';
 
   @override
-  String get pornographyMilestone7Title => 'أسبوع واحد: أدلة المحاكمة';
+  String get pornographyMilestone7Title => 'أسبوع واحد: ما تقوله الدراسة';
 
   @override
   String get pornographyMilestone7Description =>
-      'في دراسة الامتناع العشوائية لمدة 7 أيام، لم يظهر المستخدمون المنتظمون أي متلازمة انسحاب شاملة. كان لدى المجموعة الفرعية الاستكشافية ذات الاستخدام الإشكالي العالي والمشاهدة اليومية المزيد من الرغبة الشديدة، لذا فإن الأسبوع الأول الخام ممكن ولكنه ليس حتميًا.';
+      'في دراسة عشوائية للامتناع عن مشاهدة المواد الإباحية لمدة 7 أيام، لم يظهر المستخدمون المنتظمون متلازمة انسحاب عامة. أظهرت مجموعة فرعية استكشافية جمعت بين الاستخدام الإشكالي المرتفع والمشاهدة اليومية رغبة أشد؛ لذا قد يكون الأسبوع الأول صعبًا، لكنه ليس كذلك بالضرورة.';
 
   @override
   String get pornographyMilestone14Title => 'خريطة المشغلات الخاصة بك';
@@ -2758,7 +2747,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get customMilestone14Description =>
-      'عقلك ينظف! غالبًا ما يؤدي أسبوعين من الرصانة إلى تحسين الوضوح العقلي وتقليل الرغبة الشديدة حيث يبدأ عقلك في التكيف مع العمل بدون مواد مسببة للإدمان.';
+      'ذهنك يصفو! غالبًا ما يجلب أسبوعان من الامتناع وضوحًا ذهنيًا أفضل ورغبة أقل في التعاطي، بينما يبدأ الدماغ في التكيف مع العمل من دون المواد المسببة للإدمان.';
 
   @override
   String get customMilestone30Title => 'معلم شهر واحد';
@@ -2786,14 +2775,14 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get customMilestone365Description =>
-      'إنجاز لا يصدق! تمثل سنة واحدة من الرصانة علامة فارقة في الحياة. يعاني العديد من الأشخاص من تحسينات كبيرة في الصحة البدنية والعلاقات والرفاهية العامة بحلول هذه المرحلة.';
+      'إنجاز رائع! تمثل سنة كاملة من الامتناع علامة فارقة مهمة في الحياة. يلاحظ كثير من الناس بحلول هذه المرحلة تحسنًا واضحًا في الصحة البدنية والعلاقات والرفاه العام.';
 
   @override
   String get customMilestone730Title => 'سنتان من التعافي المستدام';
 
   @override
   String get customMilestone730Description =>
-      'لقد بنيت حياة جديدة! إن عامين من التعافي يظهران مرونة والتزاماً ملحوظين. غالبًا ما يؤدي الاعتدال على المدى الطويل إلى تغييرات إيجابية عميقة في جميع مجالات الحياة ويقلل بشكل كبير من خطر الانتكاس.';
+      'لقد بنيت حياة جديدة! يظهر عامان من التعافي مرونة والتزامًا ملحوظين. وغالبًا ما يرتبط التعافي طويل الأمد بتغييرات إيجابية عميقة في مجالات الحياة المختلفة وانخفاض خطر الانتكاس.';
 
   @override
   String get customMilestone1095Title => 'ثلاث سنوات: جذور راسخة';
@@ -2848,22 +2837,21 @@ class AppLocalizationsAr extends AppLocalizations {
   String get ssriSubtitleNotStarted => 'انظر ماذا يحدث عند التناقص التدريجي';
 
   @override
-  String get ssriMilestone3Title => 'اليوم 3: قمم متلازمة النهاية';
+  String get ssriMilestone3Title => 'اليوم 3: ذروة متلازمة FINISH';
 
   @override
   String get ssriMilestone3Description =>
       'غالبًا ما تبلغ أعراض الانسحاب ذروتها في الأيام 2-4 تقريبًا. تغير مثبطات استرداد السيروتونين الانتقائية كيفية إعادة تدوير السيروتونين، لذلك يحتاج الدماغ إلى وقت للتكيف بعد التوقف. توقع ظهور أعراض تشبه أعراض الأنفلونزا، والدوخة، والأرق، والغثيان، و\"صعقات الدماغ\". يميل الباروكستين إلى التسبب في انسحاب أقوى. يستمر فلوكستين لفترة أطول في الجسم وعادة ما يكون أكثر اعتدالًا.';
 
   @override
-  String get ssriMilestone7Title =>
-      'أسبوع واحد: بداية المرحلة الحادة في التراجع';
+  String get ssriMilestone7Title => 'أسبوع: بدء انحسار المرحلة الحادة';
 
   @override
   String get ssriMilestone7Description =>
       'بدأت الأعراض الجسدية الأكثر شدة في التراجع. يقوم دماغك بتعديل إشارات السيروتونين الخاصة به ليعمل بدون الدواء. بدأ النوم والشهية في الاستقرار.';
 
   @override
-  String get ssriMilestone14Title => 'أسبوعين: حل الأعراض الجسدية';
+  String get ssriMilestone14Title => 'أسبوعان: تراجع الأعراض الجسدية';
 
   @override
   String get ssriMilestone14Description =>
@@ -2877,7 +2865,7 @@ class AppLocalizationsAr extends AppLocalizations {
       'شهر واحد يمثل معلما هاما. تتحسن جودة النوم، وتستقر مستويات الطاقة، ويلاحظ العديد من الأشخاص أن مزاجهم بدأ في العثور على توازن جديد. يستعيد الدماغ بنشاط تنظيم السيروتونين الطبيعي.';
 
   @override
-  String get ssriMilestone90Title => 'ثلاثة أشهر: منحنى أعراض الانسحاب يتغيّر';
+  String get ssriMilestone90Title => '3 أشهر: منعطف أعراض الانسحاب';
 
   @override
   String get ssriMilestone90Description =>
@@ -2922,14 +2910,14 @@ class AppLocalizationsAr extends AppLocalizations {
   String get snriSubtitleNotStarted => 'انظر ماذا يحدث عند التناقص التدريجي';
 
   @override
-  String get snriMilestone3Title => 'اليوم الثالث: ذروة متلازمة التوقف الشديد';
+  String get snriMilestone3Title => 'اليوم 3: ذروة أعراض التوقف';
 
   @override
   String get snriMilestone3Description =>
-      'ترتبط مثبطات استرداد السيروتونين الانتقائية — وخاصة فينلافاكسين (إيفكسور) — ببعض من أشد متلازمات التوقف عن تناول مضادات الاكتئاب. إن نصف عمر الفينلافاكسين القصير جدًا (5 ساعات) يعني أن الأعراض يمكن أن تكون أكثر شدة من معظم مثبطات استرداد السيروتونين الانتقائية. تؤثر الأعراض النهائية (المشاعر الشبيهة بالأنفلونزا، والأرق، والغثيان، وعدم التوازن، والاضطرابات الحسية، وفرط اليقظة) على كل من نظامي السيروتونين والنورإبينفرين في وقت واحد.';
+      'ترتبط مثبطات استرداد السيروتونين والنورإبينفرين (SNRIs) — وخاصة فينلافاكسين (إيفكسور) — ببعض من أشد متلازمات التوقف عن مضادات الاكتئاب. ويعني نصف عمر فينلافاكسين القصير جدًا (5 ساعات) أن الأعراض قد تكون أشد من معظم مثبطات استرداد السيروتونين الانتقائية (SSRIs). وتؤثر أعراض FINISH (أعراض شبيهة بالإنفلونزا، والأرق، والغثيان، وعدم التوازن، والاضطرابات الحسية، وفرط الاستثارة) في نظامي السيروتونين والنورإبينفرين معًا.';
 
   @override
-  String get snriMilestone7Title => 'أسبوع واحد: تعديل نظامين كيميائيين للدماغ';
+  String get snriMilestone7Title => 'أسبوع: تكيف نظامين عصبيين';
 
   @override
   String get snriMilestone7Description =>
@@ -2950,7 +2938,7 @@ class AppLocalizationsAr extends AppLocalizations {
       'شهر واحد يمثل معلما هاما. يقوم كل من نظامي السيروتونين والنورإبينفرين بإعادة التوازن بشكل فعال. تستقر جودة النوم ومستويات الطاقة. يلاحظ العديد من الأشخاص تحسنًا في النطاق العاطفي حيث يبدأ تأثير الدواء على التدهور العاطفي في التلاشي.';
 
   @override
-  String get snriMilestone90Title => 'ثلاثة أشهر: تجاوز فترة الانسحاب المعتادة';
+  String get snriMilestone90Title => '3 أشهر: تجاوز فترة الانسحاب';
 
   @override
   String get snriMilestone90Description =>
@@ -3053,8 +3041,7 @@ class AppLocalizationsAr extends AppLocalizations {
       'يبدأ انسحاب مضادات الاكتئاب عادة خلال بضعة أيام وغالبًا يستمر بضعة أسابيع. بعد أسبوع قد تظل أعراض مثل الغثيان والتعرق واضطراب النوم والخفقان والدوخة موجودة. سبعة أيام تقدم حقيقي، ويمكن أن يستمر التحسن وفق جداول زمنية مختلفة.';
 
   @override
-  String get tcaMilestone14Title =>
-      'أسبوعان: الانسحاب الحاد غالبًا يبدأ بالانحسار';
+  String get tcaMilestone14Title => 'أسبوعان: الانسحاب الحاد يخف';
 
   @override
   String get tcaMilestone14Description =>
@@ -3068,8 +3055,7 @@ class AppLocalizationsAr extends AppLocalizations {
       'تستمر أعراض التوقف عن مضادات الاكتئاب عادةً من أسبوع إلى أسبوعين. عند 30 يومًا، يكون معظم الناس قد تجاوزوا تلك المرحلة الحادة، وتكون الأعراض الشبيهة بالإنفلونزا والغثيان واضطراب التوازن والأرق والاضطرابات الحسية وفرط الاستثارة قد هدأت أو زالت عادةً.';
 
   @override
-  String get tcaMilestone90Title =>
-      'ثلاثة أشهر: الانسحاب الحاد أصبح خلفك غالبًا';
+  String get tcaMilestone90Title => '3 أشهر: الانسحاب الحاد خلفك';
 
   @override
   String get tcaMilestone90Description =>
@@ -3158,31 +3144,28 @@ class AppLocalizationsAr extends AppLocalizations {
   String get maoiSubtitleNotStarted => 'انظر ماذا يحدث عند التناقص التدريجي';
 
   @override
-  String get maoiMilestone3Title =>
-      'اليوم الثالث: المرحلة الأكثر خطورة - الإشراف الطبي ضروري';
+  String get maoiMilestone3Title => 'اليوم 3: أعلى مراحل الخطر';
 
   @override
   String get maoiMilestone3Description =>
       'تحمل مثبطات MAOIs أخطر مخاطر التوقف عن تناول أي فئة من مضادات الاكتئاب. يمكن أن يؤدي التوقف المفاجئ — خاصة عن الفينيلزين والترانيلسيبرومين — إلى إثارة شديدة، وارتباك، وهلوسة، ورمع عضلي، وارتفاع الحرارة. إذا كنت تعاني من هذه الأعراض، فاطلب العناية الطبية الفورية. تعمل مثبطات MAOI عن طريق تعطيل إنزيمات MAO بشكل دائم؛ يتطلب التعافي من الجسم تصنيع إنزيم جديد، وهي عملية تستغرق حوالي 14 يومًا.';
 
   @override
-  String get maoiMilestone7Title => 'أسبوع واحد: تصنيع إنزيم MAO قيد التنفيذ';
+  String get maoiMilestone7Title => 'أسبوع: تجدد إنزيم MAO';
 
   @override
   String get maoiMilestone7Description =>
       'تقوم مثبطات MAOI بتدمير جزيئات إنزيم MAO بشكل دائم؛ يتطلب التعافي تخليق إنزيم جديد تمامًا. بحلول أسبوع واحد، قد يكون ما يقرب من 50٪ من نشاط MAO الطبيعي قد تعافى. يتم تقليل أعراض التوقف الحادة الشديدة (الهذيان، الرمع العضلي، ارتفاع الحرارة) بشكل كبير. يظل الإشراف الطبي الدقيق مهمًا.';
 
   @override
-  String get maoiMilestone14Title =>
-      'أسبوعين: تم استعادة نشاط إنزيم MAO بشكل كبير';
+  String get maoiMilestone14Title => 'أسبوعان: تعافي نشاط MAO';
 
   @override
   String get maoiMilestone14Description =>
       'أسبوعين هو الإطار الزمني السريري القياسي لاستعادة إنزيم MAO بعد التوقف. بحلول اليوم الرابع عشر تقريبًا، يتم استعادة نشاط MAO-A وMAO-B إلى حد كبير ويتم إعادة إنشاء التمثيل الغذائي الطبيعي للتيرامين. يمكن عادةً تخفيف القيود الغذائية المطلوبة أثناء علاج MAOI بالتشاور مع واصف الدواء الخاص بك.';
 
   @override
-  String get maoiMilestone30Title =>
-      'شهر واحد: إعادة التوازن للأنظمة الكيميائية في الدماغ';
+  String get maoiMilestone30Title => 'شهر: توازن كيمياء الدماغ';
 
   @override
   String get maoiMilestone30Description =>
@@ -3313,19 +3296,19 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get alcoholReferenceDay1 =>
-      'ماذا يحدث لنومك عندما تتوقف عن الشرب؟\n\nالمصدر: \"الكحول والدماغ النائم\" (كولرين ونيكولاس وبيكر)، دليل علم الأعصاب السريري - خاضع لمراجعة النظراء، وتستضيفه المعاهد الوطنية للصحة\n\nهندسة الكحول والنوم\nالكحول مسكن، لذا فهو يقلل من الوقت الذي يستغرقه النوم ويزيد من النوم العميق البطيء في النصف الأول من الليل. ولكن ذلك يأتي بتكلفة: فالكحول يثبط مرحلة نوم حركة العين السريعة (REM) - وهي المرحلة التصالحية المرتبطة بتعزيز الذاكرة والتنظيم العاطفي - وتنام الأجزاء في النصف الثاني من الليل أثناء استقلابه.\n\nالليلة الأولى للإقلاع عن الكحول\nنظرًا لأن الكحول يثبط نوم حركة العين السريعة، فإن الليالي الأولى بدونه غالبًا ما تؤدي إلى ارتداد حركة العين السريعة: أحلام حية ونوم خفيف ومتقطع بينما تعود أنماط النوم الطبيعية. وهذا جزء طبيعي ومؤقت من التعافي.\n\nيبدأ التعافي\nومع إعادة ضبط الدماغ خلال الأيام والأسابيع التالية، تتحسن جودة نوم حركة العين السريعة وجودة النوم بشكل عام. يعد اضطراب النوم أحد أكثر الأعراض المرتبطة بالانسحاب استمرارًا، ولكنه يميل نحو الوضع الطبيعي مع الامتناع المستمر عن ممارسة الجنس.\n\nملاحظة حول شرب الخمر بكثرة\nبالنسبة لمن يشربون الخمر بكثرة أو على المدى الطويل، يمكن أن تؤدي الـ 24 ساعة الأولى أيضًا إلى ظهور أعراض الانسحاب (القلق والتعرق والرعشة والغثيان). قد يكون الانسحاب الشديد خطيرًا — إذا كنت تشرب الخمر بكثرة كل يوم، فتحدث إلى الطبيب قبل التوقف فجأة.';
+      'ماذا يحدث لنومك عندما تتوقف عن الشرب؟\n\nالمصدر: \"Alcohol and the Sleeping Brain\" (Colrain, Nicholas & Baker)، Handbook of Clinical Neurology — بحث مُراجع من الأقران ومستضاف لدى NIH\n\nبنية النوم والكحول\nللكحول تأثير مهدئ، لذلك قد يقلل زمن الاستغراق في النوم ويزيد نوم الموجات البطيئة العميق في النصف الأول من الليل. لكن لذلك ثمنًا: فهو يثبط نوم حركة العين السريعة (REM)، المرتبط بتثبيت الذاكرة وتنظيم المشاعر، ويجعل النوم أكثر تقطعًا في النصف الثاني من الليل أثناء استقلابه.\n\nأول ليلة بلا كحول\nلأن الكحول يثبط نوم REM، قد تجلب الليالي الأولى بدونه ارتدادًا في REM: أحلامًا حية ونومًا أخف ومتقطعًا بينما تعود أنماط النوم الطبيعية. وهذا جزء طبيعي ومؤقت من التعافي.\n\nبدء التعافي\nمع إعادة تكيّف الدماغ خلال الأيام والأسابيع التالية، يتحسن نوم REM وجودة النوم عمومًا. واضطراب النوم من أكثر أعراض الانسحاب استمرارًا، لكنه يميل إلى الاقتراب من الطبيعي مع استمرار الامتناع عن الكحول.\n\nملاحظة عن الشرب بكثرة\nلدى من يشربون بكثرة أو يوميًا منذ مدة طويلة، قد تظهر خلال أول 24 ساعة أيضًا أعراض انسحاب مثل القلق والتعرق والرعشة والغثيان. وقد يكون الانسحاب الشديد خطيرًا؛ إذا كنت تشرب بكثرة كل يوم فتحدث إلى طبيب قبل التوقف المفاجئ.';
 
   @override
   String get alcoholReferenceDay3 =>
-      'اليوم الثالث: نافذة ذروة الانسحاب\n\nالمصدر: \"Alcohol Withdrawal\"، StatPearls — مراجَع من الأقران، المكتبة الوطنية للطب التابعة للمعاهد الوطنية للصحة\n\nحول 72 ساعة\nيمكن أن تبدأ أعراض انسحاب الكحول خلال ساعات وغالبًا ما تبلغ ذروتها قرب 72 ساعة. يذكر StatPearls الارتعاش والأرق والهياج والتعرق وارتفاع ضغط الدم وتسارع القلب والنوبات ضمن علامات فرط الاستثارة العصبية.\n\nثلاثة أيام قوية\nالوصول إلى 72 ساعة إنجاز كبير لأنه يقع في نافذة الذروة الموثقة للعديد من الأعراض الحادة. يتفاعل الجهاز العصبي مع الفقد المفاجئ لتأثير الكحول المثبط عبر GABA بينما يدفع فائض الغلوتامات فرط النشاط الذاتي.\n\nقد يصل الانسحاب الشديد لاحقًا\nقد يحدث هذيان انسحاب الكحول (delirium tremens) خلال 3–8 أيام بعد التوقف وقد يكون مميتًا. الانسحاب الشديد حالة طبية طارئة. من يشربون بكثرة يوميًا، وأي شخص لديه تاريخ من نوبات الانسحاب أو الهذيان، ينبغي أن يطلبوا نصيحة طبية بدل التوقف المفاجئ دون دعم.';
+      'اليوم الثالث: نافذة ذروة الانسحاب\n\nالمصدر: \"Alcohol Withdrawal\"، StatPearls — مراجَع من الأقران، المكتبة الوطنية للطب التابعة للمعاهد الوطنية للصحة\n\nحول 72 ساعة\nيمكن أن تبدأ أعراض انسحاب الكحول خلال ساعات وغالبًا ما تبلغ ذروتها قرب 72 ساعة. يذكر StatPearls الارتعاش والأرق والهياج والتعرق وارتفاع ضغط الدم وتسارع القلب والنوبات ضمن علامات فرط الاستثارة العصبية.\n\nثلاثة أيام قوية\nالوصول إلى 72 ساعة إنجاز كبير لأنه يقع في نافذة الذروة الموثقة للعديد من الأعراض الحادة. يتفاعل الجهاز العصبي مع الفقد المفاجئ لتأثير الكحول المثبط عبر GABA بينما يدفع فائض الغلوتامات فرط النشاط الذاتي.\n\nقد يصل الانسحاب الشديد لاحقًا\nقد يحدث هذيان انسحاب الكحول (delirium tremens) خلال 3–8 أيام بعد التوقف وقد يكون مميتًا. الانسحاب الشديد حالة طبية طارئة. من يشربون بكثرة يوميًا، وأي شخص لديه تاريخ من نوبات الانسحاب أو الهذيان، ينبغي أن يطلبوا نصيحة طبية بدل التوقف المفاجئ دون دعم.\n\nما الذي يستدعي الانتباه؟\nتحتاج الحمى أو الهياج الشديد أو التعرق الغزير أو الهلوسة أو الارتباك أو النوبات أو تسارع القلب الشديد أو ارتفاع ضغط الدم الشديد إلى رعاية طبية عاجلة.';
 
   @override
   String get alcoholReferenceDay7 =>
-      'كيف يتعافى الجهاز المناعي\n\nالمصدر: \"الكحول والجهاز المناعي\" (ساركار، جونغ ووانغ)، أبحاث الكحول: المراجعات الحالية - مراجعة النظراء، استضافة المعاهد الوطنية للصحة\n\nكيف يضعف الكحول المناعة\nيضعف الكحول جهاز المناعة بعدة طرق. حتى جلسة واحدة من شرب الخمر بكثرة يمكن أن تقلل من القدرة على مكافحة العدوى لمدة تصل إلى 24 ساعة. الاستخدام طويل الأمد يقلل من خلايا الدم البيضاء، ويعطل الإشارات المناعية، ويدمر دفاعات الأمعاء والرئة، مما يزيد من خطر العدوى وبطء التئام الجروح.\n\nإزالة الإهانة\nالعديد من هذه التأثيرات تتحسن بمجرد زوال الكحول. تبدأ خلايا الدم البيضاء والإشارات المناعية في التعافي، بينما تبدأ دفاعات القناة الهضمية والمجرى الهوائي في الإصلاح. خلال الأسبوع الأول، يتوقف جهازك المناعي عن التدهور يوميًا وتبدأ مقاومة العدوى الشائعة في التحسن.\n\nعملية تدريجية\nيستغرق التعافي المناعي الكامل وقتًا أطول من أسبوع، وتعتمد درجة الإصلاح على مدى ثقل ومدة تناول الكحول، ولكن الأسبوع الأول من التوقف عن تناول الكحول هو المكان الذي تبدأ فيه عملية إعادة البناء.';
+      'كيف يتعافى الجهاز المناعي\n\nالمصدر: \"Alcohol and the Immune System\" (Sarkar, Jung & Wang)، Alcohol Research: Current Reviews — بحث مُراجع من الأقران ومستضاف لدى NIH\n\nكيف يضعف الكحول المناعة\nيضعف الكحول الجهاز المناعي بطرق متعددة. وحتى نوبة واحدة من الشرب بكثرة قد تقلل القدرة على مقاومة العدوى لمدة تصل إلى 24 ساعة. أما الاستخدام طويل الأمد فيقلل خلايا الدم البيضاء ويعطل الإشارات المناعية ويضر دفاعات الأمعاء والرئتين، ما يزيد خطر العدوى ويبطئ التئام الجروح.\n\nإزالة العامل الضار\nتتحسن كثير من هذه الآثار بعد توقف التعرض للكحول. تبدأ خلايا الدم البيضاء والإشارات المناعية في التعافي، وتبدأ دفاعات الأمعاء والمجاري الهوائية في الإصلاح. وخلال الأسبوع الأول لا يعود الجهاز المناعي يتعرض للتثبيط اليومي، وتبدأ مقاومة العدوى الشائعة في التحسن.\n\nعملية تدريجية\nيستغرق التعافي المناعي الكامل أكثر من أسبوع، وتعتمد درجة الإصلاح على شدة الشرب ومدته، لكن الأسبوع الأول بلا كحول هو بداية إعادة البناء.';
 
   @override
   String get alcoholReferenceDay14 =>
-      'التعافي المبكر للدماغ في الامتناع عن ممارسة الجنس\n\nالمصدر: Bartsch AJ وآخرون، \"مظاهر التعافي المبكر للدماغ المرتبطة بالامتناع عن إدمان الكحول\"، Brain (2007) - مراجعة النظراء\n\nقياس التعافي\nاستخدمت هذه الدراسة التصوير بالرنين المغناطيسي لمتابعة الأشخاص الذين تخلصوا من السموم مؤخرًا ويعتمدون على الكحول خلال الأسابيع الأولى من الامتناع عن ممارسة الجنس، ومقارنتهم بالأشخاص الأصحاء. لقد استحوذ على إعادة بناء الدماغ جسديًا بمجرد توقف الشرب.\n\nحجم الدماغ يرتد\nيؤدي تعاطي الكحول المزمن إلى انكماش الدماغ — جزئيًا من خلال التخفيض القابل للعكس في حجم الخلية، وليس فقط فقدان الخلايا الدائم. مع الامتناع عن ممارسة الجنس، قام الباحثون بقياس متوسط ​​زيادة حجم الدماغ العالمي بنسبة 2٪ تقريبًا، وتتركز حول المخيخ والدماغ المتوسط ​​والبطينين والمناطق الأمامية. يحدث الكثير من إعادة النمو هذه مبكرًا، في أول أسبوعين من التوقف عن تناول الكحول.\n\nالمخيخ والانتباه\nوكان التعافي واضحًا بشكل خاص في مناطق الدماغ المستخدمة للحركة والانتباه. وقد ارتفعت علامة صحة خلايا الدماغ جنبًا إلى جنب مع تحسن ملحوظ في الانتباه، لذلك جاء الشفاء الجسدي مصحوبًا بمكاسب حقيقية في التفكير.\n\nالأساس وليس النهاية\nتتعافى الوظائف العليا مثل التفكير المعقد بشكل تدريجي، لكن أول أسبوعين يؤكدان أن الدماغ يبدأ في الشفاء بسرعة بمجرد إزالة الكحول.';
+      'التعافي المبكر للدماغ مع الامتناع عن الكحول\n\nالمصدر: Bartsch AJ وآخرون، \"Manifestations of early brain recovery associated with abstinence from alcoholism\"، Brain (2007) — بحث مُراجع من الأقران\n\nقياس التعافي\nاستخدمت الدراسة التصوير بالرنين المغناطيسي لمتابعة أشخاص خضعوا حديثًا لإزالة السموم وكانوا يعانون من الاعتماد على الكحول خلال الأسابيع الأولى من الامتناع، وقارنتهم بأشخاص أصحاء. ورصدت الدراسة إعادة البناء الجسدي للدماغ بعد توقف الشرب.\n\nاستعادة حجم الدماغ\nيمكن للاستخدام المزمن للكحول أن يقلص الدماغ، جزئيًا بسبب انخفاض قابل للعكس في حجم الخلايا وليس فقط بسبب فقدان دائم للخلايا. ومع الامتناع، قاس الباحثون زيادة متوسطة تقارب 2٪ في حجم الدماغ الكلي، وتركزت حول المخيخ والدماغ المتوسط والبطينات والمناطق الجبهية. ويحدث جزء كبير من هذا التحسن مبكرًا خلال أول أسبوعين تقريبًا بلا كحول.\n\nالمخيخ والانتباه\nكان التعافي واضحًا خصوصًا في مناطق الدماغ المرتبطة بالحركة والانتباه. وارتفع مؤشر لصحة خلايا الدماغ بالتوازي مع تحسن قابل للقياس في الانتباه، أي إن التعافي الجسدي رافقته مكاسب فعلية في التفكير.\n\nأساس وليس خط النهاية\nتتعافى الوظائف العليا مثل الاستدلال المعقد بصورة أكثر تدريجية، لكن أول أسبوعين يوضحان أن الدماغ يبدأ التعافي سريعًا بعد إزالة الكحول.';
 
   @override
   String get alcoholReferenceDay30 =>
@@ -3333,19 +3316,19 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get alcoholReferenceDay60 =>
-      'تعافي الكبد بعد التوقف عن الشرب\n\nالمصدر: المعهد الوطني لتعاطي الكحول وإدمان الكحول (NIAAA)، \"تأثيرات الكحول على الجسم\"\n\nكيف يدمر الكحول الكبد\nيعالج الكبد معظم الكحول الذي تشربه، ويتحمل العبء الأكبر من الضرر. يصف NIAAA تطور إصابة الكبد المرتبطة بالكحول: فهو يبدأ بالكبد الدهني (تنكس دهني - تراكم الدهون في خلايا الكبد)، ويمكن أن يتطور إلى التهاب الكبد الكحولي (التهاب)، ومع الاستخدام المكثف لفترة طويلة للتليف وتليف الكبد (تندب).\n\nالمراحل السابقة قابلة للعكس\nوالنقطة الحاسمة هي أن الكبد يتمتع بقدرة عالية على التجدد، ويمكن أن تتحسن المراحل المبكرة من هذا الضرر عند التوقف عن الشرب. غالبًا ما يتم حل الكبد الدهني على وجه الخصوص من خلال الامتناع المستمر عن ممارسة الجنس. وبعد مرور شهرين تقريبًا من خلوه من الكحول، يكون لدى الكبد وقت حقيقي لإزالة رواسب الدهون وتهدئة الالتهاب واستعادة وظائفه الصحية - وهو ما ينعكس عادةً في انخفاض مستويات إنزيمات الكبد (ALT وAST).\n\nما وراء الكبد\nوتشير NIAAA إلى أن الكحول يجهد القلب والبنكرياس والجهاز المناعي. إن منح الجسم استراحة مستدامة من الكحول يسمح لهذه الأنظمة بالتعافي أيضًا، مما يساهم في الحصول على طاقة أكثر ثباتًا وتحسين الصحة العامة التي يلاحظها كثير من الناس في هذه المرحلة.';
+      'تعافي الكبد بعد التوقف عن الشرب\n\nالمصدر: المعهد الوطني لتعاطي الكحول وإدمان الكحول (NIAAA)، \"Alcohol\'s Effects on the Body\"\n\nكيف يضر الكحول بالكبد\nيعالج الكبد معظم الكحول الذي تشربه ويتحمل الجزء الأكبر من الضرر. يصف NIAAA تطور إصابات الكبد المرتبطة بالكحول: تبدأ بالكبد الدهني (التنكس الدهني، أي تراكم الدهون في خلايا الكبد)، وقد تتطور إلى التهاب الكبد الكحولي، ومع الاستهلاك الكثيف طويل الأمد إلى التليف وتشمع الكبد.\n\nالمراحل المبكرة قابلة للتحسن\nالنقطة المهمة أن الكبد يتمتع بقدرة كبيرة على التجدد، ويمكن أن تتحسن المراحل المبكرة من الضرر عند التوقف عن الشرب. والكبد الدهني خصوصًا يتحسن غالبًا مع استمرار الامتناع عن الكحول. وبعد نحو شهرين بلا كحول تكون للكبد فرصة فعلية لتقليل تراكم الدهون وتهدئة الالتهاب واستعادة وظيفة أكثر صحة، وهو ما ينعكس عادة في انخفاض إنزيمات الكبد (ALT وAST).\n\nأبعد من الكبد\nيشير NIAAA إلى أن الكحول يجهد أيضًا القلب والبنكرياس والجهاز المناعي. ومنح الجسم فترة ممتدة بلا كحول يسمح لهذه الأجهزة بالتعافي كذلك، ما يساهم في طاقة أكثر استقرارًا وصحة عامة أفضل في هذه المرحلة.';
 
   @override
   String get alcoholReferenceDay90 =>
-      'التفكير والذاكرة بعد ثلاثة أشهر من الرصين\n\nالمصدر: مراجعة منهجية للتعافي العصبي النفسي بعد الامتناع عن تناول الكحول (PubMed Central، 2024) - مراجعة النظراء\n\nما تظهره الأدلة\nجمعت هذه المراجعة بين الدراسات التي تتبعت كيفية تعافي التفكير والذاكرة بعد توقف الأشخاص عن الشرب. تتحرك معظم المهارات نحو وضعها الطبيعي خلال ستة إلى اثني عشر شهرًا تقريبًا، وبعضها يتحسن مبكرًا.\n\nما يتحسن أولا\nتبرز قدرتان محددتان على أنهما يتعافىان في وقت أبكر من الباقي: سرعة المعالجة الأساسية (وجدت المراجعة أن هذا يتعافى عادة بحوالي شهر واحد، على الرغم من تأخر الدقة في المهام الأكثر تعقيدًا) وتحديث الذاكرة العاملة. بحلول مرور ثلاثة أشهر تقريبًا، لاحظ العديد من الأشخاص بالفعل هذه الزيادة.\n\nما يستغرق وقتا أطول\nيستمر الاهتمام والتخطيط واتخاذ القرار والتحكم في الانفعالات والإدراك والذاكرة في التحسن خلال فترة التعافي التي تتراوح من ستة إلى اثني عشر شهرًا.\n\nما يؤثر على الانتعاش\nتشير المراجعة إلى أن التعافي يتشكل بعوامل مثل العمر وحالة التدخين والقدرة على الإصابة بالمرض، ولكن من المشجع أنه ليس متسقًا مع إجمالي الكمية التي تم شربها سابقًا. التعافي هو المسار المتوقع.\n\nلماذا يهم؟\nالتفكير الأكثر وضوحًا هو التعافي العملي: حيث يساعد تحسين الاهتمام واتخاذ القرار الأشخاص على البقاء في العلاج وتجنب الانتكاس.';
+      'التفكير والذاكرة بعد ثلاثة أشهر بلا كحول\n\nالمصدر: مراجعة منهجية للتعافي العصبي النفسي بعد الامتناع عن الكحول (PubMed Central، 2024) — بحث مُراجع من الأقران\n\nما الذي تظهره الأدلة؟\nجمعت المراجعة دراسات تابعت كيفية تعافي التفكير والذاكرة بعد توقف الأشخاص عن الشرب. تتجه معظم القدرات نحو الطبيعي خلال نحو ستة إلى اثني عشر شهرًا، وبعضها يتحسن أبكر.\n\nما الذي يتحسن أولًا؟\nتتعافى قدرتان أسرع نسبيًا: سرعة المعالجة الأساسية، التي وجدت المراجعة أنها تتحسن عادة بحلول نحو شهر رغم تأخر الدقة في المهام الأكثر تعقيدًا، وتحديث الذاكرة العاملة. وبحلول قرابة ثلاثة أشهر يلاحظ كثيرون تحسنًا في هاتين القدرتين.\n\nما الذي يستغرق وقتًا أطول؟\nيواصل الانتباه والتخطيط واتخاذ القرار والتحكم في الاندفاعات والإدراك والذاكرة التحسن خلال فترة التعافي الممتدة من ستة إلى اثني عشر شهرًا.\n\nما الذي يؤثر في التعافي؟\nتشير المراجعة إلى أن التعافي يتأثر بعوامل مثل العمر وحالة التدخين والقدرات السابقة للمرض، لكنه لا يرتبط بصورة ثابتة بإجمالي كمية الكحول التي شُربت سابقًا. والمسار المتوقع هو التحسن.\n\nلماذا يهم ذلك؟\nوضوح التفكير جزء عملي من التعافي: فالانتباه واتخاذ القرار بصورة أفضل يساعدان الناس على الاستمرار في العلاج وتجنب الانتكاس.';
 
   @override
   String get alcoholReferenceDay180 =>
-      'تعافي الدماغ في ستة أشهر من الرصانة\n\nالمصدر: مراجعة النظراء لتعافي الدماغ الهيكلي والوظيفي أثناء الامتناع عن تعاطي المخدرات (PubMed Central)\n\nالتعافي يستمر\nإن الانتعاش المبكر لحجم الدماغ في الأسابيع الأولى هو مجرد البداية. توثق هذه المراجعة أنه مع الامتناع المستمر عن ممارسة الجنس، يستمر الدماغ في التعافي من الناحيتين الهيكلية والوظيفية، حيث تتعافى المادة الرمادية ويتم إصلاح مسارات المادة البيضاء التالفة التي تنسق الاتصال بين مناطق الدماغ على مدار أشهر.\n\nمقدمة الدماغ\nيعد التعافي مهمًا بشكل خاص في الجزء الأمامي من الدماغ، الذي يتعامل مع الحكم والتخطيط وضبط النفس. أثناء الشفاء، تتعزز عملية اتخاذ القرار والتحكم في الاندفاعات.\n\nتجديد أسلاك الدماغ ووظيفته\nإلى جانب الإصلاح الجسدي، تتعافى وظائف المخ واتصالاته أيضًا. يمكن للدماغ أن يعيد تركيب نفسه ويتعلم من جديد، مما يجعل الامتناع المستمر عن ممارسة الجنس وقتًا قويًا للعلاج والعادات الجديدة.\n\nإشارة الاسترداد\nوبحلول ستة أشهر، من الواضح أن بنية الدماغ ووظيفته تتحرك نحو وضع طبيعي أكثر صحة. إن الامتناع عن ممارسة الجنس يمنح هذا التعافي مزيدًا من الوقت للبناء.';
+      'تعافي الدماغ بعد ستة أشهر بلا كحول\n\nالمصدر: مراجعة مُحكّمة للتعافي البنيوي والوظيفي للدماغ أثناء الامتناع عن تعاطي المواد (PubMed Central)\n\nالتعافي مستمر\nالاستعادة المبكرة لحجم الدماغ في الأسابيع الأولى ليست سوى البداية. توثق هذه المراجعة أن الدماغ يواصل التعافي بنيويًا ووظيفيًا مع استمرار الامتناع؛ فتتعافى المادة الرمادية وتُصلح مسارات المادة البيضاء المتضررة التي تنسق الاتصال بين مناطق الدماغ على مدى أشهر.\n\nمقدمة الدماغ\nيكتسب التعافي أهمية خاصة في المناطق الأمامية المسؤولة عن الحكم والتخطيط وضبط النفس. ومع تحسنها تقوى القدرة على اتخاذ القرار والتحكم في الاندفاعات.\n\nإعادة تنظيم الدماغ ووظيفته\nإلى جانب الإصلاح الجسدي تتعافى وظائف الدماغ وروابطه أيضًا. يستطيع الدماغ إعادة تنظيم مساراته والتعلم من جديد، لذلك تمثل فترة الامتناع المستمر فرصة قوية للعلاج وبناء عادات جديدة.\n\nإشارة التعافي\nبحلول ستة أشهر تتحرك بنية الدماغ ووظيفته بوضوح نحو وضع أكثر صحة. والاستمرار بلا كحول يمنح هذا التعافي مزيدًا من الوقت ليتراكم.';
 
   @override
   String get alcoholReferenceDay365 =>
-      'الكحول ومخاطر السرطان والتوقف\n\nالمصدر: المعهد الوطني للسرطان (NCI)، \"الكحول ومخاطر السرطان\"\n\nالكحول يسبب السرطان\nيذكر المعهد الوطني للسرطان أن هناك إجماعًا علميًا قويًا على أن شرب الكحول يمكن أن يسبب السرطان. يرتبط الكحول بسرطانات الفم (تجويف الفم)، والبلعوم (الحنجرة)، والحنجرة (صندوق الصوت)، والمريء، والكبد، والثدي، والقولون والمستقيم. كلما زاد شرب الشخص للمشروبات - وكلما طالت فترة شربه - زاد الخطر.\n\nكيف يقود الكحول السرطان\nوتشمل الآليات الأسيتالديهيد، وهو منتج سام للكحول يؤدي إلى إتلاف الحمض النووي؛ الإجهاد التأكسدي والالتهابات. ضعف امتصاص العناصر الغذائية الواقية. وبالنسبة لسرطان الثدي، فقد ارتفعت مستويات هرمون الاستروجين.\n\nيقع الخطر بعد التوقف\nالأهم من ذلك، أن المعهد الوطني للسرطان يشير إلى أن الإقلاع عن الشرب يرتبط بانخفاض المخاطر مع مرور الوقت - تظهر الدراسات أن ارتفاع خطر الإصابة بسرطان تجويف الفم والمريء يتراجع بعد التوقف، على الرغم من أن الأمر قد يستغرق سنوات للاقتراب من خطر شخص لم يشرب مطلقًا. يعد التوقف عن تناول الكحول لمدة عام خطوة ذات معنى على هذا الطريق.\n\nالفوائد المركبة\nيؤدي الوصول إلى عام أيضًا إلى الحفاظ على مكاسب القلب والأوعية الدموية والكبد الناتجة عن الامتناع عن ممارسة الجنس - انخفاض ضغط الدم، وتقليل خطر عدم انتظام ضربات القلب، واستمرار شفاء الكبد - إلى جانب انخفاض خطر الإصابة بالسرطان.';
+      'الكحول وخطر السرطان والتوقف عن الشرب\n\nالمصدر: المعهد الوطني للسرطان (NCI)، \"Alcohol and Cancer Risk\"\n\nالكحول يسبب السرطان\nيذكر NCI أن هناك إجماعًا علميًا قويًا على أن شرب الكحول يمكن أن يسبب السرطان. ويرتبط الكحول بسرطانات الفم والبلعوم والحنجرة والمريء والكبد والثدي والقولون والمستقيم. وكلما زادت الكمية وطالت مدة الشرب ارتفع الخطر.\n\nكيف يساهم الكحول في السرطان؟\nتشمل الآليات الأسيتالديهيد، وهو ناتج سام من استقلاب الكحول يضر بالحمض النووي، والإجهاد التأكسدي والالتهاب، وإضعاف امتصاص العناصر الغذائية الواقية، وارتفاع الإستروجين في حالة سرطان الثدي.\n\nينخفض الخطر بعد التوقف\nالمهم أن NCI يفيد بأن التوقف عن الشرب يرتبط بانخفاض الخطر مع مرور الوقت. وتظهر الدراسات أن الخطر المرتفع لسرطاني الفم والمريء ينخفض بعد التوقف، وإن كان الاقتراب من خطر شخص لم يشرب قط قد يستغرق سنوات. عام كامل بلا كحول خطوة مهمة في هذا المسار.\n\nفوائد متراكمة\nالوصول إلى عام يرسخ أيضًا مكاسب القلب والأوعية والكبد الناتجة عن الامتناع، مثل انخفاض ضغط الدم وتراجع خطر اضطراب النظم واستمرار تعافي الكبد، إلى جانب انخفاض خطر السرطان.';
 
   @override
   String get benzodiazepineReferenceDay7 =>
@@ -3361,27 +3344,27 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get benzodiazepineReferenceDay90 =>
-      'بعد ثلاثة أشهر من البنزوديازيبينات: تفكير أسرع وخمول أقل\n\nالمصدر: Rickels et al., \"Psychomotor performance of long-term benzodiazepine users before, during, and after benzodiazepine discontinuation,\" Journal of Clinical Psychopharmacology (1999), on PubMed\n\nإشارة تعافٍ مقاسة بعد 12 أسبوعًا\nاختبر الباحثون مستخدمي البنزوديازيبينات لفترات طويلة قبل الفطام ثم بعد 5 و12 أسبوعًا منه. توفرت بيانات 12 أسبوعًا لـ77 شخصًا، وتم تأكيد خلوّ الناجحين في الفطام من البنزوديازيبينات بفحوص دم أسبوعية.\n\nأداء معرفي أسرع\nأنجز الأشخاص الذين نجحوا في الفطام من البنزوديازيبينات مهام نسخ الرموز واستبدال الأرقام بالرموز أسرع من المشاركين الذين ظلوا يتناولون البنزوديازيبينات. وظل الفرق ذا دلالة بعد أخذ العمر والتعليم والدرجات الأساسية في الحسبان.\n\nخمول ذهني وجسدي أقل\nأبلغ الناجحون في الفطام أيضًا عن خمول ذهني وجسدي أقل من الأشخاص الذين واصلوا تناول البنزوديازيبينات.\n\nكيف يمكن أن تبدو الأشهر الثلاثة\nبالنسبة إلى الناجحين في الفطام في هذه الدراسة، ارتبط مرور 12 أسبوعًا بعد الفطام بتحسن قابل للقياس في سرعة المعالجة وبانخفاض الخمول الذهني والجسدي. صار التفكير أسرع وخفّ الإحساس بالتثبيط.';
+      'بعد ثلاثة أشهر من البنزوديازيبينات: تفكير أسرع وخمول أقل\n\nالمصدر: Rickels et al., \"Psychomotor performance of long-term benzodiazepine users before, during, and after benzodiazepine discontinuation,\" Journal of Clinical Psychopharmacology (1999), على PubMed\n\nإشارة تعافٍ مقاسة بعد 12 أسبوعًا\nاختبر الباحثون مستخدمي البنزوديازيبينات لفترات طويلة قبل الفطام ثم بعد 5 و12 أسبوعًا منه. توفرت بيانات 12 أسبوعًا لـ77 شخصًا، وتم تأكيد خلوّ الناجحين في الفطام من البنزوديازيبينات بفحوص دم أسبوعية.\n\nأداء معرفي أسرع\nأنجز الأشخاص الذين نجحوا في الفطام من البنزوديازيبينات مهام نسخ الرموز واستبدال الأرقام بالرموز أسرع من المشاركين الذين ظلوا يتناولون البنزوديازيبينات. وظل الفرق ذا دلالة بعد أخذ العمر والتعليم والدرجات الأساسية في الحسبان.\n\nخمول ذهني وجسدي أقل\nأبلغ الناجحون في الفطام أيضًا عن خمول ذهني وجسدي أقل من الأشخاص الذين واصلوا تناول البنزوديازيبينات.\n\nكيف يمكن أن تبدو الأشهر الثلاثة\nبالنسبة إلى الناجحين في الفطام في هذه الدراسة، ارتبط مرور 12 أسبوعًا بعد الفطام بتحسن قابل للقياس في سرعة المعالجة وبانخفاض الخمول الذهني والجسدي. صار التفكير أسرع وخفّ الإحساس بالتثبيط.';
 
   @override
   String get benzodiazepineReferenceDay180 =>
-      'التفكير والذاكرة في ستة أشهر: مكاسب قابلة للقياس\n\nالمصدر: تاتا وآخرون، \"الافتقار إلى التعافي المعرفي بعد الانسحاب من استخدام البنزوديازيبين على المدى الطويل\"، الطب النفسي (1994)، في PubMed\n\nما فعلته الدراسة\nاختبرت هذه الدراسة 21 مريضًا بالبنزوديازيبين على المدى الطويل قبل الانسحاب، وبعد الانسحاب مباشرة، ومرة أخرى بعد ستة أشهر من الامتناع عن ممارسة الجنس، ومقارنتهم بالضوابط المتطابقة. إنها واحدة من أكثر نقاط البيانات صراحةً في أدبيات استرداد البنزو.\n\nما وجدته\nقبل التوقف، كان المرضى يعانون من مشاكل في التعلم اللفظي والذاكرة وسرعة الحركة والتنسيق البصري والتفكير البصري. مباشرة بعد التوقف كان هناك تغيير طفيف. وبعد ستة أشهر، تحسنت العديد من هذه المجالات بشكل ملحوظ.\n\nماذا يعني هذا\nوبعد ستة أشهر، كان التعلم اللفظي والذاكرة وسرعة الحركة والتنسيق البصري يتعافى بشكل ملحوظ. كان التحسن واضحًا بالفعل وكان لديه مجال للاستمرار.\n\nالصورة الأكبر\nإذا شعرت بالضبابية في الشهر السادس، فإن هذا البحث يقول: هذا أمر متوقع، واستمرار الامتناع عن ممارسة الجنس هو الطريق إلى الأمام. تظهر الدراسات طويلة المدى أن التعافي يستمر إلى ما بعد هذه النقطة، حيث يستمر الدماغ في التعافي.';
+      'التفكير والذاكرة في ستة أشهر: مكاسب قابلة للقياس\n\nالمصدر: تاتا وآخرون، \"الافتقار إلى التعافي المعرفي بعد الانسحاب من استخدام البنزوديازيبين على المدى الطويل\"، الطب النفسي (1994)، في PubMed\n\nما فعلته الدراسة\nاختبرت هذه الدراسة 21 مريضًا بالبنزوديازيبين على المدى الطويل قبل الانسحاب، وبعد الانسحاب مباشرة، ومرة أخرى بعد ستة أشهر من الامتناع عن البنزوديازيبينات، ومقارنتهم بالضوابط المتطابقة. إنها واحدة من أكثر نقاط البيانات صراحةً في أدبيات استرداد البنزو.\n\nما وجدته\nقبل التوقف، كان المرضى يعانون من مشاكل في التعلم اللفظي والذاكرة وسرعة الحركة والتنسيق البصري والتفكير البصري. مباشرة بعد التوقف كان هناك تغيير طفيف. وبعد ستة أشهر، تحسنت العديد من هذه المجالات بشكل ملحوظ.\n\nماذا يعني هذا\nوبعد ستة أشهر، كان التعلم اللفظي والذاكرة وسرعة الحركة والتنسيق البصري يتعافى بشكل ملحوظ. كان التحسن واضحًا بالفعل وكان لديه مجال للاستمرار.\n\nالصورة الأكبر\nإذا شعرت بالضبابية في الشهر السادس، فإن هذا البحث يقول: هذا أمر متوقع، واستمرار الامتناع عن البنزوديازيبينات هو الطريق إلى الأمام. تظهر الدراسات طويلة المدى أن التعافي يستمر إلى ما بعد هذه النقطة، حيث يستمر الدماغ في التعافي.';
 
   @override
   String get benzodiazepineReferenceDay365 =>
-      'سنة واحدة بعد تناول البنزوديازيبينات: يستمر التفكير والذاكرة في التعافي\n\nالمصدر: باركر وآخرون، \"استمرار التأثيرات المعرفية بعد الانسحاب من استخدام البنزوديازيبين على المدى الطويل: التحليل التلوي\"، أرشيف علم النفس العصبي السريري (2004)، في PubMed\n\nأقوى الأدلة لدينا\nقام الباحثون بدمج الدراسات التي أعادت اختبار مستخدمي البنزوديازيبين على المدى الطويل بعد ستة أشهر على الأقل من التوقف عن تناول الدواء. تظهر النتيجة المجمعة انتعاشًا واضحًا في التفكير والذاكرة بعد الانسحاب.\n\nالأخبار الجيدة\nوجدت الدراسات المجمعة تحسنًا حقيقيًا وقابلاً للقياس في العديد من مجالات التفكير والذاكرة بعد الانسحاب. حوالي عام واحد، يكون التعافي واسع النطاق وواضحًا مقارنة بالاستخدام النشط.\n\nيستمر التعافي\nوجدت الدراسات المشتركة انتعاشًا واسعًا في التفكير والذاكرة. بحلول عام واحد، تكون قد قطعت شوطا طويلا في اتجاه التعافي الذي كان يمكن قياسه بالفعل خلال ستة أشهر.\n\nماذا يعني هذا في سنة واحدة\nتوقع انتعاشًا كبيرًا في التفكير والذاكرة والوضوح لمدة عام، حيث يشعر معظم الأشخاص بأنهم أكثر وضوحًا بشكل ملحوظ مما كانوا عليه أثناء الاستخدام. ولكن إذا كانت بعض المناطق لا تزال متخلفة، فهذا يتوافق مع الأدلة، وليس علامة على المماطلة. ويستمر التعافي، ويعد عام من الامتناع عن ممارسة الجنس علامة بارزة وجديرة بالاهتمام على هذا الطريق.';
+      'سنة واحدة بعد تناول البنزوديازيبينات: يستمر التفكير والذاكرة في التعافي\n\nالمصدر: باركر وآخرون، \"استمرار التأثيرات المعرفية بعد الانسحاب من استخدام البنزوديازيبين على المدى الطويل: التحليل التلوي\"، أرشيف علم النفس العصبي السريري (2004)، في PubMed\n\nأقوى الأدلة لدينا\nقام الباحثون بدمج الدراسات التي أعادت اختبار مستخدمي البنزوديازيبين على المدى الطويل بعد ستة أشهر على الأقل من التوقف عن تناول الدواء. تظهر النتيجة المجمعة انتعاشًا واضحًا في التفكير والذاكرة بعد الانسحاب.\n\nالأخبار الجيدة\nوجدت الدراسات المجمعة تحسنًا حقيقيًا وقابلاً للقياس في العديد من مجالات التفكير والذاكرة بعد الانسحاب. حوالي عام واحد، يكون التعافي واسع النطاق وواضحًا مقارنة بالاستخدام النشط.\n\nيستمر التعافي\nوجدت الدراسات المشتركة انتعاشًا واسعًا في التفكير والذاكرة. بحلول عام واحد، تكون قد قطعت شوطا طويلا في اتجاه التعافي الذي كان يمكن قياسه بالفعل خلال ستة أشهر.\n\nماذا يعني هذا في سنة واحدة\nتوقع انتعاشًا كبيرًا في التفكير والذاكرة والوضوح لمدة عام، حيث يشعر معظم الأشخاص بأنهم أكثر وضوحًا بشكل ملحوظ مما كانوا عليه أثناء الاستخدام. ولكن إذا كانت بعض المناطق لا تزال متخلفة، فهذا يتوافق مع الأدلة، وليس علامة على المماطلة. ويستمر التعافي، ويعد عام من الامتناع عن البنزوديازيبينات علامة بارزة وجديرة بالاهتمام على هذا الطريق.';
 
   @override
   String get benzodiazepineReferenceDay540 =>
-      '18 شهرًا بعد تناول البنزوديازيبينات: تعافي بطيء ولكنه حقيقي\n\nالمصدر: أشتون، \"متلازمات الانسحاب المطولة من البنزوديازيبينات،\" مجلة علاج تعاطي المخدرات (1991)، على PubMed\n\nلماذا يستغرق تعافي بنزو وقتًا طويلاً؟\nتعمل البنزوديازيبينات على GABA، وهو نظام التهدئة الرئيسي في الدماغ. يؤدي الاستخدام طويل الأمد إلى تغيير مدى قوة استجابة هذا النظام، وقد تستغرق هذه التغييرات أشهرًا حتى يتم عكسها. ولهذا السبب يتم قياس تعافي البنزو بالأشهر وليس بالأسابيع.\n\nحيث يجلس 18 شهرا\nتصف أشتون أعراض الانسحاب طويلة الأمد والتي يمكن أن تستغرق شهورًا حتى تهدأ. وبحلول 18 شهرًا، يكون الأسوأ قد تجاوز معظم الأشخاص، ويستقر القلق المستمر والتغيرات الحسية وضباب الدماغ بشكل كبير.\n\nعكسها ببطء\nوالأهم من ذلك، أن أشتون تؤطر التغييرات الأساسية على أنها \"تغيرات وظيفية يمكن عكسها ببطء في الجهاز العصبي المركزي\". بطيء، ولكن قابل للعكس – يعكس الجدول الزمني الطويل عمق التكيف الذي تسببه البنزوديازيبينات، وليس الضرر الدائم لدى معظم الناس.\n\nإشارة الاسترداد\nتصف أشتون التغييرات الأساسية بأنها قابلة للعكس ببطء. بحلول 18 شهرًا، يكون لدى نظام GABA المهدئ في الدماغ وقتًا طويلًا للاستقرار ويكون الاتجاه السائد هو استمرار التعافي نحو الوضع الطبيعي.';
+      '18 شهرًا بعد تناول البنزوديازيبينات: تعافي بطيء ولكنه حقيقي\n\nالمصدر: أشتون، \"متلازمات الانسحاب المطولة من البنزوديازيبينات،\" مجلة علاج تعاطي المخدرات (1991)، على PubMed\n\nلماذا يستغرق تعافي بنزو وقتًا طويلاً؟\nتعمل البنزوديازيبينات على GABA، وهو نظام التهدئة الرئيسي في الدماغ. يؤدي الاستخدام طويل الأمد إلى تغيير مدى قوة استجابة هذا النظام، وقد تستغرق هذه التغييرات أشهرًا حتى يتم عكسها. ولهذا السبب يتم قياس تعافي البنزو بالأشهر وليس بالأسابيع.\n\nحيث يجلس 18 شهرا\nتصف أشتون أعراض الانسحاب طويلة الأمد والتي يمكن أن تستغرق شهورًا حتى تهدأ. وبحلول 18 شهرًا، يكون الأسوأ قد تجاوز معظم الأشخاص، ويستقر القلق المستمر والتغيرات الحسية وضباب الدماغ بشكل كبير.\n\nعكسها ببطء\nوالأهم من ذلك، أن أشتون تؤطر التغييرات الأساسية على أنها \"تغيرات وظيفية يمكن عكسها ببطء في الجهاز العصبي المركزي\". بطيء، ولكن قابل للعكس – يعكس الجدول الزمني الطويل عمق التكيف الذي تسببه البنزوديازيبينات، وليس الضرر الدائم لدى معظم الناس.\n\nإشارة إلى التعافي\nتصف أشتون التغييرات الأساسية بأنها قابلة للعكس ببطء. بحلول 18 شهرًا، يكون لدى نظام GABA المهدئ في الدماغ وقتًا طويلًا للاستقرار ويكون الاتجاه السائد هو استمرار التعافي نحو الوضع الطبيعي.';
 
   @override
   String get benzodiazepineReferenceDay730 =>
-      'بعد عامين من تناول البنزوديازيبينات: تقدم كبير ودائم\n\nالمصدر: باركر وآخرون، \"استمرار التأثيرات المعرفية بعد الانسحاب من استخدام البنزوديازيبين على المدى الطويل: التحليل التلوي\"، أرشيف علم النفس العصبي السريري (2004)، في PubMed\n\nعلامة فارقة في التعافي\nعامين هو علامة فارقة كبيرة، وخاصة بعد انسحاب طويل. لقد مرت مراحل الأعراض المبكرة والمستمرة منذ فترة طويلة، وما زال أمام المكاسب التي تحققت من السنة الأولى سنة أخرى لتعزيزها.\n\nما تدعمه الأدلة\nتظهر الدراسات المجمعة التعافي في العديد من المناطق بعد الانسحاب. بحلول عامين، يبلغ معظم الأشخاص عن قلقهم عند مستوى ما قبل البنزو أو أقل منه، والنوم الموثوق بدون دواء، والعواطف الأكثر ثباتًا، والتفكير الأكثر وضوحًا مقارنة بالاستخدام.\n\nإشارة الاسترداد\nتثبت الدراسات المجمعة التعافي في العديد من مجالات التفكير والذاكرة. وبعد مرور عامين، يعد التعافي المستدام هو التوقع المدعوم بالأدلة.\n\nحفظ المنظور\nعامين يمنحان النوم والمزاج والذاكرة والتفكير الواضح نافذة طويلة للتعافي. تظهر الأدلة تحسنًا كبيرًا في جميع الحالات الأربعة، مع استمرار الشفاء من هنا.';
+      'بعد عامين من تناول البنزوديازيبينات: تقدم كبير ودائم\n\nالمصدر: باركر وآخرون، \"استمرار التأثيرات المعرفية بعد الانسحاب من استخدام البنزوديازيبين على المدى الطويل: التحليل التلوي\"، أرشيف علم النفس العصبي السريري (2004)، في PubMed\n\nعلامة فارقة في التعافي\nعامين هو علامة فارقة كبيرة، وخاصة بعد انسحاب طويل. لقد مرت مراحل الأعراض المبكرة والمستمرة منذ فترة طويلة، وما زال أمام المكاسب التي تحققت من السنة الأولى سنة أخرى لتعزيزها.\n\nما تدعمه الأدلة\nتظهر الدراسات المجمعة التعافي في العديد من المناطق بعد الانسحاب. بحلول عامين، يبلغ معظم الأشخاص عن قلقهم عند مستوى ما قبل البنزو أو أقل منه، والنوم الموثوق بدون دواء، والعواطف الأكثر ثباتًا، والتفكير الأكثر وضوحًا مقارنة بالاستخدام.\n\nإشارة إلى التعافي\nتثبت الدراسات المجمعة التعافي في العديد من مجالات التفكير والذاكرة. وبعد مرور عامين، يعد التعافي المستدام هو التوقع المدعوم بالأدلة.\n\nحفظ المنظور\nعامين يمنحان النوم والمزاج والذاكرة والتفكير الواضح نافذة طويلة للتعافي. تظهر الأدلة تحسنًا كبيرًا في جميع الحالات الأربعة، مع استمرار الشفاء من هنا.';
 
   @override
   String get benzodiazepineReferenceDay1095 =>
-      'ثلاث سنوات بعد البنزوديازيبينات: الشفاء على المدى الطويل\n\nالمصدر: باركر وآخرون، \"استمرار التأثيرات المعرفية بعد الانسحاب من استخدام البنزوديازيبين على المدى الطويل: التحليل التلوي\"، أرشيف علم النفس العصبي السريري (2004)، في PubMed\n\nالمنظر الطويل\nتقع ثلاث سنوات في أقصى نهاية الجدول الزمني لاسترداد البنزو. بالنسبة للغالبية العظمى من الناس، حتى بعد الانسحاب الشديد طويل الأمد، تكون الأعراض التخريبية قد تخلفت كثيرًا وتتغير نوعية الحياة مقارنة بالاستخدام النشط.\n\nما وجده التحليل التلوي\nتظهر الدراسات المجمعة للمستخدمين على المدى الطويل التعافي في العديد من المناطق بعد الانسحاب. على مدى سنوات من الامتناع عن ممارسة الجنس، كانت القصة السائدة هي التعافي الواسع النطاق في التفكير والذاكرة والوظيفة اليومية.\n\nإشارة الاسترداد\nتُظهر الأبحاث طويلة المدى التعافي في العديد من مجالات التفكير والذاكرة. بحلول ثلاث سنوات، تكون مراحل الانسحاب المبكرة والمستمرة قد تأخرت كثيرًا عن تلك المكاسب، وقد تحتاج هذه المكاسب إلى سنوات لتعزيزها.\n\nرسالة أمل\nتعد رحلة تعافي البنزو واحدة من أكثر الرحلات تطلبًا في مجال الطب، وتعد ثلاث سنوات من الشفاء المستمر إنجازًا عميقًا. والدليل واضح: يتعافى الدماغ بشكل كبير، ويستعيد معظم الناس وضوحهم ونومهم ونطاقهم العاطفي، ويستمر التحسن مع مرور الوقت.';
+      'ثلاث سنوات بعد البنزوديازيبينات: الشفاء على المدى الطويل\n\nالمصدر: باركر وآخرون، \"استمرار التأثيرات المعرفية بعد الانسحاب من استخدام البنزوديازيبين على المدى الطويل: التحليل التلوي\"، أرشيف علم النفس العصبي السريري (2004)، في PubMed\n\nالمنظر الطويل\nتقع ثلاث سنوات في أقصى نهاية الجدول الزمني لاسترداد البنزو. بالنسبة للغالبية العظمى من الناس، حتى بعد الانسحاب الشديد طويل الأمد، تكون الأعراض التخريبية قد تخلفت كثيرًا وتتغير نوعية الحياة مقارنة بالاستخدام النشط.\n\nما وجده التحليل التلوي\nتظهر الدراسات المجمعة للمستخدمين على المدى الطويل التعافي في العديد من المناطق بعد الانسحاب. على مدى سنوات من الامتناع عن البنزوديازيبينات، كانت القصة السائدة هي التعافي الواسع النطاق في التفكير والذاكرة والوظيفة اليومية.\n\nإشارة إلى التعافي\nتُظهر الأبحاث طويلة المدى التعافي في العديد من مجالات التفكير والذاكرة. بحلول ثلاث سنوات، تكون مراحل الانسحاب المبكرة والمستمرة قد تأخرت كثيرًا عن تلك المكاسب، وقد تحتاج هذه المكاسب إلى سنوات لتعزيزها.\n\nرسالة أمل\nتعد رحلة تعافي البنزو واحدة من أكثر الرحلات تطلبًا في مجال الطب، وتعد ثلاث سنوات من الشفاء المستمر إنجازًا عميقًا. والدليل واضح: يتعافى الدماغ بشكل كبير، ويستعيد معظم الناس وضوحهم ونومهم ونطاقهم العاطفي، ويستمر التحسن مع مرور الوقت.';
 
   @override
   String get benzodiazepineReferenceDay1460 =>
@@ -3393,39 +3376,39 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get cocaineReferenceDay1 =>
-      'انسحاب الكوكايين: أول 24 ساعة\n\nالمصدر: \"متلازمات الانسحاب\"، StatPearls (NCBI Bookshelf)، المكتبة الوطنية الأمريكية للطب\n\nالكوكايين والدماغ\nيمنع الكوكايين إعادة امتصاص الدوبامين (وغيره من الأمينات الأحادية) في دوائر المكافأة في الدماغ، مما يتسبب في تراكم الدوبامين وإنتاج نشوة وطاقة شديدة. مع الاستخدام المنتظم، يتكيف الدماغ عن طريق تقليل تنظيم هذا النظام، بحيث بدون الدواء، تبدو الأنشطة الطبيعية مسطحة.\n\nالانهيار\nتصف StatPearls الانسحاب من المنشطات بأنه يبدأ بـ \"انهيار\" بمجرد توقف الاستخدام، ويتميز بالاكتئاب الملحوظ، والنوم المفرط، والجوع، وانخفاض الحالة المزاجية، والتباطؤ الشديد في الحركة والتفكير. في الـ 24 ساعة الأولى، يتضمن ذلك عادةً ما يلي:\n• التعب الشديد وزيادة الحاجة للنوم\n• مزاج مكتئب وبطء في الحركة والتفكير\n• زيادة الشهية (الكوكايين يثبط الشهية)\n\nيتم أيضًا الإبلاغ عن الرغبة الشديدة والتهيج والقلق بشكل شائع جدًا خلال هذه النافذة في الأدبيات الأوسع المتعلقة بالإدمان، على الرغم من أن StatPearls لا تصنفها كجزء من الانهيار على وجه التحديد.\n\nعلى عكس بعض الأدوية الأخرى\nتلاحظ StatPearls أن انسحاب المنشطات يتم علاجه بالملاحظة والرعاية الداعمة؛ على عكس انسحاب الكحول أو البنزوديازيبين، فإنه لا يسبب عادة نوبات أو هذيان. الخطر الرئيسي هو الاكتئاب النفسي، وفي حالة الاستخدام المكثف، يمكن أن تحدث أفكار انتحارية أثناء الحادث، لذا يُنصح بالدعم والمراقبة.\n\nلا يوجد دواء معتمد\nلا يوجد حاليا أي أدوية معتمدة لعلاج انسحاب الكوكايين. الإدارة داعمة، والنهج غير الدوائية مثل إدارة الطوارئ هي العلاجات القائمة على الأدلة لاضطراب الاستخدام الأساسي.';
+      'انسحاب الكوكايين: أول 24 ساعة\n\nالمصدر: \"Withdrawal Syndromes\"، StatPearls (NCBI Bookshelf)، المكتبة الوطنية الأمريكية للطب\n\nالكوكايين والدماغ\nيمنع الكوكايين إعادة امتصاص الدوبامين وغيره من النواقل الأحادية الأمين في دوائر المكافأة بالدماغ، فيتراكم الدوبامين وينتج عنه شعور قوي بالنشوة والطاقة. ومع الاستخدام المنتظم يتكيف الدماغ بخفض نشاط هذا النظام، لذلك قد تبدو الأنشطة العادية أقل إشباعًا في غياب المخدر.\n\nمرحلة الانهيار\nتصف StatPearls بداية انسحاب المنشطات بمرحلة \"انهيار\" بعد توقف الاستخدام، تتسم باكتئاب واضح وكثرة النوم والجوع وانخفاض المزاج وبطء شديد في الحركة والتفكير. وخلال أول 24 ساعة يشمل ذلك عادة:\n• إرهاقًا شديدًا وحاجة أكبر إلى النوم\n• مزاجًا مكتئبًا وبطئًا في الحركة والتفكير\n• زيادة الشهية، لأن الكوكايين يثبط الشهية\n\nكما تُذكر الرغبة الشديدة في تعاطي الكوكايين والتهيّج والقلق كثيرًا في أدبيات الإدمان خلال هذه الفترة، رغم أن StatPearls لا تعددها تحديدًا ضمن مرحلة الانهيار.\n\nبخلاف بعض المواد الأخرى\nتشير StatPearls إلى أن انسحاب المنشطات يُعالج بالملاحظة والرعاية الداعمة. وعلى خلاف انسحاب الكحول أو البنزوديازيبينات، فإنه لا يسبب عادة نوبات صرع أو هذيانًا. ويكمن الخطر الرئيسي في الجانب النفسي؛ فقد يحدث الاكتئاب، وقد تظهر أفكار انتحارية لدى من يستخدمون بكثرة خلال مرحلة الانهيار، لذلك يُنصح بالدعم والمتابعة.\n\nلا دواء معتمدًا\nلا توجد حاليًا أدوية معتمدة لعلاج انسحاب الكوكايين. ويعتمد التدبير على الرعاية الداعمة، بينما تُعد الأساليب غير الدوائية مثل إدارة الحوافز من العلاجات القائمة على الأدلة لاضطراب التعاطي الأساسي.';
 
   @override
   String get cocaineReferenceDay3 =>
-      'ثلاثة أيام بدون كوكايين: التغلب على تحدي الذروة\n\nالمصدر: \"سمية الكوكايين،\" StatPearls (NCBI Bookshelf)، المكتبة الوطنية الأمريكية للطب\n\nكيف يؤثر الكوكايين على الجسم\nيوثق StatPearls أن الكوكايين يمنع إعادة امتصاص الدوبامين والنورإبينفرين والسيروتونين، مما يطيل فترة التحفيز الودي. وهذا هو ما يدفع إلى نشوتها وخطورتها – حيث يمكن أن يؤثر على كل أعضاء الجسم تقريبًا.\n\nالأيام 2-4: ذروة الانسحاب النفسي\nبحلول اليوم الثالث، أفسح الانهيار الحاد المجال للانسحاب النفسي الأكثر حدة:\n• انخفاض المزاج والمزاج المكتئب في أشد حالاته\n• فقدان المتعة\n• الرغبة الشديدة القوية\n• القلق والأرق\n• نوم مضطرب - مفرط لدى البعض، وأرق لدى البعض الآخر\n\nخطر القلب والأوعية الدموية ينحسر\nتحدد StatPearls سمية القلب والأوعية الدموية باعتبارها التأثير الأكثر فتكًا للكوكايين: ارتفاع معدل ضربات القلب وضغط الدم، وزيادة الطلب على الأكسجين في عضلة القلب، وتشنج الأوعية التاجية، وتنشيط الصفائح الدموية - مما يؤدي إلى خطر عدم انتظام ضربات القلب، والاحتشاء، والسكتة الدماغية، حتى عند المستخدمين الشباب. نصف عمر الكوكايين قصير، حوالي ساعة واحدة، وبحلول اليوم الثالث يكون الدواء نفسه قد طهر نظامك بالكامل - على الرغم من أن StatPearls تشير إلى أن مستقلباته يمكن أن تسبب انقباض الأوعية الدموية لساعات بعد الاستخدام، وقد يبقى أحد المستقلبات لأسابيع، لذلك يمكن لبعض سلالات القلب والأوعية الدموية المتبقية أن تدوم أكثر من الدواء نفسه.\n\nالطريق إلى الأمام\nتكون المرحلة الحادة شديدة، لكن الأعراض النفسية - الاكتئاب، والرغبة الشديدة، وفقدان المتعة - هي التي تتطلب أكبر قدر من الدعم وتستمر لفترة أطول.';
+      'ثلاثة أيام من دون كوكايين: ذروة التحدي\n\nالمصدر: \"Cocaine Toxicity\"، StatPearls (NCBI Bookshelf)، المكتبة الوطنية الأمريكية للطب\n\nكيف يؤثر الكوكايين في الجسم\nتوثق StatPearls أن الكوكايين يمنع إعادة امتصاص الدوبامين والنورإبينفرين والسيروتونين، ما يطيل التنبيه الودي. وهذا يفسر النشوة التي يسببها كما يفسر خطورته، إذ يمكن أن يؤثر في معظم أجهزة الجسم.\n\nالأيام 2–4: ذروة الانسحاب النفسي\nبحلول اليوم الثالث تكون مرحلة الانهيار الحادة قد أفسحت المجال عادة لأشد فترة من الانسحاب النفسي:\n• انخفاض المزاج والاكتئاب في أشدهما\n• فقدان المتعة\n• رغبة شديدة في التعاطي تثيرها المحفزات\n• القلق والتململ\n• اضطراب النوم، مع فرط النوم لدى بعض الأشخاص والأرق لدى آخرين\n\nيتراجع الخطر القلبي الوعائي\nتصف StatPearls السمية القلبية الوعائية بأنها أخطر آثار الكوكايين: ارتفاع معدل ضربات القلب وضغط الدم وزيادة حاجة عضلة القلب إلى الأكسجين وتشنج الشرايين التاجية وتنشيط الصفائح الدموية، وهي عوامل تزيد خطر اضطراب النظم واحتشاء القلب والسكتة الدماغية حتى لدى الشباب. نصف عمر الكوكايين نفسه قصير، نحو ساعة، وبحلول اليوم الثالث يكون المخدر نفسه قد خرج من الجسم. لكن StatPearls تشير إلى أن مستقلباته قد تواصل تضييق الأوعية لساعات بعد الاستخدام، وقد يبقى أحد المستقلبات لأسابيع، لذلك قد يستمر بعض الإجهاد القلبي الوعائي بعد زوال الكوكايين نفسه.\n\nالطريق إلى الأمام\nالمرحلة الحادة شديدة، لكن الأعراض النفسية، مثل الاكتئاب والرغبة الشديدة وفقدان المتعة، هي التي تحتاج عادة إلى أكبر قدر من الدعم وقد تستمر لأطول مدة.';
 
   @override
   String get cocaineReferenceDay7 =>
-      'أسبوع واحد بدون كوكايين: يبدأ التعافي الجسدي\n\nالمصدر: \"متلازمات الانسحاب\"، StatPearls (NCBI Bookshelf)، المكتبة الوطنية الأمريكية للطب\n\nالمرحلة الحادة تنتهي\nيصف StatPearls انسحاب الكوكايين بأنه انتقال من الانهيار الأولي إلى مرحلة تعافي أطول. بحلول نهاية الأسبوع الأول، عادةً ما تخف الأعراض الأسوأ بينما يستمر نظام الدوبامين في إعادة البناء.\n\nالتعافي الجسدي جاري\nبمجرد توقف تحفيز الكوكايين الودي، تبدأ تأثيراته على القلب والأوعية الدموية والشهية والنوم والمجرى الهوائي في التراجع خلال الأيام والأسابيع التالية:\n• عودة معدل ضربات القلب وضغط الدم إلى المستوى الطبيعي\n• عودة الشهية تدريجياً (الكوكايين يثبطها بقوة)\n• بدأت أنماط النوم في الاستقرار\n• تبدأ الممرات الأنفية بالشفاء في حالة استنشاق الكوكايين\n\nتستمر الأعراض النفسية\nتشير StatPearls إلى أن الاكتئاب وفقدان المتعة هما من سمات الانسحاب من المنشطات ويدومان أكثر من الأعراض الجسدية:\n• يظل المزاج منخفضًا، على الرغم من أنه أقل حدة مما كان عليه في الذروة\n• تبقى الرغبة الشديدة في تناول الطعام قوية\n• لا يزال هناك ضعف في التركيز والتحفيز\n\nمرحلة ما بعد الحادة\nثم يتحول الانسحاب إلى أسابيع أو أشهر من التحسن المطرد في المزاج والرغبة الشديدة والتفكير الواضح. إن معرفة هذا النمط يجعل إدارة الجزء الأبطأ من عملية التعافي أسهل.';
+      'أسبوع واحد من دون كوكايين: بدء التعافي الجسدي\n\nالمصدر: \"Withdrawal Syndromes\"، StatPearls (NCBI Bookshelf)، المكتبة الوطنية الأمريكية للطب\n\nالمرحلة الحادة تقترب من نهايتها\nتصف StatPearls انتقال انسحاب الكوكايين من مرحلة الانهيار الأولى إلى مرحلة تعافٍ أطول. وبحلول نهاية الأسبوع الأول تبدأ أسوأ الأعراض عادة في الانحسار بينما يواصل نظام الدوبامين التعافي.\n\nالتعافي الجسدي جارٍ\nبعد توقف التنبيه الودي الذي يسببه الكوكايين، تبدأ تأثيراته في القلب والأوعية الدموية والشهية والنوم والمجاري الهوائية في التراجع خلال الأيام والأسابيع التالية:\n• يتجه معدل ضربات القلب وضغط الدم نحو الطبيعي\n• تعود الشهية تدريجيًا، إذ إن الكوكايين يثبطها بشدة\n• تبدأ أنماط النوم في الاستقرار\n• تبدأ الممرات الأنفية في الالتئام إذا كان الكوكايين يُستنشق عبر الأنف\n\nقد تستمر الأعراض النفسية\nتشير StatPearls إلى أن الاكتئاب وفقدان المتعة من سمات انسحاب المنشطات وقد يستمران بعد زوال الأعراض الجسدية:\n• يبقى المزاج منخفضًا، لكنه يكون عادة أقل شدة من فترة الذروة\n• تظل الرغبة التي تثيرها المحفزات قوية\n• يظل التركيز والدافع متأثرين\n\nمرحلة ما بعد الانسحاب الحاد\nبعد ذلك ينتقل التعافي إلى أسابيع أو أشهر من التحسن الأبطأ والأكثر ثباتًا في المزاج والرغبة والتفكير الواضح. ومعرفة هذا النمط تساعد على فهم الجزء الأبطأ من التعافي.';
 
   @override
   String get cocaineReferenceDay14 =>
-      'أسبوعين بدون كوكايين: إيجاد الاستقرار\n\nالمصدر: \"متلازمات الانسحاب\"، StatPearls (NCBI Bookshelf)، المكتبة الوطنية الأمريكية للطب\n\nاسبوعين في\nوبعد مرور أسبوعين، تخف بشكل عام أعراض الانهيار الشديدة — الاكتئاب العميق، والنوم كثيرًا، وبطء الحركة والتفكير. ويركز التعافي الآن على إعادة بناء الصحة العقلية والعاطفية.\n\nالمزاج والحالة العاطفية\nوبعد مرور أسبوعين، قد يظل المزاج أقل من الطبيعي بينما يتعافى نظام الدوبامين. ومقارنة بالأسبوع الأول، فإن فقدان المتعة العميق ينحسر وتعود لحظات الرفاهية الحقيقية.\n\nالرغبة الشديدة والمحفزات\nتشكل الرغبة الشديدة في تناول الطعام تحديًا كبيرًا في هذه المرحلة. لقد شكل الدماغ ارتباطات قوية بين تعاطي الكوكايين وبيئات وأشخاص وعواطف وأنشطة محددة. مواجهة أي من هذه المحفزات يمكن أن تؤدي إلى الرغبة الشديدة في تناول الطعام حتى عندما يتحسن المزاج العام. من المهم تجنب البيئات عالية المخاطر وبناء جمعيات جديدة.\n\nتحسين النوم\nعادة ما يكون النوم أكثر استقرارًا وتجديدًا لمدة أسبوعين مما كان عليه خلال مرحلة الانسحاب الحادة. تحسين النوم له تأثير إيجابي كبير على الحالة المزاجية والتفكير الواضح والقدرة على التحكم في الرغبة الشديدة.\n\nبناء المؤسسة\nنظرًا لأن العلاجات القائمة على الأدلة لاضطراب استخدام المنشطات هي علاجات سلوكية - إدارة الطوارئ، والعلاج، ودعم الأقران - فإن علامة الأسبوعين تعد وقتًا مهمًا للتعامل مع هياكل الدعم التي ستعزز التعافي على المدى الطويل.';
+      'أسبوعان من دون كوكايين: استعادة الاستقرار\n\nالمصدر: \"Withdrawal Syndromes\"، StatPearls (NCBI Bookshelf)، المكتبة الوطنية الأمريكية للطب\n\nبعد أسبوعين\nبحلول أسبوعين تكون أعراض الانهيار الشديدة، مثل الاكتئاب العميق وكثرة النوم وبطء الحركة والتفكير، قد خفت عادة بدرجة كبيرة. وينصب التعافي الآن بدرجة أكبر على استعادة صحة الدماغ والصحة العاطفية.\n\nالمزاج والحالة العاطفية\nقد يظل المزاج دون مستواه المعتاد بعد أسبوعين بينما يتعافى نظام الدوبامين. ومقارنة بالأسبوع الأول، يبدأ فقدان المتعة الشديد في التراجع وتعود لحظات حقيقية من الشعور بالراحة.\n\nالرغبة والمحفزات\nتمثل الرغبة التي تثيرها المحفزات تحديًا مهمًا في هذه المرحلة. فقد كوّن الدماغ ارتباطات قوية بين تعاطي الكوكايين وبيئات وأشخاص ومشاعر وأنشطة محددة. وقد يؤدي التعرض لأي من هذه المحفزات إلى رغبة شديدة حتى مع تحسن المزاج العام. لذلك يفيد تجنب البيئات عالية الخطورة وبناء ارتباطات جديدة.\n\nتحسن النوم\nيكون النوم عادة أكثر استقرارًا وتجددًا بعد أسبوعين مما كان عليه خلال مرحلة الانسحاب الحاد. ويساعد تحسن النوم في المزاج والتفكير الواضح والقدرة على التعامل مع الرغبة.\n\nبناء الأساس\nلأن العلاجات القائمة على الأدلة لاضطراب استخدام المنشطات سلوكية، ومنها إدارة الحوافز والعلاج ودعم الأقران، فإن علامة الأسبوعين وقت مهم للانخراط في هياكل الدعم التي تدعم التعافي طويل الأمد.';
 
   @override
   String get cocaineReferenceDay60 =>
-      'شهرين بدون كوكايين: المزاج والمكافأة يبدأان في التعافي\n\nالمصدر: \"التعافي من الكوكايين: رؤى من التحقيقات السريرية وما قبل السريرية\"، مراجعات علم الأعصاب والسلوك الحيوي (2013)، على PubMed Central\n\nماذا يفعل الدماغ\nتجمع هذه المراجعة الدراسات البشرية والحيوانية حول ما يحدث للدماغ عندما يتوقف تعاطي الكوكايين. يغير الكوكايين المزمن نظام الدوبامين ويقلل النشاط في القشرة الأمامية. إن استعادة هذه الأنظمة هو الركيزة الأساسية لتحسين الحالة المزاجية والتحفيزية التي يلاحظها الناس في الامتناع المبكر عن ممارسة الجنس.\n\nتقدم نظام المكافآت\nفي الدراسات التي أجريت على الحيوانات، عادت التغيرات المرتبطة بالكوكايين في مستقبلات الدوبامين وبروتينات إعادة التدوير إلى مستويات صحية مع الامتناع المستمر عن ممارسة الجنس. مع تعافي نظام المكافأة، فإن الخسارة العميقة للمتعة ترفع من مستوى المكافآت اليومية - الطعام، التواصل، الإنجاز - تشعر بالمكافأة مرة أخرى.\n\nإشارة الاسترداد\nوبحلول الشهرين، تتحسن الحالة المزاجية ويصبح النوم أكثر ثباتًا بينما تستمر أنظمة الدوبامين والقشرة الأمامية في إعادة البناء. تُظهر الدراسات التي أجريت على الرئيسيات أن مستقبلات D1 والناقلات المرتبطة بالكوكايين تتحرك نحو مستويات التحكم مع الامتناع المستمر عن ممارسة الجنس.';
+      'شهران من دون كوكايين: بدء تعافي المزاج ونظام المكافأة\n\nالمصدر: \"Recovering from Cocaine: Insights from Clinical and Preclinical Investigations\"، Neuroscience & Biobehavioral Reviews (2013)، على PubMed Central\n\nما الذي يحدث في الدماغ\nيجمع هذا الاستعراض دراسات بشرية وحيوانية عن التغيرات التي تحدث في الدماغ بعد توقف استخدام الكوكايين. يغير الاستخدام المزمن للكوكايين نظام الدوبامين ويخفض النشاط في القشرة الجبهية، ويشكل تعافي هذه الأنظمة أساسًا للتحسن في المزاج والدافع الذي يلاحظه الناس في المراحل المبكرة من الامتناع.\n\nتقدم نظام المكافأة\nفي الدراسات الحيوانية، تحركت التغيرات المرتبطة بالكوكايين في مستقبلات الدوبامين وبروتينات إعادة التدوير نحو مستويات أقرب إلى الطبيعي مع استمرار الامتناع. ومع تعافي نظام المكافأة يتراجع فقدان المتعة الشديد وتعود المكافآت اليومية، مثل الطعام والتواصل والإنجاز، إلى الشعور بأنها مُرضية.\n\nإشارة التعافي\nبعد شهرين يتحسن المزاج ويصبح النوم أكثر استقرارًا بينما يواصل نظام الدوبامين والقشرة الجبهية التعافي. وتُظهر دراسات على الرئيسيات أن التغيرات المرتبطة بالكوكايين في مستقبلات D1 والناقلات تتحرك نحو مستويات المجموعة الضابطة مع استمرار الامتناع.';
 
   @override
   String get cocaineReferenceDay90 =>
-      'ثلاثة أشهر بدون كوكايين: انتعاش علامات الدوبامين\n\nالمصدر: \"التعافي من الكوكايين: رؤى من التحقيقات السريرية وما قبل السريرية\"، مراجعات علم الأعصاب والسلوك الحيوي (2013)، على PubMed Central\n\nلماذا تعتبر 90 يومًا علامة بارزة\nتسلط هذه المراجعة الضوء على نقطة الثلاثة أشهر باعتبارها ذات معنى بيولوجي. في الرئيسيات غير البشرية، أظهرت مستقبلات الدوبامين D1 والناقلات التي رفعها الكوكايين \"دليلًا على العودة إلى مستويات السيطرة\" بعد حوالي 90 يومًا من الامتناع عن ممارسة الجنس - وهو دليل مباشر على أن نظام المكافأة يمكن إعادة ضبطه بمجرد انتهاء المخدر.\n\nمقدمة الدماغ\nيسلط المؤلفون الضوء على التعافي في الجزء الأمامي من الدماغ كأحد أهم علامات الامتناع عن ممارسة الجنس لفترة طويلة. تتولى هذه المنطقة التحكم في الانفعالات، واتخاذ القرار، وضبط النفس، وتتعزز تلك القدرات أثناء تعافيها.\n\nماذا يظهر 90 يومًا\nبعد 90 يومًا، وجدت الدراسات على الرئيسيات أن كثافة D1 وD2 وناقلات الدوبامين لم تعد تختلف بشكل كبير عن الضوابط غير الدوائية. حتى بعد التعرض لفترة طويلة، يكون التعافي الكبير لنظام الدوبامين مرئيًا بالفعل عند هذه النقطة ويستمر مع الامتناع عن ممارسة الجنس.';
+      'ثلاثة أشهر من دون كوكايين: تعافي مؤشرات الدوبامين\n\nالمصدر: \"Recovering from Cocaine: Insights from Clinical and Preclinical Investigations\"، Neuroscience & Biobehavioral Reviews (2013)، على PubMed Central\n\nلماذا تمثل 90 يومًا علامة مهمة\nيسلط الاستعراض الضوء على نقطة الثلاثة أشهر بوصفها ذات دلالة بيولوجية. ففي الرئيسيات غير البشرية، أظهرت مستقبلات الدوبامين D1 والناقلات التي زادها الكوكايين دلائل على عودة نحو مستويات المجموعة الضابطة بعد نحو 90 يومًا من الامتناع. وهذا دليل مباشر على أن نظام المكافأة يمكنه إعادة التكيف بعد توقف المخدر.\n\nالجزء الأمامي من الدماغ\nيشدد المؤلفون على تعافي الجزء الأمامي من الدماغ بوصفه من أهم علامات الامتناع الممتد. يدعم هذا الجزء التحكم في الاندفاع واتخاذ القرار وضبط النفس، وتتحسن هذه القدرات مع تعافيه.\n\nما الذي تُظهره 90 يومًا\nبعد 90 يومًا، وجدت دراسات الرئيسيات أن كثافات مستقبلات D1 وD2 وناقلات الدوبامين لم تعد تختلف بصورة ملحوظة عن المجموعة الضابطة غير المعرضة للمخدر. وحتى بعد التعرض الطويل، يظهر قدر كبير من تعافي نظام الدوبامين بحلول هذه النقطة ويستمر مع الامتناع.';
 
   @override
   String get cocaineReferenceDay180 =>
-      'ستة أشهر بدون كوكايين: تفكير أكثر وضوحًا\n\nالمصدر: \"التعافي الهيكلي والوظيفي للدماغ لدى الأفراد الذين يعانون من اضطرابات تعاطي المخدرات أثناء الامتناع عن ممارسة الجنس: مراجعة لدراسات التصوير العصبي الطولية،\" في PubMed Central\n\nيمكنك استعادة الصورة\nتجمع هذه المراجعة دراسات تصوير الدماغ الطولية التي تفحص نفس الأشخاص بشكل متكرر مع إطالة أمتناعهم عن ممارسة الجنس. بالنسبة للكوكايين، تشير التقارير إلى أن النشاط الوظيفي يتعافى بشكل ملحوظ مع الامتناع المستمر عن ممارسة الجنس.\n\nأدلة تصوير الدماغ\nتتبعت دراستان وظيفيتان للتصوير بالرنين المغناطيسي مستخدمي الكوكايين مع مرور الوقت، ووجدتا تنشيطًا محسنًا في الدماغ المتوسط والمهاد مع الامتناع عن ممارسة الجنس لفترة أطول. في إحداها، بعد حوالي ستة أشهر من الامتناع عن ممارسة الجنس، كان نمط تنشيط الدماغ مشابهًا لنمط الأصحاء غير المدمنين. فيما يتعلق بالمواد المختلفة، تشير المراجعة إلى أن نتائج التصوير النووي تشير إلى تعافي الدوبامين مع الامتناع عن ممارسة الجنس.\n\nماذا يعني هذا في ستة أشهر\nتتبع هذه المكاسب الوظيفية التحسينات الواقعية التي أبلغ عنها الأشخاص في هذه المرحلة:\n• انتباه أفضل وذاكرة عاملة\n• اتخاذ قرارات أكثر دقة والتحكم في الانفعالات\n• مزاج أكثر ثباتاً وتنظيماً عاطفياً\n\nإشارة الاسترداد\nوفي حوالي ستة أشهر، أظهرت مجموعة طولية من التصوير بالرنين المغناطيسي الوظيفي نمط تنشيط مشابهًا للضوابط الصحية غير المدمنة، في حين تحسن تنشيط الدماغ المتوسط والدماغ العميق مع إطالة فترة الامتناع عن ممارسة الجنس. يتم تصوير ذلك بشكل مباشر لاستعادة وظائف الدماغ.';
+      'ستة أشهر من دون كوكايين: تفكير أوضح\n\nالمصدر: \"Structural and Functional Brain Recovery in Individuals with Substance Use Disorders During Abstinence: A Review of Longitudinal Neuroimaging Studies\"، على PubMed Central\n\nتعافٍ يمكن رؤيته بالتصوير\nيجمع هذا الاستعراض دراسات تصوير دماغ طولية تفحص الأشخاص أنفسهم مرارًا مع زيادة مدة امتناعهم. وبالنسبة إلى الكوكايين، يفيد بأن النشاط الوظيفي يتعافى بصورة قابلة للقياس مع استمرار الامتناع.\n\nأدلة تصوير الدماغ\nتابعت دراستان بالرنين المغناطيسي الوظيفي مستخدمي الكوكايين عبر الزمن، ووجدتا تحسنًا في تنشيط الدماغ المتوسط والمهاد مع زيادة مدة الامتناع. وفي إحداهما كان نمط تنشيط الدماغ بعد نحو ستة أشهر من الامتناع مشابهًا لنمط مجموعة ضابطة من أشخاص أصحاء غير مدمنين. وعبر مواد مختلفة، يشير الاستعراض إلى أن نتائج التصوير النووي تدعم وجود تعافٍ دوباميني مع الامتناع.\n\nما معنى ذلك بعد ستة أشهر\nتتوافق هذه المكاسب الوظيفية مع التحسينات التي يبلغ عنها الناس في الحياة اليومية في هذه المرحلة:\n• انتباه وذاكرة عاملة أفضل\n• اتخاذ قرار أدق وتحكم أفضل في الاندفاع\n• مزاج أكثر استقرارًا وتنظيم أفضل للمشاعر\n\nإشارة التعافي\nبعد نحو ستة أشهر، أظهرت إحدى مجموعات المتابعة الطولية بالرنين المغناطيسي الوظيفي نمط تنشيط مشابهًا لمجموعة ضابطة من أشخاص أصحاء غير مدمنين، بينما تحسن تنشيط الدماغ المتوسط والمناطق العميقة مع طول مدة الامتناع. وهذا تعافٍ وظيفي للدماغ ظهر مباشرة في التصوير.';
 
   @override
   String get cocaineReferenceDay365 =>
-      'سنة واحدة بدون كوكايين: إزالة إجهاد القلب والأوعية الدموية\n\nالمصدر: \"سمية الكوكايين،\" StatPearls (NCBI Bookshelf)، المكتبة الوطنية الأمريكية للطب\n\nلماذا القلب مركزي\nتحدد StatPearls سمية القلب والأوعية الدموية باعتبارها التأثير الأكثر فتكًا للكوكايين. كل استخدام يرفع معدل ضربات القلب، وضغط الدم، والطلب على الأكسجين في عضلة القلب بينما يسبب تشنج الأوعية التاجية ويعزز تكوين الجلطات - وهو مزيج يؤدي إلى الإصابة بالنوبات القلبية، وعدم انتظام ضربات القلب، والسكتة الدماغية حتى عند الشباب.\n\nما يزيل سنة الامتناع عن ممارسة الجنس\nكل يوم بدون الكوكايين هو يوم خالي من هذه الإهانات الحادة. وعلى مدى عام، اختفت الزيادات المتكررة في ضغط الدم ومعدل ضربات القلب، وتم إزالة خطر تشنج الشريان التاجي الناجم عن الكوكايين والاحتشاء الحاد، ولم يعد القلب مدفوعًا إلى عدم تطابق الأكسجين.\n\nإشارة الاسترداد\nإن إيقاف الكوكايين يوقف التشنج الوعائي التاجي المتكرر، وعدم انتظام دقات القلب، وارتفاع ضغط الدم، وتعزيز الجلطة، وعدم تطابق الأكسجين الذي يؤدي إلى إصابة القلب الحادة. يظل التليف أو التهاب عضلة القلب الحالي مشكلة طبية، لكن الإهانة المتكررة الناجمة عن الكوكايين قد اختفت.\n\nاستعادة الدماغ أيضا\nوبحلول عام واحد، يكون لدى أنظمة المكافأة وضبط النفس وقتًا أطول للتعافي، ودعم التحكم بشكل أفضل في الانفعالات، والمزاج الأكثر ثباتًا، والاستجابة الأقوى للمكافآت اليومية.';
+      'عام واحد من دون كوكايين: زوال الإجهاد القلبي الوعائي المتكرر\n\nالمصدر: \"Cocaine Toxicity\"، StatPearls (NCBI Bookshelf)، المكتبة الوطنية الأمريكية للطب\n\nلماذا يحتل القلب موقعًا محوريًا\nتحدد StatPearls السمية القلبية الوعائية بوصفها أخطر آثار الكوكايين. فكل استخدام يرفع معدل ضربات القلب وضغط الدم وطلب عضلة القلب على الأكسجين، ويسبب تشنج الشرايين التاجية ويعزز تكوّن الجلطات. ويزيد هذا المزيج خطر النوبة القلبية واضطراب النظم والسكتة الدماغية حتى لدى الشباب.\n\nما الذي يزيله عام من الامتناع\nكل يوم من دون كوكايين هو يوم من دون هذه الأضرار الحادة. وعلى امتداد عام، تختفي الارتفاعات المتكررة في ضغط الدم ومعدل ضربات القلب الناتجة عن الاستخدام، ويزول خطر التشنج التاجي والاحتشاء الحاد الناتجين عن جرعات جديدة، ولا يعود القلب يُدفع مرارًا إلى عدم التوازن بين حاجته إلى الأكسجين وما يصله منه.\n\nإشارة التعافي\nيوقف التوقف عن الكوكايين التشنج التاجي المتكرر وتسارع القلب وارتفاع ضغط الدم وتعزيز التخثر وعدم توازن الأكسجين التي تقود إلى أذية قلبية حادة. وقد يبقى التليف أو التهاب عضلة القلب الموجود سابقًا مشكلة طبية، لكن الأذى المتكرر الذي يسببه الكوكايين يتوقف.\n\nتعافي الدماغ أيضًا\nبعد عام، تكون أنظمة المكافأة وضبط النفس قد حصلت على وقت ممتد للتعافي، ما يدعم تحكمًا أفضل في الاندفاع ومزاجًا أكثر استقرارًا واستجابة أقوى للمكافآت اليومية.';
 
   @override
   String get cocaineReferenceDay730 =>
-      'سنتان بدون كوكايين: التعافي المستدام\n\nالمصدر: \"التعافي من الكوكايين: رؤى من التحقيقات السريرية وما قبل السريرية\"، مراجعات علم الأعصاب والسلوك الحيوي (2013)، على PubMed Central\n\nالمنظر الطويل\nتجمع هذه المراجعة ما أظهرته الدراسات البشرية والحيوانية حول الامتناع عن تعاطي الكوكايين لفترة طويلة. الاستنتاج الرئيسي الذي توصلت إليه هو أن الحفاظ على وظيفة القشرة الأمامية واستعادتها هو العلامة الأكثر أهمية للامتناع عن ممارسة الجنس على المدى الطويل - أظهر الممتنعون عن ممارسة الجنس على المدى الطويل (أكثر من 10 أشهر) نشاطًا أعلى في القشرة الأمامية مقارنة بالامتناع عن ممارسة الجنس على المدى القصير.\n\nما يستمر في الشفاء\n• تستمر علامات الدوبامين التي تم تغييرها بواسطة الكوكايين في التحرك نحو الوضع الطبيعي مع الامتناع المستمر عن ممارسة الجنس\n• انخفاض سلامة المادة الرمادية والبيضاء التي تظهر لدى المستخدمين النشطين والممتنعين مبكرًا عن ممارسة الجنس قد ينعكس مع الامتناع لفترة أطول، ربما من خلال استمرار نضوج المايلين\n• يتم تقوية دوائر التحكم الأمامية – التحكم في الانفعالات، والحكم، والتنظيم العاطفي\n\nإشارة الاسترداد\nيثير المؤلفون تحذيرًا علميًا حقيقيًا: بعض الاختلاف في الممتنعين عن التدخين على المدى الطويل قد يعكس \"تأثير البقاء على قيد الحياة\" - فالأشخاص الذين بدأوا بقدر أكبر من سلامة الدماغ قد يجدون أنه من الأسهل البقاء ممتنعين - بدلاً من التعافي وحده. الأمر الواضح هو أن التوقف عن تعاطي الكوكايين لمدة عامين يدعم عمل دماغ أقرب إلى دماغ غير المتعاطي، وحياة لا تقتصر على الامتناع عن التدخين فحسب، بل يعاد بناؤها بشكل كبير.';
+      'عامان من دون كوكايين: تعافٍ مستمر\n\nالمصدر: \"Recovering from Cocaine: Insights from Clinical and Preclinical Investigations\"، Neuroscience & Biobehavioral Reviews (2013)، على PubMed Central\n\nنظرة بعيدة المدى\nيجمع هذا الاستعراض ما توصلت إليه الدراسات البشرية والحيوانية بشأن الامتناع المطول عن الكوكايين. وتتمثل خلاصته الأساسية في أن الحفاظ على وظيفة القشرة الجبهية وتعافيها من أهم مؤشرات الامتناع طويل الأمد؛ فقد أظهر الأشخاص الممتنعون لمدة طويلة (أكثر من 10 أشهر) نشاطًا أكبر في القشرة الجبهية مقارنة بمن كانت مدة امتناعهم أقصر.\n\nما الذي يواصل التعافي\n• تستمر مؤشرات الدوبامين التي غيّرها الكوكايين في الاقتراب من المستويات الطبيعية مع استمرار الامتناع\n• قد يتحسن الانخفاض في سلامة المادة الرمادية والبيضاء الذي لوحظ لدى المستخدمين النشطين ومن هم في بدايات الامتناع مع فترات امتناع أطول، وربما يرتبط ذلك باستمرار نضج الميالين\n• تتقوى دوائر التحكم الجبهية، بما يشمل التحكم في الاندفاع والحكم وتنظيم المشاعر\n\nإشارة التعافي\nيشير المؤلفون إلى تحفظ علمي مهم: قد تعكس بعض الفروق لدى الممتنعين لفترات طويلة \"تأثير الناجين\"؛ أي إن الأشخاص الذين كانت سلامة أدمغتهم أفضل في البداية ربما يكون من الأسهل عليهم الحفاظ على الامتناع، وليس أن تكون كل الفروق ناتجة عن التعافي وحده. الواضح أن عامين من دون كوكايين يدعمان دماغًا يعمل بصورة أقرب بكثير إلى دماغ غير المستخدم، وحياة لم تعد مجرد امتناع بل أعيد بناؤها بدرجة كبيرة.';
 
   @override
   String get cocaineReferenceDay1095 =>
@@ -3441,87 +3424,87 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get ghbReferenceDay1 =>
-      'انسحاب GHB: الساعات الأولى\n\nالمصدر: \"توصيف متلازمة انسحاب GHB،\" على PubMed Central\n\n⚠ هذه حالة طبية طارئة\nيعد انسحاب GHB من بين أخطر حالات انسحاب المواد، حيث ينافس انسحاب الكحول الشديد والبنزوديازيبين. إذا لم يتم علاجه، يمكن أن يتطور إلى الهذيان في أكثر من نصف الحالات، مع تقلبات خطيرة في معدل ضربات القلب وضغط الدم والنوبات. يجب على أي شخص يعتمد على GHB أو GBL أو 1.4-بوتانيديول أن يسعى للتخلص من السموم تحت إشراف المرضى الداخليين بدلاً من التوقف بمفرده.\n\nلماذا يبدأ بهذه السرعة\nيبلغ عمر النصف لـ GHB 30-60 دقيقة فقط، وعادة ما يحتاج المستخدمون المعتمدون إلى إعادة الجرعة كل 2-3 ساعات فقط لتجنب الانسحاب - أسرع بكثير من الكحول أو البنزوديازيبينات. إن الحرائك الدوائية السريعة هي السبب في ظهور الأعراض في وقت أسرع بكثير من أعراض الانسحاب المهدئ والمنوم.\n\nالأعراض المبكرة\nالقلق والأرق والرعشة والتعرق وسرعة ضربات القلب وارتفاع ضغط الدم.';
+      'انسحاب GHB: الساعات الأولى\n\nالمصدر: “Characterization of the GHB Withdrawal Syndrome”، PubMed Central\n\n⚠ هذه حالة طبية طارئة\nيُعد انسحاب GHB من أخطر أنواع انسحاب المواد، وقد يضاهي في شدته انسحاب الكحول أو البنزوديازيبينات الشديد. من دون علاج قد يتطور إلى هذيان في أكثر من نصف الحالات، مع تقلبات خطيرة في معدل ضربات القلب وضغط الدم ونوبات تشنج. ينبغي لمن يعتمد على GHB أو GBL أو 1,4-butanediol أن يطلب إزالة سموم داخل المستشفى تحت الإشراف بدلًا من التوقف بمفرده.\n\nلماذا يبدأ بهذه السرعة\nلا يتجاوز عمر النصف لـ GHB نحو 30–60 دقيقة، وغالبًا ما يحتاج الشخص المعتمد عليه إلى إعادة الجرعة كل 2–3 ساعات فقط لتجنب الانسحاب، أي بوتيرة أسرع بكثير من الكحول أو البنزوديازيبينات. تفسر هذه الحرائك الدوائية السريعة ظهور الأعراض أبكر بكثير من انسحاب المهدئات والمنومات الأخرى.\n\nالأعراض المبكرة\nالقلق، الأرق، الرعشة، التعرق، تسارع ضربات القلب وارتفاع ضغط الدم.';
 
   @override
   String get ghbReferenceDay3 =>
-      'انسحاب GHB: أصعب الأيام\n\nالمصدر: \"توصيف متلازمة انسحاب GHB،\" على PubMed Central\n\nأصعب تمتد\nوجدت هذه الدراسة أن العديد من أعراض الانسحاب الأساسية - آلام العضلات، وتشنجات العضلات، والشعور بالتوتر والإجهاد، وسرعة ضربات القلب، وتشنجات البطن - كانت في أسوأ حالاتها في الأيام الثلاثة الأولى، مع انخفاض أكثر من 70٪ في شدة العديد من الأعراض بحلول اليوم الرابع. هذه النافذة المبكرة هي بشكل عام الفترة الأكثر خطورة، حيث من المرجح أن يتصاعد الانسحاب غير المعالج نحو الهذيان أو النوبات أو التقلبات الخطيرة في معدل ضربات القلب وضغط الدم.\n\nالميزات الشديدة\n• الانفعالات والقلق الشديد\n• هلاوس سمعية وبصرية، وجنون العظمة\n• الرعشة، والتعرق، وتسارع ضربات القلب، وارتفاع ضغط الدم\n• خطر النوبات\n\nالإدارة\nتصف الدراسة التخفيض التدريجي للبنزوديازيبين والتخفيض الصيدلاني لـ GHB باعتبارهما طريقتين شائعتين لإزالة السموم، مع ملاحظة بعض الأدلة على أن التخفيض التدريجي لـ GHB قد يتحكم في الأعراض بشكل أكثر فعالية من البنزوديازيبينات وحدها. يتطلب أي من النهجين مراقبة دقيقة، وهذا ليس آمنًا لإدارته في المنزل.';
+      'انسحاب GHB: أصعب الأيام\n\nالمصدر: “Characterization of the GHB Withdrawal Syndrome”، PubMed Central\n\nأصعب فترة\nوجدت الدراسة أن عدة أعراض أساسية للانسحاب — آلام العضلات، ونفضات العضلات، والشعور بالتوتر والإجهاد، وتسارع ضربات القلب، وتقلصات البطن — بلغت أشدها خلال الأيام الثلاثة الأولى، وانخفضت شدة كثير من الأعراض بأكثر من 70٪ بحلول اليوم الرابع. تمثل هذه الفترة المبكرة عادةً أعلى درجات الخطر، إذ يكون الانسحاب غير المعالج أكثر قابلية للتفاقم إلى هذيان أو نوبات أو تقلبات خطيرة في معدل ضربات القلب وضغط الدم.\n\nأعراض شديدة\n• هياج وقلق شديدان\n• هلوسات سمعية وبصرية وارتياب\n• رعشة وتعرق وتسارع القلب وارتفاع ضغط الدم\n• خطر النوبات\n\nالتدبير\nتصف الدراسة التخفيض التدريجي للبنزوديازيبينات والتخفيض التدريجي لـ GHB الدوائي بوصفهما طريقتين شائعتين لإزالة السموم، وتشير إلى بعض الأدلة على أن تخفيض GHB تدريجيًا قد يسيطر على الأعراض بصورة أفضل من البنزوديازيبينات وحدها. كلا النهجين يحتاج إلى مراقبة دقيقة — ولا يُعد تدبير ذلك في المنزل آمنًا.';
 
   @override
   String get ghbReferenceDay7 =>
-      'أسبوع واحد من GHB\n\nالمصدر: \"توصيف متلازمة انسحاب GHB،\" على PubMed Central\n\nمعظم الأعراض تتلاشى\nانخفضت العديد من أعراض الانسحاب الأساسية بنسبة تزيد عن 70% من حيث شدتها أو انتشارها خلال الأيام الأربعة الأولى. في ظل التخفيض التدريجي تحت الإشراف، استمرت مرحلة التخفيض التدريجي نفسها لمدة 11 يومًا في المتوسط، تليها مرحلة التعافي لمدة ستة أيام تقريبًا - لذلك بحلول أسبوع واحد، يكون العديد من الأشخاص في هذا التحسن، حتى لو لم تنته العملية بالكامل.\n\nما الذي يمكن أن يستمر\n• التعرق والرعشة ورعشة اليدين\n• النوم الكثير، أو العكس الأرق والأرق\n• الرغبة الشديدة\n\nوجدت الدراسة أن هذه الأعراض المحددة تغيرت قليلاً نسبيًا حتى لمدة 11 يومًا، لذا فإن استمرارها هذا الأسبوع ليس أمرًا غير معتاد. تظل المراقبة الطبية المستمرة مهمة حتى تستقر المتلازمة بشكل واضح.';
+      'أسبوع من دون GHB\n\nالمصدر: “Characterization of the GHB Withdrawal Syndrome”، PubMed Central\n\nمعظم الأعراض تتراجع\nانخفضت شدة أو شيوع عدة أعراض أساسية للانسحاب بأكثر من 70٪ خلال الأيام الأربعة الأولى. مع التخفيض التدريجي تحت الإشراف استمرت مرحلة خفض الجرعة نفسها 11 يومًا في المتوسط، ثم تبعتها مرحلة تعافٍ بنحو ستة أيام. لذلك يكون كثير من الناس بعد أسبوع قد دخلوا بوضوح في مرحلة التحسن، حتى إن لم تكن العملية قد اكتملت بعد.\n\nما الذي قد يستمر\n• التعرق والرعشة وارتجاف اليدين\n• النوم كثيرًا أو، على العكس، الأرق والتململ\n• الرغبة في استخدام GHB\n\nوجدت الدراسة أن هذه الأعراض المحددة تغيرت قليلًا نسبيًا حتى اليوم 11، لذلك ليس غريبًا أن تستمر بعد أسبوع. تبقى المراقبة الطبية مهمة حتى تهدأ المتلازمة بوضوح.';
 
   @override
   String get ghbReferenceDay14 =>
-      'أسبوعين من GHB\n\nالمصدر: \"توصيف متلازمة انسحاب GHB،\" على PubMed Central\n\nتجاوز المتلازمة الحادة\nبحلول أسبوعين، يتم حل المتلازمة الجسدية الحادة الموصوفة في هذه الدراسة - والتي يبلغ متوسط مرحلتي التناقص التدريجي والتعافي معًا حوالي 17 يومًا تحت العلاج تحت الإشراف - بشكل عام أو تكون قريبة جدًا منها. يجب أن يستقر معدل ضربات القلب وضغط الدم ومعظم الأعراض الجسدية.\n\nما باقية\nوتشير الدراسة على وجه التحديد إلى أن الرغبة الشديدة في تناول الدواء والأرق لا تزال موجودة عند الخروج لدى بعض المرضى، مشيرة إلى أن ذلك قد يساهم في خطر الانتكاس. الدعم والهيكل مهمان الآن، حتى بعد أن تجاوزت المرحلة المبكرة الخطيرة.';
+      'أسبوعان من دون GHB\n\nالمصدر: “Characterization of the GHB Withdrawal Syndrome”، PubMed Central\n\nتجاوز المرحلة الحادة\nبعد أسبوعين تكون المتلازمة الجسدية الحادة الموصوفة في الدراسة قد انحسرت عادةً أو قاربت على الانتهاء. استغرقت مرحلتا التخفيض والتعافي معًا نحو 17 يومًا في المتوسط تحت العلاج الخاضع للإشراف. ينبغي أن يتجه معدل ضربات القلب وضغط الدم ومعظم الأعراض الجسدية نحو الاستقرار.\n\nما الذي قد يبقى\nتشير الدراسة تحديدًا إلى أن بعض المرضى ظل لديهم اشتهاء وأرق عند الخروج من المستشفى، وأن ذلك قد يسهم في خطر الانتكاس. يبقى الدعم والروتين المنظم مهمين حتى بعد تجاوز المرحلة المبكرة الخطيرة.';
 
   @override
   String get ghbReferenceDay30 =>
-      'شهر واحد من GHB\n\nالمصدر: \"توصيف متلازمة انسحاب GHB،\" على PubMed Central\n\nحيث يجلس شهر واحد\nلقد مرت المرحلة الحادة والخطيرة الموصوفة في هذه الدراسة بشهر واحد. وبحلول شهر واحد، تكون المرحلة الخطيرة الحادة - التي تتركز في الأيام الأولى وتليها فترة تقليص تدريجي وتعافي تحت الإشراف تبلغ في المتوسط ​​أسبوعين ونصف تقريبًا - قد انقضت منذ فترة طويلة. الرغبة الشديدة والأرق هي المخاطر الرئيسية المتبقية للانتكاس التي تم تحديدها عند الخروج.\n\nلماذا لا يزال الدعم مفيدًا؟\nإذا استمرت الرغبة الشديدة أو الحالة المزاجية المنخفضة أو مشاكل النوم في الظهور لمدة شهر واحد، فإن ذلك يتماشى مع ما أشار إليه مؤلفو الدراسة على أنه عوامل خطر الانتكاس - وهذا هو بالضبط سبب أهمية الدعم المستمر والهيكل.';
+      'شهر من دون GHB\n\nالمصدر: “Characterization of the GHB Withdrawal Syndrome”، PubMed Central\n\nموقع الشهر في مسار التعافي\nبعد شهر تكون المرحلة الحادة الخطيرة الموصوفة في الدراسة قد مضت منذ وقت طويل. تركزت أخطر الفترة في الأيام الأولى، ثم تلتها فترة تخفيض وتعافٍ تحت الإشراف استمرت في المتوسط نحو أسبوعين ونصف. كان الاشتهاء والأرق أبرز مخاطر الانتكاس المتبقية التي رُصدت عند الخروج.\n\nلماذا يظل الدعم مفيدًا\nإذا استمر الاشتهاء أو انخفاض المزاج أو مشكلات النوم بعد شهر، فهذا ينسجم مع عوامل خطر الانتكاس التي أشار إليها مؤلفو الدراسة. ولهذا يظل الدعم المستمر والروتين المنظم مهمين.';
 
   @override
   String get ghbReferenceDay90 =>
-      'ثلاثة أشهر من GHB\n\nالمصدر: \"توصيف متلازمة انسحاب GHB،\" على PubMed Central\n\nثلاثة أشهر من التعافي\nبحلول ثلاثة أشهر، يتم حل متلازمة انسحاب GHB الحادة منذ فترة طويلة. المخاطر المتبقية التي تم تحديدها عند الخروج هي الرغبة الشديدة والأرق، لذا فإن ثلاثة أشهر من الامتناع عن ممارسة الجنس تمنح النوم والاستقرار اللاإرادي وروتينات الوقاية من الانتكاس وقتًا كبيرًا للتوطيد.\n\nما تقرير الناس عادة\n• مزاج أكثر هدوءا المعتاد\n• نوم أكثر موثوقية\n• تفكير أكثر وضوحا ورغبة أقل\n\nإذا ظل القلق أو الأرق أو الحالة المزاجية المنخفضة بارزة خلال ثلاثة أشهر، فإن الأمر يستحق مناقشة الأمر مع الطبيب بدلاً من افتراض أنه سيحل من تلقاء نفسه.';
+      'ثلاثة أشهر من دون GHB\n\nالمصدر: “Characterization of the GHB Withdrawal Syndrome”، PubMed Central\n\nثلاثة أشهر من التعافي\nبعد ثلاثة أشهر تكون متلازمة انسحاب GHB الحادة قد انتهت منذ وقت طويل. كانت المخاطر المتبقية عند الخروج هي الاشتهاء والأرق، لذلك تمنح ثلاثة أشهر من الامتناع النوم واستقرار الجهاز العصبي الذاتي وروتين الوقاية من الانتكاس وقتًا كافيًا للتثبت.\n\nما الذي يبلّغ عنه الناس عادةً\n• مزاج يومي أكثر هدوءًا\n• نوم أكثر انتظامًا\n• تفكير أوضح واشتهاء أقل\n\nإذا ظل القلق أو الأرق أو انخفاض المزاج بارزًا بعد ثلاثة أشهر، فمن الأفضل مناقشة ذلك مع مختص طبي بدل افتراض أنه سيزول وحده.';
 
   @override
   String get ghbReferenceDay180 =>
-      'ستة أشهر من GHB\n\nالمصدر: \"توصيف متلازمة انسحاب GHB،\" على PubMed Central\n\nنصف عام على\nبحلول ستة أشهر، يتم حل متلازمة انسحاب GHB الحادة منذ فترة طويلة ويتحول التعافي تمامًا من إزالة السموم إلى النوم المستقر والتحكم في الرغبة الشديدة ومنع الانتكاس. تنتمي المرحلة اللاإرادية الخطيرة والمعرضة للهذيان إلى الأيام والأسابيع الأولى، وليس إلى هذه المرحلة.\n\nالصورة الأكبر\nيعد اجتياز انسحاب GHB بأمان والبقاء بعيدًا لمدة نصف عام إنجازًا كبيرًا نظرًا لمدى خطورة المرحلة المبكرة، ومدى خطورة خطر الانتكاس - المدفوع جزئيًا بالرغبة المستمرة والأرق - يمكن أن يكون. إن الإجراءات الروتينية والدعم الذي أوصلك إلى هنا يستحق الحفاظ عليه.';
+      'ستة أشهر من دون GHB\n\nالمصدر: “Characterization of the GHB Withdrawal Syndrome”، PubMed Central\n\nبعد نصف عام\nبعد ستة أشهر تكون متلازمة انسحاب GHB الحادة قد انتهت منذ وقت طويل، ويتحول التعافي بالكامل من إزالة السموم إلى تثبيت النوم وإدارة الاشتهاء والوقاية من الانتكاس. أما مرحلة اضطراب الجهاز العصبي الذاتي وخطر الهذيان فتخص الأيام والأسابيع الأولى، لا هذه المرحلة.\n\nالصورة الأكبر\nاجتياز انسحاب GHB بأمان والبقاء من دونه نصف عام إنجاز كبير بالنظر إلى خطورة المرحلة المبكرة وإلى واقعية خطر الانتكاس، الذي قد تسهم فيه الرغبة المستمرة والأرق. الروتين والدعم اللذان أوصلاك إلى هنا يستحقان الحفاظ عليهما.';
 
   @override
   String get inhalantsReferenceDay1 =>
-      'وقف المستنشقات: اليوم الأول\n\nالمصدر: Radparvar، \"التقييم السريري وعلاج تعاطي المستنشقات\"، The Permanente Journal (2023)، على موقع PubMed Central\n\nلماذا يحدث الانسحاب\nيؤدي الاستخدام المزمن للمستنشق إلى التكيف العصبي، حيث يتوقع الجهاز العصبي المادة. تؤثر العديد من المستنشقات على دوائر الدماغ نفسها التي يؤثر عليها الكحول، لذا فإن التوقف عنها يترك الدماغ غير متوازن مؤقتًا. تقوم المواد الكيميائية بتصفية الدم بسرعة ولكنها مخزنة في دهون الجسم، مما قد يجعل توقيت الانسحاب غير متوقع.\n\nالأعراض المبكرة\nتصف هذه المراجعة الانسحاب عن طريق الاستنشاق بأنه يشبه انسحاب الكحول أو البنزوديازيبين، مع ظهور أعراض تم الإبلاغ عنها بما في ذلك:\n• الغثيان والقيء والتعرق\n• الرعشة وسرعة ضربات القلب\n• الأرق واضطراب النوم\n• القلق والتهيج\n\nملاحظة السلامة\nفي الحالات الأكثر شدة، تدرج المراجعة أيضًا الهلوسة والأوهام والنوبات المرضية بين الأعراض المبلغ عنها، على الرغم من أنها لا تضع جدولًا دقيقًا يومًا بعد يوم - تعامل مع هذه الأعراض على أنها أعراض يمكن أن تحدث، وليس جدولًا زمنيًا ثابتًا. يعد الإشراف الطبي أمرًا حكيمًا أثناء التخلص من السموم، خاصة بالنسبة للمستخدمين الثقيلين على المدى الطويل.';
+      'التوقف عن استخدام المستنشقات: اليوم الأول\n\nالمصدر: Radparvar، \"The Clinical Assessment and Treatment of Inhalant Abuse\"، The Permanente Journal (2023)، عبر PubMed Central\n\nلماذا يحدث الانسحاب\nيؤدي الاستخدام المزمن للمستنشقات إلى تكيف عصبي، إذ يعتاد الجهاز العصبي وجود المادة. تؤثر مستنشقات كثيرة في دوائر دماغية مشابهة لتلك التي يؤثر فيها الكحول، لذلك قد يترك التوقف الدماغ في حالة اختلال مؤقت. تغادر المواد الكيميائية الدم بسرعة لكنها قد تُخزَّن في دهون الجسم، ما يجعل توقيت الانسحاب أقل قابلية للتنبؤ.\n\nالأعراض المبكرة\nتصف هذه المراجعة انسحاب المستنشقات بأنه شبيه بانسحاب الكحول أو البنزوديازيبينات، وتشمل الأعراض المبلغ عنها:\n• الغثيان والقيء والتعرق\n• الرعاش وتسارع ضربات القلب\n• الأرق واضطراب النوم\n• القلق والتهيج\n\nملاحظة للسلامة\nفي الحالات الأشد تذكر المراجعة أيضًا الهلوسة والأوهام والنوبات ضمن الأعراض المبلغ عنها، لكنها لا تقدم جدولًا زمنيًا دقيقًا يومًا بيوم. تعامل معها كأعراض قد تحدث، لا كمسار ثابت. يُستحسن الإشراف الطبي أثناء إزالة السموم، خصوصًا لدى من استخدموا المستنشقات بكثافة أو لفترة طويلة.';
 
   @override
   String get inhalantsReferenceDay7 =>
-      'أسبوع واحد من الاستنشاق\n\nالمصدر: Radparvar، \"التقييم السريري وعلاج تعاطي المستنشقات\"، The Permanente Journal (2023)، على موقع PubMed Central\n\nالنافذة الحادة\nيوصف الانسحاب عن طريق الاستنشاق في الأدبيات السريرية بأنه يشبه انسحاب الكحول أو البنزوديازيبين، ولكن من المفهوم عمومًا أنه أقصر عمرًا. بحلول نهاية الأسبوع الأول، عادة ما تختفي الأعراض الجسدية الحادة - الغثيان، والرعشة، والتعرق، والأرق - لدى معظم الأشخاص.\n\nما تبقى\n• التعب وضباب الدماغ\n• مزاج منخفض أو غير مستقر\n• الرغبة الشديدة\n\nملاحظة حول الامتناع المبكر عن ممارسة الجنس\nلا يعني ضباب الدماغ في هذه المرحلة حدوث ضرر دائم، فالدماغ لا يزال في مرحلة إعادة التكيف. سيتم تناول الأبحاث حول كيفية استعادة التفكير والذاكرة على وجه التحديد خلال الأسابيع والأشهر التالية في مراحل لاحقة.';
+      'أسبوع واحد دون مستنشقات\n\nالمصدر: Radparvar، \"The Clinical Assessment and Treatment of Inhalant Abuse\"، The Permanente Journal (2023)، عبر PubMed Central\n\nالفترة الحادة\nتصف الأدبيات السريرية انسحاب المستنشقات بأنه شبيه بانسحاب الكحول أو البنزوديازيبينات، لكنه يُعد أقصر عمومًا. بحلول نهاية الأسبوع الأول تكون الأعراض الجسدية الحادة، مثل الغثيان والرعاش والتعرق والأرق، قد بدأت تنحسر لدى معظم الناس.\n\nما قد يبقى\n• التعب وضبابية التفكير\n• انخفاض المزاج أو تقلبه\n• الرغبة الشديدة في التعاطي\n\nملاحظة حول الامتناع المبكر\nضبابية التفكير في هذه المرحلة لا تعني ضررًا دائمًا، فالدماغ لا يزال يعيد التكيف. وتتناول المحطات اللاحقة الأبحاث حول كيفية تعافي التفكير والذاكرة تحديدًا خلال الأسابيع والأشهر التالية.';
 
   @override
   String get inhalantsReferenceDay14 =>
-      'أسبوعين من الاستنشاق\n\nالمصدر: Radparvar، \"التقييم السريري وعلاج تعاطي المستنشقات\"، The Permanente Journal (2023)، على موقع PubMed Central\n\nمن خلال المرحلة الحادة\nتصف المراجعات السريرية الانسحاب عن طريق الاستنشاق بأنه مشابه للانسحاب من الكحول أو البنزوديازيبين ولكنه أقصر. وبعد مرور أسبوعين، عادةً ما يستقر الغثيان والرعشة والأرق والقلق.\n\nالطريق إلى الأمام\nيتعافى الانتباه والذاكرة والحركة والتنسيق بشكل تدريجي خلال الأشهر التالية. استمرار الامتناع عن ممارسة الجنس يعطي كل هذه الأنظمة الوقت للتحسين. التغذية الجيدة (استخدام المستنشقات يمكن أن تستنزف فيتامين ب 12) والامتناع عن ممارسة الجنس يمهد الطريق لذلك.';
+      'أسبوعان دون مستنشقات\n\nالمصدر: Radparvar، \"The Clinical Assessment and Treatment of Inhalant Abuse\"، The Permanente Journal (2023)، عبر PubMed Central\n\nتجاوز المرحلة الحادة\nتصف المراجعات السريرية انسحاب المستنشقات بأنه شبيه بانسحاب الكحول أو البنزوديازيبينات لكنه أقصر. بحلول أسبوعين يكون الغثيان والرعاش والأرق والقلق قد هدأ عادةً.\n\nالطريق إلى الأمام\nيتعافى الانتباه والذاكرة والحركة والتناسق بصورة أكثر تدريجية خلال الأشهر التالية. يمنح استمرار الامتناع هذه الأنظمة وقتًا للتحسن. كما تهيئ التغذية الجيدة، إذ قد يؤدي استخدام المستنشقات إلى نقص فيتامين B12، والامتناع المستمر ظروفًا أفضل للتعافي.';
 
   @override
   String get inhalantsReferenceDay30 =>
-      'شهر واحد من أجهزة الاستنشاق\n\nالمصدر: دينجوال وآخرون، \"التعافي المعرفي أثناء وبعد العلاج من تعاطي المذيبات المتطايرة\"، الاعتماد على المخدرات والكحول (2011)، على PubMed\n\nحيث يجلس شهر واحد\nلقد انتهت فترة الانسحاب المبكر. في هذه الدراسة، تحسنت بعض مهارات التعلم في غضون ستة أسابيع، في حين تحسن التنسيق البصري والذاكرة والتخطيط واتخاذ القرار بشكل تدريجي خلال الأشهر التالية.\n\nما الذي يمكن أن يتحسن\n• الاهتمام وبعض مهام التعلم\n• المزاج والنوم، مع استقرار الجسم\n• سرعة المحرك تدريجياً\n\nإشارة الاسترداد\nإن استنتاج الدراسة واضح: الذاكرة، والتخطيط، وصنع القرار تتحسن تدريجياً على مدى أشهر إلى سنوات من الامتناع عن ممارسة الجنس. إن استمرار الامتناع عن ممارسة الجنس هو المحرك الأقوى لهذا التعافي.';
+      'شهر واحد دون مستنشقات\n\nالمصدر: Dingwall وآخرون، \"Cognitive recovery during and after treatment for volatile solvent abuse\"، Drug and Alcohol Dependence (2011)، عبر PubMed\n\nموقع الشهر الأول في مسار التعافي\nأصبحت فترة الانسحاب المبكر خلفك. في هذه الدراسة تحسنت بعض مهارات التعلم خلال ستة أسابيع، بينما تحسن التناسق البصري والذاكرة والتخطيط واتخاذ القرار بصورة أكثر تدريجية خلال الأشهر التالية.\n\nما الذي قد يتحسن\n• الانتباه وبعض مهام التعلم\n• المزاج والنوم مع استقرار الجسم\n• السرعة الحركية بصورة تدريجية\n\nإشارة التعافي\nخلاصة الدراسة واضحة: تتحسن الذاكرة والتخطيط واتخاذ القرار تدريجيًا على مدى أشهر إلى سنوات من الامتناع. ويظل استمرار الامتناع العامل الأقوى الداعم لهذا التعافي.';
 
   @override
   String get inhalantsReferenceDay90 =>
-      'ثلاثة أشهر من المستنشقات\n\nالمصدر: دينجوال وآخرون، \"التعافي المعرفي أثناء وبعد العلاج من تعاطي المذيبات المتطايرة\"، الاعتماد على المخدرات والكحول (2011)، على PubMed\n\nعملية غير متساوية وأطول\nتابعت هذه الدراسة الأشخاص بعد برنامج علاجي مدته ثمانية أسابيع وفحصت بعضهم مرة أخرى بعد حوالي عام. تحسنت بعض مهارات التعلم في غضون ستة أسابيع، بينما استمر التنسيق البصري والذاكرة والتخطيط واتخاذ القرار في التحسن على مدى فترة أطول.\n\nالبقاء في الدورة\nوتظهر الدراسة أن المهارات الأبطأ تتحسن تدريجيا على مدى أشهر إلى سنوات. وبعد مرور ثلاثة أشهر، يعد الامتناع المستمر عن ممارسة الجنس أقوى وسيلة لزيادة التعافي شهرًا بعد شهر.';
+      'ثلاثة أشهر دون مستنشقات\n\nالمصدر: Dingwall وآخرون، \"Cognitive recovery during and after treatment for volatile solvent abuse\"، Drug and Alcohol Dependence (2011)، عبر PubMed\n\nعملية أطول وغير متساوية\nتابعت هذه الدراسة أشخاصًا بعد برنامج علاجي استمر ثمانية أسابيع، وأعادت تقييم بعضهم بعد نحو عام. تحسنت بعض مهارات التعلم خلال ستة أسابيع، بينما واصل التناسق البصري والذاكرة والتخطيط واتخاذ القرار التحسن على مدى فترة أطول.\n\nالاستمرار في المسار\nتوضح الدراسة أن المهارات الأبطأ في التعافي تتحسن تدريجيًا على مدى أشهر إلى سنوات. عند ثلاثة أشهر، يظل استمرار الامتناع أقوى وسيلة لإضافة مزيد من التعافي شهرًا بعد شهر.';
 
   @override
   String get inhalantsReferenceDay365 =>
-      'سنة واحدة من التوقف عن استخدام مواد الاستنشاق\n\nالمصدر: \"دراسة مستقبلية للتغيرات المعرفية العصبية بعد 15 عامًا من تعاطي المستنشقات المزمن\"، على موقع PubMed\n\nانتعاش حقيقي وقابل للقياس\nوجدت دراسة طويلة الأمد تعافيًا كبيرًا من مشاكل الدماغ والتفكير المزمنة المرتبطة بالاستنشاق بعد عامين من الامتناع عن ممارسة الجنس. وبعد عام واحد، تكون قد قطعت شوطًا جيدًا في طريق التعافي.\n\nماذا يعني\nتستمر الذاكرة والانتباه والوظيفة الحركية في التحسن. يؤدي الامتناع عن ممارسة الجنس على المدى الطويل إلى تعافي حقيقي للدماغ: فبمرور عامين، عادت معظم درجات الدماغ والذاكرة والتفكير إلى وضعها الطبيعي لدى المستخدمين المزمنين الذين لم يصابوا بأضرار في الدماغ بسبب الرصاص.';
+      'عام واحد دون مستنشقات\n\nالمصدر: \"A prospective study of neurocognitive changes 15 years after chronic inhalant abuse\"، عبر PubMed\n\nتعافٍ حقيقي قابل للقياس\nوجدت دراسة طويلة الأمد تعافيًا ملحوظًا من المشكلات الدماغية والمعرفية المرتبطة بالاستخدام المزمن للمستنشقات بعد عامين من الامتناع. بعد عام واحد تكون قد قطعت شوطًا مهمًا على هذا المسار.\n\nماذا يعني ذلك\nتستمر الذاكرة والانتباه والوظائف الحركية في التحسن. ويتيح الامتناع طويل الأمد تعافيًا حقيقيًا للدماغ: فبحلول عامين عادت معظم مقاييس الدماغ والذاكرة والتفكير إلى النطاق الطبيعي لدى المستخدمين المزمنين الذين لم يكن لديهم تلف دماغي بسبب الرصاص.';
 
   @override
   String get inhalantsReferenceDay730 =>
-      'توقف لمدة عامين عن استخدام مواد الاستنشاق\n\nالمصدر: \"دراسة مستقبلية للتغيرات المعرفية العصبية بعد 15 عامًا من تعاطي المستنشقات المزمن\"، على موقع PubMed\n\nعلامة السنتين\nهذا هو المعلم الرئيسي في البحث: العجز الذي يعكس تلف الدماغ الناتج عن استخدام المذيبات على المدى الطويل أظهر انتعاشًا كبيرًا بعد عامين من الامتناع عن ممارسة الجنس. وخلص الباحثون إلى أنه في حالة عدم وجود تلف في الدماغ من البنزين المحتوي على الرصاص، فإن الامتناع عن ممارسة الجنس على المدى الطويل قد يسمح باستعادة وظائف المخ الطبيعية.\n\nإشارة الاسترداد\nالاستثناء الرئيسي هو الأضرار الناجمة عن تعاطي البنزين المحتوي على الرصاص، والذي يمكن أن يسبب العجز المستمر. بخلاف ذلك، يمثل الامتناع عن ممارسة الجنس لمدة عامين أفضل فرصة موثقة للشفاء من الدماغ - إلى جانب إعادة بناء الحياة حوله.';
+      'عامان دون مستنشقات\n\nالمصدر: \"A prospective study of neurocognitive changes 15 years after chronic inhalant abuse\"، عبر PubMed\n\nعلامة العامين\nهذه هي المحطة الأساسية في البحث: أظهرت أوجه القصور التي تعكس تلف الدماغ الناتج عن الاستخدام الطويل للمذيبات تعافيًا ملحوظًا بعد عامين من الامتناع. وخلص الباحثون إلى أن الامتناع طويل الأمد قد يسمح باستعادة وظائف الدماغ الطبيعية في غياب تلف الدماغ الناجم عن البنزين المحتوي على الرصاص.\n\nإشارة التعافي\nالاستثناء الرئيسي هو الضرر الناتج عن إساءة استخدام البنزين المحتوي على الرصاص، إذ قد يسبب عجزًا مستمرًا. وبخلاف ذلك يمثل عامان من الامتناع أفضل فرصة موثقة للدماغ كي يتعافى، إلى جانب حياة أُعيد بناؤها حول هذا التقدم.';
 
   @override
   String get ketamineReferenceDay1 =>
-      'وقف الكيتامين: اليوم الأول\n\nالمصدر: \"التهاب المثانة الناجم عن الكيتامين: مراجعة شاملة للتأثيرات البولية لهذا الدواء ذو التأثير النفساني،\" على PubMed Central\n\nالانسحاب هو نفسي في المقام الأول\nعلى عكس المواد الأفيونية أو الكحول، نادرًا ما يؤدي الكيتامين إلى انسحاب جسدي شديد. التوقف آمن بشكل عام؛ غالبًا ما يعاني الناس من الرغبة الشديدة والاعتماد النفسي أكثر من الأمراض الجسدية.\n\nما قد تشعر به\n• تقلب المزاج وتدني الحالة المزاجية\n• الرغبة الشديدة\n• التعرق أو خفقان القلب في بعض الأحيان\n\nالخطوة الرئيسية\nبالنسبة لأي شخص يعاني من أعراض المثانة، فإن التوقف الفوري والكامل هو نقطة البداية الإلزامية للتعافي - لذا فإن اليوم الأول هو القرار الأكثر أهمية على الإطلاق.';
+      'التوقف عن الكيتامين: اليوم الأول\n\nالمصدر: «التهاب المثانة الناجم عن الكيتامين: مراجعة شاملة للتأثيرات البولية لهذا العقار ذي التأثير النفسي»، على PubMed Central\n\nالانسحاب نفسي في المقام الأول\nعلى خلاف المواد الأفيونية أو الكحول، نادرًا ما يسبب الكيتامين انسحابًا جسديًا شديدًا. يكون التوقف عنه آمنًا عمومًا؛ وغالبًا ما يواجه الناس الرغبة الشديدة والاعتماد النفسي أكثر من المرض الجسدي.\n\nما قد تشعر به\n• تقلبات المزاج وانخفاضه\n• رغبة شديدة في التعاطي\n• تعرّق أو خفقان أحيانًا\n\nالخطوة الأهم\nلمن لديهم أعراض في المثانة، يُعد التوقف الفوري والكامل نقطة البداية الضرورية للتعافي — لذلك فإن قرار اليوم الأول هو الأهم.';
 
   @override
   String get ketamineReferenceDay7 =>
-      'أسبوع واحد من الكيتامين\n\nالمصدر: \"التهاب المثانة الناجم عن الكيتامين: مراجعة شاملة،\" على PubMed Central\n\nالمرحلة النفسية\nالتحدي الرئيسي في التوقف المبكر عن الكيتامين هو التحدي النفسي: الرغبة الشديدة، تغير أو انخفاض الحالة المزاجية، وبعض الضباب الدماغي. عادة ما يكون الانسحاب الجسدي، عند وجوده، خفيفًا.\n\nيعد ضباب الدماغ أمرًا شائعًا في هذه المرحلة، حيث يبدو التركيز مجهدًا، ويكون وقت رد الفعل أبطأ، وقد تبدو الذاكرة قصيرة المدى غير موثوقة. تتحسن هذه التأثيرات على التفكير والذاكرة مع الامتناع عن ممارسة الجنس: وجدت دراسة طولية أجريت على 114 من مستخدمي الكيتامين مكاسب كبيرة في الذاكرة اللفظية والذاكرة البصرية وسرعة المعالجة والتخطيط والتركيز وصنع القرار بعد 12 أسبوعًا بدون الكيتامين.\n\nأعراض المثانة\nإذا كنت مصابًا بالتهاب المثانة الناجم عن الكيتامين (الإلحاح البولي أو التردد أو الألم أو وجود دم في البول)، فإن التوقف الآن يمنح المثانة أفضل فرصة للشفاء. يمكن للألم أن يغري الناس بالعودة إلى استخدام الكيتامين من أجل العلاج الذاتي، وهي دورة تستحق كسرها من خلال دعم الألم المناسب بدلاً من ذلك.';
+      'أسبوع واحد من دون كيتامين\n\nالمصدر: «التهاب المثانة الناجم عن الكيتامين: مراجعة شاملة»، على PubMed Central\n\nالمرحلة النفسية\nالتحدي الأساسي في بداية التوقف عن الكيتامين نفسي: رغبة شديدة في التعاطي، وتقلب المزاج أو انخفاضه، وبعض ضباب الدماغ. ويكون الانسحاب الجسدي، إن ظهر، خفيفًا عادةً.\n\nضباب الدماغ شائع في هذه المرحلة — قد يتطلب التركيز جهدًا أكبر، ويبطؤ زمن الاستجابة، وقد تبدو الذاكرة قصيرة المدى أقل موثوقية. تتحسن هذه التأثيرات في التفكير والذاكرة مع الامتناع عن الكيتامين: فقد وجدت دراسة طولية شملت 114 مستخدمًا للكيتامين تحسنًا ملحوظًا في الذاكرة اللفظية والبصرية وسرعة المعالجة والتخطيط والتركيز واتخاذ القرار بعد 12 أسبوعًا من دون كيتامين.\n\nأعراض المثانة\nإذا كنت تعاني التهاب المثانة الناجم عن الكيتامين (إلحاح أو تكرار التبول، أو ألم، أو دم في البول)، فإن التوقف الآن يمنح المثانة أفضل فرصة للتعافي. وقد يدفع الألم بعض الناس للعودة إلى الكيتامين للتداوي الذاتي — وهي دائرة من الأفضل كسرها بالحصول على دعم مناسب لتسكين الألم.';
 
   @override
   String get ketamineReferenceDay14 =>
-      'أسبوعين من التوقف عن الكيتامين\n\nالمصدر: \"التهاب المثانة الناجم عن الكيتامين: مراجعة شاملة،\" على PubMed Central\n\nتفكير أوضح\nبعد إزالة الدواء تمامًا، يبدأ الضباب العقلي والتفكير المنفصل المرتبط بالاستخدام المنتظم للكيتامين في الاختفاء. تتحسن الذاكرة والتركيز ويستقر المزاج.\n\nبداية تعافي المثانة\nبالنسبة لالتهاب المثانة في مرحلة مبكرة، تؤكد المراجعة على أن إيقاف الكيتامين ببساطة هو الخطوة الأكثر أهمية نحو عكس الأعراض، وأن التوقف المبكر يعطي أفضل احتمالات التعافي قبل أن يصبح الضرر دائمًا. أسبوعين من الامتناع عن ممارسة الجنس هو بداية هذه العملية.';
+      'أسبوعان من دون كيتامين\n\nالمصدر: «التهاب المثانة الناجم عن الكيتامين: مراجعة شاملة»، على PubMed Central\n\nتفكير أوضح\nبعد خروج الدواء بالكامل، يبدأ ضباب الذهن والتفكير المنفصل المرتبطان بالاستخدام المنتظم للكيتامين في الانحسار. تتحسن الذاكرة والتركيز ويستقر المزاج.\n\nبداية تعافي المثانة\nفي حالات التهاب المثانة المبكرة، تؤكد المراجعة أن مجرد التوقف عن الكيتامين هو أهم خطوة لعكس الأعراض، وأن التوقف المبكر يمنح أفضل فرصة للتعافي قبل أن يصبح الضرر دائمًا. أسبوعان من الامتناع عن الكيتامين هما بداية هذه العملية.';
 
   @override
   String get ketamineReferenceDay30 =>
-      'شهر واحد من الكيتامين\n\nالمصدر: \"انتشار الأعراض البولية والتاريخ الطبيعي لها بين مستخدمي الكيتامين الترفيهي،\" وينستوك وآخرون، BJU International (2012)\n\nتعافي المثانة\nالعلاج الوحيد الأكثر أهمية لالتهاب المثانة الناجم عن الكيتامين هو إيقاف الكيتامين. وجدت هذه الدراسة لمستخدمي الكيتامين الترفيهي أن 51% من الذين يعانون من أعراض بولية أبلغوا عن تحسن بعد التوقف عن الاستخدام، في حين أن أقل من 4% ساءت حالتهم. في وقت سابق تتوقف، كلما كانت النتيجة أفضل.\n\nالعقل والمزاج\nويستمر الإدراك والمزاج في التحسن خلال شهر واحد. يعمل الدعم النفسي والاجتماعي على تحسين احتمالات البقاء متوقفًا بشكل كبير، ويعمل التوقف بشكل أفضل عندما يتم دعمه.';
+      'شهر واحد من دون كيتامين\n\nالمصدر: «انتشار الأعراض البولية وتاريخها الطبيعي لدى مستخدمي الكيتامين لأغراض ترفيهية»، وينستوك وآخرون، BJU International (2012)\n\nتعافي المثانة\nأهم علاج منفرد لالتهاب المثانة الناجم عن الكيتامين هو التوقف عن الكيتامين. وجدت هذه الدراسة على مستخدمي الكيتامين لأغراض ترفيهية أن 51% ممن لديهم أعراض بولية أفادوا بتحسن بعد التوقف، بينما ساءت حالة أقل من 4%. وكلما كان التوقف أبكر، كانت النتيجة أفضل.\n\nالعقل والمزاج\nيستمر الإدراك والمزاج في التحسن بعد شهر. ويزيد الدعم النفسي والاجتماعي بصورة ملموسة فرصة الاستمرار في التوقف — فالتوقف ينجح على نحو أفضل مع وجود الدعم.';
 
   @override
   String get ketamineReferenceDay90 =>
-      'ثلاثة أشهر من الكيتامين\n\nالمصدر: \"التهاب المثانة الناجم عن الكيتامين: مراجعة شاملة،\" على PubMed Central\n\nاستمرار الانتعاش\nغالبًا ما يكون تعافي المثانة بعد الكيتامين تدريجيًا؛ تصف المراجعة تحسن شدة الأعراض بعد التوقف، على الرغم من أنها يمكن أن تكون طويلة ومتغيرة. ثلاثة أشهر تمنح المسالك البولية وقتًا مستدامًا للشفاء في الحالات التي ستستجيب.\n\nالعقل\nيكون التفكير الواضح والمزاج أكثر وضوحًا بشكل ملحوظ مما هو عليه في الامتناع المبكر عن ممارسة الجنس، وتكون الرغبة الشديدة أقل تواتراً. ينبغي تقييم أعراض المثانة المستمرة أو الشديدة من قبل طبيب المسالك البولية.';
+      'ثلاثة أشهر من دون كيتامين\n\nالمصدر: «التهاب المثانة الناجم عن الكيتامين: مراجعة شاملة»، على PubMed Central\n\nاستمرار التعافي\nغالبًا ما يكون تعافي المثانة بعد الكيتامين تدريجيًا؛ وتصف المراجعة تحسن شدة الأعراض بعد التوقف، مع احتمال أن يكون التعافي طويلًا ومتفاوتًا. تمنح ثلاثة أشهر المسالك البولية وقتًا متواصلًا للتعافي في الحالات التي تستجيب للتوقف.\n\nالعقل\nيصبح التفكير والمزاج أوضح بكثير مما كانا عليه في بداية الامتناع عن الكيتامين، وتقل الرغبة الشديدة في التعاطي. وينبغي أن يقيّم طبيب مسالك بولية أعراض المثانة المستمرة أو الشديدة.';
 
   @override
   String get ketamineReferenceDay180 =>
-      'ستة أشهر من الكيتامين\n\nالمصدر: \"التهاب المثانة الناجم عن الكيتامين: مراجعة شاملة،\" على PubMed Central\n\nنصف عام على\nومع الامتناع المستمر عن ممارسة الجنس، تستمر أعراض المثانة في التحسن في الحالات التي تستجيب للتوقف، ويستقر التفكير والذاكرة والمزاج. لقد ضعفت الرغبة في الاستخدام إلى حد كبير.\n\nإشارة الاسترداد\nيمكن أن يكون التعافي من تلف المثانة غير مكتمل، ولهذا السبب فإن التوقف المبكر مهم للغاية. مهما كانت المرحلة التي توقفت عندها، فإن الابتعاد عنها يعطي المثانة أفضل نتيجة ممكنة.';
+      'ستة أشهر من دون كيتامين\n\nالمصدر: «التهاب المثانة الناجم عن الكيتامين: مراجعة شاملة»، على PubMed Central\n\nبعد نصف عام\nمع الاستمرار في الامتناع عن الكيتامين، تواصل أعراض المثانة التحسن في الحالات التي تستجيب للتوقف، ويستقر التفكير والذاكرة والمزاج. كما تضعف الرغبة القهرية في الاستخدام بدرجة كبيرة.\n\nإشارة إلى التعافي\nقد يكون التعافي من تلف المثانة القائم غير كامل، ولهذا يكتسب التوقف المبكر أهمية كبيرة. ومهما كانت المرحلة التي توقفت فيها، فإن الاستمرار من دون كيتامين يمنح المثانة أفضل نتيجة ممكنة.';
 
   @override
   String get ketamineReferenceDay365 =>
-      'سنة واحدة من الكيتامين\n\nالمصدر: \"التهاب المثانة الناجم عن الكيتامين: مراجعة شاملة،\" على PubMed Central\n\nسنة على\nإن الامتناع عن ممارسة الجنس لمدة اثني عشر شهراً يمنح المثانة، في الحالات التي يتم اكتشافها مبكراً، الفرصة الكاملة للتعافي، ويترك التفكير والذاكرة والمزاج مستقراً وصافياً. لقد تلاشى الاعتماد النفسي الذي جعل التوقف صعبًا إلى حد كبير.\n\nالصورة الأكبر\nإن العام المجاني هو تغيير عميق – في الصحة البدنية والوضوح والتوجيه الذاتي. الحفاظ على الدعم الذي أوصلك إلى هنا يحميها.';
+      'عام من دون كيتامين\n\nالمصدر: «التهاب المثانة الناجم عن الكيتامين: مراجعة شاملة»، على PubMed Central\n\nبعد عام\nتمنح اثنا عشر شهرًا من الامتناع عن الكيتامين المثانة، في الحالات المكتشفة مبكرًا، أكبر فرصة للتعافي، مع استقرار ووضوح التفكير والذاكرة والمزاج. كما يكون الاعتماد النفسي الذي جعل التوقف صعبًا قد تراجع بدرجة كبيرة.\n\nالصورة الأوسع\nعام من دون كيتامين يمثل تغيرًا عميقًا في الصحة الجسدية والوضوح والقدرة على توجيه الذات. والحفاظ على الدعم الذي أوصلك إلى هنا يساعد على حماية هذا التقدم.';
 
   @override
   String get ketamineReferenceDay730 =>
@@ -3541,31 +3524,31 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get kratomReferenceDay1 =>
-      'انسحاب القرطوم: اليوم الأول\n\nالمصدر: Swogger وآخرون. (2022)، \"فهم استخدام القرطوم: دليل لمقدمي الرعاية الصحية،\" الحدود في علم الأدوية\n\nلماذا يحدث الانسحاب\nتعمل مركبات القرطوم النشطة على نفس المستقبلات الأفيونية مثل المواد الأفيونية الكلاسيكية. ومع الاستخدام المنتظم يتكيف الجسم، لذا فإن التوقف يؤدي إلى انسحاب يشبه المواد الأفيونية. يصف هذا الدليل السريري الاعتماد والانسحاب كمخاطر معترف بها للاستخدام المنتظم للقرطوم.\n\nما تظهره الأدلة حول البداية\nتظهر الدراسات على الحيوانات المذكورة في الدليل ظهور علامات انسحاب جسدية خلال 12 ساعة تقريبًا، مع ظهور تأثيرات شبيهة بالقلق بعد 24 ساعة؛ التوقيت الدقيق لبداية ظهور المرض لدى الإنسان هو أقل تحديدًا، ولكن الأعراض المبكرة التي يتم الإبلاغ عنها بشكل شائع تشمل:\n• الأرق والقلق والتهيج\n• آلام في العضلات وسيلان في الأنف\n• التعرق والعيون الدامعة\n• الرغبة الشديدة\n\nملاحظة حول الشدة\nويشير الدليل إلى أن مدة الاستخدام الأطول والجرعات الأعلى ترتبط بانسحاب أكثر شدة وأطول أمدا. الدعم الطبي الخاضع للإشراف يستحق البحث، خاصة إذا تم استخدام القرطوم بجرعات عالية أو بجانب المواد الأفيونية.';
+      'انسحاب الكراتوم: اليوم الأول\n\nالمصدر: Swogger وآخرون (2022)، «Understanding Kratom Use: A Guide for Healthcare Providers»، Frontiers in Pharmacology\n\nلماذا تحدث أعراض الانسحاب\nتؤثر المركبات النشطة في الكراتوم في المستقبلات الأفيونية نفسها التي تؤثر فيها المواد الأفيونية التقليدية. ومع الاستخدام المنتظم يتكيف الجسم، لذلك قد يؤدي التوقف إلى أعراض انسحاب شبيهة بانسحاب الأفيونات. يصف هذا الدليل السريري الاعتماد وأعراض الانسحاب بوصفهما من المخاطر المعروفة للاستخدام المنتظم للكراتوم.\n\nما الذي تُظهره الأدلة عن البداية\nتشير الدراسات الحيوانية المذكورة في الدليل إلى ظهور علامات جسدية للانسحاب خلال نحو 12 ساعة، مع آثار شبيهة بالقلق خلال 24 ساعة. أما التوقيت الدقيق لبداية الأعراض لدى البشر فهو أقل وضوحًا، لكن الأعراض المبكرة الشائعة تشمل:\n• التململ والقلق وسرعة الانفعال\n• آلام العضلات وسيلان الأنف\n• التعرق ودموع العينين\n• الرغبة الملحّة في الاستخدام\n\nملاحظة عن الشدة\nيشير الدليل إلى أن طول مدة الاستخدام والجرعات الأعلى يرتبطان بانسحاب أشد وأطول. وقد يكون طلب دعم طبي تحت إشراف مناسبًا، ولا سيما إذا استُخدم الكراتوم بجرعات عالية أو مع مواد أفيونية.';
 
   @override
   String get kratomReferenceDay3 =>
-      'انسحاب القرطوم: أصعب الأيام\n\nالمصدر: سينغ وآخرون. (2014)، الاعتماد على المخدرات والكحول - دراسة استقصائية أجريت على 293 من مستخدمي القرطوم المنتظمين في ماليزيا\n\nما تظهره الأدلة\nبدلاً من \"يوم الذروة\" المحدد، وجد هذا الاستطلاع أن شدة الانسحاب تتتبع مقدار ومدة استخدام الشخص: فالأشخاص الذين يشربون ثلاثة أكواب أو أكثر من القرطوم يوميًا لديهم احتمالات أعلى بكثير للاعتماد الشديد والانسحاب الأكثر صعوبة. بالنسبة لمعظم الناس، الأيام القليلة الأولى بعد التوقف هي الأصعب.\n\nالأعراض التي يتم الإبلاغ عنها بشكل شائع\n• آلام في العضلات والمفاصل، وتململ الساقين\n• الأرق رغم الإرهاق\n• الغثيان وتشنجات المعدة والإسهال\n• القلق، وتدني الحالة المزاجية، والتهيج\n• الرغبة الشديدة\n\nالحصول على ذلك\nيساعد الترطيب والراحة ودعم الأعراض. إذا كان الانسحاب شديدًا حتى الآن، فهذا يتماشى مع الاستخدام الأثقل أو الأطول وليس شيئًا خاطئًا على نحو غير معتاد - ويميل إلى التخفيف من هنا.';
+      'انسحاب الكراتوم: أصعب الأيام\n\nالمصدر: Singh وآخرون (2014)، Drug and Alcohol Dependence — دراسة شملت 293 مستخدمًا منتظمًا للكراتوم في ماليزيا\n\nما الذي تُظهره الأدلة\nبدلًا من وجود «يوم ذروة» واحد محدد، وجدت الدراسة أن شدة الانسحاب ترتبط بكمية الاستخدام ومدته: كان لدى من يشربون ثلاثة أكواب أو أكثر من الكراتوم يوميًا احتمال أعلى بكثير للاعتماد الشديد وانسحاب أصعب. وبالنسبة لمعظم الناس تكون الأيام القليلة الأولى بعد التوقف هي الأصعب.\n\nالأعراض الشائعة\n• آلام العضلات والمفاصل وتململ الساقين\n• الأرق رغم الإرهاق\n• الغثيان وتقلصات المعدة والإسهال\n• القلق وانخفاض المزاج وسرعة الانفعال\n• رغبة ملحّة قوية\n\nتجاوز هذه المرحلة\nيساعد شرب السوائل والراحة وعلاج الأعراض. إذا كان الانسحاب شديدًا حتى الآن، فهذا يتوافق أكثر مع استخدام أثقل أو أطول مدة، وليس بالضرورة علامة على أن هناك شيئًا غير طبيعي، وعادةً ما تبدأ الأعراض بالتراجع من هنا.';
 
   @override
   String get kratomReferenceDay7 =>
-      'أسبوع واحد من قرطوم\n\nالمصدر: Swogger وآخرون. (2022)، \"فهم استخدام القرطوم: دليل لمقدمي الرعاية الصحية،\" الحدود في علم الأدوية\n\nتجاوز المرحلة الحادة\nتشير بيانات التقرير الذاتي البشري المذكورة في هذا الدليل إلى أن أعراض الانسحاب تختفي خلال يوم إلى ثلاثة أيام تقريبًا بالنسبة لمعظم الأشخاص الذين يتوقفون. وبحلول أسبوع واحد، عادة ما تستقر الأعراض الجسدية الحادة - آلام العضلات والتعرق والغثيان - عند الأغلبية. ما يمكن أن يتبقى هو أمر نفسي أكثر: التعب، والنوم المتقطع، وانخفاض الحالة المزاجية حيث تحفز مستقبلات المواد الأفيونية القرطوم التكيف مع إشارات الجسم الخاصة.\n\nخطر حقيقي\nيشير الدليل أيضًا إلى أن عددًا صغيرًا من الأشخاص يجدون صعوبة كبيرة في الإقلاع عن القرطوم، مع الإبلاغ عن انسحاب أكثر شدة وأطول أمدًا بين المستخدمين الأثقل والأطول أجلاً. يعد هذا الأسبوع نقطة شائعة للانتكاسة، وينخفض ​​التحمل بسرعة - وقد أصبحت العودة إلى الجرعة السابقة، خاصة إذا كانت المواد الأفيونية، خطيرة بالفعل.';
+      'أسبوع بلا كراتوم\n\nالمصدر: Swogger وآخرون (2022)، «Understanding Kratom Use: A Guide for Healthcare Providers»، Frontiers in Pharmacology\n\nبعد المرحلة الحادة\nتشير بيانات التقارير الذاتية البشرية المذكورة في الدليل إلى أن أعراض الانسحاب تختفي خلال نحو يوم إلى ثلاثة أيام لدى معظم من يتوقفون. وبحلول أسبوع تكون الأعراض الجسدية الحادة — مثل آلام العضلات والتعرق والغثيان — قد هدأت عادةً لدى الغالبية. وما قد يبقى يكون أكثر نفسية: التعب واضطراب النوم وانخفاض المزاج، بينما تتكيف المستقبلات الأفيونية التي كان الكراتوم ينشطها مجددًا مع إشارات الجسم الطبيعية.\n\nخطر حقيقي\nيشير الدليل أيضًا إلى أن عددًا صغيرًا من الناس يجدون الإقلاع عن الكراتوم صعبًا جدًا، مع انسحاب أشد وأطول لدى المستخدمين الأثقل والأطول مدة. هذا الأسبوع نقطة شائعة للعودة إلى الاستخدام، وتنخفض القدرة على تحمّل الجرعة بسرعة. لذلك فإن العودة إلى جرعة سابقة، ولا سيما مع وجود مواد أفيونية أخرى، قد تكون خطرة بالفعل.';
 
   @override
   String get kratomReferenceDay14 =>
-      'أسبوعين قبالة قرطوم\n\nالمصدر: المعهد الوطني لتعاطي المخدرات (NIDA)، \"قرطوم\"\n\nما وراء النافذة المدروسة\nالبيانات البشرية الخاضعة للرقابة حول توقيت سحب القرطوم تغطي بشكل عام الأيام القليلة الأولى فقط، لذلك لا توجد أبحاث راسخة تحدد مرحلة محددة \"لمدة أسبوعين\". ما تم توثيقه هو النمط الأوسع: يعمل القرطوم على نفس المستقبلات الأفيونية مثل المواد الأفيونية الكلاسيكية، ومع توقف الاستخدام المنتظم، تستعيد هذه المستقبلات تدريجيًا حساسيتها لإشارات الجسم.\n\nما تقرير الناس عادة\n• غالباً ما تتحسن الشهية والطاقة\n• يميل النوم إلى أن يصبح أكثر موثوقية\n• المزاج عادة ما يكون أكثر ثباتا، على الرغم من أنه لا يزال متغيرا\n\nلا تزال الرغبة الشديدة تثار بسبب التوتر والإشارات المألوفة، لذا فإن وجود خطة لها يظل مفيدًا.';
+      'أسبوعان بلا كراتوم\n\nالمصدر: المعهد الوطني لتعاطي المخدرات (NIDA)، «Kratom»\n\nما بعد الفترة المدروسة\nتغطي البيانات البشرية المضبوطة عن توقيت انسحاب الكراتوم الأيام القليلة الأولى فقط في الغالب، لذلك لا توجد أبحاث راسخة تحدد «الأسبوعين» كنقطة تعافٍ محددة. الموثق هو النمط الأوسع: يؤثر الكراتوم في المستقبلات الأفيونية نفسها التي تؤثر فيها المواد الأفيونية التقليدية، ومع توقف الاستخدام المنتظم تستعيد هذه المستقبلات تدريجيًا حساسيتها لإشارات الجسم الطبيعية.\n\nما يبلّغ عنه الناس عادةً\n• تتحسن الشهية والطاقة غالبًا\n• يصبح النوم أكثر انتظامًا\n• يصبح المزاج أكثر استقرارًا عادةً، مع بقاء بعض التقلب\n\nقد تستمر الرغبة الملحّة في الظهور مع التوتر والمحفزات المألوفة، لذلك تظل خطة التعامل معها مفيدة.';
 
   @override
   String get kratomReferenceDay30 =>
-      'شهر واحد من قرطوم\n\nالمصدر: المعهد الوطني لتعاطي المخدرات (NIDA)، \"قرطوم\"\n\nاستعادة نظام المكافآت\nيصف نيدا القرطوم بأنه يعمل على مستقبلات المواد الأفيونية في الدماغ، مع الاعتماد والانسحاب كمخاطر معروفة للاستخدام المنتظم. لا توجد دراسة محددة تحدد مرحلة التعافي لمدة شهر واحد، ولكن النمط العام للاعتماد على مستقبلات المواد الأفيونية هو أن استجابة الدماغ للمتع اليومية تعود إلى طبيعتها تدريجيًا مع الامتناع المستمر عن ممارسة الجنس.\n\nما الذي يمكن أن يبنيه شهر الإجازة\nشهر بدون القرطوم هو شهر من النوم المستمر والوجبات والروتين الذي يحل محل الوقت والجهد المطلوبين. تميل الرغبة الشديدة إلى الوصول بشكل أقل وتشعر بأنها أكثر قابلية للإدارة، على الرغم من أن لحظات التوتر الشديد تظل الأكثر عرضة للخطر.';
+      'شهر بلا كراتوم\n\nالمصدر: المعهد الوطني لتعاطي المخدرات (NIDA)، «Kratom»\n\nتعافي نظام المكافأة\nيصف NIDA الكراتوم بأنه يؤثر في مستقبلات الأفيون في الدماغ، ويعد الاعتماد والانسحاب من المخاطر المعروفة للاستخدام المنتظم. لا توجد دراسة محددة تثبت أن الشهر يمثل نقطة تعافٍ بعينها، لكن النمط العام للاعتماد المرتبط بالمستقبلات الأفيونية هو أن استجابة الدماغ للمتع اليومية تعود تدريجيًا نحو طبيعتها مع استمرار الامتناع.\n\nما الذي يمكن أن يبنيه شهر بلا كراتوم\nشهر من دون كراتوم يعني شهرًا من النوم والوجبات والروتين المنتظم بدل الوقت والجهد اللذين كان يتطلبهما الاستخدام. تميل الرغبة الملحّة إلى الحدوث بوتيرة أقل وتصبح أسهل في التعامل، مع بقاء لحظات الضغط الشديد الأكثر هشاشة.';
 
   @override
   String get kratomReferenceDay90 =>
-      'ثلاثة أشهر من قرطوم\n\nالمصدر: المعهد الوطني لتعاطي المخدرات (NIDA)، \"قرطوم\"\n\nحالة يومية أكثر ثباتًا\nيعمل القرطوم على المستقبلات الأفيونية، لذا فإن قضاء ثلاثة أشهر بدونه يمنح نظام المكافأة والتوتر في الدماغ وقتًا مستدامًا للاستقرار. أبلغ العديد من الأشخاص عن تفكير أكثر وضوحًا ودافعًا أكثر ثباتًا كلما ابتعدوا عن الاستخدام النشط.\n\nلماذا يهم؟\nكلما كان الاستخدام أقل حداثة، كلما زاد السحب اليومي للقرطوم - مما يجعل هذا الحدث المهم أساسًا متينًا للتعافي الدائم.';
+      'ثلاثة أشهر بلا كراتوم\n\nالمصدر: المعهد الوطني لتعاطي المخدرات (NIDA)، «Kratom»\n\nحالة يومية أكثر استقرارًا\nيؤثر الكراتوم في المستقبلات الأفيونية، لذا تمنح ثلاثة أشهر من دونه أنظمة المكافأة والتوتر في الدماغ وقتًا مستمرًا للاستقرار. يذكر كثيرون وضوحًا أكبر في التفكير ودافعًا أكثر ثباتًا كلما ابتعدوا عن الاستخدام النشط.\n\nلماذا يهم ذلك\nكلما ابتعد الاستخدام في الزمن، تراجعت عادةً جاذبية الكراتوم اليومية، ما يجعل هذه المحطة أساسًا متينًا لتعافٍ طويل الأمد.';
 
   @override
   String get kratomReferenceDay365 =>
-      'سنة واحدة من قرطوم\n\nالمصدر: المعهد الوطني لتعاطي المخدرات (NIDA)، \"قرطوم\"\n\nحسنا الماضي الانسحاب الحاد\nلا تنشر NIDA جدولًا زمنيًا محددًا للتعافي من القرطوم مدته عام واحد، ولكن عامًا من الامتناع المستمر عن ممارسة الجنس يتجاوز بكثير نافذة الانسحاب النفسي الحاد والمبكر الموثقة في أبحاث القرطوم. بالنسبة لمعظم الأشخاص الذين يصلون إلى هذه المرحلة، تكون الرغبة الشديدة في تناول الطعام نادرة ويسهل التعامل معها كثيرًا.\n\nالصورة الأكبر\nيمثل عام الامتناع عن ممارسة الجنس تغييرًا جوهريًا في الصحة والمالية والتوجيه الذاتي. يساعد البقاء على اتصال بالدعم في الحفاظ على أمان هذا التقدم.';
+      'عام بلا كراتوم\n\nالمصدر: المعهد الوطني لتعاطي المخدرات (NIDA)، «Kratom»\n\nبعد زمن طويل من الانسحاب الحاد\nلا ينشر NIDA جدولًا زمنيًا محددًا للتعافي من الكراتوم خلال عام، لكن عامًا من الامتناع المستمر يتجاوز بكثير نافذة الانسحاب الحاد والمبكر النفسي الموثقة في أبحاث الكراتوم. وبالنسبة لمعظم من يصلون إلى هذه المرحلة تصبح الرغبة الملحّة نادرة وأسهل بكثير في التعامل.\n\nالصورة الأوسع\nيمثل عام من الامتناع تغيرًا كبيرًا في الصحة والمال والقدرة على توجيه الحياة. ويساعد البقاء على اتصال بالدعم على حماية هذا التقدم.';
 
   @override
   String get kratomReferenceDay730 =>
@@ -3593,7 +3576,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get maoiReferenceDay14 =>
-      'بعد أسبوعين من مثبطات MAOI: تم استعادة نشاط إنزيم MAO بشكل كبير\n\nالمصدر: فريتز وآخرون. (1983)، الطب النفسي البيولوجي\n\nعلامة الأسبوعين الحاسمة\nأسبوعين هو الإطار الزمني القياسي للشفاء السريري لاستعادة إنزيم MAO بعد التوقف عن MAOI الذي لا رجعة فيه مثل ترانيلسيبرومين أو فينيلزين. من خلال دراسة ترانيلسيبرومين، وجد هذا البحث أن النشاط التحفيزي للصفائح الدموية MAO-B - الذي انخفض بشكل حاد خلال يوم واحد من الجرعات - يعود إلى طبيعته في غضون أسبوعين تقريبًا، حيث يستبدل الجسم الصفائح الدموية المتضررة من الدواء بصفائح جديدة تحمل إنزيمًا نشطًا، على الرغم من أن إجمالي مستويات بروتين MAO-B لم تتغير أبدًا.\n\nاستعادة إنزيم MAO\n• تعافى نشاط الصفائح الدموية MAO-B بشكل كبير عند هذه النقطة\n• تم أيضًا استعادة Brain MAO-A وMAO-B، اللذين يتبعان جدولًا زمنيًا مشابهًا إلى حد كبير لإعادة التركيب، إلى حد كبير\n• يتم إعادة استقلاب التيرامين إلى طبيعته - يمكن عادة تخفيف القيود الغذائية لـ MAOI بالتشاور مع الطبيب الذي يصف لك الدواء\n\nعودة التوازن الكيميائي للدماغ\nمع استعادة نشاط إنزيم MAO، بدأت الأنظمة الكيميائية في الدماغ التي تؤثر عليها مثبطات MAO تخضع للتنظيم الطبيعي:\n• لم تعد مستويات السيروتونين والنورادرينالين والدوبامين مرتفعة بسبب تثبيط MAO\n• بدأت الحساسية المفرطة لمستقبلات أحادي الأمين (الناجمة عن ارتفاع المستويات الكيميائية الدماغية المزمنة لـ MAOI) في التلاشي\n• عودة تنظيم المزاج الطبيعي والطاقة';
+      'بعد أسبوعين من مثبطات MAOI: تم استعادة نشاط إنزيم MAO بشكل كبير\n\nالمصدر: فريتز وآخرون. (1983)، الطب النفسي البيولوجي\n\nعلامة الأسبوعين الحاسمة\nأسبوعين هو الإطار الزمني القياسي للشفاء السريري لاستعادة إنزيم MAO بعد التوقف عن MAOI الذي لا رجعة فيه مثل ترانيلسيبرومين أو فينيلزين. من خلال دراسة ترانيلسيبرومين، وجد هذا البحث أن النشاط التحفيزي للصفائح الدموية MAO-B - الذي انخفض بشكل حاد خلال يوم واحد من الجرعات - يعود إلى طبيعته في غضون أسبوعين تقريبًا، حيث يستبدل الجسم الصفائح الدموية المتضررة من الدواء بصفائح جديدة تحمل إنزيمًا نشطًا، على الرغم من أن إجمالي مستويات بروتين MAO-B لم تتغير أبدًا.\n\nاستعادة إنزيم MAO\n• تعافى نشاط الصفائح الدموية MAO-B بشكل كبير عند هذه النقطة\n• تم أيضًا استعادة إنزيما MAO-A وMAO-B في الدماغ، اللذين يتبعان جدولًا زمنيًا مشابهًا إلى حد كبير لإعادة التركيب، إلى حد كبير\n• يتم إعادة استقلاب التيرامين إلى طبيعته - يمكن عادة تخفيف القيود الغذائية لـ MAOI بالتشاور مع الطبيب الذي يصف لك الدواء\n\nعودة التوازن الكيميائي للدماغ\nمع استعادة نشاط إنزيم MAO، بدأت الأنظمة الكيميائية في الدماغ التي تؤثر عليها مثبطات MAO تخضع للتنظيم الطبيعي:\n• لم تعد مستويات السيروتونين والنورادرينالين والدوبامين مرتفعة بسبب تثبيط MAO\n• بدأت الحساسية المفرطة لمستقبلات أحادي الأمين (الناجمة عن ارتفاع المستويات الكيميائية الدماغية المزمنة لـ MAOI) في التلاشي\n• عودة تنظيم المزاج الطبيعي والطاقة';
 
   @override
   String get maoiReferenceDay30 =>
@@ -3601,7 +3584,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get maoiReferenceDay90 =>
-      'بعد ثلاثة أشهر من MAOIs: الانسحاب الماضي\n\nالمصدر: \"متلازمة الانسحاب المضادة للاكتئاب،\" الرسالة العلاجية رقم 112 (2018)، مبادرة العلاجات، على رف كتب NCBI\n\nالانسحاب عبر فئات مضادات الاكتئاب\nتعالج مراجعة الأدلة هذه الانسحاب من مضادات الاكتئاب كظاهرة حقيقية للتسامح والاعتماد، حيث تضع مضادات الاكتئاب \"إلى جانب المواد الأفيونية والبنزوديازيبينات\". تركز الأدلة التفصيلية على مثبطات استرداد السيروتونين الانتقائية (SSRIs) ومثبطات استرداد السيروتونين الانتقائية (SNRIs)، ولكن يتم التعرف على تفاعلات الانسحاب عبر فئات مضادات الاكتئاب، بما في ذلك بعد إيقاف MAOI. تظهر الأعراض \"عادةً في غضون أيام قليلة من التوقف\" و\"معظمها... يختفي في غضون أسبوعين\"، على الرغم من أن بعضها يستمر لفترة أطول.\n\nحيث يجلس ثلاثة أشهر\nبحلول ثلاثة أشهر، تكون مرحلة الانسحاب الحادة متأخرة كثيرًا عن الغالبية العظمى من الناس، ويكون الجسم قد تكيف منذ فترة طويلة لتنظيم أحاديات الأمين دون تثبيط MAO.\n\nإشارة الاسترداد بشأن \"إعادة تحسس المستقبل\"\nتدعي شركة Confident أن مستقبلات السيروتونين والنورإبينفرين والدوبامين جميعها \"تمت إعادة تحسسها لمدة ثلاثة أشهر\" تتجاوز ما تحدده الأدلة. ما يمكن الاعتماد عليه: لقد انتهت مرحلة الانسحاب عادةً الآن، وبالنسبة لمعظم الناس، يستقر المزاج والطاقة والمدى العاطفي على إشارات الدماغ الطبيعية ذاتية التنظيم.\n\nالانسحاب مقابل الانتكاس\nتؤكد الرسالة على ضرورة تحديد الانسحاب بصرف النظر عن العودة الحقيقية للحالة الأساسية. إذا استمرت الأعراض لمدة ثلاثة أشهر، قم بمراجعتها مع وصف الدواء الخاص بك بدلاً من افتراض أنها انسحاب فقط.';
+      'بعد ثلاثة أشهر من مثبطات MAO: تجاوز المرحلة الحادة للانسحاب\n\nالمصدر: \"Antidepressant Withdrawal Syndrome\"، Therapeutics Letter 112 (2018)، Therapeutics Initiative، على NCBI Bookshelf\n\nالانسحاب عبر فئات مضادات الاكتئاب\nتتعامل مراجعة الأدلة هذه مع انسحاب مضادات الاكتئاب بوصفه ظاهرة حقيقية مرتبطة بالتحمل والاعتماد. تركز الأدلة التفصيلية أساساً على SSRIs وSNRIs، لكن تفاعلات الانسحاب معترف بها عبر فئات مضادات الاكتئاب، بما في ذلك بعد إيقاف مثبطات MAO. تظهر الأعراض \"عادة خلال بضعة أيام من التوقف\"، و\"تزول معظمها… خلال أسبوعين\"، مع أنها قد تستمر مدة أطول لدى بعض الأشخاص.\n\nموضع الأشهر الثلاثة\nبعد ثلاثة أشهر تكون مرحلة الانسحاب الحاد قد مضت لدى الغالبية العظمى من الناس، ويكون الجسم قد تأقلم منذ وقت طويل مع تنظيم أحاديات الأمين من دون تثبيط MAO.\n\nإشارة التعافي و\"إعادة تحسس المستقبلات\"\nالجزم بأن مستقبلات السيروتونين والنورإبينفرين والدوبامين قد \"أعيد تحسسها بالكامل خلال ثلاثة أشهر\" يتجاوز ما تثبته الأدلة. ما يمكن الاعتماد عليه هو أن مرحلة الانسحاب تكون قد انتهت عادة، وأن المزاج والطاقة والمدى العاطفي لدى معظم الناس يستقر مع عودة الإشارات الدماغية الطبيعية ذاتية التنظيم.\n\nالانسحاب أم الانتكاس\nتشدد الرسالة على التفريق بين الانسحاب والعودة الحقيقية للحالة الأساسية. إذا استمرت الأعراض بعد ثلاثة أشهر، فراجعها مع الطبيب بدلاً من افتراض أنها مجرد أعراض انسحاب.';
 
   @override
   String get maoiReferenceDay180 =>
@@ -3609,19 +3592,19 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get maoiReferenceDay365 =>
-      'سنة واحدة بعد MAOIs: تم تحقيق التعافي\n\nالمصدر: \"مثبطات أوكسيديز أحادي الأمين (MAOIs)\" (StatPearls، NCBI Bookshelf)\n\nسنة واحدة: إنجاز رائع\nيعد إكمال عام واحد بعد إيقاف MAOI علامة بارزة حقًا. تعد مثبطات MAOI من بين مضادات الاكتئاب الأكثر طلبًا على الأدوية، مع آلية لا رجعة فيها، واتباع نظام غذائي صارم منخفض التيرامين، واحتياطات التفاعل الدوائي التي لا تشبه أي فئة أخرى من مضادات الاكتئاب.\n\nما يمثله هذا العام\n• عام كامل من نشاط أوكسيديز أحادي الأمين الطبيعي المنظم ذاتيًا، والمبني على عملية إعادة تصنيع الإنزيم التي اكتملت خلال الشهر الأول\n• إظهار القدرة على الحفاظ على الرفاهية دون تثبيط MAO المدفوع بالأدوية\n• سجل حافل طويل بما يكفي لتكون واثقًا من أن مخاطر التوقف الحادة لليوم الثالث أصبحت خلفك بقوة\n\nملاحظة على MAOIs\nتظل مثبطات MAOI فعالة بشكل فريد في بعض الحالات المقاومة للعلاج والاكتئاب غير النمطي. إن التوقف الناجح عن تناولها لا يقلل من قيمتها كأدوية، بل يوضح قدرة الدماغ على التعافي وقدرة المريض على اجتياز عملية طبية تتطلب جهدًا استثنائيًا. أحد الاحتياطات الدائمة: استمر في إخبار أي واصف أو طبيب تخدير جديد عن استخدام MAOI السابق، نظرًا لأن بعض مخاطر التفاعل الدوائي تستحق الإبلاغ عنها إلى أجل غير مسمى.';
+      'بعد عام من مثبطات MAO: عام من التعافي\n\nالمصدر: \"Monoamine Oxidase Inhibitors (MAOIs)\" (StatPearls، NCBI Bookshelf)\n\nعام واحد: إنجاز مهم\nإكمال عام كامل بعد إيقاف مثبطات MAO يمثل محطة مهمة حقاً. ويتطلب إيقاف هذه الأدوية عناية خاصة بسبب آليتها غير القابلة للعكس، والنظام الغذائي الصارم منخفض التيرامين، واحتياطات التداخلات الدوائية التي تميزها عن فئات أخرى من مضادات الاكتئاب.\n\nما الذي يمثله هذا العام\n• عام كامل من نشاط أوكسيداز أحادي الأمين الطبيعي والمنظم ذاتياً، بعد اكتمال إعادة تصنيع الإنزيم خلال الشهر الأول\n• قدرة مثبتة على الحفاظ على العافية من دون تثبيط MAO الدوائي\n• مدة كافية للثقة بأن مخاطر التوقف الحادة المرتبطة باليوم الثالث أصبحت وراءك بوضوح\n\nملاحظة حول مثبطات MAO\nتظل مثبطات MAO فعالة بشكل مميز في بعض حالات الاكتئاب المقاوم للعلاج والاكتئاب اللانمطي. لا يقلل التوقف الناجح من قيمتها كأدوية؛ بل يعكس قدرة الدماغ على التعافي وقدرة المريض على اجتياز عملية طبية صعبة. احتياط دائم واحد: واصل إبلاغ أي طبيب جديد أو طبيب تخدير عن استخدامك السابق لمثبطات MAO، لأن بعض مخاطر التداخلات الدوائية تستحق التنبيه إليها على المدى الطويل.';
 
   @override
   String get marijuanaReferenceDay1 =>
-      'انسحاب الماريجوانا: اليوم الأول\n\nالمصدر: \"متلازمة انسحاب القنب: الرؤى الحالية،\" تعاطي المخدرات وإعادة التأهيل (2017)، على PubMed Central\n\nانسحاب القنب حقيقي\nتثبت هذه المراجعة التي تمت مراجعتها من قبل النظراء أن متلازمة انسحاب القنب (CWS) هي حالة سريرية تم التحقق منها جيدًا، وتحدث في حوالي 90٪ من الأشخاص الذين تم تشخيص إدمانهم للقنب بعد توقفهم. متوسط ​​​​شدة الذروة يمكن مقارنته بمتلازمة انسحاب التبغ.\n\nلماذا يحدث الانسحاب\nيعمل THC على نظام endocannabinoid - مستقبلات CB1 المشاركة في المزاج والشهية والنوم والذاكرة والتوتر. ومع الاستخدام المزمن، يقوم الدماغ بخفض تنظيم هذا النظام؛ عندما يتوقف الحشيش، يصبح خاملاً مؤقتًا. تشير المراجعة إلى عودة مستقبلات CB1 إلى عملها الطبيعي خلال حوالي أربعة أسابيع من الامتناع عن ممارسة الجنس.\n\nالبداية في اليوم الأول\nتوثق المراجعة أن الأعراض الجسدية تميل إلى الظهور أولاً - خلال 1-3 أيام من آخر استخدام - بينما تظهر الأعراض النفسية خلال 2-10 أيام. تشمل الأعراض المبكرة ما يلي:\n• التهيج والقلق والأرق\n• صعوبة في النوم\n• انخفاض الشهية\n• التوتر الجسدي، والتعرق، أو قشعريرة\n• مزاج مكتئب\n\nالشدة\nإن متلازمة CWS ليست خطيرة من الناحية الطبية وعادة ما تكون الأعراض خفيفة إلى معتدلة، لكن المراجعة تشير إلى أنها يمكن أن تكون مؤلمة بدرجة كافية لتحفيز الانتكاس - ولهذا السبب فإن فهم الجدول الزمني مهم.';
+      'انسحاب الماريجوانا: اليوم الأول\n\nالمصدر: \"متلازمة انسحاب القنب: الرؤى الحالية،\" تعاطي المخدرات وإعادة التأهيل (2017)، على PubMed Central\n\nانسحاب القنب حقيقي\nتثبت هذه المراجعة التي تمت مراجعتها من قبل النظراء أن متلازمة انسحاب القنب (CWS) هي حالة سريرية تم التحقق منها جيدًا، وتحدث في حوالي 90٪ من الأشخاص الذين تم تشخيص إدمانهم للقنب بعد توقفهم. متوسط ​​​​شدة الذروة يمكن مقارنته بمتلازمة انسحاب التبغ.\n\nلماذا يحدث الانسحاب\nيعمل THC على نظام الإندوكانابينويد - مستقبلات CB1 المشاركة في المزاج والشهية والنوم والذاكرة والتوتر. ومع الاستخدام المزمن، يقوم الدماغ بخفض تنظيم هذا النظام؛ عندما يتوقف الحشيش، يصبح خاملاً مؤقتًا. تشير المراجعة إلى عودة مستقبلات CB1 إلى عملها الطبيعي خلال حوالي أربعة أسابيع من الامتناع عن القنب.\n\nالبداية في اليوم الأول\nتوثق المراجعة أن الأعراض الجسدية تميل إلى الظهور أولاً - خلال 1-3 أيام من آخر استخدام - بينما تظهر الأعراض النفسية خلال 2-10 أيام. تشمل الأعراض المبكرة ما يلي:\n• التهيج والقلق والأرق\n• صعوبة في النوم\n• انخفاض الشهية\n• التوتر الجسدي، والتعرق، أو قشعريرة\n• مزاج مكتئب\n\nالشدة\nإن متلازمة CWS ليست خطيرة من الناحية الطبية وعادة ما تكون الأعراض خفيفة إلى معتدلة، لكن المراجعة تشير إلى أنها يمكن أن تكون مؤلمة بدرجة كافية لتحفيز الانتكاس - ولهذا السبب فإن فهم الجدول الزمني مهم.';
 
   @override
   String get marijuanaReferenceDay3 =>
-      'الجدول الزمني لسحب القنب: الأيام الأولى\n\nالمصدر: \"الدورة الزمنية لأعراض انسحاب القنب DSM-5 لدى متعاطي المواد المتعددة،\" BMC للطب النفسي (2013)، في PubMed Central\n\nدورة زمنية محسوبة\nتتبعت هذه الدراسة أعراض انسحاب القنب DSM-5 لدى 90 مريضًا على مدار أربعة أسابيع، مما أدى إلى إنتاج واحدة من أوضح الصور لكيفية ارتفاع الأعراض وانخفاضها. اتبعت الخطورة الإجمالية منحنى: ارتفاع، ثم انخفاض خلال الأسابيع التالية.\n\nما الذروة في وقت مبكر\nتصل العديد من الأعراض الأكثر إزعاجًا جسديًا خلال الأيام القليلة الأولى من التوقف:\n• الأرق — يصل إلى ذروته في اليوم الأول تقريبًا\n• العصبية — تبلغ ذروتها في اليوم الرابع تقريبًا\n• مزاج مكتئب وأعراض جسدية — تبلغ ذروتها في اليوم الخامس تقريبًا\n• الأرق — يصل إلى ذروته في اليوم السادس تقريبًا\n\nما قمم في وقت لاحق\nووجدت الدراسة أن بعض الأعراض تظهر وتصل ذروتها في وقت لاحق من الأسبوع الأول:\n• أحلام حية وغير سارة - تبلغ ذروتها في اليوم الحادي عشر تقريبًا\n• التهيج والغضب — يصل إلى ذروته في اليوم الرابع عشر تقريبًا\n\nالنوم والحشيش\nتعكس الأحلام الحية المتأخرة ارتداد حركة العين السريعة: يثبط الحشيش نوم حركة العين السريعة أثناء الاستخدام، ويعوض الدماغ بشكل مفرط بمجرد توقفه. ويرى المؤلفون أن هذا العرض شائع بما يكفي ليندرج ضمن معايير الانسحاب الرسمية.\n\nالوجبات الجاهزة لليوم الثالث\nبحلول اليوم الثالث، تكون في ذروة الذروة الجسدية المبكرة - حيث يكون الأرق والعصبية والأرق في أسوأ حالاتهم. إن المنحنى الثابت الذي يمكن التنبؤ به هو في حد ذاته مطمئن: فهذه الأعراض لها مسار معروف وتتراجع من هنا.';
+      'الجدول الزمني لسحب القنب: الأيام الأولى\n\nالمصدر: \"الدورة الزمنية لأعراض انسحاب القنب DSM-5 لدى متعاطي المواد المتعددة،\" BMC للطب النفسي (2013)، في PubMed Central\n\nدورة زمنية محسوبة\nتتبعت هذه الدراسة أعراض انسحاب القنب DSM-5 لدى 90 مريضًا على مدار أربعة أسابيع، مما أدى إلى إنتاج واحدة من أوضح الصور لكيفية ارتفاع الأعراض وانخفاضها. اتبعت الخطورة الإجمالية منحنى: ارتفاع، ثم انخفاض خلال الأسابيع التالية.\n\nما الذروة في وقت مبكر\nتصل العديد من الأعراض الأكثر إزعاجًا جسديًا خلال الأيام القليلة الأولى من التوقف:\n• الأرق — يصل إلى ذروته في اليوم الأول تقريبًا\n• العصبية — تبلغ ذروتها في اليوم الرابع تقريبًا\n• مزاج مكتئب وأعراض جسدية — تبلغ ذروتها في اليوم الخامس تقريبًا\n• الأرق — يصل إلى ذروته في اليوم السادس تقريبًا\n\nما قمم في وقت لاحق\nووجدت الدراسة أن بعض الأعراض تظهر وتصل ذروتها في وقت لاحق من الأسبوع الأول:\n• أحلام حية وغير سارة - تبلغ ذروتها في اليوم الحادي عشر تقريبًا\n• التهيج والغضب — يصل إلى ذروته في اليوم الرابع عشر تقريبًا\n\nالنوم والحشيش\nتعكس الأحلام الحية المتأخرة ارتداد حركة العين السريعة: يثبط الحشيش نوم حركة العين السريعة أثناء الاستخدام، ويعوض الدماغ بشكل مفرط بمجرد توقفه. ويرى المؤلفون أن هذا العرض شائع بما يكفي ليندرج ضمن معايير الانسحاب الرسمية.\n\nخلاصة اليوم الثالث\nبحلول اليوم الثالث، تكون في ذروة الذروة الجسدية المبكرة - حيث يكون الأرق والعصبية والأرق في أسوأ حالاتهم. إن المنحنى الثابت الذي يمكن التنبؤ به هو في حد ذاته مطمئن: فهذه الأعراض لها مسار معروف وتتراجع من هنا.';
 
   @override
   String get marijuanaReferenceDay7 =>
-      'أسبوع واحد بدون القنب: من خلال الأسوأ\n\nالمصدر: \"متلازمة انسحاب القنب: الرؤى الحالية،\" تعاطي المخدرات وإعادة التأهيل (2017)، على PubMed Central\n\nحيث يجلس أسبوع واحد في المتلازمة\nتوثق هذه المراجعة أن متلازمة انسحاب القنب عادة ما تستمر لمدة تصل إلى ثلاثة أسابيع تقريبًا، وتقع الفترة الأكثر إزعاجًا بين الأسبوع الأول والثالث. في غضون أسبوع واحد، عادة ما تكون الأعراض الجسدية المبكرة - الأرق، وفقدان الشهية، والأرق - قد تجاوزت ذروتها وبدأت في التراجع.\n\nما الذي لا يزال يستقر\nتميز المراجعة بين الأعراض الجسدية التي تبلغ ذروتها مبكرًا والأعراض النفسية التي تصل إلى ذروتها لاحقًا. في أسبوع واحد:\n• يتحسن الانزعاج الجسدي والشهية إلى حد كبير\n• لا يزال النوم متقطعًا بالنسبة للكثيرين، وغالبًا ما تصل الأحلام الواضحة (ارتداد حركة العين السريعة) إلى ذروتها الآن\n• يمكن أن يظل التهيج والمزاج مرتفعين، حيث يميل هذان إلى الوصول إلى الذروة في وقت لاحق خلال الأسبوعين الأولين\n\nالبيولوجيا العصبية للشفاء\nوفي ظل هذه التغييرات، تشير المراجعة إلى أن مستقبلات CB1 ذات التنظيم المنخفض تعود إلى الأداء الطبيعي في غضون أربعة أسابيع تقريبًا من الامتناع عن ممارسة الجنس. وبعد مرور أسبوع، تجري عملية إعادة التنظيم هذه على قدم وساق، حيث يتعافى النظام حتى مع استمرار بعض الأعراض.\n\nالوجبات الجاهزة\nإن الوصول إلى أسبوع واحد يعني أن الذروة الجسدية الحادة قد أصبحت خلفك. تعد أعراض النوم والمزاج المتبقية جزءًا من متلازمة ذات مسار محدد ومعروف يستمر في حله خلال الأسبوعين المقبلين.';
+      'أسبوع واحد بدون القنب: من خلال الأسوأ\n\nالمصدر: \"متلازمة انسحاب القنب: الرؤى الحالية،\" تعاطي المخدرات وإعادة التأهيل (2017)، على PubMed Central\n\nحيث يجلس أسبوع واحد في المتلازمة\nتوثق هذه المراجعة أن متلازمة انسحاب القنب عادة ما تستمر لمدة تصل إلى ثلاثة أسابيع تقريبًا، وتقع الفترة الأكثر إزعاجًا بين الأسبوع الأول والثالث. في غضون أسبوع واحد، عادة ما تكون الأعراض الجسدية المبكرة - الأرق، وفقدان الشهية، والأرق - قد تجاوزت ذروتها وبدأت في التراجع.\n\nما الذي لا يزال يستقر\nتميز المراجعة بين الأعراض الجسدية التي تبلغ ذروتها مبكرًا والأعراض النفسية التي تصل إلى ذروتها لاحقًا. في أسبوع واحد:\n• يتحسن الانزعاج الجسدي والشهية إلى حد كبير\n• لا يزال النوم متقطعًا بالنسبة للكثيرين، وغالبًا ما تصل الأحلام الواضحة (ارتداد حركة العين السريعة) إلى ذروتها الآن\n• يمكن أن يظل التهيج والمزاج مرتفعين، حيث يميل هذان إلى الوصول إلى الذروة في وقت لاحق خلال الأسبوعين الأولين\n\nالبيولوجيا العصبية للشفاء\nوفي ظل هذه التغييرات، تشير المراجعة إلى أن مستقبلات CB1 ذات التنظيم المنخفض تعود إلى الأداء الطبيعي في غضون أربعة أسابيع تقريبًا من الامتناع عن القنب. وبعد مرور أسبوع، تجري عملية إعادة التنظيم هذه على قدم وساق، حيث يتعافى النظام حتى مع استمرار بعض الأعراض.\n\nالخلاصة\nإن الوصول إلى أسبوع واحد يعني أن الذروة الجسدية الحادة قد أصبحت خلفك. تعد أعراض النوم والمزاج المتبقية جزءًا من متلازمة ذات مسار محدد ومعروف يستمر في حله خلال الأسبوعين المقبلين.';
 
   @override
   String get marijuanaReferenceDay14 =>
@@ -3629,7 +3612,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get marijuanaReferenceDay30 =>
-      'شهر واحد بدون الحشيش: تتحسن وظيفة الذاكرة\n\nالمصدر: البابا وآخرون. (2001)، أرشيف الطب النفسي العام\n\nالقنب والذاكرة: المشكلة\nتابعت هذه الدراسة مستخدمي القنب الثقيل على المدى الطويل خلال 28 يومًا من الامتناع المؤكد عن ممارسة الجنس وقارنت نتائج اختبار التفكير والذاكرة مع المستخدمين الخفيفين وغير المستخدمين. في بداية الامتناع عن ممارسة الجنس، ومرة ​​أخرى في اليوم الأول والسابع، كان أداء المستخدمين المفرطين أسوأ من الضوابط فيما يتعلق باستدعاء قوائم الكلمات - وهو العجز الذي تم تتبعه من خلال مستويات مستقلب رباعي هيدروكانابينول (THC) في البول، مما يعكس التعرض الأخير للمخدرات بدلاً من الاستخدام مدى الحياة.\n\nالأخبار الجيدة: التعافي بحلول اليوم الثامن والعشرين\nبحلول اليوم 28، كان أداء المستخدمين الثقيلين والمستخدمين الخفيفين وغير المستخدمين هو نفسه تقريبًا في اختبارات التفكير والذاكرة الخاصة بالدراسة. لم تكن هناك أيضًا علاقة ذات دلالة إحصائية بين إجمالي استخدام القنب مدى الحياة وأداء الاختبار في تلك المرحلة.\n\nماذا يعني هذا في 30 يوما\n• عاد التعلم اللفظي والتذكر إلى مستويات المجموعة الضابطة\n• تم حل العجز المتبقي الذي شهدناه في الأسبوع الأول\n• كان العجز المتبقي في وقت سابق مرتبطا بالتعرض الأخير، وليس بالضرر الدائم\n\nما تظهره الأدلة\nبحلول اليوم 28، لم يكن من الممكن تقريبًا تمييز المستخدمين الثقيلين عن المستخدمين الخفيفين وغير المستخدمين عبر المجموعة الكاملة من اختبارات التفكير والذاكرة الخاصة بالدراسة. وقد تعافى العجز في التعلم اللفظي والتذكر الذي شوهد في الأسبوع الأول إلى مستويات المجموعة الضابطة.';
+      'شهر واحد بدون الحشيش: تتحسن وظيفة الذاكرة\n\nالمصدر: البابا وآخرون. (2001)، أرشيف الطب النفسي العام\n\nالقنب والذاكرة: المشكلة\nتابعت هذه الدراسة مستخدمي القنب الثقيل على المدى الطويل خلال 28 يومًا من الامتناع المؤكد عن ممارسة الجنس وقارنت نتائج اختبار التفكير والذاكرة مع المستخدمين الخفيفين وغير المستخدمين. في بداية الامتناع عن القنب، ومرة ​​أخرى في اليوم الأول والسابع، كان أداء المستخدمين المفرطين أسوأ من الضوابط فيما يتعلق باستدعاء قوائم الكلمات - وهو العجز الذي تم تتبعه من خلال مستويات مستقلب رباعي هيدروكانابينول (THC) في البول، مما يعكس التعرض الأخير للمخدرات بدلاً من الاستخدام مدى الحياة.\n\nالأخبار الجيدة: التعافي بحلول اليوم الثامن والعشرين\nبحلول اليوم 28، كان أداء المستخدمين الثقيلين والمستخدمين الخفيفين وغير المستخدمين هو نفسه تقريبًا في اختبارات التفكير والذاكرة الخاصة بالدراسة. لم تكن هناك أيضًا علاقة ذات دلالة إحصائية بين إجمالي استخدام القنب مدى الحياة وأداء الاختبار في تلك المرحلة.\n\nماذا يعني هذا في 30 يوما\n• عاد التعلم اللفظي والتذكر إلى مستويات المجموعة الضابطة\n• تم حل العجز المتبقي الذي شهدناه في الأسبوع الأول\n• كان العجز المتبقي في وقت سابق مرتبطا بالتعرض الأخير، وليس بالضرر الدائم\n\nما تظهره الأدلة\nبحلول اليوم 28، لم يكن من الممكن تقريبًا تمييز المستخدمين الثقيلين عن المستخدمين الخفيفين وغير المستخدمين عبر المجموعة الكاملة من اختبارات التفكير والذاكرة الخاصة بالدراسة. وقد تعافى العجز في التعلم اللفظي والتذكر الذي شوهد في الأسبوع الأول إلى مستويات المجموعة الضابطة.';
 
   @override
   String get marijuanaReferenceDay60 =>
@@ -3637,79 +3620,79 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get marijuanaReferenceDay90 =>
-      'ثلاثة أشهر بدون القنب: عودة استقرار الحالة المزاجية\n\nالمصدر: كونور وآخرون. (2022)، الإدمان – مراجعة سريرية لانسحاب القنب\n\nكيف يبدو الجدول الزمني للانسحاب في الواقع؟\nتصف هذه المراجعة أعراض انسحاب القنب التي تبدأ عادة بعد 24-48 ساعة من التوقف وتبلغ ذروتها في الأيام 2-6. يمكن أن يظهر الغضب والعدوان والمزاج المكتئب في وقت مبكر يصل إلى أسبوع واحد ولكنه عادةً ما يصل إلى ذروته بعد حوالي أسبوعين من الامتناع عن ممارسة الجنس. يمكن أن يستمر اضطراب النوم على وجه الخصوص لفترة أطول من الأعراض الأخرى.\n\nحيث يجلس ثلاثة أشهر\nبحلول ثلاثة أشهر، تكون قد تجاوزت دورة الانسحاب الموثقة: تبدأ الأعراض عادةً خلال 24-48 ساعة، وتصل إلى ذروتها في الأيام 2-6، وحتى تباطؤ المزاج وأعراض النوم تبلغ ذروتها خلال الأسابيع التالية. تسعون يومًا تمنح تلك التأثيرات المزاجية والنومية التي يحركها الانسحاب أشهرًا حتى تستقر.\n\nملاحظة على نظام Endocannabinoid\nتُظهر أبحاث انسحاب القنب أيضًا أن مستقبلات CB1 ذات التنظيم المنخفض تعود إلى الأداء الطبيعي في غضون أربعة أسابيع تقريبًا من الامتناع عن ممارسة الجنس. بعد 90 يومًا، تكون قد تجاوزت فترة استرداد المستقبل.\n\nالتطلع إلى الأمام\nوتناقش المراجعة أيضًا تشخيص ما بعد إزالة السموم والوقاية من الانتكاسات، مع التأكيد على أن الدعم المستمر واستراتيجيات المواجهة لها أهمية تتجاوز نافذة الانسحاب الحاد.';
+      'ثلاثة أشهر بدون القنب: عودة استقرار الحالة المزاجية\n\nالمصدر: كونور وآخرون. (2022)، الإدمان – مراجعة سريرية لانسحاب القنب\n\nكيف يبدو الجدول الزمني للانسحاب في الواقع؟\nتصف هذه المراجعة أعراض انسحاب القنب التي تبدأ عادة بعد 24-48 ساعة من التوقف وتبلغ ذروتها في الأيام 2-6. يمكن أن يظهر الغضب والعدوان والمزاج المكتئب في وقت مبكر يصل إلى أسبوع واحد ولكنه عادةً ما يصل إلى ذروته بعد حوالي أسبوعين من الامتناع عن القنب. يمكن أن يستمر اضطراب النوم على وجه الخصوص لفترة أطول من الأعراض الأخرى.\n\nحيث يجلس ثلاثة أشهر\nبحلول ثلاثة أشهر، تكون قد تجاوزت دورة الانسحاب الموثقة: تبدأ الأعراض عادةً خلال 24-48 ساعة، وتصل إلى ذروتها في الأيام 2-6، وحتى تباطؤ المزاج وأعراض النوم تبلغ ذروتها خلال الأسابيع التالية. تسعون يومًا تمنح تلك التأثيرات المزاجية والنومية التي يحركها الانسحاب أشهرًا حتى تستقر.\n\nملاحظة عن نظام الإندوكانابينويد\nتُظهر أبحاث انسحاب القنب أيضًا أن مستقبلات CB1 ذات التنظيم المنخفض تعود إلى الأداء الطبيعي في غضون أربعة أسابيع تقريبًا من الامتناع عن القنب. بعد 90 يومًا، تكون قد تجاوزت فترة استرداد المستقبل.\n\nالتطلع إلى الأمام\nوتناقش المراجعة أيضًا تشخيص ما بعد إزالة السموم والوقاية من الانتكاسات، مع التأكيد على أن الدعم المستمر واستراتيجيات المواجهة لها أهمية تتجاوز نافذة الانسحاب الحاد.';
 
   @override
   String get marijuanaReferenceDay180 =>
-      'ستة أشهر بدون القنب: تعافي التخطيط وصنع القرار\n\nالمصدر: كرين وكرين وماسون (2011)، مجلة طب الإدمان\n\nالتخطيط وصنع القرار بعد القنب\nفحصت هذه المراجعة الانتباه، وصنع القرار، وضبط النفس، والذاكرة العاملة، والطلاقة اللفظية من الساعات الأولى بعد الاستخدام وحتى الامتناع عن ممارسة الجنس على المدى الطويل. بحلول ستة أشهر، تكون قد تجاوزت التأثيرات قصيرة المدى بكثير ودخلت في فترة تعافي عميقة.\n\nما وجده البحث\nالعديد من المشاكل المرتبطة بالاستخدام المكثف تنحسر مع الامتناع المستمر عن ممارسة الجنس، حيث وجدت بعض الدراسات التعافي خلال 28 يومًا. تشمل المناطق الأبطأ للتعافي بعد الاستخدام المكثف والمبكر ما يلي:\n• اتخاذ القرار وتحمل المخاطر - تم تحديدها على وجه التحديد على أنها مجالات يمكن أن يستمر فيها العجز على المدى الطويل لدى المستخدمين المزمنين بكثرة\n• التفكير المجرد والمهارات اللفظية — تضعف بشكل خاص لدى البالغين الذين بدأوا التعاطي قبل سن 17 عامًا\n\nالتعافي المبكر\nستة أشهر هي أبعد بكثير من التأثيرات قصيرة المدى في هذه المراجعة. يستمر التخطيط وصنع القرار والتفكير في التحسن مع الامتناع المستمر، مما يجعل الامتناع المستمر أقوى طريق لمزيد من التعافي.\n\nالصورة الأوسع\nبالنسبة للاستخدام الخفيف عند البالغين، تكون التوقعات أكثر ملاءمة - حيث يبلغ العديد من الأشخاص في عمر الستة أشهر عن تفكير أكثر وضوحًا، واتخاذ قرارات أكثر ثباتًا، وإحساس أقوى بالتوجيه الذاتي. أكبر المكاسب تأتي من الامتناع عن التدخين، خاصة بعد الاستخدام المكثف أو المبكر.';
+      'ستة أشهر بدون القنب: تعافي التخطيط وصنع القرار\n\nالمصدر: كرين وكرين وماسون (2011)، مجلة طب الإدمان\n\nالتخطيط وصنع القرار بعد القنب\nفحصت هذه المراجعة الانتباه، وصنع القرار، وضبط النفس، والذاكرة العاملة، والطلاقة اللفظية من الساعات الأولى بعد الاستخدام وحتى الامتناع عن القنب على المدى الطويل. بحلول ستة أشهر، تكون قد تجاوزت التأثيرات قصيرة المدى بكثير ودخلت في فترة تعافي عميقة.\n\nما وجده البحث\nالعديد من المشاكل المرتبطة بالاستخدام المكثف تنحسر مع الامتناع المستمر عن ممارسة الجنس، حيث وجدت بعض الدراسات التعافي خلال 28 يومًا. تشمل المناطق الأبطأ للتعافي بعد الاستخدام المكثف والمبكر ما يلي:\n• اتخاذ القرار وتحمل المخاطر - تم تحديدها على وجه التحديد على أنها مجالات يمكن أن يستمر فيها العجز على المدى الطويل لدى المستخدمين المزمنين بكثرة\n• التفكير المجرد والمهارات اللفظية — تضعف بشكل خاص لدى البالغين الذين بدأوا التعاطي قبل سن 17 عامًا\n\nالتعافي المبكر\nستة أشهر هي أبعد بكثير من التأثيرات قصيرة المدى في هذه المراجعة. يستمر التخطيط وصنع القرار والتفكير في التحسن مع الامتناع المستمر، مما يجعل الامتناع المستمر أقوى طريق لمزيد من التعافي.\n\nالصورة الأوسع\nبالنسبة للاستخدام الخفيف عند البالغين، تكون التوقعات أكثر ملاءمة - حيث يبلغ العديد من الأشخاص في عمر الستة أشهر عن تفكير أكثر وضوحًا، واتخاذ قرارات أكثر ثباتًا، وإحساس أقوى بالتوجيه الذاتي. أكبر المكاسب تأتي من الامتناع عن القنب، خاصة بعد الاستخدام المكثف أو المبكر.';
 
   @override
   String get marijuanaReferenceDay365 =>
-      'سنة واحدة بدون القنب: يتعافى هيكل الدماغ\n\nالمصدر: \"أضرار الحصين والحماية والتعافي بعد الاستخدام المنتظم للقنب\"، الطب النفسي الانتقالي (2016)، في PubMed Central\n\nالتغييرات الهيكلية من القنب\nقامت دراسة مسح الدماغ هذه بفحص الحصين، وهي منطقة دماغية مركزية للذاكرة، لدى المستخدمين الحاليين، والمستخدمين السابقين، وغير المستخدمين. المستخدمون الحاليون الذين لم يتعرضوا لاتفاقية التنوع البيولوجي كان لديهم قرن آمون أصغر بنسبة 11٪ تقريبًا وعلامة صحة خلايا الدماغ أقل بحوالي 15٪ من مجموعة التحكم.\n\nالنتيجة الرئيسية: التعافي مع الامتناع عن ممارسة الجنس\nدعمت التحليلات الملائمة للمنحنى نموذج \"الحماية والاسترداد\". ومن الأهمية بمكان أن المستخدمين السابقين - الممتنعين عن ممارسة الجنس لمدة متوسطها حوالي 29 شهرًا - لم يختلفوا عن غير المستخدمين للضوابط في أي إجراء من تدابير النزاهة. استنتج المؤلفون أن الأضرار المرتبطة بمنطقة الذاكرة المرتبطة بـ THC \"يمكن استردادها مع فترات طويلة من الامتناع عن ممارسة الجنس\".\n\nتعافي الدماغ على مدى عام وما بعده\nبعد عام واحد من عدم تعاطي القنب، يكون نظام الذاكرة في الدماغ في مرحلة التعافي: حجم الحصين وصحة خلايا الدماغ يعودان إلى الوضع الطبيعي، مما يدعم الذاكرة والتحكم العاطفي.\n\nإشارة الاسترداد\nالمستخدمون السابقون الممتنعون عن ممارسة الجنس لمدة 29 شهرًا تقريبًا يطابقون غير المستخدمين في المقاييس الصحية للحصين في الدراسة. وبعد عام واحد، يتحرك نظام الذاكرة بالفعل على طول مسار الاسترداد الموثق نحو الوضع الطبيعي.';
+      'سنة واحدة بدون القنب: يتعافى هيكل الدماغ\n\nالمصدر: \"أضرار الحصين والحماية والتعافي بعد الاستخدام المنتظم للقنب\"، الطب النفسي الانتقالي (2016)، في PubMed Central\n\nالتغييرات الهيكلية من القنب\nقامت دراسة مسح الدماغ هذه بفحص الحصين، وهي منطقة دماغية مركزية للذاكرة، لدى المستخدمين الحاليين، والمستخدمين السابقين، وغير المستخدمين. المستخدمون الحاليون الذين لم يتعرضوا لاتفاقية التنوع البيولوجي كان لديهم قرن آمون أصغر بنسبة 11٪ تقريبًا وعلامة صحة خلايا الدماغ أقل بحوالي 15٪ من مجموعة التحكم.\n\nالنتيجة الرئيسية: التعافي مع الامتناع عن القنب\nدعمت التحليلات الملائمة للمنحنى نموذج \"الحماية والاسترداد\". ومن الأهمية بمكان أن المستخدمين السابقين - الممتنعين عن ممارسة الجنس لمدة متوسطها حوالي 29 شهرًا - لم يختلفوا عن غير المستخدمين للضوابط في أي إجراء من تدابير النزاهة. استنتج المؤلفون أن الأضرار المرتبطة بمنطقة الذاكرة المرتبطة بـ THC \"يمكن استردادها مع فترات طويلة من الامتناع عن القنب\".\n\nتعافي الدماغ على مدى عام وما بعده\nبعد عام واحد من عدم تعاطي القنب، يكون نظام الذاكرة في الدماغ في مرحلة التعافي: حجم الحصين وصحة خلايا الدماغ يعودان إلى الوضع الطبيعي، مما يدعم الذاكرة والتحكم العاطفي.\n\nإشارة الاسترداد\nالمستخدمون السابقون الممتنعون عن ممارسة الجنس لمدة 29 شهرًا تقريبًا يطابقون غير المستخدمين في المقاييس الصحية للحصين في الدراسة. وبعد عام واحد، يتحرك نظام الذاكرة بالفعل على طول مسار الاسترداد الموثق نحو الوضع الطبيعي.';
 
   @override
   String get mdmaReferenceDay1 =>
-      'بعد عقار إم دي إم إيه: الكوميديا\n\nالمصدر: ماير (2013)، \"3،4-ميثيلين ديوكسي ميثامفيتامين (MDMA): وجهات النظر الحالية،\" تعاطي المخدرات وإعادة التأهيل\n\nلماذا تشعر بالانخفاض؟\nيعمل عقار إم دي إم إيه عن طريق إطلاق كمية كبيرة من السيروتونين (مع بعض الدوبامين). بعد ذلك، يتم استنفاد الدماغ مؤقتًا من السيروتونين. تصف هذه المراجعة انخفاض الحالة المزاجية - ما يسمى \"كآبة منتصف الأسبوع\" - والتي قام الباحثون بقياسها لدى المستخدمين المبتدئين وذوي الخبرة بعد يومين إلى خمسة أيام من الاستخدام.\n\nما يساعد\n• الترطيب والأغذية المغذية\n• النوم\n• الصبر – الانخفاض هو النضوب، وليس حالة دائمة\n\nيختلف التوقف بعد استخدام واحد عن الانسحاب المرتبط بالاعتماد، والذي تصفه نفس المراجعة بأنه ينطوي على الرغبة الشديدة ولكن ليس أعراض جسدية كبيرة.';
+      'بعد MDMA: مرحلة الهبوط\n\nالمصدر: Meyer (2013), \"3,4-Methylenedioxymethamphetamine (MDMA): Current Perspectives,\" Substance Abuse and Rehabilitation\n\nلماذا ينخفض المزاج\nيعمل MDMA عبر إطلاق كمية كبيرة من السيروتونين، إلى جانب بعض الدوبامين. بعد ذلك ينخفض السيروتونين المتاح في الدماغ مؤقتًا. تصف هذه المراجعة انخفاضًا في المزاج، يُسمى أحيانًا “midweek blues”، قِيس لدى المستخدمين الجدد وذوي الخبرة بعد 2–5 أيام من الاستخدام.\n\nما يساعد\n• شرب الماء وتناول غذاء مغذٍ\n• النوم\n• الصبر — هذا الانخفاض مؤقت وليس حالة دائمة\n\nتختلف مرحلة الهبوط بعد استخدام واحد عن الانسحاب المرتبط بالاعتماد. وتصف المراجعة نفسها الاعتماد بأنه قد يتضمن رغبة في الاستخدام، ولكن من دون أعراض جسدية بارزة.';
 
   @override
   String get mdmaReferenceDay3 =>
-      'بعد أيام قليلة من MDMA\n\nالمصدر: ماير (2013)، \"3،4-ميثيلين ديوكسي ميثامفيتامين (MDMA): وجهات النظر الحالية،\" تعاطي المخدرات وإعادة التأهيل\n\nالبلوز منتصف الأسبوع\nهذه تقريبًا هي النافذة التي تصفها هذه المراجعة عندما تناقش \"اكتئاب منتصف الأسبوع\" - وهو انخفاض في الحالة المزاجية يتم قياسه بعد يومين إلى خمسة أيام من الاستخدام لدى كل من المستخدمين المبتدئين وذوي الخبرة، ويرتبط باستنفاد السيروتونين على المدى القصير بدلاً من التغيير على المدى الطويل.\n\nما يحسن\n• يرتفع المزاج عادةً من أدنى مستوياته الآن\n• عوائد الطاقة\n• يبدأ النوم في العودة إلى طبيعته';
+      'بعد بضعة أيام من MDMA\n\nالمصدر: Meyer (2013), \"3,4-Methylenedioxymethamphetamine (MDMA): Current Perspectives,\" Substance Abuse and Rehabilitation\n\n“Midweek blues”\nهذه تقريبًا الفترة التي تصفها المراجعة عند مناقشة “midweek blues”: انخفاض في المزاج قِيس بعد 2–5 أيام من الاستخدام لدى المستخدمين الجدد وذوي الخبرة، ويرتبط بانخفاض قصير الأمد في السيروتونين لا بتغير دائم.\n\nما يبدأ بالتحسن\n• يبدأ المزاج عادةً بالصعود من أدنى نقطة\n• تعود الطاقة تدريجيًا\n• يبدأ النوم بالعودة إلى طبيعته';
 
   @override
   String get mdmaReferenceDay7 =>
-      'أسبوع واحد بعد MDMA\n\nالمصدر: ماير (2013)، \"3،4-ميثيلين ديوكسي ميثامفيتامين (MDMA): وجهات النظر الحالية،\" تعاطي المخدرات وإعادة التأهيل\n\nالماضي البلوز منتصف الأسبوع\nبالنسبة لمعظم الأشخاص، يمر أسبوع على فترة 2 إلى 5 أيام، وترتبط هذه المراجعة بالهبوط الحاد، لذا يجب أن يعود المزاج إلى طبيعته. تشير المراجعة إلى أنه بالنسبة للأشخاص الذين يتعاطون المخدرات بكثرة أو بشكل متكرر، يمكن أن تستمر الرغبة الشديدة كجزء من نمط الاعتماد، على الرغم من أنها لا تصف ذلك بأنه ينطوي على أعراض انسحاب جسدية كبيرة.\n\nمتى تطلب المساعدة\nإذا استمرت الحالة المزاجية المنخفضة، أو القلق، أو مشاكل النوم لمدة أسبوع، فقد يكون ذلك أكثر من مجرد خيبة أمل - فالأمر يستحق التحدث إلى أحد المتخصصين.';
+      'أسبوع واحد بعد MDMA\n\nالمصدر: Meyer (2013), \"3,4-Methylenedioxymethamphetamine (MDMA): Current Perspectives,\" Substance Abuse and Rehabilitation\n\nبعد مرحلة “midweek blues”\nبالنسبة لمعظم الناس يكون الأسبوع قد تجاوز نافذة 2–5 أيام التي تربطها المراجعة بالهبوط الحاد، لذلك يُفترض أن يكون المزاج قد عاد نحو الطبيعي. وتذكر المراجعة أن الرغبة في الاستخدام قد تستمر لدى من يستخدمون بكثافة أو بصورة متكررة كجزء من نمط الاعتماد، لكنها لا تصف انسحابًا جسديًا شديدًا.\n\nمتى تطلب المساعدة\nإذا استمر انخفاض المزاج أو القلق أو مشكلات النوم بعد أسبوع، فقد يكون الأمر أكثر من مجرد هبوط عابر، ومن المفيد التحدث إلى مختص.';
 
   @override
   String get mdmaReferenceDay14 =>
-      'أسبوعين من MDMA\n\nالمصدر: ماير (2013)، \"3،4-ميثيلين ديوكسي ميثامفيتامين (MDMA): وجهات النظر الحالية،\" تعاطي المخدرات وإعادة التأهيل\n\nالجدول الزمني للاسترداد\nبالنسبة إلى فترة الاستخدام لمرة واحدة، فإن أسبوعين قد تجاوزا فترة التراجع التي تتراوح من يومين إلى خمسة أيام والتي توثقها هذه المراجعة، لذلك يجب أن يكون المزاج والنوم والتركيز ثابتًا. بعد الاستخدام المكثف أو المتكرر، يستمر التعافي إلى ما بعد فترة التوقف، وتُظهر دراسات التصوير الخاصة بالامتناع عن ممارسة الجنس أن قدرة إعادة تدوير السيروتونين ترتفع مع الامتناع المستمر عن ممارسة الجنس.\n\nماذا يعني هذا بالنسبة لك\nإذا كان استخدامك عرضيًا، فمن المحتمل أنك تمر بأسوأ ما في الأمر. إذا كان الأمر متكررًا أو ثقيلًا، فكن صبورًا مع نفسك، فالشفاء الكامل لإشارات السيروتونين هو عملية أطول من أسبوعين، ويتم تغطيتها في المعالم التالية.';
+      'أسبوعان من دون MDMA\n\nالمصدر: Meyer (2013), \"3,4-Methylenedioxymethamphetamine (MDMA): Current Perspectives,\" Substance Abuse and Rehabilitation\n\nمسار التعافي\nبعد استخدام واحد يكون الأسبوعان أبعد بكثير من فترة الانخفاض التي توثقها المراجعة بين 2 و5 أيام، لذا ينبغي أن يكون المزاج والنوم والتركيز أكثر استقرارًا. بعد الاستخدام الأثقل أو المتكرر يستمر التعافي لما بعد مرحلة الهبوط، وتُظهر دراسات التصوير لدى الممتنعين أن قدرة إعادة امتصاص السيروتونين تتحسن مع استمرار الامتناع.\n\nماذا يعني ذلك لك\nإذا كان الاستخدام عرضيًا فمن المرجح أنك تجاوزت أصعب مرحلة. وإذا كان متكررًا أو كثيفًا فأعطِ نفسك وقتًا — التعافي الكامل لإشارات السيروتونين يستغرق أكثر من أسبوعين، وتتناوله المراحل التالية.';
 
   @override
   String get mdmaReferenceDay30 =>
-      'شهر واحد من MDMA\n\nالمصدر: \"توفر ناقل السيروتونين، والوظيفة المعرفية العصبية وارتباطهما لدى مستخدمي عقار إم دي إم إيه الممتنعين عن التدخين،\" على موقع PubMed\n\nحيث يجلس شهر واحد\nلقد تجاوزت مرحلة التراجع والانسحاب الحادة، وأصبحت الحالة المزاجية والتفكير والذاكرة أكثر ثباتًا. تظهر أبحاث التصوير أن عقار إم دي إم إيه يقلل من قدرة الدماغ على معالجة السيروتونين، وأن هذه القدرة تتعافى مع الامتناع المستمر عن ممارسة الجنس.\n\nإشارة الاسترداد\nويظهر البحث نفسه أن القدرة على إعادة تدوير السيروتونين تتعافى مع الامتناع المستمر عن ممارسة الجنس. يتحسن المزاج ووظيفة السيروتونين أولاً، بينما تستمر الذاكرة في الجدول الزمني للتعافي الخاص بها - ويدعم الامتناع المستمر عن ممارسة الجنس كليهما.';
+      'شهر من دون MDMA\n\nالمصدر: \"Serotonin transporter availability, neurocognitive function and their correlation in abstinent MDMA users,\" PubMed\n\nأين يقع الشهر في مسار التعافي\nأصبحت مرحلة الهبوط الحاد وأعراض الانسحاب المبكرة وراءك، وصار المزاج والتفكير والذاكرة أكثر استقرارًا. تُظهر أبحاث التصوير أن MDMA يقلل قدرة الدماغ على معالجة السيروتونين، وأن هذه القدرة تتحسن مع الامتناع المستمر.\n\nإشارة التعافي\nتُظهر الأبحاث نفسها تحسن قدرة إعادة امتصاص السيروتونين مع استمرار الامتناع. يتحسن المزاج ووظيفة السيروتونين أولًا، بينما تسير الذاكرة وفق وتيرتها الخاصة — والاستمرار من دون MDMA يدعم المسارين.';
 
   @override
   String get mdmaReferenceDay90 =>
-      'ثلاثة أشهر من MDMA\n\nالمصدر: \"توفر ناقل السيروتونين، والوظيفة المعرفية العصبية وارتباطهما لدى مستخدمي عقار إم دي إم إيه الممتنعين عن التدخين،\" على موقع PubMed\n\nاستمرار الانتعاش\nمع الامتناع المستمر عن ممارسة الجنس، يستمر نظام السيروتونين في الدماغ في التعافي، خاصة في مناطق الدماغ العميقة. عادة ما يكون المزاج والنوم مستقرين عند هذه النقطة.\n\nإشارة الاسترداد\nيؤدي الامتناع المستمر عن ممارسة الجنس إلى استمرار تعافي ناقل السيروتونين عبر مناطق الدماغ، بينما يظل المزاج والنوم مستقرين ويستمر تعافي التفكير والذاكرة.';
+      'ثلاثة أشهر من دون MDMA\n\nالمصدر: \"Serotonin transporter availability, neurocognitive function and their correlation in abstinent MDMA users,\" PubMed\n\nاستمرار التعافي\nمع الامتناع المستمر يواصل نظام السيروتونين في الدماغ التعافي، خصوصًا في المناطق الأعمق. ويكون المزاج والنوم عادةً أكثر استقرارًا في هذه المرحلة.\n\nإشارة التعافي\nيدعم الامتناع المستمر تعافي ناقلات السيروتونين عبر مناطق الدماغ، مع بقاء المزاج والنوم مستقرين واستمرار تحسن التفكير والذاكرة.';
 
   @override
   String get mdmaReferenceDay365 =>
-      'سنة واحدة من MDMA\n\nالمصدر: \"توفر ناقل السيروتونين، والوظيفة المعرفية العصبية وارتباطهما لدى مستخدمي عقار إم دي إم إيه الممتنعين عن التدخين،\" على موقع PubMed\n\nسنة على\nوبعد عام من الامتناع عن ممارسة الجنس، تعافت عملية معالجة السيروتونين في الدماغ بشكل كبير وأصبح المزاج مستقرًا.\n\nإشارة الاسترداد\nسنة كاملة من الامتناع عن ممارسة الجنس تعطي نظام السيروتونين نافذة انتعاش طويلة. تظهر أبحاث التصوير أن قدرة إعادة تدوير السيروتونين ترتفع مع الامتناع عن ممارسة الجنس، مما يجعل استعادة السيروتونين بشكل كبير أوضح إشارة بيولوجية في هذه المرحلة.';
+      'عام من دون MDMA\n\nالمصدر: \"Serotonin transporter availability, neurocognitive function and their correlation in abstinent MDMA users,\" PubMed\n\nبعد عام\nيمنح عام من الامتناع الدماغ وقتًا طويلًا لتعافي معالجة السيروتونين، ويكون المزاج عادةً مستقرًا.\n\nإشارة التعافي\nيوفر عام كامل من الامتناع نافذة طويلة لتعافي نظام السيروتونين. وتُظهر أبحاث التصوير أن قدرة إعادة امتصاص السيروتونين تزداد مع الامتناع، ما يجعل التعافي الملحوظ لهذا النظام أبرز إشارة بيولوجية في هذه المرحلة.';
 
   @override
   String get methReferenceDay1 =>
-      'انسحاب الميثامفيتامين: أول 24 ساعة\n\nالمصدر: ماكجريجور وآخرون، \"طبيعة انسحاب الميثامفيتامين ومساره الزمني وشدته،\" الإدمان (2005)، على موقع PubMed\n\nالانهيار\nيحفز الميثامفيتامين إطلاق كمية كبيرة من الدوبامين؛ عندما يتوقف الاستخدام، يتم ترك النظام مستنفدًا. تتبعت هذه الدراسة أعراض الانسحاب يوميًا خلال الأسابيع الثلاثة الأولى من الامتناع عن ممارسة الجنس، ووجدت أن الشدة الإجمالية كانت في أعلى مستوياتها خلال 24 ساعة من آخر استخدام - \"الانهيار\"، وهو تحول مفاجئ من التحفيز الشديد إلى الإرهاق الجسدي والنفسي.\n\nأعراض اليوم الأول\nوقد وثقت الدراسة ميزات الانسحاب الأكثر كثافة الآن:\n• التعب الشديد وزيادة النوم (فرط النوم)\n• زيادة الشهية (الميثامفيتامين يثبط الشهية بقوة)\n• مزاج مكتئب وفقدان المتعة\n• الرغبة الشديدة\n• القلق والتهيج\n\nالسلامة الجسدية\nلا تعد متلازمة انسحاب الميثامفيتامين في حد ذاتها مهددة للحياة بشكل عام، ولكن الأعراض المرتبطة بالاكتئاب التي تم قياسها في هذه الدراسة يمكن أن تكون شديدة في وقت مبكر وقد تشمل أفكارًا انتحارية. يُنصح بشدة بالإشراف الطبي، خاصة بالنسبة للمستخدمين بكثرة.\n\nيبدأ في الرفع\nالنتيجة المشجعة من هذا البحث هي أن الخطورة تكون في أعلى مستوياتها في البداية ثم تنخفض. بدءًا من هذه الذروة خلال 24 ساعة، تنخفض الأعراض بشكل مطرد خلال الأيام التالية، وأسوأ نقطة هي البداية.';
+      'انسحاب الميثامفيتامين: أول 24 ساعة\n\nالمصدر: McGregor et al., \"The nature, time course and severity of methamphetamine withdrawal,\" Addiction (2005)، PubMed\n\nمرحلة الانهيار\nيدفع الميثامفيتامين الدماغ إلى إفراز كميات كبيرة من الدوبامين؛ وعند التوقف عن التعاطي يصبح هذا النظام مستنزفًا. تابعت هذه الدراسة أعراض الانسحاب يوميًا خلال الأسابيع الثلاثة الأولى من الامتناع، ووجدت أن الشدة الإجمالية بلغت أقصاها خلال 24 ساعة من آخر تعاطٍ — وهي مرحلة «الانهيار»، أي التحول المفاجئ من التحفيز الشديد إلى الإرهاق الجسدي والنفسي.\n\nأعراض اليوم الأول\nوثقت الدراسة الأعراض التي تكون أشد في هذه المرحلة:\n• إرهاق شديد وزيادة النوم (فرط النوم)\n• زيادة الشهية، لأن الميثامفيتامين يثبطها بشدة\n• مزاج مكتئب وفقدان المتعة\n• رغبة قوية في التعاطي\n• قلق وتهيّج\n\nالسلامة الجسدية\nلا تكون متلازمة انسحاب الميثامفيتامين مهددة للحياة عادةً، لكن الأعراض المرتبطة بالاكتئاب التي قاستها الدراسة قد تكون شديدة في البداية وقد تشمل أفكارًا انتحارية. يُنصح بشدة بالإشراف الطبي، خاصةً عند الاستخدام الكثيف.\n\nيبدأ التحسن\nالنتيجة المشجعة هي أن الشدة تكون في أعلى مستوياتها في البداية ثم تنخفض. ومن ذروة الساعات الأربع والعشرين تبدأ الأعراض في التراجع تدريجيًا خلال الأيام التالية — أصعب نقطة هي البداية.';
 
   @override
   String get methReferenceDay3 =>
-      'انسحاب الميثامفيتامين: اليوم الثالث — لا يزال في المرحلة الحادة\n\nالمصدر: ماكجريجور وآخرون، \"طبيعة انسحاب الميثامفيتامين ومساره الزمني وشدته،\" الإدمان (2005)، على موقع PubMed\n\nالنزول من القمة\nوجدت هذه الدراسة أن شدة الانسحاب الإجمالية تبلغ ذروتها خلال الـ 24 ساعة الأولى ثم تنخفض بنمط خطي تقريبًا عبر المرحلة الحادة (حوالي 7-10 أيام). بحلول اليوم الثالث، تكون قد تجاوزت أعلى نقطة، ولكنك لا تزال في المرحلة الحادة - وتظل الأعراض بارزة حتى مع اتجاه الاتجاه نحو الانخفاض.\n\nأعراض اليوم الثالث\nالميزات التي تتبعتها الدراسة والتي لا تزال مهمة الآن:\n• الاكتئاب وفقدان المتعة\n• الرغبة الشديدة\n• صعوبة في التركيز والتفكير بوضوح\n• نوم مضطرب — أرق يتناوب مع فرط النوم\n• استمرار التعب\n\nلماذا يشعر بهذه الطريقة\nتعكس شدة انسحاب الميثامفيتامين حجم استنفاد الدوبامين الذي يسببه. تكون الأعراض المرتبطة بالاكتئاب التي تم قياسها في الدراسة أكثر وضوحًا في هذه الأيام الأولى - ولكن الأهم من ذلك هو أن الدراسة وجدت أن شدة الانسحاب الإجمالية \"تنخفض إلى مستويات قريبة من السيطرة بحلول نهاية الأسبوع الأول من الامتناع عن ممارسة الجنس\".\n\nهذا سوف يمر\nأصعب فترة هي الأيام القليلة الأولى، وتظهر البيانات انخفاضًا مطردًا من هنا. إن فهم هذه الحالة على أنها مؤقتة، ويساعد الدماغ والأعصاب – وليست حالة دائمة – في التغلب عليها.';
+      'انسحاب الميثامفيتامين: اليوم الثالث — ما زلت في المرحلة الحادة\n\nالمصدر: McGregor et al., \"The nature, time course and severity of methamphetamine withdrawal,\" Addiction (2005)، PubMed\n\nالابتعاد عن الذروة\nوجدت الدراسة أن الشدة الإجمالية للانسحاب تبلغ ذروتها خلال أول 24 ساعة ثم تنخفض بنمط شبه خطي خلال المرحلة الحادة، التي تستمر نحو 7–10 أيام. في اليوم الثالث تكون قد تجاوزت أعلى نقطة، لكنك ما زلت بوضوح في المرحلة الحادة، وتظل الأعراض ملحوظة رغم أن الاتجاه العام نحو التحسن.\n\nأعراض اليوم الثالث\nالأعراض التي تابعتها الدراسة وما تزال مهمة الآن:\n• الاكتئاب وفقدان المتعة\n• رغبة قوية في التعاطي\n• صعوبة التركيز والتفكير بوضوح\n• اضطراب النوم، مع تناوب الأرق وفرط النوم\n• استمرار الإرهاق\n\nلماذا تشعر بهذا\nتعكس شدة الانسحاب حجم الاضطراب في نظام الدوبامين بعد التوقف عن الميثامفيتامين. وتكون الأعراض المرتبطة بالاكتئاب أوضح في هذه الأيام الأولى. والأهم أن الدراسة وجدت أن الشدة الإجمالية «تنخفض إلى مستويات قريبة من مجموعة الضبط بحلول نهاية الأسبوع الأول من الامتناع».\n\nهذا سيمر\nالأيام الأولى هي الأصعب، وتُظهر البيانات تراجعًا ثابتًا بعدها. إن فهم هذه الحالة بوصفها تأثيرًا مؤقتًا في الدماغ والجهاز العصبي، لا حالة دائمة، قد يساعد على تجاوزها.';
 
   @override
   String get methReferenceDay7 =>
-      'أسبوع واحد بدون ميث: تنتهي المرحلة الحادة\n\nالمصدر: ماكجريجور وآخرون، \"طبيعة انسحاب الميثامفيتامين ومساره الزمني وشدته،\" الإدمان (2005)، على موقع PubMed\n\nنهاية المرحلة الحادة\nوهذه واحدة من أكثر النتائج المشجعة في البحث. وذكرت الدراسة أن شدة الانسحاب الإجمالية - بما في ذلك الأعراض المرتبطة بالاكتئاب التي تتبعتها - \"انخفضت إلى مستويات قريبة من السيطرة بحلول نهاية الأسبوع الأول من الامتناع عن ممارسة الجنس\"، مما يمثل نهاية المرحلة الحادة. الجزء الأكثر انحدارًا من التسلق خلفك.\n\nمرحلتان للانسحاب\nوصف المؤلفون انسحاب الميثامفيتامين على أنه:\n• مرحلة حادة تستمر حوالي 7-10 أيام، حيث تنخفض شدة الأعراض بشكل مطرد من ذروتها المبكرة\n• مرحلة تحت حادة تستمر لمدة أسبوعين إضافيين على الأقل، مع ظهور أعراض خفيفة ومستمرة\n\nما تبقى في اليوم السابع\nمع الدخول في المرحلة تحت الحادة، أصبحت التحديات السائدة الآن نفسية وليست الانهيار الحاد:\n• انخفاض الحالة المزاجية، رغم تحسنها كثيراً منذ الأيام الأولى\n• الرغبة الشديدة، وخاصة في الاستجابة للإشارات\n• التركيز والذاكرة لا تزال في مرحلة التعافي\n• استقرار النوم\n\nالتعافي الجسدي جاري\nمع انتهاء المرحلة الحادة، تعود الشهية وتتراكم الطاقة ببطء بينما يتعافى الجسم من تأثيرات الميثامفيتامين على النوم والتغذية ونظام القلب والأوعية الدموية.';
+      'أسبوع من دون ميثامفيتامين: نهاية المرحلة الحادة\n\nالمصدر: McGregor et al., \"The nature, time course and severity of methamphetamine withdrawal,\" Addiction (2005)، PubMed\n\nنهاية المرحلة الحادة\nهذه من أكثر نتائج البحث تشجيعًا. أفادت الدراسة بأن الشدة الإجمالية للانسحاب، بما فيها الأعراض المرتبطة بالاكتئاب، «انخفضت إلى مستويات قريبة من مجموعة الضبط بحلول نهاية الأسبوع الأول من الامتناع»، ما يشير إلى نهاية المرحلة الحادة. لقد تجاوزت الجزء الأشد انحدارًا.\n\nمرحلتان للانسحاب\nوصف الباحثون انسحاب الميثامفيتامين بأنه يتكون من:\n• مرحلة حادة تستمر نحو 7–10 أيام، تنخفض خلالها شدة الأعراض تدريجيًا من الذروة المبكرة\n• مرحلة تحت حادة تستمر أسبوعين إضافيين على الأقل، بأعراض أخف لكنها قد تستمر\n\nما يبقى في اليوم السابع\nعند دخول المرحلة تحت الحادة تصبح التحديات الغالبة نفسية أكثر من كونها جزءًا من الانهيار الحاد:\n• مزاج منخفض، لكنه أفضل بكثير من الأيام الأولى\n• رغبة في التعاطي، خاصةً عند التعرض للمثيرات\n• استمرار تعافي التركيز والذاكرة\n• استمرار انتظام النوم تدريجيًا\n\nالتعافي الجسدي مستمر\nمع انتهاء المرحلة الحادة تعود الشهية وتزداد الطاقة تدريجيًا بينما يتعافى الجسم من آثار الميثامفيتامين في النوم والتغذية والجهاز القلبي الوعائي.';
 
   @override
   String get methReferenceDay30 =>
-      'شهر بدون ميث: يستقر المزاج، وتستمر الرغبة الشديدة في تناول الميثامفيتامين\n\nالمصدر: زوريك وآخرون، \"أعراض الانسحاب لدى الأشخاص الممتنعين المعتمدين على الميثامفيتامين،\" الإدمان (2010)، على موقع PubMed Central\n\nتتبع الأسابيع الخمسة الأولى\nتتبعت هذه الدراسة المشاركين الذين يعتمدون على الميثامفيتامين والذين ظلوا ممتنعين عن التدخين لمدة تصل إلى خمسة أسابيع، وقارنتهم مع الأشخاص الأصحاء، مما أعطى صورة واضحة بشكل غير عادي عن مكان وجود علامة الشهر الواحد.\n\nما تحسن لمدة شهر واحد\n• أعراض الاكتئاب \"انخفضت بشكل كبير خلال أول أسبوعين من الامتناع عن ممارسة الجنس إلى مستويات منخفضة مستقرة\"، وبحلول نهاية الأسابيع الأربعة كانت تقترب من مستويات السيطرة الصحية، على الرغم من عدم مطابقتها إحصائيًا (ضاقت الفجوة إلى حد حدودي، واتجاه غير مهم).\n• وصلت الأعراض النفسية والذهانية إلى مستوى بداية منخفض بحلول نهاية الأسبوع الثاني\nلذلك، بعد 30 يومًا، اختفى الاكتئاب الشديد الناجم عن الانسحاب المبكر إلى حد كبير - وهو تحسن حقيقي ومدروس.\n\nما لا يزال باقيا\nوكانت الدراسة واضحة أن أحد الأعراض يدوم أكثر من الأعراض الأخرى: الرغبة الشديدة \"لا تزال مستمرة عند مستوى منخفض طوال 5 أسابيع من الامتناع عن ممارسة الجنس\". الرغبة الشديدة في تناول الطعام أضعف مما كانت عليه في الأسبوع الأول ولكنها لم تختف، ولهذا السبب لا يزال شهر واحد فترة عالية المخاطر والدعم المستمر مهم.\n\nالوجبات الجاهزة\nبحلول شهر واحد، تتعافى آلية المزاج في الدماغ بدرجة كافية بحيث يصبح الشعور اليومي أفضل بكثير مما كان عليه في الانسحاب المبكر - في حين أن الرغبة الشديدة المستمرة هي جزء طبيعي من هذه المرحلة، وليست علامة على الفشل.';
+      'شهر من دون ميثامفيتامين: المزاج يتحسن والرغبة ما تزال موجودة\n\nالمصدر: Zorick et al., \"Withdrawal symptoms in abstinent methamphetamine-dependent subjects,\" Addiction (2010)، PubMed Central\n\nمتابعة الأسابيع الخمسة الأولى\nتابعت هذه الدراسة أشخاصًا يعتمدون على الميثامفيتامين واستمروا في الامتناع حتى خمسة أسابيع، وقارنتهم بأشخاص أصحاء، ما أعطى صورة واضحة نسبيًا عما يحدث عند علامة الشهر.\n\nما الذي تحسن خلال شهر\n• «انخفضت أعراض الاكتئاب بدرجة كبيرة خلال أول أسبوعين من الامتناع إلى مستويات منخفضة ومستقرة»، وبحلول نهاية الأسبوع الرابع اقتربت من مستويات مجموعة الضبط الصحية، وإن لم تتطابق معها إحصائيًا\n• وصلت الأعراض النفسية والأعراض الشبيهة بالذهان إلى مستوى منخفض بحلول نهاية الأسبوع الثاني\nلذلك، بعد 30 يومًا يكون الاكتئاب الشديد المرتبط بالانسحاب المبكر قد تراجع إلى حد كبير — وهو تحسن حقيقي قابل للقياس.\n\nما الذي يبقى\nكانت الدراسة واضحة في أن عرضًا واحدًا يدوم أطول من غيره: الرغبة في التعاطي «استمرت عند مستوى أقل طوال خمسة أسابيع من الامتناع». تكون الرغبة أضعف مما كانت عليه في الأسبوع الأول لكنها لم تختفِ، ولذلك يبقى الشهر الأول فترة تحتاج إلى دعم مستمر.\n\nالخلاصة\nبعد شهر يكون الدماغ قد تعافى بما يكفي ليتحسن المزاج اليومي كثيرًا مقارنة ببداية الانسحاب. واستمرار بعض الرغبة في التعاطي جزء طبيعي من هذه المرحلة، وليس علامة على الفشل.';
 
   @override
   String get methReferenceDay90 =>
-      'ثلاثة أشهر بدون الميثامفيتامين: لقد بدأ الشفاء — كن صبورًا\n\nالمصدر: فولكو وآخرون، \"فقدان ناقلات الدوبامين لدى متعاطي الميتامفيتامين يتعافى مع الامتناع المطول\"، مجلة علم الأعصاب (2001)\n\nحول هذا البحث\nاتبعت هذه الدراسة التاريخية لمسح الدماغ مستخدمي الميثامفيتامين مرتين - حوالي ثلاثة أشهر من التوقف عن الميثامفيتامين ومرة أخرى حوالي 14 شهرًا - لمعرفة كيفية تعافي نظام الدوبامين.\n\nحيث يجلس ثلاثة أشهر\nوبعد ثلاثة أشهر، تنتهي فترة الانسحاب المبكر منذ فترة طويلة، ويجري حاليًا تعافي أعمق للدوبامين. وجدت نفس الدراسة لاحقًا أن البروتينات التي تعيد تدوير الدوبامين في مناطق المكافأة والحركة في الدماغ ارتفعت بنسبة 16٪ تقريبًا إلى 19٪ بعد 12-17 شهرًا من التوقف عن الميثامفيتامين.\n\nماذا يعني ذلك بالنسبة لك\nبحلول 90 يومًا، يكون الانسحاب الحاد قد تجاوزك كثيرًا، ويتحسن المزاج والنوم، ويصبح التعامل مع العلاج أكثر إنتاجية بكثير. لكن التعافي الأعمق للدوبامين هو مشروع أطول يتكشف خلال العام التالي. إذا ظل الدافع والمتعة ضعيفين لمدة ثلاثة أشهر، فهذا أمر متوقع وليس علامة على الفشل - من الواضح أن المسار في هذه الدراسة تصاعدي من هنا.\n\nلماذا يستحق الانتظار؟\nوأظهرت الدراسة نفسها أن الاستمرار في الامتناع عن ممارسة الجنس هو ما يدفع إلى التعافي: فكلما طالت مدة الامتناع، زاد قياس تعافي DAT. ثلاثة أشهر هي الأساس. المكاسب تستمر في القدوم.';
+      'ثلاثة أشهر من دون ميثامفيتامين: بدأ التعافي — تحلَّ بالصبر\n\nالمصدر: Volkow et al., \"Loss of Dopamine Transporters in Methamphetamine Abusers Recovers with Protracted Abstinence,\" Journal of Neuroscience (2001)\n\nعن هذه الدراسة\nتابعت هذه الدراسة المهمة لتصوير الدماغ مستخدمي الميثامفيتامين مرتين — بعد نحو ثلاثة أشهر من التوقف ثم بعد نحو 14 شهرًا — لمعرفة كيف يتعافى نظام الدوبامين.\n\nموقع علامة الثلاثة أشهر\nبعد ثلاثة أشهر تكون مرحلة الانسحاب المبكر قد انتهت منذ مدة، ويكون تعافٍ أعمق لنظام الدوبامين جاريًا. ووجدت الدراسة نفسها لاحقًا أن البروتينات التي تعيد تدوير الدوبامين في مناطق المكافأة والحركة زادت بنحو 16% إلى 19% بعد 12–17 شهرًا من التوقف.\n\nماذا يعني ذلك لك\nبعد 90 يومًا يكون الانسحاب الحاد بعيدًا خلفك، ويتحسن المزاج والنوم، وقد يصبح الانخراط في العلاج أكثر فاعلية. لكن التعافي الأعمق لنظام الدوبامين يستمر خلال العام التالي. فإذا بقيت الدافعية والمتعة منخفضتين في الشهر الثالث، فهذا ينسجم مع مسار التعافي في الدراسة وليس علامة على الفشل.\n\nلماذا يستحق الانتظار\nأظهرت الدراسة نفسها أن الحفاظ على الامتناع يدعم التعافي: كلما طال الامتناع زاد تعافي ناقلات الدوبامين المقاس. ثلاثة أشهر هي الأساس، والتحسن يمكن أن يستمر بعدها.';
 
   @override
   String get methReferenceDay180 =>
-      'ستة أشهر بدون ميث: يمكن للقلب أن يتعافى\n\nالمصدر: \"إيقاف تعاطي المخدرات يمكن أن يعكس الأضرار المرتبطة بالقلب\"، الكلية الأمريكية لأمراض القلب (2017)، تقرير عن دراسة في JACC: فشل القلب\n\nميث والقلب\nالميثامفيتامين هو أحد أكثر العقاقير الترفيهية خطورة على القلب. يمكن أن يؤدي إلى ارتفاع ضغط الدم الشديد وعدم انتظام ضربات القلب، ومع مرور الوقت، اعتلال عضلة القلب المرتبط بالميثامفيتامين - وهو ضعف عضلة القلب الذي يؤدي إلى فشل القلب.\n\nما وجدته الدراسة\nأبلغت لجنة التنسيق الإدارية (ACC) عن المرضى الذين يعانون من اعتلال عضلة القلب المرتبط بالميثامفيتامين (جميعهم يعانون من انخفاض كبير في وظيفة ضخ القلب). النتيجة المركزية المفعمة بالأمل هي أن الإقلاع عن التدخين \"يمكن أن يعكس الضرر الذي يسببه الدواء للقلب ويحسن وظائف القلب\". كان للمرضى الذين توقفوا عن التعاطي نتائج أفضل بشكل ملحوظ من أولئك الذين استمروا في التعاطي، وشدد الباحثون على أن اكتشاف المرض مبكرًا \"يمكن أن يمنع المزيد من التدهور في اعتلال عضلة القلب\".\n\nلماذا ستة أشهر مهمة؟\nكل شهر من الامتناع عن ممارسة الجنس يزيل الضغط السام المستمر على قلبك ويمنح العضلات فرصة للتعافي. في غضون ستة أشهر، تكون قد منحت نظام القلب والأوعية الدموية لديك استراحة كبيرة ومستدامة من هذا الضرر - وهي بالضبط الحالة التي شهدت فيها هذه الدراسة تحسنًا.\n\nإشارة الاسترداد\nالنتيجة المدعومة بالأدلة قوية: إيقاف الميثامفيتامين يمكن أن يعكس تلف القلب المرتبط بالميثامفيتامين ويحسن وظائف القلب. ستة أشهر دون تكرار الإهانة المنشطة تمنح القلب فرصة كبيرة للتعافي.';
+      'ستة أشهر من دون ميثامفيتامين: يمكن للقلب أن يتعافى\n\nالمصدر: \"Stopping Drug Abuse Can Reverse Related Heart Damage,\" American College of Cardiology (2017)، تقرير عن دراسة في JACC: Heart Failure\n\nالميثامفيتامين والقلب\nالميثامفيتامين من أكثر المواد الترفيهية سمية للقلب. وقد يسبب ارتفاعًا شديدًا في ضغط الدم واضطرابات النظم، ومع الوقت قد يؤدي إلى اعتلال عضلة القلب المرتبط بالميثامفيتامين — أي ضعف عضلة القلب الذي قد ينتهي بفشل القلب.\n\nما الذي وجدته الدراسة\nأفادت الكلية الأمريكية لأمراض القلب عن مرضى لديهم اعتلال عضلة القلب المرتبط بالميثامفيتامين، وكانت قدرة القلب على الضخ منخفضة بدرجة كبيرة لدى الجميع. وكانت النتيجة المشجعة الأساسية أن التوقف «يمكن أن يعكس الضرر الذي يسببه العقار للقلب ويحسن وظيفة القلب». وحقق من توقفوا نتائج أفضل بوضوح من الذين استمروا في التعاطي، وشدد الباحثون على أن الاكتشاف المبكر «قد يمنع مزيدًا من تدهور اعتلال عضلة القلب».\n\nلماذا تهم ستة أشهر\nكل شهر من دون ميثامفيتامين يزيل التعرض السام المتكرر عن القلب ويمنح العضلة فرصة للتعافي. وبعد ستة أشهر يكون الجهاز القلبي الوعائي قد حصل على فترة طويلة ومتواصلة بعيدًا عن هذا الضرر — وهي الحالة التي ارتبطت بالتحسن في الدراسة.\n\nإشارة التعافي\nالنتيجة المدعومة بالأدلة واضحة: التوقف عن الميثامفيتامين قد يعكس بعض أذية القلب المرتبطة به ويحسن وظيفة القلب. وستة أشهر من دون التعرض المتكرر للمنبه تمنح القلب نافذة مهمة للتعافي.';
 
   @override
   String get methReferenceDay365 =>
-      'سنة واحدة بدون ميث: تعافي الدماغ بشكل قابل للقياس\n\nالمصدر: وانغ وآخرون، \"التعافي الجزئي لعملية التمثيل الغذائي في الدماغ لدى متعاطي الميتامفيتامين بعد الامتناع المطول\"، المجلة الأمريكية للطب النفسي (2004)، على PubMed\n\nما يظهره التصوير\nقامت دراسة مسح الدماغ هذه بفحص مستخدمي الميثامفيتامين في وقت مبكر من الامتناع عن ممارسة الجنس، ومرة أخرى بعد 12-17 شهرًا. لقد وجدت تعافيًا حقيقيًا للدماغ، حيث تتعافى بعض المناطق بشكل أسرع من غيرها.\n\nالأخبار السارة: استعادة الدماغ العميق والتفكير\nبدأ المهاد، وهو مركز تتابع عميق في الدماغ، في استخدام الطاقة بشكل أكثر طبيعية مع الامتناع عن ممارسة الجنس على المدى الطويل. وقد تم تتبع هذا التعافي من خلال أداء أفضل للحركة والذاكرة اللفظية، لذلك ظهر التحسن في مسح الدماغ في التفكير الحقيقي والذاكرة.\n\nتتعافى دوائر المكافآت بشكل أبطأ\nفي عمر 12-17 شهرًا، تعافى مركز التتابع العميق للدماغ بقوة وتم تتبع ذلك من خلال حركة أفضل وذاكرة لفظية. استمرت أنظمة المكافأة والتحفيز في التعزيز أيضًا، مما جعل صورة العام الواحد واحدة من التعافي الكبير في التفكير والذاكرة.\n\nماذا يعني هذا في سنة واحدة\nوبعد مرور عام، توقع أن يفكر المخ ويتذكر بشكل أفضل بكثير مما كان عليه في مرحلة التعافي المبكر - وهو شفاء واضح وقابل للقياس. ولكن إذا كان الدافع أو القدرة على الشعور بالمتعة لا يزال يتأخر في بعض الأحيان، فهذا يتوافق مع العلم، وليس فشلًا شخصيًا: فقد وجدت هذه الدراسة أن دوائر المكافأة يمكن أن تتعافى بشكل أبطأ، مع وجود بعض العجز الذي لا يزال موجودًا على مدار عام.';
+      'عام من دون ميثامفيتامين: تعافٍ قابل للقياس في الدماغ\n\nالمصدر: Wang et al., \"Partial Recovery of Brain Metabolism in Methamphetamine Abusers After Protracted Abstinence,\" American Journal of Psychiatry (2004)، PubMed\n\nما الذي تظهره الصور\nفحصت دراسة تصوير الدماغ هذه مستخدمي الميثامفيتامين في بداية الامتناع ثم بعد 12–17 شهرًا. ووجدت تعافيًا حقيقيًا في الدماغ، مع اختلاف سرعة التعافي بين المناطق.\n\nالخبر الجيد: تعافي المناطق العميقة والتفكير\nبدأ المهاد، وهو مركز ترحيل عميق في الدماغ، يستخدم الطاقة بصورة أقرب إلى الطبيعي مع الامتناع الطويل. وارتبط هذا التعافي بتحسن الحركة والذاكرة اللفظية، لذلك انعكس التحسن في الصور على وظائف التفكير والذاكرة.\n\nدوائر المكافأة تتعافى ببطء أكبر\nبعد 12–17 شهرًا أظهر مركز الترحيل العميق تعافيًا واضحًا ارتبط بحركة وذاكرة لفظية أفضل. كما واصلت أنظمة المكافأة والدافعية التحسن، لتصبح صورة العام الأول صورة تعافٍ كبير في التفكير والذاكرة.\n\nماذا يعني ذلك عند عام\nبعد عام يمكن أن يكون التفكير والذاكرة أفضل بكثير من بداية التعافي — تحسنًا واضحًا قابلًا للقياس. وإذا بقيت الدافعية أو القدرة على الشعور بالمتعة متأخرة أحيانًا، فهذا ينسجم مع نتائج الدراسة وليس فشلًا شخصيًا: قد تتعافى دوائر المكافأة ببطء أكبر وتبقى بعض الفروق بعد أكثر من عام.';
 
   @override
   String get methReferenceDay420 =>
-      '14 شهرًا بدون الميثامفيتامين: انتعاش علامة الدوبامين\n\nالمصدر: فولكو وآخرون، \"فقدان ناقلات الدوبامين لدى متعاطي الميتامفيتامين يتعافى مع الامتناع المطول\"، مجلة علم الأعصاب (2001)\n\nالعثور على العنوان الرئيسي\nقامت هذه الدراسة التاريخية لمسح الدماغ بفحص مستخدمي الميثامفيتامين في مرحلة مبكرة من الامتناع عن ممارسة الجنس، ومرة أخرى بعد حوالي 12 إلى 17 شهرًا. ارتفعت نسبة البروتينات التي تعيد تدوير الدوبامين بنسبة 16% إلى 19% تقريبًا في مناطق المكافأة والحركة في الدماغ ووصلت إلى مستويات لم تعد تختلف بشكل كبير عن الضوابط الصحية. الامتناع عن ممارسة الجنس لفترة أطول يعني انتعاشًا أكبر.\n\nلماذا يهم DAT\nتقوم هذه البروتينات بإعادة تدوير الدوبامين بعد إطلاقه. يستنزفهم الميثامفيتامين، مما يترك نظام الدوبامين ضعيف التنظيم. يعد انتعاشهم بحوالي 14 شهرًا علامة حقيقية وقابلة للقياس على الشفاء.\n\nإشارة الاسترداد\nوبعد 12 إلى 17 شهرًا، ارتفعت نسبة بروتينات إعادة تدوير الدوبامين في مناطق المكافأة والحركة بحوالي 16% إلى 19% ووصلت إلى مستويات التحكم الصحي. لقد ارتد نظام الدوبامين بشكل ملحوظ نحو الوضع الطبيعي، بينما يستمر التفكير والذاكرة والحركة في التحسن.\n\nماذا يعني هذا في 14 شهرا\nتتعافى أجهزة نظام الدوبامين بشكل ملحوظ نحو وضعها الطبيعي، وهو سبب حقيقي للتفاؤل. لكن التعافي الوظيفي الكامل (الذاكرة، والتحفيز، والتحكم الحركي الدقيق) يمكن أن يتأخر عن التصوير، ويستمر في التحسن مع الامتناع المستمر عن ممارسة الجنس.';
+      '14 شهرًا من دون ميثامفيتامين: تحسن مؤشر الدوبامين\n\nالمصدر: Volkow et al., \"Loss of Dopamine Transporters in Methamphetamine Abusers Recovers with Protracted Abstinence,\" Journal of Neuroscience (2001)\n\nالنتيجة الرئيسية\nفحصت هذه الدراسة المهمة لتصوير الدماغ مستخدمي الميثامفيتامين في بداية الامتناع ثم بعد نحو 12–17 شهرًا. وزادت البروتينات التي تعيد تدوير الدوبامين بنحو 16% إلى 19% في مناطق المكافأة والحركة، ووصلت إلى مستويات لم تعد تختلف بدرجة مهمة عن الأصحاء. وارتبط الامتناع الأطول بتعافٍ أكبر.\n\nلماذا تهم ناقلات الدوبامين\nتعيد هذه البروتينات تدوير الدوبامين بعد إفرازه. ويستنزف الميثامفيتامين هذه البروتينات، ما يضعف تنظيم نظام الدوبامين. وعودتها للارتفاع بعد نحو 14 شهرًا علامة حقيقية قابلة للقياس على التعافي.\n\nإشارة التعافي\nبعد 12–17 شهرًا زادت بروتينات إعادة تدوير الدوبامين في مناطق المكافأة والحركة بنحو 16% إلى 19% ووصلت إلى مستويات مجموعة الضبط الصحية. أي أن نظام الدوبامين أظهر تعافيًا قابلًا للقياس نحو الطبيعي، مع استمرار تحسن التفكير والذاكرة والحركة.\n\nماذا يعني ذلك عند 14 شهرًا\nيتحرك نظام الدوبامين بصورة قابلة للقياس نحو الحالة الطبيعية — وهذا سبب حقيقي للتفاؤل. لكن التعافي الوظيفي الكامل، مثل الذاكرة والدافعية والتحكم الحركي الدقيق، قد يتأخر عن نتائج التصوير ويستمر في التحسن مع استمرار الامتناع.';
 
   @override
   String get methReferenceDay730 =>
-      'سنتان بدون ميث: التفكير والمزاج يستمران في التحسن\n\nالمصدر: يوديسيلو وآخرون، \"التحسن على المدى الطويل في الأداء المعرفي العصبي والاضطراب العاطفي بين مستخدمي الميثامفيتامين الذين حققوا الامتناع المستقر عن ممارسة الجنس\"، مجلة علم النفس العصبي السريري والتجريبي (2010)، على موقع PubMed Central\n\nالتعافي الذي يستمر لمدة عام\nتابعت هذه الدراسة مستخدمي الميثامفيتامين لمدة 13 شهرًا تقريبًا وقارنت الممتنعين المستقرين مع المستخدمين المستمرين والضوابط الصحية. أدى الامتناع المستقر إلى تحسين التفكير العام وتقليل الاضطراب العاطفي، مع استمرار المكاسب لأكثر من عام.\n\nما يحسن\n• التفكير العام لدى الممتنعين عن التدخين خضع للضوابط الصحية، في حين بقي المستخدمون المستمرون ضعيفين بشكل كبير\n• وكانت أكبر المكاسب في سرعة المعالجة والقدرة الحركية، وخاصة بالنسبة لأولئك الذين يعانون من ضعف في البداية\n• تحسن المزاج بشكل ملحوظ: فقط الممتنعون أظهروا تحسنا ملحوظا في الاكتئاب والمزاج العام\n\nإشارة الاسترداد\nاستوعب الممتنعون المستقرون الضوابط الصحية على التفكير العام وأبلغوا عن ضائقة عاطفية أقل. يمكن أن يستمر التعلم اللفظي والذاكرة العاملة والتخطيط والتركيز في التحسن بعد السنة الأولى، لذلك يستمر اتجاه التعافي في السنة الثانية.\n\nعامين في\nالرسالة المبنية على الأدلة: الامتناع المستمر عن ممارسة الجنس يستمر في تحقيق نتائج جيدة بعد السنة الأولى - تفكير أكثر وضوحًا، ومزاج أفضل، وتحسن مستمر في الوظيفة - حتى لو استغرقت بعض المناطق وقتًا أطول للعودة.';
+      'عامان من دون ميثامفيتامين: التفكير والمزاج يواصلان التحسن\n\nالمصدر: Iudicello et al., \"Longer Term Improvement in Neurocognitive Functioning and Affective Distress Among Methamphetamine Users Who Achieve Stable Abstinence,\" Journal of Clinical and Experimental Neuropsychology (2010)، PubMed Central\n\nتعافٍ يستمر بعد العام الأول\nتابعت هذه الدراسة مستخدمي الميثامفيتامين لنحو 13 شهرًا وقارنت من حافظوا على الامتناع بمن استمروا في التعاطي وبمجموعة ضبط صحية. أدى الامتناع المستقر إلى تحسن الأداء المعرفي العام وانخفاض الضيق العاطفي، مع استمرار المكاسب بعد العام الأول.\n\nما الذي يتحسن\n• وصل الأداء المعرفي العام لدى من حافظوا على الامتناع إلى مستوى مجموعة الضبط الصحية، بينما ظل من استمروا في التعاطي يعانون من قصور واضح\n• كانت أكبر المكاسب في سرعة المعالجة والقدرة الحركية، خاصةً لدى من كانت لديهم أكبر صعوبات في البداية\n• تحسن المزاج بوضوح: فقط من حافظوا على الامتناع أظهروا تحسنًا مهمًا في الاكتئاب والمزاج العام\n\nإشارة التعافي\nلحق من حافظوا على الامتناع بمجموعة الضبط الصحية في الأداء المعرفي العام وأبلغوا عن ضيق عاطفي أقل. ويمكن أن يستمر تحسن التعلم اللفظي والذاكرة العاملة والتخطيط والتركيز بعد العام الأول، لذلك يواصل مسار التعافي امتداده إلى العام الثاني.\n\nبعد عامين\nالرسالة المدعومة بالأدلة: استمرار الامتناع يواصل تحقيق فوائد بعد العام الأول بوقت طويل — تفكير أوضح، مزاج أفضل، ووظائف تتحسن تدريجيًا — حتى إن احتاجت بعض المجالات وقتًا أطول للتعافي.';
 
   @override
   String get methMilestone1095Title => 'ثلاث سنوات - تعافٍ راسخ';
@@ -3770,11 +3753,11 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get nitrousOxideReferenceDay365 =>
-      'سنة واحدة: أفضل حماية هي الامتناع المستمر عن ممارسة الجنس\n\nالمصدر: كنوف ومعاني، ستات بيرلز؛ تيكاريا وآخرون. (2026)، كيوريوس\n\nحيث الأدلة الأراضي في الواقع\nلا يعد أي من المصدرين بجدول زمني محدد للتعافي، وهذا يستحق أن نكون صادقين بشأنه - فالأدبيات المتعلقة بأكسيد النيتروز ونقص فيتامين ب 12 مبنية بالكامل تقريبًا على تقارير الحالات الفردية بدلاً من دراسات المتابعة طويلة المدى. ما هو راسخ هو الآلية: يقوم أكسيد النيتروز بتعطيل فيتامين ب 12 في كل مرة يتم استخدامه، والتوقف عنه يزيل هذا الضرر المستمر تمامًا.\n\nإذا كان لديك أعراض مرتبطة بالنقص\nتصف تقارير الحالة نطاقًا واسعًا من النتائج، بدءًا من الشفاء التام وحتى أعراض الأعصاب المستمرة، والتي ترتبط إلى حد كبير بحجم الضرر الذي حدث ومدى سرعة علاجه. إذا كنت لا تزال تعاني من الأعراض لمدة عام، فهذا سبب لمواصلة العمل مع طبيب أعصاب، وليس علامة على أنه لا يمكن فعل أي شيء - يمكن أن يستمر تعافي الأعصاب على مدى فترة طويلة.\n\nما هو مؤكد\nسنة بدون أكسيد النيتروز هي سنة بدون المزيد من تعطيل سينسيز الميثيونين. هذا هو الضمان الوحيد لدعم كلا المصدرين.';
+      'سنة واحدة: أفضل حماية هي الاستمرار في عدم الاستخدام\n\nالمصدر: Knuf & Maani، StatPearls؛ Tikaria et al. (2026)، Cureus\n\nإلى أين تصل الأدلة فعلاً\nلا يَعِد أي من المصدرين بجدول زمني محدد للتعافي. فالأدبيات حول أكسيد النيتروز ونقص فيتامين B12 مبنية تقريباً بالكامل على تقارير حالات فردية، لا على دراسات متابعة طويلة الأمد. أما الآلية فمعروفة جيداً: أكسيد النيتروز يعطّل فيتامين B12 في كل مرة يُستخدم فيها، والتوقف يزيل هذا الضرر المستمر الناتج عن التعرض.\n\nإذا كانت لديك أعراض مرتبطة بالنقص\nتصف تقارير الحالات نتائج متفاوتة جداً، من التعافي الكامل إلى استمرار الأعراض العصبية، ويرتبط ذلك بدرجة كبيرة بحجم الضرر ومدى سرعة بدء العلاج. إذا استمرت الأعراض بعد سنة، فهذا سبب لمواصلة المتابعة مع طبيب أعصاب، وليس دليلاً على أن التحسن لم يعد ممكناً؛ فقد يستمر تعافي الأعصاب فترة طويلة.\n\nما هو مؤكد\nسنة من دون أكسيد النيتروز هي سنة من دون مزيد من تعطيل إنزيم ميثيونين سينثاز. وهذه هي النقطة التي يدعمها المصدران بوضوح.';
 
   @override
   String get opioidReferenceDay1 =>
-      'انسحاب المواد الأفيونية: اليوم الأول\n\nالمصدر: \"المبادئ التوجيهية السريرية لإدارة الانسحاب وعلاج الاعتماد على المخدرات في الأماكن المغلقة\"، منظمة الصحة العالمية (2009)، على رف كتب NCBI\n\n⚠ ملاحظة السلامة\nنادرًا ما يكون انسحاب المواد الأفيونية مميتًا لدى الأفراد الأصحاء، ولكنه يسبب ضائقة جسدية شديدة وينطوي على خطر كبير للانتكاس. يعد الانتكاس بعد فترة من الامتناع خطيرًا بشكل خاص لأن التحمل ينخفض ​​بسرعة - باستخدام نفس الجرعة كما كان قبل الامتناع عن ممارسة الجنس يمكن أن يسبب جرعة زائدة مميتة. يوصى بشدة بالإشراف الطبي والعلاج الناهض للمواد الأفيونية.\n\nعندما يبدأ الانسحاب\nيحدد الجدول الزمني للانسحاب من منظمة الصحة العالمية التوقيت حسب نوع المواد الأفيونية:\n• المواد الأفيونية قصيرة المفعول (الهيروين والأوكسيكودون): يبدأ ظهورها بعد 8 إلى 24 ساعة من آخر استخدام، وتستمر من 4 إلى 10 أيام\n• المواد الأفيونية طويلة المفعول (الميثادون): تبدأ من 12 إلى 48 ساعة، وتستمر من 10 إلى 20 يومًا\n\nأعراض اليوم الأول\nتسرد إرشادات منظمة الصحة العالمية السمات المبكرة لانسحاب المواد الأفيونية:\n• القلق والانفعالات\n• تشنجات وأوجاع في العضلات\n• إفرازات مائية من العين والأنف\n• التثاؤب والتعرق\n• الأرق، مع الهبات الساخنة والباردة\n• الغثيان المبكر\n\nلماذا تشعر بالسوء؟\nينظم النظام الأفيوني الألم والتوتر والرفاهية العاطفية والراحة الأساسية. يؤدي استخدام المواد الأفيونية على المدى الطويل إلى تثبيط إنتاج المواد الأفيونية في الجسم (الإندورفين). عندما تتم إزالة المواد الأفيونية، يُترك الجسم بدون نظام الراحة الطبيعي، حيث يعاني من الألم والقلق والضيق بمستوى يعكس عمق هذا الكبت. تنصح إرشادات منظمة الصحة العالمية بالرعاية الداعمة، بما في ذلك شرب 2-3 لتر من الماء يوميًا والمراقبة 3-4 مرات يوميًا.';
+      'انسحاب المواد الأفيونية: اليوم الأول\n\nالمصدر: \"المبادئ التوجيهية السريرية لإدارة الانسحاب وعلاج الاعتماد على المخدرات في الأماكن المغلقة\"، منظمة الصحة العالمية (2009)، على رف كتب NCBI\n\n⚠ ملاحظة السلامة\nنادرًا ما يكون انسحاب المواد الأفيونية مميتًا لدى الأفراد الأصحاء، ولكنه يسبب ضائقة جسدية شديدة وينطوي على خطر كبير للانتكاس. يعد الانتكاس بعد فترة من الامتناع خطيرًا بشكل خاص لأن التحمل ينخفض ​​بسرعة - باستخدام نفس الجرعة كما كان قبل الامتناع عن استخدام المواد الأفيونية يمكن أن يسبب جرعة زائدة مميتة. يوصى بشدة بالإشراف الطبي والعلاج الناهض للمواد الأفيونية.\n\nعندما يبدأ الانسحاب\nيحدد الجدول الزمني للانسحاب من منظمة الصحة العالمية التوقيت حسب نوع المواد الأفيونية:\n• المواد الأفيونية قصيرة المفعول (الهيروين والأوكسيكودون): يبدأ ظهورها بعد 8 إلى 24 ساعة من آخر استخدام، وتستمر من 4 إلى 10 أيام\n• المواد الأفيونية طويلة المفعول (الميثادون): تبدأ من 12 إلى 48 ساعة، وتستمر من 10 إلى 20 يومًا\n\nأعراض اليوم الأول\nتسرد إرشادات منظمة الصحة العالمية السمات المبكرة لانسحاب المواد الأفيونية:\n• القلق والانفعالات\n• تشنجات وأوجاع في العضلات\n• إفرازات مائية من العين والأنف\n• التثاؤب والتعرق\n• الأرق، مع الهبات الساخنة والباردة\n• الغثيان المبكر\n\nلماذا تشعر بالسوء؟\nينظم النظام الأفيوني الألم والتوتر والرفاهية العاطفية والراحة الأساسية. يؤدي استخدام المواد الأفيونية على المدى الطويل إلى تثبيط إنتاج المواد الأفيونية في الجسم (الإندورفين). عندما تتم إزالة المواد الأفيونية، يُترك الجسم بدون نظام الراحة الطبيعي، حيث يعاني من الألم والقلق والضيق بمستوى يعكس عمق هذا الكبت. تنصح إرشادات منظمة الصحة العالمية بالرعاية الداعمة، بما في ذلك شرب 2-3 لتر من الماء يوميًا والمراقبة 3-4 مرات يوميًا.';
 
   @override
   String get opioidReferenceDay7 =>
@@ -3790,23 +3773,23 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get opioidReferenceDay60 =>
-      'توقف عن تناول المواد الأفيونية لمدة شهرين: تبدأ دوائر التوتر في الدماغ بالاستقرار\n\nالمصدر: \"المرونة العصبية لللوزة الدماغية الممتدة في انسحاب المواد الأفيونية والامتناع عن تناول المواد الأفيونية لفترة طويلة،\" الحدود في علم الصيدلة (2023)\n\nمن أين تأتي المشاعر السلبية\nتوضح هذه المراجعة كيف أن استخدام المواد الأفيونية على المدى الطويل يغير دوائر التوتر والخوف في الدماغ. أثناء الانسحاب، تصبح هذه الدوائر مفرطة النشاط بينما تنخفض إشارات الدوبامين في دوائر المكافأة. يساعد هذا المزيج في تفسير القلق، وانخفاض الحالة المزاجية، والرغبة الشديدة في التعافي المبكر.\n\nلماذا شهرين يجلب الإغاثة\nومن الأهمية بمكان أن توثق المراجعة أن بعض هذه التغييرات يمكن عكسها. في النماذج الحيوانية، يوصف فقدان كثافة العمود الفقري في القشرة المتكئة بأنه \"انخفاض دائم ولكن قابل للعكس\"، ويعود إلى قيم ما قبل الدواء على مدار أسبوعين. مع إعادة تنظيم دوائر التوتر والمكافأة هذه، يخف الأساس الميكانيكي للاضطراب العاطفي في مرحلة التعافي المبكر - بما يتوافق مع انخفاض التفاعل والمزاج الأكثر ثباتًا الذي أبلغ عنه العديد من الأشخاص بعد حوالي شهرين.\n\nإشارة الاسترداد\nتُظهِر التغيرات العكسية في كثافة العمود الفقري ودائرة الإجهاد الموثقة في هذه الأدبيات عملية انتعاش بيولوجية حقيقية: فالدوائر التي تحرك الحالة العاطفية السلبية للاعتماد تعود إلى حالتها السابقة للمخدرات أثناء الامتناع عن ممارسة الجنس.';
+      'توقف عن تناول المواد الأفيونية لمدة شهرين: تبدأ دوائر التوتر في الدماغ بالاستقرار\n\nالمصدر: \"المرونة العصبية لللوزة الدماغية الممتدة في انسحاب المواد الأفيونية والامتناع عن تناول المواد الأفيونية لفترة طويلة،\" الحدود في علم الصيدلة (2023)\n\nمن أين تأتي المشاعر السلبية\nتوضح هذه المراجعة كيف أن استخدام المواد الأفيونية على المدى الطويل يغير دوائر التوتر والخوف في الدماغ. أثناء الانسحاب، تصبح هذه الدوائر مفرطة النشاط بينما تنخفض إشارات الدوبامين في دوائر المكافأة. يساعد هذا المزيج في تفسير القلق، وانخفاض الحالة المزاجية، والرغبة الشديدة في التعافي المبكر.\n\nلماذا شهرين يجلب الإغاثة\nومن الأهمية بمكان أن توثق المراجعة أن بعض هذه التغييرات يمكن عكسها. في النماذج الحيوانية، يوصف فقدان كثافة العمود الفقري في القشرة المتكئة بأنه \"انخفاض دائم ولكن قابل للعكس\"، ويعود إلى قيم ما قبل الدواء على مدار أسبوعين. مع إعادة تنظيم دوائر التوتر والمكافأة هذه، يخف الأساس الميكانيكي للاضطراب العاطفي في مرحلة التعافي المبكر - بما يتوافق مع انخفاض التفاعل والمزاج الأكثر ثباتًا الذي أبلغ عنه العديد من الأشخاص بعد حوالي شهرين.\n\nإشارة التعافي\nتُظهِر التغيرات العكسية في كثافة العمود الفقري ودائرة الإجهاد الموثقة في هذه الأدبيات عملية انتعاش بيولوجية حقيقية: فالدوائر التي تحرك الحالة العاطفية السلبية للاعتماد تعود إلى حالتها السابقة للمخدرات أثناء الامتناع عن استخدام المواد الأفيونية.';
 
   @override
   String get opioidReferenceDay90 =>
-      'ثلاثة أشهر من التوقف عن المواد الأفيونية: مكافأة الكيمياء بدأت في التعافي\n\nالمصدر: \"التعافي الهيكلي والوظيفي للدماغ لدى الأفراد الذين يعانون من اضطرابات تعاطي المخدرات أثناء الامتناع عن ممارسة الجنس: مراجعة لدراسات التصوير العصبي الطولية،\" الاعتماد على المخدرات والكحول (2022)، في PubMed Central\n\nالدوبامين والمواد الأفيونية\nتعمل المواد الأفيونية على تحفيز إطلاق الدوبامين في نظام المكافأة في الدماغ. الاستخدام طويل الأمد يترك هذا النظام مستنزفًا: في إحدى دراسات مسح الدماغ، كانت البروتينات التي تعيد تدوير الدوبامين أقل بحوالي 30٪ من المستويات الصحية في البداية. ويساعد ذلك في تفسير فقدان المتعة الذي يظهر في اضطراب استخدام المواد الأفيونية والشفاء المبكر.\n\nالتعافي تدريجي\nجمعت هذه المراجعة الدراسات الطولية التي أعادت فحص نفس الأشخاص بشأن الامتناع عن ممارسة الجنس. تعافى العجز في ناقل الدوبامين بنسبة 20% تقريبًا خلال 6-12 شهرًا من الامتناع عن ممارسة الجنس، وبعض تشوهات المادة الرمادية الأمامية والمادة البيضاء التي شوهدت في الانسحاب المبكر لم تعد قابلة للاكتشاف بعد حوالي شهر. بعد مرور ثلاثة أشهر، تكون قد وصلت مبكرًا إلى منحنى التعافي: حيث يتم إصلاح أنظمة المكافأة والجبهة بشكل ملموس، ولكنها لم تنته بعد.\n\nما تجربة الناس\nومع تعافي هذه الدوائر، يلاحظ العديد من الأشخاص في حوالي 90 يومًا ما يلي:\n• المزيد من الاستمتاع الحقيقي بالأنشطة والطعام والعلاقات\n• انخفاض الرغبة الشديدة مقارنة بالشفاء المبكر\n• تفكير أكثر وضوحا واتخاذ قرارات أفضل\n\nإشارة الاسترداد\nيُظهر التصوير البشري الطولي ارتفاع توافر ناقل الدوبامين خلال فترة تتراوح من 6 إلى 12 شهرًا من الامتناع عن ممارسة الجنس، في حين تبدأ التشوهات الأمامية في المادة الرمادية والبيضاء في العودة إلى طبيعتها قبل ذلك بكثير. وبعد 90 يومًا، يتم بالفعل تحقيق تعافي دماغي قابل للقياس.';
+      'ثلاثة أشهر من التوقف عن المواد الأفيونية: مكافأة الكيمياء بدأت في التعافي\n\nالمصدر: \"التعافي الهيكلي والوظيفي للدماغ لدى الأفراد الذين يعانون من اضطرابات تعاطي المخدرات أثناء الامتناع عن استخدام المواد الأفيونية: مراجعة لدراسات التصوير العصبي الطولية،\" الاعتماد على المخدرات والكحول (2022)، في PubMed Central\n\nالدوبامين والمواد الأفيونية\nتعمل المواد الأفيونية على تحفيز إطلاق الدوبامين في نظام المكافأة في الدماغ. الاستخدام طويل الأمد يترك هذا النظام مستنزفًا: في إحدى دراسات مسح الدماغ، كانت البروتينات التي تعيد تدوير الدوبامين أقل بحوالي 30٪ من المستويات الصحية في البداية. ويساعد ذلك في تفسير فقدان المتعة الذي يظهر في اضطراب استخدام المواد الأفيونية والشفاء المبكر.\n\nالتعافي تدريجي\nجمعت هذه المراجعة الدراسات الطولية التي أعادت فحص نفس الأشخاص بشأن الامتناع عن استخدام المواد الأفيونية. تعافى العجز في ناقل الدوبامين بنسبة 20% تقريبًا خلال 6-12 شهرًا من الامتناع عن استخدام المواد الأفيونية، وبعض تشوهات المادة الرمادية الأمامية والمادة البيضاء التي شوهدت في الانسحاب المبكر لم تعد قابلة للاكتشاف بعد حوالي شهر. بعد مرور ثلاثة أشهر، تكون قد وصلت مبكرًا إلى منحنى التعافي: حيث يتم إصلاح أنظمة المكافأة والجبهة بشكل ملموس، ولكنها لم تنته بعد.\n\nما تجربة الناس\nومع تعافي هذه الدوائر، يلاحظ العديد من الأشخاص في حوالي 90 يومًا ما يلي:\n• المزيد من الاستمتاع الحقيقي بالأنشطة والطعام والعلاقات\n• انخفاض الرغبة الشديدة مقارنة بالشفاء المبكر\n• تفكير أكثر وضوحا واتخاذ قرارات أفضل\n\nإشارة التعافي\nيُظهر التصوير البشري الطولي ارتفاع توافر ناقل الدوبامين خلال فترة تتراوح من 6 إلى 12 شهرًا من الامتناع عن استخدام المواد الأفيونية، في حين تبدأ التشوهات الأمامية في المادة الرمادية والبيضاء في العودة إلى طبيعتها قبل ذلك بكثير. وبعد 90 يومًا، يتم بالفعل تحقيق تعافي دماغي قابل للقياس.';
 
   @override
   String get opioidReferenceDay180 =>
-      'ستة أشهر من التوقف عن تناول المواد الأفيونية: يبدأ الجهاز المناعي في التعافي\n\nالمصدر: \"آثار تحمل المواد الأفيونية والانسحاب منها على الجهاز المناعي،\" مجلة علم الأدوية المناعي العصبي (2006)، على PubMed\n\nالمواد الأفيونية والجهاز المناعي\nتوضح هذه المراجعة أن استخدام المواد الأفيونية على المدى الطويل يضعف جهاز المناعة بعدة طرق:\n• التأثير الأفيوني المباشر على الخلايا المناعية (الخلايا التائية، والخلايا القاتلة الطبيعية، والبلاعم)\n• تعطل المواد الكيميائية الإشارات المناعية\n• خلل في محور الغدة النخامية والغدة الكظرية (HPA) العميق\n• زيادة القابلية للإصابة بالعدوى\n\nإشارة الاسترداد\nتعمل المواد الأفيونية على المدى الطويل على تثبيط عدة أجزاء من الجهاز المناعي. وبعد ستة أشهر من التوقف عن تناول المواد الأفيونية، يكون هذا القمع المستمر قد اختفى لمدة نصف عام وتتم إعادة بناء الوظيفة المناعية بشكل نشط نحو وضعها الطبيعي.\n\nماذا تعني ستة أشهر\nستة أشهر بدون استخدام المواد الأفيونية تمنح الخلايا المناعية، والإشارات المناعية، ونظام الإجهاد في الجسم وقتًا مستدامًا للتعافي نحو الوضع الطبيعي.\n\nلماذا لا يزال هذا مهمًا؟\nوينطبق هذا بشكل خاص على الأشخاص الذين حقنوا المواد الأفيونية، والذين واجهوا مخاطر عدوى إضافية مثل فيروس نقص المناعة البشرية والتهاب الكبد الوبائي سي. إن إزالة المواد الأفيونية، وتحسين التغذية، والحفاظ على الامتناع عن ممارسة الجنس، يمنح الجهاز المناعي الظروف التي يحتاجها لمواصلة التعافي.';
+      'ستة أشهر من التوقف عن تناول المواد الأفيونية: يبدأ الجهاز المناعي في التعافي\n\nالمصدر: \"آثار تحمل المواد الأفيونية والانسحاب منها على الجهاز المناعي،\" مجلة علم الأدوية المناعي العصبي (2006)، على PubMed\n\nالمواد الأفيونية والجهاز المناعي\nتوضح هذه المراجعة أن استخدام المواد الأفيونية على المدى الطويل يضعف جهاز المناعة بعدة طرق:\n• التأثير الأفيوني المباشر على الخلايا المناعية (الخلايا التائية، والخلايا القاتلة الطبيعية، والبلاعم)\n• تعطل المواد الكيميائية الإشارات المناعية\n• خلل في محور الوطاء-النخامى-الكظر (HPA)\n• زيادة القابلية للإصابة بالعدوى\n\nإشارة التعافي\nتعمل المواد الأفيونية على المدى الطويل على تثبيط عدة أجزاء من الجهاز المناعي. وبعد ستة أشهر من التوقف عن تناول المواد الأفيونية، يكون هذا القمع المستمر قد اختفى لمدة نصف عام وتتم إعادة بناء الوظيفة المناعية بشكل نشط نحو وضعها الطبيعي.\n\nماذا تعني ستة أشهر\nستة أشهر بدون استخدام المواد الأفيونية تمنح الخلايا المناعية، والإشارات المناعية، ونظام الإجهاد في الجسم وقتًا مستدامًا للتعافي نحو الوضع الطبيعي.\n\nلماذا لا يزال هذا مهمًا؟\nوينطبق هذا بشكل خاص على الأشخاص الذين حقنوا المواد الأفيونية، والذين واجهوا مخاطر عدوى إضافية مثل فيروس نقص المناعة البشرية والتهاب الكبد الوبائي سي. إن إزالة المواد الأفيونية، وتحسين التغذية، والحفاظ على الامتناع عن استخدام المواد الأفيونية، يمنح الجهاز المناعي الظروف التي يحتاجها لمواصلة التعافي.';
 
   @override
   String get opioidReferenceDay365 =>
-      'سنة واحدة من المواد الأفيونية: بنية الدماغ واستعادة الكيمياء\n\nالمصدر: \"التعافي الهيكلي والوظيفي للدماغ لدى الأفراد الذين يعانون من اضطرابات تعاطي المخدرات أثناء الامتناع عن ممارسة الجنس: مراجعة لدراسات التصوير العصبي الطولية،\" الاعتماد على المخدرات والكحول (2022)، في PubMed Central\n\nما يظهره التصوير البشري\nجمعت هذه المراجعة الدراسات التي قامت بفحص نفس الأشخاص الذين يعانون من اضطراب استخدام المواد الأفيونية أكثر من مرة عبر الامتناع عن ممارسة الجنس. تشير النتائج باستمرار نحو التعافي:\n• ارتفعت بروتينات إعادة تدوير الدوبامين في مناطق المكافأة والحركة، بحوالي 30% أقل من المعدل الطبيعي في البداية، بنسبة 20% تقريبًا على مدار 6 إلى 12 شهرًا بعد تناول المواد الأفيونية\n• لم يعد من الممكن اكتشاف تشوهات المادة الرمادية الأمامية الموجودة في الانسحاب المبكر بعد حوالي شهر من الامتناع عن ممارسة الجنس\n• بدأت المادة البيضاء (الجبهية والحزامية) والنشاط الجبهي في حالة الراحة أيضًا في العودة إلى طبيعتها خلال الشهر الأول\n\nحيث يجلس سنة واحدة\nبحلول اثني عشر شهرًا، تكون قد وصلت إلى أطول فترة تم قياسها في هذه الدراسات أو تجاوزتها. لقد حظي نظام الدوبامين بمعظم الوقت للتعافي، وكانت الدوائر الأمامية التي تدعم ضبط النفس والحكم تتحسن منذ أشهر - النظير البيولوجي للتفكير الأكثر وضوحًا، والرغبة الشديدة الأضعف، والمزاج الأكثر ثباتًا الذي يصفه الناس خلال عام.\n\nإشارة الاسترداد\nبعد عام واحد، تكون إشارة التصوير البشري موجهة نحو التعافي بقوة: فقد ارتفع توفر ناقل الدوبامين خلال فترة تتراوح بين 6 و12 شهرًا، في حين استغرقت التشوهات الهيكلية والوظيفية الأمامية عدة أشهر حتى تعود إلى طبيعتها.';
+      'سنة واحدة من المواد الأفيونية: بنية الدماغ واستعادة الكيمياء\n\nالمصدر: \"التعافي الهيكلي والوظيفي للدماغ لدى الأفراد الذين يعانون من اضطرابات تعاطي المخدرات أثناء الامتناع عن استخدام المواد الأفيونية: مراجعة لدراسات التصوير العصبي الطولية،\" الاعتماد على المخدرات والكحول (2022)، في PubMed Central\n\nما يظهره التصوير البشري\nجمعت هذه المراجعة الدراسات التي قامت بفحص نفس الأشخاص الذين يعانون من اضطراب استخدام المواد الأفيونية أكثر من مرة عبر الامتناع عن استخدام المواد الأفيونية. تشير النتائج باستمرار نحو التعافي:\n• ارتفعت بروتينات إعادة تدوير الدوبامين في مناطق المكافأة والحركة، بحوالي 30% أقل من المعدل الطبيعي في البداية، بنسبة 20% تقريبًا على مدار 6 إلى 12 شهرًا بعد تناول المواد الأفيونية\n• لم يعد من الممكن اكتشاف تشوهات المادة الرمادية الأمامية الموجودة في الانسحاب المبكر بعد حوالي شهر من الامتناع عن استخدام المواد الأفيونية\n• بدأت المادة البيضاء (الجبهية والحزامية) والنشاط الجبهي في حالة الراحة أيضًا في العودة إلى طبيعتها خلال الشهر الأول\n\nحيث يجلس سنة واحدة\nبحلول اثني عشر شهرًا، تكون قد وصلت إلى أطول فترة تم قياسها في هذه الدراسات أو تجاوزتها. لقد حظي نظام الدوبامين بمعظم الوقت للتعافي، وكانت الدوائر الأمامية التي تدعم ضبط النفس والحكم تتحسن منذ أشهر - النظير البيولوجي للتفكير الأكثر وضوحًا، والرغبة الشديدة الأضعف، والمزاج الأكثر ثباتًا الذي يصفه الناس خلال عام.\n\nإشارة التعافي\nبعد عام واحد، تكون إشارة التصوير البشري موجهة نحو التعافي بقوة: فقد ارتفع توفر ناقل الدوبامين خلال فترة تتراوح بين 6 و12 شهرًا، في حين استغرقت التشوهات الهيكلية والوظيفية الأمامية عدة أشهر حتى تعود إلى طبيعتها.';
 
   @override
   String get opioidReferenceDay730 =>
-      'سنتان من التوقف عن تناول المواد الأفيونية: أساس مستقر\n\nالمصدر: \"علاج اضطراب استخدام المواد الأفيونية\"، مراكز السيطرة على الأمراض والوقاية منها (CDC)\n\nحالة مزمنة، تتم إدارتها بشكل جيد\nيصف مركز السيطرة على الأمراض اضطراب استخدام المواد الأفيونية بأنه “مرض مزمن يمكن أن يؤثر على أي شخص” – “حالة طبية، وليس فشل أخلاقي”. إن الوصول إلى عامين من التعافي المستدام يعني أنك تمكنت من إدارة هذه الحالة بنجاح خلال إحدى الفترات الأكثر ضعفًا.\n\nما يقوله مركز السيطرة على الأمراض يعمل\nتركز إرشادات مركز السيطرة على الأمراض على العلاجات التي تحافظ على استقرار التعافي على المدى الطويل:\n• أدوية اضطراب استخدام المواد الأفيونية — البوبرينورفين، والميثادون، والنالتريكسون — والتي تصفها بأنها فعالة بشكل خاص\n• الجمع بين الدواء والعلاج السلوكي والاستشارة\n• العلاج الذي يستمر لفترات زمنية متفاوتة، ومصمم خصيصًا للشخص\nيشير مركز السيطرة على الأمراض إلى أن هذه الأدوية تساعد على \"تطبيع كيمياء الدماغ\" وتخفيف الرغبة الشديدة - فالكيمياء التي تم اختطافها في الإدمان النشط تعمل معك مرة أخرى.\n\nالبقاء آمنة\nيحث مركز السيطرة على الأمراض الأشخاص في مرحلة التعافي على سؤال طبيبهم عن خطر العودة إلى الاستخدام والجرعة الزائدة، والحفاظ على النالوكسون في متناول اليد. ينخفض ​​التسامح أثناء الامتناع عن تناول المواد الأفيونية، لذا فإن العودة إلى تناول المواد الأفيونية بعد هذه المدة أمر خطير بشكل خاص - مع العلم أن ذلك جزء من حماية ما قمت ببنائه.\n\nعامين في\nيوضح مركز السيطرة على الأمراض أن التعافي غالبًا ما يكون عملية طويلة الأمد وليس خط النهاية. إن عامين ليسا نهاية الرحلة، بل هما أساس مستقر وصحي ودليل قوي على نجاح النهج الذي تستخدمه.';
+      'سنتان من التوقف عن تناول المواد الأفيونية: أساس مستقر\n\nالمصدر: \"علاج اضطراب استخدام المواد الأفيونية\"، مراكز السيطرة على الأمراض والوقاية منها (CDC)\n\nحالة مزمنة، تتم إدارتها بشكل جيد\nيصف مركز السيطرة على الأمراض اضطراب استخدام المواد الأفيونية بأنه “مرض مزمن يمكن أن يؤثر على أي شخص” – “حالة طبية، وليس فشل أخلاقي”. إن الوصول إلى عامين من التعافي المستدام يعني أنك تمكنت من إدارة هذه الحالة بنجاح خلال إحدى الفترات الأكثر ضعفًا.\n\nما يقوله مركز السيطرة على الأمراض يعمل\nتركز إرشادات مركز السيطرة على الأمراض على العلاجات التي تحافظ على استقرار التعافي على المدى الطويل:\n• أدوية اضطراب استخدام المواد الأفيونية — البوبرينورفين، والميثادون، والنالتريكسون — والتي تصفها بأنها فعالة بشكل خاص\n• الجمع بين الدواء والعلاج السلوكي والاستشارة\n• العلاج الذي يستمر لفترات زمنية متفاوتة، ومصمم خصيصًا للشخص\nيشير مركز السيطرة على الأمراض إلى أن هذه الأدوية تساعد على \"تطبيع كيمياء الدماغ\" وتخفيف الرغبة الشديدة - فالكيمياء التي تم اختطافها في الإدمان النشط تعمل معك مرة أخرى.\n\nالبقاء بأمان\nيحث مركز السيطرة على الأمراض الأشخاص في مرحلة التعافي على سؤال طبيبهم عن خطر العودة إلى الاستخدام والجرعة الزائدة، والحفاظ على النالوكسون في متناول اليد. ينخفض ​​التسامح أثناء الامتناع عن تناول المواد الأفيونية، لذا فإن العودة إلى تناول المواد الأفيونية بعد هذه المدة أمر خطير بشكل خاص - مع العلم أن ذلك جزء من حماية ما قمت ببنائه.\n\nعامين في\nيوضح مركز السيطرة على الأمراض أن التعافي غالبًا ما يكون عملية طويلة الأمد وليس خط النهاية. إن عامين ليسا نهاية الرحلة، بل هما أساس مستقر وصحي ودليل قوي على نجاح النهج الذي تستخدمه.';
 
   @override
   String get opioidReferenceDay1095 =>
@@ -3830,7 +3813,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get pornographyReferenceDay7 =>
-      'أسبوع واحد: ما وجدته دراسة الامتناع العشوائية\n\nالمصدر: آثار فترة الامتناع عن المواد الإباحية لمدة 7 أيام على الأعراض المرتبطة بالانسحاب لدى مستخدمي المواد الإباحية المنتظمين، أرشيفات السلوك الجنسي (2023).\n\nقام الباحثون بتوزيع 176 من مستخدمي المواد الإباحية بشكل عشوائي إما لمحاولة الامتناع عن ممارسة الجنس لمدة سبعة أيام أو الاستمرار كالمعتاد. عبر العينة الكاملة، لم ينتج عن الامتناع عن ممارسة الجنس زيادة إجمالية كبيرة في الرغبة الشديدة أو المزاج السلبي أو أعراض الانسحاب.\n\nوجد تحليل استكشافي زيادة في الرغبة الشديدة بين الأشخاص الذين جمعوا بين درجات عالية من الاستخدام الإشكالي والاستخدام اليومي للمواد الإباحية قبل الدراسة. تحتاج هذه النتيجة إلى التكرار، ولكنها مفيدة: فالأسبوع الأول الصعب يمكن أن يكون حقيقيا بالنسبة للمستخدمين الذين يعانون من مشاكل كثيرة، في حين أن متلازمة الانسحاب من المواد الإباحية العالمية لا تدعمها هذه التجربة.\n\nإذا تمكنت من ذلك خلال أسبوع، فلديك الآن دليل أفضل حول نمطك الخاص مما يمكن أن يقدمه أي جدول زمني عام عبر الإنترنت.';
+      'أسبوع واحد: ما وجدته دراسة عشوائية للامتناع\n\nالمصدر: Effects of a 7-Day Pornography Abstinence Period on Withdrawal-Related Symptoms in Regular Pornography Users, Archives of Sexual Behavior (2023).\n\nوزّع الباحثون 176 من مستخدمي المواد الإباحية المنتظمين عشوائيًا بين محاولة الامتناع عن المشاهدة لمدة سبعة أيام والاستمرار كالمعتاد. وعلى مستوى العينة كاملة، لم يؤدِ الامتناع إلى زيادة عامة ذات دلالة في الرغبة أو المزاج السلبي أو أعراض شبيهة بالانسحاب.\n\nأظهر تحليل استكشافي زيادة في الرغبة لدى من جمعوا بين درجات مرتفعة للاستخدام الإشكالي والمشاهدة اليومية قبل الدراسة. وتحتاج هذه النتيجة إلى التكرار، لكنها مفيدة: قد يكون الأسبوع الأول صعبًا لدى بعض ذوي الاستخدام الإشكالي الأشد، بينما لا تدعم هذه التجربة وجود متلازمة انسحاب عامة من المواد الإباحية.\n\nإذا أكملت أسبوعًا، فلديك الآن معلومات أفضل عن نمطك الشخصي مما يمكن أن يقدمه أي جدول زمني عام على الإنترنت.';
 
   @override
   String get pornographyReferenceDay14 =>
@@ -3846,7 +3829,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get pornographyReferenceDay180 =>
-      'ستة أشهر: يمكن السيطرة على الأعراض على المدى الطويل\n\nالمصدر: هالبيرج وآخرون، دراسة عشوائية محكومة للعلاج السلوكي المعرفي الذي تديره المجموعة لاضطراب فرط الجنس لدى الرجال، مجلة الطب الجنسي (2019).\n\nفي 137 رجلاً يعانون من سلوك جنسي خارج عن السيطرة، أدت سبعة أسابيع من العلاج السلوكي المعرفي إلى انخفاض أكبر في أعراض فرط النشاط الجنسي والقسر الجنسي مقارنة بقائمة الانتظار، إلى جانب تحسن الحالة النفسية. ظلت مكاسب العلاج مستقرة في كل من المتابعة لمدة ثلاثة وستة أشهر.\n\nغطت هذه الدراسة اضطراب فرط النشاط الجنسي على نطاق أوسع بدلاً من الامتناع عن ممارسة الجنس مع المواد الإباحية وحدها، لذلك لا ينبغي تحويلها إلى ادعاء بأن كل شخص يتعافى بيولوجيًا بعد ستة أشهر. إنه يدعم عبارة أقوى وأكثر فائدة: التحسن المستمر في السلوك الجنسي القهري يمكن أن يظل ثابتًا على مدار هذه الفترة الزمنية.\n\nوبالتالي فإن ستة أشهر تعتبر علامة فارقة في الصيانة. حافظ على الإجراءات الروتينية التي جعلت التحكم أسهل بدلاً من اعتبار التاريخ بمثابة إذن لتفكيكها.';
+      'ستة أشهر: يمكن السيطرة على الأعراض على المدى الطويل\n\nالمصدر: هالبيرج وآخرون، دراسة عشوائية محكومة للعلاج السلوكي المعرفي الذي تديره المجموعة لاضطراب فرط الجنس لدى الرجال، مجلة الطب الجنسي (2019).\n\nفي 137 رجلاً يعانون من سلوك جنسي خارج عن السيطرة، أدت سبعة أسابيع من العلاج السلوكي المعرفي إلى انخفاض أكبر في أعراض فرط النشاط الجنسي والقسر الجنسي مقارنة بقائمة الانتظار، إلى جانب تحسن الحالة النفسية. ظلت مكاسب العلاج مستقرة في كل من المتابعة لمدة ثلاثة وستة أشهر.\n\nغطت هذه الدراسة اضطراب فرط النشاط الجنسي على نطاق أوسع بدلاً من الامتناع عن مشاهدة المواد الإباحية وحدها، لذلك لا ينبغي تحويلها إلى ادعاء بأن كل شخص يتعافى بيولوجيًا بعد ستة أشهر. إنه يدعم عبارة أقوى وأكثر فائدة: التحسن المستمر في السلوك الجنسي القهري يمكن أن يظل ثابتًا على مدار هذه الفترة الزمنية.\n\nوبالتالي فإن ستة أشهر تعتبر علامة فارقة في الصيانة. حافظ على الإجراءات الروتينية التي جعلت التحكم أسهل بدلاً من اعتبار التاريخ بمثابة إذن لتفكيكها.';
 
   @override
   String get pornographyReferenceDay365 =>
@@ -3918,7 +3901,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get snriReferenceDay3 =>
-      'توقف SNRI: الأيام الأولى\n\nالمصدر: منشورات هارفارد الصحية\n\nملاحظة هامة تتعلق بالسلامة\nيجب إيقاف SNRIs فقط تحت إشراف طبي بعد التناقص التدريجي. يتمتع فينلافاكسين (إيفكسور) على وجه الخصوص بنصف عمر قصير للغاية يبلغ حوالي 5 ساعات، مما يعني أن الدواء يتخلص من الجسم بسرعة كبيرة ويمكن أن تكون أعراض التوقف حادة ومفاجئة.\n\nلماذا يصعب إيقاف SNRIs أكثر من SSRIs\nتؤثر SNRIs على مادتين كيميائيتين في الدماغ تنظمان الحالة المزاجية - السيروتونين والنورادرينالين - مما يعني أن كليهما بحاجة إلى التعديل عند التوقف. غالبًا ما تكون أعراض التوقف أكثر شدة مع مثبطات استرداد السيروتونين الانتقائية مقارنة بمثبطات استرداد السيروتونين الانتقائية:\n• أعراض تشبه أعراض الأنفلونزا (التعب والتعرق وآلام العضلات)\n• الأرق واضطراب النوم\n• الغثيان — غالبًا ما يكون أكثر وضوحًا مما يحدث مع مثبطات استرداد السيروتونين الانتقائية\n• عدم التوازن والدوخة\n• الاضطرابات الحسية — يمكن أن تكون \"صعقات الدماغ\" شديدة للغاية عند تناول الفينلافاكسين\n• فرط الإثارة والتهيج والقلق\n\nمقارنة SNRIs\nيواجه فينلافاكسين أصعب حالات التوقف بسبب نصف عمره القصير. يميل دولوكسيتين (سيمبالتا) إلى أن يكون أسهل إلى حد ما بسبب عمر النصف الأطول الذي يبلغ 12 ساعة. يقع ديسفينلافاكسين بين الاثنين.';
+      'التوقف عن SNRI: الأيام الأولى\n\nالمصدر: Harvard Health Publishing\n\nملاحظة سلامة مهمة\nيجب إيقاف أدوية SNRI فقط تحت إشراف طبي وبخفض تدريجي للجرعة. يتميز فينلافاكسين (Effexor) خصوصًا بنصف عمر قصير جدًا يبلغ نحو 5 ساعات، لذلك يغادر الجسم بسرعة وقد تظهر أعراض التوقف بصورة شديدة ومفاجئة.\n\nلماذا قد يكون إيقاف SNRIs أصعب من SSRIs\nتؤثر SNRIs في مادتين كيميائيتين تنظمان المزاج — السيروتونين والنورأدرينالين — ولذلك يحتاج النظامان إلى إعادة التكيف عند الإيقاف. وغالبًا ما تكون أعراض التوقف أشد مع SNRIs منها مع SSRIs:\n• أعراض شبيهة بالإنفلونزا (التعب، التعرق، آلام العضلات)\n• الأرق واضطراب النوم\n• الغثيان — وقد يكون أوضح من SSRIs\n• اختلال التوازن والدوخة\n• اضطرابات حسية — وقد تكون «صعقات الدماغ» شديدة مع فينلافاكسين\n• فرط الاستثارة والتهيج والقلق\n\nمقارنة SNRIs\nلفينلافاكسين أصعب أنماط التوقف بسبب نصف عمره القصير. ويكون دولوكستين (Cymbalta) أسهل نسبيًا بسبب نصف عمره الأطول البالغ نحو 12 ساعة، بينما يقع ديسفينلافاكسين بينهما.';
 
   @override
   String get snriReferenceDay7 =>
@@ -3982,7 +3965,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get ssriReferenceDay3 =>
-      'توقف SSRI: الأيام الأولى\n\nالمصدر: منشورات هارفارد الصحية\n\nملاحظة هامة تتعلق بالسلامة\nيجب إيقاف مثبطات استرداد السيروتونين الانتقائية (SSRIs) فقط تحت إشراف طبي بعد التخفيض التدريجي. يؤدي التوقف المفاجئ — خاصةً بعد الاستخدام طويل الأمد — إلى زيادة شدة أعراض التوقف بشكل ملحوظ.\n\nما هي متلازمة توقف SSRI؟\nمتلازمة انقطاع SSRI هي ظاهرة طبية موثقة جيدًا وتحدث عندما يتم إيقاف SSRIs أو تقليلها بشكل كبير. يستخدم الأطباء الاختصار FINISH لوصف الأعراض الشائعة:\n• أعراض تشبه أعراض الأنفلونزا (التعب والتعرق وآلام العضلات)\n• الأرق واضطراب النوم\n• الغثيان\n• عدم التوازن والدوخة\n• الاضطرابات الحسية — وخاصة \"الصعق الدماغي\"\n• فرط الإثارة والتهيج والقلق\n\nمسائل نصف الحياة\nيتمتع فلوكستين (بروزاك) بنصف عمر طويل جدًا يتراوح من 4 إلى 6 أيام، لذا فهو يتناقص بشكل فعال وينتج تأثيرات توقف أكثر اعتدالًا. يتمتع الباروكستين (باكسيل) بأقصر نصف عمر بين مثبطات استرداد السيروتونين الانتقائية الشائعة وينتج عنه أعراض التوقف الأكثر حدة. وتندرج سيرترالين وسيتالوبرام وإسيتالوبرام في الوسط.';
+      'إيقاف SSRI: الأيام الأولى\n\nالمصدر: Harvard Health Publishing\n\nملاحظة مهمة للسلامة\nينبغي إيقاف مثبطات استرداد السيروتونين الانتقائية فقط تحت إشراف طبي ومع خفض الجرعة تدريجيًا. الإيقاف المفاجئ — خصوصًا بعد الاستخدام الطويل — قد يزيد شدة أعراض الانسحاب بشكل واضح.\n\nما متلازمة إيقاف SSRI؟\nهي ظاهرة طبية موثقة قد تحدث عند إيقاف SSRI أو خفض جرعته بدرجة كبيرة. يستخدم الأطباء الاختصار FINISH لوصف الأعراض الشائعة:\n• أعراض شبيهة بالإنفلونزا (تعب، تعرّق، آلام عضلية)\n• أرق واضطراب النوم\n• غثيان\n• اختلال التوازن والدوخة\n• اضطرابات حسية — خصوصًا إحساس «الصعقات الدماغية»\n• فرط الاستثارة والتهيّج والقلق\n\nأهمية نصف العمر\nيمتلك فلوكستين (Prozac) نصف عمر طويلًا جدًا يبلغ 4–6 أيام، لذلك ينخفض مستواه تدريجيًا بصورة طبيعية وتكون أعراض الإيقاف عادة أخف. أما باروكستين (Paxil) فله أقصر نصف عمر بين أدوية SSRI الشائعة ويميل إلى إحداث أعراض إيقاف أشد. يقع سيرترالين وسيتالوبرام وإسيتالوبرام بينهما.';
 
   @override
   String get ssriReferenceDay7 =>
@@ -4119,11 +4102,11 @@ class AppLocalizationsAr extends AppLocalizations {
       'ثلاث سنوات بلا فيب. حافظت على تغيير صعب طوال 1,095 يومًا. لا تحدد CDC عتبة تعافٍ بيولوجية عند ثلاث سنوات، لذا احتفل بما يدعمه الدليل فعلًا: استمرار الحرية من الفيب.';
 
   @override
-  String get vapingMilestone1460Title => 'أربع سنوات: أرض أقوى';
+  String get vapingMilestone1460Title => 'أربع سنوات: أساس أقوى';
 
   @override
   String get vapingMilestone1460Description =>
-      'أربع سنوات بلا فيب. هذا يعني 1,460 يومًا من دون تعزيز عادة الفيب. لا يستطيع العلم تحديد ساعة تعافٍ طويلة المدى تصلح للجميع، لكن هذا التغيير المتين حقيقي ويستحق الاحتفال.';
+      'أربع سنوات بلا فيب. هذا يعني 1,460 يومًا من دون تعزيز عادة الفيب. لا يحدد العلم جدولًا زمنيًا موحدًا للتعافي طويل المدى، لكن هذا التغيير المتين حقيقي ويستحق الاحتفال.';
 
   @override
   String get vapingMilestone1825Title => 'خمس سنوات: نصف عقد';

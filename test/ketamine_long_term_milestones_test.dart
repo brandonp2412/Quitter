@@ -83,8 +83,8 @@ void main() {
     },
   );
 
-  test('all supported ARBs localize ketamine long-term milestones', () {
-    const days = [730, 1095, 1460, 1825];
+  test('all supported ARBs fully localize ketamine milestones', () {
+    const days = [1, 7, 14, 30, 90, 180, 365, 730, 1095, 1460, 1825];
     final arbFiles =
         Directory('lib/l10n')
             .listSync()
@@ -97,6 +97,22 @@ void main() {
     final english =
         jsonDecode(File('lib/l10n/app_en.arb').readAsStringSync())
             as Map<String, dynamic>;
+
+    int paragraphCount(String value) =>
+        value.trim().split(RegExp(r'\n\s*\n')).length;
+    int bulletCount(String value) =>
+        RegExp(r'^•\s', multiLine: true).allMatches(value).length;
+
+    const knownBadFragments = <String, List<String>>{
+      'ar': ['الامتناع عن ممارسة الجنس', 'مجاناً'],
+      'de': ['Systemfreigabe', 'Heißhunger', 'Wiederfindungssignal'],
+      'id': ['Informasi referensi pemulihan', 'Gratis ', 'Kliring Sistem'],
+      'ko': ['할인', '무료', '금주'],
+      'pl': ['z drawal', 'za darmo', 'cessation', 'outcome'],
+      'pt_BR': ['grátis', 'folga com cetamina'],
+      'th': ['ความอยากอาหาร', 'ฟรี', 'เลิกบุหรี่'],
+      'ur': ['یہوواہ', 'مُنادی', 'کرسٹینا', 'خود کشی'],
+    };
 
     for (final file in arbFiles) {
       final locale = file.uri.pathSegments.last
@@ -138,13 +154,43 @@ void main() {
           ),
           reason: '$locale must localize $referenceKey',
         );
+
+        final reference = arb[referenceKey] as String;
+        final englishReference = english[referenceKey] as String;
+        expect(
+          paragraphCount(reference),
+          paragraphCount(englishReference),
+          reason:
+              '$locale must preserve the section structure of $referenceKey',
+        );
+        expect(
+          bulletCount(reference),
+          bulletCount(englishReference),
+          reason: '$locale must preserve the bullet structure of $referenceKey',
+        );
+
         if (locale != 'en') {
           expect(
-            arb[referenceKey],
-            isNot(equals(english[referenceKey])),
+            reference,
+            isNot(equals(englishReference)),
             reason: '$locale must not fall back to English for $referenceKey',
           );
         }
+      }
+
+      final ketamineText = [
+        for (final entry in arb.entries)
+          if (entry.key.startsWith('ketamineMilestone') ||
+              entry.key.startsWith('ketamineReference'))
+            entry.value,
+      ].join('\\n');
+      for (final fragment in knownBadFragments[locale] ?? const <String>[]) {
+        expect(
+          ketamineText,
+          isNot(contains(fragment)),
+          reason:
+              '$locale must not reintroduce known mistranslation: $fragment',
+        );
       }
     }
   });

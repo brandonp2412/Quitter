@@ -98,9 +98,8 @@ void main() {
     },
   );
 
-  test('all supported ARBs localize smoking long-term milestones', () {
-    const days = [730, 1095, 1460, 1825];
-    const newDays = {730, 1095, 1460};
+  test('all supported ARBs localize the full smoking timeline', () {
+    const days = [1, 3, 7, 14, 30, 90, 180, 365, 730, 1095, 1460, 1825];
     final arbFiles =
         Directory('lib/l10n')
             .listSync()
@@ -113,6 +112,12 @@ void main() {
     final english =
         jsonDecode(File('lib/l10n/app_en.arb').readAsStringSync())
             as Map<String, dynamic>;
+
+    int bulletCount(String value) => value
+        .split('\n')
+        .where((line) => line.trimLeft().startsWith('•'))
+        .length;
+    int paragraphCount(String value) => value.split('\n\n').length;
 
     for (final file in arbFiles) {
       final locale = file.uri.pathSegments.last
@@ -128,25 +133,26 @@ void main() {
             isA<String>().having((value) => value.trim(), key, isNotEmpty),
             reason: '$locale must localize $key',
           );
-          if (suffix == 'Title' && newDays.contains(day)) {
-            expect(
-              (arb[key] as String).runes.length,
-              lessThanOrEqualTo(36),
-              reason: '$locale must keep $key compact for phone layouts',
-            );
-          }
           if (locale != 'en') {
             expect(
               arb[key],
               isNot(equals(english[key])),
               reason: '$locale must not fall back to English for $key',
             );
+            if (suffix == 'Title') {
+              expect(
+                (arb[key] as String).runes.length,
+                lessThanOrEqualTo(36),
+                reason: '$locale must keep $key compact for phone layouts',
+              );
+            }
           }
         }
 
         final referenceKey = 'smokingReferenceDay$day';
+        final reference = arb[referenceKey];
         expect(
-          arb[referenceKey],
+          reference,
           isA<String>().having(
             (value) => value.trim(),
             referenceKey,
@@ -156,11 +162,59 @@ void main() {
         );
         if (locale != 'en') {
           expect(
-            arb[referenceKey],
+            reference,
             isNot(equals(english[referenceKey])),
             reason: '$locale must not fall back to English for $referenceKey',
           );
+          expect(
+            paragraphCount(reference as String),
+            paragraphCount(english[referenceKey] as String),
+            reason: '$locale must preserve $referenceKey paragraph structure',
+          );
+          expect(
+            bulletCount(reference),
+            bulletCount(english[referenceKey] as String),
+            reason: '$locale must preserve $referenceKey evidence bullets',
+          );
         }
+      }
+
+      final smokingValues = <String>[
+        for (final day in days) ...[
+          arb['smokingMilestone${day}Title'] as String,
+          arb['smokingMilestone${day}Description'] as String,
+          arb['smokingReferenceDay$day'] as String,
+        ],
+      ].join('\n');
+
+      switch (locale) {
+        case 'de':
+          expect(smokingValues, isNot(contains('Auszahlung')));
+          expect(smokingValues, isNot(contains('Peak Rückzug')));
+          expect(smokingValues, isNot(contains('Kläranlagen')));
+        case 'id':
+          expect(
+            smokingValues,
+            isNot(contains('Informasi referensi pemulihan')),
+          );
+          expect(smokingValues, isNot(contains('aspal dan puing')));
+        case 'ko':
+          expect(smokingValues, isNot(contains('인출')));
+          expect(smokingValues, isNot(contains('가장 극적인 암 혜택')));
+          expect(smokingValues, isNot(contains('완전히 정상화')));
+        case 'pl':
+          expect(smokingValues, isNot(contains('Heart Attack Risk')));
+          expect(smokingValues, isNot(contains('CDCREY')));
+          expect(smokingValues, isNot(contains('smokerhos')));
+        case 'th':
+          expect(smokingValues, isNot(contains('การถอนเงิน')));
+          expect(smokingValues, isNot(contains('ฝั่ง other')));
+          expect(smokingValues, isNot(contains('Cilia')));
+          expect(smokingValues, isNot(contains('อักเสบกำเริบ')));
+        case 'ur':
+          expect(smokingValues, isNot(contains('Lung')));
+          expect(smokingValues, isNot(contains('آتش‌فشاں')));
+          expect(smokingValues, isNot(contains('پطرس')));
       }
     }
   });

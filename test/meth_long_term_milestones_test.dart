@@ -91,8 +91,18 @@ void main() {
     expect(descriptions, hasLength(4));
   });
 
-  test('all supported ARBs localize meth long-term milestones', () {
-    const days = [730, 1095, 1460, 1825];
+  test('all supported ARBs localize the complete meth timeline', () {
+    const days = [1, 3, 7, 30, 90, 180, 365, 420, 730, 1095, 1460, 1825];
+    const knownBadFragments = <String, List<String>>{
+      'ar': ['ممارسة الجنس', 'الممتنعين عن التدخين'],
+      'id': ['Informasi referensi pemulihan dalam bahasa Indonesia'],
+      'ko': ['인출', '금연', '금주', '금욕'],
+      'pl': ['windykacja', 'metotreksat', 'Withdrawall'],
+      'pt': ['parar de fumar'],
+      'pt_BR': ['parar de fumar', 'Duas fases de retirada'],
+      'th': ['ถอนเงิน', 'เลิกบุหรี่'],
+      'ur': ['یہوواہ'],
+    };
     final arbFiles =
         Directory('lib/l10n')
             .listSync()
@@ -106,11 +116,17 @@ void main() {
         jsonDecode(File('lib/l10n/app_en.arb').readAsStringSync())
             as Map<String, dynamic>;
 
+    int paragraphBreaks(String value) =>
+        RegExp(r'\n\n').allMatches(value).length;
+    int bullets(String value) =>
+        RegExp(r'^• ', multiLine: true).allMatches(value).length;
+
     for (final file in arbFiles) {
       final locale = file.uri.pathSegments.last
           .replaceFirst('app_', '')
           .replaceFirst('.arb', '');
       final arb = jsonDecode(file.readAsStringSync()) as Map<String, dynamic>;
+      final scopedValues = <String>[];
 
       for (final day in days) {
         for (final suffix in ['Title', 'Description']) {
@@ -120,6 +136,7 @@ void main() {
             isA<String>().having((value) => value.trim(), key, isNotEmpty),
             reason: '$locale must localize $key',
           );
+          scopedValues.add(arb[key] as String);
           if (suffix == 'Title') {
             expect(
               (arb[key] as String).runes.length,
@@ -146,13 +163,35 @@ void main() {
           ),
           reason: '$locale must localize $referenceKey',
         );
+        final reference = arb[referenceKey] as String;
+        final englishReference = english[referenceKey] as String;
+        scopedValues.add(reference);
+        expect(
+          paragraphBreaks(reference),
+          paragraphBreaks(englishReference),
+          reason: '$locale must preserve $referenceKey article sections',
+        );
+        expect(
+          bullets(reference),
+          bullets(englishReference),
+          reason: '$locale must preserve $referenceKey evidence bullets',
+        );
         if (locale != 'en') {
           expect(
-            arb[referenceKey],
-            isNot(equals(english[referenceKey])),
+            reference,
+            isNot(equals(englishReference)),
             reason: '$locale must not fall back to English for $referenceKey',
           );
         }
+      }
+
+      final scopedText = scopedValues.join('\n');
+      for (final fragment in knownBadFragments[locale] ?? const <String>[]) {
+        expect(
+          scopedText,
+          isNot(contains(fragment)),
+          reason: '$locale must not regress to the known bad translation',
+        );
       }
     }
   });

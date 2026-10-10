@@ -95,8 +95,8 @@ void main() {
     expect(descriptions, hasLength(4));
   });
 
-  test('all supported ARBs localize SNRI long-term milestones', () {
-    const days = [730, 1095, 1460, 1825];
+  test('all supported ARBs localize the full SNRI timeline', () {
+    const days = [3, 7, 14, 30, 90, 180, 365, 730, 1095, 1460, 1825];
     final arbFiles =
         Directory('lib/l10n')
             .listSync()
@@ -109,6 +109,12 @@ void main() {
     final english =
         jsonDecode(File('lib/l10n/app_en.arb').readAsStringSync())
             as Map<String, dynamic>;
+
+    int bulletCount(String value) => value
+        .split('\n')
+        .where((line) => line.trimLeft().startsWith('•'))
+        .length;
+    int paragraphCount(String value) => value.split('\n\n').length;
 
     for (final file in arbFiles) {
       final locale = file.uri.pathSegments.last
@@ -124,25 +130,26 @@ void main() {
             isA<String>().having((value) => value.trim(), key, isNotEmpty),
             reason: '$locale must localize $key',
           );
-          if (suffix == 'Title') {
-            expect(
-              (arb[key] as String).runes.length,
-              lessThanOrEqualTo(36),
-              reason: '$locale must keep $key compact for phone layouts',
-            );
-          }
           if (locale != 'en') {
             expect(
               arb[key],
               isNot(equals(english[key])),
               reason: '$locale must not fall back to English for $key',
             );
+            if (suffix == 'Title') {
+              expect(
+                (arb[key] as String).runes.length,
+                lessThanOrEqualTo(36),
+                reason: '$locale must keep $key compact for phone layouts',
+              );
+            }
           }
         }
 
         final referenceKey = 'snriReferenceDay$day';
+        final reference = arb[referenceKey];
         expect(
-          arb[referenceKey],
+          reference,
           isA<String>().having(
             (value) => value.trim(),
             referenceKey,
@@ -152,11 +159,62 @@ void main() {
         );
         if (locale != 'en') {
           expect(
-            arb[referenceKey],
+            reference,
             isNot(equals(english[referenceKey])),
             reason: '$locale must not fall back to English for $referenceKey',
           );
+          expect(
+            paragraphCount(reference as String),
+            paragraphCount(english[referenceKey] as String),
+            reason: '$locale must preserve $referenceKey paragraph structure',
+          );
+          expect(
+            bulletCount(reference),
+            bulletCount(english[referenceKey] as String),
+            reason: '$locale must preserve $referenceKey evidence bullets',
+          );
         }
+      }
+
+      final snriValues = <String>[
+        for (final day in days) ...[
+          arb['snriMilestone${day}Title'] as String,
+          arb['snriMilestone${day}Description'] as String,
+          arb['snriReferenceDay$day'] as String,
+        ],
+      ].join('\n');
+
+      switch (locale) {
+        case 'ar':
+          expect(
+            arb['snriMilestone3Description'],
+            contains('SNRIs'),
+            reason: 'Arabic day 3 must identify the SNRI class correctly',
+          );
+          expect(arb['snriReferenceDay3'], contains('SNRIs منها مع SSRIs'));
+        case 'de':
+          expect(snriValues, isNot(contains('Racing Heart')));
+          expect(snriValues, isNot(contains('Recovery Achieved')));
+          expect(snriValues, isNot(contains('Blunting Resolution')));
+        case 'id':
+          expect(snriValues, isNot(contains('Informasi referensi pemulihan')));
+          expect(snriValues, isNot(contains('gangguan otak')));
+        case 'ko':
+          expect(snriValues, isNot(contains('뇌졸중')));
+          expect(snriValues, isNot(contains('뇌진탕')));
+          expect(snriValues, isNot(contains('SNRI 발생')));
+        case 'pl':
+          expect(snriValues, isNot(contains('fluorescencji')));
+          expect(snriValues, isNot(contains('Brain – Chemical')));
+          expect(snriValues, isNot(contains('Emocjonalna rezolucja')));
+        case 'th':
+          expect(snriValues, isNot(contains('การปะทะของสมอง')));
+          expect(snriValues, isNot(contains('สถาปัตยกรรมสลีป')));
+          expect(snriValues, isNot(contains('เรียวร่างกาย')));
+        case 'ur':
+          expect(snriValues, isNot(contains('دُنیا کا نظارہ')));
+          expect(snriValues, isNot(contains('Dublu Stabilising')));
+          expect(snriValues, isNot(contains('کُل‌وقتی خدمت')));
       }
     }
   });

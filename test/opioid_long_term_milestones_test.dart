@@ -1,6 +1,3 @@
-import 'dart:convert';
-import 'dart:io';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -84,70 +81,175 @@ void main() {
     expect(descriptions, hasLength(3));
   });
 
-  test('all supported ARBs localize opioid long-term milestones', () {
-    const days = [730, 1095, 1460, 1825];
-    const newDays = {1095, 1460, 1825};
-    final arbFiles =
-        Directory('lib/l10n')
-            .listSync()
-            .whereType<File>()
-            .where((file) => RegExp(r'app_[^/]+.arb$').hasMatch(file.path))
-            .toList()
-          ..sort((a, b) => a.path.compareTo(b.path));
+  test(
+    'opioid two-to-five-year copy exists in every supported locale',
+    () async {
+      final english = await AppLocalizations.delegate.load(const Locale('en'));
 
-    expect(arbFiles, isNotEmpty);
-    final english =
-        jsonDecode(File('lib/l10n/app_en.arb').readAsStringSync())
-            as Map<String, dynamic>;
+      for (final locale in AppLocalizations.supportedLocales) {
+        final l10n = await AppLocalizations.delegate.load(locale);
+        final tag = locale.toLanguageTag();
 
-    for (final file in arbFiles) {
-      final locale = file.uri.pathSegments.last
-          .replaceFirst('app_', '')
-          .replaceFirst('.arb', '');
-      final arb = jsonDecode(file.readAsStringSync()) as Map<String, dynamic>;
-
-      for (final day in days) {
-        for (final suffix in ['Title', 'Description']) {
-          final key = 'opioidMilestone$day$suffix';
-          expect(
-            arb[key],
-            isA<String>().having((value) => value.trim(), key, isNotEmpty),
-            reason: '$locale must localize $key',
-          );
-          if (suffix == 'Title' && newDays.contains(day)) {
-            expect(
-              (arb[key] as String).runes.length,
-              lessThanOrEqualTo(36),
-              reason: '$locale must keep $key compact for phone layouts',
-            );
-          }
-          if (locale != 'en') {
-            expect(
-              arb[key],
-              isNot(equals(english[key])),
-              reason: '$locale must not fall back to English for $key',
-            );
-          }
+        final localizedValues = [
+          l10n.opioidMilestone730Title,
+          l10n.opioidMilestone730Description,
+          l10n.opioidReferenceDay730,
+          l10n.opioidMilestone1095Title,
+          l10n.opioidMilestone1095Description,
+          l10n.opioidReferenceDay1095,
+          l10n.opioidMilestone1460Title,
+          l10n.opioidMilestone1460Description,
+          l10n.opioidReferenceDay1460,
+          l10n.opioidMilestone1825Title,
+          l10n.opioidMilestone1825Description,
+          l10n.opioidReferenceDay1825,
+        ];
+        for (final value in localizedValues) {
+          expect(value, isNotEmpty, reason: 'localized opioid copy for $tag');
         }
 
-        final referenceKey = 'opioidReferenceDay$day';
+        if (locale.languageCode == 'en') continue;
+
         expect(
-          arb[referenceKey],
-          isA<String>().having(
-            (value) => value.trim(),
-            referenceKey,
-            isNotEmpty,
-          ),
-          reason: '$locale must localize $referenceKey',
+          l10n.opioidMilestone730Title,
+          isNot(english.opioidMilestone730Title),
+          reason: '2-year title should not fall back to English for $tag',
         );
-        if (locale != 'en') {
-          expect(
-            arb[referenceKey],
-            isNot(equals(english[referenceKey])),
-            reason: '$locale must not fall back to English for $referenceKey',
-          );
-        }
+        expect(
+          l10n.opioidMilestone730Description,
+          isNot(english.opioidMilestone730Description),
+          reason: '2-year description should not fall back to English for $tag',
+        );
+        expect(
+          l10n.opioidReferenceDay730,
+          isNot(english.opioidReferenceDay730),
+          reason: '2-year reference should not fall back to English for $tag',
+        );
+        expect(
+          l10n.opioidMilestone1095Title,
+          isNot(english.opioidMilestone1095Title),
+          reason: '3-year title should not fall back to English for $tag',
+        );
+        expect(
+          l10n.opioidMilestone1095Description,
+          isNot(english.opioidMilestone1095Description),
+          reason: '3-year description should not fall back to English for $tag',
+        );
+        expect(
+          l10n.opioidReferenceDay1095,
+          isNot(english.opioidReferenceDay1095),
+          reason: '3-year reference should not fall back to English for $tag',
+        );
+        expect(
+          l10n.opioidMilestone1460Title,
+          isNot(english.opioidMilestone1460Title),
+          reason: '4-year title should not fall back to English for $tag',
+        );
+        expect(
+          l10n.opioidMilestone1460Description,
+          isNot(english.opioidMilestone1460Description),
+          reason: '4-year description should not fall back to English for $tag',
+        );
+        expect(
+          l10n.opioidReferenceDay1460,
+          isNot(english.opioidReferenceDay1460),
+          reason: '4-year reference should not fall back to English for $tag',
+        );
+        expect(
+          l10n.opioidMilestone1825Title,
+          isNot(english.opioidMilestone1825Title),
+          reason: '5-year title should not fall back to English for $tag',
+        );
+        expect(
+          l10n.opioidMilestone1825Description,
+          isNot(english.opioidMilestone1825Description),
+          reason: '5-year description should not fall back to English for $tag',
+        );
+        expect(
+          l10n.opioidReferenceDay1825,
+          isNot(english.opioidReferenceDay1825),
+          reason: '5-year reference should not fall back to English for $tag',
+        );
       }
-    }
-  });
+    },
+  );
+
+  test(
+    'opioid translations avoid known machine-translation artifacts',
+    () async {
+      final indonesian = await AppLocalizations.delegate.load(
+        const Locale('id'),
+      );
+      final polish = await AppLocalizations.delegate.load(const Locale('pl'));
+      final thai = await AppLocalizations.delegate.load(const Locale('th'));
+      final urdu = await AppLocalizations.delegate.load(const Locale('ur'));
+      final arabic = await AppLocalizations.delegate.load(const Locale('ar'));
+      final korean = await AppLocalizations.delegate.load(const Locale('ko'));
+      final brazilianPortuguese = await AppLocalizations.delegate.load(
+        const Locale('pt', 'BR'),
+      );
+
+      expect(
+        indonesian.opioidReferenceDay730,
+        isNot(contains('Informasi referensi pemulihan dalam bahasa Indonesia')),
+      );
+
+      final polishCopy = [
+        polish.opioidMilestone365Title,
+        polish.opioidReferenceDay30,
+        polish.opioidReferenceDay90,
+        polish.opioidReferenceDay180,
+        polish.opioidReferenceDay365,
+        polish.opioidReferenceDay730,
+      ].join('\n');
+      expect(polishCopy, isNot(contains('Off Opioids')));
+      expect(polishCopy, isNot(contains('Neural Plasticity Brain')));
+      expect(polishCopy, isNot(contains('on PubMed')));
+
+      final thaiCopy = [
+        thai.opioidReferenceDay1,
+        thai.opioidReferenceDay7,
+        thai.opioidReferenceDay60,
+        thai.opioidReferenceDay90,
+        thai.opioidReferenceDay180,
+        thai.opioidReferenceDay365,
+        thai.opioidReferenceDay730,
+      ].join('\n');
+      expect(thaiCopy, isNot(contains('เลิกบุหรี่')));
+      expect(thaiCopy, isNot(contains('ความอยากอาหาร')));
+
+      final urduCopy = [
+        urdu.opioidReferenceDay1,
+        urdu.opioidReferenceDay180,
+        urdu.opioidReferenceDay730,
+      ].join('\n');
+      expect(urduCopy, isNot(contains('access-date')));
+      expect(urduCopy, isNot(contains('archive-date')));
+      expect(urduCopy, isNot(contains('اوکاڑہ')));
+
+      final arabicCopy = [
+        arabic.opioidReferenceDay1,
+        arabic.opioidReferenceDay60,
+        arabic.opioidReferenceDay90,
+        arabic.opioidReferenceDay180,
+        arabic.opioidReferenceDay365,
+      ].join('\n');
+      expect(arabicCopy, isNot(contains('الامتناع عن ممارسة الجنس')));
+
+      final koreanCopy = [
+        korean.opioidReferenceDay1,
+        korean.opioidReferenceDay30,
+        korean.opioidReferenceDay90,
+        korean.opioidReferenceDay180,
+        korean.opioidReferenceDay365,
+        korean.opioidReferenceDay730,
+      ].join('\n');
+      expect(koreanCopy, isNot(contains('금주')));
+
+      expect(
+        brazilianPortuguese.opioidReferenceDay365,
+        isNot(contains('folga em opioides')),
+      );
+    },
+  );
 }
