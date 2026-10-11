@@ -332,7 +332,7 @@ void main() {
       const expectedDetails = {
         'ja': {
           'ssriMilestone30Description': ['新たな均衡'],
-          'ssriMilestone180Description': ['神経系'],
+          'ssriMilestone180Description': ['54人', '65％'],
           'ssriMilestone365Description': ['生活の質'],
           'snriMilestone3Description': ['5時間', '平衡感覚の乱れ'],
           'snriMilestone7Description': ['両システムが同時'],
@@ -346,7 +346,7 @@ void main() {
         },
         'zh': {
           'ssriMilestone30Description': ['新的平衡'],
-          'ssriMilestone180Description': ['神经系统'],
+          'ssriMilestone180Description': ['54人', '65%'],
           'ssriMilestone365Description': ['生活质量'],
           'snriMilestone3Description': ['5小时', '平衡障碍'],
           'snriMilestone7Description': ['同时调整'],
@@ -535,7 +535,7 @@ void main() {
       'ru': ['Источник:', 'Источник：'],
       'zh': ['来源：', '来源:'],
       'id': ['Sumber:', 'Sumber：'],
-      'th': ['แหล่งที่มา:', 'แหล่งที่มา：', 'ที่มา:', 'ที่มา：'],
+      'th': ['แหล่งที่มา:', 'แหล่งที่มา：', 'แหล่งข้อมูล:', 'ที่มา:', 'ที่มา：'],
       'pl': ['Źródło:', 'Źródła:'],
       'pt': ['Fonte:'],
       'ur': ['ماخذ:', 'ماخذ：'],
