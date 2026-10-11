@@ -40,137 +40,123 @@ class QuitCard extends StatelessWidget {
         ? null
         : daysCeil(parsedQuitDate.toIso8601String());
 
+    final surface = Theme.of(context).colorScheme.surface;
+    final cardColors = gradientColors
+        .map((color) => Color.alphaBlend(surface.withAlpha(229), color))
+        .toList();
+
     final card = Hero(
       tag: heroTag,
-      child: Card(
-        elevation: 0,
-        margin: EdgeInsets.zero,
+      child: Material(
+        color: Colors.transparent,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
         clipBehavior: Clip.antiAlias,
-        child: Container(
+        child: Ink(
           decoration: BoxDecoration(
             gradient: LinearGradient(
-              colors: gradientColors,
+              colors: cardColors,
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
             ),
-            boxShadow: [
-              BoxShadow(
-                color: gradientColors.first.withAlpha(255 ~/ (1 / 0.3)),
-                blurRadius: 8,
-                offset: const Offset(0, 4),
-              ),
-            ],
           ),
-          child: Material(
-            color: Colors.transparent,
-            child: InkWell(
-              onTap: onTap,
-              borderRadius: BorderRadius.circular(20),
-              splashColor: Colors.white.withAlpha(255 ~/ (1 / 0.3)),
-              highlightColor: Colors.white.withAlpha(255 ~/ (1 / 0.1)),
-              child: Container(
-                padding: const EdgeInsets.all(20),
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(20),
-                  color: Theme.of(
-                    context,
-                  ).colorScheme.surface.withAlpha(255 ~/ (1 / 0.9)),
-                ),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Container(
-                      padding: const EdgeInsets.all(12),
-                      decoration: BoxDecoration(
-                        gradient: LinearGradient(
-                          colors: gradientColors,
-                          begin: Alignment.topLeft,
-                          end: Alignment.bottomRight,
-                        ),
-                        borderRadius: BorderRadius.circular(12),
+          child: InkWell(
+            onTap: onTap,
+            borderRadius: BorderRadius.circular(20),
+            splashColor: Colors.white.withAlpha(76),
+            highlightColor: Colors.white.withAlpha(25),
+            child: Padding(
+              padding: const EdgeInsets.all(20),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Container(
+                    padding: const EdgeInsets.all(12),
+                    decoration: BoxDecoration(
+                      gradient: LinearGradient(
+                        colors: gradientColors,
+                        begin: Alignment.topLeft,
+                        end: Alignment.bottomRight,
                       ),
-                      child: Icon(
-                        icon,
-                        color: getContrastingColor(gradientColors.last),
-                        size: 24,
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                    child: Icon(
+                      icon,
+                      color: getContrastingColor(gradientColors.last),
+                      size: 24,
+                    ),
+                  ),
+                  const SizedBox(height: 16),
+                  FittedBox(
+                    fit: BoxFit.scaleDown,
+                    alignment: Alignment.centerLeft,
+                    child: Text(
+                      title,
+                      style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                        fontWeight: FontWeight.w600,
                       ),
                     ),
-                    const SizedBox(height: 16),
-                    FittedBox(
-                      fit: BoxFit.scaleDown,
-                      alignment: Alignment.centerLeft,
-                      child: Text(
-                        title,
-                        style: Theme.of(context).textTheme.titleMedium
-                            ?.copyWith(fontWeight: FontWeight.w600),
+                  ),
+                  const SizedBox(height: 4),
+                  if (days != null) ...[
+                    RichText(
+                      text: TextSpan(
+                        style: Theme.of(context).textTheme.headlineSmall
+                            ?.copyWith(fontWeight: FontWeight.bold),
+                        children: [
+                          TextSpan(text: '$days'),
+                          TextSpan(
+                            text:
+                                AppLocalizations.of(
+                                  context,
+                                )?.quitCardKeepDays(days) ??
+                                (days == 1 ? ' day' : ' days'),
+                            style: Theme.of(context).textTheme.bodyLarge
+                                ?.copyWith(
+                                  color: Theme.of(context).colorScheme.onSurface
+                                      .withAlpha(255 ~/ (1 / 0.7)),
+                                ),
+                          ),
+                        ],
                       ),
                     ),
-                    const SizedBox(height: 4),
-                    if (days != null) ...[
-                      RichText(
-                        text: TextSpan(
-                          style: Theme.of(context).textTheme.headlineSmall
-                              ?.copyWith(fontWeight: FontWeight.bold),
-                          children: [
-                            TextSpan(text: '$days'),
-                            TextSpan(
-                              text:
-                                  AppLocalizations.of(
-                                    context,
-                                  )?.quitCardKeepDays(days) ??
-                                  (days == 1 ? ' day' : ' days'),
-                              style: Theme.of(context).textTheme.bodyLarge
-                                  ?.copyWith(
-                                    color: Theme.of(context)
-                                        .colorScheme
-                                        .onSurface
-                                        .withAlpha(255 ~/ (1 / 0.7)),
-                                  ),
-                            ),
-                          ],
-                        ),
+                  ] else ...[
+                    Text(
+                      AppLocalizations.of(context)?.quitCardSubtitle ??
+                          'Tap to start',
+                      style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                        color: Theme.of(
+                          context,
+                        ).colorScheme.onSurface.withAlpha(255 ~/ (1 / 0.6)),
+                        fontStyle: FontStyle.italic,
                       ),
-                    ] else ...[
-                      Text(
-                        AppLocalizations.of(context)?.quitCardSubtitle ??
-                            'Tap to start',
-                        style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                          color: Theme.of(
-                            context,
-                          ).colorScheme.onSurface.withAlpha(255 ~/ (1 / 0.6)),
-                          fontStyle: FontStyle.italic,
-                        ),
-                      ),
-                    ],
-
-                    if (parsedQuitDate != null) ...[
-                      const Spacer(),
-                      Container(
-                        padding: const EdgeInsets.symmetric(
-                          horizontal: 8,
-                          vertical: 4,
-                        ),
-                        decoration: BoxDecoration(
-                          color: Theme.of(
-                            context,
-                          ).colorScheme.primary.withAlpha(255 ~/ (1 / 0.1)),
-                          borderRadius: BorderRadius.circular(8),
-                        ),
-                        child: Text(
-                          DateFormat.yMMMd(
-                            AppLocalizations.of(context)?.localeName,
-                          ).format(parsedQuitDate),
-                          style: Theme.of(context).textTheme.bodySmall
-                              ?.copyWith(
-                                color: Theme.of(context).colorScheme.primary,
-                                fontWeight: FontWeight.w500,
-                              ),
-                        ),
-                      ),
-                    ],
+                    ),
                   ],
-                ),
+
+                  if (parsedQuitDate != null) ...[
+                    const Spacer(),
+                    Container(
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 8,
+                        vertical: 4,
+                      ),
+                      decoration: BoxDecoration(
+                        color: Theme.of(
+                          context,
+                        ).colorScheme.primary.withAlpha(255 ~/ (1 / 0.1)),
+                        borderRadius: BorderRadius.circular(8),
+                      ),
+                      child: Text(
+                        DateFormat.yMMMd(
+                          AppLocalizations.of(context)?.localeName,
+                        ).format(parsedQuitDate),
+                        style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                          color: Theme.of(context).colorScheme.primary,
+                          fontWeight: FontWeight.w500,
+                        ),
+                      ),
+                    ),
+                  ],
+                ],
               ),
             ),
           ),
