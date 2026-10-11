@@ -3,6 +3,7 @@ import 'dart:math';
 import 'dart:ui' show Locale, PlatformDispatcher;
 
 import 'package:flutter/foundation.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:home_widget/home_widget.dart';
 import 'package:quitter/addiction_provider.dart';
@@ -39,23 +40,10 @@ Future<void> setupTasks() async {
 
   if (defaultTargetPlatform == TargetPlatform.android) {
     talker.info('Registering Android background tasks');
-    Workmanager().initialize(taskHandler);
-    var nextWidget = DateTime(now.year, now.month, now.day, 0, 0);
-    if (now.isAfter(nextWidget)) {
-      nextWidget = nextWidget.add(Duration(days: 1));
-    }
-    final widgetDelay = nextWidget.difference(now);
-    Workmanager().registerOneOffTask(
-      "widget_oneoff",
-      "widgets",
-      initialDelay: widgetDelay,
-    );
-    Workmanager().registerPeriodicTask(
-      "widgets",
-      "widgets",
-      frequency: Duration(days: 1),
-      initialDelay: widgetDelay + Duration(days: 1),
-    );
+    await Workmanager().initialize(taskHandler);
+    await const MethodChannel(
+      'android.widget',
+    ).invokeMethod<void>('scheduleWidgetUpdates');
   }
 
   final settings = SettingsProvider();

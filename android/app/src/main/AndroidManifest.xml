@@ -27,6 +27,12 @@
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="Quitter">
+        <!-- Work around a reported Vulkan allocator crash during Android Flutter startup.
+             https://docs.flutter.dev/perf/impeller -->
+        <meta-data
+            android:name="io.flutter.embedding.android.EnableImpeller"
+            android:value="false" />
+
         <activity
             android:name=".WidgetSelectionActivity"
             android:exported="true"
@@ -80,17 +86,7 @@
         -->
         <meta-data
             android:name="flutterEmbedding"
-            android:value="2" /> <!-- WorkManager initializers -->
-        <provider
-            android:name="androidx.work.impl.WorkManagerInitializer"
-            android:authorities="${applicationId}.workmanager-init"
-            android:enabled="false"
-            android:exported="false" />
-        <provider
-            android:name="dev.fluttercommunity.workmanager.WorkmanagerInitializer"
-            android:authorities="${applicationId}.workmanager-init"
-            android:exported="false"
-            android:multiprocess="true" />
+            android:value="2" />
     </application>
 
 </manifest>

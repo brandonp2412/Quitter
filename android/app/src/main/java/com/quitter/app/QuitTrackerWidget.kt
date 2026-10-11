@@ -11,11 +11,15 @@ import org.json.JSONArray
 import java.time.LocalDate
 import java.time.LocalDateTime
 import java.time.temporal.ChronoUnit
+import java.util.concurrent.Executors
+import java.util.concurrent.RejectedExecutionException
 
 class QuitTrackerWidget : AppWidgetProvider() {
 
     companion object {
         private const val TAG = "QuitTrackerWidget"
+        private val updateExecutor = Executors.newFixedThreadPool(2)
+
 
         private fun daysCeil(isoDateString: String?): Int {
             if (isoDateString == null) return 0
@@ -346,10 +350,33 @@ class QuitTrackerWidget : AppWidgetProvider() {
             appWidgetManager: AppWidgetManager,
             appWidgetIds: IntArray
     ) {
-        Log.d(TAG, "onUpdate called with ${appWidgetIds.size} widgets")
-        for (appWidgetId in appWidgetIds) {
-            updateAppWidget(context, appWidgetManager, appWidgetId)
+        // Broadcasts share Android's main thread; offload RemoteViews preparation.
+        // https://developer.android.com/develop/ui/views/appwidgets/advanced#broadcast-receiver
+        val pendingResult = goAsync()
+        try {
+            updateExecutor.execute {
+                try {
+                    QuitTrackerWidgetWorker.schedule(context.applicationContext)
+                    for (appWidgetId in appWidgetIds) {
+                        try {
+                            updateAppWidget(context.applicationContext, appWidgetManager, appWidgetId)
+                        } catch (error: Exception) {
+                            Log.e(TAG, "Failed to update widget $appWidgetId", error)
+                        }
+                    }
+                } finally {
+                    pendingResult.finish()
+                }
+            }
+        } catch (error: RejectedExecutionException) {
+            pendingResult.finish()
+            Log.e(TAG, "Unable to schedule widget update", error)
         }
+    }
+
+    override fun onDisabled(context: Context) {
+        super.onDisabled(context)
+        QuitTrackerWidgetWorker.cancel(context.applicationContext)
     }
 
     data class AddictionInfo(

@@ -18,6 +18,11 @@ class MainActivity : FlutterActivity() {
                 val provider = ComponentName(this, QuitTrackerWidget::class.java)
 
                 when (call.method) {
+                    "scheduleWidgetUpdates" -> {
+                        QuitTrackerWidgetWorker.schedule(applicationContext)
+                        result.success(null)
+                    }
+
                     "requestPinWidget" -> {
                         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.O ||
                             !manager.isRequestPinAppWidgetSupported
