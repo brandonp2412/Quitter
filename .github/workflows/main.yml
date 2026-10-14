@@ -206,13 +206,7 @@ jobs:
           arch: x86_64
           profile: ${{ matrix.profile }}
           emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim -camera-back none
-          script: |
-            set -eu
-            for locale in $SCREENSHOT_LOCALES; do
-              echo "::group::${{ matrix.device_type }} / $locale"
-              QUITTER_LOCALE="$locale" ./scripts/ci_screenshots.sh
-              echo "::endgroup::"
-            done
+          script: bash ./scripts/ci_all_localized_screenshots.sh
 
       - name: Stage localized screenshots
         env:
