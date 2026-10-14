@@ -1,0 +1,10 @@
+• Delete codex hooks
+• Generated update
+• Ignore submodules in vscode
+• Make milestone tiles fully tappable
+• Migrate Android build to built-in Kotlin
+• Update Quitter dependency lockfile
+• feat(l10n): add Arabic localization
+• feat(l10n): add Brazilian Portuguese localization
+• feat(l10n): add European Portuguese localization
+• feat(l10n): add Indonesian localization

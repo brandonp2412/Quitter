@@ -1,7 +1,7 @@
 name: quitter
 description: "Quit addictions with Free and Open Source software"
 publish_to: 'none'
-version: 1.1.80+1259
+version: 1.1.81+1260
 environment:
   sdk: ^3.9.0
 dependencies:
@@ -57,7 +57,7 @@ msix_config:
   publisher_display_name: Brandon Dick
   languages: ar-sa, en-us, de-de, es-es, fa-ir, fr-fr, id-id, ja-jp, ko-kr, pl-pl, pt-pt, pt-br, ru-ru, th-th, ur-pk, zh-cn, zh-tw
   identity_name: FrisbeeSoftware.Quitter-Addictionrecoverytracker
-  msix_version: 1.0.169.0
+  msix_version: 1.0.170.0
   logo_path: assets/icon.png
   trim_logo: false
   publisher: CN=BB0811CB-EED5-441C-BE1B-D31F391F76DE
