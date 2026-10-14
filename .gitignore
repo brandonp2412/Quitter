@@ -33,7 +33,6 @@ migrate_working_dir/
 /build/
 /coverage/
 /test_bundle.dart
-/patrol_test/test_bundle.dart
 
 # Symbolication related
 app.*.symbols

@@ -10,7 +10,6 @@ import file_picker
 import flutter_local_notifications
 import package_info_plus
 import path_provider_foundation
-import patrol
 import share_plus
 import shared_preferences_foundation
 import url_launcher_macos
