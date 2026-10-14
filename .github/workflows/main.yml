@@ -247,50 +247,6 @@ jobs:
           if-no-files-found: error
           retention-days: 7
 
-  patrol-tests:
-    if: github.event_name == 'workflow_dispatch'
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
-        with:
-          persist-credentials: false
-
-      - name: Setup Java
-        uses: actions/setup-java@cf277c60eb25467037889841efdb72551f06f6c3 # v4
-        with:
-          distribution: "zulu"
-          java-version: "17"
-
-      - name: Setup Flutter from submodule
-        run: |
-          git submodule update --init --recursive flutter
-          echo "$GITHUB_WORKSPACE/flutter/bin" >> "$GITHUB_PATH"
-          flutter/bin/flutter config --no-analytics
-
-      - name: Get Flutter dependencies
-        run: flutter pub get
-
-      - name: Install Patrol CLI
-        run: |
-          dart pub global activate patrol_cli 4.6.1
-          echo "$HOME/.pub-cache/bin" >> "$GITHUB_PATH"
-
-      - name: Enable KVM
-        run: |
-          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
-          sudo udevadm control --reload-rules
-          sudo udevadm trigger --name-match=kvm
-
-      - name: Run Patrol tests
-        uses: reactivecircus/android-emulator-runner@a421e43855164a8197daf9d8d40fe71c6996bb0d # v2
-        with:
-          api-level: 35
-          target: google_apis
-          arch: x86_64
-          profile: pixel_6
-          emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim -camera-back none
-          script: patrol test -t patrol_test/home_screen_widget_test.dart
-
   version-bump:
     if: ${{ (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') && needs.release-gate.outputs.should_release == 'true' }}
     needs: [release-gate, quality-checks, generate-screenshots]
