@@ -10,7 +10,6 @@ dependencies:
   talker_flutter: 5.1.20
   flutter_localizations:
     sdk: flutter
-  cupertino_icons: ^1.0.8
   shared_preferences: ^2.5.3
   provider: ^6.1.5
   dynamic_color: 1.8.1
@@ -35,8 +34,6 @@ dev_dependencies:
   flutter_lints: ^6.0.0
   flutter_launcher_icons: ^0.14.4
   integration_test:
-    sdk: flutter
-  flutter_driver:
     sdk: flutter
 
 

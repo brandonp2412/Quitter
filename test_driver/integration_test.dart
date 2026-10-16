@@ -8,7 +8,6 @@ Future<void> main() async => await integrationDriver(
     if (deviceType == null || deviceType.isEmpty) {
       throw "QUITTER_DEVICE_TYPE must be set, so integration driver knows where to save screenshots.";
     }
-    final isIos = Platform.environment["QUITTER_IS_IOS"];
     final locale = Platform.environment["QUITTER_LOCALE"] ?? "en";
     final storeLocale = switch (locale) {
       "ar" => "ar",
@@ -30,28 +29,9 @@ Future<void> main() async => await integrationDriver(
       _ => "en-US",
     };
 
-    final isWeb =
-        Platform.environment["FLUTTER_WEB"] == "true" ||
-        args?.toString().contains("chrome") == true ||
-        args?.toString().contains("web") == true ||
-        Platform.environment["FLUTTER_DRIVER_DEVICE"] == "chrome" ||
-        Platform.environment["FLUTTER_DRIVER_DEVICE"]?.contains("chrome") ==
-            true;
-
-    File imgFile;
-    if (isWeb) {
-      imgFile = await File(
-        'fastlane/screenshots/$deviceType-$name.png',
-      ).create(recursive: true);
-    } else if (isIos != null) {
-      imgFile = await File(
-        'fastlane/screenshots/$deviceType-$name.png',
-      ).create(recursive: true);
-    } else {
-      imgFile = await File(
-        'fastlane/metadata/android/$storeLocale/images/$deviceType/$name.png',
-      ).create(recursive: true);
-    }
+    final imgFile = await File(
+      'fastlane/metadata/android/$storeLocale/images/$deviceType/$name.png',
+    ).create(recursive: true);
     await imgFile.writeAsBytes(image);
     return true;
   },
