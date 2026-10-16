@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/icon.png" width="112" alt="Quitter app icon">
+<img src="docs/readme-icon.png" width="112" alt="Quitter app icon">
 
 # Quitter
 
