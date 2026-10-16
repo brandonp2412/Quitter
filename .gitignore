@@ -44,7 +44,6 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
-.playwright-mcp
 
 # Local Serena agent state
 .serena/
