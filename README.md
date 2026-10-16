@@ -18,7 +18,6 @@ A free and open-source quit tracker built around local data, useful milestones, 
   <a href="https://f-droid.org/en/packages/com.quitter.app/"><img alt="Get it on F-Droid" height="56" src="./docs/get-it-on-fdroid.png"></a>
   <a href="https://play.google.com/store/apps/details?id=com.quitter.app"><img alt="Get it on Google Play" height="56" src="./docs/get-it-on-google-play.png"></a>
   <a href="https://apps.microsoft.com/detail/9PKVZWDG3FGC?referrer=appbadge&mode=direct"><img alt="Download from the Microsoft Store" height="56" src="./docs/download-msstore.png"></a>
-  <a href="https://brandonp2412.github.io/Quitter/"><img alt="Open Quitter on the web" height="56" src="./docs/get-it-on-web.png"></a>
 </p>
 
 <sub>No tracking · Local data · Multiple journeys · Fully customisable</sub>
