@@ -35,20 +35,6 @@
   "gabapentinoidsSubtitleNotStarted": "Lihat apa yang terjadi ketika Anda berhenti",
   "gabapentinoidsInfoBox": "Jangan pernah menghentikan gabapentin atau pregabalin secara tiba-tiba. Penghentian obat secara tiba-tiba dapat memicu kejang - terutama jika Anda meminumnya untuk epilepsi. Pengurangan bertahap yang diawasi secara medis sangat penting.",
   "addictionGabapentinoid": "Obat gabapentinoid",
-  "gabapentinoidsMilestone1Title": "Taper, Jangan Berhenti Mendadak",
-  "gabapentinoidsMilestone1Description": "Penarikan gabapentinoid dapat dimulai dalam 12–48 jam. Risiko kritisnya adalah kejang yang berhenti secara tiba-tiba, jadi obat-obatan ini harus dikurangi secara bertahap di bawah bimbingan medis daripada dihentikan dalam keadaan dingin.",
-  "gabapentinoidsMilestone3Title": "Penarikan Puncak",
-  "gabapentinoidsMilestone3Description": "Gejala biasanya mencapai puncaknya sekitar hari ke-3: kecemasan yang meningkat, insomnia, berkeringat, mual, dan terkadang kebingungan. Pengurangan yang diawasi sangat mengurangi hal ini.",
-  "gabapentinoidsMilestone7Title": "Pelonggaran Fase Akut",
-  "gabapentinoidsMilestone7Description": "Sekitar hari ke 7-10 gejala akut berkurang secara signifikan. Pengurangan bertahap membuat periode ini tetap dapat dikelola.",
-  "gabapentinoidsMilestone14Title": "Mengatasi Tidur dan Kecemasan",
-  "gabapentinoidsMilestone14Description": "Dua minggu kemudian, tidur dan tingkat kecemasan Anda biasanya membaik seiring sistem saraf beradaptasi untuk berfungsi tanpa obat.",
-  "gabapentinoidsMilestone30Title": "Satu Bulan Jelas",
-  "gabapentinoidsMilestone30Description": "Dalam sebulan kebanyakan orang mengalami penarikan diri, dengan suasana hati yang lebih stabil, tidur, dan kejernihan. Gejala yang menetap biasanya ringan.",
-  "gabapentinoidsMilestone90Title": "Stabil dan Disesuaikan",
-  "gabapentinoidsMilestone90Description": "Tiga bulan berlalu, sistem saraf telah sepenuhnya menyesuaikan diri. Kebanyakan orang merasa stabil, dengan tidur dan suasana hati yang normal.",
-  "gabapentinoidsMilestone180Title": "Gratis Setengah Tahun",
-  "gabapentinoidsMilestone180Description": "Enam bulan gratis. Obat ini sudah lama hilang dari rutinitas Anda, dan gejala kambuhnya telah teratasi.",
   "ghbPageTitle": "Pemulihan GHB",
   "ghbHeaderStarted": "Perjalanan Pemulihan Anda",
   "ghbHeaderNotStarted": "Manfaat Berhenti GHB",
@@ -227,10 +213,6 @@
   "adderallMilestone180Description": "Sinyal dopamin terus pulih. Fokus, ingatan, suasana hati, dan kualitas hidup sehari-hari terus meningkat.",
   "adderallMilestone365Title": "Satu Tahun: Pemulihan Hampir Selesai",
   "adderallMilestone365Description": "Sistem dopamin otak Anda sebagian besar telah kembali berfungsi normal. Anda telah membuktikan ketahanan Anda dan membangun kembali hidup Anda tanpa ketergantungan pada stimulan. Pencapaian ini mewakili transformasi menyeluruh - rayakan seberapa jauh kemajuan Anda!",
-  "showAllItems": "Tampilkan semua item",
-  "showAllSubtitle": "Mengaktifkan atau menonaktifkan semua item layar utama",
-  "enableNotifications": "Aktifkan semua notifikasi",
-  "enableNotificationsSubtitle": "Aktifkan atau nonaktifkan semua notifikasi",
   "benzoPageTitle": "Benzodiazepin",
   "benzoHeaderStarted": "Perjalanan Pemulihan Anda",
   "benzoHeaderNotStarted": "Manfaat Berhenti dari Benzodiazepin",
@@ -546,15 +528,6 @@
       }
     }
   },
-  "hideDialogMessage": "Ini akan menyembunyikan opsi {title} dari layar beranda Anda. Anda dapat menampilkannya lagi di Pengaturan.",
-  "@hideDialogMessage": {
-    "description": "Message explaining what hiding an addiction does",
-    "placeholders": {
-      "title": {
-        "type": "String"
-      }
-    }
-  },
   "cancel": "Batal",
   "@cancel": {
     "description": "Cancel button text used throughout the app"
@@ -763,10 +736,6 @@
   "@settingsSectionSecurity": {
     "description": "Section header for security settings"
   },
-  "settingsSectionMainScreenItems": "Item Layar Utama",
-  "@settingsSectionMainScreenItems": {
-    "description": "Section header for main screen items settings"
-  },
   "settingsSectionNotifications": "Pemberitahuan",
   "@settingsSectionNotifications": {
     "description": "Section header for notification settings"
@@ -790,10 +759,6 @@
   "settingsPinTimeoutHint": "15",
   "@settingsPinTimeoutHint": {
     "description": "Hint text for PIN timeout field"
-  },
-  "settingsTheme": "Tema",
-  "@settingsTheme": {
-    "description": "Setting title for theme selection"
   },
   "settingsColorScheme": "Skema warna",
   "@settingsColorScheme": {
@@ -1036,10 +1001,6 @@
   "@pinDialogOK": {
     "description": "OK button in PIN dialog"
   },
-  "notificationFrequencyDialogTitle": "Frekuensi notifikasi",
-  "@notificationFrequencyDialogTitle": {
-    "description": "Dialog title for notification frequency settings"
-  },
   "notificationFrequencyNotifyEvery": "Beritahu setiap orang",
   "@notificationFrequencyNotifyEvery": {
     "description": "Label for notification frequency field"
@@ -1068,10 +1029,6 @@
         "type": "int"
       }
     }
-  },
-  "deleteEverythingDialogTitle": "Hapus semuanya",
-  "@deleteEverythingDialogTitle": {
-    "description": "Dialog title for delete everything confirmation"
   },
   "deleteEverythingDialogMessage": "Apakah Anda yakin Anda menghapus semuanya? Tindakan ini tidak dapat dibatalkan.",
   "@deleteEverythingDialogMessage": {
@@ -1121,14 +1078,6 @@
   "journalNextMonth": "Bulan Depan",
   "@journalNextMonth": {
     "description": "Tooltip for next month button in calendar"
-  },
-  "quitMilestonesStart": "Awal",
-  "@quitMilestonesStart": {
-    "description": "Button to start quit journey"
-  },
-  "quitMilestonesReset": "Atur Ulang",
-  "@quitMilestonesReset": {
-    "description": "Button to reset quit journey"
   },
   "quitMilestonesQuitDate": "Tanggal keluar",
   "@quitMilestonesQuitDate": {
@@ -1302,14 +1251,6 @@
   "whatsNewTitle": "Apa yang baru?",
   "@whatsNewTitle": {
     "description": "Title for what's new page"
-  },
-  "whatsNewSearchHint": "Cari...",
-  "@whatsNewSearchHint": {
-    "description": "Hint text for changelog search"
-  },
-  "whatsNewEnjoyingButton": "Menikmati aplikasinya?",
-  "@whatsNewEnjoyingButton": {
-    "description": "Button text to go to enjoying page from what's new"
   },
   "enjoyingPageTitle": "Suka aplikasinya?",
   "@enjoyingPageTitle": {
@@ -2025,46 +1966,6 @@
   "nicotinePouchesReferenceDay14": "Dua Minggu: Gejala Terus Mereda\n\nSumber: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nTinjauan tersebut menempatkan puncak umum putus nikotin sekitar hari ke-3 dan menyatakan bahwa gejala mereda selama 3–4 minggu berikutnya.\n\nJauh masuk fase penurunan\nPada dua minggu, kamu sudah jauh masuk ke jendela penurunan setelah puncak. Tinjauan ini membahas penggunaan kronis produk yang mengandung nikotin dan mencatat bahwa keparahan putus nikotin berbeda menurut cara nikotin dikonsumsi.\n\nDua minggu tanpa kantong nikotin adalah titik nyata pada kurva menurun: sindrom putus nikotin yang umum terus mereda.",
   "@nicotinePouchesReferenceDay14": {
     "description": "Nicotine pouches day 14 detailed reference"
-  },
-  "nicotinePouchesMilestone30Title": "Respon Stres Menjadi Normal",
-  "@nicotinePouchesMilestone30Title": {
-    "description": "Nicotine pouches milestone day 30 title"
-  },
-  "nicotinePouchesMilestone30Description": "Plot twist: nikotin sebenarnya meningkatkan stres di antara penggunaan! Respon kortisol dan stres Anda kembali normal. Relaksasi yang sesungguhnya, bukan nikotin yang dipalsukan.",
-  "@nicotinePouchesMilestone30Description": {
-    "description": "Nicotine pouches milestone day 30 description"
-  },
-  "nicotinePouchesMilestone60Title": "Kualitas Tidur Meningkat",
-  "@nicotinePouchesMilestone60Title": {
-    "description": "Nicotine pouches milestone day 60 title"
-  },
-  "nicotinePouchesMilestone60Description": "Mimpi indah terbuat dari... tanpa nikotin! Meskipun nikotin tampak menenangkan, sebenarnya nikotin mengganggu pola tidur. Dua bulan berlalu, dan siklus REM Anda pulih dengan indah.",
-  "@nicotinePouchesMilestone60Description": {
-    "description": "Nicotine pouches milestone day 60 description"
-  },
-  "nicotinePouchesMilestone90Title": "Reseptor Dopamin Pulih",
-  "@nicotinePouchesMilestone90Title": {
-    "description": "Nicotine pouches milestone day 90 title"
-  },
-  "nicotinePouchesMilestone90Description": "Sistem penghargaan otak Anda kembali online! Nikotin membajak jalur dopamin, membuat kesenangan normal terasa membosankan. Tiga bulan gratis, dan kegembiraan alami hidup kembali cerah.",
-  "@nicotinePouchesMilestone90Description": {
-    "description": "Nicotine pouches milestone day 90 description"
-  },
-  "nicotinePouchesMilestone180Title": "Penurunan Risiko Kardiovaskular",
-  "@nicotinePouchesMilestone180Title": {
-    "description": "Nicotine pouches milestone day 180 title"
-  },
-  "nicotinePouchesMilestone180Description": "Hatimu mengirimkan surat cinta! Enam bulan tanpa nikotin secara signifikan mengurangi risiko penyakit kardiovaskular. Variabilitas tekanan darah dan detak jantung Anda meningkat pesat.",
-  "@nicotinePouchesMilestone180Description": {
-    "description": "Nicotine pouches milestone day 180 description"
-  },
-  "nicotinePouchesMilestone365Title": "Kesehatan Jangka Panjang Terjamin",
-  "@nicotinePouchesMilestone365Title": {
-    "description": "Nicotine pouches milestone day 365 title"
-  },
-  "nicotinePouchesMilestone365Description": "Satu tahun kebebasan! Risiko Anda terhadap masalah kesehatan terkait nikotin terus menurun. Anda telah memutus siklus kecanduan dan mendapatkan kembali otonomi Anda. Itu sungguh heroik! 🏆",
-  "@nicotinePouchesMilestone365Description": {
-    "description": "Nicotine pouches milestone day 365 description"
   },
   "nicotinePouchesMilestone730Title": "Dua Tahun: Kuat Tanpa Kantong",
   "nicotinePouchesMilestone730Description": "Dua tahun penuh tanpa kantong nikotin. Riset belum menetapkan ambang pemulihan khusus pada dua tahun, jadi pencapaian ini merayakan dua tahun tanpa paparan nikotin berulang dari kantong dan perubahan yang berhasil dipertahankan.",

@@ -35,20 +35,6 @@
   "gabapentinoidsSubtitleNotStarted": "See what happens when you quit",
   "gabapentinoidsInfoBox": "Never stop gabapentin or pregabalin abruptly. Sudden discontinuation can trigger seizures — especially if you take them for epilepsy. A gradual, medically supervised taper is essential.",
   "addictionGabapentinoid": "Gabapentin / Pregabalin",
-  "gabapentinoidsMilestone1Title": "Taper, Don't Stop Suddenly",
-  "gabapentinoidsMilestone1Description": "Gabapentinoid withdrawal can begin within 12–48 hours. The critical risk is seizures on abrupt cessation, so these drugs must be tapered under medical guidance rather than stopped cold.",
-  "gabapentinoidsMilestone3Title": "Peak Withdrawal",
-  "gabapentinoidsMilestone3Description": "Symptoms typically peak around day 3: heightened anxiety, insomnia, sweating, nausea, and sometimes confusion. A supervised taper greatly reduces this.",
-  "gabapentinoidsMilestone7Title": "Acute Phase Easing",
-  "gabapentinoidsMilestone7Description": "Around days 7–10 the acute symptoms substantially decrease. A gradual taper keeps this window manageable.",
-  "gabapentinoidsMilestone14Title": "Sleep and Anxiety Settling",
-  "gabapentinoidsMilestone14Description": "Two weeks in, sleep and your usual anxiety levels are improving as the nervous system adapts to functioning without the drug.",
-  "gabapentinoidsMilestone30Title": "One Month Clear",
-  "gabapentinoidsMilestone30Description": "At a month most people are through withdrawal, with steadier mood, sleep, and clarity. Any lingering symptoms are usually mild.",
-  "gabapentinoidsMilestone90Title": "Stable and Adjusted",
-  "gabapentinoidsMilestone90Description": "Three months clear, the nervous system has fully readjusted. Most people feel stable, with normal sleep and mood.",
-  "gabapentinoidsMilestone180Title": "Half a Year Free",
-  "gabapentinoidsMilestone180Description": "Six months free. The drug is long gone from your routine, and any rebound symptoms have resolved.",
   "ghbPageTitle": "GHB Recovery",
   "ghbHeaderStarted": "Your Recovery Journey",
   "ghbHeaderNotStarted": "Benefits of Quitting GHB",
@@ -227,10 +213,6 @@
   "adderallMilestone180Description": "Dopamine signalling continues to recover. Focus, memory, mood, and day-to-day quality of life keep improving.",
   "adderallMilestone365Title": "One Year: Near-Complete Recovery",
   "adderallMilestone365Description": "Your brain's dopamine system has largely restored to normal functioning. You've proven your resilience and rebuilt your life without dependence on stimulants. This milestone represents a complete transformation - celebrate how far you've come!",
-  "showAllItems": "Show all items",
-  "showAllSubtitle": "Enable or disable all main screen items",
-  "enableNotifications": "Enable all notifications",
-  "enableNotificationsSubtitle": "Turn on or off all notifications",
   "benzoPageTitle": "Benzodiazepines",
   "benzoHeaderStarted": "Your Recovery Journey",
   "benzoHeaderNotStarted": "Benefits of Quitting Benzodiazepines",
@@ -546,15 +528,6 @@
       }
     }
   },
-  "hideDialogMessage": "This will hide the {title} option from your home screen. You can show it again in Settings.",
-  "@hideDialogMessage": {
-    "description": "Message explaining what hiding an addiction does",
-    "placeholders": {
-      "title": {
-        "type": "String"
-      }
-    }
-  },
   "cancel": "Cancel",
   "@cancel": {
     "description": "Cancel button text used throughout the app"
@@ -766,10 +739,6 @@
   "@settingsSectionSecurity": {
     "description": "Section header for security settings"
   },
-  "settingsSectionMainScreenItems": "Main Screen Items",
-  "@settingsSectionMainScreenItems": {
-    "description": "Section header for main screen items settings"
-  },
   "settingsSectionNotifications": "Notifications",
   "@settingsSectionNotifications": {
     "description": "Section header for notification settings"
@@ -793,10 +762,6 @@
   "settingsPinTimeoutHint": "15",
   "@settingsPinTimeoutHint": {
     "description": "Hint text for PIN timeout field"
-  },
-  "settingsTheme": "Theme",
-  "@settingsTheme": {
-    "description": "Setting title for theme selection"
   },
   "settingsColorScheme": "Color scheme",
   "@settingsColorScheme": {
@@ -1039,10 +1004,6 @@
   "@pinDialogOK": {
     "description": "OK button in PIN dialog"
   },
-  "notificationFrequencyDialogTitle": "Notification frequency",
-  "@notificationFrequencyDialogTitle": {
-    "description": "Dialog title for notification frequency settings"
-  },
   "notificationFrequencyNotifyEvery": "Notify every",
   "@notificationFrequencyNotifyEvery": {
     "description": "Label for notification frequency field"
@@ -1071,10 +1032,6 @@
         "type": "int"
       }
     }
-  },
-  "deleteEverythingDialogTitle": "Delete everything",
-  "@deleteEverythingDialogTitle": {
-    "description": "Dialog title for delete everything confirmation"
   },
   "deleteEverythingDialogMessage": "Are you sure you delete everything? This action cannot be undone.",
   "@deleteEverythingDialogMessage": {
@@ -1124,14 +1081,6 @@
   "journalNextMonth": "Next Month",
   "@journalNextMonth": {
     "description": "Tooltip for next month button in calendar"
-  },
-  "quitMilestonesStart": "Start",
-  "@quitMilestonesStart": {
-    "description": "Button to start quit journey"
-  },
-  "quitMilestonesReset": "Reset",
-  "@quitMilestonesReset": {
-    "description": "Button to reset quit journey"
   },
   "quitMilestonesQuitDate": "Quit date",
   "@quitMilestonesQuitDate": {
@@ -1305,14 +1254,6 @@
   "whatsNewTitle": "What's new?",
   "@whatsNewTitle": {
     "description": "Title for what's new page"
-  },
-  "whatsNewSearchHint": "Search...",
-  "@whatsNewSearchHint": {
-    "description": "Hint text for changelog search"
-  },
-  "whatsNewEnjoyingButton": "Enjoying the app?",
-  "@whatsNewEnjoyingButton": {
-    "description": "Button text to go to enjoying page from what's new"
   },
   "enjoyingPageTitle": "Enjoying the app?",
   "@enjoyingPageTitle": {
@@ -2064,46 +2005,6 @@
   "nicotinePouchesReferenceDay14": "Two Weeks: Withdrawal Keeps Easing\n\nSource: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nThe review places the typical nicotine-withdrawal peak around day 3 and says symptoms taper over the following 3–4 weeks.\n\nWell into the taper\nAt two weeks, you’re well into that post-peak taper window. The review covers chronic use of nicotine-containing products and notes that withdrawal severity varies with how nicotine was consumed.\n\nTwo weeks pouch-free is a concrete checkpoint on the downward curve: the typical withdrawal syndrome is continuing to ease.",
   "@nicotinePouchesReferenceDay14": {
     "description": "Nicotine pouches day 14 detailed reference"
-  },
-  "nicotinePouchesMilestone30Title": "Stress Response Normalizes",
-  "@nicotinePouchesMilestone30Title": {
-    "description": "Nicotine pouches milestone day 30 title"
-  },
-  "nicotinePouchesMilestone30Description": "Plot twist: nicotine actually increases stress between uses! Your cortisol and stress response are returning to normal. Real relaxation, not the nicotine fake-out.",
-  "@nicotinePouchesMilestone30Description": {
-    "description": "Nicotine pouches milestone day 30 description"
-  },
-  "nicotinePouchesMilestone60Title": "Sleep Quality Improves",
-  "@nicotinePouchesMilestone60Title": {
-    "description": "Nicotine pouches milestone day 60 title"
-  },
-  "nicotinePouchesMilestone60Description": "Sweet dreams are made of... no nicotine! While nicotine seems relaxing, it actually disrupts sleep architecture. Two months in, and your REM cycles are beautifully restored.",
-  "@nicotinePouchesMilestone60Description": {
-    "description": "Nicotine pouches milestone day 60 description"
-  },
-  "nicotinePouchesMilestone90Title": "Dopamine Receptors Recover",
-  "@nicotinePouchesMilestone90Title": {
-    "description": "Nicotine pouches milestone day 90 title"
-  },
-  "nicotinePouchesMilestone90Description": "Your brain's reward system is back online! Nicotine hijacks dopamine pathways, making normal pleasures seem dull. Three months free, and life's natural joys are vibrant again.",
-  "@nicotinePouchesMilestone90Description": {
-    "description": "Nicotine pouches milestone day 90 description"
-  },
-  "nicotinePouchesMilestone180Title": "Cardiovascular Risk Drops",
-  "@nicotinePouchesMilestone180Title": {
-    "description": "Nicotine pouches milestone day 180 title"
-  },
-  "nicotinePouchesMilestone180Description": "Your heart is sending love letters! Six months without nicotine significantly reduces cardiovascular disease risk. Your blood pressure and heart rate variability are vastly improved.",
-  "@nicotinePouchesMilestone180Description": {
-    "description": "Nicotine pouches milestone day 180 description"
-  },
-  "nicotinePouchesMilestone365Title": "Long-term Health Secured",
-  "@nicotinePouchesMilestone365Title": {
-    "description": "Nicotine pouches milestone day 365 title"
-  },
-  "nicotinePouchesMilestone365Description": "One year of freedom! Your risk of nicotine-related health issues continues to plummet. You've broken the addiction cycle and reclaimed your autonomy. That's genuinely heroic! 🏆",
-  "@nicotinePouchesMilestone365Description": {
-    "description": "Nicotine pouches milestone day 365 description"
   },
   "nicotinePouchesMilestone730Title": "Two Years: Pouch-Free Power",
   "@nicotinePouchesMilestone730Title": {

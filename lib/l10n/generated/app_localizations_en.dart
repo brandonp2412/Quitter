@@ -134,55 +134,6 @@ class AppLocalizationsEn extends AppLocalizations {
   String get addictionGabapentinoid => 'Gabapentin / Pregabalin';
 
   @override
-  String get gabapentinoidsMilestone1Title => 'Taper, Don\'t Stop Suddenly';
-
-  @override
-  String get gabapentinoidsMilestone1Description =>
-      'Gabapentinoid withdrawal can begin within 12–48 hours. The critical risk is seizures on abrupt cessation, so these drugs must be tapered under medical guidance rather than stopped cold.';
-
-  @override
-  String get gabapentinoidsMilestone3Title => 'Peak Withdrawal';
-
-  @override
-  String get gabapentinoidsMilestone3Description =>
-      'Symptoms typically peak around day 3: heightened anxiety, insomnia, sweating, nausea, and sometimes confusion. A supervised taper greatly reduces this.';
-
-  @override
-  String get gabapentinoidsMilestone7Title => 'Acute Phase Easing';
-
-  @override
-  String get gabapentinoidsMilestone7Description =>
-      'Around days 7–10 the acute symptoms substantially decrease. A gradual taper keeps this window manageable.';
-
-  @override
-  String get gabapentinoidsMilestone14Title => 'Sleep and Anxiety Settling';
-
-  @override
-  String get gabapentinoidsMilestone14Description =>
-      'Two weeks in, sleep and your usual anxiety levels are improving as the nervous system adapts to functioning without the drug.';
-
-  @override
-  String get gabapentinoidsMilestone30Title => 'One Month Clear';
-
-  @override
-  String get gabapentinoidsMilestone30Description =>
-      'At a month most people are through withdrawal, with steadier mood, sleep, and clarity. Any lingering symptoms are usually mild.';
-
-  @override
-  String get gabapentinoidsMilestone90Title => 'Stable and Adjusted';
-
-  @override
-  String get gabapentinoidsMilestone90Description =>
-      'Three months clear, the nervous system has fully readjusted. Most people feel stable, with normal sleep and mood.';
-
-  @override
-  String get gabapentinoidsMilestone180Title => 'Half a Year Free';
-
-  @override
-  String get gabapentinoidsMilestone180Description =>
-      'Six months free. The drug is long gone from your routine, and any rebound symptoms have resolved.';
-
-  @override
   String get ghbPageTitle => 'GHB Recovery';
 
   @override
@@ -783,18 +734,6 @@ class AppLocalizationsEn extends AppLocalizations {
       'Your brain\'s dopamine system has largely restored to normal functioning. You\'ve proven your resilience and rebuilt your life without dependence on stimulants. This milestone represents a complete transformation - celebrate how far you\'ve come!';
 
   @override
-  String get showAllItems => 'Show all items';
-
-  @override
-  String get showAllSubtitle => 'Enable or disable all main screen items';
-
-  @override
-  String get enableNotifications => 'Enable all notifications';
-
-  @override
-  String get enableNotificationsSubtitle => 'Turn on or off all notifications';
-
-  @override
   String get benzoPageTitle => 'Benzodiazepines';
 
   @override
@@ -1296,11 +1235,6 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
-  String hideDialogMessage(String title) {
-    return 'This will hide the $title option from your home screen. You can show it again in Settings.';
-  }
-
-  @override
   String get cancel => 'Cancel';
 
   @override
@@ -1461,9 +1395,6 @@ class AppLocalizationsEn extends AppLocalizations {
   String get settingsSectionSecurity => 'Security';
 
   @override
-  String get settingsSectionMainScreenItems => 'Main Screen Items';
-
-  @override
   String get settingsSectionNotifications => 'Notifications';
 
   @override
@@ -1480,9 +1411,6 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get settingsPinTimeoutHint => '15';
-
-  @override
-  String get settingsTheme => 'Theme';
 
   @override
   String get settingsColorScheme => 'Color scheme';
@@ -1692,9 +1620,6 @@ class AppLocalizationsEn extends AppLocalizations {
   String get pinDialogOK => 'OK';
 
   @override
-  String get notificationFrequencyDialogTitle => 'Notification frequency';
-
-  @override
   String get notificationFrequencyNotifyEvery => 'Notify every';
 
   @override
@@ -1719,9 +1644,6 @@ class AppLocalizationsEn extends AppLocalizations {
     );
     return 'You will see a notification like this every $_temp0 congratulating you on your progress!';
   }
-
-  @override
-  String get deleteEverythingDialogTitle => 'Delete everything';
 
   @override
   String get deleteEverythingDialogMessage =>
@@ -1760,12 +1682,6 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get journalNextMonth => 'Next Month';
-
-  @override
-  String get quitMilestonesStart => 'Start';
-
-  @override
-  String get quitMilestonesReset => 'Reset';
 
   @override
   String get quitMilestonesQuitDate => 'Quit date';
@@ -1897,12 +1813,6 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get whatsNewTitle => 'What\'s new?';
-
-  @override
-  String get whatsNewSearchHint => 'Search...';
-
-  @override
-  String get whatsNewEnjoyingButton => 'Enjoying the app?';
 
   @override
   String get enjoyingPageTitle => 'Enjoying the app?';
@@ -2568,41 +2478,6 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get nicotinePouchesReferenceDay14 =>
       'Two Weeks: Withdrawal Keeps Easing\n\nSource: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nThe review places the typical nicotine-withdrawal peak around day 3 and says symptoms taper over the following 3–4 weeks.\n\nWell into the taper\nAt two weeks, you’re well into that post-peak taper window. The review covers chronic use of nicotine-containing products and notes that withdrawal severity varies with how nicotine was consumed.\n\nTwo weeks pouch-free is a concrete checkpoint on the downward curve: the typical withdrawal syndrome is continuing to ease.';
-
-  @override
-  String get nicotinePouchesMilestone30Title => 'Stress Response Normalizes';
-
-  @override
-  String get nicotinePouchesMilestone30Description =>
-      'Plot twist: nicotine actually increases stress between uses! Your cortisol and stress response are returning to normal. Real relaxation, not the nicotine fake-out.';
-
-  @override
-  String get nicotinePouchesMilestone60Title => 'Sleep Quality Improves';
-
-  @override
-  String get nicotinePouchesMilestone60Description =>
-      'Sweet dreams are made of... no nicotine! While nicotine seems relaxing, it actually disrupts sleep architecture. Two months in, and your REM cycles are beautifully restored.';
-
-  @override
-  String get nicotinePouchesMilestone90Title => 'Dopamine Receptors Recover';
-
-  @override
-  String get nicotinePouchesMilestone90Description =>
-      'Your brain\'s reward system is back online! Nicotine hijacks dopamine pathways, making normal pleasures seem dull. Three months free, and life\'s natural joys are vibrant again.';
-
-  @override
-  String get nicotinePouchesMilestone180Title => 'Cardiovascular Risk Drops';
-
-  @override
-  String get nicotinePouchesMilestone180Description =>
-      'Your heart is sending love letters! Six months without nicotine significantly reduces cardiovascular disease risk. Your blood pressure and heart rate variability are vastly improved.';
-
-  @override
-  String get nicotinePouchesMilestone365Title => 'Long-term Health Secured';
-
-  @override
-  String get nicotinePouchesMilestone365Description =>
-      'One year of freedom! Your risk of nicotine-related health issues continues to plummet. You\'ve broken the addiction cycle and reclaimed your autonomy. That\'s genuinely heroic! 🏆';
 
   @override
   String get nicotinePouchesMilestone730Title => 'Two Years: Pouch-Free Power';

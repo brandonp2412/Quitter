@@ -133,55 +133,6 @@ class AppLocalizationsAr extends AppLocalizations {
   String get addictionGabapentinoid => 'جابابنتين / بريجابالين';
 
   @override
-  String get gabapentinoidsMilestone1Title => 'تفتق، لا تتوقف فجأة';
-
-  @override
-  String get gabapentinoidsMilestone1Description =>
-      'يمكن أن يبدأ انسحاب جابابنتينويد خلال 12-48 ساعة. ويتمثل الخطر الحاسم في حدوث النوبات عند التوقف المفاجئ، لذلك يجب تقليل هذه الأدوية تدريجيًا تحت إشراف طبي بدلاً من إيقافها باردًا.';
-
-  @override
-  String get gabapentinoidsMilestone3Title => 'ذروة الانسحاب';
-
-  @override
-  String get gabapentinoidsMilestone3Description =>
-      'عادةً ما تبلغ الأعراض ذروتها في اليوم الثالث تقريبًا: زيادة القلق، والأرق، والتعرق، والغثيان، وأحيانًا الارتباك. إن الاستدقاق الخاضع للإشراف يقلل من هذا بشكل كبير.';
-
-  @override
-  String get gabapentinoidsMilestone7Title => 'تخفيف المرحلة الحادة';
-
-  @override
-  String get gabapentinoidsMilestone7Description =>
-      'في حوالي الأيام 7-10، تنخفض الأعراض الحادة بشكل كبير. يؤدي الاستدقاق التدريجي إلى إبقاء هذه النافذة قابلة للإدارة.';
-
-  @override
-  String get gabapentinoidsMilestone14Title => 'تسوية النوم والقلق';
-
-  @override
-  String get gabapentinoidsMilestone14Description =>
-      'بعد أسبوعين، تتحسن مستويات النوم والقلق المعتادة لديك حيث يتكيف الجهاز العصبي مع العمل بدون الدواء.';
-
-  @override
-  String get gabapentinoidsMilestone30Title => 'شهر واحد واضح';
-
-  @override
-  String get gabapentinoidsMilestone30Description =>
-      'بعد مرور شهر، يمر معظم الأشخاص بالانسحاب، مع مزاج أكثر ثباتًا ونومًا ووضوحًا. عادة ما تكون أي أعراض باقية خفيفة.';
-
-  @override
-  String get gabapentinoidsMilestone90Title => 'مستقرة وتعديلها';
-
-  @override
-  String get gabapentinoidsMilestone90Description =>
-      'بعد مرور ثلاثة أشهر، تم إعادة ضبط الجهاز العصبي بالكامل. يشعر معظم الناس بالاستقرار، مع نوم طبيعي ومزاج طبيعي.';
-
-  @override
-  String get gabapentinoidsMilestone180Title => 'نصف سنة مجاناً';
-
-  @override
-  String get gabapentinoidsMilestone180Description =>
-      'ستة أشهر مجانية. لقد اختفى الدواء من روتينك منذ فترة طويلة، وتم حل أي أعراض ارتدادية.';
-
-  @override
   String get ghbPageTitle => 'استرداد GHB';
 
   @override
@@ -773,18 +724,6 @@ class AppLocalizationsAr extends AppLocalizations {
       'لقد استعاد نظام الدوبامين في دماغك إلى حد كبير عمله الطبيعي. لقد أثبتت مرونتك وأعدت بناء حياتك دون الاعتماد على المنشطات. يمثل هذا الإنجاز تحولًا كاملاً - احتفل بالمدى الذي وصلت إليه!';
 
   @override
-  String get showAllItems => 'إظهار كافة العناصر';
-
-  @override
-  String get showAllSubtitle => 'تمكين أو تعطيل كافة عناصر الشاشة الرئيسية';
-
-  @override
-  String get enableNotifications => 'تمكين كافة الإخطارات';
-
-  @override
-  String get enableNotificationsSubtitle => 'تشغيل أو إيقاف جميع الإشعارات';
-
-  @override
   String get benzoPageTitle => 'بنزوديازيبينات';
 
   @override
@@ -1286,11 +1225,6 @@ class AppLocalizationsAr extends AppLocalizations {
   }
 
   @override
-  String hideDialogMessage(String title) {
-    return 'سيؤدي هذا إلى إخفاء خيار $title من شاشتك الرئيسية. يمكنك إظهاره مرة أخرى في الإعدادات.';
-  }
-
-  @override
   String get cancel => 'يلغي';
 
   @override
@@ -1450,9 +1384,6 @@ class AppLocalizationsAr extends AppLocalizations {
   String get settingsSectionSecurity => 'حماية';
 
   @override
-  String get settingsSectionMainScreenItems => 'عناصر الشاشة الرئيسية';
-
-  @override
   String get settingsSectionNotifications => 'إشعارات';
 
   @override
@@ -1469,9 +1400,6 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get settingsPinTimeoutHint => '15';
-
-  @override
-  String get settingsTheme => 'سمة';
 
   @override
   String get settingsColorScheme => 'نظام الألوان';
@@ -1687,9 +1615,6 @@ class AppLocalizationsAr extends AppLocalizations {
   String get pinDialogOK => 'نعم';
 
   @override
-  String get notificationFrequencyDialogTitle => 'تردد الإخطار';
-
-  @override
   String get notificationFrequencyNotifyEvery => 'أبلغ كل';
 
   @override
@@ -1717,9 +1642,6 @@ class AppLocalizationsAr extends AppLocalizations {
     );
     return 'سترى إشعارًا كهذا كل $_temp0 لتهنئتك على تقدمك!';
   }
-
-  @override
-  String get deleteEverythingDialogTitle => 'احذف كل شيء';
 
   @override
   String get deleteEverythingDialogMessage =>
@@ -1758,12 +1680,6 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get journalNextMonth => 'الشهر المقبل';
-
-  @override
-  String get quitMilestonesStart => 'يبدأ';
-
-  @override
-  String get quitMilestonesReset => 'إعادة ضبط';
 
   @override
   String get quitMilestonesQuitDate => 'تاريخ الإقلاع عن التدخين';
@@ -1899,12 +1815,6 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get whatsNewTitle => 'ما الجديد؟';
-
-  @override
-  String get whatsNewSearchHint => 'يبحث...';
-
-  @override
-  String get whatsNewEnjoyingButton => 'تتمتع التطبيق؟';
 
   @override
   String get enjoyingPageTitle => 'تتمتع التطبيق؟';
@@ -2556,42 +2466,6 @@ class AppLocalizationsAr extends AppLocalizations {
   @override
   String get nicotinePouchesReferenceDay14 =>
       'أسبوعان: أعراض الانسحاب تواصل التراجع\n\nالمصدر: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nتضع المراجعة الذروة المعتادة لانسحاب النيكوتين قرابة اليوم الثالث وتذكر أن الأعراض تتراجع خلال الأسابيع 3–4 التالية.\n\nفي قلب مرحلة التراجع\nبعد أسبوعين تكون قد دخلت بوضوح في نافذة التراجع التي تلي الذروة. وتتناول المراجعة الاستخدام المزمن للمنتجات المحتوية على النيكوتين وتذكر أن شدة الانسحاب تختلف حسب طريقة تناول النيكوتين.\n\nأسبوعان بلا أكياس نيكوتين محطة واضحة على المنحنى الهابط: أعراض الانسحاب المعتادة تواصل التراجع.';
-
-  @override
-  String get nicotinePouchesMilestone30Title => 'تطبيع الاستجابة للإجهاد';
-
-  @override
-  String get nicotinePouchesMilestone30Description =>
-      'تطور الحبكة: النيكوتين يزيد التوتر بين مرات الاستخدام! تعود استجابة الكورتيزول والضغط النفسي إلى وضعها الطبيعي. الاسترخاء الحقيقي، وليس النيكوتين المزيف.';
-
-  @override
-  String get nicotinePouchesMilestone60Title => 'تتحسن جودة النوم';
-
-  @override
-  String get nicotinePouchesMilestone60Description =>
-      'الأحلام السعيدة مصنوعة من... خالية من النيكوتين! في حين أن النيكوتين يبدو مريحًا، إلا أنه في الواقع يعطل بنية النوم. بعد مرور شهرين، ستتم استعادة دورات حركة العين السريعة بشكل جميل.';
-
-  @override
-  String get nicotinePouchesMilestone90Title => 'استعادة مستقبلات الدوبامين';
-
-  @override
-  String get nicotinePouchesMilestone90Description =>
-      'لقد عاد نظام المكافأة في دماغك إلى العمل مرة أخرى! يخطف النيكوتين مسارات الدوبامين، مما يجعل الملذات الطبيعية تبدو مملة. ثلاثة أشهر مجانية، وستعود أفراح الحياة الطبيعية إلى الحياة مرة أخرى.';
-
-  @override
-  String get nicotinePouchesMilestone180Title =>
-      'قطرات خطر القلب والأوعية الدموية';
-
-  @override
-  String get nicotinePouchesMilestone180Description =>
-      'قلبك يرسل رسائل حب! ستة أشهر بدون النيكوتين تقلل بشكل كبير من خطر الإصابة بأمراض القلب والأوعية الدموية. تم تحسين ضغط الدم وتقلب معدل ضربات القلب بشكل كبير.';
-
-  @override
-  String get nicotinePouchesMilestone365Title => 'تأمين صحي على المدى الطويل';
-
-  @override
-  String get nicotinePouchesMilestone365Description =>
-      'سنة واحدة من الحرية! يستمر خطر تعرضك للمشاكل الصحية المرتبطة بالنيكوتين في الانخفاض. لقد كسرت دائرة الإدمان واستعادت استقلاليتك. وهذا بطولي حقا! 🏆';
 
   @override
   String get nicotinePouchesMilestone730Title => 'عامان: قوة بلا أكياس';

@@ -35,20 +35,6 @@
   "gabapentinoidsSubtitleNotStarted": "Zobacz, co się stanie, gdy odejdziesz.",
   "gabapentinoidsInfoBox": "Nigdy nie należy przerywać leczenia gabapentyną lub pregabaliną. Nagłe przerwanie leczenia może wywołać napady padaczkowe, szczególnie jeśli pacjent przyjmuje je z powodu padaczki.",
   "addictionGabapentinoid": "Gabapentyna / pregabalina",
-  "gabapentinoidsMilestone1Title": "Tapert, przestań nagle",
-  "gabapentinoidsMilestone1Description": "Odstawienie gabapentinoidu może rozpocząć się w ciągu 12 godzin. Ryzyko krytyczne to napady nagłego zaniku, więc leki te muszą być zmniejszone pod opieką lekarza, a nie zatrzymane.",
-  "gabapentinoidsMilestone3Title": "Szczyt wycofywania",
-  "gabapentinoidsMilestone3Description": "Objawy zazwyczaj szczytowe w ciągu dnia 3: zwiększona niepewność, w niektórych przypadkach, drenaż, nausea, a czasami mylące. Nadzorowany stożek znacznie to zmniejsza.",
-  "gabapentinoidsMilestone7Title": "Ostre łagodzenie fazy",
-  "gabapentinoidsMilestone7Description": "Stopniowe zmniejszanie dawki utrzymuje to okno pod kontrolą.",
-  "gabapentinoidsMilestone14Title": "Sen i lęk Oprawianie",
-  "gabapentinoidsMilestone14Description": "Dwa tygodnie w, sen i zwykle poziom lęku poprawia się, gdy układ nerwowy dostosowuje się do funkcjonowania bez narkotyku.",
-  "gabapentinoidsMilestone30Title": "Wyczyść miesiąc",
-  "gabapentinoidsMilestone30Description": "W ciągu miesiąca większość ludzi kończy z drawal. z twardszym nastroju, snu, i klarowności. Wszelkie utrzymujące się objawy są zwykle łagodne.",
-  "gabapentinoidsMilestone90Title": "Stabilny i skorygowany",
-  "gabapentinoidsMilestone90Description": "Większość ludzi czuje się stabilna, z normalnym snem i nastrojem.",
-  "gabapentinoidsMilestone180Title": "Pół roku za darmo",
-  "gabapentinoidsMilestone180Description": "Lek już dawno zniknął z twojej rutyny i wszystkie objawy ustąpiły.",
   "ghbPageTitle": "Odzyskiwanie GHB",
   "ghbHeaderStarted": "Twoja podróż po powrocie do zdrowia",
   "ghbHeaderNotStarted": "Korzyści wynikające z rezygnacji z GHB",
@@ -227,10 +213,6 @@
   "adderallMilestone180Description": "Sygnalizacja dopaminowa nadal się regeneruje. Koncentracja, pamięć, nastrój i codzienna jakość życia mogą dalej się poprawiać.",
   "adderallMilestone365Title": "Rok: daleko posunięta regeneracja",
   "adderallMilestone365Description": "Układ dopaminowy mózgu w dużej mierze odzyskał prawidłowe funkcjonowanie. Pokazujesz swoją odporność, budując życie bez zależności od stymulantów. Warto docenić, jak daleko udało Ci się dojść.",
-  "showAllItems": "Pokaż wszystkie elementy",
-  "showAllSubtitle": "Włącz lub wyłącz wszystkie główne elementy ekranu",
-  "enableNotifications": "Włącz wszystkie powiadomienia",
-  "enableNotificationsSubtitle": "Włącza lub wyłącza wszystkie powiadomienia",
   "benzoPageTitle": "Benzodiazepiny",
   "benzoHeaderStarted": "Twoja podróż po powrocie do zdrowia",
   "benzoHeaderNotStarted": "Korzyści z rzucenia benzodiazepin",
@@ -546,15 +528,6 @@
       }
     }
   },
-  "hideDialogMessage": "Spowoduje to ukrycie opcji {title} na ekranie głównym. Możesz ją ponownie wyświetlić w Ustawieniach.",
-  "@hideDialogMessage": {
-    "description": "Message explaining what hiding an addiction does",
-    "placeholders": {
-      "title": {
-        "type": "String"
-      }
-    }
-  },
   "cancel": "Anuluj",
   "@cancel": {
     "description": "Cancel button text used throughout the app"
@@ -763,10 +736,6 @@
   "@settingsSectionSecurity": {
     "description": "Section header for security settings"
   },
-  "settingsSectionMainScreenItems": "Elementy ekranu głównego",
-  "@settingsSectionMainScreenItems": {
-    "description": "Section header for main screen items settings"
-  },
   "settingsSectionNotifications": "Powiadomienia",
   "@settingsSectionNotifications": {
     "description": "Section header for notification settings"
@@ -790,10 +759,6 @@
   "settingsPinTimeoutHint": "15",
   "@settingsPinTimeoutHint": {
     "description": "Hint text for PIN timeout field"
-  },
-  "settingsTheme": "Motyw",
-  "@settingsTheme": {
-    "description": "Setting title for theme selection"
   },
   "settingsColorScheme": "Schemat kolorów",
   "@settingsColorScheme": {
@@ -1036,10 +1001,6 @@
   "@pinDialogOK": {
     "description": "OK button in PIN dialog"
   },
-  "notificationFrequencyDialogTitle": "Częstotliwość powiadomień",
-  "@notificationFrequencyDialogTitle": {
-    "description": "Dialog title for notification frequency settings"
-  },
   "notificationFrequencyNotifyEvery": "Powiadamiaj co",
   "@notificationFrequencyNotifyEvery": {
     "description": "Label for notification frequency field"
@@ -1068,10 +1029,6 @@
         "type": "int"
       }
     }
-  },
-  "deleteEverythingDialogTitle": "Usuń wszystko",
-  "@deleteEverythingDialogTitle": {
-    "description": "Dialog title for delete everything confirmation"
   },
   "deleteEverythingDialogMessage": "Jesteś pewien, że wszystko skasujesz?",
   "@deleteEverythingDialogMessage": {
@@ -1121,14 +1078,6 @@
   "journalNextMonth": "Następny miesiąc",
   "@journalNextMonth": {
     "description": "Tooltip for next month button in calendar"
-  },
-  "quitMilestonesStart": "Rozpocznij",
-  "@quitMilestonesStart": {
-    "description": "Button to start quit journey"
-  },
-  "quitMilestonesReset": "Resetuj",
-  "@quitMilestonesReset": {
-    "description": "Button to reset quit journey"
   },
   "quitMilestonesQuitDate": "Data zakończenia",
   "@quitMilestonesQuitDate": {
@@ -1302,14 +1251,6 @@
   "whatsNewTitle": "Co nowego?",
   "@whatsNewTitle": {
     "description": "Title for what's new page"
-  },
-  "whatsNewSearchHint": "Szukaj...",
-  "@whatsNewSearchHint": {
-    "description": "Hint text for changelog search"
-  },
-  "whatsNewEnjoyingButton": "Podoba ci się?",
-  "@whatsNewEnjoyingButton": {
-    "description": "Button text to go to enjoying page from what's new"
   },
   "enjoyingPageTitle": "Podoba ci się?",
   "@enjoyingPageTitle": {
@@ -2025,46 +1966,6 @@
   "nicotinePouchesReferenceDay14": "Dwa tygodnie: objawy dalej słabną\n\nŹródło: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nPrzegląd umieszcza typowy szczyt odstawienia nikotyny około 3. dnia i podaje, że objawy słabną przez kolejne 3–4 tygodnie.\n\nGłęboko w fazie wygaszania\nPo dwóch tygodniach jesteś już wyraźnie w okresie wygaszania po szczycie. Przegląd dotyczy przewlekłego używania produktów zawierających nikotynę i zaznacza, że nasilenie odstawienia różni się zależnie od sposobu przyjmowania nikotyny.\n\nDwa tygodnie bez saszetek to konkretny punkt na opadającej krzywej: typowe objawy odstawienia nadal słabną.",
   "@nicotinePouchesReferenceDay14": {
     "description": "Nicotine pouches day 14 detailed reference"
-  },
-  "nicotinePouchesMilestone30Title": "Odpowiedź na stres normalizuje",
-  "@nicotinePouchesMilestone30Title": {
-    "description": "Nicotine pouches milestone day 30 title"
-  },
-  "nicotinePouchesMilestone30Description": "Twist spot: nikotyna rzeczywiście zwiększa stres między użytkownikami! Twoja cortysol i reakcja na stres wracają do normy. Prawdziwe odprężenie, a nie nikotyny udawanie – out.",
-  "@nicotinePouchesMilestone30Description": {
-    "description": "Nicotine pouches milestone day 30 description"
-  },
-  "nicotinePouchesMilestone60Title": "Poprawa jakości snu",
-  "@nicotinePouchesMilestone60Title": {
-    "description": "Nicotine pouches milestone day 60 title"
-  },
-  "nicotinePouchesMilestone60Description": "Słodkie sny są wykonane z... bez nikotyny! Podczas gdy nikotyna wydaje się relaksujące, to faktycznie zakłóca architekturę snu. Dwa miesiące w, i twoje cykle REM są pięknie restore.",
-  "@nicotinePouchesMilestone60Description": {
-    "description": "Nicotine pouches milestone day 60 description"
-  },
-  "nicotinePouchesMilestone90Title": "Receptory dopaminowe Recover",
-  "@nicotinePouchesMilestone90Title": {
-    "description": "Nicotine pouches milestone day 90 title"
-  },
-  "nicotinePouchesMilestone90Description": "Twój system nagród mózgu jest z powrotem na linii! Nikotyna porywają dopaminę pathways, co normalne przyjemności wydają się głupie. Trzy miesiące za darmo, i życia naturalne radości są żywe ponownie.",
-  "@nicotinePouchesMilestone90Description": {
-    "description": "Nicotine pouches milestone day 90 description"
-  },
-  "nicotinePouchesMilestone180Title": "Krople ryzyka sercowo- naczyniowego",
-  "@nicotinePouchesMilestone180Title": {
-    "description": "Nicotine pouches milestone day 180 title"
-  },
-  "nicotinePouchesMilestone180Description": "Twoje serce wysyła listy miłosne! Sześć miesięcy bez nikotyny znacznie zmniejsza ryzyko chorób sercowo – naczyniowych. Twoje ciśnienie krwi i zmienność tętna są znacznie poprawione.",
-  "@nicotinePouchesMilestone180Description": {
-    "description": "Nicotine pouches milestone day 180 description"
-  },
-  "nicotinePouchesMilestone365Title": "Długoterminowe ubezpieczenia zdrowotne",
-  "@nicotinePouchesMilestone365Title": {
-    "description": "Nicotine pouches milestone day 365 title"
-  },
-  "nicotinePouchesMilestone365Description": "Rok wolności! Twoje ryzyko problemów zdrowotnych związanych z nikotyną nadal spada.",
-  "@nicotinePouchesMilestone365Description": {
-    "description": "Nicotine pouches milestone day 365 description"
   },
   "nicotinePouchesMilestone730Title": "Dwa lata: siła bez saszetek",
   "nicotinePouchesMilestone730Description": "Pełne dwa lata bez saszetek nikotynowych. Badania nie potwierdzają szczególnego progu zdrowienia po dwóch latach, więc ten kamień milowy świętuje dwa lata bez powtarzanej ekspozycji na nikotynę z saszetek i zmianę, którą udało się utrzymać.",

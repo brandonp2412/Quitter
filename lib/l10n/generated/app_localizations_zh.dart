@@ -130,55 +130,6 @@ class AppLocalizationsZh extends AppLocalizations {
   String get addictionGabapentinoid => '加巴喷丁/普瑞巴林';
 
   @override
-  String get gabapentinoidsMilestone1Title => '逐步减量，勿突然停药';
-
-  @override
-  String get gabapentinoidsMilestone1Description =>
-      '加巴喷丁类药物戒断可能在12-48小时内开始。突然停药的关键风险是癫痫发作，因此这些药物必须在医生指导下逐步减量，而不是骤停。';
-
-  @override
-  String get gabapentinoidsMilestone3Title => '戒断高峰';
-
-  @override
-  String get gabapentinoidsMilestone3Description =>
-      '症状通常在第三天左右达到高峰：焦虑加剧、失眠、出汗、恶心，有时还有混乱。在监督下减量可以大大减轻这些症状。';
-
-  @override
-  String get gabapentinoidsMilestone7Title => '急性期缓解';
-
-  @override
-  String get gabapentinoidsMilestone7Description =>
-      '在第7-10天左右，急性症状大幅减轻。逐步减量使这段时间变得可控。';
-
-  @override
-  String get gabapentinoidsMilestone14Title => '睡眠和焦虑趋于稳定';
-
-  @override
-  String get gabapentinoidsMilestone14Description =>
-      '两周后，随着神经系统适应在没有药物的情况下运作，睡眠和您平时的焦虑水平正在改善。';
-
-  @override
-  String get gabapentinoidsMilestone30Title => '停药一个月';
-
-  @override
-  String get gabapentinoidsMilestone30Description =>
-      '一个月时大多数人已经度过戒断期，情绪、睡眠和思维清晰度更稳定。任何残留症状通常都很轻微。';
-
-  @override
-  String get gabapentinoidsMilestone90Title => '稳定且已适应';
-
-  @override
-  String get gabapentinoidsMilestone90Description =>
-      '停药三个月后，神经系统已经完成重新适应。大多数人状态稳定，睡眠和情绪恢复正常。';
-
-  @override
-  String get gabapentinoidsMilestone180Title => '停用半年';
-
-  @override
-  String get gabapentinoidsMilestone180Description =>
-      '已停用六个月。药物早已不再出现在日常生活中，任何反跳症状也已消退。';
-
-  @override
   String get ghbPageTitle => 'GHB戒断';
 
   @override
@@ -759,18 +710,6 @@ class AppLocalizationsZh extends AppLocalizations {
       '您大脑的多巴胺系统已基本恢复至正常功能。您已经证明了您的韧性，并在没有依赖兴奋剂的情况下重建了生活。这个里程碑代表了一个完整的转变——庆祝您走了多远！';
 
   @override
-  String get showAllItems => '显示所有项目';
-
-  @override
-  String get showAllSubtitle => '启用或禁用所有主屏幕项目';
-
-  @override
-  String get enableNotifications => '启用所有通知';
-
-  @override
-  String get enableNotificationsSubtitle => '打开或关闭所有通知';
-
-  @override
   String get benzoPageTitle => '苯二氮卓戒断';
 
   @override
@@ -1252,11 +1191,6 @@ class AppLocalizationsZh extends AppLocalizations {
   }
 
   @override
-  String hideDialogMessage(String title) {
-    return '这将从主屏幕隐藏 $title 选项。您可以在设置中再次显示它。';
-  }
-
-  @override
   String get cancel => '取消';
 
   @override
@@ -1414,9 +1348,6 @@ class AppLocalizationsZh extends AppLocalizations {
   String get settingsSectionSecurity => '安全';
 
   @override
-  String get settingsSectionMainScreenItems => '主屏幕项目';
-
-  @override
   String get settingsSectionNotifications => '通知';
 
   @override
@@ -1433,9 +1364,6 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get settingsPinTimeoutHint => '15';
-
-  @override
-  String get settingsTheme => '主题';
 
   @override
   String get settingsColorScheme => '配色方案';
@@ -1631,9 +1559,6 @@ class AppLocalizationsZh extends AppLocalizations {
   String get pinDialogOK => '确定';
 
   @override
-  String get notificationFrequencyDialogTitle => '通知频率';
-
-  @override
   String get notificationFrequencyNotifyEvery => '通知间隔';
 
   @override
@@ -1652,9 +1577,6 @@ class AppLocalizationsZh extends AppLocalizations {
   String notificationTestBody(int days) {
     return '您将每 $days 天看到这样一条通知，祝贺您的进步！';
   }
-
-  @override
-  String get deleteEverythingDialogTitle => '删除所有数据';
 
   @override
   String get deleteEverythingDialogMessage => '确定要删除所有数据吗？此操作无法撤销。';
@@ -1690,12 +1612,6 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get journalNextMonth => '下个月';
-
-  @override
-  String get quitMilestonesStart => '开始';
-
-  @override
-  String get quitMilestonesReset => '重置';
 
   @override
   String get quitMilestonesQuitDate => '戒除日期';
@@ -1813,12 +1729,6 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get whatsNewTitle => '新功能？';
-
-  @override
-  String get whatsNewSearchHint => '搜索...';
-
-  @override
-  String get whatsNewEnjoyingButton => '喜欢这个应用吗？';
 
   @override
   String get enjoyingPageTitle => '喜欢这个应用吗？';
@@ -2443,41 +2353,6 @@ class AppLocalizationsZh extends AppLocalizations {
   @override
   String get nicotinePouchesReferenceDay14 =>
       '两周：戒断继续缓解\n\n来源：McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\n这篇综述将尼古丁戒断的典型高峰放在第3天左右，并指出症状会在随后3–4周逐渐减轻。\n\n深入缓解阶段\n到两周时，你已经深入高峰后的缓解窗口。综述涵盖长期使用含尼古丁产品，并指出戒断强度会随尼古丁摄入方式不同而变化。\n\n停用尼古丁袋两周，是下降曲线上的一个明确节点：典型戒断症状仍在继续减轻。';
-
-  @override
-  String get nicotinePouchesMilestone30Title => '应激反应正常化';
-
-  @override
-  String get nicotinePouchesMilestone30Description =>
-      '可能有些意外：尼古丁实际上会增加两次使用之间的压力。皮质醇水平和应激反应正在恢复正常，您也在重新体验不依赖尼古丁的放松。';
-
-  @override
-  String get nicotinePouchesMilestone60Title => '睡眠质量改善';
-
-  @override
-  String get nicotinePouchesMilestone60Description =>
-      '不再使用尼古丁后，睡眠正在变得更稳定。尼古丁看似能让人放松，实际上会扰乱睡眠结构。两个月后，REM睡眠周期也在逐步恢复。';
-
-  @override
-  String get nicotinePouchesMilestone90Title => '多巴胺受体恢复';
-
-  @override
-  String get nicotinePouchesMilestone90Description =>
-      '大脑的奖赏系统正在恢复。尼古丁会劫持多巴胺通路，让日常乐趣变得平淡。停用三个月后，生活中的自然愉悦感正在重新变得鲜明。';
-
-  @override
-  String get nicotinePouchesMilestone180Title => '心血管风险降低';
-
-  @override
-  String get nicotinePouchesMilestone180Description =>
-      '不使用尼古丁已六个月，心血管疾病风险显著降低，血压和心率变异性也明显改善。';
-
-  @override
-  String get nicotinePouchesMilestone365Title => '长期健康得到保障';
-
-  @override
-  String get nicotinePouchesMilestone365Description =>
-      '停用尼古丁袋整整一年！尼古丁相关健康问题的风险继续下降。您已经打破成瘾循环，重新掌握了自己的选择。这是非常了不起的成就！ 🏆';
 
   @override
   String get nicotinePouchesMilestone730Title => '两年：无尼古丁袋的力量';
@@ -4601,55 +4476,6 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   String get addictionGabapentinoid => '加巴噴丁/普瑞巴林';
 
   @override
-  String get gabapentinoidsMilestone1Title => '逐步減量，勿突然停藥';
-
-  @override
-  String get gabapentinoidsMilestone1Description =>
-      '加巴噴丁類藥物戒斷可能在12-48小時內開始。突然停藥的關鍵風險是癲癇發作，因此這些藥物必須在醫生指導下逐步減量，而不是驟停。';
-
-  @override
-  String get gabapentinoidsMilestone3Title => '戒斷高峰';
-
-  @override
-  String get gabapentinoidsMilestone3Description =>
-      '症狀通常在第三天左右達到高峰：焦慮加劇、失眠、出汗、惡心，有時還有混亂。在監督下減量可以大大減輕這些症狀。';
-
-  @override
-  String get gabapentinoidsMilestone7Title => '急性期緩解';
-
-  @override
-  String get gabapentinoidsMilestone7Description =>
-      '在第7-10天左右，急性症狀大幅減輕。逐步減量使這段時間變得可控。';
-
-  @override
-  String get gabapentinoidsMilestone14Title => '睡眠和焦慮趨於穩定';
-
-  @override
-  String get gabapentinoidsMilestone14Description =>
-      '兩周後，隨著神經系統適應在沒有藥物的情況下運作，睡眠和您平時的焦慮水平正在改善。';
-
-  @override
-  String get gabapentinoidsMilestone30Title => '停藥一個月';
-
-  @override
-  String get gabapentinoidsMilestone30Description =>
-      '一個月時大多數人已經度過戒斷期，情緒、睡眠和思維清晰度更穩定。任何殘留症狀通常都很輕微。';
-
-  @override
-  String get gabapentinoidsMilestone90Title => '穩定且已適應';
-
-  @override
-  String get gabapentinoidsMilestone90Description =>
-      '停藥三個月後，神經系統已經完成重新適應。大多數人狀態穩定，睡眠和情緒恢復正常。';
-
-  @override
-  String get gabapentinoidsMilestone180Title => '停用半年';
-
-  @override
-  String get gabapentinoidsMilestone180Description =>
-      '已停用六個月。藥物早已不再出現在日常生活中，任何反跳症狀也已消退。';
-
-  @override
   String get ghbPageTitle => 'GHB戒斷';
 
   @override
@@ -5230,18 +5056,6 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
       '您大腦的多巴胺系統已基本恢復至正常功能。您已經證明瞭您的韌性，並在沒有依賴興奮劑的情況下重建了生活。這個里程碑代表了一個完整的轉變——慶祝您走了多遠！';
 
   @override
-  String get showAllItems => '顯示所有項目';
-
-  @override
-  String get showAllSubtitle => '啓用或禁用所有主屏幕項目';
-
-  @override
-  String get enableNotifications => '啓用所有通知';
-
-  @override
-  String get enableNotificationsSubtitle => '打開或關閉所有通知';
-
-  @override
   String get benzoPageTitle => '苯二氮卓戒斷';
 
   @override
@@ -5723,11 +5537,6 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   }
 
   @override
-  String hideDialogMessage(String title) {
-    return '這將從主屏幕隱藏 $title 選項。您可以在設置中再次顯示它。';
-  }
-
-  @override
   String get cancel => '取消';
 
   @override
@@ -5885,9 +5694,6 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   String get settingsSectionSecurity => '安全';
 
   @override
-  String get settingsSectionMainScreenItems => '主屏幕項目';
-
-  @override
   String get settingsSectionNotifications => '通知';
 
   @override
@@ -5904,9 +5710,6 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get settingsPinTimeoutHint => '15';
-
-  @override
-  String get settingsTheme => '主題';
 
   @override
   String get settingsColorScheme => '配色方案';
@@ -6102,9 +5905,6 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   String get pinDialogOK => '確定';
 
   @override
-  String get notificationFrequencyDialogTitle => '通知頻率';
-
-  @override
   String get notificationFrequencyNotifyEvery => '通知間隔';
 
   @override
@@ -6123,9 +5923,6 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   String notificationTestBody(int days) {
     return '您將每 $days 天看到這樣一條通知，祝賀您的進步！';
   }
-
-  @override
-  String get deleteEverythingDialogTitle => '刪除所有數據';
 
   @override
   String get deleteEverythingDialogMessage => '確定要刪除所有數據嗎？此操作無法撤銷。';
@@ -6161,12 +5958,6 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get journalNextMonth => '下個月';
-
-  @override
-  String get quitMilestonesStart => '開始';
-
-  @override
-  String get quitMilestonesReset => '重置';
 
   @override
   String get quitMilestonesQuitDate => '戒除日期';
@@ -6284,12 +6075,6 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get whatsNewTitle => '新功能？';
-
-  @override
-  String get whatsNewSearchHint => '搜索...';
-
-  @override
-  String get whatsNewEnjoyingButton => '喜歡這個應用嗎？';
 
   @override
   String get enjoyingPageTitle => '喜歡這個應用嗎？';
@@ -6914,41 +6699,6 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   @override
   String get nicotinePouchesReferenceDay14 =>
       '兩週：戒斷持續緩解\n\n來源：McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\n這篇綜述將尼古丁戒斷的典型高峰放在第3天左右，並指出症狀會在隨後3–4週逐漸減輕。\n\n深入緩解階段\n到兩週時，你已經深入高峰後的緩解窗口。綜述涵蓋長期使用含尼古丁產品，並指出戒斷強度會隨尼古丁攝取方式不同而變化。\n\n停用尼古丁袋兩週，是下降曲線上的一個明確節點：典型戒斷症狀仍在持續減輕。';
-
-  @override
-  String get nicotinePouchesMilestone30Title => '應激反應正常化';
-
-  @override
-  String get nicotinePouchesMilestone30Description =>
-      '可能有些意外：尼古丁實際上會增加兩次使用之間的壓力。皮質醇水平和應激反應正在恢復正常，您也在重新體驗不依賴尼古丁的放松。';
-
-  @override
-  String get nicotinePouchesMilestone60Title => '睡眠質量改善';
-
-  @override
-  String get nicotinePouchesMilestone60Description =>
-      '不再使用尼古丁後，睡眠正在變得更穩定。尼古丁看似能讓人放松，實際上會擾亂睡眠結構。兩個月後，REM睡眠週期也在逐步恢復。';
-
-  @override
-  String get nicotinePouchesMilestone90Title => '多巴胺受體恢復';
-
-  @override
-  String get nicotinePouchesMilestone90Description =>
-      '大腦的獎賞系統正在恢復。尼古丁會劫持多巴胺通路，讓日常樂趣變得平淡。停用三個月後，生活中的自然愉悅感正在重新變得鮮明。';
-
-  @override
-  String get nicotinePouchesMilestone180Title => '心血管風險降低';
-
-  @override
-  String get nicotinePouchesMilestone180Description =>
-      '不使用尼古丁已六個月，心血管疾病風險顯著降低，血壓和心率變異性也明顯改善。';
-
-  @override
-  String get nicotinePouchesMilestone365Title => '長期健康得到保障';
-
-  @override
-  String get nicotinePouchesMilestone365Description =>
-      '停用尼古丁袋整整一年！尼古丁相關健康問題的風險繼續下降。您已經打破成癮循環，重新掌握了自己的選擇。這是非常了不起的成就！ 🏆';
 
   @override
   String get nicotinePouchesMilestone730Title => '兩年：無尼古丁袋的力量';

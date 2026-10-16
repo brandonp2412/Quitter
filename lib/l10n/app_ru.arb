@@ -35,20 +35,6 @@
   "gabapentinoidsSubtitleNotStarted": "Посмотрите, что произойдёт после отказа",
   "gabapentinoidsInfoBox": "Никогда не прекращайте прием габапентина или прегабалина резко. Внезапное прекращение приема может спровоцировать судороги, особенно если вы принимаете их от эпилепсии. Важно постепенное снижение дозы под медицинским наблюдением.",
   "addictionGabapentinoid": "Габапентин/Прегабалин",
-  "gabapentinoidsMilestone1Title": "Снижайся, не останавливайся внезапно",
-  "gabapentinoidsMilestone1Description": "Отмена габапентиноидов может начаться в течение 12–48 часов. Критическим риском являются судороги при резком прекращении приема, поэтому прием этих препаратов необходимо постепенно снижать под медицинским руководством, а не прекращать прием в холодном состоянии.",
-  "gabapentinoidsMilestone3Title": "Пик абстиненции",
-  "gabapentinoidsMilestone3Description": "Симптомы обычно достигают максимума примерно на третий день: повышенная тревожность, бессонница, потливость, тошнота и иногда спутанность сознания. Постепенное снижение дозы под наблюдением значительно смягчает эти симптомы.",
-  "gabapentinoidsMilestone7Title": "Ослабление острой фазы",
-  "gabapentinoidsMilestone7Description": "Примерно на 7–10-й день острые симптомы существенно уменьшаются. Постепенное сужение делает это окно управляемым.",
-  "gabapentinoidsMilestone14Title": "Урегулирование сна и беспокойства",
-  "gabapentinoidsMilestone14Description": "Через две недели сон и ваш обычный уровень тревоги улучшаются, поскольку нервная система адаптируется к функционированию без препарата.",
-  "gabapentinoidsMilestone30Title": "Месяц без габапентиноидов",
-  "gabapentinoidsMilestone30Description": "Через месяц у большинства людей синдром отмены уже позади: настроение и сон становятся стабильнее, а мышление — яснее. Оставшиеся симптомы обычно выражены слабо.",
-  "gabapentinoidsMilestone90Title": "Стабильный и отрегулированный",
-  "gabapentinoidsMilestone90Description": "Через три месяца после прекращения приёма нервная система полностью адаптируется. Большинство людей чувствуют себя стабильно, сон и настроение возвращаются к норме.",
-  "gabapentinoidsMilestone180Title": "Полгода без габапентиноидов",
-  "gabapentinoidsMilestone180Description": "Шесть месяцев без габапентиноидов. Препарат давно исчез из повседневной жизни, а симптомы отмены и рикошета уже прошли.",
   "ghbPageTitle": "ГОМК",
   "ghbHeaderStarted": "Ваш путь восстановления",
   "ghbHeaderNotStarted": "Преимущества отказа от ГОМК",
@@ -227,10 +213,6 @@
   "adderallMilestone180Description": "Передача сигналов дофамина продолжает восстанавливаться. Фокусировка, память, настроение и качество повседневной жизни продолжают улучшаться.",
   "adderallMilestone365Title": "Один год: почти полное выздоровление",
   "adderallMilestone365Description": "Дофаминовая система вашего мозга в значительной степени восстановила нормальное функционирование. Вы доказали свою устойчивость и перестроили свою жизнь без зависимости от стимуляторов. Эта веха представляет собой полную трансформацию — отметьте, как далеко вы продвинулись!",
-  "showAllItems": "Показать все элементы",
-  "showAllSubtitle": "Включить или отключить все элементы главного экрана",
-  "enableNotifications": "Включить все уведомления",
-  "enableNotificationsSubtitle": "Включить или отключить все уведомления",
   "benzoPageTitle": "Бензодиазепины",
   "benzoHeaderStarted": "Ваш путь восстановления",
   "benzoHeaderNotStarted": "Преимущества отказа от бензодиазепинов",
@@ -546,15 +528,6 @@
       }
     }
   },
-  "hideDialogMessage": "Это скроет опцию {title} с главного экрана. Вы можете показать его снова в настройках.",
-  "@hideDialogMessage": {
-    "description": "Message explaining what hiding an addiction does",
-    "placeholders": {
-      "title": {
-        "type": "String"
-      }
-    }
-  },
   "cancel": "Отмена",
   "@cancel": {
     "description": "Cancel button text used throughout the app"
@@ -760,10 +733,6 @@
   "@settingsSectionSecurity": {
     "description": "Section header for security settings"
   },
-  "settingsSectionMainScreenItems": "Элементы главного экрана",
-  "@settingsSectionMainScreenItems": {
-    "description": "Section header for main screen items settings"
-  },
   "settingsSectionNotifications": "Уведомления",
   "@settingsSectionNotifications": {
     "description": "Section header for notification settings"
@@ -787,10 +756,6 @@
   "settingsPinTimeoutHint": "15",
   "@settingsPinTimeoutHint": {
     "description": "Hint text for PIN timeout field"
-  },
-  "settingsTheme": "Тема",
-  "@settingsTheme": {
-    "description": "Setting title for theme selection"
   },
   "settingsColorScheme": "Цветовая гамма",
   "@settingsColorScheme": {
@@ -1033,10 +998,6 @@
   "@pinDialogOK": {
     "description": "OK button in PIN dialog"
   },
-  "notificationFrequencyDialogTitle": "Частота уведомлений",
-  "@notificationFrequencyDialogTitle": {
-    "description": "Dialog title for notification frequency settings"
-  },
   "notificationFrequencyNotifyEvery": "Уведомлять каждые",
   "@notificationFrequencyNotifyEvery": {
     "description": "Label for notification frequency field"
@@ -1065,10 +1026,6 @@
         "type": "int"
       }
     }
-  },
-  "deleteEverythingDialogTitle": "Удалить все",
-  "@deleteEverythingDialogTitle": {
-    "description": "Dialog title for delete everything confirmation"
   },
   "deleteEverythingDialogMessage": "Вы уверены, что хотите удалить всё? Это действие невозможно отменить.",
   "@deleteEverythingDialogMessage": {
@@ -1118,14 +1075,6 @@
   "journalNextMonth": "Следующий месяц",
   "@journalNextMonth": {
     "description": "Tooltip for next month button in calendar"
-  },
-  "quitMilestonesStart": "Старт",
-  "@quitMilestonesStart": {
-    "description": "Button to start quit journey"
-  },
-  "quitMilestonesReset": "Сброс",
-  "@quitMilestonesReset": {
-    "description": "Button to reset quit journey"
   },
   "quitMilestonesQuitDate": "Дата отказа",
   "@quitMilestonesQuitDate": {
@@ -1299,14 +1248,6 @@
   "whatsNewTitle": "Что нового?",
   "@whatsNewTitle": {
     "description": "Title for what's new page"
-  },
-  "whatsNewSearchHint": "Искать...",
-  "@whatsNewSearchHint": {
-    "description": "Hint text for changelog search"
-  },
-  "whatsNewEnjoyingButton": "Нравится приложение?",
-  "@whatsNewEnjoyingButton": {
-    "description": "Button text to go to enjoying page from what's new"
   },
   "enjoyingPageTitle": "Нравится?",
   "@enjoyingPageTitle": {
@@ -2022,46 +1963,6 @@
   "nicotinePouchesReferenceDay14": "Две недели: симптомы продолжают ослабевать\n\nИсточник: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nОбзор помещает типичный пик никотиновой отмены примерно на 3-й день и сообщает, что симптомы ослабевают в течение следующих 3–4 недель.\n\nУже глубоко в фазе снижения\nЧерез две недели вы уже далеко продвинулись в периоде снижения после пика. Обзор касается хронического употребления никотинсодержащих продуктов и отмечает, что выраженность отмены зависит от способа употребления никотина.\n\nДве недели без пакетиков — конкретная точка на нисходящей кривой: типичный синдром отмены продолжает ослабевать.",
   "@nicotinePouchesReferenceDay14": {
     "description": "Nicotine pouches day 14 detailed reference"
-  },
-  "nicotinePouchesMilestone30Title": "Реакция на стресс нормализуется",
-  "@nicotinePouchesMilestone30Title": {
-    "description": "Nicotine pouches milestone day 30 title"
-  },
-  "nicotinePouchesMilestone30Description": "Поворот сюжета: никотин на самом деле увеличивает стресс между употреблением! Ваш кортизол и реакция на стресс возвращаются в норму. Настоящее расслабление, а не никотиновый обман.",
-  "@nicotinePouchesMilestone30Description": {
-    "description": "Nicotine pouches milestone day 30 description"
-  },
-  "nicotinePouchesMilestone60Title": "Качество сна улучшается",
-  "@nicotinePouchesMilestone60Title": {
-    "description": "Nicotine pouches milestone day 60 title"
-  },
-  "nicotinePouchesMilestone60Description": "Сладкие сны состоят из... никакого никотина! Хотя никотин кажется расслабляющим, на самом деле он нарушает структуру сна. Прошло два месяца, и ваши циклы быстрого сна прекрасно восстановились.",
-  "@nicotinePouchesMilestone60Description": {
-    "description": "Nicotine pouches milestone day 60 description"
-  },
-  "nicotinePouchesMilestone90Title": "Дофаминовые рецепторы восстанавливаются",
-  "@nicotinePouchesMilestone90Title": {
-    "description": "Nicotine pouches milestone day 90 title"
-  },
-  "nicotinePouchesMilestone90Description": "Система вознаграждения вашего мозга снова работает! Никотин захватывает дофаминовые пути, из-за чего обычные удовольствия кажутся скучными. Три месяца без никотиновых пакетиков — и естественные радости жизни снова ощущаются ярко.",
-  "@nicotinePouchesMilestone90Description": {
-    "description": "Nicotine pouches milestone day 90 description"
-  },
-  "nicotinePouchesMilestone180Title": "Сердечно-сосудистый риск снижается",
-  "@nicotinePouchesMilestone180Title": {
-    "description": "Nicotine pouches milestone day 180 title"
-  },
-  "nicotinePouchesMilestone180Description": "Ваше сердце шлет любовные письма! Шесть месяцев без никотина значительно снижают риск сердечно-сосудистых заболеваний. Ваше кровяное давление и вариабельность сердечного ритма значительно улучшаются.",
-  "@nicotinePouchesMilestone180Description": {
-    "description": "Nicotine pouches milestone day 180 description"
-  },
-  "nicotinePouchesMilestone365Title": "Долгосрочное здоровье гарантировано",
-  "@nicotinePouchesMilestone365Title": {
-    "description": "Nicotine pouches milestone day 365 title"
-  },
-  "nicotinePouchesMilestone365Description": "Один год свободы! Риск возникновения проблем со здоровьем, связанных с никотином, продолжает резко падать. Вы разорвали порочный круг зависимости и вернули себе независимость. Это действительно героизм! 🏆",
-  "@nicotinePouchesMilestone365Description": {
-    "description": "Nicotine pouches milestone day 365 description"
   },
   "nicotinePouchesMilestone730Title": "Два года: сила без пакетиков",
   "nicotinePouchesMilestone730Description": "Два полных года без никотиновых пакетиков. Исследования не установили особого порога восстановления через два года, поэтому эта веха отмечает два года без повторного воздействия никотина из пакетиков и устойчивое изменение.",

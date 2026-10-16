@@ -35,20 +35,6 @@
   "gabapentinoidsSubtitleNotStarted": "看看戒除後會發生甚麼",
   "gabapentinoidsInfoBox": "切勿突然停用加巴噴丁或普瑞巴林。突然停藥可能引發癲癇發作——尤其是用於治療癲癇時。必須在醫生指導下進行逐步減量。",
   "addictionGabapentinoid": "加巴噴丁/普瑞巴林",
-  "gabapentinoidsMilestone1Title": "逐步減量，勿突然停藥",
-  "gabapentinoidsMilestone1Description": "加巴噴丁類藥物戒斷可能在12-48小時內開始。突然停藥的關鍵風險是癲癇發作，因此這些藥物必須在醫生指導下逐步減量，而不是驟停。",
-  "gabapentinoidsMilestone3Title": "戒斷高峰",
-  "gabapentinoidsMilestone3Description": "症狀通常在第三天左右達到高峰：焦慮加劇、失眠、出汗、惡心，有時還有混亂。在監督下減量可以大大減輕這些症狀。",
-  "gabapentinoidsMilestone7Title": "急性期緩解",
-  "gabapentinoidsMilestone7Description": "在第7-10天左右，急性症狀大幅減輕。逐步減量使這段時間變得可控。",
-  "gabapentinoidsMilestone14Title": "睡眠和焦慮趨於穩定",
-  "gabapentinoidsMilestone14Description": "兩周後，隨著神經系統適應在沒有藥物的情況下運作，睡眠和您平時的焦慮水平正在改善。",
-  "gabapentinoidsMilestone30Title": "停藥一個月",
-  "gabapentinoidsMilestone30Description": "一個月時大多數人已經度過戒斷期，情緒、睡眠和思維清晰度更穩定。任何殘留症狀通常都很輕微。",
-  "gabapentinoidsMilestone90Title": "穩定且已適應",
-  "gabapentinoidsMilestone90Description": "停藥三個月後，神經系統已經完成重新適應。大多數人狀態穩定，睡眠和情緒恢復正常。",
-  "gabapentinoidsMilestone180Title": "停用半年",
-  "gabapentinoidsMilestone180Description": "已停用六個月。藥物早已不再出現在日常生活中，任何反跳症狀也已消退。",
   "ghbPageTitle": "GHB戒斷",
   "ghbHeaderStarted": "您的康復之旅",
   "ghbHeaderNotStarted": "戒除GHB的好處",
@@ -227,10 +213,6 @@
   "adderallMilestone180Description": "多巴胺信號傳導繼續恢復。專注力、記憶、情緒和日常生活質量也在繼續改善。",
   "adderallMilestone365Title": "一年：接近完全康復",
   "adderallMilestone365Description": "您大腦的多巴胺系統已基本恢復至正常功能。您已經證明瞭您的韌性，並在沒有依賴興奮劑的情況下重建了生活。這個里程碑代表了一個完整的轉變——慶祝您走了多遠！",
-  "showAllItems": "顯示所有項目",
-  "showAllSubtitle": "啓用或禁用所有主屏幕項目",
-  "enableNotifications": "啓用所有通知",
-  "enableNotificationsSubtitle": "打開或關閉所有通知",
   "benzoPageTitle": "苯二氮卓戒斷",
   "benzoHeaderStarted": "您的康復之旅",
   "benzoHeaderNotStarted": "戒除苯二氮卓的好處",
@@ -546,15 +528,6 @@
       }
     }
   },
-  "hideDialogMessage": "這將從主屏幕隱藏 {title} 選項。您可以在設置中再次顯示它。",
-  "@hideDialogMessage": {
-    "description": "Message explaining what hiding an addiction does",
-    "placeholders": {
-      "title": {
-        "type": "String"
-      }
-    }
-  },
   "cancel": "取消",
   "@cancel": {
     "description": "Cancel button text used throughout the app"
@@ -760,10 +733,6 @@
   "@settingsSectionSecurity": {
     "description": "Section header for security settings"
   },
-  "settingsSectionMainScreenItems": "主屏幕項目",
-  "@settingsSectionMainScreenItems": {
-    "description": "Section header for main screen items settings"
-  },
   "settingsSectionNotifications": "通知",
   "@settingsSectionNotifications": {
     "description": "Section header for notification settings"
@@ -787,10 +756,6 @@
   "settingsPinTimeoutHint": "15",
   "@settingsPinTimeoutHint": {
     "description": "Hint text for PIN timeout field"
-  },
-  "settingsTheme": "主題",
-  "@settingsTheme": {
-    "description": "Setting title for theme selection"
   },
   "settingsColorScheme": "配色方案",
   "@settingsColorScheme": {
@@ -1033,10 +998,6 @@
   "@pinDialogOK": {
     "description": "OK button in PIN dialog"
   },
-  "notificationFrequencyDialogTitle": "通知頻率",
-  "@notificationFrequencyDialogTitle": {
-    "description": "Dialog title for notification frequency settings"
-  },
   "notificationFrequencyNotifyEvery": "通知間隔",
   "@notificationFrequencyNotifyEvery": {
     "description": "Label for notification frequency field"
@@ -1065,10 +1026,6 @@
         "type": "int"
       }
     }
-  },
-  "deleteEverythingDialogTitle": "刪除所有數據",
-  "@deleteEverythingDialogTitle": {
-    "description": "Dialog title for delete everything confirmation"
   },
   "deleteEverythingDialogMessage": "確定要刪除所有數據嗎？此操作無法撤銷。",
   "@deleteEverythingDialogMessage": {
@@ -1118,14 +1075,6 @@
   "journalNextMonth": "下個月",
   "@journalNextMonth": {
     "description": "Tooltip for next month button in calendar"
-  },
-  "quitMilestonesStart": "開始",
-  "@quitMilestonesStart": {
-    "description": "Button to start quit journey"
-  },
-  "quitMilestonesReset": "重置",
-  "@quitMilestonesReset": {
-    "description": "Button to reset quit journey"
   },
   "quitMilestonesQuitDate": "戒除日期",
   "@quitMilestonesQuitDate": {
@@ -1299,14 +1248,6 @@
   "whatsNewTitle": "新功能？",
   "@whatsNewTitle": {
     "description": "Title for what's new page"
-  },
-  "whatsNewSearchHint": "搜索...",
-  "@whatsNewSearchHint": {
-    "description": "Hint text for changelog search"
-  },
-  "whatsNewEnjoyingButton": "喜歡這個應用嗎？",
-  "@whatsNewEnjoyingButton": {
-    "description": "Button text to go to enjoying page from what's new"
   },
   "enjoyingPageTitle": "喜歡這個應用嗎？",
   "@enjoyingPageTitle": {
@@ -2022,46 +1963,6 @@
   "nicotinePouchesReferenceDay14": "兩週：戒斷持續緩解\n\n來源：McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\n這篇綜述將尼古丁戒斷的典型高峰放在第3天左右，並指出症狀會在隨後3–4週逐漸減輕。\n\n深入緩解階段\n到兩週時，你已經深入高峰後的緩解窗口。綜述涵蓋長期使用含尼古丁產品，並指出戒斷強度會隨尼古丁攝取方式不同而變化。\n\n停用尼古丁袋兩週，是下降曲線上的一個明確節點：典型戒斷症狀仍在持續減輕。",
   "@nicotinePouchesReferenceDay14": {
     "description": "Nicotine pouches day 14 detailed reference"
-  },
-  "nicotinePouchesMilestone30Title": "應激反應正常化",
-  "@nicotinePouchesMilestone30Title": {
-    "description": "Nicotine pouches milestone day 30 title"
-  },
-  "nicotinePouchesMilestone30Description": "可能有些意外：尼古丁實際上會增加兩次使用之間的壓力。皮質醇水平和應激反應正在恢復正常，您也在重新體驗不依賴尼古丁的放松。",
-  "@nicotinePouchesMilestone30Description": {
-    "description": "Nicotine pouches milestone day 30 description"
-  },
-  "nicotinePouchesMilestone60Title": "睡眠質量改善",
-  "@nicotinePouchesMilestone60Title": {
-    "description": "Nicotine pouches milestone day 60 title"
-  },
-  "nicotinePouchesMilestone60Description": "不再使用尼古丁後，睡眠正在變得更穩定。尼古丁看似能讓人放松，實際上會擾亂睡眠結構。兩個月後，REM睡眠週期也在逐步恢復。",
-  "@nicotinePouchesMilestone60Description": {
-    "description": "Nicotine pouches milestone day 60 description"
-  },
-  "nicotinePouchesMilestone90Title": "多巴胺受體恢復",
-  "@nicotinePouchesMilestone90Title": {
-    "description": "Nicotine pouches milestone day 90 title"
-  },
-  "nicotinePouchesMilestone90Description": "大腦的獎賞系統正在恢復。尼古丁會劫持多巴胺通路，讓日常樂趣變得平淡。停用三個月後，生活中的自然愉悅感正在重新變得鮮明。",
-  "@nicotinePouchesMilestone90Description": {
-    "description": "Nicotine pouches milestone day 90 description"
-  },
-  "nicotinePouchesMilestone180Title": "心血管風險降低",
-  "@nicotinePouchesMilestone180Title": {
-    "description": "Nicotine pouches milestone day 180 title"
-  },
-  "nicotinePouchesMilestone180Description": "不使用尼古丁已六個月，心血管疾病風險顯著降低，血壓和心率變異性也明顯改善。",
-  "@nicotinePouchesMilestone180Description": {
-    "description": "Nicotine pouches milestone day 180 description"
-  },
-  "nicotinePouchesMilestone365Title": "長期健康得到保障",
-  "@nicotinePouchesMilestone365Title": {
-    "description": "Nicotine pouches milestone day 365 title"
-  },
-  "nicotinePouchesMilestone365Description": "停用尼古丁袋整整一年！尼古丁相關健康問題的風險繼續下降。您已經打破成癮循環，重新掌握了自己的選擇。這是非常了不起的成就！ 🏆",
-  "@nicotinePouchesMilestone365Description": {
-    "description": "Nicotine pouches milestone day 365 description"
   },
   "nicotinePouchesMilestone730Title": "兩年：無尼古丁袋的力量",
   "nicotinePouchesMilestone730Description": "整整兩年沒有使用尼古丁袋。研究尚未證實停用兩年時存在特殊的恢復節點，因此這個里程碑慶祝的是兩年沒有反覆接觸袋裝尼古丁，以及持續維持的改變。",

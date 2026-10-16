@@ -130,55 +130,6 @@ class AppLocalizationsKo extends AppLocalizations {
   String get addictionGabapentinoid => '가바펜틴/프레가발린';
 
   @override
-  String get gabapentinoidsMilestone1Title => '테이퍼, 갑자기 멈추지 마세요';
-
-  @override
-  String get gabapentinoidsMilestone1Description =>
-      '가바펜티노이드 철수는 12~48시간 이내에 시작될 수 있습니다. 심각한 위험은 갑작스러운 중단 시 발작이 발생하므로 이러한 약물은 한랭 중단보다는 의학적 지도에 따라 감량해야 합니다.';
-
-  @override
-  String get gabapentinoidsMilestone3Title => '피크 인출';
-
-  @override
-  String get gabapentinoidsMilestone3Description =>
-      '증상은 일반적으로 3일째쯤에 최고조에 달합니다. 불안이 고조되고, 불면증, 발한, 메스꺼움, 때로는 혼란이 발생합니다. 감독된 테이퍼는 이를 크게 줄여줍니다.';
-
-  @override
-  String get gabapentinoidsMilestone7Title => '급성기 완화';
-
-  @override
-  String get gabapentinoidsMilestone7Description =>
-      '7~10일 정도에는 급성 증상이 상당히 감소합니다. 점진적인 테이퍼는 이 창을 관리하기 쉽게 유지합니다.';
-
-  @override
-  String get gabapentinoidsMilestone14Title => '수면과 불안의 안정';
-
-  @override
-  String get gabapentinoidsMilestone14Description =>
-      '2주가 지나면 신경계가 약물 없이 기능하는 데 적응함에 따라 수면과 일반적인 불안 수준이 개선됩니다.';
-
-  @override
-  String get gabapentinoidsMilestone30Title => '한 달 클리어';
-
-  @override
-  String get gabapentinoidsMilestone30Description =>
-      '한 달이 지나면 대부분의 사람들은 금단 현상을 겪고 안정된 기분, 수면, 명료함을 누리게 됩니다. 지속되는 증상은 대개 경미합니다.';
-
-  @override
-  String get gabapentinoidsMilestone90Title => '안정적이고 조정됨';
-
-  @override
-  String get gabapentinoidsMilestone90Description =>
-      '3개월이 지나면 신경계가 완전히 재조정되었습니다. 대부분의 사람들은 정상적인 수면과 기분으로 안정감을 느낍니다.';
-
-  @override
-  String get gabapentinoidsMilestone180Title => '반년 무료';
-
-  @override
-  String get gabapentinoidsMilestone180Description =>
-      '6개월 무료. 약물은 귀하의 일상 생활에서 오랫동안 사라졌으며 모든 반동 증상이 해결되었습니다.';
-
-  @override
   String get ghbPageTitle => 'GHB 복구';
 
   @override
@@ -761,18 +712,6 @@ class AppLocalizationsKo extends AppLocalizations {
       '뇌의 도파민 체계가 대체로 정상 기능을 되찾았습니다. 각성제 의존 없이 삶을 다시 세우며 회복력을 보여 주었습니다. 여기까지 온 과정을 충분히 기념하세요.';
 
   @override
-  String get showAllItems => '모든 항목 표시';
-
-  @override
-  String get showAllSubtitle => '모든 기본 화면 항목을 활성화 또는 비활성화합니다.';
-
-  @override
-  String get enableNotifications => '모든 알림 활성화';
-
-  @override
-  String get enableNotificationsSubtitle => '모든 알림 켜기 또는 끄기';
-
-  @override
   String get benzoPageTitle => '벤조디아제핀 회수';
 
   @override
@@ -1265,11 +1204,6 @@ class AppLocalizationsKo extends AppLocalizations {
   }
 
   @override
-  String hideDialogMessage(String title) {
-    return '이렇게 하면 홈 화면에서 $title 옵션이 숨겨집니다. 설정에서 다시 표시할 수 있습니다.';
-  }
-
-  @override
   String get cancel => '취소';
 
   @override
@@ -1427,9 +1361,6 @@ class AppLocalizationsKo extends AppLocalizations {
   String get settingsSectionSecurity => '보안';
 
   @override
-  String get settingsSectionMainScreenItems => '메인 화면 항목';
-
-  @override
   String get settingsSectionNotifications => '알림';
 
   @override
@@ -1446,9 +1377,6 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get settingsPinTimeoutHint => '15';
-
-  @override
-  String get settingsTheme => '주제';
 
   @override
   String get settingsColorScheme => '색 구성표';
@@ -1651,9 +1579,6 @@ class AppLocalizationsKo extends AppLocalizations {
   String get pinDialogOK => '좋아요';
 
   @override
-  String get notificationFrequencyDialogTitle => '알림 빈도';
-
-  @override
   String get notificationFrequencyNotifyEvery => '알림 간격';
 
   @override
@@ -1678,9 +1603,6 @@ class AppLocalizationsKo extends AppLocalizations {
     );
     return '진행 상황을 축하하는 알림이 $_temp0마다 표시됩니다!';
   }
-
-  @override
-  String get deleteEverythingDialogTitle => '모두 삭제';
 
   @override
   String get deleteEverythingDialogMessage =>
@@ -1718,12 +1640,6 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get journalNextMonth => '다음 달';
-
-  @override
-  String get quitMilestonesStart => '시작';
-
-  @override
-  String get quitMilestonesReset => '다시 놓기';
 
   @override
   String get quitMilestonesQuitDate => '종료 날짜';
@@ -1853,12 +1769,6 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get whatsNewTitle => '새로운 소식은 무엇인가요?';
-
-  @override
-  String get whatsNewSearchHint => '찾다...';
-
-  @override
-  String get whatsNewEnjoyingButton => '앱을 즐기고 계시나요?';
 
   @override
   String get enjoyingPageTitle => '앱을 즐기고 계시나요?';
@@ -2491,41 +2401,6 @@ class AppLocalizationsKo extends AppLocalizations {
   @override
   String get nicotinePouchesReferenceDay14 =>
       '2주: 금단 증상이 계속 완화 중\n\n출처: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\n이 리뷰는 니코틴 금단의 일반적인 정점을 약 3일째로 보고, 이후 3–4주 동안 증상이 줄어든다고 설명합니다.\n\n완화 구간 한가운데\n2주가 되면 정점 이후의 완화 구간에 충분히 들어와 있습니다. 이 리뷰는 니코틴 함유 제품의 만성 사용을 다루며, 금단 강도는 니코틴 섭취 방식에 따라 달라진다고 설명합니다.\n\n니코틴 파우치 없이 2주는 내려가는 곡선 위의 분명한 지점입니다. 일반적인 금단 증상은 계속 완화되고 있습니다.';
-
-  @override
-  String get nicotinePouchesMilestone30Title => '스트레스 반응이 정상화됩니다';
-
-  @override
-  String get nicotinePouchesMilestone30Description =>
-      '줄거리 반전: 니코틴은 실제로 사용 사이에 스트레스를 증가시킵니다! 코티솔과 스트레스 반응이 정상으로 돌아오고 있습니다. 니코틴 가짜가 아닌 진정한 휴식입니다.';
-
-  @override
-  String get nicotinePouchesMilestone60Title => '수면의 질이 향상됩니다';
-
-  @override
-  String get nicotinePouchesMilestone60Description =>
-      '달콤한 꿈은... 니코틴이 없습니다! 니코틴은 편안한 것처럼 보이지만 실제로는 수면 구조를 방해합니다. 두 달이 지나면 REM 주기가 아름답게 회복됩니다.';
-
-  @override
-  String get nicotinePouchesMilestone90Title => '도파민 수용체 회복';
-
-  @override
-  String get nicotinePouchesMilestone90Description =>
-      '당신의 두뇌 보상 시스템이 다시 온라인 상태로 돌아왔습니다! 니코틴은 도파민 경로를 탈취하여 정상적인 즐거움을 지루하게 만듭니다. 3개월 무료 체험을 통해 삶의 자연스러운 즐거움이 다시 살아납니다.';
-
-  @override
-  String get nicotinePouchesMilestone180Title => '심혈관 위험 감소';
-
-  @override
-  String get nicotinePouchesMilestone180Description =>
-      '당신의 마음이 러브레터를 보내고 있어요! 니코틴 없이 6개월간 심혈관 질환 위험이 크게 감소합니다. 혈압과 심박수 변이도가 크게 개선됩니다.';
-
-  @override
-  String get nicotinePouchesMilestone365Title => '장기적인 건강 확보';
-
-  @override
-  String get nicotinePouchesMilestone365Description =>
-      '1년의 자유! 니코틴 관련 건강 문제의 위험은 계속 급락하고 있습니다. 당신은 중독의 고리를 끊고 자율성을 되찾았습니다. 정말 영웅적이네요! 🏆';
 
   @override
   String get nicotinePouchesMilestone730Title => '2년: 파우치 없는 힘';

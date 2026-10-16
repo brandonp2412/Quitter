@@ -35,20 +35,6 @@
   "gabapentinoidsSubtitleNotStarted": "그만두면 어떻게 되는지 알아보세요",
   "gabapentinoidsInfoBox": "가바펜틴이나 프레가발린을 갑자기 중단하지 마십시오. 갑작스러운 중단은 발작을 유발할 수 있습니다. 특히 간질 치료를 위해 복용하는 경우 더욱 그렇습니다. 의학적으로 감독되는 점진적인 테이퍼가 필수적입니다.",
   "addictionGabapentinoid": "가바펜틴/프레가발린",
-  "gabapentinoidsMilestone1Title": "테이퍼, 갑자기 멈추지 마세요",
-  "gabapentinoidsMilestone1Description": "가바펜티노이드 철수는 12~48시간 이내에 시작될 수 있습니다. 심각한 위험은 갑작스러운 중단 시 발작이 발생하므로 이러한 약물은 한랭 중단보다는 의학적 지도에 따라 감량해야 합니다.",
-  "gabapentinoidsMilestone3Title": "피크 인출",
-  "gabapentinoidsMilestone3Description": "증상은 일반적으로 3일째쯤에 최고조에 달합니다. 불안이 고조되고, 불면증, 발한, 메스꺼움, 때로는 혼란이 발생합니다. 감독된 테이퍼는 이를 크게 줄여줍니다.",
-  "gabapentinoidsMilestone7Title": "급성기 완화",
-  "gabapentinoidsMilestone7Description": "7~10일 정도에는 급성 증상이 상당히 감소합니다. 점진적인 테이퍼는 이 창을 관리하기 쉽게 유지합니다.",
-  "gabapentinoidsMilestone14Title": "수면과 불안의 안정",
-  "gabapentinoidsMilestone14Description": "2주가 지나면 신경계가 약물 없이 기능하는 데 적응함에 따라 수면과 일반적인 불안 수준이 개선됩니다.",
-  "gabapentinoidsMilestone30Title": "한 달 클리어",
-  "gabapentinoidsMilestone30Description": "한 달이 지나면 대부분의 사람들은 금단 현상을 겪고 안정된 기분, 수면, 명료함을 누리게 됩니다. 지속되는 증상은 대개 경미합니다.",
-  "gabapentinoidsMilestone90Title": "안정적이고 조정됨",
-  "gabapentinoidsMilestone90Description": "3개월이 지나면 신경계가 완전히 재조정되었습니다. 대부분의 사람들은 정상적인 수면과 기분으로 안정감을 느낍니다.",
-  "gabapentinoidsMilestone180Title": "반년 무료",
-  "gabapentinoidsMilestone180Description": "6개월 무료. 약물은 귀하의 일상 생활에서 오랫동안 사라졌으며 모든 반동 증상이 해결되었습니다.",
   "ghbPageTitle": "GHB 복구",
   "ghbHeaderStarted": "귀하의 회복 여정",
   "ghbHeaderNotStarted": "GHB 종료의 이점",
@@ -225,10 +211,6 @@
   "adderallMilestone180Description": "도파민 신호 체계는 계속 회복됩니다. 집중력, 기억력, 기분, 일상적인 삶의 질도 계속 나아질 수 있습니다.",
   "adderallMilestone365Title": "1년: 크게 진전된 회복",
   "adderallMilestone365Description": "뇌의 도파민 체계가 대체로 정상 기능을 되찾았습니다. 각성제 의존 없이 삶을 다시 세우며 회복력을 보여 주었습니다. 여기까지 온 과정을 충분히 기념하세요.",
-  "showAllItems": "모든 항목 표시",
-  "showAllSubtitle": "모든 기본 화면 항목을 활성화 또는 비활성화합니다.",
-  "enableNotifications": "모든 알림 활성화",
-  "enableNotificationsSubtitle": "모든 알림 켜기 또는 끄기",
   "benzoPageTitle": "벤조디아제핀 회수",
   "benzoHeaderStarted": "귀하의 회복 여정",
   "benzoHeaderNotStarted": "벤조디아제핀 중단의 이점",
@@ -544,15 +526,6 @@
       }
     }
   },
-  "hideDialogMessage": "이렇게 하면 홈 화면에서 {title} 옵션이 숨겨집니다. 설정에서 다시 표시할 수 있습니다.",
-  "@hideDialogMessage": {
-    "description": "Message explaining what hiding an addiction does",
-    "placeholders": {
-      "title": {
-        "type": "String"
-      }
-    }
-  },
   "cancel": "취소",
   "@cancel": {
     "description": "Cancel button text used throughout the app"
@@ -764,10 +737,6 @@
   "@settingsSectionSecurity": {
     "description": "Section header for security settings"
   },
-  "settingsSectionMainScreenItems": "메인 화면 항목",
-  "@settingsSectionMainScreenItems": {
-    "description": "Section header for main screen items settings"
-  },
   "settingsSectionNotifications": "알림",
   "@settingsSectionNotifications": {
     "description": "Section header for notification settings"
@@ -791,10 +760,6 @@
   "settingsPinTimeoutHint": "15",
   "@settingsPinTimeoutHint": {
     "description": "Hint text for PIN timeout field"
-  },
-  "settingsTheme": "주제",
-  "@settingsTheme": {
-    "description": "Setting title for theme selection"
   },
   "settingsColorScheme": "색 구성표",
   "@settingsColorScheme": {
@@ -1037,10 +1002,6 @@
   "@pinDialogOK": {
     "description": "OK button in PIN dialog"
   },
-  "notificationFrequencyDialogTitle": "알림 빈도",
-  "@notificationFrequencyDialogTitle": {
-    "description": "Dialog title for notification frequency settings"
-  },
   "notificationFrequencyNotifyEvery": "알림 간격",
   "@notificationFrequencyNotifyEvery": {
     "description": "Label for notification frequency field"
@@ -1069,10 +1030,6 @@
         "type": "int"
       }
     }
-  },
-  "deleteEverythingDialogTitle": "모두 삭제",
-  "@deleteEverythingDialogTitle": {
-    "description": "Dialog title for delete everything confirmation"
   },
   "deleteEverythingDialogMessage": "정말 모두 삭제하시겠습니까? 이 작업은 취소할 수 없습니다.",
   "@deleteEverythingDialogMessage": {
@@ -1122,14 +1079,6 @@
   "journalNextMonth": "다음 달",
   "@journalNextMonth": {
     "description": "Tooltip for next month button in calendar"
-  },
-  "quitMilestonesStart": "시작",
-  "@quitMilestonesStart": {
-    "description": "Button to start quit journey"
-  },
-  "quitMilestonesReset": "다시 놓기",
-  "@quitMilestonesReset": {
-    "description": "Button to reset quit journey"
   },
   "quitMilestonesQuitDate": "종료 날짜",
   "@quitMilestonesQuitDate": {
@@ -1303,14 +1252,6 @@
   "whatsNewTitle": "새로운 소식은 무엇인가요?",
   "@whatsNewTitle": {
     "description": "Title for what's new page"
-  },
-  "whatsNewSearchHint": "찾다...",
-  "@whatsNewSearchHint": {
-    "description": "Hint text for changelog search"
-  },
-  "whatsNewEnjoyingButton": "앱을 즐기고 계시나요?",
-  "@whatsNewEnjoyingButton": {
-    "description": "Button text to go to enjoying page from what's new"
   },
   "enjoyingPageTitle": "앱을 즐기고 계시나요?",
   "@enjoyingPageTitle": {
@@ -2073,46 +2014,6 @@
   "nicotinePouchesReferenceDay14": "2주: 금단 증상이 계속 완화 중\n\n출처: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\n이 리뷰는 니코틴 금단의 일반적인 정점을 약 3일째로 보고, 이후 3–4주 동안 증상이 줄어든다고 설명합니다.\n\n완화 구간 한가운데\n2주가 되면 정점 이후의 완화 구간에 충분히 들어와 있습니다. 이 리뷰는 니코틴 함유 제품의 만성 사용을 다루며, 금단 강도는 니코틴 섭취 방식에 따라 달라진다고 설명합니다.\n\n니코틴 파우치 없이 2주는 내려가는 곡선 위의 분명한 지점입니다. 일반적인 금단 증상은 계속 완화되고 있습니다.",
   "@nicotinePouchesReferenceDay14": {
     "description": "Nicotine pouches day 14 detailed reference"
-  },
-  "nicotinePouchesMilestone30Title": "스트레스 반응이 정상화됩니다",
-  "@nicotinePouchesMilestone30Title": {
-    "description": "Nicotine pouches milestone day 30 title"
-  },
-  "nicotinePouchesMilestone30Description": "줄거리 반전: 니코틴은 실제로 사용 사이에 스트레스를 증가시킵니다! 코티솔과 스트레스 반응이 정상으로 돌아오고 있습니다. 니코틴 가짜가 아닌 진정한 휴식입니다.",
-  "@nicotinePouchesMilestone30Description": {
-    "description": "Nicotine pouches milestone day 30 description"
-  },
-  "nicotinePouchesMilestone60Title": "수면의 질이 향상됩니다",
-  "@nicotinePouchesMilestone60Title": {
-    "description": "Nicotine pouches milestone day 60 title"
-  },
-  "nicotinePouchesMilestone60Description": "달콤한 꿈은... 니코틴이 없습니다! 니코틴은 편안한 것처럼 보이지만 실제로는 수면 구조를 방해합니다. 두 달이 지나면 REM 주기가 아름답게 회복됩니다.",
-  "@nicotinePouchesMilestone60Description": {
-    "description": "Nicotine pouches milestone day 60 description"
-  },
-  "nicotinePouchesMilestone90Title": "도파민 수용체 회복",
-  "@nicotinePouchesMilestone90Title": {
-    "description": "Nicotine pouches milestone day 90 title"
-  },
-  "nicotinePouchesMilestone90Description": "당신의 두뇌 보상 시스템이 다시 온라인 상태로 돌아왔습니다! 니코틴은 도파민 경로를 탈취하여 정상적인 즐거움을 지루하게 만듭니다. 3개월 무료 체험을 통해 삶의 자연스러운 즐거움이 다시 살아납니다.",
-  "@nicotinePouchesMilestone90Description": {
-    "description": "Nicotine pouches milestone day 90 description"
-  },
-  "nicotinePouchesMilestone180Title": "심혈관 위험 감소",
-  "@nicotinePouchesMilestone180Title": {
-    "description": "Nicotine pouches milestone day 180 title"
-  },
-  "nicotinePouchesMilestone180Description": "당신의 마음이 러브레터를 보내고 있어요! 니코틴 없이 6개월간 심혈관 질환 위험이 크게 감소합니다. 혈압과 심박수 변이도가 크게 개선됩니다.",
-  "@nicotinePouchesMilestone180Description": {
-    "description": "Nicotine pouches milestone day 180 description"
-  },
-  "nicotinePouchesMilestone365Title": "장기적인 건강 확보",
-  "@nicotinePouchesMilestone365Title": {
-    "description": "Nicotine pouches milestone day 365 title"
-  },
-  "nicotinePouchesMilestone365Description": "1년의 자유! 니코틴 관련 건강 문제의 위험은 계속 급락하고 있습니다. 당신은 중독의 고리를 끊고 자율성을 되찾았습니다. 정말 영웅적이네요! 🏆",
-  "@nicotinePouchesMilestone365Description": {
-    "description": "Nicotine pouches milestone day 365 description"
   },
   "nicotinePouchesMilestone730Title": "2년: 파우치 없는 힘",
   "nicotinePouchesMilestone730Description": "니코틴 파우치 없이 꼬박 2년입니다. 연구에서 2년 시점의 특별한 회복 기준은 확인되지 않았습니다. 이 이정표는 반복적인 파우치 니코틴 노출 없이 보낸 2년과 꾸준히 지켜 온 변화를 축하합니다.",

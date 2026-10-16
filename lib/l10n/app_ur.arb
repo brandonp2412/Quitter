@@ -35,20 +35,6 @@
   "gabapentinoidsSubtitleNotStarted": "دیکھیں کہ چھوڑنے کے بعد کیا ہوتا ہے",
   "gabapentinoidsInfoBox": "کبھی بھی گابپنن یا پرابیلین کو بند نہ کریں. اگر آپ اُن کی مدد کریں گے تو اُن کو بہت سی مشکلات کا سامنا کرنا پڑے گا ۔ بتدریج ، طبّی طور پر تیار‌شُدہ پائپ ہونا بہت ضروری ہے ۔",
   "addictionGabapentinoid": "جب ہم ایک دوسرے کے ساتھ تعاون کرتے ہیں تو ہم اُن کی مدد کر سکتے ہیں ۔",
-  "gabapentinoidsMilestone1Title": "ٹیپر، اچانک بند نہ کرو",
-  "gabapentinoidsMilestone1Description": "Gabapentinoid reaction 12–48 گھنٹوں کے اندر شروع ہو سکتا ہے۔ اِس لئے اِن ادویات کو سردی سے بچنے کی بجائے طبّی راہنمائی فراہم کی جانی چاہئے ۔",
-  "gabapentinoidsMilestone3Title": "واپسی کی علامات عروج پر",
-  "gabapentinoidsMilestone3Description": "دُنیابھر میں زیادہ‌تر لوگ پریشانی ، بےچینی ، پس‌منظر ، مایوسی اور بعض‌اوقات پریشان‌کُن حالت میں رہتے ہیں ۔ اِس کی وجہ یہ ہے کہ اُن کے بچے اِس بات سے واقف ہیں کہ وہ اُن کی مدد کیسے کر سکتے ہیں ۔",
-  "gabapentinoidsMilestone7Title": "شدید مرحلہ کم ہو رہا ہے",
-  "gabapentinoidsMilestone7Description": "7–10 کے آس پاس کی علامات بے حد کم ہو جاتی ہیں۔ آہستہ آہستہ اِس کھڑکی کو بند کر دیتا ہے ۔",
-  "gabapentinoidsMilestone14Title": "نیند اور پریشانی",
-  "gabapentinoidsMilestone14Description": "دو ہفتوں میں نیند اور آپ کی پریشانی کی وجہ سے منشیات کے بغیر ورزش کرنے میں بہتری آ رہی ہے ۔",
-  "gabapentinoidsMilestone30Title": "ایک ماہ سے پاک",
-  "gabapentinoidsMilestone30Description": "ایک مہینے کے اندر زیادہ‌تر لوگ پیچھے ہٹ جاتے ہیں ۔ کوئی بھی علامات عموماً نرم ہوتی ہیں ۔",
-  "gabapentinoidsMilestone90Title": "قابلِ‌اعتماد اور قابلِ‌اعتماد",
-  "gabapentinoidsMilestone90Description": "تین ماہ واضح ہے کہ اعصابی نظام مکمل طور پر تباہ ہو گیا ہے ۔ زیادہ‌تر لوگ نیند اور مزاج کے ساتھ مستحکم محسوس کرتے ہیں ۔",
-  "gabapentinoidsMilestone180Title": "چھ ماہ سے پاک",
-  "gabapentinoidsMilestone180Description": "چھ مہینے مفت. یہ دوا آپ کے معمول سے طویل دور ہے اور کسی بھی قسم کی ذیابیطس کی علامات حل ہو چکی ہیں ۔",
   "ghbPageTitle": "جی‌بی‌بی دوبارہ",
   "ghbHeaderStarted": "آپ کا بحالی کا سفر",
   "ghbHeaderNotStarted": "جی‌بی‌بی کے فوائد",
@@ -227,10 +213,6 @@
   "adderallMilestone180Description": "ڈوپامین کے اشاروں کا نظام مسلسل بحال ہوتا رہتا ہے۔ توجہ، یادداشت، مزاج اور روزمرہ معیارِ زندگی میں مزید بہتری آ سکتی ہے۔",
   "adderallMilestone365Title": "ایک سال: بحالی میں نمایاں پیش رفت",
   "adderallMilestone365Description": "دماغ کا ڈوپامین نظام بڑی حد تک معمول کے کام کی طرف لوٹ چکا ہے۔ آپ نے محرک ادویات پر انحصار کے بغیر اپنی زندگی دوبارہ تعمیر کرتے ہوئے استقامت دکھائی ہے۔ یہاں تک پہنچنے کی پیش رفت کا جشن منائیں۔",
-  "showAllItems": "تمام آئٹمس دکھا ئيں",
-  "showAllSubtitle": "تمام بنیادی ڈھانچے کو فعال کریں یا معطل کریں",
-  "enableNotifications": "تمام اطلاعات محفوظ کریں",
-  "enableNotificationsSubtitle": "تمام اطلاعات پر بند کرو یا بند کرو",
   "benzoPageTitle": "بین‌الاقوامی ذمہ‌داری",
   "benzoHeaderStarted": "آپ کا بحالی کا سفر",
   "benzoHeaderNotStarted": "بین‌الاقوامی ترقی کے فوائد",
@@ -546,15 +528,6 @@
       }
     }
   },
-  "hideDialogMessage": "یہ آپ کی ہوم اسکرین سے {title} کا اختیار چھپا دے گا۔ آپ اسے ترتیبات میں دوبارہ دکھا سکتے ہیں۔",
-  "@hideDialogMessage": {
-    "description": "Message explaining what hiding an addiction does",
-    "placeholders": {
-      "title": {
-        "type": "String"
-      }
-    }
-  },
   "cancel": "منسوخ",
   "@cancel": {
     "description": "Cancel button text used throughout the app"
@@ -763,10 +736,6 @@
   "@settingsSectionSecurity": {
     "description": "Section header for security settings"
   },
-  "settingsSectionMainScreenItems": "بنیادی سکرین ای‌میل",
-  "@settingsSectionMainScreenItems": {
-    "description": "Section header for main screen items settings"
-  },
   "settingsSectionNotifications": "غیر متصل",
   "@settingsSectionNotifications": {
     "description": "Section header for notification settings"
@@ -790,10 +759,6 @@
   "settingsPinTimeoutHint": "15",
   "@settingsPinTimeoutHint": {
     "description": "Hint text for PIN timeout field"
-  },
-  "settingsTheme": "تھیم",
-  "@settingsTheme": {
-    "description": "Setting title for theme selection"
   },
   "settingsColorScheme": "رنگوں کی تدبیر",
   "@settingsColorScheme": {
@@ -1036,10 +1001,6 @@
   "@pinDialogOK": {
     "description": "OK button in PIN dialog"
   },
-  "notificationFrequencyDialogTitle": "شناختی آلودگی",
-  "@notificationFrequencyDialogTitle": {
-    "description": "Dialog title for notification frequency settings"
-  },
   "notificationFrequencyNotifyEvery": "ہر شخص کو فاضل نہ کریں",
   "@notificationFrequencyNotifyEvery": {
     "description": "Label for notification frequency field"
@@ -1068,10 +1029,6 @@
         "type": "int"
       }
     }
-  },
-  "deleteEverythingDialogTitle": "سب کچھ حذف کردو",
-  "@deleteEverythingDialogTitle": {
-    "description": "Dialog title for delete everything confirmation"
   },
   "deleteEverythingDialogMessage": "کیا آپ کو یقین ہے کہ آپ سب کچھ حذف کر دیتے ہیں؟ اِس عمل کو غلط ثابت نہیں کیا جا سکتا ۔",
   "@deleteEverythingDialogMessage": {
@@ -1121,14 +1078,6 @@
   "journalNextMonth": "اگلے مہینے",
   "@journalNextMonth": {
     "description": "Tooltip for next month button in calendar"
-  },
-  "quitMilestonesStart": "شروع کریں",
-  "@quitMilestonesStart": {
-    "description": "Button to start quit journey"
-  },
-  "quitMilestonesReset": "مصر",
-  "@quitMilestonesReset": {
-    "description": "Button to reset quit journey"
   },
   "quitMilestonesQuitDate": "تاریخ کافی",
   "@quitMilestonesQuitDate": {
@@ -1302,14 +1251,6 @@
   "whatsNewTitle": "نیا کیا ہے؟",
   "@whatsNewTitle": {
     "description": "Title for what's new page"
-  },
-  "whatsNewSearchHint": "تلاش کریں...",
-  "@whatsNewSearchHint": {
-    "description": "Hint text for changelog search"
-  },
-  "whatsNewEnjoyingButton": "ایپ سے لطف اندوز ہو رہا ہے؟",
-  "@whatsNewEnjoyingButton": {
-    "description": "Button text to go to enjoying page from what's new"
   },
   "enjoyingPageTitle": "ایپ پسند آئی؟",
   "@enjoyingPageTitle": {
@@ -2025,46 +1966,6 @@
   "nicotinePouchesReferenceDay14": "دو ہفتے: علامات مسلسل کم ہو رہی ہیں\n\nماخذ: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nجائزہ نکوٹین ترک کرنے کی عام چوٹی تقریباً تیسرے دن بتاتا ہے اور کہتا ہے کہ علامات اگلے 3–4 ہفتوں میں کم ہوتی رہتی ہیں۔\n\nکمی والے مرحلے میں کافی آگے\nدو ہفتوں پر آپ چوٹی کے بعد علامات کم ہونے والے مرحلے میں کافی آگے آ چکے ہوتے ہیں۔ یہ جائزہ نکوٹین والی مصنوعات کے طویل استعمال کا احاطہ کرتا ہے اور بتاتا ہے کہ ترک کی شدت نکوٹین لینے کے طریقے کے لحاظ سے مختلف ہوتی ہے۔\n\nنکوٹین پاؤچ کے بغیر دو ہفتے نیچے جاتے منحنی پر ایک واضح سنگ میل ہیں: عام ترک کی علامات مسلسل کم ہو رہی ہیں۔",
   "@nicotinePouchesReferenceDay14": {
     "description": "Nicotine pouches day 14 detailed reference"
-  },
-  "nicotinePouchesMilestone30Title": "دباؤ کی وجہ سے مایوسی عام ہو جاتی ہے",
-  "@nicotinePouchesMilestone30Title": {
-    "description": "Nicotine pouches milestone day 30 title"
-  },
-  "nicotinePouchesMilestone30Description": "اِس وجہ سے اِس بیماری میں مبتلا لوگوں کو بہت سی مشکلات کا سامنا کرنا پڑتا ہے ۔ آپکا کوریسل اور دباؤ معمول کی طرف واپس آ رہا ہے ۔ حقیقی آرام، نکسن غلط حد تک نہیں.",
-  "@nicotinePouchesMilestone30Description": {
-    "description": "Nicotine pouches milestone day 30 description"
-  },
-  "nicotinePouchesMilestone60Title": "نیند کی اہمیت",
-  "@nicotinePouchesMilestone60Title": {
-    "description": "Nicotine pouches milestone day 60 title"
-  },
-  "nicotinePouchesMilestone60Description": "صوتی خوابوں کی شکل میں بنے ہوئے ہیں... کوئی گندگی نہیں! اگرچہ سگریٹ‌نوشی عام دکھائی دیتی ہے توبھی یہ دراصل نیند کے آثار کو خراب کر دیتی ہے ۔ دو ماہ میں اور آپ کے رزمیہ چکر بڑی خوبصورتی سے بحال کیے جاتے ہیں۔",
-  "@nicotinePouchesMilestone60Description": {
-    "description": "Nicotine pouches milestone day 60 description"
-  },
-  "nicotinePouchesMilestone90Title": "دُنیا کے حالات کیسے بگڑ گئے ہیں ؟",
-  "@nicotinePouchesMilestone90Title": {
-    "description": "Nicotine pouches milestone day 90 title"
-  },
-  "nicotinePouchesMilestone90Description": "آپ کا دماغ انعامی نظام آن لائن ہے! اِس کی وجہ یہ ہے کہ اُن کی زندگی میں بہت مزہ آتا ہے ۔ تین ماہ آزاد اور زندگی کی قدرتی خوشیوں کو دوبارہ ناقابل یقین بنایا جاتا ہے۔",
-  "@nicotinePouchesMilestone90Description": {
-    "description": "Nicotine pouches milestone day 90 description"
-  },
-  "nicotinePouchesMilestone180Title": "نقصاندہ خطرات کا باعث بنتے ہیں۔",
-  "@nicotinePouchesMilestone180Title": {
-    "description": "Nicotine pouches milestone day 180 title"
-  },
-  "nicotinePouchesMilestone180Description": "آپ کا دل محبت خطوط بھیجتا ہے! ذیابیطس کے بغیر چھ ماہ کے اندر اندر اندر تک پہنچنے والی بیماریوں میں اضافہ ہو جاتا ہے ۔ آپکا بلڈ پریشر اور دل کی کارکردگی بہت بہتر ہے ۔",
-  "@nicotinePouchesMilestone180Description": {
-    "description": "Nicotine pouches milestone day 180 description"
-  },
-  "nicotinePouchesMilestone365Title": "طویل مدتی صحت محفوظ ہے۔",
-  "@nicotinePouchesMilestone365Title": {
-    "description": "Nicotine pouches milestone day 365 title"
-  },
-  "nicotinePouchesMilestone365Description": "آزادی کا ایک سال! اس سے متعلقہ صحت کے مسائل کا خطرہ بڑھتا رہتا ہے۔ آپ نے عادتی چکر توڑ دیا ہے اور اپنے اسالیب کو الٹ دیا ہے. یہ سچ ہے! انکار کرو",
-  "@nicotinePouchesMilestone365Description": {
-    "description": "Nicotine pouches milestone day 365 description"
   },
   "nicotinePouchesMilestone730Title": "دو سال: پاؤچ کے بغیر طاقت",
   "nicotinePouchesMilestone730Description": "نکوٹین پاؤچ کے بغیر پورے دو سال۔ تحقیق نے دو سال پر کسی خاص بحالی کی حد ثابت نہیں کی، اس لیے یہ سنگِ میل پاؤچ کے نکوٹین کی بار بار نمائش کے بغیر دو سال اور برقرار رکھی گئی تبدیلی کا جشن ہے۔",

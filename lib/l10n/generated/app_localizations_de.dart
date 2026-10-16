@@ -135,55 +135,6 @@ class AppLocalizationsDe extends AppLocalizations {
   String get addictionGabapentinoid => 'Gabapentin/Pregabalin';
 
   @override
-  String get gabapentinoidsMilestone1Title => 'Taper, nicht plötzlich aufhören';
-
-  @override
-  String get gabapentinoidsMilestone1Description =>
-      'Gabapentinoid-Entzug kann innerhalb von 12-48 Stunden beginnen. Das kritische Risiko sind Anfälle bei abrupter Beendigung, so dass diese Medikamente unter medizinischer Anleitung verjüngt werden müssen, anstatt kalt zu stoppen.';
-
-  @override
-  String get gabapentinoidsMilestone3Title => 'Spitzenrücknahme';
-
-  @override
-  String get gabapentinoidsMilestone3Description =>
-      'Die Symptome erreichen typischerweise den Höhepunkt um Tag 3: erhöhte Angst, Schlaflosigkeit, Schwitzen, Übelkeit und manchmal Verwirrung. Ein überwachter Taper reduziert dies stark.';
-
-  @override
-  String get gabapentinoidsMilestone7Title => 'Akute Phase Lockerung';
-
-  @override
-  String get gabapentinoidsMilestone7Description =>
-      'An den Tagen 7-10 nehmen die akuten Symptome erheblich ab. Eine allmähliche Verjüngung hält dieses Fenster überschaubar.';
-
-  @override
-  String get gabapentinoidsMilestone14Title => 'Schlaf und Angst Settling';
-
-  @override
-  String get gabapentinoidsMilestone14Description =>
-      'Zwei Wochen, Schlaf und Ihre üblichen Angstzustände verbessern sich, da sich das Nervensystem an das Funktionieren ohne das Medikament anpasst.';
-
-  @override
-  String get gabapentinoidsMilestone30Title => 'Ein Monat klar';
-
-  @override
-  String get gabapentinoidsMilestone30Description =>
-      'In einem Monat sind die meisten Menschen durch Rückzug, mit ruhiger Stimmung, Schlaf und Klarheit. Alle anhaltenden Symptome sind in der Regel mild.';
-
-  @override
-  String get gabapentinoidsMilestone90Title => 'Stabil und angepasst';
-
-  @override
-  String get gabapentinoidsMilestone90Description =>
-      'Drei Monate klar, das Nervensystem hat sich vollständig neu eingestellt. Die meisten Menschen fühlen sich stabil, mit normalem Schlaf und Stimmung.';
-
-  @override
-  String get gabapentinoidsMilestone180Title => 'Ein halbes Jahr frei';
-
-  @override
-  String get gabapentinoidsMilestone180Description =>
-      'Sechs Monate frei. Das Medikament ist lange aus Ihrer Routine verschwunden, und alle Rebound-Symptome haben sich gelöst.';
-
-  @override
   String get ghbPageTitle => 'GHB';
 
   @override
@@ -791,20 +742,6 @@ class AppLocalizationsDe extends AppLocalizations {
       'Das Dopaminsystem deines Gehirns hat sich weitgehend erholt. Du hast Widerstandskraft bewiesen und dein Leben ohne Abhängigkeit von Stimulanzien neu aufgebaut. Feiere, wie weit du gekommen bist.';
 
   @override
-  String get showAllItems => 'Alle Artikel anzeigen';
-
-  @override
-  String get showAllSubtitle =>
-      'Aktivieren oder Deaktivieren aller Hauptbildschirmelemente';
-
-  @override
-  String get enableNotifications => 'Alle Benachrichtigungen aktivieren';
-
-  @override
-  String get enableNotificationsSubtitle =>
-      'Schalten Sie alle Benachrichtigungen ein oder aus';
-
-  @override
   String get benzoPageTitle => 'Benzodiazepine';
 
   @override
@@ -1311,11 +1248,6 @@ class AppLocalizationsDe extends AppLocalizations {
   }
 
   @override
-  String hideDialogMessage(String title) {
-    return 'Dadurch wird die Option $title von Ihrem Startbildschirm ausgeblendet. Sie können es in den Einstellungen erneut anzeigen.';
-  }
-
-  @override
   String get cancel => 'Stornierung';
 
   @override
@@ -1479,9 +1411,6 @@ class AppLocalizationsDe extends AppLocalizations {
   String get settingsSectionSecurity => 'Sicherheit';
 
   @override
-  String get settingsSectionMainScreenItems => 'Hauptbildschirmelemente';
-
-  @override
   String get settingsSectionNotifications => 'Meldungen';
 
   @override
@@ -1498,9 +1427,6 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get settingsPinTimeoutHint => '15';
-
-  @override
-  String get settingsTheme => 'Thema';
 
   @override
   String get settingsColorScheme => 'Farbschema';
@@ -1719,9 +1645,6 @@ class AppLocalizationsDe extends AppLocalizations {
   String get pinDialogOK => 'OK';
 
   @override
-  String get notificationFrequencyDialogTitle => 'Häufigkeit der Mitteilungen';
-
-  @override
   String get notificationFrequencyNotifyEvery => 'Benachrichtigen Sie jeden';
 
   @override
@@ -1746,9 +1669,6 @@ class AppLocalizationsDe extends AppLocalizations {
     );
     return 'Du erhältst alle $_temp0 eine Benachrichtigung wie diese, die dir zu deinem Fortschritt gratuliert!';
   }
-
-  @override
-  String get deleteEverythingDialogTitle => 'Alles löschen';
 
   @override
   String get deleteEverythingDialogMessage =>
@@ -1787,12 +1707,6 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get journalNextMonth => 'Nächster Monat';
-
-  @override
-  String get quitMilestonesStart => 'Beginn';
-
-  @override
-  String get quitMilestonesReset => 'Zurücksetzen';
 
   @override
   String get quitMilestonesQuitDate => 'Ablaufdatum';
@@ -1924,12 +1838,6 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get whatsNewTitle => 'Was ist neu?';
-
-  @override
-  String get whatsNewSearchHint => 'Suche ...';
-
-  @override
-  String get whatsNewEnjoyingButton => 'Genießen Sie die App?';
 
   @override
   String get enjoyingPageTitle => 'Gefällt dir die App?';
@@ -2594,44 +2502,6 @@ class AppLocalizationsDe extends AppLocalizations {
   @override
   String get nicotinePouchesReferenceDay14 =>
       'Zwei Wochen: Der Entzug lässt weiter nach\n\nQuelle: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nDie Übersichtsarbeit setzt den typischen Höhepunkt des Nikotinentzugs ungefähr auf Tag drei und beschreibt ein Abklingen der Symptome über die folgenden 3–4 Wochen.\n\nMitten in der Abklingphase\nNach zwei Wochen bist du weit in diesem Zeitraum nach dem Höhepunkt angekommen. Die Arbeit behandelt chronischen Gebrauch nikotinhaltiger Produkte und weist darauf hin, dass die Stärke des Entzugs je nach Konsumform variiert.\n\nZwei Wochen ohne Nikotinbeutel sind ein klarer Punkt auf der abfallenden Kurve: Der typische Entzug lässt weiter nach.';
-
-  @override
-  String get nicotinePouchesMilestone30Title =>
-      'Stress Response normalisiert sich';
-
-  @override
-  String get nicotinePouchesMilestone30Description =>
-      'Plot Twist: Nikotin erhöht tatsächlich Stress zwischen den Anwendungen! Ihre Cortisol- und Stressreaktion wird wieder normal. Echte Entspannung, nicht die Nikotin-Fake-out.';
-
-  @override
-  String get nicotinePouchesMilestone60Title => 'Schlafqualität verbessert';
-
-  @override
-  String get nicotinePouchesMilestone60Description =>
-      'Süße Träume bestehen aus ... kein Nikotin! Während Nikotin entspannend wirkt, stört es tatsächlich die Schlafarchitektur. Zwei Monate, und Ihre REM-Zyklen sind wunderschön wiederhergestellt.';
-
-  @override
-  String get nicotinePouchesMilestone90Title =>
-      'Dopaminrezeptoren erholen sich';
-
-  @override
-  String get nicotinePouchesMilestone90Description =>
-      'Das Belohnungssystem Ihres Gehirns ist wieder online! Nikotin entführt Dopaminwege und macht normale Freuden langweilig. Drei Monate frei, und die natürlichen Freuden des Lebens sind wieder lebendig.';
-
-  @override
-  String get nicotinePouchesMilestone180Title => 'Herz-Kreislauf-Risiko sinkt';
-
-  @override
-  String get nicotinePouchesMilestone180Description =>
-      'Dein Herz schickt Liebesbriefe! Sechs Monate ohne Nikotin reduzieren das Risiko für Herz-Kreislauf-Erkrankungen signifikant. Ihr Blutdruck und Ihre Herzfrequenzvariabilität sind erheblich verbessert.';
-
-  @override
-  String get nicotinePouchesMilestone365Title =>
-      'Langfristige Gesundheit gesichert';
-
-  @override
-  String get nicotinePouchesMilestone365Description =>
-      'Ein Jahr Freiheit! Ihr Risiko für nikotinbedingte Gesundheitsprobleme sinkt weiter. Du hast den Suchtzyklus durchbrochen und deine Autonomie zurückgewonnen. Das ist echt heroisch! 🏆';
 
   @override
   String get nicotinePouchesMilestone730Title =>

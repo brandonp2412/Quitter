@@ -342,90 +342,6 @@ abstract class AppLocalizations {
   /// **'Gabapentin / Pregabalin'**
   String get addictionGabapentinoid;
 
-  /// No description provided for @gabapentinoidsMilestone1Title.
-  ///
-  /// In en, this message translates to:
-  /// **'Taper, Don\'t Stop Suddenly'**
-  String get gabapentinoidsMilestone1Title;
-
-  /// No description provided for @gabapentinoidsMilestone1Description.
-  ///
-  /// In en, this message translates to:
-  /// **'Gabapentinoid withdrawal can begin within 12–48 hours. The critical risk is seizures on abrupt cessation, so these drugs must be tapered under medical guidance rather than stopped cold.'**
-  String get gabapentinoidsMilestone1Description;
-
-  /// No description provided for @gabapentinoidsMilestone3Title.
-  ///
-  /// In en, this message translates to:
-  /// **'Peak Withdrawal'**
-  String get gabapentinoidsMilestone3Title;
-
-  /// No description provided for @gabapentinoidsMilestone3Description.
-  ///
-  /// In en, this message translates to:
-  /// **'Symptoms typically peak around day 3: heightened anxiety, insomnia, sweating, nausea, and sometimes confusion. A supervised taper greatly reduces this.'**
-  String get gabapentinoidsMilestone3Description;
-
-  /// No description provided for @gabapentinoidsMilestone7Title.
-  ///
-  /// In en, this message translates to:
-  /// **'Acute Phase Easing'**
-  String get gabapentinoidsMilestone7Title;
-
-  /// No description provided for @gabapentinoidsMilestone7Description.
-  ///
-  /// In en, this message translates to:
-  /// **'Around days 7–10 the acute symptoms substantially decrease. A gradual taper keeps this window manageable.'**
-  String get gabapentinoidsMilestone7Description;
-
-  /// No description provided for @gabapentinoidsMilestone14Title.
-  ///
-  /// In en, this message translates to:
-  /// **'Sleep and Anxiety Settling'**
-  String get gabapentinoidsMilestone14Title;
-
-  /// No description provided for @gabapentinoidsMilestone14Description.
-  ///
-  /// In en, this message translates to:
-  /// **'Two weeks in, sleep and your usual anxiety levels are improving as the nervous system adapts to functioning without the drug.'**
-  String get gabapentinoidsMilestone14Description;
-
-  /// No description provided for @gabapentinoidsMilestone30Title.
-  ///
-  /// In en, this message translates to:
-  /// **'One Month Clear'**
-  String get gabapentinoidsMilestone30Title;
-
-  /// No description provided for @gabapentinoidsMilestone30Description.
-  ///
-  /// In en, this message translates to:
-  /// **'At a month most people are through withdrawal, with steadier mood, sleep, and clarity. Any lingering symptoms are usually mild.'**
-  String get gabapentinoidsMilestone30Description;
-
-  /// No description provided for @gabapentinoidsMilestone90Title.
-  ///
-  /// In en, this message translates to:
-  /// **'Stable and Adjusted'**
-  String get gabapentinoidsMilestone90Title;
-
-  /// No description provided for @gabapentinoidsMilestone90Description.
-  ///
-  /// In en, this message translates to:
-  /// **'Three months clear, the nervous system has fully readjusted. Most people feel stable, with normal sleep and mood.'**
-  String get gabapentinoidsMilestone90Description;
-
-  /// No description provided for @gabapentinoidsMilestone180Title.
-  ///
-  /// In en, this message translates to:
-  /// **'Half a Year Free'**
-  String get gabapentinoidsMilestone180Title;
-
-  /// No description provided for @gabapentinoidsMilestone180Description.
-  ///
-  /// In en, this message translates to:
-  /// **'Six months free. The drug is long gone from your routine, and any rebound symptoms have resolved.'**
-  String get gabapentinoidsMilestone180Description;
-
   /// No description provided for @ghbPageTitle.
   ///
   /// In en, this message translates to:
@@ -1452,30 +1368,6 @@ abstract class AppLocalizations {
   /// **'Your brain\'s dopamine system has largely restored to normal functioning. You\'ve proven your resilience and rebuilt your life without dependence on stimulants. This milestone represents a complete transformation - celebrate how far you\'ve come!'**
   String get adderallMilestone365Description;
 
-  /// No description provided for @showAllItems.
-  ///
-  /// In en, this message translates to:
-  /// **'Show all items'**
-  String get showAllItems;
-
-  /// No description provided for @showAllSubtitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Enable or disable all main screen items'**
-  String get showAllSubtitle;
-
-  /// No description provided for @enableNotifications.
-  ///
-  /// In en, this message translates to:
-  /// **'Enable all notifications'**
-  String get enableNotifications;
-
-  /// No description provided for @enableNotificationsSubtitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Turn on or off all notifications'**
-  String get enableNotificationsSubtitle;
-
   /// No description provided for @benzoPageTitle.
   ///
   /// In en, this message translates to:
@@ -2298,12 +2190,6 @@ abstract class AppLocalizations {
   /// **'Hide {title}?'**
   String hideDialogTitle(String title);
 
-  /// Message explaining what hiding an addiction does
-  ///
-  /// In en, this message translates to:
-  /// **'This will hide the {title} option from your home screen. You can show it again in Settings.'**
-  String hideDialogMessage(String title);
-
   /// Cancel button text used throughout the app
   ///
   /// In en, this message translates to:
@@ -2610,12 +2496,6 @@ abstract class AppLocalizations {
   /// **'Security'**
   String get settingsSectionSecurity;
 
-  /// Section header for main screen items settings
-  ///
-  /// In en, this message translates to:
-  /// **'Main Screen Items'**
-  String get settingsSectionMainScreenItems;
-
   /// Section header for notification settings
   ///
   /// In en, this message translates to:
@@ -2651,12 +2531,6 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'15'**
   String get settingsPinTimeoutHint;
-
-  /// Setting title for theme selection
-  ///
-  /// In en, this message translates to:
-  /// **'Theme'**
-  String get settingsTheme;
 
   /// Setting title for color scheme selection
   ///
@@ -3036,12 +2910,6 @@ abstract class AppLocalizations {
   /// **'OK'**
   String get pinDialogOK;
 
-  /// Dialog title for notification frequency settings
-  ///
-  /// In en, this message translates to:
-  /// **'Notification frequency'**
-  String get notificationFrequencyDialogTitle;
-
   /// Label for notification frequency field
   ///
   /// In en, this message translates to:
@@ -3077,12 +2945,6 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'You will see a notification like this every {days, plural, =1 {{days} day} other {{days} days}} congratulating you on your progress!'**
   String notificationTestBody(int days);
-
-  /// Dialog title for delete everything confirmation
-  ///
-  /// In en, this message translates to:
-  /// **'Delete everything'**
-  String get deleteEverythingDialogTitle;
 
   /// Message warning about deleting all data
   ///
@@ -3149,18 +3011,6 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Next Month'**
   String get journalNextMonth;
-
-  /// Button to start quit journey
-  ///
-  /// In en, this message translates to:
-  /// **'Start'**
-  String get quitMilestonesStart;
-
-  /// Button to reset quit journey
-  ///
-  /// In en, this message translates to:
-  /// **'Reset'**
-  String get quitMilestonesReset;
 
   /// Label for quit date field
   ///
@@ -3371,18 +3221,6 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'What\'s new?'**
   String get whatsNewTitle;
-
-  /// Hint text for changelog search
-  ///
-  /// In en, this message translates to:
-  /// **'Search...'**
-  String get whatsNewSearchHint;
-
-  /// Button text to go to enjoying page from what's new
-  ///
-  /// In en, this message translates to:
-  /// **'Enjoying the app?'**
-  String get whatsNewEnjoyingButton;
 
   /// Title for enjoying the app page
   ///
@@ -4493,66 +4331,6 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Two Weeks: Withdrawal Keeps Easing\n\nSource: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nThe review places the typical nicotine-withdrawal peak around day 3 and says symptoms taper over the following 3–4 weeks.\n\nWell into the taper\nAt two weeks, you’re well into that post-peak taper window. The review covers chronic use of nicotine-containing products and notes that withdrawal severity varies with how nicotine was consumed.\n\nTwo weeks pouch-free is a concrete checkpoint on the downward curve: the typical withdrawal syndrome is continuing to ease.'**
   String get nicotinePouchesReferenceDay14;
-
-  /// Nicotine pouches milestone day 30 title
-  ///
-  /// In en, this message translates to:
-  /// **'Stress Response Normalizes'**
-  String get nicotinePouchesMilestone30Title;
-
-  /// Nicotine pouches milestone day 30 description
-  ///
-  /// In en, this message translates to:
-  /// **'Plot twist: nicotine actually increases stress between uses! Your cortisol and stress response are returning to normal. Real relaxation, not the nicotine fake-out.'**
-  String get nicotinePouchesMilestone30Description;
-
-  /// Nicotine pouches milestone day 60 title
-  ///
-  /// In en, this message translates to:
-  /// **'Sleep Quality Improves'**
-  String get nicotinePouchesMilestone60Title;
-
-  /// Nicotine pouches milestone day 60 description
-  ///
-  /// In en, this message translates to:
-  /// **'Sweet dreams are made of... no nicotine! While nicotine seems relaxing, it actually disrupts sleep architecture. Two months in, and your REM cycles are beautifully restored.'**
-  String get nicotinePouchesMilestone60Description;
-
-  /// Nicotine pouches milestone day 90 title
-  ///
-  /// In en, this message translates to:
-  /// **'Dopamine Receptors Recover'**
-  String get nicotinePouchesMilestone90Title;
-
-  /// Nicotine pouches milestone day 90 description
-  ///
-  /// In en, this message translates to:
-  /// **'Your brain\'s reward system is back online! Nicotine hijacks dopamine pathways, making normal pleasures seem dull. Three months free, and life\'s natural joys are vibrant again.'**
-  String get nicotinePouchesMilestone90Description;
-
-  /// Nicotine pouches milestone day 180 title
-  ///
-  /// In en, this message translates to:
-  /// **'Cardiovascular Risk Drops'**
-  String get nicotinePouchesMilestone180Title;
-
-  /// Nicotine pouches milestone day 180 description
-  ///
-  /// In en, this message translates to:
-  /// **'Your heart is sending love letters! Six months without nicotine significantly reduces cardiovascular disease risk. Your blood pressure and heart rate variability are vastly improved.'**
-  String get nicotinePouchesMilestone180Description;
-
-  /// Nicotine pouches milestone day 365 title
-  ///
-  /// In en, this message translates to:
-  /// **'Long-term Health Secured'**
-  String get nicotinePouchesMilestone365Title;
-
-  /// Nicotine pouches milestone day 365 description
-  ///
-  /// In en, this message translates to:
-  /// **'One year of freedom! Your risk of nicotine-related health issues continues to plummet. You\'ve broken the addiction cycle and reclaimed your autonomy. That\'s genuinely heroic! 🏆'**
-  String get nicotinePouchesMilestone365Description;
 
   /// Nicotine pouches milestone day 730 title
   ///

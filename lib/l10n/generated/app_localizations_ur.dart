@@ -135,55 +135,6 @@ class AppLocalizationsUr extends AppLocalizations {
       'جب ہم ایک دوسرے کے ساتھ تعاون کرتے ہیں تو ہم اُن کی مدد کر سکتے ہیں ۔';
 
   @override
-  String get gabapentinoidsMilestone1Title => 'ٹیپر، اچانک بند نہ کرو';
-
-  @override
-  String get gabapentinoidsMilestone1Description =>
-      'Gabapentinoid reaction 12–48 گھنٹوں کے اندر شروع ہو سکتا ہے۔ اِس لئے اِن ادویات کو سردی سے بچنے کی بجائے طبّی راہنمائی فراہم کی جانی چاہئے ۔';
-
-  @override
-  String get gabapentinoidsMilestone3Title => 'واپسی کی علامات عروج پر';
-
-  @override
-  String get gabapentinoidsMilestone3Description =>
-      'دُنیابھر میں زیادہ‌تر لوگ پریشانی ، بےچینی ، پس‌منظر ، مایوسی اور بعض‌اوقات پریشان‌کُن حالت میں رہتے ہیں ۔ اِس کی وجہ یہ ہے کہ اُن کے بچے اِس بات سے واقف ہیں کہ وہ اُن کی مدد کیسے کر سکتے ہیں ۔';
-
-  @override
-  String get gabapentinoidsMilestone7Title => 'شدید مرحلہ کم ہو رہا ہے';
-
-  @override
-  String get gabapentinoidsMilestone7Description =>
-      '7–10 کے آس پاس کی علامات بے حد کم ہو جاتی ہیں۔ آہستہ آہستہ اِس کھڑکی کو بند کر دیتا ہے ۔';
-
-  @override
-  String get gabapentinoidsMilestone14Title => 'نیند اور پریشانی';
-
-  @override
-  String get gabapentinoidsMilestone14Description =>
-      'دو ہفتوں میں نیند اور آپ کی پریشانی کی وجہ سے منشیات کے بغیر ورزش کرنے میں بہتری آ رہی ہے ۔';
-
-  @override
-  String get gabapentinoidsMilestone30Title => 'ایک ماہ سے پاک';
-
-  @override
-  String get gabapentinoidsMilestone30Description =>
-      'ایک مہینے کے اندر زیادہ‌تر لوگ پیچھے ہٹ جاتے ہیں ۔ کوئی بھی علامات عموماً نرم ہوتی ہیں ۔';
-
-  @override
-  String get gabapentinoidsMilestone90Title => 'قابلِ‌اعتماد اور قابلِ‌اعتماد';
-
-  @override
-  String get gabapentinoidsMilestone90Description =>
-      'تین ماہ واضح ہے کہ اعصابی نظام مکمل طور پر تباہ ہو گیا ہے ۔ زیادہ‌تر لوگ نیند اور مزاج کے ساتھ مستحکم محسوس کرتے ہیں ۔';
-
-  @override
-  String get gabapentinoidsMilestone180Title => 'چھ ماہ سے پاک';
-
-  @override
-  String get gabapentinoidsMilestone180Description =>
-      'چھ مہینے مفت. یہ دوا آپ کے معمول سے طویل دور ہے اور کسی بھی قسم کی ذیابیطس کی علامات حل ہو چکی ہیں ۔';
-
-  @override
   String get ghbPageTitle => 'جی‌بی‌بی دوبارہ';
 
   @override
@@ -783,19 +734,6 @@ class AppLocalizationsUr extends AppLocalizations {
       'دماغ کا ڈوپامین نظام بڑی حد تک معمول کے کام کی طرف لوٹ چکا ہے۔ آپ نے محرک ادویات پر انحصار کے بغیر اپنی زندگی دوبارہ تعمیر کرتے ہوئے استقامت دکھائی ہے۔ یہاں تک پہنچنے کی پیش رفت کا جشن منائیں۔';
 
   @override
-  String get showAllItems => 'تمام آئٹمس دکھا ئيں';
-
-  @override
-  String get showAllSubtitle => 'تمام بنیادی ڈھانچے کو فعال کریں یا معطل کریں';
-
-  @override
-  String get enableNotifications => 'تمام اطلاعات محفوظ کریں';
-
-  @override
-  String get enableNotificationsSubtitle =>
-      'تمام اطلاعات پر بند کرو یا بند کرو';
-
-  @override
   String get benzoPageTitle => 'بین‌الاقوامی ذمہ‌داری';
 
   @override
@@ -1296,11 +1234,6 @@ class AppLocalizationsUr extends AppLocalizations {
   }
 
   @override
-  String hideDialogMessage(String title) {
-    return 'یہ آپ کی ہوم اسکرین سے $title کا اختیار چھپا دے گا۔ آپ اسے ترتیبات میں دوبارہ دکھا سکتے ہیں۔';
-  }
-
-  @override
   String get cancel => 'منسوخ';
 
   @override
@@ -1462,9 +1395,6 @@ class AppLocalizationsUr extends AppLocalizations {
   String get settingsSectionSecurity => 'سیکورٹی';
 
   @override
-  String get settingsSectionMainScreenItems => 'بنیادی سکرین ای‌میل';
-
-  @override
   String get settingsSectionNotifications => 'غیر متصل';
 
   @override
@@ -1481,9 +1411,6 @@ class AppLocalizationsUr extends AppLocalizations {
 
   @override
   String get settingsPinTimeoutHint => '15';
-
-  @override
-  String get settingsTheme => 'تھیم';
 
   @override
   String get settingsColorScheme => 'رنگوں کی تدبیر';
@@ -1693,9 +1620,6 @@ class AppLocalizationsUr extends AppLocalizations {
   String get pinDialogOK => 'ٹھیک ہے';
 
   @override
-  String get notificationFrequencyDialogTitle => 'شناختی آلودگی';
-
-  @override
   String get notificationFrequencyNotifyEvery => 'ہر شخص کو فاضل نہ کریں';
 
   @override
@@ -1720,9 +1644,6 @@ class AppLocalizationsUr extends AppLocalizations {
     );
     return 'آپ کو ہر $_temp0 ایسی اطلاع ملے گی جو آپ کی پیش رفت پر مبارک باد دے گی!';
   }
-
-  @override
-  String get deleteEverythingDialogTitle => 'سب کچھ حذف کردو';
 
   @override
   String get deleteEverythingDialogMessage =>
@@ -1761,12 +1682,6 @@ class AppLocalizationsUr extends AppLocalizations {
 
   @override
   String get journalNextMonth => 'اگلے مہینے';
-
-  @override
-  String get quitMilestonesStart => 'شروع کریں';
-
-  @override
-  String get quitMilestonesReset => 'مصر';
 
   @override
   String get quitMilestonesQuitDate => 'تاریخ کافی';
@@ -1898,12 +1813,6 @@ class AppLocalizationsUr extends AppLocalizations {
 
   @override
   String get whatsNewTitle => 'نیا کیا ہے؟';
-
-  @override
-  String get whatsNewSearchHint => 'تلاش کریں...';
-
-  @override
-  String get whatsNewEnjoyingButton => 'ایپ سے لطف اندوز ہو رہا ہے؟';
 
   @override
   String get enjoyingPageTitle => 'ایپ پسند آئی؟';
@@ -2567,44 +2476,6 @@ class AppLocalizationsUr extends AppLocalizations {
   @override
   String get nicotinePouchesReferenceDay14 =>
       'دو ہفتے: علامات مسلسل کم ہو رہی ہیں\n\nماخذ: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nجائزہ نکوٹین ترک کرنے کی عام چوٹی تقریباً تیسرے دن بتاتا ہے اور کہتا ہے کہ علامات اگلے 3–4 ہفتوں میں کم ہوتی رہتی ہیں۔\n\nکمی والے مرحلے میں کافی آگے\nدو ہفتوں پر آپ چوٹی کے بعد علامات کم ہونے والے مرحلے میں کافی آگے آ چکے ہوتے ہیں۔ یہ جائزہ نکوٹین والی مصنوعات کے طویل استعمال کا احاطہ کرتا ہے اور بتاتا ہے کہ ترک کی شدت نکوٹین لینے کے طریقے کے لحاظ سے مختلف ہوتی ہے۔\n\nنکوٹین پاؤچ کے بغیر دو ہفتے نیچے جاتے منحنی پر ایک واضح سنگ میل ہیں: عام ترک کی علامات مسلسل کم ہو رہی ہیں۔';
-
-  @override
-  String get nicotinePouchesMilestone30Title =>
-      'دباؤ کی وجہ سے مایوسی عام ہو جاتی ہے';
-
-  @override
-  String get nicotinePouchesMilestone30Description =>
-      'اِس وجہ سے اِس بیماری میں مبتلا لوگوں کو بہت سی مشکلات کا سامنا کرنا پڑتا ہے ۔ آپکا کوریسل اور دباؤ معمول کی طرف واپس آ رہا ہے ۔ حقیقی آرام، نکسن غلط حد تک نہیں.';
-
-  @override
-  String get nicotinePouchesMilestone60Title => 'نیند کی اہمیت';
-
-  @override
-  String get nicotinePouchesMilestone60Description =>
-      'صوتی خوابوں کی شکل میں بنے ہوئے ہیں... کوئی گندگی نہیں! اگرچہ سگریٹ‌نوشی عام دکھائی دیتی ہے توبھی یہ دراصل نیند کے آثار کو خراب کر دیتی ہے ۔ دو ماہ میں اور آپ کے رزمیہ چکر بڑی خوبصورتی سے بحال کیے جاتے ہیں۔';
-
-  @override
-  String get nicotinePouchesMilestone90Title =>
-      'دُنیا کے حالات کیسے بگڑ گئے ہیں ؟';
-
-  @override
-  String get nicotinePouchesMilestone90Description =>
-      'آپ کا دماغ انعامی نظام آن لائن ہے! اِس کی وجہ یہ ہے کہ اُن کی زندگی میں بہت مزہ آتا ہے ۔ تین ماہ آزاد اور زندگی کی قدرتی خوشیوں کو دوبارہ ناقابل یقین بنایا جاتا ہے۔';
-
-  @override
-  String get nicotinePouchesMilestone180Title =>
-      'نقصاندہ خطرات کا باعث بنتے ہیں۔';
-
-  @override
-  String get nicotinePouchesMilestone180Description =>
-      'آپ کا دل محبت خطوط بھیجتا ہے! ذیابیطس کے بغیر چھ ماہ کے اندر اندر اندر تک پہنچنے والی بیماریوں میں اضافہ ہو جاتا ہے ۔ آپکا بلڈ پریشر اور دل کی کارکردگی بہت بہتر ہے ۔';
-
-  @override
-  String get nicotinePouchesMilestone365Title => 'طویل مدتی صحت محفوظ ہے۔';
-
-  @override
-  String get nicotinePouchesMilestone365Description =>
-      'آزادی کا ایک سال! اس سے متعلقہ صحت کے مسائل کا خطرہ بڑھتا رہتا ہے۔ آپ نے عادتی چکر توڑ دیا ہے اور اپنے اسالیب کو الٹ دیا ہے. یہ سچ ہے! انکار کرو';
 
   @override
   String get nicotinePouchesMilestone730Title => 'دو سال: پاؤچ کے بغیر طاقت';

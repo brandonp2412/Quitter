@@ -135,57 +135,6 @@ class AppLocalizationsFr extends AppLocalizations {
   String get addictionGabapentinoid => 'Gabapentine / Prégabaline';
 
   @override
-  String get gabapentinoidsMilestone1Title =>
-      'Diminuez progressivement, n\'arrêtez pas brutalement';
-
-  @override
-  String get gabapentinoidsMilestone1Description =>
-      'Le sevrage des gabapentinoïdes peut commencer dans les 12 à 48 heures. Le risque majeur d\'un arrêt brutal est la survenue de crises convulsives ; ces médicaments doivent donc être diminués progressivement sous supervision médicale plutôt qu\'arrêtés d\'un coup.';
-
-  @override
-  String get gabapentinoidsMilestone3Title => 'Pic du sevrage';
-
-  @override
-  String get gabapentinoidsMilestone3Description =>
-      'Les symptômes culminent généralement autour du 3e jour : anxiété accrue, insomnie, sueurs, nausées et parfois confusion. Une diminution progressive supervisée réduit fortement ces symptômes.';
-
-  @override
-  String get gabapentinoidsMilestone7Title => 'Atténuation de la phase aiguë';
-
-  @override
-  String get gabapentinoidsMilestone7Description =>
-      'Vers les jours 7 à 10, les symptômes aigus diminuent nettement. Une réduction progressive rend cette période plus facile à gérer.';
-
-  @override
-  String get gabapentinoidsMilestone14Title =>
-      'Stabilisation du sommeil et de l\'anxiété';
-
-  @override
-  String get gabapentinoidsMilestone14Description =>
-      'Après deux semaines, le sommeil et votre niveau habituel d\'anxiété s\'améliorent à mesure que le système nerveux s\'adapte à fonctionner sans le médicament.';
-
-  @override
-  String get gabapentinoidsMilestone30Title => 'Un mois sans traitement';
-
-  @override
-  String get gabapentinoidsMilestone30Description =>
-      'Après un mois, la plupart des personnes ont traversé le sevrage, avec une humeur, un sommeil et une clarté mentale plus stables. Les symptômes persistants sont généralement légers.';
-
-  @override
-  String get gabapentinoidsMilestone90Title => 'Stabilité et adaptation';
-
-  @override
-  String get gabapentinoidsMilestone90Description =>
-      'Après trois mois, le système nerveux s\'est complètement réadapté. La plupart des personnes se sentent stables, avec un sommeil et une humeur revenus à la normale.';
-
-  @override
-  String get gabapentinoidsMilestone180Title => 'Six mois de liberté';
-
-  @override
-  String get gabapentinoidsMilestone180Description =>
-      'Six mois sans traitement. Le médicament a depuis longtemps quitté votre quotidien et tout symptôme de rebond a disparu.';
-
-  @override
   String get ghbPageTitle => 'GHB';
 
   @override
@@ -799,20 +748,6 @@ class AppLocalizationsFr extends AppLocalizations {
       'Le système dopaminergique du cerveau a en grande partie retrouvé un fonctionnement normal. Vous avez démontré votre résilience et reconstruit votre vie sans dépendance aux stimulants. Cette étape représente une transformation profonde — célébrez le chemin parcouru !';
 
   @override
-  String get showAllItems => 'Afficher tous les éléments';
-
-  @override
-  String get showAllSubtitle =>
-      'Activer ou désactiver tous les éléments de l\'écran principal';
-
-  @override
-  String get enableNotifications => 'Activer toutes les notifications';
-
-  @override
-  String get enableNotificationsSubtitle =>
-      'Activer ou désactiver toutes les notifications';
-
-  @override
   String get benzoPageTitle => 'Benzodiazépines';
 
   @override
@@ -1323,11 +1258,6 @@ class AppLocalizationsFr extends AppLocalizations {
   }
 
   @override
-  String hideDialogMessage(String title) {
-    return 'Cela masquera l\'option $title de votre écran d\'accueil. Vous pourrez l\'afficher de nouveau dans les paramètres.';
-  }
-
-  @override
   String get cancel => 'Annuler';
 
   @override
@@ -1491,9 +1421,6 @@ class AppLocalizationsFr extends AppLocalizations {
   String get settingsSectionSecurity => 'Sécurité';
 
   @override
-  String get settingsSectionMainScreenItems => 'Éléments de l\'écran principal';
-
-  @override
   String get settingsSectionNotifications => 'Notifications';
 
   @override
@@ -1511,9 +1438,6 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get settingsPinTimeoutHint => '15';
-
-  @override
-  String get settingsTheme => 'Thème';
 
   @override
   String get settingsColorScheme => 'Palette de couleurs';
@@ -1736,9 +1660,6 @@ class AppLocalizationsFr extends AppLocalizations {
   String get pinDialogOK => 'OK';
 
   @override
-  String get notificationFrequencyDialogTitle => 'Fréquence des notifications';
-
-  @override
   String get notificationFrequencyNotifyEvery => 'Notifier tous les';
 
   @override
@@ -1763,9 +1684,6 @@ class AppLocalizationsFr extends AppLocalizations {
     );
     return 'Vous verrez une notification comme celle-ci tous les $_temp0 pour vous féliciter de vos progrès !';
   }
-
-  @override
-  String get deleteEverythingDialogTitle => 'Tout supprimer';
 
   @override
   String get deleteEverythingDialogMessage =>
@@ -1804,12 +1722,6 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get journalNextMonth => 'Mois suivant';
-
-  @override
-  String get quitMilestonesStart => 'Commencer';
-
-  @override
-  String get quitMilestonesReset => 'Réinitialiser';
 
   @override
   String get quitMilestonesQuitDate => 'Date d\'arrêt';
@@ -1941,12 +1853,6 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get whatsNewTitle => 'Nouveautés';
-
-  @override
-  String get whatsNewSearchHint => 'Rechercher...';
-
-  @override
-  String get whatsNewEnjoyingButton => 'Vous aimez l\'application ?';
 
   @override
   String get enjoyingPageTitle => 'Vous aimez l\'appli ?';
@@ -2621,46 +2527,6 @@ class AppLocalizationsFr extends AppLocalizations {
   @override
   String get nicotinePouchesReferenceDay14 =>
       'Deux semaines : le sevrage continue de s’atténuer\n\nSource : McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nLa revue situe le pic habituel du sevrage nicotinique autour du troisième jour et indique que les symptômes diminuent pendant les 3–4 semaines suivantes.\n\nBien engagé dans la descente\nÀ deux semaines, vous êtes bien avancé dans cette phase post-pic. La revue porte sur l’usage chronique de produits contenant de la nicotine et note que l’intensité du sevrage varie selon le mode de consommation.\n\nDeux semaines sans sachet constituent un repère concret sur cette courbe descendante : le sevrage typique continue de s’atténuer.';
-
-  @override
-  String get nicotinePouchesMilestone30Title =>
-      'La réponse au stress se normalise';
-
-  @override
-  String get nicotinePouchesMilestone30Description =>
-      'Surprise : la nicotine augmente en réalité le stress entre les prises ! Votre cortisol et votre réponse au stress reviennent à la normale. Une vraie détente, sans le faux soulagement de la nicotine.';
-
-  @override
-  String get nicotinePouchesMilestone60Title =>
-      'La qualité du sommeil s\'améliore';
-
-  @override
-  String get nicotinePouchesMilestone60Description =>
-      'Les beaux rêves se font sans nicotine ! Même si elle semble relaxante, la nicotine perturbe en réalité l\'architecture du sommeil. Après deux mois, vos cycles de sommeil paradoxal sont magnifiquement restaurés.';
-
-  @override
-  String get nicotinePouchesMilestone90Title =>
-      'Les récepteurs dopaminergiques récupèrent';
-
-  @override
-  String get nicotinePouchesMilestone90Description =>
-      'Le système de récompense de votre cerveau est de nouveau opérationnel ! La nicotine détourne les circuits de la dopamine et rend les plaisirs ordinaires ternes. Après trois mois, les joies naturelles de la vie redeviennent vibrantes.';
-
-  @override
-  String get nicotinePouchesMilestone180Title =>
-      'Le risque cardiovasculaire diminue';
-
-  @override
-  String get nicotinePouchesMilestone180Description =>
-      'Votre cœur vous remercie ! Six mois sans nicotine réduisent nettement le risque de maladie cardiovasculaire. Votre tension artérielle et la variabilité de votre fréquence cardiaque se sont fortement améliorées.';
-
-  @override
-  String get nicotinePouchesMilestone365Title =>
-      'Santé à long terme consolidée';
-
-  @override
-  String get nicotinePouchesMilestone365Description =>
-      'Une année de liberté ! Votre risque de problèmes de santé liés à la nicotine continue de chuter. Vous avez brisé le cycle de dépendance et repris votre autonomie. C\'est réellement héroïque ! 🏆';
 
   @override
   String get nicotinePouchesMilestone730Title => 'Deux ans : liberté durable';

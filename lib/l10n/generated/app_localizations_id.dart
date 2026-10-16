@@ -135,55 +135,6 @@ class AppLocalizationsId extends AppLocalizations {
   String get addictionGabapentinoid => 'Obat gabapentinoid';
 
   @override
-  String get gabapentinoidsMilestone1Title => 'Taper, Jangan Berhenti Mendadak';
-
-  @override
-  String get gabapentinoidsMilestone1Description =>
-      'Penarikan gabapentinoid dapat dimulai dalam 12–48 jam. Risiko kritisnya adalah kejang yang berhenti secara tiba-tiba, jadi obat-obatan ini harus dikurangi secara bertahap di bawah bimbingan medis daripada dihentikan dalam keadaan dingin.';
-
-  @override
-  String get gabapentinoidsMilestone3Title => 'Penarikan Puncak';
-
-  @override
-  String get gabapentinoidsMilestone3Description =>
-      'Gejala biasanya mencapai puncaknya sekitar hari ke-3: kecemasan yang meningkat, insomnia, berkeringat, mual, dan terkadang kebingungan. Pengurangan yang diawasi sangat mengurangi hal ini.';
-
-  @override
-  String get gabapentinoidsMilestone7Title => 'Pelonggaran Fase Akut';
-
-  @override
-  String get gabapentinoidsMilestone7Description =>
-      'Sekitar hari ke 7-10 gejala akut berkurang secara signifikan. Pengurangan bertahap membuat periode ini tetap dapat dikelola.';
-
-  @override
-  String get gabapentinoidsMilestone14Title => 'Mengatasi Tidur dan Kecemasan';
-
-  @override
-  String get gabapentinoidsMilestone14Description =>
-      'Dua minggu kemudian, tidur dan tingkat kecemasan Anda biasanya membaik seiring sistem saraf beradaptasi untuk berfungsi tanpa obat.';
-
-  @override
-  String get gabapentinoidsMilestone30Title => 'Satu Bulan Jelas';
-
-  @override
-  String get gabapentinoidsMilestone30Description =>
-      'Dalam sebulan kebanyakan orang mengalami penarikan diri, dengan suasana hati yang lebih stabil, tidur, dan kejernihan. Gejala yang menetap biasanya ringan.';
-
-  @override
-  String get gabapentinoidsMilestone90Title => 'Stabil dan Disesuaikan';
-
-  @override
-  String get gabapentinoidsMilestone90Description =>
-      'Tiga bulan berlalu, sistem saraf telah sepenuhnya menyesuaikan diri. Kebanyakan orang merasa stabil, dengan tidur dan suasana hati yang normal.';
-
-  @override
-  String get gabapentinoidsMilestone180Title => 'Gratis Setengah Tahun';
-
-  @override
-  String get gabapentinoidsMilestone180Description =>
-      'Enam bulan gratis. Obat ini sudah lama hilang dari rutinitas Anda, dan gejala kambuhnya telah teratasi.';
-
-  @override
   String get ghbPageTitle => 'Pemulihan GHB';
 
   @override
@@ -793,20 +744,6 @@ class AppLocalizationsId extends AppLocalizations {
       'Sistem dopamin otak Anda sebagian besar telah kembali berfungsi normal. Anda telah membuktikan ketahanan Anda dan membangun kembali hidup Anda tanpa ketergantungan pada stimulan. Pencapaian ini mewakili transformasi menyeluruh - rayakan seberapa jauh kemajuan Anda!';
 
   @override
-  String get showAllItems => 'Tampilkan semua item';
-
-  @override
-  String get showAllSubtitle =>
-      'Mengaktifkan atau menonaktifkan semua item layar utama';
-
-  @override
-  String get enableNotifications => 'Aktifkan semua notifikasi';
-
-  @override
-  String get enableNotificationsSubtitle =>
-      'Aktifkan atau nonaktifkan semua notifikasi';
-
-  @override
   String get benzoPageTitle => 'Benzodiazepin';
 
   @override
@@ -1312,11 +1249,6 @@ class AppLocalizationsId extends AppLocalizations {
   }
 
   @override
-  String hideDialogMessage(String title) {
-    return 'Ini akan menyembunyikan opsi $title dari layar beranda Anda. Anda dapat menampilkannya lagi di Pengaturan.';
-  }
-
-  @override
   String get cancel => 'Batal';
 
   @override
@@ -1479,9 +1411,6 @@ class AppLocalizationsId extends AppLocalizations {
   String get settingsSectionSecurity => 'Keamanan';
 
   @override
-  String get settingsSectionMainScreenItems => 'Item Layar Utama';
-
-  @override
   String get settingsSectionNotifications => 'Pemberitahuan';
 
   @override
@@ -1499,9 +1428,6 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get settingsPinTimeoutHint => '15';
-
-  @override
-  String get settingsTheme => 'Tema';
 
   @override
   String get settingsColorScheme => 'Skema warna';
@@ -1716,9 +1642,6 @@ class AppLocalizationsId extends AppLocalizations {
   String get pinDialogOK => 'Oke';
 
   @override
-  String get notificationFrequencyDialogTitle => 'Frekuensi notifikasi';
-
-  @override
   String get notificationFrequencyNotifyEvery => 'Beritahu setiap orang';
 
   @override
@@ -1743,9 +1666,6 @@ class AppLocalizationsId extends AppLocalizations {
     );
     return 'Anda akan menerima notifikasi seperti ini setiap $_temp0 untuk merayakan kemajuan Anda!';
   }
-
-  @override
-  String get deleteEverythingDialogTitle => 'Hapus semuanya';
 
   @override
   String get deleteEverythingDialogMessage =>
@@ -1784,12 +1704,6 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get journalNextMonth => 'Bulan Depan';
-
-  @override
-  String get quitMilestonesStart => 'Awal';
-
-  @override
-  String get quitMilestonesReset => 'Atur Ulang';
 
   @override
   String get quitMilestonesQuitDate => 'Tanggal keluar';
@@ -1921,12 +1835,6 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get whatsNewTitle => 'Apa yang baru?';
-
-  @override
-  String get whatsNewSearchHint => 'Cari...';
-
-  @override
-  String get whatsNewEnjoyingButton => 'Menikmati aplikasinya?';
 
   @override
   String get enjoyingPageTitle => 'Suka aplikasinya?';
@@ -2594,43 +2502,6 @@ class AppLocalizationsId extends AppLocalizations {
   @override
   String get nicotinePouchesReferenceDay14 =>
       'Dua Minggu: Gejala Terus Mereda\n\nSumber: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nTinjauan tersebut menempatkan puncak umum putus nikotin sekitar hari ke-3 dan menyatakan bahwa gejala mereda selama 3–4 minggu berikutnya.\n\nJauh masuk fase penurunan\nPada dua minggu, kamu sudah jauh masuk ke jendela penurunan setelah puncak. Tinjauan ini membahas penggunaan kronis produk yang mengandung nikotin dan mencatat bahwa keparahan putus nikotin berbeda menurut cara nikotin dikonsumsi.\n\nDua minggu tanpa kantong nikotin adalah titik nyata pada kurva menurun: sindrom putus nikotin yang umum terus mereda.';
-
-  @override
-  String get nicotinePouchesMilestone30Title => 'Respon Stres Menjadi Normal';
-
-  @override
-  String get nicotinePouchesMilestone30Description =>
-      'Plot twist: nikotin sebenarnya meningkatkan stres di antara penggunaan! Respon kortisol dan stres Anda kembali normal. Relaksasi yang sesungguhnya, bukan nikotin yang dipalsukan.';
-
-  @override
-  String get nicotinePouchesMilestone60Title => 'Kualitas Tidur Meningkat';
-
-  @override
-  String get nicotinePouchesMilestone60Description =>
-      'Mimpi indah terbuat dari... tanpa nikotin! Meskipun nikotin tampak menenangkan, sebenarnya nikotin mengganggu pola tidur. Dua bulan berlalu, dan siklus REM Anda pulih dengan indah.';
-
-  @override
-  String get nicotinePouchesMilestone90Title => 'Reseptor Dopamin Pulih';
-
-  @override
-  String get nicotinePouchesMilestone90Description =>
-      'Sistem penghargaan otak Anda kembali online! Nikotin membajak jalur dopamin, membuat kesenangan normal terasa membosankan. Tiga bulan gratis, dan kegembiraan alami hidup kembali cerah.';
-
-  @override
-  String get nicotinePouchesMilestone180Title =>
-      'Penurunan Risiko Kardiovaskular';
-
-  @override
-  String get nicotinePouchesMilestone180Description =>
-      'Hatimu mengirimkan surat cinta! Enam bulan tanpa nikotin secara signifikan mengurangi risiko penyakit kardiovaskular. Variabilitas tekanan darah dan detak jantung Anda meningkat pesat.';
-
-  @override
-  String get nicotinePouchesMilestone365Title =>
-      'Kesehatan Jangka Panjang Terjamin';
-
-  @override
-  String get nicotinePouchesMilestone365Description =>
-      'Satu tahun kebebasan! Risiko Anda terhadap masalah kesehatan terkait nikotin terus menurun. Anda telah memutus siklus kecanduan dan mendapatkan kembali otonomi Anda. Itu sungguh heroik! 🏆';
 
   @override
   String get nicotinePouchesMilestone730Title =>

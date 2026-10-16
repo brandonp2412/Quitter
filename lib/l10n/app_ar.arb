@@ -35,20 +35,6 @@
   "gabapentinoidsSubtitleNotStarted": "انظر ماذا يحدث عند الإقلاع عن التدخين",
   "gabapentinoidsInfoBox": "لا تتوقف أبدًا عن تناول جابابنتين أو بريجابالين فجأة. يمكن أن يؤدي التوقف المفاجئ عن تناول الدواء إلى حدوث نوبات — خاصةً إذا كنت تتناولها لعلاج الصرع. من الضروري إجراء عملية تدريجية تحت إشراف طبي.",
   "addictionGabapentinoid": "جابابنتين / بريجابالين",
-  "gabapentinoidsMilestone1Title": "تفتق، لا تتوقف فجأة",
-  "gabapentinoidsMilestone1Description": "يمكن أن يبدأ انسحاب جابابنتينويد خلال 12-48 ساعة. ويتمثل الخطر الحاسم في حدوث النوبات عند التوقف المفاجئ، لذلك يجب تقليل هذه الأدوية تدريجيًا تحت إشراف طبي بدلاً من إيقافها باردًا.",
-  "gabapentinoidsMilestone3Title": "ذروة الانسحاب",
-  "gabapentinoidsMilestone3Description": "عادةً ما تبلغ الأعراض ذروتها في اليوم الثالث تقريبًا: زيادة القلق، والأرق، والتعرق، والغثيان، وأحيانًا الارتباك. إن الاستدقاق الخاضع للإشراف يقلل من هذا بشكل كبير.",
-  "gabapentinoidsMilestone7Title": "تخفيف المرحلة الحادة",
-  "gabapentinoidsMilestone7Description": "في حوالي الأيام 7-10، تنخفض الأعراض الحادة بشكل كبير. يؤدي الاستدقاق التدريجي إلى إبقاء هذه النافذة قابلة للإدارة.",
-  "gabapentinoidsMilestone14Title": "تسوية النوم والقلق",
-  "gabapentinoidsMilestone14Description": "بعد أسبوعين، تتحسن مستويات النوم والقلق المعتادة لديك حيث يتكيف الجهاز العصبي مع العمل بدون الدواء.",
-  "gabapentinoidsMilestone30Title": "شهر واحد واضح",
-  "gabapentinoidsMilestone30Description": "بعد مرور شهر، يمر معظم الأشخاص بالانسحاب، مع مزاج أكثر ثباتًا ونومًا ووضوحًا. عادة ما تكون أي أعراض باقية خفيفة.",
-  "gabapentinoidsMilestone90Title": "مستقرة وتعديلها",
-  "gabapentinoidsMilestone90Description": "بعد مرور ثلاثة أشهر، تم إعادة ضبط الجهاز العصبي بالكامل. يشعر معظم الناس بالاستقرار، مع نوم طبيعي ومزاج طبيعي.",
-  "gabapentinoidsMilestone180Title": "نصف سنة مجاناً",
-  "gabapentinoidsMilestone180Description": "ستة أشهر مجانية. لقد اختفى الدواء من روتينك منذ فترة طويلة، وتم حل أي أعراض ارتدادية.",
   "ghbPageTitle": "استرداد GHB",
   "ghbHeaderStarted": "رحلة التعافي الخاصة بك",
   "ghbHeaderNotStarted": "فوائد الإقلاع عن GHB",
@@ -227,10 +213,6 @@
   "adderallMilestone180Description": "تستمر إشارات الدوبامين في التعافي. يستمر التركيز والذاكرة والمزاج ونوعية الحياة اليومية في التحسن.",
   "adderallMilestone365Title": "عام واحد: التعافي شبه الكامل",
   "adderallMilestone365Description": "لقد استعاد نظام الدوبامين في دماغك إلى حد كبير عمله الطبيعي. لقد أثبتت مرونتك وأعدت بناء حياتك دون الاعتماد على المنشطات. يمثل هذا الإنجاز تحولًا كاملاً - احتفل بالمدى الذي وصلت إليه!",
-  "showAllItems": "إظهار كافة العناصر",
-  "showAllSubtitle": "تمكين أو تعطيل كافة عناصر الشاشة الرئيسية",
-  "enableNotifications": "تمكين كافة الإخطارات",
-  "enableNotificationsSubtitle": "تشغيل أو إيقاف جميع الإشعارات",
   "benzoPageTitle": "بنزوديازيبينات",
   "benzoHeaderStarted": "رحلة التعافي الخاصة بك",
   "benzoHeaderNotStarted": "فوائد الإقلاع عن البنزوديازيبينات",
@@ -546,15 +528,6 @@
       }
     }
   },
-  "hideDialogMessage": "سيؤدي هذا إلى إخفاء خيار {title} من شاشتك الرئيسية. يمكنك إظهاره مرة أخرى في الإعدادات.",
-  "@hideDialogMessage": {
-    "description": "Message explaining what hiding an addiction does",
-    "placeholders": {
-      "title": {
-        "type": "String"
-      }
-    }
-  },
   "cancel": "يلغي",
   "@cancel": {
     "description": "Cancel button text used throughout the app"
@@ -763,10 +736,6 @@
   "@settingsSectionSecurity": {
     "description": "Section header for security settings"
   },
-  "settingsSectionMainScreenItems": "عناصر الشاشة الرئيسية",
-  "@settingsSectionMainScreenItems": {
-    "description": "Section header for main screen items settings"
-  },
   "settingsSectionNotifications": "إشعارات",
   "@settingsSectionNotifications": {
     "description": "Section header for notification settings"
@@ -790,10 +759,6 @@
   "settingsPinTimeoutHint": "15",
   "@settingsPinTimeoutHint": {
     "description": "Hint text for PIN timeout field"
-  },
-  "settingsTheme": "سمة",
-  "@settingsTheme": {
-    "description": "Setting title for theme selection"
   },
   "settingsColorScheme": "نظام الألوان",
   "@settingsColorScheme": {
@@ -1036,10 +1001,6 @@
   "@pinDialogOK": {
     "description": "OK button in PIN dialog"
   },
-  "notificationFrequencyDialogTitle": "تردد الإخطار",
-  "@notificationFrequencyDialogTitle": {
-    "description": "Dialog title for notification frequency settings"
-  },
   "notificationFrequencyNotifyEvery": "أبلغ كل",
   "@notificationFrequencyNotifyEvery": {
     "description": "Label for notification frequency field"
@@ -1068,10 +1029,6 @@
         "type": "int"
       }
     }
-  },
-  "deleteEverythingDialogTitle": "احذف كل شيء",
-  "@deleteEverythingDialogTitle": {
-    "description": "Dialog title for delete everything confirmation"
   },
   "deleteEverythingDialogMessage": "هل أنت متأكد من حذف كل شيء؟ لا يمكن التراجع عن هذا الإجراء.",
   "@deleteEverythingDialogMessage": {
@@ -1121,14 +1078,6 @@
   "journalNextMonth": "الشهر المقبل",
   "@journalNextMonth": {
     "description": "Tooltip for next month button in calendar"
-  },
-  "quitMilestonesStart": "يبدأ",
-  "@quitMilestonesStart": {
-    "description": "Button to start quit journey"
-  },
-  "quitMilestonesReset": "إعادة ضبط",
-  "@quitMilestonesReset": {
-    "description": "Button to reset quit journey"
   },
   "quitMilestonesQuitDate": "تاريخ الإقلاع عن التدخين",
   "@quitMilestonesQuitDate": {
@@ -1302,14 +1251,6 @@
   "whatsNewTitle": "ما الجديد؟",
   "@whatsNewTitle": {
     "description": "Title for what's new page"
-  },
-  "whatsNewSearchHint": "يبحث...",
-  "@whatsNewSearchHint": {
-    "description": "Hint text for changelog search"
-  },
-  "whatsNewEnjoyingButton": "تتمتع التطبيق؟",
-  "@whatsNewEnjoyingButton": {
-    "description": "Button text to go to enjoying page from what's new"
   },
   "enjoyingPageTitle": "تتمتع التطبيق؟",
   "@enjoyingPageTitle": {
@@ -2025,46 +1966,6 @@
   "nicotinePouchesReferenceDay14": "أسبوعان: أعراض الانسحاب تواصل التراجع\n\nالمصدر: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nتضع المراجعة الذروة المعتادة لانسحاب النيكوتين قرابة اليوم الثالث وتذكر أن الأعراض تتراجع خلال الأسابيع 3–4 التالية.\n\nفي قلب مرحلة التراجع\nبعد أسبوعين تكون قد دخلت بوضوح في نافذة التراجع التي تلي الذروة. وتتناول المراجعة الاستخدام المزمن للمنتجات المحتوية على النيكوتين وتذكر أن شدة الانسحاب تختلف حسب طريقة تناول النيكوتين.\n\nأسبوعان بلا أكياس نيكوتين محطة واضحة على المنحنى الهابط: أعراض الانسحاب المعتادة تواصل التراجع.",
   "@nicotinePouchesReferenceDay14": {
     "description": "Nicotine pouches day 14 detailed reference"
-  },
-  "nicotinePouchesMilestone30Title": "تطبيع الاستجابة للإجهاد",
-  "@nicotinePouchesMilestone30Title": {
-    "description": "Nicotine pouches milestone day 30 title"
-  },
-  "nicotinePouchesMilestone30Description": "تطور الحبكة: النيكوتين يزيد التوتر بين مرات الاستخدام! تعود استجابة الكورتيزول والضغط النفسي إلى وضعها الطبيعي. الاسترخاء الحقيقي، وليس النيكوتين المزيف.",
-  "@nicotinePouchesMilestone30Description": {
-    "description": "Nicotine pouches milestone day 30 description"
-  },
-  "nicotinePouchesMilestone60Title": "تتحسن جودة النوم",
-  "@nicotinePouchesMilestone60Title": {
-    "description": "Nicotine pouches milestone day 60 title"
-  },
-  "nicotinePouchesMilestone60Description": "الأحلام السعيدة مصنوعة من... خالية من النيكوتين! في حين أن النيكوتين يبدو مريحًا، إلا أنه في الواقع يعطل بنية النوم. بعد مرور شهرين، ستتم استعادة دورات حركة العين السريعة بشكل جميل.",
-  "@nicotinePouchesMilestone60Description": {
-    "description": "Nicotine pouches milestone day 60 description"
-  },
-  "nicotinePouchesMilestone90Title": "استعادة مستقبلات الدوبامين",
-  "@nicotinePouchesMilestone90Title": {
-    "description": "Nicotine pouches milestone day 90 title"
-  },
-  "nicotinePouchesMilestone90Description": "لقد عاد نظام المكافأة في دماغك إلى العمل مرة أخرى! يخطف النيكوتين مسارات الدوبامين، مما يجعل الملذات الطبيعية تبدو مملة. ثلاثة أشهر مجانية، وستعود أفراح الحياة الطبيعية إلى الحياة مرة أخرى.",
-  "@nicotinePouchesMilestone90Description": {
-    "description": "Nicotine pouches milestone day 90 description"
-  },
-  "nicotinePouchesMilestone180Title": "قطرات خطر القلب والأوعية الدموية",
-  "@nicotinePouchesMilestone180Title": {
-    "description": "Nicotine pouches milestone day 180 title"
-  },
-  "nicotinePouchesMilestone180Description": "قلبك يرسل رسائل حب! ستة أشهر بدون النيكوتين تقلل بشكل كبير من خطر الإصابة بأمراض القلب والأوعية الدموية. تم تحسين ضغط الدم وتقلب معدل ضربات القلب بشكل كبير.",
-  "@nicotinePouchesMilestone180Description": {
-    "description": "Nicotine pouches milestone day 180 description"
-  },
-  "nicotinePouchesMilestone365Title": "تأمين صحي على المدى الطويل",
-  "@nicotinePouchesMilestone365Title": {
-    "description": "Nicotine pouches milestone day 365 title"
-  },
-  "nicotinePouchesMilestone365Description": "سنة واحدة من الحرية! يستمر خطر تعرضك للمشاكل الصحية المرتبطة بالنيكوتين في الانخفاض. لقد كسرت دائرة الإدمان واستعادت استقلاليتك. وهذا بطولي حقا! 🏆",
-  "@nicotinePouchesMilestone365Description": {
-    "description": "Nicotine pouches milestone day 365 description"
   },
   "nicotinePouchesMilestone730Title": "عامان: قوة بلا أكياس",
   "nicotinePouchesMilestone730Description": "عامان كاملان بلا أكياس نيكوتين. لم تثبت الأبحاث وجود عتبة تعافٍ خاصة عند العامين، لذلك يحتفل هذا الإنجاز بعامين من دون التعرض المتكرر لنيكوتين الأكياس وبالتغيير المستمر.",

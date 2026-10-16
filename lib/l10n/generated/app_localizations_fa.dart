@@ -134,56 +134,6 @@ class AppLocalizationsFa extends AppLocalizations {
   String get addictionGabapentinoid => 'گاباپنتین / پره‌گابالین';
 
   @override
-  String get gabapentinoidsMilestone1Title =>
-      'دوز را تدریجی کم کنید، ناگهانی قطع نکنید';
-
-  @override
-  String get gabapentinoidsMilestone1Description =>
-      'علائم ترک گاباپنتینوئیدها می‌تواند طی ۱۲ تا ۴۸ ساعت آغاز شود. خطر اصلی در قطع ناگهانی، تشنج است؛ بنابراین این داروها باید با راهنمایی پزشکی به‌تدریج کاهش یابند، نه اینکه یک‌باره قطع شوند.';
-
-  @override
-  String get gabapentinoidsMilestone3Title => 'اوج علائم ترک';
-
-  @override
-  String get gabapentinoidsMilestone3Description =>
-      'علائم معمولاً حدود روز سوم به اوج می‌رسند: اضطراب بیشتر، بی‌خوابی، تعریق، تهوع و گاهی گیجی. کاهش دوز تحت نظارت این علائم را بسیار کمتر می‌کند.';
-
-  @override
-  String get gabapentinoidsMilestone7Title => 'کاهش مرحله حاد';
-
-  @override
-  String get gabapentinoidsMilestone7Description =>
-      'حدود روزهای ۷ تا ۱۰، علائم حاد به‌طور قابل‌توجهی کاهش می‌یابند. کاهش تدریجی دوز کمک می‌کند این دوره قابل‌تحمل بماند.';
-
-  @override
-  String get gabapentinoidsMilestone14Title => 'آرام‌شدن خواب و اضطراب';
-
-  @override
-  String get gabapentinoidsMilestone14Description =>
-      'پس از دو هفته، خواب و سطح معمول اضطراب بهتر می‌شود، زیرا دستگاه عصبی با عملکرد بدون دارو سازگار می‌شود.';
-
-  @override
-  String get gabapentinoidsMilestone30Title => 'یک ماه پاک';
-
-  @override
-  String get gabapentinoidsMilestone30Description =>
-      'پس از یک ماه، بیشتر افراد از مرحله ترک عبور کرده‌اند و خلق، خواب و وضوح ذهنی باثبات‌تر است. علائم باقی‌مانده معمولاً خفیف‌اند.';
-
-  @override
-  String get gabapentinoidsMilestone90Title => 'باثبات و سازگار';
-
-  @override
-  String get gabapentinoidsMilestone90Description =>
-      'پس از سه ماه، دستگاه عصبی کاملاً دوباره سازگار شده است. بیشتر افراد با خواب و خلق طبیعی احساس ثبات می‌کنند.';
-
-  @override
-  String get gabapentinoidsMilestone180Title => 'شش ماه رهایی';
-
-  @override
-  String get gabapentinoidsMilestone180Description =>
-      'شش ماه بدون مصرف. دارو مدت‌هاست از روال زندگی شما خارج شده و هرگونه علائم بازگشتی برطرف شده است.';
-
-  @override
   String get ghbPageTitle => 'بهبودی از GHB';
 
   @override
@@ -778,18 +728,6 @@ class AppLocalizationsFa extends AppLocalizations {
       'سامانه دوپامین مغز شما تا حد زیادی به عملکرد طبیعی بازگشته است. تاب‌آوری خود را نشان داده‌اید و زندگی‌تان را بدون وابستگی به محرک‌ها بازسازی کرده‌اید. این نقطه عطف نشان‌دهنده تحولی کامل است — پیشرفتی را که داشته‌اید جشن بگیرید!';
 
   @override
-  String get showAllItems => 'نمایش همه موارد';
-
-  @override
-  String get showAllSubtitle => 'فعال یا غیرفعال‌کردن همه موارد صفحه اصلی';
-
-  @override
-  String get enableNotifications => 'فعال‌کردن همه اعلان‌ها';
-
-  @override
-  String get enableNotificationsSubtitle => 'روشن یا خاموش‌کردن همه اعلان‌ها';
-
-  @override
   String get benzoPageTitle => 'بنزودیازپین‌ها';
 
   @override
@@ -1289,11 +1227,6 @@ class AppLocalizationsFa extends AppLocalizations {
   }
 
   @override
-  String hideDialogMessage(String title) {
-    return 'این کار گزینه $title را از صفحه اصلی پنهان می‌کند. می‌توانید آن را دوباره از تنظیمات نمایش دهید.';
-  }
-
-  @override
   String get cancel => 'لغو';
 
   @override
@@ -1456,9 +1389,6 @@ class AppLocalizationsFa extends AppLocalizations {
   String get settingsSectionSecurity => 'امنیت';
 
   @override
-  String get settingsSectionMainScreenItems => 'موارد صفحه اصلی';
-
-  @override
   String get settingsSectionNotifications => 'اعلان‌ها';
 
   @override
@@ -1475,9 +1405,6 @@ class AppLocalizationsFa extends AppLocalizations {
 
   @override
   String get settingsPinTimeoutHint => '۱۵';
-
-  @override
-  String get settingsTheme => 'پوسته';
 
   @override
   String get settingsColorScheme => 'طرح رنگ';
@@ -1687,9 +1614,6 @@ class AppLocalizationsFa extends AppLocalizations {
   String get pinDialogOK => 'تأیید';
 
   @override
-  String get notificationFrequencyDialogTitle => 'تعداد دفعات اعلان';
-
-  @override
   String get notificationFrequencyNotifyEvery => 'اعلان هر';
 
   @override
@@ -1714,9 +1638,6 @@ class AppLocalizationsFa extends AppLocalizations {
     );
     return 'هر $_temp0 اعلانی مانند این می‌بینید که پیشرفت‌تان را تبریک می‌گوید!';
   }
-
-  @override
-  String get deleteEverythingDialogTitle => 'حذف همه‌چیز';
 
   @override
   String get deleteEverythingDialogMessage =>
@@ -1755,12 +1676,6 @@ class AppLocalizationsFa extends AppLocalizations {
 
   @override
   String get journalNextMonth => 'ماه بعد';
-
-  @override
-  String get quitMilestonesStart => 'شروع';
-
-  @override
-  String get quitMilestonesReset => 'بازنشانی';
 
   @override
   String get quitMilestonesQuitDate => 'تاریخ ترک';
@@ -1891,12 +1806,6 @@ class AppLocalizationsFa extends AppLocalizations {
 
   @override
   String get whatsNewTitle => 'چه خبر؟';
-
-  @override
-  String get whatsNewSearchHint => 'جستجو...';
-
-  @override
-  String get whatsNewEnjoyingButton => 'از برنامه راضی هستید؟';
 
   @override
   String get enjoyingPageTitle => 'از برنامه راضی هستید؟';
@@ -2550,41 +2459,6 @@ class AppLocalizationsFa extends AppLocalizations {
   @override
   String get nicotinePouchesReferenceDay14 =>
       'دو هفته: علائم ترک همچنان کاهش می‌یابد\n\nمنبع: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nاین مرور اوج معمول ترک نیکوتین را حدود روز سوم قرار می‌دهد و می‌گوید علائم طی ۳–۴ هفته بعد کاهش می‌یابند.\n\nدر دل مرحله کاهش\nدر دو هفته، به‌خوبی وارد بازه کاهش پس از اوج شده‌اید. مرور مصرف مزمن محصولات حاوی نیکوتین را بررسی می‌کند و اشاره دارد که شدت ترک با روش مصرف نیکوتین تفاوت دارد.\n\nدو هفته بدون کیسه نیکوتین یک نقطه روشن روی منحنی نزولی است: علائم معمول ترک همچنان رو به کاهش‌اند.';
-
-  @override
-  String get nicotinePouchesMilestone30Title => 'طبیعی‌شدن پاسخ به استرس';
-
-  @override
-  String get nicotinePouchesMilestone30Description =>
-      'نکته غافلگیرکننده: نیکوتین بین دفعات مصرف استرس را بیشتر می‌کند! کورتیزول و پاسخ استرس در حال بازگشت به حالت طبیعی‌اند. آرامش واقعی، نه آرامش کاذب نیکوتین.';
-
-  @override
-  String get nicotinePouchesMilestone60Title => 'بهبود کیفیت خواب';
-
-  @override
-  String get nicotinePouchesMilestone60Description =>
-      'خواب شیرین بدون نیکوتین! نیکوتین شاید آرامش‌بخش به نظر برسد، اما ساختار خواب را مختل می‌کند. پس از دو ماه، چرخه‌های REM شما به‌خوبی بازیابی شده‌اند.';
-
-  @override
-  String get nicotinePouchesMilestone90Title => 'بازیابی گیرنده‌های دوپامین';
-
-  @override
-  String get nicotinePouchesMilestone90Description =>
-      'سامانه پاداش مغز دوباره آنلاین است! نیکوتین مسیرهای دوپامین را می‌رباید و لذت‌های عادی را کمرنگ می‌کند. سه ماه آزادی و لذت‌های طبیعی زندگی دوباره زنده‌اند.';
-
-  @override
-  String get nicotinePouchesMilestone180Title => 'کاهش خطر قلبی‌عروقی';
-
-  @override
-  String get nicotinePouchesMilestone180Description =>
-      'قلب‌تان برایتان نامه عاشقانه می‌فرستد! شش ماه بدون نیکوتین خطر بیماری قلبی‌عروقی را به‌طور چشمگیری کاهش می‌دهد. فشار خون و تغییرپذیری ضربان قلب بسیار بهتر شده‌اند.';
-
-  @override
-  String get nicotinePouchesMilestone365Title => 'تثبیت سلامت بلندمدت';
-
-  @override
-  String get nicotinePouchesMilestone365Description =>
-      'یک سال آزادی! خطر مشکلات سلامت مرتبط با نیکوتین همچنان به‌شدت کاهش می‌یابد. چرخه وابستگی را شکسته‌اید و اختیار خود را پس گرفته‌اید. این واقعاً قهرمانانه است! 🏆';
 
   @override
   String get nicotinePouchesMilestone730Title => 'دو سال: قدرت بدون کیسه';

@@ -35,20 +35,6 @@
   "gabapentinoidsSubtitleNotStarted": "ببینید پس از ترک چه اتفاقی می‌افتد",
   "gabapentinoidsInfoBox": "هرگز گاباپنتین یا پره‌گابالین را ناگهانی قطع نکنید. قطع ناگهانی می‌تواند باعث تشنج شود — به‌ویژه اگر آن‌ها را برای صرع مصرف می‌کنید. کاهش تدریجی دوز زیر نظر پزشک ضروری است.",
   "addictionGabapentinoid": "گاباپنتین / پره‌گابالین",
-  "gabapentinoidsMilestone1Title": "دوز را تدریجی کم کنید، ناگهانی قطع نکنید",
-  "gabapentinoidsMilestone1Description": "علائم ترک گاباپنتینوئیدها می‌تواند طی ۱۲ تا ۴۸ ساعت آغاز شود. خطر اصلی در قطع ناگهانی، تشنج است؛ بنابراین این داروها باید با راهنمایی پزشکی به‌تدریج کاهش یابند، نه اینکه یک‌باره قطع شوند.",
-  "gabapentinoidsMilestone3Title": "اوج علائم ترک",
-  "gabapentinoidsMilestone3Description": "علائم معمولاً حدود روز سوم به اوج می‌رسند: اضطراب بیشتر، بی‌خوابی، تعریق، تهوع و گاهی گیجی. کاهش دوز تحت نظارت این علائم را بسیار کمتر می‌کند.",
-  "gabapentinoidsMilestone7Title": "کاهش مرحله حاد",
-  "gabapentinoidsMilestone7Description": "حدود روزهای ۷ تا ۱۰، علائم حاد به‌طور قابل‌توجهی کاهش می‌یابند. کاهش تدریجی دوز کمک می‌کند این دوره قابل‌تحمل بماند.",
-  "gabapentinoidsMilestone14Title": "آرام‌شدن خواب و اضطراب",
-  "gabapentinoidsMilestone14Description": "پس از دو هفته، خواب و سطح معمول اضطراب بهتر می‌شود، زیرا دستگاه عصبی با عملکرد بدون دارو سازگار می‌شود.",
-  "gabapentinoidsMilestone30Title": "یک ماه پاک",
-  "gabapentinoidsMilestone30Description": "پس از یک ماه، بیشتر افراد از مرحله ترک عبور کرده‌اند و خلق، خواب و وضوح ذهنی باثبات‌تر است. علائم باقی‌مانده معمولاً خفیف‌اند.",
-  "gabapentinoidsMilestone90Title": "باثبات و سازگار",
-  "gabapentinoidsMilestone90Description": "پس از سه ماه، دستگاه عصبی کاملاً دوباره سازگار شده است. بیشتر افراد با خواب و خلق طبیعی احساس ثبات می‌کنند.",
-  "gabapentinoidsMilestone180Title": "شش ماه رهایی",
-  "gabapentinoidsMilestone180Description": "شش ماه بدون مصرف. دارو مدت‌هاست از روال زندگی شما خارج شده و هرگونه علائم بازگشتی برطرف شده است.",
   "ghbPageTitle": "بهبودی از GHB",
   "ghbHeaderStarted": "مسیر بهبودی شما",
   "ghbHeaderNotStarted": "مزایای ترک GHB",
@@ -227,10 +213,6 @@
   "adderallMilestone180Description": "پیام‌رسانی دوپامین همچنان بهبود می‌یابد. تمرکز، حافظه، خلق و کیفیت زندگی روزمره بهتر می‌شوند.",
   "adderallMilestone365Title": "یک سال: بهبودی تقریباً کامل",
   "adderallMilestone365Description": "سامانه دوپامین مغز شما تا حد زیادی به عملکرد طبیعی بازگشته است. تاب‌آوری خود را نشان داده‌اید و زندگی‌تان را بدون وابستگی به محرک‌ها بازسازی کرده‌اید. این نقطه عطف نشان‌دهنده تحولی کامل است — پیشرفتی را که داشته‌اید جشن بگیرید!",
-  "showAllItems": "نمایش همه موارد",
-  "showAllSubtitle": "فعال یا غیرفعال‌کردن همه موارد صفحه اصلی",
-  "enableNotifications": "فعال‌کردن همه اعلان‌ها",
-  "enableNotificationsSubtitle": "روشن یا خاموش‌کردن همه اعلان‌ها",
   "benzoPageTitle": "بنزودیازپین‌ها",
   "benzoHeaderStarted": "مسیر بهبودی شما",
   "benzoHeaderNotStarted": "مزایای ترک بنزودیازپین‌ها",
@@ -546,15 +528,6 @@
       }
     }
   },
-  "hideDialogMessage": "این کار گزینه {title} را از صفحه اصلی پنهان می‌کند. می‌توانید آن را دوباره از تنظیمات نمایش دهید.",
-  "@hideDialogMessage": {
-    "description": "Message explaining what hiding an addiction does",
-    "placeholders": {
-      "title": {
-        "type": "String"
-      }
-    }
-  },
   "cancel": "لغو",
   "@cancel": {
     "description": "Cancel button text used throughout the app"
@@ -763,10 +736,6 @@
   "@settingsSectionSecurity": {
     "description": "Section header for security settings"
   },
-  "settingsSectionMainScreenItems": "موارد صفحه اصلی",
-  "@settingsSectionMainScreenItems": {
-    "description": "Section header for main screen items settings"
-  },
   "settingsSectionNotifications": "اعلان‌ها",
   "@settingsSectionNotifications": {
     "description": "Section header for notification settings"
@@ -790,10 +759,6 @@
   "settingsPinTimeoutHint": "۱۵",
   "@settingsPinTimeoutHint": {
     "description": "Hint text for PIN timeout field"
-  },
-  "settingsTheme": "پوسته",
-  "@settingsTheme": {
-    "description": "Setting title for theme selection"
   },
   "settingsColorScheme": "طرح رنگ",
   "@settingsColorScheme": {
@@ -1036,10 +1001,6 @@
   "@pinDialogOK": {
     "description": "OK button in PIN dialog"
   },
-  "notificationFrequencyDialogTitle": "تعداد دفعات اعلان",
-  "@notificationFrequencyDialogTitle": {
-    "description": "Dialog title for notification frequency settings"
-  },
   "notificationFrequencyNotifyEvery": "اعلان هر",
   "@notificationFrequencyNotifyEvery": {
     "description": "Label for notification frequency field"
@@ -1068,10 +1029,6 @@
         "type": "int"
       }
     }
-  },
-  "deleteEverythingDialogTitle": "حذف همه‌چیز",
-  "@deleteEverythingDialogTitle": {
-    "description": "Dialog title for delete everything confirmation"
   },
   "deleteEverythingDialogMessage": "مطمئنید می‌خواهید همه‌چیز را حذف کنید؟ این کار قابل بازگشت نیست.",
   "@deleteEverythingDialogMessage": {
@@ -1121,14 +1078,6 @@
   "journalNextMonth": "ماه بعد",
   "@journalNextMonth": {
     "description": "Tooltip for next month button in calendar"
-  },
-  "quitMilestonesStart": "شروع",
-  "@quitMilestonesStart": {
-    "description": "Button to start quit journey"
-  },
-  "quitMilestonesReset": "بازنشانی",
-  "@quitMilestonesReset": {
-    "description": "Button to reset quit journey"
   },
   "quitMilestonesQuitDate": "تاریخ ترک",
   "@quitMilestonesQuitDate": {
@@ -1302,14 +1251,6 @@
   "whatsNewTitle": "چه خبر؟",
   "@whatsNewTitle": {
     "description": "Title for what's new page"
-  },
-  "whatsNewSearchHint": "جستجو...",
-  "@whatsNewSearchHint": {
-    "description": "Hint text for changelog search"
-  },
-  "whatsNewEnjoyingButton": "از برنامه راضی هستید؟",
-  "@whatsNewEnjoyingButton": {
-    "description": "Button text to go to enjoying page from what's new"
   },
   "enjoyingPageTitle": "از برنامه راضی هستید؟",
   "@enjoyingPageTitle": {
@@ -2025,46 +1966,6 @@
   "nicotinePouchesReferenceDay14": "دو هفته: علائم ترک همچنان کاهش می‌یابد\n\nمنبع: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nاین مرور اوج معمول ترک نیکوتین را حدود روز سوم قرار می‌دهد و می‌گوید علائم طی ۳–۴ هفته بعد کاهش می‌یابند.\n\nدر دل مرحله کاهش\nدر دو هفته، به‌خوبی وارد بازه کاهش پس از اوج شده‌اید. مرور مصرف مزمن محصولات حاوی نیکوتین را بررسی می‌کند و اشاره دارد که شدت ترک با روش مصرف نیکوتین تفاوت دارد.\n\nدو هفته بدون کیسه نیکوتین یک نقطه روشن روی منحنی نزولی است: علائم معمول ترک همچنان رو به کاهش‌اند.",
   "@nicotinePouchesReferenceDay14": {
     "description": "Nicotine pouches day 14 detailed reference"
-  },
-  "nicotinePouchesMilestone30Title": "طبیعی‌شدن پاسخ به استرس",
-  "@nicotinePouchesMilestone30Title": {
-    "description": "Nicotine pouches milestone day 30 title"
-  },
-  "nicotinePouchesMilestone30Description": "نکته غافلگیرکننده: نیکوتین بین دفعات مصرف استرس را بیشتر می‌کند! کورتیزول و پاسخ استرس در حال بازگشت به حالت طبیعی‌اند. آرامش واقعی، نه آرامش کاذب نیکوتین.",
-  "@nicotinePouchesMilestone30Description": {
-    "description": "Nicotine pouches milestone day 30 description"
-  },
-  "nicotinePouchesMilestone60Title": "بهبود کیفیت خواب",
-  "@nicotinePouchesMilestone60Title": {
-    "description": "Nicotine pouches milestone day 60 title"
-  },
-  "nicotinePouchesMilestone60Description": "خواب شیرین بدون نیکوتین! نیکوتین شاید آرامش‌بخش به نظر برسد، اما ساختار خواب را مختل می‌کند. پس از دو ماه، چرخه‌های REM شما به‌خوبی بازیابی شده‌اند.",
-  "@nicotinePouchesMilestone60Description": {
-    "description": "Nicotine pouches milestone day 60 description"
-  },
-  "nicotinePouchesMilestone90Title": "بازیابی گیرنده‌های دوپامین",
-  "@nicotinePouchesMilestone90Title": {
-    "description": "Nicotine pouches milestone day 90 title"
-  },
-  "nicotinePouchesMilestone90Description": "سامانه پاداش مغز دوباره آنلاین است! نیکوتین مسیرهای دوپامین را می‌رباید و لذت‌های عادی را کمرنگ می‌کند. سه ماه آزادی و لذت‌های طبیعی زندگی دوباره زنده‌اند.",
-  "@nicotinePouchesMilestone90Description": {
-    "description": "Nicotine pouches milestone day 90 description"
-  },
-  "nicotinePouchesMilestone180Title": "کاهش خطر قلبی‌عروقی",
-  "@nicotinePouchesMilestone180Title": {
-    "description": "Nicotine pouches milestone day 180 title"
-  },
-  "nicotinePouchesMilestone180Description": "قلب‌تان برایتان نامه عاشقانه می‌فرستد! شش ماه بدون نیکوتین خطر بیماری قلبی‌عروقی را به‌طور چشمگیری کاهش می‌دهد. فشار خون و تغییرپذیری ضربان قلب بسیار بهتر شده‌اند.",
-  "@nicotinePouchesMilestone180Description": {
-    "description": "Nicotine pouches milestone day 180 description"
-  },
-  "nicotinePouchesMilestone365Title": "تثبیت سلامت بلندمدت",
-  "@nicotinePouchesMilestone365Title": {
-    "description": "Nicotine pouches milestone day 365 title"
-  },
-  "nicotinePouchesMilestone365Description": "یک سال آزادی! خطر مشکلات سلامت مرتبط با نیکوتین همچنان به‌شدت کاهش می‌یابد. چرخه وابستگی را شکسته‌اید و اختیار خود را پس گرفته‌اید. این واقعاً قهرمانانه است! 🏆",
-  "@nicotinePouchesMilestone365Description": {
-    "description": "Nicotine pouches milestone day 365 description"
   },
   "nicotinePouchesMilestone730Title": "دو سال: قدرت بدون کیسه",
   "nicotinePouchesMilestone730Description": "دو سال کامل بدون کیسه نیکوتین. پژوهش‌ها آستانه ویژه‌ای برای بهبود در دو سال نشان نداده‌اند؛ پس این نقطه عطف، دو سال بدون مواجهه تکراری با نیکوتین کیسه و تغییری را جشن می‌گیرد که پایدار مانده است.",

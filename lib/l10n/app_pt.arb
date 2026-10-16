@@ -35,20 +35,6 @@
   "gabapentinoidsSubtitleNotStarted": "Veja o que acontece quando deixa os gabapentinoides",
   "gabapentinoidsInfoBox": "Nunca interrompa a gabapentina ou a pregabalina abruptamente. A interrupção repentina pode desencadear convulsões – especialmente se tomá-los para epilepsia. Uma redução gradual e supervisionada por um médico é essencial.",
   "addictionGabapentinoid": "Gabapentina / Pregabalina",
-  "gabapentinoidsMilestone1Title": "Diminua gradualmente, não pare de repente",
-  "gabapentinoidsMilestone1Description": "A abstinência do gabapentinóide pode começar dentro de 12–48 horas. O risco crítico são as convulsões após a interrupção abrupta, portanto, esses medicamentos devem ser reduzidos gradualmente sob orientação médica, em vez de interrompidos repentinamente.",
-  "gabapentinoidsMilestone3Title": "Pico de Abstinência",
-  "gabapentinoidsMilestone3Description": "Os sintomas geralmente atingem o pico por volta do terceiro dia: aumento da ansiedade, insónia, sudorese, náusea e, às vezes, confusão. Uma redução gradual supervisionada reduz muito isso.",
-  "gabapentinoidsMilestone7Title": "Atenuação da Fase Aguda",
-  "gabapentinoidsMilestone7Description": "Por volta do 7º ao 10º dia os sintomas agudos diminuem substancialmente. Uma redução gradual mantém esta janela gerenciável.",
-  "gabapentinoidsMilestone14Title": "Sono e resolução de ansiedade",
-  "gabapentinoidsMilestone14Description": "Duas semanas depois, o sono e os seus níveis habituais de ansiedade estão a melhorar à medida que o sistema nervoso se adapta para funcionar sem a droga.",
-  "gabapentinoidsMilestone30Title": "Um mês livre",
-  "gabapentinoidsMilestone30Description": "Em um mês, a maioria das pessoas passa pela abstinência, com humor, sono e clareza mais estáveis. Quaisquer sintomas persistentes são geralmente leves.",
-  "gabapentinoidsMilestone90Title": "Estável e Ajustado",
-  "gabapentinoidsMilestone90Description": "Três meses claros, o sistema nervoso está totalmente reajustado. A maioria das pessoas se sente estável, com sono e humor normais.",
-  "gabapentinoidsMilestone180Title": "Meio ano sem consumo",
-  "gabapentinoidsMilestone180Description": "Seis meses sem consumo. A droga já saiu da sua rotina e todos os sintomas de rebote foram resolvidos.",
   "ghbPageTitle": "GHB",
   "ghbHeaderStarted": "Sua jornada de recuperação",
   "ghbHeaderNotStarted": "Benefícios de abandonar o GHB",
@@ -227,10 +213,6 @@
   "adderallMilestone180Description": "A sinalização da dopamina continua a recuperar. A concentração, a memória, o humor e a qualidade de vida diária podem continuar a melhorar.",
   "adderallMilestone365Title": "Um ano: recuperação muito avançada",
   "adderallMilestone365Description": "O sistema de dopamina do cérebro recuperou em grande parte o funcionamento normal. Demonstrou resiliência e reconstruiu a sua vida sem dependência de estimulantes. Celebre o caminho que percorreu.",
-  "showAllItems": "Mostrar todos os itens",
-  "showAllSubtitle": "Ativar ou desativar todos os itens do ecrã principal",
-  "enableNotifications": "Ativar todas as notificações",
-  "enableNotificationsSubtitle": "Ativar ou desativar todas as notificações",
   "benzoPageTitle": "Benzodiazepínicos",
   "benzoHeaderStarted": "Sua jornada de recuperação",
   "benzoHeaderNotStarted": "Benefícios de parar de tomar benzodiazepínicos",
@@ -546,15 +528,6 @@
       }
     }
   },
-  "hideDialogMessage": "Isto ocultará a opção {title} do ecrã inicial. Pode voltar a mostrá-la nas Definições.",
-  "@hideDialogMessage": {
-    "description": "Message explaining what hiding an addiction does",
-    "placeholders": {
-      "title": {
-        "type": "String"
-      }
-    }
-  },
   "cancel": "Cancelar",
   "@cancel": {
     "description": "Cancel button text used throughout the app"
@@ -763,10 +736,6 @@
   "@settingsSectionSecurity": {
     "description": "Section header for security settings"
   },
-  "settingsSectionMainScreenItems": "Itens do ecrã principal",
-  "@settingsSectionMainScreenItems": {
-    "description": "Section header for main screen items settings"
-  },
   "settingsSectionNotifications": "Notificações",
   "@settingsSectionNotifications": {
     "description": "Section header for notification settings"
@@ -790,10 +759,6 @@
   "settingsPinTimeoutHint": "15",
   "@settingsPinTimeoutHint": {
     "description": "Hint text for PIN timeout field"
-  },
-  "settingsTheme": "Tema",
-  "@settingsTheme": {
-    "description": "Setting title for theme selection"
   },
   "settingsColorScheme": "Esquema de cores",
   "@settingsColorScheme": {
@@ -1036,10 +1001,6 @@
   "@pinDialogOK": {
     "description": "OK button in PIN dialog"
   },
-  "notificationFrequencyDialogTitle": "Frequência de notificação",
-  "@notificationFrequencyDialogTitle": {
-    "description": "Dialog title for notification frequency settings"
-  },
   "notificationFrequencyNotifyEvery": "Notificar todos",
   "@notificationFrequencyNotifyEvery": {
     "description": "Label for notification frequency field"
@@ -1068,10 +1029,6 @@
         "type": "int"
       }
     }
-  },
-  "deleteEverythingDialogTitle": "Eliminar tudo",
-  "@deleteEverythingDialogTitle": {
-    "description": "Dialog title for delete everything confirmation"
   },
   "deleteEverythingDialogMessage": "Tem certeza de que excluiu tudo? Esta ação não pode ser desfeita.",
   "@deleteEverythingDialogMessage": {
@@ -1121,14 +1078,6 @@
   "journalNextMonth": "Próximo mês",
   "@journalNextMonth": {
     "description": "Tooltip for next month button in calendar"
-  },
-  "quitMilestonesStart": "Início",
-  "@quitMilestonesStart": {
-    "description": "Button to start quit journey"
-  },
-  "quitMilestonesReset": "Redefinir",
-  "@quitMilestonesReset": {
-    "description": "Button to reset quit journey"
   },
   "quitMilestonesQuitDate": "Data de saída",
   "@quitMilestonesQuitDate": {
@@ -1302,14 +1251,6 @@
   "whatsNewTitle": "O que há de novo?",
   "@whatsNewTitle": {
     "description": "Title for what's new page"
-  },
-  "whatsNewSearchHint": "Pesquisar...",
-  "@whatsNewSearchHint": {
-    "description": "Hint text for changelog search"
-  },
-  "whatsNewEnjoyingButton": "Está a gostar da aplicação?",
-  "@whatsNewEnjoyingButton": {
-    "description": "Button text to go to enjoying page from what's new"
   },
   "enjoyingPageTitle": "Gosta da app?",
   "@enjoyingPageTitle": {
@@ -2025,46 +1966,6 @@
   "nicotinePouchesReferenceDay14": "Duas semanas: a abstinência continua a aliviar\n\nFonte: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nA revisão situa o pico típico da abstinência de nicotina por volta do 3.º dia e refere que os sintomas diminuem ao longo das 3–4 semanas seguintes.\n\nBem dentro da fase de redução\nAo fim de duas semanas, já está bem dentro dessa fase posterior ao pico. A revisão abrange o uso crónico de produtos com nicotina e observa que a intensidade da abstinência varia consoante a forma de consumo.\n\nDuas semanas sem saquetas são um marco concreto na curva descendente: a abstinência típica continua a aliviar.",
   "@nicotinePouchesReferenceDay14": {
     "description": "Nicotine pouches day 14 detailed reference"
-  },
-  "nicotinePouchesMilestone30Title": "Resposta ao stress normaliza",
-  "@nicotinePouchesMilestone30Title": {
-    "description": "Nicotine pouches milestone day 30 title"
-  },
-  "nicotinePouchesMilestone30Description": "Reviravolta na história: a nicotina na verdade aumenta o stress entre os usos! Seu cortisol e sua resposta ao stress estão a regressar ao normal. Relaxamento real, não a falsificação da nicotina.",
-  "@nicotinePouchesMilestone30Description": {
-    "description": "Nicotine pouches milestone day 30 description"
-  },
-  "nicotinePouchesMilestone60Title": "A qualidade do sono melhora",
-  "@nicotinePouchesMilestone60Title": {
-    "description": "Nicotine pouches milestone day 60 title"
-  },
-  "nicotinePouchesMilestone60Description": "Bons sonhos são feitos de... sem nicotina! Embora a nicotina pareça relaxante, na verdade ela perturba a arquitetura do sono. Dois meses depois, seus ciclos REM estão lindamente restaurados.",
-  "@nicotinePouchesMilestone60Description": {
-    "description": "Nicotine pouches milestone day 60 description"
-  },
-  "nicotinePouchesMilestone90Title": "Receptores de dopamina se recuperam",
-  "@nicotinePouchesMilestone90Title": {
-    "description": "Nicotine pouches milestone day 90 title"
-  },
-  "nicotinePouchesMilestone90Description": "O sistema de recompensa do seu cérebro está online novamente! A nicotina sequestra as vias da dopamina, fazendo com que os prazeres normais pareçam monótonos. Três meses sem nicotina e as alegrias naturais da vida estão vibrantes novamente.",
-  "@nicotinePouchesMilestone90Description": {
-    "description": "Nicotine pouches milestone day 90 description"
-  },
-  "nicotinePouchesMilestone180Title": "Quedas de risco cardiovascular",
-  "@nicotinePouchesMilestone180Title": {
-    "description": "Nicotine pouches milestone day 180 title"
-  },
-  "nicotinePouchesMilestone180Description": "Seu coração está enviando cartas de amor! Seis meses sem nicotina reduzem significativamente o risco de doenças cardiovasculares. Sua pressão arterial e variabilidade da frequência cardíaca melhoraram bastante.",
-  "@nicotinePouchesMilestone180Description": {
-    "description": "Nicotine pouches milestone day 180 description"
-  },
-  "nicotinePouchesMilestone365Title": "Saúde garantida a longo prazo",
-  "@nicotinePouchesMilestone365Title": {
-    "description": "Nicotine pouches milestone day 365 title"
-  },
-  "nicotinePouchesMilestone365Description": "Um ano de liberdade! O risco de problemas de saúde relacionados à nicotina continua a cair. Quebrou o ciclo do vício e recuperou sua autonomia. Isso é genuinamente heróico!🏆",
-  "@nicotinePouchesMilestone365Description": {
-    "description": "Nicotine pouches milestone day 365 description"
   },
   "nicotinePouchesMilestone730Title": "Dois anos: força sem bolsas",
   "nicotinePouchesMilestone730Description": "Dois anos completos sem bolsas de nicotina. A investigação não estabeleceu um limiar especial de recuperação aos dois anos, por isso este marco celebra dois anos sem exposição repetida à nicotina das bolsas e uma mudança que foi mantida.",

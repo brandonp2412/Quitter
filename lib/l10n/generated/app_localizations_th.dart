@@ -134,56 +134,6 @@ class AppLocalizationsTh extends AppLocalizations {
   String get addictionGabapentinoid => 'กาบาเพนติน / พรีกาบาลิน';
 
   @override
-  String get gabapentinoidsMilestone1Title => 'เรียว อย่าหยุดกะทันหัน';
-
-  @override
-  String get gabapentinoidsMilestone1Description =>
-      'การถอนยากาบาเพนตินอยด์สามารถเริ่มได้ภายใน 12–48 ชั่วโมงความเสี่ยงที่สำคัญคือการชักเมื่อหยุดยากะทันหัน ดังนั้นยาเหล่านี้จึงต้องลดลงตามคำแนะนำของแพทย์ แทนที่จะหยุดยาให้เย็น';
-
-  @override
-  String get gabapentinoidsMilestone3Title => 'การถอนเงินสูงสุด';
-
-  @override
-  String get gabapentinoidsMilestone3Description =>
-      'โดยทั่วไปอาการจะรุนแรงที่สุดประมาณวันที่ 3: มีอาการวิตกกังวลมากขึ้น นอนไม่หลับ เหงื่อออก คลื่นไส้ และบางครั้งก็สับสนความเรียวที่ได้รับการดูแลช่วยลดสิ่งนี้ได้อย่างมาก';
-
-  @override
-  String get gabapentinoidsMilestone7Title => 'การบรรเทาระยะเฉียบพลัน';
-
-  @override
-  String get gabapentinoidsMilestone7Description =>
-      'ประมาณวันที่ 7-10 อาการเฉียบพลันจะลดลงอย่างมากการค่อยๆ ลดลงทำให้หน้าต่างนี้สามารถจัดการได้';
-
-  @override
-  String get gabapentinoidsMilestone14Title =>
-      'การนอนหลับและความวิตกกังวลตกตะกอน';
-
-  @override
-  String get gabapentinoidsMilestone14Description =>
-      'สองสัปดาห์ผ่านไป ระดับการนอนหลับและความวิตกกังวลตามปกติของคุณจะดีขึ้น เนื่องจากระบบประสาทจะปรับตัวเข้ากับการทำงานโดยไม่ต้องใช้ยา';
-
-  @override
-  String get gabapentinoidsMilestone30Title => 'หนึ่งเดือนเคลียร์.';
-
-  @override
-  String get gabapentinoidsMilestone30Description =>
-      'ในแต่ละเดือน คนส่วนใหญ่จะมีอาการถอนตัว โดยมีอารมณ์คงที่ การนอนหลับ และชัดเจนมากขึ้นอาการที่ยังคงอยู่มักจะไม่รุนแรง';
-
-  @override
-  String get gabapentinoidsMilestone90Title => 'มีเสถียรภาพและปรับตัว';
-
-  @override
-  String get gabapentinoidsMilestone90Description =>
-      'ผ่านไปสามเดือน ระบบประสาทก็ปรับตัวเต็มที่คนส่วนใหญ่รู้สึกมั่นคงด้วยการนอนหลับและอารมณ์ตามปกติ';
-
-  @override
-  String get gabapentinoidsMilestone180Title => 'ฟรีครึ่งปี';
-
-  @override
-  String get gabapentinoidsMilestone180Description =>
-      'ฟรีหกเดือนยาหมดไปจากกิจวัตรประจำวันของคุณไปนานแล้ว และอาการที่กลับมาเป็นซ้ำก็หายไปแล้ว';
-
-  @override
   String get ghbPageTitle => 'ธอส. ฟื้นตัว';
 
   @override
@@ -781,18 +731,6 @@ class AppLocalizationsTh extends AppLocalizations {
       'ระบบโดปามีนของสมองฟื้นกลับสู่การทำงานตามปกติเป็นส่วนใหญ่ คุณได้แสดงถึงความเข้มแข็งและสร้างชีวิตใหม่โดยไม่พึ่งสารกระตุ้น จงฉลองว่าคุณมาไกลเพียงใด';
 
   @override
-  String get showAllItems => 'แสดงรายการทั้งหมด';
-
-  @override
-  String get showAllSubtitle => 'เปิดหรือปิดใช้งานรายการหน้าจอหลักทั้งหมด';
-
-  @override
-  String get enableNotifications => 'เปิดใช้งานการแจ้งเตือนทั้งหมด';
-
-  @override
-  String get enableNotificationsSubtitle => 'เปิดหรือปิดการแจ้งเตือนทั้งหมด';
-
-  @override
   String get benzoPageTitle => 'เบนโซไดอะซีพีน';
 
   @override
@@ -1291,11 +1229,6 @@ class AppLocalizationsTh extends AppLocalizations {
   }
 
   @override
-  String hideDialogMessage(String title) {
-    return 'การดำเนินการนี้จะซ่อนตัวเลือก $title จากหน้าจอหลักของคุณคุณสามารถแสดงได้อีกครั้งในการตั้งค่า';
-  }
-
-  @override
   String get cancel => 'ยกเลิก';
 
   @override
@@ -1456,9 +1389,6 @@ class AppLocalizationsTh extends AppLocalizations {
   String get settingsSectionSecurity => 'ความปลอดภัย';
 
   @override
-  String get settingsSectionMainScreenItems => 'รายการหน้าจอหลัก';
-
-  @override
   String get settingsSectionNotifications => 'การแจ้งเตือน';
 
   @override
@@ -1475,9 +1405,6 @@ class AppLocalizationsTh extends AppLocalizations {
 
   @override
   String get settingsPinTimeoutHint => '15';
-
-  @override
-  String get settingsTheme => 'ธีม';
 
   @override
   String get settingsColorScheme => 'โทนสี';
@@ -1688,9 +1615,6 @@ class AppLocalizationsTh extends AppLocalizations {
   String get pinDialogOK => 'ตกลง';
 
   @override
-  String get notificationFrequencyDialogTitle => 'ความถี่การแจ้งเตือน';
-
-  @override
   String get notificationFrequencyNotifyEvery => 'แจ้งให้ทราบทุกๆ';
 
   @override
@@ -1715,9 +1639,6 @@ class AppLocalizationsTh extends AppLocalizations {
     );
     return 'คุณจะเห็นการแจ้งเตือนเช่นนี้ทุกๆ $_temp0 ขอแสดงความยินดีกับความก้าวหน้าของคุณ!';
   }
-
-  @override
-  String get deleteEverythingDialogTitle => 'ลบทุกอย่าง';
 
   @override
   String get deleteEverythingDialogMessage =>
@@ -1756,12 +1677,6 @@ class AppLocalizationsTh extends AppLocalizations {
 
   @override
   String get journalNextMonth => 'เดือนหน้า';
-
-  @override
-  String get quitMilestonesStart => 'เริ่ม';
-
-  @override
-  String get quitMilestonesReset => 'รีเซ็ต';
 
   @override
   String get quitMilestonesQuitDate => 'เลิกเดท';
@@ -1893,12 +1808,6 @@ class AppLocalizationsTh extends AppLocalizations {
 
   @override
   String get whatsNewTitle => 'มีอะไรใหม่?';
-
-  @override
-  String get whatsNewSearchHint => 'ค้นหา...';
-
-  @override
-  String get whatsNewEnjoyingButton => 'เพลิดเพลินกับแอพไหม?';
 
   @override
   String get enjoyingPageTitle => 'ชอบแอปนี้ไหม?';
@@ -2555,44 +2464,6 @@ class AppLocalizationsTh extends AppLocalizations {
   @override
   String get nicotinePouchesReferenceDay14 =>
       '2 สัปดาห์: อาการถอนยังคงเบาลง\n\nแหล่งที่มา: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nบทความทบทวนระบุว่าจุดสูงสุดของอาการถอนนิโคตินโดยทั่วไปอยู่ราววันที่ 3 และอาการจะค่อย ๆ ลดลงในช่วง 3–4 สัปดาห์ถัดไป\n\nอยู่ลึกเข้าไปในช่วงขาลง\nเมื่อครบสองสัปดาห์ คุณอยู่ลึกเข้าไปในช่วงหลังจุดสูงสุดที่อาการกำลังลดลง บทความครอบคลุมการใช้ผลิตภัณฑ์ที่มีนิโคตินเป็นเวลานานและระบุว่าความรุนแรงของอาการถอนแตกต่างกันตามวิธีได้รับนิโคติน\n\nสองสัปดาห์โดยไม่ใช้ถุงนิโคตินเป็นจุดสำคัญที่ชัดเจนบนเส้นโค้งขาลง: อาการถอนโดยทั่วไปยังคงเบาลง';
-
-  @override
-  String get nicotinePouchesMilestone30Title =>
-      'การตอบสนองต่อความเครียดทำให้เป็นปกติ';
-
-  @override
-  String get nicotinePouchesMilestone30Description =>
-      'พล็อตเรื่องพลิกผัน: นิโคตินเพิ่มความเครียดระหว่างการใช้จริง ๆ!การตอบสนองต่อคอร์ติซอลและความเครียดของคุณกลับมาเป็นปกติผ่อนคลายอย่างแท้จริง ไม่ใช่การปลอมแปลงนิโคติน';
-
-  @override
-  String get nicotinePouchesMilestone60Title => 'คุณภาพการนอนหลับดีขึ้น';
-
-  @override
-  String get nicotinePouchesMilestone60Description =>
-      'ฝันหวานทำจาก... ไม่มีนิโคติน!แม้ว่านิโคตินจะดูผ่อนคลาย แต่แท้จริงแล้วกลับรบกวนโครงสร้างการนอนหลับผ่านไปสองเดือน วงจร REM ของคุณจะได้รับการฟื้นฟูอย่างสวยงาม';
-
-  @override
-  String get nicotinePouchesMilestone90Title => 'ตัวรับโดปามีนฟื้นตัว';
-
-  @override
-  String get nicotinePouchesMilestone90Description =>
-      'ระบบการให้รางวัลสมองของคุณกลับมาออนไลน์แล้ว!นิโคตินแย่งวิถีโดปามีน ทำให้ความสุขตามปกติดูน่าเบื่อฟรีสามเดือน และความสุขตามธรรมชาติของชีวิตจะกลับมาสดใสอีกครั้ง';
-
-  @override
-  String get nicotinePouchesMilestone180Title =>
-      'ความเสี่ยงโรคหัวใจและหลอดเลือดลดลง';
-
-  @override
-  String get nicotinePouchesMilestone180Description =>
-      'หัวใจของคุณกำลังส่งจดหมายรัก!หกเดือนโดยไม่มีนิโคตินช่วยลดความเสี่ยงโรคหัวใจและหลอดเลือดได้อย่างมากความดันโลหิตและความแปรปรวนของอัตราการเต้นของหัวใจดีขึ้นอย่างมาก';
-
-  @override
-  String get nicotinePouchesMilestone365Title =>
-      'มีหลักประกันด้านสุขภาพในระยะยาว';
-
-  @override
-  String get nicotinePouchesMilestone365Description =>
-      'หนึ่งปีแห่งอิสรภาพ!ความเสี่ยงต่อปัญหาสุขภาพที่เกี่ยวข้องกับนิโคตินยังคงลดลงอย่างต่อเนื่องคุณได้ทำลายวงจรการเสพติดและทวงคืนอิสรภาพของคุณกลับมาแล้วช่างเป็นวีรบุรุษจริงๆ!🏆';
 
   @override
   String get nicotinePouchesMilestone730Title => '2 ปี: พลังไร้ถุงนิโคติน';

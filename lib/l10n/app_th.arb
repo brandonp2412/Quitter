@@ -35,20 +35,6 @@
   "gabapentinoidsSubtitleNotStarted": "ดูว่าเกิดอะไรขึ้นเมื่อคุณลาออก",
   "gabapentinoidsInfoBox": "อย่าหยุดยากาบาเพนตินหรือพรีกาบาลินทันทีการหยุดกะทันหันอาจทำให้เกิดอาการชักได้ โดยเฉพาะถ้าคุณใช้ยารักษาโรคลมบ้าหมูการค่อยๆ ลดขนาดลงโดยได้รับการดูแลจากแพทย์เป็นสิ่งสำคัญ",
   "addictionGabapentinoid": "กาบาเพนติน / พรีกาบาลิน",
-  "gabapentinoidsMilestone1Title": "เรียว อย่าหยุดกะทันหัน",
-  "gabapentinoidsMilestone1Description": "การถอนยากาบาเพนตินอยด์สามารถเริ่มได้ภายใน 12–48 ชั่วโมงความเสี่ยงที่สำคัญคือการชักเมื่อหยุดยากะทันหัน ดังนั้นยาเหล่านี้จึงต้องลดลงตามคำแนะนำของแพทย์ แทนที่จะหยุดยาให้เย็น",
-  "gabapentinoidsMilestone3Title": "การถอนเงินสูงสุด",
-  "gabapentinoidsMilestone3Description": "โดยทั่วไปอาการจะรุนแรงที่สุดประมาณวันที่ 3: มีอาการวิตกกังวลมากขึ้น นอนไม่หลับ เหงื่อออก คลื่นไส้ และบางครั้งก็สับสนความเรียวที่ได้รับการดูแลช่วยลดสิ่งนี้ได้อย่างมาก",
-  "gabapentinoidsMilestone7Title": "การบรรเทาระยะเฉียบพลัน",
-  "gabapentinoidsMilestone7Description": "ประมาณวันที่ 7-10 อาการเฉียบพลันจะลดลงอย่างมากการค่อยๆ ลดลงทำให้หน้าต่างนี้สามารถจัดการได้",
-  "gabapentinoidsMilestone14Title": "การนอนหลับและความวิตกกังวลตกตะกอน",
-  "gabapentinoidsMilestone14Description": "สองสัปดาห์ผ่านไป ระดับการนอนหลับและความวิตกกังวลตามปกติของคุณจะดีขึ้น เนื่องจากระบบประสาทจะปรับตัวเข้ากับการทำงานโดยไม่ต้องใช้ยา",
-  "gabapentinoidsMilestone30Title": "หนึ่งเดือนเคลียร์.",
-  "gabapentinoidsMilestone30Description": "ในแต่ละเดือน คนส่วนใหญ่จะมีอาการถอนตัว โดยมีอารมณ์คงที่ การนอนหลับ และชัดเจนมากขึ้นอาการที่ยังคงอยู่มักจะไม่รุนแรง",
-  "gabapentinoidsMilestone90Title": "มีเสถียรภาพและปรับตัว",
-  "gabapentinoidsMilestone90Description": "ผ่านไปสามเดือน ระบบประสาทก็ปรับตัวเต็มที่คนส่วนใหญ่รู้สึกมั่นคงด้วยการนอนหลับและอารมณ์ตามปกติ",
-  "gabapentinoidsMilestone180Title": "ฟรีครึ่งปี",
-  "gabapentinoidsMilestone180Description": "ฟรีหกเดือนยาหมดไปจากกิจวัตรประจำวันของคุณไปนานแล้ว และอาการที่กลับมาเป็นซ้ำก็หายไปแล้ว",
   "ghbPageTitle": "ธอส. ฟื้นตัว",
   "ghbHeaderStarted": "การเดินทางเพื่อการฟื้นฟูของคุณ",
   "ghbHeaderNotStarted": "ประโยชน์ของการเลิกธนาคารอาคารสงเคราะห์",
@@ -227,10 +213,6 @@
   "adderallMilestone180Description": "การส่งสัญญาณของโดปามีนยังคงฟื้นตัว สมาธิ ความจำ อารมณ์ และคุณภาพชีวิตในแต่ละวันอาจดีขึ้นต่อเนื่อง",
   "adderallMilestone365Title": "หนึ่งปี: การฟื้นตัวก้าวหน้าอย่างมาก",
   "adderallMilestone365Description": "ระบบโดปามีนของสมองฟื้นกลับสู่การทำงานตามปกติเป็นส่วนใหญ่ คุณได้แสดงถึงความเข้มแข็งและสร้างชีวิตใหม่โดยไม่พึ่งสารกระตุ้น จงฉลองว่าคุณมาไกลเพียงใด",
-  "showAllItems": "แสดงรายการทั้งหมด",
-  "showAllSubtitle": "เปิดหรือปิดใช้งานรายการหน้าจอหลักทั้งหมด",
-  "enableNotifications": "เปิดใช้งานการแจ้งเตือนทั้งหมด",
-  "enableNotificationsSubtitle": "เปิดหรือปิดการแจ้งเตือนทั้งหมด",
   "benzoPageTitle": "เบนโซไดอะซีพีน",
   "benzoHeaderStarted": "การเดินทางเพื่อการฟื้นฟูของคุณ",
   "benzoHeaderNotStarted": "ประโยชน์ของการเลิกใช้ยาเบนโซ",
@@ -546,15 +528,6 @@
       }
     }
   },
-  "hideDialogMessage": "การดำเนินการนี้จะซ่อนตัวเลือก {title} จากหน้าจอหลักของคุณคุณสามารถแสดงได้อีกครั้งในการตั้งค่า",
-  "@hideDialogMessage": {
-    "description": "Message explaining what hiding an addiction does",
-    "placeholders": {
-      "title": {
-        "type": "String"
-      }
-    }
-  },
   "cancel": "ยกเลิก",
   "@cancel": {
     "description": "Cancel button text used throughout the app"
@@ -763,10 +736,6 @@
   "@settingsSectionSecurity": {
     "description": "Section header for security settings"
   },
-  "settingsSectionMainScreenItems": "รายการหน้าจอหลัก",
-  "@settingsSectionMainScreenItems": {
-    "description": "Section header for main screen items settings"
-  },
   "settingsSectionNotifications": "การแจ้งเตือน",
   "@settingsSectionNotifications": {
     "description": "Section header for notification settings"
@@ -790,10 +759,6 @@
   "settingsPinTimeoutHint": "15",
   "@settingsPinTimeoutHint": {
     "description": "Hint text for PIN timeout field"
-  },
-  "settingsTheme": "ธีม",
-  "@settingsTheme": {
-    "description": "Setting title for theme selection"
   },
   "settingsColorScheme": "โทนสี",
   "@settingsColorScheme": {
@@ -1036,10 +1001,6 @@
   "@pinDialogOK": {
     "description": "OK button in PIN dialog"
   },
-  "notificationFrequencyDialogTitle": "ความถี่การแจ้งเตือน",
-  "@notificationFrequencyDialogTitle": {
-    "description": "Dialog title for notification frequency settings"
-  },
   "notificationFrequencyNotifyEvery": "แจ้งให้ทราบทุกๆ",
   "@notificationFrequencyNotifyEvery": {
     "description": "Label for notification frequency field"
@@ -1068,10 +1029,6 @@
         "type": "int"
       }
     }
-  },
-  "deleteEverythingDialogTitle": "ลบทุกอย่าง",
-  "@deleteEverythingDialogTitle": {
-    "description": "Dialog title for delete everything confirmation"
   },
   "deleteEverythingDialogMessage": "คุณแน่ใจหรือว่าลบทุกอย่างแล้ว?การดำเนินการนี้ไม่สามารถยกเลิกได้",
   "@deleteEverythingDialogMessage": {
@@ -1121,14 +1078,6 @@
   "journalNextMonth": "เดือนหน้า",
   "@journalNextMonth": {
     "description": "Tooltip for next month button in calendar"
-  },
-  "quitMilestonesStart": "เริ่ม",
-  "@quitMilestonesStart": {
-    "description": "Button to start quit journey"
-  },
-  "quitMilestonesReset": "รีเซ็ต",
-  "@quitMilestonesReset": {
-    "description": "Button to reset quit journey"
   },
   "quitMilestonesQuitDate": "เลิกเดท",
   "@quitMilestonesQuitDate": {
@@ -1302,14 +1251,6 @@
   "whatsNewTitle": "มีอะไรใหม่?",
   "@whatsNewTitle": {
     "description": "Title for what's new page"
-  },
-  "whatsNewSearchHint": "ค้นหา...",
-  "@whatsNewSearchHint": {
-    "description": "Hint text for changelog search"
-  },
-  "whatsNewEnjoyingButton": "เพลิดเพลินกับแอพไหม?",
-  "@whatsNewEnjoyingButton": {
-    "description": "Button text to go to enjoying page from what's new"
   },
   "enjoyingPageTitle": "ชอบแอปนี้ไหม?",
   "@enjoyingPageTitle": {
@@ -2025,46 +1966,6 @@
   "nicotinePouchesReferenceDay14": "2 สัปดาห์: อาการถอนยังคงเบาลง\n\nแหล่งที่มา: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nบทความทบทวนระบุว่าจุดสูงสุดของอาการถอนนิโคตินโดยทั่วไปอยู่ราววันที่ 3 และอาการจะค่อย ๆ ลดลงในช่วง 3–4 สัปดาห์ถัดไป\n\nอยู่ลึกเข้าไปในช่วงขาลง\nเมื่อครบสองสัปดาห์ คุณอยู่ลึกเข้าไปในช่วงหลังจุดสูงสุดที่อาการกำลังลดลง บทความครอบคลุมการใช้ผลิตภัณฑ์ที่มีนิโคตินเป็นเวลานานและระบุว่าความรุนแรงของอาการถอนแตกต่างกันตามวิธีได้รับนิโคติน\n\nสองสัปดาห์โดยไม่ใช้ถุงนิโคตินเป็นจุดสำคัญที่ชัดเจนบนเส้นโค้งขาลง: อาการถอนโดยทั่วไปยังคงเบาลง",
   "@nicotinePouchesReferenceDay14": {
     "description": "Nicotine pouches day 14 detailed reference"
-  },
-  "nicotinePouchesMilestone30Title": "การตอบสนองต่อความเครียดทำให้เป็นปกติ",
-  "@nicotinePouchesMilestone30Title": {
-    "description": "Nicotine pouches milestone day 30 title"
-  },
-  "nicotinePouchesMilestone30Description": "พล็อตเรื่องพลิกผัน: นิโคตินเพิ่มความเครียดระหว่างการใช้จริง ๆ!การตอบสนองต่อคอร์ติซอลและความเครียดของคุณกลับมาเป็นปกติผ่อนคลายอย่างแท้จริง ไม่ใช่การปลอมแปลงนิโคติน",
-  "@nicotinePouchesMilestone30Description": {
-    "description": "Nicotine pouches milestone day 30 description"
-  },
-  "nicotinePouchesMilestone60Title": "คุณภาพการนอนหลับดีขึ้น",
-  "@nicotinePouchesMilestone60Title": {
-    "description": "Nicotine pouches milestone day 60 title"
-  },
-  "nicotinePouchesMilestone60Description": "ฝันหวานทำจาก... ไม่มีนิโคติน!แม้ว่านิโคตินจะดูผ่อนคลาย แต่แท้จริงแล้วกลับรบกวนโครงสร้างการนอนหลับผ่านไปสองเดือน วงจร REM ของคุณจะได้รับการฟื้นฟูอย่างสวยงาม",
-  "@nicotinePouchesMilestone60Description": {
-    "description": "Nicotine pouches milestone day 60 description"
-  },
-  "nicotinePouchesMilestone90Title": "ตัวรับโดปามีนฟื้นตัว",
-  "@nicotinePouchesMilestone90Title": {
-    "description": "Nicotine pouches milestone day 90 title"
-  },
-  "nicotinePouchesMilestone90Description": "ระบบการให้รางวัลสมองของคุณกลับมาออนไลน์แล้ว!นิโคตินแย่งวิถีโดปามีน ทำให้ความสุขตามปกติดูน่าเบื่อฟรีสามเดือน และความสุขตามธรรมชาติของชีวิตจะกลับมาสดใสอีกครั้ง",
-  "@nicotinePouchesMilestone90Description": {
-    "description": "Nicotine pouches milestone day 90 description"
-  },
-  "nicotinePouchesMilestone180Title": "ความเสี่ยงโรคหัวใจและหลอดเลือดลดลง",
-  "@nicotinePouchesMilestone180Title": {
-    "description": "Nicotine pouches milestone day 180 title"
-  },
-  "nicotinePouchesMilestone180Description": "หัวใจของคุณกำลังส่งจดหมายรัก!หกเดือนโดยไม่มีนิโคตินช่วยลดความเสี่ยงโรคหัวใจและหลอดเลือดได้อย่างมากความดันโลหิตและความแปรปรวนของอัตราการเต้นของหัวใจดีขึ้นอย่างมาก",
-  "@nicotinePouchesMilestone180Description": {
-    "description": "Nicotine pouches milestone day 180 description"
-  },
-  "nicotinePouchesMilestone365Title": "มีหลักประกันด้านสุขภาพในระยะยาว",
-  "@nicotinePouchesMilestone365Title": {
-    "description": "Nicotine pouches milestone day 365 title"
-  },
-  "nicotinePouchesMilestone365Description": "หนึ่งปีแห่งอิสรภาพ!ความเสี่ยงต่อปัญหาสุขภาพที่เกี่ยวข้องกับนิโคตินยังคงลดลงอย่างต่อเนื่องคุณได้ทำลายวงจรการเสพติดและทวงคืนอิสรภาพของคุณกลับมาแล้วช่างเป็นวีรบุรุษจริงๆ!🏆",
-  "@nicotinePouchesMilestone365Description": {
-    "description": "Nicotine pouches milestone day 365 description"
   },
   "nicotinePouchesMilestone730Title": "2 ปี: พลังไร้ถุงนิโคติน",
   "nicotinePouchesMilestone730Description": "ครบสองปีเต็มโดยไม่ใช้ถุงนิโคติน งานวิจัยยังไม่พบเกณฑ์การฟื้นตัวพิเศษที่สองปี ดังนั้นหมุดหมายนี้จึงฉลองสองปีที่ไม่มีการรับนิโคตินซ้ำจากถุง และการเปลี่ยนแปลงที่รักษาไว้ได้ต่อเนื่อง",

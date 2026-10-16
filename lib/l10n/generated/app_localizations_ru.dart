@@ -135,57 +135,6 @@ class AppLocalizationsRu extends AppLocalizations {
   String get addictionGabapentinoid => 'Габапентин/Прегабалин';
 
   @override
-  String get gabapentinoidsMilestone1Title =>
-      'Снижайся, не останавливайся внезапно';
-
-  @override
-  String get gabapentinoidsMilestone1Description =>
-      'Отмена габапентиноидов может начаться в течение 12–48 часов. Критическим риском являются судороги при резком прекращении приема, поэтому прием этих препаратов необходимо постепенно снижать под медицинским руководством, а не прекращать прием в холодном состоянии.';
-
-  @override
-  String get gabapentinoidsMilestone3Title => 'Пик абстиненции';
-
-  @override
-  String get gabapentinoidsMilestone3Description =>
-      'Симптомы обычно достигают максимума примерно на третий день: повышенная тревожность, бессонница, потливость, тошнота и иногда спутанность сознания. Постепенное снижение дозы под наблюдением значительно смягчает эти симптомы.';
-
-  @override
-  String get gabapentinoidsMilestone7Title => 'Ослабление острой фазы';
-
-  @override
-  String get gabapentinoidsMilestone7Description =>
-      'Примерно на 7–10-й день острые симптомы существенно уменьшаются. Постепенное сужение делает это окно управляемым.';
-
-  @override
-  String get gabapentinoidsMilestone14Title =>
-      'Урегулирование сна и беспокойства';
-
-  @override
-  String get gabapentinoidsMilestone14Description =>
-      'Через две недели сон и ваш обычный уровень тревоги улучшаются, поскольку нервная система адаптируется к функционированию без препарата.';
-
-  @override
-  String get gabapentinoidsMilestone30Title => 'Месяц без габапентиноидов';
-
-  @override
-  String get gabapentinoidsMilestone30Description =>
-      'Через месяц у большинства людей синдром отмены уже позади: настроение и сон становятся стабильнее, а мышление — яснее. Оставшиеся симптомы обычно выражены слабо.';
-
-  @override
-  String get gabapentinoidsMilestone90Title => 'Стабильный и отрегулированный';
-
-  @override
-  String get gabapentinoidsMilestone90Description =>
-      'Через три месяца после прекращения приёма нервная система полностью адаптируется. Большинство людей чувствуют себя стабильно, сон и настроение возвращаются к норме.';
-
-  @override
-  String get gabapentinoidsMilestone180Title => 'Полгода без габапентиноидов';
-
-  @override
-  String get gabapentinoidsMilestone180Description =>
-      'Шесть месяцев без габапентиноидов. Препарат давно исчез из повседневной жизни, а симптомы отмены и рикошета уже прошли.';
-
-  @override
   String get ghbPageTitle => 'ГОМК';
 
   @override
@@ -794,20 +743,6 @@ class AppLocalizationsRu extends AppLocalizations {
       'Дофаминовая система вашего мозга в значительной степени восстановила нормальное функционирование. Вы доказали свою устойчивость и перестроили свою жизнь без зависимости от стимуляторов. Эта веха представляет собой полную трансформацию — отметьте, как далеко вы продвинулись!';
 
   @override
-  String get showAllItems => 'Показать все элементы';
-
-  @override
-  String get showAllSubtitle =>
-      'Включить или отключить все элементы главного экрана';
-
-  @override
-  String get enableNotifications => 'Включить все уведомления';
-
-  @override
-  String get enableNotificationsSubtitle =>
-      'Включить или отключить все уведомления';
-
-  @override
   String get benzoPageTitle => 'Бензодиазепины';
 
   @override
@@ -1318,11 +1253,6 @@ class AppLocalizationsRu extends AppLocalizations {
   }
 
   @override
-  String hideDialogMessage(String title) {
-    return 'Это скроет опцию $title с главного экрана. Вы можете показать его снова в настройках.';
-  }
-
-  @override
   String get cancel => 'Отмена';
 
   @override
@@ -1486,9 +1416,6 @@ class AppLocalizationsRu extends AppLocalizations {
   String get settingsSectionSecurity => 'Безопасность';
 
   @override
-  String get settingsSectionMainScreenItems => 'Элементы главного экрана';
-
-  @override
   String get settingsSectionNotifications => 'Уведомления';
 
   @override
@@ -1506,9 +1433,6 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get settingsPinTimeoutHint => '15';
-
-  @override
-  String get settingsTheme => 'Тема';
 
   @override
   String get settingsColorScheme => 'Цветовая гамма';
@@ -1733,9 +1657,6 @@ class AppLocalizationsRu extends AppLocalizations {
   String get pinDialogOK => 'ОК';
 
   @override
-  String get notificationFrequencyDialogTitle => 'Частота уведомлений';
-
-  @override
   String get notificationFrequencyNotifyEvery => 'Уведомлять каждые';
 
   @override
@@ -1762,9 +1683,6 @@ class AppLocalizationsRu extends AppLocalizations {
     );
     return 'Вы будете видеть такое уведомление $_temp0 с поздравлением с вашим прогрессом!';
   }
-
-  @override
-  String get deleteEverythingDialogTitle => 'Удалить все';
 
   @override
   String get deleteEverythingDialogMessage =>
@@ -1803,12 +1721,6 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get journalNextMonth => 'Следующий месяц';
-
-  @override
-  String get quitMilestonesStart => 'Старт';
-
-  @override
-  String get quitMilestonesReset => 'Сброс';
 
   @override
   String get quitMilestonesQuitDate => 'Дата отказа';
@@ -1944,12 +1856,6 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get whatsNewTitle => 'Что нового?';
-
-  @override
-  String get whatsNewSearchHint => 'Искать...';
-
-  @override
-  String get whatsNewEnjoyingButton => 'Нравится приложение?';
 
   @override
   String get enjoyingPageTitle => 'Нравится?';
@@ -2620,45 +2526,6 @@ class AppLocalizationsRu extends AppLocalizations {
   @override
   String get nicotinePouchesReferenceDay14 =>
       'Две недели: симптомы продолжают ослабевать\n\nИсточник: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nОбзор помещает типичный пик никотиновой отмены примерно на 3-й день и сообщает, что симптомы ослабевают в течение следующих 3–4 недель.\n\nУже глубоко в фазе снижения\nЧерез две недели вы уже далеко продвинулись в периоде снижения после пика. Обзор касается хронического употребления никотинсодержащих продуктов и отмечает, что выраженность отмены зависит от способа употребления никотина.\n\nДве недели без пакетиков — конкретная точка на нисходящей кривой: типичный синдром отмены продолжает ослабевать.';
-
-  @override
-  String get nicotinePouchesMilestone30Title =>
-      'Реакция на стресс нормализуется';
-
-  @override
-  String get nicotinePouchesMilestone30Description =>
-      'Поворот сюжета: никотин на самом деле увеличивает стресс между употреблением! Ваш кортизол и реакция на стресс возвращаются в норму. Настоящее расслабление, а не никотиновый обман.';
-
-  @override
-  String get nicotinePouchesMilestone60Title => 'Качество сна улучшается';
-
-  @override
-  String get nicotinePouchesMilestone60Description =>
-      'Сладкие сны состоят из... никакого никотина! Хотя никотин кажется расслабляющим, на самом деле он нарушает структуру сна. Прошло два месяца, и ваши циклы быстрого сна прекрасно восстановились.';
-
-  @override
-  String get nicotinePouchesMilestone90Title =>
-      'Дофаминовые рецепторы восстанавливаются';
-
-  @override
-  String get nicotinePouchesMilestone90Description =>
-      'Система вознаграждения вашего мозга снова работает! Никотин захватывает дофаминовые пути, из-за чего обычные удовольствия кажутся скучными. Три месяца без никотиновых пакетиков — и естественные радости жизни снова ощущаются ярко.';
-
-  @override
-  String get nicotinePouchesMilestone180Title =>
-      'Сердечно-сосудистый риск снижается';
-
-  @override
-  String get nicotinePouchesMilestone180Description =>
-      'Ваше сердце шлет любовные письма! Шесть месяцев без никотина значительно снижают риск сердечно-сосудистых заболеваний. Ваше кровяное давление и вариабельность сердечного ритма значительно улучшаются.';
-
-  @override
-  String get nicotinePouchesMilestone365Title =>
-      'Долгосрочное здоровье гарантировано';
-
-  @override
-  String get nicotinePouchesMilestone365Description =>
-      'Один год свободы! Риск возникновения проблем со здоровьем, связанных с никотином, продолжает резко падать. Вы разорвали порочный круг зависимости и вернули себе независимость. Это действительно героизм! 🏆';
 
   @override
   String get nicotinePouchesMilestone730Title => 'Два года: сила без пакетиков';

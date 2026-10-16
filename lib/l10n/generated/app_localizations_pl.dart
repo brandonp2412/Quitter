@@ -136,55 +136,6 @@ class AppLocalizationsPl extends AppLocalizations {
   String get addictionGabapentinoid => 'Gabapentyna / pregabalina';
 
   @override
-  String get gabapentinoidsMilestone1Title => 'Tapert, przestań nagle';
-
-  @override
-  String get gabapentinoidsMilestone1Description =>
-      'Odstawienie gabapentinoidu może rozpocząć się w ciągu 12 godzin. Ryzyko krytyczne to napady nagłego zaniku, więc leki te muszą być zmniejszone pod opieką lekarza, a nie zatrzymane.';
-
-  @override
-  String get gabapentinoidsMilestone3Title => 'Szczyt wycofywania';
-
-  @override
-  String get gabapentinoidsMilestone3Description =>
-      'Objawy zazwyczaj szczytowe w ciągu dnia 3: zwiększona niepewność, w niektórych przypadkach, drenaż, nausea, a czasami mylące. Nadzorowany stożek znacznie to zmniejsza.';
-
-  @override
-  String get gabapentinoidsMilestone7Title => 'Ostre łagodzenie fazy';
-
-  @override
-  String get gabapentinoidsMilestone7Description =>
-      'Stopniowe zmniejszanie dawki utrzymuje to okno pod kontrolą.';
-
-  @override
-  String get gabapentinoidsMilestone14Title => 'Sen i lęk Oprawianie';
-
-  @override
-  String get gabapentinoidsMilestone14Description =>
-      'Dwa tygodnie w, sen i zwykle poziom lęku poprawia się, gdy układ nerwowy dostosowuje się do funkcjonowania bez narkotyku.';
-
-  @override
-  String get gabapentinoidsMilestone30Title => 'Wyczyść miesiąc';
-
-  @override
-  String get gabapentinoidsMilestone30Description =>
-      'W ciągu miesiąca większość ludzi kończy z drawal. z twardszym nastroju, snu, i klarowności. Wszelkie utrzymujące się objawy są zwykle łagodne.';
-
-  @override
-  String get gabapentinoidsMilestone90Title => 'Stabilny i skorygowany';
-
-  @override
-  String get gabapentinoidsMilestone90Description =>
-      'Większość ludzi czuje się stabilna, z normalnym snem i nastrojem.';
-
-  @override
-  String get gabapentinoidsMilestone180Title => 'Pół roku za darmo';
-
-  @override
-  String get gabapentinoidsMilestone180Description =>
-      'Lek już dawno zniknął z twojej rutyny i wszystkie objawy ustąpiły.';
-
-  @override
   String get ghbPageTitle => 'Odzyskiwanie GHB';
 
   @override
@@ -791,20 +742,6 @@ class AppLocalizationsPl extends AppLocalizations {
       'Układ dopaminowy mózgu w dużej mierze odzyskał prawidłowe funkcjonowanie. Pokazujesz swoją odporność, budując życie bez zależności od stymulantów. Warto docenić, jak daleko udało Ci się dojść.';
 
   @override
-  String get showAllItems => 'Pokaż wszystkie elementy';
-
-  @override
-  String get showAllSubtitle =>
-      'Włącz lub wyłącz wszystkie główne elementy ekranu';
-
-  @override
-  String get enableNotifications => 'Włącz wszystkie powiadomienia';
-
-  @override
-  String get enableNotificationsSubtitle =>
-      'Włącza lub wyłącza wszystkie powiadomienia';
-
-  @override
   String get benzoPageTitle => 'Benzodiazepiny';
 
   @override
@@ -1313,11 +1250,6 @@ class AppLocalizationsPl extends AppLocalizations {
   }
 
   @override
-  String hideDialogMessage(String title) {
-    return 'Spowoduje to ukrycie opcji $title na ekranie głównym. Możesz ją ponownie wyświetlić w Ustawieniach.';
-  }
-
-  @override
   String get cancel => 'Anuluj';
 
   @override
@@ -1479,9 +1411,6 @@ class AppLocalizationsPl extends AppLocalizations {
   String get settingsSectionSecurity => 'Bezpieczeństwo';
 
   @override
-  String get settingsSectionMainScreenItems => 'Elementy ekranu głównego';
-
-  @override
   String get settingsSectionNotifications => 'Powiadomienia';
 
   @override
@@ -1499,9 +1428,6 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get settingsPinTimeoutHint => '15';
-
-  @override
-  String get settingsTheme => 'Motyw';
 
   @override
   String get settingsColorScheme => 'Schemat kolorów';
@@ -1719,9 +1645,6 @@ class AppLocalizationsPl extends AppLocalizations {
   String get pinDialogOK => 'OK';
 
   @override
-  String get notificationFrequencyDialogTitle => 'Częstotliwość powiadomień';
-
-  @override
   String get notificationFrequencyNotifyEvery => 'Powiadamiaj co';
 
   @override
@@ -1748,9 +1671,6 @@ class AppLocalizationsPl extends AppLocalizations {
     );
     return 'Co $_temp0 zobaczysz podobne powiadomienie z gratulacjami za postępy!';
   }
-
-  @override
-  String get deleteEverythingDialogTitle => 'Usuń wszystko';
 
   @override
   String get deleteEverythingDialogMessage =>
@@ -1789,12 +1709,6 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get journalNextMonth => 'Następny miesiąc';
-
-  @override
-  String get quitMilestonesStart => 'Rozpocznij';
-
-  @override
-  String get quitMilestonesReset => 'Resetuj';
 
   @override
   String get quitMilestonesQuitDate => 'Data zakończenia';
@@ -1930,12 +1844,6 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get whatsNewTitle => 'Co nowego?';
-
-  @override
-  String get whatsNewSearchHint => 'Szukaj...';
-
-  @override
-  String get whatsNewEnjoyingButton => 'Podoba ci się?';
 
   @override
   String get enjoyingPageTitle => 'Podoba ci się?';
@@ -2592,44 +2500,6 @@ class AppLocalizationsPl extends AppLocalizations {
   @override
   String get nicotinePouchesReferenceDay14 =>
       'Dwa tygodnie: objawy dalej słabną\n\nŹródło: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nPrzegląd umieszcza typowy szczyt odstawienia nikotyny około 3. dnia i podaje, że objawy słabną przez kolejne 3–4 tygodnie.\n\nGłęboko w fazie wygaszania\nPo dwóch tygodniach jesteś już wyraźnie w okresie wygaszania po szczycie. Przegląd dotyczy przewlekłego używania produktów zawierających nikotynę i zaznacza, że nasilenie odstawienia różni się zależnie od sposobu przyjmowania nikotyny.\n\nDwa tygodnie bez saszetek to konkretny punkt na opadającej krzywej: typowe objawy odstawienia nadal słabną.';
-
-  @override
-  String get nicotinePouchesMilestone30Title =>
-      'Odpowiedź na stres normalizuje';
-
-  @override
-  String get nicotinePouchesMilestone30Description =>
-      'Twist spot: nikotyna rzeczywiście zwiększa stres między użytkownikami! Twoja cortysol i reakcja na stres wracają do normy. Prawdziwe odprężenie, a nie nikotyny udawanie – out.';
-
-  @override
-  String get nicotinePouchesMilestone60Title => 'Poprawa jakości snu';
-
-  @override
-  String get nicotinePouchesMilestone60Description =>
-      'Słodkie sny są wykonane z... bez nikotyny! Podczas gdy nikotyna wydaje się relaksujące, to faktycznie zakłóca architekturę snu. Dwa miesiące w, i twoje cykle REM są pięknie restore.';
-
-  @override
-  String get nicotinePouchesMilestone90Title => 'Receptory dopaminowe Recover';
-
-  @override
-  String get nicotinePouchesMilestone90Description =>
-      'Twój system nagród mózgu jest z powrotem na linii! Nikotyna porywają dopaminę pathways, co normalne przyjemności wydają się głupie. Trzy miesiące za darmo, i życia naturalne radości są żywe ponownie.';
-
-  @override
-  String get nicotinePouchesMilestone180Title =>
-      'Krople ryzyka sercowo- naczyniowego';
-
-  @override
-  String get nicotinePouchesMilestone180Description =>
-      'Twoje serce wysyła listy miłosne! Sześć miesięcy bez nikotyny znacznie zmniejsza ryzyko chorób sercowo – naczyniowych. Twoje ciśnienie krwi i zmienność tętna są znacznie poprawione.';
-
-  @override
-  String get nicotinePouchesMilestone365Title =>
-      'Długoterminowe ubezpieczenia zdrowotne';
-
-  @override
-  String get nicotinePouchesMilestone365Description =>
-      'Rok wolności! Twoje ryzyko problemów zdrowotnych związanych z nikotyną nadal spada.';
 
   @override
   String get nicotinePouchesMilestone730Title => 'Dwa lata: siła bez saszetek';

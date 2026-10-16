@@ -130,55 +130,6 @@ class AppLocalizationsJa extends AppLocalizations {
   String get addictionGabapentinoid => 'ガバペンチン／プレガバリン';
 
   @override
-  String get gabapentinoidsMilestone1Title => '減量、急にやめないで';
-
-  @override
-  String get gabapentinoidsMilestone1Description =>
-      'ガバペンチノイドの離脱は12〜48時間以内に始まることがあります。急な中止での重大なリスクは発作であるため、これらの薬は医療指導のもとで徐々に減量する必要があります。';
-
-  @override
-  String get gabapentinoidsMilestone3Title => '離脱のピーク';
-
-  @override
-  String get gabapentinoidsMilestone3Description =>
-      '症状は通常3日目頃にピークを迎えます：強い不安、不眠、発汗、吐き気、時には混乱。監視下での減量はこれを大幅に軽減します。';
-
-  @override
-  String get gabapentinoidsMilestone7Title => '急性期の緩和';
-
-  @override
-  String get gabapentinoidsMilestone7Description =>
-      '7〜10日目頃に急性症状は大幅に減少します。段階的な減量によりこの期間は管理可能になります。';
-
-  @override
-  String get gabapentinoidsMilestone14Title => '睡眠と不安の安定';
-
-  @override
-  String get gabapentinoidsMilestone14Description =>
-      '2週間経つと、神経系が薬なしで機能することに適応し、睡眠と普段の不安レベルが改善してきます。';
-
-  @override
-  String get gabapentinoidsMilestone30Title => '断薬して1か月';
-
-  @override
-  String get gabapentinoidsMilestone30Description =>
-      '1ヶ月でほとんどの人は離脱を抜け出し、気分、睡眠、明晰さが安定します。残存症状は通常軽度です。';
-
-  @override
-  String get gabapentinoidsMilestone90Title => '安定と適応';
-
-  @override
-  String get gabapentinoidsMilestone90Description =>
-      '断薬から3か月で、神経系は完全に再調整されます。ほとんどの人は安定し、通常の睡眠と気分を取り戻します。';
-
-  @override
-  String get gabapentinoidsMilestone180Title => 'やめて半年';
-
-  @override
-  String get gabapentinoidsMilestone180Description =>
-      '使用をやめて6ヶ月。薬は日常生活からなくなり、反跳症状も解消されています。';
-
-  @override
   String get ghbPageTitle => 'GHB回復';
 
   @override
@@ -760,18 +711,6 @@ class AppLocalizationsJa extends AppLocalizations {
       '脳のドーパミン系はほぼ正常な機能に回復しています。回復力を証明し、刺激物への依存なしに人生を再構築しました。このマイルストーンは完全な変革を表しています—どれだけ遠くまで来たかを祝いましょう！';
 
   @override
-  String get showAllItems => 'すべての項目を表示';
-
-  @override
-  String get showAllSubtitle => 'すべてのメイン画面項目を有効または無効にする';
-
-  @override
-  String get enableNotifications => 'すべての通知を有効にする';
-
-  @override
-  String get enableNotificationsSubtitle => 'すべての通知をオンまたはオフにする';
-
-  @override
   String get benzoPageTitle => 'ベンゾジアゼピン回復';
 
   @override
@@ -1253,11 +1192,6 @@ class AppLocalizationsJa extends AppLocalizations {
   }
 
   @override
-  String hideDialogMessage(String title) {
-    return 'これにより、ホーム画面から$titleオプションが非表示になります。設定から再び表示できます。';
-  }
-
-  @override
   String get cancel => 'キャンセル';
 
   @override
@@ -1415,9 +1349,6 @@ class AppLocalizationsJa extends AppLocalizations {
   String get settingsSectionSecurity => 'セキュリティ';
 
   @override
-  String get settingsSectionMainScreenItems => 'メイン画面の項目';
-
-  @override
   String get settingsSectionNotifications => '通知';
 
   @override
@@ -1434,9 +1365,6 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get settingsPinTimeoutHint => '15';
-
-  @override
-  String get settingsTheme => 'テーマ';
 
   @override
   String get settingsColorScheme => '配色';
@@ -1632,9 +1560,6 @@ class AppLocalizationsJa extends AppLocalizations {
   String get pinDialogOK => 'OK';
 
   @override
-  String get notificationFrequencyDialogTitle => '通知頻度';
-
-  @override
   String get notificationFrequencyNotifyEvery => '通知間隔';
 
   @override
@@ -1653,9 +1578,6 @@ class AppLocalizationsJa extends AppLocalizations {
   String notificationTestBody(int days) {
     return '$days日ごとに、あなたの進捗を祝福する通知が届きます！';
   }
-
-  @override
-  String get deleteEverythingDialogTitle => 'すべてを削除';
 
   @override
   String get deleteEverythingDialogMessage => '本当にすべてを削除しますか？この操作は取り消せません。';
@@ -1692,12 +1614,6 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get journalNextMonth => '次の月';
-
-  @override
-  String get quitMilestonesStart => 'スタート';
-
-  @override
-  String get quitMilestonesReset => 'リセット';
 
   @override
   String get quitMilestonesQuitDate => 'やめた日';
@@ -1815,12 +1731,6 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get whatsNewTitle => '新機能';
-
-  @override
-  String get whatsNewSearchHint => '検索...';
-
-  @override
-  String get whatsNewEnjoyingButton => 'アプリを気に入っていただけましたか?';
 
   @override
   String get enjoyingPageTitle => 'アプリを気に入っていただけましたか?';
@@ -2447,41 +2357,6 @@ class AppLocalizationsJa extends AppLocalizations {
   @override
   String get nicotinePouchesReferenceDay14 =>
       '2週間：離脱症状はさらに軽く\n\n出典: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nこのレビューでは、ニコチン離脱の一般的なピークは約3日目で、その後3〜4週間かけて症状が弱まるとしています。\n\n漸減期の真っただ中\n2週間たった時点では、ピーク後の漸減期にしっかり入っています。このレビューはニコチンを含む製品の慢性的使用を対象としており、離脱症状の強さはニコチンの摂取方法によって異なると述べています。\n\nニコチンパウチなしで2週間は、下向きの曲線上の具体的な節目です。一般的な離脱症状は引き続き和らいでいます。';
-
-  @override
-  String get nicotinePouchesMilestone30Title => 'ストレス反応が正常化';
-
-  @override
-  String get nicotinePouchesMilestone30Description =>
-      '意外かもしれませんが、ニコチンは使用間隔のストレスを高めることがあります。コルチゾールとストレス反応は正常化に向かっています。ニコチンに頼らない、本来のリラックスを取り戻しつつあります。';
-
-  @override
-  String get nicotinePouchesMilestone60Title => '睡眠の質が改善';
-
-  @override
-  String get nicotinePouchesMilestone60Description =>
-      'ニコチンなしの睡眠が定着してきます。ニコチンは一時的に落ち着くように感じても、実際には睡眠構造を乱します。2ヶ月が経ち、REM睡眠のリズムも回復してきています。';
-
-  @override
-  String get nicotinePouchesMilestone90Title => 'ドーパミン受容体が回復';
-
-  @override
-  String get nicotinePouchesMilestone90Description =>
-      '脳の報酬系が回復してきました。ニコチンはドーパミン経路に影響し、普段の楽しみを感じにくくさせます。ニコチンなしで3ヶ月が経ち、日常の自然な喜びを感じやすくなっています。';
-
-  @override
-  String get nicotinePouchesMilestone180Title => '心血管リスクが低下';
-
-  @override
-  String get nicotinePouchesMilestone180Description =>
-      'ニコチンなしで6ヶ月。心血管疾患のリスクは大きく低下し、血圧や心拍変動も改善しています。';
-
-  @override
-  String get nicotinePouchesMilestone365Title => '長期的な健康を確保';
-
-  @override
-  String get nicotinePouchesMilestone365Description =>
-      'ニコチンパウチをやめて1年！ニコチン関連の健康リスクは低下し続けています。依存のサイクルを断ち切り、自分の選択を取り戻しました。大きな成果です！ 🏆';
 
   @override
   String get nicotinePouchesMilestone730Title => '2年達成：ポーチなしの力';
