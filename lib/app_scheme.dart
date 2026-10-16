@@ -12,7 +12,7 @@ class AppScheme {
       case ColorSchemeType.dynamic:
         return dynamicScheme ??
             ColorScheme.fromSeed(
-              seedColor: const Color(0xFF2E8B57),
+              seedColor: const Color(0xFF2E4057),
               brightness: brightness,
             );
       case ColorSchemeType.blue:
