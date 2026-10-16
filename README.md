@@ -9,9 +9,9 @@
 A free and open-source quit tracker built around local data, useful milestones, and a calm interface.
 
 <p>
-  <a href="https://github.com/brandonp2412/Quitter/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/brandonp2412/Quitter?style=for-the-badge&label=release&labelColor=17362A&color=2E8B57&logo=github&logoColor=white"></a>
-  <a href="https://github.com/brandonp2412/Quitter/releases"><img alt="Release downloads" src="https://img.shields.io/github/downloads/brandonp2412/Quitter/total.svg?style=for-the-badge&label=downloads&labelColor=17362A&color=2E8B57&logo=github&logoColor=white"></a>
-  <a href="LICENSE.md"><img alt="MIT license" src="https://img.shields.io/badge/license-MIT-2E8B57?style=for-the-badge&labelColor=17362A&logo=opensourceinitiative&logoColor=white"></a>
+  <a href="https://github.com/brandonp2412/Quitter/releases/latest"><img alt="Latest release" src="https://shieldcn.dev/github/release/brandonp2412/Quitter.svg?label=release&amp;color=475D92"></a>
+  <a href="https://github.com/brandonp2412/Quitter/releases"><img alt="Release downloads" src="https://shieldcn.dev/github/downloads/brandonp2412/Quitter.svg?label=downloads&amp;color=475D92"></a>
+  <a href="LICENSE.md"><img alt="MIT license" src="https://shieldcn.dev/github/license/brandonp2412/Quitter.svg?label=license&amp;color=475D92"></a>
 </p>
 
 <p>
