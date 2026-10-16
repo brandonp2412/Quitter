@@ -39,7 +39,6 @@ class QuitTrackerWidget : AppWidgetProvider() {
                 appWidgetManager: AppWidgetManager,
                 appWidgetId: Int
         ) {
-            Log.d(TAG, "Updating widget $appWidgetId")
 
             val context = baseContext.withQuitterLocale()
             val prefs =
@@ -204,7 +203,6 @@ class QuitTrackerWidget : AppWidgetProvider() {
                     )
 
             if (selectedAddiction == null) {
-                Log.d(TAG, "No addiction selected for widget $appWidgetId")
                 views = RemoteViews(context.packageName, R.layout.quit_tracker_widget_selector)
                 views.setTextViewText(
                         R.id.widget_setup_text,
@@ -227,7 +225,6 @@ class QuitTrackerWidget : AppWidgetProvider() {
                     )
 
             if (addictionInfo == null) {
-                Log.d(TAG, "Addiction info not found, checking entries for $selectedAddiction")
                 val entriesJson = prefs.getString("flutter.entries", null)
                 if (entriesJson == null) {
                     Log.w(TAG, "No entries found in SharedPreferences")
@@ -248,7 +245,6 @@ class QuitTrackerWidget : AppWidgetProvider() {
                                         days,
                                         days
                                 )
-                        Log.d(TAG, "Updated widget with custom entry: $title, $days days")
                         views.setTextViewText(R.id.widget_title, title)
                         views.setTextViewText(R.id.widget_days, widgetText)
                         views.setImageViewResource(R.id.widget_icon, R.drawable.ic_widget_star)
@@ -265,13 +261,10 @@ class QuitTrackerWidget : AppWidgetProvider() {
             if (quitDate == null) {
                 Log.w(TAG, "No quit date found for key: flutter.$selectedAddiction")
                 views.setTextViewText(R.id.widget_days, context.getString(R.string.widget_not_set))
-                val allKeys = prefs.all.keys
-                Log.d(TAG, "Available SharedPreferences keys: ${allKeys.joinToString(", ")}")
                 views.setOnClickPendingIntent(R.id.widget_container, pendingSelect)
                 return appWidgetManager.updateAppWidget(appWidgetId, views)
             }
 
-            Log.d(TAG, "Found quit date for $selectedAddiction: $quitDate")
             var days = daysCeil(quitDate)
             if (days == 0) days = 1
             val widgetText =
@@ -280,12 +273,10 @@ class QuitTrackerWidget : AppWidgetProvider() {
                             days,
                             days
                     )
-            Log.d(TAG, "Calculated days: $days for quit date: $quitDate")
             views.setTextViewText(R.id.widget_days, widgetText)
             views.setOnClickPendingIntent(R.id.widget_container, mainPendingIntent)
 
             appWidgetManager.updateAppWidget(appWidgetId, views)
-            Log.d(TAG, "Widget $appWidgetId update complete")
         }
     }
 

@@ -34,12 +34,11 @@ class AddictionAdapter(
             titleText.text = addiction.title
             iconImage.setImageResource(addiction.iconRes)
 
-            // Create gradient background similar to Flutter
             val gradientDrawable = GradientDrawable(
                 GradientDrawable.Orientation.TL_BR,
                 intArrayOf(
                     addiction.color,
-                    darkenColor(addiction.color, 0.3f) // Darker version
+                    darkenColor(addiction.color, 0.3f)
                 )
             )
             gradientDrawable.cornerRadius = 16f

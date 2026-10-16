@@ -5,8 +5,6 @@
     android:orientation="vertical"
     android:padding="16dp"
     android:fitsSystemWindows="true">
-
-    <!-- Header -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -24,8 +22,6 @@
         android:text="@string/widget_selection_subtitle"
         android:textSize="16sp"
         android:layout_marginBottom="24dp" />
-
-    <!-- Grid of addictions -->
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/addiction_grid"
         android:layout_width="match_parent"

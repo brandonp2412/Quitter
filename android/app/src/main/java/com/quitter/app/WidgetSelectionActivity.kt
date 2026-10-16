@@ -39,7 +39,6 @@ class WidgetSelectionActivity : Activity() {
         val recyclerView = findViewById<RecyclerView>(R.id.addiction_grid)
         recyclerView.layoutManager = GridLayoutManager(this, 2)
 
-        // Display metadata for all known addiction keys
         val knownAddictions = mapOf(
             "alcohol" to Triple(getString(R.string.addiction_alcohol), R.drawable.ic_widget_local_bar, 0xFF6366F1.toInt()),
             "vaping" to Triple(getString(R.string.addiction_vaping), R.drawable.ic_widget_air, 0xFF06B6D4.toInt()),
@@ -81,7 +80,6 @@ class WidgetSelectionActivity : Activity() {
                 activeKeys.add(jsonArray.getString(i))
             }
         } else {
-            // Fallback: scan prefs for known keys (for backwards compatibility)
             for (key in knownAddictions.keys) {
                 if (prefs.getString("flutter.$key", null) != null) {
                     activeKeys.add(key)
@@ -94,7 +92,6 @@ class WidgetSelectionActivity : Activity() {
             if (meta != null) {
                 AddictionItem(key, meta.first, meta.second, meta.third)
             } else {
-                // Unknown key — still show it with a fallback icon
                 AddictionItem(key, getString(R.string.widget_addiction_placeholder), R.drawable.ic_widget_star, 0xFF888888.toInt())
             }
         }

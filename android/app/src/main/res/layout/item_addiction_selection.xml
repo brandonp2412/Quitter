@@ -12,8 +12,6 @@
     android:clickable="true"
     android:focusable="true"
     android:foreground="?android:attr/selectableItemBackground">
-
-    <!-- Icon -->
     <ImageView
         android:id="@+id/addiction_icon"
         android:layout_width="40dp"
@@ -22,8 +20,6 @@
         android:tint="@android:color/white"
         tools:ignore="UseAppTint"
         android:scaleType="fitCenter" />
-
-    <!-- Title -->
     <TextView
         android:id="@+id/addiction_title"
         android:layout_width="wrap_content"
