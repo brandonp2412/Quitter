@@ -1,7 +1,3 @@
-# I'm not picky
-
-There are no coding standards to follow. If I enjoy your feature/bugfix, I will accept the merge.
-
 # Studies / Benefits of quitting
 
 References are very important to get right, we want:
