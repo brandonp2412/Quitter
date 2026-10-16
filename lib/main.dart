@@ -92,7 +92,9 @@ Future<void> main() async {
 }
 
 class QuitterApp extends StatefulWidget {
-  const QuitterApp({super.key});
+  const QuitterApp({super.key, this.useSystemDynamicColors = true});
+
+  final bool useSystemDynamicColors;
 
   @override
   State<QuitterApp> createState() => _QuitterAppState();
@@ -162,12 +164,12 @@ class _QuitterAppState extends State<QuitterApp>
             final lightColorScheme = AppScheme.getColorScheme(
               settings.colorSchemeType,
               Brightness.light,
-              lightDynamic,
+              widget.useSystemDynamicColors ? lightDynamic : null,
             );
             ColorScheme darkColorScheme = AppScheme.getColorScheme(
               settings.colorSchemeType,
               Brightness.dark,
-              darkDynamic,
+              widget.useSystemDynamicColors ? darkDynamic : null,
             );
 
             if (settings.themeMode == AppThemeMode.pureBlack) {
@@ -185,6 +187,7 @@ class _QuitterAppState extends State<QuitterApp>
             }
 
             return MaterialApp(
+              debugShowCheckedModeBanner: false,
               onGenerateTitle: (context) =>
                   AppLocalizations.of(context)!.appTitle,
               scaffoldMessengerKey: rootScaffoldMessenger,

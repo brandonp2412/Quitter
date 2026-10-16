@@ -60,7 +60,7 @@ Future<void> appWrapper() async {
         ChangeNotifierProvider(create: (context) => settings),
         ChangeNotifierProvider(create: (context) => addictions),
       ],
-      child: const app.QuitterApp(),
+      child: const app.QuitterApp(useSystemDynamicColors: false),
     ),
   );
 }
@@ -76,6 +76,10 @@ Future<void> screenshot({
   Future<void> Function(BuildContext context)? goToPage,
   bool settle = false,
 }) async {
+  if (const bool.fromEnvironment('QUITTER_SCREENSHOT_GOLDENS')) {
+    tester.view.physicalSize = const Size(1080, 2400);
+    tester.view.devicePixelRatio = 3;
+  }
   await appWrapper();
   await tester.pumpAndSettle();
 
@@ -85,6 +89,15 @@ Future<void> screenshot({
   }
 
   settle ? await tester.pump() : await tester.pumpAndSettle();
+  if (const bool.fromEnvironment('QUITTER_SCREENSHOT_GOLDENS')) {
+    await expectLater(
+      find.byType(MaterialApp),
+      matchesGoldenFile(
+        '../screenshot-preview/${name}_$screenshotStoreLocale.png',
+      ),
+    );
+    return;
+  }
   await binding.convertFlutterSurfaceToImage();
   settle ? await tester.pump() : await tester.pumpAndSettle();
   if (defaultTargetPlatform != TargetPlatform.linux)
