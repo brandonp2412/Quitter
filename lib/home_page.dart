@@ -760,15 +760,4 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
       ),
     );
   }
-
-  bool isNewerVersion(String lastVersion, currentVersion) {
-    final lastParts = lastVersion.split('.').map(int.parse).toList();
-    final currentParts = currentVersion.split('.').map(int.parse).toList();
-
-    for (int i = 0; i < 3; i++) {
-      if (currentParts[i] > lastParts[i]) return true;
-      if (currentParts[i] < lastParts[i]) return false;
-    }
-    return false;
-  }
 }

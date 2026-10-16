@@ -18,7 +18,6 @@ concurrency:
 
 env:
   PUB_SUMMARY_ONLY: true
-  KOTLIN_VERSION: "2.1.0"
   SCREENSHOT_LOCALES: "en ar de es fa fr id ja ko pl pt pt-BR ru th ur zh zh-Hant"
 
 jobs:

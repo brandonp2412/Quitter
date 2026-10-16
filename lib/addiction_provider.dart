@@ -393,10 +393,4 @@ class AddictionProvider extends ChangeNotifier {
 
     notifyListeners();
   }
-
-  Future<void> clearDays() async {
-    await _pref?.remove('days');
-    _days = {};
-    notifyListeners();
-  }
 }
