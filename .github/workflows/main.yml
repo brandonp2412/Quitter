@@ -272,6 +272,12 @@ jobs:
           path: fastlane/metadata/android
           merge-multiple: true
 
+      - name: Regenerate rounded README screenshots
+        run: |
+          python3 -m venv /tmp/readme-images-venv
+          /tmp/readme-images-venv/bin/python -m pip install "Pillow>=11,<13"
+          /tmp/readme-images-venv/bin/python scripts/round-readme-screenshots.py
+
       - name: Configure Git
         run: |
           git config --local user.email "action@github.com"
@@ -352,7 +358,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           RELEASE_VERSION: ${{ steps.bump.outputs.version }}
         run: |
-          git add pubspec.yaml fastlane/metadata assets/changelogs/
+          git add pubspec.yaml fastlane/metadata assets/changelogs/ docs/screenshots
           git commit -m "Release $RELEASE_VERSION [skip ci]"
           git tag "$RELEASE_VERSION"
           gh auth setup-git

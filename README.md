@@ -28,11 +28,11 @@ A free and open-source quit tracker built around local data, useful milestones, 
 ## See your progress, not a dashboard full of noise
 
 <p align="center">
-  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/1_en-US.png" width="360" alt="Quitter home screen with multiple quitting journeys">
-  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/2_en-US.png" width="360" alt="Alcohol quitting journey with progress information">
+  <img src="docs/screenshots/1_en-US.png" width="360" alt="Quitter home screen with multiple quitting journeys">
+  <img src="docs/screenshots/2_en-US.png" width="360" alt="Alcohol quitting journey with progress information">
   <br><br>
-  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/7_en-US.png" width="360" alt="Quitter settings and appearance options">
-  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/8_en-US.png" width="360" alt="Quitter journal screen">
+  <img src="docs/screenshots/7_en-US.png" width="360" alt="Quitter settings and appearance options">
+  <img src="docs/screenshots/8_en-US.png" width="360" alt="Quitter journal screen">
 </p>
 
 <details>
@@ -40,11 +40,11 @@ A free and open-source quit tracker built around local data, useful milestones, 
 <br>
 
 <p align="center">
-  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/3_en-US.png" width="360" alt="Smoking quitting journey at day seven">
-  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/4_en-US.png" width="360" alt="Custom quitting journey editor">
+  <img src="docs/screenshots/3_en-US.png" width="360" alt="Smoking quitting journey at day seven">
+  <img src="docs/screenshots/4_en-US.png" width="360" alt="Custom quitting journey editor">
   <br><br>
-  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/5_en-US.png" width="360" alt="Home screen hide-entry action">
-  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/6_en-US.png" width="360" alt="Marijuana quitting journey at day fourteen">
+  <img src="docs/screenshots/5_en-US.png" width="360" alt="Home screen hide-entry action">
+  <img src="docs/screenshots/6_en-US.png" width="360" alt="Marijuana quitting journey at day fourteen">
 </p>
 </details>
 
