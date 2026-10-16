@@ -3651,109 +3651,109 @@ abstract class AppLocalizations {
   /// Alcohol milestone day 1 title
   ///
   /// In en, this message translates to:
-  /// **'Sleep Quality Begins to Improve'**
+  /// **'Alcohol Stops Disrupting Your Sleep'**
   String get alcoholMilestone1Title;
 
   /// Alcohol milestone day 1 description
   ///
   /// In en, this message translates to:
-  /// **'Your REM sleep cycles start to normalize within the first day. While alcohol might help you fall asleep initially, it disrupts deep sleep and REM cycles throughout the night, causing fragmented sleep.'**
+  /// **'Alcohol suppresses REM sleep and fragments your sleep throughout the night. Your first alcohol-free night removes that disruption, giving your natural sleep cycle the chance to recover.'**
   String get alcoholMilestone1Description;
 
   /// Alcohol milestone day 3 title
   ///
   /// In en, this message translates to:
-  /// **'Day 3: Acute Withdrawal Peaks'**
+  /// **'Through the Withdrawal Window'**
   String get alcoholMilestone3Title;
 
   /// Alcohol milestone day 3 description
   ///
   /// In en, this message translates to:
-  /// **'Three days in is a huge milestone: alcohol-withdrawal symptoms often peak around 72 hours. Tremor, insomnia, agitation, sweating, fast heart rate and high blood pressure can be strongest around now. Severe withdrawal can still develop later, including delirium 3–8 days after stopping.'**
+  /// **'Three days is a significant milestone. Around 72 hours is a critical period for alcohol withdrawal in physically dependent drinkers. Your nervous system is adjusting to functioning without alcohol. Severe confusion, hallucinations or seizures require urgent medical attention.'**
   String get alcoholMilestone3Description;
 
   /// Alcohol milestone day 7 title
   ///
   /// In en, this message translates to:
-  /// **'Immune System Strengthens'**
+  /// **'Your Immune System Is Recovering'**
   String get alcoholMilestone7Title;
 
   /// Alcohol milestone day 7 description
   ///
   /// In en, this message translates to:
-  /// **'Your white blood cells are recovering their function. Even a single bout of heavy drinking can impair immune function for up to 24 hours, and chronic drinking significantly weakens your body\'s ability to fight infections.'**
+  /// **'One full week without alcohol. Heavy drinking weakens your immune defences and disrupts your body\'s ability to fight infection. Removing alcohol gives your immune system time to recover and rebuild.'**
   String get alcoholMilestone7Description;
 
   /// Alcohol milestone day 14 title
   ///
   /// In en, this message translates to:
-  /// **'Brain Volume Recovery Begins'**
+  /// **'Your Brain Is Rebuilding'**
   String get alcoholMilestone14Title;
 
   /// Alcohol milestone day 14 description
   ///
   /// In en, this message translates to:
-  /// **'Brain volume begins recovering within the first two weeks. Thinking and memory keep improving over the following months.'**
+  /// **'Two weeks alcohol-free. MRI studies have measured increases in brain volume within the first weeks of abstinence among people recovering from alcohol dependence. Improvements in attention accompany this physical recovery.'**
   String get alcoholMilestone14Description;
 
   /// Alcohol milestone day 30 title
   ///
   /// In en, this message translates to:
-  /// **'Blood Pressure Normalizes'**
+  /// **'Your Heart Benefits'**
   String get alcoholMilestone30Title;
 
   /// Alcohol milestone day 30 description
   ///
   /// In en, this message translates to:
-  /// **'Your cardiovascular system shows significant improvement. Regular alcohol consumption elevates blood pressure, but abstinence for about a month can help bring blood pressure back to healthier levels.'**
+  /// **'One month without alcohol. Heavy drinking raises blood pressure and places additional strain on your cardiovascular system. Research shows that stopping or reducing heavy drinking lowers blood pressure, reducing a major risk factor for heart disease and stroke.'**
   String get alcoholMilestone30Description;
 
   /// Alcohol milestone day 60 title
   ///
   /// In en, this message translates to:
-  /// **'Liver Function Improves'**
+  /// **'Your Liver Is Recovering'**
   String get alcoholMilestone60Title;
 
   /// Alcohol milestone day 60 description
   ///
   /// In en, this message translates to:
-  /// **'Your liver shows measurable improvement in function. This regenerative organ can recover significantly from alcohol-induced damage, with liver enzymes and fat accumulation showing improvement within 2 months of abstinence.'**
+  /// **'Two months alcohol-free. Your liver is no longer processing alcohol or sustaining new alcohol-related injury. Alcohol-related fatty liver is reversible with abstinence, and removing alcohol supports the repair of early liver damage.'**
   String get alcoholMilestone60Description;
 
   /// Alcohol milestone day 90 title
   ///
   /// In en, this message translates to:
-  /// **'Thinking and Memory Improve Substantially'**
+  /// **'Your Mind Is Getting Sharper'**
   String get alcoholMilestone90Title;
 
   /// Alcohol milestone day 90 description
   ///
   /// In en, this message translates to:
-  /// **'The first three months bring major gains in memory, concentration, and decision-making, with recovery continuing across the following months.'**
+  /// **'Three months without alcohol. Research documents improvements in processing speed and working memory during early recovery. Attention, memory and decision-making continue recovering throughout sustained abstinence.'**
   String get alcoholMilestone90Description;
 
   /// Alcohol milestone day 180 title
   ///
   /// In en, this message translates to:
-  /// **'Brain Volume and Function Continue Recovery'**
+  /// **'Six Months of Brain Recovery'**
   String get alcoholMilestone180Title;
 
   /// Alcohol milestone day 180 description
   ///
   /// In en, this message translates to:
-  /// **'Six months sober gives the brain sustained time to recover. Brain volume and thinking skills continue to improve.'**
+  /// **'Half a year alcohol-free. Recovery goes well beyond withdrawal. Studies document improvements in brain structure, communication between brain regions and cognitive performance over months of abstinence.'**
   String get alcoholMilestone180Description;
 
   /// Alcohol milestone day 365 title
   ///
   /// In en, this message translates to:
-  /// **'Cancer Risk Reduction May Begin'**
+  /// **'You\'re Reducing Your Cancer Risk'**
   String get alcoholMilestone365Title;
 
   /// Alcohol milestone day 365 description
   ///
   /// In en, this message translates to:
-  /// **'One year of abstinence may begin to reduce cancer risk. While alcohol clearly increases risk for several cancers (liver, breast, colorectal, esophageal), research on risk reduction timeline is still emerging and varies by cancer type.'**
+  /// **'One year without alcohol. Alcohol is a known carcinogen linked to seven types of cancer. Stopping removes ongoing alcohol exposure, and research confirms lower risks of mouth and oesophageal cancers after quitting. Every year without alcohol contributes to your long-term health.'**
   String get alcoholMilestone365Description;
 
   /// Smoking milestone day 1 title
@@ -5595,7 +5595,7 @@ abstract class AppLocalizations {
   /// No description provided for @alcoholReferenceDay365.
   ///
   /// In en, this message translates to:
-  /// **'Alcohol, Cancer Risk, and Stopping\n\nSource: National Cancer Institute (NCI), \"Alcohol and Cancer Risk\"\n\nAlcohol Causes Cancer\nThe NCI states there is a strong scientific consensus that drinking alcohol can cause cancer. Alcohol is linked to cancers of the mouth (oral cavity), pharynx (throat), larynx (voice box), oesophagus, liver, breast, and colon and rectum. The more a person drinks — and the longer they drink — the higher the risk.\n\nHow Alcohol Drives Cancer\nMechanisms include acetaldehyde, a toxic breakdown product of alcohol that damages DNA; oxidative stress and inflammation; impaired absorption of protective nutrients; and, for breast cancer, raised oestrogen levels.\n\nRisk Falls After You Stop\nImportantly, the NCI reports that quitting drinking is associated with lower risk over time — studies show the elevated risk of cancers of the oral cavity and oesophagus declines after stopping, though it can take years to approach the risk of someone who never drank. One year alcohol-free is a meaningful step on that path.\n\nCompounding Benefits\nReaching a year also locks in the cardiovascular and liver gains of abstinence — lower blood pressure, reduced arrhythmia risk, and continued liver healing — alongside the falling cancer risk.'**
+  /// **'Alcohol and Cancer\n\nAlcohol is classified as a human carcinogen. It causes DNA damage through acetaldehyde, increases oxidative stress and inflammation, and alters hormone levels.\n\nThe International Agency for Research on Cancer reviewed the evidence and established that reducing or stopping alcohol lowers the risk of oral and oesophageal cancers.\n\nStopping drinking eliminates continued exposure to alcohol\'s cancer-causing effects. Cancer risk declines over the years following cessation.'**
   String get alcoholReferenceDay365;
 
   /// No description provided for @benzodiazepineReferenceDay7.
@@ -6885,73 +6885,73 @@ abstract class AppLocalizations {
   /// No description provided for @alcoholMilestone730Title.
   ///
   /// In en, this message translates to:
-  /// **'Two Years: Sustained Progress'**
+  /// **'Two Years Alcohol-Free'**
   String get alcoholMilestone730Title;
 
   /// No description provided for @alcoholMilestone730Description.
   ///
   /// In en, this message translates to:
-  /// **'Two years alcohol-free falls within the one-to-five-year sustained time window NIAAA uses in recovery research. That is a major achievement worth protecting.'**
+  /// **'Two years without alcohol. You\'ve maintained a significant change through two complete years of everyday life. Your health is no longer subjected to repeated alcohol exposure, and the benefits of abstinence continue to accumulate.'**
   String get alcoholMilestone730Description;
 
   /// No description provided for @alcoholReferenceDay730.
   ///
   /// In en, this message translates to:
-  /// **'Two Years Alcohol-Free: Sustained Progress\n\nSource: NIAAA, Recovery Research Definitions\n\nNIAAA uses one to five years as the sustained duration category for remission from alcohol use disorder and cessation from heavy drinking maintained over time. An alcohol-free streak goes beyond the drinking threshold, but abstinence alone does not establish every clinical remission criterion.\n\nTwo years is 730 days of maintained change. Celebrate the consistency and keep protecting the routines, relationships, and support that help it last.'**
+  /// **'Sustained Change\n\nTwo years alcohol-free represents sustained behavioural change. The benefits extend beyond removing alcohol itself: daily routines, relationships, physical health and psychological well-being are all important parts of long-term recovery.'**
   String get alcoholReferenceDay730;
 
   /// No description provided for @alcoholMilestone1095Title.
   ///
   /// In en, this message translates to:
-  /// **'Three Years: Stronger Ground'**
+  /// **'Three Years Alcohol-Free'**
   String get alcoholMilestone1095Title;
 
   /// No description provided for @alcoholMilestone1095Description.
   ///
   /// In en, this message translates to:
-  /// **'Three years alcohol-free is long-term change carried through 1,095 days. NIAAA places this duration within its sustained recovery-research window.'**
+  /// **'Three full years without alcohol. You\'ve established a different way of living and maintained it through another entire year. Three years of consistency is a serious achievement.'**
   String get alcoholMilestone1095Description;
 
   /// No description provided for @alcoholReferenceDay1095.
   ///
   /// In en, this message translates to:
-  /// **'Three Years Alcohol-Free: Stronger Ground\n\nSource: NIAAA, Recovery Research Definitions\n\nNIAAA uses one to five years as the sustained duration category for remission from alcohol use disorder and cessation from heavy drinking maintained over time. It does not claim a special biological reset at year three.\n\nThree years is 1,095 days of reinforcing a different pattern. That consistency matters in its own right, and the supports that got you here are worth protecting.'**
+  /// **'A Different Normal\n\nThree years of abstinence demonstrates consistency across a substantial period of life. Alcohol is no longer part of your daily routine, and the habits supporting that change have been reinforced over thousands of decisions.'**
   String get alcoholReferenceDay1095;
 
   /// No description provided for @alcoholMilestone1460Title.
   ///
   /// In en, this message translates to:
-  /// **'Four Years: Lasting Change'**
+  /// **'Four Years Alcohol-Free'**
   String get alcoholMilestone1460Title;
 
   /// No description provided for @alcoholMilestone1460Description.
   ///
   /// In en, this message translates to:
-  /// **'Four years alcohol-free shows change maintained on a genuinely long timescale. The milestone is the durability itself, not an invented medical deadline.'**
+  /// **'Four years without a drink. That\'s four years of removing alcohol-related harm from your life and reinforcing the habits that keep you moving forward. A remarkable amount of progress.'**
   String get alcoholMilestone1460Description;
 
   /// No description provided for @alcoholReferenceDay1460.
   ///
   /// In en, this message translates to:
-  /// **'Four Years Alcohol-Free: Lasting Change\n\nSource: NIAAA, Recovery Research Definitions\n\nFour years remains inside NIAAA\'s one-to-five-year sustained duration window used in recovery research. The framework is about maintained remission and cessation from heavy drinking, not a claim that every person\'s body or brain reaches the same finish line on the same date.\n\nFour years alcohol-free shows change carried through ordinary days, stress, seasons, and milestones. The achievement is the durability itself.'**
+  /// **'Long-Term Progress\n\nFour years without alcohol represents a major period without repeated alcohol-related exposure. Long-term recovery is built through consistent behaviour, supported by healthier routines and meaningful improvements in everyday life.'**
   String get alcoholReferenceDay1460;
 
   /// No description provided for @alcoholMilestone1825Title.
   ///
   /// In en, this message translates to:
-  /// **'Five Years: A Major Milestone'**
+  /// **'Half a Decade Alcohol-Free'**
   String get alcoholMilestone1825Title;
 
   /// No description provided for @alcoholMilestone1825Description.
   ///
   /// In en, this message translates to:
-  /// **'Five years alcohol-free reaches the far edge of NIAAA\'s one-to-five-year sustained window. Its stable duration category begins only after more than five years.'**
+  /// **'Five years. Half a decade without alcohol. You\'ve eliminated five years of drinking-related exposure and maintained a major lifestyle change across thousands of days. That\'s an extraordinary milestone worth celebrating.'**
   String get alcoholMilestone1825Description;
 
   /// No description provided for @alcoholReferenceDay1825.
   ///
   /// In en, this message translates to:
-  /// **'Five Years Alcohol-Free: A Major Milestone\n\nSource: NIAAA, Recovery Research Definitions\n\nNIAAA calls one to five years the sustained duration category and reserves stable for more than five years. Exactly five years therefore sits at the far edge of the sustained window. The framework also includes remission from AUD symptoms, so abstinence alone should not be treated as a clinical diagnosis.\n\nFive years alcohol-free is 1,825 days of maintained change. Half a decade deserves real credit without inventing a medical finish line the evidence does not support.'**
+  /// **'Five Years of Freedom\n\nHalf a decade without drinking is a significant achievement in its own right. Five years of sustained abstinence means five years without alcohol continuing to damage your health. It is a milestone worth recognising and celebrating.'**
   String get alcoholReferenceDay1825;
 
   /// No description provided for @ghbMilestone730Title.

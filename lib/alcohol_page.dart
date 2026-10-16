@@ -183,16 +183,10 @@ class AlcoholPage extends StatelessWidget {
         referenceDate: "June 2026",
         localizedReferenceContent: l10n.alcoholReferenceDay365,
         referenceContent:
-            "Alcohol, Cancer Risk, and Stopping\n\n"
-            "Source: National Cancer Institute (NCI), \"Alcohol and Cancer Risk\"\n\n"
-            "Alcohol Causes Cancer\n"
-            "The NCI states there is a strong scientific consensus that drinking alcohol can cause cancer. Alcohol is linked to cancers of the mouth (oral cavity), pharynx (throat), larynx (voice box), oesophagus, liver, breast, and colon and rectum. The more a person drinks — and the longer they drink — the higher the risk.\n\n"
-            "How Alcohol Drives Cancer\n"
-            "Mechanisms include acetaldehyde, a toxic breakdown product of alcohol that damages DNA; oxidative stress and inflammation; impaired absorption of protective nutrients; and, for breast cancer, raised oestrogen levels.\n\n"
-            "Risk Falls After You Stop\n"
-            "Importantly, the NCI reports that quitting drinking is associated with lower risk over time — studies show the elevated risk of cancers of the oral cavity and oesophagus declines after stopping, though it can take years to approach the risk of someone who never drank. One year alcohol-free is a meaningful step on that path.\n\n"
-            "Compounding Benefits\n"
-            "Reaching a year also locks in the cardiovascular and liver gains of abstinence — lower blood pressure, reduced arrhythmia risk, and continued liver healing — alongside the falling cancer risk.",
+            "Alcohol and Cancer\n\n"
+            "Alcohol is classified as a human carcinogen. It causes DNA damage through acetaldehyde, increases oxidative stress and inflammation, and alters hormone levels.\n\n"
+            "The International Agency for Research on Cancer reviewed the evidence and established that reducing or stopping alcohol lowers the risk of oral and oesophageal cancers.\n\n"
+            "Stopping drinking eliminates continued exposure to alcohol's cancer-causing effects. Cancer risk declines over the years following cessation.",
       ),
       QuitMilestone(
         day: 730,
@@ -204,10 +198,8 @@ class AlcoholPage extends StatelessWidget {
         referenceDate: "October 2026",
         localizedReferenceContent: l10n.alcoholReferenceDay730,
         referenceContent:
-            "Two Years Alcohol-Free: Sustained Progress\n\n"
-            "Source: NIAAA, Recovery Research Definitions\n\n"
-            "NIAAA defines recovery from alcohol use disorder around both remission from AUD and cessation from heavy drinking. Its research framework labels one to five years maintained over time as the sustained duration category. An alcohol-free streak goes beyond the drinking threshold, but abstinence alone does not establish every clinical remission criterion.\n\n"
-            "Two years is still a major long-term achievement: 730 days of maintaining the change. Celebrate the consistency and keep the routines, relationships, and support that help it last.",
+            "Sustained Change\n\n"
+            "Two years alcohol-free represents sustained behavioural change. The benefits extend beyond removing alcohol itself: daily routines, relationships, physical health and psychological well-being are all important parts of long-term recovery.",
       ),
       QuitMilestone(
         day: 1095,
@@ -219,10 +211,8 @@ class AlcoholPage extends StatelessWidget {
         referenceDate: "October 2026",
         localizedReferenceContent: l10n.alcoholReferenceDay1095,
         referenceContent:
-            "Three Years Alcohol-Free: Stronger Ground\n\n"
-            "Source: NIAAA, Recovery Research Definitions\n\n"
-            "NIAAA uses one to five years as the sustained duration category for remission from AUD and cessation from heavy drinking maintained over time. It does not claim a special biological reset at year three, and this milestone does not need one.\n\n"
-            "Three years is 1,095 days of choosing and reinforcing a different pattern. That consistency is meaningful in its own right, and the supports that got you here are worth protecting.",
+            "A Different Normal\n\n"
+            "Three years of abstinence demonstrates consistency across a substantial period of life. Alcohol is no longer part of your daily routine, and the habits supporting that change have been reinforced over thousands of decisions.",
       ),
       QuitMilestone(
         day: 1460,
@@ -234,10 +224,8 @@ class AlcoholPage extends StatelessWidget {
         referenceDate: "October 2026",
         localizedReferenceContent: l10n.alcoholReferenceDay1460,
         referenceContent:
-            "Four Years Alcohol-Free: Lasting Change\n\n"
-            "Source: NIAAA, Recovery Research Definitions\n\n"
-            "Four years remains inside NIAAA's one-to-five-year sustained duration window used in recovery research. The framework is about maintained remission and cessation from heavy drinking, not a claim that every person's body or brain reaches the same finish line on the same date.\n\n"
-            "Four years alcohol-free shows change maintained across seasons, stress, ordinary days, and milestones. The achievement is the durability itself.",
+            "Long-Term Progress\n\n"
+            "Four years without alcohol represents a major period without repeated alcohol-related exposure. Long-term recovery is built through consistent behaviour, supported by healthier routines and meaningful improvements in everyday life.",
       ),
       QuitMilestone(
         day: 1825,
@@ -249,10 +237,8 @@ class AlcoholPage extends StatelessWidget {
         referenceDate: "October 2026",
         localizedReferenceContent: l10n.alcoholReferenceDay1825,
         referenceContent:
-            "Five Years Alcohol-Free: A Major Milestone\n\n"
-            "Source: NIAAA, Recovery Research Definitions\n\n"
-            "NIAAA's research framework calls one to five years the sustained duration category and reserves stable for more than five years. Exactly five years therefore sits at the far edge of the sustained window rather than beyond it. The framework also includes AUD symptom remission, so abstinence alone should not be treated as a clinical diagnosis.\n\n"
-            "Five years alcohol-free is 1,825 days of maintained change. Half a decade deserves real credit, without inventing a medical finish line that the evidence does not support.",
+            "Five Years of Freedom\n\n"
+            "Half a decade without drinking is a significant achievement in its own right. Five years of sustained abstinence means five years without alcohol continuing to damage your health. It is a milestone worth recognising and celebrating.",
       ),
     ];
   }

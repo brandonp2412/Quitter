@@ -1550,75 +1550,75 @@
   "@ok": {
     "description": "OK button text used in toast messages"
   },
-  "alcoholMilestone1Title": "Sleep Quality Begins to Improve",
+  "alcoholMilestone1Title": "Alcohol Stops Disrupting Your Sleep",
   "@alcoholMilestone1Title": {
     "description": "Alcohol milestone day 1 title"
   },
-  "alcoholMilestone1Description": "Your REM sleep cycles start to normalize within the first day. While alcohol might help you fall asleep initially, it disrupts deep sleep and REM cycles throughout the night, causing fragmented sleep.",
+  "alcoholMilestone1Description": "Alcohol suppresses REM sleep and fragments your sleep throughout the night. Your first alcohol-free night removes that disruption, giving your natural sleep cycle the chance to recover.",
   "@alcoholMilestone1Description": {
     "description": "Alcohol milestone day 1 description"
   },
-  "alcoholMilestone3Title": "Day 3: Acute Withdrawal Peaks",
+  "alcoholMilestone3Title": "Through the Withdrawal Window",
   "@alcoholMilestone3Title": {
     "description": "Alcohol milestone day 3 title"
   },
-  "alcoholMilestone3Description": "Three days in is a huge milestone: alcohol-withdrawal symptoms often peak around 72 hours. Tremor, insomnia, agitation, sweating, fast heart rate and high blood pressure can be strongest around now. Severe withdrawal can still develop later, including delirium 3–8 days after stopping.",
+  "alcoholMilestone3Description": "Three days is a significant milestone. Around 72 hours is a critical period for alcohol withdrawal in physically dependent drinkers. Your nervous system is adjusting to functioning without alcohol. Severe confusion, hallucinations or seizures require urgent medical attention.",
   "@alcoholMilestone3Description": {
     "description": "Alcohol milestone day 3 description"
   },
-  "alcoholMilestone7Title": "Immune System Strengthens",
+  "alcoholMilestone7Title": "Your Immune System Is Recovering",
   "@alcoholMilestone7Title": {
     "description": "Alcohol milestone day 7 title"
   },
-  "alcoholMilestone7Description": "Your white blood cells are recovering their function. Even a single bout of heavy drinking can impair immune function for up to 24 hours, and chronic drinking significantly weakens your body's ability to fight infections.",
+  "alcoholMilestone7Description": "One full week without alcohol. Heavy drinking weakens your immune defences and disrupts your body's ability to fight infection. Removing alcohol gives your immune system time to recover and rebuild.",
   "@alcoholMilestone7Description": {
     "description": "Alcohol milestone day 7 description"
   },
-  "alcoholMilestone14Title": "Brain Volume Recovery Begins",
+  "alcoholMilestone14Title": "Your Brain Is Rebuilding",
   "@alcoholMilestone14Title": {
     "description": "Alcohol milestone day 14 title"
   },
-  "alcoholMilestone14Description": "Brain volume begins recovering within the first two weeks. Thinking and memory keep improving over the following months.",
+  "alcoholMilestone14Description": "Two weeks alcohol-free. MRI studies have measured increases in brain volume within the first weeks of abstinence among people recovering from alcohol dependence. Improvements in attention accompany this physical recovery.",
   "@alcoholMilestone14Description": {
     "description": "Alcohol milestone day 14 description"
   },
-  "alcoholMilestone30Title": "Blood Pressure Normalizes",
+  "alcoholMilestone30Title": "Your Heart Benefits",
   "@alcoholMilestone30Title": {
     "description": "Alcohol milestone day 30 title"
   },
-  "alcoholMilestone30Description": "Your cardiovascular system shows significant improvement. Regular alcohol consumption elevates blood pressure, but abstinence for about a month can help bring blood pressure back to healthier levels.",
+  "alcoholMilestone30Description": "One month without alcohol. Heavy drinking raises blood pressure and places additional strain on your cardiovascular system. Research shows that stopping or reducing heavy drinking lowers blood pressure, reducing a major risk factor for heart disease and stroke.",
   "@alcoholMilestone30Description": {
     "description": "Alcohol milestone day 30 description"
   },
-  "alcoholMilestone60Title": "Liver Function Improves",
+  "alcoholMilestone60Title": "Your Liver Is Recovering",
   "@alcoholMilestone60Title": {
     "description": "Alcohol milestone day 60 title"
   },
-  "alcoholMilestone60Description": "Your liver shows measurable improvement in function. This regenerative organ can recover significantly from alcohol-induced damage, with liver enzymes and fat accumulation showing improvement within 2 months of abstinence.",
+  "alcoholMilestone60Description": "Two months alcohol-free. Your liver is no longer processing alcohol or sustaining new alcohol-related injury. Alcohol-related fatty liver is reversible with abstinence, and removing alcohol supports the repair of early liver damage.",
   "@alcoholMilestone60Description": {
     "description": "Alcohol milestone day 60 description"
   },
-  "alcoholMilestone90Title": "Thinking and Memory Improve Substantially",
+  "alcoholMilestone90Title": "Your Mind Is Getting Sharper",
   "@alcoholMilestone90Title": {
     "description": "Alcohol milestone day 90 title"
   },
-  "alcoholMilestone90Description": "The first three months bring major gains in memory, concentration, and decision-making, with recovery continuing across the following months.",
+  "alcoholMilestone90Description": "Three months without alcohol. Research documents improvements in processing speed and working memory during early recovery. Attention, memory and decision-making continue recovering throughout sustained abstinence.",
   "@alcoholMilestone90Description": {
     "description": "Alcohol milestone day 90 description"
   },
-  "alcoholMilestone180Title": "Brain Volume and Function Continue Recovery",
+  "alcoholMilestone180Title": "Six Months of Brain Recovery",
   "@alcoholMilestone180Title": {
     "description": "Alcohol milestone day 180 title"
   },
-  "alcoholMilestone180Description": "Six months sober gives the brain sustained time to recover. Brain volume and thinking skills continue to improve.",
+  "alcoholMilestone180Description": "Half a year alcohol-free. Recovery goes well beyond withdrawal. Studies document improvements in brain structure, communication between brain regions and cognitive performance over months of abstinence.",
   "@alcoholMilestone180Description": {
     "description": "Alcohol milestone day 180 description"
   },
-  "alcoholMilestone365Title": "Cancer Risk Reduction May Begin",
+  "alcoholMilestone365Title": "You're Reducing Your Cancer Risk",
   "@alcoholMilestone365Title": {
     "description": "Alcohol milestone day 365 title"
   },
-  "alcoholMilestone365Description": "One year of abstinence may begin to reduce cancer risk. While alcohol clearly increases risk for several cancers (liver, breast, colorectal, esophageal), research on risk reduction timeline is still emerging and varies by cancer type.",
+  "alcoholMilestone365Description": "One year without alcohol. Alcohol is a known carcinogen linked to seven types of cancer. Stopping removes ongoing alcohol exposure, and research confirms lower risks of mouth and oesophageal cancers after quitting. Every year without alcohol contributes to your long-term health.",
   "@alcoholMilestone365Description": {
     "description": "Alcohol milestone day 365 description"
   },
@@ -2420,7 +2420,7 @@
   "alcoholReferenceDay60": "Liver Recovery After You Stop Drinking\n\nSource: National Institute on Alcohol Abuse and Alcoholism (NIAAA), \"Alcohol's Effects on the Body\"\n\nHow Alcohol Damages the Liver\nThe liver processes most of the alcohol you drink, and it takes the brunt of the damage. NIAAA describes a progression of alcohol-related liver injury: it begins with fatty liver (steatosis — fat building up in liver cells), can advance to alcoholic hepatitis (inflammation), and with prolonged heavy use to fibrosis and cirrhosis (scarring).\n\nThe Earlier Stages Are Reversible\nThe crucial point is that the liver is highly regenerative, and the early stages of this damage can improve when drinking stops. Fatty liver in particular often resolves with sustained abstinence. By around two months alcohol-free, the liver has had real time to clear fat deposits, calm inflammation, and restore healthier function — typically reflected in falling liver-enzyme levels (ALT and AST).\n\nBeyond the Liver\nNIAAA notes alcohol also strains the heart, pancreas and immune system. Giving the body a sustained break from alcohol lets these systems recover too — contributing to the steadier energy and better overall health many people notice by this stage.",
   "alcoholReferenceDay90": "Thinking and Memory After Three Months Sober\n\nSource: Systematic review of neuropsychological recovery following abstinence from alcohol (PubMed Central, 2024) — peer-reviewed\n\nWhat the Evidence Shows\nThis review combined studies that tracked how thinking and memory recover after people stop drinking. Most skills move toward normal within roughly six to twelve months, and some improve earlier.\n\nWhat Improves First\nTwo specific abilities stand out as recovering earlier than the rest: basic processing speed (the review found this typically recovers by about one month, though accuracy on more complex tasks lags behind) and working memory updating. By around the three-month mark, many people already notice these lifting.\n\nWhat Takes Longer\nAttention, planning, decision-making, impulse control, perception, and memory keep improving across the six-to-twelve-month recovery window.\n\nWhat Influences Recovery\nThe review notes recovery is shaped by factors such as age, smoking status and premorbid ability — but, encouragingly, not consistently by the total amount previously drunk. Recovery is the expected trajectory.\n\nWhy It Matters\nClearer thinking is practical recovery: better attention and decision-making help people stay in treatment and avoid relapse.",
   "alcoholReferenceDay180": "Brain Recovery at Six Months of Sobriety\n\nSource: Peer-reviewed review of structural and functional brain recovery during abstinence from substance use (PubMed Central)\n\nRecovery Keeps Going\nThe early brain-volume rebound of the first weeks is only the beginning. This review documents that with sustained abstinence the brain continues to recover structurally and functionally — grey matter recovers and damaged white-matter pathways that coordinate communication between brain regions repair over months.\n\nThe Front of the Brain\nRecovery is especially important in the front of the brain, which handles judgment, planning, and self-control. As it heals, decision-making and impulse control strengthen.\n\nBrain Rewiring and Function\nAlongside physical repair, brain function and connections recover too. The brain can rewire and relearn, which makes sustained abstinence a powerful time for therapy and new habits.\n\nRecovery Signal\nBy six months, brain structure and function are clearly moving toward a healthier normal. Staying abstinent gives that recovery more time to build.",
-  "alcoholReferenceDay365": "Alcohol, Cancer Risk, and Stopping\n\nSource: National Cancer Institute (NCI), \"Alcohol and Cancer Risk\"\n\nAlcohol Causes Cancer\nThe NCI states there is a strong scientific consensus that drinking alcohol can cause cancer. Alcohol is linked to cancers of the mouth (oral cavity), pharynx (throat), larynx (voice box), oesophagus, liver, breast, and colon and rectum. The more a person drinks — and the longer they drink — the higher the risk.\n\nHow Alcohol Drives Cancer\nMechanisms include acetaldehyde, a toxic breakdown product of alcohol that damages DNA; oxidative stress and inflammation; impaired absorption of protective nutrients; and, for breast cancer, raised oestrogen levels.\n\nRisk Falls After You Stop\nImportantly, the NCI reports that quitting drinking is associated with lower risk over time — studies show the elevated risk of cancers of the oral cavity and oesophagus declines after stopping, though it can take years to approach the risk of someone who never drank. One year alcohol-free is a meaningful step on that path.\n\nCompounding Benefits\nReaching a year also locks in the cardiovascular and liver gains of abstinence — lower blood pressure, reduced arrhythmia risk, and continued liver healing — alongside the falling cancer risk.",
+  "alcoholReferenceDay365": "Alcohol and Cancer\n\nAlcohol is classified as a human carcinogen. It causes DNA damage through acetaldehyde, increases oxidative stress and inflammation, and alters hormone levels.\n\nThe International Agency for Research on Cancer reviewed the evidence and established that reducing or stopping alcohol lowers the risk of oral and oesophageal cancers.\n\nStopping drinking eliminates continued exposure to alcohol's cancer-causing effects. Cancer risk declines over the years following cessation.",
   "benzodiazepineReferenceDay7": "Benzodiazepine Withdrawal: The First Week\n\nSource: \"Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings,\" World Health Organization (2009), on the NCBI Bookshelf\n\nSafety First\nBenzodiazepine withdrawal can cause seizures. WHO guidance says the safest management is benzodiazepines in gradually decreasing amounts, which relieves withdrawal symptoms and helps prevent seizures. After prolonged use, do not stop abruptly — work with a clinician on a taper.\n\nWhen Withdrawal Begins\nThe WHO timeline depends on the drug's duration of action:\n• Short-acting (oxazepam, alprazolam, temazepam): withdrawal typically begins 1–2 days after the last dose and continues for 2–4 weeks or longer\n• Long-acting (diazepam, nitrazepam): withdrawal typically begins 2–7 days after the last dose and continues for 2–8 weeks or longer\nThe first week spans the typical onset window even for long-acting benzodiazepines.\n\nWhat Symptoms Can Look Like\nWHO lists anxiety, insomnia, restlessness, agitation or irritability, poor concentration or memory, and muscle tension or aches.\n\nMonitoring\nWithdrawal severity can fluctuate markedly. WHO recommends regular monitoring for symptoms and complications; in its closed-setting protocol, healthcare workers speak with patients every 3–4 hours and provide reassurance and explanation as needed.",
   "benzodiazepineReferenceDay14": "Benzodiazepine Withdrawal: Two Weeks\n\nSource: Poyares et al., \"Chronic benzodiazepine usage and withdrawal in insomnia patients,\" Journal of Psychiatric Research (2004), on PubMed\n\nA Real Two-Week Sleep Recovery Signal\nResearchers followed people with persistent insomnia who had taken benzodiazepines nightly for years and measured sleep again 15 days after gradual withdrawal. Slow-wave sleep, sleep EEG delta activity, and subjective sleep quality all improved compared with measurements during chronic benzodiazepine use.\n\nDeep Sleep Is Coming Back\nSlow-wave sleep is the deepest stage of non-REM sleep. By day 15, slow-wave sleep and delta activity were higher, while stage 2 non-REM sleep had fallen toward the pattern seen in healthy controls.\n\nEarly Recovery, Measured\nSleep worsened immediately after withdrawal for the participants who completed it, then objective deep-sleep measures and reported sleep quality improved by the 15-day follow-up. That makes the two-week mark a genuine, measured recovery milestone.",
   "benzodiazepineReferenceDay60": "Benzodiazepines: Daytime Function at Eight Weeks\n\nSource: Tsunoda et al., \"Effects of discontinuing benzodiazepine-derivative hypnotics on postural sway and cognitive functions in the elderly,\" International Journal of Geriatric Psychiatry (2010), on PubMed\n\nA Measured Eight-Week Recovery Signal\nResearchers followed adults aged 60 and older living in a nursing home who used benzodiazepine hypnotics. Their dose was tapered off over three weeks, with cognitive and balance testing repeated at the eight-week endpoint.\n\nFocus and Memory Moved Up\nAmong 26 completers, immediate memory, attention, and language index scores improved significantly. These are concrete daytime-function gains measured after benzodiazepine discontinuation.\n\nSteadier on Your Feet\nMeasures of postural sway with eyes closed improved significantly too. The authors concluded that discontinuing benzodiazepine hypnotics was associated with better body stability and recovery of daytime cognitive function in this older group.\n\nSleep Held Steady\nCompleters did not report subjective worsening of sleep on the study's sleep questionnaire. At the eight-week endpoint, the study captured measurable daytime gains without a reported sleep-quality penalty.",
@@ -2693,18 +2693,18 @@
   "adderallMilestone1825Title": "Five Years: A Huge Win",
   "adderallMilestone1825Description": "Five years is worth celebrating. You’ve maintained a different direction for 1,825 days and built years of evidence that change can last.",
   "adderallReferenceDay1825": "Five Years Off Adderall: Half a Decade of Progress\n\nSource: SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSA recognizes long-term recovery as an important goal of stimulant-use-disorder care. Its evidence guide does not promise a special biological event at five years, and this milestone does not need one to matter.\n\nFive years is 1,825 days of maintaining a different direction. That is a substantial body of lived evidence that your change can endure. Celebrate it, then keep doing the things that made it possible.",
-  "alcoholMilestone730Title": "Two Years: Sustained Progress",
-  "alcoholMilestone730Description": "Two years alcohol-free falls within the one-to-five-year sustained time window NIAAA uses in recovery research. That is a major achievement worth protecting.",
-  "alcoholReferenceDay730": "Two Years Alcohol-Free: Sustained Progress\n\nSource: NIAAA, Recovery Research Definitions\n\nNIAAA uses one to five years as the sustained duration category for remission from alcohol use disorder and cessation from heavy drinking maintained over time. An alcohol-free streak goes beyond the drinking threshold, but abstinence alone does not establish every clinical remission criterion.\n\nTwo years is 730 days of maintained change. Celebrate the consistency and keep protecting the routines, relationships, and support that help it last.",
-  "alcoholMilestone1095Title": "Three Years: Stronger Ground",
-  "alcoholMilestone1095Description": "Three years alcohol-free is long-term change carried through 1,095 days. NIAAA places this duration within its sustained recovery-research window.",
-  "alcoholReferenceDay1095": "Three Years Alcohol-Free: Stronger Ground\n\nSource: NIAAA, Recovery Research Definitions\n\nNIAAA uses one to five years as the sustained duration category for remission from alcohol use disorder and cessation from heavy drinking maintained over time. It does not claim a special biological reset at year three.\n\nThree years is 1,095 days of reinforcing a different pattern. That consistency matters in its own right, and the supports that got you here are worth protecting.",
-  "alcoholMilestone1460Title": "Four Years: Lasting Change",
-  "alcoholMilestone1460Description": "Four years alcohol-free shows change maintained on a genuinely long timescale. The milestone is the durability itself, not an invented medical deadline.",
-  "alcoholReferenceDay1460": "Four Years Alcohol-Free: Lasting Change\n\nSource: NIAAA, Recovery Research Definitions\n\nFour years remains inside NIAAA's one-to-five-year sustained duration window used in recovery research. The framework is about maintained remission and cessation from heavy drinking, not a claim that every person's body or brain reaches the same finish line on the same date.\n\nFour years alcohol-free shows change carried through ordinary days, stress, seasons, and milestones. The achievement is the durability itself.",
-  "alcoholMilestone1825Title": "Five Years: A Major Milestone",
-  "alcoholMilestone1825Description": "Five years alcohol-free reaches the far edge of NIAAA's one-to-five-year sustained window. Its stable duration category begins only after more than five years.",
-  "alcoholReferenceDay1825": "Five Years Alcohol-Free: A Major Milestone\n\nSource: NIAAA, Recovery Research Definitions\n\nNIAAA calls one to five years the sustained duration category and reserves stable for more than five years. Exactly five years therefore sits at the far edge of the sustained window. The framework also includes remission from AUD symptoms, so abstinence alone should not be treated as a clinical diagnosis.\n\nFive years alcohol-free is 1,825 days of maintained change. Half a decade deserves real credit without inventing a medical finish line the evidence does not support.",
+  "alcoholMilestone730Title": "Two Years Alcohol-Free",
+  "alcoholMilestone730Description": "Two years without alcohol. You've maintained a significant change through two complete years of everyday life. Your health is no longer subjected to repeated alcohol exposure, and the benefits of abstinence continue to accumulate.",
+  "alcoholReferenceDay730": "Sustained Change\n\nTwo years alcohol-free represents sustained behavioural change. The benefits extend beyond removing alcohol itself: daily routines, relationships, physical health and psychological well-being are all important parts of long-term recovery.",
+  "alcoholMilestone1095Title": "Three Years Alcohol-Free",
+  "alcoholMilestone1095Description": "Three full years without alcohol. You've established a different way of living and maintained it through another entire year. Three years of consistency is a serious achievement.",
+  "alcoholReferenceDay1095": "A Different Normal\n\nThree years of abstinence demonstrates consistency across a substantial period of life. Alcohol is no longer part of your daily routine, and the habits supporting that change have been reinforced over thousands of decisions.",
+  "alcoholMilestone1460Title": "Four Years Alcohol-Free",
+  "alcoholMilestone1460Description": "Four years without a drink. That's four years of removing alcohol-related harm from your life and reinforcing the habits that keep you moving forward. A remarkable amount of progress.",
+  "alcoholReferenceDay1460": "Long-Term Progress\n\nFour years without alcohol represents a major period without repeated alcohol-related exposure. Long-term recovery is built through consistent behaviour, supported by healthier routines and meaningful improvements in everyday life.",
+  "alcoholMilestone1825Title": "Half a Decade Alcohol-Free",
+  "alcoholMilestone1825Description": "Five years. Half a decade without alcohol. You've eliminated five years of drinking-related exposure and maintained a major lifestyle change across thousands of days. That's an extraordinary milestone worth celebrating.",
+  "alcoholReferenceDay1825": "Five Years of Freedom\n\nHalf a decade without drinking is a significant achievement in its own right. Five years of sustained abstinence means five years without alcohol continuing to damage your health. It is a milestone worth recognising and celebrating.",
   "ghbMilestone730Title": "Two Years: Durable Progress",
   "ghbMilestone730Description": "Two years without GHB is 730 days of sustained change. SAMHSA describes recovery as an ongoing, individual process, so this milestone celebrates consistency rather than a universal medical finish line.",
   "ghbReferenceDay730": "Two Years Without GHB: Durable Progress\n\nSource: SAMHSA, Recovery and Recovery Support\n\nSAMHSA describes recovery as an ongoing, individual process of change. It does not set a GHB-specific biological endpoint at any of these anniversaries.\n\nTwo years is 730 days of maintaining a different direction. Celebrate the durability and keep the people, routines, and support that make it sustainable.",
