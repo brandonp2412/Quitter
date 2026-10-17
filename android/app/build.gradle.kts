@@ -7,7 +7,7 @@ plugins {
 }
 android {
     namespace = "com.quitter.app"
-    compileSdk = flutter.compileSdkVersion
+    compileSdk = 37
     ndkVersion = flutter.ndkVersion
     
     compileOptions {

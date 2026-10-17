@@ -19,14 +19,14 @@ pluginManagement {
 
 plugins {
     id("dev.flutter.flutter-plugin-loader") version "1.0.0"
-    id("com.android.application") version "9.0.1" apply false
+    id("com.android.application") version "9.4.1" apply false
 }
 
 gradle.beforeProject {
     buildscript.configurations.configureEach {
         resolutionStrategy.eachDependency {
             if (requested.group == "com.android.tools.build" && requested.name == "gradle") {
-                useVersion("9.0.1")
+                useVersion("9.4.1")
                 because("Use the host app's AGP for all Flutter plugin subprojects")
             }
         }

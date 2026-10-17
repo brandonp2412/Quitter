@@ -134,7 +134,7 @@ class _SettingsPageState extends State<SettingsPage> {
     if (path == null) return;
 
     if (defaultTargetPlatform == TargetPlatform.linux) {
-      final file = File(path);
+      final file = File(path.toFilePath());
       await file.writeAsString(json);
     }
 
@@ -163,14 +163,14 @@ class _SettingsPageState extends State<SettingsPage> {
 
   Future<void> _importData(BuildContext context) async {
     final l10n = AppLocalizations.of(context)!;
-    FilePickerResult? result = await FilePicker.pickFiles(
+    final result = await FilePicker.pickFiles(
       type: FileType.custom,
       allowedExtensions: ['json'],
     );
-    if (result == null || result.files.isEmpty) return;
+    if (result.isEmpty) return;
 
     try {
-      final pickResult = result.files.first;
+      final pickResult = result.first;
       final bytes = await pickResult.readAsBytes();
       final contents = utf8.decode(bytes);
 
