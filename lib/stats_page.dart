@@ -6,6 +6,7 @@ import 'package:quitter/addiction_provider.dart';
 import 'package:quitter/empty_state.dart';
 import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:quitter/utils.dart';
+import 'package:quitter/vaping_icon.dart';
 
 class StatsPage extends StatelessWidget {
   const StatsPage({super.key});
@@ -160,6 +161,7 @@ class StatsPage extends StatelessWidget {
         _StatEntry(
           name: name,
           icon: icon,
+          useVapingIcon: key == 'vaping' && addictions.customIcons[key] == null,
           color: color,
           days: days,
           costPerDay: costPerDay,
@@ -396,6 +398,7 @@ class StatsPage extends StatelessWidget {
 class _StatEntry {
   final String name;
   final IconData icon;
+  final bool useVapingIcon;
   final Color color;
   final int days;
   final double? costPerDay;
@@ -406,6 +409,7 @@ class _StatEntry {
   const _StatEntry({
     required this.name,
     required this.icon,
+    this.useVapingIcon = false,
     required this.color,
     required this.days,
     this.costPerDay,
@@ -814,7 +818,9 @@ class _StreakBar extends StatelessWidget {
       children: [
         Row(
           children: [
-            Icon(entry.icon, size: 14, color: entry.color),
+            entry.useVapingIcon
+                ? VapingIcon(size: 14, color: entry.color)
+                : Icon(entry.icon, size: 14, color: entry.color),
             const SizedBox(width: 6),
             Expanded(
               child: Text(

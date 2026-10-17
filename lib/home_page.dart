@@ -47,6 +47,7 @@ class _CardData {
     required this.key,
     required this.title,
     required this.icon,
+    this.useVapingIcon = false,
     required this.gradientColors,
     this.quitDate,
     required this.onTap,
@@ -57,6 +58,7 @@ class _CardData {
   final String key;
   final String title;
   final IconData icon;
+  final bool useVapingIcon;
   final List<Color> gradientColors;
   final String? quitDate;
   final VoidCallback onTap;
@@ -257,6 +259,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
           key: key,
           title: title,
           icon: effectiveIcon,
+          useVapingIcon: key == 'vaping' && addictions.customIcons[key] == null,
           gradientColors: gradientColors,
           quitDate: quitDate,
           onTap: () async {
@@ -718,6 +721,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                                 title: data.title,
                                 heroTag: data.key,
                                 icon: data.icon,
+                                useVapingIcon: data.useVapingIcon,
                                 gradientColors: data.gradientColors,
                                 quitDate: data.quitDate,
                                 onTap: _isEditMode

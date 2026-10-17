@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:quitter/utils.dart';
+import 'package:quitter/vaping_icon.dart';
 
 class QuitCard extends StatelessWidget {
   const QuitCard({
@@ -10,6 +11,7 @@ class QuitCard extends StatelessWidget {
     required this.title,
     required this.heroTag,
     required this.icon,
+    this.useVapingIcon = false,
     required this.gradientColors,
     required this.quitDate,
     required this.onTap,
@@ -21,6 +23,7 @@ class QuitCard extends StatelessWidget {
   final String title;
   final Object heroTag;
   final IconData icon;
+  final bool useVapingIcon;
   final List<Color> gradientColors;
   final String? quitDate;
   final VoidCallback onTap;
@@ -79,11 +82,13 @@ class QuitCard extends StatelessWidget {
                       ),
                       borderRadius: BorderRadius.circular(12),
                     ),
-                    child: Icon(
-                      icon,
-                      color: getContrastingColor(gradientColors.last),
-                      size: 24,
-                    ),
+                    child: useVapingIcon
+                        ? const VapingIcon()
+                        : Icon(
+                            icon,
+                            color: getContrastingColor(gradientColors.last),
+                            size: 24,
+                          ),
                   ),
                   const SizedBox(height: 16),
                   FittedBox(
