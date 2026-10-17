@@ -22,7 +22,6 @@ A free and open-source quit tracker built around local data, useful milestones, 
 
 <sub>No tracking · Local data · Multiple journeys · Fully customisable</sub>
 
-</div>
 
 ## See your progress, not a dashboard full of noise
 
@@ -46,6 +45,8 @@ A free and open-source quit tracker built around local data, useful milestones, 
   <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/6_en-US.png" width="360" alt="Marijuana quitting journey at day fourteen">
 </p>
 </details>
+
+</div>
 
 ## Built for the journey
 
