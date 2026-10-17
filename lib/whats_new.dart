@@ -209,10 +209,8 @@ class _WhatsNewState extends State<WhatsNew> {
       ),
       floatingActionButton: FloatingActionButton.extended(
         icon: const Icon(Icons.favorite_outline),
-        onPressed: () async {
-          const url = 'https://github.com/sponsors/brandonp2412';
-          if (await canLaunchUrlString(url)) await launchUrlString(url);
-        },
+        onPressed: () =>
+            launchUrlString('https://github.com/sponsors/brandonp2412'),
         label: Text(l10n.aboutDonate),
       ),
     );
