@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:quitter/preset_icons.dart';
 import 'package:quitter/add_addiction_page.dart';
 import 'package:quitter/adderall_page.dart';
 import 'package:quitter/benzodiazepine_page.dart';
@@ -330,7 +331,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
     addPreset(
       'nitrous_oxide',
       l10n.addictionNitrousOxide,
-      Icons.air_outlined,
+      PresetIcons.balloon,
       [const Color(0xFF38BDF8), const Color(0xFF7DD3FC)],
       addictions.quitNitrousOxide,
       (context) => const NitrousOxidePage(started: true),
@@ -338,7 +339,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
     addPreset(
       'kratom',
       l10n.addictionKratom,
-      Icons.local_florist,
+      PresetIcons.leaf,
       [const Color(0xFF6D9F4E), const Color(0xFF3F6B2E)],
       addictions.quitKratom,
       (context) => const KratomPage(started: true),
@@ -354,7 +355,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
     addPreset(
       'ghb',
       l10n.addictionGhb,
-      Icons.water_drop,
+      PresetIcons.bottle,
       [const Color(0xFF60A5FA), const Color(0xFF1E3A8A)],
       addictions.quitGhb,
       (context) => const GhbPage(started: true),
@@ -370,7 +371,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
     addPreset(
       'inhalants',
       l10n.addictionInhalants,
-      Icons.local_gas_station,
+      PresetIcons.spray,
       [const Color(0xFF9CA3AF), const Color(0xFF4B5563)],
       addictions.quitInhalants,
       (context) => const InhalantsPage(started: true),
@@ -378,7 +379,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
     addPreset(
       'synthetic_cannabinoids',
       l10n.addictionSyntheticCannabinoids,
-      Icons.whatshot,
+      PresetIcons.flask,
       [const Color(0xFFA3E635), const Color(0xFF4D7C0F)],
       addictions.quitSyntheticCannabinoids,
       (context) => const SyntheticCannabinoidsPage(started: true),
@@ -426,7 +427,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
     addPreset(
       'marijuana',
       l10n.addictionMarijuana,
-      Icons.grass,
+      PresetIcons.cannabis,
       [
         const Color.fromARGB(255, 132, 230, 128),
         const Color.fromARGB(255, 30, 87, 3),
@@ -437,7 +438,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
     addPreset(
       'meth',
       l10n.addictionMeth,
-      Icons.battery_charging_full,
+      PresetIcons.flask,
       [const Color(0xFF14B8A6), const Color(0xFF0D9488)],
       addictions.quitMeth,
       (context) => const MethPage(started: true),
@@ -445,7 +446,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
     addPreset(
       'nicotine_pouches',
       l10n.addictionNicotinePouches,
-      Icons.scatter_plot,
+      PresetIcons.package,
       [const Color(0xFFF59E0B), const Color(0xFFEF4444)],
       addictions.quitPouches,
       (context) => const NicotinePouchesPage(started: true),
@@ -485,7 +486,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
     addPreset(
       'smoking',
       l10n.addictionSmoking,
-      Icons.eco,
+      PresetIcons.smoking,
       [const Color(0xFF10B981), const Color(0xFF059669)],
       addictions.quitSmoking,
       (context) => const SmokingPage(started: true),
@@ -493,7 +494,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
     addPreset(
       'smokeless_tobacco',
       l10n.addictionSmokelessTobacco,
-      Icons.grass,
+      PresetIcons.package,
       [const Color(0xFF78350F), const Color(0xFF451A03)],
       addictions.quitSmokelessTobacco,
       (context) => const SmokelessTobaccoPage(started: true),
@@ -501,7 +502,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
     addPreset(
       'social_media',
       l10n.addictionSocialMedia,
-      Icons.public,
+      PresetIcons.social,
       [const Color(0xFF8B5CF6), const Color(0xFF7C3AED)],
       addictions.quitSocialMedia,
       (context) => const SocialMediaPage(started: true),

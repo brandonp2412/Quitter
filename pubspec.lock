@@ -372,6 +372,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "6.1.0"
+  lucide_icons_flutter:
+    dependency: "direct main"
+    description:
+      name: lucide_icons_flutter
+      sha256: d350446fb7a7ab3ef8550e3cb5aab72f4e9da54d54111244ab09489bb8a2a1ff
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.1.25"
   matcher:
     dependency: transitive
     description:
@@ -737,6 +745,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.3.1"
+  tabler_icons_plus:
+    dependency: "direct main"
+    description:
+      name: tabler_icons_plus
+      sha256: "81cc5af10223d905c0d43f0d88ed31401083a2b9152d6e8ae75e273f0b1e7de1"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.46.0"
   talker:
     dependency: transitive
     description:

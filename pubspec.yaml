@@ -28,6 +28,8 @@ dependencies:
   home_widget: ^0.9.3
   crypto: ^3.0.6
   reorderable_grid_view: ^2.2.8
+  tabler_icons_plus: 3.46.0
+  lucide_icons_flutter: 3.1.25
 dev_dependencies:
   flutter_test:
     sdk: flutter
