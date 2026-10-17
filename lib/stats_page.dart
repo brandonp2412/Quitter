@@ -819,7 +819,7 @@ class _StreakBar extends StatelessWidget {
         Row(
           children: [
             entry.useVapingIcon
-                ? VapingIcon(size: 14, color: entry.color)
+                ? VapingIcon(size: 18, color: entry.color)
                 : Icon(entry.icon, size: 14, color: entry.color),
             const SizedBox(width: 6),
             Expanded(

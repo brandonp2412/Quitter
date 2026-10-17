@@ -73,7 +73,7 @@ class QuitCard extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Container(
-                    padding: const EdgeInsets.all(12),
+                    padding: EdgeInsets.all(useVapingIcon ? 8 : 12),
                     decoration: BoxDecoration(
                       gradient: LinearGradient(
                         colors: gradientColors,
