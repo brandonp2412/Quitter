@@ -81,4 +81,4 @@ flutter run
 
 Quitter is available under the [MIT License](LICENSE.md).
 
-Vaping icon: [Google Material Symbols Light — vaping-rooms](https://icon-sets.iconify.design/material-symbols-light/vaping-rooms/), licensed under [Apache 2.0](assets/LICENSE-material-symbols.txt). The SVG's dimensions and fill were adapted for Flutter; the icon path is unchanged.
+Vaping icon: adapted from [Electronic Cigarette — SVG Repo](https://www.svgrepo.com/svg/138430/electronic-cigarette) (CC0).

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-/// Google Material Symbols Light `vaping-rooms` (Apache-2.0).
+/// Adapted from SVG Repo electronic-cigarette (CC0).
 class VapingIcon extends StatelessWidget {
   const VapingIcon({super.key, this.size = 32, this.color = Colors.white});
 
