@@ -38,6 +38,7 @@ import 'package:quitter/smoking_page.dart';
 import 'package:quitter/social_media_page.dart';
 import 'package:quitter/smokeless_tobacco_page.dart';
 import 'package:quitter/utils.dart';
+import 'package:quitter/update_notice.dart';
 import 'package:quitter/vaping_page.dart';
 import 'package:quitter/whats_new.dart';
 import 'package:reorderable_grid_view/reorderable_grid_view.dart';
@@ -116,7 +117,8 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
     await prefs.setInt('last_build_number', currentVersion);
     if (lastVersion == 0) return;
 
-    if (currentVersion > lastVersion && mounted) {
+    if (currentVersion > lastVersion && mounted && await claimUpdateNotice()) {
+      if (!mounted) return;
       final l10n = AppLocalizations.of(context)!;
       toast(
         l10n.newVersionToast(info.version),
