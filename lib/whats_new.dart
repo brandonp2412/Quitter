@@ -207,11 +207,22 @@ class _WhatsNewState extends State<WhatsNew> {
             ),
         ],
       ),
-      floatingActionButton: FloatingActionButton.extended(
-        icon: const Icon(Icons.favorite_outline),
-        onPressed: () =>
-            launchUrlString('https://github.com/sponsors/brandonp2412'),
-        label: Text(l10n.aboutDonate),
+      bottomNavigationBar: SafeArea(
+        top: false,
+        child: Padding(
+          padding: const EdgeInsets.fromLTRB(16, 8, 16, 16),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.end,
+            children: [
+              FloatingActionButton.extended(
+                icon: const Icon(Icons.favorite_outline),
+                onPressed: () =>
+                    launchUrlString('https://github.com/sponsors/brandonp2412'),
+                label: Text(l10n.aboutDonate),
+              ),
+            ],
+          ),
+        ),
       ),
     );
   }
