@@ -1,0 +1,3 @@
+• Ahora puedes tocar cualquier parte de las tarjetas de hitos
+• Añadidos árabe, indonesio y portugués de Brasil y Portugal
+• Mejoras en la compilación de Android y la gestión de dependencias

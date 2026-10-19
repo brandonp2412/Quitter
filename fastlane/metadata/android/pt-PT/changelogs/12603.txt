@@ -1,0 +1,3 @@
+• Os cartões de marcos podem agora ser tocados em toda a sua área
+• Adicionados árabe, indonésio e português do Brasil e de Portugal
+• Melhorias na compilação Android e gestão de dependências

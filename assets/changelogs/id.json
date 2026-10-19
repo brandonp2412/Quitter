@@ -156,5 +156,6 @@
   "1790334106": "• feat(l10n): Tambahkan German translations\n• Perbaiki(l10n): Tambahkan German store tangkapan layar\n• Perbaiki(l10n): label German di bahasa picker\n• Perbaiki(l10n): regenerate German localization bindings",
   "1790355309": "• Perbaiki(l10n): localize 1.1.77 rilis notes",
   "1790386593": "• Perbaiki(l10n): localize 1.1.78 rilis notes",
-  "1790406219": "• Selesaikan cakupan catatan perubahan versi 1.1.79\n• Terjemahkan catatan rilis versi 1.1.79"
+  "1790406219": "• Selesaikan cakupan catatan perubahan versi 1.1.79\n• Terjemahkan catatan rilis versi 1.1.79",
+  "1792007720": "• Seluruh area kartu pencapaian kini dapat diketuk\n• Menambahkan bahasa Arab, Indonesia, Portugis Brasil, dan Portugis Portugal\n• Peningkatan proses build Android dan pengelolaan dependensi"
 }

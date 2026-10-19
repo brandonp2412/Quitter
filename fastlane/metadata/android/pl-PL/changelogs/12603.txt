@@ -1,0 +1,3 @@
+• Karty kamieni milowych można teraz naciskać na całej powierzchni
+• Dodano arabski, indonezyjski oraz portugalski brazylijski i europejski
+• Usprawniono kompilację Androida i zarządzanie zależnościami
