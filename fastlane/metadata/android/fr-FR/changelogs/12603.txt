@@ -1,0 +1,3 @@
+• Les cartes des étapes sont désormais entièrement cliquables
+• Ajout de l’arabe, de l’indonésien et du portugais du Brésil et du Portugal
+• Amélioration de la compilation Android et des dépendances

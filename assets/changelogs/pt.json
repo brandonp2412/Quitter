@@ -156,5 +156,6 @@
   "1790334106": "• adicionar traduções em alemão\n• correção (l10n): adicionar capturas de ecrã da loja alemã\n• rótulo alemão no seletor de idioma\n• regenera ligações de localização em alemão",
   "1790355309": "• correção(l10n): localizar notas de versão 1.1.77",
   "1790386593": "• correção(l10n): localizar notas de versão 1.1.78",
-  "1790406219": "• correção (l10n): cobertura completa do changelog 1.1.79\n• correção (l10n): localizar notas de versão 1.1.79"
+  "1790406219": "• correção (l10n): cobertura completa do changelog 1.1.79\n• correção (l10n): localizar notas de versão 1.1.79",
+  "1792007720": "• Os cartões de marcos podem agora ser tocados em toda a sua área\n• Adicionados árabe, indonésio e português do Brasil e de Portugal\n• Melhorias na compilação Android e gestão de dependências"
 }

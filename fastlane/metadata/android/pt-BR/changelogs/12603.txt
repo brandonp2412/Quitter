@@ -1,0 +1,3 @@
+• Agora é possível tocar em toda a área dos cartões de conquistas
+• Adicionados árabe, indonésio e português do Brasil e de Portugal
+• Melhorias na compilação para Android e na gestão de dependências

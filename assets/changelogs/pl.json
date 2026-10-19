@@ -156,5 +156,6 @@
   "1790334106": "• Support: dodaj tłumaczenia niemieckie\n• fixatill10ncontinues: dodać niemieckie screenshots sklepu\n• fixatill10ncontinues: etykieta niemiecka w języku picker\n• fixatill10nsions: regenerować niemieckie wiązania lokalizacyjne",
   "1790355309": "• fixatill10nsions: zlokalizować 1.1.77 notatek do wydania",
   "1790386593": "• fixatill10nsions: zlokalizować 1.1.78 notatek do wydania",
-  "1790406219": "• fixatill10nsions: kompletny zakres 1.1.79 changelog\n• fixatill10nsions: lokalizować 1.1.79 wydania notatki"
+  "1790406219": "• fixatill10nsions: kompletny zakres 1.1.79 changelog\n• fixatill10nsions: lokalizować 1.1.79 wydania notatki",
+  "1792007720": "• Karty kamieni milowych można teraz naciskać na całej powierzchni\n• Dodano arabski, indonezyjski oraz portugalski brazylijski i europejski\n• Usprawniono kompilację Androida i zarządzanie zależnościami"
 }

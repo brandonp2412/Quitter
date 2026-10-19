@@ -1,0 +1,3 @@
+• Seluruh area kartu pencapaian kini dapat diketuk
+• Menambahkan bahasa Arab, Indonesia, Portugis Brasil, dan Portugis Portugal
+• Peningkatan proses build Android dan pengelolaan dependensi
