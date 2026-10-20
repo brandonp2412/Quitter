@@ -720,7 +720,6 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                             return SizedBox(
                               key: ValueKey(data.key),
                               child: QuitCard(
-                                context: context,
                                 title: data.title,
                                 heroTag: data.key,
                                 icon: data.icon,

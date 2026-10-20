@@ -21,8 +21,7 @@ class QuitTrackerWidget : AppWidgetProvider() {
         private val updateExecutor = Executors.newFixedThreadPool(2)
 
 
-        private fun daysCeil(isoDateString: String?): Int {
-            if (isoDateString == null) return 0
+        private fun daysCeil(isoDateString: String): Int {
             val quitDate =
                     if (isoDateString.contains('T')) {
                         LocalDateTime.parse(isoDateString).toLocalDate()
