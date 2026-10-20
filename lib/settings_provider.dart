@@ -116,25 +116,9 @@ class SettingsProvider extends ChangeNotifier {
   int get notifyEvery => _notifyEvery;
   int get notifyAt => _notifyAt;
 
-  bool get showAlcohol => _showSettings['alcohol']!;
   bool get showReset => _showSettings['reset']!;
   bool get showJournal => _showSettings['journal']!;
   bool get swipeTabs => _showSettings['swipeTabs']!;
-  bool get showVaping => _showSettings['vaping']!;
-  bool get showSmoking => _showSettings['smoking']!;
-  bool get showNicotinePouches => _showSettings['nicotinePouches']!;
-  bool get showMarijuana => _showSettings['marijuana']!;
-  bool get showOpioids => _showSettings['opioids']!;
-  bool get showSocialMedia => _showSettings['socialMedia']!;
-  bool get showPornography => _showSettings['pornography']!;
-  bool get showCocaine => _showSettings['cocaine']!;
-  bool get showMeth => _showSettings['meth']!;
-  bool get showBenzos => _showSettings['benzos']!;
-  bool get showAdderall => _showSettings['adderall']!;
-  bool get showSsri => _showSettings['ssri']!;
-  bool get showSnri => _showSettings['snri']!;
-  bool get showTca => _showSettings['tca']!;
-  bool get showMaoi => _showSettings['maoi']!;
 
   bool get notifyAlcohol => _notifySettings['alcohol']!;
   bool get notifyVaping => _notifySettings['vaping']!;
@@ -398,44 +382,12 @@ class SettingsProvider extends ChangeNotifier {
     );
   }
 
-  set showAlcohol(bool show) =>
-      _updateBoolSetting(_showSettings, _showKeys, 'alcohol', show);
   set swipeTabs(bool show) =>
       _updateBoolSetting(_showSettings, _showKeys, 'swipeTabs', show);
   set showReset(bool show) =>
       _updateBoolSetting(_showSettings, _showKeys, 'reset', show);
   set showJournal(bool show) =>
       _updateBoolSetting(_showSettings, _showKeys, 'journal', show);
-  set showVaping(bool show) =>
-      _updateBoolSetting(_showSettings, _showKeys, 'vaping', show);
-  set showSmoking(bool show) =>
-      _updateBoolSetting(_showSettings, _showKeys, 'smoking', show);
-  set showNicotinePouches(bool show) =>
-      _updateBoolSetting(_showSettings, _showKeys, 'nicotinePouches', show);
-  set showMarijuana(bool show) =>
-      _updateBoolSetting(_showSettings, _showKeys, 'marijuana', show);
-  set showOpioids(bool show) =>
-      _updateBoolSetting(_showSettings, _showKeys, 'opioids', show);
-  set showSocialMedia(bool show) =>
-      _updateBoolSetting(_showSettings, _showKeys, 'socialMedia', show);
-  set showMeth(bool show) =>
-      _updateBoolSetting(_showSettings, _showKeys, 'meth', show);
-  set showAdderall(bool show) =>
-      _updateBoolSetting(_showSettings, _showKeys, 'adderall', show);
-  set showBenzos(bool show) =>
-      _updateBoolSetting(_showSettings, _showKeys, 'benzos', show);
-  set showCocaine(bool show) =>
-      _updateBoolSetting(_showSettings, _showKeys, 'cocaine', show);
-  set showSsri(bool show) =>
-      _updateBoolSetting(_showSettings, _showKeys, 'ssri', show);
-  set showSnri(bool show) =>
-      _updateBoolSetting(_showSettings, _showKeys, 'snri', show);
-  set showTca(bool show) =>
-      _updateBoolSetting(_showSettings, _showKeys, 'tca', show);
-  set showMaoi(bool show) =>
-      _updateBoolSetting(_showSettings, _showKeys, 'maoi', show);
-  set showPornography(bool show) =>
-      _updateBoolSetting(_showSettings, _showKeys, 'pornography', show);
 
   set notifyAlcohol(bool notify) =>
       _updateBoolSetting(_notifySettings, _notifyKeys, 'alcohol', notify);
