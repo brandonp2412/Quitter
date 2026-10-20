@@ -5,14 +5,8 @@ import 'package:flutter/material.dart';
 class ConfettiWidget extends StatefulWidget {
   final Widget child;
   final bool active;
-  final VoidCallback? onAnimationComplete;
 
-  const ConfettiWidget({
-    super.key,
-    required this.child,
-    this.active = false,
-    this.onAnimationComplete,
-  });
+  const ConfettiWidget({super.key, required this.child, this.active = false});
 
   @override
   State<ConfettiWidget> createState() => _ConfettiWidgetState();
@@ -45,7 +39,6 @@ class _ConfettiWidgetState extends State<ConfettiWidget>
         setState(() {
           confettiPieces.clear();
         });
-        widget.onAnimationComplete?.call();
       }
     });
   }
@@ -146,7 +139,7 @@ class ConfettiPiece {
     required this.velocityY,
     required this.rotation,
     required this.rotationSpeed,
-    this.gravity = 0.1,
+    required this.gravity,
   });
 
   void update() {
