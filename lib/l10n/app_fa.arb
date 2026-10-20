@@ -1,4 +1,6 @@
 {
+  "showUpdateNotices": "نمایش اعلان‌های به‌روزرسانی",
+  "@showUpdateNotices": {"description": "Whether to show update notices after upgrading the app."},
   "kratomPageTitle": "بهبودی از کراتوم",
   "kratomHeaderStarted": "مسیر بهبودی شما",
   "kratomHeaderNotStarted": "مزایای ترک کراتوم",

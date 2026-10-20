@@ -1,4 +1,6 @@
 {
+  "showUpdateNotices": "แสดงการแจ้งเตือนการอัปเดต",
+  "@showUpdateNotices": {"description": "Whether to show update notices after upgrading the app."},
   "kratomPageTitle": "การกู้คืนกระท่อม",
   "kratomHeaderStarted": "การเดินทางเพื่อการฟื้นฟูของคุณ",
   "kratomHeaderNotStarted": "ประโยชน์ของการเลิกกระท่อม",

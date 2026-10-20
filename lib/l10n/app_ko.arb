@@ -1,4 +1,6 @@
 {
+  "showUpdateNotices": "업데이트 알림 표시",
+  "@showUpdateNotices": {"description": "Whether to show update notices after upgrading the app."},
   "kratomPageTitle": "크라톰 복구",
   "kratomHeaderStarted": "귀하의 회복 여정",
   "kratomHeaderNotStarted": "Kratom 종료의 이점",

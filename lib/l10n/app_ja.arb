@@ -1,4 +1,6 @@
 {
+  "showUpdateNotices": "更新通知を表示",
+  "@showUpdateNotices": {"description": "Whether to show update notices after upgrading the app."},
   "kratomPageTitle": "クラトム回復",
   "kratomHeaderStarted": "あなたの回復の旅",
   "kratomHeaderNotStarted": "クラトムをやめるメリット",

@@ -1,4 +1,6 @@
 {
+  "showUpdateNotices": "显示更新通知",
+  "@showUpdateNotices": {"description": "Whether to show update notices after upgrading the app."},
   "kratomPageTitle": "卡痛叶戒断",
   "kratomHeaderStarted": "您的康复之旅",
   "kratomHeaderNotStarted": "戒除卡痛叶的好处",

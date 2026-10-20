@@ -1,4 +1,6 @@
 {
+  "showUpdateNotices": "Mostrar avisos de actualización",
+  "@showUpdateNotices": {"description": "Whether to show update notices after upgrading the app."},
   "kratomPageTitle": "Kratom",
   "kratomHeaderStarted": "Tu camino de recuperación",
   "kratomHeaderNotStarted": "Beneficios de dejar el kratom",

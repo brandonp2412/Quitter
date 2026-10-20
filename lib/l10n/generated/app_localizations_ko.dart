@@ -9,6 +9,9 @@ class AppLocalizationsKo extends AppLocalizations {
   AppLocalizationsKo([String locale = 'ko']) : super(locale);
 
   @override
+  String get showUpdateNotices => '업데이트 알림 표시';
+
+  @override
   String get kratomPageTitle => '크라톰 복구';
 
   @override

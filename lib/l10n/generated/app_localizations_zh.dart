@@ -9,6 +9,9 @@ class AppLocalizationsZh extends AppLocalizations {
   AppLocalizationsZh([String locale = 'zh']) : super(locale);
 
   @override
+  String get showUpdateNotices => '显示更新通知';
+
+  @override
   String get kratomPageTitle => '卡痛叶戒断';
 
   @override
@@ -4353,6 +4356,9 @@ class AppLocalizationsZh extends AppLocalizations {
 /// The translations for Chinese, using the Han script (`zh_Hant`).
 class AppLocalizationsZhHant extends AppLocalizationsZh {
   AppLocalizationsZhHant() : super('zh_Hant');
+
+  @override
+  String get showUpdateNotices => '顯示更新通知';
 
   @override
   String get kratomPageTitle => '卡痛葉戒斷';

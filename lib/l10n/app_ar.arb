@@ -1,4 +1,6 @@
 {
+  "showUpdateNotices": "إظهار إشعارات التحديث",
+  "@showUpdateNotices": {"description": "Whether to show update notices after upgrading the app."},
   "kratomPageTitle": "استعادة القرطوم",
   "kratomHeaderStarted": "رحلة التعافي الخاصة بك",
   "kratomHeaderNotStarted": "فوائد الإقلاع عن القرطوم",

@@ -126,6 +126,12 @@ abstract class AppLocalizations {
     Locale.fromSubtags(languageCode: 'zh', scriptCode: 'Hant'),
   ];
 
+  /// Whether to show update notices after upgrading the app.
+  ///
+  /// In en, this message translates to:
+  /// **'Show update notices'**
+  String get showUpdateNotices;
+
   /// No description provided for @kratomPageTitle.
   ///
   /// In en, this message translates to:

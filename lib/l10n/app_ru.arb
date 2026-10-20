@@ -1,4 +1,6 @@
 {
+  "showUpdateNotices": "Показывать уведомления об обновлениях",
+  "@showUpdateNotices": {"description": "Whether to show update notices after upgrading the app."},
   "kratomPageTitle": "Кратом",
   "kratomHeaderStarted": "Ваш путь восстановления",
   "kratomHeaderNotStarted": "Преимущества отказа от кратома",
