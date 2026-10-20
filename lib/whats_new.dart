@@ -157,6 +157,8 @@ class _WhatsNewState extends State<WhatsNew> {
 
   @override
   Widget build(BuildContext context) {
+    final nestedTabRoute =
+        Navigator.of(context) != Navigator.of(context, rootNavigator: true);
     final l10n = AppLocalizations.of(context)!;
 
     return Scaffold(
@@ -178,42 +180,61 @@ class _WhatsNewState extends State<WhatsNew> {
                     itemCount: changelogs.length,
                   ),
           ),
-          if (_changelogFiles.isNotEmpty)
-            Padding(
-              padding: const EdgeInsets.only(bottom: 8),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  IconButton(
-                    onPressed: _page > 0 ? () => _setPage(_page - 1) : null,
-                    icon: const Icon(Icons.chevron_left),
-                    tooltip: MaterialLocalizations.of(
-                      context,
-                    ).previousPageTooltip,
-                  ),
-                  Text(
-                    '${_page + 1} / ${(_changelogFiles.length / _pageSize).ceil()}',
-                  ),
-                  IconButton(
-                    onPressed:
-                        _page + 1 < (_changelogFiles.length / _pageSize).ceil()
-                        ? () => _setPage(_page + 1)
-                        : null,
-                    icon: const Icon(Icons.chevron_right),
-                    tooltip: MaterialLocalizations.of(context).nextPageTooltip,
-                  ),
-                ],
-              ),
-            ),
         ],
       ),
-      floatingActionButton: FloatingActionButton.extended(
-        icon: const Icon(Icons.favorite_outline),
-        onPressed: () async {
-          const url = 'https://github.com/sponsors/brandonp2412';
-          if (await canLaunchUrlString(url)) await launchUrlString(url);
-        },
-        label: Text(l10n.aboutDonate),
+      bottomNavigationBar: SafeArea(
+        top: false,
+        child: Padding(
+          padding: EdgeInsets.fromLTRB(16, 8, 16, nestedTabRoute ? 88 : 16),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              if (_changelogFiles.isNotEmpty)
+                Flexible(
+                  child: FittedBox(
+                    fit: BoxFit.scaleDown,
+                    alignment: Alignment.centerLeft,
+                    child: Row(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        IconButton(
+                          onPressed: _page > 0
+                              ? () => _setPage(_page - 1)
+                              : null,
+                          icon: const Icon(Icons.chevron_left),
+                          tooltip: MaterialLocalizations.of(
+                            context,
+                          ).previousPageTooltip,
+                        ),
+                        Text(
+                          '${_page + 1} / ${(_changelogFiles.length / _pageSize).ceil()}',
+                        ),
+                        IconButton(
+                          onPressed:
+                              _page + 1 <
+                                  (_changelogFiles.length / _pageSize).ceil()
+                              ? () => _setPage(_page + 1)
+                              : null,
+                          icon: const Icon(Icons.chevron_right),
+                          tooltip: MaterialLocalizations.of(
+                            context,
+                          ).nextPageTooltip,
+                        ),
+                      ],
+                    ),
+                  ),
+                )
+              else
+                const Spacer(),
+              FloatingActionButton.extended(
+                icon: const Icon(Icons.favorite_outline),
+                onPressed: () =>
+                    launchUrlString('https://github.com/sponsors/brandonp2412'),
+                label: Text(l10n.aboutDonate),
+              ),
+            ],
+          ),
+        ),
       ),
     );
   }

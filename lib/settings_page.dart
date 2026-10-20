@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:quitter/preset_icons.dart';
 import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:quitter/locale_utils.dart';
 import 'package:package_info_plus/package_info_plus.dart';
@@ -133,7 +134,7 @@ class _SettingsPageState extends State<SettingsPage> {
     if (path == null) return;
 
     if (defaultTargetPlatform == TargetPlatform.linux) {
-      final file = File(path);
+      final file = File(path.toFilePath());
       await file.writeAsString(json);
     }
 
@@ -162,14 +163,14 @@ class _SettingsPageState extends State<SettingsPage> {
 
   Future<void> _importData(BuildContext context) async {
     final l10n = AppLocalizations.of(context)!;
-    FilePickerResult? result = await FilePicker.pickFiles(
+    final result = await FilePicker.pickFiles(
       type: FileType.custom,
       allowedExtensions: ['json'],
     );
-    if (result == null || result.files.isEmpty) return;
+    if (result.isEmpty) return;
 
     try {
-      final pickResult = result.files.first;
+      final pickResult = result.first;
       final bytes = await pickResult.readAsBytes();
       final contents = utf8.decode(bytes);
 
@@ -539,11 +540,11 @@ class _SettingsPageState extends State<SettingsPage> {
       if (addictions.quitNitrousOxide != null)
         presetToggle(
           'nitrous_oxide',
-          Icons.air_outlined,
+          PresetIcons.balloon,
           l10n.addictionNitrousOxide,
         ),
       if (addictions.quitKratom != null)
-        presetToggle('kratom', Icons.local_florist, l10n.addictionKratom),
+        presetToggle('kratom', PresetIcons.leaf, l10n.addictionKratom),
       if (addictions.quitGabapentinoids != null)
         presetToggle(
           'gabapentinoids',
@@ -551,19 +552,15 @@ class _SettingsPageState extends State<SettingsPage> {
           l10n.addictionGabapentinoid,
         ),
       if (addictions.quitGhb != null)
-        presetToggle('ghb', Icons.water_drop, l10n.addictionGhb),
+        presetToggle('ghb', PresetIcons.bottle, l10n.addictionGhb),
       if (addictions.quitKetamine != null)
         presetToggle('ketamine', Icons.vaccines, l10n.addictionKetamine),
       if (addictions.quitInhalants != null)
-        presetToggle(
-          'inhalants',
-          Icons.local_gas_station,
-          l10n.addictionInhalants,
-        ),
+        presetToggle('inhalants', PresetIcons.spray, l10n.addictionInhalants),
       if (addictions.quitSyntheticCannabinoids != null)
         presetToggle(
           'synthetic_cannabinoids',
-          Icons.whatshot,
+          PresetIcons.flask,
           l10n.addictionSyntheticCannabinoids,
         ),
       if (addictions.quitMdma != null)
@@ -602,7 +599,7 @@ class _SettingsPageState extends State<SettingsPage> {
         ),
       if (addictions.quitMarijuana != null)
         _ToggleItem(
-          icon: Icons.grass,
+          icon: PresetIcons.cannabis,
           title: l10n.addictionMarijuana,
           subtitle: l10n.settingsNotifyMarijuana,
           value: settings.notifyMarijuana,
@@ -612,7 +609,7 @@ class _SettingsPageState extends State<SettingsPage> {
         ),
       if (addictions.quitMeth != null)
         _ToggleItem(
-          icon: Icons.battery_charging_full,
+          icon: PresetIcons.flask,
           title: l10n.addictionMeth,
           subtitle: l10n.settingsNotifyMeth,
           value: settings.notifyMeth,
@@ -622,7 +619,7 @@ class _SettingsPageState extends State<SettingsPage> {
         ),
       if (addictions.quitPouches != null)
         _ToggleItem(
-          icon: Icons.scatter_plot,
+          icon: PresetIcons.package,
           title: l10n.addictionNicotinePouches,
           subtitle: l10n.settingsNotifyNicotinePouches,
           value: settings.notifyPouches,
@@ -656,7 +653,7 @@ class _SettingsPageState extends State<SettingsPage> {
         ),
       if (addictions.quitSmoking != null)
         _ToggleItem(
-          icon: Icons.eco,
+          icon: PresetIcons.smoking,
           title: l10n.addictionSmoking,
           subtitle: l10n.settingsNotifySmoking,
           value: settings.notifySmoking,
@@ -667,12 +664,12 @@ class _SettingsPageState extends State<SettingsPage> {
       if (addictions.quitSmokelessTobacco != null)
         presetToggle(
           'smokeless_tobacco',
-          Icons.grass,
+          PresetIcons.package,
           l10n.addictionSmokelessTobacco,
         ),
       if (addictions.quitSocialMedia != null)
         _ToggleItem(
-          icon: Icons.public,
+          icon: PresetIcons.social,
           title: l10n.addictionSocialMedia,
           subtitle: l10n.settingsNotifySocialMedia,
           value: settings.notifySocialMedia,

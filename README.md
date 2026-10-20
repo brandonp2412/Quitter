@@ -80,3 +80,5 @@ flutter run
 ## License
 
 Quitter is available under the [MIT License](LICENSE.md).
+
+Vaping icon: adapted from [Electronic Cigarette — SVG Repo](https://www.svgrepo.com/svg/138430/electronic-cigarette) (CC0).

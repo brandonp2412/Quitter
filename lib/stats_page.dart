@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
+import 'package:quitter/preset_icons.dart';
 import 'package:quitter/add_addiction_page.dart';
 import 'package:quitter/addiction_provider.dart';
 import 'package:quitter/empty_state.dart';
 import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:quitter/utils.dart';
+import 'package:quitter/vaping_icon.dart';
 
 class StatsPage extends StatelessWidget {
   const StatsPage({super.key});
@@ -160,6 +162,7 @@ class StatsPage extends StatelessWidget {
         _StatEntry(
           name: name,
           icon: icon,
+          useVapingIcon: key == 'vaping' && addictions.customIcons[key] == null,
           color: color,
           days: days,
           costPerDay: costPerDay,
@@ -181,7 +184,7 @@ class StatsPage extends StatelessWidget {
     addPreset(
       addictions.quitSmoking,
       l10n.addictionSmoking,
-      Icons.eco,
+      PresetIcons.smoking,
       const Color(0xFF10B981),
       costPerDay: 10.0,
       key: 'smoking',
@@ -197,7 +200,7 @@ class StatsPage extends StatelessWidget {
     addPreset(
       addictions.quitMarijuana,
       l10n.addictionMarijuana,
-      Icons.grass,
+      PresetIcons.cannabis,
       const Color(0xFF84E680),
       costPerDay: 4.29,
       key: 'marijuana',
@@ -205,7 +208,7 @@ class StatsPage extends StatelessWidget {
     addPreset(
       addictions.quitPouches,
       l10n.addictionNicotinePouches,
-      Icons.scatter_plot,
+      PresetIcons.package,
       const Color(0xFFF59E0B),
       costPerDay: 5.0,
       key: 'nicotine_pouches',
@@ -213,7 +216,7 @@ class StatsPage extends StatelessWidget {
     addPreset(
       addictions.quitSocialMedia,
       l10n.addictionSocialMedia,
-      Icons.public,
+      PresetIcons.social,
       const Color(0xFF8B5CF6),
       hoursPerDay: 2.5,
       key: 'social_media',
@@ -243,7 +246,7 @@ class StatsPage extends StatelessWidget {
     addPreset(
       addictions.quitMeth,
       l10n.addictionMeth,
-      Icons.battery_charging_full,
+      PresetIcons.flask,
       const Color(0xFF14B8A6),
       key: 'meth',
     );
@@ -292,7 +295,7 @@ class StatsPage extends StatelessWidget {
     addPreset(
       addictions.quitKratom,
       l10n.addictionKratom,
-      Icons.local_florist,
+      PresetIcons.leaf,
       const Color(0xFF6D9F4E),
       key: 'kratom',
     );
@@ -306,7 +309,7 @@ class StatsPage extends StatelessWidget {
     addPreset(
       addictions.quitGhb,
       l10n.addictionGhb,
-      Icons.water_drop,
+      PresetIcons.bottle,
       const Color(0xFF60A5FA),
       key: 'ghb',
     );
@@ -320,14 +323,14 @@ class StatsPage extends StatelessWidget {
     addPreset(
       addictions.quitInhalants,
       l10n.addictionInhalants,
-      Icons.local_gas_station,
+      PresetIcons.spray,
       const Color(0xFF9CA3AF),
       key: 'inhalants',
     );
     addPreset(
       addictions.quitSyntheticCannabinoids,
       l10n.addictionSyntheticCannabinoids,
-      Icons.whatshot,
+      PresetIcons.flask,
       const Color(0xFFA3E635),
       key: 'synthetic_cannabinoids',
     );
@@ -348,7 +351,7 @@ class StatsPage extends StatelessWidget {
     addPreset(
       addictions.quitNitrousOxide,
       l10n.addictionNitrousOxide,
-      Icons.air_outlined,
+      PresetIcons.balloon,
       const Color(0xFF38BDF8),
       key: 'nitrous_oxide',
     );
@@ -362,7 +365,7 @@ class StatsPage extends StatelessWidget {
     addPreset(
       addictions.quitSmokelessTobacco,
       l10n.addictionSmokelessTobacco,
-      Icons.sports_baseball,
+      PresetIcons.package,
       const Color(0xFF92400E),
       key: 'smokeless_tobacco',
     );
@@ -396,6 +399,7 @@ class StatsPage extends StatelessWidget {
 class _StatEntry {
   final String name;
   final IconData icon;
+  final bool useVapingIcon;
   final Color color;
   final int days;
   final double? costPerDay;
@@ -406,6 +410,7 @@ class _StatEntry {
   const _StatEntry({
     required this.name,
     required this.icon,
+    this.useVapingIcon = false,
     required this.color,
     required this.days,
     this.costPerDay,
@@ -814,7 +819,9 @@ class _StreakBar extends StatelessWidget {
       children: [
         Row(
           children: [
-            Icon(entry.icon, size: 14, color: entry.color),
+            entry.useVapingIcon
+                ? VapingIcon(size: 18, color: entry.color)
+                : Icon(entry.icon, size: 14, color: entry.color),
             const SizedBox(width: 6),
             Expanded(
               child: Text(

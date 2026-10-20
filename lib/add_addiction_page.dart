@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:quitter/preset_icons.dart';
 import 'package:quitter/adderall_page.dart';
 import 'package:quitter/addiction_provider.dart';
 import 'package:quitter/alcohol_page.dart';
@@ -29,11 +30,13 @@ import 'package:quitter/pornography_page.dart';
 import 'package:quitter/smoking_page.dart';
 import 'package:quitter/social_media_page.dart';
 import 'package:quitter/vaping_page.dart';
+import 'package:quitter/vaping_icon.dart';
 import 'package:quitter/smokeless_tobacco_page.dart';
 
 class _AddictionOption {
   final String title;
   final IconData icon;
+  final bool useVapingIcon;
   final List<Color> gradientColors;
   final Widget destination;
   final List<String> aliases;
@@ -41,6 +44,7 @@ class _AddictionOption {
   const _AddictionOption({
     required this.title,
     required this.icon,
+    this.useVapingIcon = false,
     required this.gradientColors,
     required this.destination,
     this.aliases = const [],
@@ -245,7 +249,7 @@ class _AddAddictionPageState extends State<AddAddictionPage> {
       options.add(
         _AddictionOption(
           title: l10n.addictionMarijuana,
-          icon: Icons.grass,
+          icon: PresetIcons.cannabis,
           gradientColors: [
             const Color.fromARGB(255, 132, 230, 128),
             const Color.fromARGB(255, 30, 87, 3),
@@ -274,7 +278,7 @@ class _AddAddictionPageState extends State<AddAddictionPage> {
       options.add(
         _AddictionOption(
           title: l10n.addictionNitrousOxide,
-          icon: Icons.air_outlined,
+          icon: PresetIcons.balloon,
           gradientColors: [const Color(0xFF38BDF8), const Color(0xFF7DD3FC)],
           destination: const NitrousOxidePage(started: false),
           aliases: const [
@@ -291,7 +295,7 @@ class _AddAddictionPageState extends State<AddAddictionPage> {
       options.add(
         _AddictionOption(
           title: l10n.addictionMeth,
-          icon: Icons.battery_charging_full,
+          icon: PresetIcons.flask,
           gradientColors: [const Color(0xFF14B8A6), const Color(0xFF0D9488)],
           destination: const MethPage(started: false),
           aliases: const [
@@ -311,7 +315,7 @@ class _AddAddictionPageState extends State<AddAddictionPage> {
       options.add(
         _AddictionOption(
           title: l10n.addictionNicotinePouches,
-          icon: Icons.scatter_plot,
+          icon: PresetIcons.package,
           gradientColors: [const Color(0xFFF59E0B), const Color(0xFFEF4444)],
           destination: const NicotinePouchesPage(started: false),
           aliases: const ['zyn', 'on!', 'nicotine pouch', 'snus', 'nicotine'],
@@ -383,7 +387,7 @@ class _AddAddictionPageState extends State<AddAddictionPage> {
       options.add(
         _AddictionOption(
           title: l10n.addictionSmoking,
-          icon: Icons.eco,
+          icon: PresetIcons.smoking,
           gradientColors: [const Color(0xFF10B981), const Color(0xFF059669)],
           destination: const SmokingPage(started: false),
           aliases: const [
@@ -402,7 +406,7 @@ class _AddAddictionPageState extends State<AddAddictionPage> {
       options.add(
         _AddictionOption(
           title: l10n.addictionSocialMedia,
-          icon: Icons.public,
+          icon: PresetIcons.social,
           gradientColors: [const Color(0xFF8B5CF6), const Color(0xFF7C3AED)],
           destination: const SocialMediaPage(started: false),
           aliases: const [
@@ -425,6 +429,7 @@ class _AddAddictionPageState extends State<AddAddictionPage> {
         _AddictionOption(
           title: l10n.addictionVaping,
           icon: Icons.air,
+          useVapingIcon: true,
           gradientColors: [const Color(0xFF06B6D4), const Color(0xFF0EA5E9)],
           destination: const VapingPage(started: false),
           aliases: const [
@@ -445,7 +450,7 @@ class _AddAddictionPageState extends State<AddAddictionPage> {
       options.add(
         _AddictionOption(
           title: l10n.addictionKratom,
-          icon: Icons.local_florist,
+          icon: PresetIcons.leaf,
           gradientColors: [const Color(0xFF6D9F4E), const Color(0xFF3F6B2E)],
           destination: const KratomPage(started: false),
           aliases: const ['mitragyna', 'kava', 'herbal', 'leaf'],
@@ -473,7 +478,7 @@ class _AddAddictionPageState extends State<AddAddictionPage> {
       options.add(
         _AddictionOption(
           title: l10n.addictionGhb,
-          icon: Icons.water_drop,
+          icon: PresetIcons.bottle,
           gradientColors: [const Color(0xFF60A5FA), const Color(0xFF1E3A8A)],
           destination: const GhbPage(started: false),
           aliases: const [
@@ -507,7 +512,7 @@ class _AddAddictionPageState extends State<AddAddictionPage> {
       options.add(
         _AddictionOption(
           title: l10n.addictionInhalants,
-          icon: Icons.local_gas_station,
+          icon: PresetIcons.spray,
           gradientColors: [const Color(0xFF9CA3AF), const Color(0xFF4B5563)],
           destination: const InhalantsPage(started: false),
           aliases: const [
@@ -526,7 +531,7 @@ class _AddAddictionPageState extends State<AddAddictionPage> {
       options.add(
         _AddictionOption(
           title: l10n.addictionSyntheticCannabinoids,
-          icon: Icons.whatshot,
+          icon: PresetIcons.flask,
           gradientColors: [const Color(0xFFA3E635), const Color(0xFF4D7C0F)],
           destination: const SyntheticCannabinoidsPage(started: false),
           aliases: const [
@@ -600,7 +605,7 @@ class _AddAddictionPageState extends State<AddAddictionPage> {
       options.add(
         _AddictionOption(
           title: l10n.addictionSmokelessTobacco,
-          icon: Icons.grass,
+          icon: PresetIcons.package,
           gradientColors: [const Color(0xFF78350F), const Color(0xFF451A03)],
           destination: const SmokelessTobaccoPage(started: false),
           aliases: const [
@@ -741,7 +746,9 @@ class _AddictionTile extends StatelessWidget {
             ),
             borderRadius: BorderRadius.circular(12),
           ),
-          child: Icon(option.icon, color: Colors.white, size: 24),
+          child: option.useVapingIcon
+              ? const Center(child: VapingIcon())
+              : Icon(option.icon, color: Colors.white, size: 24),
         ),
         title: Text(option.title),
         trailing: const Icon(Icons.chevron_right),

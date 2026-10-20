@@ -3,12 +3,11 @@ import java.io.FileInputStream
 import java.util.Properties
 plugins {
     id("com.android.application")
-    id("org.jetbrains.kotlin.android")
     id("dev.flutter.flutter-gradle-plugin")
 }
 android {
     namespace = "com.quitter.app"
-    compileSdk = flutter.compileSdkVersion
+    compileSdk = 37
     ndkVersion = flutter.ndkVersion
     
     compileOptions {
@@ -116,6 +115,8 @@ configurations.all {
 }
 
 dependencies {
+    // Flutter 3.47 registers integration_test in release but excludes its dev-only Android dependency.
+    releaseImplementation(project(":integration_test"))
     androidTestUtil("androidx.test:orchestrator:1.5.1")
     implementation("com.google.android.material:material:1.10.0")
     coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.1.4")

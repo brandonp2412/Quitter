@@ -1,3 +1,4 @@
+import 'package:quitter/preset_icons.dart';
 import 'package:flutter/material.dart';
 import 'package:quitter/cupertino_icons.dart';
 import 'package:quitter/material_icons.dart';
@@ -9,6 +10,15 @@ import 'package:quitter/material_icons.dart';
 final Map<String, IconData> allIcons = {
   ...allMaterialIcons,
   ...allCupertinoIcons,
+  'lucide:cigarette': PresetIcons.smoking,
+  'tabler:cannabis': PresetIcons.cannabis,
+  'tabler:package': PresetIcons.package,
+  'tabler:balloon': PresetIcons.balloon,
+  'tabler:spray': PresetIcons.spray,
+  'tabler:bottle': PresetIcons.bottle,
+  'tabler:flask': PresetIcons.flask,
+  'tabler:social': PresetIcons.social,
+  'tabler:leaf': PresetIcons.leaf,
 };
 
 /// Reverse lookup from an icon to its stored name, used for serialization.
