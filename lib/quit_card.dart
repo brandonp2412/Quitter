@@ -6,7 +6,6 @@ import 'package:quitter/utils.dart';
 class QuitCard extends StatelessWidget {
   const QuitCard({
     super.key,
-    required this.context,
     required this.title,
     required this.heroTag,
     required this.icon,
@@ -17,7 +16,6 @@ class QuitCard extends StatelessWidget {
     this.onRename,
   });
 
-  final BuildContext context;
   final String title;
   final Object heroTag;
   final IconData icon;

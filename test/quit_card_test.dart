@@ -23,16 +23,13 @@ void main() {
               child: SizedBox(
                 width: 180,
                 height: 240,
-                child: Builder(
-                  builder: (context) => QuitCard(
-                    context: context,
-                    title: 'Alcohol',
-                    heroTag: 'alcohol',
-                    icon: Icons.local_bar,
-                    gradientColors: colors,
-                    quitDate: '2025-09-20',
-                    onTap: () => taps++,
-                  ),
+                child: QuitCard(
+                  title: 'Alcohol',
+                  heroTag: 'alcohol',
+                  icon: Icons.local_bar,
+                  gradientColors: colors,
+                  quitDate: '2025-09-20',
+                  onTap: () => taps++,
                 ),
               ),
             ),
