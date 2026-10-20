@@ -43,20 +43,20 @@ class AppScheme {
     }
   }
 
-  static String getName(ColorSchemeType type, [AppLocalizations? l10n]) {
+  static String getName(ColorSchemeType type, AppLocalizations l10n) {
     switch (type) {
       case ColorSchemeType.dynamic:
-        return l10n?.settingsDynamicColorScheme ?? 'Dynamic colors';
+        return l10n.settingsDynamicColorScheme;
       case ColorSchemeType.blue:
-        return l10n?.settingsBlueColorScheme ?? 'Blue';
+        return l10n.settingsBlueColorScheme;
       case ColorSchemeType.green:
-        return l10n?.settingsGreenColorScheme ?? 'Green';
+        return l10n.settingsGreenColorScheme;
       case ColorSchemeType.red:
-        return l10n?.settingsRedColorScheme ?? 'Red';
+        return l10n.settingsRedColorScheme;
       case ColorSchemeType.purple:
-        return l10n?.settingsPurpleColorScheme ?? 'Purple';
+        return l10n.settingsPurpleColorScheme;
       case ColorSchemeType.orange:
-        return l10n?.settingsOrangeColorScheme ?? 'Orange';
+        return l10n.settingsOrangeColorScheme;
     }
   }
 }
