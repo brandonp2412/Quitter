@@ -79,10 +79,10 @@ void main() {
       }
 
       const expectedTitles = {
-        730: 'Two Years: Built to Last',
-        1095: 'Three Years: Strong Momentum',
-        1460: 'Four Years: Deep Roots',
-        1825: 'Five Years: Enduring Change',
+        730: 'Two Years. Still Going.',
+        1095: 'Three Years, No Comeback',
+        1460: 'Four Years of Follow-Through',
+        1825: 'Five Years Without MDMA',
       };
       for (final entry in expectedTitles.entries) {
         final milestone = page.milestones.singleWhere(

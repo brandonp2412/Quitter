@@ -55,10 +55,10 @@ void main() {
     expect(days, containsAllInOrder([730, 1095, 1460, 1825]));
 
     const expectedTitles = {
-      730: 'Two Years: Firm Ground',
-      1095: 'Three Years: Progress Holds',
-      1460: 'Four Years: Built to Last',
-      1825: 'Five Years: Lasting Progress',
+      730: 'Two Years. Solid.',
+      1095: 'Three Years, Still Going',
+      1460: 'Four Years, Your Pace',
+      1825: 'Five Years. Worth Celebrating.',
     };
     const source =
         'https://www.nice.org.uk/guidance/ng222/chapter/Recommendations';

@@ -55,9 +55,9 @@ void main() {
       expect(days, containsAllInOrder([730, 1095, 1460, 1825]));
 
       const expectedNewTitles = {
-        730: 'Two Years: Stronger Heart',
-        1095: 'Three Years: Heart Risk Falling',
-        1460: 'Four Years: Heart Gains Build',
+        730: 'Two Years. Heart Wins.',
+        1095: 'Three Years, Still Smoke-Free',
+        1460: 'Four Years. Still Paying Off.',
       };
       const source =
           'https://www.cdc.gov/tobacco/about/benefits-of-quitting.html';

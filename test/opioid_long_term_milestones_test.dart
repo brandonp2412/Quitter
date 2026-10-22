@@ -52,9 +52,9 @@ void main() {
     expect(days, containsAllInOrder([730, 1095, 1460, 1825]));
 
     const expectedTitles = {
-      1095: 'Three Years - Recovery Endures',
-      1460: 'Four Years - Strong Foundation',
-      1825: 'Five Years - Half a Decade',
+      1095: 'Three Years of Follow-Through',
+      1460: 'Four Years. Still Here.',
+      1825: 'Five Years. Properly Huge.',
     };
     const source =
         'https://www.cdc.gov/overdose-prevention/treatment/opioid-use-disorder.html';

@@ -82,10 +82,10 @@ void main() {
     }
 
     const expectedTitles = {
-      730: 'Two Years: Strong Foundations',
-      1095: 'Three Years: Lasting Momentum',
-      1460: 'Four Years: Deeply Established',
-      1825: 'Five Years: Enduring Progress',
+      730: 'Two Years. Solid Work.',
+      1095: 'Three Years, Still Clear',
+      1460: 'Four Years. Fair Play.',
+      1825: 'Five Years Without Cannabis',
     };
     const source =
         'https://www.samhsa.gov/resource/ebp/advisory-addressing-cannabis-use-disorder-primary-care-settings-lifespan-approach';

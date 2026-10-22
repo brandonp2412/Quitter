@@ -55,10 +55,10 @@ void main() {
       expect(days, containsAllInOrder([730, 1095, 1460, 1825]));
 
       const expectedTitles = {
-        730: 'Two Years: Steady Control',
-        1095: 'Three Years: Built to Last',
-        1460: 'Four Years: Durable Change',
-        1825: 'Five Years of Control',
+        730: 'Two Years. Steady.',
+        1095: 'Three Years of Control',
+        1460: 'Four Years, Your Terms',
+        1825: 'Five Years. That\'s Real.',
       };
       const source = 'https://pubmed.ncbi.nlm.nih.gov/41879870/';
       const newDays = {730, 1095, 1460};

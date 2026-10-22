@@ -55,10 +55,10 @@ void main() {
       expect(days, containsAllInOrder([730, 1095, 1460, 1825]));
 
       const expectedTitles = {
-        730: 'Two Years: Solid Ground',
-        1095: 'Three Years: Momentum Yours',
-        1460: 'Four Years: Steady Freedom',
-        1825: 'Five Years: Built to Last',
+        730: 'Two Years. Solid.',
+        1095: 'Three Years of Your Own',
+        1460: 'Four Years, Still Clear',
+        1825: 'Five Years. Properly Good.',
       };
       const source = 'https://pubmed.ncbi.nlm.nih.gov/33974767/';
 

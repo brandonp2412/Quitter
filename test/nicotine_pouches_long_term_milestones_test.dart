@@ -55,10 +55,10 @@ void main() {
       expect(days, containsAllInOrder([730, 1095, 1460, 1825]));
 
       const expectedTitles = {
-        730: 'Two Years: Pouch-Free Power',
-        1095: 'Three Years: Freedom Holds',
-        1460: 'Four Years: Built to Last',
-        1825: 'Five Years: Five-Year Victory',
+        730: 'Two Years, No Pouches',
+        1095: 'Three Years. Nice.',
+        1460: 'Four Years Without Them',
+        1825: 'Five Years. Big One.',
       };
       const reviewUrl = 'https://pubmed.ncbi.nlm.nih.gov/39097712/';
       const cdcUrl = 'https://www.cdc.gov/tobacco/nicotine-pouches/';

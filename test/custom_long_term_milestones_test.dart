@@ -62,10 +62,10 @@ void main() {
     expect(days, containsAllInOrder([730, 1095, 1460, 1825]));
 
     const expectedTitles = {
-      730: 'Two Years of Sustained Recovery',
-      1095: 'Three Years: Deep Roots',
-      1460: 'Four Years: Lasting Change',
-      1825: 'Five Years: Half a Decade',
+      730: 'Two Years. Solid Work.',
+      1095: 'Three Years, Still Going',
+      1460: 'Four Years. Fair Play.',
+      1825: 'Five Years. Huge.',
     };
     const source =
         'https://nida.nih.gov/publications/drugs-brains-behavior-science-addiction';
