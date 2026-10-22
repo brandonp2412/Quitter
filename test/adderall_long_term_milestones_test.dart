@@ -55,10 +55,10 @@ void main() {
       expect(days, containsAllInOrder([730, 1095, 1460, 1825]));
 
       const expectedTitles = {
-        730: 'Two Years Without Misuse',
-        1095: 'Three Years of Progress',
-        1460: 'Four Years, Still Clear',
-        1825: 'Five Years. Huge.',
+        730: 'Two years without misuse',
+        1095: 'Three years of progress',
+        1460: 'Four years, still clear',
+        1825: 'Five years',
       };
       const source =
           'https://www.samhsa.gov/resource/ebp/treatment-stimulant-use-disorders';

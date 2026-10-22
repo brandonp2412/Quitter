@@ -55,10 +55,10 @@ void main() {
       expect(days, containsAllInOrder([730, 1095, 1460, 1825]));
 
       const expectedTitles = {
-        730: 'Two Years, Still Clear',
-        1095: 'Three Years of Distance',
-        1460: 'Four Years. Nice.',
-        1825: 'Five Years. That\'s Big.',
+        730: 'Two years, still clear',
+        1095: 'Three years of distance',
+        1460: 'Four years',
+        1825: 'Five years',
       };
       const source = 'https://pmc.ncbi.nlm.nih.gov/articles/PMC9476224/';
 

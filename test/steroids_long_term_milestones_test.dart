@@ -55,10 +55,10 @@ void main() {
       expect(days, containsAllInOrder([730, 1095, 1460, 1825]));
 
       const expectedTitles = {
-        730: 'Two Years Off',
-        1095: 'Three Years. Solid.',
-        1460: 'Four Years, No Return',
-        1825: 'Five Years Off Steroids',
+        730: 'Two years off',
+        1095: 'Three years',
+        1460: 'Four years, no return',
+        1825: 'Five years off steroids',
       };
       const source = 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10620455/';
 

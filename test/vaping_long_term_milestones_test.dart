@@ -55,10 +55,10 @@ void main() {
       expect(days, containsAllInOrder([730, 1095, 1460, 1825]));
 
       const expectedTitles = {
-        730: 'Two Years Vape-Free',
-        1095: 'Three Years. No Vape.',
-        1460: 'Four Years, Still Clear',
-        1825: 'Five Years. Big Deal.',
+        730: 'Two years vape-free',
+        1095: 'Three years',
+        1460: 'Four years, still clear',
+        1825: 'Five years',
       };
       const source = 'https://www.cdc.gov/tobacco/e-cigarettes/quitting.html';
       const reference = 'CDC — Vaping and Quitting';

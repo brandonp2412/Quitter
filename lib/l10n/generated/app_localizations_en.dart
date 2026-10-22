@@ -35,81 +35,81 @@ class AppLocalizationsEn extends AppLocalizations {
   String get addictionKratom => 'Kratom';
 
   @override
-  String get kratomMilestone1Title => 'First Day Without Kratom';
+  String get kratomMilestone1Title => 'First day without kratom';
 
   @override
   String get kratomMilestone1Description =>
-      'The first day can be rough. Restlessness, sweating and aches may be kicking in as your body adjusts. Getting through it counts.';
+      'The first day can be rough. Restlessness, sweating and aches may be kicking in as your body adjusts.';
 
   @override
-  String get kratomMilestone3Title => 'The Rough Patch';
+  String get kratomMilestone3Title => 'The rough patch';
 
   @override
   String get kratomMilestone3Description =>
       'Days two and three can bring the worst of the aches, poor sleep and stomach trouble. It\'s a rotten stretch. Support and rest matter.';
 
   @override
-  String get kratomMilestone7Title => 'A Week Clear';
+  String get kratomMilestone7Title => 'A week clear';
 
   @override
   String get kratomMilestone7Description =>
       'Seven days without kratom. The early physical symptoms may be easing, even if sleep and energy haven\'t caught up yet.';
 
   @override
-  String get kratomMilestone14Title => 'Two Weeks In';
+  String get kratomMilestone14Title => 'Two weeks in';
 
   @override
   String get kratomMilestone14Description =>
       'Two weeks down. Sleep and mood may be settling, though recovery doesn\'t run to a tidy schedule.';
 
   @override
-  String get kratomMilestone30Title => 'A Whole Month';
+  String get kratomMilestone30Title => 'A whole month';
 
   @override
   String get kratomMilestone30Description =>
       'Thirty days without kratom. You\'ve had time to find new routines, and sleep, appetite or energy may be improving.';
 
   @override
-  String get kratomMilestone90Title => 'Three Months Clear';
+  String get kratomMilestone90Title => 'Three months clear';
 
   @override
   String get kratomMilestone90Description =>
       'Three months. Cravings and difficult days can still turn up, but you\'ve had real practice getting through them without kratom.';
 
   @override
-  String get kratomMilestone365Title => 'A Year Without Kratom';
+  String get kratomMilestone365Title => 'A year without kratom';
 
   @override
   String get kratomMilestone365Description =>
-      'A whole year. You\'ve handled every season without going back to kratom. That\'s a serious bit of work.';
+      'A whole year. You\'ve handled every season without going back to kratom.';
 
   @override
-  String get kratomMilestone730Title => 'Two Years. Solid.';
+  String get kratomMilestone730Title => 'Two years';
 
   @override
   String get kratomMilestone730Description =>
-      'Two years clear. Whatever the past couple of years threw at you, kratom wasn\'t the answer. That\'s worth celebrating.';
+      'Two years without kratom. You\'ve handled what the past couple of years threw at you without going back.';
 
   @override
-  String get kratomMilestone1095Title => 'Three Years of Your Own';
+  String get kratomMilestone1095Title => 'Three years of your own';
 
   @override
   String get kratomMilestone1095Description =>
-      'Three years without kratom. The routines you\'ve built have had plenty of time to become yours. Nicely done.';
+      'Three years without kratom. The routines you\'ve built have had plenty of time to become yours.';
 
   @override
-  String get kratomMilestone1460Title => 'Four Years, Still Clear';
+  String get kratomMilestone1460Title => 'Four years, still clear';
 
   @override
   String get kratomMilestone1460Description =>
       'Four years. The habit that used to take up space in your day hasn\'t had a say for a long time.';
 
   @override
-  String get kratomMilestone1825Title => 'Five Years. Properly Good.';
+  String get kratomMilestone1825Title => 'Five years';
 
   @override
   String get kratomMilestone1825Description =>
-      'Half a decade without kratom. Five years of life, stress, changes and ordinary Tuesdays. You kept this going through all of it.';
+      'You\'ve kept kratom out of your life for five years, through stress, changes and ordinary Tuesdays.';
 
   @override
   String get gabapentinoidsPageTitle => 'Gabapentinoids';
@@ -160,53 +160,53 @@ class AppLocalizationsEn extends AppLocalizations {
   String get addictionGhb => 'GHB';
 
   @override
-  String get ghbMilestone1Title => 'Get Medical Help';
+  String get ghbMilestone1Title => 'Get medical help';
 
   @override
   String get ghbMilestone1Description =>
       'GHB withdrawal can start within hours and turn dangerous quickly. Shaking, agitation or a racing heart need medical assessment. Don\'t try to tough this one out alone.';
 
   @override
-  String get ghbMilestone3Title => 'A Serious Few Days';
+  String get ghbMilestone3Title => 'A serious few days';
 
   @override
   String get ghbMilestone3Description =>
       'Severe GHB withdrawal can involve delirium, hallucinations and seizures. If you\'re in this window, medical supervision matters more than any milestone.';
 
   @override
-  String get ghbMilestone7Title => 'One Week Through';
+  String get ghbMilestone7Title => 'One week through';
 
   @override
   String get ghbMilestone7Description =>
       'A week without GHB. The acute phase may be easing, but severe withdrawal can last longer. Keep medical support in the picture.';
 
   @override
-  String get ghbMilestone14Title => 'Two Weeks Clear';
+  String get ghbMilestone14Title => 'Two weeks clear';
 
   @override
   String get ghbMilestone14Description =>
       'Two weeks is a big early step. Sleep and anxiety may still be difficult after acute withdrawal, and that\'s worth discussing with your care team.';
 
   @override
-  String get ghbMilestone30Title => 'A Month Without GHB';
+  String get ghbMilestone30Title => 'A month without GHB';
 
   @override
   String get ghbMilestone30Description =>
       'Thirty days. The dangerous early period may be behind you, while sleep and mood take their own time to settle.';
 
   @override
-  String get ghbMilestone90Title => 'Three Months On';
+  String get ghbMilestone90Title => 'Three months on';
 
   @override
   String get ghbMilestone90Description =>
       'Three months away from GHB. Whether it\'s sleep, anxiety or everyday routines, you\'ve given yourself a proper stretch to work on them.';
 
   @override
-  String get ghbMilestone180Title => 'Half a Year Clear';
+  String get ghbMilestone180Title => 'Half a year clear';
 
   @override
   String get ghbMilestone180Description =>
-      'Six months. A lot of life has happened without GHB in it. That\'s no small thing, even if recovery still needs work.';
+      'Six months. A lot of life has happened without GHB in it. Recovery may still need work.';
 
   @override
   String get ketaminePageTitle => 'Ketamine Recovery';
@@ -232,77 +232,77 @@ class AppLocalizationsEn extends AppLocalizations {
   String get addictionKetamine => 'Ketamine';
 
   @override
-  String get ketamineMilestone1Title => 'First Day Off Ketamine';
+  String get ketamineMilestone1Title => 'First day off ketamine';
 
   @override
   String get ketamineMilestone1Description =>
       'Day one can bring cravings, low mood or restlessness. The drug may clear quickly; the habits around it can take longer to change.';
 
   @override
-  String get ketamineMilestone7Title => 'A Week Clear';
+  String get ketamineMilestone7Title => 'A week clear';
 
   @override
   String get ketamineMilestone7Description =>
       'Seven days without ketamine. Cravings and a foggy head may still be hanging around, but you\'ve made it through a full week.';
 
   @override
-  String get ketamineMilestone14Title => 'Two Weeks, More Space';
+  String get ketamineMilestone14Title => 'Two weeks, more space';
 
   @override
   String get ketamineMilestone14Description =>
       'Two weeks away from ketamine. Thinking and mood may be clearer, though everyone\'s recovery looks different.';
 
   @override
-  String get ketamineMilestone30Title => 'A Month for Recovery';
+  String get ketamineMilestone30Title => 'A month for recovery';
 
   @override
   String get ketamineMilestone30Description =>
       'A month without ketamine gives your body a break from further exposure. Bladder symptoms can improve after stopping, but persistent pain or urgency needs medical care.';
 
   @override
-  String get ketamineMilestone90Title => 'Three Months Clear';
+  String get ketamineMilestone90Title => 'Three months clear';
 
   @override
   String get ketamineMilestone90Description =>
       'Three months without ketamine. You\'ve given your bladder and your thinking more time to recover. Some damage needs treatment, so don\'t ignore symptoms.';
 
   @override
-  String get ketamineMilestone180Title => 'Six Months Without It';
+  String get ketamineMilestone180Title => 'Six months without it';
 
   @override
   String get ketamineMilestone180Description =>
       'Half a year. The pull of the old habit may be changing, and you\'ve avoided six more months of ketamine-related harm.';
 
   @override
-  String get ketamineMilestone365Title => 'A Year Clear';
+  String get ketamineMilestone365Title => 'A year clear';
 
   @override
   String get ketamineMilestone365Description =>
-      'A full year without ketamine. That\'s a lot of time for recovery and a lot of days without renewed exposure. Well done.';
+      'A full year without ketamine. That\'s a lot of time for recovery and a lot of days without renewed exposure.';
 
   @override
-  String get ketamineMilestone730Title => 'Two Years, Still Clear';
+  String get ketamineMilestone730Title => 'Two years, still clear';
 
   @override
   String get ketamineMilestone730Description =>
       'Two years without ketamine. Recovery from bladder or cognitive problems varies, but staying away avoids adding to the damage.';
 
   @override
-  String get ketamineMilestone1095Title => 'Three Years of Distance';
+  String get ketamineMilestone1095Title => 'Three years of distance';
 
   @override
   String get ketamineMilestone1095Description =>
-      'Three years. That isn\'t a magical repair date, but it\'s a seriously long stretch of keeping ketamine out of your life.';
+      'Three years without ketamine. You\'ve kept the change going through everyday life.';
 
   @override
-  String get ketamineMilestone1460Title => 'Four Years. Nice.';
+  String get ketamineMilestone1460Title => 'Four years';
 
   @override
   String get ketamineMilestone1460Description =>
-      'Four years without ketamine. You\'ve kept this going long past the point where it was new. That deserves a moment.';
+      'Four years without ketamine. You\'ve kept this going long past the point where it was new.';
 
   @override
-  String get ketamineMilestone1825Title => 'Five Years. That\'s Big.';
+  String get ketamineMilestone1825Title => 'Five years';
 
   @override
   String get ketamineMilestone1825Description =>
@@ -332,49 +332,49 @@ class AppLocalizationsEn extends AppLocalizations {
   String get addictionInhalants => 'Inhalants';
 
   @override
-  String get inhalantsMilestone1Title => 'First Day Away';
+  String get inhalantsMilestone1Title => 'First day away';
 
   @override
   String get inhalantsMilestone1Description =>
       'One day without inhalants. Headaches, nausea or anxiety can show up early. Some effects need medical attention, especially confusion or breathing problems.';
 
   @override
-  String get inhalantsMilestone7Title => 'A Week Clear';
+  String get inhalantsMilestone7Title => 'A week clear';
 
   @override
   String get inhalantsMilestone7Description =>
       'Seven days without another exposure. Early symptoms may be easing, though thinking, mood or coordination can take longer to improve.';
 
   @override
-  String get inhalantsMilestone14Title => 'Two Weeks, No New Exposure';
+  String get inhalantsMilestone14Title => 'Two weeks, no new exposure';
 
   @override
   String get inhalantsMilestone14Description =>
       'Two weeks. You\'ve stopped adding more exposure while your body recovers. If memory or movement still feels off, get it checked.';
 
   @override
-  String get inhalantsMilestone30Title => 'A Month of Breathing Room';
+  String get inhalantsMilestone30Title => 'A month of breathing room';
 
   @override
   String get inhalantsMilestone30Description =>
       'A full month without inhalants. Thinking and attention may improve with abstinence, but some nerve or brain injuries need specialist care.';
 
   @override
-  String get inhalantsMilestone90Title => 'Three Months Clear';
+  String get inhalantsMilestone90Title => 'Three months clear';
 
   @override
   String get inhalantsMilestone90Description =>
       'Three months of keeping inhalants out of the picture. Recovery in attention, memory and movement can take time and isn\'t the same for everyone.';
 
   @override
-  String get inhalantsMilestone365Title => 'A Year Without Inhalants';
+  String get inhalantsMilestone365Title => 'A year without inhalants';
 
   @override
   String get inhalantsMilestone365Description =>
       'A year clear. That\'s 365 days without renewed chemical exposure. Neurological recovery varies, but this choice matters.';
 
   @override
-  String get inhalantsMilestone730Title => 'Two Years. Big Difference.';
+  String get inhalantsMilestone730Title => 'Two years';
 
   @override
   String get inhalantsMilestone730Description =>
@@ -406,25 +406,25 @@ class AppLocalizationsEn extends AppLocalizations {
   String get addictionSyntheticCannabinoids => 'Synthetic Cannabinoids';
 
   @override
-  String get synthetic_cannabinoidsMilestone1Title => 'Day One: Stay Safe';
+  String get synthetic_cannabinoidsMilestone1Title => 'Day one: stay safe';
 
   @override
   String get synthetic_cannabinoidsMilestone1Description =>
       'Withdrawal from synthetic cannabinoids can be intense. Shaking, palpitations or poor sleep may occur; seizures, chest pain or severe confusion need urgent medical attention.';
 
   @override
-  String get synthetic_cannabinoidsMilestone3Title => 'Three Days Clear';
+  String get synthetic_cannabinoidsMilestone3Title => 'Three days clear';
 
   @override
   String get synthetic_cannabinoidsMilestone3Description =>
       'The early stretch can be nasty, and synthetic-cannabinoid withdrawal may be harsher than cannabis withdrawal. Three days without another dose is a real start.';
 
   @override
-  String get synthetic_cannabinoidsMilestone7Title => 'A Week Away';
+  String get synthetic_cannabinoidsMilestone7Title => 'A week away';
 
   @override
   String get synthetic_cannabinoidsMilestone7Description =>
-      'Seven days clear. You haven\'t exposed yourself again to a drug class known for wildly unpredictable effects. That\'s a solid week.';
+      'Seven days clear. You haven\'t exposed yourself again to a drug class known for wildly unpredictable effects.';
 
   @override
   String get synthetic_cannabinoidsMilestone14Title => 'Two Weeks Clear';
@@ -434,7 +434,7 @@ class AppLocalizationsEn extends AppLocalizations {
       'Two weeks without synthetic cannabinoids. You\'ve avoided another fortnight of their unpredictable risks. Keep taking any lingering symptoms seriously.';
 
   @override
-  String get synthetic_cannabinoidsMilestone30Title => 'A Month. Good.';
+  String get synthetic_cannabinoidsMilestone30Title => 'A month';
 
   @override
   String get synthetic_cannabinoidsMilestone30Description =>
@@ -442,18 +442,18 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get synthetic_cannabinoidsMilestone90Title =>
-      'Three Months of Distance';
+      'Three months of distance';
 
   @override
   String get synthetic_cannabinoidsMilestone90Description =>
       'Three months clear. That\'s a decent chunk of life without rolling the dice on what might be in the next dose.';
 
   @override
-  String get synthetic_cannabinoidsMilestone180Title => 'Half a Year Clear';
+  String get synthetic_cannabinoidsMilestone180Title => 'Half a year clear';
 
   @override
   String get synthetic_cannabinoidsMilestone180Description =>
-      'Six months without synthetic cannabinoids. No renewed exposure, and six months spent building something steadier. That\'s worth a grin.';
+      'Six months without synthetic cannabinoids. You\'ve avoided renewed exposure while building steadier routines.';
 
   @override
   String get synthetic_cannabinoidsWithdrawalReference =>
@@ -464,35 +464,34 @@ class AppLocalizationsEn extends AppLocalizations {
       'Synthetic Cannabinoid Withdrawal and Acute Risk\n\nSource: Cooper (2016), Current Psychiatry Reports, PMC\n\nClinical reports describe withdrawal after daily synthetic-cannabinoid use occurring soon after the last dose, with severe anxiety, insomnia, nausea and vomiting, sweating, palpitations, tremor, agitation, and cravings. Severe cases have included recurring seizures and cardiovascular or breathing problems. The review also describes synthetic-cannabinoid intoxication as unpredictable and sometimes severe, including psychosis, seizures, cardiac events, and kidney injury. Severe or escalating symptoms need prompt medical assessment.';
 
   @override
-  String get synthetic_cannabinoidsMilestone730Title => 'Two Years. Solid.';
+  String get synthetic_cannabinoidsMilestone730Title => 'Two years';
 
   @override
   String get synthetic_cannabinoidsMilestone730Description =>
-      'Two years clear. Holidays, bad days and everything in between, without returning to synthetic cannabinoids. Nicely held.';
+      'Two years clear. Holidays, bad days and everything in between, without returning to synthetic cannabinoids.';
 
   @override
   String get synthetic_cannabinoidsMilestone1095Title =>
-      'Three Years Without It';
+      'Three years without it';
 
   @override
   String get synthetic_cannabinoidsMilestone1095Description =>
-      'Three years. This stopped being just an early recovery effort a long time ago. You\'ve kept it going.';
+      'Three years without synthetic cannabinoids. You\'ve kept the change going well beyond early recovery.';
 
   @override
   String get synthetic_cannabinoidsMilestone1460Title =>
-      'Four Years, Still Free';
+      'Four years, still free';
 
   @override
   String get synthetic_cannabinoidsMilestone1460Description =>
       'Four years away from synthetic cannabinoids. The new routines have had a lot of time to stick, and you\'ve kept protecting them.';
 
   @override
-  String get synthetic_cannabinoidsMilestone1825Title =>
-      'Five Years. Seriously.';
+  String get synthetic_cannabinoidsMilestone1825Title => 'Five years';
 
   @override
   String get synthetic_cannabinoidsMilestone1825Description =>
-      'Half a decade without synthetic cannabinoids. That\'s a huge amount of life lived without their unpredictable risks. Take a moment for this one.';
+      'Half a decade without synthetic cannabinoids. That\'s a huge amount of life lived without their unpredictable risks.';
 
   @override
   String get synthetic_cannabinoidsLongTermReference =>
@@ -529,28 +528,28 @@ class AppLocalizationsEn extends AppLocalizations {
       'The first day after MDMA can feel flat. Tiredness, low mood and poor sleep are common after-effects. Food, rest and support can help.';
 
   @override
-  String get mdmaMilestone3Title => 'Past the First Few Days';
+  String get mdmaMilestone3Title => 'Past the first few days';
 
   @override
   String get mdmaMilestone3Description =>
       'A few days clear. The sharpest comedown may be easing, even if your mood or sleep hasn\'t quite found its feet.';
 
   @override
-  String get mdmaMilestone7Title => 'A Week Without MDMA';
+  String get mdmaMilestone7Title => 'A week without MDMA';
 
   @override
   String get mdmaMilestone7Description =>
       'Seven days. After heavier use, low mood, cravings and poor focus can linger. You\'ve given yourself a full week without another dose.';
 
   @override
-  String get mdmaMilestone14Title => 'Two Weeks to Reset';
+  String get mdmaMilestone14Title => 'Two weeks without MDMA';
 
   @override
   String get mdmaMilestone14Description =>
-      'Two weeks without MDMA. Sleep, mood and focus may be improving. There\'s no fixed timetable, so let your recovery be yours.';
+      'Two weeks without MDMA. Sleep, mood and focus may be improving. Recovery takes different amounts of time for different people.';
 
   @override
-  String get mdmaMilestone30Title => 'A Month Clear';
+  String get mdmaMilestone30Title => 'A month clear';
 
   @override
   String get mdmaMilestone30Description =>
@@ -564,11 +563,11 @@ class AppLocalizationsEn extends AppLocalizations {
       'Three months without MDMA. That\'s a proper stretch away from repeated exposure, while mood and sleep have had more time to recover.';
 
   @override
-  String get mdmaMilestone365Title => 'A Full Year Off MDMA';
+  String get mdmaMilestone365Title => 'A full year off MDMA';
 
   @override
   String get mdmaMilestone365Description =>
-      'One year. Every birthday, weekend and ordinary day in between without going back. That\'s a big change.';
+      'One year without MDMA, through every birthday, weekend and ordinary day in between.';
 
   @override
   String get steroidsPageTitle => 'Anabolic Steroids';
@@ -595,49 +594,49 @@ class AppLocalizationsEn extends AppLocalizations {
   String get addictionSteroids => 'Anabolic Steroids';
 
   @override
-  String get steroidsMilestone1Title => 'First Day Off Cycle';
+  String get steroidsMilestone1Title => 'First day off cycle';
 
   @override
   String get steroidsMilestone1Description =>
       'Stopping anabolic steroids can leave your natural testosterone low, with fatigue, low mood or libido changes. Medical guidance matters here.';
 
   @override
-  String get steroidsMilestone14Title => 'The Hormone Dip';
+  String get steroidsMilestone14Title => 'The hormone dip';
 
   @override
   String get steroidsMilestone14Description =>
       'Two weeks without another cycle. Energy, mood and libido can be rough while hormones adjust. There\'s no shame in getting help with it.';
 
   @override
-  String get steroidsMilestone30Title => 'A Month Off Steroids';
+  String get steroidsMilestone30Title => 'A month off steroids';
 
   @override
   String get steroidsMilestone30Description =>
       'Thirty days. Your hormone system may be starting to recover, though symptoms can last and the pace varies.';
 
   @override
-  String get steroidsMilestone90Title => 'Three Months Off';
+  String get steroidsMilestone90Title => 'Three months off';
 
   @override
   String get steroidsMilestone90Description =>
       'Three months without anabolic steroids. Hormone levels and mood may be improving, but persistent symptoms deserve a proper medical check.';
 
   @override
-  String get steroidsMilestone180Title => 'Six Months Clear';
+  String get steroidsMilestone180Title => 'Six months clear';
 
   @override
   String get steroidsMilestone180Description =>
       'Half a year off cycle. Many people see hormone recovery over months, while others need longer or specialist care.';
 
   @override
-  String get steroidsMilestone365Title => 'One Year, No Cycle';
+  String get steroidsMilestone365Title => 'One year, no cycle';
 
   @override
   String get steroidsMilestone365Description =>
       'A full year without anabolic steroids. Hormones and fertility can take months or years to recover. The year you\'ve put in still matters.';
 
   @override
-  String get steroidsMilestone730Title => 'Two Years Off';
+  String get steroidsMilestone730Title => 'Two years off';
 
   @override
   String get steroidsMilestone730Description =>
@@ -670,67 +669,67 @@ class AppLocalizationsEn extends AppLocalizations {
       'See what happens when you quit Adderall and start your journey to recovery';
 
   @override
-  String get adderallMilestone1Title => 'First Day Without Misuse';
+  String get adderallMilestone1Title => 'First day without misuse';
 
   @override
   String get adderallMilestone1Description =>
-      'The first day after stopping stimulant misuse can bring a crash: exhaustion, low mood and a bigger appetite. Rest and support are useful, not optional extras.';
+      'The first day after stopping stimulant misuse can bring a crash: exhaustion, low mood and a bigger appetite. Give yourself rest and support.';
 
   @override
-  String get adderallMilestone3Title => 'The Crash Can Hit Hard';
+  String get adderallMilestone3Title => 'The crash can hit hard';
 
   @override
   String get adderallMilestone3Description =>
       'Day three can be miserable: tired, irritable and struggling to focus. If your mood gets dangerously low, reach out for urgent help.';
 
   @override
-  String get adderallMilestone7Title => 'A Week of Change';
+  String get adderallMilestone7Title => 'A week of change';
 
   @override
   String get adderallMilestone7Description =>
       'Seven days without misusing Adderall. The early crash may be easing, though sleep and motivation can take longer.';
 
   @override
-  String get adderallMilestone14Title => 'Two Weeks Clear';
+  String get adderallMilestone14Title => 'Two weeks clear';
 
   @override
   String get adderallMilestone14Description =>
       'Two weeks. Mood and sleep may be finding a steadier rhythm after stimulant misuse. You\'re getting more practice with the difficult bits.';
 
   @override
-  String get adderallMilestone30Title => 'A Month Without Misuse';
+  String get adderallMilestone30Title => 'A month without misuse';
 
   @override
   String get adderallMilestone30Description =>
       'Thirty days. Appetite, sleep and energy may be improving. Focus can take time, and prescribed ADHD care is still valid care.';
 
   @override
-  String get adderallMilestone60Title => 'Two Months, More Clarity';
+  String get adderallMilestone60Title => 'Two months, more clarity';
 
   @override
   String get adderallMilestone60Description =>
       'Two months without misuse. Memory, mood and everyday motivation may be improving as recovery continues.';
 
   @override
-  String get adderallMilestone90Title => 'Three Months. Nice.';
+  String get adderallMilestone90Title => 'Three months';
 
   @override
   String get adderallMilestone90Description =>
       'Three months without misusing Adderall. That\'s a lot of mornings and difficult afternoons handled differently.';
 
   @override
-  String get adderallMilestone180Title => 'Half a Year Clear';
+  String get adderallMilestone180Title => 'Half a year clear';
 
   @override
   String get adderallMilestone180Description =>
       'Six months. Attention and mood can keep improving in recovery. You\'ve also built six months of experience without the old pattern.';
 
   @override
-  String get adderallMilestone365Title => 'A Full Year';
+  String get adderallMilestone365Title => 'A full year';
 
   @override
   String get adderallMilestone365Description =>
-      'One year without Adderall misuse. No magical dopamine reset required; a whole year of changed behaviour is a big deal.';
+      'One year without Adderall misuse. You\'ve spent a full year changing the habits around it.';
 
   @override
   String get benzoPageTitle => 'Benzodiazepines';
@@ -749,77 +748,77 @@ class AppLocalizationsEn extends AppLocalizations {
   String get benzoSubtitleNotStarted => 'See what happens when you quit';
 
   @override
-  String get benzoMilestone7Title => 'One Week: Stay Supported';
+  String get benzoMilestone7Title => 'One week: stay supported';
 
   @override
   String get benzoMilestone7Description =>
       'Benzodiazepine withdrawal can be dangerous, especially after abrupt stopping. Symptoms may only just be starting with longer-acting medicines; tapering needs medical guidance.';
 
   @override
-  String get benzoMilestone14Title => 'Two Weeks After Taper';
+  String get benzoMilestone14Title => 'Two weeks after taper';
 
   @override
   String get benzoMilestone14Description =>
       'Two weeks clear. Some people notice better sleep after a gradual taper; others still have withdrawal symptoms. Both deserve care and patience.';
 
   @override
-  String get benzoMilestone60Title => 'Eight Weeks, Clearer Days';
+  String get benzoMilestone60Title => 'Eight weeks, clearer days';
 
   @override
   String get benzoMilestone60Description =>
       'In a study of older long-term users, people who completed tapering showed gains in memory, attention and balance by eight weeks. Your pace may differ.';
 
   @override
-  String get benzoMilestone90Title => 'Three Months, Less Fog';
+  String get benzoMilestone90Title => 'Three months, less fog';
 
   @override
   String get benzoMilestone90Description =>
       'Research has found faster thinking and less sedation in some people after tapering off benzodiazepines. Three months is a meaningful stretch, whatever your own pace.';
 
   @override
-  String get benzoMilestone180Title => 'Six Months of Recovery';
+  String get benzoMilestone180Title => 'Six months of recovery';
 
   @override
   String get benzoMilestone180Description =>
-      'Half a year. Memory and attention can improve after long-term use, and some changes continue beyond six months. It\'s not a race.';
+      'Half a year. Memory and attention can improve after long-term use, and some changes continue beyond six months.';
 
   @override
-  String get benzoMilestone365Title => 'A Year After Benzos';
+  String get benzoMilestone365Title => 'A year after benzos';
 
   @override
   String get benzoMilestone365Description =>
-      'One year. Sleep, thinking and wellbeing may keep improving, though withdrawal can be prolonged for some. Twelve months is worth acknowledging.';
+      'One year. Sleep, thinking and wellbeing may keep improving, though withdrawal can be prolonged for some.';
 
   @override
-  String get benzoMilestone540Title => 'Eighteen Months Clear';
+  String get benzoMilestone540Title => 'Eighteen months clear';
 
   @override
   String get benzoMilestone540Description =>
       'A year and a half. Recovery doesn\'t always follow a straight line. You\'ve given it serious time, and any continuing symptoms still deserve support.';
 
   @override
-  String get benzoMilestone730Title => 'Two Years. Seriously.';
+  String get benzoMilestone730Title => 'Two years';
 
   @override
   String get benzoMilestone730Description =>
       'Two years after benzodiazepines. It\'s a major stretch of recovery, even if parts of it have been anything but easy.';
 
   @override
-  String get benzoMilestone1095Title => 'Three Years of Progress';
+  String get benzoMilestone1095Title => 'Three years of progress';
 
   @override
   String get benzoMilestone1095Description =>
-      'Three years. Sleep, mood and concentration may be different now, but nobody gets the same recovery schedule. Your progress is yours.';
+      'Three years. Sleep, mood and concentration may be different now, but nobody gets the same recovery schedule.';
 
   @override
-  String get benzoMilestone1460Title => 'Four Years of Work';
+  String get benzoMilestone1460Title => 'Four years of work';
 
   @override
   String get benzoMilestone1460Description =>
-      'Four years after benzos. That\'s a long time spent managing recovery, keeping routines and finding what helps. Well done.';
+      'Four years after benzos. That\'s a long time spent managing recovery, keeping routines and finding what helps.';
 
   @override
-  String get benzoMilestone1825Title => 'Five Years. Take a Bow.';
+  String get benzoMilestone1825Title => 'Five years';
 
   @override
   String get benzoMilestone1825Description =>
@@ -848,63 +847,63 @@ class AppLocalizationsEn extends AppLocalizations {
   String get methSubtitleNotStarted => 'Freedom is within your grasp';
 
   @override
-  String get methMilestone1Title => 'The Crash';
+  String get methMilestone1Title => 'The crash';
 
   @override
   String get methMilestone1Description =>
       'Day one without meth can mean heavy fatigue, low mood and a lot of sleep. Your body is adjusting. Let people support you.';
 
   @override
-  String get methMilestone3Title => 'Three Days. Rough Ones.';
+  String get methMilestone3Title => 'Three days';
 
   @override
   String get methMilestone3Description =>
       'Cravings and mood swings can be fierce in the first days. Three days clear is something to recognise, especially if it\'s been a slog.';
 
   @override
-  String get methMilestone7Title => 'A Week Without Meth';
+  String get methMilestone7Title => 'A week without meth';
 
   @override
   String get methMilestone7Description =>
       'Seven days clear. The early crash may be easing, even if cravings and sleep are still giving you grief.';
 
   @override
-  String get methMilestone30Title => 'One Month Clear';
+  String get methMilestone30Title => 'One month clear';
 
   @override
   String get methMilestone30Description =>
       'Thirty days without meth. Energy and mood may be starting to settle. Recovery isn\'t linear, and that doesn\'t undo the work.';
 
   @override
-  String get methMilestone90Title => 'Three Months of Recovery';
+  String get methMilestone90Title => 'Three months of recovery';
 
   @override
   String get methMilestone90Description =>
       'Three months. Attention, memory and decision-making can improve with abstinence. You\'ve also had time to practise different routines.';
 
   @override
-  String get methMilestone180Title => 'Six Months, Still Clear';
+  String get methMilestone180Title => 'Six months, still clear';
 
   @override
   String get methMilestone180Description =>
-      'Half a year without meth. Heart health can improve after stopping, especially with treatment when needed. Six months is a serious win.';
+      'Half a year without meth. Heart health can improve after stopping, especially with treatment when needed.';
 
   @override
-  String get methMilestone365Title => 'One Year Without Meth';
+  String get methMilestone365Title => 'One year without meth';
 
   @override
   String get methMilestone365Description =>
       'A full year. The brain\'s reward system can recover over sustained abstinence, and you\'ve given it twelve months without renewed exposure.';
 
   @override
-  String get methMilestone420Title => 'Fourteen Months On';
+  String get methMilestone420Title => 'Fourteen months on';
 
   @override
   String get methMilestone420Description =>
-      'Fourteen months. Brain-imaging studies have found some dopamine-related recovery after long abstinence. Your progress isn\'t pinned to one scan.';
+      'Fourteen months. Brain-imaging studies have found some dopamine-related recovery after long abstinence.';
 
   @override
-  String get methMilestone730Title => 'Two Years. Good Stuff.';
+  String get methMilestone730Title => 'Two years';
 
   @override
   String get methMilestone730Description =>
@@ -931,49 +930,49 @@ class AppLocalizationsEn extends AppLocalizations {
       'See what positive changes await you';
 
   @override
-  String get nitrousOxideMilestone1Title => 'First Day Without Nitrous';
+  String get nitrousOxideMilestone1Title => 'First day without nitrous';
 
   @override
   String get nitrousOxideMilestone1Description =>
       'Nitrous leaves the body quickly, but nerve problems from vitamin B12 inactivation can last. Numbness, weakness or trouble walking needs urgent assessment.';
 
   @override
-  String get nitrousOxideMilestone3Title => 'Three Days Clear';
+  String get nitrousOxideMilestone3Title => 'Three days clear';
 
   @override
   String get nitrousOxideMilestone3Description =>
       'Three days without nitrous. Cravings or habits may still pull at you. If you\'ve had tingling or weakness, don\'t wait for it to fix itself.';
 
   @override
-  String get nitrousOxideMilestone7Title => 'One Week, No New Exposure';
+  String get nitrousOxideMilestone7Title => 'One week, no new exposure';
 
   @override
   String get nitrousOxideMilestone7Description =>
       'Seven days without more nitrous-related B12 inactivation. Nerve recovery may need proper B12 treatment and medical follow-up.';
 
   @override
-  String get nitrousOxideMilestone14Title => 'Two Weeks Clear';
+  String get nitrousOxideMilestone14Title => 'Two weeks clear';
 
   @override
   String get nitrousOxideMilestone14Description =>
       'Two weeks. If nitrous affected your nerves, recovery can take time even with treatment. Staying off it prevents further exposure.';
 
   @override
-  String get nitrousOxideMilestone30Title => 'A Month Without Nitrous';
+  String get nitrousOxideMilestone30Title => 'A month without nitrous';
 
   @override
   String get nitrousOxideMilestone30Description =>
       'Thirty days without nitrous. B12-related symptoms may improve after treatment, but some nerve damage can persist. Keep up medical follow-up.';
 
   @override
-  String get nitrousOxideMilestone90Title => 'Three Months of Recovery';
+  String get nitrousOxideMilestone90Title => 'Three months of recovery';
 
   @override
   String get nitrousOxideMilestone90Description =>
       'Three months. Nerve recovery can continue over time with cessation and treatment. Persistent weakness or numbness still matters.';
 
   @override
-  String get nitrousOxideMilestone365Title => 'A Year Clear';
+  String get nitrousOxideMilestone365Title => 'A year clear';
 
   @override
   String get nitrousOxideMilestone365Description =>
@@ -1002,84 +1001,84 @@ class AppLocalizationsEn extends AppLocalizations {
   String get cocaineSubtitleNotStarted => 'See what positive changes await you';
 
   @override
-  String get cocaineMilestone1Title => 'First Day Without Cocaine';
+  String get cocaineMilestone1Title => 'First day without cocaine';
 
   @override
   String get cocaineMilestone1Description =>
       'The first day can bring exhaustion, low mood and cravings. Your heart is no longer getting another hit of cocaine\'s acute strain.';
 
   @override
-  String get cocaineMilestone3Title => 'The Tough Early Days';
+  String get cocaineMilestone3Title => 'The tough early days';
 
   @override
   String get cocaineMilestone3Description =>
       'Day three can bring strong cravings, irritability and a proper energy crash. If your mood becomes unsafe, get help straight away.';
 
   @override
-  String get cocaineMilestone7Title => 'A Week Clear';
+  String get cocaineMilestone7Title => 'A week clear';
 
   @override
   String get cocaineMilestone7Description =>
       'Seven days without cocaine. The initial crash may be easing, while sleep and cravings can take longer to settle.';
 
   @override
-  String get cocaineMilestone14Title => 'Two Weeks Without It';
+  String get cocaineMilestone14Title => 'Two weeks without it';
 
   @override
   String get cocaineMilestone14Description =>
       'Two weeks clear. Energy and mood may be getting steadier. You\'re also giving your heart a break from repeated cocaine exposure.';
 
   @override
-  String get cocaineMilestone60Title => 'Two Months, Better Rest';
+  String get cocaineMilestone60Title => 'Two months, better rest';
 
   @override
   String get cocaineMilestone60Description =>
       'Two months. Sleep and mood often improve with recovery, though they can still be patchy. You haven\'t gone back.';
 
   @override
-  String get cocaineMilestone90Title => 'Three Months of Clarity';
+  String get cocaineMilestone90Title => 'Three months of clarity';
 
   @override
   String get cocaineMilestone90Description =>
       'Three months without cocaine. Attention and decision-making can improve during abstinence. That\'s useful progress in everyday life.';
 
   @override
-  String get cocaineMilestone180Title => 'Half a Year Clear';
+  String get cocaineMilestone180Title => 'Half a year clear';
 
   @override
   String get cocaineMilestone180Description =>
-      'Six months. Memory, self-control and planning can keep improving as the brain recovers. A solid chunk of change.';
+      'Six months. Memory, self-control and planning can keep improving as the brain recovers.';
 
   @override
-  String get cocaineMilestone365Title => 'One Year, Healthier Odds';
+  String get cocaineMilestone365Title => 'One year, healthier odds';
 
   @override
   String get cocaineMilestone365Description =>
-      'A full year without cocaine. You\'ve avoided twelve months of its acute heart and stroke risks. Your cardiovascular health deserves the break.';
+      'A full year without cocaine. You\'ve avoided twelve months of its acute heart and stroke risks.';
 
   @override
-  String get cocaineMilestone730Title => 'Two Years Without Cocaine';
+  String get cocaineMilestone730Title => 'Two years without cocaine';
 
   @override
   String get cocaineMilestone730Description =>
       'Two years. Memory, focus and emotional control can continue improving with abstinence, and you\'ve given them proper time.';
 
   @override
-  String get cocaineMilestone1095Title => 'Three Years. Nicely Done.';
+  String get cocaineMilestone1095Title => 'Three years';
 
   @override
   String get cocaineMilestone1095Description =>
       'Three years cocaine-free. The routines, people and ways of coping behind this change have had time to grow.';
 
   @override
-  String get cocaineMilestone1460Title => 'Four Years, Still Clear';
+  String get cocaineMilestone1460Title => 'Four years, still clear';
 
   @override
   String get cocaineMilestone1460Description =>
       'Four years. You\'ve held this through stress, new routines and ordinary days. That\'s a serious bit of follow-through.';
 
   @override
-  String get cocaineMilestone1825Title => 'Five Years. Some Achievement.';
+  String get cocaineMilestone1825Title => 'Five years';
 
   @override
   String get cocaineMilestone1825Description =>
@@ -2063,371 +2062,371 @@ class AppLocalizationsEn extends AppLocalizations {
   String get ok => 'OK';
 
   @override
-  String get alcoholMilestone1Title => 'First Night, No Alcohol';
+  String get alcoholMilestone1Title => 'First night, no alcohol';
 
   @override
   String get alcoholMilestone1Description =>
-      'Alcohol disrupts normal sleep. One night without it removes that effect, though sleep can be rough at first—especially if withdrawal is involved.';
+      'Alcohol disrupts normal sleep. One night without it removes that effect, though sleep can be rough at first, especially if withdrawal is involved.';
 
   @override
-  String get alcoholMilestone3Title => 'Three Days. Take Care.';
+  String get alcoholMilestone3Title => 'Three days';
 
   @override
   String get alcoholMilestone3Description =>
       'Three days is a serious early step. Alcohol withdrawal can become dangerous around this time; seizures, hallucinations or severe confusion need urgent medical help.';
 
   @override
-  String get alcoholMilestone7Title => 'A Full Week Clear';
+  String get alcoholMilestone7Title => 'A full week clear';
 
   @override
   String get alcoholMilestone7Description =>
-      'Seven days without alcohol. Heavy drinking can weaken immune defences; stopping gives them room to recover. And yes, a whole week counts.';
+      'Seven days without alcohol. Heavy drinking can weaken immune defences; stopping gives them room to recover.';
 
   @override
-  String get alcoholMilestone14Title => 'Two Weeks, Brain Included';
+  String get alcoholMilestone14Title => 'Two weeks, brain included';
 
   @override
   String get alcoholMilestone14Description =>
-      'Two weeks alcohol-free. Studies have found early improvements in brain structure and attention during abstinence. Your brain appreciates the break.';
+      'Two weeks alcohol-free. Studies have found early improvements in brain structure and attention during abstinence.';
 
   @override
-  String get alcoholMilestone30Title => 'A Month. Your Heart Says Thanks.';
+  String get alcoholMilestone30Title => 'A month';
 
   @override
   String get alcoholMilestone30Description =>
       'Thirty days without a drink. Blood pressure can fall after heavy drinking stops, easing one of the strains alcohol puts on your heart.';
 
   @override
-  String get alcoholMilestone60Title => 'Two Months, Liver Break';
+  String get alcoholMilestone60Title => 'Two months, liver break';
 
   @override
   String get alcoholMilestone60Description =>
       'Two months without alcohol. Fatty liver changes caused by drinking can improve with abstinence, though more serious damage needs medical care.';
 
   @override
-  String get alcoholMilestone90Title => 'Three Months, Clearer Head';
+  String get alcoholMilestone90Title => 'Three months, clearer head';
 
   @override
   String get alcoholMilestone90Description =>
       'Three months alcohol-free. Attention, memory and mental speed can improve in recovery. You\'ve given your head some proper breathing room.';
 
   @override
-  String get alcoholMilestone180Title => 'Half a Year. That\'s Something.';
+  String get alcoholMilestone180Title => 'Half a year';
 
   @override
   String get alcoholMilestone180Description =>
       'Six months without alcohol. Brain structure and thinking can continue recovering over months. You\'ve put half a year into that process.';
 
   @override
-  String get alcoholMilestone365Title => 'A Year. Lower Cancer Exposure.';
+  String get alcoholMilestone365Title => 'A year';
 
   @override
   String get alcoholMilestone365Description =>
       'One year without a drink. Alcohol causes several cancers; stopping removes ongoing exposure, and some cancer risks decline with time.';
 
   @override
-  String get smokingMilestone1Title => 'Carbon Monoxide Drops';
+  String get smokingMilestone1Title => 'Carbon monoxide drops';
 
   @override
   String get smokingMilestone1Description =>
-      'Within about a day of your last cigarette, carbon monoxide in your blood falls dramatically. Your body can carry oxygen more effectively. Good start.';
+      'Within about a day of your last cigarette, carbon monoxide in your blood falls dramatically. Your body can carry oxygen more effectively.';
 
   @override
-  String get smokingMilestone3Title => 'The Cravings Have Opinions';
+  String get smokingMilestone3Title => 'The cravings have opinions';
 
   @override
   String get smokingMilestone3Description =>
       'Nicotine withdrawal often peaks around the first few days. Cravings can be loud, but they pass. Three days smoke-free is solid work.';
 
   @override
-  String get smokingMilestone7Title => 'A Week of Better Senses';
+  String get smokingMilestone7Title => 'A week of better senses';
 
   @override
   String get smokingMilestone7Description =>
       'Seven days without cigarettes. Taste and smell may be coming back as your senses recover. Food might have a few surprises left.';
 
   @override
-  String get smokingMilestone14Title => 'Two Weeks, More Air';
+  String get smokingMilestone14Title => 'Two weeks, more air';
 
   @override
   String get smokingMilestone14Description =>
       'Two weeks smoke-free. Circulation starts improving after quitting, and moving around may gradually feel easier.';
 
   @override
-  String get smokingMilestone30Title => 'A Month for Your Lungs';
+  String get smokingMilestone30Title => 'A month for your lungs';
 
   @override
   String get smokingMilestone30Description =>
       'One month without smoke. Lung function and the tiny airway-cleaning hairs can start recovering, though coughs and symptoms may take longer.';
 
   @override
-  String get smokingMilestone90Title => 'Three Months, Building Gains';
+  String get smokingMilestone90Title => 'Three months, building gains';
 
   @override
   String get smokingMilestone90Description =>
       'Three months clear. Breathing and circulation can keep improving. Your heart\'s long-term risk is heading in a better direction, too.';
 
   @override
-  String get smokingMilestone180Title => 'Six Months, Lungs at Work';
+  String get smokingMilestone180Title => 'Six months, lungs at work';
 
   @override
   String get smokingMilestone180Description =>
-      'Six months smoke-free. Research has found recovery in some lung immune-cell responses after months of abstinence. The work continues quietly.';
+      'Six months smoke-free. Research has found recovery in some lung immune-cell responses after months of abstinence.';
 
   @override
-  String get smokingMilestone365Title => 'A Year Without Cigarettes';
+  String get smokingMilestone365Title => 'A year without cigarettes';
 
   @override
   String get smokingMilestone365Description =>
-      'A whole year. You\'ve avoided a year of smoke exposure, and heart and blood-vessel risks keep falling after quitting. That\'s a proper milestone.';
+      'A whole year. You\'ve avoided a year of smoke exposure, and heart and blood-vessel risks keep falling after quitting.';
 
   @override
-  String get smokingMilestone730Title => 'Two Years. Heart Wins.';
+  String get smokingMilestone730Title => 'Two years';
 
   @override
   String get smokingMilestone730Description =>
-      'Two years smoke-free. Heart-attack risk falls sharply in the first one to two years after quitting. Not bad for a habit you left behind.';
+      'Two years smoke-free. Heart-attack risk falls sharply in the first one to two years after quitting.';
 
   @override
-  String get smokingMilestone1095Title => 'Three Years, Still Smoke-Free';
+  String get smokingMilestone1095Title => 'Three years, still smoke-free';
 
   @override
   String get smokingMilestone1095Description =>
       'Three years. You\'re entering the period when added coronary-heart-disease risk can fall by half. That happens over years, not overnight.';
 
   @override
-  String get smokingMilestone1460Title => 'Four Years. Still Paying Off.';
+  String get smokingMilestone1460Title => 'Four years';
 
   @override
   String get smokingMilestone1460Description =>
-      'Four years without smoking. You\'re well into the window where coronary-heart-disease risk keeps improving. Good things take a bit of time.';
+      'Four years without smoking. You\'re well into the window where coronary-heart-disease risk keeps improving.';
 
   @override
-  String get smokingMilestone1825Title => 'Five Years. Take It In.';
+  String get smokingMilestone1825Title => 'Five years';
 
   @override
   String get smokingMilestone1825Description =>
       'Half a decade smoke-free. You\'re entering the years when risks for some mouth and throat cancers can fall substantially. Five years is a massive win.';
 
   @override
-  String get marijuanaMilestone1Title => 'First Day Without Cannabis';
+  String get marijuanaMilestone1Title => 'First day without cannabis';
 
   @override
   String get marijuanaMilestone1Description =>
       'THC withdrawal can bring irritability, anxiety and sleep trouble in the first days. If today feels edgy, there\'s a reason.';
 
   @override
-  String get marijuanaMilestone3Title => 'The Rough Bit';
+  String get marijuanaMilestone3Title => 'The rough bit';
 
   @override
   String get marijuanaMilestone3Description =>
       'Withdrawal often peaks in the first week. Sleep, mood and appetite can be all over the place. Three days without cannabis is a start worth noting.';
 
   @override
-  String get marijuanaMilestone7Title => 'A Week Clear';
+  String get marijuanaMilestone7Title => 'A week clear';
 
   @override
   String get marijuanaMilestone7Description =>
       'Seven days without cannabis. Dreams and sleep can get weird before they improve. You\'re getting through that adjustment.';
 
   @override
-  String get marijuanaMilestone14Title => 'Two Weeks Without It';
+  String get marijuanaMilestone14Title => 'Two weeks without it';
 
   @override
   String get marijuanaMilestone14Description =>
       'Two weeks clear. Many early withdrawal symptoms ease around this point, though some take longer. Good work getting here.';
 
   @override
-  String get marijuanaMilestone30Title => 'A Month, Less Fog';
+  String get marijuanaMilestone30Title => 'A month, less fog';
 
   @override
   String get marijuanaMilestone30Description =>
       'Thirty days without cannabis. Studies have found improvements in some memory and learning skills after abstinence. Your head may feel clearer.';
 
   @override
-  String get marijuanaMilestone60Title => 'Two Months, More Focus';
+  String get marijuanaMilestone60Title => 'Two months, more focus';
 
   @override
   String get marijuanaMilestone60Description =>
       'Two months clear. Attention and concentration can improve over time away from cannabis. The change isn\'t identical for everyone.';
 
   @override
-  String get marijuanaMilestone90Title => 'Three Months. Steadier.';
+  String get marijuanaMilestone90Title => 'Three months';
 
   @override
   String get marijuanaMilestone90Description =>
       'Three months without cannabis. Sleep, mood and anxiety may be settling, and you\'ve had time to build a routine without it.';
 
   @override
-  String get marijuanaMilestone180Title => 'Six Months, Plenty Done';
+  String get marijuanaMilestone180Title => 'Six months, plenty done';
 
   @override
   String get marijuanaMilestone180Description =>
       'Half a year. Thinking and everyday decision-making can improve during recovery. Six months of different choices is worth recognising.';
 
   @override
-  String get marijuanaMilestone365Title => 'One Year Without Cannabis';
+  String get marijuanaMilestone365Title => 'One year without cannabis';
 
   @override
   String get marijuanaMilestone365Description =>
       'A whole year. Whatever changed in your memory, motivation or sleep, you\'ve got twelve months of real-world experience without cannabis.';
 
   @override
-  String get opioidMilestone1Title => 'Day One: Get Support';
+  String get opioidMilestone1Title => 'Day one: get support';
 
   @override
   String get opioidMilestone1Description =>
       'Opioid withdrawal can be rough, and the timing varies by drug. Medical support can make it safer and more manageable; treatment medication counts as recovery.';
 
   @override
-  String get opioidMilestone7Title => 'A Week Through';
+  String get opioidMilestone7Title => 'A week through';
 
   @override
   String get opioidMilestone7Description =>
       'Seven days. Short-acting opioid withdrawal may be easing, while longer-acting drugs can take more time. Get help with symptoms and cravings.';
 
   @override
-  String get opioidMilestone14Title => 'Two Weeks, Still Going';
+  String get opioidMilestone14Title => 'Two weeks, still going';
 
   @override
   String get opioidMilestone14Description =>
       'Two weeks into recovery. Sleep may still be unsettled, and that\'s common. You\'re doing real work, even when it doesn\'t feel dramatic.';
 
   @override
-  String get opioidMilestone30Title => 'A Month of Recovery';
+  String get opioidMilestone30Title => 'A month of recovery';
 
   @override
   String get opioidMilestone30Description =>
       'Thirty days. Thinking and concentration may start improving as recovery goes on. Support and treatment are part of the win.';
 
   @override
-  String get opioidMilestone60Title => 'Two Months, More Balance';
+  String get opioidMilestone60Title => 'Two months, more balance';
 
   @override
   String get opioidMilestone60Description =>
       'Two months. Mood and the ability to enjoy everyday things can take time to return. You\'ve given yourself more room to find them.';
 
   @override
-  String get opioidMilestone90Title => 'Three Months of Change';
+  String get opioidMilestone90Title => 'Three months of change';
 
   @override
   String get opioidMilestone90Description =>
       'Three months in recovery. The reward system can keep adapting over time. Whether medication, counselling or both help, use what works.';
 
   @override
-  String get opioidMilestone180Title => 'Half a Year. Big Step.';
+  String get opioidMilestone180Title => 'Half a year';
 
   @override
   String get opioidMilestone180Description =>
       'Six months. Your health and routines can keep improving with care and stability. Half a year is a serious achievement.';
 
   @override
-  String get opioidMilestone365Title => 'One Year of Recovery';
+  String get opioidMilestone365Title => 'One year of recovery';
 
   @override
   String get opioidMilestone365Description =>
       'A whole year. The brain and body can continue recovering from opioid use, and you\'ve built a full year of different habits and support.';
 
   @override
-  String get opioidMilestone730Title => 'Two Years. Take the Win.';
+  String get opioidMilestone730Title => 'Two years';
 
   @override
   String get opioidMilestone730Description =>
-      'Two years in recovery. That\'s a lot of work, support and ordinary days. Long-term stability matters more than any made-up finish line.';
+      'Two years in recovery. You\'ve spent that time building stability with the support and treatment that help you.';
 
   @override
-  String get opioidMilestone1095Title => 'Three Years of Follow-Through';
+  String get opioidMilestone1095Title => 'Three years of follow-through';
 
   @override
   String get opioidMilestone1095Description =>
-      'Three years. You\'ve kept the routines and support around you for another whole year. That\'s worth celebrating.';
+      'Three years. You\'ve kept the routines and support around you for another whole year.';
 
   @override
-  String get opioidMilestone1460Title => 'Four Years. Still Here.';
+  String get opioidMilestone1460Title => 'Four years';
 
   @override
   String get opioidMilestone1460Description =>
       'Four years in recovery. Whatever challenges came along, you kept building a life beyond opioid misuse. Good on you.';
 
   @override
-  String get opioidMilestone1825Title => 'Five Years. Properly Huge.';
+  String get opioidMilestone1825Title => 'Five years';
 
   @override
   String get opioidMilestone1825Description =>
       'Half a decade in recovery. Five years of showing up for yourself, with whatever treatment and support helps. That\'s a massive milestone.';
 
   @override
-  String get socialMediaMilestone1Title => 'A Day Off the Feed';
+  String get socialMediaMilestone1Title => 'A day off the feed';
 
   @override
   String get socialMediaMilestone1Description =>
       'One day without the reflex scroll. You might still reach for your phone out of habit. That\'s useful to notice.';
 
   @override
-  String get socialMediaMilestone3Title => 'Three Days, Less Scrolling';
+  String get socialMediaMilestone3Title => 'Three days, less scrolling';
 
   @override
   String get socialMediaMilestone3Description =>
       'Three days. FOMO might still be noisy, but you\'ve already practised letting a notification wait. The world survived.';
 
   @override
-  String get socialMediaMilestone7Title => 'A Week of Your Attention';
+  String get socialMediaMilestone7Title => 'A week of your attention';
 
   @override
   String get socialMediaMilestone7Description =>
       'Seven days without the feed deciding when you look at your phone. Focus can get easier with fewer interruptions.';
 
   @override
-  String get socialMediaMilestone14Title => 'Two Weeks, Quieter Nights';
+  String get socialMediaMilestone14Title => 'Two weeks, quieter nights';
 
   @override
   String get socialMediaMilestone14Description =>
       'Two weeks. Less late-night scrolling may help sleep, especially if the screen used to keep you up.';
 
   @override
-  String get socialMediaMilestone30Title => 'A Month Off the Feed';
+  String get socialMediaMilestone30Title => 'A month off the feed';
 
   @override
   String get socialMediaMilestone30Description =>
       'Thirty days. Research suggests reducing social media can improve wellbeing for some people. You\'ve had a month to see what helps you.';
 
   @override
-  String get socialMediaMilestone60Title => 'Two Months, Less Comparing';
+  String get socialMediaMilestone60Title => 'Two months, less comparing';
 
   @override
   String get socialMediaMilestone60Description =>
       'Two months without the comparison treadmill. If you feel less pressure to keep up with everyone, that\'s a useful change.';
 
   @override
-  String get socialMediaMilestone90Title => 'Three Months, Time Back';
+  String get socialMediaMilestone90Title => 'Three months, time back';
 
   @override
   String get socialMediaMilestone90Description =>
       'Three months. That\'s plenty of chances to put the spare time into friends, sleep, hobbies or absolutely nothing. Your call.';
 
   @override
-  String get socialMediaMilestone180Title => 'Half a Year Unplugged';
+  String get socialMediaMilestone180Title => 'Half a year unplugged';
 
   @override
   String get socialMediaMilestone180Description =>
       'Six months of deciding where your attention goes. Better wellbeing is possible, and you get to judge the difference in your own life.';
 
   @override
-  String get socialMediaMilestone365Title => 'One Year, No Doomscroll';
+  String get socialMediaMilestone365Title => 'One year, no doomscroll';
 
   @override
   String get socialMediaMilestone365Description =>
       'A full year. You haven\'t handed the feed first dibs on your time for twelve months. That\'s worth putting the phone down for.';
 
   @override
-  String get nicotinePouchesMilestone1Title => 'First Day Pouch-Free';
+  String get nicotinePouchesMilestone1Title => 'First day pouch-free';
 
   @override
   String get nicotinePouchesMilestone1Description =>
       'Nicotine withdrawal can begin within hours. Irritability, cravings or poor focus may show up. One full day without a pouch is a start.';
 
   @override
-  String get nicotinePouchesMilestone3Title => 'The Cravings Are Loud';
+  String get nicotinePouchesMilestone3Title => 'The cravings are loud';
 
   @override
   String get nicotinePouchesMilestone3Description =>
@@ -2442,14 +2441,14 @@ class AppLocalizationsEn extends AppLocalizations {
       'Day Three: Peak Nicotine Withdrawal\n\nSource: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nThe review places the typical nicotine-withdrawal peak at about the third day after stopping chronic nicotine use.\n\nThe curve from here\nAfter the peak, symptoms usually taper over the following 3–4 weeks. The review also notes that withdrawal severity varies with how nicotine was consumed, so the exact intensity is individual.\n\nDay three is a hard-earned milestone: you\'ve reached the top of the typical early withdrawal curve.';
 
   @override
-  String get nicotinePouchesMilestone7Title => 'A Week Without Pouches';
+  String get nicotinePouchesMilestone7Title => 'A week without pouches';
 
   @override
   String get nicotinePouchesMilestone7Description =>
       'Seven days pouch-free. You\'re past the typical early nicotine-withdrawal peak, even if urges keep popping up.';
 
   @override
-  String get nicotinePouchesMilestone14Title => 'Two Weeks Clear';
+  String get nicotinePouchesMilestone14Title => 'Two weeks clear';
 
   @override
   String get nicotinePouchesMilestone14Description =>
@@ -2464,18 +2463,18 @@ class AppLocalizationsEn extends AppLocalizations {
       'Two Weeks: Withdrawal Keeps Easing\n\nSource: McLaughlin, Dani & De Biasi — Nicotine Withdrawal\n\nThe review places the typical nicotine-withdrawal peak around day 3 and says symptoms taper over the following 3–4 weeks.\n\nWell into the taper\nAt two weeks, you’re well into that post-peak taper window. The review covers chronic use of nicotine-containing products and notes that withdrawal severity varies with how nicotine was consumed.\n\nTwo weeks pouch-free is a concrete checkpoint on the downward curve: the typical withdrawal syndrome is continuing to ease.';
 
   @override
-  String get nicotinePouchesMilestone730Title => 'Two Years, No Pouches';
+  String get nicotinePouchesMilestone730Title => 'Two years, no pouches';
 
   @override
   String get nicotinePouchesMilestone730Description =>
-      'Two years free of nicotine pouches. You haven\'t reinforced that habit for 730 days. That\'s solid.';
+      'Two years free of nicotine pouches. You haven\'t reinforced that habit for 730 days.';
 
   @override
   String get nicotinePouchesReferenceDay730 =>
       'Two Years: Pouch-Free Power\n\nSource: Rungraungrayabkul et al. (2024), systematic review of nicotine-pouch oral health\n\nThe review found only three human studies with 190 participants, all judged at high risk of bias. It did not establish a two-year recovery threshold after stopping.\n\nTwo years pouch-free is still a major sustained-change milestone. This entry celebrates that achievement without inventing a medical timeline.';
 
   @override
-  String get nicotinePouchesMilestone1095Title => 'Three Years. Nice.';
+  String get nicotinePouchesMilestone1095Title => 'Three years';
 
   @override
   String get nicotinePouchesMilestone1095Description =>
@@ -2486,7 +2485,7 @@ class AppLocalizationsEn extends AppLocalizations {
       'Three Years: Freedom Holds\n\nSource: CDC — Nicotine Pouches\n\nCDC says more research is needed to understand the short- and long-term health effects of nicotine pouches. It does not identify a specific medical change at three years after stopping.\n\nThree years pouch-free is worth celebrating for what it is: three years of sustained freedom from pouch nicotine.';
 
   @override
-  String get nicotinePouchesMilestone1460Title => 'Four Years Without Them';
+  String get nicotinePouchesMilestone1460Title => 'Four years without them';
 
   @override
   String get nicotinePouchesMilestone1460Description =>
@@ -2497,179 +2496,179 @@ class AppLocalizationsEn extends AppLocalizations {
       'Four Years: Built to Last\n\nSource: Rungraungrayabkul et al. (2024), systematic review of nicotine-pouch oral health\n\nThe review concludes that evidence on short- and long-term oral-health effects remains limited and more research is needed. It does not support a universal four-year recovery event.\n\nFour years pouch-free is a milestone in sustained change, without needing an unsupported medical claim.';
 
   @override
-  String get nicotinePouchesMilestone1825Title => 'Five Years. Big One.';
+  String get nicotinePouchesMilestone1825Title => 'Five years';
 
   @override
   String get nicotinePouchesMilestone1825Description =>
-      'Half a decade pouch-free. Five years of not going back to nicotine pouches. Fair play—that\'s a serious anniversary.';
+      'Half a decade pouch-free. Five years of not going back to nicotine pouches. Fair play, that\'s a serious anniversary.';
 
   @override
   String get nicotinePouchesReferenceDay1825 =>
       'Five Years: Five-Year Victory\n\nSource: CDC — Nicotine Pouches\n\nCDC notes that nicotine pouches are relatively new and their long-term health effects are still being studied. Current evidence does not establish a specific five-year recovery event.\n\nFive years pouch-free is a huge achievement on its own: five years of sustained change.';
 
   @override
-  String get pornographyMilestone1Title => 'One Day in Control';
+  String get pornographyMilestone1Title => 'One day in control';
 
   @override
   String get pornographyMilestone1Description =>
       'One day without the pattern you wanted to change. Notice when the urge shows up and what set it off. That\'s useful information.';
 
   @override
-  String get pornographyMilestone3Title => 'Three Days, Learning Urges';
+  String get pornographyMilestone3Title => 'Three days, learning urges';
 
   @override
   String get pornographyMilestone3Description =>
       'Urges, mood changes or sleep trouble can happen, but there\'s no universal withdrawal script. Three days gives you a chance to spot your own triggers.';
 
   @override
-  String get pornographyMilestone7Title => 'A Week of Choices';
+  String get pornographyMilestone7Title => 'A week of choices';
 
   @override
   String get pornographyMilestone7Description =>
       'Seven days. Research doesn\'t show a single withdrawal pattern for all pornography users. What matters is whether you\'re gaining control where you wanted it.';
 
   @override
-  String get pornographyMilestone14Title => 'Two Weeks, Know the Triggers';
+  String get pornographyMilestone14Title => 'Two weeks, know the triggers';
 
   @override
   String get pornographyMilestone14Description =>
       'Two weeks is enough time to notice some recurring situations: stress, boredom or loneliness, for example. Knowing them helps you plan.';
 
   @override
-  String get pornographyMilestone30Title => 'A Month in Charge';
+  String get pornographyMilestone30Title => 'A month in charge';
 
   @override
   String get pornographyMilestone30Description =>
-      'Thirty days of working on control. Problematic use is about distress and interference with life, not a moral scorecard or a viewing-number contest.';
+      'Thirty days of working on control. Problematic use means distress and interference with life. Focus on how the change is helping you.';
 
   @override
-  String get pornographyMilestone90Title => 'Three Months, Change That Sticks';
+  String get pornographyMilestone90Title => 'Three months, change that sticks';
 
   @override
   String get pornographyMilestone90Description =>
       'Three months. Treatments that build coping skills have shown lasting reductions in problematic use. Your own routines and supports matter too.';
 
   @override
-  String get pornographyMilestone180Title => 'Half a Year of Control';
+  String get pornographyMilestone180Title => 'Half a year of control';
 
   @override
   String get pornographyMilestone180Description =>
       'Six months. Research on therapy for compulsive sexual behaviour shows improvements can last. You\'ve kept your own change going this long.';
 
   @override
-  String get pornographyMilestone365Title => 'One Year. Your Call.';
+  String get pornographyMilestone365Title => 'One year';
 
   @override
   String get pornographyMilestone365Description =>
-      'A full year of making this choice. The achievement is more control and less interference with your life, not a mythical brain reset.';
+      'A full year of making this choice. You can recognise the progress in having more control and less interference with your life.';
 
   @override
-  String get pornographyMilestone730Title => 'Two Years. Steady.';
+  String get pornographyMilestone730Title => 'Two years';
 
   @override
   String get pornographyMilestone730Description =>
-      'Two years of keeping the pattern in check. If life feels more manageable, that\'s a meaningful result. No grand claims needed.';
+      'Two years of keeping the pattern in check. If life feels more manageable, that\'s a meaningful result.';
 
   @override
-  String get pornographyMilestone1095Title => 'Three Years of Control';
+  String get pornographyMilestone1095Title => 'Three years of control';
 
   @override
   String get pornographyMilestone1095Description =>
       'Three years. You\'ve handled different moods, stresses and routines without slipping back into the pattern you wanted to change.';
 
   @override
-  String get pornographyMilestone1460Title => 'Four Years, Your Terms';
+  String get pornographyMilestone1460Title => 'Four years, your terms';
 
   @override
   String get pornographyMilestone1460Description =>
-      'Four years. The important thing is how you\'re functioning and feeling, not whether someone else\'s rules say you\'re doing recovery right.';
+      'Four years of working on the pattern you wanted to change. Judge your progress by how you\'re functioning and feeling.';
 
   @override
-  String get pornographyMilestone1825Title => 'Five Years. That\'s Real.';
+  String get pornographyMilestone1825Title => 'Five years';
 
   @override
   String get pornographyMilestone1825Description =>
       'Half a decade of greater control over a behaviour that used to cause problems. Five years is worth celebrating on your own terms.';
 
   @override
-  String get customMilestone1Title => 'One Day Down';
+  String get customMilestone1Title => 'One day down';
 
   @override
   String get customMilestone1Description =>
       'You made it through a full day without the habit you chose to change. That\'s where this starts. If you\'re stopping a substance, follow safe withdrawal advice.';
 
   @override
-  String get customMilestone3Title => 'Three Days. Here We Go.';
+  String get customMilestone3Title => 'Three days';
 
   @override
   String get customMilestone3Description =>
-      'Three days without your old pattern. Some changes are hardest early; others take longer. Either way, you\'ve started.';
+      'Three days without your old pattern. Some changes are hardest early; others take longer.';
 
   @override
-  String get customMilestone7Title => 'A Whole Week';
+  String get customMilestone7Title => 'A whole week';
 
   @override
   String get customMilestone7Description =>
       'Seven days. You\'ve seen a full week\'s worth of routines without the habit. That\'s useful experience to build on.';
 
   @override
-  String get customMilestone14Title => 'Two Weeks in the Bag';
+  String get customMilestone14Title => 'Two weeks in the bag';
 
   @override
   String get customMilestone14Description =>
       'Fourteen days. You\'re learning when the old urge turns up and what actually helps. Keep the useful bits.';
 
   @override
-  String get customMilestone30Title => 'One Month. Nice.';
+  String get customMilestone30Title => 'One month';
 
   @override
   String get customMilestone30Description =>
       'Thirty days of doing something differently. That\'s long enough to notice which routines help and which ones don\'t.';
 
   @override
-  String get customMilestone90Title => 'Three Months Clear';
+  String get customMilestone90Title => 'Three months clear';
 
   @override
   String get customMilestone90Description =>
       'Three months. The change has had a chance to meet real life, including the awkward days. You\'ve kept going.';
 
   @override
-  String get customMilestone180Title => 'Half a Year';
+  String get customMilestone180Title => 'Half a year';
 
   @override
   String get customMilestone180Description =>
-      'Six months. Whether the benefits are obvious or subtle, you\'ve kept a decision going for half a year. That counts.';
+      'Six months. Whether the benefits are obvious or subtle, you\'ve kept a decision going for half a year.';
 
   @override
-  String get customMilestone365Title => 'A Full Year. Well Done.';
+  String get customMilestone365Title => 'A full year';
 
   @override
   String get customMilestone365Description =>
-      'One year. Birthdays, seasons, workdays and days off. You\'ve made room for a different habit through all of it.';
+      'You\'ve made room for a different habit through a full year of birthdays, seasons, workdays and days off.';
 
   @override
-  String get customMilestone730Title => 'Two Years. Solid Work.';
+  String get customMilestone730Title => 'Two years';
 
   @override
   String get customMilestone730Description =>
-      'Two years. The routines and support that got you started have carried you through another year. That\'s worth a proper nod.';
+      'Two years. The routines and support that got you started have carried you through another year.';
 
   @override
-  String get customMilestone1095Title => 'Three Years, Still Going';
+  String get customMilestone1095Title => 'Three years, still going';
 
   @override
   String get customMilestone1095Description =>
       'Three years. The old habit has had fewer and fewer chances to run your day. You\'ve built something that lasts.';
 
   @override
-  String get customMilestone1460Title => 'Four Years. Fair Play.';
+  String get customMilestone1460Title => 'Four years';
 
   @override
   String get customMilestone1460Description =>
-      'Four years. No universal health deadline to hit—just a lot of sustained work that deserves recognition.';
+      'Four years of sustained work on the habit you chose to change. You can be proud of keeping it going.';
 
   @override
-  String get customMilestone1825Title => 'Five Years. Huge.';
+  String get customMilestone1825Title => 'Five years';
 
   @override
   String get customMilestone1825Description =>
@@ -2707,49 +2706,49 @@ class AppLocalizationsEn extends AppLocalizations {
   String get ssriSubtitleNotStarted => 'See what happens when you taper off';
 
   @override
-  String get ssriMilestone3Title => 'Day Three: Take It Easy';
+  String get ssriMilestone3Title => 'Day three: take it easy';
 
   @override
   String get ssriMilestone3Description =>
       'SSRI discontinuation can bring dizziness, nausea, insomnia and \'brain zaps\'. Symptoms vary by medicine and taper. Contact your prescriber if they\'re difficult.';
 
   @override
-  String get ssriMilestone7Title => 'One Week After Stopping';
+  String get ssriMilestone7Title => 'One week after stopping';
 
   @override
   String get ssriMilestone7Description =>
       'Seven days. Some symptoms may be easing; others may only now be noticeable, especially with longer-acting medicines. You don\'t have to push through alone.';
 
   @override
-  String get ssriMilestone14Title => 'Two Weeks, Check In';
+  String get ssriMilestone14Title => 'Two weeks, check in';
 
   @override
   String get ssriMilestone14Description =>
       'Two weeks after stopping. Dizziness, sleep trouble or mood changes may be improving, but symptoms can last longer. Your care plan still matters.';
 
   @override
-  String get ssriMilestone30Title => 'A Month After the Taper';
+  String get ssriMilestone30Title => 'A month after the taper';
 
   @override
   String get ssriMilestone30Description =>
       'A month since stopping your SSRI. Sleep and mood may be settling, or you may need more support. Neither says anything bad about your progress.';
 
   @override
-  String get ssriMilestone90Title => 'Three Months: A Checkpoint';
+  String get ssriMilestone90Title => 'Three months: a checkpoint';
 
   @override
   String get ssriMilestone90Description =>
       'In the ANTLER trial, the difference in withdrawal symptoms was largest around twelve weeks, then narrowed later. Three months is a good time to check how you\'re actually feeling.';
 
   @override
-  String get ssriMilestone180Title => 'Six Months, Your Own Pace';
+  String get ssriMilestone180Title => 'Six months, your own pace';
 
   @override
   String get ssriMilestone180Description =>
       'Six months after stopping. One follow-up found around 65% of participants with available data remained well, but the result isn\'t a promise for everyone.';
 
   @override
-  String get ssriMilestone365Title => 'One Year After the Taper';
+  String get ssriMilestone365Title => 'One year after the taper';
 
   @override
   String get ssriMilestone365Description =>
@@ -2781,93 +2780,93 @@ class AppLocalizationsEn extends AppLocalizations {
   String get snriSubtitleNotStarted => 'See what happens when you taper off';
 
   @override
-  String get snriMilestone3Title => 'Day Three: Get Support';
+  String get snriMilestone3Title => 'Day three: get support';
 
   @override
   String get snriMilestone3Description =>
       'SNRI withdrawal, especially from venlafaxine, can start quickly. Dizziness, nausea, insomnia and \'brain zaps\' can be rough. Speak to your prescriber about symptoms.';
 
   @override
-  String get snriMilestone7Title => 'One Week Into the Change';
+  String get snriMilestone7Title => 'One week into the change';
 
   @override
   String get snriMilestone7Description =>
       'Seven days after stopping. Serotonin and noradrenaline pathways are adjusting, and symptoms may still be intense. Help is available; you needn\'t just endure it.';
 
   @override
-  String get snriMilestone14Title => 'Two Weeks, Still Adjusting';
+  String get snriMilestone14Title => 'Two weeks, still adjusting';
 
   @override
   String get snriMilestone14Description =>
       'Two weeks. Physical discontinuation symptoms may be easing, but the timeline differs from person to person. Keep your clinician in the loop.';
 
   @override
-  String get snriMilestone30Title => 'A Month After SNRI Taper';
+  String get snriMilestone30Title => 'A month after SNRI taper';
 
   @override
   String get snriMilestone30Description =>
-      'Thirty days since stopping. Sleep, energy and mood might be more settled, or not yet. Recovery isn\'t a contest.';
+      'Thirty days since stopping. Sleep, energy and mood might be more settled, or not yet.';
 
   @override
-  String get snriMilestone90Title => 'Three Months, Worth Checking';
+  String get snriMilestone90Title => 'Three months, worth checking';
 
   @override
   String get snriMilestone90Description =>
       'Three months after stopping. Many acute symptoms ease within weeks, but longer withdrawal does happen. Check in about anything persistent or worsening.';
 
   @override
-  String get snriMilestone180Title => 'Half a Year On';
+  String get snriMilestone180Title => 'Half a year on';
 
   @override
   String get snriMilestone180Description =>
-      'Six months. Your experience may be smoother now, or you may still need support. There\'s no guaranteed brain-chemistry reset on this date.';
+      'Six months after stopping. Your experience may be smoother now, or you may still need support. Recovery takes different amounts of time for different people.';
 
   @override
-  String get snriMilestone365Title => 'One Year After Stopping';
+  String get snriMilestone365Title => 'One year after stopping';
 
   @override
   String get snriMilestone365Description =>
       'A full year since your SNRI taper. If you\'re well, that\'s significant. Keep treating your mental health as something worth looking after.';
 
   @override
-  String get snriMilestone730Title => 'Two Years. Good Progress.';
+  String get snriMilestone730Title => 'Two years';
 
   @override
   String get snriMilestone730Description =>
-      'Two years since stopping your SNRI. A substantial stretch, even without a universal medical finish line.';
+      'Two years since stopping your SNRI. How you\'re feeling matters more than the date.';
 
   @override
   String get snriReferenceDay730 =>
       'Two Years After SNRIs: A Progress Marker\n\nSource: Royal College of Psychiatrists — Stopping antidepressants\n\nThe Royal College advises that antidepressants should not usually be stopped suddenly. Tapering should be adapted to the individual, and higher-withdrawal-risk medicines such as duloxetine or venlafaxine may need slower reductions over months or longer.\n\nThe guidance does not define a two-year biological recovery threshold after stopping an SNRI. This anniversary celebrates sustained progress without claiming that a specific brain or body process completes today.';
 
   @override
-  String get snriMilestone1095Title => 'Three Years, Steady';
+  String get snriMilestone1095Title => 'Three years, steady';
 
   @override
   String get snriMilestone1095Description =>
-      'Three years. You\'ve had a lot of time to find what supports your wellbeing. That\'s a meaningful part of the story.';
+      'Three years. You\'ve had a lot of time to find what supports your wellbeing.';
 
   @override
   String get snriReferenceDay1095 =>
       'Three Years After SNRIs: Progress That Lasts\n\nSource: Royal College of Psychiatrists — Stopping antidepressants\n\nWithdrawal experiences differ from person to person. Tapering speed should reflect the individual, treatment duration, prior withdrawal symptoms, and the medicine being taken.\n\nNo clinical guidance establishes three years as a universal SNRI recovery deadline. This milestone recognises the progress and stability maintained over three years.';
 
   @override
-  String get snriMilestone1460Title => 'Four Years of Looking After You';
+  String get snriMilestone1460Title => 'Four years of looking after you';
 
   @override
   String get snriMilestone1460Description =>
-      'Four years after the taper. What matters is how you\'re doing and getting the care you need, not some imaginary recovery deadline.';
+      'Four years after the taper. Keep checking how you\'re doing and getting the care you need.';
 
   @override
   String get snriReferenceDay1460 =>
       'Four Years After SNRIs: Long-Term Progress\n\nSource: Royal College of Psychiatrists — Stopping antidepressants\n\nThe Royal College describes antidepressant withdrawal as variable and recommends gradual, individualised dose reductions. Duloxetine and venlafaxine are among medicines with a higher risk of withdrawal symptoms.\n\nThat evidence does not create a four-year neurological milestone. Today celebrates four years of sustained progress, not a claim that everyone follows the same biological timetable.';
 
   @override
-  String get snriMilestone1825Title => 'Five Years. Worth a Moment.';
+  String get snriMilestone1825Title => 'Five years';
 
   @override
   String get snriMilestone1825Description =>
-      'Half a decade since stopping your SNRI. If that\'s worked well for you, it\'s a big personal milestone. Take a moment for it.';
+      'Half a decade since stopping your SNRI. If that\'s worked well for you, it\'s a big personal milestone.';
 
   @override
   String get snriReferenceDay1825 =>
@@ -2899,89 +2898,89 @@ class AppLocalizationsEn extends AppLocalizations {
   String get tcaSubtitleNotStarted => 'See what happens when you taper off';
 
   @override
-  String get tcaMilestone3Title => 'Day Three: Go Carefully';
+  String get tcaMilestone3Title => 'Day three: go carefully';
 
   @override
   String get tcaMilestone3Description =>
       'Stopping a tricyclic antidepressant can bring nausea, insomnia, anxiety or dizziness, especially after a fast taper. Tell your prescriber if symptoms are difficult.';
 
   @override
-  String get tcaMilestone7Title => 'One Week After the Taper';
+  String get tcaMilestone7Title => 'One week after the taper';
 
   @override
   String get tcaMilestone7Description =>
       'Seven days. Withdrawal symptoms may still be active, and that\'s not unusual. Medical support can help you work through them.';
 
   @override
-  String get tcaMilestone14Title => 'Two Weeks, Taking Stock';
+  String get tcaMilestone14Title => 'Two weeks, taking stock';
 
   @override
   String get tcaMilestone14Description =>
       'Two weeks after stopping. Early symptoms often ease around this period, though some persist much longer. Check how you\'re really doing.';
 
   @override
-  String get tcaMilestone30Title => 'A Month After Stopping';
+  String get tcaMilestone30Title => 'A month after stopping';
 
   @override
   String get tcaMilestone30Description =>
-      'Thirty days since your TCA taper. Some people are past the acute symptoms; others need more time and care. Both are valid.';
+      'Thirty days since your TCA taper. Some people are past the acute symptoms; others need more time and care.';
 
   @override
-  String get tcaMilestone90Title => 'Three Months On';
+  String get tcaMilestone90Title => 'Three months on';
 
   @override
   String get tcaMilestone90Description =>
       'Three months. That\'s a substantial stretch after discontinuation, even if mood, sleep or other symptoms still need attention.';
 
   @override
-  String get tcaMilestone180Title => 'Six Months, Looking After You';
+  String get tcaMilestone180Title => 'Six months, looking after you';
 
   @override
   String get tcaMilestone180Description =>
       'Half a year after stopping. Studies across antidepressants find many people remain well, but relapse is possible. Keep your support in place.';
 
   @override
-  String get tcaMilestone365Title => 'A Year Since the Taper';
+  String get tcaMilestone365Title => 'A year since the taper';
 
   @override
   String get tcaMilestone365Description =>
       'A full year. Research across antidepressants shows some people stay well after stopping and others relapse. If you\'re doing well, take the win.';
 
   @override
-  String get tcaMilestone730Title => 'Two Years. Solid.';
+  String get tcaMilestone730Title => 'Two years';
 
   @override
   String get tcaMilestone730Description =>
-      'Two years since stopping your TCA. That\'s a long personal milestone, not a fixed neurological reset. How you\'re feeling matters most.';
+      'Two years since stopping your TCA. How you\'re feeling matters more than the date.';
 
   @override
   String get tcaReferenceDay730 =>
       'Two Years After TCAs: Sustained Progress\n\nSource: NICE NG222 — Depression in adults: treatment and management\n\nNICE states that withdrawal symptoms can occur with tricyclic antidepressants (TCAs), that experiences vary between people, and that dose reduction should be gradual and individually paced. Difficult withdrawal can last longer than the usual early window.\n\nNICE does not define a two-year biological recovery threshold after stopping a TCA. This anniversary celebrates two years of sustained progress without assigning a universal finish line to recovery.';
 
   @override
-  String get tcaMilestone1095Title => 'Three Years, Still Going';
+  String get tcaMilestone1095Title => 'Three years, still going';
 
   @override
   String get tcaMilestone1095Description =>
-      'Three years. Whatever support and treatment decisions have helped, they\'ve got you this far. Worth acknowledging.';
+      'Three years. Whatever support and treatment decisions have helped, they\'ve got you this far.';
 
   @override
   String get tcaReferenceDay1095 =>
       'Three Years After TCAs: Progress That Holds\n\nSource: NICE NG222 — Depression in adults: treatment and management\n\nNICE recommends that antidepressant withdrawal be tailored to the person, taking account of the medicine, treatment duration, symptoms, and response to each dose reduction. TCAs are explicitly among the antidepressants that can cause withdrawal symptoms.\n\nThe guideline does not identify three years as a universal TCA recovery deadline. This milestone recognises the stability, routines, and progress maintained across three years.';
 
   @override
-  String get tcaMilestone1460Title => 'Four Years, Your Pace';
+  String get tcaMilestone1460Title => 'Four years, your pace';
 
   @override
   String get tcaMilestone1460Description =>
-      'Four years after the taper. No universal timetable, no prize for doing without care. Just your progress and what keeps you well.';
+      'Four years after the taper. Recovery takes different amounts of time for different people. Keep using the care that helps you stay well.';
 
   @override
   String get tcaReferenceDay1460 =>
       'Four Years After TCAs: Long-Term Progress\n\nSource: NICE NG222 — Depression in adults: treatment and management\n\nNICE describes antidepressant withdrawal as variable rather than governed by one fixed timetable. It recommends gradual dose reductions and adjusting the pace to the individual\'s symptoms and circumstances.\n\nThere is no evidence-based four-year biological threshold in the guideline. Four years is still a meaningful marker of long-term progress and of the ground held over time.';
 
   @override
-  String get tcaMilestone1825Title => 'Five Years. Worth Celebrating.';
+  String get tcaMilestone1825Title => 'Five years';
 
   @override
   String get tcaMilestone1825Description =>
@@ -3017,49 +3016,49 @@ class AppLocalizationsEn extends AppLocalizations {
   String get maoiSubtitleNotStarted => 'See what happens when you taper off';
 
   @override
-  String get maoiMilestone3Title => 'Day Three: Medical Support';
+  String get maoiMilestone3Title => 'Day three: medical support';
 
   @override
   String get maoiMilestone3Description =>
       'MAOI discontinuation can be serious. Agitation, confusion, fever or unusual muscle jerks need urgent medical attention. Follow a prescriber-led plan.';
 
   @override
-  String get maoiMilestone7Title => 'One Week, Still Cautious';
+  String get maoiMilestone7Title => 'One week, still cautious';
 
   @override
   String get maoiMilestone7Description =>
       'Seven days after stopping. MAO enzyme activity is recovering, but drug interactions and withdrawal risks may still matter. Stick with medical advice.';
 
   @override
-  String get maoiMilestone14Title => 'Two Weeks: Check the Plan';
+  String get maoiMilestone14Title => 'Two weeks: check the plan';
 
   @override
   String get maoiMilestone14Description =>
       'Around two weeks is an important point for many irreversible MAOIs, but interaction precautions depend on the drug. Only change food or medicine restrictions with your prescriber.';
 
   @override
-  String get maoiMilestone30Title => 'A Month After Stopping';
+  String get maoiMilestone30Title => 'A month after stopping';
 
   @override
   String get maoiMilestone30Description =>
       'Thirty days since stopping your MAOI. The early interaction window may have passed, but mood and withdrawal symptoms still deserve attention.';
 
   @override
-  String get maoiMilestone90Title => 'Three Months, Check In';
+  String get maoiMilestone90Title => 'Three months, check in';
 
   @override
   String get maoiMilestone90Description =>
-      'Three months since stopping. How you\'re sleeping, coping and feeling matters much more than a supposed brain-chemistry deadline.';
+      'Three months since stopping. Check how you\'re sleeping, coping and feeling, and get support where you need it.';
 
   @override
-  String get maoiMilestone180Title => 'Half a Year On';
+  String get maoiMilestone180Title => 'Half a year on';
 
   @override
   String get maoiMilestone180Description =>
       'Six months after your MAOI taper. That\'s a substantial stretch of managing treatment and wellbeing. Keep using whatever support works.';
 
   @override
-  String get maoiMilestone365Title => 'One Year After the Taper';
+  String get maoiMilestone365Title => 'One year after the taper';
 
   @override
   String get maoiMilestone365Description =>
@@ -3569,33 +3568,33 @@ class AppLocalizationsEn extends AppLocalizations {
       'Two Years Without Meth: Thinking and Mood Keep Improving\n\nSource: Iudicello et al., \"Longer Term Improvement in Neurocognitive Functioning and Affective Distress Among Methamphetamine Users Who Achieve Stable Abstinence,\" Journal of Clinical and Experimental Neuropsychology (2010), on PubMed Central\n\nRecovery That Continues Past a Year\nThis study followed methamphetamine users for about 13 months and compared stable abstainers with continued users and healthy controls. Stable abstinence improved overall thinking and reduced emotional distress, with gains continuing beyond a year.\n\nWhat Improves\n• Overall thinking in abstainers caught up to healthy controls, while continued users stayed significantly impaired\n• The biggest gains were in processing speed and motor ability, especially for those most impaired at the start\n• Mood improved markedly: only the abstainers showed significant improvement in depression and overall mood\n\nRecovery Signal\nStable abstainers caught up to healthy controls on overall thinking and reported less emotional distress. Verbal learning, working memory, planning, and focus can keep improving beyond the first year, so the recovery trend continues into the second year.\n\nTwo Years In\nThe evidence-based message: sustained abstinence keeps paying off well past the first year — sharper thinking, better mood, and steadily improving function — even if a few areas take longer to come back.';
 
   @override
-  String get methMilestone1095Title => 'Three Years, Still Clear';
+  String get methMilestone1095Title => 'Three years, still clear';
 
   @override
   String get methMilestone1095Description =>
-      'Three years. This isn\'t a brief break. It\'s a change you\'ve carried through real life, and that\'s worth being proud of.';
+      'Three years without meth. You\'ve kept this change going through everyday life.';
 
   @override
   String get methReferenceDay1095 =>
       'Three Years - Recovery Endures\n\nSource: Cao et al., \"Magnitude and Abstinence Trajectories of Neurocognitive Deficits in Methamphetamine Use Disorder: A Systematic Review and Meta-analysis,\" Journal of Addiction Medicine (2026), PubMed\n\nA 2026 systematic review and meta-analysis synthesized 68 independent studies involving 9,045 participants. Its abstinence-trajectory analyses used windows only up to 280 days, and certainty across domains was rated very low. That evidence cannot establish a biological recovery deadline at this anniversary.\n\nThree years without meth is sustained change measured in years, not weeks. The achievement is the durability itself: recovery routines and supports have had another full year to take root.';
 
   @override
-  String get methMilestone1460Title => 'Four Years Without Meth';
+  String get methMilestone1460Title => 'Four years without meth';
 
   @override
   String get methMilestone1460Description =>
-      'Four years. There\'s no universal brain-healing finish line, but there are four years you didn\'t go back. That\'s substantial.';
+      'Four years without meth. Recovery varies, and you\'ve given yourself four years without renewed exposure.';
 
   @override
   String get methReferenceDay1460 =>
       'Four Years - Deep Foundations\n\nSource: Cao et al., \"Magnitude and Abstinence Trajectories of Neurocognitive Deficits in Methamphetamine Use Disorder: A Systematic Review and Meta-analysis,\" Journal of Addiction Medicine (2026), PubMed\n\nA 2026 systematic review and meta-analysis synthesized 68 independent studies involving 9,045 participants. Its abstinence-trajectory analyses used windows only up to 280 days, and certainty across domains was rated very low. That evidence cannot establish a biological recovery deadline at this anniversary.\n\nFour years is a durable stretch of change. Research does not define a four-year brain-recovery finish line, so this milestone celebrates another full year of protecting what you have built.';
 
   @override
-  String get methMilestone1825Title => 'Five Years. Massive.';
+  String get methMilestone1825Title => 'Five years';
 
   @override
   String get methMilestone1825Description =>
-      'Half a decade free of meth. Five years of mornings, weekends, difficult days and ordinary life. You\'ve held onto this change through all of it.';
+      'You\'ve stayed free of meth through five years of mornings, weekends, difficult days and ordinary life.';
 
   @override
   String get methReferenceDay1825 =>
@@ -3962,32 +3961,32 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
-  String get vapingMilestone730Title => 'Two Years Vape-Free';
+  String get vapingMilestone730Title => 'Two years vape-free';
 
   @override
   String get vapingMilestone730Description =>
-      'Two years without a vape. You\'ve gone 730 days without reinforcing that nicotine habit. That\'s a real achievement.';
+      'Two years without a vape. You\'ve gone 730 days without reinforcing that nicotine habit.';
 
   @override
-  String get vapingMilestone1095Title => 'Three Years. No Vape.';
+  String get vapingMilestone1095Title => 'Three years';
 
   @override
   String get vapingMilestone1095Description =>
       'Three years vape-free. The long-term health picture is still being studied, but three years without going back speaks for itself.';
 
   @override
-  String get vapingMilestone1460Title => 'Four Years, Still Clear';
+  String get vapingMilestone1460Title => 'Four years, still clear';
 
   @override
   String get vapingMilestone1460Description =>
       'Four years without vaping. The habit hasn\'t had a place in your day for a long time. Nice work keeping it that way.';
 
   @override
-  String get vapingMilestone1825Title => 'Five Years. Big Deal.';
+  String get vapingMilestone1825Title => 'Five years';
 
   @override
   String get vapingMilestone1825Description =>
-      'Half a decade vape-free. We don\'t need to invent a five-year medical reset to say it: this is a huge bit of follow-through.';
+      'Half a decade vape-free. You\'ve kept vaping out of your life for five years.';
 
   @override
   String get vapingLongTermReference =>
@@ -4002,62 +4001,62 @@ class AppLocalizationsEn extends AppLocalizations {
       'What vaping exposes you to\n\nSource: CDC — Health Effects of Vaping\n\nCDC says most e-cigarettes contain addictive nicotine. Vape aerosol can contain nicotine, cancer-causing chemicals, heavy metals such as nickel, tin and lead, tiny particles that reach deep into the lungs, volatile organic compounds, and some harmful flavoring chemicals. Nicotine withdrawal can include irritability, anxiety or restlessness, low mood, sleep and concentration problems, hunger and cravings, and these symptoms fade over time. Long-term vaping effects are still being studied, so Quitter celebrates sustained abstinence instead of borrowing cigarette carbon-monoxide, tar, cancer or heart-risk timelines.';
 
   @override
-  String get adderallMilestone730Title => 'Two Years Without Misuse';
+  String get adderallMilestone730Title => 'Two years without misuse';
 
   @override
   String get adderallMilestone730Description =>
-      'Two years. You\'ve kept Adderall misuse out of the picture while life carried on. That\'s solid work.';
+      'Two years. You\'ve kept Adderall misuse out of the picture while life carried on.';
 
   @override
   String get adderallReferenceDay730 =>
       'Two Years Off Adderall: Durable Progress\n\nSource: SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSA’s guide covers amphetamine-type stimulants, including prescription stimulant misuse, and supports evidence-based care for recovery. It does not define a two-year biological reset.\n\nTwo years is still a major achievement. You have maintained change over a long stretch; celebrate the stability you’ve built and keep using what works.';
 
   @override
-  String get adderallMilestone1095Title => 'Three Years of Progress';
+  String get adderallMilestone1095Title => 'Three years of progress';
 
   @override
   String get adderallMilestone1095Description =>
-      'Three years. The habits and support you\'ve built have been tested by plenty of real life. And they\'re still here.';
+      'Three years. The habits and support you\'ve built have been tested by plenty of real life.';
 
   @override
   String get adderallReferenceDay1095 =>
       'Three Years Off Adderall: Recovery With Momentum\n\nSource: SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSA supports evidence-based treatment and long-term recovery from stimulant use disorders, including problems involving prescription stimulants. The guide does not claim that a particular brain change finishes at three years.\n\nThree years reflects durable change carried through ordinary days as well as difficult ones. Keep the routines, relationships, and support that helped you reach this point.';
 
   @override
-  String get adderallMilestone1460Title => 'Four Years, Still Clear';
+  String get adderallMilestone1460Title => 'Four years, still clear';
 
   @override
   String get adderallMilestone1460Description =>
-      'Four years without misuse. Not a short-lived burst of motivation. A change you\'ve kept making, over and over.';
+      'Four years without misuse. You\'ve kept making this choice through changes in motivation and everyday life.';
 
   @override
   String get adderallReferenceDay1460 =>
       'Four Years Off Adderall: Long-Term Change in Practice\n\nSource: SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSA’s guide focuses on treatments and supports that help people achieve long-term recovery. It does not define a four-year medical finish line, so this milestone is about sustained progress rather than an invented health promise.\n\nFour years shows consistency on a genuinely long timescale. Protect the structures and people that keep your progress steady.';
 
   @override
-  String get adderallMilestone1825Title => 'Five Years. Huge.';
+  String get adderallMilestone1825Title => 'Five years';
 
   @override
   String get adderallMilestone1825Description =>
-      'Half a decade without misusing Adderall. Five years of protecting the life you\'ve built. Take this one in.';
+      'Half a decade without misusing Adderall. Five years of protecting the life you\'ve built.';
 
   @override
   String get adderallReferenceDay1825 =>
       'Five Years Off Adderall: Half a Decade of Progress\n\nSource: SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSA recognizes long-term recovery as an important goal of stimulant-use-disorder care. Its evidence guide does not promise a special biological event at five years, and this milestone does not need one to matter.\n\nFive years is 1,825 days of maintaining a different direction. That is a substantial body of lived evidence that your change can endure. Celebrate it, then keep doing the things that made it possible.';
 
   @override
-  String get alcoholMilestone730Title => 'Two Years. Well Played.';
+  String get alcoholMilestone730Title => 'Two years';
 
   @override
   String get alcoholMilestone730Description =>
-      'Two full years without alcohol. Holidays, stress and ordinary Tuesdays—handled without a drink. Better sleep and blood pressure may be among the gains.';
+      'Two full years without alcohol. Holidays, stress and ordinary Tuesdays, handled without a drink. Better sleep and blood pressure may be among the gains.';
 
   @override
   String get alcoholReferenceDay730 =>
       'Sustained Change\n\nTwo years alcohol-free represents sustained behavioural change. The benefits extend beyond removing alcohol itself: daily routines, relationships, physical health and psychological well-being are all important parts of long-term recovery.';
 
   @override
-  String get alcoholMilestone1095Title => 'Three Years, Still Clear';
+  String get alcoholMilestone1095Title => 'Three years, still clear';
 
   @override
   String get alcoholMilestone1095Description =>
@@ -4068,7 +4067,7 @@ class AppLocalizationsEn extends AppLocalizations {
       'A Different Normal\n\nThree years of abstinence demonstrates consistency across a substantial period of life. Alcohol is no longer part of your daily routine, and the habits supporting that change have been reinforced over thousands of decisions.';
 
   @override
-  String get alcoholMilestone1460Title => 'Four Years. Look at That.';
+  String get alcoholMilestone1460Title => 'Four years';
 
   @override
   String get alcoholMilestone1460Description =>
@@ -4079,40 +4078,40 @@ class AppLocalizationsEn extends AppLocalizations {
       'Long-Term Progress\n\nFour years without alcohol represents a major period without repeated alcohol-related exposure. Long-term recovery is built through consistent behaviour, supported by healthier routines and meaningful improvements in everyday life.';
 
   @override
-  String get alcoholMilestone1825Title => 'Five Years. That’s Massive.';
+  String get alcoholMilestone1825Title => 'Five years';
 
   @override
   String get alcoholMilestone1825Description =>
-      'Half a decade without alcohol. Five years of birthdays, bad days and everything between. The long-term health benefits matter, and so does what you\'ve done.';
+      'Five years without alcohol, through birthdays, bad days and everything between. The long-term health benefits keep adding up.';
 
   @override
   String get alcoholReferenceDay1825 =>
       'Five Years of Freedom\n\nHalf a decade without drinking is a significant achievement in its own right. Five years of sustained abstinence means five years without alcohol continuing to damage your health. It is a milestone worth recognising and celebrating.';
 
   @override
-  String get ghbMilestone730Title => 'Two Years. Properly.';
+  String get ghbMilestone730Title => 'Two years';
 
   @override
   String get ghbMilestone730Description =>
-      'Two years without GHB. You\'ve kept the change through more than just the difficult early days. Take the win.';
+      'Two years without GHB. You\'ve kept the change through more than just the difficult early days.';
 
   @override
   String get ghbReferenceDay730 =>
       'Two Years Without GHB: Durable Progress\n\nSource: SAMHSA, Recovery and Recovery Support\n\nSAMHSA describes recovery as an ongoing, individual process of change. It does not set a GHB-specific biological endpoint at any of these anniversaries.\n\nTwo years is 730 days of maintaining a different direction. Celebrate the durability and keep the people, routines, and support that make it sustainable.';
 
   @override
-  String get ghbMilestone1095Title => 'Three Years Clear';
+  String get ghbMilestone1095Title => 'Three years clear';
 
   @override
   String get ghbMilestone1095Description =>
-      'Three years. There isn\'t a magic medical finish line here, but maintaining this change for that long is genuinely worth a celebration.';
+      'Three years without GHB. Keeping this change going for that long is worth celebrating.';
 
   @override
   String get ghbReferenceDay1095 =>
       'Three Years Without GHB: Stronger Ground\n\nSource: SAMHSA, Recovery and Recovery Support\n\nSAMHSA describes recovery as an ongoing, individual process of change. It does not set a GHB-specific biological endpoint at any of these anniversaries.\n\nThree years is 1,095 days of maintained change. That is a substantial record of stability and of protecting what helps recovery continue.';
 
   @override
-  String get ghbMilestone1460Title => 'Four Years of Follow-Through';
+  String get ghbMilestone1460Title => 'Four years of follow-through';
 
   @override
   String get ghbMilestone1460Description =>
@@ -4123,7 +4122,7 @@ class AppLocalizationsEn extends AppLocalizations {
       'Four Years Without GHB: Lasting Change\n\nSource: SAMHSA, Recovery and Recovery Support\n\nSAMHSA describes recovery as an ongoing, individual process of change. It does not set a GHB-specific biological endpoint at any of these anniversaries.\n\nFour years is 1,460 days of carrying change through ordinary life. The durability itself deserves recognition, along with the support and habits behind it.';
 
   @override
-  String get ghbMilestone1825Title => 'Five Years Without GHB';
+  String get ghbMilestone1825Title => 'Five years without GHB';
 
   @override
   String get ghbMilestone1825Description =>
@@ -4134,21 +4133,21 @@ class AppLocalizationsEn extends AppLocalizations {
       'Five Years Without GHB: Half a Decade\n\nSource: SAMHSA, Recovery and Recovery Support\n\nSAMHSA describes recovery as an ongoing, individual process of change. It does not set a GHB-specific biological endpoint at any of these anniversaries.\n\nFive years is 1,825 days of maintained change: half a decade of repeatedly choosing a different direction. That scale of commitment deserves real credit.';
 
   @override
-  String get inhalantsMilestone1095Title => 'Three Years Clear';
+  String get inhalantsMilestone1095Title => 'Three years clear';
 
   @override
   String get inhalantsMilestone1095Description =>
-      'Three years. No made-up brain-reset date. Just three years without going back to inhalants. That speaks for itself.';
+      'Three years without inhalants. You\'ve avoided renewed exposure throughout that time.';
 
   @override
-  String get inhalantsMilestone1460Title => 'Four Years of Staying Clear';
+  String get inhalantsMilestone1460Title => 'Four years of staying clear';
 
   @override
   String get inhalantsMilestone1460Description =>
-      'Four years away from inhalants. You\'ve stuck with the change through a lot of ordinary life. Good work.';
+      'Four years away from inhalants. You\'ve stuck with the change through a lot of ordinary life.';
 
   @override
-  String get inhalantsMilestone1825Title => 'Five Years. Proper Milestone.';
+  String get inhalantsMilestone1825Title => 'Five years';
 
   @override
   String get inhalantsMilestone1825Description =>
@@ -4167,32 +4166,32 @@ class AppLocalizationsEn extends AppLocalizations {
       'Five Years Off Inhalants\n\nSource: Cairney et al., \"A prospective study of neurocognitive changes 15 years after chronic inhalant abuse,\" Addiction (2013), on PubMed\n\nA Long-Term Milestone\nThe study supports the possibility of substantial neurological and cognitive recovery with long-term abstinence when lead encephalopathy is absent. Its measured checkpoints were two and 15 years, so it does not claim that five years is a universal biological finish line.\n\nFive Years Built\nFive years is durable progress: a large span of life maintained away from inhalants. The evidence supports long-term recovery while recognising that severe lead-related injury can remain persistent.';
 
   @override
-  String get maoiMilestone730Title => 'Two Years. Proper Progress.';
+  String get maoiMilestone730Title => 'Two years';
 
   @override
   String get maoiMilestone730Description =>
-      'Two years after your MAOI taper. There\'s no special biological switch at this date, but two years of managing your wellbeing matters.';
+      'Two years after your MAOI taper. You\'ve spent that time managing your wellbeing.';
 
   @override
-  String get maoiMilestone1095Title => 'Three Years, Steady';
+  String get maoiMilestone1095Title => 'Three years, steady';
 
   @override
   String get maoiMilestone1095Description =>
-      'Three years. You\'ve had another full year to learn what keeps you well. There\'s something worth celebrating in that.';
+      'Three years. You\'ve had another full year to learn what keeps you well.';
 
   @override
-  String get maoiMilestone1460Title => 'Four Years, Still You';
+  String get maoiMilestone1460Title => 'Four years, still you';
 
   @override
   String get maoiMilestone1460Description =>
       'Four years after stopping. Recovery isn\'t one fixed schedule, and continued treatment is never a failure. Recognise your own progress.';
 
   @override
-  String get maoiMilestone1825Title => 'Five Years. Quite Something.';
+  String get maoiMilestone1825Title => 'Five years';
 
   @override
   String get maoiMilestone1825Description =>
-      'Half a decade since stopping your MAOI. If this has been the right path for you, it\'s a big anniversary. Fair play.';
+      'Half a decade since stopping your MAOI. If this has been the right path for you, it\'s a big anniversary.';
 
   @override
   String get maoiReferenceDay730 =>
@@ -4211,7 +4210,7 @@ class AppLocalizationsEn extends AppLocalizations {
       'Five Years After MAOIs\n\nSource: Gahr et al. (2013), systematic review of tranylcypromine withdrawal and discontinuation.\n\nThe MAOI withdrawal literature addresses discontinuation risk and safe stopping; it does not define five years as a cure date or universal biological finish line. Five years is still a major milestone because of the time, habits, and support sustained across 1,825 days.';
 
   @override
-  String get marijuanaMilestone730Title => 'Two Years. Solid Work.';
+  String get marijuanaMilestone730Title => 'Two years';
 
   @override
   String get marijuanaMilestone730Description =>
@@ -4222,7 +4221,7 @@ class AppLocalizationsEn extends AppLocalizations {
       'Two Years Without Cannabis\n\nSource: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nSAMHSA says cannabis use disorder varies by person and life stage and calls for tailored, evidence-based care. It does not define a universal biological recovery threshold at two years.\n\nTwo years therefore marks sustained change, routines, and support, not a medical finish line.';
 
   @override
-  String get marijuanaMilestone1095Title => 'Three Years, Still Clear';
+  String get marijuanaMilestone1095Title => 'Three years, still clear';
 
   @override
   String get marijuanaMilestone1095Description =>
@@ -4233,73 +4232,73 @@ class AppLocalizationsEn extends AppLocalizations {
       'Three Years Without Cannabis\n\nSource: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nThe advisory emphasizes that cannabis-related risks, symptoms, and treatment needs differ across people and stages of life. It does not identify a universal three-year biological endpoint.\n\nThree years celebrates durable choices and the support that helped those choices keep holding.';
 
   @override
-  String get marijuanaMilestone1460Title => 'Four Years. Fair Play.';
+  String get marijuanaMilestone1460Title => 'Four years';
 
   @override
   String get marijuanaMilestone1460Description =>
-      'Four years without cannabis. Life changes, stress happens, and you\'ve kept this part steady. That\'s no small thing.';
+      'Four years without cannabis. Life changes, stress happens, and you\'ve kept this part steady.';
 
   @override
   String get marijuanaReferenceDay1460 =>
       'Four Years Without Cannabis\n\nSource: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nSAMHSA recommends individualized, evidence-based care because cannabis use disorder does not follow one identical course. The advisory does not set a universal four-year recovery threshold.\n\nFour years reflects continuity through changing routines, stresses, and seasons. That consistency is the milestone.';
 
   @override
-  String get marijuanaMilestone1825Title => 'Five Years Without Cannabis';
+  String get marijuanaMilestone1825Title => 'Five years without cannabis';
 
   @override
   String get marijuanaMilestone1825Description =>
-      'Half a decade. No magic brain-reset date needed. Five years of living without the old habit is a very big deal.';
+      'Half a decade without cannabis. You\'ve spent five years living without the old habit.';
 
   @override
   String get marijuanaReferenceDay1825 =>
       'Five Years Without Cannabis\n\nSource: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nThe SAMHSA advisory supports tailored care across the lifespan and does not define a five-year cure date or universal biological finish line for cannabis use disorder.\n\nFive years is a major long-term achievement: sustained direction, practiced routines, and support carried across half a decade.';
 
   @override
-  String get mdmaMilestone730Title => 'Two Years. Still Going.';
+  String get mdmaMilestone730Title => 'Two years';
 
   @override
   String get mdmaMilestone730Description =>
-      'Two years without MDMA. Science doesn\'t give this day a special brain-reset switch. You still get to celebrate it.';
+      'Two years without MDMA. Keeping this change going is worth celebrating.';
 
   @override
   String get mdmaReferenceDay730 =>
       'Two Years Off MDMA\n\nSource: Ung et al. (2026), systematic review and meta-analysis of long-term neurocognitive outcomes after sustained MDMA abstinence.\n\nThe review included studies with at least six months of abstinence, judged the evidence low quality, and did not find that longer abstinence reliably predicted better learning and memory outcomes. It does not establish two years as a universal biological recovery point.\n\nTwo years is still a substantial marker of sustained change, built through repeated choices rather than a medical finish line.';
 
   @override
-  String get mdmaMilestone1095Title => 'Three Years, No Comeback';
+  String get mdmaMilestone1095Title => 'Three years, no comeback';
 
   @override
   String get mdmaMilestone1095Description =>
-      'Three years away from MDMA. The habits and choices behind that have held for another whole year. Nice.';
+      'Three years away from MDMA. The habits and choices behind that have held for another whole year.';
 
   @override
   String get mdmaReferenceDay1095 =>
       'Three Years Off MDMA\n\nSource: Ung et al. (2026), systematic review and meta-analysis of long-term neurocognitive outcomes after sustained MDMA abstinence.\n\nAvailable studies do not define a three-year point when cognitive effects universally resolve. The review found no reliable relationship between longer abstinence and greater learning or memory recovery, and rated the evidence low quality.\n\nThree years therefore celebrates durable momentum and consistency without claiming an unsupported biological deadline.';
 
   @override
-  String get mdmaMilestone1460Title => 'Four Years of Follow-Through';
+  String get mdmaMilestone1460Title => 'Four years of follow-through';
 
   @override
   String get mdmaMilestone1460Description =>
-      'Four years. Whatever else changed in your life, you kept this part steady. Fair play.';
+      'Four years. Whatever else changed in your life, you kept this part steady.';
 
   @override
   String get mdmaReferenceDay1460 =>
       'Four Years Off MDMA\n\nSource: Ung et al. (2026), systematic review and meta-analysis of long-term neurocognitive outcomes after sustained MDMA abstinence.\n\nResearch after sustained abstinence remains limited and does not establish four years as a universal recovery threshold. Some measured differences may persist, while the review cautions that the underlying evidence is low quality.\n\nFour years marks deeply established change across changing routines, stresses, and seasons. That continuity is the achievement.';
 
   @override
-  String get mdmaMilestone1825Title => 'Five Years Without MDMA';
+  String get mdmaMilestone1825Title => 'Five years without MDMA';
 
   @override
   String get mdmaMilestone1825Description =>
-      'Half a decade. You don\'t need a made-up medical milestone to make five years of change worth celebrating. This is big.';
+      'Half a decade without MDMA. You\'ve kept this change going for five years.';
 
   @override
   String get mdmaReferenceDay1825 =>
       'Five Years Off MDMA\n\nSource: Ung et al. (2026), systematic review and meta-analysis of long-term neurocognitive outcomes after sustained MDMA abstinence.\n\nThe current evidence does not support treating five years as a cure date or universal neurocognitive finish line. The review found limited, low-quality evidence and no dependable pattern of greater learning or memory recovery with longer abstinence.\n\nFive years remains a major long-term milestone: half a decade of maintained direction deserves recognition on its own terms.';
 
   @override
-  String get nitrousOxideMilestone730Title => 'Two Years, No Return';
+  String get nitrousOxideMilestone730Title => 'Two years, no return';
 
   @override
   String get nitrousOxideMilestone730Description =>
@@ -4310,18 +4309,18 @@ class AppLocalizationsEn extends AppLocalizations {
       'Two Years - Progress Holds\n\nSource: Marsden, Sharma & Rotella (2022), systematic review of chronic nitrous oxide misuse.\n\nThe review found neurological problems were characteristic of chronic nitrous oxide misuse, vitamin B12 replacement was the main treatment, and partial recovery was the most commonly reported outcome. It did not define a universal multi-year recovery timetable.\n\nTwo years without nitrous oxide is 730 days without renewed exposure. Evidence shows neurological outcomes vary and partial recovery is commonly reported after cessation and treatment, so this milestone celebrates sustained protection rather than a fixed medical endpoint.';
 
   @override
-  String get nitrousOxideMilestone1095Title => 'Three Years of Distance';
+  String get nitrousOxideMilestone1095Title => 'Three years of distance';
 
   @override
   String get nitrousOxideMilestone1095Description =>
-      'Three years. No universal neurological reset date—just a very real three years without nitrous. That\'s worth celebrating.';
+      'Three years without nitrous. You\'ve avoided further exposure throughout that time.';
 
   @override
   String get nitrousOxideReferenceDay1095 =>
       'Three Years - Stronger Ground\n\nSource: Marsden, Sharma & Rotella (2022), systematic review of chronic nitrous oxide misuse.\n\nThe review found neurological problems were characteristic of chronic nitrous oxide misuse, vitamin B12 replacement was the main treatment, and partial recovery was the most commonly reported outcome. It did not define a universal multi-year recovery timetable.\n\nThree years is a long stretch without restarting the exposure that caused the risk. Research does not map nerve recovery to this anniversary; the achievement is maintaining the change for 1095 days.';
 
   @override
-  String get nitrousOxideMilestone1460Title => 'Four Years. Still Clear.';
+  String get nitrousOxideMilestone1460Title => 'Four years';
 
   @override
   String get nitrousOxideMilestone1460Description =>
@@ -4332,18 +4331,18 @@ class AppLocalizationsEn extends AppLocalizations {
       'Four Years - Built to Last\n\nSource: Marsden, Sharma & Rotella (2022), systematic review of chronic nitrous oxide misuse.\n\nThe review found neurological problems were characteristic of chronic nitrous oxide misuse, vitamin B12 replacement was the main treatment, and partial recovery was the most commonly reported outcome. It did not define a universal multi-year recovery timetable.\n\nFour years means another full year of protecting the progress already made. Nitrous oxide studies report variable recovery and persistent deficits in some cases, not a universal four-year finish line.';
 
   @override
-  String get nitrousOxideMilestone1825Title => 'Five Years. What a Win.';
+  String get nitrousOxideMilestone1825Title => 'Five years';
 
   @override
   String get nitrousOxideMilestone1825Description =>
-      'Half a decade without nitrous. Five years of keeping a risky habit out of your life. Take the win.';
+      'Half a decade without nitrous. Five years of keeping a risky habit out of your life.';
 
   @override
   String get nitrousOxideReferenceDay1825 =>
       'Five Years - Lasting Change\n\nSource: Marsden, Sharma & Rotella (2022), systematic review of chronic nitrous oxide misuse.\n\nThe review found neurological problems were characteristic of chronic nitrous oxide misuse, vitamin B12 replacement was the main treatment, and partial recovery was the most commonly reported outcome. It did not define a universal multi-year recovery timetable.\n\nFive years without nitrous oxide is half a decade of sustained change. There is no evidence-based five-year neurological reset date; 1825 days of maintained direction is the milestone.';
 
   @override
-  String get socialMediaMilestone730Title => 'Two Years of Your Time';
+  String get socialMediaMilestone730Title => 'Two years of your time';
 
   @override
   String get socialMediaMilestone730Description =>
@@ -4354,18 +4353,18 @@ class AppLocalizationsEn extends AppLocalizations {
       'Two Years With Social Media in Its Place\n\nSource: Ramadhan et al., “Impacts of digital social media detox for mental health: A systematic review and meta-analysis,” Narra J (2024), PubMed PMID 39280291\n\nThe meta-analysis combined 10 studies of digital-detox interventions. Depressive symptoms improved overall; pooled effects on life satisfaction, stress, and overall mental well-being were not statistically significant.\n\nThe included interventions do not establish a two-year health threshold. Day 730 celebrates two years of sustained, intentional digital choices, not a biological reset deadline.';
 
   @override
-  String get socialMediaMilestone1095Title => 'Three Years. No FOMO Tax.';
+  String get socialMediaMilestone1095Title => 'Three years';
 
   @override
   String get socialMediaMilestone1095Description =>
-      'Three years of keeping social media in its place. Your time has been yours to spend. Pretty good deal.';
+      'Three years of keeping social media in its place. Your time has been yours to spend.';
 
   @override
   String get socialMediaReferenceDay1095 =>
       'Three Years: Attention on Your Terms\n\nSource: Ramadhan et al., “Impacts of digital social media detox for mental health: A systematic review and meta-analysis,” Narra J (2024), PubMed PMID 39280291\n\nThe meta-analysis combined 10 studies of digital-detox interventions. Depressive symptoms improved overall; pooled effects on life satisfaction, stress, and overall mental well-being were not statistically significant.\n\nThe research does not define 1,095 days as a mental-health or neurological endpoint. This milestone celebrates three years of keeping your digital habits deliberate.';
 
   @override
-  String get socialMediaMilestone1460Title => 'Four Years, Feed Optional';
+  String get socialMediaMilestone1460Title => 'Four years, feed optional';
 
   @override
   String get socialMediaMilestone1460Description =>
@@ -4376,18 +4375,18 @@ class AppLocalizationsEn extends AppLocalizations {
       'Four Years: Deliberate by Default\n\nSource: Ramadhan et al., “Impacts of digital social media detox for mental health: A systematic review and meta-analysis,” Narra J (2024), PubMed PMID 39280291\n\nThe meta-analysis combined 10 studies of digital-detox interventions. Depressive symptoms improved overall; pooled effects on life satisfaction, stress, and overall mental well-being were not statistically significant.\n\nThe review does not test a four-year abstinence or reduction milestone. Day 1,460 is a behavioural anniversary: four years of maintaining a healthier boundary through ordinary life.';
 
   @override
-  String get socialMediaMilestone1825Title => 'Five Years. Log Off Victorious.';
+  String get socialMediaMilestone1825Title => 'Five years';
 
   @override
   String get socialMediaMilestone1825Description =>
-      'Half a decade without the old scrolling habit. Five years of choosing what deserves your attention. That\'s genuinely impressive.';
+      'Half a decade without the old scrolling habit. Five years of choosing what deserves your attention.';
 
   @override
   String get socialMediaReferenceDay1825 =>
       'Five Years: Life Beyond the Feed\n\nSource: Ramadhan et al., “Impacts of digital social media detox for mental health: A systematic review and meta-analysis,” Narra J (2024), PubMed PMID 39280291\n\nThe meta-analysis combined 10 studies of digital-detox interventions. Depressive symptoms improved overall; pooled effects on life satisfaction, stress, and overall mental well-being were not statistically significant.\n\nThe review does not establish five-year outcomes. Day 1,825 is worth celebrating for what it actually is: half a decade of intentional digital choices, without an invented brain-reset timeline.';
 
   @override
-  String get ssriMilestone730Title => 'Two Years of Progress';
+  String get ssriMilestone730Title => 'Two years of progress';
 
   @override
   String get ssriMilestone730Description =>
@@ -4398,29 +4397,29 @@ class AppLocalizationsEn extends AppLocalizations {
       'Two Years After SSRIs: Steady Progress\n\nSource: Royal College of Psychiatrists — Stopping antidepressants\n\nThe Royal College says antidepressants should not usually be stopped suddenly and that tapering should be adapted to the individual. Withdrawal experiences vary, and some people need slower reductions over months or longer.\n\nThe guidance does not define a two-year biological recovery threshold after stopping an SSRI. Day 730 celebrates two years of sustained progress, not a fixed neurological timetable.';
 
   @override
-  String get ssriMilestone1095Title => 'Three Years, Doing Well';
+  String get ssriMilestone1095Title => 'Three years, doing well';
 
   @override
   String get ssriMilestone1095Description =>
-      'Three years since stopping. Medication choices are personal, and continued support is sensible. A good year deserves a nod.';
+      'Three years since stopping. Medication choices are personal, and continued support is sensible.';
 
   @override
   String get ssriReferenceDay1095 =>
       'Three Years After SSRIs: Progress Sustained\n\nSource: Royal College of Psychiatrists — Stopping antidepressants\n\nThe guidance describes withdrawal as individual: tapering pace depends on factors such as how long the medicine was taken and whether previous dose reductions caused symptoms.\n\nIt does not establish three years as a universal SSRI recovery deadline. Day 1095 recognises progress maintained over three years without inventing a clinical threshold.';
 
   @override
-  String get ssriMilestone1460Title => 'Four Years. Still Your Call.';
+  String get ssriMilestone1460Title => 'Four years';
 
   @override
   String get ssriMilestone1460Description =>
-      'Four years. This isn\'t about proving you can do without treatment. It\'s about recognising your own progress and what helps you stay well.';
+      'Four years since stopping your SSRI. Recognise your own progress and keep using the treatment and support that help you stay well.';
 
   @override
   String get ssriReferenceDay1460 =>
       'Four Years After SSRIs: Stronger Ground\n\nSource: Royal College of Psychiatrists — Stopping antidepressants\n\nThe Royal College recommends gradual, individualised tapering because withdrawal severity and duration differ between people. Some people need reductions spread across months or longer.\n\nThat evidence does not create a four-year neurological endpoint. Day 1460 celebrates four years of sustained change and the stability built along the way.';
 
   @override
-  String get ssriMilestone1825Title => 'Five Years. Big Anniversary.';
+  String get ssriMilestone1825Title => 'Five years';
 
   @override
   String get ssriMilestone1825Description =>
@@ -4431,29 +4430,29 @@ class AppLocalizationsEn extends AppLocalizations {
       'Five Years After SSRIs: Major Milestone\n\nSource: Royal College of Psychiatrists — Stopping antidepressants\n\nThe guidance focuses on safe, individualised tapering and responding to symptoms rather than assigning one fixed recovery schedule to everyone.\n\nThere is no evidence-based five-year SSRI recovery threshold in that guidance. Day 1825 is still a major personal anniversary: half a decade of sustained progress.';
 
   @override
-  String get steroidsMilestone1095Title => 'Three Years. Solid.';
+  String get steroidsMilestone1095Title => 'Three years';
 
   @override
   String get steroidsMilestone1095Description =>
-      'Three years steroid-free. There\'s no universal hormone-recovery deadline, but there is a very real three years of change here.';
+      'Three years steroid-free. Hormone recovery varies, and you\'ve given yourself three years without another cycle.';
 
   @override
   String get steroidsReferenceDay1095 =>
       'Three Years Off Anabolic Steroids\n\nSource: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nThree Years of Distance\nRecovery after AAS is highly variable. The review reports testosterone and gonadotropin recovery over months, while testicular size and sperm production may recover over months to years. Psychological recovery is less predictable.\n\nWhat This Anniversary Means\nThe review does not define a three-year biological finish line. This milestone marks three years without re-exposure. Persistent low-testosterone, fertility, mood, or sexual symptoms are reasons to seek medical assessment.';
 
   @override
-  String get steroidsMilestone1460Title => 'Four Years, No Return';
+  String get steroidsMilestone1460Title => 'Four years, no return';
 
   @override
   String get steroidsMilestone1460Description =>
-      'Four years without another anabolic-steroid cycle. The follow-through is the achievement, and there\'s plenty of it.';
+      'Four years without another anabolic-steroid cycle. You\'ve kept this change going through everyday life.';
 
   @override
   String get steroidsReferenceDay1460 =>
       'Four Years Off Anabolic Steroids\n\nSource: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nFour Years of Consistency\nRecovery after AAS does not follow one clock. The review describes physical, reproductive, psychological, and biochemical recovery on different timelines, with some changes taking months to years.\n\nNo Invented Deadline\nThere is no evidence-based four-year recovery threshold. Four years without another cycle is still a substantial achievement. Ongoing symptoms deserve clinical assessment on their own merits.';
 
   @override
-  String get steroidsMilestone1825Title => 'Five Years Off Steroids';
+  String get steroidsMilestone1825Title => 'Five years off steroids';
 
   @override
   String get steroidsMilestone1825Description =>

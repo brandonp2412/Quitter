@@ -55,10 +55,10 @@ void main() {
       expect(days, containsAllInOrder([730, 1095, 1460, 1825]));
 
       const expectedTitles = {
-        730: 'Two Years, No Return',
-        1095: 'Three Years of Distance',
-        1460: 'Four Years. Still Clear.',
-        1825: 'Five Years. What a Win.',
+        730: 'Two years, no return',
+        1095: 'Three years of distance',
+        1460: 'Four years',
+        1825: 'Five years',
       };
       const source = 'https://pubmed.ncbi.nlm.nih.gov/35695047/';
 

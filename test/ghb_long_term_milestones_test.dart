@@ -55,10 +55,10 @@ void main() {
     expect(days, containsAllInOrder([730, 1095, 1460, 1825]));
 
     const expectedTitles = {
-      730: 'Two Years. Properly.',
-      1095: 'Three Years Clear',
-      1460: 'Four Years of Follow-Through',
-      1825: 'Five Years Without GHB',
+      730: 'Two years',
+      1095: 'Three years clear',
+      1460: 'Four years of follow-through',
+      1825: 'Five years without GHB',
     };
     const source = 'https://www.samhsa.gov/substance-use/recovery';
 

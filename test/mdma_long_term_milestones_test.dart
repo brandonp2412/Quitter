@@ -79,10 +79,10 @@ void main() {
       }
 
       const expectedTitles = {
-        730: 'Two Years. Still Going.',
-        1095: 'Three Years, No Comeback',
-        1460: 'Four Years of Follow-Through',
-        1825: 'Five Years Without MDMA',
+        730: 'Two years',
+        1095: 'Three years, no comeback',
+        1460: 'Four years of follow-through',
+        1825: 'Five years without MDMA',
       };
       for (final entry in expectedTitles.entries) {
         final milestone = page.milestones.singleWhere(

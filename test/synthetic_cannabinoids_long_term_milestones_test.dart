@@ -55,10 +55,10 @@ void main() {
       expect(days, containsAllInOrder([730, 1095, 1460, 1825]));
 
       const expectedTitles = {
-        730: 'Two Years. Solid.',
-        1095: 'Three Years Without It',
-        1460: 'Four Years, Still Free',
-        1825: 'Five Years. Seriously.',
+        730: 'Two years',
+        1095: 'Three years without it',
+        1460: 'Four years, still free',
+        1825: 'Five years',
       };
       const source = 'https://pmc.ncbi.nlm.nih.gov/articles/PMC13222391/';
       const reference =

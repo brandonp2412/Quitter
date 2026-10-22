@@ -55,10 +55,10 @@ void main() {
       expect(days, containsAllInOrder([730, 1095, 1460, 1825]));
 
       const expectedTitles = {
-        730: 'Two Years of Your Time',
-        1095: 'Three Years. No FOMO Tax.',
-        1460: 'Four Years, Feed Optional',
-        1825: 'Five Years. Log Off Victorious.',
+        730: 'Two years of your time',
+        1095: 'Three years',
+        1460: 'Four years, feed optional',
+        1825: 'Five years',
       };
       const source = 'https://pubmed.ncbi.nlm.nih.gov/39280291/';
 

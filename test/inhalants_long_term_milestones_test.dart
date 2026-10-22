@@ -55,10 +55,10 @@ void main() {
       expect(days, containsAllInOrder([730, 1095, 1460, 1825]));
 
       const expectedTitles = {
-        730: 'Two Years. Big Difference.',
-        1095: 'Three Years Clear',
-        1460: 'Four Years of Staying Clear',
-        1825: 'Five Years. Proper Milestone.',
+        730: 'Two years',
+        1095: 'Three years clear',
+        1460: 'Four years of staying clear',
+        1825: 'Five years',
       };
       const source = 'https://pubmed.ncbi.nlm.nih.gov/23490054/';
 

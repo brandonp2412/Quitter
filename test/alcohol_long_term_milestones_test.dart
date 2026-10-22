@@ -55,10 +55,10 @@ void main() {
       expect(days, containsAllInOrder([730, 1095, 1460, 1825]));
 
       const expectedTitles = {
-        730: 'Two Years. Well Played.',
-        1095: 'Three Years, Still Clear',
-        1460: 'Four Years. Look at That.',
-        1825: 'Five Years. That’s Massive.',
+        730: 'Two years',
+        1095: 'Three years, still clear',
+        1460: 'Four years',
+        1825: 'Five years',
       };
       const source =
           'https://www.niaaa.nih.gov/research/niaaa-recovery-from-alcohol-use-disorder/definitions';

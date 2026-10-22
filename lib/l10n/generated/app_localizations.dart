@@ -177,19 +177,19 @@ abstract class AppLocalizations {
   /// No description provided for @kratomMilestone1Title.
   ///
   /// In en, this message translates to:
-  /// **'First Day Without Kratom'**
+  /// **'First day without kratom'**
   String get kratomMilestone1Title;
 
   /// No description provided for @kratomMilestone1Description.
   ///
   /// In en, this message translates to:
-  /// **'The first day can be rough. Restlessness, sweating and aches may be kicking in as your body adjusts. Getting through it counts.'**
+  /// **'The first day can be rough. Restlessness, sweating and aches may be kicking in as your body adjusts.'**
   String get kratomMilestone1Description;
 
   /// No description provided for @kratomMilestone3Title.
   ///
   /// In en, this message translates to:
-  /// **'The Rough Patch'**
+  /// **'The rough patch'**
   String get kratomMilestone3Title;
 
   /// No description provided for @kratomMilestone3Description.
@@ -201,7 +201,7 @@ abstract class AppLocalizations {
   /// No description provided for @kratomMilestone7Title.
   ///
   /// In en, this message translates to:
-  /// **'A Week Clear'**
+  /// **'A week clear'**
   String get kratomMilestone7Title;
 
   /// No description provided for @kratomMilestone7Description.
@@ -213,7 +213,7 @@ abstract class AppLocalizations {
   /// No description provided for @kratomMilestone14Title.
   ///
   /// In en, this message translates to:
-  /// **'Two Weeks In'**
+  /// **'Two weeks in'**
   String get kratomMilestone14Title;
 
   /// No description provided for @kratomMilestone14Description.
@@ -225,7 +225,7 @@ abstract class AppLocalizations {
   /// No description provided for @kratomMilestone30Title.
   ///
   /// In en, this message translates to:
-  /// **'A Whole Month'**
+  /// **'A whole month'**
   String get kratomMilestone30Title;
 
   /// No description provided for @kratomMilestone30Description.
@@ -237,7 +237,7 @@ abstract class AppLocalizations {
   /// No description provided for @kratomMilestone90Title.
   ///
   /// In en, this message translates to:
-  /// **'Three Months Clear'**
+  /// **'Three months clear'**
   String get kratomMilestone90Title;
 
   /// No description provided for @kratomMilestone90Description.
@@ -249,43 +249,43 @@ abstract class AppLocalizations {
   /// No description provided for @kratomMilestone365Title.
   ///
   /// In en, this message translates to:
-  /// **'A Year Without Kratom'**
+  /// **'A year without kratom'**
   String get kratomMilestone365Title;
 
   /// No description provided for @kratomMilestone365Description.
   ///
   /// In en, this message translates to:
-  /// **'A whole year. You\'ve handled every season without going back to kratom. That\'s a serious bit of work.'**
+  /// **'A whole year. You\'ve handled every season without going back to kratom.'**
   String get kratomMilestone365Description;
 
   /// No description provided for @kratomMilestone730Title.
   ///
   /// In en, this message translates to:
-  /// **'Two Years. Solid.'**
+  /// **'Two years'**
   String get kratomMilestone730Title;
 
   /// No description provided for @kratomMilestone730Description.
   ///
   /// In en, this message translates to:
-  /// **'Two years clear. Whatever the past couple of years threw at you, kratom wasn\'t the answer. That\'s worth celebrating.'**
+  /// **'Two years without kratom. You\'ve handled what the past couple of years threw at you without going back.'**
   String get kratomMilestone730Description;
 
   /// No description provided for @kratomMilestone1095Title.
   ///
   /// In en, this message translates to:
-  /// **'Three Years of Your Own'**
+  /// **'Three years of your own'**
   String get kratomMilestone1095Title;
 
   /// No description provided for @kratomMilestone1095Description.
   ///
   /// In en, this message translates to:
-  /// **'Three years without kratom. The routines you\'ve built have had plenty of time to become yours. Nicely done.'**
+  /// **'Three years without kratom. The routines you\'ve built have had plenty of time to become yours.'**
   String get kratomMilestone1095Description;
 
   /// No description provided for @kratomMilestone1460Title.
   ///
   /// In en, this message translates to:
-  /// **'Four Years, Still Clear'**
+  /// **'Four years, still clear'**
   String get kratomMilestone1460Title;
 
   /// No description provided for @kratomMilestone1460Description.
@@ -297,13 +297,13 @@ abstract class AppLocalizations {
   /// No description provided for @kratomMilestone1825Title.
   ///
   /// In en, this message translates to:
-  /// **'Five Years. Properly Good.'**
+  /// **'Five years'**
   String get kratomMilestone1825Title;
 
   /// No description provided for @kratomMilestone1825Description.
   ///
   /// In en, this message translates to:
-  /// **'Half a decade without kratom. Five years of life, stress, changes and ordinary Tuesdays. You kept this going through all of it.'**
+  /// **'You\'ve kept kratom out of your life for five years, through stress, changes and ordinary Tuesdays.'**
   String get kratomMilestone1825Description;
 
   /// No description provided for @gabapentinoidsPageTitle.
@@ -393,7 +393,7 @@ abstract class AppLocalizations {
   /// No description provided for @ghbMilestone1Title.
   ///
   /// In en, this message translates to:
-  /// **'Get Medical Help'**
+  /// **'Get medical help'**
   String get ghbMilestone1Title;
 
   /// No description provided for @ghbMilestone1Description.
@@ -405,7 +405,7 @@ abstract class AppLocalizations {
   /// No description provided for @ghbMilestone3Title.
   ///
   /// In en, this message translates to:
-  /// **'A Serious Few Days'**
+  /// **'A serious few days'**
   String get ghbMilestone3Title;
 
   /// No description provided for @ghbMilestone3Description.
@@ -417,7 +417,7 @@ abstract class AppLocalizations {
   /// No description provided for @ghbMilestone7Title.
   ///
   /// In en, this message translates to:
-  /// **'One Week Through'**
+  /// **'One week through'**
   String get ghbMilestone7Title;
 
   /// No description provided for @ghbMilestone7Description.
@@ -429,7 +429,7 @@ abstract class AppLocalizations {
   /// No description provided for @ghbMilestone14Title.
   ///
   /// In en, this message translates to:
-  /// **'Two Weeks Clear'**
+  /// **'Two weeks clear'**
   String get ghbMilestone14Title;
 
   /// No description provided for @ghbMilestone14Description.
@@ -441,7 +441,7 @@ abstract class AppLocalizations {
   /// No description provided for @ghbMilestone30Title.
   ///
   /// In en, this message translates to:
-  /// **'A Month Without GHB'**
+  /// **'A month without GHB'**
   String get ghbMilestone30Title;
 
   /// No description provided for @ghbMilestone30Description.
@@ -453,7 +453,7 @@ abstract class AppLocalizations {
   /// No description provided for @ghbMilestone90Title.
   ///
   /// In en, this message translates to:
-  /// **'Three Months On'**
+  /// **'Three months on'**
   String get ghbMilestone90Title;
 
   /// No description provided for @ghbMilestone90Description.
@@ -465,13 +465,13 @@ abstract class AppLocalizations {
   /// No description provided for @ghbMilestone180Title.
   ///
   /// In en, this message translates to:
-  /// **'Half a Year Clear'**
+  /// **'Half a year clear'**
   String get ghbMilestone180Title;
 
   /// No description provided for @ghbMilestone180Description.
   ///
   /// In en, this message translates to:
-  /// **'Six months. A lot of life has happened without GHB in it. That\'s no small thing, even if recovery still needs work.'**
+  /// **'Six months. A lot of life has happened without GHB in it. Recovery may still need work.'**
   String get ghbMilestone180Description;
 
   /// No description provided for @ketaminePageTitle.
@@ -519,7 +519,7 @@ abstract class AppLocalizations {
   /// No description provided for @ketamineMilestone1Title.
   ///
   /// In en, this message translates to:
-  /// **'First Day Off Ketamine'**
+  /// **'First day off ketamine'**
   String get ketamineMilestone1Title;
 
   /// No description provided for @ketamineMilestone1Description.
@@ -531,7 +531,7 @@ abstract class AppLocalizations {
   /// No description provided for @ketamineMilestone7Title.
   ///
   /// In en, this message translates to:
-  /// **'A Week Clear'**
+  /// **'A week clear'**
   String get ketamineMilestone7Title;
 
   /// No description provided for @ketamineMilestone7Description.
@@ -543,7 +543,7 @@ abstract class AppLocalizations {
   /// No description provided for @ketamineMilestone14Title.
   ///
   /// In en, this message translates to:
-  /// **'Two Weeks, More Space'**
+  /// **'Two weeks, more space'**
   String get ketamineMilestone14Title;
 
   /// No description provided for @ketamineMilestone14Description.
@@ -555,7 +555,7 @@ abstract class AppLocalizations {
   /// No description provided for @ketamineMilestone30Title.
   ///
   /// In en, this message translates to:
-  /// **'A Month for Recovery'**
+  /// **'A month for recovery'**
   String get ketamineMilestone30Title;
 
   /// No description provided for @ketamineMilestone30Description.
@@ -567,7 +567,7 @@ abstract class AppLocalizations {
   /// No description provided for @ketamineMilestone90Title.
   ///
   /// In en, this message translates to:
-  /// **'Three Months Clear'**
+  /// **'Three months clear'**
   String get ketamineMilestone90Title;
 
   /// No description provided for @ketamineMilestone90Description.
@@ -579,7 +579,7 @@ abstract class AppLocalizations {
   /// No description provided for @ketamineMilestone180Title.
   ///
   /// In en, this message translates to:
-  /// **'Six Months Without It'**
+  /// **'Six months without it'**
   String get ketamineMilestone180Title;
 
   /// No description provided for @ketamineMilestone180Description.
@@ -591,19 +591,19 @@ abstract class AppLocalizations {
   /// No description provided for @ketamineMilestone365Title.
   ///
   /// In en, this message translates to:
-  /// **'A Year Clear'**
+  /// **'A year clear'**
   String get ketamineMilestone365Title;
 
   /// No description provided for @ketamineMilestone365Description.
   ///
   /// In en, this message translates to:
-  /// **'A full year without ketamine. That\'s a lot of time for recovery and a lot of days without renewed exposure. Well done.'**
+  /// **'A full year without ketamine. That\'s a lot of time for recovery and a lot of days without renewed exposure.'**
   String get ketamineMilestone365Description;
 
   /// No description provided for @ketamineMilestone730Title.
   ///
   /// In en, this message translates to:
-  /// **'Two Years, Still Clear'**
+  /// **'Two years, still clear'**
   String get ketamineMilestone730Title;
 
   /// No description provided for @ketamineMilestone730Description.
@@ -615,31 +615,31 @@ abstract class AppLocalizations {
   /// No description provided for @ketamineMilestone1095Title.
   ///
   /// In en, this message translates to:
-  /// **'Three Years of Distance'**
+  /// **'Three years of distance'**
   String get ketamineMilestone1095Title;
 
   /// No description provided for @ketamineMilestone1095Description.
   ///
   /// In en, this message translates to:
-  /// **'Three years. That isn\'t a magical repair date, but it\'s a seriously long stretch of keeping ketamine out of your life.'**
+  /// **'Three years without ketamine. You\'ve kept the change going through everyday life.'**
   String get ketamineMilestone1095Description;
 
   /// No description provided for @ketamineMilestone1460Title.
   ///
   /// In en, this message translates to:
-  /// **'Four Years. Nice.'**
+  /// **'Four years'**
   String get ketamineMilestone1460Title;
 
   /// No description provided for @ketamineMilestone1460Description.
   ///
   /// In en, this message translates to:
-  /// **'Four years without ketamine. You\'ve kept this going long past the point where it was new. That deserves a moment.'**
+  /// **'Four years without ketamine. You\'ve kept this going long past the point where it was new.'**
   String get ketamineMilestone1460Description;
 
   /// No description provided for @ketamineMilestone1825Title.
   ///
   /// In en, this message translates to:
-  /// **'Five Years. That\'s Big.'**
+  /// **'Five years'**
   String get ketamineMilestone1825Title;
 
   /// No description provided for @ketamineMilestone1825Description.
@@ -693,7 +693,7 @@ abstract class AppLocalizations {
   /// No description provided for @inhalantsMilestone1Title.
   ///
   /// In en, this message translates to:
-  /// **'First Day Away'**
+  /// **'First day away'**
   String get inhalantsMilestone1Title;
 
   /// No description provided for @inhalantsMilestone1Description.
@@ -705,7 +705,7 @@ abstract class AppLocalizations {
   /// No description provided for @inhalantsMilestone7Title.
   ///
   /// In en, this message translates to:
-  /// **'A Week Clear'**
+  /// **'A week clear'**
   String get inhalantsMilestone7Title;
 
   /// No description provided for @inhalantsMilestone7Description.
@@ -717,7 +717,7 @@ abstract class AppLocalizations {
   /// No description provided for @inhalantsMilestone14Title.
   ///
   /// In en, this message translates to:
-  /// **'Two Weeks, No New Exposure'**
+  /// **'Two weeks, no new exposure'**
   String get inhalantsMilestone14Title;
 
   /// No description provided for @inhalantsMilestone14Description.
@@ -729,7 +729,7 @@ abstract class AppLocalizations {
   /// No description provided for @inhalantsMilestone30Title.
   ///
   /// In en, this message translates to:
-  /// **'A Month of Breathing Room'**
+  /// **'A month of breathing room'**
   String get inhalantsMilestone30Title;
 
   /// No description provided for @inhalantsMilestone30Description.
@@ -741,7 +741,7 @@ abstract class AppLocalizations {
   /// No description provided for @inhalantsMilestone90Title.
   ///
   /// In en, this message translates to:
-  /// **'Three Months Clear'**
+  /// **'Three months clear'**
   String get inhalantsMilestone90Title;
 
   /// No description provided for @inhalantsMilestone90Description.
@@ -753,7 +753,7 @@ abstract class AppLocalizations {
   /// No description provided for @inhalantsMilestone365Title.
   ///
   /// In en, this message translates to:
-  /// **'A Year Without Inhalants'**
+  /// **'A year without inhalants'**
   String get inhalantsMilestone365Title;
 
   /// No description provided for @inhalantsMilestone365Description.
@@ -765,7 +765,7 @@ abstract class AppLocalizations {
   /// No description provided for @inhalantsMilestone730Title.
   ///
   /// In en, this message translates to:
-  /// **'Two Years. Big Difference.'**
+  /// **'Two years'**
   String get inhalantsMilestone730Title;
 
   /// No description provided for @inhalantsMilestone730Description.
@@ -819,7 +819,7 @@ abstract class AppLocalizations {
   /// No description provided for @synthetic_cannabinoidsMilestone1Title.
   ///
   /// In en, this message translates to:
-  /// **'Day One: Stay Safe'**
+  /// **'Day one: stay safe'**
   String get synthetic_cannabinoidsMilestone1Title;
 
   /// No description provided for @synthetic_cannabinoidsMilestone1Description.
@@ -831,7 +831,7 @@ abstract class AppLocalizations {
   /// No description provided for @synthetic_cannabinoidsMilestone3Title.
   ///
   /// In en, this message translates to:
-  /// **'Three Days Clear'**
+  /// **'Three days clear'**
   String get synthetic_cannabinoidsMilestone3Title;
 
   /// No description provided for @synthetic_cannabinoidsMilestone3Description.
@@ -843,13 +843,13 @@ abstract class AppLocalizations {
   /// No description provided for @synthetic_cannabinoidsMilestone7Title.
   ///
   /// In en, this message translates to:
-  /// **'A Week Away'**
+  /// **'A week away'**
   String get synthetic_cannabinoidsMilestone7Title;
 
   /// No description provided for @synthetic_cannabinoidsMilestone7Description.
   ///
   /// In en, this message translates to:
-  /// **'Seven days clear. You haven\'t exposed yourself again to a drug class known for wildly unpredictable effects. That\'s a solid week.'**
+  /// **'Seven days clear. You haven\'t exposed yourself again to a drug class known for wildly unpredictable effects.'**
   String get synthetic_cannabinoidsMilestone7Description;
 
   /// No description provided for @synthetic_cannabinoidsMilestone14Title.
@@ -867,7 +867,7 @@ abstract class AppLocalizations {
   /// No description provided for @synthetic_cannabinoidsMilestone30Title.
   ///
   /// In en, this message translates to:
-  /// **'A Month. Good.'**
+  /// **'A month'**
   String get synthetic_cannabinoidsMilestone30Title;
 
   /// No description provided for @synthetic_cannabinoidsMilestone30Description.
@@ -879,7 +879,7 @@ abstract class AppLocalizations {
   /// No description provided for @synthetic_cannabinoidsMilestone90Title.
   ///
   /// In en, this message translates to:
-  /// **'Three Months of Distance'**
+  /// **'Three months of distance'**
   String get synthetic_cannabinoidsMilestone90Title;
 
   /// No description provided for @synthetic_cannabinoidsMilestone90Description.
@@ -891,13 +891,13 @@ abstract class AppLocalizations {
   /// No description provided for @synthetic_cannabinoidsMilestone180Title.
   ///
   /// In en, this message translates to:
-  /// **'Half a Year Clear'**
+  /// **'Half a year clear'**
   String get synthetic_cannabinoidsMilestone180Title;
 
   /// No description provided for @synthetic_cannabinoidsMilestone180Description.
   ///
   /// In en, this message translates to:
-  /// **'Six months without synthetic cannabinoids. No renewed exposure, and six months spent building something steadier. That\'s worth a grin.'**
+  /// **'Six months without synthetic cannabinoids. You\'ve avoided renewed exposure while building steadier routines.'**
   String get synthetic_cannabinoidsMilestone180Description;
 
   /// No description provided for @synthetic_cannabinoidsWithdrawalReference.
@@ -915,31 +915,31 @@ abstract class AppLocalizations {
   /// No description provided for @synthetic_cannabinoidsMilestone730Title.
   ///
   /// In en, this message translates to:
-  /// **'Two Years. Solid.'**
+  /// **'Two years'**
   String get synthetic_cannabinoidsMilestone730Title;
 
   /// No description provided for @synthetic_cannabinoidsMilestone730Description.
   ///
   /// In en, this message translates to:
-  /// **'Two years clear. Holidays, bad days and everything in between, without returning to synthetic cannabinoids. Nicely held.'**
+  /// **'Two years clear. Holidays, bad days and everything in between, without returning to synthetic cannabinoids.'**
   String get synthetic_cannabinoidsMilestone730Description;
 
   /// No description provided for @synthetic_cannabinoidsMilestone1095Title.
   ///
   /// In en, this message translates to:
-  /// **'Three Years Without It'**
+  /// **'Three years without it'**
   String get synthetic_cannabinoidsMilestone1095Title;
 
   /// No description provided for @synthetic_cannabinoidsMilestone1095Description.
   ///
   /// In en, this message translates to:
-  /// **'Three years. This stopped being just an early recovery effort a long time ago. You\'ve kept it going.'**
+  /// **'Three years without synthetic cannabinoids. You\'ve kept the change going well beyond early recovery.'**
   String get synthetic_cannabinoidsMilestone1095Description;
 
   /// No description provided for @synthetic_cannabinoidsMilestone1460Title.
   ///
   /// In en, this message translates to:
-  /// **'Four Years, Still Free'**
+  /// **'Four years, still free'**
   String get synthetic_cannabinoidsMilestone1460Title;
 
   /// No description provided for @synthetic_cannabinoidsMilestone1460Description.
@@ -951,13 +951,13 @@ abstract class AppLocalizations {
   /// No description provided for @synthetic_cannabinoidsMilestone1825Title.
   ///
   /// In en, this message translates to:
-  /// **'Five Years. Seriously.'**
+  /// **'Five years'**
   String get synthetic_cannabinoidsMilestone1825Title;
 
   /// No description provided for @synthetic_cannabinoidsMilestone1825Description.
   ///
   /// In en, this message translates to:
-  /// **'Half a decade without synthetic cannabinoids. That\'s a huge amount of life lived without their unpredictable risks. Take a moment for this one.'**
+  /// **'Half a decade without synthetic cannabinoids. That\'s a huge amount of life lived without their unpredictable risks.'**
   String get synthetic_cannabinoidsMilestone1825Description;
 
   /// No description provided for @synthetic_cannabinoidsLongTermReference.
@@ -1023,7 +1023,7 @@ abstract class AppLocalizations {
   /// No description provided for @mdmaMilestone3Title.
   ///
   /// In en, this message translates to:
-  /// **'Past the First Few Days'**
+  /// **'Past the first few days'**
   String get mdmaMilestone3Title;
 
   /// No description provided for @mdmaMilestone3Description.
@@ -1035,7 +1035,7 @@ abstract class AppLocalizations {
   /// No description provided for @mdmaMilestone7Title.
   ///
   /// In en, this message translates to:
-  /// **'A Week Without MDMA'**
+  /// **'A week without MDMA'**
   String get mdmaMilestone7Title;
 
   /// No description provided for @mdmaMilestone7Description.
@@ -1047,19 +1047,19 @@ abstract class AppLocalizations {
   /// No description provided for @mdmaMilestone14Title.
   ///
   /// In en, this message translates to:
-  /// **'Two Weeks to Reset'**
+  /// **'Two weeks without MDMA'**
   String get mdmaMilestone14Title;
 
   /// No description provided for @mdmaMilestone14Description.
   ///
   /// In en, this message translates to:
-  /// **'Two weeks without MDMA. Sleep, mood and focus may be improving. There\'s no fixed timetable, so let your recovery be yours.'**
+  /// **'Two weeks without MDMA. Sleep, mood and focus may be improving. Recovery takes different amounts of time for different people.'**
   String get mdmaMilestone14Description;
 
   /// No description provided for @mdmaMilestone30Title.
   ///
   /// In en, this message translates to:
-  /// **'A Month Clear'**
+  /// **'A month clear'**
   String get mdmaMilestone30Title;
 
   /// No description provided for @mdmaMilestone30Description.
@@ -1083,13 +1083,13 @@ abstract class AppLocalizations {
   /// No description provided for @mdmaMilestone365Title.
   ///
   /// In en, this message translates to:
-  /// **'A Full Year Off MDMA'**
+  /// **'A full year off MDMA'**
   String get mdmaMilestone365Title;
 
   /// No description provided for @mdmaMilestone365Description.
   ///
   /// In en, this message translates to:
-  /// **'One year. Every birthday, weekend and ordinary day in between without going back. That\'s a big change.'**
+  /// **'One year without MDMA, through every birthday, weekend and ordinary day in between.'**
   String get mdmaMilestone365Description;
 
   /// No description provided for @steroidsPageTitle.
@@ -1137,7 +1137,7 @@ abstract class AppLocalizations {
   /// No description provided for @steroidsMilestone1Title.
   ///
   /// In en, this message translates to:
-  /// **'First Day Off Cycle'**
+  /// **'First day off cycle'**
   String get steroidsMilestone1Title;
 
   /// No description provided for @steroidsMilestone1Description.
@@ -1149,7 +1149,7 @@ abstract class AppLocalizations {
   /// No description provided for @steroidsMilestone14Title.
   ///
   /// In en, this message translates to:
-  /// **'The Hormone Dip'**
+  /// **'The hormone dip'**
   String get steroidsMilestone14Title;
 
   /// No description provided for @steroidsMilestone14Description.
@@ -1161,7 +1161,7 @@ abstract class AppLocalizations {
   /// No description provided for @steroidsMilestone30Title.
   ///
   /// In en, this message translates to:
-  /// **'A Month Off Steroids'**
+  /// **'A month off steroids'**
   String get steroidsMilestone30Title;
 
   /// No description provided for @steroidsMilestone30Description.
@@ -1173,7 +1173,7 @@ abstract class AppLocalizations {
   /// No description provided for @steroidsMilestone90Title.
   ///
   /// In en, this message translates to:
-  /// **'Three Months Off'**
+  /// **'Three months off'**
   String get steroidsMilestone90Title;
 
   /// No description provided for @steroidsMilestone90Description.
@@ -1185,7 +1185,7 @@ abstract class AppLocalizations {
   /// No description provided for @steroidsMilestone180Title.
   ///
   /// In en, this message translates to:
-  /// **'Six Months Clear'**
+  /// **'Six months clear'**
   String get steroidsMilestone180Title;
 
   /// No description provided for @steroidsMilestone180Description.
@@ -1197,7 +1197,7 @@ abstract class AppLocalizations {
   /// No description provided for @steroidsMilestone365Title.
   ///
   /// In en, this message translates to:
-  /// **'One Year, No Cycle'**
+  /// **'One year, no cycle'**
   String get steroidsMilestone365Title;
 
   /// No description provided for @steroidsMilestone365Description.
@@ -1209,7 +1209,7 @@ abstract class AppLocalizations {
   /// No description provided for @steroidsMilestone730Title.
   ///
   /// In en, this message translates to:
-  /// **'Two Years Off'**
+  /// **'Two years off'**
   String get steroidsMilestone730Title;
 
   /// No description provided for @steroidsMilestone730Description.
@@ -1269,19 +1269,19 @@ abstract class AppLocalizations {
   /// No description provided for @adderallMilestone1Title.
   ///
   /// In en, this message translates to:
-  /// **'First Day Without Misuse'**
+  /// **'First day without misuse'**
   String get adderallMilestone1Title;
 
   /// No description provided for @adderallMilestone1Description.
   ///
   /// In en, this message translates to:
-  /// **'The first day after stopping stimulant misuse can bring a crash: exhaustion, low mood and a bigger appetite. Rest and support are useful, not optional extras.'**
+  /// **'The first day after stopping stimulant misuse can bring a crash: exhaustion, low mood and a bigger appetite. Give yourself rest and support.'**
   String get adderallMilestone1Description;
 
   /// No description provided for @adderallMilestone3Title.
   ///
   /// In en, this message translates to:
-  /// **'The Crash Can Hit Hard'**
+  /// **'The crash can hit hard'**
   String get adderallMilestone3Title;
 
   /// No description provided for @adderallMilestone3Description.
@@ -1293,7 +1293,7 @@ abstract class AppLocalizations {
   /// No description provided for @adderallMilestone7Title.
   ///
   /// In en, this message translates to:
-  /// **'A Week of Change'**
+  /// **'A week of change'**
   String get adderallMilestone7Title;
 
   /// No description provided for @adderallMilestone7Description.
@@ -1305,7 +1305,7 @@ abstract class AppLocalizations {
   /// No description provided for @adderallMilestone14Title.
   ///
   /// In en, this message translates to:
-  /// **'Two Weeks Clear'**
+  /// **'Two weeks clear'**
   String get adderallMilestone14Title;
 
   /// No description provided for @adderallMilestone14Description.
@@ -1317,7 +1317,7 @@ abstract class AppLocalizations {
   /// No description provided for @adderallMilestone30Title.
   ///
   /// In en, this message translates to:
-  /// **'A Month Without Misuse'**
+  /// **'A month without misuse'**
   String get adderallMilestone30Title;
 
   /// No description provided for @adderallMilestone30Description.
@@ -1329,7 +1329,7 @@ abstract class AppLocalizations {
   /// No description provided for @adderallMilestone60Title.
   ///
   /// In en, this message translates to:
-  /// **'Two Months, More Clarity'**
+  /// **'Two months, more clarity'**
   String get adderallMilestone60Title;
 
   /// No description provided for @adderallMilestone60Description.
@@ -1341,7 +1341,7 @@ abstract class AppLocalizations {
   /// No description provided for @adderallMilestone90Title.
   ///
   /// In en, this message translates to:
-  /// **'Three Months. Nice.'**
+  /// **'Three months'**
   String get adderallMilestone90Title;
 
   /// No description provided for @adderallMilestone90Description.
@@ -1353,7 +1353,7 @@ abstract class AppLocalizations {
   /// No description provided for @adderallMilestone180Title.
   ///
   /// In en, this message translates to:
-  /// **'Half a Year Clear'**
+  /// **'Half a year clear'**
   String get adderallMilestone180Title;
 
   /// No description provided for @adderallMilestone180Description.
@@ -1365,13 +1365,13 @@ abstract class AppLocalizations {
   /// No description provided for @adderallMilestone365Title.
   ///
   /// In en, this message translates to:
-  /// **'A Full Year'**
+  /// **'A full year'**
   String get adderallMilestone365Title;
 
   /// No description provided for @adderallMilestone365Description.
   ///
   /// In en, this message translates to:
-  /// **'One year without Adderall misuse. No magical dopamine reset required; a whole year of changed behaviour is a big deal.'**
+  /// **'One year without Adderall misuse. You\'ve spent a full year changing the habits around it.'**
   String get adderallMilestone365Description;
 
   /// No description provided for @benzoPageTitle.
@@ -1407,7 +1407,7 @@ abstract class AppLocalizations {
   /// No description provided for @benzoMilestone7Title.
   ///
   /// In en, this message translates to:
-  /// **'One Week: Stay Supported'**
+  /// **'One week: stay supported'**
   String get benzoMilestone7Title;
 
   /// No description provided for @benzoMilestone7Description.
@@ -1419,7 +1419,7 @@ abstract class AppLocalizations {
   /// No description provided for @benzoMilestone14Title.
   ///
   /// In en, this message translates to:
-  /// **'Two Weeks After Taper'**
+  /// **'Two weeks after taper'**
   String get benzoMilestone14Title;
 
   /// No description provided for @benzoMilestone14Description.
@@ -1431,7 +1431,7 @@ abstract class AppLocalizations {
   /// No description provided for @benzoMilestone60Title.
   ///
   /// In en, this message translates to:
-  /// **'Eight Weeks, Clearer Days'**
+  /// **'Eight weeks, clearer days'**
   String get benzoMilestone60Title;
 
   /// No description provided for @benzoMilestone60Description.
@@ -1443,7 +1443,7 @@ abstract class AppLocalizations {
   /// No description provided for @benzoMilestone90Title.
   ///
   /// In en, this message translates to:
-  /// **'Three Months, Less Fog'**
+  /// **'Three months, less fog'**
   String get benzoMilestone90Title;
 
   /// No description provided for @benzoMilestone90Description.
@@ -1455,31 +1455,31 @@ abstract class AppLocalizations {
   /// No description provided for @benzoMilestone180Title.
   ///
   /// In en, this message translates to:
-  /// **'Six Months of Recovery'**
+  /// **'Six months of recovery'**
   String get benzoMilestone180Title;
 
   /// No description provided for @benzoMilestone180Description.
   ///
   /// In en, this message translates to:
-  /// **'Half a year. Memory and attention can improve after long-term use, and some changes continue beyond six months. It\'s not a race.'**
+  /// **'Half a year. Memory and attention can improve after long-term use, and some changes continue beyond six months.'**
   String get benzoMilestone180Description;
 
   /// No description provided for @benzoMilestone365Title.
   ///
   /// In en, this message translates to:
-  /// **'A Year After Benzos'**
+  /// **'A year after benzos'**
   String get benzoMilestone365Title;
 
   /// No description provided for @benzoMilestone365Description.
   ///
   /// In en, this message translates to:
-  /// **'One year. Sleep, thinking and wellbeing may keep improving, though withdrawal can be prolonged for some. Twelve months is worth acknowledging.'**
+  /// **'One year. Sleep, thinking and wellbeing may keep improving, though withdrawal can be prolonged for some.'**
   String get benzoMilestone365Description;
 
   /// No description provided for @benzoMilestone540Title.
   ///
   /// In en, this message translates to:
-  /// **'Eighteen Months Clear'**
+  /// **'Eighteen months clear'**
   String get benzoMilestone540Title;
 
   /// No description provided for @benzoMilestone540Description.
@@ -1491,7 +1491,7 @@ abstract class AppLocalizations {
   /// No description provided for @benzoMilestone730Title.
   ///
   /// In en, this message translates to:
-  /// **'Two Years. Seriously.'**
+  /// **'Two years'**
   String get benzoMilestone730Title;
 
   /// No description provided for @benzoMilestone730Description.
@@ -1503,31 +1503,31 @@ abstract class AppLocalizations {
   /// No description provided for @benzoMilestone1095Title.
   ///
   /// In en, this message translates to:
-  /// **'Three Years of Progress'**
+  /// **'Three years of progress'**
   String get benzoMilestone1095Title;
 
   /// No description provided for @benzoMilestone1095Description.
   ///
   /// In en, this message translates to:
-  /// **'Three years. Sleep, mood and concentration may be different now, but nobody gets the same recovery schedule. Your progress is yours.'**
+  /// **'Three years. Sleep, mood and concentration may be different now, but nobody gets the same recovery schedule.'**
   String get benzoMilestone1095Description;
 
   /// No description provided for @benzoMilestone1460Title.
   ///
   /// In en, this message translates to:
-  /// **'Four Years of Work'**
+  /// **'Four years of work'**
   String get benzoMilestone1460Title;
 
   /// No description provided for @benzoMilestone1460Description.
   ///
   /// In en, this message translates to:
-  /// **'Four years after benzos. That\'s a long time spent managing recovery, keeping routines and finding what helps. Well done.'**
+  /// **'Four years after benzos. That\'s a long time spent managing recovery, keeping routines and finding what helps.'**
   String get benzoMilestone1460Description;
 
   /// No description provided for @benzoMilestone1825Title.
   ///
   /// In en, this message translates to:
-  /// **'Five Years. Take a Bow.'**
+  /// **'Five years'**
   String get benzoMilestone1825Title;
 
   /// No description provided for @benzoMilestone1825Description.
@@ -1581,7 +1581,7 @@ abstract class AppLocalizations {
   /// No description provided for @methMilestone1Title.
   ///
   /// In en, this message translates to:
-  /// **'The Crash'**
+  /// **'The crash'**
   String get methMilestone1Title;
 
   /// No description provided for @methMilestone1Description.
@@ -1593,7 +1593,7 @@ abstract class AppLocalizations {
   /// No description provided for @methMilestone3Title.
   ///
   /// In en, this message translates to:
-  /// **'Three Days. Rough Ones.'**
+  /// **'Three days'**
   String get methMilestone3Title;
 
   /// No description provided for @methMilestone3Description.
@@ -1605,7 +1605,7 @@ abstract class AppLocalizations {
   /// No description provided for @methMilestone7Title.
   ///
   /// In en, this message translates to:
-  /// **'A Week Without Meth'**
+  /// **'A week without meth'**
   String get methMilestone7Title;
 
   /// No description provided for @methMilestone7Description.
@@ -1617,7 +1617,7 @@ abstract class AppLocalizations {
   /// No description provided for @methMilestone30Title.
   ///
   /// In en, this message translates to:
-  /// **'One Month Clear'**
+  /// **'One month clear'**
   String get methMilestone30Title;
 
   /// No description provided for @methMilestone30Description.
@@ -1629,7 +1629,7 @@ abstract class AppLocalizations {
   /// No description provided for @methMilestone90Title.
   ///
   /// In en, this message translates to:
-  /// **'Three Months of Recovery'**
+  /// **'Three months of recovery'**
   String get methMilestone90Title;
 
   /// No description provided for @methMilestone90Description.
@@ -1641,19 +1641,19 @@ abstract class AppLocalizations {
   /// No description provided for @methMilestone180Title.
   ///
   /// In en, this message translates to:
-  /// **'Six Months, Still Clear'**
+  /// **'Six months, still clear'**
   String get methMilestone180Title;
 
   /// No description provided for @methMilestone180Description.
   ///
   /// In en, this message translates to:
-  /// **'Half a year without meth. Heart health can improve after stopping, especially with treatment when needed. Six months is a serious win.'**
+  /// **'Half a year without meth. Heart health can improve after stopping, especially with treatment when needed.'**
   String get methMilestone180Description;
 
   /// No description provided for @methMilestone365Title.
   ///
   /// In en, this message translates to:
-  /// **'One Year Without Meth'**
+  /// **'One year without meth'**
   String get methMilestone365Title;
 
   /// No description provided for @methMilestone365Description.
@@ -1665,19 +1665,19 @@ abstract class AppLocalizations {
   /// No description provided for @methMilestone420Title.
   ///
   /// In en, this message translates to:
-  /// **'Fourteen Months On'**
+  /// **'Fourteen months on'**
   String get methMilestone420Title;
 
   /// No description provided for @methMilestone420Description.
   ///
   /// In en, this message translates to:
-  /// **'Fourteen months. Brain-imaging studies have found some dopamine-related recovery after long abstinence. Your progress isn\'t pinned to one scan.'**
+  /// **'Fourteen months. Brain-imaging studies have found some dopamine-related recovery after long abstinence.'**
   String get methMilestone420Description;
 
   /// No description provided for @methMilestone730Title.
   ///
   /// In en, this message translates to:
-  /// **'Two Years. Good Stuff.'**
+  /// **'Two years'**
   String get methMilestone730Title;
 
   /// No description provided for @methMilestone730Description.
@@ -1725,7 +1725,7 @@ abstract class AppLocalizations {
   /// No description provided for @nitrousOxideMilestone1Title.
   ///
   /// In en, this message translates to:
-  /// **'First Day Without Nitrous'**
+  /// **'First day without nitrous'**
   String get nitrousOxideMilestone1Title;
 
   /// No description provided for @nitrousOxideMilestone1Description.
@@ -1737,7 +1737,7 @@ abstract class AppLocalizations {
   /// No description provided for @nitrousOxideMilestone3Title.
   ///
   /// In en, this message translates to:
-  /// **'Three Days Clear'**
+  /// **'Three days clear'**
   String get nitrousOxideMilestone3Title;
 
   /// No description provided for @nitrousOxideMilestone3Description.
@@ -1749,7 +1749,7 @@ abstract class AppLocalizations {
   /// No description provided for @nitrousOxideMilestone7Title.
   ///
   /// In en, this message translates to:
-  /// **'One Week, No New Exposure'**
+  /// **'One week, no new exposure'**
   String get nitrousOxideMilestone7Title;
 
   /// No description provided for @nitrousOxideMilestone7Description.
@@ -1761,7 +1761,7 @@ abstract class AppLocalizations {
   /// No description provided for @nitrousOxideMilestone14Title.
   ///
   /// In en, this message translates to:
-  /// **'Two Weeks Clear'**
+  /// **'Two weeks clear'**
   String get nitrousOxideMilestone14Title;
 
   /// No description provided for @nitrousOxideMilestone14Description.
@@ -1773,7 +1773,7 @@ abstract class AppLocalizations {
   /// No description provided for @nitrousOxideMilestone30Title.
   ///
   /// In en, this message translates to:
-  /// **'A Month Without Nitrous'**
+  /// **'A month without nitrous'**
   String get nitrousOxideMilestone30Title;
 
   /// No description provided for @nitrousOxideMilestone30Description.
@@ -1785,7 +1785,7 @@ abstract class AppLocalizations {
   /// No description provided for @nitrousOxideMilestone90Title.
   ///
   /// In en, this message translates to:
-  /// **'Three Months of Recovery'**
+  /// **'Three months of recovery'**
   String get nitrousOxideMilestone90Title;
 
   /// No description provided for @nitrousOxideMilestone90Description.
@@ -1797,7 +1797,7 @@ abstract class AppLocalizations {
   /// No description provided for @nitrousOxideMilestone365Title.
   ///
   /// In en, this message translates to:
-  /// **'A Year Clear'**
+  /// **'A year clear'**
   String get nitrousOxideMilestone365Title;
 
   /// No description provided for @nitrousOxideMilestone365Description.
@@ -1851,7 +1851,7 @@ abstract class AppLocalizations {
   /// No description provided for @cocaineMilestone1Title.
   ///
   /// In en, this message translates to:
-  /// **'First Day Without Cocaine'**
+  /// **'First day without cocaine'**
   String get cocaineMilestone1Title;
 
   /// No description provided for @cocaineMilestone1Description.
@@ -1863,7 +1863,7 @@ abstract class AppLocalizations {
   /// No description provided for @cocaineMilestone3Title.
   ///
   /// In en, this message translates to:
-  /// **'The Tough Early Days'**
+  /// **'The tough early days'**
   String get cocaineMilestone3Title;
 
   /// No description provided for @cocaineMilestone3Description.
@@ -1875,7 +1875,7 @@ abstract class AppLocalizations {
   /// No description provided for @cocaineMilestone7Title.
   ///
   /// In en, this message translates to:
-  /// **'A Week Clear'**
+  /// **'A week clear'**
   String get cocaineMilestone7Title;
 
   /// No description provided for @cocaineMilestone7Description.
@@ -1887,7 +1887,7 @@ abstract class AppLocalizations {
   /// No description provided for @cocaineMilestone14Title.
   ///
   /// In en, this message translates to:
-  /// **'Two Weeks Without It'**
+  /// **'Two weeks without it'**
   String get cocaineMilestone14Title;
 
   /// No description provided for @cocaineMilestone14Description.
@@ -1899,7 +1899,7 @@ abstract class AppLocalizations {
   /// No description provided for @cocaineMilestone60Title.
   ///
   /// In en, this message translates to:
-  /// **'Two Months, Better Rest'**
+  /// **'Two months, better rest'**
   String get cocaineMilestone60Title;
 
   /// No description provided for @cocaineMilestone60Description.
@@ -1911,7 +1911,7 @@ abstract class AppLocalizations {
   /// No description provided for @cocaineMilestone90Title.
   ///
   /// In en, this message translates to:
-  /// **'Three Months of Clarity'**
+  /// **'Three months of clarity'**
   String get cocaineMilestone90Title;
 
   /// No description provided for @cocaineMilestone90Description.
@@ -1923,31 +1923,31 @@ abstract class AppLocalizations {
   /// No description provided for @cocaineMilestone180Title.
   ///
   /// In en, this message translates to:
-  /// **'Half a Year Clear'**
+  /// **'Half a year clear'**
   String get cocaineMilestone180Title;
 
   /// No description provided for @cocaineMilestone180Description.
   ///
   /// In en, this message translates to:
-  /// **'Six months. Memory, self-control and planning can keep improving as the brain recovers. A solid chunk of change.'**
+  /// **'Six months. Memory, self-control and planning can keep improving as the brain recovers.'**
   String get cocaineMilestone180Description;
 
   /// No description provided for @cocaineMilestone365Title.
   ///
   /// In en, this message translates to:
-  /// **'One Year, Healthier Odds'**
+  /// **'One year, healthier odds'**
   String get cocaineMilestone365Title;
 
   /// No description provided for @cocaineMilestone365Description.
   ///
   /// In en, this message translates to:
-  /// **'A full year without cocaine. You\'ve avoided twelve months of its acute heart and stroke risks. Your cardiovascular health deserves the break.'**
+  /// **'A full year without cocaine. You\'ve avoided twelve months of its acute heart and stroke risks.'**
   String get cocaineMilestone365Description;
 
   /// No description provided for @cocaineMilestone730Title.
   ///
   /// In en, this message translates to:
-  /// **'Two Years Without Cocaine'**
+  /// **'Two years without cocaine'**
   String get cocaineMilestone730Title;
 
   /// No description provided for @cocaineMilestone730Description.
@@ -1959,7 +1959,7 @@ abstract class AppLocalizations {
   /// No description provided for @cocaineMilestone1095Title.
   ///
   /// In en, this message translates to:
-  /// **'Three Years. Nicely Done.'**
+  /// **'Three years'**
   String get cocaineMilestone1095Title;
 
   /// No description provided for @cocaineMilestone1095Description.
@@ -1971,7 +1971,7 @@ abstract class AppLocalizations {
   /// No description provided for @cocaineMilestone1460Title.
   ///
   /// In en, this message translates to:
-  /// **'Four Years, Still Clear'**
+  /// **'Four years, still clear'**
   String get cocaineMilestone1460Title;
 
   /// No description provided for @cocaineMilestone1460Description.
@@ -1983,7 +1983,7 @@ abstract class AppLocalizations {
   /// No description provided for @cocaineMilestone1825Title.
   ///
   /// In en, this message translates to:
-  /// **'Five Years. Some Achievement.'**
+  /// **'Five years'**
   String get cocaineMilestone1825Title;
 
   /// No description provided for @cocaineMilestone1825Description.
@@ -3657,19 +3657,19 @@ abstract class AppLocalizations {
   /// Alcohol milestone day 1 title
   ///
   /// In en, this message translates to:
-  /// **'First Night, No Alcohol'**
+  /// **'First night, no alcohol'**
   String get alcoholMilestone1Title;
 
   /// Alcohol milestone day 1 description
   ///
   /// In en, this message translates to:
-  /// **'Alcohol disrupts normal sleep. One night without it removes that effect, though sleep can be rough at first—especially if withdrawal is involved.'**
+  /// **'Alcohol disrupts normal sleep. One night without it removes that effect, though sleep can be rough at first, especially if withdrawal is involved.'**
   String get alcoholMilestone1Description;
 
   /// Alcohol milestone day 3 title
   ///
   /// In en, this message translates to:
-  /// **'Three Days. Take Care.'**
+  /// **'Three days'**
   String get alcoholMilestone3Title;
 
   /// Alcohol milestone day 3 description
@@ -3681,31 +3681,31 @@ abstract class AppLocalizations {
   /// Alcohol milestone day 7 title
   ///
   /// In en, this message translates to:
-  /// **'A Full Week Clear'**
+  /// **'A full week clear'**
   String get alcoholMilestone7Title;
 
   /// Alcohol milestone day 7 description
   ///
   /// In en, this message translates to:
-  /// **'Seven days without alcohol. Heavy drinking can weaken immune defences; stopping gives them room to recover. And yes, a whole week counts.'**
+  /// **'Seven days without alcohol. Heavy drinking can weaken immune defences; stopping gives them room to recover.'**
   String get alcoholMilestone7Description;
 
   /// Alcohol milestone day 14 title
   ///
   /// In en, this message translates to:
-  /// **'Two Weeks, Brain Included'**
+  /// **'Two weeks, brain included'**
   String get alcoholMilestone14Title;
 
   /// Alcohol milestone day 14 description
   ///
   /// In en, this message translates to:
-  /// **'Two weeks alcohol-free. Studies have found early improvements in brain structure and attention during abstinence. Your brain appreciates the break.'**
+  /// **'Two weeks alcohol-free. Studies have found early improvements in brain structure and attention during abstinence.'**
   String get alcoholMilestone14Description;
 
   /// Alcohol milestone day 30 title
   ///
   /// In en, this message translates to:
-  /// **'A Month. Your Heart Says Thanks.'**
+  /// **'A month'**
   String get alcoholMilestone30Title;
 
   /// Alcohol milestone day 30 description
@@ -3717,7 +3717,7 @@ abstract class AppLocalizations {
   /// Alcohol milestone day 60 title
   ///
   /// In en, this message translates to:
-  /// **'Two Months, Liver Break'**
+  /// **'Two months, liver break'**
   String get alcoholMilestone60Title;
 
   /// Alcohol milestone day 60 description
@@ -3729,7 +3729,7 @@ abstract class AppLocalizations {
   /// Alcohol milestone day 90 title
   ///
   /// In en, this message translates to:
-  /// **'Three Months, Clearer Head'**
+  /// **'Three months, clearer head'**
   String get alcoholMilestone90Title;
 
   /// Alcohol milestone day 90 description
@@ -3741,7 +3741,7 @@ abstract class AppLocalizations {
   /// Alcohol milestone day 180 title
   ///
   /// In en, this message translates to:
-  /// **'Half a Year. That\'s Something.'**
+  /// **'Half a year'**
   String get alcoholMilestone180Title;
 
   /// Alcohol milestone day 180 description
@@ -3753,7 +3753,7 @@ abstract class AppLocalizations {
   /// Alcohol milestone day 365 title
   ///
   /// In en, this message translates to:
-  /// **'A Year. Lower Cancer Exposure.'**
+  /// **'A year'**
   String get alcoholMilestone365Title;
 
   /// Alcohol milestone day 365 description
@@ -3765,19 +3765,19 @@ abstract class AppLocalizations {
   /// Smoking milestone day 1 title
   ///
   /// In en, this message translates to:
-  /// **'Carbon Monoxide Drops'**
+  /// **'Carbon monoxide drops'**
   String get smokingMilestone1Title;
 
   /// Smoking milestone day 1 description
   ///
   /// In en, this message translates to:
-  /// **'Within about a day of your last cigarette, carbon monoxide in your blood falls dramatically. Your body can carry oxygen more effectively. Good start.'**
+  /// **'Within about a day of your last cigarette, carbon monoxide in your blood falls dramatically. Your body can carry oxygen more effectively.'**
   String get smokingMilestone1Description;
 
   /// Smoking milestone day 3 title
   ///
   /// In en, this message translates to:
-  /// **'The Cravings Have Opinions'**
+  /// **'The cravings have opinions'**
   String get smokingMilestone3Title;
 
   /// Smoking milestone day 3 description
@@ -3789,7 +3789,7 @@ abstract class AppLocalizations {
   /// Smoking milestone day 7 title
   ///
   /// In en, this message translates to:
-  /// **'A Week of Better Senses'**
+  /// **'A week of better senses'**
   String get smokingMilestone7Title;
 
   /// Smoking milestone day 7 description
@@ -3801,7 +3801,7 @@ abstract class AppLocalizations {
   /// Smoking milestone day 14 title
   ///
   /// In en, this message translates to:
-  /// **'Two Weeks, More Air'**
+  /// **'Two weeks, more air'**
   String get smokingMilestone14Title;
 
   /// Smoking milestone day 14 description
@@ -3813,7 +3813,7 @@ abstract class AppLocalizations {
   /// Smoking milestone day 30 title
   ///
   /// In en, this message translates to:
-  /// **'A Month for Your Lungs'**
+  /// **'A month for your lungs'**
   String get smokingMilestone30Title;
 
   /// Smoking milestone day 30 description
@@ -3825,7 +3825,7 @@ abstract class AppLocalizations {
   /// Smoking milestone day 90 title
   ///
   /// In en, this message translates to:
-  /// **'Three Months, Building Gains'**
+  /// **'Three months, building gains'**
   String get smokingMilestone90Title;
 
   /// Smoking milestone day 90 description
@@ -3837,43 +3837,43 @@ abstract class AppLocalizations {
   /// Smoking milestone day 180 title
   ///
   /// In en, this message translates to:
-  /// **'Six Months, Lungs at Work'**
+  /// **'Six months, lungs at work'**
   String get smokingMilestone180Title;
 
   /// Smoking milestone day 180 description
   ///
   /// In en, this message translates to:
-  /// **'Six months smoke-free. Research has found recovery in some lung immune-cell responses after months of abstinence. The work continues quietly.'**
+  /// **'Six months smoke-free. Research has found recovery in some lung immune-cell responses after months of abstinence.'**
   String get smokingMilestone180Description;
 
   /// Smoking milestone day 365 title
   ///
   /// In en, this message translates to:
-  /// **'A Year Without Cigarettes'**
+  /// **'A year without cigarettes'**
   String get smokingMilestone365Title;
 
   /// Smoking milestone day 365 description
   ///
   /// In en, this message translates to:
-  /// **'A whole year. You\'ve avoided a year of smoke exposure, and heart and blood-vessel risks keep falling after quitting. That\'s a proper milestone.'**
+  /// **'A whole year. You\'ve avoided a year of smoke exposure, and heart and blood-vessel risks keep falling after quitting.'**
   String get smokingMilestone365Description;
 
   /// Smoking milestone day 730 title
   ///
   /// In en, this message translates to:
-  /// **'Two Years. Heart Wins.'**
+  /// **'Two years'**
   String get smokingMilestone730Title;
 
   /// Smoking milestone day 730 description
   ///
   /// In en, this message translates to:
-  /// **'Two years smoke-free. Heart-attack risk falls sharply in the first one to two years after quitting. Not bad for a habit you left behind.'**
+  /// **'Two years smoke-free. Heart-attack risk falls sharply in the first one to two years after quitting.'**
   String get smokingMilestone730Description;
 
   /// Smoking milestone day 1095 title
   ///
   /// In en, this message translates to:
-  /// **'Three Years, Still Smoke-Free'**
+  /// **'Three years, still smoke-free'**
   String get smokingMilestone1095Title;
 
   /// Smoking milestone day 1095 description
@@ -3885,19 +3885,19 @@ abstract class AppLocalizations {
   /// Smoking milestone day 1460 title
   ///
   /// In en, this message translates to:
-  /// **'Four Years. Still Paying Off.'**
+  /// **'Four years'**
   String get smokingMilestone1460Title;
 
   /// Smoking milestone day 1460 description
   ///
   /// In en, this message translates to:
-  /// **'Four years without smoking. You\'re well into the window where coronary-heart-disease risk keeps improving. Good things take a bit of time.'**
+  /// **'Four years without smoking. You\'re well into the window where coronary-heart-disease risk keeps improving.'**
   String get smokingMilestone1460Description;
 
   /// Smoking milestone day 1825 title
   ///
   /// In en, this message translates to:
-  /// **'Five Years. Take It In.'**
+  /// **'Five years'**
   String get smokingMilestone1825Title;
 
   /// Smoking milestone day 1825 description
@@ -3909,7 +3909,7 @@ abstract class AppLocalizations {
   /// Marijuana milestone day 1 title
   ///
   /// In en, this message translates to:
-  /// **'First Day Without Cannabis'**
+  /// **'First day without cannabis'**
   String get marijuanaMilestone1Title;
 
   /// Marijuana milestone day 1 description
@@ -3921,7 +3921,7 @@ abstract class AppLocalizations {
   /// Marijuana milestone day 3 title
   ///
   /// In en, this message translates to:
-  /// **'The Rough Bit'**
+  /// **'The rough bit'**
   String get marijuanaMilestone3Title;
 
   /// Marijuana milestone day 3 description
@@ -3933,7 +3933,7 @@ abstract class AppLocalizations {
   /// Marijuana milestone day 7 title
   ///
   /// In en, this message translates to:
-  /// **'A Week Clear'**
+  /// **'A week clear'**
   String get marijuanaMilestone7Title;
 
   /// Marijuana milestone day 7 description
@@ -3945,7 +3945,7 @@ abstract class AppLocalizations {
   /// Marijuana milestone day 14 title
   ///
   /// In en, this message translates to:
-  /// **'Two Weeks Without It'**
+  /// **'Two weeks without it'**
   String get marijuanaMilestone14Title;
 
   /// Marijuana milestone day 14 description
@@ -3957,7 +3957,7 @@ abstract class AppLocalizations {
   /// Marijuana milestone day 30 title
   ///
   /// In en, this message translates to:
-  /// **'A Month, Less Fog'**
+  /// **'A month, less fog'**
   String get marijuanaMilestone30Title;
 
   /// Marijuana milestone day 30 description
@@ -3969,7 +3969,7 @@ abstract class AppLocalizations {
   /// Marijuana milestone day 60 title
   ///
   /// In en, this message translates to:
-  /// **'Two Months, More Focus'**
+  /// **'Two months, more focus'**
   String get marijuanaMilestone60Title;
 
   /// Marijuana milestone day 60 description
@@ -3981,7 +3981,7 @@ abstract class AppLocalizations {
   /// Marijuana milestone day 90 title
   ///
   /// In en, this message translates to:
-  /// **'Three Months. Steadier.'**
+  /// **'Three months'**
   String get marijuanaMilestone90Title;
 
   /// Marijuana milestone day 90 description
@@ -3993,7 +3993,7 @@ abstract class AppLocalizations {
   /// Marijuana milestone day 180 title
   ///
   /// In en, this message translates to:
-  /// **'Six Months, Plenty Done'**
+  /// **'Six months, plenty done'**
   String get marijuanaMilestone180Title;
 
   /// Marijuana milestone day 180 description
@@ -4005,7 +4005,7 @@ abstract class AppLocalizations {
   /// Marijuana milestone day 365 title
   ///
   /// In en, this message translates to:
-  /// **'One Year Without Cannabis'**
+  /// **'One year without cannabis'**
   String get marijuanaMilestone365Title;
 
   /// Marijuana milestone day 365 description
@@ -4017,7 +4017,7 @@ abstract class AppLocalizations {
   /// Opioid milestone day 1 title
   ///
   /// In en, this message translates to:
-  /// **'Day One: Get Support'**
+  /// **'Day one: get support'**
   String get opioidMilestone1Title;
 
   /// Opioid milestone day 1 description
@@ -4029,7 +4029,7 @@ abstract class AppLocalizations {
   /// Opioid milestone day 7 title
   ///
   /// In en, this message translates to:
-  /// **'A Week Through'**
+  /// **'A week through'**
   String get opioidMilestone7Title;
 
   /// Opioid milestone day 7 description
@@ -4041,7 +4041,7 @@ abstract class AppLocalizations {
   /// Opioid milestone day 14 title
   ///
   /// In en, this message translates to:
-  /// **'Two Weeks, Still Going'**
+  /// **'Two weeks, still going'**
   String get opioidMilestone14Title;
 
   /// Opioid milestone day 14 description
@@ -4053,7 +4053,7 @@ abstract class AppLocalizations {
   /// Opioid milestone day 30 title
   ///
   /// In en, this message translates to:
-  /// **'A Month of Recovery'**
+  /// **'A month of recovery'**
   String get opioidMilestone30Title;
 
   /// Opioid milestone day 30 description
@@ -4065,7 +4065,7 @@ abstract class AppLocalizations {
   /// Opioid milestone day 60 title
   ///
   /// In en, this message translates to:
-  /// **'Two Months, More Balance'**
+  /// **'Two months, more balance'**
   String get opioidMilestone60Title;
 
   /// Opioid milestone day 60 description
@@ -4077,7 +4077,7 @@ abstract class AppLocalizations {
   /// Opioid milestone day 90 title
   ///
   /// In en, this message translates to:
-  /// **'Three Months of Change'**
+  /// **'Three months of change'**
   String get opioidMilestone90Title;
 
   /// Opioid milestone day 90 description
@@ -4089,7 +4089,7 @@ abstract class AppLocalizations {
   /// Opioid milestone day 180 title
   ///
   /// In en, this message translates to:
-  /// **'Half a Year. Big Step.'**
+  /// **'Half a year'**
   String get opioidMilestone180Title;
 
   /// Opioid milestone day 180 description
@@ -4101,7 +4101,7 @@ abstract class AppLocalizations {
   /// Opioid milestone day 365 title
   ///
   /// In en, this message translates to:
-  /// **'One Year of Recovery'**
+  /// **'One year of recovery'**
   String get opioidMilestone365Title;
 
   /// Opioid milestone day 365 description
@@ -4113,31 +4113,31 @@ abstract class AppLocalizations {
   /// Opioid milestone day 730 title
   ///
   /// In en, this message translates to:
-  /// **'Two Years. Take the Win.'**
+  /// **'Two years'**
   String get opioidMilestone730Title;
 
   /// Opioid milestone day 730 description
   ///
   /// In en, this message translates to:
-  /// **'Two years in recovery. That\'s a lot of work, support and ordinary days. Long-term stability matters more than any made-up finish line.'**
+  /// **'Two years in recovery. You\'ve spent that time building stability with the support and treatment that help you.'**
   String get opioidMilestone730Description;
 
   /// Opioid milestone day 1095 title
   ///
   /// In en, this message translates to:
-  /// **'Three Years of Follow-Through'**
+  /// **'Three years of follow-through'**
   String get opioidMilestone1095Title;
 
   /// Opioid milestone day 1095 description
   ///
   /// In en, this message translates to:
-  /// **'Three years. You\'ve kept the routines and support around you for another whole year. That\'s worth celebrating.'**
+  /// **'Three years. You\'ve kept the routines and support around you for another whole year.'**
   String get opioidMilestone1095Description;
 
   /// Opioid milestone day 1460 title
   ///
   /// In en, this message translates to:
-  /// **'Four Years. Still Here.'**
+  /// **'Four years'**
   String get opioidMilestone1460Title;
 
   /// Opioid milestone day 1460 description
@@ -4149,7 +4149,7 @@ abstract class AppLocalizations {
   /// Opioid milestone day 1825 title
   ///
   /// In en, this message translates to:
-  /// **'Five Years. Properly Huge.'**
+  /// **'Five years'**
   String get opioidMilestone1825Title;
 
   /// Opioid milestone day 1825 description
@@ -4161,7 +4161,7 @@ abstract class AppLocalizations {
   /// Social media milestone day 1 title
   ///
   /// In en, this message translates to:
-  /// **'A Day Off the Feed'**
+  /// **'A day off the feed'**
   String get socialMediaMilestone1Title;
 
   /// Social media milestone day 1 description
@@ -4173,7 +4173,7 @@ abstract class AppLocalizations {
   /// Social media milestone day 3 title
   ///
   /// In en, this message translates to:
-  /// **'Three Days, Less Scrolling'**
+  /// **'Three days, less scrolling'**
   String get socialMediaMilestone3Title;
 
   /// Social media milestone day 3 description
@@ -4185,7 +4185,7 @@ abstract class AppLocalizations {
   /// Social media milestone day 7 title
   ///
   /// In en, this message translates to:
-  /// **'A Week of Your Attention'**
+  /// **'A week of your attention'**
   String get socialMediaMilestone7Title;
 
   /// Social media milestone day 7 description
@@ -4197,7 +4197,7 @@ abstract class AppLocalizations {
   /// Social media milestone day 14 title
   ///
   /// In en, this message translates to:
-  /// **'Two Weeks, Quieter Nights'**
+  /// **'Two weeks, quieter nights'**
   String get socialMediaMilestone14Title;
 
   /// Social media milestone day 14 description
@@ -4209,7 +4209,7 @@ abstract class AppLocalizations {
   /// Social media milestone day 30 title
   ///
   /// In en, this message translates to:
-  /// **'A Month Off the Feed'**
+  /// **'A month off the feed'**
   String get socialMediaMilestone30Title;
 
   /// Social media milestone day 30 description
@@ -4221,7 +4221,7 @@ abstract class AppLocalizations {
   /// Social media milestone day 60 title
   ///
   /// In en, this message translates to:
-  /// **'Two Months, Less Comparing'**
+  /// **'Two months, less comparing'**
   String get socialMediaMilestone60Title;
 
   /// Social media milestone day 60 description
@@ -4233,7 +4233,7 @@ abstract class AppLocalizations {
   /// Social media milestone day 90 title
   ///
   /// In en, this message translates to:
-  /// **'Three Months, Time Back'**
+  /// **'Three months, time back'**
   String get socialMediaMilestone90Title;
 
   /// Social media milestone day 90 description
@@ -4245,7 +4245,7 @@ abstract class AppLocalizations {
   /// Social media milestone day 180 title
   ///
   /// In en, this message translates to:
-  /// **'Half a Year Unplugged'**
+  /// **'Half a year unplugged'**
   String get socialMediaMilestone180Title;
 
   /// Social media milestone day 180 description
@@ -4257,7 +4257,7 @@ abstract class AppLocalizations {
   /// Social media milestone day 365 title
   ///
   /// In en, this message translates to:
-  /// **'One Year, No Doomscroll'**
+  /// **'One year, no doomscroll'**
   String get socialMediaMilestone365Title;
 
   /// Social media milestone day 365 description
@@ -4269,7 +4269,7 @@ abstract class AppLocalizations {
   /// Nicotine pouches milestone day 1 title
   ///
   /// In en, this message translates to:
-  /// **'First Day Pouch-Free'**
+  /// **'First day pouch-free'**
   String get nicotinePouchesMilestone1Title;
 
   /// Nicotine pouches milestone day 1 description
@@ -4281,7 +4281,7 @@ abstract class AppLocalizations {
   /// Nicotine pouches milestone day 3 title
   ///
   /// In en, this message translates to:
-  /// **'The Cravings Are Loud'**
+  /// **'The cravings are loud'**
   String get nicotinePouchesMilestone3Title;
 
   /// Nicotine pouches milestone day 3 description
@@ -4305,7 +4305,7 @@ abstract class AppLocalizations {
   /// Nicotine pouches milestone day 7 title
   ///
   /// In en, this message translates to:
-  /// **'A Week Without Pouches'**
+  /// **'A week without pouches'**
   String get nicotinePouchesMilestone7Title;
 
   /// Nicotine pouches milestone day 7 description
@@ -4317,7 +4317,7 @@ abstract class AppLocalizations {
   /// Nicotine pouches milestone day 14 title
   ///
   /// In en, this message translates to:
-  /// **'Two Weeks Clear'**
+  /// **'Two weeks clear'**
   String get nicotinePouchesMilestone14Title;
 
   /// Nicotine pouches milestone day 14 description
@@ -4341,13 +4341,13 @@ abstract class AppLocalizations {
   /// Nicotine pouches milestone day 730 title
   ///
   /// In en, this message translates to:
-  /// **'Two Years, No Pouches'**
+  /// **'Two years, no pouches'**
   String get nicotinePouchesMilestone730Title;
 
   /// Nicotine pouches milestone day 730 description
   ///
   /// In en, this message translates to:
-  /// **'Two years free of nicotine pouches. You haven\'t reinforced that habit for 730 days. That\'s solid.'**
+  /// **'Two years free of nicotine pouches. You haven\'t reinforced that habit for 730 days.'**
   String get nicotinePouchesMilestone730Description;
 
   /// Nicotine pouches reference content for day 730
@@ -4359,7 +4359,7 @@ abstract class AppLocalizations {
   /// Nicotine pouches milestone day 1095 title
   ///
   /// In en, this message translates to:
-  /// **'Three Years. Nice.'**
+  /// **'Three years'**
   String get nicotinePouchesMilestone1095Title;
 
   /// Nicotine pouches milestone day 1095 description
@@ -4377,7 +4377,7 @@ abstract class AppLocalizations {
   /// Nicotine pouches milestone day 1460 title
   ///
   /// In en, this message translates to:
-  /// **'Four Years Without Them'**
+  /// **'Four years without them'**
   String get nicotinePouchesMilestone1460Title;
 
   /// Nicotine pouches milestone day 1460 description
@@ -4395,13 +4395,13 @@ abstract class AppLocalizations {
   /// Nicotine pouches milestone day 1825 title
   ///
   /// In en, this message translates to:
-  /// **'Five Years. Big One.'**
+  /// **'Five years'**
   String get nicotinePouchesMilestone1825Title;
 
   /// Nicotine pouches milestone day 1825 description
   ///
   /// In en, this message translates to:
-  /// **'Half a decade pouch-free. Five years of not going back to nicotine pouches. Fair play—that\'s a serious anniversary.'**
+  /// **'Half a decade pouch-free. Five years of not going back to nicotine pouches. Fair play, that\'s a serious anniversary.'**
   String get nicotinePouchesMilestone1825Description;
 
   /// Nicotine pouches reference content for day 1825
@@ -4413,7 +4413,7 @@ abstract class AppLocalizations {
   /// Pornography milestone day 1 title
   ///
   /// In en, this message translates to:
-  /// **'One Day in Control'**
+  /// **'One day in control'**
   String get pornographyMilestone1Title;
 
   /// Pornography milestone day 1 description
@@ -4425,7 +4425,7 @@ abstract class AppLocalizations {
   /// Pornography milestone day 3 title
   ///
   /// In en, this message translates to:
-  /// **'Three Days, Learning Urges'**
+  /// **'Three days, learning urges'**
   String get pornographyMilestone3Title;
 
   /// Pornography milestone day 3 description
@@ -4437,7 +4437,7 @@ abstract class AppLocalizations {
   /// Pornography milestone day 7 title
   ///
   /// In en, this message translates to:
-  /// **'A Week of Choices'**
+  /// **'A week of choices'**
   String get pornographyMilestone7Title;
 
   /// Pornography milestone day 7 description
@@ -4449,7 +4449,7 @@ abstract class AppLocalizations {
   /// Pornography milestone day 14 title
   ///
   /// In en, this message translates to:
-  /// **'Two Weeks, Know the Triggers'**
+  /// **'Two weeks, know the triggers'**
   String get pornographyMilestone14Title;
 
   /// Pornography milestone day 14 description
@@ -4461,19 +4461,19 @@ abstract class AppLocalizations {
   /// Pornography milestone day 30 title
   ///
   /// In en, this message translates to:
-  /// **'A Month in Charge'**
+  /// **'A month in charge'**
   String get pornographyMilestone30Title;
 
   /// Pornography milestone day 30 description
   ///
   /// In en, this message translates to:
-  /// **'Thirty days of working on control. Problematic use is about distress and interference with life, not a moral scorecard or a viewing-number contest.'**
+  /// **'Thirty days of working on control. Problematic use means distress and interference with life. Focus on how the change is helping you.'**
   String get pornographyMilestone30Description;
 
   /// Pornography milestone day 90 title
   ///
   /// In en, this message translates to:
-  /// **'Three Months, Change That Sticks'**
+  /// **'Three months, change that sticks'**
   String get pornographyMilestone90Title;
 
   /// Pornography milestone day 90 description
@@ -4485,7 +4485,7 @@ abstract class AppLocalizations {
   /// Pornography milestone day 180 title
   ///
   /// In en, this message translates to:
-  /// **'Half a Year of Control'**
+  /// **'Half a year of control'**
   String get pornographyMilestone180Title;
 
   /// Pornography milestone day 180 description
@@ -4497,31 +4497,31 @@ abstract class AppLocalizations {
   /// Pornography milestone day 365 title
   ///
   /// In en, this message translates to:
-  /// **'One Year. Your Call.'**
+  /// **'One year'**
   String get pornographyMilestone365Title;
 
   /// Pornography milestone day 365 description
   ///
   /// In en, this message translates to:
-  /// **'A full year of making this choice. The achievement is more control and less interference with your life, not a mythical brain reset.'**
+  /// **'A full year of making this choice. You can recognise the progress in having more control and less interference with your life.'**
   String get pornographyMilestone365Description;
 
   /// Pornography milestone day 730 title
   ///
   /// In en, this message translates to:
-  /// **'Two Years. Steady.'**
+  /// **'Two years'**
   String get pornographyMilestone730Title;
 
   /// Pornography milestone day 730 description
   ///
   /// In en, this message translates to:
-  /// **'Two years of keeping the pattern in check. If life feels more manageable, that\'s a meaningful result. No grand claims needed.'**
+  /// **'Two years of keeping the pattern in check. If life feels more manageable, that\'s a meaningful result.'**
   String get pornographyMilestone730Description;
 
   /// Pornography milestone day 1095 title
   ///
   /// In en, this message translates to:
-  /// **'Three Years of Control'**
+  /// **'Three years of control'**
   String get pornographyMilestone1095Title;
 
   /// Pornography milestone day 1095 description
@@ -4533,19 +4533,19 @@ abstract class AppLocalizations {
   /// Pornography milestone day 1460 title
   ///
   /// In en, this message translates to:
-  /// **'Four Years, Your Terms'**
+  /// **'Four years, your terms'**
   String get pornographyMilestone1460Title;
 
   /// Pornography milestone day 1460 description
   ///
   /// In en, this message translates to:
-  /// **'Four years. The important thing is how you\'re functioning and feeling, not whether someone else\'s rules say you\'re doing recovery right.'**
+  /// **'Four years of working on the pattern you wanted to change. Judge your progress by how you\'re functioning and feeling.'**
   String get pornographyMilestone1460Description;
 
   /// Pornography milestone day 1825 title
   ///
   /// In en, this message translates to:
-  /// **'Five Years. That\'s Real.'**
+  /// **'Five years'**
   String get pornographyMilestone1825Title;
 
   /// Pornography milestone day 1825 description
@@ -4557,7 +4557,7 @@ abstract class AppLocalizations {
   /// Custom milestone day 1 title
   ///
   /// In en, this message translates to:
-  /// **'One Day Down'**
+  /// **'One day down'**
   String get customMilestone1Title;
 
   /// Custom milestone day 1 description
@@ -4569,19 +4569,19 @@ abstract class AppLocalizations {
   /// Custom milestone day 3 title
   ///
   /// In en, this message translates to:
-  /// **'Three Days. Here We Go.'**
+  /// **'Three days'**
   String get customMilestone3Title;
 
   /// Custom milestone day 3 description
   ///
   /// In en, this message translates to:
-  /// **'Three days without your old pattern. Some changes are hardest early; others take longer. Either way, you\'ve started.'**
+  /// **'Three days without your old pattern. Some changes are hardest early; others take longer.'**
   String get customMilestone3Description;
 
   /// Custom milestone day 7 title
   ///
   /// In en, this message translates to:
-  /// **'A Whole Week'**
+  /// **'A whole week'**
   String get customMilestone7Title;
 
   /// Custom milestone day 7 description
@@ -4593,7 +4593,7 @@ abstract class AppLocalizations {
   /// Custom milestone day 14 title
   ///
   /// In en, this message translates to:
-  /// **'Two Weeks in the Bag'**
+  /// **'Two weeks in the bag'**
   String get customMilestone14Title;
 
   /// Custom milestone day 14 description
@@ -4605,7 +4605,7 @@ abstract class AppLocalizations {
   /// Custom milestone day 30 title
   ///
   /// In en, this message translates to:
-  /// **'One Month. Nice.'**
+  /// **'One month'**
   String get customMilestone30Title;
 
   /// Custom milestone day 30 description
@@ -4617,7 +4617,7 @@ abstract class AppLocalizations {
   /// Custom milestone day 90 title
   ///
   /// In en, this message translates to:
-  /// **'Three Months Clear'**
+  /// **'Three months clear'**
   String get customMilestone90Title;
 
   /// Custom milestone day 90 description
@@ -4629,43 +4629,43 @@ abstract class AppLocalizations {
   /// Custom milestone day 180 title
   ///
   /// In en, this message translates to:
-  /// **'Half a Year'**
+  /// **'Half a year'**
   String get customMilestone180Title;
 
   /// Custom milestone day 180 description
   ///
   /// In en, this message translates to:
-  /// **'Six months. Whether the benefits are obvious or subtle, you\'ve kept a decision going for half a year. That counts.'**
+  /// **'Six months. Whether the benefits are obvious or subtle, you\'ve kept a decision going for half a year.'**
   String get customMilestone180Description;
 
   /// Custom milestone day 365 title
   ///
   /// In en, this message translates to:
-  /// **'A Full Year. Well Done.'**
+  /// **'A full year'**
   String get customMilestone365Title;
 
   /// Custom milestone day 365 description
   ///
   /// In en, this message translates to:
-  /// **'One year. Birthdays, seasons, workdays and days off. You\'ve made room for a different habit through all of it.'**
+  /// **'You\'ve made room for a different habit through a full year of birthdays, seasons, workdays and days off.'**
   String get customMilestone365Description;
 
   /// Custom milestone day 730 title
   ///
   /// In en, this message translates to:
-  /// **'Two Years. Solid Work.'**
+  /// **'Two years'**
   String get customMilestone730Title;
 
   /// Custom milestone day 730 description
   ///
   /// In en, this message translates to:
-  /// **'Two years. The routines and support that got you started have carried you through another year. That\'s worth a proper nod.'**
+  /// **'Two years. The routines and support that got you started have carried you through another year.'**
   String get customMilestone730Description;
 
   /// No description provided for @customMilestone1095Title.
   ///
   /// In en, this message translates to:
-  /// **'Three Years, Still Going'**
+  /// **'Three years, still going'**
   String get customMilestone1095Title;
 
   /// No description provided for @customMilestone1095Description.
@@ -4677,19 +4677,19 @@ abstract class AppLocalizations {
   /// No description provided for @customMilestone1460Title.
   ///
   /// In en, this message translates to:
-  /// **'Four Years. Fair Play.'**
+  /// **'Four years'**
   String get customMilestone1460Title;
 
   /// No description provided for @customMilestone1460Description.
   ///
   /// In en, this message translates to:
-  /// **'Four years. No universal health deadline to hit—just a lot of sustained work that deserves recognition.'**
+  /// **'Four years of sustained work on the habit you chose to change. You can be proud of keeping it going.'**
   String get customMilestone1460Description;
 
   /// No description provided for @customMilestone1825Title.
   ///
   /// In en, this message translates to:
-  /// **'Five Years. Huge.'**
+  /// **'Five years'**
   String get customMilestone1825Title;
 
   /// No description provided for @customMilestone1825Description.
@@ -4755,7 +4755,7 @@ abstract class AppLocalizations {
   /// No description provided for @ssriMilestone3Title.
   ///
   /// In en, this message translates to:
-  /// **'Day Three: Take It Easy'**
+  /// **'Day three: take it easy'**
   String get ssriMilestone3Title;
 
   /// No description provided for @ssriMilestone3Description.
@@ -4767,7 +4767,7 @@ abstract class AppLocalizations {
   /// No description provided for @ssriMilestone7Title.
   ///
   /// In en, this message translates to:
-  /// **'One Week After Stopping'**
+  /// **'One week after stopping'**
   String get ssriMilestone7Title;
 
   /// No description provided for @ssriMilestone7Description.
@@ -4779,7 +4779,7 @@ abstract class AppLocalizations {
   /// No description provided for @ssriMilestone14Title.
   ///
   /// In en, this message translates to:
-  /// **'Two Weeks, Check In'**
+  /// **'Two weeks, check in'**
   String get ssriMilestone14Title;
 
   /// No description provided for @ssriMilestone14Description.
@@ -4791,7 +4791,7 @@ abstract class AppLocalizations {
   /// No description provided for @ssriMilestone30Title.
   ///
   /// In en, this message translates to:
-  /// **'A Month After the Taper'**
+  /// **'A month after the taper'**
   String get ssriMilestone30Title;
 
   /// No description provided for @ssriMilestone30Description.
@@ -4803,7 +4803,7 @@ abstract class AppLocalizations {
   /// No description provided for @ssriMilestone90Title.
   ///
   /// In en, this message translates to:
-  /// **'Three Months: A Checkpoint'**
+  /// **'Three months: a checkpoint'**
   String get ssriMilestone90Title;
 
   /// No description provided for @ssriMilestone90Description.
@@ -4815,7 +4815,7 @@ abstract class AppLocalizations {
   /// No description provided for @ssriMilestone180Title.
   ///
   /// In en, this message translates to:
-  /// **'Six Months, Your Own Pace'**
+  /// **'Six months, your own pace'**
   String get ssriMilestone180Title;
 
   /// No description provided for @ssriMilestone180Description.
@@ -4827,7 +4827,7 @@ abstract class AppLocalizations {
   /// No description provided for @ssriMilestone365Title.
   ///
   /// In en, this message translates to:
-  /// **'One Year After the Taper'**
+  /// **'One year after the taper'**
   String get ssriMilestone365Title;
 
   /// No description provided for @ssriMilestone365Description.
@@ -4887,7 +4887,7 @@ abstract class AppLocalizations {
   /// No description provided for @snriMilestone3Title.
   ///
   /// In en, this message translates to:
-  /// **'Day Three: Get Support'**
+  /// **'Day three: get support'**
   String get snriMilestone3Title;
 
   /// No description provided for @snriMilestone3Description.
@@ -4899,7 +4899,7 @@ abstract class AppLocalizations {
   /// No description provided for @snriMilestone7Title.
   ///
   /// In en, this message translates to:
-  /// **'One Week Into the Change'**
+  /// **'One week into the change'**
   String get snriMilestone7Title;
 
   /// No description provided for @snriMilestone7Description.
@@ -4911,7 +4911,7 @@ abstract class AppLocalizations {
   /// No description provided for @snriMilestone14Title.
   ///
   /// In en, this message translates to:
-  /// **'Two Weeks, Still Adjusting'**
+  /// **'Two weeks, still adjusting'**
   String get snriMilestone14Title;
 
   /// No description provided for @snriMilestone14Description.
@@ -4923,19 +4923,19 @@ abstract class AppLocalizations {
   /// No description provided for @snriMilestone30Title.
   ///
   /// In en, this message translates to:
-  /// **'A Month After SNRI Taper'**
+  /// **'A month after SNRI taper'**
   String get snriMilestone30Title;
 
   /// No description provided for @snriMilestone30Description.
   ///
   /// In en, this message translates to:
-  /// **'Thirty days since stopping. Sleep, energy and mood might be more settled, or not yet. Recovery isn\'t a contest.'**
+  /// **'Thirty days since stopping. Sleep, energy and mood might be more settled, or not yet.'**
   String get snriMilestone30Description;
 
   /// No description provided for @snriMilestone90Title.
   ///
   /// In en, this message translates to:
-  /// **'Three Months, Worth Checking'**
+  /// **'Three months, worth checking'**
   String get snriMilestone90Title;
 
   /// No description provided for @snriMilestone90Description.
@@ -4947,19 +4947,19 @@ abstract class AppLocalizations {
   /// No description provided for @snriMilestone180Title.
   ///
   /// In en, this message translates to:
-  /// **'Half a Year On'**
+  /// **'Half a year on'**
   String get snriMilestone180Title;
 
   /// No description provided for @snriMilestone180Description.
   ///
   /// In en, this message translates to:
-  /// **'Six months. Your experience may be smoother now, or you may still need support. There\'s no guaranteed brain-chemistry reset on this date.'**
+  /// **'Six months after stopping. Your experience may be smoother now, or you may still need support. Recovery takes different amounts of time for different people.'**
   String get snriMilestone180Description;
 
   /// No description provided for @snriMilestone365Title.
   ///
   /// In en, this message translates to:
-  /// **'One Year After Stopping'**
+  /// **'One year after stopping'**
   String get snriMilestone365Title;
 
   /// No description provided for @snriMilestone365Description.
@@ -4971,13 +4971,13 @@ abstract class AppLocalizations {
   /// No description provided for @snriMilestone730Title.
   ///
   /// In en, this message translates to:
-  /// **'Two Years. Good Progress.'**
+  /// **'Two years'**
   String get snriMilestone730Title;
 
   /// No description provided for @snriMilestone730Description.
   ///
   /// In en, this message translates to:
-  /// **'Two years since stopping your SNRI. A substantial stretch, even without a universal medical finish line.'**
+  /// **'Two years since stopping your SNRI. How you\'re feeling matters more than the date.'**
   String get snriMilestone730Description;
 
   /// No description provided for @snriReferenceDay730.
@@ -4989,13 +4989,13 @@ abstract class AppLocalizations {
   /// No description provided for @snriMilestone1095Title.
   ///
   /// In en, this message translates to:
-  /// **'Three Years, Steady'**
+  /// **'Three years, steady'**
   String get snriMilestone1095Title;
 
   /// No description provided for @snriMilestone1095Description.
   ///
   /// In en, this message translates to:
-  /// **'Three years. You\'ve had a lot of time to find what supports your wellbeing. That\'s a meaningful part of the story.'**
+  /// **'Three years. You\'ve had a lot of time to find what supports your wellbeing.'**
   String get snriMilestone1095Description;
 
   /// No description provided for @snriReferenceDay1095.
@@ -5007,13 +5007,13 @@ abstract class AppLocalizations {
   /// No description provided for @snriMilestone1460Title.
   ///
   /// In en, this message translates to:
-  /// **'Four Years of Looking After You'**
+  /// **'Four years of looking after you'**
   String get snriMilestone1460Title;
 
   /// No description provided for @snriMilestone1460Description.
   ///
   /// In en, this message translates to:
-  /// **'Four years after the taper. What matters is how you\'re doing and getting the care you need, not some imaginary recovery deadline.'**
+  /// **'Four years after the taper. Keep checking how you\'re doing and getting the care you need.'**
   String get snriMilestone1460Description;
 
   /// No description provided for @snriReferenceDay1460.
@@ -5025,13 +5025,13 @@ abstract class AppLocalizations {
   /// No description provided for @snriMilestone1825Title.
   ///
   /// In en, this message translates to:
-  /// **'Five Years. Worth a Moment.'**
+  /// **'Five years'**
   String get snriMilestone1825Title;
 
   /// No description provided for @snriMilestone1825Description.
   ///
   /// In en, this message translates to:
-  /// **'Half a decade since stopping your SNRI. If that\'s worked well for you, it\'s a big personal milestone. Take a moment for it.'**
+  /// **'Half a decade since stopping your SNRI. If that\'s worked well for you, it\'s a big personal milestone.'**
   String get snriMilestone1825Description;
 
   /// No description provided for @snriReferenceDay1825.
@@ -5091,7 +5091,7 @@ abstract class AppLocalizations {
   /// No description provided for @tcaMilestone3Title.
   ///
   /// In en, this message translates to:
-  /// **'Day Three: Go Carefully'**
+  /// **'Day three: go carefully'**
   String get tcaMilestone3Title;
 
   /// No description provided for @tcaMilestone3Description.
@@ -5103,7 +5103,7 @@ abstract class AppLocalizations {
   /// No description provided for @tcaMilestone7Title.
   ///
   /// In en, this message translates to:
-  /// **'One Week After the Taper'**
+  /// **'One week after the taper'**
   String get tcaMilestone7Title;
 
   /// No description provided for @tcaMilestone7Description.
@@ -5115,7 +5115,7 @@ abstract class AppLocalizations {
   /// No description provided for @tcaMilestone14Title.
   ///
   /// In en, this message translates to:
-  /// **'Two Weeks, Taking Stock'**
+  /// **'Two weeks, taking stock'**
   String get tcaMilestone14Title;
 
   /// No description provided for @tcaMilestone14Description.
@@ -5127,19 +5127,19 @@ abstract class AppLocalizations {
   /// No description provided for @tcaMilestone30Title.
   ///
   /// In en, this message translates to:
-  /// **'A Month After Stopping'**
+  /// **'A month after stopping'**
   String get tcaMilestone30Title;
 
   /// No description provided for @tcaMilestone30Description.
   ///
   /// In en, this message translates to:
-  /// **'Thirty days since your TCA taper. Some people are past the acute symptoms; others need more time and care. Both are valid.'**
+  /// **'Thirty days since your TCA taper. Some people are past the acute symptoms; others need more time and care.'**
   String get tcaMilestone30Description;
 
   /// No description provided for @tcaMilestone90Title.
   ///
   /// In en, this message translates to:
-  /// **'Three Months On'**
+  /// **'Three months on'**
   String get tcaMilestone90Title;
 
   /// No description provided for @tcaMilestone90Description.
@@ -5151,7 +5151,7 @@ abstract class AppLocalizations {
   /// No description provided for @tcaMilestone180Title.
   ///
   /// In en, this message translates to:
-  /// **'Six Months, Looking After You'**
+  /// **'Six months, looking after you'**
   String get tcaMilestone180Title;
 
   /// No description provided for @tcaMilestone180Description.
@@ -5163,7 +5163,7 @@ abstract class AppLocalizations {
   /// No description provided for @tcaMilestone365Title.
   ///
   /// In en, this message translates to:
-  /// **'A Year Since the Taper'**
+  /// **'A year since the taper'**
   String get tcaMilestone365Title;
 
   /// No description provided for @tcaMilestone365Description.
@@ -5175,13 +5175,13 @@ abstract class AppLocalizations {
   /// No description provided for @tcaMilestone730Title.
   ///
   /// In en, this message translates to:
-  /// **'Two Years. Solid.'**
+  /// **'Two years'**
   String get tcaMilestone730Title;
 
   /// No description provided for @tcaMilestone730Description.
   ///
   /// In en, this message translates to:
-  /// **'Two years since stopping your TCA. That\'s a long personal milestone, not a fixed neurological reset. How you\'re feeling matters most.'**
+  /// **'Two years since stopping your TCA. How you\'re feeling matters more than the date.'**
   String get tcaMilestone730Description;
 
   /// No description provided for @tcaReferenceDay730.
@@ -5193,13 +5193,13 @@ abstract class AppLocalizations {
   /// No description provided for @tcaMilestone1095Title.
   ///
   /// In en, this message translates to:
-  /// **'Three Years, Still Going'**
+  /// **'Three years, still going'**
   String get tcaMilestone1095Title;
 
   /// No description provided for @tcaMilestone1095Description.
   ///
   /// In en, this message translates to:
-  /// **'Three years. Whatever support and treatment decisions have helped, they\'ve got you this far. Worth acknowledging.'**
+  /// **'Three years. Whatever support and treatment decisions have helped, they\'ve got you this far.'**
   String get tcaMilestone1095Description;
 
   /// No description provided for @tcaReferenceDay1095.
@@ -5211,13 +5211,13 @@ abstract class AppLocalizations {
   /// No description provided for @tcaMilestone1460Title.
   ///
   /// In en, this message translates to:
-  /// **'Four Years, Your Pace'**
+  /// **'Four years, your pace'**
   String get tcaMilestone1460Title;
 
   /// No description provided for @tcaMilestone1460Description.
   ///
   /// In en, this message translates to:
-  /// **'Four years after the taper. No universal timetable, no prize for doing without care. Just your progress and what keeps you well.'**
+  /// **'Four years after the taper. Recovery takes different amounts of time for different people. Keep using the care that helps you stay well.'**
   String get tcaMilestone1460Description;
 
   /// No description provided for @tcaReferenceDay1460.
@@ -5229,7 +5229,7 @@ abstract class AppLocalizations {
   /// No description provided for @tcaMilestone1825Title.
   ///
   /// In en, this message translates to:
-  /// **'Five Years. Worth Celebrating.'**
+  /// **'Five years'**
   String get tcaMilestone1825Title;
 
   /// No description provided for @tcaMilestone1825Description.
@@ -5295,7 +5295,7 @@ abstract class AppLocalizations {
   /// No description provided for @maoiMilestone3Title.
   ///
   /// In en, this message translates to:
-  /// **'Day Three: Medical Support'**
+  /// **'Day three: medical support'**
   String get maoiMilestone3Title;
 
   /// No description provided for @maoiMilestone3Description.
@@ -5307,7 +5307,7 @@ abstract class AppLocalizations {
   /// No description provided for @maoiMilestone7Title.
   ///
   /// In en, this message translates to:
-  /// **'One Week, Still Cautious'**
+  /// **'One week, still cautious'**
   String get maoiMilestone7Title;
 
   /// No description provided for @maoiMilestone7Description.
@@ -5319,7 +5319,7 @@ abstract class AppLocalizations {
   /// No description provided for @maoiMilestone14Title.
   ///
   /// In en, this message translates to:
-  /// **'Two Weeks: Check the Plan'**
+  /// **'Two weeks: check the plan'**
   String get maoiMilestone14Title;
 
   /// No description provided for @maoiMilestone14Description.
@@ -5331,7 +5331,7 @@ abstract class AppLocalizations {
   /// No description provided for @maoiMilestone30Title.
   ///
   /// In en, this message translates to:
-  /// **'A Month After Stopping'**
+  /// **'A month after stopping'**
   String get maoiMilestone30Title;
 
   /// No description provided for @maoiMilestone30Description.
@@ -5343,19 +5343,19 @@ abstract class AppLocalizations {
   /// No description provided for @maoiMilestone90Title.
   ///
   /// In en, this message translates to:
-  /// **'Three Months, Check In'**
+  /// **'Three months, check in'**
   String get maoiMilestone90Title;
 
   /// No description provided for @maoiMilestone90Description.
   ///
   /// In en, this message translates to:
-  /// **'Three months since stopping. How you\'re sleeping, coping and feeling matters much more than a supposed brain-chemistry deadline.'**
+  /// **'Three months since stopping. Check how you\'re sleeping, coping and feeling, and get support where you need it.'**
   String get maoiMilestone90Description;
 
   /// No description provided for @maoiMilestone180Title.
   ///
   /// In en, this message translates to:
-  /// **'Half a Year On'**
+  /// **'Half a year on'**
   String get maoiMilestone180Title;
 
   /// No description provided for @maoiMilestone180Description.
@@ -5367,7 +5367,7 @@ abstract class AppLocalizations {
   /// No description provided for @maoiMilestone365Title.
   ///
   /// In en, this message translates to:
-  /// **'One Year After the Taper'**
+  /// **'One year after the taper'**
   String get maoiMilestone365Title;
 
   /// No description provided for @maoiMilestone365Description.
@@ -6153,13 +6153,13 @@ abstract class AppLocalizations {
   /// No description provided for @methMilestone1095Title.
   ///
   /// In en, this message translates to:
-  /// **'Three Years, Still Clear'**
+  /// **'Three years, still clear'**
   String get methMilestone1095Title;
 
   /// No description provided for @methMilestone1095Description.
   ///
   /// In en, this message translates to:
-  /// **'Three years. This isn\'t a brief break. It\'s a change you\'ve carried through real life, and that\'s worth being proud of.'**
+  /// **'Three years without meth. You\'ve kept this change going through everyday life.'**
   String get methMilestone1095Description;
 
   /// No description provided for @methReferenceDay1095.
@@ -6171,13 +6171,13 @@ abstract class AppLocalizations {
   /// No description provided for @methMilestone1460Title.
   ///
   /// In en, this message translates to:
-  /// **'Four Years Without Meth'**
+  /// **'Four years without meth'**
   String get methMilestone1460Title;
 
   /// No description provided for @methMilestone1460Description.
   ///
   /// In en, this message translates to:
-  /// **'Four years. There\'s no universal brain-healing finish line, but there are four years you didn\'t go back. That\'s substantial.'**
+  /// **'Four years without meth. Recovery varies, and you\'ve given yourself four years without renewed exposure.'**
   String get methMilestone1460Description;
 
   /// No description provided for @methReferenceDay1460.
@@ -6189,13 +6189,13 @@ abstract class AppLocalizations {
   /// No description provided for @methMilestone1825Title.
   ///
   /// In en, this message translates to:
-  /// **'Five Years. Massive.'**
+  /// **'Five years'**
   String get methMilestone1825Title;
 
   /// No description provided for @methMilestone1825Description.
   ///
   /// In en, this message translates to:
-  /// **'Half a decade free of meth. Five years of mornings, weekends, difficult days and ordinary life. You\'ve held onto this change through all of it.'**
+  /// **'You\'ve stayed free of meth through five years of mornings, weekends, difficult days and ordinary life.'**
   String get methMilestone1825Description;
 
   /// No description provided for @methReferenceDay1825.
@@ -6753,19 +6753,19 @@ abstract class AppLocalizations {
   /// No description provided for @vapingMilestone730Title.
   ///
   /// In en, this message translates to:
-  /// **'Two Years Vape-Free'**
+  /// **'Two years vape-free'**
   String get vapingMilestone730Title;
 
   /// No description provided for @vapingMilestone730Description.
   ///
   /// In en, this message translates to:
-  /// **'Two years without a vape. You\'ve gone 730 days without reinforcing that nicotine habit. That\'s a real achievement.'**
+  /// **'Two years without a vape. You\'ve gone 730 days without reinforcing that nicotine habit.'**
   String get vapingMilestone730Description;
 
   /// No description provided for @vapingMilestone1095Title.
   ///
   /// In en, this message translates to:
-  /// **'Three Years. No Vape.'**
+  /// **'Three years'**
   String get vapingMilestone1095Title;
 
   /// No description provided for @vapingMilestone1095Description.
@@ -6777,7 +6777,7 @@ abstract class AppLocalizations {
   /// No description provided for @vapingMilestone1460Title.
   ///
   /// In en, this message translates to:
-  /// **'Four Years, Still Clear'**
+  /// **'Four years, still clear'**
   String get vapingMilestone1460Title;
 
   /// No description provided for @vapingMilestone1460Description.
@@ -6789,13 +6789,13 @@ abstract class AppLocalizations {
   /// No description provided for @vapingMilestone1825Title.
   ///
   /// In en, this message translates to:
-  /// **'Five Years. Big Deal.'**
+  /// **'Five years'**
   String get vapingMilestone1825Title;
 
   /// No description provided for @vapingMilestone1825Description.
   ///
   /// In en, this message translates to:
-  /// **'Half a decade vape-free. We don\'t need to invent a five-year medical reset to say it: this is a huge bit of follow-through.'**
+  /// **'Half a decade vape-free. You\'ve kept vaping out of your life for five years.'**
   String get vapingMilestone1825Description;
 
   /// No description provided for @vapingLongTermReference.
@@ -6819,13 +6819,13 @@ abstract class AppLocalizations {
   /// No description provided for @adderallMilestone730Title.
   ///
   /// In en, this message translates to:
-  /// **'Two Years Without Misuse'**
+  /// **'Two years without misuse'**
   String get adderallMilestone730Title;
 
   /// No description provided for @adderallMilestone730Description.
   ///
   /// In en, this message translates to:
-  /// **'Two years. You\'ve kept Adderall misuse out of the picture while life carried on. That\'s solid work.'**
+  /// **'Two years. You\'ve kept Adderall misuse out of the picture while life carried on.'**
   String get adderallMilestone730Description;
 
   /// No description provided for @adderallReferenceDay730.
@@ -6837,13 +6837,13 @@ abstract class AppLocalizations {
   /// No description provided for @adderallMilestone1095Title.
   ///
   /// In en, this message translates to:
-  /// **'Three Years of Progress'**
+  /// **'Three years of progress'**
   String get adderallMilestone1095Title;
 
   /// No description provided for @adderallMilestone1095Description.
   ///
   /// In en, this message translates to:
-  /// **'Three years. The habits and support you\'ve built have been tested by plenty of real life. And they\'re still here.'**
+  /// **'Three years. The habits and support you\'ve built have been tested by plenty of real life.'**
   String get adderallMilestone1095Description;
 
   /// No description provided for @adderallReferenceDay1095.
@@ -6855,13 +6855,13 @@ abstract class AppLocalizations {
   /// No description provided for @adderallMilestone1460Title.
   ///
   /// In en, this message translates to:
-  /// **'Four Years, Still Clear'**
+  /// **'Four years, still clear'**
   String get adderallMilestone1460Title;
 
   /// No description provided for @adderallMilestone1460Description.
   ///
   /// In en, this message translates to:
-  /// **'Four years without misuse. Not a short-lived burst of motivation. A change you\'ve kept making, over and over.'**
+  /// **'Four years without misuse. You\'ve kept making this choice through changes in motivation and everyday life.'**
   String get adderallMilestone1460Description;
 
   /// No description provided for @adderallReferenceDay1460.
@@ -6873,13 +6873,13 @@ abstract class AppLocalizations {
   /// No description provided for @adderallMilestone1825Title.
   ///
   /// In en, this message translates to:
-  /// **'Five Years. Huge.'**
+  /// **'Five years'**
   String get adderallMilestone1825Title;
 
   /// No description provided for @adderallMilestone1825Description.
   ///
   /// In en, this message translates to:
-  /// **'Half a decade without misusing Adderall. Five years of protecting the life you\'ve built. Take this one in.'**
+  /// **'Half a decade without misusing Adderall. Five years of protecting the life you\'ve built.'**
   String get adderallMilestone1825Description;
 
   /// No description provided for @adderallReferenceDay1825.
@@ -6891,13 +6891,13 @@ abstract class AppLocalizations {
   /// No description provided for @alcoholMilestone730Title.
   ///
   /// In en, this message translates to:
-  /// **'Two Years. Well Played.'**
+  /// **'Two years'**
   String get alcoholMilestone730Title;
 
   /// No description provided for @alcoholMilestone730Description.
   ///
   /// In en, this message translates to:
-  /// **'Two full years without alcohol. Holidays, stress and ordinary Tuesdays—handled without a drink. Better sleep and blood pressure may be among the gains.'**
+  /// **'Two full years without alcohol. Holidays, stress and ordinary Tuesdays, handled without a drink. Better sleep and blood pressure may be among the gains.'**
   String get alcoholMilestone730Description;
 
   /// No description provided for @alcoholReferenceDay730.
@@ -6909,7 +6909,7 @@ abstract class AppLocalizations {
   /// No description provided for @alcoholMilestone1095Title.
   ///
   /// In en, this message translates to:
-  /// **'Three Years, Still Clear'**
+  /// **'Three years, still clear'**
   String get alcoholMilestone1095Title;
 
   /// No description provided for @alcoholMilestone1095Description.
@@ -6927,7 +6927,7 @@ abstract class AppLocalizations {
   /// No description provided for @alcoholMilestone1460Title.
   ///
   /// In en, this message translates to:
-  /// **'Four Years. Look at That.'**
+  /// **'Four years'**
   String get alcoholMilestone1460Title;
 
   /// No description provided for @alcoholMilestone1460Description.
@@ -6945,13 +6945,13 @@ abstract class AppLocalizations {
   /// No description provided for @alcoholMilestone1825Title.
   ///
   /// In en, this message translates to:
-  /// **'Five Years. That’s Massive.'**
+  /// **'Five years'**
   String get alcoholMilestone1825Title;
 
   /// No description provided for @alcoholMilestone1825Description.
   ///
   /// In en, this message translates to:
-  /// **'Half a decade without alcohol. Five years of birthdays, bad days and everything between. The long-term health benefits matter, and so does what you\'ve done.'**
+  /// **'Five years without alcohol, through birthdays, bad days and everything between. The long-term health benefits keep adding up.'**
   String get alcoholMilestone1825Description;
 
   /// No description provided for @alcoholReferenceDay1825.
@@ -6963,13 +6963,13 @@ abstract class AppLocalizations {
   /// No description provided for @ghbMilestone730Title.
   ///
   /// In en, this message translates to:
-  /// **'Two Years. Properly.'**
+  /// **'Two years'**
   String get ghbMilestone730Title;
 
   /// No description provided for @ghbMilestone730Description.
   ///
   /// In en, this message translates to:
-  /// **'Two years without GHB. You\'ve kept the change through more than just the difficult early days. Take the win.'**
+  /// **'Two years without GHB. You\'ve kept the change through more than just the difficult early days.'**
   String get ghbMilestone730Description;
 
   /// No description provided for @ghbReferenceDay730.
@@ -6981,13 +6981,13 @@ abstract class AppLocalizations {
   /// No description provided for @ghbMilestone1095Title.
   ///
   /// In en, this message translates to:
-  /// **'Three Years Clear'**
+  /// **'Three years clear'**
   String get ghbMilestone1095Title;
 
   /// No description provided for @ghbMilestone1095Description.
   ///
   /// In en, this message translates to:
-  /// **'Three years. There isn\'t a magic medical finish line here, but maintaining this change for that long is genuinely worth a celebration.'**
+  /// **'Three years without GHB. Keeping this change going for that long is worth celebrating.'**
   String get ghbMilestone1095Description;
 
   /// No description provided for @ghbReferenceDay1095.
@@ -6999,7 +6999,7 @@ abstract class AppLocalizations {
   /// No description provided for @ghbMilestone1460Title.
   ///
   /// In en, this message translates to:
-  /// **'Four Years of Follow-Through'**
+  /// **'Four years of follow-through'**
   String get ghbMilestone1460Title;
 
   /// No description provided for @ghbMilestone1460Description.
@@ -7017,7 +7017,7 @@ abstract class AppLocalizations {
   /// No description provided for @ghbMilestone1825Title.
   ///
   /// In en, this message translates to:
-  /// **'Five Years Without GHB'**
+  /// **'Five years without GHB'**
   String get ghbMilestone1825Title;
 
   /// No description provided for @ghbMilestone1825Description.
@@ -7035,31 +7035,31 @@ abstract class AppLocalizations {
   /// No description provided for @inhalantsMilestone1095Title.
   ///
   /// In en, this message translates to:
-  /// **'Three Years Clear'**
+  /// **'Three years clear'**
   String get inhalantsMilestone1095Title;
 
   /// No description provided for @inhalantsMilestone1095Description.
   ///
   /// In en, this message translates to:
-  /// **'Three years. No made-up brain-reset date. Just three years without going back to inhalants. That speaks for itself.'**
+  /// **'Three years without inhalants. You\'ve avoided renewed exposure throughout that time.'**
   String get inhalantsMilestone1095Description;
 
   /// No description provided for @inhalantsMilestone1460Title.
   ///
   /// In en, this message translates to:
-  /// **'Four Years of Staying Clear'**
+  /// **'Four years of staying clear'**
   String get inhalantsMilestone1460Title;
 
   /// No description provided for @inhalantsMilestone1460Description.
   ///
   /// In en, this message translates to:
-  /// **'Four years away from inhalants. You\'ve stuck with the change through a lot of ordinary life. Good work.'**
+  /// **'Four years away from inhalants. You\'ve stuck with the change through a lot of ordinary life.'**
   String get inhalantsMilestone1460Description;
 
   /// No description provided for @inhalantsMilestone1825Title.
   ///
   /// In en, this message translates to:
-  /// **'Five Years. Proper Milestone.'**
+  /// **'Five years'**
   String get inhalantsMilestone1825Title;
 
   /// No description provided for @inhalantsMilestone1825Description.
@@ -7089,31 +7089,31 @@ abstract class AppLocalizations {
   /// No description provided for @maoiMilestone730Title.
   ///
   /// In en, this message translates to:
-  /// **'Two Years. Proper Progress.'**
+  /// **'Two years'**
   String get maoiMilestone730Title;
 
   /// No description provided for @maoiMilestone730Description.
   ///
   /// In en, this message translates to:
-  /// **'Two years after your MAOI taper. There\'s no special biological switch at this date, but two years of managing your wellbeing matters.'**
+  /// **'Two years after your MAOI taper. You\'ve spent that time managing your wellbeing.'**
   String get maoiMilestone730Description;
 
   /// No description provided for @maoiMilestone1095Title.
   ///
   /// In en, this message translates to:
-  /// **'Three Years, Steady'**
+  /// **'Three years, steady'**
   String get maoiMilestone1095Title;
 
   /// No description provided for @maoiMilestone1095Description.
   ///
   /// In en, this message translates to:
-  /// **'Three years. You\'ve had another full year to learn what keeps you well. There\'s something worth celebrating in that.'**
+  /// **'Three years. You\'ve had another full year to learn what keeps you well.'**
   String get maoiMilestone1095Description;
 
   /// No description provided for @maoiMilestone1460Title.
   ///
   /// In en, this message translates to:
-  /// **'Four Years, Still You'**
+  /// **'Four years, still you'**
   String get maoiMilestone1460Title;
 
   /// No description provided for @maoiMilestone1460Description.
@@ -7125,13 +7125,13 @@ abstract class AppLocalizations {
   /// No description provided for @maoiMilestone1825Title.
   ///
   /// In en, this message translates to:
-  /// **'Five Years. Quite Something.'**
+  /// **'Five years'**
   String get maoiMilestone1825Title;
 
   /// No description provided for @maoiMilestone1825Description.
   ///
   /// In en, this message translates to:
-  /// **'Half a decade since stopping your MAOI. If this has been the right path for you, it\'s a big anniversary. Fair play.'**
+  /// **'Half a decade since stopping your MAOI. If this has been the right path for you, it\'s a big anniversary.'**
   String get maoiMilestone1825Description;
 
   /// No description provided for @maoiReferenceDay730.
@@ -7161,7 +7161,7 @@ abstract class AppLocalizations {
   /// No description provided for @marijuanaMilestone730Title.
   ///
   /// In en, this message translates to:
-  /// **'Two Years. Solid Work.'**
+  /// **'Two years'**
   String get marijuanaMilestone730Title;
 
   /// No description provided for @marijuanaMilestone730Description.
@@ -7179,7 +7179,7 @@ abstract class AppLocalizations {
   /// No description provided for @marijuanaMilestone1095Title.
   ///
   /// In en, this message translates to:
-  /// **'Three Years, Still Clear'**
+  /// **'Three years, still clear'**
   String get marijuanaMilestone1095Title;
 
   /// No description provided for @marijuanaMilestone1095Description.
@@ -7197,13 +7197,13 @@ abstract class AppLocalizations {
   /// No description provided for @marijuanaMilestone1460Title.
   ///
   /// In en, this message translates to:
-  /// **'Four Years. Fair Play.'**
+  /// **'Four years'**
   String get marijuanaMilestone1460Title;
 
   /// No description provided for @marijuanaMilestone1460Description.
   ///
   /// In en, this message translates to:
-  /// **'Four years without cannabis. Life changes, stress happens, and you\'ve kept this part steady. That\'s no small thing.'**
+  /// **'Four years without cannabis. Life changes, stress happens, and you\'ve kept this part steady.'**
   String get marijuanaMilestone1460Description;
 
   /// No description provided for @marijuanaReferenceDay1460.
@@ -7215,13 +7215,13 @@ abstract class AppLocalizations {
   /// No description provided for @marijuanaMilestone1825Title.
   ///
   /// In en, this message translates to:
-  /// **'Five Years Without Cannabis'**
+  /// **'Five years without cannabis'**
   String get marijuanaMilestone1825Title;
 
   /// No description provided for @marijuanaMilestone1825Description.
   ///
   /// In en, this message translates to:
-  /// **'Half a decade. No magic brain-reset date needed. Five years of living without the old habit is a very big deal.'**
+  /// **'Half a decade without cannabis. You\'ve spent five years living without the old habit.'**
   String get marijuanaMilestone1825Description;
 
   /// No description provided for @marijuanaReferenceDay1825.
@@ -7233,13 +7233,13 @@ abstract class AppLocalizations {
   /// No description provided for @mdmaMilestone730Title.
   ///
   /// In en, this message translates to:
-  /// **'Two Years. Still Going.'**
+  /// **'Two years'**
   String get mdmaMilestone730Title;
 
   /// No description provided for @mdmaMilestone730Description.
   ///
   /// In en, this message translates to:
-  /// **'Two years without MDMA. Science doesn\'t give this day a special brain-reset switch. You still get to celebrate it.'**
+  /// **'Two years without MDMA. Keeping this change going is worth celebrating.'**
   String get mdmaMilestone730Description;
 
   /// No description provided for @mdmaReferenceDay730.
@@ -7251,13 +7251,13 @@ abstract class AppLocalizations {
   /// No description provided for @mdmaMilestone1095Title.
   ///
   /// In en, this message translates to:
-  /// **'Three Years, No Comeback'**
+  /// **'Three years, no comeback'**
   String get mdmaMilestone1095Title;
 
   /// No description provided for @mdmaMilestone1095Description.
   ///
   /// In en, this message translates to:
-  /// **'Three years away from MDMA. The habits and choices behind that have held for another whole year. Nice.'**
+  /// **'Three years away from MDMA. The habits and choices behind that have held for another whole year.'**
   String get mdmaMilestone1095Description;
 
   /// No description provided for @mdmaReferenceDay1095.
@@ -7269,13 +7269,13 @@ abstract class AppLocalizations {
   /// No description provided for @mdmaMilestone1460Title.
   ///
   /// In en, this message translates to:
-  /// **'Four Years of Follow-Through'**
+  /// **'Four years of follow-through'**
   String get mdmaMilestone1460Title;
 
   /// No description provided for @mdmaMilestone1460Description.
   ///
   /// In en, this message translates to:
-  /// **'Four years. Whatever else changed in your life, you kept this part steady. Fair play.'**
+  /// **'Four years. Whatever else changed in your life, you kept this part steady.'**
   String get mdmaMilestone1460Description;
 
   /// No description provided for @mdmaReferenceDay1460.
@@ -7287,13 +7287,13 @@ abstract class AppLocalizations {
   /// No description provided for @mdmaMilestone1825Title.
   ///
   /// In en, this message translates to:
-  /// **'Five Years Without MDMA'**
+  /// **'Five years without MDMA'**
   String get mdmaMilestone1825Title;
 
   /// No description provided for @mdmaMilestone1825Description.
   ///
   /// In en, this message translates to:
-  /// **'Half a decade. You don\'t need a made-up medical milestone to make five years of change worth celebrating. This is big.'**
+  /// **'Half a decade without MDMA. You\'ve kept this change going for five years.'**
   String get mdmaMilestone1825Description;
 
   /// No description provided for @mdmaReferenceDay1825.
@@ -7305,7 +7305,7 @@ abstract class AppLocalizations {
   /// No description provided for @nitrousOxideMilestone730Title.
   ///
   /// In en, this message translates to:
-  /// **'Two Years, No Return'**
+  /// **'Two years, no return'**
   String get nitrousOxideMilestone730Title;
 
   /// No description provided for @nitrousOxideMilestone730Description.
@@ -7323,13 +7323,13 @@ abstract class AppLocalizations {
   /// No description provided for @nitrousOxideMilestone1095Title.
   ///
   /// In en, this message translates to:
-  /// **'Three Years of Distance'**
+  /// **'Three years of distance'**
   String get nitrousOxideMilestone1095Title;
 
   /// No description provided for @nitrousOxideMilestone1095Description.
   ///
   /// In en, this message translates to:
-  /// **'Three years. No universal neurological reset date—just a very real three years without nitrous. That\'s worth celebrating.'**
+  /// **'Three years without nitrous. You\'ve avoided further exposure throughout that time.'**
   String get nitrousOxideMilestone1095Description;
 
   /// No description provided for @nitrousOxideReferenceDay1095.
@@ -7341,7 +7341,7 @@ abstract class AppLocalizations {
   /// No description provided for @nitrousOxideMilestone1460Title.
   ///
   /// In en, this message translates to:
-  /// **'Four Years. Still Clear.'**
+  /// **'Four years'**
   String get nitrousOxideMilestone1460Title;
 
   /// No description provided for @nitrousOxideMilestone1460Description.
@@ -7359,13 +7359,13 @@ abstract class AppLocalizations {
   /// No description provided for @nitrousOxideMilestone1825Title.
   ///
   /// In en, this message translates to:
-  /// **'Five Years. What a Win.'**
+  /// **'Five years'**
   String get nitrousOxideMilestone1825Title;
 
   /// No description provided for @nitrousOxideMilestone1825Description.
   ///
   /// In en, this message translates to:
-  /// **'Half a decade without nitrous. Five years of keeping a risky habit out of your life. Take the win.'**
+  /// **'Half a decade without nitrous. Five years of keeping a risky habit out of your life.'**
   String get nitrousOxideMilestone1825Description;
 
   /// No description provided for @nitrousOxideReferenceDay1825.
@@ -7377,7 +7377,7 @@ abstract class AppLocalizations {
   /// No description provided for @socialMediaMilestone730Title.
   ///
   /// In en, this message translates to:
-  /// **'Two Years of Your Time'**
+  /// **'Two years of your time'**
   String get socialMediaMilestone730Title;
 
   /// No description provided for @socialMediaMilestone730Description.
@@ -7395,13 +7395,13 @@ abstract class AppLocalizations {
   /// No description provided for @socialMediaMilestone1095Title.
   ///
   /// In en, this message translates to:
-  /// **'Three Years. No FOMO Tax.'**
+  /// **'Three years'**
   String get socialMediaMilestone1095Title;
 
   /// No description provided for @socialMediaMilestone1095Description.
   ///
   /// In en, this message translates to:
-  /// **'Three years of keeping social media in its place. Your time has been yours to spend. Pretty good deal.'**
+  /// **'Three years of keeping social media in its place. Your time has been yours to spend.'**
   String get socialMediaMilestone1095Description;
 
   /// No description provided for @socialMediaReferenceDay1095.
@@ -7413,7 +7413,7 @@ abstract class AppLocalizations {
   /// No description provided for @socialMediaMilestone1460Title.
   ///
   /// In en, this message translates to:
-  /// **'Four Years, Feed Optional'**
+  /// **'Four years, feed optional'**
   String get socialMediaMilestone1460Title;
 
   /// No description provided for @socialMediaMilestone1460Description.
@@ -7431,13 +7431,13 @@ abstract class AppLocalizations {
   /// No description provided for @socialMediaMilestone1825Title.
   ///
   /// In en, this message translates to:
-  /// **'Five Years. Log Off Victorious.'**
+  /// **'Five years'**
   String get socialMediaMilestone1825Title;
 
   /// No description provided for @socialMediaMilestone1825Description.
   ///
   /// In en, this message translates to:
-  /// **'Half a decade without the old scrolling habit. Five years of choosing what deserves your attention. That\'s genuinely impressive.'**
+  /// **'Half a decade without the old scrolling habit. Five years of choosing what deserves your attention.'**
   String get socialMediaMilestone1825Description;
 
   /// No description provided for @socialMediaReferenceDay1825.
@@ -7449,7 +7449,7 @@ abstract class AppLocalizations {
   /// No description provided for @ssriMilestone730Title.
   ///
   /// In en, this message translates to:
-  /// **'Two Years of Progress'**
+  /// **'Two years of progress'**
   String get ssriMilestone730Title;
 
   /// No description provided for @ssriMilestone730Description.
@@ -7467,13 +7467,13 @@ abstract class AppLocalizations {
   /// No description provided for @ssriMilestone1095Title.
   ///
   /// In en, this message translates to:
-  /// **'Three Years, Doing Well'**
+  /// **'Three years, doing well'**
   String get ssriMilestone1095Title;
 
   /// No description provided for @ssriMilestone1095Description.
   ///
   /// In en, this message translates to:
-  /// **'Three years since stopping. Medication choices are personal, and continued support is sensible. A good year deserves a nod.'**
+  /// **'Three years since stopping. Medication choices are personal, and continued support is sensible.'**
   String get ssriMilestone1095Description;
 
   /// No description provided for @ssriReferenceDay1095.
@@ -7485,13 +7485,13 @@ abstract class AppLocalizations {
   /// No description provided for @ssriMilestone1460Title.
   ///
   /// In en, this message translates to:
-  /// **'Four Years. Still Your Call.'**
+  /// **'Four years'**
   String get ssriMilestone1460Title;
 
   /// No description provided for @ssriMilestone1460Description.
   ///
   /// In en, this message translates to:
-  /// **'Four years. This isn\'t about proving you can do without treatment. It\'s about recognising your own progress and what helps you stay well.'**
+  /// **'Four years since stopping your SSRI. Recognise your own progress and keep using the treatment and support that help you stay well.'**
   String get ssriMilestone1460Description;
 
   /// No description provided for @ssriReferenceDay1460.
@@ -7503,7 +7503,7 @@ abstract class AppLocalizations {
   /// No description provided for @ssriMilestone1825Title.
   ///
   /// In en, this message translates to:
-  /// **'Five Years. Big Anniversary.'**
+  /// **'Five years'**
   String get ssriMilestone1825Title;
 
   /// No description provided for @ssriMilestone1825Description.
@@ -7521,13 +7521,13 @@ abstract class AppLocalizations {
   /// No description provided for @steroidsMilestone1095Title.
   ///
   /// In en, this message translates to:
-  /// **'Three Years. Solid.'**
+  /// **'Three years'**
   String get steroidsMilestone1095Title;
 
   /// No description provided for @steroidsMilestone1095Description.
   ///
   /// In en, this message translates to:
-  /// **'Three years steroid-free. There\'s no universal hormone-recovery deadline, but there is a very real three years of change here.'**
+  /// **'Three years steroid-free. Hormone recovery varies, and you\'ve given yourself three years without another cycle.'**
   String get steroidsMilestone1095Description;
 
   /// No description provided for @steroidsReferenceDay1095.
@@ -7539,13 +7539,13 @@ abstract class AppLocalizations {
   /// No description provided for @steroidsMilestone1460Title.
   ///
   /// In en, this message translates to:
-  /// **'Four Years, No Return'**
+  /// **'Four years, no return'**
   String get steroidsMilestone1460Title;
 
   /// No description provided for @steroidsMilestone1460Description.
   ///
   /// In en, this message translates to:
-  /// **'Four years without another anabolic-steroid cycle. The follow-through is the achievement, and there\'s plenty of it.'**
+  /// **'Four years without another anabolic-steroid cycle. You\'ve kept this change going through everyday life.'**
   String get steroidsMilestone1460Description;
 
   /// No description provided for @steroidsReferenceDay1460.
@@ -7557,7 +7557,7 @@ abstract class AppLocalizations {
   /// No description provided for @steroidsMilestone1825Title.
   ///
   /// In en, this message translates to:
-  /// **'Five Years Off Steroids'**
+  /// **'Five years off steroids'**
   String get steroidsMilestone1825Title;
 
   /// No description provided for @steroidsMilestone1825Description.

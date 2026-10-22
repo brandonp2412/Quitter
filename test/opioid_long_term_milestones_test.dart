@@ -52,9 +52,9 @@ void main() {
     expect(days, containsAllInOrder([730, 1095, 1460, 1825]));
 
     const expectedTitles = {
-      1095: 'Three Years of Follow-Through',
-      1460: 'Four Years. Still Here.',
-      1825: 'Five Years. Properly Huge.',
+      1095: 'Three years of follow-through',
+      1460: 'Four years',
+      1825: 'Five years',
     };
     const source =
         'https://www.cdc.gov/overdose-prevention/treatment/opioid-use-disorder.html';

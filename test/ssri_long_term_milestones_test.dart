@@ -55,10 +55,10 @@ void main() {
     expect(days, containsAllInOrder([730, 1095, 1460, 1825]));
 
     const expectedTitles = {
-      730: 'Two Years of Progress',
-      1095: 'Three Years, Doing Well',
-      1460: 'Four Years. Still Your Call.',
-      1825: 'Five Years. Big Anniversary.',
+      730: 'Two years of progress',
+      1095: 'Three years, doing well',
+      1460: 'Four years',
+      1825: 'Five years',
     };
     const source =
         'https://www.rcpsych.ac.uk/mental-health/treatments-and-wellbeing/stopping-antidepressants';

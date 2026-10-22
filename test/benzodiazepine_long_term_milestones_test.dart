@@ -54,10 +54,7 @@ void main() {
       expect(days.toSet(), hasLength(days.length));
       expect(days, containsAllInOrder([730, 1095, 1460, 1825]));
 
-      const expectedTitles = {
-        1460: 'Four Years of Work',
-        1825: 'Five Years. Take a Bow.',
-      };
+      const expectedTitles = {1460: 'Four years of work', 1825: 'Five years'};
       const source =
           'https://www.asam.org/quality-care/clinical-guidelines/benzodiazepine-tapering';
 
