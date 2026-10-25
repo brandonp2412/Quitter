@@ -1089,7 +1089,7 @@ class AppLocalizationsKo extends AppLocalizations {
   }
 
   @override
-  String get editEntryWeeklySpend => '주간 지출 (US\$)';
+  String get editEntryWeeklySpend => '주간 지출 (\$)';
 
   @override
   String get editEntryWeeklySpendHint => '비워 두면 가능한 경우 추정치를 사용합니다';

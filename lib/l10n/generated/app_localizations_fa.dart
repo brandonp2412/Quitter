@@ -1110,7 +1110,7 @@ class AppLocalizationsFa extends AppLocalizations {
   }
 
   @override
-  String get editEntryWeeklySpend => 'هزینه هفتگی (US\$)';
+  String get editEntryWeeklySpend => 'هزینه هفتگی (\$)';
 
   @override
   String get editEntryWeeklySpendHint =>

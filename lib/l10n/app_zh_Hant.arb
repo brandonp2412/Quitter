@@ -664,7 +664,7 @@
       }
     }
   },
-  "editEntryWeeklySpend": "每週花費 (US$)",
+  "editEntryWeeklySpend": "每週花費 ($)",
   "@editEntryWeeklySpend": {"description": "Input label for weekly money spent on an addiction in US dollars"},
   "editEntryWeeklySpendHint": "留空則使用現有估算值（如有）",
   "@editEntryWeeklySpendHint": {"description": "Hint that leaving weekly spending blank uses the default estimate"},

@@ -636,7 +636,7 @@
   "@statsTotalDays": {"description": "Total days clean across all addictions"},
   "statsAddictionsTracked": "{count} suivies",
   "@statsAddictionsTracked": {"description": "Number of addictions being tracked"},
-  "editEntryWeeklySpend": "Dépenses hebdomadaires (US$)",
+  "editEntryWeeklySpend": "Dépenses hebdomadaires ($)",
   "@editEntryWeeklySpend": {"description": "Input label for weekly money spent on an addiction in US dollars"},
   "editEntryWeeklySpendHint": "Laisser vide pour une estimation, si disponible",
   "@editEntryWeeklySpendHint": {"description": "Hint that leaving weekly spending blank uses the default estimate"},

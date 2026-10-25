@@ -2037,7 +2037,7 @@ abstract class AppLocalizations {
   /// Input label for weekly money spent on an addiction in US dollars
   ///
   /// In en, this message translates to:
-  /// **'Weekly spend (US\$)'**
+  /// **'Weekly spend (\$)'**
   String get editEntryWeeklySpend;
 
   /// Hint that leaving weekly spending blank uses the default estimate

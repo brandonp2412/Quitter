@@ -664,7 +664,7 @@
       }
     }
   },
-  "editEntryWeeklySpend": "Расходы за неделю (US$)",
+  "editEntryWeeklySpend": "Расходы за неделю ($)",
   "@editEntryWeeklySpend": {"description": "Input label for weekly money spent on an addiction in US dollars"},
   "editEntryWeeklySpendHint": "Оставьте пустым для оценки, если она доступна",
   "@editEntryWeeklySpendHint": {"description": "Hint that leaving weekly spending blank uses the default estimate"},

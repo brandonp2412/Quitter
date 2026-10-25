@@ -664,7 +664,7 @@
       }
     }
   },
-  "editEntryWeeklySpend": "ค่าใช้จ่ายต่อสัปดาห์ (US$)",
+  "editEntryWeeklySpend": "ค่าใช้จ่ายต่อสัปดาห์ ($)",
   "@editEntryWeeklySpend": {"description": "Input label for weekly money spent on an addiction in US dollars"},
   "editEntryWeeklySpendHint": "เว้นว่างเพื่อใช้ค่าประมาณ หากมี",
   "@editEntryWeeklySpendHint": {"description": "Hint that leaving weekly spending blank uses the default estimate"},

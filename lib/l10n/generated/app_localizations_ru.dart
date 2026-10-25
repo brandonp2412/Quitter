@@ -1132,7 +1132,7 @@ class AppLocalizationsRu extends AppLocalizations {
   }
 
   @override
-  String get editEntryWeeklySpend => 'Расходы за неделю (US\$)';
+  String get editEntryWeeklySpend => 'Расходы за неделю (\$)';
 
   @override
   String get editEntryWeeklySpendHint =>

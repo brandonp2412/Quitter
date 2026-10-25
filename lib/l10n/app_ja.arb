@@ -664,7 +664,7 @@
       }
     }
   },
-  "editEntryWeeklySpend": "1週間の支出 (US$)",
+  "editEntryWeeklySpend": "1週間の支出 ($)",
   "@editEntryWeeklySpend": {"description": "Input label for weekly money spent on an addiction in US dollars"},
   "editEntryWeeklySpendHint": "空欄の場合は利用可能な推定値を使用",
   "@editEntryWeeklySpendHint": {"description": "Hint that leaving weekly spending blank uses the default estimate"},

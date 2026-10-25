@@ -1129,7 +1129,7 @@ class AppLocalizationsPt extends AppLocalizations {
   }
 
   @override
-  String get editEntryWeeklySpend => 'Gasto semanal (US\$)';
+  String get editEntryWeeklySpend => 'Gasto semanal (\$)';
 
   @override
   String get editEntryWeeklySpendHint =>
@@ -5668,7 +5668,7 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
   }
 
   @override
-  String get editEntryWeeklySpend => 'Gasto semanal (US\$)';
+  String get editEntryWeeklySpend => 'Gasto semanal (\$)';
 
   @override
   String get editEntryWeeklySpendHint =>

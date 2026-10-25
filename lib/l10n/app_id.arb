@@ -664,7 +664,7 @@
       }
     }
   },
-  "editEntryWeeklySpend": "Pengeluaran mingguan (US$)",
+  "editEntryWeeklySpend": "Pengeluaran mingguan ($)",
   "@editEntryWeeklySpend": {"description": "Input label for weekly money spent on an addiction in US dollars"},
   "editEntryWeeklySpendHint": "Kosongkan untuk perkiraan, jika tersedia",
   "@editEntryWeeklySpendHint": {"description": "Hint that leaving weekly spending blank uses the default estimate"},

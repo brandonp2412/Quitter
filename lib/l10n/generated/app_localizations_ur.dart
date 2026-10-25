@@ -1117,7 +1117,7 @@ class AppLocalizationsUr extends AppLocalizations {
   }
 
   @override
-  String get editEntryWeeklySpend => 'ہفتہ وار خرچ (US\$)';
+  String get editEntryWeeklySpend => 'ہفتہ وار خرچ (\$)';
 
   @override
   String get editEntryWeeklySpendHint =>

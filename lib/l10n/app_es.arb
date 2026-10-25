@@ -664,7 +664,7 @@
       }
     }
   },
-  "editEntryWeeklySpend": "Gasto semanal (US$)",
+  "editEntryWeeklySpend": "Gasto semanal ($)",
   "@editEntryWeeklySpend": {"description": "Input label for weekly money spent on an addiction in US dollars"},
   "editEntryWeeklySpendHint": "Déjalo en blanco para una estimación, si existe",
   "@editEntryWeeklySpendHint": {"description": "Hint that leaving weekly spending blank uses the default estimate"},

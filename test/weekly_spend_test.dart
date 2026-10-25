@@ -156,7 +156,7 @@ void main() {
     await provider.setWeeklySpend('custom-one', 140);
     await tester.pumpWidget(app(const StatsPage(), provider));
 
-    expect(find.text('US\$30'), findsOneWidget);
+    expect(find.text('\$30'), findsOneWidget);
     expect(find.textContaining('your weekly spending'), findsOneWidget);
   });
 }

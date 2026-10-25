@@ -534,7 +534,7 @@ class _MoneySavedCard extends StatelessWidget {
     final theme = Theme.of(context);
     final currencyFmt = NumberFormat.currency(
       locale: l10n.localeName,
-      symbol: 'US\$',
+      symbol: '\$',
       decimalDigits: 0,
     );
     final equivalence = _equivalence(moneySaved, l10n);

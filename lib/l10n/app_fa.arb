@@ -664,7 +664,7 @@
       }
     }
   },
-  "editEntryWeeklySpend": "هزینه هفتگی (US$)",
+  "editEntryWeeklySpend": "هزینه هفتگی ($)",
   "@editEntryWeeklySpend": {"description": "Input label for weekly money spent on an addiction in US dollars"},
   "editEntryWeeklySpendHint": "برای استفاده از برآورد (در صورت وجود) خالی بگذارید",
   "@editEntryWeeklySpendHint": {"description": "Hint that leaving weekly spending blank uses the default estimate"},

@@ -1086,7 +1086,7 @@ class AppLocalizationsZh extends AppLocalizations {
   }
 
   @override
-  String get editEntryWeeklySpend => '每周花费 (US\$)';
+  String get editEntryWeeklySpend => '每周花费 (\$)';
 
   @override
   String get editEntryWeeklySpendHint => '留空则使用现有估算值（如有）';
@@ -5447,7 +5447,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   }
 
   @override
-  String get editEntryWeeklySpend => '每週花費 (US\$)';
+  String get editEntryWeeklySpend => '每週花費 (\$)';
 
   @override
   String get editEntryWeeklySpendHint => '留空則使用現有估算值（如有）';

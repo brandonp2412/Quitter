@@ -1128,7 +1128,7 @@ class AppLocalizationsPl extends AppLocalizations {
   }
 
   @override
-  String get editEntryWeeklySpend => 'Tygodniowe wydatki (US\$)';
+  String get editEntryWeeklySpend => 'Tygodniowe wydatki (\$)';
 
   @override
   String get editEntryWeeklySpendHint =>

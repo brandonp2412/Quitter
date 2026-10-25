@@ -664,7 +664,7 @@
       }
     }
   },
-  "editEntryWeeklySpend": "الإنفاق الأسبوعي (US$)",
+  "editEntryWeeklySpend": "الإنفاق الأسبوعي ($)",
   "@editEntryWeeklySpend": {"description": "Input label for weekly money spent on an addiction in US dollars"},
   "editEntryWeeklySpendHint": "اتركه فارغًا لاستخدام تقدير إن توفر",
   "@editEntryWeeklySpendHint": {"description": "Hint that leaving weekly spending blank uses the default estimate"},

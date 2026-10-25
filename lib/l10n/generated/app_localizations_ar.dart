@@ -1102,7 +1102,7 @@ class AppLocalizationsAr extends AppLocalizations {
   }
 
   @override
-  String get editEntryWeeklySpend => 'الإنفاق الأسبوعي (US\$)';
+  String get editEntryWeeklySpend => 'الإنفاق الأسبوعي (\$)';
 
   @override
   String get editEntryWeeklySpendHint => 'اتركه فارغًا لاستخدام تقدير إن توفر';

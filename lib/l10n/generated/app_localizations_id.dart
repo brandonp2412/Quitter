@@ -1130,7 +1130,7 @@ class AppLocalizationsId extends AppLocalizations {
   }
 
   @override
-  String get editEntryWeeklySpend => 'Pengeluaran mingguan (US\$)';
+  String get editEntryWeeklySpend => 'Pengeluaran mingguan (\$)';
 
   @override
   String get editEntryWeeklySpendHint =>
