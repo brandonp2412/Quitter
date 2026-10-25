@@ -664,6 +664,14 @@
       }
     }
   },
+  "editEntryWeeklySpend": "每周花费 (US$)",
+  "@editEntryWeeklySpend": {"description": "Input label for weekly money spent on an addiction in US dollars"},
+  "editEntryWeeklySpendHint": "留空则使用现有估算值（如有）",
+  "@editEntryWeeklySpendHint": {"description": "Hint that leaving weekly spending blank uses the default estimate"},
+  "editEntryWeeklySpendInvalid": "请输入有效金额",
+  "@editEntryWeeklySpendInvalid": {"description": "Validation error for weekly spending"},
+  "statsMoneySavedCustomEstimate": "已设置的项目使用每周花费，其余使用估算值",
+  "@statsMoneySavedCustomEstimate": {"description": "Disclaimer for savings based on custom weekly spending and defaults"},
   "statsMoneySavedTitle": "预计节省金额",
   "@statsMoneySavedTitle": {
     "description": "Section title for the money saved card on stats page"

@@ -1130,6 +1130,20 @@ class AppLocalizationsId extends AppLocalizations {
   }
 
   @override
+  String get editEntryWeeklySpend => 'Pengeluaran mingguan (US\$)';
+
+  @override
+  String get editEntryWeeklySpendHint =>
+      'Kosongkan untuk perkiraan, jika tersedia';
+
+  @override
+  String get editEntryWeeklySpendInvalid => 'Masukkan jumlah yang valid';
+
+  @override
+  String get statsMoneySavedCustomEstimate =>
+      'Menggunakan pengeluaran mingguan yang diatur; sisanya perkiraan';
+
+  @override
   String get statsMoneySavedTitle => 'Perkiraan uang yang dihemat';
 
   @override

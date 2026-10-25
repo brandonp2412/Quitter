@@ -664,6 +664,14 @@
       }
     }
   },
+  "editEntryWeeklySpend": "هزینه هفتگی (US$)",
+  "@editEntryWeeklySpend": {"description": "Input label for weekly money spent on an addiction in US dollars"},
+  "editEntryWeeklySpendHint": "برای استفاده از برآورد (در صورت وجود) خالی بگذارید",
+  "@editEntryWeeklySpendHint": {"description": "Hint that leaving weekly spending blank uses the default estimate"},
+  "editEntryWeeklySpendInvalid": "مبلغ معتبری وارد کنید",
+  "@editEntryWeeklySpendInvalid": {"description": "Validation error for weekly spending"},
+  "statsMoneySavedCustomEstimate": "در صورت تنظیم، هزینه هفتگی شما استفاده می‌شود؛ بقیه تخمینی است",
+  "@statsMoneySavedCustomEstimate": {"description": "Disclaimer for savings based on custom weekly spending and defaults"},
   "statsMoneySavedTitle": "پول پس‌اندازشدهٔ برآوردی",
   "@statsMoneySavedTitle": {
     "description": "Section title for the money saved card on stats page"

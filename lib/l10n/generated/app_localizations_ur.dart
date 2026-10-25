@@ -1117,6 +1117,20 @@ class AppLocalizationsUr extends AppLocalizations {
   }
 
   @override
+  String get editEntryWeeklySpend => 'ہفتہ وار خرچ (US\$)';
+
+  @override
+  String get editEntryWeeklySpendHint =>
+      'تخمینہ دستیاب ہو تو استعمال کرنے کے لیے خالی چھوڑ دیں';
+
+  @override
+  String get editEntryWeeklySpendInvalid => 'درست رقم درج کریں';
+
+  @override
+  String get statsMoneySavedCustomEstimate =>
+      'جہاں سیٹ ہو وہاں ہفتہ وار خرچ استعمال ہوگا، باقی تخمینے ہیں';
+
+  @override
   String get statsMoneySavedTitle => 'تخمینی بچت';
 
   @override

@@ -1087,6 +1087,18 @@ class AppLocalizationsJa extends AppLocalizations {
   }
 
   @override
+  String get editEntryWeeklySpend => '1週間の支出 (US\$)';
+
+  @override
+  String get editEntryWeeklySpendHint => '空欄の場合は利用可能な推定値を使用';
+
+  @override
+  String get editEntryWeeklySpendInvalid => '有効な金額を入力してください';
+
+  @override
+  String get statsMoneySavedCustomEstimate => '設定した週間支出を使用し、それ以外は推定値です';
+
+  @override
   String get statsMoneySavedTitle => '推定節約額';
 
   @override

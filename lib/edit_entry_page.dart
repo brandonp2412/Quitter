@@ -10,6 +10,7 @@ import 'package:uuid/uuid.dart';
 
 import 'package:quitter/color_picker.dart';
 import 'package:quitter/icon_picker.dart';
+import 'package:quitter/weekly_spend_field.dart';
 
 class EditEntryPage extends StatefulWidget {
   final Entry? entry;
@@ -24,6 +25,7 @@ class _EditEntryPageState extends State<EditEntryPage> {
   final _formKey = GlobalKey<FormState>();
   late TextEditingController _titleController;
   late TextEditingController _quitDateController;
+  late TextEditingController _weeklySpendController;
   late DateTime _quitDate;
   late Color _selectedColor;
   late IconData _selectedIcon;
@@ -34,6 +36,15 @@ class _EditEntryPageState extends State<EditEntryPage> {
     _titleController = TextEditingController(text: widget.entry?.title ?? '');
     _quitDate = widget.entry?.quitDate ?? DateTime.now();
     _quitDateController = TextEditingController();
+    _weeklySpendController = TextEditingController(
+      text: WeeklySpendField.format(
+        widget.entry == null
+            ? null
+            : context.read<AddictionProvider>().weeklySpendFor(
+                widget.entry!.id,
+              ),
+      ),
+    );
     _selectedIcon = widget.entry?.icon ?? Icons.star;
 
     final random = Random();
@@ -52,6 +63,7 @@ class _EditEntryPageState extends State<EditEntryPage> {
   void dispose() {
     _titleController.dispose();
     _quitDateController.dispose();
+    _weeklySpendController.dispose();
     super.dispose();
   }
 
@@ -81,16 +93,17 @@ class _EditEntryPageState extends State<EditEntryPage> {
 
     final addictions = context.read<AddictionProvider>();
     final title = _titleController.text.trim();
+    final amount = WeeklySpendField.parse(_weeklySpendController.text);
     if (widget.entry == null) {
-      await addictions.addEntry(
-        Entry(
-          id: const Uuid().v4(),
-          title: title,
-          quitDate: _quitDate,
-          color: _selectedColor,
-          icon: _selectedIcon,
-        ),
+      final entry = Entry(
+        id: const Uuid().v4(),
+        title: title,
+        quitDate: _quitDate,
+        color: _selectedColor,
+        icon: _selectedIcon,
       );
+      await addictions.addEntry(entry);
+      await addictions.setWeeklySpend(entry.id, amount);
     } else {
       await addictions.updateEntry(
         widget.entry!.copyWith(
@@ -100,6 +113,7 @@ class _EditEntryPageState extends State<EditEntryPage> {
           icon: _selectedIcon,
         ),
       );
+      await addictions.setWeeklySpend(widget.entry!.id, amount);
     }
     if (!mounted) return;
     Navigator.of(context).pop();
@@ -180,6 +194,8 @@ class _EditEntryPageState extends State<EditEntryPage> {
                   ),
                   onTap: _presentDatePicker,
                 ),
+                const SizedBox(height: 20),
+                WeeklySpendField(controller: _weeklySpendController),
                 const SizedBox(height: 20),
                 FocusableActionDetector(
                   onFocusChange: (hasFocus) {

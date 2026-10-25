@@ -1129,6 +1129,20 @@ class AppLocalizationsPt extends AppLocalizations {
   }
 
   @override
+  String get editEntryWeeklySpend => 'Gasto semanal (US\$)';
+
+  @override
+  String get editEntryWeeklySpendHint =>
+      'Deixe em branco para usar uma estimativa, se disponível';
+
+  @override
+  String get editEntryWeeklySpendInvalid => 'Introduza um valor válido';
+
+  @override
+  String get statsMoneySavedCustomEstimate =>
+      'Usa o gasto semanal definido; os restantes valores são estimativas';
+
+  @override
   String get statsMoneySavedTitle => 'Dinheiro poupado estimado';
 
   @override
@@ -5652,6 +5666,20 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
   String statsAddictionsTracked(int count) {
     return '$count acompanhados';
   }
+
+  @override
+  String get editEntryWeeklySpend => 'Gasto semanal (US\$)';
+
+  @override
+  String get editEntryWeeklySpendHint =>
+      'Deixe em branco para usar uma estimativa, se disponível';
+
+  @override
+  String get editEntryWeeklySpendInvalid => 'Digite um valor válido';
+
+  @override
+  String get statsMoneySavedCustomEstimate =>
+      'Usa o gasto semanal informado; os demais valores são estimativas';
 
   @override
   String get statsMoneySavedTitle => 'Economia estimada';

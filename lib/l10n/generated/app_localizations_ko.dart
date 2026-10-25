@@ -1089,6 +1089,18 @@ class AppLocalizationsKo extends AppLocalizations {
   }
 
   @override
+  String get editEntryWeeklySpend => '주간 지출 (US\$)';
+
+  @override
+  String get editEntryWeeklySpendHint => '비워 두면 가능한 경우 추정치를 사용합니다';
+
+  @override
+  String get editEntryWeeklySpendInvalid => '올바른 금액을 입력하세요';
+
+  @override
+  String get statsMoneySavedCustomEstimate => '설정한 주간 지출을 사용하고 나머지는 추정치입니다';
+
+  @override
   String get statsMoneySavedTitle => '예상 절약 금액';
 
   @override

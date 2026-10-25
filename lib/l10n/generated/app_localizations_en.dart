@@ -1110,6 +1110,20 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
+  String get editEntryWeeklySpend => 'Weekly spend (US\$)';
+
+  @override
+  String get editEntryWeeklySpendHint =>
+      'Leave blank for an estimate, if available';
+
+  @override
+  String get editEntryWeeklySpendInvalid => 'Enter a valid amount';
+
+  @override
+  String get statsMoneySavedCustomEstimate =>
+      'Uses your weekly spending where set; other values are estimated';
+
+  @override
   String get statsMoneySavedTitle => 'Estimated Money Saved';
 
   @override

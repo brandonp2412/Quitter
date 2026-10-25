@@ -1110,6 +1110,20 @@ class AppLocalizationsFa extends AppLocalizations {
   }
 
   @override
+  String get editEntryWeeklySpend => 'هزینه هفتگی (US\$)';
+
+  @override
+  String get editEntryWeeklySpendHint =>
+      'برای استفاده از برآورد (در صورت وجود) خالی بگذارید';
+
+  @override
+  String get editEntryWeeklySpendInvalid => 'مبلغ معتبری وارد کنید';
+
+  @override
+  String get statsMoneySavedCustomEstimate =>
+      'در صورت تنظیم، هزینه هفتگی شما استفاده می‌شود؛ بقیه تخمینی است';
+
+  @override
   String get statsMoneySavedTitle => 'پول پس‌اندازشدهٔ برآوردی';
 
   @override

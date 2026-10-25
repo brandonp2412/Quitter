@@ -132,1087 +132,1087 @@ abstract class AppLocalizations {
   /// **'Show update notices'**
   String get showUpdateNotices;
 
-  /// No description provided for @kratomPageTitle.
+  /// Title of the kratom recovery page.
   ///
   /// In en, this message translates to:
   /// **'Kratom Recovery'**
   String get kratomPageTitle;
 
-  /// No description provided for @kratomHeaderStarted.
+  /// Heading shown after kratom tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Your Recovery Journey'**
   String get kratomHeaderStarted;
 
-  /// No description provided for @kratomHeaderNotStarted.
+  /// Heading shown before kratom tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Benefits of Quitting Kratom'**
   String get kratomHeaderNotStarted;
 
-  /// No description provided for @kratomSubtitleStarted.
+  /// Subtitle shown after kratom tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Track your progress and celebrate each milestone'**
   String get kratomSubtitleStarted;
 
-  /// No description provided for @kratomSubtitleNotStarted.
+  /// Subtitle shown before kratom tracking starts.
   ///
   /// In en, this message translates to:
   /// **'See what happens when you quit'**
   String get kratomSubtitleNotStarted;
 
-  /// No description provided for @kratomInfoBox.
+  /// Recovery information shown on the kratom page.
   ///
   /// In en, this message translates to:
   /// **'Kratom acts on opioid receptors, so stopping can produce an opioid-like withdrawal. If you use heavily or alongside other opioids, ask a clinician about medically supervised withdrawal.'**
   String get kratomInfoBox;
 
-  /// No description provided for @addictionKratom.
+  /// Name of the kratom addiction category.
   ///
   /// In en, this message translates to:
   /// **'Kratom'**
   String get addictionKratom;
 
-  /// No description provided for @kratomMilestone1Title.
+  /// Title for the kratom recovery milestone at 1 day.
   ///
   /// In en, this message translates to:
   /// **'First day without kratom'**
   String get kratomMilestone1Title;
 
-  /// No description provided for @kratomMilestone1Description.
+  /// Description for the kratom recovery milestone at 1 day.
   ///
   /// In en, this message translates to:
   /// **'The first day can be rough. Restlessness, sweating and aches may be kicking in as your body adjusts.'**
   String get kratomMilestone1Description;
 
-  /// No description provided for @kratomMilestone3Title.
+  /// Title for the kratom recovery milestone at 3 days.
   ///
   /// In en, this message translates to:
   /// **'The rough patch'**
   String get kratomMilestone3Title;
 
-  /// No description provided for @kratomMilestone3Description.
+  /// Description for the kratom recovery milestone at 3 days.
   ///
   /// In en, this message translates to:
   /// **'Days two and three can bring the worst of the aches, poor sleep and stomach trouble. It\'s a rotten stretch. Support and rest matter.'**
   String get kratomMilestone3Description;
 
-  /// No description provided for @kratomMilestone7Title.
+  /// Title for the kratom recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'A week clear'**
   String get kratomMilestone7Title;
 
-  /// No description provided for @kratomMilestone7Description.
+  /// Description for the kratom recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'Seven days without kratom. The early physical symptoms may be easing, even if sleep and energy haven\'t caught up yet.'**
   String get kratomMilestone7Description;
 
-  /// No description provided for @kratomMilestone14Title.
+  /// Title for the kratom recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Two weeks in'**
   String get kratomMilestone14Title;
 
-  /// No description provided for @kratomMilestone14Description.
+  /// Description for the kratom recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Two weeks down. Sleep and mood may be settling, though recovery doesn\'t run to a tidy schedule.'**
   String get kratomMilestone14Description;
 
-  /// No description provided for @kratomMilestone30Title.
+  /// Title for the kratom recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
   /// **'A whole month'**
   String get kratomMilestone30Title;
 
-  /// No description provided for @kratomMilestone30Description.
+  /// Description for the kratom recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
   /// **'Thirty days without kratom. You\'ve had time to find new routines, and sleep, appetite or energy may be improving.'**
   String get kratomMilestone30Description;
 
-  /// No description provided for @kratomMilestone90Title.
+  /// Title for the kratom recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three months clear'**
   String get kratomMilestone90Title;
 
-  /// No description provided for @kratomMilestone90Description.
+  /// Description for the kratom recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three months. Cravings and difficult days can still turn up, but you\'ve had real practice getting through them without kratom.'**
   String get kratomMilestone90Description;
 
-  /// No description provided for @kratomMilestone365Title.
+  /// Title for the kratom recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
   /// **'A year without kratom'**
   String get kratomMilestone365Title;
 
-  /// No description provided for @kratomMilestone365Description.
+  /// Description for the kratom recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
   /// **'A whole year. You\'ve handled every season without going back to kratom.'**
   String get kratomMilestone365Description;
 
-  /// No description provided for @kratomMilestone730Title.
+  /// Title for the kratom recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two years'**
   String get kratomMilestone730Title;
 
-  /// No description provided for @kratomMilestone730Description.
+  /// Description for the kratom recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two years without kratom. You\'ve handled what the past couple of years threw at you without going back.'**
   String get kratomMilestone730Description;
 
-  /// No description provided for @kratomMilestone1095Title.
+  /// Title for the kratom recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three years of your own'**
   String get kratomMilestone1095Title;
 
-  /// No description provided for @kratomMilestone1095Description.
+  /// Description for the kratom recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three years without kratom. The routines you\'ve built have had plenty of time to become yours.'**
   String get kratomMilestone1095Description;
 
-  /// No description provided for @kratomMilestone1460Title.
+  /// Title for the kratom recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four years, still clear'**
   String get kratomMilestone1460Title;
 
-  /// No description provided for @kratomMilestone1460Description.
+  /// Description for the kratom recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four years. The habit that used to take up space in your day hasn\'t had a say for a long time.'**
   String get kratomMilestone1460Description;
 
-  /// No description provided for @kratomMilestone1825Title.
+  /// Title for the kratom recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Five years'**
   String get kratomMilestone1825Title;
 
-  /// No description provided for @kratomMilestone1825Description.
+  /// Description for the kratom recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'You\'ve kept kratom out of your life for five years, through stress, changes and ordinary Tuesdays.'**
   String get kratomMilestone1825Description;
 
-  /// No description provided for @gabapentinoidsPageTitle.
+  /// Title of the gabapentinoids recovery page.
   ///
   /// In en, this message translates to:
   /// **'Gabapentinoids'**
   String get gabapentinoidsPageTitle;
 
-  /// No description provided for @gabapentinoidsHeaderStarted.
+  /// Heading shown after gabapentinoids tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Your Recovery Journey'**
   String get gabapentinoidsHeaderStarted;
 
-  /// No description provided for @gabapentinoidsHeaderNotStarted.
+  /// Heading shown before gabapentinoids tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Benefits of Quitting Gabapentin / Pregabalin'**
   String get gabapentinoidsHeaderNotStarted;
 
-  /// No description provided for @gabapentinoidsSubtitleStarted.
+  /// Subtitle shown after gabapentinoids tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Track your progress and celebrate each milestone'**
   String get gabapentinoidsSubtitleStarted;
 
-  /// No description provided for @gabapentinoidsSubtitleNotStarted.
+  /// Subtitle shown before gabapentinoids tracking starts.
   ///
   /// In en, this message translates to:
   /// **'See what happens when you quit'**
   String get gabapentinoidsSubtitleNotStarted;
 
-  /// No description provided for @gabapentinoidsInfoBox.
+  /// Recovery information shown on the gabapentinoids page.
   ///
   /// In en, this message translates to:
   /// **'Never stop gabapentin or pregabalin abruptly. Sudden discontinuation can trigger seizures — especially if you take them for epilepsy. A gradual, medically supervised taper is essential.'**
   String get gabapentinoidsInfoBox;
 
-  /// No description provided for @addictionGabapentinoid.
+  /// Name of the gabapentinoid addiction category.
   ///
   /// In en, this message translates to:
   /// **'Gabapentin / Pregabalin'**
   String get addictionGabapentinoid;
 
-  /// No description provided for @ghbPageTitle.
+  /// Title of the ghb recovery page.
   ///
   /// In en, this message translates to:
   /// **'GHB Recovery'**
   String get ghbPageTitle;
 
-  /// No description provided for @ghbHeaderStarted.
+  /// Heading shown after ghb tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Your Recovery Journey'**
   String get ghbHeaderStarted;
 
-  /// No description provided for @ghbHeaderNotStarted.
+  /// Heading shown before ghb tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Benefits of Quitting GHB'**
   String get ghbHeaderNotStarted;
 
-  /// No description provided for @ghbSubtitleStarted.
+  /// Subtitle shown after ghb tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Track your progress and celebrate each milestone'**
   String get ghbSubtitleStarted;
 
-  /// No description provided for @ghbSubtitleNotStarted.
+  /// Subtitle shown before ghb tracking starts.
   ///
   /// In en, this message translates to:
   /// **'See what happens when you quit'**
   String get ghbSubtitleNotStarted;
 
-  /// No description provided for @ghbInfoBox.
+  /// Recovery information shown on the ghb page.
   ///
   /// In en, this message translates to:
   /// **'GHB withdrawal is a medical emergency — it rivals alcohol and benzodiazepine withdrawal and can cause delirium and seizures. Heavy or around-the-clock users should not stop without supervised inpatient detox.'**
   String get ghbInfoBox;
 
-  /// No description provided for @addictionGhb.
+  /// Name of the ghb addiction category.
   ///
   /// In en, this message translates to:
   /// **'GHB'**
   String get addictionGhb;
 
-  /// No description provided for @ghbMilestone1Title.
+  /// Title for the ghb recovery milestone at 1 day.
   ///
   /// In en, this message translates to:
   /// **'Get medical help'**
   String get ghbMilestone1Title;
 
-  /// No description provided for @ghbMilestone1Description.
+  /// Description for the ghb recovery milestone at 1 day.
   ///
   /// In en, this message translates to:
   /// **'GHB withdrawal can start within hours and turn dangerous quickly. Shaking, agitation or a racing heart need medical assessment. Don\'t try to tough this one out alone.'**
   String get ghbMilestone1Description;
 
-  /// No description provided for @ghbMilestone3Title.
+  /// Title for the ghb recovery milestone at 3 days.
   ///
   /// In en, this message translates to:
   /// **'A serious few days'**
   String get ghbMilestone3Title;
 
-  /// No description provided for @ghbMilestone3Description.
+  /// Description for the ghb recovery milestone at 3 days.
   ///
   /// In en, this message translates to:
   /// **'Severe GHB withdrawal can involve delirium, hallucinations and seizures. If you\'re in this window, medical supervision matters more than any milestone.'**
   String get ghbMilestone3Description;
 
-  /// No description provided for @ghbMilestone7Title.
+  /// Title for the ghb recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'One week through'**
   String get ghbMilestone7Title;
 
-  /// No description provided for @ghbMilestone7Description.
+  /// Description for the ghb recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'A week without GHB. The acute phase may be easing, but severe withdrawal can last longer. Keep medical support in the picture.'**
   String get ghbMilestone7Description;
 
-  /// No description provided for @ghbMilestone14Title.
+  /// Title for the ghb recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Two weeks clear'**
   String get ghbMilestone14Title;
 
-  /// No description provided for @ghbMilestone14Description.
+  /// Description for the ghb recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Two weeks is a big early step. Sleep and anxiety may still be difficult after acute withdrawal, and that\'s worth discussing with your care team.'**
   String get ghbMilestone14Description;
 
-  /// No description provided for @ghbMilestone30Title.
+  /// Title for the ghb recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
   /// **'A month without GHB'**
   String get ghbMilestone30Title;
 
-  /// No description provided for @ghbMilestone30Description.
+  /// Description for the ghb recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
   /// **'Thirty days. The dangerous early period may be behind you, while sleep and mood take their own time to settle.'**
   String get ghbMilestone30Description;
 
-  /// No description provided for @ghbMilestone90Title.
+  /// Title for the ghb recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three months on'**
   String get ghbMilestone90Title;
 
-  /// No description provided for @ghbMilestone90Description.
+  /// Description for the ghb recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three months away from GHB. Whether it\'s sleep, anxiety or everyday routines, you\'ve given yourself a proper stretch to work on them.'**
   String get ghbMilestone90Description;
 
-  /// No description provided for @ghbMilestone180Title.
+  /// Title for the ghb recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
   /// **'Half a year clear'**
   String get ghbMilestone180Title;
 
-  /// No description provided for @ghbMilestone180Description.
+  /// Description for the ghb recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
   /// **'Six months. A lot of life has happened without GHB in it. Recovery may still need work.'**
   String get ghbMilestone180Description;
 
-  /// No description provided for @ketaminePageTitle.
+  /// Title of the ketamine recovery page.
   ///
   /// In en, this message translates to:
   /// **'Ketamine Recovery'**
   String get ketaminePageTitle;
 
-  /// No description provided for @ketamineHeaderStarted.
+  /// Heading shown after ketamine tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Your Recovery Journey'**
   String get ketamineHeaderStarted;
 
-  /// No description provided for @ketamineHeaderNotStarted.
+  /// Heading shown before ketamine tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Benefits of Quitting Ketamine'**
   String get ketamineHeaderNotStarted;
 
-  /// No description provided for @ketamineSubtitleStarted.
+  /// Subtitle shown after ketamine tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Track your progress and celebrate each milestone'**
   String get ketamineSubtitleStarted;
 
-  /// No description provided for @ketamineSubtitleNotStarted.
+  /// Subtitle shown before ketamine tracking starts.
   ///
   /// In en, this message translates to:
   /// **'See what happens when you quit'**
   String get ketamineSubtitleNotStarted;
 
-  /// No description provided for @ketamineInfoBox.
+  /// Recovery information shown on the ketamine page.
   ///
   /// In en, this message translates to:
   /// **'Ketamine withdrawal is mainly cravings, low mood, and brain fog rather than physical illness. Its biggest physical harm is bladder damage, and stopping is the essential first step toward recovery.'**
   String get ketamineInfoBox;
 
-  /// No description provided for @addictionKetamine.
+  /// Name of the ketamine addiction category.
   ///
   /// In en, this message translates to:
   /// **'Ketamine'**
   String get addictionKetamine;
 
-  /// No description provided for @ketamineMilestone1Title.
+  /// Title for the ketamine recovery milestone at 1 day.
   ///
   /// In en, this message translates to:
   /// **'First day off ketamine'**
   String get ketamineMilestone1Title;
 
-  /// No description provided for @ketamineMilestone1Description.
+  /// Description for the ketamine recovery milestone at 1 day.
   ///
   /// In en, this message translates to:
   /// **'Day one can bring cravings, low mood or restlessness. The drug may clear quickly; the habits around it can take longer to change.'**
   String get ketamineMilestone1Description;
 
-  /// No description provided for @ketamineMilestone7Title.
+  /// Title for the ketamine recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'A week clear'**
   String get ketamineMilestone7Title;
 
-  /// No description provided for @ketamineMilestone7Description.
+  /// Description for the ketamine recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'Seven days without ketamine. Cravings and a foggy head may still be hanging around, but you\'ve made it through a full week.'**
   String get ketamineMilestone7Description;
 
-  /// No description provided for @ketamineMilestone14Title.
+  /// Title for the ketamine recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Two weeks, more space'**
   String get ketamineMilestone14Title;
 
-  /// No description provided for @ketamineMilestone14Description.
+  /// Description for the ketamine recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Two weeks away from ketamine. Thinking and mood may be clearer, though everyone\'s recovery looks different.'**
   String get ketamineMilestone14Description;
 
-  /// No description provided for @ketamineMilestone30Title.
+  /// Title for the ketamine recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
   /// **'A month for recovery'**
   String get ketamineMilestone30Title;
 
-  /// No description provided for @ketamineMilestone30Description.
+  /// Description for the ketamine recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
   /// **'A month without ketamine gives your body a break from further exposure. Bladder symptoms can improve after stopping, but persistent pain or urgency needs medical care.'**
   String get ketamineMilestone30Description;
 
-  /// No description provided for @ketamineMilestone90Title.
+  /// Title for the ketamine recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three months clear'**
   String get ketamineMilestone90Title;
 
-  /// No description provided for @ketamineMilestone90Description.
+  /// Description for the ketamine recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three months without ketamine. You\'ve given your bladder and your thinking more time to recover. Some damage needs treatment, so don\'t ignore symptoms.'**
   String get ketamineMilestone90Description;
 
-  /// No description provided for @ketamineMilestone180Title.
+  /// Title for the ketamine recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
   /// **'Six months without it'**
   String get ketamineMilestone180Title;
 
-  /// No description provided for @ketamineMilestone180Description.
+  /// Description for the ketamine recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
   /// **'Half a year. The pull of the old habit may be changing, and you\'ve avoided six more months of ketamine-related harm.'**
   String get ketamineMilestone180Description;
 
-  /// No description provided for @ketamineMilestone365Title.
+  /// Title for the ketamine recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
   /// **'A year clear'**
   String get ketamineMilestone365Title;
 
-  /// No description provided for @ketamineMilestone365Description.
+  /// Description for the ketamine recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
   /// **'A full year without ketamine. That\'s a lot of time for recovery and a lot of days without renewed exposure.'**
   String get ketamineMilestone365Description;
 
-  /// No description provided for @ketamineMilestone730Title.
+  /// Title for the ketamine recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two years, still clear'**
   String get ketamineMilestone730Title;
 
-  /// No description provided for @ketamineMilestone730Description.
+  /// Description for the ketamine recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two years without ketamine. Recovery from bladder or cognitive problems varies, but staying away avoids adding to the damage.'**
   String get ketamineMilestone730Description;
 
-  /// No description provided for @ketamineMilestone1095Title.
+  /// Title for the ketamine recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three years of distance'**
   String get ketamineMilestone1095Title;
 
-  /// No description provided for @ketamineMilestone1095Description.
+  /// Description for the ketamine recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three years without ketamine. You\'ve kept the change going through everyday life.'**
   String get ketamineMilestone1095Description;
 
-  /// No description provided for @ketamineMilestone1460Title.
+  /// Title for the ketamine recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four years'**
   String get ketamineMilestone1460Title;
 
-  /// No description provided for @ketamineMilestone1460Description.
+  /// Description for the ketamine recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four years without ketamine. You\'ve kept this going long past the point where it was new.'**
   String get ketamineMilestone1460Description;
 
-  /// No description provided for @ketamineMilestone1825Title.
+  /// Title for the ketamine recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Five years'**
   String get ketamineMilestone1825Title;
 
-  /// No description provided for @ketamineMilestone1825Description.
+  /// Description for the ketamine recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Half a decade without ketamine. Whatever recovery has looked like for you, five years of sustained change is worth celebrating properly.'**
   String get ketamineMilestone1825Description;
 
-  /// No description provided for @inhalantsPageTitle.
+  /// Title of the inhalants recovery page.
   ///
   /// In en, this message translates to:
   /// **'Inhalants Recovery'**
   String get inhalantsPageTitle;
 
-  /// No description provided for @inhalantsHeaderStarted.
+  /// Heading shown after inhalants tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Your Recovery Journey'**
   String get inhalantsHeaderStarted;
 
-  /// No description provided for @inhalantsHeaderNotStarted.
+  /// Heading shown before inhalants tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Benefits of Quitting Inhalants'**
   String get inhalantsHeaderNotStarted;
 
-  /// No description provided for @inhalantsSubtitleStarted.
+  /// Subtitle shown after inhalants tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Track your progress and celebrate each milestone'**
   String get inhalantsSubtitleStarted;
 
-  /// No description provided for @inhalantsSubtitleNotStarted.
+  /// Subtitle shown before inhalants tracking starts.
   ///
   /// In en, this message translates to:
   /// **'See what happens when you quit'**
   String get inhalantsSubtitleNotStarted;
 
-  /// No description provided for @inhalantsInfoBox.
+  /// Recovery information shown on the inhalants page.
   ///
   /// In en, this message translates to:
   /// **'Inhalant withdrawal is shorter than alcohol or opioids but can be intense, with seizure risk in heavy users. Neurological recovery is real but slow — often unfolding over about two years of abstinence.'**
   String get inhalantsInfoBox;
 
-  /// No description provided for @addictionInhalants.
+  /// Name of the inhalants addiction category.
   ///
   /// In en, this message translates to:
   /// **'Inhalants'**
   String get addictionInhalants;
 
-  /// No description provided for @inhalantsMilestone1Title.
+  /// Title for the inhalants recovery milestone at 1 day.
   ///
   /// In en, this message translates to:
   /// **'First day away'**
   String get inhalantsMilestone1Title;
 
-  /// No description provided for @inhalantsMilestone1Description.
+  /// Description for the inhalants recovery milestone at 1 day.
   ///
   /// In en, this message translates to:
   /// **'One day without inhalants. Headaches, nausea or anxiety can show up early. Some effects need medical attention, especially confusion or breathing problems.'**
   String get inhalantsMilestone1Description;
 
-  /// No description provided for @inhalantsMilestone7Title.
+  /// Title for the inhalants recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'A week clear'**
   String get inhalantsMilestone7Title;
 
-  /// No description provided for @inhalantsMilestone7Description.
+  /// Description for the inhalants recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'Seven days without another exposure. Early symptoms may be easing, though thinking, mood or coordination can take longer to improve.'**
   String get inhalantsMilestone7Description;
 
-  /// No description provided for @inhalantsMilestone14Title.
+  /// Title for the inhalants recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Two weeks, no new exposure'**
   String get inhalantsMilestone14Title;
 
-  /// No description provided for @inhalantsMilestone14Description.
+  /// Description for the inhalants recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Two weeks. You\'ve stopped adding more exposure while your body recovers. If memory or movement still feels off, get it checked.'**
   String get inhalantsMilestone14Description;
 
-  /// No description provided for @inhalantsMilestone30Title.
+  /// Title for the inhalants recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
   /// **'A month of breathing room'**
   String get inhalantsMilestone30Title;
 
-  /// No description provided for @inhalantsMilestone30Description.
+  /// Description for the inhalants recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
   /// **'A full month without inhalants. Thinking and attention may improve with abstinence, but some nerve or brain injuries need specialist care.'**
   String get inhalantsMilestone30Description;
 
-  /// No description provided for @inhalantsMilestone90Title.
+  /// Title for the inhalants recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three months clear'**
   String get inhalantsMilestone90Title;
 
-  /// No description provided for @inhalantsMilestone90Description.
+  /// Description for the inhalants recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three months of keeping inhalants out of the picture. Recovery in attention, memory and movement can take time and isn\'t the same for everyone.'**
   String get inhalantsMilestone90Description;
 
-  /// No description provided for @inhalantsMilestone365Title.
+  /// Title for the inhalants recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
   /// **'A year without inhalants'**
   String get inhalantsMilestone365Title;
 
-  /// No description provided for @inhalantsMilestone365Description.
+  /// Description for the inhalants recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
   /// **'A year clear. That\'s 365 days without renewed chemical exposure. Neurological recovery varies, but this choice matters.'**
   String get inhalantsMilestone365Description;
 
-  /// No description provided for @inhalantsMilestone730Title.
+  /// Title for the inhalants recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two years'**
   String get inhalantsMilestone730Title;
 
-  /// No description provided for @inhalantsMilestone730Description.
+  /// Description for the inhalants recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two years without inhalants. Studies have seen brain-function improvements over longer abstinence, though some injuries can persist. You\'ve done the part you can control.'**
   String get inhalantsMilestone730Description;
 
-  /// No description provided for @synthetic_cannabinoidsPageTitle.
+  /// Title of the synthetic cannabinoids recovery page.
   ///
   /// In en, this message translates to:
   /// **'Synthetic Cannabinoids'**
   String get synthetic_cannabinoidsPageTitle;
 
-  /// No description provided for @synthetic_cannabinoidsHeaderStarted.
+  /// Heading shown after synthetic cannabinoids tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Your Recovery Journey'**
   String get synthetic_cannabinoidsHeaderStarted;
 
-  /// No description provided for @synthetic_cannabinoidsHeaderNotStarted.
+  /// Heading shown before synthetic cannabinoids tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Benefits of Quitting Synthetic Cannabinoids'**
   String get synthetic_cannabinoidsHeaderNotStarted;
 
-  /// No description provided for @synthetic_cannabinoidsSubtitleStarted.
+  /// Subtitle shown after synthetic cannabinoids tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Track your progress and celebrate each milestone'**
   String get synthetic_cannabinoidsSubtitleStarted;
 
-  /// No description provided for @synthetic_cannabinoidsSubtitleNotStarted.
+  /// Subtitle shown before synthetic cannabinoids tracking starts.
   ///
   /// In en, this message translates to:
   /// **'See what happens when you quit'**
   String get synthetic_cannabinoidsSubtitleNotStarted;
 
-  /// No description provided for @synthetic_cannabinoidsInfoBox.
+  /// Recovery information shown on the synthetic cannabinoids page.
   ///
   /// In en, this message translates to:
   /// **'Synthetic cannabinoids (“Spice”, “K2”) can be far more potent and unpredictable than cannabis. Withdrawal can be more severe, with seizures, agitation, and a fast heart rate reported; acute intoxication can also cause psychosis. Severe symptoms need urgent medical care.'**
   String get synthetic_cannabinoidsInfoBox;
 
-  /// No description provided for @addictionSyntheticCannabinoids.
+  /// Name of the synthetic cannabinoids addiction category.
   ///
   /// In en, this message translates to:
   /// **'Synthetic Cannabinoids'**
   String get addictionSyntheticCannabinoids;
 
-  /// No description provided for @synthetic_cannabinoidsMilestone1Title.
+  /// Title for the synthetic cannabinoids recovery milestone at 1 day.
   ///
   /// In en, this message translates to:
   /// **'Day one: stay safe'**
   String get synthetic_cannabinoidsMilestone1Title;
 
-  /// No description provided for @synthetic_cannabinoidsMilestone1Description.
+  /// Description for the synthetic cannabinoids recovery milestone at 1 day.
   ///
   /// In en, this message translates to:
   /// **'Withdrawal from synthetic cannabinoids can be intense. Shaking, palpitations or poor sleep may occur; seizures, chest pain or severe confusion need urgent medical attention.'**
   String get synthetic_cannabinoidsMilestone1Description;
 
-  /// No description provided for @synthetic_cannabinoidsMilestone3Title.
+  /// Title for the synthetic cannabinoids recovery milestone at 3 days.
   ///
   /// In en, this message translates to:
   /// **'Three days clear'**
   String get synthetic_cannabinoidsMilestone3Title;
 
-  /// No description provided for @synthetic_cannabinoidsMilestone3Description.
+  /// Description for the synthetic cannabinoids recovery milestone at 3 days.
   ///
   /// In en, this message translates to:
   /// **'The early stretch can be nasty, and synthetic-cannabinoid withdrawal may be harsher than cannabis withdrawal. Three days without another dose is a real start.'**
   String get synthetic_cannabinoidsMilestone3Description;
 
-  /// No description provided for @synthetic_cannabinoidsMilestone7Title.
+  /// Title for the synthetic cannabinoids recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'A week away'**
   String get synthetic_cannabinoidsMilestone7Title;
 
-  /// No description provided for @synthetic_cannabinoidsMilestone7Description.
+  /// Description for the synthetic cannabinoids recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'Seven days clear. You haven\'t exposed yourself again to a drug class known for wildly unpredictable effects.'**
   String get synthetic_cannabinoidsMilestone7Description;
 
-  /// No description provided for @synthetic_cannabinoidsMilestone14Title.
+  /// Title for the synthetic cannabinoids recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Two Weeks Clear'**
   String get synthetic_cannabinoidsMilestone14Title;
 
-  /// No description provided for @synthetic_cannabinoidsMilestone14Description.
+  /// Description for the synthetic cannabinoids recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Two weeks without synthetic cannabinoids. You\'ve avoided another fortnight of their unpredictable risks. Keep taking any lingering symptoms seriously.'**
   String get synthetic_cannabinoidsMilestone14Description;
 
-  /// No description provided for @synthetic_cannabinoidsMilestone30Title.
+  /// Title for the synthetic cannabinoids recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
   /// **'A month'**
   String get synthetic_cannabinoidsMilestone30Title;
 
-  /// No description provided for @synthetic_cannabinoidsMilestone30Description.
+  /// Description for the synthetic cannabinoids recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
   /// **'Thirty days without synthetic cannabinoids. A full month away from the seizures, heart problems and other acute risks linked to their use.'**
   String get synthetic_cannabinoidsMilestone30Description;
 
-  /// No description provided for @synthetic_cannabinoidsMilestone90Title.
+  /// Title for the synthetic cannabinoids recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three months of distance'**
   String get synthetic_cannabinoidsMilestone90Title;
 
-  /// No description provided for @synthetic_cannabinoidsMilestone90Description.
+  /// Description for the synthetic cannabinoids recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three months clear. That\'s a decent chunk of life without rolling the dice on what might be in the next dose.'**
   String get synthetic_cannabinoidsMilestone90Description;
 
-  /// No description provided for @synthetic_cannabinoidsMilestone180Title.
+  /// Title for the synthetic cannabinoids recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
   /// **'Half a year clear'**
   String get synthetic_cannabinoidsMilestone180Title;
 
-  /// No description provided for @synthetic_cannabinoidsMilestone180Description.
+  /// Description for the synthetic cannabinoids recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
   /// **'Six months without synthetic cannabinoids. You\'ve avoided renewed exposure while building steadier routines.'**
   String get synthetic_cannabinoidsMilestone180Description;
 
-  /// No description provided for @synthetic_cannabinoidsWithdrawalReference.
+  /// Synthetic cannabinoids withdrawal reference.
   ///
   /// In en, this message translates to:
   /// **'Synthetic Cannabinoid Withdrawal\n\nSource: Craft et al. (2022), Psychopharmacology, PMC\n\nIn 284 people who had used synthetic cannabinoid receptor agonists more than 10 times in the previous year and tried to stop, 82.7% reported at least one withdrawal symptom after more than a day without use. Sleep problems (59.2%), irritability (55.6%), and low mood (54.2%) were most common; sweating, palpitations, craving, agitation, and shakiness were also reported. More frequent and heavier use was linked to more symptoms. Among participants who compared both drugs, synthetic-cannabinoid withdrawal was rated more severe than withdrawal from high-potency cannabis.'**
   String get synthetic_cannabinoidsWithdrawalReference;
 
-  /// No description provided for @synthetic_cannabinoidsRiskReference.
+  /// Synthetic cannabinoids risk reference.
   ///
   /// In en, this message translates to:
   /// **'Synthetic Cannabinoid Withdrawal and Acute Risk\n\nSource: Cooper (2016), Current Psychiatry Reports, PMC\n\nClinical reports describe withdrawal after daily synthetic-cannabinoid use occurring soon after the last dose, with severe anxiety, insomnia, nausea and vomiting, sweating, palpitations, tremor, agitation, and cravings. Severe cases have included recurring seizures and cardiovascular or breathing problems. The review also describes synthetic-cannabinoid intoxication as unpredictable and sometimes severe, including psychosis, seizures, cardiac events, and kidney injury. Severe or escalating symptoms need prompt medical assessment.'**
   String get synthetic_cannabinoidsRiskReference;
 
-  /// No description provided for @synthetic_cannabinoidsMilestone730Title.
+  /// Title for the synthetic cannabinoids recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two years'**
   String get synthetic_cannabinoidsMilestone730Title;
 
-  /// No description provided for @synthetic_cannabinoidsMilestone730Description.
+  /// Description for the synthetic cannabinoids recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two years clear. Holidays, bad days and everything in between, without returning to synthetic cannabinoids.'**
   String get synthetic_cannabinoidsMilestone730Description;
 
-  /// No description provided for @synthetic_cannabinoidsMilestone1095Title.
+  /// Title for the synthetic cannabinoids recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three years without it'**
   String get synthetic_cannabinoidsMilestone1095Title;
 
-  /// No description provided for @synthetic_cannabinoidsMilestone1095Description.
+  /// Description for the synthetic cannabinoids recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three years without synthetic cannabinoids. You\'ve kept the change going well beyond early recovery.'**
   String get synthetic_cannabinoidsMilestone1095Description;
 
-  /// No description provided for @synthetic_cannabinoidsMilestone1460Title.
+  /// Title for the synthetic cannabinoids recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four years, still free'**
   String get synthetic_cannabinoidsMilestone1460Title;
 
-  /// No description provided for @synthetic_cannabinoidsMilestone1460Description.
+  /// Description for the synthetic cannabinoids recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four years away from synthetic cannabinoids. The new routines have had a lot of time to stick, and you\'ve kept protecting them.'**
   String get synthetic_cannabinoidsMilestone1460Description;
 
-  /// No description provided for @synthetic_cannabinoidsMilestone1825Title.
+  /// Title for the synthetic cannabinoids recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Five years'**
   String get synthetic_cannabinoidsMilestone1825Title;
 
-  /// No description provided for @synthetic_cannabinoidsMilestone1825Description.
+  /// Description for the synthetic cannabinoids recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Half a decade without synthetic cannabinoids. That\'s a huge amount of life lived without their unpredictable risks.'**
   String get synthetic_cannabinoidsMilestone1825Description;
 
-  /// No description provided for @synthetic_cannabinoidsLongTermReference.
+  /// Synthetic cannabinoids long term reference.
   ///
   /// In en, this message translates to:
   /// **'Synthetic Cannabinoids: What the Evidence Supports\n\nSource: British Association for Psychopharmacology consensus guidelines on substance dependence (2026), PMC\n\nThe guideline says synthetic cannabinoids can produce a more severe withdrawal syndrome than cannabis and may require inpatient detoxification. It also states that there is no evidence-based pharmacotherapy for maintenance or relapse prevention for synthetic cannabinoids.\n\nThe guideline does not define a 2-, 3-, 4-, or 5-year biological recovery threshold. These anniversaries therefore celebrate sustained progress without claiming a medical deadline that the evidence does not support.'**
   String get synthetic_cannabinoidsLongTermReference;
 
-  /// No description provided for @mdmaPageTitle.
+  /// Title of the mdma recovery page.
   ///
   /// In en, this message translates to:
   /// **'MDMA Recovery'**
   String get mdmaPageTitle;
 
-  /// No description provided for @mdmaHeaderStarted.
+  /// Heading shown after mdma tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Your Recovery Journey'**
   String get mdmaHeaderStarted;
 
-  /// No description provided for @mdmaHeaderNotStarted.
+  /// Heading shown before mdma tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Benefits of Quitting MDMA'**
   String get mdmaHeaderNotStarted;
 
-  /// No description provided for @mdmaSubtitleStarted.
+  /// Subtitle shown after mdma tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Track your progress and celebrate each milestone'**
   String get mdmaSubtitleStarted;
 
-  /// No description provided for @mdmaSubtitleNotStarted.
+  /// Subtitle shown before mdma tracking starts.
   ///
   /// In en, this message translates to:
   /// **'See what happens when you quit'**
   String get mdmaSubtitleNotStarted;
 
-  /// No description provided for @mdmaInfoBox.
+  /// Recovery information shown on the mdma page.
   ///
   /// In en, this message translates to:
   /// **'MDMA floods and then depletes serotonin, producing the “comedown” and, after heavy use, withdrawal-like low mood. Serotonin transporter levels recover with sustained abstinence, though heavy use can leave longer-lasting effects.'**
   String get mdmaInfoBox;
 
-  /// No description provided for @addictionMdma.
+  /// Name of the mdma addiction category.
   ///
   /// In en, this message translates to:
   /// **'MDMA'**
   String get addictionMdma;
 
-  /// No description provided for @mdmaMilestone1Title.
+  /// Title for the mdma recovery milestone at 1 day.
   ///
   /// In en, this message translates to:
   /// **'The Comedown'**
   String get mdmaMilestone1Title;
 
-  /// No description provided for @mdmaMilestone1Description.
+  /// Description for the mdma recovery milestone at 1 day.
   ///
   /// In en, this message translates to:
   /// **'The first day after MDMA can feel flat. Tiredness, low mood and poor sleep are common after-effects. Food, rest and support can help.'**
   String get mdmaMilestone1Description;
 
-  /// No description provided for @mdmaMilestone3Title.
+  /// Title for the mdma recovery milestone at 3 days.
   ///
   /// In en, this message translates to:
   /// **'Past the first few days'**
   String get mdmaMilestone3Title;
 
-  /// No description provided for @mdmaMilestone3Description.
+  /// Description for the mdma recovery milestone at 3 days.
   ///
   /// In en, this message translates to:
   /// **'A few days clear. The sharpest comedown may be easing, even if your mood or sleep hasn\'t quite found its feet.'**
   String get mdmaMilestone3Description;
 
-  /// No description provided for @mdmaMilestone7Title.
+  /// Title for the mdma recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'A week without MDMA'**
   String get mdmaMilestone7Title;
 
-  /// No description provided for @mdmaMilestone7Description.
+  /// Description for the mdma recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'Seven days. After heavier use, low mood, cravings and poor focus can linger. You\'ve given yourself a full week without another dose.'**
   String get mdmaMilestone7Description;
 
-  /// No description provided for @mdmaMilestone14Title.
+  /// Title for the mdma recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Two weeks without MDMA'**
   String get mdmaMilestone14Title;
 
-  /// No description provided for @mdmaMilestone14Description.
+  /// Description for the mdma recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Two weeks without MDMA. Sleep, mood and focus may be improving. Recovery takes different amounts of time for different people.'**
   String get mdmaMilestone14Description;
 
-  /// No description provided for @mdmaMilestone30Title.
+  /// Title for the mdma recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
   /// **'A month clear'**
   String get mdmaMilestone30Title;
 
-  /// No description provided for @mdmaMilestone30Description.
+  /// Description for the mdma recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
   /// **'A whole month. You\'ve had some distance from the comedown cycle and time to settle into different routines.'**
   String get mdmaMilestone30Description;
 
-  /// No description provided for @mdmaMilestone90Title.
+  /// Title for the mdma recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three Months On'**
   String get mdmaMilestone90Title;
 
-  /// No description provided for @mdmaMilestone90Description.
+  /// Description for the mdma recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three months without MDMA. That\'s a proper stretch away from repeated exposure, while mood and sleep have had more time to recover.'**
   String get mdmaMilestone90Description;
 
-  /// No description provided for @mdmaMilestone365Title.
+  /// Title for the mdma recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
   /// **'A full year off MDMA'**
   String get mdmaMilestone365Title;
 
-  /// No description provided for @mdmaMilestone365Description.
+  /// Description for the mdma recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
   /// **'One year without MDMA, through every birthday, weekend and ordinary day in between.'**
   String get mdmaMilestone365Description;
 
-  /// No description provided for @steroidsPageTitle.
+  /// Title of the steroids recovery page.
   ///
   /// In en, this message translates to:
   /// **'Anabolic Steroids'**
   String get steroidsPageTitle;
 
-  /// No description provided for @steroidsHeaderStarted.
+  /// Heading shown after steroids tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Your Recovery Journey'**
   String get steroidsHeaderStarted;
 
-  /// No description provided for @steroidsHeaderNotStarted.
+  /// Heading shown before steroids tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Benefits of Quitting Anabolic Steroids'**
   String get steroidsHeaderNotStarted;
 
-  /// No description provided for @steroidsSubtitleStarted.
+  /// Subtitle shown after steroids tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Track your progress and celebrate each milestone'**
   String get steroidsSubtitleStarted;
 
-  /// No description provided for @steroidsSubtitleNotStarted.
+  /// Subtitle shown before steroids tracking starts.
   ///
   /// In en, this message translates to:
   /// **'See what happens when you quit'**
   String get steroidsSubtitleNotStarted;
 
-  /// No description provided for @steroidsInfoBox.
+  /// Recovery information shown on the steroids page.
   ///
   /// In en, this message translates to:
   /// **'Stopping anabolic steroids leaves testosterone low until the body restarts its own hormone production — usually over months, but sometimes longer. Depression and low libido are common during this phase; severe depression or suicidal thoughts need urgent medical care.'**
   String get steroidsInfoBox;
 
-  /// No description provided for @addictionSteroids.
+  /// Name of the steroids addiction category.
   ///
   /// In en, this message translates to:
   /// **'Anabolic Steroids'**
   String get addictionSteroids;
 
-  /// No description provided for @steroidsMilestone1Title.
+  /// Title for the steroids recovery milestone at 1 day.
   ///
   /// In en, this message translates to:
   /// **'First day off cycle'**
   String get steroidsMilestone1Title;
 
-  /// No description provided for @steroidsMilestone1Description.
+  /// Description for the steroids recovery milestone at 1 day.
   ///
   /// In en, this message translates to:
   /// **'Stopping anabolic steroids can leave your natural testosterone low, with fatigue, low mood or libido changes. Medical guidance matters here.'**
   String get steroidsMilestone1Description;
 
-  /// No description provided for @steroidsMilestone14Title.
+  /// Title for the steroids recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'The hormone dip'**
   String get steroidsMilestone14Title;
 
-  /// No description provided for @steroidsMilestone14Description.
+  /// Description for the steroids recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Two weeks without another cycle. Energy, mood and libido can be rough while hormones adjust. There\'s no shame in getting help with it.'**
   String get steroidsMilestone14Description;
 
-  /// No description provided for @steroidsMilestone30Title.
+  /// Title for the steroids recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
   /// **'A month off steroids'**
   String get steroidsMilestone30Title;
 
-  /// No description provided for @steroidsMilestone30Description.
+  /// Description for the steroids recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
   /// **'Thirty days. Your hormone system may be starting to recover, though symptoms can last and the pace varies.'**
   String get steroidsMilestone30Description;
 
-  /// No description provided for @steroidsMilestone90Title.
+  /// Title for the steroids recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three months off'**
   String get steroidsMilestone90Title;
 
-  /// No description provided for @steroidsMilestone90Description.
+  /// Description for the steroids recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three months without anabolic steroids. Hormone levels and mood may be improving, but persistent symptoms deserve a proper medical check.'**
   String get steroidsMilestone90Description;
 
-  /// No description provided for @steroidsMilestone180Title.
+  /// Title for the steroids recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
   /// **'Six months clear'**
   String get steroidsMilestone180Title;
 
-  /// No description provided for @steroidsMilestone180Description.
+  /// Description for the steroids recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
   /// **'Half a year off cycle. Many people see hormone recovery over months, while others need longer or specialist care.'**
   String get steroidsMilestone180Description;
 
-  /// No description provided for @steroidsMilestone365Title.
+  /// Title for the steroids recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
   /// **'One year, no cycle'**
   String get steroidsMilestone365Title;
 
-  /// No description provided for @steroidsMilestone365Description.
+  /// Description for the steroids recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
   /// **'A full year without anabolic steroids. Hormones and fertility can take months or years to recover. The year you\'ve put in still matters.'**
   String get steroidsMilestone365Description;
 
-  /// No description provided for @steroidsMilestone730Title.
+  /// Title for the steroids recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two years off'**
   String get steroidsMilestone730Title;
 
-  /// No description provided for @steroidsMilestone730Description.
+  /// Description for the steroids recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two years without another cycle. That\'s a long stretch of giving your own hormone system a chance to recover. Get ongoing symptoms checked.'**
@@ -1224,7 +1224,7 @@ abstract class AppLocalizations {
   /// **'Quitter'**
   String get appTitle;
 
-  /// No description provided for @start.
+  /// Start.
   ///
   /// In en, this message translates to:
   /// **'Start'**
@@ -1236,757 +1236,757 @@ abstract class AppLocalizations {
   /// **'Quitter'**
   String get tabQuitter;
 
-  /// No description provided for @adderallPageTitle.
+  /// Title of the adderall recovery page.
   ///
   /// In en, this message translates to:
   /// **'Quitting Adderall'**
   String get adderallPageTitle;
 
-  /// No description provided for @adderallHeaderStarted.
+  /// Heading shown after adderall tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Your Recovery Journey'**
   String get adderallHeaderStarted;
 
-  /// No description provided for @adderallHeaderNotStarted.
+  /// Heading shown before adderall tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Ready to Start Your Recovery?'**
   String get adderallHeaderNotStarted;
 
-  /// No description provided for @adderallSubtitleStarted.
+  /// Subtitle shown after adderall tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Track your progress and celebrate each milestone as your brain heals'**
   String get adderallSubtitleStarted;
 
-  /// No description provided for @adderallSubtitleNotStarted.
+  /// Subtitle shown before adderall tracking starts.
   ///
   /// In en, this message translates to:
   /// **'See what happens when you quit Adderall and start your journey to recovery'**
   String get adderallSubtitleNotStarted;
 
-  /// No description provided for @adderallMilestone1Title.
+  /// Title for the adderall recovery milestone at 1 day.
   ///
   /// In en, this message translates to:
   /// **'First day without misuse'**
   String get adderallMilestone1Title;
 
-  /// No description provided for @adderallMilestone1Description.
+  /// Description for the adderall recovery milestone at 1 day.
   ///
   /// In en, this message translates to:
   /// **'The first day after stopping stimulant misuse can bring a crash: exhaustion, low mood and a bigger appetite. Give yourself rest and support.'**
   String get adderallMilestone1Description;
 
-  /// No description provided for @adderallMilestone3Title.
+  /// Title for the adderall recovery milestone at 3 days.
   ///
   /// In en, this message translates to:
   /// **'The crash can hit hard'**
   String get adderallMilestone3Title;
 
-  /// No description provided for @adderallMilestone3Description.
+  /// Description for the adderall recovery milestone at 3 days.
   ///
   /// In en, this message translates to:
   /// **'Day three can be miserable: tired, irritable and struggling to focus. If your mood gets dangerously low, reach out for urgent help.'**
   String get adderallMilestone3Description;
 
-  /// No description provided for @adderallMilestone7Title.
+  /// Title for the adderall recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'A week of change'**
   String get adderallMilestone7Title;
 
-  /// No description provided for @adderallMilestone7Description.
+  /// Description for the adderall recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'Seven days without misusing Adderall. The early crash may be easing, though sleep and motivation can take longer.'**
   String get adderallMilestone7Description;
 
-  /// No description provided for @adderallMilestone14Title.
+  /// Title for the adderall recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Two weeks clear'**
   String get adderallMilestone14Title;
 
-  /// No description provided for @adderallMilestone14Description.
+  /// Description for the adderall recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Two weeks. Mood and sleep may be finding a steadier rhythm after stimulant misuse. You\'re getting more practice with the difficult bits.'**
   String get adderallMilestone14Description;
 
-  /// No description provided for @adderallMilestone30Title.
+  /// Title for the adderall recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
   /// **'A month without misuse'**
   String get adderallMilestone30Title;
 
-  /// No description provided for @adderallMilestone30Description.
+  /// Description for the adderall recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
   /// **'Thirty days. Appetite, sleep and energy may be improving. Focus can take time, and prescribed ADHD care is still valid care.'**
   String get adderallMilestone30Description;
 
-  /// No description provided for @adderallMilestone60Title.
+  /// Title for the adderall recovery milestone at 60 days.
   ///
   /// In en, this message translates to:
   /// **'Two months, more clarity'**
   String get adderallMilestone60Title;
 
-  /// No description provided for @adderallMilestone60Description.
+  /// Description for the adderall recovery milestone at 60 days.
   ///
   /// In en, this message translates to:
   /// **'Two months without misuse. Memory, mood and everyday motivation may be improving as recovery continues.'**
   String get adderallMilestone60Description;
 
-  /// No description provided for @adderallMilestone90Title.
+  /// Title for the adderall recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three months'**
   String get adderallMilestone90Title;
 
-  /// No description provided for @adderallMilestone90Description.
+  /// Description for the adderall recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three months without misusing Adderall. That\'s a lot of mornings and difficult afternoons handled differently.'**
   String get adderallMilestone90Description;
 
-  /// No description provided for @adderallMilestone180Title.
+  /// Title for the adderall recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
   /// **'Half a year clear'**
   String get adderallMilestone180Title;
 
-  /// No description provided for @adderallMilestone180Description.
+  /// Description for the adderall recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
   /// **'Six months. Attention and mood can keep improving in recovery. You\'ve also built six months of experience without the old pattern.'**
   String get adderallMilestone180Description;
 
-  /// No description provided for @adderallMilestone365Title.
+  /// Title for the adderall recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
   /// **'A full year'**
   String get adderallMilestone365Title;
 
-  /// No description provided for @adderallMilestone365Description.
+  /// Description for the adderall recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
   /// **'One year without Adderall misuse. You\'ve spent a full year changing the habits around it.'**
   String get adderallMilestone365Description;
 
-  /// No description provided for @benzoPageTitle.
+  /// Title of the benzo recovery page.
   ///
   /// In en, this message translates to:
   /// **'Benzodiazepines'**
   String get benzoPageTitle;
 
-  /// No description provided for @benzoHeaderStarted.
+  /// Heading shown after benzo tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Your Recovery Journey'**
   String get benzoHeaderStarted;
 
-  /// No description provided for @benzoHeaderNotStarted.
+  /// Heading shown before benzo tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Benefits of Quitting Benzodiazepines'**
   String get benzoHeaderNotStarted;
 
-  /// No description provided for @benzoSubtitleStarted.
+  /// Subtitle shown after benzo tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Track your progress and celebrate each milestone'**
   String get benzoSubtitleStarted;
 
-  /// No description provided for @benzoSubtitleNotStarted.
+  /// Subtitle shown before benzo tracking starts.
   ///
   /// In en, this message translates to:
   /// **'See what happens when you quit'**
   String get benzoSubtitleNotStarted;
 
-  /// No description provided for @benzoMilestone7Title.
+  /// Title for the benzo recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'One week: stay supported'**
   String get benzoMilestone7Title;
 
-  /// No description provided for @benzoMilestone7Description.
+  /// Description for the benzo recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'Benzodiazepine withdrawal can be dangerous, especially after abrupt stopping. Symptoms may only just be starting with longer-acting medicines; tapering needs medical guidance.'**
   String get benzoMilestone7Description;
 
-  /// No description provided for @benzoMilestone14Title.
+  /// Title for the benzo recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Two weeks after taper'**
   String get benzoMilestone14Title;
 
-  /// No description provided for @benzoMilestone14Description.
+  /// Description for the benzo recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Two weeks clear. Some people notice better sleep after a gradual taper; others still have withdrawal symptoms. Both deserve care and patience.'**
   String get benzoMilestone14Description;
 
-  /// No description provided for @benzoMilestone60Title.
+  /// Title for the benzo recovery milestone at 60 days.
   ///
   /// In en, this message translates to:
   /// **'Eight weeks, clearer days'**
   String get benzoMilestone60Title;
 
-  /// No description provided for @benzoMilestone60Description.
+  /// Description for the benzo recovery milestone at 60 days.
   ///
   /// In en, this message translates to:
   /// **'In a study of older long-term users, people who completed tapering showed gains in memory, attention and balance by eight weeks. Your pace may differ.'**
   String get benzoMilestone60Description;
 
-  /// No description provided for @benzoMilestone90Title.
+  /// Title for the benzo recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three months, less fog'**
   String get benzoMilestone90Title;
 
-  /// No description provided for @benzoMilestone90Description.
+  /// Description for the benzo recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Research has found faster thinking and less sedation in some people after tapering off benzodiazepines. Three months is a meaningful stretch, whatever your own pace.'**
   String get benzoMilestone90Description;
 
-  /// No description provided for @benzoMilestone180Title.
+  /// Title for the benzo recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
   /// **'Six months of recovery'**
   String get benzoMilestone180Title;
 
-  /// No description provided for @benzoMilestone180Description.
+  /// Description for the benzo recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
   /// **'Half a year. Memory and attention can improve after long-term use, and some changes continue beyond six months.'**
   String get benzoMilestone180Description;
 
-  /// No description provided for @benzoMilestone365Title.
+  /// Title for the benzo recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
   /// **'A year after benzos'**
   String get benzoMilestone365Title;
 
-  /// No description provided for @benzoMilestone365Description.
+  /// Description for the benzo recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
   /// **'One year. Sleep, thinking and wellbeing may keep improving, though withdrawal can be prolonged for some.'**
   String get benzoMilestone365Description;
 
-  /// No description provided for @benzoMilestone540Title.
+  /// Title for the benzo recovery milestone at 540 days.
   ///
   /// In en, this message translates to:
   /// **'Eighteen months clear'**
   String get benzoMilestone540Title;
 
-  /// No description provided for @benzoMilestone540Description.
+  /// Description for the benzo recovery milestone at 540 days.
   ///
   /// In en, this message translates to:
   /// **'A year and a half. Recovery doesn\'t always follow a straight line. You\'ve given it serious time, and any continuing symptoms still deserve support.'**
   String get benzoMilestone540Description;
 
-  /// No description provided for @benzoMilestone730Title.
+  /// Title for the benzo recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two years'**
   String get benzoMilestone730Title;
 
-  /// No description provided for @benzoMilestone730Description.
+  /// Description for the benzo recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two years after benzodiazepines. It\'s a major stretch of recovery, even if parts of it have been anything but easy.'**
   String get benzoMilestone730Description;
 
-  /// No description provided for @benzoMilestone1095Title.
+  /// Title for the benzo recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three years of progress'**
   String get benzoMilestone1095Title;
 
-  /// No description provided for @benzoMilestone1095Description.
+  /// Description for the benzo recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three years. Sleep, mood and concentration may be different now, but nobody gets the same recovery schedule.'**
   String get benzoMilestone1095Description;
 
-  /// No description provided for @benzoMilestone1460Title.
+  /// Title for the benzo recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four years of work'**
   String get benzoMilestone1460Title;
 
-  /// No description provided for @benzoMilestone1460Description.
+  /// Description for the benzo recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four years after benzos. That\'s a long time spent managing recovery, keeping routines and finding what helps.'**
   String get benzoMilestone1460Description;
 
-  /// No description provided for @benzoMilestone1825Title.
+  /// Title for the benzo recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Five years'**
   String get benzoMilestone1825Title;
 
-  /// No description provided for @benzoMilestone1825Description.
+  /// Description for the benzo recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Half a decade. Benzodiazepine recovery can be complicated, which makes five years of follow-through all the more worth celebrating.'**
   String get benzoMilestone1825Description;
 
-  /// No description provided for @addictionMeth.
+  /// Name of the meth addiction category.
   ///
   /// In en, this message translates to:
   /// **'Meth'**
   String get addictionMeth;
 
-  /// No description provided for @addictionBenzos.
+  /// Name of the benzos addiction category.
   ///
   /// In en, this message translates to:
   /// **'Benzos'**
   String get addictionBenzos;
 
-  /// No description provided for @methPageTitle.
+  /// Title of the meth recovery page.
   ///
   /// In en, this message translates to:
   /// **'Meth Recovery'**
   String get methPageTitle;
 
-  /// No description provided for @methHeaderStarted.
+  /// Heading shown after meth tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Your Recovery Journey'**
   String get methHeaderStarted;
 
-  /// No description provided for @methHeaderNotStarted.
+  /// Heading shown before meth tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Drop the Glass'**
   String get methHeaderNotStarted;
 
-  /// No description provided for @methSubtitleStarted.
+  /// Subtitle shown after meth tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Track your progress and celebrate each milestone'**
   String get methSubtitleStarted;
 
-  /// No description provided for @methSubtitleNotStarted.
+  /// Subtitle shown before meth tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Freedom is within your grasp'**
   String get methSubtitleNotStarted;
 
-  /// No description provided for @methMilestone1Title.
+  /// Title for the meth recovery milestone at 1 day.
   ///
   /// In en, this message translates to:
   /// **'The crash'**
   String get methMilestone1Title;
 
-  /// No description provided for @methMilestone1Description.
+  /// Description for the meth recovery milestone at 1 day.
   ///
   /// In en, this message translates to:
   /// **'Day one without meth can mean heavy fatigue, low mood and a lot of sleep. Your body is adjusting. Let people support you.'**
   String get methMilestone1Description;
 
-  /// No description provided for @methMilestone3Title.
+  /// Title for the meth recovery milestone at 3 days.
   ///
   /// In en, this message translates to:
   /// **'Three days'**
   String get methMilestone3Title;
 
-  /// No description provided for @methMilestone3Description.
+  /// Description for the meth recovery milestone at 3 days.
   ///
   /// In en, this message translates to:
   /// **'Cravings and mood swings can be fierce in the first days. Three days clear is something to recognise, especially if it\'s been a slog.'**
   String get methMilestone3Description;
 
-  /// No description provided for @methMilestone7Title.
+  /// Title for the meth recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'A week without meth'**
   String get methMilestone7Title;
 
-  /// No description provided for @methMilestone7Description.
+  /// Description for the meth recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'Seven days clear. The early crash may be easing, even if cravings and sleep are still giving you grief.'**
   String get methMilestone7Description;
 
-  /// No description provided for @methMilestone30Title.
+  /// Title for the meth recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
   /// **'One month clear'**
   String get methMilestone30Title;
 
-  /// No description provided for @methMilestone30Description.
+  /// Description for the meth recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
   /// **'Thirty days without meth. Energy and mood may be starting to settle. Recovery isn\'t linear, and that doesn\'t undo the work.'**
   String get methMilestone30Description;
 
-  /// No description provided for @methMilestone90Title.
+  /// Title for the meth recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three months of recovery'**
   String get methMilestone90Title;
 
-  /// No description provided for @methMilestone90Description.
+  /// Description for the meth recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three months. Attention, memory and decision-making can improve with abstinence. You\'ve also had time to practise different routines.'**
   String get methMilestone90Description;
 
-  /// No description provided for @methMilestone180Title.
+  /// Title for the meth recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
   /// **'Six months, still clear'**
   String get methMilestone180Title;
 
-  /// No description provided for @methMilestone180Description.
+  /// Description for the meth recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
   /// **'Half a year without meth. Heart health can improve after stopping, especially with treatment when needed.'**
   String get methMilestone180Description;
 
-  /// No description provided for @methMilestone365Title.
+  /// Title for the meth recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
   /// **'One year without meth'**
   String get methMilestone365Title;
 
-  /// No description provided for @methMilestone365Description.
+  /// Description for the meth recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
   /// **'A full year. The brain\'s reward system can recover over sustained abstinence, and you\'ve given it twelve months without renewed exposure.'**
   String get methMilestone365Description;
 
-  /// No description provided for @methMilestone420Title.
+  /// Title for the meth recovery milestone at 420 days.
   ///
   /// In en, this message translates to:
   /// **'Fourteen months on'**
   String get methMilestone420Title;
 
-  /// No description provided for @methMilestone420Description.
+  /// Description for the meth recovery milestone at 420 days.
   ///
   /// In en, this message translates to:
   /// **'Fourteen months. Brain-imaging studies have found some dopamine-related recovery after long abstinence.'**
   String get methMilestone420Description;
 
-  /// No description provided for @methMilestone730Title.
+  /// Title for the meth recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two years'**
   String get methMilestone730Title;
 
-  /// No description provided for @methMilestone730Description.
+  /// Description for the meth recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two years without meth. Thinking and mood can keep improving, and your life has had two years to grow around different choices.'**
   String get methMilestone730Description;
 
-  /// No description provided for @addictionNitrousOxide.
+  /// Name of the nitrous oxide addiction category.
   ///
   /// In en, this message translates to:
   /// **'Nitrous Oxide'**
   String get addictionNitrousOxide;
 
-  /// No description provided for @nitrousOxidePageTitle.
+  /// Title of the nitrous oxide recovery page.
   ///
   /// In en, this message translates to:
   /// **'Nitrous Oxide'**
   String get nitrousOxidePageTitle;
 
-  /// No description provided for @nitrousOxideHeaderStarted.
+  /// Heading shown after nitrous oxide tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Your Recovery Journey'**
   String get nitrousOxideHeaderStarted;
 
-  /// No description provided for @nitrousOxideHeaderNotStarted.
+  /// Heading shown before nitrous oxide tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Ready to Start?'**
   String get nitrousOxideHeaderNotStarted;
 
-  /// No description provided for @nitrousOxideSubtitleStarted.
+  /// Subtitle shown after nitrous oxide tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Track your progress and celebrate each milestone'**
   String get nitrousOxideSubtitleStarted;
 
-  /// No description provided for @nitrousOxideSubtitleNotStarted.
+  /// Subtitle shown before nitrous oxide tracking starts.
   ///
   /// In en, this message translates to:
   /// **'See what positive changes await you'**
   String get nitrousOxideSubtitleNotStarted;
 
-  /// No description provided for @nitrousOxideMilestone1Title.
+  /// Title for the nitrous oxide recovery milestone at 1 day.
   ///
   /// In en, this message translates to:
   /// **'First day without nitrous'**
   String get nitrousOxideMilestone1Title;
 
-  /// No description provided for @nitrousOxideMilestone1Description.
+  /// Description for the nitrous oxide recovery milestone at 1 day.
   ///
   /// In en, this message translates to:
   /// **'Nitrous leaves the body quickly, but nerve problems from vitamin B12 inactivation can last. Numbness, weakness or trouble walking needs urgent assessment.'**
   String get nitrousOxideMilestone1Description;
 
-  /// No description provided for @nitrousOxideMilestone3Title.
+  /// Title for the nitrous oxide recovery milestone at 3 days.
   ///
   /// In en, this message translates to:
   /// **'Three days clear'**
   String get nitrousOxideMilestone3Title;
 
-  /// No description provided for @nitrousOxideMilestone3Description.
+  /// Description for the nitrous oxide recovery milestone at 3 days.
   ///
   /// In en, this message translates to:
   /// **'Three days without nitrous. Cravings or habits may still pull at you. If you\'ve had tingling or weakness, don\'t wait for it to fix itself.'**
   String get nitrousOxideMilestone3Description;
 
-  /// No description provided for @nitrousOxideMilestone7Title.
+  /// Title for the nitrous oxide recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'One week, no new exposure'**
   String get nitrousOxideMilestone7Title;
 
-  /// No description provided for @nitrousOxideMilestone7Description.
+  /// Description for the nitrous oxide recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'Seven days without more nitrous-related B12 inactivation. Nerve recovery may need proper B12 treatment and medical follow-up.'**
   String get nitrousOxideMilestone7Description;
 
-  /// No description provided for @nitrousOxideMilestone14Title.
+  /// Title for the nitrous oxide recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Two weeks clear'**
   String get nitrousOxideMilestone14Title;
 
-  /// No description provided for @nitrousOxideMilestone14Description.
+  /// Description for the nitrous oxide recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Two weeks. If nitrous affected your nerves, recovery can take time even with treatment. Staying off it prevents further exposure.'**
   String get nitrousOxideMilestone14Description;
 
-  /// No description provided for @nitrousOxideMilestone30Title.
+  /// Title for the nitrous oxide recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
   /// **'A month without nitrous'**
   String get nitrousOxideMilestone30Title;
 
-  /// No description provided for @nitrousOxideMilestone30Description.
+  /// Description for the nitrous oxide recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
   /// **'Thirty days without nitrous. B12-related symptoms may improve after treatment, but some nerve damage can persist. Keep up medical follow-up.'**
   String get nitrousOxideMilestone30Description;
 
-  /// No description provided for @nitrousOxideMilestone90Title.
+  /// Title for the nitrous oxide recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three months of recovery'**
   String get nitrousOxideMilestone90Title;
 
-  /// No description provided for @nitrousOxideMilestone90Description.
+  /// Description for the nitrous oxide recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three months. Nerve recovery can continue over time with cessation and treatment. Persistent weakness or numbness still matters.'**
   String get nitrousOxideMilestone90Description;
 
-  /// No description provided for @nitrousOxideMilestone365Title.
+  /// Title for the nitrous oxide recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
   /// **'A year clear'**
   String get nitrousOxideMilestone365Title;
 
-  /// No description provided for @nitrousOxideMilestone365Description.
+  /// Description for the nitrous oxide recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
   /// **'A full year without nitrous oxide. You\'ve avoided another year of B12 inactivation. How much nerve function returns varies, but this is a big step.'**
   String get nitrousOxideMilestone365Description;
 
-  /// No description provided for @addictionCocaine.
+  /// Name of the cocaine addiction category.
   ///
   /// In en, this message translates to:
   /// **'Cocaine'**
   String get addictionCocaine;
 
-  /// No description provided for @addictionAdderall.
+  /// Name of the adderall addiction category.
   ///
   /// In en, this message translates to:
   /// **'Adderall'**
   String get addictionAdderall;
 
-  /// No description provided for @cocainePageTitle.
+  /// Title of the cocaine recovery page.
   ///
   /// In en, this message translates to:
   /// **'Cocaine Recovery'**
   String get cocainePageTitle;
 
-  /// No description provided for @cocaineHeaderStarted.
+  /// Heading shown after cocaine tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Your Recovery Journey'**
   String get cocaineHeaderStarted;
 
-  /// No description provided for @cocaineHeaderNotStarted.
+  /// Heading shown before cocaine tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Ready to Start?'**
   String get cocaineHeaderNotStarted;
 
-  /// No description provided for @cocaineSubtitleStarted.
+  /// Subtitle shown after cocaine tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Track your progress and celebrate each milestone'**
   String get cocaineSubtitleStarted;
 
-  /// No description provided for @cocaineSubtitleNotStarted.
+  /// Subtitle shown before cocaine tracking starts.
   ///
   /// In en, this message translates to:
   /// **'See what positive changes await you'**
   String get cocaineSubtitleNotStarted;
 
-  /// No description provided for @cocaineMilestone1Title.
+  /// Title for the cocaine recovery milestone at 1 day.
   ///
   /// In en, this message translates to:
   /// **'First day without cocaine'**
   String get cocaineMilestone1Title;
 
-  /// No description provided for @cocaineMilestone1Description.
+  /// Description for the cocaine recovery milestone at 1 day.
   ///
   /// In en, this message translates to:
   /// **'The first day can bring exhaustion, low mood and cravings. Your heart is no longer getting another hit of cocaine\'s acute strain.'**
   String get cocaineMilestone1Description;
 
-  /// No description provided for @cocaineMilestone3Title.
+  /// Title for the cocaine recovery milestone at 3 days.
   ///
   /// In en, this message translates to:
   /// **'The tough early days'**
   String get cocaineMilestone3Title;
 
-  /// No description provided for @cocaineMilestone3Description.
+  /// Description for the cocaine recovery milestone at 3 days.
   ///
   /// In en, this message translates to:
   /// **'Day three can bring strong cravings, irritability and a proper energy crash. If your mood becomes unsafe, get help straight away.'**
   String get cocaineMilestone3Description;
 
-  /// No description provided for @cocaineMilestone7Title.
+  /// Title for the cocaine recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'A week clear'**
   String get cocaineMilestone7Title;
 
-  /// No description provided for @cocaineMilestone7Description.
+  /// Description for the cocaine recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'Seven days without cocaine. The initial crash may be easing, while sleep and cravings can take longer to settle.'**
   String get cocaineMilestone7Description;
 
-  /// No description provided for @cocaineMilestone14Title.
+  /// Title for the cocaine recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Two weeks without it'**
   String get cocaineMilestone14Title;
 
-  /// No description provided for @cocaineMilestone14Description.
+  /// Description for the cocaine recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Two weeks clear. Energy and mood may be getting steadier. You\'re also giving your heart a break from repeated cocaine exposure.'**
   String get cocaineMilestone14Description;
 
-  /// No description provided for @cocaineMilestone60Title.
+  /// Title for the cocaine recovery milestone at 60 days.
   ///
   /// In en, this message translates to:
   /// **'Two months, better rest'**
   String get cocaineMilestone60Title;
 
-  /// No description provided for @cocaineMilestone60Description.
+  /// Description for the cocaine recovery milestone at 60 days.
   ///
   /// In en, this message translates to:
   /// **'Two months. Sleep and mood often improve with recovery, though they can still be patchy. You haven\'t gone back.'**
   String get cocaineMilestone60Description;
 
-  /// No description provided for @cocaineMilestone90Title.
+  /// Title for the cocaine recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three months of clarity'**
   String get cocaineMilestone90Title;
 
-  /// No description provided for @cocaineMilestone90Description.
+  /// Description for the cocaine recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three months without cocaine. Attention and decision-making can improve during abstinence. That\'s useful progress in everyday life.'**
   String get cocaineMilestone90Description;
 
-  /// No description provided for @cocaineMilestone180Title.
+  /// Title for the cocaine recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
   /// **'Half a year clear'**
   String get cocaineMilestone180Title;
 
-  /// No description provided for @cocaineMilestone180Description.
+  /// Description for the cocaine recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
   /// **'Six months. Memory, self-control and planning can keep improving as the brain recovers.'**
   String get cocaineMilestone180Description;
 
-  /// No description provided for @cocaineMilestone365Title.
+  /// Title for the cocaine recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
   /// **'One year, healthier odds'**
   String get cocaineMilestone365Title;
 
-  /// No description provided for @cocaineMilestone365Description.
+  /// Description for the cocaine recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
   /// **'A full year without cocaine. You\'ve avoided twelve months of its acute heart and stroke risks.'**
   String get cocaineMilestone365Description;
 
-  /// No description provided for @cocaineMilestone730Title.
+  /// Title for the cocaine recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two years without cocaine'**
   String get cocaineMilestone730Title;
 
-  /// No description provided for @cocaineMilestone730Description.
+  /// Description for the cocaine recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two years. Memory, focus and emotional control can continue improving with abstinence, and you\'ve given them proper time.'**
   String get cocaineMilestone730Description;
 
-  /// No description provided for @cocaineMilestone1095Title.
+  /// Title for the cocaine recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three years'**
   String get cocaineMilestone1095Title;
 
-  /// No description provided for @cocaineMilestone1095Description.
+  /// Description for the cocaine recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three years cocaine-free. The routines, people and ways of coping behind this change have had time to grow.'**
   String get cocaineMilestone1095Description;
 
-  /// No description provided for @cocaineMilestone1460Title.
+  /// Title for the cocaine recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four years, still clear'**
   String get cocaineMilestone1460Title;
 
-  /// No description provided for @cocaineMilestone1460Description.
+  /// Description for the cocaine recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four years. You\'ve held this through stress, new routines and ordinary days. That\'s a serious bit of follow-through.'**
   String get cocaineMilestone1460Description;
 
-  /// No description provided for @cocaineMilestone1825Title.
+  /// Title for the cocaine recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Five years'**
   String get cocaineMilestone1825Title;
 
-  /// No description provided for @cocaineMilestone1825Description.
+  /// Description for the cocaine recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Half a decade without cocaine. Five years of life no longer organised around it. You can be properly pleased with that.'**
@@ -2033,6 +2033,30 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'{count} tracked'**
   String statsAddictionsTracked(int count);
+
+  /// Input label for weekly money spent on an addiction in US dollars
+  ///
+  /// In en, this message translates to:
+  /// **'Weekly spend (US\$)'**
+  String get editEntryWeeklySpend;
+
+  /// Hint that leaving weekly spending blank uses the default estimate
+  ///
+  /// In en, this message translates to:
+  /// **'Leave blank for an estimate, if available'**
+  String get editEntryWeeklySpendHint;
+
+  /// Validation error for weekly spending
+  ///
+  /// In en, this message translates to:
+  /// **'Enter a valid amount'**
+  String get editEntryWeeklySpendInvalid;
+
+  /// Disclaimer for savings based on custom weekly spending and defaults
+  ///
+  /// In en, this message translates to:
+  /// **'Uses your weekly spending where set; other values are estimated'**
+  String get statsMoneySavedCustomEstimate;
 
   /// Section title for the money saved card on stats page
   ///
@@ -2442,7 +2466,7 @@ abstract class AppLocalizations {
   /// **'No results found'**
   String get noSearchResults;
 
-  /// No description provided for @clearSearch.
+  /// Clear search.
   ///
   /// In en, this message translates to:
   /// **'Clear search'**
@@ -2598,7 +2622,7 @@ abstract class AppLocalizations {
   /// **'Show journal'**
   String get settingsShowJournal;
 
-  /// No description provided for @settingsShowBenzosSubtitle.
+  /// Settings show benzos subtitle.
   ///
   /// In en, this message translates to:
   /// **'Show benzos tracking'**
@@ -2676,25 +2700,25 @@ abstract class AppLocalizations {
   /// **'Show social media tracking'**
   String get settingsShowSocialMediaTracking;
 
-  /// No description provided for @settingsShowAdderallTracking.
+  /// Settings show adderall tracking.
   ///
   /// In en, this message translates to:
   /// **'Show adderall tracking'**
   String get settingsShowAdderallTracking;
 
-  /// No description provided for @settingsNotifyAdderall.
+  /// Settings notify adderall.
   ///
   /// In en, this message translates to:
   /// **'Notify adderall quitting progress'**
   String get settingsNotifyAdderall;
 
-  /// No description provided for @settingsShowCocaineTracking.
+  /// Settings show cocaine tracking.
   ///
   /// In en, this message translates to:
   /// **'Show cocaine tracking'**
   String get settingsShowCocaineTracking;
 
-  /// No description provided for @settingsShowMethTracking.
+  /// Settings show meth tracking.
   ///
   /// In en, this message translates to:
   /// **'Show meth tracking'**
@@ -2748,7 +2772,7 @@ abstract class AppLocalizations {
   /// **'Notify nicotine pouches quitting progress'**
   String get settingsNotifyNicotinePouches;
 
-  /// No description provided for @settingsNotifyBenzos.
+  /// Settings notify benzos.
   ///
   /// In en, this message translates to:
   /// **'Notify benzos quitting progress'**
@@ -2766,13 +2790,13 @@ abstract class AppLocalizations {
   /// **'Notify social media quitting progress'**
   String get settingsNotifySocialMedia;
 
-  /// No description provided for @settingsNotifyCocaine.
+  /// Settings notify cocaine.
   ///
   /// In en, this message translates to:
   /// **'Notify cocaine quitting progress'**
   String get settingsNotifyCocaine;
 
-  /// No description provided for @settingsNotifyMeth.
+  /// Settings notify meth.
   ///
   /// In en, this message translates to:
   /// **'Notify meth quitting progress'**
@@ -4662,55 +4686,55 @@ abstract class AppLocalizations {
   /// **'Two years. The routines and support that got you started have carried you through another year.'**
   String get customMilestone730Description;
 
-  /// No description provided for @customMilestone1095Title.
+  /// Title for the custom recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three years, still going'**
   String get customMilestone1095Title;
 
-  /// No description provided for @customMilestone1095Description.
+  /// Description for the custom recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three years. The old habit has had fewer and fewer chances to run your day. You\'ve built something that lasts.'**
   String get customMilestone1095Description;
 
-  /// No description provided for @customMilestone1460Title.
+  /// Title for the custom recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four years'**
   String get customMilestone1460Title;
 
-  /// No description provided for @customMilestone1460Description.
+  /// Description for the custom recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four years of sustained work on the habit you chose to change. You can be proud of keeping it going.'**
   String get customMilestone1460Description;
 
-  /// No description provided for @customMilestone1825Title.
+  /// Title for the custom recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Five years'**
   String get customMilestone1825Title;
 
-  /// No description provided for @customMilestone1825Description.
+  /// Description for the custom recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Half a decade of sticking with the change you chose. Whatever you were quitting, five years is a seriously big deal.'**
   String get customMilestone1825Description;
 
-  /// No description provided for @customReferenceDay1095.
+  /// Source for the custom recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three Years of Recovery: Deep Roots\n\nSource: NIDA, Drugs, Brains, and Behavior: The Science of Addiction\n\nNIDA describes substance use disorders as treatable and recovery as stopping drug use and resuming a productive life. It does not set a universal three-year biological recovery deadline across substances.\n\nThree years is a durable achievement in its own right. The routines, support, and choices that carried you here have had years to take root.'**
   String get customReferenceDay1095;
 
-  /// No description provided for @customReferenceDay1460.
+  /// Source for the custom recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four Years of Recovery: Lasting Change\n\nSource: NIDA, Drugs, Brains, and Behavior: The Science of Addiction\n\nNIDA presents addiction as a treatable condition that can be managed successfully. It does not define a universal four-year health endpoint for every substance or person.\n\nFour years is lasting change made visible through consistency. Keep protecting the habits, relationships, and support that make recovery sustainable.'**
   String get customReferenceDay1460;
 
-  /// No description provided for @customReferenceDay1825.
+  /// Source for the custom recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Five Years of Recovery: Half a Decade\n\nSource: NIDA, Drugs, Brains, and Behavior: The Science of Addiction\n\nNIDA supports evidence-based treatment and recovery but does not claim that every person reaches the same biological state at five years.\n\nFive years is half a decade of sustained progress. Celebrate the life, skills, and support network you have built and keep investing in what works.'**
@@ -4722,127 +4746,127 @@ abstract class AppLocalizations {
   /// **'SSRIs'**
   String get addictionSsri;
 
-  /// No description provided for @ssriPageTitle.
+  /// Title of the ssri recovery page.
   ///
   /// In en, this message translates to:
   /// **'SSRI Recovery'**
   String get ssriPageTitle;
 
-  /// No description provided for @ssriHeaderStarted.
+  /// Heading shown after ssri tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Your Recovery Journey'**
   String get ssriHeaderStarted;
 
-  /// No description provided for @ssriHeaderNotStarted.
+  /// Heading shown before ssri tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Benefits of Tapering Off SSRIs'**
   String get ssriHeaderNotStarted;
 
-  /// No description provided for @ssriSubtitleStarted.
+  /// Subtitle shown after ssri tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Track your progress and celebrate each milestone'**
   String get ssriSubtitleStarted;
 
-  /// No description provided for @ssriSubtitleNotStarted.
+  /// Subtitle shown before ssri tracking starts.
   ///
   /// In en, this message translates to:
   /// **'See what happens when you taper off'**
   String get ssriSubtitleNotStarted;
 
-  /// No description provided for @ssriMilestone3Title.
+  /// Title for the ssri recovery milestone at 3 days.
   ///
   /// In en, this message translates to:
   /// **'Day three: take it easy'**
   String get ssriMilestone3Title;
 
-  /// No description provided for @ssriMilestone3Description.
+  /// Description for the ssri recovery milestone at 3 days.
   ///
   /// In en, this message translates to:
   /// **'SSRI discontinuation can bring dizziness, nausea, insomnia and \'brain zaps\'. Symptoms vary by medicine and taper. Contact your prescriber if they\'re difficult.'**
   String get ssriMilestone3Description;
 
-  /// No description provided for @ssriMilestone7Title.
+  /// Title for the ssri recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'One week after stopping'**
   String get ssriMilestone7Title;
 
-  /// No description provided for @ssriMilestone7Description.
+  /// Description for the ssri recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'Seven days. Some symptoms may be easing; others may only now be noticeable, especially with longer-acting medicines. You don\'t have to push through alone.'**
   String get ssriMilestone7Description;
 
-  /// No description provided for @ssriMilestone14Title.
+  /// Title for the ssri recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Two weeks, check in'**
   String get ssriMilestone14Title;
 
-  /// No description provided for @ssriMilestone14Description.
+  /// Description for the ssri recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Two weeks after stopping. Dizziness, sleep trouble or mood changes may be improving, but symptoms can last longer. Your care plan still matters.'**
   String get ssriMilestone14Description;
 
-  /// No description provided for @ssriMilestone30Title.
+  /// Title for the ssri recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
   /// **'A month after the taper'**
   String get ssriMilestone30Title;
 
-  /// No description provided for @ssriMilestone30Description.
+  /// Description for the ssri recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
   /// **'A month since stopping your SSRI. Sleep and mood may be settling, or you may need more support. Neither says anything bad about your progress.'**
   String get ssriMilestone30Description;
 
-  /// No description provided for @ssriMilestone90Title.
+  /// Title for the ssri recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three months: a checkpoint'**
   String get ssriMilestone90Title;
 
-  /// No description provided for @ssriMilestone90Description.
+  /// Description for the ssri recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'In the ANTLER trial, the difference in withdrawal symptoms was largest around twelve weeks, then narrowed later. Three months is a good time to check how you\'re actually feeling.'**
   String get ssriMilestone90Description;
 
-  /// No description provided for @ssriMilestone180Title.
+  /// Title for the ssri recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
   /// **'Six months, your own pace'**
   String get ssriMilestone180Title;
 
-  /// No description provided for @ssriMilestone180Description.
+  /// Description for the ssri recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
   /// **'Six months after stopping. One follow-up found around 65% of participants with available data remained well, but the result isn\'t a promise for everyone.'**
   String get ssriMilestone180Description;
 
-  /// No description provided for @ssriMilestone365Title.
+  /// Title for the ssri recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
   /// **'One year after the taper'**
   String get ssriMilestone365Title;
 
-  /// No description provided for @ssriMilestone365Description.
+  /// Description for the ssri recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
   /// **'A full year. In research, many people stayed well after stopping, though relapse was more common than with maintenance treatment. If you\'re doing well, that\'s worth recognising.'**
   String get ssriMilestone365Description;
 
-  /// No description provided for @settingsShowSsriTracking.
+  /// Settings show ssri tracking.
   ///
   /// In en, this message translates to:
   /// **'Show SSRI tracking'**
   String get settingsShowSsriTracking;
 
-  /// No description provided for @settingsNotifySsri.
+  /// Settings notify ssri.
   ///
   /// In en, this message translates to:
   /// **'Notify SSRI quitting progress'**
@@ -4854,199 +4878,199 @@ abstract class AppLocalizations {
   /// **'SNRIs'**
   String get addictionSnri;
 
-  /// No description provided for @snriPageTitle.
+  /// Title of the snri recovery page.
   ///
   /// In en, this message translates to:
   /// **'SNRI Recovery'**
   String get snriPageTitle;
 
-  /// No description provided for @snriHeaderStarted.
+  /// Heading shown after snri tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Your Recovery Journey'**
   String get snriHeaderStarted;
 
-  /// No description provided for @snriHeaderNotStarted.
+  /// Heading shown before snri tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Benefits of Tapering Off SNRIs'**
   String get snriHeaderNotStarted;
 
-  /// No description provided for @snriSubtitleStarted.
+  /// Subtitle shown after snri tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Track your progress and celebrate each milestone'**
   String get snriSubtitleStarted;
 
-  /// No description provided for @snriSubtitleNotStarted.
+  /// Subtitle shown before snri tracking starts.
   ///
   /// In en, this message translates to:
   /// **'See what happens when you taper off'**
   String get snriSubtitleNotStarted;
 
-  /// No description provided for @snriMilestone3Title.
+  /// Title for the snri recovery milestone at 3 days.
   ///
   /// In en, this message translates to:
   /// **'Day three: get support'**
   String get snriMilestone3Title;
 
-  /// No description provided for @snriMilestone3Description.
+  /// Description for the snri recovery milestone at 3 days.
   ///
   /// In en, this message translates to:
   /// **'SNRI withdrawal, especially from venlafaxine, can start quickly. Dizziness, nausea, insomnia and \'brain zaps\' can be rough. Speak to your prescriber about symptoms.'**
   String get snriMilestone3Description;
 
-  /// No description provided for @snriMilestone7Title.
+  /// Title for the snri recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'One week into the change'**
   String get snriMilestone7Title;
 
-  /// No description provided for @snriMilestone7Description.
+  /// Description for the snri recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'Seven days after stopping. Serotonin and noradrenaline pathways are adjusting, and symptoms may still be intense. Help is available; you needn\'t just endure it.'**
   String get snriMilestone7Description;
 
-  /// No description provided for @snriMilestone14Title.
+  /// Title for the snri recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Two weeks, still adjusting'**
   String get snriMilestone14Title;
 
-  /// No description provided for @snriMilestone14Description.
+  /// Description for the snri recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Two weeks. Physical discontinuation symptoms may be easing, but the timeline differs from person to person. Keep your clinician in the loop.'**
   String get snriMilestone14Description;
 
-  /// No description provided for @snriMilestone30Title.
+  /// Title for the snri recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
   /// **'A month after SNRI taper'**
   String get snriMilestone30Title;
 
-  /// No description provided for @snriMilestone30Description.
+  /// Description for the snri recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
   /// **'Thirty days since stopping. Sleep, energy and mood might be more settled, or not yet.'**
   String get snriMilestone30Description;
 
-  /// No description provided for @snriMilestone90Title.
+  /// Title for the snri recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three months, worth checking'**
   String get snriMilestone90Title;
 
-  /// No description provided for @snriMilestone90Description.
+  /// Description for the snri recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three months after stopping. Many acute symptoms ease within weeks, but longer withdrawal does happen. Check in about anything persistent or worsening.'**
   String get snriMilestone90Description;
 
-  /// No description provided for @snriMilestone180Title.
+  /// Title for the snri recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
   /// **'Half a year on'**
   String get snriMilestone180Title;
 
-  /// No description provided for @snriMilestone180Description.
+  /// Description for the snri recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
   /// **'Six months after stopping. Your experience may be smoother now, or you may still need support. Recovery takes different amounts of time for different people.'**
   String get snriMilestone180Description;
 
-  /// No description provided for @snriMilestone365Title.
+  /// Title for the snri recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
   /// **'One year after stopping'**
   String get snriMilestone365Title;
 
-  /// No description provided for @snriMilestone365Description.
+  /// Description for the snri recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
   /// **'A full year since your SNRI taper. If you\'re well, that\'s significant. Keep treating your mental health as something worth looking after.'**
   String get snriMilestone365Description;
 
-  /// No description provided for @snriMilestone730Title.
+  /// Title for the snri recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two years'**
   String get snriMilestone730Title;
 
-  /// No description provided for @snriMilestone730Description.
+  /// Description for the snri recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two years since stopping your SNRI. How you\'re feeling matters more than the date.'**
   String get snriMilestone730Description;
 
-  /// No description provided for @snriReferenceDay730.
+  /// Source for the snri recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two Years After SNRIs: A Progress Marker\n\nSource: Royal College of Psychiatrists — Stopping antidepressants\n\nThe Royal College advises that antidepressants should not usually be stopped suddenly. Tapering should be adapted to the individual, and higher-withdrawal-risk medicines such as duloxetine or venlafaxine may need slower reductions over months or longer.\n\nThe guidance does not define a two-year biological recovery threshold after stopping an SNRI. This anniversary celebrates sustained progress without claiming that a specific brain or body process completes today.'**
   String get snriReferenceDay730;
 
-  /// No description provided for @snriMilestone1095Title.
+  /// Title for the snri recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three years, steady'**
   String get snriMilestone1095Title;
 
-  /// No description provided for @snriMilestone1095Description.
+  /// Description for the snri recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three years. You\'ve had a lot of time to find what supports your wellbeing.'**
   String get snriMilestone1095Description;
 
-  /// No description provided for @snriReferenceDay1095.
+  /// Source for the snri recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three Years After SNRIs: Progress That Lasts\n\nSource: Royal College of Psychiatrists — Stopping antidepressants\n\nWithdrawal experiences differ from person to person. Tapering speed should reflect the individual, treatment duration, prior withdrawal symptoms, and the medicine being taken.\n\nNo clinical guidance establishes three years as a universal SNRI recovery deadline. This milestone recognises the progress and stability maintained over three years.'**
   String get snriReferenceDay1095;
 
-  /// No description provided for @snriMilestone1460Title.
+  /// Title for the snri recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four years of looking after you'**
   String get snriMilestone1460Title;
 
-  /// No description provided for @snriMilestone1460Description.
+  /// Description for the snri recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four years after the taper. Keep checking how you\'re doing and getting the care you need.'**
   String get snriMilestone1460Description;
 
-  /// No description provided for @snriReferenceDay1460.
+  /// Source for the snri recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four Years After SNRIs: Long-Term Progress\n\nSource: Royal College of Psychiatrists — Stopping antidepressants\n\nThe Royal College describes antidepressant withdrawal as variable and recommends gradual, individualised dose reductions. Duloxetine and venlafaxine are among medicines with a higher risk of withdrawal symptoms.\n\nThat evidence does not create a four-year neurological milestone. Today celebrates four years of sustained progress, not a claim that everyone follows the same biological timetable.'**
   String get snriReferenceDay1460;
 
-  /// No description provided for @snriMilestone1825Title.
+  /// Title for the snri recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Five years'**
   String get snriMilestone1825Title;
 
-  /// No description provided for @snriMilestone1825Description.
+  /// Description for the snri recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Half a decade since stopping your SNRI. If that\'s worked well for you, it\'s a big personal milestone.'**
   String get snriMilestone1825Description;
 
-  /// No description provided for @snriReferenceDay1825.
+  /// Source for the snri recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Five Years After SNRIs: Five-Year Milestone\n\nSource: Royal College of Psychiatrists — Stopping antidepressants\n\nThe Royal College guidance focuses on safe, individualised tapering and responding to withdrawal symptoms rather than assigning one fixed recovery schedule to everyone.\n\nThere is no evidence-based five-year SNRI recovery threshold in that guidance. Five years is still a meaningful personal anniversary and a strong marker of long-term progress.'**
   String get snriReferenceDay1825;
 
-  /// No description provided for @settingsShowSnriTracking.
+  /// Settings show snri tracking.
   ///
   /// In en, this message translates to:
   /// **'Show SNRI tracking'**
   String get settingsShowSnriTracking;
 
-  /// No description provided for @settingsNotifySnri.
+  /// Settings notify snri.
   ///
   /// In en, this message translates to:
   /// **'Notify SNRI quitting progress'**
@@ -5058,199 +5082,199 @@ abstract class AppLocalizations {
   /// **'TCAs'**
   String get addictionTca;
 
-  /// No description provided for @tcaPageTitle.
+  /// Title of the tca recovery page.
   ///
   /// In en, this message translates to:
   /// **'TCA Recovery'**
   String get tcaPageTitle;
 
-  /// No description provided for @tcaHeaderStarted.
+  /// Heading shown after tca tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Your Recovery Journey'**
   String get tcaHeaderStarted;
 
-  /// No description provided for @tcaHeaderNotStarted.
+  /// Heading shown before tca tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Benefits of Tapering Off TCAs'**
   String get tcaHeaderNotStarted;
 
-  /// No description provided for @tcaSubtitleStarted.
+  /// Subtitle shown after tca tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Track your progress and celebrate each milestone'**
   String get tcaSubtitleStarted;
 
-  /// No description provided for @tcaSubtitleNotStarted.
+  /// Subtitle shown before tca tracking starts.
   ///
   /// In en, this message translates to:
   /// **'See what happens when you taper off'**
   String get tcaSubtitleNotStarted;
 
-  /// No description provided for @tcaMilestone3Title.
+  /// Title for the tca recovery milestone at 3 days.
   ///
   /// In en, this message translates to:
   /// **'Day three: go carefully'**
   String get tcaMilestone3Title;
 
-  /// No description provided for @tcaMilestone3Description.
+  /// Description for the tca recovery milestone at 3 days.
   ///
   /// In en, this message translates to:
   /// **'Stopping a tricyclic antidepressant can bring nausea, insomnia, anxiety or dizziness, especially after a fast taper. Tell your prescriber if symptoms are difficult.'**
   String get tcaMilestone3Description;
 
-  /// No description provided for @tcaMilestone7Title.
+  /// Title for the tca recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'One week after the taper'**
   String get tcaMilestone7Title;
 
-  /// No description provided for @tcaMilestone7Description.
+  /// Description for the tca recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'Seven days. Withdrawal symptoms may still be active, and that\'s not unusual. Medical support can help you work through them.'**
   String get tcaMilestone7Description;
 
-  /// No description provided for @tcaMilestone14Title.
+  /// Title for the tca recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Two weeks, taking stock'**
   String get tcaMilestone14Title;
 
-  /// No description provided for @tcaMilestone14Description.
+  /// Description for the tca recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Two weeks after stopping. Early symptoms often ease around this period, though some persist much longer. Check how you\'re really doing.'**
   String get tcaMilestone14Description;
 
-  /// No description provided for @tcaMilestone30Title.
+  /// Title for the tca recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
   /// **'A month after stopping'**
   String get tcaMilestone30Title;
 
-  /// No description provided for @tcaMilestone30Description.
+  /// Description for the tca recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
   /// **'Thirty days since your TCA taper. Some people are past the acute symptoms; others need more time and care.'**
   String get tcaMilestone30Description;
 
-  /// No description provided for @tcaMilestone90Title.
+  /// Title for the tca recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three months on'**
   String get tcaMilestone90Title;
 
-  /// No description provided for @tcaMilestone90Description.
+  /// Description for the tca recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three months. That\'s a substantial stretch after discontinuation, even if mood, sleep or other symptoms still need attention.'**
   String get tcaMilestone90Description;
 
-  /// No description provided for @tcaMilestone180Title.
+  /// Title for the tca recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
   /// **'Six months, looking after you'**
   String get tcaMilestone180Title;
 
-  /// No description provided for @tcaMilestone180Description.
+  /// Description for the tca recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
   /// **'Half a year after stopping. Studies across antidepressants find many people remain well, but relapse is possible. Keep your support in place.'**
   String get tcaMilestone180Description;
 
-  /// No description provided for @tcaMilestone365Title.
+  /// Title for the tca recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
   /// **'A year since the taper'**
   String get tcaMilestone365Title;
 
-  /// No description provided for @tcaMilestone365Description.
+  /// Description for the tca recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
   /// **'A full year. Research across antidepressants shows some people stay well after stopping and others relapse. If you\'re doing well, take the win.'**
   String get tcaMilestone365Description;
 
-  /// No description provided for @tcaMilestone730Title.
+  /// Title for the tca recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two years'**
   String get tcaMilestone730Title;
 
-  /// No description provided for @tcaMilestone730Description.
+  /// Description for the tca recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two years since stopping your TCA. How you\'re feeling matters more than the date.'**
   String get tcaMilestone730Description;
 
-  /// No description provided for @tcaReferenceDay730.
+  /// Source for the tca recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two Years After TCAs: Sustained Progress\n\nSource: NICE NG222 — Depression in adults: treatment and management\n\nNICE states that withdrawal symptoms can occur with tricyclic antidepressants (TCAs), that experiences vary between people, and that dose reduction should be gradual and individually paced. Difficult withdrawal can last longer than the usual early window.\n\nNICE does not define a two-year biological recovery threshold after stopping a TCA. This anniversary celebrates two years of sustained progress without assigning a universal finish line to recovery.'**
   String get tcaReferenceDay730;
 
-  /// No description provided for @tcaMilestone1095Title.
+  /// Title for the tca recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three years, still going'**
   String get tcaMilestone1095Title;
 
-  /// No description provided for @tcaMilestone1095Description.
+  /// Description for the tca recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three years. Whatever support and treatment decisions have helped, they\'ve got you this far.'**
   String get tcaMilestone1095Description;
 
-  /// No description provided for @tcaReferenceDay1095.
+  /// Source for the tca recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three Years After TCAs: Progress That Holds\n\nSource: NICE NG222 — Depression in adults: treatment and management\n\nNICE recommends that antidepressant withdrawal be tailored to the person, taking account of the medicine, treatment duration, symptoms, and response to each dose reduction. TCAs are explicitly among the antidepressants that can cause withdrawal symptoms.\n\nThe guideline does not identify three years as a universal TCA recovery deadline. This milestone recognises the stability, routines, and progress maintained across three years.'**
   String get tcaReferenceDay1095;
 
-  /// No description provided for @tcaMilestone1460Title.
+  /// Title for the tca recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four years, your pace'**
   String get tcaMilestone1460Title;
 
-  /// No description provided for @tcaMilestone1460Description.
+  /// Description for the tca recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four years after the taper. Recovery takes different amounts of time for different people. Keep using the care that helps you stay well.'**
   String get tcaMilestone1460Description;
 
-  /// No description provided for @tcaReferenceDay1460.
+  /// Source for the tca recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four Years After TCAs: Long-Term Progress\n\nSource: NICE NG222 — Depression in adults: treatment and management\n\nNICE describes antidepressant withdrawal as variable rather than governed by one fixed timetable. It recommends gradual dose reductions and adjusting the pace to the individual\'s symptoms and circumstances.\n\nThere is no evidence-based four-year biological threshold in the guideline. Four years is still a meaningful marker of long-term progress and of the ground held over time.'**
   String get tcaReferenceDay1460;
 
-  /// No description provided for @tcaMilestone1825Title.
+  /// Title for the tca recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Five years'**
   String get tcaMilestone1825Title;
 
-  /// No description provided for @tcaMilestone1825Description.
+  /// Description for the tca recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Half a decade since stopping your TCA. If this remains the right treatment decision for you, five years is a major anniversary.'**
   String get tcaMilestone1825Description;
 
-  /// No description provided for @tcaReferenceDay1825.
+  /// Source for the tca recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Five Years After TCAs: A Major Anniversary\n\nSource: NICE NG222 — Depression in adults: treatment and management\n\nNICE guidance focuses on safe, individualised withdrawal and monitoring rather than assigning one recovery schedule to everyone who stops an antidepressant. TCAs are among the medicines covered by that guidance.\n\nThe evidence does not create a five-year TCA recovery threshold. Five years remains a major personal anniversary and a strong marker of sustained change.'**
   String get tcaReferenceDay1825;
 
-  /// No description provided for @settingsShowTcaTracking.
+  /// Settings show tca tracking.
   ///
   /// In en, this message translates to:
   /// **'Show TCA tracking'**
   String get settingsShowTcaTracking;
 
-  /// No description provided for @settingsNotifyTca.
+  /// Settings notify tca.
   ///
   /// In en, this message translates to:
   /// **'Notify TCA quitting progress'**
@@ -5262,127 +5286,127 @@ abstract class AppLocalizations {
   /// **'MAOIs'**
   String get addictionMaoi;
 
-  /// No description provided for @maoiPageTitle.
+  /// Title of the maoi recovery page.
   ///
   /// In en, this message translates to:
   /// **'MAOI Recovery'**
   String get maoiPageTitle;
 
-  /// No description provided for @maoiHeaderStarted.
+  /// Heading shown after maoi tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Your Recovery Journey'**
   String get maoiHeaderStarted;
 
-  /// No description provided for @maoiHeaderNotStarted.
+  /// Heading shown before maoi tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Benefits of Tapering Off MAOIs'**
   String get maoiHeaderNotStarted;
 
-  /// No description provided for @maoiSubtitleStarted.
+  /// Subtitle shown after maoi tracking starts.
   ///
   /// In en, this message translates to:
   /// **'Track your progress and celebrate each milestone'**
   String get maoiSubtitleStarted;
 
-  /// No description provided for @maoiSubtitleNotStarted.
+  /// Subtitle shown before maoi tracking starts.
   ///
   /// In en, this message translates to:
   /// **'See what happens when you taper off'**
   String get maoiSubtitleNotStarted;
 
-  /// No description provided for @maoiMilestone3Title.
+  /// Title for the maoi recovery milestone at 3 days.
   ///
   /// In en, this message translates to:
   /// **'Day three: medical support'**
   String get maoiMilestone3Title;
 
-  /// No description provided for @maoiMilestone3Description.
+  /// Description for the maoi recovery milestone at 3 days.
   ///
   /// In en, this message translates to:
   /// **'MAOI discontinuation can be serious. Agitation, confusion, fever or unusual muscle jerks need urgent medical attention. Follow a prescriber-led plan.'**
   String get maoiMilestone3Description;
 
-  /// No description provided for @maoiMilestone7Title.
+  /// Title for the maoi recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'One week, still cautious'**
   String get maoiMilestone7Title;
 
-  /// No description provided for @maoiMilestone7Description.
+  /// Description for the maoi recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'Seven days after stopping. MAO enzyme activity is recovering, but drug interactions and withdrawal risks may still matter. Stick with medical advice.'**
   String get maoiMilestone7Description;
 
-  /// No description provided for @maoiMilestone14Title.
+  /// Title for the maoi recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Two weeks: check the plan'**
   String get maoiMilestone14Title;
 
-  /// No description provided for @maoiMilestone14Description.
+  /// Description for the maoi recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Around two weeks is an important point for many irreversible MAOIs, but interaction precautions depend on the drug. Only change food or medicine restrictions with your prescriber.'**
   String get maoiMilestone14Description;
 
-  /// No description provided for @maoiMilestone30Title.
+  /// Title for the maoi recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
   /// **'A month after stopping'**
   String get maoiMilestone30Title;
 
-  /// No description provided for @maoiMilestone30Description.
+  /// Description for the maoi recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
   /// **'Thirty days since stopping your MAOI. The early interaction window may have passed, but mood and withdrawal symptoms still deserve attention.'**
   String get maoiMilestone30Description;
 
-  /// No description provided for @maoiMilestone90Title.
+  /// Title for the maoi recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three months, check in'**
   String get maoiMilestone90Title;
 
-  /// No description provided for @maoiMilestone90Description.
+  /// Description for the maoi recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three months since stopping. Check how you\'re sleeping, coping and feeling, and get support where you need it.'**
   String get maoiMilestone90Description;
 
-  /// No description provided for @maoiMilestone180Title.
+  /// Title for the maoi recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
   /// **'Half a year on'**
   String get maoiMilestone180Title;
 
-  /// No description provided for @maoiMilestone180Description.
+  /// Description for the maoi recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
   /// **'Six months after your MAOI taper. That\'s a substantial stretch of managing treatment and wellbeing. Keep using whatever support works.'**
   String get maoiMilestone180Description;
 
-  /// No description provided for @maoiMilestone365Title.
+  /// Title for the maoi recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
   /// **'One year after the taper'**
   String get maoiMilestone365Title;
 
-  /// No description provided for @maoiMilestone365Description.
+  /// Description for the maoi recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
   /// **'A full year since stopping. If you\'re doing well, that\'s significant. Keep your mental-health care and follow-up on your own terms.'**
   String get maoiMilestone365Description;
 
-  /// No description provided for @settingsShowMaoiTracking.
+  /// Settings show maoi tracking.
   ///
   /// In en, this message translates to:
   /// **'Show MAOI tracking'**
   String get settingsShowMaoiTracking;
 
-  /// No description provided for @settingsNotifyMaoi.
+  /// Settings notify maoi.
   ///
   /// In en, this message translates to:
   /// **'Notify MAOI quitting progress'**
@@ -5406,85 +5430,85 @@ abstract class AppLocalizations {
   /// **'{days} days clean — {message}'**
   String notificationProgressBody(int days, String message);
 
-  /// No description provided for @notificationProgressMessage1.
+  /// Notification progress message 1.
   ///
   /// In en, this message translates to:
   /// **'Keep up the amazing work!'**
   String get notificationProgressMessage1;
 
-  /// No description provided for @notificationProgressMessage2.
+  /// Notification progress message 2.
   ///
   /// In en, this message translates to:
   /// **'You\'re doing great!'**
   String get notificationProgressMessage2;
 
-  /// No description provided for @notificationProgressMessage3.
+  /// Notification progress message 3.
   ///
   /// In en, this message translates to:
   /// **'Incredible dedication!'**
   String get notificationProgressMessage3;
 
-  /// No description provided for @notificationProgressMessage4.
+  /// Notification progress message 4.
   ///
   /// In en, this message translates to:
   /// **'Celebrating your strength!'**
   String get notificationProgressMessage4;
 
-  /// No description provided for @notificationProgressMessage5.
+  /// Notification progress message 5.
   ///
   /// In en, this message translates to:
   /// **'Keep shining!'**
   String get notificationProgressMessage5;
 
-  /// No description provided for @notificationProgressMessage6.
+  /// Notification progress message 6.
   ///
   /// In en, this message translates to:
   /// **'Awesome job!'**
   String get notificationProgressMessage6;
 
-  /// No description provided for @notificationProgressMessage7.
+  /// Notification progress message 7.
   ///
   /// In en, this message translates to:
   /// **'Way to go!'**
   String get notificationProgressMessage7;
 
-  /// No description provided for @notificationProgressMessage8.
+  /// Notification progress message 8.
   ///
   /// In en, this message translates to:
   /// **'You\'re a true champion!'**
   String get notificationProgressMessage8;
 
-  /// No description provided for @notificationProgressMessage9.
+  /// Notification progress message 9.
   ///
   /// In en, this message translates to:
   /// **'Remarkable effort!'**
   String get notificationProgressMessage9;
 
-  /// No description provided for @notificationProgressMessage10.
+  /// Notification progress message 10.
   ///
   /// In en, this message translates to:
   /// **'Stay strong!'**
   String get notificationProgressMessage10;
 
-  /// No description provided for @notificationChannelName.
+  /// Notification channel name.
   ///
   /// In en, this message translates to:
   /// **'Reminders'**
   String get notificationChannelName;
 
-  /// No description provided for @notificationChannelDescription.
+  /// Notification channel description.
   ///
   /// In en, this message translates to:
   /// **'Notifications for daily progress reminders'**
   String get notificationChannelDescription;
 
-  /// No description provided for @notificationOpenAction.
+  /// Notification open action.
   ///
   /// In en, this message translates to:
   /// **'Open notification'**
   String get notificationOpenAction;
 
-  /// No description provided for @done.
+  /// Done.
   ///
   /// In en, this message translates to:
   /// **'Done'**
@@ -5496,871 +5520,871 @@ abstract class AppLocalizations {
   /// **'Rename'**
   String get rename;
 
-  /// No description provided for @adderallReferenceDay1.
+  /// Source for the adderall recovery milestone at 1 day.
   ///
   /// In en, this message translates to:
   /// **'Amphetamine Withdrawal: What Happens Early On\n\nSource: MedlinePlus (U.S. National Library of Medicine)\n\nWhat Are Amphetamines?\nAmphetamines are stimulant drugs that include both illicit substances (like street speed) and prescription medications used to treat ADHD and narcolepsy (such as Adderall and Vyvanse). They sharply increase dopamine and norepinephrine, which can create intense focus, energy, and euphoria. With regular heavy use, the brain adapts to those repeated surges, so stopping can leave mood, energy, and motivation temporarily low.\n\nCommon Withdrawal Symptoms\nMedlinePlus lists these as typical when stopping amphetamines:\n• Strong craving for the drug\n• Mood swings ranging from depressed to agitated to anxious\n• Feeling tired all day\n• Not able to concentrate\n• Hallucinations (seeing or hearing things that are not there)\n• Physical reactions such as headaches, aches and pains, increased appetite, and not sleeping well\n\nIs Withdrawal Dangerous?\nMedlinePlus does not describe amphetamine withdrawal as medically dangerous in itself, but notes that severe symptoms may call for a live-in treatment program, and that mood and emotional problems from amphetamine use — including depression — can be serious and require support.\n\nGetting Help\nMedlinePlus advises contacting your healthcare provider if you or someone you know is addicted to amphetamines and needs help to stop using. If you have thoughts of self-harm, it directs readers to crisis resources such as 988 or 911.'**
   String get adderallReferenceDay1;
 
-  /// No description provided for @adderallReferenceDay3.
+  /// Source for the adderall recovery milestone at 3 days.
   ///
   /// In en, this message translates to:
   /// **'Amphetamine Withdrawal Management: Day 3\n\nSource: \"Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings,\" World Health Organization (2009), on the NCBI Bookshelf\n\nWhere Day 3 Sits\nThe WHO guidelines state that stimulant withdrawal symptoms \'begin within 24 hours of last use of stimulants and last for 3–5 days.\' Day three is squarely inside this acute phase — typically among the hardest days before symptoms begin to settle.\n\nThe Symptoms\nFor amphetamine-type stimulants the guidelines list:\n• Agitation and irritability\n• Depression\n• Increased sleeping and appetite\n• Muscle aches\nHeavy users may also develop psychotic symptoms such as paranoia, disordered thoughts, or hallucinations.\n\nMostly a Psychological Challenge\nUnlike alcohol or opioid withdrawal, stimulant withdrawal does not bring vomiting, tremors, or seizures. The dominant difficulty is psychological — low mood, loss of pleasure, and craving driven by a dopamine-depleted brain.\n\nManagement Approach\nThe WHO guidelines recommend supportive care:\n• Drinking at least 2–3 litres of water per day\n• Multivitamin supplements with B group vitamins and vitamin C\n• Symptomatic medication for aches and anxiety\n• For severe agitation, behavioural strategies first, with diazepam sedation only if needed\n\nBeyond the Acute Phase\nThe guidelines say the hardest withdrawal lasts only a few days, followed by a milder recovery period that can last one to two months.'**
   String get adderallReferenceDay3;
 
-  /// No description provided for @adderallReferenceDay7.
+  /// Source for the adderall recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'One Week Without Adderall: The Worst Is Passing\n\nSource: Li & Shoptaw, \"Clinical Management of Psychostimulant Withdrawal: Review of the Evidence,\" Addiction (2023), on PubMed Central\n\nThe Acute Phase Resolves\nThis evidence review describes psychostimulant withdrawal in phases. In the acute phase, symptoms \'peak after the first 2–3 days,\' and the \'major discomfort from these symptoms usually resolves within 4–7 days.\' By the end of the first week, the hardest part of the crash is behind most people — energy and appetite begin to steady, and sleep starts to regulate.\n\nWhat Comes Next\nThe review says most remaining symptoms continue easing over the next two to three weeks. At day seven, recovery is already well underway.\n\nWhat\'s Still Present at Day 7\nPsychological symptoms typically outlast the physical crash:\n• Low motivation and loss of pleasure\n• Difficulty concentrating\n• Mood that is still below normal\nThese reflect a dopamine system that is readjusting — a normal, temporary part of recovery.\n\nRecovery Signal\nNo FDA-approved medication specifically treats stimulant withdrawal, so supportive care, structure, sleep, nutrition, and psychological support are the mainstays through this phase.'**
   String get adderallReferenceDay7;
 
-  /// No description provided for @adderallReferenceDay14.
+  /// Source for the adderall recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Two Weeks Off Adderall: Into the Longer Recovery Phase\n\nSource: \"Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings,\" World Health Organization (2009), on the NCBI Bookshelf\n\nPast the Acute Phase\nThe WHO puts the hardest stimulant withdrawal at about three to five days, followed by a milder recovery period lasting around one to two months. At two weeks, the crash is well behind you.\n\nWhat the Longer Recovery Phase Feels Like\nThe heavy sleeping, agitation, and muscle aches have largely settled. What remains is usually milder: low or changing mood, reduced motivation, and on-and-off cravings as the brain\'s reward system readjusts.\n\nSleep and Appetite\nThe increased sleeping and appetite of the acute phase are normalising. As sleep steadies, mood, concentration, and energy tend to follow.\n\nRelapse Risk and ADHD\nThis is still a higher-risk period, particularly if underlying ADHD symptoms return without medication. The WHO guidelines emphasise psychological support and relapse-prevention skills; for people who took Adderall for ADHD, this is a good time to discuss non-stimulant strategies or alternatives with a doctor.'**
   String get adderallReferenceDay14;
 
-  /// No description provided for @adderallReferenceDay30.
+  /// Source for the adderall recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
   /// **'One Month Off Adderall: Most Symptoms Behind You\n\nSource: Li & Shoptaw, \"Clinical Management of Psychostimulant Withdrawal: Review of the Evidence,\" Addiction (2023), on PubMed Central\n\nWhere One Month Sits\nThe review finds that most withdrawal symptoms fade over the first two to three weeks. By 30 days, the bulk of them have eased and mood and motivation are usually much better than in the first week.\n\nThe Later Recovery Phase\nFrom one to six months, memory, planning, focus, and decision-making continue to improve. At one month, the crash is over and those gains are already underway.\n\nMood and Motivation\nThe deep loss of pleasure from the crash has largely lifted by now. Activities that felt joyless in the first week start to feel rewarding again as natural dopamine signalling recovers.\n\nFor People With ADHD\nIf Adderall was prescribed for ADHD, underlying symptoms may be more noticeable now. Working with a healthcare provider on non-stimulant strategies or alternatives is important during this stage.'**
   String get adderallReferenceDay30;
 
-  /// No description provided for @adderallReferenceDay60.
+  /// Source for the adderall recovery milestone at 60 days.
   ///
   /// In en, this message translates to:
   /// **'Two Months Off Adderall: The Longer Recovery Phase Winds Down\n\nSource: \"Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings,\" World Health Organization (2009), on the NCBI Bookshelf\n\nWhere Two Months Sits\nThe WHO describes a milder recovery period lasting around one to two months after the initial crash. At 60 days, you are at the far end of that window and lingering symptoms are largely resolving.\n\nWhat Improves\nThe agitation, depressed mood, and disturbed sleep and appetite the guidelines list for stimulant withdrawal have, for most people, settled substantially:\n• Usual mood is steadier, with fewer of the swings of early recovery\n• Sleep and appetite have normalised\n• The reward system responds more readily to everyday pleasures — food, exercise, connection\n\nRecovery Signal\nHigher doses and longer use can make recovery take longer, while staying abstinent keeps mood, motivation, and clear thinking moving toward normal over the following months.\n\nPhysical Health\nThe stimulant effects on heart rate, appetite, and weight ease as the drug clears from daily life, and cardiovascular strain from stimulant use is relieved.'**
   String get adderallReferenceDay60;
 
-  /// No description provided for @adderallReferenceDay90.
+  /// Source for the adderall recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three Months Off Adderall: Through the Worst, Still Healing\n\nSource: Li & Shoptaw, \"Clinical Management of Psychostimulant Withdrawal: Review of the Evidence,\" Addiction (2023), on PubMed Central\n\nWhere 90 Days Sits\nAt three months, the early symptoms are long gone while memory, planning, focus, decision-making, and the reward system continue to improve.\n\nThinking and Memory Keep Recovering\nThe review finds that memory, planning, focus, and risk decisions can keep improving for months. At 90 days, concentration and memory are still moving in the right direction with continued abstinence.\n\nWhy This Window Still Matters\nNo FDA-approved medication specifically targets stimulant withdrawal, so structure, therapy, exercise, sleep, and support are the tools that carry recovery through this phase. Building those habits now is what carries recovery forward.\n\nThe Bigger Picture\nThree months is a real achievement — the hardest physical and emotional stretches are behind you, and the trajectory from here, with continued abstinence, is one of steady improvement.'**
   String get adderallReferenceDay90;
 
-  /// No description provided for @adderallReferenceDay180.
+  /// Source for the adderall recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
   /// **'Six Months Off Adderall: Well Past the Hard Part\n\nSource: \"Withdrawal Syndromes,\" StatPearls (NCBI Bookshelf), U.S. National Library of Medicine\n\nWhat StatPearls Says About Stimulants\nThis clinical reference describes stimulant recovery as a crash followed by gradual improvement. Common problems include depression, sleeping a lot, increased hunger, low mood, and slower movement and thinking. Depression can last several weeks, with milder recovery continuing beyond that.\n\nWhere Six Months Sits\nAt six months you are far past both the acute period and the several-weeks depressive phase StatPearls describes. The slow recovery it refers to has had substantial time to progress, and for most people usual mood, sleep, appetite, and motivation are steady and reliable by now.\n\nRecovery Signal\nStatPearls describes a gradual recovery beyond the initial weeks. By six months, the acute crash and the several-week depressive phase are far behind you, with stable mood, sleep, appetite, and motivation now the dominant pattern.\n\nRelationship to ADHD\nFor people who took Adderall for ADHD, six months of abstinence is a good point for a clear-headed review with a doctor of current symptoms and whether non-stimulant approaches — exercise, sleep, structure, therapy, or alternative medication — are meeting your needs.'**
   String get adderallReferenceDay180;
 
-  /// No description provided for @adderallReferenceDay365.
+  /// Source for the adderall recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
   /// **'One Year Off Adderall: Substantial Recovery, Honestly Framed\n\nSource: Berman et al., \"Potential Adverse Effects of Amphetamine Treatment on Brain and Behavior: A Review,\" Molecular Psychiatry (2008), on PubMed Central\n\nAbout This Review\nThis review tracks what high-dose or long-term amphetamine exposure can do to the brain and documents measurable recovery during abstinence.\n\nWhat It Says About Recovery\nThe review documents recovery in brain blood flow and in the proteins that recycle dopamine after long-term abstinence. Some brain areas recover faster than others, but the overall direction is clear: the brain heals after use stops.\n\nLong-Term Recovery\nThe review documents measurable recovery in brain blood flow and dopamine recycling after long-term abstinence. At one year, those brain systems have had a full year to rebuild.\n\nWhat This Means at One Year\nFor most people — particularly those who took Adderall at prescribed doses — a year off means reward, attention, and motivation systems are working well day to day. Heavier or longer use can take more time, but recovery continues. Relapse risk is much lower than in early recovery.'**
   String get adderallReferenceDay365;
 
-  /// No description provided for @alcoholReferenceDay1.
+  /// Source for the alcohol recovery milestone at 1 day.
   ///
   /// In en, this message translates to:
   /// **'What Happens to Your Sleep When You Stop Drinking?\n\nSource: \"Alcohol and the Sleeping Brain\" (Colrain, Nicholas & Baker), Handbook of Clinical Neurology — peer-reviewed, NIH-hosted\n\nAlcohol and Sleep Architecture\nAlcohol is sedating, so it shortens the time it takes to fall asleep and increases deep slow-wave sleep in the first half of the night. But it comes at a cost: alcohol suppresses REM (rapid eye movement) sleep — the restorative stage tied to memory consolidation and emotional regulation — and fragments sleep in the second half of the night as it is metabolised.\n\nThe First Night Off Alcohol\nBecause alcohol suppresses REM dream sleep, the first nights without it often bring a REM rebound: vivid dreams and lighter, broken sleep while normal sleep patterns return. This is a normal, temporary part of recovery.\n\nRecovery Begins\nAs the brain readjusts over the following days and weeks, REM and overall sleep quality improve. Sleep disturbance is one of the most persistent withdrawal-related symptoms, but it trends toward normal with sustained abstinence.\n\nA Note on Heavy Drinking\nFor heavy or long-term daily drinkers, the first 24 hours can also bring withdrawal symptoms (anxiety, sweating, tremor, nausea). Severe withdrawal can be dangerous — if you have been drinking heavily every day, talk to a doctor before stopping abruptly.'**
   String get alcoholReferenceDay1;
 
-  /// No description provided for @alcoholReferenceDay3.
+  /// Source for the alcohol recovery milestone at 3 days.
   ///
   /// In en, this message translates to:
   /// **'Day Three: The Withdrawal Peak Window\n\nSource: \"Alcohol Withdrawal,\" StatPearls — peer-reviewed, NIH National Library of Medicine\n\nAround 72 Hours\nAlcohol withdrawal symptoms can begin within hours and often peak around 72 hours. StatPearls lists tremor, insomnia, agitation, sweating, high blood pressure, fast heart rate, and seizures among the signs of this hyperexcitable state.\n\nThree Days Strong\nReaching 72 hours is a huge milestone because it sits right on the documented peak window for many acute symptoms. The nervous system is reacting to the sudden loss of alcohol\'s inhibitory GABA effect while excess glutamate drives autonomic overactivity.\n\nSevere Withdrawal Can Arrive Later\nAlcohol-withdrawal delirium (delirium tremens) can occur 3–8 days after cessation and can be fatal. Severe withdrawal is a medical emergency. Heavy daily drinkers, and anyone with a history of withdrawal seizures or delirium, should get medical advice rather than stopping abruptly without support.\n\nWhat to Watch For\nFever, severe agitation, heavy sweating, hallucinations, disorientation, seizures, very fast heart rate, or very high blood pressure need urgent medical attention.'**
   String get alcoholReferenceDay3;
 
-  /// No description provided for @alcoholReferenceDay7.
+  /// Source for the alcohol recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'How the Immune System Recovers\n\nSource: \"Alcohol and the Immune System\" (Sarkar, Jung & Wang), Alcohol Research: Current Reviews — peer-reviewed, NIH-hosted\n\nHow Alcohol Weakens Immunity\nAlcohol weakens the immune system in several ways. Even one heavy drinking session can reduce infection-fighting ability for up to 24 hours. Long-term use reduces white blood cells, disrupts immune signals, and damages gut and lung defences, increasing the risk of infections and slow wound healing.\n\nRemoving the Insult\nMany of these effects improve once alcohol is gone. White blood cells and immune signalling begin to recover, while the gut and airway defences start repairing. Within the first week, your immune system is no longer being knocked down daily and resistance to common infections begins to improve.\n\nA Gradual Process\nFull immune recovery takes longer than a week, and the degree of repair depends on how heavy and prolonged the drinking was — but the first week off alcohol is where the rebuilding begins.'**
   String get alcoholReferenceDay7;
 
-  /// No description provided for @alcoholReferenceDay14.
+  /// Source for the alcohol recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Early Brain Recovery in Abstinence\n\nSource: Bartsch AJ et al., \"Manifestations of early brain recovery associated with abstinence from alcoholism,\" Brain (2007) — peer-reviewed\n\nMeasuring Recovery\nThis study used MRI to follow recently detoxified people with alcohol dependence through the first weeks of abstinence, comparing them with healthy controls. It captured the brain physically rebuilding once drinking stopped.\n\nBrain Volume Rebounds\nChronic alcohol use shrinks the brain — partly through reversible reduction in cell size, not only permanent cell loss. With abstinence, the researchers measured an average global brain-volume gain of nearly 2%, concentrated around the cerebellum, midbrain, ventricles and frontal regions. Much of this regrowth happens early, in the first couple of weeks off alcohol.\n\nCerebellum and Attention\nRecovery was especially clear in brain areas used for movement and attention. A marker of brain-cell health rose alongside measurable improvements in attention, so the physical healing came with real gains in thinking.\n\nA Foundation, Not the Finish\nHigher functions such as complex reasoning recover more gradually, but the first two weeks establish that the brain begins healing quickly once alcohol is removed.'**
   String get alcoholReferenceDay14;
 
-  /// No description provided for @alcoholReferenceDay30.
+  /// Source for the alcohol recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
   /// **'Blood Pressure Falls When You Cut Out Alcohol\n\nSource: Roerecke et al., \"The effect of a reduction in alcohol consumption on blood pressure: a systematic review and meta-analysis,\" Lancet Public Health (2017) — peer-reviewed\n\nThe Evidence\nThis meta-analysis pooled 36 randomised trials (about 2,865 participants) testing what happens to blood pressure when people drink less. It found a clear, dose-dependent effect: the more someone cut back, the more their blood pressure dropped.\n\nHow Big Is the Effect?\nPeople who drank two or fewer drinks a day saw no significant blood-pressure change from cutting back. Above that threshold, the effect was dose-dependent: it was strongest in people drinking six or more drinks a day who cut their intake by about half, where systolic blood pressure fell by about 5.5 mmHg and diastolic by about 4.0 mmHg on average. A reduction of that size is clinically meaningful — comparable to some blood-pressure medications and enough to lower long-term stroke and heart-disease risk.\n\nWhy One Month Matters\nAlcohol raises blood pressure by activating the stress response, raising cortisol and stiffening blood vessels. The trials in this review show the benefit emerges over weeks of sustained reduction — so by around a month of abstinence, a heavier drinker\'s blood pressure has had time to settle toward a healthier level.\n\nA Threshold Effect\nThe review found a clear threshold: benefit was concentrated in people drinking more than two drinks a day, and grew progressively larger the heavier the prior drinking. If you were a lighter drinker, don\'t expect this specific blood-pressure benefit — but heavier drinkers get a real, measurable cardiovascular payoff from stopping.'**
   String get alcoholReferenceDay30;
 
-  /// No description provided for @alcoholReferenceDay60.
+  /// Source for the alcohol recovery milestone at 60 days.
   ///
   /// In en, this message translates to:
   /// **'Liver Recovery After You Stop Drinking\n\nSource: National Institute on Alcohol Abuse and Alcoholism (NIAAA), \"Alcohol\'s Effects on the Body\"\n\nHow Alcohol Damages the Liver\nThe liver processes most of the alcohol you drink, and it takes the brunt of the damage. NIAAA describes a progression of alcohol-related liver injury: it begins with fatty liver (steatosis — fat building up in liver cells), can advance to alcoholic hepatitis (inflammation), and with prolonged heavy use to fibrosis and cirrhosis (scarring).\n\nThe Earlier Stages Are Reversible\nThe crucial point is that the liver is highly regenerative, and the early stages of this damage can improve when drinking stops. Fatty liver in particular often resolves with sustained abstinence. By around two months alcohol-free, the liver has had real time to clear fat deposits, calm inflammation, and restore healthier function — typically reflected in falling liver-enzyme levels (ALT and AST).\n\nBeyond the Liver\nNIAAA notes alcohol also strains the heart, pancreas and immune system. Giving the body a sustained break from alcohol lets these systems recover too — contributing to the steadier energy and better overall health many people notice by this stage.'**
   String get alcoholReferenceDay60;
 
-  /// No description provided for @alcoholReferenceDay90.
+  /// Source for the alcohol recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Thinking and Memory After Three Months Sober\n\nSource: Systematic review of neuropsychological recovery following abstinence from alcohol (PubMed Central, 2024) — peer-reviewed\n\nWhat the Evidence Shows\nThis review combined studies that tracked how thinking and memory recover after people stop drinking. Most skills move toward normal within roughly six to twelve months, and some improve earlier.\n\nWhat Improves First\nTwo specific abilities stand out as recovering earlier than the rest: basic processing speed (the review found this typically recovers by about one month, though accuracy on more complex tasks lags behind) and working memory updating. By around the three-month mark, many people already notice these lifting.\n\nWhat Takes Longer\nAttention, planning, decision-making, impulse control, perception, and memory keep improving across the six-to-twelve-month recovery window.\n\nWhat Influences Recovery\nThe review notes recovery is shaped by factors such as age, smoking status and premorbid ability — but, encouragingly, not consistently by the total amount previously drunk. Recovery is the expected trajectory.\n\nWhy It Matters\nClearer thinking is practical recovery: better attention and decision-making help people stay in treatment and avoid relapse.'**
   String get alcoholReferenceDay90;
 
-  /// No description provided for @alcoholReferenceDay180.
+  /// Source for the alcohol recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
   /// **'Brain Recovery at Six Months of Sobriety\n\nSource: Peer-reviewed review of structural and functional brain recovery during abstinence from substance use (PubMed Central)\n\nRecovery Keeps Going\nThe early brain-volume rebound of the first weeks is only the beginning. This review documents that with sustained abstinence the brain continues to recover structurally and functionally — grey matter recovers and damaged white-matter pathways that coordinate communication between brain regions repair over months.\n\nThe Front of the Brain\nRecovery is especially important in the front of the brain, which handles judgment, planning, and self-control. As it heals, decision-making and impulse control strengthen.\n\nBrain Rewiring and Function\nAlongside physical repair, brain function and connections recover too. The brain can rewire and relearn, which makes sustained abstinence a powerful time for therapy and new habits.\n\nRecovery Signal\nBy six months, brain structure and function are clearly moving toward a healthier normal. Staying abstinent gives that recovery more time to build.'**
   String get alcoholReferenceDay180;
 
-  /// No description provided for @alcoholReferenceDay365.
+  /// Source for the alcohol recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
   /// **'Alcohol and Cancer\n\nAlcohol is classified as a human carcinogen. It causes DNA damage through acetaldehyde, increases oxidative stress and inflammation, and alters hormone levels.\n\nThe International Agency for Research on Cancer reviewed the evidence and established that reducing or stopping alcohol lowers the risk of oral and oesophageal cancers.\n\nStopping drinking eliminates continued exposure to alcohol\'s cancer-causing effects. Cancer risk declines over the years following cessation.'**
   String get alcoholReferenceDay365;
 
-  /// No description provided for @benzodiazepineReferenceDay7.
+  /// Source for the benzodiazepine recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'Benzodiazepine Withdrawal: The First Week\n\nSource: \"Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings,\" World Health Organization (2009), on the NCBI Bookshelf\n\nSafety First\nBenzodiazepine withdrawal can cause seizures. WHO guidance says the safest management is benzodiazepines in gradually decreasing amounts, which relieves withdrawal symptoms and helps prevent seizures. After prolonged use, do not stop abruptly — work with a clinician on a taper.\n\nWhen Withdrawal Begins\nThe WHO timeline depends on the drug\'s duration of action:\n• Short-acting (oxazepam, alprazolam, temazepam): withdrawal typically begins 1–2 days after the last dose and continues for 2–4 weeks or longer\n• Long-acting (diazepam, nitrazepam): withdrawal typically begins 2–7 days after the last dose and continues for 2–8 weeks or longer\nThe first week spans the typical onset window even for long-acting benzodiazepines.\n\nWhat Symptoms Can Look Like\nWHO lists anxiety, insomnia, restlessness, agitation or irritability, poor concentration or memory, and muscle tension or aches.\n\nMonitoring\nWithdrawal severity can fluctuate markedly. WHO recommends regular monitoring for symptoms and complications; in its closed-setting protocol, healthcare workers speak with patients every 3–4 hours and provide reassurance and explanation as needed.'**
   String get benzodiazepineReferenceDay7;
 
-  /// No description provided for @benzodiazepineReferenceDay14.
+  /// Source for the benzodiazepine recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Benzodiazepine Withdrawal: Two Weeks\n\nSource: Poyares et al., \"Chronic benzodiazepine usage and withdrawal in insomnia patients,\" Journal of Psychiatric Research (2004), on PubMed\n\nA Real Two-Week Sleep Recovery Signal\nResearchers followed people with persistent insomnia who had taken benzodiazepines nightly for years and measured sleep again 15 days after gradual withdrawal. Slow-wave sleep, sleep EEG delta activity, and subjective sleep quality all improved compared with measurements during chronic benzodiazepine use.\n\nDeep Sleep Is Coming Back\nSlow-wave sleep is the deepest stage of non-REM sleep. By day 15, slow-wave sleep and delta activity were higher, while stage 2 non-REM sleep had fallen toward the pattern seen in healthy controls.\n\nEarly Recovery, Measured\nSleep worsened immediately after withdrawal for the participants who completed it, then objective deep-sleep measures and reported sleep quality improved by the 15-day follow-up. That makes the two-week mark a genuine, measured recovery milestone.'**
   String get benzodiazepineReferenceDay14;
 
-  /// No description provided for @benzodiazepineReferenceDay60.
+  /// Source for the benzodiazepine recovery milestone at 60 days.
   ///
   /// In en, this message translates to:
   /// **'Benzodiazepines: Daytime Function at Eight Weeks\n\nSource: Tsunoda et al., \"Effects of discontinuing benzodiazepine-derivative hypnotics on postural sway and cognitive functions in the elderly,\" International Journal of Geriatric Psychiatry (2010), on PubMed\n\nA Measured Eight-Week Recovery Signal\nResearchers followed adults aged 60 and older living in a nursing home who used benzodiazepine hypnotics. Their dose was tapered off over three weeks, with cognitive and balance testing repeated at the eight-week endpoint.\n\nFocus and Memory Moved Up\nAmong 26 completers, immediate memory, attention, and language index scores improved significantly. These are concrete daytime-function gains measured after benzodiazepine discontinuation.\n\nSteadier on Your Feet\nMeasures of postural sway with eyes closed improved significantly too. The authors concluded that discontinuing benzodiazepine hypnotics was associated with better body stability and recovery of daytime cognitive function in this older group.\n\nSleep Held Steady\nCompleters did not report subjective worsening of sleep on the study\'s sleep questionnaire. At the eight-week endpoint, the study captured measurable daytime gains without a reported sleep-quality penalty.'**
   String get benzodiazepineReferenceDay60;
 
-  /// No description provided for @benzodiazepineReferenceDay90.
+  /// Source for the benzodiazepine recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three Months After Benzodiazepines: Faster Thinking, Less Sedation\n\nSource: Rickels et al., \"Psychomotor performance of long-term benzodiazepine users before, during, and after benzodiazepine discontinuation,\" Journal of Clinical Psychopharmacology (1999), on PubMed\n\nA Measured 12-Week Recovery Signal\nResearchers tested long-term benzodiazepine users before tapering and again 5 and 12 weeks after tapering. Seventy-seven people had 12-week data, and successful taperers had benzodiazepine-free status confirmed with weekly blood tests.\n\nFaster Cognitive Performance\nPeople who successfully tapered off benzodiazepines completed symbol-copying and digit-symbol substitution tasks faster than participants still taking benzodiazepines. The difference was significant after accounting for age, education, and baseline test scores.\n\nLess Mental & Physical Sedation\nSuccessful taperers also reported lower mental and physical sedation than people still taking benzodiazepines.\n\nWhat Three Months Can Look Like\nFor successful taperers in this study, 12 weeks after tapering brought measurable gains in processing speed and less mental and physical sedation. Thinking moved faster, and the sedated feeling eased.'**
   String get benzodiazepineReferenceDay90;
 
-  /// No description provided for @benzodiazepineReferenceDay180.
+  /// Source for the benzodiazepine recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
   /// **'Thinking and Memory at Six Months: Measurable Gains\n\nSource: Tata et al., \"Lack of cognitive recovery following withdrawal from long-term benzodiazepine use,\" Psychological Medicine (1994), on PubMed\n\nWhat the Study Did\nThis study tested 21 long-term benzodiazepine patients before withdrawal, just after withdrawal, and again at six months of abstinence, comparing them with matched controls. It is one of the most candid data points in the benzo recovery literature.\n\nWhat It Found\nBefore stopping, patients had problems with verbal learning, memory, movement speed, visual coordination, and visual reasoning. Right after stopping there was little change. By six months, several of those areas had measurably improved.\n\nWhat This Means\nBy six months, verbal learning, memory, movement speed, and visual coordination were measurably recovering. The improvement was already clear and had room to continue.\n\nThe Bigger Picture\nIf you feel foggy at six months, this research says: that is expected, and continued abstinence is the path forward. Longer-term studies show recovery continues well beyond this point — the brain keeps healing.'**
   String get benzodiazepineReferenceDay180;
 
-  /// No description provided for @benzodiazepineReferenceDay365.
+  /// Source for the benzodiazepine recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
   /// **'One Year After Benzodiazepines: Thinking and Memory Keep Recovering\n\nSource: Barker et al., \"Persistence of cognitive effects after withdrawal from long-term benzodiazepine use: a meta-analysis,\" Archives of Clinical Neuropsychology (2004), on PubMed\n\nThe Strongest Evidence We Have\nResearchers combined studies that re-tested long-term benzodiazepine users after at least six months off the drug. The combined result shows clear recovery in thinking and memory after withdrawal.\n\nThe Good News\nThe combined studies found genuine, measurable improvement in several areas of thinking and memory after withdrawal. Around one year, the recovery is broad and obvious compared with active use.\n\nRecovery Continues\nThe combined studies found broad recovery in thinking and memory. By one year, you are well along a recovery trend that was already measurable at six months.\n\nWhat This Means at One Year\nExpect substantial recovery in thinking, memory, and clarity by a year — most people feel markedly sharper than during use. But if some areas still lag, that is consistent with the evidence, not a sign you have stalled. Recovery continues, and a year of abstinence is a major, worthwhile milestone on that path.'**
   String get benzodiazepineReferenceDay365;
 
-  /// No description provided for @benzodiazepineReferenceDay540.
+  /// Source for the benzodiazepine recovery milestone at 540 days.
   ///
   /// In en, this message translates to:
   /// **'18 Months After Benzodiazepines: Slow but Real Recovery\n\nSource: Ashton, \"Protracted withdrawal syndromes from benzodiazepines,\" Journal of Substance Abuse Treatment (1991), on PubMed\n\nWhy Benzo Recovery Takes So Long\nBenzodiazepines act on GABA, the brain\'s main calming system. Long-term use changes how strongly that system responds, and those changes can take months to reverse. That is why benzo recovery is measured in months rather than weeks.\n\nWhere 18 Months Sits\nAshton describes longer-lasting withdrawal symptoms that can take months to ease. By 18 months, the worst is well behind most people and lingering anxiety, sensory changes, and brain fog have substantially settled.\n\nSlowly Reversible\nCrucially, Ashton frames the underlying changes as \'slowly reversible functional changes in the central nervous system.\' Slow, but reversible — the long timeline reflects the depth of the adaptation benzodiazepines caused, not permanent damage in most people.\n\nRecovery Signal\nAshton describes the underlying changes as slowly reversible. By 18 months, the brain\'s calming GABA system has had a long time to settle and the dominant direction is continued recovery toward normal.'**
   String get benzodiazepineReferenceDay540;
 
-  /// No description provided for @benzodiazepineReferenceDay730.
+  /// Source for the benzodiazepine recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two Years After Benzodiazepines: Major, Lasting Progress\n\nSource: Barker et al., \"Persistence of cognitive effects after withdrawal from long-term benzodiazepine use: a meta-analysis,\" Archives of Clinical Neuropsychology (2004), on PubMed\n\nA Landmark in Recovery\nTwo years is a major milestone, especially after a long withdrawal. The early and lingering symptom phases are long past, and the gains from the first year have had another year to strengthen.\n\nWhat the Evidence Supports\nThe combined studies show recovery in many areas after withdrawal. By two years, most people report anxiety at or below their pre-benzo level, reliable sleep without medication, steadier emotions, and clearer thinking than during use.\n\nRecovery Signal\nThe combined studies establish recovery across many areas of thinking and memory. At two years, sustained recovery is the evidence-backed expectation.\n\nKeeping Perspective\nTwo years gives sleep, mood, memory, and clear thinking a long recovery window. The evidence shows substantial improvement across all four, with healing continuing from here.'**
   String get benzodiazepineReferenceDay730;
 
-  /// No description provided for @benzodiazepineReferenceDay1095.
+  /// Source for the benzodiazepine recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three Years After Benzodiazepines: Long-Term Healing\n\nSource: Barker et al., \"Persistence of cognitive effects after withdrawal from long-term benzodiazepine use: a meta-analysis,\" Archives of Clinical Neuropsychology (2004), on PubMed\n\nThe Long View\nThree years sits at the far end of the benzo recovery timeline. For the great majority of people, even after severe long-lasting withdrawal, disruptive symptoms are well behind them and quality of life is transformed compared with active use.\n\nWhat the Meta-Analysis Found\nCombined studies of long-term users show recovery in many areas after withdrawal. Over years of abstinence, the dominant story is broad recovery in thinking, memory, and day-to-day function.\n\nRecovery Signal\nLong-term research shows recovery across many areas of thinking and memory. By three years, the early and lingering withdrawal phases are far behind you and those gains have had years to strengthen.\n\nA Message of Hope\nThe benzo recovery journey is one of the most demanding in medicine, and three years of sustained healing is a profound achievement. The evidence is clear: the brain heals substantially, most people recover their clarity, sleep, and emotional range, and improvement continues with time.'**
   String get benzodiazepineReferenceDay1095;
 
-  /// No description provided for @benzodiazepineReferenceDay1460.
+  /// Source for the benzodiazepine recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four Years After Benzodiazepines: Sustained Progress\n\nSource: Joint Clinical Practice Guideline on Benzodiazepine Tapering, ASAM-led multidisciplinary guideline (2025)\n\nWhat the Guideline Supports\nThe guideline notes that adjustment after benzodiazepine discontinuation can last well beyond drug elimination. Some people experience protracted withdrawal for months or years, and recovery should be followed and supported individually.\n\nWhat Four Years Means\nThe guideline does not define a universal four-year biological endpoint. This milestone therefore marks something the evidence can support without exaggeration: four years of sustained change, with recovery allowed to follow its own pace.\n\nA Milestone Worth Marking\nFour years is 1,460 days. That is a durable achievement, whether recovery felt smooth, uneven, or somewhere in between.'**
   String get benzodiazepineReferenceDay1460;
 
-  /// No description provided for @benzodiazepineReferenceDay1825.
+  /// Source for the benzodiazepine recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Five Years After Benzodiazepines: Long-Term Achievement\n\nSource: Joint Clinical Practice Guideline on Benzodiazepine Tapering, ASAM-led multidisciplinary guideline (2025)\n\nNo Single Finish Line\nThe guideline emphasizes that benzodiazepine withdrawal and post-discontinuation adjustment vary between people. It does not set a universal five-year point at which the brain or body is declared fully recovered.\n\nWhat Five Years Represents\nFive years is a genuine long-term anniversary: sustained change across 1,825 days, with routines, support, and everyday life having years to take root.\n\nKeep the Credit Where It Belongs\nThis milestone celebrates the work itself, not an invented medical deadline. Five years of sustained progress is substantial on its own.'**
   String get benzodiazepineReferenceDay1825;
 
-  /// No description provided for @cocaineReferenceDay1.
+  /// Source for the cocaine recovery milestone at 1 day.
   ///
   /// In en, this message translates to:
   /// **'Cocaine Withdrawal: The First 24 Hours\n\nSource: \"Withdrawal Syndromes,\" StatPearls (NCBI Bookshelf), U.S. National Library of Medicine\n\nCocaine and the Brain\nCocaine blocks the reuptake of dopamine (and other monoamines) in the brain\'s reward circuits, causing dopamine to accumulate and producing intense euphoria and energy. With regular use the brain adapts by down-regulating this system, so that without the drug, normal activities feel flat.\n\nThe Crash\nStatPearls describes stimulant withdrawal as beginning with a \"crash\" once use stops, characterised by marked depression, excessive sleep, hunger, low mood, and severe slowing of movement and thinking. In the first 24 hours this typically includes:\n• Extreme fatigue and increased need for sleep\n• Depressed mood and slower movement and thinking\n• Increased appetite (cocaine suppresses appetite)\n\nCravings, irritability, and anxiety are also very commonly reported during this window in the broader addiction literature, even though StatPearls doesn\'t itemise them as part of the crash specifically.\n\nUnlike Some Other Drugs\nStatPearls notes that stimulant withdrawal is treated with observation and supportive care; unlike alcohol or benzodiazepine withdrawal, it does not typically cause seizures or delirium. The principal danger is psychological — depression and, in heavy users, suicidal ideation can occur during the crash, so support and monitoring are advisable.\n\nNo Approved Medication\nThere are currently no medications approved to treat cocaine withdrawal; management is supportive, and non-drug approaches such as contingency management are the evidence-based treatments for the underlying use disorder.'**
   String get cocaineReferenceDay1;
 
-  /// No description provided for @cocaineReferenceDay3.
+  /// Source for the cocaine recovery milestone at 3 days.
   ///
   /// In en, this message translates to:
   /// **'Three Days Without Cocaine: Navigating Peak Challenge\n\nSource: \"Cocaine Toxicity,\" StatPearls (NCBI Bookshelf), U.S. National Library of Medicine\n\nHow Cocaine Affects the Body\nStatPearls documents that cocaine blocks the reuptake of dopamine, norepinephrine, and serotonin, prolonging sympathetic stimulation. This is what drives both its euphoria and its danger — it can affect nearly every organ system.\n\nDays 2–4: Peak Psychological Withdrawal\nBy day three the acute crash has given way to the most intense psychological withdrawal:\n• Low mood and depressed mood at their most intense\n• Loss of pleasure\n• Strong, cue-triggered cravings\n• Anxiety and restlessness\n• Disturbed sleep — excessive in some, insomnia in others\n\nThe Cardiovascular Danger Recedes\nStatPearls identifies cardiovascular toxicity as cocaine\'s most lethal effect: raised heart rate and blood pressure, increased myocardial oxygen demand, coronary vasospasm, and platelet activation — driving the risk of arrhythmia, infarction, and stroke, even in young users. Cocaine\'s own half-life is short, about one hour, and by day three the drug itself has fully cleared your system — though StatPearls notes its metabolites can still cause blood vessel constriction for hours after use, and one metabolite may linger for weeks, so some residual cardiovascular strain can outlast the drug itself.\n\nThe Road Ahead\nThe acute phase is intense, but it is the psychological symptoms — depression, cravings, loss of pleasure — that require the most support and that persist longest.'**
   String get cocaineReferenceDay3;
 
-  /// No description provided for @cocaineReferenceDay7.
+  /// Source for the cocaine recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'One Week Without Cocaine: Physical Recovery Begins\n\nSource: \"Withdrawal Syndromes,\" StatPearls (NCBI Bookshelf), U.S. National Library of Medicine\n\nThe Acute Phase Is Ending\nStatPearls describes cocaine withdrawal as moving from the initial crash into a longer recovery phase. By the end of the first week, the worst symptoms are usually easing while the dopamine system continues rebuilding.\n\nPhysical Recovery Underway\nOnce cocaine\'s sympathetic stimulation stops, its cardiovascular, appetite, sleep, and airway effects begin reversing over the following days and weeks:\n• Heart rate and blood pressure moving back toward normal\n• Appetite gradually returning (cocaine strongly suppresses it)\n• Sleep patterns beginning to stabilise\n• Nasal passages starting to heal, if cocaine was snorted\n\nPsychological Symptoms Continue\nStatPearls notes that depression and loss of pleasure are characteristic of stimulant withdrawal and outlast the physical symptoms:\n• Mood remains low, though less severe than at peak\n• Cue-triggered cravings remain strong\n• Concentration and motivation are still impaired\n\nPost-Acute Phase\nWithdrawal then shifts into weeks or months of steadier improvement in mood, cravings, and clear thinking. Knowing that pattern makes the slower part of recovery easier to manage.'**
   String get cocaineReferenceDay7;
 
-  /// No description provided for @cocaineReferenceDay14.
+  /// Source for the cocaine recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Two Weeks Without Cocaine: Finding Stability\n\nSource: \"Withdrawal Syndromes,\" StatPearls (NCBI Bookshelf), U.S. National Library of Medicine\n\nTwo Weeks In\nBy two weeks, the severe crash symptoms — deep depression, sleeping a lot, and slowed movement and thinking — have generally eased. Recovery is now focused on rebuilding brain and emotional health.\n\nMood and Emotional State\nAt two weeks, mood can still be below normal while the dopamine system recovers. Compared with the first week, the deep loss of pleasure is easing and genuine moments of wellbeing are returning.\n\nCravings and Triggers\nCue-triggered cravings are a significant challenge at this stage. The brain has formed strong associations between cocaine use and specific environments, people, emotions, and activities. Encountering any of these triggers can produce intense cravings even when general mood is improving. Avoiding high-risk environments and building new associations is important.\n\nSleep Improvement\nSleep is usually more stable and restorative by two weeks than it was during the acute withdrawal phase. Improved sleep has a significant positive effect on mood, clear thinking, and the ability to manage cravings.\n\nBuilding the Foundation\nBecause the evidence-based treatments for stimulant use disorder are behavioural — contingency management, therapy, and peer support — the two-week mark is an important time to engage with support structures that will underpin long-term recovery.'**
   String get cocaineReferenceDay14;
 
-  /// No description provided for @cocaineReferenceDay60.
+  /// Source for the cocaine recovery milestone at 60 days.
   ///
   /// In en, this message translates to:
   /// **'Two Months Without Cocaine: Mood and Reward Begin to Recover\n\nSource: \"Recovering from Cocaine: Insights from Clinical and Preclinical Investigations,\" Neuroscience & Biobehavioral Reviews (2013), on PubMed Central\n\nWhat the Brain Is Doing\nThis review synthesises human and animal studies of what happens to the brain when cocaine use stops. Chronic cocaine alters the dopamine system and reduces activity in the frontal cortex; recovery of these systems is the substrate for the mood and motivation improvements people notice in early abstinence.\n\nReward System Progress\nIn animal studies, cocaine-related changes in dopamine receptors and recycling proteins moved back toward healthy levels with sustained abstinence. As the reward system recovers, the deep loss of pleasure lifts and everyday rewards — food, connection, accomplishment — feel rewarding again.\n\nRecovery Signal\nBy two months, mood is improving and sleep is steadier while dopamine and frontal-cortex systems continue rebuilding. Primate studies show cocaine-related D1-receptor and transporter changes moving back toward control levels with sustained abstinence.'**
   String get cocaineReferenceDay60;
 
-  /// No description provided for @cocaineReferenceDay90.
+  /// Source for the cocaine recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three Months Without Cocaine: Dopamine Markers Rebound\n\nSource: \"Recovering from Cocaine: Insights from Clinical and Preclinical Investigations,\" Neuroscience & Biobehavioral Reviews (2013), on PubMed Central\n\nWhy 90 Days Is a Landmark\nThis review highlights the three-month point as biologically meaningful. In nonhuman primates, the dopamine D1 receptors and transporters that cocaine had elevated showed \"evidence of a return to control levels\" after roughly 90 days of abstinence — direct evidence that the reward system can readjust once the drug is gone.\n\nThe Front of the Brain\nThe authors highlight recovery in the front of the brain as one of the most important signs of extended abstinence. This area handles impulse control, decision-making, and self-control, and those abilities strengthen as it recovers.\n\nWhat 90 Days Shows\nAt 90 days, primate studies found D1, D2, and dopamine-transporter densities no longer significantly different from non-drug controls. Even after long exposure, substantial dopamine-system recovery is already visible by this point and continues with abstinence.'**
   String get cocaineReferenceDay90;
 
-  /// No description provided for @cocaineReferenceDay180.
+  /// Source for the cocaine recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
   /// **'Six Months Without Cocaine: Clearer Thinking\n\nSource: \"Structural and Functional Brain Recovery in Individuals with Substance Use Disorders During Abstinence: A Review of Longitudinal Neuroimaging Studies,\" on PubMed Central\n\nRecovery You Can Image\nThis review pools longitudinal brain-imaging studies that scan the same people repeatedly as their abstinence lengthens. For cocaine, it reports that functional activity recovers measurably with sustained abstinence.\n\nBrain Imaging Evidence\nTwo functional-MRI studies tracked cocaine users over time and both found improved activation in the midbrain and thalamus with longer abstinence. In one, after about six months of abstinence the brain\'s activation pattern was comparable to that of non-addicted healthy controls. Across substances, the review notes that nuclear-imaging results point to a dopaminergic recovery with abstinence.\n\nWhat This Means at Six Months\nThese functional gains track with the real-world improvements people report by this stage:\n• Better attention and working memory\n• Sharper decision-making and impulse control\n• Steadier mood and emotional regulation\n\nRecovery Signal\nAt about six months, one longitudinal fMRI cohort showed an activation pattern comparable to non-addicted healthy controls, while midbrain and deep-brain activation improved as abstinence lengthened. That is directly imaged functional brain recovery.'**
   String get cocaineReferenceDay180;
 
-  /// No description provided for @cocaineReferenceDay365.
+  /// Source for the cocaine recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
   /// **'One Year Without Cocaine: Cardiovascular Strain Removed\n\nSource: \"Cocaine Toxicity,\" StatPearls (NCBI Bookshelf), U.S. National Library of Medicine\n\nWhy the Heart Is Central\nStatPearls identifies cardiovascular toxicity as cocaine\'s most lethal effect. Each use raises heart rate, blood pressure, and myocardial oxygen demand while causing coronary vasospasm and promoting clot formation — a combination that drives heart attack, arrhythmia, and stroke even in young people.\n\nWhat a Year of Abstinence Removes\nEvery day without cocaine is a day free of these acute insults. Over a year, the repeated surges in blood pressure and heart rate are gone, the risk of cocaine-induced coronary spasm and acute infarction is removed, and the heart is no longer being driven into oxygen mismatch.\n\nRecovery Signal\nStopping cocaine halts the repeated coronary vasospasm, tachycardia, hypertension, clot promotion, and oxygen mismatch that drive acute heart injury. Existing fibrosis or myocarditis remains a medical issue, but the repeated cocaine-triggered insult is gone.\n\nBrain Recovery Too\nBy one year, the reward and self-control systems have had extended time to recover, supporting better impulse control, steadier mood, and a stronger response to everyday rewards.'**
   String get cocaineReferenceDay365;
 
-  /// No description provided for @cocaineReferenceDay730.
+  /// Source for the cocaine recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two Years Without Cocaine: Sustained Recovery\n\nSource: \"Recovering from Cocaine: Insights from Clinical and Preclinical Investigations,\" Neuroscience & Biobehavioral Reviews (2013), on PubMed Central\n\nThe Long View\nThis review draws together what human and animal studies show about extended cocaine abstinence. Its central conclusion is that preservation and recovery of frontal-cortex function is the most important marker of long-term abstinence — long-term abstainers (10+ months) showed higher frontal-cortex activity than shorter-term abstainers.\n\nWhat Continues to Heal\n• Dopamine markers altered by cocaine continue moving toward normal with sustained abstinence\n• Reduced grey- and white-matter integrity seen in active and early-abstinent users may reverse over longer abstinence, possibly through continued myelin maturation\n• Frontal-control circuitry — impulse control, judgement, emotional regulation — strengthens\n\nRecovery Signal\nThe authors raise a genuine scientific caution: some of the difference in long-term abstainers may reflect a \"survivor effect\" — people who began with greater brain integrity may find it easier to stay abstinent — rather than recovery alone. What is clear is that two years cocaine-free supports a brain functioning far closer to a non-user\'s, and a life that is not merely abstinent but substantially rebuilt.'**
   String get cocaineReferenceDay730;
 
-  /// No description provided for @cocaineReferenceDay1095.
+  /// Source for the cocaine recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three Years Without Cocaine: Stronger Foundations\n\nSource: SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSA\'s evidence-based guide explicitly covers cocaine and focuses on practices that support long-term recovery. It does not set a universal three-year biological recovery deadline.\n\nThree years is a durable achievement in its own right. Keep the routines, support, and coping skills that make recovery sustainable.'**
   String get cocaineReferenceDay1095;
 
-  /// No description provided for @cocaineReferenceDay1460.
+  /// Source for the cocaine recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four Years Without Cocaine: Lasting Momentum\n\nSource: SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSA describes evidence-based approaches for stimulant use disorders, including cocaine, and frames treatment around supporting long-term recovery. It does not identify a universal four-year medical endpoint.\n\nFour years shows change maintained across ordinary days, difficult periods, and major milestones. The durability of that recovery is worth celebrating.'**
   String get cocaineReferenceDay1460;
 
-  /// No description provided for @cocaineReferenceDay1825.
+  /// Source for the cocaine recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Five Years Without Cocaine: Built to Last\n\nSource: SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSA\'s guide supports evidence-based care aimed at long-term recovery from stimulant use disorders, including cocaine use disorder. It does not claim that five years is a biological finish line.\n\nFive years is half a decade of maintained change. That consistency, and the life built around it, is the milestone.'**
   String get cocaineReferenceDay1825;
 
-  /// No description provided for @ghbReferenceDay1.
+  /// Source for the ghb recovery milestone at 1 day.
   ///
   /// In en, this message translates to:
   /// **'GHB Withdrawal: The First Hours\n\nSource: \"Characterization of the GHB Withdrawal Syndrome,\" on PubMed Central\n\n⚠ This Is a Medical Emergency\nGHB withdrawal ranks among the most dangerous substance withdrawals, rivalling severe alcohol and benzodiazepine withdrawal. Untreated, it can progress to delirium in over half of cases, with dangerous swings in heart rate and blood pressure and seizures. Anyone dependent on GHB, GBL, or 1,4-butanediol should seek supervised inpatient detox rather than stopping alone.\n\nWhy It Starts So Fast\nGHB\'s half-life is only 30–60 minutes, and dependent users typically need to redose every 2–3 hours just to avoid withdrawal — far faster than alcohol or benzodiazepines. That rapid pharmacokinetics is why symptoms can appear much sooner than with other sedative-hypnotic withdrawal.\n\nEarly Symptoms\nAnxiety, insomnia, tremor, sweating, fast heart rate, and rising blood pressure.'**
   String get ghbReferenceDay1;
 
-  /// No description provided for @ghbReferenceDay3.
+  /// Source for the ghb recovery milestone at 3 days.
   ///
   /// In en, this message translates to:
   /// **'GHB Withdrawal: The Hardest Days\n\nSource: \"Characterization of the GHB Withdrawal Syndrome,\" on PubMed Central\n\nThe Roughest Stretch\nThis study found several core withdrawal symptoms — muscle aches, muscle twitches, a tensed and stressed feeling, a fast heart rate, and abdominal cramps — were at their worst in the first three days, with more than a 70% drop in severity for many symptoms by day four. This early window is generally the highest-risk period, when untreated withdrawal is most likely to escalate toward delirium, seizures, or dangerous swings in heart rate and blood pressure.\n\nSevere Features\n• Severe agitation and anxiety\n• Auditory and visual hallucinations, paranoia\n• Tremor, sweating, racing heart, and high blood pressure\n• Risk of seizures\n\nManagement\nThe study describes benzodiazepine tapering and pharmaceutical GHB tapering as the two commonly used detoxification methods, noting some evidence that a GHB taper may control symptoms more effectively than benzodiazepines alone. Either approach requires close monitoring — this is not safe to manage at home.'**
   String get ghbReferenceDay3;
 
-  /// No description provided for @ghbReferenceDay7.
+  /// Source for the ghb recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'One Week Off GHB\n\nSource: \"Characterization of the GHB Withdrawal Syndrome,\" on PubMed Central\n\nMost Symptoms Are Fading\nSeveral core withdrawal symptoms dropped by more than 70% in severity or prevalence within the first four days. Under supervised tapering, the tapering phase itself lasted 11 days on average, followed by a recovery phase of about six days — so by one week many people are well into that improvement, even if the process isn\'t fully finished.\n\nWhat Can Linger\n• Sweating, tremor, and shaky hands\n• Sleeping a lot, or conversely insomnia and restlessness\n• Cravings\n\nThe study found these particular symptoms changed comparatively little even out to 11 days, so persistence this week isn\'t unusual. Continued medical oversight remains important until the syndrome has clearly settled.'**
   String get ghbReferenceDay7;
 
-  /// No description provided for @ghbReferenceDay14.
+  /// Source for the ghb recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Two Weeks Off GHB\n\nSource: \"Characterization of the GHB Withdrawal Syndrome,\" on PubMed Central\n\nPast the Acute Syndrome\nBy two weeks, the acute physical syndrome described in this study — whose tapering and recovery phases together average around 17 days under supervised treatment — has generally resolved or is very close to it. Heart rate, blood pressure, and most physical symptoms should be stabilising.\n\nWhat Lingers\nThe study specifically flags craving and insomnia as still present at discharge for some patients, noting these may contribute to relapse risk. Support and structure matter now, even as the dangerous early phase is behind you.'**
   String get ghbReferenceDay14;
 
-  /// No description provided for @ghbReferenceDay30.
+  /// Source for the ghb recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
   /// **'One Month Off GHB\n\nSource: \"Characterization of the GHB Withdrawal Syndrome,\" on PubMed Central\n\nWhere One Month Sits\nThe acute, dangerous phase described in this study is long past by one month. By one month, the acute dangerous phase — concentrated in the first days and followed by a supervised taper-and-recovery period averaging roughly two and a half weeks — is long past. Craving and insomnia are the key residual relapse risks identified at discharge.\n\nWhy Support Still Helps\nIf cravings, low mood, or sleep problems are still present at one month, that lines up with what the study\'s authors flagged as relapse risk factors — which is exactly why continued support and structure matter.'**
   String get ghbReferenceDay30;
 
-  /// No description provided for @ghbReferenceDay90.
+  /// Source for the ghb recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three Months Off GHB\n\nSource: \"Characterization of the GHB Withdrawal Syndrome,\" on PubMed Central\n\nThree Months of Recovery\nBy three months, the acute GHB withdrawal syndrome is long resolved. The residual risks identified at discharge are craving and insomnia, so three months of abstinence gives sleep, autonomic stability, and relapse-prevention routines substantial time to consolidate.\n\nWhat People Commonly Report\n• Calmer usual mood\n• More reliable sleep\n• Clearer thinking and fewer cravings\n\nIf anxiety, insomnia, or low mood are still prominent at three months, that\'s worth discussing with a clinician rather than assuming it will resolve on its own.'**
   String get ghbReferenceDay90;
 
-  /// No description provided for @ghbReferenceDay180.
+  /// Source for the ghb recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
   /// **'Six Months Off GHB\n\nSource: \"Characterization of the GHB Withdrawal Syndrome,\" on PubMed Central\n\nHalf a Year On\nBy six months, the acute GHB withdrawal syndrome is long resolved and recovery has shifted completely from detoxification to stable sleep, craving control, and relapse prevention. The dangerous autonomic and delirium-prone phase belongs to the first days and weeks, not this stage.\n\nThe Bigger Picture\nGetting through GHB withdrawal safely and staying off for half a year is a major achievement given how dangerous the early phase is, and how real the relapse risk — driven partly by lingering craving and insomnia — can be. The routines and support that got you here are worth keeping.'**
   String get ghbReferenceDay180;
 
-  /// No description provided for @inhalantsReferenceDay1.
+  /// Source for the inhalants recovery milestone at 1 day.
   ///
   /// In en, this message translates to:
   /// **'Stopping Inhalants: Day One\n\nSource: Radparvar, \"The Clinical Assessment and Treatment of Inhalant Abuse,\" The Permanente Journal (2023), on PubMed Central\n\nWhy Withdrawal Happens\nChronic inhalant use causes neuroadaptation — the nervous system comes to expect the substance. Many inhalants affect the same brain circuits as alcohol, so stopping leaves the brain temporarily imbalanced. The chemicals clear the blood fast but are stored in body fat, which can make withdrawal timing unpredictable.\n\nEarly Symptoms\nThis review describes inhalant withdrawal as resembling alcohol or benzodiazepine withdrawal, with reported symptoms including:\n• Nausea, vomiting, and sweating\n• Tremor and rapid heart rate\n• Insomnia and sleep disturbance\n• Anxiety and irritability\n\nA Safety Note\nIn more severe cases, the review also lists hallucinations, delusions, and seizures among reported symptoms, though it does not lay out a precise day-by-day schedule — treat these as symptoms that can occur, not a fixed timeline. Medical supervision is wise during detox, especially for heavy, long-term users.'**
   String get inhalantsReferenceDay1;
 
-  /// No description provided for @inhalantsReferenceDay7.
+  /// Source for the inhalants recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'One Week Off Inhalants\n\nSource: Radparvar, \"The Clinical Assessment and Treatment of Inhalant Abuse,\" The Permanente Journal (2023), on PubMed Central\n\nThe Acute Window\nInhalant withdrawal is described in the clinical literature as resembling alcohol or benzodiazepine withdrawal, but it is generally understood to be shorter-lived. By the end of the first week the acute physical symptoms — nausea, tremor, sweating, insomnia — are usually resolving for most people.\n\nWhat Remains\n• Fatigue and brain fog\n• Low or unstable mood\n• Cravings\n\nNote on Early Abstinence\nBrain fog at this stage does not mean lasting damage — the brain is still readjusting. Research on how thinking and memory specifically recover over the following weeks and months is covered in later milestones.'**
   String get inhalantsReferenceDay7;
 
-  /// No description provided for @inhalantsReferenceDay14.
+  /// Source for the inhalants recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Two Weeks Off Inhalants\n\nSource: Radparvar, \"The Clinical Assessment and Treatment of Inhalant Abuse,\" The Permanente Journal (2023), on PubMed Central\n\nThrough the Acute Phase\nClinical reviews describe inhalant withdrawal as similar to alcohol or benzodiazepine withdrawal but shorter. By two weeks, nausea, tremor, insomnia, and anxiety have usually settled.\n\nThe Road Ahead\nAttention, memory, movement, and coordination recover more gradually over the following months. Continued abstinence gives all of these systems time to improve. Good nutrition (inhalant use can deplete vitamin B12) and abstinence set the stage for it.'**
   String get inhalantsReferenceDay14;
 
-  /// No description provided for @inhalantsReferenceDay30.
+  /// Source for the inhalants recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
   /// **'One Month Off Inhalants\n\nSource: Dingwall et al., \"Cognitive recovery during and after treatment for volatile solvent abuse,\" Drug and Alcohol Dependence (2011), on PubMed\n\nWhere One Month Sits\nThe early withdrawal period is well behind you. In this study, some learning skills improved within six weeks, while visual coordination, memory, planning, and decision-making improved more gradually over the following months.\n\nWhat Can Improve\n• Attention and some learning tasks\n• Mood and sleep, as the body stabilises\n• Motor speed, gradually\n\nRecovery Signal\nThe study\'s conclusion is clear: memory, planning, and decision-making improve gradually over months to years of abstinence. Continued abstinence is the strongest driver of that recovery.'**
   String get inhalantsReferenceDay30;
 
-  /// No description provided for @inhalantsReferenceDay90.
+  /// Source for the inhalants recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three Months Off Inhalants\n\nSource: Dingwall et al., \"Cognitive recovery during and after treatment for volatile solvent abuse,\" Drug and Alcohol Dependence (2011), on PubMed\n\nAn Uneven, Longer Process\nThis study followed people beyond an eight-week treatment program and checked some of them again around a year later. Some learning skills improved within six weeks, while visual coordination, memory, planning, and decision-making kept improving over a longer period.\n\nStaying the Course\nThe study shows that the slower skills improve gradually over months to years. At three months, continued abstinence is the strongest lever for adding more recovery month after month.'**
   String get inhalantsReferenceDay90;
 
-  /// No description provided for @inhalantsReferenceDay365.
+  /// Source for the inhalants recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
   /// **'One Year Off Inhalants\n\nSource: \"A prospective study of neurocognitive changes 15 years after chronic inhalant abuse,\" on PubMed\n\nReal, Measurable Recovery\nA long-term study found substantial recovery from chronic inhalant-related brain and thinking problems after two years of abstinence. At one year, you are well along that recovery path.\n\nWhat It Means\nMemory, attention, and motor function continue to improve. Long-term abstinence produces genuine brain recovery: by two years, most brain, memory, and thinking scores had returned to normal in chronic users who did not have brain damage from lead.'**
   String get inhalantsReferenceDay365;
 
-  /// No description provided for @inhalantsReferenceDay730.
+  /// Source for the inhalants recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two Years Off Inhalants\n\nSource: \"A prospective study of neurocognitive changes 15 years after chronic inhalant abuse,\" on PubMed\n\nThe Two-Year Mark\nThis is the key milestone in the research: deficits reflecting brain damage from long-term solvent use showed substantial recovery after two years of abstinence. The authors concluded that, in the absence of brain damage from leaded petrol, long-term abstinence may allow recovery of normal brain function.\n\nRecovery Signal\nThe major exception is damage from leaded petrol abuse, which can cause persistent deficits. Otherwise, two years of abstinence represents the brain\'s best documented opportunity to heal — alongside a life rebuilt around it.'**
   String get inhalantsReferenceDay730;
 
-  /// No description provided for @ketamineReferenceDay1.
+  /// Source for the ketamine recovery milestone at 1 day.
   ///
   /// In en, this message translates to:
   /// **'Stopping Ketamine: Day One\n\nSource: \"Ketamine-Induced Cystitis: A Comprehensive Review of the Urologic Effects of This Psychoactive Drug,\" on PubMed Central\n\nWithdrawal Is Mainly Psychological\nUnlike opioids or alcohol, ketamine rarely produces severe physical withdrawal. Discontinuation is generally safe; people more often struggle with cravings and psychological dependence than physical illness.\n\nWhat You May Feel\n• Mood swings and low mood\n• Cravings\n• Occasional sweating or palpitations\n\nThe Key Step\nFor anyone with bladder symptoms, immediate and complete cessation is the obligatory starting point for recovery — so day one is the most important decision of all.'**
   String get ketamineReferenceDay1;
 
-  /// No description provided for @ketamineReferenceDay7.
+  /// Source for the ketamine recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'One Week Off Ketamine\n\nSource: \"Ketamine-Induced Cystitis: A Comprehensive Review,\" on PubMed Central\n\nThe Psychological Phase\nThe main challenge in early ketamine cessation is psychological: cravings, altered or low mood, and some brain fog. Physical withdrawal, when present, is usually mild.\n\nBrain fog is common at this stage — concentration feels effortful, reaction time is slower, and short-term memory may feel unreliable. These effects on thinking and memory improve with abstinence: a longitudinal study of 114 ketamine users found significant gains in verbal memory, visual memory, processing speed, and planning, focus, and decision-making after 12 weeks without ketamine.\n\nBladder Symptoms\nIf you have ketamine-induced cystitis (urinary urgency, frequency, pain, or blood in urine), stopping now gives the bladder its best chance to heal. Pain can tempt people back to ketamine to self-medicate — a cycle worth breaking with proper pain support instead.'**
   String get ketamineReferenceDay7;
 
-  /// No description provided for @ketamineReferenceDay14.
+  /// Source for the ketamine recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Two Weeks Off Ketamine\n\nSource: \"Ketamine-Induced Cystitis: A Comprehensive Review,\" on PubMed Central\n\nClearer Thinking\nWith the drug fully cleared, the mental fog and disconnected thinking associated with regular ketamine use begin to lift. Memory and concentration improve and mood steadies.\n\nBladder Recovery Beginning\nFor early-stage cystitis, the review emphasizes that simply stopping ketamine is the single most important step toward reversing symptoms, and that earlier cessation gives the best odds of recovery before damage becomes permanent. Two weeks of abstinence is the start of that process.'**
   String get ketamineReferenceDay14;
 
-  /// No description provided for @ketamineReferenceDay30.
+  /// Source for the ketamine recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
   /// **'One Month Off Ketamine\n\nSource: \"Prevalence and Natural History of Urinary Symptoms Among Recreational Ketamine Users,\" Winstock et al., BJU International (2012)\n\nBladder Recovery\nThe single most important treatment for ketamine-induced cystitis is stopping ketamine. This study of recreational ketamine users found that 51% of those with urinary symptoms reported improvement after stopping use, while under 4% got worse. Earlier you stop, the better the outcome.\n\nMind and Mood\nCognition and mood continue to clear at one month. Psychological and social support meaningfully improves the odds of staying stopped — cessation works best when it is supported.'**
   String get ketamineReferenceDay30;
 
-  /// No description provided for @ketamineReferenceDay90.
+  /// Source for the ketamine recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three Months Off Ketamine\n\nSource: \"Ketamine-Induced Cystitis: A Comprehensive Review,\" on PubMed Central\n\nContinued Recovery\nBladder recovery after ketamine is often gradual; the review describes symptom severity improving after cessation, though it can be prolonged and variable. Three months gives the urinary tract sustained time to heal in cases that are going to respond.\n\nMind\nClear thinking and mood are markedly clearer than in early abstinence, and cravings are less frequent. Persistent or severe bladder symptoms should be assessed by a urologist.'**
   String get ketamineReferenceDay90;
 
-  /// No description provided for @ketamineReferenceDay180.
+  /// Source for the ketamine recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
   /// **'Six Months Off Ketamine\n\nSource: \"Ketamine-Induced Cystitis: A Comprehensive Review,\" on PubMed Central\n\nHalf a Year On\nWith sustained abstinence, bladder symptoms continue to improve in cases that respond to cessation, and thinking and memory and mood are stable. The compulsion to use has weakened considerably.\n\nRecovery Signal\nRecovery of established bladder damage can be incomplete, which is why early cessation matters so much. Whatever stage you stopped at, staying off gives the bladder its best possible outcome.'**
   String get ketamineReferenceDay180;
 
-  /// No description provided for @ketamineReferenceDay365.
+  /// Source for the ketamine recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
   /// **'One Year Off Ketamine\n\nSource: \"Ketamine-Induced Cystitis: A Comprehensive Review,\" on PubMed Central\n\nA Year On\nTwelve months of abstinence gives the bladder, in early-caught cases, the fullest chance to recover, and leaves thinking and memory and mood stable and clear. The psychological dependence that made stopping hard has largely faded.\n\nThe Bigger Picture\nA year free is a profound change — in physical health, clarity, and self-direction. Keeping the support that got you here protects it.'**
   String get ketamineReferenceDay365;
 
-  /// No description provided for @ketamineReferenceDay730.
+  /// Source for the ketamine recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two Years Off Ketamine\n\nSource: a 2022 comprehensive review of ketamine-induced cystitis (PubMed Central).\n\nThe review strongly recommends stopping ketamine and notes that early disease often improves after cessation, while recovery can be incomplete when injury is more advanced. It does not define a universal two-year biological finish line; this milestone celebrates sustained progress without promising the same medical outcome for everyone.'**
   String get ketamineReferenceDay730;
 
-  /// No description provided for @ketamineReferenceDay1095.
+  /// Source for the ketamine recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three Years Off Ketamine\n\nSource: a 2022 comprehensive review of ketamine-induced cystitis (PubMed Central).\n\nThe review strongly recommends stopping ketamine and notes that early disease often improves after cessation, while recovery can be incomplete when injury is more advanced. It does not identify a special three-year recovery threshold; three years marks durable progress while individual outcomes still vary.'**
   String get ketamineReferenceDay1095;
 
-  /// No description provided for @ketamineReferenceDay1460.
+  /// Source for the ketamine recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four Years Off Ketamine\n\nSource: a 2022 comprehensive review of ketamine-induced cystitis (PubMed Central).\n\nThe review strongly recommends stopping ketamine and notes that early disease often improves after cessation, while recovery can be incomplete when injury is more advanced. It does not assign a distinct biological event to year four; four years marks a strong recovery foundation without turning an anniversary into a medical promise.'**
   String get ketamineReferenceDay1460;
 
-  /// No description provided for @ketamineReferenceDay1825.
+  /// Source for the ketamine recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Five Years Off Ketamine\n\nSource: a 2022 comprehensive review of ketamine-induced cystitis (PubMed Central).\n\nThe review strongly recommends stopping ketamine and notes that early disease often improves after cessation, while recovery can be incomplete when injury is more advanced. It does not define five years as a universal biological endpoint; this milestone celebrates substantial sustained progress rather than claiming a guaranteed cure.'**
   String get ketamineReferenceDay1825;
 
-  /// No description provided for @kratomReferenceDay1.
+  /// Source for the kratom recovery milestone at 1 day.
   ///
   /// In en, this message translates to:
   /// **'Kratom Withdrawal: The First Day\n\nSource: Swogger et al. (2022), \"Understanding Kratom Use: A Guide for Healthcare Providers,\" Frontiers in Pharmacology\n\nWhy Withdrawal Happens\nKratom\'s active compounds act on the same opioid receptors as classical opioids. With regular use the body adapts, so stopping produces an opioid-like withdrawal. This clinical guide describes dependence and withdrawal as recognised risks of regular kratom use.\n\nWhat the Evidence Shows About Onset\nAnimal studies cited in the guide show somatic withdrawal signs emerging within about 12 hours, with anxiety-like effects evident by 24 hours; precise human onset timing is less established, but early symptoms commonly reported include:\n• Restlessness, anxiety, and irritability\n• Muscle aches and runny nose\n• Sweating and watery eyes\n• Cravings\n\nA Note on Severity\nThe guide notes that longer duration of use and higher doses are linked to more severe, longer-lasting withdrawal. Supervised medical support is worth seeking, particularly if kratom was used at high doses or alongside opioids.'**
   String get kratomReferenceDay1;
 
-  /// No description provided for @kratomReferenceDay3.
+  /// Source for the kratom recovery milestone at 3 days.
   ///
   /// In en, this message translates to:
   /// **'Kratom Withdrawal: The Hardest Days\n\nSource: Singh et al. (2014), Drug and Alcohol Dependence — survey of 293 regular kratom users in Malaysia\n\nWhat the Evidence Shows\nRather than a single defined \'peak day,\' this survey found withdrawal severity tracks how much and how long someone used: people drinking three or more glasses of kratom daily had significantly higher odds of severe dependence and more difficult withdrawal. For most people, the first few days after stopping are the hardest.\n\nSymptoms Commonly Reported\n• Muscle and joint aches, restless legs\n• Insomnia despite exhaustion\n• Nausea, stomach cramps, and diarrhoea\n• Anxiety, low mood, and irritability\n• Strong cravings\n\nGetting Through It\nHydration, rest, and symptomatic support help. If withdrawal has felt severe so far, that lines up with heavier or longer use rather than something being unusually wrong — and it tends to ease from here.'**
   String get kratomReferenceDay3;
 
-  /// No description provided for @kratomReferenceDay7.
+  /// Source for the kratom recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'One Week Off Kratom\n\nSource: Swogger et al. (2022), \"Understanding Kratom Use: A Guide for Healthcare Providers,\" Frontiers in Pharmacology\n\nPast the Acute Phase\nHuman self-report data cited in this guide indicates withdrawal symptoms resolve within about one to three days for most people who stop. By one week, the acute physical symptoms — muscle aches, sweating, nausea — have typically settled for the majority. What can remain is more psychological: fatigue, disrupted sleep, and low mood as the opioid receptors kratom was stimulating adjust back to the body\'s own signals.\n\nA Real Risk\nThe guide also notes that a small number of people find kratom very difficult to quit, with more severe and longer-lasting withdrawal reported among heavier, longer-term users. This week is a common point for relapse, and tolerance drops quickly — returning to a previous dose, particularly if opioids are involved, is now genuinely dangerous.'**
   String get kratomReferenceDay7;
 
-  /// No description provided for @kratomReferenceDay14.
+  /// Source for the kratom recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Two Weeks Off Kratom\n\nSource: National Institute on Drug Abuse (NIDA), \"Kratom\"\n\nBeyond the Studied Window\nControlled human data on kratom withdrawal timing generally covers only the first few days, so there isn\'t well-established research pinning down a specific \'two week\' milestone. What is documented is the broader pattern: kratom acts on the same opioid receptors as classical opioids, and as regular use stops those receptors gradually restore their sensitivity to the body\'s own signals.\n\nWhat People Commonly Report\n• Appetite and energy often improve\n• Sleep tends to become more reliable\n• Mood is typically steadier, though still variable\n\nCravings are still triggered by stress and familiar cues, so having a plan for them remains useful.'**
   String get kratomReferenceDay14;
 
-  /// No description provided for @kratomReferenceDay30.
+  /// Source for the kratom recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
   /// **'One Month Off Kratom\n\nSource: National Institute on Drug Abuse (NIDA), \"Kratom\"\n\nA Reward System Recovering\nNIDA describes kratom as acting on the brain\'s opioid receptors, with dependence and withdrawal as recognised risks of regular use. There is no specific study pinning a \'one month\' recovery milestone, but the general pattern for opioid-receptor-based dependence is that the brain\'s response to everyday pleasures gradually normalises with sustained abstinence.\n\nWhat a Month Off Can Build\nA month without kratom is a month of consistent sleep, meals, and routine replacing the time and effort use required. Cravings tend to arrive less often and feel more manageable, though high-stress moments remain the most vulnerable ones.'**
   String get kratomReferenceDay30;
 
-  /// No description provided for @kratomReferenceDay90.
+  /// Source for the kratom recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three Months Off Kratom\n\nSource: National Institute on Drug Abuse (NIDA), \"Kratom\"\n\nA Steadier Day-to-Day State\nKratom acts on opioid receptors, so three months without it gives the brain\'s reward and stress systems sustained time to settle. Many people report clearer thinking and steadier motivation the further they get from active use.\n\nWhy It Matters\nThe less recent the use, the more the day-to-day pull of kratom tends to fade — making this milestone a solid foundation for lasting recovery.'**
   String get kratomReferenceDay90;
 
-  /// No description provided for @kratomReferenceDay365.
+  /// Source for the kratom recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
   /// **'One Year Off Kratom\n\nSource: National Institute on Drug Abuse (NIDA), \"Kratom\"\n\nWell Past Acute Withdrawal\nNIDA doesn\'t publish a specific one-year kratom recovery timeline, but a year of sustained abstinence is well beyond the acute and early psychological withdrawal window documented in the kratom research. For most people who reach this point, cravings are infrequent and far easier to manage.\n\nThe Bigger Picture\nA year of abstinence represents a substantial change in health, finances, and self-direction. Staying connected to support helps keep that progress secure.'**
   String get kratomReferenceDay365;
 
-  /// No description provided for @kratomReferenceDay730.
+  /// Source for the kratom recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two Years Off Kratom\n\nSource: Stanciu et al. (2021), “Pharmacotherapy for Management of \'Kratom Use Disorder\': A Systematic Literature Review With Survey of Experts.”\n\nWhat the Evidence Says\nThe review describes kratom dependence, relapse risk, and approaches to long-term management. It also states that there are no established guidelines for maintaining long-term abstinence from kratom. The evidence does not define this anniversary as a biological recovery endpoint.\n\nWhat This Milestone Means\nThis anniversary is best treated as a celebration of sustained change, not a medical deadline. The routines, support, and choices maintained across these years are meaningful achievements in their own right.'**
   String get kratomReferenceDay730;
 
-  /// No description provided for @kratomReferenceDay1095.
+  /// Source for the kratom recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three Years Off Kratom\n\nSource: Stanciu et al. (2021), “Pharmacotherapy for Management of \'Kratom Use Disorder\': A Systematic Literature Review With Survey of Experts.”\n\nWhat the Evidence Says\nThe review describes kratom dependence, relapse risk, and approaches to long-term management. It also states that there are no established guidelines for maintaining long-term abstinence from kratom. The evidence does not define this anniversary as a biological recovery endpoint.\n\nWhat This Milestone Means\nThis anniversary is best treated as a celebration of sustained change, not a medical deadline. The routines, support, and choices maintained across these years are meaningful achievements in their own right.'**
   String get kratomReferenceDay1095;
 
-  /// No description provided for @kratomReferenceDay1460.
+  /// Source for the kratom recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four Years Off Kratom\n\nSource: Stanciu et al. (2021), “Pharmacotherapy for Management of \'Kratom Use Disorder\': A Systematic Literature Review With Survey of Experts.”\n\nWhat the Evidence Says\nThe review describes kratom dependence, relapse risk, and approaches to long-term management. It also states that there are no established guidelines for maintaining long-term abstinence from kratom. The evidence does not define this anniversary as a biological recovery endpoint.\n\nWhat This Milestone Means\nThis anniversary is best treated as a celebration of sustained change, not a medical deadline. The routines, support, and choices maintained across these years are meaningful achievements in their own right.'**
   String get kratomReferenceDay1460;
 
-  /// No description provided for @kratomReferenceDay1825.
+  /// Source for the kratom recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Five Years Off Kratom\n\nSource: Stanciu et al. (2021), “Pharmacotherapy for Management of \'Kratom Use Disorder\': A Systematic Literature Review With Survey of Experts.”\n\nWhat the Evidence Says\nThe review describes kratom dependence, relapse risk, and approaches to long-term management. It also states that there are no established guidelines for maintaining long-term abstinence from kratom. The evidence does not define this anniversary as a biological recovery endpoint.\n\nWhat This Milestone Means\nThis anniversary is best treated as a celebration of sustained change, not a medical deadline. The routines, support, and choices maintained across these years are meaningful achievements in their own right.'**
   String get kratomReferenceDay1825;
 
-  /// No description provided for @maoiReferenceDay3.
+  /// Source for the maoi recovery milestone at 3 days.
   ///
   /// In en, this message translates to:
   /// **'MAOI Discontinuation: The Highest-Risk Phase\n\nSource: Dilsaver (1988), research on MAOI withdrawal reactions\n\nCritical Safety Warning\nMAOIs carry the most serious discontinuation risks of any antidepressant class. Abrupt cessation — particularly of phenelzine and tranylcypromine — can produce severe reactions including:\n• Severe anxiety and agitation\n• Pressured speech and restlessness\n• Sleeplessness or drowsiness\n• Hallucinations\n• Delirium and paranoid psychosis\n\nIf you are experiencing these symptoms, seek immediate medical attention.\n\nHow MAOIs Work\nMAOIs work by irreversibly binding to and disabling monoamine oxidase enzymes (MAO-A and MAO-B). These enzymes normally break down serotonin, norepinephrine, dopamine, and tyramine in the brain and gut. Because the enzyme itself is destroyed rather than just blocked, recovery depends on the body producing fresh enzyme rather than on how quickly the drug clears the bloodstream.'**
   String get maoiReferenceDay3;
 
-  /// No description provided for @maoiReferenceDay7.
+  /// Source for the maoi recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'One Week After MAOIs: MAO Enzyme Synthesis Underway\n\nSource: \"Monoamine Oxidase Inhibitors (MAOIs)\" (StatPearls, NCBI Bookshelf)\n\nThe Enzyme Recovery Process\nUnlike SSRIs, SNRIs, and TCAs — which inhibit brain chemical reuptake reversibly — irreversible MAOIs (phenelzine, tranylcypromine) permanently destroy monoamine oxidase enzyme molecules. Clinical washout is therefore governed by how quickly the body can synthesise entirely new enzyme — about 2 weeks — rather than by how fast the drug itself clears the bloodstream.\n\nWhat\'s Happening at One Week\n• MAO-A and MAO-B enzyme synthesis is well underway, roughly midway through the ~2-week resynthesis window\n• The acute risk phase described on day 3 is passing, though close medical supervision remains important\n\nDietary Cautions\nMAOI treatment requires a low-tyramine diet, since these enzymes normally break down tyramine and prevent it from triggering a hypertensive crisis. Guidance is to keep observing dietary restrictions through this resynthesis window — your prescriber will advise when it\'s safe to relax them.'**
   String get maoiReferenceDay7;
 
-  /// No description provided for @maoiReferenceDay14.
+  /// Source for the maoi recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Two Weeks After MAOIs: MAO Enzyme Activity Substantially Recovered\n\nSource: Fritz et al. (1983), Biological Psychiatry\n\nThe Critical Two-Week Mark\nTwo weeks is the standard clinical washout timeframe for MAO enzyme recovery after discontinuation of an irreversible MAOI like tranylcypromine or phenelzine. Studying tranylcypromine, this research found that platelet MAO-B catalytic activity — sharply reduced within a day of dosing — rebounds to normal within about two weeks, as the body replaces drug-affected platelets with fresh ones carrying active enzyme, even though total MAO-B protein levels never changed.\n\nMAO Enzyme Recovery\n• Platelet MAO-B activity has substantially recovered by this point\n• Brain MAO-A and MAO-B, which follow a broadly similar resynthesis timeline, are also largely restored\n• Normal tyramine metabolism is re-establishing — the MAOI dietary restrictions can typically be relaxed in consultation with your prescriber\n\nBrain-Chemical Balance Returns\nWith MAO enzyme activity recovering, the brain chemical systems that MAOIs affect are beginning to come under natural regulation:\n• Serotonin, norepinephrine, and dopamine are no longer being elevated by MAO inhibition\n• The supersensitivity of monoamine receptors (caused by chronic MAOI-elevated brain-chemical levels) is beginning to resolve\n• Natural mood and energy regulation is returning'**
   String get maoiReferenceDay14;
 
-  /// No description provided for @maoiReferenceDay30.
+  /// Source for the maoi recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
   /// **'One Month After MAOIs: Brain-Chemical Systems Rebalancing\n\nSource: \"Monoamine Oxidase Inhibitors (MAOIs)\" (StatPearls, NCBI Bookshelf)\n\nThe One-Month Assessment\nOne month after MAOI discontinuation is well past the roughly 2-week MAO enzyme resynthesis window described in this source, so by this point MAO enzyme activity has fully recovered and brain chemical systems are under entirely natural regulation.\n\nWhat Has Recovered by One Month\n• Complete MAO enzyme activity: both MAO-A and MAO-B are fully operational\n• Dietary restrictions resolved: normal diet without tyramine restrictions\n• Natural serotonin degradation: the brain\'s normal serotonin turnover cycle restored\n• Natural catecholamine regulation: dopamine and norepinephrine levels regulated by natural MAO activity\n\nDrug Interaction Cautions\nMAOIs are associated with life-threatening interactions with serotonin drugs. These interaction risks have resolved at the one-month mark. However, always inform your prescriber and pharmacist of previous MAOI use when any new medication is prescribed.'**
   String get maoiReferenceDay30;
 
-  /// No description provided for @maoiReferenceDay90.
+  /// Source for the maoi recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three Months After MAOIs: Well Past Withdrawal\n\nSource: \"Antidepressant Withdrawal Syndrome,\" Therapeutics Letter 112 (2018), Therapeutics Initiative, on the NCBI Bookshelf\n\nWithdrawal Across the Antidepressant Classes\nThis evidence review treats antidepressant withdrawal as a real phenomenon of tolerance and dependence — placing antidepressants \'alongside opiates and benzodiazepines.\' Its detailed evidence centres on SSRIs and SNRIs, but withdrawal reactions are recognised across antidepressant classes, including after stopping an MAOI. Symptoms \'usually appear within a few days of stopping\' and \'most… resolve within 2 weeks,\' though some last longer.\n\nWhere Three Months Sits\nBy three months, the acute withdrawal phase is well behind the great majority of people, and the body has long readjusted to regulating monoamines without MAO inhibition.\n\nRecovery Signal on \'Receptor Resensitisation\'\nConfident claims that serotonin, norepinephrine, and dopamine receptors have all \'resensitised by three months\' go beyond what the evidence pins down. What is dependable: the withdrawal phase has typically resolved by now, and for most people mood, energy, and emotional range are stabilising on natural, self-regulated brain signalling.\n\nWithdrawal Versus Relapse\nThe Letter stresses telling withdrawal apart from a genuine return of the underlying condition. If symptoms persist at three months, review them with your prescriber rather than assuming they are only withdrawal.'**
   String get maoiReferenceDay90;
 
-  /// No description provided for @maoiReferenceDay180.
+  /// Source for the maoi recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
   /// **'Six Months After MAOIs: Long-Term Recovery\n\nSource: Zwiebel & Viguera (2022), Cleveland Clinic Journal of Medicine\n\nThe Six-Month Assessment\nThis review explains that antidepressants work partly by causing monoamine receptors to downregulate over time, and that this downregulation requires weeks to months to reverse once the medication stops — a slower process than the roughly two-week MAO enzyme resynthesis itself.\n\nWhere Six Months Sits\nSix months sits comfortably past that weeks-to-months receptor readjustment window for the great majority of people, alongside enzyme activity that fully normalised within the first month. Recovery Signal: precise timelines for full serotonin, norepinephrine, and dopamine receptor resensitisation are not established with day-by-day certainty in the literature — what is dependable is that by six months, most people are functioning on natural, self-regulated brain signalling.\n\nA Note on Phenethylamine\nMAOIs also inhibit the degradation of phenethylamine (PEA), a trace amine linked to mood and energy. Its metabolism is expected to normalise alongside general MAO enzyme recovery, though — as with receptor resensitisation — a precise PEA-specific timeline isn\'t established in the research literature.'**
   String get maoiReferenceDay180;
 
-  /// No description provided for @maoiReferenceDay365.
+  /// Source for the maoi recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
   /// **'One Year After MAOIs: Recovery Achieved\n\nSource: \"Monoamine Oxidase Inhibitors (MAOIs)\" (StatPearls, NCBI Bookshelf)\n\nOne Year: A Remarkable Achievement\nCompleting one year after MAOI discontinuation is a genuinely significant milestone. MAOIs are among the most drug-drivenly demanding antidepressants to come off, with an irreversible mechanism, a strict low-tyramine diet, and drug-interaction precautions that are unlike any other antidepressant class.\n\nWhat This Year Represents\n• A full year of natural, self-regulated monoamine oxidase activity, built on enzyme resynthesis that completed within the first month\n• Demonstrated capacity to maintain wellbeing without drug-driven MAO inhibition\n• A track record long enough to be confident the acute discontinuation risks of day 3 are firmly behind you\n\nA Note on MAOIs\nMAOIs remain uniquely effective for certain treatment-resistant conditions and atypical depression. Successful discontinuation does not diminish their value as medications — it demonstrates the brain\'s capacity for recovery and the patient\'s ability to navigate an exceptionally demanding medical process. One lasting precaution: continue to tell any new prescriber or anaesthetist about past MAOI use, since some drug-interaction risks are worth flagging indefinitely.'**
   String get maoiReferenceDay365;
 
-  /// No description provided for @marijuanaReferenceDay1.
+  /// Source for the marijuana recovery milestone at 1 day.
   ///
   /// In en, this message translates to:
   /// **'Marijuana Withdrawal: Day One\n\nSource: \"The cannabis withdrawal syndrome: current insights,\" Substance Abuse and Rehabilitation (2017), on PubMed Central\n\nCannabis Withdrawal Is Real\nThis peer-reviewed review establishes that Cannabis Withdrawal Syndrome (CWS) is a well-validated clinical condition, occurring in roughly 90% of people diagnosed with cannabis dependence after they stop. Its average peak severity is comparable to that of a tobacco withdrawal syndrome.\n\nWhy Withdrawal Happens\nTHC acts on the endocannabinoid system — CB1 receptors involved in mood, appetite, sleep, memory, and stress. With chronic use the brain downregulates this system; when cannabis stops, it is temporarily underactive. The review notes CB1 receptors return to normal functioning within about four weeks of abstinence.\n\nOnset on Day One\nThe review documents that physical symptoms tend to appear first — within 1–3 days of the last use — while psychological symptoms emerge over 2–10 days. Early symptoms include:\n• Irritability, anxiety, and restlessness\n• Difficulty sleeping\n• Decreased appetite\n• Physical tension, sweating, or chills\n• Depressed mood\n\nSeverity\nCWS is not medically dangerous and symptoms are typically mild to moderate, but the review notes they can be distressing enough to drive relapse — which is why understanding the timeline matters.'**
   String get marijuanaReferenceDay1;
 
-  /// No description provided for @marijuanaReferenceDay3.
+  /// Source for the marijuana recovery milestone at 3 days.
   ///
   /// In en, this message translates to:
   /// **'Cannabis Withdrawal Timeline: The Early Days\n\nSource: \"Time-course of the DSM-5 cannabis withdrawal symptoms in poly-substance abusers,\" BMC Psychiatry (2013), on PubMed Central\n\nA Measured Time-Course\nThis study tracked DSM-5 cannabis withdrawal symptoms in 90 patients over four weeks, producing one of the clearest pictures of how symptoms rise and fall. Overall severity followed a curve: rising, then declining over the following weeks.\n\nWhat Peaks Early\nSeveral of the most physically disruptive symptoms peak within the first few days of stopping:\n• Insomnia — peaks around day 1\n• Nervousness — peaks around day 4\n• Depressed mood and physical symptoms — peak around day 5\n• Restlessness — peaks around day 6\n\nWhat Peaks Later\nThe study found that some symptoms emerge and peak later than the first week:\n• Vivid, unpleasant dreams — peak around day 11\n• Irritability and anger — peak around day 14\n\nSleep and Cannabis\nThe delayed, vivid dreams reflect REM rebound: cannabis suppresses REM sleep during use, and the brain overcompensates once it stops. The authors argue this symptom is common enough to belong among formal withdrawal criteria.\n\nThe Takeaway for Day Three\nBy day three you are in the thick of the early physical peak — insomnia, nervousness, and restlessness are near their worst. The consistent, predictable curve is itself reassuring: these symptoms have a known course and they decline from here.'**
   String get marijuanaReferenceDay3;
 
-  /// No description provided for @marijuanaReferenceDay7.
+  /// Source for the marijuana recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'One Week Without Cannabis: Through the Worst\n\nSource: \"The cannabis withdrawal syndrome: current insights,\" Substance Abuse and Rehabilitation (2017), on PubMed Central\n\nWhere One Week Sits in the Syndrome\nThis review documents that the cannabis withdrawal syndrome usually lasts up to about three weeks, with the most distressing period falling between the first and third week. At one week, the earliest physical symptoms — insomnia, appetite loss, restlessness — have typically passed their peak and are easing.\n\nWhat Is Still Settling\nThe review distinguishes early-peaking physical symptoms from later-peaking psychological ones. At one week:\n• Physical discomfort and appetite are largely improving\n• Sleep is still disrupted for many, with vivid dreams (REM rebound) often peaking around now\n• Irritability and mood can remain elevated, as these tend to peak later in the first two weeks\n\nThe Neurobiology of Recovery\nUnderlying these changes, the review notes that downregulated CB1 receptors return toward normal functioning within about four weeks of abstinence. One week in, that re-regulation is well underway — the system is recovering even while some symptoms linger.\n\nThe Takeaway\nReaching one week means the acute physical peak is behind you. The remaining sleep and mood symptoms are part of a syndrome with a known, finite course that continues to resolve over the next couple of weeks.'**
   String get marijuanaReferenceDay7;
 
-  /// No description provided for @marijuanaReferenceDay14.
+  /// Source for the marijuana recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Two Weeks Without Cannabis: Acute Withdrawal Ends\n\nSource: Budney, AJ et al. (2003) — peer-reviewed study on cannabis withdrawal time course\n\nResearch Findings\nThis peer-reviewed study systematically documented the time course of cannabis withdrawal symptoms in regular users. The findings showed that the acute withdrawal syndrome peaks within the first week and largely resolves within 2 weeks of stopping for most symptoms.\n\nWhat Resolves by 2 Weeks\nThe study documented that by 14 days, the following symptoms had largely resolved in study participants:\n• Physical discomfort and bodily symptoms\n• Appetite disturbance\n• Most sleep disruption\n• Peak irritability and anxiety\n\nWhat May Persist Beyond 2 Weeks\nThe research also identified symptoms that persisted beyond the two-week mark in some users:\n• Depressed mood\n• Concentration difficulties\n• Sleep quality (though improving)\n\nThe Significance of the 2-Week Mark\nPassing the two-week mark is significant because it means the acute withdrawal syndrome is largely complete. The challenges beyond this point are primarily related to longer-term brain recovery and managing the underlying reasons for cannabis use, rather than the acute physiological response to stopping.'**
   String get marijuanaReferenceDay14;
 
-  /// No description provided for @marijuanaReferenceDay30.
+  /// Source for the marijuana recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
   /// **'One Month Without Cannabis: Memory Function Improves\n\nSource: Pope et al. (2001), Archives of General Psychiatry\n\nCannabis and Memory: The Problem\nThis study followed heavy, long-term cannabis users through 28 days of confirmed abstinence and compared their thinking and memory test results with light users and non-users. At the start of abstinence, and again at days 1 and 7, heavy users performed worse than controls on recall of word lists — a deficit that tracked with their urinary THC metabolite levels, reflecting recent drug exposure rather than lifetime use.\n\nThe Good News: Recovery by Day 28\nBy day 28, heavy users, light users, and non-users performed virtually the same across the study\'s thinking and memory tests. There was also no significant relationship between total lifetime cannabis use and test performance at that point.\n\nWhat This Means at 30 Days\n• Verbal learning and recall have returned to control-group levels\n• The residual deficits seen in the first week have resolved\n• The remaining deficit earlier on was tied to recent exposure, not permanent damage\n\nWhat the Evidence Shows\nBy day 28, heavy users were virtually indistinguishable from light users and non-users across the study\'s full set of thinking and memory tests. Verbal-learning and recall deficits seen in the first week had recovered to control-group levels.'**
   String get marijuanaReferenceDay30;
 
-  /// No description provided for @marijuanaReferenceDay60.
+  /// Source for the marijuana recovery milestone at 60 days.
   ///
   /// In en, this message translates to:
   /// **'Two Months Without Cannabis: Concentration Sharpens\n\nSource: Roten et al. (2015), Addictive Behaviors\n\nThe Research Question\nThis youth cannabis-cessation study tracked memory and thinking test scores alongside urine tests over about two months, comparing continued users with people who stopped recently or stayed abstinent.\n\nKey Findings\nConsistent abstinence was associated with significant improvement in:\n• Composite memory score\n• Verbal memory specifically — the most affected domain\n• Movement and reaction-speed performance\n\nAt Two Months\nBy roughly eight weeks of consistent abstinence, memory and movement and reaction-speed performance scores had climbed measurably above where they sat during active use, tracking closely with confirmed non-use rather than time alone.\n\nWhat the Study Shows\nIn adolescents and young adults with cannabis dependence, consistent abstinence produced significant gains in composite memory, verbal memory, and movement and reaction-speed performance across the roughly two-month treatment window.'**
   String get marijuanaReferenceDay60;
 
-  /// No description provided for @marijuanaReferenceDay90.
+  /// Source for the marijuana recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three Months Without Cannabis: Mood Stability Returns\n\nSource: Connor et al. (2022), Addiction — a clinical review of cannabis withdrawal\n\nWhat the Withdrawal Timeline Actually Looked Like\nThis review describes cannabis withdrawal symptoms typically starting 24–48 hours after cessation and peaking around days 2–6. Anger, aggression, and depressed mood can appear as early as one week but typically peak after about two weeks of abstinence; sleep disturbance in particular can persist longer than other symptoms.\n\nWhere Three Months Sits\nBy three months, you are far beyond the documented withdrawal course: symptoms typically start within 24–48 hours, peak around days 2–6, and even slower mood and sleep symptoms peak within the following weeks. Ninety days gives those withdrawal-driven mood and sleep effects months to settle.\n\nA Note on the Endocannabinoid System\nCannabis-withdrawal research also shows downregulated CB1 receptors returning toward normal functioning within about four weeks of abstinence. At 90 days, you are well beyond that receptor-recovery window.\n\nLooking Ahead\nThe review also discusses post-detoxification prognosis and relapse prevention, underlining that ongoing support and coping strategies matter well beyond the acute withdrawal window.'**
   String get marijuanaReferenceDay90;
 
-  /// No description provided for @marijuanaReferenceDay180.
+  /// Source for the marijuana recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
   /// **'Six Months Without Cannabis: Planning and Decision-Making Recover\n\nSource: Crean, Crane & Mason (2011), Journal of Addiction Medicine\n\nPlanning and Decision-Making After Cannabis\nThis review examined attention, decision-making, self-control, working memory, and verbal fluency from the first hours after use through long-term abstinence. By six months, you are far beyond the short-term effects and deep into the recovery period.\n\nWhat the Research Found\nSeveral problems linked to heavy use recede with sustained abstinence, with some studies finding recovery by 28 days. The slowest areas to recover after heavy, early-onset use include:\n• Decision-making and risk-taking — specifically flagged as domains where deficits can persist long-term in heavy, chronic users\n• Abstract reasoning and verbal skills — particularly impaired in adults who began using before age 17\n\nEarly-Onset Recovery\nSix months is far beyond the short-term effects in this review. Planning, decision-making, and reasoning keep improving with sustained abstinence, making continued abstinence the strongest route to further recovery.\n\nThe Broader Picture\nFor adult-onset, lighter use, the outlook is more favourable — many people at six months report clearer thinking, steadier decision-making, and a stronger sense of self-direction. The biggest gains come from staying abstinent, especially after heavy or early-onset use.'**
   String get marijuanaReferenceDay180;
 
-  /// No description provided for @marijuanaReferenceDay365.
+  /// Source for the marijuana recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
   /// **'One Year Without Cannabis: Brain Structure Recovers\n\nSource: \"Hippocampal harms, protection and recovery following regular cannabis use,\" Translational Psychiatry (2016), on PubMed Central\n\nStructural Changes from Cannabis\nThis brain-scan study examined the hippocampus, a brain area central to memory, in current users, former users, and non-users. Current users not exposed to CBD had a hippocampus about 11% smaller and a brain-cell health marker about 15% lower than controls.\n\nThe Key Finding: Recovery With Abstinence\nCurve-fitting analyses supported a \"protection and recovery\" model. Crucially, former users — abstinent for an average of around 29 months — did not differ from non-using controls on any integrity measure. The authors conclude that THC-related memory-area harms \"can be recovered with extended periods of abstinence.\"\n\nBrain Recovery Over a Year and Beyond\nAt one year cannabis-free, the brain\'s memory system is well into recovery: hippocampus size and brain-cell health are moving back toward normal, supporting memory and emotional control.\n\nRecovery Signal\nFormer users abstinent for about 29 months matched non-users on the study\'s hippocampus health measures. At one year, the memory system is already moving along that documented recovery path toward normal.'**
   String get marijuanaReferenceDay365;
 
-  /// No description provided for @mdmaReferenceDay1.
+  /// Source for the mdma recovery milestone at 1 day.
   ///
   /// In en, this message translates to:
   /// **'After MDMA: The Comedown\n\nSource: Meyer (2013), \"3,4-Methylenedioxymethamphetamine (MDMA): Current Perspectives,\" Substance Abuse and Rehabilitation\n\nWhy You Feel Low\nMDMA works by driving a large release of serotonin (with some dopamine). Afterwards the brain is temporarily depleted of serotonin. This review describes a lowering of mood — the so-called \"midweek blues\" — that researchers have measured in both novice and experienced users 2 to 5 days after use.\n\nWhat Helps\n• Hydration and nutritious food\n• Sleep\n• Patience — the dip is the depletion, not a permanent state\n\nThe comedown after a single use differs from dependence-related withdrawal, which the same review describes as involving cravings but not significant physical symptoms.'**
   String get mdmaReferenceDay1;
 
-  /// No description provided for @mdmaReferenceDay3.
+  /// Source for the mdma recovery milestone at 3 days.
   ///
   /// In en, this message translates to:
   /// **'A Few Days After MDMA\n\nSource: Meyer (2013), \"3,4-Methylenedioxymethamphetamine (MDMA): Current Perspectives,\" Substance Abuse and Rehabilitation\n\nThe Midweek Blues\nThis is roughly the window this review is describing when it discusses the \"midweek blues\" — a dip in mood measured 2 to 5 days after use in both novice and experienced users, tied to short-term serotonin depletion rather than long-term change.\n\nWhat Improves\n• Mood typically lifts from its lowest point around now\n• Energy returns\n• Sleep starts to normalise'**
   String get mdmaReferenceDay3;
 
-  /// No description provided for @mdmaReferenceDay7.
+  /// Source for the mdma recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'One Week After MDMA\n\nSource: Meyer (2013), \"3,4-Methylenedioxymethamphetamine (MDMA): Current Perspectives,\" Substance Abuse and Rehabilitation\n\nPast the Midweek Blues\nFor most people, a week is past the 2-to-5-day window this review associates with the acute comedown, so mood should be back to normal. The review notes that for people who use heavily or repeatedly, cravings can persist as part of a dependence pattern, though it does not describe this as involving significant physical withdrawal symptoms.\n\nWhen to Seek Help\nIf low mood, anxiety, or sleep problems persist a week on, that may be more than a comedown — it is worth talking to a professional.'**
   String get mdmaReferenceDay7;
 
-  /// No description provided for @mdmaReferenceDay14.
+  /// Source for the mdma recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Two Weeks Off MDMA\n\nSource: Meyer (2013), \"3,4-Methylenedioxymethamphetamine (MDMA): Current Perspectives,\" Substance Abuse and Rehabilitation\n\nRecovery Timeline\nFor a single-use comedown, two weeks is well past the 2-to-5-day dip this review documents, so mood, sleep, and concentration should be steady. After heavier or repeated use, recovery continues beyond the comedown, and abstinent imaging studies show serotonin-recycling capacity rising with sustained abstinence.\n\nWhat This Means for You\nIf your use was occasional, you\'re likely through the worst of it. If it was frequent or heavy, be patient with yourself — full recovery of serotonin signalling is a longer process than two weeks, covered in the next milestones.'**
   String get mdmaReferenceDay14;
 
-  /// No description provided for @mdmaReferenceDay30.
+  /// Source for the mdma recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
   /// **'One Month Off MDMA\n\nSource: \"Serotonin transporter availability, neurocognitive function and their correlation in abstinent MDMA users,\" on PubMed\n\nWhere One Month Sits\nThe acute comedown and withdrawal are well behind you, and mood and thinking and memory are steadier. Imaging research shows MDMA reduces the brain\'s capacity to process serotonin, and that this capacity recovers with sustained abstinence.\n\nRecovery Signal\nThe same research shows serotonin-recycling capacity recovering with sustained abstinence. Mood and serotonin function improve first, while memory continues on its own recovery timeline — continued abstinence supports both.'**
   String get mdmaReferenceDay30;
 
-  /// No description provided for @mdmaReferenceDay90.
+  /// Source for the mdma recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three Months Off MDMA\n\nSource: \"Serotonin transporter availability, neurocognitive function and their correlation in abstinent MDMA users,\" on PubMed\n\nContinued Recovery\nWith sustained abstinence the brain\'s serotonin system continues to recover, especially in deeper brain regions. Mood and sleep are typically stable by this point.\n\nRecovery Signal\nSustained abstinence drives continued serotonin-transporter recovery across brain regions, while mood and sleep remain stable and recovery of thinking and memory continues.'**
   String get mdmaReferenceDay90;
 
-  /// No description provided for @mdmaReferenceDay365.
+  /// Source for the mdma recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
   /// **'One Year Off MDMA\n\nSource: \"Serotonin transporter availability, neurocognitive function and their correlation in abstinent MDMA users,\" on PubMed\n\nA Year On\nWith a year of abstinence, the brain\'s serotonin processing has recovered substantially and mood is stable.\n\nRecovery Signal\nA full year of abstinence gives the serotonin system a prolonged recovery window. Imaging research shows serotonin-recycling capacity rises with abstinence, making substantial serotonin recovery the clearest biological signal at this stage.'**
   String get mdmaReferenceDay365;
 
-  /// No description provided for @methReferenceDay1.
+  /// Source for the meth recovery milestone at 1 day.
   ///
   /// In en, this message translates to:
   /// **'Methamphetamine Withdrawal: The First 24 Hours\n\nSource: McGregor et al., \"The nature, time course and severity of methamphetamine withdrawal,\" Addiction (2005), on PubMed\n\nThe Crash\nMethamphetamine drives a large release of dopamine; when use stops, the system is left depleted. This study tracked withdrawal symptoms daily across the first three weeks of abstinence and found that overall severity was at its highest within 24 hours of the last use — the \'crash,\' an abrupt swing from extreme stimulation to physical and psychological exhaustion.\n\nDay One Symptoms\nThe study documented the withdrawal features that are most intense now:\n• Extreme fatigue and increased sleep (hypersomnia)\n• Increased appetite (meth powerfully suppresses appetite)\n• Depressed mood and loss of pleasure\n• Strong cravings\n• Anxiety and irritability\n\nPhysical Safety\nThe methamphetamine withdrawal syndrome itself is not generally life-threatening, but the depression-related symptoms measured in this study can be severe early on and may include suicidal thoughts. Medical supervision is strongly advisable, especially for heavy users.\n\nIt Starts to Lift\nThe encouraging finding from this research: severity is highest at the very start and then falls. From this 24-hour peak, symptoms decline steadily over the following days — the worst point is the beginning.'**
   String get methReferenceDay1;
 
-  /// No description provided for @methReferenceDay3.
+  /// Source for the meth recovery milestone at 3 days.
   ///
   /// In en, this message translates to:
   /// **'Meth Withdrawal: Day Three — Still in the Acute Phase\n\nSource: McGregor et al., \"The nature, time course and severity of methamphetamine withdrawal,\" Addiction (2005), on PubMed\n\nComing Down From the Peak\nThis study found that overall withdrawal severity peaks within the first 24 hours and then declines in a roughly linear pattern across the acute phase (about 7–10 days). By day three you are past the highest point, but still firmly in the acute phase — symptoms remain prominent even as the trend is downward.\n\nDay Three Symptoms\nThe features the study tracked that are still significant now:\n• Depression and loss of pleasure\n• Strong cravings\n• Difficulty concentrating and thinking clearly\n• Disturbed sleep — insomnia alternating with hypersomnia\n• Continued fatigue\n\nWhy It Feels This Way\nMeth withdrawal\'s intensity reflects the scale of dopamine depletion it causes. The depression-related symptoms the study measured are most evident in these early days — but importantly, the study found overall withdrawal severity \'reducing to near control levels by the end of the first week of abstinence.\'\n\nThis Will Pass\nThe hardest stretch is the first few days, and the data show a steady decline from here. Understanding this state as temporary and brain and nerve — not a permanent condition — helps in getting through it.'**
   String get methReferenceDay3;
 
-  /// No description provided for @methReferenceDay7.
+  /// Source for the meth recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'One Week Without Meth: The Acute Phase Ends\n\nSource: McGregor et al., \"The nature, time course and severity of methamphetamine withdrawal,\" Addiction (2005), on PubMed\n\nEnd of the Acute Phase\nThis is one of the most encouraging findings in the research. The study reported that overall withdrawal severity — including the depression-related symptoms it tracked — \'reduced to near control levels by the end of the first week of abstinence,\' marking the end of the acute phase. The steepest part of the climb is behind you.\n\nTwo Phases of Withdrawal\nThe authors described meth withdrawal as having:\n• An acute phase lasting about 7–10 days, in which symptom severity falls steadily from its early peak\n• A subacute phase lasting at least a further two weeks, with milder, lingering symptoms\n\nWhat Remains at Day 7\nEntering the subacute phase, the dominant challenges are now psychological rather than the acute crash:\n• Low mood, though much improved from the first days\n• Cravings, especially in response to cues\n• Concentration and memory still recovering\n• Sleep still settling\n\nPhysical Recovery Underway\nWith the acute phase over, appetite has returned and energy is slowly building as the body recovers from meth\'s effects on sleep, nutrition, and the cardiovascular system.'**
   String get methReferenceDay7;
 
-  /// No description provided for @methReferenceDay30.
+  /// Source for the meth recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
   /// **'One Month Without Meth: Mood Settles, Cravings Linger\n\nSource: Zorick et al., \"Withdrawal symptoms in abstinent methamphetamine-dependent subjects,\" Addiction (2010), on PubMed Central\n\nTracking the First Five Weeks\nThis study followed methamphetamine-dependent participants who stayed abstinent for up to five weeks, comparing them with healthy controls — giving an unusually clear picture of where the one-month mark sits.\n\nWhat Has Improved by One Month\n• Depressive symptoms \'decreased substantially over the first 2 weeks of abstinence to stable low levels,\' and by the end of four weeks were approaching, though not yet statistically matching, healthy-control levels (the gap had narrowed to a borderline, non-significant trend)\n• Psychiatric and psychotic-type symptoms had reached a low starting level by the end of the second week\nSo at 30 days, the heavy depression of early withdrawal has largely lifted — a genuine, measured improvement.\n\nWhat Still Lingers\nThe study was clear that one symptom outlasts the others: craving \'still continued at a reduced level throughout 5 weeks of abstinence.\' Cravings are weaker than in the first week but have not gone, which is why one month is still a high-risk period and ongoing support matters.\n\nThe Takeaway\nBy a month, the brain\'s mood machinery has recovered enough that day-to-day feeling is far better than in early withdrawal — while persistent cravings are a normal part of this stage, not a sign of failure.'**
   String get methReferenceDay30;
 
-  /// No description provided for @methReferenceDay90.
+  /// Source for the meth recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three Months Without Meth: Healing Has Begun — Be Patient\n\nSource: Volkow et al., \"Loss of Dopamine Transporters in Methamphetamine Abusers Recovers with Protracted Abstinence,\" Journal of Neuroscience (2001)\n\nAbout This Research\nThis landmark brain-scan study followed methamphetamine users twice — around three months off meth and again around 14 months — to see how the dopamine system recovers.\n\nWhere Three Months Sits\nAt three months, the early withdrawal period is long over and deeper dopamine recovery is underway. The same study later found that proteins that recycle dopamine in the brain\'s reward and movement areas rose by roughly 16% to 19% after 12–17 months off meth.\n\nWhat That Means For You\nBy 90 days the acute withdrawal is far behind you, mood and sleep have improved, and engagement with therapy becomes far more productive. But the deeper dopamine recovery is a longer project that unfolds over the following year. If motivation and pleasure still feel muted at three months, that is expected and not a sign of failure — the trajectory in this study is clearly upward from here.\n\nWhy It\'s Worth the Wait\nThe same study showed that staying abstinent is what drives the recovery: the longer the abstinence, the greater the DAT recovery measured. Three months is the foundation; the gains keep coming.'**
   String get methReferenceDay90;
 
-  /// No description provided for @methReferenceDay180.
+  /// Source for the meth recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
   /// **'Six Months Without Meth: The Heart Can Recover\n\nSource: \"Stopping Drug Abuse Can Reverse Related Heart Damage,\" American College of Cardiology (2017), reporting a study in JACC: Heart Failure\n\nMeth and the Heart\nMethamphetamine is one of the most cardiotoxic recreational drugs. It can drive severe hypertension and arrhythmias and, over time, methamphetamine-associated cardiomyopathy — a weakening of the heart muscle that leads to heart failure.\n\nWhat the Study Found\nThe ACC reported on patients with meth-associated cardiomyopathy (all with significantly reduced heart-pumping function). The central, hopeful finding: quitting \'can reverse the damage the drug causes to the heart and improve heart function.\' Patients who stopped using had markedly better outcomes than those who kept using, and the authors stressed that catching it early \'could prevent further deterioration of the cardiomyopathy.\'\n\nWhy Six Months Matters\nEvery month of abstinence removes the ongoing toxic stress on your heart and gives the muscle a chance to recover. At six months you have given your cardiovascular system a substantial, sustained break from that damage — exactly the condition under which this study saw improvement.\n\nRecovery Signal\nThe evidence-backed result is strong: stopping meth can reverse methamphetamine-associated heart damage and improve heart function. Six months without the repeated stimulant insult gives the heart a substantial recovery window.'**
   String get methReferenceDay180;
 
-  /// No description provided for @methReferenceDay365.
+  /// Source for the meth recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
   /// **'One Year Without Meth: Measurable Brain Recovery\n\nSource: Wang et al., \"Partial Recovery of Brain Metabolism in Methamphetamine Abusers After Protracted Abstinence,\" American Journal of Psychiatry (2004), on PubMed\n\nWhat the Imaging Shows\nThis brain-scan study checked methamphetamine users early in abstinence and again after 12–17 months. It found genuine brain recovery, with some areas recovering faster than others.\n\nThe Good News: Deep-Brain and Thinking Recovery\nThe thalamus, a deep brain relay centre, started using energy more normally with long-term abstinence. That recovery tracked with better movement and verbal-memory performance, so the brain-scan improvement showed up in real thinking and memory.\n\nReward Circuits Recover More Slowly\nAt 12–17 months, the deep brain relay centre had recovered strongly and that gain tracked with better movement and verbal memory. Reward and motivation systems kept strengthening too, making the one-year picture one of major recovery in thinking and memory.\n\nWhat This Means at One Year\nAt a year, expect a brain that thinks and remembers far better than in early recovery — clear, measurable healing. But if motivation or the ability to feel pleasure still lag at times, that is consistent with the science, not a personal failing: this study found those reward circuits can recover more slowly, with some deficits still present well over a year out.'**
   String get methReferenceDay365;
 
-  /// No description provided for @methReferenceDay420.
+  /// Source for the meth recovery milestone at 420 days.
   ///
   /// In en, this message translates to:
   /// **'14 Months Without Meth: The Dopamine Marker Rebounds\n\nSource: Volkow et al., \"Loss of Dopamine Transporters in Methamphetamine Abusers Recovers with Protracted Abstinence,\" Journal of Neuroscience (2001)\n\nThe Headline Finding\nThis landmark brain-scan study checked meth users early in abstinence and again after about 12–17 months. Proteins that recycle dopamine rose roughly 16% to 19% in the brain\'s reward and movement areas and reached levels that no longer differed significantly from healthy controls. Longer abstinence meant greater recovery.\n\nWhy DAT Matters\nThese proteins recycle dopamine after it is released. Meth depletes them, leaving the dopamine system poorly regulated. Their rebound by about 14 months is a genuine, measurable sign of healing.\n\nRecovery Signal\nAfter 12–17 months, dopamine-recycling proteins in reward and movement areas rose about 16% to 19% and reached healthy-control levels. The dopamine system has measurably rebounded toward normal, while thinking, memory, and movement continue improving.\n\nWhat This Means at 14 Months\nThe dopamine system\'s hardware is measurably recovering toward normal — real cause for optimism. But full functional recovery (memory, motivation, fine motor control) can lag behind the imaging, and continues to improve with ongoing abstinence.'**
   String get methReferenceDay420;
 
-  /// No description provided for @methReferenceDay730.
+  /// Source for the meth recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two Years Without Meth: Thinking and Mood Keep Improving\n\nSource: Iudicello et al., \"Longer Term Improvement in Neurocognitive Functioning and Affective Distress Among Methamphetamine Users Who Achieve Stable Abstinence,\" Journal of Clinical and Experimental Neuropsychology (2010), on PubMed Central\n\nRecovery That Continues Past a Year\nThis study followed methamphetamine users for about 13 months and compared stable abstainers with continued users and healthy controls. Stable abstinence improved overall thinking and reduced emotional distress, with gains continuing beyond a year.\n\nWhat Improves\n• Overall thinking in abstainers caught up to healthy controls, while continued users stayed significantly impaired\n• The biggest gains were in processing speed and motor ability, especially for those most impaired at the start\n• Mood improved markedly: only the abstainers showed significant improvement in depression and overall mood\n\nRecovery Signal\nStable abstainers caught up to healthy controls on overall thinking and reported less emotional distress. Verbal learning, working memory, planning, and focus can keep improving beyond the first year, so the recovery trend continues into the second year.\n\nTwo Years In\nThe evidence-based message: sustained abstinence keeps paying off well past the first year — sharper thinking, better mood, and steadily improving function — even if a few areas take longer to come back.'**
   String get methReferenceDay730;
 
-  /// No description provided for @methMilestone1095Title.
+  /// Title for the meth recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three years, still clear'**
   String get methMilestone1095Title;
 
-  /// No description provided for @methMilestone1095Description.
+  /// Description for the meth recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three years without meth. You\'ve kept this change going through everyday life.'**
   String get methMilestone1095Description;
 
-  /// No description provided for @methReferenceDay1095.
+  /// Source for the meth recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three Years - Recovery Endures\n\nSource: Cao et al., \"Magnitude and Abstinence Trajectories of Neurocognitive Deficits in Methamphetamine Use Disorder: A Systematic Review and Meta-analysis,\" Journal of Addiction Medicine (2026), PubMed\n\nA 2026 systematic review and meta-analysis synthesized 68 independent studies involving 9,045 participants. Its abstinence-trajectory analyses used windows only up to 280 days, and certainty across domains was rated very low. That evidence cannot establish a biological recovery deadline at this anniversary.\n\nThree years without meth is sustained change measured in years, not weeks. The achievement is the durability itself: recovery routines and supports have had another full year to take root.'**
   String get methReferenceDay1095;
 
-  /// No description provided for @methMilestone1460Title.
+  /// Title for the meth recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four years without meth'**
   String get methMilestone1460Title;
 
-  /// No description provided for @methMilestone1460Description.
+  /// Description for the meth recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four years without meth. Recovery varies, and you\'ve given yourself four years without renewed exposure.'**
   String get methMilestone1460Description;
 
-  /// No description provided for @methReferenceDay1460.
+  /// Source for the meth recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four Years - Deep Foundations\n\nSource: Cao et al., \"Magnitude and Abstinence Trajectories of Neurocognitive Deficits in Methamphetamine Use Disorder: A Systematic Review and Meta-analysis,\" Journal of Addiction Medicine (2026), PubMed\n\nA 2026 systematic review and meta-analysis synthesized 68 independent studies involving 9,045 participants. Its abstinence-trajectory analyses used windows only up to 280 days, and certainty across domains was rated very low. That evidence cannot establish a biological recovery deadline at this anniversary.\n\nFour years is a durable stretch of change. Research does not define a four-year brain-recovery finish line, so this milestone celebrates another full year of protecting what you have built.'**
   String get methReferenceDay1460;
 
-  /// No description provided for @methMilestone1825Title.
+  /// Title for the meth recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Five years'**
   String get methMilestone1825Title;
 
-  /// No description provided for @methMilestone1825Description.
+  /// Description for the meth recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'You\'ve stayed free of meth through five years of mornings, weekends, difficult days and ordinary life.'**
   String get methMilestone1825Description;
 
-  /// No description provided for @methReferenceDay1825.
+  /// Source for the meth recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Five Years - Lasting Change\n\nSource: Cao et al., \"Magnitude and Abstinence Trajectories of Neurocognitive Deficits in Methamphetamine Use Disorder: A Systematic Review and Meta-analysis,\" Journal of Addiction Medicine (2026), PubMed\n\nA 2026 systematic review and meta-analysis synthesized 68 independent studies involving 9,045 participants. Its abstinence-trajectory analyses used windows only up to 280 days, and certainty across domains was rated very low. That evidence cannot establish a biological recovery deadline at this anniversary.\n\nFive years without meth is a major long-term milestone. Science cannot promise a five-year biological endpoint; what is certain is five years of sustained change worth celebrating.'**
   String get methReferenceDay1825;
 
-  /// No description provided for @nitrousOxideReferenceDay1.
+  /// Source for the nitrous oxide recovery milestone at 1 day.
   ///
   /// In en, this message translates to:
   /// **'Day One: The Gas Is Gone, but Watch B12\n\nSource: Knuf & Maani, \"Nitrous Oxide,\" StatPearls (NCBI Bookshelf)\n\nHow Fast It Clears\nNitrous oxide has a rapid onset of action — 2 to 5 minutes — and clears from the body just as quickly once you stop inhaling it. By today, none of the gas itself remains in your system.\n\nThe Real Risk Isn\'t the Gas\nWhat matters after stopping is what repeated exposure may have already done. Nitrous oxide inactivates methionine synthase, an enzyme that depends on vitamin B12. StatPearls notes that repeated exposure — occupational or recreational — can lead to megaloblastic anaemia and brain and nerve dysfunction, and in rare cases, degeneration of the spinal cord.\n\nIf You Used Heavily or Often\nNitrous oxide isn\'t documented to cause a physical withdrawal syndrome the way opioids or alcohol do, so day one isn\'t about your body demanding the drug. It\'s about starting to pay attention to B12-related symptoms — covered in the next few milestones — and getting checked if any appear.'**
   String get nitrousOxideReferenceDay1;
 
-  /// No description provided for @nitrousOxideReferenceDay3.
+  /// Source for the nitrous oxide recovery milestone at 3 days.
   ///
   /// In en, this message translates to:
   /// **'72 Hours: No Physical Withdrawal, But Watch for Nerve Symptoms\n\nSource: Knuf & Maani, StatPearls; Tikaria et al. (2026), Cureus\n\nUnlike opioids or alcohol, nitrous oxide isn\'t documented to cause a physical withdrawal syndrome. Urges at this stage are habit and craving, not the body demanding the drug to function.\n\nWatch for These\nA systematic review of 1,809 recreational nitrous oxide cases (Tikaria et al., 2026) found brain and nerve symptoms — especially tingling or numbness (paresthesia) — were the most common sign of B12-related harm, often appearing even when standard blood tests looked normal. Gait problems and weakness were also reported.\n\nIf You Notice Any of These\nSeek medical review. The same review found standard blood tests (haemoglobin, serum B12) missed a meaningful share of affected patients — tests for methylmalonic acid (MMA) and homocysteine are more sensitive and should be requested specifically if you disclose nitrous oxide use.'**
   String get nitrousOxideReferenceDay3;
 
-  /// No description provided for @nitrousOxideReferenceDay7.
+  /// Source for the nitrous oxide recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'One Week: Get Tested if You Used Heavily\n\nSource: Tikaria et al. (2026), \"The Toxic Legacy of Recreational Nitrous Oxide Use,\" Cureus\n\nWhat the Evidence Shows\nThis systematic review found that vitamin B12 deficiency from nitrous oxide is often \"functional\" — serum B12 looked normal in roughly half of affected patients, even when they had real brain and nerve damage. Homocysteine and MMA were abnormal far more often (84% and 73% of tested patients respectively) and are the more reliable markers.\n\nWhat to Do\nIf your use was heavy or frequent, one week off is a reasonable time to see a doctor and ask for homocysteine and MMA testing specifically — not just a standard B12 level — especially if you have any tingling, numbness, balance problems, or unexplained weakness.\n\nBrain recovery is common after nitrous cessation and vitamin B12 treatment: large clinical series report partial or complete improvement in most followed patients, with recovery continuing across the first months after treatment.'**
   String get nitrousOxideReferenceDay7;
 
-  /// No description provided for @nitrousOxideReferenceDay14.
+  /// Source for the nitrous oxide recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Two Weeks: Brain and nerve Symptoms Deserve Follow-Up\n\nSource: Tikaria et al. (2026), Cureus; Knuf & Maani, StatPearls\n\nWhat\'s Been Reported\nCase reports and series reviewed by Tikaria et al. describe nitrous oxide-related nerve damage presenting as sensory loss, gait ataxia, and sometimes weakness affecting walking — findings that can resemble other brain and nerve conditions and are sometimes missed if nitrous oxide use isn\'t mentioned to a clinician.\n\nRecovery Signal on Timelines\nNeither source reports how long recovery normally takes once use stops and any deficiency is treated. Case reports describe a wide range of outcomes — from full recovery to lasting deficits — depending largely on how much damage occurred before diagnosis. What\'s consistent across the literature is that earlier treatment leads to better outcomes.\n\nIf You Haven\'t Been Checked\nTwo weeks off is still a good time to get bloodwork done, even without symptoms — particularly homocysteine and MMA rather than serum B12 alone.'**
   String get nitrousOxideReferenceDay14;
 
-  /// No description provided for @nitrousOxideReferenceDay30.
+  /// Source for the nitrous oxide recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
   /// **'One Month: Habit and Craving, Not Physical Dependence\n\nSource: Knuf & Maani, \"Nitrous Oxide,\" StatPearls (NCBI Bookshelf)\n\nWhere You Stand\nStatPearls doesn\'t describe nitrous oxide as producing a physical dependence syndrome, so a month off means any lingering urges are about habit, social context, or boredom rather than a body still adjusting to the drug\'s absence.\n\nThe B12 Question\nIf you were tested and treated for B12 deficiency, one month is a reasonable point for your doctor to check whether your levels — and any symptoms — have responded. If you weren\'t tested and used heavily, it\'s still worth asking.\n\nWhat\'s Protected\nEvery month you don\'t use is a month you\'re not adding to any existing methionine synthase inactivation or the brain and nerve risk that comes with it.'**
   String get nitrousOxideReferenceDay30;
 
-  /// No description provided for @nitrousOxideReferenceDay90.
+  /// Source for the nitrous oxide recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three Months: Time to Recheck, if You Haven\'t\n\nSource: Tikaria et al. (2026), \"The Toxic Legacy of Recreational Nitrous Oxide Use,\" Cureus\n\nWhat We Know — and Don\'t\nThis research base is built from case reports and case series, not controlled recovery studies, so there\'s no reliable published timeline for how symptoms resolve by three months specifically. What the evidence does show is that outcomes vary widely — some patients with mild, early-caught deficiency recover fully, while those with delayed diagnosis or more severe nerve damage can have lasting deficits.\n\nThe Actionable Part\nIf you had any brain and nerve symptoms and haven\'t had follow-up bloodwork or a specialist review, three months off is a sensible point to do so. If you were treated and improving, this is a reasonable time to confirm the trend is continuing with your doctor.\n\nStaying Off Matters Most\nThe review is consistent about one thing: continued exposure keeps inactivating B12 and adding to the risk. Not using is the single biggest factor in your favour.'**
   String get nitrousOxideReferenceDay90;
 
-  /// No description provided for @nitrousOxideReferenceDay365.
+  /// Source for the nitrous oxide recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
   /// **'One Year: The Best Protection Is Continued Abstinence\n\nSource: Knuf & Maani, StatPearls; Tikaria et al. (2026), Cureus\n\nWhere the Evidence Actually Lands\nNeither source promises a specific recovery timeline, and that\'s worth being honest about — the literature on nitrous oxide and B12 deficiency is built almost entirely from individual case reports rather than long-term follow-up studies. What is well established is the mechanism: nitrous oxide inactivates vitamin B12 every time it\'s used, and stopping removes that ongoing harm entirely.\n\nIf You Had Deficiency-Related Symptoms\nCase reports describe a wide range of outcomes, from full recovery to persistent nerve symptoms, largely tied to how much damage occurred and how early it was treated. If you\'re still experiencing symptoms a year out, that\'s a reason to keep working with a neurologist, not a sign nothing can be done — nerve recovery can continue over an extended period.\n\nWhat\'s Certain\nA year without nitrous oxide is a year without further methionine synthase inactivation. That\'s the one guarantee both sources support.'**
   String get nitrousOxideReferenceDay365;
 
-  /// No description provided for @opioidReferenceDay1.
+  /// Source for the opioid recovery milestone at 1 day.
   ///
   /// In en, this message translates to:
   /// **'Opioid Withdrawal: Day One\n\nSource: \"Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings,\" World Health Organization (2009), on the NCBI Bookshelf\n\n⚠ Safety Note\nOpioid withdrawal is rarely fatal in otherwise healthy individuals, but it causes severe physical distress and carries a high risk of relapse. Relapse after a period of abstinence is particularly dangerous because tolerance drops rapidly — using the same dose as before abstinence can cause fatal overdose. Medical supervision and opioid agonist treatment are strongly recommended.\n\nWhen Withdrawal Begins\nThe WHO withdrawal timetable sets the timing by opioid type:\n• Short-acting opioids (heroin, oxycodone): onset 8–24 hours after last use, duration 4–10 days\n• Long-acting opioids (methadone): onset 12–48 hours, duration 10–20 days\n\nDay One Symptoms\nThe WHO guidelines list the early features of opioid withdrawal:\n• Anxiety and agitation\n• Muscle cramps and aches\n• Watery discharge from eyes and nose\n• Yawning and perspiration\n• Insomnia, with hot and cold flushes\n• Early nausea\n\nWhy It Feels So Bad\nThe opioid system regulates pain, stress, emotional wellbeing, and basic comfort. Long-term opioid use suppresses the body\'s own opioid production (endorphins). When opioids are removed, the body is left without its normal comfort system — experiencing pain, anxiety, and distress at a level that reflects the depth of that suppression. The WHO guidelines advise supportive care, including drinking 2–3 litres of water per day and monitoring 3–4 times daily.'**
   String get opioidReferenceDay1;
 
-  /// No description provided for @opioidReferenceDay7.
+  /// Source for the opioid recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'One Week Off Opioids: Peak Symptoms Declining\n\nSource: \"Clinical Guidelines for Withdrawal Management and Treatment of Drug Dependence in Closed Settings,\" World Health Organization (2009), on the NCBI Bookshelf\n\nThe Peak and Decline\nThe WHO timetable puts short-acting opioid withdrawal at 4–10 days, with symptoms building early and then easing across that window. By the end of the first week:\n• Vomiting and diarrhoea are largely resolved\n• Muscle cramps are less severe\n• Physical distress is meaningfully reduced\n\nWhat Remains at Day 7\nWhile acute physical symptoms are improving, significant challenges persist:\n• Insomnia — sleep disruption is one of the most persistent opioid withdrawal symptoms\n• Depressed mood and emotional flatness\n• Fatigue and weakness\n• Cravings\n• Anxiety\n\nPost-Acute Withdrawal\nAfter the first withdrawal period, sleep problems, changing mood, and waves of craving can continue for weeks or months. Continued support matters most during this longer recovery phase.\n\nOpioid Agonist Treatment\nThe WHO guidelines describe methadone and buprenorphine as effective treatments that reduce withdrawal severity and support recovery. These medications also reduce mortality from opioid use disorder, and many people in successful long-term recovery use them throughout the early recovery phase.'**
   String get opioidReferenceDay7;
 
-  /// No description provided for @opioidReferenceDay14.
+  /// Source for the opioid recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Two Weeks Off Opioids: Sleep Patterns Starting to Improve\n\nSource: Peer-reviewed pharmacology research on opioids and sleep\n\nThe Opioid-Sleep Connection\nThis research paper examines the bidirectional relationship between opioid use and sleep disruption. The findings document that opioids severely disrupt normal sleep architecture through multiple mechanisms:\n• Suppression of slow-wave (deep) sleep\n• Disruption of REM sleep\n• Causing sleep-disordered breathing (central sleep apnea)\n• Disrupting circadian rhythm regulation\n\nA Vicious Cycle\nThe research highlights the bidirectional nature of the problem: opioid use disrupts sleep, and poor sleep increases pain sensitivity and craving intensity, driving further opioid use. Breaking opioid dependence also means breaking this sleep-disruption cycle.\n\nSleep at Two Weeks\nBy 14 days of opioid abstinence, sleep is beginning to normalise:\n• Central sleep apnea (if present) resolves within days\n• Deep slow-wave sleep is beginning to recover\n• REM sleep is returning to normal proportion\n• Sleep onset is becoming more reliable\n\nSleep remains a significant challenge for many people at two weeks, but the trajectory is clearly improving. Better sleep directly improves mood, reduces cravings, and supports the clear thinking needed for recovery.'**
   String get opioidReferenceDay14;
 
-  /// No description provided for @opioidReferenceDay30.
+  /// Source for the opioid recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
   /// **'One Month Off Opioids: Thinking and Memory Begin to Recover\n\nSource: Mayo Clinic\n\nUnderstanding Opioid Use Disorder\nThe Mayo Clinic explains that opioids attach to receptors throughout the brain and body, producing pain relief, euphoria, and sleepiness. With repeated use, the brain responds less strongly and makes fewer of its own opioid-like chemicals. That creates physical dependence.\n\nThinking and Memory at One Month\nAt 30 days, meaningful recovery in thinking and memory has occurred. The worst brain fog has cleared, and the front of the brain — which handles planning and self-control — is recovering:\n• Decision-making is improving\n• Working memory is recovering\n• Processing speed increasing\n• Concentration more reliable\n\nThe Endorphin System\nAt one month, the brain\'s natural endorphin system is actively recovering: it is producing more of its own opioid-like chemicals and responding more normally again. Emotional flatness and lower pain tolerance keep improving as that recovery continues.\n\nRelapse Prevention\nThe Mayo Clinic emphasises that one month of sobriety does not mean the risk of relapse has passed — it remains elevated. Tolerance has dropped significantly, meaning that relapse using previous doses carries serious overdose risk.'**
   String get opioidReferenceDay30;
 
-  /// No description provided for @opioidReferenceDay60.
+  /// Source for the opioid recovery milestone at 60 days.
   ///
   /// In en, this message translates to:
   /// **'Two Months Off Opioids: The Brain\'s Stress Circuits Begin to Settle\n\nSource: \"Neuroplasticity of the extended amygdala in opioid withdrawal and prolonged opioid abstinence,\" Frontiers in Pharmacology (2023)\n\nWhere the Negative Feelings Come From\nThis review maps how long-term opioid use changes the brain\'s stress and fear circuits. During withdrawal, these circuits become overactive while dopamine signalling in reward circuits drops. That combination helps explain anxiety, low mood, and cravings in early recovery.\n\nWhy Two Months Brings Relief\nCrucially, the review documents that some of these changes are reversible. In animal models the loss of spine density in the accumbens shell is described as \'an enduring but reversible decrease,\' returning toward pre-drug values over a couple of weeks. As these stress and reward circuits re-regulate, the mechanistic basis for early-recovery emotional turmoil eases — consistent with the reduced reactivity and steadier mood many people report by around two months.\n\nRecovery Signal\nThe reversible spine-density and stress-circuit changes documented in this literature show a real biological recovery process: the circuitry driving the negative emotional state of dependence moves back toward its pre-drug state during abstinence.'**
   String get opioidReferenceDay60;
 
-  /// No description provided for @opioidReferenceDay90.
+  /// Source for the opioid recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three Months Off Opioids: Reward Chemistry Starting to Recover\n\nSource: \"Structural and Functional Brain Recovery in Individuals with Substance Use Disorders During Abstinence: A Review of Longitudinal Neuroimaging Studies,\" Drug and Alcohol Dependence (2022), on PubMed Central\n\nDopamine and Opioids\nOpioids drive dopamine release in the brain\'s reward system. Long-term use leaves that system depleted: in one brain-scan study, proteins that recycle dopamine were about 30% below healthy levels at the start. That helps explain the loss of pleasure seen in opioid use disorder and early recovery.\n\nRecovery Is Gradual\nThis review gathered the longitudinal studies that re-scanned the same people over abstinence. The dopamine-transporter deficit recovered by roughly 20% over 6–12 months of abstinence, and some frontal grey-matter and white-matter abnormalities seen in early withdrawal were no longer detectable after about a month. At three months you are early on that recovery curve: the reward and frontal systems are measurably mending, but have not finished.\n\nWhat People Experience\nAs these circuits recover, many people at around 90 days notice:\n• More genuine enjoyment of activities, food, and relationships\n• Reduced cravings compared with early recovery\n• Clearer thinking and better decision-making\n\nRecovery Signal\nLongitudinal human imaging shows dopamine-transporter availability rising across 6–12 months of abstinence, while frontal grey- and white-matter abnormalities begin normalising much earlier. At 90 days, measurable brain recovery is already established.'**
   String get opioidReferenceDay90;
 
-  /// No description provided for @opioidReferenceDay180.
+  /// Source for the opioid recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
   /// **'Six Months Off Opioids: The Immune System Begins to Recover\n\nSource: \"Effects of opioid tolerance and withdrawal on the immune system,\" Journal of Neuroimmune Pharmacology (2006), on PubMed\n\nOpioids and the Immune System\nThis review shows that long-term opioid use weakens the immune system in several ways:\n• Direct opioid action on immune cells (T cells, NK cells, macrophages)\n• Disrupted immune-signalling chemicals\n• Disruption of the hypodeep-brain-pituitary-adrenal (HPA) axis\n• Increased susceptibility to infection\n\nRecovery Signal\nLong-term opioids suppress several parts of the immune system. By six months off opioids, that constant suppression has been gone for half a year and immune function is actively rebuilding toward normal.\n\nWhat Six Months Means\nSix months without opioids gives immune cells, immune signalling, and the body\'s stress system sustained time to recover toward normal.\n\nWhy This Still Matters\nThis is particularly relevant for people who injected opioids, who faced added infection risks such as HIV and hepatitis C. Removing opioids, improving nutrition, and maintaining abstinence give the immune system the conditions it needs to keep recovering.'**
   String get opioidReferenceDay180;
 
-  /// No description provided for @opioidReferenceDay365.
+  /// Source for the opioid recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
   /// **'One Year Off Opioids: Brain Structure and Chemistry Recovering\n\nSource: \"Structural and Functional Brain Recovery in Individuals with Substance Use Disorders During Abstinence: A Review of Longitudinal Neuroimaging Studies,\" Drug and Alcohol Dependence (2022), on PubMed Central\n\nWhat the Human Imaging Shows\nThis review gathered the studies that scanned the same people with opioid use disorder more than once across abstinence. The findings point consistently toward recovery:\n• Dopamine-recycling proteins in reward and movement areas, about 30% below normal at the start, rose by roughly 20% over 6–12 months off opioids\n• Frontal grey-matter abnormalities present in early withdrawal were no longer detectable after about a month of abstinence\n• White-matter (frontal and cingulate) and resting-state frontal activity also began to re-normalise within the first month\n\nWhere One Year Sits\nBy twelve months you are at or past the longest window these studies measured. The dopamine system has had the most time to recover, and the frontal circuits that support self-control and judgement have been mending for months — the biological counterpart to the clearer thinking, weaker cravings, and steadier mood people describe at a year.\n\nRecovery Signal\nAt one year, the human imaging signal is strongly recovery-oriented: dopamine-transporter availability has risen across the 6–12 month window, while frontal structural and functional abnormalities have had many months to normalise.'**
   String get opioidReferenceDay365;
 
-  /// No description provided for @opioidReferenceDay730.
+  /// Source for the opioid recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two Years Off Opioids: A Stable Foundation\n\nSource: \"Treatment of Opioid Use Disorder,\" Centers for Disease Control and Prevention (CDC)\n\nA Chronic Condition, Managed Well\nThe CDC describes opioid use disorder as \'a chronic disease that can affect anyone\' — \'a medical condition, not a moral failing.\' Reaching two years of sustained recovery means you have been managing that condition successfully through one of its most vulnerable periods.\n\nWhat the CDC Says Works\nThe CDC\'s guidance centres on treatments that keep recovery stable over the long term:\n• Medications for opioid use disorder — buprenorphine, methadone, and naltrexone — which it calls especially effective\n• Combining medication with behavioural therapy and counselling\n• Treatment that lasts for varying lengths of time, tailored to the person\nThe CDC notes these medications help \'normalize brain chemistry\' and relieve cravings — the chemistry that felt hijacked in active addiction works with you again.\n\nStaying Safe\nThe CDC urges people in recovery to ask their doctor about the risk of returning to use and overdose, and to keep naloxone on hand. Tolerance falls during abstinence, so a return to opioids after this long is especially dangerous — knowing that is part of protecting what you\'ve built.\n\nTwo Years In\nThe CDC is clear that recovery is often a long-term process rather than a finish line. Two years is not the end of the journey — it is a stable, healthy foundation, and strong evidence that the approach you are using works.'**
   String get opioidReferenceDay730;
 
-  /// No description provided for @opioidReferenceDay1095.
+  /// Source for the opioid recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three Years - Recovery Endures\n\nSource: Centers for Disease Control and Prevention (CDC), “Treatment of Opioid Use Disorder”\n\nCDC guidance describes opioid use disorder as a chronic, treatable condition. Treatment can take different forms and last for different lengths of time, and medication treatment is an evidence-based recovery option.\n\nThe guidance does not define a three-year biological endpoint. This milestone celebrates 1,095 days of sustained recovery and the support, treatment, and daily choices that made it possible.'**
   String get opioidReferenceDay1095;
 
-  /// No description provided for @opioidReferenceDay1460.
+  /// Source for the opioid recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four Years - Strong Foundation\n\nSource: Centers for Disease Control and Prevention (CDC), “Treatment of Opioid Use Disorder”\n\nCDC guidance says recovery is possible and treatment should be individualized. It supports medication treatment and behavioral care without setting one timetable that everyone must follow.\n\nThere is no CDC four-year biological finish line. Four years instead marks a durable pattern of recovery and another full year of protecting what has been built.'**
   String get opioidReferenceDay1460;
 
-  /// No description provided for @opioidReferenceDay1825.
+  /// Source for the opioid recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Five Years - Half a Decade\n\nSource: Centers for Disease Control and Prevention (CDC), “Treatment of Opioid Use Disorder”\n\nCDC guidance treats recovery as individual and does not set an anniversary when treatment must end or recovery becomes biologically complete.\n\nFive years is half a decade of sustained change. That achievement stands on its own and does not need an invented medical finish line.'**
   String get opioidReferenceDay1825;
 
-  /// No description provided for @pornographyReferenceDay1.
+  /// Source for the pornography recovery milestone at 1 day.
   ///
   /// In en, this message translates to:
   /// **'Day One: Taking Back Control\n\nSource: Kraus et al., Compulsive sexual behaviour disorder in the ICD-11, World Psychiatry (2018).\n\nThe clinically important problem is not pornography use by itself. Compulsive Sexual Behaviour Disorder is defined around persistent difficulty controlling repetitive sexual behaviour when that pattern causes significant distress or impairment. Problematic pornography use can be one presentation of that broader problem.\n\nThat makes day one concrete rather than mystical: you have interrupted a behaviour you had decided was out of control. One completed day does not prove a brain and nerve reset, but it does give you the first real observation of when urges appear, what situations trigger them, and what you can do instead.\n\nIf your use was not distressing, impairing, or difficult to control, the clinical CSBD framework may not apply to you. These milestones are aimed at people who are deliberately changing problematic or compulsive use.'**
   String get pornographyReferenceDay1;
 
-  /// No description provided for @pornographyReferenceDay3.
+  /// Source for the pornography recovery milestone at 3 days.
   ///
   /// In en, this message translates to:
   /// **'Day Three: Know What an Urge Can Look Like\n\nSource: Lewczuk et al., Withdrawal and tolerance as related to compulsive sexual behavior disorder and problematic pornography use, Journal of Behavioral Addictions (2022).\n\nIn a preregistered nationally representative Polish sample of 1,541 adults, stronger self-reported withdrawal-like experiences were associated with greater CSBD and problematic-pornography-use severity. Among participants with problematic pornography use, commonly reported experiences included difficult-to-stop sexual thoughts, difficult-to-control desire, increased arousal, irritability, mood changes, and sleep problems.\n\nRestlessness, intrusive sexual thoughts, strong urges, and irritability are documented in people with more severe problematic use. If they show up around day three, treat them as a real withdrawal-like pattern and manage the triggers.\n\nWrite down which urges are actually happening, what preceded them, and what response helped. Recovery gets easier to steer when the trigger is named rather than treated as a mysterious brain event.'**
   String get pornographyReferenceDay3;
 
-  /// No description provided for @pornographyReferenceDay7.
+  /// Source for the pornography recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'One Week: What a Randomized Abstinence Study Found\n\nSource: Effects of a 7-Day Pornography Abstinence Period on Withdrawal-Related Symptoms in Regular Pornography Users, Archives of Sexual Behavior (2023).\n\nResearchers randomized 176 regular pornography users either to attempt seven days of abstinence or to continue as usual. Across the full sample, abstinence did not produce a significant overall increase in craving, negative mood, or withdrawal symptoms.\n\nAn exploratory analysis did find increased craving among people who combined high problematic-use scores with daily pornography use before the study. That result needs replication, but it is useful: a difficult first week can be real for heavier problematic users, while a universal pornography withdrawal syndrome is not supported by this trial.\n\nIf you have made it through a week, you now have better evidence about your own pattern than any generic internet timeline can provide.'**
   String get pornographyReferenceDay7;
 
-  /// No description provided for @pornographyReferenceDay14.
+  /// Source for the pornography recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Two Weeks: Map the Triggers That Actually Matter\n\nSource: Biopsychosocial Determinants of Problematic Pornography Use: A Systematic Review (2023).\n\nThis review synthesized 66 studies and found that problematic pornography use is associated with a mix of factors rather than one simple dopamine mechanism. Repeatedly identified psychological and social factors included craving, stress, avoidance, loneliness, self-esteem, negative beliefs, and coping style.\n\nTwo weeks gives you repeated exposure to weekdays, weekends, boredom, stress, privacy, devices, and other contexts that may have cued the old behaviour. Use that data. If stress is the trigger, design a stress response. If loneliness is the trigger, add contact. If easy access is the trigger, change the environment.\n\nThe evidence supports working on the drivers of problematic use; it does not require pretending that every person follows the same biological countdown.'**
   String get pornographyReferenceDay14;
 
-  /// No description provided for @pornographyReferenceDay30.
+  /// Source for the pornography recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
   /// **'One Month: Control Matters More Than a Simple Frequency Count\n\nSource: Bőthe et al., Are sexual functioning problems associated with frequent pornography use and/or problematic pornography use?, Addictive Behaviors (2021).\n\nIn a community sample of 14,581 adults, problematic pornography use had a moderate positive association with sexual-functioning problems in both men and women. Pornography-use frequency by itself showed a weak negative association with those problems.\n\nThat distinction matters. The evidence does not support telling every pornography user that viewing frequency alone damages sexual function. The more clinically relevant target is loss of control and the problems surrounding that pattern.\n\nAt one month, compare life now with when you started: preoccupation, time lost, ability to stop, sexual functioning, relationship conflict, and distress. Those changes matter more than waiting for a mythical day-30 brain reset.'**
   String get pornographyReferenceDay30;
 
-  /// No description provided for @pornographyReferenceDay90.
+  /// Source for the pornography recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three Months: Durable Change Is Possible\n\nSource: Crosby & Twohig, Acceptance and Commitment Therapy for Problematic Internet Pornography Use: A Randomized Trial, Behavior Therapy (2016).\n\nThis small randomized trial compared a 12-session ACT program with a waitlist in 28 adult men. Pornography viewing fell much more in the ACT group at the end of treatment, and substantial reductions remained at the three-month follow-up.\n\nThe study does not prove that 90 days of abstinence alone causes the same result, and its sample was small and demographically narrow. What it does demonstrate is important: problematic pornography use is modifiable, and structured skills can produce changes that persist beyond the immediate treatment period.\n\nIf your progress still depends mostly on white-knuckling, three months is a good point to strengthen the system around it: trigger plans, acceptance of urges without acting, environmental friction, accountability, and therapy when needed.'**
   String get pornographyReferenceDay90;
 
-  /// No description provided for @pornographyReferenceDay180.
+  /// Source for the pornography recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
   /// **'Six Months: Long-Term Symptom Control Can Hold\n\nSource: Hallberg et al., A Randomized Controlled Study of Group-Administered Cognitive Behavioral Therapy for Hypersexual Disorder in Men, Journal of Sexual Medicine (2019).\n\nIn 137 men with out-of-control sexual behaviour, seven weeks of group CBT produced greater reductions in hypersexual symptoms and sexual compulsivity than a waitlist, along with improved psychiatric well-being. The treatment gains remained stable at both three- and six-month follow-up.\n\nThis study covered hypersexual disorder more broadly rather than pornography abstinence alone, so it should not be turned into a claim that every person is biologically recovered at six months. It does support a stronger and more useful statement: sustained improvement in compulsive sexual behaviour can remain stable over this length of time.\n\nSix months is therefore a maintenance milestone. Keep the routines that made control easier instead of treating the date as permission to dismantle them.'**
   String get pornographyReferenceDay180;
 
-  /// No description provided for @pornographyReferenceDay365.
+  /// Source for the pornography recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
   /// **'One Year: Evidence for Durable Behaviour Change\n\nSource: One-year follow-up effects of an acceptance-based treatment for hypersexuality (2026).\n\nAt one-year follow-up, participants in this acceptance-based treatment study had not returned to their pretreatment levels of hypersexuality. The authors described the findings as preliminary evidence of durable, clinically meaningful benefits, with perceived control over craving among the processes followed over time.\n\nThis is treatment follow-up evidence, not proof of a one-year brain reset. The meaningful claim is better anyway: clinically relevant control can persist for a year rather than disappearing as soon as the initial intervention ends.\n\nA year of your own maintained change is also a large personal dataset. Compare current control, distress, functioning, relationships, and time use with where you started; those are the outcomes that matter clinically.'**
@@ -6384,301 +6408,301 @@ abstract class AppLocalizations {
   /// **'Four Years: Durable Change\n\nSource: Ince et al., Compulsive sexual behavior disorder (CSBD) and problematic pornography use (PPU): a comprehensive, interdisciplinary, and expert-informed narrative review (2026).\n\nThe evidence base emphasizes heterogeneity and context and does not support a universal four-year point at which biological recovery is complete.\n\nFour years can still demonstrate deep maintenance. If the old pattern no longer dominates choices or disrupts relationships and functioning, those are substantive long-term outcomes.'**
   String get pornographyReferenceDay1460;
 
-  /// No description provided for @pornographyReferenceDay1825.
+  /// Source for the pornography recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Five Years: Long-Term Control Is the Outcome\n\nSource: Compulsive sexual behavior disorder and problematic pornography use: a comprehensive interdisciplinary expert-informed review (2026).\n\nModern reviews treat CSBD and problematic pornography use as complex problems involving control, distress, functioning, context, and individual differences. There is no validated five-year brain and nerve reset threshold.\n\nBut five years is not an empty milestone. It is 1,825 days of maintaining the behavioural direction you chose. Because the clinical problem is persistent loss of control with distress or impairment, sustained control and restored functioning over years are meaningful outcomes in their own right.\n\nAt this stage, the useful question is no longer whether your brain has reached a fictional percentage of rewiring. It is whether the old pattern still controls your choices or disrupts the life you want. If it does not, that is a substantive long-term success.'**
   String get pornographyReferenceDay1825;
 
-  /// No description provided for @smokingReferenceDay1.
+  /// Source for the smoking recovery milestone at 1 day.
   ///
   /// In en, this message translates to:
   /// **'Day One: Benefits Start Now\n\nSource: NHS Better Health\n\nBenefits begin within minutes — not days. The body starts to normalise as soon as the smoke stops.\n\nWhat happens today\n• 20 minutes: pulse rate begins returning to normal\n• 8 hours: carbon monoxide in the blood falls by half; oxygen levels are recovering\n• 48 hours: carbon monoxide has dropped to the level of a non-smoker\n\nCarbon monoxide binds to red blood cells more strongly than oxygen, displacing it from your blood. Every organ was getting less oxygen than it should. That reverses within two days.\n\nWithdrawal begins on day one\n• Cravings — each typically lasting 3–5 minutes\n• Irritability and difficulty concentrating\n• Increased appetite\n\nThese are temporary and manageable. The NHS Better Health programme offers free support including apps and pharmacist advice.'**
   String get smokingReferenceDay1;
 
-  /// No description provided for @smokingReferenceDay3.
+  /// Source for the smoking recovery milestone at 3 days.
   ///
   /// In en, this message translates to:
   /// **'Day Three: Peak Withdrawal\n\nSource: McLaughlin, Dani & De Biasi\n\nBy 72 hours, nicotine is gone from your body. The brain built extra nicotine receptors during your smoking years; now they\'re understimulated, causing the withdrawal syndrome.\n\nPeak symptoms\n• Cravings — most intense right now\n• Irritability, frustration, restlessness\n• Difficulty concentrating\n• Anxiety\n• Headaches\n• Increased appetite\n• Coughing (the airways are clearing — a good sign)\n\nThis is the hardest day. It doesn\'t get worse than this — from here the symptoms steadily ease as your brain readjusts.\n\nNRT, varenicline, and bupropion all significantly reduce withdrawal severity at this stage.'**
   String get smokingReferenceDay3;
 
-  /// No description provided for @smokingReferenceDay7.
+  /// Source for the smoking recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'One Week: Taste and Smell Return\n\nSource: NHS Better Health\n\nReaching one week smoke-free is a strong predictor of long-term success — people who get through the first week are far more likely to quit for good.\n\nWhat\'s recovered\n• Food tastes more flavourful\n• Smells are more vivid\n• Breathing is easier — airways are clearing\n• Circulation is improving\n• Skin is better hydrated\n\nSmoking damages taste and smell receptors directly; within days of stopping, they begin to recover.\n\nThe acute nicotine withdrawal is easing. Physical cravings are shorter and less frequent. Trigger-based cravings may still be present, but the worst of the physical urgency is behind you.'**
   String get smokingReferenceDay7;
 
-  /// No description provided for @smokingReferenceDay14.
+  /// Source for the smoking recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Two Weeks: Circulation Improves\n\nSource: NHS Better Health\n\nWithin 2–12 weeks of stopping, blood circulation improves. Nicotine narrows blood vessels with every cigarette; without it, the vessels relax and blood flows more freely.\n\nWhat this means\n• Blood flow to hands, feet, and peripheral tissues improves\n• Many people notice warmer hands and feet\n• Walking and climbing stairs starts to feel easier\n\nWith carbon monoxide already cleared from the blood in the first day and circulation improving now, oxygen reaches muscles more effectively.\n\nThe cilia lining the airways are recovering and pushing out built-up mucus. If you\'re coughing more than usual, it\'s a sign of recovery, not a setback.'**
   String get smokingReferenceDay14;
 
-  /// No description provided for @smokingReferenceDay30.
+  /// Source for the smoking recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
   /// **'One Month: Lung Function Climbs\n\nSource: NHS Better Health\n\nBreathing becomes easier and lung function improves — increasing by up to 10% over the 3-to-9-month window. At one month, you\'re well into that recovery curve.\n\nWhat\'s happening in the lungs\n• Cilia have regrown and are clearing mucus more effectively\n• Airway inflammation is settling\n• The persistent smoker\'s cough is fading\n• Exercise tolerance is improving\n\nAny coughs, wheezing and breathing problems improve as lung function increases. One month is a meaningful point on that recovery curve.'**
   String get smokingReferenceDay30;
 
-  /// No description provided for @smokingReferenceDay90.
+  /// Source for the smoking recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three Months: Heart Attack Risk Drops\n\nSource: PMC — Cardiovascular Effects of Smoking and Cessation (2024)\n\nSmoking damages the heart and arteries in multiple ways: it accelerates artery plaque buildup, promotes blood clotting, raises blood pressure, and damages the arterial lining. The procoagulant, clot-promoting effects reverse within days of stopping, and this review reports a notable decline in heart attacks and strokes within the first year of quitting.\n\nWhat\'s improved by now\n• Blood clotting factors are normalising\n• Blood pressure and heart rate are stabilising\n• The sharpest early drop in acute cardiovascular event risk is well underway\n\nThe slower-acting benefits — reversing years of arterial plaque buildup — take longer and are covered in later milestones. Every smoke-free month adds to the recovery.'**
   String get smokingReferenceDay90;
 
-  /// No description provided for @smokingReferenceDay180.
+  /// Source for the smoking recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
   /// **'Six Months: Lung Immune Cells Bounce Back\n\nSource: Smoke-free period and recovery of alveolar immune-cell function (PubMed)\n\nSmoking can suppress alveolar macrophages — immune cells deep in the lungs that engulf and kill bacteria.\n\nWhat the study measured\nResearchers compared 15 never-smokers, 15 current smokers, and 41 former smokers who had been smoke-free for 2 months, 3–5 months, or 6–12 months during general anesthesia.\n\nA concrete recovery signal\nDuring anesthesia, the drop in alveolar-macrophage phagocytosis and bacteria-killing activity was 1.5–3 times greater in current smokers and two-month quitters than in never-smokers. At 3–12 months smoke-free, antimicrobial responses were closer to the never-smoker pattern than at two months.\n\nInflammatory signaling recovered on a slower timetable, with altered cytokine responses still seen through six months. Six months is a real checkpoint in lung immune recovery, with more healing still ahead.'**
   String get smokingReferenceDay180;
 
-  /// No description provided for @smokingReferenceDay365.
+  /// Source for the smoking recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
   /// **'One Year: Heart Attack Risk Falls Sharply\n\nSource: PMC — Smoking Cessation and Stroke Outcome; CDC, Benefits of Quitting Smoking\n\nSmoking roughly doubles stroke risk by promoting artery plaque buildup, increasing blood clotting, raising blood pressure, and damaging cerebral blood vessels. The CDC\'s own quitting-benefits timeline puts the sharp drop in heart attack risk at the 1-to-2-year mark — you\'re at the front edge of that window.\n\nRecovery Timeline\nFull stroke-risk normalisation takes longer: the cited stroke study followed quitters for a median of nearly five years to show a meaningfully lower stroke rate than continued smokers, and CDC data puts halved coronary heart disease risk at 3 to 6 years, with stroke risk decreasing over the 5-to-10-year mark.\n\nOne year is still a genuine medical milestone — the steepest part of the acute-risk decline is behind you, even though the longer-term cardiovascular and cancer benefits continue to build for years.'**
   String get smokingReferenceDay365;
 
-  /// No description provided for @smokingReferenceDay730.
+  /// Source for the smoking recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two Years: Cardiovascular Gains Continue\n\nSource: CDC, Benefits of Quitting Smoking\n\nCDC reports that heart-attack risk falls sharply within 1–2 years after quitting. Two years marks the far edge of that evidence window, not a single-day switch.\n\nThe longer trend continues: added coronary-heart-disease risk keeps declining and is reported to drop by half during the 3–6-year period. Two years smoke-free is worth celebrating without pretending the body changes on one exact date.'**
   String get smokingReferenceDay730;
 
-  /// No description provided for @smokingReferenceDay1095.
+  /// Source for the smoking recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three Years: The 3–6-Year Heart Window Begins\n\nSource: CDC, Benefits of Quitting Smoking\n\nCDC places the halving of added coronary-heart-disease risk in a 3–6-year period after smoking cessation. Three years is the beginning of that range.\n\nThe evidence describes a window, not an instant threshold. Reaching three years means long-term cardiovascular risk reduction is well underway while the benefit continues to accumulate.'**
   String get smokingReferenceDay1095;
 
-  /// No description provided for @smokingReferenceDay1460.
+  /// Source for the smoking recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four Years: Heart Benefits Keep Building\n\nSource: CDC, Benefits of Quitting Smoking\n\nFour years smoke-free sits inside CDC’s 3–6-year window in which the added risk of coronary heart disease drops by half compared with continued smoking.\n\nThat range matters: it avoids claiming an exact four-year biological switch while still recognizing a medically grounded period of major cardiovascular improvement.'**
   String get smokingReferenceDay1460;
 
-  /// No description provided for @smokingReferenceDay1825.
+  /// Source for the smoking recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Five Years: Big Cancer-Risk Wins Begin\n\nSource: CDC, Benefits of Quitting Smoking\n\nFive years puts you at the front edge of a major risk-reduction window.\n\nFive-to-ten-year milestones\n• Added risk of cancers of the mouth, throat, and voice box: drops by half\n• Stroke risk: decreases\n\nStill ahead\n• Around 10 years: risk of bladder, esophagus, and kidney cancers decreases\n• 10–15 years: added lung-cancer risk drops by half\n• 15 years: coronary heart disease risk falls close to that of someone who does not smoke\n• 20 years: mouth, throat, and voice-box cancer risk falls close to that of someone who does not smoke; added cervical-cancer risk drops by about half\n\nFive years smoke-free is a huge milestone — you’ve reached the window where major cancer and stroke-risk reductions are taking hold, with more big wins still ahead.'**
   String get smokingReferenceDay1825;
 
-  /// No description provided for @snriReferenceDay3.
+  /// Source for the snri recovery milestone at 3 days.
   ///
   /// In en, this message translates to:
   /// **'SNRI Discontinuation: The First Days\n\nSource: Harvard Health Publishing\n\nImportant Safety Note\nSNRIs should only be stopped under medical supervision following a gradual taper. Venlafaxine (Effexor) in particular has an extremely short half-life of approximately 5 hours, meaning the drug clears from the body very rapidly and discontinuation symptoms can be severe and sudden.\n\nWhy SNRIs Are Harder to Stop Than SSRIs\nSNRIs affect two mood-regulating brain chemicals — serotonin and noradrenaline — meaning both need to readjust when you stop. The discontinuation symptoms are often more intense with SNRIs than SSRIs:\n• Flu-like symptoms (fatigue, sweating, muscle aches)\n• Insomnia and disturbed sleep\n• Nausea — often more pronounced than with SSRIs\n• Imbalance and dizziness\n• Sensory disturbances — \'brain zaps\' can be very intense with venlafaxine\n• Hyperarousal, irritability, and anxiety\n\nComparing SNRIs\nVenlafaxine has the most difficult discontinuation profile due to its short half-life. Duloxetine (Cymbalta) tends to be somewhat easier due to its longer half-life of 12 hours. Desvenlafaxine falls between the two.'**
   String get snriReferenceDay3;
 
-  /// No description provided for @snriReferenceDay7.
+  /// Source for the snri recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'One Week After SNRIs: Two Brain-Chemical Systems Adjusting\n\nSource: NHS — Stopping or coming off antidepressants (general antidepressant guidance; the noradrenaline-specific mechanisms below reflect general SNRI pharmacology rather than SNRI-specific detail from the NHS page itself)\n\nThe Dual-System Challenge\nUnlike most antidepressants that affect one system, SNRIs affect both serotonin and noradrenaline. By one week, both systems are adjusting:\n\nNoradrenaline System Effects\nThe noradrenaline system governs the body\'s fight-or-flight response, blood pressure regulation, and energy levels. As it readjusts:\n• Blood pressure fluctuations may occur\n• Anxiety may feel more physical (racing heart, sweating)\n• Energy levels may be inconsistent\n\nSerotonin System Effects\nSimultaneously, the serotonin system is adjusting — producing the withdrawal symptoms typical of stopping any antidepressant. The combination of both systems adjusting can make the first week particularly challenging.\n\nPhysically this often shows as improving blood pressure stability and fewer episodes of dizziness on standing. Emotionally, mood is more variable than it will be at 30 days but no longer in freefall.'**
   String get snriReferenceDay7;
 
-  /// No description provided for @snriReferenceDay14.
+  /// Source for the snri recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Two Weeks After SNRIs: Physical Symptoms Fading\n\nSource: Davies & Read (2019), Addictive Behaviors\n\nTwo-Week Status\nFor most people following a proper taper, the acute physical phase is largely resolved by two weeks:\n• Brain zaps significantly reduced or absent\n• Nausea and flu-like symptoms resolved\n• Dizziness and balance issues improving\n• Blood pressure and heart rate stabilising as noradrenaline rebalances\n\nWhat May Persist\n• Emotional sensitivity and mood variability\n• Anxiety — which the noradrenaline system particularly influences\n• Fatigue, as the noradrenaline system provides alertness and energy\n\nResearch Context\nThe Addictive Behaviors systematic review (Davies & Read, 2019) confirmed that SNRI discontinuation effects are among the most severe of any antidepressant class, with venlafaxine associated with particularly high rates of significant withdrawal symptoms.'**
   String get snriReferenceDay14;
 
-  /// No description provided for @snriReferenceDay30.
+  /// Source for the snri recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
   /// **'One Month After SNRIs: Dual System Stabilising\n\nSource: Davies & Read (2019), Addictive Behaviors — systematic review of antidepressant withdrawal incidence, severity, and duration\n\nThe Stabilisation Phase\nOne month represents a significant milestone in serotonin and noradrenaline recovery. This review found that, while a substantial minority of people experience withdrawal effects lasting beyond a few weeks, most people are well past the acute, most-severe phase of physical discontinuation symptoms by this point.\n\nWhat Typically Improves by One Month\n• Physical discontinuation symptoms (brain zaps, nausea, dizziness) resolved for most\n• Blood pressure returning to natural level\n• Sleep quality improving — REM sleep patterns restoring naturally\n• Energy levels beginning to stabilise as noradrenaline regulation normalises\n\nEmotional Blunting Resolution\nOne of the most commonly reported experiences at this stage is the resolution of emotional blunting — many people on SNRIs notice a \'flattened\' emotional range. As the drug clears and the brain readjusts, emotional range and sensitivity typically returns.'**
   String get snriReferenceDay30;
 
-  /// No description provided for @snriReferenceDay90.
+  /// Source for the snri recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three Months After SNRIs: Past the Typical Withdrawal Window\n\nSource: Fava et al. (2018), \"Withdrawal Symptoms after Serotonin-Noradrenaline Reuptake Inhibitor Discontinuation: Systematic Review,\" Psychotherapy and Psychosomatics\n\nWhat SNRI Withdrawal Usually Does\nAcross 61 reports — including 22 double-blind randomized controlled trials — withdrawal symptoms were reported after every SNRI type studied. Symptoms typically began within a few days of discontinuation and lasted a few weeks, including with gradual tapering. Venlafaxine had a higher prevalence of withdrawal symptoms across reports.\n\nWhy Day 90 Matters\nNinety days is well beyond that typical few-week course. Reaching three months means the usual SNRI withdrawal window is behind you.\n\nLonger Courses Can Happen\nThe review also found later-onset or longer-lasting disturbances. If significant symptoms are still active at three months, review them with your prescriber.'**
   String get snriReferenceDay90;
 
-  /// No description provided for @snriReferenceDay180.
+  /// Source for the snri recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
   /// **'Six Months After SNRIs: Brain and nerve Recovery\n\nRecovery Signal on Six-Month Data\nBy six months after a completed, medically supervised taper, the severe early SNRI withdrawal period is far behind you. Mood, sleep, sexual function, and clear thinking have had months to recover:\n• Serotonin pathways: substantially restored\n• Noradrenaline pathways: normalised, with the stress response system also settling\n• Sleep architecture: expected to be fully restored\n• Sexual function: largely restored for most people (sexual dysfunction is a common SNRI side effect, though for some it can persist and is worth discussing with a prescriber)\n\nResilience to Stress\nMany people at six months report notably improved resilience to everyday stressors as the noradrenaline system\'s role in arousal and stress response — which SNRIs powerfully modulate — settles back to its natural level.'**
   String get snriReferenceDay180;
 
-  /// No description provided for @snriReferenceDay365.
+  /// Source for the snri recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
   /// **'One Year After SNRIs: Recovery Achieved\n\nOne Year: A Complete Dual-System Recovery\nOne year after completing an SNRI taper, both the serotonin and noradrenaline systems have had a complete cycle to adapt and stabilise.\n\nWhat the Evidence Actually Supports at One Year\nThis Therapeutics Letter review notes that documented withdrawal symptoms \'usually appear within a few days of stopping\' and that most resolve within about two weeks — there is no controlled study following people specifically one year after SNRI discontinuation. What\'s well supported by the broader clinical picture at this distance:\n• The majority of those who completed a proper taper and received psychological support remain well\n• The emotional blunting and sexual dysfunction that characterise SNRI use have fully resolved for most people\n• Clear thinking, including the concentration benefits that SNRIs can provide, are maintained through natural brain function\n\nThe Significance of This Milestone\nSuccessfully discontinuing an SNRI — particularly venlafaxine — is a significant achievement. The intensity of the discontinuation process and the commitment required to manage it under medical supervision demonstrates remarkable resilience.'**
   String get snriReferenceDay365;
 
-  /// No description provided for @socialMediaReferenceDay1.
+  /// Source for the social media recovery milestone at 1 day.
   ///
   /// In en, this message translates to:
   /// **'Stepping Back From Social Media: Day One\n\nSource: Lambert et al., \"Taking a One-Week Break from Social Media Improves Well-Being, Depression, and Anxiety: A Randomized Controlled Trial,\" Cyberpsychology, Behavior, and Social Networking (2022), on PubMed\n\nWhat the Evidence Shows\nIn this strong controlled study, people were randomly assigned either to take a one-week break from Facebook, Instagram, Twitter, and TikTok or to keep using them as usual. The break group showed significant improvements in well-being and reductions in depression and anxiety. That is real, controlled evidence that stepping back helps.\n\nWhat the Evidence Shows\nCompulsive social-media use is strongly linked to lower mood and higher anxiety, and randomized trials show that deliberately cutting back can improve well-being while reducing depression and anxiety within a week.\n\nDay One: What to Expect\n• Restlessness and an urge to check\n• \'Phantom\' notifications — feeling a buzz that didn\'t happen\n• Boredom as you adjust to less constant stimulation\nThese are normal habit-related sensations, and they are temporary. Recognising the pattern is the first step in changing it.'**
   String get socialMediaReferenceDay1;
 
-  /// No description provided for @socialMediaReferenceDay3.
+  /// Source for the social media recovery milestone at 3 days.
   ///
   /// In en, this message translates to:
   /// **'Three Days Without Social Media: Anxiety and Mood\n\nSource: Lambert et al., \"Taking a One-Week Break from Social Media Improves Well-Being, Depression, and Anxiety: A Randomized Controlled Trial,\" Cyberpsychology, Behavior, and Social Networking (2022), on PubMed\n\nWhy a Break Helps Mood\nIn this controlled trial, people randomly assigned to a one-week break from social media ended the week with lower anxiety and depression and higher well-being than those who kept scrolling. Much of the day-to-day distress of heavy use comes from social comparison — measuring your real life against others\' curated highlight reels — and from the low-grade pull of fear-of-missing-out.\n\nWhat Happens Around 72 Hours\nEarly in a break, the habit is still loud:\n• Strong urges to check, often triggered by routine moments (waking, waiting in line)\n• Some irritability and restlessness\n• For some people, the first easing of comparison-driven anxiety\n• The pre-sleep scroll habit starting to loosen\n\nThe Comparison Trap Loosens\nWithout a constant feed of other people\'s highlights, the comparison that fuels much social-media anxiety has less fuel. The trial\'s results suggest that by the end of the first week these early shifts add up to a measurable improvement in mood — so the discomfort at three days is the hard part of a change that pays off.'**
   String get socialMediaReferenceDay3;
 
-  /// No description provided for @socialMediaReferenceDay7.
+  /// Source for the social media recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'One Week Without Social Media: The Measured Payoff\n\nSource: Lambert et al., \"Taking a One-Week Break from Social Media Improves Well-Being, Depression, and Anxiety: A Randomized Controlled Trial,\" Cyberpsychology, Behavior, and Social Networking (2022), on PubMed\n\nExactly One Week — and It Worked\nThis is the milestone the research speaks to most directly: the trial\'s intervention was a one-week break. Compared with people who kept using social media, the break group showed significantly higher well-being and significantly lower depression and anxiety after just seven days. Reaching one week is reaching the point at which a controlled study found real benefit.\n\nWhat People Commonly Notice\nAlongside the measured mood gains, people often report:\n• More reclaimed time — many are surprised how much they had been spending\n• Easier focus, as the habit of constant attention-switching loosens\n• Calmer evenings and easier sleep without the pre-bed scroll\nThese gains fit the broader improvement in well-being measured in the trial.\n\nKeep Going\nOne week is a genuine, evidence-backed milestone. The mood, time, and attention benefits tend to deepen the longer the healthier pattern holds.'**
   String get socialMediaReferenceDay7;
 
-  /// No description provided for @socialMediaReferenceDay14.
+  /// Source for the social media recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Two Weeks Without Social Media: Two-Week Gains\n\nSource: Coyne & Woodruff, \"Taking a Break: The Effects of Partaking in a Two-Week Social Media Digital Detox… among Young Adults,\" Behavioral Sciences (2023), on PubMed Central\n\nAbout This Study\nYoung adults limited social media to about 30 minutes a day for two weeks, with usage tracked objectively on their phones (it fell by roughly 78%). Participants cut social-media use by roughly 78%, giving this milestone a direct real-world test of what happens when use is sharply reduced for two weeks.\n\nWhat Improved\nOver the two weeks, participants showed improvements in:\n• Sleep — both duration and quality\n• Satisfaction with life\n• Stress\n• Perceived wellness\n• Scores on smartphone and social-media addiction scales\nThe measured gains were concrete: longer and better sleep, lower stress, higher life satisfaction and perceived wellness, and lower smartphone/social-media addiction scores.\n\nWatch for Backsliding\nThe researchers also noticed use creeping back toward previous levels afterwards. Two weeks is a real gain, but it highlights why an intentional plan — not just a temporary break — is what keeps the benefits.'**
   String get socialMediaReferenceDay14;
 
-  /// No description provided for @socialMediaReferenceDay30.
+  /// Source for the social media recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
   /// **'One Month Without Social Media: Real Connection Deepens\n\nSource: Coyne & Woodruff, \"Taking a Break: The Effects of Partaking in a Two-Week Social Media Digital Detox… among Young Adults,\" Behavioral Sciences (2023), on PubMed Central\n\nConnection Can Improve When You Step Back\nIt sounds paradoxical — but in this study, cutting social media right back was associated with improvement in supportive relationships, along with better life satisfaction and lower stress. Time and attention that went to the feed became available for the people actually in your life.\n\nWhat One Month Tends to Bring\nBy 30 days, with the automatic pull of checking much weaker, many people find:\n• Conversations are more present and less interrupted\n• More interest in real-world activities and hobbies\n• Self-image leaning less on likes, comments, and follower counts\n\nRecovery Signal\nBy one month, you have sustained the healthier pattern for twice the study\'s intervention window. The sleep, stress, life-satisfaction, wellness, and relationship gains measured at two weeks have had another two weeks to consolidate into routine.\n\nMake the Time Count\nAim to fill freed time with activities that build genuine connection and fulfilment, rather than simply swapping one screen for another.'**
   String get socialMediaReferenceDay30;
 
-  /// No description provided for @socialMediaReferenceDay60.
+  /// Source for the social media recovery milestone at 60 days.
   ///
   /// In en, this message translates to:
   /// **'Two Months Without Social Media: What the Evidence Supports\n\nSource: Ramadhan et al., \"Impacts of digital social media detox for mental health: A systematic review and meta-analysis,\" Narra J (2024), on PubMed Central\n\nThe Most Reliable Picture\nResearchers combined results from 10 studies, including seven controlled trials. The clearest result was a meaningful reduction in depressive symptoms after people stepped back from social media.\n\nThe Strongest Result\nThe combined research found a clear reduction in depressive symptoms. By two months, you are sustaining the same kind of lower digital exposure that produced that mental-health benefit.\n\nWhat Two Months Can Look Like\nWith less daily comparison and less feed-driven reinforcement, self-image has far less reason to depend on likes, comments, or follower counts, while the strongest pooled evidence points to lower depressive symptoms.\n\nThe Practical Takeaway\nThe evidence rewards intentional, sustained change. Use the two-month point to keep deliberate limits in place rather than drifting back, and to invest in offline sources of meaning and connection.'**
   String get socialMediaReferenceDay60;
 
-  /// No description provided for @socialMediaReferenceDay90.
+  /// Source for the social media recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three Months Without Social Media: A New Normal\n\nSource: Coyne & Woodruff, \"Taking a Break: The Effects of Partaking in a Two-Week Social Media Digital Detox… among Young Adults,\" Behavioral Sciences (2023), on PubMed Central\n\nSleep Is the Standout\nAmong this study\'s clearest findings was improved sleep — both duration and quality — when participants cut social media right back. By three months of a sustained healthier pattern, the late-night scroll that used to eat into sleep has long stopped competing with rest, and better sleep tends to lift mood, focus, and energy with it.\n\nWhat Else Improved\nThe same study found gains in stress, life satisfaction, perceived wellness, and supportive relationships. At three months these are no longer novelties — they have had time to settle into a new normal.\n\nRecovery Signal on Mechanism\nCutting social media sharply improved both sleep duration and sleep quality in the intervention study. Three months of sustaining that pattern turns the late-night-scroll reduction into a durable sleep habit.\n\nPresence and Relationships\nWith the reflex to fill every quiet moment with the phone much weaker, being present — in conversations, meals, and downtime — comes more naturally, and the relationships you have invested in over three months tend to feel stronger for it.'**
   String get socialMediaReferenceDay90;
 
-  /// No description provided for @socialMediaReferenceDay180.
+  /// Source for the social media recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
   /// **'Six Months Without Social Media: Measured Recovery\n\nSource: Ramadhan et al., \"Impacts of digital social media detox for mental health: A systematic review and meta-analysis,\" Narra J (2024), on PubMed Central\n\nWhat Meta-Analysis Adds\nCombining 10 studies, including seven controlled trials, researchers found a clear reduction in depressive symptoms after people reduced or paused social media.\n\nWhat It Actually Found\n• Depression: a statistically significant reduction (the clearest, most consistent benefit)\n• Life satisfaction: no significant effect\n• Stress: no significant effect\n• Overall mental well-being: no significant effect\nThe strongest pooled result is clear: digital detox significantly reduces depressive symptoms.\n\nWhy You May Still Feel Broad Benefits\nSix months of reduced feed exposure compounds the practical gains seen in shorter interventions: more available time, less compulsive checking, and a sustained reduction in the digital exposure associated with depressive symptoms.\n\nKeep Control of the Feed\nThe biggest gains come from breaking heavy, passive, compulsive use. By six months, intentional control over social media is the new default rather than the feed controlling your attention.'**
   String get socialMediaReferenceDay180;
 
-  /// No description provided for @socialMediaReferenceDay365.
+  /// Source for the social media recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
   /// **'One Year Without Social Media: A Renegotiated Relationship\n\nSource: Ramadhan et al., \"Impacts of digital social media detox for mental health: A systematic review and meta-analysis,\" Narra J (2024), on PubMed Central\n\nOne Year of Sustained Change\nThe strongest combined research shows that stepping back from social media reduces depressive symptoms. A full year means that lower-exposure pattern has become your normal rather than a short break.\n\nWhat a Year Builds\nA full year gives you hundreds of hours back for real relationships, hobbies, skills, reflection, and creativity. Automatic checking has had a full year to weaken while those offline routines have had a full year to strengthen.\n\nSustained Benefits\nThe clearest measured mental-health gain is lower depressive symptoms. The practical gains — more time, fewer interruptions, and less compulsive checking — compound every day you keep control of the feed.\n\nWhat Comes Next\nA year of deliberate change has reset the relationship. Whether you return to limited, intentional use or stay off entirely, the compulsive loop has been broken — and that is the durable win.'**
   String get socialMediaReferenceDay365;
 
-  /// No description provided for @ssriReferenceDay3.
+  /// Source for the ssri recovery milestone at 3 days.
   ///
   /// In en, this message translates to:
   /// **'SSRI Discontinuation: The First Days\n\nSource: Harvard Health Publishing\n\nImportant Safety Note\nSSRIs should only be stopped under medical supervision following a gradual taper. Abrupt cessation — especially after long-term use — significantly increases the severity of discontinuation symptoms.\n\nWhat Is SSRI Discontinuation Syndrome?\nSSRI discontinuation syndrome is a well-documented medical phenomenon that occurs when SSRIs are stopped or substantially reduced. Clinicians use the acronym FINISH to describe the common symptoms:\n• Flu-like symptoms (fatigue, sweating, muscle aches)\n• Insomnia and disturbed sleep\n• Nausea\n• Imbalance and dizziness\n• Sensory disturbances — particularly \'brain zaps\'\n• Hyperarousal, irritability, and anxiety\n\nHalf-Life Matters\nFluoxetine (Prozac) has a very long half-life of 4–6 days, so it effectively self-tapers and produces milder discontinuation effects. Paroxetine (Paxil) has the shortest half-life of the common SSRIs and produces the most intense discontinuation symptoms. Sertraline, citalopram, and escitalopram fall in between.'**
   String get ssriReferenceDay3;
 
-  /// No description provided for @ssriReferenceDay7.
+  /// Source for the ssri recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'One Week After SSRIs: The Acute Phase\n\nSource: NHS — Stopping or coming off antidepressants\n\nThe Acute Discontinuation Phase\nThe NHS documents that most antidepressant discontinuation symptoms begin within five days of stopping and last for up to six weeks in the majority of cases. By one week, the acute physical symptoms are typically at their most pronounced and beginning to trend downward for those who tapered gradually.\n\nWhat to Expect at One Week\n• Physical symptoms (nausea, dizziness, flu-like feelings) are at their most intense but should be beginning to ease\n• Sleep disturbances including vivid dreams or insomnia are common\n• Emotional lability — rapid mood changes — is frequent at this stage\n• Brain zaps may still be present but typically begin to reduce in frequency\n\nThe Role of Tapering\nThe NHS strongly recommends a slow taper — sometimes over months for long-term users — to minimise discontinuation effects. The Royal College of Psychiatrists has developed tapering guidelines that suggest very gradual dose reductions, often using liquid formulations, for those who have taken SSRIs for extended periods.'**
   String get ssriReferenceDay7;
 
-  /// No description provided for @ssriReferenceDay14.
+  /// Source for the ssri recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Two Weeks After SSRIs: Physical Symptoms Resolving\n\nSource: Davies & Read (2019), Addictive Behaviors — \'A systematic review into the incidence, severity and duration of antidepressant withdrawal effects\'\n\nWhat the Research Found\nThis landmark systematic review found that approximately 56% of people who discontinue antidepressants experience withdrawal effects, and 46% of those describe them as severe. For most people following a proper taper, the acute phase is largely resolved by two weeks:\n• Brain zaps significantly reduced or absent\n• Nausea and flu-like symptoms resolved\n• Dizziness and balance issues improving\n• Sleep beginning to normalise\n\nDistinguishing Discontinuation from Relapse\nSymptoms that appear within days of stopping and match the FINISH profile are most likely discontinuation syndrome. Symptoms that emerge after 2–4 weeks and resemble the original condition being treated are more likely relapse. Monitoring this distinction with your prescriber is important.'**
   String get ssriReferenceDay14;
 
-  /// No description provided for @ssriReferenceDay30.
+  /// Source for the ssri recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
   /// **'One Month After SSRIs: Stabilisation\n\nSource: Haddad PM (2001), Drug Safety — \'Antidepressant Discontinuation Syndromes\'\n\nThe Stabilisation Phase\nThis review describes discontinuation onset as rapid, typically within days of stopping or reducing an antidepressant, and notes that most reactions are mild and short-lived, resolving without specific treatment. One month represents the transition from that acute window to stabilisation; for most people who completed a gradual taper, the acute discontinuation symptoms are now largely resolved.\n\nEmotional Landscape at One Month\nEmotional changes at one month are variable and important to monitor:\n• Some people feel emotionally \'flatter\' initially as the brain adjusts — this typically improves\n• Others experience emotional vividness they had not felt in years\n• Anxiety levels vary significantly by individual and underlying condition\n\nThe Value of Non-Medication Support\nResearch consistently shows that talking therapy such as CBT (CBT) and other evidence-based psychological therapies are highly effective for the conditions SSRIs treat. The one-month mark is an excellent time to ensure these supports are in place.'**
   String get ssriReferenceDay30;
 
-  /// No description provided for @ssriReferenceDay90.
+  /// Source for the ssri recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three Months: The Withdrawal Curve Turns\n\nSource: Duffy et al., \"Antidepressant medication to prevent depression relapse in primary care: the ANTLER RCT,\" Health Technology Assessment (2021)\n\nMeasured at 12 Weeks\nANTLER randomized 478 primary-care patients who had taken antidepressants for at least 9 months and felt well enough to consider stopping. Participants were taking citalopram, sertraline, fluoxetine, or mirtazapine. The difference in withdrawal symptoms between the discontinuation and maintenance groups was largest at 12 weeks and smaller at later follow-ups.\n\nWhy This Fits an SSRI Milestone\nThree of the four study drugs — citalopram, sertraline, and fluoxetine — are SSRIs. The study\'s plain-language summary says the extra withdrawal symptoms after stopping were concentrated mostly in the first 3–4 months.\n\nThree Months Strong\nDay 90 lands right at that measured turning point. The withdrawal gap narrows after this checkpoint, making three months a concrete recovery milestone. If depression or anxiety is returning strongly, contact your prescriber early.'**
   String get ssriReferenceDay90;
 
-  /// No description provided for @ssriReferenceDay180.
+  /// Source for the ssri recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
   /// **'Six Months After Antidepressant Cessation: 65% Remained Well\n\nSource: Volkmann et al. (2026), European Archives of Psychiatry and Clinical Neuroscience\n\nA Concrete Six-Month Outcome\nThe study followed people whose major depression was in remission as they discontinued antidepressants. Of 83 participants with six-month outcome data, 54 — 65% — remained well, while 29 relapsed.\n\nWhy This Milestone Matters\nThat measured six-month result makes this a real long-term stability checkpoint. The study also assessed withdrawal symptoms separately from relapse, helping distinguish the two.\n\nIf depression is returning strongly, contact your prescriber early.'**
   String get ssriReferenceDay180;
 
-  /// No description provided for @ssriReferenceDay365.
+  /// Source for the ssri recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
   /// **'One Year After Long-Term Antidepressants: What ANTLER Measured\n\nSource: Duffy et al. (2021), Health Technology Assessment — the ANTLER trial\n\nWhat This Trial Actually Found\nANTLER randomized 478 adults in UK primary care who were well enough to consider stopping long-term antidepressants. By 52 weeks, 56% of the discontinuation group had relapsed, versus 39% of the maintenance group. The time-to-relapse hazard was about doubled (HR 2.06); the observed one-year relapse proportions themselves were 56% vs 39%, not twice as high.\n\nThe Fuller Picture\nDiscontinuation wasn\'t a dead end: 44% did not relapse during the 52-week trial. But average outcomes favored maintenance: the discontinuation group had more withdrawal symptoms and fewer quality-adjusted life-years over 12 months. 39% of those assigned to discontinue returned to their original antidepressant.\n\nYour One-Year Milestone\nIf you\'ve reached a year off and you\'re doing well, that\'s a huge achievement. ANTLER does not say everyone should stay on medication or everyone should stop; it shows why relapse risk and treatment decisions deserve individual follow-up. Restarting medication if you need it is a clinical choice, not a failure.'**
   String get ssriReferenceDay365;
 
-  /// No description provided for @steroidsReferenceDay1.
+  /// Source for the steroids recovery milestone at 1 day.
   ///
   /// In en, this message translates to:
   /// **'Stopping Anabolic Steroids: The First Days\n\nSource: \"Common symptoms associated with usage and cessation of anabolic androgenic steroids in men,\" Best Practice & Research Clinical Endocrinology & Metabolism (2022)\n\nThe Acute Phase\nThis review describes AAS withdrawal as unfolding in two phases. The first, driven by sympathetic nervous system activation rather than hormone levels, appears within 1–2 days of stopping and can include:\n• Headache\n• Tremors\n• Palpitations\n• Nausea\n\nWhy Symptoms Appear\nAnabolic steroids also suppress the body\'s own testosterone production — the brain detects the steroids and shuts off the hormonal signals that normally drive it. That suppression persists after stopping, setting up the second, longer-lasting phase of withdrawal described in later milestones.\n\nA Safety Note\nDepression can emerge during steroid withdrawal and become serious. Seek medical care, and urgent help for any thoughts of self-harm. Clinicians often guide recovery; some use medications to support it.'**
   String get steroidsReferenceDay1;
 
-  /// No description provided for @steroidsReferenceDay14.
+  /// Source for the steroids recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Two Weeks Off Anabolic Steroids\n\nSource: \"Common symptoms associated with usage and cessation of anabolic androgenic steroids in men,\" Best Practice & Research Clinical Endocrinology & Metabolism (2022)\n\nThe Chronic Phase Sets In\nBy two weeks, the brief sympathetic symptoms of the first days have typically passed, and the review\'s second phase — driven by ongoing testosterone deficiency — is more prominent:\n• Fatigue and low mood\n• Muscle aches (myalgia)\n• Reduced libido\n• Insomnia and cravings\n\nStill at Low Ebb\nNatural testosterone production takes far longer than two weeks to reset, so this phase is expected rather than a sign something is wrong.\n\nA Known Trap\nSome men return to using specifically to escape this gap — a cycle that resets the recovery clock rather than ending it. Support from a doctor or counsellor helps bridge this phase rather than medicating it with more steroids.'**
   String get steroidsReferenceDay14;
 
-  /// No description provided for @steroidsReferenceDay30.
+  /// Source for the steroids recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
   /// **'One Month Off Anabolic Steroids\n\nSource: \"Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review,\" on PubMed\n\nRecovery Begins\nAfter stopping, the hormone signals that tell the testes to make testosterone start switching back on. Research puts much of this recovery in the three-to-six-month range, so at one month the process is already underway.\n\nWhat to Expect\nLow mood, libido, and energy commonly persist while hormones climb back. Recovery depends on age and how heavy and prolonged the use was.'**
   String get steroidsReferenceDay30;
 
-  /// No description provided for @steroidsReferenceDay90.
+  /// Source for the steroids recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three Months Off Anabolic Steroids\n\nSource: \"Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review,\" on PubMed\n\nA Good Time for a Blood Test\nBy three months, the hormone system has had time to show meaningful recovery. This is a useful point to ask your GP to check testosterone and the hormones that control it.\n\nWhat to Expect\nFor many men at three months, levels are climbing but not fully normalised. Mood and libido often improve before testosterone fully catches up. Testicle size and sperm production recover more slowly and can keep improving over the following year. Breast tissue growth (gynaecomastia), where it occurred, is unlikely to reverse without specific treatment.'**
   String get steroidsReferenceDay90;
 
-  /// No description provided for @steroidsReferenceDay180.
+  /// Source for the steroids recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
   /// **'Six Months Off Anabolic Steroids\n\nSource: \"Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review,\" on PubMed\n\nWhere the Evidence Points\nThe review reports that LH and FSH — the hormones that tell the testes to make testosterone — usually recover within about three to six months. By six months, testosterone itself is well along its recovery path too.\n\nIf You\'re Not There Yet\nIf low-testosterone symptoms are still present at six months, an endocrinologist can check what is happening and discuss treatment rather than leaving you to wait.'**
   String get steroidsReferenceDay180;
 
-  /// No description provided for @steroidsReferenceDay365.
+  /// Source for the steroids recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
   /// **'One Year Off Anabolic Steroids\n\nSource: \"Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review,\" Endocrine Connections (2023)\n\nA Year Free\nRecovery after AAS is highly variable. The review reports near-complete testosterone recovery over months, gonadotropin recovery over about three to six months, and recovery of testicular size and sperm production over months to years. Psychological recovery is less predictable.\n\nOne Year Still Counts\nA full year steroid-free is a huge milestone, not a universal hormone-normalisation deadline. If low-testosterone symptoms are still present, specialist assessment can check where your recovery stands.'**
   String get steroidsReferenceDay365;
 
-  /// No description provided for @steroidsReferenceDay730.
+  /// Source for the steroids recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two Years Off Anabolic Steroids\n\nSource: \"Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review,\" Endocrine Connections (2023)\n\nTwo Years Strong\nTwo years steroid-free is a long stretch without re-exposure. Recovery varies with factors including age and the extent of prior androgen use; there is no universal two-year hormone finish line.\n\nThe Long Game\nThe review reports testosterone recovery over months and gonadotropin recovery over about three to six months, while testicular size and sperm production may keep recovering over months to years. Persistent low-testosterone symptoms deserve specialist assessment — not another steroid cycle.'**
   String get steroidsReferenceDay730;
 
-  /// No description provided for @tcaReferenceDay3.
+  /// Source for the tca recovery milestone at 3 days.
   ///
   /// In en, this message translates to:
   /// **'TCA Discontinuation: The First Days — Cholinergic Rebound\n\nSource: Dilsaver, Feinberg & Greden (1983), American Journal of Psychiatry — \'Antidepressant withdrawal symptoms treated with anticholinergic agents\' (case report, 3 patients)\n\nWhy TCAs Can Feel Different\nMany TCAs have anticholinergic effects alongside their serotonin and noradrenaline activity. In three published cases, withdrawal symptoms after abrupt discontinuation or rapid taper responded to anticholinergic treatment, leading the authors to implicate central cholinergic overdrive.\n\nSymptoms Reported with TCA Withdrawal\n• Nausea, vomiting, diarrhoea, abdominal pain, and loss of appetite\n• Insomnia or other sleep disturbance\n• Anxiety, agitation, and irritability\n• Headaches and other physical symptoms\n\nTiming Varies\nWithdrawal can hit early, especially after abrupt stopping or a fast taper. This three-patient case report supports cholinergic rebound as a mechanism. It was not designed to establish a fixed day-by-day timeline or compare individual TCAs by rebound severity.'**
   String get tcaReferenceDay3;
 
-  /// No description provided for @tcaReferenceDay7.
+  /// Source for the tca recovery milestone at 7 days.
   ///
   /// In en, this message translates to:
   /// **'One Week After TCAs: Through the First Stretch\n\nWhat One Week Means\nNHS guidance says antidepressant withdrawal usually begins within a few days and lasts a few weeks. Some people have severe withdrawal or symptoms that last months or longer.\n\nSymptoms That Can Still Be in Play\n• Headache and aching muscles\n• Nausea and sweating\n• A racing, fluttering, pounding, or skipping heartbeat\n• Dizziness or unsteadiness\n• Sleep problems, strange dreams, and tiredness\n• Restlessness, irritability, anxiety, low mood, or difficulty thinking\n\nSeven Days Is Progress\nA full week off a TCA is worth celebrating. NHS guidance describes withdrawal over days to weeks, sometimes longer, so symptoms involving heart rate, digestion, sleep, and other autonomic functions can settle on different timelines.'**
   String get tcaReferenceDay7;
 
-  /// No description provided for @tcaReferenceDay14.
+  /// Source for the tca recovery milestone at 14 days.
   ///
   /// In en, this message translates to:
   /// **'Two Weeks After TCAs: Acute Withdrawal Is Usually Easing\n\nThe Usual Acute Window\nA clinical review of antidepressant discontinuation syndrome reports that typical symptoms — including flu-like symptoms, insomnia, nausea, imbalance, sensory disturbances, and hyperarousal — usually last one to two weeks.\n\nWhat Day 14 Means\nAt two weeks, many people are reaching the far end of the classic acute discontinuation window. The first-wave symptoms are often easing substantially by this point.\n\nFourteen Days TCA-Free\nThat makes day 14 a real recovery marker: the acute withdrawal wave is often breaking, and you are moving beyond the roughest early stretch.'**
   String get tcaReferenceDay14;
 
-  /// No description provided for @tcaReferenceDay30.
+  /// Source for the tca recovery milestone at 30 days.
   ///
   /// In en, this message translates to:
   /// **'One Month After TCAs: Acute Withdrawal Usually Settled\n\nThe Usual Acute Window\nWarner et al. report that antidepressant discontinuation symptoms are usually mild and last one to two weeks. TCAs are explicitly included; balance and movement problems can be especially characteristic after stopping a TCA.\n\nWhat Day 30 Means\nAt one month, most people are well beyond that usual acute phase. Flu-like symptoms, nausea, imbalance, insomnia, sensory disturbances, and hyperarousal have usually eased or resolved.\n\nThirty Days Strong\nOne month TCA-free is a concrete recovery marker: the classic acute discontinuation window is usually behind you.'**
   String get tcaReferenceDay30;
 
-  /// No description provided for @tcaReferenceDay90.
+  /// Source for the tca recovery milestone at 90 days.
   ///
   /// In en, this message translates to:
   /// **'Three Months After TCAs: Acute Withdrawal Well Behind\n\nThe Usual Acute Window\nWarner et al. report that antidepressant discontinuation symptoms are usually mild and last one to two weeks. TCAs are explicitly included; balance and movement problems can be especially characteristic after stopping a TCA.\n\nWhat Day 90 Means\nAt 90 days, you are more than ten weeks beyond the upper end of that usual acute window. For people who had classic first-wave symptoms—flu-like symptoms, nausea, imbalance, insomnia, sensory disturbances, and hyperarousal—those symptoms have usually long since eased or resolved.\n\nNinety Days Strong\nThree months TCA-free is a concrete recovery milestone: acute withdrawal is usually well behind you. If significant depressive symptoms are returning, contact your clinician early.'**
   String get tcaReferenceDay90;
 
-  /// No description provided for @tcaReferenceDay180.
+  /// Source for the tca recovery milestone at 180 days.
   ///
   /// In en, this message translates to:
   /// **'Six Months After Antidepressant Discontinuation: Most Stayed Relapse-Free\n\nSix-Month Relapse Checkpoint\nA 2024 meta-analysis pooled 35 randomized antidepressant discontinuation trials in people treated for major depressive disorder. The pooled relapse rate after discontinuation was 34.81% at six months—equivalent to about 65% remaining relapse-free at that checkpoint.\n\nA Real Long-Term Outcome\nThe same analysis found a 45.12% relapse rate at 12 months. Six months is a meaningful stability checkpoint: most participants in the pooled trials had not relapsed by then.\n\nProtect the Progress\nIf depressive symptoms start returning, contact your clinician early. Reaching six months is a huge stretch of stability worth protecting.'**
   String get tcaReferenceDay180;
 
-  /// No description provided for @tcaReferenceDay365.
+  /// Source for the tca recovery milestone at 365 days.
   ///
   /// In en, this message translates to:
   /// **'One Year After Antidepressant Discontinuation: Most Stayed Relapse-Free\n\nTwelve-Month Relapse Checkpoint\nA 2024 meta-analysis pooled 35 randomized antidepressant discontinuation trials in people treated for major depressive disorder. The pooled relapse rate after discontinuation was 45.12% at 12 months—equivalent to about 55% remaining relapse-free at the one-year checkpoint.\n\nA Full Year of Stability\nThe same analysis found a 34.81% relapse rate at six months. By 12 months, most participants in the pooled trials still had not relapsed. One full year without relapse is a major long-term stability milestone.\n\nProtect the Progress\nIf depressive symptoms start returning, contact your clinician early. Reaching a full year is a substantial achievement worth protecting.'**
@@ -6750,55 +6774,55 @@ abstract class AppLocalizations {
   /// **'{days} days without taking another hit of vape aerosol. That’s {days} days with no new vaping exposure to the harmful substances that aerosol can carry. If your vape contained nicotine, it’s also {days} days without reinforcing that dependence. Huge streak — keep it moving.'**
   String vapingLongStreakDescription(int days);
 
-  /// No description provided for @vapingMilestone730Title.
+  /// Title for the vaping recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two years vape-free'**
   String get vapingMilestone730Title;
 
-  /// No description provided for @vapingMilestone730Description.
+  /// Description for the vaping recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two years without a vape. You\'ve gone 730 days without reinforcing that nicotine habit.'**
   String get vapingMilestone730Description;
 
-  /// No description provided for @vapingMilestone1095Title.
+  /// Title for the vaping recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three years'**
   String get vapingMilestone1095Title;
 
-  /// No description provided for @vapingMilestone1095Description.
+  /// Description for the vaping recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three years vape-free. The long-term health picture is still being studied, but three years without going back speaks for itself.'**
   String get vapingMilestone1095Description;
 
-  /// No description provided for @vapingMilestone1460Title.
+  /// Title for the vaping recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four years, still clear'**
   String get vapingMilestone1460Title;
 
-  /// No description provided for @vapingMilestone1460Description.
+  /// Description for the vaping recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four years without vaping. The habit hasn\'t had a place in your day for a long time. Nice work keeping it that way.'**
   String get vapingMilestone1460Description;
 
-  /// No description provided for @vapingMilestone1825Title.
+  /// Title for the vaping recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Five years'**
   String get vapingMilestone1825Title;
 
-  /// No description provided for @vapingMilestone1825Description.
+  /// Description for the vaping recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Half a decade vape-free. You\'ve kept vaping out of your life for five years.'**
   String get vapingMilestone1825Description;
 
-  /// No description provided for @vapingLongTermReference.
+  /// Vaping long term reference.
   ///
   /// In en, this message translates to:
   /// **'Vaping, Quitting, and Long-Term Evidence\n\nSource: CDC — Vaping and Quitting; CDC — Health Effects of Vaping\n\nCDC says people who vape can become addicted to nicotine, quitting may cause nicotine-withdrawal symptoms, and scientists are still studying the best ways to help people quit vaping. CDC also says the long-term health effects of e-cigarettes are still being studied.\n\nThese sources do not define 2-, 3-, 4-, or 5-year biological recovery thresholds after quitting vaping. Quitter therefore treats these dates as anniversaries of sustained vape-free progress, not medical endpoints.'**
@@ -6816,757 +6840,757 @@ abstract class AppLocalizations {
   /// **'What vaping exposes you to\n\nSource: CDC — Health Effects of Vaping\n\nCDC says most e-cigarettes contain addictive nicotine. Vape aerosol can contain nicotine, cancer-causing chemicals, heavy metals such as nickel, tin and lead, tiny particles that reach deep into the lungs, volatile organic compounds, and some harmful flavoring chemicals. Nicotine withdrawal can include irritability, anxiety or restlessness, low mood, sleep and concentration problems, hunger and cravings, and these symptoms fade over time. Long-term vaping effects are still being studied, so Quitter celebrates sustained abstinence instead of borrowing cigarette carbon-monoxide, tar, cancer or heart-risk timelines.'**
   String get vapingHealthReference;
 
-  /// No description provided for @adderallMilestone730Title.
+  /// Title for the adderall recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two years without misuse'**
   String get adderallMilestone730Title;
 
-  /// No description provided for @adderallMilestone730Description.
+  /// Description for the adderall recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two years. You\'ve kept Adderall misuse out of the picture while life carried on.'**
   String get adderallMilestone730Description;
 
-  /// No description provided for @adderallReferenceDay730.
+  /// Source for the adderall recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two Years Off Adderall: Durable Progress\n\nSource: SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSA’s guide covers amphetamine-type stimulants, including prescription stimulant misuse, and supports evidence-based care for recovery. It does not define a two-year biological reset.\n\nTwo years is still a major achievement. You have maintained change over a long stretch; celebrate the stability you’ve built and keep using what works.'**
   String get adderallReferenceDay730;
 
-  /// No description provided for @adderallMilestone1095Title.
+  /// Title for the adderall recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three years of progress'**
   String get adderallMilestone1095Title;
 
-  /// No description provided for @adderallMilestone1095Description.
+  /// Description for the adderall recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three years. The habits and support you\'ve built have been tested by plenty of real life.'**
   String get adderallMilestone1095Description;
 
-  /// No description provided for @adderallReferenceDay1095.
+  /// Source for the adderall recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three Years Off Adderall: Recovery With Momentum\n\nSource: SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSA supports evidence-based treatment and long-term recovery from stimulant use disorders, including problems involving prescription stimulants. The guide does not claim that a particular brain change finishes at three years.\n\nThree years reflects durable change carried through ordinary days as well as difficult ones. Keep the routines, relationships, and support that helped you reach this point.'**
   String get adderallReferenceDay1095;
 
-  /// No description provided for @adderallMilestone1460Title.
+  /// Title for the adderall recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four years, still clear'**
   String get adderallMilestone1460Title;
 
-  /// No description provided for @adderallMilestone1460Description.
+  /// Description for the adderall recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four years without misuse. You\'ve kept making this choice through changes in motivation and everyday life.'**
   String get adderallMilestone1460Description;
 
-  /// No description provided for @adderallReferenceDay1460.
+  /// Source for the adderall recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four Years Off Adderall: Long-Term Change in Practice\n\nSource: SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSA’s guide focuses on treatments and supports that help people achieve long-term recovery. It does not define a four-year medical finish line, so this milestone is about sustained progress rather than an invented health promise.\n\nFour years shows consistency on a genuinely long timescale. Protect the structures and people that keep your progress steady.'**
   String get adderallReferenceDay1460;
 
-  /// No description provided for @adderallMilestone1825Title.
+  /// Title for the adderall recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Five years'**
   String get adderallMilestone1825Title;
 
-  /// No description provided for @adderallMilestone1825Description.
+  /// Description for the adderall recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Half a decade without misusing Adderall. Five years of protecting the life you\'ve built.'**
   String get adderallMilestone1825Description;
 
-  /// No description provided for @adderallReferenceDay1825.
+  /// Source for the adderall recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Five Years Off Adderall: Half a Decade of Progress\n\nSource: SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSA recognizes long-term recovery as an important goal of stimulant-use-disorder care. Its evidence guide does not promise a special biological event at five years, and this milestone does not need one to matter.\n\nFive years is 1,825 days of maintaining a different direction. That is a substantial body of lived evidence that your change can endure. Celebrate it, then keep doing the things that made it possible.'**
   String get adderallReferenceDay1825;
 
-  /// No description provided for @alcoholMilestone730Title.
+  /// Title for the alcohol recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two years'**
   String get alcoholMilestone730Title;
 
-  /// No description provided for @alcoholMilestone730Description.
+  /// Description for the alcohol recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two full years without alcohol. Holidays, stress and ordinary Tuesdays, handled without a drink. Better sleep and blood pressure may be among the gains.'**
   String get alcoholMilestone730Description;
 
-  /// No description provided for @alcoholReferenceDay730.
+  /// Source for the alcohol recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Sustained Change\n\nTwo years alcohol-free represents sustained behavioural change. The benefits extend beyond removing alcohol itself: daily routines, relationships, physical health and psychological well-being are all important parts of long-term recovery.'**
   String get alcoholReferenceDay730;
 
-  /// No description provided for @alcoholMilestone1095Title.
+  /// Title for the alcohol recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three years, still clear'**
   String get alcoholMilestone1095Title;
 
-  /// No description provided for @alcoholMilestone1095Description.
+  /// Description for the alcohol recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three years alcohol-free. That\'s a long time to build a life without drinking. Risks for some alcohol-related cancers also keep falling after quitting.'**
   String get alcoholMilestone1095Description;
 
-  /// No description provided for @alcoholReferenceDay1095.
+  /// Source for the alcohol recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'A Different Normal\n\nThree years of abstinence demonstrates consistency across a substantial period of life. Alcohol is no longer part of your daily routine, and the habits supporting that change have been reinforced over thousands of decisions.'**
   String get alcoholReferenceDay1095;
 
-  /// No description provided for @alcoholMilestone1460Title.
+  /// Title for the alcohol recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four years'**
   String get alcoholMilestone1460Title;
 
-  /// No description provided for @alcoholMilestone1460Description.
+  /// Description for the alcohol recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four years without a drink. Whatever the world threw your way, you\'ve kept alcohol out of it. The health benefits of staying off it keep adding up.'**
   String get alcoholMilestone1460Description;
 
-  /// No description provided for @alcoholReferenceDay1460.
+  /// Source for the alcohol recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Long-Term Progress\n\nFour years without alcohol represents a major period without repeated alcohol-related exposure. Long-term recovery is built through consistent behaviour, supported by healthier routines and meaningful improvements in everyday life.'**
   String get alcoholReferenceDay1460;
 
-  /// No description provided for @alcoholMilestone1825Title.
+  /// Title for the alcohol recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Five years'**
   String get alcoholMilestone1825Title;
 
-  /// No description provided for @alcoholMilestone1825Description.
+  /// Description for the alcohol recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Five years without alcohol, through birthdays, bad days and everything between. The long-term health benefits keep adding up.'**
   String get alcoholMilestone1825Description;
 
-  /// No description provided for @alcoholReferenceDay1825.
+  /// Source for the alcohol recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Five Years of Freedom\n\nHalf a decade without drinking is a significant achievement in its own right. Five years of sustained abstinence means five years without alcohol continuing to damage your health. It is a milestone worth recognising and celebrating.'**
   String get alcoholReferenceDay1825;
 
-  /// No description provided for @ghbMilestone730Title.
+  /// Title for the ghb recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two years'**
   String get ghbMilestone730Title;
 
-  /// No description provided for @ghbMilestone730Description.
+  /// Description for the ghb recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two years without GHB. You\'ve kept the change through more than just the difficult early days.'**
   String get ghbMilestone730Description;
 
-  /// No description provided for @ghbReferenceDay730.
+  /// Source for the ghb recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two Years Without GHB: Durable Progress\n\nSource: SAMHSA, Recovery and Recovery Support\n\nSAMHSA describes recovery as an ongoing, individual process of change. It does not set a GHB-specific biological endpoint at any of these anniversaries.\n\nTwo years is 730 days of maintaining a different direction. Celebrate the durability and keep the people, routines, and support that make it sustainable.'**
   String get ghbReferenceDay730;
 
-  /// No description provided for @ghbMilestone1095Title.
+  /// Title for the ghb recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three years clear'**
   String get ghbMilestone1095Title;
 
-  /// No description provided for @ghbMilestone1095Description.
+  /// Description for the ghb recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three years without GHB. Keeping this change going for that long is worth celebrating.'**
   String get ghbMilestone1095Description;
 
-  /// No description provided for @ghbReferenceDay1095.
+  /// Source for the ghb recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three Years Without GHB: Stronger Ground\n\nSource: SAMHSA, Recovery and Recovery Support\n\nSAMHSA describes recovery as an ongoing, individual process of change. It does not set a GHB-specific biological endpoint at any of these anniversaries.\n\nThree years is 1,095 days of maintained change. That is a substantial record of stability and of protecting what helps recovery continue.'**
   String get ghbReferenceDay1095;
 
-  /// No description provided for @ghbMilestone1460Title.
+  /// Title for the ghb recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four years of follow-through'**
   String get ghbMilestone1460Title;
 
-  /// No description provided for @ghbMilestone1460Description.
+  /// Description for the ghb recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four years without GHB. The routines and support behind that choice have carried you a long way.'**
   String get ghbMilestone1460Description;
 
-  /// No description provided for @ghbReferenceDay1460.
+  /// Source for the ghb recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four Years Without GHB: Lasting Change\n\nSource: SAMHSA, Recovery and Recovery Support\n\nSAMHSA describes recovery as an ongoing, individual process of change. It does not set a GHB-specific biological endpoint at any of these anniversaries.\n\nFour years is 1,460 days of carrying change through ordinary life. The durability itself deserves recognition, along with the support and habits behind it.'**
   String get ghbReferenceDay1460;
 
-  /// No description provided for @ghbMilestone1825Title.
+  /// Title for the ghb recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Five years without GHB'**
   String get ghbMilestone1825Title;
 
-  /// No description provided for @ghbMilestone1825Description.
+  /// Description for the ghb recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Half a decade. Five years of sticking with the change, with all the normal messiness of life along the way. That\'s huge.'**
   String get ghbMilestone1825Description;
 
-  /// No description provided for @ghbReferenceDay1825.
+  /// Source for the ghb recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Five Years Without GHB: Half a Decade\n\nSource: SAMHSA, Recovery and Recovery Support\n\nSAMHSA describes recovery as an ongoing, individual process of change. It does not set a GHB-specific biological endpoint at any of these anniversaries.\n\nFive years is 1,825 days of maintained change: half a decade of repeatedly choosing a different direction. That scale of commitment deserves real credit.'**
   String get ghbReferenceDay1825;
 
-  /// No description provided for @inhalantsMilestone1095Title.
+  /// Title for the inhalants recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three years clear'**
   String get inhalantsMilestone1095Title;
 
-  /// No description provided for @inhalantsMilestone1095Description.
+  /// Description for the inhalants recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three years without inhalants. You\'ve avoided renewed exposure throughout that time.'**
   String get inhalantsMilestone1095Description;
 
-  /// No description provided for @inhalantsMilestone1460Title.
+  /// Title for the inhalants recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four years of staying clear'**
   String get inhalantsMilestone1460Title;
 
-  /// No description provided for @inhalantsMilestone1460Description.
+  /// Description for the inhalants recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four years away from inhalants. You\'ve stuck with the change through a lot of ordinary life.'**
   String get inhalantsMilestone1460Description;
 
-  /// No description provided for @inhalantsMilestone1825Title.
+  /// Title for the inhalants recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Five years'**
   String get inhalantsMilestone1825Title;
 
-  /// No description provided for @inhalantsMilestone1825Description.
+  /// Description for the inhalants recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Half a decade without inhalants. Recovery can be complicated, but five years without renewed exposure is a major achievement.'**
   String get inhalantsMilestone1825Description;
 
-  /// No description provided for @inhalantsReferenceDay1095.
+  /// Source for the inhalants recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three Years Off Inhalants\n\nSource: Cairney et al., \"A prospective study of neurocognitive changes 15 years after chronic inhalant abuse,\" Addiction (2013), on PubMed\n\nBeyond Two Years\nThe study found substantial recovery after two years of abstinence in participants without lead encephalopathy and followed the same cohort to 15 years. It did not identify a special three-year biological threshold.\n\nThree Years of Progress\nThree years marks sustained abstinence. Long-term recovery can continue, while outcomes depend on prior exposure and injury; lead encephalopathy may leave persistent deficits.'**
   String get inhalantsReferenceDay1095;
 
-  /// No description provided for @inhalantsReferenceDay1460.
+  /// Source for the inhalants recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four Years Off Inhalants\n\nSource: Cairney et al., \"A prospective study of neurocognitive changes 15 years after chronic inhalant abuse,\" Addiction (2013), on PubMed\n\nRecovery Over the Long Term\nMost measured scores had normalised by two years in the group without lead encephalopathy, and the cohort was assessed again at 15 years. The paper does not assign a distinct recovery event to year four.\n\nFour Years of Distance\nFour years adds another full year of sustained abstinence and a strong recovery foundation. Outcomes vary, especially when prior inhalant exposure caused severe neurological injury.'**
   String get inhalantsReferenceDay1460;
 
-  /// No description provided for @inhalantsReferenceDay1825.
+  /// Source for the inhalants recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Five Years Off Inhalants\n\nSource: Cairney et al., \"A prospective study of neurocognitive changes 15 years after chronic inhalant abuse,\" Addiction (2013), on PubMed\n\nA Long-Term Milestone\nThe study supports the possibility of substantial neurological and cognitive recovery with long-term abstinence when lead encephalopathy is absent. Its measured checkpoints were two and 15 years, so it does not claim that five years is a universal biological finish line.\n\nFive Years Built\nFive years is durable progress: a large span of life maintained away from inhalants. The evidence supports long-term recovery while recognising that severe lead-related injury can remain persistent.'**
   String get inhalantsReferenceDay1825;
 
-  /// No description provided for @maoiMilestone730Title.
+  /// Title for the maoi recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two years'**
   String get maoiMilestone730Title;
 
-  /// No description provided for @maoiMilestone730Description.
+  /// Description for the maoi recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two years after your MAOI taper. You\'ve spent that time managing your wellbeing.'**
   String get maoiMilestone730Description;
 
-  /// No description provided for @maoiMilestone1095Title.
+  /// Title for the maoi recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three years, steady'**
   String get maoiMilestone1095Title;
 
-  /// No description provided for @maoiMilestone1095Description.
+  /// Description for the maoi recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three years. You\'ve had another full year to learn what keeps you well.'**
   String get maoiMilestone1095Description;
 
-  /// No description provided for @maoiMilestone1460Title.
+  /// Title for the maoi recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four years, still you'**
   String get maoiMilestone1460Title;
 
-  /// No description provided for @maoiMilestone1460Description.
+  /// Description for the maoi recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four years after stopping. Recovery isn\'t one fixed schedule, and continued treatment is never a failure. Recognise your own progress.'**
   String get maoiMilestone1460Description;
 
-  /// No description provided for @maoiMilestone1825Title.
+  /// Title for the maoi recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Five years'**
   String get maoiMilestone1825Title;
 
-  /// No description provided for @maoiMilestone1825Description.
+  /// Description for the maoi recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Half a decade since stopping your MAOI. If this has been the right path for you, it\'s a big anniversary.'**
   String get maoiMilestone1825Description;
 
-  /// No description provided for @maoiReferenceDay730.
+  /// Source for the maoi recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two Years After MAOIs\n\nSource: Gahr et al. (2013), systematic review of tranylcypromine withdrawal and discontinuation.\n\nThe review documents potentially severe syndromes after abrupt tranylcypromine cessation, but it does not establish a special biological recovery threshold at two years. This anniversary therefore marks sustained change, support, and routines rather than a medical finish line.'**
   String get maoiReferenceDay730;
 
-  /// No description provided for @maoiReferenceDay1095.
+  /// Source for the maoi recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three Years After MAOIs\n\nSource: Gahr et al. (2013), systematic review of tranylcypromine withdrawal and discontinuation.\n\nThe review characterises acute withdrawal and discontinuation after tranylcypromine, but it does not define a three-year physiological recovery point. Three years celebrates another full year of maintaining the direction you chose and the support that helped make it durable.'**
   String get maoiReferenceDay1095;
 
-  /// No description provided for @maoiReferenceDay1460.
+  /// Source for the maoi recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four Years After MAOIs\n\nSource: Gahr et al. (2013), systematic review of tranylcypromine withdrawal and discontinuation.\n\nPublished MAOI discontinuation evidence does not identify a universal four-year biological endpoint. Four years instead reflects sustained follow-through across changing seasons, stresses, and routines, which is worth celebrating without inventing a clinical deadline.'**
   String get maoiReferenceDay1460;
 
-  /// No description provided for @maoiReferenceDay1825.
+  /// Source for the maoi recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Five Years After MAOIs\n\nSource: Gahr et al. (2013), systematic review of tranylcypromine withdrawal and discontinuation.\n\nThe MAOI withdrawal literature addresses discontinuation risk and safe stopping; it does not define five years as a cure date or universal biological finish line. Five years is still a major milestone because of the time, habits, and support sustained across 1,825 days.'**
   String get maoiReferenceDay1825;
 
-  /// No description provided for @marijuanaMilestone730Title.
+  /// Title for the marijuana recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two years'**
   String get marijuanaMilestone730Title;
 
-  /// No description provided for @marijuanaMilestone730Description.
+  /// Description for the marijuana recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two years without cannabis. Recovery isn\'t one-size-fits-all. Keeping this going for two years is worth celebrating all by itself.'**
   String get marijuanaMilestone730Description;
 
-  /// No description provided for @marijuanaReferenceDay730.
+  /// Source for the marijuana recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two Years Without Cannabis\n\nSource: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nSAMHSA says cannabis use disorder varies by person and life stage and calls for tailored, evidence-based care. It does not define a universal biological recovery threshold at two years.\n\nTwo years therefore marks sustained change, routines, and support, not a medical finish line.'**
   String get marijuanaReferenceDay730;
 
-  /// No description provided for @marijuanaMilestone1095Title.
+  /// Title for the marijuana recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three years, still clear'**
   String get marijuanaMilestone1095Title;
 
-  /// No description provided for @marijuanaMilestone1095Description.
+  /// Description for the marijuana recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three years. The habits and people that support your recovery have had a lot of time to become part of normal life.'**
   String get marijuanaMilestone1095Description;
 
-  /// No description provided for @marijuanaReferenceDay1095.
+  /// Source for the marijuana recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three Years Without Cannabis\n\nSource: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nThe advisory emphasizes that cannabis-related risks, symptoms, and treatment needs differ across people and stages of life. It does not identify a universal three-year biological endpoint.\n\nThree years celebrates durable choices and the support that helped those choices keep holding.'**
   String get marijuanaReferenceDay1095;
 
-  /// No description provided for @marijuanaMilestone1460Title.
+  /// Title for the marijuana recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four years'**
   String get marijuanaMilestone1460Title;
 
-  /// No description provided for @marijuanaMilestone1460Description.
+  /// Description for the marijuana recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four years without cannabis. Life changes, stress happens, and you\'ve kept this part steady.'**
   String get marijuanaMilestone1460Description;
 
-  /// No description provided for @marijuanaReferenceDay1460.
+  /// Source for the marijuana recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four Years Without Cannabis\n\nSource: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nSAMHSA recommends individualized, evidence-based care because cannabis use disorder does not follow one identical course. The advisory does not set a universal four-year recovery threshold.\n\nFour years reflects continuity through changing routines, stresses, and seasons. That consistency is the milestone.'**
   String get marijuanaReferenceDay1460;
 
-  /// No description provided for @marijuanaMilestone1825Title.
+  /// Title for the marijuana recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Five years without cannabis'**
   String get marijuanaMilestone1825Title;
 
-  /// No description provided for @marijuanaMilestone1825Description.
+  /// Description for the marijuana recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Half a decade without cannabis. You\'ve spent five years living without the old habit.'**
   String get marijuanaMilestone1825Description;
 
-  /// No description provided for @marijuanaReferenceDay1825.
+  /// Source for the marijuana recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Five Years Without Cannabis\n\nSource: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nThe SAMHSA advisory supports tailored care across the lifespan and does not define a five-year cure date or universal biological finish line for cannabis use disorder.\n\nFive years is a major long-term achievement: sustained direction, practiced routines, and support carried across half a decade.'**
   String get marijuanaReferenceDay1825;
 
-  /// No description provided for @mdmaMilestone730Title.
+  /// Title for the mdma recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two years'**
   String get mdmaMilestone730Title;
 
-  /// No description provided for @mdmaMilestone730Description.
+  /// Description for the mdma recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two years without MDMA. Keeping this change going is worth celebrating.'**
   String get mdmaMilestone730Description;
 
-  /// No description provided for @mdmaReferenceDay730.
+  /// Source for the mdma recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two Years Off MDMA\n\nSource: Ung et al. (2026), systematic review and meta-analysis of long-term neurocognitive outcomes after sustained MDMA abstinence.\n\nThe review included studies with at least six months of abstinence, judged the evidence low quality, and did not find that longer abstinence reliably predicted better learning and memory outcomes. It does not establish two years as a universal biological recovery point.\n\nTwo years is still a substantial marker of sustained change, built through repeated choices rather than a medical finish line.'**
   String get mdmaReferenceDay730;
 
-  /// No description provided for @mdmaMilestone1095Title.
+  /// Title for the mdma recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three years, no comeback'**
   String get mdmaMilestone1095Title;
 
-  /// No description provided for @mdmaMilestone1095Description.
+  /// Description for the mdma recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three years away from MDMA. The habits and choices behind that have held for another whole year.'**
   String get mdmaMilestone1095Description;
 
-  /// No description provided for @mdmaReferenceDay1095.
+  /// Source for the mdma recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three Years Off MDMA\n\nSource: Ung et al. (2026), systematic review and meta-analysis of long-term neurocognitive outcomes after sustained MDMA abstinence.\n\nAvailable studies do not define a three-year point when cognitive effects universally resolve. The review found no reliable relationship between longer abstinence and greater learning or memory recovery, and rated the evidence low quality.\n\nThree years therefore celebrates durable momentum and consistency without claiming an unsupported biological deadline.'**
   String get mdmaReferenceDay1095;
 
-  /// No description provided for @mdmaMilestone1460Title.
+  /// Title for the mdma recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four years of follow-through'**
   String get mdmaMilestone1460Title;
 
-  /// No description provided for @mdmaMilestone1460Description.
+  /// Description for the mdma recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four years. Whatever else changed in your life, you kept this part steady.'**
   String get mdmaMilestone1460Description;
 
-  /// No description provided for @mdmaReferenceDay1460.
+  /// Source for the mdma recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four Years Off MDMA\n\nSource: Ung et al. (2026), systematic review and meta-analysis of long-term neurocognitive outcomes after sustained MDMA abstinence.\n\nResearch after sustained abstinence remains limited and does not establish four years as a universal recovery threshold. Some measured differences may persist, while the review cautions that the underlying evidence is low quality.\n\nFour years marks deeply established change across changing routines, stresses, and seasons. That continuity is the achievement.'**
   String get mdmaReferenceDay1460;
 
-  /// No description provided for @mdmaMilestone1825Title.
+  /// Title for the mdma recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Five years without MDMA'**
   String get mdmaMilestone1825Title;
 
-  /// No description provided for @mdmaMilestone1825Description.
+  /// Description for the mdma recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Half a decade without MDMA. You\'ve kept this change going for five years.'**
   String get mdmaMilestone1825Description;
 
-  /// No description provided for @mdmaReferenceDay1825.
+  /// Source for the mdma recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Five Years Off MDMA\n\nSource: Ung et al. (2026), systematic review and meta-analysis of long-term neurocognitive outcomes after sustained MDMA abstinence.\n\nThe current evidence does not support treating five years as a cure date or universal neurocognitive finish line. The review found limited, low-quality evidence and no dependable pattern of greater learning or memory recovery with longer abstinence.\n\nFive years remains a major long-term milestone: half a decade of maintained direction deserves recognition on its own terms.'**
   String get mdmaReferenceDay1825;
 
-  /// No description provided for @nitrousOxideMilestone730Title.
+  /// Title for the nitrous oxide recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two years, no return'**
   String get nitrousOxideMilestone730Title;
 
-  /// No description provided for @nitrousOxideMilestone730Description.
+  /// Description for the nitrous oxide recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two years without nitrous. There\'s no fixed nerve-repair timetable, and some symptoms persist. You\'ve kept further exposure out of the picture.'**
   String get nitrousOxideMilestone730Description;
 
-  /// No description provided for @nitrousOxideReferenceDay730.
+  /// Source for the nitrous oxide recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two Years - Progress Holds\n\nSource: Marsden, Sharma & Rotella (2022), systematic review of chronic nitrous oxide misuse.\n\nThe review found neurological problems were characteristic of chronic nitrous oxide misuse, vitamin B12 replacement was the main treatment, and partial recovery was the most commonly reported outcome. It did not define a universal multi-year recovery timetable.\n\nTwo years without nitrous oxide is 730 days without renewed exposure. Evidence shows neurological outcomes vary and partial recovery is commonly reported after cessation and treatment, so this milestone celebrates sustained protection rather than a fixed medical endpoint.'**
   String get nitrousOxideReferenceDay730;
 
-  /// No description provided for @nitrousOxideMilestone1095Title.
+  /// Title for the nitrous oxide recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three years of distance'**
   String get nitrousOxideMilestone1095Title;
 
-  /// No description provided for @nitrousOxideMilestone1095Description.
+  /// Description for the nitrous oxide recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three years without nitrous. You\'ve avoided further exposure throughout that time.'**
   String get nitrousOxideMilestone1095Description;
 
-  /// No description provided for @nitrousOxideReferenceDay1095.
+  /// Source for the nitrous oxide recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three Years - Stronger Ground\n\nSource: Marsden, Sharma & Rotella (2022), systematic review of chronic nitrous oxide misuse.\n\nThe review found neurological problems were characteristic of chronic nitrous oxide misuse, vitamin B12 replacement was the main treatment, and partial recovery was the most commonly reported outcome. It did not define a universal multi-year recovery timetable.\n\nThree years is a long stretch without restarting the exposure that caused the risk. Research does not map nerve recovery to this anniversary; the achievement is maintaining the change for 1095 days.'**
   String get nitrousOxideReferenceDay1095;
 
-  /// No description provided for @nitrousOxideMilestone1460Title.
+  /// Title for the nitrous oxide recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four years'**
   String get nitrousOxideMilestone1460Title;
 
-  /// No description provided for @nitrousOxideMilestone1460Description.
+  /// Description for the nitrous oxide recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four years without nitrous oxide. Whatever recovery has involved, you\'ve stayed with the change for another full year.'**
   String get nitrousOxideMilestone1460Description;
 
-  /// No description provided for @nitrousOxideReferenceDay1460.
+  /// Source for the nitrous oxide recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four Years - Built to Last\n\nSource: Marsden, Sharma & Rotella (2022), systematic review of chronic nitrous oxide misuse.\n\nThe review found neurological problems were characteristic of chronic nitrous oxide misuse, vitamin B12 replacement was the main treatment, and partial recovery was the most commonly reported outcome. It did not define a universal multi-year recovery timetable.\n\nFour years means another full year of protecting the progress already made. Nitrous oxide studies report variable recovery and persistent deficits in some cases, not a universal four-year finish line.'**
   String get nitrousOxideReferenceDay1460;
 
-  /// No description provided for @nitrousOxideMilestone1825Title.
+  /// Title for the nitrous oxide recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Five years'**
   String get nitrousOxideMilestone1825Title;
 
-  /// No description provided for @nitrousOxideMilestone1825Description.
+  /// Description for the nitrous oxide recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Half a decade without nitrous. Five years of keeping a risky habit out of your life.'**
   String get nitrousOxideMilestone1825Description;
 
-  /// No description provided for @nitrousOxideReferenceDay1825.
+  /// Source for the nitrous oxide recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Five Years - Lasting Change\n\nSource: Marsden, Sharma & Rotella (2022), systematic review of chronic nitrous oxide misuse.\n\nThe review found neurological problems were characteristic of chronic nitrous oxide misuse, vitamin B12 replacement was the main treatment, and partial recovery was the most commonly reported outcome. It did not define a universal multi-year recovery timetable.\n\nFive years without nitrous oxide is half a decade of sustained change. There is no evidence-based five-year neurological reset date; 1825 days of maintained direction is the milestone.'**
   String get nitrousOxideReferenceDay1825;
 
-  /// No description provided for @socialMediaMilestone730Title.
+  /// Title for the social media recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two years of your time'**
   String get socialMediaMilestone730Title;
 
-  /// No description provided for @socialMediaMilestone730Description.
+  /// Description for the social media recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two years with more control over your attention. The routine has stuck long past the novelty of quitting.'**
   String get socialMediaMilestone730Description;
 
-  /// No description provided for @socialMediaReferenceDay730.
+  /// Source for the social media recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two Years With Social Media in Its Place\n\nSource: Ramadhan et al., “Impacts of digital social media detox for mental health: A systematic review and meta-analysis,” Narra J (2024), PubMed PMID 39280291\n\nThe meta-analysis combined 10 studies of digital-detox interventions. Depressive symptoms improved overall; pooled effects on life satisfaction, stress, and overall mental well-being were not statistically significant.\n\nThe included interventions do not establish a two-year health threshold. Day 730 celebrates two years of sustained, intentional digital choices, not a biological reset deadline.'**
   String get socialMediaReferenceDay730;
 
-  /// No description provided for @socialMediaMilestone1095Title.
+  /// Title for the social media recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three years'**
   String get socialMediaMilestone1095Title;
 
-  /// No description provided for @socialMediaMilestone1095Description.
+  /// Description for the social media recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three years of keeping social media in its place. Your time has been yours to spend.'**
   String get socialMediaMilestone1095Description;
 
-  /// No description provided for @socialMediaReferenceDay1095.
+  /// Source for the social media recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three Years: Attention on Your Terms\n\nSource: Ramadhan et al., “Impacts of digital social media detox for mental health: A systematic review and meta-analysis,” Narra J (2024), PubMed PMID 39280291\n\nThe meta-analysis combined 10 studies of digital-detox interventions. Depressive symptoms improved overall; pooled effects on life satisfaction, stress, and overall mental well-being were not statistically significant.\n\nThe research does not define 1,095 days as a mental-health or neurological endpoint. This milestone celebrates three years of keeping your digital habits deliberate.'**
   String get socialMediaReferenceDay1095;
 
-  /// No description provided for @socialMediaMilestone1460Title.
+  /// Title for the social media recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four years, feed optional'**
   String get socialMediaMilestone1460Title;
 
-  /// No description provided for @socialMediaMilestone1460Description.
+  /// Description for the social media recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four years. Algorithms can keep arguing for your attention; you don\'t have to answer.'**
   String get socialMediaMilestone1460Description;
 
-  /// No description provided for @socialMediaReferenceDay1460.
+  /// Source for the social media recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four Years: Deliberate by Default\n\nSource: Ramadhan et al., “Impacts of digital social media detox for mental health: A systematic review and meta-analysis,” Narra J (2024), PubMed PMID 39280291\n\nThe meta-analysis combined 10 studies of digital-detox interventions. Depressive symptoms improved overall; pooled effects on life satisfaction, stress, and overall mental well-being were not statistically significant.\n\nThe review does not test a four-year abstinence or reduction milestone. Day 1,460 is a behavioural anniversary: four years of maintaining a healthier boundary through ordinary life.'**
   String get socialMediaReferenceDay1460;
 
-  /// No description provided for @socialMediaMilestone1825Title.
+  /// Title for the social media recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Five years'**
   String get socialMediaMilestone1825Title;
 
-  /// No description provided for @socialMediaMilestone1825Description.
+  /// Description for the social media recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Half a decade without the old scrolling habit. Five years of choosing what deserves your attention.'**
   String get socialMediaMilestone1825Description;
 
-  /// No description provided for @socialMediaReferenceDay1825.
+  /// Source for the social media recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Five Years: Life Beyond the Feed\n\nSource: Ramadhan et al., “Impacts of digital social media detox for mental health: A systematic review and meta-analysis,” Narra J (2024), PubMed PMID 39280291\n\nThe meta-analysis combined 10 studies of digital-detox interventions. Depressive symptoms improved overall; pooled effects on life satisfaction, stress, and overall mental well-being were not statistically significant.\n\nThe review does not establish five-year outcomes. Day 1,825 is worth celebrating for what it actually is: half a decade of intentional digital choices, without an invented brain-reset timeline.'**
   String get socialMediaReferenceDay1825;
 
-  /// No description provided for @ssriMilestone730Title.
+  /// Title for the ssri recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two years of progress'**
   String get ssriMilestone730Title;
 
-  /// No description provided for @ssriMilestone730Description.
+  /// Description for the ssri recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two years since your SSRI taper. There\'s no universal recovery clock. Whatever care and routines have helped you, you\'ve maintained them for a long time.'**
   String get ssriMilestone730Description;
 
-  /// No description provided for @ssriReferenceDay730.
+  /// Source for the ssri recovery milestone at 730 days.
   ///
   /// In en, this message translates to:
   /// **'Two Years After SSRIs: Steady Progress\n\nSource: Royal College of Psychiatrists — Stopping antidepressants\n\nThe Royal College says antidepressants should not usually be stopped suddenly and that tapering should be adapted to the individual. Withdrawal experiences vary, and some people need slower reductions over months or longer.\n\nThe guidance does not define a two-year biological recovery threshold after stopping an SSRI. Day 730 celebrates two years of sustained progress, not a fixed neurological timetable.'**
   String get ssriReferenceDay730;
 
-  /// No description provided for @ssriMilestone1095Title.
+  /// Title for the ssri recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three years, doing well'**
   String get ssriMilestone1095Title;
 
-  /// No description provided for @ssriMilestone1095Description.
+  /// Description for the ssri recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three years since stopping. Medication choices are personal, and continued support is sensible.'**
   String get ssriMilestone1095Description;
 
-  /// No description provided for @ssriReferenceDay1095.
+  /// Source for the ssri recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three Years After SSRIs: Progress Sustained\n\nSource: Royal College of Psychiatrists — Stopping antidepressants\n\nThe guidance describes withdrawal as individual: tapering pace depends on factors such as how long the medicine was taken and whether previous dose reductions caused symptoms.\n\nIt does not establish three years as a universal SSRI recovery deadline. Day 1095 recognises progress maintained over three years without inventing a clinical threshold.'**
   String get ssriReferenceDay1095;
 
-  /// No description provided for @ssriMilestone1460Title.
+  /// Title for the ssri recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four years'**
   String get ssriMilestone1460Title;
 
-  /// No description provided for @ssriMilestone1460Description.
+  /// Description for the ssri recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four years since stopping your SSRI. Recognise your own progress and keep using the treatment and support that help you stay well.'**
   String get ssriMilestone1460Description;
 
-  /// No description provided for @ssriReferenceDay1460.
+  /// Source for the ssri recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four Years After SSRIs: Stronger Ground\n\nSource: Royal College of Psychiatrists — Stopping antidepressants\n\nThe Royal College recommends gradual, individualised tapering because withdrawal severity and duration differ between people. Some people need reductions spread across months or longer.\n\nThat evidence does not create a four-year neurological endpoint. Day 1460 celebrates four years of sustained change and the stability built along the way.'**
   String get ssriReferenceDay1460;
 
-  /// No description provided for @ssriMilestone1825Title.
+  /// Title for the ssri recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Five years'**
   String get ssriMilestone1825Title;
 
-  /// No description provided for @ssriMilestone1825Description.
+  /// Description for the ssri recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Half a decade after stopping your SSRI. If this remains the right approach for you, five years of looking after your wellbeing is worth celebrating.'**
   String get ssriMilestone1825Description;
 
-  /// No description provided for @ssriReferenceDay1825.
+  /// Source for the ssri recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Five Years After SSRIs: Major Milestone\n\nSource: Royal College of Psychiatrists — Stopping antidepressants\n\nThe guidance focuses on safe, individualised tapering and responding to symptoms rather than assigning one fixed recovery schedule to everyone.\n\nThere is no evidence-based five-year SSRI recovery threshold in that guidance. Day 1825 is still a major personal anniversary: half a decade of sustained progress.'**
   String get ssriReferenceDay1825;
 
-  /// No description provided for @steroidsMilestone1095Title.
+  /// Title for the steroids recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three years'**
   String get steroidsMilestone1095Title;
 
-  /// No description provided for @steroidsMilestone1095Description.
+  /// Description for the steroids recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three years steroid-free. Hormone recovery varies, and you\'ve given yourself three years without another cycle.'**
   String get steroidsMilestone1095Description;
 
-  /// No description provided for @steroidsReferenceDay1095.
+  /// Source for the steroids recovery milestone at 1095 days.
   ///
   /// In en, this message translates to:
   /// **'Three Years Off Anabolic Steroids\n\nSource: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nThree Years of Distance\nRecovery after AAS is highly variable. The review reports testosterone and gonadotropin recovery over months, while testicular size and sperm production may recover over months to years. Psychological recovery is less predictable.\n\nWhat This Anniversary Means\nThe review does not define a three-year biological finish line. This milestone marks three years without re-exposure. Persistent low-testosterone, fertility, mood, or sexual symptoms are reasons to seek medical assessment.'**
   String get steroidsReferenceDay1095;
 
-  /// No description provided for @steroidsMilestone1460Title.
+  /// Title for the steroids recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four years, no return'**
   String get steroidsMilestone1460Title;
 
-  /// No description provided for @steroidsMilestone1460Description.
+  /// Description for the steroids recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four years without another anabolic-steroid cycle. You\'ve kept this change going through everyday life.'**
   String get steroidsMilestone1460Description;
 
-  /// No description provided for @steroidsReferenceDay1460.
+  /// Source for the steroids recovery milestone at 1460 days.
   ///
   /// In en, this message translates to:
   /// **'Four Years Off Anabolic Steroids\n\nSource: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nFour Years of Consistency\nRecovery after AAS does not follow one clock. The review describes physical, reproductive, psychological, and biochemical recovery on different timelines, with some changes taking months to years.\n\nNo Invented Deadline\nThere is no evidence-based four-year recovery threshold. Four years without another cycle is still a substantial achievement. Ongoing symptoms deserve clinical assessment on their own merits.'**
   String get steroidsReferenceDay1460;
 
-  /// No description provided for @steroidsMilestone1825Title.
+  /// Title for the steroids recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Five years off steroids'**
   String get steroidsMilestone1825Title;
 
-  /// No description provided for @steroidsMilestone1825Description.
+  /// Description for the steroids recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Half a decade without another cycle. Recovery isn\'t always neat, but five years of protecting your health deserves a proper celebration.'**
   String get steroidsMilestone1825Description;
 
-  /// No description provided for @steroidsReferenceDay1825.
+  /// Source for the steroids recovery milestone at 1825 days.
   ///
   /// In en, this message translates to:
   /// **'Five Years Off Anabolic Steroids\n\nSource: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nFive Years Is a Major Milestone\nThe evidence shows that recovery after AAS varies widely. Many hormonal changes improve much earlier, while reproductive or psychological effects can follow longer and less predictable courses.\n\nHalf a Decade Without Re-Exposure\nThe review does not set a five-year biological finish line. Five years steroid-free is worth celebrating for the sustained change itself, while any persistent symptoms should still be assessed medically.'**

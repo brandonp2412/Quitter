@@ -44,6 +44,7 @@ class AddictionProvider extends ChangeNotifier {
   Map<String, String> customNames = {};
   Map<String, IconData> customIcons = {};
   Map<String, Color> customColors = {};
+  Map<String, double> weeklySpends = {};
   Map<String, List<int>> _days = {};
 
   Future<void> loadAddictions() async {
@@ -143,6 +144,18 @@ class AddictionProvider extends ChangeNotifier {
       customColors = {
         for (final entry in colorsData.entries)
           if (entry.value is int) entry.key: Color(entry.value as int),
+      };
+    }
+
+    weeklySpends = {};
+    final weeklySpendsData = decodeJson('weekly_spend');
+    if (weeklySpendsData is Map<String, dynamic>) {
+      weeklySpends = {
+        for (final entry in weeklySpendsData.entries)
+          if (entry.value is num &&
+              (entry.value as num).toDouble().isFinite &&
+              (entry.value as num) >= 0)
+            entry.key: (entry.value as num).toDouble(),
       };
     }
 
@@ -311,6 +324,21 @@ class AddictionProvider extends ChangeNotifier {
     notifyListeners();
   }
 
+  double? weeklySpendFor(String key) => weeklySpends[key];
+
+  Future<void> setWeeklySpend(String key, double? amount) async {
+    if (amount != null && (!amount.isFinite || amount < 0)) {
+      throw ArgumentError.value(amount, 'amount');
+    }
+    if (amount == null) {
+      weeklySpends.remove(key);
+    } else {
+      weeklySpends[key] = amount;
+    }
+    await _pref?.setString('weekly_spend', json.encode(weeklySpends));
+    notifyListeners();
+  }
+
   Future<void> _saveEntries() async {
     final List<Map<String, dynamic>> list = entries
         .map((e) => e.toJson())
@@ -337,6 +365,9 @@ class AddictionProvider extends ChangeNotifier {
   Future<void> deleteEntry(String id) async {
     entries.removeWhere((e) => e.id == id);
     await _saveEntries();
+    if (weeklySpends.remove(id) != null) {
+      await _pref?.setString('weekly_spend', json.encode(weeklySpends));
+    }
     notifyListeners();
     talker.info('Deleted a custom recovery entry');
   }

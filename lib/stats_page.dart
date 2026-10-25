@@ -158,6 +158,7 @@ class StatsPage extends StatelessWidget {
       if (quitDate == null) return;
       final days = daysCeil(quitDate);
       final allDays = key != null ? addictions.getDays(key) : <int>[];
+      final weeklySpend = key == null ? null : addictions.weeklySpendFor(key);
       entries.add(
         _StatEntry(
           name: name,
@@ -165,7 +166,8 @@ class StatsPage extends StatelessWidget {
           useVapingIcon: key == 'vaping' && addictions.customIcons[key] == null,
           color: color,
           days: days,
-          costPerDay: costPerDay,
+          costPerDay: weeklySpend == null ? costPerDay : weeklySpend / 7,
+          hasCustomCost: weeklySpend != null,
           hoursPerDay: hoursPerDay,
           relapseCount: allDays.length,
           totalRelapseDays: allDays.fold(0, (s, d) => s + d),
@@ -380,12 +382,15 @@ class StatsPage extends StatelessWidget {
     for (final entry in addictions.entries) {
       final days = daysCeil(entry.quitDate.toIso8601String());
       final customColor = addictions.customColors[entry.id] ?? entry.color;
+      final weeklySpend = addictions.weeklySpendFor(entry.id);
       entries.add(
         _StatEntry(
           name: addictions.customNames[entry.id] ?? entry.title,
           icon: addictions.customIcons[entry.id] ?? entry.icon ?? Icons.star,
           color: customColor,
           days: days,
+          costPerDay: weeklySpend == null ? null : weeklySpend / 7,
+          hasCustomCost: weeklySpend != null,
           relapseCount: entry.daysAchieved.length,
           totalRelapseDays: entry.daysAchieved.fold(0, (s, d) => s + d),
         ),
@@ -403,6 +408,7 @@ class _StatEntry {
   final Color color;
   final int days;
   final double? costPerDay;
+  final bool hasCustomCost;
   final double? hoursPerDay;
   final int relapseCount;
   final int totalRelapseDays;
@@ -414,6 +420,7 @@ class _StatEntry {
     required this.color,
     required this.days,
     this.costPerDay,
+    this.hasCustomCost = false,
     this.hoursPerDay,
     this.relapseCount = 0,
     this.totalRelapseDays = 0,
@@ -607,7 +614,9 @@ class _MoneySavedCard extends StatelessWidget {
           ),
           const SizedBox(height: 8),
           Text(
-            l10n.statsMoneySavedEstimate,
+            moneyEntries.any((entry) => entry.hasCustomCost)
+                ? l10n.statsMoneySavedCustomEstimate
+                : l10n.statsMoneySavedEstimate,
             style: theme.textTheme.bodySmall?.copyWith(
               color: theme.colorScheme.onSurface.withValues(alpha: 0.45),
               fontStyle: FontStyle.italic,

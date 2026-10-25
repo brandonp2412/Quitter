@@ -1132,6 +1132,20 @@ class AppLocalizationsRu extends AppLocalizations {
   }
 
   @override
+  String get editEntryWeeklySpend => 'Расходы за неделю (US\$)';
+
+  @override
+  String get editEntryWeeklySpendHint =>
+      'Оставьте пустым для оценки, если она доступна';
+
+  @override
+  String get editEntryWeeklySpendInvalid => 'Введите корректную сумму';
+
+  @override
+  String get statsMoneySavedCustomEstimate =>
+      'Используются заданные недельные расходы, иначе оценочные значения';
+
+  @override
   String get statsMoneySavedTitle => 'Расчётная экономия';
 
   @override

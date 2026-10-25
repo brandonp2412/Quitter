@@ -4,12 +4,8 @@ import 'package:provider/provider.dart';
 import 'package:quitter/addiction_provider.dart';
 import 'package:quitter/color_picker.dart';
 import 'package:quitter/icon_picker.dart';
+import 'package:quitter/weekly_spend_field.dart';
 
-/// Edits the display name, color and icon of a built-in preset tile.
-///
-/// Presets store their quit date separately, so unlike entries this page only
-/// customizes appearance; the chosen values are persisted on
-/// [AddictionProvider] as `custom*` overrides keyed by [presetKey].
 class EditPresetPage extends StatefulWidget {
   final String presetKey;
   final String title;
@@ -31,6 +27,7 @@ class EditPresetPage extends StatefulWidget {
 class _EditPresetPageState extends State<EditPresetPage> {
   final _formKey = GlobalKey<FormState>();
   late TextEditingController _titleController;
+  late TextEditingController _weeklySpendController;
   late Color _selectedColor;
   late IconData _selectedIcon;
 
@@ -38,6 +35,11 @@ class _EditPresetPageState extends State<EditPresetPage> {
   void initState() {
     super.initState();
     _titleController = TextEditingController(text: widget.title);
+    _weeklySpendController = TextEditingController(
+      text: WeeklySpendField.format(
+        context.read<AddictionProvider>().weeklySpendFor(widget.presetKey),
+      ),
+    );
     _selectedColor = widget.color;
     _selectedIcon = widget.icon;
   }
@@ -45,6 +47,7 @@ class _EditPresetPageState extends State<EditPresetPage> {
   @override
   void dispose() {
     _titleController.dispose();
+    _weeklySpendController.dispose();
     super.dispose();
   }
 
@@ -55,6 +58,10 @@ class _EditPresetPageState extends State<EditPresetPage> {
       addictions.setCustomName(widget.presetKey, _titleController.text.trim()),
       addictions.setCustomColor(widget.presetKey, _selectedColor),
       addictions.setCustomIcon(widget.presetKey, _selectedIcon),
+      addictions.setWeeklySpend(
+        widget.presetKey,
+        WeeklySpendField.parse(_weeklySpendController.text),
+      ),
     ]);
     if (!mounted) return;
     Navigator.of(context).pop();
@@ -88,6 +95,8 @@ class _EditPresetPageState extends State<EditPresetPage> {
                     return null;
                   },
                 ),
+                const SizedBox(height: 20),
+                WeeklySpendField(controller: _weeklySpendController),
                 const SizedBox(height: 20),
                 FocusableActionDetector(
                   child: Builder(

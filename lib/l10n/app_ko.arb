@@ -660,6 +660,14 @@
       }
     }
   },
+  "editEntryWeeklySpend": "주간 지출 (US$)",
+  "@editEntryWeeklySpend": {"description": "Input label for weekly money spent on an addiction in US dollars"},
+  "editEntryWeeklySpendHint": "비워 두면 가능한 경우 추정치를 사용합니다",
+  "@editEntryWeeklySpendHint": {"description": "Hint that leaving weekly spending blank uses the default estimate"},
+  "editEntryWeeklySpendInvalid": "올바른 금액을 입력하세요",
+  "@editEntryWeeklySpendInvalid": {"description": "Validation error for weekly spending"},
+  "statsMoneySavedCustomEstimate": "설정한 주간 지출을 사용하고 나머지는 추정치입니다",
+  "@statsMoneySavedCustomEstimate": {"description": "Disclaimer for savings based on custom weekly spending and defaults"},
   "statsMoneySavedTitle": "예상 절약 금액",
   "@statsMoneySavedTitle": {
     "description": "Section title for the money saved card on stats page"

@@ -1138,6 +1138,20 @@ class AppLocalizationsFr extends AppLocalizations {
   }
 
   @override
+  String get editEntryWeeklySpend => 'Dépenses hebdomadaires (US\$)';
+
+  @override
+  String get editEntryWeeklySpendHint =>
+      'Laisser vide pour une estimation, si disponible';
+
+  @override
+  String get editEntryWeeklySpendInvalid => 'Saisissez un montant valide';
+
+  @override
+  String get statsMoneySavedCustomEstimate =>
+      'Utilise vos dépenses hebdomadaires si définies, sinon des estimations';
+
+  @override
   String get statsMoneySavedTitle => 'Économies estimées';
 
   @override

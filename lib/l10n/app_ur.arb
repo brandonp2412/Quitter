@@ -664,6 +664,14 @@
       }
     }
   },
+  "editEntryWeeklySpend": "ہفتہ وار خرچ (US$)",
+  "@editEntryWeeklySpend": {"description": "Input label for weekly money spent on an addiction in US dollars"},
+  "editEntryWeeklySpendHint": "تخمینہ دستیاب ہو تو استعمال کرنے کے لیے خالی چھوڑ دیں",
+  "@editEntryWeeklySpendHint": {"description": "Hint that leaving weekly spending blank uses the default estimate"},
+  "editEntryWeeklySpendInvalid": "درست رقم درج کریں",
+  "@editEntryWeeklySpendInvalid": {"description": "Validation error for weekly spending"},
+  "statsMoneySavedCustomEstimate": "جہاں سیٹ ہو وہاں ہفتہ وار خرچ استعمال ہوگا، باقی تخمینے ہیں",
+  "@statsMoneySavedCustomEstimate": {"description": "Disclaimer for savings based on custom weekly spending and defaults"},
   "statsMoneySavedTitle": "تخمینی بچت",
   "@statsMoneySavedTitle": {
     "description": "Section title for the money saved card on stats page"

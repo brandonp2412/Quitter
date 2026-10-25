@@ -1120,6 +1120,20 @@ class AppLocalizationsEs extends AppLocalizations {
   }
 
   @override
+  String get editEntryWeeklySpend => 'Gasto semanal (US\$)';
+
+  @override
+  String get editEntryWeeklySpendHint =>
+      'Déjalo en blanco para una estimación, si existe';
+
+  @override
+  String get editEntryWeeklySpendInvalid => 'Introduce un importe válido';
+
+  @override
+  String get statsMoneySavedCustomEstimate =>
+      'Usa tu gasto semanal si lo indicas; el resto son estimaciones';
+
+  @override
   String get statsMoneySavedTitle => 'Dinero ahorrado estimado';
 
   @override

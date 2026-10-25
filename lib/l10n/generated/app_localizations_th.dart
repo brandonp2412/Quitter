@@ -1113,6 +1113,19 @@ class AppLocalizationsTh extends AppLocalizations {
   }
 
   @override
+  String get editEntryWeeklySpend => 'ค่าใช้จ่ายต่อสัปดาห์ (US\$)';
+
+  @override
+  String get editEntryWeeklySpendHint => 'เว้นว่างเพื่อใช้ค่าประมาณ หากมี';
+
+  @override
+  String get editEntryWeeklySpendInvalid => 'กรอกจำนวนเงินที่ถูกต้อง';
+
+  @override
+  String get statsMoneySavedCustomEstimate =>
+      'ใช้ค่าใช้จ่ายรายสัปดาห์ที่ตั้งไว้ ส่วนที่เหลือเป็นค่าประมาณ';
+
+  @override
   String get statsMoneySavedTitle => 'เงินที่ประหยัดได้โดยประมาณ';
 
   @override

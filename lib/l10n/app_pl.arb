@@ -664,6 +664,14 @@
       }
     }
   },
+  "editEntryWeeklySpend": "Tygodniowe wydatki (US$)",
+  "@editEntryWeeklySpend": {"description": "Input label for weekly money spent on an addiction in US dollars"},
+  "editEntryWeeklySpendHint": "Pozostaw puste, aby użyć szacunku, jeśli jest dostępny",
+  "@editEntryWeeklySpendHint": {"description": "Hint that leaving weekly spending blank uses the default estimate"},
+  "editEntryWeeklySpendInvalid": "Wpisz prawidłową kwotę",
+  "@editEntryWeeklySpendInvalid": {"description": "Validation error for weekly spending"},
+  "statsMoneySavedCustomEstimate": "Używa ustawionych wydatków tygodniowych, a poza tym szacunków",
+  "@statsMoneySavedCustomEstimate": {"description": "Disclaimer for savings based on custom weekly spending and defaults"},
   "statsMoneySavedTitle": "Szacowane oszczędności",
   "@statsMoneySavedTitle": {
     "description": "Section title for the money saved card on stats page"

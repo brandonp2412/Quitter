@@ -1086,6 +1086,18 @@ class AppLocalizationsZh extends AppLocalizations {
   }
 
   @override
+  String get editEntryWeeklySpend => '每周花费 (US\$)';
+
+  @override
+  String get editEntryWeeklySpendHint => '留空则使用现有估算值（如有）';
+
+  @override
+  String get editEntryWeeklySpendInvalid => '请输入有效金额';
+
+  @override
+  String get statsMoneySavedCustomEstimate => '已设置的项目使用每周花费，其余使用估算值';
+
+  @override
   String get statsMoneySavedTitle => '预计节省金额';
 
   @override
@@ -5433,6 +5445,18 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   String statsAddictionsTracked(int count) {
     return '記錄$count項';
   }
+
+  @override
+  String get editEntryWeeklySpend => '每週花費 (US\$)';
+
+  @override
+  String get editEntryWeeklySpendHint => '留空則使用現有估算值（如有）';
+
+  @override
+  String get editEntryWeeklySpendInvalid => '請輸入有效金額';
+
+  @override
+  String get statsMoneySavedCustomEstimate => '已設定的項目使用每週花費，其餘使用估算值';
 
   @override
   String get statsMoneySavedTitle => '預估節省金額';

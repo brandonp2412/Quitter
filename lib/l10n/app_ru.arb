@@ -664,6 +664,14 @@
       }
     }
   },
+  "editEntryWeeklySpend": "Расходы за неделю (US$)",
+  "@editEntryWeeklySpend": {"description": "Input label for weekly money spent on an addiction in US dollars"},
+  "editEntryWeeklySpendHint": "Оставьте пустым для оценки, если она доступна",
+  "@editEntryWeeklySpendHint": {"description": "Hint that leaving weekly spending blank uses the default estimate"},
+  "editEntryWeeklySpendInvalid": "Введите корректную сумму",
+  "@editEntryWeeklySpendInvalid": {"description": "Validation error for weekly spending"},
+  "statsMoneySavedCustomEstimate": "Используются заданные недельные расходы, иначе оценочные значения",
+  "@statsMoneySavedCustomEstimate": {"description": "Disclaimer for savings based on custom weekly spending and defaults"},
   "statsMoneySavedTitle": "Расчётная экономия",
   "@statsMoneySavedTitle": {
     "description": "Section title for the money saved card on stats page"

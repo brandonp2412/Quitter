@@ -664,6 +664,14 @@
       }
     }
   },
+  "editEntryWeeklySpend": "Pengeluaran mingguan (US$)",
+  "@editEntryWeeklySpend": {"description": "Input label for weekly money spent on an addiction in US dollars"},
+  "editEntryWeeklySpendHint": "Kosongkan untuk perkiraan, jika tersedia",
+  "@editEntryWeeklySpendHint": {"description": "Hint that leaving weekly spending blank uses the default estimate"},
+  "editEntryWeeklySpendInvalid": "Masukkan jumlah yang valid",
+  "@editEntryWeeklySpendInvalid": {"description": "Validation error for weekly spending"},
+  "statsMoneySavedCustomEstimate": "Menggunakan pengeluaran mingguan yang diatur; sisanya perkiraan",
+  "@statsMoneySavedCustomEstimate": {"description": "Disclaimer for savings based on custom weekly spending and defaults"},
   "statsMoneySavedTitle": "Perkiraan uang yang dihemat",
   "@statsMoneySavedTitle": {
     "description": "Section title for the money saved card on stats page"

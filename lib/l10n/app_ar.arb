@@ -664,6 +664,14 @@
       }
     }
   },
+  "editEntryWeeklySpend": "الإنفاق الأسبوعي (US$)",
+  "@editEntryWeeklySpend": {"description": "Input label for weekly money spent on an addiction in US dollars"},
+  "editEntryWeeklySpendHint": "اتركه فارغًا لاستخدام تقدير إن توفر",
+  "@editEntryWeeklySpendHint": {"description": "Hint that leaving weekly spending blank uses the default estimate"},
+  "editEntryWeeklySpendInvalid": "أدخل مبلغًا صالحًا",
+  "@editEntryWeeklySpendInvalid": {"description": "Validation error for weekly spending"},
+  "statsMoneySavedCustomEstimate": "يستخدم إنفاقك الأسبوعي حيث تحدده، والباقي تقديري",
+  "@statsMoneySavedCustomEstimate": {"description": "Disclaimer for savings based on custom weekly spending and defaults"},
   "statsMoneySavedTitle": "المال المُوفَّر المقدر",
   "@statsMoneySavedTitle": {
     "description": "Section title for the money saved card on stats page"
