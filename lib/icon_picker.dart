@@ -1,3 +1,4 @@
+import 'package:quitter/addiction_icon.dart';
 import 'package:flutter/material.dart';
 import 'package:quitter/app_icons.dart';
 import 'package:quitter/empty_state.dart';
@@ -161,7 +162,7 @@ class _IconPickerWidgetState extends State<IconPickerWidget> {
                                     )
                                   : null,
                             ),
-                            child: Icon(
+                            child: AddictionIcon(
                               icon,
                               size: widget.iconSize,
                               color: isSelected

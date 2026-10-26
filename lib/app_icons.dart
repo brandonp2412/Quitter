@@ -9,6 +9,11 @@ import 'package:quitter/material_icons.dart';
 /// Cupertino glyph wins — preserving how previously stored icons resolve.
 final Map<String, IconData> allIcons = {
   ...allMaterialIcons,
+  'quitter:gabapentin': PresetIcons.gabapentin,
+  'quitter:opioids': PresetIcons.opioids,
+  'quitter:meth': PresetIcons.meth,
+  'quitter:maoi': PresetIcons.maoi,
+
   ...allCupertinoIcons,
   'lucide:cigarette': PresetIcons.smoking,
   'tabler:cannabis': PresetIcons.cannabis,

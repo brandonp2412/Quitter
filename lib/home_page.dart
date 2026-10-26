@@ -325,7 +325,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
     addPreset(
       'maoi',
       l10n.addictionMaoi,
-      Icons.science,
+      PresetIcons.maoi,
       [const Color(0xFF4C1D95), const Color(0xFF5B21B6)],
       addictions.quitMaoi,
       (context) => const MaoiPage(started: true),
@@ -349,7 +349,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
     addPreset(
       'gabapentinoids',
       l10n.addictionGabapentinoid,
-      Icons.medication_outlined,
+      PresetIcons.gabapentin,
       [const Color(0xFF94A3B8), const Color(0xFF475569)],
       addictions.quitGabapentinoids,
       (context) => const GabapentinoidPage(started: true),
@@ -440,7 +440,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
     addPreset(
       'meth',
       l10n.addictionMeth,
-      PresetIcons.flask,
+      PresetIcons.meth,
       [const Color(0xFF14B8A6), const Color(0xFF0D9488)],
       addictions.quitMeth,
       (context) => const MethPage(started: true),
@@ -456,7 +456,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
     addPreset(
       'opioids',
       l10n.addictionOpioids,
-      Icons.medication,
+      PresetIcons.opioids,
       [const Color(0xFFEC4899), const Color(0xFFBE185D)],
       addictions.quitOpioids,
       (context) => const OpioidPage(started: true),
@@ -464,7 +464,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
     addPreset(
       'heroin',
       l10n.addictionHeroin,
-      Icons.medication,
+      PresetIcons.opioids,
       [const Color(0xFFEC4899), const Color(0xFFBE185D)],
       addictions.quitHeroin,
       (context) => const OpioidPage(started: true, storageKey: 'heroin'),
@@ -472,7 +472,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
     addPreset(
       'fentanyl',
       l10n.addictionFentanyl,
-      Icons.medication,
+      PresetIcons.opioids,
       [const Color(0xFF7C3AED), const Color(0xFF3B0764)],
       addictions.quitFentanyl,
       (context) => const OpioidPage(started: true, storageKey: 'fentanyl'),

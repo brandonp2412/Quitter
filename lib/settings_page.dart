@@ -1,3 +1,4 @@
+import 'package:quitter/addiction_icon.dart';
 import 'dart:convert';
 
 import 'package:flutter/foundation.dart';
@@ -529,7 +530,7 @@ class _SettingsPageState extends State<SettingsPage> {
         ),
       if (addictions.quitMaoi != null)
         _ToggleItem(
-          icon: Icons.science,
+          icon: PresetIcons.maoi,
           title: l10n.addictionMaoi,
           subtitle: l10n.settingsNotifyMaoi,
           value: settings.notifyMaoi,
@@ -548,7 +549,7 @@ class _SettingsPageState extends State<SettingsPage> {
       if (addictions.quitGabapentinoids != null)
         presetToggle(
           'gabapentinoids',
-          Icons.medication_outlined,
+          PresetIcons.gabapentin,
           l10n.addictionGabapentinoid,
         ),
       if (addictions.quitGhb != null)
@@ -609,7 +610,7 @@ class _SettingsPageState extends State<SettingsPage> {
         ),
       if (addictions.quitMeth != null)
         _ToggleItem(
-          icon: PresetIcons.flask,
+          icon: PresetIcons.meth,
           title: l10n.addictionMeth,
           subtitle: l10n.settingsNotifyMeth,
           value: settings.notifyMeth,
@@ -629,7 +630,7 @@ class _SettingsPageState extends State<SettingsPage> {
         ),
       if (addictions.quitOpioids != null)
         _ToggleItem(
-          icon: Icons.medication,
+          icon: PresetIcons.opioids,
           title: l10n.addictionOpioids,
           subtitle: l10n.settingsNotifyOpioids,
           value: settings.notifyOpioids,
@@ -638,9 +639,9 @@ class _SettingsPageState extends State<SettingsPage> {
           notifyDisplayName: l10n.addictionOpioids,
         ),
       if (addictions.quitHeroin != null)
-        presetToggle('heroin', Icons.medication, l10n.addictionHeroin),
+        presetToggle('heroin', PresetIcons.opioids, l10n.addictionHeroin),
       if (addictions.quitFentanyl != null)
-        presetToggle('fentanyl', Icons.medication, l10n.addictionFentanyl),
+        presetToggle('fentanyl', PresetIcons.opioids, l10n.addictionFentanyl),
       if (addictions.quitPornography != null)
         _ToggleItem(
           icon: Icons.block,
@@ -1195,7 +1196,7 @@ class _SettingsPageState extends State<SettingsPage> {
           key: item.notifyPrefsKey == null
               ? null
               : ValueKey('notify_${item.notifyPrefsKey}'),
-          secondary: Icon(item.icon),
+          secondary: AddictionIcon(item.icon),
           title: Text(item.title),
           subtitle: Text(item.subtitle),
           value: item.value,

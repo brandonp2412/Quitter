@@ -233,7 +233,7 @@ class StatsPage extends StatelessWidget {
     addPreset(
       addictions.quitOpioids,
       l10n.addictionOpioids,
-      Icons.medication,
+      PresetIcons.opioids,
       const Color(0xFFEC4899),
       key: 'opioids',
     );
@@ -247,7 +247,7 @@ class StatsPage extends StatelessWidget {
     addPreset(
       addictions.quitMeth,
       l10n.addictionMeth,
-      PresetIcons.flask,
+      PresetIcons.meth,
       const Color(0xFF14B8A6),
       key: 'meth',
     );
@@ -289,7 +289,7 @@ class StatsPage extends StatelessWidget {
     addPreset(
       addictions.quitMaoi,
       l10n.addictionMaoi,
-      Icons.science,
+      PresetIcons.maoi,
       const Color(0xFF4C1D95),
       key: 'maoi',
     );
@@ -303,7 +303,7 @@ class StatsPage extends StatelessWidget {
     addPreset(
       addictions.quitGabapentinoids,
       l10n.addictionGabapentinoid,
-      Icons.medication_outlined,
+      PresetIcons.gabapentin,
       const Color(0xFF94A3B8),
       key: 'gabapentinoids',
     );
@@ -359,7 +359,7 @@ class StatsPage extends StatelessWidget {
     addPreset(
       addictions.quitFentanyl,
       l10n.addictionFentanyl,
-      Icons.warning_amber,
+      PresetIcons.opioids,
       const Color(0xFFDC2626),
       key: 'fentanyl',
     );
@@ -373,7 +373,7 @@ class StatsPage extends StatelessWidget {
     addPreset(
       addictions.quitHeroin,
       l10n.addictionHeroin,
-      Icons.medication,
+      PresetIcons.opioids,
       const Color(0xFFB91C1C),
       key: 'heroin',
     );

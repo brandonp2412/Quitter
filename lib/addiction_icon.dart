@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:quitter/preset_icons.dart';
 
 class AddictionIcon extends StatelessWidget {
   const AddictionIcon(this.icon, {super.key, this.size = 24, this.color});
@@ -10,9 +11,17 @@ class AddictionIcon extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    if (icon == Icons.air) {
+    final asset = switch (icon) {
+      Icons.air => 'assets/vaping.svg',
+      PresetIcons.gabapentin => 'assets/gabapentin.svg',
+      PresetIcons.opioids => 'assets/opioids.svg',
+      PresetIcons.meth => 'assets/meth.svg',
+      PresetIcons.maoi => 'assets/maoi.svg',
+      _ => null,
+    };
+    if (asset != null) {
       return SvgPicture.asset(
-        'assets/vaping.svg',
+        asset,
         width: size * 4 / 3,
         height: size * 4 / 3,
         colorFilter: ColorFilter.mode(

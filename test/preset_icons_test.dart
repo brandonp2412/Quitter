@@ -5,6 +5,10 @@ import 'package:quitter/preset_icons.dart';
 void main() {
   test('approved preset icons survive name serialization', () {
     for (final icon in [
+      PresetIcons.gabapentin,
+      PresetIcons.opioids,
+      PresetIcons.meth,
+      PresetIcons.maoi,
       PresetIcons.smoking,
       PresetIcons.cannabis,
       PresetIcons.package,

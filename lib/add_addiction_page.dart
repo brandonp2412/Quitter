@@ -168,7 +168,7 @@ class _AddAddictionPageState extends State<AddAddictionPage> {
       options.add(
         _AddictionOption(
           title: l10n.addictionMaoi,
-          icon: Icons.science,
+          icon: PresetIcons.maoi,
           gradientColors: [const Color(0xFF4C1D95), const Color(0xFF5B21B6)],
           destination: const MaoiPage(started: false),
           aliases: const [
@@ -293,7 +293,7 @@ class _AddAddictionPageState extends State<AddAddictionPage> {
       options.add(
         _AddictionOption(
           title: l10n.addictionMeth,
-          icon: PresetIcons.flask,
+          icon: PresetIcons.meth,
           gradientColors: [const Color(0xFF14B8A6), const Color(0xFF0D9488)],
           destination: const MethPage(started: false),
           aliases: const [
@@ -324,7 +324,7 @@ class _AddAddictionPageState extends State<AddAddictionPage> {
       options.add(
         _AddictionOption(
           title: l10n.addictionHeroin,
-          icon: Icons.medication,
+          icon: PresetIcons.opioids,
           gradientColors: [const Color(0xFFEC4899), const Color(0xFFBE185D)],
           destination: const OpioidPage(started: false, storageKey: 'heroin'),
           aliases: const [
@@ -344,7 +344,7 @@ class _AddAddictionPageState extends State<AddAddictionPage> {
       options.add(
         _AddictionOption(
           title: l10n.addictionOpioids,
-          icon: Icons.medication,
+          icon: PresetIcons.opioids,
           gradientColors: [const Color(0xFFEC4899), const Color(0xFFBE185D)],
           destination: const OpioidPage(started: false),
           aliases: const [
@@ -458,7 +458,7 @@ class _AddAddictionPageState extends State<AddAddictionPage> {
       options.add(
         _AddictionOption(
           title: l10n.addictionGabapentinoid,
-          icon: Icons.medication_outlined,
+          icon: PresetIcons.gabapentin,
           gradientColors: [const Color(0xFF94A3B8), const Color(0xFF475569)],
           destination: const GabapentinoidPage(started: false),
           aliases: const [
@@ -584,7 +584,7 @@ class _AddAddictionPageState extends State<AddAddictionPage> {
       options.add(
         _AddictionOption(
           title: l10n.addictionFentanyl,
-          icon: Icons.medication,
+          icon: PresetIcons.opioids,
           gradientColors: [const Color(0xFF7C3AED), const Color(0xFF3B0764)],
           destination: const OpioidPage(started: false, storageKey: 'fentanyl'),
           aliases: const [
