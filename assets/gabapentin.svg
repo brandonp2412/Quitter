@@ -1,8 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#233047" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-  <title>Gabapentin medicine bottle</title>
-  <rect x="22" y="8" width="20" height="9" rx="2"/>
-  <path d="M24 17v5l-6 6v25a4 4 0 0 0 4 4h20a4 4 0 0 0 4-4V28l-6-6v-5"/>
-  <path d="M18 31h28M18 49h28"/>
-  <rect x="24" y="35" width="16" height="10" rx="5" transform="rotate(-35 32 40)"/>
-  <path d="m29 36 6 8"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><title>Gabapentin: Clean capsule</title><g transform="rotate(35 32 32)"><rect x="21" y="13" width="22" height="38" rx="11.0"/><path d="M21 32.0h22"/></g></svg>
