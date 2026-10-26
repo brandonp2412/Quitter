@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:vector_graphics/vector_graphics_compat.dart'
+    show RenderingStrategy;
 import 'package:quitter/preset_icons.dart';
 
 class AddictionIcon extends StatelessWidget {
@@ -22,6 +24,7 @@ class AddictionIcon extends StatelessWidget {
     if (asset != null) {
       return SvgPicture.asset(
         asset,
+        renderingStrategy: RenderingStrategy.raster,
         width: size * 4 / 3,
         height: size * 4 / 3,
         colorFilter: ColorFilter.mode(
