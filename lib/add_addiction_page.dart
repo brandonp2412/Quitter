@@ -151,7 +151,7 @@ class _AddAddictionPageState extends State<AddAddictionPage> {
       options.add(
         _AddictionOption(
           title: l10n.addictionTca,
-          icon: Icons.medication_liquid,
+          icon: PresetIcons.tca,
           gradientColors: [const Color(0xFF5B21B6), const Color(0xFF6D28D9)],
           destination: const TcaPage(started: false),
           aliases: const [

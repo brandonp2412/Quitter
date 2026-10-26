@@ -18,6 +18,7 @@ class AddictionIcon extends StatelessWidget {
       PresetIcons.gabapentin => 'assets/gabapentin.svg',
       PresetIcons.opioids => 'assets/opioids.svg',
       PresetIcons.meth => 'assets/meth.svg',
+      PresetIcons.tca => 'assets/tca.svg',
       PresetIcons.maoi => 'assets/maoi.svg',
       _ => null,
     };

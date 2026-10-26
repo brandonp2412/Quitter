@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#233047" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+  <title>Three connected rings for TCAs</title>
+  <path d="m8 25 12-7 12 7v14l-12 7-12-7V25Zm24 0 12-7 12 7v14l-12 7-12-7M20 18V9l12-5 12 5v9"/>
+  <path d="M13 28v8M44 24l7 4M44 40l7-4M26 12l6-3 6 3"/>
+</svg>

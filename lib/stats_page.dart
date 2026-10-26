@@ -282,7 +282,7 @@ class StatsPage extends StatelessWidget {
     addPreset(
       addictions.quitTca,
       l10n.addictionTca,
-      Icons.medication_liquid,
+      PresetIcons.tca,
       const Color(0xFF5B21B6),
       key: 'tca',
     );

@@ -16,6 +16,7 @@ void main() {
       PresetIcons.opioids,
       PresetIcons.meth,
       PresetIcons.maoi,
+      PresetIcons.tca,
     ]) {
       await tester.pumpWidget(
         MaterialApp(

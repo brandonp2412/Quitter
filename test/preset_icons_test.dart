@@ -9,6 +9,7 @@ void main() {
       PresetIcons.opioids,
       PresetIcons.meth,
       PresetIcons.maoi,
+      PresetIcons.tca,
       PresetIcons.smoking,
       PresetIcons.cannabis,
       PresetIcons.package,

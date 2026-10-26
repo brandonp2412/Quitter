@@ -6,6 +6,7 @@ abstract final class PresetIcons {
   static const IconData gabapentin = IconData(0xe001, fontFamily: 'QuitterSvg');
   static const IconData opioids = IconData(0xe002, fontFamily: 'QuitterSvg');
   static const IconData meth = IconData(0xe003, fontFamily: 'QuitterSvg');
+  static const IconData tca = IconData(0xe005, fontFamily: 'QuitterSvg');
   static const IconData maoi = IconData(0xe004, fontFamily: 'QuitterSvg');
   static const IconData smoking = LucideIcons.cigarette;
   static const IconData cannabis = TablerIcons.cannabis;

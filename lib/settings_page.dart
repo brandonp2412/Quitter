@@ -520,7 +520,7 @@ class _SettingsPageState extends State<SettingsPage> {
         ),
       if (addictions.quitTca != null)
         _ToggleItem(
-          icon: Icons.medication_liquid,
+          icon: PresetIcons.tca,
           title: l10n.addictionTca,
           subtitle: l10n.settingsNotifyTca,
           value: settings.notifyTca,

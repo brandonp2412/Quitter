@@ -12,6 +12,7 @@ final Map<String, IconData> allIcons = {
   'quitter:gabapentin': PresetIcons.gabapentin,
   'quitter:opioids': PresetIcons.opioids,
   'quitter:meth': PresetIcons.meth,
+  'quitter:tca': PresetIcons.tca,
   'quitter:maoi': PresetIcons.maoi,
 
   ...allCupertinoIcons,

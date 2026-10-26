@@ -1,4 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#233047" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-  <title>Gabapentin capsule</title>
-  <path d="M20 49a13 13 0 0 1-5-20l14-14a13 13 0 0 1 18 18L33 47a13 13 0 0 1-13 2Z"/><path d="m22 22 20 20M33 19l5-5"/>
+  <title>Gabapentin medicine bottle</title>
+  <rect x="22" y="8" width="20" height="9" rx="2"/>
+  <path d="M24 17v5l-6 6v25a4 4 0 0 0 4 4h20a4 4 0 0 0 4-4V28l-6-6v-5"/>
+  <path d="M18 31h28M18 49h28"/>
+  <rect x="24" y="35" width="16" height="10" rx="5" transform="rotate(-35 32 40)"/>
+  <path d="m29 36 6 8"/>
 </svg>

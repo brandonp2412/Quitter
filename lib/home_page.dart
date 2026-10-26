@@ -317,7 +317,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
     addPreset(
       'tca',
       l10n.addictionTca,
-      Icons.medication_liquid,
+      PresetIcons.tca,
       [const Color(0xFF5B21B6), const Color(0xFF6D28D9)],
       addictions.quitTca,
       (context) => const TcaPage(started: true),
