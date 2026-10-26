@@ -30,13 +30,11 @@ import 'package:quitter/pornography_page.dart';
 import 'package:quitter/smoking_page.dart';
 import 'package:quitter/social_media_page.dart';
 import 'package:quitter/vaping_page.dart';
-import 'package:quitter/vaping_icon.dart';
 import 'package:quitter/smokeless_tobacco_page.dart';
 
 class _AddictionOption {
   final String title;
   final IconData icon;
-  final bool useVapingIcon;
   final List<Color> gradientColors;
   final Widget destination;
   final List<String> aliases;
@@ -44,7 +42,6 @@ class _AddictionOption {
   const _AddictionOption({
     required this.title,
     required this.icon,
-    this.useVapingIcon = false,
     required this.gradientColors,
     required this.destination,
     this.aliases = const [],
@@ -429,7 +426,6 @@ class _AddAddictionPageState extends State<AddAddictionPage> {
         _AddictionOption(
           title: l10n.addictionVaping,
           icon: Icons.air,
-          useVapingIcon: true,
           gradientColors: [const Color(0xFF06B6D4), const Color(0xFF0EA5E9)],
           destination: const VapingPage(started: false),
           aliases: const [
@@ -746,9 +742,7 @@ class _AddictionTile extends StatelessWidget {
             ),
             borderRadius: BorderRadius.circular(12),
           ),
-          child: option.useVapingIcon
-              ? const Center(child: VapingIcon())
-              : Icon(option.icon, color: Colors.white, size: 24),
+          child: Icon(option.icon, color: Colors.white, size: 24),
         ),
         title: Text(option.title),
         trailing: const Icon(Icons.chevron_right),
