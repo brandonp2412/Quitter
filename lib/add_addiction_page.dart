@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:quitter/addiction_icon.dart';
 import 'package:provider/provider.dart';
 import 'package:quitter/preset_icons.dart';
 import 'package:quitter/adderall_page.dart';
@@ -742,7 +743,7 @@ class _AddictionTile extends StatelessWidget {
             ),
             borderRadius: BorderRadius.circular(12),
           ),
-          child: Icon(option.icon, color: Colors.white, size: 24),
+          child: Center(child: AddictionIcon(option.icon, color: Colors.white)),
         ),
         title: Text(option.title),
         trailing: const Icon(Icons.chevron_right),

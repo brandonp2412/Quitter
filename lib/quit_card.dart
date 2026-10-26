@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:quitter/addiction_icon.dart';
 import 'package:intl/intl.dart';
 import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:quitter/utils.dart';
@@ -68,7 +69,7 @@ class QuitCard extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Container(
-                    padding: const EdgeInsets.all(12),
+                    padding: EdgeInsets.all(icon == Icons.air ? 8 : 12),
                     decoration: BoxDecoration(
                       gradient: LinearGradient(
                         colors: gradientColors,
@@ -77,7 +78,7 @@ class QuitCard extends StatelessWidget {
                       ),
                       borderRadius: BorderRadius.circular(12),
                     ),
-                    child: Icon(
+                    child: AddictionIcon(
                       icon,
                       color: getContrastingColor(gradientColors.last),
                       size: 24,

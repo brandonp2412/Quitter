@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:quitter/addiction_icon.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
 import 'package:quitter/preset_icons.dart';
@@ -824,7 +825,7 @@ class _StreakBar extends StatelessWidget {
       children: [
         Row(
           children: [
-            Icon(entry.icon, size: 14, color: entry.color),
+            AddictionIcon(entry.icon, size: 14, color: entry.color),
             const SizedBox(width: 6),
             Expanded(
               child: Text(
