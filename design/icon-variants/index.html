@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quitter · Icon choices</title>
+<style>
+:root{color-scheme:light;--bg:#f5f6f8;--panel:#fff;--ink:#233047;--muted:#64748b;--line:#dce1e8;--accent:#087f72;--tint:#e9f5f2;--shadow:0 8px 24px #2330470a}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,sans-serif}body.dark{color-scheme:dark;--bg:#151b24;--panel:#1e2734;--ink:#e8eef7;--muted:#a7b5c7;--line:#394659;--accent:#55d8be;--tint:#203f3c;--shadow:none}main{max-width:1250px;margin:auto;padding:36px 28px 60px}h1{font-size:32px;letter-spacing:-1px;margin:4px 0 8px}p{margin:0;color:var(--muted)}.eyebrow{text-transform:uppercase;letter-spacing:2px;font-size:11px;font-weight:750;color:var(--accent)}.controls{display:flex;align-items:center;gap:20px;flex-wrap:wrap;margin:24px 0}button,select,textarea{font:inherit}button,select{border:1px solid var(--line);border-radius:9px;padding:9px 13px;background:var(--panel);color:var(--ink)}button{cursor:pointer}button:hover{border-color:var(--accent)}button:focus-visible,select:focus-visible,textarea:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-offset:3px}a{color:var(--accent)}label{display:flex;gap:8px;align-items:center}input{accent-color:var(--accent)}.nav{display:flex;gap:16px;flex-wrap:wrap;font-size:13px}.nav a{text-decoration:none}.nav a:hover{text-decoration:underline}.section{padding-top:32px;scroll-margin-top:14px}.section-head{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:16px;flex-wrap:wrap}.section h2{font-size:21px;letter-spacing:-.4px;margin:0}.reference{display:flex;gap:10px;align-items:center;color:var(--muted);font-size:12px}.reference svg{width:40px;height:40px;color:var(--ink)}.reference button{font-size:12px;padding:5px 10px}.grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}.candidate{position:relative;display:flex;flex-direction:column;align-items:center;gap:8px;min-width:0;border:2px solid transparent;box-shadow:var(--shadow);background:var(--panel);padding:18px 8px 13px}.candidate[aria-pressed="true"]{border-color:var(--accent);background:var(--tint)}.candidate .number{align-self:flex-start;color:var(--muted);font-size:11px;letter-spacing:1px}.candidate .large{height:76px;display:flex;align-items:center;justify-content:center}.candidate .large svg{width:var(--preview-size,64px);height:var(--preview-size,64px)}.candidate .name{font-size:12px;min-height:36px;display:flex;align-items:center;justify-content:center;text-align:center}.sizes{display:flex;align-items:center;gap:12px;min-height:32px}.sizes .small svg{width:24px;height:24px}.sizes .medium svg{width:32px;height:32px}.app-icon{width:36px;height:36px;border-radius:11px;background:var(--category);display:grid;place-items:center;color:white}.app-icon svg{width:28px;height:28px}.selected-tag{font-size:11px;color:var(--accent);min-height:17px}.current{margin-top:10px;font-size:12px;display:inline-flex;align-items:center;gap:6px}.current[aria-pressed="true"]{border-color:var(--accent);background:var(--tint)}.review{margin-top:40px;padding:24px;background:var(--panel);border:1px solid var(--line);border-radius:14px}.review h2{font-size:21px;margin:0 0 8px}.review textarea{margin-top:16px;width:100%;height:190px;resize:vertical;padding:14px;border-radius:9px;border:1px solid var(--line);background:var(--bg);color:var(--ink);line-height:1.7}.actions{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:12px}.primary{background:var(--accent);color:var(--bg);border-color:var(--accent);font-weight:650}.status{font-size:13px;color:var(--muted)}.footer-note{margin-top:16px;font-size:12px}svg{display:block;overflow:visible}.mono .candidate{color:var(--ink)}
+@media(max-width:850px){.grid{grid-template-columns:repeat(3,minmax(0,1fr))}main{padding:24px 18px 40px}}
+@media(max-width:480px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}h1{font-size:27px}.candidate{padding:14px 7px}.section h2{font-size:19px}.controls{gap:12px}.review{padding:16px}}
+@media print{body{background:white}.controls,.nav,.review,.reference button,.current{display:none}.grid{grid-template-columns:repeat(5,1fr)}.section{break-inside:avoid}.candidate{border:1px solid #ddd;box-shadow:none}}
+</style>
+</head>
+<body>
+<main>
+<header>
+<div class="eyebrow">Quitter · Design review</div>
+<h1>Choose the next icons</h1>
+<p>10 new options for each icon. Pick one per group, or keep the current design.</p>
+<div class="controls">
+<label>Theme <select id="theme"><option value="light">Light</option><option value="dark">Dark</option></select></label>
+<label>Large preview <select id="size"><option value="64">64 px</option><option value="32">32 px</option><option value="24">24 px</option></select></label>
+<label><input type="checkbox" id="color"> Category colour</label>
+<a href="#review">Review your picks ↓</a>
+</div>
+<nav class="nav" aria-label="Icon groups"></nav>
+</header>
+<div id="groups"></div>
+<section class="review" id="review" aria-labelledby="review-heading">
+<h2 id="review-heading">Your picks <span id="count">0 / 6</span></h2>
+<p>Select designs above, then copy this message and send it in our chat. You can approve only the groups you’re ready for.</p>
+<textarea id="choices" readonly aria-label="Icon approval message" spellcheck="false"></textarea>
+<div class="actions"><button class="primary" id="copy">Copy approval message</button><button id="download">Download choices</button><span id="status" class="status" role="status" aria-live="polite"></span></div>
+<p class="footer-note">Selections are saved in this browser when storage is available. Selecting here does not change the app. Small previews show 24 px, 32 px, and a coloured app tile. Ring motifs are design symbols, not exact molecular diagrams.</p>
+</section>
+</main>
+<script id="icon-data" type="application/json">[
+  {
+    "key": "vaping",
+    "name": "Vaping",
+    "color": "#0f9f91",
+    "items": [
+      {
+        "id": "vaping-01",
+        "name": "Pod and curl",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>Vaping: Pod and curl<\/title><rect x=\"25\" y=\"29\" width=\"14\" height=\"28\" rx=\"4\"/><path d=\"M28 29v-7h8v7M29 47h6M32 16c-10-5 10-7 0-13\"/><\/svg>"
+      },
+      {
+        "id": "vaping-02",
+        "name": "Cloud and pen",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>Vaping: Cloud and pen<\/title><rect x=\"27\" y=\"34\" width=\"10\" height=\"23\" rx=\"3\"/><path d=\"M29 34v-6h6v6M24 25h-7a7 7 0 0 1 0-14 9 9 0 0 1 17-2 8 8 0 0 1 12 11M29 49h6\"/><\/svg>"
+      },
+      {
+        "id": "vaping-03",
+        "name": "Angled pod",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>Vaping: Angled pod<\/title><g transform=\"rotate(28 32 32)\"><rect x=\"24\" y=\"26\" width=\"16\" height=\"30\" rx=\"5\"/><path d=\"M28 26V16h8v10M28 45h8\"/><\/g><path d=\"M39 12c8-7-5-6 0-11\"/><\/svg>"
+      },
+      {
+        "id": "vaping-04",
+        "name": "Compact pod",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>Vaping: Compact pod<\/title><rect x=\"21\" y=\"23\" width=\"22\" height=\"33\" rx=\"7\"/><path d=\"M26 23v-8h12v8M27 45h10M28 12c-8-5 8-6 2-9\"/><circle cx=\"32\" cy=\"35\" r=\"2\"/><\/svg>"
+      },
+      {
+        "id": "vaping-05",
+        "name": "Twin wisps",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>Vaping: Twin wisps<\/title><rect x=\"26\" y=\"30\" width=\"12\" height=\"27\" rx=\"4\"/><path d=\"M29 30v-8h6v8M27 48h10M27 16c-9-6 9-7 0-13M38 20c-9-6 9-7 0-13\"/><\/svg>"
+      },
+      {
+        "id": "vaping-06",
+        "name": "Side profile",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>Vaping: Side profile<\/title><rect x=\"13\" y=\"30\" width=\"37\" height=\"15\" rx=\"5\"/><path d=\"M50 34h7v7h-7M19 35v5M14 23c-8-8 8-8 0-16M24 23c-8-8 8-8 0-16\"/><\/svg>"
+      },
+      {
+        "id": "vaping-07",
+        "name": "Box mod",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>Vaping: Box mod<\/title><rect x=\"20\" y=\"27\" width=\"25\" height=\"30\" rx=\"4\"/><path d=\"M32 27V16h10v11M24 38h6v9h-6M39 35v10M36 12c-9-5 9-6 0-9\"/><\/svg>"
+      },
+      {
+        "id": "vaping-08",
+        "name": "Soft cloud",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>Vaping: Soft cloud<\/title><rect x=\"26\" y=\"35\" width=\"12\" height=\"22\" rx=\"4\"/><path d=\"M29 35v-7h6v7M23 26h-6a7 7 0 0 1-2-14 9 9 0 0 1 17-4 8 8 0 1 1 10 12M30 49h4\"/><\/svg>"
+      },
+      {
+        "id": "vaping-09",
+        "name": "Minimal pen",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>Vaping: Minimal pen<\/title><rect x=\"28\" y=\"28\" width=\"8\" height=\"29\" rx=\"3\"/><path d=\"M29 28v-8h6v8M29 49h6M32 14c-10-6 10-6 0-12\"/><\/svg>"
+      },
+      {
+        "id": "vaping-10",
+        "name": "Rounded device",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>Vaping: Rounded device<\/title><rect x=\"22\" y=\"30\" width=\"20\" height=\"27\" rx=\"7\"/><rect x=\"27\" y=\"20\" width=\"10\" height=\"10\" rx=\"2\"/><path d=\"M28 44h8M31 14c-10-6 10-6 0-12\"/><\/svg>"
+      }
+    ],
+    "current": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n  <title>Vape with vapor cloud<\/title>\n  <rect x=\"26\" y=\"36\" width=\"12\" height=\"23\" rx=\"4\" stroke=\"currentColor\" stroke-width=\"3\"/>\n  <path d=\"M29 36v-7h6v7M27 50h10\" stroke=\"currentColor\" stroke-width=\"3\"/>\n  <path d=\"M34 29c4-3 6-6 5-10a8 8 0 0 0-9-6c-2-7-14-6-15 2-8 0-10 12-2 15 2 1 5 1 8 1\" stroke=\"currentColor\" stroke-width=\"3\"/>\n  <path d=\"M25 23c-3-3-2-6 1-8\" stroke=\"currentColor\" stroke-width=\"2.5\"/>\n<\/svg>\n"
+  },
+  {
+    "key": "gabapentin",
+    "name": "Gabapentin",
+    "color": "#64748b",
+    "items": [
+      {
+        "id": "gabapentin-01",
+        "name": "Capsule bottle",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>Gabapentin: Capsule bottle<\/title><rect x=\"22\" y=\"8\" width=\"20\" height=\"8\" rx=\"2\"/><path d=\"M24 16v6l-6 6v25a4 4 0 0 0 4 4h20a4 4 0 0 0 4-4V28l-6-6v-6\"/><rect x=\"24\" y=\"32\" width=\"16\" height=\"16\" rx=\"3\"/><path d=\"m28 44 8-8M28 36l8 8\"/><\/svg>"
+      },
+      {
+        "id": "gabapentin-02",
+        "name": "Clean capsule",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>Gabapentin: Clean capsule<\/title><g transform=\"rotate(35 32 32)\"><rect x=\"21\" y=\"13\" width=\"22\" height=\"38\" rx=\"11.0\"/><path d=\"M21 32.0h22\"/><\/g><\/svg>"
+      },
+      {
+        "id": "gabapentin-03",
+        "name": "Capsule and nerve",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>Gabapentin: Capsule and nerve<\/title><g transform=\"translate(-7 2) scale(.85)\"><g transform=\"rotate(35 32 32)\"><rect x=\"21\" y=\"13\" width=\"22\" height=\"38\" rx=\"11.0\"/><path d=\"M21 32.0h22\"/><\/g><\/g><path d=\"M45 15v12l8 6M45 27l-8 6M45 27v17M45 44l-7 8M45 44l8 8\"/><circle cx=\"45\" cy=\"14\" r=\"2\"/><\/svg>"
+      },
+      {
+        "id": "gabapentin-04",
+        "name": "Blister pack",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>Gabapentin: Blister pack<\/title><rect x=\"16\" y=\"8\" width=\"32\" height=\"48\" rx=\"5\"/><rect x=\"22\" y=\"15\" width=\"20\" height=\"13\" rx=\"6.5\"/><rect x=\"22\" y=\"36\" width=\"20\" height=\"13\" rx=\"6.5\"/><path d=\"M32 15v13M32 36v13\"/><\/svg>"
+      },
+      {
+        "id": "gabapentin-05",
+        "name": "Round tablet",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>Gabapentin: Round tablet<\/title><circle cx=\"32\" cy=\"32\" r=\"21\"/><path d=\"m18 46 28-28M21 18a16 16 0 0 1 12-3\"/><\/svg>"
+      },
+      {
+        "id": "gabapentin-06",
+        "name": "Bottle and capsule",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>Gabapentin: Bottle and capsule<\/title><rect x=\"22\" y=\"8\" width=\"20\" height=\"8\" rx=\"2\"/><path d=\"M24 16v6l-6 6v25a4 4 0 0 0 4 4h20a4 4 0 0 0 4-4V28l-6-6v-6\"/><path d=\"M23 33h11M23 39h8\"/><g transform=\"translate(22 25) scale(.55)\"><g transform=\"rotate(-30 32 32)\"><rect x=\"21\" y=\"13\" width=\"22\" height=\"38\" rx=\"11.0\"/><path d=\"M21 32.0h22\"/><\/g><\/g><\/svg>"
+      },
+      {
+        "id": "gabapentin-07",
+        "name": "Capsule with granules",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>Gabapentin: Capsule with granules<\/title><g transform=\"rotate(-35 32 32)\"><rect x=\"21\" y=\"13\" width=\"22\" height=\"38\" rx=\"11.0\"/><path d=\"M21 32.0h22\"/><\/g><circle cx=\"28\" cy=\"40\" r=\"1\"/><circle cx=\"34\" cy=\"43\" r=\"1\"/><circle cx=\"35\" cy=\"36\" r=\"1\"/><\/svg>"
+      },
+      {
+        "id": "gabapentin-08",
+        "name": "Nerve in a tablet",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>Gabapentin: Nerve in a tablet<\/title><circle cx=\"32\" cy=\"32\" r=\"22\"/><circle cx=\"32\" cy=\"31\" r=\"5\"/><path d=\"M32 26V16M28 28l-8-6M27 33l-9 5M36 28l8-6M37 33l9 5M32 36v12\"/><\/svg>"
+      },
+      {
+        "id": "gabapentin-09",
+        "name": "Minimal bottle",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>Gabapentin: Minimal bottle<\/title><rect x=\"22\" y=\"8\" width=\"20\" height=\"8\" rx=\"2\"/><path d=\"M24 16v6l-6 6v25a4 4 0 0 0 4 4h20a4 4 0 0 0 4-4V28l-6-6v-6\"/><rect x=\"25\" y=\"31\" width=\"14\" height=\"18\" rx=\"7\"/><path d=\"M25 40h14\"/><\/svg>"
+      },
+      {
+        "id": "gabapentin-10",
+        "name": "Tablet and capsule",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>Gabapentin: Tablet and capsule<\/title><circle cx=\"20\" cy=\"42\" r=\"12\"/><path d=\"m12 50 16-16\"/><g transform=\"translate(16 -3) scale(.8)\"><g transform=\"rotate(25 32 32)\"><rect x=\"21\" y=\"13\" width=\"22\" height=\"38\" rx=\"11.0\"/><path d=\"M21 32.0h22\"/><\/g><\/g><\/svg>"
+      }
+    ],
+    "current": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n  <title>Gabapentin medicine bottle<\/title>\n  <rect x=\"22\" y=\"8\" width=\"20\" height=\"9\" rx=\"2\"/>\n  <path d=\"M24 17v5l-6 6v25a4 4 0 0 0 4 4h20a4 4 0 0 0 4-4V28l-6-6v-5\"/>\n  <path d=\"M18 31h28M18 49h28\"/>\n  <rect x=\"24\" y=\"35\" width=\"16\" height=\"10\" rx=\"5\" transform=\"rotate(-35 32 40)\"/>\n  <path d=\"m29 36 6 8\"/>\n<\/svg>\n"
+  },
+  {
+    "key": "opioids",
+    "name": "Heroin / Fentanyl / Opioids",
+    "color": "#db456c",
+    "items": [
+      {
+        "id": "opioids-01",
+        "name": "Four soft petals",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>Heroin / Fentanyl / Opioids: Four soft petals<\/title><path d=\"M32 17c-9-13-24-5-21 6-10 9 1 23 14 16 4 5 10 5 14 0 13 7 24-7 14-16 3-11-12-19-21-6Z\"/><circle cx=\"32\" cy=\"29\" r=\"6\"/><path d=\"M32 39v18M32 52c8 0 13-4 15-10-8 0-13 4-15 10\"/><\/svg>"
+      },
+      {
+        "id": "opioids-02",
+        "name": "Open poppy",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>Heroin / Fentanyl / Opioids: Open poppy<\/title><path d=\"M32 19C20 3 5 13 13 27 1 38 21 49 32 36c11 13 31 2 19-9C59 13 44 3 32 19Z\"/><circle cx=\"32\" cy=\"28\" r=\"5\"/><path d=\"M32 39v18M32 52l-9-6\"/><\/svg>"
+      },
+      {
+        "id": "opioids-03",
+        "name": "Poppy cup",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>Heroin / Fentanyl / Opioids: Poppy cup<\/title><path d=\"M10 17c6-6 15-6 22 0 7-6 16-6 22 0-1 18-10 26-22 26S11 35 10 17ZM21 17c0 13 4 20 11 26M43 17c0 13-4 20-11 26M32 43v14M32 52l12-6\"/><\/svg>"
+      },
+      {
+        "id": "opioids-04",
+        "name": "Seed pod",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>Heroin / Fentanyl / Opioids: Seed pod<\/title><path d=\"M22 19c-2 8-8 12-8 20a18 16 0 0 0 36 0c0-8-6-12-8-20M23 19h18M32 55v6M32 22v27M24 27c-5 8-4 13 0 19M40 27c5 8 4 13 0 19\"/><path d=\"m20 13 6-5 6 4 6-4 6 5-6 6H26Z\"/><\/svg>"
+      },
+      {
+        "id": "opioids-05",
+        "name": "Minimal flower",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>Heroin / Fentanyl / Opioids: Minimal flower<\/title><path d=\"M32 14C14 0 2 22 20 30 2 38 21 56 32 39c11 17 30-1 12-9C62 22 50 0 32 14Z\"/><circle cx=\"32\" cy=\"28\" r=\"5\"/><path d=\"M32 42v15\"/><\/svg>"
+      },
+      {
+        "id": "opioids-06",
+        "name": "Poppy with leaves",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>Heroin / Fentanyl / Opioids: Poppy with leaves<\/title><path d=\"M32 15C15 3 3 24 19 29 4 41 24 49 32 37c8 12 28 4 13-8C61 24 49 3 32 15Z\"/><circle cx=\"32\" cy=\"27\" r=\"5\"/><path d=\"M32 38v21M32 51c-9-1-13-5-14-11 8 1 12 5 14 11M32 57c8-1 12-5 13-11-7 1-11 5-13 11\"/><\/svg>"
+      },
+      {
+        "id": "opioids-07",
+        "name": "Wide petals",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>Heroin / Fentanyl / Opioids: Wide petals<\/title><path d=\"M12 15c7-5 14-2 20 5 6-7 13-10 20-5 7 7 2 15-4 18 2 13-11 16-16 8-5 8-18 5-16-8-6-3-11-11-4-18Z\"/><circle cx=\"32\" cy=\"30\" r=\"6\"/><path d=\"M32 43v14\"/><\/svg>"
+      },
+      {
+        "id": "opioids-08",
+        "name": "Flower silhouette",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>Heroin / Fentanyl / Opioids: Flower silhouette<\/title><path d=\"M32 17C22 3 7 10 11 23 0 32 12 45 23 39c5 7 13 7 18 0 11 6 23-7 12-16C57 10 42 3 32 17Z\"/><circle cx=\"32\" cy=\"29\" r=\"7\"/><path d=\"M29 29h6M32 26v6M32 43v14\"/><\/svg>"
+      },
+      {
+        "id": "opioids-09",
+        "name": "Pod and leaf",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>Heroin / Fentanyl / Opioids: Pod and leaf<\/title><path d=\"M23 18h18M26 18c-1 9-9 11-9 22a15 15 0 0 0 30 0c0-11-8-13-9-22M32 25v23M32 55v6M32 55c10 0 17-5 19-13-9 1-16 5-19 13M23 11l9-5 9 5-9 7Z\"/><\/svg>"
+      },
+      {
+        "id": "opioids-10",
+        "name": "Poppy bud",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>Heroin / Fentanyl / Opioids: Poppy bud<\/title><path d=\"M18 28c0-12 6-21 14-21s14 9 14 21c0 9-6 16-14 16s-14-7-14-16ZM32 8c-7 11-7 25 0 36M32 44v14M32 53c-8 0-13-5-14-12 8 1 12 5 14 12\"/><\/svg>"
+      }
+    ],
+    "current": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n  <title>Opioid poppy flower<\/title>\n  <path d=\"M32 17c-9-13-24-5-21 6-10 9 1 23 14 16 4 5 10 5 14 0 13 7 24-7 14-16 3-11-12-19-21-6Z\"/>\n  <path d=\"M32 38v19M32 52c8 0 13-4 15-10-8 0-13 4-15 10M19 22l6 4M45 22l-6 4\"/>\n  <circle cx=\"32\" cy=\"29\" r=\"7\"/>\n  <circle cx=\"32\" cy=\"29\" r=\"2\" fill=\"currentColor\" stroke=\"none\"/>\n<\/svg>\n"
+  },
+  {
+    "key": "meth",
+    "name": "Meth",
+    "color": "#0f9f91",
+    "items": [
+      {
+        "id": "meth-01",
+        "name": "Tall shard",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>Meth: Tall shard<\/title><path d=\"m20 21 12-13 12 13v24L32 57 20 45V21ZM32 8v49M20 21l12 7 12-7M20 45l12-7 12 7\"/><\/svg>"
+      },
+      {
+        "id": "meth-02",
+        "name": "Twin shards",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>Meth: Twin shards<\/title><path d=\"m12 31 9-16 12 7 3 24-13 10-11-25ZM21 15l2 41M12 31l11 5 10-14M37 35l10-18 8 16-5 19-13-7ZM47 17l-3 31\"/><\/svg>"
+      },
+      {
+        "id": "meth-03",
+        "name": "Crystal cluster",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>Meth: Crystal cluster<\/title><path d=\"m23 20 9-13 10 13-3 35H26l-3-35ZM32 7v48M23 20l9 7 10-7M26 55 10 42V25l13 9M10 25l16 30M39 55l15-13V25l-13 9M54 25 39 55\"/><\/svg>"
+      },
+      {
+        "id": "meth-04",
+        "name": "Raw crystal",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>Meth: Raw crystal<\/title><path d=\"m14 23 14-13 19 6 6 22-15 17-24-8V23ZM28 10l4 21 15-15M14 23l18 8-18 16M32 31l6 24M32 31l21 7\"/><\/svg>"
+      },
+      {
+        "id": "meth-05",
+        "name": "Three points",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>Meth: Three points<\/title><path d=\"m21 26 11-17 11 17-11 31-11-31ZM32 9v48M21 26h22M21 43 9 33l3-14 9 7M43 43l12-10-3-14-9 7\"/><\/svg>"
+      },
+      {
+        "id": "meth-06",
+        "name": "Wide prism",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>Meth: Wide prism<\/title><path d=\"m10 26 11-12h22l11 12-22 29L10 26ZM10 26h44M21 14l11 12 11-12M21 26l11 29 11-29\"/><\/svg>"
+      },
+      {
+        "id": "meth-07",
+        "name": "Angular shards",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>Meth: Angular shards<\/title><path d=\"m10 40 13-29 9 17-7 28-15-16ZM23 11l2 45M32 28l11-17 11 27-14 18-8-28ZM43 11l-3 45M32 28l22 10\"/><\/svg>"
+      },
+      {
+        "id": "meth-08",
+        "name": "Single oblique crystal",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>Meth: Single oblique crystal<\/title><path d=\"m16 24 20-15 13 13-7 25-21 9-5-32ZM36 9l-5 28-10 19M16 24l15 13 18-15M31 37l11 10\"/><\/svg>"
+      },
+      {
+        "id": "meth-09",
+        "name": "Floating fragments",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>Meth: Floating fragments<\/title><path d=\"m22 24 10-12 13 12-4 25-14 6-5-31ZM32 12v27l9 10M22 24l10 7 13-7M7 21l7-9 4 12-11-3ZM47 48l8-6 2 12-10-6\"/><\/svg>"
+      },
+      {
+        "id": "meth-10",
+        "name": "Minimal crystal",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>Meth: Minimal crystal<\/title><path d=\"m18 22 14-14 14 14v22L32 58 18 44V22ZM32 8v50M18 22l14 9 14-9\"/><\/svg>"
+      }
+    ],
+    "current": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n  <title>Meth crystal shards<\/title>\n  <path d=\"m13 30 10-18 13 6 2 27-14 11-11-26ZM23 12l1 44M13 30l11 7 12-19M38 45l10-24 8 12-5 18-13-6ZM48 21l-3 26M9 48l5 9h-7Z\"/>\n<\/svg>\n"
+  },
+  {
+    "key": "maoi",
+    "name": "MAOIs",
+    "color": "#8957d6",
+    "items": [
+      {
+        "id": "maoi-01",
+        "name": "Enzyme and stop",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>MAOIs: Enzyme and stop<\/title><path d=\"M22 12a20 20 0 1 0 20 0l-5 14H27l-5-14Z\"/><circle cx=\"47\" cy=\"46\" r=\"10\"/><path d=\"m40 53 14-14M26 7l6 7 6-7\"/><\/svg>"
+      },
+      {
+        "id": "maoi-02",
+        "name": "Blocked docking",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>MAOIs: Blocked docking<\/title><path d=\"M13 31v20h38V31H39l-7 9-7-9H13ZM24 9l8 10 8-10M32 19v9M10 23h44M20 18v10M44 18v10\"/><\/svg>"
+      },
+      {
+        "id": "maoi-03",
+        "name": "Molecule and bar",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>MAOIs: Molecule and bar<\/title><circle cx=\"16\" cy=\"20\" r=\"6\"/><circle cx=\"45\" cy=\"16\" r=\"6\"/><circle cx=\"45\" cy=\"47\" r=\"6\"/><circle cx=\"16\" cy=\"47\" r=\"6\"/><path d=\"m21 19 18-2M45 22v19M22 47h17M16 26v15M9 35h46\"/><\/svg>"
+      },
+      {
+        "id": "maoi-04",
+        "name": "Capsule and block",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>MAOIs: Capsule and block<\/title><g transform=\"rotate(35 32 32)\"><rect x=\"21\" y=\"13\" width=\"22\" height=\"38\" rx=\"11.0\"/><path d=\"M21 32.0h22\"/><\/g><circle cx=\"46\" cy=\"47\" r=\"11\"/><path d=\"m38 55 16-16\"/><\/svg>"
+      },
+      {
+        "id": "maoi-05",
+        "name": "Enzyme pocket",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>MAOIs: Enzyme pocket<\/title><path d=\"M22 10a23 23 0 1 0 20 0l-6 16h-8l-6-16Z\"/><path d=\"M27 4l5 10 5-10M19 39h26M32 33v12\"/><\/svg>"
+      },
+      {
+        "id": "maoi-06",
+        "name": "Neural gate",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>MAOIs: Neural gate<\/title><circle cx=\"32\" cy=\"30\" r=\"7\"/><path d=\"M32 23V10M25 28l-12-7M25 33l-12 7M39 28l12-7M39 33l12 7M32 37v16M22 12h20M18 9l-9 9M46 9l9 9\"/><\/svg>"
+      },
+      {
+        "id": "maoi-07",
+        "name": "Molecule with shield",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>MAOIs: Molecule with shield<\/title><circle cx=\"15\" cy=\"17\" r=\"5\"/><circle cx=\"35\" cy=\"12\" r=\"5\"/><circle cx=\"15\" cy=\"40\" r=\"5\"/><path d=\"m20 16 10-3M15 22v13M20 40h8M37 17l4 8M43 25l13 5v12c0 7-6 13-13 17-7-4-13-10-13-17V30l13-5ZM36 40h14\"/><\/svg>"
+      },
+      {
+        "id": "maoi-08",
+        "name": "Receptor and barrier",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>MAOIs: Receptor and barrier<\/title><path d=\"M12 23v26a6 6 0 0 0 6 6h28a6 6 0 0 0 6-6V23H40L32 35 24 23H12ZM25 8l7 10 7-10M20 17h24\"/><circle cx=\"25\" cy=\"44\" r=\"2\"/><circle cx=\"39\" cy=\"44\" r=\"2\"/><\/svg>"
+      },
+      {
+        "id": "maoi-09",
+        "name": "Enzyme cutout",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>MAOIs: Enzyme cutout<\/title><path d=\"M21 11a23 23 0 1 0 22 0l-7 18h-8l-7-18ZM18 43h28M25 36l14 14\"/><path d=\"m28 6 4 8 4-8\"/><\/svg>"
+      },
+      {
+        "id": "maoi-10",
+        "name": "Blocked signal",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>MAOIs: Blocked signal<\/title><circle cx=\"16\" cy=\"17\" r=\"5\"/><circle cx=\"48\" cy=\"17\" r=\"5\"/><circle cx=\"32\" cy=\"48\" r=\"6\"/><path d=\"M21 17h22M19 21l10 21M45 21 35 42M12 33h40M26 27v12M38 27v12\"/><\/svg>"
+      }
+    ],
+    "current": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n  <title>Blocked enzyme for MAOIs<\/title>\n  <path d=\"M21 12a20 20 0 1 0 22 0l-6 14H27l-6-14Z\"/><path d=\"m25 7 7 7 7-7M32 14v6\"/><circle cx=\"47\" cy=\"45\" r=\"11\"/><path d=\"m39 53 16-16\"/>\n<\/svg>\n"
+  },
+  {
+    "key": "tca",
+    "name": "TCAs",
+    "color": "#8957d6",
+    "items": [
+      {
+        "id": "tca-01",
+        "name": "Linear rings",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>TCAs: Linear rings<\/title><polygon points=\"22.66,37.00 14.00,42.00 5.34,37.00 5.34,27.00 14.00,22.00 22.66,27.00\"/><polygon points=\"39.98,37.00 31.32,42.00 22.66,37.00 22.66,27.00 31.32,22.00 39.98,27.00\"/><polygon points=\"57.30,37.00 48.64,42.00 39.98,37.00 39.98,27.00 48.64,22.00 57.30,27.00\"/><\/svg>"
+      },
+      {
+        "id": "tca-02",
+        "name": "Bent rings",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>TCAs: Bent rings<\/title><polygon points=\"24.53,44.50 15.00,50.00 5.47,44.50 5.47,33.50 15.00,28.00 24.53,33.50\"/><polygon points=\"43.58,44.50 34.05,50.00 24.52,44.50 24.52,33.50 34.05,28.00 43.58,33.50\"/><polygon points=\"53.11,28.00 43.58,33.50 34.05,28.00 34.05,17.00 43.58,11.50 53.11,17.00\"/><\/svg>"
+      },
+      {
+        "id": "tca-03",
+        "name": "Triangular rings",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>TCAs: Triangular rings<\/title><polygon points=\"32.00,44.50 22.47,50.00 12.94,44.50 12.94,33.50 22.47,28.00 32.00,33.50\"/><polygon points=\"51.06,44.50 41.53,50.00 32.00,44.50 32.00,33.50 41.53,28.00 51.06,33.50\"/><polygon points=\"41.53,28.00 32.00,33.50 22.47,28.00 22.47,17.00 32.00,11.50 41.53,17.00\"/><\/svg>"
+      },
+      {
+        "id": "tca-04",
+        "name": "Tricyclic outline",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>TCAs: Tricyclic outline<\/title><path d=\"m6 25 10-6 10 6h12l10-6 10 6v14l-10 6-10-6H26l-10 6-10-6V25ZM26 25v14M38 25v14M11 28v8M48 25l5 3M48 39l5-3\"/><\/svg>"
+      },
+      {
+        "id": "tca-05",
+        "name": "Rings with side chain",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>TCAs: Rings with side chain<\/title><polygon points=\"22.66,31.00 14.00,36.00 5.34,31.00 5.34,21.00 14.00,16.00 22.66,21.00\"/><polygon points=\"39.98,31.00 31.32,36.00 22.66,31.00 22.66,21.00 31.32,16.00 39.98,21.00\"/><polygon points=\"57.30,31.00 48.64,36.00 39.98,31.00 39.98,21.00 48.64,16.00 57.30,21.00\"/><path d=\"M31 36v9l9 5v8\"/><\/svg>"
+      },
+      {
+        "id": "tca-06",
+        "name": "Three linked circles",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>TCAs: Three linked circles<\/title><circle cx=\"16\" cy=\"35\" r=\"11\"/><circle cx=\"48\" cy=\"35\" r=\"11\"/><circle cx=\"32\" cy=\"16\" r=\"10\"/><path d=\"m23 26 3-3M38 23l3 3M27 35h10\"/><\/svg>"
+      },
+      {
+        "id": "tca-07",
+        "name": "Folded rings",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>TCAs: Folded rings<\/title><polygon points=\"23.66,37.00 15.00,42.00 6.34,37.00 6.34,27.00 15.00,22.00 23.66,27.00\"/><polygon points=\"40.98,37.00 32.32,42.00 23.66,37.00 23.66,27.00 32.32,22.00 40.98,27.00\"/><polygon points=\"58.30,37.00 49.64,42.00 40.98,37.00 40.98,27.00 49.64,22.00 58.30,27.00\"/><path d=\"M7 30v5M49 25l5 3M49 39l5-3M32 42v10l9 5\"/><\/svg>"
+      },
+      {
+        "id": "tca-08",
+        "name": "Tablet with three rings",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>TCAs: Tablet with three rings<\/title><circle cx=\"32\" cy=\"32\" r=\"25\"/><polygon points=\"24.93,36.00 18.00,40.00 11.07,36.00 11.07,28.00 18.00,24.00 24.93,28.00\"/><polygon points=\"38.79,36.00 31.86,40.00 24.93,36.00 24.93,28.00 31.86,24.00 38.79,28.00\"/><polygon points=\"52.65,36.00 45.72,40.00 38.79,36.00 38.79,28.00 45.72,24.00 52.65,28.00\"/><\/svg>"
+      },
+      {
+        "id": "tca-09",
+        "name": "Ring fan",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>TCAs: Ring fan<\/title><polygon points=\"30.66,45.00 22.00,50.00 13.34,45.00 13.34,35.00 22.00,30.00 30.66,35.00\"/><polygon points=\"47.98,45.00 39.32,50.00 30.66,45.00 30.66,35.00 39.32,30.00 47.98,35.00\"/><polygon points=\"39.32,30.00 30.66,35.00 22.00,30.00 22.00,20.00 30.66,15.00 39.32,20.00\"/><path d=\"M31 15V7M31 7h10\"/><\/svg>"
+      },
+      {
+        "id": "tca-10",
+        "name": "Rounded three rings",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><title>TCAs: Rounded three rings<\/title><rect x=\"8\" y=\"22\" width=\"16\" height=\"23\" rx=\"6\"/><rect x=\"24\" y=\"22\" width=\"16\" height=\"23\" rx=\"6\"/><rect x=\"40\" y=\"22\" width=\"16\" height=\"23\" rx=\"6\"/><path d=\"M16 16v-6M32 16v-6M48 16v-6\"/><\/svg>"
+      }
+    ],
+    "current": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n  <title>Three connected rings for TCAs<\/title>\n  <path d=\"m8 25 12-7 12 7v14l-12 7-12-7V25Zm24 0 12-7 12 7v14l-12 7-12-7M20 18V9l12-5 12 5v9\"/>\n  <path d=\"M13 28v8M44 24l7 4M44 40l7-4M26 12l6-3 6 3\"/>\n<\/svg>\n"
+  }
+]
+</script>
+<script>
+'use strict';
+const data=JSON.parse(document.getElementById('icon-data').textContent);
+const storageKey='quitter-icon-review-v1';
+let selections={};
+try{const saved=JSON.parse(localStorage.getItem(storageKey)||'{}');if(saved&&typeof saved==='object'&&!Array.isArray(saved))selections=saved;}catch{}
+for(const key of Object.keys(selections)){const group=data.find(g=>g.key===key);if(!group||(selections[key]!=='current'&&!group.items.some(i=>i.id===selections[key])))delete selections[key];}
+const groups=document.getElementById('groups');
+const nav=document.querySelector('.nav');
+for(const group of data){
+ const link=document.createElement('a');link.href='#'+group.key;link.textContent=group.name;nav.append(link);
+ const section=document.createElement('section');section.className='section';section.id=group.key;section.style.setProperty('--category',group.color);
+ const head=document.createElement('div');head.className='section-head';
+ const heading=document.createElement('h2');heading.textContent=group.name;
+ const reference=document.createElement('div');reference.className='reference';reference.innerHTML='<span>Current</span>'+group.current;
+ const keep=document.createElement('button');keep.type='button';keep.className='current';keep.textContent='Keep current';keep.dataset.group=group.key;keep.dataset.choice='current';keep.setAttribute('aria-label','Keep current '+group.name+' icon');keep.addEventListener('click',()=>choose(group.key,'current'));reference.append(keep);
+ head.append(heading,reference);section.append(head);
+ const grid=document.createElement('div');grid.className='grid';
+ for(const [i,item] of group.items.entries()){
+  const button=document.createElement('button');button.type='button';button.className='candidate';button.dataset.group=group.key;button.dataset.choice=item.id;button.setAttribute('aria-label',group.name+' option '+(i+1)+': '+item.name);
+  button.innerHTML='<span class="number">'+String(i+1).padStart(2,'0')+'</span><span class="large" aria-hidden="true">'+item.svg+'</span><span class="name">'+item.name+'</span><span class="sizes" aria-hidden="true"><span class="small">'+item.svg+'</span><span class="medium">'+item.svg+'</span><span class="app-icon">'+item.svg+'</span></span><span class="selected-tag" aria-hidden="true"></span>';
+  button.addEventListener('click',()=>choose(group.key,item.id));grid.append(button);
+ }
+ section.append(grid);groups.append(section);
+}
+function choose(group,id){if(selections[group]===id)delete selections[group];else selections[group]=id;try{localStorage.setItem(storageKey,JSON.stringify(selections));}catch{}document.getElementById('status').textContent='';update();}
+function update(){
+ for(const button of document.querySelectorAll('[data-choice]')){const active=selections[button.dataset.group]===button.dataset.choice;button.setAttribute('aria-pressed',String(active));const tag=button.querySelector('.selected-tag');if(tag)tag.textContent=active?'Selected':'';}
+ const lines=[];
+ for(const group of data){const selected=selections[group.key];if(!selected)continue;const item=group.items.find(i=>i.id===selected);lines.push(group.name+': '+(selected==='current'?'keep current':item.id+' — '+item.name));}
+ document.getElementById('count').textContent=lines.length+' / 6';
+ document.getElementById('choices').value=lines.length?'Approved icon choices:\n'+lines.join('\n')+'\n\nApply these choices; leave unselected groups unchanged.':'No choices yet. Select an option above.';
+ document.getElementById('copy').disabled=!lines.length;document.getElementById('download').disabled=!lines.length;
+}
+document.getElementById('theme').addEventListener('change',e=>document.body.classList.toggle('dark',e.target.value==='dark'));
+document.getElementById('size').addEventListener('change',e=>document.documentElement.style.setProperty('--preview-size',e.target.value+'px'));
+document.getElementById('color').addEventListener('change',e=>{for(const section of document.querySelectorAll('.section'))for(const card of section.querySelectorAll('.candidate'))card.style.color=e.target.checked?'var(--category)':'var(--ink)';});
+document.getElementById('copy').addEventListener('click',async()=>{const field=document.getElementById('choices');try{await navigator.clipboard.writeText(field.value);document.getElementById('status').textContent='Copied. Paste it into our chat to approve.';}catch{field.focus();field.select();document.getElementById('status').textContent='Message selected. Press Ctrl+C (or Cmd+C), then paste it into our chat.';}});
+document.getElementById('download').addEventListener('click',()=>{const url=URL.createObjectURL(new Blob([document.getElementById('choices').value+'\n'],{type:'text/plain'}));const link=document.createElement('a');link.href=url;link.download='quitter-icon-choices.txt';link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);});
+update();
+</script>
+</body>
+</html>
