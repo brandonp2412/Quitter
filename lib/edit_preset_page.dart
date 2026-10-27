@@ -11,6 +11,8 @@ class EditPresetPage extends StatefulWidget {
   final String title;
   final IconData icon;
   final Color color;
+  final IconData? defaultIcon;
+  final Color? defaultColor;
 
   const EditPresetPage({
     super.key,
@@ -18,6 +20,8 @@ class EditPresetPage extends StatefulWidget {
     required this.title,
     required this.icon,
     required this.color,
+    this.defaultIcon,
+    this.defaultColor,
   });
 
   @override
@@ -30,6 +34,8 @@ class _EditPresetPageState extends State<EditPresetPage> {
   late TextEditingController _weeklySpendController;
   late Color _selectedColor;
   late IconData _selectedIcon;
+  bool _resetIcon = false;
+  bool _resetColor = false;
 
   @override
   void initState() {
@@ -56,8 +62,14 @@ class _EditPresetPageState extends State<EditPresetPage> {
     final addictions = context.read<AddictionProvider>();
     await Future.wait([
       addictions.setCustomName(widget.presetKey, _titleController.text.trim()),
-      addictions.setCustomColor(widget.presetKey, _selectedColor),
-      addictions.setCustomIcon(widget.presetKey, _selectedIcon),
+      addictions.setCustomColor(
+        widget.presetKey,
+        _resetColor ? null : _selectedColor,
+      ),
+      addictions.setCustomIcon(
+        widget.presetKey,
+        _resetIcon ? null : _selectedIcon,
+      ),
       addictions.setWeeklySpend(
         widget.presetKey,
         WeeklySpendField.parse(_weeklySpendController.text),
@@ -105,6 +117,15 @@ class _EditPresetPageState extends State<EditPresetPage> {
                       return InputDecorator(
                         decoration: InputDecoration(
                           labelText: l10n.editEntryColor,
+                          suffixIcon: IconButton(
+                            tooltip: l10n.quitResetButton,
+                            icon: const Icon(Icons.restore),
+                            onPressed: () => setState(() {
+                              _selectedColor =
+                                  widget.defaultColor ?? widget.color;
+                              _resetColor = true;
+                            }),
+                          ),
                           border: const OutlineInputBorder(),
                           focusedBorder: OutlineInputBorder(
                             borderSide: BorderSide(
@@ -122,6 +143,7 @@ class _EditPresetPageState extends State<EditPresetPage> {
                               Focus.of(context).requestFocus();
                               setState(() {
                                 _selectedColor = color;
+                                _resetColor = false;
                               });
                             },
                           ),
@@ -138,6 +160,14 @@ class _EditPresetPageState extends State<EditPresetPage> {
                       return InputDecorator(
                         decoration: InputDecoration(
                           labelText: l10n.editEntryIcon,
+                          suffixIcon: IconButton(
+                            tooltip: l10n.quitResetButton,
+                            icon: const Icon(Icons.restore),
+                            onPressed: () => setState(() {
+                              _selectedIcon = widget.defaultIcon ?? widget.icon;
+                              _resetIcon = true;
+                            }),
+                          ),
                           border: const OutlineInputBorder(),
                           focusedBorder: OutlineInputBorder(
                             borderSide: BorderSide(
@@ -156,6 +186,7 @@ class _EditPresetPageState extends State<EditPresetPage> {
                               Focus.of(context).requestFocus();
                               setState(() {
                                 _selectedIcon = icon;
+                                _resetIcon = false;
                               });
                             },
                           ),

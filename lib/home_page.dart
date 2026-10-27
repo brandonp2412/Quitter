@@ -281,6 +281,8 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                   title: title,
                   icon: effectiveIcon,
                   color: gradientColors.first,
+                  defaultIcon: icon,
+                  defaultColor: colors.first,
                 ),
               ),
             );

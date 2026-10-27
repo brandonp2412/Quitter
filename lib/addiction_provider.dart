@@ -305,8 +305,12 @@ class AddictionProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-  Future<void> setCustomIcon(String key, IconData icon) async {
-    customIcons[key] = icon;
+  Future<void> setCustomIcon(String key, IconData? icon) async {
+    if (icon == null) {
+      customIcons.remove(key);
+    } else {
+      customIcons[key] = icon;
+    }
     final Map<String, String> serialized = {
       for (final entry in customIcons.entries)
         if (iconNames[entry.value] != null) entry.key: iconNames[entry.value]!,
@@ -315,8 +319,12 @@ class AddictionProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-  Future<void> setCustomColor(String key, Color color) async {
-    customColors[key] = color;
+  Future<void> setCustomColor(String key, Color? color) async {
+    if (color == null) {
+      customColors.remove(key);
+    } else {
+      customColors[key] = color;
+    }
     await _pref?.setString(
       'custom_colors',
       json.encode(customColors.map((k, v) => MapEntry(k, v.toARGB32()))),

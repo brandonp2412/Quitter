@@ -1,5 +1,3 @@
-import 'dart:math';
-
 import 'package:flutter/material.dart';
 import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:provider/provider.dart';
@@ -47,10 +45,7 @@ class _EditEntryPageState extends State<EditEntryPage> {
     );
     _selectedIcon = widget.entry?.icon ?? Icons.star;
 
-    final random = Random();
-    _selectedColor =
-        widget.entry?.color ??
-        Colors.primaries.elementAt(random.nextInt(Colors.primaries.length));
+    _selectedColor = widget.entry?.color ?? Colors.blue;
   }
 
   @override
@@ -209,6 +204,15 @@ class _EditEntryPageState extends State<EditEntryPage> {
                           labelText: AppLocalizations.of(
                             context,
                           )!.editEntryColor,
+                          suffixIcon: IconButton(
+                            tooltip: AppLocalizations.of(
+                              context,
+                            )!.quitResetButton,
+                            icon: const Icon(Icons.restore),
+                            onPressed: () => setState(() {
+                              _selectedColor = Colors.blue;
+                            }),
+                          ),
                           border: const OutlineInputBorder(),
                           focusedBorder: OutlineInputBorder(
                             borderSide: BorderSide(
@@ -247,6 +251,15 @@ class _EditEntryPageState extends State<EditEntryPage> {
                           labelText: AppLocalizations.of(
                             context,
                           )!.editEntryIcon,
+                          suffixIcon: IconButton(
+                            tooltip: AppLocalizations.of(
+                              context,
+                            )!.quitResetButton,
+                            icon: const Icon(Icons.restore),
+                            onPressed: () => setState(() {
+                              _selectedIcon = Icons.star;
+                            }),
+                          ),
                           border: const OutlineInputBorder(),
                           focusedBorder: OutlineInputBorder(
                             borderSide: BorderSide(
