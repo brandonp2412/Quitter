@@ -82,6 +82,7 @@ android {
             }
         }
         debug {
+            applicationIdSuffix = ".debug"
             val keyPropertiesFile = rootProject.file("key.properties")
             signingConfig = if (keyPropertiesFile.exists() && signingConfigs.getByName("release").storeFile != null) {
                 signingConfigs.getByName("release")
