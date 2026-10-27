@@ -1,1 +1,1 @@
-enum ColorSchemeType { dynamic, blue, green, red, purple, orange }
+enum ColorSchemeType { dynamic, blue, green, red, purple, orange, custom }

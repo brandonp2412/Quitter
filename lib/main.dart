@@ -164,11 +164,13 @@ class _QuitterAppState extends State<QuitterApp>
               settings.colorSchemeType,
               Brightness.light,
               lightDynamic,
+              settings.customColor,
             );
             ColorScheme darkColorScheme = AppScheme.getColorScheme(
               settings.colorSchemeType,
               Brightness.dark,
               darkDynamic,
+              settings.customColor,
             );
 
             if (settings.themeMode == AppThemeMode.pureBlack) {

@@ -6,6 +6,8 @@ import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:quitter/locale_utils.dart';
 import 'package:quitter/settings_page.dart';
 import 'package:quitter/app_theme_mode.dart';
+import 'package:quitter/color_scheme_type.dart';
+import 'package:quitter/app_scheme.dart';
 import 'package:quitter/settings_provider.dart';
 import 'package:quitter/addiction_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -90,6 +92,43 @@ void main() {
       await tester.pumpWidget(createTestWidget());
 
       expect(find.text('Color scheme'), findsOneWidget);
+    });
+
+    testWidgets('custom palette colour updates and persists the app theme', (
+      WidgetTester tester,
+    ) async {
+      await tester.pumpWidget(createTestWidget());
+
+      final customSwatch = find.byKey(const Key('customThemeColor'));
+      await tester.ensureVisible(customSwatch);
+      await tester.tap(customSwatch);
+      await tester.pumpAndSettle();
+
+      await tester.enterText(find.byKey(const Key('hexColorField')), '#2244CC');
+      await tester.tap(find.byKey(const Key('applyCustomColor')));
+      await tester.pumpAndSettle();
+
+      expect(settingsProvider.colorSchemeType, ColorSchemeType.custom);
+      expect(settingsProvider.customColor.toARGB32(), 0xFF2244CC);
+
+      final reloaded = SettingsProvider();
+      await reloaded.loadPreferences();
+      expect(reloaded.colorSchemeType, ColorSchemeType.custom);
+      expect(reloaded.customColor.toARGB32(), 0xFF2244CC);
+
+      final expected = ColorScheme.fromSeed(
+        seedColor: const Color(0xFF2244CC),
+        brightness: Brightness.dark,
+      );
+      expect(
+        AppScheme.getColorScheme(
+          reloaded.colorSchemeType,
+          Brightness.dark,
+          null,
+          reloaded.customColor,
+        ).primary,
+        expected.primary,
+      );
     });
 
     testWidgets(
@@ -367,6 +406,8 @@ void main() {
         matching: find.byType(SwitchListTile),
       );
 
+      await tester.ensureVisible(journalSwitch);
+      await tester.pumpAndSettle();
       await tester.tap(journalSwitch);
       await tester.pump();
 

@@ -23,6 +23,7 @@ static void my_application_activate(GApplication* application) {
   MyApplication* self = MY_APPLICATION(application);
   GtkWindow* window =
       GTK_WINDOW(gtk_application_window_new(GTK_APPLICATION(application)));
+  gtk_window_set_title(window, "Quitter");
 
     gboolean use_header_bar = TRUE;
 #ifdef GDK_WINDOWING_X11
@@ -37,11 +38,9 @@ static void my_application_activate(GApplication* application) {
   if (use_header_bar) {
     GtkHeaderBar* header_bar = GTK_HEADER_BAR(gtk_header_bar_new());
     gtk_widget_show(GTK_WIDGET(header_bar));
-    gtk_header_bar_set_title(header_bar, "quitter");
+    gtk_header_bar_set_title(header_bar, "Quitter");
     gtk_header_bar_set_show_close_button(header_bar, TRUE);
     gtk_window_set_titlebar(window, GTK_WIDGET(header_bar));
-  } else {
-    gtk_window_set_title(window, "quitter");
   }
 
   gtk_window_set_default_size(window, 1280, 720);

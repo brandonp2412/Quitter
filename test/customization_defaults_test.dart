@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:quitter/l10n/generated/app_localizations.dart';
+
 import 'package:quitter/addiction_provider.dart';
 import 'package:quitter/color_picker.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -27,6 +30,13 @@ void main() {
     Color? picked;
     await tester.pumpWidget(
       MaterialApp(
+        localizationsDelegates: const [
+          AppLocalizations.delegate,
+          GlobalMaterialLocalizations.delegate,
+          GlobalWidgetsLocalizations.delegate,
+          GlobalCupertinoLocalizations.delegate,
+        ],
+        supportedLocales: AppLocalizations.supportedLocales,
         home: Scaffold(
           body: ColorPickerWidget(
             selectedColor: selected,
@@ -36,11 +46,18 @@ void main() {
       ),
     );
 
-    final checked = find.byWidgetPredicate(
-      (widget) => widget is AnimatedScale && widget.scale == 1,
+    final customSwatch = find.byKey(const Key('customColorSwatch'));
+    expect(customSwatch, findsOneWidget);
+    final swatch = tester.widget<Container>(
+      find.descendant(of: customSwatch, matching: find.byType(Container)).first,
     );
-    expect(checked, findsOneWidget);
-    await tester.tap(checked);
+    expect((swatch.decoration! as BoxDecoration).color, selected);
+
+    await tester.tap(customSwatch);
+    await tester.pumpAndSettle();
+    expect(find.byKey(const Key('hexColorField')), findsOneWidget);
+    await tester.tap(find.byKey(const Key('applyCustomColor')));
+    await tester.pumpAndSettle();
     expect(picked, selected);
   });
 }

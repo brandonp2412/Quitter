@@ -71,7 +71,9 @@ void main() {
     expect(tester.takeException(), isNull);
     await tester.tap(find.widgetWithText(TextButton, 'Settings'));
     await tester.pumpAndSettle();
-    expect(find.byType(AppBar), findsOneWidget);
+    expect(find.byType(AppBar), findsNothing);
+    expect(find.byType(Card), findsWidgets);
+    expect(find.text('Search settings...'), findsOneWidget);
     expect(tester.takeException(), isNull);
   });
 

@@ -14,6 +14,7 @@ import 'package:quitter/locale_utils.dart';
 class SettingsProvider extends ChangeNotifier {
   static const String _themeKey = 'theme_mode';
   static const String _colorSchemeKey = 'color_scheme';
+  static const String _customColorKey = 'custom_color';
   static const String _notifyEveryKey = 'notify_every';
   static const String _notifyAtKey = 'notify_at';
   static const _pinHashKey = 'pin_hash';
@@ -100,6 +101,7 @@ class SettingsProvider extends ChangeNotifier {
 
   AppThemeMode _themeMode = AppThemeMode.system;
   ColorSchemeType _colorSchemeType = ColorSchemeType.dynamic;
+  Color _customColor = const Color(0xFF6750A4);
   int _notifyEvery = 1;
   int _notifyAt = 8 * 60;
 
@@ -113,6 +115,7 @@ class SettingsProvider extends ChangeNotifier {
 
   AppThemeMode get themeMode => _themeMode;
   ColorSchemeType get colorSchemeType => _colorSchemeType;
+  Color get customColor => _customColor;
   int get notifyEvery => _notifyEvery;
   int get notifyAt => _notifyAt;
 
@@ -217,6 +220,7 @@ class SettingsProvider extends ChangeNotifier {
             colorSchemeIndex < ColorSchemeType.values.length
         ? ColorSchemeType.values[colorSchemeIndex]
         : ColorSchemeType.dynamic;
+    _customColor = Color(read<int>(_customColorKey) ?? 0xFF6750A4);
     final storedNotifyAt = read<int>(_notifyAtKey) ?? (8 * 60);
     _notifyAt = storedNotifyAt >= 0 && storedNotifyAt < 24 * 60
         ? storedNotifyAt
@@ -337,6 +341,14 @@ class SettingsProvider extends ChangeNotifier {
   set colorSchemeType(ColorSchemeType type) {
     _colorSchemeType = type;
     _prefs?.setInt(_colorSchemeKey, type.index);
+    notifyListeners();
+  }
+
+  set customColor(Color color) {
+    _customColor = Color(0xFF000000 | (color.toARGB32() & 0xFFFFFF));
+    _colorSchemeType = ColorSchemeType.custom;
+    _prefs?.setInt(_customColorKey, _customColor.toARGB32());
+    _prefs?.setInt(_colorSchemeKey, _colorSchemeType.index);
     notifyListeners();
   }
 

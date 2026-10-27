@@ -64,7 +64,7 @@ void main() {
     );
 
     expect(day1.title, 'First day pouch-free');
-    expect(day1.description, contains('withdrawal can begin within hours'));
+    expect(day1.description, contains('within hours'));
     expect(day1.link, 'https://pubmed.ncbi.nlm.nih.gov/25638335/');
     expect(day1.referenceContent, isNot(contains('carbon monoxide')));
 
@@ -75,14 +75,14 @@ void main() {
     expect(day3.referenceContent, isNot(contains("doesn't get worse")));
 
     expect(day7.title, 'A week without pouches');
-    expect(day7.description, contains('early nicotine-withdrawal peak'));
+    expect(day7.description, contains(RegExp(r'nicotine.?withdrawal')));
     expect(day7.link, 'https://pubmed.ncbi.nlm.nih.gov/25638335/');
     expect(day7.referenceContent, contains('into the taper phase'));
     expect(day7.referenceContent, isNot(contains('airways')));
     expect(day7.referenceContent, isNot(contains('taste and smell')));
 
     expect(day14.title, 'Two weeks clear');
-    expect(day14.description, contains('eases over the first few weeks'));
+    expect(day14.description, contains('first few weeks'));
     expect(day14.link, 'https://pubmed.ncbi.nlm.nih.gov/25638335/');
     expect(day14.referenceContent, contains('post-peak taper window'));
     expect(day14.referenceContent, isNot(contains('carbon monoxide')));

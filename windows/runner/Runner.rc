@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "Brandon Dick" "\0"
-            VALUE "FileDescription", "quitter" "\0"
+            VALUE "FileDescription", "Quitter" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "quitter" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2025 Brandon Dick. All rights reserved." "\0"
             VALUE "OriginalFilename", "quitter.exe" "\0"
-            VALUE "ProductName", "quitter" "\0"
+            VALUE "ProductName", "Quitter" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

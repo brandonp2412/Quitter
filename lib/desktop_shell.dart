@@ -19,12 +19,6 @@ class DesktopShell extends StatelessWidget {
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context)!;
     final colors = Theme.of(context).colorScheme;
-    final titles = [
-      l10n.tabQuitter,
-      l10n.tabStats,
-      if (showJournal) l10n.tabJournal,
-    ];
-
     return AnimatedBuilder(
       animation: controller,
       builder: (context, child) => Scaffold(
@@ -94,17 +88,9 @@ class DesktopShell extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
-                    Padding(
-                      padding: const EdgeInsets.fromLTRB(32, 32, 32, 24),
-                      child: Text(
-                        titles[controller.index],
-                        style: Theme.of(context).textTheme.headlineMedium
-                            ?.copyWith(fontWeight: FontWeight.w700),
-                      ),
-                    ),
                     Expanded(
                       child: Padding(
-                        padding: const EdgeInsets.fromLTRB(16, 0, 24, 24),
+                        padding: const EdgeInsets.fromLTRB(16, 24, 24, 24),
                         child: ClipRRect(
                           borderRadius: BorderRadius.circular(24),
                           child: Material(

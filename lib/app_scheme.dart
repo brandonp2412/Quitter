@@ -6,8 +6,9 @@ class AppScheme {
   static ColorScheme getColorScheme(
     ColorSchemeType type,
     Brightness brightness,
-    ColorScheme? dynamicScheme,
-  ) {
+    ColorScheme? dynamicScheme, [
+    Color? customSeedColor,
+  ]) {
     switch (type) {
       case ColorSchemeType.dynamic:
         return dynamicScheme ??
@@ -40,6 +41,11 @@ class AppScheme {
           seedColor: Colors.orange,
           brightness: brightness,
         );
+      case ColorSchemeType.custom:
+        return ColorScheme.fromSeed(
+          seedColor: customSeedColor ?? const Color(0xFF6750A4),
+          brightness: brightness,
+        );
     }
   }
 
@@ -57,6 +63,8 @@ class AppScheme {
         return l10n.settingsPurpleColorScheme;
       case ColorSchemeType.orange:
         return l10n.settingsOrangeColorScheme;
+      case ColorSchemeType.custom:
+        return '${l10n.addAddictionCustom} ${l10n.editEntryColor}';
     }
   }
 }

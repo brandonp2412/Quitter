@@ -15,6 +15,7 @@ import 'package:quitter/about_page.dart';
 import 'package:quitter/addiction_provider.dart';
 import 'package:quitter/app_scheme.dart';
 import 'package:quitter/color_scheme_type.dart';
+import 'package:quitter/color_picker.dart';
 import 'package:quitter/enjoying_page.dart';
 import 'package:quitter/empty_state.dart';
 import 'package:quitter/settings_provider.dart';
@@ -68,38 +69,58 @@ class _SettingsPageState extends State<SettingsPage> {
   @override
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context)!;
+    final desktop = MediaQuery.sizeOf(context).width >= 1000;
+
     return Scaffold(
-      appBar: AppBar(title: Text(l10n.tabSettings)),
+      appBar: desktop ? null : AppBar(title: Text(l10n.tabSettings)),
       body: Center(
-        child: SizedBox(
-          width: 880,
+        child: ConstrainedBox(
+          constraints: BoxConstraints(maxWidth: desktop ? 1440 : 880),
           child: Consumer<SettingsProvider>(
             builder: (context, settings, child) {
-              final List<Widget> filteredItems = _buildFilteredSettingsItems(
+              final sections = _buildFilteredSettingsSections(
                 context,
                 settings,
               );
+              final hasResults = sections.any((section) => section.isNotEmpty);
 
               return Column(
                 children: [
                   Padding(
-                    padding: const EdgeInsets.only(
-                      left: 16,
-                      right: 16,
-                      top: 16,
+                    padding: EdgeInsets.fromLTRB(
+                      desktop ? 32 : 16,
+                      desktop ? 32 : 16,
+                      desktop ? 24 : 16,
+                      12,
                     ),
                     child: SearchBar(
-                      leading: Padding(
-                        padding: const EdgeInsets.only(left: 8),
-                        child: const Icon(Icons.search),
-                      ),
+                      leading: desktop
+                          ? IconButton(
+                              tooltip: MaterialLocalizations.of(
+                                context,
+                              ).backButtonTooltip,
+                              onPressed: () => Navigator.of(context).maybePop(),
+                              icon: const Icon(Icons.arrow_back),
+                            )
+                          : const Padding(
+                              padding: EdgeInsets.only(left: 8),
+                              child: Icon(Icons.search),
+                            ),
                       controller: _searchController,
                       focusNode: _searchFocusNode,
                       hintText: l10n.settingsSearchHint,
+                      trailing: [
+                        if (_searchQuery.isNotEmpty)
+                          IconButton(
+                            tooltip: l10n.clearSearch,
+                            onPressed: _searchController.clear,
+                            icon: const Icon(Icons.close),
+                          ),
+                      ],
                     ),
                   ),
                   Expanded(
-                    child: filteredItems.isEmpty && _searchQuery.isNotEmpty
+                    child: !hasResults && _searchQuery.isNotEmpty
                         ? AppEmptyState(
                             icon: Icons.search_off_rounded,
                             title: l10n.noSearchResults,
@@ -107,9 +128,17 @@ class _SettingsPageState extends State<SettingsPage> {
                             actionIcon: Icons.close_rounded,
                             onAction: _searchController.clear,
                           )
+                        : desktop
+                        ? _desktopSettingsSections(sections)
                         : ListView(
-                            padding: const EdgeInsets.all(16.0),
-                            children: filteredItems,
+                            padding: const EdgeInsets.all(16),
+                            children: [
+                              for (final section in sections)
+                                if (section.isNotEmpty) ...[
+                                  ...section,
+                                  const SizedBox(height: 24),
+                                ],
+                            ],
                           ),
                   ),
                   SizedBox(height: MediaQuery.of(context).padding.bottom),
@@ -118,6 +147,42 @@ class _SettingsPageState extends State<SettingsPage> {
             },
           ),
         ),
+      ),
+    );
+  }
+
+  Widget _desktopSettingsSections(List<List<Widget>> sections) {
+    Widget sectionCard(List<Widget> items) => Card.outlined(
+      margin: EdgeInsets.zero,
+      child: Padding(
+        padding: const EdgeInsets.fromLTRB(12, 16, 12, 20),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: items,
+        ),
+      ),
+    );
+
+    Widget column(List<int> indices) => Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        for (final index in indices)
+          if (sections[index].isNotEmpty) ...[
+            sectionCard(sections[index]),
+            const SizedBox(height: 20),
+          ],
+      ],
+    );
+
+    return SingleChildScrollView(
+      padding: const EdgeInsets.fromLTRB(32, 12, 32, 32),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Expanded(child: column([0, 3])),
+          const SizedBox(width: 20),
+          Expanded(child: column([1, 2])),
+        ],
       ),
     );
   }
@@ -821,7 +886,7 @@ class _SettingsPageState extends State<SettingsPage> {
     ];
   }
 
-  List<Widget> _buildFilteredSettingsItems(
+  List<List<Widget>> _buildFilteredSettingsSections(
     BuildContext context,
     SettingsProvider settings,
   ) {
@@ -832,31 +897,24 @@ class _SettingsPageState extends State<SettingsPage> {
       _buildSystemSectionItems(context, settings),
     ];
 
-    if (_searchQuery.trim().isEmpty) {
-      final result = <Widget>[];
-      for (int i = 0; i < sections.length; i++) {
-        result.addAll(sections[i]);
-        if (i < sections.length - 1) result.add(const SizedBox(height: 24));
-      }
-      return result;
-    }
+    if (_searchQuery.trim().isEmpty) return sections;
 
-    final result = <Widget>[];
-    for (final section in sections) {
-      final header = section.first;
-      final items = section.skip(1).toList();
-      final sectionMatches = _matchesSearch(header, _searchQuery);
-      final matching = sectionMatches
-          ? items
-          : items.where((item) => _matchesSearch(item, _searchQuery)).toList();
-
-      if (matching.isNotEmpty) {
-        result.add(header);
-        result.addAll(matching);
-        result.add(const SizedBox(height: 8));
-      }
-    }
-    return result;
+    return [
+      for (final section in sections)
+        [
+          if (_matchesSearch(section.first, _searchQuery))
+            ...section
+          else ...[
+            if (section
+                .skip(1)
+                .any((item) => _matchesSearch(item, _searchQuery)))
+              section.first,
+            ...section
+                .skip(1)
+                .where((item) => _matchesSearch(item, _searchQuery)),
+          ],
+        ],
+    ];
   }
 
   bool _matchesSearch(Widget item, String query) {
@@ -1271,9 +1329,24 @@ class _ColorSchemePicker extends StatelessWidget {
             children: ColorSchemeType.values.map((type) {
               final isSelected = settings.colorSchemeType == type;
               final isDynamic = type == ColorSchemeType.dynamic;
-              final seedColor = _seedColors[type];
+              final isCustom = type == ColorSchemeType.custom;
+              final showSpectrum = isDynamic || (isCustom && !isSelected);
+              final seedColor = isCustom
+                  ? settings.customColor
+                  : _seedColors[type];
               return GestureDetector(
-                onTap: () => settings.colorSchemeType = type,
+                key: isCustom ? const Key('customThemeColor') : null,
+                onTap: () async {
+                  if (isCustom) {
+                    final picked = await showCustomColorPickerDialog(
+                      context,
+                      settings.customColor,
+                    );
+                    if (picked != null) settings.customColor = picked;
+                  } else {
+                    settings.colorSchemeType = type;
+                  }
+                },
                 child: Tooltip(
                   message: AppScheme.getName(type, l10n),
                   child: AnimatedContainer(
@@ -1281,8 +1354,8 @@ class _ColorSchemePicker extends StatelessWidget {
                     width: 36,
                     height: 36,
                     decoration: BoxDecoration(
-                      color: isDynamic ? null : seedColor,
-                      gradient: isDynamic
+                      color: showSpectrum ? null : seedColor,
+                      gradient: showSpectrum
                           ? const SweepGradient(
                               colors: [
                                 Color(0xFFD32F2F),
@@ -1304,6 +1377,12 @@ class _ColorSchemePicker extends StatelessWidget {
                     ),
                     child: isSelected
                         ? const Icon(Icons.check, color: Colors.white, size: 20)
+                        : isCustom
+                        ? const Icon(
+                            Icons.colorize_outlined,
+                            color: Colors.white,
+                            size: 20,
+                          )
                         : null,
                   ),
                 ),
