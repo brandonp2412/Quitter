@@ -398,10 +398,136 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
 
     final listBottomPadding = fab != null ? 72.0 : 16.0;
 
+    final desktop = MediaQuery.sizeOf(context).width >= 1000;
+    final header = Container(
+      width: double.infinity,
+      padding: const EdgeInsets.symmetric(horizontal: 24.0),
+      decoration: BoxDecoration(
+        borderRadius: const BorderRadius.only(
+          bottomLeft: Radius.circular(24),
+          bottomRight: Radius.circular(24),
+        ),
+      ),
+      child: Column(
+        children: [
+          const SizedBox(height: 8),
+          Text(
+            started ? widget.headerStarted : widget.headerNotStarted,
+            style: Theme.of(context).textTheme.headlineMedium,
+            textAlign: TextAlign.center,
+          ),
+          const SizedBox(height: 8),
+          Text(
+            started ? widget.subtitleStarted : widget.subtitleNotStarted,
+            style: Theme.of(context).textTheme.titleMedium,
+            textAlign: TextAlign.center,
+          ),
+          const SizedBox(height: 16),
+          TextFormField(
+            readOnly: true,
+            controller: controller,
+            decoration: InputDecoration(
+              labelText: l10n.quitMilestonesQuitDate,
+              border: const OutlineInputBorder(),
+              suffixIcon: Icon(
+                days > 7 ? Icons.calendar_month : Icons.calendar_today,
+              ),
+            ),
+            onTap: pickDate,
+          ),
+          if (widget.infoBoxMessage != null) ...[
+            const SizedBox(height: 16),
+            Container(
+              padding: const EdgeInsets.all(12),
+              decoration: BoxDecoration(
+                color: theme.appBarTheme.titleTextStyle?.color?.withAlpha(
+                  (255 * 0.1).round(),
+                ),
+                borderRadius: BorderRadius.circular(8),
+              ),
+              child: Row(
+                children: [
+                  Icon(
+                    Icons.health_and_safety,
+                    size: 16,
+                    color: theme.appBarTheme.titleTextStyle?.color,
+                  ),
+                  const SizedBox(width: 8),
+                  Expanded(
+                    child: Text(
+                      widget.infoBoxMessage!,
+                      style: TextStyle(
+                        fontSize: 12,
+                        color: theme.appBarTheme.titleTextStyle?.color,
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ],
+        ],
+      ),
+    );
+    final timeline = SingleChildScrollView(
+      controller: _scroll,
+      padding: EdgeInsets.only(
+        left: 16.0,
+        right: 16.0,
+        top: 16.0,
+        bottom: desktop ? 16 : listBottomPadding,
+      ),
+      child: Column(
+        children: widget.milestones.asMap().entries.map((entry) {
+          final index = entry.key;
+          final milestone = entry.value;
+          final isCompleted = days >= milestone.day;
+          final isNext =
+              !isCompleted &&
+              (index == 0 || days >= widget.milestones[index - 1].day);
+
+          final allDaysAchieved = widget.customDaysAchieved.isNotEmpty
+              ? widget.customDaysAchieved
+              : addictions.getDays(widget.storageKey);
+
+          final List<int> milestoneDaysToMark = [];
+          for (int achievedDay in allDaysAchieved) {
+            int closestMilestoneDay = 0;
+            for (QuitMilestone m in widget.milestones) {
+              if (m.day <= achievedDay) {
+                closestMilestoneDay = m.day;
+              } else {
+                break;
+              }
+            }
+            if (closestMilestoneDay > 0) {
+              milestoneDaysToMark.add(closestMilestoneDay);
+            }
+          }
+
+          return InkWell(
+            borderRadius: BorderRadius.circular(12),
+            key: index == _targetIndex ? _targetTileKey : null,
+            onTap: () => _openMilestoneBenefits(milestone),
+            onLongPress: () => _showClearMilestoneBottomSheet(milestone),
+            child: TimelineTile(
+              milestone: milestone,
+              isCompleted: isCompleted,
+              isNext: isNext,
+              isLast: index == widget.milestones.length - 1,
+              daysAchieved: milestoneDaysToMark,
+            ),
+          );
+        }).toList(),
+      ),
+    );
+
     return ConfettiWidget(
       active: showConfetti,
       child: Scaffold(
-        backgroundColor: colorScheme.surface,
+        backgroundColor: desktop
+            ? colorScheme.surfaceContainerLowest
+            : colorScheme.surface,
         appBar: AppBar(
           title: FittedBox(
             fit: BoxFit.scaleDown,
@@ -416,147 +542,100 @@ class _QuitMilestonesPageState extends State<QuitMilestonesPage> {
           ],
         ),
         body: SafeArea(
-          child: Column(
-            children: [
-              Container(
-                width: double.infinity,
-                padding: const EdgeInsets.symmetric(horizontal: 24.0),
-                decoration: BoxDecoration(
-                  borderRadius: const BorderRadius.only(
-                    bottomLeft: Radius.circular(24),
-                    bottomRight: Radius.circular(24),
-                  ),
-                ),
-                child: Column(
-                  children: [
-                    const SizedBox(height: 8),
-                    Text(
-                      started ? widget.headerStarted : widget.headerNotStarted,
-                      style: Theme.of(context).textTheme.headlineMedium,
-                      textAlign: TextAlign.center,
-                    ),
-                    const SizedBox(height: 8),
-                    Text(
-                      started
-                          ? widget.subtitleStarted
-                          : widget.subtitleNotStarted,
-                      style: Theme.of(context).textTheme.titleMedium,
-                      textAlign: TextAlign.center,
-                    ),
-                    const SizedBox(height: 16),
-                    TextFormField(
-                      readOnly: true,
-                      controller: controller,
-                      decoration: InputDecoration(
-                        labelText: l10n.quitMilestonesQuitDate,
-                        border: const OutlineInputBorder(),
-                        suffixIcon: Icon(
-                          days > 7
-                              ? Icons.calendar_month
-                              : Icons.calendar_today,
-                        ),
-                      ),
-                      onTap: pickDate,
-                    ),
-                    if (widget.infoBoxMessage != null) ...[
-                      const SizedBox(height: 16),
-                      Container(
-                        padding: const EdgeInsets.all(12),
-                        decoration: BoxDecoration(
-                          color: theme.appBarTheme.titleTextStyle?.color
-                              ?.withAlpha((255 * 0.1).round()),
-                          borderRadius: BorderRadius.circular(8),
-                        ),
-                        child: Row(
-                          children: [
-                            Icon(
-                              Icons.health_and_safety,
-                              size: 16,
-                              color: theme.appBarTheme.titleTextStyle?.color,
-                            ),
-                            const SizedBox(width: 8),
-                            Expanded(
-                              child: Text(
-                                widget.infoBoxMessage!,
-                                style: TextStyle(
-                                  fontSize: 12,
-                                  color:
-                                      theme.appBarTheme.titleTextStyle?.color,
+          child: desktop
+              ? Center(
+                  child: ConstrainedBox(
+                    constraints: const BoxConstraints(maxWidth: 1280),
+                    child: Padding(
+                      padding: const EdgeInsets.fromLTRB(24, 16, 24, 24),
+                      child: Row(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          SizedBox(
+                            width: 340,
+                            child: SingleChildScrollView(
+                              child: Container(
+                                padding: const EdgeInsets.symmetric(
+                                  vertical: 24,
+                                ),
+                                decoration: BoxDecoration(
+                                  color: colorScheme.surfaceContainerLow,
+                                  borderRadius: BorderRadius.circular(24),
+                                ),
+                                child: Column(
+                                  children: [
+                                    if (started) ...[
+                                      Icon(
+                                        Icons.track_changes,
+                                        size: 40,
+                                        color: colorScheme.primary,
+                                      ),
+                                      const SizedBox(height: 16),
+                                      Text(
+                                        '$days',
+                                        style: theme.textTheme.displayMedium
+                                            ?.copyWith(
+                                              color: colorScheme.primary,
+                                              fontWeight: FontWeight.w800,
+                                            ),
+                                      ),
+                                      Text(
+                                        l10n.statsDayUnit(days),
+                                        style: theme.textTheme.titleMedium,
+                                      ),
+                                      const SizedBox(height: 24),
+                                    ],
+                                    header,
+                                    if (fab != null)
+                                      Padding(
+                                        padding: const EdgeInsets.fromLTRB(
+                                          24,
+                                          24,
+                                          24,
+                                          0,
+                                        ),
+                                        child: SizedBox(
+                                          width: double.infinity,
+                                          child: fab,
+                                        ),
+                                      ),
+                                  ],
                                 ),
                               ),
                             ),
-                          ],
-                        ),
+                          ),
+                          const SizedBox(width: 24),
+                          Expanded(
+                            child: Material(
+                              color: colorScheme.surface,
+                              borderRadius: BorderRadius.circular(24),
+                              clipBehavior: Clip.antiAlias,
+                              child: Scrollbar(
+                                controller: _scroll,
+                                child: timeline,
+                              ),
+                            ),
+                          ),
+                        ],
                       ),
-                    ],
+                    ),
+                  ),
+                )
+              : Column(
+                  children: [
+                    header,
+                    Expanded(child: timeline),
                   ],
                 ),
-              ),
-              Expanded(
-                child: SingleChildScrollView(
-                  controller: _scroll,
-                  padding: EdgeInsets.only(
-                    left: 16.0,
-                    right: 16.0,
-                    top: 16.0,
-                    bottom: listBottomPadding,
-                  ),
-                  child: Column(
-                    children: widget.milestones.asMap().entries.map((entry) {
-                      final index = entry.key;
-                      final milestone = entry.value;
-                      final isCompleted = days >= milestone.day;
-                      final isNext =
-                          !isCompleted &&
-                          (index == 0 ||
-                              days >= widget.milestones[index - 1].day);
-
-                      final allDaysAchieved =
-                          widget.customDaysAchieved.isNotEmpty
-                          ? widget.customDaysAchieved
-                          : addictions.getDays(widget.storageKey);
-
-                      final List<int> milestoneDaysToMark = [];
-                      for (int achievedDay in allDaysAchieved) {
-                        int closestMilestoneDay = 0;
-                        for (QuitMilestone m in widget.milestones) {
-                          if (m.day <= achievedDay) {
-                            closestMilestoneDay = m.day;
-                          } else {
-                            break;
-                          }
-                        }
-                        if (closestMilestoneDay > 0) {
-                          milestoneDaysToMark.add(closestMilestoneDay);
-                        }
-                      }
-
-                      return GestureDetector(
-                        key: index == _targetIndex ? _targetTileKey : null,
-                        onTap: () => _openMilestoneBenefits(milestone),
-                        onLongPress: () =>
-                            _showClearMilestoneBottomSheet(milestone),
-                        child: TimelineTile(
-                          milestone: milestone,
-                          isCompleted: isCompleted,
-                          isNext: isNext,
-                          isLast: index == widget.milestones.length - 1,
-                          daysAchieved: milestoneDaysToMark,
-                        ),
-                      );
-                    }).toList(),
-                  ),
-                ),
-              ),
-            ],
-          ),
         ),
-        floatingActionButton: AnimatedSwitcher(
-          duration: const Duration(milliseconds: 150),
-          transitionBuilder: (child, animation) =>
-              ScaleTransition(scale: animation, child: child),
-          child: fab,
-        ),
+        floatingActionButton: desktop
+            ? null
+            : AnimatedSwitcher(
+                duration: const Duration(milliseconds: 150),
+                transitionBuilder: (child, animation) =>
+                    ScaleTransition(scale: animation, child: child),
+                child: fab,
+              ),
       ),
     );
   }

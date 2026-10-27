@@ -116,105 +116,114 @@ class MilestoneReferencePage extends StatelessWidget {
     return Scaffold(
       backgroundColor: colorScheme.surface,
       appBar: AppBar(title: Text(milestone.title)),
-      body: CustomScrollView(
-        slivers: [
-          SliverToBoxAdapter(
-            child: Padding(
-              padding: EdgeInsets.fromLTRB(
-                20,
-                20,
-                20,
-                20 + MediaQuery.of(context).padding.bottom,
-              ),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Row(
+      body: Center(
+        child: SizedBox(
+          width: 840,
+          child: CustomScrollView(
+            slivers: [
+              SliverToBoxAdapter(
+                child: Padding(
+                  padding: EdgeInsets.fromLTRB(
+                    20,
+                    20,
+                    20,
+                    20 + MediaQuery.of(context).padding.bottom,
+                  ),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Icon(Icons.science, size: 16, color: colorScheme.primary),
-                      const SizedBox(width: 6),
-                      Expanded(
-                        child: Text(
-                          milestone.reference,
-                          style: TextStyle(
-                            fontSize: 13,
-                            fontWeight: FontWeight.w600,
+                      Row(
+                        children: [
+                          Icon(
+                            Icons.science,
+                            size: 16,
                             color: colorScheme.primary,
                           ),
-                        ),
+                          const SizedBox(width: 6),
+                          Expanded(
+                            child: Text(
+                              milestone.reference,
+                              style: TextStyle(
+                                fontSize: 13,
+                                fontWeight: FontWeight.w600,
+                                color: colorScheme.primary,
+                              ),
+                            ),
+                          ),
+                        ],
                       ),
-                    ],
-                  ),
-                  if (milestone.referenceDate != null) ...[
-                    const SizedBox(width: 8, height: 8),
-                    Container(
-                      padding: const EdgeInsets.symmetric(
-                        horizontal: 8,
-                        vertical: 4,
-                      ),
-                      decoration: BoxDecoration(
-                        color: colorScheme.surfaceContainerHighest,
-                        borderRadius: BorderRadius.circular(6),
-                      ),
-                      child: Text(
-                        AppLocalizations.of(context)!.milestoneRetrieved(
-                          _localizedReferenceDate(
-                            context,
-                            milestone.referenceDate!,
+                      if (milestone.referenceDate != null) ...[
+                        const SizedBox(width: 8, height: 8),
+                        Container(
+                          padding: const EdgeInsets.symmetric(
+                            horizontal: 8,
+                            vertical: 4,
+                          ),
+                          decoration: BoxDecoration(
+                            color: colorScheme.surfaceContainerHighest,
+                            borderRadius: BorderRadius.circular(6),
+                          ),
+                          child: Text(
+                            AppLocalizations.of(context)!.milestoneRetrieved(
+                              _localizedReferenceDate(
+                                context,
+                                milestone.referenceDate!,
+                              ),
+                            ),
+                            style: TextStyle(
+                              fontSize: 11,
+                              color: colorScheme.onSurfaceVariant,
+                            ),
                           ),
                         ),
+                      ],
+                      const SizedBox(height: 4),
+                      Divider(color: colorScheme.outlineVariant),
+                      const SizedBox(height: 8),
+
+                      ...blocks.map((block) => _BlockWidget(block: block)),
+
+                      const SizedBox(height: 32),
+
+                      SizedBox(
+                        width: double.infinity,
+                        child: FilledButton.icon(
+                          onPressed: () => launchUrl(
+                            Uri.parse(milestone.link),
+                            mode: LaunchMode.externalApplication,
+                          ),
+                          icon: const Icon(Icons.open_in_new, size: 18),
+                          label: Text(
+                            AppLocalizations.of(
+                              context,
+                            )!.milestoneOpenOriginalSource,
+                          ),
+                          style: FilledButton.styleFrom(
+                            padding: const EdgeInsets.symmetric(vertical: 14),
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(12),
+                            ),
+                          ),
+                        ),
+                      ),
+                      const SizedBox(height: 8),
+                      Text(
+                        milestone.link,
                         style: TextStyle(
                           fontSize: 11,
                           color: colorScheme.onSurfaceVariant,
                         ),
+                        maxLines: 2,
+                        overflow: TextOverflow.ellipsis,
                       ),
-                    ),
-                  ],
-                  const SizedBox(height: 4),
-                  Divider(color: colorScheme.outlineVariant),
-                  const SizedBox(height: 8),
-
-                  ...blocks.map((block) => _BlockWidget(block: block)),
-
-                  const SizedBox(height: 32),
-
-                  SizedBox(
-                    width: double.infinity,
-                    child: FilledButton.icon(
-                      onPressed: () => launchUrl(
-                        Uri.parse(milestone.link),
-                        mode: LaunchMode.externalApplication,
-                      ),
-                      icon: const Icon(Icons.open_in_new, size: 18),
-                      label: Text(
-                        AppLocalizations.of(
-                          context,
-                        )!.milestoneOpenOriginalSource,
-                      ),
-                      style: FilledButton.styleFrom(
-                        padding: const EdgeInsets.symmetric(vertical: 14),
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(12),
-                        ),
-                      ),
-                    ),
+                      const SizedBox(height: 16),
+                    ],
                   ),
-                  const SizedBox(height: 8),
-                  Text(
-                    milestone.link,
-                    style: TextStyle(
-                      fontSize: 11,
-                      color: colorScheme.onSurfaceVariant,
-                    ),
-                    maxLines: 2,
-                    overflow: TextOverflow.ellipsis,
-                  ),
-                  const SizedBox(height: 16),
-                ],
+                ),
               ),
-            ),
+            ],
           ),
-        ],
+        ),
       ),
     );
   }
