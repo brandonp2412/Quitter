@@ -686,8 +686,9 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                   return SliverToBoxAdapter(
                     child: LayoutBuilder(
                       builder: (context, constraints) {
-                        final columnCount =
-                            MediaQuery.of(context).size.width > 600 ? 3 : 2;
+                        final columnCount = (constraints.maxWidth / 250)
+                            .floor()
+                            .clamp(2, 4);
                         const spacing = 16.0;
                         final cardWidth =
                             (constraints.maxWidth -

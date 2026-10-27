@@ -70,45 +70,54 @@ class _SettingsPageState extends State<SettingsPage> {
     final l10n = AppLocalizations.of(context)!;
     return Scaffold(
       appBar: AppBar(title: Text(l10n.tabSettings)),
-      body: Consumer<SettingsProvider>(
-        builder: (context, settings, child) {
-          final List<Widget> filteredItems = _buildFilteredSettingsItems(
-            context,
-            settings,
-          );
+      body: Center(
+        child: SizedBox(
+          width: 880,
+          child: Consumer<SettingsProvider>(
+            builder: (context, settings, child) {
+              final List<Widget> filteredItems = _buildFilteredSettingsItems(
+                context,
+                settings,
+              );
 
-          return Column(
-            children: [
-              Padding(
-                padding: const EdgeInsets.only(left: 16, right: 16, top: 16),
-                child: SearchBar(
-                  leading: Padding(
-                    padding: const EdgeInsets.only(left: 8),
-                    child: const Icon(Icons.search),
-                  ),
-                  controller: _searchController,
-                  focusNode: _searchFocusNode,
-                  hintText: l10n.settingsSearchHint,
-                ),
-              ),
-              Expanded(
-                child: filteredItems.isEmpty && _searchQuery.isNotEmpty
-                    ? AppEmptyState(
-                        icon: Icons.search_off_rounded,
-                        title: l10n.noSearchResults,
-                        actionLabel: l10n.clearSearch,
-                        actionIcon: Icons.close_rounded,
-                        onAction: _searchController.clear,
-                      )
-                    : ListView(
-                        padding: const EdgeInsets.all(16.0),
-                        children: filteredItems,
+              return Column(
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.only(
+                      left: 16,
+                      right: 16,
+                      top: 16,
+                    ),
+                    child: SearchBar(
+                      leading: Padding(
+                        padding: const EdgeInsets.only(left: 8),
+                        child: const Icon(Icons.search),
                       ),
-              ),
-              SizedBox(height: MediaQuery.of(context).padding.bottom),
-            ],
-          );
-        },
+                      controller: _searchController,
+                      focusNode: _searchFocusNode,
+                      hintText: l10n.settingsSearchHint,
+                    ),
+                  ),
+                  Expanded(
+                    child: filteredItems.isEmpty && _searchQuery.isNotEmpty
+                        ? AppEmptyState(
+                            icon: Icons.search_off_rounded,
+                            title: l10n.noSearchResults,
+                            actionLabel: l10n.clearSearch,
+                            actionIcon: Icons.close_rounded,
+                            onAction: _searchController.clear,
+                          )
+                        : ListView(
+                            padding: const EdgeInsets.all(16.0),
+                            children: filteredItems,
+                          ),
+                  ),
+                  SizedBox(height: MediaQuery.of(context).padding.bottom),
+                ],
+              );
+            },
+          ),
+        ),
       ),
     );
   }

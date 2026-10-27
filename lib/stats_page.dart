@@ -76,59 +76,51 @@ class StatsPage extends StatelessWidget {
             SliverPadding(
               padding: const EdgeInsets.symmetric(horizontal: 16),
               sliver: SliverToBoxAdapter(
-                child: _JourneyCard(
-                  totalDays: totalDays,
-                  addictionCount: entries.length,
-                  l10n: l10n,
+                child: LayoutBuilder(
+                  builder: (context, constraints) {
+                    final desktop = constraints.maxWidth >= 840;
+                    final spacing = desktop ? 20.0 : 12.0;
+                    final width = desktop
+                        ? (constraints.maxWidth - spacing) / 2
+                        : constraints.maxWidth;
+                    final cards = <Widget>[
+                      _JourneyCard(
+                        totalDays: totalDays,
+                        addictionCount: entries.length,
+                        l10n: l10n,
+                      ),
+                      if (moneySaved > 0)
+                        _MoneySavedCard(
+                          moneySaved: moneySaved,
+                          moneyEntries: moneyEntries,
+                          l10n: l10n,
+                        ),
+                      if (hoursSaved >= 1)
+                        _TimeSavedCard(
+                          hoursSaved: hoursSaved,
+                          timeEntries: timeEntries,
+                          l10n: l10n,
+                        ),
+                      _StreaksCard(entries: sortedByStreak, l10n: l10n),
+                      if (totalRelapses > 0)
+                        _ResilienceCard(
+                          totalRelapses: totalRelapses,
+                          totalRelapseDays: totalRelapseDays,
+                          l10n: l10n,
+                        ),
+                    ];
+                    return Wrap(
+                      spacing: spacing,
+                      runSpacing: spacing,
+                      children: [
+                        for (final card in cards)
+                          SizedBox(width: width, child: card),
+                      ],
+                    );
+                  },
                 ),
               ),
             ),
-            if (moneySaved > 0) ...[
-              const SliverToBoxAdapter(child: SizedBox(height: 12)),
-              SliverPadding(
-                padding: const EdgeInsets.symmetric(horizontal: 16),
-                sliver: SliverToBoxAdapter(
-                  child: _MoneySavedCard(
-                    moneySaved: moneySaved,
-                    moneyEntries: moneyEntries,
-                    l10n: l10n,
-                  ),
-                ),
-              ),
-            ],
-            if (hoursSaved >= 1) ...[
-              const SliverToBoxAdapter(child: SizedBox(height: 12)),
-              SliverPadding(
-                padding: const EdgeInsets.symmetric(horizontal: 16),
-                sliver: SliverToBoxAdapter(
-                  child: _TimeSavedCard(
-                    hoursSaved: hoursSaved,
-                    timeEntries: timeEntries,
-                    l10n: l10n,
-                  ),
-                ),
-              ),
-            ],
-            const SliverToBoxAdapter(child: SizedBox(height: 12)),
-            SliverPadding(
-              padding: const EdgeInsets.symmetric(horizontal: 16),
-              sliver: SliverToBoxAdapter(
-                child: _StreaksCard(entries: sortedByStreak, l10n: l10n),
-              ),
-            ),
-            if (totalRelapses > 0) ...[
-              const SliverToBoxAdapter(child: SizedBox(height: 12)),
-              SliverPadding(
-                padding: const EdgeInsets.symmetric(horizontal: 16),
-                sliver: SliverToBoxAdapter(
-                  child: _ResilienceCard(
-                    totalRelapses: totalRelapses,
-                    totalRelapseDays: totalRelapseDays,
-                    l10n: l10n,
-                  ),
-                ),
-              ),
-            ],
             SliverToBoxAdapter(
               child: SizedBox(
                 height: 24 + MediaQuery.of(context).padding.bottom,
