@@ -25,7 +25,7 @@
   "@kratomMilestone3Description": {"description": "Description for the kratom recovery milestone at 3 days."},
   "kratomMilestone7Title": "A week clear",
   "@kratomMilestone7Title": {"description": "Title for the kratom recovery milestone at 7 days."},
-  "kratomMilestone7Description": "The rough patch of kratom withdrawal is behind you. That's the hardest part handled.",
+  "kratomMilestone7Description": "A week through the rough patch of kratom withdrawal. That's the hardest part handled.",
   "@kratomMilestone7Description": {"description": "Description for the kratom recovery milestone at 7 days."},
   "kratomMilestone14Title": "Two weeks in",
   "@kratomMilestone14Title": {"description": "Title for the kratom recovery milestone at 14 days."},
@@ -239,7 +239,7 @@
   "@synthetic_cannabinoidsMilestone3Description": {"description": "Description for the synthetic cannabinoids recovery milestone at 3 days."},
   "synthetic_cannabinoidsMilestone7Title": "A week away",
   "@synthetic_cannabinoidsMilestone7Title": {"description": "Title for the synthetic cannabinoids recovery milestone at 7 days."},
-  "synthetic_cannabinoidsMilestone7Description": "The worst of synthetic cannabinoid withdrawal is behind you. That's the hardest part handled.",
+  "synthetic_cannabinoidsMilestone7Description": "A week through the worst of synthetic cannabinoid withdrawal. That's the hardest part handled.",
   "@synthetic_cannabinoidsMilestone7Description": {"description": "Description for the synthetic cannabinoids recovery milestone at 7 days."},
   "synthetic_cannabinoidsMilestone14Title": "Two Weeks Clear",
   "@synthetic_cannabinoidsMilestone14Title": {"description": "Title for the synthetic cannabinoids recovery milestone at 14 days."},
@@ -498,7 +498,7 @@
   "@methMilestone3Description": {"description": "Description for the meth recovery milestone at 3 days."},
   "methMilestone7Title": "A week without meth",
   "@methMilestone7Title": {"description": "Title for the meth recovery milestone at 7 days."},
-  "methMilestone7Description": "The worst of meth withdrawal is behind you. And it only gets easier from here.",
+  "methMilestone7Description": "A week through the worst of meth withdrawal. That's the hardest part handled, and it only gets easier from here.",
   "@methMilestone7Description": {"description": "Description for the meth recovery milestone at 7 days."},
   "methMilestone30Title": "One month clear",
   "@methMilestone30Title": {"description": "Title for the meth recovery milestone at 30 days."},
@@ -2129,7 +2129,7 @@
   "@opioidMilestone7Title": {
     "description": "Opioid milestone day 7 title"
   },
-  "opioidMilestone7Description": "The peak of opioid withdrawal is behind you. That's the hardest part handled.",
+  "opioidMilestone7Description": "A week through the peak of opioid withdrawal. That's the hardest part handled.",
   "@opioidMilestone7Description": {
     "description": "Opioid milestone day 7 description"
   },

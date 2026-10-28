@@ -54,7 +54,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get kratomMilestone7Description =>
-      'The rough patch of kratom withdrawal is behind you. That\'s the hardest part handled.';
+      'A week through the rough patch of kratom withdrawal. That\'s the hardest part handled.';
 
   @override
   String get kratomMilestone14Title => 'Two weeks in';
@@ -425,7 +425,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get synthetic_cannabinoidsMilestone7Description =>
-      'The worst of synthetic cannabinoid withdrawal is behind you. That\'s the hardest part handled.';
+      'A week through the worst of synthetic cannabinoid withdrawal. That\'s the hardest part handled.';
 
   @override
   String get synthetic_cannabinoidsMilestone14Title => 'Two Weeks Clear';
@@ -866,7 +866,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get methMilestone7Description =>
-      'The worst of meth withdrawal is behind you. And it only gets easier from here.';
+      'A week through the worst of meth withdrawal. That\'s the hardest part handled, and it only gets easier from here.';
 
   @override
   String get methMilestone30Title => 'One month clear';
@@ -2298,7 +2298,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get opioidMilestone7Description =>
-      'The peak of opioid withdrawal is behind you. That\'s the hardest part handled.';
+      'A week through the peak of opioid withdrawal. That\'s the hardest part handled.';
 
   @override
   String get opioidMilestone14Title => 'Two weeks, still going';
