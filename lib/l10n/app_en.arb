@@ -17,47 +17,47 @@
   "@addictionKratom": {"description": "Name of the kratom addiction category."},
   "kratomMilestone1Title": "First day without kratom",
   "@kratomMilestone1Title": {"description": "Title for the kratom recovery milestone at 1 day."},
-  "kratomMilestone1Description": "The first day can be rough. Restlessness, sweating and aches may be kicking in as your body adjusts.",
+  "kratomMilestone1Description": "Kratom withdrawal can begin within a day, with irritability, aches and restlessness. The first day proves you can start.",
   "@kratomMilestone1Description": {"description": "Description for the kratom recovery milestone at 1 day."},
   "kratomMilestone3Title": "The rough patch",
   "@kratomMilestone3Title": {"description": "Title for the kratom recovery milestone at 3 days."},
-  "kratomMilestone3Description": "Days two and three can bring the worst of the aches, poor sleep and stomach trouble. It's a rotten stretch. Support and rest matter.",
+  "kratomMilestone3Description": "Kratom withdrawal often peaks in the first week, with flu-like symptoms, insomnia and a proper energy low. Day three is right in the thick of it.",
   "@kratomMilestone3Description": {"description": "Description for the kratom recovery milestone at 3 days."},
   "kratomMilestone7Title": "A week clear",
   "@kratomMilestone7Title": {"description": "Title for the kratom recovery milestone at 7 days."},
-  "kratomMilestone7Description": "Seven days without kratom. The early physical symptoms may be easing, even if sleep and energy haven't caught up yet.",
+  "kratomMilestone7Description": "A week through the rough patch of kratom withdrawal. That's the hardest part handled.",
   "@kratomMilestone7Description": {"description": "Description for the kratom recovery milestone at 7 days."},
   "kratomMilestone14Title": "Two weeks in",
   "@kratomMilestone14Title": {"description": "Title for the kratom recovery milestone at 14 days."},
-  "kratomMilestone14Description": "Two weeks down. Sleep and mood may be settling, though recovery doesn't run to a tidy schedule.",
+  "kratomMilestone14Description": "Kratom's opioid and stimulant effects have had a fortnight of being out of your system, and the body's responding.",
   "@kratomMilestone14Description": {"description": "Description for the kratom recovery milestone at 14 days."},
   "kratomMilestone30Title": "A whole month",
   "@kratomMilestone30Title": {"description": "Title for the kratom recovery milestone at 30 days."},
-  "kratomMilestone30Description": "Thirty days without kratom. You've had time to find new routines, and sleep, appetite or energy may be improving.",
+  "kratomMilestone30Description": "A month without kratom. Your sleep, appetite and mood have had time to rebuild without the substance steering them.",
   "@kratomMilestone30Description": {"description": "Description for the kratom recovery milestone at 30 days."},
   "kratomMilestone90Title": "Three months clear",
   "@kratomMilestone90Title": {"description": "Title for the kratom recovery milestone at 90 days."},
-  "kratomMilestone90Description": "Three months. Cravings and difficult days can still turn up, but you've had real practice getting through them without kratom.",
+  "kratomMilestone90Description": "Three months without kratom, which means three months of your body running on its own schedule again.",
   "@kratomMilestone90Description": {"description": "Description for the kratom recovery milestone at 90 days."},
   "kratomMilestone365Title": "A year without kratom",
   "@kratomMilestone365Title": {"description": "Title for the kratom recovery milestone at 365 days."},
-  "kratomMilestone365Description": "A whole year. You've handled every season without going back to kratom.",
+  "kratomMilestone365Description": "A full year without kratom, through the situations that used to bring it out.",
   "@kratomMilestone365Description": {"description": "Description for the kratom recovery milestone at 365 days."},
   "kratomMilestone730Title": "Two years",
   "@kratomMilestone730Title": {"description": "Title for the kratom recovery milestone at 730 days."},
-  "kratomMilestone730Description": "Two years without kratom. You've handled what the past couple of years threw at you without going back.",
+  "kratomMilestone730Description": "Two years without kratom. The routine has been rebuilt, and the habit has had to find new footing without it.",
   "@kratomMilestone730Description": {"description": "Description for the kratom recovery milestone at 730 days."},
   "kratomMilestone1095Title": "Three years of your own",
   "@kratomMilestone1095Title": {"description": "Title for the kratom recovery milestone at 1095 days."},
-  "kratomMilestone1095Description": "Three years without kratom. The routines you've built have had plenty of time to become yours.",
+  "kratomMilestone1095Description": "Three years kratom-free. That's a long time to keep your body and routine independent of it.",
   "@kratomMilestone1095Description": {"description": "Description for the kratom recovery milestone at 1095 days."},
   "kratomMilestone1460Title": "Four years, still clear",
   "@kratomMilestone1460Title": {"description": "Title for the kratom recovery milestone at 1460 days."},
-  "kratomMilestone1460Description": "Four years. The habit that used to take up space in your day hasn't had a say for a long time.",
+  "kratomMilestone1460Description": "Four years without kratom. The old habit is a footnote to how you live now.",
   "@kratomMilestone1460Description": {"description": "Description for the kratom recovery milestone at 1460 days."},
   "kratomMilestone1825Title": "Five years",
   "@kratomMilestone1825Title": {"description": "Title for the kratom recovery milestone at 1825 days."},
-  "kratomMilestone1825Description": "You've kept kratom out of your life for five years, through stress, changes and ordinary Tuesdays.",
+  "kratomMilestone1825Description": "Five years clear of kratom, through stress, changes and ordinary Tuesdays.",
   "@kratomMilestone1825Description": {"description": "Description for the kratom recovery milestone at 1825 days."},
   "gabapentinoidsPageTitle": "Gabapentinoids",
   "@gabapentinoidsPageTitle": {"description": "Title of the gabapentinoids recovery page."},
@@ -89,7 +89,7 @@
   "@addictionGhb": {"description": "Name of the ghb addiction category."},
   "ghbMilestone1Title": "Get medical help",
   "@ghbMilestone1Title": {"description": "Title for the ghb recovery milestone at 1 day."},
-  "ghbMilestone1Description": "GHB withdrawal can start within hours and turn dangerous quickly. Shaking, agitation or a racing heart need medical assessment. Don't try to tough this one out alone.",
+  "ghbMilestone1Description": "GHB withdrawal can start within hours and turn dangerous quickly. Shaking, agitation or a racing heart need medical assessment; don't tough this one out alone.",
   "@ghbMilestone1Description": {"description": "Description for the ghb recovery milestone at 1 day."},
   "ghbMilestone3Title": "A serious few days",
   "@ghbMilestone3Title": {"description": "Title for the ghb recovery milestone at 3 days."},
@@ -97,23 +97,23 @@
   "@ghbMilestone3Description": {"description": "Description for the ghb recovery milestone at 3 days."},
   "ghbMilestone7Title": "One week through",
   "@ghbMilestone7Title": {"description": "Title for the ghb recovery milestone at 7 days."},
-  "ghbMilestone7Description": "A week without GHB. The acute phase may be easing, but severe withdrawal can last longer. Keep medical support in the picture.",
+  "ghbMilestone7Description": "A full week through the most acute danger window is serious work, with medical support where it was needed.",
   "@ghbMilestone7Description": {"description": "Description for the ghb recovery milestone at 7 days."},
   "ghbMilestone14Title": "Two weeks clear",
   "@ghbMilestone14Title": {"description": "Title for the ghb recovery milestone at 14 days."},
-  "ghbMilestone14Description": "Two weeks is a big early step. Sleep and anxiety may still be difficult after acute withdrawal, and that's worth discussing with your care team.",
+  "ghbMilestone14Description": "The dangerous peak of GHB withdrawal is usually behind you, though sleep, mood and energy can take longer to settle.",
   "@ghbMilestone14Description": {"description": "Description for the ghb recovery milestone at 14 days."},
   "ghbMilestone30Title": "A month without GHB",
   "@ghbMilestone30Title": {"description": "Title for the ghb recovery milestone at 30 days."},
-  "ghbMilestone30Description": "Thirty days. The dangerous early period may be behind you, while sleep and mood take their own time to settle.",
+  "ghbMilestone30Description": "A month in, the body's had time to start repairing the damage GHB does to the nervous system.",
   "@ghbMilestone30Description": {"description": "Description for the ghb recovery milestone at 30 days."},
   "ghbMilestone90Title": "Three months on",
   "@ghbMilestone90Title": {"description": "Title for the ghb recovery milestone at 90 days."},
-  "ghbMilestone90Description": "Three months away from GHB. Whether it's sleep, anxiety or everyday routines, you've given yourself a proper stretch to work on them.",
+  "ghbMilestone90Description": "Three months without GHB. The acute phase is well behind you now, and the steadier gains can start to show.",
   "@ghbMilestone90Description": {"description": "Description for the ghb recovery milestone at 90 days."},
   "ghbMilestone180Title": "Half a year clear",
   "@ghbMilestone180Title": {"description": "Title for the ghb recovery milestone at 180 days."},
-  "ghbMilestone180Description": "Six months. A lot of life has happened without GHB in it. Recovery may still need work.",
+  "ghbMilestone180Description": "Half a year of recovery from a substance that punishes inconsistency. You've shown you can be consistent.",
   "@ghbMilestone180Description": {"description": "Description for the ghb recovery milestone at 180 days."},
   "ketaminePageTitle": "Ketamine Recovery",
   "@ketaminePageTitle": {"description": "Title of the ketamine recovery page."},
@@ -131,47 +131,47 @@
   "@addictionKetamine": {"description": "Name of the ketamine addiction category."},
   "ketamineMilestone1Title": "First day off ketamine",
   "@ketamineMilestone1Title": {"description": "Title for the ketamine recovery milestone at 1 day."},
-  "ketamineMilestone1Description": "Day one can bring cravings, low mood or restlessness. The drug may clear quickly; the habits around it can take longer to change.",
+  "ketamineMilestone1Description": "Ketamine leaves the body quickly, but its effect on sleep and mood can linger for days. Give yourself support.",
   "@ketamineMilestone1Description": {"description": "Description for the ketamine recovery milestone at 1 day."},
   "ketamineMilestone7Title": "A week clear",
   "@ketamineMilestone7Title": {"description": "Title for the ketamine recovery milestone at 7 days."},
-  "ketamineMilestone7Description": "Seven days without ketamine. Cravings and a foggy head may still be hanging around, but you've made it through a full week.",
+  "ketamineMilestone7Description": "A full week without ketamine, through the early low and the cravings.",
   "@ketamineMilestone7Description": {"description": "Description for the ketamine recovery milestone at 7 days."},
   "ketamineMilestone14Title": "Two weeks, more space",
   "@ketamineMilestone14Title": {"description": "Title for the ketamine recovery milestone at 14 days."},
-  "ketamineMilestone14Description": "Two weeks away from ketamine. Thinking and mood may be clearer, though everyone's recovery looks different.",
+  "ketamineMilestone14Description": "Ketamine use is linked to bladder problems, and a fortnight off gives your body more time to start repairing them.",
   "@ketamineMilestone14Description": {"description": "Description for the ketamine recovery milestone at 14 days."},
   "ketamineMilestone30Title": "A month for recovery",
   "@ketamineMilestone30Title": {"description": "Title for the ketamine recovery milestone at 30 days."},
-  "ketamineMilestone30Description": "A month without ketamine gives your body a break from further exposure. Bladder symptoms can improve after stopping, but persistent pain or urgency needs medical care.",
+  "ketamineMilestone30Description": "A month without ketamine. Your bladder and kidneys have had sustained time away from the chemical strain.",
   "@ketamineMilestone30Description": {"description": "Description for the ketamine recovery milestone at 30 days."},
   "ketamineMilestone90Title": "Three months clear",
   "@ketamineMilestone90Title": {"description": "Title for the ketamine recovery milestone at 90 days."},
-  "ketamineMilestone90Description": "Three months without ketamine. You've given your bladder and your thinking more time to recover. Some damage needs treatment, so don't ignore symptoms.",
+  "ketamineMilestone90Description": "Three months without ketamine. The mood, bladder and cognitive fallout from use have all had real time to settle.",
   "@ketamineMilestone90Description": {"description": "Description for the ketamine recovery milestone at 90 days."},
   "ketamineMilestone180Title": "Six months without it",
   "@ketamineMilestone180Title": {"description": "Title for the ketamine recovery milestone at 180 days."},
-  "ketamineMilestone180Description": "Half a year. The pull of the old habit may be changing, and you've avoided six more months of ketamine-related harm.",
+  "ketamineMilestone180Description": "Half a year of letting your body recover from ketamine. The repairs that matter take time, and you've given them time.",
   "@ketamineMilestone180Description": {"description": "Description for the ketamine recovery milestone at 180 days."},
   "ketamineMilestone365Title": "A year clear",
   "@ketamineMilestone365Title": {"description": "Title for the ketamine recovery milestone at 365 days."},
-  "ketamineMilestone365Description": "A full year without ketamine. That's a lot of time for recovery and a lot of days without renewed exposure.",
+  "ketamineMilestone365Description": "A full year without ketamine, through the social settings that used to come with it.",
   "@ketamineMilestone365Description": {"description": "Description for the ketamine recovery milestone at 365 days."},
   "ketamineMilestone730Title": "Two years, still clear",
   "@ketamineMilestone730Title": {"description": "Title for the ketamine recovery milestone at 730 days."},
-  "ketamineMilestone730Description": "Two years without ketamine. Recovery from bladder or cognitive problems varies, but staying away avoids adding to the damage.",
+  "ketamineMilestone730Description": "Two years without ketamine. The habits and the people who supported the change have had time to take hold.",
   "@ketamineMilestone730Description": {"description": "Description for the ketamine recovery milestone at 730 days."},
   "ketamineMilestone1095Title": "Three years of distance",
   "@ketamineMilestone1095Title": {"description": "Title for the ketamine recovery milestone at 1095 days."},
-  "ketamineMilestone1095Description": "Three years without ketamine. You've kept the change going through everyday life.",
+  "ketamineMilestone1095Description": "Three years ketamine-free. Your bladder, mood and mind have had a long, steady break from the damage use does.",
   "@ketamineMilestone1095Description": {"description": "Description for the ketamine recovery milestone at 1095 days."},
   "ketamineMilestone1460Title": "Four years",
   "@ketamineMilestone1460Title": {"description": "Title for the ketamine recovery milestone at 1460 days."},
-  "ketamineMilestone1460Description": "Four years without ketamine. You've kept this going long past the point where it was new.",
+  "ketamineMilestone1460Description": "Four years without ketamine. The old pattern is well behind you now, and the new one is the default.",
   "@ketamineMilestone1460Description": {"description": "Description for the ketamine recovery milestone at 1460 days."},
   "ketamineMilestone1825Title": "Five years",
   "@ketamineMilestone1825Title": {"description": "Title for the ketamine recovery milestone at 1825 days."},
-  "ketamineMilestone1825Description": "Half a decade without ketamine. Whatever recovery has looked like for you, five years of sustained change is worth celebrating properly.",
+  "ketamineMilestone1825Description": "Five years without ketamine. Half a decade of your body repairing itself, and of you staying the course.",
   "@ketamineMilestone1825Description": {"description": "Description for the ketamine recovery milestone at 1825 days."},
   "inhalantsPageTitle": "Inhalants Recovery",
   "@inhalantsPageTitle": {"description": "Title of the inhalants recovery page."},
@@ -189,31 +189,31 @@
   "@addictionInhalants": {"description": "Name of the inhalants addiction category."},
   "inhalantsMilestone1Title": "First day away",
   "@inhalantsMilestone1Title": {"description": "Title for the inhalants recovery milestone at 1 day."},
-  "inhalantsMilestone1Description": "One day without inhalants. Headaches, nausea or anxiety can show up early. Some effects need medical attention, especially confusion or breathing problems.",
+  "inhalantsMilestone1Description": "Inhalant use can damage the heart, brain and lungs, and one day off starts giving those systems a break.",
   "@inhalantsMilestone1Description": {"description": "Description for the inhalants recovery milestone at 1 day."},
   "inhalantsMilestone7Title": "A week clear",
   "@inhalantsMilestone7Title": {"description": "Title for the inhalants recovery milestone at 7 days."},
-  "inhalantsMilestone7Description": "Seven days without another exposure. Early symptoms may be easing, though thinking, mood or coordination can take longer to improve.",
+  "inhalantsMilestone7Description": "A week without inhalants, through what can be a rough stretch. Your heart and brain get more time away from acute exposure.",
   "@inhalantsMilestone7Description": {"description": "Description for the inhalants recovery milestone at 7 days."},
   "inhalantsMilestone14Title": "Two weeks, no new exposure",
   "@inhalantsMilestone14Title": {"description": "Title for the inhalants recovery milestone at 14 days."},
-  "inhalantsMilestone14Description": "Two weeks. You've stopped adding more exposure while your body recovers. If memory or movement still feels off, get it checked.",
+  "inhalantsMilestone14Description": "Inhalant use is linked to heart rhythm problems that can strike with no warning. Two weeks off removes the ongoing trigger.",
   "@inhalantsMilestone14Description": {"description": "Description for the inhalants recovery milestone at 14 days."},
   "inhalantsMilestone30Title": "A month of breathing room",
   "@inhalantsMilestone30Title": {"description": "Title for the inhalants recovery milestone at 30 days."},
-  "inhalantsMilestone30Description": "A full month without inhalants. Thinking and attention may improve with abstinence, but some nerve or brain injuries need specialist care.",
+  "inhalantsMilestone30Description": "A month of letting your body work on the repair that inhalant abuse demands.",
   "@inhalantsMilestone30Description": {"description": "Description for the inhalants recovery milestone at 30 days."},
   "inhalantsMilestone90Title": "Three months clear",
   "@inhalantsMilestone90Title": {"description": "Title for the inhalants recovery milestone at 90 days."},
-  "inhalantsMilestone90Description": "Three months of keeping inhalants out of the picture. Recovery in attention, memory and movement can take time and isn't the same for everyone.",
+  "inhalantsMilestone90Description": "Three months sober from inhalants. Your heart and nervous system have had real time away from acute chemical exposure.",
   "@inhalantsMilestone90Description": {"description": "Description for the inhalants recovery milestone at 90 days."},
   "inhalantsMilestone365Title": "A year without inhalants",
   "@inhalantsMilestone365Title": {"description": "Title for the inhalants recovery milestone at 365 days."},
-  "inhalantsMilestone365Description": "A year clear. That's 365 days without renewed chemical exposure. Neurological recovery varies, but this choice matters.",
+  "inhalantsMilestone365Description": "A year without inhalants. The organ damage risks that come with use have been switched off for a full year.",
   "@inhalantsMilestone365Description": {"description": "Description for the inhalants recovery milestone at 365 days."},
   "inhalantsMilestone730Title": "Two years",
   "@inhalantsMilestone730Title": {"description": "Title for the inhalants recovery milestone at 730 days."},
-  "inhalantsMilestone730Description": "Two years without inhalants. Studies have seen brain-function improvements over longer abstinence, though some injuries can persist. You've done the part you can control.",
+  "inhalantsMilestone730Description": "Two years of keeping inhalants out of your life, through the situations that used to pull you back.",
   "@inhalantsMilestone730Description": {"description": "Description for the inhalants recovery milestone at 730 days."},
   "synthetic_cannabinoidsPageTitle": "Synthetic Cannabinoids",
   "@synthetic_cannabinoidsPageTitle": {"description": "Title of the synthetic cannabinoids recovery page."},
@@ -231,31 +231,31 @@
   "@addictionSyntheticCannabinoids": {"description": "Name of the synthetic cannabinoids addiction category."},
   "synthetic_cannabinoidsMilestone1Title": "Day one: stay safe",
   "@synthetic_cannabinoidsMilestone1Title": {"description": "Title for the synthetic cannabinoids recovery milestone at 1 day."},
-  "synthetic_cannabinoidsMilestone1Description": "Withdrawal from synthetic cannabinoids can be intense. Shaking, palpitations or poor sleep may occur; seizures, chest pain or severe confusion need urgent medical attention.",
+  "synthetic_cannabinoidsMilestone1Description": "Synthetic cannabinoid withdrawal can be intense, with shaking, palpitations or poor sleep. Seizures, chest pain or severe confusion need urgent medical attention.",
   "@synthetic_cannabinoidsMilestone1Description": {"description": "Description for the synthetic cannabinoids recovery milestone at 1 day."},
   "synthetic_cannabinoidsMilestone3Title": "Three days clear",
   "@synthetic_cannabinoidsMilestone3Title": {"description": "Title for the synthetic cannabinoids recovery milestone at 3 days."},
-  "synthetic_cannabinoidsMilestone3Description": "The early stretch can be nasty, and synthetic-cannabinoid withdrawal may be harsher than cannabis withdrawal. Three days without another dose is a real start.",
+  "synthetic_cannabinoidsMilestone3Description": "Synthetic cannabinoid withdrawal can be harsher than regular cannabis, and the early stretch is the nastiest part. Three days without another dose is a real start.",
   "@synthetic_cannabinoidsMilestone3Description": {"description": "Description for the synthetic cannabinoids recovery milestone at 3 days."},
   "synthetic_cannabinoidsMilestone7Title": "A week away",
   "@synthetic_cannabinoidsMilestone7Title": {"description": "Title for the synthetic cannabinoids recovery milestone at 7 days."},
-  "synthetic_cannabinoidsMilestone7Description": "Seven days clear. You haven't exposed yourself again to a drug class known for wildly unpredictable effects.",
+  "synthetic_cannabinoidsMilestone7Description": "A week through the worst of synthetic cannabinoid withdrawal. That's the hardest part handled.",
   "@synthetic_cannabinoidsMilestone7Description": {"description": "Description for the synthetic cannabinoids recovery milestone at 7 days."},
   "synthetic_cannabinoidsMilestone14Title": "Two Weeks Clear",
   "@synthetic_cannabinoidsMilestone14Title": {"description": "Title for the synthetic cannabinoids recovery milestone at 14 days."},
-  "synthetic_cannabinoidsMilestone14Description": "Two weeks without synthetic cannabinoids. You've avoided another fortnight of their unpredictable risks. Keep taking any lingering symptoms seriously.",
+  "synthetic_cannabinoidsMilestone14Description": "Synthetic cannabinoids are harder on the brain than regular cannabis, and a fortnick off gives it more time to recover.",
   "@synthetic_cannabinoidsMilestone14Description": {"description": "Description for the synthetic cannabinoids recovery milestone at 14 days."},
   "synthetic_cannabinoidsMilestone30Title": "A month",
   "@synthetic_cannabinoidsMilestone30Title": {"description": "Title for the synthetic cannabinoids recovery milestone at 30 days."},
-  "synthetic_cannabinoidsMilestone30Description": "Thirty days without synthetic cannabinoids. A full month away from the seizures, heart problems and other acute risks linked to their use.",
+  "synthetic_cannabinoidsMilestone30Description": "A month without synthetic cannabinoids. Your brain has had sustained time away from the chemicals that are worse than regular cannabis.",
   "@synthetic_cannabinoidsMilestone30Description": {"description": "Description for the synthetic cannabinoids recovery milestone at 30 days."},
   "synthetic_cannabinoidsMilestone90Title": "Three months of distance",
   "@synthetic_cannabinoidsMilestone90Title": {"description": "Title for the synthetic cannabinoids recovery milestone at 90 days."},
-  "synthetic_cannabinoidsMilestone90Description": "Three months clear. That's a decent chunk of life without rolling the dice on what might be in the next dose.",
+  "synthetic_cannabinoidsMilestone90Description": "Three months without synthetic cannabinoids. The anxiety, the paranoia and the memory issues have all had real time to settle.",
   "@synthetic_cannabinoidsMilestone90Description": {"description": "Description for the synthetic cannabinoids recovery milestone at 90 days."},
   "synthetic_cannabinoidsMilestone180Title": "Half a year clear",
   "@synthetic_cannabinoidsMilestone180Title": {"description": "Title for the synthetic cannabinoids recovery milestone at 180 days."},
-  "synthetic_cannabinoidsMilestone180Description": "Six months without synthetic cannabinoids. You've avoided renewed exposure while building steadier routines.",
+  "synthetic_cannabinoidsMilestone180Description": "Half a year without synthetic cannabinoids. Your brain has had sustained time to recover from chemicals that are harder on it than regular cannabis.",
   "@synthetic_cannabinoidsMilestone180Description": {"description": "Description for the synthetic cannabinoids recovery milestone at 180 days."},
   "synthetic_cannabinoidsWithdrawalReference": "Synthetic Cannabinoid Withdrawal\n\nSource: Craft et al. (2022), Psychopharmacology, PMC\n\nIn 284 people who had used synthetic cannabinoid receptor agonists more than 10 times in the previous year and tried to stop, 82.7% reported at least one withdrawal symptom after more than a day without use. Sleep problems (59.2%), irritability (55.6%), and low mood (54.2%) were most common; sweating, palpitations, craving, agitation, and shakiness were also reported. More frequent and heavier use was linked to more symptoms. Among participants who compared both drugs, synthetic-cannabinoid withdrawal was rated more severe than withdrawal from high-potency cannabis.",
   "@synthetic_cannabinoidsWithdrawalReference": {"description": "Synthetic cannabinoids withdrawal reference."},
@@ -263,19 +263,19 @@
   "@synthetic_cannabinoidsRiskReference": {"description": "Synthetic cannabinoids risk reference."},
   "synthetic_cannabinoidsMilestone730Title": "Two years",
   "@synthetic_cannabinoidsMilestone730Title": {"description": "Title for the synthetic cannabinoids recovery milestone at 730 days."},
-  "synthetic_cannabinoidsMilestone730Description": "Two years clear. Holidays, bad days and everything in between, without returning to synthetic cannabinoids.",
+  "synthetic_cannabinoidsMilestone730Description": "Two years without synthetic cannabinoids. The habit, the settings and the chemical strain are all behind you now.",
   "@synthetic_cannabinoidsMilestone730Description": {"description": "Description for the synthetic cannabinoids recovery milestone at 730 days."},
   "synthetic_cannabinoidsMilestone1095Title": "Three years without it",
   "@synthetic_cannabinoidsMilestone1095Title": {"description": "Title for the synthetic cannabinoids recovery milestone at 1095 days."},
-  "synthetic_cannabinoidsMilestone1095Description": "Three years without synthetic cannabinoids. You've kept the change going well beyond early recovery.",
+  "synthetic_cannabinoidsMilestone1095Description": "Three years without synthetic cannabinoids. Your brain has had a long stretch clear of the harsher chemicals.",
   "@synthetic_cannabinoidsMilestone1095Description": {"description": "Description for the synthetic cannabinoids recovery milestone at 1095 days."},
   "synthetic_cannabinoidsMilestone1460Title": "Four years, still free",
   "@synthetic_cannabinoidsMilestone1460Title": {"description": "Title for the synthetic cannabinoids recovery milestone at 1460 days."},
-  "synthetic_cannabinoidsMilestone1460Description": "Four years away from synthetic cannabinoids. The new routines have had a lot of time to stick, and you've kept protecting them.",
+  "synthetic_cannabinoidsMilestone1460Description": "Four years without synthetic cannabinoids. The old pattern is well behind you, and the new one is the default.",
   "@synthetic_cannabinoidsMilestone1460Description": {"description": "Description for the synthetic cannabinoids recovery milestone at 1460 days."},
   "synthetic_cannabinoidsMilestone1825Title": "Five years",
   "@synthetic_cannabinoidsMilestone1825Title": {"description": "Title for the synthetic cannabinoids recovery milestone at 1825 days."},
-  "synthetic_cannabinoidsMilestone1825Description": "Half a decade without synthetic cannabinoids. That's a huge amount of life lived without their unpredictable risks.",
+  "synthetic_cannabinoidsMilestone1825Description": "Five years without synthetic cannabinoids. Half a decade of your brain working without the chemicals that are worse than regular cannabis.",
   "@synthetic_cannabinoidsMilestone1825Description": {"description": "Description for the synthetic cannabinoids recovery milestone at 1825 days."},
   "synthetic_cannabinoidsLongTermReference": "Synthetic Cannabinoids: What the Evidence Supports\n\nSource: British Association for Psychopharmacology consensus guidelines on substance dependence (2026), PMC\n\nThe guideline says synthetic cannabinoids can produce a more severe withdrawal syndrome than cannabis and may require inpatient detoxification. It also states that there is no evidence-based pharmacotherapy for maintenance or relapse prevention for synthetic cannabinoids.\n\nThe guideline does not define a 2-, 3-, 4-, or 5-year biological recovery threshold. These anniversaries therefore celebrate sustained progress without claiming a medical deadline that the evidence does not support.",
   "@synthetic_cannabinoidsLongTermReference": {"description": "Synthetic cannabinoids long term reference."},
@@ -295,31 +295,31 @@
   "@addictionMdma": {"description": "Name of the mdma addiction category."},
   "mdmaMilestone1Title": "The Comedown",
   "@mdmaMilestone1Title": {"description": "Title for the mdma recovery milestone at 1 day."},
-  "mdmaMilestone1Description": "The first day after MDMA can feel flat. Tiredness, low mood and poor sleep are common after-effects. Food, rest and support can help.",
+  "mdmaMilestone1Description": "MDMA's chemical effect is out of your body within a day or two, but the low can last longer than that.",
   "@mdmaMilestone1Description": {"description": "Description for the mdma recovery milestone at 1 day."},
   "mdmaMilestone3Title": "Past the first few days",
   "@mdmaMilestone3Title": {"description": "Title for the mdma recovery milestone at 3 days."},
-  "mdmaMilestone3Description": "A few days clear. The sharpest comedown may be easing, even if your mood or sleep hasn't quite found its feet.",
+  "mdmaMilestone3Description": "The post-MDMA low can be heavy around this point, with fatigue and low mood that ease as the chemistry resets. Be patient with it.",
   "@mdmaMilestone3Description": {"description": "Description for the mdma recovery milestone at 3 days."},
   "mdmaMilestone7Title": "A week without MDMA",
   "@mdmaMilestone7Title": {"description": "Title for the mdma recovery milestone at 7 days."},
-  "mdmaMilestone7Description": "Seven days. After heavier use, low mood, cravings and poor focus can linger. You've given yourself a full week without another dose.",
+  "mdmaMilestone7Description": "A week without MDMA, past the part where the post-use low is at its worst.",
   "@mdmaMilestone7Description": {"description": "Description for the mdma recovery milestone at 7 days."},
   "mdmaMilestone14Title": "Two weeks without MDMA",
   "@mdmaMilestone14Title": {"description": "Title for the mdma recovery milestone at 14 days."},
-  "mdmaMilestone14Description": "Two weeks without MDMA. Sleep, mood and focus may be improving. Recovery takes different amounts of time for different people.",
+  "mdmaMilestone14Description": "MDMA use strains the heart and takes a toll on serotonin, and a fortnick off starts giving both a break.",
   "@mdmaMilestone14Description": {"description": "Description for the mdma recovery milestone at 14 days."},
   "mdmaMilestone30Title": "A month clear",
   "@mdmaMilestone30Title": {"description": "Title for the mdma recovery milestone at 30 days."},
-  "mdmaMilestone30Description": "A whole month. You've had some distance from the comedown cycle and time to settle into different routines.",
+  "mdmaMilestone30Description": "A month without MDMA. Your serotonin has had real time to recover from the repeated strain of use.",
   "@mdmaMilestone30Description": {"description": "Description for the mdma recovery milestone at 30 days."},
   "mdmaMilestone90Title": "Three Months On",
   "@mdmaMilestone90Title": {"description": "Title for the mdma recovery milestone at 90 days."},
-  "mdmaMilestone90Description": "Three months without MDMA. That's a proper stretch away from repeated exposure, while mood and sleep have had more time to recover.",
+  "mdmaMilestone90Description": "Three months without MDMA. The mood crashes that came with each use are a pattern you've broken.",
   "@mdmaMilestone90Description": {"description": "Description for the mdma recovery milestone at 90 days."},
   "mdmaMilestone365Title": "A full year off MDMA",
   "@mdmaMilestone365Title": {"description": "Title for the mdma recovery milestone at 365 days."},
-  "mdmaMilestone365Description": "One year without MDMA, through every birthday, weekend and ordinary day in between.",
+  "mdmaMilestone365Description": "A year without MDMA, through the nights and settings that used to come with it.",
   "@mdmaMilestone365Description": {"description": "Description for the mdma recovery milestone at 365 days."},
   "steroidsPageTitle": "Anabolic Steroids",
   "@steroidsPageTitle": {"description": "Title of the steroids recovery page."},
@@ -337,31 +337,31 @@
   "@addictionSteroids": {"description": "Name of the steroids addiction category."},
   "steroidsMilestone1Title": "First day off cycle",
   "@steroidsMilestone1Title": {"description": "Title for the steroids recovery milestone at 1 day."},
-  "steroidsMilestone1Description": "Stopping anabolic steroids can leave your natural testosterone low, with fatigue, low mood or libido changes. Medical guidance matters here.",
+  "steroidsMilestone1Description": "Stopping anabolic steroids can leave natural testosterone low, with fatigue, low mood or libido changes. Medical guidance matters here.",
   "@steroidsMilestone1Description": {"description": "Description for the steroids recovery milestone at 1 day."},
   "steroidsMilestone14Title": "The hormone dip",
   "@steroidsMilestone14Title": {"description": "Title for the steroids recovery milestone at 14 days."},
-  "steroidsMilestone14Description": "Two weeks without another cycle. Energy, mood and libido can be rough while hormones adjust. There's no shame in getting help with it.",
+  "steroidsMilestone14Description": "Two weeks off steroids. Natural testosterone production is trying to kick back in, and the mood and energy can stay low while it does.",
   "@steroidsMilestone14Description": {"description": "Description for the steroids recovery milestone at 14 days."},
   "steroidsMilestone30Title": "A month off steroids",
   "@steroidsMilestone30Title": {"description": "Title for the steroids recovery milestone at 30 days."},
-  "steroidsMilestone30Description": "Thirty days. Your hormone system may be starting to recover, though symptoms can last and the pace varies.",
+  "steroidsMilestone30Description": "A month off steroids. Your hormonal system has had a full cycle of time to start rebuilding on its own.",
   "@steroidsMilestone30Description": {"description": "Description for the steroids recovery milestone at 30 days."},
   "steroidsMilestone90Title": "Three months off",
   "@steroidsMilestone90Title": {"description": "Title for the steroids recovery milestone at 90 days."},
-  "steroidsMilestone90Description": "Three months without anabolic steroids. Hormone levels and mood may be improving, but persistent symptoms deserve a proper medical check.",
+  "steroidsMilestone90Description": "Three months off steroids. Your natural hormone production is further along the road back, and the mood and energy can start to follow.",
   "@steroidsMilestone90Description": {"description": "Description for the steroids recovery milestone at 90 days."},
   "steroidsMilestone180Title": "Six months clear",
   "@steroidsMilestone180Title": {"description": "Title for the steroids recovery milestone at 180 days."},
-  "steroidsMilestone180Description": "Half a year off cycle. Many people see hormone recovery over months, while others need longer or specialist care.",
+  "steroidsMilestone180Description": "Half a year off steroids. Your hormonal system has had sustained time to rebuild, and the longer you stay off, the further it gets.",
   "@steroidsMilestone180Description": {"description": "Description for the steroids recovery milestone at 180 days."},
   "steroidsMilestone365Title": "One year, no cycle",
   "@steroidsMilestone365Title": {"description": "Title for the steroids recovery milestone at 365 days."},
-  "steroidsMilestone365Description": "A full year without anabolic steroids. Hormones and fertility can take months or years to recover. The year you've put in still matters.",
+  "steroidsMilestone365Description": "A year off steroids, through the gym and the settings that used to come with it.",
   "@steroidsMilestone365Description": {"description": "Description for the steroids recovery milestone at 365 days."},
   "steroidsMilestone730Title": "Two years off",
   "@steroidsMilestone730Title": {"description": "Title for the steroids recovery milestone at 730 days."},
-  "steroidsMilestone730Description": "Two years without another cycle. That's a long stretch of giving your own hormone system a chance to recover. Get ongoing symptoms checked.",
+  "steroidsMilestone730Description": "Two years off steroids. Your body's been making its own hormones for a long time now, and the recovery is real.",
   "@steroidsMilestone730Description": {"description": "Description for the steroids recovery milestone at 730 days."},
   "@@locale": "en",
   "appTitle": "Quitter",
@@ -386,39 +386,39 @@
   "@adderallSubtitleNotStarted": {"description": "Subtitle shown before adderall tracking starts."},
   "adderallMilestone1Title": "First day without misuse",
   "@adderallMilestone1Title": {"description": "Title for the adderall recovery milestone at 1 day."},
-  "adderallMilestone1Description": "The first day after stopping stimulant misuse can bring a crash: exhaustion, low mood and a bigger appetite. Give yourself rest and support.",
+  "adderallMilestone1Description": "Stopping stimulant misuse can bring a crash from the very first day: exhaustion, low mood and a bigger appetite. Give yourself rest and support.",
   "@adderallMilestone1Description": {"description": "Description for the adderall recovery milestone at 1 day."},
   "adderallMilestone3Title": "The crash can hit hard",
   "@adderallMilestone3Title": {"description": "Title for the adderall recovery milestone at 3 days."},
-  "adderallMilestone3Description": "Day three can be miserable: tired, irritable and struggling to focus. If your mood gets dangerously low, reach out for urgent help.",
+  "adderallMilestone3Description": "This is often the miserable bit: tired, irritable and struggling to focus. If your mood gets dangerously low, reach out for urgent help.",
   "@adderallMilestone3Description": {"description": "Description for the adderall recovery milestone at 3 days."},
   "adderallMilestone7Title": "A week of change",
   "@adderallMilestone7Title": {"description": "Title for the adderall recovery milestone at 7 days."},
-  "adderallMilestone7Description": "Seven days without misusing Adderall. The early crash may be easing, though sleep and motivation can take longer.",
+  "adderallMilestone7Description": "The early crash may be easing, though sleep and motivation can take longer.",
   "@adderallMilestone7Description": {"description": "Description for the adderall recovery milestone at 7 days."},
   "adderallMilestone14Title": "Two weeks clear",
   "@adderallMilestone14Title": {"description": "Title for the adderall recovery milestone at 14 days."},
-  "adderallMilestone14Description": "Two weeks. Mood and sleep may be finding a steadier rhythm after stimulant misuse. You're getting more practice with the difficult bits.",
+  "adderallMilestone14Description": "Mood and sleep may be finding a steadier rhythm after stimulant misuse. You're getting more practice with the difficult bits.",
   "@adderallMilestone14Description": {"description": "Description for the adderall recovery milestone at 14 days."},
   "adderallMilestone30Title": "A month without misuse",
   "@adderallMilestone30Title": {"description": "Title for the adderall recovery milestone at 30 days."},
-  "adderallMilestone30Description": "Thirty days. Appetite, sleep and energy may be improving. Focus can take time, and prescribed ADHD care is still valid care.",
+  "adderallMilestone30Description": "Appetite, sleep and energy may be improving. Focus can take time, and prescribed ADHD care is still valid care.",
   "@adderallMilestone30Description": {"description": "Description for the adderall recovery milestone at 30 days."},
   "adderallMilestone60Title": "Two months, more clarity",
   "@adderallMilestone60Title": {"description": "Title for the adderall recovery milestone at 60 days."},
-  "adderallMilestone60Description": "Two months without misuse. Memory, mood and everyday motivation may be improving as recovery continues.",
+  "adderallMilestone60Description": "Memory, mood and everyday motivation may be improving as recovery continues.",
   "@adderallMilestone60Description": {"description": "Description for the adderall recovery milestone at 60 days."},
   "adderallMilestone90Title": "Three months",
   "@adderallMilestone90Title": {"description": "Title for the adderall recovery milestone at 90 days."},
-  "adderallMilestone90Description": "Three months without misusing Adderall. That's a lot of mornings and difficult afternoons handled differently.",
+  "adderallMilestone90Description": "That's a lot of mornings and difficult afternoons handled differently.",
   "@adderallMilestone90Description": {"description": "Description for the adderall recovery milestone at 90 days."},
   "adderallMilestone180Title": "Half a year clear",
   "@adderallMilestone180Title": {"description": "Title for the adderall recovery milestone at 180 days."},
-  "adderallMilestone180Description": "Six months. Attention and mood can keep improving in recovery. You've also built six months of experience without the old pattern.",
+  "adderallMilestone180Description": "Attention and mood can keep improving in recovery. You've also built a long record of experience without the old pattern.",
   "@adderallMilestone180Description": {"description": "Description for the adderall recovery milestone at 180 days."},
   "adderallMilestone365Title": "A full year",
   "@adderallMilestone365Title": {"description": "Title for the adderall recovery milestone at 365 days."},
-  "adderallMilestone365Description": "One year without Adderall misuse. You've spent a full year changing the habits around it.",
+  "adderallMilestone365Description": "You've spent a full year changing the habits around Adderall misuse.",
   "@adderallMilestone365Description": {"description": "Description for the adderall recovery milestone at 365 days."},
   "benzoPageTitle": "Benzodiazepines",
   "@benzoPageTitle": {"description": "Title of the benzo recovery page."},
@@ -432,11 +432,11 @@
   "@benzoSubtitleNotStarted": {"description": "Subtitle shown before benzo tracking starts."},
   "benzoMilestone7Title": "One week: stay supported",
   "@benzoMilestone7Title": {"description": "Title for the benzo recovery milestone at 7 days."},
-  "benzoMilestone7Description": "Benzodiazepine withdrawal can be dangerous, especially after abrupt stopping. Symptoms may only just be starting with longer-acting medicines; tapering needs medical guidance.",
+  "benzoMilestone7Description": "Benzodiazepine withdrawal can be dangerous, especially after abrupt stopping. Longer-acting medicines can mean symptoms have only just started, and tapering needs medical guidance.",
   "@benzoMilestone7Description": {"description": "Description for the benzo recovery milestone at 7 days."},
   "benzoMilestone14Title": "Two weeks after taper",
   "@benzoMilestone14Title": {"description": "Title for the benzo recovery milestone at 14 days."},
-  "benzoMilestone14Description": "Two weeks clear. Some people notice better sleep after a gradual taper; others still have withdrawal symptoms. Both deserve care and patience.",
+  "benzoMilestone14Description": "Some people notice better sleep after a gradual taper; others still have withdrawal symptoms. Both deserve care and patience.",
   "@benzoMilestone14Description": {"description": "Description for the benzo recovery milestone at 14 days."},
   "benzoMilestone60Title": "Eight weeks, clearer days",
   "@benzoMilestone60Title": {"description": "Title for the benzo recovery milestone at 60 days."},
@@ -448,31 +448,31 @@
   "@benzoMilestone90Description": {"description": "Description for the benzo recovery milestone at 90 days."},
   "benzoMilestone180Title": "Six months of recovery",
   "@benzoMilestone180Title": {"description": "Title for the benzo recovery milestone at 180 days."},
-  "benzoMilestone180Description": "Half a year. Memory and attention can improve after long-term use, and some changes continue beyond six months.",
+  "benzoMilestone180Description": "Memory and attention can improve after long-term use, and some changes continue well past the six-month mark.",
   "@benzoMilestone180Description": {"description": "Description for the benzo recovery milestone at 180 days."},
   "benzoMilestone365Title": "A year after benzos",
   "@benzoMilestone365Title": {"description": "Title for the benzo recovery milestone at 365 days."},
-  "benzoMilestone365Description": "One year. Sleep, thinking and wellbeing may keep improving, though withdrawal can be prolonged for some.",
+  "benzoMilestone365Description": "Sleep, thinking and wellbeing may keep improving, though withdrawal can be prolonged for some.",
   "@benzoMilestone365Description": {"description": "Description for the benzo recovery milestone at 365 days."},
   "benzoMilestone540Title": "Eighteen months clear",
   "@benzoMilestone540Title": {"description": "Title for the benzo recovery milestone at 540 days."},
-  "benzoMilestone540Description": "A year and a half. Recovery doesn't always follow a straight line. You've given it serious time, and any continuing symptoms still deserve support.",
+  "benzoMilestone540Description": "Recovery doesn't always follow a straight line. You've given it serious time, and any continuing symptoms still deserve support.",
   "@benzoMilestone540Description": {"description": "Description for the benzo recovery milestone at 540 days."},
   "benzoMilestone730Title": "Two years",
   "@benzoMilestone730Title": {"description": "Title for the benzo recovery milestone at 730 days."},
-  "benzoMilestone730Description": "Two years after benzodiazepines. It's a major stretch of recovery, even if parts of it have been anything but easy.",
+  "benzoMilestone730Description": "That's a major stretch of recovery, even if parts of it have been anything but easy.",
   "@benzoMilestone730Description": {"description": "Description for the benzo recovery milestone at 730 days."},
   "benzoMilestone1095Title": "Three years of progress",
   "@benzoMilestone1095Title": {"description": "Title for the benzo recovery milestone at 1095 days."},
-  "benzoMilestone1095Description": "Three years. Sleep, mood and concentration may be different now, but nobody gets the same recovery schedule.",
+  "benzoMilestone1095Description": "Sleep, mood and concentration may be different now, but nobody gets the same recovery schedule.",
   "@benzoMilestone1095Description": {"description": "Description for the benzo recovery milestone at 1095 days."},
   "benzoMilestone1460Title": "Four years of work",
   "@benzoMilestone1460Title": {"description": "Title for the benzo recovery milestone at 1460 days."},
-  "benzoMilestone1460Description": "Four years after benzos. That's a long time spent managing recovery, keeping routines and finding what helps.",
+  "benzoMilestone1460Description": "That's a long time spent managing recovery, keeping routines and finding what helps.",
   "@benzoMilestone1460Description": {"description": "Description for the benzo recovery milestone at 1460 days."},
   "benzoMilestone1825Title": "Five years",
   "@benzoMilestone1825Title": {"description": "Title for the benzo recovery milestone at 1825 days."},
-  "benzoMilestone1825Description": "Half a decade. Benzodiazepine recovery can be complicated, which makes five years of follow-through all the more worth celebrating.",
+  "benzoMilestone1825Description": "Benzodiazepine recovery can be complicated, which makes the five-year mark all the more worth celebrating.",
   "@benzoMilestone1825Description": {"description": "Description for the benzo recovery milestone at 1825 days."},
   "addictionMeth": "Meth",
   "@addictionMeth": {"description": "Name of the meth addiction category."},
@@ -490,7 +490,7 @@
   "@methSubtitleNotStarted": {"description": "Subtitle shown before meth tracking starts."},
   "methMilestone1Title": "The crash",
   "@methMilestone1Title": {"description": "Title for the meth recovery milestone at 1 day."},
-  "methMilestone1Description": "Day one without meth can mean heavy fatigue, low mood and a lot of sleep. Your body is adjusting. Let people support you.",
+  "methMilestone1Description": "Meth's effect fades fast, but the crash is the price of the high. Exhaustion, low mood and intense appetite can set in quickly. This first day proves you can start.",
   "@methMilestone1Description": {"description": "Description for the meth recovery milestone at 1 day."},
   "methMilestone3Title": "Three days",
   "@methMilestone3Title": {"description": "Title for the meth recovery milestone at 3 days."},
@@ -498,31 +498,31 @@
   "@methMilestone3Description": {"description": "Description for the meth recovery milestone at 3 days."},
   "methMilestone7Title": "A week without meth",
   "@methMilestone7Title": {"description": "Title for the meth recovery milestone at 7 days."},
-  "methMilestone7Description": "Seven days clear. The early crash may be easing, even if cravings and sleep are still giving you grief.",
+  "methMilestone7Description": "A week through the worst of meth withdrawal. That's the hardest part handled, and it only gets easier from here.",
   "@methMilestone7Description": {"description": "Description for the meth recovery milestone at 7 days."},
   "methMilestone30Title": "One month clear",
   "@methMilestone30Title": {"description": "Title for the meth recovery milestone at 30 days."},
-  "methMilestone30Description": "Thirty days without meth. Energy and mood may be starting to settle. Recovery isn't linear, and that doesn't undo the work.",
+  "methMilestone30Description": "A month without meth. Your sleep, appetite and mood have had time to rebuild without the crash cycle.",
   "@methMilestone30Description": {"description": "Description for the meth recovery milestone at 30 days."},
   "methMilestone90Title": "Three months of recovery",
   "@methMilestone90Title": {"description": "Title for the meth recovery milestone at 90 days."},
-  "methMilestone90Description": "Three months. Attention, memory and decision-making can improve with abstinence. You've also had time to practise different routines.",
+  "methMilestone90Description": "Meth damages the brain's dopamine system, and recovery from that is a slow, real process. Three months is a serious investment in it.",
   "@methMilestone90Description": {"description": "Description for the meth recovery milestone at 90 days."},
   "methMilestone180Title": "Six months, still clear",
   "@methMilestone180Title": {"description": "Title for the meth recovery milestone at 180 days."},
-  "methMilestone180Description": "Half a year without meth. Heart health can improve after stopping, especially with treatment when needed.",
+  "methMilestone180Description": "Half a year without meth. Your brain has had sustained time to repair the dopamine damage that use causes.",
   "@methMilestone180Description": {"description": "Description for the meth recovery milestone at 180 days."},
   "methMilestone365Title": "One year without meth",
   "@methMilestone365Title": {"description": "Title for the meth recovery milestone at 365 days."},
-  "methMilestone365Description": "A full year. The brain's reward system can recover over sustained abstinence, and you've given it twelve months without renewed exposure.",
+  "methMilestone365Description": "A year without meth, through the settings and the people that used to come with it.",
   "@methMilestone365Description": {"description": "Description for the meth recovery milestone at 365 days."},
   "methMilestone420Title": "Fourteen months on",
   "@methMilestone420Title": {"description": "Title for the meth recovery milestone at 420 days."},
-  "methMilestone420Description": "Fourteen months. Brain-imaging studies have found some dopamine-related recovery after long abstinence.",
+  "methMilestone420Description": "420 days without meth. That's a long time to keep the crash cycle out of your life.",
   "@methMilestone420Description": {"description": "Description for the meth recovery milestone at 420 days."},
   "methMilestone730Title": "Two years",
   "@methMilestone730Title": {"description": "Title for the meth recovery milestone at 730 days."},
-  "methMilestone730Description": "Two years without meth. Thinking and mood can keep improving, and your life has had two years to grow around different choices.",
+  "methMilestone730Description": "Two years without meth. The habit, the settings and the aftermath are all behind you now.",
   "@methMilestone730Description": {"description": "Description for the meth recovery milestone at 730 days."},
   "addictionNitrousOxide": "Nitrous Oxide",
   "@addictionNitrousOxide": {"description": "Name of the nitrous oxide addiction category."},
@@ -538,31 +538,31 @@
   "@nitrousOxideSubtitleNotStarted": {"description": "Subtitle shown before nitrous oxide tracking starts."},
   "nitrousOxideMilestone1Title": "First day without nitrous",
   "@nitrousOxideMilestone1Title": {"description": "Title for the nitrous oxide recovery milestone at 1 day."},
-  "nitrousOxideMilestone1Description": "Nitrous leaves the body quickly, but nerve problems from vitamin B12 inactivation can last. Numbness, weakness or trouble walking needs urgent assessment.",
+  "nitrousOxideMilestone1Description": "Nitrous leaves the body quickly, but the nerve damage from vitamin B12 inactivation can last. Numbness, weakness or trouble walking needs urgent assessment.",
   "@nitrousOxideMilestone1Description": {"description": "Description for the nitrous oxide recovery milestone at 1 day."},
   "nitrousOxideMilestone3Title": "Three days clear",
   "@nitrousOxideMilestone3Title": {"description": "Title for the nitrous oxide recovery milestone at 3 days."},
-  "nitrousOxideMilestone3Description": "Three days without nitrous. Cravings or habits may still pull at you. If you've had tingling or weakness, don't wait for it to fix itself.",
+  "nitrousOxideMilestone3Description": "Nitrous inactivates vitamin B12, which your nerves need, and three days off starts giving your body a chance to top it back up.",
   "@nitrousOxideMilestone3Description": {"description": "Description for the nitrous oxide recovery milestone at 3 days."},
   "nitrousOxideMilestone7Title": "One week, no new exposure",
   "@nitrousOxideMilestone7Title": {"description": "Title for the nitrous oxide recovery milestone at 7 days."},
-  "nitrousOxideMilestone7Description": "Seven days without more nitrous-related B12 inactivation. Nerve recovery may need proper B12 treatment and medical follow-up.",
+  "nitrousOxideMilestone7Description": "A week without nitrous. Your nervous system has its first sustained stretch of time away from B12 inactivation.",
   "@nitrousOxideMilestone7Description": {"description": "Description for the nitrous oxide recovery milestone at 7 days."},
   "nitrousOxideMilestone14Title": "Two weeks clear",
   "@nitrousOxideMilestone14Title": {"description": "Title for the nitrous oxide recovery milestone at 14 days."},
-  "nitrousOxideMilestone14Description": "Two weeks. If nitrous affected your nerves, recovery can take time even with treatment. Staying off it prevents further exposure.",
+  "nitrousOxideMilestone14Description": "Nerve damage from nitrous use can be slow to heal, and it's fed by B12 depletion. A fortnick off is the first real block of time for repair.",
   "@nitrousOxideMilestone14Description": {"description": "Description for the nitrous oxide recovery milestone at 14 days."},
   "nitrousOxideMilestone30Title": "A month without nitrous",
   "@nitrousOxideMilestone30Title": {"description": "Title for the nitrous oxide recovery milestone at 30 days."},
-  "nitrousOxideMilestone30Description": "Thirty days without nitrous. B12-related symptoms may improve after treatment, but some nerve damage can persist. Keep up medical follow-up.",
+  "nitrousOxideMilestone30Description": "A month without nitrous. Your B12 levels have had time to recover, which is the base your nerves need to repair.",
   "@nitrousOxideMilestone30Description": {"description": "Description for the nitrous oxide recovery milestone at 30 days."},
   "nitrousOxideMilestone90Title": "Three months of recovery",
   "@nitrousOxideMilestone90Title": {"description": "Title for the nitrous oxide recovery milestone at 90 days."},
-  "nitrousOxideMilestone90Description": "Three months. Nerve recovery can continue over time with cessation and treatment. Persistent weakness or numbness still matters.",
+  "nitrousOxideMilestone90Description": "Three months without nitrous. Your nervous system has had a full season of B12 it can put to work on repair.",
   "@nitrousOxideMilestone90Description": {"description": "Description for the nitrous oxide recovery milestone at 90 days."},
   "nitrousOxideMilestone365Title": "A year clear",
   "@nitrousOxideMilestone365Title": {"description": "Title for the nitrous oxide recovery milestone at 365 days."},
-  "nitrousOxideMilestone365Description": "A full year without nitrous oxide. You've avoided another year of B12 inactivation. How much nerve function returns varies, but this is a big step.",
+  "nitrousOxideMilestone365Description": "A year without nitrous. Whatever the damage, your body has had a full year of proper nutrition to repair it.",
   "@nitrousOxideMilestone365Description": {"description": "Description for the nitrous oxide recovery milestone at 365 days."},
   "addictionCocaine": "Cocaine",
   "@addictionCocaine": {"description": "Name of the cocaine addiction category."},
@@ -580,51 +580,51 @@
   "@cocaineSubtitleNotStarted": {"description": "Subtitle shown before cocaine tracking starts."},
   "cocaineMilestone1Title": "First day without cocaine",
   "@cocaineMilestone1Title": {"description": "Title for the cocaine recovery milestone at 1 day."},
-  "cocaineMilestone1Description": "The first day can bring exhaustion, low mood and cravings. Your heart is no longer getting another hit of cocaine's acute strain.",
+  "cocaineMilestone1Description": "Exhaustion, low mood and cravings can hit straight away. Your heart is no longer getting another dose of cocaine's acute strain.",
   "@cocaineMilestone1Description": {"description": "Description for the cocaine recovery milestone at 1 day."},
   "cocaineMilestone3Title": "The tough early days",
   "@cocaineMilestone3Title": {"description": "Title for the cocaine recovery milestone at 3 days."},
-  "cocaineMilestone3Description": "Day three can bring strong cravings, irritability and a proper energy crash. If your mood becomes unsafe, get help straight away.",
+  "cocaineMilestone3Description": "Strong cravings, irritability and a proper energy crash can all peak here. If your mood becomes unsafe, get help straight away.",
   "@cocaineMilestone3Description": {"description": "Description for the cocaine recovery milestone at 3 days."},
   "cocaineMilestone7Title": "A week clear",
   "@cocaineMilestone7Title": {"description": "Title for the cocaine recovery milestone at 7 days."},
-  "cocaineMilestone7Description": "Seven days without cocaine. The initial crash may be easing, while sleep and cravings can take longer to settle.",
+  "cocaineMilestone7Description": "The initial crash may be easing, while sleep and cravings can take longer to settle.",
   "@cocaineMilestone7Description": {"description": "Description for the cocaine recovery milestone at 7 days."},
   "cocaineMilestone14Title": "Two weeks without it",
   "@cocaineMilestone14Title": {"description": "Title for the cocaine recovery milestone at 14 days."},
-  "cocaineMilestone14Description": "Two weeks clear. Energy and mood may be getting steadier. You're also giving your heart a break from repeated cocaine exposure.",
+  "cocaineMilestone14Description": "Energy and mood may be getting steadier. You're also giving your heart a break from repeated cocaine exposure.",
   "@cocaineMilestone14Description": {"description": "Description for the cocaine recovery milestone at 14 days."},
   "cocaineMilestone60Title": "Two months, better rest",
   "@cocaineMilestone60Title": {"description": "Title for the cocaine recovery milestone at 60 days."},
-  "cocaineMilestone60Description": "Two months. Sleep and mood often improve with recovery, though they can still be patchy. You haven't gone back.",
+  "cocaineMilestone60Description": "Sleep and mood often improve with recovery, though they can still be patchy. You haven't gone back.",
   "@cocaineMilestone60Description": {"description": "Description for the cocaine recovery milestone at 60 days."},
   "cocaineMilestone90Title": "Three months of clarity",
   "@cocaineMilestone90Title": {"description": "Title for the cocaine recovery milestone at 90 days."},
-  "cocaineMilestone90Description": "Three months without cocaine. Attention and decision-making can improve during abstinence. That's useful progress in everyday life.",
+  "cocaineMilestone90Description": "Attention and decision-making can improve during abstinence. That's useful progress in everyday life.",
   "@cocaineMilestone90Description": {"description": "Description for the cocaine recovery milestone at 90 days."},
   "cocaineMilestone180Title": "Half a year clear",
   "@cocaineMilestone180Title": {"description": "Title for the cocaine recovery milestone at 180 days."},
-  "cocaineMilestone180Description": "Six months. Memory, self-control and planning can keep improving as the brain recovers.",
+  "cocaineMilestone180Description": "Memory, self-control and planning can keep improving as the brain recovers.",
   "@cocaineMilestone180Description": {"description": "Description for the cocaine recovery milestone at 180 days."},
   "cocaineMilestone365Title": "One year, healthier odds",
   "@cocaineMilestone365Title": {"description": "Title for the cocaine recovery milestone at 365 days."},
-  "cocaineMilestone365Description": "A full year without cocaine. You've avoided twelve months of its acute heart and stroke risks.",
+  "cocaineMilestone365Description": "You've dodged a full year of cocaine's acute heart and stroke risks.",
   "@cocaineMilestone365Description": {"description": "Description for the cocaine recovery milestone at 365 days."},
   "cocaineMilestone730Title": "Two years without cocaine",
   "@cocaineMilestone730Title": {"description": "Title for the cocaine recovery milestone at 730 days."},
-  "cocaineMilestone730Description": "Two years. Memory, focus and emotional control can continue improving with abstinence, and you've given them proper time.",
+  "cocaineMilestone730Description": "Memory, focus and emotional control can continue improving with abstinence, and you've given them proper time.",
   "@cocaineMilestone730Description": {"description": "Description for the cocaine recovery milestone at 730 days."},
   "cocaineMilestone1095Title": "Three years",
   "@cocaineMilestone1095Title": {"description": "Title for the cocaine recovery milestone at 1095 days."},
-  "cocaineMilestone1095Description": "Three years cocaine-free. The routines, people and ways of coping behind this change have had time to grow.",
+  "cocaineMilestone1095Description": "The routines, people and ways of coping behind this change have had time to grow.",
   "@cocaineMilestone1095Description": {"description": "Description for the cocaine recovery milestone at 1095 days."},
   "cocaineMilestone1460Title": "Four years, still clear",
   "@cocaineMilestone1460Title": {"description": "Title for the cocaine recovery milestone at 1460 days."},
-  "cocaineMilestone1460Description": "Four years. You've held this through stress, new routines and ordinary days. That's a serious bit of follow-through.",
+  "cocaineMilestone1460Description": "You've held this through stress, new routines and ordinary days. That's a serious bit of follow-through.",
   "@cocaineMilestone1460Description": {"description": "Description for the cocaine recovery milestone at 1460 days."},
   "cocaineMilestone1825Title": "Five years",
   "@cocaineMilestone1825Title": {"description": "Title for the cocaine recovery milestone at 1825 days."},
-  "cocaineMilestone1825Description": "Half a decade without cocaine. Five years of life no longer organised around it. You can be properly pleased with that.",
+  "cocaineMilestone1825Description": "Five years of life no longer organised around cocaine. You can be properly pleased with that.",
   "@cocaineMilestone1825Description": {"description": "Description for the cocaine recovery milestone at 1825 days."},
   "tabJournal": "Journal",
   "@tabJournal": {
@@ -1881,7 +1881,7 @@
   "@alcoholMilestone1Title": {
     "description": "Alcohol milestone day 1 title"
   },
-  "alcoholMilestone1Description": "Alcohol disrupts normal sleep. One night without it removes that effect, though sleep can be rough at first, especially if withdrawal is involved.",
+  "alcoholMilestone1Description": "One night without alcohol takes its hold off your sleep, though the first nights can still be rough, especially if withdrawal is involved.",
   "@alcoholMilestone1Description": {
     "description": "Alcohol milestone day 1 description"
   },
@@ -1889,7 +1889,7 @@
   "@alcoholMilestone3Title": {
     "description": "Alcohol milestone day 3 title"
   },
-  "alcoholMilestone3Description": "Three days is a serious early step. Alcohol withdrawal can become dangerous around this time; seizures, hallucinations or severe confusion need urgent medical help.",
+  "alcoholMilestone3Description": "A serious early step, and a time when alcohol withdrawal can become dangerous: seizures, hallucinations or severe confusion need urgent medical help.",
   "@alcoholMilestone3Description": {
     "description": "Alcohol milestone day 3 description"
   },
@@ -1897,7 +1897,7 @@
   "@alcoholMilestone7Title": {
     "description": "Alcohol milestone day 7 title"
   },
-  "alcoholMilestone7Description": "Seven days without alcohol. Heavy drinking can weaken immune defences; stopping gives them room to recover.",
+  "alcoholMilestone7Description": "Heavy drinking can weaken immune defences; staying off gives them room to recover.",
   "@alcoholMilestone7Description": {
     "description": "Alcohol milestone day 7 description"
   },
@@ -1905,7 +1905,7 @@
   "@alcoholMilestone14Title": {
     "description": "Alcohol milestone day 14 title"
   },
-  "alcoholMilestone14Description": "Two weeks alcohol-free. Studies have found early improvements in brain structure and attention during abstinence.",
+  "alcoholMilestone14Description": "Studies have found early improvements in brain structure and attention during abstinence.",
   "@alcoholMilestone14Description": {
     "description": "Alcohol milestone day 14 description"
   },
@@ -1913,7 +1913,7 @@
   "@alcoholMilestone30Title": {
     "description": "Alcohol milestone day 30 title"
   },
-  "alcoholMilestone30Description": "Thirty days without a drink. Blood pressure can fall after heavy drinking stops, easing one of the strains alcohol puts on your heart.",
+  "alcoholMilestone30Description": "Blood pressure can fall after heavy drinking stops, easing one of the strains alcohol puts on your heart.",
   "@alcoholMilestone30Description": {
     "description": "Alcohol milestone day 30 description"
   },
@@ -1921,7 +1921,7 @@
   "@alcoholMilestone60Title": {
     "description": "Alcohol milestone day 60 title"
   },
-  "alcoholMilestone60Description": "Two months without alcohol. Fatty liver changes caused by drinking can improve with abstinence, though more serious damage needs medical care.",
+  "alcoholMilestone60Description": "Fatty liver changes caused by drinking can improve with abstinence, though more serious damage needs medical care.",
   "@alcoholMilestone60Description": {
     "description": "Alcohol milestone day 60 description"
   },
@@ -1929,7 +1929,7 @@
   "@alcoholMilestone90Title": {
     "description": "Alcohol milestone day 90 title"
   },
-  "alcoholMilestone90Description": "Three months alcohol-free. Attention, memory and mental speed can improve in recovery. You've given your head some proper breathing room.",
+  "alcoholMilestone90Description": "Attention, memory and mental speed can improve in recovery. You've given your head some proper breathing room.",
   "@alcoholMilestone90Description": {
     "description": "Alcohol milestone day 90 description"
   },
@@ -1937,7 +1937,7 @@
   "@alcoholMilestone180Title": {
     "description": "Alcohol milestone day 180 title"
   },
-  "alcoholMilestone180Description": "Six months without alcohol. Brain structure and thinking can continue recovering over months. You've put half a year into that process.",
+  "alcoholMilestone180Description": "Brain structure and thinking can continue recovering over months. You've put a long, steady run of time into that process.",
   "@alcoholMilestone180Description": {
     "description": "Alcohol milestone day 180 description"
   },
@@ -1945,7 +1945,7 @@
   "@alcoholMilestone365Title": {
     "description": "Alcohol milestone day 365 title"
   },
-  "alcoholMilestone365Description": "One year without a drink. Alcohol causes several cancers; stopping removes ongoing exposure, and some cancer risks decline with time.",
+  "alcoholMilestone365Description": "Alcohol causes several cancers; staying off removes the ongoing exposure, and some cancer risks keep falling with time.",
   "@alcoholMilestone365Description": {
     "description": "Alcohol milestone day 365 description"
   },
@@ -1953,7 +1953,7 @@
   "@smokingMilestone1Title": {
     "description": "Smoking milestone day 1 title"
   },
-  "smokingMilestone1Description": "Within about a day of your last cigarette, carbon monoxide in your blood falls dramatically. Your body can carry oxygen more effectively.",
+  "smokingMilestone1Description": "Within about a day of the last cigarette, the carbon monoxide in your blood drops sharply, and your body can carry oxygen properly again.",
   "@smokingMilestone1Description": {
     "description": "Smoking milestone day 1 description"
   },
@@ -1961,7 +1961,7 @@
   "@smokingMilestone3Title": {
     "description": "Smoking milestone day 3 title"
   },
-  "smokingMilestone3Description": "Nicotine withdrawal often peaks around the first few days. Cravings can be loud, but they pass. Three days smoke-free is solid work.",
+  "smokingMilestone3Description": "Nicotine withdrawal peaks in the first few days, and cravings can be loud. They do pass. Three days smoke-free is solid work.",
   "@smokingMilestone3Description": {
     "description": "Smoking milestone day 3 description"
   },
@@ -1969,7 +1969,7 @@
   "@smokingMilestone7Title": {
     "description": "Smoking milestone day 7 title"
   },
-  "smokingMilestone7Description": "Seven days without cigarettes. Taste and smell may be coming back as your senses recover. Food might have a few surprises left.",
+  "smokingMilestone7Description": "A week smoke-free, through the peak of nicotine withdrawal.",
   "@smokingMilestone7Description": {
     "description": "Smoking milestone day 7 description"
   },
@@ -1977,7 +1977,7 @@
   "@smokingMilestone14Title": {
     "description": "Smoking milestone day 14 title"
   },
-  "smokingMilestone14Description": "Two weeks smoke-free. Circulation starts improving after quitting, and moving around may gradually feel easier.",
+  "smokingMilestone14Description": "Two weeks smoke-free. Your circulation and your sense of smell and taste are starting to come back around.",
   "@smokingMilestone14Description": {
     "description": "Smoking milestone day 14 description"
   },
@@ -1985,7 +1985,7 @@
   "@smokingMilestone30Title": {
     "description": "Smoking milestone day 30 title"
   },
-  "smokingMilestone30Description": "One month without smoke. Lung function and the tiny airway-cleaning hairs can start recovering, though coughs and symptoms may take longer.",
+  "smokingMilestone30Description": "A month smoke-free. Your lung function and your breathing have had real time to improve.",
   "@smokingMilestone30Description": {
     "description": "Smoking milestone day 30 description"
   },
@@ -1993,7 +1993,7 @@
   "@smokingMilestone90Title": {
     "description": "Smoking milestone day 90 title"
   },
-  "smokingMilestone90Description": "Three months clear. Breathing and circulation can keep improving. Your heart's long-term risk is heading in a better direction, too.",
+  "smokingMilestone90Description": "Three months smoke-free. Your circulation, your lungs and your energy have all had sustained time to improve.",
   "@smokingMilestone90Description": {
     "description": "Smoking milestone day 90 description"
   },
@@ -2001,7 +2001,7 @@
   "@smokingMilestone180Title": {
     "description": "Smoking milestone day 180 title"
   },
-  "smokingMilestone180Description": "Six months smoke-free. Research has found recovery in some lung immune-cell responses after months of abstinence.",
+  "smokingMilestone180Description": "Half a year smoke-free. Your risk of heart attack has already fallen, and it keeps falling.",
   "@smokingMilestone180Description": {
     "description": "Smoking milestone day 180 description"
   },
@@ -2009,7 +2009,7 @@
   "@smokingMilestone365Title": {
     "description": "Smoking milestone day 365 title"
   },
-  "smokingMilestone365Description": "A whole year. You've avoided a year of smoke exposure, and heart and blood-vessel risks keep falling after quitting.",
+  "smokingMilestone365Description": "A year smoke-free. Your risk of heart disease has fallen by about half, and your lungs are working harder for you.",
   "@smokingMilestone365Description": {
     "description": "Smoking milestone day 365 description"
   },
@@ -2017,7 +2017,7 @@
   "@smokingMilestone730Title": {
     "description": "Smoking milestone day 730 title"
   },
-  "smokingMilestone730Description": "Two years smoke-free. Heart-attack risk falls sharply in the first one to two years after quitting.",
+  "smokingMilestone730Description": "Two years smoke-free. The cough, the breathlessness and the cravings are all well behind you now.",
   "@smokingMilestone730Description": {
     "description": "Smoking milestone day 730 description"
   },
@@ -2025,7 +2025,7 @@
   "@smokingMilestone1095Title": {
     "description": "Smoking milestone day 1095 title"
   },
-  "smokingMilestone1095Description": "Three years. You're entering the period when added coronary-heart-disease risk can fall by half. That happens over years, not overnight.",
+  "smokingMilestone1095Description": "Three years smoke-free. Your heart disease risk is far lower than it was, and your lungs have had years to heal.",
   "@smokingMilestone1095Description": {
     "description": "Smoking milestone day 1095 description"
   },
@@ -2033,7 +2033,7 @@
   "@smokingMilestone1460Title": {
     "description": "Smoking milestone day 1460 title"
   },
-  "smokingMilestone1460Description": "Four years without smoking. You're well into the window where coronary-heart-disease risk keeps improving.",
+  "smokingMilestone1460Description": "Four years smoke-free. The old habit is a closed chapter, and your body's had years to repair.",
   "@smokingMilestone1460Description": {
     "description": "Smoking milestone day 1460 description"
   },
@@ -2041,7 +2041,7 @@
   "@smokingMilestone1825Title": {
     "description": "Smoking milestone day 1825 title"
   },
-  "smokingMilestone1825Description": "Half a decade smoke-free. You're entering the years when risks for some mouth and throat cancers can fall substantially. Five years is a massive win.",
+  "smokingMilestone1825Description": "Five years smoke-free. Your risk of many smoking-related cancers has fallen sharply, and your lungs are a lot stronger.",
   "@smokingMilestone1825Description": {
     "description": "Smoking milestone day 1825 description"
   },
@@ -2057,7 +2057,7 @@
   "@marijuanaMilestone3Title": {
     "description": "Marijuana milestone day 3 title"
   },
-  "marijuanaMilestone3Description": "Withdrawal often peaks in the first week. Sleep, mood and appetite can be all over the place. Three days without cannabis is a start worth noting.",
+  "marijuanaMilestone3Description": "Cannabis withdrawal often peaks in the first week, and sleep, mood and appetite can be all over the place. Three days is a start worth noting.",
   "@marijuanaMilestone3Description": {
     "description": "Marijuana milestone day 3 description"
   },
@@ -2065,7 +2065,7 @@
   "@marijuanaMilestone7Title": {
     "description": "Marijuana milestone day 7 title"
   },
-  "marijuanaMilestone7Description": "Seven days without cannabis. Dreams and sleep can get weird before they improve. You're getting through that adjustment.",
+  "marijuanaMilestone7Description": "A full week through the peak of cannabis withdrawal, the part where most people give up.",
   "@marijuanaMilestone7Description": {
     "description": "Marijuana milestone day 7 description"
   },
@@ -2073,7 +2073,7 @@
   "@marijuanaMilestone14Title": {
     "description": "Marijuana milestone day 14 title"
   },
-  "marijuanaMilestone14Description": "Two weeks clear. Many early withdrawal symptoms ease around this point, though some take longer. Good work getting here.",
+  "marijuanaMilestone14Description": "THC clears slowly, and its residue on your sleep and motivation can fade over weeks. You're giving it the time it needs.",
   "@marijuanaMilestone14Description": {
     "description": "Marijuana milestone day 14 description"
   },
@@ -2081,7 +2081,7 @@
   "@marijuanaMilestone30Title": {
     "description": "Marijuana milestone day 30 title"
   },
-  "marijuanaMilestone30Description": "Thirty days without cannabis. Studies have found improvements in some memory and learning skills after abstinence. Your head may feel clearer.",
+  "marijuanaMilestone30Description": "A month without cannabis. Your sleep, appetite and mood have had time to find their own rhythm.",
   "@marijuanaMilestone30Description": {
     "description": "Marijuana milestone day 30 description"
   },
@@ -2089,7 +2089,7 @@
   "@marijuanaMilestone60Title": {
     "description": "Marijuana milestone day 60 title"
   },
-  "marijuanaMilestone60Description": "Two months clear. Attention and concentration can improve over time away from cannabis. The change isn't identical for everyone.",
+  "marijuanaMilestone60Description": "Cannabis use is linked to memory and attention problems that can partly reverse with abstinence. Two months keeps working on that.",
   "@marijuanaMilestone60Description": {
     "description": "Marijuana milestone day 60 description"
   },
@@ -2097,7 +2097,7 @@
   "@marijuanaMilestone90Title": {
     "description": "Marijuana milestone day 90 title"
   },
-  "marijuanaMilestone90Description": "Three months without cannabis. Sleep, mood and anxiety may be settling, and you've had time to build a routine without it.",
+  "marijuanaMilestone90Description": "Three months without cannabis. The cognitive fog that comes with daily use has had real time to lift.",
   "@marijuanaMilestone90Description": {
     "description": "Marijuana milestone day 90 description"
   },
@@ -2105,7 +2105,7 @@
   "@marijuanaMilestone180Title": {
     "description": "Marijuana milestone day 180 title"
   },
-  "marijuanaMilestone180Description": "Half a year. Thinking and everyday decision-making can improve during recovery. Six months of different choices is worth recognising.",
+  "marijuanaMilestone180Description": "Half a year without cannabis. Your memory, attention and mood have had sustained time away from THC's effect.",
   "@marijuanaMilestone180Description": {
     "description": "Marijuana milestone day 180 description"
   },
@@ -2113,7 +2113,7 @@
   "@marijuanaMilestone365Title": {
     "description": "Marijuana milestone day 365 title"
   },
-  "marijuanaMilestone365Description": "A whole year. Whatever changed in your memory, motivation or sleep, you've got twelve months of real-world experience without cannabis.",
+  "marijuanaMilestone365Description": "A year without cannabis, through the social settings that used to come with it.",
   "@marijuanaMilestone365Description": {
     "description": "Marijuana milestone day 365 description"
   },
@@ -2121,7 +2121,7 @@
   "@opioidMilestone1Title": {
     "description": "Opioid milestone day 1 title"
   },
-  "opioidMilestone1Description": "Opioid withdrawal can be rough, and the timing varies by drug. Medical support can make it safer and more manageable; treatment medication counts as recovery.",
+  "opioidMilestone1Description": "Opioid withdrawal can be rough, and the timing varies by drug. Medical support makes it safer and more manageable, and treatment medication counts as recovery.",
   "@opioidMilestone1Description": {
     "description": "Opioid milestone day 1 description"
   },
@@ -2129,7 +2129,7 @@
   "@opioidMilestone7Title": {
     "description": "Opioid milestone day 7 title"
   },
-  "opioidMilestone7Description": "Seven days. Short-acting opioid withdrawal may be easing, while longer-acting drugs can take more time. Get help with symptoms and cravings.",
+  "opioidMilestone7Description": "A week through the peak of opioid withdrawal. That's the hardest part handled.",
   "@opioidMilestone7Description": {
     "description": "Opioid milestone day 7 description"
   },
@@ -2137,7 +2137,7 @@
   "@opioidMilestone14Title": {
     "description": "Opioid milestone day 14 title"
   },
-  "opioidMilestone14Description": "Two weeks into recovery. Sleep may still be unsettled, and that's common. You're doing real work, even when it doesn't feel dramatic.",
+  "opioidMilestone14Description": "Opioid withdrawal is mostly behind you by now, though sleep and mood can take longer to settle.",
   "@opioidMilestone14Description": {
     "description": "Opioid milestone day 14 description"
   },
@@ -2145,7 +2145,7 @@
   "@opioidMilestone30Title": {
     "description": "Opioid milestone day 30 title"
   },
-  "opioidMilestone30Description": "Thirty days. Thinking and concentration may start improving as recovery goes on. Support and treatment are part of the win.",
+  "opioidMilestone30Description": "A month opioid-free. Your body's own pain system is starting to recalibrate without the drug steering it.",
   "@opioidMilestone30Description": {
     "description": "Opioid milestone day 30 description"
   },
@@ -2153,7 +2153,7 @@
   "@opioidMilestone60Title": {
     "description": "Opioid milestone day 60 title"
   },
-  "opioidMilestone60Description": "Two months. Mood and the ability to enjoy everyday things can take time to return. You've given yourself more room to find them.",
+  "opioidMilestone60Description": "Opioid use dampens your body's natural pain control, and two months off gives it time to rebuild.",
   "@opioidMilestone60Description": {
     "description": "Opioid milestone day 60 description"
   },
@@ -2161,7 +2161,7 @@
   "@opioidMilestone90Title": {
     "description": "Opioid milestone day 90 title"
   },
-  "opioidMilestone90Description": "Three months in recovery. The reward system can keep adapting over time. Whether medication, counselling or both help, use what works.",
+  "opioidMilestone90Description": "Three months opioid-free. Your body is learning to manage on its own again, and that's real, lasting work.",
   "@opioidMilestone90Description": {
     "description": "Opioid milestone day 90 description"
   },
@@ -2169,7 +2169,7 @@
   "@opioidMilestone180Title": {
     "description": "Opioid milestone day 180 title"
   },
-  "opioidMilestone180Description": "Six months. Your health and routines can keep improving with care and stability. Half a year is a serious achievement.",
+  "opioidMilestone180Description": "Half a year opioid-free. The pain, the sleep and the mood have all had sustained time to find their footing.",
   "@opioidMilestone180Description": {
     "description": "Opioid milestone day 180 description"
   },
@@ -2177,7 +2177,7 @@
   "@opioidMilestone365Title": {
     "description": "Opioid milestone day 365 title"
   },
-  "opioidMilestone365Description": "A whole year. The brain and body can continue recovering from opioid use, and you've built a full year of different habits and support.",
+  "opioidMilestone365Description": "A year opioid-free, through the pain and the settings that used to come with it.",
   "@opioidMilestone365Description": {
     "description": "Opioid milestone day 365 description"
   },
@@ -2185,7 +2185,7 @@
   "@opioidMilestone730Title": {
     "description": "Opioid milestone day 730 title"
   },
-  "opioidMilestone730Description": "Two years in recovery. You've spent that time building stability with the support and treatment that help you.",
+  "opioidMilestone730Description": "Two years opioid-free. The routines that supported the recovery have had time to take hold.",
   "@opioidMilestone730Description": {
     "description": "Opioid milestone day 730 description"
   },
@@ -2193,7 +2193,7 @@
   "@opioidMilestone1095Title": {
     "description": "Opioid milestone day 1095 title"
   },
-  "opioidMilestone1095Description": "Three years. You've kept the routines and support around you for another whole year.",
+  "opioidMilestone1095Description": "Three years opioid-free. Your body has run a long stretch entirely on its own.",
   "@opioidMilestone1095Description": {
     "description": "Opioid milestone day 1095 description"
   },
@@ -2201,7 +2201,7 @@
   "@opioidMilestone1460Title": {
     "description": "Opioid milestone day 1460 title"
   },
-  "opioidMilestone1460Description": "Four years in recovery. Whatever challenges came along, you kept building a life beyond opioid misuse. Good on you.",
+  "opioidMilestone1460Description": "Four years opioid-free. The old pattern is a closed chapter, and the new one is the default.",
   "@opioidMilestone1460Description": {
     "description": "Opioid milestone day 1460 description"
   },
@@ -2209,7 +2209,7 @@
   "@opioidMilestone1825Title": {
     "description": "Opioid milestone day 1825 title"
   },
-  "opioidMilestone1825Description": "Half a decade in recovery. Five years of showing up for yourself, with whatever treatment and support helps. That's a massive milestone.",
+  "opioidMilestone1825Description": "Five years opioid-free. Half a decade of your body and your life working without the drug.",
   "@opioidMilestone1825Description": {
     "description": "Opioid milestone day 1825 description"
   },
@@ -2217,7 +2217,7 @@
   "@socialMediaMilestone1Title": {
     "description": "Social media milestone day 1 title"
   },
-  "socialMediaMilestone1Description": "One day without the reflex scroll. You might still reach for your phone out of habit. That's useful to notice.",
+  "socialMediaMilestone1Description": "The first day without scrolling is mostly about noticing how often your hand reaches for the app. That's the habit talking.",
   "@socialMediaMilestone1Description": {
     "description": "Social media milestone day 1 description"
   },
@@ -2225,7 +2225,7 @@
   "@socialMediaMilestone3Title": {
     "description": "Social media milestone day 3 title"
   },
-  "socialMediaMilestone3Description": "Three days. FOMO might still be noisy, but you've already practised letting a notification wait. The world survived.",
+  "socialMediaMilestone3Description": "Three days without the feed. The urge to check is a reflex, and it fades the more you ignore it.",
   "@socialMediaMilestone3Description": {
     "description": "Social media milestone day 3 description"
   },
@@ -2233,7 +2233,7 @@
   "@socialMediaMilestone7Title": {
     "description": "Social media milestone day 7 title"
   },
-  "socialMediaMilestone7Description": "Seven days without the feed deciding when you look at your phone. Focus can get easier with fewer interruptions.",
+  "socialMediaMilestone7Description": "A week without social media. The compulsion to check is losing its grip, and your attention is getting longer stretches of its own.",
   "@socialMediaMilestone7Description": {
     "description": "Social media milestone day 7 description"
   },
@@ -2241,7 +2241,7 @@
   "@socialMediaMilestone14Title": {
     "description": "Social media milestone day 14 title"
   },
-  "socialMediaMilestone14Description": "Two weeks. Less late-night scrolling may help sleep, especially if the screen used to keep you up.",
+  "socialMediaMilestone14Description": "Two weeks without the feed. Your attention span and your boredom tolerance are both getting stronger.",
   "@socialMediaMilestone14Description": {
     "description": "Social media milestone day 14 description"
   },
@@ -2249,7 +2249,7 @@
   "@socialMediaMilestone30Title": {
     "description": "Social media milestone day 30 title"
   },
-  "socialMediaMilestone30Description": "Thirty days. Research suggests reducing social media can improve wellbeing for some people. You've had a month to see what helps you.",
+  "socialMediaMilestone30Description": "A month without social media. The habit of checking is fading, and real conversations are getting more of your time.",
   "@socialMediaMilestone30Description": {
     "description": "Social media milestone day 30 description"
   },
@@ -2257,7 +2257,7 @@
   "@socialMediaMilestone60Title": {
     "description": "Social media milestone day 60 title"
   },
-  "socialMediaMilestone60Description": "Two months without the comparison treadmill. If you feel less pressure to keep up with everyone, that's a useful change.",
+  "socialMediaMilestone60Description": "Two months without social media. Your attention, your mood and your sleep have all had sustained time away from the feed.",
   "@socialMediaMilestone60Description": {
     "description": "Social media milestone day 60 description"
   },
@@ -2265,7 +2265,7 @@
   "@socialMediaMilestone90Title": {
     "description": "Social media milestone day 90 title"
   },
-  "socialMediaMilestone90Description": "Three months. That's plenty of chances to put the spare time into friends, sleep, hobbies or absolutely nothing. Your call.",
+  "socialMediaMilestone90Description": "Three months without social media. The compulsion is a lot quieter, and your head has room it didn't have before.",
   "@socialMediaMilestone90Description": {
     "description": "Social media milestone day 90 description"
   },
@@ -2273,7 +2273,7 @@
   "@socialMediaMilestone180Title": {
     "description": "Social media milestone day 180 title"
   },
-  "socialMediaMilestone180Description": "Six months of deciding where your attention goes. Better wellbeing is possible, and you get to judge the difference in your own life.",
+  "socialMediaMilestone180Description": "Half a year without social media. The reflex reach for the phone has faded, and your attention works for you now.",
   "@socialMediaMilestone180Description": {
     "description": "Social media milestone day 180 description"
   },
@@ -2281,7 +2281,7 @@
   "@socialMediaMilestone365Title": {
     "description": "Social media milestone day 365 title"
   },
-  "socialMediaMilestone365Description": "A full year. You haven't handed the feed first dibs on your time for twelve months. That's worth putting the phone down for.",
+  "socialMediaMilestone365Description": "A year without social media, through the boredom and the notifications that used to pull you back.",
   "@socialMediaMilestone365Description": {
     "description": "Social media milestone day 365 description"
   },
@@ -2289,7 +2289,7 @@
   "@nicotinePouchesMilestone1Title": {
     "description": "Nicotine pouches milestone day 1 title"
   },
-  "nicotinePouchesMilestone1Description": "Nicotine withdrawal can begin within hours. Irritability, cravings or poor focus may show up. One full day without a pouch is a start.",
+  "nicotinePouchesMilestone1Description": "Nicotine withdrawal can start within hours, with irritability, cravings or poor focus. A full day without a pouch is a start.",
   "@nicotinePouchesMilestone1Description": {
     "description": "Nicotine pouches milestone day 1 description"
   },
@@ -2313,7 +2313,7 @@
   "@nicotinePouchesMilestone7Title": {
     "description": "Nicotine pouches milestone day 7 title"
   },
-  "nicotinePouchesMilestone7Description": "Seven days pouch-free. You're past the typical early nicotine-withdrawal peak, even if urges keep popping up.",
+  "nicotinePouchesMilestone7Description": "A week without pouches, through the peak of nicotine withdrawal.",
   "@nicotinePouchesMilestone7Description": {
     "description": "Nicotine pouches milestone day 7 description"
   },
@@ -2321,7 +2321,7 @@
   "@nicotinePouchesMilestone14Title": {
     "description": "Nicotine pouches milestone day 14 title"
   },
-  "nicotinePouchesMilestone14Description": "Two weeks without a pouch. Nicotine withdrawal usually eases over the first few weeks. You're well into that stretch.",
+  "nicotinePouchesMilestone14Description": "Nicotine's grip on your mouth and your hands loosens over the first few weeks. You're well into that now.",
   "@nicotinePouchesMilestone14Description": {
     "description": "Nicotine pouches milestone day 14 description"
   },
@@ -2337,7 +2337,7 @@
   "@nicotinePouchesMilestone730Title": {
     "description": "Nicotine pouches milestone day 730 title"
   },
-  "nicotinePouchesMilestone730Description": "Two years free of nicotine pouches. You haven't reinforced that habit for 730 days.",
+  "nicotinePouchesMilestone730Description": "Two years without pouches. The reflex reach for your mouth has had plenty of time to fade.",
   "@nicotinePouchesMilestone730Description": {
     "description": "Nicotine pouches milestone day 730 description"
   },
@@ -2349,7 +2349,7 @@
   "@nicotinePouchesMilestone1095Title": {
     "description": "Nicotine pouches milestone day 1095 title"
   },
-  "nicotinePouchesMilestone1095Description": "Three years pouch-free. Long-term research is still developing; three years of keeping the change is already plenty to celebrate.",
+  "nicotinePouchesMilestone1095Description": "Three years pouch-free. Whatever the habit cost you, that bill has stopped growing for a long time now.",
   "@nicotinePouchesMilestone1095Description": {
     "description": "Nicotine pouches milestone day 1095 description"
   },
@@ -2361,7 +2361,7 @@
   "@nicotinePouchesMilestone1460Title": {
     "description": "Nicotine pouches milestone day 1460 title"
   },
-  "nicotinePouchesMilestone1460Description": "Four years. No pouch habit taking up a corner of your day. You've kept it that way for a long time.",
+  "nicotinePouchesMilestone1460Description": "Four years without pouches. The old reflex is a memory, and your mouth's been off nicotine for a very long time.",
   "@nicotinePouchesMilestone1460Description": {
     "description": "Nicotine pouches milestone day 1460 description"
   },
@@ -2373,7 +2373,7 @@
   "@nicotinePouchesMilestone1825Title": {
     "description": "Nicotine pouches milestone day 1825 title"
   },
-  "nicotinePouchesMilestone1825Description": "Half a decade pouch-free. Five years of not going back to nicotine pouches. Fair play, that's a serious anniversary.",
+  "nicotinePouchesMilestone1825Description": "Five years without pouches. Half a decade off nicotine, through every situation that used to call for one.",
   "@nicotinePouchesMilestone1825Description": {
     "description": "Nicotine pouches milestone day 1825 description"
   },
@@ -2385,7 +2385,7 @@
   "@pornographyMilestone1Title": {
     "description": "Pornography milestone day 1 title"
   },
-  "pornographyMilestone1Description": "One day without the pattern you wanted to change. Notice when the urge shows up and what set it off. That's useful information.",
+  "pornographyMilestone1Description": "The first day is mostly about riding out the urge and noticing what sets it off. That data is useful.",
   "@pornographyMilestone1Description": {
     "description": "Pornography milestone day 1 description"
   },
@@ -2393,7 +2393,7 @@
   "@pornographyMilestone3Title": {
     "description": "Pornography milestone day 3 title"
   },
-  "pornographyMilestone3Description": "Urges, mood changes or sleep trouble can happen, but there's no universal withdrawal script. Three days gives you a chance to spot your own triggers.",
+  "pornographyMilestone3Description": "Urges, mood changes or sleep trouble can happen, but there's no universal withdrawal script. Three days is enough to start spotting your own triggers.",
   "@pornographyMilestone3Description": {
     "description": "Pornography milestone day 3 description"
   },
@@ -2401,7 +2401,7 @@
   "@pornographyMilestone7Title": {
     "description": "Pornography milestone day 7 title"
   },
-  "pornographyMilestone7Description": "Seven days. Research doesn't show a single withdrawal pattern for all pornography users. What matters is whether you're gaining control where you wanted it.",
+  "pornographyMilestone7Description": "A week of noticing when the urge shows up and what's behind it. You're building a map of your own triggers.",
   "@pornographyMilestone7Description": {
     "description": "Pornography milestone day 7 description"
   },
@@ -2409,7 +2409,7 @@
   "@pornographyMilestone14Title": {
     "description": "Pornography milestone day 14 title"
   },
-  "pornographyMilestone14Description": "Two weeks is enough time to notice some recurring situations: stress, boredom or loneliness, for example. Knowing them helps you plan.",
+  "pornographyMilestone14Description": "Two weeks without pornography. The habit is losing its grip, and the situations that used to feed it are getting less power.",
   "@pornographyMilestone14Description": {
     "description": "Pornography milestone day 14 description"
   },
@@ -2417,7 +2417,7 @@
   "@pornographyMilestone30Title": {
     "description": "Pornography milestone day 30 title"
   },
-  "pornographyMilestone30Description": "Thirty days of working on control. Problematic use means distress and interference with life. Focus on how the change is helping you.",
+  "pornographyMilestone30Description": "A month without pornography. The old reflex is fading, and real-world connection is getting more of your attention.",
   "@pornographyMilestone30Description": {
     "description": "Pornography milestone day 30 description"
   },
@@ -2425,7 +2425,7 @@
   "@pornographyMilestone90Title": {
     "description": "Pornography milestone day 90 title"
   },
-  "pornographyMilestone90Description": "Three months. Treatments that build coping skills have shown lasting reductions in problematic use. Your own routines and supports matter too.",
+  "pornographyMilestone90Description": "Three months without pornography. The habit that used to run in the background is a lot quieter now.",
   "@pornographyMilestone90Description": {
     "description": "Pornography milestone day 90 description"
   },
@@ -2433,7 +2433,7 @@
   "@pornographyMilestone180Title": {
     "description": "Pornography milestone day 180 title"
   },
-  "pornographyMilestone180Description": "Six months. Research on therapy for compulsive sexual behaviour shows improvements can last. You've kept your own change going this long.",
+  "pornographyMilestone180Description": "Half a year without pornography. Your attention and your dopamine have had sustained time to reset.",
   "@pornographyMilestone180Description": {
     "description": "Pornography milestone day 180 description"
   },
@@ -2441,7 +2441,7 @@
   "@pornographyMilestone365Title": {
     "description": "Pornography milestone day 365 title"
   },
-  "pornographyMilestone365Description": "A full year of making this choice. You can recognise the progress in having more control and less interference with your life.",
+  "pornographyMilestone365Description": "A year without pornography, through the late nights and the boredom that used to feed it.",
   "@pornographyMilestone365Description": {
     "description": "Pornography milestone day 365 description"
   },
@@ -2449,7 +2449,7 @@
   "@pornographyMilestone730Title": {
     "description": "Pornography milestone day 730 title"
   },
-  "pornographyMilestone730Description": "Two years of keeping the pattern in check. If life feels more manageable, that's a meaningful result.",
+  "pornographyMilestone730Description": "Two years without pornography. The habit is gone, and the time it used to take is yours now.",
   "@pornographyMilestone730Description": {
     "description": "Pornography milestone day 730 description"
   },
@@ -2457,7 +2457,7 @@
   "@pornographyMilestone1095Title": {
     "description": "Pornography milestone day 1095 title"
   },
-  "pornographyMilestone1095Description": "Three years. You've handled different moods, stresses and routines without slipping back into the pattern you wanted to change.",
+  "pornographyMilestone1095Description": "Three years without pornography. Your attention has had a long stretch to point somewhere real.",
   "@pornographyMilestone1095Description": {
     "description": "Pornography milestone day 1095 description"
   },
@@ -2465,7 +2465,7 @@
   "@pornographyMilestone1460Title": {
     "description": "Pornography milestone day 1460 title"
   },
-  "pornographyMilestone1460Description": "Four years of working on the pattern you wanted to change. Judge your progress by how you're functioning and feeling.",
+  "pornographyMilestone1460Description": "Four years without pornography. The old pattern is well behind you, and the new one is the default.",
   "@pornographyMilestone1460Description": {
     "description": "Pornography milestone day 1460 description"
   },
@@ -2473,7 +2473,7 @@
   "@pornographyMilestone1825Title": {
     "description": "Pornography milestone day 1825 title"
   },
-  "pornographyMilestone1825Description": "Half a decade of greater control over a behaviour that used to cause problems. Five years is worth celebrating on your own terms.",
+  "pornographyMilestone1825Description": "Five years without pornography. Half a decade of your attention working for you instead of against you.",
   "@pornographyMilestone1825Description": {
     "description": "Pornography milestone day 1825 description"
   },
@@ -2481,7 +2481,7 @@
   "@customMilestone1Title": {
     "description": "Custom milestone day 1 title"
   },
-  "customMilestone1Description": "You made it through a full day without the habit you chose to change. That's where this starts. If you're stopping a substance, follow safe withdrawal advice.",
+  "customMilestone1Description": "A full day without the habit. If you're stopping a substance, follow safe withdrawal advice.",
   "@customMilestone1Description": {
     "description": "Custom milestone day 1 description"
   },
@@ -2489,7 +2489,7 @@
   "@customMilestone3Title": {
     "description": "Custom milestone day 3 title"
   },
-  "customMilestone3Description": "Three days without your old pattern. Some changes are hardest early; others take longer.",
+  "customMilestone3Description": "Some changes are hardest early; others take longer.",
   "@customMilestone3Description": {
     "description": "Custom milestone day 3 description"
   },
@@ -2497,7 +2497,7 @@
   "@customMilestone7Title": {
     "description": "Custom milestone day 7 title"
   },
-  "customMilestone7Description": "Seven days. You've seen a full week's worth of routines without the habit. That's useful experience to build on.",
+  "customMilestone7Description": "You've seen a full week's worth of routines without the habit. That's useful experience to build on.",
   "@customMilestone7Description": {
     "description": "Custom milestone day 7 description"
   },
@@ -2505,7 +2505,7 @@
   "@customMilestone14Title": {
     "description": "Custom milestone day 14 title"
   },
-  "customMilestone14Description": "Fourteen days. You're learning when the old urge turns up and what actually helps. Keep the useful bits.",
+  "customMilestone14Description": "Forty-eight hours a week, two of them gone from the habit. You're learning what a different rhythm feels like.",
   "@customMilestone14Description": {
     "description": "Custom milestone day 14 description"
   },
@@ -2513,7 +2513,7 @@
   "@customMilestone30Title": {
     "description": "Custom milestone day 30 title"
   },
-  "customMilestone30Description": "Thirty days of doing something differently. That's long enough to notice which routines help and which ones don't.",
+  "customMilestone30Description": "A month of building the new way of doing things.",
   "@customMilestone30Description": {
     "description": "Custom milestone day 30 description"
   },
@@ -2521,7 +2521,7 @@
   "@customMilestone90Title": {
     "description": "Custom milestone day 90 title"
   },
-  "customMilestone90Description": "Three months. The change has had a chance to meet real life, including the awkward days. You've kept going.",
+  "customMilestone90Description": "The change has met real life now, including the awkward days. You've kept going.",
   "@customMilestone90Description": {
     "description": "Custom milestone day 90 description"
   },
@@ -2529,7 +2529,7 @@
   "@customMilestone180Title": {
     "description": "Custom milestone day 180 title"
   },
-  "customMilestone180Description": "Six months. Whether the benefits are obvious or subtle, you've kept a decision going for half a year.",
+  "customMilestone180Description": "Whether the benefits are obvious or subtle, you've kept a decision going for half a year.",
   "@customMilestone180Description": {
     "description": "Custom milestone day 180 description"
   },
@@ -2537,7 +2537,7 @@
   "@customMilestone365Title": {
     "description": "Custom milestone day 365 title"
   },
-  "customMilestone365Description": "You've made room for a different habit through a full year of birthdays, seasons, workdays and days off.",
+  "customMilestone365Description": "A full year of birthdays, seasons, workdays and days off, spent with room for a different habit.",
   "@customMilestone365Description": {
     "description": "Custom milestone day 365 description"
   },
@@ -2545,21 +2545,21 @@
   "@customMilestone730Title": {
     "description": "Custom milestone day 730 title"
   },
-  "customMilestone730Description": "Two years. The routines and support that got you started have carried you through another year.",
+  "customMilestone730Description": "Two years of the habit out of the routine. Whatever it replaced it with is starting to stick.",
   "@customMilestone730Description": {
     "description": "Custom milestone day 730 description"
   },
   "customMilestone1095Title": "Three years, still going",
   "@customMilestone1095Title": {"description": "Title for the custom recovery milestone at 1095 days."},
-  "customMilestone1095Description": "Three years. The old habit has had fewer and fewer chances to run your day. You've built something that lasts.",
+  "customMilestone1095Description": "Three years in, the change has weathered enough real life to count as part of you.",
   "@customMilestone1095Description": {"description": "Description for the custom recovery milestone at 1095 days."},
   "customMilestone1460Title": "Four years",
   "@customMilestone1460Title": {"description": "Title for the custom recovery milestone at 1460 days."},
-  "customMilestone1460Description": "Four years of sustained work on the habit you chose to change. You can be proud of keeping it going.",
+  "customMilestone1460Description": "Four years of doing things differently, through whatever life brought.",
   "@customMilestone1460Description": {"description": "Description for the custom recovery milestone at 1460 days."},
   "customMilestone1825Title": "Five years",
   "@customMilestone1825Title": {"description": "Title for the custom recovery milestone at 1825 days."},
-  "customMilestone1825Description": "Half a decade of sticking with the change you chose. Whatever you were quitting, five years is a seriously big deal.",
+  "customMilestone1825Description": "Five years, and the habit you set out to change is a habit of the past.",
   "@customMilestone1825Description": {"description": "Description for the custom recovery milestone at 1825 days."},
   "customReferenceDay1095": "Three Years of Recovery: Deep Roots\n\nSource: NIDA, Drugs, Brains, and Behavior: The Science of Addiction\n\nNIDA describes substance use disorders as treatable and recovery as stopping drug use and resuming a productive life. It does not set a universal three-year biological recovery deadline across substances.\n\nThree years is a durable achievement in its own right. The routines, support, and choices that carried you here have had years to take root.",
   "@customReferenceDay1095": {"description": "Source for the custom recovery milestone at 1095 days."},
@@ -2583,31 +2583,31 @@
   "@ssriSubtitleNotStarted": {"description": "Subtitle shown before ssri tracking starts."},
   "ssriMilestone3Title": "Day three: take it easy",
   "@ssriMilestone3Title": {"description": "Title for the ssri recovery milestone at 3 days."},
-  "ssriMilestone3Description": "SSRI discontinuation can bring dizziness, nausea, insomnia and 'brain zaps'. Symptoms vary by medicine and taper. Contact your prescriber if they're difficult.",
+  "ssriMilestone3Description": "SSRI discontinuation can bring dizziness, nausea, insomnia, anxiety and 'brain zaps'. Symptoms vary by medicine and taper. Contact your prescriber if they're difficult.",
   "@ssriMilestone3Description": {"description": "Description for the ssri recovery milestone at 3 days."},
   "ssriMilestone7Title": "One week after stopping",
   "@ssriMilestone7Title": {"description": "Title for the ssri recovery milestone at 7 days."},
-  "ssriMilestone7Description": "Seven days. Some symptoms may be easing; others may only now be noticeable, especially with longer-acting medicines. You don't have to push through alone.",
+  "ssriMilestone7Description": "A week off an SSRI, through the part where 'brain zaps' and sleep disruption are worst. Push through with your prescriber in the loop.",
   "@ssriMilestone7Description": {"description": "Description for the ssri recovery milestone at 7 days."},
   "ssriMilestone14Title": "Two weeks, check in",
   "@ssriMilestone14Title": {"description": "Title for the ssri recovery milestone at 14 days."},
-  "ssriMilestone14Description": "Two weeks after stopping. Dizziness, sleep trouble or mood changes may be improving, but symptoms can last longer. Your care plan still matters.",
+  "ssriMilestone14Description": "Two weeks off an SSRI. The acute withdrawal is fading, though mood can take longer to settle after an antidepressant change.",
   "@ssriMilestone14Description": {"description": "Description for the ssri recovery milestone at 14 days."},
   "ssriMilestone30Title": "A month after the taper",
   "@ssriMilestone30Title": {"description": "Title for the ssri recovery milestone at 30 days."},
-  "ssriMilestone30Description": "A month since stopping your SSRI. Sleep and mood may be settling, or you may need more support. Neither says anything bad about your progress.",
+  "ssriMilestone30Description": "A month off an SSRI. Your serotonin has had time to find its own balance without the medication steering it.",
   "@ssriMilestone30Description": {"description": "Description for the ssri recovery milestone at 30 days."},
   "ssriMilestone90Title": "Three months: a checkpoint",
   "@ssriMilestone90Title": {"description": "Title for the ssri recovery milestone at 90 days."},
-  "ssriMilestone90Description": "In the ANTLER trial, the difference in withdrawal symptoms was largest around twelve weeks, then narrowed later. Three months is a good time to check how you're actually feeling.",
+  "ssriMilestone90Description": "In the ANTLER trial, withdrawal symptoms were most different from a real dose around twelve weeks, then narrowed. Three months is a good time to check in on how you're actually feeling.",
   "@ssriMilestone90Description": {"description": "Description for the ssri recovery milestone at 90 days."},
   "ssriMilestone180Title": "Six months, your own pace",
   "@ssriMilestone180Title": {"description": "Title for the ssri recovery milestone at 180 days."},
-  "ssriMilestone180Description": "Six months after stopping. One follow-up found around 65% of participants with available data remained well, but the result isn't a promise for everyone.",
+  "ssriMilestone180Description": "Half a year off an SSRI. Whatever prompted the change, you've held the line through it.",
   "@ssriMilestone180Description": {"description": "Description for the ssri recovery milestone at 180 days."},
   "ssriMilestone365Title": "One year after the taper",
   "@ssriMilestone365Title": {"description": "Title for the ssri recovery milestone at 365 days."},
-  "ssriMilestone365Description": "A full year. In research, many people stayed well after stopping, though relapse was more common than with maintenance treatment. If you're doing well, that's worth recognising.",
+  "ssriMilestone365Description": "A year off an SSRI. The first real year of your mood finding its own footing without the medication.",
   "@ssriMilestone365Description": {"description": "Description for the ssri recovery milestone at 365 days."},
   "settingsShowSsriTracking": "Show SSRI tracking",
   "@settingsShowSsriTracking": {"description": "Settings show ssri tracking."},
@@ -2633,49 +2633,49 @@
   "@snriMilestone3Description": {"description": "Description for the snri recovery milestone at 3 days."},
   "snriMilestone7Title": "One week into the change",
   "@snriMilestone7Title": {"description": "Title for the snri recovery milestone at 7 days."},
-  "snriMilestone7Description": "Seven days after stopping. Serotonin and noradrenaline pathways are adjusting, and symptoms may still be intense. Help is available; you needn't just endure it.",
+  "snriMilestone7Description": "A week off an SNRI, through the part where 'brain zaps' and sleep disruption are worst. Push through with your prescriber in the loop.",
   "@snriMilestone7Description": {"description": "Description for the snri recovery milestone at 7 days."},
   "snriMilestone14Title": "Two weeks, still adjusting",
   "@snriMilestone14Title": {"description": "Title for the snri recovery milestone at 14 days."},
-  "snriMilestone14Description": "Two weeks. Physical discontinuation symptoms may be easing, but the timeline differs from person to person. Keep your clinician in the loop.",
+  "snriMilestone14Description": "Two weeks off an SNRI. The acute withdrawal is fading, though mood can take longer to settle after an antidepressant change.",
   "@snriMilestone14Description": {"description": "Description for the snri recovery milestone at 14 days."},
   "snriMilestone30Title": "A month after SNRI taper",
   "@snriMilestone30Title": {"description": "Title for the snri recovery milestone at 30 days."},
-  "snriMilestone30Description": "Thirty days since stopping. Sleep, energy and mood might be more settled, or not yet.",
+  "snriMilestone30Description": "A month off an SNRI. Your serotonin and noradrenaline have had time to find their own balance.",
   "@snriMilestone30Description": {"description": "Description for the snri recovery milestone at 30 days."},
   "snriMilestone90Title": "Three months, worth checking",
   "@snriMilestone90Title": {"description": "Title for the snri recovery milestone at 90 days."},
-  "snriMilestone90Description": "Three months after stopping. Many acute symptoms ease within weeks, but longer withdrawal does happen. Check in about anything persistent or worsening.",
+  "snriMilestone90Description": "Three months off an SNRI. Your mood chemistry has had a full season to settle without the medication steering it.",
   "@snriMilestone90Description": {"description": "Description for the snri recovery milestone at 90 days."},
   "snriMilestone180Title": "Half a year on",
   "@snriMilestone180Title": {"description": "Title for the snri recovery milestone at 180 days."},
-  "snriMilestone180Description": "Six months after stopping. Your experience may be smoother now, or you may still need support. Recovery takes different amounts of time for different people.",
+  "snriMilestone180Description": "Half a year off an SNRI. Whatever prompted the change, you've held the line through it.",
   "@snriMilestone180Description": {"description": "Description for the snri recovery milestone at 180 days."},
   "snriMilestone365Title": "One year after stopping",
   "@snriMilestone365Title": {"description": "Title for the snri recovery milestone at 365 days."},
-  "snriMilestone365Description": "A full year since your SNRI taper. If you're well, that's significant. Keep treating your mental health as something worth looking after.",
+  "snriMilestone365Description": "A year off an SNRI. A full year of your serotonin and noradrenaline working without the drug steering them.",
   "@snriMilestone365Description": {"description": "Description for the snri recovery milestone at 365 days."},
   "snriMilestone730Title": "Two years",
   "@snriMilestone730Title": {"description": "Title for the snri recovery milestone at 730 days."},
-  "snriMilestone730Description": "Two years since stopping your SNRI. How you're feeling matters more than the date.",
+  "snriMilestone730Description": "Two years off an SNRI. Whatever you hoped the stop would bring, you've had time to check.",
   "@snriMilestone730Description": {"description": "Description for the snri recovery milestone at 730 days."},
   "snriReferenceDay730": "Two Years After SNRIs: A Progress Marker\n\nSource: Royal College of Psychiatrists — Stopping antidepressants\n\nThe Royal College advises that antidepressants should not usually be stopped suddenly. Tapering should be adapted to the individual, and higher-withdrawal-risk medicines such as duloxetine or venlafaxine may need slower reductions over months or longer.\n\nThe guidance does not define a two-year biological recovery threshold after stopping an SNRI. This anniversary celebrates sustained progress without claiming that a specific brain or body process completes today.",
   "@snriReferenceDay730": {"description": "Source for the snri recovery milestone at 730 days."},
   "snriMilestone1095Title": "Three years, steady",
   "@snriMilestone1095Title": {"description": "Title for the snri recovery milestone at 1095 days."},
-  "snriMilestone1095Description": "Three years. You've had a lot of time to find what supports your wellbeing.",
+  "snriMilestone1095Description": "Three years off an SNRI. Your brain's chemistry has run a long stretch on its own settings.",
   "@snriMilestone1095Description": {"description": "Description for the snri recovery milestone at 1095 days."},
   "snriReferenceDay1095": "Three Years After SNRIs: Progress That Lasts\n\nSource: Royal College of Psychiatrists — Stopping antidepressants\n\nWithdrawal experiences differ from person to person. Tapering speed should reflect the individual, treatment duration, prior withdrawal symptoms, and the medicine being taken.\n\nNo clinical guidance establishes three years as a universal SNRI recovery deadline. This milestone recognises the progress and stability maintained over three years.",
   "@snriReferenceDay1095": {"description": "Source for the snri recovery milestone at 1095 days."},
   "snriMilestone1460Title": "Four years of looking after you",
   "@snriMilestone1460Title": {"description": "Title for the snri recovery milestone at 1460 days."},
-  "snriMilestone1460Description": "Four years after the taper. Keep checking how you're doing and getting the care you need.",
+  "snriMilestone1460Description": "Four years off an SNRI. The off-switch you made has become the status quo.",
   "@snriMilestone1460Description": {"description": "Description for the snri recovery milestone at 1460 days."},
   "snriReferenceDay1460": "Four Years After SNRIs: Long-Term Progress\n\nSource: Royal College of Psychiatrists — Stopping antidepressants\n\nThe Royal College describes antidepressant withdrawal as variable and recommends gradual, individualised dose reductions. Duloxetine and venlafaxine are among medicines with a higher risk of withdrawal symptoms.\n\nThat evidence does not create a four-year neurological milestone. Today celebrates four years of sustained progress, not a claim that everyone follows the same biological timetable.",
   "@snriReferenceDay1460": {"description": "Source for the snri recovery milestone at 1460 days."},
   "snriMilestone1825Title": "Five years",
   "@snriMilestone1825Title": {"description": "Title for the snri recovery milestone at 1825 days."},
-  "snriMilestone1825Description": "Half a decade since stopping your SNRI. If that's worked well for you, it's a big personal milestone.",
+  "snriMilestone1825Description": "Five years off an SNRI. Half a decade of your mood on its own terms.",
   "@snriMilestone1825Description": {"description": "Description for the snri recovery milestone at 1825 days."},
   "snriReferenceDay1825": "Five Years After SNRIs: Five-Year Milestone\n\nSource: Royal College of Psychiatrists — Stopping antidepressants\n\nThe Royal College guidance focuses on safe, individualised tapering and responding to withdrawal symptoms rather than assigning one fixed recovery schedule to everyone.\n\nThere is no evidence-based five-year SNRI recovery threshold in that guidance. Five years is still a meaningful personal anniversary and a strong marker of long-term progress.",
   "@snriReferenceDay1825": {"description": "Source for the snri recovery milestone at 1825 days."},
@@ -2699,53 +2699,53 @@
   "@tcaSubtitleNotStarted": {"description": "Subtitle shown before tca tracking starts."},
   "tcaMilestone3Title": "Day three: go carefully",
   "@tcaMilestone3Title": {"description": "Title for the tca recovery milestone at 3 days."},
-  "tcaMilestone3Description": "Stopping a tricyclic antidepressant can bring nausea, insomnia, anxiety or dizziness, especially after a fast taper. Tell your prescriber if symptoms are difficult.",
+  "tcaMilestone3Description": "TCAs can cause nausea, insomnia, anxiety and dizziness when stopped, especially after a fast taper. Tell your prescriber if the symptoms are hard to manage.",
   "@tcaMilestone3Description": {"description": "Description for the tca recovery milestone at 3 days."},
   "tcaMilestone7Title": "One week after the taper",
   "@tcaMilestone7Title": {"description": "Title for the tca recovery milestone at 7 days."},
-  "tcaMilestone7Description": "Seven days. Withdrawal symptoms may still be active, and that's not unusual. Medical support can help you work through them.",
+  "tcaMilestone7Description": "A week off a TCA, through the part where nausea and sleep disruption are worst. Push through with your prescriber in the loop.",
   "@tcaMilestone7Description": {"description": "Description for the tca recovery milestone at 7 days."},
   "tcaMilestone14Title": "Two weeks, taking stock",
   "@tcaMilestone14Title": {"description": "Title for the tca recovery milestone at 14 days."},
-  "tcaMilestone14Description": "Two weeks after stopping. Early symptoms often ease around this period, though some persist much longer. Check how you're really doing.",
+  "tcaMilestone14Description": "Two weeks off a TCA. The acute withdrawal is fading, though mood can take longer to settle after an antidepressant change.",
   "@tcaMilestone14Description": {"description": "Description for the tca recovery milestone at 14 days."},
   "tcaMilestone30Title": "A month after stopping",
   "@tcaMilestone30Title": {"description": "Title for the tca recovery milestone at 30 days."},
-  "tcaMilestone30Description": "Thirty days since your TCA taper. Some people are past the acute symptoms; others need more time and care.",
+  "tcaMilestone30Description": "A month off a TCA. Your serotonin and noradrenaline have had time to find their own balance.",
   "@tcaMilestone30Description": {"description": "Description for the tca recovery milestone at 30 days."},
   "tcaMilestone90Title": "Three months on",
   "@tcaMilestone90Title": {"description": "Title for the tca recovery milestone at 90 days."},
-  "tcaMilestone90Description": "Three months. That's a substantial stretch after discontinuation, even if mood, sleep or other symptoms still need attention.",
+  "tcaMilestone90Description": "Three months off a TCA. Your mood chemistry has had a full season to settle without the medication steering it.",
   "@tcaMilestone90Description": {"description": "Description for the tca recovery milestone at 90 days."},
   "tcaMilestone180Title": "Six months, looking after you",
   "@tcaMilestone180Title": {"description": "Title for the tca recovery milestone at 180 days."},
-  "tcaMilestone180Description": "Half a year after stopping. Studies across antidepressants find many people remain well, but relapse is possible. Keep your support in place.",
+  "tcaMilestone180Description": "Half a year off a TCA. Whatever prompted the change, you've held the line through it.",
   "@tcaMilestone180Description": {"description": "Description for the tca recovery milestone at 180 days."},
   "tcaMilestone365Title": "A year since the taper",
   "@tcaMilestone365Title": {"description": "Title for the tca recovery milestone at 365 days."},
-  "tcaMilestone365Description": "A full year. Research across antidepressants shows some people stay well after stopping and others relapse. If you're doing well, take the win.",
+  "tcaMilestone365Description": "A year off a TCA. A whole year of your mood chemistry settling without the medication in the mix.",
   "@tcaMilestone365Description": {"description": "Description for the tca recovery milestone at 365 days."},
   "tcaMilestone730Title": "Two years",
   "@tcaMilestone730Title": {"description": "Title for the tca recovery milestone at 730 days."},
-  "tcaMilestone730Description": "Two years since stopping your TCA. How you're feeling matters more than the date.",
+  "tcaMilestone730Description": "Two years off a TCA. Long enough to know which of your moods are genuinely yours.",
   "@tcaMilestone730Description": {"description": "Description for the tca recovery milestone at 730 days."},
   "tcaReferenceDay730": "Two Years After TCAs: Sustained Progress\n\nSource: NICE NG222 — Depression in adults: treatment and management\n\nNICE states that withdrawal symptoms can occur with tricyclic antidepressants (TCAs), that experiences vary between people, and that dose reduction should be gradual and individually paced. Difficult withdrawal can last longer than the usual early window.\n\nNICE does not define a two-year biological recovery threshold after stopping a TCA. This anniversary celebrates two years of sustained progress without assigning a universal finish line to recovery.",
   "@tcaReferenceDay730": {"description": "Source for the tca recovery milestone at 730 days."},
   "tcaMilestone1095Title": "Three years, still going",
   "@tcaMilestone1095Title": {"description": "Title for the tca recovery milestone at 1095 days."},
-  "tcaMilestone1095Description": "Three years. Whatever support and treatment decisions have helped, they've got you this far.",
+  "tcaMilestone1095Description": "Three years off a TCA. The change has weathered enough real life to be permanent.",
   "@tcaMilestone1095Description": {"description": "Description for the tca recovery milestone at 1095 days."},
   "tcaReferenceDay1095": "Three Years After TCAs: Progress That Holds\n\nSource: NICE NG222 — Depression in adults: treatment and management\n\nNICE recommends that antidepressant withdrawal be tailored to the person, taking account of the medicine, treatment duration, symptoms, and response to each dose reduction. TCAs are explicitly among the antidepressants that can cause withdrawal symptoms.\n\nThe guideline does not identify three years as a universal TCA recovery deadline. This milestone recognises the stability, routines, and progress maintained across three years.",
   "@tcaReferenceDay1095": {"description": "Source for the tca recovery milestone at 1095 days."},
   "tcaMilestone1460Title": "Four years, your pace",
   "@tcaMilestone1460Title": {"description": "Title for the tca recovery milestone at 1460 days."},
-  "tcaMilestone1460Description": "Four years after the taper. Recovery takes different amounts of time for different people. Keep using the care that helps you stay well.",
+  "tcaMilestone1460Description": "Four years off a TCA. Whatever prompted it, the decision has stood.",
   "@tcaMilestone1460Description": {"description": "Description for the tca recovery milestone at 1460 days."},
   "tcaReferenceDay1460": "Four Years After TCAs: Long-Term Progress\n\nSource: NICE NG222 — Depression in adults: treatment and management\n\nNICE describes antidepressant withdrawal as variable rather than governed by one fixed timetable. It recommends gradual dose reductions and adjusting the pace to the individual's symptoms and circumstances.\n\nThere is no evidence-based four-year biological threshold in the guideline. Four years is still a meaningful marker of long-term progress and of the ground held over time.",
   "@tcaReferenceDay1460": {"description": "Source for the tca recovery milestone at 1460 days."},
   "tcaMilestone1825Title": "Five years",
   "@tcaMilestone1825Title": {"description": "Title for the tca recovery milestone at 1825 days."},
-  "tcaMilestone1825Description": "Half a decade since stopping your TCA. If this remains the right treatment decision for you, five years is a major anniversary.",
+  "tcaMilestone1825Description": "Five years off a TCA. A long, careful call, kept for half a decade.",
   "@tcaMilestone1825Description": {"description": "Description for the tca recovery milestone at 1825 days."},
   "tcaReferenceDay1825": "Five Years After TCAs: A Major Anniversary\n\nSource: NICE NG222 — Depression in adults: treatment and management\n\nNICE guidance focuses on safe, individualised withdrawal and monitoring rather than assigning one recovery schedule to everyone who stops an antidepressant. TCAs are among the medicines covered by that guidance.\n\nThe evidence does not create a five-year TCA recovery threshold. Five years remains a major personal anniversary and a strong marker of sustained change.",
   "@tcaReferenceDay1825": {"description": "Source for the tca recovery milestone at 1825 days."},
@@ -2773,27 +2773,27 @@
   "@maoiMilestone3Description": {"description": "Description for the maoi recovery milestone at 3 days."},
   "maoiMilestone7Title": "One week, still cautious",
   "@maoiMilestone7Title": {"description": "Title for the maoi recovery milestone at 7 days."},
-  "maoiMilestone7Description": "Seven days after stopping. MAO enzyme activity is recovering, but drug interactions and withdrawal risks may still matter. Stick with medical advice.",
+  "maoiMilestone7Description": "A week past the hardest part of stopping an MAOI, and the food rules still apply. Keep following your prescriber's guidance.",
   "@maoiMilestone7Description": {"description": "Description for the maoi recovery milestone at 7 days."},
   "maoiMilestone14Title": "Two weeks: check the plan",
   "@maoiMilestone14Title": {"description": "Title for the maoi recovery milestone at 14 days."},
-  "maoiMilestone14Description": "Around two weeks is an important point for many irreversible MAOIs, but interaction precautions depend on the drug. Only change food or medicine restrictions with your prescriber.",
+  "maoiMilestone14Description": "Two weeks off an MAOI. Mood can dip in the first few weeks after stopping, and that's something to watch with your prescriber.",
   "@maoiMilestone14Description": {"description": "Description for the maoi recovery milestone at 14 days."},
   "maoiMilestone30Title": "A month after stopping",
   "@maoiMilestone30Title": {"description": "Title for the maoi recovery milestone at 30 days."},
-  "maoiMilestone30Description": "Thirty days since stopping your MAOI. The early interaction window may have passed, but mood and withdrawal symptoms still deserve attention.",
+  "maoiMilestone30Description": "A month without an MAOI. Whatever your prescriber's plan was for this change, you're holding it together.",
   "@maoiMilestone30Description": {"description": "Description for the maoi recovery milestone at 30 days."},
   "maoiMilestone90Title": "Three months, check in",
   "@maoiMilestone90Title": {"description": "Title for the maoi recovery milestone at 90 days."},
-  "maoiMilestone90Description": "Three months since stopping. Check how you're sleeping, coping and feeling, and get support where you need it.",
+  "maoiMilestone90Description": "Three months without an MAOI. Your mood chemistry has had a full season to settle on its own.",
   "@maoiMilestone90Description": {"description": "Description for the maoi recovery milestone at 90 days."},
   "maoiMilestone180Title": "Half a year on",
   "@maoiMilestone180Title": {"description": "Title for the maoi recovery milestone at 180 days."},
-  "maoiMilestone180Description": "Six months after your MAOI taper. That's a substantial stretch of managing treatment and wellbeing. Keep using whatever support works.",
+  "maoiMilestone180Description": "Half a year off an MAOI, with the dietary rules a memory. Whatever the next step is, you've got the discipline for it.",
   "@maoiMilestone180Description": {"description": "Description for the maoi recovery milestone at 180 days."},
   "maoiMilestone365Title": "One year after the taper",
   "@maoiMilestone365Title": {"description": "Title for the maoi recovery milestone at 365 days."},
-  "maoiMilestone365Description": "A full year since stopping. If you're doing well, that's significant. Keep your mental-health care and follow-up on your own terms.",
+  "maoiMilestone365Description": "A year without an MAOI. A long, careful medical plan, followed through to the end.",
   "@maoiMilestone365Description": {"description": "Description for the maoi recovery milestone at 365 days."},
   "settingsShowMaoiTracking": "Show MAOI tracking",
   "@settingsShowMaoiTracking": {"description": "Settings show maoi tracking."},
@@ -3081,19 +3081,19 @@
   "@methReferenceDay730": {"description": "Source for the meth recovery milestone at 730 days."},
   "methMilestone1095Title": "Three years, still clear",
   "@methMilestone1095Title": {"description": "Title for the meth recovery milestone at 1095 days."},
-  "methMilestone1095Description": "Three years without meth. You've kept this change going through everyday life.",
+  "methMilestone1095Description": "Three years meth-free. A long, steady break from the damage meth does to the brain.",
   "@methMilestone1095Description": {"description": "Description for the meth recovery milestone at 1095 days."},
   "methReferenceDay1095": "Three Years - Recovery Endures\n\nSource: Cao et al., \"Magnitude and Abstinence Trajectories of Neurocognitive Deficits in Methamphetamine Use Disorder: A Systematic Review and Meta-analysis,\" Journal of Addiction Medicine (2026), PubMed\n\nA 2026 systematic review and meta-analysis synthesized 68 independent studies involving 9,045 participants. Its abstinence-trajectory analyses used windows only up to 280 days, and certainty across domains was rated very low. That evidence cannot establish a biological recovery deadline at this anniversary.\n\nThree years without meth is sustained change measured in years, not weeks. The achievement is the durability itself: recovery routines and supports have had another full year to take root.",
   "@methReferenceDay1095": {"description": "Source for the meth recovery milestone at 1095 days."},
   "methMilestone1460Title": "Four years without meth",
   "@methMilestone1460Title": {"description": "Title for the meth recovery milestone at 1460 days."},
-  "methMilestone1460Description": "Four years without meth. Recovery varies, and you've given yourself four years without renewed exposure.",
+  "methMilestone1460Description": "Four years without meth. The old pattern is gone, and the person you are now runs without it.",
   "@methMilestone1460Description": {"description": "Description for the meth recovery milestone at 1460 days."},
   "methReferenceDay1460": "Four Years - Deep Foundations\n\nSource: Cao et al., \"Magnitude and Abstinence Trajectories of Neurocognitive Deficits in Methamphetamine Use Disorder: A Systematic Review and Meta-analysis,\" Journal of Addiction Medicine (2026), PubMed\n\nA 2026 systematic review and meta-analysis synthesized 68 independent studies involving 9,045 participants. Its abstinence-trajectory analyses used windows only up to 280 days, and certainty across domains was rated very low. That evidence cannot establish a biological recovery deadline at this anniversary.\n\nFour years is a durable stretch of change. Research does not define a four-year brain-recovery finish line, so this milestone celebrates another full year of protecting what you have built.",
   "@methReferenceDay1460": {"description": "Source for the meth recovery milestone at 1460 days."},
   "methMilestone1825Title": "Five years",
   "@methMilestone1825Title": {"description": "Title for the meth recovery milestone at 1825 days."},
-  "methMilestone1825Description": "You've stayed free of meth through five years of mornings, weekends, difficult days and ordinary life.",
+  "methMilestone1825Description": "Five years without meth. Half a decade of your brain repairing itself, and of you staying the course.",
   "@methMilestone1825Description": {"description": "Description for the meth recovery milestone at 1825 days."},
   "methReferenceDay1825": "Five Years - Lasting Change\n\nSource: Cao et al., \"Magnitude and Abstinence Trajectories of Neurocognitive Deficits in Methamphetamine Use Disorder: A Systematic Review and Meta-analysis,\" Journal of Addiction Medicine (2026), PubMed\n\nA 2026 systematic review and meta-analysis synthesized 68 independent studies involving 9,045 participants. Its abstinence-trajectory analyses used windows only up to 280 days, and certainty across domains was rated very low. That evidence cannot establish a biological recovery deadline at this anniversary.\n\nFive years without meth is a major long-term milestone. Science cannot promise a five-year biological endpoint; what is certain is five years of sustained change worth celebrating.",
   "@methReferenceDay1825": {"description": "Source for the meth recovery milestone at 1825 days."},
@@ -3319,19 +3319,19 @@
   },
   "vapingMilestone730Title": "Two years vape-free",
   "@vapingMilestone730Title": {"description": "Title for the vaping recovery milestone at 730 days."},
-  "vapingMilestone730Description": "Two years without a vape. You've gone 730 days without reinforcing that nicotine habit.",
+  "vapingMilestone730Description": "Two years vape-free. The reflex reach for the device has faded, and your lungs have had sustained time away from the aerosol.",
   "@vapingMilestone730Description": {"description": "Description for the vaping recovery milestone at 730 days."},
   "vapingMilestone1095Title": "Three years",
   "@vapingMilestone1095Title": {"description": "Title for the vaping recovery milestone at 1095 days."},
-  "vapingMilestone1095Description": "Three years vape-free. The long-term health picture is still being studied, but three years without going back speaks for itself.",
+  "vapingMilestone1095Description": "Three years vape-free. Your lungs and your heart have had years away from the aerosol, and the habit is well gone.",
   "@vapingMilestone1095Description": {"description": "Description for the vaping recovery milestone at 1095 days."},
   "vapingMilestone1460Title": "Four years, still clear",
   "@vapingMilestone1460Title": {"description": "Title for the vaping recovery milestone at 1460 days."},
-  "vapingMilestone1460Description": "Four years without vaping. The habit hasn't had a place in your day for a long time. Nice work keeping it that way.",
+  "vapingMilestone1460Description": "Four years vape-free. The old pattern is a closed chapter, and your body's had years to repair.",
   "@vapingMilestone1460Description": {"description": "Description for the vaping recovery milestone at 1460 days."},
   "vapingMilestone1825Title": "Five years",
   "@vapingMilestone1825Title": {"description": "Title for the vaping recovery milestone at 1825 days."},
-  "vapingMilestone1825Description": "Half a decade vape-free. You've kept vaping out of your life for five years.",
+  "vapingMilestone1825Description": "Five years vape-free. Half a decade of your lungs working without the aerosol, and of you staying the course.",
   "@vapingMilestone1825Description": {"description": "Description for the vaping recovery milestone at 1825 days."},
   "vapingLongTermReference": "Vaping, Quitting, and Long-Term Evidence\n\nSource: CDC — Vaping and Quitting; CDC — Health Effects of Vaping\n\nCDC says people who vape can become addicted to nicotine, quitting may cause nicotine-withdrawal symptoms, and scientists are still studying the best ways to help people quit vaping. CDC also says the long-term health effects of e-cigarettes are still being studied.\n\nThese sources do not define 2-, 3-, 4-, or 5-year biological recovery thresholds after quitting vaping. Quitter therefore treats these dates as anniversaries of sustained vape-free progress, not medical endpoints.",
   "@vapingLongTermReference": {"description": "Vaping long term reference."},
@@ -3345,87 +3345,87 @@
   },
   "adderallMilestone730Title": "Two years without misuse",
   "@adderallMilestone730Title": {"description": "Title for the adderall recovery milestone at 730 days."},
-  "adderallMilestone730Description": "Two years. You've kept Adderall misuse out of the picture while life carried on.",
+  "adderallMilestone730Description": "You've kept Adderall misuse out of the picture while life carried on.",
   "@adderallMilestone730Description": {"description": "Description for the adderall recovery milestone at 730 days."},
   "adderallReferenceDay730": "Two Years Off Adderall: Durable Progress\n\nSource: SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSA’s guide covers amphetamine-type stimulants, including prescription stimulant misuse, and supports evidence-based care for recovery. It does not define a two-year biological reset.\n\nTwo years is still a major achievement. You have maintained change over a long stretch; celebrate the stability you’ve built and keep using what works.",
   "@adderallReferenceDay730": {"description": "Source for the adderall recovery milestone at 730 days."},
   "adderallMilestone1095Title": "Three years of progress",
   "@adderallMilestone1095Title": {"description": "Title for the adderall recovery milestone at 1095 days."},
-  "adderallMilestone1095Description": "Three years. The habits and support you've built have been tested by plenty of real life.",
+  "adderallMilestone1095Description": "The habits and support you've built have been tested by plenty of real life.",
   "@adderallMilestone1095Description": {"description": "Description for the adderall recovery milestone at 1095 days."},
   "adderallReferenceDay1095": "Three Years Off Adderall: Recovery With Momentum\n\nSource: SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSA supports evidence-based treatment and long-term recovery from stimulant use disorders, including problems involving prescription stimulants. The guide does not claim that a particular brain change finishes at three years.\n\nThree years reflects durable change carried through ordinary days as well as difficult ones. Keep the routines, relationships, and support that helped you reach this point.",
   "@adderallReferenceDay1095": {"description": "Source for the adderall recovery milestone at 1095 days."},
   "adderallMilestone1460Title": "Four years, still clear",
   "@adderallMilestone1460Title": {"description": "Title for the adderall recovery milestone at 1460 days."},
-  "adderallMilestone1460Description": "Four years without misuse. You've kept making this choice through changes in motivation and everyday life.",
+  "adderallMilestone1460Description": "You've kept making this choice through changes in motivation and everyday life.",
   "@adderallMilestone1460Description": {"description": "Description for the adderall recovery milestone at 1460 days."},
   "adderallReferenceDay1460": "Four Years Off Adderall: Long-Term Change in Practice\n\nSource: SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSA’s guide focuses on treatments and supports that help people achieve long-term recovery. It does not define a four-year medical finish line, so this milestone is about sustained progress rather than an invented health promise.\n\nFour years shows consistency on a genuinely long timescale. Protect the structures and people that keep your progress steady.",
   "@adderallReferenceDay1460": {"description": "Source for the adderall recovery milestone at 1460 days."},
   "adderallMilestone1825Title": "Five years",
   "@adderallMilestone1825Title": {"description": "Title for the adderall recovery milestone at 1825 days."},
-  "adderallMilestone1825Description": "Half a decade without misusing Adderall. Five years of protecting the life you've built.",
+  "adderallMilestone1825Description": "That's five years of protecting the life you've built.",
   "@adderallMilestone1825Description": {"description": "Description for the adderall recovery milestone at 1825 days."},
   "adderallReferenceDay1825": "Five Years Off Adderall: Half a Decade of Progress\n\nSource: SAMHSA, Treatment of Stimulant Use Disorders\n\nSAMHSA recognizes long-term recovery as an important goal of stimulant-use-disorder care. Its evidence guide does not promise a special biological event at five years, and this milestone does not need one to matter.\n\nFive years is 1,825 days of maintaining a different direction. That is a substantial body of lived evidence that your change can endure. Celebrate it, then keep doing the things that made it possible.",
   "@adderallReferenceDay1825": {"description": "Source for the adderall recovery milestone at 1825 days."},
   "alcoholMilestone730Title": "Two years",
   "@alcoholMilestone730Title": {"description": "Title for the alcohol recovery milestone at 730 days."},
-  "alcoholMilestone730Description": "Two full years without alcohol. Holidays, stress and ordinary Tuesdays, handled without a drink. Better sleep and blood pressure may be among the gains.",
+  "alcoholMilestone730Description": "Holidays, stress and ordinary Tuesdays, all handled without a drink. Better sleep and blood pressure may be among the gains.",
   "@alcoholMilestone730Description": {"description": "Description for the alcohol recovery milestone at 730 days."},
   "alcoholReferenceDay730": "Sustained Change\n\nTwo years alcohol-free represents sustained behavioural change. The benefits extend beyond removing alcohol itself: daily routines, relationships, physical health and psychological well-being are all important parts of long-term recovery.",
   "@alcoholReferenceDay730": {"description": "Source for the alcohol recovery milestone at 730 days."},
   "alcoholMilestone1095Title": "Three years, still clear",
   "@alcoholMilestone1095Title": {"description": "Title for the alcohol recovery milestone at 1095 days."},
-  "alcoholMilestone1095Description": "Three years alcohol-free. That's a long time to build a life without drinking. Risks for some alcohol-related cancers also keep falling after quitting.",
+  "alcoholMilestone1095Description": "That's a long time to build a life without drinking. Risks for some alcohol-related cancers also keep falling after quitting.",
   "@alcoholMilestone1095Description": {"description": "Description for the alcohol recovery milestone at 1095 days."},
   "alcoholReferenceDay1095": "A Different Normal\n\nThree years of abstinence demonstrates consistency across a substantial period of life. Alcohol is no longer part of your daily routine, and the habits supporting that change have been reinforced over thousands of decisions.",
   "@alcoholReferenceDay1095": {"description": "Source for the alcohol recovery milestone at 1095 days."},
   "alcoholMilestone1460Title": "Four years",
   "@alcoholMilestone1460Title": {"description": "Title for the alcohol recovery milestone at 1460 days."},
-  "alcoholMilestone1460Description": "Four years without a drink. Whatever the world threw your way, you've kept alcohol out of it. The health benefits of staying off it keep adding up.",
+  "alcoholMilestone1460Description": "Whatever the world threw your way, you've kept alcohol out of it. The health benefits of staying off keep adding up.",
   "@alcoholMilestone1460Description": {"description": "Description for the alcohol recovery milestone at 1460 days."},
   "alcoholReferenceDay1460": "Long-Term Progress\n\nFour years without alcohol represents a major period without repeated alcohol-related exposure. Long-term recovery is built through consistent behaviour, supported by healthier routines and meaningful improvements in everyday life.",
   "@alcoholReferenceDay1460": {"description": "Source for the alcohol recovery milestone at 1460 days."},
   "alcoholMilestone1825Title": "Five years",
   "@alcoholMilestone1825Title": {"description": "Title for the alcohol recovery milestone at 1825 days."},
-  "alcoholMilestone1825Description": "Five years without alcohol, through birthdays, bad days and everything between. The long-term health benefits keep adding up.",
+  "alcoholMilestone1825Description": "Birthdays, bad days and everything between, all handled without a drink. The long-term health benefits keep adding up.",
   "@alcoholMilestone1825Description": {"description": "Description for the alcohol recovery milestone at 1825 days."},
   "alcoholReferenceDay1825": "Five Years of Freedom\n\nHalf a decade without drinking is a significant achievement in its own right. Five years of sustained abstinence means five years without alcohol continuing to damage your health. It is a milestone worth recognising and celebrating.",
   "@alcoholReferenceDay1825": {"description": "Source for the alcohol recovery milestone at 1825 days."},
   "ghbMilestone730Title": "Two years",
   "@ghbMilestone730Title": {"description": "Title for the ghb recovery milestone at 730 days."},
-  "ghbMilestone730Description": "Two years without GHB. You've kept the change through more than just the difficult early days.",
+  "ghbMilestone730Description": "Two years without GHB. The routines that used to revolve around it have been replaced, and you know the early warnings now.",
   "@ghbMilestone730Description": {"description": "Description for the ghb recovery milestone at 730 days."},
   "ghbReferenceDay730": "Two Years Without GHB: Durable Progress\n\nSource: SAMHSA, Recovery and Recovery Support\n\nSAMHSA describes recovery as an ongoing, individual process of change. It does not set a GHB-specific biological endpoint at any of these anniversaries.\n\nTwo years is 730 days of maintaining a different direction. Celebrate the durability and keep the people, routines, and support that make it sustainable.",
   "@ghbReferenceDay730": {"description": "Source for the ghb recovery milestone at 730 days."},
   "ghbMilestone1095Title": "Three years clear",
   "@ghbMilestone1095Title": {"description": "Title for the ghb recovery milestone at 1095 days."},
-  "ghbMilestone1095Description": "Three years without GHB. Keeping this change going for that long is worth celebrating.",
+  "ghbMilestone1095Description": "Three years of GHB recovery. People and habits that fit the new life have had time to settle in.",
   "@ghbMilestone1095Description": {"description": "Description for the ghb recovery milestone at 1095 days."},
   "ghbReferenceDay1095": "Three Years Without GHB: Stronger Ground\n\nSource: SAMHSA, Recovery and Recovery Support\n\nSAMHSA describes recovery as an ongoing, individual process of change. It does not set a GHB-specific biological endpoint at any of these anniversaries.\n\nThree years is 1,095 days of maintained change. That is a substantial record of stability and of protecting what helps recovery continue.",
   "@ghbReferenceDay1095": {"description": "Source for the ghb recovery milestone at 1095 days."},
   "ghbMilestone1460Title": "Four years of follow-through",
   "@ghbMilestone1460Title": {"description": "Title for the ghb recovery milestone at 1460 days."},
-  "ghbMilestone1460Description": "Four years without GHB. The routines and support behind that choice have carried you a long way.",
+  "ghbMilestone1460Description": "Four years, and GHB is a closed chapter rather than a recurring one.",
   "@ghbMilestone1460Description": {"description": "Description for the ghb recovery milestone at 1460 days."},
   "ghbReferenceDay1460": "Four Years Without GHB: Lasting Change\n\nSource: SAMHSA, Recovery and Recovery Support\n\nSAMHSA describes recovery as an ongoing, individual process of change. It does not set a GHB-specific biological endpoint at any of these anniversaries.\n\nFour years is 1,460 days of carrying change through ordinary life. The durability itself deserves recognition, along with the support and habits behind it.",
   "@ghbReferenceDay1460": {"description": "Source for the ghb recovery milestone at 1460 days."},
   "ghbMilestone1825Title": "Five years without GHB",
   "@ghbMilestone1825Title": {"description": "Title for the ghb recovery milestone at 1825 days."},
-  "ghbMilestone1825Description": "Half a decade. Five years of sticking with the change, with all the normal messiness of life along the way. That's huge.",
+  "ghbMilestone1825Description": "Five years without GHB. That's a long time to prove the recovery sticks.",
   "@ghbMilestone1825Description": {"description": "Description for the ghb recovery milestone at 1825 days."},
   "ghbReferenceDay1825": "Five Years Without GHB: Half a Decade\n\nSource: SAMHSA, Recovery and Recovery Support\n\nSAMHSA describes recovery as an ongoing, individual process of change. It does not set a GHB-specific biological endpoint at any of these anniversaries.\n\nFive years is 1,825 days of maintained change: half a decade of repeatedly choosing a different direction. That scale of commitment deserves real credit.",
   "@ghbReferenceDay1825": {"description": "Source for the ghb recovery milestone at 1825 days."},
   "inhalantsMilestone1095Title": "Three years clear",
   "@inhalantsMilestone1095Title": {"description": "Title for the inhalants recovery milestone at 1095 days."},
-  "inhalantsMilestone1095Description": "Three years without inhalants. You've avoided renewed exposure throughout that time.",
+  "inhalantsMilestone1095Description": "Three years sober. Inhalant use is a hard habit to break, and you've broken it for good and proper.",
   "@inhalantsMilestone1095Description": {"description": "Description for the inhalants recovery milestone at 1095 days."},
   "inhalantsMilestone1460Title": "Four years of staying clear",
   "@inhalantsMilestone1460Title": {"description": "Title for the inhalants recovery milestone at 1460 days."},
-  "inhalantsMilestone1460Description": "Four years away from inhalants. You've stuck with the change through a lot of ordinary life.",
+  "inhalantsMilestone1460Description": "Four years without inhalants. The routines that built that recovery have had plenty of time to take root.",
   "@inhalantsMilestone1460Description": {"description": "Description for the inhalants recovery milestone at 1460 days."},
   "inhalantsMilestone1825Title": "Five years",
   "@inhalantsMilestone1825Title": {"description": "Title for the inhalants recovery milestone at 1825 days."},
-  "inhalantsMilestone1825Description": "Half a decade without inhalants. Recovery can be complicated, but five years without renewed exposure is a major achievement.",
+  "inhalantsMilestone1825Description": "Five years without inhalants. That's half a decade of protecting your heart, brain and lungs.",
   "@inhalantsMilestone1825Description": {"description": "Description for the inhalants recovery milestone at 1825 days."},
   "inhalantsReferenceDay1095": "Three Years Off Inhalants\n\nSource: Cairney et al., \"A prospective study of neurocognitive changes 15 years after chronic inhalant abuse,\" Addiction (2013), on PubMed\n\nBeyond Two Years\nThe study found substantial recovery after two years of abstinence in participants without lead encephalopathy and followed the same cohort to 15 years. It did not identify a special three-year biological threshold.\n\nThree Years of Progress\nThree years marks sustained abstinence. Long-term recovery can continue, while outcomes depend on prior exposure and injury; lead encephalopathy may leave persistent deficits.",
   "@inhalantsReferenceDay1095": {"description": "Source for the inhalants recovery milestone at 1095 days."},
@@ -3436,19 +3436,19 @@
 ,
   "maoiMilestone730Title": "Two years",
   "@maoiMilestone730Title": {"description": "Title for the maoi recovery milestone at 730 days."},
-  "maoiMilestone730Description": "Two years after your MAOI taper. You've spent that time managing your wellbeing.",
+  "maoiMilestone730Description": "Two years without an MAOI. The change was the cautious kind, and you've kept it.",
   "@maoiMilestone730Description": {"description": "Description for the maoi recovery milestone at 730 days."},
   "maoiMilestone1095Title": "Three years, steady",
   "@maoiMilestone1095Title": {"description": "Title for the maoi recovery milestone at 1095 days."},
-  "maoiMilestone1095Description": "Three years. You've had another full year to learn what keeps you well.",
+  "maoiMilestone1095Description": "Three years off an MAOI. The careful exit you planned has become just how things are now.",
   "@maoiMilestone1095Description": {"description": "Description for the maoi recovery milestone at 1095 days."},
   "maoiMilestone1460Title": "Four years, still you",
   "@maoiMilestone1460Title": {"description": "Title for the maoi recovery milestone at 1460 days."},
-  "maoiMilestone1460Description": "Four years after stopping. Recovery isn't one fixed schedule, and continued treatment is never a failure. Recognise your own progress.",
+  "maoiMilestone1460Description": "Four years without an MAOI. Whatever prompted the change, it's stayed changed.",
   "@maoiMilestone1460Description": {"description": "Description for the maoi recovery milestone at 1460 days."},
   "maoiMilestone1825Title": "Five years",
   "@maoiMilestone1825Title": {"description": "Title for the maoi recovery milestone at 1825 days."},
-  "maoiMilestone1825Description": "Half a decade since stopping your MAOI. If this has been the right path for you, it's a big anniversary.",
+  "maoiMilestone1825Description": "Five years off an MAOI. A long, careful decision, kept for a very long time.",
   "@maoiMilestone1825Description": {"description": "Description for the maoi recovery milestone at 1825 days."},
   "maoiReferenceDay730": "Two Years After MAOIs\n\nSource: Gahr et al. (2013), systematic review of tranylcypromine withdrawal and discontinuation.\n\nThe review documents potentially severe syndromes after abrupt tranylcypromine cessation, but it does not establish a special biological recovery threshold at two years. This anniversary therefore marks sustained change, support, and routines rather than a medical finish line.",
   "@maoiReferenceDay730": {"description": "Source for the maoi recovery milestone at 730 days."},
@@ -3460,139 +3460,139 @@
   "@maoiReferenceDay1825": {"description": "Source for the maoi recovery milestone at 1825 days."},
   "marijuanaMilestone730Title": "Two years",
   "@marijuanaMilestone730Title": {"description": "Title for the marijuana recovery milestone at 730 days."},
-  "marijuanaMilestone730Description": "Two years without cannabis. Recovery isn't one-size-fits-all. Keeping this going for two years is worth celebrating all by itself.",
+  "marijuanaMilestone730Description": "Two years without cannabis. The habit is gone, and the routines that replaced it have had time to stick.",
   "@marijuanaMilestone730Description": {"description": "Description for the marijuana recovery milestone at 730 days."},
   "marijuanaReferenceDay730": "Two Years Without Cannabis\n\nSource: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nSAMHSA says cannabis use disorder varies by person and life stage and calls for tailored, evidence-based care. It does not define a universal biological recovery threshold at two years.\n\nTwo years therefore marks sustained change, routines, and support, not a medical finish line.",
   "@marijuanaReferenceDay730": {"description": "Source for the marijuana recovery milestone at 730 days."},
   "marijuanaMilestone1095Title": "Three years, still clear",
   "@marijuanaMilestone1095Title": {"description": "Title for the marijuana recovery milestone at 1095 days."},
-  "marijuanaMilestone1095Description": "Three years. The habits and people that support your recovery have had a lot of time to become part of normal life.",
+  "marijuanaMilestone1095Description": "Three years cannabis-free. Your memory and mood have had a long stretch away from THC's daily pull.",
   "@marijuanaMilestone1095Description": {"description": "Description for the marijuana recovery milestone at 1095 days."},
   "marijuanaReferenceDay1095": "Three Years Without Cannabis\n\nSource: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nThe advisory emphasizes that cannabis-related risks, symptoms, and treatment needs differ across people and stages of life. It does not identify a universal three-year biological endpoint.\n\nThree years celebrates durable choices and the support that helped those choices keep holding.",
   "@marijuanaReferenceDay1095": {"description": "Source for the marijuana recovery milestone at 1095 days."},
   "marijuanaMilestone1460Title": "Four years",
   "@marijuanaMilestone1460Title": {"description": "Title for the marijuana recovery milestone at 1460 days."},
-  "marijuanaMilestone1460Description": "Four years without cannabis. Life changes, stress happens, and you've kept this part steady.",
+  "marijuanaMilestone1460Description": "Four years without cannabis. The old pattern isn't a close call anymore; it's just over.",
   "@marijuanaMilestone1460Description": {"description": "Description for the marijuana recovery milestone at 1460 days."},
   "marijuanaReferenceDay1460": "Four Years Without Cannabis\n\nSource: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nSAMHSA recommends individualized, evidence-based care because cannabis use disorder does not follow one identical course. The advisory does not set a universal four-year recovery threshold.\n\nFour years reflects continuity through changing routines, stresses, and seasons. That consistency is the milestone.",
   "@marijuanaReferenceDay1460": {"description": "Source for the marijuana recovery milestone at 1460 days."},
   "marijuanaMilestone1825Title": "Five years without cannabis",
   "@marijuanaMilestone1825Title": {"description": "Title for the marijuana recovery milestone at 1825 days."},
-  "marijuanaMilestone1825Description": "Half a decade without cannabis. You've spent five years living without the old habit.",
+  "marijuanaMilestone1825Description": "Five years without cannabis. Half a decade of your brain working without THC in the loop.",
   "@marijuanaMilestone1825Description": {"description": "Description for the marijuana recovery milestone at 1825 days."},
   "marijuanaReferenceDay1825": "Five Years Without Cannabis\n\nSource: SAMHSA (2026), Addressing Cannabis Use Disorder in Primary Care Settings—A Lifespan Approach.\n\nThe SAMHSA advisory supports tailored care across the lifespan and does not define a five-year cure date or universal biological finish line for cannabis use disorder.\n\nFive years is a major long-term achievement: sustained direction, practiced routines, and support carried across half a decade.",
   "@marijuanaReferenceDay1825": {"description": "Source for the marijuana recovery milestone at 1825 days."},
   "mdmaMilestone730Title": "Two years",
   "@mdmaMilestone730Title": {"description": "Title for the mdma recovery milestone at 730 days."},
-  "mdmaMilestone730Description": "Two years without MDMA. Keeping this change going is worth celebrating.",
+  "mdmaMilestone730Description": "Two years without MDMA. The ritual of it is gone, and the mood that came after is gone with it.",
   "@mdmaMilestone730Description": {"description": "Description for the mdma recovery milestone at 730 days."},
   "mdmaReferenceDay730": "Two Years Off MDMA\n\nSource: Ung et al. (2026), systematic review and meta-analysis of long-term neurocognitive outcomes after sustained MDMA abstinence.\n\nThe review included studies with at least six months of abstinence, judged the evidence low quality, and did not find that longer abstinence reliably predicted better learning and memory outcomes. It does not establish two years as a universal biological recovery point.\n\nTwo years is still a substantial marker of sustained change, built through repeated choices rather than a medical finish line.",
   "@mdmaReferenceDay730": {"description": "Source for the mdma recovery milestone at 730 days."},
   "mdmaMilestone1095Title": "Three years, no comeback",
   "@mdmaMilestone1095Title": {"description": "Title for the mdma recovery milestone at 1095 days."},
-  "mdmaMilestone1095Description": "Three years away from MDMA. The habits and choices behind that have held for another whole year.",
+  "mdmaMilestone1095Description": "Three years MDMA-free. That's a long time to keep your heart and mood on a stable footing.",
   "@mdmaMilestone1095Description": {"description": "Description for the mdma recovery milestone at 1095 days."},
   "mdmaReferenceDay1095": "Three Years Off MDMA\n\nSource: Ung et al. (2026), systematic review and meta-analysis of long-term neurocognitive outcomes after sustained MDMA abstinence.\n\nAvailable studies do not define a three-year point when cognitive effects universally resolve. The review found no reliable relationship between longer abstinence and greater learning or memory recovery, and rated the evidence low quality.\n\nThree years therefore celebrates durable momentum and consistency without claiming an unsupported biological deadline.",
   "@mdmaReferenceDay1095": {"description": "Source for the mdma recovery milestone at 1095 days."},
   "mdmaMilestone1460Title": "Four years of follow-through",
   "@mdmaMilestone1460Title": {"description": "Title for the mdma recovery milestone at 1460 days."},
-  "mdmaMilestone1460Description": "Four years. Whatever else changed in your life, you kept this part steady.",
+  "mdmaMilestone1460Description": "Four years without MDMA. The old habit and its aftermath are well behind you now.",
   "@mdmaMilestone1460Description": {"description": "Description for the mdma recovery milestone at 1460 days."},
   "mdmaReferenceDay1460": "Four Years Off MDMA\n\nSource: Ung et al. (2026), systematic review and meta-analysis of long-term neurocognitive outcomes after sustained MDMA abstinence.\n\nResearch after sustained abstinence remains limited and does not establish four years as a universal recovery threshold. Some measured differences may persist, while the review cautions that the underlying evidence is low quality.\n\nFour years marks deeply established change across changing routines, stresses, and seasons. That continuity is the achievement.",
   "@mdmaReferenceDay1460": {"description": "Source for the mdma recovery milestone at 1460 days."},
   "mdmaMilestone1825Title": "Five years without MDMA",
   "@mdmaMilestone1825Title": {"description": "Title for the mdma recovery milestone at 1825 days."},
-  "mdmaMilestone1825Description": "Half a decade without MDMA. You've kept this change going for five years.",
+  "mdmaMilestone1825Description": "Five years without MDMA. Half a decade of your chemistry working without repeated strain.",
   "@mdmaMilestone1825Description": {"description": "Description for the mdma recovery milestone at 1825 days."},
   "mdmaReferenceDay1825": "Five Years Off MDMA\n\nSource: Ung et al. (2026), systematic review and meta-analysis of long-term neurocognitive outcomes after sustained MDMA abstinence.\n\nThe current evidence does not support treating five years as a cure date or universal neurocognitive finish line. The review found limited, low-quality evidence and no dependable pattern of greater learning or memory recovery with longer abstinence.\n\nFive years remains a major long-term milestone: half a decade of maintained direction deserves recognition on its own terms.",
   "@mdmaReferenceDay1825": {"description": "Source for the mdma recovery milestone at 1825 days."},
   "nitrousOxideMilestone730Title": "Two years, no return",
   "@nitrousOxideMilestone730Title": {"description": "Title for the nitrous oxide recovery milestone at 730 days."},
-  "nitrousOxideMilestone730Description": "Two years without nitrous. There's no fixed nerve-repair timetable, and some symptoms persist. You've kept further exposure out of the picture.",
+  "nitrousOxideMilestone730Description": "Two years without nitrous. The reflex, the settings and the risk are all gone from your life now.",
   "@nitrousOxideMilestone730Description": {"description": "Description for the nitrous oxide recovery milestone at 730 days."},
   "nitrousOxideReferenceDay730": "Two Years - Progress Holds\n\nSource: Marsden, Sharma & Rotella (2022), systematic review of chronic nitrous oxide misuse.\n\nThe review found neurological problems were characteristic of chronic nitrous oxide misuse, vitamin B12 replacement was the main treatment, and partial recovery was the most commonly reported outcome. It did not define a universal multi-year recovery timetable.\n\nTwo years without nitrous oxide is 730 days without renewed exposure. Evidence shows neurological outcomes vary and partial recovery is commonly reported after cessation and treatment, so this milestone celebrates sustained protection rather than a fixed medical endpoint.",
   "@nitrousOxideReferenceDay730": {"description": "Source for the nitrous oxide recovery milestone at 730 days."},
   "nitrousOxideMilestone1095Title": "Three years of distance",
   "@nitrousOxideMilestone1095Title": {"description": "Title for the nitrous oxide recovery milestone at 1095 days."},
-  "nitrousOxideMilestone1095Description": "Three years without nitrous. You've avoided further exposure throughout that time.",
+  "nitrousOxideMilestone1095Description": "Three years nitrous-free. Your nerves and your B12 have had a long, steady break to recover.",
   "@nitrousOxideMilestone1095Description": {"description": "Description for the nitrous oxide recovery milestone at 1095 days."},
   "nitrousOxideReferenceDay1095": "Three Years - Stronger Ground\n\nSource: Marsden, Sharma & Rotella (2022), systematic review of chronic nitrous oxide misuse.\n\nThe review found neurological problems were characteristic of chronic nitrous oxide misuse, vitamin B12 replacement was the main treatment, and partial recovery was the most commonly reported outcome. It did not define a universal multi-year recovery timetable.\n\nThree years is a long stretch without restarting the exposure that caused the risk. Research does not map nerve recovery to this anniversary; the achievement is maintaining the change for 1095 days.",
   "@nitrousOxideReferenceDay1095": {"description": "Source for the nitrous oxide recovery milestone at 1095 days."},
   "nitrousOxideMilestone1460Title": "Four years",
   "@nitrousOxideMilestone1460Title": {"description": "Title for the nitrous oxide recovery milestone at 1460 days."},
-  "nitrousOxideMilestone1460Description": "Four years without nitrous oxide. Whatever recovery has involved, you've stayed with the change for another full year.",
+  "nitrousOxideMilestone1460Description": "Four years without nitrous. The old habit is well behind you, and your body's had years to heal.",
   "@nitrousOxideMilestone1460Description": {"description": "Description for the nitrous oxide recovery milestone at 1460 days."},
   "nitrousOxideReferenceDay1460": "Four Years - Built to Last\n\nSource: Marsden, Sharma & Rotella (2022), systematic review of chronic nitrous oxide misuse.\n\nThe review found neurological problems were characteristic of chronic nitrous oxide misuse, vitamin B12 replacement was the main treatment, and partial recovery was the most commonly reported outcome. It did not define a universal multi-year recovery timetable.\n\nFour years means another full year of protecting the progress already made. Nitrous oxide studies report variable recovery and persistent deficits in some cases, not a universal four-year finish line.",
   "@nitrousOxideReferenceDay1460": {"description": "Source for the nitrous oxide recovery milestone at 1460 days."},
   "nitrousOxideMilestone1825Title": "Five years",
   "@nitrousOxideMilestone1825Title": {"description": "Title for the nitrous oxide recovery milestone at 1825 days."},
-  "nitrousOxideMilestone1825Description": "Half a decade without nitrous. Five years of keeping a risky habit out of your life.",
+  "nitrousOxideMilestone1825Description": "Five years without nitrous. Half a decade of your nervous system working with the vitamins it needs.",
   "@nitrousOxideMilestone1825Description": {"description": "Description for the nitrous oxide recovery milestone at 1825 days."},
   "nitrousOxideReferenceDay1825": "Five Years - Lasting Change\n\nSource: Marsden, Sharma & Rotella (2022), systematic review of chronic nitrous oxide misuse.\n\nThe review found neurological problems were characteristic of chronic nitrous oxide misuse, vitamin B12 replacement was the main treatment, and partial recovery was the most commonly reported outcome. It did not define a universal multi-year recovery timetable.\n\nFive years without nitrous oxide is half a decade of sustained change. There is no evidence-based five-year neurological reset date; 1825 days of maintained direction is the milestone.",
   "@nitrousOxideReferenceDay1825": {"description": "Source for the nitrous oxide recovery milestone at 1825 days."},
   "socialMediaMilestone730Title": "Two years of your time",
   "@socialMediaMilestone730Title": {"description": "Title for the social media recovery milestone at 730 days."},
-  "socialMediaMilestone730Description": "Two years with more control over your attention. The routine has stuck long past the novelty of quitting.",
+  "socialMediaMilestone730Description": "Two years without social media. The scroll you used to fill an evening with is now just an evening.",
   "@socialMediaMilestone730Description": {"description": "Description for the social media recovery milestone at 730 days."},
   "socialMediaReferenceDay730": "Two Years With Social Media in Its Place\n\nSource: Ramadhan et al., “Impacts of digital social media detox for mental health: A systematic review and meta-analysis,” Narra J (2024), PubMed PMID 39280291\n\nThe meta-analysis combined 10 studies of digital-detox interventions. Depressive symptoms improved overall; pooled effects on life satisfaction, stress, and overall mental well-being were not statistically significant.\n\nThe included interventions do not establish a two-year health threshold. Day 730 celebrates two years of sustained, intentional digital choices, not a biological reset deadline.",
   "@socialMediaReferenceDay730": {"description": "Source for the social media recovery milestone at 730 days."},
   "socialMediaMilestone1095Title": "Three years",
   "@socialMediaMilestone1095Title": {"description": "Title for the social media recovery milestone at 1095 days."},
-  "socialMediaMilestone1095Description": "Three years of keeping social media in its place. Your time has been yours to spend.",
+  "socialMediaMilestone1095Description": "Three years without social media. Your attention has had a long stretch to do something else.",
   "@socialMediaMilestone1095Description": {"description": "Description for the social media recovery milestone at 1095 days."},
   "socialMediaReferenceDay1095": "Three Years: Attention on Your Terms\n\nSource: Ramadhan et al., “Impacts of digital social media detox for mental health: A systematic review and meta-analysis,” Narra J (2024), PubMed PMID 39280291\n\nThe meta-analysis combined 10 studies of digital-detox interventions. Depressive symptoms improved overall; pooled effects on life satisfaction, stress, and overall mental well-being were not statistically significant.\n\nThe research does not define 1,095 days as a mental-health or neurological endpoint. This milestone celebrates three years of keeping your digital habits deliberate.",
   "@socialMediaReferenceDay1095": {"description": "Source for the social media recovery milestone at 1095 days."},
   "socialMediaMilestone1460Title": "Four years, feed optional",
   "@socialMediaMilestone1460Title": {"description": "Title for the social media recovery milestone at 1460 days."},
-  "socialMediaMilestone1460Description": "Four years. Algorithms can keep arguing for your attention; you don't have to answer.",
+  "socialMediaMilestone1460Description": "Four years without social media. The old reflex is a closed chapter, and the new one is the default.",
   "@socialMediaMilestone1460Description": {"description": "Description for the social media recovery milestone at 1460 days."},
   "socialMediaReferenceDay1460": "Four Years: Deliberate by Default\n\nSource: Ramadhan et al., “Impacts of digital social media detox for mental health: A systematic review and meta-analysis,” Narra J (2024), PubMed PMID 39280291\n\nThe meta-analysis combined 10 studies of digital-detox interventions. Depressive symptoms improved overall; pooled effects on life satisfaction, stress, and overall mental well-being were not statistically significant.\n\nThe review does not test a four-year abstinence or reduction milestone. Day 1,460 is a behavioural anniversary: four years of maintaining a healthier boundary through ordinary life.",
   "@socialMediaReferenceDay1460": {"description": "Source for the social media recovery milestone at 1460 days."},
   "socialMediaMilestone1825Title": "Five years",
   "@socialMediaMilestone1825Title": {"description": "Title for the social media recovery milestone at 1825 days."},
-  "socialMediaMilestone1825Description": "Half a decade without the old scrolling habit. Five years of choosing what deserves your attention.",
+  "socialMediaMilestone1825Description": "Five years without social media. Half a decade of attention you actually get to keep.",
   "@socialMediaMilestone1825Description": {"description": "Description for the social media recovery milestone at 1825 days."},
   "socialMediaReferenceDay1825": "Five Years: Life Beyond the Feed\n\nSource: Ramadhan et al., “Impacts of digital social media detox for mental health: A systematic review and meta-analysis,” Narra J (2024), PubMed PMID 39280291\n\nThe meta-analysis combined 10 studies of digital-detox interventions. Depressive symptoms improved overall; pooled effects on life satisfaction, stress, and overall mental well-being were not statistically significant.\n\nThe review does not establish five-year outcomes. Day 1,825 is worth celebrating for what it actually is: half a decade of intentional digital choices, without an invented brain-reset timeline.",
   "@socialMediaReferenceDay1825": {"description": "Source for the social media recovery milestone at 1825 days."},
   "ssriMilestone730Title": "Two years of progress",
   "@ssriMilestone730Title": {"description": "Title for the ssri recovery milestone at 730 days."},
-  "ssriMilestone730Description": "Two years since your SSRI taper. There's no universal recovery clock. Whatever care and routines have helped you, you've maintained them for a long time.",
+  "ssriMilestone730Description": "Two years off an SSRI. You've had time to see how your mood actually behaves on its own, without the guesswork.",
   "@ssriMilestone730Description": {"description": "Description for the ssri recovery milestone at 730 days."},
   "ssriReferenceDay730": "Two Years After SSRIs: Steady Progress\n\nSource: Royal College of Psychiatrists — Stopping antidepressants\n\nThe Royal College says antidepressants should not usually be stopped suddenly and that tapering should be adapted to the individual. Withdrawal experiences vary, and some people need slower reductions over months or longer.\n\nThe guidance does not define a two-year biological recovery threshold after stopping an SSRI. Day 730 celebrates two years of sustained progress, not a fixed neurological timetable.",
   "@ssriReferenceDay730": {"description": "Source for the ssri recovery milestone at 730 days."},
   "ssriMilestone1095Title": "Three years, doing well",
   "@ssriMilestone1095Title": {"description": "Title for the ssri recovery milestone at 1095 days."},
-  "ssriMilestone1095Description": "Three years since stopping. Medication choices are personal, and continued support is sensible.",
+  "ssriMilestone1095Description": "Three years off an SSRI. The mood you have now belongs to you, not to a schedule.",
   "@ssriMilestone1095Description": {"description": "Description for the ssri recovery milestone at 1095 days."},
   "ssriReferenceDay1095": "Three Years After SSRIs: Progress Sustained\n\nSource: Royal College of Psychiatrists — Stopping antidepressants\n\nThe guidance describes withdrawal as individual: tapering pace depends on factors such as how long the medicine was taken and whether previous dose reductions caused symptoms.\n\nIt does not establish three years as a universal SSRI recovery deadline. Day 1095 recognises progress maintained over three years without inventing a clinical threshold.",
   "@ssriReferenceDay1095": {"description": "Source for the ssri recovery milestone at 1095 days."},
   "ssriMilestone1460Title": "Four years",
   "@ssriMilestone1460Title": {"description": "Title for the ssri recovery milestone at 1460 days."},
-  "ssriMilestone1460Description": "Four years since stopping your SSRI. Recognise your own progress and keep using the treatment and support that help you stay well.",
+  "ssriMilestone1460Description": "Four years off an SSRI. The decision to stop has held up against everything that's come since.",
   "@ssriMilestone1460Description": {"description": "Description for the ssri recovery milestone at 1460 days."},
   "ssriReferenceDay1460": "Four Years After SSRIs: Stronger Ground\n\nSource: Royal College of Psychiatrists — Stopping antidepressants\n\nThe Royal College recommends gradual, individualised tapering because withdrawal severity and duration differ between people. Some people need reductions spread across months or longer.\n\nThat evidence does not create a four-year neurological endpoint. Day 1460 celebrates four years of sustained change and the stability built along the way.",
   "@ssriReferenceDay1460": {"description": "Source for the ssri recovery milestone at 1460 days."},
   "ssriMilestone1825Title": "Five years",
   "@ssriMilestone1825Title": {"description": "Title for the ssri recovery milestone at 1825 days."},
-  "ssriMilestone1825Description": "Half a decade after stopping your SSRI. If this remains the right approach for you, five years of looking after your wellbeing is worth celebrating.",
+  "ssriMilestone1825Description": "Five years off an SSRI. A careful medical decision, kept faithfully for half a decade.",
   "@ssriMilestone1825Description": {"description": "Description for the ssri recovery milestone at 1825 days."},
   "ssriReferenceDay1825": "Five Years After SSRIs: Major Milestone\n\nSource: Royal College of Psychiatrists — Stopping antidepressants\n\nThe guidance focuses on safe, individualised tapering and responding to symptoms rather than assigning one fixed recovery schedule to everyone.\n\nThere is no evidence-based five-year SSRI recovery threshold in that guidance. Day 1825 is still a major personal anniversary: half a decade of sustained progress.",
   "@ssriReferenceDay1825": {"description": "Source for the ssri recovery milestone at 1825 days."},
   "steroidsMilestone1095Title": "Three years",
   "@steroidsMilestone1095Title": {"description": "Title for the steroids recovery milestone at 1095 days."},
-  "steroidsMilestone1095Description": "Three years steroid-free. Hormone recovery varies, and you've given yourself three years without another cycle.",
+  "steroidsMilestone1095Description": "Three years off steroids. A long stretch of your body running on its own chemistry.",
   "@steroidsMilestone1095Description": {"description": "Description for the steroids recovery milestone at 1095 days."},
   "steroidsReferenceDay1095": "Three Years Off Anabolic Steroids\n\nSource: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nThree Years of Distance\nRecovery after AAS is highly variable. The review reports testosterone and gonadotropin recovery over months, while testicular size and sperm production may recover over months to years. Psychological recovery is less predictable.\n\nWhat This Anniversary Means\nThe review does not define a three-year biological finish line. This milestone marks three years without re-exposure. Persistent low-testosterone, fertility, mood, or sexual symptoms are reasons to seek medical assessment.",
   "@steroidsReferenceDay1095": {"description": "Source for the steroids recovery milestone at 1095 days."},
   "steroidsMilestone1460Title": "Four years, no return",
   "@steroidsMilestone1460Title": {"description": "Title for the steroids recovery milestone at 1460 days."},
-  "steroidsMilestone1460Description": "Four years without another anabolic-steroid cycle. You've kept this change going through everyday life.",
+  "steroidsMilestone1460Description": "Four years off steroids. The old pattern is a closed chapter, and your body's been on its own for years.",
   "@steroidsMilestone1460Description": {"description": "Description for the steroids recovery milestone at 1460 days."},
   "steroidsReferenceDay1460": "Four Years Off Anabolic Steroids\n\nSource: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nFour Years of Consistency\nRecovery after AAS does not follow one clock. The review describes physical, reproductive, psychological, and biochemical recovery on different timelines, with some changes taking months to years.\n\nNo Invented Deadline\nThere is no evidence-based four-year recovery threshold. Four years without another cycle is still a substantial achievement. Ongoing symptoms deserve clinical assessment on their own merits.",
   "@steroidsReferenceDay1460": {"description": "Source for the steroids recovery milestone at 1460 days."},
   "steroidsMilestone1825Title": "Five years off steroids",
   "@steroidsMilestone1825Title": {"description": "Title for the steroids recovery milestone at 1825 days."},
-  "steroidsMilestone1825Description": "Half a decade without another cycle. Recovery isn't always neat, but five years of protecting your health deserves a proper celebration.",
+  "steroidsMilestone1825Description": "Five years off steroids. Half a decade of your hormonal system working on its own, and of you staying the course.",
   "@steroidsMilestone1825Description": {"description": "Description for the steroids recovery milestone at 1825 days."},
   "steroidsReferenceDay1825": "Five Years Off Anabolic Steroids\n\nSource: Physical, psychological and biochemical recovery from anabolic steroid-induced hypogonadism: a scoping review, Endocrine Connections (2023)\n\nFive Years Is a Major Milestone\nThe evidence shows that recovery after AAS varies widely. Many hormonal changes improve much earlier, while reproductive or psychological effects can follow longer and less predictable courses.\n\nHalf a Decade Without Re-Exposure\nThe review does not set a five-year biological finish line. Five years steroid-free is worth celebrating for the sustained change itself, while any persistent symptoms should still be assessed medically.",
   "@steroidsReferenceDay1825": {"description": "Source for the steroids recovery milestone at 1825 days."}
