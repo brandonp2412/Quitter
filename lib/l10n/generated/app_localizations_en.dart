@@ -1,5 +1,6 @@
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
+
 import 'app_localizations.dart';
 
 // ignore_for_file: type=lint
@@ -53,7 +54,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get kratomMilestone7Description =>
-      'A week through the rough patch of kratom withdrawal. That\'s the hardest part handled.';
+      'The rough patch of kratom withdrawal is behind you. That\'s the hardest part handled.';
 
   @override
   String get kratomMilestone14Title => 'Two weeks in';
@@ -424,7 +425,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get synthetic_cannabinoidsMilestone7Description =>
-      'A week through the worst of synthetic cannabinoid withdrawal. That\'s the hardest part handled.';
+      'The worst of synthetic cannabinoid withdrawal is behind you. That\'s the hardest part handled.';
 
   @override
   String get synthetic_cannabinoidsMilestone14Title => 'Two Weeks Clear';
@@ -865,7 +866,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get methMilestone7Description =>
-      'A week through the worst of meth withdrawal. That\'s the hardest part handled, and it only gets easier from here.';
+      'The worst of meth withdrawal is behind you. And it only gets easier from here.';
 
   @override
   String get methMilestone30Title => 'One month clear';
@@ -2297,7 +2298,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get opioidMilestone7Description =>
-      'A week through the peak of opioid withdrawal. That\'s the hardest part handled.';
+      'The peak of opioid withdrawal is behind you. That\'s the hardest part handled.';
 
   @override
   String get opioidMilestone14Title => 'Two weeks, still going';
