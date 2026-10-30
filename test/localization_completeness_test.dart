@@ -1256,11 +1256,11 @@ void main() {
         'SCREENSHOT_LOCALES: "en ar de es fa fr id ja ko pl pt pt-BR ru th ur zh zh-Hant"',
       ),
     );
-    expect(workflow, contains('needs: release-gate'));
     expect(
       workflow,
-      contains("needs.release-gate.outputs.should_release == 'true'"),
+      contains("if: \${{ github.event_name == 'workflow_dispatch' }}"),
     );
+    expect(workflow, contains('needs: [quality-checks, generate-screenshots]'));
     for (final locale in AppLocalizations.supportedLocales) {
       final localeKey = localePreferenceValue(locale);
       final storeLocale = storeLocales[localeKey];
