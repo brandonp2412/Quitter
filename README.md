@@ -52,25 +52,6 @@ A free and open-source quit tracker built around local data, useful milestones, 
 
 Translations are maintained directly in `lib/l10n/`. Contributions for any supported language are welcome through normal pull requests.
 
-## Development
-
-<details>
-<summary>Run Quitter locally</summary>
-<br>
-
-Quitter is built with Flutter.
-
-```bash
-git clone --recursive https://github.com/brandonp2412/Quitter.git quitter
-cd quitter
-flutter pub get
-flutter run
-```
-
-</details>
-
 ## License
 
 Quitter is available under the [MIT License](LICENSE.md).
-
-Vaping icon: adapted from [Electronic Cigarette — SVG Repo](https://www.svgrepo.com/svg/138430/electronic-cigarette) (CC0).
