@@ -12,6 +12,9 @@ import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:quitter/locale_utils.dart';
 
 class SettingsProvider extends ChangeNotifier {
+  SettingsProvider({this.onReminderDataChanged});
+
+  final VoidCallback? onReminderDataChanged;
   static const String _themeKey = 'theme_mode';
   static const String _colorSchemeKey = 'color_scheme';
   static const String _customColorKey = 'custom_color';
@@ -280,6 +283,7 @@ class SettingsProvider extends ChangeNotifier {
     _locale = normalized;
     notifyListeners();
     await _prefs?.setString(_localeKey, normalized);
+    onReminderDataChanged?.call();
   }
 
   set weekStartsMonday(bool value) {
@@ -444,6 +448,7 @@ class SettingsProvider extends ChangeNotifier {
   void setPresetNotify(String key, bool value) {
     _prefs?.setBool('notify_$key', value);
     notifyListeners();
+    onReminderDataChanged?.call();
   }
 
   bool getEntryNotify(String entryId) {
@@ -454,5 +459,6 @@ class SettingsProvider extends ChangeNotifier {
   void setEntryNotify(String entryId, bool value) {
     _prefs?.setBool('notify_entry_$entryId', value);
     notifyListeners();
+    onReminderDataChanged?.call();
   }
 }

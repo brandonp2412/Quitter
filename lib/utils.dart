@@ -25,15 +25,20 @@ String getTimeString(BuildContext context, int totalMinutes) {
   );
 }
 
-int daysCeil(String dateStr) {
+int daysCeil(String dateStr) => daysCeilAt(dateStr, DateTime.now());
+
+int daysCeilAt(String dateStr, DateTime referenceDate) {
   final quitDateTime = DateTime.parse(dateStr);
   final quitDate = DateTime.utc(
     quitDateTime.year,
     quitDateTime.month,
     quitDateTime.day,
   );
-  final today = DateTime.now();
-  final currentDate = DateTime.utc(today.year, today.month, today.day);
+  final currentDate = DateTime.utc(
+    referenceDate.year,
+    referenceDate.month,
+    referenceDate.day,
+  );
 
   return currentDate.difference(quitDate).inDays + 1;
 }

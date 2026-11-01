@@ -68,14 +68,16 @@ Future<void> main() async {
 
       await _migrateHiddenToDeleted();
 
-      final settings = SettingsProvider();
+      final settings = SettingsProvider(
+        onReminderDataChanged: refreshAndroidRemindersSoon,
+      );
       await settings.loadPreferences();
-      final addiction = AddictionProvider();
+      final addiction = AddictionProvider(
+        onReminderDataChanged: refreshAndroidRemindersSoon,
+      );
       await addiction.loadAddictions();
 
       talker.info('Application state loaded');
-
-      await rescheduleTasks();
 
       runApp(
         MultiProvider(
@@ -85,6 +87,12 @@ Future<void> main() async {
           ],
           child: const QuitterApp(),
         ),
+      );
+
+      unawaited(
+        rescheduleTasks().catchError((Object error, StackTrace stack) {
+          talker.handle(error, stack, 'Unable to schedule reminders');
+        }),
       );
     },
     (error, stack) =>

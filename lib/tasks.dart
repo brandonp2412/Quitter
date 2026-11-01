@@ -11,6 +11,7 @@ import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:quitter/locale_utils.dart';
 import 'package:quitter/logging.dart';
 import 'package:workmanager/workmanager.dart';
+import 'package:timezone/timezone.dart' as tz;
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:quitter/utils.dart';
 import 'package:quitter/settings_provider.dart';
@@ -18,6 +19,20 @@ import 'package:quitter/settings_provider.dart';
 Timer? timer;
 Timer? oneOffReminderTimer;
 Timer? periodicStarterTimer;
+Timer? _androidReminderRefresh;
+Future<void> _taskRefreshQueue = Future<void>.value();
+
+void refreshAndroidRemindersSoon() {
+  if (defaultTargetPlatform != TargetPlatform.android) return;
+  _androidReminderRefresh?.cancel();
+  _androidReminderRefresh = Timer(const Duration(seconds: 2), () {
+    unawaited(
+      rescheduleTasks().catchError((Object error, StackTrace stack) {
+        talker.handle(error, stack, 'Unable to refresh reminders');
+      }),
+    );
+  });
+}
 
 AppLocalizations _localizationsFor(SharedPreferences prefs) {
   final configuredLocale = prefs.getString('locale');
@@ -59,14 +74,24 @@ Future<void> setupTasks() async {
   var nextReminder = DateTime(now.year, now.month, now.day, hours, minutes);
 
   if (now.isAfter(nextReminder)) {
-    nextReminder = nextReminder.add(Duration(days: settings.notifyEvery));
+    nextReminder = DateTime(
+      now.year,
+      now.month,
+      now.day + settings.notifyEvery,
+      hours,
+      minutes,
+    );
   }
 
   final reminderDelay = nextReminder.difference(now);
 
-  if (defaultTargetPlatform == TargetPlatform.android ||
-      defaultTargetPlatform == TargetPlatform.iOS) {
-    talker.info('Registering mobile reminder tasks');
+  if (defaultTargetPlatform == TargetPlatform.android) {
+    await _scheduleAndroidReminders(nextReminder, settings.notifyEvery);
+    return;
+  }
+
+  if (defaultTargetPlatform == TargetPlatform.iOS) {
+    talker.info('Registering iOS reminder tasks');
     Workmanager().registerOneOffTask(
       "reminder_oneoff",
       "reminders",
@@ -233,11 +258,12 @@ Future<void> _showNotification(
   );
 }
 
-Future<void> notifyProgress(
-  FlutterLocalNotificationsPlugin plugin,
+Future<({String title, String body})?> createProgressNotification(
   SharedPreferences prefs,
-  AppLocalizations l10n,
-) async {
+  AppLocalizations l10n, {
+  DateTime? at,
+  AddictionProvider? addictionProvider,
+}) async {
   final random = Random();
 
   final List<Map<String, String>> journeys = [
@@ -293,8 +319,8 @@ Future<void> notifyProgress(
         _notificationEnabled(prefs, key);
   }).toList();
 
-  final addiction = AddictionProvider();
-  await addiction.loadAddictions();
+  final addiction = addictionProvider ?? AddictionProvider();
+  if (addictionProvider == null) await addiction.loadAddictions();
 
   final activeEntries = addiction.entries
       .where((e) => prefs.get('notify_entry_${e.id}') != false)
@@ -302,7 +328,7 @@ Future<void> notifyProgress(
 
   if (activeJourneys.isEmpty && activeEntries.isEmpty) {
     talker.info('Skipped reminder; no active journeys');
-    return;
+    return null;
   }
 
   final randomMessage = messages[random.nextInt(messages.length)];
@@ -313,14 +339,17 @@ Future<void> notifyProgress(
       activeEntries.isNotEmpty &&
       random.nextBool()) {
     final randomEntry = activeEntries[random.nextInt(activeEntries.length)];
-    final entryCount = daysCeil(randomEntry.quitDate.toIso8601String());
+    final entryCount = daysCeilAt(
+      randomEntry.quitDate.toIso8601String(),
+      at ?? DateTime.now(),
+    );
     notificationTitle = l10n.notificationProgressTitle(randomEntry.title);
     notificationBody = l10n.notificationProgressBody(entryCount, randomMessage);
   } else if (activeJourneys.isNotEmpty) {
     final randomJourney = activeJourneys[random.nextInt(activeJourneys.length)];
     final journeyDate = _validQuitDate(prefs, randomJourney['key']!);
-    if (journeyDate == null) return;
-    final journeyCount = daysCeil(journeyDate);
+    if (journeyDate == null) return null;
+    final journeyCount = daysCeilAt(journeyDate, at ?? DateTime.now());
     notificationTitle = l10n.notificationProgressTitle(randomJourney['name']!);
     notificationBody = l10n.notificationProgressBody(
       journeyCount,
@@ -328,12 +357,25 @@ Future<void> notifyProgress(
     );
   } else {
     final randomEntry = activeEntries[random.nextInt(activeEntries.length)];
-    final entryCount = daysCeil(randomEntry.quitDate.toIso8601String());
+    final entryCount = daysCeilAt(
+      randomEntry.quitDate.toIso8601String(),
+      at ?? DateTime.now(),
+    );
     notificationTitle = l10n.notificationProgressTitle(randomEntry.title);
     notificationBody = l10n.notificationProgressBody(entryCount, randomMessage);
   }
 
-  await _showNotification(plugin, notificationTitle, notificationBody, l10n);
+  return (title: notificationTitle, body: notificationBody);
+}
+
+Future<void> notifyProgress(
+  FlutterLocalNotificationsPlugin plugin,
+  SharedPreferences prefs,
+  AppLocalizations l10n,
+) async {
+  final content = await createProgressNotification(prefs, l10n);
+  if (content == null) return;
+  await _showNotification(plugin, content.title, content.body, l10n);
   talker.info('Delivered progress reminder');
 }
 
@@ -342,6 +384,65 @@ Future<void> doDesktopReminders() async {
   final l10n = _localizationsFor(prefs);
   final plugin = await _initializeNotificationPlugin(l10n);
   await notifyProgress(plugin, prefs, l10n);
+}
+
+Iterable<DateTime> reminderDatesForYear(
+  DateTime firstReminder,
+  int intervalDays,
+) sync* {
+  if (intervalDays <= 0) return;
+  for (var dayOffset = 0; dayOffset < 365; dayOffset += intervalDays) {
+    yield DateTime(
+      firstReminder.year,
+      firstReminder.month,
+      firstReminder.day + dayOffset,
+      firstReminder.hour,
+      firstReminder.minute,
+    );
+  }
+}
+
+Future<void> _scheduleAndroidReminders(
+  DateTime firstReminder,
+  int intervalDays,
+) async {
+  final prefs = await SharedPreferences.getInstance();
+  final l10n = _localizationsFor(prefs);
+  final plugin = await _initializeNotificationPlugin(l10n);
+  final addiction = AddictionProvider();
+  await addiction.loadAddictions();
+  final details = NotificationDetails(
+    android: AndroidNotificationDetails(
+      'reminders_channel_id',
+      l10n.notificationChannelName,
+      channelDescription: l10n.notificationChannelDescription,
+      importance: Importance.high,
+      priority: Priority.high,
+      icon: 'neurology',
+    ),
+  );
+
+  var id = 10000;
+  for (final date in reminderDatesForYear(firstReminder, intervalDays)) {
+    final content = await createProgressNotification(
+      prefs,
+      l10n,
+      at: date,
+      addictionProvider: addiction,
+    );
+    if (content == null) break;
+    await plugin.zonedSchedule(
+      id: id++,
+      title: content.title,
+      body: content.body,
+      scheduledDate: tz.TZDateTime.from(date.toUtc(), tz.UTC),
+      notificationDetails: details,
+      androidScheduleMode: AndroidScheduleMode.inexactAllowWhileIdle,
+    );
+  }
+  talker.info(
+    'Scheduled ${id - 10000} Android reminders without Flutter workers',
+  );
 }
 
 Future<void> cancelReminderTasks() async {
@@ -354,6 +455,9 @@ Future<void> cancelReminderTasks() async {
       Workmanager().cancelByUniqueName('reminders'),
       Workmanager().cancelByUniqueName('reminder_oneoff'),
     ]);
+    if (defaultTargetPlatform == TargetPlatform.android) {
+      await FlutterLocalNotificationsPlugin().cancelAllPendingNotifications();
+    }
     return;
   }
 
@@ -380,9 +484,15 @@ Future<void> cancelTasks() async {
   }
 }
 
-Future<void> rescheduleTasks() async {
-  await cancelTasks();
-  await setupTasks();
+Future<void> rescheduleTasks() {
+  final pending = _taskRefreshQueue.then((_) async {
+    await cancelTasks();
+    await setupTasks();
+  });
+  _taskRefreshQueue = pending.catchError((Object error, StackTrace stack) {
+    talker.handle(error, stack, 'Unable to reschedule tasks');
+  });
+  return pending;
 }
 
 Future<void> doMobileReminders() async {

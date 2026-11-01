@@ -8,6 +8,9 @@ import 'package:quitter/entry.dart';
 import 'package:quitter/logging.dart';
 
 class AddictionProvider extends ChangeNotifier {
+  AddictionProvider({this.onReminderDataChanged});
+
+  final VoidCallback? onReminderDataChanged;
   SharedPreferences? _pref;
 
   String? _smoking;
@@ -225,6 +228,7 @@ class AddictionProvider extends ChangeNotifier {
       await _pref?.setString(key, value);
     }
     await loadAddictions();
+    onReminderDataChanged?.call();
     talker.info(
       value == null ? 'Removed a tracked journey' : 'Updated a tracked journey',
     );
@@ -352,6 +356,7 @@ class AddictionProvider extends ChangeNotifier {
         .map((e) => e.toJson())
         .toList();
     await _pref?.setString('entries', json.encode(list));
+    onReminderDataChanged?.call();
   }
 
   Future<void> addEntry(Entry e) async {
