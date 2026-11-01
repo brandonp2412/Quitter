@@ -1,0 +1,49 @@
+Samsung verification, 2026-11-01 (Pacific/Auckland)
+
+Requested source: 0989b1aa511ce16a9d2030abf73c0a83a70b970c
+Built checkout: 1da26ca, a descendant including Android test-data safeguards.
+A pre-existing lib/l10n/app_en.arb edit was present during the build and was
+preserved. Generated translations were restored to their original checkout
+state afterward; the user's source translation edit was not changed.
+Device: Samsung Galaxy S25 (SM-S931B), Android 17.
+Installed release: com.quitter.app, 1.1.81, versionCode 12603.
+Install: adb install -r; succeeded. No uninstall or data clearing.
+Original firstInstallTime remained 2026-10-27 20:55:06.
+Installed APK matches the built release by SHA-256:
+1b560e1fbb2d4a77acf75125cafe2f4787704de70f9fa2fdc0863c0ed8220ec4
+
+Buildq task 3233 passed:
+- dart format --output=none --set-exit-if-changed lib test (133 files unchanged)
+- flutter analyze lib test
+- flutter test test (190 tests)
+- flutter build apk --release --split-per-abi
+No Flutter integration tests or Flutter install/run commands ran on Samsung.
+
+Samsung checks:
+- Existing Alcohol and Vaping journeys survived the release update.
+- Existing reminder setting: every 7 days at 8:30 AM.
+- Native AlarmManager ScheduledNotificationReceiver alarms appeared.
+- Temporarily changed reminder time through Settings to 5:03 PM.
+- Android registered 53 production reminder alarms, seven days apart.
+- Left the app, used am kill (not force-stop), and confirmed no app PID.
+- AlarmManager recorded an inexact window ending at 17:05:47.690.
+- At 17:05:47.725 Android created app process 12457.
+- At 17:05:47.750 NotificationManager posted reminder 10000.
+- At 17:05:54 the reminder was active and no app services were running.
+- libflutter.so was first loaded at 17:06:00.682, after the reminder posted,
+  when the app activity opened. Reminder delivery needed no Flutter engine.
+- WorkManager's Android initializer ran at process creation; this is distinct
+  from running a Flutter background worker for reminder delivery.
+
+Restoration:
+- Restored Settings to every 7 days at 8:30 AM and captured the UI.
+- AlarmManager confirmed the next production reminder on November 8 at
+  08:30 and subsequent weekly reminders.
+
+Limits:
+The activity was observed open after delivery, but a notification tap was
+not independently confirmed. The notification shade hierarchy capture
+failed to reach idle, so its stale XML was not used as evidence.
+This checks delivery while the app is closed, not reboot recovery or every
+possible reminder-setting combination.
+Raw local evidence: /home/brandon/samsung-proof-20261101
