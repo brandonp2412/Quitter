@@ -10,6 +10,7 @@ import 'package:quitter/app_theme_mode.dart';
 import 'package:quitter/edit_entry_page.dart';
 import 'package:quitter/entry.dart';
 import 'package:quitter/home_page.dart';
+import 'package:quitter/journal_page.dart';
 import 'package:quitter/l10n/generated/app_localizations.dart';
 import 'package:quitter/marijuana_page.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -241,10 +242,11 @@ void main() {
           settings.themeMode = AppThemeMode.light;
           await tester.pumpAndSettle();
           final TabController tabController = tester
-              .widget<TabBar>(find.byType(TabBar))
+              .widget<TabBarView>(find.byType(TabBarView))
               .controller!;
-          tabController.animateTo(1); // Move to Journal tab
+          tabController.animateTo(2);
           await tester.pumpAndSettle();
+          expect(find.byType(JournalPage).hitTestable(), findsOneWidget);
         },
       ),
     );
