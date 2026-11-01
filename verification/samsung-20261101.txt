@@ -41,9 +41,10 @@ Restoration:
   08:30 and subsequent weekly reminders.
 
 Limits:
-The activity was observed open after delivery, but a notification tap was
-not independently confirmed. The notification shade hierarchy capture
-failed to reach idle, so its stale XML was not used as evidence.
+The user confirmed the reminder worked in response to the question about
+tapping it and opening the app. The activity was also observed open after
+delivery. The notification shade hierarchy capture failed to reach idle,
+so its stale XML was not used as evidence.
 This checks delivery while the app is closed, not reboot recovery or every
 possible reminder-setting combination.
 Raw local evidence: /home/brandon/samsung-proof-20261101
