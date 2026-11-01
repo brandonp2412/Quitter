@@ -19,7 +19,7 @@
         android:name="${applicationName}"
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
-        android:label="Quitter">
+        android:label="${appLabel}">
         <!-- Work around a reported Vulkan allocator crash during Android Flutter startup.
              https://docs.flutter.dev/perf/impeller -->
         <meta-data

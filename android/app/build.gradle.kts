@@ -18,6 +18,7 @@ android {
     
     defaultConfig {
         applicationId = "com.quitter.app"
+        manifestPlaceholders["appLabel"] = "Quitter"
         minSdk = Math.max(flutter.minSdkVersion.toInt(), 23) // WorkManager requires API level 23 or higher
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
@@ -83,9 +84,11 @@ android {
         }
         getByName("profile") {
             applicationIdSuffix = ".profile"
+            manifestPlaceholders["appLabel"] = "Quitter Test"
         }
         debug {
             applicationIdSuffix = ".debug"
+            manifestPlaceholders["appLabel"] = "Quitter Debug"
             val keyPropertiesFile = rootProject.file("key.properties")
             signingConfig = if (keyPropertiesFile.exists() && signingConfigs.getByName("release").storeFile != null) {
                 signingConfigs.getByName("release")
