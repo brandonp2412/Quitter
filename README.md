@@ -48,14 +48,6 @@ A free and open-source quit tracker built around local data, useful milestones, 
 
 </div>
 
-## Built for the journey
-
-**Private by design.** Quitter doesn't track you. Your progress is stored locally instead of being sent to an account or analytics service.
-
-**More than one goal.** Track multiple habits at once, follow milestones, journal how things are going, and get progress notifications when you want them.
-
-**Make it yours.** Choose colours and themes, create custom entries, and turn features on or off so the app stays focused on what matters to you.
-
 ## Help translate Quitter
 
 Translations are maintained directly in `lib/l10n/`. Contributions for any supported language are welcome through normal pull requests.
