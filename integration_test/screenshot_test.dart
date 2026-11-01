@@ -4,6 +4,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:integration_test/integration_test.dart';
 import 'package:provider/provider.dart';
+import 'package:package_info_plus/package_info_plus.dart';
 import 'package:quitter/addiction_provider.dart';
 import 'package:quitter/app_theme_mode.dart';
 import 'package:quitter/edit_entry_page.dart';
@@ -96,6 +97,17 @@ void main() {
       IntegrationTestWidgetsFlutterBinding.ensureInitialized();
 
   setUpAll(() async {
+    if (defaultTargetPlatform == TargetPlatform.android) {
+      final packageInfo = await PackageInfo.fromPlatform();
+      if (packageInfo.packageName != 'com.quitter.app.debug' &&
+          packageInfo.packageName != 'com.quitter.app.profile') {
+        throw StateError(
+          'Refusing to clear data in non-test Android package: '
+          '${packageInfo.packageName}',
+        );
+      }
+    }
+
     final prefs = await SharedPreferences.getInstance();
     await prefs.clear();
     await prefs.setString('locale', screenshotLocale);

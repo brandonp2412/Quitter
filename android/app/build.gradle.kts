@@ -81,6 +81,9 @@ android {
                 signingConfig = signingConfigs.getByName("release")
             }
         }
+        getByName("profile") {
+            applicationIdSuffix = ".profile"
+        }
         debug {
             applicationIdSuffix = ".debug"
             val keyPropertiesFile = rootProject.file("key.properties")
