@@ -29,7 +29,7 @@ void main() {
       await tester.pumpAndSettle();
 
       final svg = tester.widget<SvgPicture>(find.byType(SvgPicture));
-      expect(svg.renderingStrategy, RenderingStrategy.raster);
+      expect(svg.renderingStrategy, RenderingStrategy.picture);
       expect(svg.width, 40);
       expect(svg.height, 40);
       expect(
