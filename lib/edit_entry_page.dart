@@ -230,7 +230,7 @@ class _EditEntryPageState extends State<EditEntryPage> {
                   ),
                 ),
                 Align(
-                  alignment: Alignment.centerRight,
+                  alignment: Alignment.centerLeft,
                   child: TextButton.icon(
                     onPressed: () => setState(() {
                       _selectedColor = Colors.blue;
@@ -279,7 +279,7 @@ class _EditEntryPageState extends State<EditEntryPage> {
                   ),
                 ),
                 Align(
-                  alignment: Alignment.centerRight,
+                  alignment: Alignment.centerLeft,
                   child: TextButton.icon(
                     onPressed: () => setState(() {
                       _selectedIcon = Icons.star;

@@ -144,7 +144,7 @@ class _EditPresetPageState extends State<EditPresetPage> {
                   ),
                 ),
                 Align(
-                  alignment: Alignment.centerRight,
+                  alignment: Alignment.centerLeft,
                   child: TextButton.icon(
                     onPressed: () => setState(() {
                       _selectedColor = widget.defaultColor ?? widget.color;
@@ -190,7 +190,7 @@ class _EditPresetPageState extends State<EditPresetPage> {
                   ),
                 ),
                 Align(
-                  alignment: Alignment.centerRight,
+                  alignment: Alignment.centerLeft,
                   child: TextButton.icon(
                     onPressed: () => setState(() {
                       _selectedIcon = widget.defaultIcon ?? widget.icon;
