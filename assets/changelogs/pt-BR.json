@@ -157,5 +157,6 @@
   "1790355309": "• correção(l10n): localizar notas de versão 1.1.77",
   "1790386593": "• correção(l10n): localizar notas de versão 1.1.78",
   "1790406219": "• correção (l10n): cobertura completa do changelog 1.1.79\n• correção (l10n): localizar notas de versão 1.1.79",
-  "1792007720": "• Agora é possível tocar em toda a área dos cartões de conquistas\n• Adicionados árabe, indonésio e português do Brasil e de Portugal\n• Melhorias na compilação para Android e na gestão de dependências"
+  "1792007720": "• Agora é possível tocar em toda a área dos cartões de conquistas\n• Adicionados árabe, indonésio e português do Brasil e de Portugal\n• Melhorias na compilação para Android e na gestão de dependências",
+  "1793508331": "• Os cartões de vape agora exibem um ícone maior\n• O botão Doar e a barra de abas ficam livres da navegação do sistema Android\n• O rodapé da página Novidades agora se alinha à barra de abas\n• Os avisos de atualização aparecem no máximo uma vez a cada 14 dias"
 }

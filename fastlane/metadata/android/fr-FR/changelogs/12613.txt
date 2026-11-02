@@ -1,0 +1,4 @@
+• Les tuiles de vapotage affichent désormais une icône plus grande
+• Le bouton Faire un don et la barre d’onglets restent dégagés de la navigation système Android
+• Le pied de page « Nouveautés » est désormais aligné sur la barre d’onglets
+• Les avis de mise à jour s’affichent au maximum une fois tous les 14 jours

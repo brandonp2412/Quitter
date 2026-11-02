@@ -1,10 +1,4 @@
-• Add VS Code Flutter launch configurations
-• Enlarge vaping icon within existing tiles
-• Fix centering of README
-• Fix changelog Donate button on Android
-• Keep Donate action clear of system navigation
-• Keep tab dock visible and align release-note footer
-• Limit upgrade snackbars to once every 14 days
-• Pin pubspec.lock to flutter submodule
-• Preserve Nox milestone wording during Glass reconciliation
-• Preserve recovered Glass changes for reconciliation
+• Vaping tiles now show a larger icon
+• The Donate button and tab bar stay clear of Android system navigation
+• The What's New page footer now aligns with the tab bar
+• Update notices now appear at most once every 14 days

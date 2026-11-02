@@ -157,5 +157,6 @@
   "1790355309": "• correção(l10n): localizar notas de versão 1.1.77",
   "1790386593": "• correção(l10n): localizar notas de versão 1.1.78",
   "1790406219": "• correção (l10n): cobertura completa do changelog 1.1.79\n• correção (l10n): localizar notas de versão 1.1.79",
-  "1792007720": "• Os cartões de marcos podem agora ser tocados em toda a sua área\n• Adicionados árabe, indonésio e português do Brasil e de Portugal\n• Melhorias na compilação Android e gestão de dependências"
+  "1792007720": "• Os cartões de marcos podem agora ser tocados em toda a sua área\n• Adicionados árabe, indonésio e português do Brasil e de Portugal\n• Melhorias na compilação Android e gestão de dependências",
+  "1793508331": "• Os cartões de vaporização apresentam agora um ícone maior\n• O botão Doar e a barra de separadores ficam livres da navegação do sistema Android\n• O rodapé da página Novidades está agora alinhado com a barra de separadores\n• Os avisos de atualização aparecem, no máximo, uma vez a cada 14 dias"
 }

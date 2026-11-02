@@ -1,0 +1,4 @@
+• Los mosaicos de vapeo ahora muestran un icono más grande
+• El botón Donar y la barra de pestañas quedan fuera de la navegación del sistema de Android
+• El pie de la página «Novedades» ahora se alinea con la barra de pestañas
+• Los avisos de actualización aparecen como máximo una vez cada 14 días

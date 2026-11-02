@@ -1,0 +1,4 @@
+• Kafelki wapowania wyświetlają teraz większą ikonę
+• Przycisk Darowizna i pasek kart nie nachodzą na systemowy pasek nawigacji Androida
+• Stopka strony „Co nowego” jest teraz wyrównana z paskiem kart
+• Powiadomienia o aktualizacjach pojawiają się najwyżej raz na 14 dni

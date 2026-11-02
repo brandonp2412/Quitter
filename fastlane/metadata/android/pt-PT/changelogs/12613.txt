@@ -1,0 +1,4 @@
+• Os cartões de vaporização apresentam agora um ícone maior
+• O botão Doar e a barra de separadores ficam livres da navegação do sistema Android
+• O rodapé da página Novidades está agora alinhado com a barra de separadores
+• Os avisos de atualização aparecem, no máximo, uma vez a cada 14 dias

@@ -1,0 +1,4 @@
+• Ikon pada ubin vaping kini lebih besar
+• Tombol Donasi dan bilah tab tidak tertutup navigasi sistem Android
+• Footer halaman Yang Baru kini sejajar dengan bilah tab
+• Pemberitahuan pembaruan kini muncul paling sering setiap 14 hari

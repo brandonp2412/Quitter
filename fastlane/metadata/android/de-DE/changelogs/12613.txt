@@ -1,0 +1,4 @@
+• Größeres Symbol auf den Kacheln für Dampfen
+• Die Spenden-Schaltfläche und die Tab-Leiste bleiben von der Android-Systemnavigation frei
+• Die Fußzeile der Seite „Neuigkeiten“ ist jetzt an der Tab-Leiste ausgerichtet
+• Update-Hinweise erscheinen höchstens einmal alle 14 Tage

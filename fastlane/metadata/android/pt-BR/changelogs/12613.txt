@@ -1,0 +1,4 @@
+• Os cartões de vape agora exibem um ícone maior
+• O botão Doar e a barra de abas ficam livres da navegação do sistema Android
+• O rodapé da página Novidades agora se alinha à barra de abas
+• Os avisos de atualização aparecem no máximo uma vez a cada 14 dias
